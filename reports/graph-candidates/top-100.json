@@ -1,0 +1,1233 @@
+[
+  {
+    "score": 14.0,
+    "page_a": "wiki/mind/synthesis/attachment-trauma-bond.md",
+    "page_b": "wiki/timeline/events/eli-incident.md **(DONE 2026-07-20)**",
+    "notes": [
+      "- type: evidenced-by (both directions) \u2014 added typed edges + prose wikilink fix on both pages."
+    ],
+    "status": "done"
+  },
+  {
+    "score": 12.9,
+    "page_a": "wiki/people/danielle-onesi.md",
+    "page_b": "wiki/timeline/events/timeline.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md`",
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- wiki/people/danielle-onesi.md names 'timeline' unlinked",
+      "- co-cited from 2 pages",
+      "- shared tags: infidelity",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 12.6,
+    "page_a": "wiki/self/chats/gemini-02.md",
+    "page_b": "wiki/timeline/periods/2025-collapse.md **(RETIRED 2026-07-18: chats/gemini-02 page deleted \u2014 storytime absorbed into wiki/work/au-zaatar + wiki/timeline/periods/2021-2023-employment-block; re-evaluate pair against those pages)**",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- shared source: `raw/self/dox-md/Gemini-_07.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_02.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_00.md`",
+      "- co-cited from 2 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "rejected"
+  },
+  {
+    "score": 12.6,
+    "page_a": "wiki/mind/synthesis/dan-annie-fallout-verdict.md",
+    "page_b": "wiki/timeline/events/group-chat-closure.md",
+    "notes": [
+      "- shared source: `raw/self/message-csv/annie_all_time_logs.csv`",
+      "- shared source: `raw/self/message-csv/THE END FIGHT.csv`",
+      "- shared source: `raw/self/message-csv/END_FIGHT_full.csv`",
+      "- shared source: `raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt`",
+      "- co-cited from 2 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 12.2,
+    "page_a": "wiki/mind/synthesis/vertical-authority-skepticism.md",
+    "page_b": "wiki/self/context-core.md",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- wiki/mind/synthesis/vertical-authority-skepticism.md names 'spine' unlinked",
+      "- wiki/mind/synthesis/vertical-authority-skepticism.md names 'context_core_expanded' unlinked",
+      "- co-cited from 19 pages",
+      "- shared tags: family",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 11.9,
+    "page_a": "wiki/self/context-core.md",
+    "page_b": "wiki/timeline/events/timeline.md",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- wiki/self/context-core.md names 'timeline' unlinked",
+      "- wiki/timeline/events/timeline.md names 'context_core_expanded' unlinked",
+      "- co-cited from 3 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 11.2,
+    "page_a": "wiki/mind/concepts/node-locking.md",
+    "page_b": "wiki/self/gemini-activity/gemini-activity.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_07.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- wiki/self/gemini-activity/gemini-activity.md names 'node locking' unlinked",
+      "- wiki/self/gemini-activity/gemini-activity.md names 'data_logged' unlinked",
+      "- co-cited from 2 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 11.2,
+    "page_a": "wiki/mind/synthesis/totality-themes.md",
+    "page_b": "wiki/self/context-core.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_07.md`",
+      "- wiki/mind/synthesis/totality-themes.md names 'spine' unlinked",
+      "- wiki/mind/synthesis/totality-themes.md names 'context_core_expanded' unlinked",
+      "- co-cited from 11 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 10.8,
+    "page_a": "wiki/mind/synthesis/totality-themes.md",
+    "page_b": "wiki/self/chats/gemini-02.md **(RETIRED 2026-07-18: chats/gemini-02 page deleted \u2014 storytime absorbed into wiki/work/au-zaatar + wiki/timeline/periods/2021-2023-employment-block; re-evaluate pair against those pages)**",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_07.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_00.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_21 copy.md`",
+      "- co-cited from 2 pages",
+      "- shared tags: politics",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "rejected"
+  },
+  {
+    "score": 10.5,
+    "page_a": "wiki/people/alexis-armel.md",
+    "page_b": "wiki/self/gemini-activity/archive/v1-extract.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- shared source: `raw/self/dox-scan/Gemini-_58.txt`",
+      "- shared source: `raw/self/dox-md/Gemini-_00.md`",
+      "- wiki/self/gemini-activity/archive/v1-extract.md names 'alexis' unlinked",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 10.5,
+    "page_a": "wiki/self/context-core.md",
+    "page_b": "wiki/timeline/periods/2017-poverty-floor.md",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- wiki/timeline/periods/2017-poverty-floor.md names 'context_core_expanded' unlinked",
+      "- co-cited from 4 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 10.5,
+    "page_a": "wiki/mind/synthesis/attachment-trauma-bond.md",
+    "page_b": "wiki/self/context-core.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_07.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- wiki/mind/synthesis/attachment-trauma-bond.md names 'context_core_expanded' unlinked",
+      "- co-cited from 4 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 10.5,
+    "page_a": "wiki/mind/concepts/forensic-method.md",
+    "page_b": "wiki/work/tech/max-framework/overview.md **(DONE 2026-07-20)**",
+    "notes": [
+      "- type: instance-of/contains \u2014 added.",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "done"
+  },
+  {
+    "score": 10.2,
+    "page_a": "wiki/mind/concepts/forensic-method.md",
+    "page_b": "wiki/mind/synthesis/totality-themes.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_07.md`",
+      "- shared source: `raw/self/chats/j6-chat.md`",
+      "- wiki/mind/synthesis/totality-themes.md names 'procedural tells' unlinked",
+      "- co-cited from 5 pages",
+      "- shared tags: politics, forensic-analysis, trauma-bond",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 10.1,
+    "page_a": "wiki/people/suzanne-frank.md",
+    "page_b": "wiki/work/au-zaatar.md",
+    "notes": [
+      "- shared source: `raw/self/dansynth/DANSYNTH.txt`",
+      "- shared source: `raw/self/dansynth/dansynth-scrape-phases-2-7.md`",
+      "- co-cited from 5 pages",
+      "- shared tags: housing",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 9.8,
+    "page_a": "wiki/people/jacob-bacharach.md",
+    "page_b": "wiki/self/gemini-activity/gemini-activity.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_13.md`",
+      "- wiki/people/jacob-bacharach.md names 'gemini activity' unlinked",
+      "- co-cited from 3 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 9.8,
+    "page_a": "wiki/people/tarik-fallous.md",
+    "page_b": "wiki/self/gemini-activity/gemini-activity.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_02.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_00.md`",
+      "- wiki/people/tarik-fallous.md names 'gemini activity' unlinked",
+      "- co-cited from 3 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 9.4,
+    "page_a": "wiki/mind/synthesis/attachment-trauma-bond.md",
+    "page_b": "wiki/timeline/events/march-2026-terminal-phase.md",
+    "notes": [
+      "- shared source: `raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx`",
+      "- shared source: `raw/self/dox-scan/DanAnnie_TenYears_WithAmendments.docx`",
+      "- shared source: `raw/self/dox-scan/DanAnnie_TheoryOfEverything_Updated.docx`",
+      "- shared tags: trauma-bond",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 9.2,
+    "page_a": "wiki/mind/concepts/forensic-method.md",
+    "page_b": "wiki/mind/synthesis/attachment-trauma-bond.md **(DONE 2026-07-20)**",
+    "notes": [
+      "- type: instance-of (both directions) \u2014 added."
+    ],
+    "status": "done"
+  },
+  {
+    "score": 9.1,
+    "page_a": "wiki/mind/concepts/node-locking.md",
+    "page_b": "wiki/self/chats/gemini-02.md **(RETIRED 2026-07-18: chats/gemini-02 page deleted \u2014 storytime absorbed into wiki/work/au-zaatar + wiki/timeline/periods/2021-2023-employment-block; re-evaluate pair against those pages)**",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_07.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- wiki/self/chats/gemini-02.md names 'deep architecture' unlinked",
+      "- co-cited from 2 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "rejected"
+  },
+  {
+    "score": 9.1,
+    "page_a": "wiki/people/suzanne-frank.md",
+    "page_b": "wiki/self/gemini-activity/gemini-activity.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_07.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- wiki/people/suzanne-frank.md names 'gemini activity' unlinked",
+      "- co-cited from 2 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 9.1,
+    "page_a": "wiki/mind/concepts/forensic-method.md",
+    "page_b": "wiki/people/suzanne-frank.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_07.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- co-cited from 5 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 9.1,
+    "page_a": "wiki/mind/synthesis/totality-themes.md",
+    "page_b": "wiki/self/chats/gemini-07.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_07.md`",
+      "- shared source: `raw/self/dox-md/LIFE REPORT.md`",
+      "- co-cited from 2 pages",
+      "- shared tags: politics, trauma-bond",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 9.1,
+    "page_a": "wiki/mind/synthesis/totality-themes.md",
+    "page_b": "wiki/timeline/periods/2021-2023-employment-block.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_00.md`",
+      "- shared source: `raw/self/location/2026-06-22-ingest/`",
+      "- co-cited from 5 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 8.8,
+    "page_a": "wiki/people/danielle-onesi.md",
+    "page_b": "wiki/self/overview.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/FULL PROFILE 2026.md`",
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- wiki/self/overview.md names 'danielle' unlinked",
+      "- shared tags: infidelity",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 8.8,
+    "page_a": "wiki/self/chats/gemini-02.md",
+    "page_b": "wiki/timeline/events/timeline.md **(RETIRED 2026-07-18: chats/gemini-02 page deleted \u2014 storytime absorbed into wiki/work/au-zaatar + wiki/timeline/periods/2021-2023-employment-block; re-evaluate pair against those pages)**",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- wiki/self/chats/gemini-02.md names 'timeline' unlinked",
+      "- shared tags: career",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "rejected"
+  },
+  {
+    "score": 8.8,
+    "page_a": "wiki/people/suzanne-frank.md",
+    "page_b": "wiki/places/155-virginia-ave.md",
+    "notes": [
+      "- shared source: `raw/self/dansynth/DANSYNTH.txt`",
+      "- shared source: `raw/self/dansynth/dansynth-scrape-phases-2-7.md`",
+      "- co-cited from 3 pages",
+      "- shared tags: housing",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 8.8,
+    "page_a": "wiki/people/james.md",
+    "page_b": "wiki/people/max-danielle-bf.md",
+    "notes": [
+      "- shared source: `raw/self/dox-scan/Gemini-_58.txt`",
+      "- shared source: `raw/self/dox-md/Gemini-_21.md`",
+      "- shared source: `raw/self/dox-md/MAX_PRIME.md`",
+      "- shared source: `raw/self/dox-md/_\u2623\u2622 \ud835\ude7c\ud835\ude8a\ud835\udea1 \u2622\u2623 Pinned chat.md`",
+      "- shared tags: music-production",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 8.8,
+    "page_a": "wiki/self/chats/gemini-21.md",
+    "page_b": "wiki/work/tech/max-framework/overview.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/MAX_PRIME.md`",
+      "- shared source: `raw/self/dox-md/_\u2623\u2622 \ud835\ude7c\ud835\ude8a\ud835\udea1 \u2622\u2623 Pinned chat.md`",
+      "- co-cited from 3 pages",
+      "- shared tags: politics",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 8.8,
+    "page_a": "wiki/mind/concepts/conflict-architecture.md",
+    "page_b": "wiki/mind/synthesis/attachment-trauma-bond.md **(DONE 2026-07-20)**",
+    "notes": [
+      "- type: mirrors (both directions) \u2014 added."
+    ],
+    "status": "done"
+  },
+  {
+    "score": 8.5,
+    "page_a": "wiki/mind/synthesis/political-psyops.md",
+    "page_b": "wiki/mind/synthesis/totality-themes.md **(DONE 2026-07-20)**",
+    "notes": [
+      "- type: component-of/contains \u2014 added."
+    ],
+    "status": "done"
+  },
+  {
+    "score": 8.4,
+    "page_a": "wiki/people/vanessa-frank.md",
+    "page_b": "wiki/self/context-core.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- wiki/self/context-core.md names 'vanessa' unlinked",
+      "- wiki/people/vanessa-frank.md names 'spine' unlinked",
+      "- co-cited from 2 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 8.4,
+    "page_a": "wiki/mind/synthesis/millennial-digital-witness.md",
+    "page_b": "wiki/self/context-core.md",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- wiki/mind/synthesis/millennial-digital-witness.md names 'context_core_expanded' unlinked",
+      "- co-cited from 5 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 8.4,
+    "page_a": "wiki/people/fran-coldren.md",
+    "page_b": "wiki/work/au-zaatar.md",
+    "notes": [
+      "- shared source: `raw/self/dansynth/DANSYNTH.txt`",
+      "- shared source: `raw/self/dansynth/dansynth-scrape-phases-2-7.md`",
+      "- co-cited from 4 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 8.4,
+    "page_a": "wiki/people/alexis-armel.md",
+    "page_b": "wiki/self/chats/gemini-02.md **(RETIRED 2026-07-18: chats/gemini-02 page deleted \u2014 storytime absorbed into wiki/work/au-zaatar + wiki/timeline/periods/2021-2023-employment-block; re-evaluate pair against those pages)**",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_00.md`",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "rejected"
+  },
+  {
+    "score": 8.4,
+    "page_a": "wiki/people/tarik-fallous.md",
+    "page_b": "wiki/timeline/periods/2025-collapse.md",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- shared source: `raw/self/dox-md/Gemini-_02.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_00.md`",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 8.4,
+    "page_a": "wiki/self/gemini-activity/archive/v1-extract.md",
+    "page_b": "wiki/timeline/periods/2025-collapse.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_07.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_02.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_00.md`",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 8.4,
+    "page_a": "wiki/mind/synthesis/attachment-trauma-bond.md",
+    "page_b": "wiki/people/milo.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- shared source: `raw/self/dox-md/LIFE REPORT.md`",
+      "- shared source: `raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md`",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 8.4,
+    "page_a": "wiki/people/milo.md",
+    "page_b": "wiki/timeline/events/timeline.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- shared source: `raw/self/dox-md/LIFE REPORT.md`",
+      "- shared source: `raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md`",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 8.0,
+    "page_a": "wiki/interests/music/concepts/sub-bass-signature.md",
+    "page_b": "wiki/self/context-core.md",
+    "notes": [
+      "- wiki/interests/music/concepts/sub-bass-signature.md names 'context core' unlinked",
+      "- wiki/interests/music/concepts/sub-bass-signature.md names 'context_core_expanded' unlinked",
+      "- co-cited from 4 pages",
+      "- shared tags: family",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 8.0,
+    "page_a": "wiki/mind/concepts/contact-gini.md",
+    "page_b": "wiki/people/alexis-armel.md",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- co-cited from 6 pages",
+      "- shared tags: trauma-bond",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 8.0,
+    "page_a": "wiki/mind/synthesis/political-psyops.md",
+    "page_b": "wiki/self/chats/gemini-02.md **(RETIRED 2026-07-18: chats/gemini-02 page deleted \u2014 storytime absorbed into wiki/work/au-zaatar + wiki/timeline/periods/2021-2023-employment-block; re-evaluate pair against those pages)**",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- shared source: `raw/self/dox-md/Gemini-_21 copy.md`",
+      "- co-cited from 2 pages",
+      "- shared tags: politics",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "rejected"
+  },
+  {
+    "score": 8.0,
+    "page_a": "wiki/timeline/periods/2021-2023-employment-block.md",
+    "page_b": "wiki/timeline/periods/2025-collapse.md",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- shared source: `raw/self/dox-md/Gemini-_02.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_00.md`",
+      "- co-cited from 4 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.8,
+    "page_a": "wiki/mind/synthesis/attachment-trauma-bond.md",
+    "page_b": "wiki/mind/synthesis/totality-themes.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/FULL PROFILE 2026.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_07.md`",
+      "- shared source: `raw/self/dox-md/LIFE REPORT.md`",
+      "- co-cited from 2 pages",
+      "- shared tags: trauma-bond",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.8,
+    "page_a": "wiki/mind/concepts/forensic-method.md",
+    "page_b": "wiki/mind/synthesis/vertical-authority-skepticism.md",
+    "notes": [
+      "- shared source: `raw/self/chats/j6-chat.md`",
+      "- shared source: `raw/self/chats/Drawer shortage dispute with assistant manager (1).md`",
+      "- co-cited from 7 pages",
+      "- shared tags: politics",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.7,
+    "page_a": "wiki/self/gemini-activity/gemini-activity.md",
+    "page_b": "wiki/timeline/events/timeline.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- wiki/self/gemini-activity/gemini-activity.md names 'timeline' unlinked",
+      "- co-cited from 4 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.7,
+    "page_a": "wiki/people/annie-ulmer.md",
+    "page_b": "wiki/self/gemini-activity/archive/v1-extract.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_07.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- wiki/self/gemini-activity/archive/v1-extract.md names 'annie' unlinked",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.7,
+    "page_a": "wiki/mind/synthesis/political-psyops.md",
+    "page_b": "wiki/self/facebook.md",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- wiki/mind/synthesis/political-psyops.md names 'facebook' unlinked",
+      "- co-cited from 4 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.7,
+    "page_a": "wiki/mind/synthesis/totality-themes.md",
+    "page_b": "wiki/timeline/events/timeline.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/LIFE REPORT.md`",
+      "- shared source: `raw/self/dox-md/BFS_BOOTLOADER_v2.md`",
+      "- wiki/mind/synthesis/totality-themes.md names 'timeline' unlinked",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.7,
+    "page_a": "wiki/mind/synthesis/totality-themes.md",
+    "page_b": "wiki/people/suzanne-frank.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_07.md`",
+      "- shared source: `raw/self/dox-md/LIFE REPORT.md`",
+      "- wiki/mind/synthesis/totality-themes.md names 'suzanne frank' unlinked",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.7,
+    "page_a": "wiki/timeline/events/timeline.md",
+    "page_b": "wiki/work/tech/imessage-tooling/overview.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/BFS_BOOTLOADER_v2.md`",
+      "- shared source: `raw/self/message-csv/*`",
+      "- wiki/work/tech/imessage-tooling/overview.md names 'timeline' unlinked",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.7,
+    "page_a": "wiki/interests/music/aliases/gripnotic.md",
+    "page_b": "wiki/people/tom.md",
+    "notes": [
+      "- shared source: `raw/self/message-csv/imessage_ALL_both_all_now.csv`",
+      "- wiki/people/tom.md names 'gripnotic' unlinked",
+      "- co-cited from 4 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.7,
+    "page_a": "wiki/mind/synthesis/political-psyops.md",
+    "page_b": "wiki/people/danielle-onesi.md",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- shared source: `raw/self/dox-md/Gemini-_21.md`",
+      "- co-cited from 3 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.7,
+    "page_a": "wiki/people/alexis-armel.md",
+    "page_b": "wiki/timeline/periods/2017-poverty-floor.md",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- co-cited from 3 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.7,
+    "page_a": "wiki/people/alexis-armel.md",
+    "page_b": "wiki/timeline/periods/2018-deep-cycle.md",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- shared source: `raw/self/dox-md/Gemini-_00.md`",
+      "- co-cited from 3 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.7,
+    "page_a": "wiki/people/eli.md",
+    "page_b": "wiki/timeline/periods/2015-2016-annie-relationship-start.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- shared source: `raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx`",
+      "- shared tags: trauma-bond, infidelity",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.5,
+    "page_a": "wiki/self/chats/gemini-02.md",
+    "page_b": "wiki/self/context-core.md **(RETIRED 2026-07-18: chats/gemini-02 page deleted \u2014 storytime absorbed into wiki/work/au-zaatar + wiki/timeline/periods/2021-2023-employment-block; re-evaluate pair against those pages)**",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- shared source: `raw/self/dox-md/Gemini-_07.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- co-cited from 3 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "rejected"
+  },
+  {
+    "score": 7.5,
+    "page_a": "wiki/timeline/periods/2018-deep-cycle.md",
+    "page_b": "wiki/timeline/periods/2025-collapse.md",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- shared source: `raw/self/dox-md/Gemini-_00.md`",
+      "- shared source: `raw/self/dox-md/LIFE REPORT.md`",
+      "- co-cited from 3 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.3,
+    "page_a": "wiki/people/alexis-armel.md",
+    "page_b": "wiki/self/overview.md",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- wiki/self/overview.md names 'alexis' unlinked",
+      "- co-cited from 2 pages",
+      "- shared tags: infidelity",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.3,
+    "page_a": "wiki/self/gemini-activity/gemini-activity.md",
+    "page_b": "wiki/work/tech/max-framework/overview.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_13.md`",
+      "- wiki/work/tech/max-framework/overview.md names 'gemini activity' unlinked",
+      "- co-cited from 2 pages",
+      "- shared tags: politics",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.3,
+    "page_a": "wiki/mind/synthesis/vertical-authority-skepticism.md",
+    "page_b": "wiki/people/sadie-harris.md",
+    "notes": [
+      "- shared source: `raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip`",
+      "- co-cited from 5 pages",
+      "- shared tags: family",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.2,
+    "page_a": "wiki/mind/concepts/conflict-architecture.md",
+    "page_b": "wiki/mind/concepts/contact-gini.md",
+    "notes": [
+      "- shared source: `raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx`",
+      "- shared source: `raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md`",
+      "- co-cited from 5 pages",
+      "- shared tags: trauma-bond",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.0,
+    "page_a": "wiki/self/location-history.md",
+    "page_b": "wiki/timeline/events/timeline.md",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- wiki/self/location-history.md names 'timeline' unlinked",
+      "- shared tags: financial-stress, career",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.0,
+    "page_a": "wiki/mind/concepts/node-locking.md",
+    "page_b": "wiki/self/chats/danfrank-isms-pinned.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- wiki/self/chats/danfrank-isms-pinned.md names 'node locking' unlinked",
+      "- wiki/self/chats/danfrank-isms-pinned.md names 'data_logged' unlinked",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.0,
+    "page_a": "wiki/self/facebook.md",
+    "page_b": "wiki/timeline/periods/2017-poverty-floor.md",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- wiki/timeline/periods/2017-poverty-floor.md names 'facebook' unlinked",
+      "- co-cited from 3 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.0,
+    "page_a": "wiki/timeline/events/timeline.md",
+    "page_b": "wiki/work/tech/max-framework/overview.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md`",
+      "- wiki/timeline/events/timeline.md names 'overview' unlinked",
+      "- wiki/work/tech/max-framework/overview.md names 'timeline' unlinked",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.0,
+    "page_a": "wiki/people/brandon.md",
+    "page_b": "wiki/timeline/events/timeline.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/BFS_BOOTLOADER_v2.md`",
+      "- wiki/timeline/events/timeline.md names 'brandon' unlinked",
+      "- wiki/people/brandon.md names 'timeline' unlinked",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.0,
+    "page_a": "wiki/mind/synthesis/ai-collaborative-analysis.md",
+    "page_b": "wiki/self/chats/j6-chat.md",
+    "notes": [
+      "- shared source: `raw/self/chats/j6-chat.md`",
+      "- wiki/mind/synthesis/ai-collaborative-analysis.md names 'j6 chat' unlinked",
+      "- co-cited from 3 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.0,
+    "page_a": "wiki/people/annie-ulmer.md",
+    "page_b": "wiki/people/rick-frank.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- co-cited from 15 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.0,
+    "page_a": "wiki/mind/concepts/contact-gini.md",
+    "page_b": "wiki/timeline/periods/2018-deep-cycle.md",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- co-cited from 6 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.0,
+    "page_a": "wiki/mind/synthesis/political-psyops.md",
+    "page_b": "wiki/people/annie-ulmer.md",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- co-cited from 6 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.0,
+    "page_a": "wiki/mind/synthesis/vertical-authority-skepticism.md",
+    "page_b": "wiki/people/annie-ulmer.md",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- co-cited from 15 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.0,
+    "page_a": "wiki/timeline/periods/2018-deep-cycle.md",
+    "page_b": "wiki/timeline/periods/2021-2023-employment-block.md",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- shared source: `raw/self/dox-md/Gemini-_00.md`",
+      "- shared source: `raw/self/message-csv/*`",
+      "- co-cited from 2 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.0,
+    "page_a": "wiki/mind/concepts/node-locking.md",
+    "page_b": "wiki/self/context-core.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_07.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- co-cited from 2 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.0,
+    "page_a": "wiki/mind/synthesis/attachment-trauma-bond.md",
+    "page_b": "wiki/self/gemini-activity/gemini-activity.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_07.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- co-cited from 2 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.0,
+    "page_a": "wiki/people/eli.md",
+    "page_b": "wiki/self/chats/gemini-02.md **(RETIRED 2026-07-18: chats/gemini-02 page deleted \u2014 storytime absorbed into wiki/work/au-zaatar + wiki/timeline/periods/2021-2023-employment-block; re-evaluate pair against those pages)**",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_07.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- co-cited from 2 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "rejected"
+  },
+  {
+    "score": 7.0,
+    "page_a": "wiki/mind/synthesis/attachment-trauma-bond.md",
+    "page_b": "wiki/people/tom.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- co-cited from 6 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.0,
+    "page_a": "wiki/people/suzanne-frank.md",
+    "page_b": "wiki/timeline/periods/2015-2016-annie-relationship-start.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- shared source: `raw/self/dox-md/LIFE REPORT.md`",
+      "- co-cited from 2 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.0,
+    "page_a": "wiki/mind/concepts/attachment-model.md",
+    "page_b": "wiki/timeline/periods/2015-2016-annie-relationship-start.md",
+    "notes": [
+      "- shared source: `raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx`",
+      "- co-cited from 3 pages",
+      "- shared tags: trauma-bond, infidelity",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 7.0,
+    "page_a": "wiki/people/eli.md",
+    "page_b": "wiki/timeline/periods/dec-2025-spike.md",
+    "notes": [
+      "- shared source: `raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx`",
+      "- co-cited from 3 pages",
+      "- shared tags: trauma-bond, infidelity",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 6.8,
+    "page_a": "wiki/mind/concepts/attachment-model.md",
+    "page_b": "wiki/mind/synthesis/dan-annie-fallout-verdict.md",
+    "notes": [
+      "- shared source: `raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt`",
+      "- wiki/mind/synthesis/dan-annie-fallout-verdict.md names 'attachment model' unlinked",
+      "- co-cited from 2 pages",
+      "- shared tags: trauma-bond, infidelity, attachment",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 6.6,
+    "page_a": "wiki/interests/favorites/music.md",
+    "page_b": "wiki/self/overview.md",
+    "notes": [
+      "- wiki/self/overview.md names 'music' unlinked",
+      "- co-cited from 5 pages",
+      "- shared tags: music-production",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 6.6,
+    "page_a": "wiki/people/franki-faris.md",
+    "page_b": "wiki/work/au-zaatar.md",
+    "notes": [
+      "- shared source: `raw/self/dansynth/DANSYNTH.txt`",
+      "- shared source: `raw/self/dansynth/dansynth-scrape-phases-2-7.md`",
+      "- shared tags: forensic-analysis",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 6.6,
+    "page_a": "wiki/people/katie-fletcher.md",
+    "page_b": "wiki/work/au-zaatar.md",
+    "notes": [
+      "- shared source: `raw/self/dansynth/DANSYNTH.txt`",
+      "- shared source: `raw/self/dansynth/dansynth-scrape-phases-2-7.md`",
+      "- shared tags: forensic-analysis",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 6.6,
+    "page_a": "wiki/places/155-virginia-ave.md",
+    "page_b": "wiki/work/au-zaatar.md",
+    "notes": [
+      "- shared source: `raw/self/dansynth/DANSYNTH.txt`",
+      "- shared source: `raw/self/dansynth/dansynth-scrape-phases-2-7.md`",
+      "- shared tags: housing",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 6.6,
+    "page_a": "wiki/timeline/events/fran-death-vigil.md",
+    "page_b": "wiki/work/au-zaatar.md",
+    "notes": [
+      "- shared source: `raw/self/dansynth/DANSYNTH.txt`",
+      "- shared source: `raw/self/dansynth/dansynth-scrape-phases-2-7.md`",
+      "- shared tags: housing",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 6.6,
+    "page_a": "wiki/mind/concepts/exocortex.md",
+    "page_b": "wiki/work/tech/grok-build/overview.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md`",
+      "- shared source: `raw/self/dox-md/CATO_conflict_architecture.md`",
+      "- shared tags: forensic-analysis",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 6.6,
+    "page_a": "wiki/mind/synthesis/dan-annie-fallout-verdict.md",
+    "page_b": "wiki/self/message-corpora/master-message-dump.md",
+    "notes": [
+      "- shared source: `raw/self/message-csv/annie_all_time_logs.csv`",
+      "- shared source: `raw/self/message-csv/imessage_2124702449_both_all_now.csv`",
+      "- shared tags: trauma-bond",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 6.6,
+    "page_a": "wiki/people/eli.md",
+    "page_b": "wiki/timeline/events/march-2026-terminal-phase.md",
+    "notes": [
+      "- shared source: `raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx`",
+      "- shared source: `raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx`",
+      "- shared tags: trauma-bond",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 6.5,
+    "page_a": "wiki/people/alexis-armel.md",
+    "page_b": "wiki/people/rick-frank.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md`",
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- co-cited from 5 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 6.5,
+    "page_a": "wiki/timeline/periods/2015-2016-annie-relationship-start.md",
+    "page_b": "wiki/timeline/periods/dec-2025-spike.md",
+    "notes": [
+      "- shared source: `raw/self/message-csv/annie_all_time_logs.csv`",
+      "- shared source: `raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx`",
+      "- co-cited from 2 pages",
+      "- shared tags: trauma-bond, infidelity",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 6.3,
+    "page_a": "wiki/self/overview.md",
+    "page_b": "wiki/timeline/periods/2017-poverty-floor.md",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- wiki/self/overview.md names '2017 poverty floor' unlinked",
+      "- co-cited from 2 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 6.3,
+    "page_a": "wiki/people/vanessa-frank.md",
+    "page_b": "wiki/self/chats/gemini-18.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- wiki/self/chats/gemini-18.md names 'vanessa' unlinked",
+      "- co-cited from 2 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 6.3,
+    "page_a": "wiki/self/context-core.md",
+    "page_b": "wiki/timeline/periods/2015-2016-annie-relationship-start.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- wiki/timeline/periods/2015-2016-annie-relationship-start.md names 'context_core_expanded' unlinked",
+      "- co-cited from 2 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 6.3,
+    "page_a": "wiki/mind/concepts/contact-gini.md",
+    "page_b": "wiki/timeline/events/timeline.md",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- wiki/mind/concepts/contact-gini.md names 'timeline' unlinked",
+      "- co-cited from 2 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 6.3,
+    "page_a": "wiki/mind/synthesis/music-as-identity.md",
+    "page_b": "wiki/self/context-core.md",
+    "notes": [
+      "- wiki/mind/synthesis/music-as-identity.md names 'spine' unlinked",
+      "- wiki/mind/synthesis/music-as-identity.md names 'context_core_expanded' unlinked",
+      "- co-cited from 3 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 6.3,
+    "page_a": "wiki/people/trevor.md",
+    "page_b": "wiki/work/nemacolin-caddying.md",
+    "notes": [
+      "- wiki/work/nemacolin-caddying.md names 'trevor' unlinked",
+      "- wiki/people/trevor.md names 'nemacolin caddying' unlinked",
+      "- shared tags: financial-stress, career",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 6.3,
+    "page_a": "wiki/people/alexis-armel.md",
+    "page_b": "wiki/self/facebook/interests.md",
+    "notes": [
+      "- shared source: `raw/self/facebook/facebook-ihatedanfrank/`",
+      "- wiki/people/alexis-armel.md names 'interests' unlinked",
+      "- co-cited from 2 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 6.3,
+    "page_a": "wiki/interests/music/concepts/sub-bass-signature.md",
+    "page_b": "wiki/mind/synthesis/totality-themes.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/FULL PROFILE 2026.md`",
+      "- co-cited from 5 pages",
+      "- [ ] type: ______  claim: ______"
+    ],
+    "status": "pending"
+  },
+  {
+    "score": 6.3,
+    "page_a": "wiki/mind/synthesis/attachment-trauma-bond.md",
+    "page_b": "wiki/people/vanessa-frank.md",
+    "notes": [
+      "- shared source: `raw/self/dox-md/Gemini-_18.md`",
+      "- co-cited from 5 pages",
+      "- [ ] type: ______  claim: ______",
+      "- REJECTED wiki/interests/video-games <-> wiki/interests/the-office \u2014 the only documented tie is source-provenance (both mined from the same 2007 Facebook layer); no relationship claim survives between the two interests themselves.",
+      "- REJECTED wiki/interests/video-games <-> wiki/self/context-core \u2014 context-core is the master biography spine; a background hobby's mention there is coverage, not a relationship. The era-marker junction now carries the meaningful edge."
+    ],
+    "status": "pending"
+  }
+]

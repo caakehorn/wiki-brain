@@ -7,7 +7,7 @@ status: stable
 knowledge: mixed
 importance: high
 date_created: 2026-06-22
-date_modified: 2026-08-09
+date_modified: 2026-08-20
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -27,6 +27,12 @@ related:
   - wiki/timeline/events/eli-incident
 tags: [ai-collaboration, forensic-analysis, politics, digital-footprint, trauma-bond]
 connections:
+  - page: wiki/timeline/events/august-2026-morgantown-call
+    type: instance-of
+    claim: "The method's purest defensive use and its clearest weaponised one are the same fifteen minutes of audio: recorded openly, announced twice while recording, then held over its subject's daughter for three days. The artifact never changed; only what it was for did."
+  - page: wiki/mind/concepts/document-fabrication
+    type: contradicts
+    claim: "The method's whole authority rests on documents being what they claim to be, and on 2026-08-14 its owner spent forty minutes manufacturing one that was not — calibrating its fidelity to how hard it would be inspected. Same faculty, inverted."
   - page: wiki/people/jacob-bacharach
     type: evidenced-by
     claim: "The Uniontown Glitch is this method's flagship exhibit: the only case in the corpus where four confident model hypotheses were killed in sequence against ground truth the operator alone held, leaving a ranked improbability list instead of a cosmology."
@@ -53,7 +59,7 @@ connections:
     claim: "This method is the audit itself, and the one variable it never specified is when it fires: provenance sets the schedule, so the same engine reaches a cash-drawer claim in hours and a ten-year attachment only after closure."
   - page: wiki/timeline/events/july-2026-recontact
     type: instance-of
-    claim: "The Leviathan dashboards of July 25 2026 are the method's first outward deployment — the same corpus instruments, aimed at another person as leverage in a live dispute rather than at the question of what happened to Dan."
+    claim: "The Leviathan dashboards of July 25 2026 are the method's first outward deployment AS LEVERAGE — the same corpus instruments aimed at another person in a live dispute; the first outward deployment of any kind is the James Analysis PDF of 2025-07-11, corrected 2026-08-18."
   - page: wiki/mind/concepts/dans-law
     type: contains
     claim: "Dan's Law is the method's deconfounding filter — the formalized step that strips parasitic noise from a coincidence cluster to isolate the load-bearing element."
@@ -69,6 +75,21 @@ connections:
   - page: wiki/mind/profile/socionics-and-attitudinal
     type: evidenced-by
     claim: "The ILI-Ni 'Ni leak' — pattern-hunting that runs more prophecy than a textbook INTP's Ti-Ne — is the trait-level substrate for this method's anomaly-detection engine."
+  - page: wiki/timeline/events/james-analysis-pdf
+    type: instance-of
+    claim: "The method's earliest dated outward deployment at a named private person: a two-person message log run through a model into a dossier and handed to its subject on 2025-07-11, a year before the Leviathan dashboards."
+  - page: wiki/people/james-dee
+    type: instance-of
+    claim: "James is the first documented human target of the method outside Dan's own life, and the case where its accuracy and its social cost are cleanly separable."
+  - page: wiki/mind/concepts/the-handed-mirror
+    type: contains
+    claim: "The method has a terminal step this page did not previously name: the finished analysis is delivered to the person it describes, which is where its social cost is incurred rather than in the analysis itself."
+  - page: wiki/mind/synthesis/closing-the-set
+    type: evidenced-by
+    claim: "Thirty authors on one presidency and fourteen on one republic is the method's multiple-independent-accounts rule running on leisure reading with nothing at stake — evidence that raw-over-mediated triangulation is a disposition rather than a technique adopted for the 2025-26 deployments."
+  - page: wiki/work/tech/max-framework/overview
+    type: instantiates
+    claim: "CATO's evidence-first, no-sycophancy, glyph-enforced operating mode is the forensic-method cognitive OS deliberately pasted into an AI session as a standing configuration, rather than left as a default disposition."
 ---
 
 
@@ -176,6 +197,26 @@ stopped being true: the method was always aimed at a question — what
 happened, who did what, is this account consistent — and its output was
 understanding. On July 25–26, 2026 it was aimed at a person, and its
 output was leverage.
+
+> **CORRECTED [2026-08-18] — this was not the first outward turn, only the
+> first hostile one.** This section, and the edge to
+> [[wiki/timeline/events/july-2026-recontact]], carried the claim that the
+> Leviathan dashboards were the method's first deployment against another
+> person. They were not. On **2025-07-11**, a year and two weeks earlier, Dan
+> fed a private two-person message log into ChatGPT, produced a full
+> psychological profile of [[wiki/people/james-dee|James]], and sent it to
+> James and to James's partner ([[wiki/timeline/events/james-analysis-pdf]]).
+> Same engine, same corpus-in / dossier-out shape, same delivery to the
+> subject — and the intent was friendly, which is precisely what makes it the
+> better control. The error was not in the reasoning: the source containing
+> the 2025 case had been cited by this page's own `sources:` list since June
+> 2026 and read only to its first 140 lines.
+>
+> What survives, narrowed: July 2026 is the first deployment **as leverage in
+> a live dispute**. What changes: the outward turn is not an escalation the
+> method underwent in 2026. It is a standing property of the method, named at
+> [[wiki/mind/concepts/the-handed-mirror]], and the only thing that escalated
+> was the intent behind it.
 
 Believing [[wiki/people/annie-ulmer|Annie]] had told her parents he was
 her drug source, and fearing concretely that the claim would reach

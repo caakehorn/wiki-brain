@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-17
+date_modified: 2026-08-21
 sources:
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
@@ -24,6 +24,21 @@ synthesizes:
   - wiki/timeline/events/july-2026-recontact
 tags: [addiction-recovery, forensic-analysis, financial-stress]
 connections:
+  - page: wiki/people/zaco
+    type: contains
+    claim: "Zaco is the network's 2018 Suboxone-strip secondary and its only inbound-marketing node: 58 of his thread's 65 messages are unsolicited inventory advertisements, the inverse of every other supplier relationship, where Dan chases availability."
+  - page: wiki/timeline/events/august-2026-morgantown-call
+    type: evidenced-by
+    claim: "The network's last transaction is a failure of the ordinary kind — a $60 handoff Dan spent the evening of 2026-08-16 trying to complete and she never came for — and the relationship ended inside the five hours that failure opened. Supply was the last structure standing and it did not survive its own routine."
+  - page: wiki/mind/concepts/document-fabrication
+    type: contains
+    claim: "Supply and concealment are one service: on 2026-08-14 Dan sources the drug and forges the Fayette County screen that hides its use, for the same person, in the same hour."
+  - page: wiki/health/cocaine
+    type: contains
+    claim: "The network's dominant product has its own page: cocaine is what every era of this architecture was built to deliver, and the finance-driven dosage arc there is the demand curve this supply chain was answering."
+  - page: wiki/people/suzanne-frank
+    type: contains
+    claim: "Suz is a participant in the network, not only its payment rail: a decade of purchases from Jim Vrabel in her own name, routine cocaine provision to Dan and Annie through 2015-16, and the Cash App account Dan asked her to install in August 2018 that the later supply-era transfers ran through."
   - page: wiki/timeline/annie-record
     type: evidenced-by
     claim: "Dan names supply as the tie holding a partner in place on 2015-11-29 (\"she doesn't have another drug source\"), roughly three years earlier than any node previously on this page and applied to the departing partner rather than to himself."
@@ -59,7 +74,7 @@ connections:
     claim: "Teddy is the 2018–20 Uniontown parallel node whose own fines, probation, and borrowing show the network's suppliers were as financially fragile as its buyer — precarity ran the whole chain."
   - page: wiki/people/menore
     type: contains
-    claim: "Menore is the NYC node and the network's reliability outlier — 99.3% availability (455 of 458 requests answered over 6.5 years, median 7-minute reply) — the control case proving distance outperforms friendship in this market."
+    claim: "Menore is the NYC node and the network's reliability outlier — 99.3% availability (455 of 458 requests answered over 6.5 years, median 7-minute reply) — the control case proving distance outperforms friendship in this market, and the benchmark the post-NYC market is still being measured against and failing in 2025."
   - page: wiki/people/sam
     type: contains
     claim: "Sam is the 2019–20 NYC cannabis line — a parallel professional delivery node whose February 2020 firing of Dan ('don't never hit this number') proves transactional discipline enforces on the buyer too, not just the supplier."
@@ -89,10 +104,16 @@ connections:
     claim: "The network's terminal-era fragility is a documented proximate cause of the BFS job loss: the three-burns-in-four-days sourcing cascade consumed Dan's optionality and the resulting withdrawal impaired the shift the drawer variance was pinned to."
   - page: wiki/work/au-zaatar
     type: co-occurs
-    claim: "The network wrapped around the workday: Menore served Dan mid-shift at the Shed through taxi windows — primary-confirmed for May–Aug 2024 (deliveries to 1st Ave bet 57–58), with the storytime's longer 2021–24 window unresolved against the thread's four-year gap."
+    claim: "The network wrapped around the workday: Menore served Dan mid-shift at the Shed through taxi windows — primary-confirmed for May–Aug 2024 (deliveries to 1st Ave bet 57–58), and the storytime's longer 2021–24 window is corroborated now that the thread's four-year gap is known to be a handle change."
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "A single, continuously-operating procurement architecture since January 2011, never treated as episodes to be closed and reopened, is 'The Irreversibility Firewall's' no-delete rule running on his own chemistry rather than his relationships."
+  - page: wiki/health/the-configured-body
+    type: contradicts
+    claim: "The June 2025 messages put a prescribing doctor at the head of the Suboxone route and Tom as the fallback invoked when an out-of-state script could not be filled — 'I am so fucked. I'm gonna have to drive down to see Tom today' — which reverses this page's default path and makes the May 2026 withdrawal a second-line failure rather than a single point of failure giving way."
+  - page: wiki/people/drew-mcgettigan
+    type: contains
+    claim: "A summer 2015 buyer/go-between node, active for a single three-month window and connected to the Zach Harshman circle he was headed to meet the same night as a documented deal."
 ---
 
 # The Supply Network
@@ -108,7 +129,10 @@ documented signature rupture pattern.** Read as a system, it explains
 things no individual supplier page can: why a $36 debt ended a
 sixteen-year friendship, why a missed handoff helped end a job, and why
 the last months of the Annie relationship ran on an inverted version of
-the same machine.
+the same machine. The dominant product moving through it across every era
+is [[wiki/health/cocaine|cocaine]], whose own page carries the demand side
+of this architecture — the dosage arc, the genesis chronology, and what
+the substance was for.
 
 ## The succession of nodes
 
@@ -125,7 +149,7 @@ transfers along the way.
 | [[wiki/people/johnny-dealer]] | 2018–2019 | Uniontown | Primary deep-cycle dealer; strips ($15/8mg, $20/12mg), "b's"; fronts |
 | Second dealer (+17243233522) | 2018 | Uniontown | Parallel node in the deep cycle (operating manual) |
 | [[wiki/people/teddy]] | 2018–2020 | Uniontown/Fairchance | Parallel informal supplier; strips, pills; credit and holds |
-| [[wiki/people/menore]] | 2013?, 2018–20 + 2024–25 | NYC | Professional delivery operator; 99.3% availability, median 7-min reply |
+| [[wiki/people/menore]] | 2013?, 2018–2025 (continuous; handle changes mid-run) | NYC | Professional delivery operator; 99.3% availability, median 7-min reply; still operating 2026 |
 | Tim | ~2020s | undocumented | Named in the MAX_PRIME succession; no thread yet identified |
 | **Bop** (Felix is not a node) | 2026 | Uniontown | Current primary node — house calls daily at noon; Dan maintains his property in part-payment; identity otherwise unknown |
 
@@ -269,10 +293,32 @@ domain, and the corpus documents each path:
   redundancy-free node consumed the bond it was embedded in.
 - **The household economy.** The family financial layer was part of the
   network's plumbing: Suz's Cash App transfers facilitated Tom-era
-  purchases, and the 2018 deep cycle ran on ~$750/week borrowed from
-  her. Procurement was never fiscally isolated from the family — a
+  purchases, and the 2018 deep cycle ran on irregular transfers of $20 to
+  $3,000 moving in both directions, entered as debts and never reconciled.
+  Procurement was never fiscally isolated from the family — a
   thread the [[wiki/mind/synthesis/estate-money-spine|money spine]]
   carries forward.
+
+  > **CORRECTED [2026-08-18]:** this bullet previously read *"the 2018 deep
+  > cycle ran on ~$750/week borrowed from her."* Both the rate and its
+  > direction fail against the primary record. The corpus holds a single $750
+  > statement — an accusation about one week, made in a 13 December 2018
+  > argument, on a day she had that morning asked him for $450 — which
+  > `operating_manual.md` (AI-secondary) generalised into a standing rate and
+  > also inverted. The largest documented 2018 movement between them runs the
+  > other way: ~$14,000 from Dan to Suz in August–October, drawn against an
+  > estate that would not distribute for two more years, $4,000 recovered
+  > ([[wiki/people/suzanne-frank]],
+  > [[wiki/mind/synthesis/estate-money-spine]]).
+  >
+  > **The bullet's claim survives and its mechanism changes.** The family layer
+  > was not net-funding procurement; it was the *rail* procurement ran on, which
+  > this page already establishes independently — Suz bought from Jim Vrabel in
+  > her own name for a decade, and the Cash App account the supply-era transfers
+  > ran through is one Dan asked her to install in **August 2018**, the same
+  > month as the $14,000 transfer. Recorded as a dating coincidence rather than
+  > a causal claim: nothing in the record says the drawdown paid for the rail,
+  > only that the two arrived together.
 - **The workday, physically.** At [[wiki/work/au-zaatar|Au Za'atar]],
   Menore delivered mid-shift to the Shed block (primary-confirmed for
   May–Aug 2024; the longer storytime window is unresolved — see
@@ -428,3 +474,44 @@ figure in this network. No finding here is affected.
 > relationship changed hands — a boundary the correction leaves exactly where
 > it was (November 29 – December 1, 2015). No supply node, handle or transfer
 > on this page is dated to that week. Closed unaffected.
+
+## RE-CHECKED [2026-08-18]
+
+`bin/wiki-climb check` flagged this page stale against
+[[wiki/people/johnny-dealer]] and [[wiki/people/annie-ulmer]]. The Johnny page
+moved only to flag that its volume figure comes from the unreliable master CSV
+and has not been recounted — no claim here depends on that number.
+
+**One thing does change, and it is an addition rather than a correction.** The
+[[wiki/people/suzanne-frank]] rewrite establishes that Dan's mother is a
+participant in this network and not merely its payment rail. She buys from
+[[wiki/people/jim-vrabel|Jim Vrabel]] in her own name across a decade, supplies
+Dan and Annie with cocaine routinely through 2015–16 (the December 2015
+two-sided record has him collecting from her several times a week), and the Cash
+App account the supply-era transfers ran through was installed at Dan's request
+in August 2018. **The architecture claim is unaffected and the redundancy claim
+gains a node**: the network had a family-internal source available before any of
+the named dealers, which is part of why a supply failure was survivable for so
+long and why the spring 2026 failures registered as a relationship event rather
+than a logistics one.
+
+> **CONTRADICTION [2026-08-19] — the Suboxone route may run through a prescriber
+> first and [[wiki/people/tom]] second.** This page treats Tom as the standing
+> supply line for Suboxone strips, and reads the May 2026 no-show as a single
+> point of failure giving way. The June 2025 messages describe a different
+> topology. **2025-03-06:** *"I had my doctor move my prescription here."*
+> **2025-06-08:** *"my doctor said the pharmacy won't fill an out of state
+> prescription, so i'm going to need your referral service."* **2025-06-12:** *"my
+> doctor tried to send a prescription to walmart and they won't fill it either so
+> i'm completely out of options now."* **2025-06-13:** *"I am so fucked. I'm gonna
+> have to drive down to see Tom today."*
+>
+> On that sequence the prescription is the default path, the failure is
+> jurisdictional rather than relational, and Tom is the **failover**. If that
+> holds, May 2026 is a second-line failure with the first line already down,
+> which is a materially more fragile architecture than the one this page
+> describes and a different remedy. **Held open rather than resolved** — four
+> messages across one episode are not a topology, the 2019 line *"try to go get
+> subs from my old doctor"* is the only earlier corroboration, and no prescriber
+> is named anywhere in `raw/`. Full accounting at
+> [[wiki/health/the-configured-body]].

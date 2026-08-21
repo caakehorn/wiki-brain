@@ -6,13 +6,16 @@ date_created: 2026-06-23
 date_modified: 2026-06-23
 date_range_start: 2026-05-31
 date_range_end: 2026-06-01
-sources: ["raw/self/message-csv/THE END FIGHT.csv", "raw/self/message-csv/END_FIGHT_full.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
+sources: ["raw/self/message-csv/THE END FIGHT.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
 related: ["wiki/people/annie-ulmer", "wiki/timeline/events/group-chat-closure", "wiki/timeline/periods/2025-collapse", "wiki/mind/concepts/attachment-model", "wiki/mind/concepts/conflict-architecture"]
 tags: [addiction-recovery, trauma-bond]
 connections:
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: evidences
     claim: "This event corpus is the primary RAW-CSV backbone of the fallout verdict's defamation and independent-validation findings."
+  - page: wiki/people/jerel-coles
+    type: co-occurs
+    claim: "He is the counterpart of the terminal group chat that closed the relationship on June 1, 2026."
 ---
 
 

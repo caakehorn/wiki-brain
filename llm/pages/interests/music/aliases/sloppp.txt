@@ -34,6 +34,9 @@ connections:
   - page: wiki/mind/synthesis/alias-as-periodization
     type: instantiates
     claim: "SLOPPP is the earliest instance and the one that dates the invariant: its 2013 material already carries the 63–85% sub-bass band, so the signature predates the first rename and cannot have been chosen under any later name."
+  - page: wiki/people/zachariah-harshman
+    type: co-occurs
+    claim: "Zach is SLOPPP's earliest documented fan and promoter — pitching Dan to a Pittsburgh rave scene contact in January 2014, less than two years before the project's Dec 26, 2015 'Goodbye Demo' close."
 ---
 
 # SLOPPP

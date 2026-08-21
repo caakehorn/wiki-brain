@@ -12,7 +12,6 @@ sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/message-csv/annie_all_time_logs.csv
   - raw/self/message-csv/THE END FIGHT.csv
-  - raw/self/message-csv/END_FIGHT_full.csv
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
   - raw/self/dox-md/end-fight-notebooklm-podcast-transcript.md
 tags: [relationships]
@@ -32,6 +31,9 @@ connections:
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: evidences
     claim: "These rows are the point where the verdict's defamation finding stops being dossier-sourced and becomes primary: the 00:24–00:27 exchange and 'sic semper lupanis' at 00:27:49 are [RAW-CSV] verified, and the June 15 Tuquick defection fourteen days later is the independent external validation the verdict rests its concealment case on."
+  - page: wiki/people/ally-lubin
+    type: precedes
+    claim: "Ally Lubin is the channel Dan contacts nineteen hours and thirty-eight minutes after this closure — the first outbound message after severing the Annie relationship. Corrected 2026-08-20: the burst is nine messages, not ten, and per the operator it was never delivered, having gone to an email handle she does not monitor."
   - page: wiki/timeline/periods/dec-2025-spike
     type: follows
     claim: "The December 2025 reinvestment peak of 4,657 messages is what makes this closure a rupture rather than a drift: six months earlier the relationship was at its highest volume on record."

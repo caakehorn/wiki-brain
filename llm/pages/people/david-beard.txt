@@ -20,6 +20,9 @@ connections:
   - page: wiki/people/lewis-strosnider
     type: co-occurs
     claim: "David's used drone, bought for $700 in early September 2018, was the second of three drones Dan acquired that summer — Mavic Platinum (Jul 24), David's used unit (~Sep 4), then the Mavic 2 (Sep 21-22) that becomes the unresolved sale saga documented on Lewis Strosnider's page."
+  - page: wiki/people/lewis-strosnider
+    type: evidences
+    claim: "David's own thread reveals the Mavic 2 was the third of three drones Dan bought in a six-week span that summer — a Mavic Platinum, then David's used unit for $700, then the Mavic 2 itself."
 ---
 
 # David Beard

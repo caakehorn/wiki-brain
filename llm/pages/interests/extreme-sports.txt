@@ -3,7 +3,7 @@ domain: interests
 page_type: entity
 status: active
 date_created: 2026-08-09
-date_modified: 2026-08-09
+date_modified: 2026-08-19
 sources:
   - raw/self/captures/2026-08-09_122727_extreme-sports.md
 tags: [uniontown-era]
@@ -26,6 +26,15 @@ connections:
   - page: wiki/timeline/events/bald-eagle-cummings
     type: co-occurs
     claim: "Both the Bald Eagle Cummings incident and the LoveSac virginity event fall inside the Seven Springs adolescent social world — the first is a public sexual failure documented elsewhere, the second is a private milestone the capture records as having happened a year or two after the Vans trips."
+  - page: wiki/health/the-configured-body
+    type: evidences
+    claim: "Six years of terrain-park skiing and aggressive inline is the control that rules out indifference: the body was never ignored, it was trained toward a performance ceiling, which is configuration aimed at output and belongs on the input side of the rule with everything else."
+  - page: wiki/people/nathan-king
+    type: evidenced-by
+    claim: "Nathan King is one of the three named Camp Woodward attendees, placing him inside the social frame of Dan's pre-2006 adolescent extreme-sports world."
+  - page: wiki/people/matt-kraus
+    type: evidenced-by
+    claim: "Matt Kraus is the childhood friend who defined the social shape of Dan's early extreme-sports years: the Vans Skatepark birthday trips, the overlapping Seven Springs condo adjacency, and the Woodward camp attendance all ran through him."
 ---
 
 # Extreme Sports

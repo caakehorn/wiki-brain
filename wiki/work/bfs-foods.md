@@ -5,7 +5,7 @@ title: "BFS Foods (2026): Job, Drawer Dispute, Termination"
 status: closed
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-07-19
+date_modified: 2026-08-20
 sources:
   - raw/legal/bfs-dispute/BFS_BOOTLOADER_v2.md
   - raw/legal/bfs-dispute/BFS Anita Quagmire strategy and legal exposure.md
@@ -28,6 +28,9 @@ related:
   - wiki/mind/concepts/dans-law
 tags: [addiction-recovery, career, uniontown-era, financial-stress]
 connections:
+  - page: wiki/timeline/events/august-2026-morgantown-call
+    type: co-occurs
+    claim: "The termination reversed on 2026-08-11 — the same manager-side chain that produced the 'NO HIRE: Daniel Frank' sign told Dan to reapply — five days before the week that ended the Annie relationship. The one recovery of the 2026 collapse lands inside the window of its worst loss."
   - page: wiki/mind/synthesis/the-embedded-objective
     type: instantiates
     claim: "The control case for the payload rule: roughly one month, no out installed and no private objective anywhere in the record — and the tenure ended at the first genuinely assigned demand, the $50 drawer payment. A 41-month job survived three months of deliberate hour-cutting; this one did not survive a single request."
@@ -61,6 +64,24 @@ connections:
   - page: wiki/work/creative-license
     type: parallels
     claim: "The corpus's own dossiers name this job's drawer dispute as the recurrence, fourteen years on, of the same shape first seen at Creative License in 2011–12 — a trusted vertical figure's undocumented financial claim met with exit rather than confrontation; unlike this well-documented instance, the 2012 case has no primary corroboration."
+  - page: wiki/people/anita
+    type: contains
+    claim: "Anita is the general manager at the center of the drawer dispute — the person who originated the $50 claim and controls the deposit, schedule, and discipline levers the dispute turns on."
+  - page: wiki/people/dakota
+    type: evidences
+    claim: "Dakota is the first, hearsay disclosure channel for the Timmy blame-pivot pattern that [[wiki/work/bfs-foods]] documents in full as 'the pattern template' for Anita's operational conduct."
+  - page: wiki/people/maddox
+    type: evidences
+    claim: "Maddox's unprompted sidewalk testimony is the corpus's fullest direct-witness account of the Timmy blame-pivot, and directly challenges the $50 demand's procedural legitimacy."
+  - page: wiki/people/brandon-hill
+    type: contains
+    claim: "Brandon is the assistant manager who closed the incident shift, created the phantom tender that inflated the variance, and personally delivered Anita's $50 demand."
+  - page: wiki/people/timmy
+    type: contains
+    claim: "The Timmy vape/gambling saga is the two-weeks-prior precedent that makes the drawer dispute legible as a repeat of an established pattern rather than a one-off."
+  - page: wiki/people/marty-martin
+    type: evidences
+    claim: "Marty's framing of the store's off-books culture ('make the store whole to keep your job') is the primary evidence for reading the $50 drawer-shortage demand as structural rather than an isolated shakedown."
 ---
 
 # BFS Foods (2026)
@@ -374,3 +395,36 @@ verified. The roughly month-long tenure is too short for
 (documented over a year-plus at [[wiki/work/au-zaatar]]) to have matured —
 no equivalent alibi structure is evident, consistent with that concept
 page's own gap note.
+
+## Reversed, 2026-08-11
+
+On the morning of **11 August 2026** Dan told Annie he had his job back:
+
+> *"Well I got my job at BFS back"* · *"I guess the same lady who put me on a
+> no-hire list there told the manager today to put in another application like
+> I did before and they're going to try to get me on the schedule for next
+> week"*
+
+The same message carries the sharpest statement of what the episode cost him,
+and it is about epistemics rather than money:
+
+> *"That whole thing is one of the major reasons I have to wonder if I am going
+> crazy or not because they acted like I stole money from the safe or
+> something like…literally the only thing I did was go home 30 minutes before
+> my shift was supposed to end after I called my manager and made sure it was
+> okay"*
+>
+> *"they had a fucking sign hanging in the back of BFS and in the office at
+> little caesars that said 'NO HIRE: Daniel Frank'"*
+
+Two facts here are new to this page: the **posted sign**, named and quoted, in
+two locations rather than one; and the reversal being initiated by *the same
+person who imposed the ban*, with no stated reason for either. Dan does not
+treat the reversal as vindication — he treats it as further evidence that the
+original action was arbitrary, which is what *"wonder if I am going crazy"* is
+doing in that sentence.
+
+The date matters for placement more than for work history. This is five days
+before [[wiki/timeline/events/august-2026-morgantown-call|the week that ended
+the Annie relationship]], and it is the only thing in the 2026 collapse that
+went the other way.

@@ -30,6 +30,15 @@ connections:
   - page: wiki/timeline/periods/full-sail-2008-2010
     type: instance-of
     claim: "Dunn is the fourth named member of the Full Sail friend group that survives, in reduced-contact form, fifteen-plus years after Orlando."
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: component-of
+    claim: "Dunn is the cohort's fourth member and its longest-running bit — an annual $5 birthday Venmo request Eric has paid without fail for years."
+  - page: wiki/people/oscar-lindquist
+    type: co-occurs
+    claim: "The 2022 Manhattan-restaurant coincidence Dan told Dunn in real time ('guess who sits down in my section') is the same event this thread's own final message anticipates nothing of — Oscar's side of the reunion is undocumented, only Dan's telling of it survives."
+  - page: wiki/people/jamie-mohler
+    type: co-occurs
+    claim: "Jamie is named alongside Dunn and Jester in the same 2025 exchanges — the fourth member of the same Full Sail cohort."
 ---
 
 # Matt Dunn

@@ -38,6 +38,12 @@ connections:
   - page: wiki/mind/synthesis/ancestral-dialectic
     type: mirrors
     claim: "Gravity-wins and deliberate-seal are inverted framings of the same relocation facts."
+  - page: wiki/self/concepts/wiki-brain
+    type: instance-of
+    claim: "The wiki this page opens is itself an artifact of the person it documents — a seventeen-year habit of forensic over-documentation, industrialized; the biography and the system that records it are the same behavior at two scales."
+  - page: wiki/self/concepts/ally-and-dan-love-as-destiny
+    type: instance-of
+    claim: "The seventeen-year Ally attachment is the longest continuous tie in this biography and the one that most tests whether its durability is devotion or dormancy; that page argues the first, and states what would show it wrong."
 ---
 
 
@@ -148,6 +154,9 @@ graph, and residence timeline are maintained authoritatively at
 [[wiki/self/context-core]].
 
 ## Heritage
+
+Dan self-identifies as a Scorpio and dates it precisely — *"I am super scorpio / Nov 1"* — and the corpus carries enough primary testimony from other contacts to make the zodiac an actual (small) dataset rather than a throwaway: see [[wiki/self/concepts/astrology-star-signs]], which records what is known, what is unknown for eighteen of the top twenty contacts, and the one pairing the corpus can say anything about.
+
 
 Paternal line Eastern European Jewish — [[wiki/people/david-j-frank|David J. Frank]] (b. 1892, Russia) and
 [[wiki/people/sadie-harris|Sadie Harris]] (b. 1900, Austria) through Morley Jay Frank to Rick — heritage

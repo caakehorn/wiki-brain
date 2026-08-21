@@ -7,10 +7,11 @@ status: closed
 knowledge: mixed
 importance: high
 date_created: 2026-06-23
-date_modified: 2026-08-17
+date_modified: 2026-08-18
 date_range_start: 2009-10-01
 date_range_end: 2025-02-19
 sources:
+  - raw/self/chats/Analyzing manipulation and ethical intent in data.md
   - raw/self/dox-scan/gmail_bodies.txt
   - raw/self/message-csv/imessage_export_7249707658_both_all_now.csv
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
@@ -74,6 +75,27 @@ connections:
   - page: wiki/timeline/periods/2010s
     type: component-of
     claim: "Alexis is present for the whole of NYC-1 — Brooklyn through the Upper East Side, the Bridge Cafe job through Hurricane Sandy — and is the only continuous personal thread the decade's first half has."
+  - page: wiki/mind/synthesis/dan-annie-fallout-verdict
+    type: parallels
+    claim: "A spring-2026 model scoring blind on seven invented dimensions put Alexis at 7.1 and Annie at 1.9, and located seven of the 5.2-point gap in non-exploitation alone — the same axis this wiki separates them on, reached from different evidence."
+  - page: wiki/places/90th-st-manhattan
+    type: co-occurs
+    claim: "Alexis lived here through the address's full run and worked at the Bridge Cafe until Hurricane Sandy closed it in October 2012 — the final economic shock of NYC-1 before the return to Uniontown the following spring."
+  - page: wiki/places/424-bedford-ave
+    type: co-occurs
+    claim: "Alexis was 'with me the whole time we were in nyc,' working at the Bridge Cafe until Hurricane Sandy — the relationship's first sustained cohabitation, predating the 155 Virginia Ave/Annie-era household by five years."
+  - page: wiki/timeline/periods/uniontown-return-2013-2015
+    type: component-of
+    claim: "The five-year Alexis relationship runs out its endgame here, ending across Nov 29 - Dec 1 2015 with no grievance on her side on the record — the uncaused collapse that immediately precedes the Annie genesis."
+  - page: wiki/people/jamie-mohler
+    type: evidences
+    claim: "Alexis's own August 12, 2011 Gchat ('is Mohler supposed to come over? or is he house bound bc of his knee?') independently places Jamie inside the Brooklyn household's regular social orbit, not just Dan's individual friendship."
+  - page: wiki/people/casey-bondarenka
+    type: co-occurs
+    claim: "Casey is present in the household through the final week of the Alexis relationship, buying beer for her while the eviction is in progress, and asks Dan directly whether he may pursue her if it ends."
+  - page: wiki/people/emaly-minerd
+    type: evidenced-by
+    claim: "Dan's November 28, 2018 account to Emaly is the fullest retrospective anywhere in the corpus of how the Alexis arrangement began, including the $3,000 offer to be 'a plaything for Annie' — told to an outsider he was actively pursuing, which is the context that produced the detail."
 ---
 
 # Alexis Armel
@@ -448,6 +470,54 @@ page quoted at length describe "high-volatility interpersonal dynamics" and
 The chat archive does not support it. The archive is six years of a soft,
 broke, funny, mutually attentive household, and the volatility in the record
 belongs to the week it ended.
+
+## Scored against Annie, by an instrument that did not know the thesis
+
+In spring 2026, at the end of the terminal phase, Dan asked Claude to rebuild
+its master record of the Annie relationship and — as an addition to the
+brief — to *"assign a 'girlfriend score' to both annie and alexis using your
+own metrics."* The metrics were the model's, not Dan's, and no part of this
+wiki was in its context. The result:
+
+| | Annie | Alexis |
+|---|---|---|
+| Composite | **1.9 / 10** | **7.1 / 10** |
+| Honesty | 1.5 | — |
+| Relational integrity | 1.5 | 7.5 |
+| Non-exploitation | 1.5 | 8.5 |
+| Emotional availability | 2.5 | 6.0 |
+| Reciprocal investment | 2.5 | — |
+
+This is a model's arithmetic on seven invented dimensions, not a measurement,
+and it belongs on the page as attributed AI output under `STYLE_GUIDE.md` rule
+4. What makes it worth recording anyway is where the numbers land relative to
+conclusions this wiki reached independently and from different evidence.
+
+The composite gap is 5.2 points, and the model located almost all of it in
+**non-exploitation** (1.5 against 8.5) — a seven-point spread on the single
+axis that is not about warmth. Its own summary of what the spread measures is
+*"the quantified distance between withholding emotional expression and
+withholding reality."* That is the same distinction this page argues from the
+chat archive: six years of a household that was broke and funny and mutually
+attentive, whose one documented deficiency is emotional suppression, set
+against a relationship whose documented mechanism is
+[[wiki/mind/synthesis/dan-annie-fallout-verdict|gaslighting and supply]].
+
+Two things follow, and they point opposite ways. The convergence is real
+corroboration: an instrument scoring blind, on categories it made up, put the
+control case seven points clear on the exact axis
+[[wiki/mind/synthesis/the-unbroken-bond]] uses to separate the two women. But
+the instrument is not independent of its subject — it was reading a record Dan
+assembled, prompted by Dan, in a session whose whole purpose was adjudication
+([[wiki/mind/synthesis/instrument-is-subject]]). The honest statement is that
+the scoring shows the wiki's read is *reproducible from the same evidence by a
+different reader*, which is weaker than confirmation and stronger than nothing.
+
+The score's most useful property is the thing it refuses to flatter. It does
+not give Alexis a 9. It docks her to 6.0 on emotional availability and calls
+the suppression *"a real limitation, not a rounding error"* — which is this
+page's own closing finding, arrived at from the archive rather than from a
+rubric.
 
 ## Post-eviction hostility (Dec 2015)
 

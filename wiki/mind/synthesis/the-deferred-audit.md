@@ -6,7 +6,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-15
+date_modified: 2026-08-21
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -61,9 +61,29 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "This page's clock rule — imposed objects audited on contact, chosen objects only after they fail — is the timing mechanism 'The Irreversibility Firewall' elevates to doctrine scope; the reconciling insight (auditing a chosen object risks a verdict on the chooser) is that page's actual engine."
+  - page: wiki/health/the-configured-body
+    type: instance-of
+    claim: "The body is the first object in the corpus to run both clocks at once rather than being filed on one side of the sort: the configuration is chosen and gets the imposed-object treatment (preemptive, absolute, on contact), while the substrate underneath it is deferred until it fails, and the two lost teeth are what accumulates on the seam."
+  - page: wiki/places/the-unpapered-address
+    type: instance-of
+    claim: "This page's 463 Morgantown prediction — that a chosen housing arrangement gets reconstructed only after it fails — was already true six times over before it was made: seven addresses across sixteen years, every one unpapered, none ever audited while standing."
 ---
 
 # The Deferred Audit
+
+> **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/mind/concepts/forensic-method]] (2026-08-20). Moved by two typed-edge additions only, no prose change. Re-read against
+> the change; **no claim on this page is affected** and nothing here is
+> withdrawn. One of those edges is worth this page's attention later: [[wiki/mind/concepts/document-fabrication]] records the forensic faculty run in reverse, producing a document calibrated to survive inspection. That is the audit engine pointed at manufacture rather than detection, and it is the same not-taking-itself-as-object property this page names. Flagged, not annexed.
+
+> **RE-CHECKED [2026-08-21] — three premises moved, all by re-check blocks
+> only.** [[wiki/mind/concepts/the-cool-metric]],
+> [[wiki/mind/synthesis/single-channel]] and
+> [[wiki/interests/food-and-diet]] all moved on 2026-08-21, and in each case
+> the whole change is a `RE-CHECKED` blockquote recording that the page's own
+> upstream premise had left it undisturbed. Nothing was added to, withdrawn
+> from or narrowed on any of the three. The deferral argument here reasons
+> from their substantive claims, none of which moved.
+
 
 Dan audits everything. What decides the outcome is not *whether* the audit
 runs — it always runs — but **when**, and the schedule is set by a single
@@ -480,3 +500,19 @@ comparison, or the Arnu prediction above — and are noted here only because
 > per-contact CSVs and the attribution of one February 2025 row. This page
 > reasons from that page's *audit-timing* finding, not from its sender
 > attributions, and cites no row from February 2025. Closed unaffected.
+
+## RE-CHECKED [2026-08-18]
+
+`bin/wiki-climb check` flagged this page stale against
+[[wiki/mind/synthesis/single-channel]], which was revised after a fourteen-fold
+recount of the maternal message channel (2,391 → 33,698) qualified its
+"no failover" claim into "one dependable channel plus one of comparable volume
+at unusable reliability."
+
+**The provenance rule here survives unchanged** — "maximum investment in the
+chosen, maximum indifference to the imposed" does not depend on how many
+channels exist. If anything the recount is a clean instance of it: the maternal
+channel is the largest *imposed* relationship in the corpus, it was never
+audited, and the wiki's own count of it was wrong by an order of magnitude for
+two months without anyone noticing. **A deferred audit of a relationship
+produced a deferred audit of the data about it.**

@@ -5,7 +5,7 @@ title: "The Re-entanglement, July 26 – August 2 2026"
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-17
+date_modified: 2026-08-18
 date_range_start: 2026-07-26
 date_range_end: 2026-08-02
 importance: critical
@@ -31,7 +31,7 @@ connections:
     claim: "Procurement resumed within thirty-one hours of Dan's only documented refusal to supply, and by the end of the window it is the sole mechanism by which the two of them meet — five handoffs in six days, every in-person contact attached to one."
   - page: wiki/mind/synthesis/block-unblock-loop
     type: evidences
-    claim: "The window splits the unexecuted-threat pattern along a line the page could not previously see: the impulsive disclosure to Annie's mother was executed within sixteen minutes, and the deliberated one, announced twelve hours in advance and negotiated over two hundred messages, was not."
+    claim: "CORRECTED 2026-08-18: this window was read as splitting the unexecuted-threat pattern into an executed impulsive disclosure and an abandoned deliberated one. The July 26 contact is not a member of the threat class — this page's own 2026-08-17 write-back establishes it as a life-safety act, not the threat executed as leverage — so the window contributes one threat datum, the July 28 abandonment, and leaves the maternal-disclosure execution rate at zero."
   - page: wiki/mind/concepts/forensic-method
     type: instantiates
     claim: "In six days the Leviathan apparatus is published as an exhibit, retracted inside five minutes on a single request from its subject, rebuilt as an access-controlled honeypot, and then shown to that same subject as a gift — the full range of what the method is for, compressed."
@@ -47,6 +47,9 @@ connections:
   - page: wiki/mind/concepts/attachment-model
     type: evidences
     claim: "Between 05:22 and 20:20 on July 26 the exchange runs from a rape accusation and 'don't contact me again' to a joke about the dog catching a rabbit, with no apology or resolution in between — the reset is unconditional and takes fifteen hours."
+  - page: wiki/timeline/events/august-2026-unmasking
+    type: precedes
+    claim: "This night terminates the re-entanglement window that the July 4 email reopened; the same procurement dependency that structured the window structures its collapse."
 ---
 
 # The Re-entanglement, July 26 – August 2 2026
@@ -217,25 +220,41 @@ coming from ME."
 references it, and by the afternoon of July 30 the thread is about a
 petting zoo at the library.
 
-That produces a genuine sharpening of the pattern
+That bears on the pattern
 [[wiki/mind/synthesis/block-unblock-loop|the block/unblock loop]] records —
-the eighteen block threats and six-plus maternal-disclosure threats that
-are essentially never executed. Both kinds of threat appear in this window,
-forty-eight hours apart, and they resolve **opposite ways**:
+the eighteen block threats and six-plus maternal-disclosure threats that are
+never executed. Two contacts with Annie's mother appear in this window,
+forty-eight hours apart:
 
 - The July 26 disclosure was **impulsive**, made under a genuine belief that
-  Annie was in danger, and executed in sixteen minutes.
+  Annie was in danger, and made in sixteen minutes.
 - The July 28 disclosure was **deliberated**, announced twelve hours in
   advance, negotiated over, drafted, offered for pre-approval, and never
   sent.
 
-The rule the corpus had was "Dan's threats are not carried out." The rule
-this window supports is narrower and testable: **announcement is the
-mechanism of non-execution.** A stated intention converts the act into a
-move in the conversation, and once it is a move it can be traded; an
-unstated one is simply performed. The four-month lag on
-[[wiki/mind/synthesis/the-deferred-audit|the deferred audit]] is the same
-shape seen from a different angle.
+> **CORRECTED [2026-08-18]:** this section read the two as *"resolving opposite
+> ways"* and derived from the contrast a rule that **announcement is the
+> mechanism of non-execution.** Both halves are withdrawn, by this page's own
+> later evidence. The WRITTEN BACK block above — added 2026-08-17 from the
+> operator's account — establishes that July 26 was **not the threat executed as
+> leverage** but a response to a belief that Coles had Annie in danger. It is
+> therefore not a member of the threat class, and the window does not contain
+> one executed threat and one abandoned one. It contains **one** threat, the
+> July 28 one, abandoned — which leaves the maternal-disclosure execution rate
+> at **zero across seven or more instances**, a stronger version of the
+> regularity than the "sharpening" this section claimed.
+>
+> The announcement rule does not survive either, and was already superseded
+> elsewhere before this correction reached here: June 1 2026 is an **announced**
+> severance that executed and held fifty-two days, which the rule as printed
+> gets backwards. [[wiki/mind/synthesis/block-unblock-loop]] replaced it on
+> 2026-08-13 with the variable that actually separates the cases — **an
+> intention dies in the trade, and only a counterparty willing to trade can kill
+> it.** July 28 fits: twelve hours and roughly two hundred messages of
+> bargaining, and the act was traded away. The four-month lag on
+> [[wiki/mind/synthesis/the-deferred-audit|the deferred audit]] is still the
+> same shape seen from a different angle; only the mechanism named for it has
+> changed.
 
 ## What Annie is doing, on her own account
 
@@ -411,6 +430,41 @@ opposite — "Always have. Always fucking will," at 00:02 on July 29. This is
 [[wiki/mind/synthesis/dormancy-not-exit|dormancy-not-exit]] with the
 mechanism supplied by the subject: the tie survives because the terminating
 sentence is withheld, and the withholding is what the loop runs on.
+
+## What came next, and what it does to this page's reading
+
+This window closes on August 2 with the relationship described here as
+**"not severed, not resumed — supplied."** That held for seventeen more days
+and then failed, and the failure is instructive about which half of the
+formula was load-bearing.
+
+Between August 10 and 16 the arrangement briefly stopped being only supply:
+1,136 messages at a near-even ratio (652/484, against 3:1 in this window), a
+sleepover on the night of the 10th, and Dan writing *"being next to you this
+morning all i could think is how glad i was that i chose to go through all of
+this."* The supply never stopped, but for one week it was not the only
+structure.
+
+Then on **August 13** Coles messaged a group chat containing Dan, and Annie
+asked Dan not to reply — *"I'm just asking you to please. Do not engage."* He
+agreed. Three nights later Coles called Dan from Annie's phone, and Dan read
+that request retroactively as a concealment rather than a de-escalation. The
+severance that follows is documented at
+[[wiki/timeline/events/august-2026-morgantown-call]] and ends the relationship
+on August 19.
+
+**The reading this page should carry forward:** supply was not what held the
+relationship together, it was what let it keep meeting. When it failed in the
+most ordinary way available — a $60 handoff she did not show up for, on the
+evening of August 16 — five hours of escalation followed and the relationship
+did not survive the week. A structure that can be ended by a missed
+appointment was never the structure.
+
+One item on this page is also now upgraded rather than corrected: the July 26
+messages sent to Dan *from Annie's phone by Coles* were the corpus's first
+instance of that. There have since been two more, on August 16 and August 18.
+It is a **pattern**, not an incident, and it means any message attributed to
+Annie's handle during a Coles-present episode needs the episode checked first.
 
 ## Gaps
 

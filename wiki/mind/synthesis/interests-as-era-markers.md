@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-17
-date_modified: 2026-07-17
+date_modified: 2026-08-19
 sources:
   - "raw/self/favorites/FAVS MASTERLIST.csv"
   - "raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html"
@@ -39,6 +39,12 @@ connections:
   - page: wiki/mind/concepts/the-cool-metric
     type: caused-by
     claim: "The admission criterion operating upstream of the intake record: subjects had to pass a performed-versus-authentic filter before they could become era markers at all."
+  - page: wiki/mind/synthesis/closing-the-set
+    type: instantiates
+    claim: "The completism this page names in one unmeasured clause is the mechanism behind its own dating power: eras end when their set closes, which is why the 2024 Rome year stops at Augustus rather than fading, and why the transitions are sharp enough to pin."
+  - page: wiki/interests/extreme-sports
+    type: instantiates
+    claim: "The 2000–2006 freeskiing/inline era is an unrecorded pre-cursor to the era-marker series — a total-obsession adolescence that left no digital intake record, making it the first era marker that cannot be verified from watch logs alone."
 ---
 
 # Interests as Era-Markers
@@ -136,3 +142,23 @@ is unidentified (above). The claim "rate constant, subject rotates" is
 verified at the year scale, not the month scale — sub-year obsession
 boundaries (e.g. exactly when the 2024 Rome year ended) are not yet
 established from raw.
+
+## What "totality of engagement" turns out to mean
+
+The mechanism section above names completism in one clause — *"the same
+completism that produces a Kubrick checklist, a full Goldsworthy shelf, and an
+in-order radio archive run-through"* — and treats it as a description of
+engagement style. Measured, it is the engine of this page's own dating power.
+
+The favorites record shows the marker subjects being consumed as **closed
+sets**: forty books on one presidency by thirty different authors, twenty on the
+fall of the Republic by fourteen, ~450 watches working through a dead radio
+show's fan archive in order, a Kubrick filmography with a countable remainder
+Dan reports in his own words. That is why the transitions are sharp enough to
+pin. An era does not end because attention wandered to something newer; **it
+ends because its set closed** — which is why the 2024 Rome year stops at
+Augustus, a point at which the material is still available and rated 4 but the
+object, the Republic, is over. Conserved intake hours explain why only one
+obsession runs at a time; set-closure explains why the previous one terminates
+instead of thinning. Full distributions at
+[[wiki/mind/synthesis/closing-the-set]].

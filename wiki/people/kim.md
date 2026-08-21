@@ -11,6 +11,10 @@ infobox:
   name: "Kim"
   relationship_to_dan: unknown
   known_for: "Role: LC manager on the franchise side of the BFS building (BFS Foods / Bruceton Farm Service, Inc.). Procedurally hones"
+connections:
+  - page: wiki/people/timmy
+    type: co-occurs
+    claim: "Kim pulled the camera footage on Timmy's gambling that incidentally exposed Anita's vape sale, then was falsely named by Anita as the one who reported him."
 ---
 
 # Kim (Little Caesars Manager)

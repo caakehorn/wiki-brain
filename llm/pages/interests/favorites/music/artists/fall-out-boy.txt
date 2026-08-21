@@ -42,6 +42,9 @@ connections:
   - page: wiki/interests/favorites/music/artists/we-the-kings
     type: co-occurs
     claim: "We The Kings and Fall Out Boy appeared together at House of Blues, Orlando, FL on Dec 12, 2008."
+  - page: wiki/interests/video-games
+    type: co-occurs
+    claim: "The 2007 status layer names gaming and 'swooning over the new FOB' in the same breath; the two interests are contemporaneous coordinates of the pre-armor self-presentation."
 ---
 
 # Fall Out Boy

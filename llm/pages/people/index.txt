@@ -3,7 +3,7 @@ domain: people
 page_type: summary
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-08-09
+date_modified: 2026-08-18
 sources: []
 related: []
 ---
@@ -16,7 +16,7 @@ related: []
 - [[wiki/people/alex-frank]] — Dan's semi-famous cousin; Brooklyn-based music/culture journalist (FADER, Vogue, GQ, Pitchfork); wrote the essay about Morley Frank's funeral.
 - [[wiki/people/alexander-jackson]] — From context-core: 337 sale drives move; "no post-close plan". Mixed roles at 463 amplify vertical…
 - [[wiki/people/alexis-armel]] — The six-year partner (late 2009 – Nov 2015) who occupied the attachment slot without activating it; the corpus's control case, and the friendship that outlasted the breakup by a decade.
-- [[wiki/people/ally-lubin]] — Friend since a 2013 FB thread (dark humor, "North Carolina"); a much larger 452-message iMessage thread (2019-2023) merged in from a duplicate stub.
+- [[wiki/people/ally-lubin]] — Eighteen-year attachment to a woman Dan has never met (Boca Raton → NYC → Charlotte); 1,987 iMessage across two handles (2018–2026); a channel that runs concurrently with the primary bond rather than after it fails; $2,100 sent in the Aug–Oct 2019 crisis window, and the page whose 2026 climax turned out to be a hallucination the wiki wrote about itself.
 - [[wiki/people/anita]] — BFS gas-station GM who originated the $50 drawer-shortage claim; her "gas, foodstamps, lottery" confabulation and the Timmy blame-pivot make her the vertical-suspect exhibit.
 - [[wiki/people/annie-ulmer]] — Anne ("Annie") Ulmer. Primary relationship from Thanksgiving 2015; the June 1 2026 closure held 52 days and failed — status open, not historical.
 - [[wiki/people/betherin-mechling]] — Annie's cousin; fiancée of Jay Lauer, controlled his finances, returned his ring weeks before his April 2017 overdose.
@@ -31,7 +31,7 @@ related: []
 - [[wiki/people/brennan-meadows]] — Brief early-2016 contact mixing suboxone sourcing and a small loan request.
 - [[wiki/people/brian]] — NYC client who booked Annie (as "Hazel") for paid visits, summer 2019.
 - [[wiki/people/bryan-5088682461]] — Third participant in the Oct 20, 2019 filmed MMF; a gay man whose first encounter with a woman was that night with Annie and Dan. Not the escort-client Brian.
-- [[wiki/people/bruceburish]] — Caddying-era friend; one dense Oct 2018 thread reacting to Dan and his girlfriend's webcam plans.
+- [[wiki/people/bruce-burish]] — Caddying-era friend; one dense 348-message thread over five days in Oct 2018, the camming business described to an outsider at launch.
 - [[wiki/people/bub]] — Long-running casual friend: DJ logistics, Mac troubleshooting, gaming, 2017-2020.
 - [[wiki/people/casey-bondarenka]] — Friend who overstepped during 2015 relationship turbulence with Alexis; sporadic contact through 2018.
 - [[wiki/people/chad-johnson]] — Fellow Nemacolin caddy and college student, 2017-2018.
@@ -44,7 +44,8 @@ related: []
 - [[wiki/people/danielle-onesi]] — Dan's first girlfriend (pre-Lex/Alexis Armel era, ~2005-2009/2010). Uniontown PA roots (Rust Belt cohort).…
 - [[wiki/people/dan-polyak]] — Longtime friend; documented the April 2019 phone-number impersonation used to reach Ally Lubin, and received the same-morning account of the Bryan encounter.
 - [[wiki/people/danny-matthews]] — Realtor who sold Fran's house; also half of a swinger couple (with Nicole) Dan and Annie played with 2018–2024.
-- [[wiki/people/diane-shrum]] — Rebecca Diane Van Voorhis Shrum, Dan's maternal grandmother and Fran's only child; sent the April 2018 letters barring Dan and Annie from Fran's house.
+- [[wiki/people/diane-moore]] — Rebecca Diane Van Voorhis Moore, Dan's maternal grandmother and Fran's only child; the spring 2018 instrument demanding the keys under a trespassing clause. Absorbs the wiki's separate "Dian V. Moore" actor.
+- [[wiki/people/dave-moore]] — Diane's second husband; spoke for her to Fran's hospital social workers, and the man Dan believed wrote the trespassing letter.
 - [[wiki/people/davey-fitzpatrick]] — Nemacolin assistant caddie master (2018) and Dan's scheduler/friend for the last Uniontown working year; the thread ends the day Dan tells him about the NYC move.
 - [[wiki/people/david-beard]] — Golf-course-adjacent contact who sold Dan a used drone in Sept 2018, the middle purchase in a three-drone summer.
 - [[wiki/people/david-j-frank]] — Paternal great-grandfather of Dan Frank. Born 12 August 1892 in Russia (Jewish immigrant). Died 6 April…
@@ -116,7 +117,7 @@ related: []
 - [[wiki/people/matt-dunn]] — Full Sail friend, affectionately abused as "the world's most annoying man woman or child"; the annual $5 birthday Venmo bit.
 - [[wiki/people/matthew-palermo]] — Uniontown classmate whose brother fatally overdosed after a relapse; recipient of Dan's starkest opiate-epidemic self-assessment.
 - [[wiki/people/max]] — Implements ai-collaborative-analysis and vertical-authority via "adversarial" pressure for robustness.…
-- [[wiki/people/max-danielle-bf]] — Danielle's current boyfriend; subject of an unprompted AI personality analysis Dan ran on a recording of him.
+- [[wiki/people/james-dee]] — Danielle's boyfriend; the 2025 friendship that ended twelve minutes after Dan handed him an AI profile of himself. Absorbs the mis-titled "Max (Danielle's boyfriend)" page.
 - [[wiki/people/md]] — Au Za'atar-affiliated contact; 2024 Bangladesh political-unrest discussion.
 - [[wiki/people/menore]] — "Additional family/friend" per master dump analysis and cross-refs. Handle +13476070497 (dedicated CSV messages_3476070497_all_time.csv).…
 - [[wiki/people/michael-hinkle]] — One-sided, unanswered 2017 Facebook message.
@@ -144,7 +145,7 @@ related: []
 - [[wiki/people/shelbie-breakiron]] — Stripper/aspiring cam model Dan financially supported alongside Annie, May–Aug 2019; the [[wiki/timeline/events/shelbie-annie-threesome-april-2019|April 2019 threesome]]; ended in a hostile blowup and a legal-threat follow-up.
 - [[wiki/people/stephanie-nalbone]] — Previously undocumented Sept-Nov 2009 relationship, right at the close of Full Sail; sequencing against Danielle and Alexis unresolved.
 - [[wiki/people/steve-kezmarsky]] — High-school-era Uniontown golf friend, self-described "dark and tormented soul"; alive and sober as of Dec 2018 while his father faced a life sentence (death claim withdrawn 2026-07-19).
-- [[wiki/people/suzanne-frank]] — Mother of Dan Frank. Born 15 September 1962, Pittsburgh, Allegheny County, Pennsylvania (maiden: Whyel /…
+- [[wiki/people/suzanne-frank]] — Mother. The corpus's second-largest thread (33,698 messages, 2015–2026) and its longest unsettled account; realtor, Chapter 13 filer, and the person whose bankruptcy sold Dan's childhood home.
 - [[wiki/people/tarik-fallous]] — Tarik Fallous — owner-operator (with his brother Ghassan) of Au Za'atar, the Lebanese restaurant near 58th…
 - [[wiki/people/teddy]] — Recurring Uniontown-area informal pharmaceutical supplier, 2018–2020; a transactional but socially embedded local supply node.
 - [[wiki/people/timmy]] — Underage Little Caesars employee whose vape/gambling ban and Anita's Kim→"Daniel" blame-pivot is the two-weeks-prior template for the drawer dispute.
@@ -164,6 +165,9 @@ related: []
 - [[wiki/people/vicki]] — Longest-serving non-family caregiver on Fran's rotation (2016–2018); "this lady is like my grandmother I never had"; her thread dates the second fall and documents the vigil's final days.
 - [[wiki/people/zach-clingan]] — Nine-year Uniontown acquaintance and 2017 Nemacolin caddie-yard peer; the page an earlier pass filed under the wrong surname.
 - [[wiki/people/zachariah-harshman]] — High-school friend, 2014–15 Uniontown supply node (earliest documented), and independent witness to the Alexis-to-Annie bond switch's social fallout; friendship survives and revives as a platonic gaming friendship by 2020.
+- [[wiki/people/zaco]] — 2018 Uniontown supplier of Suboxone strips; the supply network's only push-marketing node (58 of 65 messages his, unsolicited).
+- [[wiki/people/annie-ulmer-personality-assessment]] — ESFP 7w8 sx/sp, 7-4-8 trifix: the mechanistic personality read behind the main entry, quote-sourced and contradiction-tested.
+- [[wiki/people/suzanne-frank-personality-assessment]] — ISTJ 6w7 so/sp, 6-2-9 trifix: the personality read behind Dan's mother's entry.
 
 ## contacts
 

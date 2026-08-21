@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-11
+date_modified: 2026-08-21
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -83,7 +83,7 @@ falsification.
 |---|---|---|---|
 | [[wiki/work/au-zaatar]] | Busser, then server | Veterans' equal tip split negotiated day one; the fabricated 9pm night class; sole custody of the shed's cash tips ("the Outside Guy"); an imported caddie-advocacy game run against the house | **41 months** |
 | [[wiki/work/nemacolin-caddying]] | "Experience Associate – Golf" | The looper status ladder — the call-up to "the real loopers," the first two-bag round, the Scottsdale transfer pitched to Carl — plus golf itself as his own sport | **43 months** |
-| [[wiki/work/bfs-foods]] | Gas-station cashier | **None documented** | **~1 month** |
+| [[wiki/work/bfs-foods]] | Gas-station cashier | **None documented** | **~1 month** — but ended by employer action (posted "NO HIRE" sign); see the re-check under Controls |
 | [[wiki/work/caviar-courier]] | App-dispatched courier | **None available to install** | 12 months, intermittent |
 | [[wiki/legal/2015-possession-arrest]] | Six-month court-ordered ARD probation | — (the payload was the deal itself, obtained before the probation began) | Compliance attested only retrospectively |
 
@@ -140,6 +140,43 @@ and the shed was already obsolete — "then also the city made places tear down
 sheds for winter, so that was that." The payload decayed and was then formally
 removed, and the tenure tracked the payload rather than the employment. Once
 the territory was gone the host had nothing in it.
+
+> **RE-CHECKED [2026-08-21] — the rule survives; the BFS row's *mechanism*
+> does not, and BFS is a weaker control than this section claims.**
+> [[wiki/work/bfs-foods]] moved on 2026-08-20 (the 2026-08-11 restoration) and
+> [[wiki/work/au-zaatar]] on 2026-08-21, and this page reasons from both.
+> Au Za'atar moved only in its Menore supply edges — nothing this page uses.
+> BFS moved substantively, and `BACKLOG.md` flagged it as the least cheap of
+> the nine open staleness pairs. It was right to.
+>
+> **Two accounts of why BFS ended are now on the record and they do not
+> match.** This section says the job ended *"at the exact moment the role
+> produced its first genuinely assigned demand: pay the $50 drawer shortage
+> out of pocket, sign the write-up."* Dan's own retrospective, given to Annie
+> on 2026-08-11, says something else entirely: *"literally the only thing I
+> did was go home 30 minutes before my shift was supposed to end after I
+> called my manager and made sure it was okay."* And the ending was formal in
+> a way this page never recorded — a posted sign reading **"NO HIRE: Daniel
+> Frank"** in two locations, BFS and the Little Caesars office.
+>
+> **That matters because a control has to be clean.** The row is doing work
+> here as evidence that *absence of a payload* is what collapses tenure to
+> weeks. If the tenure was ended by an employer decision — arbitrary enough
+> that Dan cites it as a reason to *"wonder if I am going crazy"* — then the
+> short tenure is at least partly explained by something other than the
+> variable this page is isolating, and BFS cannot be quoted as a sharp
+> control without that qualification. The directional claim survives (no
+> payload was installed, and the job did not last); the causal sentence
+> about the drawer shortage is now one of two competing accounts and should
+> not be stated as settled.
+>
+> **The 2026-08-11 reversal cuts the other way and supports the rule.** The
+> same manager-side chain that posted the sign told Dan to reapply, and he
+> did. A payload-less job he is willing to *re-enter for income* but never
+> sustained is exactly the shape the rule predicts, and it separates the two
+> things this page keeps distinct elsewhere: appetite for the wage is
+> constant, tenure is not. Caviar makes the same point across twelve months
+> and is the stronger of the two controls — see below.
 
 **Caviar is the second control, and it isolates the variable.** An app that
 dispatches orders to a phone offers nothing to embed an objective in — no

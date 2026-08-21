@@ -23,6 +23,12 @@ connections:
   - page: wiki/people/annie-ulmer
     type: evidences
     claim: "Annie's unilateral move to her parents' house rather than accepting Dan's open-ended offer to fund an apartment anywhere she chose is the first concrete post-affair decision-making asymmetry in the corpus, predating the terminal-phase asymmetry by roughly eight months."
+  - page: wiki/people/annie-ulmer
+    type: evidenced-by
+    claim: "Rescoped 2026-08-13: the choice Annie made here was made inside a frame Dan had built without telling her — a landlord eviction he arranged and Paci agreed to perform — so the window records two asymmetries, her unilateral move to her parents' house over his offer to fund an apartment anywhere she chose, and his unilateral authorship of the crisis that made the choice urgent."
+  - page: wiki/people/john-paci
+    type: caused-by
+    claim: "Paci's agreed performance of a landlord eviction is the proximate mechanism of the February 2025 exit from New York — what that period page called a 'forced exit' was his half of an arrangement Dan initiated by phone in January."
 ---
 
 # Feb–April 2025: Return and Rupture

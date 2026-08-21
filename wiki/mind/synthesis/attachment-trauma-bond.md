@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-15
+date_modified: 2026-08-20
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -31,6 +31,9 @@ synthesizes:
   - wiki/mind/concepts/conflict-architecture
 tags: [relationships, trauma-bond, addiction-recovery, infidelity, ai-collaboration]
 connections:
+  - page: wiki/mind/synthesis/august-grievance-verdict
+    type: evidenced-by
+    claim: "The model at maximum amplitude, quantified: 69 of her messages contain 'please' or 'beg' against 15 'fuck you' and 17 'piece of shit' from him, contempt language nearly quadrupling against the prior week's baseline, and a disclosed suicide attempt met with escalation rather than de-escalation."
   - page: wiki/people/annie-ulmer
     type: instance-of
     claim: "Supplies the structural model — intermittent reinforcement, DARVO, the confession trap, the tether oscillation — for the relationship record that page holds; the decade is this page's central and only full-magnitude case."
@@ -67,10 +70,32 @@ connections:
   - page: wiki/mind/synthesis/music-as-identity
     type: parallels
     claim: "The music-preference cutoff pattern (absorption, hard boundary, pre-cut version held as real) is the attachment architecture running on objects that cannot betray him."
+  - page: wiki/self/concepts/ally-and-dan-love-as-destiny
+    type: parallels
+    claim: "The same architecture — intensity sustained across distance, reactivation after silence, a wound shared with the partner — is argued there to produce a durable marriage rather than a trauma bond; the two pages read one structure to opposite ends, and only time separates them."
 ---
 
 
 # Attachment Trauma Bond and Aura Illness
+
+> **RE-CHECKED [2026-08-20] — the bond this page models ended, and the ending
+> is the model working, not failing.** Flagged stale against
+> [[wiki/people/annie-ulmer]] and [[wiki/people/suzanne-frank]], both moved for
+> the August 16–19 ingest
+> ([[wiki/timeline/events/august-2026-morgantown-call]]). **No claim here is
+> withdrawn.** The window is this page's own dynamics at maximum amplitude: a
+> disclosed suicide attempt met with escalation rather than de-escalation, 67
+> hours in which 18% of everything Annie sends contains *please* or *begging*, a
+> deliberately falsified threat used to measure her attachment, and reconciliation
+> attempts running in both directions inside the same hour. One thing genuinely
+> new for a later pass rather than a correction: on 2026-08-19 at 11:41 Dan
+> attempted the move this page says the architecture cannot make — *"There never
+> was an eggie bagels. I never had a dog named Betty… you never existed"* — a
+> unilateral deletion of the shared record in place of the terminating statement
+> he could never get. Whether that is the bond's exit mechanism or its most
+> elaborate evasion is not scorable from four days of record and is not scored
+> here.
+
 
 The ten-year relationship between Dan and [[wiki/people/annie-ulmer|Annie]], spanning from their initial meeting on Thanksgiving weekend in November 2015 to its formal closure on June 1, 2026, serves as the load-bearing relational trauma node of Dan's adult life. Against this relationship, all other attachment data is calibrated. The bond was not a standard romantic trajectory; rather, it was structurally supported by profound trauma bonding, intermittent reinforcement, and deep logistical enmeshment.
 
@@ -188,6 +213,35 @@ through a signal severe enough that a functioning attachment would expect
 it to register. No conclusion on this page is reversed; the intermittent-
 reinforcement count is larger than previously stated, in the same
 direction the page already argues.
+
+## RE-CHECKED [2026-08-18]
+
+`bin/wiki-climb check` flagged this page stale against
+[[wiki/people/suzanne-frank]], rewritten from primary sources on 2026-08-18,
+and against [[wiki/people/annie-ulmer]].
+
+**The conclusion survives and gains a boundary.** This page treats the
+leverage see-saw — one party solvent while the other is dependent, the
+rotation turning, the debt named out loud when it does — as a property of the
+Annie bond, with Suz's money appearing only as the substrate that financed
+Dan's side of the first rotation. The rewritten mother page shows the identical
+structure running **between Dan and his mother for a decade before Annie**, and
+still running after: mutual lending with no paper, an itemised statement
+produced in an argument, each party claiming to be the creditor, and reconciliation
+arriving as the next emergency rather than as settlement. The 3 July 2019
+exchange is the same shape as the terminal-phase money arguments, eleven months
+before the Eli affair and six years before the collapse.
+
+**What that changes:** the see-saw is not something the Annie relationship
+produced. It is the financial grammar Dan learned at home, and the bond
+analysis should read it as an inherited template that the relationship
+instantiated rather than a dynamic the relationship generated. That makes the
+prediction here stronger, not weaker — the pattern should be expected to
+recur with any future partner, and it is already visible with a friend
+([[wiki/people/tom]]) and a parent.
+
+**Unchanged:** every figure, every date, and the affective account of the bond
+itself.
 
 ## System Recalibration Requirements
 

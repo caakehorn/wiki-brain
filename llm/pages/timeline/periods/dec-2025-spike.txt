@@ -14,6 +14,9 @@ connections:
   - page: wiki/timeline/events/group-chat-closure
     type: precedes
     claim: "The December 2025 volume peak is what makes the June closure a rupture rather than a drift: six months earlier the relationship was at its highest message volume on record."
+  - page: wiki/interests/golf
+    type: evidenced-by
+    claim: "The December 13 2025 'like when we used to, when you ACTUALLY liked me' line weaponizes golf as the relationship's named good-era memory — the loop that opened on a fairway closes as its eulogy."
 ---
 
 # December 2025 Spike

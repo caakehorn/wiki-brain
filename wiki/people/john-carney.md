@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-20
 sources: ["raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/message-csv/imessage_7243228715_both_all_now.csv", "raw/self/message-csv/imessages_2124702449_last6months.csv", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/location/2026-06-22-ingest/Location History (Timeline)/Semantic Location History/2019/2019_FEBRUARY.json"]
 synthesizes:
   - wiki/legal/463-morgantown
@@ -21,6 +21,11 @@ infobox:
 ---
 
 # John Carney
+
+> **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/legal/463-morgantown]] (2026-08-20). That page gained a section on the address as a threat vector and one typed edge. Re-read against
+> the change; **no claim on this page is affected** and nothing here is
+> withdrawn. The contractor exposure and the unreachability since March 2026 are untouched.
+
 
 **Role:** Contractor at 463 Morgantown St. Unreachable; work ~10-20% complete. Parallel mentions of Carney's Auto Repair Services in location history (possible variant or same network).
 
@@ -62,3 +67,17 @@ Location history cross suggests possible auto-repair overlap or coincidence in U
 > property — incomplete work and an unreachable contractor — and is unaffected by
 > the Arnu timing. It is also still unresolved: no source read to date records
 > the work being re-let, completed, or written off.
+
+## RE-CHECKED [2026-08-18]
+
+`bin/wiki-climb check` flagged this page stale against
+[[wiki/legal/463-morgantown]], moved 2026-08-18 for a correction to
+[[wiki/people/suzanne-frank|Suz's]] financial position and two new dated rows.
+
+**Nothing here is contradicted.** The incomplete work (~10–20%) and the
+unreachable contractor stand as recorded. The correction does bear on the
+practical question of remedy: re-letting the Carney work requires money the
+contracting counterparty demonstrably does not have — an October 2024 Chapter 13
+with ~$157,000 scheduled, self-reported income of $11,000–$14,000 a year, and
+the sale of her only asset absorbed by the plan. The realistic outcome is that
+the work stays unfinished rather than that it is re-let and pursued.

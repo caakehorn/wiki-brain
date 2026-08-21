@@ -5,7 +5,7 @@ knowledge: earned
 title: "The Power Axiom: What Resolves the Leftist/Authoritarian 'Paradox'"
 status: active
 date_created: 2026-08-10
-date_modified: 2026-08-11
+date_modified: 2026-08-19
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -39,6 +39,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "The power axiom promotes 'The Irreversibility Firewall's' vertical-distrust prediction to a conscious, self-authored political commitment — the CATO persona, built around Caesar's own opponent rather than Caesar, is Dan naming the firewall's outward-facing half on purpose, as an identity."
+  - page: wiki/mind/synthesis/the-cato-seat
+    type: component-of
+    claim: "The CATO origin line specifies more than a side: 'self-deleted at Utica post-Thapsus' names the manner of the loss, which makes the persona a choice about the seat — accurate, early, powerless — and not only about where Dan stands on concentrated power."
 ---
 
 # The Power Axiom: What Resolves the Leftist/Authoritarian "Paradox"
@@ -187,3 +190,32 @@ counter-instance is future work.
 > existing 2005 family rupture — an addition, not a replacement or
 > retraction of the 2005 claim this page draws on. This page's "psychological
 > disposition inherited from a 2005 family rupture" framing is unaffected.
+
+> **RE-CHECKED [2026-08-18] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/vertical-authority-skepticism]] moved on 2026-08-18 to
+> take a typed edge from the new [[wiki/people/dave-moore]] page — a man with no
+> blood tie and no caregiving role speaking for the estate's heir to hospital
+> social workers, and drafting its correspondence. That is an additional
+> instance of the template, at family scale, not a change to what the template
+> claims or where it originates. This page's inheritance argument is unaffected,
+> and if anything the new instance strengthens the "authority exercised through
+> paperwork by people who are not present" clause it leans on.
+
+
+## The origin line specifies a seat, not only a side
+
+This page reads the CATO persona as settling the leftist/authoritarian question:
+Dan built his analytical identity around Caesar's implacable opponent rather
+than around Caesar, and that is correct and load-bearing. The line he wrote
+specifies one thing more. *"Cato the Younger — Stoic absolutist, **self-deleted
+at Utica post-Thapsus**"* names not just the side of the argument but its
+outcome and its manner: right for twenty years, defeated, and dead by his own
+hand rather than pardoned.
+
+That detail turns out to be the position occupied by nearly every object Dan has
+curated for identification — twenty-four of twenty-five artworks tagged
+collapse, wound, observer, glitch, rupture or fortress; half the read shelf on
+two constitutional orders failing; a want-to-read queue with nine "fall"s and no
+title about anything being built; Oppenheimer, Fred Hampton, John Brown, Travis
+Bickle. **There is no figure in the corpus who was right and won and kept it.**
+See [[wiki/mind/synthesis/the-cato-seat]].

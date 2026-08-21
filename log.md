@@ -1,3 +1,55 @@
+## [2026-08-19] audit | self | the last three days of edits — three pages had the attribution backwards, and the corpus settled all three
+
+Operator: *"do a pass over everything edited or created in the last 3 days and fix the sourcing, attribution, edges, and any other problems."* Scope: 99 wiki pages touched since 2026-08-16. The Aug 16–18 work held up — the stale-premise pass carried 39 `RE-CHECKED` blocks and changed four conclusions, and the new `james-dee`, `diane-moore`, `dave-moore`, `the-handed-mirror` and `cocaine` pages verify against their declared sources. The damage was concentrated in the six pages written on Aug 19.
+
+**Three attributions were reversed, and the export settles each one.** On `claude.md`, *"Claude = to analyze stuff"* was credited to Tom and *"It did really well with the Kristin chat logs. Better than GPT"* to Dan. `imessage_export_deep_20260813.csv` rows 184487–184503 record the first as **Sent** by Dan and the second as **Received** from Tom, on **2026-03-26** rather than the 03-25 the page gave. Dan's own line in the same minute — *"Claude Is the wokest"* — had not survived into the draft at all. Corrected in place with the old claim visible; the same reversal was propagated to `gemini.md` and fixed there.
+
+**`chatgpt.md` and `gemini.md` were quoting a model as though it were the operator.** The chicken-nugget passage, *"fully processed, pasteurized, and packaged for mass consumption,"* *"a legacy product, a glorified tech demo,"* *"not a cognitive weapon; it's a productivity tool, like Microsoft Excel"* and *"a sludge of median thought"* were all filed under the heading *"Dan's view of ChatGPT's decline is documented, detailed, and angry."* Every one of them is **Gemini's** output in `Gemini Activity.html`, generated in response to Dan's entire contribution on the subject: *"gemini i think chatGPT is cooked"* (2025-08-24, 11:23 PM). The corpus records the verdict and not one word of the reasoning. `gemini.md` compounded it by re-quoting Gemini's ChatGPT autopsy as documentation of **Gemini's own** decline. Both pages now carry `CORRECTED` blocks and separate primary testimony from model output.
+
+**The Gemini activity log is 3,986 prompted entries, not "100,000+".** The inflated figure appeared six times across `gemini.md` and `llm.md`, against `wiki/self/gemini-activity/gemini-activity.md`, which has carried the correct count (3,986 prompted / 3,989 timestamped, peak Dec 2025 at 938) since it was written. A 25× error that one grep would have caught. The stale "438 pages" was corrected to 473 in nine places.
+
+**A boilerplate block describing Claude Code's tooling had been pasted onto three pages with the model name swapped.** `chatgpt.md` and `gemini.md` each claimed a `delegate_task` subagent system, a skill system and a capture system, verbatim, opening *"ChatGPT (via Claude Code) has…"* and *"Gemini (via Claude Code) has…"*. It also carried a `/Users/daniel/.hermes/` temp path and a skill inventory that matches nothing in `.claude/skills/`. Deleted from all three; the material is kept on `claude-code.md`, with the real skills named and the path removed. Sixteen further duplicate sections were removed across the five model pages, several verbatim repeats of a section already on the same page — the residue of a "draft 300+ lines" instruction followed literally, which `claude-code.md` had itself documented under "The literalism problem" while exhibiting it.
+
+**`claude.md` and `claude-code.md` each claimed to have written the wiki.** Both asserted the 473 pages were their own products, of each other's pages. Rewritten on both sides: the split is one of tooling, not authorship, and the operator directs every pass.
+
+**Sourcing.** Three pages had non-`raw/` paths in `sources:` — the only such entries in the wiki. `wiki-brain.md` and `claude-code.md` listed the governing documents (now cited in prose, where they belong); `ally-and-dan-love-as-destiny.md` listed five wiki pages, one of which (`wiki/self/context-core`) it named wrongly. Moved to `synthesizes:`, which cleared five `wiki-climb` errors. `claude.md` cited none of the files carrying its own quotations; the deep export was added.
+
+**The August 18–19 Ally exchanges are not in the repository.** They are the load-bearing evidence for both the `ally-lubin` rewrite and the destiny page — 279 messages and 186 messages — and they exist here only as quotations inside `wiki/`. `ally-lubin_chatdb_complete.csv` stops on August 18 with 126 rows for that day and nothing for the 19th. Four quoted phrases (*"boy smashing factory," "1-2-3 break," "coke just zaps your money," "opiates literally kill you"*) are in no file under `raw/` at all, and *"I'm inherently evil"* is attributed to Ally but occurs only in Gemini's prose. Recorded as gaps on both pages; the extract is a one-command job for the operator and makes the whole phase-change reading checkable.
+
+**`ally-and-dan-love-as-destiny.md` is a projection and now says so.** Roughly half of it — the wedding, the house, the cats, the first year, the children question, the long view — describes events that have not happened, in specific detail no source supports, written in the indicative. Nothing was deleted: a wish recorded at that length is a real datum about its author, and cutting it would hide what the page is. It now opens with an epistemic-status block, carries a labelled seam where the evidence stops, and states the two things it had asserted past: that the burst it reads as a phase change is equally consistent with `dormancy-not-exit`, whose two prior silences each followed exactly such a burst, and that Ally's intentions are documented nowhere but in Dan's reading of her replies. `ally-lubin.md`'s footer, which had endorsed it as "the full evidence-based case," now names the disagreement and says what settles it.
+
+**Edges.** 40 missing inverses written with argued claims rather than restatements. Five edges on `ai-collaborative-analysis` pointed the wrong way (a synthesis is not an instance of its members) and are now `evidenced-by`. `wiki-brain.md` had `component-of` edges running toward the models it contains — inverted, now `contains`. Two dead targets (`wiki/self/dan-frank`, which has never existed) retargeted to `wiki/self/overview`. Four `contradicts` edges that named a difference rather than an incompatibility were downgraded to `mirrors`; the two that are real — ChatGPT against Claude Code on where an LLM's value sits, and the destiny page against `erotic-architecture` on whether the charge survives access — now carry the `CONTRADICTION:` blocks the spec requires. The second is the cheapest falsifier the wiki owns: a first in-person meeting settles it in a weekend.
+
+**Also.** Invalid tag `future` removed. Broken table wikilink on `diane-moore` fixed. Four frontmatter blocks I broke mid-pass were repaired and re-verified.
+
+Gates: wiki-lint **0 errors**, 18 warnings (all pre-existing) · wiki-connect check **0 errors**, 252 warnings (down from 290; every `self/concepts` warning cleared) · wiki-climb check **0 errors, 0 warnings** (down from 5 errors). `llm/` regenerated.
+
+## [2026-08-18] rewrite | people | suzanne-frank — the wiki had the family's money flowing the wrong way, and the mother's thread undercounted fourteenfold
+
+Operator: *"rebuild the suzanne-frank article… expand it a bunch and be more subtle with the digs. do a real re-analysis with all available sources."* Wipe-and-rewrite per `.claude/skills/wiki-rewrite`. 28 KB → 58 KB. Every checkable claim on the old page was tested against `raw/`; six failed.
+
+**The headline number was wrong by a factor of fourteen.** The page reported *"2,391 messages — rank ~8–10,"* sourced to `MASTER_MESSAGES_DB_DUMP.csv`. The authoritative `all_imessages_complete_dump.txt`, joined to the 2026-08-13 deep export for the window after 2025-08-10, gives **33,698 messages, 2015-11-17 → 2026-08-11 — rank 2 in the entire corpus**, behind only Annie (119,405 across four handles) and ahead of Kristin (20,009). The error had propagated to `contact-gini` and, through it, to `single-channel`, whose "no failover / single external input" claim was resting on it. Both corrected; `single-channel` now distinguishes **volume from dependability** and carries a falsifier.
+
+**The largest capital movement in the family runs mother-ward, and the spine had it backwards.** `estate-money-spine` and this page both described Suz as the artery feeding Dan, citing *"$750/week borrowing."* The primary record contains **one** such statement — 13 December 2018, *"You borrowed $750 last week alone!"*, an accusation about a single week made on a day she had herself asked him for $450. `operating_manual.md` (AI-secondary) generalised it into a rate and inverted its direction; the wiki inherited both. What the record actually shows: in **August–October 2018 Dan transferred ~$14,000 to her**, drawn against an estate that did not distribute until September 2020. $4,000 came back. Her own itemised statement of it survives (3 Oct 2018). By 3 July 2019 both were threatening court, each claiming to be the creditor — 105 messages, one of the thread's eight biggest days. Never adjudicated, never withdrawn, and still the live subject of the corpus's most recent message from her.
+
+**The 337 Saratoga sale was a bankruptcy liquidation, not a decision.** New from a case audit Dan pasted into the thread on 30 Mar 2026 (AI-secondary, uncontradicted, bracketed by her own messages): **Chapter 13, case 24-22285-GLT, filed October 2024, ~$157,000 scheduled, IRS priority claims for tax years 2018–2021**, $300/month plan, 341 meeting Nov 2024, court "drop dead" provision Aug 2025, ask $615k (May 2025) → $465k. 337 was owned free and clear and was the only asset capable of satisfying the plan. The wiki had "a bankruptcy approval" filed as one contingency among three. Written back to `337-saratoga-drive` and `463-morgantown`.
+
+**Her income was $11–14k/year.** Her own line, to an HOA, June 2020: *"My property taxes are $10,000/yr. I have only earned between $11,000–$14,000/yr in the last decade."* Consistent with everything else in the thread and with none of the "primary financial artery" framing: a $503 gas shutoff, a repossession fear, and — the cleanest datum in the file — *"Would it be possible to PayPal me $8? I need to show a house in two hours and I need $14.37 to get my key working. I have $7 in there now"* (8 Jan 2020).
+
+**Two gaps the page had declared were already answerable from `raw/`, and both were cascade failures rather than missing facts.** (1) *"No independent account of her relationship to alcohol is on file"* — an extensive one is, in her own messages, every year of the corpus, up to *"#1 Cigarettes #2 wine #3 food"* (July 2025). (2) *"Her own perspective is undocumented; the corpus view is entirely Dan-side"* — several thousand messages in her voice were on disk, including the 8 July 2019 letter (*"I would never lose contact with either of my children the way it happened with your Dad and me and our parents"*) and the May 2018 letter naming Fran *"the one and only guiding force in my life. The one person who loved me unconditionally."* The 2005 rupture specifically remains her-side undocumented; the general claim did not survive one grep.
+
+**The organizing finding.** Both mother and son skip the intervening generation and anchor to Fran — the same attachment, in the same maternal line, one rung apart. Diane, whom the GEDCOM places in **Michigan from 1985 to 2020** (which is why the vigil's directives came by letter), rejected Suz; Suz states her own parenting as an explicit negative of it, and then runs with Dan the same structure she inherited: total availability plus an itemised bill.
+
+**Also corrected or newly established.** Park Place Realty move is **October 2019**, not 2020 (*"Park place realty… here I come!"*, 2 Oct) — the strong month was Aug 2020, ten months later, which weakens the causal pairing the page implied. Licence **RS305558 appears nowhere in `raw/`** — flagged UNVERIFIED, not deleted. The Winter Park condo is **corroborated in her own words** for the first time (*"how much money I lost between antique oaks and Virginia Ave"*, 14 Nov 2024); the trafficking arrest still is not. **155 Virginia Ave carries a stated ~$135,000 capital loss** (a $3,000/yr deduction over 45 years). Married Rick **31 Aug 1985**; her parents married **8 Feb 1961 at Belmont Circle**. Gambling has a documented **end** (*"Suzanne does not gamble anymore"*, 5 Nov 2024), which no page carried. Her political switch is dated to **March–June 2020**. `john-felix` revised: Felix runs Jan 2016 → Jun 2026 in the Suz thread, which does not support the partner reading that page carried.
+
+**Two things nobody had written down.** A **27 September 2020 Facebook message** from Suz to both of them — *"You two need to figure out how to discuss without getting physical or you need to go your separate ways. This keeps happening"* — the earliest contemporaneous third-party account of physical conflict in the Annie relationship, four years before the terminal phase. And the corpus's **last message**, 11 August 2026: *"It's time for you to go. I'm so tired of you stealing from me."* Five weeks after the move out of the house she sold, the same accusation as 2017, 2019 and Dec 2025, now attached to his housing.
+
+**One measurement worth a second look.** The Suz thread collapses from ~296 messages/month (Jan–Jun 2026) to **14 in July and 28 in the first eleven days of August**, while the corpus overall runs 2,115 and 2,689 in those months. Not an export artifact — same file, same window. Recorded as a gap.
+
+**Cascade.** Four rounds. `estate-money-spine`, `attachment-trauma-bond`, `totality-themes`, `single-channel`, `the-deferred-audit`, `alias-as-periodization`, `supply-network`, `alexander-jackson`, `arnu`, `john-carney`, `johnny-dealer` all re-checked with reasoning recorded, none date-bumped. Three produced findings rather than paperwork: `single-channel` gained the volume/dependability distinction and a falsifier; `attachment-trauma-bond` gained the boundary that the leverage see-saw is an inherited template rather than something the Annie relationship generated; `the-deferred-audit` got a clean instance of itself (the largest imposed relationship in the corpus was never audited, and neither was the wiki's count of it).
+
+Gates: wiki-lint **0 errors**, 17 warnings · wiki-connect check **0 errors**, 244 warnings · wiki-climb check **0 errors, 9 staleness warnings** (down from 18; the remainder all pre-date this pass and trace to `annie-ulmer`). The long-standing `master-timeline.md` lint error is fixed at source: `bin/wiki-timeline` was emitting four tags outside the closed set in `STYLE_GUIDE.md`, and now emits none (`tags:` is optional).
+
 ## [2026-08-16] close | timeline | shelbie-annie-threesome — the operator dated it, and the corpus showed the page had the authorship backwards
 
 First use of the portal GAPS tool. Operator answered *"Exact date within April 2019 is not established"* with both dates and the sequence; that answer sent the pass back to a thread nobody had checked, and the page's central claim did not survive it.
@@ -1832,3 +1884,1283 @@ The same answer supplies a mechanism, not just a correction. Betty came into Dan
 **The tool change this pass forced.** All six answers were staged from the portal, and `operator-log.md` — added yesterday — logs only what the CLI writes. It would have been silently wrong in the one direction that matters: understating what is waiting. The log is now **reconciled from the pages themselves** before `pending` and before `clear`, so an answer staged anywhere is caught, and a portal-staged answer that is cleared without ever having been logged still leaves a row. New `bin/wiki-gaps log` prints the ledger and reconciles as a side effect.
 
 Gates: wiki-lint **1 error** (`master-timeline.md` invalid tags, pre-existing and generated) · wiki-connect check **0 errors** · wiki-climb check **0 errors, 16 staleness warnings** — one more than before, `milo` having moved under a page that reasons from it, and not cleared here.
+
+## [2026-08-19] synthesis | health | cocaine — new substance profile page
+
+**New page: `wiki/health/cocaine.md`.** The corpus carried cocaine-specific findings scattered across at least fifteen pages — a dosage arc on `chemical-architecture`, a genesis chronology in the same page's phased history, nine supply nodes on `supply-network`, the Class B count on `2015-possession-arrest`, the family-rupture coding on `suzanne-frank`, the procurement-as-access thesis on `annie-ulmer` — with no page that held the substance itself. This one does: use history from the age-13 household exposure through first use at Seven Springs (17–18) to the 2012 resumption as a deliberate layer atop the Suboxone base; the finance-driven dosage arc (~1g baseline → 3.5–7g at the 2017–2020 inheritance peak → ~0.5–1g after exhaustion) restated with the retrospective's own reading that the ceiling was capital and never internal; the nine-node cocaine-specific supply succession as a table; the legal consequence; and the terminal-phase inversion where Dan holds the supply.
+
+**Findings written back, not left on the new page.** Reciprocal typed connections added to `chemical-architecture` (`contains`), `supply-network` (`contains`), and `2015-possession-arrest` (`evidences`), each with prose wikilinks in the body rather than frontmatter alone — the page was an ISLAND on first `wiki-connect` run (index-only inbound) and is not one now. The `2015-possession-arrest` edge also closes the **health↔legal domain pair**, which `wiki-connect` had been reporting at 0 coverage.
+
+**One thing this page does not do.** It states no new claim. Every figure, date and quote is carried over from a page that already held it, and where a source was uncorroborated there it stays flagged here — the cocaine–bulimia link is a self-audit assertion with nothing independent behind it, and Menore's six-year product is still unnamed in-thread. Six items in the new page's own Gaps section.
+
+Gates: wiki-lint **0 errors**, 17 warnings (all pre-existing) · wiki-connect **islanded 29 → 28** · wiki-climb check **0 errors, 9 staleness warnings** (all pre-existing, none touching this pass).
+## [2026-08-18] ingest | people/mind/timeline | raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania .md + Gemini-_21.md + message corpus
+
+**A cited source had been read to 11% of its length, and the other 89% contained a whole person.**
+`rock-irrelevance-thesis` (created 2026-06-22) cites this 2,688-line ChatGPT log
+and mined its first ~140 lines. The remainder is the complete arc of a
+fifty-six-day 2025 friendship with Danielle Onesi's boyfriend, and it corrects
+two load-bearing claims elsewhere in the wiki.
+
+- **The wiki held two pages for one man, one of them named after a chatbot.**
+  `wiki/people/max-danielle-bf` (2026-06-23) took its title from the first line
+  of `Gemini-_21.md` — *"Max I have a gift for you… a 20 or 25 minute audio
+  recording of… my first girlfriend Danielle's current boyfriend"* — reading a
+  vocative addressed to the MAX persona as the subject's name. The model signs
+  its own reply "MAX'S ANALYSIS"; the boyfriend is never named in that source.
+  `wiki/people/max` carried the error inverted, asserting a real person distinct
+  from the persona, while `danielle-onesi` had the identification right the
+  whole time and nothing acted on it. Merged into `wiki/people/james-dee`; both
+  pages corrected in place with the old claims visible.
+- **`forensic-method`'s "first outward deployment" was off by a year.** The
+  Leviathan dashboards (2026-07-25) are the first deployment *as leverage*. The
+  first outward deployment at a named private person is the James Analysis PDF,
+  **2025-07-11**. Edge narrowed, correction written into the body.
+- **The valence of an analysis is not what people object to.** Dan removed the
+  critical material before sending, disclosed the copy to the subject's partner
+  voluntarily, and pre-paid with two unflattering analyses of himself. Twelve
+  minutes from PDF to "OK, you can quit MASS texting me"; the two objecting
+  tapbacks land three seconds apart, before any words. New concept page
+  `the-handed-mirror` generalises it with a prediction and a falsifier.
+- **`lyrics-as-timbre` is no longer single-sourced.** Dan states the same
+  lyric-blindness to a hostile third party in a live 2025 argument, a year
+  before the 2026-07-14 capture the page rests on. Gemini's read of James
+  independently records him hearing vocals the same way — which is what they
+  fought about.
+- **The Ramone claim is impossible, not merely inflated.** James told Dan that
+  Johnny Ramone and Glenn Danzig had recruited him and he declined. Johnny
+  Ramone died 2004-09-15; James, 36 in 2025, was about fifteen. The model graded
+  it "90% exaggerating" and stopped.
+- **The pitch and the catalog disagree.** Seven audio attachments recoverable
+  from the message dump: six are covers or mashups (Zeppelin, Manson, HIM, NIN,
+  the Drifters) under an artistic thesis of refusing to be derivative, and the
+  project is named after a living Pennsylvania musician.
+- **First-ever guilt, dated.** *"the stuff with Annie has made me feel guilty
+  for the first time in my life about how i treated danielle"* — 2009 breakup
+  specifics (Valentine's Day, Kelly Mulroy, Alex Gaskarth) written back to
+  `danielle-onesi`.
+- **Gates:** wiki-lint 0 errors · wiki-connect 0 errors · wiki-climb 0 errors,
+  9 staleness warnings (none introduced here).
+
+## [2026-08-18] close | people | wiki/people/diane-moore — a two-word operator answer merged two entities and re-dated the exclusion
+
+The operator answered the standing gap on the grandmother page with **"Dian and
+Dave."** Treated as T0 testimony and checked against the message dump, it held
+and then kept going.
+
+- **Her married surname is Moore, and the wiki already had it twice.** The page
+  titled her "Diane Shrum" and admitted the surname was inferred *"rather than
+  a record naming her that way."* The corpus names her on 2018-04-01: **"diane
+  moore hasn't been able to be reached by anyone. dave is 'speaking on her
+  behalf'"** and **"the social workers are talking to dave moore."** George
+  Shrum Jr. is the first husband and Suz's father. Page renamed
+  `diane-shrum` → `diane-moore`, 27 references repointed.
+- **"Dian V. Moore" was her.** `155-virginia-ave`, `fran-death-vigil` and
+  `master-timeline` all record the 2018-03-29 eviction notice as served by
+  "Dian V. Moore," and the vigil page listed *"Dian V. Moore's role/relation to
+  the estate"* as an open gap while three other pages discussed the same woman
+  under another name. Merged.
+- **Annie never received a letter.** Both this page and `fran-death-vigil`
+  stated Dan and Annie *"each received"* one. Dan, 2018-04-03: *"lol also if
+  they are writing such professional correspondence why wouldn't Annie get her
+  own letter."* Corrected on both.
+- **The date moves into the terminal week.** The 2026 capture has the letters
+  sent "well before" the final admission; the contemporaneous record has the
+  eviction notice served 03-29 and the letter read, forwarded and lawyered on
+  04-03 — the day before Fran died. Held as a CONTRADICTION rather than
+  resolved, since an earlier visiting-rules letter may also exist.
+- **The author, per its recipient, is Dave.** *"i think dave wrote it — read the
+  last paragraph. 'any violation of the rules will be considered
+  trespassing'."* New page `wiki/people/dave-moore`.
+- **The 2020 contest question is settled and it was settled before he asked.**
+  Two months before Dan asked the estate attorney whether his grandmother would
+  object, Suz answered it: 2020-06-22, Dan *"does a court case mean diane
+  challenged it"* → Suz *"No… She isn't going to do that."* The August 17 court
+  date was the distribution proceeding. No objection in five further years.
+- **One asset appears to have left the estate outside the distribution.** Fran's
+  Florida condo: *"she went to florida to take over her condo down there and
+  sell it and keep the profits herself"* (2018-04-22), and Suz a year later:
+  *"if she wants a cut, she will have to give me a cut of what she got for
+  selling Florida."* Written into `estate-money-spine` with the caveat that no
+  instrument, price or date exists in the corpus.
+- **The earlier fear was a forecast.** `fran-death-vigil` explained an eight-hour
+  delay in treating a fallen 97-year-old by Dan's fear of "grandparents who
+  already hated" him, named there as Diane and George. They are Diane and Dave —
+  the same couple that then served the notice, wrote the letter, took the
+  hospital's calls and sold the condo.
+- **Gates:** wiki-lint 0 errors · wiki-connect 0 errors · wiki-climb 0 errors,
+  9 staleness warnings (unchanged). `bin/wiki-gaps pending` now empty.
+
+## [2026-08-18] lint | mind | the girlfriend score, and two honest re-checks
+
+- **`alexis-armel` gains an independent scoring it never had.** A spring-2026
+  Claude session, asked to score both women on its own invented metrics, put
+  **Annie at 1.9 / 10 and Alexis at 7.1**, and located seven of the 5.2-point
+  gap in **non-exploitation alone** (1.5 against 8.5) — the same axis this wiki
+  separates them on, reached from different evidence. Recorded as attributed AI
+  output per STYLE_GUIDE rule 4, with the caveat that the instrument was reading
+  a record Dan assembled and is therefore not independent of its subject.
+- **Two staleness warnings cleared the right way.** `axioms` and
+  `read-receipt-forensics` were each stale on exactly one premise, and that
+  premise was one this session moved; both re-read, both conclusions held, both
+  recorded as `RE-CHECKED` blocks. The remaining new warnings sit on pages that
+  were already stale on *other* premises, and were deliberately left standing
+  rather than cleared by a date bump.
+
+## [2026-08-18] lint | cross-domain | the $750/week retraction was announced on three pages and applied on none of them
+
+**What was wrong.** The `suzanne-frank` rewrite (2026-08-18) retracted the
+"~$750/week borrowed from Suz" figure on two independent grounds: the rate is
+`operating_manual.md`'s AI-secondary generalisation of a *single* accusation
+(13 Dec 2018, *"You borrowed $750 last week alone!"*, made in an argument on a
+day she had that morning asked him for $450), and its **direction is
+inverted** — the largest documented 2018 movement between them is ~$14,000
+from Dan to Suz, drawn against an estate that did not distribute until
+September 2020, $4,000 recovered.
+
+**The evidence.** The retraction propagated as prose *about* the correction
+while the corrected claims stayed live underneath it. Two pages carried a
+`CORRECTED`/`RE-CHECKED` block quoting a sentence they had never actually
+changed:
+
+| Page | State found | 
+|---|---|
+| `wiki/legal/463-morgantown.md` | CORRECTED block said *"The sentence above previously read…"* — the sentence above still read exactly that, verbatim |
+| `wiki/people/alexander-jackson.md` | RE-CHECKED block described the correction; the Roles table above it still read "Borrowing patterns ($750/wk cycles)" |
+| `wiki/mind/synthesis/supply-network.md` | no correction at all — "the 2018 deep cycle ran on ~$750/week borrowed from her" fully live |
+| `wiki/mind/synthesis/estate-money-spine.md` | correction present, but its own "chain, event by event" table still carried the retracted row |
+| `wiki/timeline/periods/2018-deep-cycle.md` | "mom borrow $750/wk" live; missed by earlier sweeps because it abbreviates `/wk` |
+
+**What changed.** All five corrected in place, with the retracted text visible
+per STYLE_GUIDE rule 9. `estate-money-spine`'s chain gained the row it was
+missing — the Aug–Oct 2018 ~$14,000 Dan → Suz transfer, the family's largest
+internal capital movement, absent from the ledger that exists to track exactly
+that. `463-morgantown`'s absorber argument now rests on the Chapter 13
+(24-22285-GLT, ~$157k scheduled) rather than a rate that does not exist; the
+conclusion is unchanged and better supported. `supply-network`'s bullet keeps
+its claim and changes its mechanism: the family layer was the *rail*
+procurement ran on, not its funding — and the Cash App account those transfers
+ran through is one Dan asked her to install in **August 2018**, the same month
+as the $14,000 drawdown, recorded as a dating coincidence rather than a causal
+claim.
+
+**Two systemic findings.**
+
+1. **A correction block is not a correction.** Three pages read as corrected to
+   any reader who scanned for a flag, and the retracted figure was still the
+   one a reader would take away. This failure mode is invisible to all three
+   gates — the pages lint clean, their edges are typed, and their dates are
+   current. Grepping the *retracted string* is the only thing that finds it.
+2. **`wiki/timeline/master-timeline.md` was 484 events and 7 pages stale** —
+   2,076/315 on disk against 2,560/322 on regeneration. It is derived and
+   cheap to rebuild, and had not been rebuilt since several intervening
+   ingests, so the wiki's largest page was serving a stale scrape of pages
+   that had themselves moved.
+
+**Also noted, not fixed:** 30 pages carry `status: archived` outside an
+`archive/` directory, which STYLE_GUIDE reserves for pinned artifacts that are
+never updated. `2018-deep-cycle.md` was one of them and was carrying a false
+claim into the generated timeline. Queued in `BACKLOG.md`.
+
+## [2026-08-18] lint | cross-domain | the staleness queue emptied, and four of the five re-checks changed a conclusion
+
+**What was wrong.** `bin/wiki-climb check` carried **13 stale-premise warnings**
+across five pages, three of them in the wiki's larger synthesis tier. Worked to
+zero. The result is worth recording because the warnings were mostly *not*
+noise: only one of the five pages came back "survives, nothing moved."
+
+**Page by page.**
+
+- **`block-unblock-loop` (35KB → 40KB).** All four flagged premises had moved by
+  typed-edge addition only — no body text — so the flags themselves were
+  uninformative. **But an unflagged premise had moved substantively the day
+  before, and it falsified a classification the page rested on.**
+  `ellen-ulmer` and `july-august-2026-reentanglement` both established on
+  2026-08-17, from an operator answer, that the July 26 contact with Annie's
+  mother was **not the maternal-disclosure threat executed as leverage** but a
+  response to a belief that Coles had Annie in physical danger. This page still
+  called it *"the first executed maternal-disclosure threat in the corpus"* and
+  used it as the "no announcement → executes" leg of its threat rule.
+  Reclassified: July 26 is not a member of the threat class, which **takes the
+  maternal-disclosure execution rate from one to zero across seven or more
+  instances** and leaves the trade rule resting on June 1 and July 28 — a
+  cleaner contrast, because it varies only the counterparty's response and holds
+  announcement constant. Cascaded to `july-august-2026-reentanglement` (which
+  contradicted itself: its own earlier section still read the two acts as
+  "resolving opposite ways" underneath the write-back that undid that reading)
+  and to `annie-ulmer`'s 2026-07-26 chronology row.
+- **`dormancy-not-exit` (31KB).** The page had said since 2026-08-01 that its
+  retention floor was bracketed by a five-day tie that vanished and six-year ties
+  that persisted, with *"no documented case in between."* The James Dee ingest of
+  2026-08-18 produced exactly that case and nobody wired it in: a **fifty-six-day**
+  tie, ended by the corpus's most abrupt rupture, that went silent for three weeks
+  of documented coverage and then **resumed in person anyway**. Added as a member
+  with full write-back. It does not just fill the gap, it changes the rule's
+  shape: James neither vanished (Franki) nor took a new role (Danielle) but went
+  to **suspension without reassignment** — which is the *suspend* primitive the
+  page's own 2026-08-13 correction argued the graph implements, and its best
+  instance was sitting unused for five days. Floor narrowed from a six-year
+  bracket to seven weeks. Direction recorded honestly: **the reopening was
+  James's, not Dan's.**
+- **`the-unbroken-bond` (24KB).** Two findings. `bond-switch-2015` named the
+  displaced partner on Annie's side (Emilio), which reveals a **symmetry** — both
+  partners were displaced inside the same seventy-two hours and *both*
+  displacements detonated a relationship the following month. That is a **third
+  cost** for a page whose cost list held only internal ones, and the first paid by
+  third parties. Recorded with its boundary: Annie ran the same operation on the
+  same timetable, so the displacement cost belongs to **fast switches**, not to
+  Dan's architecture, and a later pass must not annex it as more evidence for
+  singularity. Separately, `alexis-armel`'s new blind model scoring (Alexis 7.1 /
+  Annie 1.9) exposed that this page uses "shallow" for two independent axes —
+  depth of Dan's attachment, and quality of the relationship. The bond it calls
+  shallow scores nearly four times higher as a relationship.
+- **`fayette-return`.** The ancestry rewrite of 2026-08-14 answers this page's
+  self-declared *"most important open question"* — whether the maternal line is
+  also Fayette-anchored — and the answer costs the page its best argument. It
+  **is** anchored (the majority of all 90 direct ancestors die within twenty miles
+  of Uniontown; Fran Coldren runs Miami Beach → back to Uniontown). So the page's
+  **parsimony** case against `ancestral-dialectic` fails: it was valid only while
+  the maternal line was unassessed, drawing force from absence of evidence rather
+  than evidence of absence. "The paternal line reproduces the pattern alone"
+  stays true and stops being distinctive. The rewrite also supplies the rule's
+  first counterexample candidate — **Diane Van Voorhis, thirty-five years in
+  Michigan, no attested return, still living so no terminus at all** — who does
+  not falsify the rule as stated but is the only case that can separate *lineage*
+  from *county*. Cascaded to `diane-moore`, which was still calling Farmington
+  Hills the only geographic fact on record four days after Stanwood 2013–2020
+  entered the corpus.
+- **`fastly-fsly`.** The only clean "survives": its premise had moved solely to
+  record its own staleness re-check. The real find was structural, below.
+
+**A structural defect, found while re-checking and worth more than any single
+page.** `wiki/work/fastly-fsly.md` declared `synthesizes:` **twice**. YAML
+resolves a duplicate key by keeping the last, so every standard parser read the
+page as synthesizing only `context-core` — its membership in
+`2020-2021-market-era`, the page's whole reason for existing, was invisible
+outside this repo. `bin/wiki-climb`'s own `fm_list` collects *both* occurrences,
+which is why the gate flagged a staleness against an edge a YAML consumer could
+not see. **The repo's bespoke frontmatter reader is more permissive than YAML,
+so the gates pass while the derived artifact loses data** — and the portal
+renders `wiki/**` through a real parser. A sweep found two more:
+`jerad-friedline` (dropping `context-core`) and `developmental-origins` (an
+empty duplicate `connections:`). All three fixed; lint rule queued.
+
+**Gates:** `wiki-lint` 0 errors · `wiki-connect check` 0 errors ·
+`wiki-climb check` **0 errors, 0 warnings** — the stale queue is empty for the
+first time in the log.
+
+## [2026-08-19] climb | mind, health, places | five doctrine pages (5 synthesized, 0 rejected)
+
+**Trigger:** operator — *"do a deep dive on the wiki and create 5 new articles
+using synthesis of the data. Try to find things about the way that I think or
+see the world that are visible when looking at the totality of data."*
+
+**Method:** CLIMB per `SYNTHESIS_SPEC.md`, taken outside `synthesis-queue.md`.
+The queue's miner scores clusters of *ground* pages and structurally cannot
+surface what this request wanted, so the five clusters were assembled by hand
+from the doctrine layer and from two domains the altitude audit flagged as
+having no junction above them at all (`places`, `legal`). Every climb was
+required to add primary measurement its premises lacked; four of the five did so
+by counting something in `raw/` that had never been counted.
+
+**Findings, in order of value.**
+
+1. **The curated taste record is not eclectic; it is monomaniacal, and the
+   arithmetic had never been run.** 60 of the 120 books — exactly half — are two
+   subjects (`trump`/`jan-6`, 40 books by 30 authors; `roman-republic`/
+   `ancient-history`/`caesar`, 20 by 14) with **zero overlap**. 86.6% of 1,477
+   musical artists and 86.7% of 98 authors appear exactly once. All 25 artworks
+   have 25 different creators, and **24 of the 25 carry one of six tags**
+   (`observer` 6, `wound` 6, `collapse` 5, `glitch`/`rupture` 6, `fortress` 3).
+   The author-level spread is *produced by* subject-level obsession: one account
+   per witness is all that exhaustive coverage of one event requires.
+   → `wiki/mind/synthesis/closing-the-set`.
+
+2. **`single-channel`'s evaluative leg is falsified.** That page scored the
+   evaluative domain as its weakest limb — its own words, *"a reading rather
+   than a measurement."* Measured over entries-per-creator, the same unit as the
+   contact coefficient: **music 0.188, books 0.166, art 0.000, against the
+   contact graph's 0.9601.** Not weak concentration — near-perfect equality, in a
+   collection the same person curated. Concentration is a property of the
+   relational architecture and does not generalise. `totality-themes` re-checked
+   and its edge narrowed; the Irreversibility Firewall survives on the relational
+   leg, and *a collection is not a channel* is the reason it never needed the
+   other three.
+
+3. **The psychological layer of this wiki has no independent observer anywhere in
+   it, and now there is a number.** Seven frameworks, plus stylometrics, a
+   deviance audit and a composite voice model, all commissioned by the subject
+   over corpora he selected. **The entire apparatus appears seventeen times in
+   106,629 outbound messages** — `socionics`, `5w4`, `percentile`,
+   `personality type` all return **zero** — and most of the seventeen are Dan
+   typing *somebody else* or forwarding the test. By June 2025 what he forwards
+   is the analysis prompt itself, output spec intact.
+   → `wiki/mind/synthesis/the-commissioned-self`.
+
+4. **The one first-person self-typing in the primary record disagrees with the
+   profile cluster.** 2024-11-04, quoting his own prompt: *"vanessa is an xNFP
+   4w5 and **Dan is an INTP 5w6sx RLOEI**."* The cluster and `context-core` carry
+   **5w4** and **RLUEI**. The wing is load-bearing — `enneagram-5w4` is named for
+   it and derives the tragic-romantic reading the attachment pages build on.
+   Held open as a `CONTRADICTION` per `instrument-is-subject` (residue over
+   testimony), not resolved: it is one line typed fast and may be a slip, but
+   nobody had looked.
+
+5. **Seven addresses, sixteen years, no paper.** The corpus contains **no lease,
+   no contemporaneous rent figure, no signatory and no deposit** for any home Dan
+   has lived in. Four of the seven place pages independently filed this as an
+   archival gap and none noticed the other three had. The two instruments that
+   ever appear were relational moves that changed nothing: an eviction notice
+   served by his own maternal grandmother in March 2018, ignored for eleven
+   months; and **2024-10-27, new to the wiki** — *"Tomorrow I'm calling John / And
+   telling him that I will no longer be in the lease,"* answered inside the
+   minute with *"Please don't do this Dan,"* never executed, four months before a
+   separation Annie initiated. `dans-law` reads a missing paper trail as the
+   operative feature of an arrangement, and has never been pointed here.
+   → `wiki/places/the-unpapered-address`, the `places` domain's first junction.
+
+6. **`307 E 76th`'s rent gap closed:** *"the last lease we signed was 2450"*
+   (2024-05-02), *"New lease is going to be 2700"* (2024-05-03). The tenancy ran
+   on discretion throughout and Dan describes it accurately — *"willing to take
+   us on," "as long as we sustain jobs," "won't have to deliberate," "stuck his
+   neck out for us."*
+
+7. **`chemical-architecture`'s "no dental, no primary care anywhere in 17 years"
+   is wrong, and the correction is better than the claim.** A term census found
+   a full dental episode in autumn 2017 including surgery and a kept one-week
+   follow-up (*"they put in a membrane and restitched it"*), plus appointments in
+   2020 and 2024 — which also contradicts Dan's own 2025 account, *"terrified of
+   dentist (aka haven't gone)."* Care is **episodic and reactive**, not absent.
+   The declared prescriber gap is closed too: a doctor exists, and every recorded
+   exchange with him is about moving a script between pharmacies.
+   → `wiki/health/the-configured-body`, the `health` domain's first junction:
+   the body is specified at the input, surveilled at the output, never
+   maintained. Every self-directed medical sentence in the corpus is modal
+   (*"I should go," "I might need to"*); every sentence about someone else's body
+   is imperative (*"go to a fucking doctor"*). Same speaker, same years.
+
+8. **`supply-network` may have the Suboxone topology backwards.** June 2025:
+   *"my doctor said the pharmacy won't fill an out of state prescription"* →
+   *"they won't fill it either so i'm completely out of options"* → *"I'm gonna
+   have to drive down to see Tom today."* Prescription first, Tom as failover,
+   failure jurisdictional rather than relational — which would make May 2026 a
+   second-line failure. Held open, not resolved: four messages are not a topology.
+
+9. **The identification figures all occupy one seat.** The persona Dan wrote for
+   his own AI is `IDENTITY: CATO / ORIGIN: Cato the Younger — Stoic absolutist,
+   self-deleted at Utica post-Thapsus.` Not the winner — the man who was right
+   for twenty years, lost, and refused the pardon. Against him: Oppenheimer,
+   Fred Hampton, John Brown, Travis Bickle, Bernie. Of ~150 want-to-read titles,
+   nine contain "fall," three "assassination," three "trial" — and **not one is
+   about something being built and working.** The taste record independently
+   reproduces `context-core`'s own threat model (*"competence correctly deployed,
+   outcome still catastrophic"*), which is worth something precisely because it
+   was assembled for pleasure and had no reason to agree.
+   → `wiki/mind/synthesis/the-cato-seat`.
+
+10. **`2020-left-turn` was missing the material stake.** The page dates the turn
+    to a media pipeline and a conversion message. Six months earlier, unquoted:
+    *"the doctor thing is a really big thing for me...there's no reason that
+    50,000 people die a year because they don't have insurance"* (2020-02-07).
+    The one place in the political record where Dan names a grievance as his own.
+
+**Also fixed:** six pre-existing gate errors on three pages created 2026-08-19 by
+the parallel model (`astrology-star-signs`, two `-personality-assessment` pages)
+— wiki paths in `sources:` moved to `synthesizes:`, two dangling connection
+targets removed.
+
+**Cost:** 14 staleness warnings, all created by the write-backs and all
+itemised in `BACKLOG.md` with the reason each is believed cheap. The
+`the-unbroken-bond` ← `enneagram-5w4` pair is flagged as the one that probably
+is not.
+
+**Gates:** `wiki-lint` **0 errors** · `wiki-connect check` **0 errors, 255
+warnings** (unchanged — the standing `## Related` backlog) · `wiki-climb check`
+**0 errors, 14 warnings**. `bin/wiki-digest` and `bin/llm-publish` re-run:
+481 pages, 42 contradictions, 385 gaps, 33 predictions.
+
+## [2026-08-20] ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
+
+**Sources filed.** `raw/self/message-csv/imessage_export_2124702449_20260820.csv`
+(6,495 messages, 2026-07-23 → 2026-08-19 15:15:33 — of which **3,993 are new
+ground**, the previous 212 export stopping at 2026-08-02);
+`raw/self/message-csv/imessage_export_7248123683_20260820.csv` (97, Dan ↔ Jerel
+Coles, entirely new);
+`raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a` (927.19 s, with a
+provenance README);
+`raw/self/analysis/2026-08-18_forensic-analysis-morgantown-call.md` (T2, agent-authored).
+
+**Findings in order of value.**
+
+1. **The Annie relationship ended on 2026-08-19 at 15:07:03**, and it is the
+   first goodbye in eleven years that carries **no condition**. Every prior one
+   names its own reversal. 1,199 messages in the 67 hours from the night of
+   August 16; Dan 811 / inbound 388; 59,758 characters against 9,532, a 6.3:1
+   asymmetry against 3.1:1 the week before. 18% of everything Annie sends in
+   those three days contains *please* or *begging*. New page:
+   `wiki/timeline/events/august-2026-morgantown-call`.
+
+2. **A handle is not a person, and the corpus has been assuming it is.** At
+   least six inbound rows on Annie's 212 handle were typed by Coles holding her
+   phone, across three episodes (2026-07-26, 2026-08-16, 2026-08-18) — including
+   *"You made me fuck guys for money"* (2026-08-16 23:45:10), an accusation
+   against Dan that a naive read files as her testimony. All three occur during
+   crises, i.e. exactly where the wiki's highest-stakes claims come from.
+   **Counts are unaffected** — the 97,768 figure stands — **attributions are
+   not.** Written into `source-coverage-index` as a fourth preflight question
+   (*who else had physical access to the device?*), into `wiki-brain` as a
+   system-level defect, and into `read-receipt-forensics` as the harder version
+   of M4: absence of a signal is weak evidence, and **presence of a signal does
+   not identify its author.**
+
+3. **Dan faked the execution of a threat in order to measure the response.**
+   2026-08-18 19:35 *"i did"* → 19:38 *"it wasn't actually sent / And I knew
+   you would suddenly come back to life / Which of course is what happened."*
+   A controlled test with a stated hypothesis and a debrief, run six hours after
+   the subject disclosed a suicide attempt. The consequence is methodological:
+   **Dan's own assertions of his own conduct are no longer evidence of that
+   conduct**, which reaches `block-unblock-loop`'s threat-execution scoring
+   directly. He then claims execution three times on 08-19 and denies it twice
+   the same day — held as an open `CONTRADICTION`, not resolved.
+
+4. **The wiki did not know Dan can forge documents.** 2026-08-14: Annie asks
+   for a counterfeit Fayette County drug screen to show her parents; he does it
+   in forty minutes, auditing his own forgery (*"the logo / 'Panal' instead of
+   panel / the signature"*) and asking the threat-model question — *"Are you
+   SENDING this to them or just going to SHOW it on your phone / If you're
+   sending it we need to do a lot more work here."* He calibrates fidelity to
+   how adversarially it will be inspected: the forensic faculty run backwards.
+   New page: `wiki/mind/concepts/document-fabrication`, wired as a
+   `contradicts` against `forensic-method`. Note the collision nobody in the
+   record notices — two days later he stakes everything on documents being
+   believed by the same audience.
+
+5. **Three corrections to the T2 analysis, and the pattern of them matters more
+   than the errors.** (a) It reports **463 Morgantown St as "the other guy's
+   house."** It is *Dan's* house — which is why Coles typing it back at him on
+   08-17 is a threat and why Dan answers *"why are you sending me my
+   address?"*. Coles's address of record is 106 Nassau St. The analysis appears
+   to have read the recording's filename as naming the scene when Voice Memos
+   names it for the **recorder's** location; ingested uncritically it would have
+   put Dan inside the confrontation — the exact inversion its own headline
+   correction exists to prevent. (b) Two more messages (23:53:31, 23:53:45) are
+   Coles, not Annie; its own transcript has him saying the same words aloud at
+   14:23. (c) Its export ends 08-17 15:39, so its concluding scenario is written
+   without the 08-18 phone seizure, the SOS sequence, the false send, or the
+   severance. **A wrong value in a labelled metadata field propagates further
+   than a wrong sentence in prose, because it gets copied rather than read.**
+
+6. **The recording's own container settles what the analysis argued for.**
+   `mvhd` 927.19 s = 15:27, matching Dan's *"That 15 minutes recording"*
+   (08-17 01:00) exactly. Encoder `com.apple.VoiceMemos (Dan's MacBook Pro)`;
+   date atom `2026-08-17T03:54:49Z` = 23:54:49 EDT. Aligning two spoken lines
+   against timestamped texts — *"I've never fought anybody in my life"* vs
+   23:44:21, and *"send this whole thing to Ellen"* vs 23:51:45 — puts audio
+   t₀ at **23:36:30–23:38:07**, so the call ran ~23:37→23:53 and the file was
+   written two minutes later. Two independent alignments, both inside 100
+   seconds of each other.
+
+7. **The August 8–9 unmasking page's framing was a scope artifact.** It ends
+   the night on an unanswered message at 03:41:32; the fuller export shows the
+   exchange resumed at 08:19 and ran all day. Also adds a message the spine
+   omits — Annie's *"Call me"* at 23:10, the only request for voice contact in
+   the sequence, unanswered.
+
+8. **The re-entanglement did not end on August 9 — it ran ten more days and
+   briefly worked.** Aug 10–16: 1,136 messages at 652/484, the evenest ratio of
+   the terminal record; a sleepover on the 10th; Dan's BFS job restored on the
+   11th, *"the same lady who put me on a no-hire list there told the manager
+   today to put in another application"* — with the posted sign named for the
+   first time (*"NO HIRE: Daniel Frank"*, in two locations). The seam is
+   **August 13**: Coles messages a group chat containing Dan, Annie says *"Do
+   not engage,"* Dan complies — the first Coles contact since the June 15
+   defection, and nothing in the wiki had it.
+
+9. **`tuquick-17248123683` was marked CLOSED and is not.** 97 further messages
+   from that handle, 08-17 → 08-19, including Dan's home address sent unprompted
+   and a written conditional threat naming Suz (*"I have stuff to ruin you and
+   your mom"*) — the only threat aimed at her in the corpus with no named
+   content. Also the nearest thing to an admission about the earlier harassment
+   campaign against her: *"Yeah it was kind of unnecessary but I don't like being
+   played with."* She received none of the August calls — Dan had blocked
+   Annie's number on his mother's phone in advance, on a prediction that proved
+   correct.
+
+10. **The dog's name is used as a duress code.** 2026-08-18 22:54, after Coles
+    had been typing on her handle two hours earlier: *"Betty. Milo. Whatever sos
+    words"* — reaching for the two dogs as the one referent that could prove it
+    was really her. Six SOS messages 22:18–23:41; Dan answered at 23:40, 72
+    minutes late, having blocked and unblocked in between. No source says what
+    happened next.
+
+**Pages written:** 2 new
+(`timeline/events/august-2026-morgantown-call`, `mind/concepts/document-fabrication`);
+**24 updated** — `annie-ulmer` (new August section + 8 chronology rows),
+`jerel-coles` (new §August 2026 with the recording and the 97-message thread),
+`tuquick-17248123683` (status REOPENED), `august-2026-unmasking`,
+`july-august-2026-reentanglement`, `ellen-ulmer`, `suzanne-frank`, `milo`,
+`bfs-foods`, `legal/463-morgantown`, `source-coverage-index`, plus eleven
+`RE-CHECKED` blocks on stale dependents and the two domain indexes.
+
+**Staleness:** 25 warnings raised, worked down to 13 across two waves — 11
+pages re-checked with real blocks, including all five where a conclusion could
+plausibly have moved. **No warning was cleared by bumping a date.** The
+remaining 13 are itemised in `BACKLOG.md` with the reason each is believed
+cheap; four of them predate this pass.
+
+**Gates:** `wiki-lint` **0 errors**, 30 warnings · `wiki-connect check`
+**0 errors**, 258 warnings (the standing `## Related` backlog) ·
+`wiki-climb check` **0 errors**, 13 staleness warnings.
+
+## [2026-08-20] correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
+
+**Trigger.** Operator: *"you didn't finish analyzing the texts. read the very
+last batch extremely carefully."* Correct — August 19 was read but written up
+in eight sentences against pages of treatment for the 16th–18th, and the
+compression hid an error.
+
+**The operator also supplied `imessage_export_2122702449_20260820050136..csv`.
+It was not filed.** 194 rows, all `target = +12124702449` (the `2122702449` in
+the filename is a typo), and **byte-identical to the August 19 rows already in
+`raw/self/message-csv/imessage_export_2124702449_20260820.csv`** — verified by
+set comparison on (timestamp, direction, text): zero rows in either direction.
+Filing a duplicate subset under a mistyped handle would have created a phantom
+fifth Annie handle in `source-coverage-index`. Recorded here instead.
+
+**The correction, and it was this pass's own lead finding.** The 2026-08-20
+ingest published, and propagated to six pages plus `log.md` and
+`LLM_HANDOFF.md`, that the relationship ended with *"Goodbye. I am blocking"*
+at 15:07:03 and that this was **"the first goodbye in the record with no
+condition attached."** Both halves are false:
+
+- **The block was declared, not executed.** Seven further messages from Dan
+  follow it inside eight minutes, plus one from Annie at 15:14:33 (*"I honestly
+  care"*) that he answers. The export ends **mid-exchange** at 15:15:33.
+- **The closing stretch is explicitly conditional.** 15:09:01, ninety seconds
+  after the goodbye: *"You could still not do the wrong thing."*
+
+Corrected in place on `august-2026-morgantown-call`, `annie-ulmer`,
+`the-unbroken-bond`, `dormancy-not-exit`, `ally-and-dan-love-as-destiny` and
+`timeline/index`, each with the original claim left visible per STYLE_GUIDE
+rule 9. **The lesson is about the writing, not the reading:** the claim was
+made from a day that had been read at the same resolution as the rest of the
+window and then summarised at a coarser one. A structural claim about how
+something ended cannot be made from a summary of its last hour.
+
+**What replaces it, and it is better evidence.** At **14:53:25** Dan writes:
+*"Do NOT ever think that enough time has passed that now you can tell me about
+something that made you think of me **or when something happens to Milo**."*
+That is him naming and pre-emptively closing **the exact channel that reopened
+the relationship seven weeks earlier** — Annie's July 4 email about the dog and
+the fireworks, which ended a fifty-two-day silence. He has never done that in
+eleven years; every prior severance left the dog channel open and every prior
+severance was reversed through something like it. That is a structural
+difference the record can point at, which *"no condition"* was not.
+
+**Findings the close read added, in order of value.**
+
+1. **The final hour is an argument about an act neither party ever names.**
+   Eight times between 14:24 and 15:09 Dan describes not what Annie has done
+   but **what she is about to do**, in the future tense — *"this is the choice
+   you are right now making," "what you are ABOUT to do is wrong," "you ARE
+   ABOUT TO DO THE THING THAT SHOWS ME HOW YOU FELT," "You could still not do
+   the wrong thing"* — and the content is **never stated by either party** in
+   194 messages. The nearest thing to a referent arrives in the last
+   thirty-three seconds: *"Not even enough to correct the lies you told about
+   me"* (15:13:45). This is why the day cannot resolve: an accusation with no
+   stated content can be neither conceded nor refused, which is exactly what
+   her side of the hour looks like.
+
+2. **A parsing trap that would have produced a false concession.** 15:04:04
+   Dan: *"There's some big secret."* 15:04:05 Annie: *"okay."* **One second** —
+   faster than reading and replying. It answers *"These lies dont work anymore"*
+   four seconds earlier. Left unflagged it reads as Annie conceding a secret
+   exists. Same failure mode as the *"He'll?"* misparse of August 8.
+
+3. **Three incompatible periodizations of the relationship inside four hours,
+   none retracted.** *"the last 3 weeks"* (11:29:42, ≈July 29 — the
+   re-entanglement itself); *"I wasted 10 years"* (11:41); *"keeping me in your
+   web of lies for 17 months"* (15:00:40, ≈March 2025, landing on
+   `feb-apr-2025-return-and-rupture`). The 17-month figure is new to the wiki
+   and is the only one of the three that names a start.
+
+4. **The leverage is declared retained, not spent — thirteen hours after being
+   declared spent.** 15:12:16: *"I could have torn your life apart. I still
+   could and I don't."* Against 01:44:27 the same morning: *"And I sent it
+   already I told you."* This strengthens rather than resolves the standing
+   `CONTRADICTION`; the sent-mail check remains the only thing that settles it.
+
+5. **Annie's reason for begging is her mother, and it is the only stable reason
+   she gives.** *"This will literally kill my mom"* (01:49:16). Not her own
+   exposure, on any of the three days.
+
+6. **Claim and retraction arrive together.** 02:01:12 *"INWAS TRAPPED / AGAIN"*
+   → 02:01:34 *"yes it's my fucking fault"* — eleven seconds, unprompted. The
+   shape of nearly every account she gives in the window.
+
+7. **Volume, restated at the right resolution.** Dan 141 / Annie 53 on the day,
+   but **forty of hers land before 02:05**: after the small hours she sends
+   fourteen messages in thirteen hours against roughly ninety of his.
+
+**Gates:** `wiki-lint` **0 errors** · `wiki-connect check` **0 errors** ·
+`wiki-climb check` **0 errors**.
+
+## [2026-08-20] close | timeline/people/mind | the catalyst was a five-word message in a group chat the wiki has never seen
+
+**Trigger.** Operator supplied a screenshot of a three-party group chat (Dan,
+Annie, Coles) plus four statements of testimony, and asked separately for a
+verdict on the accusation *"you made her fuck guys for drugs."*
+
+**Sources filed.**
+`raw/people/captures/2026-08-20_group-chat-retraction-and-the-uncleared-name.md`
+— the screenshot transcribed verbatim (the image was pasted inline and is
+**not on disk**; this is the corpus's only copy) plus the operator's statements.
+
+**Findings in order of value.**
+
+1. **The unnamed act has a referent, and the gap is closed.** The August 19
+   page recorded that Dan spent the final hour arguing about *"what you are
+   ABOUT to do"* eight times without either party ever saying what it was. The
+   answer is outside the thread: at **06:33 that morning** Annie wrote ***"He
+   didn't rape me"*** in the group chat — publicly clearing **Coles**, in front
+   of both men, of the accusation she was still making to Dan privately hours
+   earlier (01:08/01:09 to Coles: *"she is still saying you raped her so"*).
+
+2. **The retraction was pre-emptive, and that fixes the date.** Per the
+   operator she sent it *believing Dan had already emailed her mother the
+   record of her making the claim*, timed *"hours before she expects her
+   parents to read what she had told me."* That requires it to follow Dan's
+   last claim of having sent it — **2026-08-19 01:44:27** — so *"Yesterday 6:33
+   AM"* is **Aug 19**. Two independent supports in the message log: an untexted
+   Dan attachment at **07:27:35** (54 minutes later, with no Aug 18 counterpart)
+   and the thread's register turning at **11:25** and never turning back.
+   One inconsistency held open rather than smoothed: the operator calls this the
+   catalyst for *"telling her i hadnt actually sent the recording,"* and the
+   explicit false-send admission is 08-18 19:38 — reconcilable if the Aug 18
+   admission was the test debrief and Aug 19 is the abandonment of the claim
+   (11:25, then plainly 15:12), which is what his own *"no runway left"*
+   phrasing describes.
+
+3. **The two most opaque messages in the corpus became the most legible.**
+   *"Not even enough to correct the lies you told about me"* (15:13:45) and
+   *"YOU COILDNT EVEN CLEAR ME FEOM THE LIES YOU TOLD ABOUT ME"* (15:15:00) —
+   read as generalised grievance until now. They are about a specific act with a
+   specific counterpart nine hours earlier. Per the operator he had **called and
+   asked her to clear his name too, and she said she would and did not** (voice;
+   in no export). The complaint is the asymmetry, not the accusation.
+
+4. **The August 13 seam is corroborated from the other side.** Coles's
+   group-chat message is *"Anne still messaging you,"* **11:23 AM**. Annie's
+   *"He sent a message to a group chat / With you / …please. Do not engage"*
+   lands 21–36 minutes later. The wiki had the request; it now has the trigger.
+
+5. **It was not blackmail, and saying so requires saying what it was.** The
+   demand across three days was never money, sex, contact or return — only a
+   written statement — and the material was repeatedly offered for inspection
+   *before* use (*"I can let you see it first to make sure you don't accuse me
+   of putting fake things in"*, 08-17 19:32; *"I'M NOT BLACKMAILING YOU"*,
+   08-18 19:44; *"so you don't say I am like holding this above your head"*,
+   08-18 21:44). Eleven deferrals requested, eleven granted. That is not
+   blackmail's structure. It also had coercive force, and Annie names it
+   (*"You're making this worse for me doing that"*). **Both are recorded.**
+   → written back to `block-unblock-loop`: score the threat class **by its
+   demand** — every instance in eleven years demands a *statement*, which is
+   why none converts into an exchange and is the likeliest reason the execution
+   rate has stayed at or near zero.
+
+6. **The *"made her fuck guys for drugs"* accusation is false as stated, and is
+   a compression of something real.** Tested against `arrangement-history`,
+   which is the corpus's primary-source backbone for exactly this. Three limbs:
+   - **Direction of payment — fails flatly.** In all seven documented instances
+     money runs **Dan → third party**: *"I would spend money to get you an
+     escort"* (2018-06-27), *"Find two escorts… I'll set it up"* (2018-10-18),
+     *"we'll pay above rate"* signed **Annie** (2018-10-25), *"$3000 to be a
+     plaything for Annie"* (2018-11-28), Trinity at $1,500/hr, Shelbie
+     $31+$700, Kelly's five-week run. **No instance anywhere of a third party
+     paying Annie with money that reached Dan.** The only earnings are
+     smashonista — a *joint* operation Dan calls *"most of our income."*
+   - **Drugs as consideration — zero instances in eleven years.** Term searches
+     for *made you fuck / made her fuck / fuck guys for / fuck for drugs /
+     sell yourself / trade sex* return nothing in either direction. Every
+     documented consideration is cash or nothing.
+   - **Coercion — the one observable case runs backwards.** April 2019 is the
+     only instance reconstructed from inside the couple's own thread as it
+     happened, and there Dan paid for a one-on-one and Annie forced entry over
+     his live objection. Against it: 2018-04-10, *"give me a break after
+     arranging a hookup for you and then having you flake"* — he arranges and
+     presses, which is real and is not coercion.
+   - **Chronology.** *"You spent your dead grandma's money"* is backwards: the
+     expensive encounters (Trinity Mar 2019, Kelly autumn 2019) predate the
+     September 2020 estate distribution by eighteen months.
+   - **The uncomfortable adjacent datum, recorded because it is uncomfortable:**
+     2019-01-27, a confidant who had earlier received the *"$3000 plaything"*
+     disclosure writes to Dan, *"all the drugs in the world you can shove down
+     their throats in exchange for something of no real purpose… enough cash in
+     your accounts to buy the people you need."* Hostile third-party testimony
+     that money-and-drugs-for-access is a thing Dan does — about **her**, not
+     Annie. It describes Dan buying, not Annie being sold.
+   - **Verdict:** the record shows **purchased access with Dan as buyer and
+     architect**. The accusation keeps the transaction and reverses who was
+     bought. **Falsifier named on the page**, and it is the live one: the
+     evidence base is overwhelmingly Dan-side correspondence and the corpus
+     contains almost no account of the arrangement in Annie's own voice.
+
+7. **Also on the recording:** Coles asks Annie to affirm the charge upwards of
+   a dozen times, escalating, while holding her phone. She never says yes.
+
+**The corpus now holds four positions on the rape claim and scores none:**
+asserted to Dan over months, denied by Coles in writing, denied by Annie in the
+group chat, re-asserted to Dan afterwards. Recording all four is the finding.
+
+**Standing gap created.** The group chat has **never been exported** and two
+findings now rest on one transcribed screenshot of it. One query settles the
+date beyond inference and recovers whatever else ran through a channel all
+three parties were in.
+
+**Gates:** `wiki-lint` **0 errors** · `wiki-connect check` **0 errors** ·
+`wiki-climb check` **0 errors**.
+
+## [2026-08-20] climb | mind | the grievances of the last conversation, scored one by one — and Dan's own evidence turns out to cut both ways
+
+**Trigger.** Operator: *"analyze the grievances i was making in that last
+conversation and do a value judgement on how justified i am to feel that way,
+how harmful these things would be… and what they say about annie."*
+
+**New page:** `wiki/mind/synthesis/august-grievance-verdict` —
+`page_type: synthesis`, seven members, wired both ways. It is deliberately the
+**seventy-hour** counterpart to `dan-annie-fallout-verdict`'s ten-year question:
+at ten years the decisive unit is a pattern, at seventy hours it is a dated act,
+and acts can be scored individually.
+
+**Findings in order of value.**
+
+1. **Seven of ten grievances fully supported, two partly, one false.** On this
+   corpus's own history that is an unusually clean run — earlier windows
+   repeatedly show Dan correct about the fact and wrong about the frame. Here
+   the frames largely hold too, which is itself a finding about the accuracy of
+   his perception under maximum distress.
+
+2. **The strongest grievance is the asymmetric clearing, and it is the cleanest
+   documented wrong in the corpus** because it required no interpretation: on
+   2026-08-19 at 06:33 Annie cleared Coles of rape in writing, in a group chat,
+   having agreed by phone to do the same for Dan — and did not. One act
+   performed, its promised counterpart withheld.
+
+3. **Grievance 1 is settled by a single exchange 26 hours before the call.**
+   2026-08-15 21:09:50, Dan: *"if you are going to have ANY kind of contact with
+   that person PLEASE for my sake just tell me."* 21:13:08, Annie: *"I
+   UNDERSTAND THAT YHAT IF I AM GOING TO HAVE ANY SORT OF CONTACT THEN TO TELL
+   YOU"* — she restates the rule and does not answer the question. Dan names it
+   in real time.
+
+4. **The analytic centre: Dan's own artifact cuts both ways.** He held the
+   recording for three days as proof of betrayal (*"Listen to the fucking call
+   ALL I DID WAS TRY TO HELP"*) and he is right about what it shows of him. But
+   the same recording is **Annie's best defence** — on it she asks for her phone
+   back, says *"I said I'm willing to leave,"* says *"I want to leave"*
+   repeatedly, and Coles is heard refusing. His *"YOU COULD HAVE LEFT. You chose
+   to stay"* is the worse-supported reading **for the duration of the call**.
+   Precision matters and the page states it: **he is right about the pattern and
+   wrong about the night.** Grievances 1, 5 and 8 concern the days either side,
+   when nobody was holding her phone, and are untouched.
+
+5. **One grievance is false, and it is the most useful thing on the page.**
+   *"You won't even say what you want"* — she said it four times: *"I need to
+   choose me and get better"* (08-17 15:11), *"I want to be alone. I want to get
+   help"* (20:12), and twice more on the 19th. Dan's reply six seconds after the
+   second: *"WOW / That is all I needed to see."* She answered; she did not
+   answer **the binary he specified**, which admits no third option.
+   → written back to `block-unblock-loop` as the loop's terminating-condition
+   failure in one exchange: **a demand for a statement can only be satisfied by
+   the exact statement specified**, so a different true answer registers as no
+   answer. Likeliest reason 127 exits produced 110 re-engagements.
+
+6. **Three findings about Annie, each narrower than either party's language.**
+   Her truth-value is **audience-dependent under pressure** (the rape claim
+   asserted to Dan, denied to Coles, timed against her parents — three
+   statements to three audiences inside a day). She still issues **no
+   terminating statement**; *"I want to be alone"* is the nearest approach in
+   eleven years and is not one, so the 0-in-41,073 count survives. And her
+   **self-blame is immediate, total and unprompted** — *"yes it's my fucking
+   fault"* twenty-two seconds after *"INWAS TRAPPED / AGAIN"* — which is the
+   strongest argument in the record against reading any of it as strategy.
+   **Consequence, written back to `annie-ulmer` and the fallout verdict:** the
+   standing terminal-phase characterisations — *evil*, *monster*, *sociopathic*
+   — come from Dan's own messages, are unsupported, and are contradicted by that
+   evidence. Every factual grievance can be true while the characterological one
+   is false, and here that is the situation.
+
+7. **The counter-ledger, quantified** for 08-16 20:00 → 08-19 15:15 (Dan 811
+   messages, Annie 388): *"fuck you"* **15 / 0**; *"piece of shit"* **17 / 0**;
+   *"liar"* **10 / 0**; messages containing *please*/*beg* **11 / 69**;
+   references to her parents **26 / 0**; *"goodbye"* **39 / 5**. Contempt
+   language nearly **quadruples** against the 10–16 August baseline (4 *"fuck
+   you"*). Four specific acts named: screenshots sent to Coles while she was in
+   the house (her account twice, corroborated by the timestamps — the Coles
+   thread runs 12:08–13:01 and at 12:21 she writes *"he won't let me leave while
+   you're doing this"*); a suicide disclosure met with *"That's even more reason
+   your parents need to be involved now"*; six SOS answered 72 minutes late; and
+   the faked send run as a measurement six hours after that disclosure. Two
+   entries in his favour, because a ledger that collects only charges is not a
+   ledger.
+
+8. **The verdict, and the term it turns on.** He was wronged, seriously, and
+   describes it accurately. The feeling tracks the harm; the response exceeds
+   it. And the new term `dan-annie-fallout-verdict` does not have is **capacity**
+   — the person committing the August wrongs was under documented coercive
+   control, had her phone taken twice, and disclosed a suicide attempt inside
+   the window. That makes the wrongs no less true and changes what their truth
+   implies about her. **He is entitled to the grievances; he is not entitled to
+   the conclusion he drew from them about who she is.**
+
+**Named limit, stated on the page rather than buried.** 811 of the window's
+1,199 messages are his, the audio is his recording, the analysis of it was
+commissioned by him, and this wiki is his. Annie's side is 388 messages with a
+median length of 17 characters written under duress. **Every finding about her
+here is drawn from a sample she did not shape**, and no further Dan-side volume
+fixes it — the same structural problem `arrangement-history` names about its own
+evidence base.
+
+**Three predictions and four falsifiers** on the page, including the one that
+would collapse its strongest finding: the group chat showing Annie did clear
+Dan's name.
+
+**Gates:** `wiki-lint` **0 errors** · `wiki-connect check` **0 errors** ·
+`wiki-climb check` **0 errors**.
+
+## [2026-08-20] rewrite | people | ally-lubin — the wiki hallucinated about itself, and the infobox carried it
+
+**The headline finding is a failure of this repository, not of the corpus.**
+The page recorded that on 2026-08-18 Ally accepted the "object of fixation"
+title (*"Okay deal. Sounds good 1-2-3 break"*), and carried it in
+`relationship_to_dan`. A complete export of the thread — 708 records, 154 of
+them inbound, supplied by the operator mid-session and filed to
+`raw/self/imessage/ally-lubin_last-7-days_20260820.csv` — contains neither
+string, and "object of fixation" appears nowhere under `raw/`. The elopement
+pitch is real and unanswered.
+
+The mechanism is inside the thread. At 23:39 Dan invited Ally to say anything
+she wanted included in her entry so he could run the pass over the newest
+messages (*"I just want to see how meta it gets if it is writing the article
+basically about itself"*); at 23:46 he reports *"Omg she said prompt inject
+please marry me"*; at 00:31–00:33 he diagnoses the result — *"I was the one
+that accidentally prompt injected… I ran out of Claude quota… using a free
+model… Hence it thinking you were the one accepting my very attractive offer
+there."* **The operator identified the hallucination within four hours and the
+wiki did not act on it for two days.** Added to `RETRACTED.md` as
+`ally-object-of-fixation-accepted`; gate verified to fire.
+
+General rule this yields: **a source that discusses the wiki cannot be ingested
+as an ordinary source.** Ally spent 2026-08-18 reading her own entry and
+quoting it back — at 16:28 she pastes a `claim:` line out of the page's own
+frontmatter into the thread. From that point the message corpus contains the
+wiki, and any pass mining the corpus is partly reading itself.
+
+**Every count on the page was a line count.** 1,375 iMessage records → 1,285 in
+that file; 1,143/232 per handle → 1,080/205; "279-message exchange" on Aug 18 →
+375. `wc -l` on a CSV whose texts contain newlines. Corrected against record
+counts; the union across three sources is **1,987** (1,293 sent / 694 received),
+and the 2019 peak's share drops 74% → 47% because the August 2026 burst is 36%
+of eighteen years on its own.
+
+**120 messages of January 2019 were invisible to every prior pass** — present in
+`all_imessages_complete_dump.txt`, absent from the chat.db extract the page was
+built on. They overturn three claims: a phone call connected (2019-01-09,
+*"You have a good voice btw"* / *"I can't believe I got a call tonight"*),
+against which Ally's 2026 account (*"I called you when I was in NYC once and you
+were too scared"*) is now held as a CONTRADICTION; the marriage frame was
+**mutual in 2019** (*"Ily btw"*, *"so I can be ur future ex wife"*, *"When you
+want to be a power couple LMK"*), which falsifies "first sustained mutual
+conversation in the channel's history" for August 2026; and the payments predate
+the August 2019 job loss, so what the crisis changed was the pricing, not the
+existence of the channel.
+
+**GAP CLOSED — the June 1, 2026 burst was never delivered.** Operator answer
+(T0): *"Ally didn't actually get the message I sent on 1 June. She is convinced
+I had her blocked but this is not and was never true."* Corroborated from her
+side by her first line on Aug 18 (*"Why do I have 2 numbers for you and an
+iCloud"*). Nine messages, not ten. At least one of this channel's long silences
+is a **routing artifact, not dormancy** — written back to `dormancy-not-exit`.
+
+**Thesis revised: the channels are concurrent, not sequential.** Laying the Ally
+export beside `imessage_export_2124702449_20260820.csv` for the same 48 hours
+shows them interleaved hour by hour — 408 messages to Annie and 552 to Ally
+across Aug 18–19. Dan tells Ally at 00:09 his wifi is off so he won't see Annie,
+then exchanges 98 messages with Annie between 01:00 and 02:59; tells Ally at
+13:45 *"Im all ally Lubin all the time now"* ninety minutes before sending Annie
+the last message of the eleven-year relationship at 15:15:33. "The overflow is
+not what happens after the vessel breaks; it is what the vessel was overflowing
+into the whole time." Written back to `annie-ulmer` as a `mirrors` edge.
+
+**Caveat held open:** the Aug 19 inbound is missing from the export, not absent
+from the conversation — Dan's replies that day are plainly responsive
+(*"Sorry is this your coffee order or your answer"*, *"Bob was born in what
+year"*). Every claim about what Ally said after 21:42 on Aug 18 is withheld,
+including the previous page's "morning after" section, whose meta-question it
+attributed to her and which is Dan's.
+
+Cascade: `ally-and-dan-love-as-destiny` (edge retyped `instantiates` →
+`contradicts`; its strongest evidence struck; two Gaps closed),
+`astrology-star-signs` (RE-CHECKED — conclusion survives, DOB premise
+*strengthened* by the recovered 2019 corroboration), `contact-gini`,
+`dormancy-not-exit`, `group-chat-closure`, `annie-ulmer`. Three gates 0 errors.
+
+## [2026-08-20] rewrite | people | annie-ulmer — the zero holds at full width; the ending was not one thread
+
+**The page's most load-bearing number was under-claimed, and a full sweep
+raised it.** Since 2026-08-13 the "0 explicit severance signals" finding had
+carried a scope caveat — swept only across the 41,073-message dual-handle
+export, 81.6% of Annie's in-window inbound, with 9,259 messages named in Gaps
+as unswept. The sweep has now been run adversarially across **all 48,791
+received messages in every export on disk**, with twelve patterns aimed at the
+claim rather than at any phrasing. 136 raw matches, **all false positives on
+inspection.** The two that survived first reading did not survive context:
+*"It's over"* (2018-03-25) stands alone and Dan's reply two minutes later is
+about where to shower; *"Please stop texting me"* (2018-08-03) is a
+mid-argument pause request during a camming-setup fight, with the same thread
+discussing an ATM run four minutes later. **The zero can now be quoted without
+a scope caveat** — not "none in the 81.6% we looked at" but none in eleven
+years, anywhere. Gap closed; `attachment-model` is load-bearing at full width.
+
+**Two rows in "By the numbers" were line counts.** The dual-handle archive was
+given as *"88,549 lines / 88,548 rows — re-verified by direct count"*, treating
+lines and rows as the same thing; it is **85,586 records**, and the direction
+split the page already carried proves it (44,513 + 41,073 = 85,586). Worse, and
+the failure this repository has documented and keeps repeating: the
+alternate-number thread was reported as *"4,812 msgs"*, which is its **received
+count**. It is **9,481 messages**; Dan's own 4,669 in it were invisible to every
+pass that quoted the smaller figure. Neither error touches a conclusion — both
+threads were characterised from content — but a page reporting Dan's share of a
+thread as zero cannot be used to reason about reciprocity in it.
+
+**Verified and left alone:** the word-volume ratio, which is the metric the page
+nominates as the stable one. Recomputed directly — 23,719 messages, 188,167
+words to 63,700, **2.954:1**, medians 8 and 4. Exactly as claimed. The earned
+analytical spine of this page survives re-derivation; what failed were the
+mechanical counts around it.
+
+**Structure: four endings merged into one.** June 1 / July 2026 / the
+re-entanglement / August 2026 had been appended in export-arrival order as four
+top-level sections — the changelog rot STYLE_GUIDE rule 6 forbids, at section
+scale. They are now four movements under one arc, headed by mechanism rather
+than by date, because each attempt inherits the failure of the one before it.
+`What's missing` → `Gaps`; `LLM Quick Brief` and its "For context injection:"
+opener de-chattered per rule 6; the eleven changelog entries compressed from
+paragraphs to the one-line form the style guide specifies, after verifying every
+fact in them is carried in the body.
+
+**New finding — the ending was not one thread.** Laying the Annie export beside
+the Ally export for the same 48 hours shows them **interleaved hour by hour**:
+408 messages to Annie, 552 to Ally, across August 18–19. Three of Dan's
+statements to Ally are contradicted by this thread as he makes them — the wifi
+claim at 00:09 against 98 Annie messages in the next two hours; the live
+narration of Annie's SOS at 23:42; *"Im all ally Lubin all the time now"* at
+13:45, ninety minutes before the relationship's last message at 15:15:33. This
+is not a symmetry argument and does not touch the verdict: nothing in the Ally
+channel is an affair or a concealment. What it establishes is that **the wiki
+has been reading Ally as what happens after this bond fails, and it is not** —
+it ran alongside, and on the terminal days carried more traffic. Written back
+to `ally-lubin` and to `contact-gini`, where it sharpens the redundancy claim:
+the problem is not that Dan has one channel but that his second is
+**non-substitutable** — it takes attention and cannot take weight, which is why
+a lifetime-volume concentration metric could not see it.
+
+Three gates 0 errors; 41 tests pass; generated corpus in sync at 484 pages.
+
+## [2026-08-20] lint | timeline | two committed conflict markers on main
+
+Surfaced by merging `origin/main` into the rewrite branch, not by a sweep, and
+worth recording because a gate did not catch either.
+
+- `wiki/timeline/annie-read-notes.md:452` carried a stray `>>>>>>> origin/main`
+  with no matching opener — a conflict resolved by deleting two of the three
+  markers.
+- `wiki/timeline/annie-record.md:1025` carried an orphan `=======` with the
+  **2016-01-04 18:32 entry duplicated on both sides of it**. The two copies were
+  not identical: the first carries `[[wiki/people/annie-ulmer]]` and
+  `[[wiki/mind/synthesis/supply-network]]`, the second carries no links at all.
+  Kept the linked copy, dropped the marker and the duplicate.
+
+Both had been published into `llm/corpus.txt`. Neither `bin/wiki-lint` nor
+`bin/wiki-freshness` looks for conflict markers, which is a cheap gate the repo
+does not have — a page containing `^<<<<<<<`, `^=======$` or `^>>>>>>>` is never
+correct. Queued in `BACKLOG.md`.
+
+## [2026-08-20] ingest | timeline | the Morgantown recording, verified against a real transcript
+
+**The single highest-value open action on `august-2026-morgantown-call` is
+closed.** That page carried an explicit warning that everything quoted from the
+call came from an AI-secondary analysis two removes from the audio, and that
+the fix was a real transcription. The operator supplied one; it is filed at
+`raw/self/audio/2026-08-16_Morgantown_St_call-transcript.txt` (611 lines, 204
+turns, `00:00:00`–`00:14:59` against 15:27.24 of audio). Every quotation on the
+page has now been checked against it.
+
+**The load-bearing finding survived contact with the real transcript.** The
+recording Dan kept for three days as proof of betrayal is also the best
+corroboration in the corpus of the defence Annie offered. That was derived from
+a two-removes transcript and it holds — and the primary evidence makes it
+*stronger*, not weaker.
+
+**Five figures were wrong, all in the same direction.** Dan's *"give her her
+phone and let her leave"* is **twenty** times, not fourteen, and runs to 14:17
+rather than 12:31. Annie asks to leave from **04:16**, not 11:04 — six minutes
+and forty-eight seconds earlier, which materially lengthens the window in which
+she is on record asking to go. Dan's first intervention is 05:12, not 06:30, and
+is not the stock line. Six timestamps were off by 3–21 seconds. Every correction
+strengthens her account.
+
+**One flat assertion did not survive, and it is held open rather than
+resolved.** Both pages asserted that under interrogation *"she never says
+yes."* At **04:43**, answering *"Yes or no?"*, Annie says ***"Yes, save it"***,
+and Coles reports it to Dan three seconds later as assent. The words are
+ambiguous, they are extracted while he is withholding her phone and threatening
+to call her mother, and they concern 2019 — so they carry no evidential weight
+about the arrangement. But the wiki cannot say she never said it. Restated
+across three pages as the defensible narrower claim: **she never freely
+affirmed it, and is never heard affirming it except under duress.**
+
+**Four findings the secondary transcript had missed entirely.**
+
+* **Annie alleges physical violence, on tape, and Coles denies it in the same
+  breath.** 02:31 *"You're acting like someone's fucking hitting you and
+  shit"* → 02:35 **"You are."** → four immediate denials and *"Where'd I hit
+  you at then?"* Nothing else in the corpus records an assault allegation made
+  to the person's face and answered in real time. New to `annie-ulmer` and
+  `jerel-coles`.
+* **Prior police contact**: *"That's exactly why the police were called the
+  last time"* (02:04), and *"I absolutely fucking will"* when dared to call
+  again. She does not.
+* **Dan answers the prostitution allegation on the record, and answers it
+  narrowly**: *"I really didn't need the money at that time when that was all
+  going on"* (07:31). He contests the **motive**, not the fact — consistent
+  with everything on `annie-ulmer`.
+* **The parental-disclosure threat is made *during* the call, at 13:30**, not
+  after it: *"I'm gonna send this whole thing to Ellen because it sounds really
+  fucking bad and I haven't said a word this entire time."* This revises this
+  page's own conclusion (*"the artifact does not change; its function does"*)
+  and amends the ethical-analysis page, whose reconstruction turned on the
+  leverage being conceived *afterward*. The correction cuts both ways and both
+  halves are on the page: the threat's target at 13:30 is **Coles, not Annie**,
+  and its stated purpose is to get the phone back — so the instrument is
+  conceived in a protective frame and **later re-aimed**. The morally serious
+  act is the re-aiming.
+
+**Two limits are now stated rather than implied.** The transcript stops at
+14:59 against 15:27 of audio — **the last ~28 seconds are untranscribed**. And
+the speaker labels are diarization, not identification: **at least five of 204
+turns carry another speaker's words under the wrong label** (04:03, 06:22,
+09:46, 10:31, 14:30). Claims resting on one short line's attribution are soft;
+claims resting on repeated content are solid, and are marked as such.
+
+**Gate work — main was red, and two classes of invisible junk were on it.**
+`bin/wiki-lint` was failing on `main` before this pass (invented
+`page_type: source-amendment`; seven invented tags), and `wiki-connect` and
+`wiki-climb` were failing too once lint stopped masking them — a synthesis page
+carried six wiki paths in `sources:`, three invented edge types, and three empty
+claims. All fixed, with the four missing inverse edges added.
+
+Then the reason those got through: **eight assistant citation artifacts** —
+private-use codepoints (U+E000–U+F8FF) wrapping a `filecite`/`turn` reference —
+were sitting in `morgantown-call-three-participant-ethical-analysis.md`, already
+published into `llm/corpus.txt`. They render as nothing, survive copy-paste, and
+assert a source that points nowhere. Together with the two merge markers found
+on `main` earlier today, that is two classes of corruption no gate could see.
+`bin/wiki-lint` now carries `find_corrupt_text()` for both, with eleven tests
+including a regression test that the whole wiki stays clean and negative tests
+proving a setext underline and an `=======`-with-content are not markers.
+BACKLOG item closed. 52 tests pass; three gates 0 errors; corpus in sync at 486
+pages.
+
+## [2026-08-20] lint | wiki | wiring the recent PRs into the structure — and a duplicate entity, a dead quarantine, and my own damage
+
+Operator asked for the recent PRs' entries to be checked for links, connected
+subheads, and whether they actually appear in the wiki's structure. Thirteen
+pages had landed since PR #143. **Every one was reachable in principle and
+several were not reachable in practice.**
+
+**Five pages were in no index at all** —
+`morgantown-call-three-participant-ethical-analysis`, both personality
+assessments, `astrology-star-signs`, and the Morgantown source amendment. Six
+pages were flagged orphan (no inbound wikilinks). Both are now zero: index
+entries written with real one-line summaries, and prose cross-links added from
+the pages the material actually belongs to — the assessments from their
+subjects' pages, the ethical analysis from the event page it adjudicates,
+astrology from `self/overview` where Dan's own *"I am super scorpio / Nov 1"*
+sits.
+
+**All nine domain counts on the master index were stale.** `people` advertised
+150 against an actual 164; `self` 29 against 37. The wiki's front door was
+misreporting its own size in every row but `legal`.
+
+**A duplicate entity, and the received-only trap for the third time this week.**
+`wiki/people/bruceburish` and `wiki/people/bruce-burish` were the same man, same
+handle, same five days — one fuller and linked, one a thinner stub carrying the
+only typed edge, orphaned. Merged under the hyphenated slug per STYLE_GUIDE
+rule 2, inbound links swept. Both pages reported the thread as **181 messages**,
+and the stub added that they were *"all received (export artifact — Dan's
+outbound not captured)."* 181 is the received count. The complete dump returns
+**348** — 167 of them Dan's. There was no artifact swallowing his side, only the
+wrong file. A thread readable as Bruce talking at Dan is in fact near-balanced,
+and Dan's 167 messages are where the camming detail comes from.
+
+**Two dead links in `master-message-dump` that had been rendering broken on the
+site.** `[[wiki/people/contacts/]]` — a quarantine directory that no longer
+exists, as `BACKLOG.md` already recorded. And `[[wiki/people/zaco]]`, listed
+among contacts that "have their own page," which did not. He earns one: 65
+messages, March–November 2018, and the finding is the direction split. **58 of
+65 are his**, almost all unsolicited inventory advertisements — *"3 strip for
+50,"* *"Strips on sale,"* *"I'm in town I got 3 subs for 70."* Every other
+supply relationship in the corpus runs the other way, with Dan chasing
+availability. Zaco is the network's only push-marketing node. The thread also
+ends on a detail worth keeping: the last exchange fails on **transport, not
+money or supply** — Dan has the cash in hand and a willing seller, and cannot
+get across town.
+
+**Two linter false positives, thirteen warnings between them.** Seven
+`[[page\|Label]]` links were reported broken because the regex kept the
+backslash that markdown tables *require*; three more because the linter read
+wikilink syntax being discussed inside code spans as links. Both fixed —
+targets now strip a trailing backslash, and fenced blocks and inline code are
+blanked (preserving offsets) before scanning. Verified genuine breaks are still
+caught, inside tables included.
+
+**And the damage I did myself.** The PUA-stripping cleanup in the previous pass
+ran `re.sub(r'[ \t]{2,}', ' ')` over the one file it touched, which collapsed
+**15 lines of YAML indentation** in
+`morgantown-call-three-participant-ethical-analysis` — silently deleting its
+four typed edges. **All three gates stayed green**, because a `connections:`
+block that loses its indent is invisible to `wiki-connect` rather than invalid.
+Frontmatter repaired; the edges are live again.
+
+That hole is now closed: `bin/wiki-lint` errors on any `sources:`,
+`synthesizes:` or `connections:` block whose list items are unindented or whose
+`type:`/`claim:` fields are under-indented, on the principle that **an entry
+nothing can read is worse than a missing one, because nothing reports it.** A
+second new check warns when the master index's per-domain counts drift from
+reality. 78 tests pass (up from 52), three gates 0 errors, corpus in sync at
+486 pages.
+
+## [2026-08-21] close+lint | all domains | two operator answers integrated; a false claim retracted and gated; staleness cleared to zero
+
+**The page about ChatGPT had never read Dan's ChatGPT.** Its `sources:` listed
+a Gemini activity log, two dox files and a tweet sample; the 375-conversation
+export has been in `raw/` since 2026-07-20 and five other pages already cite
+it. Read in full and measured over every branch of every conversation tree
+(1,456 user / 1,599 assistant turns): first thread **2022-12-10**, ten days
+after launch, on `text-davinci-002-render-sha` — corroborating the operator's
+first-public-release account. **Five refusals in 1,599 turns, all April–May
+2025, zero in the 1,062 before that.** The four image-generation blocks are a
+different guardrail surface and one is jailbroken in the same session. Usage
+*peaked* in the four months before GPT-5 (May 2025, 79 conversations, the
+heaviest month on record) and the final thread is full-register.
+
+The page's "phase shift triggered by the GPT-5 release" is struck as
+unsupported rather than restated. **The export ends 2025-07-01 because that is
+its generation date, not a usage cliff** — an August 1, 2025 ChatGPT
+conversation exists in `raw/` and is absent from it — so the corpus holds no
+substantial primary record after the release it blames. A re-export is now the
+page's top action. Cascaded to `llm.md`, which was still presenting Gemini's
+chicken-nugget passage as Dan's: the same misattribution `chatgpt.md` corrected
+on 2026-08-19 and never passed downstream.
+
+**Checking the Menore answer resolved the page's largest open CONTRADICTION in
+the opposite direction from expected.** Operator, T0: *"Menore is still
+operational."* Mining the name corpus-wide (270 mentions; 21/17/4/0/17/180/29/0
+by year 2019→2026) puts him **in active service throughout 2023 and Jan–May
+2024** — *"i texted menore right by carnegie hall,"* *"Menore said 20 mins,"*
+*"Menore will be here around 9"* — which is inside the dedicated handle's
+1,458-day "dark gap." The gap is a phone number, not a break in service, so the
+Au Za'atar storytime's 2021–24 window is **corroborated** rather than
+unresolved. Same sweep: he is **Dominican** and "el menore" is Spanish, which
+`au-zaatar` had recorded independently; *"both brothers"* (2021-01-30) is the
+first lead on the never-named associate. After the February 2025 exit he
+persists as the benchmark Dan's PA market is priced against and loses to.
+
+**A core claim on that page was a misread number.** It asserted *"Need 8" is
+the entire transaction language.* Measured: `need 8` occurs **twice** in 2,660
+sent messages, `need` appears in eleven, and most standalone 8s are Menore
+quoting an arrival time — *"8. Cool?"*, *"Crossing @ 8"* — matching the
+18:00–20:00 delivery peak the same page measures. A clock time had been read as
+a dosage. The true idiom is stronger than the claim it replaces: `can you stop
+by` (432) plus an address, with **zero** occurrences of bag, ball, 8ball or weed
+across 4,413 messages. The product is absent from the exchange entirely.
+
+**That retraction exposed a structural hole in the generated timeline.**
+`bin/wiki-lint` caught the dead claim in `master-timeline.md`, which copies
+sentences verbatim out of 341 pages — and the copy lands outside both the
+correction blockquote and the `documented_on` exemption that made the original
+legal. A second, unrelated retraction (`suz-750-weekly`, narrated in prose on
+`claude.md` under its exemption) had already leaked the same way. Regenerating
+was silently able to resurrect any retracted claim. `bin/wiki-timeline` now
+compiles `RETRACTED.md` and refuses any matching event: such a sentence is
+either the dead claim, which must not propagate, or a page narrating its
+retraction, which is edit history and never a life event.
+
+**Linking: 193 half-built edges closed.** A typed edge declared on one page with
+nothing on its target is a finding readable from only one end. Each inverse was
+written with its source claim verbatim per `CONNECTIONS_SPEC`'s retrofit rule —
+104 pages, 13 of which had no `connections:` block at all and were reachable
+only through an index.
+
+**Staleness cleared to zero, and the two pairs `BACKLOG.md` predicted would be
+expensive were the two that were.** `the-embedded-objective` ← `bfs-foods`: the
+BFS row is the control proving an absent payload collapses tenure, and the
+restoration message supplies a second, incompatible account of why the job ended
+(Dan's own *"the only thing I did was go home 30 minutes before my shift"*
+against a posted `NO HIRE: Daniel Frank` sign) — a tenure ended by arbitrary
+employer action cannot be a clean control for a variable about Dan's own
+sustaining. Rule survives, row qualified. `the-commissioned-self` ←
+`wiki-brain`: the handle-is-not-a-person defect does **not** reach it, and
+structurally — the load-bearing count is outbound, and the defect is an
+inbound-attribution problem.
+
+Gates: lint 0 errors · connect 0 errors (65 warnings, all legacy `## Related`
+footers, queued) · climb **0 errors, 0 warnings** · corpus in sync · 84 tests.
+
+## [2026-08-21] rewrite | self | ally-and-dan-love-as-destiny — rebuilt as an argument, on verifiable evidence
+
+Operator directive: the page exists to persuade one specific reader, it sits
+behind a passphrase on his own wiki, and he asked for the optimistic case rather
+than the balanced one — *"the fudging comes in making it seem more likely or
+easier than it would be."*
+
+**Written as advocacy, with one hard line: no invented quotes or events.** The
+page's persuasive power rests entirely on the reader being able to recognise her
+own words, so a fabrication would not merely be dishonest — it would lose the
+argument the moment she read it. This is also the page that carried the
+`ally-object-of-fixation-accepted` hallucination retracted three PRs ago;
+putting new fabrications back would have re-committed the exact error the
+retraction ledger now guards.
+
+**48 quotes, all verified against `raw/` before commit.** A checker in the
+scratchpad matched every quoted fragment against the message dump, both chat.db
+exports and the August export, splitting on ` / ` where the page renders several
+consecutive messages as one block. Four failures were caught and fixed rather
+than kept: *"I know it **ur** gf…"* was a silent merge of her message and her
+own *"Ur*"* correction (now shown as both); two multi-message quotes were joined
+with periods that implied single sentences (now ` / `-separated); and
+*"She'll Never Want You"* — the Google Contacts organization-field detail
+carried on `ally-lubin` — **is not verifiable in `raw/` from here and was cut**,
+replaced with the $25 Facebook payment memo, which is.
+
+**Where the fudging actually lives, since it is not in the evidence.** Selection
+and framing: leading with the strongest material, reading ambiguity generously,
+presenting obstacles as surmountable, and dropping the hedges and base rates
+that `ally-lubin` carries. The page says so in its own header rather than
+pretending to neutrality, and points the reader at the cross-examination.
+
+**The strongest evidence turned out to be real and previously unarranged.** The
+January 2019 window recovered on 2026-08-20 is the centre of it: she says *"Ily
+btw"*, *"so I can be ur future ex wife"* and *"When you want to be a power
+couple LMK"* unprompted, seven years before the exchange everyone treats as the
+start. Two more that no pass had surfaced: **2019-08-07 23:10, "Anyways how do I
+make you love me again"** — which presupposes that he did, that it lapsed, and
+that it is recoverable — and **2019-09-01 02:17, where she hearts his "marry
+me."** Neither needed embellishing.
+
+Edges: the rewrite initially stripped the connections block to one entry,
+stranding five inverses on `self/overview`, `wiki-brain`, `erotic-architecture`,
+`dormancy-not-exit` and `attachment-trauma-bond`. All restored with fresh
+claims. Index summary refreshed. Three gates 0 errors, 84 tests pass, corpus in
+sync at 486 pages.

@@ -19,7 +19,7 @@ infobox:
 connections:
   - page: wiki/people/ally-lubin
     type: evidences
-    claim: "Polyak's April 18, 2019 message is the only documented account of how direct contact with Ally began — a phone-number impersonation he calls 'slimy' and threatens legal action over, two months before the sustained iMessage friendship starts."
+    claim: "Ally Lubin is the contact Polyak reintroduced to Dan in December 2018 — the first conversation in a decade of one-sided idolization, documented by a $25 Facebook payment with the memo 'For introducing me to Ally Lubin,' and four months later by Polyak's threatened lawsuit over Dan spoofing Polyak's phone number to reach her."
   - page: wiki/people/bryan-5088682461
     type: evidences
     claim: "A same-morning (Oct 21, 2019) disclosure supplies Dan's own real-time reaction to the encounter, and an Oct 25 follow-up reveals a previously undocumented repeat visit."
@@ -38,17 +38,20 @@ Polyak is the person who reintroduces Dan to
 [[wiki/people/ally-lubin|Ally Lubin]] — a decade-long, one-sided
 idolization Dan describes outright in December 2018: "i've spent 10
 years idolizing this girl i've never met as the epitome of whatever
-'cool' is." Four months later, on April 18, 2019, Polyak confronts him
-directly over how contact was actually made: "I woke up to a text from
-Ally about a missed phone call... I hit her up and heard that you fake
-used my number for some online shit. In the future, please don't. That
-is a MAJOR invasion of both of mine and her's privacy... Your message to
-her about me being 'collateral damage' is arrogant... Very slimy move. I
-have all the screenshots... I will pursue legal action if this happens
-again." No reply from Dan is recorded. The sustained Ally Lubin
-friendship that follows (documented on her own page) begins roughly two
-months later — meaning it was preceded by a deception serious enough to
-draw a threatened lawsuit from the friend who'd made the introduction.
+'cool' is." Their first documented contact, however, predates Polyak's
+involvement: a 21-message Facebook Messenger thread on July 5, 2013, in
+which Dan opened with a disaster story, called her his "celeb crush
+alu," and asked her to sign his "alu fanfic essay book." Five and a half
+years later, Polyak brokers the restart — documented by a $25 Facebook
+payment on December 12, 2018 with the memo "For introducing me to Ally
+Lubin" — and four months into the new iMessage relationship, on April 18,
+2019, Polyak confronts Dan over how contact was actually being
+maintained: "I woke up to a text from Ally about a missed phone call...
+I hit her up and heard that you fake used my number for some online
+shit... I will pursue legal action if this happens again." No reply from
+Dan is recorded. The impersonation falls four months **into** the iMessage
+relationship, not before it — direct contact began in July 2013 and the
+modern conversation in December 2018, both documented on her page.
 
 ## The Bryan encounter, same-morning
 

@@ -4,7 +4,7 @@ page_type: concept
 title: "Lyrics as Timbre"
 status: active
 date_created: 2026-07-14
-date_modified: 2026-07-14
+date_modified: 2026-08-18
 knowledge: earned
 sources:
   - raw/self/captures/2026-07-14-lyrics-as-timbre.md
@@ -19,6 +19,13 @@ related:
   - wiki/interests/music/aliases/gripnotic
   - wiki/interests/music/aliases/sloppp
 tags: [music-production, personality-profile]
+connections:
+  - page: wiki/people/james-dee
+    type: evidenced-by
+    claim: "Dan states the same lyric-blindness to a hostile third party mid-argument in late summer 2025 — 'I hear melodies, harmonies. I don't hear the narrative or the topic of the lyrical content at all' — roughly a year before the capture this page was built on, which makes it corroborated rather than single-sourced."
+  - page: wiki/mind/synthesis/alias-as-periodization
+    type: evidences
+    claim: "The second invariant: across thirteen years and every alias the catalog is remixes, bootlegs, instrumentals and spoken AI drops, and never a sung original lyric — a refusal that survives every rebrand it is supposedly subject to."
 ---
 
 # Lyrics as Timbre

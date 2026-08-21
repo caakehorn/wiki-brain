@@ -6,7 +6,7 @@ status: active
 knowledge: mixed
 importance: high
 date_created: 2026-07-14
-date_modified: 2026-08-17
+date_modified: 2026-08-20
 date_range_start: 2018-01-01
 sources:
   - raw/timeline/captures/2026-08-16_183544_gap-july-august-2026-reentanglement.md
@@ -20,6 +20,9 @@ sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
 tags: [pets, relationships, physical-health, ai-collaboration, nyc-era]
 connections:
+  - page: wiki/timeline/events/august-2026-morgantown-call
+    type: evidences
+    claim: "The dog's name is used as a duress code. At 22:54 on 2026-08-18, after Coles had been typing on her handle two hours earlier, Annie sends 'Betty. Milo. Whatever sos words' — reaching for the two dogs as the one thing that could prove to Dan it was really her. The channel that reopened the relationship in July is the channel she tries to authenticate herself through in its last emergency."
   - page: wiki/timeline/events/july-august-2026-reentanglement
     type: causes
     claim: "Milo is not only the channel that reopened the relationship but the one that carries it: all four returns from hostility to warmth across the eight days run through him, and Dan speaks in the dog's voice at exactly the moments a direct approach would fail."
@@ -240,3 +243,28 @@ answered — he is with Dan, moved house with him in July 2026, is the
 channel the relationship reopened through, and by August 2026 is fully
 housebroken, off-leash on the porch with the neighbours' animals, and
 described by Dan as "like a different dog now."
+
+## The name as proof of identity, August 2026
+
+The channel argument above has a final instance, and it is the darkest one in
+the record.
+
+On the night of 2026-08-18, [[wiki/people/jerel-coles|Coles]] took Annie's
+phone for the second time in seventy hours and used it to taunt Dan — *"She's
+with me man chill lmfao,"* *"No body cares junkie."* Dan read those as Annie's
+and blocked her. Two hours later, from the same handle, six messages arrived
+between 22:18 and 23:41:
+
+> **SOS** · **SOS** · **SOS** · ***"Betty. Milo. Whatever sos words"*** ·
+> *"Please SOS"* · *"Dan please"* · *"Help me"* ·
+> *"Dan please I'm begging i need help"* · *"Soar"* · **SOS**
+
+*"Betty. Milo. Whatever sos words"* is an attempt to authenticate herself over
+a compromised channel by naming the two dogs — the one shared referent she
+could be sure no one else would produce. It is the exact inverse of the
+July 2026 function: there, the dog was the pretext that let contact resume;
+here, the dog is the password.
+
+Dan answered at 23:40 — *"what"* — seventy-two minutes after the first SOS,
+having blocked and unblocked in between. Nothing in any source says what
+happened next. See [[wiki/timeline/events/august-2026-morgantown-call]].

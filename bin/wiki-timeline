@@ -40,6 +40,7 @@ Usage:
 """
 
 import argparse
+import json
 import os
 import random
 import re
@@ -299,6 +300,40 @@ def parse_date(text):
     return None
 
 
+def load_retracted_patterns():
+    """Compile every pattern in RETRACTED.md.
+
+    The generated timeline is the one place a retracted claim can come back to
+    life without anyone editing a page: it copies sentences verbatim out of 341
+    source pages, and that copy lands outside the correction blockquote — and
+    outside the `documented_on` exemption — that made the original legal. So the
+    generator refuses to emit any event whose text matches a retracted claim.
+    Both readings of such a sentence justify the same call: it is either the
+    dead claim itself, which must not propagate, or a page narrating its
+    retraction, which is wiki edit history and never a life event.
+    """
+    path = os.path.join(ROOT, "RETRACTED.md")
+    if not os.path.exists(path):
+        return []
+    with open(path, encoding="utf-8", errors="replace") as fh:
+        raw = fh.read()
+    pats = []
+    for block in re.findall(r"^```json\n(.*?)^```", raw, re.S | re.M):
+        try:
+            entry = json.loads(block)
+        except json.JSONDecodeError:
+            continue                      # bin/wiki-lint is the ledger's gate
+        for pat in entry.get("patterns") or []:
+            try:
+                pats.append((entry.get("id", "?"), re.compile(pat, re.I)))
+            except re.error:
+                continue
+    return pats
+
+
+RETRACTED_PATTERNS = load_retracted_patterns()
+
+
 def reject_reason(text, date_prec, kind="prose"):
     """Return a rejection reason string, or None if the text is a real event.
 
@@ -308,6 +343,10 @@ def reject_reason(text, date_prec, kind="prose"):
     """
     t = norm_ws(text)
     low = t.lower()
+
+    for rid, pat in RETRACTED_PATTERNS:
+        if pat.search(t):
+            return f"retracted claim ({rid})"
 
     min_chars, min_words = (10, 2) if kind in ("table", "list") else (24, 4)
     if len(t) < min_chars:
@@ -587,7 +626,9 @@ def cmd_generate(_args):
     # have. The provenance of every entry is the ↳ link on the entry itself.
     out.append("sources:")
     out.append("  - generated from every page under the wiki by bin/wiki-timeline")
-    out.append("tags: [timeline, master, chronology, generated]")
+    # no tags: the closed topical set in STYLE_GUIDE.md does not describe a
+    # generated navigation artifact, and tags: is optional (bin/wiki-lint errors
+    # on anything outside the set).
     out.append("connections:")
     out.append("  - page: wiki/timeline/index")
     out.append("    type: component-of")

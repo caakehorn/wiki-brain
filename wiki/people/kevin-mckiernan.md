@@ -38,6 +38,9 @@ connections:
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: evidences
     claim: "McKiernan is the best-corroborated antagonist in the corpus for this pattern below the 2026 BFS case — Dan's own 2012 emails document a real payroll dispute, a real whistleblower disclosure, and a real retaliatory false statement, filed with the IRS, NYS Dept of Labor, and LinkedIn respectively, and Dan's own later testimony confirms he cited a real (if unverified in its specifics) airfare billing issue as the trigger."
+  - page: wiki/people/renae-holland
+    type: co-occurs
+    claim: "Renae is the corroborating witness for Dan's whistleblower account: 'in my time there I was Kevin falsify more documents than I can count — I know what he is capable of,' an independent claim from her own tenure at the company that matches Dan's."
 ---
 
 # Kevin McKiernan

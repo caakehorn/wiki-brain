@@ -5,7 +5,7 @@ title: "The Instrument Is Also the Subject"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-16
+date_modified: 2026-08-21
 synthesizes:
   - wiki/mind/synthesis/ai-collaborative-analysis
   - wiki/mind/synthesis/ancestral-dialectic
@@ -34,9 +34,34 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "This wiki being written by the instrument it is auditing, using an evidentiary standard its subject authored, is 'The Irreversibility Firewall's' most recursive instance — and the reason that page's own provenance had to be corrected in public rather than quietly."
+  - page: wiki/mind/concepts/the-handed-mirror
+    type: instance-of
+    claim: "A wiki about Dan, built from his own records and published where models will read it, is the handed-mirror behavior industrialized and turned on its own author — the one recipient in the pattern who consented."
+  - page: wiki/mind/synthesis/the-commissioned-self
+    type: instance-of
+    claim: "The recursion this page names at the level of authorship has a second loop underneath it: the psychological layer the wiki reasons from was itself commissioned by the subject, over corpora he chose, under instructions he wrote — so there is no independent observer at any point in the stack, and the seven frameworks' agreement carries almost no information."
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: instance-of
+    claim: "The methodological consequence of this page: because LLM use is a documented daily organ of the subject, the same class of tool cannot serve as an independent observer of him, and interpretive output must carry provenance upward through every climb."
+  - page: wiki/mind/synthesis/ancestral-dialectic
+    type: instance-of
+    claim: "This page is the worked example of the provenance rule: an interpretive frame that arrived knowledge: mixed and must not have that status laundered by anything that later reasons from it."
 ---
 
 # The Instrument Is Also the Subject
+
+> **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/mind/concepts/exocortex]] (2026-08-20). Moved by one typed-edge addition only, pointing at [[wiki/mind/concepts/document-fabrication]]. Re-read against
+> the change; **no claim on this page is affected** and nothing here is
+> withdrawn. The edge does add a genuinely new output class to the toolchain — a counterfeit institutional document — and a later pass may find that it belongs in this page's argument, since an instrument that can manufacture its own evidence is a sharper case of the instrument being the subject than anything currently cited here. It is flagged rather than annexed: one instance is not a finding.
+
+> **RE-CHECKED [2026-08-21] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/ai-collaborative-analysis]] moved on 2026-08-21 in one
+> typed-edge claim only: the ChatGPT edge now records that the 'cooked'
+> verdict's post-GPT-5 causation is untested, because the 375-thread export
+> ends five weeks before the release. That sharpens an example this page cites
+> in passing and leaves its argument — that the instrument and the subject are
+> the same person — untouched.
+
 
 
 > **RE-CHECKED [2026-08-16] — premise moved, conclusion unaffected.**

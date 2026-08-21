@@ -16,6 +16,9 @@ connections:
   - page: wiki/mind/concepts/forensic-method
     type: instance-of
     claim: "CATO's evidence-first, no-sycophancy, glyph-enforced operating mode is the forensic-method cognitive OS deliberately pasted into an AI session as a standing configuration, rather than left as a default disposition."
+  - page: wiki/mind/concepts/forensic-method
+    type: component-of
+    claim: "CATO's evidence-first, no-sycophancy, glyph-enforced operating mode is the forensic-method cognitive OS deliberately pasted into an AI session as a standing configuration, rather than left as a default disposition."
 tags: [ai-collaboration, forensic-analysis, digital-footprint, politics, personality-profile]
 ---
 

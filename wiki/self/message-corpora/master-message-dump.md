@@ -3,7 +3,7 @@ domain: self
 page_type: report
 status: archived
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-18
 sources: ["raw/self/dox-scan/all_imessages_complete_dump.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/message-csv/MASTER_DUMP_PART_1_ARCHAIC.csv", "raw/self/message-csv/imessage_2124702449_both_all_now.csv", "raw/self/message-csv/imessage_3307038747.csv", "raw/self/message-csv/* (37 total CSVs)", "raw/self/dox-md/operating_manual.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/messages/", "raw/self/dox-md/_ⒺⓍⓉⓇⒶⒸⓉ ⓂⒺⓈⓈⒶⒼⒺⓈ Pinned chat.md", "raw/self/dox-md/Gemini-_18.md"]
 related: ["wiki/self/context-core", "wiki/self/twitter", "wiki/self/youtube-watch-history", "wiki/self/favorites", "wiki/mind/concepts/forensic-method", "wiki/mind/concepts/contact-gini", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/facebook/messages", "wiki/timeline/events/timeline", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/people/annie-ulmer"]
 tags: [digital-footprint, nyc-era, relationships, financial-stress, trauma-bond]
@@ -20,6 +20,15 @@ connections:
   - page: wiki/mind/synthesis/message-circadian-latency
     type: contains
     claim: "The circadian/latency page is a primary analytical cut of this corpus, recomputed row-level."
+  - page: wiki/people/casey-bondarenka
+    type: evidences
+    claim: "The 36-message thread is marked \"Received\" throughout in this export, which is why direction here is read as one-way rather than trusted."
+  - page: wiki/people/emaly-minerd
+    type: evidences
+    claim: "The 613-message thread on +172****5006 carries the five-month 2018-19 arc; the August 2019 revival and the September 2020 Facebook coda come from separate exports, which is why the relationship reads as three bursts rather than one run."
+  - page: wiki/people/trinity-st-clair
+    type: evidences
+    claim: "The direct thread (+18186510883, 20 messages) is too ambiguous to settle whether the tryst happened — two cancellations and a delay — and it took a separate message to Eric Jester in the same dump to confirm that it did."
 ---
 
 
@@ -87,7 +96,7 @@ Top handles by volume (approximate counts; Annie dual handles dominant):
 | 5 | +17249987341 | 4,160 | Tom (+17249987341 per operating_manual) — supply/anchor |
 | 6 | annieulmr@aol.com | 3,645 | Annie email variant |
 | 7 | +17243223678 | 3,462 | Johnny (dealer era per manual) |
-| 8 | +17243228715 | 2,391 | Suz (mom) |
+| 8 | +17243228715 | 2,391 | Suz (mom) — **undercount; see note below** |
 | 9 | +13476070497 | 1,753 | NYC delivery dealer ("Menore", 2018–2020) |
 | 10 | phloxenheim@gmail.com | 1,603 | Email contact |
 | 11 | +17249204125 | 4,812 | Frequent PA contact (heavy Johnny/Annie logistics facilitation 2018-19; "Hi b I gots a new phone") |
@@ -133,9 +142,19 @@ Ties FB ihatedanfrank archive (groups/your_posts_in_groups, events/event_invitat
 
 Named contacts extracted from the master dump that have their own page but do not meet the full-person-page threshold. They exist as lightweight entity pages rather than in the hash-stub quarantine:
 
-[[wiki/people/aaron]] · [[wiki/people/brian]] · [[wiki/people/bruceburish]] · [[wiki/people/james]] · [[wiki/people/jess]] · [[wiki/people/josh-brannan]] · [[wiki/people/marla]] · [[wiki/people/michael-hinkle]] · [[wiki/people/ryan-lisac]] · [[wiki/people/shannon]] · [[wiki/people/trinity-st-clair]] · [[wiki/people/urpaaa-at-yahoo-com]] · [[wiki/people/zaco]]
+[[wiki/people/aaron]] · [[wiki/people/brian]] · [[wiki/people/bruce-burish]] · [[wiki/people/james]] · [[wiki/people/jess]] · [[wiki/people/josh-brannan]] · [[wiki/people/marla]] · [[wiki/people/michael-hinkle]] · [[wiki/people/ryan-lisac]] · [[wiki/people/shannon]] · [[wiki/people/trinity-st-clair]] · [[wiki/people/urpaaa-at-yahoo-com]] · [[wiki/people/zaco]]
 
-The 97 auto-generated hash stubs (contacts ≥20 msgs, non-spam) are quarantined in [[wiki/people/contacts/]]. Two high-volume unidentified handles remain flagged for future ID: +17249204125 (~4.8k msgs, PA facilitation) and +17248808111.
+> **CORRECTED [2026-08-20]:** this paragraph read *"The 97 auto-generated hash
+> stubs (contacts ≥20 msgs, non-spam) are quarantined in
+> `[[wiki/people/contacts/]]`."* **That directory does not exist** and has not
+> since the quarantine was dissolved — `BACKLOG.md` already records
+> `contact-review.md` as "a worksheet for a quarantine that no longer exists."
+> The link had been rendering broken on the site ever since.
+
+Two high-volume unidentified handles remain flagged for future ID:
+`+17249204125` (**9,481 msgs** — 4,669 sent, 4,812 received; the 4.8k figure
+this page previously carried was the received-only count, corrected
+2026-08-20 on [[wiki/people/annie-ulmer]]) and `+17248808111`.
 
 ## Next Steps in Ingest
 Further dumps (imessage_*_both_*.csv variants) provide sent/received splits, last-6-months slices, group chat drama (annie_group_chat_drama.csv), THE END FIGHT. Full FB posts/groups cross for events.
@@ -145,3 +164,14 @@ Cross-references: [[wiki/self/context-core]], [[wiki/mind/concepts/forensic-meth
 **Sources:** raw/self/message-csv/* (37 files), raw/self/dox-md/operating_manual.md, raw/self/context-core/CONTEXT_CORE_EXPANDED.md, raw/self/facebook/facebook-ihatedanfrank/messages/ and groups/events htmls for cross.
 
 A primary analytical cut of this corpus — circadian rhythm, reply latency, and per-contact volume trajectories, recomputed row-level with the direction-field bug sidestepped via the Leviathan sender field — lives at [[wiki/mind/synthesis/message-circadian-latency]].
+
+> **CORRECTED [2026-08-18]:** Row 8 of the rank table above is a good worked
+> example of what this file gets wrong. `MASTER_MESSAGES_DB_DUMP.csv` records
+> **2,391** messages for `+17243228715`. The authoritative
+> `all_imessages_complete_dump.txt`, joined to the 2026-08-13 deep export for the
+> window after 2025-08-10, records **33,698** — a fourteen-fold undercount that
+> moved [[wiki/people/suzanne-frank|Suz]] from roughly eighth place to second in
+> the entire corpus. The error propagated to
+> [[wiki/mind/concepts/contact-gini]] and to her own page, where it sat as the
+> headline corpus statistic for two months. Treat every volume figure sourced to
+> the master CSV as a floor pending recount.

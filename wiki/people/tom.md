@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-18
+date_modified: 2026-08-18
 sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_ALL_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/Cash register shortage explanation.md", "raw/self/dox-md/_Deconstructing a Chaotic 24 Hours .md"]
 tags: [addiction-recovery, dui, ai-collaboration, relationships, mental-health]
 infobox:
@@ -43,6 +43,24 @@ connections:
   - page: wiki/people/johnny-dealer
     type: follows
     claim: "Tom succeeded Johnny (via the undocumented Tim) as primary strip source by 2025 — the succession from transactional dealer to friendship-embedded friend-supplier that exposed the network to the owe-and-silence failure mode."
+  - page: wiki/timeline/events/james-analysis-pdf
+    type: follows
+    claim: "Ninety-five minutes after James closed the channel, Dan pasted the model's post-mortem of the rupture into this thread, making Tom the first reader of the analysis of a failed analysis."
+  - page: wiki/people/james-dee
+    type: co-occurs
+    claim: "Tom's May 2025 line — that hanging out with Danielle and her boyfriend was 'enough to scare me off' — is the only outside assessment of James in the corpus, and it predates Dan's own by six weeks."
+  - page: wiki/self/concepts/claude
+    type: co-occurs
+    claim: "The March 2026 phloxenheim thread is where Dan states his model division of labor out loud — 'Claude = to analyze stuff, gemini = interact with it' — and where Tom, using the tools on his own material, independently reports back that Claude beat GPT on the Kristin logs: the corpus's only outside assessment of the instruments the wiki is built with."
+  - page: wiki/interests/extreme-sports
+    type: co-occurs
+    claim: "Tom Maison entered Dan's life post-extreme-sports era (friendship dated to roughly 2010), so his documented record does not overlap the freeskiing/inline years — the shared Uniontown terrain-park world is a background condition, not a jointly documented episode."
+  - page: wiki/health/cocaine
+    type: evidences
+    claim: "Tom is the long-term friend-supplier whose cocaine provision ran alongside strips, mushrooms, and klonopin — and whose May 2026 no-show left Dan in withdrawal that framed the entire BFS drawer incident."
+  - page: wiki/people/matt-kraus
+    type: co-occurs
+    claim: "Both Matt Kraus and Tom Maison appear in the same adolescent Seven Springs scene — shared terrain, shared years — but their documented records are non-overlapping (Kraus: pre-2010; Tom: post-2010), so the shared mountain is a background condition, not a jointly documented episode."
 ---
 
 

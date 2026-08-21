@@ -3,7 +3,7 @@ domain: interests
 page_type: entity
 status: active
 date_created: 2026-07-16
-date_modified: 2026-07-16
+date_modified: 2026-08-19
 sources:
   - "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
@@ -15,6 +15,13 @@ related:
   - wiki/interests/favorites/music/artists/fall-out-boy
 
 tags: [ideology, politics, personality-profile]
+connections:
+  - page: wiki/mind/synthesis/the-cato-seat
+    type: component-of
+    claim: "Vidal is the type specimen of the corpus's one identification figure: right about the empire for fifty years, changed nothing, and used as a litmus test on strangers — so recognising him is recognising the seat rather than sharing a politics."
+  - page: wiki/interests/roman-republic
+    type: parallels
+    claim: "Vidal is the earlier Rome-and-empire fixation; the 2024 binge re-runs the same imperial-decline preoccupation through history rather than fiction."
 ---
 
 # Gore Vidal

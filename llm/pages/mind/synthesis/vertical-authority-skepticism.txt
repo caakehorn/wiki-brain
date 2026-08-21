@@ -5,7 +5,7 @@ knowledge: earned
 title: "Vertical Authority Skepticism"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-11
+date_modified: 2026-08-19
 sources:
   - raw/people/captures/2026-08-11_051311_rick-childhood-control-and-humiliation.md
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
@@ -23,7 +23,7 @@ connections:
   - page: wiki/mind/synthesis/the-embedded-objective
     type: parallels
     claim: "Refusal is only half the repertoire — where a vertical claim pays, Dan accepts the role and runs a private objective inside it instead of rejecting it, which is evasion by occupation rather than by exit."
-  - page: wiki/people/diane-shrum
+  - page: wiki/people/diane-moore
     type: evidenced-by
     claim: "The April 2018 letters are the template at family scale: authority exercised through paperwork, monitors and advance written requests by people who, on the caregivers' own account, did not visit Fran once."
   - page: wiki/mind/synthesis/the-deferred-audit
@@ -68,6 +68,33 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "The vertical axis is distrusted first and hardest because auditing it is free — the finding never lands on Dan — which is 'The Irreversibility Firewall's' fourth prediction; this page's two independently-dated origins (the 2005 concealed-reality hinge, and a childhood pattern of public confrontation) both teach that externally-imposed claims arrive already exposed."
+  - page: wiki/people/dave-moore
+    type: evidenced-by
+    claim: "A man with no blood tie to the dying woman and no role in her care, speaking for the heir to hospital social workers and drafting the correspondence, is the template's purest family-scale instance."
+  - page: wiki/mind/synthesis/the-cato-seat
+    type: caused-by
+    claim: "This page derives the distrust of the vertical axis from psychometrics and dated incidents; the taste record supplies what the distrust is populated with — an entire curated culture of accurate observers who were right about power and destroyed by it, which is where a Trust score of 9 becomes a self-image."
+  - page: wiki/places/90th-st-manhattan
+    type: instantiates
+    claim: "The February 2012 Creative License exit — a six-week final-paycheck dispute, a whistleblower disclosure about altered intern contracts, and a retaliatory notarized false LinkedIn claim, per the operator's own recovered Gmail record — is the first well-documented vertical-authority-to-detonation event in the corpus, recurring at BFS Foods fourteen years later."
+  - page: wiki/timeline/periods/2021-2023-employment-block
+    type: evidenced-by
+    claim: "The period supplies the model's richest workplace data: the one loved manager (Dimitri, lateral 'a real person'), the surveilled-owner vertical axis, and Dan's own documented sabotage of the institution he audited."
+  - page: wiki/mind/concepts/institutional-out
+    type: instantiates
+    claim: "The pre-installed escape mechanism is the workplace expression of the architecture that refuses every vertical claim on his time — the same refusal, deployed on hire as protocol."
+  - page: wiki/people/anita
+    type: evidenced-by
+    claim: "Anita is a textbook exhibit of the vertical-suspect pattern — an authority whose claims are narrative-shaped rather than evidence-shaped, backed by control of the levers rather than by records."
+  - page: wiki/people/kevin-mckiernan
+    type: evidenced-by
+    claim: "McKiernan is the best-corroborated antagonist in the corpus for this pattern below the 2026 BFS case — Dan's own 2012 emails document a real payroll dispute, a real whistleblower disclosure, and a real retaliatory false statement, filed with the IRS, NYS Dept of Labor, and LinkedIn respectively, and Dan's own later testimony confirms he cited a real (if unverified in its specifics) airfare billing issue as the trigger."
+  - page: wiki/people/tarik-fallous
+    type: evidenced-by
+    claim: "The direct correspondence — grocery-run errands, hiring coordination, a payroll dispute, and warm post-termination contact running to April 2026 — shows Dan distinguishing the individual (genuine affection for Tarik) from the institution (the 'decentralized audit' skepticism of ownership generally), complicating a simple anti-authority read of the Au Za'atar years."
+  - page: wiki/people/brandon-hill
+    type: evidenced-by
+    claim: "Brandon is the bottom-layer execution of an off-books extraction he doesn't fully understand — the sympathetic face of a structurally coercive arrangement."
 ---
 
 

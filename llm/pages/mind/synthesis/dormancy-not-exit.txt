@@ -6,7 +6,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-15
+date_modified: 2026-08-21
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -16,6 +16,7 @@ synthesizes:
   - wiki/timeline/events/july-august-2026-reentanglement
   - wiki/people/alexis-armel
   - wiki/people/danielle-onesi
+  - wiki/people/james-dee
   - wiki/places/424-bedford-ave
   - wiki/people/menore
   - wiki/people/franki-faris
@@ -39,6 +40,9 @@ connections:
   - page: wiki/people/alexis-armel
     type: instance-of
     claim: "The case that rules out mere passivity: Alexis is re-roled twice after the 2015 breakup — paid into the November 2018 arrangement with her own successor, then carried as a warm five-year correspondence to 2025 — so retention here is something Dan actively does, not something that happens to him."
+  - page: wiki/people/james-dee
+    type: instance-of
+    claim: "The first case ever documented inside this page's tenure gap — 56 days, ended by the corpus's most abrupt rupture — and it neither vanished like Franki nor re-roled like Danielle: it produced residual contact without a new job, which locates the floor below 56 days and shows it is a gradient rather than a line."
   - page: wiki/places/424-bedford-ave
     type: instance-of
     claim: "The rule is not confined to people: a residence closed in 2012 keeps producing, because the Menore supply line it originated reactivates six years later and runs to 2025 — the address stops being a home and becomes a permanent origin node."
@@ -60,18 +64,51 @@ connections:
   - page: wiki/timeline/events/franki-fireworks-day-2013
     type: contradicts
     claim: "The capture attaches five days to Alexis's stay at 155 Virginia Ave, not to Franki's tenure, which puts this page's only quantity — the number defining its tenure floor — in question while leaving the qualitative control intact."
+  - page: wiki/people/ally-lubin
+    type: instantiates
+    claim: "The channel never closes and never has to — but the operator's 2026-08-20 answer puts a boundary on the rule: the June 1, 2026 burst went to an email handle Ally does not monitor and was never delivered, and she had concluded she was blocked. At least one silence in this tie is a routing artifact rather than dormancy, so a gap is not evidence of the rule until the handle it was sent to is checked."
   - page: wiki/mind/synthesis/block-unblock-loop
     type: contradicts
-    claim: "That page scores Menore's February 2025 farewell as the record's only fully clean closure, but the same channel had already gone silent for 2,044 days under identical structural conditions and reopened — so its cleanest control is provisional on elapsed time rather than settled."
+    claim: "That page scores Menore's February 2025 farewell as the record's only fully clean closure, but the same channel had already gone silent for 2,044 days and reopened, its second 1,458-day silence turned out to be a phone-number change with service running underneath, and the operator confirms Menore still operating in 2026 — the cleanest control is provisional on elapsed time, not settled."
   - page: wiki/mind/synthesis/bond-switch-2015
     type: parallels
     claim: "The switch documents the primary slot changing hands inside a single month; this page documents that the person leaving the slot stays in the graph, which is why a swap that fast costs nothing to execute."
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "'Nothing leaves this graph' is 'The Irreversibility Firewall's' no-delete prediction stated as its own rule: leaving is exactly the irreversible act the firewall exists to prevent, so every documented 'ending' turns out to be a role change with reactivation bandwidth retained."
+  - page: wiki/self/concepts/ally-and-dan-love-as-destiny
+    type: instance-of
+    claim: "The Ally channel is the rule's longest-running case — thirty-eight and fourteen-month silences that closed nothing, then an August 2026 reactivation at the highest amplitude yet, which that page reads as a phase change and this rule reads as the pattern running normally."
 ---
 
 # Dormancy, Not Exit
+
+> **RE-CHECKED [2026-08-20] — a live test of this page's central rule opened
+> four days ago, and the page must not pre-score it.** Flagged stale against
+> [[wiki/mind/synthesis/the-unbroken-bond]] (2026-08-20), which itself moved for
+> the August 16–19 severance
+> ([[wiki/timeline/events/august-2026-morgantown-call]]). The Annie relationship
+> closed on 2026-08-19; the record stops mid-exchange at 15:15:33.
+> **CORRECTED the same day, before this block was relied on:** it first read
+> *"the first closure in the corpus that carries no condition."* A close re-read
+> of the day shows the declared block at 15:07:37 was **not executed** — seven
+> further messages from Dan, one from Annie that he answers — and that 15:09:01
+> reopens a condition outright (*"You could still not do the wrong thing"*).
+> What is genuinely novel, and is the thing this page's dormancy/exit boundary
+> should actually turn on, is at 14:53:25: Dan closes **the re-entry channel**
+> in advance — *"Do NOT ever think that enough time has passed that now you can
+> tell me… when something happens to Milo"* — which is precisely the vector the
+> July 2026 reopening used after fifty-two days. A dormancy is a silence with
+> the door unlatched; this is the first time in the corpus anyone has named the
+> latch. **No finding here is
+> withdrawn and none is confirmed.** Four days is not a dormancy and it is not
+> an exit — this page's own floor, narrowed to seven weeks by the James Dee
+> case, is more than ten times the elapsed time. Recorded so the next pass
+> reaches for it deliberately: if contact resumes, this is the strongest
+> dormancy datum in the wiki; if it does not, by roughly 2027-02-19 it is the
+> first attested exit, and both readings are cheap to check because the
+> reopening or its absence will be visible in one export.
+
 
 **Nothing leaves this graph.** Every sustained relationship in the corpus that
 the record describes as "over" is, on inspection, not over — it has changed
@@ -92,12 +129,15 @@ people who have vacated it — and finds that they are all still here.
 | [[wiki/people/danielle-onesi]] | 2009 (Dan's infidelity) | Suzanne's closest friend; cat co-guardian; Christmas fixture | **17 years, unbroken** |
 | [[wiki/people/alexis-armel]] | Dec 2015 (Dan left for Annie) | Paid participant in the 2018 arrangement; warm correspondence to Feb 2025 | **~10 years** |
 | [[wiki/places/424-bedford-ave]] | 2012 (moved out) | Origin node of the Menore supply line, live to 2025 | **13 years** |
-| [[wiki/people/menore]] | Apr 2013 (Dan leaves NYC) | Dormant, then reactivated Nov 2018; ran to Feb 2025 | **12 years, one gap** |
+| [[wiki/people/menore]] | Apr 2013 (Dan leaves NYC) | Dormant, then reactivated Nov 2018; ran continuously to Feb 2025 — and the counterparty is **confirmed still operating in 2026** | **12 years, one gap** |
 | [[wiki/places/155-virginia-ave]] | — | Container retained across the occupant swap | — |
+| [[wiki/people/james-dee]] | Jul 2025 (56 days) | Residual contact only — two unanswered writes, then one in-person confrontation | **~2 months, then thin** |
 | [[wiki/people/franki-faris]] | 2013 (5 days) | **Nothing.** No corpus, no trace, `status: closed` | **none** |
 
-Five of the six carry the rule. The sixth is the control, and it is what makes
-the rule a claim rather than a mood.
+Five of the seven carry the rule outright. One is the control, and it is what
+makes the rule a claim rather than a mood. The seventh —
+[[wiki/people/james-dee]], added 2026-08-18 — sits between them, and is the
+first case the page has ever had inside its own tenure gap.
 
 ## Why the endings are not endings
 
@@ -279,8 +319,61 @@ page describes, and its presence in the control is what makes the contrast legib
 
 So the rule has a floor: **retention is earned by sustained tenure, not granted
 to everyone who passes through.** Where exactly the floor sits is not
-established — five days is below it and six years is above it, and there is no
-documented case in between. That gap is real and is named again under Gaps.
+established — five days is below it and six years is above it. As of
+2026-08-18 there is now exactly one documented case in between, and it is
+handled in the re-check immediately below.
+
+> **RE-CHECKED [2026-08-18] — the tenure gap has its first occupant, and the
+> floor turns out to be a gradient rather than a line.**
+> [[wiki/people/danielle-onesi]] moved on 2026-08-18 for the James Dee ingest.
+> The change that matters here is not on her page but in what it uncovered:
+> [[wiki/people/james-dee]], a **fifty-six-day** tie running May–July 2025,
+> ended on 2025-07-11 by the most abrupt rupture in the corpus — twelve minutes
+> from Dan sending a psychological profile of James to James to *"OK, you can
+> quit MASS texting me"* ([[wiki/timeline/events/james-analysis-pdf]]).
+>
+> **Why this section owns it.** The paragraph above has said since 2026-08-01
+> that no case exists between the five-day control and the six-year members.
+> This is that case, and it arrived without anyone noticing it was one.
+>
+> **What it shows, stated against what this page expected.** The rule predicts
+> either non-persistence (below the floor) or re-roling (above it). James
+> delivers **neither cleanly.** He wrote twice after the rupture — 07-18,
+> *"I think we should talk in person"*; 07-21, a long redemptive address — and
+> both went unanswered across three weeks of documented corpus coverage. Then
+> the tie resumed anyway, in person, in a basement confrontation over a new song
+> that Dan dates by his own anchor to **August–September 2025** (inferred, not
+> dated). So the node was not deleted — the falsifier for this page — but it was
+> not given a new job either. It went to **residual contact: reactivation
+> bandwidth retained at low amplitude, with no role attached.**
+>
+> **The floor moves, and its shape changes.** The bracket was five days to six
+> years — a span of three orders of magnitude. It is now five days to
+> fifty-six, because retention of *some* kind is demonstrated at fifty-six.
+> More usefully, the floor is no longer a threshold with nothing on one side and
+> a structural tie on the other: there is a middle state, and this page had no
+> vocabulary for it. **Franki is deletion, Danielle is reassignment, James is
+> suspension without reassignment** — which is precisely the *suspend* primitive
+> the 2026-08-13 correction argued the graph implements. The best available
+> instance of that correction's central claim was sitting unwired in the corpus
+> for five days.
+>
+> **What it does not do.** It does not falsify anything. Falsifier 1 requires a
+> sustained role of more than a few months vanishing cleanly; fifty-six days is
+> not sustained by that definition and the tie did not vanish. It also does not
+> settle direction: **the reactivation was James's initiative, not Dan's**, and
+> Dan describes having *"been just ignoring his text's for the most part."* A
+> reader should not score this as Dan exercising a retention policy. It is the
+> weaker claim — that the channel stayed openable — and the page should not
+> quietly upgrade it.
+>
+> **A prediction it generates.** If suspension-without-reassignment is a real
+> third state rather than an artifact of one thin case, other short-tenure ties
+> in the corpus should show the same shape: silence that is not closure, broken
+> by the counterparty rather than by Dan. That is testable against the 193
+> non-responders named in Falsifier 3, and it is a sharper test than the one
+> already queued there — those handles should divide by tenure, not by whether
+> they were ever answered.
 
 > **CONTRADICTION [2026-08-02] — the "five days" may not be Franki's at all.**
 > An operator capture ingested on 2026-08-02
@@ -405,9 +498,14 @@ documents across different people.
 
 ## Gaps
 
-- **The tenure floor is undetermined.** Five days does not persist; six years
-  does. No case between those bounds has been examined, so "sustained" is doing
-  work the corpus has not yet defined.
+- **The tenure floor is undetermined, but the bracket has narrowed by three
+  orders of magnitude.** Five days does not persist; fifty-six days persists
+  *residually* ([[wiki/people/james-dee]], added 2026-08-18); six years
+  re-roles. So "sustained" is still undefined, but it is now known to be doing
+  its work somewhere inside a seven-week window rather than a six-year one —
+  and the James case says the transition is gradual, not a threshold. What is
+  now missing is a case between fifty-six days and six years, to establish
+  where *residual contact* becomes *reassignment*.
 - **Survivorship is a live threat to member selection.** The corpus preserves
   what Dan kept. A relationship that ended and vanished would leave no page, and
   its absence would look exactly like it never existed. Prediction 2 is the way

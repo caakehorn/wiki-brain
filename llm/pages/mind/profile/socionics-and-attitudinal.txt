@@ -5,7 +5,7 @@ title: "Socionics ILI-Ni, Attitudinal Psyche & Alignment"
 aliases: ["ILI", "Balzac", "the Critic", "FLEV", "VLEF", "Chaotic Neutral"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-08-19
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-scan/Dan Profile.txt
@@ -19,6 +19,12 @@ connections:
   - page: wiki/mind/concepts/forensic-method
     type: evidences
     claim: "The ILI-Ni 'Ni leak' — pattern-hunting that runs more prophecy than a textbook INTP's Ti-Ne — is the trait-level substrate for the anomaly-detection engine the forensic-method page names as Dan's cognitive default."
+  - page: wiki/mind/synthesis/the-commissioned-self
+    type: component-of
+    claim: "Three further frameworks on one subject bring the total to seven, and 'socionics' returns zero hits in 217,573 messages — the framework count is a fact about how often Dan commissions instruments on himself, not about how much he talks in their terms."
+  - page: wiki/mind/synthesis/the-cato-seat
+    type: evidences
+    claim: "The ILI-Ni reading — predictions that forecast decline and systemic failure, calm in disaster because the simulation already ran — gets its first confirmation from residue rather than from an instrument: a favorites record assembled for pleasure that contains no victory, no construction and no arrival."
 ---
 
 # Socionics ILI-Ni, Attitudinal Psyche & Alignment

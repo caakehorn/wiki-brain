@@ -6,7 +6,7 @@ aliases: ["the unevaluated domain", "food as everything but taste"]
 status: active
 knowledge: earned
 date_created: 2026-07-25
-date_modified: 2026-08-11
+date_modified: 2026-08-21
 sources:
   - raw/self/captures/2026-08-01_154556_picky-eater.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -53,6 +53,9 @@ connections:
   - page: wiki/self/youtube-watch-history
     type: evidenced-by
     claim: "The word 'diet' survives in the corpus mainly as metaphor — media diet, information diet — which is the register the literal sense was vacated from."
+  - page: wiki/health/the-configured-body
+    type: parallels
+    claim: "The composition regime and the substance stack are one faculty measured in two domains: an absolute rule about what may enter, enforced without negotiation on a plate and in a bloodstream alike, which is why food looks like pickiness and behaves like the Suboxone floor."
 ---
 
 # Food and Diet
@@ -64,6 +67,16 @@ It is region, in the form of a funeral cookie retold for thirty years. It is
 metaphor, in "information diet" and in "the food and the cat are always real."
 It is even permanent body art. **What it never is, anywhere in the record, is
 something he has an opinion about.**
+
+> **RE-CHECKED [2026-08-21] — premise moved, conclusion unaffected.**
+> [[wiki/work/au-zaatar]] moved on 2026-08-21 and [[wiki/work/bfs-foods]] on
+> 2026-08-20. Au Za'atar's change is confined to its Menore supply edges — the
+> mid-shift delivery window is now corroborated for 2021–24 — which is a
+> supply-chain fact about the workday, not a food one. BFS moved for the
+> 2026-08-11 job restoration, an employment fact. This page uses Au Za'atar as
+> the labour register's strongest control (forty-one months of daily exposure
+> that produced affection for the culture and none for the cuisine); neither
+> movement touches that reading.
 
 That absence is the finding, and it is not an absence of contact. It sits
 directly against [[wiki/mind/concepts/the-cool-metric]], which documents a single

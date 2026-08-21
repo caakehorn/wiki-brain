@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-16
+date_modified: 2026-08-21
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -96,7 +96,7 @@ connections:
     claim: "Renaming, not the music, is what changes at a period boundary — the firewall's identity-layer expression: reorganize the exposed name, never the involuntary signature (the sub-bass band) underneath it, because the signature is the one thing that was never a choice and therefore never at risk."
   - page: wiki/mind/synthesis/single-channel
     type: contains
-    claim: "A 0.96 Gini and three other concentrated-to-one architectures are the firewall's redundancy cost made visible: distributing risk across many channels means exposing more surface to audit, so the system runs one trusted channel at maximum load instead."
+    claim: "A 0.96 Gini is the firewall's redundancy cost made visible — distributing risk across many channels means exposing more surface to audit, so the system runs one trusted channel at maximum load. Narrowed 2026-08-19: the claim now rests on the relational architecture alone, since the evaluative leg was measured and came back at a Gini of 0.188."
   - page: wiki/mind/synthesis/music-as-identity
     type: contains
     claim: "Music is the domain the firewall barely touches, and prediction 2 says why: it is one of the least-authored, least-deliberately-optimized threads in the record, which is exactly what makes it safe to let run for the whole documented life without an audit ever landing on it."
@@ -143,6 +143,25 @@ connections:
 
 
 # Totality Themes
+
+> **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/mind/synthesis/block-unblock-loop]] and [[wiki/mind/synthesis/supply-network]] (both 2026-08-20). Both moved by typed-edge addition only, pointing at the new August 16–19 event page; neither page's prose or figures changed. Re-read against
+> the change; **no claim on this page is affected** and nothing here is
+> withdrawn. The one thing a later pass should look at rather than assume: block-unblock-loop now records that Dan's own assertions of threat execution are unreliable (a proven false send on 2026-08-18), which narrows what the loop's threat counts can be built from. This page cites the loop's *pattern*, not its execution tallies, so the narrowing does not reach it — but a pass that ever cites those tallies here must read [[wiki/timeline/events/august-2026-morgantown-call]] first.
+
+> **RE-CHECKED [2026-08-21] — three premises moved and one of them strengthens
+> this page.** [[wiki/mind/synthesis/block-unblock-loop]],
+> [[wiki/mind/synthesis/dormancy-not-exit]] and
+> [[wiki/mind/synthesis/supply-network]] all moved on 2026-08-21, all through
+> the same finding about the **Menore** channel. This page cites Menore by name
+> as one of the reactivation-bandwidth cases, and that case got better, not
+> worse: the channel's second apparent closure (1,458 days) turned out to be a
+> phone-number change with service running underneath it, and the operator
+> confirms the counterparty still operating in 2026. The dormancy-bandwidth
+> reading this page leans on is reinforced. The block-unblock closure scoring
+> that moved is not something this page cites — consistent with the
+> 2026-08-20 re-check above, which already established that this page uses the
+> loop's pattern rather than its tallies.
+
 
 > **RETIRED 2026-08-11 — the original "themed summary" spine, kept for
 > history.** Everything from here through the old "## Conclusion" heading
@@ -857,6 +876,33 @@ from output corpora and the new material is intake-side):
 - **Open — the Si-Ghost Kernel.** The trauma-projection subsystem makes no
   predictions the intake data can test; it stays at [INFER].
 
+## RE-CHECKED [2026-08-18]
+
+`bin/wiki-climb check` flagged this page stale against
+[[wiki/mind/synthesis/estate-money-spine]], which moved on 2026-08-18 after the
+[[wiki/people/suzanne-frank]] rewrite corrected the direction of the family's
+largest internal capital movement. The spine had it as money flowing from the
+mother to Dan at a standing ~$750/week rate; the primary record shows a single
+2018 transfer of roughly **$14,000 from Dan to her**, drawn against an estate
+that had not yet distributed, of which $4,000 came back.
+
+**The theme this page carries — "The Irreversibility Firewall," money never
+sitting still long enough to become an adjudicable fact — survives, and the
+correction is a cleaner instance of it than the one it replaces.** A lump was
+lent out inside the family within weeks of arriving, on no paper, and then spent
+a decade as a contested claim rather than a settled balance. That is the firewall
+operating exactly as this page describes: the transaction was structured so that
+no one could ever produce a final number.
+
+**One boundary tightens.** The precarity ledger here treats Dan's transition
+costs as borne against a family baseline with some slack in it. There was no
+slack. Over the same years the mother reports earning $11,000–$14,000 against
+$10,000 a year in property taxes, and in October 2024 she filed Chapter 13 with
+~$157,000 scheduled — mostly IRS priority claims for 2018–2021, the same years
+this page and the spine treat as the poverty floor. Both parties were at the
+floor simultaneously and lending to each other, which is a different system than
+one precarious person drawing on a stable one.
+
 ## Gaps and open questions carried from the third pass
 
 The synthesis leaves specific falsifiable residue, in rough order of resolution
@@ -898,3 +944,33 @@ cost:
 > the June 1 severance and the direction-field convention; the first is handled
 > in the RETRACTION above, and the second touches sender attribution on a
 > February 2025 row this page never cites. No further revision required.
+
+> **RE-CHECKED [2026-08-19] — a premise lost a limb, and the theme survives on
+> three legs instead of four.** [[wiki/mind/synthesis/single-channel]] moved on
+> 2026-08-19: its *evaluative* leg, which that page had itself scored as its
+> weakest ("a reading rather than a measurement"), was measured for the first
+> time and came back inverted. Computed over entries-per-creator from
+> `FAVS MASTERLIST.csv` — the same unit as the two-sided contact coefficient —
+> the curated taste record returns a Gini of **0.188** (music), **0.166**
+> (books) and **0.000** (art) against the contact graph's **0.9601**. The
+> alternative account of that distribution is
+> [[wiki/mind/synthesis/closing-the-set]].
+>
+> **The Irreversibility Firewall's reading of concentration is unaffected and the
+> edge above has been narrowed rather than withdrawn.** The firewall argument
+> runs on *exposure*: a channel carrying load is a channel that can be audited,
+> so risk is consolidated rather than distributed. That argument was only ever
+> supported by the relational leg, which is the only one with a measurement
+> behind it and which is untouched — 0.9601 across 496 handles, tightening under
+> load, no failover. What the correction removes is the rhetorical reinforcement
+> the "four domains" framing supplied. **A collection is not a channel**: nothing
+> is routed through a favourites list and nothing depends on it, so its
+> concentration was never evidence for a redundancy-cost claim in the first
+> place, and the four-domain framing was doing work it had not earned.
+>
+> Nine other premises of this page were also touched on 2026-08-19 by
+> write-back edges from five new synthesis pages. Those are additive — a typed
+> edge and, on five of them, a `CONTRADICTION` or `RE-CHECKED` block — and none
+> of them alters a claim this page reasons from. They are listed as cheap
+> re-checks in `BACKLOG.md` rather than worked here, because the honest reason
+> to leave them is that they are cheap, not that they are done.

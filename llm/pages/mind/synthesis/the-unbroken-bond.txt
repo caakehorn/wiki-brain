@@ -6,7 +6,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-15
+date_modified: 2026-08-21
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -63,6 +63,14 @@ him** — more stable than address, employment, income, substance regime,
 political affiliation, artistic alias, or social circle, every one of which has
 turned over at least once in the same window. The pair-bond is the only
 continuously occupied structure in the entire record.
+
+> **RE-CHECKED [2026-08-21] — premise moved by a re-check block only.**
+> [[wiki/mind/concepts/chaos-preference]] moved on 2026-08-21, and the change
+> is a `RE-CHECKED` blockquote and nothing else. No chaos-preference claim was
+> added, withdrawn or narrowed. Note for a later pass: the live question on
+> this page remains the `enneagram-5w4` wing contradiction that `BACKLOG.md`
+> flagged on 2026-08-19 — a 5w6 reading would touch the sx/sp fusion account
+> this page leans on — and that pair is untouched by today's work.
 
 And it sits directly against the rest of the profile. The same person is
 documented as a **Chaotic Neutral** who holds *"entropy as the fundamental
@@ -169,6 +177,15 @@ disorder he wants everywhere else, because it is his.
   mechanically difficult, independent of anyone's intentions. *(Narrowed
   2026-08-13 — see the correction below; the accurate statement is that a
   **durable** exit is unavailable, not that exit is.)*
+- **Displaced parties, and they act (added 2026-08-18).** A switch executed at
+  the resolution of days leaves the vacated partner no notice, and the December
+  2015 window shows both of them reaching into the new bond's surround inside a
+  month: [[wiki/people/emilio|Emilio]] to Annie's sister, which is what detonated
+  the December 2 family confrontation, and Zach Harshman into Dan's friendships
+  on December 23. This is the only cost on the list that is paid by third
+  parties. It is also, per the re-check below, a property of fast switches
+  rather than of Dan specifically — Annie ran the same operation in the same
+  seventy-two hours.
 - **The severance failed.** The single hardest piece of evidence on this page:
   the June 1 2026 closure held for **52 days** and then contact resumed on July
   23, running **624 messages across four days**. The wiki's own inference that
@@ -273,6 +290,57 @@ Everything else can be allowed to burn, because he did not pick it.
 > instance is **his own act** rather than his partner's. Nothing needed revising;
 > the argument gained its best evidence.
 
+> **RE-CHECKED [2026-08-18] — three premises moved; the thesis holds, gains a
+> third cost it did not have, and loses the right to call one of its bonds
+> "shallow" without saying what it means.**
+>
+> **[[wiki/mind/synthesis/bond-switch-2015]] (moved 2026-08-17) — a new cost,
+> and it is external.** The switch's fourth party is now named: the operator
+> identified **[[wiki/people/emilio|Emilio]]** as the partner displaced on
+> Annie's side. What that identification unlocks is not a name but a symmetry.
+> Both partners were displaced inside the *same seventy-two hours* — Alexis by
+> Dan, Emilio by Annie — and **both displacements detonated a relationship in
+> the following month**: Emilio contacted Annie's sister Claire, which is what
+> turned the December 2 family confrontation from bad luck into retaliation, and
+> Zach Harshman's fallout ended a friendship of Dan's on December 23.
+>
+> This page's "What it costs" list has two entries and both are *internal* —
+> no calibration on endings, and no durable exit. The Emilio material adds a
+> third of a different kind: **the slot's continuity is paid for by producing
+> displaced people, and they act.** A switch executed at the resolution of days
+> gives the vacated party no notice and no exit ramp of their own, and within a
+> month each of them had reached into the new bond's social surround. That is a
+> cost the thesis predicts in hindsight and had no instance of until now.
+>
+> **A boundary this page should not blur.** The symmetry cuts against reading
+> the cost as distinctively Dan's. Annie ran the same operation on the same
+> timetable, and hers produced the more damaging fallout. What the December 2015
+> window demonstrates is a property of **fast switches**, not of Dan's
+> architecture in particular. This page's thesis is about the *continuity* of
+> his slot over seventeen years, which is his and is unusual; the displacement
+> cost belongs to the switch mechanism, which is not. Recorded so a later pass
+> does not quietly annex it as more evidence for singularity.
+>
+> **[[wiki/people/alexis-armel]] (moved 2026-08-18) — the word "shallow" is
+> now doing unearned work.** That page gained a blind 2026 model scoring on
+> seven invented dimensions: **Alexis 7.1, Annie 1.9**, with seven of the
+> 5.2-point gap sitting in *non-exploitation* alone. It is attributed AI output,
+> not a measurement, and nothing here rests on it. But this page's own edge
+> describes the Alexis bond as *"shallow enough to show that occupancy did not
+> require the deep attachment system to be active"* — and the instrument that
+> scored the two relationships blind put the "shallow" one nearly four times
+> higher. Both can be true, and the fact that they can is the finding:
+> **depth of Dan's attachment and quality of the relationship are independent
+> axes, and this page has been using one word for both.** The thesis is
+> unaffected — occupancy is what it measures, not warmth — but "shallow" should
+> be read strictly as *the deep attachment system was not engaged*, never as
+> *the relationship was worse.* On the available evidence it was better.
+>
+> **[[wiki/people/annie-ulmer]] (moved 2026-08-18) — nothing.** One added edge
+> recording that Suz witnessed the relationship's physical conflict in writing in
+> September 2020, plus this session's own correction to a July 2026 chronology
+> row. Neither touches the chronology, the 52-day vacancy, or any falsifier here.
+
 ## Falsifiers
 
 1. A documented unattached period of more than roughly six months between 2007
@@ -289,6 +357,73 @@ Everything else can be allowed to burn, because he did not pick it.
    this falsifier is therefore now quantitative — **a vacancy of more than
    roughly six months with no successor** — and the July–August reentanglement
    has reset its clock. See the correction under "What it costs."
+
+## RE-CHECKED [2026-08-20] — falsifier 3's clock restarted, and this time the vacancy has no occupant to switch to
+
+`bin/wiki-climb check` flagged this page against [[wiki/people/annie-ulmer]],
+which moved on 2026-08-20 for the August 16–19 ingest
+([[wiki/timeline/events/august-2026-morgantown-call]]). This is not a
+bookkeeping move; it touches falsifier 3 directly and the re-check is real.
+
+**What changed in the premise.** The relationship ended on 2026-08-19; the
+record stops mid-exchange at 15:15:33.
+
+> **CORRECTED [2026-08-20], same day, before this block was ever relied on.**
+> This paragraph first said the severance *"carries no condition"* and that
+> *"this one names nothing."* A line-by-line re-read of August 19 shows
+> otherwise: the declared block at 15:07:37 is followed by seven more messages
+> from Dan and one from Annie that he answers, and 15:09:01 is an explicit
+> conditional — *"You could still not do the wrong thing."* The no-condition
+> claim is withdrawn.
+
+**What survives, and it is better for this page's purposes.** The structural
+novelty is not an absent condition; it is at **14:53:25**, where Dan names and
+pre-emptively closes **the reopening vector itself**: *"Do NOT ever think that
+enough time has passed that now you can tell me about something that made you
+think of me or when something happens to Milo."* That is the July 4 Milo email
+— the message that ended a fifty-two-day silence seven weeks earlier — being
+forbidden in advance. This page's mechanism says the bond persists because the
+terminating statement is never made; it has never before had a case of Dan
+closing the *re-entry* path rather than demanding an exit statement. Whether
+that changes the outcome is the open question.
+
+**The decision: the thesis survives untouched, and the falsifier's clock is
+reset rather than met.** Falsifier 3 was already partially met on 2026-08-13
+and restated quantitatively as *a vacancy of more than roughly six months with
+no successor sourced*. The July–August reentanglement reset that clock on
+2026-07-23; the August 19 severance **restarts it from 2026-08-19**. Nothing
+about the seventeen-year continuity claim or the sx-dominant single-slot
+mechanism is affected by a severance that is four days old at the time of
+writing, and this page must not treat it as evidence in either direction yet.
+
+**What is worth flagging for the pass that does score it.** Two features
+distinguish this vacancy from the June 1 one, and both cut toward the
+falsifier rather than away from it:
+
+1. **There is no successor and no candidate.** June 1's vacancy was structurally
+   identical, but the record now carries an active parallel bond
+   ([[wiki/self/concepts/ally-and-dan-love-as-destiny]], and Dan's own
+   2026-08-19 statement *"I am going to start seeing other people and I am
+   going to start my life with someone who cares about me"*). If the slot is
+   refilled from there, that is the switch mechanism working exactly as this
+   page describes and the falsifier fails again. If it is **not** refilled, and
+   the vacancy runs past roughly 2027-02-19, the falsifier is met on its own
+   terms.
+2. **Dan performed the deletion this page says he cannot perform.** On
+   2026-08-19 at 11:41: *"There never was an eggie bagels. I never had a dog
+   named Betty. I don't know what happened from November 24, 2015 until today
+   but I know that you never existed."* The page's mechanism holds that the
+   part of his life he loves cannot be crossed out without an explicit
+   termination from her — his own stated account, quoted under "Why: the
+   mechanism is documented." He did not get one here either. What he did
+   instead was **assert the deletion unilaterally**, which is a new behaviour
+   and might be either the mechanism finally failing or its most elaborate
+   evasion. **Do not score it from four days of record.** The falsifier is
+   whether it holds, not whether it was said.
+
+**Held open deliberately.** The single most useful thing a later pass can do
+with this page is check whether any message passes between Dan and Annie after
+2026-08-19 15:15:33. The export ends eight minutes after the block.
 
 ## RE-CHECKED [2026-08-09]
 

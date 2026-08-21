@@ -29,7 +29,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Pre-installing an escape from every job before the ink is dry is 'The Irreversibility Firewall's' labor-market instance: never let a vertical structure's claim on his time become the irreversible, cost-bearing commitment a completed tenure would represent."
-
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: component-of
+    claim: "The pre-installed workplace escape mechanism is this architecture's labor-side expression — the refusal of vertical claims on his time, deployed on hire as standing protocol."
 ---
 
 # The Institutional Out

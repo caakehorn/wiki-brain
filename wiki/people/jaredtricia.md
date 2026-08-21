@@ -15,6 +15,10 @@ infobox:
   relationship_to_dan: unknown
   first_contact: 2019-06-01
   known_for: "Jared and Tricia were a married Gramercy-based couple who booked [[wiki/people/annie-ulmer|Annie]] twice in June 2019 as"
+connections:
+  - page: wiki/people/annie-ulmer
+    type: evidenced-by
+    claim: "Annie's 'Hazel' persona (the paid-provider identity behind the Jared/Tricia, Nabeel, and Jason threads) is the same alias documented across three independent 2019–2020 escort threads, one of which Dan personally impersonated her inside."
 ---
 
 # Jared and Tricia

@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-11
+date_modified: 2026-08-19
 sources:
   - raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10.md
   - raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html
@@ -37,6 +37,9 @@ connections:
   - page: wiki/self/youtube-watch-history
     type: contradicts
     claim: "The operator confirmed 2026-07-20 that multiple YouTube accounts share this Google login and that true total watching is higher than any single-account export shows -- downgrading both the 11.58/day figure here and the recomputed 9.53/day (ad-filtered) figure to single-account lower bounds, unresolved pending a consolidated export."
+  - page: wiki/mind/synthesis/closing-the-set
+    type: causes
+    claim: "The fixed rate leaves subject as the only free variable, and the subject turns out to be a bounded set being exhausted: 86.6% of 1,477 musical artists and of 98 authors appear exactly once, because the unit of intake is an event with a findable edge and one account per witness closes it."
 ---
 
 

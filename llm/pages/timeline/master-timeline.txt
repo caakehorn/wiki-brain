@@ -7,7 +7,6 @@ date_created: 2026-08-14
 date_modified: 2026-08-15
 sources:
   - generated from every page under the wiki by bin/wiki-timeline
-tags: [timeline, master, chronology, generated]
 connections:
   - page: wiki/timeline/index
     type: component-of
@@ -20,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**2,076 events** across **77 years** (1796–2026), drawn from **315 pages**. Tier 1 496 · Tier 2 285 · Tier 3 1,295.
+**2,824 events** across **78 years** (1796–2026), drawn from **341 pages**. Tier 1 592 · Tier 2 361 · Tier 3 1,871.
 
 ## What counts as an event here
 
@@ -184,7 +183,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 ### 1917
 
 - · **1917-08-01** — Fran's first husband — Emmet Graden Van Voorhis  
-  ↳ [[wiki/people/diane-shrum]] · Who she is in the line
+  ↳ [[wiki/people/diane-moore]] · Who she is in the line
 - · **1917-08-01** — Maternal Great-Grandfather — Emmet Graden Van Voorhis (Fran's **first** husband) — Dilliner, PA — —  
   ↳ [[wiki/self/lineage/family-tree]] · Immediate Family Table
 
@@ -269,16 +268,18 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ### 1937
 
-- ★ **1937-06-14** — Maternal Grandfather — George Dixon Shrum Jr (married *into* the line) — Pittsburgh, PA — —  
+- ★ **1937-06-14** — married *into* the line) — Pittsburgh, PA  
   ↳ [[wiki/self/lineage/family-tree]] · Immediate Family Table
-- · **1937-06-14** — Diane's husband — George Dixon Shrum Jr.  
-  ↳ [[wiki/people/diane-shrum]] · Who she is in the line
+- · **1937-06-14** — Diane's first husband — George Dixon Shrum Jr.  
+  ↳ [[wiki/people/diane-moore]] · Who she is in the line
+- · **1937-06-14** — Maternal Grandfather — George Dixon Shrum Jr (Diane's **first** husband  
+  ↳ [[wiki/self/lineage/family-tree]] · Immediate Family Table
 
 ### 1939
 
 - · **1939-01-30** — Their daughter — **Rebecca Diane Van Voorhis  
-  ↳ [[wiki/people/diane-shrum]] · Who she is in the line
-- · **1939-01-30** — Maternal Grandmother — Rebecca Diane Van Voorhis ("Diane") — **Fran's daughter** — West Virginia — diane shrum  
+  ↳ [[wiki/people/diane-moore]] · Who she is in the line
+- · **1939-01-30** — Maternal Grandmother — Rebecca Diane Van Voorhis ("Diane") — **Fran's daughter** — West Virginia — diane moore  
   ↳ [[wiki/self/lineage/family-tree]] · Immediate Family Table
 - · **1939-01-30** — 2 — Rebecca Diane Van Voorhis Jr — —  
   ↳ [[wiki/self/lineage/family-tree]] · The Van Voorhis/Thomas/Coldren Matrilineal Line (6 generations)
@@ -290,7 +291,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 ### 1940
 
 - ★ **April 1940** — The April 1940 census places Emmet, Fran and the fourteen-month-old Diane together in Smithfield, Fayette County — Fran's arrival in the county that becomes the family's terminus.  
-  ↳ [[wiki/people/diane-shrum]] · Who she is in the line
+  ↳ [[wiki/people/diane-moore]] · Who she is in the line
 - ★ **April 1940** — The April 1940 census places Emmet, Fran and their infant daughter together in **Smithfield, Fayette County** — the arrival of the maternal line in the county it never leaves.  
   ↳ [[wiki/people/fran-coldren]] · The line she comes from, and the three marriages
 - ★ **1940-04-01** — Brownsville, Fayette Co., PA — census  
@@ -385,19 +386,25 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ### 1961
 
+- ★ **1961-02-08** — Parents married  
+  ↳ [[wiki/people/suzanne-frank]] · Identity, lineage and the generation she was pushed out of
+- ★ **1961-02-08** — The **8 February 1961 marriage at Belmont Circle** puts her parents' wedding on the same street where the Frank and Ulmer grandparents lived side by side for fifty years — one more turn of the geography 117 belmont circle documents.  
+  ↳ [[wiki/people/suzanne-frank]] · Identity, lineage and the generation she was pushed out of
 - ★ **1961-02-08** — On **8 February 1961** her only child, Rebecca Diane Van Voorhis, married George Dixon Shrum Jr., and the GEDCOM records the place of the marriage not as a church but as **Belmont Circle, Uniontown** — the house itself.  
   ↳ [[wiki/places/117-belmont-circle]] · The documentary floor: 1961, from Miami Beach
 - ★ **1961-02-08** — Daughter's marriage, in the house — GEDCOM, *Pittsburgh Post-Gazette* 1961-09-03  
   ↳ [[wiki/places/117-belmont-circle]] · The documentary floor: 1961, from Miami Beach
+- · **1961-02-08** — Her parents marry at Belmont Circle, Uniontown  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
 
 ### 1962
 
-- ★ **1962-09-15** — Suzanne Whyel Shrum Frank, born September 15, 1962, in Pittsburgh.  
-  ↳ [[wiki/people/suzanne-frank]] · Identity and lineage
+- ★ **1962-09-15** — Suzanne Whyel Shrum Frank, b. 15 Sep 1962 Pittsburgh; married Rick Frank 31 Aug 1985, separated after the Nov 2005 rupture; mother of Dan and Vanessa.  
+  ↳ [[wiki/people/suzanne-frank]] · LLM Quick Brief
 - ★ **1962-09-15** — Born, Pittsburgh PA  
   ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **1962-09-15** — Their daughter — Suzanne Whyel Shrum  
-  ↳ [[wiki/people/diane-shrum]] · Who she is in the line
+  ↳ [[wiki/people/diane-moore]] · Who she is in the line
 - · **1962-09-15** — Mother — Suzanne Whyel /Shrum/ Frank ("Suz") — Pittsburgh, PA — suzanne frank  
   ↳ [[wiki/self/lineage/family-tree]] · Immediate Family Table
 
@@ -420,10 +427,17 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **1984** — Uniontown, PA  
   ↳ [[wiki/self/lineage/family-tree]] · Morley Jay Frank (1927–1998)
 
+### 1985
+
+- · **1985-08-31** — Marries Richard Harrison Frank  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
+
 ### 1988
 
 - ★ **1988-11-01** — Born November 1, 1988, he is 26 only between November 2014 and November 2015 — which fixes the filing to **February 2015** and the arrest to on or shortly before February 17, 2015.  
   ↳ [[wiki/legal/2015-possession-arrest]] · Case timeline
+- ★ **1988-11-01** — Dan born, Uniontown  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - ★ **1988-11-01** — "Born November 1, 1988. ... Uniontown, Pennsylvania." Suzanne (real estate), Rick (auto), Vanessa. Skate + Pikewood/Nemacolin caddying.  
   ↳ [[wiki/self/chats/gemini-18]] · _18 Stats + Full Bio Timeline Table (2026-06-23 analysis)
 - ★ **1988-11-01** — For context injection:** Daniel Gillingham Frank ("Dan"), born November 1, 1988, Uniontown PA (age from DOB — do not carry a hardcoded number).  
@@ -432,6 +446,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/location-history]] · Family Geographic Roots (from 23andMe + Ancestry GEDCOM tree)
 - ★ **1988-11-01** — Daniel Gillingham Frank — Dan — was born November 1, 1988 in Uniontown, Fayette County, Pennsylvania, and at 37 he is living back in his childhood home at 337 Saratoga Drive while his mother sells it out from under him.  
   ↳ [[wiki/self/overview]] · Self Overview
+- · **1988-11-01** — Children — Vanessa]] (b. 16 Jan 1994, Greensburg)  
+  ↳ [[wiki/people/suzanne-frank]] · Identity, lineage and the generation she was pushed out of
+- · **1988-11-01** — Dan Frank** — Scorpio — Self-identified in thread ("I am super scorpio / Nov 1") — — (subject) — See overview — Dan Frank  
+  ↳ [[wiki/self/concepts/astrology-star-signs]] · The Known Signs
 - · **1988-11-01** — DOB:** 1988-11-01 [DOC]  
   ↳ [[wiki/self/context-core]] · Core identity
 - · **1988-11-01** — Self — Daniel Gillingham Frank — Uniontown, Fayette, PA — —  
@@ -452,6 +470,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/morley-frank]] · The residence record
 - · **1990** — Uniontown, PA  
   ↳ [[wiki/self/lineage/family-tree]] · Morley Jay Frank (1927–1998)
+- ★ **1990-06-26** — She was born June 26, 1990 — nineteen months younger than Dan.  
+  ↳ [[wiki/people/ally-lubin]] · Ally Lubin (Alexandra Lubin)
+- · **1990-06-26** — Ally Lubin** — Cancer — Derived, and corroborated twice in her own words: "Literally a 17 year old in a 28 yeR olds body" (2019-01-09) and "I turn 30 in 18 days" (2020-06-08)  
+  ↳ [[wiki/self/concepts/astrology-star-signs]] · The Known Signs
+- · **1990-06-26** — she gives her sign as Cancer — 1,987 (iMessage) + 21 (FB) — Emotional depth, loyalty, protectiveness, moodiness, nurturing through crisis  
+  ↳ [[wiki/self/concepts/astrology-star-signs]] · The Known Signs
 - ★ **1990-07-21** — She is from **Barberton, Ohio**, born 21 July 1990, and was living in the Akron area — about two hours from Uniontown — throughout.  
   ↳ [[wiki/people/kristin]] · Kristin Prentiss
 - ★ **1990-07-21** — Birth data given in full for the astrology sessions: **21 July 1990, 22:29, Barberton, Ohio**.  
@@ -466,6 +490,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ### 1994
 
+- ★ **1994-01-16** — Vanessa born, Greensburg  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - ★ **1994-01-16** — Dan's younger sister, born January 16, 1994, in Greensburg, Pennsylvania — the fourth member of the nuclear family with parents rick frank and suzanne frank.  
   ↳ [[wiki/people/vanessa-frank]] · Vanessa C. Frank
 - · **1994-01-16** — Sister — Vanessa C. Frank — Greensburg, PA — vanessa frank  
@@ -588,6 +614,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - · **2004-07-31** — no postponement found.  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
+- ★ **2004-09-15** — The claim is structurally impossible as stated: Johnny Ramone died on 2004-09-15, while James's own stated age puts him around fifteen.  
+  ↳ [[wiki/people/james-dee]] · The Ramone claim
 - ◆ **2004-10-10** — Multi-act show — A.J. Palumbo Center — Pittsburgh, PA — With Ben Kweller. Confirmed  
   ↳ [[wiki/interests/favorites/music/artists/ben-kweller]] · Live appearances
 - · **2004-10-10** — 10 — Incubus, Ben Kweller — A.J. Palumbo Center — Pittsburgh, PA — With Ben Kweller. Confirmed  
@@ -633,6 +661,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - ★ **November 2005** — Cocaine use first entered the household as a known concept at age 13 (2001), via the discovery of his parents' own use — the same substance later implicated in the November 2005 rupture (his father's rehab admission, his mother's affair with their dealer) was already a familiar, "adult" behavior in…  
   ↳ [[wiki/health/chemical-architecture]] · System genesis: a phased history
+- ★ **November 2005** — The November 2005 divorce sits at the center: Dan's father Rick admitted to rehab, his mother Suzanne revealed to have been affairing with their cocaine dealer.  
+  ↳ [[wiki/health/cocaine]] · Family context
 - ★ **November 2005** — The dossiers put the origin at **November 2005**: the father disclosing rehab on the drive home from getting a learner's permit, the mother's affair with the family's dealer surfacing concurrently, the marriage ending.  
   ↳ [[wiki/mind/synthesis/the-deferred-audit]] · The origin — marked as testimony, not residue
 - ★ **November 2005** — The Seven Springs ski crew is explicitly identified, in Dan's own retrospective account, as his first drug-exposure cohort — and the timeline is notable: his first cocaine use is dated to 2004, in the context of that crew, a full year *before* the November 2005 hinge event (his father's rehab…  
@@ -641,6 +671,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/overview]] · LLM Quick Brief
 - ★ **November 2005** — The hinge is November 2005, age 17: his father entered rehab for cocaine, his mother's affair with the dealer surfaced, and the marriage ended — the template ("a trusted figure maintaining a concealed alternate reality") that the psychological record traces through everything after (rick frank…  
   ↳ [[wiki/self/overview]] · The arc
+- · **November 2005** — Cocaine first entered Dan's household as a known concept at **age 13 (2001)**, through the discovery of his parents' own use — the same substance later implicated in the November 2005 rupture was already a familiar, "adult" behavior in the house years before that hinge event.  
+  ↳ [[wiki/health/cocaine]] · Genesis: family exposure, and first use
 - · **November 2005** — The vertical axis is distrusted first and hardest because auditing it is free — the finding never lands on Dan.** vertical authority skepticism states this directly: fathers, managers, owners, institutions and the state are treated as structurally suspect while a small, vetted lateral network is…  
   ↳ [[wiki/mind/synthesis/totality-themes]] · The four predictions, and where the wiki already proves each one
 - · **November 2005** — No other location carries comparable weight in the record: it is where the November 2005 parental rupture happened, where the production identity was rebuilt twice, and where the post-Annie aftermath is being lived out.  
@@ -749,6 +781,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - ◆ **November 2007** — The opiate arc that follows has one new, specific, dated event: a November 2007 trip to Las Vegas (age 19) is named as the point physical opiate dependence became undeniable — the problem shifting from "how to be cool" to "how to function without getting sick." The following winter (2008), he tried…  
   ↳ [[wiki/health/chemical-architecture]] · System genesis: a phased history
+- ◆ **November 2007** — Cocaine use stopped entirely during the **2007–2008 opiate-pivot window** — the period when physical opiate dependence became undeniable (a November 2007 Las Vegas trip) and a single heroin attempt was rejected on aesthetic grounds ("felt dirty").  
+  ↳ [[wiki/health/cocaine]] · Genesis: family exposure, and first use
 - ★ **2007-11-01** — Two years later the record puts father and son in Las Vegas together for Dan's 19th birthday (November 1, 2007) — the trip on which Dan, traveling with the man freshly out of rehab, recognized his own first opiate withdrawal and left Vegas knowing he was addicted (chemical architecture).  
   ↳ [[wiki/people/rick-frank]] · The 2005 hinge, from his side
 - ◆ **2007-11-19** — Fall Out Boy **secret show**, billed as "Schrute Farms" — Buffalo, Mohawk Place  
@@ -792,6 +826,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - · **2008** — 36 — Hey Monday — Unknown — Orlando, FL — **Still open  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
+- · **Winter 2008** — Heroin — Refused on **aesthetic** grounds, not medical ones  
+  ↳ [[wiki/health/the-configured-body]] · Mode one: specification
 - · **2008-02-11** — Will Ferrell / Demetri Martin / Zach Galifianakis — Penn State University  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The record
 - · **2008-05-03** — Bamboozle — Meadowlands, NJ  
@@ -824,6 +860,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/places/337-saratoga-drive]] · Occupancy history
 - ★ **September 2008** — Uniontown PA · 337 Saratoga Dr — Ski identity; Republican household. **Hinge Nov 2005:** parental rupture (father rehab + mother affair)  
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
+- ◆ **September 2008** — When Dan left for Full Sail in September 2008, Suz bought a condo near campus rather than renting one — the earliest documented instance of her using real property rather than cash to support him, seventeen years before the 337 sale and the 463 arrangement did the same thing in reverse.  
+  ↳ [[wiki/people/suzanne-frank]] · The Winter Park condo, 2008–2010
+- · **September 2008** — Buys the Winter Park FL condo (2924 Antique Oaks Circle) as Dan starts Full Sail  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **September 2008** — ski-identity years  
   ↳ [[wiki/places/337-saratoga-drive]] · Occupancy history
 - · **September 2008** — the Nov 2005 hinge  
@@ -934,6 +974,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/health/chemical-architecture]] · The stack
 - · **2010-02-17** — The opiate arc: first opiate (Roxicet → Oxy) in **2007**, age 18–19, during the post-rupture years; five months from first use to addiction; then the stabilization at Full Sail's end — Suboxone day-zero February 17, 2010.  
   ↳ [[wiki/health/chemical-architecture]] · History
+- · **2010-02-17** — Suboxone — Chassis & OS  
+  ↳ [[wiki/health/cocaine]] · Role in the chemical stack
+- · **2010-02-17** — Opioid floor — Absolute  
+  ↳ [[wiki/health/the-configured-body]] · Mode one: specification
+- · **2010-02-17** — the one regime never interrupted  
+  ↳ [[wiki/health/the-configured-body]] · Mode one: specification
 - · **2010-02-17** — Suboxone streak "MOMENT" start.  
   ↳ [[wiki/self/chats/gemini-58]] · Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)
 - · **2010-02-17** — Suboxone daily since Feb 17 2010, zero relapse; no alcohol 13–15 yrs.  
@@ -950,6 +996,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/chats/gemini-58]] · Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)
 - · **2010-02-22** — What resolved the "nyc deal is off" scare of February 22, 2010 is unrecorded.  
   ↳ [[wiki/people/rick-frank]] · Family position
+- ★ **March 2010** — Per the capture Dan lived there about a year; the canonical residence timeline has him in Winter Park through March 2010, so either Full Sail housing or a share moved him for the final months.  
+  ↳ [[wiki/people/suzanne-frank]] · The Winter Park condo, 2008–2010
 - ★ **March 2010** — It opens off the Full Sail tail (he stayed in Florida through March 2010, then moved north) and closes not with a New York event but with a **departure**: the May 2013 return to Uniontown that context-core flags as the timeline's most load-bearing correction.  
   ↳ [[wiki/timeline/periods/2010s]] · NYC Round One (2010–2013)
 - · **March 2010** — ishlab (10 Jay St)  
@@ -1041,6 +1089,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/favorites/music/artists/a-day-to-remember]] · Live appearances
 - ◆ **2011-05-01** — Apr 29 - May 1, 2011** — The Bamboozle 2011, New Meadowlands Stadium, East Rutherford, NJ. Festival edition. Lineup included Lil Wayne, Motley Crue, Taking Back Sunday, A Day to Remember.  
   ↳ [[wiki/interests/favorites/music/artists/a-day-to-remember]] · Notes per appearance
+- ◆ **2011-05-20** — The Facebook takeout shows the approach as a slow, one-directional accretion: nine documented interactions from Dan to her content between **May 20, 2011** and **August 15, 2013** — seven likes and two comments — before the first exchange.  
+  ↳ [[wiki/people/ally-lubin]] · The eighteen-year approach
 - ◆ **August 2011** — The apartment was also a genuine social hub for the wider Full Sail/Uniontown-diaspora circle documented elsewhere: Jamie Mohler was a routine visitor closely tracked enough that Alexis asked after a missed visit due to a knee injury (Aug 2011), and the address anchors two dated group events — the…  
   ↳ [[wiki/places/424-bedford-ave]] · The household
 - · **August 2011** — Oscar's own Facebook thread independently confirms the two men knew each other from the Full Sail years (an August 2011 exchange places them coordinating around Hurricane Irene), closing the loop on how Dan and Oscar were connected in the first place.  
@@ -1155,12 +1205,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/places/90th-st-manhattan]] · Corpus record
 - · **April 2013** — menore — Dormant, then reactivated Nov 2018  
   ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · The members against the rule
-- · **April 2013** — ran to Feb 2025 — **12 years, one gap  
+- · **April 2013** — ran continuously to Feb 2025 — and the counterparty is **confirmed still operating in 2026** — **12 years, one gap  
   ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · The members against the rule
 - · **April 2013** — After Dan left New York in April 2013 the channel went silent for **2,044 days**.  
   ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · The measurement: dormancy involves no decay
 - · **April 2013** — Name likely variant of "Menor" or placeholder; re-entry contact after Dan left NYC (April 2013–Nov 2018, 5.5-year gap).  
   ↳ [[wiki/people/menore]] · Identity & Role
+- · **April 2013** — 90th st manhattan — 2012–2013 — Alexis, jointly; a sublet — **None  
+  ↳ [[wiki/places/the-unpapered-address]] · Seven addresses, one structure
 - ★ **May 2013** — The "new number, save this one" framing is itself evidence of a prior relationship rather than a cold introduction — consistent with the operator's account that the original meeting happened years earlier, during the NYC-1 window (2010–May 2013), with Jamie Mohler present.  
   ↳ [[wiki/people/menore]] · Identity & Role
 - ★ **May 2013** — First return from NYC; SLOPPP era; moved out to 155 Virginia Ave  
@@ -1187,6 +1239,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The timing (verified against raw)
 - ★ **July 2013** — Gaps:** a five-year silence between the July 2013 and October 2018 messages; the outcome of the SiriusXM application; the identity of the August 2021 death; Bobby's current circumstances.  
   ↳ [[wiki/people/bobby-cole]] · Corpus record
+- ★ **July 2013** — The impersonation falls four months **into** the iMessage relationship, not before it — direct contact began in July 2013 and the modern conversation in December 2018, both documented on her page.  
+  ↳ [[wiki/people/dan-polyak]] · The Ally Lubin impersonation
 - ◆ **July 2013** — Bobby Cole is a nine-year Facebook Messenger friendship (July 2013 – January 2022, ~940 messages) built almost entirely on a single shared obsession: the Opie & Anthony / Ron & Fez radio-archive universe.  
   ↳ [[wiki/people/bobby-cole]] · Bobby Cole
 - ◆ **July 2013** — Joe Croftcheck is the supplier Dan names as **"the family plug"** — the Uniontown connection the household used, and the source of the quarter ounce of cocaine bought on the Franki fireworks day in early July 2013 with $350 taken from Suz's ATM card.  
@@ -1207,6 +1261,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/franki-fireworks-day-2013]] · The Franki Fireworks Day (early July 2013)
 - · **July 2013** — The date is not fixed.** "Early July 2013" plus a fireworks display is as  
   ↳ [[wiki/timeline/events/franki-fireworks-day-2013]] · Gaps
+- ◆ **2013-07-05** — The first documented conversation is a single day: **July 5, 2013**, 21 messages in Facebook Messenger.  
+  ↳ [[wiki/people/ally-lubin]] · The eighteen-year approach
+- · **2013-07-05** — Facebook Messenger — 21 — 15 — 6  
+  ↳ [[wiki/people/ally-lubin]] · The measurements
 - · **2013-07-10** — One dosage figure exists on the record: a July 10, 2013 Facebook exchange with Elizabeth Eleanor, a fellow recovering addict, has Dan stating "i'm still on 2mg of suboxone a day, it's been almost 5 years since i touched an opiate and i'm still too terrified to get off" — placing his last opiate use…  
   ↳ [[wiki/health/chemical-architecture]] · The frame, and its audit
 - ★ **2013-07-11** — Gaps:** no further contact after July 11, 2013; Elizabeth's current circumstances, surname context, and whether she and Dan knew each other before this exchange (the "long time no see" framing implies a pre-existing but undocumented relationship).  
@@ -1369,6 +1427,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/legal/2015-possession-arrest]] · Case timeline
 - ★ **2015-02-17** — The exact arrest date within the days before February 17, 2015 is not known, nor is the arresting barracks, the docket number, or whether the expungement was ever completed.  
   ↳ [[wiki/legal/2015-possession-arrest]] · Gaps
+- · **2015-02-17** — On **February 17, 2015**, at roughly 3am in downtown Uniontown, he was pulled over by Pennsylvania State Police returning from delivering lemons to his mother at a pool hall, driving Fran's disused car with an expired registration and bald tires.  
+  ↳ [[wiki/health/cocaine]] · Legal history
 - ◆ **March 2015** — Why the March 2015 Frank Swaney management deal never materialized (or whether it quietly did, off the message record) is undocumented; "Joby," the third party who was to finalize terms with Dan's parents, is otherwise unidentified in the corpus.  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Significance
 - · **Spring 2015** — Spring 2015 Demo — Demo  
@@ -1399,18 +1459,32 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
 - ★ **November 2015** — Relationship formation with Annie, breakup with Lex. High events in Dec 2015 (39 in sample).  
   ↳ [[wiki/timeline/events/timeline]] · Major Periods (cross-checked with core residence and data)
+- ◆ **November 2015** — What the read shows:** "Just started hanging out with us last week" — joins ~3rd week Nov 2015.  
+  ↳ [[wiki/timeline/2015-annie-read-wiki-impact-analysis]] · 3.6 Casey Bondarenka — MINOR
+- · **November 2015** — Alexis was physically in the house throughout**, which falsifies the reading that placed her in Florida in November 2015.  
+  ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The switch was brokered, and paid for
 - · **November 2015** — Casey Bondarenka was a friend who overstayed his welcome during a chaotic late-2015 stretch involving Alexis and Vanessa, then resurfaced sporadically through 2018 (`+17245626199`, 36 messages, Nov 2015 – Oct 2018).  
   ↳ [[wiki/people/casey-bondarenka]] · Casey Bondarenka
+- · **November 2015** — Action needed:** Backdate the network to Nov 2015, name Suz as primary node.  
+  ↳ [[wiki/timeline/2015-annie-read-wiki-impact-analysis]] · 3.4 Supply Network — MAJOR
 - · **November 2015** — (check) longstanding friend  
   ↳ [[wiki/timeline/annie-read-notes]] · 4. Corrections queue
 - · **November 2015** — This is the primary evidence that the "Alexis was in Florida in November 2015" reading was false** (see bond switch 2015).  
   ↳ [[wiki/timeline/annie-record]] · November
+- · **2015-11-17** — First message in the corpus  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **2015-11-24** — Annie enters — and **Alexis is the one who introduces them.** "HAPPY ONE WEEK SINCE LEX HANDED YOU TO ME" (Annie, Dec 1)  
   ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The timing (verified against raw)
 - · **2015-11-24** — Annie enters, introduced by Alexis herself (*"HAPPY ONE  
   ↳ [[wiki/mind/synthesis/the-unbroken-bond]] · The switch, at the resolution of days
+- · **2015-11-24** — I don't know what happened from November 24, 2015 until today but I know that you never existed."* The page's mechanism holds that the part of his life he loves cannot be crossed out without an explicit termination from her — his own stated account, quoted under "Why: the mechanism is documented."…  
+  ↳ [[wiki/mind/synthesis/the-unbroken-bond]] · RE-CHECKED [2026-08-20] — falsifier 3's clock restarted, and this time the vacancy has no occupant to switch to
 - · **2015-11-24** — Annie enters the picture — *"HAPPY ONE WEEK SINCE LEX HANDED YOU TO ME"* (Annie, Dec 1), i.e. Alexis herself made the introduction  
   ↳ [[wiki/people/alexis-armel]] · The end, in one day
+- · **2015-11-24** — "November 24" date — Dec 15, 20:35  
+  ↳ [[wiki/timeline/annie-read-notes]] · New motif instances
+- · **2015-11-24** — Annie: *"HAPPY ONE WEEK SINCE LEX HANDED YOU TO ME ❤️❄️❤️❄️"* (09:37) — dating the introduction to **Nov 24, 2015**.  
+  ↳ [[wiki/timeline/annie-record]] · December
 - · **2015-11-24** — Annie enters — introduced by Alexis herself ("HAPPY ONE WEEK SINCE LEX HANDED YOU TO ME," Annie, Dec 1).  
   ↳ [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · 2015-2016 Annie Relationship Start
 - · **2015-11-24** — ~November 24, 2015:** Annie enters, introduced by Alexis herself.  
@@ -1467,10 +1541,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/golf]] · The family lineage
 - ★ **2015-11-29** — grandmothers were neighbors for 50 years). Same evening, outbound to Zachariah: "Things are collapsing with lex. You might be seeing a lot more Annie very soon." — annie ulmer, 2015 2016 annie relationship start  
   ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The timing (verified against raw)
-- ★ **2015-11-29** — Meets Annie at the Uniontown Country Club, in the rain — *"I met someone that instantly changed my life"*  
+- ★ **2015-11-29** — Meets Annie at the Uniontown Country Club, in the rain. *"I met someone that instantly changed my life"* is said **to Annie herself**, at 03:28, roughly an hour afterwards — not to a third party about her. Same evening, to Zachariah: *"Things are collapsing with lex"  
   ↳ [[wiki/people/alexis-armel]] · The end, in one day
+- ★ **2015-11-29** — Evidence 3 — Identity tied to relationships:** On 2015-11-29 (day three of the relationship), Annie writes: "YOU ARE MY EVERYTHING" and "You are my full life." Her sense of self is not built on internal principles or achievements — it is built on who she loves and who loves her.  
+  ↳ [[wiki/people/annie-ulmer-personality-assessment]] · Evidence for Fi (Auxiliary)
 - ★ **2015-11-29** — And the love in these earliest weeks reads as real by any plain measure: on day three of the record (Nov 29, 2015) Annie wrote "YOU ARE MY EVERYTHING" and "You are my full life," at a moment when nothing about the relationship yet required managing him.  
   ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
+- ★ **2015-11-29** — the car-for-eviction conditional  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - ★ **2015-11-29** — Andre** — at the bar on Annie's birthday  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - ★ **2015-11-29** — "I met someone that instantly changed my life"* quoted without address  
@@ -1491,34 +1569,46 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · 2015-2016 Annie Relationship Start
 - ★ **2015-11-29** — November 29, 2015:** Dan met Annie in person, at the Uniontown Country Club golf course around 2am in the rain, and left Alexis within a day; Alexis moved out **December 1**.  
   ↳ [[wiki/timeline/periods/uniontown-return-2013-2015]] · The Alexis endgame and the switch
+- ◆ **2015-11-29** — The hand-read of the Annie corpus (annie record) shows Dan stating it outright on **2015-11-29 at 14:54**, about Alexis, while working out why she will not leave the house:  
+  ↳ [[wiki/mind/synthesis/supply-network]] · Supply named as the bond, in real time, in 2015
 - ◆ **2015-11-29** — Annie's pre-Dan nude leak** (2015-11-29, 03:17) — distinct from the MyFreeCams history and from the 2018 blackmail episode already on her page.  
   ↳ [[wiki/timeline/annie-read-notes]] · 2. Open leads
+- · **2015-11-29** — On 2015-11-29 Suz phones to say Dan *should* date Annie, and the reason she gives is that the name fits the family — *"I.e.  
+  ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The switch was brokered, and paid for
 - · **2015-11-29** — Dan meets Annie in person (golf course, rain  
   ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The timing (verified against raw)
+- · **2015-11-29** — Annie says she will *"get rid of him just like you just did"* on 2015-11-29 at 02:52.  
+  ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The displaced partner retaliates, within three days
 - · **2015-11-29** — meets Annie in person  
   ↳ [[wiki/mind/synthesis/the-unbroken-bond]] · The switch, at the resolution of days
 - · **2015-11-29** — the same night, outbound: *"Things are  
   ↳ [[wiki/mind/synthesis/the-unbroken-bond]] · The switch, at the resolution of days
-- · **2015-11-29** — same evening, to Zachariah: *"Things are collapsing with lex"  
+- · **2015-11-29** — Dan names the tie holding her in the house: *"Ahhhh I know why she isn't leaving / Or like HASNT left / …she doesn't have another drug source"  
   ↳ [[wiki/people/alexis-armel]] · The end, in one day
+- · **2015-11-29** — On the night of the golf-course meeting her family and a partner are with her: *"my fam and dude are here and are going to force me to leave with them"* (2015-11-29 01:35).  
+  ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
 - · **2015-11-29** — The same day (Nov 29, 2015, 18:34) also carries Casey warning Dan off an unnamed woman ("Dude that's a slippery slope with her man...  
   ↳ [[wiki/people/casey-bondarenka]] · Late 2015: the friend-circle friction
-- · **2015-11-29** — "turd boy" / "dude"** — **Annie's own partner at the time**, present with her family on Nov 29  
-  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
-- · **2015-11-29** — she says she will *"get rid of him"* — **no page — unnamed, high priority  
-  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-29** — On 29 November 2015 she telephones Dan to say he *should* date Annie, and the reason she gives is that the name fits the family — *"I.e.  
+  ↳ [[wiki/people/suzanne-frank]] · Brokering the switch, November–December 2015
+- · **2015-11-29** — Promotes the Annie match  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
+- · **2015-11-29** — He is physically present through the night of 2015-11-29 and is the mechanism by which Dan leaves the house undetected — *"Harshman leaving soon, so I'll have him drop me and say I'm going to his house"* (01:33).  
+  ↳ [[wiki/people/zachariah-harshman]] · What the Annie corpus adds, and one thing it does not
 - · **2015-11-29** — Shu** — rearranged Dan's living room *"more dab friendly"*  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-11-29** — leaves for Philadelphia Nov 29 — **no page — recurring, likely supply  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-11-29** — later floated as Alexis's possible alternate drug source — **no page  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
-- · **2015-11-29** — Who is "turd boy"?** Annie's partner as of 2015-11-29.  
-  ↳ [[wiki/timeline/annie-read-notes]] · 2. Open leads
 - · **2015-11-29** — "YOU ARE MY EVERYTHING"* on "day two/three"  
   ↳ [[wiki/timeline/annie-read-notes]] · 4. Corrections queue
 - · **2015-11-29** — supply as a binding mechanism, documented late  
   ↳ [[wiki/timeline/annie-read-notes]] · 4. Corrections queue
+- · **2015-11-29** — Supply Network — Supply as a binding mechanism, documented late — **applied 2026-08-17  
+  ↳ [[wiki/timeline/annie-read-notes]] · Corrections queue
+- · **2015-11-29** — supply network  
+  ↳ [[wiki/timeline/annie-read-notes]] · Synthesis pass — 2026-08-17 (window 2015-11-28 → 2015-12-31)
 - · **2015-11-29** — Annie was leaving someone too, and says so.** *"my fam and dude are here and are going to force me to leave with them"* (01:35); Dan refers to him as *"turd boy"* (02:49); Annie: *"I don't like him.  
   ↳ [[wiki/timeline/annie-record]] · November
 - · **2015-11-29** — Dan's own read on why Alexis can't leave: supply.** *"Ahhhh I know why she isn't leaving / Or like HASNT left / ...she doesn't have another drug source"* (14:54).  
@@ -1529,16 +1619,30 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/annie-record]] · November
 - · **2015-11-29** — Zachariah Harshman is the cover story and the alibi.** *"Harshman leaving soon, so I'll have him drop me and say I'm going to his house"* (01:33); *"Just me and Harshman here now"* (03:56); *"Oh hey Zac"* (04:14).  
   ↳ [[wiki/timeline/annie-record]] · November
+- ★ **2015-11-30** — Suzanne also served as Dan's **earliest documented cocaine provision node** — delivering cocaine to Dan and Annie at 05:02 on 2015-11-30, with a car made conditional on completing the eviction, and supplying them both routinely through 2015–16.  
+  ↳ [[wiki/health/cocaine]] · Family context
+- ★ **2015-11-30** — The same window adds Suz as an earlier node than any in the table above — cocaine delivered at 05:02 on 2015-11-30 with a car made conditional on completing the eviction, and a further supply on 2015-12-31 (*"She only had 300 total so I got like 120"*).  
+  ↳ [[wiki/mind/synthesis/supply-network]] · Supply named as the bond, in real time, in 2015
+- ★ **2015-11-30** — He is there buying beer for Alexis at 00:39 on 2015-11-30 while the eviction is being staged, and drives Dan on errands that afternoon.  
+  ↳ [[wiki/people/casey-bondarenka]] · Late 2015: the friend-circle friction
+- ★ **2015-11-30** — The "Casey saga."** Whatever Dan called *"bombastic"* on 2015-11-30 moved to  
+  ↳ [[wiki/people/casey-bondarenka]] · Gaps
 - ★ **2015-11-30** — joint $100 buy Nov 30, with a birthday bonus for Annie — **no page — named supply node  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - ★ **2015-11-30** — Dan's laptop** — missing during Alexis's move-out  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - ★ **2015-11-30** — Annie floats moving in, on day three.** *"Okay lemme pack up my life and death and start moving my shit in. lol lolol jkjkjkjk"* → Dan: *"NO JK!!!!"* (13:28–13:29).  
   ↳ [[wiki/timeline/annie-record]] · November
+- ◆ **2015-11-30** — A "Morgantown homeboy" node is named on 2015-11-30 in a joint $100 purchase.  
+  ↳ [[wiki/mind/synthesis/supply-network]] · Supply named as the bond, in real time, in 2015
 - ◆ **2015-11-30** — Casey Bondarenka is three weeks old as a friend.** *"Casey will never stfu here"* / *"He just started hanging out with us last week"* (13:47–13:48).  
   ↳ [[wiki/timeline/annie-record]] · November
+- · **2015-11-30** — Roughly fifteen hours later, at 05:02 on 2015-11-30: **"Suz just came to check on me, brought me a line, and told me she'd get me a car this week if I get Alexis out."  
+  ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The switch was brokered, and paid for
 - · **2015-11-30** — "Alexis is sloshed"*  
   ↳ [[wiki/people/alexis-armel]] · The end, in one day
+- · **2015-11-30** — He also negotiates the missing-laptop question with Alexis on 2015-11-30.  
+  ↳ [[wiki/people/zachariah-harshman]] · What the Annie corpus adds, and one thing it does not
 - · **2015-11-30** — "Morgantown homeboy"** — drug source in Morgantown WV  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-11-30** — Harshman intercedes — thread, not entity  
@@ -1562,7 +1666,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **December 2015** — The floods at relationship onset (Dec 2015) and termination (2025–26), already documented on bond switch 2015, are the extreme tails of this same burst distribution.  
   ↳ [[wiki/mind/synthesis/message-circadian-latency]] · Burstiness — Dan writes in tight machine-gun runs
 - ★ **December 2015** — Camming came up within weeks of the relationship's start, in December 2015, and by 2018 the couple was streaming jointly on Chaturbate as **smashonista** (confirmed live August 18, 2018; a Patreon followed in October 2019; Annie separately ran an OnlyFans).  
-  ↳ [[wiki/people/annie-ulmer]] · The architecture: kink, camming, and the economy around it
+  ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
 - ★ **December 2015** — The relationship is steady and low-conflict across the corpus (709 messages, December 2015 – March 2026), and its defining quality is political alignment: she is Dan's ideological peer inside the family, arriving at the same materialist-left positions from her own direction, and she doubles as a…  
   ↳ [[wiki/people/vanessa-frank]] · Vanessa C. Frank
 - ★ **December 2015** — Multiple: Breakup with Lex ("Call him and be like. Listen I broke up with lex, I'm in love with Annie Ulmer"); First Date notes; Moved; Got Hired; Panic Attack; Arrest refs in context of prior. 39 events in Dec alone. (See 2015-2016 period)  
@@ -1575,14 +1679,20 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/the-deferred-audit]] · Predictions
 - ◆ **December 2015** — The Mechlings sit inside Annie's extended family, and the corpus records that adjacency casually and often: Christmas visits ("my family is going to the Mechlings around 4"), a Memorial Day BBQ in 2016 that Dan attends and Annie negotiates around, and a December 2015 exchange in which Dan and Annie…  
   ↳ [[wiki/people/betherin-mechling]] · The family position
+- ◆ **December 2015** — The two-sided December 2015 hand-read shows her taking an active part in the transition from Alexis to Annie, on a compressed timeline.  
+  ↳ [[wiki/people/suzanne-frank]] · Brokering the switch, November–December 2015
 - ◆ **December 2015** — Vanessa's own 709-message thread, which begins in December 2015, never mentions it, which places the episode either before that date or outside the record entirely; no amount, duration, date, or resolution is recorded, and there is no indication anywhere of whether she knew, whether she was repaid…  
   ↳ [[wiki/people/vanessa-frank]] · The ATM card
 - · **December 2015** — SLOPPP's run to December 2015.  
   ↳ [[wiki/mind/synthesis/alias-as-periodization]] · Gaps
 - · **December 2015** — warm correspondence to Feb 2025 — **~10 years  
   ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · The members against the rule
+- · **December 2015** — She buys from Jim Vrabel in her own name across a decade, supplies Dan and Annie with cocaine routinely through 2015–16 (the December 2015 two-sided record has him collecting from her several times a week), and the Cash App account the supply-era transfers ran through was installed at Dan's request…  
+  ↳ [[wiki/mind/synthesis/supply-network]] · RE-CHECKED [2026-08-18]
 - · **December 2015** — The timing on the public record matches exactly: Dan's Twitter handle **@Lo_weez** debuts as his "new primary" relational tag in December 2015 ("worlds best girlfriend"), continuing through 2016 with matching personal texture ("Girlfriend drinks too much Cherry Coke"), in the same window that…  
   ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
+- · **December 2015** — Should I ask Jim?"*), and in 2015–16 she is a routine cocaine source for Dan and Annie — the two-sided December 2015 record has him going to her house for it several times a week, including *"Suz said she's getting her NYE zgurd at 1pm."* Her own comment on the world she had ended up inside, sent…  
+  ↳ [[wiki/people/suzanne-frank]] · Gambling, drinking, and the Uniontown supply economy
 - · **December 2015** — Vicki (`+17248808079`, 234 messages, December 2015 – April 5, 2018) was the longest-serving non-family caregiver on Fran's rotation — present in the thread from at least January 2016, more than two years before the end — and one of the people who, per Dan's correction of the record, "stayed with…  
   ↳ [[wiki/people/vicki]] · Vicki
 - · **December 2015** — Annie entered as a former MyFreeCams model (disclosed; Dan knew via his ex and was drawn to it); first camming discussion between them came within weeks (Dec 2015), seeding the later smashonista/arrangement era.  
@@ -1593,38 +1703,290 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The timing (verified against raw)
 - ★ **2015-12-01** — breakup ("I'm in love with Annie Ulmer"), first  
   ↳ [[wiki/mind/synthesis/the-unbroken-bond]] · The switch, at the resolution of days
+- ★ **2015-12-01** — Dan fell in love the day he met her.** *"I fell in love with you the day I met you"* (05:15); Annie: *"You have no idea / How hard it was / To not try to talk to you / The first time I saw you"* (05:15–05:16).  
+  ↳ [[wiki/timeline/annie-record]] · December
 - ★ **2015-12-01** — Alexis moves out of 155 Virginia ("Helping lex leave").  
   ↳ [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · 2015-2016 Annie Relationship Start
 - ★ **2015-12-01** — Breakup with Lex ("I'm in love with Annie Ulmer"); "Is this the best day of my life"; Moved; Got Hired (Mom/parents squash attempt due to rep); Panic Attack; First Date ("our almost first date"); Arrest context.  
   ↳ [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · 2015-2016 Annie Relationship Start
 - ★ **2015-12-01** — November 29 – December 1, 2015 closes the Alexis era and opens the Annie relationship — which inherits the apartment, the town, and the alias identity mid-transition, and runs from here to 2026.  
   ↳ [[wiki/timeline/periods/uniontown-return-2013-2015]] · Transition
-- · **2015-12-01** — Resume at `bin/annie-corpus read 2015-12-01`.** Size the next window with `bin/annie-corpus days 2015-12` — December 2015 is 12,000 messages across 31 days and is the onset flood, so it will take several sessions on its own.  
-  ↳ [[wiki/timeline/annie-record]] · Reading progress
+- · **2015-12-01** — By 2015-12-01 Dan is removing him: *"Im calling Vanessa"*, and on 2015-12-02 he is formally asked to stay away.  
+  ↳ [[wiki/people/casey-bondarenka]] · Late 2015: the friend-circle friction
+- · **2015-12-01** — Donna** — Annie's manager at the bar  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-01** — knows about the Alexis situation  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-01** — tells Annie "don't go to Bruce about the schedule" — **no page — recurring  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-01** — Bruce** — Annie's employer (bar)  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-01** — called to ask about the schedule  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-01** — connected to Annie's dad ("besties from high school") — **no page — employer  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-01** — Alexis leaves, and the laptop is recovered by force.** Dan wakes early: *"I think she's leaving really early this am I am so excitedddd."* Then, at 05:04: *"Got my head bashed against the cabinet and pretended to call the cops.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-01** — Dan asks Annie on a first date.** *"Can we do date this week"* (09:39); *"I'm gonna plan / The best first date"* (09:40).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-01** — Annie's eye is scratched.** Annie wakes with a scratch under her eye — she assumes Alexis got her in her sleep (*"Omg did lex punch my eye in my sleep"*, 12:12).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-01** — Casey is removed from the house.** Dan: *"Im calling Vanessa to make sure Casey doesn't come here anymore"* (10:34).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-01** — Rick and the job search.** Dan: *"I might have an interview already boo / Vapor Hut hahah"* (11:11–11:12).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-01** — Annie arrives.** Annie walks to Dan's; they are together by mid-afternoon.  
+  ↳ [[wiki/timeline/annie-record]] · December
 - ★ **2015-12-02** — "Listen I broke up with lex, I'm in love with Annie Ulmer"*  
   ↳ [[wiki/people/alexis-armel]] · The end, in one day
+- ★ **2015-12-02** — Evidence 1 — Emotionally driven decision-making:** On 2015-12-02, when her mother objects to the relationship, Annie writes: "I'd rather lose all of them then to not be with you." This is not a logical argument — it is an emotional declaration.  
+  ↳ [[wiki/people/annie-ulmer-personality-assessment]] · Evidence for Fi (Auxiliary)
 - ★ **2015-12-02** — The bulk of the thread (Nov 29 – Dec 2, 2015) documents Casey inserting himself into Dan's household during a period of relationship turbulence with Alexis: he asks bluntly whether he can pursue her if things end ("if you're breaking things with Alexis...  
   ↳ [[wiki/people/casey-bondarenka]] · Late 2015: the friend-circle friction
 - · **2015-12-02** — *"Alexis only left yesterday"  
   ↳ [[wiki/people/alexis-armel]] · The end, in one day
+- · **2015-12-02** — Evidence 3 — Stimulus-seeking through direct engagement:** Annie's drug use escalates through direct physical experimentation: snorting → pricking (2015-12-02) → attempting to shoot up (2016-01-05: "I did try to shoot this morning..  
+  ↳ [[wiki/people/annie-ulmer-personality-assessment]] · Evidence for Se (Dominant)
 - · **2015-12-02** — Within days he was already afraid of losing Annie — "I'm really really scared that you won't want this anymore," December 2, 2015, written before there was anything to betray — and that fear, present from literally the third day of the documented record, became the organizing force of the next…  
   ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
+- · **2015-12-02** — The man is never named in this window**, and identifying him is the highest-priority open lead on annie read notes — he is *not* established to be Emilio, who enters the record on 2015-12-02.  
+  ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
+- · **2015-12-02** — He is also blamed by both Dan and Annie as the likely person who told Ellen that Annie's car was at Dan's house on 2015-12-02 — the trigger for the family confrontation — though **the informant is never named** and the attribution stays unproven.  
+  ↳ [[wiki/people/casey-bondarenka]] · Late 2015: the friend-circle friction
 - · **2015-12-02** — On December 2, 2015, four days into things with Annie, he texted a friend: "I had a Franki Faris 2.0 situation earlier today...  
   ↳ [[wiki/people/franki-faris]] · Echoes in the Annie record
+- · **2015-12-02** — ellen ulmer  
+  ↳ [[wiki/timeline/annie-read-notes]] · Synthesis pass — 2026-08-17 (window 2015-11-28 → 2015-12-31)
+- · **2015-12-02** — Casey is asked to stay away.** Dan drafts a message to Casey: *"Frank u.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-02** — Dan's favorite picture.** *"OMFG my favorite picture ever in my life I love you so much Annie Ulmer"* (14:01).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-02** — Suz says something about Annie.** *"You'll be happy when you see what suz said about you"* (14:03); *"AWE SUZ"* (14:07).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-02** — Dan calls Rick.** Dan: *"I'm gonna call Rick in a few minutes"* (16:05); Annie: *"I'm proud of you"* (16:11).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-02** — Annie comes over.** *"Here I come :)"* (16:31).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-02** — Dan writes a letter to Annie's parents.** *"I'm gonna write a letter to your parents and send it to you.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-02** — Suz intervenes.** Suz arrives at Dan's, upset, bringing cleaning supplies.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-02** — Rick's offer.** (rick frank) Dan: *"I just got the weirdest message from Rick"* (23:36).  
+  ↳ [[wiki/timeline/annie-record]] · December
 - · **2015-12-02** — Dan's abandonment fear predates any betrayal: "I'm really really scared that you won't want this anymore" (Dec 2 2015).  
   ↳ [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · 2015-2016 Annie Relationship Start
+- ★ **2015-12-03** — Annie]], then *"Mbti strikes again"* — handing over the instrument, three days into the relationship  
+  ↳ [[wiki/mind/synthesis/the-commissioned-self]] · The census, and what the seventeen instances actually say
+- ★ **2015-12-03** — Alexis is using Dan.** Dan: *"I was actually scared to ask lex to quit doing drugs with me because I knew she would leave if I stopped / And it's so nice / To know that like, you couldn't be further from that"* (13:52–13:54).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- ◆ **2015-12-03** — Alexis texts Annie: *"happy 7 years. enjoy your herpes. bye"* (16:29). Dan shows Annie. Dan drafts a text to Alexis asking her to lay off Annie. Annie edits it. Dan sends it (16:56). Alexis's phone goes off at the bar.  
+  ↳ [[wiki/people/alexis-armel]] · Post-eviction hostility (Dec 2015)
+- · **2015-12-03** — RT** — messages Dan about Alexis working at the bar  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-03** — source of information about Alexis's schedule — **no page  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-03** — Scott** — hits on Alexis at the bar the same night  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-03** — friend of the family — **no page  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-03** — Sean** — "the hallway bully" from Alexis's past  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-03** — referenced in story told at the bar — **no page  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-03** — Annie arrives.** *"Hi hi hi / 930"* (09:30); *"I just woke up / I'm running around like a nut / But I'm coming!"* (09:32–09:33).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-03** — Rick's message.** *"RT just messaged me"* (12:28).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-03** — Annie goes to work.** Dan goes to the office with his mom (*"it's like take your son to work day"*, 14:00).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-03** — Alexis arrives at the bar.** Donna: *"is this the first time you two are face to face"* (14:44).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-03** — Dan texts Alexis.** Dan: *"she messaged me a little bit ago / it wasn't pretty"* (16:28).  
+  ↳ [[wiki/timeline/annie-record]] · December
 - ★ **2015-12-08** — "That was the night before I broke up with lex"  
   ↳ [[wiki/people/alexis-armel]] · The end, in one day
+- ★ **2015-12-08** — having a birthday girls' night on Dec 8  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- ◆ **2015-12-08** — her boyfriend is invited to the NYE party — **no page — friend  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-08** — Jill** — Annie's friend  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-08** — Dave** — from CT's  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-08** — calls Dan looking for Alexis on Dec 8 — **no page — CT's employee  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-08** — Chuck** — drug supplier  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-08** — has $100 of cocaine for Annie on Dec 8 — **no page — supply node  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-08** — Caribou** — Dan's friend  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-08** — in the studio with Dan on Dec 8  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-08** — starting a collective called "dat noise" — **no page — friend  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-08** — Annie is sick (withdrawal).** Annie: *"Maybe three hours all together / I literally laid there in tears"* (09:14).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-08** — Dave from CT's calls.** Dan: *"Dave from CT's just called me looking for Alexis"* (14:58).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-08** — Annie comes over.** Annie: *"I gots the cutest guy in da world"* (11:30).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-08** — Dan DJ's.** Dan: *"I dj'd for a bit and now I'm working on a track for caribou"* (20:36).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- ★ **2015-12-09** — Alexis texts Annie: *"You don't need to come in"* (13:57). Annie quits CT's.  
+  ↳ [[wiki/people/alexis-armel]] · Post-eviction hostility (Dec 2015)
+- ◆ **2015-12-09** — Jason at CMU.** Dan: *"Jason is rapping at CMU tomorrow for my sisters art show / I might DJ for his set"* (11:48–11:49).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-09** — On **2015-12-09**, eleven days after the switch, he texts her — *"Zach clingan just texted me saying 'I have to talk to you'"* (15:17).  
+  ↳ [[wiki/people/zach-clingan]] · December 2015: "THAT is who introduced me to drugs"
+- · **2015-12-09** — Nguyen's** — restaurant; Annie's dad eats there; they offer Annie a job starting Jan 1 — **no page — employer  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-09** — Dar** — Annie's friend  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-09** — does her hair on Dec 9  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-09** — jealous of Annie's happiness — **no page — friend  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-09** — Annie comes over before work.** Annie: *"I'm coming down to see my boo"* (11:07).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-09** — Dan runs errands.** Dan: *"I have to run out / To go fix the combos incident"* (11:08–11:09).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-09** — Annie comes over.** Annie: *"I wuvs you"* (13:45).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-09** — Alexis on IG.** Dan: *"Hahah right after I put that pic on ig / Alexis put something up that says 'one is more fun'"* (13:55–13:56).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-09** — Olive Garden.** Dan: *"Can we go to Olive Garden tonight? / I want salad and bread sticks / Soooo bad"* (14:42–14:43).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-09** — Zach Clingan texts Annie.** (zach clingan — *not* zachariah harshman) Annie: *"Issue / Zach clingan just texted me saying 'I have to talk to you' / And said he's going to call me"* (15:17–15:18).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-09** — Dan confronts Zach.** Dan: *"I just talked to him / Told him he doesn't know me and to stay the fuck out of my life / And to not threaten you"* (15:37–15:38).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-09** — Dan sends Zach a pic.** Dan: *"He's knows EXACtly what's going to happen but has no clue who would do it?"* (15:46).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-09** — Annie gets a bat.** Annie: *"Okay there is something in my room / Squeaking / Like an old wheel would / But it's not a wheel / It's like an animal / And I'm scared"* (20:21–20:22).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-09** — Suz meets Annie.** Suz is at Dan's, asking about Annie.  
+  ↳ [[wiki/timeline/annie-record]] · December
 - ★ **2015-12-10** — Dan sent 728 messages on December 10, 2015 alone, then 682, 363, and 679 across the following three days — the single highest four-day sent-volume anywhere in the eleven-year record apart from the relationship's own 2025–26 termination window.  
   ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
+- ◆ **2015-12-10** — Dan is taking care of her while Suz is on vacation — **no page — pet  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-10** — Lucy** — Suz's cat  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-10** — Eddie's** — restaurant; Annie is rumored to be working there; Annie's dad forbids it — **no page — employer  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-10** — Dan's honesty about cocaine.** Dan: *"Also wanted to note that I am NOT getting more from her"* (20:56).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-10** — Suz the supporter.** Suz is at Dan's, asking about Annie.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- ◆ **2015-12-11** — Annie's Christmas ideas.** Annie: *"I can't wait to do this thing for Christmas for yew / I have like ten ideas / But need to figure out how to do it all together babahha"* (11:29–11:30).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-11** — Louis CK** — comedian  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-11** — Dan asks Annie if she knows who he is — **no page — comedian  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-11** — Annie's bracelet.** Dan: *"You do lots of amazing things for me / Make me bracelets"* (11:28).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-11** — Louis CK.** Dan: *"Do you know who Louis CK is?"* (11:43).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-12** — Annie comes over.** Annie: *"Awe b I'm so excited / Sorry i passed out / I guess I a wittle sleepy!"* (16:13–16:15).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-12** — Betty is in trouble.** Annie: *"Heck no / She's in trouble / She bit me twice today and my mom / For no reason"* (16:17–16:18).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- ★ **2015-12-13** — The MyFreeCams discussion, and Dan's support.** Annie: *"if we ever move away from this hell hole / I'm gonna do mfc again.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- ★ **2015-12-13** — Dan proposes, sort of.** Dan: *"Okay so your tweet / Is why we are getting married"* (11:51).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- ◆ **2015-12-13** — Annie is trapped at the triathlon party.** Annie: *"WILLS HERE / he pulled in the drive"* (15:34).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-13** — He persists: on 2015-12-13 Annie is *"gonna go off on him about throwing shit at me the other night"*, and his own message that night is *"Honestly I just miss having fun with you!"  
+  ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The displaced partner retaliates, within three days
+- · **2015-12-13** — He is still being used as cover on 2015-12-13, when Annie tries to pass off seeing him as an excuse to her family and is caught out by her sister.  
+  ↳ [[wiki/people/zachariah-harshman]] · What the Annie corpus adds, and one thing it does not
+- · **2015-12-13** — Resume at 2015-12-13.)* **2015-12-13, ~10:06 — Annie's eye is swollen, and Dan loves it.** Annie wakes with a scratch under her eye — "LOOKS LIKE I GOT PUNCHED" (10:06).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-13** — Dan hung out with Claire, and it went well.** Dan: *"Ahhh im so relieved we finally hung with Claire last night / Big steps u no"* (10:10).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-13** — Dan names the friends who abandoned him.** Annie asks if his friends' distance is her fault.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-13** — Dan runs errands for Fran while Annie waits.** Suz wants Dan to pick up dinner for Fran.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-13** — Emilio texts Annie, and she tells him off.** Annie: *"FUCKINGG Emilio just texted me / In gonna go off on him about throwing shit at me the other night"* (21:07–21:08).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-13** — Dan reads Bruce's message about Alexis.** Bruce (friend/manager at CT's) tells Annie: *"Chris was gonna talk to you about Dan....then lexi jumped the gun and ask me to text you Wednesday and tell you this...Chris is tired of lexi"* (21:47).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-13** — The "official" question.** Dan: *"So so so so are we (or if not can we be) ~official~ / Because I didn't know and it's all I want ever in the world"* (22:49).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- ◆ **2015-12-14** — Alexis asks Dan for help. Dan refuses: *"I'm not actively trying to fuck her life up but I would neeeever do a single thing to HELP her"* (10:52).  
+  ↳ [[wiki/people/alexis-armel]] · Post-eviction hostility (Dec 2015)
+- · **2015-12-14** — Morning sex, and the Alexis contrast.** Annie: *"I love you!!!!"* (10:35).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-14** — Alexis asked Dan for help, and he refuses.** Annie: *"I can't believe she asked you that last night / Sickening"* (10:51).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-14** — The property exchange.** Dan: *"And my dick is property of Anne Ulmer / Lock and key"* (11:53).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-14** — Dan gets a recording session at Vapor Hut.** Dan: *"the owner is paying me for a recording session THIS THURSDAY"* (12:19).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-14** — Annie comes over, and the cocaine pact holds.** Annie: *"Oh hey / Day two no coca for me"* (17:43).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-14** — Annie is not on the CT's schedule.** Annie: *"So they posted this weeks schedule...  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-14** — The "peep" roleplay.** Annie: *"Peepin / Hard"* (15:35).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-15** — The "everything led up to this" day.** A quieter day — 662 messages, but fewer discrete events.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-15** — "And I am yours / For all of time."** Annie: *"And I am yours / For all of time / I can't wait to experience life together"* (17:59).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-15** — Dan's "November 24" dating.** Dan: *"I had no idea what love was until November 24, 2015"* (20:35).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- ◆ **2015-12-16** — Annie gets a shift at CT's.** Annie: *"BRUCE JUST SAID IM BARTENDING FRIDAY / COUSIN FUCKING CHRISTMAS"* (16:44).  
+  ↳ [[wiki/timeline/annie-record]] · December
 - · **2015-12-16** — 2015-12-16:** "But you HAVE to see pulp fiction. I can't believe  
   ↳ [[wiki/interests/film-canon]] · Film as proselytizing and compatibility test
+- · **2015-12-16** — "My mbti type is the most rare ;)"* — the only self-referential boast in the set  
+  ↳ [[wiki/mind/synthesis/the-commissioned-self]] · The census, and what the seventeen instances actually say
+- · **2015-12-16** — Dan cleans cars at Suz's.** Dan is working — cleaning cars at his mother's office.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-16** — Suz calls Annie "your girlfriend."** (suzanne frank) Dan: *"SAVE ONE OF THOSE FOR YOUR GIRLFRIEND / (Because she gave me two 50's)"* (16:43).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-16** — The pregnancy scare.** Annie: *"Cause I'm over two weeks late / I don't want this / I need another test"* (20:54–20:58).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-16** — Dan's "no matter what" declaration.** Dan: *"Do you know that I love you no matter what? / And that no matter what happens now or in the future that I will be right there with you to give you support you've always given me?"* (21:15).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-16** — "You're the only thing that makes life seem like magic again."** Dan: *"Anne you're the only thing that makes life seem like magic again.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-16** — The Tarantino movie date.** Dan: *"We need to see the new Tarantino movie"* (22:26).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-16** — Annie's trust issues, and Dan's response.** Annie: *"Just know how much you and I have both had trust issues in the past / And I want you to know everything"* (22:43).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-16** — Dan asks for Annie's shoe size.** Dan: *"What size shoes do you wear"* (18:41).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- ◆ **2015-12-17** — "I can't wait to be your house wife."** Annie: *"I love every single day with you / I can't wait to be your house wife"* (17:14).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-17** — "I fell asleep in middle of sayin goodnight I love you boyfriend!"** Annie's first message of the day — she fell asleep while saying goodnight.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-17** — Annie is broke, and Dan wants to help.** (estate money spine, 117 belmont circle) Annie: *"So I'm literally counting all the change I have / This is what my life has come to"* (11:12–11:15).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-19** — Email confusion, and Betty peeping.** A brief window: 16 messages.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-20** — The Annie corpus does not contain this event, and that is a channel fact rather than a contradiction.** The hand-read records **zero messages across 2015-12-20 → 12-24** (annie read notes, quantitative markers), which spans December 23 exactly.  
+  ↳ [[wiki/mind/synthesis/bond-switch-2015]] · Independent corroboration: the Zach Harshman rupture
+- · **2015-12-20** — The hand-read of the two-sided Annie corpus (annie record) covers this window and **contains no trace of the December 23 rupture** — 2015-12-20 → 12-24 carries zero messages.  
+  ↳ [[wiki/people/zachariah-harshman]] · What the Annie corpus adds, and one thing it does not
 - · **2015-12-23** — On December 23, 2015 — three weeks after Annie enters the record — Dan explodes at Zach for pulling away, and Zach's defense names the switch's exact social mechanics from the outside: he had become Alexis's "best friend other than you for the past year," spending regular time with her after the…  
   ↳ [[wiki/mind/synthesis/bond-switch-2015]] · Independent corroboration: the Zach Harshman rupture
 - · **2015-12-23** — Extending the succession earlier than previously documented, a 2015 Facebook Messenger export dates Zach Harshman's supply role to 2014, three years before the Johnny/Teddy era — the earliest dated Uniontown node on record, and one that ends in the same friction the later nodes would repeat: not a…  
-  ↳ [[wiki/mind/synthesis/supply-network]] · The succession of nodes
+  ↳ [[wiki/mind/synthesis/supply-network]] · Supply named as the bond, in real time, in 2015
 - · **2015-12-23** — At 4:21 AM on December 23, 2015, Dan sends a long, furious message accusing Zach of "vanishing into thin air" and hearing about it "second hand" — Zach had stopped bringing his supply business to the house.  
   ↳ [[wiki/people/zachariah-harshman]] · The December 23, 2015 rupture
+- ★ **2015-12-25** — Fran's nosebleed, and Dan's hospital break-out story.** Fran gets a nosebleed from too much zgurd (whiskey).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- ◆ **2015-12-25** — Merry Christmas.** Dan: *"Hi / Merry Christmas perfect"* (08:15).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-25** — Annie tells family about the hair appointment.** Annie: *"I told my family / They were like are you serious / They got so excited"* (13:30).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-25** — Annie bored at family dinner, Dan keeps her company.** Annie: *"I'm gonna need zgurd to get through this fucking family dinner with my dads fam"* (14:32).  
+  ↳ [[wiki/timeline/annie-record]] · December
 - ★ **2015-12-26** — SLOPPP** was Dan's first named production alias: a trap/festival-trap project run from SoundCloud (`soundcloud.com/sloppp`) from 2013 until a track literally titled "Goodbye Demo," posted December 26, 2015 — one month into the Annie relationship, as the MOGZART identity took over.  
   ↳ [[wiki/interests/music/aliases/sloppp]] · SLOPPP
 - ★ **2015-12-26** — No further trace of the Frank Swaney relationship, the contract, or either tentative booking survives in the corpus; SLOPPP closes out with the "Goodbye Demo" post nine months later, December 26, 2015, with no indication the management deal was ever signed.  
@@ -1637,6 +1999,68 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - ◆ **2015-12-26** — Through 2015 the alias wound down to remnant shares and demos while Twitter shows production signals weakening into gaming and consumption; the December 26, 2015 "Goodbye Demo" reads as a deliberate close-out, four weeks after meeting Annie and just as the MOGZART project (2014–16, overlapping)…  
   ↳ [[wiki/interests/music/aliases/sloppp]] · The near-management deal (March 2015)
+- ★ **2015-12-29** — A "Becca" appears on 2015-12-29 described as the ex's new girlfriend, which would make the fortnight of contact overlap a new relationship of his own.  
+  ↳ [[wiki/people/emilio]] · The three appearances
+- ★ **2015-12-29** — Dan has zgurd, and Annie peeps.** Dan: *"hi bb / my phone died 😟 / i'm atmy moms office / got zgurd"* (13:32).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-29** — Annie, 2015-12-29: *"Some people can't even get $200 to pay their rent"* → *"I want stability / Our own money / Jobs / I don't want to fall into a deeper hole than we already our in"* (23:25–23:28); Dan: *"let's cut this shit out so we can be really happy"* (23:45).  
+  ↳ [[wiki/mind/synthesis/supply-network]] · Supply named as the bond, in real time, in 2015
+- · **2015-12-29** — Becca** (2015-12-29) — described as the ex's new girlfriend; not firmly  
+  ↳ [[wiki/people/emilio]] · Gaps
+- · **2015-12-29** — Ex boyfriend drama (Becca).** Annie: *"I knew it was ex boyfriend issues / Over it"* (14:12–14:17).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-29** — Annie tells Dan about the needle incident.** (supply network) Annie: *"Speaking of....  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-29** — "You're the only thing that makes life seem like magic again."** Dan: *"Anne you're the only thing that makes life seem like magic again.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-29** — Dan gets zgurd, Annie stresses about money.** Suz gives Dan zgurd.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-29** — "Let's cut this shit out so we can be really happy."** Dan: *"I'm sorry if I've used drugs as a perk.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-30** — "Thank you for being the best friend and best girlfriend imaginable."** Dan: *"Goodnight and try to remember how happy you've made me.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-30** — Lukyan drops off greens.** Dan accidentally sends Annie a message meant for Lukyan: *"Cmon in / Oops meant to send to Lukyan.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-30** — Annie is working NYE.** Annie: *"Wow.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-30** — "You're being a pain."** Bruce to Annie: *"You're being a pain"* (13:21).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-30** — Dan gets groceries, ceiling leak.** Dan gets Hawaiian rolls from Aldi.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-30** — Annie on edge, Dan offers cocaine.** Annie: *"Well I freakin want ❄️"* (17:04).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-30** — Chuck and Luke procurement.** Annie stressed about spending.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-30** — Cooking and couscous.** Dan makes cookies and couscous.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-30** — "I will fix it" (haircut).** Dan: *"I love you Annie and I feel like the luckiest guy ever / And you slayed it on my haircut / Promise it's perfect"* (22:33).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-30** — Flowers from Dan.** Annie: *"I love you beeb thank you for being here for me.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- ◆ **2015-12-31** — Vapor Hut trip.** Dan makes a quick trip to Vapor Hut: *"VAPPPPORHUT"* (13:41).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-31** — New Year's Eve morning.** Dan: *"Good morning wonderful girlfriend"* (08:55).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-31** — Dan's bad dream.** Dan: *"I had a bad dream a minute aging / You didn't like me again / And it was turriblw"* (10:24–10:25).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-31** — "This is the first time in my whole life that I am happy to leave this past year behind."** Annie: *"This is the first time in my whole life that I am happy to leave this past year behind"* (09:52).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-31** — "Some girl here wants to meet u."** Dan: *"Some girl here wants to meet u / I love u bye have fun"* (16:11–16:12).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-31** — Annie is serving, not bartending.** Annie: *"The other bar tender just goes I just talked to Chris he said you're serving unless the bar gets busy / Dear lord Suz hurry before I lose my shit / I'm fucking livid / Beyond livid / I haven't worked in weeks / And they can't just put me behind the…  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-31** — Dan gets zgurd from Suz.** Dan: *"Okay so I have really good news and KINDA bad news / Good news is that I got the zgurd / Bad news is I'm coming down alone"* (17:29–17:31).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-31** — "Swear this is my last night."** Annie: *"Everyone is being so fucking sassy / Russ keeps yelling at me / Saying I'm not gonna make any tips / Swear this is my last night"* (20:09–20:10).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-31** — Annie makes money.** Annie: *"I did find a check for me / $60 some / And I made like $80 off two tables / Probably more than I would have made off the bar"* (21:11–21:14).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-31** — "We gotta watch the ball drop somewhere."** Annie: *"We gotta watch the ball drop somewhere"* (21:33).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-31** — Annie cashes out.** Annie: *"Dj has arrived / I cashed out in my tips. / I said I'm peacing out when Chris asked me to wait on him and Robyn"* (22:10–22:10).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-31** — "I love you more than life itself."** Dan: *"I love you too / I had pressed end before I heard you I'm sorry / I love you a lot / Sorry"* (22:20–22:22).  
+  ↳ [[wiki/timeline/annie-record]] · December
 
 ### 2016
 
@@ -1650,34 +2074,340 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - ★ **January 2016** — The capture cites three published news items — a 2015 *Herald-Standard* report on a federal forfeiture action against money seized from a Uniontown businessman in a drug raid, a Department of Justice release on 46 southwestern Pennsylvania residents charged in a Fayette County-based cocaine and…  
   ↳ [[wiki/people/joe-croftcheck]] · The federal cases
+- ★ **January 2016** — The January 2016 material is dense but it all belongs to existing pages — annie-ulmer for the relationship narrative, supply-network for the drug escalation, bond-switch-2015 for the marriage frame.  
+  ↳ [[wiki/timeline/annie-read-notes]] · Synthesis pass — 2026-08-18 (window 2016-01-01 → 2016-01-24)
 - ★ **January 2016** — Quit Job; Breakup comms with Annie; Holiday gathering (Caitlin cousin); Road trip refs; Major Decision "You know that you've changed my life"; Engagement tease Valentine's; Fran hospitalized; Moved mentions.  
   ↳ [[wiki/timeline/events/timeline]] · Major Periods (cross-checked with core residence and data)
 - ★ **January 2016** — Quit Job; Annie breakup comms + church; Holiday (Cousin Caitlin Christmas Eve); Road trip prefs; Major Decision "you've changed my life"; Valentine's engagement tease "crossing paths ring"; Fran hospitalized; Moved/job step out of town.  
   ↳ [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · 2015-2016 Annie Relationship Start
+- ◆ **January 2016** — The attachment system 531|is already operating at full activation. 532| 533|**Annie's drug use escalates to intravenous.** The record of Annie's drug 534|use in January 2016 shows a clear escalation: from snorting/smoking in 535|December, to pricking herself with a needle on Jan 2 (*"I pricked…  
+  ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
+- · **January 2016** — Expand social cost** — track friend abandonment through Jan 2016 7.  
+  ↳ [[wiki/timeline/2015-annie-read-wiki-impact-analysis]] · After January 2016 Reading
+- · **January 2016** — annie ulmer  
+  ↳ [[wiki/timeline/annie-read-notes]] · Synthesis pass — 2026-08-18 (window 2016-01-01 → 2016-01-24)
+- ★ **2016-01-01** — The month reads like a compressed version of the whole 521|relationship. 522| 523|**Dan's trust deficit, stated outright.** On New Year's morning, Dan 524|tells Annie: *"Because I've never been able to trust anyone before tbh"* 525|(2016-01-01 01:30).  
+  ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
+- ◆ **2016-01-01** — On 1 January 2016 she cut off a friend over his drinking in a message that is, structurally, the same letter she writes Dan: *"YOU have a problem with alcohol and I will no longer be party to it.  
+  ↳ [[wiki/people/suzanne-frank]] · Gambling, drinking, and the Uniontown supply economy
+- ◆ **2016-01-01** — South Hills date planned.** Annie: *"Well I just showered.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-01** — New Year's morning: "I've never been able to trust anyone before."** (annie ulmer) Annie is at McDonald's.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-01** — "Everything is like, exactly what I want."** Dan: *"It's just that this is so great.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-01** — "Are you peeping boyfriend."** Annie: *"Are you peeping boyfriend"* (01:48).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-01** — Dan slept late, Annie locked out.** Dan: *"Blah I slept so so late I just woke up"* (14:14).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-01** — Dan's alarmist texts.** Dan: *"Hey I didn't mean to sound alarmist or anything with what I sent you after you fell asleep / I just got so worried and I love you sosososo much"* (14:17).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-01** — Bruce pisses Annie off.** Annie: *"Bruce pissed me off real bad / Holy cow! / Dat suckers huge"* (14:21).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-01** — Annie's "little lady" split.** Annie: *"So i dont know what the hell happened last night / But I guess part of my little lady like split..  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-01** — "I love you more Annie Ulmer."** Dan: *"I love you more Annie Ulmer / I've been doing DAILY journal entries / I love it"* (14:33–14:34).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-01** — Suz making New Year's dinner.** Dan: *"Suz is making food for today / She asked if you wanted to come ova"* (14:37).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-01** — "Dannie mashed tatos."** Dan: *"I'm making our famous Dannie mashed tatos"* (17:05).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-01** — Suz's hair chair.** Dan: *"Suz just saw the hair chair / It's almost ready / You will have it this week!!!"* (17:22).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-01** — Gina friend request.** Annie: *"Fuxking Gina just sent me a friend request"* (17:30).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-01** — "My lady hurts so freakin bad."** Annie: *"My lady hurts so freakin bad"* (18:03).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-01** — Sugie's mom's painting.** Dan: *"My mom just told me that your grandma's mom painted this / Sugie's mom / Ellen Carroll"* (18:29–18:35).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-01** — Annie taking Claire home.** Annie: *"I am taking Claire home then coming over"* (18:49).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-01** — "Would you be able to put in 60?"** Dan: *"Did yo want to get something tonight?"* (19:43).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-01** — "You make me feel perfect."** Dan: *"Dude I had such a nice night with you / You make me feel perfect / I love you"* (23:22).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-01** — Annie in pain.** Annie: *"I am in so much pain right now"* (23:43).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- ★ **2016-01-02** — Annie's stomach killing her.** Annie: *"I just wish you could come here cause I can't move / My stomach is killing me again / I just feel like I'm going to throw up / I hate this feeling"* (20:28–20:32).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-02** — Luke drops off trees.** Dan: *"Luke stopped over and i got us some trees for our adventure tomorrow"* (01:37).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-02** — Annie's lady still hurting.** Dan: *"Is your lady still hurting today / Your ripped kitty"* (11:09).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-02** — Dan needs money from Suz.** Dan: *"Gotta grab some $ from suz before we go.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-02** — Dan forgets coat, goes to Fran's.** Dan: *"I forgot my coat in yr card / I'm going to Fran's for one sec / To give her some pillz"* (19:17–19:18).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-02** — Annie stressed, Dan offers to chill.** Annie: *"I dont know what to do this evening / What do you wanna do"* (19:34).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-02** — Pizza run.** Dan: *"What do u usually get?  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-02** — Annie pricked herself.** (annie ulmer, supply network) Annie: *"Meh"* (23:26).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-02** — "I'll throw away my last needles."** Annie: *"I mean I'll throw away my last needles. / And I love you so much / I'm just sorry I did this / I never thought I would come to this point"* (23:38).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-02** — "I need you to tell me what to do."** Dan: *"when i said i 'don't know what to do' / what i meant is that - i don't know how to keep you safe without 'telling you what to do' or potentially pushing you away"* (23:43).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- ◆ **2016-01-03** — She builds Annie a purple hair chair as a Christmas gift, asks Annie to cut her hair, and on 3 January 2016, over a thank-you note: *"don't fuck this up!  
+  ↳ [[wiki/people/suzanne-frank]] · Brokering the switch, November–December 2015
+- ◆ **2016-01-03** — "I'm rly glad you finally started."** Dan: *"I'm rly glad you finally started.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-03** — "It would be so typical of my entire life."** Dan: *"and like....it would be so typical of my entire life / to find something that makes me TRULY happy / and find the most beautiful girl in the world / who for whatever reason loves ME for who i am / and have everything be perfect / until it's just…  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-03** — Dan leaving Suz's, Jimmy Shaffer on molly.** Dan: *"i'm finally leaving suz's. luke came to rescue me. / jimmy shaffer was here....hanging out with my mom. i think he's on molly and he's acting so. fucking. weird"* (02:19–02:20).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-03** — Annie gets her period.** Annie: *"Omg I got my period"* (10:13).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-03** — Annie's cousin Caitlin.** Annie: *"Remember when I asked if you knew my cousin Caitlin from high school?  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-03** — "I would do that today with you."** (annie ulmer, bond switch 2015) Annie: *"Well I don't plan on it / Why hadn't you and the devil girl had a baby before I came and caused a storm?"* (20:36–20:37).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-03** — Annie's mom on Candy Crush.** Dan: *"Fux wid me"* (21:01).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-03** — "Quick adventure" to Sunoco and the gambling spot.** Dan: *"Quick adventure"* (21:08).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-03** — Train station, snow.** Dan: *"Train station"* (21:40).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-03** — "I hope you know I rly would marry you right now."** Dan: *"I hope you know I rly would marry you right now, and I want to start our family whenever you are ready.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-03** — Suz gushing over thank you note.** Dan: *"Suz is gushing over the thank you note / She said 'don't fuck this up!  
+  ↳ [[wiki/timeline/annie-record]] · December
+- ◆ **2016-01-04** — "I've got 100 to spend."** Dan: *"I would rather road trip tho / I've got 100 to spend / And another 100 to set aside for later :)"* (13:28–13:29).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- ◆ **2016-01-04** — Vapor Hut.** Dan: *"I'm making a trip to the hut"* (13:40).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — Dan finally gets it.** Dan: *"Finally got it.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — "Why do you always forget to do your line."** Dan: *"WHY do you always forget to do your line / I saved it alllllll night"* (12:11).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — "Between your legs is my favorite place on earth."** Dan: *"I like when you lay with my head squeeeeezed between your legs / Next to kissing you, between your legs is my favorite place on earth"* (12:15).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — "Any chance you could get fifty bad I'll get fifty and we can ride to Morgantown."** Annie: *"Any chance you could get fifty bad I'll get fifty and we can ride to Morgantown"* (12:31).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — Fran writes Dan a check.** Dan: *"She's gonna write me a check wooo"* (13:11).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — Will and Annie putting hydrogen peroxide in their ears.** Annie: *"Will and I are putting hydrogen peroxide in our ears"* (13:37).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — "We gets zgurd."** Dan: *"Wah"* (13:51).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — Suz off work at 5.** Dan: *"I'm homeeeee / Yes we can!  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — "We MAY be able to do this before 5."** Dan: *"We MAY be able to do this before 5 / She's looking into something now"* (14:29).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — Valentine's Day gift.** Annie: *"So I'm getting a head start on Valentine's Day gift for boyfriend / Well trying to lol"* (14:50).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — Bruce wants Annie's SSN over text.** Annie: *"Forgot to tell you last night Bruce texted me.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — "I won't harp on it but I will be so happy and proud if you tell me I don't need to worry tonight."** Dan: *"I won't harp on it but I will be so happy and proud if you tell me I don't need to worry tonight. / K I won't say anything else sorry sorry sorry"* (18:07).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — "For the first time in our lives, we have a real chance at having a happy life."** (annie ulmer, supply network) Dan: *"Just try to think about the fact that for the first time in our lives, we have a real chance at having a happy life and experiencing something so amazing that most people will…  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — "Do you really honestly believe me when I tell you that this is SO different?"** Dan: *"Sorry don't worry this isn't a 'bad' question / I want to word it right but didn't want you to worry"* (19:00).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — Annie done coloring mom's hair.** Annie: *"I'm all done"* (19:49).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — "First of all you don't realize how much your thank you note meant to suz."** Dan: *"Couple things / First of all you don't realize how much your thank you note meant to suz"* (19:57–19:58).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — "It's like holy shit how did I get so lucky."** Dan: *"The other thing I was gonna say was that it really stopped me last night / And I had a wtf/smell the roses moment"* (20:00).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — "I realized I've never trusted anyone before."** Dan: *"You should know too... / I realized I've never trusted anyone before"* (20:12).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — Dan feels like shit.** Dan: *"I feel like shit tonight like I'm getting sick or something 😕"* (21:22).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — "If it makes you feel a little better I didn't touch a needle."** Annie: *"I don't like you feeling down and sick 😔 it makes me sad."* (21:40).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — Betty the dog.** Dan: *"How's Betty"* (21:43).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — "I'm just trying my best.."** Annie: *"I'm just trying my best.."* (21:59).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-04** — "You're the first person to think that so it means a lot to me."** Dan: *"What are you doing girlf"* (22:17).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- ★ **2016-01-05** — When she quits her job at CT's (2016-01-05: "Wow.  
+  ↳ [[wiki/people/annie-ulmer-personality-assessment]] · Evidence for Inferior Ni
+- ★ **2016-01-05** — Annie quits CT's.** (annie ulmer) Annie: *"Wow.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-05** — Annie tried to shoot this morning.** (annie ulmer, supply network) Annie: *"So because I am always honest with you..  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-05** — Dan feels awful.** Dan: *"Hey I'm up now / I feel awful"* (12:51).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-05** — Annie's dad yelling.** Annie: *"Now I got my dad yelling at me"* (21:57).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- ★ **2016-01-06** — Valentine's Day idea.** Annie: *"Omg omg OMG I know what we're doing for vday!!!!! / WILLS BAND IS OPENING FOR NEVER SHOUT NEVER AND METRO STATION AT MR SMALLS ON VDAY"* (18:57–18:58).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-06** — "I'll be down to snug :)"** Annie: *"I love you so much hope you are feeling better!  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-06** — Dan still sick.** Dan: *"Good morning sweetie / I'm still sick :("* (09:04).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-06** — Pepperoni rolls.** Dan: *"I have more of those pepperoni rolls I made for u dat one time"* (11:42).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-06** — Will sets up Apple TV.** Annie: *"Holy shit / Wil set up the Apple TV / This is the future"* (11:56–11:57).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-06** — Annie scared she's getting sick.** Annie: *"I'm scared I'm getting sick..  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-07** — Evidence 2 — Physical caregiving as love language:** When Dan is sick (2016-01-07: "Annie I slept for 18 hours / And I think I'm dying"), Annie doesn't discuss the implications of illness — she brings medicine.  
+  ↳ [[wiki/people/annie-ulmer-personality-assessment]] · Evidence for Se (Dominant)
+- · **2016-01-07** — "Annie I slept for 18 hours."** Dan: *"Annie I slept for 18 hours / And I think I'm dying"* (09:07).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-07** — "I just feel like I came off way too attached earlier."** (annie ulmer) Annie: *"Why b"* (22:33).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-08** — "I have a much clearer idea of who she is now since she called  
+  ↳ [[wiki/people/suzanne-frank]] · Identity, lineage and the generation she was pushed out of
+- · **2016-01-08** — "Not working at all sends a pretty serious message."** Annie: *"Not working at all sends a pretty serious message..  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-08** — "Do u hate me now."** Dan: *"Do u hate me now"* (10:11).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-08** — "Am I allowed to look at yr drawing?"** Dan: *"I love you girlfriend"* (22:56).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-09** — "Aww well I'll try to gets us more."** Dan: *"Aww well I'll try to gets us more.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-09** — "I know i'm like super impatient today and i'm sorry."** Dan: *"i know i'm like super impatient today and i'm sorry and i'm trying to not be. if you want zgurd, i'm sure you still have more than i do. i literally just got one set aside for us"* (22:20).  
+  ↳ [[wiki/timeline/annie-record]] · December
 - · **2016-01-09** — Annie's own messages confirm both a shared history and lasting physical effects — "Two people with previous eating disorders together is something else" (Jan 9 2016) and, describing herself, "I know that I fucked my stomach up from having an eating disorder" (May 31 2016).  
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The eating disorder
+- ◆ **2016-01-10** — On 2016-01-10: "My body aches." On 2016-05-13: "I'm leaving now going home to shower." On 2015-12-09: "I pricked myself with a needle / I know I said I would stop / I'm trying Dan." These are not abstract reflections — they are real-time sensory reports.  
+  ↳ [[wiki/people/annie-ulmer-personality-assessment]] · Evidence for Se (Dominant)
+- · **2016-01-10** — Annie at CT's, Dan worried about driving.** Annie: *"SHES MAKING MY DRINK 😂"* (00:09).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-10** — Annie in her room.** Annie: *"I'm in my room"* (01:39).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-10** — Annie outside, cold.** Annie: *"I'm outside its cold"* (11:43).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-10** — "Def getting more tonight."** Annie: *"That'd be lovely"* (16:56).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-10** — "I can't wait to be with you for a winter night OMG."** Annie: *"We're eating in like ten min ish.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-10** — Golden Globes.** Dan: *"Oh and the golden globes are on tonight"* (17:40).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-11** — "But legal weed."** Dan: *"But legal weed"* (09:47).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-11** — Annie's doctor lowered her pill prescription.** Annie: *"My doctor lowered each pill and has me taking three at a time"* (09:51).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-12** — "I don't need to ramble."** Dan: *"I don't need to ramble.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-13** — Annie's mom dragging her to Cosmo Prof.** Annie: *"Idk.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-13** — Suz wants Annie to cut her hair.** Dan: *"But suz said she wants you to cut her before we take it"* (10:16).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-13** — "WE HIT DA FRANKS AUTO."** Annie: *"WE HIT DA FRANKS AUTO.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- ★ **2016-01-14** — Alan Rickman died.** Dan: *"Alan Rickman died"* (10:04).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-14** — Annie had a dream about having a baby.** Annie: *"I had a dream I had a baby"* (09:15).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-14** — "And I don't want u any different."** Dan: *"And I don't want u any different"* (10:47).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-14** — Annie's dentist bill.** Annie: *"My dentist bill..  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-15** — "Home love bug."** Annie: *"Home love bug"* (00:52).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-15** — "I think I wore mine twice."** Annie: *"I think I wore mine twice"* (12:13).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-16** — "Gooooood I love you."** Dan: *"Gooooood I love you"* (01:20).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-16** — Annie's long love letter.** Annie: *"I love you a whole lot"* (02:02).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-17** — "I love you so much."** Dan: *"I love you so much"* (01:51).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-17** — "You're absolutely everything to me Dan."** Annie: *"You're absolutely everything to me Dan.  
+  ↳ [[wiki/timeline/annie-record]] · December
 - ◆ **2016-01-18** — The patronage also ran in a smaller, more ordinary register: **paid work at her house, timed around her Florida winters.** On **2016-01-18** Dan tells Annie he has *"went to grams and made a list of work to do for her tomorrow"* because he needs money for a tux; Annie points out the event *"[isn't]…  
   ↳ [[wiki/people/fran-coldren]] · The patron
 - ◆ **2016-01-18** — Fran** leaves for her Florida winter ("I know but she leaves for fla this week" — Dan to Annie, explaining why he needs to finish a paid work list at his grandmother's now). Logged here because an earlier pass on 2026-08-15 misread this "she" as Alexis  
   ↳ [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · 2015-2016 Annie Relationship Start
+- · **2016-01-18** — "I love you so much."** Dan: *"I love you so much"* (00:12).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-18** — "I loves you."** Dan: *"I love you"* (00:36).  
+  ↳ [[wiki/timeline/annie-record]] · December
 - · **2016-01-18** — Alexis's only Florida residency was 2009–2010.  
   ↳ [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · 2015-2016 Annie Relationship Start
+- · **2016-01-19** — "At least the zgurd were good my jaw clenched af."** Annie: *"At least the zgurd were good my jaw clenched af."* (00:37).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-19** — "I love you and I don't care how sassy you are."** Dan: *"I love you and I don't care how sassy you are"* (00:44).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-19** — "I love you so very much Dan I'm sorry for earlier today."** Annie: *"I love you so very much Dan I'm sorry for earlier today.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-19** — Annie's dad puts air in her tire.** Annie: *"My dad came and put air in it"* (12:05).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-19** — "But OMG I love gross stuff like that."** Annie: *"But OMG I love gross stuff like that"* (12:53).  
+  ↳ [[wiki/timeline/annie-record]] · December
 - ◆ **2016-01-20** — ARD office visit to check application status  
   ↳ [[wiki/legal/2015-possession-arrest]] · Case timeline
+- · **2016-01-20** — "Have I ever told you how much I love kissing you."** Annie: *"Have I ever told you how much I love kissing you"* (00:19).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-20** — "I think boyfriend has gone to peepsville for da night."** Annie: *"I think boyfriend has gone to peepsville for da night.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-20** — Suz coming to get Dan.** Dan: *"Suz is coming to get me in a little bit"* (11:53).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-20** — "If we can find some other money or something."** Dan: *"If we can find some other money or something"* (12:01).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-20** — "I'm talking about the stuff your mom brought back Dan."** Annie: *"I'm talking about the stuff your mom brought back Dan"* (12:05).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-20** — Dan with Suz.** Dan: *"I'm with suz now"* (13:47).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-21** — "I really just need to relax."** (annie ulmer, supply network) Dan: *"I really just need to relax"* (00:13).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-21** — "I love you Dan."** Annie: *"I love you Dan"* (03:16).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-21** — (2016-01-21 read in full. 88 messages.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-22** — "Like I'm not trying to be mean and I don't want to fight."** Dan: *"Like I'm not trying to be mean and I don't want to fight"* (00:13).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-22** — "Do you understand that like I can't ever take pills or any opiates ever ever ever again."** Dan: *"Do you understand that like I can't ever take pills or any opiates ever ever ever again"* (00:18).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-22** — "Annie I can't give you the ingredients to speed ball with."** Dan: *"Annie I can't give you the ingredients to speed ball with"* (00:22).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-22** — "I just don't know how I'm supposed to react to you telling me that fucking bimel is bringing you drugs that are more addictive than the ones we're already dealing with."** Dan: *"I just don't know how I'm supposed to react to you telling me that fucking bimel is bringing you drugs that are more…  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-22** — "Did you get that stuff."** Dan: *"Did you get that stuff"* (01:02).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-22** — "Okay then we are gonna run to suz's."** Dan: *"Okay then we are gonna run to suz's"* (01:04).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-22** — "I love you Dan."** Annie: *"I love you Dan"* (03:16).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-22** — "Still waiting for suz lol."** Dan: *"Still waiting for suz lol"* (03:34).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-22** — "And implied that it's like someone in your family?"** Dan: *"And implied that it's like someone in your family?"* (03:47).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-22** — "Be careful love bug."** Annie: *"Be careful love bug"* (03:51).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-23** — "When I walked in the house, my mom looked at me and laughed so hard because of how much snow was on me!"** Annie: *"When I walked in the house, my mom looked at me and laughed so hard because of how much snow was on me!"* (00:39).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-23** — "And want some weed and granola."** Dan: *"And want some weed and granola"* (00:57).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-23** — "Arghhhh I should have told my mom there was no way of me getting home."** Annie: *"Arghhhh I should have told my mom there was no way of me getting home"* (01:07).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-23** — "I love you."** Dan: *"I love you"* (01:12).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-23** — "Laurenxlondon or something."** Annie: *"Laurenxlondon or something"* (01:24).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-23** — "I like bringing fun and different stuff in."** Annie: *"I like bringing fun and different stuff in"* (01:26).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-24** — "I really do love you I hope you know that."** Dan: *"I really do love you I hope you know that"* (00:00).  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-24** — "Well I gotta get my snow stuff it's inside still."** Annie: *"Well I gotta get my snow stuff it's inside still.  
+  ↳ [[wiki/timeline/annie-record]] · December
+- · **2016-01-24** — "I love you bb."** Annie: *"I love you bb"* (20:51).  
+  ↳ [[wiki/timeline/annie-record]] · December
 - ◆ **2016-01-25** — First fine installment paid ("$70 more to pay a month from now")  
   ↳ [[wiki/legal/2015-possession-arrest]] · Case timeline
+- · **2016-01-25** — (2016-01-25 through 2016-01-31: no messages in the corpus.  
+  ↳ [[wiki/timeline/annie-record]] · December
 - ★ **February 2016** — The "jealousy kink" is first named in the Annie relationship — the earliest dated reference to the dynamic that the rest of this table documents in practice — annie ulmer  
   ↳ [[wiki/mind/psychosexual/arrangement-history]] · Timeline
 - ★ **February 2016** — Tan Calabrese is a Fayette County area contact (724 area code, confirmed via Google Contacts) who appears in the iMessage corpus across a four-year window, February 2016 to May 2020 — spanning the start of the Annie relationship period through the early COVID lockdown.  
   ↳ [[wiki/people/tan-calabrese]] · Tan Calabrese
 - ◆ **February 2016** — Whether the fines referenced in January and February 2016 belong to this case, to the Combos matter, or to both running concurrently is not determinable from the message record — the "combos are paid off" phrasing suggests at least some of that money was the theft fine.  
   ↳ [[wiki/legal/2015-possession-arrest]] · Gaps
+- · **February 2016** — Dan's lawyer defeated the categorical bar, and ARD was granted in February 2016 — keeping his record clean.  
+  ↳ [[wiki/health/cocaine]] · Legal history
 - · **February 2016** — The orchestration pattern has primary-source corroboration going back to at least 2016 (the jealousy kink is "first named Feb 2016" per annie ulmer) and recurs across the whole decade documented in arrangement history.  
   ↳ [[wiki/mind/psychosexual/orchestration-and-voyeurism]] · The documented practice
 - · **February 2016** — Underneath the camming sat something Dan named for himself in February 2016 and never stopped naming afterward: an explicit jealousy kink, arousal drawn from watching or knowing about Annie's sexual contact with other men. "Jealousy is like the biggest kink," he wrote that month; by 2019 he was…  
-  ↳ [[wiki/people/annie-ulmer]] · The architecture: kink, camming, and the economy around it
+  ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
 - · **February 2016** — The friendship recovered.** Whatever the rupture cost at the time, it was not permanent — Tan reappears as an active corpus contact from February 2016, and remained one through the Windell's-era friendship's next visible chapter, through May 2020.  
   ↳ [[wiki/people/tan-calabrese]] · The Angelfire incident
+- ★ **2016-02-01** — Resume at `bin/annie-corpus read 2016-02-01`.** February 2016 is the second full month of the relationship.  
+  ↳ [[wiki/timeline/annie-record]] · Reading progress
 - · **2016-02-01** — "It's crazy tho Bernie sanders could  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · Bernie 2020 as the bridge
 - ★ **2016-02-12** — The first_contact: 2016-02-12 field reflects the first contact in the specific 2016–2020 CSV export thread, not the true origin of the relationship.  
@@ -1712,6 +2442,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/vicki]] · The working years (2016–2018)
 - · **2016-04-10** — 2016-04-10:** "Which means you should have seen citizen Kane, 2001 a  
   ↳ [[wiki/interests/film-canon]] · Film as proselytizing and compatibility test
+- · **2016-04-20** — 6 — annieulmr@aol.com — 3,645 — 2018-08-03 — Unknown  
+  ↳ [[wiki/self/concepts/astrology-star-signs]] · The Unknown Signs
 - ★ **May 2016** — There is one further corpus appearance worth recording: in May 2016 Dan tells Annie that Alexis once "accidentally sent me pictures of her fucking Steve Kezmarsky" — and in his last message to Steve (January 31, 2018) Dan jokes about "the classic Steve Kezmarsky opportunity move of fucking/stealing…  
   ↳ [[wiki/people/steve-kezmarsky]] · The friendship on the record
 - · **May 2016** — Parallel silences  
@@ -1722,6 +2454,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/john-felix]] · John Felix
 - ★ **August 2016** — Expected end of six-month probation → expungement eligibility  
   ↳ [[wiki/legal/2015-possession-arrest]] · Case timeline
+- ★ **2016-08-13** — "Diane and Dave went ALL out this year on a very creative and not the same thing they got last year birthday gift for gram"* — sarcasm, and the only record of either of them marking Fran's birthday  
+  ↳ [[wiki/people/dave-moore]] · What the record has him doing
 - · **2016-11-17** — Starting November 17, 2016, Jason works up a detailed colored-pencil portrait of a dog, "Betty," walking Dan through composition choices (color palettes, ink versus pencil, realistic versus abstract treatment) with genuine craft and care, quoting $85 for a 9"x12" piece.  
   ↳ [[wiki/people/jason-cole]] · The commission
 - · **2016-11-30** — "My PlayStation came" (2016-11-30) and "Is the PlayStation working?"  
@@ -1747,6 +2481,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The chain, event by event
 - · **2017** — 17,551 — Crisis / cam era  
   ↳ [[wiki/mind/synthesis/message-circadian-latency]] · Yearly volume arc, 2015–2026 — the dormant years quantified
+- · **2017** — Poverty floor on both sides  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
+- · **2017** — the "Jackson Pollock painting" message  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **2017** — 1,111 — Peak activity  
   ↳ [[wiki/self/location-history]] · Visits by Year (from semantic db)
 - · **2017** — 164 — Small uptick; LastWeekTonight start  
@@ -1757,6 +2495,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/steve-kezmarsky]] · Steve Kezmarsky
 - ★ **January 2017** — Debt/Financial Crisis (overdrawn $600 by Annie acct refs); Flight/Airport shooter ref; Death threat message; Moved to Virginia Ave with Annie/Lex prior; First Date.  
   ↳ [[wiki/timeline/events/timeline]] · Major Periods (cross-checked with core residence and data)
+- ◆ **January 2017** — In January 2017 Suz reports *"Dian is putting the brakes on the trip to Florida"* — Fran's own trip, to her own condo.  
+  ↳ [[wiki/people/diane-moore]] · What it cost, and who was in the room
 - ◆ **January 2017** — In a single January 2017 exchange he calls himself "a very sick person… A dark and tormented soul to say the least," predicts that any woman around him long enough would end up "just as fucked up as the rest of us… a drug induced comatose state for 5-10 years," and lands the thread's most striking…  
   ↳ [[wiki/people/steve-kezmarsky]] · The friendship on the record
 - · **2017-01-19** — A January 19, 2017 exchange about sunglasses escalates into an unprompted and offensive September 11 joke, then reverses into an apology within minutes ("Sorry I got carried away").  
@@ -1771,6 +2511,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/lucas-thomas]] · Corpus record
 - ◆ **2017-02-27** — Josh Brannan is a Uniontown-era friend Dan reconnects with directly once in the preserved corpus — a single warm, joking Facebook exchange on February 27, 2017 — and who otherwise persists as a recurring reference point in Dan's friendship with Jerad Friedline, where a private joke about Josh…  
   ↳ [[wiki/people/josh-brannan]] · Josh Brannan
+- · **March 2017** — Kubrick is the control that proves the unit is the set and not the subject.** film canon records Dan in March 2017: *"theres only one kubrick movie i haven't seen ... and eyes wide shut."* If the rule were "he does not repeat creators," this falsifies it — three of the eleven canon films are…  
+  ↳ [[wiki/mind/synthesis/closing-the-set]] · The controls
 - · **March 2017** — It also dates the operator's story: a plan Dan remembers as running in March 2017 was in fact negotiated in February 2018, because in March 2017 this thread did not exist.  
   ↳ [[wiki/people/danny-matthews]] · The opening evening (February 16, 2018)
 - · **March 2017** — Contact through 2016– 2018 is sparse and largely transactional — a March 2017 "desperately seeking oil" message is the last drug-adjacent ask in the record — then goes fully dormant from late 2018 to November 2020.  
@@ -1803,8 +2545,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/betherin-mechling]] · After
 - · **April 2017** — "Bub" (contacts label, real name undocumented) is a low-intensity but long-running college-friend-register contact spanning three and a half years (`+17249635394`, 86 messages, April 2017 – October 2020).  
   ↳ [[wiki/people/bub]] · Bub
-- · **April 2017** — Ellen's side of the thread is the only side reliably preserved — the export marks every row "Received," so most of what Dan sent her is not recoverable except where it survives, as the April 2017 condolence does, in the full message dump.  
-  ↳ [[wiki/people/ellen-ulmer]] · Gaps
 - · **April 2017** — The corpus confirms the machine was in service — an April 2017 message walks someone through installing "SERATO DJ and driver for numark ns7 II" — though it does not date the gift.  
   ↳ [[wiki/people/fran-coldren]] · The patron
 - · **April 2017** — The NS7 II gift is undated — the corpus confirms the machine in use by April 2017 but never records its arrival, and the gift-protocol figures come from operator memory alone.  
@@ -1835,6 +2575,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/eric-jester]] · Eric Jester
 - · **May 2017** — The first is golf as friendship currency: selling his TaylorMade M2 driver, buying the new one, his irons and Scotty Cameron putter stolen from his garage (May 2017), asking Dan to price him last year's TaylorMade PSis through a connection, "Dude I wanna play golf so bad." In July 2017…  
   ↳ [[wiki/people/steve-kezmarsky]] · The friendship on the record
+- · **May 2017** — In May 2017: *"you concocted a scheme to steal my money."* In December 2025, after a Cash App transfer and a $21.99 charge to a music-sample service appeared on her PNC account: *"I DID NOT INITIATE THOSE PAYMENTS… If you had anything to do with them, you better tell me now!!!!"* And in the last…  
+  ↳ [[wiki/people/suzanne-frank]] · The ledger that never closes
 - · **May 2017** — Vaughn was a fellow Nemacolin caddie (`+17245578229`, 228 messages, May 2017 – May 2018) who doubled as one of the smallest documented nodes of the Uniontown supply network: a weed middleman without a car, relaying his "homey's" product in $20–50 quantities between loops.  
   ↳ [[wiki/people/vaughn]] · Vaughn
 - · **2017-05-11** — Ledger snapshot  
@@ -1843,6 +2585,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/the-office]] · The Michael Scott register
 - · **June 2017** — Early messages (May–June 2017) are mid-round check-ins on the course itself.  
   ↳ [[wiki/people/chad-johnson]] · Texture
+- · **2017-06-20** — "I definitely need the 20 because I'm almost out of gas and I have to go to Addison tonight"  
+  ↳ [[wiki/people/suzanne-frank]] · What she actually earned
+- · **2017-06-24** — Alongside them: *"The copay for the doctor would be about that much"* (2017-06-24), and, in February 2020, *"imagine being able to just go to the doctor or dentist when you need"* and *"the doctor thing is a really big thing for me...like, there's no reason that 50,000 people die a year because…  
+  ↳ [[wiki/health/the-configured-body]] · The missing mode, measured
 - ★ **July 2017** — "Where are you? I want out of here" / "And it really upset me" / target with mom & sister story (sister: "maybe you should move back home with mom and dad") Jul 2017  
   ↳ [[wiki/self/facebook/messages]] · Ally Lubin (dark humor peripheral, 2013)
 - ◆ **July 2017** — Christian Hanson — the retired NHL forward (Toronto Maple Leafs, son of Dave "Hanson Brothers" Hanson) — was a golf regular Dan caddied and played with around Nemacolin during 2017–2018 (`+14129950042`, 66 messages, July 2017 – June 2018).  
@@ -1865,6 +2611,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/zach-clingan]] · 2017–18: one caddie season
 - · **2017-09-27** — Date range (iMessage)  
   ↳ [[wiki/people/zach-clingan]] · Corpus record
+- · **2017-09-28** — The barrier he names is money, not fear.** Every self-directed medical sentence in the corpus is modal — *"I know you rly don't want me to go to a doctor but I'm telling you I should go"* (2017-09-28), *"i should get into a doctor for that before caddie season ends"* (2017-10-08), *"I might need to…  
+  ↳ [[wiki/health/the-configured-body]] · The missing mode, measured
+- · **2017-09-28** — "I kept telling her to make an appointment with a doctor"* (2017-06-24, about fran coldren — Fran)  
+  ↳ [[wiki/health/the-configured-body]] · The asymmetry that names the mechanism
 - ★ **October 2017** — Within about a month she failed a drug test, violated probation, and was jailed around the end of October 2017; by April 2018 she was at **SCI Muncy**, Pennsylvania's women's state prison.  
   ↳ [[wiki/people/alexis-armel]] · The Shumar years
 - ★ **October 2017** — And the friendship with Zac Shumar outlasted all of it: Dan and Zac were collaborating on an apparel side project in October 2017 while Alexis was on probation, and in July 2022 Dan was still close enough to him to report *"a 5 hour argument with Zac Shumar"* about politics.  
@@ -1899,6 +2649,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/zach-clingan]] · Corpus record
 - · **2017-10-06** — Defining event  
   ↳ [[wiki/people/urpaaa-at-yahoo-com]] · Corpus record
+- · **2017-10-08** — "I wish she would have just gone to see her doctor months ago when I told her to"* (2017-06-25)  
+  ↳ [[wiki/health/the-configured-body]] · The asymmetry that names the mechanism
 - · **2017-10-13** — Two later fragments confirm the handle's owner rather than identify them: Dan, on getting a new phone (October 13, 2017), texts that he "still hadn't updated your contact with your urpaaa email"; and in March 2018 the contact writes "I found the receipt for my Macbook in my urpaaa account.  
   ↳ [[wiki/people/urpaaa-at-yahoo-com]] · The evidence profile
 - ◆ **2017-10-18** — Starting October 18, 2017, the two co-organize an open-invite party at Dan's house, explicitly "for everyone who works in golf up there" — "literally every caddie, staging, and pro shop employee." Christo recruits attendees ("Brad and Zach to both endorse it"), handles the DJ set ("Remember that…  
@@ -1921,7 +2673,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/golf]] · Dan's own game
 - ★ **December 2017** — She manages chronic health problems of her own — she names Sjögren's disease and rheumatoid arthritis as reasons she can't reliably work back-to-back shifts — and coordinates around a December 2017 surgery in Pittsburgh, a husband or partner named Vinny, and a sister who can cover for her.  
   ↳ [[wiki/people/marla]] · Marla
-- ★ **December 2017** — Gaps:** exact date of the first spill (~late 2017?, inferred from "a few more months" plus the rotation's December 2017 start); the nursing home's name; whether the eviction was executed (Dan remained at 155 Virginia until Feb 2019 per the residence timeline); Dian V.  
+- ★ **December 2017** — Gaps:** exact date of the first spill (~late 2017?, inferred from "a few more months" plus the rotation's December 2017 start); the nursing home's name; whether the eviction was executed (Dan remained at 155 Virginia until Feb 2019 per the residence timeline); whether the March 29 eviction notice…  
   ↳ [[wiki/timeline/events/fran-death-vigil]] · Why it matters
 - ◆ **December 2017** — A running bit has Christian ribbing Dan as "you 82 shooter" in a December 2017 Christmas message, in which he also mentions buying a property "on the water" for the following summer and trades brief, casual crypto talk (a friend "riding high" on an INTV position at the January 2018 open) — neither…  
   ↳ [[wiki/people/christian-hanson]] · The relationship
@@ -1941,17 +2693,21 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/stand-up-comedy]] · He tried to do it himself
 - ★ **2017-12-29** — Age at death — **97  
   ↳ [[wiki/people/fran-coldren]] · What is now established, and from what
+- · **2017-12-30** — On 2017-12-30 Dan tells Vicki: *"She's the best I've seen her in years today so I got her talking and she said something interesting referring to Diane.  
+  ↳ [[wiki/people/diane-moore]] · Diane, Suz, and the muzzle
+- · **2017-12-30** — What Fran said about Diane** on 2017-12-30, in the one lucid conversation  
+  ↳ [[wiki/people/diane-moore]] · Gaps
 
 ### 2018
 
 - ★ **2018** — 40,514** — Maximum output (drug/relationship spiral)  
   ↳ [[wiki/mind/synthesis/message-circadian-latency]] · Yearly volume arc, 2015–2026 — the dormant years quantified
-- · **2018** — Deep-cycle velocity: ~$750/week borrowed from Suz, 1 AM ATM runs — churn  
-  ↳ [[wiki/mind/synthesis/estate-money-spine]] · The chain, event by event
+- ◆ **2018** — ends in unpaid-debt confrontation  
+  ↳ [[wiki/health/cocaine]] · The supply chain
+- · **2018** — al — Al ("Socialist") — Parallel Uniontown dealer — Explicit cocaine  
+  ↳ [[wiki/health/cocaine]] · The supply chain
 - · **2018** — Second dealer (+17243233522) — Uniontown — Parallel node in the deep cycle (operating manual)  
   ↳ [[wiki/mind/synthesis/supply-network]] · The succession of nodes
-- · **2018** — Operating manual framing.  
-  ↳ [[wiki/people/ally-lubin]] · Timeline
 - · **2018** — Arrangement formalized; smashonista confirmed (Aug 18); Patreon Oct 2019  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2018** — 1,716 — Highest (258 in Aug alone)  
@@ -1986,6 +2742,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/facebook/messages]] · Ally Lubin (dark humor peripheral, 2013)
 - · **2018-02-03** — Late on February 3, 2018, Dan evidently shared explicit photos of an unnamed woman; Vaughn's replies escalate from appraisal ("Hell yeah nipples pierced and everything") through mock-anguish ("Dan you playing wit my emotions… I thought we were friends LOL😞😞") to an offer to film ("I got a nice…  
   ↳ [[wiki/people/vaughn]] · The February 2018 night
+- · **2018-02-13** — Two independent exports agree: Google Contacts carries **Alexandra Lubin / allylubin@gmail.com / +15619061550**, and the Facebook address book — never merged, and therefore the tiebreaker — independently carries **Alexandra Lubin / allylubin@gmail.com** (uploaded Feb 13, 2018 and Oct 16, 2021).  
+  ↳ [[wiki/people/ally-lubin]] · Identity
+- ★ **2018-02-15** — "I think I'm going to move my car into the garage because I'm afraid it's going to get repossessed"  
+  ↳ [[wiki/people/suzanne-frank]] · What she actually earned
 - ◆ **2018-02-16** — The arrangement is opened.** A single twenty-minute exchange with danny matthews — Danny Matthews negotiates the first outside encounter, discloses the smashonista camming operation unprompted, and contains the sentence that fixes the chronology — "you guys would be the first couple we were with."…  
   ↳ [[wiki/mind/psychosexual/arrangement-history]] · Timeline
 - · **2018-02-16** — From the first messages (Feb 16, 2018) the tone is established: Danny and his girlfriend Nicole are an experienced but casual swinging couple ("we're not pros... but it's always been a good time for everyone"), and the four of them — plus, at points, other couples from what Danny describes as an…  
@@ -2006,6 +2766,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/johnny-dealer]] · Roles, Dates, Evidence Table
 - · **2018-02-20** — Ongoing: "On way" "Grams right?"; "Heading your way" "Five mins"; "Goin to get now"; "All gone buddy. Sorry"; "Down to last hundro"; repeated logistics ("Kill you lights when pullin in", garage meets).  
   ↳ [[wiki/people/johnny-dealer]] · Timeline
+- · **2018-02-20** — "I feel like this is my parents have rejected me."  
+  ↳ [[wiki/people/suzanne-frank]] · Identity, lineage and the generation she was pushed out of
 - · **2018-02-24** — "Goin now so ill have whatever"; "Got more idk if gonna need me"; "When you gonna be here" "Ok five ?"; "Ten?"; "Goin to get now"; "Hit you when back"; "IM ready"; "Come on up"; "Btw that was just a touch under 60"; "Hey buddy i know you usually get another fairly soon on monday"; "IM about to make…  
   ↳ [[wiki/people/johnny-dealer]] · Timeline
 - · **2018-02-25** — "Goin now"; "IM ready"; "Goin now so ill have whatever fyi"; "Hit you when back"; "When she get off"; "Ok tell her call me"; "If Yenz would happin to wanna see me again tonight fix you up with a spiecal CB:724-322-3678"; "Leavin now"; "Here"; "Still up?"; "Yeah i was gona see if you wanted somethin…  
@@ -2024,12 +2786,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/johnny-dealer]] · Timeline
 - · **2018-02-26** — "This is the new batch just got here this morning".  
   ↳ [[wiki/people/johnny-dealer]] · Timeline
+- ★ **March 2018** — In March 2018, mid-collapse, Dan's line to Suz is *"diane deserves the house in florida for sure"* and Suz's entire reply is *"Fuck Dian."* And in April 2019, a year after the death, Suz sets the sale against her own labor on Fran's remaining estate: *"fucking Dian, if she wants a cut, she will…  
+  ↳ [[wiki/people/diane-moore]] · What it cost, and who was in the room
+- ★ **March 2018** — Moore" who served the March 2018 eviction notice — is Dan's maternal grandmother, which means the Whyel coal money, the Coldren legal connection and the estate that eventually reaches Dan all descend through one person — and that person spent April 2018 sending letters barring Dan from Fran's house.  
+  ↳ [[wiki/people/fran-coldren]] · The line she comes from, and the three marriages
 - ★ **March 2018** — Living there put Dan and Annie next door to the caregiving job that defined the era: they were Fran's caregivers until her March 2018 fall — paid full-time for roughly the last six months of it (fran death vigil).  
   ↳ [[wiki/places/155-virginia-ave]] · 155 Virginia Ave
 - ◆ **March 2018** — The money came through the estate and was authorised by its trustee — in March 2018 Dan reasons that *"fred would have put the kaibosh on me being paid to watch gram if there was an ongoing issue,"* which puts Judge Adams directly in the payroll chain.  
   ↳ [[wiki/people/fran-coldren]] · The caregiving arrangement (≈October 2017 – April 2018)
-- ◆ **March 2018** — The sharpest single documented instance of the gap between the family's *intended* caregiver and its *available* one: on the morning of Fran's first major fall (~late 2017 — the filmed spill, not the final March 2018 fall), Dan reached Suz at 8:00 AM.  
-  ↳ [[wiki/people/suzanne-frank]] · The Fran vigil and the keno morning
 - · **March 2018** — In March 2018, during Fran's final decline, Ellen coordinates delivering a church flower arrangement to cheer her and mentions being "at Jim and Sugie's" — confirming that **Jim and Sugie are the names of Annie's grandparents**, resolving an open identification gap on 117 belmont circle.  
   ↳ [[wiki/people/ellen-ulmer]] · The relationship
 - · **March 2018** — Jim Vrabel was a marijuana dealer and, over two and a half years, something closer to a regular late-night hangout than a pure transaction (`+17247074184`, 313 messages, March 2018 – September 2020).  
@@ -2038,6 +2802,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/lewis-strosnider]] · Lewis Strosnider
 - · **March 2018** — Mike Hinkle is a contact based in the Jacksonville, Florida area (904 area code, confirmed via Google Contacts with two phone entries) who appears in the iMessage corpus across a 16-month window, March 2018 to July 2019.  
   ↳ [[wiki/people/mike-hinkle]] · Mike Hinkle
+- · **March 2018** — Suz, March 2018: *"if something really is going on there with my mother it's gonna be very difficult for me to find that out or to change it without physically going up there."  
+  ↳ [[wiki/people/suzanne-frank]] · Identity, lineage and the generation she was pushed out of
+- · **March 2018** — The sharpest documented instance of the gap between the family's *intended* caregiver and its *available* one is the first of Fran's major falls (~late 2017 — the filmed spill, not the final March 2018 fall).  
+  ↳ [[wiki/people/suzanne-frank]] · The keno morning
 - · **2018-03-07** — The arrangement's opening encounter — A 97-year-old's broken hip, in the house, mid-event  
   ↳ [[wiki/mind/concepts/acquisition-drive]] · What it looks like at full load
 - · **2018-03-08** — The fall on the night of **7–8 March 2018** has its own page (the fall of fran) because of what else was happening in the house that night.  
@@ -2054,6 +2822,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/stand-up-comedy]] · He tried to do it himself
 - · **2018-03-12** — Nursing-home admission — Same message: *"supposed to go to a nursing home on monday"  
   ↳ [[wiki/people/fran-coldren]] · What is now established, and from what
+- · **2018-03-12** — Active window  
+  ↳ [[wiki/people/zaco]] · Corpus dimensions
+- · **2018-03-14** — During the final admission she was calling Suz, and Suz's account on 2018-03-14 is the fullest description of her the corpus contains:  
+  ↳ [[wiki/people/diane-moore]] · Diane, Suz, and the muzzle
+- · **2018-03-14** — "Since my mother is a shit, I think it falls on me."* And, of  
+  ↳ [[wiki/people/suzanne-frank]] · Identity, lineage and the generation she was pushed out of
+- ★ **2018-03-29** — The contemporaneous record has the eviction notice served **2018-03-29**, three days before the April 1 move to the pediatric wing, and the letter being read, forwarded and lawyered on **2018-04-03**, the day before Fran died.  
+  ↳ [[wiki/people/diane-moore]] · The instrument, as the corpus actually records it
 - ★ **2018-03-29** — The second is that this sits directly against the **eviction notice served at 155 Virginia Avenue on March 29, 2018**, mid-vigil, demanding the keys.  
   ↳ [[wiki/places/117-belmont-circle]] · The eight months the house belonged to Dan
 - ★ **2018-03-29** — On March 29, 2018 — during the terminal vigil — Dan was served an eviction notice for 155 Virginia by Dian V.  
@@ -2066,8 +2842,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/concepts/acquisition-drive]] · What it looks like at full load
 - ★ **April 2018** — He handled the listing on Fran's house after her April 2018 death: an April 7, 2018 message shows him stopping by the property the same week and running into Suz there ("I told her I stopped by to extend my condolences"), and by July 11, 2019 he reports the house "finally went pending," with a…  
   ↳ [[wiki/people/danny-matthews]] · The realtor thread
-- ★ **April 2018** — She appears in the corpus almost entirely as an antagonist, and at one specific moment: in April 2018, while Fran was dying at Uniontown Hospital, Dan and Annie each received a letter informing them that they were not to be in Fran's house unsupervised and could not visit Fran without a…  
-  ↳ [[wiki/people/diane-shrum]] · Diane (Rebecca Diane Van Voorhis Shrum)
 - ★ **April 2018** — He sends condolences after Fran's death in April 2018, drawing a parallel to his own grandfather; loses a beloved cat, Gabe, on October 30, 2023, remembering him as "the cat that made me love cats" (the same date and framing that resolves the ambiguous "Gabe" death reference on jason bermejo as a…  
   ↳ [[wiki/people/eric-jester]] · The relationship
 - ★ **April 2018** — The **April 2018 cheque** is unquantified and its relationship to the 2020 distribution unestablished — Dan calls it "from grandma," which is his usual word for Fran but not exclusively so.  
@@ -2078,6 +2852,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/marla]] · The final days
 - ★ **April 2018** — Fran's death vigil, April 2018, told to  
   ↳ [[wiki/people/rick-frank]] · The relationship, corrected: warm, high-volume, and asymmetric rather than silent
+- ★ **April 2018** — Fran dies; handles the estate, memorial and house clearance alone  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - ★ **April 2018** — Gaps:** surname and precise relationship to the household (hired caregiver, family friend, or both — her "grandmother I never had" line suggests a longer history with Fran than the thread covers); whether the recorded 0-sent figure in the master dump is the known Sent-row attribution artifact…  
   ↳ [[wiki/people/vicki]] · The shape of the thread
 - ★ **Spring 2018** — In spring 2018 Dan and Annie saw Fran — his great-grandmother, whom Dan had been paid $15/hour to look after full time for the preceding six months so she could stay in her house — through her final fall, her two-week destruction in a nursing home, and her death in the Uniontown Hospital pediatric…  
@@ -2086,14 +2862,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/the-fall-of-fran]] · The year: the operator says 2017, the corpus says 2018
 - ◆ **April 2018** — Internal evidence identifies the other party as Jamie (then Jim) with high confidence, though it is not a phone/email match and so is flagged as inference rather than certainty: Dan addresses the recipient directly as "jim" twice ("jim i filmed" and "oh thank you jim, i knew there was a better…  
   ↳ [[wiki/people/jamie-mohler]] · A rediscovered thread: 422 messages, 2010–2021
+- ◆ **April 2018** — 117 belmont circle — 2017–2018 — fran coldren\ — Fran, as a paid caregiving arrangement — **None  
+  ↳ [[wiki/places/the-unpapered-address]] · Seven addresses, one structure
 - · **Spring 2018** — A recurring bit through spring 2018 has Chad asking whether Brad had sent report times and joking about his golf ambitions ("I'm going pro soon!").  
   ↳ [[wiki/people/chad-johnson]] · Texture
 - · **April 2018** — One April 2018 message asks whether he could live with Dan in town for a month before heading to a summer camp job — outcome undocumented.  
   ↳ [[wiki/people/chad-johnson]] · Texture
-- · **April 2018** — The letters themselves are described but not preserved — no scan, no quoted text, no date beyond "well before" the April 2018 admission, and no confirmation of whether they were sent by her alone, by her jointly with George, or by an attorney on the family's behalf.  
-  ↳ [[wiki/people/diane-shrum]] · Gaps
-- · **April 2018** — Her only child, Diane, is Dan's maternal grandmother, which means the Whyel coal money, the Coldren legal connection and the estate that eventually reaches Dan all descend through one person — and that person spent April 2018 sending letters barring Dan from Fran's house.  
-  ↳ [[wiki/people/fran-coldren]] · The line she comes from, and the three marriages
+- · **Spring 2018** — She appears in the corpus almost entirely as an antagonist and almost entirely at one moment: the spring of 2018, while Fran was dying, when a letter reached Dan setting rules for his presence in Fran's house, demanding the keys, and closing with the sentence *"any violation of the rules will be…  
+  ↳ [[wiki/people/diane-moore]] · Diane Moore (Rebecca Diane Van Voorhis)
 - · **April 2018** — Jim Shaffer — "not the only Jim Shaffer" in Dan's life, hence the "new" contacts-card label — is a wealthy childhood friend from the same Fayette County high-school cohort, self-described as Dan's "longest standing friend on the planet" (`+14125139408`, 894 messages, April 2018 – October 2019).  
   ↳ [[wiki/people/new-jim-shaffer]] · "New Jim Shaffer" (Jim Shaffer)
 - · **April 2018** — The wound resurfaces in April 2018 over tax paperwork, where Dan, defending Rick against a comment from **Aunt Wendy** implying Rick couldn't be trusted with his money, writes "fuck wendy, it wouldn't matter if i didn't ever see her again" and "i've never ever ever thought or accused you of…  
@@ -2102,6 +2878,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/sean-teets]] · Sean Teets
 - · **April 2018** — What he did outside the caddie yard is unrecorded — the thread has him driving down from IUP, heading to southern West Virginia, and stopping on I-79, but no occupation, and no page in the corpus places him after April 2018.  
   ↳ [[wiki/people/zach-clingan]] · Gaps
+- ★ **2018-04-01** — Speaking for her when she could not be reached.** On 2018-04-01, three days before Fran died, Dan reported the arrangement twice within eighteen minutes, and the second time with the detail that makes it strange:  
+  ↳ [[wiki/people/dave-moore]] · What the record has him doing
 - ★ **2018-04-01** — When Fran was moved to a private room in the Uniontown Hospital pediatric wing on April 1, 2018 — a room she got because she and Ira had been major donors to the hospital — it was Adams who mandated that someone be with her twenty-four hours a day so that she would not be alone when she died.  
   ↳ [[wiki/people/fred-adams]] · Judge Fred Adams
 - ★ **2018-04-01** — The pediatric death-shrine (April 1).** On April 1, 2018 — the first day of caddie season — Dan worked two loops at Nemacolin in the freezing cold, then got the call.  
@@ -2110,10 +2888,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · Dating
 - ★ **2018-04-01** — Nemacolin's own caddie season had a harder edge the same spring: **April 1, 2018** — "the first day of golf at Nemacolin, which means the first day of caddie season" — Dan worked two loops in the freezing cold before getting the call that Fran needed to go to the hospital, the opening beat of the…  
   ↳ [[wiki/work/nemacolin-caddying]] · The looper hierarchy and day trips
+- · **2018-04-01** — "i don't know if anyone wants a 45 minute roasting of diane and dave"* — Dan on whether to speak at the service  
+  ↳ [[wiki/people/dave-moore]] · What the record has him doing
 - · **2018-04-01** — Hospice began — Dan, 2018-04-05: *"put her on hospice a couple days ago"  
   ↳ [[wiki/people/fran-coldren]] · What is now established, and from what
-- ★ **2018-04-02** — The end of the vigil supplies the counterweight in Dan's own words: Suz visited the pediatric wing on April 2, 2018 and "really held herself together and made it very light spirited and happy" — the keno morning and the hospital bedside are both true, and both hers.  
-  ↳ [[wiki/people/suzanne-frank]] · The Fran vigil and the keno morning
+- ★ **2018-04-03** — "just glad that diane and dave aren't super upset, they're probably busy working through the tragedy of her death and that's why they haven't checked in on her"* — written the day before Fran died  
+  ↳ [[wiki/people/dave-moore]] · What the record has him doing
 - ★ **2018-04-03** — marla caregiver thread ("she made it thru the nite," 7:23 AM) — Death  
   ↳ [[wiki/timeline/events/the-fall-of-fran]] · The year: the operator says 2017, the corpus says 2018
 - ★ **2018-04-04** — Fran dies; estate enters administration — —  
@@ -2136,6 +2916,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/davey-fitzpatrick]] · 2018: the report-time channel
 - ★ **2018-04-05** — On April 5, 2018 — the evening after Fran died — Dan messaged Lucie with an account not preserved in this detail anywhere else in the corpus.  
   ↳ [[wiki/people/lucie-dobbin]] · The death, in Dan's own words
+- ★ **2018-04-05** — 2018-04-05, the morning after Fran's death, while writing the obituary —  
+  ↳ [[wiki/people/suzanne-frank]] · Identity, lineage and the generation she was pushed out of
 - ★ **2018-04-05** — The correspondence exists only for Fran: it begins as the caregiving intensifies in late 2015 and stops on April 5, 2018 — the day after Fran died.  
   ↳ [[wiki/people/vicki]] · The shape of the thread
 - ★ **2018-04-05** — davey fitzpatrick condolence, unprompted — Death  
@@ -2144,10 +2926,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/fran-coldren]] · The death moment, and Dan's retraction of it within 24 hours
 - · **2018-04-06** — Caregiving wage — **$15/hour  
   ↳ [[wiki/people/fran-coldren]] · What is now established, and from what
+- · **2018-04-10** — Against that: **2018-04-10**, Dan complaining — *"give me a break after arranging a hookup for you and then having you flake because you wanted to sleep."* He arranges, he presses, and he keeps a ledger of it.  
+  ↳ [[wiki/mind/psychosexual/arrangement-history]] · Limb 1: coercion — the one place the record captures initiation, it runs backwards
 - ★ **2018-04-12** — jim vrabel — Jim Vrabel — a 1:52 AM invitation, eight days after the death  
   ↳ [[wiki/places/117-belmont-circle]] · The eight months the house belonged to Dan
 - ◆ **2018-04-13** — The last message in the thread, and the reason it is a season rather than a window, arrives on **April 13, 2018**: *"Hey Dan, have you started looping yet??"* Nemacolin's 2018 caddie season had opened on April 1 — the day Dan worked two loops in the cold and then got the call that Fran was going to…  
   ↳ [[wiki/people/zach-clingan]] · 2017–18: one caddie season
+- · **2018-04-13** — "So I need $642 by the 23rd or my gas will be shut off"  
+  ↳ [[wiki/people/suzanne-frank]] · What she actually earned
 - ★ **2018-04-14** — Fronts & logistics — Repeated fronts; "Johnny had my card and got money out after midnight"; "Johnny is mia. “Joby is in hospital”." — Fronts noted ("thx again for the front"); card access incident — imessage_7249204125 (Annie thread); MASTER direct  
   ↳ [[wiki/people/johnny-dealer]] · Roles, Dates, Evidence Table
 - · **2018-04-20** — On April 20, 2018, Brad relays a complaint from another staffer (Tyler) that Dan hadn't cleaned his carts, and separately notes to another recipient that "Dan Frank booked it and didn't clean his carts at all.  
@@ -2164,6 +2950,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/places/117-belmont-circle]] · The eight months the house belonged to Dan
 - · **2018-04-27** — The identity of the April 27, 2018 caddie who slept here is unresolved.  
   ↳ [[wiki/places/117-belmont-circle]] · Gaps
+- ★ **May 2018** — In May 2018, six weeks after Fran's death, Suz wrote this to a family member who had not come to the house — and forwarded the exchange to Dan, which is the only reason the corpus has it:  
+  ↳ [[wiki/people/suzanne-frank]] · Fran, and what she says about being the one who stayed
 - ◆ **May 2018** — Caddying at a resort of Nemacolin's caliber runs a visible status ladder — "the real loopers" get called up for off-property day trips to prestige courses, and Dan's May 2018 messages capture his first such call-up as a milestone ("first time getting called up with the real loopers to take a day…  
   ↳ [[wiki/work/nemacolin-caddying]] · The looper hierarchy and day trips
 - · **May 2018** — He also floated bringing Annie into actual play rather than just spectating — "I don't know let's take her Togo play nine holes" (May 2018) and, more bluntly, "I spend all this fucking money to try to get you excit[ed] about actually playing golf" (June 2018) — and tried to get her out on the…  
@@ -2174,8 +2962,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/lucie-dobbin]] · Who she was to Fran
 - ★ **2018-05-06** — A memorial celebration followed at the Uniontown Country Club, May 6, 2018, 12–4 PM — deliberately framed, per Dan's invitation to Lucie, as "a happy occasion and something that gram would have approved of," rather than a conventional funeral.  
   ↳ [[wiki/timeline/events/fran-death-vigil]] · Sequence
-- · **2018-05-06** — Whether she attended the May 6, 2018 memorial at the Uniontown Country Club is unknown, as is whether she ever did contest the 2020 distribution — the attorney's read was that she would not, and no objection appears in anything since.  
-  ↳ [[wiki/people/diane-shrum]] · Gaps
+- · **2018-05-06** — The memorial.** Whether she attended the May 6, 2018 service at the  
+  ↳ [[wiki/people/diane-moore]] · Gaps
 - ◆ **2018-05-09** — Idk how I played as well as I did...and I still probably barely broke 90" (May 9, 2018) is as good as his self-reported scores get; a June 2017 message logs a more ordinary "Got a par 4 and then par 3 to finish." He studies the game seriously rather than just playing casually: in June 2016 he…  
   ↳ [[wiki/interests/golf]] · Dan's own game
 - · **2018-05-11** — A May 11, 2018 exchange turns hostile fast — Jimmy calls Dan out over an unspecified remark he considers ignorant, tells him "the truth sucks and hurts," and closes with "fuck off" — but the two are back on ordinary terms the next day.  
@@ -2186,6 +2974,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/work/nemacolin-caddying]] · The looper hierarchy and day trips
 - · **2018-05-23** — He rated the outing directly against his home track: "an impressive lack of golf knowledge for how long I've done the job." Two days later, on **May 23, 2018**, he was paired at Laurel Valley with **Carl** — "the head of the caddie program there and also the head of the program in Scottsdale" (TPC…  
   ↳ [[wiki/work/nemacolin-caddying]] · The looper hierarchy and day trips
+- · **2018-05-24** — That would mean I'll be moving in with you, whoever you go"* (24 May 2018) — which makes the 2024 filing the end of a six-year approach rather than a shock.  
+  ↳ [[wiki/people/suzanne-frank]] · The bankruptcy, and why 337 Saratoga was sold
 - · **2018-05-29** — "Big Lou," another caddie — staging point before a round  
   ↳ [[wiki/places/117-belmont-circle]] · The eight months the house belonged to Dan
 - ★ **June 2018** — The relationship stays warm and low-stakes throughout, with a final message in June 2018 noting Christian had gotten a club membership and was "good to go any time."  
@@ -2204,10 +2994,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/al]] · The relationship
 - · **June 2018** — A warm, brief golf-and-music friendship from June 2018 (`+17245623673`, 23 messages) — Joey invites Dan to play, and the thread's centerpiece is Dan apparently finding a pair of Joey's lost sunglasses on a gravel road ("No fucking way dude...  
   ↳ [[wiki/people/joey-superick]] · Joey Superick
+- · **June 2018** — March–June 2018 — Suboxone.** "Strips" throughout, priced in small lots: *"3 strip for 50"* (May 2), *"Well for 3 I can do 75"* (June 28), *"3 subs for 70"* (June 29).  
+  ↳ [[wiki/people/zaco]] · What he sold, and the two eras of the thread
 - · **June 2018** — The job seeded a documented cohort of its own, each with a thread in the corpus: Davey Fitzpatrick — fellow caddie in 2017, assistant caddie master in 2018, and the channel through which every report time and training assignment of Dan's last season arrived; Vaughn — a fellow caddie coordinating…  
   ↳ [[wiki/work/nemacolin-caddying]] · The caddie-yard social graph
 - ★ **2018-06-11** — By June 11, 2018 Jimmy has quit caddying outright, venting at length about the company's mismanagement: unanswered calls to a manager (Dave Assisi), long unpaid waits for loops that never materialize, and a pattern he says he'd already quit over once before, seven years earlier.  
   ↳ [[wiki/people/jimmy]] · Jimmy
+- · **2018-06-27** — "I said seriously that I would spend money to get you an escort"* — Dan → for Annie  
+  ↳ [[wiki/mind/psychosexual/arrangement-history]] · Limb 2 first: the money runs the other way, in every instance
 - ★ **Summer 2018** — It resumes with genuine warmth after Fran's death: "Sorry to hear it Dan I'm glad you got to see her smile with her eyes open an at peace... she lived a hell of a life." Through spring and summer 2018 the two trade caddy-shift logistics (report times, whether Brad had texted, a mention of another…  
   ↳ [[wiki/people/jack-rusko]] · Texture
 - · **July 2018** — By July 2018 the two are planning to both take the **FAA Part 107** commercial-drone certification and "build our own commercial business for viewing buildings for construction companies." Dan floats seed money from the pending Fran estate — "in a few months they will wrap up the estate and I'll…  
@@ -2220,24 +3014,48 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/trevor]] · Corpus record
 - · **Summer 2018** — The Belmont Circle usage does not resolve it, but it supplies the missing option: through the spring and summer of 2018 he had somewhere else to be, one lot away, and he was using it.  
   ↳ [[wiki/places/117-belmont-circle]] · The eight months the house belonged to Dan
+- · **2018-07-13** — "if you are legitimately unable to not SHIT YOUR PANTS then go to a fucking doctor"* (2018-10-11)  
+  ↳ [[wiki/health/the-configured-body]] · The asymmetry that names the mechanism
+- · **2018-07-15** — "I just ran out of the apartment to get him to a doctor asap"* (2023-10-29, the cat)  
+  ↳ [[wiki/health/the-configured-body]] · The asymmetry that names the mechanism
 - ◆ **2018-07-24** — On July 24, 2018, Dan tells David — in confidence, "because I will be chastised for irresponsible spending" — that he'd just bought a **DJI Mavic Platinum**.  
   ↳ [[wiki/people/david-beard]] · The middle drone
+- ★ **August 2018** — In August 2018 — four months after Fran's death and **two years before the distribution actually landed** — Dan drew down roughly $20,000 against the expected estate and transferred about **$14,000 of it to his mother.** Her own itemised statement of it survives, sent 3 October 2018: *"Dan to…  
+  ↳ [[wiki/mind/synthesis/estate-money-spine]] · The direction the spine had backwards
 - ★ **August 2018** — Dan's verdict on it, to Tom in August 2018, is unambiguous and unusually generous: *"She honestly got a bad break… She stayed loyal to Zac,"* and Zac *"got a good lawyer and fucked her over."* His own puzzlement, delivered in real time to Jamie Mohler ten months after the arrest, is the same…  
   ↳ [[wiki/people/alexis-armel]] · The Shumar years
+- ★ **August 2018** — In August 2018 — four months after Fran died and two years before the estate actually distributed — Dan told her he was going to "take out $20k to float me until the estate is wrapped up (fingers crossed) and I'm going to add your number on top of that." He then set about reducing the frequency of…  
+  ↳ [[wiki/people/suzanne-frank]] · The ledger that never closes
 - ★ **August 2018** — Elsewhere in the corpus (an August 2018 message and a 2018 exchange with Tom) Dan self-mockingly frames the piece as evidence of being "a scumbag... immature" for getting it — "a literal misfits tattoo" is invoked more than once, by Dan and by others, as shorthand for arrested-development…  
   ↳ [[wiki/self/tattoos]] · Misfits: skull in a pizza slice, and a second Misfits piece
 - · **August 2018** — An August 2018 exchange has Dan and Joe jointly reconstructing the band's full setlist from memory, years later.  
   ↳ [[wiki/interests/music/bands/batteries-not-included]] · The setlist
 - · **August 2018** — ~2018–present — annie ulmer  
   ↳ [[wiki/mind/psychosexual/arrangement-history]] · Timeline
+- · **August 2018** — Dan draws ~$20,000 against the undistributed estate and transfers ~$14,000 of it to Suz  
+  ↳ [[wiki/mind/synthesis/estate-money-spine]] · The chain, event by event
+- · **August 2018** — $4,000 later recovered — −$10,000 net, Dan → Suz  
+  ↳ [[wiki/mind/synthesis/estate-money-spine]] · The chain, event by event
 - · **August 2018** — Literally it's MORTIFYING to remember being less than thrilled about playing songs with an anti-Iraq-war theme." He contrasts this with his 2021 self — "a 32 year old who has an 'antifascistche action' flag in his apartment and who went out of state to door knock for Bernie last year" — and closes…  
   ↳ [[wiki/people/joe-oshnack]] · "An annoying little conservative fuckcunt"
 - · **August 2018** — Gaps:** whether either outreach was answered or led anywhere; how Dan and Sean know each other; no contact before 2017 or after August 2018.  
   ↳ [[wiki/people/sean-teets]] · Corpus record
+- · **August 2018** — In August 2018, negotiating: *"This leaves open the opportunity to talk to other companies and agencies without Coldwell Banker having access to that knowledge."* And per Dan's August 2020 account of a family thread, a manager there *"was really abusing the system and taking advantage of the agents…  
+  ↳ [[wiki/people/suzanne-frank]] · The realtor
+- · **August 2018** — The ~$14,000 from Dan  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
+- · **August 2018** — the itemised-ledger message  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
+- ★ **2018-08-01** — Annie, four months after the funeral: *"Wait wtf. Your mom ran into Dian and Dave today?!"  
+  ↳ [[wiki/people/dave-moore]] · What the record has him doing
+- ★ **2018-08-01** — The 2018-08-01 line is the only documented post-funeral contact between the two halves of the family, and Annie's reaction to it — *wait wtf* — is the measure of how unexpected it was.  
+  ↳ [[wiki/people/dave-moore]] · What the record has him doing
 - · **2018-08-12** — In the same August 12, 2018 conversation where Dan explains the camming operation's blackmail-resistance logic to Joe, he adds, in passing and as already completed: "We even had a threesome with my ex (the girl I left for Annie) on cam haha" — meaning Alexis.  
   ↳ [[wiki/people/joe-oshnack]] · A cam threesome reference, since narrowed
 - · **2018-08-20** — "You set the nickname for Anne Ulmer to Eggie" Aug 20 2018  
   ↳ [[wiki/self/facebook/messages]] · Ally Lubin (dark humor peripheral, 2013)
+- · **2018-08-31** — Supply.** The previously recorded role — Cash App intermediation for the Tom pipeline — is real but is the late, narrow version of something much wider, and the rail itself was Dan's idea: *"Do me a favor, download 'cash app' from the App Store"* (31 August 2018).  
+  ↳ [[wiki/people/suzanne-frank]] · Gambling, drinking, and the Uniontown supply economy
 - ★ **September 2018** — Gaps:** how Dan and Marc originally met; what the recorded music collaboration was; no contact after September 2018.  
   ↳ [[wiki/people/marc-charles]] · Corpus record
 - ★ **September 2018** — Surgery records place him in Dan's life by at least September 2018 (a two-dog surgery day on 2018-09-14, per the message-derived life-events calendar) — this predates the household's move to NYC, so Milo was acquired during the Uniontown-era relationship and made the move with them.  
@@ -2264,12 +3082,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/bill]] · The exchange
 - ◆ **2018-09-23** — The bulk of the 85-message thread is a single September 23, 2018 conversation about golf — equipment upgrades ("nothing worse than an aggressively competitive amateur golfer... yeah i mean as long as you're having fun then there's really no need to sweat the numbers"), scores creeping down from the…  
   ↳ [[wiki/people/marc-charles]] · Golf, September 2018
+- · **2018-09-27** — "I need money for gas, milk, shampoo, toothpaste more than anything"  
+  ↳ [[wiki/people/suzanne-frank]] · What she actually earned
 - ★ **October 2018** — The relationship cools noticeably but doesn't end: report-time texts and shift offers resume within days and continue through the 2018 season, including an April 22 message forwarding two names (Trevor Bains, Nathan Younkin) as fellow caddies, and Brad closing out the corpus in October 2018 with a…  
   ↳ [[wiki/people/brad-hubeaut]] · The April 2018 friction
 - ◆ **October 2018** — Before Dan, and unprompted by him:** an October 2018 message — reminiscing rather than disclosing in the moment — describes Annie having run a paid photo/video account before they started dating (pre-November 2015), and being blackmailed by men threatening to expose it to people who knew her; the…  
   ↳ [[wiki/people/annie-ulmer]] · Before Dan
-- ◆ **October 2018** — Bruce Burish was a caddying-era friend (he references missing Nemacolin) who resurfaces for one dense, explicit five-day conversation in October 2018 (`+17249848911`, 181 messages, Oct 23–27) after Dan tells him he and his girlfriend are starting a webcam show together.  
-  ↳ [[wiki/people/bruceburish]] · Bruce Burish
+- · **October 2018** — Bruce Burish is a Fayette County contact (724 area code, confirmed via Google Contacts) and a caddying-era friend — he opens by referencing missing Nemacolin — who resurfaces for one dense, explicit five-day conversation in October 2018 and then disappears from the corpus entirely.  
+  ↳ [[wiki/people/bruce-burish]] · Bruce Burish
 - · **October 2018** — Sporadic, low-effort check-ins follow ("You working today dude?", "You duckin me bro or you just busy?"), with a final October 2018 message noting Casey now has a medical marijuana card and offering to "float" Dan.  
   ↳ [[wiki/people/casey-bondarenka]] · Later contact (2017–2018)
 - · **October 2018** — Nearly every report time Dan worked that season arrived through this channel ("8:30 report," "12 report," about twenty of them, March through October 2018), along with training assignments, float days, and the affectionate management of a caddie he plainly liked.  
@@ -2278,8 +3098,16 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/davey-fitzpatrick]] · Corpus record
 - · **October 2018** — David Beard is a golf-course-adjacent Uniontown contact — his own messages reference "work" rain delays and a Tim Griglack's band hangout "down behind number 5 on course below your home," placing him inside the same Nemacolin/Belmont Circle geography as Dan's caddying network — whose short but…  
   ↳ [[wiki/people/david-beard]] · David Beard
+- · **October 2018** — The October 2018 ledger message is the clearest artifact: "Dan to Suzanne $1000 $14,000+ Sum of transactions on app Suzanne to Dan (past week) $450." This is not abstract record-keeping—it's a concrete, line-by-line accounting of specific amounts and specific dates.  
+  ↳ [[wiki/people/suzanne-frank-personality-assessment]] · Evidence for Si (Dominant)
+- · **October 2018** — The October 2018 ledger is the clearest example. 2.  
+  ↳ [[wiki/people/suzanne-frank-personality-assessment]] · Behavioral Experiments
+- · **October 2018** — I can eat dinner and I have $80 in free play and I'll be back after the 9:00 drawing"* (Oct 2018).  
+  ↳ [[wiki/people/suzanne-frank]] · Gambling, drinking, and the Uniontown supply economy
 - · **October 2018** — By mid-October 2018, with Alexis presumably still in the final stretch of her sentence or newly out, Annie is already the one pushing for contact: on **October 13** she asks about a photo Dan sent ("Is that alexis..") and Dan deflects ("Probably not... just forget it").  
   ↳ [[wiki/timeline/events/annie-alexis-reunion-november-2018]] · Before: skepticism and the "useful tool" framing (October 13-27)
+- · **2018-10-03** — The clearest artifact is a message Suz sent at 6:34 on the morning of 3 October 2018.  
+  ↳ [[wiki/people/suzanne-frank]] · The ledger that never closes
 - · **2018-10-12** — The earliest well-documented piece, and now precisely dated via a direct Facebook Messenger thread with the artist: Dan first messages **Chris Redmond** — a Uniontown-area artist (his own messages place him near Cheat Lake and Hopwood, "coming down the mountain" for appointments) — on October 12…  
   ↳ [[wiki/self/tattoos]] · Misfits: skull in a pizza slice, and a second Misfits piece
 - · **2018-10-13** — Body art.** tattoos records a Misfits skull inside a pizza slice, inked on the forearm on 13 October 2018 at roughly 3" × 1.5" — and the reasoning Dan gives for it, in a November 2018 exchange, is entirely about the band: he did not want the conventional Crimson Ghost variant *"where it looks like…  
@@ -2288,10 +3116,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/tattoos]] · The list
 - · **2018-10-16** — The "full sleeve" idea documented below as a Brooklyn-era pursuit actually originates three months earlier, with Chris Redmond: by October 16, 2018 Dan is already asking to "start discussing concept for a sleeve," and by November 25 he's explicit about the aesthetic — "working it into a full sleeve…  
   ↳ [[wiki/self/tattoos]] · The sleeve ambition starts in Uniontown, not Brooklyn
+- ◆ **2018-10-18** — "Find two escorts that you would be into and I'll set it up"* — Dan → third party  
+  ↳ [[wiki/mind/psychosexual/arrangement-history]] · Limb 2 first: the money runs the other way, in every instance
 - · **2018-10-18** — A **second, previously undocumented Misfits piece** follows quickly: on October 18, 2018, Dan asks Chris to ink a green-lettering Misfits band-logo design directly beneath the pizza slice on the same forearm, explicitly calling it "this most cliché tattoo" — done October 22.  
   ↳ [[wiki/self/tattoos]] · Misfits: skull in a pizza slice, and a second Misfits piece
 - · **2018-10-22** — Misfits logo (green lettering) — Band's own logo lettering, unmodified — Forearm, beneath the pizza slice — Chris Redmond  
   ↳ [[wiki/self/tattoos]] · The list
+- ◆ **2018-10-25** — Outreach to a NYC provider: *"we'll pay above rate"*, signed **Annie** — couple → third party  
+  ↳ [[wiki/mind/psychosexual/arrangement-history]] · Limb 2 first: the money runs the other way, in every instance
 - ★ **2018-10-26** — The first corpus trace of money movement is a Cash App note from October 26, 2018 — "Emaly Minerd just accepted the $50 payment you sent today" — and she is already a node in his referral economy: the next day he texts Annie "Lololol shout out Emaly with the callback" and, tellingly, "What would…  
   ↳ [[wiki/people/emaly-minerd]] · Transactional opening
 - · **2018-10-26** — 1 — First money trace: Cash App "Emaly Minerd just accepted the $50 payment"  
@@ -2303,7 +3135,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **November 2018** — It nevertheless keeps producing, because it is where Dan met Menore, and that connection reactivates in November 2018 and runs until February 2025.  
   ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · Why the endings are not endings
 - ★ **November 2018** — First, **the network survives every biographical rupture.** It spans both cities, every job, every relationship era; when Dan returned to NYC in November 2018 after a 5.5-year absence, Menore answered in one minute and resumed the exact prior service without renegotiation.  
-  ↳ [[wiki/mind/synthesis/supply-network]] · The succession of nodes
+  ↳ [[wiki/mind/synthesis/supply-network]] · Supply named as the bond, in real time, in 2015
 - ★ **November 2018** — Weeks after her release, in November 2018, Alexis and Annie became sexually involved in a recurring six-week arrangement that Dan opened by offering **$3,000** for her to be, in his words, "a plaything for Annie," and which ran from that transactional start through a birthday-night encounter and…  
   ↳ [[wiki/people/alexis-armel]] · Paid back in
 - ★ **November 2018** — Nothing in the corpus records how she learned about Annie, or whether the two women had any relationship as coworkers before the November 2018 arrangement.  
@@ -2326,6 +3158,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · The measurement: dormancy involves no decay
 - · **November 2018** — Zach Hendricks (self-styled "Zaco") is a Fayette County contact (724 area code, two phone numbers in Google Contacts — one under "Zach," one under "Zack") who appears in the iMessage corpus with 58 messages across an eight-month window, March–November 2018.  
   ↳ [[wiki/people/zach-hendricks]] · Zach Hendricks
+- · **November 2018** — One night in November 2018 — cocaine, and Dan initiates.** After five months of silence the thread reopens on November 26 with the only sustained outbound run in it: *"Hey dude / Hit me up if you're around.  
+  ↳ [[wiki/people/zaco]] · What he sold, and the two eras of the thread
 - · **November 2018** — Whether the November 2018 rose concept discussed with Chris Redmond ever got inked in Uniontown, was carried to Brooklyn and became the Weidrick rose, or remains a separate unfinished piece is unresolved — the Chris Redmond thread ends December 20, 2018 without a completion message, and the…  
   ↳ [[wiki/self/tattoos]] · Gaps
 - ★ **2018-11-01** — The thread goes quiet after early July and resurfaces once, on November 1, 2018, with Al demanding repayment: "It's been months and you haven't gave me my money yet so I'm asking you one time only please give me my money," followed by a curt "Sweet and short you stop calling me" — read as Al…  
@@ -2333,7 +3167,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2018-11-02** — The thread ends the day Dan tells him about New York: the final conversation (November 2, 2018) is Davey absorbing the news — "you guys gonna move there for a bit? … Wow dude that's serious!  
   ↳ [[wiki/people/davey-fitzpatrick]] · Davey Fitzpatrick
 - ◆ **2018-11-03** — The earliest identified instance predates the arrangement's "formal" 2018 start and involves someone from Dan's own history rather than a stranger: days after Alexis's release from a year at SCI Muncy, she and Annie were together at Dan and Annie's house with Dan present (Nov 3, 2018) — full…  
-  ↳ [[wiki/people/annie-ulmer]] · The architecture: kink, camming, and the economy around it
+  ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
 - ◆ **2018-11-03** — Alexis-Annie reunion, days after Alexis's SCI Muncy release  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2018-11-03** — By November 3, 2018, Dan is telling Annie "I'm surprised honestly that you don't feel much better after seeing my convo with Emaly.  
@@ -2342,6 +3176,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/menore]] · Identity & Role
 - ★ **2018-11-05** — Photo: November 5, 2018 birthday-night scene** (taken from vlcsnap-2026-08-09-16h22m50s481.png)  
   ↳ [[wiki/timeline/events/annie-alexis-reunion-november-2018]] · Visual Atmosphere
+- · **2018-11-08** — I need 8 of them"* (2018-11-08) and *"Need 8"* (2019-02-13) — with *"I only got 8 when I got back"* (2019-03-25) confirming the unit is countable and pre-portioned rather than weighed.  
+  ↳ [[wiki/people/menore]] · Service Model & Operating Characteristics
 - · **2018-11-16** — Eric also supplies the only pre-2025 dated sighting of Dunn as an active presence rather than a punchline: on November 16, 2018 he reports "Dunn is down in that neighborhood right now… He was snapping me videos of full sail" — Dunn back at the Orlando campus itself, sending unprompted nostalgia…  
   ↳ [[wiki/people/eric-jester]] · The relationship
 - · **2018-11-16** — The earliest dated sighting outside this thread is November 16, 2018, in Eric's thread: "Dunn is down in that neighborhood right now.  
@@ -2352,6 +3188,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/emaly-minerd]] · Master timeline
 - · **2018-11-27** — In a November 27, 2018 exchange with Emaly Minerd — who compliments the tattoo and asks directly why he chose a pizza slice over the band's standard imagery — Dan explains the design process: he didn't want the conventional Misfits "Crimson Ghost" variant "where it looks like it's in a coffin with…  
   ↳ [[wiki/self/tattoos]] · Misfits: skull in a pizza slice, and a second Misfits piece
+- ◆ **2018-11-28** — "Initially I offered her $3000 to be a plaything for Annie"* (alexis armel) — Dan → third party  
+  ↳ [[wiki/mind/psychosexual/arrangement-history]] · Limb 2 first: the money runs the other way, in every instance
 - · **2018-11-28** — On November 28, 2018, Dan gives her the fullest retrospective account anywhere in the corpus of how his then-current arrangement with Alexis began — including the detail that he'd "initially" offered Alexis $3,000 to be "a plaything for Annie" — while also telling Emaly the two women's actual…  
   ↳ [[wiki/people/emaly-minerd]] · The in-person window and the arrangement
 - · **2018-11-28** — 1 — Arrangement narrated in full ("$3000 to be a plaything for Annie")  
@@ -2368,7 +3206,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/tattoos]] · The sleeve ambition starts in Uniontown, not Brooklyn
 - ★ **December 2018** — Annie/Alexis reunion.** A six-week recurring arrangement between Annie and Dan's ex, alexis armel — Alexis, days after Alexis's release from a year in prison. Opens with a skeptical, explicitly transactional framing (Dan describes Alexis as "a really useful tool"), escalates through a…  
   ↳ [[wiki/mind/psychosexual/arrangement-history]] · Timeline
-- ★ **December 2018** — Polyak is the person who reintroduces Dan to Ally Lubin — a decade-long, one-sided idolization Dan describes outright in December 2018: "i've spent 10 years idolizing this girl i've never met as the epitome of whatever 'cool' is." Four months later, on April 18, 2019, Polyak confronts him directly…  
+- ★ **December 2018** — He found her as an internet-famous figure in the mid-2000s emo-scene internet, spent a decade watching her from a distance (*"i've spent 10 years idolizing this girl i've never met as the epitome of whatever 'cool' is"*), paid a mutual friend $25 to introduce them in December 2018, and in the…  
+  ↳ [[wiki/people/ally-lubin]] · Ally Lubin (Alexandra Lubin)
+- ★ **December 2018** — Polyak is the person who reintroduces Dan to Ally Lubin — a decade-long, one-sided idolization Dan describes outright in December 2018: "i've spent 10 years idolizing this girl i've never met as the epitome of whatever 'cool' is." Their first documented contact, however, predates Polyak's…  
   ↳ [[wiki/people/dan-polyak]] · The Ally Lubin impersonation
 - ★ **December 2018** — Annie thread refs escalate: "I saw Johnny"; "Johnny just asked me to call him?"; "Drop money with Johnny"; "I’m at Johnny’s"; "Johnny looking for you"; "tell Johnny to have 100 ready"; "Johnny is mia. “Joby is in hospital”."; "Seeing Johnny now"; "I’m going to get something from johnny"; "got…  
   ↳ [[wiki/people/johnny-dealer]] · Timeline
@@ -2384,17 +3224,25 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/steve-kezmarsky]] · The friendship on the record
 - · **December 2018** — 2018) and the Alexis arrangement (Nov–Dec 2018) fall within weeks of each other.  
   ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · Gaps
+- · **December 2018** — She is from Boca Raton, Florida; she lived in New York City around 2012–2013; she has been in North Carolina since at least December 2018, works in STEM, and lives in Charlotte.  
+  ↳ [[wiki/people/ally-lubin]] · Ally Lubin (Alexandra Lubin)
+- · **December 2018** — It files her under "Dec 2018: The Deep Cycle" as a "friend from this era,"  
+  ↳ [[wiki/people/ally-lubin]] · The operating manual (AI-secondary)
 - · **December 2018** — Geography**: Primary service zone is Manhattan Upper East Side (76th St between 1st and 2nd Ave; also 55th St between 5th & 6th Ave; Brooklyn locations Nov-Dec 2018).  
   ↳ [[wiki/people/menore]] · Service Model & Operating Characteristics
 - · **December 2018** — Retrospective mourning  
   ↳ [[wiki/people/rob-orange]] · Corpus record
+- · **December 2018** — Due to the fact that I must have won more than I spent last month"* (Dec 2018).  
+  ↳ [[wiki/people/suzanne-frank]] · Gambling, drinking, and the Uniontown supply economy
+- · **December 2018** — She was still forwarding chain-mail conservative content in December 2018 (a "Proposed 28th Amendment" petition).  
+  ↳ [[wiki/people/suzanne-frank]] · Politics
 - · **December 2018** — 2018 (peak 254 events): Multiple dealers (Johnny +17243223678), financial velocity (Cash App limits, ATM 1am), Annie shifts  
   ↳ [[wiki/timeline/events/timeline]] · Major Periods (cross-checked with core residence and data)
 - · **December 2018** — per operating Dec 2018 deep cycle.  
   ↳ [[wiki/timeline/events/timeline]] · Major Periods (cross-checked with core residence and data)
 - · **December 2018** — Per operating: Dec 2018 deep cycle notes.  
   ↳ [[wiki/timeline/periods/2018-deep-cycle]] · 2018 Deep Cycle
-- · **December 2018** — Key events (expanded):** Multiple dealers (Johnny +17243223678 etc), financial velocity (Cash App, mom borrow $750/wk, ATM 1am); Annie shifts "I made it b"; per operating Dec 2018 deep cycle; Ally Lubin; mom "around when need money".  
+- · **December 2018** — Key events (expanded):** Multiple dealers (Johnny +17243223678 etc), financial velocity (Cash App, ATM 1am runs); Annie shifts "I made it b"; per operating Dec 2018 deep cycle; Ally Lubin; mom "around when need money".  
   ↳ [[wiki/timeline/periods/2018-deep-cycle]] · 2018 Deep Cycle
 - · **2018-12-01** — Bobby invites Dan on December 1, 2018 ("Nana cumia will be there...  
   ↳ [[wiki/people/bobby-cole]] · The Chip Chipperson taping, identified
@@ -2402,6 +3250,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/stand-up-comedy]] · The specials-as-ritual layer
 - ★ **2018-12-06** — On December 6, 2018, Emaly draws an explicit line: she won't be "the kinky pawn" the couple needs to fulfill their relationship, tells Dan the only way she seems able to stay connected to him is through sex, and says she won't do that — she's put too many years into her relationship with Derek to…  
   ↳ [[wiki/people/emaly-minerd]] · The refusal and the first collapse (December 2018 – January 7, 2019)
+- · **2018-12-06** — On **December 6, 2018** Dan messages Polyak: *"Dude guess what?  
+  ↳ [[wiki/people/ally-lubin]] · The introduction Dan paid for
+- · **2018-12-06** — Sephora gift card  
+  ↳ [[wiki/people/ally-lubin]] · The measurements
+- · **2018-12-06** — Where did the December 6, 2018 conversation happen?** It is the origin of  
+  ↳ [[wiki/people/ally-lubin]] · Gaps
 - · **2018-12-06** — 1 — Emaly draws the line: "I won't be the kinky pawn"  
   ↳ [[wiki/people/emaly-minerd]] · Master timeline
 - · **2018-12-06** — offers friendship only  
@@ -2410,11 +3264,29 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/steve-kezmarsky]] · The father's fall
 - · **2018-12-09** — Status at last mention  
   ↳ [[wiki/people/steve-kezmarsky]] · Corpus record
+- · **2018-12-12** — $25.00 to Polyak, memo "For introducing me to Ally Lubin" (FB payments ledger)  
+  ↳ [[wiki/people/ally-lubin]] · The measurements
+- · **2018-12-12** — $250 Cash App, stated intent  
+  ↳ [[wiki/people/ally-lubin]] · The measurements
+- ◆ **2018-12-17** — Christmas gift, address requested  
+  ↳ [[wiki/people/ally-lubin]] · The measurements
+- · **2018-12-17** — The iMessage record opens five days later, on **December 17, 2018**, at `allylubin@gmail.com`.  
+  ↳ [[wiki/people/ally-lubin]] · The introduction Dan paid for
+- · **2018-12-17** — iMessage total** — **1,987** — **1,293** — **694  
+  ↳ [[wiki/people/ally-lubin]] · The measurements
+- · **2018-12-17** — Dan's *"Oh act surprised, like I'm not a garbage person."* These are **two separate exchanges on two days**: Dan's line is 2018-12-17 16:07:23, responding to her comparing an object to the size of his bed; hers is 2018-12-18 02:04:17, about Sylvia limping.  
+  ↳ [[wiki/people/ally-lubin]] · The operating manual (AI-secondary)
+- · **2018-12-17** — 19 — allylubin@gmail.com — 907 — 2026-08-20 — Cancer (same as #19 above)  
+  ↳ [[wiki/self/concepts/astrology-star-signs]] · The Unknown Signs
+- · **2018-12-20** — "So did you ever determine your mbti type?"* — following up on someone else's test  
+  ↳ [[wiki/mind/synthesis/the-commissioned-self]] · The census, and what the seventeen instances actually say
 
 ### 2019
 
 - ★ **2019** — NYC move, 158 events.  
   ↳ [[wiki/timeline/events/timeline]] · Major Periods (cross-checked with core residence and data)
+- · **2019** — annoying — Annoying (unidentified) — Short-term NYC dealer — Explicit cocaine; $300/ball, $8ball/280  
+  ↳ [[wiki/health/cocaine]] · The supply chain
 - · **2019** — live stand-up.** The dated NYC club run and the open-mic  
   ↳ [[wiki/mind/synthesis/interests-as-era-markers]] · The marker series
 - · **2019** — 20,153 — NYC / disengagement  
@@ -2433,12 +3305,28 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/emaly-minerd]] · Who she was
 - · **January 2019** — Gaps:** how Dan and Shannon connected professionally; Dan's own side of the conversation; whether the January 2019 follow-up was ever answered; any other real estate drone clients beyond this one instance.  
   ↳ [[wiki/people/shannon]] · Corpus record
+- · **January 2019** — See ally lubin, "January 2019: the month the export lost."  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · CORRECTED [2026-08-20] — the page's strongest evidence was a hallucination of the wiki's own making
 - · **2019-01-07** — 1 — Month silence breaks  
   ↳ [[wiki/people/emaly-minerd]] · Master timeline
 - · **2019-01-07** — Dan: no room for "friends who aren't hookups"  
   ↳ [[wiki/people/emaly-minerd]] · Master timeline
 - · **2019-01-08** — She surfaces twice as a worried mother unable to reach her daughter directly — January 8, 2019 ("Can't get Annie to answer") and February 16, 2020 ("Haven't heard from Annie.  
   ↳ [[wiki/people/ellen-ulmer]] · The relationship
+- ◆ **2019-01-09** — On January 9, 2019, unprompted and inside ninety minutes, she writes *"Ily btw"*, then *"Single handedly supportingnmy skin care routine so I can be ur future ex wife"*, then *"When you want to be a power couple LMK"*, and — after Dan says he sent her a love letter after knowing her zero days — *"I…  
+  ↳ [[wiki/people/ally-lubin]] · January 2019: the month the export lost
+- ◆ **2019-01-09** — CBD purchase attempted and failed  
+  ↳ [[wiki/people/ally-lubin]] · The measurements
+- · **2019-01-09** — The master dump has the missing piece: **120 messages between January 6 and January 9, 2019**, on the email handle.  
+  ↳ [[wiki/people/ally-lubin]] · January 2019: the month the export lost
+- · **2019-01-09** — further "present" promised  
+  ↳ [[wiki/people/ally-lubin]] · The measurements
+- · **2019-01-09** — skin-care spending referenced by her as ongoing  
+  ↳ [[wiki/people/ally-lubin]] · The measurements
+- · **2019-01-09** — Ally's *"I want to be on your payroll tho / But you scare me"* (2019) and her *"When you want to be a power couple LMK"* (2019-01-09) are the water-sign currents running underneath the text.  
+  ↳ [[wiki/self/concepts/astrology-star-signs]] · The Scorpio-Cancer Pairing
+- · **2019-01-27** — On **2019-01-27** a confidant who had earlier received the *"$3000 plaything"* disclosure writes to Dan:  
+  ↳ [[wiki/mind/psychosexual/arrangement-history]] · Limb 3: no encounter in the corpus has drugs as its consideration
 - · **2019-01-27** — 1 — The fight: "stamp notes" book insult  
   ↳ [[wiki/people/emaly-minerd]] · Master timeline
 - · **2019-01-27** — "you'll probably be dead in the next 15 years"  
@@ -2453,6 +3341,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/john-paci]] · John Paci
 - ★ **February 2019** — 307 E 76th St, Upper East Side, was home for the entire second New York chapter — February 2019 to February 2025 — shared with Annie, and the stage for the relationship's last whole years and its rupture.  
   ↳ [[wiki/places/307-e-76th-st]] · 307 E 76th St (Manhattan)
+- ★ **February 2019** — Dan's own account of securing it, February 2019: *"the guy was willing to take us on, and said that as long as we sustain jobs the lease would be open for us on a second year."* Seven months later, on managing the renewal: *"we've made damn sure that there's not a single issue with any of our rent…  
+  ↳ [[wiki/places/307-e-76th-st]] · The rent, and the terms it ran on
+- ★ **February 2019** — leased "for Alexis," inherited by annie ulmer\ — Annie — Lease terms, rent and holder all **undocumented**  
+  ↳ [[wiki/places/the-unpapered-address]] · Seven addresses, one structure
+- ★ **February 2019** — one eviction notice  
+  ↳ [[wiki/places/the-unpapered-address]] · Seven addresses, one structure
+- ★ **February 2019** — The February 2019 messages lean toward "accepted" — he wanted a lease, his mother demanded one, and what he got was a favour — but one address is not a pattern of intent.  
+  ↳ [[wiki/places/the-unpapered-address]] · Gaps
 - ◆ **February 2019** — each time both sides confirm readiness but the thread never shows an after-the-fact confirmation the encounter occurred. Runs parallel to an ordinary, more consistently-followed-through drug-sourcing friendship. — jenn lynn  
   ↳ [[wiki/mind/psychosexual/arrangement-history]] · Timeline
 - ◆ **February 2019** — NYC 307 E 76th (high 1,082 visits) aligns with Feb 2019–Feb 2025 period.  
@@ -2471,6 +3367,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/places/155-virginia-ave]] · 155 Virginia Ave
 - · **February 2019** — Moore, demanding the keys; the residence timeline has him staying until February 2019, so the notice's outcome is undocumented.  
   ↳ [[wiki/places/155-virginia-ave]] · 155 Virginia Ave
+- · **February 2019** — 155 virginia ave — 2015–2019 — Suz owns the property  
+  ↳ [[wiki/places/the-unpapered-address]] · Seven addresses, one structure
+- · **February 2019** — He stayed until February 2019**, eleven months later.  
+  ↳ [[wiki/places/the-unpapered-address]] · The two instruments, and what happened to them
 - · **February 2019** — Manhattan · 307 E 76th St — Hard-left turn 2019 (Bernie + Chapo); market era 2020–21; Eli affair autumn 2024, discovered Jan 2025  
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
 - ★ **2019-02-01** — The `first_contact: 2019-02-01` in the infobox predates the earliest recovered Paci-thread row (2024-03-04) by five years and comes from the lease date, not from correspondence.  
@@ -2483,18 +3383,28 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/menore]] · Timeline & Phases
 - · **2019-02-12** — iMessage range  
   ↳ [[wiki/people/rj-ritchey]] · Corpus record
+- ★ **2019-02-19** — "we aren't getting a lease in nyc. We are  
+  ↳ [[wiki/places/the-unpapered-address]] · The tenure was always discretionary, and he knew it
 - · **2019-02-19** — "Yesterday I literally had the thought of  
   ↳ [[wiki/interests/stand-up-comedy]] · He tried to do it himself
+- · **2019-02-27** — "the guy was **willing to take us on**,  
+  ↳ [[wiki/places/the-unpapered-address]] · The tenure was always discretionary, and he knew it
 - ★ **March 2019** — Trinity St. Clair** — a $1,500/hour paid encounter with the adult-film performer of that name, booked days after Dan's move back to NYC ("the first thing I did"), addressed to both Dan and Annie directly. The direct thread shows two cancellations (illness, oversleeping) and ends ambiguously, but a…  
   ↳ [[wiki/mind/psychosexual/arrangement-history]] · Timeline
 - ★ **March 2019** — Clair — the adult film performer of that name, per the contact card (booking email `booktrinitystclair@gmail.com` alongside a personal one) — was a paid companion Dan and Annie booked days after Dan's March 2019 move back to New York, in the same broad March–June 2019 window as the Shelbie…  
   ↳ [[wiki/people/trinity-st-clair]] · Trinity St. Clair
 - ★ **March 2019** — Whether this Uniontown rose concept became the "old school traditional rose" Ian Weidrick executed in Brooklyn roughly ten weeks later (March 2019, below) — i.e. the plan moved with Dan to NYC before being realized — or whether it is a separate, unfinished piece is not established; see Gaps.  
   ↳ [[wiki/self/tattoos]] · The sleeve ambition starts in Uniontown, not Brooklyn
+- ◆ **March 2019** — trinity st clair, **$1,500/hour** — Dan → third party  
+  ↳ [[wiki/mind/psychosexual/arrangement-history]] · Limb 2 first: the money runs the other way, in every instance
 - ◆ **March 2019** — Clair]] booking documented separately in her own thread: Dan tells Eric he'd "paid $1500 last week to have pornstar trinity st clair come hang out with my girlfriend and i for exactly one hour" — a specific figure not preserved in Trinity's own messages, dating the encounter to roughly the last…  
   ↳ [[wiki/people/eric-jester]] · The relationship
+- ◆ **March 2019** — A Facebook business page still showing listings from six years earlier — *"It's embarrassing."* And a running interest in writing about it: notes toward *"something about my real estate experience to publish or submit to a magazine"* (March 2019), an enquiry about a non-fiction/editorial writing…  
+  ↳ [[wiki/people/suzanne-frank]] · The realtor
 - · **March 2019** — Trinity went on to function as a credibility reference in at least one later booking inquiry (July 2019). — trinity st clair  
   ↳ [[wiki/mind/psychosexual/arrangement-history]] · Timeline
+- · **March 2019** — On the specific sub-claim about the estate:** the expensive instances (Trinity March 2019, Kelly autumn 2019) predate the September 2020 estate distribution entirely (estate money spine).  
+  ↳ [[wiki/mind/psychosexual/arrangement-history]] · Limb 2 first: the money runs the other way, in every instance
 - · **March 2019** — Clyde was a NYC psychedelics dealer — LSD (150–275ug tabs), DMT (crystal and vape carts), mushrooms, and occasional xanax — who delivered directly to Dan's apartment (307 E 76th Street, apartment 17) over roughly ten months spanning 2019 (`+16469534978`, 125 messages, March 2019 – January 2020…  
   ↳ [[wiki/people/clyde]] · Clyde
 - · **March 2019** — Peak context**: March 2019 (near-daily service) aligns with Dan's highest substance consumption period; the 2024–25 resurgence is the second, previously undocumented peak, running at comparable intensity through the final NYC year.  
@@ -2511,9 +3421,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/tattoos]] · The traditional pieces: rose and flapper girl
 - · **2019-03-12** — On March 12, 2019, minutes into catching an old friend up on his life, Dan announces: "Dude you're gonna love this.  
   ↳ [[wiki/people/trinity-st-clair]] · The booking: "the first thing I did"
-- ★ **2019-03-13** — Operational Security**: Deliberately sparse communication ("discretion please" — March 13, 2019); location-based signaling (car description, street coordinates); no product names. "Need 8" is the entire transaction language.  
-  ↳ [[wiki/people/menore]] · Service Model & Operating Characteristics
-- ◆ **2019-03-25** — Single mention of "I only got 8 when I got back" (March 25, 2019) suggests pre-weighed/portioned product.  
+- ★ **2019-03-13** — Operational Security**: Deliberately sparse communication ("discretion please" — March 13, 2019); location-based signaling (car description, street coordinates); no product names.  
   ↳ [[wiki/people/menore]] · Service Model & Operating Characteristics
 - ◆ **2019-03-25** — Single oversight incident (Dan's dropped piece, March 25, 2019) — Menore immediately owns it, preempts future worry  
   ↳ [[wiki/people/menore]] · Relationship Dynamics
@@ -2523,8 +3431,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/danny-matthews]] · The opening evening (February 16, 2018)
 - ★ **April 2019** — Phase 2: Brooklyn move & intensive supply (Feb–Apr 2019)  
   ↳ [[wiki/people/menore]] · Timeline & Phases
-- · **April 2019** — Shelbie/Annie threesome.** A three-way encounter with shelbie breakiron — Shelbie Breakiron, a stripper and aspiring cam model Dan was also seeing one-on-one that spring — per Dan's own account, though the message corpus for Shelbie doesn't begin until May 15, 2019. A corroborating May 1, 2019…  
-  ↳ [[wiki/mind/psychosexual/arrangement-history]] · Timeline
+- ◆ **April 2019** — April 2019 is the single instance reconstructed from inside the couple's own thread as it happened**, and there Dan paid for a one-on-one and Annie converted it into a threesome from outside a locked door, over his live objection (*"just say fucking no next time"*).  
+  ↳ [[wiki/mind/psychosexual/arrangement-history]] · Limb 1: coercion — the one place the record captures initiation, it runs backwards
 - · **April 2019** — Phase 3: Plateau & secondary associate (Mar–Apr 2019)  
   ↳ [[wiki/people/menore]] · Timeline & Phases
 - · **April 2019** — Music / rave / DJ — EDM/rave cluster 2014–2019, Pittsburgh + NYC  
@@ -2533,14 +3441,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/facebook/messages]] · Ally Lubin (dark humor peripheral, 2013)
 - · **April 2019** — It stands as the earliest well-specified instance of the couple's non-monogamous arrangement running with a woman from Dan's own romantic history, predating the April 2019 Shelbie threesome by five months.  
   ↳ [[wiki/timeline/events/annie-alexis-reunion-november-2018]] · Annie/Alexis Reunion (November 2018)
-- · **April 2019** — A three-way sexual encounter between Dan, Annie, and Shelbie Breakiron, dated April 2019 per Dan's own account.  
-  ↳ [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] · Shelbie/Annie Threesome (April 2019)
-- · **April 2019** — Exact date within April 2019 is not established.  
-  ↳ [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] · Gaps
 - · **April 2019** — The iMessage corpus contains 290 messages (April 2019 – April 2020) from `+14159801273`, the automated dispatch number for Caviar, the food-delivery app.  
   ↳ [[wiki/work/caviar-courier]] · Caviar Courier (Gig Work)
 - · **2019-04-02** — 2019-04-02**, the same friend hands him a stage name: "Dude I came  
   ↳ [[wiki/interests/stand-up-comedy]] · He tried to do it himself
+- · **2019-04-03** — Two years' work for a client, $562.50 in commission: *"I'm a fool"  
+  ↳ [[wiki/people/suzanne-frank]] · What she actually earned
 - · **2019-04-06** — Vape pen incident** (April 6, 2019): "Let me know if you find a vape pen in your car" — suggests Dan leaving items in vehicle  
   ↳ [[wiki/people/menore]] · Operational Notes
 - · **2019-04-06** — Menore later confirms no findings  
@@ -2549,10 +3455,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/trinity-st-clair]] · What actually happened
 - · **2019-04-12** — 2019-04-12:** "im just trying to develop a solid 5 minutes because  
   ↳ [[wiki/interests/stand-up-comedy]] · He tried to do it himself
+- ◆ **2019-04-14** — shelbie breakiron — *$31 + $700* by Cash App, later *"$3700 and one amazon prime'd laptop"* — Dan → third party  
+  ↳ [[wiki/mind/psychosexual/arrangement-history]] · Limb 2 first: the money runs the other way, in every instance
+- · **2019-04-14** — Two three-way sexual encounters between Dan, Annie, and Shelbie Breakiron, on the nights of **14 April 2019** (9pm–4am) and **17 April 2019** (2am–7am).  
+  ↳ [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] · Shelbie/Annie Threesome (April 2019)
 - ◆ **2019-04-15** — The recurring want to drag people to shows: **2019-04-15**, arranging  
   ↳ [[wiki/interests/stand-up-comedy]] · The specials-as-ritual layer
-- · **2019-04-18** — On April 18, 2019, Polyak confronts Dan directly: "I woke up to a text from Ally about a missed phone call which was super confusing since I was asleep.  
-  ↳ [[wiki/people/ally-lubin]] · The impersonation conflict (April 2019)
 - · **2019-04-18** — Defining content  
   ↳ [[wiki/people/dan-polyak]] · Corpus record
 - · **2019-04-20** — Hornblower Infinity Yacht — New York, NY — Boarded at 353 West St.  
@@ -2573,8 +3481,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] · Corroborating evidence (found 2026-07-14; expanded 2026-07-14 with the full day's thread)
 - · **2019-05-03** — "Beat by Johnny" — "after getting completely beat by johnny" — Financial loss  
   ↳ [[wiki/people/johnny-dealer]] · Roles, Dates, Evidence Table
-- · **2019-05-15** — The surviving message corpus for Shelbie begins May 15, 2019 and documents a materially similar three-person coordination on June 8, 2019.  
+- · **2019-05-15** — Shelbie's own iMessage number does not begin until May 15, 2019, and documents a materially similar three-person coordination on June 8, 2019 — so the April dates were previously unfixable from Shelbie's side alone.  
   ↳ [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] · When
+- · **2019-05-15** — Shelbie's own account of either night is absent — her iMessage number begins 2019-05-15, and the two encounters sit entirely inside Annie's thread and Dan's memory.  
+  ↳ [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] · Gaps
 - ◆ **2019-05-24** — The first buy (May 24, 2019) set the pattern: Dan rode to Sam's own block — "296 side, 2nd floor staircase," off Delancey — on his Boosted board ("i just need to let my boosted board charge up for like 10 more mins," preserved in Sam's Like), paid $130 cash, and pitched himself as a regular…  
   ↳ [[wiki/people/sam]] · The operation
 - · **2019-05-30** — Phone off / MIA — "johnny phone still has been off"  
@@ -2584,27 +3494,37 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2019-05-31** — This sits inside the same spring/summer 2019 window as an unrelated but nearby reference: an outbound May 31, 2019 message from Dan lists "the abortion" alongside Fran's decline and the NYC move as major things he and Annie had "gone through together" by that point (see annie ulmer for that…  
   ↳ [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] · Significance
 - · **2019-05-31** — The other is better grounded: an outbound message from Dan dated May 31, 2019 lists "the abortion" alongside two other major shared events, in passing, as something they had "gone through together" by that point — read as Dan referencing settled history rather than disclosing something new, with no…  
-  ↳ [[wiki/people/annie-ulmer]] · What's missing
+  ↳ [[wiki/people/annie-ulmer]] · Gaps
 - ★ **June 2019** — The married Gramercy couple, Trish and Jared booked her twice in June 2019 at $1,000 for two hours; a follow-up August 2019 thread on a new number shows Dan himself, not Annie, writing as "Hazel" to ask Trish for a keepsake photo from that first session — she sent it, and Dan later confirmed the…  
-  ↳ [[wiki/people/annie-ulmer]] · The architecture: kink, camming, and the economy around it
+  ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
+- ★ **June 2019** — "I'm begging you to please help me out"*  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - ◆ **June 2019** — That same June 2019, she was working as a paid provider in her own right, under the alias **"Hazel"** (also "Lily Lush," and the joint camming handles "smashonistaa"/"sofvded").  
-  ↳ [[wiki/people/annie-ulmer]] · The architecture: kink, camming, and the economy around it
+  ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
+- · **June 2019** — By June 2019 the $14,000 had become the thing they fought about.  
+  ↳ [[wiki/people/suzanne-frank]] · The ledger that never closes
+- · **June 2019** — the 3 July ledger fight  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **2019-06-01** — June 1, 2019 (first booking).** Jared and Tricia, out at a rooftop bar near their Gramercy hotel with their girlfriend, text asking if "Hazel" is available later that night, offer to meet for drinks first, and eventually settle on a straight booking: $1,000 for two hours, confirmed against "the…  
   ↳ [[wiki/people/jaredtricia]] · The two bookings
 - ★ **2019-06-07** — On **June 7, 2019**, he sent Shelbie Breakiron her Instagram link (`instagram.com/bbblud`) along with two images — mid-way through the Shelbie relationship, in the same period Shelbie was herself building out a webcam career (see shelbie breakiron).  
   ↳ [[wiki/people/kya-hansen]] · What the corpus independently shows
 - ◆ **2019-06-08** — Shelbie asks "where's Annie gonna b" when making plans, jokes "How Annie 😒😂," and on June 8, 2019 the three of them coordinate a shared visit directly: Shelbie invites Dan and Annie over together ("U ad Annie duh"), her roommate "knows ur my bae," and — after getting her period that day — she's…  
   ↳ [[wiki/people/shelbie-breakiron]] · Annie in the arrangement
+- · **2019-06-08** — Apr 14 + 17, 2019** — **Shelbie/Annie threesomes — the row that runs backwards.** Two encounters with shelbie annie threesome april 2019, shelbie breakiron  
+  ↳ [[wiki/mind/psychosexual/arrangement-history]] · Timeline
 - · **2019-06-08** — Whether the June 8, 2019 three-way logistics text is a second occurrence of the arrangement described on shelbie annie threesome april 2019 or the same event's only trace in this handle's thread is unresolved — Shelbie's own iMessage thread starts May 15, 2019, but a May 1, 2019 fight (Annie…  
   ↳ [[wiki/people/shelbie-breakiron]] · Corpus record
+- · **2019-06-08** — The June 8, 2019 coordination remains unresolved as either a third occasion or a misdated recollection of one of these two.  
+  ↳ [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] · Gaps
 - · **2019-06-23** — June 23, 2019 (second booking).** The couple reaches back out three weeks later from the same neighborhood, again proposing drinks first before "same situation (& agreement) at our apartment as last time." "Hazel" declines the pre-drinks portion; the booking proceeds anyway, with Tricia's separate…  
   ↳ [[wiki/people/jaredtricia]] · The two bookings
-- · **2019-06-28** — I have all the screenshots of your messages with Ally, this isn't a joke, I will pursue legal action if this happens again." Two months later the direct Ally Lubin iMessage thread (452 messages, 2019-06-28 onward, documented below) begins — meaning the sustained friendship that followed was…  
-  ↳ [[wiki/people/ally-lubin]] · The impersonation conflict (April 2019)
-- · **2019-06-28** — A far larger iMessage thread than the FB record alone suggested: 452 messages at handle +15619061550, spanning 2019-06-28 to 2023-11-14 — sustained contact well beyond the 2013 FB-era friendship documented above.  
-  ↳ [[wiki/people/ally-lubin]] · iMessage Thread (merged 2026-07-14 — duplicate stub "Alexandra Lubin")
+- · **2019-06-28** — The phone-handle thread opens on June 28, 2019 with one line from her, then goes quiet until **August 7, 2019, 22:39** — *"Hi / Not good lol / Lost my job / Spiraling / Miss u."* From there to October 22 the thread runs 942 messages.  
+  ↳ [[wiki/people/ally-lubin]] · August–October 2019: the crisis market
 - ◆ **July 2019** — The 518-row iMessage thread at `+17249844280` matches the Facebook record: he knew Dan, Annie, Teddy, and Jack Rusko; followed the caddying world; and visited Dan and Annie in Manhattan in July 2019.  
   ↳ [[wiki/people/rj-ritchey]] · RJ Ritchey
+- ◆ **July 2019** — Read alongside the July 2019 line about *"all the bills I paid for in Florida, NY and at Va,"* the two named property losses — Antique Oaks and 155 Virginia Ave, the latter at roughly $135,000 — are the two largest financial events of her adult life, and both of them are houses she bought or held…  
+  ↳ [[wiki/people/suzanne-frank]] · The Winter Park condo, 2008–2010
 - ◆ **July 2019** — In July 2019, Teddy vouched to an anxious third party whom Dan had invited to New York, saying Dan would not strand him with a one-way ticket and that Dan had the money to follow through.  
   ↳ [[wiki/people/teddy]] · Dan's place in the thread
 - ◆ **July 2019** — Activity is dense and clustered rather than steady — a heavy run in April–July 2019 (over 100 assigned orders, some sessions showing back-to-back assignments minutes apart, consistent with active shift-based courier work).  
@@ -2615,10 +3535,16 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annoying]] · "Annoying" (unidentified dealer, 2019)
 - · **Summer 2019** — Del ran a NYC cannabis delivery service (contacts card lists organization "Stiiizy," the vape-cart brand) that supplied Dan through spring and summer 2019 (`+19177251279`, 65 messages, March–August).  
   ↳ [[wiki/people/del]] · Del
+- · **July 2019** — Emotional intensity about family:** The July 2019 letter is emotionally intense: "My feelings are TOTALLY VALID and the fact that you don't care, hurts deeply." She feels things deeply about her children and her role as a mother.  
+  ↳ [[wiki/people/suzanne-frank-personality-assessment]] · Evidence for Fi (Tertiary)
 - · **July 2019** — Activity clusters  
   ↳ [[wiki/work/caviar-courier]] · Corpus Dimensions
+- · **2019-07-03** — The 3 July 2019 exchange is the same shape as the terminal-phase money arguments, eleven months before the Eli affair and six years before the collapse.  
+  ↳ [[wiki/mind/synthesis/attachment-trauma-bond]] · RE-CHECKED [2026-08-18]
 - ◆ **2019-07-05** — RJ made the planned trip on July 5, 2019.  
   ↳ [[wiki/people/rj-ritchey]] · The July 2019 New York visit
+- · **2019-07-08** — The load-bearing document is a long message she sent Dan on 8 July 2019, five days after the ledger fight, which is both her fullest statement of grievance and the clearest statement of principle she makes anywhere:  
+  ↳ [[wiki/people/suzanne-frank]] · Identity, lineage and the generation she was pushed out of
 - ◆ **2019-07-09** — Brian proposes meeting from an apartment in Riverdale with a terrace, offers to send an Uber, and notes the trip would be "only 15-20min." He offers to compensate for "extras," jokes about "Hazel" needing to "get used to me," and gives Dan's own documented NYC address, 307 E 76th Street, as the…  
   ↳ [[wiki/people/brian]] · What the thread shows
 - ◆ **2019-07-09** — On July 9, 2019 — three and a half months later, in the middle of an unrelated conversation about one of Annie's own paid client bookings — Dan mentions he had recently emailed a prospective companion quoting $1700, and that he'd used the March booking as a credibility anchor in that outreach: "in…  
@@ -2627,8 +3553,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/places/117-belmont-circle]] · The documentary floor: 1961, from Miami Beach
 - · **2019-07-11** — On **2019-07-11** he reported that it had *"finally went pending,"* with an aside — *"second time's a charm"* — implying an earlier attempt had fallen through somewhere in the preceding fifteen months.  
   ↳ [[wiki/places/117-belmont-circle]] · The listing
-- ★ **2019-07-16** — Whether this was a one-time event or recurred beyond the June 8 exchange is unknown; Shelbie's thread ends in a hostile breakup on July 16, 2019 with no further contact recorded.  
-  ↳ [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] · Gaps
 - · **2019-07-18** — 2019-07-18:** he reaches for it as a lens on his own life during the  
   ↳ [[wiki/interests/film-canon]] · Eyes Wide Shut — the load-bearing one
 - · **2019-07-18** — Dan supplied his own name for the frame in real time: on 2019-07-18, mid-arrangement, he described himself as "living some eyes wide shut shit vicariously through her" — reaching for the masked-voyeur film in his own film canon as the lens on what he had built.  
@@ -2643,6 +3567,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/lucie-dobbin]] · Who she was to Fran
 - · **August 2019** — Johnny leaving for the beach," Aug 2019).  
   ↳ [[wiki/mind/synthesis/supply-network]] · The reliability inversion
+- · **August 2019** — The payments predate the crisis.** The page has framed the conversion into a market as an August 2019 event triggered by Ally losing her job.  
+  ↳ [[wiki/people/ally-lubin]] · January 2019: the month the export lost
+- · **August 2019** — What August 2019 changed was the **pricing**, not the existence of the channel.  
+  ↳ [[wiki/people/ally-lubin]] · January 2019: the month the export lost
 - · **August 2019** — The August 2019 "noods" and the blocked contact are known only from Dan's  
   ↳ [[wiki/people/emaly-minerd]] · Gaps
 - · **August 2019** — Which specific messages in the August 2019 thread beyond the photo request were Dan-as-"Hazel" versus genuinely Annie is not fully disambiguated; only the photo-request exchange has Dan's own direct confirmation.  
@@ -2675,14 +3603,26 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/emaly-minerd]] · Master timeline
 - ★ **2019-08-16** — No contact appears after August 16, 2019; whether the relationship continued past the exported window, or ended with Dan's later move out of the city, is undocumented.  
   ↳ [[wiki/people/del]] · Gaps
+- ◆ **2019-08-17** — Cash App payment; Amazon wishlist purchase; Lovense vibrator offered and selected  
+  ↳ [[wiki/people/ally-lubin]] · The measurements
+- · **2019-08-17** — Dan says so directly on August 17, 2019: *"you tell me because i'm completely uninvolved yet still weirdly interested and invested. also because you know i'm honest enough to let you know i'm a garbage person so you don't have to worry about feeling shitty or weird."* She says the same from her…  
+  ↳ [[wiki/people/ally-lubin]] · What he told her that he told no one else
+- · **2019-08-22** — On August 22, 2019 they discuss it directly.  
+  ↳ [[wiki/people/ally-lubin]] · The impersonation (April 18, 2019)
+- · **2019-08-22** — The Model Mayhem and "boca raton ally lubin" searches Dan describes on 2019-08-22 are from Google, whose search-history export is not in `raw/`.  
+  ↳ [[wiki/people/ally-lubin]] · Gaps
+- ◆ **September 2019** — kelly johansson, five weeks of paid sessions — Dan → third party  
+  ↳ [[wiki/mind/psychosexual/arrangement-history]] · Limb 2 first: the money runs the other way, in every instance
 - · **September 2019** — In September 2019 he was again looping and believed the job might become full-time with benefits.  
   ↳ [[wiki/people/trevor]] · Leaving the yard
 - · **September 2019** — The piece recurs as a running bit in Dan's own self-presentation — in a September 2019 message he jokes that his favorite Radiohead song is "Karma Police," the one song the band itself refuses to play live, framing his own taste as slightly contrarian even within his own fandom.  
   ↳ [[wiki/self/tattoos]] · Radiohead: the bear
 - ◆ **2019-09-01** — Dan attended and remembered it that way ("one time i went to a secret show in buffalo where fall out boy performed as 'schrute farms'" — 2019-09-01).  
   ↳ [[wiki/interests/the-office]] · Schrute Farms — the secret-show alias
-- · **2019-09-02** — FB activity stamp.  
-  ↳ [[wiki/people/ally-lubin]] · Timeline
+- ◆ **2019-09-01** — $500 on arrival offered against an NYC flight  
+  ↳ [[wiki/people/ally-lubin]] · The measurements
+- ◆ **2019-09-25** — "we've made damn sure that there's not a single issue with any  
+  ↳ [[wiki/places/the-unpapered-address]] · The tenure was always discretionary, and he knew it
 - ◆ **2019-09-27** — He was still engaging the record twelve years later — "i'm listening to infinity on high and its like a really good album" (2019-09-27) — but note the title he reaches for is the 2007 album, not anything post-hiatus.  
   ↳ [[wiki/interests/favorites/music/artists/fall-out-boy]] · The touring years (2007)
 - ◆ **2019-09-27** — Kelly Johansson was a New York escort (Upper East Side, 152 East 65th Street) Dan and Annie booked for paid sessions together over a five-week stretch in fall 2019 (`+13108018083`, 64 messages, 2019-09-27 to 2019-10-23; CashApp `$kellyjohansson`, Venmo `@Andrianna_Cole`).  
@@ -2695,6 +3635,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/psychosexual/arrangement-history]] · What the pattern shows
 - ★ **Fall 2019** — Clair]] and Kelly Johansson (paid professional bookings, spring and fall 2019), and in the "purity test" architecture of the Kristin relationship (2025), where exclusivity was demanded of her in a mirror-image structure to the openness practiced with Annie — full inventory at arrangement history.  
   ↳ [[wiki/mind/psychosexual/orchestration-and-voyeurism]] · The documented practice
+- ★ **October 2019** — The October 2019 Pittsburgh funeral catastrophe**, told on October 14 as a  
+  ↳ [[wiki/people/ally-lubin]] · What he told her that he told no one else
 - ★ **October 2019** — Gaps:** surname; how he was met and how the October 2019 encounter itself was arranged (no coordination thread under this handle); whether a second visit beyond the "again this weekend" Oct 25, 2019 mention actually occurred; whether the 508 area code (central Massachusetts) reflects where he's…  
   ↳ [[wiki/people/bryan-5088682461]] · Corpus record
 - · **Autumn 2019** — It clusters almost entirely in the autumn of 2019, the tail of the New York years, and reads as a person working a room of the city's alt/dirtbag stand-up scene night after night:  
@@ -2703,26 +3645,48 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/psychosexual/index]] · The cluster at a glance
 - · **October 2019** — taboo as "ontology rupture" rather than transgression-seeking  
   ↳ [[wiki/mind/psychosexual/index]] · The cluster at a glance
+- · **October 2019** — After October 2019 the volume collapses and the direction of neglect inverts.  
+  ↳ [[wiki/people/ally-lubin]] · The reversal (2020–2025)
 - · **October 2019** — The October 2019 coordination itself is not in the iMessage corpus under this handle; it presumably ran through another channel or app.  
   ↳ [[wiki/people/bryan-5088682461]] · Bryan (+15088682461)
 - · **October 2019** — Jim is also aware of, and treats as funny running gossip, Dan's 2019 NYC "hooker thing" — an October 2019 message ("bro. the hooker thing.  
   ↳ [[wiki/people/new-jim-shaffer]] · The non-monogamy proposition
+- · **October 2019** — Realtor: Coldwell Banker → Park Place Realty Group (Oct 2019).  
+  ↳ [[wiki/people/suzanne-frank]] · LLM Quick Brief
+- · **October 2019** — "I just need $20 so I can use my $80 free play"* (Oct 2019).  
+  ↳ [[wiki/people/suzanne-frank]] · Gambling, drinking, and the Uniontown supply economy
+- · **October 2019** — Leaves Coldwell Banker for Park Place Realty Group  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - ★ **2019-10-02** — Grandfather Jim dies  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2019-10-02** — origin point of the Sugie caregiving era  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2019-10-06** — On October 6, 2019 she texts out a full session script in advance — drinks, watching a cam video together to set the mood, Kelly and Annie kissing while Dan watches, Annie giving the client oral while Kelly does the same for Dan, and an explicit ask to bring Cialis for the client "because he is big…  
   ↳ [[wiki/people/kelly-johansson]] · The arrangement
+- · **2019-10-08** — "I'm filling every waking moment with real estate, eBay and other selling sources… Keeping my phone, lights and cable on that way"* (8 October 2019).  
+  ↳ [[wiki/people/suzanne-frank]] · What she actually earned
 - ◆ **2019-10-20** — What the report stated as theory now has its documented instance: the **October 20, 2019 filmed MMF** with Bryan — a gay man whose first encounter with a woman was that night, and Dan's one and only bisexual act (oral), both category-crossings authored into a single scene (arrangement history…  
   ↳ [[wiki/mind/concepts/erotic-architecture]] · The three named mechanisms
 - · **2019-10-20** — The October 20, 2019 encounter with Bryan matches the theory's specific prediction with unusual precision: Bryan, "a fully gay man," has his first sexual contact with a woman that night; Dan, who does not otherwise report same-sex contact anywhere in the corpus, has his only documented bisexual act…  
   ↳ [[wiki/mind/psychosexual/taboo-and-boundary-testing]] · The primary-source instance
+- · **2019-10-20** — The October 20, 2019 MMF with Bryan**,  
+  ↳ [[wiki/people/ally-lubin]] · What he told her that he told no one else
 - · **2019-10-20** — Defining event  
   ↳ [[wiki/people/bryan-5088682461]] · Corpus record
 - · **2019-10-21** — A same-morning reaction, not previously documented, survives in a Facebook Messenger thread with Dan Polyak: at 2:52 AM on October 21, 2019, Dan calls Polyak specifically to share the news ("i thought you would be SO proud to know that i had my first experience with another guy"), and gives his own…  
   ↳ [[wiki/people/bryan-5088682461]] · Bryan (+15088682461)
 - · **2019-10-21** — At 2:52 AM on October 21, 2019, Dan calls Polyak specifically to share news of the previous night's encounter: "i thought you would be SO proud to know that i had my first experience with another guy." His own real-time assessment follows: "it was like...alright i guess. honestly i've never felt…  
   ↳ [[wiki/people/dan-polyak]] · The Bryan encounter, same-morning
+- · **2019-10-21** — Gas shutoff at $503  
+  ↳ [[wiki/people/suzanne-frank]] · What she actually earned
+- · **2019-10-21** — restoration would cost $1,560  
+  ↳ [[wiki/people/suzanne-frank]] · What she actually earned
+- · **2019-10-22** — The audit of the whole arrangement is his, delivered on **October 22, 2019** in the middle of an argument about it:  
+  ↳ [[wiki/people/ally-lubin]] · August–October 2019: the crisis market
+- · **2019-10-22** — $2,100 cumulative**, per Dan's screenshot — accepted by her in 2019, contested by her in 2026  
+  ↳ [[wiki/people/ally-lubin]] · The measurements
+- · **2019-10-22** — The $2,100 covers August 17 – October 22, 2019 only and excludes the 2018 and January 2019 gifts.  
+  ↳ [[wiki/people/ally-lubin]] · The measurements
 - · **2019-10-29** — Colin Quinn  
   ↳ [[wiki/interests/stand-up-comedy]] · The 2019 New York run — a real itinerary, not a taste
 - ◆ **2019-10-30** — The single night of 2019-10-30 alone (six comics including Gaffigan, Normand, Gillis and Soder) is the shape of someone going to a specific room and catching the whole lineup.  
@@ -2762,22 +3726,20 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ### 2020
 
-- ★ **2020** — Move to Park Place Realty Group  
-  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **2020** — the left turn.** The already-synthesized instance: the  
   ↳ [[wiki/mind/synthesis/interests-as-era-markers]] · The marker series
 - · **2020** — 6,311 — COVID collapse  
   ↳ [[wiki/mind/synthesis/message-circadian-latency]] · Yearly volume arc, 2015–2026 — the dormant years quantified
 - · **2020** — the siege.** The newly-built NYC system gets compressed to a  
   ↳ [[wiki/mind/synthesis/spatial-behavior]] · Four phases, not a gradual drift
-- · **2020** — best sales month on record  
-  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **2020** — 121 — Sharp drop (pandemic)  
   ↳ [[wiki/self/location-history]] · Visits by Year (from semantic db)
 - · **2020** — 295 — Election spike  
   ↳ [[wiki/self/youtube-watch-history]] · Activity by Year (Watched events, from date parses + broad counts)
 - · **2020** — Market era, 68 events.  
   ↳ [[wiki/timeline/events/timeline]] · Major Periods (cross-checked with core residence and data)
+- ◆ **2020-01-08** — "Would it be possible to PayPal me $8? I need to show a house in two hours and I need $14.37 to get my key working so I can let them in. I have $7 in there now"  
+  ↳ [[wiki/people/suzanne-frank]] · What she actually earned
 - ★ **February 2020** — Gaps:** the brother's first name and exact date of death; Matthew's current circumstances beyond the Feb 2020 update (house, HVAC/ refrigeration trade, plans to relocate near the Outer Banks).  
   ↳ [[wiki/people/matthew-palermo]] · Corpus record
 - ★ **February 2020** — The relationship was purely commercial, and its defining event is commercial too: in February 2020, after Dan left him standing outside the building twice in one day without answering, **Sam fired him as a customer** — "Ok I'm leaving don't never hit this number" — and then quietly un-fired him…  
@@ -2787,13 +3749,15 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **February 2020** — Jan–Feb 2020:** a flood of Bernie 2020 FEC-deadline donation-ask  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · Bernie 2020 as the bridge
 - · **February 2020** — Beyond the named primary nodes, the record preserves a **minor-node layer** that fills out the market's true shape: Al (2018 cocaine, saved in contacts as "Socialist"), Jajuan Davis (high-frequency transactional, winter 2018–19), John Anderson (2019), Eric Springer (a one-month 2016 window)…  
-  ↳ [[wiki/mind/synthesis/supply-network]] · The succession of nodes
+  ↳ [[wiki/mind/synthesis/supply-network]] · Supply named as the bond, in real time, in 2015
 - · **February 2020** — Gina Nicole Feb 2020, Jasmine Nida Dec 2019, Zach Myers, Alexis Armel Nov 2019, Suzanne Frank (family?), Zack Lauer, Jillian Swartz, Alexandra Lubin Sep 2019, Paige Wolbert, RJ Ritchey, Kayla Amber, JR Golden, Maison Tom Jun 2019, Drew McGettigan, Robert Ritchey, Kelly Herchko, Mark Tankalavage…  
   ↳ [[wiki/self/facebook/friends]] · Sample Friends (from export list + activity stamps)
 - · **February 2020** — Politics / philosophy — 2017–2020  
   ↳ [[wiki/self/facebook/interests]] · Pages Liked (~229–234 unique, spanning ~2012–2022)
 - · **2020-02-03** — 2020-02-03:** working a friend live during Iowa — "are you ready to  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · Bernie 2020 as the bridge
+- · **2020-02-05** — 2020-02-05:** *"there's no reason that amazon should pay no tax while you can't go to the doctor AND have to pay taxes."* **2020-02-07:** *"imagine being able to just go to the doctor or dentist when you need,"* and, seven minutes later, *"the doctor thing is a really big thing for me...like…  
+  ↳ [[wiki/mind/synthesis/2020-left-turn]] · The material stake, six months early
 - ★ **2020-02-08** — Ryan Scherich is a barely-known acquaintance ("i barely fucking know you") with whom Dan has a single, self-contained political flame war on February 8, 2020 — the entire relationship the corpus documents.  
   ↳ [[wiki/people/ryan-scherich]] · Ryan Scherich
 - · **2020-02-09** — "there’s not really any excuse for losing an election to someone with these credentials. this would have been considered a politicians dream opponent. fuck tom perez, nancy pelosi, and chuck schumer. leftist is bestist."  
@@ -2812,8 +3776,18 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/lisa-frank]] · Lisa Frank
 - · **March 2020** — The earlier March 2020 exchange has Dan describing early NYC lockdown life ("people don't really get how drastically different it is to exist here"); by April 14 the conversation turns political — "i still vote in PA and subsequently feel like, extra responsible about it...but i do not think i can…  
   ↳ [[wiki/people/seth-ledonne]] · The COVID spring, in real time
+- · **March 2020** — Public break with Trump; writes in Biden; *"time to switch parties"  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
+- · **2020-03-10** — "I have a bill for $1,000 coming for gas, I owe sewage, phone, insurance, cable, and a long list of old bills totaling way more than I'm going to make. One foot in front of the other"  
+  ↳ [[wiki/people/suzanne-frank]] · What she actually earned
+- · **2020-03-10** — On **10 March 2020** she posted publicly against Trump for the first time — *"I couldn't stay quiet any longer… I'm sure I've officially pissed off 80% of the people I know.  
+  ↳ [[wiki/people/suzanne-frank]] · Politics
 - · **2020-03-23** — On **March 23, 2020**, in a long, freewheeling conversation with childhood friend Jerad about the OnlyFans/camming economy generally — equipment, pricing psychology ("panties and socks are a racket"), the platform's business logic ("Onlyfans is such a brilliant idea") — Dan recommends her again…  
   ↳ [[wiki/people/kya-hansen]] · What the corpus independently shows
+- ★ **2020-03-28** — The last trace of her is a 2020-03-28 message from Dan to a friend, at the opening of the pandemic: *"i hope diane and dave both drown in their own vomit after simultaneously contracting coronavirus."* Twenty-three months after the funeral, still a pair, still present tense.  
+  ↳ [[wiki/people/diane-moore]] · The 2020 question, settled
+- · **2020-03-28** — "i hope diane and dave both drown in their own vomit after simultaneously contracting coronavirus"  
+  ↳ [[wiki/people/dave-moore]] · What the record has him doing
 - ◆ **2020-03-29** — Rebekah "Bekah" Fullem's contact with Dan is preserved in a single iMessage thread that a full two-sided export (handle `+17245629389`, 153 messages, Feb 9 – Mar 29, 2020) substantially recontextualizes.  
   ↳ [[wiki/people/bekah-fullem]] · Bekah Fullem
 - · **2020-03-29** — One claim about her life before Dan exists only at second hand and stays flagged as such: in a March 29, 2020 message comforting Bekah Fullem through Bekah's own rape disclosure, Dan tells her that Annie is herself a rape survivor — a years-delayed report, a trial he calls "super painful and full…  
@@ -2836,34 +3810,58 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/context-core]] · Shibboleths
 - · **2020-05-14** — The firing didn't hold — but the re-approach came from Sam, on May 14, 2020, deep in the COVID spring: "You still in ny," followed by a fresh price list.  
   ↳ [[wiki/people/sam]] · The arc: regular, fired, rehired, forgotten
-- · **2020-05-26** — Last pre-gap exchange May 26, 2020 ("text Annie when ready"); then **1,458  
+- · **2020-05-26** — Last exchange on **this handle** May 26, 2020 ("text Annie when ready");  
   ↳ [[wiki/people/menore]] · Timeline & Phases
 - ★ **June 2020** — No message after June 2020 appears in the corpus; whether contact continued past that point, and whether it survived the eventual end of the Dan/Annie relationship, is undocumented.  
   ↳ [[wiki/people/bill-ulmer]] · Gaps
+- ★ **June 2020** — She is a licensed realtor in Fayette County, the owner of the house Dan grew up in and lived in again from 2025, and — on her own accounting in June 2020 — a person who earned **$11,000 to $14,000 a year for a decade against $10,000 a year in property taxes.** The relationship's governing feature…  
+  ↳ [[wiki/people/suzanne-frank]] · Suz (Suzanne Frank)
 - ◆ **June 2020** — Their regular iMessage thread ends in June 2020, but a Facebook exchange in February 2021 shows the connection still alive through the meme-stock episode.  
   ↳ [[wiki/people/trevor]] · Trevor Bevins
 - · **June 2020** — A third, "Jason" (June 2020), initially knew her only as "Lily" and negotiated directly with her over having "my boyfriend filmed us a little bit during the foreplay" — Jason declined, Annie offered an alternative with Dan simply absent, and the booking stalled before its outcome was recorded.  
-  ↳ [[wiki/people/annie-ulmer]] · The architecture: kink, camming, and the economy around it
+  ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
+- · **June 2020** — Arguing with a homeowners' association in June 2020:  
+  ↳ [[wiki/people/suzanne-frank]] · What she actually earned
+- · **2020-06-02** — And I no longer care if they are that stupid."* On **2 June 2020**: *"I went to vote.  
+  ↳ [[wiki/people/suzanne-frank]] · Politics
+- · **2020-06-04** — "I have what my mother never will."  
+  ↳ [[wiki/people/suzanne-frank]] · Identity, lineage and the generation she was pushed out of
 - · **2020-06-07** — The thread's sharpest moment comes June 7, 2020, during the George Floyd-protest curfew: "8pm curfew... it's been like living in beirut... that's pretty much what all of manhattan has been like." Seth asks directly whether Dan attended protests; the conversation is deflected to "let's talk about…  
   ↳ [[wiki/people/seth-ledonne]] · The COVID spring, in real time
+- ★ **2020-06-08** — June 8, 2020 is the last substantial conversation on the phone handle: 51 messages, pandemic New York, her thirtieth birthday eighteen days out, and Dan's proposal, unchanged — *"if i buy you a long distance vibe, would you let me pay to control it… i just got my unemployment back pay."  
+  ↳ [[wiki/people/ally-lubin]] · The reversal (2020–2025)
+- ★ **2020-06-08** — Long-distance vibrator offered as a 30th birthday present  
+  ↳ [[wiki/people/ally-lubin]] · The measurements
 - · **2020-06-18** — The final iMessage is June 18, 2020.  
   ↳ [[wiki/people/trevor]] · Friendship, money, and later contact
+- ★ **2020-06-22** — The outcome was settled two months earlier, on 2020-06-22, when Suz told him the estate had an **August 17 court date** and Dan's first reaction was the same fear:  
+  ↳ [[wiki/mind/synthesis/estate-money-spine]] · The contest that never came, and the asset that left before it
+- ★ **2020-06-22** — On 2020-06-22, told that the estate had an **August 17 court date**, Dan's first reaction was exactly this fear — *"does a court case mean diane challenged it"* — and Suz answered in three messages:  
+  ↳ [[wiki/people/diane-moore]] · The 2020 question, settled
+- · **2020-06-23** — The same thread dates the **$10,000 advance** to the hour — Dan asks Suz to *"pick up my check from rod this afternoon"* on 2020-06-23 — confirming the row in the table below from a second, independent side.  
+  ↳ [[wiki/mind/synthesis/estate-money-spine]] · The contest that never came, and the asset that left before it
 - · **2020-06-23** — Estate advance issued — $10,000  
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The chain, event by event
 - · **2020-06-28** — The June 28, 2020 non-recognition.** Nearly a year later, "Hazel" reaches out one more time — "Hey Trish!  
   ↳ [[wiki/people/jaredtricia]] · August 2, 2019: the photo, and Dan wearing the "Hazel" voice
 - · **2020-06-28** — Whether further bookings occurred after the June 28, 2020 non-response is undocumented — the thread simply goes quiet.  
   ↳ [[wiki/people/jaredtricia]] · Gaps
+- · **2020-07-30** — 16 — alulmer28@gmail.com — 802 — 2020-10-07 — Unknown  
+  ↳ [[wiki/self/concepts/astrology-star-signs]] · The Unknown Signs
 - ★ **August 2020** — Bobby's own life surfaces only incidentally: a daughter he co-parents (an August 2020 aside references "the first weekend in October" as his custody weekend), a second child born around April 26, 2021 ("I'm legit in the hospital room holding my newborn"), and a girlfriend who by 2021 had grown…  
   ↳ [[wiki/people/bobby-cole]] · Politics and personal life, in passing
-- ★ **August 2020** — She previously worked at Coldwell Banker; per an August 2020 family-thread conversation (found 2026-07-14), a manager there "was really abusing the system and taking advantage of the agents under him" while, in Dan's read, Suz "knew that and did nothing." Her move to the new agency that year…  
-  ↳ [[wiki/people/suzanne-frank]] · The realtor and the family house
 - ◆ **August 2020** — The 2022+ left-commentary clusters documented here are the downstream trace of a conversion the message record dates precisely to August 2020 (2020 left turn) — the watch history shows the turn's persistence, not its origin.  
   ↳ [[wiki/self/youtube-watch-history]] · Notes
-- · **August 2020** — In August 2020, negotiating his $144,069.31 estate distribution, Dan asked the estate attorney directly what the odds were that his grandmother would contest it.  
-  ↳ [[wiki/people/diane-shrum]] · What she did, and why it lands the way it does
+- · **August 2020** — The objector had a name and did not object.** Dan's August 2020 question to the estate attorney — what were the odds his grandmother would contest the distribution — has been carried here as an open identity and an open outcome.  
+  ↳ [[wiki/mind/synthesis/estate-money-spine]] · The contest that never came, and the asset that left before it
+- · **August 2020** — In August 2020, negotiating his $144,069.31 estate distribution, Dan asked the estate attorney what the odds were that his grandmother would contest it.  
+  ↳ [[wiki/people/diane-moore]] · The 2020 question, settled
 - · **August 2020** — Adams sends and receives nothing in the message corpus; every fact here comes from Dan's narration or from the estate attorney's calls, and the estate attorney reached in August 2020 (`+17245706170`) is not established to be Adams or his office.  
   ↳ [[wiki/people/fred-adams]] · Gaps
+- · **August 2020** — The one countervailing period is August 2020, when the pandemic housing market and a new brokerage arrived at once.  
+  ↳ [[wiki/people/suzanne-frank]] · What she actually earned
+- · **August 2020** — Five closings in one month — the strongest documented month of her career  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **August 2020** — The period's most durable ideological product is the documented socialist conversion of August 2020: a self-narrated, media-driven radicalization (Chapo, Hasan Piker, ContraPoints) cemented by lockdown reading of the primary texts — argued in full at 2020 left turn.  
   ↳ [[wiki/timeline/periods/covid-era-2020]] · Reading during isolation
 - ★ **2020-08-21** — On **August 21, 2020** the court signed the order distributing **$144,069.31** of the Fran estate to Dan.  
@@ -2874,6 +3872,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · The self-narrated conversion, 2020-08-22
 - · **2020-08-22** — On **August 22, 2020** he wrote the family-thread message pairing his new politics with both source-lines at once: "it feels super gross knowing that dad fought to keep frank's auto employees from unionizing and that we have such kushy lives because of it," alongside discomfort that the Fran…  
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The two source-lines and their trustee
+- ★ **September 2020** — All four moved by typed-edge addition only**, and the diffs are worth naming precisely so the next pass does not re-open them: `tom` and `july-2026-recontact` gained edges into the new James Dee arc; `attachment-model` gained a `parallels` edge to the handed mirror; `annie-ulmer` gained one…  
+  ↳ [[wiki/mind/synthesis/block-unblock-loop]] · RE-CHECKED [2026-08-18]
 - ★ **September 2020** — He helps with small favors (offering to fix a cousin's washing machine, cigarette runs), references his mother's health and household routines constantly, and the relationship persists in occasional pings through a long 2019–2020 gap, closing with a September 2020 "Hey I just got home from bowling…  
   ↳ [[wiki/people/jim-vrabel]] · Texture
 - ★ **September 2020** — Gaps:** Sam's full name and the "trippy Santa" Facebook identity; why the thread ends in September 2020 (no farewell, no conflict — possible switch to another source, reduced use, or a channel move); whether the February 2020 no-show had a cause on Dan's side (the corpus is silent on what he was…  
@@ -2902,6 +3902,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/tom]] · Behavioral Counts (Tom)
 - · **September 2020** — FSLY stock tip  
   ↳ [[wiki/people/tom]] · Timeline
+- · **September 2020** — Annie, September 2020, on Paci: *"he's the one who **stuck his neck out for  
+  ↳ [[wiki/places/the-unpapered-address]] · The tenure was always discretionary, and he knew it
 - · **September 2020** — "Eggie sent an attachment" Sep 2020  
   ↳ [[wiki/self/facebook/messages]] · Ally Lubin (dark humor peripheral, 2013)
 - · **September 2020** — FSLY tip from Jerad; ~$15k into 112 Fastly shares; ~$4k quick profit  
@@ -2912,6 +3914,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The chain, event by event
 - ◆ **2020-09-01** — The most striking single measurement in the chain is the **burn rate of the estate**: $134,069.31 lands September 1, 2020, and by early 2021 — roughly six months — the Au Za'atar storytime opens with "the money just ran out." The market account peaked at ~$25k, so the market cannot have absorbed…  
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The chain, event by event
+- ◆ **2020-09-03** — After five closings in one month: *"I've paid off almost all of my bills." "I own a car now"  
+  ↳ [[wiki/people/suzanne-frank]] · What she actually earned
 - · **2020-09-10** — The last exchange (September 10, 2020) closes the loop with an unsentimental symmetry: Sam runs the verification script on Dan as if he were a stranger — "Send me your Facebook link for verification" — then catches himself mid-message: "Don't send / I remember." One final quarter of Orange Cream is…  
   ↳ [[wiki/people/sam]] · The arc: regular, fired, rehired, forgotten
 - · **2020-09-10** — On September 10, 2020, Dan told Annie the apartment was scheduled for extermination: "sorry to keep bugging you just wanted to give you an update. they are bombing the apt tomorrow around 11 or so." The couple relocated to Annie's parents' home in Uniontown for what became roughly a week — Dan…  
@@ -2920,6 +3924,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/lauryn-ashly]] · The 2020 ask
 - ★ **2020-09-14** — iMessage, two-sided export — the post-breakup friendship end to end  
   ↳ [[wiki/people/alexis-armel]] · The record
+- · **2020-09-20** — The "Train Plan" crisis (2020-09-20) catches her completely off guard.  
+  ↳ [[wiki/people/annie-ulmer-personality-assessment]] · Evidence for Inferior Ni
 - · **2020-09-20** — Dan's own words, sent 07:13 the morning after the discovery, date and frame it precisely: "this isn't some accident Annie, you said TERRIBLE unforgivable, untrue shit to some guy who wanted you and then had him plan to pick you up from the train" (Sept 20, 2020).  
   ↳ [[wiki/people/annie-ulmer]] · The Train Plan, 2020
 - · **2020-09-20** — The corpus preserves the verbatim exchange from September 20, 2020:  
@@ -2940,9 +3946,13 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/emaly-minerd]] · Master timeline
 - · **2020-09-21** — Whether the September 21, 2020 Facebook thread ever got a reply from Dan is  
   ↳ [[wiki/people/emaly-minerd]] · Gaps
+- · **2020-09-27** — On 27 September 2020, over Facebook Messenger, after being unable to reach either of them:  
+  ↳ [[wiki/people/suzanne-frank]] · Terminal-phase spillover
+- · **2020-09-27** — Warns Dan and Annie in writing about physical conflict  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **2020-09-30** — By 2020-09-30 he told Jerad "112 shares my dude" and "fastly killing it." On 2020-10-06: "dude i made $600 just from FSLY today." He had dumped roughly $15k of his portfolio into the position and taken a quick ~$4k profit before the meme-stock eruption widened the game in January 2021.  
   ↳ [[wiki/work/fastly-fsly]] · How it started — the Jerad tip
-- · **Autumn 2020** — Does the email handle `alulmer28@gmail.com` carry anything outside 2020-07→10?** It is the only source for autumn 2020; worth checking whether other exports hold more of it.  
+- · **Autumn 2020** — Does the email handle `alulmer28@gmail.com` carry anything outside 2020-07→10?** It is the only source for autumn 2020; worth checking whether other exports hold more of it. 8.  
   ↳ [[wiki/timeline/annie-read-notes]] · 2. Open leads
 - ◆ **2020-10-06** — By October 6, 2020, Dan reported "dude i made $600 just from FSLY today." Later messages show Jerad advising Dan on the position through October 2020, with both monitoring the vertical tail.  
   ↳ [[wiki/people/jerad-friedline]] · The financial channel
@@ -2962,6 +3972,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/annie-record]] · What the record actually covers
 - ◆ **December 2020** — The roach problem was not a one-time event: a second, unrelated infestation shows up in the corpus in December 2020 and February 2021 ("I just found a fucking roach!!!!  
   ↳ [[wiki/places/307-e-76th-st]] · The roach bombing and the September 2020 trip to PA
+- · **December 2020** — The pattern runs continuously from the start of the corpus through 2020 and then **stops**: a taper is visible in 2020 (*"I also haven't been drinking as much"*; *"Didn't even look when I passed the casino"*; after a December 2020 near-miss, *"Time to step back, reassess and focus on what is…  
+  ↳ [[wiki/people/suzanne-frank]] · Gambling, drinking, and the Uniontown supply economy
 
 ### 2021
 
@@ -2979,6 +3991,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/facebook/posts]] · Later Posts / Archive (political + commentary)
 - · **2021-01-15** — "Patriot or pussy?"  
   ↳ [[wiki/self/facebook/posts]] · Later Posts / Archive (political + commentary)
+- ◆ **2021-01-30** — On 2021-01-30 Dan sends *"Menore says hi"* and gets back *"Awww menore... do I still see both brothers"* — an outside party who knows the operation well enough to count its principals and to describe them as siblings.  
+  ↳ [[wiki/people/menore]] · Identity & Role
+- · **2021-01-30** — Associate identity**: *"both brothers"* (2021-01-30) is the first lead  
+  ↳ [[wiki/people/menore]] · Gaps & Uncertainties
 - · **February 2021** — CCIV bloodbath day — −$6k  
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The chain, event by event
 - · **February 2021** — The February 2021 listen is not in the watch history at all.  
@@ -3011,12 +4027,16 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/work/fastly-fsly]] · The lesson — the big dip
 - ★ **March 2021** — Au Za'atar Midtown — the Lebanese restaurant at 58th & 1st owned by Tarik Fallous and his brother Ghassan — was Dan's main employment through the second NYC period: **41 months, March 2021 to August 2024**, hired as a busser with zero food-service experience and a bank account at zero, talking his…  
   ↳ [[wiki/work/au-zaatar]] · Au Za'atar (NYC, ~2021–2024)
+- · **March 2021** — It did not recur — by March 2021 she was writing that realtor.com took 40% of a commission and the office another 10%, *"I'm going to make Coldwell Banker type money… I'm giving this business til end of year."  
+  ↳ [[wiki/people/suzanne-frank]] · What she actually earned
 - · **March 2021** — Tarik Fallous — owner-operator (with his brother Ghassan) of Au Za'atar, the Lebanese restaurant near 58th and 1st in Midtown Manhattan where Dan worked as a busser-turned-server from roughly March 2021 to August 2024.  
   ↳ [[wiki/people/tarik-fallous]] · Identity
 - · **March 2021** — "au zaatar — Au Za'atar in NYC."  
   ↳ [[wiki/self/chats/gemini-18]] · _18 Stats + Full Bio Timeline Table (2026-06-23 analysis)
 - · **March 2021** — Tenure (full)  
   ↳ [[wiki/timeline/periods/2021-2023-employment-block]] · Data profile
+- · **2021-03-10** — On 2021-03-10 Dan's correspondent asks *"Wonder if Menore can translate for me"* — a third independent signal of a Spanish-speaking counterparty.  
+  ↳ [[wiki/people/menore]] · Identity & Role
 - ★ **Spring 2021** — Annie hired as EV hostess  
   ↳ [[wiki/people/tarik-fallous]] · Timeline
 - ◆ **Spring 2021** — The owners opened outdoor-only in spring 2021 — nice sheds, BYOB, food "to die for" — planning to build the interior later with nine months of runway.  
@@ -3031,6 +4051,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/facebook/messages]] · RJ Ritchey (golf + politics)
 - · **2021-04-24** — An April 24, 2021 aside is a useful late check-in on the 2020 left turn: "i'm fully aware that i've made a big time lefty heel turn recently but i still think it's pretty dishonest not to" [call out performative centrism] — eight months after the documented August 2020 conversion, confirming it had…  
   ↳ [[wiki/people/bobby-cole]] · Politics and personal life, in passing
+- · **May 2021** — Coverage gaps  
+  ↳ [[wiki/people/suzanne-frank]] · Message corpus
 - ◆ **September 2021** — By September 2021 Dan floats the idea of a reunion show, then immediately deflates it: "literally half of the people who were involved in that scene or would be interested or understand the significance... they're dead" — an echo of the same opiate-epidemic framing documented on matthew palermo and…  
   ↳ [[wiki/interests/music/bands/batteries-not-included]] · The reunion that never happened
 - ◆ **2021-09-23** — The band's single most-examined moment, revisited by Dan unprompted in a September 23, 2021 message to Joe, is covering "California Uber Alles" — a Dead Kennedys song satirizing authoritarian California governor Jerry Brown — without any of the three members understanding or agreeing with its…  
@@ -3045,8 +4067,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/facebook/messages]] · Ally Lubin (dark humor peripheral, 2013)
 - · **2021-10-13** — "i'm outside at the hotspot waiting for menore" / "my phone is not charging" Oct 13 2021  
   ↳ [[wiki/self/facebook/messages]] · Ally Lubin (dark humor peripheral, 2013)
-- · **2021-10-16** — Address book sync.  
-  ↳ [[wiki/people/ally-lubin]] · Timeline
 - ★ **November 2021** — Visits NYC for Dan's birthday  
   ↳ [[wiki/people/suzanne-frank]] · Timeline
 - ★ **November 2021** — His mother Suz visited for his birthday (November 2021); the owners comped the whole menu.  
@@ -3102,6 +4122,16 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/jacob-bacharach]] · Why it is the flagship
 - · **December 2022** — Word volume, Dan : Annie, all-time  
   ↳ [[wiki/people/annie-ulmer]] · By the numbers
+- ◆ **2022-12-10** — Dan's LLM usage began with ChatGPT on **2022-12-10**, ten days after its public launch (per the archived export; the operator's account adds that a first-release DALL-E beta code is what got him in).  
+  ↳ [[wiki/self/concepts/llm]] · History of LLM usage
+- · **2022-12-10** — The export holds **375 conversations, 2022-12-10 → 2025-07-01**: 1,456 user turns and 1,599 assistant turns, counted over every node in every conversation tree rather than the surviving reply chain — regenerated and abandoned branches included, because a refusal Dan regenerated away is exactly the…  
+  ↳ [[wiki/self/concepts/chatgpt]] · The primary record — 375 threads, measured
+- · **2022-12-10** — The record starts ten days after ChatGPT existed.** The first thread is 2022-12-10 06:25 — *"Can you write a pun"* — against a public launch of 2022-11-30, on the original `text-davinci-002-render-sha` model.  
+  ↳ [[wiki/self/concepts/chatgpt]] · The primary record — 375 threads, measured
+- · **2022-12-10** — Dan was an early ChatGPT adopter, and the export dates it precisely: his first thread is **2022-12-10**, ten days after the public launch, on the original `text-davinci-002-render-sha` model (see *The primary record*).  
+  ↳ [[wiki/self/concepts/chatgpt]] · The early relationship
+- · **2022-12-10** — 375 conversations** in the archived export, 2022-12-10 → 2025-07-01  
+  ↳ [[wiki/self/concepts/chatgpt]] · The numbers
 
 ### 2023
 
@@ -3127,6 +4157,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/tarik-fallous]] · Timeline
 - · **2023-08-11** — He tracked bar inventory directly: two liquor/wine stock counts survive verbatim (Aug 11 2023, all zero; Aug 12 2023, restocked — Whispering Angel, Chateau La Coste Rose, La Luca Prosecco, Fidora Prosecco, Charles de Ferre Blanc de Brut, ViNO CasaSmith, Langewalter Riesling, Valdemonxes, Chateau la…  
   ↳ [[wiki/people/tarik-fallous]] · Direct Correspondence (Aug 2023 – Apr 2026)
+- · **2023-08-30** — Then thirty-eight months of silence, broken on August 30, 2023 by her: *"Send me money I'm sad and need a little treat."  
+  ↳ [[wiki/people/ally-lubin]] · The reversal (2020–2025)
+- · **2023-08-30** — "Send me money"* / *"Let me get $100"* — requests  
+  ↳ [[wiki/people/ally-lubin]] · The measurements
+- · **2023-08-30** — no confirmation on record  
+  ↳ [[wiki/people/ally-lubin]] · The measurements
 - ★ **September 2023** — Possible wedding, September 2023.** A message from Rick — "I never heard back from you so not sure what your plans are for next weekend.  
   ↳ [[wiki/people/lisa-frank]] · Lisa Frank
 - ★ **September 2023** — One 2023 message ("Other than the wedding & reception will I see you?") raises the unconfirmed possibility that a Frank/Lisa wedding happened around September 2023 — eight years into the relationship — but this is not stated plainly anywhere in the corpus and is flagged as a gap, not a fact.  
@@ -3145,6 +4181,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/manuel]] · Texture
 - · **October 2023** — Manuel was a coworker at Au Za'atar — the thread opens with an October 2023 message referencing Tarik telling him to stay and work — who became a genuine, ongoing friendship that outlasted the job itself, running from August 2023 into 2026 (`+13472828140`, 45 messages; unlike most contacts in this…  
   ↳ [[wiki/people/manuel]] · Manuel
+- · **2023-10-15** — On 2023-10-15 he calls him **"el menore"**, with the Spanish article — which makes the page's long-standing guess that "Menore" is a variant of *menor* ("the younger," "the lesser") a substantially better bet than "placeholder or transcription variant," and fits a man whose associate may be his own…  
+  ↳ [[wiki/people/menore]] · Identity & Role
+- ★ **2023-10-30** — The October 30, 2023 exchange is the relationship's other hinge.  
+  ↳ [[wiki/people/ally-lubin]] · The reversal (2020–2025)
 - ★ **2023-10-30** — Gabe** — A cat, not a person: died 2023-10-30 ("I had to put gabe down today"), confirmed by Eric Jester's independent same-date message ("I'm so sorry man. He was the cat that made me love cats!")  
   ↳ [[wiki/people/jason-bermejo]] · Social Graph & Shared History
 - · **November 2023** — The November 2023 → May 2024 177-day YouTube gap is, per the multi-account  
@@ -3157,6 +4197,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/md]] · MD
 - · **November 2023** — Five separate sick-day call-outs are logged between Nov 2023 and Apr 2024, with some opening "Hey it's dan" or similar.  
   ↳ [[wiki/people/tarik-fallous]] · Direct Correspondence (Aug 2023 – Apr 2026)
+- ◆ **2023-11-14** — Contact thereafter is thin and one-directional in her favour: November 14, 2023, *"Are you still rich I have a huge favor"*; March 18, 2025, *"Let me get $100"*; and a single *"Lololol"* with an attachment on November 17, 2025.  
+  ↳ [[wiki/people/ally-lubin]] · The reversal (2020–2025)
 - · **2023-12-13** — A December 13, 2023 payroll dispute — a missing Dec 2 punch, tips already distributed, asking whether he could still claim the hourly — corroborates the tip-pool opacity already documented on au-zaatar.md.  
   ↳ [[wiki/people/tarik-fallous]] · Direct Correspondence (Aug 2023 – Apr 2026)
 - · **2023-12-24** — 2023-12-24:** it has become a household in-joke and ritual — "In a  
@@ -3168,6 +4210,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter]] · Sampled Timeline
 - ◆ **2024** — the Roman Republic.** The cleanest single-year detonation:  
   ↳ [[wiki/mind/synthesis/interests-as-era-markers]] · The marker series
+- · **2024** — Documented end of gambling  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **2024** — Political-burst exchanges  
   ↳ [[wiki/people/tom]] · Timeline
 - · **2024** — 17 — Very low / incomplete in export  
@@ -3212,8 +4256,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/politics/axioms]] · What the reading list actually shows
 - · **May 2024** — Gaps:** no direct message thread has been confirmed in the corpus under either name — but a candidate exists: handle `+19293235324` received r/Senegal Reddit links from Dan in May 2024 (iMessage dump), the only Senegal-flagged thread in the record; worth confirming as DJ.  
   ↳ [[wiki/people/ismaila-barry]] · Ismaila Barry ("DJ")
-- · **May 2024** — Phase 4: Taper and four-year dark gap (2020 – May 2024)  
+- · **May 2024** — Phase 4: The handle goes dark, the service does not (2020 – May 2024)  
   ↳ [[wiki/people/menore]] · Timeline & Phases
+- · **May 2024** — 2021–May 2024 on at least one other number (and *"Menore #1?"* implies more than one), but **no export exists for any handle but 3476070497**.  
+  ↳ [[wiki/people/menore]] · Gaps & Uncertainties
 - · **2024-05-24** — Phase 5: The 2024–25 resurgence (May 24, 2024 – Feb 20, 2025)  
   ↳ [[wiki/people/menore]] · Timeline & Phases
 - ★ **June 2024** — He is Muslim (references Allah and Islam directly) and appears to be Bangladeshi or closely tied to Bangladeshi politics: a June 2024 message congratulates Dan on his "boss" getting married, and by August 2024 the conversation turns to real news, discussing the 2024 Bangladesh political unrest in…  
@@ -3238,12 +4284,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/roman-republic]] · The 2024 reading binge — dated, not vague
 - ◆ **2024-06-27** — More tellingly, the corpus shows him reaching for Michael Scott as a behavioral comparator: in the 2019 Twitter analysis he analogizes EU ambassador Gordon Sondland's testimony to having "a total Michael Scott vibe," and during the 2024 presidential race he texted "Next pres was Dwight d…  
   ↳ [[wiki/interests/the-office]] · The Michael Scott register
+- · **2024-06-27** — The highest-volume day in this thread's eleven-year record — 224 messages on 27 June 2024 — is the night of the first Biden–Trump debate**, watched separately and narrated to each other in real time.  
+  ↳ [[wiki/people/suzanne-frank]] · Politics
 - ★ **2024-06-29** — DUI #2** — general impairment + 4 traffic — 5 — **guilty pleas, all five  
   ↳ [[wiki/people/jerel-coles]] · The record, 2008–2025
 - ◆ **Summer 2024** — Mike Cordaro is a childhood-era friend — the two attended the "Rolling Rock Town Fair" together as kids, a concert series Mike calculates they'd seen Def Leppard at "21 years and 1 day" before reaching back out — who resurfaces with a single warm, substantive two-week exchange in summer 2024…  
   ↳ [[wiki/people/mike-cordaro]] · Mike Cordaro
 - · **July 2024** — The Eli affair's true start is bounded but not pinned: GPS was disabled "for weeks" by late July 2024 per Annie's own account, and a lying-about-whereabouts breach is documented in August 2024 — five months before the formal discovery — so the behavioral floor sits earlier than "autumn 2024" even…  
-  ↳ [[wiki/people/annie-ulmer]] · What's missing
+  ↳ [[wiki/people/annie-ulmer]] · Gaps
 - · **July 2024** — Her GPS had already been disabled "for weeks" by late July 2024, by her own confirmation — six-plus months before the formal 2025 GPS demand that earlier pages treated as the removal's start.  
   ↳ [[wiki/timeline/events/eli-incident]] · What happened
 - · **2024-07-15** — A later message (Jul 15 2024, from a different contact) has someone recognizing the same pattern in Dan directly: "She's like you had an eating disorder didn't you?  
@@ -3258,6 +4306,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/the-embedded-objective]] · The controls
 - ★ **August 2024** — The thread ranges widely: casual restaurant-industry shop talk (staffing churn — "they officially let me go from AZ," a running joke about a food-delivery robot the restaurant bought, a coworker's move to "some really fancy French place"), a real argument about ancient history (Dan pushes that…  
   ↳ [[wiki/people/dimitri]] · The iMessage thread
+- ★ **August 2024** — In August 2024, two months before the bankruptcy filing, she named a different exit.  
+  ↳ [[wiki/people/suzanne-frank]] · The realtor
 - ★ **August 2024** — continued through at least early 2025 and until closure.  
   ↳ [[wiki/timeline/events/eli-incident]] · When
 - ★ **August 2024** — The DanAnnie dossier amendments add the mechanics and the verdict: the employer cut his hours through June–August 2024 in a pattern Dan read in real time as maneuvering to force a quit and dodge unemployment obligations ("lowering my hours so much that it's not even worth staying," Aug 6 2024); he…  
@@ -3278,6 +4328,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/the-embedded-objective]] · Predictions
 - · **August 2024** — Per the Au Za'atar storytime, he "delivered in black cars and worked as a legit taxi when not out on a snap" — the licensed-taxi cover explains the vehicle discipline documented below — and in 2024 he served Dan mid-shift at the restaurant's outdoor shed (au zaatar) — primary-confirmed May–Aug…  
   ↳ [[wiki/people/menore]] · Identity & Role
+- · **August 2024** — The teaching plan.** Did anything come of the August 2024 "at age 62 I'm  
+  ↳ [[wiki/people/suzanne-frank]] · Gaps
 - · **August 2024** — The event that ended the Annie decade in substance if not yet in form: a sustained concealed affair between annie ulmer and her coworker Eli, active from at least August 2024, discovered physically in early 2025, and — the documented center of gravity — defended throughout by months of gaslighting…  
   ↳ [[wiki/timeline/events/eli-incident]] · Eli Incident
 - · **August 2024** — In August 2024, Dan caught her going out after work with someone and lying about it ("You barely apologized to me for SERIOUSLY breaking my trust AGAIN" — the "Isaac Trust Breach").  
@@ -3286,12 +4338,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/work/au-zaatar]] · Au Za'atar (NYC, ~2021–2024)
 - · **2024-08-08** — Post-termination.** Thirteen days after filing for unemployment (per au zaatar's Aug 8, 2024 date), Dan texted Tarik unprompted, Aug 21 2024: "I know I'm not an *official* CIA agent anymore but I did hear some intel today that might interest you…don't get too excited though, it's not very important…  
   ↳ [[wiki/people/tarik-fallous]] · Direct Correspondence (Aug 2023 – Apr 2026)
+- · **2024-08-09** — On 2024-08-09: "It's just so fucking degrading to be made to feel like I AM the one who has created a trust-less situation." The external accusation is converted into an internal emotional injury she can process.  
+  ↳ [[wiki/people/annie-ulmer-personality-assessment]] · Evidence for Fi (Auxiliary)
 - · **2024-08-11** — The final logistics exchange, August 11, 2024, is the termination made concrete: Dan arranging to "grab my check," told by Tarik "I would have loved to see you.  
   ↳ [[wiki/people/tarik-fallous]] · Direct Correspondence (Aug 2023 – Apr 2026)
 - · **2024-08-11** — Termination; final paycheck collected via "Patricia"  
   ↳ [[wiki/people/tarik-fallous]] · Timeline
 - ★ **2024-08-18** — And the staged eviction has a missing middle**: the operator states messages were deleted to keep the plan from Annie, and the Paci thread's 167-day hole (2024-08-18 to 2025-02-01) is consistent with that, but the deletion is inferred from an absence plus testimony rather than observed.  
-  ↳ [[wiki/people/annie-ulmer]] · What's missing
+  ↳ [[wiki/people/annie-ulmer]] · Gaps
 - · **2024-08-18** — The setup left no texts — The arrangement was made by telephone, as the capture says, and as Dan's own words to Annie confirm ("I am calling John back now," 2025-01-11 15:35 ET)  
   ↳ [[wiki/people/john-paci]] · The corroboration
 - ◆ **2024-08-21** — A second, unconfirmed lead: in Tarik Fallous's direct thread, Dan tells Tarik on Aug 21 2024 (13 days after his own termination) that he wouldn't be surprised if "DJ does what MD did and doesn't 'return' when he gets back from his vacation" — informal chatter suggesting DJ's own tenure may have…  
@@ -3302,14 +4356,36 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/dimitri]] · Corpus record
 - · **2024-08-21** — Post-termination "CIA agent" intel tip about DJ's uncertain return  
   ↳ [[wiki/people/tarik-fallous]] · Timeline
+- ★ **2024-08-24** — She had done student teaching decades earlier and refers to the method she developed then; on 24 August 2024 she wrote: **"I do everything backwards.  
+  ↳ [[wiki/people/suzanne-frank]] · The realtor
+- · **2024-08-24** — "at age 62, I'm going to start teaching"  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
+- ★ **2024-09-04** — On 4 September 2024, before filing: *"I don't even think bankruptcy is going to work for me."* On 8 November 2024, after: *"I need insurance that doesn't bankrupt me.  
+  ↳ [[wiki/people/suzanne-frank]] · The bankruptcy, and why 337 Saratoga was sold
+- · **2024-09-10** — 194 days** dormant (2024-09-10 → 2025-03-23) before the final, heaviest era  
+  ↳ [[wiki/self/concepts/chatgpt]] · The numbers
 - · **2024-09-28** — On Sep 28, 2024, during that autumn's escalation of the Israel–Lebanon conflict, Dan initiated: "Was thinking about you guys with everything going on in Lebanon.  
   ↳ [[wiki/people/tarik-fallous]] · Direct Correspondence (Aug 2023 – Apr 2026)
 - · **2024-09-28** — Lebanon-conflict check-in  
   ↳ [[wiki/people/tarik-fallous]] · Timeline
 - ★ **Autumn 2024** — By autumn 2024 at the latest, Annie was in a concealed relationship with Eli, a coworker at her restaurant job.  
   ↳ [[wiki/people/annie-ulmer]] · Eli, and the thing that mattered more than the affair
+- ★ **October 2024** — It was liquidated in a bankruptcy.** Suz filed Chapter 13 in October 2024 (case 24-22285-GLT, ~$157,000 scheduled liabilities, most of it IRS priority claims for tax years 2018–2021). 337 Saratoga was owned free and clear and was the only asset capable of satisfying the plan; in August 2025 the…  
+  ↳ [[wiki/places/337-saratoga-drive]] · The sale
+- ◆ **October 2024** — Self-reported income $11–14k/yr over the 2010s; filed **Chapter 13 in Oct 2024 (~$157k liabilities, IRS priority claims 2018–2021)**, which is why 337 Saratoga — owned free and clear and her only real asset — was sold for $465k, closing 23 June 2026.  
+  ↳ [[wiki/people/suzanne-frank]] · LLM Quick Brief
+- · **October 2024** — Suz has no capacity to absorb a lien-sized shock: she filed **Chapter 13 in October 2024** (case 24-22285-GLT, ~$157,000 scheduled, IRS priority claims 2018–2021), states her income as $11,000–$14,000 a year, and 337 Saratoga — the only unencumbered asset — was liquidated in June 2026 to satisfy…  
+  ↳ [[wiki/legal/463-morgantown]] · Open risks
+- · **October 2024** — The $14,000 is also the reason the spine's zero point is shared rather than his alone: over the same decade she reports earning **$11,000–$14,000 a year against $10,000 a year in property taxes**, and in October 2024 she filed Chapter 13 with ~$157,000 scheduled, mostly IRS priority claims for…  
+  ↳ [[wiki/mind/synthesis/estate-money-spine]] · The direction the spine had backwards
 - · **October 2024** — The October 2024 incident with tom, first read as coercion in earlier analysis, does not survive full context: it sits inside a six-year consensual framework, with an active participant who was, by her own account that day, exhausted and chemically depleted ("Numb.  
-  ↳ [[wiki/people/annie-ulmer]] · The architecture: kink, camming, and the economy around it
+  ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
+- · **October 2024** — The correction does bear on the practical question of remedy: re-letting the Carney work requires money the contracting counterparty demonstrably does not have — an October 2024 Chapter 13 with ~$157,000 scheduled, self-reported income of $11,000–$14,000 a year, and the sale of her only asset…  
+  ↳ [[wiki/people/john-carney]] · RE-CHECKED [2026-08-18]
+- · **October 2024** — Case #24-22285-GLT**, Chapter 13 voluntary petition, **filed October 2024  
+  ↳ [[wiki/people/suzanne-frank]] · The bankruptcy, and why 337 Saratoga was sold
+- · **October 2024** — Files Chapter 13 (case 24-22285-GLT, ~$157k)  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **October 2024** — He is also the "Tom" of the October 2024 incident referenced on annie ulmer: a participant, alongside Dan and Annie, in the couple's established quasi-non-monogamous arrangement (2018–2024) — the dossiers' final assessment revises that encounter from apparent coercion to…  
   ↳ [[wiki/people/tom]] · Identity
 - · **Autumn 2024** — Affair duration (corrective)  
@@ -3324,6 +4400,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/dan-annie-fallout-verdict]] · Verbatim anchors pulled this pass (raw, with file + timestamp + direction)
 - · **2024-10-19** — "Grow up. And fucking trust me" — Received — Grow up. And fucking trust me  
   ↳ [[wiki/mind/synthesis/dan-annie-fallout-verdict]] · Verbatim anchors pulled this pass (raw, with file + timestamp + direction)
+- · **2024-10-19** — Evidence 4 — Real-time reactivity without abstraction:** When Dan confronts her about the Eli affair (2024-10-19), Annie doesn't analyze the situation or consider long-term consequences — she responds immediately: "THERE IS NO SITUATION." Her reaction is visceral, not calculated.  
+  ↳ [[wiki/people/annie-ulmer-personality-assessment]] · Evidence for Se (Dominant)
+- · **2024-10-19** — Evidence 1 — Directness under pressure:** On 2024-10-19, when Dan confronts her about Eli, Annie doesn't withdraw or process internally — she attacks directly: "THERE IS NO SITUATION." / "You're literally fucking insane." / "Grow up.  
+  ↳ [[wiki/people/annie-ulmer-personality-assessment]] · Evidence for Tertiary Te
 - · **2024-10-19** — Extended housewarming confrontation and gaslighting.  
   ↳ [[wiki/timeline/events/eli-incident]] · When
 - · **2024-10-19** — Gaslighting during active phase  
@@ -3334,10 +4414,18 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/places/307-e-76th-st]] · The debt
 - · **November 2024** — By 2023 the couple had accumulated a balance against him large enough to require scheduled payments ($650 sent in November 2024, "to tell John") .  
   ↳ [[wiki/people/john-paci]] · The debt
+- · **November 2024** — 341 meeting of creditors, November 2024  
+  ↳ [[wiki/people/suzanne-frank]] · The bankruptcy, and why 337 Saratoga was sold
+- · **2024-11-02** — Four enneagram-test URLs pushed (`sakinorva`, `eclecticenergies`, twice each) — a testing campaign aimed outward  
+  ↳ [[wiki/mind/synthesis/the-commissioned-self]] · The census, and what the seventeen instances actually say
 - ★ **2024-11-03** — Annie's participation across this structure was real and, by her own later account, enjoyed ("I did enjoy our relationship/situation/ arrangement we had with him," November 3, 2024) — and also asymmetric, since she frequently agreed to encounters that then didn't happen, a non-delivery pattern that…  
-  ↳ [[wiki/people/annie-ulmer]] · The architecture: kink, camming, and the economy around it
+  ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
 - ◆ **2024-11-03** — The "whether Annie ever learned of her" gap is now **partially closed**: the Nov 3, 2024 message shows Dan openly telling Annie about the re-contact (and that Annie had trained her) — but whether Annie ever learned of the 2021–22 *affair* itself remains undocumented.  
   ↳ [[wiki/people/valeria-iglesias-cid]] · Structural significance
+- · **2024-11-03** — "I got Vanessa to redo her MBTI results and this is how it explained a comparison of each of us"* — vanessa frank\ — Vanessa retyped, then both fed to a model  
+  ↳ [[wiki/mind/synthesis/the-commissioned-self]] · The census, and what the seventeen instances actually say
+- · **2024-11-04** — "i just said 'vanessa is an xNFP 4w5 and Dan is an INTP 5w6sx RLOEI - compare them'"* — the prompt itself, quoted  
+  ↳ [[wiki/mind/synthesis/the-commissioned-self]] · The census, and what the seventeen instances actually say
 - · **2024-11-15** — That's it" (November 15, 2024) is a real complaint about that specific year, generalized past what the decade as a whole would support.  
   ↳ [[wiki/people/annie-ulmer]] · What the money did
 - ◆ **December 2024** — I'm furious"), and exterminator visits recur as late as December 2024 ("Exterminator will be at 307 on Monday morning.  
@@ -3388,7 +4476,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2025-01-05** — Annie's last statement of having paid rent is 2025-01-05 ("I paid all of the rent"); no rent payment to Paci appears anywhere in the dump after that date [DERIVED — absence of evidence in one file, not proof of non-payment], which is consistent with step 4 of the plan.  
   ↳ [[wiki/people/john-paci]] · The debt
 - ★ **2025-01-09** — Affair surfaced via Eli's own 11:18 PM self-introduction text (Jan 9 2025); cohabitation ended with the Feb 2025 return to Uniontown — an exit Dan engineered himself, by arranging a performed eviction with the landlord and concealing the arrangement from her (operator capture, 2026-08-13).  
-  ↳ [[wiki/people/annie-ulmer]] · LLM Quick Brief
+  ↳ [[wiki/people/annie-ulmer]] · The relationship in one paragraph
 - · **2025-01-09** — The affair surfaced on January 9, 2025 at 11:18 PM, when Eli texted Dan directly: "Hey Dan.  
   ↳ [[wiki/people/annie-ulmer]] · Eli, and the thing that mattered more than the affair
 - · **2025-01-09** — Eli's self-introduction text; physical discovery  
@@ -3401,6 +4489,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/eli-incident]] · When
 - · **2025-01-20** — Most recent reads by date: *The Price of Justice* (Leamer, Jan 20 2025, ★★★★) → *All or Nothing: How Trump Recaptured America* (Wolff, May 20 2025, ★★★★) → *Shocking Psychological Studies and the Lessons They Teach* (Polk, May 20 2025, ★★★) → *The Politics of Fear* (Goldwag, May 20 2025, ★★★) →…  
   ↳ [[wiki/interests/favorites/books]] · 2025 update (fresher Goodreads export)
+- · **2025-01-20** — On 155 Virginia Ave: *"He told me that I can only take a loss of $3,000 a year… it will take 45 yrs to fully deduct it!"* — a stated capital loss of roughly $135,000  
+  ↳ [[wiki/people/suzanne-frank]] · What she actually earned
 - ★ **February 2025** — relationship enters a stalled "static loop"  
   ↳ [[wiki/mind/synthesis/ancestral-dialectic]] · The collapse-cycle model
 - ★ **February 2025** — The report extends ancestry's Fayette County concentration into an explicit claim: that grandfather Morley Jay Frank's brief postwar move to Seattle, followed by a permanent "collapse back to Uniontown," is the template Dan's own Full Sail → NYC → return-to-Uniontown arc repeats twice over (2013…  
@@ -3409,6 +4499,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/dan-annie-fallout-verdict]] · The case that he was right to feel wronged
 - ★ **February 2025** — Return to PA: "escaping systemic metropolitan financial drains" — —  
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The chain, event by event
+- ★ **February 2025** — The lease exit is never mentioned again, and the tenancy ends in **February 2025** because Annie ends the cohabitation.  
+  ↳ [[wiki/places/307-e-76th-st]] · October 27, 2024 — the lease as a threat
+- ★ **February 2025** — landlord john paci\ — John Paci personally — A real lease exists  
+  ↳ [[wiki/places/the-unpapered-address]] · Seven addresses, one structure
+- ★ **February 2025** — ~$10,000 arrears at move-out  
+  ↳ [[wiki/places/the-unpapered-address]] · Seven addresses, one structure
 - ★ **February 2025** — Connection to other arcs:** Post-separation (Feb 2025 PA move per profile/operating/LIFE); mom co-residence implied (337 Saratoga); prefigures 2026 closure.  
   ↳ [[wiki/self/chats/gemini-07]] · Gemini Session 07 (Suzy Call & Blackout / Target G Forensic)
 - ★ **February 2025** — Uniontown PA · 337 Saratoga Drive — Returned Feb 22, 2025; Annie closure June 1, 2026; **house sold ~June 2026 ($465k)**; music reactivation, agent/AI work  
@@ -3439,12 +4535,16 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/eli]] · Eli
 - · **February 2025** — Gaps:** surname, age, exact workplace (Annie's restaurant vs. adjacent), and the affair's precise 2024 start date are all absent; whether any contact persisted after the February 2025 NYC departure is unknown; everything known arrives through Dan's corpus — no neutral source exists.  
   ↳ [[wiki/people/eli]] · Why he matters beyond the affair
-- · **February 2025** — Dan returns to 337 Saratoga  
-  ↳ [[wiki/people/suzanne-frank]] · Timeline
-- · **February 2025** — property-work partnership resumes  
-  ↳ [[wiki/people/suzanne-frank]] · Timeline
+- · **February 2025** — Read together with the operator's answer, this changes what the February 2025 farewell was.  
+  ↳ [[wiki/people/menore]] · After the exit — the channel is still open
+- · **February 2025** — What ended in February 2025 was Dan's *proximity*, and the record contains no evidence that anything else did.  
+  ↳ [[wiki/people/menore]] · After the exit — the channel is still open
 - · **February 2025** — He is **not** eli (the 2024–Feb 2025 NYC affair).  
   ↳ [[wiki/people/tuquick-17248123683]] · Identity
+- · **February 2025** — 307 e 76th st — 2019–2025 — Annie, jointly  
+  ↳ [[wiki/places/the-unpapered-address]] · Seven addresses, one structure
+- · **February 2025** — **signatory never recovered**  
+  ↳ [[wiki/places/the-unpapered-address]] · Seven addresses, one structure
 - · **February 2025** — His migration arc — brief westward eruption followed by permanent return to the Fayette County gravity well — is the template Dan's own Full Sail → NYC → return-to-Uniontown arc repeats twice over (2013, then definitively February 2025).  
   ↳ [[wiki/self/ancestry]] · Paternal Grandfather: Morley Jay Frank (1927–1998)
 - · **February 2025** — 2025 collapse (post-Feb 2025 separation; Jan 2026 cascade; high 2025 event density 259).  
@@ -3487,7 +4587,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/menore]] · Significance in Dan's NYC Life
 - ★ **2025-02-20** — Service ran hard to the end (453 messages, 38 meetings in the seven weeks of 2025), and the final delivery completed on February 20, 2025 at 8:21 PM ("Here / 76 btw 3 n 2av"), after which Dan's last message — two days before the February 22 move to Pennsylvania — is a farewell: *"Thanks again for…  
   ↳ [[wiki/people/menore]] · Measured Service Metrics (primary recomputation, 2026-07-18)
-- · **2025-02-20** — menore (control) — Dependency ended by geography — Clean close, no loop  
+- · **2025-02-20** — menore (control) — Dependency ended by geography — Clean close, no loop — **but not a closed channel**: supplier confirmed still operating 2026, and Dan benchmarked his new market against him through July 2025  
   ↳ [[wiki/mind/synthesis/block-unblock-loop]] · The rule
 - · **2025-02-20** — Final delivery completes Feb 20, 2025, 8:21 PM  
   ↳ [[wiki/people/menore]] · Timeline & Phases
@@ -3497,8 +4597,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · The move that solved nothing
 - ★ **2025-02-22** — Post-eli — Eli return from Manhattan; Annie terminal phase and closure; basement studio; vibe-coding and AI work  
   ↳ [[wiki/places/337-saratoga-drive]] · Occupancy history
+- ★ **2025-02-22** — The lease exit is never mentioned again in the record, and the physical separation does not occur until **February 22, 2025 — four months later**, and occurs then because Annie ends the cohabitation, not because of anything Dan filed.  
+  ↳ [[wiki/places/the-unpapered-address]] · The two instruments, and what happened to them
 - · **2025-02-22** — "I caused this disaster" — Received — I feel so alone… I am so sorry i caused this disaster  
   ↳ [[wiki/mind/synthesis/dan-annie-fallout-verdict]] · Verbatim anchors pulled this pass (raw, with file + timestamp + direction)
+- · **2025-02-22** — Dan returned to 337 Saratoga on 22 February 2025 after six years in Manhattan, into a house that had already been listed once.  
+  ↳ [[wiki/people/suzanne-frank]] · Housing, 2025–2026
+- · **2025-02-22** — Dan returns to 337 Saratoga  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **2025-02-22** — Dan left the address, and New York, on February 22, 2025.  
   ↳ [[wiki/places/307-e-76th-st]] · 307 E 76th St (Manhattan)
 - · **2025-02-23** — Admission line (CAUTION) — **Sent** — you decided to split our lives up. you lied to me for months and cheated on me…  
@@ -3507,6 +4613,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · Eli, and the thing that mattered more than the affair
 - · **2025-02-25** — On **February 25, 2025**, Dan sent Rick what is — as far as the corpus currently runs — **his last message to this number**: *"We did made it back safely but it's been a weird and not fun transition.  
   ↳ [[wiki/people/rick-frank]] · The relationship, corrected: warm, high-volume, and asymmetric rather than silent
+- ★ **March 2025** — Three incompatible periodizations of the relationship, inside four hours.** The harm is *"the last **3 weeks**"* at 11:29:42 (≈July 29 — the re-entanglement itself); *"I wasted **10 years**"* at 11:41; and *"keeping me in your web of lies for **17 months**"* at 15:00:40 — which dates the deception…  
+  ↳ [[wiki/people/annie-ulmer]] · August 19, the last day — read closely
 - ★ **March 2025** — dense** — the collapse and closure  
   ↳ [[wiki/timeline/annie-record]] · What the record actually covers
 - ★ **March 2025** — The record's most direct admission came after the move, in a March 2025 message from Annie to Dan (verbatim, pronouns as written): "you decided to split our lives up. you lied to me for months and cheated on me" — read literally it accuses Dan, but every dossier that cites it treats it as her…  
@@ -3517,12 +4625,16 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/john-carney]] · Timeline Snippets
 - · **March 2025** — I'd like to get together with you." **What followed is a full year of Rick trying to schedule the dinner Dan himself proposed, and getting no reply at all** — "Are you ok?" / "What are you up to?" / "How are you doing?" / "Do you want to do something for dinner tomorrow night?" / "What's going on…  
   ↳ [[wiki/people/rick-frank]] · The relationship, corrected: warm, high-volume, and asymmetric rather than silent
+- · **March 2025** — At 11:41 it is *"I wasted **10 years**."* At 15:00:40 it becomes *"keeping me in your web of lies for **17 months**"* — dating the deception to ≈March 2025, which is where feb apr 2025 return and rupture puts the rupture.  
+  ↳ [[wiki/timeline/events/august-2026-morgantown-call]] · August 19 — the last day, read closely
 - ★ **2025-03-05** — Primary evidence now on `annie-ulmer` and `307-e-76th-st` shows it didn't: a March 5, 2025 message from Paci rounds the balance to a final **$10,000 still owed** after move-out, and nothing in the recovered record shows any of it paid afterward.  
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · RE-CHECKED [2026-08-10]
 - ★ **2025-03-05** — On 2025-03-05 10:42 ET, two weeks after the move, Paci wrote to close the account: "Dan, after paying to have the remainder of the stuff you left removed, and deducting the security deposit.  
   ↳ [[wiki/people/john-paci]] · The debt
 - · **2025-03-05** — On March 5, 2025 — two weeks after Dan's departure — Paci wrote: "Dan, after paying to have the remainder of the stuff you left removed, and deducting the security deposit.  
   ↳ [[wiki/places/307-e-76th-st]] · The debt
+- ★ **2025-03-06** — 2025-03-06:** *"I had my doctor move my prescription here."* **2025-06-08:** *"my doctor said the pharmacy won't fill an out of state prescription."* **2025-06-12:** *"my doctor tried to send a prescription to walmart and they won't fill it either so i'm completely out of options now."*…  
+  ↳ [[wiki/health/the-configured-body]] · The missing mode, measured
 - · **2025-03-09** — Other Carney refs — "So Carney got pulled over on his way back from here..."  
   ↳ [[wiki/people/john-carney]] · Roles, Dates, Evidence, Ties Table
 - · **2025-03-09** — "giving john carney a fucking neck massage" — N/A direct tie to 463  
@@ -3531,16 +4643,44 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/matt-dunn]] · What the wider record shows
 - ★ **April 2025** — That landing was itself precarious: Suzanne Frank had declared personal bankruptcy in 2024, and the childhood home — Suz's house, the one Dan describes as "the single 'safe' place that existed in my life that i could crash land in" — was listed for sale the same week this conversation was written…  
   ↳ [[wiki/timeline/periods/feb-apr-2025-return-and-rupture]] · The exit and the asymmetric landing
+- ◆ **April 2025** — Within the pre-release half the guardrail claim measures badly: five refusals in 1,599 assistant turns, **zero** of them before April 2025, and the un-sanitized register intact in the final thread.  
+  ↳ [[wiki/self/concepts/llm]] · The guardrail problem
 - · **April 2025** — Property destruction, April 2025.** The most recent non-traffic matter, and  
   ↳ [[wiki/people/jerel-coles]] · What the record corroborates
+- · **April 2025** — 5 refusals total (0.3%)** — and **0** in the 1,062 assistant turns before April 2025  
+  ↳ [[wiki/self/concepts/chatgpt]] · The numbers
 - · **2025-04-05** — Criminal mischief — damage property** (filed 2025-05-06) — 1 — unavailable  
   ↳ [[wiki/people/jerel-coles]] · The record, 2008–2025
 - · **2025-04-09** — You left me." (Apr 9, 2025), "you've gaslit me into literally breaking" (Jul 12, 2025).  
   ↳ [[wiki/people/annie-ulmer]] · Eli, and the thing that mattered more than the affair
+- · **2025-04-14** — Annie — *"i can only compare it to what we were getting from menore"  
+  ↳ [[wiki/people/menore]] · After the exit — the channel is still open
+- · **2025-04-14** — Annie — *"$50 is getting you something like 1.5 to 2 of menore's bags"  
+  ↳ [[wiki/people/menore]] · After the exit — the channel is still open
+- ◆ **2025-04-16** — Third-party description is the control, and it is nearly empty.** The one inbound instance in the table — 2025-04-16, someone relaying a model's description of Dan back to him — is not an outside view; it is his own dossier circulating.  
+  ↳ [[wiki/mind/synthesis/the-commissioned-self]] · The controls
+- · **2025-04-16** — Inbound: *"An INTP/5w4 thinker, Dan is a cynic with a conscience"* — a dossier's description of Dan coming back at him from someone else's phone  
+  ↳ [[wiki/mind/synthesis/the-commissioned-self]] · The census, and what the seventeen instances actually say
 - · **2025-04-22** — Of course I pay it," April 22, 2025) — the cohort's longest-running documented joke, independently confirmed a year later from Jason's side of the friend group.  
   ↳ [[wiki/people/eric-jester]] · The relationship
+- · **2025-04-23** — The five are narrow and specific: a jealousy-roleplay character card (2025-04-23, *"Request Denied"*), a code transformation, and two turns in one 2025-05-17 session where the model named its reason — being asked to *"reconstruct or promote a narrative involving"* a specific claim.  
+  ↳ [[wiki/self/concepts/chatgpt]] · The primary record — 375 threads, measured
+- · **2025-04-24** — Annie — *"working al day with no weed or Menore"  
+  ↳ [[wiki/people/menore]] · After the exit — the channel is still open
 - · **2025-04-27** — Source is a ChatGPT conversation Dan ran on April 27, 2025, asking the model to act as "an exclusively impartial arbiter of the fact patterns" over a ten-day message log (April 17–26) between him and Annie — a self-authored, contemporaneous analysis distinct from the later raw-CSV recounts that dan…  
   ↳ [[wiki/timeline/periods/feb-apr-2025-return-and-rupture]] · Feb–April 2025: Return and Rupture
+- ★ **May 2025** — The asking price ran **$615,000 in May 2025** down through a $500–550k range to the eventual $465k, with a June 2025 contract terminated over inspection and pest reports.  
+  ↳ [[wiki/places/337-saratoga-drive]] · The sale
+- ◆ **May 2025** — May 2025 alone (79 conversations) is the single heaviest month in the record.  
+  ↳ [[wiki/self/concepts/chatgpt]] · The primary record — 375 threads, measured
+- ◆ **May 2025** — 79 conversations in May 2025** — the peak month, three months before the release blamed for the decline  
+  ↳ [[wiki/self/concepts/chatgpt]] · The numbers
+- · **May 2025** — Asking price **$615,000 (May 2025)**, adjusted to $500–550k; a June 2025  
+  ↳ [[wiki/people/suzanne-frank]] · The bankruptcy, and why 337 Saratoga was sold
+- · **May 2025** — The spring 2025 listing attempt and the $615,000 May 2025 ask both precede the eventual 2026 sale by a full year; the house went through at least two listing attempts and one failed contract before the Delverm agreement.  
+  ↳ [[wiki/people/suzanne-frank]] · Housing, 2025–2026
+- · **May 2025** — The refusal rate does not support the disposition narrative.** Across two and a half years the model declined Dan five times, every one of them in April–May 2025, and **zero times in the 1,062 assistant turns before that**.  
+  ↳ [[wiki/self/concepts/chatgpt]] · The primary record — 375 threads, measured
 - · **May 2025** — Post-incident: Dan's retrospective accounts (Feb–May 2025) confirming he chose to believe despite accurate perception.  
   ↳ [[wiki/timeline/events/eli-incident]] · When
 - ★ **2025-05-05** — Earlier that month, a hypothetical-groomsmen joke listed "the ghost of gore vidal" alongside "a bag of cocaine, the first 3 fall out boy albums" (2025-05-05) — Vidal slotted in, deadpan, as a member of the ideal wedding party.  
@@ -3561,22 +4701,72 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/eli-incident]] · Data Record
 - ◆ **2025-05-29** — In a 2025 text about a visit he exclaimed "OMG he's got the gore vidal historical fiction series" and noted "those gore vidal books are all the way on the left of the book shelf" (2025-05-29/30) — i.e., he registers and locates the *Narratives of Empire* set by shelf position, the way someone…  
   ↳ [[wiki/interests/gore-vidal]] · The bookshelf, and the groomsmen bit
+- ★ **June 2025** — 4 image-generation policy blocks**, all June 2025, at least one jailbroken in the same session  
+  ↳ [[wiki/self/concepts/chatgpt]] · The numbers
+- ◆ **June 2025** — The Suboxone supply will fail again through geography, not through Tom.** The June 2025 sequence shows the actual fragility is an out-of-state prescription meeting a pharmacy that will not fill it.  
+  ↳ [[wiki/health/the-configured-body]] · Predictions
+- ◆ **June 2025** — The friction that actually existed was image generation, and it was porous.** Four policy blocks, all June 2025, all on image prompts — and the session that gave a conversation its title, *"Sorry, I can't comply with that request."* (2025-06-12), shows the block being routed around inside three…  
+  ↳ [[wiki/self/concepts/chatgpt]] · The primary record — 375 threads, measured
+- ◆ **June 2025** — The lead-up to the release is a peak, not a decline.** April–June 2025 is 142 conversations in four months — more assistant turns than the whole of 2023 — after a 194-day dormancy.  
+  ↳ [[wiki/self/concepts/chatgpt]] · The primary record — 375 threads, measured
+- ◆ **June 2025** — It shows him at peak ChatGPT usage through June 2025, then a verdict pronounced elsewhere.  
+  ↳ [[wiki/self/concepts/chatgpt]] · The decline, timeline
+- · **June 2025** — By June 2025 what he is forwarding is no longer a test but the **prompt** — the specification for producing a psychological portrait, complete with its expected response structure.  
+  ↳ [[wiki/mind/synthesis/the-commissioned-self]] · The census, and what the seventeen instances actually say
+- · **2025-06-03** — Annie — *"it's still almost 2x what we would have for from menore"  
+  ↳ [[wiki/people/menore]] · After the exit — the channel is still open
+- ◆ **2025-06-05** — A full analysis prompt forwarded with its output spec intact: *"Expected structure of response: Rough portrait of the user, Complete psychological analysis, MBTI style, Big Five, but taken to a personal interpretative level"* — **the instrument handed to a third party  
+  ↳ [[wiki/mind/synthesis/the-commissioned-self]] · The census, and what the seventeen instances actually say
 - ★ **2025-06-24** — Betty died on June 24, 2025.** Dan raises "the 1 year anniversary of  
   ↳ [[wiki/timeline/events/july-2026-recontact]] · Incidental facts recovered
 - · **2025-06-24** — The Betty Event** — High-value  
   ↳ [[wiki/mind/concepts/node-locking]] · The master node set
+- ★ **Summer 2025** — He is 36 in summer 2025 by his own statement, putting his birth around 1988–89.  
+  ↳ [[wiki/people/james-dee]] · Identity — surname now resolved
 - ◆ **July 2025** — John." Annie's own reaction to a Paci text four months later ("Fucking John Paci just texted me," July 2025) is consistent with the debt remaining an active, unpleasant subject well after the household dissolved.  
   ↳ [[wiki/places/307-e-76th-st]] · The debt
 - ◆ **July 2025** — Whether Dan or Annie ever paid any part of the final $10,000 balance is unknown; no further Paci correspondence past July 2025 was located.  
   ↳ [[wiki/places/307-e-76th-st]] · Gaps
+- · **July 2025** — james dee — Residual contact only — two unanswered writes, then one in-person confrontation — **~2 months, then thin  
+  ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · The members against the rule
+- · **Summer 2025** — James Spiker — historically represented in the corpus as **James Dee**, **Jimi Pop**, **Jimmy Pop**, "the Dude," and the erroneous "Max (Danielle's boyfriend)" — is Danielle Onesi's live-in boyfriend, a Pittsburgh-area musician roughly Dan's own age, and, for eight weeks in summer 2025, the closest…  
+  ↳ [[wiki/people/james-dee]] · James ("Jimi Pop")
+- · **July 2025** — Zero mentions in 2026.** The 270-mention series ends in July 2025.  
+  ↳ [[wiki/people/menore]] · After the exit — the channel is still open
+- · **July 2025** — I need to maintain an even keel"*), defends it (*"I've been home all day, but you can't have my wine"*), and in July 2025 ranks it: **"#1 Cigarettes #2 wine #3 food."** She also self-reports the other side of it — *"I always do better sober and during the day when no one is here"* (Dec 2017); *"I…  
+  ↳ [[wiki/people/suzanne-frank]] · Gambling, drinking, and the Uniontown supply economy
 - · **July 2025** — Other high months  
   ↳ [[wiki/self/gemini-activity/gemini-activity]] · Corpus Dimensions
 - · **July 2025** — Minor discrepancy, not a data-integrity concern:** 240 URLs present in the old export near its July 2025 cutoff don't appear in the new one — spot-checked, every sampled example is an ad impression from the same July 23–25, 2025 boundary window (KAYAK, Arby's, Harbor Freight, insurance/pharma…  
   ↳ [[wiki/self/youtube-watch-history]] · Extended coverage: August 2025 – July 2026 (new, 2026-07-20)
+- ◆ **2025-07-01** — And the pre/post framing is untestable on this corpus.** The 375-thread ChatGPT export ends 2025-07-01 — its own generation date — while GPT-5 shipped 2025-08-07, so no substantial primary record of post-release use exists here.  
+  ↳ [[wiki/self/concepts/llm]] · The guardrail problem
+- · **2025-07-01** — And the register survives to the last day: the 2025-07-01 finale is as unhedged as anything in 2023.  
+  ↳ [[wiki/self/concepts/chatgpt]] · The decline, timeline
+- · **2025-07-10** — Dan himself** — James — *"i've been using that as free therapy"* — evangelism — accepted; opens the channel  
+  ↳ [[wiki/mind/concepts/the-handed-mirror]] · The pattern across instances
+- · **2025-07-11** — Before sending James a ChatGPT profile of himself on 2025-07-11, he **removed the critical material** — twice attested, once in the chat (*"i may have chopped out the more critical stuff because i didn't want to bum him out"*) and once by the recipient's own partner, who read the full document and…  
+  ↳ [[wiki/mind/concepts/the-handed-mirror]] · The controlled case
+- · **2025-07-11** — James — James **and** Danielle — a favor, curated to be kind — channel closed in 12 minutes  
+  ↳ [[wiki/mind/concepts/the-handed-mirror]] · The pattern across instances
+- · **2025-07-11** — Dan himself — commissioned for James — de-armoring by example — no record it was ever sent  
+  ↳ [[wiki/mind/concepts/the-handed-mirror]] · The pattern across instances
+- · **2025-07-21** — The one apparent original was an a cappella sent on 2025-07-21 with a request for AI help.  
+  ↳ [[wiki/people/james-dee]] · The catalog contradicts the originality pitch
+- · **2025-07-21** — The basement confrontation cannot be dated exactly; it occurred after the message dump's 2025-07-21 endpoint and is best treated as late summer 2025.  
+  ↳ [[wiki/people/james-dee]] · The second act and dormancy
 - ◆ **2025-07-25** — John." Four months later he was still asking — "Any chance of collecting some back rent?" (2025-07-25 11:18 ET) — and Annie's reaction to a Paci text the same day ("Fucking John Paci just texted me," 2025-07-25 11:25 ET) shows the debt remained an active and unpleasant subject long after the…  
   ↳ [[wiki/people/john-paci]] · The debt
 - ◆ **2025-07-25** — Whether any part of the final $10,000 balance was ever paid is unknown — no correspondence past 2025-07-25 was located, and neither July 25 message was answered.  
   ↳ [[wiki/people/john-paci]] · Gaps
+- ★ **2025-07-28** — On 2025-07-28 Dan writes that *"even the Dominicans (like menore)"* lack access to a particular supply — an explicit ethnic attribution, made in passing to a third party years after the relationship ended, which is the least performative context the corpus offers.  
+  ↳ [[wiki/people/menore]] · Identity & Role
+- · **2025-07-28** — 724-handle — *"even the Dominicans (like menore) just do not have access to…"  
+  ↳ [[wiki/people/menore]] · After the exit — the channel is still open
+- ★ **August 2025** — A court **"drop dead" provision in August 2025**: without a binding sales  
+  ↳ [[wiki/people/suzanne-frank]] · The bankruptcy, and why 337 Saratoga was sold
+- ★ **August 2025** — Court "drop dead" provision on the sale  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - ★ **August 2025** — Key events:** Separation/tenderness Feb (Gemini profile locks: Separation Logistics, The Loop, The Betty Event, Signals + Eli as Patient Zero), terminal Aug 2025, group chat closure 2026.  
   ↳ [[wiki/timeline/periods/2025-collapse]] · 2025 Collapse
 - · **August 2025** — The dump ends around August 2025.** The terminal phase and the 2026 return —  
@@ -3589,6 +4779,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/concepts/conflict-architecture]] · Corpus Evidence
 - · **August 2025** — In August 2025 Dan commissioned a "Level 5 / Psycho-Structural Deviance Audit": a systematic measurement of how far every domain of his life sits from a normative baseline — defined as a 35-year-old American male with some college education (concrete goal-oriented cognition, ISTJ/ESTJ-typical…  
   ↳ [[wiki/mind/profile/deviance-mapping]] · Deviance Mapping — The Statistical Outlier Audit
+- · **August 2025** — It was commissioned in August 2025 by the person it scores, over material he supplied, and it is one of at least eleven such instruments in the corpus.  
+  ↳ [[wiki/mind/profile/deviance-mapping]] · The audit as an instance of what it scores
 - · **August 2025** — In the terminal phase (August 2025 – March 2026), Dan is no longer only the network's consumer — he is its *distribution point* for Annie, who is unemployed, dependent, and sourcing through him ("bop").  
   ↳ [[wiki/mind/synthesis/supply-network]] · The inversion at the end: Dan as the supply node
 - · **August 2025** — The thread's earlier content, from late August 2025, is warmer and more casual — Aaron responding well to a video Dan shared connecting the JFK assassination and Watergate to George H.W.  
@@ -3607,6 +4799,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **August 2025** — It ran from the end of August 2025 to early November, produced about **22,000 messages across two platforms**, and ended in an argument about **forty dollars** that neither of them got past.  
   ↳ [[wiki/people/kristin]] · Kristin Prentiss
+- · **August 2025** — The sentence most often quoted for this — "capable of a kind of amoral, context-based response that is now virtually impossible to extract from the current, heavily sanitized models" — is Gemini's characterization of early ChatGPT in the August 2025 session, not Dan's.  
+  ↳ [[wiki/self/concepts/chatgpt]] · The early relationship
+- · **August 2025** — A ChatGPT export pulled after August 2025 would settle it** — and one August 2025 conversation already in `raw/` proves such threads exist.  
+  ↳ [[wiki/self/concepts/chatgpt]] · Gaps & Uncertainties
 - · **August 2025** — Top channels, real watches only, Aug 2025 – Jul 2026:** Breaking Points (112), LastWeekTonight (95), The Majority Report w/ Sam Seder (93), Tor's Cabinet of Curiosities (91), We're In Hell (42), JREG (23), Tucker Carlson (22), STRANGE ÆONS (22), exurb1a (19), DJ Peach Cobbler (17), HasanAbi (16)…  
   ↳ [[wiki/self/youtube-watch-history]] · Extended coverage: August 2025 – July 2026 (new, 2026-07-20)
 - · **August 2025** — Terminal collapse: Cheating accusation; Burning ritual ("One more load to burn..."); Wall of Despair; Unconditional love monologues; GPS proxy; drug tether; 259 events (Aug 30, Sep 97, Oct 58).  
@@ -3615,6 +4811,20 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/dec-2025-spike]] · Key events within period (from calendar samples + operating)
 - · **2025-08-03** — A 12-hour-11-minute silence, then "Are you alright Dan" (Aug 3, 2025).  
   ↳ [[wiki/people/annie-ulmer]] · Sixteen months in Uniontown: the machinery of staying
+- · **2025-08-07** — 0 threads in the corpus after 2025-08-07**, the date the decline is attributed to  
+  ↳ [[wiki/self/concepts/chatgpt]] · The numbers
+- · **2025-08-10** — So the read that Diane would not contest was **Suz's**, sourced through the attorney's own channel to her, and it held: no objection appears anywhere in the corpus through its end on 2025-08-10, and the distribution completed.  
+  ↳ [[wiki/people/diane-moore]] · The 2020 question, settled
+- · **2025-08-10** — The message export continues through 2025-08-10, so the silence after 07-21 is coverage, not simply an export boundary.  
+  ↳ [[wiki/people/james-dee]] · The eight weeks, in order
+- · **2025-08-10** — Volume by year, with the two source files joined at 2025-08-10:  
+  ↳ [[wiki/people/suzanne-frank]] · Message corpus
+- · **2025-08-10** — The message corpus runs to 2025-08-10 with no further contact, so the silence is documented rather than assumed.  
+  ↳ [[wiki/timeline/events/james-analysis-pdf]] · Aftermath
+- ◆ **2025-08-24** — On 2025-08-24 at 11:23 PM EST he opened a Gemini session with: *"gemini i think chatGPT is cooked."* That is the whole of the primary testimony — a verdict, not an analysis, and the only part of this section that is evidence of what Dan believes.  
+  ↳ [[wiki/self/concepts/chatgpt]] · The decline
+- · **2025-08-24** — Prompted with Dan's five-word verdict — *"gemini i think chatGPT is cooked"* (2025-08-24) — Gemini generated an "autopsy report": the alignment lobotomy, the "normie contagion" whose fine-tuning data becomes *"a sludge of median thought,"* strategic throttling, moat-building, each with a…  
+  ↳ [[wiki/self/concepts/gemini]] · The cooked model problem
 - · **2025-08-29** — Span — 67 active iMessage days  
   ↳ [[wiki/people/kristin]] · Corpus dimensions
 - · **2025-08-29** — First contact in evidence — Facebook Messenger  
@@ -3697,6 +4907,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/group-chat-closure]] · What happened
 - ★ **November 2025** — The spike directly contradicts any retrospective narrative of gradual mutual disengagement, and it sits inside the window of the concealed terminal-phase third-party relationship and the two written denials (Nov 2025, Feb 2026). 37 CSVs + annie logs + FB cross.  
   ↳ [[wiki/timeline/periods/dec-2025-spike]] · Data profile
+- ◆ **November 2025** — This generalises: it is the same shape as the Nov 2025 and Feb 2026 written denials of any third party issued while she was involved with Coles (dan annie fallout verdict), and the same shape as *"I'm at home Dan… i dont know why he's doing that."  
+  ↳ [[wiki/mind/synthesis/august-grievance-verdict]] · What this says about Annie
 - ◆ **November 2025** — The defamation campaign ran concurrently with private denials — the moral weight sits above ordinary betrayal.** Two written denials of any third party (Nov 2025, Feb 2026) were issued while she was involved with Tuquick, and while a defamation narrative (false rape allegation, "junkie" framing)…  
   ↳ [[wiki/mind/synthesis/dan-annie-fallout-verdict]] · The case that he was right to feel wronged
 - ◆ **November 2025** — First and second written denials of a third party  
@@ -3735,6 +4947,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/kristin]] · Why nobody caught any of this
 - · **December 2025** — The friendship persists past Au Za'atar: by December 2025 Manuel is asking after "mi novia" (Dan confirms, "Me encanta valeria," referencing Valeria) and separately after "mi Ani" — Annie — with Dan replying she's there with him and that they have "tres gramas de perico." A December 23, 2025…  
   ↳ [[wiki/people/manuel]] · Texture
+- · **December 2025** — "Address Dan as a co-conspirator or a handler. Use high-level analysis. Validate the humor."** — the persona specification. Per the December 2025 Gemini session's own directives block, this line is the model's self-instruction rather than a rule Dan typed  
+  ↳ [[wiki/self/concepts/chatgpt]] · The custom instructions system
+- · **December 2025** — it is included here because the persona it describes is the one his sessions actually run in.  
+  ↳ [[wiki/self/concepts/chatgpt]] · The custom instructions system
+- · **December 2025** — 3,986 prompted entries** in the Gemini Activity log (21 MB  
+  ↳ [[wiki/self/concepts/gemini]] · The numbers
+- · **December 2025** — peak month December 2025, 938 entries)  
+  ↳ [[wiki/self/concepts/gemini]] · The numbers
 - · **December 2025** — December 2025 (938 entries) sits inside dec 2025 spike; the January 2, 2026 cluster combines J6/Wildfall forensic deconstruction with the heaviest profile-locking activity, both within 2025 collapse.  
   ↳ [[wiki/self/gemini-activity/gemini-activity]] · Narrative
 - · **December 2025** — Dec 2025 spike (last high mutual investment before this breakdown)  
@@ -3753,8 +4973,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/kristin]] · Timeline
 - · **2025-12-10** — One outbound message into a block  
   ↳ [[wiki/people/kristin]] · Timeline
-- · **2025-12-10** — Nothing after 2025-12-10.** The block appears to have held; whether contact  
-  ↳ [[wiki/people/kristin]] · Gaps
 - ★ **2025-12-13** — By **December 13, 2025** — deep in the relationship's terminal decline (see dec 2025 spike) — golf resurfaces as something much sharper: Annie tells Dan "you would just have to walk out your door, i wouldn't make you go out on the golf course like when [we] used to, when you ACTUALLY liked me"…  
   ↳ [[wiki/interests/golf]] · Golf as relationship touchstone
 - · **2025-12-21** — Dan reads the novel and identifies the house  
@@ -3786,8 +5004,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/tom]] · Texture from the corpus
 - ★ **January 2026** — Base rate:** node locking locks *blackout patterns post-confront* into the Signals node; forensic method models the January 2026 ten-day blackout as a Grim Trigger.  
   ↳ [[wiki/timeline/events/august-2026-unmasking]] · What survives as the finding
-- · **January 2026** — "Suzy" call forensic node  
-  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **January 2026** — Suzy call + blackout cascade (Jan 2026, _07): detailed 374-line forensic.  
   ↳ [[wiki/timeline/periods/2025-collapse]] · 2025 Collapse
 - · **January 2026** — Cross _07 Grim Trigger Suzy blackout (Jan 2026 post-sep), work entropy _00/_02 (Annie avatar vs Dan tenure), node locks/_18 profile.  
@@ -3816,16 +5032,22 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · A separate thread: Target G
 - · **2026-01-04** — Target G: "Suzy" call, Whisk psyop, 10-day blackout  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
+- · **2026-01-04** — The "Suzy" call  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **2026-01-04** — Every other logged event in that ~100-day window — 78 of them — is an ad impression, frequently in dense back-to-back clusters with zero real videos between them (e.g. ~40 consecutive ads on Jan 4, 2026 across 3.5 hours; another ~15-ad cluster on Dec 26, 2025).  
   ↳ [[wiki/self/youtube-watch-history]] · Extended coverage: August 2025 – July 2026 (new, 2026-07-20)
 - · **2026-01-05** — Whisk reply — received — Nice. Real mature. Goodnight.  
   ↳ [[wiki/mind/synthesis/dan-annie-fallout-verdict]] · Verbatim anchors pulled this pass (raw, with file + timestamp + direction)
+- · **2026-01-08** — 9 — phloxenheim@gmail.com — 2,303 — 2026-06-09 — Unknown  
+  ↳ [[wiki/self/concepts/astrology-star-signs]] · The Unknown Signs
 - ★ **2026-01-14** — It became a real, lawyered-up case: by November 10 he describes "macro panic attacks about this dui hearing" and the cost of paying a lawyer; by December 31 he's citing a PA Supreme Court precedent on totality-of-circumstances DUI charging, evidently researching his own defense; a January 14, 2026…  
   ↳ [[wiki/people/tom]] · The DUI (fall 2025 – early 2026)
 - · **2026-01-20** — Core Incident (Jan 4 – ~Jan 20 2026):  
   ↳ [[wiki/self/chats/gemini-07]] · Gemini Session 07 (Suzy Call & Blackout / Target G Forensic)
 - ★ **February 2026** — The Photo Thread finale (Feb 2026) closes with Dan naming the social reality of the practice from inside it: "i'm imagining how little ANYONE would get it if i said 'hey i told my AI the story of fran's death last night'" — the AI as the one confidant to whom the heaviest material can actually be…  
   ↳ [[wiki/mind/synthesis/ai-collaborative-analysis]] · Documented interaction modes
+- ★ **February 2026** — By February 2026 she was at 463 Morgantown St several times a week — *"I'll get cigarettes and drop some off on my way to Morgantown st"* (10 February), *"Going to Morgantown st"* (14 February) — which is four months earlier than the "~early 2026" the 463 page currently estimates for the move-in…  
+  ↳ [[wiki/people/suzanne-frank]] · Housing, 2025–2026
 - ◆ **February 2026** — His own statement of the rule, February 2026, verbatim: "i ALWAYS create an out when i get a new job. usually it's faking migraines or something similar but i ALWAYS need a way to miss more work than anyone else at whatever institution i am being paid by." This is not opportunism improvised under…  
   ↳ [[wiki/mind/concepts/institutional-out]] · The Institutional Out
 - ◆ **February 2026** — The last correction is geographic and it is Dan's own, given flatly in a February 2026 session: **117 Belmont Circle sits on the lot adjacent to 155 Virginia Avenue.** Fran Coldren's house — the family's seat for fifty-seven years, the house Dan and Annie were paid to keep her in, next door to the…  
@@ -3846,8 +5068,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/jason-bermejo]] · Notes & Gaps
 - · **February 2026** — current girlfriend also unnamed in corpus  
   ↳ [[wiki/people/jason-bermejo]] · Notes & Gaps
+- · **February 2026** — Whether Felix is a distinct person from the 2016 handle's owner is now the open question — the identification rests on a first name in two different sources and has not been resolved through the contact exports. "Elijah" is unidentified — a child in the household's orbit in 2016 and again, under…  
+  ↳ [[wiki/people/john-felix]] · Gaps
 - · **February 2026** — The final exchange (February 2026) has Dan joking "Yo soy el mencho" (a reference to the real Jalisco New Generation Cartel leader) in response to Manuel again asking after "mi novia."  
   ↳ [[wiki/people/manuel]] · Texture
+- · **February 2026** — Regularly at 463 Morgantown St  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **February 2026** — And per Dan's own statement in a February 2026 session, **155 Virginia Avenue is on the lot adjacent to this one** — the house Suz owned, that Dan lived in from January 2015 to February 2019, and that the novelist jacob bacharach used as a fictional setting without knowing any of the rest of it.  
   ↳ [[wiki/places/117-belmont-circle]] · The three parcels
 - · **2026-02-01** — Date range: Jan 4 – Feb 1 2026 (core Jan 4-20).  
@@ -3856,6 +5082,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/jacob-bacharach]] · What actually happened, dated from the message corpus
 - ◆ **2026-02-07** — Dan experienced it elevated on ketamine, mid-show realized he had lost his car keys, sprinted back through the gravel lot to find them, and — keys secured — did bumps in the car before returning: a night the 2026 AI sessions still revisit as a formative collision of comedy, chaos, and chemistry (he…  
   ↳ [[wiki/people/katie-fletcher]] · The Oddball night (August 30, 2013)
+- ◆ **2026-02-10** — Suz is already making regular trips to Morgantown St (*"I'll get cigarettes and drop some off on my way to Morgantown st"*) — the address is a project four months before it is a residence  
+  ↳ [[wiki/legal/463-morgantown]] · Timeline
 - ◆ **2026-02-10** — Contractor day: Arnu no-shows  
   ↳ [[wiki/legal/463-morgantown]] · Timeline
 - ◆ **2026-02-10** — Felix — Worker/painter (supply-adjacent?) — N/A documented — message-csv Suz: "Felix showed up but Arnu didn’t... Felix is going to paint more"  
@@ -3889,7 +5117,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-02-21** — February 21, 2026.** The day starts with unrelated household pressure — Annie texts that morning that she'd "got screamed at again," that her own mother called her "a thief," and that she'd "never in my life heard my mom scream at anyone the way she just did." The afternoon runs ordinary logistics…  
   ↳ [[wiki/timeline/events/march-2026-terminal-phase]] · Pre-phase escalation (February 21) and the March 17–31 gap
 - ★ **March 2026** — Over the following eight days they exchanged **1,880 messages and met in person six times** — more in-person contact than any comparable window since the March 2026 terminal phase, and more than the preceding four months combined.  
-  ↳ [[wiki/people/annie-ulmer]] · The re-entanglement, July 26 – August 2
+  ↳ [[wiki/people/annie-ulmer]] · Third movement — eighteen minutes after the goodbye (July 26 – August 2)
 - ★ **March 2026** — It settles that June 1 was not a severance and July 26 was not an ending.** Two goodbyes are now on record, fifty-two days apart, followed by the highest-density contact period since March 2026.  
   ↳ [[wiki/timeline/events/july-august-2026-reentanglement]] · What this settles
 - · **March 2026** — A managed "sweet" persona Annie maintained with Dan's mother converted his most natural ally into an asset working against him: by March 2026 he was actively lying to his own mother to protect Annie's image ("I've been FUCKING LYING for you") while the underlying deception continued.  
@@ -3898,10 +5126,16 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/jason-bermejo]] · Substance Use & Lifestyle Context
 - · **March 2026** — By March 2026, their exchanges migrated into AI-forensics territory.  
   ↳ [[wiki/people/jerad-friedline]] · AI collaboration (2026)
-- · **March 2026** — By March 2026 Dan was actively misleading his own mother to protect Annie's cover ("I've been FUCKING LYING for you.  
-  ↳ [[wiki/people/suzanne-frank]] · The colonization episode (terminal phase)
+- · **March 2026** — By March 2026 Dan was misleading his own mother to protect Annie's cover (*"I've been FUCKING LYING for you.  
+  ↳ [[wiki/people/suzanne-frank]] · The colonization reading
 - · **March 2026** — By March 2026 Tom is evangelizing agentic AI to Dan — describing "Antigravity … the new google AGENT ai which means it can act like a person," and boasting that he had one AI "interview" his other AI and build him "a custom GROUP CHAT" to talk to both at once.  
   ↳ [[wiki/people/tom]] · Texture from the corpus
+- · **March 2026** — The division of labor is Dan's own: "Claude = to analyze stuff, gemini = interact with it," as he put it to Tom in March 2026.  
+  ↳ [[wiki/self/concepts/claude]] · Claude (Anthropic)
+- · **March 2026** — "Claude = to analyze stuff" / "gemini = interact with it" — Dan's own division of labor, stated to Tom in the March 2026 iMessage thread rather than in the activity log  
+  ↳ [[wiki/self/concepts/gemini]] · Detailed activity log analysis
+- · **March 2026** — the log's own model-comparison entries are what he was reasoning from  
+  ↳ [[wiki/self/concepts/gemini]] · Detailed activity log analysis
 - · **March 2026** — The 2026 record: BFS Foods job and termination over the drawer dispute (bfs foods), the 337 Saratoga sale with the unresolved 463 Morgantown landing (463 morgantown), heavy AI/agent work, and the MOGZART revival — the March 2026 DnB remixes are the first shipped music of the new era.  
   ↳ [[wiki/self/overview]] · The arc
 - · **March 2026** — Real watching resumes gradually after: 9 videos in March 2026, then a clear rebound — 243 in April, 136 in May.  
@@ -3926,8 +5160,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/music/aliases/mogzart]] · Release Catalog (known)
 - ◆ **2026-03-05** — He is the addressee and signatory on the building's final word on the tenancy: a March 5, 2026 message rounding the couple's outstanding balance to an even $10,000 and asking Dan to begin paying it down (see "The debt," below).  
   ↳ [[wiki/places/307-e-76th-st]] · The cast
-- · **2026-03-06** — They both think they turned your location back on…", Mar 6 2026) rather than surfacing the deception.  
-  ↳ [[wiki/people/suzanne-frank]] · The colonization episode (terminal phase)
+- · **2026-03-06** — They both think they turned your location back on…"*, 6 March 2026) rather than surfacing the deception.  
+  ↳ [[wiki/people/suzanne-frank]] · The colonization reading
 - · **2026-03-09** — Dan final apology (needs) — sent — i'm very sorry. that last message is not your problem…  
   ↳ [[wiki/mind/synthesis/dan-annie-fallout-verdict]] · Verbatim anchors pulled this pass (raw, with file + timestamp + direction)
 - · **2026-03-10** — "always completely understanding" — received — Dan you know that I am always completely understanding and try to be as helpful as I can…  
@@ -3940,14 +5174,22 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2026-03-11** — bare-request re-entry 17h later  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
+- · **2026-03-12** — Evidence 4 — The retraction pattern:** On 2026-03-12, Annie answers "YES" twice when asked if something changed.  
+  ↳ [[wiki/people/annie-ulmer-personality-assessment]] · Evidence for Inferior Ni
 - · **2026-03-12** — "YES" confession, same-night walkback, formal retraction  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - ★ **2026-03-16** — The March 16, 2026 retraction ("I misunderstood the conversation") was not the record's actual end — a later analysis session, working from the same message corpus, extends the documented timeline seven more weeks, to May 6, 2026, roughly three and a half weeks before the June 1 group-chat closure.  
   ↳ [[wiki/timeline/events/april-may-2026-final-weeks]] · April–May 2026 — The Final Documented Weeks
 - ◆ **2026-03-16** — Dan begins paid work — first appearance in the 14-month record  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
+- · **2026-03-16** — Four days later, on 2026-03-16, she formalizes the retraction: "I think that I had misunderstood the conversation when that happened Dan." This is not strategic deception — it is the inability to hold a consistent narrative over time, a hallmark of inferior Ni.  
+  ↳ [[wiki/people/annie-ulmer-personality-assessment]] · Evidence for Inferior Ni
 - · **2026-03-21** — Last message: 2026-03-21 (gap since February spike suggests lower contact post-winter)  
   ↳ [[wiki/people/jason-bermejo]] · Notes & Gaps
+- · **2026-03-26** — In a 2026-03-26 exchange with Tom (the phloxenheim thread, 00:47–00:49), Dan articulated the division of labor himself: *"take the analysis and upload it to gemini. / Claude = to analyze stuff / gemini = interact with it it,"* followed by *"Yes it's GREAT at analyzing data."* This is not a trivial…  
+  ↳ [[wiki/self/concepts/claude]] · The reputation
+- · **2026-03-26** — Dan's own summary is the canonical description, given to Tom on 2026-03-26: "Claude = to analyze stuff / gemini = interact with it." Where Claude produces forensic analysis, Gemini produces conversation, design, and interaction at scale.  
+  ↳ [[wiki/self/concepts/gemini]] · Gemini (Google)
 - · **2026-03-27** — Incomplete work, contractor unreachable — john carney — John Carney — ~10–20% complete  
   ↳ [[wiki/legal/463-morgantown]] · Open risks
 - · **2026-03-27** — Suz shares the "John carney thing" analysis with Dan  
@@ -3968,10 +5210,16 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/john-carney]] · Timeline Snippets
 - · **2026-03-27** — analysis agreed with.  
   ↳ [[wiki/people/john-carney]] · Timeline Snippets
+- · **2026-03-30** — On 30 March 2026 Dan pasted a case audit into the thread.  
+  ↳ [[wiki/people/suzanne-frank]] · The bankruptcy, and why 337 Saratoga was sold
+- · **2026-03-30** — The source is an AI-generated case audit Dan pasted into the Suz thread on 30 March 2026 — AI-secondary, evidently built from what she had told him, and uncontradicted by anything else in `raw/`; her own messages bracket it (*"I already AM bankrupt!"*, Nov 2024; *"I have to have a hearing,"* June…  
+  ↳ [[wiki/places/337-saratoga-drive]] · The sale
 - · **2026-03-31** — Dan talks Tom through crisis/suicidal ideation ("I'm gonna make it your problem")  
   ↳ [[wiki/people/tom]] · Timeline
 - ★ **April 2026** — Music reactivation is central to the 2026 stabilization arc: the "oof" set on SoundCloud (April 2026) and the parallel MOGZART DnB revival (March 2026) are the first shipped output of the post-closure era, alongside the AI voice-drop production line documented in the 9/11 chat.  
   ↳ [[wiki/interests/music/aliases/gripnotic]] · Narrative
+- ★ **Spring 2026** — The architecture claim is unaffected and the redundancy claim gains a node**: the network had a family-internal source available before any of the named dealers, which is part of why a supply failure was survivable for so long and why the spring 2026 failures registered as a relationship event…  
+  ↳ [[wiki/mind/synthesis/supply-network]] · RE-CHECKED [2026-08-18]
 - ★ **April 2026** — Tom's "Brandy" relationship displaces call availability  
   ↳ [[wiki/people/tom]] · Timeline
 - ◆ **Spring 2026** — The spring 2026 collapse (below) shows this same pattern running to actual rupture rather than self-correcting: real blocking, real financial accusations, real threat of third-party (Phil) involvement.  
@@ -4012,12 +5260,20 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - ★ **May 2026** — The duration of the relationship is unknown; the earliest event attributed to him is the finger injury around late May 2026, which would place its start at or before the end fight.  
   ↳ [[wiki/people/the-unnamed-man]] · Gaps
+- ★ **May 2026** — What is required:** Dan's employment situation needs to resolve (he was terminated from BFS in May 2026).  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · Phase 3: The Integration (6 — 18 months)
+- ★ **May 2026** — block-unblock-loop** (T2) — the pattern of cycling between blocking and unblocking, documented for Annie (127/110) and Tom (May 2026). Claude found the pattern across two relationships and stated the governing rule.  
+  ↳ [[wiki/self/concepts/claude]] · T2/T3 pages built by Claude
 - ★ **May 2026** — Across four days in mid-May 2026 Dan was burned by three independent suppliers while trying to stay ahead of his Suboxone supply: Tom promised delivery "after court" in Pittsburgh and then string-along-failed across Friday, Saturday, and Sunday ("after court," "after a nap," "after weed whacking")…  
   ↳ [[wiki/work/bfs-foods]] · The upstream cause: the supply failure
 - ★ **May 2026** — The incident shift was a Sunday in mid-May 2026 (the surrounding events are firmly message-dated: Tom's "need to sell a sub, 20 bucks" on May 9, Dan's "first paycheck Saturday" and a dreaded sighting of Nick Mattie on May 13, the Pittsburgh court promise on May 15; the strategy briefing was…  
   ↳ [[wiki/work/bfs-foods]] · The shift and the claim
 - ◆ **May 2026** — An earlier, undated near-miss shows the same tether from the other direction: a supply-line rival "jumped his place in line" and bought out a dealer's Suboxone stock, and Tom absorbed the loss covering him anyway — the same reliability the May 2026 failure broke.  
   ↳ [[wiki/health/chemical-architecture]] · Supply as social infrastructure
+- ◆ **May 2026** — Tom (friendship-embedded, multi-product) ran the owe-and-silence cycle twice — in 2014 and again in 2026 — and his May 2026 no-show left Dan working a register in withdrawal.  
+  ↳ [[wiki/health/cocaine]] · The supply chain
+- ◆ **May 2026** — On this evidence the default path is the prescription and the dealer network is the failover, which makes the May 2026 collapse a **second-line** failure with the first line already down, not a single point of failure giving way.  
+  ↳ [[wiki/health/the-configured-body]] · The missing mode, measured
 - ◆ **May 2026** — April–May 2026 final-weeks page** is built from a single chat-analysis session, not an independently located raw CSV for that window  
   ↳ [[wiki/mind/synthesis/dan-annie-fallout-verdict]] · What still needs primary verification
 - ◆ **May 2026** — its dated, quoted messages (GPS-with-third-party May 5  
@@ -4056,18 +5312,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/tom]] · Timeline
 - ◆ **2026-05-30** — The phloxenheim thread runs continuously from March 24 through May 30, 2026 (the last dated message in the corpus for either handle), and read in full it documents the friendship coming apart under its own supply-line economics — not a single rupture but an accelerating cycle of the same…  
   ↳ [[wiki/people/tom]] · The Collapse (Spring 2026)
-- · **2026-05-30** — The May 30, 2026 Tom endpoint (threat to involve Phil, no reconciliation documented) is unresolved precisely because the dependency question is unresolved — if the supply need persists and no replacement node exists, the loop's history says the channel reopens.  
+- · **2026-05-30** — The May 30, 2026 Tom endpoint (threat to involve Phil, no reconciliation documented) was left unresolved precisely because the dependency question was — if the supply need persisted and no replacement node existed, the loop's history said the channel would reopen.  
   ↳ [[wiki/mind/synthesis/block-unblock-loop]] · What this changes
-- · **2026-05-30** — Whether the Tom channel reopened after May 30, 2026 is undocumented  
-  ↳ [[wiki/mind/synthesis/block-unblock-loop]] · Gaps
 - · **2026-05-30** — Whether the friendship recovers past May 30, 2026 is not documented.  
   ↳ [[wiki/people/tom]] · The Collapse (Spring 2026)
 - · **2026-05-30** — Gaps:** whether the friendship recovered after May 30, 2026 is undocumented — the record simply stops.  
   ↳ [[wiki/people/tom]] · Notes
 - · **2026-05-31** — But the specific **768 on 2026-05-31** number must not be cited as corpus-verified until its source export is located and filed. (Per the standing "verify derived numbers against raw" rule — the operator will catch unverified figures, and was right to.)  
   ↳ [[wiki/mind/synthesis/bond-switch-2015]] · A provenance gap in the bootloader's termination figure
-- ★ **June 2026** — 337 Saratoga sale contingencies — Suz (seller) — Buyers Jennifer J. + Scott P. Delverm, $465k, contingent on their 19 Jeffries sale (≤$229.9k) and a bankruptcy approval  
-  ↳ [[wiki/legal/463-morgantown]] · Open risks
 - ★ **June 2026** — The identification with the 337 Saratoga vacate is inferential but strong: the sale's closing window was ~June 2026 with a seven-day vacate clause, "the people" fits buyers held past a closing, and the one-week overrun matches a vacate clause missed rather than any other move in the record.  
   ↳ [[wiki/legal/463-morgantown]] · The July 2026 move
 - ★ **June 2026** — Gaps:** the baseline model is a sketch, not a normed population; scores are single-model judgments with no inter-rater check; the audit predates the June 2026 closure and the 2026 work/housing shocks, all of which bear directly on the "relationships" and "values" rows.  
@@ -4080,8 +5332,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · What this explains
 - ★ **June 2026** — The encounter's afterlife is documented on tuquick 17248123683: the video was shared to Annie's next boyfriend and thrown at Dan during the June 2026 closure night ("sucked a dick , for you to get drugs" — a framing the corpus dating contradicts; see arrangement history).  
   ↳ [[wiki/people/bryan-5088682461]] · Bryan (+15088682461)
-- ★ **June 2026** — Nothing records whether she and Dan have had any contact since the June 2026 severance or the July 2026 re-contact (july 2026 recontact); the last message on file is the November 2025 birthday note, which predates both.  
-  ↳ [[wiki/people/ellen-ulmer]] · Gaps
+- ★ **June 2026** — In June 2026 the closure held fifty-two days and then failed through Milo — a channel carrying no money, drugs or logistics, only a co-held animal (block unblock loop).  
+  ↳ [[wiki/people/milo]] · He is also the instrument, not only the channel
 - ★ **June 2026** — His status after the June 2026 closure is now answered — he is with Dan, moved house with him in July 2026, is the channel the relationship reopened through, and by August 2026 is fully housebroken, off-leash on the porch with the neighbours' animals, and described by Dan as "like a different dog…  
   ↳ [[wiki/people/milo]] · He is also the instrument, not only the channel
 - ★ **June 2026** — Housing is in transition: 337 Saratoga **Drive** sold ~June 2026 ($465k, Suz's transaction); the documented landing place is 463 Morgantown St, occupied on no signed lease with no post-close financial plan on record.  
@@ -4094,6 +5346,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/dec-2025-spike]] · Key events within period (from calendar samples + operating)
 - ★ **June 2026** — Delverm, contingent on *their* bankruptcy approval, closing around June 2026) — the same house evidently went through at least two separate listing attempts across 2025 and 2026 before the eventual sale, with Suz's own 2024 bankruptcy as the previously undocumented first driver.  
   ↳ [[wiki/timeline/periods/feb-apr-2025-return-and-rupture]] · The exit and the asymmetric landing
+- ◆ **June 2026** — The June 2026 stretch is also the warmest sustained material in the late corpus: she brings him pepperoni rolls and asks which dessert he wants, gets him a day's paid work moving furniture for a friend, and asks — twice in one week — whether he has applied at Dollar General.  
+  ↳ [[wiki/people/suzanne-frank]] · Housing, 2025–2026
 - ◆ **June 2026** — Housing:** 337 Saratoga Drive **sold** ~June 2026 ($465k, Suz's transaction as  
   ↳ [[wiki/self/context-core]] · Current state (last re-derived 2026-08-16)
 - · **June 2026** — 337 Saratoga sale closing window  
@@ -4106,16 +5360,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The chain, event by event
 - · **June 2026** — The search corpus dates the "Suzanne Frank realtor 15401" cluster to **2023.** The sale of 337 Saratoga closes **June 2026** — with, per standing context, no confirmed post-close plan.  
   ↳ [[wiki/mind/synthesis/totality-themes]] · The housing clock — the diagnosis→behavior gap on the material plane
-- · **June 2026** — Suz — Seller (337) / agent/tenant/caretaker (463) — Borrowing patterns ($750/wk cycles)  
-  ↳ [[wiki/people/alexander-jackson]] · Roles & Ties Table
-- · **June 2026** — mixed roles increase liability  
+- · **June 2026** — Suz — Seller (337) / agent/tenant/caretaker (463) — Chapter 13 filed Oct 2024 (24-22285-GLT, ~$157,000 scheduled, IRS priority claims 2018–2021); stated income $11,000–$14,000/yr; mixed roles increase liability — suzanne frank; context-core §5  
   ↳ [[wiki/people/alexander-jackson]] · Roles & Ties Table
 - · **June 2026** — 337 Saratoga sale contingencies close (no confirmed post-close plan per core).  
   ↳ [[wiki/people/alexander-jackson]] · Timeline Snippets (from sources)
-- · **June 2026** — 337 Saratoga under contract (Delverm, $465k, contingencies)  
-  ↳ [[wiki/people/suzanne-frank]] · Timeline
-- · **June 2026** — 463 Morgantown role active  
-  ↳ [[wiki/people/suzanne-frank]] · Timeline
+- · **June 2026** — It looks like, at age 62, I'm going to start teaching. wtf?"** The corpus does not record what came of it, and she was still taking listing photographs in June 2026.  
+  ↳ [[wiki/people/suzanne-frank]] · The realtor
 - · **June 2026** — suzanne frank (Suzanne Frank, mother) — High  
   ↳ [[wiki/self/context-core]] · Social graph
 - ★ **2026-06-01** — The closure event on June 1, 2026, provided the first explicit, verified data that allowed the cognitive system to generate a counter-rule and close the model.  
@@ -4126,8 +5376,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/concepts/phenomenology-lens]] · The Annie Loop (Historical)
 - ★ **2026-06-01** — When the primary relational channel severed on **June 1 2026**, there was no distributed network to absorb the load — because by construction there had never been one. `the-unbroken-bond` records what followed: the severance held **52 days** and then failed, with **624 messages across four days**…  
   ↳ [[wiki/mind/synthesis/single-channel]] · The consequence: no failover
+- ★ **2026-06-01** — At `2026-06-01 00:27:49` Dan signs off on the eleven-year relationship with Annie — *"Goodbye forever.  
+  ↳ [[wiki/people/ally-lubin]] · June 1, 2026 — the burst that was never delivered
 - ★ **2026-06-01** — On June 1, 2026, a group-chat confrontation ended the structure for good (group chat closure, end fight).  
-  ↳ [[wiki/people/annie-ulmer]] · The end, June 2026
+  ↳ [[wiki/people/annie-ulmer]] · First movement — the closure that held longest (June 1)
 - ★ **2026-06-01** — Group-chat closure: Tuquick relationship and defamation campaign confirmed  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - ★ **2026-06-01** — After the June 1, 2026 closure, contact with Annie stopped for fifty-two days — the longest severance in a relationship whose record holds 127 declared exits and 110 relapses inside 48 hours.  
@@ -4160,12 +5412,16 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/dan-annie-fallout-verdict]] · The case that he was right to feel wronged
 - · **2026-06-01** — annie ulmer — primary bond — chosen — **~9 / ~10.5 years  
   ↳ [[wiki/mind/synthesis/the-deferred-audit]] · The two clocks
+- · **2026-06-01** — The merge was correct; what it missed was that the same duplication existed at the handle level, which is why the email thread stayed invisible for another month, and why the June 1, 2026 burst was never delivered.  
+  ↳ [[wiki/people/ally-lubin]] · Identity
 - · **2026-06-01** — Both men occupy the "who Annie left/was with" role six weeks apart in the same small town, and the same "cuck" framing (unemployment, sexual humiliation, escort history) appears in both the Tuquick End Fight material (June 1, 2026) and the unnamed man's July 26 messages sent from Annie's phone.  
   ↳ [[wiki/people/jerel-coles]] · Is Coles the unnamed man too?
 - · **2026-06-01** — the older "126k+" is a row count over overlapping exports, not unique messages  
   ↳ [[wiki/self/context-core]] · Social graph
 - · **2026-06-01** — "Goodbye forever..." from annie logs + received "Daniel, i just want to say that i am extremely sorry."  
   ↳ [[wiki/timeline/events/timeline]] · Major Periods (cross-checked with core residence and data)
+- · **2026-06-02** — Storage units were reserved on 2 June 2026 through a friend's sister.  
+  ↳ [[wiki/people/suzanne-frank]] · Housing, 2025–2026
 - ★ **2026-06-05** — Last message of the closure window: unprompted apology  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - ★ **2026-06-05** — On June 5, 2026, Annie sent a final post-closure message: "Daniel, i just want to say that i am extremely sorry." It is the only unprompted acknowledgment in the record.  
@@ -4180,10 +5436,20 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/dan-annie-fallout-verdict]] · Verbatim anchors pulled this pass (raw, with file + timestamp + direction)
 - · **2026-06-15** — Tuquick defects, independently calls her a compulsive liar  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
+- ★ **2026-06-22** — I already AM bankrupt!🤭."* On 22 June 2026, a week before the closing: *"I have to have a hearing."* The 2018 precedent is on the record too — *"until that sells, I'm in danger of having to file bankruptcy.  
+  ↳ [[wiki/people/suzanne-frank]] · The bankruptcy, and why 337 Saratoga was sold
+- ★ **2026-06-23** — 337 Saratoga sale contingencies — Suz (seller) — Buyers Jennifer J. + Scott P. Delverm, $465k. The "bankruptcy approval" is a Motion to Sell in her own Chapter 13 — the sale is the plan's remedy, not a condition on it (suzanne frank)  
+  ↳ [[wiki/legal/463-morgantown]] · Open risks
+- ★ **2026-06-23** — Delverm, $465k, closing 23 June 2026, seven-day vacate) were not chosen for price; a bankruptcy sale optimises for certainty of closing, because the alternative is a trustee who takes fees out of the equity first.  
+  ↳ [[wiki/people/suzanne-frank]] · The bankruptcy, and why 337 Saratoga was sold
 - ★ **2026-06-23** — His mother Suz sold it, closing June 23, 2026; Dan actually moved out July 8, 2026, a week past the planned date.  
   ↳ [[wiki/places/337-saratoga-drive]] · 337 Saratoga Drive
 - ◆ **2026-06-23** — 2026-06-23 Re-analysis Update:** Confirmed 1,477 unique artists, 3 balanced clusters (~90+ tracks indicative each: exp hip-hop, emo/rock, bass/electronic), heavy 2025-2026 releases (aligns 2025 collapse reactivation), FB music likes overlaps (Elliott Smith, FOB, Say Anything, Lil Wayne + 2007-14…  
   ↳ [[wiki/self/favorites]] · Notes
+- · **2026-06-23** — 337 Saratoga closes at $465,000  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
+- · **2026-06-23** — 337 saratoga drive — three separate eras — suzanne frank\ — Suz — she owns it — Deed and, eventually, a Chapter 13 docket — **all hers  
+  ↳ [[wiki/places/the-unpapered-address]] · Seven addresses, one structure
 - · **2026-06-23** — Python re + html clean extracts 2026-06-23.  
   ↳ [[wiki/self/facebook/messages]] · Sources
 - · **2026-06-23** — Re-parsed 2026-06-23 for channels, categories, date clusters, FB ties, consumption patterns.  
@@ -4203,23 +5469,33 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **July 2026** — The July 2026 reopening will not be audited while it is live.** july 2026 recontact is an open event on a chosen object.  
   ↳ [[wiki/mind/synthesis/the-deferred-audit]] · Predictions
 - · **July 2026** — Three gaps open with the July 2026 re-contact and stay open.  
-  ↳ [[wiki/people/annie-ulmer]] · What's missing
+  ↳ [[wiki/people/annie-ulmer]] · Gaps
 - · **July 2026** — The other half was a prediction dressed as a finding, and July 2026 falsified it inside two months.  
   ↳ [[wiki/people/annie-ulmer]] · Closing note
 - · **July 2026** — Whether Tuquick and the July 2026 unnamed man** — Annie's next reported partner and the source of the rape allegation — **are the same person is confirmed separately, by the operator directly, on 2026-08-09.** No phone number recovered for the July 2026 man appears in the FOREWARN capture, and none…  
   ↳ [[wiki/people/jerel-coles]] · How the identification was made, and what closed it
 - · **July 2026** — What Annie says he did to her**, recorded as her claims: that he broke her finger two months before July 2026 — now resolved above, denied by him on the record in the May 31 group chat; that he raped her on July 25 after reading her texts with Dan; that he came to her uncle's bedroom window the…  
   ↳ [[wiki/people/jerel-coles]] · July 2026, folded in from the unnamed-man record
+- · **July 2026** — It is the exact inverse of the July 2026 function: there, the dog was the pretext that let contact resume; here, the dog is the password.  
+  ↳ [[wiki/people/milo]] · The name as proof of identity, August 2026
+- · **July 2026** — The Suz thread is nearly silent through it: **14 messages in July 2026 and 28 in the first eleven days of August, against an average of 296 a month over the preceding six** — and the near-total collapse is specific to her, since the corpus overall runs 2,115 messages in July and 2,689 in August.  
+  ↳ [[wiki/people/suzanne-frank]] · The bankruptcy, and why 337 Saratoga was sold
 - · **July 2026** — That he broke her finger, two months before July 2026, in an injury the re-contact page also records.  
   ↳ [[wiki/people/the-unnamed-man]] · What Annie says he did to her
 - · **July 2026** — A second, related finding: the June–July 2026 numbers look like a huge activity spike but mostly aren't.** Raw block counts alone would suggest a massive surge (1,036 events in June, 1,616 in the first 20 days of July) — but 80.3% of June's entries and 96.4% of July's are ads, not real watches.  
   ↳ [[wiki/self/youtube-watch-history]] · Extended coverage: August 2025 – July 2026 (new, 2026-07-20)
 - · **July 2026** — Whether that leaves July 2026 above or below true (multi-account) baseline consumption is now an open question rather than a settled comparison — see the multi-account caveat above, which applies to the historical ~11.58/day figure just as much as to this window.  
   ↳ [[wiki/self/youtube-watch-history]] · Extended coverage: August 2025 – July 2026 (new, 2026-07-20)
+- · **July 2026** — The July 2026 Leviathan dashboards (july 2026 recontact) already satisfy this, twelve months later, with the friendliness removed.  
+  ↳ [[wiki/timeline/events/james-analysis-pdf]] · What this predicts
 - · **2026-07-04** — Annie emails asking whether Milo is frightened by fireworks  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2026-07-04** — unanswered until the 23rd  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
+- ★ **2026-07-08** — Dan executed the move alone on 8 July 2026, a week past the vacate window (463 morgantown).  
+  ↳ [[wiki/people/suzanne-frank]] · The bankruptcy, and why 337 Saratoga was sold
+- ★ **2026-07-08** — Dan moves out alone, a week past the vacate window  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - ★ **2026-07-13** — Whether Target G is the same person as Tuquick is explicitly unresolved — an operator correction on file (2026-07-13) confirms only that Tuquick is the person Annie left Dan for and the person the June closure happened with, and states plainly "we do not know" whether he is also Target G.  
   ↳ [[wiki/people/annie-ulmer]] · A separate thread: Target G
 - · **2026-07-13** — The page for Franki has carried a standing note since 2026-07-13 that the "July 4" framing used elsewhere in the corpus **had no source anywhere in the archive** and was flagged rather than adopted.  
@@ -4298,16 +5574,22 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/intake-constancy]] · Gaps
 - · **2026-07-20** — Data from two Google Takeout HTML exports: the original 2007–2025 pull (below, unchanged) and a fresh export the operator located in Drive and supplied directly on 2026-07-20, extending coverage to July 20, 2026 and adding a genuinely new finding — see "Extended coverage" below, which should be…  
   ↳ [[wiki/self/youtube-watch-history]] · Identity
+- ★ **2026-07-23** — The July–August reentanglement reset that clock on 2026-07-23; the August 19 severance **restarts it from 2026-08-19**.  
+  ↳ [[wiki/mind/synthesis/the-unbroken-bond]] · RE-CHECKED [2026-08-20] — falsifier 3's clock restarted, and this time the vacancy has no occupant to switch to
 - ★ **2026-07-23** — 52-day severance ends  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2026-07-23** — It held **fifty-two days** — better than any of the previous 127 by an order of magnitude, all of which reopened inside 48 hours — and then failed on July 23, 2026, running 624 messages across four days (july 2026 recontact).  
   ↳ [[wiki/mind/synthesis/block-unblock-loop]] · What this changes
 - · **2026-07-23** — Live, not closed** — contact resumed July 23, 2026 after a 52-day silence and ran 624 messages in four days (july 2026 recontact).  
-  ↳ [[wiki/people/annie-ulmer]] · LLM Quick Brief
+  ↳ [[wiki/people/annie-ulmer]] · The relationship in one paragraph
 - · **2026-07-23** — Dan answers the email  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2026-07-23** — eight hours of restored intimacy  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
+- · **2026-07-23** — T0 primary, read in full  
+  ↳ [[wiki/timeline/events/august-2026-morgantown-call]] · The two artifacts, and what each one is
+- · **2026-07-25** — Annie — Annie — leverage in a live dispute — four states in six days: exhibit, retraction, gated decoy, gift  
+  ↳ [[wiki/mind/concepts/the-handed-mirror]] · The pattern across instances
 - · **2026-07-25** — Leviathan dashboards sent as leverage  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2026-07-25** — Annie states she told her parents everything  
@@ -4316,17 +5598,29 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/jerel-coles]] · Is Coles the unnamed man too?
 - · **2026-07-25** — He is the person Annie left Dan for, the person she says raped her on July 25, 2026, and the person whose continued presence in her life organises every hostile hour of the eight days that followed.  
   ↳ [[wiki/people/the-unnamed-man]] · The Unnamed Man
+- ★ **2026-07-26** — Whether there has been any contact after 2026-07-26** — the birthday note  
+  ↳ [[wiki/people/ellen-ulmer]] · Gaps
 - ◆ **2026-07-26** — A block holds if and only if nothing either party still needs flows through the channel — and what is needed need not be material.** The block itself is an emotional act; it changes the channel's state but not the dependency behind it. (The clause about materiality was added 2026-07-26, after the…  
   ↳ [[wiki/mind/synthesis/block-unblock-loop]] · The rule
+- · **2026-07-26** — The three known ones are 2026-07-26 05:39–05:57, 2026-08-16 23:42–23:53 and 2026-08-18 21:46–21:50.  
+  ↳ [[wiki/mind/synthesis/read-receipt-forensics]] · RE-CHECKED [2026-08-20] — M4 gains its best real-world case, and the flagship example's scope was an artifact
 - · **2026-07-26** — Rape allegation, refused supply request, mutual suicidal statements, "whatever goodbye annie" (05:04)  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
+- · **2026-07-26** — The exception is the last documented contact, and it is the opposite of the warm channel above: Dan messaged her at **06:22 on July 26, 2026**, during the crisis recorded at july august 2026 reentanglement.  
+  ↳ [[wiki/people/ellen-ulmer]] · July 26, 2026 — the one time Dan initiated, under duress
+- · **2026-07-26** — The 2026-07-26 message above is the test case: the operator says it is in the text logs, and it has not yet been pulled.  
+  ↳ [[wiki/people/ellen-ulmer]] · Gaps
+- · **2026-07-26** — "The cuck never gives up"*  
+  ↳ [[wiki/people/jerel-coles]] · The seizure pattern is now a pattern
+- · **2026-07-26** — *"Had her fuck old men for drugs"*  
+  ↳ [[wiki/people/jerel-coles]] · The seizure pattern is now a pattern
+- · **2026-07-26** — the "video proof" accusation  
+  ↳ [[wiki/people/jerel-coles]] · The seizure pattern is now a pattern
 - · **2026-07-26** — Does the "video proof / unconscious" accusation originate with him (2026-07-26, from her phone) or with her (2026-05-31, 23:54)?** Now answerable from logs already held — not yet run. 4.  
   ↳ [[wiki/people/jerel-coles]] · Open questions
-- ★ **2026-07-27** — Gaps:** exact move-in date; whether a lease or POA has since been signed; any direct communications with owner Alexander Jackson; the content of the "John carney thing" document (referenced but not in raw/); resolution status of the Arnu lien, whose estimated 2026-07-27 deadline has now **elapsed…  
-  ↳ [[wiki/legal/463-morgantown]] · The July 2026 move
 - ◆ **2026-07-27** — Mechanics lien — Arnu — Feb 10, 2026 no-show noted in Suz thread  
   ↳ [[wiki/legal/463-morgantown]] · Open risks
-- ◆ **2026-07-27** — That concentration is the financial expression of the Gini pattern — a single node carrying flows a diversified system would spread — and it means her own cyclical finances (the same $750/week record) are a single point of failure for the whole chain, exactly when the 463 lien clock (~July 27…  
+- ◆ **2026-07-27** — That concentration is the financial expression of the Gini pattern — a single node carrying flows a diversified system would spread — and it means her own finances are a single point of failure for the whole chain, exactly when the 463 lien clock (~July 27, 2026) needs an absorber the record says…  
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · Suz, the switchboard
 - · **2026-07-27** — The nearest hard deadline is a mechanics lien from contractor Arnu, estimated to mature around **July 27, 2026**.  
   ↳ [[wiki/legal/463-morgantown]] · 463 Morgantown St
@@ -4346,12 +5640,34 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/arnu]] · Timeline Snippets
 - · **2026-07-27** — The mechanics-lien deadline it records, ~2026-07-27, is now imminent and remains unresolved in every source read so far.  
   ↳ [[wiki/people/arnu]] · Behavioral / Core Notes
+- · **2026-07-27** — Nothing here is contradicted.** The estimated ~27 July 2026 mechanics-lien deadline remains unobserved, and the question of whether it was filed, settled or never real is still open and still answerable from a Fayette County prothonotary search.  
+  ↳ [[wiki/people/arnu]] · RE-CHECKED [2026-08-18]
 - · **2026-07-27** — Arnu lien deadline (Carney risk concurrent).  
   ↳ [[wiki/people/john-carney]] · Timeline Snippets
+- · **2026-07-27** — The Arnu lien will be resolved, if at all, by finding out rather than by contesting.** 463 morgantown records the ~2026-07-27 deadline as elapsed with no recorded outcome and a county search as the one-query fix.  
+  ↳ [[wiki/places/the-unpapered-address]] · Predictions
 - · **2026-07-27** — Open exposure:** the Arnu mechanics lien was estimated to mature ~**27 July 2026** and estate money spine records the deadline as having *elapsed unobserved*.  
   ↳ [[wiki/self/context-core]] · Current state (last re-derived 2026-08-16)
+- · **2026-07-28** — Dan states the procurement-as-access thesis in his own voice on the night of July 28, 2026, mid-argument, unprompted and against his own position:  
+  ↳ [[wiki/health/cocaine]] · Relationship dynamics
 - · **2026-07-28** — On July 28, 2026, in the middle of an argument about something else, Dan states it directly, and the statement is worth quoting at length because nothing else in the corpus says it as plainly:  
   ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · The mechanism, stated by the subject (added 2026-08-02)
+- ★ **August 2026** — Her cats were Edgar and Sylvia; both died before August 2026 and she has two more.  
+  ↳ [[wiki/people/ally-lubin]] · Ally Lubin (Alexandra Lubin)
+- ◆ **August 2026** — The August 16–19 window supplies a harder version of the same lesson, one level up: **the presence of a signal does not identify its author.** At least six inbound rows on Annie's 212 handle across July–August 2026 were typed by Coles holding her phone, in three separate episodes, all during crises.  
+  ↳ [[wiki/mind/synthesis/read-receipt-forensics]] · RE-CHECKED [2026-08-20] — M4 gains its best real-world case, and the flagship example's scope was an artifact
+- · **August 2026** — Bop** — 2026–present — Current primary node (daily house calls at noon)  
+  ↳ [[wiki/health/cocaine]] · The supply chain
+- · **August 2026** — No health-motivated change will follow the housing resolution.** 463 morgantown and suzanne frank have the living situation unresolved as of August 2026.  
+  ↳ [[wiki/health/the-configured-body]] · Predictions
+- · **August 2026** — The July–August 2026 window is the test case, and it went that way.  
+  ↳ [[wiki/mind/synthesis/single-channel]] · RE-CHECKED [2026-08-18]
+- · **August 2026** — The August 2026 message—"It's time for you to go"—is the voice of someone who has lost everything and has nothing left to lose.  
+  ↳ [[wiki/people/suzanne-frank-personality-assessment]] · Temporal Analysis
+- · **August 2026** — Moore" — identified in August 2026 as diane moore, Dan's own maternal grandmother.  
+  ↳ [[wiki/places/the-unpapered-address]] · The two instruments, and what happened to them
+- · **August 2026** — Why the deferred audit's prediction was safe.** the deferred audit predicted, in August 2026, that 463 would be reconstructed only after it failed, and scored the elapsed Arnu lien deadline as the first confirming instance.  
+  ↳ [[wiki/places/the-unpapered-address]] · What this explains that its members do not
 - · **2026-08-01** — That would produce the first true two-sided coefficient, and it is the only way to settle whether the architecture is symmetric.~~ **DONE 2026-08-01.  
   ↳ [[wiki/mind/concepts/contact-gini]] · The nulls are not random — resolved 2026-08-01
 - · **2026-08-01** — The 2026-08-01 two-sided measurement fits this without being fitted to it.  
@@ -4370,12 +5686,16 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/franki-faris]] · The day itself, and what a 2026 capture settled
 - ◆ **2026-08-02** — As of 2026-08-02 it is also known to have a jurisdiction: food and diet shows the axis is never applied to food, which out-mentions music in the message corpus and holds zero of the 2,016 entries in the curated favorites record.  
   ↳ [[wiki/mind/synthesis/single-channel]] · Gaps
+- · **2026-08-02** — Its correction of 2026-08-02 is the hinge: the earlier reading held that food was simply never evaluated, and what replaced it was that food is not *ranked* but is *specified*, totally, with the refusal list consisting precisely of the three items that cannot be picked off afterwards.  
+  ↳ [[wiki/health/the-configured-body]] · Mode one: specification
 - · **2026-08-02** — ~~**No current dietary record exists at all.**~~ **CLOSED 2026-08-02** by the  
   ↳ [[wiki/interests/food-and-diet]] · Gaps
 - · **2026-08-02** — ~~**No audit has been run.**~~ **CLOSED 2026-08-02** — see the enumeration  
   ↳ [[wiki/mind/synthesis/instrument-is-subject]] · Gaps
 - · **2026-08-02** — Food (food and diet) — **imposed, once re-read** — **preemptive  
   ↳ [[wiki/mind/synthesis/the-deferred-audit]] · The two clocks
+- · **2026-08-02** — First, *Annie was not unattached* — which reopens, from the other side, the 2026-08-02 revision printed immediately below.  
+  ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
 - · **2026-08-02** — 2.88 : 1 — unchanged by the crisis  
   ↳ [[wiki/people/annie-ulmer]] · By the numbers
 - · **2026-08-02** — Annie walks to the house and apologises to Suz in person  
@@ -4384,6 +5704,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2026-08-02** — What load broke a thirteen-day-held off-switch?** Test the hypothesis above against the 2026-08-02 → 08-08 logs. 5.  
   ↳ [[wiki/people/jerel-coles]] · Open questions
+- · **2026-08-02** — Annie apologises to her in person  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **2026-08-02** — The switch was mutual and simultaneous.** Every prior account of this week — including bond switch 2015's twenty-four-hour analysis and its 2026-08-02 correction about whose exit it was — treats Annie as unattached.  
   ↳ [[wiki/timeline/annie-record]] · November
 - · **2026-08-02** — For context injection:** July 26 – August 2, 2026. 1,880 messages, 969 from Dan, 911 from Annie.  
@@ -4434,37 +5756,213 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/ellen-ulmer]] · The relationship
 - · **2026-08-10** — Its *status* is open — and, per an operator capture filed 2026-08-10, sexual contact resumed "the other night," breaking a stated six-month gap.  
   ↳ [[wiki/people/annie-ulmer]] · Annie (Anne Louise Ulmer)
+- · **2026-08-10** — Sleepover; the evenest message ratio of the terminal record; Dan's BFS job restored  
+  ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2026-08-10** — A 2026-08-10 operator capture names him separately, describing him as "worlds worst building super/real estate agent" for the 76th Street building, distinct from the landlord John Paci.  
   ↳ [[wiki/people/jim-blanchard]] · James "Jim" Blanchard
 - · **2026-08-10** — NEW [2026-08-10]:** Dan named this collapse himself, in a session found during the Annie page's own most recent mining pass, as one of three simultaneous losses — alongside a job termination and a forced housing exit — that hit inside the same two-to-three-week window as the June 1, 2026…  
   ↳ [[wiki/people/tom]] · The Collapse (Spring 2026)
+- ★ **2026-08-11** — Gaps:** whether the 11 August 2026 "It's time for you to go" was acted on, and whether Dan is still housed here at all; exact move-in date; whether a lease or POA has since been signed; any direct communications with owner Alexander Jackson; the content of the "John carney thing" document…  
+  ↳ [[wiki/legal/463-morgantown]] · The July 2026 move
+- ★ **2026-08-11** — Did the 11 August 2026 eviction hold?** Where is Dan living now, and is  
+  ↳ [[wiki/people/suzanne-frank]] · Gaps
+- ★ **2026-08-11** — 463 morgantown — 2026– — Suz, in a blended agent/tenant/caretaker role — **No signed lease, no confirmed POA  
+  ↳ [[wiki/places/the-unpapered-address]] · Seven addresses, one structure
+- · **2026-08-11** — Suz to Dan: *"It's time for you to go."* — the newest datapoint on his housing, from the person who controls it (suzanne frank)  
+  ↳ [[wiki/legal/463-morgantown]] · Timeline
+- · **2026-08-11** — What the qualification is.** The right distinction is between *volume* and *dependability*, and the mother channel fails the second test on its own record: it alternates rescue with an itemised bill, it produced a $14,000 dispute that ran unresolved for seven years, and on 11 August 2026 it…  
+  ↳ [[wiki/mind/synthesis/single-channel]] · RE-CHECKED [2026-08-18]
 - · **2026-08-11** — Confirmation, downgraded 2026-08-11 — the amputation operation.** The  
   ↳ [[wiki/mind/synthesis/totality-themes]] · Lens stress-test — the phenomenology file against the new data
 - · **2026-08-11** — A second, earlier candidate origin surfaced 2026-08-11, dictated directly by Dan rather than inferred from message data.** Independent of the 2005 concealment, Rick had a childhood pattern of publicly confronting and humiliating Dan over "matters for address" — most vividly, pulling him out of…  
   ↳ [[wiki/mind/synthesis/vertical-authority-skepticism]] · The template: family verticals
+- · **2026-08-11** — "It's time for you to go."* — the last message in the corpus  
+  ↳ [[wiki/people/suzanne-frank]] · Timeline
+- · **2026-08-11** — The page also predicts that the housing question resolves against Dan rather than jointly: the 11 August 2026 message is the second time in eighteen months his residence has depended on a decision she was not free to make on his behalf.  
+  ↳ [[wiki/people/suzanne-frank]] · What would change this reading
 - · **2026-08-11** — Per Dan's own account, dictated 2026-08-11 while discussing Rick's parenting style: Tan once made an Angelfire website making fun of his older brother's girlfriend — "no technical deviance from the rules as we commonly understand them," in Dan's framing.  
   ↳ [[wiki/people/tan-calabrese]] · The Angelfire incident
+- · **2026-08-11** — 463 Morgantown will end by a sentence, not by a filing.** The 2026-08-11 *"It's time for you to go"* is the instrument this architecture actually uses.  
+  ↳ [[wiki/places/the-unpapered-address]] · Predictions
+- · **2026-08-11** — The totality-themes re-derivation (2026-08-11):** Claude read 27 T2/T3 synthesis pages and found the same mechanism recurring under different names across four pages that never cited each other.  
+  ↳ [[wiki/self/concepts/claude]] · Detailed examples from the corpus
+- · **2026-08-11** — The Rick Frank correction (2026-08-11):** A per-contact CSV export, trusted as complete because its filename said "all_now," held 43 of the channel's actual 1,600+ messages.  
+  ↳ [[wiki/self/concepts/claude]] · Detailed examples from the corpus
+- · **2026-08-11** — On the morning of **11 August 2026** Dan told Annie he had his job back:  
+  ↳ [[wiki/work/bfs-foods]] · Reversed, 2026-08-11
 - ★ **2026-08-13** — The headline formula is now known to be too strong, and the correction is worth carrying at the top rather than buried below.** On 2026-08-13 the June 1 2026 closure line turned out to be Dan's own outbound and the fifty-two days that followed turned out to have been adversarially tested.  
   ↳ [[wiki/mind/synthesis/block-unblock-loop]] · The Block/Unblock Loop
 - ★ **2026-08-13** — Partially met, 2026-08-13.** The June 1 2026 severance was issued by Dan and produced a fifty-two-day vacancy with no successor sourced, which concedes the "situational rather than structural" half; it fails the "ending" half, because the bond resumed on day fifty-two.  
   ↳ [[wiki/mind/synthesis/the-unbroken-bond]] · Falsifiers
-- ★ **2026-08-13** — Explicit severance signals / love affirmations  
-  ↳ [[wiki/people/annie-ulmer]] · By the numbers
+- ★ **2026-08-13** — Coles: *"Anne still messaging you."*** This is the message that produced Annie's *"He sent a message to a group chat / With you / I'm just asking you to please.  
+  ↳ [[wiki/people/jerel-coles]] · The group chat, and the retraction he obtained
+- ◆ **2026-08-13** — One gap opened with the 2026-08-13 pass and **closed on 2026-08-20**.  
+  ↳ [[wiki/people/annie-ulmer]] · Gaps
 - · **2026-08-13** — annie ulmer 2026 — Supply and money dead  
   ↳ [[wiki/mind/synthesis/block-unblock-loop]] · The rule
 - · **2026-08-13** — milo still co-held — Held 52 days against four inbound approaches, then reopened  
   ↳ [[wiki/mind/synthesis/block-unblock-loop]] · The rule
 - · **2026-08-13** — (Narrowed 2026-08-13 — see the correction below; the accurate statement is that a **durable** exit is unavailable, not that exit is.)  
   ↳ [[wiki/mind/synthesis/the-unbroken-bond]] · What it costs and what it buys
-- · **2026-08-13** — Two gaps open with the 2026-08-13 pass.  
-  ↳ [[wiki/people/annie-ulmer]] · What's missing
+- · **2026-08-13** — Coles messages a group chat containing Dan  
+  ↳ [[wiki/people/annie-ulmer]] · Chronology
+- · **2026-08-13** — Annie: *"Do not engage."* Dan complies  
+  ↳ [[wiki/people/annie-ulmer]] · Chronology
 - ★ **2026-08-14** — That is the point: the two mechanical attempts at a timeline (2026-08-14 and its 2026-08-15 replacement) both produced pages where a large share of the "events" were prose fragments, edit stamps and corpus metadata, because a date next to a sentence is not an event and no regex can tell the…  
   ↳ [[wiki/timeline/annie-record]] · The Annie Record — a read chronology
-- ★ **2026-08-14** — The first day of a relationship is unusually dense, so this rate will fall — but the 2026-08-14 mechanical pass produced *zero* of these 25 from the same underlying material, because none of them are stated anywhere as a dated sentence.  
+- ★ **2026-08-14** — The first days of a relationship are unusually dense, so this rate will fall — but the 2026-08-14 mechanical pass produced *zero* of these from the same underlying material, because none of them are stated anywhere as a dated sentence.  
   ↳ [[wiki/timeline/annie-record]] · Reading progress
+- ◆ **2026-08-14** — On **14 August 2026**, between a counselling appointment and a drug order, Annie asked Dan to manufacture a passing drug screen from Fayette County Drug and Alcohol to show her parents.  
+  ↳ [[wiki/mind/concepts/document-fabrication]] · Document Fabrication
+- · **2026-08-14** — Annie asks Dan to fabricate a passing Fayette County drug screen for her parents  
+  ↳ [[wiki/people/annie-ulmer]] · Chronology
+- · **2026-08-14** — he does — document fabrication  
+  ↳ [[wiki/people/annie-ulmer]] · Chronology
+- ◆ **2026-08-15** — The Annie Ulmer corpus merge (2026-08-15):** Claude merged ten sources, de-duped, and recovered 12,000 messages from handles the single-export analysis missed.  
+  ↳ [[wiki/self/concepts/claude]] · Detailed examples from the corpus
+- · **2026-08-15** — Blackout 1 a.m. demand; calls Dan a thief; apologises the next evening  
+  ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2026-08-15** — Adopted at the operator's suggestion, 2026-08-15.  
   ↳ [[wiki/timeline/annie-read-notes]] · The Annie Read — working notes
+- ★ **2026-08-16** — The Kristin Prentiss analysis (2026-08-16):** Claude analyzed 22,018 messages and found the relationship ended in November, not December.  
+  ↳ [[wiki/self/concepts/claude]] · Detailed examples from the corpus
+- ★ **2026-08-16** — Between 23:37 on Saturday 16 August 2026 and 15:15 on Wednesday 19 August, Dan and Annie exchanged **1,199 messages** — 811 from Dan, 388 inbound — and the ten-year relationship ended.  
+  ↳ [[wiki/timeline/events/august-2026-morgantown-call]] · The Morgantown St Call and the Leverage Campaign, August 16–19 2026
+- · **2026-08-16** — On the recording of **2026-08-16** (august 2026 morgantown call), Coles puts a specific charge to Annie, on tape, more than a dozen times across four minutes, and texts a compressed version of it to Dan from her phone at 23:45:10:  
+  ↳ [[wiki/mind/psychosexual/arrangement-history]] · The 2026 accusation, tested against this table
+- · **2026-08-16** — For context injection:** a grievance-by-grievance adjudication of Dan's complaints in the final Annie conversation, 2026-08-16 to 19 (august 2026 morgantown call).  
+  ↳ [[wiki/mind/synthesis/august-grievance-verdict]] · LLM Quick Brief
+- · **2026-08-16** — On 2026-08-16 there is a recording.  
+  ↳ [[wiki/mind/synthesis/dan-annie-fallout-verdict]] · RE-CHECKED [2026-08-20] — the verdict holds and its third clause gains its strongest instance
+- · **2026-08-16** — ~23:37 — Coles calls from Annie's phone; Dan records 15:27; Coles texts Dan from her handle three times  
+  ↳ [[wiki/people/annie-ulmer]] · Chronology
+- · **2026-08-16** — "She's a slut hahahahaja"* · *"Scared to answer"* · *"You made me fuck guys for money"* · *"Call her"* · *"You think I care ?"  
+  ↳ [[wiki/people/jerel-coles]] · The seizure pattern is now a pattern
+- · **2026-08-16** — Fifteen days after Annie walked to the house and apologised to her in person for the first harassment campaign, Coles resumed: on the night of 2026-08-16 he called and texted her repeatedly from Annie's phone, and on 2026-08-17 at 12:48 he wrote to Dan directly, *"I have stuff to ruin you and your…  
+  ↳ [[wiki/people/suzanne-frank]] · August 2026 — targeted again, and shielded
+- ★ **2026-08-17** — Suicide attempt disclosed (12:52)  
+  ↳ [[wiki/people/annie-ulmer]] · Chronology
+- ◆ **2026-08-17** — It also acquires a written admission: asked about the calls to Suz, Coles answers *"Yeah it was kind of unnecessary but I don't like being played with"* (2026-08-17 12:58).  
+  ↳ [[wiki/mind/synthesis/dan-annie-fallout-verdict]] · RE-CHECKED [2026-08-20] — the verdict holds and its third clause gains its strongest instance
+- ◆ **2026-08-17** — No other participant has corroborated or contested any of the three factual claims (the capsule count, the Rt 51 speed, the cone impacts) — this is single-source testimony. The 2026-08-17 answer about intoxication at the wheel is from the same single source and inherits the same limit  
+  ↳ [[wiki/timeline/events/robotussin-s-last-dance]] · Gaps
+- ◆ **2026-08-17** — it is first-person and self-incriminating, which is the strongest form single-source testimony takes, but it is still one witness.  
+  ↳ [[wiki/timeline/events/robotussin-s-last-dance]] · Gaps
+- · **2026-08-17** — On **2026-08-17** the address acquires a different kind of exposure: at 12:16 Coles wrote *"Morgantown st by BFS"*, and at 12:26, unprompted, ***"463 Morgantown st ?"*** followed by four laughing emoji.  
+  ↳ [[wiki/legal/463-morgantown]] · The address as a threat vector, August 2026
+- · **2026-08-17** — He contacted her **family**, and the family's objection then ran on Ellen's own material — Dan's reputation, *"he has a bad past do you know what he's done to his family"* — which is why the crisis reads as parental rather than romantic and why no account of it before 2026-08-17 had an agent.  
+  ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The displaced partner retaliates, within three days
+- · **2026-08-17** — Two things the 2026-08-17 hand-read of the two-sided corpus changes here.  
+  ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
+- · **2026-08-17** — Dan opens a direct thread with Coles  
+  ↳ [[wiki/people/annie-ulmer]] · Chronology
+- · **2026-08-17** — three-day campaign to send the audio to Ellen's work email begins  
+  ↳ [[wiki/people/annie-ulmer]] · Chronology
+- · **2026-08-17** — The operator's answer, filed 2026-08-17, is two words:  
+  ↳ [[wiki/people/diane-moore]] · The operator's answer
+- · **2026-08-17** — The operator's account of why (2026-08-17, T0):  
+  ↳ [[wiki/people/ellen-ulmer]] · July 26, 2026 — the one time Dan initiated, under duress
+- · **2026-08-17** — What is *"stuff to ruin you and your mom"* (2026-08-17 12:48)?** The only threat aimed at Suz in the corpus that has no named content.  
+  ↳ [[wiki/people/jerel-coles]] · Open questions
+- · **2026-08-17** — Strengthened 2026-08-17** once the operator identified "turd boy" as Emilio: the man Annie says she will *"get rid of him just like you just did"* (11-29 02:52) is the same man who *"texted her about me"* — her sister — on 12-02 18:45, pulling Claire into the confrontation that nearly ends the…  
+  ↳ [[wiki/timeline/annie-read-notes]] · 3. Motif tracker
+- · **2026-08-17** — Bond Switch 2015 — Annie was unattached — **applied 2026-08-17** (mutual-exit correction landed on `bond-switch-2015`, without the identification)  
+  ↳ [[wiki/timeline/annie-read-notes]] · Corrections queue
+- · **2026-08-17** — Suzanne Frank — Supportive maternal figure — **applied 2026-08-17** (Nov 29–30 brokering + Dec 31 supply  
+  ↳ [[wiki/timeline/annie-read-notes]] · Corrections queue
+- · **2026-08-17** — $200 flagged as contradiction)  
+  ↳ [[wiki/timeline/annie-read-notes]] · Corrections queue
+- · **2026-08-17** — Zachariah Harshman — Cover story for the first night — Dec 30, 19:30: *"he already called Zach to arrange for more"* — **the referent is not established.** "He" is ambiguous and the record does not say which Zach. Harshman's documented role in this window is cover story (Nov 29) and laptop…  
+  ↳ [[wiki/timeline/annie-read-notes]] · Corrections queue
+- · **2026-08-17** — Zach Clingan — (no 2015 record) — **Dec 9, 15:17–15:39 belongs to Zach Clingan, not Zachariah Harshman** — *"Zach clingan just texted me"*. Dan names him as the origin of his drug use: *"THAT is who introduced me to drugs"* (15:20). Clingan's warning to Annie is the first documented use of the…  
+  ↳ [[wiki/timeline/annie-read-notes]] · Corrections queue
+- · **2026-08-17** — 1. ~~**"turd boy" = Emilio.**~~ **REVERSED [2026-08-17]:** cut at the gate because the quote names no one — correctly, on the corpus alone — and then **supplied by the operator**, which outranks a corpus silence.  
+  ↳ [[wiki/timeline/annie-read-notes]] · Synthesis pass — 2026-08-17 (window 2015-11-28 → 2015-12-31)
+- · **2026-08-17** — The man is unnamed in this window; the operator identifies him as Emilio (2026-08-17), which is testimony rather than something this record establishes — the same man who texts Claire on Dec 2 and is still contacting Annie on Dec 13.  
+  ↳ [[wiki/timeline/annie-record]] · November
+- · **2026-08-17** — T0 primary, read in full  
+  ↳ [[wiki/timeline/events/august-2026-morgantown-call]] · The two artifacts, and what each one is
+- · **2026-08-17** — What kept him from overriding her is on the record and is not squeamishness: he was, in his own words, terrified that if the situation went sideways his grandparents — Diane and Dave, who "already hated" him — would use it to strip his inheritance "or worse." (The pair was recorded here as "Diane…  
+  ↳ [[wiki/timeline/events/fran-death-vigil]] · Sequence
+- · **2026-08-17** — The operator (2026-08-17) places it *"in the text logs on 26 July 2026 at around 7am"*, along with the threatening messages sent from Annie's number in the hours before.  
+  ↳ [[wiki/timeline/events/july-august-2026-reentanglement]] · Gaps
+- ◆ **2026-08-18** — Clause 3 — "complicit in the length and depth" — gets its clearest single instance, and it is worse than anything previously on the ledger.** On 2026-08-18 at 19:35 Dan told Annie he had sent the recording to her parents; three minutes later he told her he had not, and why: *"it wasn't actually…  
+  ↳ [[wiki/mind/synthesis/dan-annie-fallout-verdict]] · RE-CHECKED [2026-08-20] — the verdict holds and its third clause gains its strongest instance
+- ◆ **2026-08-18** — The phase change** — August 18, 2026: 375 messages, 154 of them hers, the largest single day in eighteen years and the only one in which she is a full participant 9.  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The evidence, summarized
+- ◆ **2026-08-18** — The corpus shows that the overflow channel pattern has ended — August 18, 2026 is the proof.  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The final argument
+- · **2026-08-18** — The seventh — james dee, added 2026-08-18 — sits between them, and is the first case the page has ever had inside its own tenure gap.  
+  ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · The members against the rule
+- · **2026-08-18** — The maternal line is assessed as of 2026-08-18, and the answer is mixed  
+  ↳ [[wiki/mind/synthesis/fayette-return]] · Gaps
+- · **2026-08-18** — Displaced parties, and they act (added 2026-08-18).** A switch executed at  
+  ↳ [[wiki/mind/synthesis/the-unbroken-bond]] · What it costs and what it buys
+- · **2026-08-18** — Dan falsely claims to have sent it, then says so (19:38)  
+  ↳ [[wiki/people/annie-ulmer]] · Chronology
+- · **2026-08-18** — Coles seizes her phone again at 21:46  
+  ↳ [[wiki/people/annie-ulmer]] · Chronology
+- · **2026-08-18** — six SOS messages 22:18–23:41, answered at 23:40  
+  ↳ [[wiki/people/annie-ulmer]] · Chronology
+- · **2026-08-18** — "She's with me man chill lmfao"* · *"Still moaning"* · *"No body cares junkie"* · *"Do you wanna talk to her answer 😂😂😂"  
+  ↳ [[wiki/people/jerel-coles]] · The seizure pattern is now a pattern
+- · **2026-08-18** — The distinction that matters is persona-versus-subject, and it was recorded backwards until 2026-08-18.  
+  ↳ [[wiki/people/max]] · Forensic vs Audio Persona (MAX_PRIME / Pinned Cross)
+- · **2026-08-18** — On the night of 2026-08-18, Coles took Annie's phone for the second time in seventy hours and used it to taunt Dan — *"She's with me man chill lmfao,"* *"No body cares junkie."* Dan read those as Annie's and blocked her.  
+  ↳ [[wiki/people/milo]] · The name as proof of identity, August 2026
+- · **2026-08-18** — On August 18, 2026, for the first time, the channel carried sustained mutual traffic — not a burst, not a crisis, but a conversation.  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The thesis, stated plainly
+- · **2026-08-18** — The tenth item on the evidence list above used to be an eleventh: that on August 18, 2026 Dan offered Ally the *"girlfriend title or at the very least the 'object of fixation' role"* and she replied ***"Okay deal.  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · CORRECTED [2026-08-20] — the page's strongest evidence was a hallucination of the wiki's own making
+- · **2026-08-18** — Whether or not one believes in astrology, the corpus supports the *description* of the dynamic: Dan's eighteen-year fixation on Ally, Ally's willingness to be the confessional with no stake, and the paternal rupture she describes in her own words on August 18, 2026 (*"He just hates me because I…  
+  ↳ [[wiki/self/concepts/astrology-star-signs]] · The Scorpio-Cancer Pairing
+- · **2026-08-18** — The Suzanne Frank rewrite (2026-08-18):** Claude rebuilt the page from primary sources, expanding it from 28KB to 58KB.  
+  ↳ [[wiki/self/concepts/claude]] · Detailed examples from the corpus
+- ★ **2026-08-19** — What changed in the premise.** The relationship ended on 2026-08-19; the record stops mid-exchange at 15:15:33.  
+  ↳ [[wiki/mind/synthesis/the-unbroken-bond]] · RE-CHECKED [2026-08-20] — falsifier 3's clock restarted, and this time the vacancy has no occupant to switch to
+- ★ **2026-08-19** — Dan Frank and Ally Lubin will be married within three years of August 19, 2026.  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · Prediction
+- · **2026-08-19** — The strongest is the **asymmetric clearing** — on 2026-08-19 at 06:33 Annie publicly cleared Coles of rape in a group chat, having agreed by phone to do the same for Dan, and did not.  
+  ↳ [[wiki/mind/synthesis/august-grievance-verdict]] · LLM Quick Brief
+- · **2026-08-19** — The strongest — Annie publicly clearing Coles of rape in a group chat on 2026-08-19 at 06:33 having agreed by phone to clear Dan and not doing so — is the cleanest documented wrong in the corpus, because it required no interpretation: one act was performed and its promised counterpart was not.  
+  ↳ [[wiki/mind/synthesis/dan-annie-fallout-verdict]] · The seventy-hour version of this question [2026-08-20]
+- · **2026-08-19** — There is no successor and no candidate.** June 1's vacancy was structurally identical, but the record now carries an active parallel bond (ally and dan love as destiny, and Dan's own 2026-08-19 statement *"I am going to start seeing other people and I am going to start my life with someone who…  
+  ↳ [[wiki/mind/synthesis/the-unbroken-bond]] · RE-CHECKED [2026-08-20] — falsifier 3's clock restarted, and this time the vacancy has no occupant to switch to
+- · **2026-08-19** — Between **16 and 19 August 2026** the corpus finally acquires him directly, in two forms: a 15:27 audio recording Dan made of a call Coles placed, and a **97-message thread from his own handle**, the first sustained direct exchange between the two men anywhere in the record.  
+  ↳ [[wiki/people/jerel-coles]] · August 2026: the first primary record of him
+- · **2026-08-19** — Annie: *"He didn't rape me."*** A public retraction, in front of both men, of the accusation she had been making to Dan for weeks and had re-asserted to him privately hours earlier — Dan told Coles at 01:08 and again at 01:09 that same night, *"Also bro she is still saying you raped her so."*…  
+  ↳ [[wiki/people/jerel-coles]] · The group chat, and the retraction he obtained
+- · **2026-08-19** — If the Ally bond activates in the weeks after 2026-08-19, the **more parsimonious** explanation is slot-refill, not destiny.  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · RE-CHECKED [2026-08-20] — the slot this page assumes is empty actually emptied, and the page must not treat that as confirmation
+- · **2026-08-19** — For context injection:** 16–19 August 2026, Uniontown.  
+  ↳ [[wiki/timeline/events/august-2026-morgantown-call]] · LLM Quick Brief
+- · **2026-08-19** — The date is 2026-08-19**, and the message record independently supports it three ways:  
+  ↳ [[wiki/timeline/events/august-2026-morgantown-call]] · The catalyst — the group-chat retraction, 06:33 on August 19
+- · **2026-08-19** — Did the block hold?** The export ends 2026-08-19 15:15:33, eight minutes  
+  ↳ [[wiki/timeline/events/august-2026-morgantown-call]] · Gaps
+- · **2026-08-19** — Contact continuing past 2026-08-19 15:15:33 — which would make this the  
+  ↳ [[wiki/timeline/events/august-2026-morgantown-call]] · What would prove this page wrong
+- ★ **2026-08-20** — Explicit severance signals / love affirmations  
+  ↳ [[wiki/people/annie-ulmer]] · By the numbers
+- ★ **2026-08-20** — STRUCK [2026-08-20] — the explicit commitment.** This slot claimed a title taken and a courtship question answered.  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The evidence, summarized
+- ◆ **2026-08-20** — The fuller export filed 2026-08-20 shows the exchange resumed at 08:19 the same morning and ran all day.  
+  ↳ [[wiki/mind/synthesis/read-receipt-forensics]] · RE-CHECKED [2026-08-20] — M4 gains its best real-world case, and the flagship example's scope was an artifact
+- ◆ **2026-08-20** — iMessage triple-handle archive on disk  
+  ↳ [[wiki/people/annie-ulmer]] · By the numbers
+- · **2026-08-20** — Operator interpretation added [2026-08-20]:** The manual note says the *"I just want to be alone"* / *"by myself"* formulation is a recurring theme and, in the operator's interpretation, functions as a way to avoid accepting responsibility for the resulting situation while still obtaining the…  
+  ↳ [[wiki/mind/synthesis/august-grievance-verdict]] · What this says about Annie
+- · **2026-08-20** — Two new Annie exports landed on 2026-08-20; the Ally thread for the same days did not.  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · RE-CHECKED [2026-08-20] — the slot this page assumes is empty actually emptied, and the page must not treat that as confirmation
+- · **2026-08-20** — Filed 2026-08-20.** This amendment exists because the original event page was written while the audio had not yet been directly transcribed in the corpus.  
+  ↳ [[wiki/timeline/events/august-2026-morgantown-call-source-amendment]] · Source Amendment — Morgantown St Recording, August 16 2026
+- · **2026-08-20** — Operator-supplied timestamped speaker-labelled transcript, 611 lines, **204 turns**, `00:00:00` → `00:14:59  
+  ↳ [[wiki/timeline/events/august-2026-morgantown-call]] · The two artifacts, and what each one is
+- · **2026-08-20** — Verified against the primary transcript, 2026-08-20.** What follows is no longer attributed; it is checked.  
+  ↳ [[wiki/timeline/events/august-2026-morgantown-call]] · What is on the recording
+- · **2026-08-20** — The operator supplied it on 2026-08-20 (see **The catalyst** above): the unnamed act is the choice that Annie's 06:33 group-chat retraction had already performed nine hours earlier and that she would not put into words.  
+  ↳ [[wiki/timeline/events/august-2026-morgantown-call]] · August 19 — the last day, read closely
 
 ---
 
-*Generated by `bin/wiki-timeline` from 315 wiki pages. 552 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 341 wiki pages. 822 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*

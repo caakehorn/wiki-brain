@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-08-20
 sources: ["raw/self/dox-md/operating_manual.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/message-csv/imessage_7243228715_both_2025-06-03_now.csv", "raw/self/dox-md/BFS_BOOTLOADER_v2.md"]
 synthesizes:
   - wiki/legal/463-morgantown
@@ -22,6 +22,11 @@ infobox:
 
 # Jackson Alexander (Alexander Jackson)
 
+> **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/legal/463-morgantown]] (2026-08-20). That page gained a section on the address becoming a threat vector — Coles sending it to Dan unprompted on 2026-08-17 — and one typed edge. Re-read against
+> the change; **no claim on this page is affected** and nothing here is
+> withdrawn. Nothing about title, liens, the unwritten arrangement, or this page's counterparty claims is affected. The new exposure is physical-safety, and it belongs to the occupants rather than the owner.
+
+
 **Role:** Owner of 463 Morgantown St, Uniontown PA. Landlord / property owner for Dan + Suz move-in (caretaker/agent mixed role for Suz).
 
 ## Roles & Ties Table
@@ -29,7 +34,7 @@ infobox:
 | Entity | Role at 463 | Dates/Evidence | Financial/Legal Ties | Source |
 |--------|-------------|----------------|----------------------|--------|
 | Alexander Jackson (Jackson Alexander) | Owner / lessor | Move-in ~early 2026 (post 337 contingencies); no signed lease/POA at entry | Property title holder; potential lease/POA counterparty. Separate from BFS corp (building ownership distinct) | [[wiki/legal/463-morgantown]], operating_manual, context-core |
-| Suz | Seller (337) / agent/tenant/caretaker (463) | 337 sale ~June 2026 (buyers Delverm $465k + Jeffries); 7-day vacate | Borrowing patterns ($750/wk cycles); mixed roles increase liability | raw/self/context-core/CONTEXT_CORE_EXPANDED.md §5; operating_manual |
+| Suz | Seller (337) / agent/tenant/caretaker (463) | 337 sale ~June 2026 (buyers Delverm $465k + Jeffries); 7-day vacate | Chapter 13 filed Oct 2024 (24-22285-GLT, ~$157,000 scheduled, IRS priority claims 2018–2021); stated income $11,000–$14,000/yr; mixed roles increase liability | [[wiki/people/suzanne-frank]]; context-core §5 |
 | Dan | Co-occupant (mixed) | Move with Suz; parallel BFS work | No direct title; exposure via mixed agent/tenant status | BFS_BOOTLOADER (housing background), context-core |
 | Arnu | Contractor (paint/mech work) | 2026-02-10 mention (no-show for paint); lien deadline ~2026-07-27 | Mechanics lien risk | message-csv 2026-02-10; timeline |
 | John Carney | Contractor | ~10-20% complete, unreachable | Incomplete work exposure | timeline, risks; "John carney thing" ref in Suz msg 2026-03-27 |
@@ -63,3 +68,22 @@ facts are unchanged, and Jackson remains undocumented in the corpus beyond his
 role. What the elapsed date sharpens is why that absence matters — a lien
 attaches to *his* title, so the one party with a formal legal interest in the
 outcome is the one the record cannot see at all.
+
+## RE-CHECKED [2026-08-18]
+
+`bin/wiki-climb check` flagged this page stale against
+[[wiki/legal/463-morgantown]], which moved on 2026-08-18 for two reasons: a
+corrected characterization of [[wiki/people/suzanne-frank|Suz's]] finances (the
+"$750/week" figure was an AI-secondary generalization of a single 2018 message;
+the real position is an October 2024 Chapter 13 with ~$157,000 scheduled), and
+two new dated rows — regular trips to Morgantown St from February 2026, and an
+11 August 2026 message from Suz to Dan reading *"It's time for you to go."*
+
+**Nothing here is contradicted, and the exposure is unchanged in kind.** As
+owner of record he remains the party a mechanics lien against the parcel would
+attach to, and the tenancy remains unpapered. What has changed is the picture of
+his counterparty: the person occupying the property under a verbal arrangement
+is in an active federal bankruptcy, which makes any unwritten obligation running
+between them materially harder to enforce in either direction. **Open lead,
+recorded not resolved:** whether Jackson knew, or knows, that his tenant-agent
+is a Chapter 13 debtor.

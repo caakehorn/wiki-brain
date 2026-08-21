@@ -127,7 +127,8 @@ Sweep for: broken links, orphan pages, contradictions between pages, claims supe
 |---|---|
 | `bin/capture` | human-facing input: interactive typing/pasting, one-shot facts, file upload (`-f`), `status` |
 | `bin/mine-messages` | corpus mining over the full iMessage dump: `stats`, `grep`, `timeline`, `battery`, `entities`. **Use this instead of grep** — three properties of the dump make naive grep silently wrong |
-| `bin/wiki-lint` | frontmatter, links, orphans, sizes. Must be 0 errors before commit |
+| `bin/wiki-lint` | frontmatter, links, orphans, sizes, duplicate frontmatter keys, retracted claims (`RETRACTED.md`), empty cited sources, **unresolved merge markers, assistant citation artifacts, malformed frontmatter blocks and master-index count drift**. Must be 0 errors before commit |
+| `bin/wiki-freshness` | is the generated corpus (`llm/`) in sync with `wiki/`? Exact set difference against `llm/manifest.json`; never writes. Exit 1 on drift |
 | `bin/wiki-connect` | `check` (typed-edge lint), `audit` (graph health), `candidates` (writes `connection-queue.md`) |
 | `bin/wiki-climb` | `check` (validates `synthesizes:`, reports stale premises), `audit` (tier distribution), `candidates` (writes `synthesis-queue.md`) |
 | `bin/wiki-digest` | regenerates `DIGEST.md`, `RECENT.md`, `OPEN.md` — committed, safe to rerun any time |
@@ -142,7 +143,24 @@ Sweep for: broken links, orphan pages, contradictions between pages, claims supe
 ```bash
 bin/wiki-lint && bin/wiki-connect check && bin/wiki-climb check   # all at 0 errors
 bin/wiki-digest && bin/llm-publish                                 # after any content pass
+bin/wiki-freshness                                                 # confirms the two above actually ran
 ```
+
+`bin/wiki-freshness` exists because the generated corpus is committed and drifts
+silently when a pass forgets to regenerate — the 2026-08-20 audit found the LLM
+manifest eleven pages behind. It compares the manifest's own page list against
+`wiki/` and names every page that is missing, orphaned or changed. It never
+writes; you fix drift by running the generators yourself.
+
+**Retracted claims.** `RETRACTED.md` is a machine-readable ledger of claims shown
+to be false; `bin/wiki-lint` fails if one reappears as a live assertion.
+Correction blockquotes are exempt by design — STYLE_GUIDE rule 9 requires the old
+claim to stay visible where it is corrected — so documenting a retraction never
+trips the gate. Add a claim by appending a JSON block to that file; no tool edit
+is needed. Patterns must model the *claim*, never a bare number.
+
+**Tests.** `python3 -m unittest discover -s tests` covers the lint gates and the
+freshness check.
 
 Then append to `log.md` as **findings, not activity** — what was wrong, what the evidence was, what changed — and update `LLM_HANDOFF.md`.
 

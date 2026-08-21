@@ -39,6 +39,9 @@ connections:
   - page: wiki/places/117-belmont-circle
     type: co-occurs
     claim: "Fran's house on the UCC fairway is the physical anchor where the family golf lineage and the Annie origin story share an address."
+  - page: wiki/interests/extreme-sports
+    type: precedes
+    claim: "The golf era (2016–2019) follows the extreme-sports era by roughly a decade — both are sport-identity layers, but golf is an adult acquisition (reignited by the Nemacolin caddying job) rather than a childhood identity, and the two share no documented skill transfer."
 ---
 
 # Golf

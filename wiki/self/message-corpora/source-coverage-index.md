@@ -4,7 +4,7 @@ page_type: report
 status: closed
 knowledge: derived
 date_created: 2026-08-14
-date_modified: 2026-08-14
+date_modified: 2026-08-20
 sources:
   - raw/self/message-csv/README_20260813_exports.md
 related: ["wiki/self/message-corpora/master-message-dump"]
@@ -13,6 +13,9 @@ connections:
   - page: wiki/people/kristin
     type: evidences
     claim: "Kristin is the worked demonstration of this index's central warning: all_imessages_complete_dump.txt ends 2025-08-10, so a 22,018-message relationship returns silence rather than an error from bin/mine-messages, and the page built on the fallback file went unchallenged for two months."
+  - page: wiki/self/concepts/wiki-brain
+    type: contains
+    claim: "This index is the wiki-brain's instrument panel: the page that records what the corpus cannot see, which is the only defence the system has against confusing an absence of evidence for evidence of absence."
 infobox:
   name: "Source Coverage Index"
   generated_by: "bin/source-index scan"
@@ -119,6 +122,8 @@ Sorted by row count. `H` = has handle column. Timezone is asserted from the arch
 | `imessage_7249204125_both_all_now.csv` | 9,481 | 2018-12-26 | 2020-07-30 | 9 | Y | 1 | received/sent | name claims ALL, starts 2018-12-26 |
 | `messages_2124702449.csv` | 8,782 | 2026-01-03 | 2026-05-06 | 10 | — | 0 | received/sent | no handle column — cannot attribute |
 | `imessage_export_2124702449_20260802.csv` | 4,848 | 2026-05-04 | 2026-08-02 | 8 | — | 0 | received/sent | no handle column — cannot attribute |
+| `imessage_export_2124702449_20260820.csv` | 6,495 | 2026-07-23 | 2026-08-19 | 8 | — | 0 | received/sent | **newest 212 export.** `target` column is a single constant, not a handle set — at least 6 inbound rows were typed by Jerel Coles on Annie's phone (see below) |
+| `imessage_export_7248123683_20260820.csv` | 97 | 2026-08-17 | 2026-08-19 | 8 | — | 0 | received/sent | Dan ↔ Coles direct; `target` constant. Reopens a thread the wiki had recorded as closed on 2026-06-16 |
 | `messages_3476070497_all_time.csv` | 4,413 | 2018-11-04 | 2025-02-20 | 4 | Y | 1 | received/sent | name claims ALL, starts 2018-11-04 |
 | `imessage_2124702449_received_2026-01-01_2026-06-05.csv` | 4,145 | 2025-12-31 | 2026-06-01 | 9 | Y | 1 | received | — |
 | `imessage_3307038747.csv` | 3,875 | 2025-09-01 | 2025-09-06 | 3 | Y | 2 | — | — |
@@ -146,6 +151,43 @@ Sorted by row count. `H` = has handle column. Timezone is asserted from the arch
 | `annie_group_chat_may31-june1_2026.csv` | 0 | — | — | 6 | Y | 0 | — | EMPTY — header only, no data rows |
 | `annie_group_chat_relaxed.csv` | 0 | — | — | 5 | Y | 0 | — | EMPTY — header only, no data rows |
 | `messenger_export_THREADKEY_HERE.csv` | 0 | — | — | 1 | — | 0 | — | EMPTY — header only, no data rows |
+
+## The trap this index did not have: a handle is not a person
+
+Every row above answers *which handle* and *what window*. None of them answers
+*who was typing*, and on 2026-08-20 that stopped being a theoretical
+distinction.
+
+**At least six inbound rows attributed to `+12124702449` were produced by
+[[wiki/people/jerel-coles|Jerel Coles]] on Annie's phone**, across three
+separate episodes:
+
+| Date | Rows |
+|---|---|
+| 2026-07-26 05:39–05:57 | *"The cuck never gives up"* · *"Had her fuck old men for drugs"* · the "video proof" accusation |
+| 2026-08-16 23:42–23:53 | *"She's a slut hahahahaja"* · *"Scared to answer"* · *"You made me fuck guys for money"* · *"Call her"* · *"You think I care ?"* |
+| 2026-08-18 21:46–21:50 | *"She's with me man chill lmfao"* · *"Still moaning"* · *"No body cares junkie"* · *"Do you wanna talk to her answer 😂😂😂"* |
+
+One of them is an accusation of sexual exploitation **against Dan** that a
+naive read files as Annie's own testimony. All three episodes occur during
+crises, which is the worst possible distribution: the handle is least reliable
+exactly where the corpus's highest-stakes claims are drawn from.
+
+**What this does and does not affect.** It does **not** move any count —
+`wiki/self/context-core`'s 97,768 unique messages across Annie's four handles
+stands, because the rows exist and were sent from that handle. It does move
+every **attribution**. A claim of the form *"Annie said X"* sourced to the 212
+handle inside a documented Coles-present episode must have the episode checked
+before the claim is used.
+
+**Practical rule for the preflight.** Add a fourth question to the three this
+index already asks of a source. Not just *what window*, *what handles*, *what
+columns* — but **who else had physical access to the device in this window**.
+For an iMessage corpus that question has no column and can only be answered
+from content. The three episodes above were each identifiable from register
+alone; whether there are others earlier in the record has not been checked.
+
+Full account: [[wiki/timeline/events/august-2026-morgantown-call]].
 
 ## Gaps
 

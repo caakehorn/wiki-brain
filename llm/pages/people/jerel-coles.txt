@@ -8,9 +8,9 @@ title: "Jerel Wayne Coles"
 aliases: ["Tuquick", "the unnamed man", "the interloper", "the third party", "Tuquick3@hotmail.com", "+17248123683"]
 tags: [relationships, trauma-bond, forensic-analysis, legal, uniontown-era]
 date_created: 2026-08-09
-date_modified: 2026-08-09
+date_modified: 2026-08-20
 date_range_start: 2008-10-31
-date_range_end: 2026-08-09
+date_range_end: 2026-08-19
 infobox:
   name: "Jerel Wayne Coles"
   relationship_to_dan: "antagonist; never met in person"
@@ -21,6 +21,11 @@ sources:
   - raw/people/captures/2026-08-09-tuquick-unnamed-man-correction.md
   - raw/self/message-csv/imessage_export_2124702449_20260802.csv
   - raw/self/message-csv/imessage_export_7248123683_20260624.csv
+  - raw/self/message-csv/imessage_export_7248123683_20260820.csv
+  - raw/self/message-csv/imessage_export_2124702449_20260820.csv
+  - raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a
+  - raw/self/analysis/2026-08-18_forensic-analysis-morgantown-call.md
+  - raw/people/captures/2026-08-20_group-chat-retraction-and-the-uncleared-name.md
 related:
   - wiki/people/annie-ulmer
   - wiki/people/the-unnamed-man
@@ -30,6 +35,15 @@ related:
   - wiki/timeline/events/august-2026-unmasking
   - wiki/mind/concepts/forensic-method
 connections:
+  - page: wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis
+    type: evidenced-by
+    claim: "The three-participant analysis rests on the only primary artifact in which Coles is audible, and grounds its finding in his conduct rather than his motive — holding the phone, conditioning its return, threatening family disclosure."
+  - page: wiki/mind/synthesis/august-grievance-verdict
+    type: contextualizes
+    claim: "The severity of Dan's grievances turns on a fact about this man rather than about either principal: what makes Annie's choice legible as a betrayal rather than a preference is fifteen minutes of tape in which he is heard doing the things she had said he did."
+  - page: wiki/timeline/events/august-2026-morgantown-call
+    type: causes
+    claim: "The first primary artifact of his conduct in the corpus, and the first direct Dan-Coles thread — 97 messages, opened by Dan. On tape he confesses to going through Annie's phone while she slept and is heard refusing to return it; in writing he supplies Dan's home address unprompted and a conditional threat naming Dan's mother. Everything the wiki previously held about him was somebody's account of him."
   - page: wiki/mind/concepts/forensic-method
     type: resolves
     claim: "The corpus's only deliberate exception to the forensic engine — the refusal to learn this man's name — terminated on 2026-08-08 at 19:01:22 with a FOREWARN lookup, thirteen days after it was declared and thirty-seven minutes before the escalation it was meant to prevent."
@@ -351,6 +365,163 @@ cadence. Nothing in this capture confirms or excludes Coles.
 **The three-way question became a two-way question. It did not become closed.**
 See [[wiki/people/annie-ulmer]] §Target G.
 
+## August 2026: the first primary record of him
+
+> **PRIMARY TRANSCRIPT FILED [2026-08-20].** Everything below was written from
+> a secondary transcript two removes from the audio. A direct transcription is
+> now in `raw/self/audio/2026-08-16_Morgantown_St_call-transcript.txt`, and the
+> conduct findings held on checking. Four things it establishes that the
+> secondary did not carry, all of them about conduct rather than motive:
+>
+> - **Annie alleges he has hit her, to his face.** At 02:35, answering his own
+>   *"You're acting like someone's fucking hitting you and shit,"* she says
+>   ***"You are."*** He denies it four times immediately (*"No I didn't. No I
+>   fucking didn't. No I didn't. So I hit you? Where'd I hit you at then?"*).
+>   The allegation is hers and the denial is his; the recording settles neither,
+>   and both belong on this page.
+> - **He admits holding her phone in terms.** When Dan says *"You have her
+>   phone asshole. Obviously you are"* (09:16), he answers ***"Yeah, I am"*** —
+>   at 09:19 and again at 09:31.
+> - **He conditions its return on an answer** — *"Yeah I will, once you answer
+>   the question"* (05:08) — and threatens her mother to force one: *"if you
+>   don't answer the question, I'm calling your mom"* (05:38).
+> - **He is dared to face police and invites it**: *"if I'm gonna get charged
+>   call the police… it's three numbers, 9-1-1. Stop fucking bluffing"*
+>   (12:58–13:05). Annie's *"That's exactly why the police were called the last
+>   time"* (02:04) is the only indication in the corpus of prior police contact
+>   between them, and it is unverified.
+>
+> He takes **99 of the call's 204 turns** — nearly as many as Annie and Dan
+> combined — and sets every topic in it.
+
+
+Everything above this section is somebody's account of Coles — Annie's, Dan's,
+a group chat, a background-check database. Between **16 and 19 August 2026** the
+corpus finally acquires him directly, in two forms: a 15:27 audio recording
+Dan made of a call Coles placed, and a **97-message thread from his own
+handle**, the first sustained direct exchange between the two men anywhere in
+the record. Full account:
+[[wiki/timeline/events/august-2026-morgantown-call]].
+
+### What the recording establishes
+
+Held as attributed rather than proven — the audio is filed at
+`raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a` but **has not been
+transcribed by anyone writing this wiki**; the quotations come from a T2
+agent-authored transcript. With that caveat, on the night of August 16 Coles:
+
+- **admits going through Annie's phone while she was asleep** — *"She was
+  sleeping, and I went through her phone. Yeah. Now what?"* (00:44)
+- **keeps the phone for the duration**, against her repeated demands for it and
+  Dan's fourteen repetitions of *"give her her phone and let her leave"*
+- **interrogates her on tape**, more than a dozen times across four minutes, to
+  make her say Dan prostituted her for drug money — and she never says yes
+- **threatens her parents** (*"I'm FaceTiming Dan, you, and the mom"*; *"I'm
+  going to call your dad. Fuck your mom"*) — the same instrument Dan spends the
+  next three days holding
+- **tells Dan to kill himself** (07:51), and states he is recording too (02:19)
+
+His written denial the following midday — *"No one raped her or held her
+hostage, no one hit her I may have yelled but that's it"* — is contradicted on
+the hostage limb by the recording he knew was being made, and he knew: Dan
+announced it twice on the call and Coles answered *"I don't care if you
+record."*
+
+### The thread from his own number, 2026-08-17
+
+Dan opened it at 11:54 with a screenshot and *"Do you want to know the truth?
+What REALLY happened?"* His method inside it is disclosure rather than
+argument: he sends Coles what Annie says about Coles, and Coles what Annie
+promised about Coles the day before. In roughly one hour Coles produces:
+
+| Time | Line |
+|---|---|
+| 12:08 | *"She's with me now"* · *"Wanna talk to her"* |
+| 12:16 | *"Morgantown st by BFS"* |
+| **12:26** | ***"463 Morgantown st ?"*** + *"😂😂😂😂"* — Dan's home address, unprompted |
+| 12:27 | *"You're too frail and coked up"* / *"Wouldn't be fair"* |
+| 12:47 | *"Your life is nothing, I don't have to do anything you'll eventually snort some bad coke and be out of here"* |
+| **12:48** | ***"I have stuff to ruin you and your mom, soon as you do something I don't like I'm gonna show you"*** |
+| 12:50 | *"No one raped her or held her hostage, no one hit her I may have yelled but that's it, she's a depressed compulsive liar"* |
+| 12:51 | *"I told her she can have you I'm not gonna ruin my life over either of you"* |
+| **12:58** | ***"Yeah it was kind of unnecessary but I don't like being played with"*** — on involving Dan's mother |
+| 13:01 | *"You're right"* |
+
+Two of those lines are new material rather than more of the same. **12:48 is a
+conditional threat in writing that names [[wiki/people/suzanne-frank|Suz]]** —
+unexplained, and the only unquantified threat vector aimed at her in the
+corpus. **12:58 is the closest thing to an admission** the record holds about
+the harassment campaign against her: not a denial, a justification.
+
+Dan's replies are the most procedurally controlled prose in the whole window —
+*"Okay enjoy the TRO,"* *"you are not welcome on the property I live on. There
+are cameras everywhere,"* *"So why are you sending me my address? Its an
+implied threat and any court would read it as such"* — and he says twice, in
+plain terms, *"I'm not going to fight you."*
+
+The de-escalation held for one day. On **18 August at 22:55**, from his own
+number: *"Threatening Annie because she doesn't love your cock snorting cuck
+ass 😂😂😂 make a move and watch how I destroy you and your mom"* — edited two
+minutes later to correct *cock* to *Coke*, an edit preserved in the export.
+
+### The seizure pattern is now a pattern
+
+Three separate episodes in which Coles operates Annie's handle and Dan reads
+the output as Annie:
+
+| Date | From `+12124702449` |
+|---|---|
+| 2026-07-26 05:39–05:57 | *"The cuck never gives up"* · *"Had her fuck old men for drugs"* · the "video proof" accusation |
+| 2026-08-16 23:42–23:53 | *"She's a slut hahahahaja"* · *"Scared to answer"* · *"You made me fuck guys for money"* · *"Call her"* · *"You think I care ?"* |
+| 2026-08-18 21:46–21:50 | *"She's with me man chill lmfao"* · *"Still moaning"* · *"No body cares junkie"* · *"Do you wanna talk to her answer 😂😂😂"* |
+
+Open question 3 below asked whether the "video proof / unconscious" accusation
+originates with him or with her. It is not answered, but the base rate moved: he
+is now documented operating her handle **three times**, always during a crisis,
+and always producing content of exactly that register.
+
+### The group chat, and the retraction he obtained
+
+There is a three-party group chat — Dan, Annie, Coles — that has **never been
+exported**. Two messages from it survive in the corpus, as a transcription of a
+single screenshot
+([[raw/people/captures/2026-08-20_group-chat-retraction-and-the-uncleared-name]]),
+and both are load-bearing.
+
+**2026-08-13 11:23 — Coles: *"Anne still messaging you."*** This is the message
+that produced Annie's *"He sent a message to a group chat / With you / I'm just
+asking you to please. Do not engage"* 21 minutes later, and Dan's compliance
+with it — which he read three nights on as having been used to keep him quiet
+while she was still in contact. Until this capture the wiki had the request but
+not the trigger.
+
+**2026-08-19 06:33 — Annie: *"He didn't rape me."*** A public retraction, in
+front of both men, of the accusation she had been making to Dan for weeks and
+had re-asserted to him privately hours earlier — Dan told Coles at 01:08 and
+again at 01:09 that same night, *"Also bro she is still saying you raped her
+so."* Roughly five hours later she cleared him in writing.
+
+Two things about that cut in opposite directions, and this page resolves
+neither.
+
+**It is what Coles had been demanding.** On the recording of August 16 he
+interrogates her toward exactly this, and in writing the next day he asserts it
+himself — *"No one raped her or held her hostage, no one hit her I may have
+yelled but that's it, she's a depressed compulsive liar"* (08-17 12:50). She
+does not give it to him on the call. Three days later, with her phone twice in
+his hands in the interim, she gives it to him in front of a witness.
+
+**And it was pre-emptive against a different audience.** Per the operator she
+sent it believing Dan had already emailed her mother the record of her making
+the claim, timed to land before her parents read it. Its function was to shape
+what Coles saw, hours ahead of what her family would see.
+
+> **The corpus now holds four positions on the same claim and scores none of
+> them:** asserted to Dan, repeatedly and over months; denied by Coles in
+> writing; denied by Annie here, in the group chat; and re-asserted to Dan
+> afterwards. Recording all four is the finding. Choosing between them from a
+> record produced under this much pressure would not be.
+
 ## Open questions
 
 1. **Is Coles = Target G?** No marital data returned. Open — unaffected by the
@@ -364,6 +535,17 @@ See [[wiki/people/annie-ulmer]] §Target G.
 4. **What load broke a thirteen-day-held off-switch?** Test the hypothesis
    above against the 2026-08-02 → 08-08 logs.
 5. **Independent docket verification** via PA UJS. Not yet run.
+6. **What is *"stuff to ruin you and your mom"* (2026-08-17 12:48)?** The only
+   threat aimed at [[wiki/people/suzanne-frank|Suz]] in the corpus that has no
+   named content. Bluster is the parsimonious reading and there is nothing in
+   `raw/` either way.
+7. **The group chat has never been exported.** Two of this page's findings now
+   rest on one transcribed screenshot of it. One query recovers the thread,
+   settles the *"Yesterday 6:33 AM"* date beyond inference, and would show
+   whatever else ran through a channel all three parties were in.
+8. **Was anyone ever contacted about the night of August 16?** Dan raised
+   police on the call (*"it's about going to the fucking police, idiot"*) and a
+   TRO in writing the next day. Nothing in the record says either happened.
 
 ## Gaps
 

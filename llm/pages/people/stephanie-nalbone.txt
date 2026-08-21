@@ -21,6 +21,9 @@ connections:
   - page: wiki/timeline/periods/full-sail-2008-2010
     type: evidences
     claim: "A previously undocumented relationship falling inside this period's own relationship-pivot window — Stephanie's Sept-Nov 2009 thread runs concurrently with the Danielle-ending/Alexis-beginning transition the period page already documents, without resolving how the three overlap."
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: evidenced-by
+    claim: "A previously undocumented Sept-Nov 2009 relationship falls inside this period's own Danielle-to-Alexis pivot window without resolving how the three overlap."
 ---
 
 # Stephanie Nalbone

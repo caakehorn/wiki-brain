@@ -3,7 +3,7 @@ domain: interests
 page_type: summary
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-07-11
+date_modified: 2026-08-18
 sources: []
 related: []
 ---
@@ -12,7 +12,7 @@ related: []
 
 
 - [[wiki/interests/golf]] — three generations of family golf, a real amateur game rekindled by the caddying job, and the sport's decade-long role as a marker of the Annie relationship's temperature, start to end.
-- [[wiki/interests/rock-irrelevance-thesis]] — the argument (with streaming/market data) that guitar rock is culturally irrelevant for the first time since 1963.
+- [[wiki/interests/rock-irrelevance-thesis]] — the argument (with streaming/market data) that guitar rock is culturally irrelevant for the first time since 1963; assembled as ammunition against [[wiki/people/james-dee|James]].
 - [[wiki/interests/the-office]] — not a rated favorite, but its comic grammar (the "Schrute Farms" concert alias, the "that's what she said" tic, the Michael Scott political comparator) is woven into the idiom.
 - [[wiki/interests/gore-vidal]] — hero-figure litmus test, a literal shelf object, and a deadpan groomsmen-bit constant; an identity anchor with no books entry.
 - [[wiki/interests/video-games]] — from the 2007 "slaying on halo" teen signal through the 2016–2018 PlayStation ownership/ban saga to the 2025 Wii/Xbox liquidation.

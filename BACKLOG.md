@@ -137,6 +137,38 @@ Each of these is a specific thing the corpus or the outside world could settle.
   read-only deploy key via `actions/checkout`'s `ssh-key:` is the non-expiring
   alternative.
 
+- **A `grep` gate for retracted strings** (opened 2026-08-18). Five pages were
+  found carrying the retracted "$750/week" figure, two of them *underneath a
+  correction block that quoted the sentence it had never changed*. No gate sees
+  this: the pages lint clean, edges type-check, dates are current. A retracted
+  claim is a string, and a pass that records one could register it in a
+  `RETRACTED.md` ledger the gate then greps for across `wiki/`. This would have
+  caught all five, including the `$750/wk` abbreviation that a `$750/week`
+  sweep misses.
+- **Regenerate `master-timeline` in the pre-commit block.** It was 484 events
+  and 7 pages stale on 2026-08-18 because `bin/wiki-timeline generate` is not in
+  CLAUDE.md's "before every commit" list, unlike `wiki-digest` and
+  `llm-publish`. It is derived and cheap; there is no reason it should ever
+  drift.
+- **Lint duplicate frontmatter keys** (opened 2026-08-18). Three pages carried
+  the same key twice, and because YAML keeps the *last* occurrence while
+  `bin/wiki-climb`'s own reader collects *both*, the repo's gates and every
+  standard parser disagreed about those pages' contents.
+  `wiki/work/fastly-fsly.md` was silently dropping its membership in
+  `2020-2021-market-era` — the page's entire reason for existing — and
+  `wiki/people/jerad-friedline.md` was dropping `context-core`. The portal at
+  `caakehorn/home` parses this frontmatter for real, so the derived snapshot was
+  losing edges the gates said were present. All three are fixed; the check is
+  four lines of Python and belongs in `bin/wiki-lint` so the class cannot
+  recur. Worth auditing whether `fm_list`'s permissiveness hides anything else.
+- **30 pages carry `status: archived` outside an `archive/` directory**, which
+  `STYLE_GUIDE.md` reserves for pinned artifacts that are never updated. The
+  status is being used to mean "finished" — the documented default for which is
+  `stable`. This matters because it makes those pages look exempt from
+  correction: `wiki/timeline/periods/2018-deep-cycle.md` was one of them and was
+  feeding a false claim into the generated master timeline. Audit and re-status;
+  `bin/wiki-lint` could then enforce the directory rule.
+
 ## 5. Settled — do not re-litigate
 
 Kept because re-proposing these wastes a pass each time.
@@ -191,3 +223,177 @@ months. Do not close this by assuming.
 Do **not** delete the empty files. `raw/` is immutable, and per the
 2026-08-13 doctrine on artifacts that produced a documented failure, they are
 retained as the worked example behind this backlog item.
+
+---
+
+## [2026-08-21] Staleness: cleared to zero, and what it cost to check
+
+`bin/wiki-climb check` reports **0 warnings**. Every pair previously recorded
+here — the fourteen from the 2026-08-19 five-climb pass and the nine from the
+2026-08-20 severance ingest — was re-read against the premise that moved and
+carries a real `RE-CHECKED` block. None was cleared by bumping a date.
+
+**Two were not cheap, exactly as this file predicted.**
+
+- **`the-embedded-objective` ← `bfs-foods`** (flagged here as "the least cheap
+  of the nine — do this one first"). It was right. The BFS row is doing work as
+  the control proving that an absent payload collapses tenure to weeks, and the
+  restoration message supplies a **second, incompatible account of why the job
+  ended**: this page says Dan refused the $50 drawer shortage and the write-up,
+  while his own 2026-08-11 retrospective says *"the only thing I did was go home
+  30 minutes before my shift"* — against a posted `NO HIRE: Daniel Frank` sign
+  in two locations. A tenure ended by arbitrary employer action cannot be quoted
+  as a clean control for a variable about Dan's own sustaining. The rule
+  survives; the row now carries the qualification and Caviar is named as the
+  stronger of the two controls.
+- **`the-commissioned-self` ← `wiki-brain`** (flagged as "worth one check rather
+  than an assumption"). Checked: the handle-is-not-a-person defect does **not**
+  reach it, and for a structural reason worth keeping. The load-bearing count is
+  **outbound** (17 appearances across 106,629 sent messages), and the defect is
+  an inbound-attribution problem, so that measurement is immune by construction.
+  The one inbound figure supports an *absence* claim that a third party on
+  Annie's phone cannot fill.
+
+**A cascade to expect next time.** Re-checking a page bumps its `date_modified`,
+which restarts the staleness clock for everything downstream of it — so the
+pass ran in four converging rounds (24 → 5 → 2 → 0) and the last three rounds
+were re-checks of pages whose premise had moved *only by gaining a re-check
+block*. Those are cheap and were verified rather than assumed, but the shape is
+worth knowing before starting: clearing N warnings costs more than N reads.
+Whether a page whose sole change is an added `RE-CHECKED` block should restart
+its dependents' clock is a real question about `bin/wiki-climb`'s semantics, and
+is left open deliberately — the conservative behaviour is the current one.
+
+**Still open and untouched by that pass:** `the-unbroken-bond` ←
+`enneagram-5w4`. Not a staleness warning (the dates do not trip it) but the one
+flagged pair where the premise gained a **contradiction** rather than an
+addition: a 5w6 reading would change the sx/sp fusion account the bond page
+leans on. This remains the highest-value re-read in the psychological layer.
+
+## [2026-08-19] Collect what other people say Dan is like
+
+Named as the missing control on `wiki/mind/synthesis/the-commissioned-self`. The
+corpus holds 110,944 inbound messages from 503 handles and the wiki has **no
+independent characterisation of Dan by anyone who is not either him or an
+instrument he commissioned** — no clinician, no employer instrument, no
+third-party account. A pass over inbound messages for second-person description
+would give the psychological layer its first outside input, and it is cheap:
+`bin/mine-messages grep --dir Received` over a small set of framings
+(*"you always", "you're the kind of person", "that's so you"*) would produce a
+first sample in an afternoon.
+
+## [2026-08-19] Two one-query questions the housing synthesis cannot answer
+
+`wiki/places/the-unpapered-address` establishes that no lease, rent figure or
+signatory exists in the corpus for any of seven residences. Two of its gaps are
+answerable from outside `raw/` and would outrank the whole page:
+
+- A **Fayette County recorder/prothonotary search** on the 463 Morgantown parcel
+  — settles the elapsed Arnu mechanics-lien deadline, which has been open since
+  ~2026-07-27 and is already flagged on `wiki/legal/463-morgantown`.
+- The **307 E 76th lease signatory**. The rent is now known ($2,450 → $2,700);
+  the name is not, and it decides whether Dan was ever a named party to a
+  residential lease at all or only ever an occupant.
+
+## Staleness left open by the 2026-08-20 August-severance ingest
+
+Thirteen `bin/wiki-climb check` warnings stand after that pass. **Nine are
+its own**; four (`jerad-friedline`, `2020-2021-market-era`, `fastly-fsly` ←
+`context-core`, and `the-cool-metric` ← `interests-as-era-markers`) predate it.
+Eleven pages were re-checked properly during the pass, including the five where
+a conclusion could plausibly have moved (`the-unbroken-bond`,
+`dan-annie-fallout-verdict`, `ally-and-dan-love-as-destiny`,
+`read-receipt-forensics`, `single-channel`) — each carries a real `RE-CHECKED`
+block, none was cleared by bumping a date.
+
+The nine below are believed cheap. **That belief is a hypothesis, not a
+result**, and each states its reason so a later pass can disagree with the
+reason rather than re-derive it:
+
+| Dependent | Premise that moved | Why it is believed cheap |
+|---|---|---|
+| `health/the-configured-body` | `health/cocaine`, `supply-network`, `the-deferred-audit` | All three moved by `RE-CHECKED` block only. The body page's argument is about maintenance vs. surveillance, not about supply topology. |
+| `interests/food-and-diet` | `work/bfs-foods` | BFS moved for the 2026-08-11 job restoration — an employment fact, not a food one. |
+| `mind/synthesis/the-embedded-objective` | `work/bfs-foods` | **The least cheap of the nine.** BFS gained the posted `NO HIRE: Daniel Frank` sign, in two locations, and the reversal being initiated by the same person who imposed the ban. That is institutional-arbitrariness evidence and may be live for this page's argument. Do this one first. |
+| `mind/synthesis/alias-as-periodization` | `totality-themes` | `totality-themes` moved by `RE-CHECKED` block only. |
+| `mind/synthesis/closing-the-set` | `forensic-method` | `forensic-method` moved by two typed-edge additions and no prose. One of them points at `document-fabrication`, which is about production rather than intake. |
+| `mind/synthesis/the-commissioned-self` (×2) | `instrument-is-subject`, `wiki-brain` | Both moved by `RE-CHECKED` block only. But note: `wiki-brain`'s new block is the handle-is-not-a-person defect, and `the-commissioned-self` counts first-person self-description across the corpus — if any of those counts run over Annie's 212 handle, the attribution caveat reaches them. Worth one check rather than an assumption. |
+| `people/jerad-friedline`, `timeline/periods/2020-2021-market-era`, `work/fastly-fsly` | `self/context-core` | **Pre-existing, not from this pass.** Standing since 2026-08-19. |
+| `mind/concepts/the-cool-metric` | `interests-as-era-markers` | **Pre-existing**, standing 8 days. |
+
+## Standing items from the 2026-08-20 ingest
+
+- **HIGH — transcribe `raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a`.**
+  927 s of primary audio; the only account of it in the wiki is two removes from
+  the source (a T2 agent analysis quoting a PDF that is not in `raw/`). Every
+  quotation on `wiki/timeline/events/august-2026-morgantown-call` and
+  `wiki/people/jerel-coles` becomes checkable the moment this exists. This is
+  the single highest-value action available on the August material.
+- **HIGH — did the email to Annie's parents ever send?** Dan asserts it three
+  times on 2026-08-19 and denies it twice the same day, and he is documented
+  faking exactly that claim the day before. One look at a sent-mail folder
+  decides whether the maternal-disclosure threat's execution rate is zero or
+  one. Held as a `CONTRADICTION` on the event page until then.
+- **HIGH — export the Ally thread for 2026-08-13 → 20.** Named as missing by
+  the 2026-08-19 audit and still missing.
+  `wiki/self/concepts/ally-and-dan-love-as-destiny` is now making predictions
+  across a severance it cannot see the other side of, and this pass added a
+  slot-refill control to it that cannot be evaluated without the baseline.
+- **MED — sweep the corpus for earlier third-party-handle episodes.** Three are
+  documented (2026-07-26, 2026-08-16, 2026-08-18), all found by register alone.
+  There is no column for this and no detector. Whether it happened before July
+  2026 has never been asked.
+- **MED — the two videos.** The "molesting" video and the October 2019 MMF
+  video are both circulating as leverage between three people and neither has
+  been examined by anyone writing this wiki. The claim that turns on the first
+  — eyes open at 0:37 — is Dan's, stated to two audiences, uncorroborated.
+- **MED — recover the three drug-screen images** (2026-08-14 13:17, 14:08,
+  14:11). `wiki/mind/concepts/document-fabrication` rests entirely on the
+  message thread describing them; the artifacts would settle how good the
+  forgery actually was.
+- **LOW — `wiki/people/index.md` is 23KB against an 8KB budget.** Standing lint
+  warning, untouched by this pass.
+
+- ~~**Add a conflict-marker gate to `bin/wiki-lint`.**~~ **DONE 2026-08-20.**
+  Shipped as `find_corrupt_text()`, and widened once a second class of invisible
+  junk turned up the same day: eight **assistant citation artifacts** (private-use
+  codepoints U+E000–U+F8FF wrapping a `filecite`/`turn` reference) in
+  `morgantown-call-three-participant-ethical-analysis.md`. They render as
+  nothing, survive copy-paste, and assert a source that points nowhere. The gate
+  now catches both, with eleven tests — including a regression test that the
+  whole wiki stays clean, and negative tests proving a setext underline and an
+  `=======`-with-trailing-content are not markers.
+
+## [2026-08-21] Sixty-five bare `## Related` footers — the last linking debt
+
+`bin/wiki-connect check` is at **0 errors, 65 warnings**, and every warning is
+the same thing: a page whose relationships are still a legacy untyped
+`## Related` footer rather than typed `connections:` edges. Between them they
+carry roughly **960 untyped entries**.
+
+The 193 missing *inverse* edges that used to dominate this gate were closed on
+2026-08-21 and are not coming back; this is the remainder, and it is the half
+that cannot be done mechanically. A retrofit inverse may reuse its source's
+claim (`CONNECTIONS_SPEC.md`), but a **forward** edge has to choose a type, and
+the type is the analytical commitment — `co-occurs` where the evidence would
+support `causes` is a substance failure, and `causes` where it only supports
+`co-occurs` is a provenance failure. That is a judgment per entry, from the
+page's body, not a transformation of the footer.
+
+Two were converted on 2026-08-21 as the worked examples of the cost:
+`people/emaly-minerd` (6 entries) and `people/trinity-st-clair` (4). Both took
+a full read of the page.
+
+**Method, so the next pass does not re-derive it.** Convert a page, then re-run
+the reciprocity applier — each new forward edge opens an inverse warning on its
+target, so the gate count goes *up* mid-pass and only comes down at the end.
+Work in batches and finish with `bin/wiki-connect check` at the reciprocity
+step, or the count will look like a regression.
+
+Highest-value first, by content weight: `self/tattoos` (8 entries),
+`mind/psychosexual/orchestration-and-voyeurism` (7),
+`interests/music/concepts/lyrics-as-timbre` (7), `self/facebook` (10),
+`interests/favorites/music` (15), `timeline/events/teen-concert-years` (6),
+`timeline/events/shelbie-annie-threesome-april-2019` (3). The
+`interests/favorites/music/artists/*` cluster is the long tail and the least
+urgent — those pages are deliberately index-reachable leaves.

@@ -3,7 +3,7 @@ domain: interests
 page_type: entity
 status: stable
 date_created: 2026-07-16
-date_modified: 2026-07-16
+date_modified: 2026-08-19
 sources:
   - "raw/self/favorites/FAVS MASTERLIST.csv"
   - "raw/self/dox-scan/Dan Profile.txt"
@@ -25,6 +25,12 @@ connections:
   - page: wiki/interests/favorites/art-and-movies
     type: contextualizes
     claim: "Supplies the lived meaning behind the eleven-title list that the favorites page correctly filed as thin: it is a curated, assigned, evangelized canon, not a watch-log."
+  - page: wiki/mind/synthesis/closing-the-set
+    type: evidences
+    claim: "The Kubrick line — 'theres only one kubrick movie i haven't seen' — is the case that proves the unit is a closed set and not a subject: where the boundary is a dead director's filmography rather than an event, the completism attaches to the director, and the appetite is otherwise identical."
+  - page: wiki/mind/synthesis/the-cato-seat
+    type: component-of
+    claim: "Taxi Driver and The King of Comedy are not two dark films among eleven; they are two portraits of the same seat — a man who sees clearly and can act only catastrophically — and the surrounding titles are unmasking pictures where the seeing arrives too late to help."
 ---
 
 # Film Canon

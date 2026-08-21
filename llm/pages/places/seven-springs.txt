@@ -27,6 +27,15 @@ connections:
   - page: wiki/people/tom-wallisch
     type: co-occurs
     claim: "Tom Wallisch showed up at Seven Springs a few times a year during Dan's adolescence as a regional terrain-park prodigy — the local scene connection that later became the 4Bi9 Media era of freeskiing film."
+  - page: wiki/health/cocaine
+    type: evidences
+    claim: "Dan's first cocaine use happened at Seven Springs at age 17–18 (2005–2006), in the ski-crew context, and is explicitly framed as instrumental — a chemical means of weight control tied to adolescent bulimia — as much as social."
+  - page: wiki/people/nathan-king
+    type: co-occurs
+    claim: "Nathan King attended Camp Woodward with Dan and Matt Kraus for rollerblading the first three years, placing him inside the same adolescent extreme-sports scene that centered on Seven Springs and the Vans Skatepark trips."
+  - page: wiki/people/matt-kraus
+    type: co-occurs
+    claim: "Matt Kraus is the childhood-ski-closest constant in Dan's adolescent scene — a Seven Springs condo neighbor and Vans Skatepark trip co-attendee whose overlapping three-year participation rate makes him the only named peer documented across every major adolescent extreme-sports ritual the capture records."
 ---
 
 # Seven Springs

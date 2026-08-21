@@ -41,6 +41,9 @@ connections:
   - page: wiki/timeline/periods/2017-poverty-floor
     type: component-of
     claim: "The overdose lands inside the corpus's documented financial trough and is its human cost: the same seven-week window of $10 and $20 fronting requests that measures the poverty floor is the window Jay did not come out of."
+  - page: wiki/health/cocaine
+    type: evidences
+    claim: "Jay Lauer traded suboxone and cocaine with Dan across seven weeks spanning the 2016–17 New Year, and died of a heroin overdose on or about April 11, 2017 — the only documented death attributable to the drug economy Dan was inside."
 ---
 
 # Jay Lauer

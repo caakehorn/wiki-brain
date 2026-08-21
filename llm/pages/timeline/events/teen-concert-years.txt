@@ -33,6 +33,9 @@ connections:
   - page: wiki/timeline/events/robotussin-s-last-dance
     type: co-occurs
     claim: "A June 15 2005 sold-out Tom Petty lot at Burgettstown is the concert record's off-grid entry: the destination was reached, the show was not seen, and the DXM-laced drive back on Rt 51 is the substance context the Tom Petty minivan memory had always left blank."
+  - page: wiki/timeline/events/robotussin-s-last-dance
+    type: contains
+    claim: "This is an off-record member of the 2005 concert record: Tom Petty at Post-Gazette Pavilion on a night Dan never made it inside, the only concert date in the corpus where the destination is reached and the show is missed simultaneously."
 ---
 
 

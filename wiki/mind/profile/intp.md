@@ -6,7 +6,7 @@ aliases: ["Ti-Ne-Si-Fe", "cognitive functions"]
 status: stable
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-08-19
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-scan/Dan Profile.txt
@@ -34,6 +34,15 @@ connections:
   - page: wiki/mind/politics/axioms
     type: parallels
     claim: "The great-man-theory reading tag and the singular-figure-versus-the-system self-myth this profile documents are the same fascination the politics page reframes — recurring analytical attention to what one actor does to a system's checks, not hero worship."
+  - page: wiki/mind/synthesis/the-commissioned-self
+    type: component-of
+    claim: "The 2013 self-typing predates the models by a decade and is genuinely primary, but it is the pattern's origin rather than an exception to it: the type is deployed there as a credential in an argument against group recovery, not as a description of an inner state, which is what the apparatus has done at scale ever since."
+  - page: wiki/mind/synthesis/the-cato-seat
+    type: evidences
+    claim: "The 'singular perceiver against a system too dull to see what he sees' self-myth gets a number from the taste record: 24 of 25 curated artworks carry collapse, wound, observer, glitch, rupture or fortress, and 'observer' is joint-largest at six — but the figures are not great men, since Caesar is on the shelf and Cato is on the prompt."
+  - page: wiki/timeline/periods/2021-2023-employment-block
+    type: evidenced-by
+    claim: "The introversion cost is stated in primary voice — fifteen-table freezing Saturday nights took 'literally EVERYTHING i had in me' — hospitality as a direct stressor of the documented type."
 ---
 
 # INTP — The Cognitive Function Stack

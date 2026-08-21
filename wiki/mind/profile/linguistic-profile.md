@@ -5,7 +5,7 @@ title: "Linguistic Profile — Voice, Register, Stylometrics"
 aliases: ["voice", "stylometrics", "forensic intimacy"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-08-02
+date_modified: 2026-08-19
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
@@ -26,6 +26,12 @@ connections:
   - page: wiki/mind/profile/voice-modes
     type: parallels
     claim: "This page's audience-based code-switching (romantic/platonic, supportive/conflict) and voice-modes.md's eight emotional-state modes are two independent organizing axes over the same baseline mechanics — who he's talking to and how he feels modulate register separately."
+  - page: wiki/mind/synthesis/the-commissioned-self
+    type: component-of
+    claim: "Stylometry belongs to the same apparatus and inherits its provenance problem — a 99th-percentile finding produced at Dan's request over a corpus Dan supplied — which is why the one voice marker independent of it, graded numeric confidence, had to be found by counting rather than by asking."
+  - page: wiki/interests/opie-and-anthony
+    type: caused-by
+    claim: "The callous, riff-driven, gallows-irony register the profile calls a 'psychic ventilator' is the native dialect of the O&A universe — this binge is where that idiom was trained."
 ---
 
 # Linguistic Profile — Voice, Register, Stylometrics

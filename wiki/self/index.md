@@ -30,6 +30,16 @@ The self domain contains files and data detailing identity, core biographical fa
 - [[wiki/self/twitter]] — Personal account: @danfrank ("insufferable politics sicko"). Active since at least December 2019 (sampled…
 - [[wiki/self/youtube-watch-history]] — Extensive personal YouTube activity log spanning nearly two decades. 17,302 "Watched" events + 248…
 
+## concepts
+
+- [[wiki/self/concepts/wiki-brain]] — The wiki-brain itself: what it is, how it works, what it's building towards
+- [[wiki/self/concepts/llm]] — LLMs (Large Language Models): the cognitive engine of the wiki-brain, bootloader system, agent fleet, pipeline
+- [[wiki/self/concepts/claude]] — Claude (Anthropic): the analytical workhorse, forensic method, Master Forensic Prompt
+- [[wiki/self/concepts/claude-code]] — Claude Code (Anthropic coding agent): the tool-builder, branch/PR workflow, 12+ bin/ tools
+- [[wiki/self/concepts/gemini]] — Gemini (Google): the interaction model, COS-v1 system, psychotherapy, psychometric testing
+- [[wiki/self/concepts/chatgpt]] — ChatGPT (OpenAI): the early adopter, the bootloader prototype, and the one-line verdict that retired it
+- [[wiki/self/concepts/ally-and-dan-love-as-destiny]] — the wiki's only openly partisan page: the argued case, built from 48 verifiable quotes, that the eighteen-year Ally attachment was mutual far earlier than either admits and ends in marriage — and what would show it wrong.
+
 ## chats
 
 - [[wiki/self/chats/9-11-chat]] — Extends music identity (sub-bass signature, electronic preference from Jimmy Pop discussion, favorites…
@@ -69,3 +79,4 @@ The self domain contains files and data detailing identity, core biographical fa
 - [[wiki/self/lineage/family-tree]] — Ancestry.com GEDCOM family tree (515 individuals).
 - [[wiki/self/lineage/23andme-genomics]] — 23andMe DNA composition, chromosome painting, Neanderthal data.
 - [[wiki/self/lineage/hybrid-analysis]] — Cross-referenced analysis (speculative).
+- [[wiki/self/concepts/astrology-star-signs]] — zodiac signs of the highest-velocity contacts, derived only from primary testimony; two known of the top twenty, and the Scorpio–Cancer reading of the Ally attachment.

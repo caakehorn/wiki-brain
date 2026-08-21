@@ -48,6 +48,9 @@ connections:
   - page: wiki/mind/synthesis/instrument-is-subject
     type: instantiates
     claim: "This page is the worked example of the provenance rule: an interpretive frame that arrived knowledge: mixed and must not have that status laundered by anything that later reasons from it."
+  - page: wiki/mind/synthesis/instrument-is-subject
+    type: evidences
+    claim: "The worked example: an interpretive frame originating entirely in a Gemini deep-research report, correctly marked knowledge: mixed on arrival — and therefore the exact page whose status must not be laundered by anything that later reasons from it."
 ---
 
 

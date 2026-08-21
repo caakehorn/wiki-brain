@@ -7,6 +7,10 @@ date_modified: 2026-06-22
 sources: ["raw/self/twitter/profile.txt", "raw/self/twitter/tweets_sample_2019-2026.txt"]
 related: ["wiki/self/overview", "wiki/mind/concepts/conflict-architecture", "wiki/mind/concepts/attachment-model"]
 tags: [music-production, ai-collaboration, politics, digital-footprint]
+connections:
+  - page: wiki/people/aaron
+    type: parallels
+    claim: "Aaron's thread extends the same sicko/justice-system-skeptic political engagement already documented from Dan's Twitter activity (Luigi Mangione coverage) into a second, real-time political-violence event a year later."
 ---
 
 # Twitter / X Activity (@danfrank)

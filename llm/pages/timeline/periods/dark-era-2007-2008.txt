@@ -24,6 +24,12 @@ connections:
   - page: wiki/health/chemical-architecture
     type: evidences
     claim: "A November 2007 Las Vegas trip is newly dated as the point physical opiate dependence became undeniable, and a winter 2008 single heroin attempt was rejected on aesthetic grounds ('felt dirty') rather than fear of the drug itself."
+  - page: wiki/interests/extreme-sports
+    type: follows
+    claim: "The extreme-sports identity era (roughly age 11–17, ~2000–2006) directly precedes and frames the Dark Era — the Tanner Hall era skills threshold and the Seven Springs terrain-park development are the adolescent baseline that the 2007–2008 opiate onset interrupts."
+  - page: wiki/people/elizabeth-eleanor
+    type: evidences
+    claim: "The 'almost 5 years' opiate-free figure, dated July 2013, backs into a last-use date inside this period, an independent confirmation from outside the period's own primary sources."
 ---
 
 # The Dark Era — Opiates and the Body (2007–2008)

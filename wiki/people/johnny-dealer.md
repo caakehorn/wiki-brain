@@ -3,13 +3,16 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-08-15
+date_modified: 2026-08-18
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_7249204125_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/MAX_PRIME.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
 synthesizes:
   - wiki/self/message-corpora/master-message-dump
   - wiki/timeline/periods/2018-deep-cycle
   - wiki/timeline/events/timeline
 connections:
+  - page: wiki/people/zaco
+    type: parallels
+    claim: "Concurrent 2018 Uniontown nodes in the same market with opposite postures: Johnny is the high-volume primary Dan pursues, Zaco the low-volume secondary who pursues Dan."
   - page: wiki/mind/synthesis/supply-network
     type: component-of
     claim: "Johnny is the network's 2018 deep-cycle primary node; his vacations and MIA stretches produced the first documented single-node supply panics, and the MAX_PRIME succession (Johnny → Tim → Tom) starts with him."
@@ -34,6 +37,9 @@ connections:
   - page: wiki/people/tom
     type: precedes
     claim: "Johnny is Tom's predecessor as primary strip source; the succession from transactional dealer to friendship-embedded supplier is what later exposed the network to the owe-and-silence failure mode."
+  - page: wiki/health/cocaine
+    type: evidences
+    claim: "Johnny is the 2018 deep-cycle primary node who supplied 'b's' (balls/cocaine reference) and suboxone strips — the first dealer to produce documented single-node supply panics when his phone died or he went on vacation."
 tags: [addiction-recovery, dui]
 infobox:
   name: "Johnny Dealer"
@@ -120,3 +126,13 @@ Johnny functions as reliable but transactional dealer node during 2018 crisis (p
 > keyword, so any retrospective mention lands in the wrong year. The 2018 event
 > counts this page cites inherit that defect and should be treated as an upper
 > bound until re-derived directly.
+
+> **RE-CHECKED [2026-08-18]:** `bin/wiki-climb check` flagged this page stale
+> against [[wiki/self/message-corpora/master-message-dump]], which moved to
+> record that the master CSV undercounts
+> [[wiki/people/suzanne-frank|Suzanne Frank]]'s thread fourteen-fold. **Nothing
+> here is contradicted** — the correction is specific to that one handle. It does
+> carry a caution for this page: Johnny's volume figure is sourced to the same
+> CSV and has not been recounted against
+> `all_imessages_complete_dump.txt`, where the handle `+17243223678` shows 5,089
+> records. Treat the figure here as a floor until a proper recount is run.

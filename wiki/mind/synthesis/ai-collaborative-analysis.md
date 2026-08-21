@@ -6,7 +6,7 @@ title: "AI Collaborative Analysis"
 tags: [ai-collaboration, forensic-analysis, personality-profile]
 status: active
 date_created: 2026-06-22
-date_modified: 2026-07-20
+date_modified: 2026-08-21
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini_00.md
@@ -34,9 +34,24 @@ connections:
   - page: wiki/mind/concepts/bunker-core
     type: instance-of
     claim: "Local, self-hosted chat.db forensics is agent tooling that extends the same evidentiary-verification principle documented here — raw message history as proof against gaslighting, automated rather than manual."
-  - page: wiki/mind/concepts/node-locking
+  - page: wiki/mind/concepts/exocortex
     type: evidenced-by
-    claim: "The node-locking protocol — ~403 locked nodes, cross-platform transfer commands, export redaction — is the primary behavioral evidence that the LLM venue is used as writable memory, not conversation."
+    claim: "The exocortex concept — bootloaders, master prompts, the CATO system — is the primary evidence that LLMs are used as cognitive extensions, not conversation partners."
+  - page: wiki/self/concepts/llm
+    type: evidenced-by
+    claim: "The LLM entry documents the full cognitive engine: bootloader system, agent fleet, pipeline, and the epistemic problem of building a second brain with the thing it's trying to model."
+  - page: wiki/self/concepts/claude
+    type: evidenced-by
+    claim: "Claude is the analytical workhorse — the model that loads the CATO bootloader and runs the forensic analysis pipeline."
+  - page: wiki/self/concepts/claude-code
+    type: evidenced-by
+    claim: "Claude Code is the coding agent that built all 12+ tools in bin/ and maintains the wiki-brain's technical infrastructure."
+  - page: wiki/self/concepts/gemini
+    type: evidenced-by
+    claim: "Gemini is the interaction model — used for bootloader design, psychotherapy, creative projects, and the massive activity log."
+  - page: wiki/self/concepts/chatgpt
+    type: evidenced-by
+    claim: "ChatGPT is the early-adopter model — the first Dan used for bootloader design, from 2022-12-10. He believes it 'cooked' post-GPT-5, but the corpus holds no primary record of his use after the release: the export stops 2025-07-01, and usage peaked in the four months before it."
   - page: wiki/mind/concepts/exocortex
     type: contains
     claim: "The externalized-prefrontal-cortex frame is the core concept this synthesis develops across the documented interaction modes."
@@ -70,6 +85,33 @@ connections:
   - page: wiki/mind/synthesis/instrument-is-subject
     type: instantiates
     claim: "The methodological consequence of this page: because LLM use is a documented daily organ of the subject, the same class of tool cannot serve as an independent observer of him, and interpretive output must carry provenance upward through every climb."
+  - page: wiki/timeline/events/james-analysis-pdf
+    type: instance-of
+    claim: "The exocortex used as a social instrument rather than a private one: model output leaves the session as a PDF and is transmitted to two people who never asked to be analyzed."
+  - page: wiki/mind/concepts/the-handed-mirror
+    type: contains
+    claim: "The disposal step of the collaboration — what happens to the output after the session closes — which this page documents as private and which is, in practice, routinely externalized."
+  - page: wiki/people/james-dee
+    type: instance-of
+    claim: "The same person is analyzed twice through two different models, Gemini on a 25-minute audio recording and ChatGPT on the text log, which is the clearest case of the instrument being re-aimed at one target across vendors."
+  - page: wiki/timeline/events/april-may-2026-final-weeks
+    type: evidences
+    claim: "An AI-drafted letter to Suz, explicitly authorized to include any criticism, is genuinely vulnerable first-person material Dan then declines to send in his own voice — outsourcing the authorship of vulnerability itself, not just memory or analysis."
+  - page: wiki/mind/concepts/erotic-architecture
+    type: evidences
+    claim: "A custom system-prompt persona ('GLAZE-GOD-v1') instructing an AI to perform continuous sexualized worship of Annie's photos is the most literal instance of externalized libido in the corpus — the AI as a purpose-built witnessing instrument rather than a conversation partner."
+  - page: wiki/mind/concepts/node-locking
+    type: evidenced-by
+    claim: "The ~403 node mentions and cross-platform transfer commands are primary behavioral evidence for the LLM-as-venue thesis: the pattern is Dan's, appearing identically on Gemini, ChatGPT, and Grok."
+  - page: wiki/mind/synthesis/instrument-is-subject
+    type: contains
+    claim: "That page establishes LLM use as a daily cognitive organ rather than a novelty — 26,348 'ai' mentions in the activity archive — which is precisely what makes the same class of tool disqualified as a neutral observer of the person it is an organ of."
+  - page: wiki/work/tech/danmodel
+    type: instantiates
+    claim: "The pure-retrieval Jaccard baseline versus the TF-IDF-plus-generation RAG simulator recreates the CATO/MAX dual-engine split (forensic retrieval vs. adversarial generation) inside a single narrow tool."
+  - page: wiki/work/tech/ai-video-essays
+    type: instantiates
+    claim: "Using an AI to stress-test his own hypothesis with real adoption data — and accepting the result flatly contradicted his premise — is a documented instance of the honesty-enforcement pattern applied to his own creative project, not just forensic or political material."
 ---
 
 

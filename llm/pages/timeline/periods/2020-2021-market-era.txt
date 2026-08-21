@@ -4,7 +4,7 @@ page_type: period
 title: "2020–2021 Market Era"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-16
+date_modified: 2026-08-21
 sources:
   - raw/self/dox-md/operating_manual.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -32,6 +32,12 @@ tags: [career, financial-stress]
 > Fran's age at death (~97–98 → 97). **This page reasons from none of them** —
 > checked by grep against every changed figure and claim — so nothing here is
 > rederived. Recorded rather than date-bumped, per `CLAUDE.md` §3.
+
+> **RE-CHECKED [2026-08-21] — premise moved, conclusion unaffected; verified
+> rather than assumed.** [[wiki/self/context-core]] moved on 2026-08-19 by a
+> single added typed edge (to `the-cato-seat`) and no other change. Nothing
+> this period page reasons from was altered. Standing since 2026-08-19 as a
+> hypothesis in `BACKLOG.md`; now checked against the diff.
 
 For roughly a year — September 2020 through early 2021, during the second
 NYC period — Dan ran his pattern-recognition engine on retail markets, rode

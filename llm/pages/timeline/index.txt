@@ -3,9 +3,16 @@ domain: timeline
 page_type: summary
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-08-15
+date_modified: 2026-08-20
 sources: []
 related: []
+connections:
+  - page: wiki/timeline/master-timeline
+    type: contains
+    claim: "The master timeline is the timeline domain's chronological index — every dated event the wiki records, extracted mechanically from the pages that hold them and linked back to the page and section that carries the evidence."
+  - page: wiki/timeline/annie-record
+    type: contains
+    claim: "The hand-read chronology of the single relationship that dominates the corpus, kept separate from the mechanically generated master timeline because its entries are read and judged rather than extracted."
 ---
 
 # timeline — index
@@ -34,9 +41,11 @@ related: []
 - [[wiki/timeline/events/the-fall-of-fran]] — night of March 7–8 2018: the arrangement's first encounter and the fall that ended Fran's fifty-year residency, in the same house, minutes apart.
 - [[wiki/timeline/events/uniontown-hospital-vape-alarm]] — early April 2018: one drag of nicotine, a hospital-wide fire alarm, four fire trucks and an escort off the property during Fran's death watch.
 - [[wiki/timeline/events/group-chat-closure]] — Closure event anchored in a group chat on June 1 2026. The chat confirmed the existence of a third-party…
+- [[wiki/timeline/events/james-analysis-pdf]] — 2025-07-11: a curated AI profile handed to its subject and to his partner ends a friendship in twelve minutes.
 - [[wiki/timeline/events/july-2026-recontact]] — July 23–26 2026: the 52-day severance fails; 624 messages, a rape allegation, the corpus's only refused supply request, no resolution.
 - [[wiki/timeline/events/july-august-2026-reentanglement]] — July 26 – August 2 2026: the goodbye breaks in 18 minutes; 1,880 messages, six meetings, five drug handoffs, and an apology delivered in person to Suz.
 - [[wiki/timeline/events/august-2026-unmasking]] — August 8–9 2026: the thirteen-day refusal to identify the interloper ends with a FOREWARN lookup, and a ten-hour collapse follows — a misparsed garble read as a threat, a contested sleep claim, and read-receipt coverage that ends at 02:24:54.
+- [[wiki/timeline/events/august-2026-morgantown-call]] — August 16–19 2026: the end. A 15:27 recording of a call Coles placed from Annie's phone, then a three-day campaign to send it to her mother's work email, a suicide attempt disclosed, a threat Dan faked to test her, six unanswered SOS messages, and a final hour spent arguing about an act neither party ever names — ending mid-exchange, eight minutes after a block that was declared and not executed.
 - [[wiki/timeline/events/march-2026-terminal-phase]] — the record's last 16 days: laundry response, bathroom incident, confession + retraction
 - [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] — Dan, Annie, and Shelbie Breakiron; the arrangement's clearest instance with a third woman rather than a male friend.
 - [[wiki/timeline/events/timeline]] — This is the master index. Full chronological + 1,104 in raw/self/dox-md/LIFE_EVENTS_CALENDAR.md. Re-mined…
@@ -54,3 +63,4 @@ related: []
 - [[wiki/timeline/periods/feb-apr-2025-return-and-rupture]] — week-level granularity on the immediate aftermath of the Jan 2025 affair discovery: the NYC apartment exit, Annie's unilateral move to her parents, Suz's 2024 bankruptcy destabilizing the landing.
 - [[wiki/timeline/periods/2025-collapse]] — Freqs cross: annie:22, suzanne:16, bunker:20, work:22, timeline:16. Cross _07 Grim Trigger Suzy blackout…
 - [[wiki/timeline/periods/dec-2025-spike]] — 2025-12-01 to 2025-12-31
+- [[wiki/timeline/events/august-2026-morgantown-call-source-amendment]] — provenance note for the Morgantown recording's transcript; superseded the day it was written by the verification on the event page itself.

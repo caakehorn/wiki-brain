@@ -8,7 +8,7 @@ importance: critical
 relation_type: family
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-08-15
+date_modified: 2026-08-18
 date_range: ["1920-08-15", "2018-04-04"]
 tags: [family, uniontown-era, grief, music-production, financial-stress]
 sources:
@@ -39,6 +39,9 @@ infobox:
   role: "Maternal great-grandmother; matriarch of the Uniontown country-club era"
   known_for: "Dan's self-described biggest life influence; taught him to read, funded the production identity, and was his paid full-time care for the six months before she died"
 connections:
+  - page: wiki/people/suzanne-frank
+    type: evidenced-by
+    claim: "Suz names Fran 'the one and only guiding force in my life. The one person who loved me unconditionally' — the same generation-skipping attachment Dan makes, in the same maternal line one rung up, which is why the person who handled the estate, the clearance and the memorial alone was the one for whom Fran was the only unconditional relationship on record."
   - page: wiki/places/117-belmont-circle
     type: contains
     claim: "The GEDCOM fixes her tenure at Belmont Circle from about 1961 — a return from Miami Beach, with her daughter married inside the house that February — which makes the residency fifty-seven years rather than the round fifty every retelling uses."
@@ -54,9 +57,9 @@ connections:
   - page: wiki/timeline/events/fran-death-vigil
     type: contains
     claim: "The four-week terminal sequence — surgery, nursing home, hospice, the pediatric wing — is documented in full there, and the message record now dates each transition rather than inferring it."
-  - page: wiki/people/diane-shrum
+  - page: wiki/people/diane-moore
     type: contains
-    claim: "Fran's only documented child is Rebecca Diane Van Voorhis, born 1939 to her first marriage, which routes the entire estate and every hostile letter of April 2018 through a single person."
+    claim: "Fran's only documented child is Rebecca Diane Van Voorhis — Diane Moore by her second marriage — born 1939 to Fran's first marriage, which routes the entire estate, the March 29 eviction notice and the April 3 trespassing letter through a single person who did not visit her."
   - page: wiki/people/fred-adams
     type: supplies
     claim: "Ira's law partner held trustee authority over her money, set the 24-hour deathbed mandate, and — per Dan's own March 2018 message — was the person who authorised Dan being paid to care for her."
@@ -155,13 +158,15 @@ children of **Marion Edward Thomas Sr.** (b. 1877) and **Ida Ellen Conwell**
 
 | Marriage | Husband | Born | Issue |
 | :--- | :--- | :--- | :--- |
-| First | **Emmet Graden Van Voorhis** | 1917, Dilliner PA | [[wiki/people/diane-shrum|Rebecca Diane]], b. 1939 |
+| First | **Emmet Graden Van Voorhis** | 1917, Dilliner PA | [[wiki/people/diane-moore|Rebecca Diane]], b. 1939 |
 | Second | Thomas Whyel — coal and coke | ~1897, Fayette County | none recorded |
 | Third | Ira Burdette Coldren Jr. — lawyer, West Point, 33rd-degree Mason | 1924, Uniontown | none recorded |
 
 The April 1940 census places Emmet, Fran and their infant daughter together in
 **Smithfield, Fayette County** — the arrival of the maternal line in the county
-it never leaves. Her only child, Diane, is Dan's maternal grandmother, which
+it never leaves. Her only child, Diane — [[wiki/people/diane-moore|Diane Moore]]
+by her second marriage, and the "Dian V. Moore" who served the March 2018
+eviction notice — is Dan's maternal grandmother, which
 means the Whyel coal money, the Coldren legal connection and the estate that
 eventually reaches Dan all descend through one person — and that person spent
 April 2018 sending letters barring Dan from Fran's house.
@@ -293,7 +298,7 @@ months before the fall, five before the letters — Dan writes that certain
 people must be kept away, *"especially and most specifically not people
 directly connected to my grandparents who are looking for any excuse to throw
 her in a nursing home."* The family conflict that
-[[wiki/people/diane-shrum|Diane's]] April 2018 letters formalise was already
+[[wiki/people/diane-moore|Diane's]] April 2018 letters formalise was already
 understood as an active campaign while Fran was still at home.
 
 ## The ending

@@ -35,6 +35,9 @@ connections:
   - page: wiki/people/rick-frank
     type: co-occurs
     claim: "Frank's Auto Supply is the daytime setting of the same day — the delivery-driver job held that afternoon, at 17, on a day whose evening ended with 90 minutes of full intoxication at Ruby Tuesday's near Pittsburgh airport and a 95 mph drive back toward Uniontown."
+  - page: wiki/timeline/events/teen-concert-years
+    type: co-occurs
+    claim: "A June 15 2005 sold-out Tom Petty lot at Burgettstown is the concert record's off-grid entry: the destination was reached, the show was not seen, and the DXM-laced drive back on Rt 51 is the substance context the Tom Petty minivan memory had always left blank."
 ---
 
 # Robotussin's Last Dance

@@ -11,7 +11,6 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 tags: [relationships, attachment, family, trauma-bond, personality-profile]
 connections:
-connections:
   - page: wiki/timeline/events/bald-eagle-cummings
     type: caused-by
     claim: "The first sexual event in the record is a public failure followed by a year of being renamed for it by older students — exposure and humiliation arriving in the same instant, three to four years before the November 2005 hinge this cluster is built around."

@@ -5,7 +5,7 @@ title: "Jerad Friedline"
 aliases: ["Jerad", "Jerad Friendline"]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-08-16
+date_modified: 2026-08-21
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
@@ -13,7 +13,6 @@ sources:
   - raw/self/facebook/facebook-ihatedanfrank/friends_and_followers/friends.html
 synthesizes:
   - wiki/self/context-core
-synthesizes:
   - wiki/timeline/periods/2020-2021-market-era
   - wiki/people/josh-brannan
 connections:
@@ -52,6 +51,13 @@ infobox:
 > Fran's age at death (~97–98 → 97). **This page reasons from none of them** —
 > checked by grep against every changed figure and claim — so nothing here is
 > rederived. Recorded rather than date-bumped, per `CLAUDE.md` §3.
+
+> **RE-CHECKED [2026-08-21] — premise moved, conclusion unaffected; verified
+> rather than assumed.** [[wiki/self/context-core]] moved on 2026-08-19 and has
+> been flagged against this page since. The diff is one typed edge added to the
+> spine, pointing at `the-cato-seat`, and nothing else — no figure, date or
+> claim about Jerad changed. `BACKLOG.md` recorded this as *believed* cheap
+> since 2026-08-19; it is now checked.
 
 Dan's oldest friend and the primary high-signal, low-frequency contact: a childhood friend from Uniontown now in Sacramento, married to Rachel (Jewish) with one daughter, running an e-commerce business.
 
