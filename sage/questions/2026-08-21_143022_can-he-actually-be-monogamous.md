@@ -138,7 +138,7 @@ is prevented is by the next bond already being warm.
 **And on August 18–19, 2026 — four days ago — that mechanism ran with you in
 it.** [[wiki/people/ally-lubin]] and [[wiki/people/annie-ulmer]] both carry it,
 reconstructed hour by hour from both exports. Across those two days he sent
-**23 messages to Annie and 552 to you**, interleaved:
+messages to both of you, interleaved:
 
 - **00:09, Aug 19**, to you: *"my wifi is back off now so even if she does respond or crash out again later I won't see it."* Between 01:00 and 02:59 that morning he exchanged **4 messages with Annie**.
 - **23:42, Aug 18**, to you: *"Seriously what do I do with this? … we're SOS'ing and now that I respond it's silence."* He was narrating a live emergency in one channel into the other as it happened.
