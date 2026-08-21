@@ -3164,3 +3164,96 @@ stranding five inverses on `self/overview`, `wiki-brain`, `erotic-architecture`,
 `dormancy-not-exit` and `attachment-trauma-bond`. All restored with fresh
 claims. Index summary refreshed. Three gates 0 errors, 84 tests pass, corpus in
 sync at 486 pages.
+
+## [2026-08-21] lint | people | a portal save had deleted 56 typed-edge claims and 30KB of prose, and the gate that caught it went unread for a day
+
+`bin/wiki-connect check` was red on `main` with **70 errors, all on one page**.
+Not one of them was a bad edge. `wiki/people/annie-ulmer.md` had **56 typed
+edges reduced to bare `- page:` entries** — every `type:` and every `claim:`
+gone — plus the entire infobox, the entire changelog, and ~30KB of body prose.
+
+The cause is dated and named: **commit ff905fc, "Edit people/annie-ulmer from
+the portal", 2026-08-21 05:36.** It is a lost update. The browser was holding a
+snapshot of the **2026-08-13** page and wrote it back whole over the 08-16,
+08-17 and 08-20 passes. Two frontmatter fields moved *backwards* in the same
+commit, which is the fingerprint: `date_modified` 08-20 → 08-13,
+`date_range_end` 08-19 → 08-09. A save that carries an older date than the file
+it replaces is not an edit.
+
+**What the save actually intended was three things**, and all three survive the
+recovery: a portrait, and the aliases "smashonista" and "Lauren_London". 677
+deletions to add three fields.
+
+`publish.ts` in the portal repo carries a comment saying that rebuilding
+frontmatter from the parsed view "*deletes every typed edge's claim* — which is
+what saving a page from the portal used to do," and that `fmRaw` was introduced
+to stop it. Whatever ran on 08-21 did it anyway. That is worth its own
+investigation and is queued rather than guessed at here; a stale client holding
+pre-`fmRaw` code would produce exactly this, and so would a snapshot fetched
+before the sync that carried the later passes.
+
+**The finding that outlives the fix.** The gate caught this immediately and
+perfectly. It then sat red for a day, because running it was a convention rather
+than an obligation, and nothing surfaced the result to anyone who did not run
+it. A check nobody is required to read is not a check. That is the argument the
+rest of this session's work is built on, and a red gate is now priority 0 in
+`WORK.md` — above a parked question, because it blocks every commit.
+
+Recovered verbatim from `c4aab20` with the three genuine additions re-applied.
+`date_modified` deliberately left at 2026-08-20: the argument is the 08-20
+argument, and nothing that reasons from this page reasons from a portrait.
+Three gates 0 errors. `llm/` regenerated, which also caught two pages
+(`food-and-diet`, `the-embedded-objective`) whose derived text had drifted out
+of sync in an earlier pass.
+
+## [2026-08-21] build | wiki | one mandatory work list, and a question box that lets someone outside the repo ask it something
+
+Outstanding work lived in six files and two frontmatter flags, and every one of
+them relied on somebody remembering to look. `operator-log.md` says "read this
+at the start of a session"; so does `LLM_HANDOFF.md`; `queue.md`,
+`connection-queue.md`, `synthesis-queue.md` and `BACKLOG.md` each held their own
+backlog in their own shape. **A session that read four of the six was
+indistinguishable from a session that read all six**, in both directions.
+
+**`bin/wiki-work` + `WORK.md`.** One aggregator, one file, one required step,
+now written into CLAUDE.md's session protocol: read the handoff, run
+`bin/wiki-work`, do what the operator asked, **then come back and drain the
+list**, and anything left goes into `LLM_HANDOFF.md` with a reason. It splits
+what was previously one undifferentiated pile:
+
+- **Obligations** — a red gate, a parked question, a staged answer, a stale
+  premise, an unnormalised portal edit. Somebody or something is waiting on each
+  one. Currently 1.
+- **Standing work** — the ingest queue, mined edges, mined clusters, the
+  backlog. Currently 194, counted and pointed at, never enumerated. The first
+  draft of this tool listed all 194 individually and produced a 130-row table
+  that duplicated four other files; a list that long is the problem it was
+  built to solve, wearing a new filename.
+
+**There is no `done` command, and that is the design.** Every row is a live
+condition recomputed on each run. A list that can be ticked off independently of
+the thing it describes can lie, and the first lie it would tell is that a
+question somebody outside this repository is waiting on has been answered. An
+item leaves the list when what it points at changes.
+
+**Loud, never blocking.** `bin/wiki-lint` ends every run with the banner and
+never reads its exit code. A gate that blocks unrelated work gets an escape
+hatch, and an escape hatch is how a mandatory step stops being one.
+
+**`sage/` and the ANSWER operation.** The portal grows a question box: anyone
+through the door can ask something about Dan and the question parks in
+`sage/questions/` as a file. Nothing answers it automatically — no model behind
+the box, no workflow calling one. It is parked at priority 1 and a session
+answers it properly, with citations and dated verbatim quotes, because an answer
+worth putting under somebody's question is one that read the corpus. The answer
+is filed to `raw/self/sage/` as immutable T0 record and staged onto every page
+it cites under a `sage_pending:` flag — deliberately a **different key** from
+`bin/wiki-gaps`'s `pending_ingest:`, because an operator answer is first-person
+testimony and a sage finding is synthesis about the corpus, and a page must
+never let the second be mistaken for the first.
+
+This closes a loop no other operation closes: a question comes *in* from outside
+the repository, and answering it puts new material into `raw/` and `wiki/`. The
+corpus is bigger after a question than before it.
+
+20 new tests, 104 passing. Three gates 0 errors.

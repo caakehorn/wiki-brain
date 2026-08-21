@@ -191,3 +191,20 @@ frontmatter), forensic-methodology (20 KB), context-core (14 KB), youtube-watch-
       Named as the live falsifier on `arrangement-history`. An Annie-voice
       account of any documented encounter would move it more than any further
       Dan-side volume can.
+
+## [2026-08-21] portal lost-update — one page recovered, the cause not yet established
+
+- [ ] **HIGH: establish how commit ff905fc stripped 56 typed-edge claims.**
+      `wiki/people/annie-ulmer.md` was saved from the portal on 2026-08-21 with a
+      snapshot of the **08-13** page, deleting three later passes, the infobox
+      and every `type:`/`claim:` on 56 edges. Recovered the same day. The portal's
+      `src/wiki/publish.ts` says `fmRaw` was introduced precisely to stop the
+      frontmatter rebuild from deleting claims, so either that path was bypassed
+      or the browser was running pre-`fmRaw` code against a stale snapshot. Two
+      frontmatter dates moved *backwards* in the same commit, which is the
+      signature to look for on any other page. **Until it is understood, assume
+      it can happen again to any page edited in the app.**
+- [ ] **MED: sweep every page for the same signature.** A save whose
+      `date_modified` is older than the commit before it, or whose `connections:`
+      block has `- page:` entries with no `type:`. The connect gate catches the
+      second; nothing catches the first.

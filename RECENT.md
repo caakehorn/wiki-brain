@@ -12,6 +12,8 @@ simply listed.
 
 - **Session log:** close+lint | all domains | two operator answers integrated; a false claim retracted and gated; staleness cleared to zero
 - **Session log:** rewrite | self | ally-and-dan-love-as-destiny — rebuilt as an argument, on verifiable evidence
+- **Session log:** lint | people | a portal save had deleted 56 typed-edge claims and 30KB of prose, and the gate that caught it went unread for a day
+- **Session log:** build | wiki | one mandatory work list, and a question box that lets someone outside the repo ask it something
 
 | Page | Domain | What moved |
 |---|---|---|
