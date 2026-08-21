@@ -3,7 +3,7 @@ captured: 2026-08-21
 kind: sage-answer
 question_id: 2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be
 asker: Curious George
-revision: 2 — supersedes the answer published earlier the same day
+revision: 3 — supersedes revisions 1 and 2, both published the same day
 targets:
   - wiki/people/ally-lubin
   - wiki/people/kristin
@@ -16,6 +16,7 @@ targets:
   - wiki/mind/concepts/erotic-architecture
   - wiki/mind/concepts/the-cool-metric
   - wiki/mind/profile/enneagram-5w4
+  - wiki/mind/profile/intp
   - wiki/mind/psychosexual/arrangement-history
   - wiki/mind/synthesis/attachment-trauma-bond
   - wiki/mind/synthesis/single-channel
@@ -27,12 +28,22 @@ The immutable record of a question put to the wiki from outside it, and the
 answer given. `sage/questions/` mutates as a question is worked; this does not.
 
 Asked through the portal by **Curious George**, 2026-08-21T22:09:18Z. Answered
-the same day, and **rewritten the same day** — the first answer reached the right
-name through fabricated psychometrics (see `RETRACTED.md`,
-`dan-ally-enfp-pairing`). This capture holds the rewritten answer, which is the
-one the portal renders.
+the same day and revised twice the same day, which is itself part of the record:
 
-**Method.** Reasoned from `wiki/` first — the five person pages, then
+- **Revision 1** named Ally Lubin and built the case on a shared ENFP function
+  stack. Dan types **INTP**; the pairing and three of the four types it reasoned
+  from were fabricated.
+- **Revision 2** replaced the reasoning with quoted, dated evidence and retracted
+  the psychometrics — but its correction asserted that *no MBTI result for Dan
+  existed anywhere in `wiki/` or `raw/`*. That was also false. The verification
+  behind it was a grep for `ENFP|INTJ|INFJ|ISFJ`, the four types the fabrication
+  named; `INTP` was never searched for, and `wiki/mind/profile/intp.md` is a full
+  page with a measured function table.
+- **Revision 3**, held here, carries both corrections in the open and uses the
+  INTP material where it actually bears — the 10%-valued Fe and its documented
+  relational consequence.
+
+**Method.** Reasoned from `wiki/` first — the five person pages, then `intp`,
 `enneagram-5w4`, `the-cool-metric`, `attachment-model`, `single-channel`,
 `conflict-architecture`, `erotic-architecture` and `arrangement-history` — then
 went to `raw/` for every quotation. Every dated quote in the answer was read out
@@ -44,11 +55,18 @@ window, the only one in which Ally is a full participant),
 operator-filed T0).
 
 **Answer given: Ally Lubin**, on four documented qualities — the completed
-refusal of Dan's redefinition move; the Witness function performed and survived;
+refusal of Dan's redefinition move, which [[wiki/mind/profile/intp]] independently
+names as the Fe-inferior mechanism; the Witness function performed and survived;
 a two-way match inside the taste filter he sorts people by; and a stated
 requirement of intensity without a requirement of rescue. The answer states its
 own strongest counter-evidence at length, chief among it that the attachment's
 documented operating condition is inaccessibility.
+
+**The methodological finding, which outlives the question.** Revision 2's error is
+the more instructive of the two: a check shaped by the claim it is testing will
+confirm whatever that claim assumes. Searching for the four types a fabrication
+happened to name, and reporting their absence as the absence of all, is a
+verification that cannot fail to agree with itself.
 
 ## Question
 
@@ -62,21 +80,43 @@ Do not use previous relationship history, romantic or otherwise, to influence yo
 because the first case was largely not supported by the corpus.
 
 > **CORRECTED [2026-08-21]:** the version of this answer published earlier today
-> rested on four things the record does not contain. It said *"Both Dan and Ally
-> test as ENFP"* and reasoned from a shared function stack — **there is no MBTI
-> result for Dan anywhere in `wiki/` or `raw/`**, and the only Ally datapoint is
-> an argument in which *he refuses to accept she is an ENFP*
-> ([[wiki/people/ally-lubin]], 2018-12-17). It called Annie and Alexis ISFJ —
-> Annie is assessed **ESFP** ([[wiki/people/annie-ulmer-personality-assessment]])
-> and Alexis has no assessment at all. It named Katie Fletcher as "the only other
-> ENFP documented"; her page contains no type. And it read *"I'm a SINGLE
-> MOTHER"* (2026-08-18 16:49:37) as evidence of a life structure with obligations
-> outside Dan — it is a joke about cats, which she corrects herself three minutes
-> later: **DAN:** *"Are you still doing the cat mother thing / Or did I miss that
-> you're an actual mother"* → **ALLY:** *"No still just cats."* It also called her
-> financially independent of Dan, which inverts a record in which she asks him
-> for money in 2019, 2023 and 2025. The conclusion survives. The reasoning
-> underneath it is replaced entirely. See `RETRACTED.md`, `dan-ally-enfp-pairing`.
+> rested on things the record does not contain. It said *"Both Dan and Ally test
+> as ENFP"* and reasoned from a shared function stack. **Dan does not type ENFP:
+> the corpus types him INTP, on a dedicated page with a measured function stack**
+> — Ti 96% latent, Ne 84%, Si 57%, Fe 10% valuing, plus a documented Ni leak
+> ([[wiki/mind/profile/intp]]), and a primary-source self-typing as far back as
+> July 2013 (*"as an INTP and heavily introverted, logic-based dude…i can't see
+> myself flourishing in AA/NA"*). Ally's ENFP is a real frontmatter value with one
+> disputed source behind it — the recorded datapoint is an argument in which *he
+> refuses to accept she is an ENFP* ([[wiki/people/ally-lubin]], 2018-12-17). The
+> claim retracted is the **shared** type and the complementarity built on it, not
+> the existence of a type for either of them. The same passage called Annie and
+> Alexis ISFJ — Annie is assessed **ESFP**
+> ([[wiki/people/annie-ulmer-personality-assessment]]) and Alexis has no
+> assessment at all — and named Katie Fletcher as "the only other ENFP
+> documented"; her page contains no type. It read *"I'm a SINGLE MOTHER"*
+> (2026-08-18 16:49:37) as evidence of a life structure with obligations outside
+> Dan — it is a joke about cats, which she corrects herself three minutes later:
+> **DAN:** *"Are you still doing the cat mother thing / Or did I miss that you're
+> an actual mother"* → **ALLY:** *"No still just cats."* And it called her
+> financially independent of Dan, which inverts a record in which she asks him for
+> money in 2019, 2023 and 2025. See `RETRACTED.md`, `dan-ally-enfp-pairing`.
+
+> **CORRECTED [2026-08-21] — the correction above was itself wrong when first
+> published, and this is the more useful error of the two.** Its first version
+> asserted *"there is no MBTI result for Dan anywhere in `wiki/` or `raw/`."*
+> **That is false.** [[wiki/mind/profile/intp]] is a full page with a function
+> table; [[wiki/mind/profile/index]] carries Dan across five instruments (MBTI
+> INTP, Enneagram 5w4 sx/sp, Socionics ILI-Ni, SLOAN RLUEI, Attitudinal Psyche
+> FLEV/VLEF); [[wiki/self/context-core]] states the typology line outright. The
+> mistake was in the verification, not the reasoning: the check was a grep for
+> `ENFP|INTJ|INFJ|ISFJ` — **the four types the fabricated passage named** — and
+> the absence of those was reported as the absence of any. A search shaped by the
+> claim it is testing will confirm whatever the claim assumes. The operator caught
+> it. The retracted claim is unaffected: Dan types INTP, so *"both test as ENFP"*
+> is if anything more clearly false than the first correction made it. What is
+> withdrawn is the assertion of a corpus-wide gap, and the reasoning in section 1
+> is **strengthened** by what was actually there — see the Fe note below.
 
 ### Method, and what "qualities only" can and cannot mean here
 
@@ -128,6 +168,18 @@ hooked me with your tweets and THEN I realized you were a baddie"*), she
 answered *"Ok that's fair actually"* (16:47:02). Correction runs both ways in
 this channel and lands both times.
 
+**Why this is the mechanism and not just a nice exchange.** The corpus does type
+Dan, and the type names exactly this failure: [[wiki/mind/profile/intp]] measures
+inferior Fe at **10% valuing / 46% active** and states the relational consequence
+in one sentence — *"emotional bids arrive as claim-shaped propositions and get
+adjudicated instead of met."* That is a description of 21:08:16. Ally makes a bid
+shaped as a judgement (*"You just love bomb"*); Dan converts it into a proposition
+about the definition of love-bombing and adjudicates it; **she declines to be
+adjudicated** (*"I didn't say malicious"*), and the machine stops. The page names
+the pattern and has no documented instance of it being interrupted. This is one.
+I withdraw the earlier framing that no type-level evidence was available here —
+it was available, and it supports the finding rather than substituting for it.
+
 Against everyone else the record shows the opposite shape. Kristin's
 disagreements with Dan escalate to a permanent block over $40 in ten weeks
 ([[wiki/people/kristin]]). Annie's produce
@@ -162,7 +214,7 @@ addict lol"* (20:05–20:20).
 That is the Witness function performed and survived, by both parties, once. It
 is the single strongest fact in this answer.
 
-### 3. The register match is subcultural, not psychometric — and it is the metric he actually sorts people by
+### 3. The register match is subcultural rather than typological — and it is the metric he actually sorts people by
 
 [[wiki/mind/concepts/the-cool-metric]] documents taste as Dan's *"master filter,
 applied with unusual rigidity across domains that normally use separate
@@ -342,8 +394,10 @@ Concrete, and two of them resolve soon:
 
 ### The honest summary
 
-On qualities alone, Ally Lubin. Not because of a type match — there isn't one on
-record — but because she is the only person in the corpus documented doing four
+On qualities alone, Ally Lubin. Not because of a shared type — the corpus types
+him **INTP** and her ENFP rests on one disputed source, so a matched-stack
+argument is not available and was fabricated when this answer first tried to make
+one — but because she is the only person in the corpus documented doing four
 specific things: **refusing his frame and having the refusal stick; reading the
 worst material about him and staying in the conversation; matching him inside the
 taste filter he sorts everyone by; and requiring intensity without requiring

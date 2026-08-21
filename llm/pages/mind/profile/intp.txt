@@ -1,4 +1,5 @@
 ---
+sage_pending: '2026-08-21'
 domain: mind
 page_type: profile
 title: "INTP — The Cognitive Function Stack"
@@ -161,3 +162,42 @@ history and cinema.
 proctored instrument; the Ni measurement in particular has no independent
 confirmation; no data on how the stack presents post-closure (all sources
 pre-date June 2026).
+
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+
+Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
+
+**The Fe-inferior claim has an attested interruption, and this page has no
+instance of one.** The page states the relational consequence of 10%-valued Fe in
+one sentence — *"emotional bids arrive as claim-shaped propositions and get
+adjudicated instead of met"* — and treats it as a standing disposition. The
+2026-08-18 Ally exchange is that mechanism running and then stopping, inside two
+minutes: **ALLY** *"You just love bomb"* (a bid shaped as a judgement) → **DAN**
+*"But love bomb is like a malicious tactic and there very little malice"* (the
+adjudication, exactly as described) → **ALLY** *"I didn't say malicious"*
+(declining to be adjudicated) → **DAN** *"Okay that's fair then."* **Nothing else
+in the corpus completes that sequence.** The finding is not that Fe improved; it
+is that the conversion is refusable from the outside, by narrowing rather than by
+escalating, and the page should say what that implies about whether the pattern is
+a fixed function score or a negotiable one.
+
+**Second, a discoverability finding this page is the victim of.** Two passes on
+2026-08-21 reasoned about Dan's type without reaching this page — one inventing an
+ENFP result, one then asserting that no MBTI result for Dan existed anywhere in
+`wiki/` or `raw/`. Both are false and both were written by a model that had
+already read [[wiki/mind/profile/enneagram-5w4]]. That page does not link here in
+its prose, and neither does [[wiki/self/context-core]] where it states the
+typology line. **A profile cluster whose members do not cross-link is a cluster
+that gets half-read**, and the failure mode is not a missing page — it is a page
+nobody found. Cross-link the profile set both ways.

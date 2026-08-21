@@ -3386,3 +3386,59 @@ tests whether an assertion in `sage/` exists in the corpus, because the gates re
 `wiki/`. The retraction ledger now covers the specific claim, but the class is
 open — **an answer can invent a premise and ship it, and the only thing that
 caught this one was the operator reading it.**
+
+## [2026-08-21] answer | mind | the correction was wrong: Dan types INTP, and the corpus says so on a dedicated page
+
+Same question, third revision, and the error being fixed is mine rather than the
+first pass's. **The correction published this morning asserted *"there is no MBTI
+result for Dan anywhere in `wiki/` or `raw/`."* That is false.**
+
+**What is actually there.** [[wiki/mind/profile/intp]] — a full page, 2026-07-13,
+with a measured function table: **Ti 96% latent / 95% aptitude, Ne 84%, Ni 84%
+(the documented leak), Si 57%, Fe 10% valuing / 46% active.**
+[[wiki/mind/profile/index]] carries him across five instruments (MBTI INTP,
+Enneagram 5w4 sx/sp, Socionics ILI-Ni, SLOAN RLUEI, Attitudinal Psyche
+FLEV/VLEF). [[wiki/self/context-core]] states the typology line in the
+context-injection paragraph. And the self-typing is primary and dated to **July
+2013** — *"as an INTP and heavily introverted, logic-based dude…i can't see
+myself flourishing in AA/NA."*
+
+**How the error was produced, which is the part worth keeping.** The verification
+behind the claim was a single grep: `ENFP|INTJ|INFJ|ISFJ` — **the four types the
+fabricated passage happened to name.** `INTP` was never in the pattern. The
+absence of those four was then reported as the absence of any. **A check whose
+scope is derived from the claim it is testing cannot disconfirm that claim**; it
+can only agree with it. The first pass invented a premise; the second invented an
+absence, and did it while holding the file that disproved it two directories
+away. The operator caught both.
+
+**The retracted claim is unaffected and slightly strengthened.** Dan typing INTP
+makes *"Both Dan and Ally test as ENFP"* more clearly false, not less.
+`dan-ally-enfp-pairing` stands; its `replacement` field, prose and `source` list
+are corrected, and the entry now carries the correction of its own first version.
+Note the gate never fired on `wiki/mind/profile/intp.md`: the pattern list
+excludes `intp` by construction, so the real page was never at risk — a lucky
+outcome of writing patterns narrowly, not a designed one.
+
+**What the INTP material adds to the answer, now that it is being used.** The page
+states the Fe-inferior relational consequence in one sentence — *"emotional bids
+arrive as claim-shaped propositions and get adjudicated instead of met"* — which
+is a description of 2026-08-18 21:08:16. Ally makes a bid shaped as a judgement
+(*"You just love bomb"*); Dan converts it to a proposition about the definition
+and adjudicates it; **she declines to be adjudicated** (*"I didn't say
+malicious"*) and it stops. The page names the pattern and carries no instance of
+it being interrupted. Section 1 of the answer was already built on that exchange;
+it now has the mechanism attached rather than only the observation.
+
+**A second finding, about navigation rather than content.** Two passes in one day
+reasoned about Dan's type without reaching `intp.md`, both having already read
+`enneagram-5w4`. That page does not link to `intp` in its prose lead, and neither
+does `context-core` where it states the typology. **The profile cluster is not
+discoverable from its own members** — the failure mode here was not a missing
+page but a page nobody found. Staged on `intp` and `enneagram-5w4` as a
+cross-linking action.
+
+Findings restaged on `intp` (new), `enneagram-5w4`, `annie-ulmer-personality-assessment`
+and `ally-lubin`; the three blocks that repeated the false absence are replaced.
+Capture rewritten as **revision 3**, carrying both corrections in the open. No
+`date_modified` bumped.
