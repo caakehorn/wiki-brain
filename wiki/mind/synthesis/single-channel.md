@@ -1,4 +1,5 @@
 ---
+sage_pending: '2026-08-21'
 domain: mind
 page_type: synthesis
 title: "The Single Channel"
@@ -397,3 +398,13 @@ architecture claim is wrong rather than merely qualified.
 > re-derives the creative and cognitive legs on comparable evidence. The
 > alternative account of the same distribution is at
 > [[wiki/mind/synthesis/closing-the-set]].
+
+
+## Sage findings — pending ingest
+
+> **SAGE [2026-08-21]** This page was cited by the SAGE answer to "Which of the
+> people in this wiki would be the best match for Dan?" The answer identifies
+> **Ally Lubin** as the best match based on qualities alone. This page provides
+> the evidence for one or more of the axes on which that comparison was made:
+> type match, defense complementarity, structural independence, age proximity,
+> or self-awareness match. Review for relevant findings and integrate.

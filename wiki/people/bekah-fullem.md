@@ -1,4 +1,5 @@
 ---
+sage_pending: '2026-08-21'
 domain: people
 page_type: entity
 status: closed
@@ -105,3 +106,13 @@ The outcome of the cat's medical crisis, the disposition of her assault
 report, and any relationship to Dan beyond these two crisis contacts
 are undocumented. The Annie-assault claim has no independent
 corroboration anywhere else in the corpus.
+
+
+## Sage findings — pending ingest
+
+> **SAGE [2026-08-21]** This page was cited by the SAGE answer to "Which of the
+> people in this wiki would be the best match for Dan?" The answer identifies
+> **Ally Lubin** as the best match based on qualities alone. This page provides
+> the evidence for one or more of the axes on which that comparison was made:
+> type match, defense complementarity, structural independence, age proximity,
+> or self-awareness match. Review for relevant findings and integrate.

@@ -1,4 +1,5 @@
 ---
+sage_pending: '2026-08-21'
 domain: people
 page_type: entity
 title: "Alexis Armel"
@@ -544,3 +545,13 @@ is entirely undocumented, as is whether she knows any of the rest of this
 exists. And the CATO bootloader's claim that Zac Shumar was also Annie's
 first has no primary source anywhere — it is an AI compression of the corpus
 repeating itself, and it should not be cited as fact until a message says it.
+
+
+## Sage findings — pending ingest
+
+> **SAGE [2026-08-21]** This page was cited by the SAGE answer to "Which of the
+> people in this wiki would be the best match for Dan?" The answer identifies
+> **Ally Lubin** as the best match based on qualities alone. This page provides
+> the evidence for one or more of the axes on which that comparison was made:
+> type match, defense complementarity, structural independence, age proximity,
+> or self-awareness match. Review for relevant findings and integrate.
