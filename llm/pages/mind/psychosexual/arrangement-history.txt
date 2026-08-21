@@ -71,6 +71,7 @@ connections:
   - page: wiki/people/trinity-st-clair
     type: instance-of
     claim: "A paid, professional booking with an agreed $1,500 fee is the arrangement in its most explicitly commercial form — the version where the third party is contracted rather than courted."
+sage_pending: 2026-08-21
 ---
 
 # Arrangement History
@@ -304,3 +305,43 @@ theoretical layer. Whether the Kristin relationship's inverted structure
 represents a genuine shift in preference, a reaction to the [[wiki/people/eli|Eli]]
 betrayal's timing, or simply what that particular partner required is not
 established anywhere in the corpus.
+
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
+
+Answer and sources: `raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md`
+
+**At the height of the arrangement era he described himself, to an outsider, as a
+serial monogamist.** *"i'm a serial monogamist so i've only been with a few
+girls, and they all fit a very specific type"* — Sent, **2019-08-17 22:26**, six
+weeks before the Kelly Johansson run and two months before the filmed MMF. The
+phrase occurs nowhere else in the corpus and nowhere in the wiki.
+
+That is not a contradiction to resolve; it is evidence for what this page already
+concludes about the Kristin inversion. **Openness was never the requirement —
+authorship was**, and he did not experience the open period as non-monogamy in the
+identity sense at all. He read himself as a monogamist running an arrangement.
+Worth a line in "What the pattern shows," next to the Kristin row.
+
+Corroborating counts from the same pass, over all 217,573 records: `monogam` **7**,
+`faithful` **3**, `exclusive` **15** — against this page's 304 camming-signal
+tokens and 107 non-monogamy tokens. The vocabulary of *commitment* is nearly
+absent from a corpus in which the vocabulary of *arrangement* is abundant, which
+cuts against the identity reading in a way this page should state rather than
+leave for a reader to notice.
+
+**Also relevant to the live "who initiated" question this page carries:** the
+answer found no instance, in eleven years, of an outside encounter concealed from
+Annie. Every documented instance is disclosed, and usually she is present. That
+is a third structural property alongside the two the page names, and it is the
+one that most distinguishes this record from ordinary infidelity.

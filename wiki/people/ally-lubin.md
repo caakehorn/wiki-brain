@@ -68,6 +68,7 @@ connections:
   - page: wiki/timeline/periods/2018-deep-cycle
     type: component-of
     claim: "The tie is opened inside the deep cycle and shares its economics — a $25 finder's fee, a $250 Cash App gift and a Christmas present issued in the same December weeks Dan was running daily Cash App limits and declined payments."
+sage_pending: 2026-08-21
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: evidenced-by
     claim: "The August 2026 Ally Lubin thread shows what reciprocal intimacy looks like — a contrast to the Annie dynamic documented in the fallout verdict. The Annie SA accusation, mentioned by Dan in his own voice for the first time: 'Oh yeah she also decided to accuse me of an unspecified SA as her mechanism to virtue signal to this new guy.'"
@@ -377,6 +378,80 @@ The honest position: the August burst is real and unprecedented in size, its mut
 
 Each of these is answerable by the operator in a paragraph.
 
+- **Re-export both handles from `chat.db` in full.** This is the top action on
+  this page. The August 19 inbound is missing (see the caveat above), and the
+  chat.db extract already in `raw/` is missing all 120 messages of January
+  2019 — a window that overturned three claims when the master dump supplied
+  it. Two files disagree about what this relationship contains and neither is
+  complete.
+- **Where did the December 6, 2018 conversation happen?** It is the origin of
+  the modern relationship and is in no message corpus here — the iMessage
+  record starts eleven days later. Instagram DM, Twitter DM, or Facebook
+  Messenger on an account not in the takeout?
+- **Where did Dan first encounter her, if not AbsolutePunk?** He retracted the
+  venue on 2026-08-18 and named Twitter as a guess. Overcast Kids, the
+  Chris Miller orbit and Polyak are the named leads.
+- **Did she reply to the elopement pitch?** It is unanswered in the captured
+  record, but the capture breaks 96 minutes before it was sent.
+- **Was the $2,100 accurate?** Dan showed her a screenshot he found
+  convincing; she accepted it in 2019 and contests it in 2026. No financial
+  export in `raw/` covers Cash App for 2019.
+- **What was the "online shit" the spoofed number was used for?** Polyak's
+  message is the only account and does not say. Dan never answers him, and in
+  2026 doubts the incident occurred at all.
+- **Is she still alive and well?** Given the volume of documented suicidality
+  in the 2019 material and her self-description in 2026, this is a question
+  the wiki should not leave implicit.
+- **What is Ally's brother's name, and does he still speak to Bob?** Dan asks
+  both questions on August 19 at 08:12 and the answers are in the missing
+  inbound.
+- **Negative result, recorded:** she does not appear in `contacts.csv` with an
+  address, in the GEDCOM, in the Twitter export, or in the Facebook search
+  history. The Model Mayhem and "boca raton ally lubin" searches Dan describes
+  on 2019-08-22 are from Google, whose search-history export is not in `raw/`.
+
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
+
+Answer and sources: `raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md`
+
+**The subject of this page asked the wiki a question about its subject, and the
+answer rested on this page.** On **2026-08-21**, three days after reading her own
+entry, Ally put the first question the portal's box ever took: *can he actually be
+monogamous — not what he says about himself, what he has actually done.*
+
+That makes this page's August 18–19 concurrency finding the load-bearing evidence
+in an answer given **to her**: 408 messages to Annie and 552 to Ally across two
+days; *"my wifi is back off now"* (00:09) against 98 messages exchanged with Annie
+between 01:00 and 02:59; *"Im all ally Lubin all the time now"* (13:45) ninety
+minutes before the eleven-year relationship's last message at 15:15:33.
+
+Three things for the next pass:
+
+1. **The page's prediction has a first data point.** It predicted the next Ally
+   burst would appear *during* an instability rather than after one. The question
+   itself is not a burst, but it is channel activity two days into a closure whose
+   status is unresolved, and it is of a kind the channel has never carried before:
+   she is now querying the archive rather than only appearing in it.
+2. **The audit continues by other means.** Her recorded objections — *"there's no
+   proof you ever sent me $2100 except your word"*, *"You just love bomb"*, *"Men
+   are so predictable"* — and this question are the same act. She is the corpus's
+   only hostile reader, and she is now using the tool. That is worth a section,
+   not a footnote.
+3. **The answer told her the concurrency finding to her face**, including that the
+   mechanism which fills the slot was running with her name in it four days ago.
+   If a later pass softens or withdraws that finding, it withdraws something she
+   has already read.
 - **Re-export both handles from `chat.db` in full.** This is the top action on this page. The August 19 inbound is missing (see the caveat above), and the chat.db extract already in `raw/` is missing all 120 messages of January 2019 — a window that overturned three claims when the master dump supplied it. Two files disagree about what this relationship contains and neither is complete.
 - **Where did the December 6, 2018 conversation happen?** It is the origin of the modern relationship and is in no message corpus here — the iMessage record starts eleven days later. Instagram DM, Twitter DM, or Facebook Messenger on an account not in the takeout?
 - **Where did Dan first encounter her, if not AbsolutePunk?** He retracted the venue on 2026-08-18 and named Twitter as a guess. Overcast Kids, the Chris Miller orbit and Polyak are the named leads.

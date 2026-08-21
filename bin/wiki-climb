@@ -173,6 +173,13 @@ def cmd_check(pages):
                             "confirm it adds no argument" % (p, len(m["syn"])))
 
         # staleness: a premise modified after the page that reasons from it
+        #
+        # The `STALE ` prefix and the `<page> (<date>) reasons from <page> (<date>)`
+        # shape are load-bearing beyond this file: `bin/wiki-work` parses these
+        # lines to list stale premises as obligations, rather than carrying a
+        # second implementation of staleness that could disagree with this one
+        # about which pages are stale. Change the wording here and fix the regex
+        # in `find_stale()` there in the same commit.
         if m["modified"]:
             for d in m["syn"]:
                 if d in meta and meta[d]["modified"] and meta[d]["modified"] > m["modified"]:

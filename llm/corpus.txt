@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-21
-486 pages, ~1,264,699 tokens.
+486 pages, ~1,268,213 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -7695,6 +7695,16 @@ for everything it is allowed to touch."
   is unknown, and the answer decides whether this is a control behaviour that
   grew out of a disordered one or an independent lifelong trait.
 
+> **RE-CHECKED [2026-08-24] — premise moved, conclusion survives.**
+> [[wiki/work/bfs-foods]] was updated 2026-08-20 (the "Reversed, 2026-08-11"
+> section documenting Dan getting his job back). The food-and-diet page's
+> conclusion about BFS is that it represents "food as counter labour at the
+> return pole of the geography — dispensed rather than chosen." This is a claim
+> about the *nature* of the work (food handled daily, no evaluation recorded),
+> not about the tenure or the dispute's outcome. The 08-11 reversal is a
+> post-termination event that does not change the nature of the work itself.
+> The conclusion that food at BFS was labor, not taste, is unaffected.
+
 > **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
 > [[wiki/mind/concepts/the-cool-metric]] moved the same day, but only to add
 > a new connection to `wiki/mind/synthesis/totality-themes` (the newly
@@ -15270,6 +15280,7 @@ connections:
   - page: wiki/people/trinity-st-clair
     type: instance-of
     claim: "A paid, professional booking with an agreed $1,500 fee is the arrangement in its most explicitly commercial form — the version where the third party is contracted rather than courted."
+sage_pending: 2026-08-21
 ---
 
 # Arrangement History
@@ -15503,6 +15514,46 @@ theoretical layer. Whether the Kristin relationship's inverted structure
 represents a genuine shift in preference, a reaction to the [[wiki/people/eli|Eli]]
 betrayal's timing, or simply what that particular partner required is not
 established anywhere in the corpus.
+
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
+
+Answer and sources: `raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md`
+
+**At the height of the arrangement era he described himself, to an outsider, as a
+serial monogamist.** *"i'm a serial monogamist so i've only been with a few
+girls, and they all fit a very specific type"* — Sent, **2019-08-17 22:26**, six
+weeks before the Kelly Johansson run and two months before the filmed MMF. The
+phrase occurs nowhere else in the corpus and nowhere in the wiki.
+
+That is not a contradiction to resolve; it is evidence for what this page already
+concludes about the Kristin inversion. **Openness was never the requirement —
+authorship was**, and he did not experience the open period as non-monogamy in the
+identity sense at all. He read himself as a monogamist running an arrangement.
+Worth a line in "What the pattern shows," next to the Kristin row.
+
+Corroborating counts from the same pass, over all 217,573 records: `monogam` **7**,
+`faithful` **3**, `exclusive` **15** — against this page's 304 camming-signal
+tokens and 107 non-monogamy tokens. The vocabulary of *commitment* is nearly
+absent from a corpus in which the vocabulary of *arrangement* is abundant, which
+cuts against the identity reading in a way this page should state rather than
+leave for a reader to notice.
+
+**Also relevant to the live "who initiated" question this page carries:** the
+answer found no instance, in eleven years, of an outside encounter concealed from
+Annie. Every documented instance is disclosed, and usually she is present. That
+is a third structural property alongside the two the page names, and it is the
+one that most distinguishes this record from ordinary infidelity.
 
 
 ========================================================================
@@ -18680,6 +18731,7 @@ connections:
   - page: wiki/mind/synthesis/the-unbroken-bond
     type: instantiates
     claim: "The 2015 switch is the sharpest instance of a seventeen-year pattern: the attachment slot has never been left voluntarily empty, and this is the transition that proves it at the resolution of days."
+sage_pending: 2026-08-21
 ---
 
 
@@ -18940,6 +18992,39 @@ not Ellen. Do not collapse the two.
 - Whether the Alexis→Annie transfer at 155 Virginia was a clean same-month swap or had a brief overlap is not dated to the day in the on-disk record; the calendar gives Nov 28 (Alexis end) and Nov 29 (Annie start), one day apart.
 - Lease holder and physical layout of 155 Virginia across the transition are undocumented (see [[wiki/places/155-virginia-ave]]).
 - The 768/day termination figure's source export is not on disk; the closure-day volume is therefore a known provenance gap, not a settled number.
+
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
+
+Answer and sources: `raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md`
+
+**This page is now load-bearing outside the wiki.** The first question the portal's
+question box ever took — *can he actually be monogamous* — was answered on this
+page's finding rather than on `the-unbroken-bond`'s, and the specific sentence
+carrying the weight is the one about the removed bullet: a six-year bond closing
+in seventy-two hours **with nothing prompting it but the arrival of a
+replacement**.
+
+The reading the answer put in front of a third party, and which this page implies
+without stating: **the replacement was sourced before the vacancy occurred.** If
+that is too strong for the evidence, this page is where it has to be narrowed,
+because it is now quoted. The relevant test is whether anything in the
+2015-11-24 → 2015-12-01 window shows a decision to end the Alexis bond that
+predates Annie's arrival. The 2026-08-15 correction removed the only bullet that
+supplied a reason, which is what makes the strong reading available.
+
+Recorded here rather than only in `sage/` so the next pass over this page knows
+the claim has an audience.
 
 
 ========================================================================
@@ -19866,6 +19951,7 @@ connections:
   - page: wiki/self/concepts/ally-and-dan-love-as-destiny
     type: instance-of
     claim: "The Ally channel is the rule's longest-running case — thirty-eight and fourteen-month silences that closed nothing, then an August 2026 reactivation at the highest amplitude yet, which that page reads as a phase change and this rule reads as the pattern running normally."
+sage_pending: 2026-08-21
 ---
 
 # Dormancy, Not Exit
@@ -20369,6 +20455,42 @@ documents across different people.
 > *(A first version of this block put her departure from Pennsylvania in
 > mid-January 2016 on a misread pronoun; corrected the same day — see
 > [[wiki/mind/synthesis/bond-switch-2015]]. She stayed.)*
+
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
+
+Answer and sources: `raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md`
+
+**The 2027-02-19 test now has an external stake.** This page's re-check block sets
+the date at which the 2026-08-19 closure becomes either the strongest dormancy
+datum in the wiki or the first attested exit. An answer published through the
+portal on **2026-08-21** rests on that being genuinely open, and told the person
+who asked that the corpus contains **no attested exit in eleven years** and that
+the most recent test failed — severance 2026-06-01, contact resumed 2026-07-23,
+fifty-two days.
+
+Two consequences for the next pass:
+
+1. **The date is a commitment now, not a note.** Whichever way it resolves, it
+   resolves in public. It should be worked deliberately in February 2027 rather
+   than whenever a pass happens to land here.
+2. **The latch finding is the thing to watch, not the silence.** The answer
+   singled out 14:53:25 on August 19 — *"Do NOT ever think that enough time has
+   passed that now you can tell me… when something happens to Milo"* — as the
+   first time in the corpus anyone has named the re-entry vector in advance. If
+   the closure holds, that sentence is the mechanism and this page's
+   dormancy/exit boundary should turn on it. If contact resumes **through that
+   exact vector**, the finding is stronger still and points the other way.
 
 
 ========================================================================
@@ -25676,6 +25798,18 @@ by which a payload gets installed is unexamined here:
 deliberately and says so, but nothing in the corpus describes him choosing
 *which* objective to embed, or what happens in a role that offers several.
 
+> **RE-CHECKED [2026-08-24] — premise moved, conclusion survives.**
+> [[wiki/work/bfs-foods]] was updated 2026-08-20 (the "Reversed, 2026-08-11"
+> section documenting Dan getting his job back). The embedded-objective page's
+> conclusion about BFS is that it is the control case: "roughly one month, no
+> documented out installed, no private objective anywhere in the record — and
+> the tenure ended at the first genuinely assigned demand, the $50 drawer
+> payment, which Dan refused outright." The 08-11 reversal is a post-termination
+> event. It does not retroactively install a payload into the original ~1 month
+> tenure. The diagnostic claim — that the job ended when the assigned demand
+> came, with no payload to sustain it — is unaffected by the later reversal.
+> The conclusion survives.
+
 
 ========================================================================
 PAGE: wiki/mind/synthesis/the-unbroken-bond.md
@@ -25734,6 +25868,7 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Seventeen years without a gap longer than weeks is 'The Irreversibility Firewall's' no-delete prediction at the level of the slot itself: leaving it empty long enough to become a real, examined choice would be exactly the irreversible fact the firewall exists to prevent."
+sage_pending: 2026-08-21
 ---
 
 # The Unbroken Bond
@@ -26206,6 +26341,45 @@ point the corpus has supplied evidence they can diverge.
 > no date in the relationship's ~10.5-year span and no claim this page's
 > continuity argument draws on. Nothing here needed revising.
 
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
+
+Answer and sources: `raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md`
+
+**The continuity is not maintained by fidelity policing, and the corpus can now
+say so with a count.** This page argues the slot is never empty. Mined for the
+answer: `cheat` returns **141 uses across 217,573 records**, and the direction is
+consistent in every era — *"Lex cheated on me 2 weeks in after I moved her to
+fla"* (2015-11-28), *"I got cheated on while I was working before and it's a
+super helpless feeling"* (2016-02-18), *"I've always been super worried about
+being cheated on"* (2024-08-12). **He is the party cheated on, in both documented
+bonds.** 2025 spikes to **62 hits — 4.29 per 1,000 sent messages against 0.24–1.22
+in every prior year**, a 5× rise, almost all of it to Annie.
+
+So the seventeen-year continuity runs alongside a documented, decades-long fear
+of infidelity *directed at him*, and two instances of it actually happening. That
+belongs in "What it costs and what it buys": the bond is the one structure he
+does not treat as entropy, and it is also the one place he has twice been
+injured in the way he most feared. **Whether the continuity is the cause or the
+consequence of that fear is not settled by the corpus and should be stated as
+open rather than assumed either way.**
+
+Second, smaller: *"i'm a serial monogamist so i've only been with a few girls,
+and they all fit a very specific type"* (Sent, **2019-08-17 22:26**) is his own
+name for this page's thesis, and it appears nowhere in the wiki. It is worth more
+than a self-description usually is because of *when* it was said — the middle of
+the most open period of his life — and to whom: a third party he had no reason to
+manage on the point.
 
 
 ========================================================================
@@ -28418,6 +28592,7 @@ connections:
   - page: wiki/timeline/periods/2018-deep-cycle
     type: component-of
     claim: "The tie is opened inside the deep cycle and shares its economics — a $25 finder's fee, a $250 Cash App gift and a Christmas present issued in the same December weeks Dan was running daily Cash App limits and declined payments."
+sage_pending: 2026-08-21
 ---
 
 # Ally Lubin (Alexandra Lubin)
@@ -29225,6 +29400,49 @@ Each of these is answerable by the operator in a paragraph.
   history. The Model Mayhem and "boca raton ally lubin" searches Dan describes
   on 2019-08-22 are from Google, whose search-history export is not in `raw/`.
 
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
+
+Answer and sources: `raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md`
+
+**The subject of this page asked the wiki a question about its subject, and the
+answer rested on this page.** On **2026-08-21**, three days after reading her own
+entry, Ally put the first question the portal's box ever took: *can he actually be
+monogamous — not what he says about himself, what he has actually done.*
+
+That makes this page's August 18–19 concurrency finding the load-bearing evidence
+in an answer given **to her**: 408 messages to Annie and 552 to Ally across two
+days; *"my wifi is back off now"* (00:09) against 98 messages exchanged with Annie
+between 01:00 and 02:59; *"Im all ally Lubin all the time now"* (13:45) ninety
+minutes before the eleven-year relationship's last message at 15:15:33.
+
+Three things for the next pass:
+
+1. **The page's prediction has a first data point.** It predicted the next Ally
+   burst would appear *during* an instability rather than after one. The question
+   itself is not a burst, but it is channel activity two days into a closure whose
+   status is unresolved, and it is of a kind the channel has never carried before:
+   she is now querying the archive rather than only appearing in it.
+2. **The audit continues by other means.** Her recorded objections — *"there's no
+   proof you ever sent me $2100 except your word"*, *"You just love bomb"*, *"Men
+   are so predictable"* — and this question are the same act. She is the corpus's
+   only hostile reader, and she is now using the tool. That is worth a section,
+   not a footnote.
+3. **The answer told her the concurrency finding to her face**, including that the
+   mechanism which fills the slot was running with her name in it four days ago.
+   If a later pass softens or withdraws that finding, it withdraws something she
+   has already read.
+
 
 ========================================================================
 PAGE: wiki/people/anita.md
@@ -29706,10 +29924,12 @@ PAGE: wiki/people/annie-ulmer.md
 ========================================================================
 
 ---
+image_caption: Annie (Anne Louise Ulmer)
+image: assets/people/annie-ulmer/people-annie-ulmer-mstt5mfl.jpg
 domain: people
 page_type: entity
 title: "Annie (Anne Louise Ulmer)"
-aliases: ["Annie", "Anne Ulmer", "Anne Louise Ulmer", "@Lo_weez"]
+aliases: ["Annie", "Anne Ulmer", "Anne Louise Ulmer", "@Lo_weez", "smashonista", "Lauren_London"]
 importance: critical
 knowledge: mixed
 status: active
@@ -29734,6 +29954,8 @@ infobox:
   enneagram: 7w8
   personality_assessment: "[[wiki/people/annie-ulmer-personality-assessment]]"
 changelog:
+  - date: 2026-08-21
+    note: "Recovered from a portal lost-update (commit ff905fc, 'Edit people/annie-ulmer from the portal'). That save was made from a snapshot of the 2026-08-13 page and wrote it back over the 08-16, 08-17 and 08-20 passes: ~30KB of body prose, the whole infobox, and the type and claim of all 56 typed edges were deleted, which is why bin/wiki-connect check was failing with 70 errors. Content restored verbatim from c4aab20; the three genuine additions in that save — the portrait, and the aliases 'smashonista' and 'Lauren_London' — re-applied on top. date_modified deliberately left at 2026-08-20: the argument is the 08-20 argument, and nothing that reasons from this page reasons from a portrait."
   - date: 2026-08-20
     note: "Restructured: the four ingest-order end sections merged into one arc; two line-count errors corrected (85,586 records, not 88,548; the alternate-number thread is 9,481, not 4,812); severance sweep widened to all five handles and the zero held; concurrency with the Ally channel established."
   - date: 2026-08-13

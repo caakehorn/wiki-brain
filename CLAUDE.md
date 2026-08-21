@@ -12,6 +12,7 @@ A custom wiki system that aims to be as exhaustive and detailed as possible abou
 | `STYLE_GUIDE.md` | page format and the substance standard | format |
 | `CONNECTIONS_SPEC.md` | typed edges and their claims | edges |
 | `SYNTHESIS_SPEC.md` | altitude — how conclusions stack | climbing |
+| `WORK.md` | what is outstanding, and in what order | sequence |
 
 `BACKLOG.md` = standing work. `LLM_HANDOFF.md` = the exact resume point.
 
@@ -19,9 +20,24 @@ A custom wiki system that aims to be as exhaustive and detailed as possible abou
 
 **At the start of every session, read `LLM_HANDOFF.md`** to understand current state, recent changes and immediate priorities. **When you end, update it** — what you accomplished and the exact focus for the next model. This is what makes the work continuous across sessions and models.
 
-**Then read `operator-log.md`, and run `bin/wiki-gaps pending`.** Both list the same thing from different ends: context the operator has supplied that no pass has acted on. It outranks whatever else was queued, because the evidence is already in the repo and the only thing missing is the pass that applies it. See CLOSE below.
+**Then run `bin/wiki-work`.** It is the one list, it is mandatory, and it is not optional reading. Outstanding work used to live in six files and two frontmatter flags, every one of which relied on somebody remembering to look; a session that read four of the six was indistinguishable from one that read all six. This aggregates them and separates the two kinds:
 
-The log is the durable half — one append-only file rather than a 460-page scan, it survives `clear`, and it records what was *already* integrated so a session can tell a fresh answer from an old one without reading git history. `pending` is the live half: which pages are carrying a staged answer right now.
+- **Obligations** — a red gate, a question parked by the portal, an answer staged on a page, a synthesis whose premise moved under it, a portal edit nobody normalised. Somebody or something is waiting on each one. There are usually a handful. A failing gate sits above all of them because it blocks every commit; on 2026-08-21 `bin/wiki-connect check` sat red on `main` with 70 errors after a portal save deleted 56 typed-edge claims, and nothing surfaced it, because nothing had to.
+- **Standing work** — the ingest queue, the mined edge and cluster candidates, the backlog. Hundreds of entries, worked top-down by choice rather than drained, each in the file built for it.
+
+**The order is fixed, and step 4 is the one that gets skipped:**
+
+1. read `LLM_HANDOFF.md` and `operator-log.md`
+2. run `bin/wiki-work` — see what is outstanding *before* you start
+3. **do what the operator actually asked for**, in full
+4. **then come back and drain the obligations, from the top**
+5. anything still outstanding goes into `LLM_HANDOFF.md` with a reason — never silently
+
+That order is deliberate in both directions: the operator's request never waits behind the queue, and the queue never waits on somebody noticing it.
+
+**Nothing in `WORK.md` can be ticked off.** Every row is a live condition recomputed on each run — there is no ledger, no checkbox and no `done` command, because a list that can be marked complete independently of the thing it describes is a list that can lie, and the first lie it would tell is that a question somebody is waiting on has been answered. An item leaves the list when what it points at changes. Record what you did in `log.md`, as always.
+
+`operator-log.md` and `bin/wiki-gaps pending` still exist and are still worth opening: the log is the durable half — append-only, survives `clear`, and records what was *already* integrated so a session can tell a fresh answer from an old one without reading git history. `bin/wiki-work` will not let you miss that there is one; the log tells you its history.
 
 ## The three things that matter most
 
@@ -34,15 +50,26 @@ The log is the durable half — one append-only file rather than a 460-page scan
 ```
 inbox/  →  raw/  →  wiki/  →  caakehorn/home public/wiki/   exports/ (generated,
 typed &     immutable   compiled    derived snapshot, never edited            disposable)
-uploaded    source      knowledge
+uploaded    source      knowledge                    │
+              ▲                                      │  a question is asked
+              │                                      ▼
+              └────────────── sage/questions/ ◄──────┘
+               the answer is filed        parked until a session answers it
+               to raw/ and staged
+               onto every page it cites
 ```
+
+One loop closes here that no other operation closes: a question comes *in* from
+outside the repository, and the work of answering it goes back into `raw/` and
+`wiki/` as new material. The corpus is bigger after a question than before it.
 
 - **`inbox/`** — staging. Material arrives via `bin/capture` or by being dropped in. On ingest, MOVE the file to the right `raw/` subdirectory, then synthesize. Never leave a file in both.
 - **`raw/`** — immutable source archive, organized `raw/<domain>/<collection>/`. Never modify or delete anything here except when filing from `inbox/`. **`raw/self/context-core/CONTEXT_CORE_EXPANDED.md` is the primary authoritative source for facts about Dan** — curated, internally cross-checked, explicit about its own gaps. Check it first on any self/mind/timeline topic; treat other sources as supplementary or corrective to it unless they carry a specific dated correction it lacks. Source tiers and per-source traps: `EXTRACTION_SPEC.md`.
 - **`wiki/`** — the compiled product: accumulated understanding, not a cache of `raw/`. Domains: `self`, `timeline`, `people`, `mind`, `work`, `interests`, `health`, `places`, `legal`. Add a domain only when several pages clearly don't fit an existing one. `wiki/**/archive/` holds pinned oversized artifacts (`status: archived`) — exempt from budgets, never updated.
+- **`sage/`** — questions put to the wiki **from outside it**. The portal has a question box; anyone through the door can ask something about Dan and the question lands in `sage/questions/` as a file. Nothing answers it automatically — there is no model behind the box and no workflow that calls one. It is parked, `bin/wiki-work` lists it at priority 1, and a session answers it properly. Not in `raw/` because these files mutate (`pending` → `answered`); the immutable artifact is the capture written to `raw/self/sage/` at answer time. See `sage/README.md` and the ANSWER operation below.
 - **`exports/`** — output of `bin/export-corpus`; never hand-edit, gitignored.
 - **The portal** — [`caakehorn/home`](https://github.com/caakehorn/home) renders this wiki, and its `public/wiki/**` is a **derived snapshot of `wiki/`, not a second copy of it.** A workflow there re-runs the derivation against this repo on dispatch *and hourly*, deleting the directory and rebuilding it, so **anything written into `public/wiki/` is destroyed within the hour** — including a change that merged. If a session finds itself editing a page as JSON, it is in the wrong repository: pages are `wiki/**.md`, here. This is not a style preference; two December 2015 read passes were written into the snapshot and one was reverted 39 minutes after merging (restored 2026-08-17).
-- **Meta files** (root): `index.md` master navigation · `log.md` append-only operation log · `operator-log.md` append-only ledger of operator additions (written by `bin/wiki-gaps`, never by hand) · `queue.md` pending-ingest ledger · `connection-queue.md` mined edge backlog · `synthesis-queue.md` mined climb backlog · `BACKLOG.md` standing work.
+- **Meta files** (root): `index.md` master navigation · `log.md` append-only operation log · `operator-log.md` append-only ledger of operator additions (written by `bin/wiki-gaps`, never by hand) · **`WORK.md` the one outstanding-work list (written by `bin/wiki-work`, never by hand)** · `queue.md` pending-ingest ledger · `connection-queue.md` mined edge backlog · `synthesis-queue.md` mined climb backlog · `BACKLOG.md` standing work.
 
 Git is the history mechanism. Commit after every ingest with `<op>: <short description>`. Never commit secrets or `exports/`.
 
@@ -82,6 +109,30 @@ Captured notes may carry `targets: [wiki/...paths]` — a targeted note is a cor
 ### QUERY
 
 Start at `index.md`, follow domain indexes, answer with citations to wiki pages. Reason **from** the wiki first; re-open `raw/` only when the wiki is silent on the question or a source is newer than the page that used it — otherwise you are re-doing settled work. If the synthesis is new and durable, save it as a page: that is how the brain grows.
+
+### ANSWER — a question put to the wiki from outside it
+
+QUERY is somebody in this repository asking the wiki something. ANSWER is somebody *outside* it doing so — through the portal's question box, which parks the question in `sage/questions/` and promises them an answer. `bin/wiki-work` lists it at priority 1 for exactly that reason: it is the only obligation in this repository where the person waiting cannot see whether anything is happening.
+
+Read `sage/README.md` for the file format. The protocol:
+
+1. **Read the question as asked**, not as you would have preferred it asked. It may be hostile, badly framed, or about something the corpus cannot settle. Answer the question that was typed.
+2. **Retrieve properly.** Reason from `wiki/` first, then go to `raw/` for the proofs — `bin/mine-messages` over the message record rather than grep, and the per-contact CSVs where the question is about one relationship. A question about future behaviour is a question about the documented pattern; find the pattern's instances and its counterexamples both.
+3. **Cite every claim, and quote directly.** This is the standard the whole operation stands on. A sentence about what Dan does cites the page that establishes it; a sentence about what he *did* quotes the record with its date. An answer without proofs is an opinion with a citation style, and it is worth less than nothing here — it looks like evidence.
+4. **Say where the record cuts the other way.** Every answer states its own strongest counter-evidence and what would falsify it. The corpus contains things that do not flatter its subject, and an answering system that routes around them is one nobody should believe on anything. Where the corpus genuinely cannot settle the question, that is the answer, and it is a real one.
+5. **Never quote a sealed page.** `wiki.locks.json` in the portal repo names pages that ship as ciphertext precisely so the site cannot read them out. An answer that quotes one publishes through the back door what the seal exists to keep shut.
+
+Then the five writes, none of them optional:
+
+1. The answer into `sage/questions/<id>.md` — `status: answered`, `answered:`, `capture:` and every path in `cites:`. This is what the portal renders.
+2. The immutable capture to `raw/self/sage/<id>.md`: question, answer, sources. `sage/` mutates; `raw/` is the record.
+3. **The findings staged onto every page the answer cites**, under `## Sage findings — pending ingest` with a `sage_pending: YYYY-MM-DD` flag — the same shape as `bin/wiki-gaps`'s block and a **deliberately different key**. An operator answer is T0 first-person testimony; this is synthesis *about* the corpus, and the two must never be mistaken for each other on a page. As with a staged gap answer, do not bump `date_modified`: the page has not been corrected yet, and bumping it would clear the staleness warnings on every page that reasons from this one.
+4. `log.md`: `## [YYYY-MM-DD] answer | <domain> | <the question, short>` — as findings, not activity.
+5. `bin/wiki-work scan`, three gates at 0 errors, commit.
+
+An answer that produced no finding worth staging stages nothing, and says so in the answer. That is a legitimate outcome — it means the wiki already knew — and it is still an answer.
+
+A question that is abusive, is about somebody other than Dan, or cannot be answered from the corpus gets `status: declined` and a reason in the Answer section. Declined in the open, never deleted: the portal renders it, so a question nobody wants to answer is visible as one.
 
 ### CLIMB — the operation that raises altitude
 
@@ -136,6 +187,7 @@ Sweep for: broken links, orphan pages, contradictions between pages, claims supe
 | `bin/export-corpus` | concatenates the wiki into one markdown file for LLM ingestion, with a token estimate |
 | `bin/wiki-search`, `bin/wiki-status`, `bin/wiki-tui` | search, status, terminal browser |
 | `bin/ingest-pack` / `bin/ingest-apply` | the any-LLM paste-box route (`INGEST_PROTOCOL.md`) |
+| `bin/wiki-work` | **the one outstanding-work list, and a required session step.** Aggregates every source of outstanding work — parked `sage/` questions, staged answers, stale premises, unnormalised portal edits, and the four standing queues — and separates obligations from campaign work. `scan` regenerates `WORK.md`; `next` names the top item and the operation that clears it; `check` prints the gate banner and always exits 0. No `done` command, by design |
 | `bin/wiki-gaps` | operator-facing: answer an open gap, or volunteer a fact the page never asked for, and stage it for the next pass. `pages [filter]` lists **every** page so any of them can take a manual addition; `list` lists only those with open items; `pending` lists what is waiting; `clear` closes the loop and marks `operator-log.md`. Reads gaps, open leads, corrections queues and "what's missing" sections alike |
 
 ## Before every commit
@@ -144,7 +196,14 @@ Sweep for: broken links, orphan pages, contradictions between pages, claims supe
 bin/wiki-lint && bin/wiki-connect check && bin/wiki-climb check   # all at 0 errors
 bin/wiki-digest && bin/llm-publish                                 # after any content pass
 bin/wiki-freshness                                                 # confirms the two above actually ran
+bin/wiki-work scan                                                 # WORK.md back in step with the repo
 ```
+
+`bin/wiki-lint` ends every run with what `bin/wiki-work check` found. That banner
+is **advisory and never changes the exit code** — a question parked on Tuesday
+must not block Thursday's typo fix, because a gate that blocks unrelated work is a
+gate that gets an escape hatch, and an escape hatch is how a mandatory step stops
+being one. Read it anyway; it is the reminder that step 4 above is still waiting.
 
 `bin/wiki-freshness` exists because the generated corpus is committed and drifts
 silently when a pass forgets to regenerate — the 2026-08-20 audit found the LLM

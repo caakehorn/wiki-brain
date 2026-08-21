@@ -51,6 +51,7 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Seventeen years without a gap longer than weeks is 'The Irreversibility Firewall's' no-delete prediction at the level of the slot itself: leaving it empty long enough to become a real, examined choice would be exactly the irreversible fact the firewall exists to prevent."
+sage_pending: 2026-08-21
 ---
 
 # The Unbroken Bond
@@ -523,3 +524,42 @@ point the corpus has supplied evidence they can diverge.
 > no date in the relationship's ~10.5-year span and no claim this page's
 > continuity argument draws on. Nothing here needed revising.
 
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
+
+Answer and sources: `raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md`
+
+**The continuity is not maintained by fidelity policing, and the corpus can now
+say so with a count.** This page argues the slot is never empty. Mined for the
+answer: `cheat` returns **141 uses across 217,573 records**, and the direction is
+consistent in every era — *"Lex cheated on me 2 weeks in after I moved her to
+fla"* (2015-11-28), *"I got cheated on while I was working before and it's a
+super helpless feeling"* (2016-02-18), *"I've always been super worried about
+being cheated on"* (2024-08-12). **He is the party cheated on, in both documented
+bonds.** 2025 spikes to **62 hits — 4.29 per 1,000 sent messages against 0.24–1.22
+in every prior year**, a 5× rise, almost all of it to Annie.
+
+So the seventeen-year continuity runs alongside a documented, decades-long fear
+of infidelity *directed at him*, and two instances of it actually happening. That
+belongs in "What it costs and what it buys": the bond is the one structure he
+does not treat as entropy, and it is also the one place he has twice been
+injured in the way he most feared. **Whether the continuity is the cause or the
+consequence of that fear is not settled by the corpus and should be stated as
+open rather than assumed either way.**
+
+Second, smaller: *"i'm a serial monogamist so i've only been with a few girls,
+and they all fit a very specific type"* (Sent, **2019-08-17 22:26**) is his own
+name for this page's thesis, and it appears nowhere in the wiki. It is worth more
+than a self-description usually is because of *when* it was said — the middle of
+the most open period of his life — and to whom: a third party he had no reason to
+manage on the point.

@@ -11,12 +11,16 @@ simply listed.
 ## 2026-08-21 — 32 pages
 
 - **Session log:** close+lint | all domains | two operator answers integrated; a false claim retracted and gated; staleness cleared to zero
+- **Session log:** rewrite | self | ally-and-dan-love-as-destiny — rebuilt as an argument, on verifiable evidence
+- **Session log:** lint | people | a portal save had deleted 56 typed-edge claims and 30KB of prose, and the gate that caught it went unread for a day
+- **Session log:** build | wiki | one mandatory work list, and a question box that lets someone outside the repo ask it something
+- **Session log:** answer | mind | can he actually be monogamous — the first question the box ever took, and it clears him of the wrong thing
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/cocaine]] | health | _(carries a RE-CHECKED from 2026-08-20)_ |
 | [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — cocaine and supply-network moved on 2026-08-21, the-deferred-audit on 2026-08-20. All three movements are about the **Menore node** — that his service ran continuously ra |
-| [[wiki/interests/food-and-diet]] | interests | **RE-CHECKED** — au-zaatar moved on 2026-08-21 and bfs-foods on 2026-08-20. Au Za'atar's change is confined to its Menore supply edges — the mid-shift delivery window is now corroborated for 2021–24 — which is a suppl |
+| [[wiki/interests/food-and-diet]] | interests | _(carries a RE-CHECKED from 2026-08-24)_ |
 | [[wiki/mind/concepts/chaos-preference]] | mind | **RE-CHECKED** — the-cool-metric moved on 2026-08-21, and the entire change is a `RE-CHECKED` blockquote confirming that its own premise (`interests-as-era-markers`) had not disturbed it. No claim, figure or criterion |
 | [[wiki/mind/concepts/the-cool-metric]] | mind | **RE-CHECKED** — interests-as-era-markers moved on 2026-08-19, gaining a set-closure section. This page's claim is that an admission criterion sits *upstream* of intake; set-closure describes what happens to a set onc |
 | [[wiki/mind/synthesis/ai-collaborative-analysis]] | mind | — |
@@ -31,7 +35,7 @@ simply listed.
 | [[wiki/mind/synthesis/supply-network]] | mind | _(carries a CONTRADICTION from 2026-08-19)_ |
 | [[wiki/mind/synthesis/the-commissioned-self]] | mind | **RE-CHECKED** — wiki-brain and instrument-is-subject both moved on 2026-08-20 and this page reasons from both. `instrument-is-subject` moved by a `RE-CHECKED` block only. `wiki-brain` gained something |
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — the-cool-metric, single-channel and food-and-diet all moved on 2026-08-21, and in each case the whole change is a `RE-CHECKED` blockquote recording that the page's own |
-| [[wiki/mind/synthesis/the-embedded-objective]] | mind | — |
+| [[wiki/mind/synthesis/the-embedded-objective]] | mind | _(carries a RE-CHECKED from 2026-08-24)_ |
 | [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **RE-CHECKED** — chaos-preference moved on 2026-08-21, and the change is a `RE-CHECKED` blockquote and nothing else. No chaos-preference claim was added, withdrawn or narrowed. Note for a later pass: the live question |
 | [[wiki/mind/synthesis/totality-themes]] | mind | **RE-CHECKED** — block-unblock-loop, dormancy-not-exit and supply-network all moved on 2026-08-21, all through the same finding about the **Menore** channel. This page cites Menor |
 | [[wiki/people/emaly-minerd]] | people | — |

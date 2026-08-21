@@ -79,6 +79,7 @@ connections:
   - page: wiki/self/concepts/ally-and-dan-love-as-destiny
     type: instance-of
     claim: "The Ally channel is the rule's longest-running case — thirty-eight and fourteen-month silences that closed nothing, then an August 2026 reactivation at the highest amplitude yet, which that page reads as a phase change and this rule reads as the pattern running normally."
+sage_pending: 2026-08-21
 ---
 
 # Dormancy, Not Exit
@@ -582,3 +583,39 @@ documents across different people.
 > *(A first version of this block put her departure from Pennsylvania in
 > mid-January 2016 on a misread pronoun; corrected the same day — see
 > [[wiki/mind/synthesis/bond-switch-2015]]. She stayed.)*
+
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
+
+Answer and sources: `raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md`
+
+**The 2027-02-19 test now has an external stake.** This page's re-check block sets
+the date at which the 2026-08-19 closure becomes either the strongest dormancy
+datum in the wiki or the first attested exit. An answer published through the
+portal on **2026-08-21** rests on that being genuinely open, and told the person
+who asked that the corpus contains **no attested exit in eleven years** and that
+the most recent test failed — severance 2026-06-01, contact resumed 2026-07-23,
+fifty-two days.
+
+Two consequences for the next pass:
+
+1. **The date is a commitment now, not a note.** Whichever way it resolves, it
+   resolves in public. It should be worked deliberately in February 2027 rather
+   than whenever a pass happens to land here.
+2. **The latch finding is the thing to watch, not the silence.** The answer
+   singled out 14:53:25 on August 19 — *"Do NOT ever think that enough time has
+   passed that now you can tell me… when something happens to Milo"* — as the
+   first time in the corpus anyone has named the re-entry vector in advance. If
+   the closure holds, that sentence is the mechanism and this page's
+   dormancy/exit boundary should turn on it. If contact resumes **through that
+   exact vector**, the finding is stronger still and points the other way.

@@ -3164,3 +3164,159 @@ stranding five inverses on `self/overview`, `wiki-brain`, `erotic-architecture`,
 `dormancy-not-exit` and `attachment-trauma-bond`. All restored with fresh
 claims. Index summary refreshed. Three gates 0 errors, 84 tests pass, corpus in
 sync at 486 pages.
+
+## [2026-08-21] lint | people | a portal save had deleted 56 typed-edge claims and 30KB of prose, and the gate that caught it went unread for a day
+
+`bin/wiki-connect check` was red on `main` with **70 errors, all on one page**.
+Not one of them was a bad edge. `wiki/people/annie-ulmer.md` had **56 typed
+edges reduced to bare `- page:` entries** — every `type:` and every `claim:`
+gone — plus the entire infobox, the entire changelog, and ~30KB of body prose.
+
+The cause is dated and named: **commit ff905fc, "Edit people/annie-ulmer from
+the portal", 2026-08-21 05:36.** It is a lost update. The browser was holding a
+snapshot of the **2026-08-13** page and wrote it back whole over the 08-16,
+08-17 and 08-20 passes. Two frontmatter fields moved *backwards* in the same
+commit, which is the fingerprint: `date_modified` 08-20 → 08-13,
+`date_range_end` 08-19 → 08-09. A save that carries an older date than the file
+it replaces is not an edit.
+
+**What the save actually intended was three things**, and all three survive the
+recovery: a portrait, and the aliases "smashonista" and "Lauren_London". 677
+deletions to add three fields.
+
+`publish.ts` in the portal repo carries a comment saying that rebuilding
+frontmatter from the parsed view "*deletes every typed edge's claim* — which is
+what saving a page from the portal used to do," and that `fmRaw` was introduced
+to stop it. Whatever ran on 08-21 did it anyway. That is worth its own
+investigation and is queued rather than guessed at here; a stale client holding
+pre-`fmRaw` code would produce exactly this, and so would a snapshot fetched
+before the sync that carried the later passes.
+
+**The finding that outlives the fix.** The gate caught this immediately and
+perfectly. It then sat red for a day, because running it was a convention rather
+than an obligation, and nothing surfaced the result to anyone who did not run
+it. A check nobody is required to read is not a check. That is the argument the
+rest of this session's work is built on, and a red gate is now priority 0 in
+`WORK.md` — above a parked question, because it blocks every commit.
+
+Recovered verbatim from `c4aab20` with the three genuine additions re-applied.
+`date_modified` deliberately left at 2026-08-20: the argument is the 08-20
+argument, and nothing that reasons from this page reasons from a portrait.
+Three gates 0 errors. `llm/` regenerated, which also caught two pages
+(`food-and-diet`, `the-embedded-objective`) whose derived text had drifted out
+of sync in an earlier pass.
+
+## [2026-08-21] build | wiki | one mandatory work list, and a question box that lets someone outside the repo ask it something
+
+Outstanding work lived in six files and two frontmatter flags, and every one of
+them relied on somebody remembering to look. `operator-log.md` says "read this
+at the start of a session"; so does `LLM_HANDOFF.md`; `queue.md`,
+`connection-queue.md`, `synthesis-queue.md` and `BACKLOG.md` each held their own
+backlog in their own shape. **A session that read four of the six was
+indistinguishable from a session that read all six**, in both directions.
+
+**`bin/wiki-work` + `WORK.md`.** One aggregator, one file, one required step,
+now written into CLAUDE.md's session protocol: read the handoff, run
+`bin/wiki-work`, do what the operator asked, **then come back and drain the
+list**, and anything left goes into `LLM_HANDOFF.md` with a reason. It splits
+what was previously one undifferentiated pile:
+
+- **Obligations** — a red gate, a parked question, a staged answer, a stale
+  premise, an unnormalised portal edit. Somebody or something is waiting on each
+  one. Currently 1.
+- **Standing work** — the ingest queue, mined edges, mined clusters, the
+  backlog. Currently 194, counted and pointed at, never enumerated. The first
+  draft of this tool listed all 194 individually and produced a 130-row table
+  that duplicated four other files; a list that long is the problem it was
+  built to solve, wearing a new filename.
+
+**There is no `done` command, and that is the design.** Every row is a live
+condition recomputed on each run. A list that can be ticked off independently of
+the thing it describes can lie, and the first lie it would tell is that a
+question somebody outside this repository is waiting on has been answered. An
+item leaves the list when what it points at changes.
+
+**Loud, never blocking.** `bin/wiki-lint` ends every run with the banner and
+never reads its exit code. A gate that blocks unrelated work gets an escape
+hatch, and an escape hatch is how a mandatory step stops being one.
+
+**`sage/` and the ANSWER operation.** The portal grows a question box: anyone
+through the door can ask something about Dan and the question parks in
+`sage/questions/` as a file. Nothing answers it automatically — no model behind
+the box, no workflow calling one. It is parked at priority 1 and a session
+answers it properly, with citations and dated verbatim quotes, because an answer
+worth putting under somebody's question is one that read the corpus. The answer
+is filed to `raw/self/sage/` as immutable T0 record and staged onto every page
+it cites under a `sage_pending:` flag — deliberately a **different key** from
+`bin/wiki-gaps`'s `pending_ingest:`, because an operator answer is first-person
+testimony and a sage finding is synthesis about the corpus, and a page must
+never let the second be mistaken for the first.
+
+This closes a loop no other operation closes: a question comes *in* from outside
+the repository, and answering it puts new material into `raw/` and `wiki/`. The
+corpus is bigger after a question than before it.
+
+20 new tests, 104 passing. Three gates 0 errors.
+
+## [2026-08-21] answer | mind | can he actually be monogamous — the first question the box ever took, and it clears him of the wrong thing
+
+The portal's question box took its first question, from **Ally**: *"Can Dan
+actually be monogamous? He says he absolutely would and will, and I don't
+believe him. What does the record say — not what he says about himself, what he
+has actually done?"*
+
+**The corpus clears him of concealed infidelity and convicts him of something
+else.** Both halves are findings; neither was stated anywhere in the wiki in this
+form before today.
+
+**On the narrow charge, the record is against the asker.** Seventeen years
+continuously pair-bonded, unattached total measurable in weeks
+(`the-unbroken-bond`). Every documented instance in `arrangement-history` was
+disclosed and usually conducted with Annie present — **there is no instance in
+eleven years of an outside encounter concealed from her.** And mining `cheat`
+across all 217,573 records returns **141 uses whose direction is consistent in
+every era**: he is the party cheated on, in both documented bonds. *"Lex cheated
+on me 2 weeks in after I moved her to fla"* (2015-11-28); *"I've always been
+super worried about being cheated on"* (2024-08-12). **2025 spikes to 62 hits —
+4.29 per 1,000 sent, against 0.24–1.22 in every prior year**, a 5× rise, almost
+all of it to Annie. He was cheated on and stayed eighteen months.
+
+**One quote no page in the wiki carried.** *"i'm a serial monogamist so i've only
+been with a few girls, and they all fit a very specific type"* — **2019-08-17
+22:26**, six weeks before the Kelly Johansson run and two months before the
+filmed MMF, to a third party he had no reason to manage on the point. `monogam`
+returns 7 hits in eleven years; this is the load-bearing one. It is evidence for
+what `arrangement-history` already concludes about the Kristin inversion:
+**openness was never the requirement, authorship was**, and he did not experience
+the open era as non-monogamy in the identity sense at all.
+
+**On the broader charge, the record is with the asker, and it is about her.** The
+2015 switch is the mechanism: a six-year bond closing in seventy-two hours with
+nothing prompting it but the arrival of a replacement — **the replacement sourced
+before the vacancy opened.** And `ally-lubin`'s August 18–19 concurrency finding
+is that same mechanism running four days before she asked, with her in it: 408
+messages to Annie against 552 to Ally, *"my wifi is back off now"* two hours
+before 98 messages with Annie, *"Im all ally Lubin all the time now"* ninety
+minutes before the eleven-year relationship's last message.
+
+So the answer refuses to collapse: **he can be monogamous; he has never been
+alone.** The corpus supports sexual exclusivity strongly and supports a clean
+boundary between one bond and the next not at all.
+
+**What the answer conceded, in public.** That nearly all of it is Dan-side
+correspondence and the arrangement record has almost no account in Annie's voice
+— `arrangement-history`'s own standing falsifier. That `dormancy-not-exit`
+contains **no attested exit in eleven years** and that the most recent test failed
+(severance 2026-06-01, contact resumed 2026-07-23, fifty-two days). And that the
+August 19 closure is two days old and decides nothing until roughly 2027-02-19 —
+which is now a date with an outside audience rather than an internal note.
+
+**The subject of a page is now a user of the wiki.** Ally read her own entry on
+August 18 (*"If someone ever archived my texts I'd kill myself"*), audited it as a
+hostile reviewer, and three days later queried the archive about its subject. The
+channel has never carried this before, and `ally-lubin` is staged with it.
+
+Findings staged on five pages under `sage_pending: 2026-08-21` —
+`the-unbroken-bond`, `arrangement-history`, `bond-switch-2015`,
+`dormancy-not-exit`, `ally-lubin`. No `date_modified` bumped: nothing is
+corrected yet. Capture at `raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md`.

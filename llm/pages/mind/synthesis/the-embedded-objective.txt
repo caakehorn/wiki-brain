@@ -274,3 +274,15 @@ by which a payload gets installed is unexamined here:
 [[wiki/mind/concepts/institutional-out]] establishes that Dan does it
 deliberately and says so, but nothing in the corpus describes him choosing
 *which* objective to embed, or what happens in a role that offers several.
+
+> **RE-CHECKED [2026-08-24] — premise moved, conclusion survives.**
+> [[wiki/work/bfs-foods]] was updated 2026-08-20 (the "Reversed, 2026-08-11"
+> section documenting Dan getting his job back). The embedded-objective page's
+> conclusion about BFS is that it is the control case: "roughly one month, no
+> documented out installed, no private objective anywhere in the record — and
+> the tenure ended at the first genuinely assigned demand, the $50 drawer
+> payment, which Dan refused outright." The 08-11 reversal is a post-termination
+> event. It does not retroactively install a payload into the original ~1 month
+> tenure. The diagnostic claim — that the job ended when the assigned demand
+> came, with no payload to sustain it — is unaffected by the later reversal.
+> The conclusion survives.

@@ -571,4 +571,27 @@ for e in errors:
     print(f"ERROR   {e}")
 for w in warnings:
     print(f"warning {w}")
+
+# ---------------------------------------------------------------- work banner
+#
+# The one place every pass is guaranteed to look, because it is the gate that has
+# to pass before a commit. `bin/wiki-work check` never fails and this never reads
+# its exit code: an obligation outstanding since Tuesday must not block Thursday's
+# typo fix. Printed after the findings so it is the last thing on screen.
+#
+# Wrapped because the banner is a courtesy and the lint is not — a missing or
+# broken wiki-work must never take down the gate that guards the corpus.
+try:
+    import subprocess
+    work = os.path.join(ROOT, "bin", "wiki-work")
+    if os.path.exists(work):
+        out = subprocess.run([sys.executable, work, "check"], cwd=ROOT,
+                             capture_output=True, text=True, timeout=180).stdout.strip()
+        if out and not out.startswith("wiki-work: no obligations"):
+            print("\n" + "─" * 72)
+            print(out)
+            print("─" * 72)
+except Exception:
+    pass
+
 sys.exit(1 if errors else 0)
