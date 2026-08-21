@@ -271,6 +271,16 @@ for everything it is allowed to touch."
   is unknown, and the answer decides whether this is a control behaviour that
   grew out of a disordered one or an independent lifelong trait.
 
+> **RE-CHECKED [2026-08-24] — premise moved, conclusion survives.**
+> [[wiki/work/bfs-foods]] was updated 2026-08-20 (the "Reversed, 2026-08-11"
+> section documenting Dan getting his job back). The food-and-diet page's
+> conclusion about BFS is that it represents "food as counter labour at the
+> return pole of the geography — dispensed rather than chosen." This is a claim
+> about the *nature* of the work (food handled daily, no evaluation recorded),
+> not about the tenure or the dispute's outcome. The 08-11 reversal is a
+> post-termination event that does not change the nature of the work itself.
+> The conclusion that food at BFS was labor, not taste, is unaffected.
+
 > **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
 > [[wiki/mind/concepts/the-cool-metric]] moved the same day, but only to add
 > a new connection to `wiki/mind/synthesis/totality-themes` (the newly
