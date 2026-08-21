@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-21
-486 pages, ~1,264,699 tokens.
+486 pages, ~1,265,287 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -7694,6 +7694,16 @@ for everything it is allowed to touch."
   adolescent bulimia and candy-staple period on [[wiki/health/hyperreflexivity]]
   is unknown, and the answer decides whether this is a control behaviour that
   grew out of a disordered one or an independent lifelong trait.
+
+> **RE-CHECKED [2026-08-24] — premise moved, conclusion survives.**
+> [[wiki/work/bfs-foods]] was updated 2026-08-20 (the "Reversed, 2026-08-11"
+> section documenting Dan getting his job back). The food-and-diet page's
+> conclusion about BFS is that it represents "food as counter labour at the
+> return pole of the geography — dispensed rather than chosen." This is a claim
+> about the *nature* of the work (food handled daily, no evaluation recorded),
+> not about the tenure or the dispute's outcome. The 08-11 reversal is a
+> post-termination event that does not change the nature of the work itself.
+> The conclusion that food at BFS was labor, not taste, is unaffected.
 
 > **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
 > [[wiki/mind/concepts/the-cool-metric]] moved the same day, but only to add
@@ -25676,6 +25686,18 @@ by which a payload gets installed is unexamined here:
 deliberately and says so, but nothing in the corpus describes him choosing
 *which* objective to embed, or what happens in a role that offers several.
 
+> **RE-CHECKED [2026-08-24] — premise moved, conclusion survives.**
+> [[wiki/work/bfs-foods]] was updated 2026-08-20 (the "Reversed, 2026-08-11"
+> section documenting Dan getting his job back). The embedded-objective page's
+> conclusion about BFS is that it is the control case: "roughly one month, no
+> documented out installed, no private objective anywhere in the record — and
+> the tenure ended at the first genuinely assigned demand, the $50 drawer
+> payment, which Dan refused outright." The 08-11 reversal is a post-termination
+> event. It does not retroactively install a payload into the original ~1 month
+> tenure. The diagnostic claim — that the job ended when the assigned demand
+> came, with no payload to sustain it — is unaffected by the later reversal.
+> The conclusion survives.
+
 
 ========================================================================
 PAGE: wiki/mind/synthesis/the-unbroken-bond.md
@@ -29706,10 +29728,12 @@ PAGE: wiki/people/annie-ulmer.md
 ========================================================================
 
 ---
+image_caption: Annie (Anne Louise Ulmer)
+image: assets/people/annie-ulmer/people-annie-ulmer-mstt5mfl.jpg
 domain: people
 page_type: entity
 title: "Annie (Anne Louise Ulmer)"
-aliases: ["Annie", "Anne Ulmer", "Anne Louise Ulmer", "@Lo_weez"]
+aliases: ["Annie", "Anne Ulmer", "Anne Louise Ulmer", "@Lo_weez", "smashonista", "Lauren_London"]
 importance: critical
 knowledge: mixed
 status: active
@@ -29734,6 +29758,8 @@ infobox:
   enneagram: 7w8
   personality_assessment: "[[wiki/people/annie-ulmer-personality-assessment]]"
 changelog:
+  - date: 2026-08-21
+    note: "Recovered from a portal lost-update (commit ff905fc, 'Edit people/annie-ulmer from the portal'). That save was made from a snapshot of the 2026-08-13 page and wrote it back over the 08-16, 08-17 and 08-20 passes: ~30KB of body prose, the whole infobox, and the type and claim of all 56 typed edges were deleted, which is why bin/wiki-connect check was failing with 70 errors. Content restored verbatim from c4aab20; the three genuine additions in that save — the portrait, and the aliases 'smashonista' and 'Lauren_London' — re-applied on top. date_modified deliberately left at 2026-08-20: the argument is the 08-20 argument, and nothing that reasons from this page reasons from a portrait."
   - date: 2026-08-20
     note: "Restructured: the four ingest-order end sections merged into one arc; two line-count errors corrected (85,586 records, not 88,548; the alternate-number thread is 9,481, not 4,812); severance sweep widened to all five handles and the zero held; concurrency with the Ally channel established."
   - date: 2026-08-13

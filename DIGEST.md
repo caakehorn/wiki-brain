@@ -48,6 +48,7 @@ this is the state of the thing.
 
 **2026-08-21** — 32 pages
   - close+lint | all domains | two operator answers integrated; a false claim retracted and gated; staleness cleared to zero
+  - rewrite | self | ally-and-dan-love-as-destiny — rebuilt as an argument, on verifiable evidence
 
 **2026-08-20** — 33 pages
   - ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
