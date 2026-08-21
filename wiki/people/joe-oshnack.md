@@ -32,6 +32,9 @@ connections:
   - page: wiki/people/matthew-palermo
     type: parallels
     claim: "Both threads carry the same generational framing of the Uniontown opiate epidemic — 'the class of 06 was a real low point for humanity' to Joe (Aug 2018) and 'a quarter of my graduating class isn't around anymore' to Matthew (Feb 2020) — independent statements of the same scale claim eighteen months apart."
+  - page: wiki/interests/music/bands/batteries-not-included
+    type: evidences
+    claim: "Joe's Aug 2018 setlist-reconstruction thread and Sept 2021 retrospective are the corpus's primary sources on the band — Dan names himself lead songwriter for the originals."
 ---
 
 # Joe Oshnack

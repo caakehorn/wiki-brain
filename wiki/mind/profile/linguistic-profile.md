@@ -29,6 +29,9 @@ connections:
   - page: wiki/mind/synthesis/the-commissioned-self
     type: component-of
     claim: "Stylometry belongs to the same apparatus and inherits its provenance problem — a 99th-percentile finding produced at Dan's request over a corpus Dan supplied — which is why the one voice marker independent of it, graded numeric confidence, had to be found by counting rather than by asking."
+  - page: wiki/interests/opie-and-anthony
+    type: caused-by
+    claim: "The callous, riff-driven, gallows-irony register the profile calls a 'psychic ventilator' is the native dialect of the O&A universe — this binge is where that idiom was trained."
 ---
 
 # Linguistic Profile — Voice, Register, Stylometrics

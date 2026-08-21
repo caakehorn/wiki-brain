@@ -36,6 +36,9 @@ connections:
   - page: wiki/timeline/periods/full-sail-2008-2010
     type: instance-of
     claim: "The friendship is the era's clearest survivor: sparse but genuinely warm check-ins that resume exactly where they left off across nearly a decade, with no repair ever needed."
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: component-of
+    claim: "Eric is the cohort member whose sparse, decade-spanning check-ins pick up exactly where they left off — the era's clearest evidence that a Full Sail friendship never needed active maintenance to survive."
 ---
 
 # Eric Jester

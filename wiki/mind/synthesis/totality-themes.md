@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-20
+date_modified: 2026-08-21
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -147,6 +147,20 @@ connections:
 > **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/mind/synthesis/block-unblock-loop]] and [[wiki/mind/synthesis/supply-network]] (both 2026-08-20). Both moved by typed-edge addition only, pointing at the new August 16–19 event page; neither page's prose or figures changed. Re-read against
 > the change; **no claim on this page is affected** and nothing here is
 > withdrawn. The one thing a later pass should look at rather than assume: block-unblock-loop now records that Dan's own assertions of threat execution are unreliable (a proven false send on 2026-08-18), which narrows what the loop's threat counts can be built from. This page cites the loop's *pattern*, not its execution tallies, so the narrowing does not reach it — but a pass that ever cites those tallies here must read [[wiki/timeline/events/august-2026-morgantown-call]] first.
+
+> **RE-CHECKED [2026-08-21] — three premises moved and one of them strengthens
+> this page.** [[wiki/mind/synthesis/block-unblock-loop]],
+> [[wiki/mind/synthesis/dormancy-not-exit]] and
+> [[wiki/mind/synthesis/supply-network]] all moved on 2026-08-21, all through
+> the same finding about the **Menore** channel. This page cites Menore by name
+> as one of the reactivation-bandwidth cases, and that case got better, not
+> worse: the channel's second apparent closure (1,458 days) turned out to be a
+> phone-number change with service running underneath it, and the operator
+> confirms the counterparty still operating in 2026. The dormancy-bandwidth
+> reading this page leans on is reinforced. The block-unblock closure scoring
+> that moved is not something this page cites — consistent with the
+> 2026-08-20 re-check above, which already established that this page uses the
+> loop's pattern rather than its tallies.
 
 
 > **RETIRED 2026-08-11 — the original "themed summary" spine, kept for

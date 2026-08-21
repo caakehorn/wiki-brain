@@ -47,6 +47,9 @@ connections:
   - page: wiki/people/rick-frank
     type: contains
     claim: "Rick reviewed Dan's non-compete from the day the job started and, during the payroll dispute, switched registers entirely from brief/logistical to active tactical coach — 'You sound so desperate. That is what kevin wants. We'll talk about a strategy for this.' — the corpus's clearest instance of him operating as strategist rather than distant authority figure."
+  - page: wiki/people/renae-holland
+    type: co-occurs
+    claim: "Renae was the target of a December 2011 LinkedIn recommendation-removal request McKiernan sent through Dan's own account — the specific incident Dan later apologized to her for and explained in his May 2012 disclosure."
 ---
 
 # Creative License (NYC, 2011–2012)

@@ -52,6 +52,15 @@ connections:
   - page: wiki/self/concepts/claude
     type: co-occurs
     claim: "The March 2026 phloxenheim thread is where Dan states his model division of labor out loud — 'Claude = to analyze stuff, gemini = interact with it' — and where Tom, using the tools on his own material, independently reports back that Claude beat GPT on the Kristin logs: the corpus's only outside assessment of the instruments the wiki is built with."
+  - page: wiki/interests/extreme-sports
+    type: co-occurs
+    claim: "Tom Maison entered Dan's life post-extreme-sports era (friendship dated to roughly 2010), so his documented record does not overlap the freeskiing/inline years — the shared Uniontown terrain-park world is a background condition, not a jointly documented episode."
+  - page: wiki/health/cocaine
+    type: evidences
+    claim: "Tom is the long-term friend-supplier whose cocaine provision ran alongside strips, mushrooms, and klonopin — and whose May 2026 no-show left Dan in withdrawal that framed the entire BFS drawer incident."
+  - page: wiki/people/matt-kraus
+    type: co-occurs
+    claim: "Both Matt Kraus and Tom Maison appear in the same adolescent Seven Springs scene — shared terrain, shared years — but their documented records are non-overlapping (Kraus: pre-2010; Tom: post-2010), so the shared mountain is a background condition, not a jointly documented episode."
 ---
 
 

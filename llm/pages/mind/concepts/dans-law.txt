@@ -26,7 +26,12 @@ connections:
   - page: wiki/places/the-unpapered-address
     type: contradicts
     claim: "The law's signature move is to read a missing paper trail as the operative feature of an arrangement rather than an oversight, and Dan has run it on a 50 dollar cash demand and on the federal response at the Capitol — but never on the seven residences of his own life, every one of which carries exactly that signature."
-
+  - page: wiki/work/bfs-foods
+    type: instance-of
+    claim: "The three-hypotheses-held-open method (Brandon's error / soft skim / invented number) with the no-paper-trail fact isolated as the real signal is Dan's Law run at gas-station scale."
+  - page: wiki/people/casey-bondarenka
+    type: instance-of
+    claim: "The 2015-11-29 outbound \"Things are collapsing with lex\" has no contact_handle in the export and is attributed to Casey by timing and content — a worked instance of the contested-attribution problem."
 ---
 
 # Dan's Law

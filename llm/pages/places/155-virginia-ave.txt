@@ -51,6 +51,15 @@ connections:
   - page: wiki/places/the-unpapered-address
     type: component-of
     claim: "The March 2018 eviction notice is one of only two housing instruments in sixteen years and it changed nothing: served mid-vigil by Dan's own maternal grandmother demanding the keys, it was followed by eleven more months of occupancy, because the tenancy was never held by the document."
+  - page: wiki/timeline/events/fran-death-vigil
+    type: co-occurs
+    claim: "The March 29 eviction notice terminating Dan's residency landed mid-vigil — the estate moving on the house while he was holding the 24/7 line."
+  - page: wiki/people/lukyan-mraz
+    type: co-occurs
+    claim: "Lukyan's visits are staged around the same household as Zach's supply handoffs ('wanted to see if Zach was there'), and a lent lap-quilting book and 'the room' with 'equipment' point to a small cannabis-grow attempt run out of the same Uniontown social circle."
+  - page: wiki/people/zachariah-harshman
+    type: co-occurs
+    claim: "Nearly every documented handoff in the 2014–15 supply relationship happens at the house — 'front door is open, i'm in the kitchen,' 'side door to garage' — placing Zach inside the same lair-continuity the bond-switch thesis tracks."
 ---
 
 

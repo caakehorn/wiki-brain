@@ -29,6 +29,12 @@ connections:
   - page: wiki/health/the-configured-body
     type: evidences
     claim: "Six years of terrain-park skiing and aggressive inline is the control that rules out indifference: the body was never ignored, it was trained toward a performance ceiling, which is configuration aimed at output and belongs on the input side of the rule with everything else."
+  - page: wiki/people/nathan-king
+    type: evidenced-by
+    claim: "Nathan King is one of the three named Camp Woodward attendees, placing him inside the social frame of Dan's pre-2006 adolescent extreme-sports world."
+  - page: wiki/people/matt-kraus
+    type: evidenced-by
+    claim: "Matt Kraus is the childhood friend who defined the social shape of Dan's early extreme-sports years: the Vans Skatepark birthday trips, the overlapping Seven Springs condo adjacency, and the Woodward camp attendance all ran through him."
 ---
 
 # Extreme Sports

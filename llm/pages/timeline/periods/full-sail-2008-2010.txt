@@ -47,6 +47,18 @@ connections:
   - page: wiki/people/suzanne-frank
     type: co-occurs
     claim: "Suz bought the Winter Park condo Dan lived in during this period outright rather than renting it — a 2026-08-10 operator capture, the earliest documented instance of her using real property rather than cash to support him, with no corroborating record yet located."
+  - page: wiki/people/eric-jester
+    type: instantiates
+    claim: "The friendship is the era's clearest survivor: sparse but genuinely warm check-ins that resume exactly where they left off across nearly a decade, with no repair ever needed."
+  - page: wiki/people/stephanie-nalbone
+    type: evidenced-by
+    claim: "A previously undocumented relationship falling inside this period's own relationship-pivot window — Stephanie's Sept-Nov 2009 thread runs concurrently with the Danielle-ending/Alexis-beginning transition the period page already documents, without resolving how the three overlap."
+  - page: wiki/people/jason-bermejo
+    type: instantiates
+    claim: "The friendship is the era's clearest survivor: a formative-era bond that never needed repair to resume, still active fifteen years later at its all-time message-volume peak."
+  - page: wiki/people/matt-dunn
+    type: instantiates
+    claim: "Dunn is the fourth named member of the Full Sail friend group that survives, in reduced-contact form, fifteen-plus years after Orlando."
 ---
 
 # Full Sail (Sep 2008 – Mar 2010)

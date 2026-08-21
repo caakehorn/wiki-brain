@@ -6,6 +6,10 @@ date_created: 2026-07-11
 date_modified: 2026-08-20
 sources: []
 related: []
+connections:
+  - page: wiki/mind/politics/index
+    type: contains
+    claim: "This is the fifth organizing cluster in the mind domain, alongside profile/, concepts/, synthesis/ and psychosexual/ — a topic-based grouping for material that had been scattered across synthesis/, interests/ and self/ with no single point of entry."
 ---
 
 # mind — index

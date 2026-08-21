@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-07-15
+date_modified: 2026-08-21
 date_range_start: 2018-09-02
 date_range_end: 2020-09-21
 sources:
@@ -18,6 +18,25 @@ related:
   - wiki/timeline/periods/2018-deep-cycle
   - wiki/self/message-corpora/master-message-dump
   - wiki/mind/concepts/contact-gini
+connections:
+  - page: wiki/people/annie-ulmer
+    type: co-occurs
+    claim: "Emaly is the rare outside party who met Annie, liked her ('she's definitely one of the rare ones'), and questioned the arrangement's mechanics back to Dan directly — and the thread runs the seduction and the reassurance of Annie on parallel tracks, Dan telling Annie he was 'talking you up' mid-pursuit."
+  - page: wiki/people/alexis-armel
+    type: evidences
+    claim: "Dan's November 28, 2018 account to Emaly is the fullest retrospective anywhere in the corpus of how the Alexis arrangement began, including the $3,000 offer to be 'a plaything for Annie' — told to an outsider he was actively pursuing, which is the context that produced the detail."
+  - page: wiki/timeline/events/annie-alexis-reunion-november-2018
+    type: evidences
+    claim: "The November 28, 2018 conversation with Emaly is the primary narration of the reunion, given the same week it happened and to someone outside it."
+  - page: wiki/timeline/periods/2018-deep-cycle
+    type: instantiates
+    claim: "The relationship opens as pure supply — Adderall, Xanax, kratom, cocaine, a $50 Cash App trace on 2018-10-26 — which puts Dan on the selling side of the deep cycle's economy rather than only the buying side."
+  - page: wiki/mind/concepts/contact-gini
+    type: instantiates
+    claim: "Emaly is the concentration principle caught in miniature: a contact who tried repeatedly to become a real friend and was pulled back to 'sex or nothing' each time, because the friend-who-isn't-a-hookup slot stays empty by design rather than by accident."
+  - page: wiki/self/message-corpora/master-message-dump
+    type: evidenced-by
+    claim: "The 613-message thread on +172****5006 carries the five-month 2018-19 arc; the August 2019 revival and the September 2020 Facebook coda come from separate exports, which is why the relationship reads as three bursts rather than one run."
 tags: [relationships, addiction-recovery, mental-health, uniontown-era]
 knowledge: mixed
 infobox:
@@ -384,6 +403,3 @@ said the quiet part out loud and survived long enough to be proven right.
   side (his message to a third party and the un-answered Cash App requests);
   Emaly's own words from that revival are not in the captured record.
 
-## Related
-
-[[wiki/people/annie-ulmer]] · [[wiki/people/alexis-armel]] · [[wiki/timeline/periods/2018-deep-cycle]] · [[wiki/timeline/events/annie-alexis-reunion-november-2018]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]

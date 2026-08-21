@@ -6,7 +6,7 @@ aliases: ["anti-normie", "the normie check", "taste as sorting function"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-11
+date_modified: 2026-08-21
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -62,6 +62,14 @@ carries the vocabulary of that gate at volume: **`normie` appears 68 times and
 mentions of gatekeeping and 6 of snobbery** — a ratio that is itself
 informative, because the concept is far more present than any word for
 disapproving of it.
+
+> **RE-CHECKED [2026-08-21] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/interests-as-era-markers]] moved on 2026-08-19, gaining
+> a set-closure section. This page's claim is that an admission criterion sits
+> *upstream* of intake; set-closure describes what happens to a set once
+> admission has already occurred, so the two stack rather than collide. No
+> figure this page reasons from changed. Standing eight days and now cleared
+> on inspection rather than by date.
 
 The thing that separates this from ordinary taste-superiority — and the reason
 it earns a page rather than a line on a personality profile — is that **he has

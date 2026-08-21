@@ -643,3 +643,74 @@ class MalformedFrontmatterBlockTests(unittest.TestCase):
             if self.find(open(p, encoding="utf-8", errors="replace").read()):
                 dirty.append(os.path.relpath(p, ROOT))
         self.assertEqual(dirty, [])
+
+
+def load_timeline_helpers():
+    """Import bin/wiki-timeline's free functions without generating anything.
+
+    Same trick as load_helpers(): the file is a script, so it is truncated at
+    the first top-level statement that walks the wiki.
+    """
+    src = open(os.path.join(ROOT, "bin", "wiki-timeline"), encoding="utf-8").read()
+    cut = src.index("def collect(")
+    mod = {"__name__": "wiki_timeline_helpers",
+           "__file__": os.path.join(ROOT, "bin", "wiki-timeline")}
+    exec(compile(src[:cut], "bin/wiki-timeline", "exec"), mod)  # noqa: S102 - trusted repo file
+    return mod
+
+
+TL = load_timeline_helpers()
+
+
+class TimelineRetractionFilterTests(unittest.TestCase):
+    """The generated timeline must not resurrect a retracted claim.
+
+    master-timeline.md copies sentences verbatim out of every page in the wiki.
+    That copy lands outside the correction blockquote — and outside the
+    `documented_on` exemption — that made the original legal, so a claim which
+    is correctly quarantined on its source page becomes a live assertion in the
+    generated file. This happened for real: wiki/self/concepts/claude.md
+    narrates the suz-750-weekly retraction in ordinary prose under its
+    `documented_on` exemption, and a regeneration lifted that sentence into the
+    timeline, where bin/wiki-lint failed the build.
+    """
+
+    def test_ledger_patterns_are_loaded(self):
+        self.assertTrue(TL["RETRACTED_PATTERNS"],
+                        "generator loaded no retraction patterns — the filter is inert")
+
+    def test_retracted_claim_is_rejected_as_an_event(self):
+        text = ('Not "$750/week from her to him" but ~$14,000 from Dan to her '
+                'in Aug-Oct 2018, drawn against an estate.')
+        why = TL["reject_reason"](text, 1, "prose")
+        self.assertIsNotNone(why, "retracted claim accepted as a timeline event")
+        self.assertIn("retracted claim", why)
+
+    def test_menore_transaction_language_is_rejected(self):
+        text = ('Operational Security: deliberately sparse communication; no '
+                'product names. "Need 8" is the entire transaction language.')
+        why = TL["reject_reason"](text, 1, "prose")
+        self.assertIsNotNone(why)
+        self.assertIn("retracted claim", why)
+
+    def test_ordinary_event_still_passes(self):
+        text = "Dan moved to 46 Nevins St, Brooklyn on February 12, 2019."
+        self.assertIsNone(TL["reject_reason"](text, 3, "prose"))
+
+    def test_unrelated_dollar_figure_still_passes(self):
+        """The filter inherits the ledger's precision — a bare $750 is not the claim."""
+        text = "David Beard was owed $750 for the work he finished that August."
+        self.assertIsNone(TL["reject_reason"](text, 1, "prose"))
+
+    def test_generated_timeline_is_clean(self):
+        """Regression: the committed timeline holds no retracted claim."""
+        path = os.path.join(ROOT, "wiki", "timeline", "master-timeline.md")
+        text = open(path, encoding="utf-8", errors="replace").read()
+        hits = []
+        for rid, pat in TL["RETRACTED_PATTERNS"]:
+            for line in text.splitlines():
+                if line.startswith(">"):
+                    continue
+                if pat.search(line):
+                    hits.append((rid, line[:90]))
+        self.assertEqual(hits, [])

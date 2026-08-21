@@ -82,6 +82,9 @@ connections:
   - page: wiki/people/alexis-armel
     type: parallels
     claim: "The verdict's central distinction — withholding emotional expression versus withholding reality — is what an independent 2026 scoring pass measured as a seven-point spread on non-exploitation between the control case and Annie."
+  - page: wiki/health/cocaine
+    type: evidences
+    claim: "The moral verdict names supply-chain control as Dan's co-authored contribution to the decade-long catastrophe — the cocaine procurement architecture is the mechanism that held the relationship together past the point it had stopped functioning."
 ---
 
 

@@ -6,7 +6,7 @@ aliases: ["one channel at maximum voltage", "no failover", "concentration archit
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-20
+date_modified: 2026-08-21
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -74,6 +74,12 @@ connections:
 > the same Gini the page already computes. Note that the page's evaluative leg
 > was falsified on 2026-08-19 by the taste-record Gini and survives only on the
 > relational leg — which makes this the test the whole page now rests on.
+
+> **RE-CHECKED [2026-08-21] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/ai-collaborative-analysis]] moved on 2026-08-21 in one
+> typed-edge claim about ChatGPT's decline chronology. This page cites that
+> page for the LLM's *place in the portfolio*, not for any claim about model
+> quality or timing.
 
 
 Wherever a distributed architecture is available to him, Dan runs **one channel

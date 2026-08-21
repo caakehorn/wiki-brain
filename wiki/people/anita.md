@@ -33,6 +33,9 @@ connections:
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: evidences
     claim: "Anita is a textbook exhibit of the vertical-suspect pattern — an authority whose claims are narrative-shaped rather than evidence-shaped, backed by control of the levers rather than by records."
+  - page: wiki/work/bfs-foods
+    type: co-occurs
+    claim: "Anita is the GM who originated the $50 claim and controls the levers (deposit, schedule, discipline); the dispute is the setting where her backward-narrative pattern is documented."
 ---
 
 # Anita (BFS Foods GM)

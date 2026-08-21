@@ -59,6 +59,18 @@ connections:
   - page: wiki/mind/psychosexual/orchestration-and-voyeurism
     type: evidences
     claim: "The instances tabled here are the practice-side record of the director stance the orchestration page theorizes — arranged conditions, controlled access, Dan as architect rather than participant."
+  - page: wiki/timeline/events/annie-alexis-reunion-november-2018
+    type: evidenced-by
+    claim: "The November 2018 reunion is the first well-documented instance of Dan's 'consensual voyeurism' mechanism in full operation — he explicitly requests a camera for the birthday-night event, shows religious elation at watching, and frames it as 'the best thing that's ever happened to me.' This prefigures the later $3000 offer to Alexis and the 'Dan-architected' framework's formal description in the dossiers."
+  - page: wiki/people/shelbie-breakiron
+    type: instantiates
+    claim: "An explicit financial-for-attention/access dynamic ('sugar dad,' recurring cash transfers, 'baby needs spoiled') layered onto a relationship Dan otherwise describes in affectionate terms."
+  - page: wiki/people/tuquick-17248123683
+    type: evidenced-by
+    claim: "Tuquick's closure-night taunts prove the October 2019 MMF video circulated to Annie's next partner and was repurposed as humiliation — the arrangement era's intimate media outliving the arrangement as a weapon."
+  - page: wiki/people/trinity-st-clair
+    type: instance-of
+    claim: "A paid, professional booking with an agreed $1,500 fee is the arrangement in its most explicitly commercial form — the version where the third party is contracted rather than courted."
 ---
 
 # Arrangement History

@@ -34,6 +34,9 @@ connections:
   - page: wiki/mind/synthesis/ai-collaborative-analysis
     type: evidenced-by
     claim: "An AI-drafted letter to Suz, explicitly authorized to include any criticism, is genuinely vulnerable first-person material Dan then declines to send in his own voice — outsourcing the authorship of vulnerability itself, not just memory or analysis."
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: instance-of
+    claim: "The AI-drafted letter to Suz, which Dan then declines to send in his own voice, is the clearest instance of outsourcing the authorship of vulnerability itself rather than just memory or analysis."
 ---
 
 # April–May 2026 — The Final Documented Weeks

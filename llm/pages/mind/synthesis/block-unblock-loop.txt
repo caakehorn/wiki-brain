@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-20
+date_modified: 2026-08-21
 sources:
   - raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
@@ -170,7 +170,7 @@ documented at all.
 | May 2014 account | Migration burst, old account abandoned | None at the time | Held 8 years |
 | 2022 repatriation | — (the reverse operation) | Continuity value rediscovered | Deliberate, ramped return |
 | [[wiki/people/kristin]] (inbound) | She blocks Dan, Dec 9 2025 | She needed nothing from him | Held |
-| [[wiki/people/menore]] (control) | No block — farewell text, Feb 20 2025 | Dependency ended by geography | Clean close, no loop |
+| [[wiki/people/menore]] (control) | No block — farewell text, Feb 20 2025 | Dependency ended by geography | Clean close, no loop — **but not a closed channel**: supplier confirmed still operating 2026, and Dan benchmarked his new market against him through July 2025 |
 | [[wiki/people/annie-ulmer]] 2026 | June 1 closure — **Dan's own sign-off**, 00:27:49 (corrected 2026-08-13) | Supply and money dead; [[wiki/people/milo]] still co-held | Held 52 days against four inbound approaches, then reopened |
 
 > **RETRACTED 2026-08-11 — the Rick control row was built on an incomplete

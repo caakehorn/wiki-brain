@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-19
+date_modified: 2026-08-21
 sources:
   - raw/self/favorites/FAVS MASTERLIST.csv
   - raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html
@@ -73,6 +73,12 @@ dead radio show's archive, one director's filmography. He reads thirty
 authors on one subject and one book by each, because what he is collecting is
 independent accounts of a single thing, and one account per witness is all
 the collection requires.
+
+> **RE-CHECKED [2026-08-21] — premise moved, conclusion unaffected.**
+> [[wiki/mind/concepts/forensic-method]] moved on 2026-08-20 by two typed-edge
+> additions and no prose. One points at document-fabrication, which is about
+> the *production* of evidence; this page is about intake and set-closure. No
+> instrument-defect or completion claim this page reasons from changed.
 
 The measurement that forces this reading is one line of arithmetic nobody had
 run: **60 of the 120 books in the curated record — exactly half — are two

@@ -7,7 +7,7 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-20
+date_modified: 2026-08-21
 sources:
   - raw/self/dox-md/ADDICTION_PROFILE.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -64,7 +64,7 @@ connections:
     claim: "Tom is the long-term friend-supplier whose cocaine provision ran alongside strips, mushrooms, and klonopin — and whose May 2026 no-show left Dan in withdrawal that framed the entire BFS drawer incident."
   - page: wiki/people/menore
     type: evidenced-by
-    claim: "Menore is the NYC delivery node whose product was never named in-thread but whose six-year, 99.3%-availability service record is consistent with cocaine logistics — the control case proving pure-transactional distance outperforms friendship in this market."
+    claim: "Menore is the NYC delivery node whose product is never named in-thread — measured: zero product terms in 4,413 messages — but is called 'menore's bags' and distinguished from weed in Dan's other threads, which narrows the six-year, 99.3%-availability service record to a bagged non-cannabis product consistent with cocaine logistics."
   - page: wiki/people/annie-ulmer
     type: evidenced-by
     claim: "Cocaine procurement is the load-bearing mechanism of the Annie terminal phase — Dan controlled the supply ('bop') as the relationship's primary retention mechanism, and stated the thesis out loud: 'getting you drugs... was about that being the only way you would see me.'"
@@ -231,6 +231,36 @@ the drive was running on almost nothing: a bag corner and one hitter's
 worth of weed, carried on a 3am errand for no reason, produced a
 felony-adjacent charge out of the smallest quantity in the record.
 
+> **RE-CHECKED [2026-08-21] — premise moved, and it moved *toward* this page.**
+> [[wiki/people/menore]] and [[wiki/mind/synthesis/supply-network]] were both
+> rewritten on 2026-08-21 and this page reasons from them. Three things
+> changed, and the cocaine reading survives all three intact:
+>
+> 1. **The service is continuous, not two eras.** Menore's 1,458-day "dark
+>    gap" turned out to be a phone-number change; third-party threads put him
+>    delivering throughout 2023 and Jan–May 2024. The NYC supply line this
+>    page treats as spanning 2018–25 genuinely does span it, without the
+>    four-year hole that was previously in the way.
+> 2. **The product silence is now a measurement, and it points somewhere.**
+>    The Menore thread contains **zero** occurrences of *bag*, *ball*, *8ball*
+>    or *weed* across 4,413 messages — total OPSEC, exactly as this page
+>    assumed. But Dan names the product freely to *other* people: *"$50 is
+>    getting you something like 1.5 to 2 of **menore's bags**"* (2025-04-14)
+>    and *"no weed or Menore"* (2025-04-24), which both establishes the
+>    packaging unit and rules cannabis out. This page's own arrest record —
+>    *"residue in an empty cocaine bag"* — makes *bag* the corpus's
+>    cocaine unit. That is not proof, and it is a great deal more than
+>    "unnamed."
+> 3. **The "8" unit does not mean what this page's gap assumed.** It was
+>    never a standing order: *need 8* occurs twice in 4,413 messages, and the
+>    rest of the 8s are Menore quoting an arrival time (see the retraction on
+>    `menore.md`). What survives is that when a quantity *is* named it is
+>    countable and pre-portioned — *"I only got 8 when I got back"* — which is
+>    consistent with bagged product and inconsistent with a weighed sale.
+>
+> Nothing here overturns the page's thesis; the supply-chain table row and the
+> product-specificity gap are updated above to match.
+
 ## The supply chain
 
 Cocaine is the primary product moving through the supply network across
@@ -247,7 +277,7 @@ dominant unnamed product. The succession of cocaine-specific nodes:
 | [[wiki/people/johnny-dealer|Johnny]] | 2018–19 | Deep-cycle primary dealer | "B's" (balls/cocaine), suboxone strips; first supply panics |
 | [[wiki/people/al|Al]] ("Socialist") | 2018 | Parallel Uniontown dealer | Explicit cocaine; ends in unpaid-debt confrontation |
 | [[wiki/people/annoying|Annoying]] (unidentified) | 2019 | Short-term NYC dealer | Explicit cocaine; $300/ball, $8ball/280 |
-| [[wiki/people/menore|Menore]] | 2018–25 | NYC professional delivery | Unnamed in-thread; 99.3% availability over 6.5 years |
+| [[wiki/people/menore|Menore]] | 2018–25 (continuous) | NYC professional delivery | Never named in-thread — 0 product terms in 4,413 messages; **"bags," and explicitly not weed**, when named outside it |
 | [[wiki/people/tom|Tom]] | ~2010–2026 | Friend-supplier (strips, cocaine, mushrooms, klonopin) | Cocaine among products; sole strip source by 2025 |
 | **Bop** | 2026–present | Current primary node (daily house calls at noon) | Unnamed; five handoffs in six days documented July–Aug 2026 |
 
@@ -319,10 +349,10 @@ financially fragile as its buyer — precarity ran the whole chain.
 - **The cocaine–bulimia link** is stated in a self-audit but never
   independently corroborated by any source outside Dan's own retrospective
   account.
-- **Product specificity in the NYC era**: Menore's product was never
-  named in-thread; the "8" unit remains uninterpreted, and whether the
-  six-year delivery record was cocaine, heroin, MDMA, or some combination
-  is unconfirmed by any primary source.
+- **Product specificity in the NYC era**: Menore's product is still not
+  positively identified, but the question is narrower than it was — see
+  the re-check below. It is *not* weed, it is sold in **bags**, and the
+  thread's silence on the point is now measured rather than impressionistic.
 - **The true scale of the 2017–2020 spend**: The dosage arc gives
   quantities but not dollar figures; the financial cost of the 3.5–7g
   daily peak is undocumented.

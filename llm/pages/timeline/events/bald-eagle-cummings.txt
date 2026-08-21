@@ -28,6 +28,15 @@ connections:
   - page: wiki/health/hyperreflexivity
     type: causes
     claim: "A year spent as the middle school's named laughing stock, at an age when he was already a year younger than every classmate and pre-pubertal, is the earliest documented source of the social-exposure sensitivity that page treats as a standing condition."
+  - page: wiki/interests/extreme-sports
+    type: co-occurs
+    claim: "Both the Bald Eagle Cummings incident and the LoveSac virginity event fall inside the Seven Springs adolescent social world — the first is a public sexual failure documented elsewhere, the second is a private milestone the capture records as having happened a year or two after the Vans trips."
+  - page: wiki/timeline/events/annie-alexis-reunion-november-2018
+    type: co-occurs
+    claim: "Both incidents occur in the same house — the first documents Dan's first sexual failure at age 12 (1999) with external humiliation, the second documents a controlled intimacy three years later (2018) with no external exposure beyond the trio. The difference: the first was a failure that named and shamed, the second was orchestrated to be witnessed or remembered but not humiliated."
+  - page: wiki/mind/synthesis/fayette-return
+    type: evidences
+    claim: "Sharpens the Champion question rather than settling it: the family rented at Seven Springs for years before buying unit K2, and Champion is the resort's town — so Morley's 1996-99 listings are now a specific checkable question (that rental, a separate property, or the unit later purchased) instead of a vague adjacency."
 ---
 
 # Bald Eagle Cummings (~2000–2001?)

@@ -37,6 +37,9 @@ connections:
   - page: wiki/people/tom
     type: precedes
     claim: "Johnny is Tom's predecessor as primary strip source; the succession from transactional dealer to friendship-embedded supplier is what later exposed the network to the owe-and-silence failure mode."
+  - page: wiki/health/cocaine
+    type: evidences
+    claim: "Johnny is the 2018 deep-cycle primary node who supplied 'b's' (balls/cocaine reference) and suboxone strips — the first dealer to produce documented single-node supply panics when his phone died or he went on vacation."
 tags: [addiction-recovery, dui]
 infobox:
   name: "Johnny Dealer"

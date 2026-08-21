@@ -23,6 +23,9 @@ connections:
   - page: wiki/people/fran-coldren
     type: evidences
     claim: "Lucie and her partner Chris are credited by name with enabling Fran's Florida winter trips late in her life — 'without you and chris doing so much... she wouldn't have been able to continue doing it' — a documented extension of Fran's independence the family-only record doesn't otherwise carry."
+  - page: wiki/timeline/events/fran-death-vigil
+    type: evidences
+    claim: "Dan's same-night message to Lucie is the fullest first-person account of the death moment on record — the silent mental-communication attempt, the final smile, the immediate pronouncement — written with a candor about genuine uncertainty found nowhere else in his corpus."
 ---
 
 # Lucie Dobbin

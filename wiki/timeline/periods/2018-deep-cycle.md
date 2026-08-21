@@ -25,6 +25,9 @@ connections:
   - page: wiki/mind/synthesis/message-circadian-latency
     type: evidenced-by
     claim: "The 40,514-message 2018 whole-corpus total confirms and precisely quantifies this period's own qualitative '~40k msgs/yr' figure — the corpus's first-recorded volume peak."
+  - page: wiki/people/emaly-minerd
+    type: instance-of
+    claim: "The relationship opens as pure supply — Adderall, Xanax, kratom, cocaine, a $50 Cash App trace on 2018-10-26 — which puts Dan on the selling side of the deep cycle's economy rather than only the buying side."
 tags: [ai-collaboration, nyc-era, financial-stress, relationships, addiction-recovery]
 ---
 

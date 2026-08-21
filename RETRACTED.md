@@ -123,3 +123,43 @@ acceptance is retracted. The patterns match the acceptance and not the offer.
   ]
 }
 ```
+
+## "Need 8" as Menore's transaction language
+
+`wiki/people/menore.md` characterised the supply thread's request idiom as a
+standing order for eight units — *"Consistent quantity requests — Dan typically
+orders '8'"* and *"'Need 8' is the entire transaction language."* Both were
+derived by reading the string `8` as a quantity wherever it appeared.
+
+Measured against the dedicated export (4,413 messages, 2,660 of them Dan's),
+`need 8` occurs **twice** — 2018-11-08 and 2019-02-13 — and the word *need*
+appears in eleven sent messages in total. The remaining standalone `8`s are
+Menore quoting an arrival time: *"I'll be in city @ 8"*, *"8. Cool?"*,
+*"Crossing @ 8"*, *"Yea. 8ish ok?"* — consistent with the separately measured
+18:00–20:00 delivery peak. A clock time was read as a dosage.
+
+The quantity claim itself is **not** retracted: "8" is a real, countable,
+pre-portioned unit on the two occasions Dan names one, and *"I only got 8 when
+I got back"* (2019-03-25) corroborates it. What is retracted is that it was the
+standing order and the thread's language. The true idiom is `can you stop by`
+(432) plus an address, with no product or quantity named at all.
+
+```json
+{
+  "id": "menore-need-8-transaction-language",
+  "claim": "'Need 8' was Menore's entire transaction language / Dan typically ordered '8' from Menore",
+  "patterns": [
+    "\"?need 8\"?[^.\\n]{0,40}(is|was)[^.\\n]{0,30}(entire )?transaction language",
+    "typically orders \"?8\"?",
+    "consistent quantity requests[^.\\n]{0,40}\"?8\"?",
+    "consistent \"?8\"? units"
+  ],
+  "replacement": "The request idiom is 'can you stop by' (432 occurrences) plus an address; no product or quantity is named. 'need 8' occurs twice in 4,413 messages, and most standalone 8s are Menore quoting an arrival time.",
+  "reason": "Derived-number error: the string '8' was read as an order size wherever it appeared, but in this thread it is overwhelmingly a clock time. Measured directly from the export 2026-08-21.",
+  "retracted": "2026-08-21",
+  "source": "raw/self/message-csv/messages_3476070497_all_time.csv (4,413 rows; 2,660 Sent) — full-thread frequency count",
+  "affected_pages": [
+    "wiki/people/menore.md"
+  ]
+}
+```

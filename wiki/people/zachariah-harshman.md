@@ -35,6 +35,15 @@ connections:
   - page: wiki/interests/music/aliases/sloppp
     type: co-occurs
     claim: "Zach is SLOPPP's earliest documented fan and promoter — pitching Dan to a Pittsburgh rave scene contact in January 2014, less than two years before the project's Dec 26, 2015 'Goodbye Demo' close."
+  - page: wiki/interests/music/aliases/sloppp
+    type: evidences
+    claim: "Zach's January 2014 pitch to a Pittsburgh rave-scene contact is the earliest documented instance of SLOPPP actively seeking a live booking, less than two years before the alias's Dec 26, 2015 close."
+  - page: wiki/places/155-virginia-ave
+    type: evidences
+    claim: "From January 2015 the address is Zach's consistent handoff location ('front door is open, i'm in the kitchen'), placing the earliest documented Uniontown supply node inside this same house — and inside the same month the Alexis-to-Annie transfer he later reacts to takes place."
+  - page: wiki/people/lukyan-mraz
+    type: co-occurs
+    claim: "Lukyan's own Feb 17, 2016 'Hey dude you alright?' — one day before Zach separately asks 'is everything alright with Luke?' — cross-corroborates a moment of concern between the two households that neither thread individually explains."
 ---
 
 # Zachariah Harshman

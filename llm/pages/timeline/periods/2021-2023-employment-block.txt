@@ -35,6 +35,9 @@ connections:
   - page: wiki/mind/profile/intp
     type: evidences
     claim: "The introversion cost is stated in primary voice — fifteen-table freezing Saturday nights took 'literally EVERYTHING i had in me' — hospitality as a direct stressor of the documented type."
+  - page: wiki/people/tarik-fallous
+    type: contains
+    claim: "The grocery-run, inventory, and hiring texts are ground-truth day-to-day texture for the period this page otherwise records only as 'employed at volume.'"
 ---
 
 # 2021–2023 Employment Block

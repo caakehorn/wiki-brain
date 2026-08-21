@@ -12,6 +12,16 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-scan
 related: ["wiki/people/annie-ulmer", "wiki/people/shelbie-breakiron", "wiki/timeline/periods/2018-deep-cycle"]
 tags: [relationships]
 knowledge: earned
+connections:
+  - page: wiki/timeline/events/annie-alexis-reunion-november-2018
+    type: precedes
+    claim: "The November reunion is the precursor to the April 2019 Shelbie threesome — both involve Annie as the pivot, both are non-monogamous arrangements with explicit Dan participation, but the November event is uniquely marked by the transactional $3000 origin disclosed to Emaly Minerd."
+  - page: wiki/people/shelbie-breakiron
+    type: evidences
+    claim: "The June 8, 2019 three-way logistics exchange in this thread is either a repeat of the arrangement documented there or the corpus's only surviving direct trace of it."
+  - page: wiki/people/trinity-st-clair
+    type: parallels
+    claim: "Same March-June 2019 window, same shape: the non-monogamous arrangement running with women rather than the male friends it is more usually documented with — two bookings weeks apart make it a pattern of that spring rather than one occasion."
 ---
 
 # Shelbie/Annie Threesome (April 2019)

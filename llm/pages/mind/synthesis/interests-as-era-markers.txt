@@ -42,6 +42,9 @@ connections:
   - page: wiki/mind/synthesis/closing-the-set
     type: instantiates
     claim: "The completism this page names in one unmeasured clause is the mechanism behind its own dating power: eras end when their set closes, which is why the 2024 Rome year stops at Augustus rather than fading, and why the transitions are sharp enough to pin."
+  - page: wiki/interests/extreme-sports
+    type: instantiates
+    claim: "The 2000–2006 freeskiing/inline era is an unrecorded pre-cursor to the era-marker series — a total-obsession adolescence that left no digital intake record, making it the first era marker that cannot be verified from watch logs alone."
 ---
 
 # Interests as Era-Markers

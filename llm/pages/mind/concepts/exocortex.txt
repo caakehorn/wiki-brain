@@ -55,6 +55,12 @@ connections:
   - page: wiki/self/concepts/chatgpt
     type: contains
     claim: "ChatGPT's custom-instructions field is where the exocortex was first prototyped, and its length limit is why the bootloaders became pasteable documents."
+  - page: wiki/mind/concepts/the-cool-metric
+    type: instance-of
+    claim: "The Normie Check is the metric compiled into machine-enforceable form — a standing instruction that any model must pass before it is permitted to continue, which is what distinguishes this from ordinary snobbery."
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: evidences
+    claim: "The exocortex concept — bootloaders, master prompts, the CATO system — is the primary evidence that LLMs are used as cognitive extensions, not conversation partners."
 ---
 
 

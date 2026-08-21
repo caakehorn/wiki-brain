@@ -17,6 +17,9 @@ connections:
   - page: wiki/mind/synthesis/bond-switch-2015
     type: contains
     claim: "The switch synthesis is the mechanics layer of this period: timing, onset flood, lair-continuity."
+  - page: wiki/people/casey-bondarenka
+    type: contains
+    claim: "Casey is the friend-circle friction of the period's opening weeks: acquired days before the switch, removed from the house within a fortnight of it."
 ---
 
 

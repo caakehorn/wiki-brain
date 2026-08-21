@@ -6,7 +6,7 @@ aliases: ["wiki-brain", "the wiki", "second brain", "the repository"]
 status: active
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-20
+date_modified: 2026-08-21
 importance: critical
 tags: [ai-collaboration, digital-footprint, personality-profile]
 sources: []
@@ -66,6 +66,18 @@ connections:
 > attribution reversals of 2026-08-19 and the `MASTER_MESSAGES_DB_DUMP` count
 > error — the wiki's recurring defect is not bad data but **confident metadata
 > that answers a slightly different question than the one being asked.**
+
+> **RE-CHECKED [2026-08-21] — premise moved, and it refines this page's origin
+> claim without overturning it.** [[wiki/self/concepts/llm]] moved on
+> 2026-08-21: Gemini's 'chicken nugget' passage was corrected off Dan's ledger,
+> and the post-GPT-5 causation of ChatGPT's decline was marked untested. This
+> page carries an edge claiming ChatGPT is *"where the bootloader concept was
+> first prototyped, which makes it the wiki-brain's own origin point."* That
+> survives, with one dating refinement now available from the 375-thread
+> export: Dan's ChatGPT use starts **2022-12-10**, ten days after launch, and
+> the first eleven threads are puns, voice-over rewrites and a video essay. The
+> bootloader work is a later development on the platform, not the thing he
+> arrived with — so ChatGPT is the origin *site*, not the origin *motive*.
 
 
 The wiki-brain is a second brain about one person, Dan Frank. It is a custom-built knowledge repository that collects, stores, and synthesizes every available datum about his life, mind, history, ideology, environment, and relationship to reality — every story, every friend, every place, every perspective, every development, every thought. Its job is not to archive but to **mine one life for hidden connections**: linkages between people, events, money, substances, music, work, and psychology that no single source states, but that the corpus proves when read across itself.

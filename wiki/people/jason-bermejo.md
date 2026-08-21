@@ -27,6 +27,15 @@ connections:
   - page: wiki/timeline/periods/full-sail-2008-2010
     type: instance-of
     claim: "The friendship is the era's clearest survivor: a formative-era bond that never needed repair to resume, still active fifteen years later at its all-time message-volume peak."
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: component-of
+    claim: "Jason is the era's most durable friendship — the formative music influence who introduced Dan to Kid Cudi and DIY production, and who is still, fifteen years later, one of two people whose music taste Dan defers to."
+  - page: wiki/people/oscar-lindquist
+    type: evidenced-by
+    claim: "This thread is the primary source behind the 'impossible coincidence in a 9M-person city' anecdote on Jason's page — it independently confirms Oscar and Dan's Full Sail-era connection and supplies the exact date."
+  - page: wiki/people/jamie-mohler
+    type: evidences
+    claim: "Jason's Oct 6, 2025 exchange ('Mohler = a literal woman' / 'Haha she badass') is the primary corpus corroboration of the transition, delivered as a casual, unremarkable update inside the Full Sail friend group."
 knowledge: earned
 infobox:
   name: "Jason Bermejo"

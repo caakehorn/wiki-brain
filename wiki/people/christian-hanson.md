@@ -15,6 +15,10 @@ infobox:
   relationship_to_dan: unknown
   first_contact: 2017-07-11
   known_for: "Christian Hanson — the retired NHL forward (Toronto Maple Leafs, son of Dave 'Hanson Brothers' Hanson) — was a golf regu"
+connections:
+  - page: wiki/interests/golf
+    type: co-occurs
+    claim: "Hanson is the marquee playing partner of the caddying era — an NHL client Dan both looped for and played rounds with through 2017–18."
 ---
 
 # Christian Hanson

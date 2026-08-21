@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-19
+date_modified: 2026-08-21
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
@@ -75,6 +75,37 @@ life project"* at 98/100 and calls writing his own psychological operating
 manual *"his primary occupation."*
 
 The measurement that makes this a rule rather than an observation is a
+> **RE-CHECKED [2026-08-21] — the handle defect does not reach this page's
+> counts, and the reason is structural rather than lucky.**
+> [[wiki/self/concepts/wiki-brain]] and
+> [[wiki/mind/synthesis/instrument-is-subject]] both moved on 2026-08-20 and
+> this page reasons from both. `instrument-is-subject` moved by a `RE-CHECKED`
+> block only. `wiki-brain` gained something sharper — **a handle is not a
+> person**: at least six inbound rows on Annie's 212 handle across July–August
+> 2026 were typed by a third party holding her phone, during exactly the
+> crisis windows the corpus draws its highest-stakes claims from.
+> `BACKLOG.md` asked whether that caveat reaches the counts below rather than
+> assuming it does not. It does not, for two independent reasons.
+>
+> **The load-bearing count is outbound.** The seventeen-appearance figure and
+> its breakdown are measured across Dan's own **106,629 sent** messages. The
+> defect is an inbound-attribution problem — a row credited to the handle's
+> owner that someone else typed — and it cannot touch a count of what Dan
+> himself wrote. This page's central measurement is immune by construction,
+> not by inspection.
+>
+> **The one inbound figure supports an absence, which the defect cannot
+> fill.** The 110,944 inbound messages from 503 handles are cited to establish
+> that the corpus holds *no* independent characterisation of Dan by anyone who
+> is not him or an instrument he commissioned. A third party typing on Annie's
+> phone mid-crisis is not a clinician, an employer instrument or a
+> disinterested account; misattributing those six rows changes who spoke, not
+> whether an outside characterisation exists. If anything the defect sharpens
+> the point — even the corpus's few candidate outside voices turn out to be
+> harder to attribute than they looked.
+>
+> Nothing here is withdrawn or narrowed.
+
 negative one, and it had never been run. **Across 106,629 outbound messages,
 the entire apparatus appears seventeen times.** `INTP` four. `MBTI` seven.
 `enneagram` five. `Big Five` once. `socionics`, `5w4`, `percentile`,

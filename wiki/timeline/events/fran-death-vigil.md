@@ -75,6 +75,12 @@ connections:
   - page: wiki/people/dave-moore
     type: caused-by
     claim: "Dan's contemporaneous read of the exclusion letter is that Diane's husband drafted it, which matches the social workers taking day-to-day direction from him two days earlier while Diane was unreachable."
+  - page: wiki/people/eric-jester
+    type: evidences
+    claim: "Eric's April 2018 condolence, drawing a parallel to his own grandfather's death, is an outside-the-family reaction to Fran's passing that corroborates the vigil's emotional weight beyond the household."
+  - page: wiki/people/lucie-dobbin
+    type: contains
+    claim: "Dan reached out to Lucie within hours of Fran's death specifically because she 'already knew just how magical that woman was' — the message is the vigil's richest surviving first-person account, offered to a peer of Fran's rather than family."
 ---
 
 # The Fran Vigil (March–April 2018)

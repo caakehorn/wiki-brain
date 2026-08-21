@@ -31,6 +31,9 @@ connections:
   - page: wiki/work/nemacolin-caddying
     type: co-occurs
     claim: "Steve asked Dan to get him into caddying in July 2017 ('Yo I wanna start caddying get me in!') during Dan's Nemacolin era; he stalled on submitting a resume and the plan went nowhere."
+  - page: wiki/people/rob-orange
+    type: co-occurs
+    claim: "Jim's Dec 2018 thread names Rob and Steve back to back as the cohort's losses — except Steve, per a correction the same conversation forces, was misheard as dead and was actually alive."
 ---
 
 # Steve Kezmarsky

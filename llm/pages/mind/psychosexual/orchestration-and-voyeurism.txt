@@ -38,6 +38,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Director rather than participant is 'The Irreversibility Firewall's' clearest bodily instance: arrange the irreversible, exposed act, and place someone else inside the frame actually performing it."
+  - page: wiki/people/bruce-burish
+    type: evidenced-by
+    claim: "Dan volunteers the webcam project unprompted to a friend and sustains two days of graphic questioning about setup, pricing and scheduling without deflecting — the disclosure is the point, not a cost of it."
 ---
 
 # Orchestration and Voyeurism

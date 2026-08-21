@@ -14,6 +14,10 @@ related:
   - wiki/mind/concepts/exocortex
   - wiki/work/tech/danmodel
 tags: [ai-collaboration]
+connections:
+  - page: wiki/work/tech/danmodel
+    type: parallels
+    claim: "Both are independently-built self-modeling infrastructure projects running the same 'extract once, stop re-deriving' thesis this wiki itself is built on — mneme for memory/context, DANMODEL for voice and output."
 ---
 
 # MNEME — Personal Memory Corpus Platform

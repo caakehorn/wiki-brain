@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-20
+date_modified: 2026-08-21
 sources:
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
@@ -74,7 +74,7 @@ connections:
     claim: "Teddy is the 2018–20 Uniontown parallel node whose own fines, probation, and borrowing show the network's suppliers were as financially fragile as its buyer — precarity ran the whole chain."
   - page: wiki/people/menore
     type: contains
-    claim: "Menore is the NYC node and the network's reliability outlier — 99.3% availability (455 of 458 requests answered over 6.5 years, median 7-minute reply) — the control case proving distance outperforms friendship in this market."
+    claim: "Menore is the NYC node and the network's reliability outlier — 99.3% availability (455 of 458 requests answered over 6.5 years, median 7-minute reply) — the control case proving distance outperforms friendship in this market, and the benchmark the post-NYC market is still being measured against and failing in 2025."
   - page: wiki/people/sam
     type: contains
     claim: "Sam is the 2019–20 NYC cannabis line — a parallel professional delivery node whose February 2020 firing of Dan ('don't never hit this number') proves transactional discipline enforces on the buyer too, not just the supplier."
@@ -104,13 +104,16 @@ connections:
     claim: "The network's terminal-era fragility is a documented proximate cause of the BFS job loss: the three-burns-in-four-days sourcing cascade consumed Dan's optionality and the resulting withdrawal impaired the shift the drawer variance was pinned to."
   - page: wiki/work/au-zaatar
     type: co-occurs
-    claim: "The network wrapped around the workday: Menore served Dan mid-shift at the Shed through taxi windows — primary-confirmed for May–Aug 2024 (deliveries to 1st Ave bet 57–58), with the storytime's longer 2021–24 window unresolved against the thread's four-year gap."
+    claim: "The network wrapped around the workday: Menore served Dan mid-shift at the Shed through taxi windows — primary-confirmed for May–Aug 2024 (deliveries to 1st Ave bet 57–58), and the storytime's longer 2021–24 window is corroborated now that the thread's four-year gap is known to be a handle change."
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "A single, continuously-operating procurement architecture since January 2011, never treated as episodes to be closed and reopened, is 'The Irreversibility Firewall's' no-delete rule running on his own chemistry rather than his relationships."
   - page: wiki/health/the-configured-body
     type: contradicts
     claim: "The June 2025 messages put a prescribing doctor at the head of the Suboxone route and Tom as the fallback invoked when an out-of-state script could not be filled — 'I am so fucked. I'm gonna have to drive down to see Tom today' — which reverses this page's default path and makes the May 2026 withdrawal a second-line failure rather than a single point of failure giving way."
+  - page: wiki/people/drew-mcgettigan
+    type: contains
+    claim: "A summer 2015 buyer/go-between node, active for a single three-month window and connected to the Zach Harshman circle he was headed to meet the same night as a documented deal."
 ---
 
 # The Supply Network
@@ -146,7 +149,7 @@ transfers along the way.
 | [[wiki/people/johnny-dealer]] | 2018–2019 | Uniontown | Primary deep-cycle dealer; strips ($15/8mg, $20/12mg), "b's"; fronts |
 | Second dealer (+17243233522) | 2018 | Uniontown | Parallel node in the deep cycle (operating manual) |
 | [[wiki/people/teddy]] | 2018–2020 | Uniontown/Fairchance | Parallel informal supplier; strips, pills; credit and holds |
-| [[wiki/people/menore]] | 2013?, 2018–20 + 2024–25 | NYC | Professional delivery operator; 99.3% availability, median 7-min reply |
+| [[wiki/people/menore]] | 2013?, 2018–2025 (continuous; handle changes mid-run) | NYC | Professional delivery operator; 99.3% availability, median 7-min reply; still operating 2026 |
 | Tim | ~2020s | undocumented | Named in the MAX_PRIME succession; no thread yet identified |
 | **Bop** (Felix is not a node) | 2026 | Uniontown | Current primary node — house calls daily at noon; Dan maintains his property in part-payment; identity otherwise unknown |
 

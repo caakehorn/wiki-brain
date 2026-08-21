@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-19
+date_modified: 2026-08-21
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -67,6 +67,17 @@ ordinary sense of a person who does not think about it — it is one of the most
 intensively managed objects in the whole archive. It is managed the way an
 instrument is managed: configured at the input, read at the output, and never
 serviced.
+
+> **RE-CHECKED [2026-08-21] — three premises moved, none of them where this
+> page leans.** [[wiki/health/cocaine]] and [[wiki/mind/synthesis/supply-network]]
+> moved on 2026-08-21, [[wiki/mind/synthesis/the-deferred-audit]] on 2026-08-20.
+> All three movements are about the **Menore node** — that his service ran
+> continuously rather than in two eras, that his product is bagged and not
+> cannabis, that he is still operating — plus `RE-CHECKED` blocks. This page's
+> argument is maintenance versus surveillance, and the one place it touches
+> supply topology is the Tom/Suboxone reversal at *"It reverses the supply
+> architecture,"* which concerns the prescription-versus-dealer ordering and
+> not the NYC delivery node at all. Nothing withdrawn, nothing narrowed.
 
 The two teeth are what that costs. By 2025 a visible canine is gone, and Dan
 supplies his own causal chain for it — *"bulimic as a high schooler candy as a

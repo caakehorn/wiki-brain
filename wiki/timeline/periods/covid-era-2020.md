@@ -24,6 +24,9 @@ connections:
   - page: wiki/people/sam
     type: co-occurs
     claim: "The Sam thread's May–September 2020 resumption is street-level documentation of the siege months: deliveries negotiated around rides, breakdowns, and a dealer reduced to asking 'You still in ny.'"
+  - page: wiki/people/seth-ledonne
+    type: evidenced-by
+    claim: "Dan's June 7, 2020 real-time account — '8pm curfew... it's been like living in beirut' — documents the George Floyd-protest curfew period in Manhattan from inside the lockdown year, alongside a still-undecided 2020 vote (unwilling to back Biden as of April)."
 ---
 
 

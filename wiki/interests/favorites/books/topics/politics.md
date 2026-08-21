@@ -10,6 +10,9 @@ connections:
   - page: wiki/mind/synthesis/2020-left-turn
     type: follows
     claim: "This reading list is the book-length continuation of the August 2020 turn; the primary texts (Manifesto, Kapital, Conquest of Bread) were read during it."
+  - page: wiki/interests/roman-republic
+    type: parallels
+    claim: "The same appetite — power, betrayal, the mechanics of how a republic degrades — drives both shelves, and he explicitly bridges them in June 2024 by pairing the Rome reading with an 'end of the Senate' Atlantic piece."
 ---
 
 

@@ -38,6 +38,9 @@ connections:
   - page: wiki/mind/concepts/institutional-out
     type: co-occurs
     claim: "The night-class fiction that ran the labor extraction also covered the Valeria affair — one unfalsifiable alibi serving both concealments simultaneously."
+  - page: wiki/timeline/periods/2021-2023-employment-block
+    type: component-of
+    claim: "The Valeria affair — the decade's one unauthorized infidelity — runs inside this period, covered by the same night-class alibi infrastructure the job produced."
 ---
 
 # Valeria Iglesias Cid

@@ -15,6 +15,10 @@ infobox:
   relationship_to_dan: unknown
   first_contact: 2019-06-02
   known_for: "Saved in Google Contacts under the first name 'annoying' — Dan's own label, not a self-identification — this is a cocain"
+connections:
+  - page: wiki/health/cocaine
+    type: evidences
+    claim: "An unidentified 2019 cocaine dealer saved under Dan's own 'annoying' label — the thread documents price negotiation ($300 for a ball, $8ball/280) and the purely transactional register of the short-term supply bond."
 ---
 
 # "Annoying" (unidentified dealer, 2019)

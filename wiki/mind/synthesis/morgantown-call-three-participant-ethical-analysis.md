@@ -5,7 +5,7 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-20
-date_modified: 2026-08-20
+date_modified: 2026-08-21
 tags: [forensic-analysis, relationships, legal, mental-health]
 sources:
   - raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a
@@ -38,6 +38,13 @@ connections:
 # The Morgantown Call: Ethical Roles of Dan, Annie, and Jerel Coles
 
 ## Executive finding
+
+> **RE-CHECKED [2026-08-21] — premise moved by a re-check block only.**
+> [[wiki/mind/synthesis/august-grievance-verdict]] moved on 2026-08-21 solely
+> by gaining a `RE-CHECKED` blockquote, which confirmed that the Menore control
+> row on `block-unblock-loop` does not reach that page's
+> demand-for-a-statement mechanism. No grievance finding, quotation or
+> verdict changed, and this analysis reasons from those.
 
 > **VERIFIED AND AMENDED [2026-08-20] — the parental-disclosure threat is made
 > during the call, not after it.** This page's central reconstruction turns on a

@@ -15,6 +15,10 @@ infobox:
   relationship_to_dan: unknown
   first_contact: 2018-05-13
   known_for: "Al (saved in contacts under the joke label 'Socialist') was a cocaine dealer during the 2018 deep-cycle period — one of "
+connections:
+  - page: wiki/health/cocaine
+    type: evidences
+    claim: "Al (saved in contacts as 'Socialist') was a 2018 cocaine dealer whose 53-message thread ends in an unpaid-debt confrontation — the record's clearest example of a supply relationship rupturing over money."
 ---
 
 # Al

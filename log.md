@@ -3040,3 +3040,80 @@ nothing can read is worse than a missing one, because nothing reports it.** A
 second new check warns when the master index's per-domain counts drift from
 reality. 78 tests pass (up from 52), three gates 0 errors, corpus in sync at
 486 pages.
+
+## [2026-08-21] close+lint | all domains | two operator answers integrated; a false claim retracted and gated; staleness cleared to zero
+
+**The page about ChatGPT had never read Dan's ChatGPT.** Its `sources:` listed
+a Gemini activity log, two dox files and a tweet sample; the 375-conversation
+export has been in `raw/` since 2026-07-20 and five other pages already cite
+it. Read in full and measured over every branch of every conversation tree
+(1,456 user / 1,599 assistant turns): first thread **2022-12-10**, ten days
+after launch, on `text-davinci-002-render-sha` — corroborating the operator's
+first-public-release account. **Five refusals in 1,599 turns, all April–May
+2025, zero in the 1,062 before that.** The four image-generation blocks are a
+different guardrail surface and one is jailbroken in the same session. Usage
+*peaked* in the four months before GPT-5 (May 2025, 79 conversations, the
+heaviest month on record) and the final thread is full-register.
+
+The page's "phase shift triggered by the GPT-5 release" is struck as
+unsupported rather than restated. **The export ends 2025-07-01 because that is
+its generation date, not a usage cliff** — an August 1, 2025 ChatGPT
+conversation exists in `raw/` and is absent from it — so the corpus holds no
+substantial primary record after the release it blames. A re-export is now the
+page's top action. Cascaded to `llm.md`, which was still presenting Gemini's
+chicken-nugget passage as Dan's: the same misattribution `chatgpt.md` corrected
+on 2026-08-19 and never passed downstream.
+
+**Checking the Menore answer resolved the page's largest open CONTRADICTION in
+the opposite direction from expected.** Operator, T0: *"Menore is still
+operational."* Mining the name corpus-wide (270 mentions; 21/17/4/0/17/180/29/0
+by year 2019→2026) puts him **in active service throughout 2023 and Jan–May
+2024** — *"i texted menore right by carnegie hall,"* *"Menore said 20 mins,"*
+*"Menore will be here around 9"* — which is inside the dedicated handle's
+1,458-day "dark gap." The gap is a phone number, not a break in service, so the
+Au Za'atar storytime's 2021–24 window is **corroborated** rather than
+unresolved. Same sweep: he is **Dominican** and "el menore" is Spanish, which
+`au-zaatar` had recorded independently; *"both brothers"* (2021-01-30) is the
+first lead on the never-named associate. After the February 2025 exit he
+persists as the benchmark Dan's PA market is priced against and loses to.
+
+**A core claim on that page was a misread number.** It asserted *"Need 8" is
+the entire transaction language.* Measured: `need 8` occurs **twice** in 2,660
+sent messages, `need` appears in eleven, and most standalone 8s are Menore
+quoting an arrival time — *"8. Cool?"*, *"Crossing @ 8"* — matching the
+18:00–20:00 delivery peak the same page measures. A clock time had been read as
+a dosage. The true idiom is stronger than the claim it replaces: `can you stop
+by` (432) plus an address, with **zero** occurrences of bag, ball, 8ball or weed
+across 4,413 messages. The product is absent from the exchange entirely.
+
+**That retraction exposed a structural hole in the generated timeline.**
+`bin/wiki-lint` caught the dead claim in `master-timeline.md`, which copies
+sentences verbatim out of 341 pages — and the copy lands outside both the
+correction blockquote and the `documented_on` exemption that made the original
+legal. A second, unrelated retraction (`suz-750-weekly`, narrated in prose on
+`claude.md` under its exemption) had already leaked the same way. Regenerating
+was silently able to resurrect any retracted claim. `bin/wiki-timeline` now
+compiles `RETRACTED.md` and refuses any matching event: such a sentence is
+either the dead claim, which must not propagate, or a page narrating its
+retraction, which is edit history and never a life event.
+
+**Linking: 193 half-built edges closed.** A typed edge declared on one page with
+nothing on its target is a finding readable from only one end. Each inverse was
+written with its source claim verbatim per `CONNECTIONS_SPEC`'s retrofit rule —
+104 pages, 13 of which had no `connections:` block at all and were reachable
+only through an index.
+
+**Staleness cleared to zero, and the two pairs `BACKLOG.md` predicted would be
+expensive were the two that were.** `the-embedded-objective` ← `bfs-foods`: the
+BFS row is the control proving an absent payload collapses tenure, and the
+restoration message supplies a second, incompatible account of why the job ended
+(Dan's own *"the only thing I did was go home 30 minutes before my shift"*
+against a posted `NO HIRE: Daniel Frank` sign) — a tenure ended by arbitrary
+employer action cannot be a clean control for a variable about Dan's own
+sustaining. Rule survives, row qualified. `the-commissioned-self` ←
+`wiki-brain`: the handle-is-not-a-person defect does **not** reach it, and
+structurally — the load-bearing count is outbound, and the defect is an
+inbound-attribution problem.
+
+Gates: lint 0 errors · connect 0 errors (65 warnings, all legacy `## Related`
+footers, queued) · climb **0 errors, 0 warnings** · corpus in sync · 84 tests.

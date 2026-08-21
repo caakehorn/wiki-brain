@@ -6,6 +6,13 @@ date_created: 2026-07-11
 date_modified: 2026-08-20
 sources: []
 related: []
+connections:
+  - page: wiki/timeline/master-timeline
+    type: contains
+    claim: "The master timeline is the timeline domain's chronological index — every dated event the wiki records, extracted mechanically from the pages that hold them and linked back to the page and section that carries the evidence."
+  - page: wiki/timeline/annie-record
+    type: contains
+    claim: "The hand-read chronology of the single relationship that dominates the corpus, kept separate from the mechanically generated master timeline because its entries are read and judged rather than extracted."
 ---
 
 # timeline — index

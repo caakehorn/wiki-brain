@@ -23,6 +23,9 @@ connections:
   - page: wiki/interests/music/bands/batteries-not-included
     type: contextualizes
     claim: "Seth is named as one of the scene mentors (with Andy, Paul, Nathan, Kessler) whose harsh hardcore/punk scene Dan's high school band operated inside of, and 'Rejected Gazette' as a named touchstone of the same milieu."
+  - page: wiki/interests/music/bands/batteries-not-included
+    type: evidences
+    claim: "Seth is named as one of the scene mentors (with Andy, Paul, Nathan, Kessler) whose harsh, high-standards hardcore/punk scene the band operated inside of, and 'Rejected Gazette' as a named zine/scene touchstone of the same milieu."
 ---
 
 # Seth LeDonne

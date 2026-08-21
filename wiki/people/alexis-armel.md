@@ -78,6 +78,24 @@ connections:
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: parallels
     claim: "A spring-2026 model scoring blind on seven invented dimensions put Alexis at 7.1 and Annie at 1.9, and located seven of the 5.2-point gap in non-exploitation alone — the same axis this wiki separates them on, reached from different evidence."
+  - page: wiki/places/90th-st-manhattan
+    type: co-occurs
+    claim: "Alexis lived here through the address's full run and worked at the Bridge Cafe until Hurricane Sandy closed it in October 2012 — the final economic shock of NYC-1 before the return to Uniontown the following spring."
+  - page: wiki/places/424-bedford-ave
+    type: co-occurs
+    claim: "Alexis was 'with me the whole time we were in nyc,' working at the Bridge Cafe until Hurricane Sandy — the relationship's first sustained cohabitation, predating the 155 Virginia Ave/Annie-era household by five years."
+  - page: wiki/timeline/periods/uniontown-return-2013-2015
+    type: component-of
+    claim: "The five-year Alexis relationship runs out its endgame here, ending across Nov 29 - Dec 1 2015 with no grievance on her side on the record — the uncaused collapse that immediately precedes the Annie genesis."
+  - page: wiki/people/jamie-mohler
+    type: evidences
+    claim: "Alexis's own August 12, 2011 Gchat ('is Mohler supposed to come over? or is he house bound bc of his knee?') independently places Jamie inside the Brooklyn household's regular social orbit, not just Dan's individual friendship."
+  - page: wiki/people/casey-bondarenka
+    type: co-occurs
+    claim: "Casey is present in the household through the final week of the Alexis relationship, buying beer for her while the eviction is in progress, and asks Dan directly whether he may pursue her if it ends."
+  - page: wiki/people/emaly-minerd
+    type: evidenced-by
+    claim: "Dan's November 28, 2018 account to Emaly is the fullest retrospective anywhere in the corpus of how the Alexis arrangement began, including the $3,000 offer to be 'a plaything for Annie' — told to an outsider he was actively pursuing, which is the context that produced the detail."
 ---
 
 # Alexis Armel

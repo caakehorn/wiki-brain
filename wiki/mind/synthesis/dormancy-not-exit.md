@@ -6,7 +6,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-20
+date_modified: 2026-08-21
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -69,7 +69,7 @@ connections:
     claim: "The channel never closes and never has to — but the operator's 2026-08-20 answer puts a boundary on the rule: the June 1, 2026 burst went to an email handle Ally does not monitor and was never delivered, and she had concluded she was blocked. At least one silence in this tie is a routing artifact rather than dormancy, so a gap is not evidence of the rule until the handle it was sent to is checked."
   - page: wiki/mind/synthesis/block-unblock-loop
     type: contradicts
-    claim: "That page scores Menore's February 2025 farewell as the record's only fully clean closure, but the same channel had already gone silent for 2,044 days under identical structural conditions and reopened — so its cleanest control is provisional on elapsed time rather than settled."
+    claim: "That page scores Menore's February 2025 farewell as the record's only fully clean closure, but the same channel had already gone silent for 2,044 days and reopened, its second 1,458-day silence turned out to be a phone-number change with service running underneath, and the operator confirms Menore still operating in 2026 — the cleanest control is provisional on elapsed time, not settled."
   - page: wiki/mind/synthesis/bond-switch-2015
     type: parallels
     claim: "The switch documents the primary slot changing hands inside a single month; this page documents that the person leaving the slot stays in the graph, which is why a swap that fast costs nothing to execute."
@@ -129,7 +129,7 @@ people who have vacated it — and finds that they are all still here.
 | [[wiki/people/danielle-onesi]] | 2009 (Dan's infidelity) | Suzanne's closest friend; cat co-guardian; Christmas fixture | **17 years, unbroken** |
 | [[wiki/people/alexis-armel]] | Dec 2015 (Dan left for Annie) | Paid participant in the 2018 arrangement; warm correspondence to Feb 2025 | **~10 years** |
 | [[wiki/places/424-bedford-ave]] | 2012 (moved out) | Origin node of the Menore supply line, live to 2025 | **13 years** |
-| [[wiki/people/menore]] | Apr 2013 (Dan leaves NYC) | Dormant, then reactivated Nov 2018; ran to Feb 2025 | **12 years, one gap** |
+| [[wiki/people/menore]] | Apr 2013 (Dan leaves NYC) | Dormant, then reactivated Nov 2018; ran continuously to Feb 2025 — and the counterparty is **confirmed still operating in 2026** | **12 years, one gap** |
 | [[wiki/places/155-virginia-ave]] | — | Container retained across the occupant swap | — |
 | [[wiki/people/james-dee]] | Jul 2025 (56 days) | Residual contact only — two unanswered writes, then one in-person confrontation | **~2 months, then thin** |
 | [[wiki/people/franki-faris]] | 2013 (5 days) | **Nothing.** No corpus, no trace, `status: closed` | **none** |
