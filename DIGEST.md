@@ -55,6 +55,7 @@ this is the state of the thing.
   - answer | people | who is the best match for Dan — rewritten, same conclusion, new evidence
   - answer | mind | the correction was wrong: Dan types INTP, and the corpus says so on a dedicated page
   - answer | mind | re-audited with all sixteen type codes: two more absence claims were wrong
+  - infra | portal | the loop had no return leg, and a corrected answer sat unpublished for forty minutes
 
 **2026-08-20** — 33 pages
   - ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
