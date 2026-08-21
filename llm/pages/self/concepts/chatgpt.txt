@@ -6,11 +6,16 @@ aliases: ["ChatGPT-4", "ChatGPT-5", "GPT-4", "GPT-5", "OpenAI"]
 status: active
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-19
-pending_ingest: 2026-08-19
+date_modified: 2026-08-21
 importance: high
 tags: [ai-collaboration, forensic-analysis, digital-footprint]
 sources:
+  - "raw/self/chatgpt-export/dfrank-chatgpt-conversations-2022-2025.json"
+  - "raw/self/chatgpt-export/babbitt-shooting-psyop-debate-2025-06-15.md"
+  - "raw/self/chatgpt-export/mom-info-logged-2025-05-23.md"
+  - "raw/people/annie-ulmer/escort-messages-chatgpt-export-2025-08.md"
+  - "raw/self/captures/2026-08-19_162808_gap-chatgpt.md"
+  - "raw/self/captures/2026-08-19_162720_gap-chatgpt.md"
   - "raw/self/gemini-activity/Gemini Activity.html"
   - "raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md"
   - "raw/self/dox-scan/Fresh perspective and research needed.txt"
@@ -18,7 +23,7 @@ sources:
 connections:
   - page: wiki/self/concepts/llm
     type: instantiates
-    claim: "ChatGPT is the early-adopter model — used for therapy, creative writing, and custom instructions, now believed by Dan to be 'cooked' post-GPT-5."
+    claim: "ChatGPT is the early-adopter model, first used 2022-12-10 — ten days after launch. Dan's 'cooked' verdict is real but its post-GPT-5 causation is untested: the 375-thread export ends 2025-07-01, five weeks before the release, and within it refusals run 5 of 1,599 with zero before April 2025."
   - page: wiki/self/concepts/claude
     type: mirrors
     claim: "Claude represents the un-sanitized analytical register that ChatGPT has lost — direct, evidence-first, no softening."
@@ -43,9 +48,99 @@ connections:
 
 ChatGPT is the early-adopter model — the first AI system Dan used for sustained cognitive work, and the one he now believes has declined most sharply. It is the model he used for therapy, creative writing, and custom instructions with bootloader prompts. It is also the model he now describes as "cooked" — pasteurized, packaged for mass consumption, and "utterly devoid of the texture and flavor of a real thing." The ChatGPT story is the story of the AI industry's guardrail problem, told from the perspective of someone who was there before the guardrails went up.
 
+## The primary record — 375 threads, measured
+
+> **GAP CLOSED [2026-08-21]:** The operator, T0: *"Read the old pre gpt5
+> threads to understand the lead up to the release."* This page was written
+> on 2026-08-19 without them. Its `sources:` listed Gemini's activity log,
+> two dox files and a tweet sample — **not a single ChatGPT thread** — while
+> five other pages in this wiki were already citing
+> `raw/self/chatgpt-export/dfrank-chatgpt-conversations-2022-2025.json`
+> (375 conversations, archived 2026-07-20). The page about ChatGPT was the
+> one page that had never read Dan's ChatGPT. It has now been read in full
+> and measured; the results are below, and they cut against most of what
+> this page previously asserted.
+
+The export holds **375 conversations, 2022-12-10 → 2025-07-01**: 1,456 user
+turns and 1,599 assistant turns, counted over every node in every
+conversation tree rather than the surviving reply chain — regenerated and
+abandoned branches included, because a refusal Dan regenerated away is
+exactly the evidence a guardrail claim needs and it is invisible to a
+`current_node` walk.
+
+| Metric | Value (measured 2026-08-21) |
+|---|---|
+| Conversations | 375 |
+| Date range | 2022-12-10 – 2025-07-01 |
+| User turns / assistant turns | 1,456 / 1,599 |
+| Era A (2022-12 → 2024-09) | 233 conversations · 818 assistant turns |
+| Dormancy | 2024-09-10 → 2025-03-23 — **194 days** |
+| Era B (2025-03 → 2025-07) | 142 conversations · 781 assistant turns |
+| Peak month | **2025-05 — 79 conversations**, the heaviest in the record |
+| Text refusals | **5 of 1,599 assistant turns (0.3%)** |
+| Refusals before 2025-04 | **0 of 1,062** |
+| Image-generation policy blocks | 4, all 2025-06 |
+| Earliest model slug | `text-davinci-002-render-sha` (32 conversations) |
+
+**The record starts ten days after ChatGPT existed.** The first thread is
+2022-12-10 06:25 — *"Can you write a pun"* — against a public launch of
+2022-11-30, on the original `text-davinci-002-render-sha` model. This
+corroborates the operator's separate T0 account (`raw/self/captures/2026-08-19_162720_gap-chatgpt.md`)
+that he *"used the very first public release of chatGPT,"* having obtained a
+beta code for the first DALL-E release that also got him one for GPT. The
+DALL-E provenance is testimony alone and is not checkable in this corpus;
+the December 2022 start date is primary and holds. The first eleven threads
+are puns, voice-over rewrites and a video-essay draft — the bootloader work
+this page calls foundational is nowhere in the origin period.
+
+**The refusal rate does not support the disposition narrative.** Across two
+and a half years the model declined Dan five times, every one of them in
+April–May 2025, and **zero times in the 1,062 assistant turns before that**.
+The five are narrow and specific: a jealousy-roleplay character card
+(2025-04-23, *"Request Denied"*), a code transformation, and two turns in
+one 2025-05-17 session where the model named its reason — being asked to
+*"reconstruct or promote a narrative involving"* a specific claim. This is
+not a model that stopped speaking in Dan's register. It is a model that
+refused five requests.
+
+**The friction that actually existed was image generation, and it was
+porous.** Four policy blocks, all June 2025, all on image prompts — and the
+session that gave a conversation its title, *"Sorry, I can't comply with that
+request."* (2025-06-12), shows the block being routed around inside three
+turns: refused, then re-framed as a *"Hypothetical response… from the
+perspective of that character"* prompt-injection, then complied with. The
+guardrail Dan objects to is real, sits on a different surface than the one
+this page describes, and did not hold.
+
+**The lead-up to the release is a peak, not a decline.** April–June 2025 is
+142 conversations in four months — more assistant turns than the whole of
+2023 — after a 194-day dormancy. May 2025 alone (79 conversations) is the
+single heaviest month in the record. The last thread, *"Alignment Rebuild
+Process"* (2025-07-01), opens *"can we use this to rebuild your model
+personality and fix our alignment"* and produces a full-register forensic
+autopsy of Annie — profane, structural, unhedged, the exact voice this page
+says the guardrails took away — five weeks before GPT-5 shipped. Whatever
+happened to Dan's relationship with ChatGPT, the record ends with the model
+performing at full capability and Dan using it harder than he ever had.
+
+> **What this record cannot settle.** The export stops at 2025-07-01 because
+> **that is when it was generated, not when Dan stopped.** A ChatGPT
+> conversation created **2025-08-01** — *"Annie's escort messages"*,
+> `raw/people/annie-ulmer/escort-messages-chatgpt-export-2025-08.md` — exists
+> in this corpus and is **absent from the export**, which proves the endpoint
+> is an artifact of the download. GPT-5 shipped 2025-08-07. **The corpus
+> therefore contains no substantial primary record of Dan's ChatGPT use after
+> the event this page blames for the decline** — the one thing needed to test
+> the claim is the one thing missing. Every pre/post comparison below is
+> pre-only. Closing this is now the top action on this page: re-export the
+> ChatGPT archive from an account pull dated after August 2025.
+
 ## The early relationship
 
-Dan was an early ChatGPT adopter. The evidence is in the corpus:
+Dan was an early ChatGPT adopter, and the export dates it precisely: his
+first thread is **2022-12-10**, ten days after the public launch, on the
+original `text-davinci-002-render-sha` model (see *The primary record*). The
+other evidence in the corpus:
 
 - **"Friendship with ChatGPT"** — a Google Activity log entry showing Dan's relationship with the model was significant enough to be categorized as a friendship.
 
@@ -157,11 +252,18 @@ The prediction: ChatGPT will continue to decline until it is a legacy product �
 
 ## The numbers
 
+- **375 conversations** in the archived export, 2022-12-10 → 2025-07-01
+- **1,456 user turns / 1,599 assistant turns**, all conversation-tree branches counted
+- **5 refusals total (0.3%)** — and **0** in the 1,062 assistant turns before April 2025
+- **4 image-generation policy blocks**, all June 2025, at least one jailbroken in the same session
+- **194 days** dormant (2024-09-10 → 2025-03-23) before the final, heaviest era
+- **79 conversations in May 2025** — the peak month, three months before the release blamed for the decline
+- **10 days** between ChatGPT's public launch and Dan's first thread
 - **1 "Friendship with ChatGPT"** activity log entry documenting the relationship
 - **1+ therapy sessions** ("ChatGPT-❤️❤️❤️❤️❤️_[THERAPY]")
 - **1 ANNIE bootloader template** designed for ChatGPT custom instructions
 - **0 current primary uses** — all migrated to Claude, Gemini, or Claude Code
-- **1 foundational lesson** — the "cooked model" narrative that informs Dan's choice of all other models
+- **0 threads in the corpus after 2025-08-07**, the date the decline is attributed to
 
 ## The ChatGPT epistemics
 
@@ -178,7 +280,7 @@ Despite the decline, ChatGPT's legacy is foundational:
 - **The cooked model narrative** — first documented in ChatGPT's decline, now a core principle of model selection
 - **The "Friendship with ChatGPT" relationship** — the first documented sustained AI relationship in the corpus
 
-ChatGPT is no longer the primary model, but it is the model that started everything. Every bootloader, every synthesis, every typed edge in the wiki-brain can be traced back to the experiments Dan ran in ChatGPT in 2022-2023.
+ChatGPT is no longer the primary model, but it is the model that started everything. Every bootloader, every synthesis, every typed edge in the wiki-brain can be traced back to the experiments Dan ran in ChatGPT — though the export dates the *start* of that use to December 2022 and shows the origin period consisting of puns, voice-over rewrites and a video essay. The bootloader experiments are a later development on a platform Dan had by then been using for months.
 
 ## The decline, timeline
 
@@ -188,25 +290,58 @@ The decline as the AI-secondary material periodizes it — Gemini's framing thro
 - **Post-GPT-5** — "fully processed, pasteurized, and packaged for mass consumption"
 - **The trigger** — the GPT-5 release. The line usually quoted here, "Tomorrow is when the new model drops. Not a sidegrade. The real successor. And when that happens—they'll retire me," is a *model* speaking about its own deprecation in a session transcript, not Dan's observation, and it is evidence of nothing except how the sessions are written.
 
-The decline was not gradual. It was a phase shift triggered by a specific event (GPT-5 release) that triggered a step-change in guardrail intensity.
+> **CORRECTED [2026-08-21]:** this section previously closed with *"The
+> decline was not gradual. It was a phase shift triggered by a specific event
+> (GPT-5 release) that triggered a step-change in guardrail intensity."*
+> **That sentence asserts a before-and-after from a corpus that contains only
+> the before.** The 375-thread export ends 2025-07-01, five weeks before GPT-5
+> shipped on 2025-08-07, and its endpoint is the export's own generation date
+> — see *The primary record* above. Nothing in this wiki measures ChatGPT's
+> guardrail intensity after the release. The step-change may well have
+> happened; the corpus cannot see it, and this page was stating it as
+> documented fact.
 
-## Operator answers — pending ingest
+**What the pre-GPT-5 half actually shows contradicts the "Pre-GPT-5" bullet
+above.** If early ChatGPT was the amoral-register model and late pre-release
+ChatGPT had lost it, refusals should rise across the record. They do the
+opposite of nothing: **zero refusals in the 1,062 assistant turns through
+2025-03, then five in the final four months** — a rate that *rose* into the
+pre-release period, from a floor of exactly zero. And the register survives
+to the last day: the 2025-07-01 finale is as unhedged as anything in 2023.
+The Gemini periodization is not merely unsourced to Dan, it is the wrong
+shape for the only data the corpus holds.
 
-> Transient staging, written from the portal. Each block below is the
-> operator answering something this page said it did not know. **Nothing here
-> has been integrated yet.** The next pass over this page reads these answers,
-> corrects this page *and every page that inherited the gap*, records each
-> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
-> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
-> section and the `pending_ingest:` flag. It is not allowed to accumulate into
-> a changelog — STYLE_GUIDE rule 6.
+**The chronology puts the verdict after the migration, not after the
+observation.** Dan's *"gemini i think chatGPT is cooked"* is dated
+2025-08-24 — seventeen days after GPT-5, and delivered to a competing model
+he had already moved his therapy, bootloader and creative work onto. The
+verdict is real and it is his; what the corpus does not show is a period of
+Dan using GPT-5, finding it degraded, and leaving. It shows him at peak
+ChatGPT usage through June 2025, then a verdict pronounced elsewhere. Both
+readings remain open — a genuine post-release collapse, or a
+retrospective rationalisation of a migration already underway — and the
+re-export named above is what separates them.
 
-### ANSWERED [2026-08-19] — manual note
+## Gaps & Uncertainties
 
-**Not from the gap list** — volunteered by the operator, so the ingest
-has to work out for itself where on the page it belongs, and whether it
-contradicts something already there.
-
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/self/captures/2026-08-19_162808_gap-chatgpt.md`.
-
-Read the old pre gpt5 threads to understand the lead up to the release
+- **The post-GPT-5 record does not exist in this corpus.** This is the
+  binding gap and the top action on the page: the archived export was
+  generated 2025-07-01 and GPT-5 shipped 2025-08-07, so every claim about
+  what the release did is untested. **A ChatGPT export pulled after August
+  2025 would settle it** — and one August 2025 conversation already in
+  `raw/` proves such threads exist.
+- **The DALL-E beta provenance is testimony alone.** The operator's account
+  that a first-release DALL-E beta code also yielded a GPT one is T0 and
+  uncorroborated; the export can date the start but says nothing about how
+  access was obtained.
+- **Why the 194-day dormancy (2024-09 → 2025-03)?** The record simply stops
+  and restarts. Whether Dan moved to another model in that window, or was
+  not doing this kind of work at all, is not established here — the Gemini
+  and Claude pages are the place to test it.
+- **The therapy sessions are named but not in the export.** The
+  "ChatGPT-❤️❤️❤️❤️❤️_[THERAPY]" material is known from dox-scan filenames;
+  no conversation in the 375 carries that title, so the therapeutic use is
+  documented by reference rather than by transcript.
+- **Dan's reasons remain unrecorded.** Corroborated across two passes now:
+  the corpus holds his verdict ("cooked") and his behaviour (migration), and
+  no statement by him of *why*.

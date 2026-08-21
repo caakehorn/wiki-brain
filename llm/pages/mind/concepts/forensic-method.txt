@@ -87,6 +87,9 @@ connections:
   - page: wiki/mind/synthesis/closing-the-set
     type: evidenced-by
     claim: "Thirty authors on one presidency and fourteen on one republic is the method's multiple-independent-accounts rule running on leisure reading with nothing at stake — evidence that raw-over-mediated triangulation is a disposition rather than a technique adopted for the 2025-26 deployments."
+  - page: wiki/work/tech/max-framework/overview
+    type: instantiates
+    claim: "CATO's evidence-first, no-sycophancy, glyph-enforced operating mode is the forensic-method cognitive OS deliberately pasted into an AI session as a standing configuration, rather than left as a default disposition."
 ---
 
 

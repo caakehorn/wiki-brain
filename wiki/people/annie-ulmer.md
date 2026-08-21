@@ -287,6 +287,12 @@ connections:
   - page: wiki/people/bruce-burish
     type: evidenced-by
     claim: "The thread is an outside record of the camming business at its launch: Dan describes it to a friend in October 2018 in the couple's-project register, and quotes Annie's prior solo cam work as the reason it 'works out really well to do it as a couple.'"
+  - page: wiki/people/emaly-minerd
+    type: co-occurs
+    claim: "Emaly is the rare outside party who met Annie, liked her ('she's definitely one of the rare ones'), and questioned the arrangement's mechanics back to Dan directly — and the thread runs the seduction and the reassurance of Annie on parallel tracks, Dan telling Annie he was 'talking you up' mid-pursuit."
+  - page: wiki/people/trinity-st-clair
+    type: co-occurs
+    claim: "The booking was for the couple, not for Dan — Trinity was hired days after the March 2019 move back to New York to 'come hang out with my girlfriend and i,' which places Annie inside the arrangement as a participant rather than a party being managed around."
 ---
 
 # Annie (Anne Louise Ulmer)

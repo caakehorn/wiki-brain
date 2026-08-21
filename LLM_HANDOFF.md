@@ -4,6 +4,81 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-21] - Session: the ChatGPT page had never read ChatGPT, and a clock time was being read as a dosage
+
+* **Model:** Claude Code · **Branch:** `claude/repo-review-linking-t4r92g`
+* **Trigger:** *"There have been a lot of entry updates since the last time you
+  looked at this repo. Familiarize yourself with the new articles and do a full
+  pass over it to do linking gates, lint, and anything else you wanna do."*
+* **Method:** CLOSE on both pending operator answers, then LINT across the
+  whole repo. No new raw source arrived; everything below came from material
+  already in `raw/`.
+
+**Read this first if you are picking up the thread.**
+
+**Both pending operator answers are integrated and `bin/wiki-gaps pending` is
+empty.** Neither was a simple fill-in, and both changed a page's argument
+rather than adding to it.
+
+**`chatgpt.md` was written without reading a single ChatGPT thread.** The
+375-conversation export has been in `raw/` since 2026-07-20 and five other
+pages cite it; the page about ChatGPT cited a Gemini activity log instead.
+Now measured over every branch of every conversation tree — **5 refusals in
+1,599 assistant turns, all April–May 2025, zero in the 1,062 before that**;
+first thread 2022-12-10, ten days after launch. The page's "phase shift
+triggered by GPT-5" is struck, because **the export ends 2025-07-01 — its own
+generation date, not a usage cliff.** An August 1, 2025 ChatGPT conversation
+sits in `raw/` and is absent from the export, which proves it. The corpus
+therefore has no primary record after the release it blames for the decline.
+
+> **The methodological point worth carrying forward:** the first version of
+> this finding was wrong and was caught by one check. Seeing usage stop five
+> weeks before GPT-5, the obvious read is "he left before the thing he blames"
+> — which would have been a headline claim built on an export artifact. What
+> killed it was asking whether the corpus contained *any* ChatGPT activity
+> after that date. It did. **An export's last row is a fact about the export.**
+
+**`menore.md` had a core claim that was a misread number, and the operator's
+answer resolved its biggest contradiction the other way.** *"'Need 8' is the
+entire transaction language"* — `need 8` occurs **twice** in 2,660 sent
+messages; most standalone 8s are Menore quoting an arrival time. And mining
+the name corpus-wide (270 mentions) puts him in **active service throughout
+2023 and Jan–May 2024**, inside the handle's supposed 1,458-day dark gap. The
+gap is a phone number, not a break. New: he is Dominican; *"both brothers"* is
+the first lead on the never-named associate.
+
+**Top actions for the next pass.**
+
+1. **Re-export the ChatGPT archive from an account pull dated after August
+   2025.** This is the single highest-value action on the AI-concepts cluster.
+   It is the only thing that can test whether the "cooked" verdict describes an
+   observed post-GPT-5 decline or rationalises a migration already complete —
+   and the page now states that question explicitly instead of assuming the
+   answer.
+2. **Recover Menore's intermediate handle.** Service ran 2021–May 2024 on at
+   least one other number (*"Menore #1?"* implies more than one) and no export
+   exists for any handle but 3476070497. It would convert ~184 third-party
+   mentions into a primary thread. **2022 is the one blank year** — zero
+   mentions, the only window where a real service break could still hide.
+3. **`the-unbroken-bond` ← `enneagram-5w4`.** The one flagged pair where the
+   premise gained a *contradiction* rather than an addition; a 5w6 reading
+   would change the sx/sp fusion account the bond page leans on. Not a
+   staleness warning (the dates do not trip it), so nothing will remind you.
+4. **The 65 bare `## Related` footers**, ~960 untyped entries — method and
+   priority order are in `BACKLOG.md`. Convert in batches and re-run the
+   reciprocity step at the end of each; the gate count goes *up* mid-batch.
+
+**State of the gates.** lint 0 errors · connect **0 errors** (65 warnings, all
+the footers above) · climb **0 errors and 0 warnings** — every stale pair
+re-read against the premise that moved, none cleared by bumping a date · corpus
+in sync · 84 tests pass.
+
+**Two things changed in the tooling.** `bin/wiki-timeline` now compiles
+`RETRACTED.md` and refuses to emit any event matching a retracted claim — the
+generated timeline could previously resurrect one just by being regenerated,
+and two had already leaked. And `RETRACTED.md` gained
+`menore-need-8-transaction-language`.
+
 ### [2026-08-20] - Session: the wiki hallucinated about itself, and two pages were rebuilt
 
 * **Model:** Claude Code · **Branch:** `claude/rewrite-articles-annie-ally-locy0h`

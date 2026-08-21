@@ -19,6 +19,9 @@ connections:
   - page: wiki/timeline/events/august-2026-unmasking
     type: supplies
     claim: "Every wakefulness claim on that page depends on the directional asymmetry defined here; read the column as one thing and the same data yields the opposite conclusion."
+  - page: wiki/timeline/events/august-2026-unmasking
+    type: evidences
+    claim: "Every claim about her wakefulness rests on chat.db date_read values whose directional asymmetry that page defines; read the wrong way the same column produces the opposite conclusion."
 ---
 
 # Read-Receipt Forensics — chat.db Metadata and Its Traps

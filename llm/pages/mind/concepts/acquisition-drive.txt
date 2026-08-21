@@ -51,6 +51,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "This page's own falsified prediction — that a converted want runs to completion 'independently of cost' — is 'The Irreversibility Firewall's' clearest counter-instance turned into confirming evidence: the self-set goals that stalled were exactly the ones nearing the irreversible, exposed act of finishing."
+  - page: wiki/health/cocaine
+    type: evidences
+    claim: "The cocaine supply chain is the material expression of the acquisition drive — a daily dependency that cannot be left to one supplier, which is why the network persists across every era while its individual nodes rotate constantly."
 ---
 
 # The Acquisition Drive

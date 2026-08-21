@@ -16,6 +16,9 @@ connections:
   - page: wiki/interests/opie-and-anthony
     type: parallels
     claim: "A decade of shock-radio/long-form comedy immersion is the structural template Dan reaches for when designing his own long-form video format — Some More News is explicitly named as the model to reverse-engineer."
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: evidences
+    claim: "Requesting a data stress-test of his own creative-project hypothesis, then accepting a result that flatly contradicted his premise, is the honesty-enforcement pattern applied to a personal ambition rather than forensic or political material."
 ---
 
 # AI Video Essays (planned project)

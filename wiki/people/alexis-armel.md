@@ -93,6 +93,9 @@ connections:
   - page: wiki/people/casey-bondarenka
     type: co-occurs
     claim: "Casey is present in the household through the final week of the Alexis relationship, buying beer for her while the eviction is in progress, and asks Dan directly whether he may pursue her if it ends."
+  - page: wiki/people/emaly-minerd
+    type: evidenced-by
+    claim: "Dan's November 28, 2018 account to Emaly is the fullest retrospective anywhere in the corpus of how the Alexis arrangement began, including the $3,000 offer to be 'a plaything for Annie' — told to an outsider he was actively pursuing, which is the context that produced the detail."
 ---
 
 # Alexis Armel

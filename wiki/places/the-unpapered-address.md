@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-20
+date_modified: 2026-08-21
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -66,6 +66,14 @@ connections:
 > **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/legal/463-morgantown]] (2026-08-20). That page gained a section on the address as a threat vector and one typed edge. Re-read against
 > the change; **no claim on this page is affected** and nothing here is
 > withdrawn. The seven-address no-lease finding is unaffected — but the new material supplies this page a consequence it had not drawn: an unpapered tenancy has no landlord to escalate a trespass threat to. On 2026-08-17 Dan's only available responses were self-help (cameras, 'I will protect myself') and a court he never filed in. Worth a paragraph in a later pass; recorded here rather than written, because one instance is not the pattern this page argues from.
+
+> **RE-CHECKED [2026-08-21] — premise moved by a re-check block only.**
+> [[wiki/mind/synthesis/the-deferred-audit]] moved on 2026-08-21 solely by
+> gaining a `RE-CHECKED` blockquote confirming that its own three premises had
+> left it undisturbed. No deferral claim changed, and the housing argument here
+> reasons from those claims rather than from the block. The page's own open
+> items — the Fayette County recorder search and the 307 E 76th lease
+> signatory — are unaffected and remain the highest-value actions on it.
 
 
 Across sixteen years and seven residences, **this corpus contains no lease, no

@@ -50,6 +50,9 @@ connections:
   - page: wiki/health/the-configured-body
     type: component-of
     claim: "The stack is the input half of a two-mode architecture with no maintenance mode in it: substances are specified to the component and defended absolutely while the body they run on is never serviced, and this page's own gap on prescriber information is closed by the 2025 messages, which show a prescribing doctor whose entire recorded role is moving a script between pharmacies."
+  - page: wiki/timeline/events/robotussin-s-last-dance
+    type: contains
+    claim: "DXM is the first documented substance in the corpus that Dan took deliberately to 'shatter the space-time continuum' — a word-for-word prefiguration of the engineered-stack framing he adopts a decade later, and the first instance of recreational use preceding the opiate arc by two years."
 ---
 
 # Chemical Architecture

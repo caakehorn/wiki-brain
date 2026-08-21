@@ -34,6 +34,9 @@ connections:
   - page: wiki/mind/synthesis/the-cato-seat
     type: evidenced-by
     claim: "The spine's threat model — 'the failure mode is never ignorance, it is the diagnosis-to-behavior gap' and 'competence correctly deployed, outcome still catastrophic' — is independently reproduced by the favorites record, which was assembled for pleasure over twenty years and had no reason to agree with a commissioned self-assessment."
+  - page: wiki/places/seven-springs
+    type: contains
+    claim: "Seven Springs is the childhood social anchor named in the canonical origin timeline — a weekly ritual that predates and outlasts the family's later collapse."
 related:
   - wiki/self/overview
   - wiki/mind/concepts/conflict-architecture

@@ -35,6 +35,9 @@ connections:
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: contextualizes
     claim: "The verdict's central procurement finding — that supplying drugs was the only route to being seen — is restated verbatim by the opening exchange of this night."
+  - page: wiki/mind/synthesis/read-receipt-forensics
+    type: supplied-by
+    claim: "Every wakefulness claim on that page depends on the directional asymmetry defined here; read the column as one thing and the same data yields the opposite conclusion."
 ---
 
 # The Unmasking and the August 8–9 Collapse

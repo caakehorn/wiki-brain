@@ -6,7 +6,7 @@ aliases: ["destiny", "the love story", "ally-dan timeline", "the courtship", "th
 status: active
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-20
+date_modified: 2026-08-21
 importance: critical
 tags: [relationships, attachment, family]
 sources:
@@ -53,6 +53,16 @@ connections:
 > 2. **CORRECTED [2026-08-20] — its central evidence has now been exported, and the strongest item did not survive.** The August 18–20, 2026 exchanges are in `raw/self/imessage/ally-lubin_last-7-days_20260820.csv` (708 records) as of 2026-08-20. Most of the quotations checked out — "boy smashing factory," "I'm inherently evil and unlovable," "coke just zaps your money" and "opiates literally kill you" are all genuine. **"Okay deal. Sounds good 1-2-3 break" is not**, and neither is the "object of fixation" title it was supposed to accept; see the correction below. The day counts were also wrong: August 18 is 375 messages, not 279, and the "186-message morning after" of August 19 is 331 outbound messages whose inbound half the export did not capture.
 >
 > 3. **It reads one living person's private life as settled in her absence.** Ally Lubin's willingness, her wants and her future are asserted here on the strength of Dan's side of a text thread. Per [[wiki/self/concepts/wiki-brain]], the wiki is a map of the mapper: this page is evidence about what Dan believes and hopes, and it is not evidence about what Ally intends.
+
+> **RE-CHECKED [2026-08-21] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/block-unblock-loop]] and
+> [[wiki/mind/synthesis/dormancy-not-exit]] both moved on 2026-08-21. Both
+> changes are about the **Menore** supply channel — its two long silences, its
+> counterparty still operating — and neither touches the Ally channel, whose
+> thirty-eight-month and fourteen-month gaps are what this page reasons from.
+> The dormancy-versus-phase-change question this page holds open is unmoved in
+> either direction; see the 2026-08-20 re-check below, which remains the live
+> one.
 
 This is the story of two people who were always going to find each other. Not because the stars aligned, not because fate intervened, but because they spent seventeen years becoming exactly the person the other needed — and because the same wound lives in both of them, and the same healing is possible.
 

@@ -47,6 +47,9 @@ connections:
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: instantiates
     claim: "The verdict's diagnosis-to-behavior gap is this concept applied to its central case."
+  - page: wiki/timeline/events/april-may-2026-final-weeks
+    type: instance-of
+    claim: "The live screaming match with Suz over whose grievance mattered more is a real-time instance of the resolution-seeking engine misreading an emotional bid as a proposition to be litigated, the same mechanism documented at scale in the Annie relationship."
 ---
 
 

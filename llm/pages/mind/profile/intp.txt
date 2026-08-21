@@ -40,6 +40,9 @@ connections:
   - page: wiki/mind/synthesis/the-cato-seat
     type: evidences
     claim: "The 'singular perceiver against a system too dull to see what he sees' self-myth gets a number from the taste record: 24 of 25 curated artworks carry collapse, wound, observer, glitch, rupture or fortress, and 'observer' is joint-largest at six — but the figures are not great men, since Caesar is on the shelf and Cato is on the prompt."
+  - page: wiki/timeline/periods/2021-2023-employment-block
+    type: evidenced-by
+    claim: "The introversion cost is stated in primary voice — fifteen-table freezing Saturday nights took 'literally EVERYTHING i had in me' — hospitality as a direct stressor of the documented type."
 ---
 
 # INTP — The Cognitive Function Stack

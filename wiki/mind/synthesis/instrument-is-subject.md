@@ -5,7 +5,7 @@ title: "The Instrument Is Also the Subject"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-20
+date_modified: 2026-08-21
 synthesizes:
   - wiki/mind/synthesis/ai-collaborative-analysis
   - wiki/mind/synthesis/ancestral-dialectic
@@ -53,6 +53,14 @@ connections:
 > **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/mind/concepts/exocortex]] (2026-08-20). Moved by one typed-edge addition only, pointing at [[wiki/mind/concepts/document-fabrication]]. Re-read against
 > the change; **no claim on this page is affected** and nothing here is
 > withdrawn. The edge does add a genuinely new output class to the toolchain — a counterfeit institutional document — and a later pass may find that it belongs in this page's argument, since an instrument that can manufacture its own evidence is a sharper case of the instrument being the subject than anything currently cited here. It is flagged rather than annexed: one instance is not a finding.
+
+> **RE-CHECKED [2026-08-21] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/ai-collaborative-analysis]] moved on 2026-08-21 in one
+> typed-edge claim only: the ChatGPT edge now records that the 'cooked'
+> verdict's post-GPT-5 causation is untested, because the 375-thread export
+> ends five weeks before the release. That sharpens an example this page cites
+> in passing and leaves its argument — that the instrument and the subject are
+> the same person — untouched.
 
 
 

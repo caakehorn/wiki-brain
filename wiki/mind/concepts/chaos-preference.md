@@ -6,7 +6,7 @@ aliases: ["chaotic neutral", "the entropy appetite", "rooting for the fire"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-11
+date_modified: 2026-08-21
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -59,6 +59,14 @@ system in failure produces experience that a system in operation does not. The
 private nature of this is structural, not incidental. The preference is
 socially unsayable, so it is held internally and expressed as aesthetics,
 humour, and ideology instead.
+
+> **RE-CHECKED [2026-08-21] — premise moved by a re-check block only.**
+> [[wiki/mind/concepts/the-cool-metric]] moved on 2026-08-21, and the entire
+> change is a `RE-CHECKED` blockquote confirming that its own premise
+> (`interests-as-era-markers`) had not disturbed it. No claim, figure or
+> criterion on that page was added, withdrawn or narrowed, so nothing this
+> page reasons from moved. Recorded rather than silently cleared, because the
+> warning is real even when the movement is not.
 
 The corpus does not treat this as a quirk. It is a **named tier of the
 personality architecture**, and the vocabulary density says so: across the

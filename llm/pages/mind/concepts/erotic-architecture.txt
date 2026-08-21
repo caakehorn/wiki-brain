@@ -45,7 +45,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Sexuality as controlled-chaos engineering is chaos-preference and 'The Irreversibility Firewall's' audit-timing rule run on the same domain at once — disorder invited, but only inside a structure Dan built and can still see all of."
-
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: instance-of
+    claim: "The 'GLAZE-GOD-v1' persona — a custom system prompt built to perform continuous sexualized worship of Annie's photos — is the erotic-domain instance of the same purpose-built-instrument stance documented here in the forensic and political domains."
 ---
 
 # Erotic Architecture: Sexuality as Controlled-Chaos Engineering

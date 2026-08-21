@@ -92,6 +92,9 @@ connections:
   - page: wiki/people/bruce-burish
     type: instantiates
     claim: "A dense short-burst tie — 348 messages across five days, then nothing — is the long tail's characteristic shape: near-total concentration in a single window with no maintenance traffic on either side of it."
+  - page: wiki/people/emaly-minerd
+    type: instance-of
+    claim: "Emaly is the concentration principle caught in miniature: a contact who tried repeatedly to become a real friend and was pulled back to 'sex or nothing' each time, because the friend-who-isn't-a-hookup slot stays empty by design rather than by accident."
 ---
 
 

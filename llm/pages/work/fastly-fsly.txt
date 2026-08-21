@@ -5,7 +5,7 @@ title: "Fastly (FSLY)"
 aliases: ["FSLY", "Fastly Inc.", "$FSLY"]
 status: stable
 date_created: 2026-07-15
-date_modified: 2026-08-18
+date_modified: 2026-08-21
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
@@ -29,6 +29,11 @@ active retail trading, and the position that taught him the lesson he later
 named: momentum over conviction. The whole arc lives under
 [[wiki/timeline/periods/2020-2021-market-era]]; this page holds the FSLY-specific
 record.
+
+> **RE-CHECKED [2026-08-21] — premise moved, conclusion unaffected; verified
+> rather than assumed.** [[wiki/self/context-core]] moved on 2026-08-19 by a
+> single added typed edge and no other change. The FSLY position, dates and
+> figures on this page are untouched by it.
 
 ## How it started — the Jerad tip
 

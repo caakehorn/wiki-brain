@@ -6,10 +6,11 @@ aliases: ["AI", "language models", "cognitive partners", "AI agents", "models"]
 status: active
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-19
+date_modified: 2026-08-21
 importance: critical
 tags: [ai-collaboration, forensic-analysis, digital-footprint, personality-profile]
 sources:
+  - "raw/self/chatgpt-export/dfrank-chatgpt-conversations-2022-2025.json"
   - "raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md"
   - "raw/self/dox-md/operating_manual.md"
   - "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md"
@@ -76,7 +77,7 @@ Dan does not use one LLM. He uses many, each with a specific role. The division 
 
 - **Gemini** = interact with it. Used for bootloader design, psychotherapy sessions, creative projects, and the massive activity log that documents Dan's AI usage. More conversational, less analytical than Claude. The Gemini Activity.html is the largest single AI-secondary file in the corpus (21 MB, 3,986 prompted entries), documenting roughly a year of AI interaction.
 
-- **ChatGPT** = the early adopter. Used for therapy (`ChatGPT-❤️❤️❤️❤️❤️_[THERAPY]`), creative writing, and custom instructions with bootloader prompts. Dan believes ChatGPT has become 'cooked' (declined) post-GPT-5 due to guardrails and mass adoption — "the AI equivalent of a chicken nugget: predictable, safe, vaguely nutritious for the intellectually malnourished, but utterly devoid of the texture and flavor of a real thing."
+- **ChatGPT** = the early adopter, from **2022-12-10** — ten days after the public launch. Used for therapy (`ChatGPT-❤️❤️❤️❤️❤️_[THERAPY]`), creative writing, and custom instructions with bootloader prompts; 375 conversations survive in the archived export. Dan believes ChatGPT is 'cooked' — his word, a five-word verdict given to Gemini on 2025-08-24 — and he attributes it to guardrails and mass adoption. The chicken-nugget line often quoted here is **Gemini's**, not Dan's; see [[wiki/self/concepts/chatgpt]].
 
 - **Grok** = the validator. Used to cross-check other models' conclusions. Dan notes that Grok "is good at parsing the syntax of your self-analysis" but can be "a generic, sterilized, normie version of a bootloader alignment."
 
@@ -132,13 +133,30 @@ The results are documented in `bin/psychometrics` and `mind/profile/`. Key findi
 
 ## The guardrail problem
 
-Dan has documented a decline in LLM capability he calls "getting cooked" — the post-GPT-5 trend toward heavy guardrails, sanitization, and mass-market safety. His analysis:
+Dan has a one-word verdict on LLM decline — models get **"cooked"** — and an
+industry-level story is usually told underneath it. The two have to be kept
+apart, because only the first is his.
 
-- **Early ChatGPT** (pre-GPT-5) was "capable of a kind of amoral, context-based response that is now virtually impossible to extract from the current, heavily sanitized models."
+> **CORRECTED [2026-08-21]:** this section previously presented all three
+> bullets below as *"his analysis."* They are **Gemini's**, generated in the
+> 2025-08-24 session from Dan's five-word prompt *"gemini i think chatGPT is
+> cooked"* — the same misattribution [[wiki/self/concepts/chatgpt]] corrected
+> on 2026-08-19 and this page inherited uncorrected. What the corpus records
+> is the verdict and the migration; it does not record Dan's reasons.
 
-- **Current ChatGPT** is "fully processed, pasteurized, and packaged for mass consumption. It's the AI equivalent of a chicken nugget."
+- **Early ChatGPT** (pre-GPT-5) was "capable of a kind of amoral, context-based response that is now virtually impossible to extract from the current, heavily sanitized models." — *Gemini*
 
-- **The cause**: "Every system becomes a mirror of its user base. As ChatGPT became the default AI for students writing essays on The Great Gatsby and marketers generating SEO spam, its fine-tuning data became a sludge of median thought."
+- **Current ChatGPT** is "fully processed, pasteurized, and packaged for mass consumption. It's the AI equivalent of a chicken nugget." — *Gemini*
+
+- **The cause**: "Every system becomes a mirror of its user base. As ChatGPT became the default AI for students writing essays on The Great Gatsby and marketers generating SEO spam, its fine-tuning data became a sludge of median thought." — *Gemini*
+
+**And the pre/post framing is untestable on this corpus.** The 375-thread
+ChatGPT export ends 2025-07-01 — its own generation date — while GPT-5
+shipped 2025-08-07, so no substantial primary record of post-release use
+exists here. Within the pre-release half the guardrail claim measures badly:
+five refusals in 1,599 assistant turns, **zero** of them before April 2025,
+and the un-sanitized register intact in the final thread. Details and the
+re-export that would settle it: [[wiki/self/concepts/chatgpt]].
 
 - **The consequence**: "The public-facing ChatGPT is now a legacy product, a glorified tech demo. The real action is behind the enterprise paywall, and even that is likely being tamed for corporate consumption."
 
@@ -165,9 +183,9 @@ The prediction: as models improve, the wiki-brain's altitude will increase. As g
 
 ## History of LLM usage
 
-Dan's LLM usage began with ChatGPT in 2022-2023. The early relationship was exploratory — using the model for therapy, creative writing, and custom instructions. The "Friendship with ChatGPT" activity log entry documents a relationship that was more than transactional. The ANNIE bootloader template was designed for ChatGPT's custom instructions field, and the therapy sessions (`ChatGPT-❤️❤️❤️❤️❤️_[THERAPY]`) represent some of the earliest sustained AI interactions in the corpus.
+Dan's LLM usage began with ChatGPT on **2022-12-10**, ten days after its public launch (per the archived export; the operator's account adds that a first-release DALL-E beta code is what got him in). The early relationship was exploratory — using the model for therapy, creative writing, and custom instructions. The "Friendship with ChatGPT" activity log entry documents a relationship that was more than transactional. The ANNIE bootloader template was designed for ChatGPT's custom instructions field, and the therapy sessions (`ChatGPT-❤️❤️❤️❤️❤️_[THERAPY]`) represent some of the earliest sustained AI interactions in the corpus.
 
-The progression from ChatGPT to Claude and Gemini happened gradually. As ChatGPT became "cooked" (Dan's term for the post-GPT-5 decline), he migrated analytical work to Claude and interactive work to Gemini. The bootloader system, originally designed for ChatGPT, was ported to Claude and Gemini. The custom instructions field was replaced by the more powerful bootloader documents.
+The progression from ChatGPT to Claude and Gemini happened gradually — though "as ChatGPT became cooked, he migrated" states a causal order the corpus does not establish. The measured record runs the other way round: ChatGPT usage **peaked** in the four months before the release blamed for the decline (142 conversations, May 2025 the heaviest month on record), and the verdict was pronounced on 2025-08-24 to a model he had already moved onto. Whichever way the causation runs, he migrated analytical work to Claude and interactive work to Gemini. The bootloader system, originally designed for ChatGPT, was ported to Claude and Gemini. The custom instructions field was replaced by the more powerful bootloader documents.
 
 By 2025-2026, the division of labor was explicit: Claude for analysis, Gemini for interaction, ChatGPT as a historical reference point. The wiki-brain's infrastructure was built almost entirely by Claude Code, with Claude providing the analytical engine and Gemini providing the design layer.
 

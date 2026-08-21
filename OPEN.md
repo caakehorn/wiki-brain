@@ -8,9 +8,9 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 45 |
-| Open gaps | 401 |
-| Answered, awaiting ingest | 2 |
+| Live contradictions | 44 |
+| Open gaps | 407 |
+| Answered, awaiting ingest | 0 |
 | Standing predictions | 36 |
 
 ## Answered, awaiting ingest
@@ -21,10 +21,7 @@ what is missing is the pass that corrects the page and every page that
 inherited the gap, then runs `bin/wiki-gaps clear <page>`. Cheapest work
 here — no new source required, and the answer is already written down.
 
-- **[[wiki/people/menore]]** — staged 2026-08-18, 1 answer
-  - manual note
-- **[[wiki/self/concepts/chatgpt]]** — staged 2026-08-19, 1 answer
-  - manual note
+_Nothing staged._
 
 ## Live contradictions
 
@@ -66,7 +63,6 @@ somewhere and has not yet found out where.
 - **[[wiki/people/gabe]]** — MAX_PRIME.md (a 2026-era document) refers to Gabe in the present tense as an ongoing, current fixture ("the food and the cat are always real"), which sits awkwardly against a November 2023 death. Possible explanations: the bootloader text is older than its last-edited date and was never updated after Gabe died, or the 
 - **[[wiki/people/jacob-bacharach]]** — Dan attributes the Virginia Avenue passage to ***The Bend of the World*** (2014) and cites pages 227–228. Bacharach's own February 2021 message names a different novel as the Uniontown book: *"it figures prominently in my Doorposts of Your House novel."* The reading record sides with Bacharach. Dan's Goodreads library 
 - **[[wiki/people/kristin]]** — an earlier version described her as "an ex-Brooklyn librarian living in Pittsburgh." The corpus supports neither. It supports pharmacy / DoorDash / courthouse work and an Akron, Ohio residence. She does say *"okay this is one of the things i miss most about living in new york"* on Facebook — so a New York period is pla
-- **[[wiki/people/menore]]** — the thread contains a **1,458-day silence — May 26, 2020 → May 24, 2024** (with 2020 already tapering: 35/17/15-day gaps, 158 messages all year). This contradicts this page's earlier "Phase 4: sustained operations Apr 2019–Feb 2025" framing, and it complicates the Au Za'atar storytime claim (au-zaatar) that Menore serv
 - **[[wiki/people/sadie-harris]]** — earlier versions of this page and the member table on fayette-return both recorded Sadie as having *died* in Hopwood on 27 November 1997. The GEDCOM records no death place at all — only the date — and lists Hopwood as the **burial** place. Her last attested residence is Brownsville in 1993. The Hopwood association is r
 - **[[wiki/people/suzanne-frank]]** — A $200 cocaine spend on 2015-12-29 is **not** established as hers, and an earlier pass wrongly recorded it as such. The record has Annie saying *"And that $200 wasn't even your own"* (23:48) and Dan answering *"It was my money"* (23:50). The two lines conflict and the corpus does not settle them. Held open rather than 
 - **[[wiki/self/concepts/ally-and-dan-love-as-destiny]]** — erotic-architecture holds that the charge in this attachment is sustained *by* inaccessibility — arousal that survives because it is never consummated, priced per item, named by Dan himself as something to get the poison out of rather than to act on. That reading predicts the attachment thins as access increases, and i
@@ -127,7 +123,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/health/cocaine]]** — **Prescriber information and medical oversight**: No prescriber, clinic, or medical record for the cocaine use appears anywhere in the corpus — it is entirely self-directed and undocumented by any clinical source.
 - **[[wiki/health/cocaine]]** — **Post-2026 dosage state**: The dosage arc is documented through the inheritance exhaustion (~2020 onward), but no figure is on record for the 2026–present window, when Bop replaced Tom as the daily node.
 - **[[wiki/health/cocaine]]** — **The cocaine–bulimia link** is stated in a self-audit but never independently corroborated by any source outside Dan's own retrospective account.
-- **[[wiki/health/cocaine]]** — **Product specificity in the NYC era**: Menore's product was never named in-thread; the "8" unit remains uninterpreted, and whether the six-year delivery record was cocaine, heroin, MDMA, or some combination is unconfirmed by any primary source.
+- **[[wiki/health/cocaine]]** — **Product specificity in the NYC era**: Menore's product is still not positively identified, but the question is narrower than it was — see the re-check below. It is *not* weed, it is sold in **bags**, and the thread's silence on the point is now measured rath
 - **[[wiki/health/cocaine]]** — **The true scale of the 2017–2020 spend**: The dosage arc gives quantities but not dollar figures; the financial cost of the 3.5–7g daily peak is undocumented.
 - **[[wiki/health/cocaine]]** — **Post-overdose intervention**: Dan's attempt to move Jay Lauer onto Suboxone — the only documented instance of Dan trying to move somebody *out* of this network rather than into or around it — is recorded, but whether Dan made any similar attempt with any oth
 - **[[wiki/health/the-configured-body]]** — **The census is one pass over one dump and used a fixed term list.** Adjacent vocabulary — *urgent care, clinic, X-ray, scan, specialist, therapist, meds* — was not counted, and the dump covers 2015–2025 with **2022 and 2026 missing entirely**, so nothing here
@@ -266,7 +262,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (144)
+### people (145)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
@@ -370,14 +366,15 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/manuel]]** — Last name is not on file. A different, unrelated "Manuel" is referenced in passing in jack-rusko's 2017 thread — a different person from an earlier, unconnected era; not to be conflated with this contact.
 - **[[wiki/people/matt-kraus]]** — Kraus's current status, location, and relationship to Dan as an adult are undocumented. The capture gives no post-adolescence contact record.
 - **[[wiki/people/md]]** — Full name and exact role at Au Za'atar are not established from the thread.
-- **[[wiki/people/menore]]** — **Real name**: "Menore" may be nickname, placeholder, or transcription variant
+- **[[wiki/people/menore]]** — **The intermediate handle is the top action.** Service demonstrably ran 2021–May 2024 on at least one other number (and *"Menore #1?"* implies more than one), but **no export exists for any handle but 3476070497**. Recovering it would convert ~184 third-party 
+- **[[wiki/people/menore]]** — **2022 is the one blank year** — zero mentions, no evidence either way. The only window where a genuine service break could still hide.
+- **[[wiki/people/menore]]** — **Real name**: "Menor"/"el menore" is now well-supported as a Spanish diminutive rather than a transcription artifact, but his legal name is unrecorded.
+- **[[wiki/people/menore]]** — **Associate identity**: *"both brothers"* (2021-01-30) is the first lead on "my boy" and suggests a sibling operation; neither is named.
 - **[[wiki/people/menore]]** — **Supply chain**: Source of product not visible in corpus
 - **[[wiki/people/menore]]** — **Geographic extent**: Serves only Manhattan/Brooklyn or wider region unclear
-- **[[wiki/people/menore]]** — **Associate identity**: "My boy" never named
-- **[[wiki/people/menore]]** — **Post-Feb 2025**: no further contact documented; the thread was formally closed with a farewell on Feb 20, 2025 (see Measured Service Metrics)
 - **[[wiki/people/menore]]** — **Product type**: Corpus never names substance (context: heroin, cocaine, MDMA, or combination likely)
 - **[[wiki/people/menore]]** — **Financial scale**: Revenue/volume not visible
-- **[[wiki/people/menore]]** — **Arrest/incarceration**: No indication in corpus whether Menore is still operating or incarcerated post-2025
+- **[[wiki/people/menore]]** — **Current status rests on one source.** The operator says Menore is still operational (2026-08-18); nothing in the message record speaks to the supply side after 2025-02-20. **How Dan knows is itself unrecorded** — the answer implies some awareness channel (co
 - **[[wiki/people/mike-cordaro]]** — "Uncle Dave" and "Matt Ross" are new, unconfirmed leads — neither has any other reference elsewhere in the corpus read so far.
 - **[[wiki/people/mike-hinkle]]** — Relationship to Dan and to Fran unresolved. The Florida area code suggests he may be a Full Sail-era (2008–2010) or later connection who relocated, but this is speculation. No Facebook or other corpus cross-references found.
 - **[[wiki/people/mohammed-bin-salman]]** — Real name and identity are unknown — the contacts card is a joke. Whether the "md" dream reference connects to the documented md contact is unconfirmed.
@@ -423,7 +420,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/places/the-unpapered-address]]** — **The pre-2010 record is empty.** Full Sail housing (2008–2010) and everything before it are undocumented, so the rule is tested on sixteen years and not on a life. If the Florida period shows a conventional student lease, the pattern has a start date and the 
 - **[[wiki/places/the-unpapered-address]]** — **This page does not establish intent.** Whether the unpapered arrangements were preferred, accepted, or simply the only ones available at a $11,000–14,000 household income is not decidable from this material, and the three readings have very different implica
 
-### self (43)
+### self (48)
 
 - **[[wiki/self/ancestry]]** — 1. **The Harris paternal line.** Sadie Harris's father ("Harris" from Czechoslovakia) is the single biggest data gap. He contributed ~12.5% of Dan's DNA but is completely undocumented beyond a single datum. Research into Czech immigration records, census data,
 - **[[wiki/self/ancestry]]** — 2. **The maternal R0 haplogroup.** The origin of the R0 mitochondrial haplogroup on the maternal line is unexplained. It may indicate a distant Jewish, Middle Eastern, or Central Asian ancestor entering through the Van Voorhis, Conwell, or Thomas lines. Resear
@@ -438,6 +435,11 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/concepts/ally-and-dan-love-as-destiny]]** — **"I'm inherently evil and unlovable" is attributed to Ally on no evidence.** The phrase occurs once in the corpus, in `raw/self/gemini-activity/Gemini Activity.html` — a model's output, not her words. It should not be quoted as her self-image until a message 
 - **[[wiki/self/concepts/ally-and-dan-love-as-destiny]]** — **Ally's side of the intent question is unrecorded.** Every claim here about what she wants rests on Dan's reading of her replies. She has not been asked, on any record in the corpus, whether she shares the projection this page makes on her behalf.
 - **[[wiki/self/concepts/ally-and-dan-love-as-destiny]]** — **Her mother's status is unknown** — the page elsewhere assumes it either way without settling it.
+- **[[wiki/self/concepts/chatgpt]]** — **The post-GPT-5 record does not exist in this corpus.** This is the binding gap and the top action on the page: the archived export was generated 2025-07-01 and GPT-5 shipped 2025-08-07, so every claim about what the release did is untested. **A ChatGPT expor
+- **[[wiki/self/concepts/chatgpt]]** — **The DALL-E beta provenance is testimony alone.** The operator's account that a first-release DALL-E beta code also yielded a GPT one is T0 and uncorroborated; the export can date the start but says nothing about how access was obtained.
+- **[[wiki/self/concepts/chatgpt]]** — **Why the 194-day dormancy (2024-09 → 2025-03)?** The record simply stops and restarts. Whether Dan moved to another model in that window, or was not doing this kind of work at all, is not established here — the Gemini and Claude pages are the place to test it
+- **[[wiki/self/concepts/chatgpt]]** — **The therapy sessions are named but not in the export.** The "ChatGPT-❤️❤️❤️❤️❤️_[THERAPY]" material is known from dox-scan filenames; no conversation in the 375 carries that title, so the therapeutic use is documented by reference rather than by transcript.
+- **[[wiki/self/concepts/chatgpt]]** — **Dan's reasons remain unrecorded.** Corroborated across two passes now: the corpus holds his verdict ("cooked") and his behaviour (migration), and no statement by him of *why*.
 - **[[wiki/self/lineage/23andme-genomics]]** — The chromosome painting PDFs contain no extractable segment-level data — the per-chromosome ancestry assignments are visual only. The full CSV download from 23andMe's Scientific Details page was not part of the export in `raw/self/ancestry/dna-reports/`.
 - **[[wiki/self/lineage/23andme-genomics]]** — Two health predisposition results (Age-Related Macular Degeneration, Hereditary Thrombophilia) appear in the summary but their specific outcomes were not captured in the text extraction.
 - **[[wiki/self/lineage/23andme-genomics]]** — The Prostate Cancer (BRCA1/BRCA2) report is locked behind an incomplete questionnaire ("Complete tasks to view result").

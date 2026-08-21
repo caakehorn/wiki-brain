@@ -137,6 +137,12 @@ connections:
   - page: wiki/people/dave-moore
     type: co-occurs
     claim: "Her stepfather by her mother's second marriage, with whom the corpus records not one exchanged word — only Annie's startled report that Suz ran into him and Dian in August 2018."
+  - page: wiki/health/cocaine
+    type: evidences
+    claim: "Cocaine is the substance implicated in the Frank family rupture — the mother's affair with their cocaine dealer and the father's rehab admission both sit inside a pattern of cocaine-adjacent dysfunction that Dan later adopted freely while excluding alcohol."
+  - page: wiki/people/suzanne-frank-personality-assessment
+    type: instance-of
+    claim: "The forensic assessment of Suz's MBTI and Enneagram types is based on behavioral evidence from her 33,698-message corpus."
 ---
 
 

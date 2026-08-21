@@ -68,6 +68,9 @@ connections:
   - page: wiki/people/tuquick-17248123683
     type: evidenced-by
     claim: "Tuquick's closure-night taunts prove the October 2019 MMF video circulated to Annie's next partner and was repurposed as humiliation — the arrangement era's intimate media outliving the arrangement as a weapon."
+  - page: wiki/people/trinity-st-clair
+    type: instance-of
+    claim: "A paid, professional booking with an agreed $1,500 fee is the arrangement in its most explicitly commercial form — the version where the third party is contracted rather than courted."
 ---
 
 # Arrangement History

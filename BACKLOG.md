@@ -226,38 +226,49 @@ retained as the worked example behind this backlog item.
 
 ---
 
-## [2026-08-19] Fourteen cheap staleness re-checks left by the five-climb pass
+## [2026-08-21] Staleness: cleared to zero, and what it cost to check
 
-`bin/wiki-climb check` reports **14 STALE warnings**, all created on 2026-08-19
-by write-back edges from five new synthesis pages. They are recorded here rather
-than cleared, because CLAUDE.md's one prohibited move is bumping a date to
-silence a warning, and "the change was additive" is a hypothesis until somebody
-reads it.
+`bin/wiki-climb check` reports **0 warnings**. Every pair previously recorded
+here — the fourteen from the 2026-08-19 five-climb pass and the nine from the
+2026-08-20 severance ingest — was re-read against the premise that moved and
+carries a real `RE-CHECKED` block. None was cleared by bumping a date.
 
-**The one that was not cheap has been worked already.**
-`totality-themes` ← `single-channel` was a real premise movement — the
-evaluative leg of the four-domain concentration claim was measured for the first
-time and came back inverted (taste-record Gini 0.188 against the contact graph's
-0.9601). The re-check is on `totality-themes`, the edge claim is narrowed, and
-the Irreversibility Firewall's reading survives on the relational leg alone.
+**Two were not cheap, exactly as this file predicted.**
 
-**The remaining fourteen are believed additive.** In each case the premise
-gained a typed edge and, on five pages, a `CONTRADICTION` block; no figure, date
-or conclusion the dependent reasons from was altered. Expected cost is one
-grep per pair.
+- **`the-embedded-objective` ← `bfs-foods`** (flagged here as "the least cheap
+  of the nine — do this one first"). It was right. The BFS row is doing work as
+  the control proving that an absent payload collapses tenure to weeks, and the
+  restoration message supplies a **second, incompatible account of why the job
+  ended**: this page says Dan refused the $50 drawer shortage and the write-up,
+  while his own 2026-08-11 retrospective says *"the only thing I did was go home
+  30 minutes before my shift"* — against a posted `NO HIRE: Daniel Frank` sign
+  in two locations. A tenure ended by arbitrary employer action cannot be quoted
+  as a clean control for a variable about Dan's own sustaining. The rule
+  survives; the row now carries the qualification and Caviar is named as the
+  stronger of the two controls.
+- **`the-commissioned-self` ← `wiki-brain`** (flagged as "worth one check rather
+  than an assumption"). Checked: the handle-is-not-a-person defect does **not**
+  reach it, and for a structural reason worth keeping. The load-bearing count is
+  **outbound** (17 appearances across 106,629 sent messages), and the defect is
+  an inbound-attribution problem, so that measurement is immune by construction.
+  The one inbound figure supports an *absence* claim that a third party on
+  Annie's phone cannot fill.
 
-| Dependent | Premise that moved | Why it is believed cheap |
-|---|---|---|
-| `the-cool-metric` | `interests-as-era-markers` | Gained a set-closure section; the "admission criterion upstream of intake" claim is untouched |
-| `dormancy-not-exit` | `424-bedford-ave`, `155-virginia-ave` | Both gained one edge into `the-unpapered-address`; lair-continuity is unaffected, though the 155 Virginia *lease holder* question is now live and bears on it |
-| `read-receipt-forensics` | `forensic-method` | One edge added; no instrument-defect claim touched |
-| `the-unbroken-bond` | `enneagram-5w4` | Gained a `CONTRADICTION` on the wing code — **this one may not be cheap**, since a 5w6 reading would change the sx/sp fusion account the bond page leans on |
-| `alexander-jackson`, `arnu`, `john-carney`, `suzanne-frank` | `463-morgantown` | One edge plus a "seventh instance" section; no risk-table row changed |
-| `suzanne-frank` | `337-saratoga-drive` | One edge; the Chapter 13 account is untouched |
-| `jerad-friedline`, `2020-2021-market-era`, `fastly-fsly` | `context-core` | One edge added to the spine; no figure changed |
+**A cascade to expect next time.** Re-checking a page bumps its `date_modified`,
+which restarts the staleness clock for everything downstream of it — so the
+pass ran in four converging rounds (24 → 5 → 2 → 0) and the last three rounds
+were re-checks of pages whose premise had moved *only by gaining a re-check
+block*. Those are cheap and were verified rather than assumed, but the shape is
+worth knowing before starting: clearing N warnings costs more than N reads.
+Whether a page whose sole change is an added `RE-CHECKED` block should restart
+its dependents' clock is a real question about `bin/wiki-climb`'s semantics, and
+is left open deliberately — the conservative behaviour is the current one.
 
-**Do the `the-unbroken-bond` ← `enneagram-5w4` pair first.** It is the only one
-where the premise gained a contradiction rather than an addition.
+**Still open and untouched by that pass:** `the-unbroken-bond` ←
+`enneagram-5w4`. Not a staleness warning (the dates do not trip it) but the one
+flagged pair where the premise gained a **contradiction** rather than an
+addition: a 5w6 reading would change the sx/sp fusion account the bond page
+leans on. This remains the highest-value re-read in the psychological layer.
 
 ## [2026-08-19] Collect what other people say Dan is like
 
@@ -352,3 +363,37 @@ reason rather than re-derive it:
   now catches both, with eleven tests — including a regression test that the
   whole wiki stays clean, and negative tests proving a setext underline and an
   `=======`-with-trailing-content are not markers.
+
+## [2026-08-21] Sixty-five bare `## Related` footers — the last linking debt
+
+`bin/wiki-connect check` is at **0 errors, 65 warnings**, and every warning is
+the same thing: a page whose relationships are still a legacy untyped
+`## Related` footer rather than typed `connections:` edges. Between them they
+carry roughly **960 untyped entries**.
+
+The 193 missing *inverse* edges that used to dominate this gate were closed on
+2026-08-21 and are not coming back; this is the remainder, and it is the half
+that cannot be done mechanically. A retrofit inverse may reuse its source's
+claim (`CONNECTIONS_SPEC.md`), but a **forward** edge has to choose a type, and
+the type is the analytical commitment — `co-occurs` where the evidence would
+support `causes` is a substance failure, and `causes` where it only supports
+`co-occurs` is a provenance failure. That is a judgment per entry, from the
+page's body, not a transformation of the footer.
+
+Two were converted on 2026-08-21 as the worked examples of the cost:
+`people/emaly-minerd` (6 entries) and `people/trinity-st-clair` (4). Both took
+a full read of the page.
+
+**Method, so the next pass does not re-derive it.** Convert a page, then re-run
+the reciprocity applier — each new forward edge opens an inverse warning on its
+target, so the gate count goes *up* mid-pass and only comes down at the end.
+Work in batches and finish with `bin/wiki-connect check` at the reciprocity
+step, or the count will look like a regression.
+
+Highest-value first, by content weight: `self/tattoos` (8 entries),
+`mind/psychosexual/orchestration-and-voyeurism` (7),
+`interests/music/concepts/lyrics-as-timbre` (7), `self/facebook` (10),
+`interests/favorites/music` (15), `timeline/events/teen-concert-years` (6),
+`timeline/events/shelbie-annie-threesome-april-2019` (3). The
+`interests/favorites/music/artists/*` cluster is the long tail and the least
+urgent — those pages are deliberately index-reachable leaves.

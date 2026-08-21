@@ -29,6 +29,10 @@ infobox:
   location: nyc
   first_contact: 2019-02-12
   known_for: "RJ Ritchey was a real Uniontown-golf-circle friend, not the separate"
+connections:
+  - page: wiki/people/marc-charles
+    type: co-occurs
+    claim: "Marc Charles is part of the same PA golf/caddie leisure network as RJ Ritchey, contrasting with Dan's higher-volume core attachment threads."
 ---
 
 # RJ Ritchey

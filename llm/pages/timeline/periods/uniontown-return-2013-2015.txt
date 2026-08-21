@@ -34,6 +34,9 @@ connections:
   - page: wiki/places/155-virginia-ave
     type: contains
     claim: "The January 2015 move to 155 Virginia Ave — the 'Alexis lair,' leased during the relationship's end — happens in this period and becomes the physical continuity Annie inherits, the lair-continuity the bond-switch turns on."
+  - page: wiki/people/ej-rags
+    type: co-occurs
+    claim: "The July 2013 exchange lands days after Dan's return from NYC ('i just moved back... and i'm super output recently'), a small dated marker inside the period's opening weeks."
 ---
 
 # Uniontown Return (2013–2015)

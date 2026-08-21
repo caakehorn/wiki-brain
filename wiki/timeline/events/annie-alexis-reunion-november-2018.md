@@ -40,6 +40,9 @@ connections:
   - page: wiki/mind/concepts/erotic-architecture
     type: evidences
     claim: "The externalized-libido mechanism's central example (ANNIE_ALEXIS_HOOKUP_CORE) is independently dated and corroborated as the six-week November 2018 reunion arrangement — theory and primary record aligned on the one event."
+  - page: wiki/people/emaly-minerd
+    type: evidenced-by
+    claim: "The November 28, 2018 conversation with Emaly is the primary narration of the reunion, given the same week it happened and to someone outside it."
 ---
 
 # Annie/Alexis Reunion (November 2018)

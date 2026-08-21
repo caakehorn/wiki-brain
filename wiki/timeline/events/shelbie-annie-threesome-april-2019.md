@@ -19,6 +19,9 @@ connections:
   - page: wiki/people/shelbie-breakiron
     type: evidences
     claim: "The June 8, 2019 three-way logistics exchange in this thread is either a repeat of the arrangement documented there or the corpus's only surviving direct trace of it."
+  - page: wiki/people/trinity-st-clair
+    type: parallels
+    claim: "Same March-June 2019 window, same shape: the non-monogamous arrangement running with women rather than the male friends it is more usually documented with — two bookings weeks apart make it a pattern of that spring rather than one occasion."
 ---
 
 # Shelbie/Annie Threesome (April 2019)

@@ -5,7 +5,7 @@ title: "The Alias Is a Clock, Not a Style"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-18
+date_modified: 2026-08-21
 date_range_start: 2013-01-01
 date_range_end:
 synthesizes:
@@ -43,6 +43,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Renaming, not the music, is what changes at a period boundary — this page instantiates 'The Irreversibility Firewall's' identity-layer prediction: reorganize the exposed name, never the involuntary signature underneath it, because the signature was never a choice and therefore never at risk."
+  - page: wiki/mind/synthesis/instrument-is-subject
+    type: mirrors
+    claim: "The methodological contrast case: alias boundaries are admissible precisely because they were produced by the subject without intending to testify, which is the property AI-interpretive pages structurally lack."
 ---
 
 # The Alias Is a Clock, Not a Style
@@ -56,6 +59,12 @@ name, and the name changes at the boundaries of life periods. The alias is
 therefore not doing musical work. It is doing temporal work: it is how a
 period gets marked as closed. **The catalog is one continuous body of sound
 wearing four different dates.**
+
+> **RE-CHECKED [2026-08-21] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/totality-themes]] moved on 2026-08-20 by `RE-CHECKED`
+> block only — its own re-read against the August 16–19 severance, which
+> withdrew nothing. No figure, date or periodisation this page reasons from
+> was altered.
 
 This matters because the alias pages, read individually, each present the
 rename as an artistic progression — SLOPPP "exploratory," MOGZART "more

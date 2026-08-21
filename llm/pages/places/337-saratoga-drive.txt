@@ -33,6 +33,9 @@ connections:
   - page: wiki/places/the-unpapered-address
     type: evidences
     claim: "The one residence in the record decided by real recorded paper was decided by somebody else's — a deed, a Chapter 13 docket and a court drop-dead provision all belonging to Suz — which is the control that proves the rule rather than breaking it."
+  - page: wiki/mind/synthesis/fayette-return
+    type: instantiates
+    claim: "The tether at maximum tension: the current return has landed Dan in the childhood home itself, the tightest possible value of the pattern, while that house is being sold out from under him."
 ---
 
 # 337 Saratoga Drive

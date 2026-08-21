@@ -6,7 +6,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-20
+date_modified: 2026-08-21
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -63,6 +63,14 @@ him** — more stable than address, employment, income, substance regime,
 political affiliation, artistic alias, or social circle, every one of which has
 turned over at least once in the same window. The pair-bond is the only
 continuously occupied structure in the entire record.
+
+> **RE-CHECKED [2026-08-21] — premise moved by a re-check block only.**
+> [[wiki/mind/concepts/chaos-preference]] moved on 2026-08-21, and the change
+> is a `RE-CHECKED` blockquote and nothing else. No chaos-preference claim was
+> added, withdrawn or narrowed. Note for a later pass: the live question on
+> this page remains the `enneagram-5w4` wing contradiction that `BACKLOG.md`
+> flagged on 2026-08-19 — a 5w6 reading would touch the sx/sp fusion account
+> this page leans on — and that pair is untouched by today's work.
 
 And it sits directly against the rest of the profile. The same person is
 documented as a **Chaotic Neutral** who holds *"entropy as the fundamental

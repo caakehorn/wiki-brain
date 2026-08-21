@@ -23,6 +23,12 @@ connections:
   - page: wiki/people/casey-bondarenka
     type: evidences
     claim: "The 36-message thread is marked \"Received\" throughout in this export, which is why direction here is read as one-way rather than trusted."
+  - page: wiki/people/emaly-minerd
+    type: evidences
+    claim: "The 613-message thread on +172****5006 carries the five-month 2018-19 arc; the August 2019 revival and the September 2020 Facebook coda come from separate exports, which is why the relationship reads as three bursts rather than one run."
+  - page: wiki/people/trinity-st-clair
+    type: evidences
+    claim: "The direct thread (+18186510883, 20 messages) is too ambiguous to settle whether the tryst happened — two cancellations and a delay — and it took a separate message to Eric Jester in the same dump to confirm that it did."
 ---
 
 
