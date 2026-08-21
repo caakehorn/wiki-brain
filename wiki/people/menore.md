@@ -94,9 +94,43 @@ row in this corpus by at least five and a half years.
 
 **Logistics**: Stereotyped delivery pattern — Dan initiates request ("can u stop by"), Menore quotes time (20-35 min typical, occasionally "8ish" if starting run), confirms arrival location/vehicle, 5-10 min final approach. Measured median reply 6.6 minutes (see Measured Service Metrics — the old "~60-second SLA" claim described Dan's reply speed, not Menore's); 3 unanswered requests in 458 across 6.5 years.
 
-**Pricing & Quantity**: Consistent quantity requests — Dan typically orders "8" (likely grams or units; possibly MDMA, cocaine, or heroin). Single mention of "I only got 8 when I got back" (March 25, 2019) suggests pre-weighed/portioned product. One incident: Dan dropped a piece, Menore covered it ("I got u for next time"). No price negotiation in corpus; commodity transaction.
+**Pricing & Quantity**: No price negotiation anywhere in the thread; commodity transaction. Quantity is named exactly **twice** in 4,413 messages — *"Okay. I need 8 of them"* (2018-11-08) and *"Need 8"* (2019-02-13) — with *"I only got 8 when I got back"* (2019-03-25) confirming the unit is countable and pre-portioned rather than weighed. See the correction below: "8" is overwhelmingly a **clock time** in this thread, not an order size.
 
-**Operational Security**: Deliberately sparse communication ("discretion please" — March 13, 2019); location-based signaling (car description, street coordinates); no product names. "Need 8" is the entire transaction language. Menore exercises discretion on sensitive messages (Annie's presence acknowledged but depersonalized: "Annie coming out").
+> **CORRECTED [2026-08-21] — the thread's transaction language was misread, and
+> the true version is a stronger OPSEC finding.** This page asserted
+> *"Consistent quantity requests — Dan typically orders '8'"* and, under
+> Operational Security, *"'Need 8' is the entire transaction language."*
+> Measured against the 2,660 sent messages: **`need 8` occurs twice**, and the
+> word *need* appears in **11 messages total**. The great majority of the 50
+> standalone `8`s are Menore giving an arrival time — *"I'll be in city @ 8"*,
+> *"8. Cool?"*, *"Crossing @ 8"*, *"8:30ish. Cool?"*, *"Yea. 8ish ok?"* — the
+> same 18:00–20:00 delivery window the metrics section measures. The claim
+> read a timestamp as a dosage.
+>
+> **What the transaction language actually is: availability, ETA, address —
+> and no product, ever.** The measured idiom, by frequency of Dan's sent
+> messages:
+>
+> | Phrase | Count |
+> |---|---|
+> | `can you stop by` / `can u stop by` (all variants) | **432** |
+> | `i'm home on 76` / `on 76th` | **~190** |
+> | `eta` / `eta?` | **122** |
+> | `what time` / `what time u think` | **101** |
+> | `how long` / `how long u think` | **72** |
+> | `ok` / `k` / `thx` / `thanks` (acknowledgements) | **~790** |
+>
+> A complete order in this thread is *"can you stop by"* followed by *"I'm home
+> on 76."* Nothing is named, nothing is counted, nothing is priced. The
+> discipline is not that the product had a codeword — it is that **the product
+> is absent from the exchange entirely**, and both parties knew the order
+> without stating it. That is what six years of "discretion please" actually
+> produced, and it is a better version of the claim this page was trying to
+> make.
+
+One incident: Dan dropped a piece, Menore covered it ("I got u for next time").
+
+**Operational Security**: Deliberately sparse communication ("discretion please" — March 13, 2019); location-based signaling (car description, street coordinates); no product names. The request itself names nothing — "can you stop by" plus an address is the entire transaction language (see the correction under Pricing & Quantity). Menore exercises discretion on sensitive messages (Annie's presence acknowledged but depersonalized: "Annie coming out").
 
 ## Timeline & Phases
 
@@ -191,7 +225,8 @@ row in this corpus by at least five and a half years.
 | Longest consecutive-day meeting streak | 14 days |
 | Max confirmed meetings in one day | 2 (14 days with 2+) |
 | Car primary | Black Camry era (2018–20); beige/blue Subarus (2024–25) |
-| Quantity request | Consistent "8" units |
+| Quantity named in-thread | **twice in 4,413 messages** ("I need 8 of them," "Need 8"); "8" is otherwise a clock time |
+| Product named in-thread | **never** — 0 hits for bag/ball/weed or any product term |
 | Location | 76th St bet 1–2 Ave (2019-era primary); **1st Ave bet 57–58 (2024)**; 55th St, Brooklyn (Nov–Dec 2018) |
 | Incident rate | 1 significant (dropped product, March 25, 2019); 3 unanswered requests in 6.5 years (all 2019) |
 
