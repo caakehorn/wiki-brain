@@ -20,7 +20,7 @@ every page that inherited the gap, then clear.
 | 2026-08-16 | wiki/timeline/events/robotussin-s-last-dance | gap | - Whether any of the three were sober enough to make decisions by the time they left Ruby | raw/timeline/captures/2026-08-16_185413_gap-robotussin-s-last-dance.md | 2026-08-17 |
 | 2026-08-17 | wiki/people/ellen-ulmer | staged-elsewhere | Nothing records whether she and Dan have had any contact since the June 2026 severance | raw/people/captures/2026-08-17_053844_gap-ellen-ulmer.md | 2026-08-17 |
 | 2026-08-18 | wiki/people/diane-moore | staged-elsewhere | The gap, as this page stated it | raw/people/captures/2026-08-17_230820_gap-diane-shrum.md | 2026-08-18 |
-| 2026-08-18 | wiki/people/menore | staged-elsewhere | Not from the gap list — volunteered by the operator | raw/people/captures/2026-08-18_132340_gap-menore.md | |
-| 2026-08-19 | wiki/self/concepts/chatgpt | staged-elsewhere | Not from the gap list — volunteered by the operator | raw/self/captures/2026-08-19_162808_gap-chatgpt.md | |
+| 2026-08-18 | wiki/people/menore | staged-elsewhere | Not from the gap list — volunteered by the operator | raw/people/captures/2026-08-18_132340_gap-menore.md | 2026-08-21 |
+| 2026-08-19 | wiki/self/concepts/chatgpt | staged-elsewhere | Not from the gap list — volunteered by the operator | raw/self/captures/2026-08-19_162808_gap-chatgpt.md | 2026-08-21 |
 | 2026-08-20 | wiki/people/james-dee | staged-elsewhere | Last name is Spiker | raw/people/captures/2026-08-20_015525_gap-james-dee.md | 2026-08-20 |
 | 2026-08-20 | wiki/people/ally-lubin | staged-elsewhere | The gap, as this page stated it: | raw/people/captures/2026-08-20_042255_gap-ally-lubin.md | 2026-08-20 |

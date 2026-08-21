@@ -4,7 +4,7 @@ page_type: event
 title: "Au Za'atar (NYC, ~2021–2024)"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-07-20
+date_modified: 2026-08-21
 sources:
   - raw/self/message-csv/imessage_19178259183_both_all_now.csv
   - raw/self/dansynth/StorytimeAuZaatarAnalysis.md
@@ -45,10 +45,10 @@ connections:
     claim: "The 41-month audit posture — and Dan's own documented sabotage — are this page's contribution to the skepticism model."
   - page: wiki/mind/synthesis/supply-network
     type: co-occurs
-    claim: "The supply network wrapped around this workday: Menore delivered mid-shift to the Shed block through taxi windows — primary-confirmed for May–Aug 2024, with the storytime's longer window unresolved against the Menore thread's 2020–24 gap."
+    claim: "The supply network wrapped around this workday: Menore delivered mid-shift to the Shed block through taxi windows — primary-confirmed for May–Aug 2024, and the storytime's longer window is now corroborated, the Menore thread's 2020–24 gap having proved to be a handle change rather than a break in service."
   - page: wiki/people/menore
     type: supplied-by
-    claim: "Menore was the mid-shift supply line to the Shed block, his legit-taxi cover making the sidewalk handoffs trivial — primary-confirmed for May–Aug 2024 (deliveries to 1st Ave bet 57–58); earlier years rest on the storytime only."
+    claim: "Menore was the mid-shift supply line to the Shed block, his legit-taxi cover making the sidewalk handoffs trivial — primary-confirmed for May–Aug 2024 (deliveries to 1st Ave bet 57–58), and the earlier years no longer rest on the storytime alone: third-party threads show him running deliveries throughout 2023 and Jan–May 2024. This page's independent description of him as Dan's 'Dominican contact' is now confirmed from the message record."
   - page: wiki/health/hyperreflexivity
     type: co-occurs
     claim: "An AI session dated by internal reference to roughly mid-2025 records Dan returning to full-time work after nearly eleven months unemployed following this job's involuntary end — the corpus's only documented marker of what came after the Aug 2024 loss."

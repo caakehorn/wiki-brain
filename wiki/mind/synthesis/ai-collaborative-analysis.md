@@ -6,7 +6,7 @@ title: "AI Collaborative Analysis"
 tags: [ai-collaboration, forensic-analysis, personality-profile]
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-18
+date_modified: 2026-08-21
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini_00.md
@@ -51,7 +51,7 @@ connections:
     claim: "Gemini is the interaction model — used for bootloader design, psychotherapy, creative projects, and the massive activity log."
   - page: wiki/self/concepts/chatgpt
     type: evidenced-by
-    claim: "ChatGPT is the early-adopter model — the first model Dan used for bootloader design, now believed to be 'cooked' post-GPT-5."
+    claim: "ChatGPT is the early-adopter model — the first Dan used for bootloader design, from 2022-12-10. He believes it 'cooked' post-GPT-5, but the corpus holds no primary record of his use after the release: the export stops 2025-07-01, and usage peaked in the four months before it."
   - page: wiki/mind/concepts/exocortex
     type: contains
     claim: "The externalized-prefrontal-cortex frame is the core concept this synthesis develops across the documented interaction modes."
