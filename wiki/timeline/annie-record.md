@@ -26,6 +26,33 @@ connections:
   - page: wiki/timeline/index
     type: component-of
     claim: "The hand-read chronology of the single relationship that dominates the corpus, kept separate from the mechanically generated master timeline because its entries are read and judged rather than extracted."
+  - page: wiki/timeline/annie-read-notes
+    type: contains
+    claim: "The second output of the same read pass: the chronology records what happened, this records everything else the window established — entities, leads, motifs and corrections — so that reading 97,768 messages is paid for once rather than once per question."
+  - page: wiki/timeline/2015-annie-read-wiki-impact-analysis
+    type: contains
+    claim: "A work plan derived from the 2015 read rather than a finding from it: it maps which pages the read should reach, and is superseded page-by-page as the spread pass actually lands them."
+  - page: wiki/timeline/periods/2015-2016-annie-relationship-start
+    type: evidences
+    claim: "The hand-read times \"YOU ARE MY EVERYTHING\" to 2015-11-29 03:24 — ninety minutes after the golf-course meeting, not \"day two\" — and recovers the December 2 family crisis this page compresses to \"parents squash attempt due to rep\"."
+  - page: wiki/mind/synthesis/bond-switch-2015
+    type: evidences
+    claim: "The hand-read of the two-sided corpus establishes that Annie was ending her own relationship in the same seventy-two hours (\"I am going to get rid of him just like you just did\", 2015-11-29 02:52), and that Suz supplied cocaine and offered a car conditional on the eviction — the switch was mutual, and it was brokered and paid for by the family."
+  - page: wiki/mind/synthesis/supply-network
+    type: evidences
+    claim: "Dan names supply as the tie holding a partner in place on 2015-11-29 (\"she doesn't have another drug source\"), roughly three years earlier than any node previously on this page and applied to the departing partner rather than to himself."
+  - page: wiki/people/alexis-armel
+    type: evidences
+    claim: "Three independent lines on 2015-11-28 place Alexis inside the house with an expectation of property damage, and Dan names her lack of another drug source as the reason she has not left — the eviction is then run as reversible pressure steps rather than a confrontation."
+  - page: wiki/people/zach-clingan
+    type: evidences
+    claim: "Dan names Clingan in real time as the origin of his drug use — \"THAT is who introduced me to drugs\" (2015-12-09) — which places him earlier on the supply chain than any node the network page tracks, and his warning to Annie the same day is the first documented use of the switch against her by a third party."
+  - page: wiki/people/casey-bondarenka
+    type: evidences
+    claim: "The two-sided read dates Casey's entry to the friend group at roughly the third week of November 2015 — \"He just started hanging out with us last week\" (2015-11-30) — which makes the whole documented arc, from arrival to expulsion, about nine weeks rather than the tenure a \"friend who overstayed his welcome\" implies."
+  - page: wiki/people/zachariah-harshman
+    type: co-occurs
+    claim: "Through the fortnight before the December 23 rupture Zach is the operational cover for the switch — \"I'll have him drop me and say I'm going to his house\" (2015-11-29) — and is still being used as Annie's excuse to her family on 2015-12-13."
 ---
 
 # The Annie Record — a read chronology

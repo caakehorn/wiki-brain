@@ -54,6 +54,9 @@ connections:
   - page: wiki/mind/psychosexual/arrangement-history
     type: contextualizes
     claim: "The one grievance in the window that is a counter-accusation rather than a complaint — that she let him be named as a man who prostituted her — is adjudicated on that page's primary record and fails on all three limbs, which is what allows this page to score the humiliation grievance as fully justified rather than as one contested claim against another."
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: instance-of
+    claim: "This table's adjudication is what lets the humiliation grievance be scored as fully justified rather than as one contested claim against another: the accusation Dan was publicly named under fails on all three limbs against the primary record, so being named under it is a wrong done to him rather than a dispute between two accounts."
 ---
 
 # The August Grievances — a verdict on the last conversation

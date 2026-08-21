@@ -59,6 +59,15 @@ connections:
   - page: wiki/legal/463-morgantown
     type: contains
     claim: "The house names the recording. Apple Voice Memos titled the file for the street the recording device stood on, which places Dan at home rather than at the confrontation — and the next day Coles types the same address back at him as a threat."
+  - page: wiki/work/bfs-foods
+    type: co-occurs
+    claim: "The termination reversed on 2026-08-11 — the same manager-side chain that produced the 'NO HIRE: Daniel Frank' sign told Dan to reapply — five days before the week that ended the Annie relationship. The one recovery of the 2026 collapse lands inside the window of its worst loss."
+  - page: wiki/people/tuquick-17248123683
+    type: evidenced-by
+    claim: "This page declared the thread CLOSED on 2026-06-16. It reopened on 2026-08-17 with 97 further messages from the same handle, which makes the closure a dormancy rather than an exit and puts this number back in the live record."
+  - page: wiki/people/milo
+    type: evidenced-by
+    claim: "The dog's name is used as a duress code. At 22:54 on 2026-08-18, after Coles had been typing on her handle two hours earlier, Annie sends 'Betty. Milo. Whatever sos words' — reaching for the two dogs as the one thing that could prove to Dan it was really her. The channel that reopened the relationship in July is the channel she tries to authenticate herself through in its last emergency."
 ---
 
 # The Morgantown St Call and the Leverage Campaign, August 16–19 2026

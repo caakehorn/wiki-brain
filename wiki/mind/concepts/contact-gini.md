@@ -62,6 +62,36 @@ connections:
   - page: wiki/mind/synthesis/single-channel
     type: evidences
     claim: "The two-sided coefficient is the only measured instance of a concentration architecture that reproduces independently in the creative, cognitive and evaluative domains — this is the page that generalises it, and the page whose narrow-inbound-funnel alternative this recovery falsified."
+  - page: wiki/people/marc-charles
+    type: instantiates
+    claim: "An 85-message, multi-year, low-intensity thread typical of the wide, shallow periphery documented on the contact-gini page."
+  - page: wiki/people/rod-banks
+    type: instantiates
+    claim: "A mid-volume contact concentrated in the Fran caregiving and post-death estate period."
+  - page: wiki/people/zach-clabaugh
+    type: instantiates
+    claim: "A low-volume contact in the social periphery, concentrated in a single 2017 summer-to-fall window."
+  - page: wiki/people/zach-hendricks
+    type: instantiates
+    claim: "A mid-volume Fayette County contact concentrated in a single 2018 window."
+  - page: wiki/people/michael-hinkle
+    type: instantiates
+    claim: "A single unanswered outreach message is a low end-of-the-tail case of the wide, shallow contact periphery documented on the contact-gini page."
+  - page: wiki/people/slim
+    type: instantiates
+    claim: "A low-volume NYC-era contact in the social periphery, active only during the summer 2019 window."
+  - page: wiki/people/shannon
+    type: instantiates
+    claim: "A brief, purely transactional client relationship — one of many low-volume, single-purpose nodes in the wide, shallow contact periphery."
+  - page: wiki/people/tan-calabrese
+    type: instantiates
+    claim: "A mid-volume Fayette County contact whose 4-year active window places him in the mid-tier of the social graph."
+  - page: wiki/people/mike-hinkle
+    type: instantiates
+    claim: "A low-volume, personal-register contact in the mid-tier social periphery."
+  - page: wiki/people/bruce-burish
+    type: instantiates
+    claim: "A dense short-burst tie — 348 messages across five days, then nothing — is the long tail's characteristic shape: near-total concentration in a single window with no maintenance traffic on either side of it."
 ---
 
 

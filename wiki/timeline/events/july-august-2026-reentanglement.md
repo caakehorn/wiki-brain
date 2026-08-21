@@ -47,6 +47,9 @@ connections:
   - page: wiki/mind/concepts/attachment-model
     type: evidences
     claim: "Between 05:22 and 20:20 on July 26 the exchange runs from a rape accusation and 'don't contact me again' to a joke about the dog catching a rabbit, with no apology or resolution in between — the reset is unconditional and takes fifteen hours."
+  - page: wiki/timeline/events/august-2026-unmasking
+    type: precedes
+    claim: "This night terminates the re-entanglement window that the July 4 email reopened; the same procurement dependency that structured the window structures its collapse."
 ---
 
 # The Re-entanglement, July 26 – August 2 2026

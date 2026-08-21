@@ -55,6 +55,9 @@ connections:
   - page: wiki/people/tarik-fallous
     type: contains
     claim: "Tarik's own 80-message direct thread (filed 2026-07-20) is the primary source for the wine-inventory and hiring-coordination texture behind the 'de facto manager' framing below, and documents the relationship continuing, warmly, nearly two years past this job's end."
+  - page: wiki/timeline/periods/2021-2023-employment-block
+    type: component-of
+    claim: "The Au Za'atar tenure (March 2021–August 2024) is the period's central institution — the 690-shift block that gives these three years their name and nearly all their documented events."
 ---
 
 

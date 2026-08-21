@@ -53,6 +53,21 @@ connections:
   - page: wiki/places/424-bedford-ave
     type: component-of
     claim: "The 2011 Google Talk log's buzzer code ('dial to 63') is the only surviving physical detail of the apartment itself, and the Hurricane Irene/Occupy Wall Street events it documents are both organized directly out of this address."
+  - page: wiki/places/424-bedford-ave
+    type: co-occurs
+    claim: "Jamie's 2011 Google Talk log ('dial to 63 when you get here') is the corpus's only surviving description of getting into the apartment itself — the single physical detail attached to the address beyond the studio/work-era framing."
+  - page: wiki/timeline/periods/2010s
+    type: component-of
+    claim: "Jamie, per the operator, shared the NYC-1 years with Dan and was present the day he first met Menore — the original introduction to the dealer who becomes the supply network's most reliable node, years before the documented 2018 reconnection."
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: component-of
+    claim: "Jamie was present in NYC during the years directly following this period and, per the operator, on the day Dan first met Menore — placing the original Menore introduction inside the Full Sail cohort's own social orbit, years before the documented 2018 reconnection."
+  - page: wiki/people/jason-bermejo
+    type: co-occurs
+    claim: "Jason's Oct 6, 2025 exchange ('Mohler = a literal woman' / 'Haha she badass') is the primary corpus corroboration of Mohler's transition, delivered as a casual, unremarkable update inside the Full Sail friend group."
+  - page: wiki/people/joe-oshnack
+    type: evidences
+    claim: "A Dec 13, 2017 message on Jamie's rediscovered thread independently confirms the Alexis/Annie cam encounter this page first surfaced, narrowing it to Alexis's Feb-Oct 2017 bail window."
 ---
 
 # Jamie Mohler

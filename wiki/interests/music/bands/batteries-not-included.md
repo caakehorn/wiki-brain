@@ -20,6 +20,9 @@ connections:
   - page: wiki/interests/opie-and-anthony
     type: parallels
     claim: "Both are formative teenage counterculture immersions Dan explicitly credits decades later — the hardcore scene via Seth LeDonne, the shock-radio archive via years of solo listening — that trained the same anti-normie, no-flinch aesthetic register."
+  - page: wiki/people/joe-oshnack
+    type: evidences
+    claim: "Joe is one of two named bandmates (with Matt Turko), and his thread is the primary source for the band's setlist and the 2021 political retrospective on covering Dead Kennedys' 'California Uber Alles.'"
 ---
 
 # Batteries Not Included (BNI)

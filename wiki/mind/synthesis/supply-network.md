@@ -111,6 +111,9 @@ connections:
   - page: wiki/health/the-configured-body
     type: contradicts
     claim: "The June 2025 messages put a prescribing doctor at the head of the Suboxone route and Tom as the fallback invoked when an out-of-state script could not be filled — 'I am so fucked. I'm gonna have to drive down to see Tom today' — which reverses this page's default path and makes the May 2026 withdrawal a second-line failure rather than a single point of failure giving way."
+  - page: wiki/people/drew-mcgettigan
+    type: contains
+    claim: "A summer 2015 buyer/go-between node, active for a single three-month window and connected to the Zach Harshman circle he was headed to meet the same night as a documented deal."
 ---
 
 # The Supply Network

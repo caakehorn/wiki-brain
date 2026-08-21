@@ -43,6 +43,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Renaming, not the music, is what changes at a period boundary — this page instantiates 'The Irreversibility Firewall's' identity-layer prediction: reorganize the exposed name, never the involuntary signature underneath it, because the signature was never a choice and therefore never at risk."
+  - page: wiki/mind/synthesis/instrument-is-subject
+    type: mirrors
+    claim: "The methodological contrast case: alias boundaries are admissible precisely because they were produced by the subject without intending to testify, which is the property AI-interpretive pages structurally lack."
 ---
 
 # The Alias Is a Clock, Not a Style

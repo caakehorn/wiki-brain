@@ -31,6 +31,12 @@ connections:
   - page: wiki/mind/synthesis/closing-the-set
     type: instantiates
     claim: "About 450 watches across three fan-archive channels is not fandom but archive exhaustion: a dead broadcast corpus worked through in order until it ran out, which is why it produces the two loudest years in a two-decade watch log and then stops rather than tapering."
+  - page: wiki/interests/music/bands/batteries-not-included
+    type: parallels
+    claim: "Both are formative teenage counterculture immersions Dan explicitly credits decades later — the hardcore scene via Seth LeDonne, the shock-radio archive via years of solo listening — that trained the same anti-normie, no-flinch aesthetic register."
+  - page: wiki/work/tech/ai-video-essays
+    type: parallels
+    claim: "A decade of shock-radio/long-form comedy immersion is the structural template Dan reaches for when designing his own long-form video format — Some More News is explicitly named as the model to reverse-engineer."
 ---
 
 # Opie & Anthony / Shock Radio

@@ -38,6 +38,18 @@ connections:
   - page: wiki/places/the-unpapered-address
     type: evidences
     claim: "Two years at the first New York address leaving no rent figure, no lease, no signatory and no photograph is the earliest instance of a documentary void that recurs at every address since — which means the pattern predates both the poverty floor and the Annie decade and is not a product of either."
+  - page: wiki/places/90th-st-manhattan
+    type: precedes
+    claim: "This Upper East Side sublet is the third and final year of the NYC-1 period, following two years at 424 Bedford Ave — the household's last New York address before the May 2013 return to Uniontown."
+  - page: wiki/people/jamie-mohler
+    type: contains
+    claim: "The 2011 Google Talk log's buzzer code ('dial to 63') is the only surviving physical detail of the apartment itself, and the Hurricane Irene/Occupy Wall Street events it documents are both organized directly out of this address."
+  - page: wiki/people/charles-davenport
+    type: co-occurs
+    claim: "The Jan 24, 2010 exchange ('i'm in need of another run down there') lands inside the arrival window for Dan's first Brooklyn apartment, and reads as early logistics support around that move."
+  - page: wiki/people/alexis-armel
+    type: contains
+    claim: "She lived with Dan for the full two-year run of his first NYC apartment — the relationship's first sustained cohabitation and the setting of the 495-block chat archive that is the only daily record either of them left."
 ---
 
 # 424 Bedford Ave (NYC-1)

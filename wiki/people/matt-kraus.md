@@ -20,6 +20,9 @@ connections:
   - page: wiki/interests/extreme-sports
     type: evidences
     claim: "Matt Kraus is the childhood friend who defined the social shape of Dan's early extreme-sports years: the Vans Skatepark birthday trips, the overlapping Seven Springs condo adjacency, and the Woodward camp attendance all ran through him."
+  - page: wiki/people/nathan-king
+    type: co-occurs
+    claim: "Nathan King and Matt Kraus attended Camp Woodward together for three years before the camp added a ski program, making them co-participants in the same documented adolescent ritual."
 ---
 
 # Matt Kraus

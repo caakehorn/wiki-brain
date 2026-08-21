@@ -20,6 +20,9 @@ connections:
   - page: wiki/mind/synthesis/message-circadian-latency
     type: contains
     claim: "The circadian/latency page is a primary analytical cut of this corpus, recomputed row-level."
+  - page: wiki/people/casey-bondarenka
+    type: evidences
+    claim: "The 36-message thread is marked \"Received\" throughout in this export, which is why direction here is read as one-way rather than trusted."
 ---
 
 

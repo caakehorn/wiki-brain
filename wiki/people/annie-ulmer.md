@@ -254,6 +254,39 @@ connections:
   - page: wiki/self/concepts/wiki-brain
     type: evidenced-by
     claim: "This page is the wiki-brain's largest single test case — 120 KB built across seventeen years of primary sources, reopened after being marked closed, and the standing example of why 'closed' means formally ended rather than finished."
+  - page: wiki/legal/2015-retail-theft-arrest
+    type: co-occurs
+    claim: "The theft landed at the exact genesis of the relationship and was metabolised into a running couple's joke, which is the earliest documented instance of the pair converting Dan's legal trouble into shared comedy."
+  - page: wiki/timeline/periods/feb-apr-2025-return-and-rupture
+    type: evidenced-by
+    claim: "Annie's unilateral move to her parents' house rather than accepting Dan's open-ended offer to fund an apartment anywhere she chose is the first concrete post-affair decision-making asymmetry in the corpus, predating the terminal-phase asymmetry by roughly eight months."
+  - page: wiki/timeline/events/fran-death-vigil
+    type: evidenced-by
+    claim: "The vigil is the high-water mark of the Annie decade — the one extended episode where Dan and Annie function as a unit under real weight, part of why the bond survived what followed."
+  - page: wiki/timeline/events/annie-alexis-reunion-november-2018
+    type: contains
+    claim: "The Annie personality is the facilitator node in both the 2018 reunion and the Shelbie threesome — she coaches Annie, she handles logistics (moving dogs, buying wine), she frames the events as gift-giving to Dan, and she maintains the 'everything's fine' surface while the arrangement operates underneath."
+  - page: wiki/health/cocaine
+    type: evidences
+    claim: "Cocaine procurement is the load-bearing mechanism of the Annie terminal phase — Dan controlled the supply ('bop') as the relationship's primary retention mechanism, and stated the thesis out loud: 'getting you drugs... was about that being the only way you would see me.'"
+  - page: wiki/people/shelbie-breakiron
+    type: co-occurs
+    claim: "Annie is present throughout the relationship, not concealed — she is discussed, joked about, and directly involved in a three-way arrangement, including the logistics documented on shelbie-annie-threesome-april-2019."
+  - page: wiki/people/annie-ulmer-personality-assessment
+    type: instance-of
+    claim: "The forensic assessment of Annie's MBTI and Enneagram types is based on behavioral evidence from her 126,683-message corpus."
+  - page: wiki/people/jerel-coles
+    type: evidenced-by
+    claim: "As Tuquick, denied the broken-finger claim in the May 31 group chat in real time — 'Her finger isn't broken' — then, per operator confirmation that Tuquick and the unnamed man are one person, had the same claim re-asserted to him by Annie in the July 26 window as though undisputed."
+  - page: wiki/people/new-jim-shaffer
+    type: co-occurs
+    claim: "Jim's enthusiastic, judgment-free reaction to learning about the Dan/Annie arrangement — disclosing his own interest in swinging and negotiating toward joining an encounter — is a friend-group data point on how normalized the arrangement was among Dan's peers."
+  - page: wiki/people/casey-bondarenka
+    type: co-occurs
+    claim: "Casey is the first friend documented learning about Annie — \"Wait is that Annie?\" on the day Dan met her — which fixes how quickly the switch became known outside the couple."
+  - page: wiki/people/bruce-burish
+    type: evidenced-by
+    claim: "The thread is an outside record of the camming business at its launch: Dan describes it to a friend in October 2018 in the couple's-project register, and quotes Annie's prior solo cam work as the reason it 'works out really well to do it as a couple.'"
 ---
 
 # Annie (Anne Louise Ulmer)

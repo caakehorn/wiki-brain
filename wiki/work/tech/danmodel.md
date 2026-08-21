@@ -26,6 +26,9 @@ connections:
   - page: wiki/mind/concepts/contact-gini
     type: evidences
     claim: "The by-contact breakdown (Annie early 40%, unmapped 35%, Annie NYC 12%, five other named contacts splitting the remainder) is a structurally similar concentration pattern to the 0.961 message-corpus Gini coefficient, independently reproduced in a different metric (reaction pairs, not raw message counts)."
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: instantiates
+    claim: "DANMODEL's dual retrieval-vs-generation architecture (Jaccard baseline vs. TF-IDF RAG simulator) recreates the CATO/MAX forensic-retrieval-vs-adversarial-generation split inside one narrow voice-cloning tool."
 ---
 
 # DANMODEL — a voice-cloning ML pipeline trained on Dan's own texts

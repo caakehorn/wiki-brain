@@ -20,6 +20,10 @@ infobox:
   name: "Ismaila Barry (\"DJ\")"
   relationship_to_dan: unknown
   known_for: "Ismaila Barry — universally 'DJ' — is the Senegalese busser-turned-server"
+connections:
+  - page: wiki/people/tarik-fallous
+    type: co-occurs
+    claim: "Dan's Aug 21 2024 'CIA agent' tip to Tarik was specifically about DJ (Ismaila Barry) possibly not returning from vacation — informal post-employment intel-sharing about a close friend's own uncertain exit, source of the unconfirmed 'DJ did what MD did' lead."
 ---
 
 # Ismaila Barry ("DJ")

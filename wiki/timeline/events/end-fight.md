@@ -13,6 +13,9 @@ connections:
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: evidences
     claim: "This event corpus is the primary RAW-CSV backbone of the fallout verdict's defamation and independent-validation findings."
+  - page: wiki/people/jerel-coles
+    type: co-occurs
+    claim: "He is the counterpart of the terminal group chat that closed the relationship on June 1, 2026."
 ---
 
 

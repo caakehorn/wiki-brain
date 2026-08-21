@@ -16,6 +16,10 @@ infobox:
   location: nyc
   first_contact: 2019-03-12
   known_for: "Trinity St. Clair — the adult film performer of that name, per the contact card (booking email booktrinitystclair@gmail."
+connections:
+  - page: wiki/people/eric-jester
+    type: evidences
+    claim: "Dan's April 8, 2019 message to Eric ('paid $1500 last week to have pornstar trinity st clair come hang out with my girlfriend and i') independently corroborates the booking cost and dates it to late March 2019, a figure not preserved in Trinity's own thread."
 ---
 
 # Trinity St. Clair

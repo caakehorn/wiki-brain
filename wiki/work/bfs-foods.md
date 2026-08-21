@@ -64,6 +64,24 @@ connections:
   - page: wiki/work/creative-license
     type: parallels
     claim: "The corpus's own dossiers name this job's drawer dispute as the recurrence, fourteen years on, of the same shape first seen at Creative License in 2011–12 — a trusted vertical figure's undocumented financial claim met with exit rather than confrontation; unlike this well-documented instance, the 2012 case has no primary corroboration."
+  - page: wiki/people/anita
+    type: contains
+    claim: "Anita is the general manager at the center of the drawer dispute — the person who originated the $50 claim and controls the deposit, schedule, and discipline levers the dispute turns on."
+  - page: wiki/people/dakota
+    type: evidences
+    claim: "Dakota is the first, hearsay disclosure channel for the Timmy blame-pivot pattern that [[wiki/work/bfs-foods]] documents in full as 'the pattern template' for Anita's operational conduct."
+  - page: wiki/people/maddox
+    type: evidences
+    claim: "Maddox's unprompted sidewalk testimony is the corpus's fullest direct-witness account of the Timmy blame-pivot, and directly challenges the $50 demand's procedural legitimacy."
+  - page: wiki/people/brandon-hill
+    type: contains
+    claim: "Brandon is the assistant manager who closed the incident shift, created the phantom tender that inflated the variance, and personally delivered Anita's $50 demand."
+  - page: wiki/people/timmy
+    type: contains
+    claim: "The Timmy vape/gambling saga is the two-weeks-prior precedent that makes the drawer dispute legible as a repeat of an established pattern rather than a one-off."
+  - page: wiki/people/marty-martin
+    type: evidences
+    claim: "Marty's framing of the store's off-books culture ('make the store whole to keep your job') is the primary evidence for reading the $50 drawer-shortage demand as structural rather than an isolated shakedown."
 ---
 
 # BFS Foods (2026)

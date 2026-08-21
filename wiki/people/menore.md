@@ -41,6 +41,9 @@ connections:
   - page: wiki/work/creative-license
     type: co-occurs
     claim: "The quoted line contrasting Menore's reliability with 'Creative License style fraud' shows the earlier employer had become Dan's own shorthand for institutional unreliability years later — independent of whether the underlying fraud allegation is ever corroborated."
+  - page: wiki/health/cocaine
+    type: evidences
+    claim: "Menore is the NYC delivery node whose product is never named in-thread — measured: zero product terms in 4,413 messages — but is called 'menore's bags' and distinguished from weed in Dan's other threads, which narrows the six-year, 99.3%-availability service record to a bagged non-cannabis product consistent with cocaine logistics."
 tags: [digital-footprint, addiction-recovery, nyc-era]
 knowledge: earned
 infobox:

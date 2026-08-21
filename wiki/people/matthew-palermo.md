@@ -23,6 +23,9 @@ connections:
   - page: wiki/people/joe-oshnack
     type: parallels
     claim: "Both threads carry the same generational framing of the Uniontown opiate epidemic — 'the class of 06 was a real low point for humanity' to Joe (Aug 2018) and 'a quarter of my graduating class isn't around anymore' to Matthew (Feb 2020) — independent statements of the same scale claim eighteen months apart."
+  - page: wiki/people/lewis-strosnider
+    type: evidences
+    claim: "A Sept 22, 2018 message to Matthew Palermo ('Got the mavic 2 yesterday') independently dates the drone's purchase, one day before the crash/repair saga that runs through this page begins."
 ---
 
 # Matthew Palermo

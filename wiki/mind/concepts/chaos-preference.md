@@ -42,6 +42,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Wanting the world less orderly is 'The Irreversibility Firewall's' external-facing register: imposed order is another vertical claim to distrust, and disorder cannot indict a chooser because no one chose it."
+  - page: wiki/mind/synthesis/fayette-return
+    type: mirrors
+    claim: "The same asymmetry as the entropy appetite: disorder is welcome everywhere except in the structures he did not choose, and geography is the one structure nobody in this line has successfully chosen against."
 ---
 
 # The Chaos Preference

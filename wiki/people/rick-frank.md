@@ -76,6 +76,9 @@ connections:
   - page: wiki/people/tan-calabrese
     type: co-occurs
     claim: "Rick's confrontation of Tan over a harmless Angelfire site — conducted by humiliating Dan in front of him — cost Dan the friendship for months and is Dan's own example of the childhood control pattern; the friendship itself survived into the documented 2016–2020 message record, showing the rupture Rick caused was not permanent even though it was real."
+  - page: wiki/timeline/events/robotussin-s-last-dance
+    type: co-occurs
+    claim: "Frank's Auto Supply is the daytime setting of the same day — the delivery-driver job held that afternoon, at 17, on a day whose evening ended with 90 minutes of full intoxication at Ruby Tuesday's near Pittsburgh airport and a 95 mph drive back toward Uniontown."
 ---
 
 

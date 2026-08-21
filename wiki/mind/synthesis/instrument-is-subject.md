@@ -40,6 +40,12 @@ connections:
   - page: wiki/mind/synthesis/the-commissioned-self
     type: instance-of
     claim: "The recursion this page names at the level of authorship has a second loop underneath it: the psychological layer the wiki reasons from was itself commissioned by the subject, over corpora he chose, under instructions he wrote — so there is no independent observer at any point in the stack, and the seven frameworks' agreement carries almost no information."
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: instance-of
+    claim: "The methodological consequence of this page: because LLM use is a documented daily organ of the subject, the same class of tool cannot serve as an independent observer of him, and interpretive output must carry provenance upward through every climb."
+  - page: wiki/mind/synthesis/ancestral-dialectic
+    type: instance-of
+    claim: "This page is the worked example of the provenance rule: an interpretive frame that arrived knowledge: mixed and must not have that status laundered by anything that later reasons from it."
 ---
 
 # The Instrument Is Also the Subject
