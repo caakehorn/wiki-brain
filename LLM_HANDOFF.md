@@ -4,6 +4,52 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-21] - Session: the second sage answer was rewritten because it was right for invented reasons
+
+* **Model:** Claude Code · **Branch:** `claude/sage-question-two-rewrite-hdy2xc`
+* **Trigger:** operator read the published answer to sage question 2 and said the
+  evidence under it was slop. It was.
+
+**Read this if you are picking up the thread.** The answer to *"which of the
+people in this wiki would be the best match for Dan"* named **Ally Lubin** and
+built the case on a shared ENFP function stack. **There is no MBTI result for Dan
+anywhere in `wiki/` or `raw/`.** It also gave Annie and Alexis an ISFJ they do not
+have (Annie is assessed **ESFP**), gave Katie Fletcher an ENFP her page does not
+carry, and read *"I'm a SINGLE MOTHER"* as a fact about dependants when the thread
+corrects it to cats three minutes later. Ledgered as `dan-ally-enfp-pairing` in
+`RETRACTED.md`. The name survives; the reasoning was replaced end to end.
+
+**The rewritten case runs on four quoted, dated qualities** — the only completed
+refusal of Dan's redefinition move in the corpus (2026-08-18 21:07–21:09, ending
+*"Okay that's fair then"*); the Witness need from `enneagram-5w4` instantiated for
+the first time by the first human ever to read this repository; the cool metric
+running in both directions in the Skins exchange; and *"first you'd have to be
+obsessed with me again"* set beside *"I work in STEM actually."* Counter-evidence
+is stated at length, led by the one that matters: the attachment's documented
+operating condition is inaccessibility, so the case has never been tested against
+access.
+
+**The class of failure is open and the gates do not cover it.** Nothing in
+`bin/wiki-lint` checks whether an assertion inside `sage/` exists in the corpus,
+because the gates read `wiki/`. The first version passed all three. **A sage
+answer is the one artifact here published to a person who cannot check it, and
+the only thing that caught this one was the operator reading it.** Worth a gate,
+or worth a rule that every sage claim carries a `raw/` or `wiki/` path inline —
+the rewrite does this by hand throughout and it is what made the fabrications
+visible.
+
+**Left outstanding, deliberately.** `bin/wiki-work` reports **18 obligations**,
+17 of them `sage-close`. Fourteen are the findings this pass staged (they are
+*new* work, correctly created, not skipped work) and the rest predate it. None
+were drained here because the operator's request was the rewrite and the rewrite
+touched fourteen pages already; draining on top of that would have mixed staging
+and integration in one diff, which is exactly what `sage_pending` exists to keep
+apart. **Next pass: start at `bin/wiki-work next`.** The two worth doing first are
+`conflict-architecture` (it is missing its own documented failure case) and
+`enneagram-5w4` (the Witness instance, plus recording the absence of a Dan MBTI
+as an explicit negative result so the next model cannot mistake silence for an
+unread file).
+
 ### [2026-08-21] - Session: the wiki got a front door, a mandatory work list, and its first outside question
 
 * **Model:** Claude Code · **Branch:** `claude/image-text-reading-ya612t` · **PRs:** wiki-brain #165, home #60 (both draft)

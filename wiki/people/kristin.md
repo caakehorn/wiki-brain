@@ -446,13 +446,29 @@ stores some text in **mathematical-monospace Unicode**, so a plain grep for
 `LONELY LOSER` returns nothing while the string is plainly present. Fold with
 `unicodedata.normalize('NFKC', …)` before matching. This is the same family as the
 curly-apostrophe trap in `EXTRACTION_SPEC.md` and belongs beside it.
-
-
 ## Sage findings — pending ingest
 
-> **SAGE [2026-08-21]** This page was cited by the SAGE answer to "Which of the
-> people in this wiki would be the best match for Dan?" The answer identifies
-> **Ally Lubin** as the best match based on qualities alone. This page provides
-> the evidence for one or more of the axes on which that comparison was made:
-> type match, defense complementarity, structural independence, age proximity,
-> or self-awareness match. Review for relevant findings and integrate.
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+
+Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
+
+**This page is the conflict-disposition control, and it was used as one.** The
+answer contrasted the documented shape of disagreement here — escalation to a
+permanent block over $40 after ten weeks and 22,018 messages — against the
+Ally channel, where a challenge to Dan's framing is conceded in ninety seconds
+(2026-08-18 21:08–21:09). The page's own reading of the 2025 relationship as
+[[wiki/mind/psychosexual/arrangement-history|the arrangement's documented
+inversion]] carries the weight; nothing here is revised. **What the page does not
+yet do is state the disposition as a quality rather than as an outcome** —
+total-exclusivity demand plus purity testing plus severance-as-conflict-move is
+a description of a person, not just of ten weeks, and it is the form in which
+this page is now being read from outside the wiki.

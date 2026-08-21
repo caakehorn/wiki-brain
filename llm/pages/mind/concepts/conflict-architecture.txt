@@ -1,4 +1,5 @@
 ---
+sage_pending: '2026-08-21'
 domain: mind
 page_type: concept
 status: active
@@ -130,3 +131,31 @@ The re-engagement is reassurance, not apology — a reload of the affirmation, n
 The [[wiki/people/eli|Eli]] affair amplified this architecture to its worst mode. Dan's accurate perceptual outputs — his forensic detection of deception — were systematically reframed by Annie as "paranoia" and "mental illness." The engine was running correctly, and its outputs were being weaponized as evidence against its own operator. Annie's withdrawal pattern during high-stakes moments compounded this: her ghosting and silence generated distress responses from Dan, which she then engaged as the primary event ("I can't talk to you when you're like this"), never addressing the antecedent silence that produced them — in 94 documented opportunities, zero acknowledgments of the silence as cause. The final dossiers name the exploited mechanism precisely: the "controlled void" withheld even a yes/no because Annie knew the engine could not tolerate open loops, guaranteeing hypervigilance until she chose to re-enter on her own terms. See [[wiki/timeline/events/eli-incident]] and [[wiki/mind/concepts/attachment-model]] for the full gaslighting record.
 
 > **CONTRADICTION (with attachment-model):** The conflict engine treats emotional bids as propositions requiring resolution. This directly collides with the attachment architecture, which has no internal halt condition or counter-rule issuance pathway. The two systems are mutually amplifying rather than self-correcting.
+
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+
+Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
+
+**The corpus contains exactly one completed refusal of the redefinition move,
+and it is not on this page.** 2026-08-18, 21:07:43–21:09:11 — **ALLY:** *"You
+just love bomb"* → **DAN:** *"But love bomb is like a malicious tactic and there
+very little malice"* → **ALLY:** *"I didn't say malicious"* → **DAN:** *"Okay
+that's fair then"*. The middle move is the one this page documents: a challenge
+answered by contesting the definition of the term rather than the conduct. What
+has no precedent in the record is the fourth message. **Six words that decline to
+argue the definition end it in ninety seconds**, and the same evening contains the
+reciprocal case at 16:46–16:47, where Dan pushes back and *she* concedes (*"Ok
+that's fair actually"*). A page about how conflict is architected should carry
+its own documented failure case, and this is it — including the detail that the
+refusal works by narrowing rather than by escalating.

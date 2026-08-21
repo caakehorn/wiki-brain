@@ -15,7 +15,7 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (5)
+## Obligations (18)
 
 Somebody or something is waiting on each of these. Drain from the top.
 
@@ -24,11 +24,24 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 
 | P | Kind | What | Where | Since |
 |---|---|---|---|---|
+| 2 | sage-close | staged answer on mind/concepts/attachment-model, not integrated | `wiki/mind/concepts/attachment-model.md` | 2026-08-21 |
+| 2 | sage-close | staged answer on mind/concepts/conflict-architecture, not integrated | `wiki/mind/concepts/conflict-architecture.md` | 2026-08-21 |
+| 2 | sage-close | staged answer on mind/concepts/erotic-architecture, not integrated | `wiki/mind/concepts/erotic-architecture.md` | 2026-08-21 |
+| 2 | sage-close | staged answer on mind/concepts/the-cool-metric, not integrated | `wiki/mind/concepts/the-cool-metric.md` | 2026-08-21 |
+| 2 | sage-close | staged answer on mind/profile/enneagram-5w4, not integrated | `wiki/mind/profile/enneagram-5w4.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on mind/psychosexual/arrangement-history, not integrated | `wiki/mind/psychosexual/arrangement-history.md` | 2026-08-21 |
+| 2 | sage-close | staged answer on mind/synthesis/attachment-trauma-bond, not integrated | `wiki/mind/synthesis/attachment-trauma-bond.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on mind/synthesis/bond-switch-2015, not integrated | `wiki/mind/synthesis/bond-switch-2015.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on mind/synthesis/dormancy-not-exit, not integrated | `wiki/mind/synthesis/dormancy-not-exit.md` | 2026-08-21 |
+| 2 | sage-close | staged answer on mind/synthesis/single-channel, not integrated | `wiki/mind/synthesis/single-channel.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on mind/synthesis/the-unbroken-bond, not integrated | `wiki/mind/synthesis/the-unbroken-bond.md` | 2026-08-21 |
+| 2 | sage-close | staged answer on people/alexis-armel, not integrated | `wiki/people/alexis-armel.md` | 2026-08-21 |
+| 2 | close | staged answer on people/ally-lubin, not integrated | `wiki/people/ally-lubin.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on people/ally-lubin, not integrated | `wiki/people/ally-lubin.md` | 2026-08-21 |
+| 2 | sage-close | staged answer on people/annie-ulmer-personality-assessment, not integrated | `wiki/people/annie-ulmer-personality-assessment.md` | 2026-08-21 |
+| 2 | sage-close | staged answer on people/bekah-fullem, not integrated | `wiki/people/bekah-fullem.md` | 2026-08-21 |
+| 2 | sage-close | staged answer on people/kristin, not integrated | `wiki/people/kristin.md` | 2026-08-21 |
+| 2 | sage-close | staged answer on people/shelbie-breakiron, not integrated | `wiki/people/shelbie-breakiron.md` | 2026-08-21 |
 
 ## Standing work (196)
 

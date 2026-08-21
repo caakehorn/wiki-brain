@@ -956,13 +956,44 @@ Alright that’s enough
 Your future soulmate
 
 Beto o’rourke
-
-
 ## Sage findings — pending ingest
 
-> **SAGE [2026-08-21]** This page was cited by the SAGE answer to "Which of the
-> people in this wiki would be the best match for Dan?" The answer identifies
-> **Ally Lubin** as the best match based on qualities alone. This page provides
-> the evidence for one or more of the axes on which that comparison was made:
-> type match, defense complementarity, structural independence, age proximity,
-> or self-awareness match. Review for relevant findings and integrate.
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+
+Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
+
+**The concession sequence of 2026-08-18 21:07–21:09 is the strongest single
+quality claim available about this relationship, and this page reports it as
+evidence of her hostility as a reviewer rather than as evidence of a dynamic.**
+The four-message run — **ALLY** *"You just love bomb"* / **DAN** *"But love bomb
+is like a malicious tactic and there very little malice"* / **ALLY** *"I didn't
+say malicious"* / **DAN** *"Okay that's fair then"* — is the only place in the
+corpus where Dan's documented move under challenge, redefining the disputed term
+([[wiki/mind/concepts/conflict-architecture]]), is refused and abandoned inside
+two minutes. The reciprocal case is ninety minutes earlier at 16:46–16:47, where
+he pushes back on *"I've been objectified my entire life"* with *"I did reverse
+objectification. You hooked me with your tweets and THEN I realized you were a
+baddie"* and she answers *"Ok that's fair actually."* **Correction lands in both
+directions in this channel, twice in one evening, and the page currently records
+only her half.** Worth a paragraph in "She audits it," which is where the
+quotations already live.
+
+**A second finding, defensive.** An earlier version of the answer this block
+comes from read Ally's *"I'm a SINGLE MOTHER"* (2026-08-18 16:49:37) as evidence
+of dependants and a life structure outside Dan. **It is a joke about cats and she
+corrects it herself three minutes later** — *"Are you still doing the cat mother
+thing / Or did I miss that you're an actual mother"* → *"No still just cats."*
+The page should state this explicitly, because the line is a trap that has now
+caught one pass and will catch another. Related: the page has no `mbti` evidence
+for Dan at all, and its own record of the December 2018 argument is that **he
+refuses to accept she is an ENFP** — an infobox `mbti: ENFP` on her card is
+therefore a claim with exactly one disputed source behind it and should say so.

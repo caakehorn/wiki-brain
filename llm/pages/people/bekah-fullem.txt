@@ -1,4 +1,5 @@
 ---
+sage_pending: '2026-08-21'
 domain: people
 page_type: entity
 status: closed
@@ -105,3 +106,27 @@ The outcome of the cat's medical crisis, the disposition of her assault
 report, and any relationship to Dan beyond these two crisis contacts
 are undocumented. The Annie-assault claim has no independent
 corroboration anywhere else in the corpus.
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+
+Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
+
+**Recorded as insufficient, not dismissed.** Asked from outside the wiki which
+person is the best match for Dan, the answer of 2026-08-21 considered this page
+and declined to model it: the entire record is a pre-existing flirtation and two
+crisis contacts in early 2020, and the warmth on both sides is real but not
+enough to predict a sustained dynamic from. **That is a finding about the page's
+coverage rather than about Bekah.** If the two 2020 exchanges are the whole
+record, the page should say so in terms that make the limit explicit, because an
+outside reader will otherwise take the warmth as the finding. If they are not —
+if there is unmined material on either handle — that is the top action here.

@@ -3320,3 +3320,69 @@ Findings staged on five pages under `sage_pending: 2026-08-21` —
 `the-unbroken-bond`, `arrangement-history`, `bond-switch-2015`,
 `dormancy-not-exit`, `ally-lubin`. No `date_modified` bumped: nothing is
 corrected yet. Capture at `raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md`.
+
+## [2026-08-21] answer | people | who is the best match for Dan — rewritten, same conclusion, new evidence
+
+The second sage question was answered earlier today and the answer was wrong in a
+way that matters more than a wrong answer would have: **it reached a defensible
+conclusion through invented evidence.** The operator flagged it; this pass rebuilt
+the case from the record and kept the name.
+
+**What was fabricated.** The published answer opened *"Both Dan and Ally test as
+ENFP"* and spent four paragraphs on function-stack complementarity. **There is no
+MBTI result for Dan anywhere in `wiki/` or `raw/`** — `grep` returns MBTI strings
+on exactly three pages, and none is about him. It assigned **ISFJ** to Annie
+(assessed **ESFP**, argued explicitly against ENFP on the S/N axis) and to Alexis
+(no assessment exists). It named Katie Fletcher as "the only other ENFP
+documented"; her page carries no type. It read Ally's *"I'm a SINGLE MOTHER"*
+(2026-08-18 16:49:37) as evidence of dependants — **it is a joke about cats,
+corrected by her three minutes later**: *"No still just cats."* And it called her
+financially independent of Dan, inverting a record in which she asks him for money
+in 2019, 2023 and 2025. Ledgered as `dan-ally-enfp-pairing` in `RETRACTED.md`.
+
+**What the record actually supports, and what the rewrite runs on.** Four
+qualities, each quoted and dated:
+
+1. **The only completed refusal of the redefinition move in the corpus.**
+   2026-08-18 21:07–21:09 — *"You just love bomb"* → *"But love bomb is like a
+   malicious tactic and there very little malice"* → *"I didn't say malicious"* →
+   ***"Okay that's fair then."*** The middle move is what
+   `conflict-architecture` documents. The fourth message has no precedent. The
+   reciprocal case is the same evening at 16:46–16:47, where Dan pushes back and
+   **she** concedes (*"Ok that's fair actually"*).
+2. **The Witness need, instantiated for the first time.** `enneagram-5w4` names
+   it — *"someone who validates that the internal world is real"* — and had no
+   instance. Ally is the first human other than Dan to read this repository
+   (*"I let you be the literal first person to ever read that wiki"*, 2026-08-19
+   19:52), and she read it and audited it.
+3. **The cool metric running in both directions.** The Skins exchange of
+   21:25–21:28 is the only recorded case of Dan **losing a round inside his own
+   filter** — *"Annie wasn't smart enough to be Effy"* / *"I'm a half Effy half
+   Cassie"* — and he does not adjudicate.
+4. **A stated requirement of intensity without a requirement of rescue.**
+   *"Well first you'd have to be obsessed with me again"* (13:54:32) beside
+   *"I work in STEM actually"* and *"I work my ass off"*.
+
+**What cuts the other way, stated in the answer at length.** The attachment's
+documented operating condition is inaccessibility (*"so i can get the poison
+out"*, 2019-10-22) — the case has never been tested against access, which is the
+answer's own strongest objection to itself. The money runs toward her, not away.
+The instability is bilateral. Dan ran this channel and the terminal Annie channel
+in the same hours and misreported each to the other. And the mutual half is
+**eight hours long** — 1,293 sent against 694 received across eighteen years, with
+the August 19 inbound missing from the capture entirely.
+
+Findings restaged on **fourteen** pages, none of them the boilerplate the first
+pass wrote: the block on each now carries a finding specific to that page rather
+than a notice that the page was cited. Two pages lost their block because the
+rewrite no longer cites them (`context-core`, and question 2's half of
+`bond-switch-2015`). No `date_modified` bumped anywhere — nothing is corrected
+yet.
+
+**The general finding, which is about this repository and not about Ally.** A
+sage answer is the one artifact here that is published to a person who cannot
+check it. The first version passed all three gates: nothing in `bin/wiki-lint`
+tests whether an assertion in `sage/` exists in the corpus, because the gates read
+`wiki/`. The retraction ledger now covers the specific claim, but the class is
+open — **an answer can invent a premise and ship it, and the only thing that
+caught this one was the operator reading it.**

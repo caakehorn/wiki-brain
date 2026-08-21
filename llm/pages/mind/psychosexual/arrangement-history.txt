@@ -345,3 +345,22 @@ answer found no instance, in eleven years, of an outside encounter concealed fro
 Annie. Every documented instance is disclosed, and usually she is present. That
 is a third structural property alongside the two the page names, and it is the
 one that most distinguishes this record from ordinary infidelity.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+
+Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
+
+**The 2019 Ally sequence is this page's cleanest instance and it was published as
+one.** Asked from outside the wiki which person is the best match for Dan, the
+2026-08-21 answer named Ally Lubin and then used this page's frame as its second
+piece of counter-evidence: a price list negotiated with a woman who, in the same
+thread, reports no income, no insurance, a bottle of wine a night, and *"If I
+killed myself would you be sad."* The quotes are Dan's — *"how do i try to sell
+you on letting me pay for your noodz while you're in bummer island?"*
+(2019-08-17), *"i'd do $30 for a tit pic if your face is visible"* — and hers:
+*"I want to be on your payroll tho / But you scare me."* **The finding: the
+arrangement is documented here as a structure Dan proposes to partners, and the
+Ally case shows it proposed to a non-partner, inside ninety minutes of learning
+she had lost her income.** That is a faster trigger than any other instance on
+this page, and speed-of-onset is not currently one of the properties the page
+measures.

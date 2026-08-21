@@ -1,4 +1,5 @@
 ---
+sage_pending: '2026-08-21'
 domain: mind
 page_type: concept
 knowledge: mixed
@@ -164,3 +165,33 @@ The three mechanisms' interpretive framing (externalized libido, taboo as
 ontological rupture, emotional consumption) remains AI-authored and
 uncorroborated as *theory*, even where the underlying events are now
 independently documented.
+
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+
+Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
+
+**This page supplied the strongest counter-evidence in the 2026-08-21 answer,
+and it did so against the answer's own conclusion.** Asked who is the best match
+for Dan on qualities alone, the answer named Ally Lubin and then used this page's
+reading — *"the purest case of the architecture running with no body in the room:
+arousal sustained entirely by inaccessibility"* — to state that the case has never
+been tested against access. The load-bearing quote is Dan's, 2019-10-22: *"you
+don't even have the decency to allow me to see you naked **so i can get the
+poison out**."* **The finding for this page is that inaccessibility-as-operating-
+condition is now a falsifiable prediction with a date attached**: if a meeting
+occurs and the channel survives it, the architecture is weaker than this page
+claims; if it occurs and the channel collapses, this page is the reason. The
+ninety days after 2026-08-19 are where that resolves, and the page should say so
+in the same terms [[wiki/mind/synthesis/single-channel]] uses for its own live
+test.
