@@ -1,4 +1,5 @@
 ---
+sage_pending: '2026-08-21'
 domain: people
 page_type: entity
 title: "Ally Lubin"
@@ -7,6 +8,7 @@ status: active
 knowledge: mixed
 date_created: 2026-06-23
 date_modified: 2026-08-20
+pending_ingest: 2026-08-21
 date_range_start: 2011-05-20
 date_range_end: 2026-08-20
 sources:
@@ -69,7 +71,6 @@ connections:
   - page: wiki/timeline/periods/2018-deep-cycle
     type: component-of
     claim: "The tie is opened inside the deep cycle and shares its economics — a $25 finder's fee, a $250 Cash App gift and a Christmas present issued in the same December weeks Dan was running daily Cash App limits and declined payments."
-sage_pending: 2026-08-21
 ---
 
 # Ally Lubin (Alexandra Lubin)
@@ -877,6 +878,84 @@ Each of these is answerable by the operator in a paragraph.
   history. The Model Mayhem and "boca raton ally lubin" searches Dan describes
   on 2019-08-22 are from Google, whose search-history export is not in `raw/`.
 
+## Operator answers — pending ingest
+
+> Transient staging, written from the portal. Each block below is the
+> operator answering something this page said it did not know. **Nothing here
+> has been integrated yet.** The next pass over this page reads these answers,
+> corrects this page *and every page that inherited the gap*, records each
+> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
+> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
+> section and the `pending_ingest:` flag. It is not allowed to accumulate into
+> a changelog — STYLE_GUIDE rule 6.
+
+### ANSWERED [2026-08-21] — manual note
+
+**Not from the gap list** — volunteered by the operator, so the ingest
+has to work out for itself where on the page it belongs, and whether it
+contradicts something already there.
+
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-21_175309_gap-ally-lubin.md`.
+
+Dan’s first love letter to Ally :
+
+You really are unlike anyone else that I’ve ever experienced. 
+
+I’ve been thinking a lot about what it was about you that made me so comically attracted to you that I spent more than a decade flailing around like an idiot on social media, desperately trying to get your attention so that I could meet you. 
+
+There was never any reason whatsoever to think that this was a good idea or that you would ever notice me at all..and even if i could get your attention, the chances of you being curious enough to waste your time getting to know a mediocre looking, drug-addled, autistic tryhard were lower than 0. 
+
+And yet….  I just never got over it.  It may not have been my top priority or a daily thought but for over a decade, I never found a reason to take ‘’meet (total stranger) ally Lubin” off of my to-do list.
+
+So look…this is where your observation about me saying the same trite shit to girls would usually invalidate all of the aww factor that I’ve obviously tried to cultivate in a note like this. And you are fully correct in your assessment of how corny and sophomoric that behavior is.
+
+But even if it amounts to nothing more than giving you a sense of just how special and weird and intoxicating you are…. I want to show you how sincere I am in telling you that:
+
+You really are kind of the only one that I can say with full sincerity that those hackneyed, cheesedick compliments actually applies to.
+
+Okay. Ally! Stop it! 
+Stop rolling your eyes at me! 
+
+Listen; you could scrape through everything I’ve ever done online and I promise you that there’s no precedent for the role you’ve been unwillingly cast in for me.
+
+There’s no one else who I was so determined to cross paths with or that I saw as being this tour de force of personality.
+
+Yes; all of the “omg you are perfect you’re so beautiful” bullshit obviously applies to you. You’re incredible. You’re one of the prettiest girls walking the earth today. You shut down construction sites when you walk by with the amount of cat calling that you inspire.
+
+But that is a peripheral benefit to the reasons I really fell for you and have maintained that creepy energy for all of these years.
+
+The real reason that I noticed you and couldn’t get you out of my head was that I have never come across a girl who is so quick and funny that it made me feel like they were on an entirely different level. 
+
+Its the way you dress and your ability to spot trends and the way you talk, how you are spotting slang and memes that I won’t find out about for like 3 more months. 
+
+It’s your personal brand. It’s your aesthetic. 
+
+It’s.. just…you.
+
+
+And honestly rhe most remarkable turn in this story is that you still even speak to me because I have spent years acting like an idiot and making myself look like a fucking schizo sex addict for all of this time in the least flattering ways i possibly could have.
+
+
+Without making any claims that I had some kind of moment of clarity in which I’ve been reborn as the ‘new, normal Dan’ …I do hope that I can show you that I’m really not interested in being the person who would message you only to tell you about the bizarre sex shit going on or a personal crisis anymore. 
+
+This is certainly going to read much heavier than it probably should but I actually am just so glad that I happened to hit ‘add’ on Snapchat a few days ago because it brought you back into my life at the absolute perfect moment…
+
+…not only one where I have already been the beneficiary of having you to talk to at a heavy and shitty emotional moment, but during the first real opportunity since we ‘met’ that I can actually get to know you in a way I had made impossible before 
+
+Okay so that’s your first love letter and I am fully aware your reaction will be somewhere between finding it hysterically oblivious and maximal annoyance but I really do mean it…
+
+And as long as you keep letting me I’ll keep demonstrating that you really are the different one and I still haven’t lost interest in the same things about you that made me your #1 simp for 17 years and counting.
+
+
+Okay. Yes I know I’m weird maybe just pretend you didn’t see this and we can carry on like it didn’t happen.
+
+I am already dreading waking up tomorrow morning and remembering that I actually sent this to you and didn’t even do a second draft on it. 
+
+Alright that’s enough
+
+Your future soulmate
+
+Beto o’rourke
 ## Sage findings — pending ingest
 
 > Transient staging, written by an ANSWER pass. Each block below is a finding
@@ -888,34 +967,33 @@ Each of these is answerable by the operator in a paragraph.
 > page that inherits them, bumps `date_modified`, and deletes this section. It
 > is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
 
-### FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
+### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
 
-Answer and sources: `raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md`
+Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
 
-**The subject of this page asked the wiki a question about its subject, and the
-answer rested on this page.** On **2026-08-21**, three days after reading her own
-entry, Ally put the first question the portal's box ever took: *can he actually be
-monogamous — not what he says about himself, what he has actually done.*
+**The concession sequence of 2026-08-18 21:07–21:09 is the strongest single
+quality claim available about this relationship, and this page reports it as
+evidence of her hostility as a reviewer rather than as evidence of a dynamic.**
+The four-message run — **ALLY** *"You just love bomb"* / **DAN** *"But love bomb
+is like a malicious tactic and there very little malice"* / **ALLY** *"I didn't
+say malicious"* / **DAN** *"Okay that's fair then"* — is the only place in the
+corpus where Dan's documented move under challenge, redefining the disputed term
+([[wiki/mind/concepts/conflict-architecture]]), is refused and abandoned inside
+two minutes. The reciprocal case is ninety minutes earlier at 16:46–16:47, where
+he pushes back on *"I've been objectified my entire life"* with *"I did reverse
+objectification. You hooked me with your tweets and THEN I realized you were a
+baddie"* and she answers *"Ok that's fair actually."* **Correction lands in both
+directions in this channel, twice in one evening, and the page currently records
+only her half.** Worth a paragraph in "She audits it," which is where the
+quotations already live.
 
-That makes this page's August 18–19 concurrency finding the load-bearing evidence
-in an answer given **to her**: 408 messages to Annie and 552 to Ally across two
-days; *"my wifi is back off now"* (00:09) against 98 messages exchanged with Annie
-between 01:00 and 02:59; *"Im all ally Lubin all the time now"* (13:45) ninety
-minutes before the eleven-year relationship's last message at 15:15:33.
-
-Three things for the next pass:
-
-1. **The page's prediction has a first data point.** It predicted the next Ally
-   burst would appear *during* an instability rather than after one. The question
-   itself is not a burst, but it is channel activity two days into a closure whose
-   status is unresolved, and it is of a kind the channel has never carried before:
-   she is now querying the archive rather than only appearing in it.
-2. **The audit continues by other means.** Her recorded objections — *"there's no
-   proof you ever sent me $2100 except your word"*, *"You just love bomb"*, *"Men
-   are so predictable"* — and this question are the same act. She is the corpus's
-   only hostile reader, and she is now using the tool. That is worth a section,
-   not a footnote.
-3. **The answer told her the concurrency finding to her face**, including that the
-   mechanism which fills the slot was running with her name in it four days ago.
-   If a later pass softens or withdraws that finding, it withdraws something she
-   has already read.
+**A second finding, defensive.** An earlier version of the answer this block
+comes from read Ally's *"I'm a SINGLE MOTHER"* (2026-08-18 16:49:37) as evidence
+of dependants and a life structure outside Dan. **It is a joke about cats and she
+corrects it herself three minutes later** — *"Are you still doing the cat mother
+thing / Or did I miss that you're an actual mother"* → *"No still just cats."*
+The page should state this explicitly, because the line is a trap that has now
+caught one pass and will catch another. Related: the page has no `mbti` evidence
+for Dan at all, and its own record of the December 2018 argument is that **he
+refuses to accept she is an ENFP** — an infobox `mbti: ENFP` on her card is
+therefore a claim with exactly one disputed source behind it and should say so.

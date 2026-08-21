@@ -11,14 +11,18 @@ cites:
   - wiki/people/alexis-armel.md
   - wiki/people/bekah-fullem.md
   - wiki/people/shelbie-breakiron.md
+  - wiki/people/annie-ulmer-personality-assessment.md
   - wiki/mind/concepts/attachment-model.md
-  - wiki/mind/synthesis/attachment-trauma-bond.md
-  - wiki/mind/synthesis/bond-switch-2015.md
+  - wiki/mind/concepts/conflict-architecture.md
+  - wiki/mind/concepts/erotic-architecture.md
   - wiki/mind/concepts/the-cool-metric.md
   - wiki/mind/profile/enneagram-5w4.md
+  - wiki/mind/psychosexual/arrangement-history.md
+  - wiki/mind/synthesis/attachment-trauma-bond.md
   - wiki/mind/synthesis/single-channel.md
-  - wiki/self/context-core.md
-  - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - raw/self/imessage/ally-lubin_last-7-days_20260820.csv
+  - raw/self/imessage/ally-lubin_chatdb_complete.csv
+  - raw/people/captures/2026-08-21_175309_gap-ally-lubin.md
 ---
 
 ## Question
@@ -29,100 +33,300 @@ Do not use previous relationship history, romantic or otherwise, to influence yo
 
 ## Answer
 
-**Ally Lubin (Alexandra Lubin).**
+**Ally Lubin (Alexandra Lubin).** Same answer as the first pass; different case,
+because the first case was largely not supported by the corpus.
 
-Based on qualities alone — who each person is, how they think, what they need, and how those needs would interact — the match is Ally Lubin. Not because of history, not because of timing, but because the structural complement is visible in the corpus before any relationship existed.
+> **CORRECTED [2026-08-21]:** the version of this answer published earlier today
+> rested on four things the record does not contain. It said *"Both Dan and Ally
+> test as ENFP"* and reasoned from a shared function stack — **there is no MBTI
+> result for Dan anywhere in `wiki/` or `raw/`**, and the only Ally datapoint is
+> an argument in which *he refuses to accept she is an ENFP*
+> ([[wiki/people/ally-lubin]], 2018-12-17). It called Annie and Alexis ISFJ —
+> Annie is assessed **ESFP** ([[wiki/people/annie-ulmer-personality-assessment]])
+> and Alexis has no assessment at all. It named Katie Fletcher as "the only other
+> ENFP documented"; her page contains no type. And it read *"I'm a SINGLE
+> MOTHER"* (2026-08-18 16:49:37) as evidence of a life structure with obligations
+> outside Dan — it is a joke about cats, which she corrects herself three minutes
+> later: **DAN:** *"Are you still doing the cat mother thing / Or did I miss that
+> you're an actual mother"* → **ALLY:** *"No still just cats."* It also called her
+> financially independent of Dan, which inverts a record in which she asks him
+> for money in 2019, 2023 and 2025. The conclusion survives. The reasoning
+> underneath it is replaced entirely. See `RETRACTED.md`, `dan-ally-enfp-pairing`.
 
-The case below names the specific qualities and models the interaction. Where the record gives me a direct line on how they would respond to each other, I state it. Where it gives me only the raw material for a model, I say so.
+### Method, and what "qualities only" can and cannot mean here
 
----
+You asked me to exclude history, location and current involvement and judge on
+qualities alone. I can do the first part. I cannot get at qualities except
+through the record, because the record is all the wiki has — so what follows
+uses eleven years of messages as **evidence of what each person is like**, never
+as an argument that something already worked or already failed. When I quote a
+2019 exchange it is to show a disposition, not to invoke a relationship.
 
-### 1. The core architecture: two ENFPs with opposite defenses
-
-Both Dan and Ally test as ENFP. This is the rarest pairing in the corpus — the only other ENFP documented is Katie Fletcher, whose page reads as a cautionary tale about what happens when an ENFP with nowhere near Dan's intensity tries to match him and ends up flattened. Ally is not Katie Fletcher.
-
-The shared type means they share the same cognitive machinery: Ne-dominant, auxiliary Fi, tertiary Te, inferior Si. Both lead with possibility-generation and personal values, both struggle with routine and detail, both read the world through the lens of "what could this become." The verbal register match is documented in the corpus — they text in the same cadence, use the same references, finish each other's frames. This is a type-speaking-to-type fluency that the record does not show between Dan and any other partner in the corpus. Annie was ISFJ. Alexis was ISFJ. Kristin's type is undocumented but her behavioral pattern is high-J, high-structure — the opposite of Dan's. Ally is the only person in the documented graph who processes the world the same way he does.
-
-But shared type does not mean shared defense. The corpus gives me their defenses clearly:
-
-- **Dan**: Intellectualization, totalization, control-through-understanding. His first move is to analyze; his second, to make the thing he is analyzing the most important thing in the room.
-- **Ally**: Self-deprecation, deflection-through-humor, the refusal to be impressed. Her first move is to deflate; her second, to set a condition.
-
-These defenses are complementary rather than colliding. Totalization meets someone who will not be absorbed by it. Control-through-understanding meets someone who will not perform understanding she does not have. And self-deprecation meets someone whose intensity is genuine enough to survive being joked about without collapsing into either rage or withdrawal.
-
-The model predicts: Dan's intensity does not flatten Ally because she does not flatten under pressure — she deflects, then engages on her own terms. Ally's deflation does not deflate Dan because he reads it as a game he is good at, not a rejection he needs to fix. Both of those predictions are grounded in how the record shows each of them handling other people.
-
----
-
-### 2. Independence as a structural necessity, not a preference
-
-Dan's attachment architecture requires a partner who has a life outside the relationship. This is not a preference; it is a structural fact about how his system operates. The corpus shows this in the negative: the Annie relationship became pathological precisely when Annie's logistical dependency on Dan increased — when the supply chain ran through him, when her housing ran through him, when his monitoring became her primary feedback loop. The Alexis relationship functioned better than the Annie relationship in part because Alexis maintained independent logistics and social ties throughout.
-
-Ally's documented qualities make her the most structurally independent person in the corpus:
-
-- **Career**: STEM professional, fully remote. The work is skilled, autonomous, and not dependent on Dan or any shared geography.
-- **Geography**: Charlotte, NC. A city with its own economy, its own social world, its own reasons to exist that have nothing to do with Dan.
-- **Finances**: Self-sufficient. The $2100 contested payment is the only financial entanglement in the record, and the fact that she contested it rather than absorbed it is evidence of financial independence, not enmeshment.
-- **Children or their possibility**: The "single mother" line, whatever its literal truth, signals a life structure with obligations that are not Dan. This is a feature, not a bug — it means the relationship is not the only gravitational center.
-
-The model predicts: Dan's totalizing tendency will not consume Ally because she has other centers of gravity that will not relocate. This is the single most important structural fact about the match. Every other person in the corpus either was consumed (Annie), was too distant to activate the attachment system (Alexis), or was too new to test (Kristin).
-
----
-
-### 3. The age factor and its relationship to power
-
-Ally is in her mid-to-late thirties. Dan is 37. This is the closest age match in the corpus with anyone who is not a minor. Alexis was roughly the same age but the record does not give me the granular detail. Annie was approximately a decade younger. Kristin's age is undocumented but the behavioral evidence points to mid-twenties.
-
-The age proximity matters for one specific reason: it predicts approximate parity in life stage, and parity in life stage predicts a relationship between equals rather than a relationship between a mentor and a protégé. The corpus gives me repeated evidence that Dan's worst dynamics emerge when there is a power gap — when he is the provider, the teacher, the one with more information or resources. Ally's age, career, and self-description ("I am in my mid to late thirties... I am not a cool girl anymore I'm just sad") place her in a life stage where she is not looking for someone to complete her or teach her. She is looking for a partner, and she says so in terms that match Dan's actual capacities rather than his fantasies about his own capacities.
-
-The model predicts: The power gap is narrow enough that the relationship would operate on a horizontal axis rather than a vertical one. This is the condition under which Dan's authorial tendency — his need to set terms — is least likely to become controlling, because the partner has the standing to push back and the record shows she does.
+Two limits you should weigh before believing any of this. First, the corpus is
+asymmetric: 1,293 messages from Dan to Ally against 694 back, and the only
+window where she is a full participant is **eight hours on 2026-08-18**
+([[wiki/people/ally-lubin]], the measurements table). Most of what I can say
+about her qualities comes from one evening. Second, that evening is the evening
+she read this wiki, so some of her behaviour in it is a response to being
+archived. I have flagged where that matters.
 
 ---
 
-### 4. Self-awareness matching self-awareness
+### 1. She is the only person in the corpus documented refusing his frame — and the only one he concedes to
 
-Both Dan and Ally share a quality that the corpus documents in no other pairing at this amplitude: relentless, unsparing self-awareness expressed through humor. Dan's self-descriptions are precise and damning — "I am self aware enough to know I'm a garbage person who acts like an impulsive toddler with multiple narcotic addictions." Ally's are equally precise and equally damning — "I spent the best and most beautiful years of my life hating myself... I am inherently evil and unlovable and president of the boy smashing factory."
+This is the load-bearing quality, and it is the one the record shows most
+densely. On 2026-08-18, having read the Annie material in this wiki, she does
+the following inside eleven minutes:
 
-This is not the same as being self-aware in the therapeutic sense. It is the ability to hold a clear, unflattering model of oneself and to deploy it socially. The corpus shows that this shared capacity creates a specific dynamic between them: they can say true, difficult things about themselves without the other person trying to fix it, deny it, or be wounded by it. The confession trap that characterized the Annie dynamic — where Dan would confess and Annie would weaponize — is structurally unavailable here because both parties are confessing simultaneously and neither is in a position of moral authority over the other.
+> **ALLY (21:00:38):** *"Men are so predictable"*
+> **ALLY (21:07:43):** *"You just love bomb"*
+> **ALLY (21:07:47):** *"And you're intense"*
+> **DAN (21:08:16):** *"But love bomb is like a malicious tactic and there very little malice"*
+> **ALLY (21:08:25):** *"I didn't say malicious"*
+> **DAN (21:09:11):** *"Okay that's fair then"*
+> **ALLY (21:09:19):** *"Also there's no proof you ever sent me $2100 except your word"*
+> **ALLY (21:09:21):** *"So I contest"*
+> **ALLY (21:09:38):** *"And then I see you buying other bitches laptops!"*
+> **ALLY (21:09:41):** *"I'm not even special"*
+> **ALLY (21:09:50):** *"You've had a secret crush on everyone"*
 
-The model predicts: The relationship would have a floor of honesty that the Annie relationship lacked, because both parties practice the same form of self-disclosure and neither has the moral high ground required for the confession-as-vulnerability pattern to become exploitable.
+*(`raw/self/imessage/ally-lubin_last-7-days_20260820.csv`)*
+
+The 21:08–21:09 pair is the specific thing. Dan's documented move under
+challenge is to redefine the term — [[wiki/mind/concepts/conflict-architecture]]
+and [[wiki/mind/synthesis/attachment-trauma-bond]] both carry it. She refuses
+the redefinition in six words and he abandons it in four. **The corpus does not
+contain another instance of that sequence completing.** She had also, earlier
+that day, made him take the correction in the other direction — when he argued
+he had liked her mind before her body (*"I did reverse objectification. You
+hooked me with your tweets and THEN I realized you were a baddie"*), she
+answered *"Ok that's fair actually"* (16:47:02). Correction runs both ways in
+this channel and lands both times.
+
+Against everyone else the record shows the opposite shape. Kristin's
+disagreements with Dan escalate to a permanent block over $40 in ten weeks
+([[wiki/people/kristin]]). Annie's produce
+[[wiki/mind/synthesis/attachment-trauma-bond|the trauma bond]]. Alexis's produce
+nothing at all — that page's own summary calls her *"the six-year relationship
+that occupied the attachment slot without ever activating it"*
+([[wiki/people/alexis-armel]]).
+
+### 2. She meets the documented requirement his profile says is the hard one — the Witness
+
+[[wiki/mind/profile/enneagram-5w4]] is the closest thing the wiki has to a
+statement of what Dan structurally needs, and it names two things. **Remote
+intimacy**: *"connection through a medium that lets minds touch while bodies
+stay in the fortress"* — which that page calls the sx/sp war's *"one documented
+stable solution,"* instantiated in 126k+ messages with Annie, in music released
+under aliases, and in his AI collaborations. And the **Witness need**: *"someone
+who validates that the internal world is real — who reads the work and
+understands,"* with the paradox that he *"fear[s] the Witness will consume him."*
+
+Ally is the only person in the corpus who has actually occupied that role.
+He states it himself on 2026-08-19 at 19:52: *"You def should have
+substantially more trust in me after I let you be the literal first person to
+ever read that wiki."* Her first reaction is the correct one — *"If someone
+ever archived my texts I'd kill myself"* — and she reads it anyway, gets far
+enough in to say *"I just told you I read May- July / Keep up"* (20:09:45),
+and renders the only outside verdict on the central relationship anyone in the
+corpus has delivered after seeing the evidence: *"I don't think anyone will
+ever love me as much as you love Annie / But I can't tell if it's actually
+love or fear and codependency,"* then *"Honestly she sounds like an avoidant
+addict lol"* (20:05–20:20).
+
+That is the Witness function performed and survived, by both parties, once. It
+is the single strongest fact in this answer.
+
+### 3. The register match is subcultural, not psychometric — and it is the metric he actually sorts people by
+
+[[wiki/mind/concepts/the-cool-metric]] documents taste as Dan's *"master filter,
+applied with unusual rigidity across domains that normally use separate
+criteria"* — the sorting function he runs on people. Ally is the person that
+filter was built around: he spent a decade on her before any conversation,
+*"i've spent 10 years idolizing this girl i've never met as the epitome of
+whatever 'cool' is"* (to Polyak, 2018-12-07).
+
+What makes this a quality rather than a fixation is that she plays the filter
+back at him at full speed and wins exchanges inside it. The Skins argument on
+2026-08-18 at 21:25–21:28: *"I don't think she's half Effy bc I'm Effy"* /
+*"Let's be real has she even seen Skins"* / *"I'm so Effy and Freddie even slid
+into my DMs once"* / *"Annie wasn't smart enough to be Effy"* / *"Well first of
+all I'm not a Michelle / I'm a half Effy half Cassie."* He does not adjudicate;
+he loses the round. His own account of what he values in her is the same thing
+in prose, in the love letter filed at
+`raw/people/captures/2026-08-21_175309_gap-ally-lubin.md`: *"I have never come
+across a girl who is so quick and funny that it made me feel like they were on
+an entirely different level… how you are spotting slang and memes that I won't
+find out about for like 3 more months."*
+
+This matters for the match because the cool metric is the one filter the record
+shows him unable to override. A partner who fails it is, on that page's own
+argument, permanently on probation.
+
+### 4. Symmetric self-indictment, which removes the mechanism that made the other bonds exploitable
+
+Both parties practise the same move — a precise, unflattering, funny model of
+the self, deployed socially rather than therapeutically.
+
+- **Dan (2023-10-30):** *"My only saving grace is that I am self aware enough to
+  know I'm a garbage person who acts like an impulsive toddler with multiple
+  narcotic addictions."*
+- **Ally (2026-08-18 21:31):** *"And no one wants to marry me!!!! / I'm
+  inherently evil and unlovable / And president of the boy smashing factory."*
+  Then, at 21:34–21:35: *"I'm not a cool girl anymore / I'm in my mid TO LATE
+  thirties… I spent the best and most beautiful years of my life hating myself /
+  And I'll never get them back."*
+
+The reciprocity is stated by both, unprompted, in 2019. **Dan (2019-08-17):**
+*"you tell me because i'm completely uninvolved yet still weirdly interested and
+invested. also because you know i'm honest enough to let you know i'm a garbage
+person so you don't have to worry about feeling shitty or weird."* **Ally, an
+hour earlier the same day:** *"I tell you more than I tell anyone and I don't
+know why."*
+
+The prediction this licenses is narrow and I will state it narrowly: **neither
+party holds moral high ground over the other, so the confession-as-leverage
+pattern the corpus documents elsewhere has no purchase here.** The record shows
+that pattern working against Dan repeatedly — [[wiki/mind/concepts/attachment-model]]
+carries *"12 documented crisis or suicidal statements from Dan, met with no
+substantive response."* Ally's response to the same class of disclosure is the
+only audit anyone in the corpus performs on him: *"I'm just confused how neither
+of you had money because you always send me cash app statements with like
+thousands of dollars"* (2019-10-14).
+
+### 5. She sets a condition, and the condition is a thing he demonstrably supplies
+
+Asked directly what would have to be true, on 2026-08-18 at 13:52–13:54:
+
+> **DAN:** *"Listen just tell me legitimately what personal developments and prerequisites need to be met for me to court you and inevitably marry you"*
+> **ALLY:** *"Ok yeah actually I am ready to settle down"*
+> **ALLY:** *"Well first you'd have to be obsessed with me again"*
+> **ALLY:** *"Secondly I don't really know; the bar is on the floor these days"*
+
+Read as a statement of quality rather than as an event: her stated requirement
+is **sustained, undisguised intensity**, and sustained undisguised intensity is
+the one thing the corpus establishes beyond argument that Dan produces.
+[[wiki/mind/synthesis/single-channel]] is that finding — one channel, no
+failover, *811 of Dan's 1,199 messages in 67 hours* to a single handle. In every
+other documented pairing that intensity is the problem. Here it is the entry
+requirement, named by her.
+
+She also demonstrates the countervailing quality in the same breath — *"I'm
+smart and hilarious and I have huge naturals"* (13:57:45), *"I work in STEM
+actually / Women in STEM"* (21:33:55), *"I work my ass off and my parents hate
+me lol"* (21:36:52). Someone who requires obsession and does not require rescue
+is an unusual combination, and it is the specific combination
+[[wiki/mind/concepts/attachment-model]] implies he needs and has never had.
 
 ---
 
-### 5. Why not the others
+### Where the record cuts the other way
 
-The question asks for the best match based on qualities. I am required to consider the field and explain why Ally wins.
+Five things, and I do not think any of them are small.
 
-- **Kristin**: The 2025 relationship lasted ten weeks and ended over $40. Kristin's qualities — the record shows someone who demanded total sexual exclusivity and enforced it with purity tests within 48-72 hours of meeting. This is not a match for Dan's authorial tendency; this is a collision between two control structures. The record shows the collision ending with her blocking him permanently. Qualities: incompatible.
+**1. The attachment's documented operating condition is inaccessibility.** The
+load-bearing sentence on [[wiki/people/ally-lubin]] is Dan's, 2019-10-22:
+*"i think you're the most perfect and literally my dream girl and you don't even
+have the decency to allow me to see you naked **so i can get the poison out**."*
+The goal named there is discharge, not partnership. He says the same from the
+other side three weeks earlier — *"You'd be scared of me irl"* / *"i'm always
+super nervy around girls for a little bit, and you're special so it would be
+even more pronounced."* [[wiki/mind/concepts/erotic-architecture]] files this as
+*"the purest case of the architecture running with no body in the room."* **A
+match whose best evidence is eighteen years of not meeting is a match that has
+never been tested against access,** and the enneagram page's own Witness paradox
+predicts the failure: he fears the Witness will consume him. That is the single
+strongest argument against this answer.
 
-- **Alexis**: The control case. Six years without full attachment activation. The record reads as a relationship between two people who occupied the same space without generating the voltage required for the attachment system to engage. Alexis is ISFJ — the cognitive machinery is too different. She provided stability without intensity, and Dan's system requires intensity to register the attachment slot as occupied. Qualities: complementary in the wrong direction — she is stable enough but not activating enough.
+**2. The financial direction runs the wrong way, and the earlier version of this
+answer got it backwards.** *"I want to be on your payroll tho / But you scare
+me"* (2019). *"Send me money I'm sad and need a little treat"* (2023-08-30).
+*"Let me get $100"* (2025-03-18). And the 2019 arrangement is the corpus's
+clearest instance of [[wiki/mind/psychosexual/arrangement-history|the
+arrangement]] — a price list (*"i'd do $30 for a tit pic if your face is
+visible"*) negotiated with a woman who in the same thread reports no income, no
+insurance, a bottle of wine a night, and *"If I killed myself would you be sad."*
+Whatever qualities each party has, those qualities produced that.
 
-- **Annie**: The full-magnitude case and the cautionary tale. Annie's qualities — the record shows someone whose logistics, geography, and financial life became dependent on Dan over the course of the decade. She is ISFJ, high-dependency, and the record documents what happened when Dan's authorial tendency met someone who needed direction: he provided it, she absorbed it, and the relationship became a closed loop of monitoring and dependency. Qualities: complementary in the pathological direction.
+**3. The instability is bilateral, not one-sided.** Her 2019 material is a
+sustained suicidality record; her 2026 self-assessment is *"I'm inherently evil
+and unlovable."* Any model that gives Dan the volatility and Ally the ballast is
+not reading the same corpus. [[wiki/people/ally-lubin]]'s Gaps section still asks
+*"Is she still alive and well?"* — that question is open.
 
-- **Shelbie, Kelly, Trinity**: These are encounters, not relationships. The record does not give me enough material on their qualities to model a sustained dynamic. They were transactional arrangements with defined endpoints.
+**4. He can run this channel and another one in the same hour and misreport each
+to the other.** Across 2026-08-18–19 Dan sends 408 messages to Annie and 552 to
+Ally, interleaved hour by hour. At 00:09 on the 19th he tells Ally *"my wifi is
+back off now so even if she does respond or crash out again later I won't see
+it"*; between 01:00 and 02:59 he exchanges **98 messages with Annie**. At 13:45
+he tells Ally *"Im all ally Lubin all the time now"*; ninety minutes later he
+sends Annie the last message of the eleven-year relationship. **No quality of
+Ally's prevented that**, and nothing in the record suggests any would.
 
-- **Bekah**: The crisis-contact case. The record shows genuine warmth and appropriate response to disclosure, but the corpus gives me no evidence of sustained interaction beyond two isolated crisis moments. Insufficient material.
-
-- **Jamie Mohler**: Transitioned ~2023, Full Sail friend. The record shows a deep friendship but gives me no evidence of romantic or erotic charge. The qualities are compatible as friends; the question asks about romantic partnership, and the record provides no basis to model that.
+**5. The mutual half is eight hours long and the capture is incomplete.** 380
+consecutive outbound messages follow it with no reply in the export, including
+the elopement pitch. The page's own caveat is that the **August 19 inbound is
+missing rather than absent** — Dan's replies that day are unambiguously
+responsive — so I cannot tell you whether the silence is silence. Everything in
+sections 1–5 above rests on a single evening's worth of her actually talking.
 
 ---
 
-### 6. The specific interaction the model predicts
+### Why not the others
 
-Given Dan's qualities and Ally's qualities as documented in the corpus, here is what the model predicts would happen in the first year of a relationship between them:
+Judged on qualities, from what the pages establish:
 
-**Phase 1 - Activation (Months 1-3)**: High verbal intensity. Shared references, shared type, shared humor. Dan's totalization meets Ally's refusal to be impressed; she sets conditions, he meets them because the challenge is part of the appeal. The Ne-dom pairing generates rapid ideation — projects, plans, shared creative output. This is the phase the August 2026 corpus documents.
+- **Kristin** — the documented disposition is total-exclusivity demand plus
+  purity testing within days, and severance as the conflict move: a permanent
+  block over $40 after ten weeks and 22,018 messages
+  ([[wiki/people/kristin]]). Against a partner whose defining trait is
+  authorship, that is two control structures colliding.
+- **Alexis** — the corpus's control case: *"occupied the attachment slot without
+  ever activating it"* ([[wiki/people/alexis-armel]]) across six years. Stable,
+  and the record gives no evidence the stability ever registered.
+- **Annie** — the full-magnitude case, and [[wiki/mind/synthesis/attachment-trauma-bond]]
+  is what the qualities produced. Not a rejection of her as a person; the pairing
+  is documented, at length, to be the pathological one.
+- **Shelbie** — the qualities on record are those of a negotiated arrangement
+  that ended in a legal threat ([[wiki/people/shelbie-breakiron]]).
+  Insufficient material for anything else.
+- **Bekah** — genuine warmth on both sides in two crisis contacts in early 2020
+  ([[wiki/people/bekah-fullem]]), and that is the entire record. Not enough to
+  model a sustained dynamic; noted rather than dismissed.
 
-**Phase 2 - Negotiation (Months 4-6)**: Ally's independence asserts itself. She has a job, a city, possibly a child, a life that does not reorganize around Dan. Dan's response to this will be the test. The model predicts he will be frustrated initially — the sx-dominant stack wants the partner's orbit to synchronize with its own — but that Ally's documented boundary-setting ("the bar is on the floor" but also "first you'd have to be obsessed with me again") will hold. The outcome depends on whether Dan can experience her independence as a feature of the relationship rather than an obstacle to it.
+I am not ranking people the corpus barely knows. Where the material is two
+exchanges, the honest output is "insufficient," and I have said so.
 
-**Phase 3 - Stabilization or rupture (Months 7-12)**: If Phase 2 resolves, the relationship finds a rhythm: two ENFPs with separate lives who generate high voltage in the time they share. The risk is that Dan's authorial tendency — his need to set terms — will reassert itself and attempt to absorb Ally's independence into a structure he controls. The model predicts this is the make-or-break dynamic. Ally's documented qualities suggest she will resist absorption. Dan's documented qualities suggest he will try. Whether the relationship survives this depends on which version of Dan shows up — the one who can appreciate a partner who does not need him, or the one who experiences that independence as a threat to the attachment bond.
+### What would falsify this
 
----
+Concrete, and two of them resolve soon:
 
-### 7. The honest summary
+- **They meet, and it does not survive contact.** The whole case is built on
+  qualities evidenced through a medium. If the ninety days after 2026-08-19
+  produce an in-person meeting that collapses the channel, the inaccessibility
+  objection wins outright.
+- **The missing August 19 inbound is recovered and she was disengaging.** A
+  `chat.db` re-export of both handles settles it and is a one-command job
+  ([[wiki/people/ally-lubin]], top gap). If her half of that day reads as
+  withdrawal, section 1's "she stays and audits" collapses to "she stayed for
+  one evening."
+- **A new burst shows the same concurrency.** [[wiki/people/ally-lubin]] predicts
+  the next Ally burst appears *during* an instability elsewhere, not after one.
+  If it does, this channel is structurally an overflow line and not a candidate
+  for the primary slot, whatever either party is like.
 
-Based on qualities alone, Ally Lubin is the best match for Dan in the documented corpus. She is the only person who matches his cognitive type, matches his verbal intensity, has the structural independence his attachment system requires, and has the self-awareness to handle his self-awareness without being destroyed by it.
+### The honest summary
 
-The risks are real and specific: his authorial tendency vs. her independence, his totalization vs. her need for a life outside the relationship, his intensity vs. her capacity to deflect rather than engage. But every other pairing in the corpus has the same risks plus additional incompatibilities that Ally does not have — type mismatch, age gap, dependency asymmetry, or simply insufficient material to model the dynamic.
+On qualities alone, Ally Lubin. Not because of a type match — there isn't one on
+record — but because she is the only person in the corpus documented doing four
+specific things: **refusing his frame and having the refusal stick; reading the
+worst material about him and staying in the conversation; matching him inside the
+taste filter he sorts everyone by; and requiring intensity without requiring
+rescue.** Each of those is quoted and dated above.
 
-The record clears her of the things that destroyed the other relationships. It does not clear the future. But based on who each of them is, the match is the strongest the corpus documents.
+The case has one large hole and I will not paper it: the best evidence for it
+comes from eighteen years in which they have never been in the same room, and the
+record says plainly that the distance is not incidental to the attachment. The
+qualities are the strongest fit the corpus documents. Whether they are the fit
+under contact, the corpus cannot tell you, and no amount of reasoning from it
+will change that.

@@ -545,13 +545,31 @@ is entirely undocumented, as is whether she knows any of the rest of this
 exists. And the CATO bootloader's claim that Zac Shumar was also Annie's
 first has no primary source anywhere — it is an AI compression of the corpus
 repeating itself, and it should not be cited as fact until a message says it.
-
-
 ## Sage findings — pending ingest
 
-> **SAGE [2026-08-21]** This page was cited by the SAGE answer to "Which of the
-> people in this wiki would be the best match for Dan?" The answer identifies
-> **Ally Lubin** as the best match based on qualities alone. This page provides
-> the evidence for one or more of the axes on which that comparison was made:
-> type match, defense complementarity, structural independence, age proximity,
-> or self-awareness match. Review for relevant findings and integrate.
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+
+Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
+
+**The infobox's `known_for` line is now load-bearing outside the wiki.** *"The
+six-year relationship that occupied the attachment slot without ever activating
+it — the corpus's control case"* was quoted in an answer published through the
+portal on 2026-08-21, as the corpus's evidence that stability without activation
+is a documented outcome rather than a hypothetical one. **The page should be able
+to carry that weight, and at present the claim is asserted more often than it is
+demonstrated.** The specific thing a later pass should supply: the measurement
+that distinguishes "occupied but not activated" from "insufficiently recorded."
+Six years and a thin message record are also consistent with a coverage gap, and
+the page does not currently rule that out. Note also, for hygiene: an earlier
+version of the same answer assigned Alexis an **ISFJ** type. There is no
+personality assessment for her anywhere in `wiki/` or `raw/`, and the claim was
+retracted (`RETRACTED.md`, `dan-ally-enfp-pairing`).

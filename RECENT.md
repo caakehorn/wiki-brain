@@ -15,6 +15,7 @@ simply listed.
 - **Session log:** lint | people | a portal save had deleted 56 typed-edge claims and 30KB of prose, and the gate that caught it went unread for a day
 - **Session log:** build | wiki | one mandatory work list, and a question box that lets someone outside the repo ask it something
 - **Session log:** answer | mind | can he actually be monogamous — the first question the box ever took, and it clears him of the wrong thing
+- **Session log:** answer | people | who is the best match for Dan — rewritten, same conclusion, new evidence
 
 | Page | Domain | What moved |
 |---|---|---|

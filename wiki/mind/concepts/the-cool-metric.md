@@ -252,13 +252,33 @@ worth.
   analysed here.** A distribution of the favorites list against contemporaneous
   mainstream popularity would materially strengthen or damage the
   legibility-inverse claim, and is the obvious next operation.
-
-
 ## Sage findings — pending ingest
 
-> **SAGE [2026-08-21]** This page was cited by the SAGE answer to "Which of the
-> people in this wiki would be the best match for Dan?" The answer identifies
-> **Ally Lubin** as the best match based on qualities alone. This page provides
-> the evidence for one or more of the axes on which that comparison was made:
-> type match, defense complementarity, structural independence, age proximity,
-> or self-awareness match. Review for relevant findings and integrate.
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+
+Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
+
+**The metric is documented as a one-directional sorting function, and there is
+one channel in which it runs both ways.** This page establishes taste as the
+*"master filter"* Dan applies to people. What the 2026-08-21 answer found is the
+only recorded case of him **losing a round inside his own filter**: the Skins
+exchange of 2026-08-18 21:25–21:28, in which Ally claims the reference outright
+(*"I don't think she's half Effy bc I'm Effy"*, *"Let's be real has she even seen
+Skins"*, *"I'm so Effy and Freddie even slid into my DMs once"*, *"Well first of
+all I'm not a Michelle / I'm a half Effy half Cassie"*) and Dan does not
+adjudicate. His own account of what he values in her is the metric stated as
+attraction — *"how you are spotting slang and memes that I won't find out about
+for like 3 more months"*
+(`raw/people/captures/2026-08-21_175309_gap-ally-lubin.md`). **The finding: the
+filter has a documented upper bound, one person is above it, and the page's
+model of the metric as an admission criterion does not currently describe what
+happens when someone outranks the person applying it.**

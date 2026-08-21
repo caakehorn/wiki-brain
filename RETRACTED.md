@@ -163,3 +163,46 @@ standing order and the thread's language. The true idiom is `can you stop by`
   ]
 }
 ```
+
+---
+
+## Dan and Ally as a shared-ENFP pairing
+
+Retracted 2026-08-21, the day it was written. The first published answer to the
+sage question `2026-08-21_220918_...` ("who is the best match for Dan?") opened
+with *"Both Dan and Ally test as ENFP"* and built four paragraphs of function-stack
+reasoning on it. **There is no MBTI assessment for Dan anywhere in `wiki/` or
+`raw/`.** The only Ally datapoint is an argument recorded on
+`wiki/people/ally-lubin.md` in which *he refuses to accept she is an ENFP*
+(2018-12-17). The same passage assigned **ISFJ** to Annie and to Alexis: Annie is
+assessed **ESFP** on `wiki/people/annie-ulmer-personality-assessment.md`, argued
+explicitly against ENFP on the Sensing/Intuition axis, and Alexis has no
+assessment at all. It also named Katie Fletcher as *"the only other ENFP
+documented"*; her page carries no type.
+
+The infobox `mbti: ENFP` on Ally's card is **not** retracted — it is a real
+frontmatter value with a real (single, disputed) source. What is retracted is the
+pairing claim and every type assigned to Dan, Alexis or Katie Fletcher.
+
+The answer's conclusion (Ally Lubin) survives on other evidence and was rewritten
+the same day.
+
+```json
+{
+  "id": "dan-ally-enfp-pairing",
+  "claim": "Dan and Ally are both ENFP / Dan has a documented MBTI type / Annie and Alexis are ISFJ",
+  "patterns": [
+    "both[^.\\n]{0,30}(dan and ally|ally and dan)[^.\\n]{0,20}(test as|are)[^.\\n]{0,10}enfp",
+    "dan[^.\\n]{0,20}(tests? as|is an?)[^.\\n]{0,10}(enfp|intj|infj|entp)",
+    "(annie|alexis)[^.\\n]{0,20}(was|is)[^.\\n]{0,10}isfj",
+    "katie fletcher[^.\\n]{0,40}enfp"
+  ],
+  "replacement": "No MBTI assessment exists for Dan in wiki/ or raw/. Ally's ENFP is a single disputed value (Dan argues against it, 2018-12-17). Annie is assessed ESFP. Alexis and Katie Fletcher have no type on record.",
+  "reason": "Fabricated psychometrics: a sage answer invented type results for three people and reasoned from the pairing. Caught 2026-08-21 by grepping wiki/ for MBTI strings — only three pages contain any, and none is about Dan.",
+  "retracted": "2026-08-21",
+  "source": "grep over wiki/ and raw/ for MBTI type strings; wiki/people/annie-ulmer-personality-assessment.md; wiki/people/ally-lubin.md (2018-12-17 argument)",
+  "affected_pages": [
+    "sage/questions/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md"
+  ]
+}
+```

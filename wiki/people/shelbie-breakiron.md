@@ -132,13 +132,27 @@ retaliating for an overnight Dan spent with her, calling her "a fucking
 low life Fayette County stripper") confirms the relationship predates
 this thread's start, supporting an April origin independent of this
 number.
-
-
 ## Sage findings — pending ingest
 
-> **SAGE [2026-08-21]** This page was cited by the SAGE answer to "Which of the
-> people in this wiki would be the best match for Dan?" The answer identifies
-> **Ally Lubin** as the best match based on qualities alone. This page provides
-> the evidence for one or more of the axes on which that comparison was made:
-> type match, defense complementarity, structural independence, age proximity,
-> or self-awareness match. Review for relevant findings and integrate.
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+
+Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
+
+**Recorded as insufficient, not dismissed.** The 2026-08-21 answer to "who is
+the best match for Dan" considered this page and declined to model a sustained
+dynamic from it: what the record establishes is the shape of a negotiated
+arrangement that ran May–August 2019 and ended in a legal threat and a text
+tirade, which is an outcome, not a set of qualities. **The gap worth naming on
+the page is that almost everything recorded here is Dan's account of her.**
+Where her own messages exist, they are the material a later pass needs; where
+they do not, the page should say that the person is thinly attested and the
+arrangement is not.

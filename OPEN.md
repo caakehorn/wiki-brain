@@ -10,7 +10,7 @@ filtered out, so this list shrinks only when something is actually settled.
 |---|---|
 | Live contradictions | 43 |
 | Open gaps | 404 |
-| Answered, awaiting ingest | 0 |
+| Answered, awaiting ingest | 1 |
 | Standing predictions | 36 |
 
 ## Answered, awaiting ingest
@@ -21,7 +21,8 @@ what is missing is the pass that corrects the page and every page that
 inherited the gap, then runs `bin/wiki-gaps clear <page>`. Cheapest work
 here — no new source required, and the answer is already written down.
 
-_Nothing staged._
+- **[[wiki/people/ally-lubin]]** — staged 2026-08-21, 1 answer
+  - manual note
 
 ## Live contradictions
 
@@ -38,7 +39,7 @@ somewhere and has not yet found out where.
 - **[[wiki/mind/concepts/attachment-model]]** — Annie issued written denials of third-party involvement in November 2025 and February 2026. These denials were issued while she was involved with the third party she ultimately left for (Tuquick — tuquick-17248123683) and a defamation campaign was running within their shared peer network, creating a direct contradictio
 - **[[wiki/mind/concepts/chaos-preference]]** — single-channel shows the carve-out is not confined to the attachment slot. The same concentration appears in four domains — relational, creative, cognitive, evaluative — and in the one where it has been measured it runs to a two-sided Gini of **0.959–0.964** across ~496 handles. That is the most fragile architecture a 
 - **[[wiki/mind/concepts/conflict-architecture]]** — The conflict engine treats emotional bids as propositions requiring resolution. This directly collides with the attachment architecture, which has no internal halt condition or counter-rule issuance pathway. The two systems are mutually amplifying rather than self-correcting. ## The machine mirrors the man — the 414-me
-- **[[wiki/mind/concepts/conflict-architecture]]** — The conflict engine treats emotional bids as propositions requiring resolution. This directly collides with the attachment architecture, which has no internal halt condition or counter-rule issuance pathway. The two systems are mutually amplifying rather than self-correcting.
+- **[[wiki/mind/concepts/conflict-architecture]]** — The conflict engine treats emotional bids as propositions requiring resolution. This directly collides with the attachment architecture, which has no internal halt condition or counter-rule issuance pathway. The two systems are mutually amplifying rather than self-correcting. ## Sage findings — pending ingest Transient
 - **[[wiki/mind/concepts/contact-gini]]** — The Gini coefficient of 0.961 is derived entirely from pre-closure data. Following the closure event on June 1, 2026, the primary communication node was removed. No updated Gini coefficient has been calculated against post-closure behavioral data, such as recent Twitter activity, current work projects, or subsequent lo
 - **[[wiki/mind/concepts/contact-gini]]** — The Gini coefficient of 0.961 is derived entirely from pre-closure data. Following the closure event on June 1, 2026, the primary communication node was removed. No updated Gini coefficient has been calculated against post-closure behavioral data, such as recent Twitter activity, current work projects, or subsequent lo
 - **[[wiki/mind/concepts/dans-law]]** — Its signature move is to treat a missing paper trail as the operative feature of an arrangement rather than an oversight: at BFS the absence of documentation on a $50 cash demand *is* the demand's mechanism, and at the Capitol the missing procedure is the load-bearing anomaly. Applied to Dan's own housing, the same rea

@@ -1,4 +1,5 @@
 ---
+sage_pending: '2026-08-21'
 domain: people
 page_type: profile
 title: "Annie Ulmer — Forensic Personality Assessment"
@@ -351,3 +352,33 @@ The evidence weakly suggests a 7-4-8 trifix for Annie:
 2. **Non-crisis periods:** The corpus is heavily weighted toward crisis periods. More data from stable periods would strengthen the assessment.
 3. **Additional conversational partners:** More data from Annie's interactions with people other than Dan (her mother, her sister, her coworkers) would provide additional evidence.
 4. **Longitudinal analysis:** As new messages enter the corpus, the assessment should be re-evaluated to determine whether the type holds across time and context.
+
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+
+Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
+
+**This page was used to kill a fabricated claim, which is the best evidence that
+it should exist.** An answer published through the portal on 2026-08-21 assigned
+her the **ISFJ** type in its first version and reasoned from it. This page's
+assessment is **ESFP**, argued explicitly against ENFP on the Sensing/Intuition
+axis, and the error was caught by reading it. **The finding worth staging is the
+absence it exposes: there is no MBTI assessment for Dan anywhere in the corpus.**
+Three of the four types the answer reasoned from were invented, and the reason a
+model reached for invention is that the corpus supplies types for two people
+around him and none for him. Either that gap should be named on
+[[wiki/mind/profile/enneagram-5w4]] as an explicit negative result, or a Dan
+assessment should be written to the same standard as this one — which, note,
+includes its own confidence statement and its own list of surviving
+alternatives. That last property is the reason this page held and the answer did
+not.

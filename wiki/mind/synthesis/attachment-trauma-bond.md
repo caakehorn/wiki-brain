@@ -269,13 +269,31 @@ Resolution demands grieving the fantasy of the relationship that could have been
 > December 2015 rupture and its 2025–26 tail (13 verified unanswered reaches,
 > not 12) — richer evidence for the same paternal-rupture template this page
 > already cites, not a different one. Nothing here needed revising.
-
-
 ## Sage findings — pending ingest
 
-> **SAGE [2026-08-21]** This page was cited by the SAGE answer to "Which of the
-> people in this wiki would be the best match for Dan?" The answer identifies
-> **Ally Lubin** as the best match based on qualities alone. This page provides
-> the evidence for one or more of the axes on which that comparison was made:
-> type match, defense complementarity, structural independence, age proximity,
-> or self-awareness match. Review for relevant findings and integrate.
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+
+Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
+
+**The 2026-08-21 answer used this page as the pathological control and found one
+documented interruption of the mechanism it describes.** The bond's engine, as
+this page argues it, requires an asymmetry of moral standing — one party in a
+position to weaponise what the other confessed. The Ally channel is the corpus's
+counterexample, and the reason is quotable from both sides in 2019: **DAN
+(2019-08-17):** *"you know i'm honest enough to let you know i'm a garbage person
+so you don't have to worry about feeling shitty or weird"*; **ALLY, the same
+day:** *"I tell you more than I tell anyone and I don't know why."* **Symmetric
+self-indictment removes the standing the mechanism runs on.** The prediction this
+licenses is narrow and should be recorded narrowly: it says confession cannot be
+converted into leverage in that channel, not that the channel is healthy — the
+same channel priced photographs off a suicidality disclosure three months later
+([[wiki/mind/psychosexual/arrangement-history]]).

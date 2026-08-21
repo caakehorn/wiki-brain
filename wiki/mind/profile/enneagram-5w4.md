@@ -170,13 +170,36 @@ AI-era analyses.
 > characterise. What the corpus holds is one dated first-person self-typing that
 > this page does not match, and no second instance has been looked for. See
 > [[wiki/mind/synthesis/the-commissioned-self]].
-
-
 ## Sage findings — pending ingest
 
-> **SAGE [2026-08-21]** This page was cited by the SAGE answer to "Which of the
-> people in this wiki would be the best match for Dan?" The answer identifies
-> **Ally Lubin** as the best match based on qualities alone. This page provides
-> the evidence for one or more of the axes on which that comparison was made:
-> type match, defense complementarity, structural independence, age proximity,
-> or self-awareness match. Review for relevant findings and integrate.
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+
+Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
+
+**The Witness need now has its first documented instance, and it arrived in the
+form of somebody reading this repository.** The page defines the need — *"someone
+who validates that the internal world is real — who reads the work and
+understands"* — and names the paradox that he *"fear[s] the Witness will consume
+him."* On 2026-08-18 Dan sent this wiki to Ally Lubin, making her the first human
+other than him to read it; he states the transaction himself the next day at
+19:52: *"You def should have substantially more trust in me after I let you be
+the literal first person to ever read that wiki."* She read it, and audited it.
+**That is the Witness function performed and survived, once, by both parties**, and
+it is the closest thing the corpus has to a test of this page's central paradox.
+
+**The second finding is a negative result worth stating on the page: there is no
+MBTI assessment for Dan anywhere in `wiki/` or `raw/`.** An answer published on
+2026-08-21 invented one and reasoned from it, and the reason a model reached for
+invention is that this page is the only type-level statement about him and it is
+Enneagram-only. Record the absence explicitly, the way
+[[wiki/people/annie-ulmer-personality-assessment]] records its own confidence
+bounds, so the next pass cannot mistake the silence for an unread file.

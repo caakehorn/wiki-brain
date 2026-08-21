@@ -224,13 +224,30 @@ the table above should become "1 confirmed, 1 unlocated."
 > **CONTRADICTION:** Annie issued written denials of third-party involvement in November 2025 and February 2026. These denials were issued while she was involved with the third party she ultimately left for (Tuquick — [[wiki/people/tuquick-17248123683]]) and a defamation campaign was running within their shared peer network, creating a direct contradiction between her private assurances and her public actions.
 
 > **REVISED 2026-06-22:** Previous analyses characterized the relationship with Eli as an isolated incident discovered in January 2025. Corrective sources confirm that the relationship was a sustained concealment that began in at least autumn 2024. This timeline has been updated in [[wiki/timeline/events/eli-incident]] and the main entry for Annie.
-
-
 ## Sage findings — pending ingest
 
-> **SAGE [2026-08-21]** This page was cited by the SAGE answer to "Which of the
-> people in this wiki would be the best match for Dan?" The answer identifies
-> **Ally Lubin** as the best match based on qualities alone. This page provides
-> the evidence for one or more of the axes on which that comparison was made:
-> type match, defense complementarity, structural independence, age proximity,
-> or self-awareness match. Review for relevant findings and integrate.
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+
+Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
+
+**The page's own figure — *"12 documented crisis or suicidal statements from
+Dan, met with no substantive response"* — now has an attested counterexample, and
+the page does not carry it.** On 2019-10-14, told the Pittsburgh funeral story in
+full, Ally answers: *"I'm just confused how neither of you had money because you
+always send me cash app statements with like thousands of dollars."* That is the
+only documented instance in the corpus of a disclosure from Dan being **audited**
+rather than absorbed, ignored, or reciprocated. It is not warmth and it is not
+neglect; it is a third response the model does not currently have a category for.
+**The finding: the twelve-statements figure measures the absence of substantive
+response, and one substantive response exists — it just isn't sympathy.** Whether
+that strengthens or complicates the model is the question for the pass that
+integrates this.
