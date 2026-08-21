@@ -569,7 +569,15 @@ to carry that weight, and at present the claim is asserted more often than it is
 demonstrated.** The specific thing a later pass should supply: the measurement
 that distinguishes "occupied but not activated" from "insufficiently recorded."
 Six years and a thin message record are also consistent with a coverage gap, and
-the page does not currently rule that out. Note also, for hygiene: an earlier
-version of the same answer assigned Alexis an **ISFJ** type. There is no
-personality assessment for her anywhere in `wiki/` or `raw/`, and the claim was
-retracted (`RETRACTED.md`, `dan-ally-enfp-pairing`).
+the page does not currently rule that out. **A second finding, and this page is where it belongs.** An earlier version of
+the same answer assigned Alexis an **ISFJ** type, and the correction that
+followed said she had no type at all. Both are wrong: Dan typed her **INFP/ISFP
+"Idealist"** — against Franki Faris's ESFP "Performer" — in the batch of
+self-typology emails he sent himself between **July 9 and July 31, 2013**, which
+is recorded on [[wiki/people/franki-faris]] and nowhere on this page. That is the
+same fortnight that produced his own earliest INTP self-identification
+([[wiki/people/elizabeth-eleanor]]). **A typing of the corpus's six-year partner
+is sitting on the page of a five-day rebound**, which is why two passes in one day
+concluded she was untyped. Bring it here, with its provenance intact — it is Dan
+typing her, not an assessment of her, and the distinction is the whole value of
+the datapoint.

@@ -3,7 +3,7 @@ captured: 2026-08-21
 kind: sage-answer
 question_id: 2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be
 asker: Curious George
-revision: 3 — supersedes revisions 1 and 2, both published the same day
+revision: 4 — supersedes revisions 1-3, all published the same day
 targets:
   - wiki/people/ally-lubin
   - wiki/people/kristin
@@ -17,6 +17,8 @@ targets:
   - wiki/mind/concepts/the-cool-metric
   - wiki/mind/profile/enneagram-5w4
   - wiki/mind/profile/intp
+  - wiki/mind/synthesis/the-commissioned-self
+  - wiki/people/franki-faris
   - wiki/mind/psychosexual/arrangement-history
   - wiki/mind/synthesis/attachment-trauma-bond
   - wiki/mind/synthesis/single-channel
@@ -28,45 +30,58 @@ The immutable record of a question put to the wiki from outside it, and the
 answer given. `sage/questions/` mutates as a question is worked; this does not.
 
 Asked through the portal by **Curious George**, 2026-08-21T22:09:18Z. Answered
-the same day and revised twice the same day, which is itself part of the record:
+the same day and revised three times the same day. The revision history is kept
+here because it is the most instructive thing the question produced:
 
 - **Revision 1** named Ally Lubin and built the case on a shared ENFP function
   stack. Dan types **INTP**; the pairing and three of the four types it reasoned
   from were fabricated.
 - **Revision 2** replaced the reasoning with quoted, dated evidence and retracted
   the psychometrics — but its correction asserted that *no MBTI result for Dan
-  existed anywhere in `wiki/` or `raw/`*. That was also false. The verification
-  behind it was a grep for `ENFP|INTJ|INFJ|ISFJ`, the four types the fabrication
-  named; `INTP` was never searched for, and `wiki/mind/profile/intp.md` is a full
-  page with a measured function table.
-- **Revision 3**, held here, carries both corrections in the open and uses the
-  INTP material where it actually bears — the 10%-valued Fe and its documented
-  relational consequence.
+  existed anywhere in `wiki/` or `raw/`*. Also false. The check behind it was a
+  grep for `ENFP|INTJ|INFJ|ISFJ`, **the four types the fabrication named**;
+  `INTP` was never searched for, and `wiki/mind/profile/intp.md` is a full page
+  with a measured function table.
+- **Revision 3** corrected that and put the INTP material to work on the
+  Fe-inferior mechanism.
+- **Revision 4**, held here, re-ran the audit with a pattern matching all sixteen
+  type codes and found two more errors of the same shape: **Alexis is typed**
+  (INFP/ISFP, on `wiki/people/franki-faris.md`), and a second assessment page
+  exists for Suzanne Frank. It also attaches the source-class caveat the INTP
+  page attaches to itself.
+
+**The methodological finding, which outlives the question.** A check whose scope
+is derived from the claim it is testing will confirm whatever that claim assumes.
+Searching for the four types a fabrication happened to name, and reporting their
+absence as the absence of all, is a verification that cannot fail to agree with
+itself. It took three passes and an operator to get from there to a pattern that
+matched all sixteen — and the fortnight that grep missed, **July 9–31, 2013**, is
+the origin of three of the corpus's type codes.
+
+**The second, structural finding.** The type codes are not where anyone would
+look for them: Alexis's is on the page of a five-day rebound, Dan's earliest is
+on the page of a single overnight conversation in 2013, and the profile cluster
+does not cross-link from its own members. Nothing here was missing. It was
+unfindable.
 
 **Method.** Reasoned from `wiki/` first — the five person pages, then `intp`,
-`enneagram-5w4`, `the-cool-metric`, `attachment-model`, `single-channel`,
-`conflict-architecture`, `erotic-architecture` and `arrangement-history` — then
-went to `raw/` for every quotation. Every dated quote in the answer was read out
-of the export it is attributed to rather than out of a wiki page quoting it:
-`raw/self/imessage/ally-lubin_last-7-days_20260820.csv` (the 2026-08-18–20
-window, the only one in which Ally is a full participant),
+`the-commissioned-self`, `enneagram-5w4`, `the-cool-metric`, `attachment-model`,
+`single-channel`, `conflict-architecture`, `erotic-architecture` and
+`arrangement-history` — then went to `raw/` for every quotation. Every dated quote
+in the answer was read out of the export it is attributed to rather than out of a
+wiki page quoting it: `raw/self/imessage/ally-lubin_last-7-days_20260820.csv` (the
+2026-08-18–20 window, the only one in which Ally is a full participant),
 `raw/self/imessage/ally-lubin_chatdb_complete.csv` (2019), and
 `raw/people/captures/2026-08-21_175309_gap-ally-lubin.md` (the love letter,
 operator-filed T0).
 
 **Answer given: Ally Lubin**, on four documented qualities — the completed
-refusal of Dan's redefinition move, which [[wiki/mind/profile/intp]] independently
-names as the Fe-inferior mechanism; the Witness function performed and survived;
-a two-way match inside the taste filter he sorts people by; and a stated
-requirement of intensity without a requirement of rescue. The answer states its
-own strongest counter-evidence at length, chief among it that the attachment's
-documented operating condition is inaccessibility.
-
-**The methodological finding, which outlives the question.** Revision 2's error is
-the more instructive of the two: a check shaped by the claim it is testing will
-confirm whatever that claim assumes. Searching for the four types a fabrication
-happened to name, and reporting their absence as the absence of all, is a
-verification that cannot fail to agree with itself.
+refusal of Dan's redefinition move, which `wiki/mind/profile/intp.md`
+independently names as the Fe-inferior mechanism; the Witness function performed
+and survived; a two-way match inside the taste filter he sorts people by; and a
+stated requirement of intensity without a requirement of rescue. The answer
+states its own strongest counter-evidence at length, chief among it that the
+attachment's documented operating condition is inaccessibility.
 
 ## Question
 
@@ -92,9 +107,9 @@ because the first case was largely not supported by the corpus.
 > claim retracted is the **shared** type and the complementarity built on it, not
 > the existence of a type for either of them. The same passage called Annie and
 > Alexis ISFJ — Annie is assessed **ESFP**
-> ([[wiki/people/annie-ulmer-personality-assessment]]) and Alexis has no
-> assessment at all — and named Katie Fletcher as "the only other ENFP
-> documented"; her page contains no type. It read *"I'm a SINGLE MOTHER"*
+> ([[wiki/people/annie-ulmer-personality-assessment]]), and Alexis is typed
+> **INFP/ISFP "Idealist"** ([[wiki/people/franki-faris]]) — and named Katie
+> Fletcher as "the only other ENFP documented"; her page carries no type. It read *"I'm a SINGLE MOTHER"*
 > (2026-08-18 16:49:37) as evidence of a life structure with obligations outside
 > Dan — it is a joke about cats, which she corrects herself three minutes later:
 > **DAN:** *"Are you still doing the cat mother thing / Or did I miss that you're
@@ -117,6 +132,20 @@ because the first case was largely not supported by the corpus.
 > is if anything more clearly false than the first correction made it. What is
 > withdrawn is the assertion of a corpus-wide gap, and the reasoning in section 1
 > is **strengthened** by what was actually there — see the Fe note below.
+
+> **CORRECTED [2026-08-21] — two further absence claims from the same bad check.**
+> Re-running the audit with a pattern that matches all sixteen type codes rather
+> than four turned up two more errors of the same kind. **Alexis is typed.** Dan
+> typed her **INFP/ISFP "Idealist"** against Franki Faris's ESFP "Performer," in
+> *"a batch of self-typology emails he sent himself between July 9 and July 31,
+> 2013"* ([[wiki/people/franki-faris]]). **That is the same batch that produced
+> his own earliest INTP self-identification** — July 2013, to Elizabeth Eleanor
+> ([[wiki/people/elizabeth-eleanor]]). One under-scoped grep missed a single
+> fortnight that is the origin of three of the corpus's type codes. Separately,
+> Suzanne Frank also has a dedicated assessment page carrying its own confidence
+> statement, so the corpus holds **two** such pages, not one. What survives
+> unchanged: **Katie Fletcher carries no type**, and there is **no shared ENFP
+> stack** — which is the retracted claim.
 
 ### Method, and what "qualities only" can and cannot mean here
 
@@ -179,6 +208,19 @@ adjudicated** (*"I didn't say malicious"*), and the machine stops. The page name
 the pattern and has no documented instance of it being interrupted. This is one.
 I withdraw the earlier framing that no type-level evidence was available here —
 it was available, and it supports the finding rather than substituting for it.
+
+**With the caveat that page attaches to itself, which matters here.** Its Gaps
+section states that *"function scores are AI-inferred from corpus behavior, not
+from a proctored instrument,"* and
+[[wiki/mind/synthesis/the-commissioned-self]] establishes that the whole typology
+apparatus around Dan is **commissioned by its subject** — seven frameworks
+applied to him, the instrument administered rather than taken. That page also
+holds an open contradiction on the wing (the one first-person code in the record
+is *"INTP 5w6sx RLOEI"*, against the 5w4 sx/sp the profile cluster is built on).
+So the Fe figure is not an independent measurement confirming the exchange; it is
+a model of Dan derived from the same corpus the exchange sits in. **It makes the
+finding legible, not independent** — and the exchange itself, which is two
+people's messages with timestamps, remains the stronger of the two.
 
 Against everyone else the record shows the opposite shape. Kristin's
 disagreements with Dan escalate to a permanent block over $40 in ten weeks

@@ -18,6 +18,8 @@ cites:
   - wiki/mind/concepts/the-cool-metric.md
   - wiki/mind/profile/enneagram-5w4.md
   - wiki/mind/profile/intp.md
+  - wiki/mind/synthesis/the-commissioned-self.md
+  - wiki/people/franki-faris.md
   - wiki/mind/psychosexual/arrangement-history.md
   - wiki/mind/synthesis/attachment-trauma-bond.md
   - wiki/mind/synthesis/single-channel.md
@@ -50,9 +52,9 @@ because the first case was largely not supported by the corpus.
 > claim retracted is the **shared** type and the complementarity built on it, not
 > the existence of a type for either of them. The same passage called Annie and
 > Alexis ISFJ — Annie is assessed **ESFP**
-> ([[wiki/people/annie-ulmer-personality-assessment]]) and Alexis has no
-> assessment at all — and named Katie Fletcher as "the only other ENFP
-> documented"; her page contains no type. It read *"I'm a SINGLE MOTHER"*
+> ([[wiki/people/annie-ulmer-personality-assessment]]), and Alexis is typed
+> **INFP/ISFP "Idealist"** ([[wiki/people/franki-faris]]) — and named Katie
+> Fletcher as "the only other ENFP documented"; her page carries no type. It read *"I'm a SINGLE MOTHER"*
 > (2026-08-18 16:49:37) as evidence of a life structure with obligations outside
 > Dan — it is a joke about cats, which she corrects herself three minutes later:
 > **DAN:** *"Are you still doing the cat mother thing / Or did I miss that you're
@@ -75,6 +77,20 @@ because the first case was largely not supported by the corpus.
 > is if anything more clearly false than the first correction made it. What is
 > withdrawn is the assertion of a corpus-wide gap, and the reasoning in section 1
 > is **strengthened** by what was actually there — see the Fe note below.
+
+> **CORRECTED [2026-08-21] — two further absence claims from the same bad check.**
+> Re-running the audit with a pattern that matches all sixteen type codes rather
+> than four turned up two more errors of the same kind. **Alexis is typed.** Dan
+> typed her **INFP/ISFP "Idealist"** against Franki Faris's ESFP "Performer," in
+> *"a batch of self-typology emails he sent himself between July 9 and July 31,
+> 2013"* ([[wiki/people/franki-faris]]). **That is the same batch that produced
+> his own earliest INTP self-identification** — July 2013, to Elizabeth Eleanor
+> ([[wiki/people/elizabeth-eleanor]]). One under-scoped grep missed a single
+> fortnight that is the origin of three of the corpus's type codes. Separately,
+> Suzanne Frank also has a dedicated assessment page carrying its own confidence
+> statement, so the corpus holds **two** such pages, not one. What survives
+> unchanged: **Katie Fletcher carries no type**, and there is **no shared ENFP
+> stack** — which is the retracted claim.
 
 ### Method, and what "qualities only" can and cannot mean here
 
@@ -137,6 +153,19 @@ adjudicated** (*"I didn't say malicious"*), and the machine stops. The page name
 the pattern and has no documented instance of it being interrupted. This is one.
 I withdraw the earlier framing that no type-level evidence was available here —
 it was available, and it supports the finding rather than substituting for it.
+
+**With the caveat that page attaches to itself, which matters here.** Its Gaps
+section states that *"function scores are AI-inferred from corpus behavior, not
+from a proctored instrument,"* and
+[[wiki/mind/synthesis/the-commissioned-self]] establishes that the whole typology
+apparatus around Dan is **commissioned by its subject** — seven frameworks
+applied to him, the instrument administered rather than taken. That page also
+holds an open contradiction on the wing (the one first-person code in the record
+is *"INTP 5w6sx RLOEI"*, against the 5w4 sx/sp the profile cluster is built on).
+So the Fe figure is not an independent measurement confirming the exchange; it is
+a model of Dan derived from the same corpus the exchange sits in. **It makes the
+finding legible, not independent** — and the exchange itself, which is two
+people's messages with timestamps, remains the stronger of the two.
 
 Against everyone else the record shows the opposite shape. Kristin's
 disagreements with Dan escalate to a permanent block over $40 in ten weeks

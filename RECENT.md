@@ -17,6 +17,7 @@ simply listed.
 - **Session log:** answer | mind | can he actually be monogamous — the first question the box ever took, and it clears him of the wrong thing
 - **Session log:** answer | people | who is the best match for Dan — rewritten, same conclusion, new evidence
 - **Session log:** answer | mind | the correction was wrong: Dan types INTP, and the corpus says so on a dedicated page
+- **Session log:** answer | mind | re-audited with all sixteen type codes: two more absence claims were wrong
 
 | Page | Domain | What moved |
 |---|---|---|

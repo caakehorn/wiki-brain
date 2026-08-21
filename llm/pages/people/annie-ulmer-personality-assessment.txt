@@ -379,7 +379,13 @@ Fletcher's ENFP (her page carries no type). **What this page has and the others
 do not is the property that made it usable: a stated confidence level and a list
 of surviving alternatives** — *"Evidence favors ESFP but meaningful alternatives
 remain (ESTP, ENFP)"* — which is why a model checking against it got corrected
-rather than confirmed. The finding worth staging is that this is the only
-personality assessment in `wiki/people/` written to that standard, and it should
-be the template: an assessment that does not publish its own alternatives cannot
-refute anything.
+rather than confirmed. The finding worth staging is that **two** pages in
+`wiki/people/` are written to that standard — this one and
+`suzanne-frank-personality-assessment` (*"Confidence: MODERATE"*, with
+contrastive testing against the strongest alternatives) — and that both are about
+people around Dan. The type codes attached to everyone else in the corpus are
+scattered across pages that are about something else: Alexis's INFP/ISFP is on
+[[wiki/people/franki-faris]], Dan's earliest INTP is on
+[[wiki/people/elizabeth-eleanor]]. **An assessment that does not publish its own
+alternatives cannot refute anything, and a type code filed on somebody else's
+page cannot be found.** Both failure modes were demonstrated on 2026-08-21.

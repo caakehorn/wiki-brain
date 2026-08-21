@@ -3442,3 +3442,55 @@ Findings restaged on `intp` (new), `enneagram-5w4`, `annie-ulmer-personality-ass
 and `ally-lubin`; the three blocks that repeated the false absence are replaced.
 Capture rewritten as **revision 3**, carrying both corrections in the open. No
 `date_modified` bumped.
+
+## [2026-08-21] answer | mind | re-audited with all sixteen type codes: two more absence claims were wrong
+
+The correction to the correction was still not clean. Having been caught asserting
+a corpus-wide gap on the strength of a four-type grep, this pass re-ran the audit
+with `\b(I|E)(N|S)(T|F)(J|P)\b` — **all sixteen codes** — and found two more errors
+of the same shape.
+
+**Alexis is typed.** Dan typed her **INFP/ISFP "Idealist"** against Franki Faris's
+ESFP "Performer," in *"a batch of self-typology emails he sent himself between
+July 9 and July 31, 2013"* — [[wiki/people/franki-faris]], not
+[[wiki/people/alexis-armel]]. Two passes in one day called her untyped because
+**the corpus's only typing of the six-year partner is filed on the page of a
+five-day rebound.**
+
+**And that fortnight is the origin point.** The same July 2013 batch produced Dan's
+own earliest documented INTP self-identification —
+[[wiki/people/elizabeth-eleanor]], July 10–11, *"as an INTP and heavily
+introverted, logic-based dude…i can't see myself flourishing in AA/NA."* **One
+under-scoped grep missed a single fortnight that is the source of three of the
+corpus's type codes**, and that fortnight predates
+[[wiki/mind/synthesis/the-commissioned-self]]'s AI-era instrumentation by a
+decade.
+
+**Second error: there are two assessment pages, not one.**
+`suzanne-frank-personality-assessment` carries **"Confidence: MODERATE"** and
+contrastive testing against the strongest alternatives, the same property that
+made the Annie page able to refute a fabrication. The staged block claiming Annie's
+was the only one is corrected.
+
+**What survives every pass:** Katie Fletcher carries no type, and there is no
+shared ENFP stack. The retracted claim is untouched.
+
+**A caveat now attached to the answer that should have been there in revision 3.**
+[[wiki/mind/profile/intp]]'s own Gaps say the function scores are *"AI-inferred
+from corpus behavior, not from a proctored instrument,"* and
+[[wiki/mind/synthesis/the-commissioned-self]] establishes the whole apparatus as
+commissioned by its subject — seven frameworks, the instrument administered rather
+than taken, plus an open contradiction on the wing (*"Dan is an INTP 5w6sx
+RLOEI"*, 2024-11-04, against the cluster's 5w4 sx/sp). So the Fe figure makes the
+21:08 exchange **legible, not independent**: it is a model of Dan derived from the
+same corpus the exchange sits in. The messages remain the stronger evidence.
+
+**The structural finding, which is the durable one.** Nothing here was missing.
+It was **unfindable**: type codes filed on pages about other people, a profile
+cluster that does not cross-link from its own members, and two assessment pages
+discoverable only from `people/index`. Three passes and an operator to locate
+material that was in the repository the whole time. Staged on `franki-faris`,
+`the-commissioned-self`, `alexis-armel`, `annie-ulmer-personality-assessment`,
+`intp` and `enneagram-5w4` as cross-linking actions.
+
+Capture rewritten as **revision 4**. No `date_modified` bumped.
