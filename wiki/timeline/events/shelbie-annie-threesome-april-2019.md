@@ -1,4 +1,6 @@
 ---
+image_caption: Shelbie/Annie Threesome (April 2019)
+image: assets/timeline/events/shelbie-annie-threesome-april-2019/timeline-events-shelbie-annie-threesome-april-2019-mt29ib6w.jpg
 domain: timeline
 page_type: event
 status: stable
