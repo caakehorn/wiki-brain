@@ -1,4 +1,5 @@
 ---
+sage_pending: '2026-08-21'
 domain: mind
 page_type: synthesis
 knowledge: earned
@@ -268,3 +269,13 @@ Resolution demands grieving the fantasy of the relationship that could have been
 > December 2015 rupture and its 2025–26 tail (13 verified unanswered reaches,
 > not 12) — richer evidence for the same paternal-rupture template this page
 > already cites, not a different one. Nothing here needed revising.
+
+
+## Sage findings — pending ingest
+
+> **SAGE [2026-08-21]** This page was cited by the SAGE answer to "Which of the
+> people in this wiki would be the best match for Dan?" The answer identifies
+> **Ally Lubin** as the best match based on qualities alone. This page provides
+> the evidence for one or more of the axes on which that comparison was made:
+> type match, defense complementarity, structural independence, age proximity,
+> or self-awareness match. Review for relevant findings and integrate.

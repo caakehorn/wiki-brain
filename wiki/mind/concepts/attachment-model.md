@@ -1,4 +1,5 @@
 ---
+sage_pending: '2026-08-21'
 domain: mind
 page_type: concept
 status: stable
@@ -223,3 +224,13 @@ the table above should become "1 confirmed, 1 unlocated."
 > **CONTRADICTION:** Annie issued written denials of third-party involvement in November 2025 and February 2026. These denials were issued while she was involved with the third party she ultimately left for (Tuquick — [[wiki/people/tuquick-17248123683]]) and a defamation campaign was running within their shared peer network, creating a direct contradiction between her private assurances and her public actions.
 
 > **REVISED 2026-06-22:** Previous analyses characterized the relationship with Eli as an isolated incident discovered in January 2025. Corrective sources confirm that the relationship was a sustained concealment that began in at least autumn 2024. This timeline has been updated in [[wiki/timeline/events/eli-incident]] and the main entry for Annie.
+
+
+## Sage findings — pending ingest
+
+> **SAGE [2026-08-21]** This page was cited by the SAGE answer to "Which of the
+> people in this wiki would be the best match for Dan?" The answer identifies
+> **Ally Lubin** as the best match based on qualities alone. This page provides
+> the evidence for one or more of the axes on which that comparison was made:
+> type match, defense complementarity, structural independence, age proximity,
+> or self-awareness match. Review for relevant findings and integrate.
