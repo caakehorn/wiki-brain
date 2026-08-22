@@ -301,8 +301,6 @@ connections:
 
 # Annie (Anne Louise Ulmer)
 
-# Annie (Anne Louise Ulmer)
-
 Annie Ulmer was Dan's partner for ten years and seven months — November
 28, 2015 to June 1, 2026 — and is the only relationship in his documented
 history to fully engage his attachment system. It is the single most
