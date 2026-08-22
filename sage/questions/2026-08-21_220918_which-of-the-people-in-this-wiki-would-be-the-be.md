@@ -318,14 +318,13 @@ and unlovable."* Any model that gives Dan the volatility and Ally the ballast is
 not reading the same corpus. [[wiki/people/ally-lubin]]'s Gaps section still asks
 *"Is she still alive and well?"* — that question is open.
 
-**4. He can run this channel and another one in the same hour and misreport each
-to the other.** Across 2026-08-18–19 Dan sends 408 messages to Annie and 552 to
-Ally, interleaved hour by hour. At 00:09 on the 19th he tells Ally *"my wifi is
-back off now so even if she does respond or crash out again later I won't see
-it"*; between 01:00 and 02:59 he exchanges **98 messages with Annie**. At 13:45
-he tells Ally *"Im all ally Lubin all the time now"*; ninety minutes later he
-sends Annie the last message of the eleven-year relationship. **No quality of
-Ally's prevented that**, and nothing in the record suggests any would.
+**4. He can run this channel and another one in the same hour.** Across
+2026-08-18–19 Dan sends more messages to Ally than to Annie, by a three-figure
+margin, interleaved hour by hour — the two threads live at once rather than one
+succeeding the other. At 13:45 on the 19th he tells Ally *"Im all ally Lubin all
+the time now"*; ninety minutes later he sends Annie the last message of the
+eleven-year relationship. **No quality of Ally's prevented that**, and nothing
+in the record suggests any would.
 
 **5. The mutual half is eight hours long and the capture is incomplete.** 380
 consecutive outbound messages follow it with no reply in the export, including

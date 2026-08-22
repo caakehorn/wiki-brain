@@ -361,9 +361,9 @@ The relationship closure on June 1, 2026, did not simply end a personal partners
 > was comprehensive *"because no redundant support infrastructure was
 > prepared."* The August 2026 exports show that is not quite true. Across
 > August 18–19, 2026 — the two days the Annie relationship terminated — Dan
-> sent **408 messages to Annie and 552 to [[wiki/people/ally-lubin|Ally
-> Lubin]]**, interleaved hour by hour, and the Ally channel carried more
-> traffic than the terminating one.
+> sent **more messages to [[wiki/people/ally-lubin|Ally Lubin]] than to Annie,
+> by a three-figure margin**, interleaved hour by hour, and the Ally channel
+> carried more traffic than the terminating one.
 >
 > This does not lower the Gini and does not rescue the argument. A channel
 > that has never met its counterpart, produces no material support, and had

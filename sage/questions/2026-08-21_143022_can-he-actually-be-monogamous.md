@@ -140,8 +140,8 @@ it.** [[wiki/people/ally-lubin]] and [[wiki/people/annie-ulmer]] both carry it,
 reconstructed hour by hour from both exports. Across those two days he sent
 messages to both of you, interleaved:
 
-- **00:09, Aug 19**, to you: *"my wifi is back off now so even if she does respond or crash out again later I won't see it."* Between 01:00 and 02:59 that morning he exchanged **4 messages with Annie**.
-- **23:42, Aug 18**, to you: *"Seriously what do I do with this? … we're SOS'ing and now that I respond it's silence."* He was narrating a live emergency in one channel into the other as it happened.
+- **01:00–02:59, Aug 19**: the Annie thread carries **4 messages** in the same window the Ally thread is running.
+- **23:42, Aug 18**, to you: *"Seriously what do I do with this? … we're SOS'ing and now that I respond it's silence."* Both threads are live in the same hour.
 - **13:45, Aug 19**, to you: *"Okay she sucks I don't want to keep dealing with her / Im all ally Lubin all the time now."* **Seventeen minutes later** he sent Annie the last message of an eleven-year relationship, at **15:15:33**.
 
 The page's conclusion, written before you asked: *"The Ally channel is not a

@@ -15,7 +15,7 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (21)
+## Obligations (22)
 
 Somebody or something is waiting on each of these. Drain from the top.
 
@@ -24,6 +24,7 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 
 | P | Kind | What | Where | Since |
 |---|---|---|---|---|
+| 1 | sage | What would make Dan happy — asked by An angel | `sage/questions/2026-08-22_005829_what-would-make-dan-happy.md` | 2026-08-22 |
 | 2 | sage-close | staged answer on mind/concepts/attachment-model, not integrated | `wiki/mind/concepts/attachment-model.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on mind/concepts/conflict-architecture, not integrated | `wiki/mind/concepts/conflict-architecture.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on mind/concepts/erotic-architecture, not integrated | `wiki/mind/concepts/erotic-architecture.md` | 2026-08-21 |
