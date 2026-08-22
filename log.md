@@ -58,6 +58,43 @@ substitute (its own provenance note records 41.8% record loss against the
 canonical dump and an ~833-day zero-row artifact across 2021–2023). 2021 and 2023
 in the table are thin, not silent. 2018 and 2024 are dense and carry the argument.
 
+## [2026-08-22] fix | people | a fourth portal incident, a duplicated H1 on annie-ulmer, and the freshness gate red on main
+
+Found by a scheduled check-in re-running the gates against `main`, not by anyone
+reporting it. **`bin/wiki-freshness` was red**: `wiki/people/annie-ulmer.md` had
+been edited through the portal (published 147,005B, live 147,033B) without
+`llm/` being regenerated, so the committed corpus was one page behind.
+
+Two defects in the saved file, both the portal's now-familiar signature:
+
+| Defect | Detail |
+|---|---|
+| **Duplicated H1** | `# Annie (Anne Louise Ulmer)` written twice, back to back, at lines 302 and 304 |
+| **Trailing newline stripped** | same as the 2026-08-22 `ally-lubin` save |
+
+The image swap in the same commits (`...mstt5mfl.jpg` → `...mt40almg.jpg`) is
+**intentional and was kept** — a picture was deliberately added. `date_modified`
+held at 2026-08-20 and no prose moved, so this is not the stale-snapshot class.
+
+**A repo-wide scan for the duplicate-H1 signature found exactly one page.** Worth
+recording as a negative result: this is the only instance, so the defect is
+per-save rather than systemic, and no sweep is needed.
+
+**This is the fourth portal incident in one day**, and the count is the argument.
+`ally-lubin` took a stray-keystroke save and a stale-snapshot clobber; `annie-ulmer`
+has now taken a duplicated heading. Every one was found by a session happening to
+look, and this one only because a check-in scheduled for a *different* purpose
+re-ran the gates. The `BACKLOG.md` HIGH item asking for `bin/wiki-check
+--check-only` on push to `main` is updated from "two portal saves" to four; a
+four-second workflow would have caught all of them within a minute of the push.
+
+**The freshness gate is the one that matters here and it is worth saying why.**
+`wiki-lint`, `wiki-connect` and `wiki-climb` were all green on this: a duplicated
+heading breaks no link, resolves no edge wrong and violates no frontmatter rule.
+Only `wiki-freshness` noticed anything, and it noticed the *regeneration*, not the
+defect. Had the portal edit happened to leave `llm/` in step, all four gates would
+have passed with a heading printed twice on the live site.
+
 ## [2026-08-22] fix | people | the stale-snapshot clobber recurred on ally-lubin, six hours after the last one
 
 **This is the 2026-08-13 failure mode, not the keystroke one**, and it is the

@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-22
-487 pages, ~1,301,420 tokens.
+487 pages, ~1,301,413 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -31767,8 +31767,6 @@ connections:
 
 # Annie (Anne Louise Ulmer)
 
-# Annie (Anne Louise Ulmer)
-
 Annie Ulmer was Dan's partner for ten years and seven months — November
 28, 2015 to June 1, 2026 — and is the only relationship in his documented
 history to fully engage his attachment system. It is the single most
@@ -33661,6 +33659,7 @@ mechanism that would end it is named.
 What this relationship taught the wiki about how Dan forms and loses
 attachments still stands. What it is teaching now is that he has not lost
 this one.
+
 
 ========================================================================
 PAGE: wiki/people/annoying.md
