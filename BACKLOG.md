@@ -122,14 +122,18 @@ Each of these is a specific thing the corpus or the outside world could settle.
 
 ## 4. Tooling and hygiene
 
-- **HIGH — nothing gates `main`, and two portal saves have now broken it.**
+- **HIGH — nothing gates `main`, and four portal saves have now broken it in one day.**
   `bin/wiki-check --check-only` on push to `main` would be a ~4-second workflow
   with no side effects and would have caught both incidents within a minute. On
   2026-08-13 a stale-snapshot save deleted 56 typed-edge claims and ~30KB of
   `people/annie-ulmer` and sat red for a day; on **2026-08-22** a portal save put
   two stray characters inside a wiki path in `people/ally-lubin`
   (`...2018-deep-cycle  im`) and turned `bin/wiki-connect check` red on `main`
-  within four minutes of a merge. Both were found by a session happening to look.
+  within four minutes of a merge; later the same day the stale-snapshot clobber
+  recurred on `ally-lubin`, and a save to `annie-ulmer` duplicated its H1 and left
+  `bin/wiki-freshness` red. **All four were found by a session happening to look**,
+  the last one only because a check-in scheduled for another purpose re-ran the
+  gates.
   The portal editor will save anything, so this class recurs by construction —
   the fix belongs in CI, not in vigilance.
 - **The portal editor accepts keystrokes into structural fields.** Distinct from
