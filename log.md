@@ -1,3 +1,55 @@
+## [2026-08-22] lint | meta | portal saves drift the generated corpus, and that is the third distinct portal defect this week
+
+`bin/wiki-freshness` went red on `main` after four portal commits added a new
+picture to `people/annie-ulmer`. **The page itself is fine** — this is not a
+clobber, and the distinction is the finding.
+
+**What did not happen, checked first.** `date_modified` did **not** move
+backwards, and the diff against the last known-green commit is a single line:
+
+```
+-image: assets/people/annie-ulmer/people-annie-ulmer-mstt5mfl.jpg
++image: assets/people/annie-ulmer/people-annie-ulmer-mt40almg.jpg
+```
+
+No prose lost, no typed edges dropped, no frontmatter reverted. The portal
+behaved correctly on content this time, which is worth recording precisely
+because the two preceding incidents did not — a stale buffer is a property of
+how long the tab sat open, not a certainty of the editor.
+
+**What did happen.** 28 bytes changed in `wiki/people/annie-ulmer.md` and
+nothing regenerated `llm/`, so the published manifest went stale:
+
+```
+CHANGED  wiki/people/annie-ulmer.md   (published 147005B, now 147033B)
+```
+
+**The portal does not run the generators, and it never has.** `bin/wiki-digest`
+and `bin/llm-publish` are pre-commit steps for a session working in the
+repository; a save made from the browser writes `wiki/**` and stops. So **every
+portal edit drifts the LLM corpus by construction** — not occasionally, and not
+as a bug in the save path, but as a consequence of the generated corpus being
+committed while one of its two writers cannot run the generators.
+
+This is a different failure from the two before it, and the three should not be
+collapsed:
+
+| # | Defect | Gate it trips | Fixed by |
+|---|---|---|---|
+| 1 | stray keystrokes in structural fields | `wiki-connect check` | repairing the field |
+| 2 | stale-snapshot writeback | `wiki-connect check` | restore + re-apply genuine additions |
+| 3 | **generated corpus not regenerated** | **`wiki-freshness`** | **`bin/wiki-digest && bin/llm-publish`** |
+
+Only the third is silent under the other two gates: lint, connect and climb all
+pass while `llm/` is behind, which is exactly the condition the 2026-08-20 audit
+found eleven pages deep.
+
+**This one is fixed by CI in a way the others are not.** A `bin/wiki-check`
+workflow on push to `main` catches all three, but for defect 3 a workflow could
+go further and *repair* it — regenerate and commit — because the fix is
+deterministic and has no judgment in it. Defects 1 and 2 need a reader. Noted
+against the standing HIGH `BACKLOG.md` item rather than filed as a second one.
+
 ## [2026-08-22] fix | people | the stale-snapshot clobber recurred on ally-lubin, six hours after the last one
 
 **This is the 2026-08-13 failure mode, not the keystroke one**, and it is the
