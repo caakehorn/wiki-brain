@@ -34,7 +34,7 @@ infobox:
   dob: 1990-06-26
   sex: female
   location: remote
-  relationship_to_dan: friend
+  relationship_to_dan: friend ...for no
   role: "STEM professional (remote, Charlotte, NC)"
   first_contact: 2011-05-20
   handles: ["+156****1550", "allylubin@gmail.com"]
@@ -68,7 +68,7 @@ connections:
   - page: wiki/self/concepts/astrology-star-signs
     type: instance-of
     claim: "Her Cancer sun rests on a birth date the page derives rather than quotes, now corroborated twice from her own messages seven years apart — 'Literally a 17 year old in a 28 yeR olds body' (2019-01-09) and 'I turn 30 in 18 days' (2020-06-08)."
-  - page: wiki/timeline/periods/2018-deep-cycle
+  - page: wiki/timeline/periods/2018-deep-cycle  im
     type: component-of
     claim: "The tie is opened inside the deep cycle and shares its economics — a $25 finder's fee, a $250 Cash App gift and a Christmas present issued in the same December weeks Dan was running daily Cash App limits and declined payments."
 ---
