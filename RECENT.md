@@ -10,8 +10,10 @@ simply listed.
 
 ## 2026-08-22 — 27 pages
 
+- **Session log:** fix | people | a portal save put stray keystrokes into ally-lubin and turned the connect gate red on main
 - **Session log:** ingest | legal | the hospital-smoking summons — the charging documents were real, and they moved an address
 - **Session log:** ingest | people | 16Personalities result — Ally Lubin (ENTP-T)
+- **Session log:** lint | people | the same red gate was found twice, independently, inside twenty minutes
 
 | Page | Domain | What moved |
 |---|---|---|

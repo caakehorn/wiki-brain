@@ -122,6 +122,22 @@ Each of these is a specific thing the corpus or the outside world could settle.
 
 ## 4. Tooling and hygiene
 
+- **HIGH — nothing gates `main`, and two portal saves have now broken it.**
+  `bin/wiki-check --check-only` on push to `main` would be a ~4-second workflow
+  with no side effects and would have caught both incidents within a minute. On
+  2026-08-13 a stale-snapshot save deleted 56 typed-edge claims and ~30KB of
+  `people/annie-ulmer` and sat red for a day; on **2026-08-22** a portal save put
+  two stray characters inside a wiki path in `people/ally-lubin`
+  (`...2018-deep-cycle  im`) and turned `bin/wiki-connect check` red on `main`
+  within four minutes of a merge. Both were found by a session happening to look.
+  The portal editor will save anything, so this class recurs by construction —
+  the fix belongs in CI, not in vigilance.
+- **The portal editor accepts keystrokes into structural fields.** Distinct from
+  the stale-draft bug fixed by `draftIsStale`: here the payload was correct and
+  fresh, and a cursor was simply in the wrong place. Worth a client-side check in
+  `caakehorn/home` that a `connections[].page` value resolves before a save is
+  accepted, and that infobox values do not end mid-word.
+
 - **`leviathan/factstory.html`'s INGEST BRIEF is out of lockstep** with
   `FACTSTORY_BRIEF_TEMPLATE.md` and has been since 2026-08-02. That repo is not
   always in session scope; regenerate when it is.

@@ -1,3 +1,45 @@
+## [2026-08-22] fix | people | a portal save put stray keystrokes into ally-lubin and turned the connect gate red on main
+
+`main` was red for roughly four minutes short of an hour before this caught it.
+Commit `fcf1c2f`, *"Edit people/ally-lubin from the portal"*, landed at
+**02:39 UTC**, four minutes after PR #177 merged. Three changes, all of them
+accidental:
+
+| Where | Saved as | Restored to |
+|---|---|---|
+| `infobox.relationship_to_dan` | `friend ...for no` | `friend` |
+| a typed edge's `page:` | `wiki/timeline/periods/2018-deep-cycle  im` | `wiki/timeline/periods/2018-deep-cycle` |
+| end of file | trailing newline stripped | restored |
+
+The second one is why this mattered: two stray characters inside a wiki path
+stop the target resolving, and `bin/wiki-connect check` went to **1 error**,
+which under CLAUDE.md is a priority-0 obligation sitting above everything
+because it blocks every commit.
+
+**This is not the 2026-08-13 failure mode and it is worth saying why.** That one
+was a stale-snapshot write-back: 56 typed-edge claims flattened, ~30KB of prose
+deleted, and the fingerprint was two frontmatter dates moving *backwards* in one
+commit. Here the file **grew** 61,119 → 61,132 bytes, `date_modified` held at
+2026-08-20, and every edit this session had made to the page — the
+`conflict-architecture` reciprocal edge and the staged sage findings block —
+survived intact. The portal's `draftIsStale` fix is holding. What got through is
+a different and much smaller class: **keystrokes landing in an editor that will
+save anything.**
+
+**`relationship_to_dan` was restored to `friend` rather than guessed at.**
+*"friend ...for no"* reads like the start of *"friend ...for now"*, which would
+be a meaningful thing to say about this relationship given the record — but it
+was not what was saved, an infobox field is not where that argument belongs, and
+completing somebody's half-typed fragment is inventing content. Restored to the
+prior value and flagged here instead. If the intent was real it should be made as
+a claim in the body, with evidence.
+
+**The gap this exposes is that nothing watches `main`.** Both portal incidents
+were found by a session happening to look — the first a day late, this one by
+checking the workflow run that dispatched a sage answer. `bin/wiki-check
+--check-only` in CI on push to `main` would have caught this in under a minute
+and cost nothing; queued in `BACKLOG.md`.
+
 ## [2026-08-22] ingest | legal | the hospital-smoking summons — the charging documents were real, and they moved an address
 
 Operator supplied three screenshots of an iPhone Photos playback of a **video of
@@ -3748,40 +3790,29 @@ recorded state.
 Gates clean: lint 0 errors, connect 0 errors, climb 0 errors, freshness in
 sync.
 
-## [2026-08-22] lint | people | a portal edit left `main` red for four hours
+## [2026-08-22] lint | people | the same red gate was found twice, independently, inside twenty minutes
 
-Merging base into the ENTP-T branch surfaced that **`main` was failing
-`bin/wiki-connect check` with 1 error**, and had been since `fcf1c2f`
-("Edit people/ally-lubin from the portal", 2026-08-21 22:39).
+**This entry is not a second incident.** The portal keystroke corruption in
+`people/ally-lubin` is written up at the top of this file by the session that
+fixed it on `main` (`4548631`), and the diagnosis there is complete. What is
+recorded here is the only thing that pass could not see from inside itself.
 
-**It is not the 2026-08-21 clobber signature and it is not content.** The
-commit is 3 insertions and 3 deletions with no frontmatter date moving
-backwards — the fingerprint CLAUDE.md names for a stale-snapshot save. It is
-**stray keystrokes committed from the portal editor**:
+Two sessions found that red gate independently, minutes apart, by the same
+accident — each was merging base into an unrelated branch and the conflict
+surfaced it. Both produced a byte-identical fix to the same three lines. The
+ENTP-T branch (`claude/lubin-personality-guide-z9zxvo`) carried its own repair
+from 02:47; `main` took the other one at 02:50.
 
-- `relationship_to_dan: friend` → `relationship_to_dan: friend ...for no`
-- `- page: wiki/timeline/periods/2018-deep-cycle` → `…/2018-deep-cycle  im`
-- the file's trailing newline removed
+**Convergent accidental discovery is the finding, and it argues the BACKLOG
+item rather than softening it.** Two independent passes needed the same
+coincidence to notice a priority-0 condition, and neither was looking for it.
+That is not redundancy providing safety — it is the same single point of
+failure sampled twice. Had both branches been long-running, or had neither
+merged base that hour, the gate stays red and nothing in the repository says
+so. The duplicated work is the cheap part; the four hours before either
+session stumbled on it is the expensive part, and it is unbounded.
 
-The second one is the error: an edge target with two trailing characters does
-not resolve, so `ERROR wiki/people/ally-lubin.md: connection target does not
-resolve: 'wiki/timeline/periods/2018-deep-cycle  im'`. The first silently
-corrupted a classifier field, which is worse in the long run — it does not trip
-any gate, and `relationship_to_dan` is one of the fields the infobox schema
-exists to make queryable.
-
-Both normalized away in the merge; the trailing newline restored. **Nothing was
-discarded** — there is no authored content in that commit to preserve, which is
-the whole finding.
-
-**What this says about the portal path.** CLAUDE.md's standing instruction is to
-treat portal edits as authoritative content and normalize formatting on the next
-pass. That is right for an edit somebody meant to make. This one nobody meant to
-make, and the two are indistinguishable from inside the repository — the commit
-message is identical to a real one. A red gate on `main` is priority 0 and
-**nothing surfaced this for four hours**; it was found only because an unrelated
-branch happened to merge base in. This is the second time in two days that a
-portal save has broken a gate on `main` and the discovery was incidental both
-times. Worth a `pull_request` trigger on the gate chain — the repo currently runs
-CI only on push-to-`main`, so no pull request has ever been gated, and a branch
-that fixes `main` looks exactly like one that breaks it.
+Nothing further is owed here: the fix is on `main`, the CI gap and the
+portal-editor validation gap are both filed in `BACKLOG.md` as HIGH by the
+other pass, and this branch's merge kept that repair rather than re-applying
+it.

@@ -47,8 +47,10 @@ this is the state of the thing.
 ## The last few days
 
 **2026-08-22** — 27 pages
+  - fix | people | a portal save put stray keystrokes into ally-lubin and turned the connect gate red on main
   - ingest | legal | the hospital-smoking summons — the charging documents were real, and they moved an address
   - ingest | people | 16Personalities result — Ally Lubin (ENTP-T)
+  - lint | people | the same red gate was found twice, independently, inside twenty minutes
 
 **2026-08-21** — 20 pages
   - close+lint | all domains | two operator answers integrated; a false claim retracted and gated; staleness cleared to zero
