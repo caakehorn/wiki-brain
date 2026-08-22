@@ -15,6 +15,9 @@ sources:
   - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
 tags: [addiction-recovery, trauma-bond, forensic-analysis]
 connections:
+  - page: wiki/mind/concepts/reassurance-architecture
+    type: contains
+    claim: "The evidence-first resolution standard applies to reassurance too, which is why 299 love affirmations produced none of the effect: an affirmation contradicting the behavioural record is another anomaly requiring adjudication, not an answer."
   - page: wiki/timeline/events/group-chat-closure
     type: instance-of
     claim: "A confrontation escalated in front of an audience to force a verdict is the conflict engine's terminal form — the argue-to-resolution drive running with witnesses attached."

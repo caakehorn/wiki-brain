@@ -22,6 +22,9 @@ synthesizes:
   - wiki/places/337-saratoga-drive
 tags: [financial-stress, forensic-analysis, family]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidences
+    claim: "Capital arriving in lumps and exiting through standing drains is the financial signature of an engine with no orbit: $144,069.31 dissipating inside five months against a $119K-$123K lifetime outflow to one partner, with nothing converting into an asset at any point."
   - page: wiki/people/fred-adams
     type: contains
     claim: "Adams is the spine's institutional valve: the Ira-estate capital that eventually reaches Dan as the 2020 distribution sat under one man's discretion for decades, which is why the family's largest asset never behaved like an inheritance in waiting."

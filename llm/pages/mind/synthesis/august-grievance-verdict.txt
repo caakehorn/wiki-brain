@@ -40,6 +40,9 @@ synthesizes:
   - wiki/mind/synthesis/attachment-trauma-bond
   - wiki/mind/psychosexual/arrangement-history
 connections:
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: supplies
+    claim: "The finding that Annie issues no terminating statement, and that 'I want to be alone' is the nearest approach in eleven years without being one, is what forces the August 19 clearing to be read as a discriminating act rather than as the severance signal the attachment model has been waiting for."
   - page: wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis
     type: parallels
     claim: "Both adjudicate the same window at different scales — ten grievances across seventy hours here, three people across fifteen minutes there — and the shorter frame reaches the harsher conclusion about each participant."

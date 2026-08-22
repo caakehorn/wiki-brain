@@ -1,11 +1,12 @@
 ---
-sage_pending: '2026-08-21'
 domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-18
+date_modified: 2026-08-22
 sources:
+  - raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md
+  - raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md
   - raw/self/dox-scan/DanAnnie_CorrectiveAddendum.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -22,6 +23,15 @@ sources:
   - "raw/self/dox-md/Reassessing with fresh perspective.md"
 tags: [relationships, attachment, addiction-recovery, trauma-bond, infidelity]
 connections:
+  - page: wiki/mind/synthesis/closing-the-set
+    type: mirrors
+    claim: "That page's engagement unit is a bounded object with a findable edge whose payoff arrives on closure, and this model describes the one object in the biography built so that closure cannot occur - the same architecture read from its satisfying and its unsatisfiable ends."
+  - page: wiki/mind/concepts/reassurance-architecture
+    type: contains
+    claim: "The check-in loop is this model's observable surface: a rule that cannot be closed by behavioural evidence must be re-confirmed by transmission, which is why the need is nearly silent at baseline and becomes the organising behaviour under stakes."
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: evidences
+    claim: "The August 19 2026 group-chat clearing is the nearest functional equivalent to the severance signal this model requires that the corpus has ever produced: not a terminating statement, but the first written act discriminating between two men in public under her own name, which the architecture can read as an asymmetry where it could never read an absence."
   - page: wiki/timeline/events/july-august-2026-reentanglement
     type: evidenced-by
     claim: "Between 05:22 and 20:20 on July 26 2026 the exchange runs from a rape accusation and 'don't contact me again' to a joke about the dog catching a rabbit, with nothing resolved in between — the reset is unconditional and takes fifteen hours."
@@ -124,11 +134,56 @@ This cognitive architecture is heavily influenced by a multi-generational family
 
 The complete lack of explicit severance signals across a ten-year corpus, combined with two hundred and ninety-nine love affirmations, meant that no internal data was available to generate a counter-rule. Consequently, the attachment model remained active until it was terminated by an external event. The 12 unmet crisis statements sit inside the same architecture from the opposite direction: even Dan's own most severe signals did not produce a response the model could register as care, and — per the "no counter-rule" structure — a non-response is not a severance signal either, so it too left the loop running rather than closing it.
 
+> **GAP CLOSED [2026-08-22]:** the twelve-statements row measures *the absence
+> of a substantive response*, and the corpus contains exactly one substantive
+> response — it simply is not sympathy. On **2019-10-14**, told the Pittsburgh
+> funeral story in full, [[wiki/people/ally-lubin|Ally]] answers: *"I'm just
+> confused how neither of you had money because you always send me cash app
+> statements with like thousands of dollars."* That is the only documented
+> instance anywhere in the record of a disclosure from Dan being **audited**
+> rather than absorbed, ignored or reciprocated, and it is a third category this
+> model did not have: not warmth, not neglect, but the claim treated as evidence
+> and tested.
+>
+> It **complicates the model rather than weakening it**, and in a specific
+> direction. The architecture's problem is that verbal assurance and behavioural
+> contradiction cannot be reconciled into a closure, so the one response class
+> that could in principle generate a counter-rule is a response that *engages
+> the evidence*. Ally's answer is the only recorded instance of that class. The
+> twelve unmet statements and this one audited statement are therefore not the
+> same measurement taken twelve and one times — they are two different things,
+> and the corpus has a sample size of one on the interesting one. Whether an
+> audited disclosure resolves an anomaly or generates another is untestable at
+> n=1 and is now a live question rather than an assumed answer.
+
 ## Model Narrative
 
 The attachment model describes the catastrophic interaction between Dan's rule-based processing architecture and a relationship that lacked a definitive conclusion. This mechanism is structural rather than pathological. Because the cognitive engine weights positive rhetoric heavily and requires a formal, explicit signal to terminate an active rule, the model stayed active throughout a fifteen-month terminal phase from August 2025 to June 2026. The system did not fail to perceive Annie's behavioral withdrawal; rather, it noted the behavioral withdrawal, found it inconsistent with the active attachment rule, and flagged the contradiction as an anomaly to be resolved rather than closing the model. Every instance where Annie said "I love you" while withdrawing behaviorally generated a data conflict that prevented closure.
 
 This dynamic was further complicated by historical family patterns. The parental rupture of 2005 established a template where a trusted primary figure maintained a concealed alternate reality. Dan's relationship with Annie replicated this template, involving a trusted partner, sustained deception, and Dan choosing to accept verbal denials to preserve relational stability.
+
+**The structural reframe, from an evidence base with nothing to do with
+relationships.** [[wiki/mind/synthesis/closing-the-set]] establishes from 2,016
+curated cultural entries — 86.6% of 1,477 musical artists appearing exactly once
+— that Dan's unit of engagement is a **bounded object with a findable edge**, and
+that the payoff arrives on closing it. This model states the inverse condition
+about the Annie bond: it cannot close, because closure requires an external
+signal that was never issued across 41,073 messages. Read together, **the Annie
+bond is an unclosable set, and it is the largest object the engine was ever
+attached to.** That reframes the decade not as a relationship that failed to end
+but as a structural mismatch between a completion engine that pays out on closure
+and an object built so that closure cannot occur — which also predicts, correctly,
+that the June 1 2026 closure had to arrive from outside.
+
+**And the payout stopped long before the model did.** A first-person
+happiness-claim rate over the canonical dump runs **7.86 per 1,000 messages in
+the first five weeks of the relationship** and then 2.72, 0.73, 0.87 and 0.34
+across 2016–2019 — the collapse is complete by 2017, **eight years before** the
+terminal phase this page dates to August 2025. The bond stayed active at full
+strength throughout. Whatever it was delivering in December 2015, it had stopped
+delivering it before the third year, and the model kept running anyway. That is
+the sharpest available demonstration that this architecture is not maintained by
+reward.
 
 The core moral event of the relationship's terminal phase was the systematic erosion of Dan's perception, often described as gaslighting. Convincing a partner that their accurate observations are signs of paranoia or mental illness attacks their core capacity to understand reality. The closure event on June 1, 2026, provided the first explicit, verified data that allowed the cognitive system to generate a counter-rule and close the model.
 
@@ -224,57 +279,35 @@ the table above should become "1 confirmed, 1 unlocated."
 > **CONTRADICTION:** Annie issued written denials of third-party involvement in November 2025 and February 2026. These denials were issued while she was involved with the third party she ultimately left for (Tuquick — [[wiki/people/tuquick-17248123683]]) and a defamation campaign was running within their shared peer network, creating a direct contradiction between her private assurances and her public actions.
 
 > **REVISED 2026-06-22:** Previous analyses characterized the relationship with Eli as an isolated incident discovered in January 2025. Corrective sources confirm that the relationship was a sustained concealment that began in at least autumn 2024. This timeline has been updated in [[wiki/timeline/events/eli-incident]] and the main entry for Annie.
-## Sage findings — pending ingest
 
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+## The observable surface, and the event that tested the model
 
-### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+Two pages built on this one in August 2026 and both bear on claims made above.
 
-Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
+[[wiki/mind/concepts/reassurance-architecture]] takes the no-counter-rule
+structure and asks what it looks like from outside. The answer is a
+**verification loop** — a rule that cannot be closed by behavioural evidence
+has to be re-confirmed by transmission, so it runs nearly silent at baseline
+and becomes the organising behaviour under stakes, because stakes multiply
+anomalies and each anomaly is an open request. The measurement that page adds
+is a negative one worth recording here: across 106,629 sent messages the
+phrases *"do you love me"*, *"are we ok"* and *"am i crazy"* appear **zero
+times**, while *"call me"* appears **170** and *"you up"* **119**. The
+architecture does not ask for affirmation. It asks for a response packet, and
+when it cannot get one it substitutes measurement — which is why 44 refused
+GPS requests and the read-receipt work sit inside this model rather than
+beside it.
 
-**The page's own figure — *"12 documented crisis or suicidal statements from
-Dan, met with no substantive response"* — now has an attested counterexample, and
-the page does not carry it.** On 2019-10-14, told the Pittsburgh funeral story in
-full, Ally answers: *"I'm just confused how neither of you had money because you
-always send me cash app statements with like thousands of dollars."* That is the
-only documented instance in the corpus of a disclosure from Dan being **audited**
-rather than absorbed, ignored, or reciprocated. It is not warmth and it is not
-neglect; it is a third response the model does not currently have a category for.
-**The finding: the twelve-statements figure measures the absence of substantive
-response, and one substantive response exists — it just isn't sympathy.** Whether
-that strengthens or complicates the model is the question for the pass that
-integrates this.
-
-### FINDING [2026-08-22] — from the sage question `2026-08-22_005829_what-would-make-dan-happy`
-
-Answer and sources: `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`
-
-**The no-counter-rule architecture is the exact inverse of the condition
-[[wiki/mind/synthesis/closing-the-set]] identifies as required for satisfaction,
-and neither page knows about the other.** This page's load-bearing claim is that
-the model cannot close without an explicit external severance signal, and that a
-primary sweep of Annie's 41,073 messages returns zero of them. `closing-the-set`
-establishes, from an entirely separate evidence base (2,016 curated cultural
-entries; 86.6% of 1,477 musical artists appearing exactly once), that Dan's unit
-of engagement is a **bounded object with a findable edge** and that the payoff is
-in closing it.
-
-Read together: **the Annie bond is an unclosable set**, and it is the largest
-object he ever attached the engine to. That reframes the decade not as a bad
-relationship that failed to end but as a structural mismatch between an engine
-that pays out on closure and an object built so closure cannot occur. It also
-predicts, correctly, that the June 1 2026 closure had to arrive from outside.
-
-**A measurement that bears on the page's own terminal-phase account.** A
-first-person happiness-claim rate over the canonical dump runs 7.86 per 1,000 in
-the first five weeks (2015) and 2.72, 0.73, 0.87, 0.34 across 2016–2019 — the
-collapse is complete by 2017, eight years before the terminal phase this page
-dates to August 2025. The bond stayed active; whatever it was delivering in
-December 2015 did not.
+[[wiki/mind/synthesis/the-rescue-premise]] tests the model's central claim
+against the August 19, 2026 severance. This page holds that the loop cannot
+close without an explicit, unambiguous severance signal, and that a sweep of
+41,073 of Annie's messages returns zero. The group-chat message ***"He didn't
+rape me"*** at 06:33 that morning is **still not one** — she never states that
+the relationship is over. What it is instead is the first written act in
+eleven years that discriminates between two men in public under her own name,
+issued for Coles and, per the operator, promised to Dan and withheld. The
+architecture cannot read an absence. It can read an **asymmetry between two
+issued statements**, which is what Dan's last coherent messages of the
+relationship do at 15:13:45. Whether that is sufficient to generate a
+counter-rule is the open question that page states as a dated falsifier rather
+than settling.

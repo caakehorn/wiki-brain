@@ -20,6 +20,9 @@ sources:
   - raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md
   - raw/people/captures/2026-08-20_group-chat-retraction-and-the-uncleared-name.md
 connections:
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: evidences
+    claim: "The recording supplies the structural novelty of this rupture - a rival physically present, audible, holding her phone and directing hostility at Dan rather than concealing himself from him - which is the category of damage none of the prior severance cycles had to price."
   - page: wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis
     type: instantiates
     claim: "The ethical analysis of this window reasons from this page: it takes the recording's established contents and asks what each of the three participants was doing, finding Coles the active coercive force, Annie the least powerful person present, and Dan protective during the call and compromised after it."

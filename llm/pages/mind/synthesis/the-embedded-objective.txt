@@ -23,6 +23,9 @@ synthesizes:
   - wiki/legal/2015-possession-arrest
 tags: [career, personality-profile, forensic-analysis, uniontown-era, nyc-era]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: instance-of
+    claim: "The payload rule is what converts the work record from a character verdict into an engineering problem: 84 months of sustained employment produced no credential, capital or portable claim because a payload installed in somebody else's frame is by construction non-transferable."
   - page: wiki/mind/concepts/acquisition-drive
     type: contradicts
     claim: "That page predicts no assigned goal was ever pursued at cost comparable to the Fran vigil; the employment record contains two that dwarf it — 41 months at Au Za'atar and 43 at Nemacolin — so the prediction is falsified and the rule has to be rewritten around what was actually being sustained inside them."
@@ -270,6 +273,26 @@ it does.
    "helped me finally get out of that world." If a source ever shows sustained
    costly compliance with a medical instruction he did not adopt as his own,
    the rule narrows again.
+
+## The payload rule as a capability finding
+
+[[wiki/mind/synthesis/failure-to-launch]] uses this page's rule to answer a
+question this one does not ask: whether Dan is capable, and why thirty-seven
+years of a demonstrably high-output engine has produced no credential, no
+capital and no portable claim.
+
+The rule supplies the mechanism, and it converts a character verdict into an
+engineering problem. **A payload is by construction non-transferable.** So the
+41 months at [[wiki/work/au-zaatar]] and the 43 at
+[[wiki/work/nemacolin-caddying]] were real tenure that was never structurally
+*his* at any point — when the shed came down in August 2024, the objective went
+with it and nothing accrued. What is missing across the biography is therefore
+not thrust, which this page already establishes is present in quantity, but
+**orbit**: a container Dan owns into which a self-set objective can be installed
+without a host. That page names the only candidate in the record — the
+production aliases, thirteen years and one continuous identity since 2016,
+longer than any job — and the gap that makes it untestable, which is that no
+output figure for any of them exists anywhere in the corpus.
 
 ## Gaps
 

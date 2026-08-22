@@ -21,6 +21,9 @@ synthesizes:
   - wiki/mind/synthesis/ai-collaborative-analysis
 tags: [personality-profile, forensic-analysis, relationships]
 connections:
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: contradicts
+    claim: "Across August 18-19 2026 the peripheral Ally channel outvolumed the primary Annie channel by a three-figure margin with both threads live hour by hour, the first documented period in which relational load was not routed through a single node."
   - page: wiki/mind/synthesis/the-deferred-audit
     type: component-of
     claim: "'Maximum investment in the chosen, maximum indifference to the imposed' is a provenance rule stated as an allocation policy — a Gini of 0.96 is what a life composed exclusively of self-selected objects looks like measured from outside, and the no-failover exposure is the cost of never auditing those objects on arrival."

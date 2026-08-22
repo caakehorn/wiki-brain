@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-20
+date_modified: 2026-08-22
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessage_7244346811+212****2449_both_all_now.csv
@@ -89,6 +89,16 @@ connections:
 
 
 # The Dan/Annie Fallout — Was He Correct to Feel Wronged? (Raw-Evidenced)
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/people/annie-ulmer]] and [[wiki/mind/concepts/attachment-model]] (both
+> 2026-08-22). Both gained a pointer into
+> [[wiki/mind/synthesis/the-rescue-premise]] and nothing else; no count, quote
+> or dated claim on either premise moved. **This verdict's central procurement
+> finding is untouched and is in fact load-bearing on the new page**, which uses
+> the daily $50–$100 supply channel through August 16 as the strongest single
+> predictor of resumption and files its present state as an open gap. No claim
+> withdrawn.
 
 The verdict, stated plainly: **yes — on the documented facts, Dan was correct to feel wronged, and the feeling was not a misreading.** The record supports a specific, narrower claim than "the whole relationship was abuse": Annie's *terminal-phase* conduct — a sustained concealed affair, months of gaslighting that attacked his capacity to perceive reality, a procurement-structured "love" instrument, and a concurrent defamation campaign — is a genuine wrong, and it landed on a person whose attachment architecture made him maximally vulnerable to exactly that shape of harm. What must be held in the same frame, and what the operator's standing directive requires, is the **diagnosis→behavior gap**: the wrong was real, but Dan's *response architecture* (the conflict engine, the 127-exit/110-reengage loop, the supply-chain control) is his own, and it converted a survivable betrayal into a decade-long catastrophe. He was wronged *and* he was not a passive victim of the wronging. Both are true, and the second does not cancel the first.
 

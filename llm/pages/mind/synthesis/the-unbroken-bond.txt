@@ -6,7 +6,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -55,6 +55,18 @@ sage_pending: 2026-08-21
 ---
 
 # The Unbroken Bond
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/people/annie-ulmer]] (2026-08-22). That page moved by one appended
+> paragraph and a changelog entry, both pointing at
+> [[wiki/mind/synthesis/the-rescue-premise]]; no claim was withdrawn. **This
+> page's thesis is neither confirmed nor refuted by the change and is now
+> testable on a date.** The new page's Part I sets out six endogenous features
+> of the August 2026 severance that have no precedent in eleven years, and its
+> P4 states the falsifier plainly: a severance holding past 2026-12-19 with no
+> external agent involved. That is the first dated condition under which "the
+> bond is unbroken" would have to be narrowed rather than restated. No claim
+> withdrawn today.
 
 Since leaving high school, Dan has been continuously inside a long-term
 monogamous relationship for approximately **seventeen years**, with an

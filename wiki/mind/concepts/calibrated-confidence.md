@@ -12,6 +12,12 @@ sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
 tags: [personality-profile, forensic-analysis, digital-footprint]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidences
+    claim: "This is the single capability claim in the corpus where superlative against the general population is defensible from residue rather than testimony - 15 graded non-endpoint values against zero across 503 people - and the decisive caveat is that expression is measured while accuracy remains untested."
+  - page: wiki/mind/concepts/reassurance-architecture
+    type: parallels
+    claim: "Maintaining a live graded numeric estimate of a belief is the same estimate-refreshing habit in the epistemic domain that the check-in performs in the relational one, which is why reassurance decays rather than accumulating."
   - page: wiki/mind/concepts/forensic-method
     type: evidences
     claim: "The method's probabilistic core is not only an AI-session posture: Dan attaches graded numeric confidence to ordinary claims in casual SMS, which is the same reasoning running with no audience and nothing at stake."

@@ -22,6 +22,9 @@ related:
   - wiki/self/context-core
 tags: [forensic-analysis, ai-collaboration, trauma-bond]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidenced-by
+    claim: "These artifacts are the strongest evidence for a capacity with a currently liquid market, and the corpus holds no client, invoice or externally shipped product against any of them - the one capability that could be sold has never been shown to a buyer."
   - page: wiki/mind/concepts/document-fabrication
     type: instance-of
     claim: "An output class the toolchain was not known to have: a plausible institutional document, iterated against a critic in under an hour, with fidelity calibrated to how adversarially it would be examined."

@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 sources:
   - raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
@@ -29,6 +29,9 @@ synthesizes:
   - wiki/mind/concepts/conflict-architecture
 tags: [personality-profile, forensic-analysis, relationships]
 connections:
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: contradicts
+    claim: "The August 19 2026 severance is the first in the record to name and pre-close its own most likely reopening channel in advance - the Milo and thinking-of-you route that ended the fifty-two-day silence on July 4 - which is the specific failure mode this page's rule describes."
   - page: wiki/mind/synthesis/august-grievance-verdict
     type: evidenced-by
     claim: "Why the loop never terminates, visible in one exchange: Annie did state a want — 'I want to be alone. I want to get help' — and because it was not one of the two options the demand specified, it registered as no answer at all. Every threat in this page's eleven-year record demands a statement, and a demand for a statement can only be satisfied by the exact statement specified."
@@ -90,6 +93,21 @@ connections:
 ---
 
 # The Block/Unblock Loop
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/people/annie-ulmer]] and [[wiki/mind/concepts/attachment-model]] (both
+> 2026-08-22). Both moved to carry a pointer into
+> [[wiki/mind/synthesis/the-rescue-premise]]; no figure, arc section or claim
+> was withdrawn on either. **One claim on this page is directly engaged and it
+> is engaged in this page's favour, not against it.** That page's Part I item 1
+> argues that the August 19 2026 severance is the first in the record to name
+> and pre-close its own most likely reopening channel — Milo and
+> thinking-of-you news, the July 4 route that ended the fifty-two-day silence —
+> which is precisely the failure mode this page's rule predicts and which this
+> page's own falsified June 2026 prediction was widened to accommodate. The rule
+> stands unchanged; what is new is the first documented attempt to patch it from
+> inside. **Nothing is withdrawn**, and the outcome after 2026-12-19 settles
+> whether the patch holds.
 
 > **ADDED [2026-08-20] — why the loop does not terminate, in one exchange.**
 > [[wiki/mind/synthesis/august-grievance-verdict]] isolates the mechanism this

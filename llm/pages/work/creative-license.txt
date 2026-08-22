@@ -20,6 +20,9 @@ sources:
   - raw/self/dox-scan/Gemini-_58.txt
 tags: [nyc-era, career, digital-footprint, legal]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidences
+    claim: "Ten months ending in a payroll dispute, a whistleblower disclosure and a retaliatory false LinkedIn claim is the earliest instance of the pattern the audit names: capability entering an institution through the vertical axis and exiting through a fight about the record."
   - page: wiki/people/kevin-mckiernan
     type: contains
     claim: "Kevin McKiernan was Creative License's president and Dan's ultimate authority for the full run of the job — the principal in every escalation, distinguished in Dan's own words from the functionaries (Marty, Katherine) who carried out his instructions."

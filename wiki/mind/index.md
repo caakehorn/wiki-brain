@@ -55,6 +55,7 @@ authoritative factual spine remains [[wiki/self/context-core]].
 - [[wiki/mind/concepts/chaos-preference]] — the appetite for entropy and system failure, and the finding that it is strictly outward-facing.
 - [[wiki/mind/concepts/acquisition-drive]] — the 95th-percentile completion drive that cannot be aimed: once a want becomes a decided outcome it runs to completion regardless of cost, and only self-originated goals can recruit it.
 - [[wiki/mind/concepts/calibrated-confidence]] — graded numeric probability attached to his own beliefs in casual SMS, at 22x the rate of the 503 people texting him; the first Ti-dominance evidence from behaviour rather than an instrument.
+- [[wiki/mind/concepts/reassurance-architecture]] — the check-in loop: why validation and reaffirmation are nearly silent at baseline and become the organising behaviour under stakes, and why the explicit vocabulary ("do you love me" — 0 instances in 106,629 messages) is absent while "call me" runs to 170.
 ## psychosexual — the sexuality cluster
 
 - [[wiki/mind/psychosexual/index]] — hub: theory-vs-practice provenance split, quick brief, cluster map.
@@ -74,10 +75,12 @@ authoritative factual spine remains [[wiki/self/context-core]].
 - [[wiki/mind/synthesis/political-psyops]] — the J6 hybrid conclusion, the structural-decay politics, politics as aesthetic object.
 - [[wiki/mind/synthesis/vertical-authority-skepticism]] — vertical suspect, lateral trusted: family template, workplace and state evidence, function and cost.
 - [[wiki/mind/synthesis/attachment-trauma-bond]] — the Annie decade as trauma bond: architecture, tethers, somatic toll.
+- [[wiki/mind/synthesis/the-rescue-premise]] — the six endogenous features that make the August 2026 rupture different in kind, and the test that rejects external rescue as the mechanism: the corpus's only completed exit from a long relationship completed by substitution inside a week.
 - [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — capstone: was Dan correct to feel wronged? The real wrong + the diagnosis→behavior gap, held in one frame.
 - [[wiki/mind/synthesis/august-grievance-verdict]] — the seventy-hour version of the fallout verdict: Dan's ten grievances of 16–19 August scored one by one (seven supported, two partly, one false), and the finding that the recording he held as proof of betrayal is also the best corroboration of her defence.
 - [[wiki/mind/synthesis/bond-switch-2015]] — the 2015 Alexis→Annie single-bond switch: same-week transfer, verified onset flood, 155 Virginia lair-continuity.
 - [[wiki/mind/synthesis/message-circadian-latency]] — primary cut of the raw corpus: circadian curve + era drift, 9× reply-latency asymmetry, burstiness, per-contact volume trajectories.
+- [[wiki/mind/synthesis/failure-to-launch]] — the capability audit: what is genuinely superlative against a real comparison population (two dimensions, one of them a liability), what the bottom-decile facet cluster forecloses, and why the missing thing is orbit rather than thrust.
 - [[wiki/mind/synthesis/spatial-behavior]] — GPS-analysis reading of location history: extreme home-anchoring, the Friday release valve, and four sharply bounded life phases (Forge/Binary System/Collapse/Siege) rather than gradual drift.
 - [[wiki/mind/synthesis/ai-collaborative-analysis]] — how LLMs are actually used: node logging, steelman, injection lab, capability contests.
 - [[wiki/mind/synthesis/millennial-digital-witness]] — the generational bridge self-theory and its uses.

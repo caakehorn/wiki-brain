@@ -11,6 +11,9 @@ sources:
   - raw/self/dox-md/OMNI_FORENSIC_DOSSIER.md
 tags: [digital-footprint, relationships, attachment, infidelity, ai-collaboration]
 connections:
+  - page: wiki/mind/concepts/reassurance-architecture
+    type: evidences
+    claim: "The 9x reply-latency asymmetry and the 1.0-minute outbound median are the reassurance deficit rendered as a time series, and they predict that Dan's outbound volume is an inverse function of the other party's inbound latency."
   - page: wiki/mind/concepts/attachment-model
     type: evidences
     claim: "The 9x reply-latency asymmetry renders the attachment system as a timing series: outbound near-instant and uniform across all relationships, inbound delay scaling with peripherality."

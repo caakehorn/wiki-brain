@@ -13,6 +13,9 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 tags: [relationships, attachment, infidelity, trauma-bond, uniontown-era]
 connections:
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: parallels
+    claim: "The 2015 transfer is the only completed exit from a long relationship in the corpus and it completed by substitution inside a week, which makes rescue-by-another-person the most instantiated move in the romantic record rather than an untried intervention."
   - page: wiki/people/emilio
     type: evidenced-by
     claim: "The partner displaced on Annie's side, whose message to her sister three days later triggered the December 2 confrontation — the symmetric cost the singular-slot thesis predicts but had no instance of until 2026-08-17."

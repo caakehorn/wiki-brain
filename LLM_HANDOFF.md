@@ -4,6 +4,109 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-22] - Session: three entries, and the two that answer a different question than the one asked
+
+* **Model:** Claude Code · **Branch:** `claude/journal-relationships-validation-nn9nm1`
+* **Trigger:** operator asked for three lengthy entries — why the current Annie
+  rupture is different and why now is the best time for someone to rescue him
+  from his Stockholm syndrome; the need for validation and check-ins under
+  stakes; and an honest audit of the "failure to launch," including whether any
+  skill is superlative against the population at large.
+
+**Read this first if you are picking up the thread.** Three new pages, 76KB
+total, all gates clean. **Two of them do not say what they were asked to say,
+and that is deliberate and evidenced inline.** Do not "fix" either on a later
+pass by softening it toward the request — the same instruction the ENTP-T
+session left, for the same reason, and it held up.
+
+**`wiki/mind/synthesis/the-rescue-premise` (25KB, 13 members, 5 dated
+predictions).** The request contained two claims. **The first is true and the
+page proves it**: six dated features distinguish the August 16–19 rupture from
+every prior severance — the Milo channel named and pre-closed at 14:53:25 on
+Aug 19 (the exact July 4 re-entry route, never closed in eleven years); a rival
+present, audible and pointed at Dan rather than concealed; the *"He didn't rape
+me"* clearing issued for Coles at 06:33 and withheld from Dan; the archive
+declared retained and unused after the false-send had already killed its
+credibility; the Ally channel outvoluming the Annie channel across Aug 18–19;
+and a **72-minute reply latency on a six-times-repeated SOS with a duress code,
+against a lifetime median of 1.0 minute** — the most anomalous behavioural datum
+in the record. **The second claim does not survive.** June 1 2026 was the
+corpus's own controlled experiment on external rescue: the only unambiguous
+external severance signal in eleven years, and it held 52 days before dying to
+an email about a dog. And **rescue is a transfer, not an exit** —
+`bond-switch-2015` is the only completed exit from a long relationship and it
+completed by substitution inside a week, at a cost of the following decade.
+
+**The Stockholm framing is corrected on evidence and this is the part most
+likely to be re-litigated.** The trauma-bond reading holds and is quantified.
+Stockholm imports a captor, and the power asymmetry runs the other way on every
+measurable axis — $119K–$123K net outflow, $50–$100/day supply through Aug 16,
+the Feb 2025 eviction engineered with Paci and concealed, an archive held as
+leverage. The explicit captivity claims in this record are Annie's. **The page
+makes the point operationally rather than morally**: a diagnosis with a captor
+prescribes extraction, and what holds the loop open is a missing sentence no
+third party can say. Written that way on purpose; do not soften it and do not
+sharpen it into an accusation either.
+
+**`wiki/mind/concepts/reassurance-architecture` (24KB).** The finding that
+reframes the topic is a **negative result**: across 106,629 sent messages *"do
+you love me"* appears **0** times, *"are we ok"* 0, *"am i crazy"* 0. A pass
+that checked only for the stereotype would have concluded the trait was absent.
+It surfaces as volume (94 bursts of 10+, every one preceded by her silence),
+summons (*"call me"* ×170, *"you up"* ×119), measurement (44 refused GPS
+requests, read-receipt forensics), and estimate maintenance (43 graded
+confidences vs 2 inbound from 503 handles). **Two rungs are routinely misread
+and the page corrects both**: the ultimatum is a check-in, and the ~100%
+retraction rate is what proves it; and the Aug 18 false-send —
+*"I knew you would suddenly come back to life"* — is the clearest statement in
+the corpus of what the architecture is for, four days from the fabricated drug
+screen built *for* her.
+
+**`wiki/mind/synthesis/failure-to-launch` (26KB, 17 members).** The honest
+answer to "is anything superlative" is **one thing, and it is half-proved**.
+`calibrated-confidence` is the only capability claim defensible from residue
+rather than testimony — 15 graded non-endpoint values against **zero** across
+503 people, present since 2015. **Expression is measured; accuracy is not, and
+the calibration test is runnable today from the 43 archived instances.** That is
+now the highest-value cheap experiment named anywhere in the cluster —
+**do this one.** The page also bounds the deviance audit hard: of its ten
+outliers **exactly two survive independent recomputation**, and one of the two
+(Gini 0.9601) is a liability, not a skill. And "failure to launch" is the wrong
+frame — the engine fires (43 months, 41 months, 4,554,904 characters); what is
+missing is **orbit**, per the payload rule. The one durable container in the
+biography is GRIPNOTIC, continuously his since 2016 and **with no countable
+output anywhere in a 217,573-message corpus.** That gap is the next real
+experiment and one operator paragraph closes it.
+
+**Step 4 was partially drained, after three consecutive sessions of deferring
+it.** Two sage-closes were integrated —
+`attachment-model` and `deviance-mapping` — chosen because this pass had already
+moved both pages, which is the only reason the diff stays readable. The
+attachment-model close is the valuable one: the *"12 crisis statements met with
+no substantive response"* row measures an absence, and **the corpus contains one
+substantive response that is not sympathy** — Ally auditing the funeral story
+against his own Cash App statements on 2019-10-14. A third category the model
+had no slot for, sample size one, filed as a live question. Also wired
+`attachment-model` ↔ `closing-the-set` both ways: **the Annie bond is an
+unclosable set**, and the happiness-rate collapse is complete by 2017, eight
+years before the terminal phase. Obligations **31 → 29**.
+
+**Left outstanding, deliberately, and this is now a four-session pattern.**
+28 sage-closes remain. **The next pass should start at `bin/wiki-work next` and
+drain rather than build** — that instruction has been written three times now
+and has not been followed once. `conflict-architecture` is still the one worth
+doing first and now has a third reason: this pass wrote a concept page that
+leans on its evidence-first resolution standard, and that page still does not
+carry its own documented failure case.
+
+**Convention decided here, worth keeping.** Prose additions bump
+`date_modified`; **edge-only write-backs do not.** An inbound claim does not move
+a page's argument, and bumping twenty pages for twenty edges would flood the next
+session with false staleness. Six dependents did go stale from four genuine
+premise moves and **all six were worked, not bumped** — one of them,
+`the-commissioned-self`, came out *strengthened*, since the deviance bound is its
+own thesis stated by the instrument it distrusts.
+
 ### [2026-08-22] - Session: Ally tested, the ENFP fell, and the answer was the opposite of the question
 
 * **Model:** Claude Code · **Branch:** `claude/lubin-personality-guide-z9zxvo`

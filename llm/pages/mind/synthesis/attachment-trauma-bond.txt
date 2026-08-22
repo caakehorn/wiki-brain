@@ -32,6 +32,9 @@ synthesizes:
   - wiki/mind/concepts/conflict-architecture
 tags: [relationships, trauma-bond, addiction-recovery, infidelity, ai-collaboration]
 connections:
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: contextualizes
+    claim: "The trauma-bond reading is sustained and the Stockholm framing is not: the power asymmetry runs the other way on capital, supply and housing, and the explicit captivity claims in the record are Annie's, which matters because a plan built on a captor prescribes extraction and the record prescribes something else."
   - page: wiki/mind/synthesis/august-grievance-verdict
     type: evidenced-by
     claim: "The model at maximum amplitude, quantified: 69 of her messages contain 'please' or 'beg' against 15 'fuck you' and 17 'piece of shit' from him, contempt language nearly quadrupling against the prior week's baseline, and a disclosed suicide attempt met with escalation rather than de-escalation."

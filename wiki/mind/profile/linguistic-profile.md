@@ -20,6 +20,9 @@ related:
   - wiki/self/twitter
 tags: [trauma-bond]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidences
+    claim: "A custom-built fork of English is the clearest case in the profile of a genuine outlier capacity attached to a nearly empty market - high-fidelity to models and niche in-groups, maladaptive as a professional interface."
   - page: wiki/mind/concepts/calibrated-confidence
     type: contains
     claim: "A countable stylistic marker to set beside the 99th-percentile lexical-diversity score: Dan uses the confidence scale (75, 80, 89, 90, 95, 99.9999) where every other person in the corpus uses '100%' as a synonym for 'definitely'."

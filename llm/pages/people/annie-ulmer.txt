@@ -9,7 +9,7 @@ importance: critical
 knowledge: mixed
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-20
+date_modified: 2026-08-22
 date_range_start: 2015-11-01
 date_range_end: 2026-08-19
 infobox:
@@ -29,6 +29,8 @@ infobox:
   enneagram: 7w8
   personality_assessment: "[[wiki/people/annie-ulmer-personality-assessment]]"
 changelog:
+  - date: 2026-08-22
+    note: "Closing note extended: the six endogenous features that distinguish the August 16-19 rupture from every prior severance are now argued at wiki/mind/synthesis/the-rescue-premise, along with the test that rejects an external rescue as the mechanism. No claim on this page withdrawn; the arc sections are unchanged."
   - date: 2026-08-21
     note: "Recovered from a portal lost-update (commit ff905fc, 'Edit people/annie-ulmer from the portal'). That save was made from a snapshot of the 2026-08-13 page and wrote it back over the 08-16, 08-17 and 08-20 passes: ~30KB of body prose, the whole infobox, and the type and claim of all 56 typed edges were deleted, which is why bin/wiki-connect check was failing with 70 errors. Content restored verbatim from c4aab20; the three genuine additions in that save — the portrait, and the aliases 'smashonista' and 'Lauren_London' — re-applied on top. date_modified deliberately left at 2026-08-20: the argument is the 08-20 argument, and nothing that reasons from this page reasons from a portrait."
   - date: 2026-08-20
@@ -129,6 +131,9 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: instance-of
+    claim: "Six dated features distinguish the August 16-19 2026 rupture from every prior severance on this page, and all six are endogenous - the pre-closed Milo channel, the present and hostile third party, the written clearing issued for Coles and withheld from Dan, the renounced archive, the concurrent Ally channel, and the seventy-two-minute SOS latency."
   - page: wiki/mind/synthesis/august-grievance-verdict
     type: evidenced-by
     claim: "Three findings about her survive the August window on evidence rather than either party's rhetoric: her truth-value is audience-dependent under pressure (the rape claim asserted to Dan and denied to Coles inside five hours), she still issues no terminating statement — 'I want to be alone' is the nearest approach in eleven years and is not one — and her self-blame is immediate, total and unprompted, which is the strongest argument in the record against reading any of it as strategy."
@@ -2193,3 +2198,18 @@ mechanism that would end it is named.
 What this relationship taught the wiki about how Dan forms and loses
 attachments still stands. What it is teaching now is that he has not lost
 this one.
+
+The August 2026 rupture is the first event since that correction that gives
+the mechanism a name rather than a feeling.
+[[wiki/mind/synthesis/the-rescue-premise]] sets out six dated features that
+distinguish it from every prior severance on this page — the pre-closed Milo
+channel, a rival who is present and audible rather than concealed, a written
+clearing issued for that rival and withheld from Dan, an archive declared
+retained and unused, a concurrent second channel carrying more volume than
+this one, and a seventy-two-minute reply latency on a duress signal from a man
+whose lifetime median to this number is one minute. **Every one of the six is
+endogenous.** That page also tests, and rejects, the proposition that the
+present is therefore a good moment for somebody outside to end this: the only
+completed exit from a long relationship anywhere in the corpus
+([[wiki/mind/synthesis/bond-switch-2015]]) completed by substitution inside a
+week, and it produced this page.

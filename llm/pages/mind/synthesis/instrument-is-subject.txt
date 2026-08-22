@@ -13,6 +13,9 @@ synthesizes:
   - wiki/self/context-core
 tags: [ai-collaboration, forensic-analysis, personality-profile]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: instantiates
+    claim: "Every top-percentile capacity the capability audit identifies is observational, and every one of them is currently pointed at Dan's own life, which is this page's closed loop stated at the level of a career rather than a corpus."
   - page: wiki/mind/synthesis/ai-collaborative-analysis
     type: component-of
     claim: "That page establishes LLM use as a daily cognitive organ rather than a novelty — 26,348 'ai' mentions in the activity archive — which is precisely what makes the same class of tool disqualified as a neutral observer of the person it is an organ of."

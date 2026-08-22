@@ -16,6 +16,9 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 tags: [personality-profile, addiction-recovery, legal, forensic-analysis]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: contradicts
+    claim: "The operator's 95th-percentile persistence claim and the instrument's Impulsiveness 96 are readings of the same episodes by two scales that disagree, and the employment record settles part of it: 41 and 43 months on assignments set by other people."
   - page: wiki/mind/synthesis/the-embedded-objective
     type: contradicts
     claim: "This page's stated falsifier was found on the first place it pointed to: the employment record holds 41 months at Au Za'atar and 43 at Nemacolin against a six-month Fran vigil, so assigned goals DO receive sustained costly effort — via a private objective installed inside the assignment."

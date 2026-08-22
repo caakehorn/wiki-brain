@@ -20,6 +20,9 @@ related:
   - wiki/self/context-core
 tags: [music-production, family]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: contextualizes
+    claim: "GRIPNOTIC is the only container in the biography that Dan has owned continuously - eleven years, longer than any job - and the absence of any countable output for it is the largest single gap in the capability audit."
   - page: wiki/mind/synthesis/music-as-identity
     type: component-of
     claim: "The alias lineage documented here is the professional-identity facet of the four-mode music-as-identity thesis."

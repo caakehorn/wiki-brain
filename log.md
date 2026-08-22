@@ -4006,3 +4006,187 @@ Nothing further is owed here: the fix is on `main`, the CI gap and the
 portal-editor validation gap are both filed in `BACKLOG.md` as HIGH by the
 other pass, and this branch's merge kept that repair rather than re-applying
 it.
+
+## [2026-08-22] climb | mind | three entries, and two of them answer a different question than the one asked
+
+Operator requested three lengthy entries: why the current Annie rupture is
+different and why now is the best moment for an outside rescue; the need for
+validation and check-ins under stakes; and an honest audit of the "failure to
+launch" — capability, value, and whether anything is superlative against the
+general population.
+
+**Entry 1 — [[wiki/mind/synthesis/the-rescue-premise]] (25KB).** The request
+contained two claims and they do not both survive. **Six dated features do
+distinguish the August 16–19 rupture from every prior severance**, and they are
+specific: the Milo/thinking-of-you channel named and pre-closed at 14:53:25 on
+August 19, which is the exact route that ended the fifty-two-day silence on July
+4 and which has never been closed in eleven years; a rival who is present,
+audible and pointed at Dan rather than concealed from him, with two phone
+seizures in seventy hours; the ***"He didn't rape me"*** clearing issued for
+Coles at 06:33 and, per the operator, promised to Dan and withheld; the archive
+declared retained and unused at 15:12:16 after the false-send had already
+destroyed its credibility; the first documented period in which the peripheral
+Ally channel outvolumed the primary Annie one; and a **seventy-two-minute reply
+latency on a six-times-repeated SOS with a duress code**, against a lifetime
+median of 1.0 minute to that number — the single most anomalous behavioural
+datum in the eleven-year record.
+
+**The rescue half does not survive and the page says so.** Three findings kill
+it. The corpus already ran the best-case experiment: June 1 2026 is the only
+unambiguous *external* severance signal in eleven years, and it held fifty-two
+days before dying to an email about a dog — an externally supplied rule can be
+overwritten by the next external input, which is why
+[[wiki/mind/synthesis/block-unblock-loop]]'s falsified prediction is the
+strongest evidence on the page. The confession trap is unsolvable by a third
+party, who supplies neither the verdict nor the door. And **rescue is not an
+exit, it is a transfer**: the corpus contains exactly one completed exit from a
+long relationship ([[wiki/mind/synthesis/bond-switch-2015]]) and it completed by
+substitution inside a week, at a cost of the following decade. A Gini of 0.9601
+with no failover does not distribute load when the primary node fails; it
+relocates the whole of it, which the August 18–19 concurrency already shows
+beginning.
+
+**The Stockholm framing is corrected on the evidence, not softened.** The
+trauma-bond reading holds and is quantified. Stockholm imports a captor, and
+the power asymmetry runs the other way on every axis the corpus measures —
+capital ($119K–$123K net outflow), supply ($50–$100/day through August 16),
+housing (the Feb 2025 eviction engineered with Paci and concealed), and an
+archive held as leverage. The explicit captivity claims in this record are
+Annie's: *"INWAS TRAPPED / AGAIN"*, twice on tape that she is being held
+hostage, a phone taken twice. **This matters operationally rather than
+morally** — a diagnosis with a captor prescribes extraction, and what is
+actually holding the loop open is a missing sentence no third party can say.
+
+**Entry 2 — [[wiki/mind/concepts/reassurance-architecture]] (24KB). The finding
+that reframes the topic is a negative result.** Across 106,629 sent messages
+*"do you love me"* appears **0** times, *"are we ok"* **0**, *"am i crazy"*
+**0**, *"reassure"* 6. The stereotype of reassurance-seeking is essentially
+absent, and a page that had checked only for it would have concluded the trait
+was not there. It surfaces in four other registers, all measurable: **volume**
+(94 bursts of 10+ consecutive messages, every one preceded by her silence; 62.7%
+of inter-send gaps under two minutes), **summons** (*"call me"* ×170, *"you up"*
+×119, *"pick up"* ×89 — the ask is reachability, not affirmation),
+**measurement** (44 refused GPS requests, read-receipt forensics — surveillance
+as a strictly worse substitute that answers a question the system did not need
+answered), and **estimate maintenance** (43 graded numeric confidences outbound
+against 2 inbound from 503 handles).
+
+Two rungs of the escalation ladder are routinely misread and the page corrects
+both. **The ultimatum is a check-in, and the ~100% retraction rate is what
+proves it** — a threat retracted every time is not a threat, it is the loudest
+available request for a reading, and an exit declaration is the one message in
+this record that never goes unanswered. And the **manufactured stimulus** is the
+loop at its most destructive: *"it wasn't actually sent, and I knew you would
+suddenly come back to life"* is the clearest statement in the corpus of what the
+whole architecture is for — not punishment, not leverage, but forcing an
+unresponsive channel to respond. It sits four days from the fabricated drug
+screen built *for* her, the same capability pointed both ways.
+
+The counter-evidence is carried at full strength: a system that escalates on
+non-response converts every pause into a provocation and manufactures the
+withdrawal it fears; verification demanded was not verification supplied; and
+the whole concept rests on **one relationship**, since by Dan's own account the
+attachment system never fully engaged across seven years with Alexis. Whether
+the loop predates Annie is one `bin/mine-messages` query and is filed as a gap.
+
+**Entry 3 — [[wiki/mind/synthesis/failure-to-launch]] (26KB). The honest answer
+to "is anything superlative" is: one thing, and it is half-proved.**
+[[wiki/mind/concepts/calibrated-confidence]] is the only capability claim in the
+corpus defensible from residue rather than testimony — **15 graded non-endpoint
+values in 106,629 outbound messages against zero in 110,944 inbound from 503
+people**, present in every year from 2015, eight years before the AI period. The
+decisive caveat is stated rather than buried: *expression* is measured,
+*accuracy* is not, and **the calibration test is runnable today from the 43
+archived instances**. That is now the highest-value cheap experiment named
+anywhere in the cluster.
+
+**The deviance audit is bounded, and the bound is the finding.** Of its ten
+outliers, **exactly two survive independent recomputation against a real
+comparison population** — the 0.9601 contact Gini and a measure the audit never
+produced at all — and **one of the two is a liability rather than a skill**. The
+remaining eight are single-model judgments over material Dan supplied, priced
+exactly by [[wiki/mind/synthesis/the-commissioned-self]]'s figure: the whole
+apparatus's vocabulary appears **seventeen times in 106,629 messages of actual
+life**. Written back onto [[wiki/mind/profile/deviance-mapping]] as its own
+section rather than left on the new page.
+
+**And "failure to launch" is the wrong frame in a correctable way.** The engine
+fires — 43 months caddying, 41 at Au Za'atar, a six-month vigil, 4,554,904
+characters of his own text. What is missing is **orbit**, and
+[[wiki/mind/synthesis/the-embedded-objective]] already names the mechanism: a
+payload installed in somebody else's frame is non-transferable, so when the shed
+came down forty-one months went with it and nothing accrued. The constraint is
+stated as fit rather than verdict — Assertiveness 5 with Submissiveness 1 exits
+the vertical axis every institution runs on — and the one durable container in
+the biography turns out to be the aliases: GRIPNOTIC has been continuously his
+since 2016, longer than any job, and **has no countable output anywhere in a
+217,573-message corpus.** That absence is the largest gap the page opens.
+
+**Write-backs and staleness.** All 13 members of the rescue page and all 17 of
+the capability page carry typed edges stating what each turned out to be
+evidence of; the reassurance page wired 9. Four premises genuinely moved and
+were date-bumped ([[wiki/people/annie-ulmer]],
+[[wiki/mind/concepts/attachment-model]], [[wiki/mind/profile/deviance-mapping]],
+[[wiki/mind/synthesis/the-embedded-objective]]); **the six dependents that went
+stale were worked, not bumped**, and one of them —
+[[wiki/mind/synthesis/the-commissioned-self]] — came out *strengthened*, since
+the deviance bound is its own thesis stated by the instrument. Edge-only
+additions were deliberately **not** date-bumped: an inbound claim does not move
+a page's argument, and bumping twenty pages would flood the next session with
+false staleness. Master-index counts corrected (people 164→165, a pre-existing
+drift; mind 62→65).
+
+Gates: lint 0 errors, connect 0 errors, climb 0 errors and **0 stale**,
+freshness in sync.
+
+## [2026-08-22] close | mind | two staged sage findings integrated on the pages this pass was already holding open
+
+Step 4 has now been deferred by three consecutive sessions, so this pass drained
+the two obligations that were coherent with the work rather than none. Both were
+on pages it had just moved, which is the only reason the diff stays readable.
+
+**[[wiki/mind/concepts/attachment-model]].** Two findings, and the first one
+**complicates the model in a productive direction rather than confirming it**.
+The page's *"12 crisis or suicidal statements met with no substantive response"*
+row measures the *absence* of a response — and the corpus contains exactly one
+substantive response, which simply is not sympathy. On **2019-10-14** Ally
+answers the Pittsburgh funeral story with *"I'm just confused how neither of you
+had money because you always send me cash app statements with like thousands of
+dollars."* The disclosure was **audited**, not absorbed, ignored or reciprocated
+— a third category the model had no slot for. It matters because the
+architecture's whole problem is that assurance and behaviour cannot be
+reconciled into a closure, so the one response class that could in principle
+generate a counter-rule is the one that **engages the evidence**. Sample size:
+one. Filed as a live question, not an answered one.
+
+Second finding: **the Annie bond is an unclosable set.**
+[[wiki/mind/synthesis/closing-the-set]] establishes from 2,016 curated cultural
+entries that Dan's engagement unit is a bounded object whose payoff arrives on
+closing it; this model describes the largest object he ever attached that engine
+to, built so closure cannot occur. Wired both ways with `mirrors` edges. The
+reframe predicts, correctly, that the June 1 2026 closure had to arrive from
+outside. And the payout data is worse than the page assumed: the happiness-claim
+rate collapses from 7.86/1k in the first five weeks to 0.34 by 2019 — **complete
+by 2017, eight years before the terminal phase the page dates to August 2025.**
+The bond ran at full strength for eight years after it stopped delivering
+anything countable, which is the sharpest demonstration available that this
+architecture is not maintained by reward.
+
+**[[wiki/mind/profile/deviance-mapping]].** The audit's motivational-system
+claim now has a measurement from outside the apparatus: 170 first-person
+happiness claims in 106,629 sent messages, 1.59 per 1,000, and **every year
+after 2015 sits between 0.00 and 2.72 including the years of maximum capital and
+maximum supply.** It does not prove the substitution the audit asserts and it
+does settle the countable half — the trace of feeling good is thin and tracks
+none of the usual inputs. Placed as a `GAP CLOSED` block inside the five
+structural divergences, where the claim actually lives, not appended.
+
+**Cascade.** The 12-statements correction was written into
+[[wiki/mind/concepts/reassurance-architecture]], which had cited the original row
+as the loop's worst case an hour earlier; the audited disclosure is now the only
+candidate on that page for a response that could satisfy a forensic-standard
+verification loop. Both `sage_pending:` flags deleted, both staging sections
+removed, both `raw/self/sage/` captures cited in `sources:`.
+
+Obligations 31 → 29. The 28 remaining sage-closes are named in `WORK.md` and
+untouched, for the reason given in the handoff.
