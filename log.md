@@ -3535,3 +3535,48 @@ it would have sent and exits clean, and the hourly cron — which this replaces
 nothing of — still catches up. **With it, a merged answer is live in about a
 minute.** A non-204 from the API fails the run loudly, because a silent 401 is
 precisely the failure mode this file exists to end.
+
+## [2026-08-21] infra | housekeeping | the pre-commit block had the wrong order, and the sweep had no protocol
+
+Two halves of housekeeping, split so each is done by the thing suited to it.
+
+**The mechanical half was four hand-copied lines, and they were in the wrong
+order.** `CLAUDE.md` listed the three gates first and the generators second.
+`bin/wiki-lint` checks master-index count drift, so running it before
+`bin/wiki-digest` inspects numbers that are about to change; and
+`bin/wiki-freshness` exists to confirm the generators ran, so running it before
+them asks a question whose answer is guaranteed stale. **`bin/wiki-check`** runs
+GENERATE → GATE → SCAN, ~4s, exit 1 on any red gate.
+
+`--check-only` is the mode that earns the script. It gates without writing, which
+is the question CI and a reviewer actually want answered — *is what is committed
+already consistent?* — and there `wiki-freshness` becomes a real gate rather than
+the near-tautology it is after a regeneration. Verified against a deliberately
+injected retracted claim: exit 1, and it caught both the lint error **and** the
+resulting corpus drift.
+
+**The judgment half had one paragraph and needed a protocol.** New skill
+`.claude/skills/wiki-housekeeping/`. The finding that shaped it: the entire
+standing warning backlog is three categories, and **two of them must not be
+"fixed."**
+
+| Warning | Count | Correct action |
+|---|---|---|
+| `page is NNKB — unusually long` | 10 | **Leave it.** Check navigation, change nothing. Trimming destroys earned content — the thing the project exists to accumulate |
+| `index is NNKB over budget` | 3 | Usually real — an index is navigation, not content, and has no earned prose to protect |
+| `bare '## Related' footer` | 65 | Real, and **not** mechanical: a typed edge needs a `claim:` earned by reading both pages. Four with real claims beat thirty asserting "these are related" |
+
+That inversion is the whole reason the sweep needs a reader. A pass that clears
+warnings looks productive and is the most destructive thing available — which is
+why the skill states the anti-patterns explicitly and gives "I looked, the
+warning is correct, here is why" as a complete outcome.
+
+The skill also carries the two moves that corrupt quietly: clearing a stale
+premise by bumping `date_modified` (the tell is a date that moved with no prose
+change), and clearing a staged answer without integrating it — because a staged
+answer checked and rejected must not look the same from outside as one nobody
+acted on.
+
+`tests/test_wiki_check.py` pins the two properties that are invisible when
+broken: generators precede gates, and `--check-only` writes nothing. 112 tests
+pass.
