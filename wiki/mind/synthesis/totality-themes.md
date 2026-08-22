@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -143,6 +143,17 @@ connections:
 
 
 # Totality Themes
+
+> **RE-CHECKED [2026-08-22] — three premises moved by re-check blocks only.**
+> [[wiki/mind/synthesis/the-embedded-objective]],
+> [[wiki/mind/synthesis/dormancy-not-exit]] and
+> [[wiki/mind/synthesis/estate-money-spine]] all moved on 2026-08-22 solely by
+> gaining `RE-CHECKED` blockquotes, each recording that the April 2018 hospital
+> summons ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]) and the
+> corrections it triggered left their arguments untouched. No thesis, control or
+> prediction changed on any of the three, and the themes drawn here reason from
+> those theses rather than from the blocks. Nothing withdrawn.
+
 
 > **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/mind/synthesis/block-unblock-loop]] and [[wiki/mind/synthesis/supply-network]] (both 2026-08-20). Both moved by typed-edge addition only, pointing at the new August 16–19 event page; neither page's prose or figures changed. Re-read against
 > the change; **no claim on this page is affected** and nothing here is

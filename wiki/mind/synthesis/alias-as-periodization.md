@@ -5,7 +5,7 @@ title: "The Alias Is a Clock, Not a Style"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 date_range_start: 2013-01-01
 date_range_end:
 synthesizes:
@@ -49,6 +49,16 @@ connections:
 ---
 
 # The Alias Is a Clock, Not a Style
+
+> **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at
+> third remove.** [[wiki/mind/synthesis/totality-themes]] moved on 2026-08-22 solely by
+> gaining a `RE-CHECKED` blockquote, which itself recorded that *its* premises
+> had moved only by re-check blocks, all of them tracing back to the April 2018
+> hospital summons ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]) and
+> finding nothing affected. No substantive claim changed anywhere along that
+> chain, and this page reasons from the claims rather than the blocks. Nothing
+> withdrawn.
+
 
 Dan has released music under four names in thirteen years, and the renaming
 has never once corresponded to a change in the music. Across SLOPPP, MOGZART

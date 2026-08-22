@@ -6,7 +6,7 @@ aliases: ["Suz MBTI", "Suz Enneagram", "Suz personality type"]
 status: active
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-20
+date_modified: 2026-08-22
 importance: high
 tags: [personality-profile, forensic-analysis, ai-collaboration]
 infobox:
@@ -28,6 +28,16 @@ connections:
 ---
 
 # Suzanne Frank — Forensic Personality Assessment
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/people/suzanne-frank]] (2026-08-22), which moved by a `RE-CHECKED`
+> blockquote adding one undocumented event — an April 2018 court summons for Dan
+> arriving at her address during the funeral week
+> ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]). **No trait score,
+> instrument reading or behavioural exemplar on this page is affected**, because
+> the corpus records nothing she said or did about it; an assessment cannot move
+> on an event with no observed response. Nothing withdrawn.
+
 
 > **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/people/suzanne-frank]] (2026-08-20). That page gained a section on Coles targeting her again and Dan pre-emptively blocking Annie's number on her phone. Re-read against
 > the change; **no claim on this page is affected** and nothing here is

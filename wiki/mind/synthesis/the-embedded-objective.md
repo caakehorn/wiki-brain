@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -58,6 +58,16 @@ connections:
 ---
 
 # The Embedded Objective
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/legal/2015-possession-arrest]] (2026-08-22), which moved solely by a
+> correction about the identity and recurrence of the magistrate (Michael Metros
+> appears twice now, not once — the second time on the April 2018 hospital
+> summons). **The row this page draws from that case is unaffected:** the payload
+> was the ARD deal, obtained before the probation began, and compliance is still
+> attested only retrospectively. Which court held the case does not bear on the
+> acquire-the-outcome / serve-the-outcome asymmetry. No claim withdrawn.
+
 
 **Dan has never sustained an assignment. He sustains a self-set objective he
 has embedded inside one.** Every long commitment in the corpus is a host

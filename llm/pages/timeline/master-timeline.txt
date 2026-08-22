@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**2,824 events** across **78 years** (1796–2026), drawn from **341 pages**. Tier 1 592 · Tier 2 361 · Tier 3 1,871.
+**2,842 events** across **79 years** (1796–2027), drawn from **342 pages**. Tier 1 597 · Tier 2 364 · Tier 3 1,881.
 
 ## What counts as an event here
 
@@ -1091,6 +1091,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/favorites/music/artists/a-day-to-remember]] · Notes per appearance
 - ◆ **2011-05-20** — The Facebook takeout shows the approach as a slow, one-directional accretion: nine documented interactions from Dan to her content between **May 20, 2011** and **August 15, 2013** — seven likes and two comments — before the first exchange.  
   ↳ [[wiki/people/ally-lubin]] · The eighteen-year approach
+- · **2011-05-20** — First documented contact  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The arithmetic of not stopping
 - ◆ **August 2011** — The apartment was also a genuine social hub for the wider Full Sail/Uniontown-diaspora circle documented elsewhere: Jamie Mohler was a routine visitor closely tracked enough that Alexis asked after a missed visit due to a knee injury (Aug 2011), and the address anchors two dated group events — the…  
   ↳ [[wiki/places/424-bedford-ave]] · The household
 - · **August 2011** — Oscar's own Facebook thread independently confirms the two men knew each other from the Full Sail years (an August 2011 exchange places them coordinating around Hurricane Irene), closing the loop on how Dan and Oscar were connected in the first place.  
@@ -1265,6 +1267,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/ally-lubin]] · The eighteen-year approach
 - · **2013-07-05** — Facebook Messenger — 21 — 15 — 6  
   ↳ [[wiki/people/ally-lubin]] · The measurements
+- · **2013-07-05** — First conversation  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The arithmetic of not stopping
 - · **2013-07-10** — One dosage figure exists on the record: a July 10, 2013 Facebook exchange with Elizabeth Eleanor, a fellow recovering addict, has Dan stating "i'm still on 2mg of suboxone a day, it's been almost 5 years since i touched an opiate and i'm still too terrified to get off" — placing his last opiate use…  
   ↳ [[wiki/health/chemical-architecture]] · The frame, and its audit
 - ★ **2013-07-11** — Gaps:** no further contact after July 11, 2013; Elizabeth's current circumstances, surname context, and whether she and Dan knew each other before this exchange (the "long time no see" framing implies a pre-existing but undocumented relationship).  
@@ -1419,6 +1423,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/katherine-palakovich]] · Katherine Palakovich ("Kittie")
 - ★ **February 2015** — Dan's only real arrest happened in **February 2015**, in downtown Uniontown at roughly 3am, and it was for drug possession — not for stealing snacks.  
   ↳ [[wiki/legal/2015-possession-arrest]] · The 2015 Possession Arrest
+- ★ **February 2015** — Both were filed in the same magisterial district, before the same judge, three years apart: 2015 possession arrest records Michael Metros from the February 2015 court blotter and states that he "appears once ... and has no other trace in the corpus." He appears twice.  
+  ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The legal residue — a filed summary case, docket MJ-14101-NT-0000082-2018
 - · **February 2015** — The February 2015 date is independently consistent with the one constraint the capture supplies from inside the story: Alexis was secretly living at 337 Saratoga at the time, hidden for roughly four months after being thrown out, which places the night well before the November 2015 switch to Annie…  
   ↳ [[wiki/legal/2015-possession-arrest]] · Case timeline
 - · **February 2015** — The nine months between the February 2015 filing and the first surviving message about the case in December 2015 contain the preliminary hearing and arraignment and are entirely undocumented.  
@@ -1473,6 +1479,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/annie-record]] · November
 - · **2015-11-17** — First message in the corpus  
   ↳ [[wiki/people/suzanne-frank]] · Timeline
+- ◆ **2015-11-24** — The relevant test is whether anything in the 2015-11-24 → 2015-12-01 window shows a decision to end the Alexis bond that predates Annie's arrival.  
+  ↳ [[wiki/mind/synthesis/bond-switch-2015]] · FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
 - · **2015-11-24** — Annie enters — and **Alexis is the one who introduces them.** "HAPPY ONE WEEK SINCE LEX HANDED YOU TO ME" (Annie, Dec 1)  
   ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The timing (verified against raw)
 - · **2015-11-24** — Annie enters, introduced by Alexis herself (*"HAPPY ONE  
@@ -1493,6 +1501,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/april-may-2026-final-weeks]] · Three findings not captured anywhere else in the record
 - ★ **2015-11-28** — Dan, already texting Annie intimately, narrates the **2009 origin** of the Alexis relationship as a contrast case — *not* a 2015 event. See the correction below.  
   ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The timing (verified against raw)
+- ★ **2015-11-28** — Mined for the answer: `cheat` returns **141 uses across 217,573 records**, and the direction is consistent in every era — *"Lex cheated on me 2 weeks in after I moved her to fla"* (2015-11-28), *"I got cheated on while I was working before and it's a super helpless feeling"* (2016-02-18), *"I've…  
+  ↳ [[wiki/mind/synthesis/the-unbroken-bond]] · FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
 - ★ **2015-11-28** — Dan's own single-sentence account of it survives, but not from 2009: he told it to Annie six years later, on 2015-11-28, as the contrast case for how the *new* relationship was starting — *"I love this it's the exact opposite way I started my last relationship...  
   ↳ [[wiki/people/alexis-armel]] · Full Sail, and the beginning
 - ★ **2015-11-28** — Dan tells Annie the Alexis relationship's **origin** story (see the correction below) — Alexis is at this point still living with Dan in Uniontown  
@@ -2862,6 +2872,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/the-fall-of-fran]] · The year: the operator says 2017, the corpus says 2018
 - ◆ **April 2018** — Internal evidence identifies the other party as Jamie (then Jim) with high confidence, though it is not a phone/email match and so is flagged as inference rather than certainty: Dan addresses the recipient directly as "jim" twice ("jim i filmed" and "oh thank you jim, i knew there was a better…  
   ↳ [[wiki/people/jamie-mohler]] · A rediscovered thread: 422 messages, 2010–2021
+- ◆ **April 2018** — On the April 2018 row.** The table above is a table of *eras* and this is not one — it is a single dated document, added because the era it falls inside is one the table says Dan was not here for.  
+  ↳ [[wiki/places/337-saratoga-drive]] · Occupancy history
 - ◆ **April 2018** — 117 belmont circle — 2017–2018 — fran coldren\ — Fran, as a paid caregiving arrangement — **None  
   ↳ [[wiki/places/the-unpapered-address]] · Seven addresses, one structure
 - · **Spring 2018** — A recurring bit through spring 2018 has Chad asking whether Brad had sent report times and joking about his golf ambitions ("I'm going pro soon!").  
@@ -2878,6 +2890,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/sean-teets]] · Sean Teets
 - · **April 2018** — What he did outside the caddie yard is unrecorded — the thread has him driving down from IUP, heading to southern West Virginia, and stopping on I-79, but no occupation, and no page in the corpus places him after April 2018.  
   ↳ [[wiki/people/zach-clingan]] · Gaps
+- · **Spring 2018** — 117 belmont circle reached the same conclusion from the other side, observing that through spring 2018 he "had somewhere else to be"; this names which somewhere, on a dated official record, and it is 337 Saratoga rather than Belmont Circle.  
+  ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The legal residue — a filed summary case, docket MJ-14101-NT-0000082-2018
+- · **April 2018** — It establishes that 337 Saratoga was Dan's address **of record** in April 2018.  
+  ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The legal residue — a filed summary case, docket MJ-14101-NT-0000082-2018
 - ★ **2018-04-01** — Speaking for her when she could not be reached.** On 2018-04-01, three days before Fran died, Dan reported the arrangement twice within eighteen minutes, and the second time with the detail that makes it strange:  
   ↳ [[wiki/people/dave-moore]] · What the record has him doing
 - ★ **2018-04-01** — When Fran was moved to a private room in the Uniontown Hospital pediatric wing on April 1, 2018 — a room she got because she and Ira had been major donors to the hospital — it was Adams who mandated that someone be with her twenty-four hours a day so that she would not be alone when she died.  
@@ -2922,8 +2938,16 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/vicki]] · The shape of the thread
 - ★ **2018-04-05** — davey fitzpatrick condolence, unprompted — Death  
   ↳ [[wiki/timeline/events/the-fall-of-fran]] · The year: the operator says 2017, the corpus says 2018
+- ★ **2018-04-05** — Those documents were real: a summary non-traffic case was filed with the Fayette County magistrate on **April 5, 2018**, the day after Fran died, under docket **MJ-14101-NT-0000082-2018**, on a single charge of *smoking* in a hospital.  
+  ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
+- ★ **2018-04-05** — What the timing shows.** The case was filed **April 5, 2018** — the day after Fran died on April 4.  
+  ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The legal residue — a filed summary case, docket MJ-14101-NT-0000082-2018
 - · **2018-04-05** — He filmed it, reviewed the footage the same night, and took it back.** At 23:26 on 5 April 2018 — roughly three hours after telling the story — he messaged his sister:  
   ↳ [[wiki/people/fran-coldren]] · The death moment, and Dan's retraction of it within 24 hours
+- · **2018-04-05** — Summons printed  
+  ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The legal residue — a filed summary case, docket MJ-14101-NT-0000082-2018
+- · **2018-04-05** — The summons now supplies a hard outer bound the captures could not: the case was **filed April 5, 2018**, so the incident cannot be later than that.  
+  ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · Dating
 - · **2018-04-06** — Caregiving wage — **$15/hour  
   ↳ [[wiki/people/fran-coldren]] · What is now established, and from what
 - · **2018-04-10** — Against that: **2018-04-10**, Dan complaining — *"give me a break after arranging a hookup for you and then having you flake because you wanted to sleep."* He arranges, he presses, and he keeps a ledger of it.  
@@ -2936,6 +2960,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/suzanne-frank]] · What she actually earned
 - ★ **2018-04-14** — Fronts & logistics — Repeated fronts; "Johnny had my card and got money out after midnight"; "Johnny is mia. “Joby is in hospital”." — Fronts noted ("thx again for the front"); card access incident — imessage_7249204125 (Annie thread); MASTER direct  
   ↳ [[wiki/people/johnny-dealer]] · Roles, Dates, Evidence Table
+- · **2018-04-17** — Document photographed  
+  ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The legal residue — a filed summary case, docket MJ-14101-NT-0000082-2018
 - · **2018-04-20** — On April 20, 2018, Brad relays a complaint from another staffer (Tyler) that Dan hadn't cleaned his carts, and separately notes to another recipient that "Dan Frank booked it and didn't clean his carts at all.  
   ↳ [[wiki/people/brad-hubeaut]] · The April 2018 friction
 - ★ **2018-04-22** — On April 22, 2018 Dan asks Jim "did you hear about mr.kezmarsky / he made quite the legal oopsie goof," and Jim answers "Yes.  
@@ -3264,6 +3290,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/steve-kezmarsky]] · The father's fall
 - · **2018-12-09** — Status at last mention  
   ↳ [[wiki/people/steve-kezmarsky]] · Corpus record
+- ◆ **2018-12-12** — Also answerable: nobody else in this corpus has eighteen years, 1,987 messages, or a $25 finder's fee paid on December 12, 2018 with the memo **"For introducing me to Ally Lubin"** — a man paying cash for an introduction to someone he had already been reading for a decade.  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The objections, taken seriously
 - · **2018-12-12** — $25.00 to Polyak, memo "For introducing me to Ally Lubin" (FB payments ledger)  
   ↳ [[wiki/people/ally-lubin]] · The measurements
 - · **2018-12-12** — $250 Cash App, stated intent  
@@ -3305,8 +3333,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/emaly-minerd]] · Who she was
 - · **January 2019** — Gaps:** how Dan and Shannon connected professionally; Dan's own side of the conversation; whether the January 2019 follow-up was ever answered; any other real estate drone clients beyond this one instance.  
   ↳ [[wiki/people/shannon]] · Corpus record
-- · **January 2019** — See ally lubin, "January 2019: the month the export lost."  
-  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · CORRECTED [2026-08-20] — the page's strongest evidence was a hallucination of the wiki's own making
 - · **2019-01-07** — 1 — Month silence breaks  
   ↳ [[wiki/people/emaly-minerd]] · Master timeline
 - · **2019-01-07** — Dan: no room for "friends who aren't hookups"  
@@ -3364,8 +3390,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **February 2019** — The residence timeline has Dan at 155 Virginia until February 2019 and has always treated that notice's outcome as unrecorded.  
   ↳ [[wiki/places/117-belmont-circle]] · The eight months the house belonged to Dan
 - · **February 2019** — He left it for Manhattan in February 2019.  
-  ↳ [[wiki/places/155-virginia-ave]] · 155 Virginia Ave
-- · **February 2019** — Moore, demanding the keys; the residence timeline has him staying until February 2019, so the notice's outcome is undocumented.  
   ↳ [[wiki/places/155-virginia-ave]] · 155 Virginia Ave
 - · **February 2019** — 155 virginia ave — 2015–2019 — Suz owns the property  
   ↳ [[wiki/places/the-unpapered-address]] · Seven addresses, one structure
@@ -3605,6 +3629,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/del]] · Gaps
 - ◆ **2019-08-17** — Cash App payment; Amazon wishlist purchase; Lovense vibrator offered and selected  
   ↳ [[wiki/people/ally-lubin]] · The measurements
+- · **2019-08-17** — At the height of the arrangement era he described himself, to an outsider, as a serial monogamist.** *"i'm a serial monogamist so i've only been with a few girls, and they all fit a very specific type"* — Sent, **2019-08-17 22:26**, six weeks before the Kelly Johansson run and two months before the…  
+  ↳ [[wiki/mind/psychosexual/arrangement-history]] · FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
 - · **2019-08-17** — Dan says so directly on August 17, 2019: *"you tell me because i'm completely uninvolved yet still weirdly interested and invested. also because you know i'm honest enough to let you know i'm a garbage person so you don't have to worry about feeling shitty or weird."* She says the same from her…  
   ↳ [[wiki/people/ally-lubin]] · What he told her that he told no one else
 - · **2019-08-22** — On August 22, 2019 they discuss it directly.  
@@ -3665,6 +3691,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/kelly-johansson]] · The arrangement
 - · **2019-10-08** — "I'm filling every waking moment with real estate, eBay and other selling sources… Keeping my phone, lights and cable on that way"* (8 October 2019).  
   ↳ [[wiki/people/suzanne-frank]] · What she actually earned
+- ★ **2019-10-14** — The page's own figure — *"12 documented crisis or suicidal statements from Dan, met with no substantive response"* — now has an attested counterexample, and the page does not carry it.** On 2019-10-14, told the Pittsburgh funeral story in full, Ally answers: *"I'm just confused how neither of you…  
+  ↳ [[wiki/mind/concepts/attachment-model]] · FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
 - ◆ **2019-10-20** — What the report stated as theory now has its documented instance: the **October 20, 2019 filmed MMF** with Bryan — a gay man whose first encounter with a woman was that night, and Dan's one and only bisexual act (oral), both category-crossings authored into a single scene (arrangement history…  
   ↳ [[wiki/mind/concepts/erotic-architecture]] · The three named mechanisms
 - · **2019-10-20** — The October 20, 2019 encounter with Bryan matches the theory's specific prediction with unusual precision: Bryan, "a fully gay man," has his first sexual contact with a woman that night; Dan, who does not otherwise report same-sex contact anywhere in the corpus, has his only documented bisexual act…  
@@ -3681,6 +3709,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/suzanne-frank]] · What she actually earned
 - · **2019-10-21** — restoration would cost $1,560  
   ↳ [[wiki/people/suzanne-frank]] · What she actually earned
+- ★ **2019-10-22** — She has spent eighteen years being told, consistently, by someone with no incentive to lie and every opportunity to leave, that she is the standard against which he measures everything** — *"i have NEVER felt so hypnotized by someone i've never seen or met in my life. whatever you are, is what…  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · What she believes about herself, and why she's wrong
 - · **2019-10-22** — The audit of the whole arrangement is his, delivered on **October 22, 2019** in the middle of an argument about it:  
   ↳ [[wiki/people/ally-lubin]] · August–October 2019: the crisis market
 - · **2019-10-22** — $2,100 cumulative**, per Dan's screenshot — accepted by her in 2019, contested by her in 2026  
@@ -5260,8 +5290,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - ★ **May 2026** — The duration of the relationship is unknown; the earliest event attributed to him is the finger injury around late May 2026, which would place its start at or before the end fight.  
   ↳ [[wiki/people/the-unnamed-man]] · Gaps
-- ★ **May 2026** — What is required:** Dan's employment situation needs to resolve (he was terminated from BFS in May 2026).  
-  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · Phase 3: The Integration (6 — 18 months)
 - ★ **May 2026** — block-unblock-loop** (T2) — the pattern of cycling between blocking and unblocking, documented for Annie (127/110) and Tom (May 2026). Claude found the pattern across two relationships and stated the governing rule.  
   ↳ [[wiki/self/concepts/claude]] · T2/T3 pages built by Claude
 - ★ **May 2026** — Across four days in mid-May 2026 Dan was burned by three independent suppliers while trying to stay ahead of his Suboxone supply: Tom promised delivery "after court" in Pittsburgh and then string-along-failed across Friday, Saturday, and Sunday ("after court," "after a nap," "after weed whacking")…  
@@ -5366,6 +5394,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/alexander-jackson]] · Timeline Snippets (from sources)
 - · **June 2026** — It looks like, at age 62, I'm going to start teaching. wtf?"** The corpus does not record what came of it, and she was still taking listing photographs in June 2026.  
   ↳ [[wiki/people/suzanne-frank]] · The realtor
+- · **June 2026** — Keep talking.** The thing that has always broken this is silence, and the silences were never rejections — the June 2026 burst that looked like her ignoring him went to an email handle she doesn't monitor.  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · What actually has to happen
 - · **June 2026** — suzanne frank (Suzanne Frank, mother) — High  
   ↳ [[wiki/self/context-core]] · Social graph
 - ★ **2026-06-01** — The closure event on June 1, 2026, provided the first explicit, verified data that allowed the cognitive system to generate a counter-rule and close the model.  
@@ -5668,6 +5698,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/places/the-unpapered-address]] · The two instruments, and what happened to them
 - · **August 2026** — Why the deferred audit's prediction was safe.** the deferred audit predicted, in August 2026, that 463 would be reconstructed only after it failed, and scored the elapsed Arnu lien deadline as the first confirming instance.  
   ↳ [[wiki/places/the-unpapered-address]] · What this explains that its members do not
+- · **August 2026** — In August 2026, for the first time in eighteen years, neither of them is with anybody.** That has never once been true before.  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The objections, taken seriously
 - · **2026-08-01** — That would produce the first true two-sided coefficient, and it is the only way to settle whether the architecture is symmetric.~~ **DONE 2026-08-01.  
   ↳ [[wiki/mind/concepts/contact-gini]] · The nulls are not random — resolved 2026-08-01
 - · **2026-08-01** — The 2026-08-01 two-sided measurement fits this without being fitted to it.  
@@ -5820,6 +5852,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - ◆ **2026-08-15** — The Annie Ulmer corpus merge (2026-08-15):** Claude merged ten sources, de-duped, and recovered 12,000 messages from handles the single-export analysis missed.  
   ↳ [[wiki/self/concepts/claude]] · Detailed examples from the corpus
+- · **2026-08-15** — The 2026-08-15 correction removed the only bullet that supplied a reason, which is what makes the strong reading available.  
+  ↳ [[wiki/mind/synthesis/bond-switch-2015]] · FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
 - · **2026-08-15** — Blackout 1 a.m. demand; calls Dan a thief; apologises the next evening  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2026-08-15** — Adopted at the operator's suggestion, 2026-08-15.  
@@ -5888,10 +5922,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/july-august-2026-reentanglement]] · Gaps
 - ◆ **2026-08-18** — Clause 3 — "complicit in the length and depth" — gets its clearest single instance, and it is worse than anything previously on the ledger.** On 2026-08-18 at 19:35 Dan told Annie he had sent the recording to her parents; three minutes later he told her he had not, and why: *"it wasn't actually…  
   ↳ [[wiki/mind/synthesis/dan-annie-fallout-verdict]] · RE-CHECKED [2026-08-20] — the verdict holds and its third clause gains its strongest instance
-- ◆ **2026-08-18** — The phase change** — August 18, 2026: 375 messages, 154 of them hers, the largest single day in eighteen years and the only one in which she is a full participant 9.  
-  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The evidence, summarized
-- ◆ **2026-08-18** — The corpus shows that the overflow channel pattern has ended — August 18, 2026 is the proof.  
-  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The final argument
+- ◆ **2026-08-18** — Largest single day  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The arithmetic of not stopping
+- · **2026-08-18** — The 2026-08-18 Ally exchange is that mechanism running and then stopping, inside two minutes: **ALLY** *"You just love bomb"* (a bid shaped as a judgement) → **DAN** *"But love bomb is like a malicious tactic and there very little malice"* (the adjudication, exactly as described) → **ALLY** *"I…  
+  ↳ [[wiki/mind/profile/intp]] · FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
 - · **2026-08-18** — The seventh — james dee, added 2026-08-18 — sits between them, and is the first case the page has ever had inside its own tenure gap.  
   ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · The members against the rule
 - · **2026-08-18** — The maternal line is assessed as of 2026-08-18, and the answer is mixed  
@@ -5910,18 +5944,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/max]] · Forensic vs Audio Persona (MAX_PRIME / Pinned Cross)
 - · **2026-08-18** — On the night of 2026-08-18, Coles took Annie's phone for the second time in seventy hours and used it to taunt Dan — *"She's with me man chill lmfao,"* *"No body cares junkie."* Dan read those as Annie's and blocked her.  
   ↳ [[wiki/people/milo]] · The name as proof of identity, August 2026
-- · **2026-08-18** — On August 18, 2026, for the first time, the channel carried sustained mutual traffic — not a burst, not a crisis, but a conversation.  
-  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The thesis, stated plainly
-- · **2026-08-18** — The tenth item on the evidence list above used to be an eleventh: that on August 18, 2026 Dan offered Ally the *"girlfriend title or at the very least the 'object of fixation' role"* and she replied ***"Okay deal.  
-  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · CORRECTED [2026-08-20] — the page's strongest evidence was a hallucination of the wiki's own making
 - · **2026-08-18** — Whether or not one believes in astrology, the corpus supports the *description* of the dynamic: Dan's eighteen-year fixation on Ally, Ally's willingness to be the confessional with no stake, and the paternal rupture she describes in her own words on August 18, 2026 (*"He just hates me because I…  
   ↳ [[wiki/self/concepts/astrology-star-signs]] · The Scorpio-Cancer Pairing
 - · **2026-08-18** — The Suzanne Frank rewrite (2026-08-18):** Claude rebuilt the page from primary sources, expanding it from 28KB to 58KB.  
   ↳ [[wiki/self/concepts/claude]] · Detailed examples from the corpus
 - ★ **2026-08-19** — What changed in the premise.** The relationship ended on 2026-08-19; the record stops mid-exchange at 15:15:33.  
   ↳ [[wiki/mind/synthesis/the-unbroken-bond]] · RE-CHECKED [2026-08-20] — falsifier 3's clock restarted, and this time the vacancy has no occupant to switch to
-- ★ **2026-08-19** — Dan Frank and Ally Lubin will be married within three years of August 19, 2026.  
-  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · Prediction
+- ◆ **2026-08-19** — The ninety days after 2026-08-19 are where that resolves, and the page should say so in the same terms single channel uses for its own live test.  
+  ↳ [[wiki/mind/concepts/erotic-architecture]] · FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
 - · **2026-08-19** — The strongest is the **asymmetric clearing** — on 2026-08-19 at 06:33 Annie publicly cleared Coles of rape in a group chat, having agreed by phone to do the same for Dan, and did not.  
   ↳ [[wiki/mind/synthesis/august-grievance-verdict]] · LLM Quick Brief
 - · **2026-08-19** — The strongest — Annie publicly clearing Coles of rape in a group chat on 2026-08-19 at 06:33 having agreed by phone to clear Dan and not doing so — is the cleanest documented wrong in the corpus, because it required no interpretation: one act was performed and its promised counterpart was not.  
@@ -5932,8 +5962,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/jerel-coles]] · August 2026: the first primary record of him
 - · **2026-08-19** — Annie: *"He didn't rape me."*** A public retraction, in front of both men, of the accusation she had been making to Dan for weeks and had re-asserted to him privately hours earlier — Dan told Coles at 01:08 and again at 01:09 that same night, *"Also bro she is still saying you raped her so."*…  
   ↳ [[wiki/people/jerel-coles]] · The group chat, and the retraction he obtained
-- · **2026-08-19** — If the Ally bond activates in the weeks after 2026-08-19, the **more parsimonious** explanation is slot-refill, not destiny.  
-  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · RE-CHECKED [2026-08-20] — the slot this page assumes is empty actually emptied, and the page must not treat that as confirmation
 - · **2026-08-19** — For context injection:** 16–19 August 2026, Uniontown.  
   ↳ [[wiki/timeline/events/august-2026-morgantown-call]] · LLM Quick Brief
 - · **2026-08-19** — The date is 2026-08-19**, and the message record independently supports it three ways:  
@@ -5944,16 +5972,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/august-2026-morgantown-call]] · What would prove this page wrong
 - ★ **2026-08-20** — Explicit severance signals / love affirmations  
   ↳ [[wiki/people/annie-ulmer]] · By the numbers
-- ★ **2026-08-20** — STRUCK [2026-08-20] — the explicit commitment.** This slot claimed a title taken and a courtship question answered.  
-  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The evidence, summarized
 - ◆ **2026-08-20** — The fuller export filed 2026-08-20 shows the exchange resumed at 08:19 the same morning and ran all day.  
   ↳ [[wiki/mind/synthesis/read-receipt-forensics]] · RE-CHECKED [2026-08-20] — M4 gains its best real-world case, and the flagship example's scope was an artifact
 - ◆ **2026-08-20** — iMessage triple-handle archive on disk  
   ↳ [[wiki/people/annie-ulmer]] · By the numbers
 - · **2026-08-20** — Operator interpretation added [2026-08-20]:** The manual note says the *"I just want to be alone"* / *"by myself"* formulation is a recurring theme and, in the operator's interpretation, functions as a way to avoid accepting responsibility for the resulting situation while still obtaining the…  
   ↳ [[wiki/mind/synthesis/august-grievance-verdict]] · What this says about Annie
-- · **2026-08-20** — Two new Annie exports landed on 2026-08-20; the Ally thread for the same days did not.  
-  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · RE-CHECKED [2026-08-20] — the slot this page assumes is empty actually emptied, and the page must not treat that as confirmation
 - · **2026-08-20** — Filed 2026-08-20.** This amendment exists because the original event page was written while the audio had not yet been directly transcribed in the corpus.  
   ↳ [[wiki/timeline/events/august-2026-morgantown-call-source-amendment]] · Source Amendment — Morgantown St Recording, August 16 2026
 - · **2026-08-20** — Operator-supplied timestamped speaker-labelled transcript, 611 lines, **204 turns**, `00:00:00` → `00:14:59  
@@ -5962,7 +5986,22 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/august-2026-morgantown-call]] · What is on the recording
 - · **2026-08-20** — The operator supplied it on 2026-08-20 (see **The catalyst** above): the unnamed act is the choice that Annie's 06:33 group-chat retraction had already performed nine hours earlier and that she would not put into words.  
   ↳ [[wiki/timeline/events/august-2026-morgantown-call]] · August 19 — the last day, read closely
+- ★ **2026-08-21** — An answer published through the portal on **2026-08-21** rests on that being genuinely open, and told the person who asked that the corpus contains **no attested exit in eleven years** and that the most recent test failed — severance 2026-06-01, contact resumed 2026-07-23, fifty-two days.  
+  ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
+- · **2026-08-21** — What the 2026-08-21 answer found is the only recorded case of him **losing a round inside his own filter**: the Skins exchange of 2026-08-18 21:25–21:28, in which Ally claims the reference outright (*"I don't think she's half Effy bc I'm Effy"*, *"Let's be real has she even seen Skins"*, *"I'm so…  
+  ↳ [[wiki/mind/concepts/the-cool-metric]] · FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+- · **2026-08-21** — The 2026-08-21 answer used exactly that finding to argue that sustained undisguised intensity is the one thing the corpus proves Dan reliably produces, against Ally's stated requirement on 2026-08-18 at 13:54:32: ***"Well first you'd have to be obsessed with me again."*** **In every other pairing…  
+  ↳ [[wiki/mind/synthesis/single-channel]] · FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+- · **2026-08-21** — An assessment that does not publish its own alternatives cannot refute anything, and a type code filed on somebody else's page cannot be found.** Both failure modes were demonstrated on 2026-08-21.  
+  ↳ [[wiki/people/annie-ulmer-personality-assessment]] · FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+- ★ **2026-08-22** — The charging documents were real.** The summons surfaced 2026-08-22: a Fayette County summary non-traffic case, docket MJ-14101-NT-0000082-2018, **filed April 5, 2018 — the day after Fran died** — before Magisterial District Judge Michael M.  
+  ↳ [[wiki/timeline/events/fran-death-vigil]] · Sequence
+
+### 2027
+
+- · **February 2027** — It should be worked deliberately in February 2027 rather than whenever a pass happens to land here. 2.  
+  ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
 
 ---
 
-*Generated by `bin/wiki-timeline` from 341 wiki pages. 822 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 342 wiki pages. 847 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*

@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -55,6 +55,15 @@ connections:
 ---
 
 # The Configured Body
+
+> **RE-CHECKED [2026-08-22] — premise moved by a re-check block only.**
+> [[wiki/health/cocaine]] moved on 2026-08-22 solely by gaining a `RE-CHECKED`
+> blockquote confirming that a correction on
+> [[wiki/legal/2015-possession-arrest]] (about which magistrate heard the case)
+> left it undisturbed. No cocaine claim changed — not the residue quantity, not
+> the supply record, not the legal consequence — and this page reasons from those
+> claims rather than from the block. Nothing withdrawn.
+
 
 Dan's relationship to his own body has exactly two modes, and no third.
 He **specifies the inputs** — with a rigour that is close to absolute, down to

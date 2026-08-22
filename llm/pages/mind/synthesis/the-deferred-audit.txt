@@ -6,7 +6,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -70,6 +70,17 @@ connections:
 ---
 
 # The Deferred Audit
+
+> **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at the
+> end of a four-link chain.** [[wiki/mind/synthesis/single-channel]] moved on 2026-08-22
+> solely by gaining a `RE-CHECKED` blockquote. Walking the chain back: it leads
+> to the April 2018 hospital summons
+> ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]), a court document that
+> closed that page's legal gap and corrected an address on
+> [[wiki/places/155-virginia-ave]]. Every page between here and there recorded
+> **no change to any claim**. Nothing here is affected and nothing is withdrawn.
+> This is where the cascade terminates.
+
 
 > **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/mind/concepts/forensic-method]] (2026-08-20). Moved by two typed-edge additions only, no prose change. Re-read against
 > the change; **no claim on this page is affected** and nothing here is

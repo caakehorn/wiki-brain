@@ -5,7 +5,7 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-20
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 tags: [forensic-analysis, relationships, legal, mental-health]
 sources:
   - raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a
@@ -36,6 +36,17 @@ connections:
 ---
 
 # The Morgantown Call: Ethical Roles of Dan, Annie, and Jerel Coles
+
+> **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at the
+> end of a four-link chain.** [[wiki/mind/synthesis/august-grievance-verdict]] moved on 2026-08-22
+> solely by gaining a `RE-CHECKED` blockquote. Walking the chain back: it leads
+> to the April 2018 hospital summons
+> ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]), a court document that
+> closed that page's legal gap and corrected an address on
+> [[wiki/places/155-virginia-ave]]. Every page between here and there recorded
+> **no change to any claim**. Nothing here is affected and nothing is withdrawn.
+> This is where the cascade terminates.
+
 
 ## Executive finding
 
