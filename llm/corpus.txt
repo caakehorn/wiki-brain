@@ -1,4 +1,4 @@
-WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-21
+WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-22
 486 pages, ~1,277,926 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.

@@ -172,12 +172,15 @@ If an answer turns out to be **wrong** against a primary source, that is a findi
 
 Sweep for: broken links, orphan pages, contradictions between pages, claims superseded by newer raw data, entities mentioned 3+ times with no page, and **stale premises** (`bin/wiki-climb check`). Fix mechanically what you can; queue the rest in `BACKLOG.md`. A stale page is never fixed mechanically — re-read what changed in the premise before touching the dependent.
 
+**Invoke the `wiki-housekeeping` skill (`.claude/skills/wiki-housekeeping/`) and follow it** whenever the operator asks to tidy, sweep, lint, audit or do housekeeping, and at the end of a session that moved the repo a lot. It carries the part this paragraph cannot: which warnings are requests to look rather than defects (the size warnings are, and trimming to clear one destroys earned content), how to work a stale premise without bumping a date, and how to drain obligations without mistaking a cleared flag for an integrated answer. The mechanical half is `bin/wiki-check`; the skill is the half that needs a reader.
+
 ## Tools (`bin/` — pure Python stdlib, no dependencies, no APIs)
 
 | Tool | Purpose |
 |---|---|
 | `bin/capture` | human-facing input: interactive typing/pasting, one-shot facts, file upload (`-f`), `status` |
 | `bin/mine-messages` | corpus mining over the full iMessage dump: `stats`, `grep`, `timeline`, `battery`, `entities`. **Use this instead of grep** — three properties of the dump make naive grep silently wrong |
+| `bin/wiki-check` | **the whole mechanical chain in one command** — regenerates, runs the three gates plus freshness, rescans `WORK.md`, in the one order that is correct. `--check-only` gates without writing (CI, review); `--quiet` for hooks. Exits 1 on any red gate. The judgment half is the `wiki-housekeeping` skill |
 | `bin/wiki-lint` | frontmatter, links, orphans, sizes, duplicate frontmatter keys, retracted claims (`RETRACTED.md`), empty cited sources, **unresolved merge markers, assistant citation artifacts, malformed frontmatter blocks and master-index count drift**. Must be 0 errors before commit |
 | `bin/wiki-freshness` | is the generated corpus (`llm/`) in sync with `wiki/`? Exact set difference against `llm/manifest.json`; never writes. Exit 1 on drift |
 | `bin/wiki-connect` | `check` (typed-edge lint), `audit` (graph health), `candidates` (writes `connection-queue.md`) |
@@ -191,6 +194,22 @@ Sweep for: broken links, orphan pages, contradictions between pages, claims supe
 | `bin/wiki-gaps` | operator-facing: answer an open gap, or volunteer a fact the page never asked for, and stage it for the next pass. `pages [filter]` lists **every** page so any of them can take a manual addition; `list` lists only those with open items; `pending` lists what is waiting; `clear` closes the loop and marks `operator-log.md`. Reads gaps, open leads, corrections queues and "what's missing" sections alike |
 
 ## Before every commit
+
+```bash
+bin/wiki-check              # regenerate, gate, scan — the whole chain, ~4s, red exits 1
+bin/wiki-check --check-only # gate without writing anything (CI, or reviewing a branch)
+```
+
+`bin/wiki-check` runs what used to be four hand-copied lines, **and it runs them
+in the order that is actually correct**, which the four lines were not:
+generators first, then gates, then the scan. `bin/wiki-lint` checks master-index
+count drift, so running it before `bin/wiki-digest` inspects numbers that are
+about to change; and `bin/wiki-freshness` exists to confirm the generators ran,
+so running it before them asks a question whose answer is guaranteed stale. In
+`--check-only` mode nothing is written and `wiki-freshness` becomes the real
+gate rather than a formality — it is what catches a content pass committed
+without regenerating, which is how the LLM manifest got eleven pages behind on
+2026-08-20. The individual tools still work exactly as before:
 
 ```bash
 bin/wiki-lint && bin/wiki-connect check && bin/wiki-climb check   # all at 0 errors
