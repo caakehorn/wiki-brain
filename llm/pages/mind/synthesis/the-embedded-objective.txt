@@ -1,4 +1,5 @@
 ---
+sage_pending: '2026-08-22'
 domain: mind
 page_type: synthesis
 title: "The Embedded Objective"
@@ -296,3 +297,37 @@ deliberately and says so, but nothing in the corpus describes him choosing
 > tenure. The diagnostic claim — that the job ended when the assigned demand
 > came, with no payload to sustain it — is unaffected by the later reversal.
 > The conclusion survives.
+
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-22] — from the sage question `2026-08-22_005829_what-would-make-dan-happy`
+
+Answer and sources: `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`
+
+**Tenure and satisfaction come apart, and this page measures only the first.**
+The rule here explains how long a commitment lasts — 41 months, 43 months, ~1
+month — by whether a private payload was installed. It says nothing about whether
+any of them was good for him, and the corpus's answer to that is that the two
+axes are independent. Au Za'atar ran 41 months on an embedded payload and
+[[wiki/timeline/periods/2021-2023-employment-block]] names it as the origin of the
+"DAN CYCLE OF JOB ENTROPY"; the six-month
+[[wiki/timeline/events/fran-death-vigil|Fran vigil]] is a **seventh** of that
+duration and is the only commitment anywhere in 106,629 sent messages that Dan
+reports back as having gone well (*"we had a lot of fun. got good closure,"*
+2018-04-06).
+
+**The variable the vigil adds is the one this page's table cannot hold: it had an
+end.** The jobs are open-ended host structures; the vigil was bounded by a dying
+woman and he closed it. That is [[wiki/mind/synthesis/closing-the-set]]'s rule
+arriving in the employment domain, and neither page currently reaches the other.
+A future pass should decide whether "payload" and "closable set" are two rules or
+one rule seen from two sides.

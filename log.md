@@ -1,3 +1,63 @@
+## [2026-08-22] answer | mind | what would make Dan happy — he answered it himself in 2025, and the record has already run the experiment
+
+The third question the box has taken, asked by **An angel** at 00:58:29 and
+answered the same day. `sage/questions/2026-08-22_005829_what-would-make-dan-happy.md`,
+capture at `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`.
+
+**The question turns out to have a dated first-person answer already in the
+corpus.** On 2025-10-26, told she had just been arrested and asked *"Happy now?"*,
+Dan replied: *"the only thing that would make me happy is if, somehow, the annie i
+fell in love with and spent a decade with came back."* The object of that sentence
+is not a person — it is a person at a past time, with *"somehow"* attached to the
+front. He is naming a date.
+
+**And the record had already tested it.** A `bin/mine-messages` count of
+first-person happiness claims across the canonical dump — 106,629 sent messages,
+503 handles — returns 170, and the distribution is the finding:
+
+```
+2015  7.86 / 1k     2018  0.87     2021  0.00     2024  0.39
+2016  2.72          2019  0.34     2023  0.00     2025  1.59
+2017  0.73          2020  0.41
+```
+
+He kept the person for ten more years while the rate fell ninefold and never
+recovered — not in 2016 while they lived together, not in 2018 when the
+inheritance landed, not in 2024. All forms of `happ*`: 658 in the same 106,629.
+
+**What the answer actually rests on is three pages that had never been pointed at
+this question.** `closing-the-set` (a bounded object with a findable edge, the
+payoff in closing it), `the-embedded-objective` (a self-set payload sustains a
+commitment) and `acquisition-drive` (self-origination is necessary, not
+sufficient) converge on one shape: **a self-set objective, over something bounded,
+that he finishes.** The corpus's only worked instance is the six-month Fran vigil,
+and Dan's contemporaneous verdict on it — 2018-04-06, to a third party — is the
+only report in 106,629 sent messages of a good outcome from something he *did*
+rather than from someone he *had*: *"we had a lot of fun. got good closure and
+finally did something in my life that wasn't completely selfish haha."* The
+negative control is the Annie bond, which `attachment-model` establishes cannot
+close without an external severance signal: **an unclosable set**.
+
+**A second finding, methodological.** `the-commissioned-self` shows the typology
+apparatus appears seventeen times in those same 106,629 messages and treats the
+absence as the point. Running the same instrument over an ordinary English word
+instead of a jargon term yields a measurement rather than an absence — an escape
+hatch from the commissioned-self problem that the corpus has barely used.
+
+**Staged onto twelve pages** — `closing-the-set`, `the-embedded-objective`,
+`acquisition-drive`, `attachment-model`, `fran-death-vigil`, `fran-coldren`,
+`milo`, `cocaine`, `estate-money-spine`, `music-as-identity`, `deviance-mapping`,
+`the-commissioned-self`. Two cited pages took nothing: `ally-lubin` and
+`463-morgantown` are cited for context the answer needed and produced no finding
+about.
+
+**Stated limits, carried in the answer.** The instrument counts a word Dan typed
+to other people, not a state; the canonical dump ends 2025-08-10 so there is no
+whole-device measurement for 2026 at all, and the 2026-08-13 export cannot
+substitute (its own provenance note records 41.8% record loss against the
+canonical dump and an ~833-day zero-row artifact across 2021–2023). 2021 and 2023
+in the table are thin, not silent. 2018 and 2024 are dense and carry the argument.
+
 ## [2026-08-22] fix | people | the stale-snapshot clobber recurred on ally-lubin, six hours after the last one
 
 **This is the 2026-08-13 failure mode, not the keystroke one**, and it is the

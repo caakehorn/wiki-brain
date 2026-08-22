@@ -1,4 +1,5 @@
 ---
+sage_pending: '2026-08-22'
 domain: mind
 page_type: synthesis
 status: active
@@ -364,3 +365,38 @@ implicit premise that one node in this system had reserves. None did.
 > on that page are the Annie-outflow figure, the landlord-debt stretch and Suz's
 > switchboard role — all money facts from 2023–2026. The correction introduces
 > no figure and moves no dated transaction. Closed unaffected.
+
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-22] — from the sage question `2026-08-22_005829_what-would-make-dan-happy`
+
+Answer and sources: `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`
+
+**The spine has an outcome measure available and does not use one.** The page
+dates the capital arrivals precisely — inheritance planning January 2018, a first
+cheque 2018-04-27, the court-ordered $144,069.31 in 2020 — and tracks where the
+money went. What it does not carry is what the money did. Dan states the
+hypothesis himself four days after the funeral:
+
+> **DAN (2018-04-08 09:41):** *"everything is going to get better now… we have
+> options for what to do and enough money to have a real chance at being
+> **middle-class happy**"*
+
+Across 2018–2020 his first-person happiness-claim rate over the canonical dump
+runs **0.87, 0.34, 0.41 per 1,000 sent messages**, against 7.86 in late 2015 —
+among the lowest in the corpus. Over the same window
+[[wiki/health/cocaine]] records the dosage arc rising from ~1g/day to 3.5–7g/day,
+attributed to the same inheritance.
+
+**The finding: the corpus contains a clean natural experiment on whether money
+would fix this, and it ran the wrong way.** The spine should carry it, because it
+is the only page positioned to.

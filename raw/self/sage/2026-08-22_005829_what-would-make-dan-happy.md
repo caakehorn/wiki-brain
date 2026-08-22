@@ -1,30 +1,65 @@
 ---
-id: 2026-08-22_005829_what-would-make-dan-happy
-asked: 2026-08-22T00:58:29Z
+captured: 2026-08-22
+kind: sage-answer
+question_id: 2026-08-22_005829_what-would-make-dan-happy
 asker: An angel
-status: answered
-answered: 2026-08-22
-capture: raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md
-cites:
-  - wiki/mind/synthesis/closing-the-set.md
-  - wiki/mind/synthesis/the-embedded-objective.md
-  - wiki/mind/concepts/acquisition-drive.md
-  - wiki/mind/concepts/attachment-model.md
-  - wiki/timeline/events/fran-death-vigil.md
-  - wiki/people/fran-coldren.md
-  - wiki/people/milo.md
-  - wiki/people/ally-lubin.md
-  - wiki/health/cocaine.md
-  - wiki/mind/synthesis/estate-money-spine.md
-  - wiki/mind/synthesis/music-as-identity.md
-  - wiki/mind/synthesis/the-commissioned-self.md
-  - wiki/mind/profile/deviance-mapping.md
-  - wiki/legal/463-morgantown.md
-  - raw/self/dox-scan/all_imessages_complete_dump.txt
-  - raw/self/message-csv/imessage_7244346811+7249204125+2124702449_both_all_now.csv
-  - raw/self/message-csv/README_20260813_exports.md
-  - raw/self/dox-md/MAX_PRIME.md
+targets:
+  - wiki/mind/synthesis/closing-the-set
+  - wiki/mind/synthesis/the-embedded-objective
+  - wiki/mind/concepts/acquisition-drive
+  - wiki/mind/concepts/attachment-model
+  - wiki/timeline/events/fran-death-vigil
+  - wiki/people/fran-coldren
+  - wiki/people/milo
 ---
+
+# Sage answer — what would make Dan happy?
+
+The immutable record of a question put to the wiki from outside it, and the
+answer given. `sage/questions/` mutates as a question is worked; this does not.
+
+Asked through the portal by **An angel**, 2026-08-22T00:58:29Z. Answered the same
+day. The third question the box has taken.
+
+**Method.** Reasoned from `wiki/` first — `closing-the-set`,
+`the-embedded-objective`, `acquisition-drive`, `attachment-model`,
+`fran-death-vigil`, `fran-coldren`, `milo`, `cocaine`, `estate-money-spine`,
+`deviance-mapping`, `the-commissioned-self`, `music-as-identity`,
+`463-morgantown` — then `bin/mine-messages` over the 217,573-record canonical
+dump for the measurement and the dated quotes. The tail past 2025-08-10, which
+the canonical dump does not cover, came from
+`raw/self/message-csv/imessage_7244346811+7249204125+2124702449_both_all_now.csv`.
+
+**Measurement run at answer time.** First-person happiness claims in Dan's own
+sent text, pattern `(i'm|i am|makes me|make me|feel) (so|really|very|the|not|
+never)* happ`, over 106,629 sent messages across 503 handles:
+
+```
+2015   7,634 sent    60 hits   7.86 / 1k
+2016  17,311 sent    47 hits   2.72 / 1k
+2017  10,950 sent     8 hits   0.73 / 1k
+2018  24,081 sent    21 hits   0.87 / 1k
+2019  11,606 sent     4 hits   0.34 / 1k
+2020   4,908 sent     2 hits   0.41 / 1k
+2021     599 sent     0 hits   0.00 / 1k
+2023   2,346 sent     0 hits   0.00 / 1k
+2024  12,746 sent     5 hits   0.39 / 1k
+2025  14,447 sent    23 hits   1.59 / 1k   (dump ends 2025-08-10)
+TOTAL 106,629 sent  170 hits   1.59 / 1k
+```
+
+All forms of `happ*` unfiltered: 658 across the same 106,629 messages.
+
+**Finding, in one line.** Dan's own stated answer — *"the annie i fell in love
+with… came back"* (2025-10-26) — names a past state rather than a person, and the
+record has already run that experiment: he kept the person for ten more years
+while the rate above fell ninefold. What the corpus does support is assembled
+from three pages that have never been pointed at this question —
+`closing-the-set`, `the-embedded-objective` and `acquisition-drive` — which
+converge on **a self-set objective over a bounded object that he actually
+finishes**, with the six-month Fran vigil as the corpus's only worked instance
+and the unclosable Annie bond as its negative control.
+
 
 ## Question
 

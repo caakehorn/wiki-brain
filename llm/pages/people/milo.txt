@@ -1,4 +1,5 @@
 ---
+sage_pending: '2026-08-22'
 domain: people
 page_type: entity
 title: "Milo"
@@ -268,3 +269,34 @@ here, the dog is the password.
 Dan answered at 23:40 — *"what"* — seventy-two minutes after the first SOS,
 having blocked and unblocked in between. Nothing in any source says what
 happened next. See [[wiki/timeline/events/august-2026-morgantown-call]].
+
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-22] — from the sage question `2026-08-22_005829_what-would-make-dan-happy`
+
+Answer and sources: `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`
+
+**`MAX_PRIME.md` carries a first-person instruction about this dog that the page
+does not quote, and it is the strongest statement in the corpus of what Dan
+himself treats as real.** Axiom 8 of the eight operating axioms he wrote to
+configure his own AI sessions:
+
+> *"**The cat and the food are always real.** When everything else is in collapse,
+> the Milo updates and the food runs and the Roosters banter are the last thread
+> of something genuine. Don't psychologize them. Just receive them."*
+
+The page already treats Milo as the thing analysis is kept away from, and cites
+that document as its source for the exemption. The finding is that the exemption
+is **not a curatorial choice made by the wiki — it is an instruction written by
+the subject**, and it names two other things alongside the dog (the food runs, the
+Roosters banter) that have no page and no measurement anywhere in the corpus. A
+pass that takes the axiom seriously would look for them.

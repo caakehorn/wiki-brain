@@ -1,4 +1,5 @@
 ---
+sage_pending: '2026-08-22'
 domain: mind
 page_type: profile
 title: "Deviance Mapping — The Statistical Outlier Audit"
@@ -148,3 +149,35 @@ single statement anywhere in the corpus of the problem
 psychological layer is a self-commissioned reading with no independent observer
 at any point in it, and the vocabulary it produces appears seventeen times in
 106,629 messages of actual life.
+
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-22] — from the sage question `2026-08-22_005829_what-would-make-dan-happy`
+
+Answer and sources: `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`
+
+**The audit's motivational-system claim now has a measurement behind it, from
+outside the apparatus.** The five structural divergences describe Dan's
+motivational system as running on *"intensity and forbidden knowledge in place of
+happiness and stability"* — a single-model judgment from a self-commissioned
+instrument, exactly the class of claim
+[[wiki/mind/synthesis/the-commissioned-self]] warns about. A `bin/mine-messages`
+count of first-person happiness claims across 106,629 sent messages returns
+**170** — 1.59 per 1,000 — concentrated so heavily in the first five weeks of the
+Annie relationship (7.86/1k) that every subsequent year sits between 0.00 and
+2.72, including the years of maximum capital and maximum supply.
+
+That is not proof the audit is right about the *substitution*, and it is
+independent evidence for the half of the claim that can be counted: whatever this
+system optimises for, the trace of feeling good is thin and does not track any of
+the usual inputs. The audit is testimony; this is residue
+([[wiki/mind/synthesis/instrument-is-subject]]).

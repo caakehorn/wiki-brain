@@ -1,4 +1,5 @@
 ---
+sage_pending: '2026-08-22'
 domain: people
 page_type: entity
 title: "Frances 'Fran' Whyel Coldren"
@@ -420,3 +421,31 @@ retraction above, and therefore the only primary document that could settle
 what actually happened in that room — exist only as uploads inside AI sessions.
 Locating the originals is the highest-value collection task attached to this
 page.
+
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-22] — from the sage question `2026-08-22_005829_what-would-make-dan-happy`
+
+Answer and sources: `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`
+
+**Dan's own summary of the six months — *"finally did something in my life that
+wasn't completely selfish"* — is quoted on this page as evidence about altruism,
+and the rest of the same sentence is the more important half.** The full message
+(2018-04-06 17:55, to 4137703708) reads *"we had a lot of fun. got good closure
+and finally did something in my life that wasn't completely selfish haha."* A
+`bin/mine-messages` sweep of 106,629 sent messages returns **no second instance of
+Dan reporting a good outcome from an action he took** — every other positive
+self-report in the corpus is attributed to a person he had. The care arrangement
+is therefore the corpus's only documented case of the thing working, and the
+operative words in his account are *fun*, *closure* and *not selfish* rather than
+*completion*. See [[wiki/mind/synthesis/closing-the-set]] and
+[[wiki/mind/concepts/acquisition-drive]].

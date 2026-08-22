@@ -390,3 +390,23 @@ That is the earliest documented instance of the behaviour this page names, it
 predates the AI era of it by a decade, and the page's seventeen-appearance figure
 is measured over iMessage rather than over the email corpus that batch lives in.
 Worth stating the boundary explicitly.
+
+### FINDING [2026-08-22] — from the sage question `2026-08-22_005829_what-would-make-dan-happy`
+
+Answer and sources: `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`
+
+**A rare non-commissioned instrument, and this page should note the shape of it.**
+The census that carries this page counts the *apparatus's* vocabulary in Dan's own
+speech — seventeen appearances across 106,629 sent messages — and uses the absence
+to show the typology layer is something done to him rather than by him. The same
+method applied to an ordinary English word rather than a jargon term produces a
+usable measurement instead of an absence: first-person happiness claims run 170
+across the identical 106,629 messages, 7.86 per 1,000 in late 2015 and between
+0.00 and 2.72 in every year after.
+
+**The finding: `bin/mine-messages` over plain vocabulary is an escape hatch from
+the commissioned-self problem, and the corpus has barely used it.** The
+psychological pages are almost entirely built on instruments Dan ordered; a
+question like *what makes him happy* can be put to the residue directly, without
+any of them. Where a commissioned claim and a word-count disagree, this page's own
+ranking says the residue wins.

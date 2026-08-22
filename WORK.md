@@ -15,7 +15,7 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (22)
+## Obligations (31)
 
 Somebody or something is waiting on each of these. Drain from the top.
 
@@ -24,7 +24,6 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 
 | P | Kind | What | Where | Since |
 |---|---|---|---|---|
-| 1 | sage | What would make Dan happy — asked by An angel | `sage/questions/2026-08-22_005829_what-would-make-dan-happy.md` | 2026-08-22 |
 | 2 | sage-close | staged answer on mind/concepts/attachment-model, not integrated | `wiki/mind/concepts/attachment-model.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on mind/concepts/conflict-architecture, not integrated | `wiki/mind/concepts/conflict-architecture.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on mind/concepts/erotic-architecture, not integrated | `wiki/mind/concepts/erotic-architecture.md` | 2026-08-21 |
@@ -46,6 +45,16 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 2 | sage-close | staged answer on people/franki-faris, not integrated | `wiki/people/franki-faris.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on people/kristin, not integrated | `wiki/people/kristin.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on people/shelbie-breakiron, not integrated | `wiki/people/shelbie-breakiron.md` | 2026-08-21 |
+| 2 | sage-close | staged answer on health/cocaine, not integrated | `wiki/health/cocaine.md` | 2026-08-22 |
+| 2 | sage-close | staged answer on mind/concepts/acquisition-drive, not integrated | `wiki/mind/concepts/acquisition-drive.md` | 2026-08-22 |
+| 2 | sage-close | staged answer on mind/profile/deviance-mapping, not integrated | `wiki/mind/profile/deviance-mapping.md` | 2026-08-22 |
+| 2 | sage-close | staged answer on mind/synthesis/closing-the-set, not integrated | `wiki/mind/synthesis/closing-the-set.md` | 2026-08-22 |
+| 2 | sage-close | staged answer on mind/synthesis/estate-money-spine, not integrated | `wiki/mind/synthesis/estate-money-spine.md` | 2026-08-22 |
+| 2 | sage-close | staged answer on mind/synthesis/music-as-identity, not integrated | `wiki/mind/synthesis/music-as-identity.md` | 2026-08-22 |
+| 2 | sage-close | staged answer on mind/synthesis/the-embedded-objective, not integrated | `wiki/mind/synthesis/the-embedded-objective.md` | 2026-08-22 |
+| 2 | sage-close | staged answer on people/fran-coldren, not integrated | `wiki/people/fran-coldren.md` | 2026-08-22 |
+| 2 | sage-close | staged answer on people/milo, not integrated | `wiki/people/milo.md` | 2026-08-22 |
+| 2 | sage-close | staged answer on timeline/events/fran-death-vigil, not integrated | `wiki/timeline/events/fran-death-vigil.md` | 2026-08-22 |
 
 ## Standing work (198)
 
