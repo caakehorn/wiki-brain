@@ -1,4 +1,6 @@
 ---
+image_caption: Ally Lubin (Alexandra Lubin)
+image: assets/people/ally-lubin/people-ally-lubin-mt3tebq9.png
 sage_pending: '2026-08-21'
 domain: people
 page_type: entity
@@ -7,7 +9,7 @@ aliases: ["Alexandra Lubin", "ALU", "aluuuu", "Ally"]
 status: active
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-08-22
+date_modified: 2026-08-20
 pending_ingest: 2026-08-21
 date_range_start: 2011-05-20
 date_range_end: 2026-08-20
@@ -27,7 +29,6 @@ sources:
   - "raw/self/message-csv/imessage_ALL_both_2026-05-04_now.csv"
   - "raw/self/message-csv/imessage_export_deep_20260813.csv"
   - "raw/self/dox-md/operating_manual.md"
-  - "raw/people/captures/2026-08-22_ally-lubin-16personalities-entp-t.md"
 tags: [relationships, digital-footprint, mental-health, non-monogamy]
 importance: normal
 infobox:
@@ -35,16 +36,13 @@ infobox:
   dob: 1990-06-26
   sex: female
   location: remote
-  relationship_to_dan: friend
+  relationship_to_dan: friend ...for no
   role: "STEM professional (remote, Charlotte, NC)"
   first_contact: 2011-05-20
   handles: ["+156****1550", "allylubin@gmail.com"]
-  mbti: "ENTP-T (tested 2026-08-22, self-administered, attribution unverified; supersedes the disputed ENFP)"
+  mbti: ENFP
   known_for: "Eighteen years of one-sided idolization of a woman Dan has never met, converted in 2019 into a paid channel — 'i've sent 2100 and have like 2 pictures and im STILL trying' — and in August 2026 the first person outside Dan ever to read this wiki, whose joke about it was written into this page as fact"
 connections:
-  - page: wiki/people/ally-lubin-cognitive-profile
-    type: instantiates
-    claim: "A tested ENTP-T result of 2026-08-22 retires this page's disputed ENFP and settles the December 2018 argument in Dan's favour, and the profile built on it finds that the qualities he names as the attraction and the conduct he has directed at her for eighteen years are in opposition."
   - page: wiki/people/annie-ulmer
     type: mirrors
     claim: "The two channels are not sequential but concurrent: across August 18–19, 2026 Dan ran both threads hour by hour, declaring himself 'all ally Lubin all the time now' ninety minutes before sending Annie the last message of the eleven-year relationship."
@@ -72,10 +70,14 @@ connections:
   - page: wiki/self/concepts/astrology-star-signs
     type: instance-of
     claim: "Her Cancer sun rests on a birth date the page derives rather than quotes, now corroborated twice from her own messages seven years apart — 'Literally a 17 year old in a 28 yeR olds body' (2019-01-09) and 'I turn 30 in 18 days' (2020-06-08)."
-  - page: wiki/timeline/periods/2018-deep-cycle
+  - page: wiki/timeline/periods/2018-deep-cycle  im
     type: component-of
     claim: "The tie is opened inside the deep cycle and shares its economics — a $25 finder's fee, a $250 Cash App gift and a Christmas present issued in the same December weeks Dan was running daily Cash App limits and declined payments."
 ---
+
+# Ally Lubin (Alexandra Lubin)
+
+# Ally Lubin (Alexandra Lubin)
 
 # Ally Lubin (Alexandra Lubin)
 
@@ -253,21 +255,6 @@ The iMessage record opens five days later, on **December 17, 2018**, at
 argument (he refuses to accept she is an ENFP), audiobooks, the 1975, an
 electric skateboard, a print of the painting from Chuck Bass's apartment. It
 also contains, on day one, her stating the problem:
-
-> **CORRECTED [2026-08-22]:** That MBTI argument was recorded here as
-> relationship colour, and this page's infobox carried **`mbti: ENFP`** on the
-> strength of it — a claim resting on one source in which the subject asserted
-> the type and Dan *disputed* it. A tested 16Personalities result supplied by
-> the operator on 2026-08-22 returns **Debater (ENTP-T)** — Extraverted 66%,
-> Intuitive 84%, Thinking 54%, Prospecting 61%, Turbulent 92%
-> (`raw/people/captures/2026-08-22_ally-lubin-16personalities-entp-t.md`). The
-> infobox is corrected, with the caveat that the instrument is self-administered
-> and the screenshot carries nothing tying it to her. **On the substance of the
-> December 2018 argument, Dan was right** — the auxiliary is Ti, not Fi, and her
-> contest-and-audit moves throughout this page are its signature. The full
-> function-stack read, its contrastive test against ENFP, and what the record
-> says follows from it are at
-> [[wiki/people/ally-lubin-cognitive-profile]].
 
 > **DAN:** Send me your address. I'm buying your Christmas gift <3
 > (I promise not to show up in North Carolina)
