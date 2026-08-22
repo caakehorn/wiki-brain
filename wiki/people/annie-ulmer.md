@@ -1,6 +1,6 @@
 ---
 image_caption: Annie (Anne Louise Ulmer)
-image: assets/people/annie-ulmer/people-annie-ulmer-mstt5mfl.jpg
+image: assets/people/annie-ulmer/people-annie-ulmer-mt408q4z.jpg
 domain: people
 page_type: entity
 title: "Annie (Anne Louise Ulmer)"
