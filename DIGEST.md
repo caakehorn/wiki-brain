@@ -14,10 +14,10 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 487 |
-| Pages touched in the last 14 days | 175 |
+| Pages touched in the last 14 days | 178 |
 | Pages reasoning from other pages (`synthesizes:`) | 41 |
 | Live contradictions | 43 |
-| Open gaps | 412 |
+| Open gaps | 416 |
 | Standing predictions | 41 |
 
 ## By domain
@@ -46,10 +46,11 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-22** — 4 pages
+**2026-08-22** — 27 pages
+  - ingest | legal | the hospital-smoking summons — the charging documents were real, and they moved an address
   - ingest | people | 16Personalities result — Ally Lubin (ENTP-T)
 
-**2026-08-21** — 31 pages
+**2026-08-21** — 20 pages
   - close+lint | all domains | two operator answers integrated; a false claim retracted and gated; staleness cleared to zero
   - rewrite | self | ally-and-dan-love-as-destiny — rebuilt as an argument, on verifiable evidence
   - lint | people | a portal save had deleted 56 typed-edge claims and 30KB of prose, and the gate that caught it went unread for a day
@@ -61,7 +62,7 @@ this is the state of the thing.
   - infra | portal | the loop had no return leg, and a corrected answer sat unpublished for forty minutes
   - infra | housekeeping | the pre-commit block had the wrong order, and the sweep had no protocol
 
-**2026-08-20** — 31 pages
+**2026-08-20** — 27 pages
   - ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
   - correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
   - close | timeline/people/mind | the catalyst was a five-word message in a group chat the wiki has never seen
@@ -72,12 +73,12 @@ this is the state of the thing.
   - ingest | timeline | the Morgantown recording, verified against a real transcript
   - lint | wiki | wiring the recent PRs into the structure — and a duplicate entity, a dead quarantine, and my own damage
 
-**2026-08-19** — 37 pages
+**2026-08-19** — 34 pages
   - audit | self | the last three days of edits — three pages had the attribution backwards, and the corpus settled all three
   - synthesis | health | cocaine — new substance profile page
   - climb | mind, health, places | five doctrine pages (5 synthesized, 0 rejected)
 
-**2026-08-18** — 26 pages
+**2026-08-18** — 24 pages
   - rewrite | people | suzanne-frank — the wiki had the family's money flowing the wrong way, and the mother's thread undercounted fourteenfold
   - ingest | people/mind/timeline | raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania .md + Gemini-_21.md + message corpus
   - close | people | wiki/people/diane-moore — a two-word operator answer merged two entities and re-dated the exclusion

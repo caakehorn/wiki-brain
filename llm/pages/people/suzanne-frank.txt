@@ -7,7 +7,7 @@ importance: critical
 status: active
 knowledge: mixed
 date_created: 2026-06-22
-date_modified: 2026-08-20
+date_modified: 2026-08-22
 date_range_start: 1962-09-15
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
@@ -147,6 +147,27 @@ connections:
 
 
 # Suz (Suzanne Frank)
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/places/337-saratoga-drive]] and
+> [[wiki/timeline/events/fran-death-vigil]] (both 2026-08-22). Both moved for one
+> reason: the April 2018 hospital summons surfaced
+> ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]) — docket
+> MJ-14101-NT-0000082-2018, filed **April 5, 2018**, the day after Fran died, and
+> addressed to 337 Saratoga Drive. **No claim on this page is withdrawn.** The
+> vigil's division of labour, her administrative half done alone, the memorial
+> she planned by herself, the bankruptcy and the $465k sale are all untouched;
+> her documented role in the vape incident — vaping in the room without anyone
+> remarking on it, which Dan credits with priming the act — is unchanged.
+>
+> One fact is new and belongs to her page rather than to the summons': a court
+> summons for her son, printed at 2:51 PM on the day after her grandmother died,
+> was mailed to **her house**, arriving during the week she was planning the
+> memorial service alone. Nothing in the corpus records her reaction, or whether
+> she ever knew. Recorded here as an addition to the vigil-week picture; not
+> written into the body, because a single undocumented delivery cannot carry a
+> claim about her.
+
 
 Dan's mother, and the second-largest presence in the entire corpus: **33,698
 messages across ten years and nine months**, behind only

@@ -7,8 +7,18 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-20
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 # operator answers from 2026-08-20 have been integrated below
+
+> **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at
+> third remove.** [[wiki/mind/synthesis/attachment-trauma-bond]] moved on 2026-08-22 solely by
+> gaining a `RE-CHECKED` blockquote, which itself recorded that *its* premises
+> had moved only by re-check blocks, all of them tracing back to the April 2018
+> hospital summons ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]) and
+> finding nothing affected. No substantive claim changed anywhere along that
+> chain, and this page reasons from the claims rather than the blocks. Nothing
+> withdrawn.
+
 
 date_range_start: 2026-08-16
 date_range_end: 2026-08-19

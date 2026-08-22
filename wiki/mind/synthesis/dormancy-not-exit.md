@@ -6,7 +6,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -83,6 +83,19 @@ sage_pending: 2026-08-21
 ---
 
 # Dormancy, Not Exit
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/places/155-virginia-ave]] (2026-08-22). That page's change concerns the
+> **outcome of the March 2018 eviction notice** — a court summons filed seven
+> days later gives Dan's address as 337 Saratoga
+> ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]), so the notice moved
+> his address of record even though the residence timeline runs to February 2019.
+> **This page reasons from 155 Virginia as a *container* across an occupant swap,
+> and from the contested five-day figure attached to Alexis's stay there.**
+> Neither depends on when or whether Dan's own tenancy there ended on paper. The
+> tenure floor, the swap, and the open question about the five days are all
+> unaffected. No claim withdrawn.
+
 
 > **RE-CHECKED [2026-08-20] — a live test of this page's central rule opened
 > four days ago, and the page must not pre-score it.** Flagged stale against

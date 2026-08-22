@@ -7,7 +7,7 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 sources:
   - raw/self/dox-md/ADDICTION_PROFILE.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -86,6 +86,18 @@ changelog:
 ---
 
 # Cocaine
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/legal/2015-possession-arrest]] (2026-08-22). That page moved by exactly
+> one thing — a correction retiring its statement that Magisterial District Judge
+> Michael Metros "appears once, in the blotter, and has no other trace in the
+> corpus," because the April 2018 hospital summons
+> ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]) names the same judge
+> and district. **Nothing on this page is affected.** The residue count, the
+> quantity finding, the DA's categorical cocaine bar and the ARD outcome are all
+> untouched; which magistrate the case was filed before was never load-bearing
+> here and still is not. No claim withdrawn.
+
 
 > **RE-CHECKED [2026-08-20] — the demand curve's other end closed; no dosage or
 > finance claim moves.** Flagged stale against

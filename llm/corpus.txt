@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-22
-487 pages, ~1,287,160 tokens.
+487 pages, ~1,295,474 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -266,7 +266,7 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 sources:
   - raw/self/dox-md/ADDICTION_PROFILE.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -345,6 +345,18 @@ changelog:
 ---
 
 # Cocaine
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/legal/2015-possession-arrest]] (2026-08-22). That page moved by exactly
+> one thing — a correction retiring its statement that Magisterial District Judge
+> Michael Metros "appears once, in the blotter, and has no other trace in the
+> corpus," because the April 2018 hospital summons
+> ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]) names the same judge
+> and district. **Nothing on this page is affected.** The residue count, the
+> quantity finding, the DA's categorical cocaine bar and the ARD outcome are all
+> untouched; which magistrate the case was filed before was never load-bearing
+> here and still is not. No claim withdrawn.
+
 
 > **RE-CHECKED [2026-08-20] — the demand curve's other end closed; no dosage or
 > finance claim moves.** Flagged stale against
@@ -858,7 +870,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -906,6 +918,15 @@ connections:
 ---
 
 # The Configured Body
+
+> **RE-CHECKED [2026-08-22] — premise moved by a re-check block only.**
+> [[wiki/health/cocaine]] moved on 2026-08-22 solely by gaining a `RE-CHECKED`
+> blockquote confirming that a correction on
+> [[wiki/legal/2015-possession-arrest]] (about which magistrate heard the case)
+> left it undisturbed. No cocaine claim changed — not the residue quantity, not
+> the supply record, not the legal consequence — and this page reasons from those
+> claims rather than from the block. Nothing withdrawn.
+
 
 Dan's relationship to his own body has exactly two modes, and no third.
 He **specifies the inputs** — with a rigour that is close to absolute, down to
@@ -9468,7 +9489,7 @@ status: closed
 knowledge: mixed
 importance: high
 date_created: 2026-08-03
-date_modified: 2026-08-03
+date_modified: 2026-08-22
 date_range_start: 2015-02-17
 date_range_end: 2016-02-17
 sources:
@@ -9490,6 +9511,9 @@ connections:
   - page: wiki/mind/synthesis/the-embedded-objective
     type: evidences
     claim: "The corpus's densest record of acquiring an assigned outcome and its thinnest record of serving one: five dated contemporaneous events for the ARD deal against a single retrospective clause for the six months of probation."
+  - page: wiki/timeline/events/uniontown-hospital-vape-alarm
+    type: parallels
+    claim: "The 2018 hospital summons was filed before the same magistrate, Michael M. Metros of MDJ-14-1-01 — so the blotter is no longer his only appearance in the corpus, and the magisterial district, not the offence, is what Dan's two documented charging events have in common."
   - page: wiki/legal/2015-retail-theft-arrest
     type: precedes
     claim: "The Combos retail theft happened a few weeks after this and is a separate legal matter; until 2026-08-03 the wiki carried the two as one event, attributing this arrest's lawyer, ARD and hearing to a snack-food theft."
@@ -9734,8 +9758,21 @@ own telling calls the residue count a "class B controlled substance," which is
 recorded here as his description rather than as a documented grade. The nine months between the
 February 2015 filing and the first surviving message about the case in December
 2015 contain the preliminary hearing and arraignment and are entirely
-undocumented. Magisterial District Judge **Michael Metros** appears once, in
-the blotter, and has no other trace in the corpus.
+undocumented.
+
+> **CORRECTION [2026-08-22]:** This section previously read *"Magisterial
+> District Judge **Michael Metros** appears once, in the blotter, and has no
+> other trace in the corpus."* He appears twice. The April 2018 summons behind
+> [[wiki/timeline/events/uniontown-hospital-vape-alarm]] — docket
+> MJ-14101-NT-0000082-2018, filed 4/5/2018 — names **Honorable Michael M.
+> Metros**, MDJ-14-1-01, 88 North Gallatin Avenue, Uniontown, and gives the
+> district's telephone number and address that the blotter did not. Both of
+> Dan's documented charging events ran through the same magisterial district
+> three years apart, which is unremarkable for a man living in Uniontown and
+> is still the only thing they have in common. It does not supply this case's
+> docket number, which remains unknown: MDJS dockets are per-case, and knowing
+> the court is not knowing the case.
+
 Whether the fines referenced in January and February 2016 belong to this case,
 to [[wiki/legal/2015-retail-theft-arrest|the Combos matter]], or to both
 running concurrently is not determinable from the message record — the
@@ -9756,7 +9793,7 @@ title: "The Combos Incident (2015 Retail Theft)"
 aliases: ["the Combos incident", "stealing combos"]
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-03
+date_modified: 2026-08-22
 sources:
   - raw/legal/captures/2026-08-02_200741_the-arrest-the-real-one.md
   - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
@@ -9834,7 +9871,11 @@ correction above does not weaken that — it sharpens it. A want worth a few
 dollars was run to completion until it produced a criminal citation, and the
 same shape recurs three years later when one drag of nicotine produces a
 hospital-wide fire alarm and charging documents
-([[wiki/timeline/events/uniontown-hospital-vape-alarm]]). What the correction
+([[wiki/timeline/events/uniontown-hospital-vape-alarm]]) — and as of 2026-08-22
+the 2018 half of that parallel is documented to the docket number
+(MJ-14101-NT-0000082-2018, filed 4/5/2018), while this half still has none. The
+asymmetry is worth naming: the *better-evidenced* instance of the drive is now
+the one that obtained less. What the correction
 removes is the claim that this particular want cost a lawyer and a diversion
 programme. It did not. The other one did, and the fact that **2015 produced
 two separate chargeable incidents a few weeks apart** is itself the better
@@ -10078,7 +10119,7 @@ domain: legal
 page_type: index
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-08-02
+date_modified: 2026-08-22
 sources: []
 related: []
 ---
@@ -10093,7 +10134,7 @@ live in work/ — see [[wiki/work/bfs-foods]] for the 2026 BFS drawer dispute.
 - [[wiki/legal/2015-possession-arrest]] — Dan's only real arrest: a 3am traffic stop in downtown Uniontown on a lemon run for Suz, an impound-triggered inventory search, and three drug charges including a Class B count over cocaine residue. Resolved by ARD in February 2016 against a DA policy that barred it. Closed.
 - [[wiki/legal/2015-retail-theft-arrest]] — the Combos incident: a separate retail theft a few weeks after the arrest, surviving in the corpus almost entirely as a running joke. Closed. A single October 2017 message references an otherwise unrecorded prior DUI — flagged as a CONTRADICTION on the possession-arrest page.
 - [[wiki/legal/463-morgantown]] — the live housing/property situation: no-lease occupancy, Suz's blended roles, contractor lien risk (~July 2026 deadline). Active.
-- [[wiki/timeline/events/uniontown-hospital-vape-alarm]] — filed under timeline/, noted here as the corpus's second brush with charging paperwork: a vape set off a hospital-wide fire alarm during Fran's April 2018 death watch, four fire trucks, escorted off the property. Whether anything was ever filed is unverified.
+- [[wiki/timeline/events/uniontown-hospital-vape-alarm]] — filed under timeline/, noted here as the corpus's second brush with charging paperwork: a vape set off a hospital-wide fire alarm during Fran's April 2018 death watch, four fire trucks, escorted off the property. **Something was filed** — the summons surfaced 2026-08-22: summary non-traffic docket MJ-14101-NT-0000082-2018, filed 4/5/2018 before MDJ Michael Metros, one local-ordinance count of smoking in a hospital. Disposition still unknown.
 
 
 ========================================================================
@@ -17055,7 +17096,7 @@ title: "The Alias Is a Clock, Not a Style"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 date_range_start: 2013-01-01
 date_range_end:
 synthesizes:
@@ -17099,6 +17140,16 @@ connections:
 ---
 
 # The Alias Is a Clock, Not a Style
+
+> **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at
+> third remove.** [[wiki/mind/synthesis/totality-themes]] moved on 2026-08-22 solely by
+> gaining a `RE-CHECKED` blockquote, which itself recorded that *its* premises
+> had moved only by re-check blocks, all of them tracing back to the April 2018
+> hospital summons ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]) and
+> finding nothing affected. No substantive claim changed anywhere along that
+> chain, and this page reasons from the claims rather than the blocks. Nothing
+> withdrawn.
+
 
 Dan has released music under four names in thirteen years, and the renaming
 has never once corresponded to a change in the music. Across SLOPPP, MOGZART
@@ -17433,7 +17484,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-20
+date_modified: 2026-08-22
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -17506,6 +17557,17 @@ connections:
 
 
 # Attachment Trauma Bond and Aura Illness
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/people/suzanne-frank]] (2026-08-22), which moved by a `RE-CHECKED`
+> blockquote recording one new fact: a court summons for Dan, filed the day after
+> Fran died, was mailed to Suz's house during the week she was planning the
+> memorial alone ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]).
+> **Nothing on this page is affected.** No reaction of hers to that delivery is
+> recorded anywhere, so the fact supplies no behaviour to reason from; the
+> maternal-bond material here runs on documented exchanges, and none of it moved.
+> Nothing withdrawn.
+
 
 > **RE-CHECKED [2026-08-20] — the bond this page models ended, and the ending
 > is the model working, not failing.** Flagged stale against
@@ -17740,8 +17802,18 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-20
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 # operator answers from 2026-08-20 have been integrated below
+
+> **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at
+> third remove.** [[wiki/mind/synthesis/attachment-trauma-bond]] moved on 2026-08-22 solely by
+> gaining a `RE-CHECKED` blockquote, which itself recorded that *its* premises
+> had moved only by re-check blocks, all of them tracing back to the April 2018
+> hospital summons ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]) and
+> finding nothing affected. No substantive claim changed anywhere along that
+> chain, and this page reasons from the claims rather than the blocks. Nothing
+> withdrawn.
+
 
 date_range_start: 2026-08-16
 date_range_end: 2026-08-19
@@ -20126,7 +20198,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -20203,6 +20275,19 @@ sage_pending: 2026-08-21
 ---
 
 # Dormancy, Not Exit
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/places/155-virginia-ave]] (2026-08-22). That page's change concerns the
+> **outcome of the March 2018 eviction notice** — a court summons filed seven
+> days later gives Dan's address as 337 Saratoga
+> ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]), so the notice moved
+> his address of record even though the residence timeline runs to February 2019.
+> **This page reasons from 155 Virginia as a *container* across an occupant swap,
+> and from the contested five-day figure attached to Alexis's stay there.**
+> Neither depends on when or whether Dan's own tenancy there ended on paper. The
+> tenure floor, the swap, and the open question about the five days are all
+> unaffected. No claim withdrawn.
+
 
 > **RE-CHECKED [2026-08-20] — a live test of this page's central rule opened
 > four days ago, and the page must not pre-score it.** Flagged stale against
@@ -20751,7 +20836,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-20
+date_modified: 2026-08-22
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -20816,6 +20901,17 @@ connections:
 ---
 
 # The Estate / Money Spine
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/places/337-saratoga-drive]] (2026-08-22). That page gained one dated row
+> — an April 2018 court summons giving 337 Saratoga as Dan's address of record
+> ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]) — and a paragraph
+> explaining why a single document sits in a table of eras. **No capital event
+> is involved and nothing on this page moves.** The spine runs on transfers,
+> liquidations and the $465k sale; an address on a summons is not a transaction,
+> creates no claim on the house and changes neither the Chapter 13 account nor
+> the forward claim about the proceeds. No claim withdrawn.
+
 
 > **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/people/suzanne-frank]] and [[wiki/people/annie-ulmer]] (both 2026-08-20). Both moved for the August 16–19 ingest: an added section on Suz being targeted again by Coles and shielded pre-emptively by Dan, and a substantial new August section on Annie's page. Re-read against
 > the change; **no claim on this page is affected** and nothing here is
@@ -22351,7 +22447,7 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-20
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 tags: [forensic-analysis, relationships, legal, mental-health]
 sources:
   - raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a
@@ -22382,6 +22478,17 @@ connections:
 ---
 
 # The Morgantown Call: Ethical Roles of Dan, Annie, and Jerel Coles
+
+> **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at the
+> end of a four-link chain.** [[wiki/mind/synthesis/august-grievance-verdict]] moved on 2026-08-22
+> solely by gaining a `RE-CHECKED` blockquote. Walking the chain back: it leads
+> to the April 2018 hospital summons
+> ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]), a court document that
+> closed that page's legal gap and corrected an address on
+> [[wiki/places/155-virginia-ave]]. Every page between here and there recorded
+> **no change to any claim**. Nothing here is affected and nothing is withdrawn.
+> This is where the cascade terminates.
+
 
 ## Executive finding
 
@@ -23518,7 +23625,7 @@ aliases: ["one channel at maximum voltage", "no failover", "concentration archit
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -23565,6 +23672,16 @@ connections:
 ---
 
 # The Single Channel
+
+> **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at
+> third remove.** [[wiki/mind/synthesis/totality-themes]] moved on 2026-08-22 solely by
+> gaining a `RE-CHECKED` blockquote, which itself recorded that *its* premises
+> had moved only by re-check blocks, all of them tracing back to the April 2018
+> hospital summons ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]) and
+> finding nothing affected. No substantive claim changed anywhere along that
+> chain, and this page reasons from the claims rather than the blocks. Nothing
+> withdrawn.
+
 
 > **RE-CHECKED [2026-08-20] — the channel closed, which is this page's thesis
 > being tested rather than confirmed.** Flagged stale against
@@ -25321,7 +25438,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -25385,6 +25502,17 @@ connections:
 ---
 
 # The Deferred Audit
+
+> **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at the
+> end of a four-link chain.** [[wiki/mind/synthesis/single-channel]] moved on 2026-08-22
+> solely by gaining a `RE-CHECKED` blockquote. Walking the chain back: it leads
+> to the April 2018 hospital summons
+> ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]), a court document that
+> closed that page's legal gap and corrected an address on
+> [[wiki/places/155-virginia-ave]]. Every page between here and there recorded
+> **no change to any claim**. Nothing here is affected and nothing is withdrawn.
+> This is where the cascade terminates.
+
 
 > **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/mind/concepts/forensic-method]] (2026-08-20). Moved by two typed-edge additions only, no prose change. Re-read against
 > the change; **no claim on this page is affected** and nothing here is
@@ -25846,7 +25974,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -25897,6 +26025,16 @@ connections:
 ---
 
 # The Embedded Objective
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/legal/2015-possession-arrest]] (2026-08-22), which moved solely by a
+> correction about the identity and recurrence of the magistrate (Michael Metros
+> appears twice now, not once — the second time on the April 2018 hospital
+> summons). **The row this page draws from that case is unaffected:** the payload
+> was the ARD deal, obtained before the probation began, and compliance is still
+> attested only retrospectively. Which court held the case does not bear on the
+> acquire-the-outcome / serve-the-outcome asymmetry. No claim withdrawn.
+
 
 **Dan has never sustained an assignment. He sustains a self-set objective he
 has embedded inside one.** Every long commitment in the corpus is a host
@@ -26708,7 +26846,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -26847,6 +26985,17 @@ connections:
 
 
 # Totality Themes
+
+> **RE-CHECKED [2026-08-22] — three premises moved by re-check blocks only.**
+> [[wiki/mind/synthesis/the-embedded-objective]],
+> [[wiki/mind/synthesis/dormancy-not-exit]] and
+> [[wiki/mind/synthesis/estate-money-spine]] all moved on 2026-08-22 solely by
+> gaining `RE-CHECKED` blockquotes, each recording that the April 2018 hospital
+> summons ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]) and the
+> corrections it triggered left their arguments untouched. No thesis, control or
+> prediction changed on any of the three, and the themes drawn here reason from
+> those theses rather than from the blocks. Nothing withdrawn.
+
 
 > **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/mind/synthesis/block-unblock-loop]] and [[wiki/mind/synthesis/supply-network]] (both 2026-08-20). Both moved by typed-edge addition only, pointing at the new August 16–19 event page; neither page's prose or figures changed. Re-read against
 > the change; **no claim on this page is affected** and nothing here is
@@ -30497,7 +30646,6 @@ exactly one disputed source behind it and should say so in the field or lose it.
 Dan's own type is not in question and is not on this page — he types **INTP**
 ([[wiki/mind/profile/intp]]) — which is what makes the pairing claim a sage
 answer built on a *shared* ENFP stack pure invention rather than an overreach.
-
 
 ========================================================================
 PAGE: wiki/people/anita.md
@@ -47665,7 +47813,7 @@ aliases: ["Suz MBTI", "Suz Enneagram", "Suz personality type"]
 status: active
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-20
+date_modified: 2026-08-22
 importance: high
 tags: [personality-profile, forensic-analysis, ai-collaboration]
 infobox:
@@ -47687,6 +47835,16 @@ connections:
 ---
 
 # Suzanne Frank — Forensic Personality Assessment
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/people/suzanne-frank]] (2026-08-22), which moved by a `RE-CHECKED`
+> blockquote adding one undocumented event — an April 2018 court summons for Dan
+> arriving at her address during the funeral week
+> ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]). **No trait score,
+> instrument reading or behavioural exemplar on this page is affected**, because
+> the corpus records nothing she said or did about it; an assessment cannot move
+> on an event with no observed response. Nothing withdrawn.
+
 
 > **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/people/suzanne-frank]] (2026-08-20). That page gained a section on Coles targeting her again and Dan pre-emptively blocking Annie's number on her phone. Re-read against
 > the change; **no claim on this page is affected** and nothing here is
@@ -47987,7 +48145,7 @@ importance: critical
 status: active
 knowledge: mixed
 date_created: 2026-06-22
-date_modified: 2026-08-20
+date_modified: 2026-08-22
 date_range_start: 1962-09-15
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
@@ -48127,6 +48285,27 @@ connections:
 
 
 # Suz (Suzanne Frank)
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/places/337-saratoga-drive]] and
+> [[wiki/timeline/events/fran-death-vigil]] (both 2026-08-22). Both moved for one
+> reason: the April 2018 hospital summons surfaced
+> ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]) — docket
+> MJ-14101-NT-0000082-2018, filed **April 5, 2018**, the day after Fran died, and
+> addressed to 337 Saratoga Drive. **No claim on this page is withdrawn.** The
+> vigil's division of labour, her administrative half done alone, the memorial
+> she planned by herself, the bankruptcy and the $465k sale are all untouched;
+> her documented role in the vape incident — vaping in the room without anyone
+> remarking on it, which Dan credits with priming the act — is unchanged.
+>
+> One fact is new and belongs to her page rather than to the summons': a court
+> summons for her son, printed at 2:51 PM on the day after her grandmother died,
+> was mailed to **her house**, arriving during the week she was planning the
+> memorial service alone. Nothing in the corpus records her reaction, or whether
+> she ever knew. Recorded here as an addition to the vigil-week picture; not
+> written into the body, because a single undocumented delivery cannot carry a
+> claim about her.
+
 
 Dan's mother, and the second-largest presence in the entire corpus: **33,698
 messages across ten years and nine months**, behind only
@@ -51788,7 +51967,7 @@ title: "117 Belmont Circle"
 status: closed
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-08-19
+date_modified: 2026-08-22
 date_range_start: 1961-02-08
 date_range_end: 2019-07-11
 sources:
@@ -52002,6 +52181,19 @@ resolve it, but it supplies the missing option: through the spring and
 summer of 2018 he had somewhere else to be, one lot away, and he was using
 it.
 
+> **UPDATE [2026-08-22]:** The notice's outcome is now partly recorded, and it
+> points at a *different* house. A Fayette County summons filed **April 5,
+> 2018** — seven days after the notice — gives Dan's address as
+> **337 Saratoga Drive** ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]).
+> So there were two somewheres, not one: this house was where he *was* across
+> that spring, by his own texts, and [[wiki/places/337-saratoga-drive|337
+> Saratoga]] was where the Commonwealth wrote to him. The two are not in
+> conflict — an address of record and an operating address are different
+> things, and the gap between them is itself characteristic of the period. It
+> does mean this section's "he had somewhere else to be" should be read as an
+> observation about use rather than about residency, which is now separately
+> documented and is not this address.
+
 ## The listing
 
 The house was re-listed after Fran's death, and the realtor was Danny
@@ -52039,7 +52231,7 @@ page_type: entity
 title: "155 Virginia Ave"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-19
+date_modified: 2026-08-22
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/operating_manual.md
@@ -52085,7 +52277,7 @@ connections:
     claim: "The 2018-03-29 eviction notice terminating Dan's residency and demanding the keys was served by 'Dian V. Moore' — identified 2026-08-18 as Dan's maternal grandmother, carried here until then as an unexplained actor."
   - page: wiki/places/the-unpapered-address
     type: component-of
-    claim: "The March 2018 eviction notice is one of only two housing instruments in sixteen years and it changed nothing: served mid-vigil by Dan's own maternal grandmother demanding the keys, it was followed by eleven more months of occupancy, because the tenancy was never held by the document."
+    claim: "The March 2018 eviction notice is one of only two housing instruments in sixteen years, served mid-vigil by Dan's own maternal grandmother demanding the keys — and a court summons seven days later carries 337 Saratoga as his address, so the document moved his paper residence even where the record cannot show it moved him."
   - page: wiki/timeline/events/fran-death-vigil
     type: co-occurs
     claim: "The March 29 eviction notice terminating Dan's residency landed mid-vigil — the estate moving on the house while he was holding the 24/7 line."
@@ -52123,8 +52315,29 @@ put Dan and Annie next door to the caregiving job that defined the era:
 they were Fran's caregivers until her March 2018 fall — paid full-time for roughly the last six months of it
 ([[wiki/timeline/events/fran-death-vigil]]). On March 29, 2018 — during
 the terminal vigil — Dan was served an eviction notice for 155 Virginia by
-Dian V. Moore, demanding the keys; the residence timeline has him staying
-until February 2019, so the notice's outcome is undocumented.
+Dian V. Moore, demanding the keys.
+
+> **GAP CLOSED [2026-08-22]:** This page read, until now, *"the residence
+> timeline has him staying until February 2019, so the notice's outcome is
+> undocumented."* It is documented. A Fayette County summary summons filed
+> **April 5, 2018** — seven days after the notice — gives the defendant's
+> address as **337 Saratoga Dr, Uniontown PA 15401**
+> ([[wiki/timeline/events/uniontown-hospital-vape-alarm]], docket
+> MJ-14101-NT-0000082-2018). Whatever else the notice did or did not
+> accomplish, the address the Commonwealth held for Dan one week later was his
+> mother's house, not this one. That is a narrow finding and worth keeping
+> narrow: an address on court paper is an address **of record**, which can lag
+> or lead a place of sleep, and [[wiki/places/117-belmont-circle]] documents him
+> using a third house across the same spring. The residence timeline's
+> "155 Virginia until February 2019" cannot stand unqualified — but the
+> correction it needs is that the tenancy's paper life ended in March 2018
+> while its lived life may not have, which is the same shape this page already
+> argues about the instrument itself.
+
+The reading that survives both facts is the one in the typed edge below: the
+notice *is* one of only two housing instruments in sixteen years, and it did
+change something after all — the paperwork. Whether it changed where he slept
+is a separate question the corpus still cannot answer.
 
 > **REVISED [2026-07-13]:** Resolved — novelist
 > [[wiki/people/jacob-bacharach]] used this house's exterior only (never
@@ -52369,7 +52582,7 @@ page_type: entity
 title: "337 Saratoga Drive"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-19
+date_modified: 2026-08-22
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -52398,6 +52611,9 @@ connections:
   - page: wiki/places/the-unpapered-address
     type: evidences
     claim: "The one residence in the record decided by real recorded paper was decided by somebody else's — a deed, a Chapter 13 docket and a court drop-dead provision all belonging to Suz — which is the control that proves the rule rather than breaking it."
+  - page: wiki/timeline/events/uniontown-hospital-vape-alarm
+    type: evidenced-by
+    claim: "A Fayette County summons filed 2018-04-05 prints 337 Saratoga Dr as the defendant's address of record, which is court paper placing Dan at this house inside the ten-year gap this page's occupancy table shows between January 2015 and February 2025."
   - page: wiki/mind/synthesis/fayette-return
     type: instantiates
     claim: "The tether at maximum tension: the current return has landed Dan in the childhood home itself, the tightest possible value of the pattern, while that house is being sold out from under him."
@@ -52420,7 +52636,21 @@ where the post-[[wiki/people/annie-ulmer|Annie]] aftermath is being lived out.
 |--------|---------|
 | 1996 – Sep 2008 | Childhood/adolescence (moved from 12 Bryer Ave); ski-identity years; the Nov 2005 hinge; left for Full Sail |
 | May 2013 – Jan 2015 | First return from NYC; SLOPPP era; moved out to 155 Virginia Ave |
+| **Apr 2018 (address of record)** | **A Fayette County summary summons filed 2018-04-05 gives the defendant's address as "337 Saratoga Dr, Uniontown, PA 15401"** — see below |
 | Feb 22, 2025 – present | Post-[[wiki/people/eli|Eli]] return from Manhattan; Annie terminal phase and closure; basement studio; vibe-coding and AI work |
+
+**On the April 2018 row.** The table above is a table of *eras* and this is not
+one — it is a single dated document, added because the era it falls inside is
+one the table says Dan was not here for. The wiki's residence timeline runs him
+from 155 Virginia Avenue (January 2015) to New York (February 2019); the summons
+behind [[wiki/timeline/events/uniontown-hospital-vape-alarm]], filed a week
+after [[wiki/people/diane-moore|Dian Moore]] served him an eviction notice at
+155 Virginia, has the Commonwealth of Pennsylvania addressing him here. An
+address of record is not a bed — it can be a driver's-licence address, and
+[[wiki/places/117-belmont-circle]] documents him operating out of Fran's empty
+house across the same spring. What it is, is the only piece of official paper
+in the corpus that places Dan at 337 Saratoga on a named day between 2015 and
+2025, and it lands in a hole the table cannot otherwise fill.
 
 ## The sale
 
@@ -52897,7 +53127,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -52924,7 +53154,7 @@ connections:
     claim: "The page's declared gap on rent is closed: the last signed lease was $2,450 and the renewal was $2,700 (2024-05-02/03), and the tenancy ran on the landlord's discretion throughout — 'as long as we sustain jobs the lease would be open for us on a second year', 'so our landlord won't have to deliberate about signing next years lease.'"
   - page: wiki/places/155-virginia-ave
     type: contains
-    claim: "The March 2018 eviction notice served by Dan's own maternal grandmother is the first of the corpus's only two housing instruments, and it establishes the rule: served mid-vigil demanding the keys, it produced no change in occupancy for eleven months, because the tenancy was never held by paper in the first place."
+    claim: "The March 2018 eviction notice served by Dan's own maternal grandmother is the first of the corpus's only two housing instruments, and it establishes the rule in a qualified form: it produced no documented change in occupancy for eleven months, though a court summons seven days later carries a different address, so what the paper moved was the paper."
   - page: wiki/places/424-bedford-ave
     type: evidenced-by
     claim: "Two years at the first New York address leave no rent figure, no lease, no signatory and no photograph — the earliest instance of the documentary void, and evidence that the pattern predates both the poverty years and the Annie decade."
@@ -52952,6 +53182,40 @@ connections:
 ---
 
 # The Unpapered Address
+
+
+> **RE-CHECKED [2026-08-22] — a real change, and it narrows one claim.** Three
+> premises moved on the same day for the same reason: a Fayette County summons
+> from April 2018 surfaced ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]),
+> and it carries **337 Saratoga Dr as Dan's address of record on 2018-04-05** —
+> seven days after the eviction notice served at
+> [[wiki/places/155-virginia-ave|155 Virginia Avenue]].
+>
+> **The seven-address finding stands and is not weakened.** A summons is not a
+> housing instrument: it creates no tenancy, records no rent, names no landlord
+> and no signatory, and it is paper *about* Dan that the state generated for its
+> own purposes rather than paper *he* held. The corpus still contains no lease,
+> no rent figure recorded at the time, no signatory and no deposit for any of
+> the seven residences. Nothing on this page is withdrawn.
+>
+> **One claim is narrowed.** This page's edge into 155 Virginia asserted that
+> the eviction notice "produced no change in occupancy for eleven months,
+> because the tenancy was never held by paper in the first place." The second
+> half of that is the argument and it survives. The first half was always an
+> inference from silence — the residence timeline running to February 2019 —
+> and the summons is the first evidence against it: something moved within the
+> week, at least on paper. The edge claim is amended above to say so. The
+> distinction the page now has to hold is **address of record versus address of
+> occupancy**, which are different things in a life where the second is never
+> documented; the notice may well have moved only the first.
+>
+> **And it supplies a sharper instance of the page's own thesis.** In sixteen
+> years the only document that fixes Dan at a specific address on a specific
+> day was generated by a magisterial district court prosecuting him for smoking.
+> Not one of the seven tenancies produced such a record; a summary offence did.
+> That belongs in the body on a later pass — recorded here rather than written,
+> because a single instance is not the regularity this page argues from.
+
 
 > **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/legal/463-morgantown]] (2026-08-20). That page gained a section on the address as a threat vector and one typed edge. Re-read against
 > the change; **no claim on this page is affected** and nothing here is
@@ -63944,7 +64208,7 @@ status: stable
 importance: high
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-08-18
+date_modified: 2026-08-22
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
@@ -64000,7 +64264,7 @@ connections:
     claim: "The vigil's opening event was not only a fall: the first encounter of Dan and Annie's non-monogamy arrangement was executing in the house between the two impacts, which is the fact this page carried for six weeks without knowing it."
   - page: wiki/timeline/events/uniontown-hospital-vape-alarm
     type: contains
-    claim: "The SMOK-versus-10W-vape story this page set up with its ending missing resolves as a building-wide fire alarm, four fire trucks and an escort off hospital property — the punchline named here as an open gap since 2026-07-19."
+    claim: "The SMOK-versus-10W-vape story this page set up with its ending missing resolves as a building-wide fire alarm, four fire trucks and an escort off hospital property — and, per the summons surfaced 2026-08-22, a summary case filed with the Fayette magistrate on April 5, 2018, the day after Fran died."
   - page: wiki/people/diane-moore
     type: caused-by
     claim: "The reason the two people who had kept Fran at home for three years held no shift in Fred Adams's mandated rotation is a letter: Dan's maternal grandmother barred them from the house unsupervised and from visiting without an assigned monitor, sent before the final admission rather than in response to it."
@@ -64142,8 +64406,14 @@ took one pull from the sub-ohm device, set off the smoke detector, and
 triggered an alarm that chain-spread through the entire hospital; four
 fire trucks arrived within minutes, and a security guard escorted him off
 the property and wrote up charging documents while Fran lay dying feet
-away. The full account — including a direct contradiction with the
-sentence above over which of the two of them was in the bathroom — is at
+away. **The charging documents were real.** The summons surfaced 2026-08-22:
+a Fayette County summary non-traffic case, docket MJ-14101-NT-0000082-2018,
+**filed April 5, 2018 — the day after Fran died** — before Magisterial District
+Judge Michael M. Metros, on a single local-ordinance count of smoking in a
+hospital. It was printed at 2:51 that afternoon and mailed to 337 Saratoga
+Drive, which means it arrived during the week of the funeral. The full account
+— including a direct contradiction with the sentence above over which of the
+two of them was in the bathroom — is at
 [[wiki/timeline/events/uniontown-hospital-vape-alarm]].
 
 The family's exclusion order belongs in this sequence too. A letter reached
@@ -66698,12 +66968,13 @@ status: closed
 importance: normal
 knowledge: mixed
 date_created: 2026-08-02
-date_modified: 2026-08-18
-date_range: ["2018-04-01", "2018-04-04"]
+date_modified: 2026-08-22
+date_range: ["2018-04-01", "2018-04-17"]
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
   - "raw/self/dox-md/_Photo Thread PT II_ Grand Finale Calibration .md"
+  - raw/legal/documents/2018-04_summons-hospital-smoking.md
 tags: [legal, grief, family, uniontown-era]
 connections:
   - page: wiki/timeline/events/fran-death-vigil
@@ -66724,6 +66995,15 @@ connections:
   - page: wiki/people/fran-coldren
     type: co-occurs
     claim: "The alarm happened feet from her deathbed and she is the reason the story is told at all — the absurdity Dan reports grasping in one second is the gap between the scale of the emergency response and the scale of the death it interrupted."
+  - page: wiki/places/337-saratoga-drive
+    type: evidences
+    claim: "The summons prints 337 Saratoga Dr as the defendant's address of record on 2018-04-05, a date the occupancy table has no row for — the house's residency history runs 1996–2008, 2013–Jan 2015, then jumps to Feb 2025, and this is court paper placing Dan there in the eleven-year hole."
+  - page: wiki/places/155-virginia-ave
+    type: contradicts
+    claim: "The residence timeline has Dan at 155 Virginia Avenue until February 2019 and treats the March 29, 2018 eviction notice's outcome as unrecorded; a court summons filed one week later, on April 5, 2018, gives his address as 337 Saratoga Drive — the first documentary evidence that the notice did move him."
+  - page: wiki/legal/2015-possession-arrest
+    type: parallels
+    claim: "Both matters were filed before the same magistrate, Michael M. Metros of MDJ-14-1-01 — retiring that page's statement that Metros 'appears once, in the blotter, and has no other trace in the corpus,' and making the district itself, not the offence, the constant across Dan's charging record."
   - page: wiki/health/chemical-architecture
     type: evidences
     claim: "Nicotine is catalogued there as the 'ritualistic regulator' that smooths transitions between chemical states; this is the record's demonstration that the regulator runs on its own schedule and does not defer to circumstance."
@@ -66739,9 +67019,12 @@ triggered a fire alarm that chain-spread across the entire hospital. Four
 fire trucks arrived within minutes. Firefighters and a security guard
 entered the room; Dan told them the device "went off in my pocket"; they
 shook their heads, killed the alarms, and walked him off the property, where
-the guard wrote up charging documents. It is the corpus's second documented
-brush with charges, and by some distance its most disproportionate: the
-thing obtained was one drag of nicotine.
+the guard wrote up charging documents. Those documents were real: a summary
+non-traffic case was filed with the Fayette County magistrate on **April 5,
+2018**, the day after Fran died, under docket **MJ-14101-NT-0000082-2018**, on a
+single charge of *smoking* in a hospital. It is the corpus's second documented
+brush with charges, and by some distance its most disproportionate: the thing
+obtained was one drag of nicotine.
 
 This page exists partly to close a gap. The Photo Thread session that
 supplied most of [[wiki/timeline/events/fran-death-vigil]] set this story up
@@ -66798,40 +67081,152 @@ here, the thing that produced a consequence.
 > both are Dan's, roughly two weeks apart. Recorded here unresolved; if the
 > `IMG_`-series uploads are ever recovered, they settle it.
 
-## The legal residue
+## The legal residue — a filed summary case, docket MJ-14101-NT-0000082-2018
 
-Dan reports that the security guard "wrote my charging documents" as he was
-escorted off the property. Nothing else in the corpus follows up: there is no
-citation, no court date, no fine, and no mention of the incident in any later
-message thread. Whether a summary offense was actually filed with a Fayette
-County magistrate, or whether the paperwork was an incident report a security
-guard described in charging language, is unestablished and answerable only
-from outside the corpus. What is on record is the moment itself and the
-escort. Alongside the 2015 retail theft ([[wiki/legal/2015-retail-theft-arrest]])
-it is the second time a want of essentially zero value ran all the way to
-official paperwork.
+> **GAP CLOSED [2026-08-22]:** This page asked, from its creation until now,
+> *"Whether a summary offense was actually filed with a Fayette County
+> magistrate, or whether the paperwork was an incident report a security guard
+> described in charging language, is unestablished and answerable only from
+> outside the corpus."* It was filed. The operator supplied the summons
+> (`raw/legal/documents/2018-04_summons-hospital-smoking.md`): a
+> **Summons for Summary Case — Non-Traffic**, *Commonwealth of Pennsylvania v.
+> Daniel G Frank*, docket **MJ-14101-NT-0000082-2018**, citation **R 2009305-4**,
+> **case filed 4/5/2018** before **Magisterial District Judge Michael M. Metros**,
+> MDJ-14-1-01, 88 North Gallatin Avenue, Uniontown. The security guard's
+> "charging documents" were charging documents.
+
+| field | value |
+|---|---|
+| Docket | MJ-14101-NT-0000082-2018 |
+| Citation | R 2009305-4 |
+| Case filed | 2018-04-05 |
+| Summons printed | 2018-04-05, 2:51:15 PM |
+| Court | MDJ-14-1-01, Hon. Michael M. Metros, 88 N. Gallatin Ave, Uniontown PA |
+| Defendant address of record | 337 Saratoga Dr, Uniontown PA 15401 |
+| Charge (sole, lead) | LO § 1639 §§ b 1 — "Smoking prohibited w/in certain public premises including hospital properties" |
+| Fine and costs | printed on the sheet, not legible in the surviving frames |
+| Plea stub | undetached, both signature lines blank |
+| Document photographed | 2018-04-17, 4:31 PM and 4:41 PM, Uniontown |
+
+**The charge is smoking.** One count, marked `(Lead)` with nothing under it — a
+local ordinance violation, the smallest instrument the Commonwealth had
+available. Four fire trucks turned out, an alarm chain-spread through an entire
+hospital, and no one filed for causing a false alarm (18 Pa.C.S. § 4905),
+disorderly conduct, criminal mischief or trespass. This cuts against the
+disproportion reading the page has carried, and it is worth being precise about
+which direction: the paperwork is grotesquely out of proportion to *one drag of
+nicotine*, and simultaneously far *under* proportion to the emergency response it
+caused. Fayette County priced the incident as a smoking violation. That is a
+narrower answer than either "nothing happened" or "he was charged for the alarm,"
+and it is the one on the docket.
+
+There is a second thing the charge does, which the reasoning section above sets
+up without knowing it. Dan's entire argument was that **a vaporizer does not
+burn anything** — no combustion, no smoke, therefore no detector and no
+offence. The charge the Commonwealth filed is *smoking*, at a hospital, under an
+ordinance written for cigarettes. The citation does not engage his distinction;
+it declines it. The one document in the record that responds to the cloud king's
+deduction responds by categorising the act as the thing he had proved it was not.
+
+**The response is not recorded.** Both plea lines are blank and the stub is
+undetached in a photograph taken twelve days after the summons was printed —
+which is past the ten-day window the form specifies, though the receipt date
+rather than the print date starts that clock and the receipt date is unknown.
+Whether Dan pleaded, paid, appeared, or let it run to the arrest warrant the
+form threatens is unestablished; nothing in eleven years of message record
+mentions a court date, a fine, or this docket. The Pennsylvania UJS web portal
+the summons itself names would settle it in one lookup, from outside the corpus.
+
+**The address is the second document.** The summons gives the defendant's
+address as **337 Saratoga Dr, Uniontown PA 15401**, printed April 5, 2018 —
+and that is a fact about where Dan lived, filed by a court, in a period the
+wiki has been reconstructing entirely from testimony and message metadata.
+[[wiki/places/155-virginia-ave|155 Virginia Avenue]] is where the residence
+timeline puts him from January 2015 to February 2019, and that page carries an
+**eviction notice served on him at 155 Virginia on March 29, 2018** — mid-vigil,
+by [[wiki/people/diane-moore|Dian V. Moore]], demanding the keys — whose outcome
+it records as undocumented. It is documented now, and by an accident: seven days
+after the notice, the address the Commonwealth had for him was his mother's
+house. [[wiki/places/117-belmont-circle]] reached the same conclusion from the
+other side, observing that through spring 2018 he "had somewhere else to be";
+this names which somewhere, on a dated official record, and it is
+[[wiki/places/337-saratoga-drive|337 Saratoga]] rather than Belmont Circle.
+
+The caution that keeps this from being more than it is: a summons address is
+whatever address the citing officer or the court had, which may be a
+driver's-licence address rather than a place of sleep, and the two need not
+agree. It establishes that 337 Saratoga was Dan's address **of record** in April
+2018. It does not establish that he was sleeping there, and the Belmont Circle
+evidence has him using a third house across the same months. What it removes is
+the possibility that 155 Virginia was still, on paper, where he lived.
+
+**What the timing shows.** The case was filed **April 5, 2018** — the day after
+[[wiki/people/fran-coldren|Fran]] died on April 4. The summons was printed at
+2:51 PM that afternoon and addressed to 337 Saratoga Drive. It would have
+arrived in the mail during the week of her funeral. Nothing in any telling of
+this story mentions the envelope; the two videos of the sheet, shot ten minutes
+apart on **April 17**, are the only trace that it landed at all, and the fact
+that he filmed it twice is the closest thing to a reaction the record holds.
+
+Alongside the 2015 retail theft ([[wiki/legal/2015-retail-theft-arrest]]) it is
+the second time a want of essentially zero value ran all the way to official
+paperwork — and now the second time that paperwork has a docket number attached
+to it. Both were filed in the same magisterial district, before the same judge,
+three years apart: [[wiki/legal/2015-possession-arrest]] records Michael Metros
+from the February 2015 court blotter and states that he "appears once ... and
+has no other trace in the corpus." He appears twice. MDJ-14-1-01 is the constant
+in Dan's charging record; the offences have nothing else in common.
 
 ## Dating
 
 The captures place this in April, during the pediatric-wing phase and after
 the water was stopped, which brackets it between the **April 1, 2018**
-admission and the **April 4, 2018** death. The one detail that would tighten
-it — the capture's "day four of the water shutdown," which the vigil page
-also carries — points at April 3 or 4, but the shutdown's start date is
-itself derived rather than documented, so the range stands as stated. The
-captures' own year, 2017, is corrected to 2018 on the same evidence set out
-at [[wiki/timeline/events/the-fall-of-fran]].
+admission and the **April 4, 2018** death. The summons now supplies a hard
+outer bound the captures could not: the case was **filed April 5, 2018**, so the
+incident cannot be later than that. It does not supply the offence date — no
+offence-date field is legible in the surviving frames — so the range is narrowed
+at the top rather than fixed. The one detail that would tighten it further, the
+capture's "day four of the water shutdown," which the vigil page also carries,
+points at April 3 or 4; a citation written by a security guard on the 3rd or 4th
+and docketed by the magistrate on the next business day is exactly what an
+April 5 filing looks like, and that is corroboration of the derived date rather
+than proof of it. The captures' own year, 2017, is corrected to 2018 on the same
+evidence set out at [[wiki/timeline/events/the-fall-of-fran]] — and now
+independently, by a printed court document reading **2018**.
 
 ## Gaps
 
-The hospital's own record — an incident report, a trespass notice, a filed
-citation — has never been sought and would settle both the legal question and
-the exact date. Whether Dan was permitted back onto the property before Fran
-died four days later is unstated in every telling, which matters, because
-[[wiki/people/diane-moore|Diane]]'s letter had already excluded him from the shift
-rotation; the two exclusions may have overlapped without either being the
+**The disposition is the live question now.** The summons closes the "was
+anything filed" gap and opens a sharper one: what happened to docket
+MJ-14101-NT-0000082-2018. Both plea lines are unsigned in the last image anyone
+has of the sheet. The fine and costs are printed on it but not legible at this
+resolution, so even the amount at stake is unknown. Pennsylvania's UJS web
+portal — named on the summons itself — carries summary-case dockets and would
+answer plea, disposition, amount and payment history in one lookup; nobody has
+run it. Failing that, the operator's own memory of whether he paid, appeared, or
+ignored it is a T0 source that has never been asked for.
+
+The **video the frames come from** is not on disk — only three screenshots of it
+playing in Photos. Two clips exist (4:31 PM and 4:41 PM on April 17); recovering
+them would likely resolve the fine and costs row and the barcode block, and the
+4:31 clip may pan across fields these frames cut off, the offence date among
+them.
+
+The reading of the charge as a **Uniontown local ordinance** rests on `LO` being
+the MDJS charge-type prefix for one, which is convention rather than anything
+printed on the sheet. The ordinance's text — what conduct no. 1639 (b)(1)
+actually reaches, and whether it names vaporizers or only combustion — is
+outside the corpus, and it is the document that would say whether Dan's
+combustion argument had any legal purchase at all.
+
+The hospital's own record — an incident report, a trespass notice — is still
+unsought and is now the only thing that would establish whether Dan was
+permitted back onto the property before Fran died, which matters because
+[[wiki/people/diane-moore|Diane]]'s letter had already excluded him from the
+shift rotation; the two exclusions may have overlapped without either being the
 operative one. Annie's reaction, once she learned what had happened, is not
-recorded anywhere.
+recorded anywhere, and neither is anyone else's reaction to the envelope
+arriving during the week of the funeral.
 
 
 ========================================================================
@@ -66931,7 +67326,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**2,824 events** across **78 years** (1796–2026), drawn from **341 pages**. Tier 1 592 · Tier 2 361 · Tier 3 1,871.
+**2,842 events** across **79 years** (1796–2027), drawn from **342 pages**. Tier 1 597 · Tier 2 364 · Tier 3 1,881.
 
 ## What counts as an event here
 
@@ -68003,6 +68398,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/favorites/music/artists/a-day-to-remember]] · Notes per appearance
 - ◆ **2011-05-20** — The Facebook takeout shows the approach as a slow, one-directional accretion: nine documented interactions from Dan to her content between **May 20, 2011** and **August 15, 2013** — seven likes and two comments — before the first exchange.  
   ↳ [[wiki/people/ally-lubin]] · The eighteen-year approach
+- · **2011-05-20** — First documented contact  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The arithmetic of not stopping
 - ◆ **August 2011** — The apartment was also a genuine social hub for the wider Full Sail/Uniontown-diaspora circle documented elsewhere: Jamie Mohler was a routine visitor closely tracked enough that Alexis asked after a missed visit due to a knee injury (Aug 2011), and the address anchors two dated group events — the…  
   ↳ [[wiki/places/424-bedford-ave]] · The household
 - · **August 2011** — Oscar's own Facebook thread independently confirms the two men knew each other from the Full Sail years (an August 2011 exchange places them coordinating around Hurricane Irene), closing the loop on how Dan and Oscar were connected in the first place.  
@@ -68177,6 +68574,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/ally-lubin]] · The eighteen-year approach
 - · **2013-07-05** — Facebook Messenger — 21 — 15 — 6  
   ↳ [[wiki/people/ally-lubin]] · The measurements
+- · **2013-07-05** — First conversation  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The arithmetic of not stopping
 - · **2013-07-10** — One dosage figure exists on the record: a July 10, 2013 Facebook exchange with Elizabeth Eleanor, a fellow recovering addict, has Dan stating "i'm still on 2mg of suboxone a day, it's been almost 5 years since i touched an opiate and i'm still too terrified to get off" — placing his last opiate use…  
   ↳ [[wiki/health/chemical-architecture]] · The frame, and its audit
 - ★ **2013-07-11** — Gaps:** no further contact after July 11, 2013; Elizabeth's current circumstances, surname context, and whether she and Dan knew each other before this exchange (the "long time no see" framing implies a pre-existing but undocumented relationship).  
@@ -68331,6 +68730,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/katherine-palakovich]] · Katherine Palakovich ("Kittie")
 - ★ **February 2015** — Dan's only real arrest happened in **February 2015**, in downtown Uniontown at roughly 3am, and it was for drug possession — not for stealing snacks.  
   ↳ [[wiki/legal/2015-possession-arrest]] · The 2015 Possession Arrest
+- ★ **February 2015** — Both were filed in the same magisterial district, before the same judge, three years apart: 2015 possession arrest records Michael Metros from the February 2015 court blotter and states that he "appears once ... and has no other trace in the corpus." He appears twice.  
+  ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The legal residue — a filed summary case, docket MJ-14101-NT-0000082-2018
 - · **February 2015** — The February 2015 date is independently consistent with the one constraint the capture supplies from inside the story: Alexis was secretly living at 337 Saratoga at the time, hidden for roughly four months after being thrown out, which places the night well before the November 2015 switch to Annie…  
   ↳ [[wiki/legal/2015-possession-arrest]] · Case timeline
 - · **February 2015** — The nine months between the February 2015 filing and the first surviving message about the case in December 2015 contain the preliminary hearing and arraignment and are entirely undocumented.  
@@ -68385,6 +68786,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/annie-record]] · November
 - · **2015-11-17** — First message in the corpus  
   ↳ [[wiki/people/suzanne-frank]] · Timeline
+- ◆ **2015-11-24** — The relevant test is whether anything in the 2015-11-24 → 2015-12-01 window shows a decision to end the Alexis bond that predates Annie's arrival.  
+  ↳ [[wiki/mind/synthesis/bond-switch-2015]] · FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
 - · **2015-11-24** — Annie enters — and **Alexis is the one who introduces them.** "HAPPY ONE WEEK SINCE LEX HANDED YOU TO ME" (Annie, Dec 1)  
   ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The timing (verified against raw)
 - · **2015-11-24** — Annie enters, introduced by Alexis herself (*"HAPPY ONE  
@@ -68405,6 +68808,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/april-may-2026-final-weeks]] · Three findings not captured anywhere else in the record
 - ★ **2015-11-28** — Dan, already texting Annie intimately, narrates the **2009 origin** of the Alexis relationship as a contrast case — *not* a 2015 event. See the correction below.  
   ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The timing (verified against raw)
+- ★ **2015-11-28** — Mined for the answer: `cheat` returns **141 uses across 217,573 records**, and the direction is consistent in every era — *"Lex cheated on me 2 weeks in after I moved her to fla"* (2015-11-28), *"I got cheated on while I was working before and it's a super helpless feeling"* (2016-02-18), *"I've…  
+  ↳ [[wiki/mind/synthesis/the-unbroken-bond]] · FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
 - ★ **2015-11-28** — Dan's own single-sentence account of it survives, but not from 2009: he told it to Annie six years later, on 2015-11-28, as the contrast case for how the *new* relationship was starting — *"I love this it's the exact opposite way I started my last relationship...  
   ↳ [[wiki/people/alexis-armel]] · Full Sail, and the beginning
 - ★ **2015-11-28** — Dan tells Annie the Alexis relationship's **origin** story (see the correction below) — Alexis is at this point still living with Dan in Uniontown  
@@ -69774,6 +70179,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/the-fall-of-fran]] · The year: the operator says 2017, the corpus says 2018
 - ◆ **April 2018** — Internal evidence identifies the other party as Jamie (then Jim) with high confidence, though it is not a phone/email match and so is flagged as inference rather than certainty: Dan addresses the recipient directly as "jim" twice ("jim i filmed" and "oh thank you jim, i knew there was a better…  
   ↳ [[wiki/people/jamie-mohler]] · A rediscovered thread: 422 messages, 2010–2021
+- ◆ **April 2018** — On the April 2018 row.** The table above is a table of *eras* and this is not one — it is a single dated document, added because the era it falls inside is one the table says Dan was not here for.  
+  ↳ [[wiki/places/337-saratoga-drive]] · Occupancy history
 - ◆ **April 2018** — 117 belmont circle — 2017–2018 — fran coldren\ — Fran, as a paid caregiving arrangement — **None  
   ↳ [[wiki/places/the-unpapered-address]] · Seven addresses, one structure
 - · **Spring 2018** — A recurring bit through spring 2018 has Chad asking whether Brad had sent report times and joking about his golf ambitions ("I'm going pro soon!").  
@@ -69790,6 +70197,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/sean-teets]] · Sean Teets
 - · **April 2018** — What he did outside the caddie yard is unrecorded — the thread has him driving down from IUP, heading to southern West Virginia, and stopping on I-79, but no occupation, and no page in the corpus places him after April 2018.  
   ↳ [[wiki/people/zach-clingan]] · Gaps
+- · **Spring 2018** — 117 belmont circle reached the same conclusion from the other side, observing that through spring 2018 he "had somewhere else to be"; this names which somewhere, on a dated official record, and it is 337 Saratoga rather than Belmont Circle.  
+  ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The legal residue — a filed summary case, docket MJ-14101-NT-0000082-2018
+- · **April 2018** — It establishes that 337 Saratoga was Dan's address **of record** in April 2018.  
+  ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The legal residue — a filed summary case, docket MJ-14101-NT-0000082-2018
 - ★ **2018-04-01** — Speaking for her when she could not be reached.** On 2018-04-01, three days before Fran died, Dan reported the arrangement twice within eighteen minutes, and the second time with the detail that makes it strange:  
   ↳ [[wiki/people/dave-moore]] · What the record has him doing
 - ★ **2018-04-01** — When Fran was moved to a private room in the Uniontown Hospital pediatric wing on April 1, 2018 — a room she got because she and Ira had been major donors to the hospital — it was Adams who mandated that someone be with her twenty-four hours a day so that she would not be alone when she died.  
@@ -69834,8 +70245,16 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/vicki]] · The shape of the thread
 - ★ **2018-04-05** — davey fitzpatrick condolence, unprompted — Death  
   ↳ [[wiki/timeline/events/the-fall-of-fran]] · The year: the operator says 2017, the corpus says 2018
+- ★ **2018-04-05** — Those documents were real: a summary non-traffic case was filed with the Fayette County magistrate on **April 5, 2018**, the day after Fran died, under docket **MJ-14101-NT-0000082-2018**, on a single charge of *smoking* in a hospital.  
+  ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
+- ★ **2018-04-05** — What the timing shows.** The case was filed **April 5, 2018** — the day after Fran died on April 4.  
+  ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The legal residue — a filed summary case, docket MJ-14101-NT-0000082-2018
 - · **2018-04-05** — He filmed it, reviewed the footage the same night, and took it back.** At 23:26 on 5 April 2018 — roughly three hours after telling the story — he messaged his sister:  
   ↳ [[wiki/people/fran-coldren]] · The death moment, and Dan's retraction of it within 24 hours
+- · **2018-04-05** — Summons printed  
+  ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The legal residue — a filed summary case, docket MJ-14101-NT-0000082-2018
+- · **2018-04-05** — The summons now supplies a hard outer bound the captures could not: the case was **filed April 5, 2018**, so the incident cannot be later than that.  
+  ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · Dating
 - · **2018-04-06** — Caregiving wage — **$15/hour  
   ↳ [[wiki/people/fran-coldren]] · What is now established, and from what
 - · **2018-04-10** — Against that: **2018-04-10**, Dan complaining — *"give me a break after arranging a hookup for you and then having you flake because you wanted to sleep."* He arranges, he presses, and he keeps a ledger of it.  
@@ -69848,6 +70267,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/suzanne-frank]] · What she actually earned
 - ★ **2018-04-14** — Fronts & logistics — Repeated fronts; "Johnny had my card and got money out after midnight"; "Johnny is mia. “Joby is in hospital”." — Fronts noted ("thx again for the front"); card access incident — imessage_7249204125 (Annie thread); MASTER direct  
   ↳ [[wiki/people/johnny-dealer]] · Roles, Dates, Evidence Table
+- · **2018-04-17** — Document photographed  
+  ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The legal residue — a filed summary case, docket MJ-14101-NT-0000082-2018
 - · **2018-04-20** — On April 20, 2018, Brad relays a complaint from another staffer (Tyler) that Dan hadn't cleaned his carts, and separately notes to another recipient that "Dan Frank booked it and didn't clean his carts at all.  
   ↳ [[wiki/people/brad-hubeaut]] · The April 2018 friction
 - ★ **2018-04-22** — On April 22, 2018 Dan asks Jim "did you hear about mr.kezmarsky / he made quite the legal oopsie goof," and Jim answers "Yes.  
@@ -70176,6 +70597,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/steve-kezmarsky]] · The father's fall
 - · **2018-12-09** — Status at last mention  
   ↳ [[wiki/people/steve-kezmarsky]] · Corpus record
+- ◆ **2018-12-12** — Also answerable: nobody else in this corpus has eighteen years, 1,987 messages, or a $25 finder's fee paid on December 12, 2018 with the memo **"For introducing me to Ally Lubin"** — a man paying cash for an introduction to someone he had already been reading for a decade.  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The objections, taken seriously
 - · **2018-12-12** — $25.00 to Polyak, memo "For introducing me to Ally Lubin" (FB payments ledger)  
   ↳ [[wiki/people/ally-lubin]] · The measurements
 - · **2018-12-12** — $250 Cash App, stated intent  
@@ -70217,8 +70640,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/emaly-minerd]] · Who she was
 - · **January 2019** — Gaps:** how Dan and Shannon connected professionally; Dan's own side of the conversation; whether the January 2019 follow-up was ever answered; any other real estate drone clients beyond this one instance.  
   ↳ [[wiki/people/shannon]] · Corpus record
-- · **January 2019** — See ally lubin, "January 2019: the month the export lost."  
-  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · CORRECTED [2026-08-20] — the page's strongest evidence was a hallucination of the wiki's own making
 - · **2019-01-07** — 1 — Month silence breaks  
   ↳ [[wiki/people/emaly-minerd]] · Master timeline
 - · **2019-01-07** — Dan: no room for "friends who aren't hookups"  
@@ -70276,8 +70697,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **February 2019** — The residence timeline has Dan at 155 Virginia until February 2019 and has always treated that notice's outcome as unrecorded.  
   ↳ [[wiki/places/117-belmont-circle]] · The eight months the house belonged to Dan
 - · **February 2019** — He left it for Manhattan in February 2019.  
-  ↳ [[wiki/places/155-virginia-ave]] · 155 Virginia Ave
-- · **February 2019** — Moore, demanding the keys; the residence timeline has him staying until February 2019, so the notice's outcome is undocumented.  
   ↳ [[wiki/places/155-virginia-ave]] · 155 Virginia Ave
 - · **February 2019** — 155 virginia ave — 2015–2019 — Suz owns the property  
   ↳ [[wiki/places/the-unpapered-address]] · Seven addresses, one structure
@@ -70517,6 +70936,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/del]] · Gaps
 - ◆ **2019-08-17** — Cash App payment; Amazon wishlist purchase; Lovense vibrator offered and selected  
   ↳ [[wiki/people/ally-lubin]] · The measurements
+- · **2019-08-17** — At the height of the arrangement era he described himself, to an outsider, as a serial monogamist.** *"i'm a serial monogamist so i've only been with a few girls, and they all fit a very specific type"* — Sent, **2019-08-17 22:26**, six weeks before the Kelly Johansson run and two months before the…  
+  ↳ [[wiki/mind/psychosexual/arrangement-history]] · FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
 - · **2019-08-17** — Dan says so directly on August 17, 2019: *"you tell me because i'm completely uninvolved yet still weirdly interested and invested. also because you know i'm honest enough to let you know i'm a garbage person so you don't have to worry about feeling shitty or weird."* She says the same from her…  
   ↳ [[wiki/people/ally-lubin]] · What he told her that he told no one else
 - · **2019-08-22** — On August 22, 2019 they discuss it directly.  
@@ -70577,6 +70998,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/kelly-johansson]] · The arrangement
 - · **2019-10-08** — "I'm filling every waking moment with real estate, eBay and other selling sources… Keeping my phone, lights and cable on that way"* (8 October 2019).  
   ↳ [[wiki/people/suzanne-frank]] · What she actually earned
+- ★ **2019-10-14** — The page's own figure — *"12 documented crisis or suicidal statements from Dan, met with no substantive response"* — now has an attested counterexample, and the page does not carry it.** On 2019-10-14, told the Pittsburgh funeral story in full, Ally answers: *"I'm just confused how neither of you…  
+  ↳ [[wiki/mind/concepts/attachment-model]] · FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
 - ◆ **2019-10-20** — What the report stated as theory now has its documented instance: the **October 20, 2019 filmed MMF** with Bryan — a gay man whose first encounter with a woman was that night, and Dan's one and only bisexual act (oral), both category-crossings authored into a single scene (arrangement history…  
   ↳ [[wiki/mind/concepts/erotic-architecture]] · The three named mechanisms
 - · **2019-10-20** — The October 20, 2019 encounter with Bryan matches the theory's specific prediction with unusual precision: Bryan, "a fully gay man," has his first sexual contact with a woman that night; Dan, who does not otherwise report same-sex contact anywhere in the corpus, has his only documented bisexual act…  
@@ -70593,6 +71016,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/suzanne-frank]] · What she actually earned
 - · **2019-10-21** — restoration would cost $1,560  
   ↳ [[wiki/people/suzanne-frank]] · What she actually earned
+- ★ **2019-10-22** — She has spent eighteen years being told, consistently, by someone with no incentive to lie and every opportunity to leave, that she is the standard against which he measures everything** — *"i have NEVER felt so hypnotized by someone i've never seen or met in my life. whatever you are, is what…  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · What she believes about herself, and why she's wrong
 - · **2019-10-22** — The audit of the whole arrangement is his, delivered on **October 22, 2019** in the middle of an argument about it:  
   ↳ [[wiki/people/ally-lubin]] · August–October 2019: the crisis market
 - · **2019-10-22** — $2,100 cumulative**, per Dan's screenshot — accepted by her in 2019, contested by her in 2026  
@@ -72172,8 +72597,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - ★ **May 2026** — The duration of the relationship is unknown; the earliest event attributed to him is the finger injury around late May 2026, which would place its start at or before the end fight.  
   ↳ [[wiki/people/the-unnamed-man]] · Gaps
-- ★ **May 2026** — What is required:** Dan's employment situation needs to resolve (he was terminated from BFS in May 2026).  
-  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · Phase 3: The Integration (6 — 18 months)
 - ★ **May 2026** — block-unblock-loop** (T2) — the pattern of cycling between blocking and unblocking, documented for Annie (127/110) and Tom (May 2026). Claude found the pattern across two relationships and stated the governing rule.  
   ↳ [[wiki/self/concepts/claude]] · T2/T3 pages built by Claude
 - ★ **May 2026** — Across four days in mid-May 2026 Dan was burned by three independent suppliers while trying to stay ahead of his Suboxone supply: Tom promised delivery "after court" in Pittsburgh and then string-along-failed across Friday, Saturday, and Sunday ("after court," "after a nap," "after weed whacking")…  
@@ -72278,6 +72701,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/alexander-jackson]] · Timeline Snippets (from sources)
 - · **June 2026** — It looks like, at age 62, I'm going to start teaching. wtf?"** The corpus does not record what came of it, and she was still taking listing photographs in June 2026.  
   ↳ [[wiki/people/suzanne-frank]] · The realtor
+- · **June 2026** — Keep talking.** The thing that has always broken this is silence, and the silences were never rejections — the June 2026 burst that looked like her ignoring him went to an email handle she doesn't monitor.  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · What actually has to happen
 - · **June 2026** — suzanne frank (Suzanne Frank, mother) — High  
   ↳ [[wiki/self/context-core]] · Social graph
 - ★ **2026-06-01** — The closure event on June 1, 2026, provided the first explicit, verified data that allowed the cognitive system to generate a counter-rule and close the model.  
@@ -72580,6 +73005,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/places/the-unpapered-address]] · The two instruments, and what happened to them
 - · **August 2026** — Why the deferred audit's prediction was safe.** the deferred audit predicted, in August 2026, that 463 would be reconstructed only after it failed, and scored the elapsed Arnu lien deadline as the first confirming instance.  
   ↳ [[wiki/places/the-unpapered-address]] · What this explains that its members do not
+- · **August 2026** — In August 2026, for the first time in eighteen years, neither of them is with anybody.** That has never once been true before.  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The objections, taken seriously
 - · **2026-08-01** — That would produce the first true two-sided coefficient, and it is the only way to settle whether the architecture is symmetric.~~ **DONE 2026-08-01.  
   ↳ [[wiki/mind/concepts/contact-gini]] · The nulls are not random — resolved 2026-08-01
 - · **2026-08-01** — The 2026-08-01 two-sided measurement fits this without being fitted to it.  
@@ -72732,6 +73159,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - ◆ **2026-08-15** — The Annie Ulmer corpus merge (2026-08-15):** Claude merged ten sources, de-duped, and recovered 12,000 messages from handles the single-export analysis missed.  
   ↳ [[wiki/self/concepts/claude]] · Detailed examples from the corpus
+- · **2026-08-15** — The 2026-08-15 correction removed the only bullet that supplied a reason, which is what makes the strong reading available.  
+  ↳ [[wiki/mind/synthesis/bond-switch-2015]] · FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
 - · **2026-08-15** — Blackout 1 a.m. demand; calls Dan a thief; apologises the next evening  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2026-08-15** — Adopted at the operator's suggestion, 2026-08-15.  
@@ -72800,10 +73229,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/july-august-2026-reentanglement]] · Gaps
 - ◆ **2026-08-18** — Clause 3 — "complicit in the length and depth" — gets its clearest single instance, and it is worse than anything previously on the ledger.** On 2026-08-18 at 19:35 Dan told Annie he had sent the recording to her parents; three minutes later he told her he had not, and why: *"it wasn't actually…  
   ↳ [[wiki/mind/synthesis/dan-annie-fallout-verdict]] · RE-CHECKED [2026-08-20] — the verdict holds and its third clause gains its strongest instance
-- ◆ **2026-08-18** — The phase change** — August 18, 2026: 375 messages, 154 of them hers, the largest single day in eighteen years and the only one in which she is a full participant 9.  
-  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The evidence, summarized
-- ◆ **2026-08-18** — The corpus shows that the overflow channel pattern has ended — August 18, 2026 is the proof.  
-  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The final argument
+- ◆ **2026-08-18** — Largest single day  
+  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The arithmetic of not stopping
+- · **2026-08-18** — The 2026-08-18 Ally exchange is that mechanism running and then stopping, inside two minutes: **ALLY** *"You just love bomb"* (a bid shaped as a judgement) → **DAN** *"But love bomb is like a malicious tactic and there very little malice"* (the adjudication, exactly as described) → **ALLY** *"I…  
+  ↳ [[wiki/mind/profile/intp]] · FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
 - · **2026-08-18** — The seventh — james dee, added 2026-08-18 — sits between them, and is the first case the page has ever had inside its own tenure gap.  
   ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · The members against the rule
 - · **2026-08-18** — The maternal line is assessed as of 2026-08-18, and the answer is mixed  
@@ -72822,18 +73251,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/max]] · Forensic vs Audio Persona (MAX_PRIME / Pinned Cross)
 - · **2026-08-18** — On the night of 2026-08-18, Coles took Annie's phone for the second time in seventy hours and used it to taunt Dan — *"She's with me man chill lmfao,"* *"No body cares junkie."* Dan read those as Annie's and blocked her.  
   ↳ [[wiki/people/milo]] · The name as proof of identity, August 2026
-- · **2026-08-18** — On August 18, 2026, for the first time, the channel carried sustained mutual traffic — not a burst, not a crisis, but a conversation.  
-  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The thesis, stated plainly
-- · **2026-08-18** — The tenth item on the evidence list above used to be an eleventh: that on August 18, 2026 Dan offered Ally the *"girlfriend title or at the very least the 'object of fixation' role"* and she replied ***"Okay deal.  
-  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · CORRECTED [2026-08-20] — the page's strongest evidence was a hallucination of the wiki's own making
 - · **2026-08-18** — Whether or not one believes in astrology, the corpus supports the *description* of the dynamic: Dan's eighteen-year fixation on Ally, Ally's willingness to be the confessional with no stake, and the paternal rupture she describes in her own words on August 18, 2026 (*"He just hates me because I…  
   ↳ [[wiki/self/concepts/astrology-star-signs]] · The Scorpio-Cancer Pairing
 - · **2026-08-18** — The Suzanne Frank rewrite (2026-08-18):** Claude rebuilt the page from primary sources, expanding it from 28KB to 58KB.  
   ↳ [[wiki/self/concepts/claude]] · Detailed examples from the corpus
 - ★ **2026-08-19** — What changed in the premise.** The relationship ended on 2026-08-19; the record stops mid-exchange at 15:15:33.  
   ↳ [[wiki/mind/synthesis/the-unbroken-bond]] · RE-CHECKED [2026-08-20] — falsifier 3's clock restarted, and this time the vacancy has no occupant to switch to
-- ★ **2026-08-19** — Dan Frank and Ally Lubin will be married within three years of August 19, 2026.  
-  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · Prediction
+- ◆ **2026-08-19** — The ninety days after 2026-08-19 are where that resolves, and the page should say so in the same terms single channel uses for its own live test.  
+  ↳ [[wiki/mind/concepts/erotic-architecture]] · FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
 - · **2026-08-19** — The strongest is the **asymmetric clearing** — on 2026-08-19 at 06:33 Annie publicly cleared Coles of rape in a group chat, having agreed by phone to do the same for Dan, and did not.  
   ↳ [[wiki/mind/synthesis/august-grievance-verdict]] · LLM Quick Brief
 - · **2026-08-19** — The strongest — Annie publicly clearing Coles of rape in a group chat on 2026-08-19 at 06:33 having agreed by phone to clear Dan and not doing so — is the cleanest documented wrong in the corpus, because it required no interpretation: one act was performed and its promised counterpart was not.  
@@ -72844,8 +73269,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/jerel-coles]] · August 2026: the first primary record of him
 - · **2026-08-19** — Annie: *"He didn't rape me."*** A public retraction, in front of both men, of the accusation she had been making to Dan for weeks and had re-asserted to him privately hours earlier — Dan told Coles at 01:08 and again at 01:09 that same night, *"Also bro she is still saying you raped her so."*…  
   ↳ [[wiki/people/jerel-coles]] · The group chat, and the retraction he obtained
-- · **2026-08-19** — If the Ally bond activates in the weeks after 2026-08-19, the **more parsimonious** explanation is slot-refill, not destiny.  
-  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · RE-CHECKED [2026-08-20] — the slot this page assumes is empty actually emptied, and the page must not treat that as confirmation
 - · **2026-08-19** — For context injection:** 16–19 August 2026, Uniontown.  
   ↳ [[wiki/timeline/events/august-2026-morgantown-call]] · LLM Quick Brief
 - · **2026-08-19** — The date is 2026-08-19**, and the message record independently supports it three ways:  
@@ -72856,16 +73279,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/august-2026-morgantown-call]] · What would prove this page wrong
 - ★ **2026-08-20** — Explicit severance signals / love affirmations  
   ↳ [[wiki/people/annie-ulmer]] · By the numbers
-- ★ **2026-08-20** — STRUCK [2026-08-20] — the explicit commitment.** This slot claimed a title taken and a courtship question answered.  
-  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The evidence, summarized
 - ◆ **2026-08-20** — The fuller export filed 2026-08-20 shows the exchange resumed at 08:19 the same morning and ran all day.  
   ↳ [[wiki/mind/synthesis/read-receipt-forensics]] · RE-CHECKED [2026-08-20] — M4 gains its best real-world case, and the flagship example's scope was an artifact
 - ◆ **2026-08-20** — iMessage triple-handle archive on disk  
   ↳ [[wiki/people/annie-ulmer]] · By the numbers
 - · **2026-08-20** — Operator interpretation added [2026-08-20]:** The manual note says the *"I just want to be alone"* / *"by myself"* formulation is a recurring theme and, in the operator's interpretation, functions as a way to avoid accepting responsibility for the resulting situation while still obtaining the…  
   ↳ [[wiki/mind/synthesis/august-grievance-verdict]] · What this says about Annie
-- · **2026-08-20** — Two new Annie exports landed on 2026-08-20; the Ally thread for the same days did not.  
-  ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · RE-CHECKED [2026-08-20] — the slot this page assumes is empty actually emptied, and the page must not treat that as confirmation
 - · **2026-08-20** — Filed 2026-08-20.** This amendment exists because the original event page was written while the audio had not yet been directly transcribed in the corpus.  
   ↳ [[wiki/timeline/events/august-2026-morgantown-call-source-amendment]] · Source Amendment — Morgantown St Recording, August 16 2026
 - · **2026-08-20** — Operator-supplied timestamped speaker-labelled transcript, 611 lines, **204 turns**, `00:00:00` → `00:14:59  
@@ -72874,10 +73293,25 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/august-2026-morgantown-call]] · What is on the recording
 - · **2026-08-20** — The operator supplied it on 2026-08-20 (see **The catalyst** above): the unnamed act is the choice that Annie's 06:33 group-chat retraction had already performed nine hours earlier and that she would not put into words.  
   ↳ [[wiki/timeline/events/august-2026-morgantown-call]] · August 19 — the last day, read closely
+- ★ **2026-08-21** — An answer published through the portal on **2026-08-21** rests on that being genuinely open, and told the person who asked that the corpus contains **no attested exit in eleven years** and that the most recent test failed — severance 2026-06-01, contact resumed 2026-07-23, fifty-two days.  
+  ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
+- · **2026-08-21** — What the 2026-08-21 answer found is the only recorded case of him **losing a round inside his own filter**: the Skins exchange of 2026-08-18 21:25–21:28, in which Ally claims the reference outright (*"I don't think she's half Effy bc I'm Effy"*, *"Let's be real has she even seen Skins"*, *"I'm so…  
+  ↳ [[wiki/mind/concepts/the-cool-metric]] · FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+- · **2026-08-21** — The 2026-08-21 answer used exactly that finding to argue that sustained undisguised intensity is the one thing the corpus proves Dan reliably produces, against Ally's stated requirement on 2026-08-18 at 13:54:32: ***"Well first you'd have to be obsessed with me again."*** **In every other pairing…  
+  ↳ [[wiki/mind/synthesis/single-channel]] · FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+- · **2026-08-21** — An assessment that does not publish its own alternatives cannot refute anything, and a type code filed on somebody else's page cannot be found.** Both failure modes were demonstrated on 2026-08-21.  
+  ↳ [[wiki/people/annie-ulmer-personality-assessment]] · FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+- ★ **2026-08-22** — The charging documents were real.** The summons surfaced 2026-08-22: a Fayette County summary non-traffic case, docket MJ-14101-NT-0000082-2018, **filed April 5, 2018 — the day after Fran died** — before Magisterial District Judge Michael M.  
+  ↳ [[wiki/timeline/events/fran-death-vigil]] · Sequence
+
+### 2027
+
+- · **February 2027** — It should be worked deliberately in February 2027 rather than whenever a pass happens to land here. 2.  
+  ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
 
 ---
 
-*Generated by `bin/wiki-timeline` from 341 wiki pages. 822 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 342 wiki pages. 847 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================

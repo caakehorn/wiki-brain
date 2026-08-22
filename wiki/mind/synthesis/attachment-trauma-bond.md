@@ -5,7 +5,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-20
+date_modified: 2026-08-22
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -78,6 +78,17 @@ connections:
 
 
 # Attachment Trauma Bond and Aura Illness
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/people/suzanne-frank]] (2026-08-22), which moved by a `RE-CHECKED`
+> blockquote recording one new fact: a court summons for Dan, filed the day after
+> Fran died, was mailed to Suz's house during the week she was planning the
+> memorial alone ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]).
+> **Nothing on this page is affected.** No reaction of hers to that delivery is
+> recorded anywhere, so the fact supplies no behaviour to reason from; the
+> maternal-bond material here runs on documented exchanges, and none of it moved.
+> Nothing withdrawn.
+
 
 > **RE-CHECKED [2026-08-20] — the bond this page models ended, and the ending
 > is the model working, not failing.** Flagged stale against
