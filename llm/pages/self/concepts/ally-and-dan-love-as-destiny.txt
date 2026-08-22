@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-19
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 date_range_start: 2011-05-20
 date_range_end: 2026-08-20
 tags: [relationships, attachment, future]
@@ -51,6 +51,28 @@ connections:
 > as things that can be moved. It is a closing statement, not a finding. The
 > cross-examination lives at [[wiki/people/ally-lubin]] and it is good; read
 > both.
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against [[wiki/people/ally-lubin]]
+> (2026-08-22), which gained a tested **ENTP-T** result correcting its
+> long-standing single-source ENFP. Re-read against the change. **The thesis
+> survives and one of its sections is strengthened; a second obstacle is now
+> harder to move than this page treats it as being.**
+>
+> *Strengthened:* [[wiki/people/ally-lubin-cognitive-profile]] finds that the
+> variable predicting her engagement is **parity** — being met at speed and
+> corrected honestly — and not intensity. That is a mechanism for "The night it
+> was already mutual," which this page argues from without being able to say
+> *why* January 9, 2019 worked. It also explains the 2026-08-18 evening on the
+> same terms.
+>
+> *Harder:* the same page finds her stated precondition for interest is
+> proximity and knowledge while Dan's documented condition is inaccessibility,
+> and that the attachment has never once been tested against access. That does
+> not refute the thesis, but it sharpens this page's existing `contradicts`
+> edge to [[wiki/mind/concepts/erotic-architecture]] from a disagreement about
+> emphasis into a disagreement with a single decisive experiment. **This page's
+> honest position is unchanged and its timeline is not extended: a visit
+> settles it, and nothing else does.**
 
 ## The thesis
 

@@ -9,9 +9,9 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 43 |
-| Open gaps | 408 |
+| Open gaps | 416 |
 | Answered, awaiting ingest | 1 |
-| Standing predictions | 36 |
+| Standing predictions | 41 |
 
 ## Answered, awaiting ingest
 
@@ -111,6 +111,11 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/the-embedded-objective]]** — **Every job in the record, including any not yet documented, will show an out or a private objective installed in its first weeks — or it will be short.** A long tenure with no documented payload falsifies this page outright. The named test is the roughly elev
 - **[[wiki/mind/synthesis/the-embedded-objective]]** — **Jobs end when the payload is destroyed, not when conditions worsen.** Au Za'atar is the worked case. Any future job loss in the corpus should be checkable against which of the two happened first.
 - **[[wiki/mind/synthesis/the-embedded-objective]]** — **Assigned obligations with nothing embeddable should show acquisition documented and compliance undocumented**, as the ARD does. The Suboxone regimen is the sharpest available test in the other direction: it is a fifteen-year daily commitment originating in a
+- **[[wiki/people/ally-lubin-cognitive-profile]]** — **Parity predicts engagement; intensity does not.** Her inbound volume in any future window will correlate with the proportion of the exchange that is mutual riffing, and will be uncorrelated or negatively correlated with Dan's outbound volume. *Falsified by:*
+- **[[wiki/people/ally-lubin-cognitive-profile]]** — **A further money transfer will not produce reciprocity and will produce a comparison.** *Falsified by:* a documented payment followed inside a week by a sustained inbound increase with no comparative or self-diminishing line attached.
+- **[[wiki/people/ally-lubin-cognitive-profile]]** — **A concession from Dan in a live disagreement will be followed inside the hour by disclosure from her.** This is the 16:47 and 21:09 pattern, and it is the page's most specific claim. *Falsified by:* two or more clean concessions with no disclosure following.
+- **[[wiki/people/ally-lubin-cognitive-profile]]** — **Any approach with a recognisable template will be named as one.** She has done this twice on record — *"Men are so predictable," "A broken record."* *Falsified by:* a templated approach that lands without being identified.
+- **[[wiki/people/ally-lubin-cognitive-profile]]** — **The type will hold on retest but the Turbulent figure will move.** T/F is the marginal axis on the instrument and the behavioural evidence says the 54% understates the T; the 92% was recorded during or shortly after a documented acute period. *Falsified by:*
 - **[[wiki/places/the-unpapered-address]]** — **463 Morgantown will end by a sentence, not by a filing.** The 2026-08-11 *"It's time for you to go"* is the instrument this architecture actually uses. The rule predicts the next address change is triggered by a person's decision and that no notice, lease te
 - **[[wiki/places/the-unpapered-address]]** — **The next residence will also be unpapered, and will be held through Suz or through a partner.** Both are currently live channels (ally-lubin, annie-ulmer). The falsifiable form: if a 2026–27 address appears in the corpus with a signed lease in Dan's name, th
 - **[[wiki/places/the-unpapered-address]]** — **The Arnu lien will be resolved, if at all, by finding out rather than by contesting.** 463-morgantown records the ~2026-07-27 deadline as elapsed with no recorded outcome and a county search as the one-query fix. The rule predicts the search happens after th
@@ -263,7 +268,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (145)
+### people (153)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
@@ -277,6 +282,14 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/ally-lubin]]** — **Is she still alive and well?** Given the volume of documented suicidality in the 2019 material and her self-description in 2026, this is a question the wiki should not leave implicit.
 - **[[wiki/people/ally-lubin]]** — **What is Ally's brother's name, and does he still speak to Bob?** Dan asks both questions on August 19 at 08:12 and the answers are in the missing inbound.
 - **[[wiki/people/ally-lubin]]** — **Negative result, recorded:** she does not appear in `contacts.csv` with an address, in the GEDCOM, in the Twitter export, or in the Facebook search history. The Model Mayhem and "boca raton ally lubin" searches Dan describes on 2019-08-22 are from Google, wh
+- **[[wiki/people/ally-lubin-cognitive-profile]]** — Each of these is answerable by the operator in a paragraph.
+- **[[wiki/people/ally-lubin-cognitive-profile]]** — **Whose result is the screenshot, and when was it taken?** The image carries no identifying metadata. Did Ally send it to Dan directly, and on what date? The original `IMG_2320.heic` may carry EXIF that the screenshot destroyed.
+- **[[wiki/people/ally-lubin-cognitive-profile]]** — **What was her state when she took it?** The 92% Turbulent is the load-bearing figure and neuroticism instruments are state-sensitive. A test taken inside a bad week and one taken inside a good month are different data.
+- **[[wiki/people/ally-lubin-cognitive-profile]]** — **Did she report the result herself, or was it forwarded?** The visible page is the results email, which implies she had the account.
+- **[[wiki/people/ally-lubin-cognitive-profile]]** — **Has she ever tested before?** She asserted ENFP in December 2018 with enough confidence to argue about it, which suggests a prior result rather than a guess.
+- **[[wiki/people/ally-lubin-cognitive-profile]]** — **Is the Enneagram available?** This page has an MBTI read and no Enneagram, where annie-ulmer-personality-assessment carries both. The father material and the 2008 fixation would support a determination, but the page declines to guess one from behaviour alone
+- **[[wiki/people/ally-lubin-cognitive-profile]]** — **Did she reply to the elopement pitch?** Inherited from ally-lubin and load-bearing here: prediction 1 cannot be scored without the missing 2026-08-19 inbound.
+- **[[wiki/people/ally-lubin-cognitive-profile]]** — **Negative result, recorded:** no Big Five, no clinical instrument and no diagnosis for Ally exists anywhere in `raw/`. The suicidality material is self-report inside message threads, not assessment, and this page makes no clinical claim from it.
 - **[[wiki/people/annie-ulmer]]** — The compiled full-record files the dossiers drew from (`Dan_Annie_Full_Text.txt`, `1_year_triad_logs.csv`, `7_days_212_logs.csv`, `14_day_212_logs.csv`) aren't archived in `raw/`; the underlying iMessage data exists and the dual-handle export has been directly
 - **[[wiki/people/annie-ulmer]]** — One gap opened with the 2026-08-13 pass and **closed on 2026-08-20**.
 - **[[wiki/people/annie-ulmer]]** — **And the staged eviction has a missing middle**: the operator states messages were deleted to keep the plan from Annie, and the Paci thread's 167-day hole (2024-08-18 to 2025-02-01) is consistent with that, but the deletion is inferred from an absence plus te

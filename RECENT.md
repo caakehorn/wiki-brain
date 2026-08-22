@@ -8,10 +8,12 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-22 — 23 pages
+## 2026-08-22 — 27 pages
 
 - **Session log:** fix | people | a portal save put stray keystrokes into ally-lubin and turned the connect gate red on main
 - **Session log:** ingest | legal | the hospital-smoking summons — the charging documents were real, and they moved an address
+- **Session log:** ingest | people | 16Personalities result — Ally Lubin (ENTP-T)
+- **Session log:** lint | people | the same red gate was found twice, independently, inside twenty minutes
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -30,16 +32,20 @@ simply listed.
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — single-channel moved on 2026-08-22 solely by gaining a `RE-CHECKED` blockquote. Walking the chain back: it leads to the April 2018 hospital summons (uniontown-hospital-vape-alarm), a co |
 | [[wiki/mind/synthesis/the-embedded-objective]] | mind | _(carries a RE-CHECKED from 2026-08-24)_ |
 | [[wiki/mind/synthesis/totality-themes]] | mind | **RE-CHECKED** — the-embedded-objective, dormancy-not-exit and estate-money-spine all moved on 2026-08-22 solely by gaining `RE-CHECKED` blockquotes, each recording that the Apr |
+| [[wiki/people/ally-lubin]] | people | **CORRECTED** — That MBTI argument was recorded here as relationship colour, and this page's infobox carried **`mbti: ENFP`** on the strength of it — a claim resting on one source in which the subject asserted the ty |
+| [[wiki/people/ally-lubin-cognitive-profile]] | people | **CORRECTED** — ally-lubin carries `mbti: ENFP` in its infobox. That claim traces to a **single disputed source** — the December 2018 iMessage argument in which she asserted ENFP and *Dan refused to accept it*, which |
 | [[wiki/people/suzanne-frank]] | people | **RE-CHECKED** — flagged stale against 337-saratoga-drive and fran-death-vigil (both 2026-08-22). Both moved for one reason: the April 2018 hospital summons surfaced ([[wiki/timeline/events/uniontown-hospital |
 | [[wiki/people/suzanne-frank-personality-assessment]] | people | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-22), which moved by a `RE-CHECKED` blockquote adding one undocumented event — an April 2018 court summons for Dan arriving at her address during the funera |
 | [[wiki/places/117-belmont-circle]] | places | _(carries a REVISED from 2026-08-08)_ |
 | [[wiki/places/155-virginia-ave]] | places | **GAP CLOSED** — This page read, until now, *"the residence timeline has him staying until February 2019, so the notice's outcome is undocumented."* It is documented. A Fayette County summary summons filed **April 5,  |
 | [[wiki/places/337-saratoga-drive]] | places | _(carries a REVISED from 2026-08-18)_ |
 | [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — Three premises moved on the same day for the same reason: a Fayette County summons from April 2018 surfaced (uniontown-hospital-vape-alarm), and it carries **337 Saratoga Dr as Dan's address of record |
+| [[wiki/self/concepts/ally-and-dan-love-as-destiny]] | self | **RE-CHECKED** — flagged stale against ally-lubin (2026-08-22), which gained a tested **ENTP-T** result correcting its long-standing single-source ENFP. Re-read against the change. **The thesis survives and one of its |
+| [[wiki/self/concepts/astrology-star-signs]] | self | **RE-CHECKED** — flagged stale against ally-lubin (2026-08-22), which gained a tested MBTI result and a corrected infobox field. Re-read against the change; **no claim on this page is affected and nothing is withdrawn |
 | [[wiki/timeline/events/fran-death-vigil]] | timeline | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/timeline/events/uniontown-hospital-vape-alarm]] | timeline | **GAP CLOSED** — This page asked, from its creation until now, *"Whether a summary offense was actually filed with a Fayette County magistrate, or whether the paperwork was an incident report a security guard describe |
 
-## 2026-08-21 — 21 pages
+## 2026-08-21 — 20 pages
 
 - **Session log:** close+lint | all domains | two operator answers integrated; a false claim retracted and gated; staleness cleared to zero
 - **Session log:** rewrite | self | ally-and-dan-love-as-destiny — rebuilt as an argument, on verifiable evidence
@@ -68,7 +74,6 @@ simply listed.
 | [[wiki/people/jerad-friedline]] | people | **RE-CHECKED** — context-core moved on 2026-08-19 and has been flagged against this page since. The diff is one typed edge added to the spine, pointing at `the-cato-seat`, and nothing else — no figure, date or claim a |
 | [[wiki/people/menore]] | people | **CORRECTED** — This page asserted *"Consistent quantity requests — Dan typically orders '8'"* and, under Operational Security, *"'Need 8' is the entire transaction language."* Measured against the 2,660 sent message |
 | [[wiki/people/trinity-st-clair]] | people | — |
-| [[wiki/self/concepts/ally-and-dan-love-as-destiny]] | self | — |
 | [[wiki/self/concepts/chatgpt]] | self | **GAP CLOSED** — The operator, T0: *"Read the old pre gpt5 threads to understand the lead up to the release."* This page was written on 2026-08-19 without them. Its `sources:` listed Gemini's activity log, two dox fil |
 | [[wiki/self/concepts/llm]] | self | **CORRECTED** — this section previously presented all three bullets below as *"his analysis."* They are **Gemini's**, generated in the 2025-08-24 session from Dan's five-word prompt *"gemini i think chatGPT is cooked |
 | [[wiki/self/concepts/wiki-brain]] | self | **RE-CHECKED** — llm moved on 2026-08-21: Gemini's 'chicken nugget' passage was corrected off Dan's ledger, and the post-GPT-5 causation of ChatGPT's decline was marked untested. This page carries an edge claiming Cha |
@@ -76,7 +81,7 @@ simply listed.
 | [[wiki/work/au-zaatar]] | work | _(carries a REVISED from 2026-07-14)_ |
 | [[wiki/work/fastly-fsly]] | work | **RE-CHECKED** — context-core moved on 2026-08-19 by a single added typed edge and no other change. The FSLY position, dates and figures on this page are untouched by it. ## How it started — the Jerad tip The entry wa |
 
-## 2026-08-20 — 29 pages
+## 2026-08-20 — 27 pages
 
 - **Session log:** ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
 - **Session log:** correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
@@ -100,7 +105,6 @@ simply listed.
 | [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | _(carries a RE-CHECKED from 2026-08-15)_ |
 | [[wiki/mind/synthesis/read-receipt-forensics]] | mind | _(carries a RE-CHECKED from 2026-08-18)_ |
 | [[wiki/people/alexander-jackson]] | people | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address becoming a threat vector — Coles sending it to Dan unprompted on 2026-08-17 — and one typed edge. Re-read a |
-| [[wiki/people/ally-lubin]] | people | **CORRECTED** — This page stated that on August 18, 2026 Dan offered Ally the *"girlfriend title or at the very least the 'object of fixation' role"* and that she replied ***"Okay deal. Sounds good 1-2-3 break."*** I |
 | [[wiki/people/annie-ulmer]] | people | **CORRECTED** — This paragraph previously said she refused *"through a dozen repetitions of the question — to say that Dan ever prostituted her,"* and put Dan's stock line at fourteen repetitions. The line is **twent |
 | [[wiki/people/annie-ulmer-personality-assessment]] | people | **RE-CHECKED** — flagged stale against annie-ulmer (2026-08-20). That page gained a substantial August 2026 section and eight chronology rows for the severance window. Re-read against the change; **no claim on this pa |
 | [[wiki/people/arnu]] | people | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address as a threat vector and one typed edge. Re-read against the change; **no claim on this page is affected** an |
@@ -112,7 +116,6 @@ simply listed.
 | [[wiki/people/milo]] | people | _(carries a GAP CLOSED from 2026-08-17)_ |
 | [[wiki/people/tuquick-17248123683]] | people | _(carries a REVISED from 2026-08-09)_ |
 | [[wiki/people/zaco]] | people | — |
-| [[wiki/self/concepts/astrology-star-signs]] | self | **CORRECTED** — this paragraph previously cited Dan's *"object of fixation"* framing as its first example. That phrase occurs nowhere in the corpus; it was a hallucination written into ally-lubin on 2026-08-19 and is |
 | [[wiki/self/message-corpora/source-coverage-index]] | self | — |
 | [[wiki/timeline/events/august-2026-morgantown-call]] | timeline | **CORRECTED** — *"fourteen separate times between 06:30 and 12:31"* → **twenty times, 06:31 to 14:17.** Undercounted by six, and the window was cut short by nearly two minutes; he is still saying it ninety seconds be |
 | [[wiki/timeline/events/august-2026-morgantown-call-source-amendment]] | timeline | — |

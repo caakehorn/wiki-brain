@@ -13,18 +13,18 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 486 |
-| Pages touched in the last 14 days | 177 |
-| Pages reasoning from other pages (`synthesizes:`) | 40 |
+| Pages | 487 |
+| Pages touched in the last 14 days | 178 |
+| Pages reasoning from other pages (`synthesizes:`) | 41 |
 | Live contradictions | 43 |
-| Open gaps | 408 |
-| Standing predictions | 36 |
+| Open gaps | 416 |
+| Standing predictions | 41 |
 
 ## By domain
 
 | Domain | Pages |
 |---|---|
-| people | 165 |
+| people | 166 |
 | interests | 143 |
 | mind | 66 |
 | self | 40 |
@@ -39,18 +39,20 @@ this is the state of the thing.
 | Status | Pages |
 |---|---|
 | stable | 189 |
-| active | 155 |
+| active | 156 |
 | closed | 99 |
 | archived | 31 |
 | stub | 12 |
 
 ## The last few days
 
-**2026-08-22** — 23 pages
+**2026-08-22** — 27 pages
   - fix | people | a portal save put stray keystrokes into ally-lubin and turned the connect gate red on main
   - ingest | legal | the hospital-smoking summons — the charging documents were real, and they moved an address
+  - ingest | people | 16Personalities result — Ally Lubin (ENTP-T)
+  - lint | people | the same red gate was found twice, independently, inside twenty minutes
 
-**2026-08-21** — 21 pages
+**2026-08-21** — 20 pages
   - close+lint | all domains | two operator answers integrated; a false claim retracted and gated; staleness cleared to zero
   - rewrite | self | ally-and-dan-love-as-destiny — rebuilt as an argument, on verifiable evidence
   - lint | people | a portal save had deleted 56 typed-edge claims and 30KB of prose, and the gate that caught it went unread for a day
@@ -62,7 +64,7 @@ this is the state of the thing.
   - infra | portal | the loop had no return leg, and a corrected answer sat unpublished for forty minutes
   - infra | housekeeping | the pre-commit block had the wrong order, and the sweep had no protocol
 
-**2026-08-20** — 29 pages
+**2026-08-20** — 27 pages
   - ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
   - correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
   - close | timeline/people/mind | the catalyst was a five-word message in a group chat the wiki has never seen
@@ -119,6 +121,7 @@ have moved since.
 - [[wiki/mind/synthesis/the-unbroken-bond]] — 5 premises
 - [[wiki/mind/synthesis/totality-themes]] — 26 premises
 - [[wiki/people/alexander-jackson]] — 1 premise
+- [[wiki/people/ally-lubin-cognitive-profile]] — 4 premises
 - [[wiki/people/annie-ulmer-personality-assessment]] — 1 premise
 - [[wiki/people/arnu]] — 1 premise
 - [[wiki/people/jerad-friedline]] — 3 premises
