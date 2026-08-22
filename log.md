@@ -1,3 +1,45 @@
+## [2026-08-22] fix | people | a portal save put stray keystrokes into ally-lubin and turned the connect gate red on main
+
+`main` was red for roughly four minutes short of an hour before this caught it.
+Commit `fcf1c2f`, *"Edit people/ally-lubin from the portal"*, landed at
+**02:39 UTC**, four minutes after PR #177 merged. Three changes, all of them
+accidental:
+
+| Where | Saved as | Restored to |
+|---|---|---|
+| `infobox.relationship_to_dan` | `friend ...for no` | `friend` |
+| a typed edge's `page:` | `wiki/timeline/periods/2018-deep-cycle  im` | `wiki/timeline/periods/2018-deep-cycle` |
+| end of file | trailing newline stripped | restored |
+
+The second one is why this mattered: two stray characters inside a wiki path
+stop the target resolving, and `bin/wiki-connect check` went to **1 error**,
+which under CLAUDE.md is a priority-0 obligation sitting above everything
+because it blocks every commit.
+
+**This is not the 2026-08-13 failure mode and it is worth saying why.** That one
+was a stale-snapshot write-back: 56 typed-edge claims flattened, ~30KB of prose
+deleted, and the fingerprint was two frontmatter dates moving *backwards* in one
+commit. Here the file **grew** 61,119 → 61,132 bytes, `date_modified` held at
+2026-08-20, and every edit this session had made to the page — the
+`conflict-architecture` reciprocal edge and the staged sage findings block —
+survived intact. The portal's `draftIsStale` fix is holding. What got through is
+a different and much smaller class: **keystrokes landing in an editor that will
+save anything.**
+
+**`relationship_to_dan` was restored to `friend` rather than guessed at.**
+*"friend ...for no"* reads like the start of *"friend ...for now"*, which would
+be a meaningful thing to say about this relationship given the record — but it
+was not what was saved, an infobox field is not where that argument belongs, and
+completing somebody's half-typed fragment is inventing content. Restored to the
+prior value and flagged here instead. If the intent was real it should be made as
+a claim in the body, with evidence.
+
+**The gap this exposes is that nothing watches `main`.** Both portal incidents
+were found by a session happening to look — the first a day late, this one by
+checking the workflow run that dispatched a sage answer. `bin/wiki-check
+--check-only` in CI on push to `main` would have caught this in under a minute
+and cost nothing; queued in `BACKLOG.md`.
+
 ## [2026-08-22] ingest | legal | the hospital-smoking summons — the charging documents were real, and they moved an address
 
 Operator supplied three screenshots of an iPhone Photos playback of a **video of
