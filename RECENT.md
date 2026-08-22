@@ -8,7 +8,18 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-21 — 32 pages
+## 2026-08-22 — 4 pages
+
+- **Session log:** ingest | people | 16Personalities result — Ally Lubin (ENTP-T)
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/people/ally-lubin]] | people | **CORRECTED** — That MBTI argument was recorded here as relationship colour, and this page's infobox carried **`mbti: ENFP`** on the strength of it — a claim resting on one source in which the subject asserted the ty |
+| [[wiki/people/ally-lubin-cognitive-profile]] | people | **CORRECTED** — ally-lubin carries `mbti: ENFP` in its infobox. That claim traces to a **single disputed source** — the December 2018 iMessage argument in which she asserted ENFP and *Dan refused to accept it*, which |
+| [[wiki/self/concepts/ally-and-dan-love-as-destiny]] | self | **RE-CHECKED** — flagged stale against ally-lubin (2026-08-22), which gained a tested **ENTP-T** result correcting its long-standing single-source ENFP. Re-read against the change. **The thesis survives and one of its |
+| [[wiki/self/concepts/astrology-star-signs]] | self | **RE-CHECKED** — flagged stale against ally-lubin (2026-08-22), which gained a tested MBTI result and a corrected infobox field. Re-read against the change; **no claim on this page is affected and nothing is withdrawn |
+
+## 2026-08-21 — 31 pages
 
 - **Session log:** close+lint | all domains | two operator answers integrated; a false claim retracted and gated; staleness cleared to zero
 - **Session log:** rewrite | self | ally-and-dan-love-as-destiny — rebuilt as an argument, on verifiable evidence
@@ -48,7 +59,6 @@ simply listed.
 | [[wiki/people/menore]] | people | **CORRECTED** — This page asserted *"Consistent quantity requests — Dan typically orders '8'"* and, under Operational Security, *"'Need 8' is the entire transaction language."* Measured against the 2,660 sent message |
 | [[wiki/people/trinity-st-clair]] | people | — |
 | [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — the-deferred-audit moved on 2026-08-21 solely by gaining a `RE-CHECKED` blockquote confirming that its own three premises had left it undisturbed. No deferral claim changed, and the housing argument h |
-| [[wiki/self/concepts/ally-and-dan-love-as-destiny]] | self | — |
 | [[wiki/self/concepts/chatgpt]] | self | **GAP CLOSED** — The operator, T0: *"Read the old pre gpt5 threads to understand the lead up to the release."* This page was written on 2026-08-19 without them. Its `sources:` listed Gemini's activity log, two dox fil |
 | [[wiki/self/concepts/llm]] | self | **CORRECTED** — this section previously presented all three bullets below as *"his analysis."* They are **Gemini's**, generated in the 2025-08-24 session from Dan's five-word prompt *"gemini i think chatGPT is cooked |
 | [[wiki/self/concepts/wiki-brain]] | self | **RE-CHECKED** — llm moved on 2026-08-21: Gemini's 'chicken nugget' passage was corrected off Dan's ledger, and the post-GPT-5 causation of ChatGPT's decline was marked untested. This page carries an edge claiming Cha |
@@ -56,7 +66,7 @@ simply listed.
 | [[wiki/work/au-zaatar]] | work | _(carries a REVISED from 2026-07-14)_ |
 | [[wiki/work/fastly-fsly]] | work | **RE-CHECKED** — context-core moved on 2026-08-19 by a single added typed edge and no other change. The FSLY position, dates and figures on this page are untouched by it. ## How it started — the Jerad tip The entry wa |
 
-## 2026-08-20 — 33 pages
+## 2026-08-20 — 31 pages
 
 - **Session log:** ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
 - **Session log:** correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
@@ -82,7 +92,6 @@ simply listed.
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank and annie-ulmer (both 2026-08-20). Both moved for the August 16–19 ingest: an added section on Suz being targeted again by Coles and shielded pre-emptively by Dan,  |
 | [[wiki/mind/synthesis/read-receipt-forensics]] | mind | _(carries a RE-CHECKED from 2026-08-18)_ |
 | [[wiki/people/alexander-jackson]] | people | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address becoming a threat vector — Coles sending it to Dan unprompted on 2026-08-17 — and one typed edge. Re-read a |
-| [[wiki/people/ally-lubin]] | people | **CORRECTED** — This page stated that on August 18, 2026 Dan offered Ally the *"girlfriend title or at the very least the 'object of fixation' role"* and that she replied ***"Okay deal. Sounds good 1-2-3 break."*** I |
 | [[wiki/people/annie-ulmer]] | people | **CORRECTED** — This paragraph previously said she refused *"through a dozen repetitions of the question — to say that Dan ever prostituted her,"* and put Dan's stock line at fourteen repetitions. The line is **twent |
 | [[wiki/people/annie-ulmer-personality-assessment]] | people | **RE-CHECKED** — flagged stale against annie-ulmer (2026-08-20). That page gained a substantial August 2026 section and eight chronology rows for the severance window. Re-read against the change; **no claim on this pa |
 | [[wiki/people/arnu]] | people | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address as a threat vector and one typed edge. Re-read against the change; **no claim on this page is affected** an |
@@ -96,7 +105,6 @@ simply listed.
 | [[wiki/people/suzanne-frank-personality-assessment]] | people | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-20). That page gained a section on Coles targeting her again and Dan pre-emptively blocking Annie's number on her phone. Re-read against the change; **no c |
 | [[wiki/people/tuquick-17248123683]] | people | _(carries a REVISED from 2026-08-09)_ |
 | [[wiki/people/zaco]] | people | — |
-| [[wiki/self/concepts/astrology-star-signs]] | self | **CORRECTED** — this paragraph previously cited Dan's *"object of fixation"* framing as its first example. That phrase occurs nowhere in the corpus; it was a hallucination written into ally-lubin on 2026-08-19 and is |
 | [[wiki/self/message-corpora/source-coverage-index]] | self | — |
 | [[wiki/timeline/events/august-2026-morgantown-call]] | timeline | **CORRECTED** — *"fourteen separate times between 06:30 and 12:31"* → **twenty times, 06:31 to 14:17.** Undercounted by six, and the window was cut short by nearly two minutes; he is still saying it ninety seconds be |
 | [[wiki/timeline/events/august-2026-morgantown-call-source-amendment]] | timeline | — |
@@ -583,65 +591,4 @@ simply listed.
 | [[wiki/work/tech/danmodel]] | work | — |
 | [[wiki/work/tech/index]] | work | — |
 | [[wiki/work/tech/mneme/overview]] | work | — |
-
-## 2026-07-19 — 38 pages
-
-- **Session log:** ingest | people | long-tail MINE pass (sam, davey-fitzpatrick, vaughn, nick-mattie, urpaaa) + kezmarsky death-claim correction
-- **Session log:** ingest | mind | operator capture: Oct 21, 2019 filmed MMF + its weaponization
-- **Session log:** connect | mind | psych-linkage pass — concepts/psychosexual wired to people pages
-- **Session log:** correct | people | MMF encounter date → Oct 20, 2019 (operator)
-- **Session log:** ingest | people | Full Sail friend group — matt-dunn, jamie-mohler (new); jason-bermejo, eric-jester (expanded)
-- **Session log:** ingest | people | oscar-lindquist (new) + jamie-mohler precision pass
-- **Session log:** ingest | people | Facebook Messenger deep-scrape — zachariah-harshman, lukyan-mraz (new tier-one entries)
-- **Session log:** ingest | people | Facebook Messenger deep-scrape II — lucie-dobbin, rob-orange, lauryn-ashly (new tier-one entries)
-- **Session log:** ingest | people | FB deep-scrape III — elizabeth-eleanor, stephanie-nalbone (new); chemical-architecture + INTP dating
-- **Session log:** ingest | people | FB deep-scrape IV — christo-coan, lewis-strosnider, seth-ledonne, ej-rags, lucas-thomas (new tier-one entries)
-- **Session log:** ingest | people | FB deep-scrape V — bobby-cole (new tier-one entry)
-- **Session log:** ingest | people | FB deep-scrape VI — jenn-lynn, joe-oshnack (new tier-one entries)
-- **Session log:** ingest | people | FB deep-scrape VII — dan-polyak (new tier-one entry)
-- **Session log:** ingest | people | FB deep-scrape VIII — jamie-mohler.md major expansion (rediscovered thread)
-- **Session log:** ingest | self | FB deep-scrape IX — tattoos.md enrichment via chris-redmond thread
-- **Session log:** ingest | people | FB deep-scrape X — drew-mcgettigan (new); sloppp.md booking-attempt enrichment
-- **Session log:** ingest | interests | FB deep-scrape XI — sloppp.md: the March 2015 near-management deal
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/interests/music/aliases/sloppp]] | interests | — |
-| [[wiki/interests/stand-up-comedy]] | interests | — |
-| [[wiki/mind/concepts/phenomenology-lens]] | mind | — |
-| [[wiki/mind/psychosexual/developmental-origins]] | mind | — |
-| [[wiki/mind/psychosexual/emotional-imprinting]] | mind | _(carries a REVISED from 2026-08-10)_ |
-| [[wiki/people/bobby-cole]] | people | — |
-| [[wiki/people/brian]] | people | — |
-| [[wiki/people/bryan-5088682461]] | people | **REVISED** — Encounter date corrected to **October 20, 2019** per direct operator statement ("the threesome took place on 20 Oct 2019"), superseding the October 21 previously inferred from the Sent 2019-10-22 22:2 |
-| [[wiki/people/christo-coan]] | people | — |
-| [[wiki/people/dan-polyak]] | people | — |
-| [[wiki/people/davey-fitzpatrick]] | people | — |
-| [[wiki/people/drew-mcgettigan]] | people | — |
-| [[wiki/people/ej-rags]] | people | — |
-| [[wiki/people/elizabeth-eleanor]] | people | — |
-| [[wiki/people/eric-jester]] | people | — |
-| [[wiki/people/jack-rusko]] | people | — |
-| [[wiki/people/jamie-mohler]] | people | — |
-| [[wiki/people/jason-bermejo]] | people | **REVISED** — This section previously listed "Jamie Mohler" as Jason's current girlfriend. That was a misread of a single out-of-context corpus line. In full context (2025-10-06, Jason's thread), Dan is telling Jas |
-| [[wiki/people/jenn-lynn]] | people | — |
-| [[wiki/people/kelly-johansson]] | people | — |
-| [[wiki/people/lauryn-ashly]] | people | — |
-| [[wiki/people/lewis-strosnider]] | people | — |
-| [[wiki/people/lucas-thomas]] | people | — |
-| [[wiki/people/lucie-dobbin]] | people | — |
-| [[wiki/people/lukyan-mraz]] | people | — |
-| [[wiki/people/matt-dunn]] | people | — |
-| [[wiki/people/new-jim-shaffer]] | people | **REVISED** — This paragraph previously repeated the misreading that Steve Kezmarsky had died. The raw thread shows Dan explicitly correcting Jim's "Wait... he's dead?" in the next message. **A note on tone:** the  |
-| [[wiki/people/nick-mattie]] | people | — |
-| [[wiki/people/oscar-lindquist]] | people | — |
-| [[wiki/people/rob-orange]] | people | — |
-| [[wiki/people/sam]] | people | — |
-| [[wiki/people/stephanie-nalbone]] | people | — |
-| [[wiki/people/steve-kezmarsky]] | people | **REVISED** — This page previously stated Steve was dead by December 2018, citing the Jim Shaffer thread. The raw rows show the opposite: Jim's "Wait... he's dead?" was a misreading of Dan's joke, and Dan immediate |
-| [[wiki/people/trevor]] | people | — |
-| [[wiki/people/urpaaa-at-yahoo-com]] | people | — |
-| [[wiki/people/vaughn]] | people | — |
-| [[wiki/self/tattoos]] | self | — |
-| [[wiki/timeline/periods/covid-era-2020]] | timeline | — |
 

@@ -13,18 +13,18 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 486 |
-| Pages touched in the last 14 days | 174 |
-| Pages reasoning from other pages (`synthesizes:`) | 40 |
+| Pages | 487 |
+| Pages touched in the last 14 days | 175 |
+| Pages reasoning from other pages (`synthesizes:`) | 41 |
 | Live contradictions | 43 |
-| Open gaps | 404 |
-| Standing predictions | 36 |
+| Open gaps | 412 |
+| Standing predictions | 41 |
 
 ## By domain
 
 | Domain | Pages |
 |---|---|
-| people | 165 |
+| people | 166 |
 | interests | 143 |
 | mind | 66 |
 | self | 40 |
@@ -39,14 +39,17 @@ this is the state of the thing.
 | Status | Pages |
 |---|---|
 | stable | 189 |
-| active | 155 |
+| active | 156 |
 | closed | 99 |
 | archived | 31 |
 | stub | 12 |
 
 ## The last few days
 
-**2026-08-21** — 32 pages
+**2026-08-22** — 4 pages
+  - ingest | people | 16Personalities result — Ally Lubin (ENTP-T)
+
+**2026-08-21** — 31 pages
   - close+lint | all domains | two operator answers integrated; a false claim retracted and gated; staleness cleared to zero
   - rewrite | self | ally-and-dan-love-as-destiny — rebuilt as an argument, on verifiable evidence
   - lint | people | a portal save had deleted 56 typed-edge claims and 30KB of prose, and the gate that caught it went unread for a day
@@ -58,7 +61,7 @@ this is the state of the thing.
   - infra | portal | the loop had no return leg, and a corrected answer sat unpublished for forty minutes
   - infra | housekeeping | the pre-commit block had the wrong order, and the sweep had no protocol
 
-**2026-08-20** — 33 pages
+**2026-08-20** — 31 pages
   - ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
   - correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
   - close | timeline/people/mind | the catalyst was a five-word message in a group chat the wiki has never seen
@@ -81,13 +84,6 @@ this is the state of the thing.
   - lint | mind | the girlfriend score, and two honest re-checks
   - lint | cross-domain | the $750/week retraction was announced on three pages and applied on none of them
   - lint | cross-domain | the staleness queue emptied, and four of the five re-checks changed a conclusion
-
-**2026-08-17** — 11 pages
-  - restore | timeline | the December 2015 Annie read was written into the portal's derived snapshot and a cron deleted it 39 minutes after merge
-  - climb | timeline, people, mind | the 2015 Annie read spread to ten pages, and five of its own corrections did not survive the evidence gate
-  - close | people, timeline, mind | the operator named "turd boy", and three separate incidents became one retaliation arc
-  - tool | meta | bin/wiki-gaps could not see two-thirds of the wiki's unsettled information, and left no trace of what the operator added
-  - close | people, timeline, mind | six staged operator answers integrated — one of them contradicted the man who gave it
 
 ## Pages that reason from other pages
 
@@ -122,6 +118,7 @@ have moved since.
 - [[wiki/mind/synthesis/the-unbroken-bond]] — 5 premises
 - [[wiki/mind/synthesis/totality-themes]] — 26 premises
 - [[wiki/people/alexander-jackson]] — 1 premise
+- [[wiki/people/ally-lubin-cognitive-profile]] — 4 premises
 - [[wiki/people/annie-ulmer-personality-assessment]] — 1 premise
 - [[wiki/people/arnu]] — 1 premise
 - [[wiki/people/jerad-friedline]] — 3 premises

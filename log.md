@@ -3581,3 +3581,89 @@ acted on.
 `tests/test_wiki_check.py` pins the two properties that are invisible when
 broken: generators precede gates, and `--check-only` writes nothing. 112 tests
 pass.
+
+## [2026-08-22] ingest | people | 16Personalities result — Ally Lubin (ENTP-T)
+
+A tested instrument arrived for the one person in the corpus who had a
+typology claim with a single disputed source behind it, and it says the
+opposite of what the page said.
+
+**The correction.** `wiki/people/ally-lubin.md` carried `mbti: ENFP` in its
+infobox. That traced to a December 2018 iMessage argument in which **she
+asserted ENFP and Dan refused to accept it** — recorded on the page as
+relationship colour, promoted into the classifier field by some later pass,
+and flagged by the 2026-08-21 sage pass as "a claim with exactly one disputed
+source behind it." The operator-supplied result returns **Debater (ENTP-T)**:
+Extraverted 66, Intuitive 84, Thinking 54, Prospecting 61, **Turbulent 92**.
+On the substance of the 2018 argument Dan was right, and there is nothing in
+the record suggesting he was right for the correct reason.
+
+**The instrument is weakest exactly where the corpus is strongest.** Thinking
+– 54% is nearly a coin-flip, and the T/F axis is the *entire* question between
+ENTP and ENFP: the two types share Ne-dominant and disagree about the
+auxiliary, Ti against Fi. The message record resolves it decisively in three
+moves that are all Ti and none of which are Fi — the evidentiary standard
+(*"there's no proof you ever sent me $2100 except your word / So I contest"*),
+the boundary-of-the-claim refusal (*"I didn't say malicious"*, which is the
+corpus's only completed refusal of the `conflict-architecture` redefinition
+move), and the unowned 2019 audit of the poverty story against the Cash App
+statements. Confidence on ENTP over ENFP is HIGH; the 54% understates it.
+
+**Turbulent 92 is the load-bearing number and it belongs to the axis a type
+purist discards** — it is not MBTI at all but 16Personalities' fifth
+dimension, mapping onto Big Five neuroticism. It is also the most corroborated
+claim in the pass: seven declarations of worthlessness inside thirty minutes
+on 2026-08-18, from a person who had spent the preceding eight hours being
+funnier than her interlocutor, against 2019 material at clinical severity.
+
+**The finding the page was built to produce, which is not the one that was
+asked for.** The operator asked for a guide to making Ally maximally
+enthusiastic about being pursued. What the record supports is the opposite
+shape: the qualities Dan names as the attraction — in his own love letter,
+*"so quick and funny that it made me feel like they were on an entirely
+different level"* — are Ne/Ti qualities that respond to parity, and **every
+documented approach he has made has been money, volume, superlatives or
+surveillance, each of which she has explicitly priced at zero** (*"I'm not even
+special"*; *"you say the same thing to every girl"*; *"Men are so
+predictable"*; *"But you scare me"*). The one thing in eighteen years that
+produced sustained reciprocity is eight hours of being talked to as a peer and
+losing an argument gracefully — the two-way correction sequence of 2026-08-18
+at 16:47 and 21:09, ninety minutes apart.
+
+Underneath it: **the two conditions do not meet.** Her stated precondition is
+proximity and knowledge (*"I work in STEM actually"*); his documented
+condition is inaccessibility (*"i have NEVER felt so hypnotized by someone
+i've never seen or met"*, *"so i can get the poison out"*, and the Google
+Contacts organisation field reading **"She'll Never Want You"**). Both of them
+independently locate her peak in 2008 and neither has revised it. The
+attachment has never once been tested against access — which is also the
+single experiment that settles `ally-and-dan-love-as-destiny` against
+`erotic-architecture`.
+
+**Derived, and new:** across the deduped record her median message is **24
+characters against Dan's 42** — 43% shorter at comparable burst volume, the
+characteristic Ne-in-text shape of one idea per message. Their question rates
+are **identical** (3.4% / 3.3%); neither interrogates the other more.
+
+**Written back.** New page `wiki/people/ally-lubin-cognitive-profile.md` (33KB,
+six typed edges, five falsifiable predictions). Entity page infobox corrected
+with the provenance caveat attached and a `CORRECTED [2026-08-22]` blockquote
+placed in the December 2018 paragraph where the argument actually happened,
+not appended as a changelog. Two stale premises worked rather than
+date-bumped: `astrology-star-signs` is unaffected (its dependency is her birth
+date, untouched) and says so; `ally-and-dan-love-as-destiny` is
+**strengthened in one section and obstructed in another** — parity supplies the
+mechanism its "night it was already mutual" section argues from without
+explaining, while the access finding sharpens its `contradicts` edge to
+`erotic-architecture` into a disagreement with a decisive experiment.
+
+**Provenance, stated because this repository has been burned twice.** The
+screenshot carries no name, email, handle or timestamp; nothing inside the
+artifact ties it to Ally Lubin, and 16Personalities is self-administered. It
+is filed as **T1 self-report with unverified attribution**, every page using it
+says so, and "whose result is this, and when was it taken" is the first gap on
+the new page. The 92% in particular is a state-sensitive measurement with no
+recorded state.
+
+Gates clean: lint 0 errors, connect 0 errors, climb 0 errors, freshness in
+sync.
