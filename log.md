@@ -3494,3 +3494,44 @@ material that was in the repository the whole time. Staged on `franki-faris`,
 `intp` and `enneagram-5w4` as cross-linking actions.
 
 Capture rewritten as **revision 4**. No `date_modified` bumped.
+
+## [2026-08-21] infra | portal | the loop had no return leg, and a corrected answer sat unpublished for forty minutes
+
+**The portal loop was built in one direction only, and nobody noticed because
+the half that was missing fails silently.**
+
+`caakehorn/home` fires `sage-asked` at this repository when somebody types into
+the question box, so a parked question does not wait for the next scheduled
+drain. Its `sync-wiki.yml` has always listened for a `wiki-updated`
+`repository_dispatch` in return. **Nothing in this repository ever sent one.**
+The only thing that did was `requestResync()` in the portal's own browser code —
+which runs when a page is edited or a question asked *from the site*. An answer
+written by a session here and merged through a pull request involves no browser,
+so nothing was nudged, and the snapshot waited on `cron: '17 * * * *'`.
+
+**The measured cost, today.** The second sage answer was corrected twice and
+merged at **23:17:51** and **23:32:17**. The snapshot being served was generated
+at **22:39:22** — and the 23:17 cron had fired **fifty-one seconds before** the
+first merge, found nothing moved, and committed nothing. The person who asked
+would have been reading the retracted version, with its fabricated ENFP pairing,
+until 00:17. `sage/README.md` is explicit that the latency of *answering* is the
+design; the latency of *publishing* is not, and the person waiting cannot tell
+the two apart.
+
+**The fix.** `.github/workflows/notify-portal.yml` — push to `main` touching
+`wiki/**` or `sage/questions/**` fires `wiki-updated` at the portal. Those two
+paths are exactly what the portal's `sync-wiki.mjs` reads from this repository
+(`join(SOURCE, 'wiki')` and `join(SOURCE, 'sage', 'questions')`), so a commit
+that only moves `log.md` or `WORK.md` does not wake a build that would find
+nothing. Concurrency coalesces a burst with `cancel-in-progress: true` — unlike
+the sync itself, dropping an in-flight notification loses nothing, because the
+next one carries the same instruction.
+
+**It ships inert**, matching `sage-drain.yml`'s `ANTHROPIC_API_KEY` and the
+portal's `HOME_PASSPHRASE`: `GITHUB_TOKEN` is scoped to its own repository and
+cannot dispatch to another, so this needs `PORTAL_DISPATCH_TOKEN` (a fine-grained
+PAT on `caakehorn/home`, Contents: read and write). Without it the job says what
+it would have sent and exits clean, and the hourly cron — which this replaces
+nothing of — still catches up. **With it, a merged answer is live in about a
+minute.** A non-204 from the API fails the run loudly, because a silent 401 is
+precisely the failure mode this file exists to end.

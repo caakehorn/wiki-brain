@@ -18,6 +18,7 @@ simply listed.
 - **Session log:** answer | people | who is the best match for Dan — rewritten, same conclusion, new evidence
 - **Session log:** answer | mind | the correction was wrong: Dan types INTP, and the corpus says so on a dedicated page
 - **Session log:** answer | mind | re-audited with all sixteen type codes: two more absence claims were wrong
+- **Session log:** infra | portal | the loop had no return leg, and a corrected answer sat unpublished for forty minutes
 
 | Page | Domain | What moved |
 |---|---|---|
