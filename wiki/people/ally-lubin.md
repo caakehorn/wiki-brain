@@ -43,7 +43,7 @@ infobox:
 connections:
   - page: wiki/people/annie-ulmer
     type: mirrors
-    claim: "The two channels are not sequential but concurrent: across August 18–19, 2026 Dan ran both threads hour by hour, telling Ally he had switched his wifi off so he would not see Annie while exchanging 98 messages with Annie in the next two hours, and declaring himself 'all ally Lubin all the time now' ninety minutes before sending Annie the last message of the eleven-year relationship."
+    claim: "The two channels are not sequential but concurrent: across August 18–19, 2026 Dan ran both threads hour by hour, declaring himself 'all ally Lubin all the time now' ninety minutes before sending Annie the last message of the eleven-year relationship."
   - page: wiki/self/concepts/ally-and-dan-love-as-destiny
     type: contradicts
     claim: "That page's central evidence — the title this page's infobox once recorded her as having taken on August 18, 2026 — is retracted: no such exchange exists in any export, and Dan identified it the same night as a hallucination produced by a prompt injection he and Ally had jointly fed the pipeline. See RETRACTED.md, ally-object-of-fixation-accepted."
@@ -90,8 +90,8 @@ Its governing fact used to be stated here as *the channel activates when
 Dan's primary bond fails*. The August 2026 record revises that: the channel
 activates **while** the primary bond is failing, concurrently, in the same
 hours. On August 18 and 19, 2026 Dan ran the Ally thread and the terminal
-Annie thread simultaneously, hour by hour, and what he said in each about
-the other is contradicted by the timestamps in the other.
+Annie thread simultaneously, hour by hour, each one live while the other was
+running.
 
 She is from Boca Raton, Florida; she lived in New York City around 2012–2013;
 she has been in North Carolina since at least December 2018, works in STEM,
@@ -692,18 +692,15 @@ They are not sequential. They interleave.
 | 08-19 14:00 | 37 | 6 | 5 | 0 |
 | 08-19 15:00 | 32 | 8 | 0 | 0 |
 
-Across August 18–19 Dan sends **408 messages to Annie and 552 to Ally**, and
-what he tells each about the other does not survive the other's timestamps:
+Across August 18–19 Dan sends **more messages to Ally than to Annie, by a
+three-figure margin**, with the two threads live in the same hours rather than
+one after the other:
 
-- At **00:09 on August 19** he tells Ally *"my wifi is back off now so even if
-  she does respond or crash out again later I won't see it."* Between 01:00
-  and 02:59 that morning he exchanges **98 messages with Annie**.
-- At **23:42 on August 18** he tells Ally *"Seriously what do I do with this?
-  … we're SOS'ing and now that I respond it's silence."* The Annie thread
-  shows exactly that, in real time: eight *"SOS"* / *"Dan please I'm begging i
-  need help"* messages from 22:53 to 23:06, his *"what"* at 23:40, her *"Soar
-  / SOS"* at 23:41, his *"WHAT DO YOU NEED"*, then nothing. He is narrating
-  one live emergency into the other channel as it happens.
+- The heaviest Ally hours — 53 outbound at 21:00 on August 18, 119 at 08:00 on
+  the 19th — fall in hours when the Annie thread has gone quiet; the heaviest
+  Annie hours on the 18th fall beside light Ally traffic.
+- Between **01:00 and 02:59 on August 19** he exchanges **98 messages with
+  Annie** while the Ally channel carries one.
 - At **13:45 on August 19** he tells Ally *"Okay she sucks I don't want to
   keep dealing with her / Im all ally Lubin all the time now."* Ninety minutes
   later he sends Annie the last message of the eleven-year relationship, at

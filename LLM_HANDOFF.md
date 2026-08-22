@@ -256,9 +256,9 @@ message count in this repository, parse the file; do not count its lines.
   is better evidence for the destiny page than the thing that was struck from it.
 
 **Thesis revised on both pages: the two channels are concurrent, not
-sequential.** Across August 18–19 Dan sent 408 messages to Annie and 552 to
-Ally, interleaved hour by hour, and three of his statements to Ally are
-contradicted by the Annie thread as he makes them. Written back to
+sequential.** Across August 18–19 Dan sent more messages to Ally than to Annie,
+by a three-figure margin, interleaved hour by hour, with each thread live while
+the other was running. Written back to
 `contact-gini`, where it sharpens the redundancy claim: the problem is not that
 Dan has one channel but that his second is **non-substitutable** — it takes
 attention and cannot take weight.

@@ -2784,10 +2784,10 @@ is a **routing artifact, not dormancy** — written back to `dormancy-not-exit`.
 
 **Thesis revised: the channels are concurrent, not sequential.** Laying the Ally
 export beside `imessage_export_2124702449_20260820.csv` for the same 48 hours
-shows them interleaved hour by hour — 408 messages to Annie and 552 to Ally
-across Aug 18–19. Dan tells Ally at 00:09 his wifi is off so he won't see Annie,
-then exchanges 98 messages with Annie between 01:00 and 02:59; tells Ally at
-13:45 *"Im all ally Lubin all the time now"* ninety minutes before sending Annie
+shows them interleaved hour by hour, with more messages to Ally than to Annie
+by a three-figure margin across Aug 18–19. Both threads are live in the same hours: he exchanges 98
+messages with Annie between 01:00 and 02:59 while the Ally channel runs; tells
+Ally at 13:45 *"Im all ally Lubin all the time now"* ninety minutes before sending Annie
 the last message of the eleven-year relationship at 15:15:33. "The overflow is
 not what happens after the vessel breaks; it is what the vessel was overflowing
 into the whole time." Written back to `annie-ulmer` as a `mirrors` edge.
@@ -2851,11 +2851,12 @@ fact in them is carried in the body.
 
 **New finding — the ending was not one thread.** Laying the Annie export beside
 the Ally export for the same 48 hours shows them **interleaved hour by hour**:
-408 messages to Annie, 552 to Ally, across August 18–19. Three of Dan's
-statements to Ally are contradicted by this thread as he makes them — the wifi
-claim at 00:09 against 98 Annie messages in the next two hours; the live
-narration of Annie's SOS at 23:42; *"Im all ally Lubin all the time now"* at
-13:45, ninety minutes before the relationship's last message at 15:15:33. This
+more messages to Ally than to Annie, by a three-figure margin, across August
+18–19. The two threads run
+against each other rather than in sequence — 98 Annie messages between 01:00 and
+02:59 on the 19th while the Ally channel runs; *"Im all ally Lubin all the time
+now"* at 13:45, ninety minutes before the relationship's last message at
+15:15:33. This
 is not a symmetry argument and does not touch the verdict: nothing in the Ally
 channel is an affair or a concealment. What it establishes is that **the wiki
 has been reading Ally as what happens after this bond fails, and it is not** —
@@ -3294,9 +3295,9 @@ the open era as non-monogamy in the identity sense at all.
 2015 switch is the mechanism: a six-year bond closing in seventy-two hours with
 nothing prompting it but the arrival of a replacement — **the replacement sourced
 before the vacancy opened.** And `ally-lubin`'s August 18–19 concurrency finding
-is that same mechanism running four days before she asked, with her in it: 408
-messages to Annie against 552 to Ally, *"my wifi is back off now"* two hours
-before 98 messages with Annie, *"Im all ally Lubin all the time now"* ninety
+is that same mechanism running four days before she asked, with her in it: more
+messages to Ally than to Annie by a three-figure margin, both threads live in the
+same hours, *"Im all ally Lubin all the time now"* ninety
 minutes before the eleven-year relationship's last message.
 
 So the answer refuses to collapse: **he can be monogamous; he has never been
@@ -3368,7 +3369,7 @@ documented operating condition is inaccessibility (*"so i can get the poison
 out"*, 2019-10-22) — the case has never been tested against access, which is the
 answer's own strongest objection to itself. The money runs toward her, not away.
 The instability is bilateral. Dan ran this channel and the terminal Annie channel
-in the same hours and misreported each to the other. And the mutual half is
+in the same hours. And the mutual half is
 **eight hours long** — 1,293 sent against 694 received across eighteen years, with
 the August 19 inbound missing from the capture entirely.
 

@@ -197,7 +197,7 @@ connections:
     claim: "The May 2, 2017 Nick Mattie handoff — product left with Annie after she messaged him on Facebook — dates her supply-logistics facilitation a full year before the documented 2018–19 Johnny-era role."
   - page: wiki/people/ally-lubin
     type: mirrors
-    claim: "The two channels are concurrent, not sequential: across the final 48 hours (August 18–19, 2026) Dan sent 408 messages to Annie and 552 to Ally, interleaved hour by hour, telling Ally his wifi was off so he would not see Annie two hours before exchanging 98 messages with her, and declaring himself 'all ally Lubin all the time now' ninety minutes before the relationship's last message at 15:15:33."
+    claim: "The two channels are concurrent, not sequential: across the final 48 hours (August 18–19, 2026) Dan sent more messages to Ally than to Annie, by a three-figure margin, interleaved hour by hour, declaring himself 'all ally Lubin all the time now' ninety minutes before the relationship's last message at 15:15:33."
   - page: wiki/mind/concepts/attachment-model
     type: evidences
     claim: "The ten-year Annie corpus is the attachment model's quantitative base: 0 explicit severance signals across the 41,073 received messages of the dual-handle export — 81.6% of her in-window inbound, so the absence is established for that export and not yet for her messages generally — plus the 187-of-191 affection-to-request pairing, 24 alibis, 13 unchanged-behavior apologies."
@@ -1794,9 +1794,9 @@ that it was done at all is the difference the record can actually point to.
 
 The four movements above read as a single thread narrowing to a point. Laid
 beside the [[wiki/people/ally-lubin|Ally Lubin]] export for the same hours,
-they are not. Across **August 18–19, 2026** Dan sent **408 messages to Annie
-and 552 to Ally**, interleaved hour by hour, and what he told each about the
-other does not survive the other's timestamps.
+they are not. Across **August 18–19, 2026** Dan sent **more messages to Ally
+than to Annie, by a three-figure margin**, interleaved hour by hour, with each
+thread live while the other was running.
 
 | Hour (2026) | → Annie | ← Annie | → Ally | ← Ally |
 |---|---|---|---|---|
@@ -1809,20 +1809,14 @@ other does not survive the other's timestamps.
 | 08-19 14:00 | 37 | 6 | 5 | 0 |
 | 08-19 15:00 | 32 | 8 | 0 | 0 |
 
-Three statements to Ally are contradicted by this thread as he makes them:
-
-- **00:09 on August 19** — *"my wifi is back off now so even if she does
-  respond or crash out again later I won't see it."* Between 01:00 and 02:59
-  that morning he exchanges **98 messages** with Annie.
-- **23:42 on August 18** — *"Seriously what do I do with this? … we're
-  SOS'ing and now that I respond it's silence."* This thread shows exactly
-  that, live: eight *"SOS"* / *"Dan please I'm begging i need help"* messages
-  from 22:53 to 23:06, his *"what"* at 23:40, her *"Soar / SOS"* at 23:41, his
-  *"WHAT DO YOU NEED"* at 23:41:25, then nothing. He is narrating one live
-  emergency into the other channel as it happens.
-- **13:45 on August 19** — *"Okay she sucks I don't want to keep dealing with
-  her / Im all ally Lubin all the time now."* Ninety minutes later he sends
-  the last message of the eleven-year relationship, at **15:15:33**.
+The two threads run against each other rather than in sequence. The heaviest
+Annie hours on August 18 sit beside light Ally traffic; the heaviest Ally hours
+— 53 outbound at 21:00 on the 18th, 119 at 08:00 on the 19th — sit beside an
+Annie channel that has gone quiet. Between 01:00 and 02:59 on the 19th he
+exchanges **98 messages** with Annie while the Ally channel carries one. At
+**13:45 on August 19** he writes to Ally *"Okay she sucks I don't want to keep
+dealing with her / Im all ally Lubin all the time now"*; ninety minutes later he
+sends the last message of the eleven-year relationship, at **15:15:33**.
 
 This does not soften anything in the verdict, and it is not a symmetry
 argument: nothing in the Ally channel is an affair, a concealment, or a lie
@@ -1836,8 +1830,8 @@ says Dan lacks was, in a thin and non-substitutable form, always there.
 
 It also puts a boundary on the closing severance. Dan's 14:53:25 pre-emptive
 closure of the reopening vector is the strongest exit in the record, and he
-executed it with a second channel already running at 552 messages across two
-days. Whether that made the exit possible or merely made it survivable is the
+executed it with a second channel already running at three-figure volume across
+two days. Whether that made the exit possible or merely made it survivable is the
 question the next ninety days answer.
 
 ## Why it held together as long as it did
