@@ -47,6 +47,7 @@ this is the state of the thing.
 ## The last few days
 
 **2026-08-22** — 27 pages
+  - fix | people | the stale-snapshot clobber recurred on ally-lubin, six hours after the last one
   - meta | style | the blanket no-photographs rule is removed from STYLE_GUIDE
   - fix | people | a portal save put stray keystrokes into ally-lubin and turned the connect gate red on main
   - ingest | legal | the hospital-smoking summons — the charging documents were real, and they moved an address

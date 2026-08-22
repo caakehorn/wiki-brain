@@ -1,3 +1,51 @@
+## [2026-08-22] fix | people | the stale-snapshot clobber recurred on ally-lubin, six hours after the last one
+
+**This is the 2026-08-13 failure mode, not the keystroke one**, and it is the
+second distinct portal defect to hit this page in twenty-four hours. Commit
+`991d942` ("Edit people/ally-lubin from the portal") wrote a **2026-08-20
+snapshot** back over the 08-22 state, turning `bin/wiki-connect check` red on
+`main` for the third time this week.
+
+**The fingerprint CLAUDE.md names is exactly what appeared:** a frontmatter date
+moving *backwards* in a single commit — `date_modified: 2026-08-22` →
+`2026-08-20`. That is the tell, and it is worth more than the diff size, because
+the diff looked small (11 insertions, 24 deletions) while silently reverting a
+whole pass.
+
+What the save destroyed, all of it merged eighteen minutes earlier in #179:
+
+- `mbti: "ENTP-T (tested 2026-08-22…)"` reverted to **`mbti: ENFP`** — the
+  corrected classifier field restored to the claim it replaced
+- the `CORRECTED [2026-08-22]` blockquote, fifteen lines, deleted entirely
+- the typed edge to [[wiki/people/ally-lubin-cognitive-profile]] deleted, which
+  orphaned that page from its own subject
+- the `raw/people/captures/2026-08-22_…entp-t.md` source line deleted
+- **both keystroke corruptions reintroduced** — `friend ...for no` and
+  `2018-deep-cycle  im`, the second of which is the gate error, because the
+  snapshot predated their repair too
+
+**The `draftIsStale` guard did not hold.** CLAUDE.md records that fix as
+shipped in the portal after the 08-13 incident; a save made from a two-day-old
+snapshot still reached `main` on 08-22. Whatever `draftIsStale` checks, it did
+not catch this, and the BACKLOG item asking for CI on `main` is now the only
+thing standing between this defect and the next silent revert.
+
+**Recovery, per the established procedure.** The page was restored wholesale
+from `e843adf` — the post-#179 state, known green — and the save's **one genuine
+addition re-applied on top**: `image:` and `image_caption:`, pointing at
+`wiki/assets/people/ally-lubin/people-ally-lubin-mt3tebq9.png`. That picture was
+added deliberately by the operator in `be97c00` and is untouched by this
+recovery; it is the only thing in the portal commit that was not a revert.
+Nothing else from `991d942` was kept, because nothing else in it was new.
+
+**The asymmetry worth recording.** `be97c00` (the image) and `991d942` (the
+clobber) are the same operator action seconds apart — add a picture through the
+portal, and the editor writes back its whole stale buffer along with it.
+**Adding an image to a page is not an image-sized operation.** Any portal save
+rewrites the entire file from whatever the browser last loaded, so a page edited
+by a session after the tab was opened will be reverted by the next save from
+that tab, whatever the user thought they were changing.
+
 ## [2026-08-22] meta | style | the blanket no-photographs rule is removed from STYLE_GUIDE
 
 Operator decision: no standing rule about photographs in the wiki, decided
