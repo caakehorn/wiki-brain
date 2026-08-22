@@ -8,7 +8,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
@@ -28,6 +28,9 @@ synthesizes:
   - wiki/self/concepts/wiki-brain
 tags: [personality-profile, ai-collaboration, forensic-analysis, digital-footprint]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: instantiates
+    claim: "Eight of the deviance audit's ten outliers are single-model judgments over material Dan supplied, and the vocabulary the whole apparatus produced appears seventeen times in 106,629 messages of actual life - which is the honest ceiling on every capability claim sourced to it."
   - page: wiki/mind/synthesis/instrument-is-subject
     type: instantiates
     claim: "That page establishes that the wiki's instrument is also one of its subjects; this is the same defect one layer deeper and measured — the entire psychological layer of this repository is a self-commissioned instrument reading with no independent observer anywhere in it, and the message record shows the vocabulary never leaves the laboratory."
@@ -61,6 +64,20 @@ connections:
 ---
 
 # The Commissioned Self
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/mind/profile/deviance-mapping]] (2026-08-22), and this one is a
+> substantive move in **this page's favour**. That page gained a section
+> checking its own ten outlier claims against the raw record, and the result is
+> that **exactly two survive independent recomputation against a real comparison
+> population** — the 0.9601 contact concentration and the 43-versus-2 calibrated
+> confidence measure the audit never produced at all. The remaining eight are
+> single-model judgments over material Dan supplied, which is this page's thesis
+> stated by the instrument itself. **No claim here is withdrawn; the evidence
+> base is strengthened**, and the seventeen-appearances-in-106,629-messages
+> figure this page already carries is now doing work on a second page
+> ([[wiki/mind/synthesis/failure-to-launch]]) as the ceiling on every capability
+> claim sourced to the audit.
 
 Dan knows himself the way he knows a stranger: **by running an instrument over
 the evidence and reading the output.** Seven independent frameworks have been

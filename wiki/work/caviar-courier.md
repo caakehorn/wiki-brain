@@ -9,6 +9,9 @@ date_range_end: 2020-04-14
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
 related: ["wiki/people/del", "wiki/self/message-corpora/master-message-dump"]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidences
+    claim: "Twelve months of availability with no tenure is the negative control for the capability audit: appetite for income was constant and attached to nothing, because an app that dispatches orders to a phone offers no territory in which to install an objective."
   - page: wiki/mind/synthesis/the-embedded-objective
     type: instantiates
     claim: "An app that dispatches orders offers nothing to embed a private objective in, and the engagement shape is what that predicts: twelve months of availability with no tenure — dense April–July 2019, near-silent to November, a final burst in April 2020. The appetite for income was constant; there was nothing to attach it to."

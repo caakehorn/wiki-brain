@@ -24,6 +24,9 @@ synthesizes:
   - wiki/mind/synthesis/the-unbroken-bond
 tags: [relationships, nyc-era, uniontown-era, forensic-analysis]
 connections:
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: escalates
+    claim: "This page's dormancy default supplies the null hypothesis the August 2026 severance has to beat, and the conditions under which it would have to be reclassified as the first genuine exit are stated there as dated falsifiers."
   - page: wiki/people/kristin
     type: instance-of
     claim: "The Kristin thread is the rule's shortest instance and its cleanest: November 2025 holds 53 messages, the channel goes dormant rather than closing, and the December burst is Dan re-entering it — a failed reactivation, not a collapse."

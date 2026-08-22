@@ -28,6 +28,9 @@ related:
   - wiki/mind/concepts/institutional-out
 tags: [nyc-era, career, ai-collaboration, housing, forensic-analysis]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidences
+    claim: "Forty-one months sustained by a private objective inside a low-oversight sovereign territory, ending when the shed came down rather than when the work got hard, is the clearest instance of tenure that was real without ever being transferable."
   - page: wiki/mind/synthesis/the-embedded-objective
     type: instantiates
     claim: "The 41 months were not held by the job — the work itself took 'literally EVERYTHING i had in me' — but by three self-set objectives installed inside it: the day-one tip split, the eighteen-month night-class alibi, and sole custody of the shed's cash tips. The job ended when a city work order bulldozed the third, not when the employer spent three months cutting his hours."

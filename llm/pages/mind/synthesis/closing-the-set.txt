@@ -26,6 +26,9 @@ synthesizes:
   - wiki/self/youtube-watch-history
 tags: [personality-profile, forensic-analysis, digital-footprint]
 connections:
+  - page: wiki/mind/concepts/attachment-model
+    type: mirrors
+    claim: "The Annie bond is the unclosable set: the largest object the completion engine was ever attached to, and the only one whose terminating signal had to arrive from outside because 41,073 of her messages contain none."
   - page: wiki/mind/synthesis/intake-constancy
     type: caused-by
     claim: "That page proves the intake rate never varies and concludes that subject is therefore the only free variable; this page measures what the subject is actually doing, and it is not rotating between tastes — it is closing one bounded set at a time, which is why the transitions are sharp enough to date."

@@ -15,7 +15,7 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (31)
+## Obligations (29)
 
 Somebody or something is waiting on each of these. Drain from the top.
 
@@ -24,7 +24,6 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 
 | P | Kind | What | Where | Since |
 |---|---|---|---|---|
-| 2 | sage-close | staged answer on mind/concepts/attachment-model, not integrated | `wiki/mind/concepts/attachment-model.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on mind/concepts/conflict-architecture, not integrated | `wiki/mind/concepts/conflict-architecture.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on mind/concepts/erotic-architecture, not integrated | `wiki/mind/concepts/erotic-architecture.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on mind/concepts/the-cool-metric, not integrated | `wiki/mind/concepts/the-cool-metric.md` | 2026-08-21 |
@@ -47,7 +46,6 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 2 | sage-close | staged answer on people/shelbie-breakiron, not integrated | `wiki/people/shelbie-breakiron.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on health/cocaine, not integrated | `wiki/health/cocaine.md` | 2026-08-22 |
 | 2 | sage-close | staged answer on mind/concepts/acquisition-drive, not integrated | `wiki/mind/concepts/acquisition-drive.md` | 2026-08-22 |
-| 2 | sage-close | staged answer on mind/profile/deviance-mapping, not integrated | `wiki/mind/profile/deviance-mapping.md` | 2026-08-22 |
 | 2 | sage-close | staged answer on mind/synthesis/closing-the-set, not integrated | `wiki/mind/synthesis/closing-the-set.md` | 2026-08-22 |
 | 2 | sage-close | staged answer on mind/synthesis/estate-money-spine, not integrated | `wiki/mind/synthesis/estate-money-spine.md` | 2026-08-22 |
 | 2 | sage-close | staged answer on mind/synthesis/music-as-identity, not integrated | `wiki/mind/synthesis/music-as-identity.md` | 2026-08-22 |

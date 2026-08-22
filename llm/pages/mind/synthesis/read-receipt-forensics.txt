@@ -13,6 +13,9 @@ synthesizes:
   - wiki/mind/concepts/forensic-method
   - wiki/timeline/events/august-2026-unmasking
 connections:
+  - page: wiki/mind/concepts/reassurance-architecture
+    type: instance-of
+    claim: "Read-receipt timestamp analysis is the developed form of measurement substituting for reassurance, and it is a strictly worse substitute: it establishes that she was awake and cannot establish that the rule still holds."
   - page: wiki/mind/concepts/forensic-method
     type: component-of
     claim: "Three instrument-level defects found in a single extraction session, each of which silently produces a confident wrong answer rather than an error — the failure mode the method is least protected against."

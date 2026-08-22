@@ -34,6 +34,9 @@ synthesizes:
   - wiki/mind/concepts/the-cool-metric
   - wiki/mind/concepts/conflict-architecture
 connections:
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: supplies
+    claim: "The parity finding is what makes this page load-bearing outside its own subject: it establishes that the most available rescue script - money, volume, superlatives, surveillance - is the one with the longest documented failure record, at exactly the moment the concurrency data shows relational load beginning to relocate."
   - page: wiki/people/ally-lubin
     type: instantiates
     claim: "The tested ENTP-T result retires the disputed ENFP on that page's infobox, and vindicates Dan's December 2018 objection to her self-report by a mechanism he did not have: the auxiliary is Ti, not Fi, and the contest-and-audit moves throughout the record are its signature."

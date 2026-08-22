@@ -28,6 +28,9 @@ related:
   - wiki/mind/concepts/dans-law
 tags: [addiction-recovery, career, uniontown-era, financial-stress]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidences
+    claim: "One month against forty-one is the control: where no territory existed to hold and no objective could be installed, tenure collapsed to weeks regardless of how ordinary the job was."
   - page: wiki/timeline/events/august-2026-morgantown-call
     type: co-occurs
     claim: "The termination reversed on 2026-08-11 — the same manager-side chain that produced the 'NO HIRE: Daniel Frank' sign told Dan to reapply — five days before the week that ended the Annie relationship. The one recovery of the 2026 collapse lands inside the window of its worst loss."

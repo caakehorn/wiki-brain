@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-21
+date_modified: 2026-08-22
 sources:
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
@@ -117,6 +117,17 @@ connections:
 ---
 
 # The Supply Network
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/people/annie-ulmer]] (2026-08-22), which moved solely by an appended
+> paragraph in its Closing note pointing at
+> [[wiki/mind/synthesis/the-rescue-premise]], plus a changelog line. **No supply
+> figure, date, route or counterparty on that page changed**, and this page
+> reasons from exactly those. Nothing here is affected and no claim is
+> withdrawn. Worth noting forward: the new page treats the procurement
+> dependency's post-August-19 state as its first-listed gap, because it is the
+> single strongest predictor of resumption and this page cannot presently supply
+> it.
 
 Since January 2011, Dan has been on a daily Suboxone regimen — fifteen
 years, described in the primary sources as structural rather than

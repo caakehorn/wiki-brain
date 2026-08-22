@@ -29,6 +29,12 @@ related:
   - wiki/mind/synthesis/intake-constancy
 tags: [relationships, music-production, trauma-bond]
 connections:
+  - page: wiki/mind/concepts/reassurance-architecture
+    type: evidences
+    claim: "Concentration tightening under load - 2025 is simultaneously the highest-volume year at 33,214 messages and the highest-concentration full year at 0.9576 - is why the verification load lands entirely on the one node the stakes concern rather than spreading across a network."
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: evidenced-by
+    claim: "A coefficient of 0.9601 with no failover predicts that when the primary node fails the load relocates entire rather than distributing, which is the mechanism by which an external rescue becomes a transfer instead of an exit."
   - page: wiki/people/kristin
     type: evidenced-by
     claim: "22,018 messages in ten weeks is the corpus's most concentrated single node — and it falls entirely outside the dump this concept's coefficient was computed over, so the measured Gini understates the concentration it describes."

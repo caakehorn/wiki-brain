@@ -13,12 +13,12 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 487 |
-| Pages touched in the last 14 days | 178 |
-| Pages reasoning from other pages (`synthesizes:`) | 41 |
+| Pages | 490 |
+| Pages touched in the last 14 days | 181 |
+| Pages reasoning from other pages (`synthesizes:`) | 43 |
 | Live contradictions | 43 |
-| Open gaps | 416 |
-| Standing predictions | 41 |
+| Open gaps | 432 |
+| Standing predictions | 49 |
 
 ## By domain
 
@@ -26,7 +26,7 @@ this is the state of the thing.
 |---|---|
 | people | 166 |
 | interests | 143 |
-| mind | 66 |
+| mind | 69 |
 | self | 40 |
 | timeline | 39 |
 | work | 15 |
@@ -38,15 +38,15 @@ this is the state of the thing.
 
 | Status | Pages |
 |---|---|
-| stable | 189 |
-| active | 156 |
+| stable | 191 |
+| active | 157 |
 | closed | 99 |
 | archived | 31 |
 | stub | 12 |
 
 ## The last few days
 
-**2026-08-22** — 27 pages
+**2026-08-22** — 39 pages
   - answer | mind | what would make Dan happy — he answered it himself in 2025, and the record has already run the experiment
   - fix | people | a fourth portal incident, a duplicated H1 on annie-ulmer, and the freshness gate red on main
   - fix | people | the stale-snapshot clobber recurred on ally-lubin, six hours after the last one
@@ -55,8 +55,10 @@ this is the state of the thing.
   - ingest | legal | the hospital-smoking summons — the charging documents were real, and they moved an address
   - ingest | people | 16Personalities result — Ally Lubin (ENTP-T)
   - lint | people | the same red gate was found twice, independently, inside twenty minutes
+  - climb | mind | three entries, and two of them answer a different question than the one asked
+  - close | mind | two staged sage findings integrated on the pages this pass was already holding open
 
-**2026-08-21** — 20 pages
+**2026-08-21** — 16 pages
   - close+lint | all domains | two operator answers integrated; a false claim retracted and gated; staleness cleared to zero
   - rewrite | self | ally-and-dan-love-as-destiny — rebuilt as an argument, on verifiable evidence
   - lint | people | a portal save had deleted 56 typed-edge claims and 30KB of prose, and the gate that caught it went unread for a day
@@ -68,7 +70,7 @@ this is the state of the thing.
   - infra | portal | the loop had no return leg, and a corrected answer sat unpublished for forty minutes
   - infra | housekeeping | the pre-commit block had the wrong order, and the sweep had no protocol
 
-**2026-08-20** — 27 pages
+**2026-08-20** — 24 pages
   - ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
   - correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
   - close | timeline/people/mind | the catalyst was a five-word message in a group chat the wiki has never seen
@@ -79,12 +81,12 @@ this is the state of the thing.
   - ingest | timeline | the Morgantown recording, verified against a real transcript
   - lint | wiki | wiring the recent PRs into the structure — and a duplicate entity, a dead quarantine, and my own damage
 
-**2026-08-19** — 34 pages
+**2026-08-19** — 33 pages
   - audit | self | the last three days of edits — three pages had the attribution backwards, and the corpus settled all three
   - synthesis | health | cocaine — new substance profile page
   - climb | mind, health, places | five doctrine pages (5 synthesized, 0 rejected)
 
-**2026-08-18** — 24 pages
+**2026-08-18** — 23 pages
   - rewrite | people | suzanne-frank — the wiki had the family's money flowing the wrong way, and the mother's thread undercounted fourteenfold
   - ingest | people/mind/timeline | raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania .md + Gemini-_21.md + message corpus
   - close | people | wiki/people/diane-moore — a two-word operator answer merged two entities and re-dated the exclusion
@@ -112,6 +114,7 @@ have moved since.
 - [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — 9 premises
 - [[wiki/mind/synthesis/dormancy-not-exit]] — 9 premises
 - [[wiki/mind/synthesis/estate-money-spine]] — 5 premises
+- [[wiki/mind/synthesis/failure-to-launch]] — 17 premises
 - [[wiki/mind/synthesis/fayette-return]] — 6 premises
 - [[wiki/mind/synthesis/instrument-is-subject]] — 4 premises
 - [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] — 6 premises
@@ -122,6 +125,7 @@ have moved since.
 - [[wiki/mind/synthesis/the-commissioned-self]] — 10 premises
 - [[wiki/mind/synthesis/the-deferred-audit]] — 9 premises
 - [[wiki/mind/synthesis/the-embedded-objective]] — 8 premises
+- [[wiki/mind/synthesis/the-rescue-premise]] — 13 premises
 - [[wiki/mind/synthesis/the-unbroken-bond]] — 5 premises
 - [[wiki/mind/synthesis/totality-themes]] — 26 premises
 - [[wiki/people/alexander-jackson]] — 1 premise
