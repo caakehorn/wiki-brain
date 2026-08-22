@@ -5,7 +5,7 @@ title: "117 Belmont Circle"
 status: closed
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-08-19
+date_modified: 2026-08-22
 date_range_start: 1961-02-08
 date_range_end: 2019-07-11
 sources:
@@ -218,6 +218,19 @@ that notice's outcome as unrecorded. The Belmont Circle usage does not
 resolve it, but it supplies the missing option: through the spring and
 summer of 2018 he had somewhere else to be, one lot away, and he was using
 it.
+
+> **UPDATE [2026-08-22]:** The notice's outcome is now partly recorded, and it
+> points at a *different* house. A Fayette County summons filed **April 5,
+> 2018** — seven days after the notice — gives Dan's address as
+> **337 Saratoga Drive** ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]).
+> So there were two somewheres, not one: this house was where he *was* across
+> that spring, by his own texts, and [[wiki/places/337-saratoga-drive|337
+> Saratoga]] was where the Commonwealth wrote to him. The two are not in
+> conflict — an address of record and an operating address are different
+> things, and the gap between them is itself characteristic of the period. It
+> does mean this section's "he had somewhere else to be" should be read as an
+> observation about use rather than about residency, which is now separately
+> documented and is not this address.
 
 ## The listing
 

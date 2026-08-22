@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 43 |
-| Open gaps | 404 |
+| Open gaps | 408 |
 | Answered, awaiting ingest | 1 |
 | Standing predictions | 36 |
 
@@ -145,9 +145,10 @@ new knowledge available, because no new source is required.
 - **[[wiki/interests/music/index]]** — DAW and hardware chain details
 - **[[wiki/interests/music/index]]** — Platform profile links for GRIPNOTIC
 
-### legal (2)
+### legal (3)
 
 - **[[wiki/legal/2015-possession-arrest]]** — The exact arrest date within the days before February 17, 2015 is not known, nor is the arresting barracks, the docket number, or whether the expungement was ever completed. The blotter prints the charges without grading them; Dan's own telling calls the resid
+- **[[wiki/legal/2015-possession-arrest]]** — Whether the fines referenced in January and February 2016 belong to this case, to the Combos matter, or to both running concurrently is not determinable from the message record — the "combos are paid off" phrasing suggests at least some of that money was the t
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 
 ### mind (109)
@@ -468,7 +469,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/message-corpora/source-coverage-index]]** — Row counts are physical records, not unique messages; the same message appears in many files and this index deliberately does not deduplicate.
 - **[[wiki/self/tattoos]]** — The gravestone piece now has an artist and location (Ian Weidrick, Allied Tattoo, Brooklyn) but still no date or corroborating message-corpus trace. Body placement is unknown for every piece on this list; the corpus documents *what* and often *when* and *who d
 
-### timeline (72)
+### timeline (75)
 
 - **[[wiki/timeline/2015-annie-read-wiki-impact-analysis]]** — These are the standing wiki claims the read contradicts or sharpens. **None have been applied.**
 - **[[wiki/timeline/annie-read-notes]]** — Chaseable questions this read raised. Each is a specific thing to look for, not a topic.
@@ -538,7 +539,10 @@ new knowledge available, because no new source is required.
 - **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — Whether the 17 April window is the second encounter is inferred from the operator's account plus a long late-night drive; no message that night names her. The June 8, 2019 coordination remains unresolved as either a third occasion or a misdated recollection of
 - **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — Whether sending the `.vcf` at 22:56 was capitulation, invitation, or unthinking — see the contradiction above — is not answerable from the record.
 - **[[wiki/timeline/events/the-fall-of-fran]]** — Nobody has recorded what Danny Matthews knew. The corpus shows no message in which the medical emergency is mentioned to him before, during or after, and his thread continues afterward with no reference to the night at all — so whether he understood that a 97-
-- **[[wiki/timeline/events/uniontown-hospital-vape-alarm]]** — The hospital's own record — an incident report, a trespass notice, a filed citation — has never been sought and would settle both the legal question and the exact date. Whether Dan was permitted back onto the property before Fran died four days later is unstat
+- **[[wiki/timeline/events/uniontown-hospital-vape-alarm]]** — **The disposition is the live question now.** The summons closes the "was anything filed" gap and opens a sharper one: what happened to docket MJ-14101-NT-0000082-2018. Both plea lines are unsigned in the last image anyone has of the sheet. The fine and costs 
+- **[[wiki/timeline/events/uniontown-hospital-vape-alarm]]** — The **video the frames come from** is not on disk — only three screenshots of it playing in Photos. Two clips exist (4:31 PM and 4:41 PM on April 17); recovering them would likely resolve the fine and costs row and the barcode block, and the 4:31 clip may pan 
+- **[[wiki/timeline/events/uniontown-hospital-vape-alarm]]** — The reading of the charge as a **Uniontown local ordinance** rests on `LO` being the MDJS charge-type prefix for one, which is convention rather than anything printed on the sheet. The ordinance's text — what conduct no. 1639 (b)(1) actually reaches, and wheth
+- **[[wiki/timeline/events/uniontown-hospital-vape-alarm]]** — The hospital's own record — an incident report, a trespass notice — is still unsought and is now the only thing that would establish whether Dan was permitted back onto the property before Fran died, which matters because Diane's letter had already excluded hi
 - **[[wiki/timeline/periods/covid-era-2020]]** — No primary source narrates the lockdown period day-to-day beyond the Train Plan incident and the trading record — there is no documented account of remote work, isolation's effect on the relationship outside that one crisis, or health precautions taken. The ex
 - **[[wiki/timeline/periods/dark-era-2007-2008]]** — No primary source gives an exact date for the eating disorder's onset, duration, or any point of resolution — the reconstruction above is built entirely from oblique references in later message threads, not from any direct account. The five-month first-use-to-
 - **[[wiki/timeline/periods/full-sail-2008-2010]]** — No message corpus or dated record narrows the "Danielle ends, Alexis begins" sequence to specific weeks within the eighteen-month window; both transitions are established only at the level of "during Full Sail."

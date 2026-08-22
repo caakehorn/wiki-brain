@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-20
+date_modified: 2026-08-22
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -69,6 +69,17 @@ connections:
 ---
 
 # The Estate / Money Spine
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/places/337-saratoga-drive]] (2026-08-22). That page gained one dated row
+> — an April 2018 court summons giving 337 Saratoga as Dan's address of record
+> ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]) — and a paragraph
+> explaining why a single document sits in a table of eras. **No capital event
+> is involved and nothing on this page moves.** The spine runs on transfers,
+> liquidations and the $465k sale; an address on a summons is not a transaction,
+> creates no claim on the house and changes neither the Chapter 13 account nor
+> the forward claim about the proceeds. No claim withdrawn.
+
 
 > **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/people/suzanne-frank]] and [[wiki/people/annie-ulmer]] (both 2026-08-20). Both moved for the August 16–19 ingest: an added section on Suz being targeted again by Coles and shielded pre-emptively by Dan, and a substantial new August section on Annie's page. Re-read against
 > the change; **no claim on this page is affected** and nothing here is

@@ -6,7 +6,7 @@ status: stable
 importance: high
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-08-18
+date_modified: 2026-08-22
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
@@ -62,7 +62,7 @@ connections:
     claim: "The vigil's opening event was not only a fall: the first encounter of Dan and Annie's non-monogamy arrangement was executing in the house between the two impacts, which is the fact this page carried for six weeks without knowing it."
   - page: wiki/timeline/events/uniontown-hospital-vape-alarm
     type: contains
-    claim: "The SMOK-versus-10W-vape story this page set up with its ending missing resolves as a building-wide fire alarm, four fire trucks and an escort off hospital property — the punchline named here as an open gap since 2026-07-19."
+    claim: "The SMOK-versus-10W-vape story this page set up with its ending missing resolves as a building-wide fire alarm, four fire trucks and an escort off hospital property — and, per the summons surfaced 2026-08-22, a summary case filed with the Fayette magistrate on April 5, 2018, the day after Fran died."
   - page: wiki/people/diane-moore
     type: caused-by
     claim: "The reason the two people who had kept Fran at home for three years held no shift in Fred Adams's mandated rotation is a letter: Dan's maternal grandmother barred them from the house unsupervised and from visiting without an assigned monitor, sent before the final admission rather than in response to it."
@@ -204,8 +204,14 @@ took one pull from the sub-ohm device, set off the smoke detector, and
 triggered an alarm that chain-spread through the entire hospital; four
 fire trucks arrived within minutes, and a security guard escorted him off
 the property and wrote up charging documents while Fran lay dying feet
-away. The full account — including a direct contradiction with the
-sentence above over which of the two of them was in the bathroom — is at
+away. **The charging documents were real.** The summons surfaced 2026-08-22:
+a Fayette County summary non-traffic case, docket MJ-14101-NT-0000082-2018,
+**filed April 5, 2018 — the day after Fran died** — before Magisterial District
+Judge Michael M. Metros, on a single local-ordinance count of smoking in a
+hospital. It was printed at 2:51 that afternoon and mailed to 337 Saratoga
+Drive, which means it arrived during the week of the funeral. The full account
+— including a direct contradiction with the sentence above over which of the
+two of them was in the bathroom — is at
 [[wiki/timeline/events/uniontown-hospital-vape-alarm]].
 
 The family's exclusion order belongs in this sequence too. A letter reached
