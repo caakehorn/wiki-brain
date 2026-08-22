@@ -147,8 +147,7 @@ date_range_start / date_range_end: YYYY-MM-DD
 changelog:                  # only on critical pages; newest first
   - date: YYYY-MM-DD
     note: "one line"
-image: self                 # override the auto illustration; assets/img/<name>.svg
-                            # (no real photographs are used anywhere in the wiki)
+image: self                 # override the auto illustration; any path under assets/
 pending_ingest: YYYY-MM-DD  # written by bin/wiki-gaps, removed by bin/wiki-gaps clear
 ```
 
