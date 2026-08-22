@@ -10,6 +10,7 @@ simply listed.
 
 ## 2026-08-22 — 27 pages
 
+- **Session log:** fix | people | the stale-snapshot clobber recurred on ally-lubin, six hours after the last one
 - **Session log:** meta | style | the blanket no-photographs rule is removed from STYLE_GUIDE
 - **Session log:** fix | people | a portal save put stray keystrokes into ally-lubin and turned the connect gate red on main
 - **Session log:** ingest | legal | the hospital-smoking summons — the charging documents were real, and they moved an address
