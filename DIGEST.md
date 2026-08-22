@@ -47,6 +47,7 @@ this is the state of the thing.
 ## The last few days
 
 **2026-08-22** — 23 pages
+  - fix | people | a portal save put stray keystrokes into ally-lubin and turned the connect gate red on main
   - ingest | legal | the hospital-smoking summons — the charging documents were real, and they moved an address
 
 **2026-08-21** — 21 pages

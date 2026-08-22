@@ -47,7 +47,7 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 2 | sage-close | staged answer on people/kristin, not integrated | `wiki/people/kristin.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on people/shelbie-breakiron, not integrated | `wiki/people/shelbie-breakiron.md` | 2026-08-21 |
 
-## Standing work (196)
+## Standing work (198)
 
 The campaign. Worked top-down by choice rather than drained, and each line
 below is a pointer — the file named is where the work itself is written, and
@@ -58,4 +58,4 @@ the only place to strike an entry.
 | 5 | ingest | 45 | `queue.md` | sources ingested partially or not at all |
 | 6 | climb | 16 | `synthesis-queue.md` | clusters unclimbed and unrejected |
 | 6 | connect | 88 | `connection-queue.md` | mined edge pairs, untyped and unrejected |
-| 7 | backlog | 47 | `BACKLOG.md` | standing campaign entries |
+| 7 | backlog | 49 | `BACKLOG.md` | standing campaign entries |
