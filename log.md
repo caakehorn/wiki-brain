@@ -1,3 +1,48 @@
+## [2026-08-22] meta | style | the blanket no-photographs rule is removed from STYLE_GUIDE
+
+Operator decision: no standing rule about photographs in the wiki, decided
+per case instead of by policy.
+
+**What changed.** One line. `STYLE_GUIDE.md` documented the `image:` frontmatter
+field as:
+
+```
+image: self                 # override the auto illustration; assets/img/<name>.svg
+                            # (no real photographs are used anywhere in the wiki)
+```
+
+The parenthetical is gone and the path is no longer narrowed to
+`assets/img/<name>.svg`; the field now reads `any path under assets/`. No
+replacement restriction was written — that is the point of the change, not an
+omission.
+
+**Nothing enforced it.** `bin/wiki-lint` has no image, asset or extension checks
+of any kind, so this was documentation only and the gates are unaffected. The
+rule's whole force was that a session reading STYLE_GUIDE would honour it.
+
+**Negative result, recorded.** Swept the full governing set — `STRATEGY.md`,
+`CLAUDE.md`, `EXTRACTION_SPEC.md`, `CONNECTIONS_SPEC.md`, `SYNTHESIS_SPEC.md`,
+`BACKLOG.md`, `INGEST_RUNBOOK.md`, `INGEST_PROTOCOL.md`, `README.md`,
+`AGENT_ACCESS.md` — plus `.claude/skills/`. **This was the only photograph
+restriction anywhere.** `EXTRACTION_SPEC.md:224` mentions photographs, but it
+lists them as a **primary source type** alongside message dumps and the GEDCOM,
+which was never a limitation and is untouched.
+
+**A page was already violating it.** `wiki/people/jason-bermejo.md` carries
+`image: assets/people/jason-bermejo/people-jason-bermejo-msw6nyoh.jpg` — the
+only real photograph in `wiki/`, live on the published site, and a silent breach
+of the rule for as long as it stood, because nothing mechanical checked. It now
+simply conforms. Worth knowing that the convention had already failed in
+practice before it was withdrawn in principle.
+
+**Operational note for later passes, not a rule.** This repository is
+**public** (`caakehorn/wiki-brain`, `visibility: public`) and `deploy-site.yml`
+publishes `wiki/**` to GitHub Pages — the corpus itself demonstrates the reach,
+since Ally sent `caakehorn.github.io/wiki-brain/wiki/people/bekah-fullem.html`
+into the thread on 2026-08-18. `raw/` is equally public; there is no private
+path in this repository. Anything added anywhere here is world-readable, which
+is a fact about the deployment rather than a constraint on it.
+
 ## [2026-08-22] fix | people | a portal save put stray keystrokes into ally-lubin and turned the connect gate red on main
 
 `main` was red for roughly four minutes short of an hour before this caught it.
