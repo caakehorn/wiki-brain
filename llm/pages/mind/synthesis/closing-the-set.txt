@@ -1,4 +1,5 @@
 ---
+sage_pending: '2026-08-22'
 domain: mind
 page_type: synthesis
 title: "Closing the Set"
@@ -357,3 +358,42 @@ is the only set in the corpus that cannot close.
   which [[wiki/interests/extreme-sports]] describes as total-obsession and
   scene-complete — is exactly the shape this rule predicts and is attested only
   by one retrospective capture.
+
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-22] — from the sage question `2026-08-22_005829_what-would-make-dan-happy`
+
+Answer and sources: `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`
+
+**This page's rule turns out to be about satisfaction, not only about intake, and
+it has never been applied outside the cultural record.** The set-closure
+mechanism — a bounded object with a findable edge, and the payoff in *closing*
+it — predicts, without modification, the corpus's only documented instance of Dan
+reporting a good outcome from something he did. The six-month
+[[wiki/timeline/events/fran-death-vigil|Fran vigil]] was self-set, bounded by a
+death, and finished, and his verdict two days later is *"we had a lot of fun. got
+good closure and finally did something in my life that wasn't completely selfish
+haha"* (2018-04-06, to 4137703708). The word he reaches for is **closure**.
+
+**And the negative control is the largest object in the corpus.**
+[[wiki/mind/concepts/attachment-model]]'s central claim is that the Annie bond
+*cannot* close without an explicit external severance signal, and that a primary
+sweep of 41,073 of her messages returns zero of them. In this page's vocabulary
+that is **an unclosable set** — the one object type the engine described here
+cannot survive contact with. It ran ten years and took an outside force to end.
+
+**The prediction this yields, and it is about this repository.** The wiki is
+entirely self-set and has **no edge**: a life has no last item. On this page's own
+rule it therefore cannot deliver what the vigil delivered, only more surface. If
+it ever does deliver it, the edge condition is wrong and the rule collapses to
+"self-set is enough," which [[wiki/mind/concepts/acquisition-drive]] has already
+falsified once.

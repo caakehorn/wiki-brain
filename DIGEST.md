@@ -47,6 +47,7 @@ this is the state of the thing.
 ## The last few days
 
 **2026-08-22** — 27 pages
+  - answer | mind | what would make Dan happy — he answered it himself in 2025, and the record has already run the experiment
   - fix | people | a fourth portal incident, a duplicated H1 on annie-ulmer, and the freshness gate red on main
   - fix | people | the stale-snapshot clobber recurred on ally-lubin, six hours after the last one
   - meta | style | the blanket no-photographs rule is removed from STYLE_GUIDE

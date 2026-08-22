@@ -1,4 +1,5 @@
 ---
+sage_pending: '2026-08-22'
 domain: health
 page_type: profile
 title: "Cocaine"
@@ -373,3 +374,36 @@ financially fragile as its buyer — precarity ran the whole chain.
   *out* of this network rather than into or around it — is recorded, but
   whether Dan made any similar attempt with any other node (before or
   after) is not on record.
+
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-22] — from the sage question `2026-08-22_005829_what-would-make-dan-happy`
+
+Answer and sources: `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`
+
+**The dosage arc and Dan's own first-person happiness rate move in opposite
+directions across the same window, which makes the 2017–2020 escalation a natural
+experiment the page never claims.** This page attributes the rise from ~1g/day to
+3.5–7g/day to Fran's inheritance removing the capital constraint, and the
+contraction to 0.5–1g/day to the money running out — *"a resource adjustment, not
+a step toward moderation."* Across the identical years, a `bin/mine-messages`
+sweep of first-person happiness claims in Dan's sent text runs **0.87 (2018), 0.34
+(2019), 0.41 (2020) per 1,000** against 7.86 in the five weeks of late 2015 —
+among the lowest rates anywhere in the corpus.
+
+**The finding: the one period where supply and money were both unconstrained is
+also the period with the least first-person report of feeling good.** That is
+consistent with the page's own reading — the desired state is maximum intensity
+limited only by supply, and intensity is not the same variable as wellbeing
+([[wiki/mind/profile/deviance-mapping]] puts it as *"intensity and forbidden
+knowledge in place of happiness and stability"*) — but the page currently has no
+outcome measure against the arc at all, and now one exists.

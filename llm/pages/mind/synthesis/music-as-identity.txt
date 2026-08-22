@@ -1,4 +1,5 @@
 ---
+sage_pending: '2026-08-22'
 domain: mind
 page_type: synthesis
 status: active
@@ -107,3 +108,34 @@ one facet; this one states the whole.
   cross (does he hear his own sub-bass signature in what he consumes?) is
   not settled by the corpus.
 
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-22] — from the sage question `2026-08-22_005829_what-would-make-dan-happy`
+
+Answer and sources: `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`
+
+**The corpus contains exactly one ranked comparison of Dan's happiness sources,
+and music is the thing being ranked against.** 2016-04-03 23:02, to Annie:
+
+> *"You're the only thing that's ever made me happier than making music"*
+
+This page argues that music is a primary, century-spanning structure of self
+rather than a hobby, and this sentence is the strongest single piece of evidence
+for that thesis anywhere in the message record — it places production **second in
+his life, behind exactly one person**, at the peak of the relationship that
+displaced it. It is also dated four months into the bond, which makes it a
+statement about the pre-Annie baseline: before December 2015, on his own
+accounting, making music was the top of the list.
+
+The paired quote from four months earlier belongs with it —
+**2015-12-09 15:39**, of the relationship: *"Ruin the only thing that's ever made
+me happy"* — because the two together date the handover.

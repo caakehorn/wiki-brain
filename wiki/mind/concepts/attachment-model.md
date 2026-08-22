@@ -251,3 +251,30 @@ neglect; it is a third response the model does not currently have a category for
 response, and one substantive response exists — it just isn't sympathy.** Whether
 that strengthens or complicates the model is the question for the pass that
 integrates this.
+
+### FINDING [2026-08-22] — from the sage question `2026-08-22_005829_what-would-make-dan-happy`
+
+Answer and sources: `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`
+
+**The no-counter-rule architecture is the exact inverse of the condition
+[[wiki/mind/synthesis/closing-the-set]] identifies as required for satisfaction,
+and neither page knows about the other.** This page's load-bearing claim is that
+the model cannot close without an explicit external severance signal, and that a
+primary sweep of Annie's 41,073 messages returns zero of them. `closing-the-set`
+establishes, from an entirely separate evidence base (2,016 curated cultural
+entries; 86.6% of 1,477 musical artists appearing exactly once), that Dan's unit
+of engagement is a **bounded object with a findable edge** and that the payoff is
+in closing it.
+
+Read together: **the Annie bond is an unclosable set**, and it is the largest
+object he ever attached the engine to. That reframes the decade not as a bad
+relationship that failed to end but as a structural mismatch between an engine
+that pays out on closure and an object built so closure cannot occur. It also
+predicts, correctly, that the June 1 2026 closure had to arrive from outside.
+
+**A measurement that bears on the page's own terminal-phase account.** A
+first-person happiness-claim rate over the canonical dump runs 7.86 per 1,000 in
+the first five weeks (2015) and 2.72, 0.73, 0.87, 0.34 across 2016–2019 — the
+collapse is complete by 2017, eight years before the terminal phase this page
+dates to August 2025. The bond stayed active; whatever it was delivering in
+December 2015 did not.

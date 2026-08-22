@@ -10,6 +10,7 @@ simply listed.
 
 ## 2026-08-22 — 27 pages
 
+- **Session log:** answer | mind | what would make Dan happy — he answered it himself in 2025, and the record has already run the experiment
 - **Session log:** fix | people | a fourth portal incident, a duplicated H1 on annie-ulmer, and the freshness gate red on main
 - **Session log:** fix | people | the stale-snapshot clobber recurred on ally-lubin, six hours after the last one
 - **Session log:** meta | style | the blanket no-photographs rule is removed from STYLE_GUIDE

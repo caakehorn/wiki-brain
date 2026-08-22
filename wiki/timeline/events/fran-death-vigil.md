@@ -1,4 +1,5 @@
 ---
+sage_pending: '2026-08-22'
 domain: timeline
 page_type: event
 title: "The Fran Vigil (March–April 2018)"
@@ -336,3 +337,47 @@ letter's probable author is [[wiki/people/dave-moore|Dave Moore]].
 (eviction notice), and a "97 Years Young" audio recording of Fran exist
 only as uploads inside the Gemini sessions; locating the originals is an
 open collection task.
+
+## Sage findings — pending ingest
+
+> Transient staging, written by an ANSWER pass. Each block below is a finding
+> produced while answering a question put to the wiki **from outside it** —
+> synthesis about the corpus, **not** operator testimony, which is why this
+> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
+> **Nothing here has been integrated yet.** The next pass over this page reads
+> these, works them into the argument where they belong, cascades into every
+> page that inherits them, bumps `date_modified`, and deletes this section. It
+> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+
+### FINDING [2026-08-22] — from the sage question `2026-08-22_005829_what-would-make-dan-happy`
+
+Answer and sources: `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`
+
+**The vigil week is the densest cluster of Dan reporting that something went well
+anywhere in the corpus outside the November–December 2015 onset flood**, and the
+page carries the events without carrying that fact. Four dated statements inside
+six days, three of them to people outside the household:
+
+> **2018-04-01 19:28** — *"i've grown from seeing this from such a close
+> perspective and i got to make sure she had fun during her last days."*
+> **2018-04-02 09:15** — *"she spent the last year of her life with people who
+> cared about her and legitimately had fun."*
+> **2018-04-02 22:58** — *"i have said my goodbyes to her like 3 or 4 times now…
+> i've got all the closure i need with her."*
+> **2018-04-06 17:55** — *"i spent the past 6 months looking after her full time
+> ($15 an hour to play video games with gram is a good deal) and we had a lot of
+> fun. got good closure and finally did something in my life that wasn't
+> completely selfish haha"*
+
+**A `bin/mine-messages` sweep of all 106,629 sent messages finds no second
+instance of Dan reporting a good outcome from something he did** rather than from
+someone he had. The vigil is therefore not only the counter-evidence to the
+low-altruism reading this page already argues — it is the corpus's single worked
+example of the thing going right, and
+[[wiki/mind/synthesis/closing-the-set]] supplies the mechanism: self-set, bounded
+by a death, and closed.
+
+**The contrast with the other ending is the finding.** The one death in the corpus
+he attended produced closure and he says so within 48 hours; the one relationship
+ending produced none and required an external severance signal after ten years
+([[wiki/mind/concepts/attachment-model]]).
