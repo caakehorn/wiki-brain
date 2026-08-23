@@ -4,7 +4,7 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
-### [2026-08-23d] - Session: the Annie record is closed, and every instruction that would have advanced it is withdrawn
+### [2026-08-23e] - Session: the Annie record is closed, and every instruction that would have advanced it is withdrawn
 
 * **Model:** Claude Code · **Branch:** `claude/dan-annie-contact-status-pxshrm`
 * **Trigger:** operator directive, delivered with a new 212 export attached.
@@ -57,9 +57,93 @@ group-chat screenshot's inferred *"Yesterday 6:33 AM"*. Both are visible defects
 kept on purpose. A future housekeeping pass will want to close them. It must
 not.
 
-**Still 28 sage-closes**, untouched for a seventh pass. Any sage question that
+**Still 29 obligations — 28 sage-closes, 1 close — untouched for an eighth pass.** Any sage question that
 can only be answered with new Annie material is answered from what the wiki
 already holds or declined with this directive as the reason.
+
+**This entry supersedes 08-23d below on one point only:** that session's next
+step was *"build the brevity tool"*, and it is still the next step. Nothing in
+the texting audit is withdrawn. But `mind/profile/texting-deviance-audit` and
+`mind/profile/linguistic-profile` both reason over threads that include the 212
+corpus, and any extension of them — a new window, a refreshed count, a tool
+trained on fresh message data — must not pull new Annie material to do it. Use
+what is already in `raw/`.
+
+### [2026-08-23d] - Session: the texting audit, and the operator's model of his own texting was two-thirds wrong
+
+* **Model:** Claude Code · **Branch:** `claude/dan-texting-analysis-cdejiq`
+* **Trigger:** operator asked for a full metric characterisation of his abnormal
+  texting, as step one toward building a tool to train him into brevity.
+
+**Read this first, because the next session will be asked to build the tool and
+the obvious tool is the wrong one.** The operator described his problem as
+(a) verbose messages, (b) "long swaths of 10+ 1-2 sentence paragraphs", and
+(c) sentences split staccato across 2-3 messages in spoken cadence. Measured
+against 183,787 sender-tagged rows: **(c) is falsified and (b) is negligible.**
+His burst-internal messages are *more* self-contained than his interlocutors'
+(68.5% carry their own subject and verb against 55.1%), and the STACCATO mode is
+8.5% of his 2026 turns against their 10.5% — **he fragments less than the norm,
+and it is his best-answered mode at 93.8%.** The "10+ paragraph" message is 27
+messages in two years, 0.08% of output. **A tool that merges his fragments or
+polices paragraph counts would be aimed at nothing.**
+
+**What is actually deviant is a mode he did not name.** STACKED-ESSAY — three or
+more consecutive messages, median 13+ words each — is **11.2% of his 2026 turns
+and 44.3% of everything he says**, against 1.0%/5.5% for the people answering him.
+It has quadrupled since 2015-19 and it *substituted* for the short reply rather
+than adding to it: SOLO-SHORT fell from 18.8% of his words to 7.5%.
+
+**The escalation is recent, accelerating, and not a composition artifact.**
+Words-per-turn ratio against same-year interlocutors: 1.23x (2015-19), 1.13x
+(2020-24), 1.70x (2025), **3.05x (2026)**. Held to Annie's NYC handle alone it
+runs 2.40x to 3.65x in one year with her side flat. **The eleven-year delivery
+thread is the control** — 3.2-4.3 words/turn, zero 50-word messages, ratio 0.65x
+against Johnny — so the capacity for brevity is intact and the channel is what
+varies. Whatever changed, changed after 2024, and **naming it is the highest-value
+open question in this file.** The 2020-24 window is thin (5,611 messages) so the
+plateau may be partly artifact.
+
+**The tool's target line is empirical, not aesthetic.** Answer rate peaks at
+**11-20 words (93.8%)** and falls monotonically to 54.7% above 200; words returned
+per word sent falls 3.53x to 0.16x. Two negative results that constrain the
+design: **ending on a question does NOT rescue a long turn** (86.1% vs 91.4% at
+21-60 words — negative lift), and **very short turns are not the optimum** either,
+so a tool minimising words would overshoot. Gate on length, and gate the tail
+only: 18.5% of his turns above 50 words carry 64.1% of his words, so improving
+the median accomplishes almost nothing. Two amplifiers worth gating on:
+silence (23.3 words/turn after <1 min quiet, 49.1 after 2h-1day) and hour
+(03:00 produces 50+ word messages at 7.61% against 13:00's 1.02%).
+
+**Nine explicit complaints from four people, 2018-2026**, the last five days
+before the export ends. *"I can't ready these paragraphs upon paragraphs"*
+(2026-08-08); *"Do you not understand how overwhelming it is getting paragraph
+after paragraph. I have expressed this to you before Dan"* (2026-02-19).
+
+**Two standing wiki claims retracted, and the retraction vindicates
+`the-commissioned-self`.** `linguistic-profile` carried "post-graduate (16th
+grade+) readability" and "99th percentile lexical diversity". Measured: **FK 2.08
+(2015-19) to 4.00 (2026)**, and TTR **0.0509 against his interlocutors' 0.0544** —
+he is marginally *less* diverse than the people answering him. **No percentile was
+ever computed against a comparison group**, and the control was sitting in the same
+file the whole time. `the-commissioned-self` now carries this as its first hard
+instance, plus the prediction that the Big Five and deviance-audit percentiles
+were produced the same way and have never met a control either. **That is a cheap,
+high-value next job.**
+
+**New: `bin/text-metrics`** (`eras`, `modes`, `contacts`, `response`, `hours`,
+`silence`, `target`) — committed so every figure is re-runnable and progress
+against the target is measurable rather than asserted. Registered in CLAUDE.md.
+Use it, not `mine-messages`, for anything about length or cadence.
+
+**Cascade done:** `linguistic-profile` (retraction + edge), `master-message-dump`
+(the ~8.36 words/message line corrected to a per-era series), `voice-modes`,
+`message-circadian-latency`, `forensic-method`, and RE-CHECKED blocks on all five
+stale premises this pass created — `the-commissioned-self`, `closing-the-set`,
+`read-receipt-forensics`, `johnny-dealer` (which gained a real finding: it is one
+of only two threads where Dan writes *less* than his counterparty).
+
+**Still 29 obligations — 28 sage-closes, 1 close — untouched for a seventh pass.**
+Not this session's work and not getting smaller. Start at `bin/wiki-work next`.
 
 ### [2026-08-23c] - Session: the operator named Libby, and the corpus had her married name all along
 

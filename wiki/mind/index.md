@@ -35,6 +35,7 @@ authoritative factual spine remains [[wiki/self/context-core]].
 - [[wiki/mind/profile/socionics-and-attitudinal]] — ILI-Ni "Critic," FLEV/VLEF, Chaotic Neutral as psychology.
 - [[wiki/mind/profile/deviance-mapping]] — the 2025 statistical-outlier audit: deviation scores, top-10 outliers.
 - [[wiki/mind/profile/linguistic-profile]] — voice fingerprint, "forensic intimacy" register, stylometrics, emotional tells.
+- [[wiki/mind/profile/texting-deviance-audit]] — turn-level measurement of how he texts: the STACKED-ESSAY mode, the 2025-26 escalation, the answer-rate cost.
 
 ## concepts — mechanisms
 

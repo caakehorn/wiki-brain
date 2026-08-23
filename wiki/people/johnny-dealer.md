@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-08-18
+date_modified: 2026-08-23
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_7249204125_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/MAX_PRIME.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
 synthesizes:
   - wiki/self/message-corpora/master-message-dump
@@ -48,6 +48,30 @@ infobox:
 ---
 
 # Johnny (+17243223678)
+
+> **RE-CHECKED [2026-08-23] — premise moved, conclusion survives, and the new
+> measurement adds a fact this page did not have.**
+> [[wiki/self/message-corpora/master-message-dump]] moved on 2026-08-23 when its
+> "avg ~8.36 words/message" Voice Patterns line was corrected to a per-era series
+> (8.34 in 2015–19 rising to 15.03 in 2026). Nothing this page draws from the dump is
+> affected — the 3,462-message volume, the thread ranking and the dated transactions
+> are all counts, not style figures.
+>
+> The recomputation that produced the correction does, however, measure this thread
+> directly, and the result is worth carrying: **it is one of only two threads in the
+> entire corpus where Dan writes less than the person he is talking to.** Across
+> 3,625 of his messages here he averages 6.64 words to Johnny's 11.41, and 9.70 words
+> per turn against Johnny's 15.00 — a ratio of **0.65×**, against his corpus-wide
+> 1.23× for the same period. He also opens the fewest multi-message turns of anywhere
+> in the record (1.46 messages per turn against his 1.88 baseline) and sent
+> **0.2% of messages at 50+ words**, near the corpus floor.
+>
+> That sharpens what this relationship was rather than changing it. The page already
+> reads the thread as pure logistics — *"On way / Here / Come to door"*. The style
+> measurement confirms it from the other direction: this is the register Dan uses when
+> a channel has a single instrumental purpose and no relational load, and it is
+> evidence in [[wiki/mind/profile/texting-deviance-audit]] that his verbosity is
+> channel-triggered rather than a fixed limit. Johnny, notably, is the wordier party.
 
 > **RE-CHECKED [2026-08-02] — conclusion survives, and the premise now
 > strengthens it.** [[wiki/self/message-corpora/master-message-dump]] moved when

@@ -8,10 +8,10 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 44 |
-| Open gaps | 448 |
+| Live contradictions | 45 |
+| Open gaps | 453 |
 | Answered, awaiting ingest | 1 |
-| Standing predictions | 49 |
+| Standing predictions | 53 |
 
 ## Answered, awaiting ingest
 
@@ -46,6 +46,7 @@ somewhere and has not yet found out where.
 - **[[wiki/mind/concepts/the-cool-metric]]** — the "applied across domains that normally use separate criteria" claim above has a documented exception, and it is a large one. food-and-diet shows the axis is **never** pointed at food, in a corpus where food is discussed more than music is: `food` returns 968 hits and `eat` 650 in the 29 MB message dump against `albu
 - **[[wiki/mind/profile/big-five-psychometrics]]** — acquisition-drive records the operator's own claim, offered with an explicit disclaimer against hyperbole, that his "resilience for the goal" sits at the 95th percentile or above — a persistence dimension that appears nowhere in the Big30 facet list and that the instrument does not test. If it is real, then a substanti
 - **[[wiki/mind/profile/enneagram-5w4]]** — Everything on this page descends from a commissioned instrument. The message corpus contains exactly one instance of Dan typing himself in his own words, quoting back a prompt he had written, on **2024-11-04**: *"vanessa is an xNFP 4w5 and **Dan is an INTP 5w6sx RLOEI** - compare them."* Not 5w4, and not RLUEI. The win
+- **[[wiki/mind/profile/texting-deviance-audit]]** — linguistic-profile records "Readability: post-graduate (16th grade+)" and "99th percentile for lexical diversity," both taken from the commissioned stylometric analyses. Recomputed directly from the corpus, his texting scores **Flesch-Kincaid 4.00** in 2026 (2.08 in 2015–19) and his type-token ratio in 2025–26 is **0.0
 - **[[wiki/mind/synthesis/ancestral-dialectic]]** — fayette-return shows the return dynamic is fully documented within the paternal line alone, across four generations, so a two-line dialectic is not required to explain it and may be over-specified. Both G1 immigrants — David from Russia, Sadie from Austria — are on the Ashkenazi side; if one line reproduces the pattern
 - **[[wiki/mind/synthesis/august-grievance-verdict]]** — The Morgantown event page previously asserted, and this page assumed, that across the interrogation *"she never says yes."* At **04:43**, answering *"Yes or no?"*, Annie says ***"Yes, save it."*** Three seconds later Coles tells Dan ***"she's looking at me saying yeah, she don't want you to hear it."*** This is held op
 - **[[wiki/mind/synthesis/dormancy-not-exit]]** — block-unblock-loop scores Menore's February 2025 farewell as *"the record's only fully clean closure"* — its strongest non-Annie control for the rule that a block holds when no dependency flows. This page reads the same relationship as the corpus's best evidence that closures of exactly that shape are dormancies. Both 
@@ -91,6 +92,10 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/concepts/reassurance-architecture]]** — **Measurement suppresses messaging.** Any channel that supplies passive verification (location sharing, read receipts left on) shows lower message volume than the same channel without it. One instance is already on the record in the predicted direction: the Au
 - **[[wiki/mind/concepts/reassurance-architecture]]** — **The first crisis is the diagnostic, not the first months.** Check-in rate in the opening ninety days of a new relationship predicts nothing; the rate during its first high-stakes event predicts the steady state. *Falsifier:* a documented crisis in a new rela
 - **[[wiki/mind/concepts/reassurance-architecture]]** — **Ultimatums track silence, not grievance.** Across the record, exit declarations cluster after periods of non-response rather than after discoveries of misconduct. *Falsifier:* a `bin/mine-messages` pass showing ultimatums distributed independently of precedi
+- **[[wiki/mind/profile/texting-deviance-audit]]** — **The 2026 divergence continues absent intervention.** The ratio series has moved 1.13× → 1.70× → 3.05× in three years with no reversal. Falsified if a 2027 export shows the words-per-turn ratio at or below 2.0× without a behavioural intervention having been r
+- **[[wiki/mind/profile/texting-deviance-audit]]** — **A length-triggered intervention beats a uniform one.** Because 64.1% of his words sit in 18.5% of his turns, gating only turns above 50 words should recover most of the answer-rate loss at a fraction of the friction. Falsified if a trial gating all turns pro
+- **[[wiki/mind/profile/texting-deviance-audit]]** — **The transactional-channel immunity holds.** The delivery thread's 3.2–4.3 words per turn across eleven years predicts that any new purely-instrumental channel he opens will show no essay mode at all. Falsified by a 2026–27 logistics thread carrying STACKED-E
+- **[[wiki/mind/profile/texting-deviance-audit]]** — **Nighttime gating captures disproportionate benefit.** 21:00–04:00 carries roughly double the essay rate of 10:00–15:00. Falsified if hour-of-day drops out as a predictor once thread identity and silence-duration are controlled — which this audit has **not** 
 - **[[wiki/mind/synthesis/august-grievance-verdict]]** — **If the group chat is exported, it will contain more retractions and more audience-shaped statements, not fewer.** Finding 1 predicts a channel in which all three parties are present is the highest-pressure venue in the corpus and therefore the one where audi
 - **[[wiki/mind/synthesis/august-grievance-verdict]]** — **If contact resumes, the reopening message will not reference the grievances.** Every documented reconciliation in this record reopens through a neutral channel — the dog, a photograph, a practical question — and none through the substance of the prior ruptur
 - **[[wiki/mind/synthesis/august-grievance-verdict]]** — **No terminating statement from Annie will appear.** The count is 0 in 41,073 messages; the August record produced its nearest approach and still did not produce one.
@@ -165,7 +170,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/legal/2015-possession-arrest]]** — Whether the fines referenced in January and February 2016 belong to this case, to the Combos matter, or to both running concurrently is not determinable from the message record — the "combos are paid off" phrasing suggests at least some of that money was the t
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 
-### mind (123)
+### mind (128)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
 - **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
@@ -194,6 +199,11 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/concepts/the-handed-mirror]]** — **Does he predict the reaction in advance?** He had been told by the model, days before, that his text style *"is usually really poorly received in text"* — and proceeded. Whether he expected the rupture and sent it anyway, or genuinely did not see it coming, 
 - **[[wiki/mind/concepts/the-handed-mirror]]** — **The three-second tapbacks.** James objected to the file and to the Danielle copy essentially simultaneously. Which of the two actually did the damage is unrecoverable from the record and would sharpen the concept considerably.
 - **[[wiki/mind/politics/axioms]]** — This page reasons from a reading list and one self-authored system prompt, not from a direct first-person statement of political theory in Dan's own words explaining *why* he built the Cato identity or chose the Parenti book specifically — the inference that t
+- **[[wiki/mind/profile/texting-deviance-audit]]** — **The 2020–2024 trough is unexplained and it is the key to the whole series.** His ratio sat at 1.04× — full parity — through years the corpus barely covers (5,611 messages against 20,060 in 2025 alone). Whether that is a real behavioural plateau or an artifac
+- **[[wiki/mind/profile/texting-deviance-audit]]** — **No control for topic.** Conflict, logistics and AI-instruction threads are pooled. The 1,380-word specimen is partly pasted prompt text; 11 of 131 messages ≥100 words in 2025–26 are pronoun-poor enough to read as pasted rather than composed. A topic-aware cu
+- **[[wiki/mind/profile/texting-deviance-audit]]** — **Group chats are not separated from one-to-one threads**, and turn-taking norms differ between them.
+- **[[wiki/mind/profile/texting-deviance-audit]]** — **The audit measures text only.** Whether the same escalation appears in voice notes, email or DMs is untested, and the operator's complaint was not platform-specific.
+- **[[wiki/mind/profile/texting-deviance-audit]]** — **The complaint record is thin where it should be thick.** Nine explicit complaints across eleven years is a floor, not a measurement — most irritation never gets typed. Whether the nine are representative or the only four people who ever said it out loud is u
 - **[[wiki/mind/psychosexual/arrangement-history]]** — This table is built from what has been mined from the message corpus so far, not a claim of completeness — the 184k-row master CSV and the platform-specific message exports (Facebook Messenger threads, smashonista/Chaturbate-adjacent accounts) are not exhausti
 - **[[wiki/mind/psychosexual/taboo-and-boundary-testing]]** — The theoretical framing — taboo-seeking as deliberate category-rupture rather than transgression-for-its-own-sake — still rests on AI-dossier language (`Dan Profile.txt`, elaborated once by `DANSYNTH.txt` from the same source) rather than Dan's own explanation
 - **[[wiki/mind/synthesis/alias-as-periodization]]** — **The fourth name is not examined here.** `wiki/interests/music/aliases/mogged-up` is outside this page's `synthesizes:` list and its dates were not checked against the rule. If it breaks the pattern, this page is wrong and should be revised, not deleted.

@@ -38,6 +38,9 @@ connections:
   - page: wiki/timeline/periods/2025-collapse
     type: evidences
     claim: "The 41,278-message 2025 total — within 2% of the 2018 peak — gives this period its first precise whole-corpus volume figure, confirming the collapse year matched the deep-cycle year for raw output even as the content shifted from relationship crisis to relationship termination."
+  - page: wiki/mind/profile/texting-deviance-audit
+    type: parallels
+    claim: "Same corpus, orthogonal instrument: this page measures when he writes and how fast the channel turns around, that one measures how much he writes per turn. Both find a 2025-26 inflection, and the length series carries the remediation target — turns of 11-20 words are answered 93.8% against 54.7% above 200 words."
 ---
 
 

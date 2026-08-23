@@ -8,7 +8,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
@@ -160,10 +160,34 @@ life. It exists in commissioned sessions, and it stays there.
 | Socionics | ILI-Ni, "the Critic" | [[wiki/mind/profile/socionics-and-attitudinal]] | **0** |
 | Attitudinal Psyche | FLEV "Alchemist" / VLEF "Inquisitor" | [[wiki/mind/profile/socionics-and-attitudinal]] | **0** |
 | Moral alignment | Chaotic Neutral | [[wiki/mind/profile/socionics-and-attitudinal]] | — |
-| Stylometrics | 99th percentile; "a custom-built fork of English" | [[wiki/mind/profile/linguistic-profile]] | — |
+| Stylometrics | 99th percentile; "a custom-built fork of English" — **the percentile retracted 2026-08-23** | [[wiki/mind/profile/linguistic-profile]] | — |
 | Deviance audit | 80–99/100 across seven domains, 92% stated confidence | [[wiki/mind/profile/deviance-mapping]] | — |
 | Composite voice model | Eight modes, ten trigger-level modifiers with percentages | [[wiki/mind/profile/voice-modes]] | — |
 | This wiki | 476 pages | [[wiki/self/concepts/wiki-brain]] | — |
+
+> **RE-CHECKED [2026-08-23] — premise moved, and it moved in this page's favour.
+> The stylometrics row is now the first instrument in the table to be independently
+> falsified.** [[wiki/mind/profile/linguistic-profile]] was corrected on 2026-08-23:
+> its "99th percentile for lexical diversity" and "post-graduate (16th grade+)
+> readability" were recomputed against the sender-tagged corpus and both failed.
+> Measured Flesch-Kincaid is **2.08 (2015–19) to 4.00 (2026)**, and his 2025–26
+> type-token ratio is **0.0509 against his own interlocutors' 0.0544** on equal
+> 200,000-token samples — he is marginally *less* lexically diverse than the people
+> answering him. The mechanism is exactly the one this page names: **no percentile
+> was ever computed against a comparison group.** The analysis ranked Dan against an
+> implied population that was never assembled, at Dan's request, over Dan's corpus.
+> The moment somebody built the obvious control — the other side of his own
+> conversations, already sitting in the same file — the finding inverted.
+>
+> This does not weaken the page; it supplies the first hard instance of what it has
+> so far argued structurally. Seven frameworks agreeing was already weak evidence for
+> the reasons below. It is now weaker by one, and the failure was found by counting
+> rather than by re-interviewing the apparatus. The prediction this licenses is
+> specific and cheap to test: **the remaining instruments in the table that report
+> percentiles — Big Five/Big30 at "Impulsiveness 96, Altruism 1", the deviance audit
+> at "80–99/100 across seven domains" — were produced the same way and have never met
+> a control group either.** See [[wiki/mind/profile/texting-deviance-audit]] for the
+> recomputation.
 
 [[wiki/mind/profile/index]] reads the convergence generously and correctly: the
 instruments *"are not five separate diagnoses but one structure measured five

@@ -13,12 +13,12 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 495 |
-| Pages touched in the last 14 days | 188 |
+| Pages | 496 |
+| Pages touched in the last 14 days | 189 |
 | Pages reasoning from other pages (`synthesizes:`) | 43 |
-| Live contradictions | 44 |
-| Open gaps | 448 |
-| Standing predictions | 49 |
+| Live contradictions | 45 |
+| Open gaps | 453 |
+| Standing predictions | 53 |
 
 ## By domain
 
@@ -26,7 +26,7 @@ this is the state of the thing.
 |---|---|
 | people | 170 |
 | interests | 143 |
-| mind | 69 |
+| mind | 70 |
 | self | 40 |
 | timeline | 39 |
 | work | 15 |
@@ -39,20 +39,21 @@ this is the state of the thing.
 | Status | Pages |
 |---|---|
 | stable | 191 |
-| active | 161 |
+| active | 162 |
 | closed | 100 |
 | archived | 31 |
 | stub | 12 |
 
 ## The last few days
 
-**2026-08-23** — 40 pages
+**2026-08-23** — 49 pages
   - directive | people | the Annie record is closed — no further texts, no further narrative
   - lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
   - ingest | people | five new entries, and the Ulmer household turns out to be the corpus's largest blind spot
   - close | people | Libby is Libby Titus, she died in October 2024, and the corpus had her married name all along
+  - report | mind | texting deviance audit — the operator's model of his own texting was two-thirds wrong
 
-**2026-08-22** — 16 pages
+**2026-08-22** — 15 pages
   - answer | mind | what would make Dan happy — he answered it himself in 2025, and the record has already run the experiment
   - fix | people | a fourth portal incident, a duplicated H1 on annie-ulmer, and the freshness gate red on main
   - fix | people | the stale-snapshot clobber recurred on ally-lubin, six hours after the last one
@@ -64,7 +65,7 @@ this is the state of the thing.
   - climb | mind | three entries, and two of them answer a different question than the one asked
   - close | mind | two staged sage findings integrated on the pages this pass was already holding open
 
-**2026-08-21** — 13 pages
+**2026-08-21** — 12 pages
   - close+lint | all domains | two operator answers integrated; a false claim retracted and gated; staleness cleared to zero
   - rewrite | self | ally-and-dan-love-as-destiny — rebuilt as an argument, on verifiable evidence
   - lint | people | a portal save had deleted 56 typed-edge claims and 30KB of prose, and the gate that caught it went unread for a day
@@ -76,7 +77,7 @@ this is the state of the thing.
   - infra | portal | the loop had no return leg, and a corrected answer sat unpublished for forty minutes
   - infra | housekeeping | the pre-commit block had the wrong order, and the sweep had no protocol
 
-**2026-08-20** — 23 pages
+**2026-08-20** — 21 pages
   - ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
   - correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
   - close | timeline/people/mind | the catalyst was a five-word message in a group chat the wiki has never seen
@@ -87,7 +88,7 @@ this is the state of the thing.
   - ingest | timeline | the Morgantown recording, verified against a real transcript
   - lint | wiki | wiring the recent PRs into the structure — and a duplicate entity, a dead quarantine, and my own damage
 
-**2026-08-19** — 32 pages
+**2026-08-19** — 30 pages
   - audit | self | the last three days of edits — three pages had the attribution backwards, and the corpus settled all three
   - synthesis | health | cocaine — new substance profile page
   - climb | mind, health, places | five doctrine pages (5 synthesized, 0 rejected)

@@ -225,6 +225,7 @@ Sweep for: broken links, orphan pages, contradictions between pages, claims supe
 |---|---|
 | `bin/capture` | human-facing input: interactive typing/pasting, one-shot facts, file upload (`-f`), `status` |
 | `bin/mine-messages` | corpus mining over the full iMessage dump: `stats`, `grep`, `timeline`, `battery`, `entities`. **Use this instead of grep** — three properties of the dump make naive grep silently wrong |
+| `bin/text-metrics` | turn-level style measurement: `eras`, `modes`, `contacts`, `response`, `hours`, `silence`, `target`. The instrument behind `wiki/mind/profile/texting-deviance-audit`. **Use this rather than `mine-messages` for anything about length or cadence** — message-level counts hide the effect entirely, because the unit of Dan's speech is the turn, not the message |
 | `bin/wiki-check` | **the whole mechanical chain in one command** — regenerates, runs the three gates plus freshness, rescans `WORK.md`, in the one order that is correct. `--check-only` gates without writing (CI, review); `--quiet` for hooks. Exits 1 on any red gate. The judgment half is the `wiki-housekeeping` skill |
 | `bin/wiki-lint` | frontmatter, links, orphans, sizes, duplicate frontmatter keys, retracted claims (`RETRACTED.md`), empty cited sources, **unresolved merge markers, assistant citation artifacts, malformed frontmatter blocks and master-index count drift**. Must be 0 errors before commit |
 | `bin/wiki-freshness` | is the generated corpus (`llm/`) in sync with `wiki/`? Exact set difference against `llm/manifest.json`; never writes. Exit 1 on drift |
