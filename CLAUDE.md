@@ -39,6 +39,51 @@ That order is deliberate in both directions: the operator's request never waits 
 
 `operator-log.md` and `bin/wiki-gaps pending` still exist and are still worth opening: the log is the durable half — append-only, survives `clear`, and records what was *already* integrated so a session can tell a fresh answer from an old one without reading git history. `bin/wiki-work` will not let you miss that there is one; the log tells you its history.
 
+## STANDING DIRECTIVE — the Annie moratorium (2026-08-23, operator)
+
+**No new Annie material enters this repository. No exception is delegated to a
+session; only the operator can lift this.**
+
+The operator's instruction, verbatim in substance: *we can no longer include
+texts or any narrative anything about Annie, due to the unpredictable nature of
+her situation and the apparent danger she is in.* This is a safety directive
+about a living person, not an editorial preference, and it outranks every
+priority elsewhere in this file — including `queue.md`'s CRITICAL row, which
+stood for weeks telling each session that the next 212 export was the
+highest-value pending ingest. That row is closed. So is every other standing
+instruction that would have pulled Annie messages in.
+
+**What is forbidden, from today:**
+
+- Filing any new Annie message export, metadata dump, group-chat export or
+  screenshot into `raw/` or `inbox/` — including exports already named in
+  `queue.md` or `BACKLOG.md` as pending.
+- Writing any new narrative, event, timeline entry, synthesis, typed-edge claim
+  or dated line about Annie, or extending an existing one past what the wiki
+  already says.
+- Quoting any Annie message not already quoted on a page.
+- Answering a `sage/` question with new Annie material. A question that can only
+  be answered that way is answered from what the wiki already holds, or it is
+  declined with this directive as the stated reason.
+
+**What is unchanged, and must stay unchanged:** every existing Annie page. This
+directive is a stop, not a retraction and not a redaction. Nothing already
+written is deleted, softened or rewritten, because the operator asked for
+nothing to be done differently — only for the record to stop advancing.
+
+**Where the record stops.** The wiki's account ends at the last contact it
+already states — **2026-08-19, 15:15:33**, the last message on
+`wiki/people/annie-ulmer.md` (`date_range_end: 2026-08-19`). Treat that as the
+current state of the world: *Dan has not spoken to Annie since the last date the
+wiki records.* Do not date-check it against an export, do not "confirm" it, and
+do not bump it. If a source you are reading for some other purpose runs past
+that date on this thread, stop reading at it and take nothing from beyond.
+
+An export was uploaded to a session on 2026-08-23 that runs past that date. It
+was **not** filed to `raw/`, not copied into the repository, and nothing was
+derived from it — deliberately, under this directive. That is the correct
+handling of the next one too.
+
 ## The three things that matter most
 
 1. **Depth is the binding constraint.** There are 438 pages; there are not enough *details on them*. A pattern can only be found among details that were written down, and synthesis reasons from `wiki/`, not `raw/` — so anything dropped at extraction is a connection nobody can ever make. Read sources to exhaustion, write long, keep the mundane. `EXTRACTION_SPEC.md`.
