@@ -95,12 +95,16 @@ connections:
 > the same payment-app exports that establish the outflow would show any
 > Annie→Dan flow if anyone looked, and nobody has.
 >
-> **One forward-dated addition.** The Libby income stops at the end of 2024 and
-> the next documented financial event on her side is *"I got the letter I was
-> denied unemployment"* (2025-03-31). That places the start of her income collapse
-> in **March 2025**, inside the window this page currently treats as Dan's
-> collapse alone. Recorded as a new gap rather than folded into the timeline,
-> because no amount is attached to it.
+> **One forward-dated addition, corrected same-day.** The Libby income stops in
+> **August 2024**, not at the end of the year — the work ended in a screaming
+> match on 08-06 and the last of three unpaid-wages demand letters Dan drafted is
+> dated 08-13. **[[wiki/people/libby|Libby Titus]] then died on 13 October 2024
+> with the balance, on the evidence available, unpaid.** So the spine's inbound
+> side does not taper; it is cut off by a death, and the stated rate in the
+> letters (**$75/hour**) does not reconcile with the one payment figure in the
+> messages ($500 for just over three hours), which is held open on her page. The
+> next documented financial event on Annie's side is *"I got the letter I was
+> denied unemployment"* (2025-03-31).
 
 > **RE-CHECKED [2026-08-22]:** flagged stale against
 > [[wiki/places/337-saratoga-drive]] (2026-08-22). That page gained one dated row

@@ -12,6 +12,7 @@ simply listed.
 
 - **Session log:** lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
 - **Session log:** ingest | people | five new entries, and the Ulmer household turns out to be the corpus's largest blind spot
+- **Session log:** close | people | Libby is Libby Titus, she died in October 2024, and the corpus had her married name all along
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -48,7 +49,7 @@ simply listed.
 | [[wiki/people/claire-ulmer]] | people | **GAP CLOSED** — This page previously read *"Claire has children — an unnamed niece and nephew."* **They are named.** Alice appears **66 times** between October 2023 and July 2025 and Otto **31 times** over the same s |
 | [[wiki/people/garrett]] | people | — |
 | [[wiki/people/index]] | people | — |
-| [[wiki/people/libby]] | people | — |
+| [[wiki/people/libby]] | people | **GAP CLOSED** — The first version of this page carried the identification as **inferred**, on two supports: Dan's own contemporaneous Tumblr link (`girlfriend-muse-libby-titus-elizabeth-jurist`, sent 2024-03-17, six  |
 | [[wiki/people/milo]] | people | _(carries a GAP CLOSED from 2026-08-17)_ |
 | [[wiki/people/otto]] | people | — |
 | [[wiki/people/rick-frank]] | people | _(carries a CORRECTED from 2026-08-11)_ |

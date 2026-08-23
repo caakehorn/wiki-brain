@@ -29,6 +29,8 @@ infobox:
   enneagram: 7w8
   personality_assessment: "[[wiki/people/annie-ulmer-personality-assessment]]"
 changelog:
+  - date: 2026-08-23b
+    note: "Libby identified as Libby Titus (Libby Fagen) on operator testimony; the 2024 section corrected — work runs Feb to mid-August not to December, ended in an unresolved unpaid-wages dispute with three demand letters Dan drafted, and closed with her death on 13 October 2024. The $500-for-3-hours figure does not reconcile with the $75/hour in the letters; contradiction held open on her page."
   - date: 2026-08-22
     note: "Closing note extended: the six endogenous features that distinguish the August 16-19 rupture from every prior severance are now argued at wiki/mind/synthesis/the-rescue-premise, along with the test that rejects an external rescue as the mechanism. No claim on this page withdrawn; the arc sections are unchanged."
   - date: 2026-08-21
@@ -1932,28 +1934,50 @@ inside ([[wiki/self/chats/gemini-18]]).
 > unemployed."* **The message record shows her working two jobs through most of
 > 2024**, and the better-paid one has been invisible to this wiki until now.
 
-From **February to December 2024** Annie worked as a paid personal assistant and
-informal carer for an elderly Manhattan woman the corpus calls
-**[[wiki/people/libby|Libby]]** — 116 messages, 115 of them inside that calendar
-year. The work was real and it escalated: driving to hospital and doctor's
-appointments, sitting through them, handling correspondence, packing an
-apartment. The rate is stated once and it is not small — *"I was literally with
-Libby for just over 3 hours today.. she paid me 500"* (2024-05-17).
+From **February to early August 2024** Annie worked as a paid personal assistant
+and informal carer for **[[wiki/people/libby|Libby Titus]]** — the songwriter
+married to Donald Fagen of Steely Dan, identified by operator testimony on
+2026-08-23 and named *"Libby Fagen"* in Annie's own messages. 116 messages, **112
+of them between February and mid-August**. The work was real and it escalated:
+driving to hospital and doctor's appointments, sitting through them, handling
+correspondence, packing an apartment, for a woman who had told her in March that
+she had brain cancer.
 
 She was doing it **on top of another job**: *"Now I'll be here 6 days a week and
 then Libby in mornings…: I don't want to get worked again and pass out like last
 time"* (2024-05-08). That second 2024 employer is named nowhere and appears in no
 `wiki/work/` page.
 
+**It ended badly and then it ended finally.** On 2024-08-06 — *"after I had gotten
+screamed at by Libby"* — the work stops. Through August Annie was owed wages, was
+asked to sign an NDA, and heard nothing; **Dan drafted three escalating demand
+letters for her**, the last headed *"Final Request for Payment of Unpaid Wages"*
+and stating a rate of **$75/hour** *"set by Libby Fagen"*. The money was not
+abstract — *"I may try to see if John will hold this weeks rent check… I am
+waiting for a check from Libby"* (2024-08-01), [[wiki/people/john-paci|John]]
+being the landlord at [[wiki/places/307-e-76th-st]]. **Libby died on 13 October
+2024**; Dan records it three days later in two words, *"Libby died"*, and pastes
+the Steely Dan announcement on 2024-11-01. **Nothing in the corpus records the
+balance being paid.**
+
+> **CORRECTED [2026-08-23].** An earlier version of this section dated the work
+> *"February to December 2024"* and described it only in its warm phase. Both are
+> wrong: the work runs to **mid-August**, everything after is aftermath, and the
+> arrangement ended in a screaming match and an unresolved wage claim. The
+> quoted *"just over 3 hours today.. she paid me 500"* (2024-05-17) also does not
+> reconcile with the $75/hour in the letters; the contradiction is held open on
+> [[wiki/people/libby]] rather than smoothed.
+
 **Three things follow.** First, the unemployment claim is wrong for 2024 and
-should not be repeated. Second, the **$119K–$123K net outflow** from Dan recorded
-at [[wiki/mind/synthesis/estate-money-spine]] is *unaffected* — it is derived from
+should not be repeated. Second, the **$119K–$123K net outflow** recorded at
+[[wiki/mind/synthesis/estate-money-spine]] is *unaffected* — it is derived from
 payment-app records rather than from any assumption about her employment — but the
 picture of a single-earner household in 2024 specifically is not what the record
-supports. Third, the income ends: the next documented event in this sequence is
-**March 2025**, *"I got the letter I was denied unemployment"* (2025-03-31), which
-dates the start of her income collapse a year after the Libby work began and
-inside the window [[wiki/timeline/periods/2025-collapse]] covers.
+supports. Third, the income ends **with a death in October 2024**, and the next
+documented event in the sequence is **March 2025**, *"I got the letter I was
+denied unemployment"* (2025-03-31), which dates the start of her income collapse
+five months later and inside the window
+[[wiki/timeline/periods/2025-collapse]] covers.
 
 The unpaid counterpart ran alongside it and continued after it stopped — regular
 childcare for her sister's children, [[wiki/people/alice]] and
