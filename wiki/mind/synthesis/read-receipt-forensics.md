@@ -7,7 +7,7 @@ title: "Read-Receipt Forensics — chat.db Metadata and Its Traps"
 aliases: ["read receipts", "date_read", "chat.db metadata"]
 tags: [forensic-analysis, digital-footprint]
 date_created: 2026-08-09
-date_modified: 2026-08-20
+date_modified: 2026-08-23
 sources: []
 synthesizes:
   - wiki/mind/concepts/forensic-method
@@ -230,3 +230,11 @@ yet been audited; that audit is owed and is listed in `BACKLOG.md`.
 > because a cited source had been read to eleven percent of its length. The
 > instrument that lied quietly there was a reading pass rather than a query.
 
+> **RE-CHECKED [2026-08-23] — premise moved by one typed edge, conclusion
+> unaffected.** [[wiki/mind/concepts/forensic-method]] gained an `instance-of` edge on
+> 2026-08-23 into [[wiki/mind/profile/texting-deviance-audit]]. No content this page
+> depends on changed. The new instance does rhyme with this page's subject: the audit's
+> decisive move was a control that disconfirmed the hypothesis being tested — Dan's
+> *first* messages in a turn start lowercase at the same rate as his continuations, so
+> the lowercase opener is habit, not sentence-fragmentation. That is the same class of
+> check whose absence produced the four `chat.db` defects catalogued here.

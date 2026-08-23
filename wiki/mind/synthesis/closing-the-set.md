@@ -8,7 +8,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-21
+date_modified: 2026-08-23
 sources:
   - raw/self/favorites/FAVS MASTERLIST.csv
   - raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html
@@ -400,3 +400,12 @@ rule it therefore cannot deliver what the vigil delivered, only more surface. If
 it ever does deliver it, the edge condition is wrong and the rule collapses to
 "self-set is enough," which [[wiki/mind/concepts/acquisition-drive]] has already
 falsified once.
+
+> **RE-CHECKED [2026-08-23] — premise moved by one typed edge, conclusion
+> unaffected.** [[wiki/mind/concepts/forensic-method]] moved on 2026-08-23 to carry an
+> `instance-of` edge into [[wiki/mind/profile/texting-deviance-audit]] — the method
+> turned on Dan's own self-report about how he texts, where two of his three stated
+> claims were falsified by counting. No factual content on the premise page changed and
+> nothing this page reasons from is touched. Worth noting only because the new instance
+> is the method pointed at its own operator rather than at a third party, which is a
+> shape this page tracks.
