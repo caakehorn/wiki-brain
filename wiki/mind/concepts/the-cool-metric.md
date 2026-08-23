@@ -7,7 +7,7 @@ aliases: ["anti-normie", "the normie check", "taste as sorting function"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-21
+date_modified: 2026-08-23
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -51,6 +51,14 @@ connections:
 ---
 
 # The Cool Metric
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/interests/music/overview]] (2026-08-23). That page gained one section —
+> a corpus search establishing that the production identity has almost no social
+> trace in fifteen years of messages (one message about making a track, zero
+> about a studio, no play counts). **No alias, genre, date, release or aesthetic
+> claim on that page changed**, and this page reasons only from those. Nothing
+> here is affected and no claim is withdrawn.
 
 Dan evaluates culture, objects, and people on a single axis, and the axis is
 not quality. It is whether the thing in question is **performed or authentic** —

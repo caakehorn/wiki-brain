@@ -7,7 +7,7 @@ status: stable
 knowledge: earned
 importance: high
 date_created: 2026-08-22
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 tags: [career, personality-profile, financial-stress, music-production, ai-collaboration]
 sources:
   - raw/self/dox-md/Honest assessment and value judgment analysis.md
@@ -173,6 +173,38 @@ AI-collaboration period and rules out its having been learned from models.
 > defensible claim is "uses the scale, in a population that does not" — which
 > is genuinely rare — and not "is well calibrated," which would be the valuable
 > version and is currently unknown.
+
+> **REVISED [2026-08-23] — the counts were wrong, the asymmetry survives, and
+> the experiment this page recommended does not exist.** The figures above (43
+> vs 2, 15 graded vs zero) were re-derived from the on-disk CSVs and **none of
+> the four reproduces**; the full correction is on
+> [[wiki/mind/concepts/calibrated-confidence]]. Under a strict, symmetric filter
+> — a first-person credence, population shares and cited statistics excluded,
+> applied identically to both directions — the result is **24 graded credences
+> from Dan against 1 from 503 other people**, a rate ratio near 22× rather than
+> the infinite one implied by "zero." The original filter had been counting
+> retail discounts, opinion polls, population shares and rhetorical framings.
+> **The thesis holds and is now stronger for having survived a filter built to
+> break it.** The arithmetic under it does not.
+>
+> **The consequential part is the other half.** This page named scoring these
+> instances against outcomes as *"the highest-value cheap experiment named
+> anywhere in this cluster"* and asserted the data already existed. **It does
+> not.** Reading all 24, they are claims about another person's interior
+> (*"98.7% sure you don't believe any of your catholicism"*), claims about
+> unwitnessed past events (*"99% sure it was a sedative in that"*), and
+> rhetorical framings. **Exactly one is resolvable from the corpus and it
+> resolved false**: on 2018-08-08, *"I am 75% sure this is my last summer at
+> Nemacolin"* — and [[wiki/work/nemacolin-caddying]] dates the job April 2016 to
+> **November 2019** per his own resume. He worked the next season.
+>
+> n = 1 is not a calibration test. What the re-derivation establishes is less
+> flattering than the experiment would have been and more useful: **the habit is
+> real and genuinely rare, and it is aimed almost entirely at propositions that
+> can never be scored.** Using the scale is a cognitive signature. Using it
+> where it could be checked is a different skill, and eleven years of record
+> contain one instance of it. Only a **prospective** log — forward-dated claims
+> with resolution dates, kept from now — can produce a scoreable set.
 
 ### Tier 2 — Real, top-decile, but not rare enough to be a livelihood alone
 
@@ -377,6 +409,76 @@ which is a different job, available, and never attempted in the record.
 
 ---
 
+## Part V½ — The music gap, closed, and the answer is a negative result
+
+This page's largest open gap was that no release figure, platform link or
+streaming number for any of the four production aliases exists anywhere in the
+corpus, and it treated that as a documentation problem —
+[[wiki/interests/music/overview]] says the production domain *"requires active
+build-out."*
+
+**It is not a documentation problem.** The corpus is 196,399 deduped messages
+across fifteen years, 98,056 of them Dan's own, and it has now been searched.
+
+### Alias and release vocabulary, whole corpus
+
+| Term | Hits | Dan-sent | Years |
+|---|---:|---:|---|
+| `gripnotic` — the live brand, active since 2016 | **3** | 3 | 2026 only |
+| `mogzart` | 8 | 8 | 2025–26 |
+| `sloppp` | 1 | 1 | 2017 |
+| `beatport` | 1 | **0** | 2019 |
+| a play / stream / listener **count**, any form | **0** | 0 | — |
+
+### Production vocabulary, Dan-sent only
+
+| Term | Messages in 98,056 |
+|---|---:|
+| making / finishing / working on a beat, track, tune, remix | **1** |
+| "in the studio" / studio session | **0** |
+| "my music" | 3 |
+| sub-bass / 808 / bassline | 1 |
+| mixdown / mastering / stems | 6 |
+| Ableton / FL / Pro Tools / Serato / Rekordbox | 9 |
+| producing / producer | 11 |
+| DJ / set / spinning | 83 |
+
+**One message in fifteen years about making a track. Zero about being in a
+studio.** Against salience baselines drawn from the same corpus and the same
+method: *annie* 1,603, *golf* 179, *cocaine/coke* 170, *music* (any sense) 168,
+*trump/biden/bernie* 129.
+
+**Golf outranks the entire production vocabulary combined**, and golf is a
+hobby he stopped in 2019.
+
+### What this does and does not establish
+
+**It does not establish that the tracks do not exist.** Absence from iMessage is
+not absence from life: production is solitary work, it may live in Discord, in
+DMs, in a DAW, or nowhere anybody texts about. And [[wiki/self/overview]]
+already claims music is *"the one channel the forensic mode does not enter"* —
+which is itself a coherent explanation for why he does not narrate it. That
+alternative is real and this page does not dismiss it.
+
+**What it establishes is that the production identity has no social surface.**
+The comparison is internal, which is what makes it fair: this is a man who
+documents his own psychology to eleven instruments and mentions his partner
+1,603 times. If GRIPNOTIC were an operating concern — a label with releases, an
+audience, bookings — it would leave a trace at *some* rate above three lifetime
+mentions. It does not.
+
+That distinction matters for the audit, because it changes which claim the page
+can make. **"Independent music producer and label operator since 2013" is
+supported as self-concept and unsupported as enterprise.** And it removes the
+one candidate Part VI offers for a container Dan owns: an alias with no
+countable output, no audience trace and no external counterparty is not an
+orbit. **It is another payload, installed in a structure he built for himself.**
+
+That is a harder finding than the gap it replaces, and it narrows the search.
+Whatever the durable container turns out to be, on this evidence it is not the
+music — and the honest version of Part VI is that **the biography currently
+contains no container at all.**
+
 ## Part VI — Why "failure to launch" is the wrong frame
 
 Launch implies a rocket that never fired. The record shows the opposite: the
@@ -398,13 +500,37 @@ The tenure was real. It just was not *his*, structurally, at any point.
 That reframing matters because it converts a character verdict into an
 engineering problem with a stated shape: **the requirement is not more
 discipline, it is a container Dan owns, into which a self-set objective can be
-installed without a host.** The music aliases are the only such container in the
-record — thirteen years, four names, one involuntary sub-bass signature, and
-[[wiki/mind/synthesis/alias-as-periodization]] finds the aesthetics do not turn
-over at the renames, only the periods do. GRIPNOTIC has been continuously his
-since 2016, which is longer than any job. It also, per Part I, has no countable
-output. **The one durable container in the biography is the one nobody has ever
-measured**, and that is where the next real experiment is.
+installed without a host.**
+
+The obvious candidate was the music. Four aliases across thirteen years, one
+involuntary sub-bass signature, and
+[[wiki/mind/synthesis/alias-as-periodization]] finding that the aesthetics do
+not turn over at the renames — only the periods do. GRIPNOTIC has been
+continuously his since 2016, longer than any job he has held.
+
+> **CORRECTED [2026-08-23].** This paragraph previously concluded that the
+> aliases were *"the only such container in the record"* and that *"the one
+> durable container in the biography is the one nobody has ever measured."* It
+> has now been measured — Part V½ above — and the container fails the test. In
+> 98,056 of Dan's own messages there is **one** about making a track, **zero**
+> about being in a studio, **three** lifetime mentions of GRIPNOTIC, and **no
+> play, stream or listener count anywhere in the corpus.** An alias with no
+> audience trace and no external counterparty is not an orbit; it is another
+> payload, installed in a structure he built himself.
+
+**So the honest conclusion is harder than the one this page first reached: the
+biography currently contains no container at all.** Every structure Dan has
+sustained output inside has belonged to somebody else, and the one thing that
+looked like an exception turns out to be unobserved rather than durable.
+
+That is not a counsel of despair, and it is more actionable than the version it
+replaces, because it names the actual missing object rather than pointing at a
+plausible-looking one. **The requirement is a structure with an external
+counterparty** — someone who receives the output, and whose receipt is recorded
+somewhere Dan does not control. A release with a listener count is one. A client
+with an invoice is one. A repository with contributors is one. This wiki, which
+now has a merge history and a public portal, is the closest thing in the record
+to a candidate, and it is far too young to count — see the falsifier below.
 
 ---
 
@@ -436,13 +562,21 @@ was made in. This wiki is the current candidate and it is too young to count.
 
 ## Gaps
 
-1. **No calibration test has been run**, though the data for it exists. See
-   prediction 2. Until it is, the strongest capability claim in the corpus is
-   half-proved.
-2. **No release catalogue, no platform links, no streaming figures** for any of
-   the four music aliases. Thirteen years of output and the wiki cannot state
-   whether anybody heard it. The operator can answer this in one paragraph and
-   it changes Part VI materially.
+1. ~~**No calibration test has been run**, though the data for it exists.~~
+   **CLOSED [2026-08-23], as a negative result.** The data does not exist: of 24
+   strict graded credences across eleven years, one is resolvable and it
+   resolved false. Only a prospective log can produce a scoreable set. The
+   replacement gap is narrower and answerable by a decision rather than a query:
+   *will such a log be kept, starting when?*
+2. ~~**No release catalogue, no platform links, no streaming figures** for any
+   of the four music aliases.~~ **CLOSED [2026-08-23], and it changed Part VI as
+   predicted — in the opposite direction.** Part V½ searched the whole corpus:
+   one message in fifteen years about making a track, zero about a studio, three
+   lifetime mentions of GRIPNOTIC, no play count anywhere. The replacement gap
+   is the one the search cannot settle: **do the finished tracks exist off-record
+   — a DistroKid account, a SoundCloud page, an unreleased folder?** Absence from
+   iMessage is not absence from life, and one sentence from the operator
+   distinguishes "made and never discussed" from "not made."
 3. **No income figures** for 2016–2019 or for 2026. The capital spine is
    documented at the lump level and invisible at the wage level.
 4. **The Full Sail credential is never traced to any employment** anywhere in

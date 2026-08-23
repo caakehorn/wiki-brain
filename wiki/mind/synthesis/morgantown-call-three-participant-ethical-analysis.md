@@ -5,7 +5,7 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-20
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 tags: [forensic-analysis, relationships, legal, mental-health]
 sources:
   - raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a
@@ -36,6 +36,15 @@ connections:
 ---
 
 # The Morgantown Call: Ethical Roles of Dan, Annie, and Jerel Coles
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/synthesis/august-grievance-verdict]] and
+> [[wiki/mind/synthesis/dan-annie-fallout-verdict]] (both 2026-08-23). The
+> grievance verdict gained only a re-check note; the fallout verdict corrected
+> its exit-relapse rate from 87% to **100%**. **This page carries neither figure**
+> and its evidence base is the fifteen-minute recording and the three
+> participants' conduct within it. No ethical finding here depends on the
+> exit-cycle arithmetic. Nothing affected, no claim withdrawn.
 
 > **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at the
 > end of a four-link chain.** [[wiki/mind/synthesis/august-grievance-verdict]] moved on 2026-08-22

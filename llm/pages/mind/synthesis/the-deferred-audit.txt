@@ -6,7 +6,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -70,6 +70,18 @@ connections:
 ---
 
 # The Deferred Audit
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/concepts/chaos-preference]], [[wiki/mind/concepts/the-cool-metric]]
+> and [[wiki/mind/synthesis/dan-annie-fallout-verdict]] (all 2026-08-23). The
+> first two gained re-check notes with no claim change; the third corrected its
+> exit-relapse rate from 87% to **100%**. This page carries no exit-cycle figure
+> — its one apparent match is a PR number, not the relapse pair. Nothing
+> affected, no claim withdrawn. Worth noting forward: this pass **is** an
+> instance of what this page describes, and a favourable one — two long-deferred
+> derivations (the 127/110 pair and the music-output gap) were finally run, and
+> both had been sitting behind a query nobody had executed rather than behind
+> missing data.
 
 > **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at the
 > end of a four-link chain.** [[wiki/mind/synthesis/single-channel]] moved on 2026-08-22

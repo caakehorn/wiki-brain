@@ -7,7 +7,7 @@ status: stable
 knowledge: earned
 importance: high
 date_created: 2026-08-22
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 tags: [attachment, relationships, personality-profile, mental-health, forensic-analysis]
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
@@ -25,7 +25,7 @@ connections:
     claim: "Concentration tightens under load rather than distributing — 2025 is simultaneously the highest-volume year at 33,214 messages and the highest-concentration full year at 0.9576 — which is why a single node's silence is not an inconvenience but a total loss of signal."
   - page: wiki/mind/synthesis/message-circadian-latency
     type: evidenced-by
-    claim: "Dan's outbound reply latency is uniform and near-instant across every relationship in the archive at a 1.0-minute median to Annie, while inbound latency ranges from 9 minutes to 44 hours, which renders the reassurance deficit as a measurable time series rather than a felt complaint."
+    claim: "That page's reply-latency headline was retracted on 2026-08-23 and the corrected numbers relocate this page's deficit: Annie answered faster than Dan in every year from 2015 to 2026, so what was missing was never response but content, measurable as a 46-versus-18 character median in the final month."
   - page: wiki/mind/concepts/calibrated-confidence
     type: parallels
     claim: "Graded numeric confidence in casual text — 43 instances outbound against 2 inbound from 503 handles — is the same estimate-maintaining habit expressed in the epistemic domain that the check-in expresses in the relational one."
@@ -177,6 +177,104 @@ eight years, appearing in every year the dump covers, so it is not learned
 behaviour from talking to models.
 
 ---
+
+## What the primary record says the deficit actually is
+
+> **REVISED [2026-08-23].** The first version of this page assumed, from
+> [[wiki/mind/synthesis/message-circadian-latency]], that Dan was transmitting
+> into a channel that answered slowly — *"broadcasting into a slow or silent
+> void."* **That claim has since been retracted** (`RETRACTED.md`
+> §`latency-9x-asymmetry`); it does not reproduce from any on-disk export. The
+> correction does not weaken this page. It relocates its subject, and the
+> relocated version is both more specific and more testable.
+
+### She answered. She answered faster than he did, for eleven years
+
+Re-derived from the 2015–2019 Annie handle, one file, one method, year by year,
+and from the 6,495-message July–August 2026 export:
+
+| Year | n | Dan median reply | Annie median reply |
+|---|---:|---:|---:|
+| 2015 | 13,635 | 15 s | **11 s** |
+| 2016 | 12,572 | 27 s | **18 s** |
+| 2017 | 14,565 | 29 s | **18 s** |
+| 2018 | 22,045 | 26 s | **19 s** |
+| 2026 (Jul 23 – Aug 19) | 6,495 | 27 s | **15 s** |
+
+**There is no year in which Annie was the slower party, including the final
+month.** Corpus-wide across 181,585 messages the same pattern holds — Dan 32.0 s
+against 25.0 s under a flip-based method, 111 s against 59 s under the
+every-message method the retracted figure used.
+
+This kills the intuitive account of the check-in loop, which was that Dan
+escalates because nobody answers. **People answer, and the person he escalated
+at hardest answered fastest.** So the loop is not driven by silence, and any
+explanation resting on silence is wrong.
+
+### The deficit is length, and it is large
+
+The same July–August 2026 window, 6,495 messages over 28 days:
+
+| | Dan | Annie |
+|---|---:|---:|
+| Messages | 3,629 | 2,866 |
+| **Message ratio** | **1.27 : 1** | |
+| Characters | 268,638 | 74,262 |
+| **Character ratio** | **3.62 : 1** | |
+| Median message length | **46 chars** | **18 chars** |
+| Mean length | 74 | 25.9 |
+| p90 length | 170 | 53 |
+| Share of messages ≤10 chars | 13.1% | **29.2%** |
+
+By message count the channel is close to symmetrical — 1.27:1, which is what
+made "she wasn't responding" feel wrong to check. By volume of language it is
+**3.62:1**, and nearly a third of her side is ten characters or fewer.
+
+**That is the deficit the architecture cannot resolve.** A rule-checking system
+needs enough information in the reply to update the estimate. *"ok"*, *"?"*,
+*"Dan"* and *"wait"* are responses — they close the transmission request at rung
+1 — and they carry almost no information, so the anomaly they were sent to
+resolve stays open and the loop fires again. **Fast, short, and constant is the
+worst possible input for this architecture**: it removes every excuse to
+disengage while supplying nothing to conclude with. A slow channel would at
+least have produced a clean signal.
+
+### The character ratio is a crisis thermometer, and it is the best one found
+
+Daily, across the same window. Ordinary days sit at 2.0–3.0. The two worst days
+in the entire relationship are the two extremes:
+
+| Date | Dan msgs | Annie msgs | char ratio | what happened |
+|---|---:|---:|---:|---|
+| 2026-07-28 | 374 | 396 | 2.7 | high volume, both sides — not a crisis |
+| 2026-08-08 | 83 | 65 | 4.8 | the unmasking |
+| 2026-08-09 | 113 | 105 | 5.2 | the read-receipt night |
+| 2026-08-13 | 143 | 126 | 2.7 | the "good week" |
+| 2026-08-16 | 64 | **12** | **11.7** | the Morgantown call |
+| 2026-08-17 | 374 | 210 | 4.9 | the seventy-hour campaign opens |
+| 2026-08-18 | 267 | 120 | 6.3 | the false send |
+| 2026-08-19 | 141 | **53** | **12.3** | the severance |
+
+Note July 28: **770 messages in a day, near-perfect parity, ratio 2.7.** The
+highest-volume day in the window is not a crisis day. **Volume is not the
+signal** — which retires the intuitive reading of the burst and explains why
+[[wiki/mind/synthesis/message-circadian-latency]] is right to warn that the
+burst profile is a fifteen-year constant and must never be cited as evidence
+about a particular night. The character ratio separates the crisis days
+cleanly and the message count does not.
+
+### The bursts are also smaller than the record claims
+
+The dossier figure of **94 burst events of ten or more consecutive Dan
+messages**, and the *"longest unbroken run is 284 messages"* carried on
+[[wiki/mind/synthesis/message-circadian-latency]], describe the 2015–2018 era.
+Re-derived over the July–August 2026 window: **1,509 consecutive-Dan runs,
+median length 2, maximum 43, with 36 runs of ten or more and none above 50.**
+
+So the escalation in 2026 is not a bigger burst. It is the **same number of
+turns carrying four times the words**, which is a different behaviour with a
+different meaning — and it is invisible to every instrument that counts
+messages.
 
 ## Why stakes make it crucial: the mechanism, in four parts
 
@@ -383,12 +481,15 @@ page's last Gap.
 
 ## Predictions and falsifiers
 
-1. **Latency predicts volume.** In any relationship, Dan's outbound volume is
-   an inverse function of the other party's median reply latency. The existing
-   table supports it — the near-synchronous Annie channel (9 minutes inbound,
-   1 minute outbound) is the only matched one in the archive, while contacts at
-   16–44 hours inbound receive broadcasts. *Falsifier:* a documented contact
-   with fast inbound latency and burst-pattern outbound volume.
+1. **Length predicts escalation; latency does not.** The character ratio
+   between Dan and the other party rises before and during a crisis while the
+   message-count ratio stays near parity, and reply latency does not move at
+   all. Confirmed once, on the July–August 2026 window: count ratio 1.27:1
+   against a character ratio of 3.62:1, with the character ratio at 2.0–3.0 on
+   ordinary days and **11.7 on August 16 and 12.3 on August 19**, the two worst
+   days in the record. *Falsifier:* a documented crisis episode in which the
+   character ratio stays flat, or one in which the count ratio moves and the
+   character ratio does not.
 2. **Measurement suppresses messaging.** Any channel that supplies passive
    verification (location sharing, read receipts left on) shows lower message
    volume than the same channel without it. One instance is already on the

@@ -6,7 +6,7 @@ aliases: ["Ally MBTI", "Ally ENTP", "Ally Lubin personality type", "Alexandra Lu
 status: active
 knowledge: earned
 date_created: 2026-08-22
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 importance: high
 tags: [personality-profile, forensic-analysis, relationships, mental-health]
 date_range_start: 2013-07-05
@@ -58,6 +58,17 @@ connections:
 ---
 
 # Ally Lubin — Cognitive Profile
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/concepts/the-cool-metric]] (2026-08-23), which gained a re-check
+> note with no claim change; nothing on this page depends on it. **One finding
+> elsewhere in this pass does bear on this page and it sharpens the parity
+> argument rather than disturbing it.** The retraction of the reply-latency
+> asymmetry (`RETRACTED.md` §`latency-9x-asymmetry`) establishes that Dan is the
+> slower correspondent corpus-wide and that the deficit in his primary
+> relationship was never response but **content** — which is the same shape as
+> this page's central finding that what Ally prices at zero is volume and what
+> she responds to is being met. No claim withdrawn.
 
 This page is the typology read on the woman at the centre of the longest
 attachment in the corpus, built from a tested instrument that arrived on

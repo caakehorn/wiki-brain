@@ -3,7 +3,7 @@ domain: interests
 page_type: summary
 status: active
 date_created: 2026-06-22
-date_modified: 2026-06-23
+date_modified: 2026-08-23
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -20,6 +20,9 @@ related:
   - wiki/self/context-core
 tags: [music-production, family]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidences
+    claim: "One message in fifteen years about making a track and zero about a studio, against 179 mentions of golf in the same corpus, establishes the production identity as self-concept rather than enterprise and removes the capability audit's only candidate for a container Dan owns."
   - page: wiki/mind/synthesis/failure-to-launch
     type: contextualizes
     claim: "GRIPNOTIC is the only container in the biography that Dan has owned continuously - eleven years, longer than any job - and the absence of any countable output for it is the largest single gap in the capability audit."
@@ -72,6 +75,39 @@ GRIPNOTIC is the live brand. Music reactivation noted as part of the 2026 stabil
 ## Taste vs Production
 
 The favorites domain ([[wiki/interests/favorites/index]]) documents consumption — 1,860-track library, release year analysis, genre cluster breakdown. There's meaningful overlap with production identity (electronic concentration, sub-bass aesthetic, specific artists) but the two domains are not identical. The consumption domain is well-documented; the production domain is the one requiring active build-out.
+
+## What the message record says about the production identity
+
+> **CORRECTED [2026-08-23].** This page has described the production domain as
+> one that *"requires active build-out"* — framing the absence of release data as
+> a documentation gap this wiki had not got to yet.
+> [[wiki/mind/synthesis/failure-to-launch]] searched the full 196,399-message
+> corpus for it, and **the absence is in the record, not in the wiki's coverage
+> of it.**
+
+Across fifteen years and 98,056 of Dan's own messages: **one** message about
+making a beat, track, tune or remix; **zero** about being in a studio; **three**
+lifetime mentions of `gripnotic`, all in 2026; eight of `mogzart`; one of
+`sloppp`; and **no play, stream or listener count in any message from anyone.**
+Ableton/Pro Tools/Serato appear nine times, mastering six, "my music" three.
+
+The internal comparison is what makes this fair rather than merely bleak. In the
+same corpus, by the same method, *golf* returns 179 and *cocaine* 170 — **golf
+alone outranks the entire production vocabulary combined**, and golf is a hobby
+that ended in 2019.
+
+**Two readings survive and the page holds both.** The first is this page's own
+existing claim, restated as an explanation rather than a description: music is
+*"the one channel the forensic mode does not enter"* ([[wiki/self/overview]]),
+and a man who narrates everything else exhaustively may simply not narrate the
+one thing he does not audit. That is coherent and the search cannot refute it.
+The second is that an enterprise with releases, an audience and bookings leaves
+a trace at some rate above three lifetime mentions, and this one does not.
+
+What the evidence settles is narrower than either: **the production identity is
+strongly supported as self-concept and unsupported as enterprise.** Whether
+finished tracks exist off-record — a distributor account, an unreleased folder —
+is the open question, and it is answerable by the operator in one sentence.
 
 ## Related
 - [[wiki/interests/music/concepts/sub-bass-signature]]

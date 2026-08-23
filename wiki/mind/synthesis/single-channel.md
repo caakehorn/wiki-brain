@@ -7,7 +7,7 @@ aliases: ["one channel at maximum voltage", "no failover", "concentration archit
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -57,6 +57,16 @@ connections:
 ---
 
 # The Single Channel
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/concepts/the-cool-metric]], [[wiki/mind/synthesis/alias-as-periodization]]
+> and [[wiki/mind/synthesis/totality-themes]] (all 2026-08-23). All three gained
+> re-check notes only; no claim on any of them moved. **This page's concentration
+> thesis is unaffected and gains an independent line of support elsewhere**: the
+> corpus search behind [[wiki/mind/synthesis/failure-to-launch]] finds the
+> production identity has almost no social trace at all — one Dan-sent message in
+> fifteen years about making a track — which is the creative-domain version of
+> the no-failover claim this page makes. No claim withdrawn.
 
 > **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at
 > third remove.** [[wiki/mind/synthesis/totality-themes]] moved on 2026-08-22 solely by

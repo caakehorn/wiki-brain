@@ -6,7 +6,7 @@ aliases: ["chaotic neutral", "the entropy appetite", "rooting for the fire"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-21
+date_modified: 2026-08-23
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -48,6 +48,14 @@ connections:
 ---
 
 # The Chaos Preference
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/interests/music/overview]] (2026-08-23). That page gained one section —
+> a corpus search establishing that the production identity has almost no social
+> trace in fifteen years of messages (one message about making a track, zero
+> about a studio, no play counts). **No alias, genre, date, release or aesthetic
+> claim on that page changed**, and this page reasons only from those. Nothing
+> here is affected and no claim is withdrawn.
 
 Dan wants the world to be less orderly than it is, and — with one large
 exception — he wants this consistently, quietly, and almost never out loud. The

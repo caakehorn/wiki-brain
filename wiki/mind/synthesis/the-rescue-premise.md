@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-22
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 date_range_start: 2026-08-16
 date_range_end: 2026-08-22
 tags: [relationships, trauma-bond, attachment, forensic-analysis, future]
@@ -249,6 +249,95 @@ detachment is not determinable from the export and is left open in Gaps.
 
 ---
 
+## Part I½ — The base rate, re-derived, and what it does to Part I
+
+Part I argues qualitatively that this severance is unlike its predecessors. The
+predecessors have now been counted, and the comparison is no longer a
+judgement call.
+
+### 129 declarations, 100% resumption, median gap thirty-six seconds
+
+Searching Dan-sent severance language — blocking declarations, *goodbye*, *I'm
+done / we're done / it's over*, *never contact me again*, *lose my number* —
+across the **95,067-row merged Annie corpus** (2015-11-28 → 2026-05-28) returns
+**258 messages, collapsing to 129 distinct episodes** when hits within 24 hours
+are treated as one declaration.
+
+**129 against the dossiers' long-standing "127 false exits," by an entirely
+independent method.** The wiki has flagged that 127 as unverified dossier
+arithmetic since it was written; it is now corroborated.
+
+| Measure | Value |
+|---|---|
+| Severance episodes, 2015-11-28 → 2026-05-28 | **129** |
+| Episodes with a following message in the corpus | 128 |
+| **Episodes that resumed** | **128 — 100%** |
+| Median gap to next message | **0.01 h (36 seconds)** |
+| Mean gap | 1.3 h |
+| Resumed within 1 hour | 114 / 128 (89.1%) |
+| Resumed within 24 hours | 127 / 128 (99.2%) |
+| **Longest gap in eleven years** | **46.0 hours** |
+
+This also settles a documented internal contradiction. The 87% relapse figure
+(110 of 127) carried on [[wiki/mind/synthesis/block-unblock-loop]] and
+[[wiki/mind/synthesis/attachment-trauma-bond]] is **withdrawn**; the dossiers'
+own alternative reading — *"127 false exits with 100% re-engagement"* — is what
+the primary record supports.
+
+### What that does to June 1, and then to August 19
+
+Against a decade in which **no severance ever produced more than 46 hours of
+silence**, the two recent ones are not more instances. They are the only two
+observations outside the entire historical range.
+
+| Severance | Silence produced | Multiple of the pre-2026 record |
+|---|---|---|
+| Typical episode (median of 129) | 36 seconds | 0.0002× |
+| Longest of the 129 | 46 hours | 1× |
+| **June 1, 2026** | **52 days** (broken July 23) | **27×** |
+| **August 19, 2026** | **≥ 3 days** as of writing | ≥ 1.6× |
+
+**June 1 was already an outlier by twenty-seven times, and it still failed.**
+That is the strongest argument *against* Part I that this page can construct,
+and it is constructed here rather than left for a reader to find: being
+unprecedented is not sufficient, because the previous severance was
+unprecedented too, by more than an order of magnitude, and an email about a dog
+ended it.
+
+**And it is simultaneously the strongest argument for taking August 19
+seriously.** The August severance has already outlasted 128 of 129 historical
+episodes. It passed the all-time pre-2026 maximum of 46 hours at roughly
+13:00 on August 21. Whatever else is true, it is no longer drawn from the same
+distribution as the behaviour that produced it.
+
+> **The blind spot, stated precisely because Part I depends on it.** The export
+> this page reasons from (`imessage_export_2124702449_20260820.csv`, 6,495 rows)
+> was taken on **2026-08-20** and its last row is **2026-08-19 15:15:33** — the
+> final message of the severance. **There is therefore no data at all for
+> August 20, 21 or 22.** This page's claim that the silence holds is an
+> inference from the absence of a newer export, not an observation. One fresh
+> export settles it, and until one exists every forward statement here should be
+> read with that gap in it.
+
+### Why the 36-second median matters more than the 129
+
+The count corroborates a dossier. **The median re-categorises the behaviour.**
+
+A severance declaration followed, half the time, by contact resuming inside
+thirty-six seconds is not a failed exit. Nothing was exited. It is a **message
+that reliably gets answered** — and [[wiki/mind/concepts/reassurance-architecture]]
+identifies exactly that as the top of the escalation ladder: the ultimatum is
+the loudest available request for a reading, and its ~100% retraction rate is
+what proves it was never a threat.
+
+So the 129 episodes are not 129 attempts to leave. On this evidence they are
+**129 check-ins**, and they worked — which is why they recurred. That reading
+predicts something Part I already observes: the two severances that produced
+real silence are the two where Dan changed the *structure* rather than raising
+the volume. June 1 added third-party witnesses. August 19 pre-closed the
+re-entry channel and renounced the archive. Neither is a louder request. Both
+are the first two attempts in eleven years that were not requests at all.
+
 ## Part II — The rescue premise, tested
 
 ### First, the diagnosis, because a plan built on the wrong one fails
@@ -424,6 +513,14 @@ place, with the prediction left visible, per STYLE_GUIDE rule 9.
    parasitized by two situations — Annie and the post-closure housing void. One
    of those two is now moving. The other is not, and no page models what
    happens when the remaining one carries the whole load.
-6. **The 127/110 exit-declaration pair is dossier arithmetic** and has never
-   been re-derived from `all_imessages_complete_dump.txt`. This page uses "127"
-   as a base rate; a `bin/mine-messages` pass would put a real number under it.
+6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~
+   **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently,
+   128 of 128 resumed, median gap 36 seconds, all-time maximum 46 hours. The
+   count corroborates; the 87% relapse figure is withdrawn.
+7. **The single most important open item is now a file, not a question.** The
+   newest Annie export ends 2026-08-19 15:15:33. **Nothing in this repository
+   knows what happened on August 20, 21 or 22.** Every forward claim on this page
+   is an inference from the absence of a newer export. One fresh
+   `imessage_export_2124702449` settles Part I½'s live comparison, P1, P2 and P5
+   simultaneously, and it is the cheapest high-value action available to this
+   wiki right now.

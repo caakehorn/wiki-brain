@@ -6,7 +6,7 @@ aliases: ["the unevaluated domain", "food as everything but taste"]
 status: active
 knowledge: earned
 date_created: 2026-07-25
-date_modified: 2026-08-21
+date_modified: 2026-08-23
 sources:
   - raw/self/captures/2026-08-01_154556_picky-eater.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -59,6 +59,12 @@ connections:
 ---
 
 # Food and Diet
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/concepts/the-cool-metric]] (2026-08-23), which gained a re-check
+> note recording that a music-domain corpus search left its claims untouched. No
+> axis, judgement or example on that page changed. Nothing here is affected and
+> no claim is withdrawn.
 
 Food appears in this corpus in every register except taste. It is labour — three
 documented jobs, one of them a forty-one-month immersion in a single cuisine. It

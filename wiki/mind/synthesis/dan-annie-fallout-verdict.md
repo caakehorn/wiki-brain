@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessage_7244346811+212****2449_both_all_now.csv
@@ -89,6 +89,28 @@ connections:
 
 
 # The Dan/Annie Fallout — Was He Correct to Feel Wronged? (Raw-Evidenced)
+
+> **REVISED [2026-08-23] — this page's own open caveat is now closed, in its
+> favour.** Flagged stale against [[wiki/mind/concepts/attachment-model]]
+> (2026-08-23). This page carried the 127/110 pair marked **[DERIVED]** with the
+> note that *"a loose exit-lexicon sweep of his 44,513 messages finds 176
+> candidates, order-consistent but definition-dependent — the exact pair remains
+> unreproduced."* It has now been reproduced on the full 95,067-row merged Annie
+> corpus: **258 severance messages collapsing to 129 episodes**, which is
+> order-consistent with this page's own 176-candidate sweep on a smaller subset
+> and within two of the dossier's 127.
+>
+> **The relapse rate is 100%, not 87%** — 128 of 128 episodes resumed, median gap
+> thirty-six seconds, all-time maximum 46 hours. Read the *"87% relapse rate"* in
+> the re-engagement-loop section as **100%**, and the `[DERIVED]` flag on the
+> pair as discharged.
+>
+> **The verdict itself is untouched and the diagnosis→behavior gap is widened by
+> the correction.** This page's central move is that the wrong was real *and*
+> Dan's response architecture converted a survivable betrayal into a decade-long
+> catastrophe. A loop with a 100% re-engagement rate and a sub-minute median is a
+> stronger statement of that architecture than an 87% one, not a weaker one. No
+> moral finding is affected.
 
 > **RE-CHECKED [2026-08-22]:** flagged stale against
 > [[wiki/people/annie-ulmer]] and [[wiki/mind/concepts/attachment-model]] (both

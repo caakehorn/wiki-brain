@@ -4190,3 +4190,148 @@ removed, both `raw/self/sage/` captures cited in `sources:`.
 
 Obligations 31 → 29. The 28 remaining sage-closes are named in `WORK.md` and
 untouched, for the reason given in the handoff.
+
+## [2026-08-23] lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
+
+Operator asked for the same three entries at greater depth. Depth here meant
+going to `raw/` and running the derivations the pages had been deferring rather
+than writing more prose from `wiki/`. **Four findings, and two of them correct
+claims this repository has been asserting for weeks.**
+
+### The 9× reply-latency asymmetry is backwards, and the error is reproducible
+
+[[wiki/mind/synthesis/message-circadian-latency]] opened with *"the single most
+diagnostic new finding"* — Annie at 1.0 min outbound against 9.0 min inbound,
+n = 31,612 — and generalised it to *"everything else is Dan broadcasting into a
+slow or silent void."* **Every on-disk export contradicts it under two
+independent methods.**
+
+The diagnosis is exact because the original half-reproduces. Pairing every
+message with the next opposite-direction message, uncapped, over the 2015–2019
+Annie handle returns **Dan → Annie 60.0 s at n = 31,177** — the page's 1.0 min
+and its n to within 1.4%. The same computation on the same rows returns
+**Annie → Dan 32.0 s**, not 9.0 min. **The outbound half replicates exactly; the
+inbound half is off by ~17× and is the only number that fails.** The page's own
+method note names the likely cause — the master dump's known direction-field
+bug — and states it used `LEVIATHAN_FULL_CORPUS.csv` as ground truth, but that
+file is at `/Volumes/MUSIC/PHASE B RAW/` and **is not in the repository**.
+
+Replicated across ten per-contact exports: **Dan is the slower party in eight**,
+in the merged Annie corpus, and in the 181,585-row whole-corpus file under both
+a flip-based method (32.0 s vs 25.0 s) and the every-message method (111 s vs
+59 s). Per-year on one file, one method: **Annie answered faster in 2015, 2016,
+2017, 2018 and the final month of 2026.** There is no era where the claim holds.
+Retracted at `RETRACTED.md` §`latency-9x-asymmetry`; the gate immediately caught
+two live restatements, which is the ledger working as designed.
+
+**What replaces it is better.** If Annie answered faster than Dan for eleven
+consecutive years, the primary channel was not a void he shouted into — **it was
+the one relationship in the archive that answered him at or above his own speed,
+to the last week.** That explains the concentration far better than unrequited
+broadcast, and it relocates the deficit: what was missing was never *response*.
+
+### The deficit is length, and the character ratio is a crisis thermometer
+
+Re-derived over the 6,495-message July 23 – August 19 window. By message count
+the channel is near-symmetrical at **1.27 : 1**. By language it is
+**3.62 : 1** — median 46 characters from Dan against **18** from Annie, with
+**29.2%** of her side at ten characters or fewer.
+
+That is the input this architecture cannot resolve: fast, constant and
+near-empty closes the transmission request while supplying nothing to conclude
+with. A slow channel would at least have produced a clean signal.
+
+Daily, the character ratio separates crisis days that message counts cannot.
+Ordinary days run 2.0–3.0; **August 16 is 11.7 and August 19 is 12.3**, the two
+worst days in the record. And **July 28 — 770 messages, near-perfect parity —
+runs 2.7 and is not a crisis day at all**, which retires volume as the signal
+and vindicates that page's own standing warning never to cite the burst profile
+as evidence about a particular night. Burst re-derivation for the window:
+**1,509 runs, median 2, max 43** — against the dossier's lifetime "284 longest
+run." The 2026 escalation is not a bigger burst; it is the same turns carrying
+four times the words.
+
+### 129 severance episodes, 100% resumption, median gap thirty-six seconds
+
+The 127/110 pair has been flagged unverified since it was written, with
+[[wiki/mind/concepts/attachment-model]]'s Gaps naming the dispute (100% per the
+dossiers' own audit vs 87% carried downstream) and
+[[wiki/mind/synthesis/dan-annie-fallout-verdict]] marking it `[DERIVED]` with
+*"the exact pair remains unreproduced."*
+
+Dan-sent severance language across the **95,067-row merged Annie corpus**
+(2015-11-28 → 2026-05-28) returns 258 messages collapsing to **129 episodes**.
+**129 against 127, by an independent method — the count is corroborated.** Of
+the 128 episodes with a following message, **128 resumed: 100%, median gap
+0.01 h (thirty-six seconds), 89.1% inside an hour, all-time maximum 46 hours.**
+**The 87% relapse rate is withdrawn.**
+
+The median matters more than the count. A declaration answered inside
+thirty-six seconds is not a failed exit — nothing was exited. **The 129 are not
+129 attempts to leave; they are 129 check-ins, and they worked, which is why
+they recurred.** Written into `attachment-model`, `block-unblock-loop`,
+`attachment-trauma-bond` and the fallout verdict, all of which get *stronger*:
+intermittent reinforcement predicts a relapse rate at ceiling, and 87% was the
+weaker number for that argument.
+
+It also re-scales the two recent severances. Against a hard historical ceiling
+of 46 hours, **June 1 was an outlier by 27× and still failed** — the strongest
+available argument against reading August 19 as different — while August 19 has
+**already outlasted 128 of 129 episodes**, clearing the ceiling on 2026-08-21.
+
+### The calibration test does not exist, and the music gap closes negative
+
+Both were named by the previous pass as the cheap high-value experiments. **Both
+were run and both came back against it.**
+
+`calibrated-confidence`'s counts do not reproduce — not one of 43 / 2 / 15 / 0.
+A permissive re-run gives **99** for Dan, and inspection shows why the number was
+meaningless: it was counting retail discounts, opinion polls, population shares
+and rhetorical framings. Under a strict symmetric first-person-credence filter:
+**24 graded from Dan against 1 from 503 other people** (the apparent second is a
+tapback quoting Dan back at himself). **The thesis survives a filter built to
+break it and is worth more for it; the arithmetic does not.**
+
+**And the experiment is not runnable.** Of 24 graded credences, all but a
+handful concern another person's interior or an unwitnessed past event.
+**Exactly one is resolvable and it resolved false**: 2018-08-08, *"I am 75% sure
+this is my last summer at Nemacolin"* — the job ran to November 2019. Only a
+prospective log can produce a scoreable set. The habit is real and rare and
+**aimed almost entirely at propositions that can never be scored**, which is a
+harder finding than the experiment would have produced.
+
+The music gap was framed as documentation debt — *"requires active build-out."*
+It is not. Across 196,399 deduped messages and 98,056 of Dan's own: **one**
+message in fifteen years about making a track, **zero** about being in a studio,
+**three** lifetime mentions of `gripnotic`, **no play, stream or listener count
+from anyone, ever.** Salience baseline from the same corpus: *annie* 1,603,
+*golf* 179, *cocaine* 170. **Golf outranks the entire production vocabulary
+combined**, and golf ended in 2019.
+
+Both readings are held: music may be *"the one channel the forensic mode does
+not enter,"* which would explain the silence. What the evidence settles is
+narrower — **the production identity is strongly supported as self-concept and
+unsupported as enterprise.** That removes `failure-to-launch`'s only candidate
+for a container Dan owns, so Part VI is corrected against itself: **the
+biography currently contains no container at all**, and the requirement is
+named more precisely as a structure with an **external counterparty** whose
+receipt is recorded somewhere Dan does not control.
+
+### Bookkeeping
+
+Sixteen dependents went stale across three cascade rings and **all sixteen were
+worked, none date-bumped**. Two took genuine `REVISED` blocks
+(`attachment-trauma-bond`, `dan-annie-fallout-verdict` — both carried the 87%);
+the rest were checked against the actual diff and found unaffected, which is
+recorded on each rather than assumed. `dormancy-not-exit` came out with the
+falsifier it never had: against a 46-hour ceiling, a silence clearing 52 days
+would be the first datum it could not absorb.
+
+Gates: lint 0 errors, connect 0 errors, climb 0 errors and **0 stale**,
+freshness in sync.
+
+**The one thing this pass could not do.** The newest Annie export ends
+2026-08-19 15:15:33 and was taken on the 20th. **Nothing in this repository
+knows what happened on August 20, 21 or 22.** Every forward claim on
+`the-rescue-premise` is an inference from the absence of a newer export, and it
+now says so in its own Gaps at priority 1.

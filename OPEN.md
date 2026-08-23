@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 43 |
-| Open gaps | 432 |
+| Open gaps | 430 |
 | Answered, awaiting ingest | 1 |
 | Standing predictions | 49 |
 
@@ -86,7 +86,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/interests/food-and-diet]]** — **If a food judgement ever surfaces, it will not be about flavour.** It will sort on region, class, or provenance-authenticity — a cool-metric operation wearing a food costume, like the tattoo. A recorded preference framed purely as *this tastes better* would 
 - **[[wiki/interests/food-and-diet]]** — **A food entry will never appear in the favorites record.** The masterlist has held four categories across 2,016 entries; a fifth appearing would show the exemption was a filing habit rather than a protection.
 - **[[wiki/interests/food-and-diet]]** — **Any future ingest of restaurant or cooking material will read as logistics or as labour**, matching the Caviar and Au Za'atar shape, rather than as taste.
-- **[[wiki/mind/concepts/reassurance-architecture]]** — **Latency predicts volume.** In any relationship, Dan's outbound volume is an inverse function of the other party's median reply latency. The existing table supports it — the near-synchronous Annie channel (9 minutes inbound, 1 minute outbound) is the only mat
+- **[[wiki/mind/concepts/reassurance-architecture]]** — **Length predicts escalation; latency does not.** The character ratio between Dan and the other party rises before and during a crisis while the message-count ratio stays near parity, and reply latency does not move at all. Confirmed once, on the July–August 2
 - **[[wiki/mind/concepts/reassurance-architecture]]** — **Measurement suppresses messaging.** Any channel that supplies passive verification (location sharing, read receipts left on) shows lower message volume than the same channel without it. One instance is already on the record in the predicted direction: the Au
 - **[[wiki/mind/concepts/reassurance-architecture]]** — **The first crisis is the diagnostic, not the first months.** Check-in rate in the opening ninety days of a new relationship predicts nothing; the rate during its first high-stakes event predicts the steady state. *Falsifier:* a documented crisis in a new rela
 - **[[wiki/mind/concepts/reassurance-architecture]]** — **Ultimatums track silence, not grievance.** Across the record, exit declarations cluster after periods of non-response rather than after discoveries of misconduct. *Falsifier:* a `bin/mine-messages` pass showing ultimatums distributed independently of precedi
@@ -164,7 +164,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/legal/2015-possession-arrest]]** — Whether the fines referenced in January and February 2016 belong to this case, to the Combos matter, or to both running concurrently is not determinable from the message record — the "combos are paid off" phrasing suggests at least some of that money was the t
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 
-### mind (125)
+### mind (123)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
 - **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
@@ -227,8 +227,6 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/estate-money-spine]]** — The six months September 2020 → early 2021 have endpoints but no ledger; the burn decomposition (rent vs. supply vs. Annie vs. market) is not separable from current sources.
 - **[[wiki/mind/synthesis/estate-money-spine]]** — The payment-app totals are operator-provided screenshots, not in `raw/` — flagged on annie-ulmer as well.
 - **[[wiki/mind/synthesis/estate-money-spine]]** — Whether any 337 proceeds are earmarked for Dan's housing is undocumented; no post-close plan exists in the record.
-- **[[wiki/mind/synthesis/failure-to-launch]]** — 1. **No calibration test has been run**, though the data for it exists. See prediction 2. Until it is, the strongest capability claim in the corpus is half-proved.
-- **[[wiki/mind/synthesis/failure-to-launch]]** — 2. **No release catalogue, no platform links, no streaming figures** for any of the four music aliases. Thirteen years of output and the wiki cannot state whether anybody heard it. The operator can answer this in one paragraph and it changes Part VI materially
 - **[[wiki/mind/synthesis/failure-to-launch]]** — 3. **No income figures** for 2016–2019 or for 2026. The capital spine is documented at the lump level and invisible at the wage level.
 - **[[wiki/mind/synthesis/failure-to-launch]]** — 4. **The Full Sail credential is never traced to any employment** anywhere in the record. Was it ever used — applications, sessions, paid studio work? A negative answer is as valuable as a positive one.
 - **[[wiki/mind/synthesis/failure-to-launch]]** — 5. **No external assessment exists of the AI/agent work** by anyone who is neither Dan nor a model he configured. This is the instrument-is-subject problem in its most practical form: the one capacity with a liquid market has never been shown to a buyer.
@@ -281,7 +279,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/the-rescue-premise]]** — 3. **What is Annie's state after the August 17 strangulation disclosure and the second phone seizure?** The wiki holds no information after August 19.
 - **[[wiki/mind/synthesis/the-rescue-premise]]** — 4. **The seventy-two-minute SOS latency is unexplained.** Exhaustion, depletion, retaliation and genuine detachment all predict it and the corpus cannot presently distinguish them. The operator can.
 - **[[wiki/mind/synthesis/the-rescue-premise]]** — 5. **Housing.** 337 Saratoga has sold and the 463 Morgantown landing is unresolved (463-morgantown). attachment-model records an AI session's read that the anxiety loop has little independent existence and is almost entirely parasitized by two situations — Ann
-- **[[wiki/mind/synthesis/the-rescue-premise]]** — 6. **The 127/110 exit-declaration pair is dossier arithmetic** and has never been re-derived from `all_imessages_complete_dump.txt`. This page uses "127" as a base rate; a `bin/mine-messages` pass would put a real number under it.
+- **[[wiki/mind/synthesis/the-rescue-premise]]** — 7. **The single most important open item is now a file, not a question.** The newest Annie export ends 2026-08-19 15:15:33. **Nothing in this repository knows what happened on August 20, 21 or 22.** Every forward claim on this page is an inference from the abs
 - **[[wiki/mind/synthesis/the-unbroken-bond]]** — **The 2007–2009 window is undocumented.** The claim of continuity *since high school* rests on the operator's own account for those years; `raw/` was not found to establish a bond before Alexis in November 2009. Until that is closed, the defensible span is **s
 - **[[wiki/mind/synthesis/the-unbroken-bond]]** — **The Jul–Oct 2013 Alexis separation is unquantified.** It is recorded as a separation within the relationship, but whether the slot was genuinely vacant for those months — which would be a ~3-month gap — has not been checked against the message record. It is 
 - **[[wiki/mind/synthesis/the-unbroken-bond]]** — **`knowledge:` inheritance.** This page synthesises `bond-switch-2015`, whose attachment-activation thesis originates partly in bootloader/AI-interpretive material. Per instrument-is-subject, the *timing* here is residue (message counts, dated events, recomput

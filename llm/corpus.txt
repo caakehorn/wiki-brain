@@ -1,5 +1,5 @@
-WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-22
-490 pages, ~1,326,633 tokens.
+WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-23
+490 pages, ~1,338,173 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -267,7 +267,7 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/self/dox-md/ADDICTION_PROFILE.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -346,6 +346,14 @@ changelog:
 ---
 
 # Cocaine
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/synthesis/dan-annie-fallout-verdict]] (2026-08-23), which moved on
+> one arithmetical point only — the exit-declaration relapse rate corrected from
+> 87% to **100%** (129 episodes, median gap thirty-six seconds). **This page
+> carries no exit-cycle figure**, and the verdict's supply and procurement
+> findings, which are what this page reasons from, are unchanged. Nothing
+> affected, no claim withdrawn.
 
 > **RE-CHECKED [2026-08-22]:** flagged stale against
 > [[wiki/legal/2015-possession-arrest]] (2026-08-22). That page moved by exactly
@@ -904,7 +912,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -952,6 +960,13 @@ connections:
 ---
 
 # The Configured Body
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/interests/food-and-diet]] and [[wiki/mind/synthesis/the-deferred-audit]]
+> (both 2026-08-23). **Both moved only by acquiring re-check notes** in a
+> cascade that began with a music-domain corpus search and an exit-declaration
+> re-derivation; no dietary, chemical, somatic or deferral claim on either page
+> changed. Nothing here is affected and no claim is withdrawn.
 
 > **RE-CHECKED [2026-08-22] — premise moved by a re-check block only.**
 > [[wiki/health/cocaine]] moved on 2026-08-22 solely by gaining a `RE-CHECKED`
@@ -7472,7 +7487,7 @@ aliases: ["the unevaluated domain", "food as everything but taste"]
 status: active
 knowledge: earned
 date_created: 2026-07-25
-date_modified: 2026-08-21
+date_modified: 2026-08-23
 sources:
   - raw/self/captures/2026-08-01_154556_picky-eater.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -7525,6 +7540,12 @@ connections:
 ---
 
 # Food and Diet
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/concepts/the-cool-metric]] (2026-08-23), which gained a re-check
+> note recording that a music-domain corpus search left its claims untouched. No
+> axis, judgement or example on that page changed. Nothing here is affected and
+> no claim is withdrawn.
 
 Food appears in this corpus in every register except taste. It is labour — three
 documented jobs, one of them a forty-one-month immersion in a single cuisine. It
@@ -8829,7 +8850,7 @@ domain: interests
 page_type: summary
 status: active
 date_created: 2026-06-22
-date_modified: 2026-06-23
+date_modified: 2026-08-23
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -8846,6 +8867,9 @@ related:
   - wiki/self/context-core
 tags: [music-production, family]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidences
+    claim: "One message in fifteen years about making a track and zero about a studio, against 179 mentions of golf in the same corpus, establishes the production identity as self-concept rather than enterprise and removes the capability audit's only candidate for a container Dan owns."
   - page: wiki/mind/synthesis/failure-to-launch
     type: contextualizes
     claim: "GRIPNOTIC is the only container in the biography that Dan has owned continuously - eleven years, longer than any job - and the absence of any countable output for it is the largest single gap in the capability audit."
@@ -8898,6 +8922,39 @@ GRIPNOTIC is the live brand. Music reactivation noted as part of the 2026 stabil
 ## Taste vs Production
 
 The favorites domain ([[wiki/interests/favorites/index]]) documents consumption — 1,860-track library, release year analysis, genre cluster breakdown. There's meaningful overlap with production identity (electronic concentration, sub-bass aesthetic, specific artists) but the two domains are not identical. The consumption domain is well-documented; the production domain is the one requiring active build-out.
+
+## What the message record says about the production identity
+
+> **CORRECTED [2026-08-23].** This page has described the production domain as
+> one that *"requires active build-out"* — framing the absence of release data as
+> a documentation gap this wiki had not got to yet.
+> [[wiki/mind/synthesis/failure-to-launch]] searched the full 196,399-message
+> corpus for it, and **the absence is in the record, not in the wiki's coverage
+> of it.**
+
+Across fifteen years and 98,056 of Dan's own messages: **one** message about
+making a beat, track, tune or remix; **zero** about being in a studio; **three**
+lifetime mentions of `gripnotic`, all in 2026; eight of `mogzart`; one of
+`sloppp`; and **no play, stream or listener count in any message from anyone.**
+Ableton/Pro Tools/Serato appear nine times, mastering six, "my music" three.
+
+The internal comparison is what makes this fair rather than merely bleak. In the
+same corpus, by the same method, *golf* returns 179 and *cocaine* 170 — **golf
+alone outranks the entire production vocabulary combined**, and golf is a hobby
+that ended in 2019.
+
+**Two readings survive and the page holds both.** The first is this page's own
+existing claim, restated as an explanation rather than a description: music is
+*"the one channel the forensic mode does not enter"* ([[wiki/self/overview]]),
+and a man who narrates everything else exhaustively may simply not narrate the
+one thing he does not audit. That is coherent and the search cannot refute it.
+The second is that an enterprise with releases, an audience and bookings leaves
+a trace at some rate above three lifetime mentions, and this one does not.
+
+What the evidence settles is narrower than either: **the production identity is
+strongly supported as self-concept and unsupported as enterprise.** Whether
+finished tracks exist off-record — a distributor account, an unreleased folder —
+is the open question, and it is answerable by the operator in one sentence.
 
 ## Related
 - [[wiki/interests/music/concepts/sub-bass-signature]]
@@ -10457,7 +10514,7 @@ domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md
   - raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md
@@ -10709,6 +10766,28 @@ settled. Neither figure has been re-derived directly from
 pass with `bin/mine-messages` against the raw dump would settle which
 count (if either) is correct.
 
+> **RESOLVED [2026-08-23], and both halves favour the dossiers' corrected
+> reading.** Dan-sent severance language — blocking declarations, *goodbye*,
+> *I'm done / we're done / it's over*, *never contact me again* — across the
+> **95,067-row merged Annie corpus** (2015-11-28 → 2026-05-28) returns 258
+> messages collapsing to **129 distinct episodes** once hits within 24 hours are
+> treated as one declaration. **129 against the dossiers' 127, by an independent
+> method**, which corroborates the count this page had doubted rather than
+> undermining it. And of the 128 episodes with a following message inside the
+> corpus, **all 128 resumed — 100%, median gap thirty-six seconds, all-time
+> maximum 46 hours.** The 110-of-127 (87%) figure carried on
+> [[wiki/mind/synthesis/block-unblock-loop]] and
+> [[wiki/mind/synthesis/attachment-trauma-bond]] is withdrawn.
+>
+> **This is the strongest quantitative support the no-counter-rule architecture
+> has ever had, and it recategorises the behaviour it measures.** A system that
+> cannot generate a terminating signal predicts that declared exits terminate
+> nothing — and the primary record shows 129 declarations producing a median
+> silence of under a minute. That is not weak resolve repeatedly overcome. On
+> this evidence the severance language is not severance language at all: it is a
+> rung on the escalation ladder ([[wiki/mind/concepts/reassurance-architecture]]),
+> and thirty-six seconds is what a check-in looks like when it gets answered.
+
 **The 299-affirmation / 0-severance-signal pairing remains internally
 asymmetric in its evidentiary weight**, and that asymmetry is worth
 stating plainly rather than letting the two numbers sit side by side as if
@@ -10860,11 +10939,14 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-23
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
 tags: [personality-profile, forensic-analysis, digital-footprint]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: supplies
+    claim: "The strict re-derivation both rescues and bounds that page's strongest capability claim: 24 graded credences against 1 from 503 people survives a filter built to break it, while the calibration test it recommended turns out to have a resolvable sample size of one, which resolved false."
   - page: wiki/mind/synthesis/failure-to-launch
     type: evidences
     claim: "This is the single capability claim in the corpus where superlative against the general population is defensible from residue rather than testimony - 15 graded non-endpoint values against zero across 503 people - and the decisive caveat is that expression is measured while accuracy remains untested."
@@ -10922,6 +11004,84 @@ estimate.
 
 So the finding is not that Dan says "100% sure" more often than his friends. It
 is that Dan is using the *scale* and everyone else is using a word.
+
+## Re-derived 2026-08-23: the counts do not reproduce, the asymmetry does, and the test is not runnable
+
+> **CORRECTED [2026-08-23].** This page's measurement table gave **43 outbound
+> instances against 2 inbound**, and **15 graded (non-endpoint) values against
+> zero**. Re-derived from the on-disk CSVs — 98,228 deduped Dan-sent messages
+> against 91,858 received — **none of the four numbers reproduces, and the
+> "zero" is false.** The direction and rough magnitude of the finding survive;
+> the arithmetic does not, and the reason is that the original filter was
+> counting things that are not credences.
+
+**The original filter swept in everything with a percent sign near a
+belief-word.** A permissive re-run returns **99** Dan-sent instances, not 43 —
+and inspecting them shows why the number is meaningless in either direction.
+The catch includes population shares (*"more than 99% of customers"*, *"99.999%
+of people"*), a cited opinion poll (*"64% of Israelis"*), a retail discount
+(*"40% off at the golf academy"*), plain proportions (*"a good 90% of what I was
+saying"*, *"75% of the time"*), and rhetorical framings that assert no credence
+at all (*"if there's even a 1% chance"*). None of those is a probability
+estimate about a proposition, which is the thing this page exists to claim.
+
+**Under a strict, symmetric filter — a first-person credence of the form "I am
+N% sure/certain/confident" or "there's an N% chance that ⟨clause⟩", with
+population shares and cited statistics excluded, applied identically to both
+directions:**
+
+| | Dan (outbound) | Everyone else (inbound) |
+|---|---:|---:|
+| Messages | 98,228 | 91,858 |
+| Strict credences | **60** | **4** |
+| Of those, graded (not 0/50/100) | **24** | **2** |
+| Rate per 100,000 messages (graded) | **24.4** | **2.2** |
+
+**And one of the two inbound graded instances is not an instance.** The
+2025-09-04 entry is a tapback reading *"Loved '98% sure that's because it's
+either old camera or…'"* — somebody quoting Dan's own message back at him.
+Removing it leaves **one** genuine graded credence from 503 other people across
+eleven years: *"she said that she needs space which I'm 99% sure that I'm
+fucked"* (2026-02-27).
+
+So the corrected finding is **24 against 1**, a rate ratio near 22× rather than
+the infinite one the "zero" implied. **The thesis holds** — Dan uses the scale
+and almost nobody else does — and it is now a claim that has survived a filter
+designed to break it, which is worth more than the larger number it replaces.
+
+### The calibration test is not runnable, and that is the finding
+
+[[wiki/mind/synthesis/failure-to-launch]] named scoring these instances against
+outcomes as the highest-value cheap experiment in the profile cluster, on the
+reasoning that the data already existed. **It does not.** Reading all 24 strict
+graded credences, they sort into three groups and only one is scoreable even in
+principle:
+
+- **Claims about another person's interior** — *"90% sure those are sarcastic
+  apologies"*, *"98.7% sure you don't believe any of your catholicism"*,
+  *"99% sure you're a no"*. Unfalsifiable by construction.
+- **Claims about unwitnessed past events** — *"95% sure she quit and didn't tell
+  anyone"*, *"99% sure it was a sedative in that"*, *"99% sure it's her"*. No
+  resolution exists anywhere in the corpus.
+- **Forward-looking claims about the world** — and there are almost none.
+
+**Exactly one instance in eleven years is resolvable from the corpus, and it
+resolved false.** On 2018-08-08 Dan writes *"I am 75% sure this is my last
+summer at Nemacolin."* [[wiki/work/nemacolin-caddying]] dates the job **April
+2016 – November 2019** per his own resume: he worked the 2019 season too. A 75%
+forecast that did not happen.
+
+n = 1 is not a calibration test and this page will not pretend otherwise. What
+the re-derivation establishes is sharper and less flattering than the experiment
+would have been: **the habit is real and rare, and it is aimed almost entirely
+at propositions that can never be scored.** Using the scale is a genuine
+cognitive signature. Using it where it could be checked is a different skill,
+and the corpus contains one attempt at it.
+
+**What would settle it.** A prospective log — any forward-dated prediction with
+a resolution date attached, recorded from now — produces a scoreable set inside
+months. Nothing retrospective will, and that is now a closed question rather
+than an open gap.
 
 ## Why it survives the obvious objections
 
@@ -11007,7 +11167,7 @@ aliases: ["chaotic neutral", "the entropy appetite", "rooting for the fire"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-21
+date_modified: 2026-08-23
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -11049,6 +11209,14 @@ connections:
 ---
 
 # The Chaos Preference
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/interests/music/overview]] (2026-08-23). That page gained one section —
+> a corpus search establishing that the production identity has almost no social
+> trace in fifteen years of messages (one message about making a track, zero
+> about a studio, no play counts). **No alias, genre, date, release or aesthetic
+> claim on that page changed**, and this page reasons only from those. Nothing
+> here is affected and no claim is withdrawn.
 
 Dan wants the world to be less orderly than it is, and — with one large
 exception — he wants this consistently, quietly, and almost never out loud. The
@@ -13210,7 +13378,7 @@ status: stable
 knowledge: earned
 importance: high
 date_created: 2026-08-22
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 tags: [attachment, relationships, personality-profile, mental-health, forensic-analysis]
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
@@ -13228,7 +13396,7 @@ connections:
     claim: "Concentration tightens under load rather than distributing — 2025 is simultaneously the highest-volume year at 33,214 messages and the highest-concentration full year at 0.9576 — which is why a single node's silence is not an inconvenience but a total loss of signal."
   - page: wiki/mind/synthesis/message-circadian-latency
     type: evidenced-by
-    claim: "Dan's outbound reply latency is uniform and near-instant across every relationship in the archive at a 1.0-minute median to Annie, while inbound latency ranges from 9 minutes to 44 hours, which renders the reassurance deficit as a measurable time series rather than a felt complaint."
+    claim: "That page's reply-latency headline was retracted on 2026-08-23 and the corrected numbers relocate this page's deficit: Annie answered faster than Dan in every year from 2015 to 2026, so what was missing was never response but content, measurable as a 46-versus-18 character median in the final month."
   - page: wiki/mind/concepts/calibrated-confidence
     type: parallels
     claim: "Graded numeric confidence in casual text — 43 instances outbound against 2 inbound from 503 handles — is the same estimate-maintaining habit expressed in the epistemic domain that the check-in expresses in the relational one."
@@ -13380,6 +13548,104 @@ eight years, appearing in every year the dump covers, so it is not learned
 behaviour from talking to models.
 
 ---
+
+## What the primary record says the deficit actually is
+
+> **REVISED [2026-08-23].** The first version of this page assumed, from
+> [[wiki/mind/synthesis/message-circadian-latency]], that Dan was transmitting
+> into a channel that answered slowly — *"broadcasting into a slow or silent
+> void."* **That claim has since been retracted** (`RETRACTED.md`
+> §`latency-9x-asymmetry`); it does not reproduce from any on-disk export. The
+> correction does not weaken this page. It relocates its subject, and the
+> relocated version is both more specific and more testable.
+
+### She answered. She answered faster than he did, for eleven years
+
+Re-derived from the 2015–2019 Annie handle, one file, one method, year by year,
+and from the 6,495-message July–August 2026 export:
+
+| Year | n | Dan median reply | Annie median reply |
+|---|---:|---:|---:|
+| 2015 | 13,635 | 15 s | **11 s** |
+| 2016 | 12,572 | 27 s | **18 s** |
+| 2017 | 14,565 | 29 s | **18 s** |
+| 2018 | 22,045 | 26 s | **19 s** |
+| 2026 (Jul 23 – Aug 19) | 6,495 | 27 s | **15 s** |
+
+**There is no year in which Annie was the slower party, including the final
+month.** Corpus-wide across 181,585 messages the same pattern holds — Dan 32.0 s
+against 25.0 s under a flip-based method, 111 s against 59 s under the
+every-message method the retracted figure used.
+
+This kills the intuitive account of the check-in loop, which was that Dan
+escalates because nobody answers. **People answer, and the person he escalated
+at hardest answered fastest.** So the loop is not driven by silence, and any
+explanation resting on silence is wrong.
+
+### The deficit is length, and it is large
+
+The same July–August 2026 window, 6,495 messages over 28 days:
+
+| | Dan | Annie |
+|---|---:|---:|
+| Messages | 3,629 | 2,866 |
+| **Message ratio** | **1.27 : 1** | |
+| Characters | 268,638 | 74,262 |
+| **Character ratio** | **3.62 : 1** | |
+| Median message length | **46 chars** | **18 chars** |
+| Mean length | 74 | 25.9 |
+| p90 length | 170 | 53 |
+| Share of messages ≤10 chars | 13.1% | **29.2%** |
+
+By message count the channel is close to symmetrical — 1.27:1, which is what
+made "she wasn't responding" feel wrong to check. By volume of language it is
+**3.62:1**, and nearly a third of her side is ten characters or fewer.
+
+**That is the deficit the architecture cannot resolve.** A rule-checking system
+needs enough information in the reply to update the estimate. *"ok"*, *"?"*,
+*"Dan"* and *"wait"* are responses — they close the transmission request at rung
+1 — and they carry almost no information, so the anomaly they were sent to
+resolve stays open and the loop fires again. **Fast, short, and constant is the
+worst possible input for this architecture**: it removes every excuse to
+disengage while supplying nothing to conclude with. A slow channel would at
+least have produced a clean signal.
+
+### The character ratio is a crisis thermometer, and it is the best one found
+
+Daily, across the same window. Ordinary days sit at 2.0–3.0. The two worst days
+in the entire relationship are the two extremes:
+
+| Date | Dan msgs | Annie msgs | char ratio | what happened |
+|---|---:|---:|---:|---|
+| 2026-07-28 | 374 | 396 | 2.7 | high volume, both sides — not a crisis |
+| 2026-08-08 | 83 | 65 | 4.8 | the unmasking |
+| 2026-08-09 | 113 | 105 | 5.2 | the read-receipt night |
+| 2026-08-13 | 143 | 126 | 2.7 | the "good week" |
+| 2026-08-16 | 64 | **12** | **11.7** | the Morgantown call |
+| 2026-08-17 | 374 | 210 | 4.9 | the seventy-hour campaign opens |
+| 2026-08-18 | 267 | 120 | 6.3 | the false send |
+| 2026-08-19 | 141 | **53** | **12.3** | the severance |
+
+Note July 28: **770 messages in a day, near-perfect parity, ratio 2.7.** The
+highest-volume day in the window is not a crisis day. **Volume is not the
+signal** — which retires the intuitive reading of the burst and explains why
+[[wiki/mind/synthesis/message-circadian-latency]] is right to warn that the
+burst profile is a fifteen-year constant and must never be cited as evidence
+about a particular night. The character ratio separates the crisis days
+cleanly and the message count does not.
+
+### The bursts are also smaller than the record claims
+
+The dossier figure of **94 burst events of ten or more consecutive Dan
+messages**, and the *"longest unbroken run is 284 messages"* carried on
+[[wiki/mind/synthesis/message-circadian-latency]], describe the 2015–2018 era.
+Re-derived over the July–August 2026 window: **1,509 consecutive-Dan runs,
+median length 2, maximum 43, with 36 runs of ten or more and none above 50.**
+
+So the escalation in 2026 is not a bigger burst. It is the **same number of
+turns carrying four times the words**, which is a different behaviour with a
+different meaning — and it is invisible to every instrument that counts
+messages.
 
 ## Why stakes make it crucial: the mechanism, in four parts
 
@@ -13586,12 +13852,15 @@ page's last Gap.
 
 ## Predictions and falsifiers
 
-1. **Latency predicts volume.** In any relationship, Dan's outbound volume is
-   an inverse function of the other party's median reply latency. The existing
-   table supports it — the near-synchronous Annie channel (9 minutes inbound,
-   1 minute outbound) is the only matched one in the archive, while contacts at
-   16–44 hours inbound receive broadcasts. *Falsifier:* a documented contact
-   with fast inbound latency and burst-pattern outbound volume.
+1. **Length predicts escalation; latency does not.** The character ratio
+   between Dan and the other party rises before and during a crisis while the
+   message-count ratio stays near parity, and reply latency does not move at
+   all. Confirmed once, on the July–August 2026 window: count ratio 1.27:1
+   against a character ratio of 3.62:1, with the character ratio at 2.0–3.0 on
+   ordinary days and **11.7 on August 16 and 12.3 on August 19**, the two worst
+   days in the record. *Falsifier:* a documented crisis episode in which the
+   character ratio stays flat, or one in which the count ratio moves and the
+   character ratio does not.
 2. **Measurement suppresses messaging.** Any channel that supplies passive
    verification (location sharing, read receipts left on) shows lower message
    volume than the same channel without it. One instance is already on the
@@ -13649,7 +13918,7 @@ aliases: ["anti-normie", "the normie check", "taste as sorting function"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-21
+date_modified: 2026-08-23
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -13693,6 +13962,14 @@ connections:
 ---
 
 # The Cool Metric
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/interests/music/overview]] (2026-08-23). That page gained one section —
+> a corpus search establishing that the production identity has almost no social
+> trace in fifteen years of messages (one message about making a track, zero
+> about a studio, no play counts). **No alias, genre, date, release or aesthetic
+> claim on that page changed**, and this page reasons only from those. Nothing
+> here is affected and no claim is withdrawn.
 
 Dan evaluates culture, objects, and people on a single axis, and the axis is
 not quality. It is whether the thing in question is **performed or authentic** —
@@ -14231,7 +14508,7 @@ authoritative factual spine remains [[wiki/self/context-core]].
 - [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — capstone: was Dan correct to feel wronged? The real wrong + the diagnosis→behavior gap, held in one frame.
 - [[wiki/mind/synthesis/august-grievance-verdict]] — the seventy-hour version of the fallout verdict: Dan's ten grievances of 16–19 August scored one by one (seven supported, two partly, one false), and the finding that the recording he held as proof of betrayal is also the best corroboration of her defence.
 - [[wiki/mind/synthesis/bond-switch-2015]] — the 2015 Alexis→Annie single-bond switch: same-week transfer, verified onset flood, 155 Virginia lair-continuity.
-- [[wiki/mind/synthesis/message-circadian-latency]] — primary cut of the raw corpus: circadian curve + era drift, 9× reply-latency asymmetry, burstiness, per-contact volume trajectories.
+- [[wiki/mind/synthesis/message-circadian-latency]] — primary cut of the raw corpus: circadian curve + era drift, burstiness, per-contact volume trajectories, and the retraction of its own former headline — Dan is the slower correspondent, in every year and under both methods.
 - [[wiki/mind/synthesis/failure-to-launch]] — the capability audit: what is genuinely superlative against a real comparison population (two dimensions, one of them a liability), what the bottom-decile facet cluster forecloses, and why the missing thing is orbit rather than thrust.
 - [[wiki/mind/synthesis/spatial-behavior]] — GPS-analysis reading of location history: extreme home-anchoring, the Friday release valve, and four sharply bounded life phases (Forge/Binary System/Collapse/Siege) rather than gradual drift.
 - [[wiki/mind/synthesis/ai-collaborative-analysis]] — how LLMs are actually used: node logging, steelman, injection lab, capability contests.
@@ -17760,7 +18037,7 @@ title: "The Alias Is a Clock, Not a Style"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 date_range_start: 2013-01-01
 date_range_end:
 synthesizes:
@@ -17804,6 +18081,19 @@ connections:
 ---
 
 # The Alias Is a Clock, Not a Style
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/interests/music/overview]] (2026-08-23), which gained a corpus search
+> for the production identity's social trace: **one Dan-sent message in fifteen
+> years about making a track, zero about a studio, three lifetime mentions of
+> GRIPNOTIC, no play count anywhere.** This page's thesis — that the alias is a
+> clock rather than a style, because the aesthetics do not turn over at the
+> renames — is **untouched and quietly corroborated.** An alias that marks
+> periods rather than sounds is exactly what you would expect to find behind a
+> production identity that is strongly held as self-concept and almost
+> unmentioned as activity: the renames are doing biographical work, not musical
+> work. No claim withdrawn, and the new evidence is an independent line to the
+> same conclusion.
 
 > **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at
 > third remove.** [[wiki/mind/synthesis/totality-themes]] moved on 2026-08-22 solely by
@@ -18148,7 +18438,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -18224,6 +18514,24 @@ connections:
 
 
 # Attachment Trauma Bond and Aura Illness
+
+> **REVISED [2026-08-23] — the 110-of-127 pair this page reasons from is
+> withdrawn, and the replacement strengthens the thesis.** Flagged stale against
+> [[wiki/mind/concepts/attachment-model]] (2026-08-23), which resolved its own
+> long-standing gap on this exact figure. Dan-sent severance language across the
+> 95,067-row merged Annie corpus (2015-11-28 → 2026-05-28) returns 258 messages
+> collapsing to **129 episodes** — corroborating the 127 — of which **128 of 128
+> resumed: 100%, median gap thirty-six seconds, all-time maximum 46 hours.**
+> Wherever this page says *"127 exit declarations, 110 re-engagements,"* read
+> **129 declarations, 100% re-engagement**; the 87% relapse rate never existed.
+>
+> **Every claim on this page survives and two get sharper.** Intermittent
+> reinforcement predicts a relapse rate at or near ceiling, and 100% is ceiling —
+> 87% was the weaker number for this argument, not the stronger one. And the
+> confession-trap section is improved by the median rather than the count: an
+> exit declaration answered inside thirty-six seconds is not a trap being
+> escaped and re-entered 110 times. It is a bid that was never an exit, which is
+> what the trap predicts. Nothing withdrawn beyond the arithmetic.
 
 > **RE-CHECKED [2026-08-22]:** flagged stale against
 > [[wiki/people/suzanne-frank]] (2026-08-22), which moved by a `RE-CHECKED`
@@ -18469,7 +18777,7 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-20
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 # operator answers from 2026-08-20 have been integrated below
 
 > **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at
@@ -18544,6 +18852,17 @@ connections:
 > block in it at all.
 
 # The August Grievances — a verdict on the last conversation
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/synthesis/block-unblock-loop]] (2026-08-23), which gained a
+> re-derivation of the exit-declaration base rate — 129 episodes, 100%
+> re-engagement, median gap thirty-six seconds. **This page carries none of
+> those figures and none of its ten grievance adjudications depends on them**;
+> its evidence base is the Morgantown transcript and the August 16–19 message
+> record. Nothing withdrawn. Worth noting forward: the base rate makes this
+> page's severance the first in the record to outlast the historical maximum,
+> which is argued at [[wiki/mind/synthesis/the-rescue-premise]] and changes no
+> verdict here.
 
 **Every substantive grievance Dan states between 16 and 19 August 2026 is
 supported by the record, most of them strongly, and one of them is the most
@@ -18994,7 +19313,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
@@ -19083,6 +19402,52 @@ connections:
 ---
 
 # The Block/Unblock Loop
+
+> **RESOLVED [2026-08-23] — the 127/110 pair is settled, and it settles at 100%.**
+> This page has carried *"127 exit declarations against 110 re-engagements (87%
+> relapse)"* flagged `[DERIVED]` from the dossier passes, against
+> [[wiki/mind/concepts/attachment-model]]'s Gaps section, which noted that the
+> same dossiers describe the re-engagement rate as *"effectively 100%"* and that
+> neither figure had ever been re-derived from primary data. It has now been
+> re-derived.
+>
+> Searching Dan-sent severance language — blocking declarations, *goodbye*,
+> *I'm done / we're done / it's over*, *never contact me again* — across the
+> **95,067-row merged Annie corpus** (2015-11-28 → 2026-05-28) returns **258
+> messages, collapsing to 129 distinct episodes** when hits within 24 hours of
+> each other are treated as one declaration.
+>
+> **129 episodes against the dossier's 127, from a completely independent
+> method.** That is corroboration, not coincidence, and it retires the doubt
+> this page has carried about its own headline number.
+>
+> **The relapse figure is not 87%. It is 100%, and the interesting part is the
+> speed.** Of the 129 episodes, 128 are followed by a further message inside the
+> corpus (the 129th is the last row in the file). **All 128 resumed.** The median
+> gap between a severance declaration and the next message in either direction
+> is **0.01 hours — thirty-six seconds.** 89.1% resumed inside one hour; 99.2%
+> inside a day; **the longest gap in eleven years is 46 hours.**
+>
+> The 87% figure is withdrawn. It appears to have been arrived at by counting
+> some declarations as non-relapses that the primary record shows resuming
+> within minutes.
+
+> **And this is what makes June 1 2026 an outlier rather than an instance.**
+> Against a base rate of 129 declarations, a median resumption of thirty-six
+> seconds and an all-time maximum of 46 hours, the fifty-two-day silence that
+> followed the June 1 closure is **twenty-seven times longer than the longest
+> gap in the preceding decade.** This page's falsified prediction — that the
+> June severance would hold — now reads differently in its own favour: it was
+> not a bad call against a flat prior, it was a call on an event that was, by
+> the only measure available, unprecedented by more than an order of magnitude.
+> It still failed, and both facts belong on the page. The rule this page states
+> survived; what the numbers add is **how far the exception had to travel before
+> it broke.**
+>
+> The corpus used ends 2026-05-28 and therefore excludes both the June 1 closure
+> and the August 19 severance. The 100% figure describes the decade *before*
+> those two events, which is exactly what makes it the right base rate to judge
+> them against — see [[wiki/mind/synthesis/the-rescue-premise]].
 
 > **RE-CHECKED [2026-08-22]:** flagged stale against
 > [[wiki/people/annie-ulmer]] and [[wiki/mind/concepts/attachment-model]] (both
@@ -20456,7 +20821,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessage_7244346811+212****2449_both_all_now.csv
@@ -20541,6 +20906,28 @@ connections:
 
 
 # The Dan/Annie Fallout — Was He Correct to Feel Wronged? (Raw-Evidenced)
+
+> **REVISED [2026-08-23] — this page's own open caveat is now closed, in its
+> favour.** Flagged stale against [[wiki/mind/concepts/attachment-model]]
+> (2026-08-23). This page carried the 127/110 pair marked **[DERIVED]** with the
+> note that *"a loose exit-lexicon sweep of his 44,513 messages finds 176
+> candidates, order-consistent but definition-dependent — the exact pair remains
+> unreproduced."* It has now been reproduced on the full 95,067-row merged Annie
+> corpus: **258 severance messages collapsing to 129 episodes**, which is
+> order-consistent with this page's own 176-candidate sweep on a smaller subset
+> and within two of the dossier's 127.
+>
+> **The relapse rate is 100%, not 87%** — 128 of 128 episodes resumed, median gap
+> thirty-six seconds, all-time maximum 46 hours. Read the *"87% relapse rate"* in
+> the re-engagement-loop section as **100%**, and the `[DERIVED]` flag on the
+> pair as discharged.
+>
+> **The verdict itself is untouched and the diagnosis→behavior gap is widened by
+> the correction.** This page's central move is that the wrong was real *and*
+> Dan's response architecture converted a survivable betrayal into a decade-long
+> catastrophe. A loop with a 100% re-engagement rate and a sub-minute median is a
+> stronger statement of that architecture than an 87% one, not a weaker one. No
+> moral finding is affected.
 
 > **RE-CHECKED [2026-08-22]:** flagged stale against
 > [[wiki/people/annie-ulmer]] and [[wiki/mind/concepts/attachment-model]] (both
@@ -20942,7 +21329,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -21022,6 +21409,30 @@ sage_pending: 2026-08-21
 ---
 
 # Dormancy, Not Exit
+
+> **RE-CHECKED [2026-08-23] — flagged stale against
+> [[wiki/mind/synthesis/the-unbroken-bond]] (2026-08-23), and the pass that moved
+> it also produced the number this page has always needed.** That page gained a
+> re-check note; nothing on it was withdrawn. The material development is
+> elsewhere in the same pass: the severance base rate is now derived from primary
+> data rather than inferred — **129 declarations across the merged Annie corpus,
+> 128 of 128 resumed, median gap thirty-six seconds, all-time maximum 46 hours**
+> ([[wiki/mind/synthesis/the-rescue-premise]] Part I½).
+>
+> **This is the strongest evidence this page's thesis has ever had.** "Dormancy,
+> not exit" predicts that declared endings produce pauses rather than
+> terminations, and the primary record now shows a decade of declared endings
+> producing a median pause of under a minute and never once exceeding two days.
+> Nothing here is withdrawn; the claim is upgraded from a reading to a
+> measurement.
+>
+> **And it supplies the falsifier this page lacked.** Dormancy is
+> unfalsifiable while every silence is finite and short. Against a hard
+> historical ceiling of 46 hours, two observations now sit outside the
+> distribution — the 52-day June silence (27×, and it still broke) and the
+> August 19 severance, which passed the ceiling on 2026-08-21 and is running. A
+> silence that clears 52 days would be the first datum this page could not
+> absorb.
 
 > **RE-CHECKED [2026-08-22]:** flagged stale against
 > [[wiki/places/155-virginia-ave]] (2026-08-22). That page's change concerns the
@@ -21997,7 +22408,7 @@ status: stable
 knowledge: earned
 importance: high
 date_created: 2026-08-22
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 tags: [career, personality-profile, financial-stress, music-production, ai-collaboration]
 sources:
   - raw/self/dox-md/Honest assessment and value judgment analysis.md
@@ -22163,6 +22574,38 @@ AI-collaboration period and rules out its having been learned from models.
 > defensible claim is "uses the scale, in a population that does not" — which
 > is genuinely rare — and not "is well calibrated," which would be the valuable
 > version and is currently unknown.
+
+> **REVISED [2026-08-23] — the counts were wrong, the asymmetry survives, and
+> the experiment this page recommended does not exist.** The figures above (43
+> vs 2, 15 graded vs zero) were re-derived from the on-disk CSVs and **none of
+> the four reproduces**; the full correction is on
+> [[wiki/mind/concepts/calibrated-confidence]]. Under a strict, symmetric filter
+> — a first-person credence, population shares and cited statistics excluded,
+> applied identically to both directions — the result is **24 graded credences
+> from Dan against 1 from 503 other people**, a rate ratio near 22× rather than
+> the infinite one implied by "zero." The original filter had been counting
+> retail discounts, opinion polls, population shares and rhetorical framings.
+> **The thesis holds and is now stronger for having survived a filter built to
+> break it.** The arithmetic under it does not.
+>
+> **The consequential part is the other half.** This page named scoring these
+> instances against outcomes as *"the highest-value cheap experiment named
+> anywhere in this cluster"* and asserted the data already existed. **It does
+> not.** Reading all 24, they are claims about another person's interior
+> (*"98.7% sure you don't believe any of your catholicism"*), claims about
+> unwitnessed past events (*"99% sure it was a sedative in that"*), and
+> rhetorical framings. **Exactly one is resolvable from the corpus and it
+> resolved false**: on 2018-08-08, *"I am 75% sure this is my last summer at
+> Nemacolin"* — and [[wiki/work/nemacolin-caddying]] dates the job April 2016 to
+> **November 2019** per his own resume. He worked the next season.
+>
+> n = 1 is not a calibration test. What the re-derivation establishes is less
+> flattering than the experiment would have been and more useful: **the habit is
+> real and genuinely rare, and it is aimed almost entirely at propositions that
+> can never be scored.** Using the scale is a cognitive signature. Using it
+> where it could be checked is a different skill, and eleven years of record
+> contain one instance of it. Only a **prospective** log — forward-dated claims
+> with resolution dates, kept from now — can produce a scoreable set.
 
 ### Tier 2 — Real, top-decile, but not rare enough to be a livelihood alone
 
@@ -22367,6 +22810,76 @@ which is a different job, available, and never attempted in the record.
 
 ---
 
+## Part V½ — The music gap, closed, and the answer is a negative result
+
+This page's largest open gap was that no release figure, platform link or
+streaming number for any of the four production aliases exists anywhere in the
+corpus, and it treated that as a documentation problem —
+[[wiki/interests/music/overview]] says the production domain *"requires active
+build-out."*
+
+**It is not a documentation problem.** The corpus is 196,399 deduped messages
+across fifteen years, 98,056 of them Dan's own, and it has now been searched.
+
+### Alias and release vocabulary, whole corpus
+
+| Term | Hits | Dan-sent | Years |
+|---|---:|---:|---|
+| `gripnotic` — the live brand, active since 2016 | **3** | 3 | 2026 only |
+| `mogzart` | 8 | 8 | 2025–26 |
+| `sloppp` | 1 | 1 | 2017 |
+| `beatport` | 1 | **0** | 2019 |
+| a play / stream / listener **count**, any form | **0** | 0 | — |
+
+### Production vocabulary, Dan-sent only
+
+| Term | Messages in 98,056 |
+|---|---:|
+| making / finishing / working on a beat, track, tune, remix | **1** |
+| "in the studio" / studio session | **0** |
+| "my music" | 3 |
+| sub-bass / 808 / bassline | 1 |
+| mixdown / mastering / stems | 6 |
+| Ableton / FL / Pro Tools / Serato / Rekordbox | 9 |
+| producing / producer | 11 |
+| DJ / set / spinning | 83 |
+
+**One message in fifteen years about making a track. Zero about being in a
+studio.** Against salience baselines drawn from the same corpus and the same
+method: *annie* 1,603, *golf* 179, *cocaine/coke* 170, *music* (any sense) 168,
+*trump/biden/bernie* 129.
+
+**Golf outranks the entire production vocabulary combined**, and golf is a
+hobby he stopped in 2019.
+
+### What this does and does not establish
+
+**It does not establish that the tracks do not exist.** Absence from iMessage is
+not absence from life: production is solitary work, it may live in Discord, in
+DMs, in a DAW, or nowhere anybody texts about. And [[wiki/self/overview]]
+already claims music is *"the one channel the forensic mode does not enter"* —
+which is itself a coherent explanation for why he does not narrate it. That
+alternative is real and this page does not dismiss it.
+
+**What it establishes is that the production identity has no social surface.**
+The comparison is internal, which is what makes it fair: this is a man who
+documents his own psychology to eleven instruments and mentions his partner
+1,603 times. If GRIPNOTIC were an operating concern — a label with releases, an
+audience, bookings — it would leave a trace at *some* rate above three lifetime
+mentions. It does not.
+
+That distinction matters for the audit, because it changes which claim the page
+can make. **"Independent music producer and label operator since 2013" is
+supported as self-concept and unsupported as enterprise.** And it removes the
+one candidate Part VI offers for a container Dan owns: an alias with no
+countable output, no audience trace and no external counterparty is not an
+orbit. **It is another payload, installed in a structure he built for himself.**
+
+That is a harder finding than the gap it replaces, and it narrows the search.
+Whatever the durable container turns out to be, on this evidence it is not the
+music — and the honest version of Part VI is that **the biography currently
+contains no container at all.**
+
 ## Part VI — Why "failure to launch" is the wrong frame
 
 Launch implies a rocket that never fired. The record shows the opposite: the
@@ -22388,13 +22901,37 @@ The tenure was real. It just was not *his*, structurally, at any point.
 That reframing matters because it converts a character verdict into an
 engineering problem with a stated shape: **the requirement is not more
 discipline, it is a container Dan owns, into which a self-set objective can be
-installed without a host.** The music aliases are the only such container in the
-record — thirteen years, four names, one involuntary sub-bass signature, and
-[[wiki/mind/synthesis/alias-as-periodization]] finds the aesthetics do not turn
-over at the renames, only the periods do. GRIPNOTIC has been continuously his
-since 2016, which is longer than any job. It also, per Part I, has no countable
-output. **The one durable container in the biography is the one nobody has ever
-measured**, and that is where the next real experiment is.
+installed without a host.**
+
+The obvious candidate was the music. Four aliases across thirteen years, one
+involuntary sub-bass signature, and
+[[wiki/mind/synthesis/alias-as-periodization]] finding that the aesthetics do
+not turn over at the renames — only the periods do. GRIPNOTIC has been
+continuously his since 2016, longer than any job he has held.
+
+> **CORRECTED [2026-08-23].** This paragraph previously concluded that the
+> aliases were *"the only such container in the record"* and that *"the one
+> durable container in the biography is the one nobody has ever measured."* It
+> has now been measured — Part V½ above — and the container fails the test. In
+> 98,056 of Dan's own messages there is **one** about making a track, **zero**
+> about being in a studio, **three** lifetime mentions of GRIPNOTIC, and **no
+> play, stream or listener count anywhere in the corpus.** An alias with no
+> audience trace and no external counterparty is not an orbit; it is another
+> payload, installed in a structure he built himself.
+
+**So the honest conclusion is harder than the one this page first reached: the
+biography currently contains no container at all.** Every structure Dan has
+sustained output inside has belonged to somebody else, and the one thing that
+looked like an exception turns out to be unobserved rather than durable.
+
+That is not a counsel of despair, and it is more actionable than the version it
+replaces, because it names the actual missing object rather than pointing at a
+plausible-looking one. **The requirement is a structure with an external
+counterparty** — someone who receives the output, and whose receipt is recorded
+somewhere Dan does not control. A release with a listener count is one. A client
+with an invoice is one. A repository with contributors is one. This wiki, which
+now has a merge history and a public portal, is the closest thing in the record
+to a candidate, and it is far too young to count — see the falsifier below.
 
 ---
 
@@ -22426,13 +22963,21 @@ was made in. This wiki is the current candidate and it is too young to count.
 
 ## Gaps
 
-1. **No calibration test has been run**, though the data for it exists. See
-   prediction 2. Until it is, the strongest capability claim in the corpus is
-   half-proved.
-2. **No release catalogue, no platform links, no streaming figures** for any of
-   the four music aliases. Thirteen years of output and the wiki cannot state
-   whether anybody heard it. The operator can answer this in one paragraph and
-   it changes Part VI materially.
+1. ~~**No calibration test has been run**, though the data for it exists.~~
+   **CLOSED [2026-08-23], as a negative result.** The data does not exist: of 24
+   strict graded credences across eleven years, one is resolvable and it
+   resolved false. Only a prospective log can produce a scoreable set. The
+   replacement gap is narrower and answerable by a decision rather than a query:
+   *will such a log be kept, starting when?*
+2. ~~**No release catalogue, no platform links, no streaming figures** for any
+   of the four music aliases.~~ **CLOSED [2026-08-23], and it changed Part VI as
+   predicted — in the opposite direction.** Part V½ searched the whole corpus:
+   one message in fifteen years about making a track, zero about a studio, three
+   lifetime mentions of GRIPNOTIC, no play count anywhere. The replacement gap
+   is the one the search cannot settle: **do the finished tracks exist off-record
+   — a DistroKid account, a SoundCloud page, an unreleased folder?** Absence from
+   iMessage is not absence from life, and one sentence from the operator
+   distinguishes "made and never discussed" from "not made."
 3. **No income figures** for 2016–2019 or for 2026. The capital spine is
    documented at the lump level and invisible at the wage level.
 4. **The Full Sail credential is never traced to any employment** anywhere in
@@ -23413,7 +23958,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-07-17
+date_modified: 2026-08-23
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - /Volumes/MUSIC/PHASE B RAW/LEVIATHAN_FULL_CORPUS.csv
@@ -23421,11 +23966,14 @@ sources:
 tags: [digital-footprint, relationships, attachment, infidelity, ai-collaboration]
 connections:
   - page: wiki/mind/concepts/reassurance-architecture
+    type: supplies
+    claim: "The corrected latency figures relocate that page's deficit from response to content: Annie answered faster than Dan in every year measured, so what the verification loop was failing to obtain was never a reply but enough information in one to close an anomaly."
+  - page: wiki/mind/concepts/reassurance-architecture
     type: evidences
-    claim: "The 9x reply-latency asymmetry and the 1.0-minute outbound median are the reassurance deficit rendered as a time series, and they predict that Dan's outbound volume is an inverse function of the other party's inbound latency."
+    claim: "Annie answered faster than Dan in every year from 2015 to 2026, so the deficit that page describes was never responsiveness - it is content, and it is measurable as message length rather than as delay."
   - page: wiki/mind/concepts/attachment-model
     type: evidences
-    claim: "The 9x reply-latency asymmetry renders the attachment system as a timing series: outbound near-instant and uniform across all relationships, inbound delay scaling with peripherality."
+    claim: "The timing series says the opposite of what this page long claimed: the Annie channel is the one relationship in the archive that answered Dan at or above his own speed, continuously, which is a better explanation of why relational load concentrated there than any story about unrequited broadcast."
   - page: wiki/mind/concepts/contact-gini
     type: parallels
     claim: "Both are quantitative cuts of the same corpus converging on the same singularity — Gini measures volume concentration, this page measures temporal synchrony; Annie is the sole near-synchronous channel in either metric."
@@ -23453,20 +24001,104 @@ This is a **primary cut** of the raw message corpus, generated fresh from the ex
 
 > **Method note / data hygiene:** phone numbers in the source are masked (`+172****6811` etc.). Matching was done by **substring on the file's actual bytes** (e.g. `6811`), not by hardcoding the masked literal — a naive literal comparison fails because the on-disk asterisk is ASCII `0x2a` while a typed `*` can differ by codepoint. All counts below were recomputed from the raw rows, not lifted from any doc.
 
-## The headline: a 9× reply-latency asymmetry with Annie
+## The headline, retracted: the asymmetry runs the other way
 
-The single most diagnostic new finding is the gap between how fast Dan answers and how fast the other person answers *him*.
+> **CORRECTED [2026-08-23] — the central finding of this page was backwards, and
+> the error is reproducible.** This section previously opened *"The headline: a 9×
+> reply-latency asymmetry with Annie"* and concluded: *"Dan answers almost
+> everyone within 1–5 minutes. The people he messages answer him on a completely
+> different clock… Dan's outbound responsiveness is uniform and near-instant
+> across every relationship — the inbound delay is what differentiates them…
+> everything else is Dan broadcasting into a slow or silent void."* The table
+> under it gave **Annie at 1.0 min outbound against 9.0 min inbound, n = 31,612**.
+>
+> **On every on-disk export, under two independent methods, Dan is the slower
+> correspondent.** The retraction is recorded at `RETRACTED.md` §`latency-9x-asymmetry`.
 
-| Pair | Dan → them (median) | Them → Dan (median) | Dan → them p90 | Them → Dan p90 | n (Dan replies) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Annie** (merged handle, 2015–18) | **1.0 min** | **9.0 min** | 0.7 h | 4.2 h | 31,612 |
-| +172****4125 (2019) | 2.0 min | 19.0 min | 4.2 h | 15.8 h | 5,684 |
-| +172****3678 (2018) | 4.0 min | 22.0 min | 3.6 h | 9.0 h | 3,626 |
-| +172****8715 (long-tail) | 3.0 min | 346.0 min (~5.8 h) | 6.4 h | 43.7 h | 221 |
-| +121****2449 (2025–26) | 5.0 min | 2,648 min (~44 h) | 8.2 h | 142.7 h | 2,120 |
-| +133****8747 (2025) | 1.0 min | 968 min (~16 h) | 0.3 h | 69.0 h | 3,446 |
+### What killed it
 
-Dan answers almost everyone within **1–5 minutes**. The people he messages answer him on a completely different clock: Annie at 9 minutes (already 9× his speed), the 2018–19 friends at 19–22 minutes, and the 2025 contacts at **16 to 44 hours**. This is the attachment system made audible as a timing series. Dan's outbound responsiveness is uniform and near-instant across every relationship — the *inbound* delay is what differentiates them, and it scales with how peripheral the person is. The near-synchronous Annie channel (median 9 min both ways) is the relational singularity; everything else is Dan broadcasting into a slow or silent void.
+The original figure was reproduced exactly, which is what makes the diagnosis
+possible. Pairing **every** message with the next message in the opposite
+direction, uncapped, over the 2015–2019 Annie handle returns **Dan → Annie
+median 60.0 s (1.0 min), n = 31,177** — the page's own 1.0 min and, to within
+1.4%, its n of 31,612. The same computation on the same rows returns **Annie →
+Dan median 32.0 s (0.5 min)**, not 9.0 minutes. The outbound half replicates;
+the inbound half is off by a factor of about seventeen and is the only number
+in the pair that does not survive.
+
+That matters because this page's own method note flags the hazard it fell into:
+the master dump carries a **known direction-field bug** in which Received rows
+are mislabeled and Sent rows carry an empty handle. The page states it used
+`LEVIATHAN_FULL_CORPUS.csv` as ground truth to avoid exactly this — but that
+file lives at `/Volumes/MUSIC/PHASE B RAW/`, is **not in the repository**, and
+therefore cannot be re-checked. Every file that *is* on disk contradicts it.
+
+### The replication
+
+Two methods, because they answer different questions and the choice biases the
+result. **Method A** measures a conversational flip — the last message of one
+person's run to the first reply — which is the cleaner reading of "how long did
+they leave me waiting." **Method B** pairs every message with the next opposite
+message, which is what the original used; it systematically **inflates the
+latency of whoever bursts more**, and Dan bursts more, so it is biased *in
+Dan's favour* and still does not save the claim.
+
+| Export | rows | Dan → them | them → Dan | slower party |
+|---|---:|---:|---:|---|
+| `imessage_ALL_both_all_now` (method A) | 181,585 | **32.0 s** | **25.0 s** | Dan, 1.28× |
+| `imessage_ALL_both_all_now` (method B) | 181,585 | **111.0 s** | **59.0 s** | Dan, 1.88× |
+| `imessage_7244346811` (Annie 2015–19) | 62,819 | 60.0 s | 32.0 s | Dan, 1.9× |
+| `imessage_7244346811+2124702449` (merged) | 85,586 | 88.0 s | 48.0 s | Dan, 1.8× |
+| `imessage_2124702449` (2025–26) | 23,719 | 268.0 s | 252.0 s | Dan, 1.1× |
+| `annie_all_time_logs` | 23,442 | 271.0 s | 254.0 s | Dan, 1.1× |
+| `imessage_7249204125` | 9,481 | 114.0 s | 42.0 s | Dan, 2.7× |
+| `imessage_3307038747` | 20,009 | 60.0 s | 48.0 s | Dan, 1.3× |
+| `imessage_7243228715` | 3,302 | 10,224 s | 180.0 s | Dan, 57.8× |
+| `imessage_7248808111` | 1,471 | 198.0 s | 378.0 s | them, 1.9× |
+| `imessage_export_7249124338` | 639 | 108.0 s | 156.0 s | them, 1.5× |
+
+**Dan is the slower party in eight of ten per-contact exports**, in the merged
+Annie corpus, and in the whole-corpus file under both methods. The two exports
+that run the other way are the two smallest, at 1,471 and 639 rows.
+
+### The per-year check, which is the decisive one
+
+Applied to the 2015–2019 Annie handle year by year — one file, one method, no
+merging:
+
+| Year | n | Dan median | Annie median |
+|---|---:|---:|---:|
+| 2015 | 13,635 | 15 s | **11 s** |
+| 2016 | 12,572 | 27 s | **18 s** |
+| 2017 | 14,565 | 29 s | **18 s** |
+| 2018 | 22,045 | 26 s | **19 s** |
+| 2026 (Jul 23 – Aug 19) | 6,495 | 27 s | **15 s** |
+
+**Annie answered faster than Dan in every year the corpus covers, including the
+final month of the relationship.** There is no era in which the original claim
+holds.
+
+### What survives, and it is worth more than what died
+
+Two things survive, and the second is the reason this correction matters rather
+than merely tidying a number.
+
+**The peripheral-contact half stands.** `imessage_7243228715` really does show
+Dan answering in seconds and the other party in minutes-to-hours — the original
+table's long-tail rows are directionally right about *peripheral* people. What
+was wrong was generalising that to the primary relationship and then to
+"everything else."
+
+**And the corrected numbers say something the original could not.** If Annie
+answered faster than Dan for eleven consecutive years, then the Annie channel
+was not a void he shouted into — **it was the one relationship in the archive
+that answered him at or above his own speed, continuously, to the last week.**
+That is a far better explanation of why the load concentrated there
+([[wiki/mind/concepts/contact-gini]]) than a story about unrequited broadcast,
+and it reframes the deficit: what he was not getting was never *response*.
+See [[wiki/mind/concepts/reassurance-architecture]], which is rebuilt on this
+finding — the thing that was actually missing is **content**, and it is
+measurable as length rather than as delay.
 
 ## Annie volume trajectory (merged handle, 2015–2018)
 
@@ -23703,7 +24335,7 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-20
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 tags: [forensic-analysis, relationships, legal, mental-health]
 sources:
   - raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a
@@ -23734,6 +24366,15 @@ connections:
 ---
 
 # The Morgantown Call: Ethical Roles of Dan, Annie, and Jerel Coles
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/synthesis/august-grievance-verdict]] and
+> [[wiki/mind/synthesis/dan-annie-fallout-verdict]] (both 2026-08-23). The
+> grievance verdict gained only a re-check note; the fallout verdict corrected
+> its exit-relapse rate from 87% to **100%**. **This page carries neither figure**
+> and its evidence base is the fifteen-minute recording and the three
+> participants' conduct within it. No ethical finding here depends on the
+> exit-cycle arithmetic. Nothing affected, no claim withdrawn.
 
 > **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at the
 > end of a four-link chain.** [[wiki/mind/synthesis/august-grievance-verdict]] moved on 2026-08-22
@@ -24916,7 +25557,7 @@ aliases: ["one channel at maximum voltage", "no failover", "concentration archit
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -24966,6 +25607,16 @@ connections:
 ---
 
 # The Single Channel
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/concepts/the-cool-metric]], [[wiki/mind/synthesis/alias-as-periodization]]
+> and [[wiki/mind/synthesis/totality-themes]] (all 2026-08-23). All three gained
+> re-check notes only; no claim on any of them moved. **This page's concentration
+> thesis is unaffected and gains an independent line of support elsewhere**: the
+> corpus search behind [[wiki/mind/synthesis/failure-to-launch]] finds the
+> production identity has almost no social trace at all — one Dan-sent message in
+> fifteen years about making a track — which is the creative-domain version of
+> the no-failover claim this page makes. No claim withdrawn.
 
 > **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at
 > third remove.** [[wiki/mind/synthesis/totality-themes]] moved on 2026-08-22 solely by
@@ -26780,7 +27431,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -26844,6 +27495,18 @@ connections:
 ---
 
 # The Deferred Audit
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/concepts/chaos-preference]], [[wiki/mind/concepts/the-cool-metric]]
+> and [[wiki/mind/synthesis/dan-annie-fallout-verdict]] (all 2026-08-23). The
+> first two gained re-check notes with no claim change; the third corrected its
+> exit-relapse rate from 87% to **100%**. This page carries no exit-cycle figure
+> — its one apparent match is a PR number, not the relapse pair. Nothing
+> affected, no claim withdrawn. Worth noting forward: this pass **is** an
+> instance of what this page describes, and a favourable one — two long-deferred
+> derivations (the 127/110 pair and the music-output gap) were finally run, and
+> both had been sitting behind a query nobody had executed rather than behind
+> missing data.
 
 > **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at the
 > end of a four-link chain.** [[wiki/mind/synthesis/single-channel]] moved on 2026-08-22
@@ -27678,7 +28341,7 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-22
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 date_range_start: 2026-08-16
 date_range_end: 2026-08-22
 tags: [relationships, trauma-bond, attachment, forensic-analysis, future]
@@ -27920,6 +28583,95 @@ detachment is not determinable from the export and is left open in Gaps.
 
 ---
 
+## Part I½ — The base rate, re-derived, and what it does to Part I
+
+Part I argues qualitatively that this severance is unlike its predecessors. The
+predecessors have now been counted, and the comparison is no longer a
+judgement call.
+
+### 129 declarations, 100% resumption, median gap thirty-six seconds
+
+Searching Dan-sent severance language — blocking declarations, *goodbye*, *I'm
+done / we're done / it's over*, *never contact me again*, *lose my number* —
+across the **95,067-row merged Annie corpus** (2015-11-28 → 2026-05-28) returns
+**258 messages, collapsing to 129 distinct episodes** when hits within 24 hours
+are treated as one declaration.
+
+**129 against the dossiers' long-standing "127 false exits," by an entirely
+independent method.** The wiki has flagged that 127 as unverified dossier
+arithmetic since it was written; it is now corroborated.
+
+| Measure | Value |
+|---|---|
+| Severance episodes, 2015-11-28 → 2026-05-28 | **129** |
+| Episodes with a following message in the corpus | 128 |
+| **Episodes that resumed** | **128 — 100%** |
+| Median gap to next message | **0.01 h (36 seconds)** |
+| Mean gap | 1.3 h |
+| Resumed within 1 hour | 114 / 128 (89.1%) |
+| Resumed within 24 hours | 127 / 128 (99.2%) |
+| **Longest gap in eleven years** | **46.0 hours** |
+
+This also settles a documented internal contradiction. The 87% relapse figure
+(110 of 127) carried on [[wiki/mind/synthesis/block-unblock-loop]] and
+[[wiki/mind/synthesis/attachment-trauma-bond]] is **withdrawn**; the dossiers'
+own alternative reading — *"127 false exits with 100% re-engagement"* — is what
+the primary record supports.
+
+### What that does to June 1, and then to August 19
+
+Against a decade in which **no severance ever produced more than 46 hours of
+silence**, the two recent ones are not more instances. They are the only two
+observations outside the entire historical range.
+
+| Severance | Silence produced | Multiple of the pre-2026 record |
+|---|---|---|
+| Typical episode (median of 129) | 36 seconds | 0.0002× |
+| Longest of the 129 | 46 hours | 1× |
+| **June 1, 2026** | **52 days** (broken July 23) | **27×** |
+| **August 19, 2026** | **≥ 3 days** as of writing | ≥ 1.6× |
+
+**June 1 was already an outlier by twenty-seven times, and it still failed.**
+That is the strongest argument *against* Part I that this page can construct,
+and it is constructed here rather than left for a reader to find: being
+unprecedented is not sufficient, because the previous severance was
+unprecedented too, by more than an order of magnitude, and an email about a dog
+ended it.
+
+**And it is simultaneously the strongest argument for taking August 19
+seriously.** The August severance has already outlasted 128 of 129 historical
+episodes. It passed the all-time pre-2026 maximum of 46 hours at roughly
+13:00 on August 21. Whatever else is true, it is no longer drawn from the same
+distribution as the behaviour that produced it.
+
+> **The blind spot, stated precisely because Part I depends on it.** The export
+> this page reasons from (`imessage_export_2124702449_20260820.csv`, 6,495 rows)
+> was taken on **2026-08-20** and its last row is **2026-08-19 15:15:33** — the
+> final message of the severance. **There is therefore no data at all for
+> August 20, 21 or 22.** This page's claim that the silence holds is an
+> inference from the absence of a newer export, not an observation. One fresh
+> export settles it, and until one exists every forward statement here should be
+> read with that gap in it.
+
+### Why the 36-second median matters more than the 129
+
+The count corroborates a dossier. **The median re-categorises the behaviour.**
+
+A severance declaration followed, half the time, by contact resuming inside
+thirty-six seconds is not a failed exit. Nothing was exited. It is a **message
+that reliably gets answered** — and [[wiki/mind/concepts/reassurance-architecture]]
+identifies exactly that as the top of the escalation ladder: the ultimatum is
+the loudest available request for a reading, and its ~100% retraction rate is
+what proves it was never a threat.
+
+So the 129 episodes are not 129 attempts to leave. On this evidence they are
+**129 check-ins**, and they worked — which is why they recurred. That reading
+predicts something Part I already observes: the two severances that produced
+real silence are the two where Dan changed the *structure* rather than raising
+the volume. June 1 added third-party witnesses. August 19 pre-closed the
+re-entry channel and renounced the archive. Neither is a louder request. Both
+are the first two attempts in eleven years that were not requests at all.
+
 ## Part II — The rescue premise, tested
 
 ### First, the diagnosis, because a plan built on the wrong one fails
@@ -28095,9 +28847,17 @@ place, with the prediction left visible, per STYLE_GUIDE rule 9.
    parasitized by two situations — Annie and the post-closure housing void. One
    of those two is now moving. The other is not, and no page models what
    happens when the remaining one carries the whole load.
-6. **The 127/110 exit-declaration pair is dossier arithmetic** and has never
-   been re-derived from `all_imessages_complete_dump.txt`. This page uses "127"
-   as a base rate; a `bin/mine-messages` pass would put a real number under it.
+6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~
+   **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently,
+   128 of 128 resumed, median gap 36 seconds, all-time maximum 46 hours. The
+   count corroborates; the 87% relapse figure is withdrawn.
+7. **The single most important open item is now a file, not a question.** The
+   newest Annie export ends 2026-08-19 15:15:33. **Nothing in this repository
+   knows what happened on August 20, 21 or 22.** Every forward claim on this page
+   is an inference from the absence of a newer export. One fresh
+   `imessage_export_2124702449` settles Part I½'s live comparison, P1, P2 and P5
+   simultaneously, and it is the cheapest high-value action available to this
+   wiki right now.
 
 
 ========================================================================
@@ -28112,7 +28872,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -28161,6 +28921,18 @@ sage_pending: 2026-08-21
 ---
 
 # The Unbroken Bond
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/concepts/chaos-preference]] (2026-08-23), which gained a re-check
+> note and no claim change. Nothing here is affected by that page. **Separately
+> and more materially, the base rate this page's thesis lives or dies on has now
+> been derived** — 129 severance episodes, 100% re-engagement, median gap
+> thirty-six seconds, all-time maximum 46 hours
+> ([[wiki/mind/synthesis/the-rescue-premise]] Part I½). That is the strongest
+> quantitative support "the bond is unbroken" has ever had for the decade to
+> May 2026, and it simultaneously supplies the first dated condition under which
+> the claim would have to be narrowed: the August 19 severance has already
+> outlasted 128 of those 129 episodes. No claim withdrawn today.
 
 > **RE-CHECKED [2026-08-22]:** flagged stale against
 > [[wiki/people/annie-ulmer]] (2026-08-22). That page moved by one appended
@@ -28693,7 +29465,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -28832,6 +29604,17 @@ connections:
 
 
 # Totality Themes
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/concepts/attachment-model]] and
+> [[wiki/mind/synthesis/block-unblock-loop]] (both 2026-08-23). Both moved for
+> one reason: the 127/110 exit pair was re-derived from primary data as **129
+> episodes with 100% re-engagement**, median gap thirty-six seconds. This page
+> cites *"127 declared exits before any of them held for even a season"* — that
+> sentence is **strengthened, not affected**: the corrected record shows none of
+> them held for even 46 hours, which is a stronger form of the same claim. The
+> other `127` on this page is a 2012–2014 volume figure and is unrelated. No
+> claim withdrawn.
 
 > **RE-CHECKED [2026-08-22] — three premises moved by re-check blocks only.**
 > [[wiki/mind/synthesis/the-embedded-objective]],
@@ -30878,7 +31661,7 @@ aliases: ["Ally MBTI", "Ally ENTP", "Ally Lubin personality type", "Alexandra Lu
 status: active
 knowledge: earned
 date_created: 2026-08-22
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 importance: high
 tags: [personality-profile, forensic-analysis, relationships, mental-health]
 date_range_start: 2013-07-05
@@ -30930,6 +31713,17 @@ connections:
 ---
 
 # Ally Lubin — Cognitive Profile
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/concepts/the-cool-metric]] (2026-08-23), which gained a re-check
+> note with no claim change; nothing on this page depends on it. **One finding
+> elsewhere in this pass does bear on this page and it sharpens the parity
+> argument rather than disturbing it.** The retraction of the reply-latency
+> asymmetry (`RETRACTED.md` §`latency-9x-asymmetry`) establishes that Dan is the
+> slower correspondent corpus-wide and that the deficit in his primary
+> relationship was never response but **content** — which is the same shape as
+> this page's central finding that what Ally prices at zero is volume and what
+> she responds to is being met. No claim withdrawn.
 
 This page is the typology read on the woman at the centre of the longest
 attachment in the corpus, built from a tested instrument that arrived on
@@ -55068,7 +55862,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -55123,6 +55917,12 @@ connections:
 ---
 
 # The Unpapered Address
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/synthesis/the-deferred-audit]] (2026-08-23), which gained a
+> re-check note only — no deferral case, date or instance on it changed, and
+> nothing on it touches tenancy, the lien clock or the 463 arrangement. Nothing
+> here is affected and no claim is withdrawn.
 
 
 > **RE-CHECKED [2026-08-22] — a real change, and it narrows one claim.** Three
