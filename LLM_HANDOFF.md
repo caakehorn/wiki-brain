@@ -4,6 +4,62 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-23c] - Session: the operator named Libby, and the corpus had her married name all along
+
+* **Model:** Claude Code · **Branch:** `claude/journal-relationships-validation-nn9nm1` (restarted from main after #187 merged)
+* **Trigger:** operator testimony confirming Libby = Libby Titus, married to Donald Fagen, since deceased.
+
+**Read this first, because it is a procedural lesson and it has now cost
+something twice.** The `people/libby` page written hours earlier said *"No
+message names her surname."* **False.** The corpus contains *"the hourly rate was
+set by **Libby Fagen**"* (2024-08-14) and *"Aka where Libby and Donald live lol"*
+(2024-08-08). The search had been for `Titus` — the hypothesis — and the corpus
+files her under `Fagen`. **This is the ENTP-T lesson verbatim: a check scoped by
+the claim it is testing cannot disconfirm it.** Standing procedure from now on:
+when testing an identity, search every name the person could be filed under,
+including ones the hypothesis does not predict.
+
+**Confirmed and dated.** Death **13 October 2024, aged 77** — corroborated inside
+the corpus by Dan's *"Libby died"* (2024-10-16) and by his pasting
+`steelydan.com/news/libby-titus-fagen` (2024-11-01), which is the announcement
+public reporting cites. Capture filed at
+`raw/people/captures/2026-08-23_libby-titus-identification-confirmed.md`.
+
+**The page's tone was wrong and is rewritten, not patched.** It read the
+relationship as warm and open-ended through December. In fact **112 of 116
+messages are February to mid-August**, and August is a rupture: screamed at
+(08-06), then an unpaid-wages dispute with an **NDA request** and **three
+escalating demand letters Dan drafted** (08-01; 08-13 00:18; *"Final Request for
+Payment of Unpaid Wages"* 08-13 01:00), at **$75/hour** *"set by Libby Fagen"*.
+**No resolution is recorded. Last letter 13 August; she died 13 October.** The
+page says so in both directions and assumes neither.
+
+**New finding worth carrying forward:** those letters are the clearest instance
+in the corpus of the forensic register **pointed outward on somebody else's
+behalf** — itemised, dated, escalating, with an explicit statement of what remedy
+is not sought. New `instantiates` edge into `forensic-method`. Very few
+deployments in eleven years are for a third party's material benefit rather than
+to adjudicate a private grievance; this is one.
+
+**One contradiction opened, deliberately.** $75/hour in the letters against *"just
+over 3 hours today.. she paid me 500"* (2024-05-17). Both first-hand, neither
+retracted, three candidate readings on the page, **no verdict**. Do not resolve it
+by picking the tidier number.
+
+**Cascade done:** `annie-ulmer` (dates, rupture, death, changelog),
+`estate-money-spine` — **corrected against a line written earlier the same day**;
+the inbound side does not taper at year end, it is cut off by a death —
+`people/index`. The $119K–$123K outflow is untouched (payment-app derived).
+
+**STILL OUTSTANDING AND IT IS THE OPERATOR'S CALL:** whether `people/libby` goes
+into the portal's `wiki.locks.json`. She is now a named, identifiable, deceased
+public figure with surviving family, and the page carries her final illness, her
+household finances and a wage claim against her. Death removes the living-privacy
+objection and not the others. **Portal repo is out of this session's reach;
+merging publishes within the hour.** Flagged on the page, in the PR, and here.
+
+**Still 28 sage-closes**, untouched for a sixth pass.
+
 ### [2026-08-23b] - Session: five entries, and the Ulmer household was the biggest hole in the wiki
 
 * **Model:** Claude Code · **Branch:** `claude/journal-relationships-validation-nn9nm1` (PR #187, open)

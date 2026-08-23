@@ -106,7 +106,7 @@ related: []
 - [[wiki/people/lauryn-ashly]] — Uniontown-era friend; real-time grief over Rob Orange's 2014 death, and a declined 2020 arrangement solicitation.
 - [[wiki/people/lewis-strosnider]] — Uniontown vape-shop friend; free graphic design work, a shared drone business plan, a Mavic 2 sale still unresolved when Dan left for NYC.
 - [[wiki/people/lisa-durbin]] — Extended-family relation organizing holiday gatherings, 2017.
-- [[wiki/people/libby]] — the elderly Manhattan woman Annie worked for through 2024 as a paid assistant and carer, at $500 for three hours; the largest documented income source on Annie's side, and the page that falsifies the "unemployed for a full year" claim. Identification as Libby Titus inferred from Dan's own contemporaneous link.
+- [[wiki/people/libby]] — Libby Titus (Libby Fagen), songwriter and Donald Fagen's wife: the Manhattan client Annie assisted through the first half of 2024 while she was dying of brain cancer. Ended in a screaming match, an NDA request and three unanswered demand letters Dan drafted; she died 13 October 2024 with the balance unpaid. Falsifies the "unemployed for a full year" claim.
 - [[wiki/people/lisa-frank]] — Rick Frank's partner since at least December 2015; a decade of documented presence undiscovered until the 2026-08-11 correspondence-review pass.
 - [[wiki/people/lucas-thomas]] — Zac Shumar's friend; independent real-time eyewitness to the February 2017 house fire and arrest that sent Alexis Armel to prison.
 - [[wiki/people/lucie-dobbin]] — Longtime friend of Fran Coldren; recipient of Dan's fullest first-person account of Fran's death.

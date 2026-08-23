@@ -4437,3 +4437,77 @@ so.
 Four dependents went stale and all four were worked; `estate-money-spine` took a
 real `REVISED` block. Gates: lint 0 errors, connect 0, climb 0 and 0 stale,
 freshness in sync. 495 pages.
+
+## [2026-08-23] close | people | Libby is Libby Titus, she died in October 2024, and the corpus had her married name all along
+
+Operator testimony, verbatim: *"libby is actually libby titus, who has since
+passed away from the cancer referred to. she was married to steely dan singer
+donald fagen who is the 'donald' annie refers to in her messages."* Filed at
+`raw/people/captures/2026-08-23_libby-titus-identification-confirmed.md`. The
+page written hours earlier carried the identification as **inferred**; it is now
+confirmed, and going back to the dump with the answer in hand turned up
+substantially more than the answer.
+
+**The corpus corroborates on four independent points**, none of which the
+original pass found: *"Aka where Libby and Donald live lol"* (2024-08-08);
+*"the hourly rate was set by **Libby Fagen**"* (2024-08-14); Dan's ***"Libby
+died"*** (2024-10-16); and `https://www.steelydan.com/news/libby-titus-fagen`
+pasted into the thread (2024-11-01) — the same announcement public reporting
+cites, which gives the death as **13 October 2024, aged 77**, three days before
+Dan's message.
+
+**The original page asserted "No message names her surname." That was false, and
+the failure mode is one this repository has now recorded twice.** The search was
+for `Titus`, because `Titus` was the hypothesis; the corpus says `Fagen`. This is
+verbatim the ENTP-T lesson in `LLM_HANDOFF.md` — *a check scoped by the claim it
+is testing cannot disconfirm it* — and it has now cost a factual assertion on a
+live page within twenty-four hours of being written down. Worth treating as a
+standing procedure rather than an anecdote: **when testing an identity, search
+every name the person could be filed under, including the ones the hypothesis
+does not predict.**
+
+**An entire arc was missing, and it inverts the page's tone.** The first version
+read the relationship as warm and open-ended, dated *"February to December
+2024"*. In fact **112 of 116 messages fall between February and mid-August**, and
+August is a rupture: *"after I had gotten screamed at by Libby"* (08-06), then an
+unpaid-wages dispute in which Annie was **asked to sign an NDA**, heard nothing,
+and **Dan drafted three escalating demand letters** — 08-01, a follow-up at
+08-13 00:18, and *"Final Request for Payment of Unpaid Wages"* at 08-13 01:00,
+carrying *"I am not interested in seeking further remedy from Mr or Mrs Fagen"*
+and a rate of **$75/hour** *"set by Libby Fagen"*. Annie's NDA position is an
+explicit trade: *"in exchange for signing an NDA I would like to receive the
+unpaid wages."* The money was immediate — *"I may try to see if John will hold
+this weeks rent check… I am waiting for a check from Libby."*
+
+**Nothing records a resolution. The last letter is 13 August; she died 13
+October.** The page states that in both directions and assumes neither.
+
+**The letters are the corpus's clearest instance of the forensic register turned
+outward on somebody else's behalf** — dated correspondence, itemised
+hours-times-rate, an explicit statement of what remedy is *not* sought, a
+final-notice escalation on a fixed interval. Same instrument as
+[[wiki/mind/concepts/forensic-method]] describes him turning on his own
+relationships, and one of very few deployments in eleven years for a third
+party's material benefit. New `instantiates` edge.
+
+**One contradiction opened rather than closed.** The letters state **$75/hour**;
+2024-05-17 states *"just over 3 hours today.. she paid me 500"* — roughly $167/hr.
+Both first-hand, neither retracted. Recorded as a `> **CONTRADICTION:**` with
+three candidate readings and no verdict. `bin/wiki-digest` now counts 44
+contradictions, up from 43.
+
+**Cascade.** [[wiki/people/annie-ulmer]] corrected (dates, the rupture, the
+death, a changelog row); [[wiki/mind/synthesis/estate-money-spine]] corrected
+**against a line written earlier the same day** — the inbound side does not taper
+at year end, it is cut off by a death in October; `people/index` rewritten. The
+$119K–$123K outflow is untouched: payment-app derived, not employment-derived.
+
+**Sensitivity, restated because it changed.** She is now a named, identifiable,
+deceased public figure with surviving family, and the page carries her final
+illness, her household finances and a wage claim against her. Death removes the
+living-privacy objection and does not remove the others. **The page remains
+flagged as a portal-seal candidate and the operator's decision is still
+outstanding** — the portal repo is out of this session's reach and merging
+publishes within the hour.
+
+Gates: lint 0 errors, connect 0, climb 0 and 0 stale, freshness in sync.

@@ -16,8 +16,8 @@ this is the state of the thing.
 | Pages | 495 |
 | Pages touched in the last 14 days | 188 |
 | Pages reasoning from other pages (`synthesizes:`) | 43 |
-| Live contradictions | 43 |
-| Open gaps | 447 |
+| Live contradictions | 44 |
+| Open gaps | 448 |
 | Standing predictions | 49 |
 
 ## By domain
@@ -49,6 +49,7 @@ this is the state of the thing.
 **2026-08-23** — 40 pages
   - lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
   - ingest | people | five new entries, and the Ulmer household turns out to be the corpus's largest blind spot
+  - close | people | Libby is Libby Titus, she died in October 2024, and the corpus had her married name all along
 
 **2026-08-22** — 16 pages
   - answer | mind | what would make Dan happy — he answered it himself in 2025, and the record has already run the experiment

@@ -8,8 +8,8 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 43 |
-| Open gaps | 447 |
+| Live contradictions | 44 |
+| Open gaps | 448 |
 | Answered, awaiting ingest | 1 |
 | Standing predictions | 49 |
 
@@ -64,6 +64,7 @@ somewhere and has not yet found out where.
 - **[[wiki/people/gabe]]** — MAX_PRIME.md (a 2026-era document) refers to Gabe in the present tense as an ongoing, current fixture ("the food and the cat are always real"), which sits awkwardly against a November 2023 death. Possible explanations: the bootloader text is older than its last-edited date and was never updated after Gabe died, or the 
 - **[[wiki/people/jacob-bacharach]]** — Dan attributes the Virginia Avenue passage to ***The Bend of the World*** (2014) and cites pages 227–228. Bacharach's own February 2021 message names a different novel as the Uniontown book: *"it figures prominently in my Doorposts of Your House novel."* The reading record sides with Bacharach. Dan's Goodreads library 
 - **[[wiki/people/kristin]]** — an earlier version described her as "an ex-Brooklyn librarian living in Pittsburgh." The corpus supports neither. It supports pharmacy / DoorDash / courthouse work and an Akron, Ohio residence. She does say *"okay this is one of the things i miss most about living in new york"* on Facebook — so a New York period is pla
+- **[[wiki/people/libby]]** — The demand letters state **$75/hour**, set by Libby. But on 2024-05-17 Annie writes *"I was literally with Libby for just over 3 hours today.. she paid me 500"* — roughly $167/hour — and a week later invites Dan to guess the figure for four hours. Both are first-hand and neither is retracted. Possible readings: the rat
 - **[[wiki/people/sadie-harris]]** — earlier versions of this page and the member table on fayette-return both recorded Sadie as having *died* in Hopwood on 27 November 1997. The GEDCOM records no death place at all — only the date — and lists Hopwood as the **burial** place. Her last attested residence is Brownsville in 1993. The Hopwood association is r
 - **[[wiki/people/suzanne-frank]]** — A $200 cocaine spend on 2015-12-29 is **not** established as hers, and an earlier pass wrongly recorded it as such. The record has Annie saying *"And that $200 wasn't even your own"* (23:48) and Dan answering *"It was my money"* (23:50). The two lines conflict and the corpus does not settle them. Held open rather than 
 - **[[wiki/self/concepts/chatgpt]]** — This page and claude-code make incompatible claims about where an LLM's value sits. This page treats it as residing in the model's *willingness* — a register it will speak in, a class of question it will engage — which is why a guardrail change reads here as a capability loss and why the honesty standard is encoded as 
@@ -290,7 +291,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (167)
+### people (168)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
@@ -404,10 +405,11 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/kristin]]** — **No verification of the New York period** she references on Facebook.
 - **[[wiki/people/kristin]]** — **The second export**, `imessage_export_3307038747_20260624.csv` (2.58 MB, larger than the 2.41 MB canonical), has not been diffed against the primary. It may carry messages this analysis missed.
 - **[[wiki/people/kya-hansen]]** — The actual OnlyFans message history with Kya Hansen — which Dan believes may be extractable from a source not yet in the raw corpus — has not been recovered. Exact dates for the Reddit admin period, how the role began, and what (if anything) happened to the co
-- **[[wiki/people/libby]]** — 1. **When and how it ended.** 115 messages in 2024, one in 2025, and no closing event anywhere. Did Libby die, move, or simply stop calling? The operator can almost certainly answer in a sentence, and it dates the start of Annie's income collapse.
-- **[[wiki/people/libby]]** — 2. **What the total came to.** Individual payments are visible ($500 for three hours; an unstated figure for four) but no running total exists. The Venmo and Cash App records that establish the Dan→Annie flow would show the other direction if they were swept f
-- **[[wiki/people/libby]]** — 3. **Whether the identification is right.** One sentence from the operator — he sent the Tumblr link — settles it. If wrong, the two supports above need another explanation and this page needs a correction rather than an edit.
-- **[[wiki/people/libby]]** — 4. **The other job.** *"I'll be here 6 days a week"* names a second 2024 employer that appears nowhere in `wiki/work/` or on Annie's page. Unidentified.
+- **[[wiki/people/libby]]** — 1. **Was the balance ever paid?** The last letter is 2024-08-13 and she died 2024-10-13. Nothing in the corpus resolves it. The operator can answer in a sentence, and it is the last open fact about this relationship.
+- **[[wiki/people/libby]]** — 2. **How much was owed.** Every draft uses placeholders — *"The total amount is x (y hours at $75/hour)"*. The figure was never typed into the thread.
+- **[[wiki/people/libby]]** — 3. **The rate contradiction** above, unresolved.
+- **[[wiki/people/libby]]** — 4. **Was the NDA ever signed?** Raised twice in August, never mentioned again.
+- **[[wiki/people/libby]]** — 5. **The other 2024 job.** *"I'll be here 6 days a week"* names a second employer that appears nowhere in `wiki/work/` or on Annie's page. Still unidentified, and now the only part of her 2024 income the wiki cannot see at all.
 - **[[wiki/people/lindsay-carolla]]** — What Claire told Lindsay in April 2017, and whether it connects to anything else documented in the corpus around that date, is unknown.
 - **[[wiki/people/lisa-durbin]]** — Exact family relationship (aunt, cousin, family friend) is not stated in the thread itself.
 - **[[wiki/people/manuel]]** — Last name is not on file. A different, unrelated "Manuel" is referenced in passing in jack-rusko's 2017 thread — a different person from an earlier, unconnected era; not to be conflated with this contact.
