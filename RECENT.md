@@ -10,6 +10,7 @@ simply listed.
 
 ## 2026-08-23 — 40 pages
 
+- **Session log:** directive | people | the Annie record is closed — no further texts, no further narrative
 - **Session log:** lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
 - **Session log:** ingest | people | five new entries, and the Ulmer household turns out to be the corpus's largest blind spot
 - **Session log:** close | people | Libby is Libby Titus, she died in October 2024, and the corpus had her married name all along

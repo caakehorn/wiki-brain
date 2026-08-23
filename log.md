@@ -1,3 +1,38 @@
+## [2026-08-23] directive | people | the Annie record is closed — no further texts, no further narrative
+
+**Operator directive, safety-grounded:** no new Annie material enters the
+repository — no export, no metadata dump, no group-chat pull, no screenshot, and
+no new narrative, event, synthesis or typed-edge claim about her. The stated
+reason is the unpredictable nature of her situation and the apparent danger she
+is in. Only the operator can lift it.
+
+**The finding that made this a repository change rather than a note:** the wiki
+was actively instructing every future session to do the forbidden thing. The top
+row of `queue.md` read *"The NEXT export of the Annie 212 thread — CRITICAL —
+still the highest-value pending ingest"*, and `.claude/skills/annie-read-synthesis`
+existed for no other purpose than spreading a new Annie read batch across the
+wiki. A directive recorded only in prose would have lost to those on the next
+pass, by a session behaving correctly. Both are now closed and struck through,
+along with the July 4 email thread, the three-party group-chat export, the
+`annie_metadata_24h.csv` sourcing gap, the Annie-voice-account item, the
+Coles-accusation-origin question and the *"did the email to Annie's parents ever
+send?"* check. `corpus-read` keeps working on every other thread and refuses this
+one.
+
+**What did not change: any Annie page.** This is a stop, not a retraction. No
+prose rewritten, no claim withdrawn, no quotation pulled, no `date_modified`
+bumped. The record ends where it already ended — **2026-08-19 15:15:33** — and
+the wiki's position is that Dan has not spoken to Annie since the last date it
+records.
+
+**An export uploaded to this session was deliberately not ingested.** Range
+2026-02-24 → 2026-08-22. It was opened once, far enough to establish it ran past
+the wiki's last-contact date, and then left alone: not filed to `raw/`, not
+copied into the repository, not mined, nothing derived. Two sourcing gaps
+(`august-2026-unmasking`/`read-receipt-forensics` `sources:`, and the group-chat
+screenshot's inferred timestamp) are now permanent and are not to be "fixed" by a
+housekeeping pass.
+
 ## [2026-08-22] answer | mind | what would make Dan happy — he answered it himself in 2025, and the record has already run the experiment
 
 The third question the box has taken, asked by **An angel** at 00:58:29 and

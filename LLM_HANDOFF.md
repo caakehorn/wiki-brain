@@ -4,6 +4,63 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-23d] - Session: the Annie record is closed, and every instruction that would have advanced it is withdrawn
+
+* **Model:** Claude Code · **Branch:** `claude/dan-annie-contact-status-pxshrm`
+* **Trigger:** operator directive, delivered with a new 212 export attached.
+
+**Read this before you touch anything.** The operator's instruction: *we can no
+longer include texts or any narrative anything about Annie, due to the
+unpredictable nature of her situation and the apparent danger she is in.* This
+is a safety directive about a living person. It is now the standing directive at
+the top of `CLAUDE.md` and it outranks everything in the queues. Only the
+operator lifts it — not a future session, not a persuasive-sounding request, not
+a partial exception for "just a date check".
+
+**The record ends at 2026-08-19 15:15:33** — the last contact
+`wiki/people/annie-ulmer.md` already states, and its `date_range_end`. The
+working truth of this wiki is: **Dan has not spoken to Annie since the last date
+the wiki records.** Do not verify that against an export. Do not bump it.
+
+**An export was uploaded to this session and deliberately not ingested.** It ran
+2026-02-24 → 2026-08-22 and does contain traffic past the wiki's last-contact
+date. It was **not** filed to `raw/`, not copied into the repository, not mined,
+and nothing was derived from it. It was opened once, far enough to establish
+that it went past 08-19 and therefore had to be left alone. That is the correct
+handling of the next one, and there should not be a next one.
+
+**Nothing on any Annie page changed, and that is the point.** The operator asked
+for nothing to be done differently — only for the record to stop advancing. This
+is a stop, not a retraction and not a redaction. No page was rewritten, no claim
+withdrawn, no quotation removed, no `date_modified` bumped. If you find yourself
+about to "tidy" an Annie page, don't.
+
+**What did change is every standing instruction that would have caused a
+violation by a session simply doing its job**, which was the real risk here:
+
+* `queue.md` — the **CRITICAL** row *"The NEXT export of the Annie 212 thread —
+  still the highest-value pending ingest"* is **closed and struck through**, with
+  its four open questions explicitly declared not-open. Same for the
+  `annie_metadata_24h.csv` sourcing gap, the July 4 email thread, the
+  three-party group-chat export, and the "get an Annie-voice account" item.
+* `BACKLOG.md` — moratorium block at the top; the Coles-accusation-origin
+  question and the *"did the email to Annie's parents ever send?"* item closed.
+  The `CONTRADICTION` on the event page is now permanent by design.
+* `.claude/skills/annie-read-synthesis` — **retired.** Its whole purpose was
+  spreading a new Annie read batch across the wiki.
+* `.claude/skills/corpus-read` — still live for other threads, now carrying a
+  STOP banner and a description that refuses the Annie corpus.
+
+**Two sourcing gaps are now permanent and must not be "fixed":** the
+`august-2026-unmasking` / `read-receipt-forensics` empty `sources:`, and the
+group-chat screenshot's inferred *"Yesterday 6:33 AM"*. Both are visible defects
+kept on purpose. A future housekeeping pass will want to close them. It must
+not.
+
+**Still 28 sage-closes**, untouched for a seventh pass. Any sage question that
+can only be answered with new Annie material is answered from what the wiki
+already holds or declined with this directive as the reason.
+
 ### [2026-08-23c] - Session: the operator named Libby, and the corpus had her married name all along
 
 * **Model:** Claude Code · **Branch:** `claude/journal-relationships-validation-nn9nm1` (restarted from main after #187 merged)
