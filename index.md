@@ -9,7 +9,7 @@ The compiled second brain. Start here; each domain has its own index.
 | self | Identity, core biographical facts, digital footprint | 37 | [[wiki/self/index]] |
 | timeline | Life periods and discrete events, in order | 38 | [[wiki/timeline/index]] |
 | people | Every person with a role in the story | 169 | [[wiki/people/index]] |
-| mind | Beliefs, ideology, values, psychological profile | 65 | [[wiki/mind/index]] |
+| mind | Beliefs, ideology, values, psychological profile | 66 | [[wiki/mind/index]] |
 | work | Career, projects, business history | 13 | [[wiki/work/index]] |
 | interests | Music production, favorites, media, taste profile | 139 | [[wiki/interests/index]] |
 | health | Physical and mental health history | 4 | [[wiki/health/index]] |

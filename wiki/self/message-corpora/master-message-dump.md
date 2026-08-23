@@ -3,7 +3,7 @@ domain: self
 page_type: report
 status: archived
 date_created: 2026-06-22
-date_modified: 2026-08-18
+date_modified: 2026-08-23
 sources: ["raw/self/dox-scan/all_imessages_complete_dump.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/annie_all_time_logs.csv", "raw/self/message-csv/MASTER_DUMP_PART_1_ARCHAIC.csv", "raw/self/message-csv/imessage_2124702449_both_all_now.csv", "raw/self/message-csv/imessage_3307038747.csv", "raw/self/message-csv/* (37 total CSVs)", "raw/self/dox-md/operating_manual.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/facebook/facebook-ihatedanfrank/messages/", "raw/self/dox-md/_ⒺⓍⓉⓇⒶⒸⓉ ⓂⒺⓈⓈⒶⒼⒺⓈ Pinned chat.md", "raw/self/dox-md/Gemini-_18.md"]
 related: ["wiki/self/context-core", "wiki/self/twitter", "wiki/self/youtube-watch-history", "wiki/self/favorites", "wiki/mind/concepts/forensic-method", "wiki/mind/concepts/contact-gini", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/self/facebook/messages", "wiki/timeline/events/timeline", "wiki/timeline/periods/2015-2016-annie-relationship-start", "wiki/people/annie-ulmer"]
 tags: [digital-footprint, nyc-era, relationships, financial-stress, trauma-bond]
@@ -29,6 +29,9 @@ connections:
   - page: wiki/people/trinity-st-clair
     type: evidences
     claim: "The direct thread (+18186510883, 20 messages) is too ambiguous to settle whether the tryst happened — two cancellations and a delay — and it took a separate message to Eric Jester in the same dump to confirm that it did."
+  - page: wiki/mind/profile/texting-deviance-audit
+    type: contains
+    claim: "The turn-level structural cut of these corpora, computed from imessage_export_deep_20260813.csv because it is the only sender-tagged file reaching past 2025 — and the pass that retires this page's 'avg ~8.36 words/message' Voice Patterns line as a 2015-19 baseline against a 2026 figure of 15.03."
 ---
 
 
@@ -108,6 +111,10 @@ Top handles by volume (approximate counts; Annie dual handles dominant):
 
 ## Voice Patterns (Stylometric from CSVs + operating_manual + core)
 - Burst cadence confirmed across dumps: short phrasal messages, 3-7 discrete bursts per exchange; avg ~8.36 words/message.
+  > **CORRECTED [2026-08-23]:** the ~8.36 figure is a **2015-19 baseline, not a constant.** Recomputed per era from the
+  > sender-tagged deep export: 8.34 (2015-19), 9.31 (2020-24), 11.71 (2025), **15.03 (2026)**. The "3-7 discrete bursts"
+  > description also overstates it — his mean is 1.88 messages per turn in 2015-19 and 2.36 in 2026, with 3+ message turns
+  > running 19.6% of the total. See [[wiki/mind/profile/texting-deviance-audit]].
 - Lowercase dominant (80%+); ALL-CAPS for emphasis peaks (9k+ instances noted core).
 - Ellipsis `...` as mid-thought breath; no terminal periods often; run-on with commas/ellipses.
 - Lexical diversity high: 23k+ unique words.

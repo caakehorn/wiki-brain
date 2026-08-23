@@ -4511,3 +4511,59 @@ outstanding** — the portal repo is out of this session's reach and merging
 publishes within the hour.
 
 Gates: lint 0 errors, connect 0, climb 0 and 0 stale, freshness in sync.
+
+## [2026-08-23] report | mind | texting deviance audit — the operator's model of his own texting was two-thirds wrong
+
+Commissioned to characterise Dan's abnormal texting before building a brevity
+tool. Measured turn-level structure across 183,787 sender-tagged rows
+(`imessage_export_deep_20260813.csv`, the only export reaching past 2025),
+cross-checked against the 217,573-record canonical dump.
+
+**The operator's three-part self-description tested.** "Staccato splitting into
+2-3 messages per sentence" is **falsified for the current era**: 68.5% of his
+2026 burst-internal messages carry their own subject and verb against his
+interlocutors' 55.1%, and the STACCATO mode is 8.5% of his turns against their
+10.5% — he does it *less* than the norm. The control that killed it: his FIRST
+messages in a turn start lowercase at 31.8% and his continuations at 33.5%, so
+the 12x lowercase gap versus other people is a global habit, not a
+sentence-fragmentation marker. "10+ short paragraphs" is real but negligible —
+27 messages in 2025-26, 0.08% of output.
+
+**What is actually deviant is a mode he did not name.** STACKED-ESSAY (3+
+consecutive messages, median 13+ words each) is 11.2% of his 2026 turns and
+**44.3% of everything he says**, against 1.0%/5.3% for his interlocutors. It has
+quadrupled since 2015-19 and it has *substituted* for the short reply, not added
+to it: SOLO-SHORT fell from 18.8% of his words to 7.3%.
+
+**The escalation is recent and accelerating.** Words-per-turn ratio against
+same-year interlocutors: 1.23x (2015-19), 1.04x (2020-24), 1.69x (2025),
+**3.05x (2026)**. Not a composition artifact — held to Annie's NYC handle alone
+it runs 2.40x (2025) to 3.65x (2026) with her side flat. The eleven-year delivery
+thread is the control at 3.2-4.3 words/turn and zero 50-word messages: the
+capacity for brevity is intact, the channel is what varies.
+
+**It costs him, monotonically.** Answer rate by turn size peaks at 11-20 words
+(93.8%) and falls to 54.7% above 200; words returned per word sent falls 3.53x to
+0.16x. Ending on a question does **not** rescue a long turn — 86.1% vs 91.4% at
+21-60 words, i.e. negative lift. Silence lengthens him (23.3 words/turn after
+<1 min of quiet, 49.2 after 2h-1day) and length produces silence, closing the
+loop. The 03:00 hour produces 50+ word messages at 7.61% against 13:00's 1.02%.
+
+**Nine explicit complaints from four people, 2018-2026**, the last five days
+before the export ends: *"I can't ready these paragraphs upon paragraphs"*
+(2026-08-08), *"Do you not understand how overwhelming it is getting paragraph
+after paragraph. I have expressed this to you before Dan"* (2026-02-19), *"I cant
+read any of that"* (2025-09-01), *"Summarize it"* (2025-12-08).
+
+**Two standing wiki claims retracted.** `linguistic-profile` carried
+"post-graduate (16th grade+)" readability and "99th percentile lexical
+diversity." Measured: **Flesch-Kincaid 2.08 (2015-19) to 4.00 (2026)**, and TTR
+0.0509 against interlocutors' 0.0544 on equal 200,000-token samples — marginally
+*less* diverse than the people answering him. Both trace to the commissioned
+stylometric analyses; no control group was ever used. What survives, and is
+larger than claimed, is syntactic complexity: 10.83 words/sentence against 5.62,
+**1.93x**, the single largest lexical deviation in the corpus.
+
+New page `wiki/mind/profile/texting-deviance-audit`; corrections written back to
+`linguistic-profile`, `master-message-dump`, and edges into `voice-modes`,
+`message-circadian-latency`, `forensic-method`.
