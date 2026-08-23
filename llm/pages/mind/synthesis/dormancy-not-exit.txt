@@ -6,7 +6,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -86,6 +86,30 @@ sage_pending: 2026-08-21
 ---
 
 # Dormancy, Not Exit
+
+> **RE-CHECKED [2026-08-23] — flagged stale against
+> [[wiki/mind/synthesis/the-unbroken-bond]] (2026-08-23), and the pass that moved
+> it also produced the number this page has always needed.** That page gained a
+> re-check note; nothing on it was withdrawn. The material development is
+> elsewhere in the same pass: the severance base rate is now derived from primary
+> data rather than inferred — **129 declarations across the merged Annie corpus,
+> 128 of 128 resumed, median gap thirty-six seconds, all-time maximum 46 hours**
+> ([[wiki/mind/synthesis/the-rescue-premise]] Part I½).
+>
+> **This is the strongest evidence this page's thesis has ever had.** "Dormancy,
+> not exit" predicts that declared endings produce pauses rather than
+> terminations, and the primary record now shows a decade of declared endings
+> producing a median pause of under a minute and never once exceeding two days.
+> Nothing here is withdrawn; the claim is upgraded from a reading to a
+> measurement.
+>
+> **And it supplies the falsifier this page lacked.** Dormancy is
+> unfalsifiable while every silence is finite and short. Against a hard
+> historical ceiling of 46 hours, two observations now sit outside the
+> distribution — the 52-day June silence (27×, and it still broke) and the
+> August 19 severance, which passed the ceiling on 2026-08-21 and is running. A
+> silence that clears 52 days would be the first datum this page could not
+> absorb.
 
 > **RE-CHECKED [2026-08-22]:** flagged stale against
 > [[wiki/places/155-virginia-ave]] (2026-08-22). That page's change concerns the

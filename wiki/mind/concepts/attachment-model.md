@@ -3,7 +3,7 @@ domain: mind
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md
   - raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md
@@ -254,6 +254,28 @@ settled. Neither figure has been re-derived directly from
 `all_imessages_complete_dump.txt`; both are dossier arithmetic. A future
 pass with `bin/mine-messages` against the raw dump would settle which
 count (if either) is correct.
+
+> **RESOLVED [2026-08-23], and both halves favour the dossiers' corrected
+> reading.** Dan-sent severance language — blocking declarations, *goodbye*,
+> *I'm done / we're done / it's over*, *never contact me again* — across the
+> **95,067-row merged Annie corpus** (2015-11-28 → 2026-05-28) returns 258
+> messages collapsing to **129 distinct episodes** once hits within 24 hours are
+> treated as one declaration. **129 against the dossiers' 127, by an independent
+> method**, which corroborates the count this page had doubted rather than
+> undermining it. And of the 128 episodes with a following message inside the
+> corpus, **all 128 resumed — 100%, median gap thirty-six seconds, all-time
+> maximum 46 hours.** The 110-of-127 (87%) figure carried on
+> [[wiki/mind/synthesis/block-unblock-loop]] and
+> [[wiki/mind/synthesis/attachment-trauma-bond]] is withdrawn.
+>
+> **This is the strongest quantitative support the no-counter-rule architecture
+> has ever had, and it recategorises the behaviour it measures.** A system that
+> cannot generate a terminating signal predicts that declared exits terminate
+> nothing — and the primary record shows 129 declarations producing a median
+> silence of under a minute. That is not weak resolve repeatedly overcome. On
+> this evidence the severance language is not severance language at all: it is a
+> rung on the escalation ladder ([[wiki/mind/concepts/reassurance-architecture]]),
+> and thirty-six seconds is what a check-in looks like when it gets answered.
 
 **The 299-affirmation / 0-severance-signal pairing remains internally
 asymmetric in its evidentiary weight**, and that asymmetry is worth

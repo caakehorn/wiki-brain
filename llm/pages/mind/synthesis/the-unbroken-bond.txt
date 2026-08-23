@@ -6,7 +6,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -55,6 +55,18 @@ sage_pending: 2026-08-21
 ---
 
 # The Unbroken Bond
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/concepts/chaos-preference]] (2026-08-23), which gained a re-check
+> note and no claim change. Nothing here is affected by that page. **Separately
+> and more materially, the base rate this page's thesis lives or dies on has now
+> been derived** — 129 severance episodes, 100% re-engagement, median gap
+> thirty-six seconds, all-time maximum 46 hours
+> ([[wiki/mind/synthesis/the-rescue-premise]] Part I½). That is the strongest
+> quantitative support "the bond is unbroken" has ever had for the decade to
+> May 2026, and it simultaneously supplies the first dated condition under which
+> the claim would have to be narrowed: the August 19 severance has already
+> outlasted 128 of those 129 episodes. No claim withdrawn today.
 
 > **RE-CHECKED [2026-08-22]:** flagged stale against
 > [[wiki/people/annie-ulmer]] (2026-08-22). That page moved by one appended

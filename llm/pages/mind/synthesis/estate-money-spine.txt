@@ -5,7 +5,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -73,6 +73,34 @@ connections:
 ---
 
 # The Estate / Money Spine
+
+> **REVISED [2026-08-23] — the spine gains a second direction it has never
+> recorded.** Flagged stale against [[wiki/people/annie-ulmer]] and
+> [[wiki/people/rick-frank]] (both 2026-08-23). The Rick change is an alias
+> finding with no capital content and nothing here moves for it. The Annie change
+> does bear on this page.
+>
+> **Annie held paid work through most of 2024** — personal assistance and care for
+> [[wiki/people/libby|Libby]], 116 messages February to December, at a documented
+> rate of *"just over 3 hours today.. she paid me 500"* (2024-05-17) — **on top of
+> a second six-day-a-week job.** The standing account that she was unemployed for
+> a full year after the 2023 firing is wrong for that year.
+>
+> **No figure on this page changes and the headline is untouched.** The
+> **$119K–$123K net outflow** is derived from Cash App and Venmo records, not from
+> any assumption about her employment, so it stands exactly as computed. What
+> changes is the *interpretation* this page has invited: the spine reads as a
+> single-earner system draining in one direction, and for 2024 specifically that
+> is not what the record supports. The inbound side has simply never been swept —
+> the same payment-app exports that establish the outflow would show any
+> Annie→Dan flow if anyone looked, and nobody has.
+>
+> **One forward-dated addition.** The Libby income stops at the end of 2024 and
+> the next documented financial event on her side is *"I got the letter I was
+> denied unemployment"* (2025-03-31). That places the start of her income collapse
+> in **March 2025**, inside the window this page currently treats as Dan's
+> collapse alone. Recorded as a new gap rather than folded into the timeline,
+> because no amount is attached to it.
 
 > **RE-CHECKED [2026-08-22]:** flagged stale against
 > [[wiki/places/337-saratoga-drive]] (2026-08-22). That page gained one dated row

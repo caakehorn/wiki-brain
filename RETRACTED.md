@@ -233,3 +233,58 @@ the same day.
   ]
 }
 ```
+
+---
+
+## `latency-9x-asymmetry` — "a 9× reply-latency asymmetry with Annie" / "Dan broadcasting into a slow or silent void"
+
+Retracted 2026-08-23. `wiki/mind/synthesis/message-circadian-latency.md` opened
+with *"a 9× reply-latency asymmetry with Annie"* — Dan at 1.0 min outbound
+against 9.0 min inbound, n = 31,612 — and generalised it to *"Dan's outbound
+responsiveness is uniform and near-instant across every relationship… everything
+else is Dan broadcasting into a slow or silent void."*
+
+**The outbound half replicates exactly and the inbound half does not.** Pairing
+every message with the next opposite-direction message, uncapped, over the
+2015–2019 Annie handle returns Dan → Annie median **60.0 s** at n = 31,177 —
+the page's 1.0 min and its n to within 1.4% — and Annie → Dan median **32.0 s**,
+not 9.0 min. Under a flip-based method on the whole-corpus file (181,585 rows)
+Dan is slower again: **32.0 s against 25.0 s**. Dan is the slower correspondent
+in eight of ten per-contact exports, in the merged Annie corpus, and per-year in
+every year from 2015 to 2026.
+
+The likely cause is named on the page itself: the master dump's known
+direction-field bug. The page states it used `LEVIATHAN_FULL_CORPUS.csv` as
+ground truth, but that file is at `/Volumes/MUSIC/PHASE B RAW/` and is not in
+the repository, so the original figure cannot be re-checked and every on-disk
+file contradicts it.
+
+**The peripheral-contact rows are not retracted** — Dan genuinely does answer
+marginal contacts far faster than they answer him. What is retracted is the
+Annie figure, the 9× headline, and the "void" generalisation built on it.
+
+```json
+{
+  "id": "latency-9x-asymmetry",
+  "claim": "Annie (and people generally) replied to Dan far more slowly than he replied to them — a 9× reply-latency asymmetry — leaving him broadcasting into a slow or silent void.",
+  "patterns": [
+    "9\\s*[x×]\\s*reply[- ]latency asymmetry",
+    "reply[- ]latency asymmetry with annie",
+    "broadcasting into a (?:slow|silent|slow or silent) void",
+    "outbound responsiveness is uniform and near-instant across every relationship"
+  ],
+  "replacement": "Dan is the slower correspondent: 32.0 s against 25.0 s corpus-wide (flip method, 181,585 rows), and Annie answered faster than him in every year from 2015 to 2026. The Annie channel is the one relationship that answered him at or above his own speed; the deficit was never response, it was content (median 46 chars from Dan against 18 from Annie in the final month).",
+  "reason": "The inbound half of the pair does not reproduce from any on-disk export under either of two methods, while the outbound half reproduces exactly — indicating the master dump's known direction-field bug corrupted the inbound measurement. The cited ground-truth file is not in the repository.",
+  "retracted": "2026-08-23",
+  "source": "Re-derivation across ten per-contact exports plus the 181,585-row whole-corpus file, two methods (flip-based and every-message-pairing), plus a per-year check on the 2015-2019 Annie handle.",
+  "documented_on": [
+    "wiki/mind/synthesis/message-circadian-latency",
+    "wiki/mind/concepts/reassurance-architecture"
+  ],
+  "affected_pages": [
+    "wiki/mind/synthesis/message-circadian-latency",
+    "wiki/mind/concepts/reassurance-architecture",
+    "wiki/mind/concepts/contact-gini"
+  ]
+}
+```

@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -55,6 +55,13 @@ connections:
 ---
 
 # The Configured Body
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/interests/food-and-diet]] and [[wiki/mind/synthesis/the-deferred-audit]]
+> (both 2026-08-23). **Both moved only by acquiring re-check notes** in a
+> cascade that began with a music-domain corpus search and an exit-declaration
+> re-derivation; no dietary, chemical, somatic or deferral claim on either page
+> changed. Nothing here is affected and no claim is withdrawn.
 
 > **RE-CHECKED [2026-08-22] — premise moved by a re-check block only.**
 > [[wiki/health/cocaine]] moved on 2026-08-22 solely by gaining a `RE-CHECKED`

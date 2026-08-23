@@ -8,7 +8,7 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/self/dox-md/ADDICTION_PROFILE.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -87,6 +87,14 @@ changelog:
 ---
 
 # Cocaine
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/synthesis/dan-annie-fallout-verdict]] (2026-08-23), which moved on
+> one arithmetical point only — the exit-declaration relapse rate corrected from
+> 87% to **100%** (129 episodes, median gap thirty-six seconds). **This page
+> carries no exit-cycle figure**, and the verdict's supply and procurement
+> findings, which are what this page reasons from, are unchanged. Nothing
+> affected, no claim withdrawn.
 
 > **RE-CHECKED [2026-08-22]:** flagged stale against
 > [[wiki/legal/2015-possession-arrest]] (2026-08-22). That page moved by exactly

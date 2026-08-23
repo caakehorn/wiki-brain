@@ -5,7 +5,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -81,6 +81,24 @@ connections:
 
 
 # Attachment Trauma Bond and Aura Illness
+
+> **REVISED [2026-08-23] — the 110-of-127 pair this page reasons from is
+> withdrawn, and the replacement strengthens the thesis.** Flagged stale against
+> [[wiki/mind/concepts/attachment-model]] (2026-08-23), which resolved its own
+> long-standing gap on this exact figure. Dan-sent severance language across the
+> 95,067-row merged Annie corpus (2015-11-28 → 2026-05-28) returns 258 messages
+> collapsing to **129 episodes** — corroborating the 127 — of which **128 of 128
+> resumed: 100%, median gap thirty-six seconds, all-time maximum 46 hours.**
+> Wherever this page says *"127 exit declarations, 110 re-engagements,"* read
+> **129 declarations, 100% re-engagement**; the 87% relapse rate never existed.
+>
+> **Every claim on this page survives and two get sharper.** Intermittent
+> reinforcement predicts a relapse rate at or near ceiling, and 100% is ceiling —
+> 87% was the weaker number for this argument, not the stronger one. And the
+> confession-trap section is improved by the median rather than the count: an
+> exit declaration answered inside thirty-six seconds is not a trap being
+> escaped and re-entered 110 times. It is a bid that was never an exit, which is
+> what the trap predicts. Nothing withdrawn beyond the arithmetic.
 
 > **RE-CHECKED [2026-08-22]:** flagged stale against
 > [[wiki/people/suzanne-frank]] (2026-08-22), which moved by a `RE-CHECKED`

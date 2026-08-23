@@ -10,219 +10,59 @@ and move on. A considered non-synthesis is also knowledge.
 
 Mark entries `CLIMBED -> <page>` or `REJECTED — <reason>` as you work.
 
-**[2026-08-02] Cluster 26, registered by hand and deliberately NOT climbed
-yet — the unaimable engine.** Members: `wiki/mind/concepts/acquisition-drive`
-(mind), `wiki/timeline/events/the-fall-of-fran` (timeline),
-`wiki/timeline/events/uniontown-hospital-vape-alarm` (timeline),
-`wiki/timeline/events/fran-death-vigil` (timeline),
-`wiki/legal/2015-retail-theft-arrest` (legal),
-`wiki/mind/profile/big-five-psychometrics` (mind). Four domains.
-
-The candidate sentence, which does pass SYNTHESIS_SPEC step 3's test: *every
-documented instance of Dan absorbing large cost to complete something is a goal
-he generated himself, and no instance of comparable cost absorbed for an
-externally assigned goal exists in the corpus.* It is true of every member,
-false of the corpus generally (most people's costliest efforts are assigned —
-jobs, obligations, dependents), and falsifiable by a single counterexample from
-the employment record. It would also resolve a live disagreement rather than
-merely observe one: `fran-coldren` reads the vigil as counter-evidence to
-Altruism at the 1st percentile, and this rule says altruism was never the
-variable in either direction.
-
-**[2026-08-02] CLIMBED, and the audit that earned it falsified the rule.**
-The specified work below was done — the employment and abandoned-project
-records were audited for an externally assigned goal pursued at comparable
-cost. **Two were found, and both dwarf the Fran vigil:** 41 months at
-`wiki/work/au-zaatar` and 43 at `wiki/work/nemacolin-caddying` against six
-months of caregiving. The candidate sentence is therefore false as written.
-
-What replaced it is better and is climbed to
-**[[wiki/mind/synthesis/the-embedded-objective]]**: assignment is a *container*,
-not a competing category — Dan sustains a long assigned commitment by installing
-a private objective inside it, and the commitment ends when that objective is
-destroyed rather than when the work gets hard. `bfs-foods` (~1 month, no payload,
-ended at the first assigned demand) and `caviar-courier` (nothing to embed in,
-12 months of availability with no tenure) are the controls. The abandoned-project
-half produced a second correction the original rule did not anticipate: MNEME,
-the DANMODEL eval and the AI video essays were all entirely self-set and none
-completed, so **self-origination is necessary for the engine to fire and not
-sufficient for it to finish.**
-
-**Why it was queued rather than written.** `acquisition-drive` is one day old and
-rests on a single operator capture. CLAUDE.md's rule is to climb when a cluster
-has survived two or more ingests; stacking a synthesis on a concept page written
-the same afternoon would be the write-only anti-pattern with extra steps. The
-work that would earn the climb is specific and cheap: **audit the employment
-record and the abandoned-project record for any assigned goal pursued at
-comparable cost.** If none exists, climb it. If one does, the rule comes back
-narrower, which is better.
-
-**[2026-08-02] Doctrine climb, taken outside the queue.** The miner scores
-clusters of *ground* pages, so it structurally cannot surface the highest-value
-cluster available: the **junction pages read across each other**, which is step 6
-of the STRATEGY.md core loop. Four T2/T3 pages — `vertical-authority-skepticism`,
-`the-cool-metric`, `chaos-preference`, `single-channel` — turned out to describe
-one sorting operation in four vocabularies, each derived from a different
-evidence base, none citing another. Climbed to
-**[[wiki/mind/synthesis/the-deferred-audit]]**. Consider teaching
-`bin/wiki-climb candidates` to mine T2+ clusters as a separate section; the
-ground-level miner will never propose one.
-
 | # | score | domains | members |
 |---|---|---|---|
-| 1 | 14.15 | mind, people, self | [[wiki/mind/concepts/phenomenology-lens]] · [[wiki/people/alexis-armel]] · [[wiki/people/annie-ulmer]] · [[wiki/self/context-core]] |
-| 2 | 13.95 | mind, people, self, work | [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/people/jacob-bacharach]] · [[wiki/people/max]] · [[wiki/self/context-core]] · [[wiki/work/tech/max-framework/overview]] | **CLIMBED -> [[wiki/mind/synthesis/instrument-is-subject]]**
-| 3 | 13.95 | mind, people, self, work | [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/people/max]] · [[wiki/self/context-core]] · [[wiki/work/tech/grok-build/overview]] · [[wiki/work/tech/max-framework/overview]] | **CLIMBED -> [[wiki/mind/synthesis/instrument-is-subject]]**
-| 4 | 13.50 | people, self | [[wiki/people/alexis-armel]] · [[wiki/people/annie-ulmer]] · [[wiki/self/context-core]] · [[wiki/self/gemini-activity/gemini-activity]] |
-| 5 | 13.50 | people, places | [[wiki/people/alexis-armel]] · [[wiki/people/danielle-onesi]] · [[wiki/places/424-bedford-ave]] | **CLIMBED -> [[wiki/mind/synthesis/dormancy-not-exit]]**
-| 6 | 13.50 | interests, timeline | [[wiki/interests/music/aliases/mogzart]] · [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · [[wiki/timeline/periods/2017-poverty-floor]] |
-| 7 | 13.30 | people, self, timeline | [[wiki/people/annie-ulmer]] · [[wiki/people/eli]] · [[wiki/self/chats/gemini-07]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/periods/2025-collapse]] |
-| 8 | 12.95 | mind, people, self | [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/people/eli]] · [[wiki/self/chats/danfrank-isms-pinned]] · [[wiki/self/context-core]] · [[wiki/self/gemini-activity/gemini-activity]] | **CLIMBED -> [[wiki/mind/synthesis/instrument-is-subject]]**
-| 9 | 12.90 | people, self, timeline | [[wiki/people/alexis-armel]] · [[wiki/self/facebook]] · [[wiki/timeline/periods/2010s]] |
-| 10 | 12.90 | people, self, timeline | [[wiki/people/annie-ulmer]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · [[wiki/timeline/periods/2017-poverty-floor]] |
-| 11 | 12.90 | interests, mind, timeline | [[wiki/interests/stand-up-comedy]] · [[wiki/mind/synthesis/interests-as-era-markers]] · [[wiki/timeline/events/teen-concert-years]] |
-| 12 | 12.90 | people, self, timeline | [[wiki/people/alexis-armel]] · [[wiki/people/annie-ulmer]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/periods/2015-2016-annie-relationship-start]] |
-| 13 | 12.90 | interests, mind, timeline | [[wiki/interests/video-games]] · [[wiki/mind/synthesis/interests-as-era-markers]] · [[wiki/timeline/events/teen-concert-years]] |
-| 14 | 12.80 | interests, mind | [[wiki/interests/music/aliases/gripnotic]] · [[wiki/interests/music/aliases/mogzart]] · [[wiki/interests/music/aliases/sloppp]] · [[wiki/interests/music/overview]] · [[wiki/mind/synthesis/totality-themes]] | **CLIMBED -> [[wiki/mind/synthesis/alias-as-periodization]]**
-| 15 | 12.55 | mind, people, timeline | [[wiki/mind/synthesis/bond-switch-2015]] · [[wiki/people/alexis-armel]] · [[wiki/timeline/periods/2010s]] · [[wiki/timeline/periods/uniontown-return-2013-2015]] |
-| 16 | 12.55 | mind, people, self | [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/mind/synthesis/totality-themes]] · [[wiki/people/annie-ulmer]] · [[wiki/self/chats/gemini-21]] · [[wiki/self/gemini-activity/gemini-activity]] | **CLIMBED -> [[wiki/mind/synthesis/instrument-is-subject]]**
-| 17 | 12.55 | mind, self, work | [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/self/context-core]] · [[wiki/work/tech/grok-build/overview]] · [[wiki/work/tech/imessage-tooling/overview]] · [[wiki/work/tech/max-framework/overview]] | **CLIMBED -> [[wiki/mind/synthesis/instrument-is-subject]]**
-| 18 | 12.30 | people, self, timeline, work | [[wiki/people/annie-ulmer]] · [[wiki/self/chats/gemini-07]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/periods/2025-collapse]] · [[wiki/work/au-zaatar]] |
-| 19 | 12.30 | people, self, timeline, work | [[wiki/people/annie-ulmer]] · [[wiki/self/chats/gemini-18]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/periods/2025-collapse]] · [[wiki/work/au-zaatar]] |
-| 20 | 12.30 | people, self, timeline, work | [[wiki/people/annie-ulmer]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/timeline/periods/2025-collapse]] · [[wiki/work/au-zaatar]] |
-| 21 | 12.30 | people, self, timeline, work | [[wiki/people/annie-ulmer]] · [[wiki/people/valeria-iglesias-cid]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/work/au-zaatar]] |
-| 22 | 12.25 | interests, timeline | [[wiki/interests/stand-up-comedy]] · [[wiki/interests/the-office]] · [[wiki/timeline/events/teen-concert-years]] |
-| 23 | 12.20 | mind, people, self | [[wiki/mind/synthesis/ancestral-dialectic]] · [[wiki/people/david-j-frank]] · [[wiki/people/morley-frank]] · [[wiki/people/rick-frank]] · [[wiki/people/sadie-harris]] · [[wiki/self/ancestry]] | **CLIMBED -> [[wiki/mind/synthesis/fayette-return]]**
-| 24 | 12.00 | interests, self | [[wiki/interests/music/overview]] · [[wiki/self/context-core]] · [[wiki/self/overview]] |
-| 25 | 12.00 | interests, mind | [[wiki/interests/music/aliases/gripnotic]] · [[wiki/mind/concepts/contact-gini]] · [[wiki/mind/synthesis/totality-themes]] | **CLIMBED -> [[wiki/mind/synthesis/single-channel]]**
+| 1 | 12.90 | people, self, timeline | [[wiki/people/annie-ulmer]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · [[wiki/timeline/periods/2017-poverty-floor]] |
+| 2 | 12.20 | mind, people, self, timeline, work | [[wiki/mind/concepts/forensic-method]] · [[wiki/people/annie-ulmer]] · [[wiki/self/chats/gemini-07]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] · [[wiki/work/au-zaatar]] |
+| 3 | 12.20 | mind, people, places, self, timeline | [[wiki/mind/synthesis/spatial-behavior]] · [[wiki/people/annie-ulmer]] · [[wiki/places/307-e-76th-st]] · [[wiki/self/location-history]] · [[wiki/timeline/master-timeline]] |
+| 4 | 12.20 | mind, people, places, self, timeline | [[wiki/mind/synthesis/spatial-behavior]] · [[wiki/people/annie-ulmer]] · [[wiki/places/337-saratoga-drive]] · [[wiki/self/location-history]] · [[wiki/timeline/master-timeline]] |
+| 5 | 11.20 | mind, people, self, timeline | [[wiki/mind/concepts/forensic-method]] · [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/people/annie-ulmer]] · [[wiki/people/eli]] · [[wiki/self/chats/gemini-07]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] |
+| 6 | 11.20 | people, self, timeline, work | [[wiki/people/dimitri]] · [[wiki/self/chats/gemini-07]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] · [[wiki/work/au-zaatar]] |
+| 7 | 11.20 | people, self, timeline, work | [[wiki/people/annie-ulmer]] · [[wiki/self/chats/gemini-18]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] · [[wiki/timeline/periods/2025-collapse]] · [[wiki/work/au-zaatar]] |
+| 8 | 11.20 | people, self, timeline, work | [[wiki/people/annie-ulmer]] · [[wiki/self/chats/gemini-07]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] · [[wiki/timeline/periods/2025-collapse]] · [[wiki/work/au-zaatar]] |
+| 9 | 11.20 | mind, people, self, timeline | [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/people/eli]] · [[wiki/self/chats/danfrank-isms-pinned]] · [[wiki/self/context-core]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] |
+| 10 | 11.20 | mind, people, self, timeline | [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/people/annie-ulmer]] · [[wiki/people/eli]] · [[wiki/self/chats/gemini-18]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] |
+| 11 | 11.20 | mind, people, self, timeline | [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/people/annie-ulmer]] · [[wiki/people/eli]] · [[wiki/self/chats/gemini-07]] · [[wiki/self/context-core]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] |
+| 12 | 10.90 | interests, mind, timeline | [[wiki/interests/favorites/music/artists/fall-out-boy]] · [[wiki/interests/the-office]] · [[wiki/mind/synthesis/music-as-identity]] · [[wiki/timeline/events/teen-concert-years]] |
+| 13 | 10.90 | people, self, timeline | [[wiki/people/annie-ulmer]] · [[wiki/self/facebook]] · [[wiki/self/facebook/messages]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/timeline/periods/2015-2016-annie-relationship-start]] |
+| 14 | 10.80 | people, self, timeline, work | [[wiki/people/dimitri]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] · [[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/work/au-zaatar]] |
+| 15 | 10.80 | mind, people, self, timeline | [[wiki/mind/concepts/forensic-method]] · [[wiki/people/annie-ulmer]] · [[wiki/self/chats/j6-chat]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] |
+| 16 | 10.80 | people, self, timeline, work | [[wiki/people/annie-ulmer]] · [[wiki/self/context-core]] · [[wiki/self/facebook]] · [[wiki/self/location-history]] · [[wiki/timeline/master-timeline]] · [[wiki/timeline/periods/2018-deep-cycle]] · [[wiki/work/au-zaatar]] |
+| 17 | 10.80 | mind, people, places, timeline | [[wiki/mind/synthesis/bond-switch-2015]] · [[wiki/people/annie-ulmer]] · [[wiki/people/zach-clingan]] · [[wiki/people/zachariah-harshman]] · [[wiki/places/155-virginia-ave]] · [[wiki/timeline/master-timeline]] |
+| 18 | 10.80 | people, self, timeline, work | [[wiki/people/annie-ulmer]] · [[wiki/people/valeria-iglesias-cid]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] · [[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/work/au-zaatar]] |
+| 19 | 10.80 | interests, mind, people, timeline | [[wiki/interests/favorites/music/artists/taking-back-sunday]] · [[wiki/mind/concepts/attachment-model]] · [[wiki/people/eli]] · [[wiki/timeline/master-timeline]] |
+| 20 | 10.80 | people, self, timeline, work | [[wiki/people/annie-ulmer]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] · [[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/timeline/periods/2025-collapse]] · [[wiki/work/au-zaatar]] |
+| 21 | 10.80 | mind, people, self, timeline | [[wiki/mind/concepts/forensic-method]] · [[wiki/mind/synthesis/ancestral-dialectic]] · [[wiki/people/annie-ulmer]] · [[wiki/people/eli]] · [[wiki/self/overview]] · [[wiki/timeline/master-timeline]] |
+| 22 | 10.80 | mind, people, self, timeline | [[wiki/mind/concepts/forensic-method]] · [[wiki/people/annie-ulmer]] · [[wiki/self/facebook]] · [[wiki/self/facebook/messages]] · [[wiki/timeline/master-timeline]] |
+| 23 | 10.80 | mind, people, timeline, work | [[wiki/mind/synthesis/vertical-authority-skepticism]] · [[wiki/people/anita]] · [[wiki/people/kim]] · [[wiki/timeline/master-timeline]] · [[wiki/work/bfs-foods]] |
+| 24 | 10.80 | people, self, timeline, work | [[wiki/people/annie-ulmer]] · [[wiki/people/tom]] · [[wiki/self/chats/gemini-18]] · [[wiki/timeline/master-timeline]] · [[wiki/timeline/periods/2025-collapse]] · [[wiki/work/bfs-foods]] |
+| 25 | 10.80 | people, self, timeline, work | [[wiki/people/annie-ulmer]] · [[wiki/self/chats/gemini-07]] · [[wiki/self/context-core]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] · [[wiki/work/au-zaatar]] |
 
 Shared signals per cluster:
 
-1. tags: relationships; 2 shared raw source(s)
-2. tags: ai-collaboration; 1 shared raw source(s)
-3. tags: ai-collaboration; 1 shared raw source(s)
-4. tags: ai-collaboration, relationships; 2 shared raw source(s)
-5. tags: nyc-era, relationships; 2 shared raw source(s)
-6. tags: financial-stress, relationships; 2 shared raw source(s)
-7. tags: ai-collaboration, nyc-era; 1 shared raw source(s)
-8. tags: ai-collaboration; 1 shared raw source(s)
-9. tags: nyc-era, relationships; 1 shared raw source(s)
-10. tags: ai-collaboration, relationships; 1 shared raw source(s)
-11. tags: digital-footprint, personality-profile; 1 shared raw source(s)
-12. tags: ai-collaboration, relationships; 1 shared raw source(s)
-13. tags: digital-footprint, personality-profile; 1 shared raw source(s)
-14. 2 shared raw source(s)
-15. tags: relationships; 1 shared raw source(s)
-16. tags: ai-collaboration; 1 shared raw source(s)
-17. tags: ai-collaboration; 1 shared raw source(s)
-18. tags: ai-collaboration, nyc-era
-19. tags: ai-collaboration, nyc-era
-20. tags: ai-collaboration, nyc-era
-21. tags: ai-collaboration, nyc-era
-22. tags: digital-footprint, nyc-era, personality-profile; 1 shared raw source(s)
-23. 1 shared raw source(s)
-24. 2 shared raw source(s)
-25. 2 shared raw source(s)
+1. tags: ai-collaboration, relationships; 1 shared raw source(s)
+2. link density only
+3. link density only
+4. link density only
+5. link density only
+6. link density only
+7. link density only
+8. link density only
+9. link density only
+10. link density only
+11. link density only
+12. tags: digital-footprint, personality-profile
+13. tags: relationships, trauma-bond
+14. link density only
+15. link density only
+16. link density only
+17. link density only
+18. link density only
+19. link density only
+20. link density only
+21. link density only
+22. link density only
+23. link density only
+24. link density only
+25. link density only
 
-## Rejected hypotheses (2026-08-02) — tested against raw, recorded so nobody re-runs them
-
-Both were candidate cross-domain syntheses spanning `timeline` and `self`, the
-two largest all-ground domains. Both were measured against
-`raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv` (175,358 rows) and both fail.
-
-- **REJECTED — "ruptures cluster in the small hours."** Hypothesis: declared
-  exits and terminal hostility concentrate between midnight and 06:00, which
-  would have tied `block-unblock-loop` to `message-circadian-latency`. Measured
-  on 371 outbound messages matching rupture markers (goodbye / i'm done / never
-  speak / don't contact / leave me alone / fuck you / lose my number) against
-  the 88,945-message outbound baseline: **00:00–05:00 carries 17.5% of ruptures
-  against a 14.8% baseline — a lift of only 1.19×.** The largest lifts are
-  scattered and inconsistent (02:00 at 2.16×, but 21:00 at 1.75× and 12:00 at
-  1.83×), and n=371 will not support the distinction. There is no circadian
-  rupture signature.
-
-- **REJECTED — "the corpus has an annual rhythm."** Naive month-of-year shares
-  looked dramatic (December 15.98% and January 11.25% against a 5.3% June, i.e.
-  December at 1.9× uniform). It is an artifact of truncated years at both ends
-  of the corpus: **the record opens in November 2015**, so 88.6% of 2015's
-  messages fall in December, and **it ends in August 2026**, so 39% of 2026's
-  fall in January. With those removed the per-year peak month is 12, 5, 11, 6,
-  8, 9, 7, 9, 1 — no rhythm at all. Inbound and outbound track each other
-  closely, which would also have argued against a Dan-specific effect had the
-  pattern been real. **Any future month-of-year analysis on this corpus must
-  drop 2015 and the current year first.**
-
-**[2026-08-17] Cluster 27, registered by hand from the Annie read (2015-11-28 →
-2015-12-31) and deliberately NOT climbed — information control as intimacy.**
-Members: `wiki/people/annie-ulmer` (people), `wiki/people/alexis-armel`
-(people), `wiki/timeline/annie-record` (timeline),
-`wiki/mind/synthesis/bond-switch-2015` (mind). Three domains.
-
-The candidate sentence: *Dan manages what a partner is allowed to know about
-the previous partner, and then discloses the management itself as evidence of
-closeness.* Three dated instances inside five weeks. 2015-11-28 19:01 —
-*"Alexis doesn't know that you have any part in this… So you don't need to
-worry as much as you might have thought"*: concealment of a third party
-delivered to Annie as protection **of her**. 2015-11-30 22:21 — *"I have stuck
-to the story 100% so you don't need to worry about saying something wrong"*: a
-jointly maintained cover narrative, again framed as relieving her. 2015-12-10
-19:57 — *"do you remember that lex texted you / And I grabbed the phone / And
-pretended like it was me"*: Dan intercepted an inbound message from Alexis to
-Annie on the first night, and tells her about it eleven days later as a
-revelation.
-
-**Held rather than climbed, for two reasons.** First, the third instance is the
-only one where Dan controls Annie's *inbound* information rather than a third
-party's — it may be a different mechanism wearing the same clothes, and one
-disclosed instance is not a pattern of interception. Second, and decisive: the
-obvious climb would be to generalise this to the 2026 material, where the
-terminal-phase record makes concealment central — but doing that from three
-2015 instances is `SYNTHESIS_SPEC.md`'s "climbing on sand," since the December
-entries these rest on have not been through a corrections pass and several
-sibling entries in the same window were found to assert facts their quotes did
-not support.
-
-**What would settle it:** a fourth instance from Jan–Mar 2016, and the
-corrections pass over Dec 1–31. If the fourth instance is also *inbound*
-interception, this is a real T2 and probably belongs under
-`wiki/mind/synthesis/` rather than on either person's page.
-
-A second cluster was considered and **REJECTED — family capital underwriting
-the switch**. Suz's cocaine-and-car offer (2015-11-30), Fran's cash
-(2015-12-17), Suz's two $50s (2015-12-16) and the *"$500 from my grandma"*
-admission (2015-12-02) are a real shape, but `wiki/mind/synthesis/estate-money-spine`
-and `wiki/mind/synthesis/supply-network` already exist to hold it, and a new
-page above them would be an umbrella whose thesis is that its members share a
-topic. Written back into both instead.
-
-**[2026-08-19] Five climbs taken outside the queue — the doctrine layer again.**
-The 2026-08-02 note above already recorded that the miner scores clusters of
-*ground* pages and structurally cannot surface a T2+ cluster. That limitation
-bound this pass too: the operator asked for syntheses about how Dan thinks,
-which lives in the doctrine layer, and none of the 25 scored clusters below
-reaches it. Five were assembled by hand and all five were written:
-
-* **[[wiki/mind/synthesis/closing-the-set]]** — from `interests-as-era-markers`,
-  `intake-constancy`, `big-five-psychometrics`, `forensic-method`,
-  `roman-republic`, `opie-and-anthony`, `film-canon`, `favorites/books`,
-  `youtube-watch-history`.
-* **[[wiki/health/the-configured-body]]** — from `chemical-architecture`,
-  `cocaine`, `hyperreflexivity`, `food-and-diet`, `extreme-sports`,
-  `big-five-psychometrics`, `the-deferred-audit`, `supply-network`.
-* **[[wiki/mind/synthesis/the-commissioned-self]]** — the whole `mind/profile/`
-  cluster plus `the-handed-mirror`, `instrument-is-subject`, `wiki-brain`.
-* **[[wiki/mind/synthesis/the-cato-seat]]** — from `axioms`, `roman-republic`,
-  `film-canon`, `gore-vidal`, `intp`, `socionics-and-attitudinal`,
-  `political-psyops`, `vertical-authority-skepticism`, `context-core`.
-* **[[wiki/places/the-unpapered-address]]** — the six residence pages plus
-  `463-morgantown`, `estate-money-spine`, `dans-law`, `the-deferred-audit`.
-
-**Two structural notes for whoever teaches the miner to do this.** First, the
-two highest-yield clusters were the ones `bin/wiki-climb audit` had already
-identified for free, as *"domains with no junction above them"* — `places` and
-`legal`. That report is a better climb queue than the scored table below and
-nothing reads it. Second, three of the five climbs earned their altitude by
-running a count over `raw/` that no page had run, not by re-reading their
-members: the members supplied the question and `raw/` supplied the answer. A
-miner that scored clusters by **"members that cite a raw file none of them has
-quantified"** would have surfaced the favorites-CSV cluster immediately.

@@ -9,7 +9,7 @@ importance: critical
 knowledge: mixed
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 date_range_start: 2015-11-01
 date_range_end: 2026-08-19
 infobox:
@@ -1923,6 +1923,42 @@ profile of this relationship, written before the closure, describes Annie
 as stable, direct, and well-aligned with Dan — a framing worth preserving
 only as evidence of how convincing the concealment looked from the
 inside ([[wiki/self/chats/gemini-18]]).
+
+## 2024, and the year she was not unemployed
+
+> **CORRECTED [2026-08-23].** The standing account of Annie's working life —
+> sourced to `raw/self/dox-md/Honest assessment and value judgment analysis.md`
+> and repeated downstream — is that she *"was fired in 2023 and spent a full year
+> unemployed."* **The message record shows her working two jobs through most of
+> 2024**, and the better-paid one has been invisible to this wiki until now.
+
+From **February to December 2024** Annie worked as a paid personal assistant and
+informal carer for an elderly Manhattan woman the corpus calls
+**[[wiki/people/libby|Libby]]** — 116 messages, 115 of them inside that calendar
+year. The work was real and it escalated: driving to hospital and doctor's
+appointments, sitting through them, handling correspondence, packing an
+apartment. The rate is stated once and it is not small — *"I was literally with
+Libby for just over 3 hours today.. she paid me 500"* (2024-05-17).
+
+She was doing it **on top of another job**: *"Now I'll be here 6 days a week and
+then Libby in mornings…: I don't want to get worked again and pass out like last
+time"* (2024-05-08). That second 2024 employer is named nowhere and appears in no
+`wiki/work/` page.
+
+**Three things follow.** First, the unemployment claim is wrong for 2024 and
+should not be repeated. Second, the **$119K–$123K net outflow** from Dan recorded
+at [[wiki/mind/synthesis/estate-money-spine]] is *unaffected* — it is derived from
+payment-app records rather than from any assumption about her employment — but the
+picture of a single-earner household in 2024 specifically is not what the record
+supports. Third, the income ends: the next documented event in this sequence is
+**March 2025**, *"I got the letter I was denied unemployment"* (2025-03-31), which
+dates the start of her income collapse a year after the Libby work began and
+inside the window [[wiki/timeline/periods/2025-collapse]] covers.
+
+The unpaid counterpart ran alongside it and continued after it stopped — regular
+childcare for her sister's children, [[wiki/people/alice]] and
+[[wiki/people/otto]], which she names as unpaid on the record in the same message
+as the unemployment letter.
 
 ## By the numbers
 

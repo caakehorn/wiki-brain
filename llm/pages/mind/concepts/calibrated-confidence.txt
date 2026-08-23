@@ -7,11 +7,14 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-23
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
 tags: [personality-profile, forensic-analysis, digital-footprint]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: supplies
+    claim: "The strict re-derivation both rescues and bounds that page's strongest capability claim: 24 graded credences against 1 from 503 people survives a filter built to break it, while the calibration test it recommended turns out to have a resolvable sample size of one, which resolved false."
   - page: wiki/mind/synthesis/failure-to-launch
     type: evidences
     claim: "This is the single capability claim in the corpus where superlative against the general population is defensible from residue rather than testimony - 15 graded non-endpoint values against zero across 503 people - and the decisive caveat is that expression is measured while accuracy remains untested."
@@ -69,6 +72,84 @@ estimate.
 
 So the finding is not that Dan says "100% sure" more often than his friends. It
 is that Dan is using the *scale* and everyone else is using a word.
+
+## Re-derived 2026-08-23: the counts do not reproduce, the asymmetry does, and the test is not runnable
+
+> **CORRECTED [2026-08-23].** This page's measurement table gave **43 outbound
+> instances against 2 inbound**, and **15 graded (non-endpoint) values against
+> zero**. Re-derived from the on-disk CSVs — 98,228 deduped Dan-sent messages
+> against 91,858 received — **none of the four numbers reproduces, and the
+> "zero" is false.** The direction and rough magnitude of the finding survive;
+> the arithmetic does not, and the reason is that the original filter was
+> counting things that are not credences.
+
+**The original filter swept in everything with a percent sign near a
+belief-word.** A permissive re-run returns **99** Dan-sent instances, not 43 —
+and inspecting them shows why the number is meaningless in either direction.
+The catch includes population shares (*"more than 99% of customers"*, *"99.999%
+of people"*), a cited opinion poll (*"64% of Israelis"*), a retail discount
+(*"40% off at the golf academy"*), plain proportions (*"a good 90% of what I was
+saying"*, *"75% of the time"*), and rhetorical framings that assert no credence
+at all (*"if there's even a 1% chance"*). None of those is a probability
+estimate about a proposition, which is the thing this page exists to claim.
+
+**Under a strict, symmetric filter — a first-person credence of the form "I am
+N% sure/certain/confident" or "there's an N% chance that ⟨clause⟩", with
+population shares and cited statistics excluded, applied identically to both
+directions:**
+
+| | Dan (outbound) | Everyone else (inbound) |
+|---|---:|---:|
+| Messages | 98,228 | 91,858 |
+| Strict credences | **60** | **4** |
+| Of those, graded (not 0/50/100) | **24** | **2** |
+| Rate per 100,000 messages (graded) | **24.4** | **2.2** |
+
+**And one of the two inbound graded instances is not an instance.** The
+2025-09-04 entry is a tapback reading *"Loved '98% sure that's because it's
+either old camera or…'"* — somebody quoting Dan's own message back at him.
+Removing it leaves **one** genuine graded credence from 503 other people across
+eleven years: *"she said that she needs space which I'm 99% sure that I'm
+fucked"* (2026-02-27).
+
+So the corrected finding is **24 against 1**, a rate ratio near 22× rather than
+the infinite one the "zero" implied. **The thesis holds** — Dan uses the scale
+and almost nobody else does — and it is now a claim that has survived a filter
+designed to break it, which is worth more than the larger number it replaces.
+
+### The calibration test is not runnable, and that is the finding
+
+[[wiki/mind/synthesis/failure-to-launch]] named scoring these instances against
+outcomes as the highest-value cheap experiment in the profile cluster, on the
+reasoning that the data already existed. **It does not.** Reading all 24 strict
+graded credences, they sort into three groups and only one is scoreable even in
+principle:
+
+- **Claims about another person's interior** — *"90% sure those are sarcastic
+  apologies"*, *"98.7% sure you don't believe any of your catholicism"*,
+  *"99% sure you're a no"*. Unfalsifiable by construction.
+- **Claims about unwitnessed past events** — *"95% sure she quit and didn't tell
+  anyone"*, *"99% sure it was a sedative in that"*, *"99% sure it's her"*. No
+  resolution exists anywhere in the corpus.
+- **Forward-looking claims about the world** — and there are almost none.
+
+**Exactly one instance in eleven years is resolvable from the corpus, and it
+resolved false.** On 2018-08-08 Dan writes *"I am 75% sure this is my last
+summer at Nemacolin."* [[wiki/work/nemacolin-caddying]] dates the job **April
+2016 – November 2019** per his own resume: he worked the 2019 season too. A 75%
+forecast that did not happen.
+
+n = 1 is not a calibration test and this page will not pretend otherwise. What
+the re-derivation establishes is sharper and less flattering than the experiment
+would have been: **the habit is real and rare, and it is aimed almost entirely
+at propositions that can never be scored.** Using the scale is a genuine
+cognitive signature. Using it where it could be checked is a different skill,
+and the corpus contains one attempt at it.
+
+**What would settle it.** A prospective log — any forward-dated prediction with
+a resolution date attached, recorded from now — produces a scoreable set inside
+months. Nothing retrospective will, and that is now a closed question rather
+than an open gap.
 
 ## Why it survives the obvious objections
 

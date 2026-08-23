@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
@@ -117,6 +117,16 @@ connections:
 ---
 
 # The Supply Network
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against [[wiki/people/annie-ulmer]]
+> (2026-08-23), which gained a section on her 2024 employment
+> ([[wiki/people/libby]]) and on unpaid childcare. **No supply figure, route,
+> counterparty or date on that page changed**, and this page reasons only from
+> those. Nothing here is affected and no claim is withdrawn. Worth noting forward
+> for whoever works the economics: the Libby arrangement is the first documented
+> inbound income on Annie's side anywhere in the corpus, and it runs concurrently
+> with the procurement channel this page models — but no message connects the two,
+> and this page does not assert one.
 
 > **RE-CHECKED [2026-08-22]:** flagged stale against
 > [[wiki/people/annie-ulmer]] (2026-08-22), which moved solely by an appended

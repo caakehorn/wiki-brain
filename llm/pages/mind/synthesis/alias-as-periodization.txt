@@ -5,7 +5,7 @@ title: "The Alias Is a Clock, Not a Style"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 date_range_start: 2013-01-01
 date_range_end:
 synthesizes:
@@ -49,6 +49,19 @@ connections:
 ---
 
 # The Alias Is a Clock, Not a Style
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/interests/music/overview]] (2026-08-23), which gained a corpus search
+> for the production identity's social trace: **one Dan-sent message in fifteen
+> years about making a track, zero about a studio, three lifetime mentions of
+> GRIPNOTIC, no play count anywhere.** This page's thesis — that the alias is a
+> clock rather than a style, because the aesthetics do not turn over at the
+> renames — is **untouched and quietly corroborated.** An alias that marks
+> periods rather than sounds is exactly what you would expect to find behind a
+> production identity that is strongly held as self-concept and almost
+> unmentioned as activity: the renames are doing biographical work, not musical
+> work. No claim withdrawn, and the new evidence is an independent line to the
+> same conclusion.
 
 > **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at
 > third remove.** [[wiki/mind/synthesis/totality-themes]] moved on 2026-08-22 solely by

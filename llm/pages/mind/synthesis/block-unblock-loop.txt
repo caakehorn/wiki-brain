@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
@@ -93,6 +93,52 @@ connections:
 ---
 
 # The Block/Unblock Loop
+
+> **RESOLVED [2026-08-23] — the 127/110 pair is settled, and it settles at 100%.**
+> This page has carried *"127 exit declarations against 110 re-engagements (87%
+> relapse)"* flagged `[DERIVED]` from the dossier passes, against
+> [[wiki/mind/concepts/attachment-model]]'s Gaps section, which noted that the
+> same dossiers describe the re-engagement rate as *"effectively 100%"* and that
+> neither figure had ever been re-derived from primary data. It has now been
+> re-derived.
+>
+> Searching Dan-sent severance language — blocking declarations, *goodbye*,
+> *I'm done / we're done / it's over*, *never contact me again* — across the
+> **95,067-row merged Annie corpus** (2015-11-28 → 2026-05-28) returns **258
+> messages, collapsing to 129 distinct episodes** when hits within 24 hours of
+> each other are treated as one declaration.
+>
+> **129 episodes against the dossier's 127, from a completely independent
+> method.** That is corroboration, not coincidence, and it retires the doubt
+> this page has carried about its own headline number.
+>
+> **The relapse figure is not 87%. It is 100%, and the interesting part is the
+> speed.** Of the 129 episodes, 128 are followed by a further message inside the
+> corpus (the 129th is the last row in the file). **All 128 resumed.** The median
+> gap between a severance declaration and the next message in either direction
+> is **0.01 hours — thirty-six seconds.** 89.1% resumed inside one hour; 99.2%
+> inside a day; **the longest gap in eleven years is 46 hours.**
+>
+> The 87% figure is withdrawn. It appears to have been arrived at by counting
+> some declarations as non-relapses that the primary record shows resuming
+> within minutes.
+
+> **And this is what makes June 1 2026 an outlier rather than an instance.**
+> Against a base rate of 129 declarations, a median resumption of thirty-six
+> seconds and an all-time maximum of 46 hours, the fifty-two-day silence that
+> followed the June 1 closure is **twenty-seven times longer than the longest
+> gap in the preceding decade.** This page's falsified prediction — that the
+> June severance would hold — now reads differently in its own favour: it was
+> not a bad call against a flat prior, it was a call on an event that was, by
+> the only measure available, unprecedented by more than an order of magnitude.
+> It still failed, and both facts belong on the page. The rule this page states
+> survived; what the numbers add is **how far the exception had to travel before
+> it broke.**
+>
+> The corpus used ends 2026-05-28 and therefore excludes both the June 1 closure
+> and the August 19 severance. The 100% figure describes the decade *before*
+> those two events, which is exactly what makes it the right base rate to judge
+> them against — see [[wiki/mind/synthesis/the-rescue-premise]].
 
 > **RE-CHECKED [2026-08-22]:** flagged stale against
 > [[wiki/people/annie-ulmer]] and [[wiki/mind/concepts/attachment-model]] (both

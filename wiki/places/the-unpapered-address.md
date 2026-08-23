@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -62,6 +62,12 @@ connections:
 ---
 
 # The Unpapered Address
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/synthesis/the-deferred-audit]] (2026-08-23), which gained a
+> re-check note only — no deferral case, date or instance on it changed, and
+> nothing on it touches tenancy, the lien clock or the 463 arrangement. Nothing
+> here is affected and no claim is withdrawn.
 
 
 > **RE-CHECKED [2026-08-22] — a real change, and it narrows one claim.** Three

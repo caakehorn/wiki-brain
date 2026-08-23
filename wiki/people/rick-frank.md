@@ -5,7 +5,7 @@ title: "Richard Harrison \"Rick\" Frank"
 aliases: ["Rick", "Frank Sr."]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-08-11
+date_modified: 2026-08-23
 infobox:
   name: Rick Frank
   status: "Ongoing, warm-but-strained — currently one-sided (silence since Feb 2025)"
@@ -83,6 +83,30 @@ connections:
 
 
 # Richard Harrison "Rick" Frank
+
+> **ADDED [2026-08-23] — "Ricky" is a further 66 mentions this page was not
+> counting.** The corpus carries *Ricky* **66 times** between 2015 and 2020,
+> overwhelmingly from Suz's handle and Annie's, in a register that is
+> unmistakably domestic: *"Come over and introduce Annie to Ricky"* (2015-12-11),
+> *"I think Ricky and I are coming over to fix the toilet first"* (2016-01-13),
+> *"Supposed to go to dinner soon w Ricky"* (2016-04-20), *"I forgot to drop off
+> money at Ricky's"* (2017-10-24), *"Ask your mom if she can see Ricky"*
+> (2017-10-09).
+>
+> **This corroborates the 2026-08-11 correction rather than complicating it.**
+> That pass retracted this page's use as a held-block control case, on a complete
+> per-contact export showing over 1,600 two-way messages and real repair within
+> weeks of the December 2015 friction. The *Ricky* register is the same finding
+> from the other side: through 2015–2017 he is a person Suz has dinner with,
+> fixes plumbing with, lends and is lent money by, and takes Annie to meet. That
+> is not low-intensity contact.
+>
+> **Held open:** a small number of the Annie-side uses sit in money-request
+> contexts during the [[wiki/timeline/periods/2017-poverty-floor|2017 poverty
+> floor]] (*"Can you get a 50 from Ricky for us?"*, 2017-10-17) which could in
+> principle name a different Ricky. Nothing in the corpus supports a second one,
+> and the domestic uses are unambiguous, so all 66 are read as this person — but
+> the ambiguity is recorded rather than resolved by assertion.
 
 Rick Frank (b. May 22, 1959, Uniontown PA) is Dan's father: owner of
 **Frank's Auto Supermarket**, a chain of auto-parts stores (anti-union, per

@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-20
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 # operator answers from 2026-08-20 have been integrated below
 
 > **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at
@@ -82,6 +82,17 @@ connections:
 > block in it at all.
 
 # The August Grievances — a verdict on the last conversation
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/synthesis/block-unblock-loop]] (2026-08-23), which gained a
+> re-derivation of the exit-declaration base rate — 129 episodes, 100%
+> re-engagement, median gap thirty-six seconds. **This page carries none of
+> those figures and none of its ten grievance adjudications depends on them**;
+> its evidence base is the Morgantown transcript and the August 16–19 message
+> record. Nothing withdrawn. Worth noting forward: the base rate makes this
+> page's severance the first in the record to outlast the historical maximum,
+> which is argued at [[wiki/mind/synthesis/the-rescue-premise]] and changes no
+> verdict here.
 
 **Every substantive grievance Dan states between 16 and 19 August 2026 is
 supported by the record, most of them strongly, and one of them is the most

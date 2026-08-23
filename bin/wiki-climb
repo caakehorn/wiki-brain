@@ -319,7 +319,8 @@ def cmd_candidates(pages, n=25):
         maxe = len(members) * (len(members) - 1) / 2.0
         tagsets = [tag_of[p] for p in members if p in tag_of]
         shared_tags = set.intersection(*tagsets) if tagsets and all(tagsets) else set()
-        shared_src = set.intersection(*[src_of[p] for p in members]) if members else set()
+        srcsets = [src_of[p] for p in members if p in src_of]
+        shared_src = set.intersection(*srcsets) if srcsets else set()
         already = max((tier.get(p, 1) for p in members), default=1)
         score = (density / max(1.0, maxe)) * 4.0
         score += len(doms) * 1.4
