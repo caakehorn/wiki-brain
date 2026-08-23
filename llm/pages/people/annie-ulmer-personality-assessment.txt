@@ -7,7 +7,7 @@ aliases: ["Annie MBTI", "Annie Enneagram", "Annie personality type"]
 status: active
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-22
+date_modified: 2026-08-23
 importance: high
 tags: [personality-profile, forensic-analysis, ai-collaboration]
 infobox:
@@ -28,6 +28,24 @@ connections:
 ---
 
 # Annie Ulmer — Forensic Personality Assessment
+
+> **RE-CHECKED [2026-08-23] — new behavioural material, and it cuts against the
+> harsher readings rather than confirming them.** Flagged stale against
+> [[wiki/people/annie-ulmer]] (2026-08-23), which gained a section establishing
+> that Annie worked two jobs through most of 2024, including sustained paid care
+> for an elderly woman ([[wiki/people/libby]]), and provided regular unpaid
+> childcare for her sister's children ([[wiki/people/alice]],
+> [[wiki/people/otto]]) into 2025.
+>
+> **No scored trait on this page is withdrawn**, because none of them was derived
+> from an employment claim. But the assessment should be read alongside two
+> stretches of conduct it did not have: roughly a year of reliable, unsupervised,
+> medically-involved care work for someone outside the family who trusted her with
+> money, correspondence and appointments — and two years of childcare she was not
+> paid for and largely did not refuse. Those are the two longest documented
+> instances in the corpus of Annie doing something for another person, repeatedly,
+> with no audience, and any assessment that has no room for them is incomplete
+> rather than wrong. Flagged for the next pass over this page.
 
 > **RE-CHECKED [2026-08-22]:** flagged stale against
 > [[wiki/people/annie-ulmer]] (2026-08-22). The entity page moved by an appended

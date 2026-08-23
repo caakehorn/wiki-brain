@@ -4335,3 +4335,105 @@ freshness in sync.
 knows what happened on August 20, 21 or 22.** Every forward claim on
 `the-rescue-premise` is an inference from the absence of a newer export, and it
 now says so in its own Gaps at priority 1.
+
+## [2026-08-23] ingest | people | five new entries, and the Ulmer household turns out to be the corpus's largest blind spot
+
+Operator asked for five new entries with no topic. Rather than climbing the top
+of `synthesis-queue.md` — which is dominated by hub artifacts (`master-timeline`
+and `annie-ulmer` co-occurring, 23 of 25 clusters marked "link density only") —
+this pass worked two BACKLOG items that had never been run: the per-contact CSV
+sweep, and `bin/mine-messages entities` for names with no page. **Both pointed at
+the same hole.**
+
+**`bin/wiki-climb candidates` was crashing and nobody had noticed.** `KeyError`
+on an archive page: line 320 guards `tag_of` for membership and line 322 did not
+guard `src_of`, so any cluster that grew to include a `wiki/**/archive/` page
+killed the run. One-line fix, matched to the existing guard. The queue had not
+been regenerable for an unknown period.
+
+### The five
+
+- **[[wiki/people/libby]]** (116 messages, Feb–Dec 2024) — the elderly Manhattan
+  woman Annie worked for as a paid assistant and carer. **Identification as Libby
+  Titus is inferred and marked as such**, on two independent supports: Dan's own
+  contemporaneous Tumblr link (`girlfriend-muse-libby-titus-elizabeth-jurist`,
+  sent 2024-03-17, six hours after Annie's *"Did you know Libby was in a movie
+  with Jack Nicholson"*), and a household **Donald** who claimed to be *"the first
+  person to ever use the term 'gaslighting' in a song"* — Steely Dan's
+  *Gaslighting Abbie* — at which *"Libby screamed 'YEAH ABOUT ME YOU ASSHOLE!'"*
+- **[[wiki/people/alice]]** (66) and **[[wiki/people/otto]]** (31) — Claire's
+  children, whom [[wiki/people/claire-ulmer]] has recorded as *"an unnamed niece
+  and nephew"* since it was written.
+- **[[wiki/people/garrett]]** (10) — Claire's husband, and the reason four pages
+  here are filed under single names.
+- **[[wiki/places/derrick-avenue]]** (45) — the approach road to the Belmont
+  Circle corner, serving both families' houses.
+
+### The finding that made the pass worth running
+
+**Annie was not unemployed in 2024, and the wiki has been saying she was.** The
+claim traces to `Honest assessment and value judgment analysis.md` — *"fired in
+2023 and spent a full year unemployed"* — and propagated. The record shows her
+working **two jobs**: *"Now I'll be here 6 days a week and then Libby in
+mornings"* (2024-05-08), with the Libby rate stated once as *"just over 3 hours
+today.. she paid me 500"* (2024-05-17).
+
+**The $119K–$123K net outflow is unaffected** — it is payment-app derived, not
+employment-derived — but the single-earner reading of 2024 is not what the record
+supports, and the inbound side of those exports has never been swept. Written
+into [[wiki/people/annie-ulmer]] and [[wiki/mind/synthesis/estate-money-spine]],
+which gains a direction it never had. The income stops at the end of 2024 and the
+next event is *"I got the letter I was denied unemployment"* (2025-03-31),
+dating her collapse a year before the page that covers it.
+
+### The Wednesday-alibi speculation is falsified, not merely unverified
+
+`claire-ulmer` has carried an AI dossier's reading that *"Wednesday visits to help
+with Claire's kids functioned as a recurring alibi pattern."* Tested by day of
+week against all **217,573** records: baseline Wednesday share **15.1%**; Alice
+**6.1%**, Claire **9.7%**, "my niece"/"my nephew"/"Claire's kids" **0%**.
+**Wednesday is the least likely day**; Claire concentrates Friday–Saturday (39%).
+The mechanism is not in the record. This rules out one axis and says nothing
+about [[wiki/timeline/events/eli-incident|Eli]], which is stated on the page so a
+later pass does not over-read it.
+
+### Two aliases recovered, both of which change a page's weight
+
+**"Mimi" is Annie's name for [[wiki/people/milo|Milo]]** — 67 uses, 2018–2025,
+resolved on four grounds including *"Awe mimi Milo"* (2021-04-06) and, decisively,
+**Mimi and Betty named as two separate animals** (*"I wonder if mimi and Betty
+kissed at midnight"*; *"I'll get meatballs tonight for you and mimi"* written to
+Betty). This bears on the severance: the channel Dan named and pre-closed on
+2026-08-19 was *Milo*, and **Annie's own register for the same channel is
+*Mimi***, which is what *"Is Mimi ok"* and *"How is Mimi"* are — the same shape
+as the July 4 fireworks email that reopened everything.
+
+**"Ricky" is 66 further mentions of [[wiki/people/rick-frank]]**, 2015–2020,
+corroborating the 2026-08-11 retraction of that page's held-block reading from
+the other side: dinners, plumbing, money in both directions. The ambiguity in a
+handful of 2017 money-request uses is recorded rather than resolved by assertion.
+
+### Deliberately not written
+
+**Waylon** (2 mentions, both 2024-07-11, one of them Dan's joke *"Waylon
+Jennings?"*) gets a recorded fact on two pages and **no page** — two mentions in
+217,573 will not support one. A **second Garrett** (someone else's uncle, 2021,
+unrelated correspondent) is named and quarantined on that page so a later pass
+does not fold him in. And a proposed sixth entry — a synthesis on Ulmer-side
+versus Frank-side coverage asymmetry — was **dropped because the metric was bad**:
+a crude classifier returned 57 "Ulmer-side" pages by matching the token *ulmer*
+anywhere, sweeping in Ally Lubin and most of the corpus. Better no page than a
+page resting on that.
+
+### Sensitivity
+
+[[wiki/people/libby]] records a private individual's illness, finances and
+household from one side of a conversation she was not party to. It is kept
+because it is load-bearing for Annie's biography, written no further than that,
+and **flagged on the page as a candidate for the portal seal**
+(`wiki.locks.json`, portal repo). That is the operator's call and the page says
+so.
+
+Four dependents went stale and all four were worked; `estate-money-spine` took a
+real `REVISED` block. Gates: lint 0 errors, connect 0, climb 0 and 0 stale,
+freshness in sync. 495 pages.

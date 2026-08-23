@@ -4,6 +4,63 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-23b] - Session: five entries, and the Ulmer household was the biggest hole in the wiki
+
+* **Model:** Claude Code · **Branch:** `claude/journal-relationships-validation-nn9nm1` (PR #187, open)
+* **Trigger:** operator asked for five new entries, no topic given.
+
+**Read this first.** The topics were **not** chosen from `synthesis-queue.md` —
+that queue is dominated by hub artifacts (23 of 25 clusters are "link density
+only", mostly `master-timeline` × `annie-ulmer`). Two never-run BACKLOG items
+were worked instead — the per-contact CSV sweep and `bin/mine-messages entities`
+— and both pointed at the same hole: **Annie's household is barely in this
+wiki.**
+
+**`bin/wiki-climb candidates` was crashing and had been for an unknown time.**
+`KeyError` on an archive page — line 320 guarded `tag_of` for membership, line
+322 did not guard `src_of`. One-line fix. If you rely on that queue, note it was
+not regenerable before this pass.
+
+**The five:** `people/libby` (116 msgs), `people/alice` (66), `people/otto` (31),
+`people/garrett` (10), `places/derrick-avenue` (45).
+
+**The finding that mattered: Annie was not unemployed in 2024.** The wiki has
+carried *"fired in 2023 and spent a full year unemployed"* from the AI
+assessment. She was working **two jobs** — a six-day-a-week position plus paid
+personal assistance and care for **Libby**, at *"just over 3 hours today.. she
+paid me 500"* (2024-05-17). **The $119K–$123K outflow is unaffected** (payment-app
+derived), but the single-earner reading of 2024 is wrong and **the inbound side
+of those exports has never been swept — that is the obvious next job.** Her income
+stops end-2024; *"I got the letter I was denied unemployment"* (2025-03-31) dates
+her collapse a year earlier than the page covering it.
+
+**The Wednesday-alibi speculation on `claire-ulmer` is falsified.** Against all
+217,573 records: baseline Wednesday 15.1%, Alice **6.1%**, Claire **9.7%**,
+"my niece/nephew/Claire's kids" **0%**. Wednesday is the *least* likely day. Do
+not re-raise it. It says nothing about Eli and the page states that.
+
+**Two aliases recovered and one changes the severance reading.** *"Mimi"* is
+**Annie's name for Milo** — 67 uses, proven by *"Awe mimi Milo"* plus Mimi and
+Betty appearing as two separate animals. So the channel Dan pre-closed on
+2026-08-19 (*"or when something happens to Milo"*) is one he named in **his**
+vocabulary; hers is *"Is Mimi ok"*. Worth carrying into any re-check of
+`the-rescue-premise` P1. *"Ricky"* is 66 further **rick-frank** mentions
+corroborating the 2026-08-11 held-block retraction.
+
+**Deliberately not written, so you don't redo it.** *Waylon* (2 mentions) gets a
+recorded fact and no page. A *second Garrett* (2021, unrelated correspondent's
+uncle) is quarantined on that page. And a sixth entry on Ulmer-vs-Frank coverage
+asymmetry was **dropped because the metric was bad** — a token match on *ulmer*
+returned 57 pages including Ally Lubin. Do not resurrect it without a real
+classifier.
+
+**`people/libby` is flagged as a portal-seal candidate** (`wiki.locks.json`,
+portal repo) — it records a private individual's illness and finances. **That is
+the operator's decision and it has not been made.**
+
+**Still 28 sage-closes.** Unchanged for a fifth pass. Start at `bin/wiki-work
+next`.
+
 ### [2026-08-23] - Session: the deep pass killed the headline latency finding and settled two counts the wiki had been deferring
 
 * **Model:** Claude Code · **Branch:** `claude/journal-relationships-validation-nn9nm1` (restarted from main after #186 merged)

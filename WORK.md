@@ -54,7 +54,7 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 2 | sage-close | staged answer on people/milo, not integrated | `wiki/people/milo.md` | 2026-08-22 |
 | 2 | sage-close | staged answer on timeline/events/fran-death-vigil, not integrated | `wiki/timeline/events/fran-death-vigil.md` | 2026-08-22 |
 
-## Standing work (198)
+## Standing work (207)
 
 The campaign. Worked top-down by choice rather than drained, and each line
 below is a pointer — the file named is where the work itself is written, and
@@ -63,6 +63,6 @@ the only place to strike an entry.
 | P | Kind | Open | Where | What |
 |---|---|---|---|---|
 | 5 | ingest | 45 | `queue.md` | sources ingested partially or not at all |
-| 6 | climb | 16 | `synthesis-queue.md` | clusters unclimbed and unrejected |
+| 6 | climb | 25 | `synthesis-queue.md` | clusters unclimbed and unrejected |
 | 6 | connect | 88 | `connection-queue.md` | mined edge pairs, untyped and unrejected |
 | 7 | backlog | 49 | `BACKLOG.md` | standing campaign entries |

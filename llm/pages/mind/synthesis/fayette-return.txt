@@ -6,7 +6,7 @@ aliases: ["the elastic tether", "regional gravity", "leave-and-come-back"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-18
+date_modified: 2026-08-23
 date_range_start: 1892-01-01
 date_range_end:
 sources:
@@ -55,6 +55,16 @@ connections:
 ---
 
 # The Fayette Return
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against [[wiki/people/rick-frank]]
+> (2026-08-23), which gained an alias finding — *Ricky*, 66 further mentions
+> across 2015–2020 — corroborating the 2026-08-11 retraction of that page's
+> held-block reading by showing ordinary domestic contact (dinners, plumbing,
+> money both ways) through the Uniontown years. **This page's argument is
+> unaffected and mildly supported**: a return to Fayette County into a family
+> network that was actually functioning is more consistent with the pull this page
+> describes than a return into estrangement would be. No date, move or claim here
+> changes, and nothing is withdrawn.
 
 Every generation of Dan's paternal line that has left Fayette County,
 Pennsylvania has come back to it. Four generations and roughly 130 years —

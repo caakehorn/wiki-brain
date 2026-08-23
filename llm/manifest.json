@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 490,
+ "page_count": 495,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -1396,7 +1396,7 @@
    "title": "The Estate / Money Spine",
    "summary": "Money in this biography does not accumulate; it **arrives in lumps and exits through standing drains.** This page traces the capital timeline as a single cau...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/estate-money-spine.txt",
-   "bytes": 25866
+   "bytes": 27633
   },
   {
    "page": "wiki/mind/synthesis/failure-to-launch.md",
@@ -1410,7 +1410,7 @@
    "title": "The Fayette Return",
    "summary": "Every generation of Dan's paternal line that has left Fayette County, Pennsylvania has come back to it. Four generations and roughly 130 years \u2014 Brownsville,...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/fayette-return.txt",
-   "bytes": 20036
+   "bytes": 20708
   },
   {
    "page": "wiki/mind/synthesis/instrument-is-subject.md",
@@ -1494,7 +1494,7 @@
    "title": "The Supply Network",
    "summary": "Since January 2011, Dan has been on a daily Suboxone regimen \u2014 fifteen years, described in the primary sources as structural rather than recreational: a medi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/supply-network.txt",
-   "bytes": 35396
+   "bytes": 36064
   },
   {
    "page": "wiki/mind/synthesis/the-cato-seat.md",
@@ -1588,6 +1588,13 @@
    "bytes": 37326
   },
   {
+   "page": "wiki/people/alice.md",
+   "title": "Alice",
+   "summary": "Alice is [[wiki/people/annie-ulmer|Annie]]'s niece \u2014 the elder child of Annie's sister [[wiki/people/claire-ulmer|Claire]] and Claire's husband",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/alice.txt",
+   "bytes": 6316
+  },
+  {
    "page": "wiki/people/ally-lubin-cognitive-profile.md",
    "title": "Ally Lubin \u2014 Cognitive Profile",
    "summary": "This page is the typology read on the woman at the centre of the longest attachment in the corpus, built from a tested instrument that arrived on 2026-08-22 ...",
@@ -1613,14 +1620,14 @@
    "title": "Annie Ulmer \u2014 Forensic Personality Assessment",
    "summary": "**Confidence: MODERATE**",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/annie-ulmer-personality-assessment.txt",
-   "bytes": 31529
+   "bytes": 32728
   },
   {
    "page": "wiki/people/annie-ulmer.md",
    "title": "Annie (Anne Louise Ulmer)",
    "summary": "Annie Ulmer was Dan's partner for ten years and seven months \u2014 November 28, 2015 to June 1, 2026 \u2014 and is the only relationship in his documented history to ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/annie-ulmer.txt",
-   "bytes": 148770
+   "bytes": 150984
   },
   {
    "page": "wiki/people/annoying.md",
@@ -1760,7 +1767,7 @@
    "title": "Claire Ulmer",
    "summary": "Claire is [[wiki/people/annie-ulmer|Annie Ulmer]]'s sister \u2014 the reason",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/claire-ulmer.txt",
-   "bytes": 2085
+   "bytes": 4055
   },
   {
    "page": "wiki/people/clyde.md",
@@ -1959,11 +1966,18 @@
    "bytes": 4183
   },
   {
+   "page": "wiki/people/garrett.md",
+   "title": "Garrett",
+   "summary": "Garrett is [[wiki/people/claire-ulmer|Claire]]'s husband and therefore",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/garrett.txt",
+   "bytes": 4033
+  },
+  {
    "page": "wiki/people/index.md",
    "title": "people \u2014 index",
    "summary": "32 remaining auto-generated contact stubs (59 promoted to full pages 2026-07-14) live in `wiki/people/contacts/` \u2014 metadata only, not linked from prose.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/index.txt",
-   "bytes": 25249
+   "bytes": 26344
   },
   {
    "page": "wiki/people/ismaila-barry.md",
@@ -2232,6 +2246,13 @@
    "bytes": 5324
   },
   {
+   "page": "wiki/people/libby.md",
+   "title": "Libby",
+   "summary": "Libby was an elderly Manhattan woman for whom [[wiki/people/annie-ulmer|Annie]] worked as a paid personal assistant and informal carer through **2024** \u2014 dri...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/libby.txt",
+   "bytes": 10020
+  },
+  {
    "page": "wiki/people/lindsay-carolla.md",
    "title": "Lindsay Carolla",
    "summary": "A warm, affectionate small-scale cocaine relationship over Thanksgiving weekend 2016 (\"Hi honey,\" \"yes my love\"), with a single late follow-up in April 2017 ...",
@@ -2404,7 +2425,7 @@
    "title": "Milo",
    "summary": "Milo is Dan's Chihuahua and the one recurring presence in the record that nothing \u2014 not the collapse of the Annie relationship, not the forensic AI sessions,...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/milo.txt",
-   "bytes": 17423
+   "bytes": 18676
   },
   {
    "page": "wiki/people/mohammed-bin-salman.md",
@@ -2449,6 +2470,13 @@
    "bytes": 3946
   },
   {
+   "page": "wiki/people/otto.md",
+   "title": "Otto",
+   "summary": "Otto is [[wiki/people/annie-ulmer|Annie]]'s nephew \u2014 the younger child of",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/otto.txt",
+   "bytes": 3406
+  },
+  {
    "page": "wiki/people/renae-holland.md",
    "title": "Renae Holland",
    "summary": "Renae Holland is a former [[wiki/work/creative-license|Creative License]] contact \u2014 her exact role at the company is not stated in the recovered corresponden...",
@@ -2460,7 +2488,7 @@
    "title": "Richard Harrison \"Rick\" Frank",
    "summary": "Rick Frank (b. May 22, 1959, Uniontown PA) is Dan's father: owner of **Frank's Auto Supermarket**, a chain of auto-parts stores (anti-union, per the househol...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/rick-frank.txt",
-   "bytes": 33171
+   "bytes": 34706
   },
   {
    "page": "wiki/people/rj-ritchey.md",
@@ -2757,11 +2785,18 @@
    "bytes": 7112
   },
   {
+   "page": "wiki/places/derrick-avenue.md",
+   "title": "Derrick Avenue",
+   "summary": "Derrick Avenue is a road in Uniontown, Pennsylvania that appears **forty-five times** in this corpus between November 2015 and August 2025 and has never had ...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/derrick-avenue.txt",
+   "bytes": 6484
+  },
+  {
    "page": "wiki/places/index.md",
    "title": "places \u2014 index",
    "summary": "Homes, cities, and significant locations. The quantified movement record is at [[wiki/self/location-history]].",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/index.txt",
-   "bytes": 1860
+   "bytes": 2171
   },
   {
    "page": "wiki/places/seven-springs.md",

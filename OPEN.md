@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 43 |
-| Open gaps | 430 |
+| Open gaps | 447 |
 | Answered, awaiting ingest | 1 |
 | Standing predictions | 49 |
 
@@ -290,10 +290,13 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (153)
+### people (167)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
+- **[[wiki/people/alice]]** — 1. **Surname.** Claire's married name is nowhere in the corpus, so this page is filed under a single name. One sentence from the operator resolves Alice, Otto, Waylon and Claire together.
+- **[[wiki/people/alice]]** — 2. **Exact birth date.** Inferred as ~2019–2020 from a single retrospective remark. A birthday message would fix it.
+- **[[wiki/people/alice]]** — 3. **Whether Dan ever met her.** The record has Annie showing Alice a photograph of Milo and Alice asking *"who are you talking to?"* during a call (2024-02-23), and Dan writing *"alice wouldn't be so unfamiliar with my name that she literally can't understand
 - **[[wiki/people/ally-lubin]]** — Each of these is answerable by the operator in a paragraph.
 - **[[wiki/people/ally-lubin]]** — **Re-export both handles from `chat.db` in full.** This is the top action on this page. The August 19 inbound is missing (see the caveat above), and the chat.db extract already in `raw/` is missing all 120 messages of January 2019 — a window that overturned th
 - **[[wiki/people/ally-lubin]]** — **Where did the December 6, 2018 conversation happen?** It is the origin of the modern relationship and is in no message corpus here — the iMessage record starts eleven days later. Instagram DM, Twitter DM, or Facebook Messenger on an account not in the takeou
@@ -358,6 +361,10 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/emilio]]** — **Becca** (2015-12-29) — described as the ex's new girlfriend; not firmly attached to Emilio.
 - **[[wiki/people/fran-coldren]]** — The nursing home is still unnamed. The NS7 II gift is undated — the corpus confirms the machine in use by April 2017 but never records its arrival, and the gift-protocol figures come from operator memory alone. Thomas Whyel's exact death date within the 1970s 
 - **[[wiki/people/fred-adams]]** — Adams sends and receives nothing in the message corpus; every fact here comes from Dan's narration or from the estate attorney's calls, and the estate attorney reached in August 2020 (`+17245706170`) is not established to be Adams or his office. His full name,
+- **[[wiki/people/garrett]]** — 1. **Surname** — the one fact that would resolve Claire, Alice and Otto at once.
+- **[[wiki/people/garrett]]** — 2. **When they married**, and whether Dan attended. Nothing in the corpus.
+- **[[wiki/people/garrett]]** — 3. **What the "show" is.** One word from the operator.
+- **[[wiki/people/garrett]]** — 4. **Whether Dan has any independent relationship with him.** On this record, ten mentions across eleven years, all of them reported by Annie or Suz and none of them a direct interaction, the answer looks like no — which would make him consistent with the patt
 - **[[wiki/people/jacob-bacharach]]** — Whether the two men remained in contact after February 11, 2021 is undocumented; Dan says "we keep in touch," and the corpus preserves exactly one exchange. Whether the HTML artifact was ever sent, and whether Bacharach ever learned that the house was in the f
 - **[[wiki/people/jajuan-davis]]** — No contacts.csv match; identity beyond the page's filename is unconfirmed.
 - **[[wiki/people/jaredtricia]]** — Whether further bookings occurred after the June 28, 2020 non-response is undocumented — the thread simply goes quiet. Which specific messages in the August 2019 thread beyond the photo request were Dan-as-"Hazel" versus genuinely Annie is not fully disambigua
@@ -397,6 +404,10 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/kristin]]** — **No verification of the New York period** she references on Facebook.
 - **[[wiki/people/kristin]]** — **The second export**, `imessage_export_3307038747_20260624.csv` (2.58 MB, larger than the 2.41 MB canonical), has not been diffed against the primary. It may carry messages this analysis missed.
 - **[[wiki/people/kya-hansen]]** — The actual OnlyFans message history with Kya Hansen — which Dan believes may be extractable from a source not yet in the raw corpus — has not been recovered. Exact dates for the Reddit admin period, how the role began, and what (if anything) happened to the co
+- **[[wiki/people/libby]]** — 1. **When and how it ended.** 115 messages in 2024, one in 2025, and no closing event anywhere. Did Libby die, move, or simply stop calling? The operator can almost certainly answer in a sentence, and it dates the start of Annie's income collapse.
+- **[[wiki/people/libby]]** — 2. **What the total came to.** Individual payments are visible ($500 for three hours; an unstated figure for four) but no running total exists. The Venmo and Cash App records that establish the Dan→Annie flow would show the other direction if they were swept f
+- **[[wiki/people/libby]]** — 3. **Whether the identification is right.** One sentence from the operator — he sent the Tumblr link — settles it. If wrong, the two supports above need another explanation and this page needs a correction rather than an edit.
+- **[[wiki/people/libby]]** — 4. **The other job.** *"I'll be here 6 days a week"* names a second 2024 employer that appears nowhere in `wiki/work/` or on Annie's page. Unidentified.
 - **[[wiki/people/lindsay-carolla]]** — What Claire told Lindsay in April 2017, and whether it connects to anything else documented in the corpus around that date, is unknown.
 - **[[wiki/people/lisa-durbin]]** — Exact family relationship (aunt, cousin, family friend) is not stated in the thread itself.
 - **[[wiki/people/manuel]]** — Last name is not on file. A different, unrelated "Manuel" is referenced in passing in jack-rusko's 2017 thread — a different person from an earlier, unconnected era; not to be conflated with this contact.
@@ -418,6 +429,9 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/morley-frank]]** — **The Seattle move's cause is unknown** — service posting, work, or elective relocation are all consistent with what is on disk.
 - **[[wiki/people/morley-frank]]** — **Champion's county is unverified here.** The directory gives the town only. Confirming it lies outside Fayette County would make it the line's only attested out-of-county residence in four generations, which is worth the check.
 - **[[wiki/people/nathan-king]]** — No other record of Nathan King exists in the corpus beyond the Woodward attendance. Relationship to Dan outside the camp, current status, and adult contact are all undocumented.
+- **[[wiki/people/otto]]** — 1. **Surname**, as for Alice — Claire's married name is not in the corpus.
+- **[[wiki/people/otto]]** — 2. **Birth year.** Late-October birthday established; the year is not. The nap schedule in March 2025 suggests roughly 2–4 years old, which would place his birth around 2021–2023, but that is inference from one line.
+- **[[wiki/people/otto]]** — 3. **Who Waylon is.** Two mentions, one of them a joke about a country singer. Answerable by the operator in a word.
 - **[[wiki/people/rod-banks]]** — Exact relationship to Fran (family member, estate representative, or property caretaker) is unresolved. No Facebook or other corpus cross-references found. Whether 'Banks' is connected to the Coldren/Whyel/Shrum maternal network is unknown.
 - **[[wiki/people/sadie-harris]]** — **No death place.** The GEDCOM date is firm; the place is absent. Whether she died in Brownsville, Uniontown, Hopwood or in care elsewhere is unresolved, and a death certificate would settle it.
 - **[[wiki/people/sadie-harris]]** — **Arrival date unknown.** Nothing on disk dates either her emigration from Austria or the couple's move from New York City to Fayette County; the 1915 Bronx and 1920 Brownsville records only bracket it.
@@ -446,10 +460,13 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/zaco]]** — **Did the November 26 purchase ever happen?** The thread ends with Dan unable to travel. Nothing later in the corpus refers to him.
 - **[[wiki/people/zaco]]** — **Was he a Johnny substitute or an independent?** Both are active in Uniontown in 2018; nothing links them, and the question is whether the push-marketing posture reflects a lower position in the same chain.
 
-### places (7)
+### places (10)
 
 - **[[wiki/places/117-belmont-circle]]** — Whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at "pending." The earlier failed listing is inferred from four words and has no independent trace. The nursing home is still unnamed. The exact year the caregivi
 - **[[wiki/places/307-e-76th-st]]** — Jim Blanchard's actual role at this address is unconfirmed beyond the operator's own account — a targeted search by his email (`jtblanchard66@gmail.com`) or phone across the fuller export set (not just the primary dump) might surface more. Whether Dan or Annie
+- **[[wiki/places/derrick-avenue]]** — 1. **Street numbers.** Only one is recorded anywhere — 278, and only because it caught fire. Which house is the Ulmers', and whether Fran's Belmont Circle lot fronts Derrick or merely corners it, are both unresolved.
+- **[[wiki/places/derrick-avenue]]** — 2. **Whose houses.** *"I saw al coming down Derrick. Must have been at your moms"* (2018-05-11) puts Dan's mother in the same orbit, but the corpus does not fix which addresses on or off Derrick belong to whom in which years.
+- **[[wiki/places/derrick-avenue]]** — 3. **One false positive, excluded.** A 2025-06-08 message about *"my buddy in Pittsburgh Derrick"* is a person, not the street, and is not counted in the forty-five.
 - **[[wiki/places/the-unpapered-address]]** — **Nobody has looked outside the corpus.** Fayette County and New York City both keep public records — deeds, dockets, eviction filings, mechanics liens. Every claim on this page is drawn from what Dan and his family said in text messages, which is precisely th
 - **[[wiki/places/the-unpapered-address]]** — **The 307 lease signatory is still open**, and it decides something real: whether Dan was ever a named party to a residential lease at all, or only ever an occupant. The rent is now known; the name is not.
 - **[[wiki/places/the-unpapered-address]]** — **The 155 Virginia holder is unresolved** across the Alexis→Annie transition, and that transition is the corpus's clearest case of the container being retained while the occupant changed (dormancy-not-exit). Who was on the paper, if anyone, would settle whethe
