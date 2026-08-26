@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 45 |
-| Open gaps | 456 |
+| Open gaps | 457 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 55 |
 
@@ -304,7 +304,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (169)
+### people (170)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — **The `known_for` line is now quoted outside the wiki, and the page owes it a harder look.** *"The six-year relationship that occupied the attachment slot without ever activating it"* was cited in a sage answer published 2026-08-21 as evidence that stability w
@@ -322,6 +322,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/ally-lubin]]** — **What was the "online shit" the spoofed number was used for?** Polyak's message is the only account and does not say. Dan never answers him, and in 2026 doubts the incident occurred at all.
 - **[[wiki/people/ally-lubin]]** — **Is she still alive and well?** Given the volume of documented suicidality in the 2019 material and her self-description in 2026, this is a question the wiki should not leave implicit.
 - **[[wiki/people/ally-lubin]]** — **What is Ally's brother's name, and does he still speak to Bob?** Dan asks both questions on August 19 at 08:12 and the answers are in the missing inbound.
+- **[[wiki/people/ally-lubin]]** — **~107 email handle messages are unaccounted for.** The wiki previously claimed 907 email messages; the corrected count is 800. The discrepancy is in the sent direction — we have 563 sent, the wiki claimed 670. The missing messages may be in an export not avai
 - **[[wiki/people/ally-lubin]]** — **Negative result, recorded:** she does not appear in `contacts.csv` with an address, in the GEDCOM, in the Twitter export, or in the Facebook search history. The Model Mayhem and "boca raton ally lubin" searches Dan describes on 2019-08-22 are from Google, wh
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — Each of these is answerable by the operator in a paragraph.
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **Whose result is the screenshot, and when was it taken?** The image carries no identifying metadata. Did Ally send it to Dan directly, and on what date? The original `IMG_2320.heic` may carry EXIF that the screenshot destroyed.

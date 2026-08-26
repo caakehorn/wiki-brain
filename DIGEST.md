@@ -17,7 +17,7 @@ this is the state of the thing.
 | Pages touched in the last 14 days | 174 |
 | Pages reasoning from other pages (`synthesizes:`) | 44 |
 | Live contradictions | 45 |
-| Open gaps | 456 |
+| Open gaps | 457 |
 | Standing predictions | 55 |
 
 ## By domain
