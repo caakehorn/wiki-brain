@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessage_7244346811+212****2449_both_all_now.csv
@@ -89,6 +89,15 @@ connections:
 
 
 # The Dan/Annie Fallout — Was He Correct to Feel Wronged? (Raw-Evidenced)
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/concepts/conflict-architecture]] (2026-08-26), which added a
+> section documenting the corpus's one completed refusal of the redefinition
+> move (an Ally exchange) and removed its `sage_pending` staging. This verdict
+> reasons from the engine's behavior inside the Annie relationship specifically;
+> a counter-instance from a different, lower-stakes channel does not touch the
+> diagnosis-to-behavior gap this page finds. **No claim on this page is
+> affected.**
 
 > **REVISED [2026-08-23] — this page's own open caveat is now closed, in its
 > favour.** Flagged stale against [[wiki/mind/concepts/attachment-model]]

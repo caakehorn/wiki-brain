@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
@@ -117,6 +117,12 @@ connections:
 ---
 
 # The Supply Network
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against [[wiki/people/menore]]
+> (2026-08-26), which closed its last open gap: 2022's zero mentions are
+> explained by the operator having a flip phone that year, not by a service
+> break. This removes the one residue in Menore's continuous-service reading
+> rather than complicating it. **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-23]:** flagged stale against [[wiki/people/annie-ulmer]]
 > (2026-08-23), which gained a section on her 2024 employment

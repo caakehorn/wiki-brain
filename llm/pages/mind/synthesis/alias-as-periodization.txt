@@ -5,7 +5,7 @@ title: "The Alias Is a Clock, Not a Style"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 date_range_start: 2013-01-01
 date_range_end:
 synthesizes:
@@ -49,6 +49,13 @@ connections:
 ---
 
 # The Alias Is a Clock, Not a Style
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/synthesis/totality-themes]] (2026-08-26), which gained two
+> RE-CHECKED notes confirming its own cited premises unaffected by the same
+> day's acquisition-drive/embedded-objective additions. **No claim on this
+> page is affected** — nothing here reasons from the tenure or satisfaction
+> material either page added.
 
 > **RE-CHECKED [2026-08-23]:** flagged stale against
 > [[wiki/interests/music/overview]] (2026-08-23), which gained a corpus search

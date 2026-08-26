@@ -5,7 +5,7 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-20
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 tags: [forensic-analysis, relationships, legal, mental-health]
 sources:
   - raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a
@@ -36,6 +36,12 @@ connections:
 ---
 
 # The Morgantown Call: Ethical Roles of Dan, Annie, and Jerel Coles
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/synthesis/august-grievance-verdict]] (2026-08-26), which gained
+> a re-check note only, confirming an unrelated attachment-trauma-bond
+> addition (the Ally symmetric-confession counterexample) doesn't touch it.
+> **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-23]:** flagged stale against
 > [[wiki/mind/synthesis/august-grievance-verdict]] and

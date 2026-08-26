@@ -1,5 +1,4 @@
 ---
-sage_pending: '2026-08-21'
 domain: mind
 page_type: concept
 title: "The Cool Metric"
@@ -7,7 +6,7 @@ aliases: ["anti-normie", "the normie check", "taste as sorting function"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -48,6 +47,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Authenticity-as-involuntariness is 'The Irreversibility Firewall's' trust rule stated positively: the one category never exposed to audit at all is the thing that was never a decision — the sub-bass signature, trusted precisely because choosing it was never possible."
+  - page: wiki/people/ally-lubin
+    type: evidenced-by
+    claim: "The one documented case of Dan losing a round inside his own filter: the August 18, 2026 Skins exchange, where Ally claims the subcultural reference outright and he does not adjudicate — the metric's only recorded upper bound."
 ---
 
 # The Cool Metric
@@ -233,6 +235,29 @@ worth.
 > to touch," and the interesting question it raises is what else is protected in
 > the same way. Nobody has looked.
 
+## The one documented upper bound
+
+The metric is described throughout this page as a one-directional sorting
+function — Dan runs it on other people, and the model does not describe what
+happens when someone outranks the person applying it. There is exactly one
+recorded case of him losing a round inside his own filter, and it happens in
+the [[wiki/people/ally-lubin|Ally]] channel: the Skins exchange of 2026-08-18,
+21:25–21:28, where she claims the subcultural reference outright — *"I don't
+think she's half Effy bc I'm Effy,"* *"Let's be real has she even seen
+Skins,"* *"I'm so Effy and Freddie even slid into my DMs once,"* *"Well first
+of all I'm not a Michelle / I'm a half Effy half Cassie"* — and Dan does not
+adjudicate, correct, or contest the claim. His own account of what draws him
+to her states the metric as attraction rather than judgment: *"how you are
+spotting slang and memes that I won't find out about for like 3 more
+months."*
+
+The filter has a documented ceiling, and this is the one instance of someone
+above it: a person whose command of the sorting criteria exceeds his own,
+which converts the metric from a tool he wields into a standard he is
+measured against. It does not undermine the metric's operation elsewhere in
+the record — it names the boundary condition the rest of this page never
+needed to state, because nobody else in the corpus tested it.
+
 ## Falsifiers
 
 1. A documented instance of sustained enthusiasm for a mass-market cultural
@@ -260,33 +285,3 @@ worth.
   analysed here.** A distribution of the favorites list against contemporaneous
   mainstream popularity would materially strengthen or damage the
   legibility-inverse claim, and is the obvious next operation.
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
-
-Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
-
-**The metric is documented as a one-directional sorting function, and there is
-one channel in which it runs both ways.** This page establishes taste as the
-*"master filter"* Dan applies to people. What the 2026-08-21 answer found is the
-only recorded case of him **losing a round inside his own filter**: the Skins
-exchange of 2026-08-18 21:25–21:28, in which Ally claims the reference outright
-(*"I don't think she's half Effy bc I'm Effy"*, *"Let's be real has she even seen
-Skins"*, *"I'm so Effy and Freddie even slid into my DMs once"*, *"Well first of
-all I'm not a Michelle / I'm a half Effy half Cassie"*) and Dan does not
-adjudicate. His own account of what he values in her is the metric stated as
-attraction — *"how you are spotting slang and memes that I won't find out about
-for like 3 more months"*
-(`raw/people/captures/2026-08-21_175309_gap-ally-lubin.md`). **The finding: the
-filter has a documented upper bound, one person is above it, and the page's
-model of the metric as an admission criterion does not currently describe what
-happens when someone outranks the person applying it.**

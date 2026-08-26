@@ -10,7 +10,8 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WIKI = os.path.join(ROOT, "wiki")
 VALID_STATUS = {"active", "stable", "stub", "closed", "archived"}
 VALID_DOMAIN = {"self", "timeline", "people", "mind", "work", "interests", "health", "places", "legal"}
-VALID_TYPE = {"entity", "event", "concept", "period", "summary", "synthesis", "profile", "report", "chat", "note", "index"}
+VALID_TYPE = {"entity", "event", "concept", "period", "summary", "synthesis", "profile", "report", "chat", "note", "index", "dataset"}
+VALID_CHART_KIND = {"line", "bar", "grouped-bar", "area", "scatter"}
 VALID_KNOWLEDGE = {"earned", "derived", "mixed"}
 VALID_TAGS = {
     "relationships", "trauma-bond", "infidelity", "attachment", "family",
@@ -89,6 +90,37 @@ def duplicate_top_level_keys(fm_text):
         first, count = seen[key]
         if count > 1:
             yield key, first, count
+
+
+def validate_dataset_chart(fm_text):
+    """Check a `page_type: dataset` page's `chart:` block against STYLE_GUIDE.md.
+
+    Returns a list of error strings (empty if the block is well-formed). Only
+    called when `page_type` is `dataset`; every other page is exempt. The
+    checks are structural — presence and shape — not numeric: nothing here can
+    confirm the plotted values are correct, only that a renderer has something
+    parseable to work with. `fm_text` is the raw frontmatter block (the text
+    between the `---` fences, as `fm_match.group(1)` gives it).
+    """
+    errors = []
+    chart_block = re.search(r"^chart:\s*\n((?:[ \t]+.*\n?)*)", fm_text, re.M)
+    if chart_block is None:
+        return ["page_type=dataset requires a chart: block (kind, title, series)"]
+    cb = chart_block.group(1)
+    kind_m = re.search(r"^\s*kind:\s*(\S+)", cb, re.M)
+    if not kind_m:
+        errors.append("chart: block missing required 'kind'")
+    elif kind_m.group(1) not in VALID_CHART_KIND:
+        errors.append(f"chart.kind '{kind_m.group(1)}' invalid — one of {sorted(VALID_CHART_KIND)}")
+    if not re.search(r"^\s*title:\s*\S", cb, re.M):
+        errors.append("chart: block missing required 'title'")
+    series_names = re.findall(r"^\s*-\s*name:\s*\S", cb, re.M)
+    if not series_names:
+        errors.append("chart: block needs series: as a list with at least one named series")
+    points_blocks = re.findall(r"points:\s*\n((?:[ \t]+\S.*\n?)*)", cb)
+    if series_names and not any(pb.strip() for pb in points_blocks):
+        errors.append("chart series has no non-empty points: map")
+    return errors
 
 
 def quarantine_mask(text):
@@ -443,6 +475,11 @@ for p in scan:
                     errors.append(f"{r}: infobox missing required 'name'")
                 if "relationship_to_dan" not in ib_fields:
                     errors.append(f"{r}: infobox missing required 'relationship_to_dan'")
+
+        # dataset chart schema (mandatory for page_type: dataset — STYLE_GUIDE.md)
+        if pt == "dataset" and fm_match:
+            for msg in validate_dataset_chart(fm_match.group(1)):
+                errors.append(f"{r}: {msg}")
 
         # sources must exist on disk
         for src in re.findall(r'"(raw/[^"]+)"', fm.get("sources", "")):

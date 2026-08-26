@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-20
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 # operator answers from 2026-08-20 have been integrated below
 
 > **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at
@@ -82,6 +82,12 @@ connections:
 > block in it at all.
 
 # The August Grievances — a verdict on the last conversation
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/synthesis/attachment-trauma-bond]] (2026-08-26), which added a
+> counterexample section about the Ally channel's symmetric self-indictment.
+> **No claim on this page is affected** — this page cites the trauma-bond
+> page for its quantified August 2026 model, not for anything about Ally.
 
 > **RE-CHECKED [2026-08-23]:** flagged stale against
 > [[wiki/mind/synthesis/block-unblock-loop]] (2026-08-23), which gained a

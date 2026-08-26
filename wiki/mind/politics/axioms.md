@@ -5,7 +5,7 @@ knowledge: earned
 title: "The Power Axiom: What Resolves the Leftist/Authoritarian 'Paradox'"
 status: active
 date_created: 2026-08-10
-date_modified: 2026-08-19
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -45,6 +45,13 @@ connections:
 ---
 
 # The Power Axiom: What Resolves the Leftist/Authoritarian "Paradox"
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/profile/intp]] (2026-08-26), which added a documented
+> interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and
+> removed its `sage_pending` staging. This page reasons from the Ti/Ne
+> cognitive-function claims and the great-man-theory reading, neither of
+> which the addition touches. **No claim on this page is affected.**
 
 Dan's political axiom is not a position on policy outcomes; it is a
 position on the legitimacy of concentrated, unaccountable power —

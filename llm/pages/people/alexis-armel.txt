@@ -1,5 +1,4 @@
 ---
-sage_pending: '2026-08-21'
 domain: people
 page_type: entity
 title: "Alexis Armel"
@@ -8,7 +7,7 @@ status: closed
 knowledge: mixed
 importance: high
 date_created: 2026-06-23
-date_modified: 2026-08-18
+date_modified: 2026-08-26
 date_range_start: 2009-10-01
 date_range_end: 2025-02-19
 sources:
@@ -97,6 +96,9 @@ connections:
   - page: wiki/people/emaly-minerd
     type: evidenced-by
     claim: "Dan's November 28, 2018 account to Emaly is the fullest retrospective anywhere in the corpus of how the Alexis arrangement began, including the $3,000 offer to be 'a plaything for Annie' — told to an outsider he was actively pursuing, which is the context that produced the detail."
+  - page: wiki/people/franki-faris
+    type: co-occurs
+    claim: "Dan typed her INFP/ISFP 'Idealist' in the same July 9-31, 2013 self-typology batch that typed Franki ESFP — a reading of the six-year partner that had been sitting on the five-day rebound's page instead of here."
 ---
 
 # Alexis Armel
@@ -520,6 +522,19 @@ the suppression *"a real limitation, not a rounding error"* — which is this
 page's own closing finding, arrived at from the archive rather than from a
 rubric.
 
+## Typed once, in the same batch as Franki's
+
+In the same **July 9–31, 2013** batch of self-sent typology emails that
+produced Dan's own earliest INTP self-identification
+([[wiki/people/elizabeth-eleanor]]) and Franki Faris's ESFP
+([[wiki/people/franki-faris]]), Dan typed Alexis **INFP/ISFP —
+"Idealist."** The datum has lived on Franki's page rather than here, which
+is backwards: a typing of the corpus's six-year partner sitting on the page
+of a five-day rebound is why two independent 2026-08-21 passes concluded she
+had no type at all. It is Dan's read of her, not an assessment of her, and
+should be read with that provenance attached — the same caveat this page
+already applies to the blind girlfriend-score model above.
+
 ## Post-eviction hostility (Dec 2015)
 
 After the eviction, Alexis remains hostile toward Annie and Dan:
@@ -533,51 +548,26 @@ This is the earliest post-eviction statement of Dan's policy toward Alexis — n
 
 ## Gaps
 
+**The `known_for` line is now quoted outside the wiki, and the page owes it a
+harder look.** *"The six-year relationship that occupied the attachment slot
+without ever activating it"* was cited in a sage answer published 2026-08-21
+as evidence that stability without activation is a documented outcome rather
+than a hypothesis. The claim rests more on absence — a chat archive that
+never shows crisis-grade attachment behavior — than on a positive measurement
+that rules out the alternative explanation, which is coverage. Only 43 of
+the 495 chat blocks carry dates, so the archive's true span is unknown beyond
+the 2011-08 → 2013-05 sample, and six years with a thin, unevenly dated
+message record is also consistent with under-documentation rather than
+genuine non-activation. This page has not yet supplied the measurement that
+would tell the two apart.
+
 The length of the relationship is quoted three different ways and the corpus
 does not settle it: Gemini's profile says 2010–2015, the bootloader says
 November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had
-"dated her for 7 years." The Twitter record favours a late-2009 start. Only
-43 of the 495 chat blocks carry dates, so the archive's true span is unknown
-beyond the 2011-08 → 2013-05 sample. Nothing in the corpus records how she
+"dated her for 7 years." The Twitter record favours a late-2009 start. Nothing in the corpus records how she
 learned about Annie, or whether the two women had any relationship as
 coworkers before the November 2018 arrangement. Her life after February 2025
 is entirely undocumented, as is whether she knows any of the rest of this
 exists. And the CATO bootloader's claim that Zac Shumar was also Annie's
 first has no primary source anywhere — it is an AI compression of the corpus
 repeating itself, and it should not be cited as fact until a message says it.
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
-
-Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
-
-**The infobox's `known_for` line is now load-bearing outside the wiki.** *"The
-six-year relationship that occupied the attachment slot without ever activating
-it — the corpus's control case"* was quoted in an answer published through the
-portal on 2026-08-21, as the corpus's evidence that stability without activation
-is a documented outcome rather than a hypothetical one. **The page should be able
-to carry that weight, and at present the claim is asserted more often than it is
-demonstrated.** The specific thing a later pass should supply: the measurement
-that distinguishes "occupied but not activated" from "insufficiently recorded."
-Six years and a thin message record are also consistent with a coverage gap, and
-the page does not currently rule that out. **A second finding, and this page is where it belongs.** An earlier version of
-the same answer assigned Alexis an **ISFJ** type, and the correction that
-followed said she had no type at all. Both are wrong: Dan typed her **INFP/ISFP
-"Idealist"** — against Franki Faris's ESFP "Performer" — in the batch of
-self-typology emails he sent himself between **July 9 and July 31, 2013**, which
-is recorded on [[wiki/people/franki-faris]] and nowhere on this page. That is the
-same fortnight that produced his own earliest INTP self-identification
-([[wiki/people/elizabeth-eleanor]]). **A typing of the corpus's six-year partner
-is sitting on the page of a five-day rebound**, which is why two passes in one day
-concluded she was untyped. Bring it here, with its provenance intact — it is Dan
-typing her, not an assessment of her, and the distinction is the whole value of
-the datapoint.

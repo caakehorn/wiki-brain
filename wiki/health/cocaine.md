@@ -1,5 +1,4 @@
 ---
-sage_pending: '2026-08-22'
 domain: health
 page_type: profile
 title: "Cocaine"
@@ -8,7 +7,7 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/ADDICTION_PROFILE.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -81,12 +80,20 @@ connections:
   - page: wiki/health/the-configured-body
     type: evidences
     claim: "The dosage arc is the sharpest evidence that specification runs without a maintenance faculty attached: 1g/day to 3.5-7g/day to 0.5-1g/day tracks the inheritance arriving and being exhausted, and no health variable appears anywhere in the curve."
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: evidences
+    claim: "The 2017-2020 dosage escalation this page attributes to the inheritance removing the capital constraint runs opposite Dan's first-person happiness-claim rate over the identical window (0.87/0.34/0.41 per 1,000 messages against 7.86 in late 2015) — the period of maximum unconstrained supply is also the period of least reported wellbeing, which the spine's own outcome-measure gap had not yet noted."
 changelog:
   - date: 2026-08-19
     note: "Initial creation — synthesis of cocaine-specific findings drawn from chemical-architecture, supply-network, legal/2015-possession-arrest, and all documented cocaine dealer pages."
 ---
 
 # Cocaine
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/concepts/acquisition-drive]] (2026-08-26), which added a
+> closure-not-completion refinement built on the Fran vigil quote — unrelated
+> to cocaine. **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-23]:** flagged stale against
 > [[wiki/mind/synthesis/dan-annie-fallout-verdict]] (2026-08-23), which moved on
@@ -359,6 +366,29 @@ seven-week window of mutual credit between broke men is the window Jay
 did not come out of. The cocaine economy's participants were as
 financially fragile as its buyer — precarity ran the whole chain.
 
+## The happiness counter-measure
+
+The dosage arc has never been checked against an outcome, and one exists. A
+`bin/mine-messages` sweep of Dan's first-person happiness claims in sent text
+runs **0.87 per 1,000 messages in 2018, 0.34 in 2019, 0.41 in 2020** — against
+**7.86** in the five weeks of late 2015 — among the lowest rates found
+anywhere in the corpus. That is the identical window as the 2017–2020 peak
+above: the escalation from ~1g/day to 3.5–7g/day tracks
+[[wiki/mind/synthesis/estate-money-spine|Fran's inheritance]] removing the
+capital constraint, and it runs precisely opposite the happiness rate.
+
+**The period where supply and money were both unconstrained is also the
+period with the least first-person report of feeling good.** This does not
+contradict anything already on this page — the desired state was already
+read here as maximum intensity limited only by supply and money, not
+moderation toward wellbeing, and
+[[wiki/mind/profile/deviance-mapping|deviance-mapping]] independently frames
+the same personality as substituting *"intensity and forbidden knowledge in
+place of happiness and stability."* What changes is that the arc now has an
+outcome measure sitting next to it rather than only a supply-and-cost
+account, and the outcome runs the wrong way for the "resource unlocked
+better living" reading a bare dosage increase might otherwise invite.
+
 ## What's missing
 
 - **Prescriber information and medical oversight**: No prescriber, clinic,
@@ -382,36 +412,3 @@ financially fragile as its buyer — precarity ran the whole chain.
   *out* of this network rather than into or around it — is recorded, but
   whether Dan made any similar attempt with any other node (before or
   after) is not on record.
-
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-22] — from the sage question `2026-08-22_005829_what-would-make-dan-happy`
-
-Answer and sources: `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`
-
-**The dosage arc and Dan's own first-person happiness rate move in opposite
-directions across the same window, which makes the 2017–2020 escalation a natural
-experiment the page never claims.** This page attributes the rise from ~1g/day to
-3.5–7g/day to Fran's inheritance removing the capital constraint, and the
-contraction to 0.5–1g/day to the money running out — *"a resource adjustment, not
-a step toward moderation."* Across the identical years, a `bin/mine-messages`
-sweep of first-person happiness claims in Dan's sent text runs **0.87 (2018), 0.34
-(2019), 0.41 (2020) per 1,000** against 7.86 in the five weeks of late 2015 —
-among the lowest rates anywhere in the corpus.
-
-**The finding: the one period where supply and money were both unconstrained is
-also the period with the least first-person report of feeling good.** That is
-consistent with the page's own reading — the desired state is maximum intensity
-limited only by supply, and intensity is not the same variable as wellbeing
-([[wiki/mind/profile/deviance-mapping]] puts it as *"intensity and forbidden
-knowledge in place of happiness and stability"*) — but the page currently has no
-outcome measure against the arc at all, and now one exists.

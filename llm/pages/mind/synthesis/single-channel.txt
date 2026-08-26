@@ -1,5 +1,4 @@
 ---
-sage_pending: '2026-08-21'
 domain: mind
 page_type: synthesis
 title: "The Single Channel"
@@ -7,7 +6,7 @@ aliases: ["one channel at maximum voltage", "no failover", "concentration archit
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -54,9 +53,18 @@ connections:
   - page: wiki/mind/synthesis/closing-the-set
     type: contradicts
     claim: "The evaluative leg, which this page scores as its weakest and 'a reading rather than a measurement,' is now measured and runs the other way: the curated taste record's creator-level Gini is 0.188 against the contact graph's 0.9601, so the concentration architecture is relational and does not generalise to culture."
+  - page: wiki/people/ally-lubin
+    type: evidenced-by
+    claim: "Ally is the one relational object in the corpus who has named this page's defining trait — sustained undisguised intensity — as her stated entry condition rather than her objection, which sharpens this page's live substitution test with a named candidate."
 ---
 
 # The Single Channel
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/synthesis/totality-themes]] (2026-08-26), which gained a
+> RE-CHECKED note confirming the same day's acquisition-drive/embedded-objective
+> tenure-and-satisfaction additions do not touch anything it cites. **No claim
+> on this page is affected.**
 
 > **RE-CHECKED [2026-08-23]:** flagged stale against
 > [[wiki/mind/concepts/the-cool-metric]], [[wiki/mind/synthesis/alias-as-periodization]]
@@ -238,6 +246,29 @@ structuring — and per
 repository cannot independently check. One evaluative axis decides admission for
 every category of thing. None of these have redundancy, and none of their
 failure modes have been tested.
+
+## Read from outside as an entry condition, not only a cost
+
+This page treats the no-failover architecture as a structural liability —
+the 811-of-1,199-messages evidence is framed throughout as exposure. A
+question put to the wiki from outside it inverted that framing using the
+same evidence. Sustained, undisguised intensity — the observable surface of
+running one channel at maximum voltage — is the one thing the corpus proves
+Dan reliably produces, and [[wiki/people/ally-lubin|Ally]] names exactly that
+as her entry condition rather than her objection: *"Well first you'd have to
+be obsessed with me again"* (2026-08-18, 13:54:32). In every other pairing
+this page and its sources document, that intensity is the failure mode a
+partner eventually cites against him. Here it is stated by the other party
+as the price of admission.
+
+This does not touch the no-failover leg — the architecture is exactly as
+fragile either way, and fragility is not the same claim as undesirability.
+What it adds is a sharpened version of the live test already running: if the
+primary channel's closure produces a fast single substitution rather than a
+distributed spread, this page can now name a candidate for that substitution
+in advance rather than only after the fact, since Ally is the one relational
+object in the corpus who has stated the entry condition this architecture
+satisfies by default.
 
 ## Why it coexists with the chaos preference
 
@@ -421,31 +452,3 @@ architecture claim is wrong rather than merely qualified.
 > re-derives the creative and cognitive legs on comparable evidence. The
 > alternative account of the same distribution is at
 > [[wiki/mind/synthesis/closing-the-set]].
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
-
-Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
-
-**The thesis's defining property was read from outside the wiki as an asset
-rather than a pathology, and the page has no language for that.** This page
-establishes one channel with no failover — *811 of Dan's 1,199 messages in 67
-hours* to the single handle refusing him. The 2026-08-21 answer used exactly that
-finding to argue that sustained undisguised intensity is the one thing the corpus
-proves Dan reliably produces, against Ally's stated requirement on 2026-08-18 at
-13:54:32: ***"Well first you'd have to be obsessed with me again."*** **In every
-other pairing the corpus documents, the intensity is the failure mode; here it is
-named by the other party as the entry condition.** That is not a refutation of the
-thesis — the no-failover leg is untouched — but it is a case the page's framing
-does not contemplate, and it bears directly on the live test the page already
-carries: if the channel closes and a fast single substitution follows, the
-identity of the substitute is now predicted, and by name.

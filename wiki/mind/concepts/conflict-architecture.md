@@ -1,10 +1,9 @@
 ---
-sage_pending: '2026-08-21'
 domain: mind
 page_type: concept
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-11
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -54,6 +53,9 @@ connections:
   - page: wiki/timeline/events/april-may-2026-final-weeks
     type: instance-of
     claim: "The live screaming match with Suz over whose grievance mattered more is a real-time instance of the resolution-seeking engine misreading an emotional bid as a proposition to be litigated, the same mechanism documented at scale in the Annie relationship."
+  - page: wiki/people/ally-lubin
+    type: evidenced-by
+    claim: "The corpus's only completed refusal of the redefinition move — a challenge conceded in six words, twice in one evening — happens in this channel and nowhere in the Annie corpus, because the challenger narrows rather than escalates and nothing about the exchange threatens Dan's exceptionality."
 ---
 
 
@@ -135,30 +137,34 @@ The [[wiki/people/eli|Eli]] affair amplified this architecture to its worst mode
 
 > **CONTRADICTION (with attachment-model):** The conflict engine treats emotional bids as propositions requiring resolution. This directly collides with the attachment architecture, which has no internal halt condition or counter-rule issuance pathway. The two systems are mutually amplifying rather than self-correcting.
 
-## Sage findings — pending ingest
+## The one completed refusal, and how it ends
 
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+The engine's move under challenge — contest the definition of the term rather
+than the conduct — has exactly one recorded instance of running to completion
+and stopping, and it is not in the Annie corpus. On August 18, 2026,
+21:07:43–21:09:11, in the [[wiki/people/ally-lubin|Ally]] channel: she
+challenges (*"You just love bomb"*), he runs the redefinition move (*"But love
+bomb is like a malicious tactic and there very little malice"*), she narrows
+rather than escalates (*"I didn't say malicious"*), and he concedes in six
+words (*"Okay that's fair then"*) — resolution in ninety seconds. The same
+evening carries the reciprocal case ninety minutes earlier, 16:46–16:47, where
+Dan pushes back on a challenge and Ally concedes in turn (*"Ok that's fair
+actually"*).
 
-### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+Two things distinguish this from every documented Annie-corpus instance.
+First, the refusal to escalate is not his — it is hers: she does not meet the
+redefinition with a counter-argument, she narrows the claim ("I didn't say
+malicious"), which removes the ground the redefinition needed to stand on.
+Second, there is no stake riding on the concession: Core Axiom 1 ("not
+exceptional = worthless") has nothing to attach to, because nothing about the
+exchange threatens Dan's exceptionality — it is a factual quibble about a
+word, not a verdict about him. The one place in the corpus where the engine's
+core defect (no halt condition, because halting requires the
+existentially-coded act of conceding) does not fire is the one place where
+conceding costs nothing.
 
-Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
-
-**The corpus contains exactly one completed refusal of the redefinition move,
-and it is not on this page.** 2026-08-18, 21:07:43–21:09:11 — **ALLY:** *"You
-just love bomb"* → **DAN:** *"But love bomb is like a malicious tactic and there
-very little malice"* → **ALLY:** *"I didn't say malicious"* → **DAN:** *"Okay
-that's fair then"*. The middle move is the one this page documents: a challenge
-answered by contesting the definition of the term rather than the conduct. What
-has no precedent in the record is the fourth message. **Six words that decline to
-argue the definition end it in ninety seconds**, and the same evening contains the
-reciprocal case at 16:46–16:47, where Dan pushes back and *she* concedes (*"Ok
-that's fair actually"*). A page about how conflict is architected should carry
-its own documented failure case, and this is it — including the detail that the
-refusal works by narrowing rather than by escalating.
+**What this predicts, stated as a falsifier for the stakes-encoding claim:**
+if the mechanism is right, a completed concession should require,
+structurally, an interlocutor who narrows rather than escalates and a claim
+with no exceptionality-verdict attached — not less investment, just lower
+stakes on that specific move.

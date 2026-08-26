@@ -9,9 +9,9 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 45 |
-| Open gaps | 453 |
-| Answered, awaiting ingest | 1 |
-| Standing predictions | 53 |
+| Open gaps | 456 |
+| Answered, awaiting ingest | 0 |
+| Standing predictions | 55 |
 
 ## Answered, awaiting ingest
 
@@ -21,8 +21,7 @@ what is missing is the pass that corrects the page and every page that
 inherited the gap, then runs `bin/wiki-gaps clear <page>`. Cheapest work
 here — no new source required, and the answer is already written down.
 
-- **[[wiki/people/ally-lubin]]** — staged 2026-08-21, 1 answer
-  - manual note
+_Nothing staged._
 
 ## Live contradictions
 
@@ -39,7 +38,7 @@ somewhere and has not yet found out where.
 - **[[wiki/mind/concepts/attachment-model]]** — Annie issued written denials of third-party involvement in November 2025 and February 2026. These denials were issued while she was involved with the third party she ultimately left for (Tuquick — tuquick-17248123683) and a defamation campaign was running within their shared peer network, creating a direct contradictio
 - **[[wiki/mind/concepts/chaos-preference]]** — single-channel shows the carve-out is not confined to the attachment slot. The same concentration appears in four domains — relational, creative, cognitive, evaluative — and in the one where it has been measured it runs to a two-sided Gini of **0.959–0.964** across ~496 handles. That is the most fragile architecture a 
 - **[[wiki/mind/concepts/conflict-architecture]]** — The conflict engine treats emotional bids as propositions requiring resolution. This directly collides with the attachment architecture, which has no internal halt condition or counter-rule issuance pathway. The two systems are mutually amplifying rather than self-correcting. ## The machine mirrors the man — the 414-me
-- **[[wiki/mind/concepts/conflict-architecture]]** — The conflict engine treats emotional bids as propositions requiring resolution. This directly collides with the attachment architecture, which has no internal halt condition or counter-rule issuance pathway. The two systems are mutually amplifying rather than self-correcting. ## Sage findings — pending ingest Transient
+- **[[wiki/mind/concepts/conflict-architecture]]** — The conflict engine treats emotional bids as propositions requiring resolution. This directly collides with the attachment architecture, which has no internal halt condition or counter-rule issuance pathway. The two systems are mutually amplifying rather than self-correcting. ## The one completed refusal, and how it en
 - **[[wiki/mind/concepts/contact-gini]]** — The Gini coefficient of 0.961 is derived entirely from pre-closure data. Following the closure event on June 1, 2026, the primary communication node was removed. No updated Gini coefficient has been calculated against post-closure behavioral data, such as recent Twitter activity, current work projects, or subsequent lo
 - **[[wiki/mind/concepts/contact-gini]]** — The Gini coefficient of 0.961 is derived entirely from pre-closure data. Following the closure event on June 1, 2026, the primary communication node was removed. No updated Gini coefficient has been calculated against post-closure behavioral data, such as recent Twitter activity, current work projects, or subsequent lo
 - **[[wiki/mind/concepts/dans-law]]** — Its signature move is to treat a missing paper trail as the operative feature of an arrangement rather than an oversight: at BFS the absence of documentation on a $50 cash demand *is* the demand's mechanism, and at the Capitol the missing procedure is the load-bearing anomaly. Applied to Dan's own housing, the same rea
@@ -102,10 +101,12 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/closing-the-set]]** — **The 2021–2023 marker will turn out to be a closed set.** interests-as-era-markers names its own largest gap: the employment-block years have no identified marker obsession. This rule predicts that when one is found it will have a countable edge and a discove
 - **[[wiki/mind/synthesis/closing-the-set]]** — **The `want-to-read` list will be more concentrated than the read list.** books records 149 unread titles. If acquisition runs ahead of reading in a set-closure architecture, the queue should show *higher* subject concentration than the finished shelf's 50%, b
 - **[[wiki/mind/synthesis/closing-the-set]]** — **Any new intense interest will show ≥5 independent sources on one object within its first three months**, and will not show a second work by the first source until the others are used up. This is scoreable against the next favourites or Goodreads export with 
+- **[[wiki/mind/synthesis/closing-the-set]]** — **The wiki itself will not produce a closure verdict from Dan.** It has no findable edge, so this page's own rule predicts it can generate surface indefinitely but not the satisfaction the Fran vigil produced. *Falsified by:* a dated, unprompted statement from
 - **[[wiki/mind/synthesis/closing-the-set]]** — **The Ally material will be read this way.** ally-lubin is the corpus's live relational object. The rule predicts that whatever reconstruction gets built there will be assembled from every independent channel available — messages, contact exports, third-party 
 - **[[wiki/mind/synthesis/dormancy-not-exit]]** — **The July 2026 "whatever goodbye annie" will not hold either.** The record ends mid-event on 2026-07-26 with that line unanswered. The rule predicts reactivation rather than a durable close, on the same grounds the June severance failed.
 - **[[wiki/mind/synthesis/dormancy-not-exit]]** — **Any person given a sustained role in this corpus has a post-role trace, and it can be found.** For every people/ page describing a relationship of more than a few months as "ended," there should be documented contact after the ending. This is checkable page 
 - **[[wiki/mind/synthesis/dormancy-not-exit]]** — **Adversarial ties are retained too.** Zac Shumar dated Dan's sister, then Alexis, then took a plea deal that sent Alexis to prison while he walked — and Dan was collaborating with him on an apparel project during her probation and arguing politics with him fo
+- **[[wiki/mind/synthesis/dormancy-not-exit]]** — **The February 2027 test is now a public commitment, not an internal note.** A sage answer published through the portal on 2026-08-21 told an outside asker that the corpus contains no attested exit in eleven years and that the most recent test — the June 1 sev
 - **[[wiki/mind/synthesis/failure-to-launch]]** — **Payload predicts tenure, not pay or interest.** Any future engagement exceeding twelve months will have an identifiable self-set objective installed at or near the start. *Falsifier:* a documented tenure over twelve months in a role with no identifiable payl
 - **[[wiki/mind/synthesis/failure-to-launch]]** — **The calibration test resolves Tier 1 in one pass.** Scoring the 43 archived numeric confidences against known outcomes will place Dan closer to well-calibrated than the general population. **This is the highest-value cheap experiment named anywhere in this c
 - **[[wiki/mind/synthesis/failure-to-launch]]** — **Analytical income arrives only through third-party-directed work.** Any revenue from the forensic capacity will come from findings delivered about a system or a third party, not about the commissioner. *Falsifier:* a paid engagement in which Dan analyses the
@@ -170,7 +171,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/legal/2015-possession-arrest]]** — Whether the fines referenced in January and February 2016 belong to this case, to the Combos matter, or to both running concurrently is not determinable from the message record — the "combos are paid off" phrasing suggests at least some of that money was the t
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 
-### mind (128)
+### mind (130)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
 - **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
@@ -209,6 +210,8 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/alias-as-periodization]]** — **The fourth name is not examined here.** `wiki/interests/music/aliases/mogged-up` is outside this page's `synthesizes:` list and its dates were not checked against the rule. If it breaks the pattern, this page is wrong and should be revised, not deleted.
 - **[[wiki/mind/synthesis/alias-as-periodization]]** — **The handoffs are fuzzy.** MOGZART's recorded start (~2014) overlaps SLOPPP's run to December 2015. The rule claims coincidence with period boundaries, not instantaneous succession, and the overlap is unresolved.
 - **[[wiki/mind/synthesis/alias-as-periodization]]** — **The 63–85% figure is a single provenance.** It traces to the context-core measurement and is repeated by the alias pages rather than independently re-measured per alias. The invariant is asserted three times from one source, which is weaker than three measur
+- **[[wiki/mind/synthesis/annual-volume-suz]]** — No mechanism is proposed for the 2017 hinge; the message content around it has not been read specifically for this question.
+- **[[wiki/mind/synthesis/annual-volume-suz]]** — 2021 and 2023 are partial years in the source table (to April; from August), which is why they sit lower than the surrounding years — this chart plots the partial-year totals as given rather than annualizing them, and a reader comparing bar heights across thos
 - **[[wiki/mind/synthesis/august-grievance-verdict]]** — **The record is almost entirely one-sided in construction.** 811 of the window's 1,199 messages are his, the audio is his recording, the analysis of the audio was commissioned by him, and this wiki is his. Annie's side of these seventy hours exists in 388 mess
 - **[[wiki/mind/synthesis/august-grievance-verdict]]** — **Her parents' actual beliefs are undocumented.** Grievance 4 rests on Dan's inference plus the asymmetric-clearing evidence, not on anything Ellen or Bill said.
 - **[[wiki/mind/synthesis/august-grievance-verdict]]** — **The phone call in which she agreed to clear his name** is voice and appears in no export.
@@ -301,9 +304,10 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (168)
+### people (169)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
+- **[[wiki/people/alexis-armel]]** — **The `known_for` line is now quoted outside the wiki, and the page owes it a harder look.** *"The six-year relationship that occupied the attachment slot without ever activating it"* was cited in a sage answer published 2026-08-21 as evidence that stability w
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
 - **[[wiki/people/alice]]** — 1. **Surname.** Claire's married name is nowhere in the corpus, so this page is filed under a single name. One sentence from the operator resolves Alice, Otto, Waylon and Claire together.
 - **[[wiki/people/alice]]** — 2. **Exact birth date.** Inferred as ~2019–2020 from a single retrospective remark. A birthday message would fix it.
@@ -313,6 +317,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/ally-lubin]]** — **Where did the December 6, 2018 conversation happen?** It is the origin of the modern relationship and is in no message corpus here — the iMessage record starts eleven days later. Instagram DM, Twitter DM, or Facebook Messenger on an account not in the takeou
 - **[[wiki/people/ally-lubin]]** — **Where did Dan first encounter her, if not AbsolutePunk?** He retracted the venue on 2026-08-18 and named Twitter as a guess. Overcast Kids, the Chris Miller orbit and Polyak are the named leads.
 - **[[wiki/people/ally-lubin]]** — **Did she reply to the elopement pitch?** It is unanswered in the captured record, but the capture breaks 96 minutes before it was sent.
+- **[[wiki/people/ally-lubin]]** — **Did she reply to the August 21, 2026 love letter?** No reply is in any source filed to this page.
 - **[[wiki/people/ally-lubin]]** — **Was the $2,100 accurate?** Dan showed her a screenshot he found convincing; she accepted it in 2019 and contests it in 2026. No financial export in `raw/` covers Cash App for 2019.
 - **[[wiki/people/ally-lubin]]** — **What was the "online shit" the spoofed number was used for?** Polyak's message is the only account and does not say. Dan never answers him, and in 2026 doubts the incident occurred at all.
 - **[[wiki/people/ally-lubin]]** — **Is she still alive and well?** Given the volume of documented suicidality in the 2019 material and her self-description in 2026, this is a question the wiki should not leave implicit.
@@ -426,7 +431,6 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/matt-kraus]]** — Kraus's current status, location, and relationship to Dan as an adult are undocumented. The capture gives no post-adolescence contact record.
 - **[[wiki/people/md]]** — Full name and exact role at Au Za'atar are not established from the thread.
 - **[[wiki/people/menore]]** — **The intermediate handle is the top action.** Service demonstrably ran 2021–May 2024 on at least one other number (and *"Menore #1?"* implies more than one), but **no export exists for any handle but 3476070497**. Recovering it would convert ~184 third-party 
-- **[[wiki/people/menore]]** — **2022 is the one blank year** — zero mentions, no evidence either way. The only window where a genuine service break could still hide.
 - **[[wiki/people/menore]]** — **Real name**: "Menor"/"el menore" is now well-supported as a Spanish diminutive rather than a transcription artifact, but his legal name is unrecorded.
 - **[[wiki/people/menore]]** — **Associate identity**: *"both brothers"* (2021-01-30) is the first lead on "my boy" and suggests a sibling operation; neither is named.
 - **[[wiki/people/menore]]** — **Supply chain**: Source of product not visible in corpus

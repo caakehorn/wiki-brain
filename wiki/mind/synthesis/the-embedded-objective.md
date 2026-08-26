@@ -1,5 +1,4 @@
 ---
-sage_pending: '2026-08-22'
 domain: mind
 page_type: synthesis
 title: "The Embedded Objective"
@@ -8,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-22
+date_modified: 2026-08-26
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -59,6 +58,12 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "This page's own unresolved gap — three purely self-set projects (MNEME, DANMODEL, the AI video essays) that never shipped despite no assignment to hide behind — is answered by 'The Irreversibility Firewall': self-origination defeats the imposed-audit risk but not the exposure risk, and completion is what creates exposure regardless of who set the goal."
+  - page: wiki/mind/synthesis/closing-the-set
+    type: parallels
+    claim: "Two distinct rules that coincide exactly once: this page explains tenure inside an assigned host, that page explains satisfaction from a bounded object's closure, and the Fran vigil is the single case with no host distinct from its payload and a payload that happens to have a findable edge — which is why it is the only commitment in the corpus reported as satisfying."
+  - page: wiki/timeline/events/fran-death-vigil
+    type: evidenced-by
+    claim: "The only commitment in 106,629 sent messages Dan reports back as having gone well, at a seventh of Au Za'atar's duration — tenure and satisfaction are independent variables, and this is the corpus's one case of both landing together."
 ---
 
 # The Embedded Objective
@@ -250,6 +255,43 @@ entirely self-set, none was assigned to anyone, and none completed. The engine
 requires a self-set objective to fire, and having one is not a guarantee that
 it does.
 
+## Tenure and satisfaction are different axes
+
+This page measures how long a commitment lasts. It says nothing about whether
+any of them was *good* for him, and the corpus's answer is that the two axes
+are independent. Au Za'atar ran 41 months on an embedded payload, and
+[[wiki/timeline/periods/2021-2023-employment-block]] names it as the origin of
+the "DAN CYCLE OF JOB ENTROPY" — long tenure, no reported satisfaction. The
+six-month [[wiki/timeline/events/fran-death-vigil|Fran vigil]] is a **seventh**
+of that duration and is the only commitment anywhere in 106,629 sent messages
+that Dan reports back as having gone well: *"we had a lot of fun. got good
+closure and finally did something in my life that wasn't completely selfish"*
+(2018-04-06).
+
+The variable the vigil adds is one this page's table cannot hold: **it had an
+end.** The jobs in the table above are open-ended host structures that run
+until their payload is destroyed from outside (Au Za'atar, Nemacolin) or never
+installed (BFS, Caviar); none of them terminates by being *finished*. The
+vigil was bounded by a death and Dan closed it himself. That is
+[[wiki/mind/synthesis/closing-the-set]]'s rule — a bounded object with a
+findable edge — arriving in the employment domain rather than the cultural
+record it was built from.
+
+**These are two rules, not one, and the vigil is the single point where they
+coincide.** The payload rule explains *tenure inside an assigned container*:
+why a host structure gets carried for 41 months instead of one. The
+closed-set rule explains *satisfaction*: why closing a bounded object produces
+the one positive verdict in the corpus. Ordinarily they describe different
+objects — a job is a host with no findable edge, a reading list is a set with
+no host to embed inside. The vigil is degenerate on both axes at once: there
+is no external host distinct from the payload (the caregiving *is* the private
+objective, not a role it was smuggled into), and the payload happens to have a
+death for an edge. That coincidence, not a shared mechanism, is why it is the
+only commitment in the record that was both long-sustained and reported as
+satisfying. A payload with a findable edge is rare; this page's four cases
+have none, which is the more parsimonious reason none of the jobs produced a
+closure verdict, without needing the two rules to collapse into one.
+
 ## Predictions
 
 1. **Every job in the record, including any not yet documented, will show an
@@ -320,37 +362,3 @@ deliberately and says so, but nothing in the corpus describes him choosing
 > tenure. The diagnostic claim — that the job ended when the assigned demand
 > came, with no payload to sustain it — is unaffected by the later reversal.
 > The conclusion survives.
-
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-22] — from the sage question `2026-08-22_005829_what-would-make-dan-happy`
-
-Answer and sources: `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`
-
-**Tenure and satisfaction come apart, and this page measures only the first.**
-The rule here explains how long a commitment lasts — 41 months, 43 months, ~1
-month — by whether a private payload was installed. It says nothing about whether
-any of them was good for him, and the corpus's answer to that is that the two
-axes are independent. Au Za'atar ran 41 months on an embedded payload and
-[[wiki/timeline/periods/2021-2023-employment-block]] names it as the origin of the
-"DAN CYCLE OF JOB ENTROPY"; the six-month
-[[wiki/timeline/events/fran-death-vigil|Fran vigil]] is a **seventh** of that
-duration and is the only commitment anywhere in 106,629 sent messages that Dan
-reports back as having gone well (*"we had a lot of fun. got good closure,"*
-2018-04-06).
-
-**The variable the vigil adds is the one this page's table cannot hold: it had an
-end.** The jobs are open-ended host structures; the vigil was bounded by a dying
-woman and he closed it. That is [[wiki/mind/synthesis/closing-the-set]]'s rule
-arriving in the employment domain, and neither page currently reaches the other.
-A future pass should decide whether "payload" and "closable set" are two rules or
-one rule seen from two sides.

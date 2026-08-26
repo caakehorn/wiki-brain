@@ -15,44 +15,10 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (29)
+## Obligations (0)
 
-Somebody or something is waiting on each of these. Drain from the top.
-
-Priority: **0** failing gate · **1** parked question · **2** staged answer ·
-**3** stale premise · **4** unnormalised portal edit.
-
-| P | Kind | What | Where | Since |
-|---|---|---|---|---|
-| 2 | sage-close | staged answer on mind/concepts/conflict-architecture, not integrated | `wiki/mind/concepts/conflict-architecture.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on mind/concepts/erotic-architecture, not integrated | `wiki/mind/concepts/erotic-architecture.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on mind/concepts/the-cool-metric, not integrated | `wiki/mind/concepts/the-cool-metric.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on mind/profile/enneagram-5w4, not integrated | `wiki/mind/profile/enneagram-5w4.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on mind/profile/intp, not integrated | `wiki/mind/profile/intp.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on mind/psychosexual/arrangement-history, not integrated | `wiki/mind/psychosexual/arrangement-history.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on mind/synthesis/attachment-trauma-bond, not integrated | `wiki/mind/synthesis/attachment-trauma-bond.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on mind/synthesis/bond-switch-2015, not integrated | `wiki/mind/synthesis/bond-switch-2015.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on mind/synthesis/dormancy-not-exit, not integrated | `wiki/mind/synthesis/dormancy-not-exit.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on mind/synthesis/single-channel, not integrated | `wiki/mind/synthesis/single-channel.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on mind/synthesis/the-commissioned-self, not integrated | `wiki/mind/synthesis/the-commissioned-self.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on mind/synthesis/the-unbroken-bond, not integrated | `wiki/mind/synthesis/the-unbroken-bond.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on people/alexis-armel, not integrated | `wiki/people/alexis-armel.md` | 2026-08-21 |
-| 2 | close | staged answer on people/ally-lubin, not integrated | `wiki/people/ally-lubin.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on people/ally-lubin, not integrated | `wiki/people/ally-lubin.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on people/annie-ulmer-personality-assessment, not integrated | `wiki/people/annie-ulmer-personality-assessment.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on people/bekah-fullem, not integrated | `wiki/people/bekah-fullem.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on people/franki-faris, not integrated | `wiki/people/franki-faris.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on people/kristin, not integrated | `wiki/people/kristin.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on people/shelbie-breakiron, not integrated | `wiki/people/shelbie-breakiron.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on health/cocaine, not integrated | `wiki/health/cocaine.md` | 2026-08-22 |
-| 2 | sage-close | staged answer on mind/concepts/acquisition-drive, not integrated | `wiki/mind/concepts/acquisition-drive.md` | 2026-08-22 |
-| 2 | sage-close | staged answer on mind/synthesis/closing-the-set, not integrated | `wiki/mind/synthesis/closing-the-set.md` | 2026-08-22 |
-| 2 | sage-close | staged answer on mind/synthesis/estate-money-spine, not integrated | `wiki/mind/synthesis/estate-money-spine.md` | 2026-08-22 |
-| 2 | sage-close | staged answer on mind/synthesis/music-as-identity, not integrated | `wiki/mind/synthesis/music-as-identity.md` | 2026-08-22 |
-| 2 | sage-close | staged answer on mind/synthesis/the-embedded-objective, not integrated | `wiki/mind/synthesis/the-embedded-objective.md` | 2026-08-22 |
-| 2 | sage-close | staged answer on people/fran-coldren, not integrated | `wiki/people/fran-coldren.md` | 2026-08-22 |
-| 2 | sage-close | staged answer on people/milo, not integrated | `wiki/people/milo.md` | 2026-08-22 |
-| 2 | sage-close | staged answer on timeline/events/fran-death-vigil, not integrated | `wiki/timeline/events/fran-death-vigil.md` | 2026-08-22 |
+None. No question is parked, no answer is staged, no premise has moved
+under a page that reasons from it, and every portal edit has had its pass.
 
 ## Standing work (202)
 

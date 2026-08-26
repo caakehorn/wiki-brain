@@ -6,7 +6,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -70,6 +70,13 @@ connections:
 ---
 
 # The Deferred Audit
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/synthesis/single-channel]] (2026-08-26), which added a section
+> reading the no-failover architecture's intensity as an entry condition for
+> one relational object (Ally) rather than only a cost. **No claim on this
+> page is affected** — this page cites single-channel's provenance-rule
+> framing, not its relational-substitution material.
 
 > **RE-CHECKED [2026-08-23]:** flagged stale against
 > [[wiki/mind/concepts/chaos-preference]], [[wiki/mind/concepts/the-cool-metric]]

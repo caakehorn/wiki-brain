@@ -1,11 +1,10 @@
 ---
-sage_pending: '2026-08-21'
 domain: mind
 page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -77,10 +76,19 @@ connections:
   - page: wiki/self/concepts/ally-and-dan-love-as-destiny
     type: parallels
     claim: "The same architecture — intensity sustained across distance, reactivation after silence, a wound shared with the partner — is argued there to produce a durable marriage rather than a trauma bond; the two pages read one structure to opposite ends, and only time separates them."
+  - page: wiki/people/ally-lubin
+    type: contradicts
+    claim: "The Ally channel is this page's pathological control: symmetric self-indictment on both sides in 2019 removes the moral-standing asymmetry the confession trap and DARVO both require, which is a mechanism-level absence rather than a milder version of the same dynamic."
 ---
 
 
 # Attachment Trauma Bond and Aura Illness
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/people/suzanne-frank]] (2026-08-26), which gained a RE-CHECKED note
+> confirming the fran-death-vigil closure-cluster finding doesn't touch its
+> caregiving or estate material. **No claim on this page is affected** — the
+> leverage-see-saw material this page draws from Suz is untouched.
 
 > **REVISED [2026-08-23] — the 110-of-127 pair this page reasons from is
 > withdrawn, and the replacement strengthens the thesis.** Flagged stale against
@@ -175,6 +183,35 @@ The full-decade dossiers give the bond its measurable arc. The love was genuine 
 > which is precisely the failure the write-back obligation exists to prevent.
 
 The bond's persistence mechanism on Dan's side is named in the dossiers as the **confession trap**: having built his identity around being the person who was right, he could not exit without the validating confession Annie was never going to give — "the exit was never through the verdict. It was through the door." His 127 exit declarations with 110 re-engagements are that trap running as designed.
+
+## The counterexample: symmetric confession disarms the mechanism
+
+The confession trap and the weaponized-ambiguity mechanism above both require
+an asymmetry of moral standing — one party positioned to convert what the
+other confessed into leverage. A question put to the wiki from outside it
+used this page as the pathological control and found one documented channel
+where that asymmetry does not hold: [[wiki/people/ally-lubin|Ally]]. Both
+sides pre-empt the standing the mechanism needs, on the same day in 2019:
+
+> **DAN (2019-08-17):** *"you know i'm honest enough to let you know i'm a
+> garbage person so you don't have to worry about feeling shitty or weird"*
+> **ALLY, the same day:** *"I tell you more than I tell anyone and I don't
+> know why."*
+
+Symmetric self-indictment removes the standing DARVO and the confession trap
+both run on: neither party holds a concealed failure the other can be made
+to answer for, because each has already conceded the failure aloud. Read
+against this page's model, that is a mechanism-level difference, not a
+milder version of the same one — the Annie bond's asymmetry is what lets a
+disclosure become a weapon, and here there is no asymmetry to convert.
+
+**The prediction this licenses is narrow, and should stay narrow.** It says
+confession cannot be turned into leverage in that specific channel — not
+that the channel is healthy by any other measure. The same channel prices
+photographs off a suicidality disclosure three months later
+([[wiki/mind/psychosexual/arrangement-history]]), which is a different
+mechanism doing separate damage. A control that disarms one pathology is not
+evidence against the others.
 
 ## Logistical and Financial Tethers
 
@@ -301,31 +338,3 @@ Resolution demands grieving the fantasy of the relationship that could have been
 > December 2015 rupture and its 2025–26 tail (13 verified unanswered reaches,
 > not 12) — richer evidence for the same paternal-rupture template this page
 > already cites, not a different one. Nothing here needed revising.
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
-
-Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
-
-**The 2026-08-21 answer used this page as the pathological control and found one
-documented interruption of the mechanism it describes.** The bond's engine, as
-this page argues it, requires an asymmetry of moral standing — one party in a
-position to weaponise what the other confessed. The Ally channel is the corpus's
-counterexample, and the reason is quotable from both sides in 2019: **DAN
-(2019-08-17):** *"you know i'm honest enough to let you know i'm a garbage person
-so you don't have to worry about feeling shitty or weird"*; **ALLY, the same
-day:** *"I tell you more than I tell anyone and I don't know why."* **Symmetric
-self-indictment removes the standing the mechanism runs on.** The prediction this
-licenses is narrow and should be recorded narrowly: it says confession cannot be
-converted into leverage in that channel, not that the channel is healthy — the
-same channel priced photographs off a suicidality disclosure three months later
-([[wiki/mind/psychosexual/arrangement-history]]).

@@ -6,7 +6,7 @@ aliases: ["chaotic neutral", "the entropy appetite", "rooting for the fire"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -48,6 +48,14 @@ connections:
 ---
 
 # The Chaos Preference
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/concepts/the-cool-metric]] (2026-08-26), which added a section on
+> the metric's one documented upper bound (the Ally Skins exchange) and removed
+> its `sage_pending` staging. This page's mirror claim — "the performed is
+> false, the unmanaged is true" — reasons from the metric's general mechanism,
+> not from the new Ally-specific material. **No claim on this page is
+> affected.**
 
 > **RE-CHECKED [2026-08-23]:** flagged stale against
 > [[wiki/interests/music/overview]] (2026-08-23). That page gained one section —

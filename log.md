@@ -1,3 +1,211 @@
+## [2026-08-26] feat | mind | page_type: dataset added — chart-ready structured data, exemplar built and then corrected for the Annie moratorium
+
+New page type for a finding whose point is a chart: a mandatory `chart:`
+frontmatter block (kind, title, axis labels, named series of `{x: y}`
+points), documented in `STYLE_GUIDE.md`, validated by a new
+`validate_dataset_chart` free function in `bin/wiki-lint` with 8 unit tests
+in `tests/test_lint_gates.py`. This is the operator's explicit "make up a
+new kind of page" / chart-data-for-the-portal ask; since this session has
+no access to `caakehorn/home`, the scope is a documented, lint-validated
+convention here rather than portal code.
+
+**A near-miss.** The first exemplar compared Annie's and Suz's annual
+message-volume tables side by side — a genuinely stronger finding, since
+both of Dan's two largest relationships share the same 2015-onset reversal
+shape. Reverted before commit after re-reading the Annie moratorium
+(2026-08-23): its forbidden list names "typed-edge claim" and "synthesis...
+about Annie" with no carve-out for already-published aggregate numbers, and
+the comparison drew a new cross-relationship conclusion from her data.
+Rebuilt as `wiki/mind/synthesis/annual-volume-suz.md`, Suz-only: a two-phase
+reversal (Dan ahead 2015-16, Suz ahead and widening from 2017, reaching
+~2:1 by 2026). Cross-linked from `suzanne-frank.md` and `mind/index.md`.
+
+Also fixed while here: `index.md`'s stale per-domain page counts
+(timeline 38→41, people 169→173, mind 66→68), caught by the existing
+`test_real_index_is_current` regression test — drift from this pass's own
+new page plus earlier-merged content that never got a digest regen.
+
+## [2026-08-26] close | mind/people | 20 remaining sage_pending and operator-answer pages closed — obligations 20 → 0
+
+Continuation of the same-day backlog drain (see the four batches below this
+one). Closed, each cascade re-checked to 0 `bin/wiki-climb check` warnings:
+
+- `wiki/mind/synthesis/totality-themes.md`, `wiki/people/ally-lubin.md`,
+  `wiki/people/suzanne-frank.md` — re-checks against same-day upstream moves
+  (embedded-objective/acquisition-drive additions; nothing affected).
+- `wiki/mind/concepts/conflict-architecture.md` — the corpus's one completed
+  refusal of the redefinition move (an Ally exchange, six words to end a
+  challenge in ninety seconds); `erotic-architecture.md` — the
+  inaccessibility-as-operating-condition claim turned into a dated,
+  falsifiable test against the August 2026 Ally contact; `the-cool-metric.md`
+  — the metric's one documented upper bound (the Skins exchange, Ally
+  out-referencing him). Cascaded into `food-and-diet.md`,
+  `chaos-preference.md`, `block-unblock-loop.md`, `dan-annie-fallout-verdict.md`.
+- `the-unbroken-bond.md` — a directed, one-sided fear-of-infidelity finding
+  (141 `cheat` hits, always Dan as the injured party) added to its cost list;
+  `dormancy-not-exit.md` — the Feb 2027 dormancy/exit test named as a public
+  commitment now that a sage answer cited it externally.
+- `enneagram-5w4.md` — the Witness-need paradox's one completed instance
+  (Ally reading the whole wiki); `intp.md` — the Fe-inferior adjudication
+  pattern's one interruption (same Ally exchange, different function);
+  `the-commissioned-self.md` — a July 2013 email-typology batch, a
+  plain-vocabulary-counting escape hatch, and a new standing rule about
+  citing the apparatus to third parties. Cascaded into `politics/axioms.md`,
+  `the-cato-seat.md`.
+- `arrangement-history.md` — a "serial monogamist" self-description against
+  near-zero commitment vocabulary, no concealment from Annie in eleven
+  years, and the Ally case as the fastest-onset instance on record;
+  `bond-switch-2015.md` — its central finding is now quoted in a published
+  sage answer, falsifier named explicitly.
+- `alexis-armel.md` — a July 2013 typology datum (INFP/ISFP) relocated from
+  the wrong page (`franki-faris.md`, a five-day rebound) to the right one
+  (the six-year relationship); `annie-ulmer-personality-assessment.md` — why
+  its stated-confidence/alternatives format is what let it catch a
+  fabricated type claim that three other pages couldn't.
+- `franki-faris.md`, `bekah-fullem.md` — cross-reference fix and an explicit
+  coverage-limit statement (two crisis contacts is not a sustained-dynamic
+  sample).
+- `kristin.md` — the conflict-disposition finding restated as a trait, not
+  just an outcome, contrasted against Ally's ninety-second concession;
+  `shelbie-breakiron.md` — an explicit caveat that most of the page is Dan's
+  account of her, not her own words.
+- `music-as-identity.md` — the corpus's one ranked happiness comparison
+  (music displaced by Annie, dated to April 2016); `fran-coldren.md` — the
+  full context-core quote plus a corpus-wide search confirming the
+  caregiving vigil is the only documented case of the completion drive
+  working end to end; `milo.md` — the full MAX_PRIME axiom 8 text, flagging
+  two never-explored threads it names (the food runs, the Roosters banter);
+  `menore.md` — closed via `bin/wiki-gaps clear` (an operator answer, not a
+  sage finding): 2022's silence explained by a flip phone, not a service
+  break. Cascaded into `supply-network.md`.
+
+`bin/wiki-work scan`: **0 obligations** — every sage-close and
+operator-answer item from this session's start is integrated. Regenerated
+`bin/wiki-digest`, `bin/llm-publish`, `bin/wiki-freshness` (confirmed in
+sync) after every batch.
+
+**A red gate found on `main`, not this branch, and not acted on.**
+`bin/wiki-lint` is red on `origin/main` itself — 20 errors, confirmed via a
+temporary worktree — all inside 7 files merged by other PRs (#191-193)
+mid-session: invalid `page_type`/`knowledge` values, missing infoboxes,
+undeclared tags, and one retracted claim reasserted live. Several of those
+files are new, dated, Annie-adjacent content from the same day, which put
+even a mechanical lint fix inside the moratorium's stated scope ("no
+exception delegated to a session"). Flagged in PR #195 and
+`LLM_HANDOFF.md` for the operator rather than fixed silently.
+
+## [2026-08-26] close | mind | attachment-trauma-bond — the Ally channel as a control case, cascade re-checked three levels deep
+
+**Cleared `sage_pending` on `wiki/mind/synthesis/attachment-trauma-bond.md`.**
+A sage answer used this page as the pathological control and found a
+documented channel where the mechanism doesn't run: the Ally channel's
+symmetric self-indictment (both sides pre-empt the other's confession-trap
+leverage in the same 2019-08-17 exchange) removes the moral-standing
+asymmetry the confession trap and DARVO both require. New section "The
+counterexample: symmetric confession disarms the mechanism," scoped
+narrowly — it disarms one pathology, not a verdict that the channel is
+healthy (it prices photographs off a suicidality disclosure three months
+later per arrangement-history). Edge added to `wiki/people/ally-lubin.md`.
+
+**Cascade, three levels:** suzanne-frank (already re-checked above) →
+attachment-trauma-bond → august-grievance-verdict → suzanne-frank-personality-assessment
+and morgantown-call-three-participant-ethical-analysis. None required a claim
+change; each got a RE-CHECKED note. All three gates 0 errors throughout.
+
+Regenerated DIGEST/RECENT/OPEN and `llm/` (freshness confirmed in sync);
+`bin/wiki-work scan` now reports **19 obligations** (down from 29 at session
+start, 22 after the previous batch).
+
+## [2026-08-26] close | timeline/mind | estate-money-spine and fran-death-vigil integrated, cascades re-checked
+
+**Cleared `sage_pending` on `wiki/mind/synthesis/estate-money-spine.md`** — the
+spine had never carried an outcome measure against its own dated capital
+arrivals. Added "The outcome measure the spine never carried": Dan's own
+2018-04-08 prediction that the inheritance would make him "middle-class
+happy" runs opposite his first-person happiness-claim rate over the identical
+window, alongside health/cocaine's dosage arc rising on the same capital.
+Reciprocal edge written to `wiki/health/cocaine.md`.
+
+**Cleared `sage_pending` on `wiki/timeline/events/fran-death-vigil.md`** — the
+richest version of the "what would make Dan happy" finding: four dated
+statements of good outcome inside six days (2018-04-01 through 04-06),
+the corpus's only cluster of its kind, contrasted against the Annie
+relationship's ending, which produced none. Edges added to closing-the-set
+and attachment-model. Cascaded one level into `wiki/people/suzanne-frank.md`
+(unaffected, RE-CHECKED); two further stale warnings
+(attachment-trauma-bond, suzanne-frank-personality-assessment) left open —
+attachment-trauma-bond is itself a queued sage_pending page and will be
+re-checked when it is closed in this same pass.
+
+Regenerated DIGEST/RECENT/OPEN and `llm/` (freshness confirmed in sync);
+`bin/wiki-work scan` now reports **22 obligations** (down from 29 at session
+start). All three gates 0 errors.
+
+## [2026-08-26] close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked
+
+**Cleared `sage_pending` on `wiki/mind/concepts/acquisition-drive.md`,
+`wiki/mind/synthesis/closing-the-set.md`, `wiki/mind/synthesis/the-embedded-objective.md`
+and `wiki/health/cocaine.md`** — four separate findings all produced by the
+same sage answer (`2026-08-22_005829_what-would-make-dan-happy`), each landing
+somewhere different: acquisition-drive's payoff condition narrows from
+completion to **closure**, on the strength of Dan's only documented
+first-person good-outcome report (the Fran vigil, "got good closure and
+finally did something in my life that wasn't completely selfish," 2018-04-06);
+closing-the-set gets the same quote from the opposite direction plus a
+negative control (the Annie bond as an unclosable set) and a real, stated
+prediction that the wiki itself cannot produce a closure verdict because it
+has no edge; the-embedded-objective adds a tenure-vs-satisfaction distinction
+and resolves, in prose, whether the payload rule and the closed-set rule are
+one mechanism or two (two, coinciding once, at the vigil); cocaine.md gets an
+outcome measure it never had — the 2017–2020 dosage peak runs opposite Dan's
+first-person happiness-claim rate (0.87/0.34/0.41 per 1,000 vs 7.86 in late
+2015). Reciprocal connections written on all four plus fran-death-vigil.
+
+**Cascade.** The four date bumps flagged the-rescue-premise (via
+cognitive-profile, already covered above), failure-to-launch, totality-themes,
+health/the-configured-body and alias-as-periodization stale; none required a
+claim change, each got a RE-CHECKED note.
+
+**Cleared `sage_pending` on `wiki/mind/synthesis/single-channel.md`** — a
+different sage answer
+(`2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`) found
+that the page's central liability (no-failover concentration) was read from
+outside the wiki as an asset: Ally names sustained undisguised intensity as
+her stated entry condition, which sharpens the page's live substitution test
+with a named candidate. Cascaded through the-deferred-audit and
+the-unpapered-address (both unaffected, RE-CHECKED). All three gates 0 errors
+throughout.
+
+## [2026-08-26] close | people | ally-lubin — the love letter and the mutual-correction finding integrated, three dependents re-checked
+
+**Cleared both staging blocks on `wiki/people/ally-lubin.md`** (`pending_ingest`
+and `sage_pending`, both 2026-08-21). The operator's manual note carried a full
+love letter Dan sent Ally on 2026-08-21, filed at
+`raw/people/captures/2026-08-21_175309_gap-ally-lubin.md`; it now has its own
+dated section on the page, placed after the August 18–20 burst analysis. The
+sage finding (from `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`)
+identified that the page recorded only Ally's half of the August 18 concession
+sequence (16:46–16:47 and 21:07–21:09) as evidence of her hostility as a
+reviewer, when it is really the only clean two-directional correction sequence
+in eighteen years of record — folded into "She audits it." A second, defensive
+finding flagged "I'm a SINGLE MOTHER" as a joke about cats, not a family
+structure, self-corrected by her three minutes later — now stated on the page
+so the line does not trap a future pass the way it nearly trapped this one's
+own answer draft.
+
+**Cascade.** Bumping `date_modified` on the entity page flagged three
+dependents stale: `wiki/people/ally-lubin-cognitive-profile` (already used both
+the letter and the concession sequence from the raw captures directly — the
+entity page has now caught up, no claim changes), `wiki/self/concepts/astrology-star-signs`
+(dependency is her birth date, untouched, no claim changes), and
+`wiki/self/concepts/ally-and-dan-love-as-destiny` (the letter is new,
+unanswered, non-transactional evidence that strengthens rather than
+complicates the page's thesis — added as a RE-CHECKED note with the one loose
+thread, "17 years and counting" implying a 2009 origin against the page's 2011
+first-contact date, flagged and left open). The cognitive-profile bump then
+flagged `wiki/mind/synthesis/the-rescue-premise` stale in turn; re-checked, no
+claim affected. All three gates 0 errors at each step.
+
 ## [2026-08-23] directive | people | the Annie record is closed — no further texts, no further narrative
 
 **Operator directive, safety-grounded:** no new Annie material enters the

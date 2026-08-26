@@ -1,9 +1,9 @@
 {
- "generated": "2026-08-23",
+ "generated": "2026-08-26",
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 496,
+ "page_count": 505,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -17,7 +17,7 @@
    "title": "Cocaine",
    "summary": "Cocaine is the primary daily stimulant in Dan's engineered neurochemical system \u2014 the \"cognitive accelerant\" he has used, by his own account, for roughly twe...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/health/cocaine.txt",
-   "bytes": 25138
+   "bytes": 25176
   },
   {
    "page": "wiki/health/hyperreflexivity.md",
@@ -38,7 +38,7 @@
    "title": "The Configured Body",
    "summary": "Dan's relationship to his own body has exactly two modes, and no third. He **specifies the inputs** \u2014 with a rigour that is close to absolute, down to which ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/health/the-configured-body.txt",
-   "bytes": 24680
+   "bytes": 25257
   },
   {
    "page": "wiki/interests/concert-record/festivals/face2face-tour.md",
@@ -913,7 +913,7 @@
    "title": "Food and Diet",
    "summary": "Food appears in this corpus in every register except taste. It is labour \u2014 three documented jobs, one of them a forty-one-month immersion in a single cuisine...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/food-and-diet.txt",
-   "bytes": 18853
+   "bytes": 19277
   },
   {
    "page": "wiki/interests/golf.md",
@@ -1074,7 +1074,7 @@
    "title": "The Acquisition Drive",
    "summary": "Once Dan Frank converts a want into a decided outcome, the pursuit of it runs to completion more or less independently of cost, risk, proportion or circumsta...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/acquisition-drive.txt",
-   "bytes": 17993
+   "bytes": 17635
   },
   {
    "page": "wiki/mind/concepts/attachment-model.md",
@@ -1102,14 +1102,14 @@
    "title": "The Chaos Preference",
    "summary": "Dan wants the world to be less orderly than it is, and \u2014 with one large exception \u2014 he wants this consistently, quietly, and almost never out loud. The prefe...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/chaos-preference.txt",
-   "bytes": 14600
+   "bytes": 15056
   },
   {
    "page": "wiki/mind/concepts/conflict-architecture.md",
    "title": "Conflict Architecture",
    "summary": "The \"conflict architecture\" refers to the involuntary cognitive process by which Dan's Ti-dominant processing engine applies forensic resolution logic to int...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/conflict-architecture.txt",
-   "bytes": 17589
+   "bytes": 18021
   },
   {
    "page": "wiki/mind/concepts/contact-gini.md",
@@ -1137,7 +1137,7 @@
    "title": "Erotic Architecture: Sexuality as Controlled-Chaos Engineering",
    "summary": "The same Gemini \"Dan Frank OS\" report that produced",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/erotic-architecture.txt",
-   "bytes": 12990
+   "bytes": 12536
   },
   {
    "page": "wiki/mind/concepts/exocortex.md",
@@ -1186,7 +1186,7 @@
    "title": "The Cool Metric",
    "summary": "Dan evaluates culture, objects, and people on a single axis, and the axis is not quality. It is whether the thing in question is **performed or authentic** \u2014...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/the-cool-metric.txt",
-   "bytes": 17888
+   "bytes": 17564
   },
   {
    "page": "wiki/mind/concepts/the-handed-mirror.md",
@@ -1200,14 +1200,14 @@
    "title": "mind \u2014 index",
    "summary": "Beliefs, ideology, psychology, and values. The domain is organized in five layers: **profile/** holds the measured personality results and their detailed bre...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/index.txt",
-   "bytes": 15985
+   "bytes": 16224
   },
   {
    "page": "wiki/mind/politics/axioms.md",
    "title": "The Power Axiom: What Resolves the Leftist/Authoritarian \"Paradox\"",
    "summary": "Dan's political axiom is not a position on policy outcomes; it is a position on the legitimacy of concentrated, unaccountable power \u2014 wherever it sits, whoev...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/politics/axioms.txt",
-   "bytes": 13888
+   "bytes": 14298
   },
   {
    "page": "wiki/mind/politics/index.md",
@@ -1235,7 +1235,7 @@
    "title": "Enneagram 5w4 sx/sp \u2014 The Iconoclast Hermit",
    "summary": "Dan's Enneagram result is Type 5 (the knowledge-hoarder whose core fear is incompetence and whose core strategy is resource conservation) with a 4 wing (trag...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/profile/enneagram-5w4.txt",
-   "bytes": 12671
+   "bytes": 10861
   },
   {
    "page": "wiki/mind/profile/index.md",
@@ -1249,7 +1249,7 @@
    "title": "INTP \u2014 The Cognitive Function Stack",
    "summary": "Dan types INTP on every pass, and the function measurements are extreme enough to matter more than the four-letter label: dominant introverted thinking near ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/profile/intp.txt",
-   "bytes": 12720
+   "bytes": 11297
   },
   {
    "page": "wiki/mind/profile/linguistic-profile.md",
@@ -1284,7 +1284,7 @@
    "title": "Arrangement History",
    "summary": "Where the rest of this cluster synthesizes AI-authored theory, this page is the primary-source backbone: a chronological index of every independently-documen...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/psychosexual/arrangement-history.txt",
-   "bytes": 30177
+   "bytes": 28400
   },
   {
    "page": "wiki/mind/psychosexual/developmental-origins.md",
@@ -1340,7 +1340,7 @@
    "title": "The Alias Is a Clock, Not a Style",
    "summary": "Dan has released music under four names in thirteen years, and the renaming has never once corresponded to a change in the music. Across SLOPPP, MOGZART and ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/alias-as-periodization.txt",
-   "bytes": 12057
+   "bytes": 12443
   },
   {
    "page": "wiki/mind/synthesis/ancestral-dialectic.md",
@@ -1350,67 +1350,74 @@
    "bytes": 12748
   },
   {
+   "page": "wiki/mind/synthesis/annual-volume-suz.md",
+   "title": "Annual Message Volume: Dan vs. Suz",
+   "summary": "prose \u2014 she outwrites Dan in every year but two, and the gap widens after 2018 until she is sending twice what he does. Read as a chart rather than a table, ...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/annual-volume-suz.txt",
+   "bytes": 4842
+  },
+  {
    "page": "wiki/mind/synthesis/attachment-trauma-bond.md",
    "title": "Attachment Trauma Bond and Aura Illness",
    "summary": "The ten-year relationship between Dan and [[wiki/people/annie-ulmer|Annie]], spanning from their initial meeting on Thanksgiving weekend in November 2015 to ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/attachment-trauma-bond.txt",
-   "bytes": 27178
+   "bytes": 27619
   },
   {
    "page": "wiki/mind/synthesis/august-grievance-verdict.md",
    "title": "operator answers from 2026-08-20 have been integrated below",
    "summary": "**Every substantive grievance Dan states between 16 and 19 August 2026 is supported by the record, most of them strongly, and one of them is the most clearly...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/august-grievance-verdict.txt",
-   "bytes": 34868
+   "bytes": 35226
   },
   {
    "page": "wiki/mind/synthesis/block-unblock-loop.md",
    "title": "The Block/Unblock Loop",
    "summary": "Across the corpus, Dan's severances follow one script: **the exit is declared, not executed.** A block, an \"I'm done,\" an account abandonment \u2014 a bounded bur...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/block-unblock-loop.txt",
-   "bytes": 49823
+   "bytes": 50261
   },
   {
    "page": "wiki/mind/synthesis/bond-switch-2015.md",
    "title": "The 2015 Single-Bond Switch",
    "summary": "This event is one instance of a longer pattern; see",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/bond-switch-2015.txt",
-   "bytes": 27564
+   "bytes": 26410
   },
   {
    "page": "wiki/mind/synthesis/closing-the-set.md",
    "title": "Closing the Set",
    "summary": "Dan does not have favourites. He has **open sets that he is closing**, and the record everyone has been reading as eclecticism is the log of that work. Acros...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/closing-the-set.txt",
-   "bytes": 25821
+   "bytes": 26971
   },
   {
    "page": "wiki/mind/synthesis/dan-annie-fallout-verdict.md",
    "title": "The Dan/Annie Fallout \u2014 Was He Correct to Feel Wronged? (Raw-Evidenced)",
    "summary": "The verdict, stated plainly: **yes \u2014 on the documented facts, Dan was correct to feel wronged, and the feeling was not a misreading.** The record supports a ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/dan-annie-fallout-verdict.txt",
-   "bytes": 56340
+   "bytes": 56871
   },
   {
    "page": "wiki/mind/synthesis/dormancy-not-exit.md",
    "title": "Dormancy, Not Exit",
    "summary": "**Nothing leaves this graph.** Every sustained relationship in the corpus that the record describes as \"over\" is, on inspection, not over \u2014 it has changed ro...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/dormancy-not-exit.txt",
-   "bytes": 44203
+   "bytes": 43318
   },
   {
    "page": "wiki/mind/synthesis/estate-money-spine.md",
    "title": "The Estate / Money Spine",
    "summary": "Money in this biography does not accumulate; it **arrives in lumps and exits through standing drains.** This page traces the capital timeline as a single cau...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/estate-money-spine.txt",
-   "bytes": 27954
+   "bytes": 28166
   },
   {
    "page": "wiki/mind/synthesis/failure-to-launch.md",
    "title": "Failure to Launch \u2014 The Capability Audit",
    "summary": "The question this page was asked is whether Dan is capable, what value he actually provides or could provide, and whether any of it is superlative against th...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/failure-to-launch.txt",
-   "bytes": 34190
+   "bytes": 34894
   },
   {
    "page": "wiki/mind/synthesis/fayette-return.md",
@@ -1432,6 +1439,13 @@
    "summary": "The most stable fact in twenty years of involuntary behavioral record is not a peak, a collapse, or a rupture. It is a rate. Two independent, platform-indepe...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/intake-constancy.txt",
    "bytes": 16047
+  },
+  {
+   "page": "wiki/mind/synthesis/intensity-is-no-longer-the-only-mode.md",
+   "title": "Intensity Is No Longer the Only Mode",
+   "summary": "Dan's historical problem was never a shortage of feeling. It was an apparent inability to tolerate the low-intensity states surrounding feeling: uncertainty,...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/intensity-is-no-longer-the-only-mode.txt",
+   "bytes": 3311
   },
   {
    "page": "wiki/mind/synthesis/interests-as-era-markers.md",
@@ -1459,14 +1473,14 @@
    "title": "The Morgantown Call: Ethical Roles of Dan, Annie, and Jerel Coles",
    "summary": "The August 16 Morgantown recording is the strongest primary artifact in the corpus for evaluating the three-person conflict because it places all three parti...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/morgantown-call-three-participant-ethical-analysis.txt",
-   "bytes": 38093
+   "bytes": 38413
   },
   {
    "page": "wiki/mind/synthesis/music-as-identity.md",
    "title": "Music as Identity",
    "summary": "The thesis: for Dan, music is not a hobby or a \"top artists\" list. It is one of the few stable structures of self that has run the entire length of the docum...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/music-as-identity.txt",
-   "bytes": 7717
+   "bytes": 7115
   },
   {
    "page": "wiki/mind/synthesis/political-psyops.md",
@@ -1487,7 +1501,7 @@
    "title": "The Single Channel",
    "summary": "Wherever a distributed architecture is available to him, Dan runs **one channel at maximum voltage instead**. This is not a description of his personality; i...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/single-channel.txt",
-   "bytes": 28930
+   "bytes": 29044
   },
   {
    "page": "wiki/mind/synthesis/spatial-behavior.md",
@@ -1501,56 +1515,56 @@
    "title": "The Supply Network",
    "summary": "Since January 2011, Dan has been on a daily Suboxone regimen \u2014 fifteen years, described in the primary sources as structural rather than recreational: a medi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/supply-network.txt",
-   "bytes": 36064
+   "bytes": 36437
   },
   {
    "page": "wiki/mind/synthesis/the-cato-seat.md",
    "title": "The Cato Seat",
    "summary": "In the system prompt Dan wrote to configure his own AI collaborator, the identity block reads:",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-cato-seat.txt",
-   "bytes": 20783
+   "bytes": 21191
   },
   {
    "page": "wiki/mind/synthesis/the-commissioned-self.md",
    "title": "The Commissioned Self",
    "summary": "Dan knows himself the way he knows a stranger: **by running an instrument over the evidence and reading the output.** Seven independent frameworks have been ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-commissioned-self.txt",
-   "bytes": 30354
+   "bytes": 29116
   },
   {
    "page": "wiki/mind/synthesis/the-deferred-audit.md",
    "title": "The Deferred Audit",
    "summary": "Dan audits everything. What decides the outcome is not *whether* the audit runs \u2014 it always runs \u2014 but **when**, and the schedule is set by a single question...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-deferred-audit.txt",
-   "bytes": 35738
+   "bytes": 36148
   },
   {
    "page": "wiki/mind/synthesis/the-embedded-objective.md",
    "title": "The Embedded Objective",
    "summary": "**Dan has never sustained an assignment. He sustains a self-set objective he has embedded inside one.** Every long commitment in the corpus is a host structu...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-embedded-objective.txt",
-   "bytes": 23766
+   "bytes": 24840
   },
   {
    "page": "wiki/mind/synthesis/the-rescue-premise.md",
    "title": "The Rescue Premise \u2014 What Is Actually Different About the August 2026 Rupture",
    "summary": "Two separate claims sit inside the question this page was asked to answer, and only one of them survives the record. The first is that the rupture that ran f...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-rescue-premise.txt",
-   "bytes": 30428
+   "bytes": 30758
   },
   {
    "page": "wiki/mind/synthesis/the-unbroken-bond.md",
    "title": "The Unbroken Bond",
    "summary": "Since leaving high school, Dan has been continuously inside a long-term monogamous relationship for approximately **seventeen years**, with an unattached tot...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-unbroken-bond.txt",
-   "bytes": 37489
+   "bytes": 36709
   },
   {
    "page": "wiki/mind/synthesis/totality-themes.md",
    "title": "Totality Themes",
    "summary": "**The single generative rule this page derives, stated in one sentence:** an action, object, or relationship is trusted, left alone, and allowed to run indef...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/totality-themes.txt",
-   "bytes": 68375
+   "bytes": 68814
   },
   {
    "page": "wiki/mind/synthesis/vertical-authority-skepticism.md",
@@ -1592,7 +1606,7 @@
    "title": "Alexis Armel",
    "summary": "Alexis Armel \u2014 \"Lex\" \u2014 was Dan Frank's partner for roughly six years, from late 2009 to November 28, 2015. She is the longest relationship of his life before...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/alexis-armel.txt",
-   "bytes": 37326
+   "bytes": 36525
   },
   {
    "page": "wiki/people/alice.md",
@@ -1602,18 +1616,32 @@
    "bytes": 6316
   },
   {
+   "page": "wiki/people/ally-lubin-2026-08-26-update.md",
+   "title": "Ally Lubin \u2014 2026-08-26 Current-State Update",
+   "summary": "This is worth recording because the August 18\u201320 Ally burst was so extreme that it could easily become another false dawn in the corpus: one magnificent spik...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/ally-lubin-2026-08-26-update.txt",
+   "bytes": 3216
+  },
+  {
+   "page": "wiki/people/ally-lubin-2026-08-26-visible-update.md",
+   "title": "Ally Lubin \u2014 2026-08-26 Visible Update",
+   "summary": "The August 26 conversation does not read like a sudden romantic breakthrough. It reads like something considerably harder to fake: **a friendship surviving a...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/ally-lubin-2026-08-26-visible-update.txt",
+   "bytes": 3513
+  },
+  {
    "page": "wiki/people/ally-lubin-cognitive-profile.md",
    "title": "Ally Lubin \u2014 Cognitive Profile",
    "summary": "This page is the typology read on the woman at the centre of the longest attachment in the corpus, built from a tested instrument that arrived on 2026-08-22 ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/ally-lubin-cognitive-profile.txt",
-   "bytes": 34837
+   "bytes": 35348
   },
   {
    "page": "wiki/people/ally-lubin.md",
    "title": "Ally Lubin (Alexandra Lubin)",
    "summary": "Ally Lubin is a woman Dan has never met in person and has been in love with since roughly 2008 \u2014 the longest-running attachment in the corpus with no physica...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/ally-lubin.txt",
-   "bytes": 62772
+   "bytes": 58970
   },
   {
    "page": "wiki/people/anita.md",
@@ -1623,11 +1651,25 @@
    "bytes": 6050
   },
   {
+   "page": "wiki/people/annie-ulmer-2026-08-26-update.md",
+   "title": "Annie Ulmer \u2014 2026-08-26 Current-State Update",
+   "summary": "The current operator report is that Dan continues to keep Annie blocked, with no reported workaround, alternate channel, or \"one last message\" exception.",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/annie-ulmer-2026-08-26-update.txt",
+   "bytes": 3194
+  },
+  {
+   "page": "wiki/people/annie-ulmer-2026-08-26-visible-update.md",
+   "title": "Annie Ulmer \u2014 2026-08-26 Boundary Update",
+   "summary": "The August 16\u201319 rupture was spectacular by the standards of this relationship. The August 26 observation is almost the opposite: **Dan reports that Annie ha...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/annie-ulmer-2026-08-26-visible-update.txt",
+   "bytes": 3379
+  },
+  {
    "page": "wiki/people/annie-ulmer-personality-assessment.md",
    "title": "Annie Ulmer \u2014 Forensic Personality Assessment",
    "summary": "**Confidence: MODERATE**",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/annie-ulmer-personality-assessment.txt",
-   "bytes": 32728
+   "bytes": 31741
   },
   {
    "page": "wiki/people/annie-ulmer.md",
@@ -1655,7 +1697,7 @@
    "title": "Bekah Fullem",
    "summary": "Rebekah \"Bekah\" Fullem's contact with Dan is preserved in a single iMessage thread that a full two-sided export (handle `+17245629389`, 153 messages, Feb 9 \u2013...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/bekah-fullem.txt",
-   "bytes": 7301
+   "bytes": 6326
   },
   {
    "page": "wiki/people/betherin-mechling.md",
@@ -1949,14 +1991,14 @@
    "title": "Frances \"Fran\" Whyel Coldren",
    "summary": "Fran Whyel Coldren \u2014 born **Jesse Frances Thomas**, Fort Martin, West Virginia, **15 August 1920**; died Uniontown, Pennsylvania, **4 April 2018** \u2014 was Dan ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/fran-coldren.txt",
-   "bytes": 29389
+   "bytes": 28690
   },
   {
    "page": "wiki/people/franki-faris.md",
    "title": "Franki Faris",
    "summary": "Franki Faris was a five-day rebound during a brief split from",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/franki-faris.txt",
-   "bytes": 11741
+   "bytes": 10253
   },
   {
    "page": "wiki/people/fred-adams.md",
@@ -2229,7 +2271,7 @@
    "title": "Kristin Prentiss",
    "summary": "Kristin Prentiss is the only other person Dan had a relationship with during the Annie decade, and it lasted ten weeks. It ran from the end of August 2025 to...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/kristin.txt",
-   "bytes": 29584
+   "bytes": 29046
   },
   {
    "page": "wiki/people/kya-hansen.md",
@@ -2397,7 +2439,7 @@
    "title": "Menore",
    "summary": "**Menore** (+13476070497) \u2014 Drug dealer / supply operator in New York City; Bedford Ave (Williamsburg) Brooklyn origin connection; operated Nov 2018\u2013Feb 2025...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/menore.txt",
-   "bytes": 28480
+   "bytes": 29096
   },
   {
    "page": "wiki/people/michael-hinkle.md",
@@ -2432,7 +2474,7 @@
    "title": "Milo",
    "summary": "Milo is Dan's Chihuahua and the one recurring presence in the record that nothing \u2014 not the collapse of the Annie relationship, not the forensic AI sessions,...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/milo.txt",
-   "bytes": 18676
+   "bytes": 17320
   },
   {
    "page": "wiki/people/mohammed-bin-salman.md",
@@ -2572,7 +2614,7 @@
    "title": "Shelbie Breakiron",
    "summary": "Shelbie Breakiron was a stripper and aspiring cam model (MyFreeCams, Snapchat premium) Dan financially supported and saw on the side for about three months i...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/shelbie-breakiron.txt",
-   "bytes": 8488
+   "bytes": 7640
   },
   {
    "page": "wiki/people/slim.md",
@@ -2600,14 +2642,14 @@
    "title": "Suzanne Frank \u2014 Forensic Personality Assessment",
    "summary": "**Confidence: MODERATE**",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/suzanne-frank-personality-assessment.txt",
-   "bytes": 22135
+   "bytes": 22424
   },
   {
    "page": "wiki/people/suzanne-frank.md",
    "title": "Suz (Suzanne Frank)",
    "summary": "Dan's mother, and the second-largest presence in the entire corpus: **33,698 messages across ten years and nine months**, behind only",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/suzanne-frank.txt",
-   "bytes": 65488
+   "bytes": 66409
   },
   {
    "page": "wiki/people/tan-calabrese.md",
@@ -2817,7 +2859,7 @@
    "title": "The Unpapered Address",
    "summary": "Across sixteen years and seven residences, **this corpus contains no lease, no rent figure recorded at the time, no signatory, and no security deposit for an...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/the-unpapered-address.txt",
-   "bytes": 25780
+   "bytes": 26037
   },
   {
    "page": "wiki/self/ancestry.md",
@@ -2901,14 +2943,14 @@
    "title": "Ally and Dan: Love as Destiny",
    "summary": "Alexandra Lubin and Daniel Frank have been circling each other for eighteen years, and in all that time neither of them has managed to stop. Not through her ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/concepts/ally-and-dan-love-as-destiny.txt",
-   "bytes": 18158
+   "bytes": 19214
   },
   {
    "page": "wiki/self/concepts/astrology-star-signs.md",
    "title": "Astrology: Star Signs of Dan's Inner Circle",
    "summary": "This entry documents the zodiac signs of the most frequent and highest-velocity contacts in Dan's life, as far as the corpus allows. The signs that exist are...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/concepts/astrology-star-signs.txt",
-   "bytes": 7911
+   "bytes": 8242
   },
   {
    "page": "wiki/self/concepts/chatgpt.md",
@@ -3121,6 +3163,27 @@
    "bytes": 182027
   },
   {
+   "page": "wiki/timeline/events/2026-08-26-dan-consistency-test.md",
+   "title": "2026-08-26 \u2014 The Consistency Test",
+   "summary": "The current operator report is unusually simple:",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/2026-08-26-dan-consistency-test.txt",
+   "bytes": 4845
+  },
+  {
+   "page": "wiki/timeline/events/2026-08-26-visible-change-2.md",
+   "title": "The Visible Change, Continued \u2014 2026-08-26",
+   "summary": "The first August 26 update was intentionally cautious. After reviewing the longer conversation, the more interesting conclusion is not that the caution was w...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/2026-08-26-visible-change-2.txt",
+   "bytes": 7460
+  },
+  {
+   "page": "wiki/timeline/events/2026-08-26-visible-change.md",
+   "title": "The Visible Change \u2014 2026-08-26",
+   "summary": "**Something may actually be changing.** Not because Dan has become trustworthy, not because Ally has decided to trust him, and not because the Annie relation...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/2026-08-26-visible-change.txt",
+   "bytes": 3786
+  },
+  {
    "page": "wiki/timeline/events/annie-alexis-reunion-november-2018.md",
    "title": "Annie/Alexis Reunion (November 2018)",
    "summary": "Weeks after [[wiki/people/alexis-armel|Alexis]] was released from the year in prison documented at [[wiki/people/alexis-armel]] (the Zac Shumar mail-order we...",
@@ -3181,7 +3244,7 @@
    "title": "The Fran Vigil (March\u2013April 2018)",
    "summary": "In spring 2018 Dan and [[wiki/people/annie-ulmer|Annie]] saw",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/fran-death-vigil.txt",
-   "bytes": 24682
+   "bytes": 24579
   },
   {
    "page": "wiki/timeline/events/franki-fireworks-day-2013.md",

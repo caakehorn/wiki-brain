@@ -6,7 +6,7 @@ aliases: ["star signs", "zodiac", "birth chart", "astrology chart"]
 status: active
 knowledge: mixed
 date_created: 2026-08-19
-date_modified: 2026-08-22
+date_modified: 2026-08-26
 importance: high
 tags: [relationships, personality-profile, digital-footprint]
 sources:
@@ -36,6 +36,12 @@ connections:
 > crisis" against Ne-dominant, Ti-auxiliary and 92% Turbulent. Those are not
 > the same description, and the divergence is worth a paragraph when somebody
 > has the appetite for it.
+
+> **RE-CHECKED [2026-08-26]:** flagged stale again against
+> [[wiki/people/ally-lubin]] (2026-08-26), which integrated a staged love
+> letter and a sage finding about a mutual-correction sequence and a joke line
+> ("I'm a SINGLE MOTHER"). None of the three touches her birth date or sign.
+> **No claim on this page is affected.**
 
 This entry documents the zodiac signs of the most frequent and highest-velocity contacts in Dan's life, as far as the corpus allows. The signs that exist are derived from primary testimony — a contact's own statement of their birthday or sign. Signs not listed are unknown; the corpus does not contain them.
 

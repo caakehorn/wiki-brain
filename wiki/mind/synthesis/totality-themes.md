@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -149,11 +149,11 @@ connections:
 > [[wiki/mind/synthesis/block-unblock-loop]] (both 2026-08-23). Both moved for
 > one reason: the 127/110 exit pair was re-derived from primary data as **129
 > episodes with 100% re-engagement**, median gap thirty-six seconds. This page
-> cites *"127 declared exits before any of them held for even a season"* — that
-> sentence is **strengthened, not affected**: the corrected record shows none of
-> them held for even 46 hours, which is a stronger form of the same claim. The
-> other `127` on this page is a 2012–2014 volume figure and is unrelated. No
-> claim withdrawn.
+> cites *"127 declared exits before any of them held for even a season"* —
+> that sentence is **strengthened, not affected**: the corrected record shows
+> none of them held for even 46 hours, which is a stronger form of the same
+> claim. The other `127` on this page is a 2012–2014 volume figure and is
+> unrelated. No claim withdrawn.
 
 > **RE-CHECKED [2026-08-22] — three premises moved by re-check blocks only.**
 > [[wiki/mind/synthesis/the-embedded-objective]],
@@ -184,6 +184,14 @@ connections:
 > 2026-08-20 re-check above, which already established that this page uses the
 > loop's pattern rather than its tallies.
 
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/synthesis/the-embedded-objective]] and
+> [[wiki/mind/concepts/acquisition-drive]] (both 2026-08-26), which added a
+> tenure-versus-satisfaction distinction built on the Fran vigil and left the
+> MNEME/DANMODEL/video-essay self-origination record — the material "The
+> Irreversibility Firewall" below reasons from — untouched. **No claim on this
+> page is affected.**
 
 > **RETIRED 2026-08-11 — the original "themed summary" spine, kept for
 > history.** Everything from here through the old "## Conclusion" heading

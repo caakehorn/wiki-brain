@@ -6,7 +6,7 @@ aliases: ["Ally MBTI", "Ally ENTP", "Ally Lubin personality type", "Alexandra Lu
 status: active
 knowledge: earned
 date_created: 2026-08-22
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 importance: high
 tags: [personality-profile, forensic-analysis, relationships, mental-health]
 date_range_start: 2013-07-05
@@ -69,6 +69,14 @@ connections:
 > relationship was never response but **content** — which is the same shape as
 > this page's central finding that what Ally prices at zero is volume and what
 > she responds to is being met. No claim withdrawn.
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against [[wiki/people/ally-lubin]]
+> (2026-08-26), which integrated its own staged love letter and sage-finding
+> blocks. Both are already load-bearing on this page — the love letter's trend
+> spotting line is already quoted above as the Ne-dominance exhibit, and the
+> 16:46–21:09 concession sequence is already this page's central Ti evidence.
+> **The entity page has caught up to what this one already used from the raw
+> captures; no claim here changes.**
 
 This page is the typology read on the woman at the centre of the longest
 attachment in the corpus, built from a tested instrument that arrived on
@@ -160,7 +168,7 @@ is a distinctive and easily recognised behaviour in text.
 
 The corpus resolves this decisively, and it does so on the instrument's
 weakest margin. **Thinking – 54% is the number the message record most
-overturns.** Her three most characteristic argumentative moves are all Ti and
+overtturns.** Her three most characteristic argumentative moves are all Ti and
 none of them are Fi:
 
 **The evidentiary standard.** On 2026-08-18 at 21:09, having read the wiki's
