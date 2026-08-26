@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-22
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 date_range_start: 2026-08-16
 date_range_end: 2026-08-22
 tags: [relationships, trauma-bond, attachment, forensic-analysis, future]
@@ -59,6 +59,12 @@ connections:
 ---
 
 # The Rescue Premise — What Is Actually Different About the August 2026 Rupture
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/people/ally-lubin-cognitive-profile]] (2026-08-26), which added only a
+> re-check note confirming its own parity finding unchanged. **No claim on this
+> page is affected** — the money/volume/superlatives/surveillance failure
+> pattern this page cites is untouched.
 
 Two separate claims sit inside the question this page was asked to answer, and
 only one of them survives the record. The first is that the rupture that ran
