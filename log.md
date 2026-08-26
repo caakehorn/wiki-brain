@@ -1,3 +1,22 @@
+## [2026-08-26] ingest | self | inbox drained: duplicate manifest identified, personality-profile capture filed
+
+Two of the three inbox items resolved (third, ANCESTRY_DNA.txt, is the next
+pass). `2026-07-11_140001_google-takeout-manifest.html` is byte-identical
+(md5 `fb7622e793ba27a6ce0ae9912fe4d69d`) to already-filed
+`raw/self/archives/google-data-export-index-20260623.html`, already cited
+on the (archived) `wiki/self/location-history.md` — the underlying 99-file
+Location History export it's a cover page for is separately filed under
+`raw/self/location/2026-06-22-ingest/`. Confirmed by md5sum rather than
+assumed from the filename; removed from inbox with no re-filing, since a
+second copy of the same bytes under a second name adds nothing. The
+personality-profile capture note (`2026-07-12_152457_add-individual-entry-for-personality-pro.md`)
+was discharged by the neurodivergence page in the previous commit; moved
+to `raw/mind/captures/` (its permanent home per `STYLE_GUIDE.md`'s
+capture-note handling) and added to that page's `sources:`.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check` and `bin/wiki-climb check` clean.
+
 ## [2026-08-26] ingest | mind | new page: autism/neurodivergence self-identification traced to its actual sourcing
 
 Operator asked for a full expansion pass. First item worked: a queued

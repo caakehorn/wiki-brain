@@ -10,6 +10,7 @@ simply listed.
 
 ## 2026-08-26 — 72 pages
 
+- **Session log:** ingest | self | inbox drained: duplicate manifest identified, personality-profile capture filed
 - **Session log:** ingest | mind | new page: autism/neurodivergence self-identification traced to its actual sourcing
 - **Session log:** feat | meta | domain: meta added — themed journeys (`page_type: journey`) and on-site mirrors of DIGEST/RECENT/OPEN
 - **Session log:** feat | mind | page_type: dataset added — chart-ready structured data, exemplar built and then corrected for the Annie moratorium

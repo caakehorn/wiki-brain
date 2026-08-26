@@ -12,6 +12,7 @@ sources:
   - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
   - raw/self/dox-md/Breaking the anxiety avoidance cycle.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - raw/mind/captures/2026-07-12_152457_add-individual-entry-for-personality-pro.md
 tags: [personality-profile, mental-health]
 knowledge: mixed
 connections:

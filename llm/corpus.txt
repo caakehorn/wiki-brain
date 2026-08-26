@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-26
-514 pages, ~1,425,083 tokens.
+514 pages, ~1,425,129 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10306,6 +10306,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 ## The last few days
 
 **2026-08-26** — 72 pages
+  - ingest | self | inbox drained: duplicate manifest identified, personality-profile capture filed
   - ingest | mind | new page: autism/neurodivergence self-identification traced to its actual sourcing
   - feat | meta | domain: meta added — themed journeys (`page_type: journey`) and on-site mirrors of DIGEST/RECENT/OPEN
   - feat | mind | page_type: dataset added — chart-ready structured data, exemplar built and then corrected for the Annie moratorium
@@ -17824,6 +17825,7 @@ sources:
   - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
   - raw/self/dox-md/Breaking the anxiety avoidance cycle.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - raw/mind/captures/2026-07-12_152457_add-individual-entry-for-personality-pro.md
 tags: [personality-profile, mental-health]
 knowledge: mixed
 connections:

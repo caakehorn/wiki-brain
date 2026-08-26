@@ -61,8 +61,8 @@ contents are now in `raw/` where they belong.
 | Item | Priority | Notes |
 |------|----------|-------|
 | 2026-07-11_140000_ANCESTRY_DNA.txt | MEDIUM | Ancestry narrative (Frank/Harris, Gillingham/Van Voorhis lines) — expand wiki/self/ancestry.md; not previously in raw/ |
-| 2026-07-11_140001_google-takeout-manifest.html | LOW | Google Takeout archive manifest — file to raw/self/, useful as export inventory |
-| 2026-07-12_152457_add-individual-entry-for-personality-pro.md | MEDIUM | Not yet triaged — check content, likely targets wiki/mind/profile/ |
+| ~~2026-07-11_140001_google-takeout-manifest.html~~ | **RESOLVED 2026-08-26** | Byte-identical (md5 `fb7622e7…`) to already-filed `raw/self/archives/google-data-export-index-20260623.html`, already cited on `wiki/self/location-history.md` (archived — the underlying export, 99 files/66.1MB/2024-05-14, is separately filed under `raw/self/location/2026-06-22-ingest/`). Removed from inbox rather than re-filed; no new fact. |
+| ~~2026-07-12_152457_add-individual-entry-for-personality-pro.md~~ | **DONE 2026-08-26** | Triaged: MBTI/Enneagram/etc. already covered by `wiki/mind/profile/`; the autism/neurodivergence request was the real gap — new page `wiki/mind/profile/neurodivergence.md`. Removed from inbox. |
 | Jared/Tricia Google Voice export (pending, from Dan) | MEDIUM | Full export requested for the "picture" story context; jaredtricia.md written from a partial ChatGPT-pasted transcript in the meantime — revisit once the fuller export lands |
 | Nabeel thread (2019-05-14/19, ~confirmed genuinely Annie) | MEDIUM | New page candidate — rich paid-client thread, only partially transcribed in raw/people/annie-ulmer/escort-messages-chatgpt-export-2025-08.md; needs the full message export before writing a page |
 | Jason thread ((516) 589-0711, 2020-06-10/17) | MEDIUM | New page candidate — "Lily"/"Annie" dual-alias client, boyfriend-filming negotiation; same status as Nabeel above |
