@@ -1,5 +1,4 @@
 ---
-sage_pending: '2026-08-21'
 domain: mind
 page_type: synthesis
 title: "The Commissioned Self"
@@ -8,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
@@ -64,6 +63,15 @@ connections:
 ---
 
 # The Commissioned Self
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/profile/intp]] and [[wiki/mind/profile/enneagram-5w4]] (both
+> 2026-08-26), which each added a documented instance from the Ally Lubin
+> channel (a completed Fe-adjudication interruption; the Witness need's one
+> completion) and removed their `sage_pending` staging. Both additions are
+> integrated into this page's own sections above rather than merely
+> acknowledged — the third-party-citation caveat and the July 2013 email
+> batch. **No further claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-22]:** flagged stale against
 > [[wiki/mind/profile/deviance-mapping]] (2026-08-22), and this one is a
@@ -270,6 +278,14 @@ logic-based dude...i can't see myself flourishing in AA/NA."* That predates
 every dossier and every model, and it is genuinely load-bearing — the type is
 not something a machine told him.
 
+The self-typing did not run alone. Per [[wiki/people/franki-faris]], the same
+**July 9–31, 2013** window carries a batch of self-sent emails typing at
+least three people — his own INTP, Alexis's INFP/ISFP, Franki's ESFP — a
+fortnight of the same operation run on a household rather than a single
+line. That batch lives in the email corpus, not the iMessage dump the
+seventeen-appearance census below measures, so the true earliest and widest
+instance of the apparatus sits outside this page's own count.
+
 It is also, read closely, **the pattern's origin rather than an exception to
 it.** The type is not being used introspectively in that sentence. It is being
 used as a *credential in an argument*: a claim about what kind of system he is,
@@ -330,6 +346,29 @@ output is not.
 **The 2013 message is the control on the AI-origin claim**, and it holds: the
 self-typing habit is a decade older than the models. What the models changed is
 throughput, not kind.
+
+**Plain-vocabulary counting is an escape hatch from the whole problem, and it
+is under-used.** The apparatus's absence from ordinary speech is what this
+page measures; the same method applied to an ordinary word instead of a
+jargon term produces a usable finding rather than an absence — first-person
+happiness claims run 170 times across the identical 106,629 messages, at
+7.86 per 1,000 in late 2015 against 0.00–2.72 in every year after
+([[wiki/health/cocaine]] reads that rate against the drug-dosage record).
+Where a commissioned claim and a word-count disagree, this page's own
+ranking says the residue wins.
+
+## The apparatus cited outward, to a third party
+
+The pattern this page tracks — commissioned, administered, handed to its
+subject — has one further stage the census above does not cover: the
+instrument cited as proof about Dan **to somebody who is not him.** A sage
+answer published 2026-08-21 used [[wiki/mind/profile/intp]]'s Fe figure and
+its stated relational consequence to explain a documented exchange to an
+outside asker, with the AI-inferred, uncorroborated-instrument caveat
+attached by hand at the point of use rather than cited from a standing rule.
+That caveat should not have to be supplied fresh every time the apparatus is
+cited; it belongs here: **any answer that draws a behavioral prediction from
+`mind/profile/` should cite this page alongside it.**
 
 ## Falsifiers
 
@@ -394,60 +433,3 @@ throughput, not kind.
   worth something. The session exports could settle this and have not been read
   for it.
 
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
-
-Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
-
-**The apparatus this page describes was consumed as evidence by an outside
-answer, and the page's own thesis is the reason that needs a caveat.** A sage
-answer published 2026-08-21 used [[wiki/mind/profile/intp]]'s Fe figure (10%
-valuing) and its relational consequence — *"emotional bids arrive as claim-shaped
-propositions and get adjudicated instead of met"* — to explain a documented
-message exchange. **That is this page's pattern running one step further out than
-it currently tracks.** The page follows the instrument from commissioned, to
-administered, to handed to its subject; this is the instrument being cited *as
-proof about him to a third party who asked a question through the portal*. The
-answer attached the caveat by hand — AI-inferred scores, not a proctored
-instrument, derived from the same corpus the exchange sits in — but the caveat
-should live here, as a standing rule about what the profile cluster can and
-cannot be used to prove.
-
-**Second, a datum for the count.** This page measures how often the apparatus
-surfaces in Dan's own sent messages. The **July 9–31, 2013 self-typology batch**
-(emails he sent himself, per [[wiki/people/franki-faris]]) produced at least three
-type codes in one fortnight — his own INTP, Alexis's INFP/ISFP, Franki's ESFP.
-That is the earliest documented instance of the behaviour this page names, it
-predates the AI era of it by a decade, and the page's seventeen-appearance figure
-is measured over iMessage rather than over the email corpus that batch lives in.
-Worth stating the boundary explicitly.
-
-### FINDING [2026-08-22] — from the sage question `2026-08-22_005829_what-would-make-dan-happy`
-
-Answer and sources: `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`
-
-**A rare non-commissioned instrument, and this page should note the shape of it.**
-The census that carries this page counts the *apparatus's* vocabulary in Dan's own
-speech — seventeen appearances across 106,629 sent messages — and uses the absence
-to show the typology layer is something done to him rather than by him. The same
-method applied to an ordinary English word rather than a jargon term produces a
-usable measurement instead of an absence: first-person happiness claims run 170
-across the identical 106,629 messages, 7.86 per 1,000 in late 2015 and between
-0.00 and 2.72 in every year after.
-
-**The finding: `bin/mine-messages` over plain vocabulary is an escape hatch from
-the commissioned-self problem, and the corpus has barely used it.** The
-psychological pages are almost entirely built on instruments Dan ordered; a
-question like *what makes him happy* can be put to the residue directly, without
-any of them. Where a commissioned claim and a word-count disagree, this page's own
-ranking says the residue wins.

@@ -1,5 +1,4 @@
 ---
-sage_pending: '2026-08-21'
 domain: mind
 page_type: profile
 title: "INTP — The Cognitive Function Stack"
@@ -7,7 +6,7 @@ aliases: ["Ti-Ne-Si-Fe", "cognitive functions"]
 status: stable
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-08-19
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-scan/Dan Profile.txt
@@ -44,6 +43,9 @@ connections:
   - page: wiki/timeline/periods/2021-2023-employment-block
     type: evidenced-by
     claim: "The introversion cost is stated in primary voice — fifteen-table freezing Saturday nights took 'literally EVERYTHING i had in me' — hospitality as a direct stressor of the documented type."
+  - page: wiki/people/ally-lubin
+    type: evidenced-by
+    claim: "The Fe-inferior conversion (emotional bids adjudicated rather than met) has its one documented interruption here: a challenge conceded in six words after the challenger narrows rather than escalates, raising the open question of whether the 10%-valuing score is a fixed ceiling or a floor a particular interlocutor can lift."
 ---
 
 # INTP — The Cognitive Function Stack
@@ -138,6 +140,18 @@ recognition, no networking instinct. In relationships, Fe-inferior is a
 prime mover of [[wiki/mind/concepts/conflict-architecture]]: emotional bids
 arrive as claim-shaped propositions and get adjudicated instead of met.
 
+That conversion has exactly one documented interruption. On August 18, 2026,
+in the [[wiki/people/ally-lubin|Ally Lubin]] channel: **ALLY** *"You just love
+bomb"* (a bid arriving shaped as judgment) → **DAN** *"But love bomb is like a
+malicious tactic and there very little malice"* (the adjudication, exactly as
+described above) → **ALLY** *"I didn't say malicious"* (declining to be
+adjudicated) → **DAN** *"Okay that's fair then."* No other exchange in the
+corpus completes that sequence. The finding is not that Fe improved — it is
+that the conversion is refusable from the outside, by narrowing the claim
+rather than escalating against it, which raises the open question of whether
+the 10%-valuing score is a fixed ceiling or a floor a particular kind of
+interlocutor can lift.
+
 ## The stack as one machine
 
 Run together, the functions produce the behavioral record with uncomfortable
@@ -163,41 +177,3 @@ proctored instrument; the Ni measurement in particular has no independent
 confirmation; no data on how the stack presents post-closure (all sources
 pre-date June 2026).
 
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
-
-Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
-
-**The Fe-inferior claim has an attested interruption, and this page has no
-instance of one.** The page states the relational consequence of 10%-valued Fe in
-one sentence — *"emotional bids arrive as claim-shaped propositions and get
-adjudicated instead of met"* — and treats it as a standing disposition. The
-2026-08-18 Ally exchange is that mechanism running and then stopping, inside two
-minutes: **ALLY** *"You just love bomb"* (a bid shaped as a judgement) → **DAN**
-*"But love bomb is like a malicious tactic and there very little malice"* (the
-adjudication, exactly as described) → **ALLY** *"I didn't say malicious"*
-(declining to be adjudicated) → **DAN** *"Okay that's fair then."* **Nothing else
-in the corpus completes that sequence.** The finding is not that Fe improved; it
-is that the conversion is refusable from the outside, by narrowing rather than by
-escalating, and the page should say what that implies about whether the pattern is
-a fixed function score or a negotiable one.
-
-**Second, a discoverability finding this page is the victim of.** Two passes on
-2026-08-21 reasoned about Dan's type without reaching this page — one inventing an
-ENFP result, one then asserting that no MBTI result for Dan existed anywhere in
-`wiki/` or `raw/`. Both are false and both were written by a model that had
-already read [[wiki/mind/profile/enneagram-5w4]]. That page does not link here in
-its prose, and neither does [[wiki/self/context-core]] where it states the
-typology line. **A profile cluster whose members do not cross-link is a cluster
-that gets half-read**, and the failure mode is not a missing page — it is a page
-nobody found. Cross-link the profile set both ways.

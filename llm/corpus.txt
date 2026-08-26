@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-26
-504 pages, ~1,367,905 tokens.
+504 pages, ~1,366,991 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -14554,7 +14554,7 @@ knowledge: earned
 title: "The Power Axiom: What Resolves the Leftist/Authoritarian 'Paradox'"
 status: active
 date_created: 2026-08-10
-date_modified: 2026-08-19
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -14594,6 +14594,13 @@ connections:
 ---
 
 # The Power Axiom: What Resolves the Leftist/Authoritarian "Paradox"
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/profile/intp]] (2026-08-26), which added a documented
+> interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and
+> removed its `sage_pending` staging. This page reasons from the Ti/Ne
+> cognitive-function claims and the great-man-theory reading, neither of
+> which the addition touches. **No claim on this page is affected.**
 
 Dan's political axiom is not a position on policy outcomes; it is a
 position on the legitimacy of concentrated, unaccountable power —
@@ -15400,7 +15407,6 @@ PAGE: wiki/mind/profile/enneagram-5w4.md
 ========================================================================
 
 ---
-sage_pending: '2026-08-21'
 domain: mind
 page_type: profile
 title: "Enneagram 5w4 sx/sp — The Iconoclast Hermit"
@@ -15408,7 +15414,7 @@ aliases: ["5w4", "sx/sp", "social-blind", "remote intimacy"]
 status: stable
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-08-19
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-scan/Dan Profile.txt
@@ -15435,6 +15441,9 @@ connections:
   - page: wiki/mind/synthesis/the-commissioned-self
     type: contradicts
     claim: "The only dated first-person self-typing in the primary record gives '5w6sx RLOEI' (2024-11-04), not the 5w4 and RLUEI this page is named for and built on — a residue reading that disagrees with the commissioned one, unreconciled, and load-bearing because the 4 wing supplies the tragic-romantic identity reading."
+  - page: wiki/people/ally-lubin
+    type: evidenced-by
+    claim: "The Witness need's one documented completion: Dan made her the first human ever to read this wiki, she audited rather than merely witnessed it, and both parties survived the transaction without the predicted consumption fear firing."
 ---
 
 
@@ -15518,6 +15527,16 @@ validates that the internal world is real — who reads the work and
 the Witness will consume him or demand reciprocal witnessing he cannot
 provide.
 
+That paradox has one documented instance of running to completion rather
+than staying theoretical. On August 18, 2026, Dan sent this wiki to
+[[wiki/people/ally-lubin|Ally Lubin]], making her the first human other than
+him ever to read it — a fact he states himself the next day: *"You def
+should have substantially more trust in me after I let you be the literal
+first person to ever read that wiki."* She did not just read it; she
+audited it, contesting its money figures and its pattern-reading of the
+Annie material. Both parties survived the transaction: the Witness function
+performed, once, without triggering the predicted consumption fear.
+
 ## The 4 wing — aristocratic alienation
 
 The wing supplies the aesthetic: identity through difference (must be
@@ -15571,46 +15590,6 @@ AI-era analyses.
 > characterise. What the corpus holds is one dated first-person self-typing that
 > this page does not match, and no second instance has been looked for. See
 > [[wiki/mind/synthesis/the-commissioned-self]].
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
-
-Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
-
-**The Witness need now has its first documented instance, and it arrived in the
-form of somebody reading this repository.** The page defines the need — *"someone
-who validates that the internal world is real — who reads the work and
-understands"* — and names the paradox that he *"fear[s] the Witness will consume
-him."* On 2026-08-18 Dan sent this wiki to Ally Lubin, making her the first human
-other than him to read it; he states the transaction himself the next day at
-19:52: *"You def should have substantially more trust in me after I let you be
-the literal first person to ever read that wiki."* She read it, and audited it.
-**That is the Witness function performed and survived, once, by both parties**, and
-it is the closest thing the corpus has to a test of this page's central paradox.
-
-**The second finding is about how this page is found, not about what it says.**
-An answer published on 2026-08-21 invented an ENFP result for Dan and reasoned
-from it; the correction issued the same day then asserted that **no MBTI result
-for Dan existed anywhere**, which is also false — [[wiki/mind/profile/intp]] is a
-full page with a measured function table, and [[wiki/mind/profile/index]] carries
-him across five instruments. Two passes in one day reached for this page's
-Enneagram material and did not reach [[wiki/mind/profile/intp]], one inventing a
-type and one denying there was one. **The finding: the profile cluster is not
-discoverable from its members.** This page names `enneagram-5w4` in `related:`
-and links `intp` nowhere in its prose lead; a reader who lands here has no
-signpost telling them the MBTI page exists. Cheap fix, real consequence — add the
-cross-link at the top of both pages, and consider whether
-[[wiki/mind/profile/index]] should be reachable from every page it indexes rather
-than only from the domain index.
 
 
 ========================================================================
@@ -15739,7 +15718,6 @@ PAGE: wiki/mind/profile/intp.md
 ========================================================================
 
 ---
-sage_pending: '2026-08-21'
 domain: mind
 page_type: profile
 title: "INTP — The Cognitive Function Stack"
@@ -15747,7 +15725,7 @@ aliases: ["Ti-Ne-Si-Fe", "cognitive functions"]
 status: stable
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-08-19
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-scan/Dan Profile.txt
@@ -15784,6 +15762,9 @@ connections:
   - page: wiki/timeline/periods/2021-2023-employment-block
     type: evidenced-by
     claim: "The introversion cost is stated in primary voice — fifteen-table freezing Saturday nights took 'literally EVERYTHING i had in me' — hospitality as a direct stressor of the documented type."
+  - page: wiki/people/ally-lubin
+    type: evidenced-by
+    claim: "The Fe-inferior conversion (emotional bids adjudicated rather than met) has its one documented interruption here: a challenge conceded in six words after the challenger narrows rather than escalates, raising the open question of whether the 10%-valuing score is a fixed ceiling or a floor a particular interlocutor can lift."
 ---
 
 # INTP — The Cognitive Function Stack
@@ -15878,6 +15859,18 @@ recognition, no networking instinct. In relationships, Fe-inferior is a
 prime mover of [[wiki/mind/concepts/conflict-architecture]]: emotional bids
 arrive as claim-shaped propositions and get adjudicated instead of met.
 
+That conversion has exactly one documented interruption. On August 18, 2026,
+in the [[wiki/people/ally-lubin|Ally Lubin]] channel: **ALLY** *"You just love
+bomb"* (a bid arriving shaped as judgment) → **DAN** *"But love bomb is like a
+malicious tactic and there very little malice"* (the adjudication, exactly as
+described above) → **ALLY** *"I didn't say malicious"* (declining to be
+adjudicated) → **DAN** *"Okay that's fair then."* No other exchange in the
+corpus completes that sequence. The finding is not that Fe improved — it is
+that the conversion is refusable from the outside, by narrowing the claim
+rather than escalating against it, which raises the open question of whether
+the 10%-valuing score is a fixed ceiling or a floor a particular kind of
+interlocutor can lift.
+
 ## The stack as one machine
 
 Run together, the functions produce the behavioral record with uncomfortable
@@ -15903,44 +15896,6 @@ proctored instrument; the Ni measurement in particular has no independent
 confirmation; no data on how the stack presents post-closure (all sources
 pre-date June 2026).
 
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
-
-Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
-
-**The Fe-inferior claim has an attested interruption, and this page has no
-instance of one.** The page states the relational consequence of 10%-valued Fe in
-one sentence — *"emotional bids arrive as claim-shaped propositions and get
-adjudicated instead of met"* — and treats it as a standing disposition. The
-2026-08-18 Ally exchange is that mechanism running and then stopping, inside two
-minutes: **ALLY** *"You just love bomb"* (a bid shaped as a judgement) → **DAN**
-*"But love bomb is like a malicious tactic and there very little malice"* (the
-adjudication, exactly as described) → **ALLY** *"I didn't say malicious"*
-(declining to be adjudicated) → **DAN** *"Okay that's fair then."* **Nothing else
-in the corpus completes that sequence.** The finding is not that Fe improved; it
-is that the conversion is refusable from the outside, by narrowing rather than by
-escalating, and the page should say what that implies about whether the pattern is
-a fixed function score or a negotiable one.
-
-**Second, a discoverability finding this page is the victim of.** Two passes on
-2026-08-21 reasoned about Dan's type without reaching this page — one inventing an
-ENFP result, one then asserting that no MBTI result for Dan existed anywhere in
-`wiki/` or `raw/`. Both are false and both were written by a model that had
-already read [[wiki/mind/profile/enneagram-5w4]]. That page does not link here in
-its prose, and neither does [[wiki/self/context-core]] where it states the
-typology line. **A profile cluster whose members do not cross-link is a cluster
-that gets half-read**, and the failure mode is not a missing page — it is a page
-nobody found. Cross-link the profile set both ways.
 
 
 ========================================================================
@@ -27290,7 +27245,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-19
+date_modified: 2026-08-26
 sources:
   - raw/self/favorites/FAVS MASTERLIST.csv
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -27342,6 +27297,13 @@ connections:
 ---
 
 # The Cato Seat
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/profile/intp]] (2026-08-26), which added a documented
+> interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and
+> removed its `sage_pending` staging. This page reasons from the
+> singular-perceiver self-myth and the curated-artwork tag count, neither of
+> which the addition touches. **No claim on this page is affected.**
 
 In the system prompt Dan wrote to configure his own AI collaborator, the
 identity block reads:
@@ -27608,7 +27570,6 @@ PAGE: wiki/mind/synthesis/the-commissioned-self.md
 ========================================================================
 
 ---
-sage_pending: '2026-08-21'
 domain: mind
 page_type: synthesis
 title: "The Commissioned Self"
@@ -27617,7 +27578,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
@@ -27673,6 +27634,15 @@ connections:
 ---
 
 # The Commissioned Self
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/profile/intp]] and [[wiki/mind/profile/enneagram-5w4]] (both
+> 2026-08-26), which each added a documented instance from the Ally Lubin
+> channel (a completed Fe-adjudication interruption; the Witness need's one
+> completion) and removed their `sage_pending` staging. Both additions are
+> integrated into this page's own sections above rather than merely
+> acknowledged — the third-party-citation caveat and the July 2013 email
+> batch. **No further claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-22]:** flagged stale against
 > [[wiki/mind/profile/deviance-mapping]] (2026-08-22), and this one is a
@@ -27879,6 +27849,14 @@ logic-based dude...i can't see myself flourishing in AA/NA."* That predates
 every dossier and every model, and it is genuinely load-bearing — the type is
 not something a machine told him.
 
+The self-typing did not run alone. Per [[wiki/people/franki-faris]], the same
+**July 9–31, 2013** window carries a batch of self-sent emails typing at
+least three people — his own INTP, Alexis's INFP/ISFP, Franki's ESFP — a
+fortnight of the same operation run on a household rather than a single
+line. That batch lives in the email corpus, not the iMessage dump the
+seventeen-appearance census below measures, so the true earliest and widest
+instance of the apparatus sits outside this page's own count.
+
 It is also, read closely, **the pattern's origin rather than an exception to
 it.** The type is not being used introspectively in that sentence. It is being
 used as a *credential in an argument*: a claim about what kind of system he is,
@@ -27939,6 +27917,29 @@ output is not.
 **The 2013 message is the control on the AI-origin claim**, and it holds: the
 self-typing habit is a decade older than the models. What the models changed is
 throughput, not kind.
+
+**Plain-vocabulary counting is an escape hatch from the whole problem, and it
+is under-used.** The apparatus's absence from ordinary speech is what this
+page measures; the same method applied to an ordinary word instead of a
+jargon term produces a usable finding rather than an absence — first-person
+happiness claims run 170 times across the identical 106,629 messages, at
+7.86 per 1,000 in late 2015 against 0.00–2.72 in every year after
+([[wiki/health/cocaine]] reads that rate against the drug-dosage record).
+Where a commissioned claim and a word-count disagree, this page's own
+ranking says the residue wins.
+
+## The apparatus cited outward, to a third party
+
+The pattern this page tracks — commissioned, administered, handed to its
+subject — has one further stage the census above does not cover: the
+instrument cited as proof about Dan **to somebody who is not him.** A sage
+answer published 2026-08-21 used [[wiki/mind/profile/intp]]'s Fe figure and
+its stated relational consequence to explain a documented exchange to an
+outside asker, with the AI-inferred, uncorroborated-instrument caveat
+attached by hand at the point of use rather than cited from a standing rule.
+That caveat should not have to be supplied fresh every time the apparatus is
+cited; it belongs here: **any answer that draws a behavioral prediction from
+`mind/profile/` should cite this page alongside it.**
 
 ## Falsifiers
 
@@ -28003,63 +28004,6 @@ throughput, not kind.
   worth something. The session exports could settle this and have not been read
   for it.
 
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
-
-Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
-
-**The apparatus this page describes was consumed as evidence by an outside
-answer, and the page's own thesis is the reason that needs a caveat.** A sage
-answer published 2026-08-21 used [[wiki/mind/profile/intp]]'s Fe figure (10%
-valuing) and its relational consequence — *"emotional bids arrive as claim-shaped
-propositions and get adjudicated instead of met"* — to explain a documented
-message exchange. **That is this page's pattern running one step further out than
-it currently tracks.** The page follows the instrument from commissioned, to
-administered, to handed to its subject; this is the instrument being cited *as
-proof about him to a third party who asked a question through the portal*. The
-answer attached the caveat by hand — AI-inferred scores, not a proctored
-instrument, derived from the same corpus the exchange sits in — but the caveat
-should live here, as a standing rule about what the profile cluster can and
-cannot be used to prove.
-
-**Second, a datum for the count.** This page measures how often the apparatus
-surfaces in Dan's own sent messages. The **July 9–31, 2013 self-typology batch**
-(emails he sent himself, per [[wiki/people/franki-faris]]) produced at least three
-type codes in one fortnight — his own INTP, Alexis's INFP/ISFP, Franki's ESFP.
-That is the earliest documented instance of the behaviour this page names, it
-predates the AI era of it by a decade, and the page's seventeen-appearance figure
-is measured over iMessage rather than over the email corpus that batch lives in.
-Worth stating the boundary explicitly.
-
-### FINDING [2026-08-22] — from the sage question `2026-08-22_005829_what-would-make-dan-happy`
-
-Answer and sources: `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`
-
-**A rare non-commissioned instrument, and this page should note the shape of it.**
-The census that carries this page counts the *apparatus's* vocabulary in Dan's own
-speech — seventeen appearances across 106,629 sent messages — and uses the absence
-to show the typology layer is something done to him rather than by him. The same
-method applied to an ordinary English word rather than a jargon term produces a
-usable measurement instead of an absence: first-person happiness claims run 170
-across the identical 106,629 messages, 7.86 per 1,000 in late 2015 and between
-0.00 and 2.72 in every year after.
-
-**The finding: `bin/mine-messages` over plain vocabulary is an escape hatch from
-the commissioned-self problem, and the corpus has barely used it.** The
-psychological pages are almost entirely built on instruments Dan ordered; a
-question like *what makes him happy* can be put to the residue directly, without
-any of them. Where a commissioned claim and a word-count disagree, this page's own
-ranking says the residue wins.
 
 
 ========================================================================

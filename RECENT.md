@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-26 — 33 pages
+## 2026-08-26 — 38 pages
 
 - **Session log:** close | mind | attachment-trauma-bond — the Ally channel as a control case, cascade re-checked three levels deep
 - **Session log:** close | timeline/mind | estate-money-spine and fran-death-vigil integrated, cascades re-checked
@@ -25,6 +25,9 @@ simply listed.
 | [[wiki/mind/concepts/conflict-architecture]] | mind | _(carries a REVISED from 2026-07-18)_ |
 | [[wiki/mind/concepts/erotic-architecture]] | mind | — |
 | [[wiki/mind/concepts/the-cool-metric]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
+| [[wiki/mind/politics/axioms]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
+| [[wiki/mind/profile/enneagram-5w4]] | mind | _(carries a CONTRADICTION from 2026-08-19)_ |
+| [[wiki/mind/profile/intp]] | mind | — |
 | [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — flagged stale against totality-themes (2026-08-26), which gained two RE-CHECKED notes confirming its own cited premises unaffected by the same day's acquisition-drive/embedded-objective additions. **N |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-26), which gained a RE-CHECKED note confirming the fran-death-vigil closure-cluster finding doesn't touch its caregiving or estate material. **No claim on  |
 | [[wiki/mind/synthesis/august-grievance-verdict]] | mind | **RE-CHECKED** — flagged stale against attachment-trauma-bond (2026-08-26), which added a counterexample section about the Ally channel's symmetric self-indictment. **No claim on this page is affected** — this page ci |
@@ -37,6 +40,8 @@ simply listed.
 | [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] | mind | — |
 | [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] | mind | **RE-CHECKED** — flagged stale against august-grievance-verdict (2026-08-26), which gained a re-check note only, confirming an unrelated attachment-trauma-bond addition (the Ally symmetric-confession counterexample) d |
 | [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — flagged stale against totality-themes (2026-08-26), which gained a RE-CHECKED note confirming the same day's acquisition-drive/embedded-objective tenure-and-satisfaction additions do not touch anythin |
+| [[wiki/mind/synthesis/the-cato-seat]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
+| [[wiki/mind/synthesis/the-commissioned-self]] | mind | **RE-CHECKED** — flagged stale against intp and enneagram-5w4 (both 2026-08-26), which each added a documented instance from the Ally Lubin channel (a completed Fe-adjudication interruption; the Witness need |
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — flagged stale against single-channel (2026-08-26), which added a section reading the no-failover architecture's intensity as an entry condition for one relational object (Ally) rather than only a cost |
 | [[wiki/mind/synthesis/the-embedded-objective]] | mind | _(carries a RE-CHECKED from 2026-08-24)_ |
 | [[wiki/mind/synthesis/the-rescue-premise]] | mind | **RE-CHECKED** — flagged stale against ally-lubin-cognitive-profile (2026-08-26), which added only a re-check note confirming its own parity finding unchanged. **No claim on this page is affected** — the money/volume/ |
@@ -51,7 +56,7 @@ simply listed.
 | [[wiki/self/concepts/astrology-star-signs]] | self | **RE-CHECKED** — flagged stale again against ally-lubin (2026-08-26), which integrated a staged love letter and a sage finding about a mutual-correction sequence and a joke line ("I'm a SINGLE MOTHER"). None of the th |
 | [[wiki/timeline/events/fran-death-vigil]] | timeline | _(carries a CORRECTED from 2026-08-18)_ |
 
-## 2026-08-23 — 27 pages
+## 2026-08-23 — 26 pages
 
 - **Session log:** directive | people | the Annie record is closed — no further texts, no further narrative
 - **Session log:** lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
@@ -73,7 +78,6 @@ simply listed.
 | [[wiki/mind/synthesis/message-circadian-latency]] | mind | **CORRECTED** — This section previously opened *"The headline: a 9× reply-latency asymmetry with Annie"* and concluded: *"Dan answers almost everyone within 1–5 minutes. The people he messages answer him on a complet |
 | [[wiki/mind/synthesis/read-receipt-forensics]] | mind | **RE-CHECKED** — forensic-method gained an `instance-of` edge on 2026-08-23 into texting-deviance-audit. No content this page depends on changed. The new instance does rhyme with this page's subject: the audi |
 | [[wiki/mind/synthesis/supply-network]] | mind | **RE-CHECKED** — flagged stale against annie-ulmer (2026-08-23), which gained a section on her 2024 employment (libby) and on unpaid childcare. **No supply figure, route, counterparty or date on that page changed**, a |
-| [[wiki/mind/synthesis/the-commissioned-self]] | mind | **RE-CHECKED** — linguistic-profile was corrected on 2026-08-23: its "99th percentile for lexical diversity" and "post-graduate (16th grade+) readability" were recomputed against the sender-tagged corpus and both fail |
 | [[wiki/people/alice]] | people | — |
 | [[wiki/people/annie-ulmer]] | people | **CORRECTED** — The standing account of Annie's working life — sourced to `raw/self/dox-md/Honest assessment and value judgment analysis.md` and repeated downstream — is that she *"was fired in 2023 and spent a full  |
 | [[wiki/people/annie-ulmer-personality-assessment]] | people | **RE-CHECKED** — Flagged stale against annie-ulmer (2026-08-23), which gained a section establishing that Annie worked two jobs through most of 2024, including sustained paid care for an elderly woman (libby), and pro |
@@ -177,7 +181,7 @@ simply listed.
 | [[wiki/timeline/index]] | timeline | — |
 | [[wiki/work/bfs-foods]] | work | — |
 
-## 2026-08-19 — 30 pages
+## 2026-08-19 — 26 pages
 
 - **Session log:** audit | self | the last three days of edits — three pages had the attribution backwards, and the corpus settled all three
 - **Session log:** synthesis | health | cocaine — new substance profile page
@@ -196,16 +200,12 @@ simply listed.
 | [[wiki/interests/roman-republic]] | interests | — |
 | [[wiki/mind/concepts/dans-law]] | mind | **CONTRADICTION** — Its signature move is to treat a missing paper trail as the operative feature of an arrangement rather than an oversight: at BFS the absence of documentation on a $50 cash demand *is* the demand's mec |
 | [[wiki/mind/concepts/the-handed-mirror]] | mind | _(carries a CORRECTED from 2026-08-18)_ |
-| [[wiki/mind/politics/axioms]] | mind | _(carries a RE-CHECKED from 2026-08-18)_ |
 | [[wiki/mind/profile/big-five-psychometrics]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
-| [[wiki/mind/profile/enneagram-5w4]] | mind | **CONTRADICTION** — Everything on this page descends from a commissioned instrument. The message corpus contains exactly one instance of Dan typing himself in his own words, quoting back a prompt he had written, on **202 |
-| [[wiki/mind/profile/intp]] | mind | — |
 | [[wiki/mind/profile/socionics-and-attitudinal]] | mind | — |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | — |
 | [[wiki/mind/synthesis/intake-constancy]] | mind | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/mind/synthesis/interests-as-era-markers]] | mind | — |
 | [[wiki/mind/synthesis/political-psyops]] | mind | — |
-| [[wiki/mind/synthesis/the-cato-seat]] | mind | — |
 | [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
 | [[wiki/places/307-e-76th-st]] | places | **GAP CLOSED** — the Gaps note above records the monthly rent as not recovered. It is in the message dump twice, from Dan's own outbound. **2024-05-02:** *"I mean that's fine but the last lease we signed was 2450."* * |
 | [[wiki/places/424-bedford-ave]] | places | — |
