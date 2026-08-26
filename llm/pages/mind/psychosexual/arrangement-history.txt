@@ -4,7 +4,7 @@ page_type: concept
 title: "Arrangement History"
 status: active
 date_created: 2026-07-14
-date_modified: 2026-08-20
+date_modified: 2026-08-26
 knowledge: mixed
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
@@ -71,7 +71,9 @@ connections:
   - page: wiki/people/trinity-st-clair
     type: instance-of
     claim: "A paid, professional booking with an agreed $1,500 fee is the arrangement in its most explicitly commercial form — the version where the third party is contracted rather than courted."
-sage_pending: 2026-08-21
+  - page: wiki/people/ally-lubin
+    type: instance-of
+    claim: "The arrangement pitched to a non-partner inside ninety minutes of her losing her income — the fastest-onset instance in the corpus, and the one that shows speed-of-onset is a property worth measuring for the rest of the table."
 ---
 
 # Arrangement History
@@ -150,6 +152,31 @@ and personal was porous from multiple directions, not just Dan's. Third,
 background practice — consistent with the "burst event" pattern already
 documented in the Annie relationship's conflict architecture, though no
 source in the corpus explicitly connects the two.
+
+Two further properties emerge from a full-corpus word-frequency check rather
+than from the event table. **He described himself, at the height of this
+era, as a monogamist.** *"i'm a serial monogamist so i've only been with a
+few girls, and they all fit a very specific type"* (Sent, 2019-08-17 22:26)
+— six weeks before the Kelly Johansson run and two months before the filmed
+MMF — is the only instance of the phrase anywhere in the corpus.
+Corroborating counts across all 217,573 records: `monogam` 7, `faithful` 3,
+`exclusive` 15, against this page's own 304 camming-signal tokens and 107
+non-monogamy tokens. The vocabulary of *commitment* is nearly absent from a
+corpus in which the vocabulary of *arrangement* is abundant. **Openness was
+never the requirement here — authorship was**, the same reading the Kristin
+inversion already licenses, and he did not experience the open period as
+non-monogamy in the identity sense at all. And in eleven years the corpus
+shows no instance of an outside encounter concealed from Annie: every
+documented instance is disclosed, and usually she is present — the property
+that most distinguishes this record from ordinary infidelity.
+
+A sixth property, from the [[wiki/people/ally-lubin|Ally Lubin]] channel:
+the arrangement was pitched to a non-partner inside ninety minutes of her
+losing her income (2019-08-17) — *"how do i try to sell you on letting me
+pay for your noodz while you're in bummer island?"* — a faster trigger than
+any instance in the table above. Speed-of-onset is not currently a property
+this page measures for the others, and this is the instance that shows it
+is worth measuring.
 
 ## The 2026 accusation, tested against this table
 
@@ -306,61 +333,3 @@ represents a genuine shift in preference, a reaction to the [[wiki/people/eli|El
 betrayal's timing, or simply what that particular partner required is not
 established anywhere in the corpus.
 
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
-
-Answer and sources: `raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md`
-
-**At the height of the arrangement era he described himself, to an outsider, as a
-serial monogamist.** *"i'm a serial monogamist so i've only been with a few
-girls, and they all fit a very specific type"* — Sent, **2019-08-17 22:26**, six
-weeks before the Kelly Johansson run and two months before the filmed MMF. The
-phrase occurs nowhere else in the corpus and nowhere in the wiki.
-
-That is not a contradiction to resolve; it is evidence for what this page already
-concludes about the Kristin inversion. **Openness was never the requirement —
-authorship was**, and he did not experience the open period as non-monogamy in the
-identity sense at all. He read himself as a monogamist running an arrangement.
-Worth a line in "What the pattern shows," next to the Kristin row.
-
-Corroborating counts from the same pass, over all 217,573 records: `monogam` **7**,
-`faithful` **3**, `exclusive` **15** — against this page's 304 camming-signal
-tokens and 107 non-monogamy tokens. The vocabulary of *commitment* is nearly
-absent from a corpus in which the vocabulary of *arrangement* is abundant, which
-cuts against the identity reading in a way this page should state rather than
-leave for a reader to notice.
-
-**Also relevant to the live "who initiated" question this page carries:** the
-answer found no instance, in eleven years, of an outside encounter concealed from
-Annie. Every documented instance is disclosed, and usually she is present. That
-is a third structural property alongside the two the page names, and it is the
-one that most distinguishes this record from ordinary infidelity.
-
-### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
-
-Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
-
-**The 2019 Ally sequence is this page's cleanest instance and it was published as
-one.** Asked from outside the wiki which person is the best match for Dan, the
-2026-08-21 answer named Ally Lubin and then used this page's frame as its second
-piece of counter-evidence: a price list negotiated with a woman who, in the same
-thread, reports no income, no insurance, a bottle of wine a night, and *"If I
-killed myself would you be sad."* The quotes are Dan's — *"how do i try to sell
-you on letting me pay for your noodz while you're in bummer island?"*
-(2019-08-17), *"i'd do $30 for a tit pic if your face is visible"* — and hers:
-*"I want to be on your payroll tho / But you scare me."* **The finding: the
-arrangement is documented here as a structure Dan proposes to partners, and the
-Ally case shows it proposed to a non-partner, inside ninety minutes of learning
-she had lost her income.** That is a faster trigger than any other instance on
-this page, and speed-of-onset is not currently one of the properties the page
-measures.
