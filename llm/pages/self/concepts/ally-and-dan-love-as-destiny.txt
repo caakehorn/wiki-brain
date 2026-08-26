@@ -146,7 +146,7 @@ She writes, unprompted, in the space of ninety minutes:
 > **ALLY:** **When you want to be a power couple LMK**
 
 He answers *"You already know I'd sign my soul away in blood for that"* and
-*"You have legacy crush status with me 🖤"*, and of the girlfriend he had at
+*"You have legacy crush status with me 🦤"*, and of the girlfriend he had at
 the time, ninety seconds later — *"She's no ally lubin / She aight / But she no
 you."*
 

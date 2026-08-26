@@ -168,7 +168,7 @@ is a distinctive and easily recognised behaviour in text.
 
 The corpus resolves this decisively, and it does so on the instrument's
 weakest margin. **Thinking – 54% is the number the message record most
-overturns.** Her three most characteristic argumentative moves are all Ti and
+overtturns.** Her three most characteristic argumentative moves are all Ti and
 none of them are Fi:
 
 **The evidentiary standard.** On 2026-08-18 at 21:09, having read the wiki's

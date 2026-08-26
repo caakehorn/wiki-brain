@@ -9,8 +9,8 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 45 |
-| Open gaps | 454 |
-| Answered, awaiting ingest | 0 |
+| Open gaps | 453 |
+| Answered, awaiting ingest | 1 |
 | Standing predictions | 54 |
 
 ## Answered, awaiting ingest
@@ -21,7 +21,8 @@ what is missing is the pass that corrects the page and every page that
 inherited the gap, then runs `bin/wiki-gaps clear <page>`. Cheapest work
 here — no new source required, and the answer is already written down.
 
-_Nothing staged._
+- **[[wiki/people/menore]]** — staged 2026-08-26, 1 answer
+  - 2022 is the one blank year — zero mentions, no evidence either way. The…
 
 ## Live contradictions
 
@@ -301,7 +302,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (169)
+### people (168)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
@@ -427,7 +428,6 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/matt-kraus]]** — Kraus's current status, location, and relationship to Dan as an adult are undocumented. The capture gives no post-adolescence contact record.
 - **[[wiki/people/md]]** — Full name and exact role at Au Za'atar are not established from the thread.
 - **[[wiki/people/menore]]** — **The intermediate handle is the top action.** Service demonstrably ran 2021–May 2024 on at least one other number (and *"Menore #1?"* implies more than one), but **no export exists for any handle but 3476070497**. Recovering it would convert ~184 third-party 
-- **[[wiki/people/menore]]** — **2022 is the one blank year** — zero mentions, no evidence either way. The only window where a genuine service break could still hide.
 - **[[wiki/people/menore]]** — **Real name**: "Menor"/"el menore" is now well-supported as a Spanish diminutive rather than a transcription artifact, but his legal name is unrecorded.
 - **[[wiki/people/menore]]** — **Associate identity**: *"both brothers"* (2021-01-30) is the first lead on "my boy" and suggests a sibling operation; neither is named.
 - **[[wiki/people/menore]]** — **Supply chain**: Source of product not visible in corpus

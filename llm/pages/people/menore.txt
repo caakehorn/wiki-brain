@@ -4,6 +4,7 @@ page_type: entity
 status: active
 date_created: 2026-06-23
 date_modified: 2026-08-21
+pending_ingest: 2026-08-26
 date_range_start: 2018-11-04
 date_range_end: 2025-07-28
 sources:
@@ -384,8 +385,6 @@ The 6-year silence (2013–2018) followed by immediate resurrection of the exact
   more than one), but **no export exists for any handle but 3476070497**.
   Recovering it would convert ~184 third-party mentions into a primary
   thread and close the last real hole in this page.
-- **2022 is the one blank year** — zero mentions, no evidence either way.
-  The only window where a genuine service break could still hide.
 - **Real name**: "Menor"/"el menore" is now well-supported as a Spanish
   diminutive rather than a transcription artifact, but his legal name is
   unrecorded.
@@ -400,3 +399,25 @@ The 6-year silence (2013–2018) followed by immediate resurrection of the exact
   supply side after 2025-02-20. **How Dan knows is itself unrecorded** — the
   answer implies some awareness channel (contact, mutual acquaintance,
   reputation) that this page cannot see, and that channel is worth finding.
+
+## Operator answers — pending ingest
+
+> Transient staging, written from the portal. Each block below is the
+> operator answering something this page said it did not know. **Nothing here
+> has been integrated yet.** The next pass over this page reads these answers,
+> corrects this page *and every page that inherited the gap*, records each
+> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
+> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
+> section and the `pending_ingest:` flag. It is not allowed to accumulate into
+> a changelog — STYLE_GUIDE rule 6.
+
+### ANSWERED [2026-08-26] — 2022 is the one blank year — zero mentions, no evidence either way. The…
+
+**The gap, as this page stated it:**
+
+> - **2022 is the one blank year** — zero mentions, no evidence either way.
+>   The only window where a genuine service break could still hide.
+
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-26_034338_gap-menore.md`.
+
+I had a flip phone that year

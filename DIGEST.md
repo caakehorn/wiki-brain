@@ -13,22 +13,22 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 496 |
-| Pages touched in the last 14 days | 166 |
+| Pages | 504 |
+| Pages touched in the last 14 days | 167 |
 | Pages reasoning from other pages (`synthesizes:`) | 43 |
 | Live contradictions | 45 |
-| Open gaps | 454 |
+| Open gaps | 453 |
 | Standing predictions | 54 |
 
 ## By domain
 
 | Domain | Pages |
 |---|---|
-| people | 170 |
+| people | 174 |
 | interests | 143 |
-| mind | 70 |
+| mind | 71 |
+| timeline | 42 |
 | self | 40 |
-| timeline | 39 |
 | work | 15 |
 | places | 10 |
 | health | 5 |
@@ -39,14 +39,15 @@ this is the state of the thing.
 | Status | Pages |
 |---|---|
 | stable | 191 |
-| active | 162 |
+| active | 170 |
 | closed | 100 |
 | archived | 31 |
 | stub | 12 |
 
 ## The last few days
 
-**2026-08-26** — 23 pages
+**2026-08-26** — 24 pages
+  - close | mind | attachment-trauma-bond — the Ally channel as a control case, cascade re-checked three levels deep
   - close | timeline/mind | estate-money-spine and fran-death-vigil integrated, cascades re-checked
   - close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked
   - close | people | ally-lubin — the love letter and the mutual-correction finding integrated, three dependents re-checked

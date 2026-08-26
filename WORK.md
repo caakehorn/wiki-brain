@@ -15,7 +15,7 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (19)
+## Obligations (20)
 
 Somebody or something is waiting on each of these. Drain from the top.
 
@@ -43,6 +43,7 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 2 | sage-close | staged answer on mind/synthesis/music-as-identity, not integrated | `wiki/mind/synthesis/music-as-identity.md` | 2026-08-22 |
 | 2 | sage-close | staged answer on people/fran-coldren, not integrated | `wiki/people/fran-coldren.md` | 2026-08-22 |
 | 2 | sage-close | staged answer on people/milo, not integrated | `wiki/people/milo.md` | 2026-08-22 |
+| 2 | close | staged answer on people/menore, not integrated | `wiki/people/menore.md` | 2026-08-26 |
 
 ## Standing work (202)
 

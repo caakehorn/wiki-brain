@@ -8,8 +8,9 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-26 — 23 pages
+## 2026-08-26 — 24 pages
 
+- **Session log:** close | mind | attachment-trauma-bond — the Ally channel as a control case, cascade re-checked three levels deep
 - **Session log:** close | timeline/mind | estate-money-spine and fran-death-vigil integrated, cascades re-checked
 - **Session log:** close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked
 - **Session log:** close | people | ally-lubin — the love letter and the mutual-correction finding integrated, three dependents re-checked
@@ -25,6 +26,7 @@ simply listed.
 | [[wiki/mind/synthesis/closing-the-set]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a REVISED from 2026-08-23)_ |
 | [[wiki/mind/synthesis/failure-to-launch]] | mind | **RE-CHECKED** — flagged stale against the-embedded-objective and acquisition-drive (both 2026-08-26), which added a distinction between tenure and satisfaction — the Fran vigil is the one commitment in |
+| [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] | mind | — |
 | [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] | mind | **RE-CHECKED** — flagged stale against august-grievance-verdict (2026-08-26), which gained a re-check note only, confirming an unrelated attachment-trauma-bond addition (the Ally symmetric-confession counterexample) d |
 | [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — flagged stale against totality-themes (2026-08-26), which gained a RE-CHECKED note confirming the same day's acquisition-drive/embedded-objective tenure-and-satisfaction additions do not touch anythin |
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — flagged stale against single-channel (2026-08-26), which added a section reading the no-failover architecture's intensity as an entry condition for one relational object (Ally) rather than only a cost |
