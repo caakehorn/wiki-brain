@@ -4,6 +4,86 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-26] - Session: themed journeys + on-site DIGEST/RECENT/OPEN (domain: meta added)
+
+* **Model:** Claude Sonnet 5 (Claude Code, remote) · **Branch:** `claude/wiki-articles-expansion-9ns8mb` · **PR:** (opened from this push — check open PRs on this branch if the number below is stale) [#196](https://github.com/caakehorn/wiki-brain/pull/196)
+* **Trigger:** operator, from the live portal (screenshot attached), asked for
+  two things: more curated "themed journey" navigation like the two already
+  live on `caakehorn.github.io` ("THE SHORT VERSION," "THE SPINE"), and a way
+  to read `DIGEST.md`/`RECENT.md`/`OPEN.md` on the site itself. Preceded
+  in-session by a one-off "fix PR 194" ask (a merge-conflict fix on the
+  operator's own PR, unrelated to this feature — see git log, both #194 and
+  #195 are merged and closed).
+
+**What this session found on arrival:** nothing in `wiki-brain` backs the
+portal's two live journeys — no frontmatter convention, no generator, no
+reference in any spec file. They read as content baked into `caakehorn/home`
+directly, which this session cannot inspect (GitHub access here is scoped to
+`caakehorn/wiki-brain` only). Rather than guess at that repo's internals,
+this session built the wiki-brain-side half of the feature — a real,
+lint-validated page type any future portal work can consume — and left the
+portal-side rendering as the explicitly flagged next step.
+
+**Delivered, full detail in `log.md`:**
+1. **`domain: meta`** — new, added to `VALID_DOMAIN` (`bin/wiki-lint`) and
+   documented in `CLAUDE.md`'s Architecture section: pages about the wiki
+   itself rather than about Dan.
+2. **`page_type: journey`** — new, with a mandatory `journey: stops:`
+   frontmatter block (STYLE_GUIDE.md, new "Themed journeys" section),
+   validated by `validate_journey_stops` in `bin/wiki-lint` (mirrors the
+   `dataset` page type's `chart:` precedent exactly — a structured block a
+   future renderer can walk without parsing prose). 5 new unit tests.
+3. **Three journeys built:** `wiki/meta/journeys/{the-supply-line,
+   the-instrumented-channel,the-type-machine}.md`, each 5-6 stops, each an
+   essay walking already-published findings in a new order — no new fact
+   anywhere in any of the three.
+4. **`bin/wiki-digest` now also writes `wiki/meta/{digest,recent-activity,
+   open-questions}.md`** — the same generated content as the three root
+   files, given a `wiki/` address so the portal's sync (which only reads
+   `wiki/**` and `sage/questions/**`, per the portal bullet in `CLAUDE.md`)
+   actually serves it. One deliberate content difference from the root
+   files: the wiki mirror of RECENT.md omits the verbatim `log.md`
+   "Session log:" lines — they're the STYLE_GUIDE rule-6 "agent chatter" a
+   real wiki page must not carry, and one of them happened to also trip the
+   retracted-claims gate by mentioning `$750/week` in the course of
+   describing its own retraction. Caught by actually running `bin/wiki-lint`
+   against the first draft rather than assuming generated content is
+   automatically safe — worth remembering for any future mirror-style
+   generator.
+5. `index.md` gained a `meta` row (6 pages).
+
+**Explicitly NOT done — the portal-side half.** The two live journeys on
+`caakehorn.github.io` are not backed by anything this session could find in
+`wiki-brain`. If a session with `caakehorn/home` access picks this up next,
+the `journey: stops:` schema built here (`page:` + `note:` per stop) is
+designed to be exactly what that repo's sync/render step would need to pick
+up `wiki/meta/journeys/*` the same way it already handles ordinary pages —
+no schema change anticipated, just a portal-side reader and a UI component.
+
+**Annie-moratorium care.** Two of three journeys cite pages that discuss
+Annie extensively. Every sentence in this session's new prose that touches
+her restates an already-published finding rather than adding interpretive
+framing — no new fact, date, quote or figure about her anywhere in the new
+pages, and no existing page was edited. This is the same line the
+`dataset`-page near-miss in the previous session's entry (below) drew and
+then crossed once before catching it; this session held it from the first
+draft.
+
+**Gates:** `bin/wiki-lint` unchanged from the known 20-error baseline (next
+paragraph); `bin/wiki-connect check`, `bin/wiki-climb check`, `bin/wiki-
+freshness` all clean; all 125 unit tests pass.
+
+**Still outstanding, unrelated to this session's work (carried forward
+again):** the 20 pre-existing `bin/wiki-lint` errors from PRs #191-193
+(`page_type: update` is not a valid type, `knowledge: operator-observed` is
+not a valid value, several new-word tags never added to `VALID_TAGS`, two
+`domain=people` pages missing an `infobox:` block, and two retracted-claim
+hits) all live in dated Ally/Annie files from 2026-08-26. Still not fixed
+here, for the same reason as last time: every one of those files is
+Annie-moratorium-adjacent, and the moratorium's "no exception delegated to a
+session" line reads as covering a lint-only touch too. Flagged again rather
+than silently re-carried.
+
 ### [2026-08-26] - Session: sage-close backlog fully drained (29 → 0); page_type: dataset added
 
 * **Model:** Claude Sonnet 5 (Claude Code, remote) · **Branch:** `claude/wiki-articles-expansion-9ns8mb` · **PR:** [#195](https://github.com/caakehorn/wiki-brain/pull/195)

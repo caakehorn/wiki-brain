@@ -1,3 +1,74 @@
+## [2026-08-26] feat | meta | domain: meta added — themed journeys (`page_type: journey`) and on-site mirrors of DIGEST/RECENT/OPEN
+
+Operator asked for two things: curated "themed journey" navigation (shown
+live on the portal for two existing journeys whose data source is entirely
+portal-side — this session has no access to `caakehorn/home` to inspect or
+extend it) and a way to read the root reading aids (`DIGEST.md`, `RECENT.md`,
+`OPEN.md`) on the live site. Both land as a new `meta` domain, since neither
+is about Dan — they are the wiki describing itself.
+
+**Reading aids on-site.** `bin/wiki-digest` now writes `wiki/meta/{digest,
+recent-activity,open-questions}.md` alongside the three root files, wrapped
+in normal page frontmatter (`domain: meta`, `page_type: report`, `knowledge:
+derived`) so the portal's existing sync (which reads `wiki/**`, never the
+repo root) actually serves them. The mirrors reuse the same generated body
+content as the root files, with one deliberate omission: the root RECENT.md's
+"Session log:" lines quote `log.md` verbatim, and one of today's own
+log lines mentions a retracted figure (`$750/week`) in the course of
+describing its own retraction — safe in `log.md` (ungated), not safe
+re-asserted on a gated `wiki/**` page without the correction's blockquote
+context. Session-log lines are also exactly the "agent chatter" STYLE_GUIDE
+rule 6 keeps off real wiki pages, so dropping them from the mirror is the
+correct call twice over, not just a gate workaround. Caught by running
+`bin/wiki-lint` against the first draft of the mirror rather than assuming
+generated content is automatically gate-safe.
+
+**Three journey pages**, new `page_type: journey` with a mandatory
+`journey: stops:` block (mirrors the `dataset` page type's `chart:` block —
+same precedent, same reason: something a future portal renderer can walk
+without parsing prose), validated by a new `validate_journey_stops` free
+function in `bin/wiki-lint` (5 unit tests in `tests/test_lint_gates.py`):
+
+- `wiki/meta/journeys/the-supply-line` — money and drugs traced as one route:
+  fran-coldren (the estate lump) → estate-money-spine (the whole path) →
+  suzanne-frank (the switchboard) → supply-network (the metered drain) →
+  cocaine (the product) → tom (where anchor and supply-line fuse in one
+  person, and the friendship that didn't survive the second role failing).
+- `wiki/meta/journeys/the-instrumented-channel` — five measurement
+  instruments (node-locking, read-receipt-forensics, message-circadian-
+  latency, single-channel, block-unblock-loop) walked in build order, because
+  each one corrects or generalizes the one before it — ending on the loop's
+  own falsified prediction, kept visible rather than deleted.
+- `wiki/meta/journeys/the-type-machine` — a self-typology habit from its
+  first dated instance (the July 2013 Franki/Alexis batch, which also carries
+  Dan's earliest INTP self-ID) through its industrial form
+  (the-commissioned-self: seven frameworks) to its current, largest instance
+  (this repository, per wiki-brain.md's own edge into that page).
+
+**Annie-moratorium discipline.** Two of the three journeys cite pages that
+discuss Annie extensively (block-unblock-loop, supply-network, cocaine); the
+supply-line and instrumented-channel drafts were written so every sentence
+touching her restates an already-published finding rather than offering new
+interpretive framing — the same distinction that sank the first `dataset`
+exemplar two sessions ago. No new fact, date, quote or figure about Annie
+appears anywhere in the three journey pages, and no existing page was edited
+to add one.
+
+**Not attempted, flagged instead:** the portal's own two live journeys ("THE
+SHORT VERSION," "THE SPINE") are not backed by anything in this repository
+that this session found — they read as portal-side content in
+`caakehorn/home`, out of scope here. If a future session gets access to that
+repo, `wiki/meta/journeys/*`'s `journey: stops:` block is designed to be
+exactly what a portal renderer would need to pick these three up the same
+way, without a schema change.
+
+Gates: `bin/wiki-lint` unchanged from the known 20-error baseline (PRs
+#191-193, flagged not fixed, Annie-moratorium adjacent), `bin/wiki-connect
+check` and `bin/wiki-climb check` both 0 errors, `bin/wiki-freshness` in
+sync, all 125 unit tests pass (5 new, `JourneyStopsTests`). `index.md` gained
+a `meta` row (6 pages, index.md itself excluded per the existing count
+convention).
+
 ## [2026-08-26] feat | mind | page_type: dataset added — chart-ready structured data, exemplar built and then corrected for the Annie moratorium
 
 New page type for a finding whose point is a chart: a mandatory `chart:`

@@ -9,8 +9,8 @@ import os, re, sys, glob, json
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WIKI = os.path.join(ROOT, "wiki")
 VALID_STATUS = {"active", "stable", "stub", "closed", "archived"}
-VALID_DOMAIN = {"self", "timeline", "people", "mind", "work", "interests", "health", "places", "legal"}
-VALID_TYPE = {"entity", "event", "concept", "period", "summary", "synthesis", "profile", "report", "chat", "note", "index", "dataset"}
+VALID_DOMAIN = {"self", "timeline", "people", "mind", "work", "interests", "health", "places", "legal", "meta"}
+VALID_TYPE = {"entity", "event", "concept", "period", "summary", "synthesis", "profile", "report", "chat", "note", "index", "dataset", "journey"}
 VALID_CHART_KIND = {"line", "bar", "grouped-bar", "area", "scatter"}
 VALID_KNOWLEDGE = {"earned", "derived", "mixed"}
 VALID_TAGS = {
@@ -120,6 +120,34 @@ def validate_dataset_chart(fm_text):
     points_blocks = re.findall(r"points:\s*\n((?:[ \t]+\S.*\n?)*)", cb)
     if series_names and not any(pb.strip() for pb in points_blocks):
         errors.append("chart series has no non-empty points: map")
+    return errors
+
+
+def validate_journey_stops(fm_text, page_exists):
+    """Check a `page_type: journey` page's `journey:` block against STYLE_GUIDE.md.
+
+    Returns a list of error strings (empty if well-formed). Only called when
+    `page_type` is `journey`. A journey is a curated, narrated sequence of
+    existing pages — the `journey.stops:` block is the machine-readable form
+    a future renderer (e.g. the portal) can walk without re-parsing prose,
+    mirroring how `chart:` serves `page_type: dataset`. `page_exists` is a
+    callable(rel_wiki_path) -> bool, so this stays a pure function testable
+    without touching disk.
+    """
+    errors = []
+    block = re.search(r"^journey:\s*\n((?:[ \t]+.*\n?)*)", fm_text, re.M)
+    if block is None:
+        return ["page_type=journey requires a journey: block (stops: with page + note each)"]
+    jb = block.group(1)
+    stop_pages = re.findall(r"^\s*-\s*page:\s*(\S+)", jb, re.M)
+    if len(stop_pages) < 3:
+        errors.append("journey: block needs stops: as a list with at least 3 stops")
+    notes = re.findall(r"^\s*note:\s*\S", jb, re.M)
+    if len(notes) < len(stop_pages):
+        errors.append("every journey stop needs a note: explaining why it's on this journey")
+    for pg in stop_pages:
+        if not page_exists(pg):
+            errors.append(f"journey stop page not found: {pg}")
     return errors
 
 
@@ -479,6 +507,11 @@ for p in scan:
         # dataset chart schema (mandatory for page_type: dataset — STYLE_GUIDE.md)
         if pt == "dataset" and fm_match:
             for msg in validate_dataset_chart(fm_match.group(1)):
+                errors.append(f"{r}: {msg}")
+
+        # journey stops schema (mandatory for page_type: journey — STYLE_GUIDE.md)
+        if pt == "journey" and fm_match:
+            for msg in validate_journey_stops(fm_match.group(1), lambda pg: pg.rstrip("/") in page_keys):
                 errors.append(f"{r}: {msg}")
 
         # sources must exist on disk

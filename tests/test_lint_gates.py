@@ -425,6 +425,52 @@ class DatasetChartTests(unittest.TestCase):
             """), [])
 
 
+class JourneyStopsTests(unittest.TestCase):
+    """page_type: journey requires a well-formed journey: block (STYLE_GUIDE.md)."""
+
+    def errs(self, fm, exists=lambda pg: True):
+        return H["validate_journey_stops"](textwrap.dedent(fm), exists)
+
+    WELL_FORMED = """\
+        journey:
+          stops:
+            - page: wiki/people/tom
+              note: "Why this stop is on the journey."
+            - page: wiki/mind/synthesis/supply-network
+              note: "Why this stop is on the journey."
+            - page: wiki/health/cocaine
+              note: "Why this stop is on the journey."
+        """
+
+    def test_well_formed_journey_passes(self):
+        self.assertEqual(self.errs(self.WELL_FORMED), [])
+
+    def test_missing_journey_block_is_an_error(self):
+        errs = self.errs("domain: meta\npage_type: journey\n")
+        self.assertEqual(len(errs), 1)
+        self.assertIn("requires a journey:", errs[0])
+
+    def test_fewer_than_three_stops_is_an_error(self):
+        errs = self.errs("""\
+            journey:
+              stops:
+                - page: wiki/people/tom
+                  note: "One stop."
+            """)
+        self.assertTrue(any("at least 3 stops" in e for e in errs))
+
+    def test_stop_missing_note_is_an_error(self):
+        bad = self.WELL_FORMED.replace(
+            '              note: "Why this stop is on the journey."\n', "", 1
+        )
+        errs = self.errs(bad)
+        self.assertTrue(any("needs a note:" in e for e in errs))
+
+    def test_unknown_stop_page_is_an_error(self):
+        errs = self.errs(self.WELL_FORMED, exists=lambda pg: pg != "wiki/health/cocaine")
+        self.assertTrue(any("stop page not found: wiki/health/cocaine" in e for e in errs))
+
+
 class FreshnessTests(unittest.TestCase):
     """bin/wiki-freshness must agree with bin/llm-publish about which pages
     exist, or it reports drift that isn't there (it did, on first write)."""

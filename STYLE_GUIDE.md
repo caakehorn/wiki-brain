@@ -112,8 +112,8 @@ Required fields, in this order:
 
 ```yaml
 ---
-domain: self | timeline | people | mind | work | interests | health | places | legal
-page_type: entity | event | concept | period | summary | synthesis | profile | report | chat | note | index | dataset
+domain: self | timeline | people | mind | work | interests | health | places | legal | meta
+page_type: entity | event | concept | period | summary | synthesis | profile | report | chat | note | index | dataset | journey
 status: active | stable | stub | closed | archived
 date_created: YYYY-MM-DD
 date_modified: YYYY-MM-DD
@@ -263,7 +263,57 @@ finding is a handful of numbers inside a larger argument, a markdown table
 in the page that argument belongs to is still correct — `dataset` is for a
 comparison that stands on its own, is not a footnote to a larger page, and
 would lose something real if it were only prose. Exemplar:
-[[wiki/mind/synthesis/annual-volume-annie-suz]].
+[[wiki/mind/synthesis/annual-volume-suz]].
+
+## Themed journeys — the `journey` page type
+
+A journey is a curated, ordered sequence of existing pages connected by one
+narrative thread — the wiki-brain equivalent of a reading list with an
+argument, not a folder. It exists because the wiki's default navigation
+(domain indexes, `connections:` edges) is organized by what a page *is*, and
+a journey is organized by what a *reader* wants to follow — a theme that cuts
+across domains and person pages the way a synthesis page's `synthesizes:`
+does, but for guiding a reader rather than proving a claim.
+
+**Domain is `meta`** — a journey is about the corpus's own navigation, not
+about Dan directly, which is why it does not belong in `self`, `mind`, or any
+domain that describes him. `wiki/meta/` also holds the on-site mirrors of
+`DIGEST.md`, `RECENT.md`, and `OPEN.md` for the same reason: both are the
+wiki describing itself rather than describing its subject.
+
+**Mandatory `journey:` block**, in addition to every field an ordinary page
+carries:
+
+```yaml
+journey:
+  stops:
+    - page: wiki/people/tom
+      note: "One sentence: why this page is a stop, in this order."
+    - page: wiki/mind/synthesis/supply-network
+      note: "..."
+    - page: wiki/health/cocaine
+      note: "..."
+```
+
+`bin/wiki-lint` requires at least three stops, a `note:` on every one, and
+that every `page:` resolves to a real wiki page — it cannot check that the
+notes are true, so **the connecting narrative belongs in prose on the page,
+not only in the frontmatter**. A journey page's body should read as an essay
+that walks the stops in order, quoting or citing the documentary evidence
+(dates, figures, direct quotes) that ties them together — "these are
+related" is not a journey, the same way it is not a synthesis
+(`SYNTHESIS_SPEC.md`). Unlike a synthesis page, a journey is not required to
+state a falsifiable governing rule; it is allowed to simply be a well-argued
+guided tour. It should still name what the stops have in common precisely
+enough that a reader could predict what a fourth stop would need to qualify.
+
+**Never invent a journey as a second, weaker index.** If the connecting
+thread does not survive being stated as one sentence a stranger could
+follow, it belongs in a domain index instead. **A journey through pages the
+Annie moratorium covers may link to Annie's existing pages exactly as
+published — never add narrative, synthesis, or connective claims about her
+that are not already written elsewhere in the wiki**, per `CLAUDE.md`'s
+standing directive. Exemplar: `wiki/meta/journeys/the-supply-line.md`.
 
 ## Linking
 
