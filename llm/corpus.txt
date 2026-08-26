@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-26
-504 pages, ~1,364,849 tokens.
+504 pages, ~1,364,197 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -25467,13 +25467,12 @@ PAGE: wiki/mind/synthesis/music-as-identity.md
 ========================================================================
 
 ---
-sage_pending: '2026-08-22'
 domain: mind
 page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-16
-date_modified: 2026-08-11
+date_modified: 2026-08-26
 sources:
   - "raw/self/dox-md/FULL PROFILE 2026.md"
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -25500,6 +25499,9 @@ connections:
   - page: wiki/mind/synthesis/attachment-trauma-bond
     type: parallels
     claim: "The absorption-then-clean-cutoff pattern in music preference mirrors the attachment architecture — maximum engagement, hard boundary, pre-cut version held as the real one — running on objects that cannot betray him."
+  - page: wiki/people/annie-ulmer
+    type: evidenced-by
+    claim: "The corpus's only ranked comparison of happiness sources dates the handover directly: music was 'the only thing that's ever made me happy' in December 2015, and had been displaced by exactly one thing by April 2016."
 ---
 
 
@@ -25545,6 +25547,22 @@ because the meaning was in the *through-line*, not the tracks.
    1963 chart-peak — not a retreat. Production is the architecture; he is a
    producer-first identity, not a performer.
 
+## The one ranked comparison
+
+The corpus contains exactly one place where Dan ranks his happiness sources
+against each other, and music is the thing being ranked against. Four
+months into the Annie relationship, 2016-04-03 23:02: *"You're the only
+thing that's ever made me happier than making music."* Read against the
+paired line from four months earlier, 2015-12-09 15:39, at the very start
+of the relationship: *"Ruin the only thing that's ever made me happy"* — the
+two together date the handover. Before December 2015, on his own
+accounting, making music was the top of the list; by April 2016 it had been
+displaced by exactly one thing. That is the strongest single piece of
+evidence in the message record for this page's thesis that music is a
+primary structure of self rather than a hobby: it placed production second
+in his life, behind exactly one person, at the point the primary
+relationship reached its peak.
+
 ## The cutoff as a personality signature
 
 The affection has edges that reveal the mechanism. Fall Out Boy love stops
@@ -25576,37 +25594,6 @@ one facet; this one states the whole.
   cross (does he hear his own sub-bass signature in what he consumes?) is
   not settled by the corpus.
 
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-22] — from the sage question `2026-08-22_005829_what-would-make-dan-happy`
-
-Answer and sources: `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`
-
-**The corpus contains exactly one ranked comparison of Dan's happiness sources,
-and music is the thing being ranked against.** 2016-04-03 23:02, to Annie:
-
-> *"You're the only thing that's ever made me happier than making music"*
-
-This page argues that music is a primary, century-spanning structure of self
-rather than a hobby, and this sentence is the strongest single piece of evidence
-for that thesis anywhere in the message record — it places production **second in
-his life, behind exactly one person**, at the peak of the relationship that
-displaced it. It is also dated four months into the bond, which makes it a
-statement about the pre-Annie baseline: before December 2015, on his own
-accounting, making music was the top of the list.
-
-The paired quote from four months earlier belongs with it —
-**2015-12-09 15:39**, of the relationship: *"Ruin the only thing that's ever made
-me happy"* — because the two together date the handover.
 
 
 ========================================================================
@@ -26646,7 +26633,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
@@ -26759,6 +26746,12 @@ connections:
 ---
 
 # The Supply Network
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against [[wiki/people/menore]]
+> (2026-08-26), which closed its last open gap: 2022's zero mentions are
+> explained by the operator having a flip phone that year, not by a service
+> break. This removes the one residue in Menore's continuous-service reading
+> rather than complicating it. **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-23]:** flagged stale against [[wiki/people/annie-ulmer]]
 > (2026-08-23), which gained a section on her 2024 employment
@@ -41293,7 +41286,6 @@ PAGE: wiki/people/fran-coldren.md
 ========================================================================
 
 ---
-sage_pending: '2026-08-22'
 domain: people
 page_type: entity
 title: "Frances 'Fran' Whyel Coldren"
@@ -41303,7 +41295,7 @@ importance: critical
 relation_type: family
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-08-18
+date_modified: 2026-08-26
 date_range: ["1920-08-15", "2018-04-04"]
 tags: [family, uniontown-era, grief, music-production, financial-stress]
 sources:
@@ -41397,6 +41389,9 @@ connections:
   - page: wiki/interests/music/concepts/sub-bass-signature
     type: causes
     claim: "The Numark NS7 II she bought on top of the annual cheque is the hardware origin of every production alias and of the involuntary sub-bass signature that runs through all of them."
+  - page: wiki/mind/synthesis/closing-the-set
+    type: evidences
+    claim: "A corpus-wide search finds no second instance of Dan reporting a good outcome from an action he took, which makes the caregiving vigil the corpus's only documented case of the completion drive working end to end."
 ---
 
 # Frances "Fran" Whyel Coldren
@@ -41691,6 +41686,18 @@ named herself — she did anything he asked, so he showed up for her.
 > altruism was never the operative variable. Fran's care was a goal he
 > generated himself and was never assigned, which is the only kind the
 > completion drive can serve, and it therefore got the full engine.
+>
+> **The full sentence, and what a corpus-wide search adds to it.** The quote
+> above has been cited in fragments; in full it reads (2018-04-06 17:55, to a
+> friend): *"we had a lot of fun. got good closure and finally did something
+> in my life that wasn't completely selfish haha."* A `bin/mine-messages`
+> sweep of all 106,629 sent messages returns **no second instance** of Dan
+> reporting a good outcome from an action he took — every other positive
+> self-report in the corpus is attributed to a person he had, not a thing he
+> did. This is therefore the corpus's only documented case of the drive
+> working end to end, and the operative words in his own account are *fun*,
+> *closure* and *not selfish* — not *completion*. See
+> [[wiki/mind/synthesis/closing-the-set]].
 
 She is also half the reason the Annie relationship carried a mythic charge: the
 deathwatch the two of them kept, three years into their decade, is the
@@ -41716,33 +41723,6 @@ what actually happened in that room — exist only as uploads inside AI sessions
 Locating the originals is the highest-value collection task attached to this
 page.
 
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-22] — from the sage question `2026-08-22_005829_what-would-make-dan-happy`
-
-Answer and sources: `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`
-
-**Dan's own summary of the six months — *"finally did something in my life that
-wasn't completely selfish"* — is quoted on this page as evidence about altruism,
-and the rest of the same sentence is the more important half.** The full message
-(2018-04-06 17:55, to 4137703708) reads *"we had a lot of fun. got good closure
-and finally did something in my life that wasn't completely selfish haha."* A
-`bin/mine-messages` sweep of 106,629 sent messages returns **no second instance of
-Dan reporting a good outcome from an action he took** — every other positive
-self-report in the corpus is attributed to a person he had. The care arrangement
-is therefore the corpus's only documented case of the thing working, and the
-operative words in his account are *fun*, *closure* and *not selfish* rather than
-*completion*. See [[wiki/mind/synthesis/closing-the-set]] and
-[[wiki/mind/concepts/acquisition-drive]].
 
 
 ========================================================================
@@ -48679,8 +48659,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-08-21
-pending_ingest: 2026-08-26
+date_modified: 2026-08-26
 date_range_start: 2018-11-04
 date_range_end: 2025-07-28
 sources:
@@ -48984,6 +48963,18 @@ surely went unconfirmed by text.
 > itself showing up in the record. **No export exists for any handle but
 > 3476070497**, so the intermediate number's own thread is unrecovered; every
 > 2021–2024 datum above is a third-party mention, not a message to Menore.
+>
+> **GAP CLOSED [2026-08-26]:** the operator, T0, first person
+> (`raw/people/captures/2026-08-26_034338_gap-menore.md`): *"I had a flip
+> phone that year."* 2022's silence has an ordinary explanation that does not
+> require a service break: a flip phone is not going to generate the same
+> iMessage/SMS trail as the smartphone years bracketing it on both sides, and
+> the *other* threads that carry the 2021 and 2023 third-party mentions above
+> would have run through the same constrained device. This does not upgrade
+> to a mined figure — there is nothing to mine for a year a flip phone
+> covered — but it removes 2022 as the one place a genuine break could still
+> be hiding, and the continuous-service reading above stands without a gap
+> in it.
 
 **The ending, corrected:** the relationship did not fade out — it was
 formally closed. Service ran hard to the end (453 messages, 38 meetings
@@ -49075,28 +49066,6 @@ The 6-year silence (2013–2018) followed by immediate resurrection of the exact
   supply side after 2025-02-20. **How Dan knows is itself unrecorded** — the
   answer implies some awareness channel (contact, mutual acquaintance,
   reputation) that this page cannot see, and that channel is worth finding.
-
-## Operator answers — pending ingest
-
-> Transient staging, written from the portal. Each block below is the
-> operator answering something this page said it did not know. **Nothing here
-> has been integrated yet.** The next pass over this page reads these answers,
-> corrects this page *and every page that inherited the gap*, records each
-> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
-> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
-> section and the `pending_ingest:` flag. It is not allowed to accumulate into
-> a changelog — STYLE_GUIDE rule 6.
-
-### ANSWERED [2026-08-26] — 2022 is the one blank year — zero mentions, no evidence either way. The…
-
-**The gap, as this page stated it:**
-
-> - **2022 is the one blank year** — zero mentions, no evidence either way.
->   The only window where a genuine service break could still hide.
-
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-26_034338_gap-menore.md`.
-
-I had a flip phone that year
 
 
 ========================================================================
@@ -49279,7 +49248,6 @@ PAGE: wiki/people/milo.md
 ========================================================================
 
 ---
-sage_pending: '2026-08-22'
 domain: people
 page_type: entity
 title: "Milo"
@@ -49288,7 +49256,7 @@ status: active
 knowledge: mixed
 importance: high
 date_created: 2026-07-14
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 date_range_start: 2018-01-01
 sources:
   - raw/timeline/captures/2026-08-16_183544_gap-july-august-2026-reentanglement.md
@@ -49360,11 +49328,17 @@ Milo is Dan's Chihuahua and the one recurring presence in the record that
 nothing — not the collapse of the Annie relationship, not the forensic
 AI sessions, not the moves between NYC and Uniontown — manages to
 contaminate. Where almost everything else in Dan's self-documentation gets
-run through analysis, Milo is explicitly carved out as exempt: MAX_PRIME.md
-instructs any AI persona working from it, "when everything else is in
-collapse, the Milo updates and the food runs and the Roosters banter are
-the last thread of something genuine... don't psychologize them, just
-receive them."
+run through analysis, Milo is explicitly carved out as exempt, and the
+exemption is not a curatorial choice the wiki made — it is an instruction
+Dan wrote himself. `MAX_PRIME.md` lists eight operating axioms for
+configuring his own AI sessions; the eighth reads in full: *"The cat and
+the food are always real. When everything else is in collapse, the Milo
+updates and the food runs and the Roosters banter are the last thread of
+something genuine. Don't psychologize them. Just receive them."* Two of the
+three things named alongside Milo in that axiom — the food runs, the
+Roosters banter — have no page and no measurement anywhere in this wiki; a
+pass that takes the axiom as seriously as it takes everything else Dan has
+written about himself would look for them.
 
 **Origin story (per Dan directly, 2026-07-14):** Milo was found as a stray
 by [[wiki/people/claire-ulmer|Claire]], Annie's sister — spotted around her neighborhood by several
@@ -49569,36 +49543,6 @@ Dan answered at 23:40 — *"what"* — seventy-two minutes after the first SOS,
 having blocked and unblocked in between. Nothing in any source says what
 happened next. See [[wiki/timeline/events/august-2026-morgantown-call]].
 
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-22] — from the sage question `2026-08-22_005829_what-would-make-dan-happy`
-
-Answer and sources: `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`
-
-**`MAX_PRIME.md` carries a first-person instruction about this dog that the page
-does not quote, and it is the strongest statement in the corpus of what Dan
-himself treats as real.** Axiom 8 of the eight operating axioms he wrote to
-configure his own AI sessions:
-
-> *"**The cat and the food are always real.** When everything else is in collapse,
-> the Milo updates and the food runs and the Roosters banter are the last thread
-> of something genuine. Don't psychologize them. Just receive them."*
-
-The page already treats Milo as the thing analysis is kept away from, and cites
-that document as its source for the exemption. The finding is that the exemption
-is **not a curatorial choice made by the wiki — it is an instruction written by
-the subject**, and it names two other things alongside the dog (the food runs, the
-Roosters banter) that have no page and no measurement anywhere in the corpus. A
-pass that takes the axiom seriously would look for them.
 
 
 ========================================================================

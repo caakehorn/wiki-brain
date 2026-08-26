@@ -1,5 +1,4 @@
 ---
-sage_pending: '2026-08-22'
 domain: people
 page_type: entity
 title: "Milo"
@@ -8,7 +7,7 @@ status: active
 knowledge: mixed
 importance: high
 date_created: 2026-07-14
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 date_range_start: 2018-01-01
 sources:
   - raw/timeline/captures/2026-08-16_183544_gap-july-august-2026-reentanglement.md
@@ -80,11 +79,17 @@ Milo is Dan's Chihuahua and the one recurring presence in the record that
 nothing — not the collapse of the Annie relationship, not the forensic
 AI sessions, not the moves between NYC and Uniontown — manages to
 contaminate. Where almost everything else in Dan's self-documentation gets
-run through analysis, Milo is explicitly carved out as exempt: MAX_PRIME.md
-instructs any AI persona working from it, "when everything else is in
-collapse, the Milo updates and the food runs and the Roosters banter are
-the last thread of something genuine... don't psychologize them, just
-receive them."
+run through analysis, Milo is explicitly carved out as exempt, and the
+exemption is not a curatorial choice the wiki made — it is an instruction
+Dan wrote himself. `MAX_PRIME.md` lists eight operating axioms for
+configuring his own AI sessions; the eighth reads in full: *"The cat and
+the food are always real. When everything else is in collapse, the Milo
+updates and the food runs and the Roosters banter are the last thread of
+something genuine. Don't psychologize them. Just receive them."* Two of the
+three things named alongside Milo in that axiom — the food runs, the
+Roosters banter — have no page and no measurement anywhere in this wiki; a
+pass that takes the axiom as seriously as it takes everything else Dan has
+written about himself would look for them.
 
 **Origin story (per Dan directly, 2026-07-14):** Milo was found as a stray
 by [[wiki/people/claire-ulmer|Claire]], Annie's sister — spotted around her neighborhood by several
@@ -289,33 +294,3 @@ Dan answered at 23:40 — *"what"* — seventy-two minutes after the first SOS,
 having blocked and unblocked in between. Nothing in any source says what
 happened next. See [[wiki/timeline/events/august-2026-morgantown-call]].
 
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-22] — from the sage question `2026-08-22_005829_what-would-make-dan-happy`
-
-Answer and sources: `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`
-
-**`MAX_PRIME.md` carries a first-person instruction about this dog that the page
-does not quote, and it is the strongest statement in the corpus of what Dan
-himself treats as real.** Axiom 8 of the eight operating axioms he wrote to
-configure his own AI sessions:
-
-> *"**The cat and the food are always real.** When everything else is in collapse,
-> the Milo updates and the food runs and the Roosters banter are the last thread
-> of something genuine. Don't psychologize them. Just receive them."*
-
-The page already treats Milo as the thing analysis is kept away from, and cites
-that document as its source for the exemption. The finding is that the exemption
-is **not a curatorial choice made by the wiki — it is an instruction written by
-the subject**, and it names two other things alongside the dog (the food runs, the
-Roosters banter) that have no page and no measurement anywhere in the corpus. A
-pass that takes the axiom seriously would look for them.

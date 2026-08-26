@@ -14,7 +14,7 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 504 |
-| Pages touched in the last 14 days | 172 |
+| Pages touched in the last 14 days | 173 |
 | Pages reasoning from other pages (`synthesizes:`) | 43 |
 | Live contradictions | 45 |
 | Open gaps | 454 |
@@ -46,13 +46,13 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-26** — 46 pages
+**2026-08-26** — 51 pages
   - close | mind | attachment-trauma-bond — the Ally channel as a control case, cascade re-checked three levels deep
   - close | timeline/mind | estate-money-spine and fran-death-vigil integrated, cascades re-checked
   - close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked
   - close | people | ally-lubin — the love letter and the mutual-correction finding integrated, three dependents re-checked
 
-**2026-08-23** — 25 pages
+**2026-08-23** — 23 pages
   - directive | people | the Annie record is closed — no further texts, no further narrative
   - lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
   - ingest | people | five new entries, and the Ulmer household turns out to be the corpus's largest blind spot
@@ -71,7 +71,7 @@ this is the state of the thing.
   - climb | mind | three entries, and two of them answer a different question than the one asked
   - close | mind | two staged sage findings integrated on the pages this pass was already holding open
 
-**2026-08-21** — 12 pages
+**2026-08-21** — 11 pages
   - close+lint | all domains | two operator answers integrated; a false claim retracted and gated; staleness cleared to zero
   - rewrite | self | ally-and-dan-love-as-destiny — rebuilt as an argument, on verifiable evidence
   - lint | people | a portal save had deleted 56 typed-edge claims and 30KB of prose, and the gate that caught it went unread for a day

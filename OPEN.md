@@ -10,7 +10,7 @@ filtered out, so this list shrinks only when something is actually settled.
 |---|---|
 | Live contradictions | 45 |
 | Open gaps | 454 |
-| Answered, awaiting ingest | 1 |
+| Answered, awaiting ingest | 0 |
 | Standing predictions | 55 |
 
 ## Answered, awaiting ingest
@@ -21,8 +21,7 @@ what is missing is the pass that corrects the page and every page that
 inherited the gap, then runs `bin/wiki-gaps clear <page>`. Cheapest work
 here — no new source required, and the answer is already written down.
 
-- **[[wiki/people/menore]]** — staged 2026-08-26, 1 answer
-  - 2022 is the one blank year — zero mentions, no evidence either way. The…
+_Nothing staged._
 
 ## Live contradictions
 

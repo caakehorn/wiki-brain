@@ -3,8 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-08-21
-pending_ingest: 2026-08-26
+date_modified: 2026-08-26
 date_range_start: 2018-11-04
 date_range_end: 2025-07-28
 sources:
@@ -308,6 +307,18 @@ surely went unconfirmed by text.
 > itself showing up in the record. **No export exists for any handle but
 > 3476070497**, so the intermediate number's own thread is unrecovered; every
 > 2021–2024 datum above is a third-party mention, not a message to Menore.
+>
+> **GAP CLOSED [2026-08-26]:** the operator, T0, first person
+> (`raw/people/captures/2026-08-26_034338_gap-menore.md`): *"I had a flip
+> phone that year."* 2022's silence has an ordinary explanation that does not
+> require a service break: a flip phone is not going to generate the same
+> iMessage/SMS trail as the smartphone years bracketing it on both sides, and
+> the *other* threads that carry the 2021 and 2023 third-party mentions above
+> would have run through the same constrained device. This does not upgrade
+> to a mined figure — there is nothing to mine for a year a flip phone
+> covered — but it removes 2022 as the one place a genuine break could still
+> be hiding, and the continuous-service reading above stands without a gap
+> in it.
 
 **The ending, corrected:** the relationship did not fade out — it was
 formally closed. Service ran hard to the end (453 messages, 38 meetings
@@ -399,25 +410,3 @@ The 6-year silence (2013–2018) followed by immediate resurrection of the exact
   supply side after 2025-02-20. **How Dan knows is itself unrecorded** — the
   answer implies some awareness channel (contact, mutual acquaintance,
   reputation) that this page cannot see, and that channel is worth finding.
-
-## Operator answers — pending ingest
-
-> Transient staging, written from the portal. Each block below is the
-> operator answering something this page said it did not know. **Nothing here
-> has been integrated yet.** The next pass over this page reads these answers,
-> corrects this page *and every page that inherited the gap*, records each
-> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
-> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
-> section and the `pending_ingest:` flag. It is not allowed to accumulate into
-> a changelog — STYLE_GUIDE rule 6.
-
-### ANSWERED [2026-08-26] — 2022 is the one blank year — zero mentions, no evidence either way. The…
-
-**The gap, as this page stated it:**
-
-> - **2022 is the one blank year** — zero mentions, no evidence either way.
->   The only window where a genuine service break could still hide.
-
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-26_034338_gap-menore.md`.
-
-I had a flip phone that year
