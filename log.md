@@ -1,3 +1,78 @@
+## [2026-08-26] ingest | mind | new page: autism/neurodivergence self-identification traced to its actual sourcing
+
+Operator asked for a full expansion pass. First item worked: a queued
+capture note (`inbox/2026-07-12_152457_add-individual-entry-for-personality-pro.md`,
+2026-07-12) asking for "an individual entry for personality profiles" and
+explicitly "an entry for autism/neurodivergence" — the one item in that
+capture not already covered by the existing `mind/profile/` cluster.
+
+**Source audit, not a fresh diagnosis.** `wiki/self/context-core.md` and
+`wiki/self/overview.md` both already stated "self-identified autistic" as
+settled fact, but neither cited where the claim came from, and
+`CONTEXT_CORE_EXPANDED.md` — the primary spine — does not mention autism at
+all. Traced it to three independent-looking documents
+(`operating_manual.md`, `THE_DAN_FRANK_MANUAL.md`,
+`THE_DAN_FRANK_BOOTLOADER.md`) that each open with it as background rather
+than argue for it — almost certainly one claim copied forward three times
+by the bootloader mechanism `wiki/mind/concepts/exocortex.md` already
+documents, not three confirmations. New page:
+`wiki/mind/profile/neurodivergence.md` lays out that provenance, Dan's own
+question in an undated Claude transcript about whether the label is
+"legitimate" or an excuse (quoted verbatim, the strongest primary-source
+line found), `operating_manual.md`'s "Autistic Truth Seeker" behavioral
+catalog (evangelist compulsion, brevity guilt, information-intake volume —
+all independently checkable against the message record), and the
+convergence with the already-published typology stack (INTP, the deviance
+audit's linguistic/social outliers, the 23,286-word stylometric profile) —
+without re-deriving any number those pages already own.
+
+**Annie-moratorium care.** The richest single source for this topic,
+`THE_DAN_FRANK_MANUAL.md` Part V, frames the "explicit statement over
+ambient behavioral signal" processing rule almost entirely through Annie
+relationship specifics (a 299-affirmation/zero-severance count, a
+culpability assessment naming her, the defamation-campaign framing) — none
+of it previously published anywhere in the wiki. Excluded entirely, even
+in generalized/unattributed form: its only sourcing is reasoning about her,
+which is exactly what the moratorium forbids regardless of which page it
+lands on. `raw/self/dox-md/Breaking the anxiety avoidance cycle.md`, the
+source for Dan's own quote, is likewise saturated with Annie-specific
+therapeutic content; only the one quoted question (general — about whether
+frameworks apply to him, names no one) was used, and the AI's reply
+(relationship-specific throughout) was not.
+
+**Write-back.** Inverse `connections:` edges added on the five pages this
+draws convergence from (`mind/profile/index`, `intp`, `deviance-mapping`,
+`linguistic-profile`, `mind/concepts/exocortex`) and on the two pages
+whose "self-identified autistic" line now links to the new page
+(`self/context-core`, `self/overview`) — each states the finding itself,
+not just a pointer. `wiki/mind/index.md` and `wiki/mind/profile/index.md`
+gained the new page in their navigation and (for the critical-importance
+hub) its LLM Quick Brief detail-page list and Gaps note.
+
+**Cascade.** Bumping `context-core.md` and `exocortex.md` flagged four
+dependent pages stale (`instrument-is-subject`, `jerad-friedline`,
+`2020-2021-market-era`, `fastly-fsly`) — each re-checked per
+`SYNTHESIS_SPEC.md` (the only change on both source pages was the one new
+cross-reference; no premise any of the four reasons from moved) and closed
+with a dated `RE-CHECKED` note rather than a silent date bump.
+
+**Bug found and fixed in passing.** `bin/wiki-digest`'s `RECENT.md`
+generator truncates a page's newest dated block at a fixed character count
+before tidying wikilinks out of it; when the cut landed mid-wikilink (this
+pass's own `RE-CHECKED` note on `instrument-is-subject.md` did exactly
+that), the untidied fragment `[[wiki/mind/profile/neu` leaked into the
+generated `wiki/meta/recent-activity.md` as a broken link — caught by
+`bin/wiki-lint`, not assumed safe because the output is generated. Fixed
+in `tidy()`: a truncation that leaves a `[[` with no matching `]]` is
+trimmed back to before it, so a mid-link cut loses the trailing fragment
+instead of emitting invalid markdown. All 125 unit tests still pass.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged pre-existing baseline, all
+in Annie/Ally-moratorium-adjacent files from 2026-08-26 — not touched, same
+reasoning as the prior two sessions) / 22 warnings; `bin/wiki-connect
+check`, `bin/wiki-climb check`, `bin/wiki-freshness` all clean; `bin/wiki-work
+scan` 0 obligations. `bin/wiki-digest` + `bin/llm-publish` regenerated.
+
 ## [2026-08-26] feat | meta | domain: meta added — themed journeys (`page_type: journey`) and on-site mirrors of DIGEST/RECENT/OPEN
 
 Operator asked for two things: curated "themed journey" navigation (shown

@@ -5,7 +5,7 @@ title: "Linguistic Profile — Voice, Register, Stylometrics"
 aliases: ["voice", "stylometrics", "forensic intimacy"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
@@ -38,6 +38,9 @@ connections:
   - page: wiki/interests/opie-and-anthony
     type: caused-by
     claim: "The callous, riff-driven, gallows-irony register the profile calls a 'psychic ventilator' is the native dialect of the O&A universe — this binge is where that idiom was trained."
+  - page: wiki/mind/profile/neurodivergence
+    type: parallels
+    claim: "23,286 unique words in casual texting and 2,465 uses of 'because' read, in the corpus's own autism framing, as language reached for to think rather than to relate — the same stylometric extremes this page measures independently of that claim."
 ---
 
 # Linguistic Profile — Voice, Register, Stylometrics

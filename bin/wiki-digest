@@ -126,6 +126,16 @@ def rel(path):
 
 
 def tidy(s):
+    # A regex capture upstream (BLOCK_RE's bounded .{0,N} groups) can cut a
+    # source string off mid-wikilink, leaving a dangling "[[path/with/no/close"
+    # that the wikilink substitutions below can't recognize (they require the
+    # closing "]]") and so pass through untouched — a broken link on a
+    # generated page. Trim any "[[" with no matching "]]" after it before the
+    # real substitutions run, so a mid-link cut degrades to "lost the last
+    # fragment" rather than "emits invalid markdown".
+    last_open = s.rfind("[[")
+    if last_open != -1 and s.find("]]", last_open) == -1:
+        s = s[:last_open]
     # [[path|Label]] -> Label ; [[a/b/c]] -> c
     s = re.sub(r"\[\[[^\]|]+\|([^\]]+)\]\]", r"\1", s)
     s = re.sub(r"\[\[([^\]]+)\]\]", lambda m: m.group(1).rstrip("/").split("/")[-1], s)

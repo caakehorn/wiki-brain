@@ -6,7 +6,7 @@ aliases: ["Abyssal Architect", "typology stack", "psychological profile"]
 status: stable
 importance: critical
 date_created: 2026-07-13
-date_modified: 2026-07-13
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-scan/Dan Profile.txt
@@ -53,7 +53,8 @@ deficit. Detail pages: [[wiki/mind/profile/intp]],
 [[wiki/mind/profile/big-five-psychometrics]],
 [[wiki/mind/profile/socionics-and-attitudinal]],
 [[wiki/mind/profile/deviance-mapping]],
-[[wiki/mind/profile/linguistic-profile]].
+[[wiki/mind/profile/linguistic-profile]],
+[[wiki/mind/profile/neurodivergence]].
 
 ## The stack at a glance
 
@@ -70,6 +71,7 @@ deficit. Detail pages: [[wiki/mind/profile/intp]],
 | Stylometrics | 99th percentile lexical/syntactic | "Forensic intimacy" register; a custom-built fork of English | [[wiki/mind/profile/linguistic-profile]] |
 | Voice modes | 8 trigger-activated states | Neutral/Playful/Affectionate/Irritated/Persuasive/Storytelling/Stressed/Reflective | [[wiki/mind/profile/voice-modes]] |
 | Psychosexual operating system | 96/100 deviance outlier | Orchestration over participation; total emotional imprinting; a decade of independently-corroborated practice | [[wiki/mind/psychosexual/index]] |
+| Neurodivergence | Self-identified autistic, no clinical record | The one row in this stack that is a claim, not an instrument result — three convergent AI-secondary documents, zero diagnostic process on file | [[wiki/mind/profile/neurodivergence]] |
 
 ## How to read the cluster
 
@@ -113,3 +115,6 @@ percentile, with insight feeding the loops instead of stopping them.
 **Gaps:** no clinical or third-party-administered assessment; no test dates
 or instrument versions for the Big30/PD numbers; no re-test after the June
 2026 closure event, so the entire profile is calibrated on pre-closure data.
+The autism self-identification carries the same gap in sharper form — see
+[[wiki/mind/profile/neurodivergence]] for what its actual sourcing is and
+is not.

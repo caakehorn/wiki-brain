@@ -5,7 +5,7 @@ title: "Jerad Friedline"
 aliases: ["Jerad", "Jerad Friendline"]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-08-21
+date_modified: 2026-08-26
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
@@ -113,3 +113,10 @@ By March 2026, their exchanges migrated into AI-forensics territory. Jerad noted
 The thread is the closest thing in the corpus to a non-crisis baseline register, but it is sparse by nature; long stretches (notably 2021–2024) are simply absent rather than documented. Rachel and the daughter appear only by reference in the corpus.
 
 The **Roe repeal prediction** attributed to Jerad in CONTEXT_CORE_EXPANDED.md (§8) lacks direct corpus documentation. The referenced claim "Predicted Roe repeal May 2020, two years early" appears in the interpretation layer but no message from +191****3615 or jfriedline@gmail.com containing Roe/abortion/repeal content was located during verification.
+
+> **RE-CHECKED [2026-08-26]:** `bin/wiki-climb check` flagged this page stale
+> against [[wiki/self/context-core]], which moved on 2026-08-26. The premise
+> did not move in substance — the only change on that page was one new
+> `connections:` entry cross-referencing the new
+> [[wiki/mind/profile/neurodivergence]] page. Nothing here is downstream of
+> it.

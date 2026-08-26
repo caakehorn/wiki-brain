@@ -5,7 +5,7 @@ title: "Self Overview"
 status: active
 importance: critical
 date_created: 2026-06-22
-date_modified: 2026-07-13
+date_modified: 2026-08-26
 infobox:
   name: Dan Frank
   born: November 1, 1988
@@ -44,6 +44,9 @@ connections:
   - page: wiki/self/concepts/ally-and-dan-love-as-destiny
     type: instance-of
     claim: "The seventeen-year Ally attachment is the longest continuous tie in this biography and the one that most tests whether its durability is devotion or dormancy; that page argues the first, and states what would show it wrong."
+  - page: wiki/mind/profile/neurodivergence
+    type: contains
+    claim: "'Self-identified autistic' appears here as settled biographical fact; the neurodivergence page is where that claim's actual sourcing — three convergent AI-secondary documents, no clinical record — and open questions are laid out."
 ---
 
 
@@ -54,7 +57,7 @@ Fayette County, Pennsylvania, and at 37 he is living back in his childhood
 home at 337 Saratoga Drive while his mother sells it out from under him. He
 is a music producer (currently under the MOGZART and GRIPNOTIC aliases), a
 self-taught AI-systems builder, a democratic socialist, an atheist of Jewish
-paternal descent, self-identified autistic, fifteen-plus years opioid-stable
+paternal descent, [[wiki/mind/profile/neurodivergence|self-identified autistic]], fifteen-plus years opioid-stable
 on daily Suboxone, and the subject and author of one of the more complete
 self-documentation projects a private person has ever run — of which this
 wiki is the current instrument. The defining event of his adult life, the

@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 45 |
-| Open gaps | 457 |
+| Open gaps | 461 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 55 |
 
@@ -171,7 +171,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/legal/2015-possession-arrest]]** — Whether the fines referenced in January and February 2016 belong to this case, to the Combos matter, or to both running concurrently is not determinable from the message record — the "combos are paid off" phrasing suggests at least some of that money was the t
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 
-### mind (130)
+### mind (134)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
 - **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
@@ -200,6 +200,10 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/concepts/the-handed-mirror]]** — **Does he predict the reaction in advance?** He had been told by the model, days before, that his text style *"is usually really poorly received in text"* — and proceeded. Whether he expected the rupture and sent it anyway, or genuinely did not see it coming, 
 - **[[wiki/mind/concepts/the-handed-mirror]]** — **The three-second tapbacks.** James objected to the file and to the Danielle copy essentially simultaneously. Which of the two actually did the damage is unrecoverable from the record and would sharpen the concept considerably.
 - **[[wiki/mind/politics/axioms]]** — This page reasons from a reading list and one self-authored system prompt, not from a direct first-person statement of political theory in Dan's own words explaining *why* he built the Cato identity or chose the Parenti book specifically — the inference that t
+- **[[wiki/mind/profile/neurodivergence]]** — **No clinical or diagnostic record exists anywhere in `raw/`.** There is no date of self-identification, no account of what prompted it, and no mention of a formal evaluation ever being sought. This is answerable by Dan directly in one paragraph — when the sel
+- **[[wiki/mind/profile/neurodivergence]]** — **No sensory, motor, or childhood-developmental evidence has been located.** The typical corroborating detail for a late self-identification — sensory sensitivities, special interests with the specific intensity/narrowness signature, childhood social difficult
+- **[[wiki/mind/profile/neurodivergence]]** — **No comorbidity discussion.** ADHD, commonly co-occurring with autism in adult self-identification, is not raised anywhere in the sources reviewed for this page. Not evidenced either way.
+- **[[wiki/mind/profile/neurodivergence]]** — **Whether the label carries any practical consequence — disclosure, accommodation, treatment-seeking — is undocumented.** The corpus frames it purely as an interpretive lens on his own cognition, never as something that changed a decision.
 - **[[wiki/mind/profile/texting-deviance-audit]]** — **The 2020–2024 trough is unexplained and it is the key to the whole series.** His ratio sat at 1.04× — full parity — through years the corpus barely covers (5,611 messages against 20,060 in 2025 alone). Whether that is a real behavioural plateau or an artifac
 - **[[wiki/mind/profile/texting-deviance-audit]]** — **No control for topic.** Conflict, logistics and AI-instruction threads are pooled. The 1,380-word specimen is partly pasted prompt text; 11 of 131 messages ≥100 words in 2025–26 are pronoun-poor enough to read as pasted rather than composed. A topic-aware cu
 - **[[wiki/mind/profile/texting-deviance-audit]]** — **Group chats are not separated from one-to-one threads**, and turn-taking norms differ between them.

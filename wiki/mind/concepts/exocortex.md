@@ -5,7 +5,7 @@ title: "The Exocortex (Bootloaders & Master Prompts)"
 aliases: ["CATO", "operating manual", "master forensic prompt", "MAX"]
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-20
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/self/dox-md/CATO_conflict_architecture.md
@@ -64,6 +64,9 @@ connections:
   - page: wiki/mind/synthesis/ai-collaborative-analysis
     type: evidences
     claim: "The exocortex concept — bootloaders, master prompts, the CATO system — is the primary evidence that LLMs are used as cognitive extensions, not conversation partners."
+  - page: wiki/mind/profile/neurodivergence
+    type: evidenced-by
+    claim: "The self-identified-autistic claim is a case study in how the bootloader mechanism launders a single unverified assertion into settled fact: three independently-named documents each state it as background rather than argue for it, because each was built by feeding the model the prior ones as ground truth."
 ---
 
 

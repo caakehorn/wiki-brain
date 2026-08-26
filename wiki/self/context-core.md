@@ -6,7 +6,7 @@ aliases: ["spine", "behavioral spine", "CONTEXT_CORE_EXPANDED"]
 status: stable
 importance: critical
 date_created: 2026-06-22
-date_modified: 2026-08-19
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -37,6 +37,9 @@ connections:
   - page: wiki/places/seven-springs
     type: contains
     claim: "Seven Springs is the childhood social anchor named in the canonical origin timeline — a weekly ritual that predates and outlasts the family's later collapse."
+  - page: wiki/mind/profile/neurodivergence
+    type: contains
+    claim: "This spine's one-line 'self-identified autistic' is carried as settled fact; the neurodivergence page traces that claim to its actual sourcing — three convergent AI-secondary documents and no clinical or diagnostic record — and qualifies it accordingly."
 related:
   - wiki/self/overview
   - wiki/mind/concepts/conflict-architecture

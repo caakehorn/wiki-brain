@@ -13,11 +13,11 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 513 |
-| Pages touched in the last 14 days | 182 |
+| Pages | 514 |
+| Pages touched in the last 14 days | 185 |
 | Pages reasoning from other pages (`synthesizes:`) | 44 |
 | Live contradictions | 45 |
-| Open gaps | 457 |
+| Open gaps | 461 |
 | Standing predictions | 55 |
 
 ## By domain
@@ -26,7 +26,7 @@ this is the state of the thing.
 |---|---|
 | people | 174 |
 | interests | 143 |
-| mind | 72 |
+| mind | 73 |
 | timeline | 42 |
 | self | 40 |
 | work | 15 |
@@ -40,14 +40,15 @@ this is the state of the thing.
 | Status | Pages |
 |---|---|
 | stable | 193 |
-| active | 177 |
+| active | 178 |
 | closed | 100 |
 | archived | 31 |
 | stub | 12 |
 
 ## The last few days
 
-**2026-08-26** — 60 pages
+**2026-08-26** — 72 pages
+  - ingest | mind | new page: autism/neurodivergence self-identification traced to its actual sourcing
   - feat | meta | domain: meta added — themed journeys (`page_type: journey`) and on-site mirrors of DIGEST/RECENT/OPEN
   - feat | mind | page_type: dataset added — chart-ready structured data, exemplar built and then corrected for the Annie moratorium
   - close | mind/people | 20 remaining sage_pending and operator-answer pages closed — obligations 20 → 0
@@ -56,14 +57,14 @@ this is the state of the thing.
   - close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked
   - close | people | ally-lubin — the love letter and the mutual-correction finding integrated, three dependents re-checked
 
-**2026-08-23** — 23 pages
+**2026-08-23** — 22 pages
   - directive | people | the Annie record is closed — no further texts, no further narrative
   - lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
   - ingest | people | five new entries, and the Ulmer household turns out to be the corpus's largest blind spot
   - close | people | Libby is Libby Titus, she died in October 2024, and the corpus had her married name all along
   - report | mind | texting deviance audit — the operator's model of his own texting was two-thirds wrong
 
-**2026-08-22** — 8 pages
+**2026-08-22** — 7 pages
   - answer | mind | what would make Dan happy — he answered it himself in 2025, and the record has already run the experiment
   - fix | people | a fourth portal incident, a duplicated H1 on annie-ulmer, and the freshness gate red on main
   - fix | people | the stale-snapshot clobber recurred on ally-lubin, six hours after the last one
@@ -75,7 +76,7 @@ this is the state of the thing.
   - climb | mind | three entries, and two of them answer a different question than the one asked
   - close | mind | two staged sage findings integrated on the pages this pass was already holding open
 
-**2026-08-21** — 11 pages
+**2026-08-21** — 7 pages
   - close+lint | all domains | two operator answers integrated; a false claim retracted and gated; staleness cleared to zero
   - rewrite | self | ally-and-dan-love-as-destiny — rebuilt as an argument, on verifiable evidence
   - lint | people | a portal save had deleted 56 typed-edge claims and 30KB of prose, and the gate that caught it went unread for a day
@@ -87,7 +88,7 @@ this is the state of the thing.
   - infra | portal | the loop had no return leg, and a corrected answer sat unpublished for forty minutes
   - infra | housekeeping | the pre-commit block had the wrong order, and the sweep had no protocol
 
-**2026-08-20** — 20 pages
+**2026-08-20** — 18 pages
   - ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
   - correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
   - close | timeline/people/mind | the catalyst was a five-word message in a group chat the wiki has never seen
