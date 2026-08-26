@@ -29,6 +29,9 @@ connections:
   - page: wiki/mind/synthesis/ai-collaborative-analysis
     type: instance-of
     claim: "A model was asked to formalize an already-observed pattern ('built around the pattern we've actually measured') into a combinatorial generator Dan can draw on indefinitely — the same commissioned-instrument relationship the AI-collaboration synthesis documents elsewhere, applied here to humor and affection rather than crisis analysis."
+  - page: wiki/mind/concepts/erotic-architecture
+    type: parallels
+    claim: "Both pages document the same disposition applied to a different object — this lexicon engineers how affection gets said, the ideal-face specification engineers what gets found attractive in the first place — neither domain is left to run on unexamined default."
 ---
 
 # Dan's Bespoke Lexicon

@@ -1,3 +1,42 @@
+## [2026-08-26] ingest | mind | the ideal-face specification — a mystery queue item resolved
+
+`queue.md` flagged an unexplained recurring "facial-feature/ideal-face"
+project (roughly a dozen conversation titles from an activity log,
+April-June 2025) as unclear whether it was dating-preference modeling, an
+AI-avatar project, or something else — worth a dedicated pass before
+deciding relevance. Only one of the titled conversations exists as a full
+export in `raw/`: `raw/self/dox-scan/DAN IDEAL FACE.rtf`, previously
+unfiled and uncited anywhere in the wiki.
+
+**What it resolves to:** a literal, quantified physical specification —
+roughly twenty facial attributes (face shape, jawline, cheekbone
+projection, eye set/tilt, nose bridge, lip fullness, hair color as an RGB
+hex range) each scored 1–10 against a described target, followed by a
+five-item named "vibe" archetype table (Ethereal Addict Chic 9,
+Effortlessly Sexy 9.5, Post-Soviet Waif 8, Tomboy Femininity scored low
+at 2 — a rejected trait named rather than omitted). The ratio precision
+and RGB coding read as an AI-image-generation prompt spec.
+
+**Handled deliberately generically.** The document names no person, and
+this pass draws no line from it to anyone documented elsewhere in the
+corpus — new section "The quantified ideal — engineering desire itself"
+on `wiki/mind/concepts/erotic-architecture.md` treats it purely as
+structural evidence for that page's existing thesis (sexuality as
+controlled-chaos engineering): the same anti-normie, nothing-left-unexamined
+disposition already documented for music/politics
+([[wiki/mind/concepts/the-cool-metric]]) and for a private vocabulary of
+affection ([[wiki/mind/profile/lexicon]]), now run on attraction itself.
+Parallel write-back edges added on both those pages.
+
+The other ~11 titles in the cluster are activity-log entries only — no
+corresponding conversation export exists in `raw/` to mine further; queue
+item closed as partial, with that gap stated rather than implied
+resolved.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check`, `bin/wiki-climb check` clean; 125 unit tests
+pass.
+
 ## [2026-08-26] ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
 
 Cleared three standing queue.md items in one pass, all quick checks

@@ -48,6 +48,7 @@ this is the state of the thing.
 ## The last few days
 
 **2026-08-26** — 84 pages
+  - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
   - close | work | BFS Foods drawer dispute — the retaliation-timing sequence corrected against Dan's own testimony
   - ingest | work | MAX_PRIME.md read to exhaustion — max-framework/overview.md rewritten, bunker-core.md's ecosystem list added, a pre-existing identity flag closed
