@@ -1,3 +1,33 @@
+## [2026-08-26] ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
+
+Cleared three standing queue.md items in one pass, all quick checks
+against already-mined files:
+
+- **`Jacob Bacharach.md`** — checked against `wiki/people/jacob-bacharach.md`
+  (already exceptionally thorough) by grepping the raw source for each of
+  the page's four stated open gaps. All four remain open in the source
+  too; nothing was sitting unmined. Recorded as a checked negative result
+  rather than silently re-verified and dropped.
+- **The Jimmy Pop file** — already fully cited and used by
+  `wiki/interests/rock-irrelevance-thesis.md`. No action needed.
+- **The J6 chat pair** — `"___ The J6 Chat copy.md"` confirmed
+  byte-identical (md5) to the already-cited source. `"___ The J6
+  Chat.md"` (no "copy") is the same chat exported 126 lines further: Dan
+  uploads a Babbitt-shooting FOIA package, a USPP operational-planning
+  FOIA, the Select Committee report excerpt, and the public J6 timeline,
+  and the model reads each against the standing hypothesis. New
+  subsection "The FOIA-document pass" on
+  `wiki/mind/synthesis/political-psyops.md`, explicit throughout that
+  every specific claim (wound-location inconsistencies across the
+  official record, the Guard-restriction order, the Capitol Police
+  Board's advance decision, the Flynn-brother denial) is the model's
+  summary of an uploaded document — not independently verified, since
+  the underlying documents themselves are not in `raw/`.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check`, `bin/wiki-climb check` clean; 125 unit tests
+pass.
+
 ## [2026-08-26] close | work | BFS Foods drawer dispute — the retaliation-timing sequence corrected against Dan's own testimony
 
 `queue.md`'s standing HIGH-priority item for the BFS Foods / Little

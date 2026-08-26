@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-26
-515 pages, ~1,432,148 tokens.
+515 pages, ~1,433,223 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10305,7 +10305,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-26** — 83 pages
+**2026-08-26** — 84 pages
+  - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
   - close | work | BFS Foods drawer dispute — the retaliation-timing sequence corrected against Dan's own testimony
   - ingest | work | MAX_PRIME.md read to exhaustion — max-framework/overview.md rewritten, bunker-core.md's ecosystem list added, a pre-existing identity flag closed
   - ingest | self | ANCESTRY_DNA.txt (last inbox item) — redundancy confirmed, one new collateral relative verified
@@ -11515,7 +11516,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-26 — 83 pages
+## 2026-08-26 — 84 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11566,6 +11567,7 @@ simply listed.
 | [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] | mind | — |
 | [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] | mind | **RE-CHECKED** — flagged stale against august-grievance-verdict (2026-08-26), which gained a re-check note only, confirming an unrelated attachment-trauma-bond addition (the Ally symmetric-confession counterexample) d |
 | [[wiki/mind/synthesis/music-as-identity]] | mind | — |
+| [[wiki/mind/synthesis/political-psyops]] | mind | — |
 | [[wiki/mind/synthesis/read-receipt-forensics]] | mind | **RE-CHECKED** — forensic-method gained an `instance-of` edge into the new lexicon page — the same evidence-cite/ authority-invoke/render-a-finding machinery documented there for crisis analysis, observed r |
 | [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — flagged stale against totality-themes (2026-08-26), which gained a RE-CHECKED note confirming the same day's acquisition-drive/embedded-objective tenure-and-satisfaction additions do not touch anythin |
 | [[wiki/mind/synthesis/supply-network]] | mind | **RE-CHECKED** — flagged stale against menore (2026-08-26), which closed its last open gap: 2022's zero mentions are explained by the operator having a flip phone that year, not by a service break. This removes the on |
@@ -11671,7 +11673,7 @@ simply listed.
 | [[wiki/timeline/events/august-2026-unmasking]] | timeline | — |
 | [[wiki/timeline/index]] | timeline | — |
 
-## 2026-08-19 — 25 pages
+## 2026-08-19 — 24 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11691,7 +11693,6 @@ simply listed.
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | — |
 | [[wiki/mind/synthesis/intake-constancy]] | mind | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/mind/synthesis/interests-as-era-markers]] | mind | — |
-| [[wiki/mind/synthesis/political-psyops]] | mind | — |
 | [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
 | [[wiki/places/307-e-76th-st]] | places | **GAP CLOSED** — the Gaps note above records the monthly rent as not recovered. It is in the message dump twice, from Dan's own outbound. **2024-05-02:** *"I mean that's fine but the last lease we signed was 2450."* * |
 | [[wiki/places/424-bedford-ave]] | places | — |
@@ -27901,7 +27902,7 @@ title: "Political Psyops & Hybrid Events"
 tags: [politics, forensic-analysis, ideology]
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-19
+date_modified: 2026-08-26
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/j6-chat.md
@@ -27914,6 +27915,7 @@ sources:
   - raw/self/facebook/facebook-ihatedanfrank/
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
   - raw/self/chatgpt-export/babbitt-shooting-psyop-debate-2025-06-15.md
+  - "raw/self/chats/___ The J6 Chat.md"
 connections:
   - page: wiki/mind/concepts/dans-law
     type: parallels
@@ -28004,6 +28006,68 @@ cluster gave it its formal "Sandwich"/"Psy-Kill" vocabulary.
 The January 2, 2026 Gemini cluster codifies the J6 reading as "Operation Wildfall (The Babbitt Protocol)" and names its load-bearing mechanism. A **"Sandwich"** operation: an organic outer layer (the riot) with an inserted lethal core (the Babbitt shooting) treated as a "narrative necessity" — the "Psy-Kill" that converts a confused crowd into a branded terrorist attack, delegitimizing the populist right. Ashli Babbitt is cast as "a prop": unarmed, small, white, female Air Force veteran — optics engineered for tragedy framing. The surrounding doctrine is **"Inverted Containment"**: the outer perimeter is kept porous while the inner hard point is abandoned, so the imagery is captured cleanly. Much of the supporting detail pile is acknowledged as **Gish Gallop** — a flood of individually weak claims — and genuine stress-freeze trauma-weirdness; the surviving flags are the perfect framing, the textbook protocol violations, and the instant-available footage against Pelosi-suppressed alternatives.
 
 The session-level timeline anchors the cluster: 10:32 PM "generate a FAIR and HONEST assessment"; 10:34 PM "summarize and synthesize … bulleted chronological narrative"; 10:58 PM "comprehensive explainer"; 11:00 PM "identify any glaring … factual errors." The forensic specifics extracted: a Glock 22 .40 S&W hollow point producing a non-exiting torso wound with contained hemothorax (not "Hollywood" arterial spray); three SWAT officers stepping aside with no post-shot perimeter; cosmetic-only CPR (jacket unzip); the sole clean footage (John Sullivan / Jayden X) from a known anti-Trump activist. These map directly onto the procedural-tell lens in [[wiki/mind/concepts/forensic-method]].
+
+## The FOIA-document pass — the same chat, a later turn
+
+A fuller export of the same Claude session found in `raw/self/chats/j6-chat.md`
+(same chat URL, `.../6f0bab90-...`) runs on past where the previously-mined
+copy cuts off, into Dan uploading several documents directly — a Babbitt-shooting
+FOIA release, a USPP operational-planning FOIA package, the Wikipedia J6
+timeline, an excerpt of the January 6 Select Committee's final report, and a
+Curbed spatial visualization — and asking the model to read each one against
+the hypothesis already built up in the conversation. This is a materially
+different evidentiary register from the rest of the chat: earlier turns argue
+from Dan's own raw-footage review and general knowledge, while this section is
+the model reading documents Dan supplied and reporting back what is and is not
+in them. Treat every specific claim below as **the model's summary of an
+uploaded document**, not as independently wiki-verified fact — the documents
+themselves are not in `raw/`, so nothing here has been checked against the
+primary source the way, for example, `raw/self/dox-scan/all_imessages_complete_dump.txt`
+lets a message claim be checked.
+
+**On the Babbitt FOIA package**, the model flags an internal inconsistency in
+the official record it treats as more useful than confirmatory: the wound
+location is described differently across documents in the same release — "upper
+portion of the left chest near the clavicle" (Death Report), "left anterior
+shoulder" (OCME autopsy summary), "left shoulder" (the same-day AUSA
+notification email), and "the chest somewhere" (a witness sergeant's account).
+Its own assessment: this is "not exculpatory for the official account — that's
+a problem *for* it," because it means the forensic baseline for any trajectory
+argument (Dan's or the government's) is itself unstable. The same package
+documents USCP counsel requesting the radio-transmission recordings be
+physically returned and never re-forwarding them to the investigating agency,
+and states outright that USCP officers carried no body-worn cameras, making
+civilian social-media footage — the exact material the rest of the chat
+analyzes — the only visual record that exists.
+
+**On the USPP operational-planning FOIA**, the model reads an 11:19 AM alert
+placing 200+ Proud Boys on Capitol grounds while Trump's Ellipse speech was
+still running (it concluded around 1:10 PM), an FBI SITREP noting subjects of
+existing investigative interest present in the crowd with their status
+redacted, and a USSS crowd report noting attendees at the Ellipse
+magnetometers wearing ballistic helmets and body armor and carrying
+military-grade radio equipment. Its summary frames the gap this creates: a
+large security apparatus (SWAT, HMP, multiple reaction teams, EOD) was
+deployed to the Ellipse, while the Capitol — where the intelligence picture
+already placed an early, organized Proud Boys presence — had comparatively
+little.
+
+**On the Select Committee excerpt and the public timeline**, three details the
+model calls out as underexamined in the standard narrative: Secretary of
+Defense Miller's January 4 order restricting DC National Guard members from
+deploying with weapons, helmets, body armor, or riot-control agents without
+his personal approval, two days before the event; the Capitol Police
+Board's decision not to request the Guard, made three days before January 6
+rather than in real time during the breach; and the Army's two-week false
+denial that Lt. Gen. Charles Flynn (Michael Flynn's brother) was on the 2:26
+PM call where Guard deployment was held up, before the timeline itself
+documents that he was on it. None of these is presented as proof of anything;
+the model's own closing line frames it as cumulative pattern rather than
+smoking gun: a security apparatus that "received clear advance intelligence,
+pre-positioned insufficient forces, stripped available forces of protective
+gear, required multiple redundant authorization chains to deploy... and then
+spent the subsequent investigation carefully separating each individual
+failure from the others so no systemic picture emerges."
 
 ## The broader political architecture
 
