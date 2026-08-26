@@ -7,7 +7,7 @@ status: stable
 knowledge: mixed
 importance: high
 date_created: 2026-06-22
-date_modified: 2026-08-20
+date_modified: 2026-08-23
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -90,6 +90,9 @@ connections:
   - page: wiki/work/tech/max-framework/overview
     type: instantiates
     claim: "CATO's evidence-first, no-sycophancy, glyph-enforced operating mode is the forensic-method cognitive OS deliberately pasted into an AI session as a standing configuration, rather than left as a default disposition."
+  - page: wiki/mind/profile/texting-deviance-audit
+    type: instance-of
+    claim: "The method turned on its own operator's self-report: Dan's stated model of his texting — fragmented speech-cadence, technical vocabulary, ten-paragraph walls — was tested against 217,573 records and two of its three claims were falsified, including by the control that killed the staccato hypothesis (his FIRST messages start lowercase at the same rate as his continuations, so the lowercase opener is habit, not fragmentation)."
 ---
 
 

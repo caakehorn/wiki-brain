@@ -7,7 +7,7 @@ status: closed
 knowledge: mixed
 importance: high
 date_created: 2026-08-03
-date_modified: 2026-08-03
+date_modified: 2026-08-22
 date_range_start: 2015-02-17
 date_range_end: 2016-02-17
 sources:
@@ -29,6 +29,9 @@ connections:
   - page: wiki/mind/synthesis/the-embedded-objective
     type: evidences
     claim: "The corpus's densest record of acquiring an assigned outcome and its thinnest record of serving one: five dated contemporaneous events for the ARD deal against a single retrospective clause for the six months of probation."
+  - page: wiki/timeline/events/uniontown-hospital-vape-alarm
+    type: parallels
+    claim: "The 2018 hospital summons was filed before the same magistrate, Michael M. Metros of MDJ-14-1-01 — so the blotter is no longer his only appearance in the corpus, and the magisterial district, not the offence, is what Dan's two documented charging events have in common."
   - page: wiki/legal/2015-retail-theft-arrest
     type: precedes
     claim: "The Combos retail theft happened a few weeks after this and is a separate legal matter; until 2026-08-03 the wiki carried the two as one event, attributing this arrest's lawyer, ARD and hearing to a snack-food theft."
@@ -273,8 +276,21 @@ own telling calls the residue count a "class B controlled substance," which is
 recorded here as his description rather than as a documented grade. The nine months between the
 February 2015 filing and the first surviving message about the case in December
 2015 contain the preliminary hearing and arraignment and are entirely
-undocumented. Magisterial District Judge **Michael Metros** appears once, in
-the blotter, and has no other trace in the corpus.
+undocumented.
+
+> **CORRECTION [2026-08-22]:** This section previously read *"Magisterial
+> District Judge **Michael Metros** appears once, in the blotter, and has no
+> other trace in the corpus."* He appears twice. The April 2018 summons behind
+> [[wiki/timeline/events/uniontown-hospital-vape-alarm]] — docket
+> MJ-14101-NT-0000082-2018, filed 4/5/2018 — names **Honorable Michael M.
+> Metros**, MDJ-14-1-01, 88 North Gallatin Avenue, Uniontown, and gives the
+> district's telephone number and address that the blotter did not. Both of
+> Dan's documented charging events ran through the same magisterial district
+> three years apart, which is unremarkable for a man living in Uniontown and
+> is still the only thing they have in common. It does not supply this case's
+> docket number, which remains unknown: MDJS dockets are per-case, and knowing
+> the court is not knowing the case.
+
 Whether the fines referenced in January and February 2016 belong to this case,
 to [[wiki/legal/2015-retail-theft-arrest|the Combos matter]], or to both
 running concurrently is not determinable from the message record — the

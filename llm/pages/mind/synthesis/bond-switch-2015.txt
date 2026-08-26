@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-17
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
@@ -13,6 +13,9 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 tags: [relationships, attachment, infidelity, trauma-bond, uniontown-era]
 connections:
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: parallels
+    claim: "The 2015 transfer is the only completed exit from a long relationship in the corpus and it completed by substitution inside a week, which makes rescue-by-another-person the most instantiated move in the romantic record rather than an untried intervention."
   - page: wiki/people/emilio
     type: evidenced-by
     claim: "The partner displaced on Annie's side, whose message to her sister three days later triggered the December 2 confrontation — the symmetric cost the singular-slot thesis predicts but had no instance of until 2026-08-17."
@@ -52,7 +55,6 @@ connections:
   - page: wiki/mind/synthesis/the-unbroken-bond
     type: instantiates
     claim: "The 2015 switch is the sharpest instance of a seventeen-year pattern: the attachment slot has never been left voluntarily empty, and this is the transition that proves it at the resolution of days."
-sage_pending: 2026-08-21
 ---
 
 
@@ -181,6 +183,18 @@ The bootloader's reconstructed chronology, cross-checked against the message rec
 > the old reading. The Nov 28 – Dec 2 window was swept across the full dump for
 > this pass and produced the opposite: an Alexis continuously present in
 > Uniontown.
+>
+> **This finding is now load-bearing outside the wiki.** The first question
+> the portal's question box ever took — *can he actually be monogamous* — was
+> answered on this page's finding rather than on
+> [[wiki/mind/synthesis/the-unbroken-bond]]'s, quoting the sentence above: a
+> six-year bond closing in seventy-two hours with nothing prompting it but
+> the arrival of a replacement. If **"the replacement was sourced before the
+> vacancy occurred"** is too strong for the evidence, this page is where it
+> has to be narrowed, because it is now quoted to a third party. The relevant
+> test stays what it always was: whether anything in the 2015-11-24 →
+> 2015-12-01 window shows a decision to end the Alexis bond that predates
+> Annie's arrival. None has been found.
 >
 > **CORRECTION TO THIS CORRECTION [2026-08-15, same day].** The first version of
 > this block argued the point partly from a message reading *"I know but she
@@ -314,35 +328,3 @@ not Ellen. Do not collapse the two.
 - Lease holder and physical layout of 155 Virginia across the transition are undocumented (see [[wiki/places/155-virginia-ave]]).
 - The 768/day termination figure's source export is not on disk; the closure-day volume is therefore a known provenance gap, not a settled number.
 
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
-
-Answer and sources: `raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md`
-
-**This page is now load-bearing outside the wiki.** The first question the portal's
-question box ever took — *can he actually be monogamous* — was answered on this
-page's finding rather than on `the-unbroken-bond`'s, and the specific sentence
-carrying the weight is the one about the removed bullet: a six-year bond closing
-in seventy-two hours **with nothing prompting it but the arrival of a
-replacement**.
-
-The reading the answer put in front of a third party, and which this page implies
-without stating: **the replacement was sourced before the vacancy occurred.** If
-that is too strong for the evidence, this page is where it has to be narrowed,
-because it is now quoted. The relevant test is whether anything in the
-2015-11-24 → 2015-12-01 window shows a decision to end the Alexis bond that
-predates Annie's arrival. The 2026-08-15 correction removed the only bullet that
-supplied a reason, which is what makes the strong reading available.
-
-Recorded here rather than only in `sage/` so the next pass over this page knows
-the claim has an audience.

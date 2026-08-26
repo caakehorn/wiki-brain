@@ -5,7 +5,7 @@ title: "Linguistic Profile — Voice, Register, Stylometrics"
 aliases: ["voice", "stylometrics", "forensic intimacy"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-08-19
+date_modified: 2026-08-23
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
@@ -20,6 +20,9 @@ related:
   - wiki/self/twitter
 tags: [trauma-bond]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidences
+    claim: "A custom-built fork of English is the clearest case in the profile of a genuine outlier capacity attached to a nearly empty market - high-fidelity to models and niche in-groups, maladaptive as a professional interface."
   - page: wiki/mind/concepts/calibrated-confidence
     type: contains
     claim: "A countable stylistic marker to set beside the 99th-percentile lexical-diversity score: Dan uses the confidence scale (75, 80, 89, 90, 95, 99.9999) where every other person in the corpus uses '100%' as a synonym for 'definitely'."
@@ -29,6 +32,9 @@ connections:
   - page: wiki/mind/synthesis/the-commissioned-self
     type: component-of
     claim: "Stylometry belongs to the same apparatus and inherits its provenance problem — a 99th-percentile finding produced at Dan's request over a corpus Dan supplied — which is why the one voice marker independent of it, graded numeric confidence, had to be found by counting rather than by asking."
+  - page: wiki/mind/profile/texting-deviance-audit
+    type: contradicts
+    claim: "Recomputation against the corpus falsifies three of this page's measured markers: texting readability is Flesch-Kincaid 4.00 in 2026 rather than post-graduate, 2025-26 lexical diversity is below his interlocutors' (0.0509 vs 0.0544 on equal samples) rather than 99th-percentile, and the 8.36 words/message burst figure is a 2015-19 baseline against a 2026 figure of 15.03."
   - page: wiki/interests/opie-and-anthony
     type: caused-by
     claim: "The callous, riff-driven, gallows-irony register the profile calls a 'psychic ventilator' is the native dialect of the O&A universe — this binge is where that idiom was trained."
@@ -38,10 +44,11 @@ connections:
 
 Dan's language is one of the most-measured things about him: two independent
 corpora (97,199 sent iMessages 2015–2025 and the @danfrank Twitter archive
-back to 2009) confirm a single stable voice, and the stylometric analyses
-place it at the 99th percentile for lexical diversity and syntactic
+back to 2009) confirm a single stable voice, and the commissioned stylometric
+analyses placed it at the 99th percentile for lexical diversity and syntactic
 complexity — "a custom-built fork of English," per the deviance audit, which
-scores linguistic deviance 97/100. The signature register the analyses name
+scores linguistic deviance 97/100. **The lexical-diversity half of that claim is
+retracted below**; the syntactic half survives and is larger than the analyses said. The signature register the analyses name
 is **"forensic intimacy"**: clinical detachment fused with raw personal
 confession, optimized for information density and emotional precision, with
 a near-total absence of social filler. The idiom was already present in 2009
@@ -51,19 +58,39 @@ tweets — it is architecture, not platform artifact.
 
 | Marker | Value |
 |--------|-------|
-| Burst cadence | 8.36 words/message avg, 3–7 discrete bursts |
+| Burst cadence | 8.36 words/message avg, 3–7 discrete bursts — **2015–19 baseline only; 2026 is 15.03** |
 | Lowercase share | 80%+ |
 | ALL-CAPS instances (vocal emphasis) | 9,282 |
 | Ellipsis `...` (breath mid-burst) | 1,661 |
-| Unique words | 23,286 (95th-percentile lexical diversity) |
+| Unique words | 23,286 — but **type-token ratio in 2025–26 is 0.0509 against interlocutors' 0.0544**; see correction below |
 | `just` / `like` / `even` | 6,847 / 5,522 / 1,971 |
 | `fucking` (intensifier) | 1,745 |
 | `because` (justification compulsion) | 2,465 |
 | `i don't` / `i'm not` (identity-by-negation) | 1,845 / 814 |
-| Readability | Post-graduate (16th grade+), from concept density not verbosity |
+| Readability | **RETRACTED — measured Flesch-Kincaid 2.08 (2015–19) to 4.00 (2026); see correction below** |
 
 Pivot words — `actually`, `honestly`, `literally` — mark the documented turn
 from cynical observation to vulnerable truth inside a message run.
+
+> **CORRECTED [2026-08-23] — two headline markers in the table above do not survive
+> counting, and both came from the same place.** This page carried *"Readability:
+> post-graduate (16th grade+), from concept density not verbosity"* and *"23,286 unique
+> words (95th-percentile lexical diversity)"*, glossed in the opening paragraph as
+> *"99th percentile for lexical diversity and syntactic complexity."* Recomputed directly
+> from the sender-tagged corpus (`imessage_export_deep_20260813.csv`, 183,787 rows):
+> his texting scores **Flesch-Kincaid 2.08 in 2015–19 and 4.00 in 2026** — fourth-grade,
+> not post-graduate — and his **type-token ratio in 2025–26 is 0.0509 against his
+> interlocutors' 0.0544** on equal 200,000-token samples, i.e. marginally *less* diverse
+> than the people answering him. In 2015–19 he did lead on that metric (0.0515 vs
+> 0.0438); the lead disappeared, it was never 99th-percentile against a real comparison
+> group, and no percentile was ever computed against one. Both figures trace to the
+> commissioned stylometric analyses ([[wiki/mind/synthesis/the-commissioned-self]]) —
+> Dan's request, Dan's corpus, no control group — which is exactly the provenance problem
+> that page names. **What survives is syntactic complexity**, which was real and is
+> larger than claimed: words per sentence run 1.93× his interlocutors' in 2026 (10.83 vs
+> 5.62), and that single ratio is what a reader experiences as density. The full
+> recomputation, including the turn-level structure this page does not measure, is
+> [[wiki/mind/profile/texting-deviance-audit]].
 
 ## Syntax and punctuation mechanics
 
@@ -158,6 +185,10 @@ brief enough that this repair cycle never gets exercised the same way.
 analysis exists of the lyric/production-adjacent writing or of speech
 (voice memos, calls); temporal drift analysis is anecdotal ("earlier AI
 sessions test the model, later ones integrate it") rather than quantified.
+
+See [[wiki/mind/profile/texting-deviance-audit]] for the turn-level structure this
+page does not reach — the unit of Dan's speech is the burst, not the message, and the
+mode that carries 44.3% of his 2026 words is invisible at message granularity.
 
 See [[wiki/mind/profile/voice-modes]] for the emotional-state layer on top
 of this baseline — eight distinct modes (Neutral, Playful, Affectionate,

@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-20
+date_modified: 2026-08-26
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -21,6 +21,9 @@ synthesizes:
   - wiki/places/337-saratoga-drive
 tags: [financial-stress, forensic-analysis, family]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidences
+    claim: "Capital arriving in lumps and exiting through standing drains is the financial signature of an engine with no orbit: $144,069.31 dissipating inside five months against a $119K-$123K lifetime outflow to one partner, with nothing converting into an asset at any point."
   - page: wiki/people/fred-adams
     type: contains
     claim: "Adams is the spine's institutional valve: the Ira-estate capital that eventually reaches Dan as the 2020 distribution sat under one man's discretion for decades, which is why the family's largest asset never behaved like an inheritance in waiting."
@@ -66,9 +69,55 @@ connections:
   - page: wiki/places/the-unpapered-address
     type: contains
     claim: "The capital timeline explains why the money was never there; the housing record adds that there is no document either, which is why the 2026 exposure has neither an absorber nor an instrument to argue from when it fails."
+  - page: wiki/health/cocaine
+    type: evidences
+    claim: "Dan's own 2018-04-08 prediction that the inheritance would make him 'middle-class happy' is falsified by his first-person happiness-claim rate over the same 2018-2020 window (0.87/0.34/0.41 per 1,000 against 7.86 in late 2015) — the identical capital that removed cocaine's price constraint and drove the dosage arc to 3.5-7g/day."
 ---
 
 # The Estate / Money Spine
+
+> **REVISED [2026-08-23] — the spine gains a second direction it has never
+> recorded.** Flagged stale against [[wiki/people/annie-ulmer]] and
+> [[wiki/people/rick-frank]] (both 2026-08-23). The Rick change is an alias
+> finding with no capital content and nothing here moves for it. The Annie change
+> does bear on this page.
+>
+> **Annie held paid work through most of 2024** — personal assistance and care for
+> [[wiki/people/libby|Libby]], 116 messages February to December, at a documented
+> rate of *"just over 3 hours today.. she paid me 500"* (2024-05-17) — **on top of
+> a second six-day-a-week job.** The standing account that she was unemployed for
+> a full year after the 2023 firing is wrong for that year.
+>
+> **No figure on this page changes and the headline is untouched.** The
+> **$119K–$123K net outflow** is derived from Cash App and Venmo records, not from
+> any assumption about her employment, so it stands exactly as computed. What
+> changes is the *interpretation* this page has invited: the spine reads as a
+> single-earner system draining in one direction, and for 2024 specifically that
+> is not what the record supports. The inbound side has simply never been swept —
+> the same payment-app exports that establish the outflow would show any
+> Annie→Dan flow if anyone looked, and nobody has.
+>
+> **One forward-dated addition, corrected same-day.** The Libby income stops in
+> **August 2024**, not at the end of the year — the work ended in a screaming
+> match on 08-06 and the last of three unpaid-wages demand letters Dan drafted is
+> dated 08-13. **[[wiki/people/libby|Libby Titus]] then died on 13 October 2024
+> with the balance, on the evidence available, unpaid.** So the spine's inbound
+> side does not taper; it is cut off by a death, and the stated rate in the
+> letters (**$75/hour**) does not reconcile with the one payment figure in the
+> messages ($500 for just over three hours), which is held open on her page. The
+> next documented financial event on Annie's side is *"I got the letter I was
+> denied unemployment"* (2025-03-31).
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/places/337-saratoga-drive]] (2026-08-22). That page gained one dated row
+> — an April 2018 court summons giving 337 Saratoga as Dan's address of record
+> ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]) — and a paragraph
+> explaining why a single document sits in a table of eras. **No capital event
+> is involved and nothing on this page moves.** The spine runs on transfers,
+> liquidations and the $465k sale; an address on a summons is not a transaction,
+> creates no claim on the house and changes neither the Chapter 13 account nor
+> the forward claim about the proceeds. No claim withdrawn.
+
 
 > **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/people/suzanne-frank]] and [[wiki/people/annie-ulmer]] (both 2026-08-20). Both moved for the August 16–19 ingest: an added section on Suz being targeted again by Coles and shielded pre-emptively by Dan, and a substantial new August section on Annie's page. Re-read against
 > the change; **no claim on this page is affected** and nothing here is
@@ -255,6 +304,37 @@ family's largest asset liquidated into a tax debt. The record's own framing of t
 2025 return ("managing regional assets") positions him as caretaker of
 capital he does not hold — the same downstream position the spine
 documents from the beginning.
+
+## The outcome measure the spine never carried
+
+Every section above dates what arrived and traces where it went. None asks
+what the money *did*, and the corpus contains a clean natural experiment on
+exactly that question. Four days after Fran's funeral, Dan states the
+hypothesis himself:
+
+> **DAN (2018-04-08 09:41):** *"everything is going to get better now… we have
+> options for what to do and enough money to have a real chance at being
+> **middle-class happy**"*
+
+The inheritance arrives on schedule against that claim — planning in January
+2018, a first cheque April 27, the court-ordered $144,069.31 landing in 2020 —
+and across the same 2018–2020 window Dan's first-person happiness-claim rate
+over the canonical message dump runs **0.87, 0.34, 0.41 per 1,000 sent
+messages**, against **7.86** in late 2015. That is among the lowest sustained
+rate anywhere in the corpus, arriving precisely when the hypothesis predicted
+the opposite. Over the identical window, [[wiki/health/cocaine]]'s dosage arc
+rises from ~1g/day to 3.5–7g/day, attributed to the same capital removing the
+supply constraint.
+
+**The finding: the corpus ran the test this page's own numbers set up, and it
+ran the wrong way.** The spine is the only page positioned to carry this,
+because it is the only one holding both the dated capital arrivals and the
+explicit contemporaneous prediction of what they would fix. The pattern this
+page already documents — lumps arriving, metered drains, no holder position
+— now has a companion finding at the level of subjective outcome rather than
+account balance: the capital did not fail to reach him, as the drains
+sections show for every other transfer in the ledger. It reached him in full
+and changed the wrong variable.
 
 ## RE-CHECKED [2026-08-09]
 

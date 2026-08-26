@@ -4,7 +4,7 @@ page_type: entity
 title: "Franki Faris"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-02
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-scan/Gemini-_58.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
@@ -30,6 +30,9 @@ connections:
   - page: wiki/mind/synthesis/dormancy-not-exit
     type: contradicts
     claim: "Five days of occupancy in 2013 left no corpus and no later trace, which is the control bounding the retention rule to relationships that clear a tenure floor."
+  - page: wiki/mind/synthesis/the-commissioned-self
+    type: precedes
+    claim: "The July 9-31, 2013 self-typology batch that typed Franki and Alexis also carries Dan's own earliest documented INTP self-identification, a decade before the AI instrumentation the commissioned-self pattern is mostly built on."
 ---
 
 # Franki Faris
@@ -49,7 +52,14 @@ Dan and Alexis had split, and within days he was involved with Franki —
 in his own later description, an attempt to "reboot" his identity around
 someone he typed up as her opposite: an ESFP/"Performer" ("magic pixie
 dream girl") against Alexis's INFP/ISFP "Idealist," in a batch of
-self-typology emails he sent himself between July 9 and July 31, 2013.
+self-typology emails he sent himself between July 9 and July 31, 2013 — a
+batch that also carries his own earliest documented INTP self-identification
+([[wiki/people/elizabeth-eleanor]], July 10–11, 2013) and is the origin
+point of [[wiki/mind/synthesis/the-commissioned-self]]'s pattern, a decade
+before the AI instrumentation that page is mostly built on. Alexis's own
+typing is now carried on [[wiki/people/alexis-armel]] as well as here, since
+the datum being filed only on a five-day rebound's page is what let two
+independent 2026-08-21 passes conclude she had no type at all.
 The Franki interlude lasted five days before collapsing — Dan's own
 framing was that a PA rebound couldn't replace a years-deep NYC
 relationship — and he went back to Alexis.
@@ -168,3 +178,4 @@ and the tenure figure is contested per the block above. Her presence in the
 Seven Springs orbit raises an unasked question the corpus can probably answer —
 whether she was already known to Dan through skiing rather than only through
 school.
+

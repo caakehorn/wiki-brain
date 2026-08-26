@@ -7,7 +7,7 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-21
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/ADDICTION_PROFILE.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -80,12 +80,40 @@ connections:
   - page: wiki/health/the-configured-body
     type: evidences
     claim: "The dosage arc is the sharpest evidence that specification runs without a maintenance faculty attached: 1g/day to 3.5-7g/day to 0.5-1g/day tracks the inheritance arriving and being exhausted, and no health variable appears anywhere in the curve."
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: evidences
+    claim: "The 2017-2020 dosage escalation this page attributes to the inheritance removing the capital constraint runs opposite Dan's first-person happiness-claim rate over the identical window (0.87/0.34/0.41 per 1,000 messages against 7.86 in late 2015) — the period of maximum unconstrained supply is also the period of least reported wellbeing, which the spine's own outcome-measure gap had not yet noted."
 changelog:
   - date: 2026-08-19
     note: "Initial creation — synthesis of cocaine-specific findings drawn from chemical-architecture, supply-network, legal/2015-possession-arrest, and all documented cocaine dealer pages."
 ---
 
 # Cocaine
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/concepts/acquisition-drive]] (2026-08-26), which added a
+> closure-not-completion refinement built on the Fran vigil quote — unrelated
+> to cocaine. **No claim on this page is affected.**
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/synthesis/dan-annie-fallout-verdict]] (2026-08-23), which moved on
+> one arithmetical point only — the exit-declaration relapse rate corrected from
+> 87% to **100%** (129 episodes, median gap thirty-six seconds). **This page
+> carries no exit-cycle figure**, and the verdict's supply and procurement
+> findings, which are what this page reasons from, are unchanged. Nothing
+> affected, no claim withdrawn.
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/legal/2015-possession-arrest]] (2026-08-22). That page moved by exactly
+> one thing — a correction retiring its statement that Magisterial District Judge
+> Michael Metros "appears once, in the blotter, and has no other trace in the
+> corpus," because the April 2018 hospital summons
+> ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]) names the same judge
+> and district. **Nothing on this page is affected.** The residue count, the
+> quantity finding, the DA's categorical cocaine bar and the ARD outcome are all
+> untouched; which magistrate the case was filed before was never load-bearing
+> here and still is not. No claim withdrawn.
+
 
 > **RE-CHECKED [2026-08-20] — the demand curve's other end closed; no dosage or
 > finance claim moves.** Flagged stale against
@@ -337,6 +365,29 @@ $10 and $20 fronting requests across the 2016–17 winter, and the same
 seven-week window of mutual credit between broke men is the window Jay
 did not come out of. The cocaine economy's participants were as
 financially fragile as its buyer — precarity ran the whole chain.
+
+## The happiness counter-measure
+
+The dosage arc has never been checked against an outcome, and one exists. A
+`bin/mine-messages` sweep of Dan's first-person happiness claims in sent text
+runs **0.87 per 1,000 messages in 2018, 0.34 in 2019, 0.41 in 2020** — against
+**7.86** in the five weeks of late 2015 — among the lowest rates found
+anywhere in the corpus. That is the identical window as the 2017–2020 peak
+above: the escalation from ~1g/day to 3.5–7g/day tracks
+[[wiki/mind/synthesis/estate-money-spine|Fran's inheritance]] removing the
+capital constraint, and it runs precisely opposite the happiness rate.
+
+**The period where supply and money were both unconstrained is also the
+period with the least first-person report of feeling good.** This does not
+contradict anything already on this page — the desired state was already
+read here as maximum intensity limited only by supply and money, not
+moderation toward wellbeing, and
+[[wiki/mind/profile/deviance-mapping|deviance-mapping]] independently frames
+the same personality as substituting *"intensity and forbidden knowledge in
+place of happiness and stability."* What changes is that the arc now has an
+outcome measure sitting next to it rather than only a supply-and-cost
+account, and the outcome runs the wrong way for the "resource unlocked
+better living" reading a bare dosage increase might otherwise invite.
 
 ## What's missing
 

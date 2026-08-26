@@ -5,7 +5,7 @@ knowledge: mixed
 title: "Erotic Architecture: Sexuality as Controlled-Chaos Engineering"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-08-11
+date_modified: 2026-08-26
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/dansynth/DANSYNTH.txt
@@ -38,7 +38,7 @@ connections:
     claim: "This page named the same mechanism and logged the Bryan MMF as its documented case on 2026-08-02; the sibling page did not catch up until 2026-08-10, over two weeks in which it kept asserting the instance didn't exist."
   - page: wiki/people/ally-lubin
     type: evidenced-by
-    claim: "The purest case of the architecture running with no body in the room: arousal sustained entirely by inaccessibility, priced per item, and explicitly named by Dan as something he needs to 'get the poison out' of rather than consummate."
+    claim: "The purest case of the architecture running with no body in the room: arousal sustained entirely by inaccessibility, priced per item, and explicitly named by Dan as something he needs to 'get the poison out' of rather than consummate. The August 2026 elopement pitch and unanswered love letter make that a dated, falsifiable test: if the channel survives contact, inaccessibility was incidental to it; if it collapses, or access is never taken up despite being offered, this page is the reason."
   - page: wiki/self/concepts/ally-and-dan-love-as-destiny
     type: contradicts
     claim: "The destiny entry argues that the architecture has finally found its body — consummation is now possible and the bond holds despite (or because of) accessibility."
@@ -164,3 +164,24 @@ The three mechanisms' interpretive framing (externalized libido, taboo as
 ontological rupture, emotional consumption) remains AI-authored and
 uncorroborated as *theory*, even where the underlying events are now
 independently documented.
+
+## The live test: inaccessibility as an operating condition, dated
+
+The Ally case ties this page's externalized-libido reading to a specific,
+falsifiable clock rather than leaving it a standing characterization. Dan's
+own words are the clearest statement of the mechanism outside theory —
+2019-10-22: *"you don't even have the decency to allow me to see you naked
+**so i can get the poison out**."* Arousal there runs on distance as the
+operating condition, not an obstacle to it.
+
+August 2026 puts a live test on the page for the first time. The unanswered
+elopement pitch of August 18 and the unreplied love letter of August 21
+([[wiki/people/ally-lubin]]) are both bids to close the distance this
+architecture is built on. If a meeting occurs and the channel survives it,
+inaccessibility was incidental rather than load-bearing and this page's claim
+is weaker than stated. If a meeting occurs and the channel collapses, or if
+access is never actually taken up despite being offered, this page is the
+reason. The ninety days after August 19, 2026 are the window — the same test
+[[wiki/mind/synthesis/single-channel]] is running on its own claim, and the
+two should resolve together or the disagreement between them is itself a
+finding.

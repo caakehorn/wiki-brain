@@ -7,8 +7,18 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-20
-date_modified: 2026-08-21
+date_modified: 2026-08-26
 # operator answers from 2026-08-20 have been integrated below
+
+> **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at
+> third remove.** [[wiki/mind/synthesis/attachment-trauma-bond]] moved on 2026-08-22 solely by
+> gaining a `RE-CHECKED` blockquote, which itself recorded that *its* premises
+> had moved only by re-check blocks, all of them tracing back to the April 2018
+> hospital summons ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]) and
+> finding nothing affected. No substantive claim changed anywhere along that
+> chain, and this page reasons from the claims rather than the blocks. Nothing
+> withdrawn.
+
 
 date_range_start: 2026-08-16
 date_range_end: 2026-08-19
@@ -30,6 +40,9 @@ synthesizes:
   - wiki/mind/synthesis/attachment-trauma-bond
   - wiki/mind/psychosexual/arrangement-history
 connections:
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: supplies
+    claim: "The finding that Annie issues no terminating statement, and that 'I want to be alone' is the nearest approach in eleven years without being one, is what forces the August 19 clearing to be read as a discriminating act rather than as the severance signal the attachment model has been waiting for."
   - page: wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis
     type: parallels
     claim: "Both adjudicate the same window at different scales — ten grievances across seventy hours here, three people across fifteen minutes there — and the shorter frame reaches the harsher conclusion about each participant."
@@ -69,6 +82,23 @@ connections:
 > block in it at all.
 
 # The August Grievances — a verdict on the last conversation
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/synthesis/attachment-trauma-bond]] (2026-08-26), which added a
+> counterexample section about the Ally channel's symmetric self-indictment.
+> **No claim on this page is affected** — this page cites the trauma-bond
+> page for its quantified August 2026 model, not for anything about Ally.
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/synthesis/block-unblock-loop]] (2026-08-23), which gained a
+> re-derivation of the exit-declaration base rate — 129 episodes, 100%
+> re-engagement, median gap thirty-six seconds. **This page carries none of
+> those figures and none of its ten grievance adjudications depends on them**;
+> its evidence base is the Morgantown transcript and the August 16–19 message
+> record. Nothing withdrawn. Worth noting forward: the base rate makes this
+> page's severance the first in the record to outlast the historical maximum,
+> which is argued at [[wiki/mind/synthesis/the-rescue-premise]] and changes no
+> verdict here.
 
 **Every substantive grievance Dan states between 16 and 19 August 2026 is
 supported by the record, most of them strongly, and one of them is the most

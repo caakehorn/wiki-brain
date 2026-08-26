@@ -4,13 +4,21 @@ _Items waiting for or in the middle of ingestion. `bin/capture status` lists the
 
 ## Highest-value pending item
 
+> **ANNIE MORATORIUM — 2026-08-23.** Every Annie row below is closed by the
+> standing directive in `CLAUDE.md`. No Annie export, metadata dump, group-chat
+> export or screenshot is filed or mined from this date, and nothing new is
+> written about her. The rows are struck through rather than deleted so that a
+> future session can see the instruction was withdrawn on purpose and does not
+> helpfully reinstate it.
+
+
 | Item | Priority | Notes |
 |------|----------|-------|
 | ~~**Next export of the Annie 212 thread**~~ | **INGESTED 2026-08-02** | Filed as `raw/self/message-csv/imessage_export_2124702449_20260802.csv`. All four open questions answered: the goodbye broke in 18 minutes; Dan DID contact Ellen (06:22 Jul 26); the exposure threat was executed and retracted the same day; the allegation was elaborated but not reported. The third party is still unidentified — and now known to be unidentified **by Dan's choice**, see [[wiki/people/the-unnamed-man]]. New event page: [[wiki/timeline/events/july-august-2026-reentanglement]]. |
-| **The NEXT export of the Annie 212 thread** | **CRITICAL** | Still the highest-value pending ingest. The record now ends 2026-08-09 03:41 (see [[wiki/timeline/events/august-2026-unmasking]]). Open: whether the August 2 apology to Suz changes anything structurally; whether Annie's therapy (3x weekly, started ~Jul 28) shows in the record; whether the supply arrangement continues, escalates or is interrupted; and whether the announcement-predicts-non-execution rule holds on the next threat. |
-| **`annie_metadata_24h.csv` and `imessage_export_2124702449_20260809084846_.csv`** | **HIGH** | Cited as sources on [[wiki/timeline/events/august-2026-unmasking]] and [[wiki/mind/synthesis/read-receipt-forensics]] (2026-08-09 ingest) but never filed to `raw/self/message-csv/` — the pack that arrived contained only the derived pages, extracted directly from `chat.db` on the operator's machine. File the exports, then re-point `sources:` on both pages from empty/pending to the real paths. |
+| ~~**The NEXT export of the Annie 212 thread**~~ | **CLOSED — ANNIE MORATORIUM 2026-08-23** | Not pending, not deferred: **withdrawn.** Under the standing directive in `CLAUDE.md` ("STANDING DIRECTIVE — the Annie moratorium") no further Annie export is filed or mined, by any session, ever, unless the operator lifts it in person. The four questions this row carried — the Aug 2 apology to Suz, Annie's therapy, the supply arrangement, the announcement-predicts-non-execution rule — are **not open questions any more**; they are questions the wiki has decided not to answer. Do not reopen them from a new export. The record ends where `wiki/people/annie-ulmer.md` already ends, 2026-08-19 15:15:33. |
+| ~~**`annie_metadata_24h.csv` and `imessage_export_2124702449_20260809084846_.csv`**~~ | **CLOSED — ANNIE MORATORIUM 2026-08-23** | The sourcing gap on [[wiki/timeline/events/august-2026-unmasking]] and [[wiki/mind/synthesis/read-receipt-forensics]] stays open and stays visible: those exports are **not** to be filed to `raw/`. An unfilled `sources:` on a page that names its provenance in prose is the lesser cost. Leave both pages exactly as they are. |
 | **Arnu mechanics lien, 463 Morgantown** | **CRITICAL — matures ~2026-07-27** | Time-sensitive and unresolved in every source read. See wiki/legal/463-morgantown.md. |
-| The July 4 2026 email thread (Annie → Dan, re Milo/fireworks) | HIGH | The message that reopened the relationship. Described inside the iMessage record but not itself archived; Dan's email is the only place it exists. |
+| ~~The July 4 2026 email thread (Annie → Dan, re Milo/fireworks)~~ | **CLOSED — ANNIE MORATORIUM 2026-08-23** | Not to be retrieved. It is described where it needs to be described; it does not get archived. |
 
 ## Factstory batch of 2026-08-02 (brief #4) — INGESTED, queue cleared
 
@@ -183,12 +191,14 @@ frontmatter), forensic-methodology (20 KB), context-core (14 KB), youtube-watch-
 - [x] Gap closed: the unnamed act in the Aug 19 final hour has a referent
 - [x] Adjudicated the "made her fuck guys for drugs" accusation on
       `arrangement-history` — false as stated, three limbs tested, falsifier named
-- [ ] **HIGH: export the three-party group chat (Dan / Annie / +1 724 812 3683).**
-      Two findings now rest on a single transcribed screenshot of it, and the
-      "Yesterday 6:33 AM" date is fixed by inference rather than by the record.
-      One query.
-- [ ] **MED: the arrangement record is almost entirely Dan-side correspondence.**
-      Named as the live falsifier on `arrangement-history`. An Annie-voice
+- [x] ~~**HIGH: export the three-party group chat (Dan / Annie / +1 724 812 3683).**~~
+      **CLOSED — Annie moratorium 2026-08-23.** Not exported. The two findings
+      keep resting on the transcribed screenshot and the "Yesterday 6:33 AM"
+      date stays an inference, labelled as one.
+- [x] ~~**MED: the arrangement record is almost entirely Dan-side correspondence.**~~
+      **CLOSED — Annie moratorium 2026-08-23.** The falsifier stays named and
+      stays unaddressed; an Annie-voice account is not to be acquired. Original
+      note: named as the live falsifier on `arrangement-history`. An Annie-voice
       account of any documented encounter would move it more than any further
       Dan-side volume can.
 

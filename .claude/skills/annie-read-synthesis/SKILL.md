@@ -1,9 +1,17 @@
 ---
 name: annie-read-synthesis
-description: Spreads a completed Annie read batch across the wiki.
+description: RETIRED 2026-08-23 under the Annie moratorium in CLAUDE.md. Do not invoke. Kept only as a record of how the spread used to work.
 ---
 
-# Annie Read — Synthesis & Spread
+# Annie Read — Synthesis & Spread  ·  RETIRED
+
+> **DO NOT RUN THIS SKILL.** Retired 2026-08-23 by operator directive — see
+> `CLAUDE.md` § "STANDING DIRECTIVE — the Annie moratorium". Its entire purpose
+> is to take a new Annie read batch and push it across the wiki, which is the
+> precise thing now forbidden. There are no read batches any more. Nothing
+> below is an instruction; it is kept so a future session can see what was
+> stopped and why, rather than rebuilding it from scratch under a new name.
+
 
 Step 1 (`forensic-message-analysis`) reads a window and writes two pages.
 This skill is step 2: it takes what those two pages now say and makes the rest

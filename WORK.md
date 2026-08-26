@@ -15,22 +15,12 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (5)
+## Obligations (0)
 
-Somebody or something is waiting on each of these. Drain from the top.
+None. No question is parked, no answer is staged, no premise has moved
+under a page that reasons from it, and every portal edit has had its pass.
 
-Priority: **0** failing gate · **1** parked question · **2** staged answer ·
-**3** stale premise · **4** unnormalised portal edit.
-
-| P | Kind | What | Where | Since |
-|---|---|---|---|---|
-| 2 | sage-close | staged answer on mind/psychosexual/arrangement-history, not integrated | `wiki/mind/psychosexual/arrangement-history.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on mind/synthesis/bond-switch-2015, not integrated | `wiki/mind/synthesis/bond-switch-2015.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on mind/synthesis/dormancy-not-exit, not integrated | `wiki/mind/synthesis/dormancy-not-exit.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on mind/synthesis/the-unbroken-bond, not integrated | `wiki/mind/synthesis/the-unbroken-bond.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on people/ally-lubin, not integrated | `wiki/people/ally-lubin.md` | 2026-08-21 |
-
-## Standing work (196)
+## Standing work (202)
 
 The campaign. Worked top-down by choice rather than drained, and each line
 below is a pointer — the file named is where the work itself is written, and
@@ -38,7 +28,7 @@ the only place to strike an entry.
 
 | P | Kind | Open | Where | What |
 |---|---|---|---|---|
-| 5 | ingest | 45 | `queue.md` | sources ingested partially or not at all |
-| 6 | climb | 16 | `synthesis-queue.md` | clusters unclimbed and unrejected |
+| 5 | ingest | 43 | `queue.md` | sources ingested partially or not at all |
+| 6 | climb | 25 | `synthesis-queue.md` | clusters unclimbed and unrejected |
 | 6 | connect | 88 | `connection-queue.md` | mined edge pairs, untyped and unrejected |
-| 7 | backlog | 47 | `BACKLOG.md` | standing campaign entries |
+| 7 | backlog | 46 | `BACKLOG.md` | standing campaign entries |

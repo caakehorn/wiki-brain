@@ -6,7 +6,7 @@ aliases: ["Ti-Ne-Si-Fe", "cognitive functions"]
 status: stable
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-08-19
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-scan/Dan Profile.txt
@@ -43,6 +43,9 @@ connections:
   - page: wiki/timeline/periods/2021-2023-employment-block
     type: evidenced-by
     claim: "The introversion cost is stated in primary voice — fifteen-table freezing Saturday nights took 'literally EVERYTHING i had in me' — hospitality as a direct stressor of the documented type."
+  - page: wiki/people/ally-lubin
+    type: evidenced-by
+    claim: "The Fe-inferior conversion (emotional bids adjudicated rather than met) has its one documented interruption here: a challenge conceded in six words after the challenger narrows rather than escalates, raising the open question of whether the 10%-valuing score is a fixed ceiling or a floor a particular interlocutor can lift."
 ---
 
 # INTP — The Cognitive Function Stack
@@ -137,6 +140,18 @@ recognition, no networking instinct. In relationships, Fe-inferior is a
 prime mover of [[wiki/mind/concepts/conflict-architecture]]: emotional bids
 arrive as claim-shaped propositions and get adjudicated instead of met.
 
+That conversion has exactly one documented interruption. On August 18, 2026,
+in the [[wiki/people/ally-lubin|Ally Lubin]] channel: **ALLY** *"You just love
+bomb"* (a bid arriving shaped as judgment) → **DAN** *"But love bomb is like a
+malicious tactic and there very little malice"* (the adjudication, exactly as
+described above) → **ALLY** *"I didn't say malicious"* (declining to be
+adjudicated) → **DAN** *"Okay that's fair then."* No other exchange in the
+corpus completes that sequence. The finding is not that Fe improved — it is
+that the conversion is refusable from the outside, by narrowing the claim
+rather than escalating against it, which raises the open question of whether
+the 10%-valuing score is a fixed ceiling or a floor a particular kind of
+interlocutor can lift.
+
 ## The stack as one machine
 
 Run together, the functions produce the behavioral record with uncomfortable
@@ -161,3 +176,4 @@ history and cinema.
 proctored instrument; the Ni measurement in particular has no independent
 confirmation; no data on how the stack presents post-closure (all sources
 pre-date June 2026).
+

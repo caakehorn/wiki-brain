@@ -4,16 +4,22 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-07-17
+date_modified: 2026-08-23
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - /Volumes/MUSIC/PHASE B RAW/LEVIATHAN_FULL_CORPUS.csv
   - raw/self/dox-md/OMNI_FORENSIC_DOSSIER.md
 tags: [digital-footprint, relationships, attachment, infidelity, ai-collaboration]
 connections:
+  - page: wiki/mind/concepts/reassurance-architecture
+    type: supplies
+    claim: "The corrected latency figures relocate that page's deficit from response to content: Annie answered faster than Dan in every year measured, so what the verification loop was failing to obtain was never a reply but enough information in one to close an anomaly."
+  - page: wiki/mind/concepts/reassurance-architecture
+    type: evidences
+    claim: "Annie answered faster than Dan in every year from 2015 to 2026, so the deficit that page describes was never responsiveness - it is content, and it is measurable as message length rather than as delay."
   - page: wiki/mind/concepts/attachment-model
     type: evidences
-    claim: "The 9x reply-latency asymmetry renders the attachment system as a timing series: outbound near-instant and uniform across all relationships, inbound delay scaling with peripherality."
+    claim: "The timing series says the opposite of what this page long claimed: the Annie channel is the one relationship in the archive that answered Dan at or above his own speed, continuously, which is a better explanation of why relational load concentrated there than any story about unrequited broadcast."
   - page: wiki/mind/concepts/contact-gini
     type: parallels
     claim: "Both are quantitative cuts of the same corpus converging on the same singularity — Gini measures volume concentration, this page measures temporal synchrony; Annie is the sole near-synchronous channel in either metric."
@@ -32,6 +38,9 @@ connections:
   - page: wiki/timeline/periods/2025-collapse
     type: evidences
     claim: "The 41,278-message 2025 total — within 2% of the 2018 peak — gives this period its first precise whole-corpus volume figure, confirming the collapse year matched the deep-cycle year for raw output even as the content shifted from relationship crisis to relationship termination."
+  - page: wiki/mind/profile/texting-deviance-audit
+    type: parallels
+    claim: "Same corpus, orthogonal instrument: this page measures when he writes and how fast the channel turns around, that one measures how much he writes per turn. Both find a 2025-26 inflection, and the length series carries the remediation target — turns of 11-20 words are answered 93.8% against 54.7% above 200 words."
 ---
 
 
@@ -41,20 +50,104 @@ This is a **primary cut** of the raw message corpus, generated fresh from the ex
 
 > **Method note / data hygiene:** phone numbers in the source are masked (`+172****6811` etc.). Matching was done by **substring on the file's actual bytes** (e.g. `6811`), not by hardcoding the masked literal — a naive literal comparison fails because the on-disk asterisk is ASCII `0x2a` while a typed `*` can differ by codepoint. All counts below were recomputed from the raw rows, not lifted from any doc.
 
-## The headline: a 9× reply-latency asymmetry with Annie
+## The headline, retracted: the asymmetry runs the other way
 
-The single most diagnostic new finding is the gap between how fast Dan answers and how fast the other person answers *him*.
+> **CORRECTED [2026-08-23] — the central finding of this page was backwards, and
+> the error is reproducible.** This section previously opened *"The headline: a 9×
+> reply-latency asymmetry with Annie"* and concluded: *"Dan answers almost
+> everyone within 1–5 minutes. The people he messages answer him on a completely
+> different clock… Dan's outbound responsiveness is uniform and near-instant
+> across every relationship — the inbound delay is what differentiates them…
+> everything else is Dan broadcasting into a slow or silent void."* The table
+> under it gave **Annie at 1.0 min outbound against 9.0 min inbound, n = 31,612**.
+>
+> **On every on-disk export, under two independent methods, Dan is the slower
+> correspondent.** The retraction is recorded at `RETRACTED.md` §`latency-9x-asymmetry`.
 
-| Pair | Dan → them (median) | Them → Dan (median) | Dan → them p90 | Them → Dan p90 | n (Dan replies) |
-| :--- | :--- | :--- | :--- | :--- | :--- |
-| **Annie** (merged handle, 2015–18) | **1.0 min** | **9.0 min** | 0.7 h | 4.2 h | 31,612 |
-| +172****4125 (2019) | 2.0 min | 19.0 min | 4.2 h | 15.8 h | 5,684 |
-| +172****3678 (2018) | 4.0 min | 22.0 min | 3.6 h | 9.0 h | 3,626 |
-| +172****8715 (long-tail) | 3.0 min | 346.0 min (~5.8 h) | 6.4 h | 43.7 h | 221 |
-| +121****2449 (2025–26) | 5.0 min | 2,648 min (~44 h) | 8.2 h | 142.7 h | 2,120 |
-| +133****8747 (2025) | 1.0 min | 968 min (~16 h) | 0.3 h | 69.0 h | 3,446 |
+### What killed it
 
-Dan answers almost everyone within **1–5 minutes**. The people he messages answer him on a completely different clock: Annie at 9 minutes (already 9× his speed), the 2018–19 friends at 19–22 minutes, and the 2025 contacts at **16 to 44 hours**. This is the attachment system made audible as a timing series. Dan's outbound responsiveness is uniform and near-instant across every relationship — the *inbound* delay is what differentiates them, and it scales with how peripheral the person is. The near-synchronous Annie channel (median 9 min both ways) is the relational singularity; everything else is Dan broadcasting into a slow or silent void.
+The original figure was reproduced exactly, which is what makes the diagnosis
+possible. Pairing **every** message with the next message in the opposite
+direction, uncapped, over the 2015–2019 Annie handle returns **Dan → Annie
+median 60.0 s (1.0 min), n = 31,177** — the page's own 1.0 min and, to within
+1.4%, its n of 31,612. The same computation on the same rows returns **Annie →
+Dan median 32.0 s (0.5 min)**, not 9.0 minutes. The outbound half replicates;
+the inbound half is off by a factor of about seventeen and is the only number
+in the pair that does not survive.
+
+That matters because this page's own method note flags the hazard it fell into:
+the master dump carries a **known direction-field bug** in which Received rows
+are mislabeled and Sent rows carry an empty handle. The page states it used
+`LEVIATHAN_FULL_CORPUS.csv` as ground truth to avoid exactly this — but that
+file lives at `/Volumes/MUSIC/PHASE B RAW/`, is **not in the repository**, and
+therefore cannot be re-checked. Every file that *is* on disk contradicts it.
+
+### The replication
+
+Two methods, because they answer different questions and the choice biases the
+result. **Method A** measures a conversational flip — the last message of one
+person's run to the first reply — which is the cleaner reading of "how long did
+they leave me waiting." **Method B** pairs every message with the next opposite
+message, which is what the original used; it systematically **inflates the
+latency of whoever bursts more**, and Dan bursts more, so it is biased *in
+Dan's favour* and still does not save the claim.
+
+| Export | rows | Dan → them | them → Dan | slower party |
+|---|---:|---:|---:|---|
+| `imessage_ALL_both_all_now` (method A) | 181,585 | **32.0 s** | **25.0 s** | Dan, 1.28× |
+| `imessage_ALL_both_all_now` (method B) | 181,585 | **111.0 s** | **59.0 s** | Dan, 1.88× |
+| `imessage_7244346811` (Annie 2015–19) | 62,819 | 60.0 s | 32.0 s | Dan, 1.9× |
+| `imessage_7244346811+2124702449` (merged) | 85,586 | 88.0 s | 48.0 s | Dan, 1.8× |
+| `imessage_2124702449` (2025–26) | 23,719 | 268.0 s | 252.0 s | Dan, 1.1× |
+| `annie_all_time_logs` | 23,442 | 271.0 s | 254.0 s | Dan, 1.1× |
+| `imessage_7249204125` | 9,481 | 114.0 s | 42.0 s | Dan, 2.7× |
+| `imessage_3307038747` | 20,009 | 60.0 s | 48.0 s | Dan, 1.3× |
+| `imessage_7243228715` | 3,302 | 10,224 s | 180.0 s | Dan, 57.8× |
+| `imessage_7248808111` | 1,471 | 198.0 s | 378.0 s | them, 1.9× |
+| `imessage_export_7249124338` | 639 | 108.0 s | 156.0 s | them, 1.5× |
+
+**Dan is the slower party in eight of ten per-contact exports**, in the merged
+Annie corpus, and in the whole-corpus file under both methods. The two exports
+that run the other way are the two smallest, at 1,471 and 639 rows.
+
+### The per-year check, which is the decisive one
+
+Applied to the 2015–2019 Annie handle year by year — one file, one method, no
+merging:
+
+| Year | n | Dan median | Annie median |
+|---|---:|---:|---:|
+| 2015 | 13,635 | 15 s | **11 s** |
+| 2016 | 12,572 | 27 s | **18 s** |
+| 2017 | 14,565 | 29 s | **18 s** |
+| 2018 | 22,045 | 26 s | **19 s** |
+| 2026 (Jul 23 – Aug 19) | 6,495 | 27 s | **15 s** |
+
+**Annie answered faster than Dan in every year the corpus covers, including the
+final month of the relationship.** There is no era in which the original claim
+holds.
+
+### What survives, and it is worth more than what died
+
+Two things survive, and the second is the reason this correction matters rather
+than merely tidying a number.
+
+**The peripheral-contact half stands.** `imessage_7243228715` really does show
+Dan answering in seconds and the other party in minutes-to-hours — the original
+table's long-tail rows are directionally right about *peripheral* people. What
+was wrong was generalising that to the primary relationship and then to
+"everything else."
+
+**And the corrected numbers say something the original could not.** If Annie
+answered faster than Dan for eleven consecutive years, then the Annie channel
+was not a void he shouted into — **it was the one relationship in the archive
+that answered him at or above his own speed, continuously, to the last week.**
+That is a far better explanation of why the load concentrated there
+([[wiki/mind/concepts/contact-gini]]) than a story about unrequited broadcast,
+and it reframes the deficit: what he was not getting was never *response*.
+See [[wiki/mind/concepts/reassurance-architecture]], which is rebuilt on this
+finding — the thing that was actually missing is **content**, and it is
+measurable as length rather than as delay.
 
 ## Annie volume trajectory (merged handle, 2015–2018)
 

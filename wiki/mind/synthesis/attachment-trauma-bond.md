@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-20
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -31,6 +31,9 @@ synthesizes:
   - wiki/mind/concepts/conflict-architecture
 tags: [relationships, trauma-bond, addiction-recovery, infidelity, ai-collaboration]
 connections:
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: contextualizes
+    claim: "The trauma-bond reading is sustained and the Stockholm framing is not: the power asymmetry runs the other way on capital, supply and housing, and the explicit captivity claims in the record are Annie's, which matters because a plan built on a captor prescribes extraction and the record prescribes something else."
   - page: wiki/mind/synthesis/august-grievance-verdict
     type: evidenced-by
     claim: "The model at maximum amplitude, quantified: 69 of her messages contain 'please' or 'beg' against 15 'fuck you' and 17 'piece of shit' from him, contempt language nearly quadrupling against the prior week's baseline, and a disclosed suicide attempt met with escalation rather than de-escalation."
@@ -73,10 +76,48 @@ connections:
   - page: wiki/self/concepts/ally-and-dan-love-as-destiny
     type: parallels
     claim: "The same architecture — intensity sustained across distance, reactivation after silence, a wound shared with the partner — is argued there to produce a durable marriage rather than a trauma bond; the two pages read one structure to opposite ends, and only time separates them."
+  - page: wiki/people/ally-lubin
+    type: contradicts
+    claim: "The Ally channel is this page's pathological control: symmetric self-indictment on both sides in 2019 removes the moral-standing asymmetry the confession trap and DARVO both require, which is a mechanism-level absence rather than a milder version of the same dynamic."
 ---
 
 
 # Attachment Trauma Bond and Aura Illness
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/people/suzanne-frank]] (2026-08-26), which gained a RE-CHECKED note
+> confirming the fran-death-vigil closure-cluster finding doesn't touch its
+> caregiving or estate material. **No claim on this page is affected** — the
+> leverage-see-saw material this page draws from Suz is untouched.
+
+> **REVISED [2026-08-23] — the 110-of-127 pair this page reasons from is
+> withdrawn, and the replacement strengthens the thesis.** Flagged stale against
+> [[wiki/mind/concepts/attachment-model]] (2026-08-23), which resolved its own
+> long-standing gap on this exact figure. Dan-sent severance language across the
+> 95,067-row merged Annie corpus (2015-11-28 → 2026-05-28) returns 258 messages
+> collapsing to **129 episodes** — corroborating the 127 — of which **128 of 128
+> resumed: 100%, median gap thirty-six seconds, all-time maximum 46 hours.**
+> Wherever this page says *"127 exit declarations, 110 re-engagements,"* read
+> **129 declarations, 100% re-engagement**; the 87% relapse rate never existed.
+>
+> **Every claim on this page survives and two get sharper.** Intermittent
+> reinforcement predicts a relapse rate at or near ceiling, and 100% is ceiling —
+> 87% was the weaker number for this argument, not the stronger one. And the
+> confession-trap section is improved by the median rather than the count: an
+> exit declaration answered inside thirty-six seconds is not a trap being
+> escaped and re-entered 110 times. It is a bid that was never an exit, which is
+> what the trap predicts. Nothing withdrawn beyond the arithmetic.
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/people/suzanne-frank]] (2026-08-22), which moved by a `RE-CHECKED`
+> blockquote recording one new fact: a court summons for Dan, filed the day after
+> Fran died, was mailed to Suz's house during the week she was planning the
+> memorial alone ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]).
+> **Nothing on this page is affected.** No reaction of hers to that delivery is
+> recorded anywhere, so the fact supplies no behaviour to reason from; the
+> maternal-bond material here runs on documented exchanges, and none of it moved.
+> Nothing withdrawn.
+
 
 > **RE-CHECKED [2026-08-20] — the bond this page models ended, and the ending
 > is the model working, not failing.** Flagged stale against
@@ -142,6 +183,35 @@ The full-decade dossiers give the bond its measurable arc. The love was genuine 
 > which is precisely the failure the write-back obligation exists to prevent.
 
 The bond's persistence mechanism on Dan's side is named in the dossiers as the **confession trap**: having built his identity around being the person who was right, he could not exit without the validating confession Annie was never going to give — "the exit was never through the verdict. It was through the door." His 127 exit declarations with 110 re-engagements are that trap running as designed.
+
+## The counterexample: symmetric confession disarms the mechanism
+
+The confession trap and the weaponized-ambiguity mechanism above both require
+an asymmetry of moral standing — one party positioned to convert what the
+other confessed into leverage. A question put to the wiki from outside it
+used this page as the pathological control and found one documented channel
+where that asymmetry does not hold: [[wiki/people/ally-lubin|Ally]]. Both
+sides pre-empt the standing the mechanism needs, on the same day in 2019:
+
+> **DAN (2019-08-17):** *"you know i'm honest enough to let you know i'm a
+> garbage person so you don't have to worry about feeling shitty or weird"*
+> **ALLY, the same day:** *"I tell you more than I tell anyone and I don't
+> know why."*
+
+Symmetric self-indictment removes the standing DARVO and the confession trap
+both run on: neither party holds a concealed failure the other can be made
+to answer for, because each has already conceded the failure aloud. Read
+against this page's model, that is a mechanism-level difference, not a
+milder version of the same one — the Annie bond's asymmetry is what lets a
+disclosure become a weapon, and here there is no asymmetry to convert.
+
+**The prediction this licenses is narrow, and should stay narrow.** It says
+confession cannot be turned into leverage in that specific channel — not
+that the channel is healthy by any other measure. The same channel prices
+photographs off a suicidality disclosure three months later
+([[wiki/mind/psychosexual/arrangement-history]]), which is a different
+mechanism doing separate damage. A control that disarms one pathology is not
+evidence against the others.
 
 ## Logistical and Financial Tethers
 

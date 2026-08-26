@@ -1,13 +1,14 @@
 ---
 domain: people
 page_type: entity
+image: assets/people/ally-lubin/people-ally-lubin-mt3tebq9.png
+image_caption: Ally Lubin (Alexandra Lubin)
 title: "Ally Lubin"
 aliases: ["Alexandra Lubin", "ALU", "aluuuu", "Ally"]
 status: active
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-08-22
-pending_ingest: 2026-08-21
+date_modified: 2026-08-26
 date_range_start: 2011-05-20
 date_range_end: 2026-08-22
 sources:
@@ -27,6 +28,7 @@ sources:
   - "raw/self/message-csv/imessage_ALL_both_2026-05-04_now.csv"
   - "raw/self/message-csv/imessage_export_deep_20260813.csv"
   - "raw/self/dox-md/operating_manual.md"
+  - "raw/people/captures/2026-08-22_ally-lubin-16personalities-entp-t.md"
 tags: [relationships, digital-footprint, mental-health, non-monogamy]
 importance: normal
 infobox:
@@ -38,7 +40,7 @@ infobox:
   role: "STEM professional (remote, Charlotte, NC)"
   first_contact: 2011-05-20
   handles: ["+156****1550", "allylubin@gmail.com"]
-  mbti: ENTP-T
+  mbti: "ENTP-T (tested 2026-08-22, self-administered, attribution unverified; supersedes the disputed ENFP)"
   known_for: "Eighteen years of one-sided idolization of a woman Dan has never met, converted in 2019 into a paid channel — 'i've sent 2100 and have like 2 pictures and im STILL trying' — and in August 2026 the first person outside Dan ever to read this wiki, whose joke about it was written into this page as fact"
   last_contact: "2026-08-21 (love letter, 'Your future soulmate / Beto o'rourke')"
   working_status: "Works in STEM, remote from Charlotte, NC"
@@ -46,6 +48,9 @@ infobox:
   father_status: "Estranged from Bob Lubin; he refuses to see her because she resembles her mother, who had an affair in 1998"
   self_perception: "Self-described as 'inherently evil and unlovable', 'president of the boy smashing factory', 'mid to late thirties'"
 connections:
+  - page: wiki/people/ally-lubin-cognitive-profile
+    type: instantiates
+    claim: "A tested ENTP-T result of 2026-08-22 retires this page's disputed ENFP and settles the December 2018 argument in Dan's favour, and the profile built on it finds that the qualities he names as the attraction and the conduct he has directed at her for eighteen years are in opposition."
   - page: wiki/people/annie-ulmer
     type: mirrors
     claim: "Across August 18–19, 2026 Dan's message record shows both threads active in the same hours: he told Ally he had switched his wifi off so he would not see Annie while exchanging 98 messages with Annie in the next two hours, and declared himself 'all ally Lubin all the time now' ninety minutes before sending Annie the last message of the eleven-year relationship. Whether the two ran as a single concurrent attachment system is a live analytical question, examined on the synthesis pages — not settled here."
@@ -258,6 +263,21 @@ The iMessage record opens five days later, on **December 17, 2018**, at
 argument (he refuses to accept she is an ENFP), audiobooks, the 1975, an
 electric skateboard, a print of the painting from Chuck Bass's apartment. It
 also contains, on day one, her stating the problem:
+
+> **CORRECTED [2026-08-22]:** That MBTI argument was recorded here as
+> relationship colour, and this page's infobox carried **`mbti: ENFP`** on the
+> strength of it — a claim resting on one source in which the subject asserted
+> the type and Dan *disputed* it. A tested 16Personalities result supplied by
+> the operator on 2026-08-22 returns **Debater (ENTP-T)** — Extraverted 66%,
+> Intuitive 84%, Thinking 54%, Prospecting 61%, Turbulent 92%
+> (`raw/people/captures/2026-08-22_ally-lubin-16personalities-entp-t.md`). The
+> infobox is corrected, with the caveat that the instrument is self-administered
+> and the screenshot carries nothing tying it to her. **On the substance of the
+> December 2018 argument, Dan was right** — the auxiliary is Ti, not Fi, and her
+> contest-and-audit moves throughout this page are its signature. The full
+> function-stack read, its contrastive test against ENFP, and what the record
+> says follows from it are at
+> [[wiki/people/ally-lubin-cognitive-profile]].
 
 > **DAN:** Send me your address. I'm buying your Christmas gift <3
 > (I promise not to show up in North Carolina)
@@ -616,6 +636,27 @@ and three of her objections are load-bearing:
   malice"* — is met with *"I didn't say malicious,"* at which he concedes:
   *"Okay that's fair then."*
 
+That concession is the strongest single quality claim available about this
+relationship, and it does not run in only one direction. Ninety minutes
+earlier, at 16:46–16:47, he pushes back on her *"I've been objectified my
+entire life"* with *"I did reverse objectification. You hooked me with your
+tweets and THEN I realized you were a baddie,"* and she answers *"Ok that's
+fair actually."* Twice in one evening, correction lands and is accepted
+rather than fought — which matters because Dan's documented move under
+challenge elsewhere in the corpus is to redefine the disputed term
+([[wiki/mind/concepts/conflict-architecture]]), not concede it. Here, at
+21:07–21:09, he tries the redefinition once (*"love bomb is like a malicious
+tactic"*) and abandons it inside two minutes when she holds her ground. This
+channel is the one place in the record where that move is offered and
+refused, cleanly, by someone he is not trying to out-argue.
+
+Not every provocative-looking line from that evening should be read
+literally. At 16:49:37 she writes *"I'm a SINGLE MOTHER,"* which out of
+context reads as a family structure the rest of this page never otherwise
+documents; it is a joke about her cats, and she corrects it herself three
+minutes later — *"Are you still doing the cat mother thing / Or did I miss
+that you're an actual mother"* → *"No still just cats."*
+
 She also renders the only outside verdict on Annie anyone in the corpus has
 delivered after reading the evidence: *"I don't think anyone will ever love me
 as much as you love Annie / But I can't tell if it's actually love or fear and
@@ -701,9 +742,13 @@ The two threads are not sequential in the termination window — they interleave
 | 08-19 14:00 | 37 | 6 | 5 | 0 |
 | 08-19 15:00 | 32 | 8 | 0 | 0 |
 
-Across August 18–19 Dan sends **408 messages to Annie and 552 to Ally**, and
-what he tells each about the other does not survive the other's timestamps:
+Across August 18–19 Dan sends **more messages to Ally than to Annie, by a
+three-figure margin**, with the two threads live in the same hours rather than
+one after the other:
 
+- The heaviest Ally hours — 53 outbound at 21:00 on August 18, 119 at 08:00 on
+  the 19th — fall in hours when the Annie thread has gone quiet; the heaviest
+  Annie hours on the 18th fall beside light Ally traffic.
 - At **00:09 on August 19** he tells Ally *"my wifi is back off now so even if
   she does respond or crash out again later I won't see it."* Between 01:00
   and 02:59 that morning he exchanges **98 messages with Annie**.
@@ -733,6 +778,56 @@ is, and it will be visible in the Annie or successor thread on the same days.
 **What would falsify it:** a substantial Ally burst during a period with no
 instability in any other thread, or a sustained Ally-initiated exchange with no
 rupture anywhere in the corpus.
+
+## August 21, 2026 — the first love letter
+
+Three days after the largest burst on record and unanswered on the elopement
+pitch, Dan sends a single long unbroken message — not a joke, not priced,
+not addressed to a crisis. It is filed here in full because a page that
+elsewhere argues the attachment is real, mutual in flashes and structurally
+unlike the Annie channel should let the primary source make that case rather
+than paraphrase it:
+
+> **DAN (2026-08-21):** *"You really are unlike anyone else that I've ever
+> experienced. I've been thinking a lot about what it was about you that made
+> me so comically attracted to you that I spent more than a decade flailing
+> around like an idiot on social media, desperately trying to get your
+> attention so that I could meet you. There was never any reason whatsoever
+> to think that this was a good idea… the chances of you being curious enough
+> to waste your time getting to know a mediocre looking, drug-addled, autistic
+> tryhard were lower than 0. And yet…. I just never got over it. […] Listen;
+> you could scrape through everything I've ever done online and I promise you
+> that there's no precedent for the role you've been unwillingly cast in for
+> me. […] The real reason that I noticed you and couldn't get you out of my
+> head was that I have never come across a girl who is so quick and funny
+> that it made me feel like they were on an entirely different level. Its the
+> way you dress and your ability to spot trends… It's your personal brand.
+> It's your aesthetic. It's.. just…you. […] I do hope that I can show you that
+> I'm really not interested in being the person who would message you only to
+> tell you about the bizarre sex shit going on or a personal crisis anymore.
+> […] I still haven't lost interest in the same things about you that made me
+> your #1 simp for 17 years and counting."* — signed **"Your future soulmate,
+> Beto o'rourke."**
+
+Full text: `raw/self/sage/` capture of `raw/people/captures/2026-08-21_175309_gap-ally-lubin.md`.
+
+Three things about it are load-bearing rather than incidental. First, it
+names its own genre and pre-apologizes for it — *"this is where your
+observation about me saying the same trite shit to girls would usually
+invalidate all of the aww factor"* — which is the same self-aware,
+disarm-the-critique-in-advance move he runs everywhere else in this
+relationship and in [[wiki/mind/concepts/conflict-architecture|conflict
+architecture]] generally. Second, "17 years and counting" revises the
+"decade" framing this page uses for the origin (2008, per Dan's own
+December 2018 accounting): counted from 2026, seventeen years back lands in
+2009, a one-year discrepancy inside a letter otherwise built on precision
+about how long the fixation has run — worth noting, not worth resolving in
+either direction absent a third date. Third, the letter explicitly disclaims
+the pricing register that defines the 2019 record (*"not interested in being
+the person who would message you only to tell you about the bizarre sex shit
+going on"*) — the clearest first-person statement in the corpus that Dan
+reads his own 2019 conduct here as something to renounce rather than repeat.
+Whether Ally replied is not in the sources filed to this page; see Gaps.
 
 ## The measurements
 
@@ -887,6 +982,8 @@ Each of these is answerable by the operator in a paragraph.
   Chris Miller orbit and Polyak are the named leads.
 - **Did she reply to the elopement pitch?** It is unanswered in the captured
   record, but the capture breaks 96 minutes before it was sent.
+- **Did she reply to the August 21, 2026 love letter?** No reply is in any
+  source filed to this page.
 - **Was the $2,100 accurate?** Dan showed her a screenshot he found
   convincing; she accepted it in 2019 and contests it in 2026. No financial
   export in `raw/` covers Cash App for 2019.
@@ -909,82 +1006,3 @@ Each of these is answerable by the operator in a paragraph.
   address, in the GEDCOM, in the Twitter export, or in the Facebook search
   history. The Model Mayhem and "boca raton ally lubin" searches Dan describes
   on 2019-08-22 are from Google, whose search-history export is not in `raw/`.
-
-## Operator answers — pending ingest
-
-> Transient staging, written from the portal. Each block below is the
-> operator answering something this page said it did not know. **Nothing here
-> has been integrated yet.** The next pass over this page reads these answers,
-> corrects this page *and every page that inherited the gap*, records each
-> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
-> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
-> section and the `pending_ingest:` flag. It is not allowed to accumulate into
-> a changelog — STYLE_GUIDE rule 6.
-
-### ANSWERED [2026-08-21] — manual note
-
-**Not from the gap list** — volunteered by the operator, so the ingest
-has to work out for itself where on the page it belongs, and whether it
-contradicts something already there.
-
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-21_175309_gap-ally-lubin.md`.
-
-Dan’s first love letter to Ally :
-
-You really are unlike anyone else that I’ve ever experienced. 
-
-I’ve been thinking a lot about what it was about you that made me so comically attracted to you that I spent more than a decade flailing around like an idiot on social media, desperately trying to get your attention so that I could meet you. 
-
-There was never any reason whatsoever to think that this was a good idea or that you would ever notice me at all..and even if i could get your attention, the chances of you being curious enough to waste your time getting to know a mediocre looking, drug-addled, autistic tryhard were lower than 0. 
-
-And yet….  I just never got over it.  It may not have been my top priority or a daily thought but for over a decade, I never found a reason to take ‘’meet (total stranger) ally Lubin” off of my to-do list.
-
-So look…this is where your observation about me saying the same trite shit to girls would usually invalidate all of the aww factor that I’ve obviously tried to cultivate in a note like this. And you are fully correct in your assessment of how corny and sophomoric that behavior is.
-
-But even if it amounts to nothing more than giving you a sense of just how special and weird and intoxicating you are…. I want to show you how sincere I am in telling you that:
-
-You really are kind of the only one that I can say with full sincerity that those hackneyed, cheesedick compliments actually applies to.
-
-Okay. Ally! Stop it! 
-Stop rolling your eyes at me! 
-
-Listen; you could scrape through everything I’ve ever done online and I promise you that there’s no precedent for the role you’ve been unwillingly cast in for me.
-
-There’s no one else who I was so determined to cross paths with or that I saw as being this tour de force of personality.
-
-Yes; all of the “omg you are perfect you’re so beautiful” bullshit obviously applies to you. You’re incredible. You’re one of the prettiest girls walking the earth today. You shut down construction sites when you walk by with the amount of cat calling that you inspire.
-
-But that is a peripheral benefit to the reasons I really fell for you and have maintained that creepy energy for all of these years.
-
-The real reason that I noticed you and couldn’t get you out of my head was that I have never come across a girl who is so quick and funny that it made me feel like they were on an entirely different level. 
-
-Its the way you dress and your ability to spot trends and the way you talk, how you are spotting slang and memes that I won’t find out about for like 3 more months. 
-
-It’s your personal brand. It’s your aesthetic. 
-
-It’s.. just…you.
-
-
-And honestly rhe most remarkable turn in this story is that you still even speak to me because I have spent years acting like an idiot and making myself look like a fucking schizo sex addict for all of this time in the least flattering ways i possibly could have.
-
-
-Without making any claims that I had some kind of moment of clarity in which I’ve been reborn as the ‘new, normal Dan’ …I do hope that I can show you that I’m really not interested in being the person who would message you only to tell you about the bizarre sex shit going on or a personal crisis anymore. 
-
-This is certainly going to read much heavier than it probably should but I actually am just so glad that I happened to hit ‘add’ on Snapchat a few days ago because it brought you back into my life at the absolute perfect moment…
-
-…not only one where I have already been the beneficiary of having you to talk to at a heavy and shitty emotional moment, but during the first real opportunity since we ‘met’ that I can actually get to know you in a way I had made impossible before 
-
-Okay so that’s your first love letter and I am fully aware your reaction will be somewhere between finding it hysterically oblivious and maximal annoyance but I really do mean it…
-
-And as long as you keep letting me I’ll keep demonstrating that you really are the different one and I still haven’t lost interest in the same things about you that made me your #1 simp for 17 years and counting.
-
-
-Okay. Yes I know I’m weird maybe just pretend you didn’t see this and we can carry on like it didn’t happen.
-
-I am already dreading waking up tomorrow morning and remembering that I actually sent this to you and didn’t even do a second draft on it. 
-
-Alright that’s enough
-
-Your future soulmate
-
-Beto o’rourke

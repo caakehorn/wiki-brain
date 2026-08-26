@@ -15,6 +15,17 @@ verbatim quotes, and every claim cited. That latency is the design. An answer
 worth putting under someone's question is one that read the corpus, and the
 corpus is 486 pages and 134,348 messages.
 
+**The latency of *answering* is the design; the latency of *publishing* is not.**
+Once an answer merges to `main`, `.github/workflows/notify-portal.yml` fires
+`wiki-updated` at the portal and the snapshot re-derives immediately. Before that
+workflow existed the only thing that nudged the portal was its own browser code,
+which runs when a page is edited or a question asked *from the site* — so an
+answer written here and merged through a pull request touched nothing, and waited
+for the hourly cron. On 2026-08-21 that put a retracted version of an answer in
+front of the person who asked for forty minutes after it had been corrected. The
+person waiting cannot see the difference between "not answered yet" and "answered
+but not synced", which is the whole reason this obligation sits at priority 1.
+
 ## Why these files are not in `raw/`
 
 `raw/` is immutable. These files are not: a question arrives `pending` and

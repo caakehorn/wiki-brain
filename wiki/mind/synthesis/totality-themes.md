@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-21
+date_modified: 2026-08-26
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -144,6 +144,28 @@ connections:
 
 # Totality Themes
 
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/concepts/attachment-model]] and
+> [[wiki/mind/synthesis/block-unblock-loop]] (both 2026-08-23). Both moved for
+> one reason: the 127/110 exit pair was re-derived from primary data as **129
+> episodes with 100% re-engagement**, median gap thirty-six seconds. This page
+> cites *"127 declared exits before any of them held for even a season"* —
+> that sentence is **strengthened, not affected**: the corrected record shows
+> none of them held for even 46 hours, which is a stronger form of the same
+> claim. The other `127` on this page is a 2012–2014 volume figure and is
+> unrelated. No claim withdrawn.
+
+> **RE-CHECKED [2026-08-22] — three premises moved by re-check blocks only.**
+> [[wiki/mind/synthesis/the-embedded-objective]],
+> [[wiki/mind/synthesis/dormancy-not-exit]] and
+> [[wiki/mind/synthesis/estate-money-spine]] all moved on 2026-08-22 solely by
+> gaining `RE-CHECKED` blockquotes, each recording that the April 2018 hospital
+> summons ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]) and the
+> corrections it triggered left their arguments untouched. No thesis, control or
+> prediction changed on any of the three, and the themes drawn here reason from
+> those theses rather than from the blocks. Nothing withdrawn.
+
+
 > **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/mind/synthesis/block-unblock-loop]] and [[wiki/mind/synthesis/supply-network]] (both 2026-08-20). Both moved by typed-edge addition only, pointing at the new August 16–19 event page; neither page's prose or figures changed. Re-read against
 > the change; **no claim on this page is affected** and nothing here is
 > withdrawn. The one thing a later pass should look at rather than assume: block-unblock-loop now records that Dan's own assertions of threat execution are unreliable (a proven false send on 2026-08-18), which narrows what the loop's threat counts can be built from. This page cites the loop's *pattern*, not its execution tallies, so the narrowing does not reach it — but a pass that ever cites those tallies here must read [[wiki/timeline/events/august-2026-morgantown-call]] first.
@@ -162,6 +184,14 @@ connections:
 > 2026-08-20 re-check above, which already established that this page uses the
 > loop's pattern rather than its tallies.
 
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/synthesis/the-embedded-objective]] and
+> [[wiki/mind/concepts/acquisition-drive]] (both 2026-08-26), which added a
+> tenure-versus-satisfaction distinction built on the Fran vigil and left the
+> MNEME/DANMODEL/video-essay self-origination record — the material "The
+> Irreversibility Firewall" below reasons from — untouched. **No claim on this
+> page is affected.**
 
 > **RETIRED 2026-08-11 — the original "themed summary" spine, kept for
 > history.** Everything from here through the old "## Conclusion" heading

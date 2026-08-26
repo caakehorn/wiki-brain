@@ -3,7 +3,7 @@ domain: people
 page_type: summary
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-08-18
+date_modified: 2026-08-23
 sources: []
 related: []
 ---
@@ -16,7 +16,9 @@ related: []
 - [[wiki/people/alex-frank]] — Dan's semi-famous cousin; Brooklyn-based music/culture journalist (FADER, Vogue, GQ, Pitchfork); wrote the essay about Morley Frank's funeral.
 - [[wiki/people/alexander-jackson]] — From context-core: 337 sale drives move; "no post-close plan". Mixed roles at 463 amplify vertical…
 - [[wiki/people/alexis-armel]] — The six-year partner (late 2009 – Nov 2015) who occupied the attachment slot without activating it; the corpus's control case, and the friendship that outlasted the breakup by a decade.
+- [[wiki/people/alice]] — Annie's niece, Claire and Garrett's elder daughter (b. ~2019–20); 66 mentions and the largest sustained unpaid commitment in Annie's documented life. Closes Claire's "unnamed niece" gap and carries the falsification of the Wednesday-alibi reading.
 - [[wiki/people/ally-lubin]] — Eighteen-year attachment to a woman Dan has never met (Boca Raton → NYC → Charlotte); 1,987 iMessage across two handles (2018–2026); a channel that runs concurrently with the primary bond rather than after it fails; $2,100 sent in the Aug–Oct 2019 crisis window, and the page whose 2026 climax turned out to be a hallucination the wiki wrote about itself.
+- [[wiki/people/ally-lubin-cognitive-profile]] — ENTP-T (tested 2026, Turbulent 92%): the function-stack read behind the main entry, and the finding that the qualities Dan names as the attraction and the conduct he directs at her are in opposition.
 - [[wiki/people/anita]] — BFS gas-station GM who originated the $50 drawer-shortage claim; her "gas, foodstamps, lottery" confabulation and the Timmy blame-pivot make her the vertical-suspect exhibit.
 - [[wiki/people/annie-ulmer]] — Anne ("Annie") Ulmer. Primary relationship from Thanksgiving 2015; the June 1 2026 closure held 52 days and failed — status open, not historical.
 - [[wiki/people/betherin-mechling]] — Annie's cousin; fiancée of Jay Lauer, controlled his finances, returned his ring weeks before his April 2017 overdose.
@@ -66,6 +68,7 @@ related: []
 - [[wiki/people/felix]]
 - [[wiki/people/fran-coldren]] — Maternal great-grandmother (Whyel line) of Dan Frank. Born 15 August 1920, Fort Martin, West Virginia.…
 - [[wiki/people/franki-faris]] — the five-day 2013 rebound during a brief split from Alexis; later became Dan's own shorthand for the pattern he saw repeat with Annie.
+- [[wiki/people/garrett]] — Claire's husband, father of Alice and Otto; ten mentions in eleven years, works at Jim Shorkey, and the reason four pages here are filed under single names — the corpus never records his surname.
 - [[wiki/people/gabe]] — Dan's cat, named for Cobra Starship/Midtown singer Gabe Saporta; other half of the Milo/Gabe/Max naming pattern.
 - [[wiki/people/ismaila-barry]] — "DJ": Senegalese best friend from the Shed; the Triad's other constant.
 - [[wiki/people/jack-rusko]] — Fellow Nemacolin caddy and friend, 2017-2018; a two-month laptop-loan saga.
@@ -103,6 +106,7 @@ related: []
 - [[wiki/people/lauryn-ashly]] — Uniontown-era friend; real-time grief over Rob Orange's 2014 death, and a declined 2020 arrangement solicitation.
 - [[wiki/people/lewis-strosnider]] — Uniontown vape-shop friend; free graphic design work, a shared drone business plan, a Mavic 2 sale still unresolved when Dan left for NYC.
 - [[wiki/people/lisa-durbin]] — Extended-family relation organizing holiday gatherings, 2017.
+- [[wiki/people/libby]] — Libby Titus (Libby Fagen), songwriter and Donald Fagen's wife: the Manhattan client Annie assisted through the first half of 2024 while she was dying of brain cancer. Ended in a screaming match, an NDA request and three unanswered demand letters Dan drafted; she died 13 October 2024 with the balance unpaid. Falsifies the "unemployed for a full year" claim.
 - [[wiki/people/lisa-frank]] — Rick Frank's partner since at least December 2015; a decade of documented presence undiscovered until the 2026-08-11 correspondence-review pass.
 - [[wiki/people/lucas-thomas]] — Zac Shumar's friend; independent real-time eyewitness to the February 2017 house fire and arrest that sent Alexis Armel to prison.
 - [[wiki/people/lucie-dobbin]] — Longtime friend of Fran Coldren; recipient of Dan's fullest first-person account of Fran's death.
@@ -130,6 +134,7 @@ related: []
 - [[wiki/people/morley-frank]] — Paternal grandfather of Dan Frank. Born 20 August 1927, Brownsville, Fayette County, Pennsylvania. Died 13…
 - [[wiki/people/new-jim-shaffer]] — Wealthy childhood friend; 2018 embezzlement case, golf-equipment obsession, Rob Orange grief.
 - [[wiki/people/nick-mattie]] — Spring-2017 drug-scene trading peer: reciprocal fronts, a hand-kept ledger, eleven weeks from daily contact to silence.
+- [[wiki/people/otto]] — Annie's nephew, Claire and Garrett's younger child; late-October birthday, still napping 1:00–3:00 in March 2025. The "unnamed nephew" of Claire's page, and the record of a probable third child, Waylon, at two mentions.
 - [[wiki/people/oscar-lindquist]] — Full Sail-adjacent friend; his own thread precisely dates the Jamie Mohler Hurricane Irene evacuation and is the primary source behind a 2022 Manhattan-restaurant coincidence.
 - [[wiki/people/renae-holland]] — Former [[wiki/work/creative-license|Creative License]] contact; independent corroborating witness to Kevin McKiernan's document falsification, and recipient of Dan's May 2012 whistleblower disclosure.
 - [[wiki/people/rick-frank]] — Father of Dan Frank. Born 22 May 1959 in Uniontown, Fayette County, Pennsylvania. Part of paternal Jewish…

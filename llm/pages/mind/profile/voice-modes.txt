@@ -5,7 +5,7 @@ title: "Voice Modes — Dan's Texting Register by Emotional State"
 aliases: ["mode activation", "composite voice model"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-08-19
+date_modified: 2026-08-23
 sources:
   - raw/self/google-drive-export/Composite Voice Model for Dan Frank.md
 related:
@@ -20,6 +20,9 @@ connections:
   - page: wiki/mind/synthesis/the-commissioned-self
     type: component-of
     claim: "The Composite Voice Model is the apparatus at its most literal: a specification of how Dan writes, commissioned by Dan, detailed enough to generate him — the point at which self-description crosses into self-implementation."
+  - page: wiki/mind/profile/texting-deviance-audit
+    type: parallels
+    claim: "The eight emotional-state modes here and that page's seven countable structural turn-modes are orthogonal cuts of the same output; the structural taxonomy is the one with numbers on it, and it finds the Irritated mode's 'short and staccato, rapid bursts' description to be the NORM rather than the deviation — 8.5% of his 2026 turns against his interlocutors' 10.5%."
 ---
 
 # Voice Modes — Dan's Texting Register by Emotional State

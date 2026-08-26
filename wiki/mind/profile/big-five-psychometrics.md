@@ -20,6 +20,12 @@ related:
   - wiki/self/context-core
 tags: [personality-profile]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidences
+    claim: "Assertiveness 5 with Submissiveness 1 - neither taking direction nor seeking to give it - explains the employment record more completely than motivation, addiction or luck, because every institution that issues credentials and salaries runs on the vertical axis this pair exits."
+  - page: wiki/mind/concepts/reassurance-architecture
+    type: evidences
+    claim: "Trust at the 9th percentile is the trait-level reason reassurance has a short half-life: a confirmation is registered as a local observation rather than a durable prior, so the estimate decays and must be refreshed on a schedule nobody else would consider reasonable."
   - page: wiki/mind/concepts/calibrated-confidence
     type: evidenced-by
     claim: "Intellect at the 95th percentile finally has an unprompted behavioural correlate rather than an instrument score: Dan quantifies his own uncertainty in text messages, in every year of the corpus, where nobody texting him ever does."

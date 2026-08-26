@@ -6,7 +6,7 @@ aliases: ["one channel at maximum voltage", "no failover", "concentration archit
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-21
+date_modified: 2026-08-26
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -20,6 +20,9 @@ synthesizes:
   - wiki/mind/synthesis/ai-collaborative-analysis
 tags: [personality-profile, forensic-analysis, relationships]
 connections:
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: contradicts
+    claim: "Across August 18-19 2026 the peripheral Ally channel outvolumed the primary Annie channel by a three-figure margin with both threads live hour by hour, the first documented period in which relational load was not routed through a single node."
   - page: wiki/mind/synthesis/the-deferred-audit
     type: component-of
     claim: "'Maximum investment in the chosen, maximum indifference to the imposed' is a provenance rule stated as an allocation policy — a Gini of 0.96 is what a life composed exclusively of self-selected objects looks like measured from outside, and the no-failover exposure is the cost of never auditing those objects on arrival."
@@ -50,9 +53,38 @@ connections:
   - page: wiki/mind/synthesis/closing-the-set
     type: contradicts
     claim: "The evaluative leg, which this page scores as its weakest and 'a reading rather than a measurement,' is now measured and runs the other way: the curated taste record's creator-level Gini is 0.188 against the contact graph's 0.9601, so the concentration architecture is relational and does not generalise to culture."
+  - page: wiki/people/ally-lubin
+    type: evidenced-by
+    claim: "Ally is the one relational object in the corpus who has named this page's defining trait — sustained undisguised intensity — as her stated entry condition rather than her objection, which sharpens this page's live substitution test with a named candidate."
 ---
 
 # The Single Channel
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/synthesis/totality-themes]] (2026-08-26), which gained a
+> RE-CHECKED note confirming the same day's acquisition-drive/embedded-objective
+> tenure-and-satisfaction additions do not touch anything it cites. **No claim
+> on this page is affected.**
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/concepts/the-cool-metric]], [[wiki/mind/synthesis/alias-as-periodization]]
+> and [[wiki/mind/synthesis/totality-themes]] (all 2026-08-23). All three gained
+> re-check notes only; no claim on any of them moved. **This page's concentration
+> thesis is unaffected and gains an independent line of support elsewhere**: the
+> corpus search behind [[wiki/mind/synthesis/failure-to-launch]] finds the
+> production identity has almost no social trace at all — one Dan-sent message in
+> fifteen years about making a track — which is the creative-domain version of
+> the no-failover claim this page makes. No claim withdrawn.
+
+> **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at
+> third remove.** [[wiki/mind/synthesis/totality-themes]] moved on 2026-08-22 solely by
+> gaining a `RE-CHECKED` blockquote, which itself recorded that *its* premises
+> had moved only by re-check blocks, all of them tracing back to the April 2018
+> hospital summons ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]) and
+> finding nothing affected. No substantive claim changed anywhere along that
+> chain, and this page reasons from the claims rather than the blocks. Nothing
+> withdrawn.
+
 
 > **RE-CHECKED [2026-08-20] — the channel closed, which is this page's thesis
 > being tested rather than confirmed.** Flagged stale against
@@ -214,6 +246,29 @@ structuring — and per
 repository cannot independently check. One evaluative axis decides admission for
 every category of thing. None of these have redundancy, and none of their
 failure modes have been tested.
+
+## Read from outside as an entry condition, not only a cost
+
+This page treats the no-failover architecture as a structural liability —
+the 811-of-1,199-messages evidence is framed throughout as exposure. A
+question put to the wiki from outside it inverted that framing using the
+same evidence. Sustained, undisguised intensity — the observable surface of
+running one channel at maximum voltage — is the one thing the corpus proves
+Dan reliably produces, and [[wiki/people/ally-lubin|Ally]] names exactly that
+as her entry condition rather than her objection: *"Well first you'd have to
+be obsessed with me again"* (2026-08-18, 13:54:32). In every other pairing
+this page and its sources document, that intensity is the failure mode a
+partner eventually cites against him. Here it is stated by the other party
+as the price of admission.
+
+This does not touch the no-failover leg — the architecture is exactly as
+fragile either way, and fragility is not the same claim as undesirability.
+What it adds is a sharpened version of the live test already running: if the
+primary channel's closure produces a fast single substitution rather than a
+distributed spread, this page can now name a candidate for that substitution
+in advance rather than only after the fact, since Ally is the one relational
+object in the corpus who has stated the entry condition this architecture
+satisfies by default.
 
 ## Why it coexists with the chaos preference
 

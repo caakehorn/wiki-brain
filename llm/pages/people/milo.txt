@@ -2,11 +2,12 @@
 domain: people
 page_type: entity
 title: "Milo"
+aliases: ["Mimi"]
 status: active
 knowledge: mixed
 importance: high
 date_created: 2026-07-14
-date_modified: 2026-08-20
+date_modified: 2026-08-26
 date_range_start: 2018-01-01
 sources:
   - raw/timeline/captures/2026-08-16_183544_gap-july-august-2026-reentanglement.md
@@ -56,15 +57,39 @@ infobox:
 
 # Milo
 
+> **ADDED [2026-08-23] — "Mimi" is Annie's name for him, and it is used more often
+> than "Milo" in her own messages.** The corpus carries **67** uses of *mimi*
+> between 2018 and 2025, and they resolve to this dog on four independent
+> grounds: he is male (*"I miss my mimi boy"*, *"Did Mimi choose his own bite"*);
+> the range matches his; one message addresses him by both names at once
+> (*"Awe mimi Milo"*, 2021-04-06); and **Mimi and Betty are named as two separate
+> animals** — *"I wonder if mimi and Betty kissed at midnight"* (2020-01-01) and,
+> written to Betty, *"I'll get meatballs tonight for you and mimi"* (2024-11-02).
+>
+> **This bears directly on the severance.** The channel Dan named and pre-closed
+> on 2026-08-19 — *"Do NOT ever think... you can tell me about something that made
+> you think of me **or when something happens to Milo**"*
+> ([[wiki/mind/synthesis/the-rescue-premise]]) — is the same channel Annie's own
+> register calls *Mimi*. After the separation her recurring approach is the bare
+> welfare question, *"Is Mimi ok"* and *"How is Mimi"*, which is what the July 4
+> email about the fireworks was a version of. The pre-closure named the dog in
+> Dan's vocabulary; the route runs in hers.
+
 Milo is Dan's Chihuahua and the one recurring presence in the record that
 nothing — not the collapse of the Annie relationship, not the forensic
 AI sessions, not the moves between NYC and Uniontown — manages to
 contaminate. Where almost everything else in Dan's self-documentation gets
-run through analysis, Milo is explicitly carved out as exempt: MAX_PRIME.md
-instructs any AI persona working from it, "when everything else is in
-collapse, the Milo updates and the food runs and the Roosters banter are
-the last thread of something genuine... don't psychologize them, just
-receive them."
+run through analysis, Milo is explicitly carved out as exempt, and the
+exemption is not a curatorial choice the wiki made — it is an instruction
+Dan wrote himself. `MAX_PRIME.md` lists eight operating axioms for
+configuring his own AI sessions; the eighth reads in full: *"The cat and
+the food are always real. When everything else is in collapse, the Milo
+updates and the food runs and the Roosters banter are the last thread of
+something genuine. Don't psychologize them. Just receive them."* Two of the
+three things named alongside Milo in that axiom — the food runs, the
+Roosters banter — have no page and no measurement anywhere in this wiki; a
+pass that takes the axiom as seriously as it takes everything else Dan has
+written about himself would look for them.
 
 **Origin story (per Dan directly, 2026-07-14):** Milo was found as a stray
 by [[wiki/people/claire-ulmer|Claire]], Annie's sister — spotted around her neighborhood by several
@@ -268,3 +293,4 @@ here, the dog is the password.
 Dan answered at 23:40 — *"what"* — seventy-two minutes after the first SOS,
 having blocked and unblocked in between. Nothing in any source says what
 happened next. See [[wiki/timeline/events/august-2026-morgantown-call]].
+

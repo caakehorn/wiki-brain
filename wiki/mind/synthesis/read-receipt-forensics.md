@@ -7,12 +7,15 @@ title: "Read-Receipt Forensics — chat.db Metadata and Its Traps"
 aliases: ["read receipts", "date_read", "chat.db metadata"]
 tags: [forensic-analysis, digital-footprint]
 date_created: 2026-08-09
-date_modified: 2026-08-20
+date_modified: 2026-08-23
 sources: []
 synthesizes:
   - wiki/mind/concepts/forensic-method
   - wiki/timeline/events/august-2026-unmasking
 connections:
+  - page: wiki/mind/concepts/reassurance-architecture
+    type: instance-of
+    claim: "Read-receipt timestamp analysis is the developed form of measurement substituting for reassurance, and it is a strictly worse substitute: it establishes that she was awake and cannot establish that the rule still holds."
   - page: wiki/mind/concepts/forensic-method
     type: component-of
     claim: "Three instrument-level defects found in a single extraction session, each of which silently produces a confident wrong answer rather than an error — the failure mode the method is least protected against."
@@ -227,3 +230,11 @@ yet been audited; that audit is owed and is listed in `BACKLOG.md`.
 > because a cited source had been read to eleven percent of its length. The
 > instrument that lied quietly there was a reading pass rather than a query.
 
+> **RE-CHECKED [2026-08-23] — premise moved by one typed edge, conclusion
+> unaffected.** [[wiki/mind/concepts/forensic-method]] gained an `instance-of` edge on
+> 2026-08-23 into [[wiki/mind/profile/texting-deviance-audit]]. No content this page
+> depends on changed. The new instance does rhyme with this page's subject: the audit's
+> decisive move was a control that disconfirmed the hypothesis being tested — Dan's
+> *first* messages in a turn start lowercase at the same rate as his continuations, so
+> the lowercase opener is habit, not sentence-fragmentation. That is the same class of
+> check whose absence produced the four `chat.db` defects catalogued here.

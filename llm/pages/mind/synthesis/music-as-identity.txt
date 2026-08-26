@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-16
-date_modified: 2026-08-11
+date_modified: 2026-08-26
 sources:
   - "raw/self/dox-md/FULL PROFILE 2026.md"
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -31,6 +31,9 @@ connections:
   - page: wiki/mind/synthesis/attachment-trauma-bond
     type: parallels
     claim: "The absorption-then-clean-cutoff pattern in music preference mirrors the attachment architecture — maximum engagement, hard boundary, pre-cut version held as the real one — running on objects that cannot betray him."
+  - page: wiki/people/annie-ulmer
+    type: evidenced-by
+    claim: "The corpus's only ranked comparison of happiness sources dates the handover directly: music was 'the only thing that's ever made me happy' in December 2015, and had been displaced by exactly one thing by April 2016."
 ---
 
 
@@ -75,6 +78,22 @@ because the meaning was in the *through-line*, not the tracks.
    profile, a correct read of where authentic expression lived after rock's
    1963 chart-peak — not a retreat. Production is the architecture; he is a
    producer-first identity, not a performer.
+
+## The one ranked comparison
+
+The corpus contains exactly one place where Dan ranks his happiness sources
+against each other, and music is the thing being ranked against. Four
+months into the Annie relationship, 2016-04-03 23:02: *"You're the only
+thing that's ever made me happier than making music."* Read against the
+paired line from four months earlier, 2015-12-09 15:39, at the very start
+of the relationship: *"Ruin the only thing that's ever made me happy"* — the
+two together date the handover. Before December 2015, on his own
+accounting, making music was the top of the list; by April 2016 it had been
+displaced by exactly one thing. That is the strongest single piece of
+evidence in the message record for this page's thesis that music is a
+primary structure of self rather than a hobby: it placed production second
+in his life, behind exactly one person, at the point the primary
+relationship reached its peak.
 
 ## The cutoff as a personality signature
 

@@ -39,6 +39,51 @@ That order is deliberate in both directions: the operator's request never waits 
 
 `operator-log.md` and `bin/wiki-gaps pending` still exist and are still worth opening: the log is the durable half — append-only, survives `clear`, and records what was *already* integrated so a session can tell a fresh answer from an old one without reading git history. `bin/wiki-work` will not let you miss that there is one; the log tells you its history.
 
+## STANDING DIRECTIVE — the Annie moratorium (2026-08-23, operator)
+
+**No new Annie material enters this repository. No exception is delegated to a
+session; only the operator can lift this.**
+
+The operator's instruction, verbatim in substance: *we can no longer include
+texts or any narrative anything about Annie, due to the unpredictable nature of
+her situation and the apparent danger she is in.* This is a safety directive
+about a living person, not an editorial preference, and it outranks every
+priority elsewhere in this file — including `queue.md`'s CRITICAL row, which
+stood for weeks telling each session that the next 212 export was the
+highest-value pending ingest. That row is closed. So is every other standing
+instruction that would have pulled Annie messages in.
+
+**What is forbidden, from today:**
+
+- Filing any new Annie message export, metadata dump, group-chat export or
+  screenshot into `raw/` or `inbox/` — including exports already named in
+  `queue.md` or `BACKLOG.md` as pending.
+- Writing any new narrative, event, timeline entry, synthesis, typed-edge claim
+  or dated line about Annie, or extending an existing one past what the wiki
+  already says.
+- Quoting any Annie message not already quoted on a page.
+- Answering a `sage/` question with new Annie material. A question that can only
+  be answered that way is answered from what the wiki already holds, or it is
+  declined with this directive as the stated reason.
+
+**What is unchanged, and must stay unchanged:** every existing Annie page. This
+directive is a stop, not a retraction and not a redaction. Nothing already
+written is deleted, softened or rewritten, because the operator asked for
+nothing to be done differently — only for the record to stop advancing.
+
+**Where the record stops.** The wiki's account ends at the last contact it
+already states — **2026-08-19, 15:15:33**, the last message on
+`wiki/people/annie-ulmer.md` (`date_range_end: 2026-08-19`). Treat that as the
+current state of the world: *Dan has not spoken to Annie since the last date the
+wiki records.* Do not date-check it against an export, do not "confirm" it, and
+do not bump it. If a source you are reading for some other purpose runs past
+that date on this thread, stop reading at it and take nothing from beyond.
+
+An export was uploaded to a session on 2026-08-23 that runs past that date. It
+was **not** filed to `raw/`, not copied into the repository, and nothing was
+derived from it — deliberately, under this directive. That is the correct
+handling of the next one too.
+
 ## The three things that matter most
 
 1. **Depth is the binding constraint.** There are 438 pages; there are not enough *details on them*. A pattern can only be found among details that were written down, and synthesis reasons from `wiki/`, not `raw/` — so anything dropped at extraction is a connection nobody can ever make. Read sources to exhaustion, write long, keep the mundane. `EXTRACTION_SPEC.md`.
@@ -68,7 +113,7 @@ outside the repository, and the work of answering it goes back into `raw/` and
 - **`wiki/`** — the compiled product: accumulated understanding, not a cache of `raw/`. Domains: `self`, `timeline`, `people`, `mind`, `work`, `interests`, `health`, `places`, `legal`. Add a domain only when several pages clearly don't fit an existing one. `wiki/**/archive/` holds pinned oversized artifacts (`status: archived`) — exempt from budgets, never updated.
 - **`sage/`** — questions put to the wiki **from outside it**. The portal has a question box; anyone through the door can ask something about Dan and the question lands in `sage/questions/` as a file. Nothing answers it automatically — there is no model behind the box and no workflow that calls one. It is parked, `bin/wiki-work` lists it at priority 1, and a session answers it properly. Not in `raw/` because these files mutate (`pending` → `answered`); the immutable artifact is the capture written to `raw/self/sage/` at answer time. See `sage/README.md` and the ANSWER operation below.
 - **`exports/`** — output of `bin/export-corpus`; never hand-edit, gitignored.
-- **The portal** — [`caakehorn/home`](https://github.com/caakehorn/home) renders this wiki, and its `public/wiki/**` is a **derived snapshot of `wiki/`, not a second copy of it.** A workflow there re-runs the derivation against this repo on dispatch *and hourly*, deleting the directory and rebuilding it, so **anything written into `public/wiki/` is destroyed within the hour** — including a change that merged. If a session finds itself editing a page as JSON, it is in the wrong repository: pages are `wiki/**.md`, here. This is not a style preference; two December 2015 read passes were written into the snapshot and one was reverted 39 minutes after merging (restored 2026-08-17).
+- **The portal** — [`caakehorn/home`](https://github.com/caakehorn/home) renders this wiki, and its `public/wiki/**` is a **derived snapshot of `wiki/`, not a second copy of it.** A workflow there re-runs the derivation against this repo on dispatch *and hourly*, deleting the directory and rebuilding it, so **anything written into `public/wiki/` is destroyed within the hour** — including a change that merged. If a session finds itself editing a page as JSON, it is in the wrong repository: pages are `wiki/**.md`, here. This is not a style preference; two December 2015 read passes were written into the snapshot and one was reverted 39 minutes after merging (restored 2026-08-17). **The dispatch that wakes it is `.github/workflows/notify-portal.yml`, here** — it fires `wiki-updated` at the portal on every push to `main` touching `wiki/**` or `sage/questions/**`, which are the only two paths the portal's `sync-wiki.mjs` reads. It needs `PORTAL_DISPATCH_TOKEN` in this repository's secrets and **ships inert without it**, falling back to the portal's hourly cron; if a merged answer is not live within a minute or two, check that secret first.
 - **Meta files** (root): `index.md` master navigation · `log.md` append-only operation log · `operator-log.md` append-only ledger of operator additions (written by `bin/wiki-gaps`, never by hand) · **`WORK.md` the one outstanding-work list (written by `bin/wiki-work`, never by hand)** · `queue.md` pending-ingest ledger · `connection-queue.md` mined edge backlog · `synthesis-queue.md` mined climb backlog · `BACKLOG.md` standing work.
 
 Git is the history mechanism. Commit after every ingest with `<op>: <short description>`. Never commit secrets or `exports/`.
@@ -172,12 +217,16 @@ If an answer turns out to be **wrong** against a primary source, that is a findi
 
 Sweep for: broken links, orphan pages, contradictions between pages, claims superseded by newer raw data, entities mentioned 3+ times with no page, and **stale premises** (`bin/wiki-climb check`). Fix mechanically what you can; queue the rest in `BACKLOG.md`. A stale page is never fixed mechanically — re-read what changed in the premise before touching the dependent.
 
+**Invoke the `wiki-housekeeping` skill (`.claude/skills/wiki-housekeeping/`) and follow it** whenever the operator asks to tidy, sweep, lint, audit or do housekeeping, and at the end of a session that moved the repo a lot. It carries the part this paragraph cannot: which warnings are requests to look rather than defects (the size warnings are, and trimming to clear one destroys earned content), how to work a stale premise without bumping a date, and how to drain obligations without mistaking a cleared flag for an integrated answer. The mechanical half is `bin/wiki-check`; the skill is the half that needs a reader.
+
 ## Tools (`bin/` — pure Python stdlib, no dependencies, no APIs)
 
 | Tool | Purpose |
 |---|---|
 | `bin/capture` | human-facing input: interactive typing/pasting, one-shot facts, file upload (`-f`), `status` |
 | `bin/mine-messages` | corpus mining over the full iMessage dump: `stats`, `grep`, `timeline`, `battery`, `entities`. **Use this instead of grep** — three properties of the dump make naive grep silently wrong |
+| `bin/text-metrics` | turn-level style measurement: `eras`, `modes`, `contacts`, `response`, `hours`, `silence`, `target`. The instrument behind `wiki/mind/profile/texting-deviance-audit`. **Use this rather than `mine-messages` for anything about length or cadence** — message-level counts hide the effect entirely, because the unit of Dan's speech is the turn, not the message |
+| `bin/wiki-check` | **the whole mechanical chain in one command** — regenerates, runs the three gates plus freshness, rescans `WORK.md`, in the one order that is correct. `--check-only` gates without writing (CI, review); `--quiet` for hooks. Exits 1 on any red gate. The judgment half is the `wiki-housekeeping` skill |
 | `bin/wiki-lint` | frontmatter, links, orphans, sizes, duplicate frontmatter keys, retracted claims (`RETRACTED.md`), empty cited sources, **unresolved merge markers, assistant citation artifacts, malformed frontmatter blocks and master-index count drift**. Must be 0 errors before commit |
 | `bin/wiki-freshness` | is the generated corpus (`llm/`) in sync with `wiki/`? Exact set difference against `llm/manifest.json`; never writes. Exit 1 on drift |
 | `bin/wiki-connect` | `check` (typed-edge lint), `audit` (graph health), `candidates` (writes `connection-queue.md`) |
@@ -191,6 +240,22 @@ Sweep for: broken links, orphan pages, contradictions between pages, claims supe
 | `bin/wiki-gaps` | operator-facing: answer an open gap, or volunteer a fact the page never asked for, and stage it for the next pass. `pages [filter]` lists **every** page so any of them can take a manual addition; `list` lists only those with open items; `pending` lists what is waiting; `clear` closes the loop and marks `operator-log.md`. Reads gaps, open leads, corrections queues and "what's missing" sections alike |
 
 ## Before every commit
+
+```bash
+bin/wiki-check              # regenerate, gate, scan — the whole chain, ~4s, red exits 1
+bin/wiki-check --check-only # gate without writing anything (CI, or reviewing a branch)
+```
+
+`bin/wiki-check` runs what used to be four hand-copied lines, **and it runs them
+in the order that is actually correct**, which the four lines were not:
+generators first, then gates, then the scan. `bin/wiki-lint` checks master-index
+count drift, so running it before `bin/wiki-digest` inspects numbers that are
+about to change; and `bin/wiki-freshness` exists to confirm the generators ran,
+so running it before them asks a question whose answer is guaranteed stale. In
+`--check-only` mode nothing is written and `wiki-freshness` becomes the real
+gate rather than a formality — it is what catches a content pass committed
+without regenerating, which is how the LLM manifest got eleven pages behind on
+2026-08-20. The individual tools still work exactly as before:
 
 ```bash
 bin/wiki-lint && bin/wiki-connect check && bin/wiki-climb check   # all at 0 errors

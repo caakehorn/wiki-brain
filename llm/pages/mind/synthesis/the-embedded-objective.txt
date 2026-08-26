@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-21
+date_modified: 2026-08-26
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -22,6 +22,9 @@ synthesizes:
   - wiki/legal/2015-possession-arrest
 tags: [career, personality-profile, forensic-analysis, uniontown-era, nyc-era]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: instance-of
+    claim: "The payload rule is what converts the work record from a character verdict into an engineering problem: 84 months of sustained employment produced no credential, capital or portable claim because a payload installed in somebody else's frame is by construction non-transferable."
   - page: wiki/mind/concepts/acquisition-drive
     type: contradicts
     claim: "That page predicts no assigned goal was ever pursued at cost comparable to the Fran vigil; the employment record contains two that dwarf it — 41 months at Au Za'atar and 43 at Nemacolin — so the prediction is falsified and the rule has to be rewritten around what was actually being sustained inside them."
@@ -55,9 +58,25 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "This page's own unresolved gap — three purely self-set projects (MNEME, DANMODEL, the AI video essays) that never shipped despite no assignment to hide behind — is answered by 'The Irreversibility Firewall': self-origination defeats the imposed-audit risk but not the exposure risk, and completion is what creates exposure regardless of who set the goal."
+  - page: wiki/mind/synthesis/closing-the-set
+    type: parallels
+    claim: "Two distinct rules that coincide exactly once: this page explains tenure inside an assigned host, that page explains satisfaction from a bounded object's closure, and the Fran vigil is the single case with no host distinct from its payload and a payload that happens to have a findable edge — which is why it is the only commitment in the corpus reported as satisfying."
+  - page: wiki/timeline/events/fran-death-vigil
+    type: evidenced-by
+    claim: "The only commitment in 106,629 sent messages Dan reports back as having gone well, at a seventh of Au Za'atar's duration — tenure and satisfaction are independent variables, and this is the corpus's one case of both landing together."
 ---
 
 # The Embedded Objective
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/legal/2015-possession-arrest]] (2026-08-22), which moved solely by a
+> correction about the identity and recurrence of the magistrate (Michael Metros
+> appears twice now, not once — the second time on the April 2018 hospital
+> summons). **The row this page draws from that case is unaffected:** the payload
+> was the ARD deal, obtained before the probation began, and compliance is still
+> attested only retrospectively. Which court held the case does not bear on the
+> acquire-the-outcome / serve-the-outcome asymmetry. No claim withdrawn.
+
 
 **Dan has never sustained an assignment. He sustains a self-set objective he
 has embedded inside one.** Every long commitment in the corpus is a host
@@ -236,6 +255,43 @@ entirely self-set, none was assigned to anyone, and none completed. The engine
 requires a self-set objective to fire, and having one is not a guarantee that
 it does.
 
+## Tenure and satisfaction are different axes
+
+This page measures how long a commitment lasts. It says nothing about whether
+any of them was *good* for him, and the corpus's answer is that the two axes
+are independent. Au Za'atar ran 41 months on an embedded payload, and
+[[wiki/timeline/periods/2021-2023-employment-block]] names it as the origin of
+the "DAN CYCLE OF JOB ENTROPY" — long tenure, no reported satisfaction. The
+six-month [[wiki/timeline/events/fran-death-vigil|Fran vigil]] is a **seventh**
+of that duration and is the only commitment anywhere in 106,629 sent messages
+that Dan reports back as having gone well: *"we had a lot of fun. got good
+closure and finally did something in my life that wasn't completely selfish"*
+(2018-04-06).
+
+The variable the vigil adds is one this page's table cannot hold: **it had an
+end.** The jobs in the table above are open-ended host structures that run
+until their payload is destroyed from outside (Au Za'atar, Nemacolin) or never
+installed (BFS, Caviar); none of them terminates by being *finished*. The
+vigil was bounded by a death and Dan closed it himself. That is
+[[wiki/mind/synthesis/closing-the-set]]'s rule — a bounded object with a
+findable edge — arriving in the employment domain rather than the cultural
+record it was built from.
+
+**These are two rules, not one, and the vigil is the single point where they
+coincide.** The payload rule explains *tenure inside an assigned container*:
+why a host structure gets carried for 41 months instead of one. The
+closed-set rule explains *satisfaction*: why closing a bounded object produces
+the one positive verdict in the corpus. Ordinarily they describe different
+objects — a job is a host with no findable edge, a reading list is a set with
+no host to embed inside. The vigil is degenerate on both axes at once: there
+is no external host distinct from the payload (the caregiving *is* the private
+objective, not a role it was smuggled into), and the payload happens to have a
+death for an edge. That coincidence, not a shared mechanism, is why it is the
+only commitment in the record that was both long-sustained and reported as
+satisfying. A payload with a findable edge is rare; this page's four cases
+have none, which is the more parsimonious reason none of the jobs produced a
+closure verdict, without needing the two rules to collapse into one.
+
 ## Predictions
 
 1. **Every job in the record, including any not yet documented, will show an
@@ -259,6 +315,26 @@ it does.
    "helped me finally get out of that world." If a source ever shows sustained
    costly compliance with a medical instruction he did not adopt as his own,
    the rule narrows again.
+
+## The payload rule as a capability finding
+
+[[wiki/mind/synthesis/failure-to-launch]] uses this page's rule to answer a
+question this one does not ask: whether Dan is capable, and why thirty-seven
+years of a demonstrably high-output engine has produced no credential, no
+capital and no portable claim.
+
+The rule supplies the mechanism, and it converts a character verdict into an
+engineering problem. **A payload is by construction non-transferable.** So the
+41 months at [[wiki/work/au-zaatar]] and the 43 at
+[[wiki/work/nemacolin-caddying]] were real tenure that was never structurally
+*his* at any point — when the shed came down in August 2024, the objective went
+with it and nothing accrued. What is missing across the biography is therefore
+not thrust, which this page already establishes is present in quantity, but
+**orbit**: a container Dan owns into which a self-set objective can be installed
+without a host. That page names the only candidate in the record — the
+production aliases, thirteen years and one continuous identity since 2016,
+longer than any job — and the gap that makes it untestable, which is that no
+output figure for any of them exists anywhere in the corpus.
 
 ## Gaps
 

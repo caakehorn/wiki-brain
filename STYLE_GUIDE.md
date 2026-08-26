@@ -113,7 +113,7 @@ Required fields, in this order:
 ```yaml
 ---
 domain: self | timeline | people | mind | work | interests | health | places | legal
-page_type: entity | event | concept | period | summary | synthesis | profile | report | chat | note | index
+page_type: entity | event | concept | period | summary | synthesis | profile | report | chat | note | index | dataset
 status: active | stable | stub | closed | archived
 date_created: YYYY-MM-DD
 date_modified: YYYY-MM-DD
@@ -147,8 +147,7 @@ date_range_start / date_range_end: YYYY-MM-DD
 changelog:                  # only on critical pages; newest first
   - date: YYYY-MM-DD
     note: "one line"
-image: self                 # override the auto illustration; assets/img/<name>.svg
-                            # (no real photographs are used anywhere in the wiki)
+image: self                 # override the auto illustration; any path under assets/
 pending_ingest: YYYY-MM-DD  # written by bin/wiki-gaps, removed by bin/wiki-gaps clear
 ```
 
@@ -212,6 +211,59 @@ Non-people pages may carry a freer `infobox:` (any of: born, status, type, alias
 ## LLM Quick Brief
 
 Pages marked `importance: critical` should open, after the intro paragraph, with an `## LLM Quick Brief` section: one dense paragraph written for direct context injection — who/what this page covers and the load-bearing facts, self-contained, with wikilinks, under 200 words. Do not add briefs to ordinary pages.
+
+## Chart-ready data — the `dataset` page type
+
+Every quantified table in this wiki lives inside prose, which is correct for
+a reader but useless to the portal: it would have to scrape a markdown table
+to plot one, and a scrape breaks the moment a page's prose changes shape. A
+`page_type: dataset` page exists for the opposite case — a finding whose
+point *is* a chart, structured so the portal can render it without parsing
+prose at all. It is not a replacement for tables inside ordinary pages, and
+it is not where a number goes just because it could be charted; it is for a
+comparison or a trend that a chart states more clearly than a sentence does,
+and that is worth a page of its own for that reason.
+
+**Mandatory `chart:` block**, in addition to every field an ordinary page
+carries (`domain`, `status`, `date_created`, `date_modified`, `sources`,
+`knowledge`, `connections:`, and `synthesizes:` for every page this one
+reasons from):
+
+```yaml
+chart:
+  kind: line | bar | grouped-bar | area | scatter
+  title: "One-line chart title, as it should render"
+  x: { label: "X axis label", type: category | number | date }
+  y: { label: "Y axis label", type: number }
+  series:
+    - name: "Series label as it should render in a legend"
+      points:
+        "2015": 7242
+        "2016": 13954
+    - name: "A second series, same x-axis"
+      points:
+        "2015": 6394
+        "2016": 14395
+```
+
+`series:` is a list, never a single object — a dataset page with one series
+is legal, but the shape must stay list-of-series so a two-series page
+doesn't need restructuring later. Each `points:` map is `{x: y}`; keep every
+series on the same x-axis so a renderer can plot them together without
+re-keying. `bin/wiki-lint` requires `kind`, `title`, and at least one named,
+non-empty series — it does not and cannot check that the numbers are right,
+so **every value must trace to a source cited in `sources:` or a page named
+in `synthesizes:`**, exactly like a table in an ordinary page. A `dataset`
+page still needs the prose an ordinary page needs: what the chart shows,
+where the numbers come from, and what would be a wrong way to read it. The
+chart is the point; it is not a substitute for the argument.
+
+**Never invent a `dataset` page to avoid writing a table well.** If the
+finding is a handful of numbers inside a larger argument, a markdown table
+in the page that argument belongs to is still correct — `dataset` is for a
+comparison that stands on its own, is not a footnote to a larger page, and
+would lose something real if it were only prose. Exemplar:
+[[wiki/mind/synthesis/annual-volume-annie-suz]].
 
 ## Linking
 

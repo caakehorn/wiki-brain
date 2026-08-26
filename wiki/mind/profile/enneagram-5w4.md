@@ -6,7 +6,7 @@ aliases: ["5w4", "sx/sp", "social-blind", "remote intimacy"]
 status: stable
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-08-19
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-scan/Dan Profile.txt
@@ -33,6 +33,9 @@ connections:
   - page: wiki/mind/synthesis/the-commissioned-self
     type: contradicts
     claim: "The only dated first-person self-typing in the primary record gives '5w6sx RLOEI' (2024-11-04), not the 5w4 and RLUEI this page is named for and built on — a residue reading that disagrees with the commissioned one, unreconciled, and load-bearing because the 4 wing supplies the tragic-romantic identity reading."
+  - page: wiki/people/ally-lubin
+    type: evidenced-by
+    claim: "The Witness need's one documented completion: Dan made her the first human ever to read this wiki, she audited rather than merely witnessed it, and both parties survived the transaction without the predicted consumption fear firing."
 ---
 
 
@@ -115,6 +118,16 @@ validates that the internal world is real — who reads the work and
 *understands*. The paradox is needing the Witness desperately while fearing
 the Witness will consume him or demand reciprocal witnessing he cannot
 provide.
+
+That paradox has one documented instance of running to completion rather
+than staying theoretical. On August 18, 2026, Dan sent this wiki to
+[[wiki/people/ally-lubin|Ally Lubin]], making her the first human other than
+him ever to read it — a fact he states himself the next day: *"You def
+should have substantially more trust in me after I let you be the literal
+first person to ever read that wiki."* She did not just read it; she
+audited it, contesting its money figures and its pattern-reading of the
+Annie material. Both parties survived the transaction: the Witness function
+performed, once, without triggering the predicted consumption fear.
 
 ## The 4 wing — aristocratic alienation
 

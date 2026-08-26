@@ -7,7 +7,7 @@ status: closed
 knowledge: mixed
 importance: high
 date_created: 2026-06-23
-date_modified: 2026-08-18
+date_modified: 2026-08-26
 date_range_start: 2009-10-01
 date_range_end: 2025-02-19
 sources:
@@ -96,6 +96,9 @@ connections:
   - page: wiki/people/emaly-minerd
     type: evidenced-by
     claim: "Dan's November 28, 2018 account to Emaly is the fullest retrospective anywhere in the corpus of how the Alexis arrangement began, including the $3,000 offer to be 'a plaything for Annie' — told to an outsider he was actively pursuing, which is the context that produced the detail."
+  - page: wiki/people/franki-faris
+    type: co-occurs
+    claim: "Dan typed her INFP/ISFP 'Idealist' in the same July 9-31, 2013 self-typology batch that typed Franki ESFP — a reading of the six-year partner that had been sitting on the five-day rebound's page instead of here."
 ---
 
 # Alexis Armel
@@ -519,6 +522,19 @@ the suppression *"a real limitation, not a rounding error"* — which is this
 page's own closing finding, arrived at from the archive rather than from a
 rubric.
 
+## Typed once, in the same batch as Franki's
+
+In the same **July 9–31, 2013** batch of self-sent typology emails that
+produced Dan's own earliest INTP self-identification
+([[wiki/people/elizabeth-eleanor]]) and Franki Faris's ESFP
+([[wiki/people/franki-faris]]), Dan typed Alexis **INFP/ISFP —
+"Idealist."** The datum has lived on Franki's page rather than here, which
+is backwards: a typing of the corpus's six-year partner sitting on the page
+of a five-day rebound is why two independent 2026-08-21 passes concluded she
+had no type at all. It is Dan's read of her, not an assessment of her, and
+should be read with that provenance attached — the same caveat this page
+already applies to the blind girlfriend-score model above.
+
 ## Post-eviction hostility (Dec 2015)
 
 After the eviction, Alexis remains hostile toward Annie and Dan:
@@ -532,12 +548,23 @@ This is the earliest post-eviction statement of Dan's policy toward Alexis — n
 
 ## Gaps
 
+**The `known_for` line is now quoted outside the wiki, and the page owes it a
+harder look.** *"The six-year relationship that occupied the attachment slot
+without ever activating it"* was cited in a sage answer published 2026-08-21
+as evidence that stability without activation is a documented outcome rather
+than a hypothesis. The claim rests more on absence — a chat archive that
+never shows crisis-grade attachment behavior — than on a positive measurement
+that rules out the alternative explanation, which is coverage. Only 43 of
+the 495 chat blocks carry dates, so the archive's true span is unknown beyond
+the 2011-08 → 2013-05 sample, and six years with a thin, unevenly dated
+message record is also consistent with under-documentation rather than
+genuine non-activation. This page has not yet supplied the measurement that
+would tell the two apart.
+
 The length of the relationship is quoted three different ways and the corpus
 does not settle it: Gemini's profile says 2010–2015, the bootloader says
 November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had
-"dated her for 7 years." The Twitter record favours a late-2009 start. Only
-43 of the 495 chat blocks carry dates, so the archive's true span is unknown
-beyond the 2011-08 → 2013-05 sample. Nothing in the corpus records how she
+"dated her for 7 years." The Twitter record favours a late-2009 start. Nothing in the corpus records how she
 learned about Annie, or whether the two women had any relationship as
 coworkers before the November 2018 arrangement. Her life after February 2025
 is entirely undocumented, as is whether she knows any of the rest of this

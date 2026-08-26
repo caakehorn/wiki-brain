@@ -7,6 +7,24 @@ never existed), `TO-DO-LIST.md` (operator's hand list, carried forward below),
 "Settled" at the bottom), `contact-review.md` (a worksheet for a quarantine
 that no longer exists) and the campaign backlog from `MESSAGE_MINING.md`.
 
+## STANDING DIRECTIVE — the Annie moratorium (2026-08-23, operator)
+
+**Read `CLAUDE.md` § "STANDING DIRECTIVE — the Annie moratorium" before working
+any item on this page.** No new Annie material enters this repository: no
+export, no metadata dump, no group-chat pull, no screenshot, and no new
+narrative, event, synthesis or typed-edge claim about her. The reason is her
+safety, not the wiki's taste, and only the operator can lift it.
+
+Every item below that depends on new Annie material is **closed, not deferred**,
+and is struck through rather than deleted so nobody reinstates it as an
+oversight. Items about other people stay live even where an Annie page is
+downstream of them — what is forbidden is *acquiring and writing Annie
+material*, not the rest of the corpus continuing to exist.
+
+Existing Annie pages are untouched and stay untouched. The record ends at the
+last contact already stated, **2026-08-19 15:15:33**. Dan has not spoken to
+Annie since the last date the wiki records.
+
 **This is not the resume point.** `LLM_HANDOFF.md` holds the exact place the
 last session stopped and what to do next. This file holds the standing work
 that outlives any one session. Two machine-maintained queues sit alongside it:
@@ -106,9 +124,9 @@ Each of these is a specific thing the corpus or the outside world could settle.
   identities.
 - **Is Coles = Target G?** FOREWARN returned no marital data. `wiki/people/annie-ulmer.md` §Target G names him only as "Caitlin's husband."
 - **Why did Coles hold two addresses (Uniontown/Connellsville) for 22 months, 09/2024–07/2026?** Unexplained; see `wiki/people/jerel-coles.md` §Open questions.
-- **Does the "video proof / unconscious" accusation originate with Coles (2026-07-26, from Annie's phone) or with Annie (2026-05-31, 23:54)?** Now answerable from logs already held; not yet run.
+- ~~**Does the "video proof / unconscious" accusation originate with Coles (2026-07-26, from Annie's phone) or with Annie (2026-05-31, 23:54)?**~~ **CLOSED — Annie moratorium 2026-08-23.** Answering it means mining her thread and writing the result onto her page. Not run, and not to be run.
 - **Independent docket verification of Coles's criminal record** via PA UJS (ujsportal.pacourts.us) — the FOREWARN capture is commercial-aggregator sourced, not court-verified.
-- **The `annie_metadata_24h.csv` / `imessage_export_2124702449_20260809084846_.csv` sourcing gap.** [[wiki/timeline/events/august-2026-unmasking]] and [[wiki/mind/synthesis/read-receipt-forensics]] were written from a session with direct `chat.db` access; the underlying CSV exports were never filed to `raw/self/message-csv/`. File them, then re-point `sources:` on both pages. See `queue.md`.
+- ~~**The `annie_metadata_24h.csv` / `imessage_export_2124702449_20260809084846_.csv` sourcing gap.**~~ **CLOSED — Annie moratorium 2026-08-23.** The exports are not to be filed. The gap on [[wiki/timeline/events/august-2026-unmasking]] and [[wiki/mind/synthesis/read-receipt-forensics]] stands, visible and unfixed, and that is the intended outcome.
 - **`reply_to_guid`-as-threading audit.** [[wiki/mind/synthesis/read-receipt-forensics]] finding M2 voids any prior analysis that treated `reply_to_guid` as an intentional reply marker rather than an auto-populated field. No such prior analysis has been identified yet — sweep for one.
 - **The `463-morgantown` mechanics-lien deadline** (~2026-07-27) elapsed with no
   recorded outcome, and the date was always derived rather than documented. The
@@ -121,6 +139,26 @@ Each of these is a specific thing the corpus or the outside world could settle.
   attested out-of-county residence in four generations).
 
 ## 4. Tooling and hygiene
+
+- **HIGH — nothing gates `main`, and four portal saves have now broken it in one day.**
+  `bin/wiki-check --check-only` on push to `main` would be a ~4-second workflow
+  with no side effects and would have caught both incidents within a minute. On
+  2026-08-13 a stale-snapshot save deleted 56 typed-edge claims and ~30KB of
+  `people/annie-ulmer` and sat red for a day; on **2026-08-22** a portal save put
+  two stray characters inside a wiki path in `people/ally-lubin`
+  (`...2018-deep-cycle  im`) and turned `bin/wiki-connect check` red on `main`
+  within four minutes of a merge; later the same day the stale-snapshot clobber
+  recurred on `ally-lubin`, and a save to `annie-ulmer` duplicated its H1 and left
+  `bin/wiki-freshness` red. **All four were found by a session happening to look**,
+  the last one only because a check-in scheduled for another purpose re-ran the
+  gates.
+  The portal editor will save anything, so this class recurs by construction —
+  the fix belongs in CI, not in vigilance.
+- **The portal editor accepts keystrokes into structural fields.** Distinct from
+  the stale-draft bug fixed by `draftIsStale`: here the payload was correct and
+  fresh, and a cursor was simply in the wrong place. Worth a client-side check in
+  `caakehorn/home` that a `connections[].page` value resolves before a save is
+  accepted, and that infobox values do not end mid-word.
 
 - **`leviathan/factstory.html`'s INGEST BRIEF is out of lockstep** with
   `FACTSTORY_BRIEF_TEMPLATE.md` and has been since 2026-08-02. That repo is not
@@ -329,11 +367,12 @@ reason rather than re-derive it:
   quotation on `wiki/timeline/events/august-2026-morgantown-call` and
   `wiki/people/jerel-coles` becomes checkable the moment this exists. This is
   the single highest-value action available on the August material.
-- **HIGH — did the email to Annie's parents ever send?** Dan asserts it three
-  times on 2026-08-19 and denies it twice the same day, and he is documented
-  faking exactly that claim the day before. One look at a sent-mail folder
-  decides whether the maternal-disclosure threat's execution rate is zero or
-  one. Held as a `CONTRADICTION` on the event page until then.
+- ~~**HIGH — did the email to Annie's parents ever send?**~~ **CLOSED — Annie
+  moratorium 2026-08-23.** The `CONTRADICTION` on the event page is now
+  permanent: it is not resolved, and the check that would resolve it — reading a
+  sent-mail folder and writing a verdict about a disclosure threat aimed at
+  Annie's family — is exactly what the directive forbids. Leave the blockquote
+  exactly as it stands.
 - **HIGH — export the Ally thread for 2026-08-13 → 20.** Named as missing by
   the 2026-08-19 audit and still missing.
   `wiki/self/concepts/ally-and-dan-love-as-destiny` is now making predictions
