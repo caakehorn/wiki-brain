@@ -7,7 +7,7 @@ importance: critical
 status: active
 knowledge: mixed
 date_created: 2026-06-22
-date_modified: 2026-08-22
+date_modified: 2026-08-26
 date_range_start: 1962-09-15
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
@@ -147,6 +147,14 @@ connections:
 
 
 # Suz (Suzanne Frank)
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/timeline/events/fran-death-vigil]] (2026-08-26), which added the
+> closure-cluster finding (four dated good-outcome statements in six days)
+> and new typed edges to closing-the-set and attachment-model. **No claim on
+> this page is affected** — nothing here reasons from Dan's happiness
+> statements or the closure mechanism, only from the caregiving rotation and
+> the estate timeline, both untouched.
 
 > **RE-CHECKED [2026-08-22]:** flagged stale against
 > [[wiki/places/337-saratoga-drive]] and
