@@ -8,7 +8,34 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-23 — 49 pages
+## 2026-08-26 — 19 pages
+
+- **Session log:** close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked
+- **Session log:** close | people | ally-lubin — the love letter and the mutual-correction finding integrated, three dependents re-checked
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/health/cocaine]] | health | **RE-CHECKED** — flagged stale against acquisition-drive (2026-08-26), which added a closure-not-completion refinement built on the Fran vigil quote — unrelated to cocaine. **No claim on this page is affected.** **RE- |
+| [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — flagged stale against cocaine (2026-08-26), which added a happiness-rate counter-measure to the same dosage arc this page already cites (1g/day → 3.5–7g/day → 0.5–1g/day tracking the inheritance). **T |
+| [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
+| [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — flagged stale against totality-themes (2026-08-26), which gained two RE-CHECKED notes confirming its own cited premises unaffected by the same day's acquisition-drive/embedded-objective additions. **N |
+| [[wiki/mind/synthesis/closing-the-set]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
+| [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a REVISED from 2026-08-23)_ |
+| [[wiki/mind/synthesis/failure-to-launch]] | mind | **RE-CHECKED** — flagged stale against the-embedded-objective and acquisition-drive (both 2026-08-26), which added a distinction between tenure and satisfaction — the Fran vigil is the one commitment in |
+| [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — flagged stale against totality-themes (2026-08-26), which gained a RE-CHECKED note confirming the same day's acquisition-drive/embedded-objective tenure-and-satisfaction additions do not touch anythin |
+| [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — flagged stale against single-channel (2026-08-26), which added a section reading the no-failover architecture's intensity as an entry condition for one relational object (Ally) rather than only a cost |
+| [[wiki/mind/synthesis/the-embedded-objective]] | mind | _(carries a RE-CHECKED from 2026-08-24)_ |
+| [[wiki/mind/synthesis/the-rescue-premise]] | mind | **RE-CHECKED** — flagged stale against ally-lubin-cognitive-profile (2026-08-26), which added only a re-check note confirming its own parity finding unchanged. **No claim on this page is affected** — the money/volume/ |
+| [[wiki/mind/synthesis/totality-themes]] | mind | **RE-CHECKED** — flagged stale against the-embedded-objective and acquisition-drive (both 2026-08-26), which added a tenure-versus-satisfaction distinction built on the Fran vigil and left the MNEME/DAN |
+| [[wiki/people/ally-lubin]] | people | _(carries a CORRECTED from 2026-08-22)_ |
+| [[wiki/people/ally-lubin-cognitive-profile]] | people | **RE-CHECKED** — flagged stale against ally-lubin (2026-08-26), which integrated its own staged love letter and sage-finding blocks. Both are already load-bearing on this page — the love letter's trend spotting line i |
+| [[wiki/people/suzanne-frank]] | people | **RE-CHECKED** — flagged stale against fran-death-vigil (2026-08-26), which added the closure-cluster finding (four dated good-outcome statements in six days) and new typed edges to closing-the-set and attachment-mode |
+| [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — flagged stale against the-deferred-audit (2026-08-26), which gained a re-check note only, confirming an unrelated single-channel addition doesn't touch it. **No claim on this page is affected.** **RE- |
+| [[wiki/self/concepts/ally-and-dan-love-as-destiny]] | self | **RE-CHECKED** — flagged stale against ally-lubin (2026-08-26), which integrated a full unprompted love letter sent August 21, 2026 (*"I've spent 10 years… I just never got over it"* / *"still haven't lost interest… # |
+| [[wiki/self/concepts/astrology-star-signs]] | self | **RE-CHECKED** — flagged stale again against ally-lubin (2026-08-26), which integrated a staged love letter and a sage finding about a mutual-correction sequence and a joke line ("I'm a SINGLE MOTHER"). None of the th |
+| [[wiki/timeline/events/fran-death-vigil]] | timeline | _(carries a CORRECTED from 2026-08-18)_ |
+
+## 2026-08-23 — 37 pages
 
 - **Session log:** directive | people | the Annie record is closed — no further texts, no further narrative
 - **Session log:** lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
@@ -18,8 +45,6 @@ simply listed.
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/health/cocaine]] | health | **RE-CHECKED** — flagged stale against dan-annie-fallout-verdict (2026-08-23), which moved on one arithmetical point only — the exit-declaration relapse rate corrected from 87% to **100%** (129 episodes, median gap th |
-| [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — flagged stale against food-and-diet and the-deferred-audit (both 2026-08-23). **Both moved only by acquiring re-check notes** in a cascade that began with a music-domain corpus search and an |
 | [[wiki/interests/food-and-diet]] | interests | _(carries a RE-CHECKED from 2026-08-24)_ |
 | [[wiki/interests/music/overview]] | interests | **CORRECTED** — This page has described the production domain as one that *"requires active build-out"* — framing the absence of release data as a documentation gap this wiki had not got to yet. failure-to-launch sea |
 | [[wiki/mind/concepts/attachment-model]] | mind | _(carries a GAP CLOSED from 2026-08-22)_ |
@@ -31,28 +56,19 @@ simply listed.
 | [[wiki/mind/profile/linguistic-profile]] | mind | **CORRECTED** — This page carried *"Readability: post-graduate (16th grade+), from concept density not verbosity"* and *"23,286 unique words (95th-percentile lexical diversity)"*, glossed in the opening paragraph as  |
 | [[wiki/mind/profile/texting-deviance-audit]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/mind/profile/voice-modes]] | mind | — |
-| [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — flagged stale against overview (2026-08-23), which gained a corpus search for the production identity's social trace: **one Dan-sent message in fifteen years about making a track, zero about a studio, |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **REVISED** — Flagged stale against attachment-model (2026-08-23), which resolved its own long-standing gap on this exact figure. Dan-sent severance language across the 95,067-row merged Annie corpus (2015-11-28 →  |
 | [[wiki/mind/synthesis/august-grievance-verdict]] | mind | **RE-CHECKED** — flagged stale against block-unblock-loop (2026-08-23), which gained a re-derivation of the exit-declaration base rate — 129 episodes, 100% re-engagement, median gap thirty-six seconds. **This page car |
 | [[wiki/mind/synthesis/block-unblock-loop]] | mind | _(carries a RE-CHECKED from 2026-08-22)_ |
-| [[wiki/mind/synthesis/closing-the-set]] | mind | **RE-CHECKED** — forensic-method moved on 2026-08-23 to carry an `instance-of` edge into texting-deviance-audit — the method turned on Dan's own self-report about how he texts, where two of his three stated |
 | [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | **REVISED** — Flagged stale against attachment-model (2026-08-23). This page carried the 127/110 pair marked **[DERIVED]** with the note that *"a loose exit-lexicon sweep of his 44,513 messages finds 176 candidates |
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — That page gained a re-check note; nothing on it was withdrawn. The material development is elsewhere in the same pass: the severance base rate is now derived from primary data rather than inferred — * |
-| [[wiki/mind/synthesis/estate-money-spine]] | mind | **REVISED** — Flagged stale against annie-ulmer and rick-frank (both 2026-08-23). The Rick change is an alias finding with no capital content and nothing here moves for it. The Annie change does bear on this page. |
-| [[wiki/mind/synthesis/failure-to-launch]] | mind | **REVISED** — The figures above (43 vs 2, 15 graded vs zero) were re-derived from the on-disk CSVs and **none of the four reproduces**; the full correction is on calibrated-confidence. Under a strict, symmetric fil |
 | [[wiki/mind/synthesis/fayette-return]] | mind | **RE-CHECKED** — flagged stale against rick-frank (2026-08-23), which gained an alias finding — *Ricky*, 66 further mentions across 2015–2020 — corroborating the 2026-08-11 retraction of that page's held-block reading |
 | [[wiki/mind/synthesis/message-circadian-latency]] | mind | **CORRECTED** — This section previously opened *"The headline: a 9× reply-latency asymmetry with Annie"* and concluded: *"Dan answers almost everyone within 1–5 minutes. The people he messages answer him on a complet |
 | [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] | mind | **RE-CHECKED** — flagged stale against august-grievance-verdict and dan-annie-fallout-verdict (both 2026-08-23). The grievance verdict gained only a re-check note; the fallout verdict corrected its exi |
 | [[wiki/mind/synthesis/read-receipt-forensics]] | mind | **RE-CHECKED** — forensic-method gained an `instance-of` edge on 2026-08-23 into texting-deviance-audit. No content this page depends on changed. The new instance does rhyme with this page's subject: the audi |
-| [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — flagged stale against the-cool-metric, alias-as-periodization and totality-themes (all 2026-08-23). All three gained re-check notes only; no claim on any of them m |
 | [[wiki/mind/synthesis/supply-network]] | mind | **RE-CHECKED** — flagged stale against annie-ulmer (2026-08-23), which gained a section on her 2024 employment (libby) and on unpaid childcare. **No supply figure, route, counterparty or date on that page changed**, a |
 | [[wiki/mind/synthesis/the-commissioned-self]] | mind | **RE-CHECKED** — linguistic-profile was corrected on 2026-08-23: its "99th percentile for lexical diversity" and "post-graduate (16th grade+) readability" were recomputed against the sender-tagged corpus and both fail |
-| [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — flagged stale against chaos-preference, the-cool-metric and dan-annie-fallout-verdict (all 2026-08-23). The first two gained re-check notes with no claim change; th |
-| [[wiki/mind/synthesis/the-rescue-premise]] | mind | — |
 | [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **RE-CHECKED** — flagged stale against chaos-preference (2026-08-23), which gained a re-check note and no claim change. Nothing here is affected by that page. **Separately and more materially, the base rate this page' |
-| [[wiki/mind/synthesis/totality-themes]] | mind | **RE-CHECKED** — flagged stale against attachment-model and block-unblock-loop (both 2026-08-23). Both moved for one reason: the 127/110 exit pair was re-derived from primary data as **129 episodes with |
 | [[wiki/people/alice]] | people | — |
-| [[wiki/people/ally-lubin-cognitive-profile]] | people | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-23), which gained a re-check note with no claim change; nothing on this page depends on it. **One finding elsewhere in this pass does bear on this page a |
 | [[wiki/people/annie-ulmer]] | people | **CORRECTED** — The standing account of Annie's working life — sourced to `raw/self/dox-md/Honest assessment and value judgment analysis.md` and repeated downstream — is that she *"was fired in 2023 and spent a full  |
 | [[wiki/people/annie-ulmer-personality-assessment]] | people | **RE-CHECKED** — Flagged stale against annie-ulmer (2026-08-23), which gained a section establishing that Annie worked two jobs through most of 2024, including sustained paid care for an elderly woman (libby), and pro |
 | [[wiki/people/claire-ulmer]] | people | **GAP CLOSED** — This page previously read *"Claire has children — an unnamed niece and nephew."* **They are named.** Alice appears **66 times** between October 2023 and July 2025 and Otto **31 times** over the same s |
@@ -65,10 +81,9 @@ simply listed.
 | [[wiki/people/rick-frank]] | people | _(carries a CORRECTED from 2026-08-11)_ |
 | [[wiki/places/derrick-avenue]] | places | — |
 | [[wiki/places/index]] | places | — |
-| [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — flagged stale against the-deferred-audit (2026-08-23), which gained a re-check note only — no deferral case, date or instance on it changed, and nothing on it touches tenancy, the lien clock or the 46 |
 | [[wiki/self/message-corpora/master-message-dump]] | self | **CORRECTED** — the ~8.36 figure is a **2015-19 baseline, not a constant.** Recomputed per era from the sender-tagged deep export: 8.34 (2015-19), 9.31 (2020-24), 11.71 (2025), **15.03 (2026)**. The "3-7 discrete bur |
 
-## 2026-08-22 — 15 pages
+## 2026-08-22 — 9 pages
 
 - **Session log:** answer | mind | what would make Dan happy — he answered it himself in 2025, and the record has already run the experiment
 - **Session log:** fix | people | a fourth portal incident, a duplicated H1 on annie-ulmer, and the freshness gate red on main
@@ -87,16 +102,10 @@ simply listed.
 | [[wiki/legal/2015-retail-theft-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
 | [[wiki/legal/index]] | legal | — |
 | [[wiki/mind/profile/deviance-mapping]] | mind | **GAP CLOSED** — the motivational-system claim — *"intensity and forbidden knowledge in place of happiness and stability"* — now has a measurement behind it taken from **outside** the apparatus, and it settles half th |
-| [[wiki/mind/synthesis/the-embedded-objective]] | mind | _(carries a RE-CHECKED from 2026-08-24)_ |
-| [[wiki/people/ally-lubin]] | people | **CORRECTED** — That MBTI argument was recorded here as relationship colour, and this page's infobox carried **`mbti: ENFP`** on the strength of it — a claim resting on one source in which the subject asserted the ty |
-| [[wiki/people/suzanne-frank]] | people | **RE-CHECKED** — flagged stale against 337-saratoga-drive and fran-death-vigil (both 2026-08-22). Both moved for one reason: the April 2018 hospital summons surfaced ([[wiki/timeline/events/uniontown-hospital |
 | [[wiki/people/suzanne-frank-personality-assessment]] | people | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-22), which moved by a `RE-CHECKED` blockquote adding one undocumented event — an April 2018 court summons for Dan arriving at her address during the funera |
 | [[wiki/places/117-belmont-circle]] | places | _(carries a REVISED from 2026-08-08)_ |
 | [[wiki/places/155-virginia-ave]] | places | **GAP CLOSED** — This page read, until now, *"the residence timeline has him staying until February 2019, so the notice's outcome is undocumented."* It is documented. A Fayette County summary summons filed **April 5,  |
 | [[wiki/places/337-saratoga-drive]] | places | _(carries a REVISED from 2026-08-18)_ |
-| [[wiki/self/concepts/ally-and-dan-love-as-destiny]] | self | **RE-CHECKED** — flagged stale against ally-lubin (2026-08-22), which gained a tested **ENTP-T** result correcting its long-standing single-source ENFP. Re-read against the change. **The thesis survives and one of its |
-| [[wiki/self/concepts/astrology-star-signs]] | self | **RE-CHECKED** — flagged stale against ally-lubin (2026-08-22), which gained a tested MBTI result and a corrected infobox field. Re-read against the change; **no claim on this page is affected and nothing is withdrawn |
-| [[wiki/timeline/events/fran-death-vigil]] | timeline | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/timeline/events/uniontown-hospital-vape-alarm]] | timeline | **GAP CLOSED** — This page asked, from its creation until now, *"Whether a summary offense was actually filed with a Fayette County magistrate, or whether the paperwork was an incident report a security guard describe |
 
 ## 2026-08-21 — 12 pages
@@ -295,7 +304,7 @@ simply listed.
 |---|---|---|
 | [[wiki/people/john-paci]] | people | **REVISED** — the version of this page written on 2026-08-10 described a warm, long-suffering landlord and an eviction that simply happened to him and to his tenants. The eviction was staged at Dan's request. The r |
 
-## 2026-08-11 — 10 pages
+## 2026-08-11 — 9 pages
 
 - **Session log:** climb | mind | totality-themes.md re-derived from the wiki's own T2/T3 layer — "The Irreversibility Firewall"
 - **Session log:** correction | people | the "decade of silence" with Rick was wrong — full record recovered, childhood testimony captured, worldview mismatch documented
@@ -305,7 +314,6 @@ simply listed.
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/mind/concepts/conflict-architecture]] | mind | _(carries a REVISED from 2026-07-18)_ |
 | [[wiki/mind/concepts/erotic-architecture]] | mind | — |
 | [[wiki/mind/concepts/institutional-out]] | mind | — |
@@ -534,17 +542,4 @@ simply listed.
 | [[wiki/timeline/events/group-chat-closure]] | timeline | **REVISED** — "closure" overstates what this event achieved, and the wiki inherited the overstatement. June 1 severed contact for fifty-two days — by a wide margin the most durable severance in a relationship with  |
 | [[wiki/timeline/periods/dec-2025-spike]] | timeline | — |
 | [[wiki/work/tech/max-framework/overview]] | work | — |
-
-## 2026-07-25 — 8 pages
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/people/mike-hinkle]] | people | — |
-| [[wiki/people/rod-banks]] | people | — |
-| [[wiki/people/slim]] | people | — |
-| [[wiki/people/zach-clabaugh]] | people | — |
-| [[wiki/people/zach-hendricks]] | people | — |
-| [[wiki/self/index]] | self | — |
-| [[wiki/self/lineage/index]] | self | — |
-| [[wiki/work/caviar-courier]] | work | — |
 

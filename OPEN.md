@@ -9,9 +9,9 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 45 |
-| Open gaps | 453 |
-| Answered, awaiting ingest | 1 |
-| Standing predictions | 53 |
+| Open gaps | 454 |
+| Answered, awaiting ingest | 0 |
+| Standing predictions | 54 |
 
 ## Answered, awaiting ingest
 
@@ -21,8 +21,7 @@ what is missing is the pass that corrects the page and every page that
 inherited the gap, then runs `bin/wiki-gaps clear <page>`. Cheapest work
 here — no new source required, and the answer is already written down.
 
-- **[[wiki/people/ally-lubin]]** — staged 2026-08-21, 1 answer
-  - manual note
+_Nothing staged._
 
 ## Live contradictions
 
@@ -102,6 +101,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/closing-the-set]]** — **The 2021–2023 marker will turn out to be a closed set.** interests-as-era-markers names its own largest gap: the employment-block years have no identified marker obsession. This rule predicts that when one is found it will have a countable edge and a discove
 - **[[wiki/mind/synthesis/closing-the-set]]** — **The `want-to-read` list will be more concentrated than the read list.** books records 149 unread titles. If acquisition runs ahead of reading in a set-closure architecture, the queue should show *higher* subject concentration than the finished shelf's 50%, b
 - **[[wiki/mind/synthesis/closing-the-set]]** — **Any new intense interest will show ≥5 independent sources on one object within its first three months**, and will not show a second work by the first source until the others are used up. This is scoreable against the next favourites or Goodreads export with 
+- **[[wiki/mind/synthesis/closing-the-set]]** — **The wiki itself will not produce a closure verdict from Dan.** It has no findable edge, so this page's own rule predicts it can generate surface indefinitely but not the satisfaction the Fran vigil produced. *Falsified by:* a dated, unprompted statement from
 - **[[wiki/mind/synthesis/closing-the-set]]** — **The Ally material will be read this way.** ally-lubin is the corpus's live relational object. The rule predicts that whatever reconstruction gets built there will be assembled from every independent channel available — messages, contact exports, third-party 
 - **[[wiki/mind/synthesis/dormancy-not-exit]]** — **The July 2026 "whatever goodbye annie" will not hold either.** The record ends mid-event on 2026-07-26 with that line unanswered. The rule predicts reactivation rather than a durable close, on the same grounds the June severance failed.
 - **[[wiki/mind/synthesis/dormancy-not-exit]]** — **Any person given a sustained role in this corpus has a post-role trace, and it can be found.** For every people/ page describing a relationship of more than a few months as "ended," there should be documented contact after the ending. This is checkable page 
@@ -301,7 +301,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (168)
+### people (169)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
@@ -313,6 +313,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/ally-lubin]]** — **Where did the December 6, 2018 conversation happen?** It is the origin of the modern relationship and is in no message corpus here — the iMessage record starts eleven days later. Instagram DM, Twitter DM, or Facebook Messenger on an account not in the takeou
 - **[[wiki/people/ally-lubin]]** — **Where did Dan first encounter her, if not AbsolutePunk?** He retracted the venue on 2026-08-18 and named Twitter as a guess. Overcast Kids, the Chris Miller orbit and Polyak are the named leads.
 - **[[wiki/people/ally-lubin]]** — **Did she reply to the elopement pitch?** It is unanswered in the captured record, but the capture breaks 96 minutes before it was sent.
+- **[[wiki/people/ally-lubin]]** — **Did she reply to the August 21, 2026 love letter?** No reply is in any source filed to this page.
 - **[[wiki/people/ally-lubin]]** — **Was the $2,100 accurate?** Dan showed her a screenshot he found convincing; she accepted it in 2019 and contests it in 2026. No financial export in `raw/` covers Cash App for 2019.
 - **[[wiki/people/ally-lubin]]** — **What was the "online shit" the spoofed number was used for?** Polyak's message is the only account and does not say. Dan never answers him, and in 2026 doubts the incident occurred at all.
 - **[[wiki/people/ally-lubin]]** — **Is she still alive and well?** Given the volume of documented suicidality in the 2019 material and her self-description in 2026, this is a question the wiki should not leave implicit.

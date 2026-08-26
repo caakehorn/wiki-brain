@@ -1,3 +1,28 @@
+## [2026-08-26] close | timeline/mind | estate-money-spine and fran-death-vigil integrated, cascades re-checked
+
+**Cleared `sage_pending` on `wiki/mind/synthesis/estate-money-spine.md`** — the
+spine had never carried an outcome measure against its own dated capital
+arrivals. Added "The outcome measure the spine never carried": Dan's own
+2018-04-08 prediction that the inheritance would make him "middle-class
+happy" runs opposite his first-person happiness-claim rate over the identical
+window, alongside health/cocaine's dosage arc rising on the same capital.
+Reciprocal edge written to `wiki/health/cocaine.md`.
+
+**Cleared `sage_pending` on `wiki/timeline/events/fran-death-vigil.md`** — the
+richest version of the "what would make Dan happy" finding: four dated
+statements of good outcome inside six days (2018-04-01 through 04-06),
+the corpus's only cluster of its kind, contrasted against the Annie
+relationship's ending, which produced none. Edges added to closing-the-set
+and attachment-model. Cascaded one level into `wiki/people/suzanne-frank.md`
+(unaffected, RE-CHECKED); two further stale warnings
+(attachment-trauma-bond, suzanne-frank-personality-assessment) left open —
+attachment-trauma-bond is itself a queued sage_pending page and will be
+re-checked when it is closed in this same pass.
+
+Regenerated DIGEST/RECENT/OPEN and `llm/` (freshness confirmed in sync);
+`bin/wiki-work scan` now reports **22 obligations** (down from 29 at session
+start). All three gates 0 errors.
+
 ## [2026-08-26] close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked
 
 **Cleared `sage_pending` on `wiki/mind/concepts/acquisition-drive.md`,

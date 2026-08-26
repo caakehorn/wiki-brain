@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -62,6 +62,11 @@ connections:
 ---
 
 # The Unpapered Address
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/synthesis/the-deferred-audit]] (2026-08-26), which gained a
+> re-check note only, confirming an unrelated single-channel addition doesn't
+> touch it. **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-23]:** flagged stale against
 > [[wiki/mind/synthesis/the-deferred-audit]] (2026-08-23), which gained a

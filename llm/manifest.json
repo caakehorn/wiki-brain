@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-23",
+ "generated": "2026-08-26",
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
@@ -17,7 +17,7 @@
    "title": "Cocaine",
    "summary": "Cocaine is the primary daily stimulant in Dan's engineered neurochemical system \u2014 the \"cognitive accelerant\" he has used, by his own account, for roughly twe...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/health/cocaine.txt",
-   "bytes": 25138
+   "bytes": 25176
   },
   {
    "page": "wiki/health/hyperreflexivity.md",
@@ -38,7 +38,7 @@
    "title": "The Configured Body",
    "summary": "Dan's relationship to his own body has exactly two modes, and no third. He **specifies the inputs** \u2014 with a rigour that is close to absolute, down to which ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/health/the-configured-body.txt",
-   "bytes": 24680
+   "bytes": 25257
   },
   {
    "page": "wiki/interests/concert-record/festivals/face2face-tour.md",
@@ -1074,7 +1074,7 @@
    "title": "The Acquisition Drive",
    "summary": "Once Dan Frank converts a want into a decided outcome, the pursuit of it runs to completion more or less independently of cost, risk, proportion or circumsta...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/acquisition-drive.txt",
-   "bytes": 17993
+   "bytes": 17635
   },
   {
    "page": "wiki/mind/concepts/attachment-model.md",
@@ -1340,7 +1340,7 @@
    "title": "The Alias Is a Clock, Not a Style",
    "summary": "Dan has released music under four names in thirteen years, and the renaming has never once corresponded to a change in the music. Across SLOPPP, MOGZART and ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/alias-as-periodization.txt",
-   "bytes": 12057
+   "bytes": 12443
   },
   {
    "page": "wiki/mind/synthesis/ancestral-dialectic.md",
@@ -1382,7 +1382,7 @@
    "title": "Closing the Set",
    "summary": "Dan does not have favourites. He has **open sets that he is closing**, and the record everyone has been reading as eclecticism is the log of that work. Acros...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/closing-the-set.txt",
-   "bytes": 25821
+   "bytes": 26971
   },
   {
    "page": "wiki/mind/synthesis/dan-annie-fallout-verdict.md",
@@ -1403,14 +1403,14 @@
    "title": "The Estate / Money Spine",
    "summary": "Money in this biography does not accumulate; it **arrives in lumps and exits through standing drains.** This page traces the capital timeline as a single cau...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/estate-money-spine.txt",
-   "bytes": 27954
+   "bytes": 28167
   },
   {
    "page": "wiki/mind/synthesis/failure-to-launch.md",
    "title": "Failure to Launch \u2014 The Capability Audit",
    "summary": "The question this page was asked is whether Dan is capable, what value he actually provides or could provide, and whether any of it is superlative against th...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/failure-to-launch.txt",
-   "bytes": 34190
+   "bytes": 34894
   },
   {
    "page": "wiki/mind/synthesis/fayette-return.md",
@@ -1487,7 +1487,7 @@
    "title": "The Single Channel",
    "summary": "Wherever a distributed architecture is available to him, Dan runs **one channel at maximum voltage instead**. This is not a description of his personality; i...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/single-channel.txt",
-   "bytes": 28930
+   "bytes": 29044
   },
   {
    "page": "wiki/mind/synthesis/spatial-behavior.md",
@@ -1522,21 +1522,21 @@
    "title": "The Deferred Audit",
    "summary": "Dan audits everything. What decides the outcome is not *whether* the audit runs \u2014 it always runs \u2014 but **when**, and the schedule is set by a single question...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-deferred-audit.txt",
-   "bytes": 35738
+   "bytes": 36148
   },
   {
    "page": "wiki/mind/synthesis/the-embedded-objective.md",
    "title": "The Embedded Objective",
    "summary": "**Dan has never sustained an assignment. He sustains a self-set objective he has embedded inside one.** Every long commitment in the corpus is a host structu...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-embedded-objective.txt",
-   "bytes": 23766
+   "bytes": 24840
   },
   {
    "page": "wiki/mind/synthesis/the-rescue-premise.md",
    "title": "The Rescue Premise \u2014 What Is Actually Different About the August 2026 Rupture",
    "summary": "Two separate claims sit inside the question this page was asked to answer, and only one of them survives the record. The first is that the rupture that ran f...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-rescue-premise.txt",
-   "bytes": 30428
+   "bytes": 30758
   },
   {
    "page": "wiki/mind/synthesis/the-unbroken-bond.md",
@@ -1550,7 +1550,7 @@
    "title": "Totality Themes",
    "summary": "**The single generative rule this page derives, stated in one sentence:** an action, object, or relationship is trusted, left alone, and allowed to run indef...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/totality-themes.txt",
-   "bytes": 68375
+   "bytes": 68814
   },
   {
    "page": "wiki/mind/synthesis/vertical-authority-skepticism.md",
@@ -1606,14 +1606,14 @@
    "title": "Ally Lubin \u2014 Cognitive Profile",
    "summary": "This page is the typology read on the woman at the centre of the longest attachment in the corpus, built from a tested instrument that arrived on 2026-08-22 ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/ally-lubin-cognitive-profile.txt",
-   "bytes": 34837
+   "bytes": 35347
   },
   {
    "page": "wiki/people/ally-lubin.md",
    "title": "Ally Lubin (Alexandra Lubin)",
    "summary": "Ally Lubin is a woman Dan has never met in person and has been in love with since roughly 2008 \u2014 the longest-running attachment in the corpus with no physica...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/ally-lubin.txt",
-   "bytes": 62772
+   "bytes": 58970
   },
   {
    "page": "wiki/people/anita.md",
@@ -2607,7 +2607,7 @@
    "title": "Suz (Suzanne Frank)",
    "summary": "Dan's mother, and the second-largest presence in the entire corpus: **33,698 messages across ten years and nine months**, behind only",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/suzanne-frank.txt",
-   "bytes": 65488
+   "bytes": 65956
   },
   {
    "page": "wiki/people/tan-calabrese.md",
@@ -2817,7 +2817,7 @@
    "title": "The Unpapered Address",
    "summary": "Across sixteen years and seven residences, **this corpus contains no lease, no rent figure recorded at the time, no signatory, and no security deposit for an...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/the-unpapered-address.txt",
-   "bytes": 25780
+   "bytes": 26037
   },
   {
    "page": "wiki/self/ancestry.md",
@@ -2901,14 +2901,14 @@
    "title": "Ally and Dan: Love as Destiny",
    "summary": "Alexandra Lubin and Daniel Frank have been circling each other for eighteen years, and in all that time neither of them has managed to stop. Not through her ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/concepts/ally-and-dan-love-as-destiny.txt",
-   "bytes": 18158
+   "bytes": 19214
   },
   {
    "page": "wiki/self/concepts/astrology-star-signs.md",
    "title": "Astrology: Star Signs of Dan's Inner Circle",
    "summary": "This entry documents the zodiac signs of the most frequent and highest-velocity contacts in Dan's life, as far as the corpus allows. The signs that exist are...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/concepts/astrology-star-signs.txt",
-   "bytes": 7911
+   "bytes": 8242
   },
   {
    "page": "wiki/self/concepts/chatgpt.md",
@@ -3181,7 +3181,7 @@
    "title": "The Fran Vigil (March\u2013April 2018)",
    "summary": "In spring 2018 Dan and [[wiki/people/annie-ulmer|Annie]] saw",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/fran-death-vigil.txt",
-   "bytes": 24682
+   "bytes": 24579
   },
   {
    "page": "wiki/timeline/events/franki-fireworks-day-2013.md",

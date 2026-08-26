@@ -1,11 +1,10 @@
 ---
-sage_pending: '2026-08-22'
 domain: mind
 page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -70,6 +69,9 @@ connections:
   - page: wiki/places/the-unpapered-address
     type: contains
     claim: "The capital timeline explains why the money was never there; the housing record adds that there is no document either, which is why the 2026 exposure has neither an absorber nor an instrument to argue from when it fails."
+  - page: wiki/health/cocaine
+    type: evidences
+    claim: "Dan's own 2018-04-08 prediction that the inheritance would make him 'middle-class happy' is falsified by his first-person happiness-claim rate over the same 2018-2020 window (0.87/0.34/0.41 per 1,000 against 7.86 in late 2015) — the identical capital that removed cocaine's price constraint and drove the dosage arc to 3.5-7g/day."
 ---
 
 # The Estate / Money Spine
@@ -303,6 +305,37 @@ family's largest asset liquidated into a tax debt. The record's own framing of t
 capital he does not hold — the same downstream position the spine
 documents from the beginning.
 
+## The outcome measure the spine never carried
+
+Every section above dates what arrived and traces where it went. None asks
+what the money *did*, and the corpus contains a clean natural experiment on
+exactly that question. Four days after Fran's funeral, Dan states the
+hypothesis himself:
+
+> **DAN (2018-04-08 09:41):** *"everything is going to get better now… we have
+> options for what to do and enough money to have a real chance at being
+> **middle-class happy**"*
+
+The inheritance arrives on schedule against that claim — planning in January
+2018, a first cheque April 27, the court-ordered $144,069.31 landing in 2020 —
+and across the same 2018–2020 window Dan's first-person happiness-claim rate
+over the canonical message dump runs **0.87, 0.34, 0.41 per 1,000 sent
+messages**, against **7.86** in late 2015. That is among the lowest sustained
+rate anywhere in the corpus, arriving precisely when the hypothesis predicted
+the opposite. Over the identical window, [[wiki/health/cocaine]]'s dosage arc
+rises from ~1g/day to 3.5–7g/day, attributed to the same capital removing the
+supply constraint.
+
+**The finding: the corpus ran the test this page's own numbers set up, and it
+ran the wrong way.** The spine is the only page positioned to carry this,
+because it is the only one holding both the dated capital arrivals and the
+explicit contemporaneous prediction of what they would fix. The pattern this
+page already documents — lumps arriving, metered drains, no holder position
+— now has a companion finding at the level of subjective outcome rather than
+account balance: the capital did not fail to reach him, as the drains
+sections show for every other transfer in the ledger. It reached him in full
+and changed the wrong variable.
+
 ## RE-CHECKED [2026-08-09]
 
 `bin/wiki-climb check` flagged this page as stale against
@@ -401,37 +434,3 @@ implicit premise that one node in this system had reserves. None did.
 > switchboard role — all money facts from 2023–2026. The correction introduces
 > no figure and moves no dated transaction. Closed unaffected.
 
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-22] — from the sage question `2026-08-22_005829_what-would-make-dan-happy`
-
-Answer and sources: `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`
-
-**The spine has an outcome measure available and does not use one.** The page
-dates the capital arrivals precisely — inheritance planning January 2018, a first
-cheque 2018-04-27, the court-ordered $144,069.31 in 2020 — and tracks where the
-money went. What it does not carry is what the money did. Dan states the
-hypothesis himself four days after the funeral:
-
-> **DAN (2018-04-08 09:41):** *"everything is going to get better now… we have
-> options for what to do and enough money to have a real chance at being
-> **middle-class happy**"*
-
-Across 2018–2020 his first-person happiness-claim rate over the canonical dump
-runs **0.87, 0.34, 0.41 per 1,000 sent messages**, against 7.86 in late 2015 —
-among the lowest in the corpus. Over the same window
-[[wiki/health/cocaine]] records the dosage arc rising from ~1g/day to 3.5–7g/day,
-attributed to the same inheritance.
-
-**The finding: the corpus contains a clean natural experiment on whether money
-would fix this, and it ran the wrong way.** The spine should carry it, because it
-is the only page positioned to.
