@@ -21,11 +21,11 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | | |
 |---|---|
-| Pages | 514 |
-| Pages touched in the last 14 days | 185 |
+| Pages | 515 |
+| Pages touched in the last 14 days | 186 |
 | Pages reasoning from other pages (`synthesizes:`) | 44 |
-| Live contradictions | 45 |
-| Open gaps | 461 |
+| Live contradictions | 46 |
+| Open gaps | 464 |
 | Standing predictions | 55 |
 
 ## By domain
@@ -34,7 +34,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 |---|---|
 | people | 174 |
 | interests | 143 |
-| mind | 73 |
+| mind | 74 |
 | timeline | 42 |
 | self | 40 |
 | work | 15 |
@@ -48,14 +48,15 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | Status | Pages |
 |---|---|
 | stable | 193 |
-| active | 178 |
+| active | 179 |
 | closed | 100 |
 | archived | 31 |
 | stub | 12 |
 
 ## The last few days
 
-**2026-08-26** — 72 pages
+**2026-08-26** — 77 pages
+  - ingest | mind | new page: Dan's Bespoke Lexicon — operator-supplied capture
   - ingest | self | inbox drained: duplicate manifest identified, personality-profile capture filed
   - ingest | mind | new page: autism/neurodivergence self-identification traced to its actual sourcing
   - feat | meta | domain: meta added — themed journeys (`page_type: journey`) and on-site mirrors of DIGEST/RECENT/OPEN
@@ -66,7 +67,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked
   - close | people | ally-lubin — the love letter and the mutual-correction finding integrated, three dependents re-checked
 
-**2026-08-23** — 22 pages
+**2026-08-23** — 19 pages
   - directive | people | the Annie record is closed — no further texts, no further narrative
   - lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
   - ingest | people | five new entries, and the Ulmer household turns out to be the corpus's largest blind spot
@@ -85,7 +86,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - climb | mind | three entries, and two of them answer a different question than the one asked
   - close | mind | two staged sage findings integrated on the pages this pass was already holding open
 
-**2026-08-21** — 7 pages
+**2026-08-21** — 6 pages
   - close+lint | all domains | two operator answers integrated; a false claim retracted and gated; staleness cleared to zero
   - rewrite | self | ally-and-dan-love-as-destiny — rebuilt as an argument, on verifiable evidence
   - lint | people | a portal save had deleted 56 typed-edge claims and 30KB of prose, and the gate that caught it went unread for a day

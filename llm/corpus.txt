@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-26
-514 pages, ~1,425,129 tokens.
+515 pages, ~1,428,734 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10271,11 +10271,11 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | | |
 |---|---|
-| Pages | 514 |
-| Pages touched in the last 14 days | 185 |
+| Pages | 515 |
+| Pages touched in the last 14 days | 186 |
 | Pages reasoning from other pages (`synthesizes:`) | 44 |
-| Live contradictions | 45 |
-| Open gaps | 461 |
+| Live contradictions | 46 |
+| Open gaps | 464 |
 | Standing predictions | 55 |
 
 ## By domain
@@ -10284,7 +10284,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 |---|---|
 | people | 174 |
 | interests | 143 |
-| mind | 73 |
+| mind | 74 |
 | timeline | 42 |
 | self | 40 |
 | work | 15 |
@@ -10298,14 +10298,15 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | Status | Pages |
 |---|---|
 | stable | 193 |
-| active | 178 |
+| active | 179 |
 | closed | 100 |
 | archived | 31 |
 | stub | 12 |
 
 ## The last few days
 
-**2026-08-26** — 72 pages
+**2026-08-26** — 77 pages
+  - ingest | mind | new page: Dan's Bespoke Lexicon — operator-supplied capture
   - ingest | self | inbox drained: duplicate manifest identified, personality-profile capture filed
   - ingest | mind | new page: autism/neurodivergence self-identification traced to its actual sourcing
   - feat | meta | domain: meta added — themed journeys (`page_type: journey`) and on-site mirrors of DIGEST/RECENT/OPEN
@@ -10316,7 +10317,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked
   - close | people | ally-lubin — the love letter and the mutual-correction finding integrated, three dependents re-checked
 
-**2026-08-23** — 22 pages
+**2026-08-23** — 19 pages
   - directive | people | the Annie record is closed — no further texts, no further narrative
   - lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
   - ingest | people | five new entries, and the Ulmer household turns out to be the corpus's largest blind spot
@@ -10335,7 +10336,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - climb | mind | three entries, and two of them answer a different question than the one asked
   - close | mind | two staged sage findings integrated on the pages this pass was already holding open
 
-**2026-08-21** — 7 pages
+**2026-08-21** — 6 pages
   - close+lint | all domains | two operator answers integrated; a false claim retracted and gated; staleness cleared to zero
   - rewrite | self | ally-and-dan-love-as-destiny — rebuilt as an argument, on verifiable evidence
   - lint | people | a portal save had deleted 56 typed-edge claims and 30KB of prose, and the gate that caught it went unread for a day
@@ -10855,8 +10856,8 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 45 |
-| Open gaps | 461 |
+| Live contradictions | 46 |
+| Open gaps | 464 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 55 |
 
@@ -10893,6 +10894,7 @@ somewhere and has not yet found out where.
 - **[[wiki/mind/profile/big-five-psychometrics]]** — acquisition-drive records the operator's own claim, offered with an explicit disclaimer against hyperbole, that his "resilience for the goal" sits at the 95th percentile or above — a persistence dimension that appears nowhere in the Big30 facet list and that the instrument does not test. If it is real, then a substanti
 - **[[wiki/mind/profile/enneagram-5w4]]** — Everything on this page descends from a commissioned instrument. The message corpus contains exactly one instance of Dan typing himself in his own words, quoting back a prompt he had written, on **2024-11-04**: *"vanessa is an xNFP 4w5 and **Dan is an INTP 5w6sx RLOEI** - compare them."* Not 5w4, and not RLUEI. The win
 - **[[wiki/mind/profile/texting-deviance-audit]]** — linguistic-profile records "Readability: post-graduate (16th grade+)" and "99th percentile for lexical diversity," both taken from the commissioned stylometric analyses. Recomputed directly from the corpus, his texting scores **Flesch-Kincaid 4.00** in 2026 (2.08 in 2015–19) and his type-token ratio in 2025–26 is **0.0
+- **[[wiki/mind/profile/voice-modes]]** — lexicon — a compliment-phrase generator built by Dan explicitly around Ally — is the opposite move. Categories I and II are sincere affection addressed directly to her, and the intellectualizing register is not suppressed to let sincerity stand; it is amplified to carry it ("she has rendered ordinary adjectives inadequ
 - **[[wiki/mind/synthesis/ancestral-dialectic]]** — fayette-return shows the return dynamic is fully documented within the paternal line alone, across four generations, so a two-line dialectic is not required to explain it and may be over-specified. Both G1 immigrants — David from Russia, Sadie from Austria — are on the Ashkenazi side; if one line reproduces the pattern
 - **[[wiki/mind/synthesis/august-grievance-verdict]]** — The Morgantown event page previously asserted, and this page assumed, that across the interrogation *"she never says yes."* At **04:43**, answering *"Yes or no?"*, Annie says ***"Yes, save it."*** Three seconds later Coles tells Dan ***"she's looking at me saying yeah, she don't want you to hear it."*** This is held op
 - **[[wiki/mind/synthesis/dormancy-not-exit]]** — block-unblock-loop scores Menore's February 2025 farewell as *"the record's only fully clean closure"* — its strongest non-Annie control for the rule that a block holds when no dependency flows. This page reads the same relationship as the corpus's best evidence that closures of exactly that shape are dormancies. Both 
@@ -11018,7 +11020,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/legal/2015-possession-arrest]]** — Whether the fines referenced in January and February 2016 belong to this case, to the Combos matter, or to both running concurrently is not determinable from the message record — the "combos are paid off" phrasing suggests at least some of that money was the t
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 
-### mind (134)
+### mind (137)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
 - **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
@@ -11047,6 +11049,9 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/concepts/the-handed-mirror]]** — **Does he predict the reaction in advance?** He had been told by the model, days before, that his text style *"is usually really poorly received in text"* — and proceeded. Whether he expected the rupture and sent it anyway, or genuinely did not see it coming, 
 - **[[wiki/mind/concepts/the-handed-mirror]]** — **The three-second tapbacks.** James objected to the file and to the Danielle copy essentially simultaneously. Which of the two actually did the damage is unrecoverable from the record and would sharpen the concept considerably.
 - **[[wiki/mind/politics/axioms]]** — This page reasons from a reading list and one self-authored system prompt, not from a direct first-person statement of political theory in Dan's own words explaining *why* he built the Cato identity or chose the Parenti book specifically — the inference that t
+- **[[wiki/mind/profile/lexicon]]** — **No usage evidence yet.** A targeted search of the general message corpus for several of the lexicon's most distinctive phrases — *resplendent*, *administratively*, *the tribunal*, *aesthetic felony*, *anomalous concentration* — returned no hits at the time t
+- **[[wiki/mind/profile/lexicon]]** — **No date or model identity on the generating session.** The capture gives no timestamp beyond when it was pasted into this wiki, and the generating AI's identity is not stated in the paste itself.
+- **[[wiki/mind/profile/lexicon]]** — **Whether earlier versions exist is unknown.** The "v1.0" label implies iteration or a planned v2; nothing in the corpus currently documents a prior version.
 - **[[wiki/mind/profile/neurodivergence]]** — **No clinical or diagnostic record exists anywhere in `raw/`.** There is no date of self-identification, no account of what prompted it, and no mention of a formal evaluation ever being sought. This is answerable by Dan directly in one paragraph — when the sel
 - **[[wiki/mind/profile/neurodivergence]]** — **No sensory, motor, or childhood-developmental evidence has been located.** The typical corroborating detail for a late self-identification — sensory sensitivities, special interests with the specific intensity/narrowness signature, childhood social difficult
 - **[[wiki/mind/profile/neurodivergence]]** — **No comorbidity discussion.** ADHD, commonly co-occurring with autism in adult self-identification, is not raised anywhere in the sources reviewed for this page. Not evidenced either way.
@@ -11504,7 +11509,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-26 — 72 pages
+## 2026-08-26 — 77 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11524,6 +11529,7 @@ simply listed.
 | [[wiki/mind/concepts/conflict-architecture]] | mind | _(carries a REVISED from 2026-07-18)_ |
 | [[wiki/mind/concepts/erotic-architecture]] | mind | — |
 | [[wiki/mind/concepts/exocortex]] | mind | — |
+| [[wiki/mind/concepts/forensic-method]] | mind | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/mind/concepts/the-cool-metric]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
 | [[wiki/mind/index]] | mind | — |
 | [[wiki/mind/politics/axioms]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
@@ -11531,9 +11537,12 @@ simply listed.
 | [[wiki/mind/profile/enneagram-5w4]] | mind | _(carries a CONTRADICTION from 2026-08-19)_ |
 | [[wiki/mind/profile/index]] | mind | — |
 | [[wiki/mind/profile/intp]] | mind | — |
+| [[wiki/mind/profile/lexicon]] | mind | — |
 | [[wiki/mind/profile/linguistic-profile]] | mind | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/mind/profile/neurodivergence]] | mind | — |
+| [[wiki/mind/profile/voice-modes]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/mind/psychosexual/arrangement-history]] | mind | _(carries a CORRECTED from 2026-08-20)_ |
+| [[wiki/mind/synthesis/ai-collaborative-analysis]] | mind | — |
 | [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — flagged stale against totality-themes (2026-08-26), which gained two RE-CHECKED notes confirming its own cited premises unaffected by the same day's acquisition-drive/embedded-objective additions. **N |
 | [[wiki/mind/synthesis/annual-volume-suz]] | mind | — |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-26), which gained a RE-CHECKED note confirming the fran-death-vigil closure-cluster finding doesn't touch its caregiving or estate material. **No claim on  |
@@ -11549,6 +11558,7 @@ simply listed.
 | [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] | mind | — |
 | [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] | mind | **RE-CHECKED** — flagged stale against august-grievance-verdict (2026-08-26), which gained a re-check note only, confirming an unrelated attachment-trauma-bond addition (the Ally symmetric-confession counterexample) d |
 | [[wiki/mind/synthesis/music-as-identity]] | mind | — |
+| [[wiki/mind/synthesis/read-receipt-forensics]] | mind | **RE-CHECKED** — forensic-method gained an `instance-of` edge into the new lexicon page — the same evidence-cite/ authority-invoke/render-a-finding machinery documented there for crisis analysis, observed r |
 | [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — flagged stale against totality-themes (2026-08-26), which gained a RE-CHECKED note confirming the same day's acquisition-drive/embedded-objective tenure-and-satisfaction additions do not touch anythin |
 | [[wiki/mind/synthesis/supply-network]] | mind | **RE-CHECKED** — flagged stale against menore (2026-08-26), which closed its last open gap: 2022's zero mentions are explained by the operator having a flip phone that year, not by a service break. This removes the on |
 | [[wiki/mind/synthesis/the-cato-seat]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
@@ -11581,20 +11591,17 @@ simply listed.
 | [[wiki/timeline/periods/2020-2021-market-era]] | timeline | **RE-CHECKED** — `bin/wiki-climb check` flagged this page stale against context-core, which moved on 2026-08-26. The premise did not move in substance — the only change on that page was one new `connections:` entry cr |
 | [[wiki/work/fastly-fsly]] | work | _(carries a RE-CHECKED from 2026-08-21)_ |
 
-## 2026-08-23 — 22 pages
+## 2026-08-23 — 19 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/interests/music/overview]] | interests | **CORRECTED** — This page has described the production domain as one that *"requires active build-out"* — framing the absence of release data as a documentation gap this wiki had not got to yet. failure-to-launch sea |
 | [[wiki/mind/concepts/attachment-model]] | mind | _(carries a GAP CLOSED from 2026-08-22)_ |
 | [[wiki/mind/concepts/calibrated-confidence]] | mind | **CORRECTED** — This page's measurement table gave **43 outbound instances against 2 inbound**, and **15 graded (non-endpoint) values against zero**. Re-derived from the on-disk CSVs — 98,228 deduped Dan-sent message |
-| [[wiki/mind/concepts/forensic-method]] | mind | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/mind/concepts/reassurance-architecture]] | mind | **REVISED** — The first version of this page assumed, from message-circadian-latency, that Dan was transmitting into a channel that answered slowly — *"broadcasting into a slow or silent void."* **That claim has si |
 | [[wiki/mind/profile/texting-deviance-audit]] | mind | _(carries a CONTRADICTION)_ |
-| [[wiki/mind/profile/voice-modes]] | mind | — |
 | [[wiki/mind/synthesis/fayette-return]] | mind | **RE-CHECKED** — flagged stale against rick-frank (2026-08-23), which gained an alias finding — *Ricky*, 66 further mentions across 2015–2020 — corroborating the 2026-08-11 retraction of that page's held-block reading |
 | [[wiki/mind/synthesis/message-circadian-latency]] | mind | **CORRECTED** — This section previously opened *"The headline: a 9× reply-latency asymmetry with Annie"* and concluded: *"Dan answers almost everyone within 1–5 minutes. The people he messages answer him on a complet |
-| [[wiki/mind/synthesis/read-receipt-forensics]] | mind | **RE-CHECKED** — forensic-method gained an `instance-of` edge on 2026-08-23 into texting-deviance-audit. No content this page depends on changed. The new instance does rhyme with this page's subject: the audi |
 | [[wiki/people/alice]] | people | — |
 | [[wiki/people/annie-ulmer]] | people | **CORRECTED** — The standing account of Annie's working life — sourced to `raw/self/dox-md/Honest assessment and value judgment analysis.md` and repeated downstream — is that she *"was fired in 2023 and spent a full  |
 | [[wiki/people/claire-ulmer]] | people | **GAP CLOSED** — This page previously read *"Claire has children — an unnamed niece and nephew."* **They are named.** Alice appears **66 times** between October 2023 and July 2025 and Otto **31 times** over the same s |
@@ -11620,11 +11627,10 @@ simply listed.
 | [[wiki/places/337-saratoga-drive]] | places | _(carries a REVISED from 2026-08-18)_ |
 | [[wiki/timeline/events/uniontown-hospital-vape-alarm]] | timeline | **GAP CLOSED** — This page asked, from its creation until now, *"Whether a summary offense was actually filed with a Fayette County magistrate, or whether the paperwork was an incident report a security guard describe |
 
-## 2026-08-21 — 7 pages
+## 2026-08-21 — 6 pages
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/mind/synthesis/ai-collaborative-analysis]] | mind | — |
 | [[wiki/people/emaly-minerd]] | people | — |
 | [[wiki/people/trinity-st-clair]] | people | — |
 | [[wiki/self/concepts/chatgpt]] | self | **GAP CLOSED** — The operator, T0: *"Read the old pre gpt5 threads to understand the lead up to the release."* This page was written on 2026-08-19 without them. Its `sources:` listed Gemini's activity log, two dox fil |
@@ -14408,7 +14414,7 @@ status: stable
 knowledge: mixed
 importance: high
 date_created: 2026-06-22
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -14494,6 +14500,9 @@ connections:
   - page: wiki/mind/profile/texting-deviance-audit
     type: instance-of
     claim: "The method turned on its own operator's self-report: Dan's stated model of his texting — fragmented speech-cadence, technical vocabulary, ten-paragraph walls — was tested against 217,573 records and two of its three claims were falsified, including by the control that killed the staccato hypothesis (his FIRST messages start lowercase at the same rate as his continuations, so the lowercase opener is habit, not fragmentation)."
+  - page: wiki/mind/profile/lexicon
+    type: instance-of
+    claim: "Cite the evidence, invoke an authority, render a finding is documented here as how he processes threat; the bespoke lexicon shows the identical three-step machinery run on a compliment — 'I have reviewed the available evidence and unfortunately you're gorgeous' is a forensic-method entry with the subject swapped, proof the apparatus is a general-purpose disposition rather than a crisis-specific tool."
 ---
 
 
@@ -15662,6 +15671,9 @@ connections:
   - page: wiki/people/ally-lubin
     type: evidenced-by
     claim: "The one documented case of Dan losing a round inside his own filter: the August 18, 2026 Skins exchange, where Ally claims the subcultural reference outright and he does not adjudicate — the metric's only recorded upper bound."
+  - page: wiki/mind/profile/lexicon
+    type: instance-of
+    claim: "Even the smallest unit of private speech gets engineered rather than said plainly — a twelve-category, deliberately-constructed compliment generator built so 'you're pretty' never has to be the un-curated, off-the-shelf version — the anti-normie commitment running on affection instead of music or politics."
 ---
 
 # The Cool Metric
@@ -16162,6 +16174,7 @@ authoritative factual spine remains [[wiki/self/context-core]].
 - [[wiki/mind/profile/linguistic-profile]] — voice fingerprint, "forensic intimacy" register, stylometrics, emotional tells.
 - [[wiki/mind/profile/texting-deviance-audit]] — turn-level measurement of how he texts: the STACKED-ESSAY mode, the 2025-26 escalation, the answer-rate cost.
 - [[wiki/mind/profile/neurodivergence]] — the self-identified-autism claim traced to its actual sourcing: three convergent AI-secondary documents, no clinical record, and his own question about whether the label is legitimate architecture or an excuse.
+- [[wiki/mind/profile/lexicon]] — a twelve-category compliment/affection phrase generator built around Ally: the forensic-intimacy register redeployed as flirtation rather than crisis analysis, and a documented complication of the voice-modes Affectionate/Playful split.
 
 ## concepts — mechanisms
 
@@ -17366,6 +17379,7 @@ deficit. Detail pages: [[wiki/mind/profile/intp]],
 | Voice modes | 8 trigger-activated states | Neutral/Playful/Affectionate/Irritated/Persuasive/Storytelling/Stressed/Reflective | [[wiki/mind/profile/voice-modes]] |
 | Psychosexual operating system | 96/100 deviance outlier | Orchestration over participation; total emotional imprinting; a decade of independently-corroborated practice | [[wiki/mind/psychosexual/index]] |
 | Neurodivergence | Self-identified autistic, no clinical record | The one row in this stack that is a claim, not an instrument result — three convergent AI-secondary documents, zero diagnostic process on file | [[wiki/mind/profile/neurodivergence]] |
+| Bespoke lexicon | Twelve-category compliment/affection generator | Forensic-intimacy register engineered on purpose and pointed at Ally rather than at crisis | [[wiki/mind/profile/lexicon]] |
 
 ## How to read the cluster
 
@@ -17603,6 +17617,144 @@ pre-date June 2026).
 
 
 ========================================================================
+PAGE: wiki/mind/profile/lexicon.md
+========================================================================
+
+---
+domain: mind
+page_type: profile
+title: "Dan's Bespoke Lexicon"
+aliases: ["the bespoke lexicon", "affection lexicon", "slang generator"]
+status: active
+date_created: 2026-08-26
+date_modified: 2026-08-26
+sources:
+  - raw/self/captures/2026-08-26_223221_dans-bespoke-lexicon-v1.md
+tags: [personality-profile, relationships]
+knowledge: mixed
+connections:
+  - page: wiki/mind/profile/linguistic-profile
+    type: instantiates
+    claim: "'Forensic intimacy' — the profile's name for clinical detachment fused with raw personal confession — is documented there as his register for crisis and self-analysis; this lexicon is the same register redeployed, deliberately and by design, as an affection-delivery mechanism rather than an analytical one."
+  - page: wiki/mind/concepts/forensic-method
+    type: instantiates
+    claim: "The procedural default — cite the evidence, invoke an authority, render a finding — is documented there as how he processes threat and anomaly; this lexicon shows the identical apparatus (tribunals, committees, historical records, evidentiary standards) repurposed wholesale for a compliment, with the mismatch between the machinery's weight and the triviality of what it is adjudicating supplying the humor."
+  - page: wiki/mind/profile/voice-modes
+    type: contradicts
+    claim: "That page states Affectionate mode suppresses 'cold, intellectualizing phrasing' so sincerity can stand uncushioned. This lexicon's Category I/II material — compliments to Ally rendered in maximally intellectualized, forensic-bureaucratic diction ('an unreasonable concentration of beauty,' 'the historical record will have questions') — is the opposite move: the intellectualizing register is not suppressed by affection, it is the vehicle for it."
+  - page: wiki/mind/concepts/the-cool-metric
+    type: parallels
+    claim: "Elevated, institutional, faux-official diction deployed for its own sake — an aesthetic commitment independent of literal content — is the same anti-normie taste-signaling the cool metric documents in music and politics, here run on the vocabulary of tribunals and quality-control committees instead."
+  - page: wiki/people/ally-lubin
+    type: evidences
+    claim: "The lexicon is built around her by name and by example ('the scientific community has classified Ally as an anomalous concentration of resplendence') — direct evidence of an active, deliberately-constructed private register for the relationship, distinct from and more baroque than anything documented for any other contact in the corpus."
+  - page: wiki/mind/synthesis/ai-collaborative-analysis
+    type: instance-of
+    claim: "A model was asked to formalize an already-observed pattern ('built around the pattern we've actually measured') into a combinatorial generator Dan can draw on indefinitely — the same commissioned-instrument relationship the AI-collaboration synthesis documents elsewhere, applied here to humor and affection rather than crisis analysis."
+---
+
+# Dan's Bespoke Lexicon
+
+A twelve-category phrase generator, built at Dan's request by an AI session
+and pasted into this wiki verbatim by operator instruction. It is not a
+corpus finding in the usual sense — nobody mined a message dump for it — but
+it is still primary evidence of something real: a private register,
+deliberately engineered and named ("v1.0," implying iteration), built almost
+entirely around [[wiki/people/ally-lubin|Ally]] and meant for active,
+repeated use rather than one-off cleverness. The generating session
+describes its own method precisely: **elevated register + semantic
+displacement + theatrical disproportion + deadpan authority + mythic/
+forensic weirdness** — official, evidentiary, tribunal-grade language applied
+to something that does not remotely warrant it, with the gap between the
+machinery's weight and the triviality of its subject supplying the joke.
+
+## What it actually is
+
+Twelve categories, each a closed vocabulary list plus example sentences,
+covering the full emotional range a couple's private idiom needs: beauty
+(I–II), enthusiasm (III), praise (IV), disgust (V), stupidity aimed outward
+and inward (VI–VII), absurdity (VIII), embarrassment (IX), affectionate
+insult (X), and — the two sections the source explicitly flags as the ones
+worth keeping — a "Mythological Engine" (XI) that manufactures evidence a
+thing has become legendary, and a "Core Slang Generator" (XII) that names
+the underlying combinatorial rule directly: **[Official authority] +
+[absurd claim]**. Pick an authority (historians, insurers, the tribunal, the
+scientific community, the bloodline) and a claim (has exceeded
+specifications, cannot be insured, has acquired legendary status,
+is not currently understood by science), and the generator produces a new
+sentence indefinitely without needing a new joke each time — "the scientific
+community has classified Ally as an anomalous concentration of resplendence"
+and "Lloyd's has declined to insure your face" are the source's own worked
+examples. This is a formula, not a list, which is exactly what the source
+means by "the part I'd actually keep."
+
+## What it reveals: the forensic register has two jobs, not one
+
+[[wiki/mind/profile/linguistic-profile]] names Dan's signature idiom
+**"forensic intimacy"** — clinical detachment fused with raw personal
+confession, present since 2009 and used across the corpus for crisis
+analysis, self-diagnosis, and adjudicating relationships. This lexicon is
+evidence the same apparatus has a second, previously undocumented job:
+[[wiki/mind/concepts/forensic-method]]'s procedural default — cite the
+evidence, invoke an authority, deliver a finding — is not reserved for
+threat and anomaly. It is the mechanism of the compliment. "I have reviewed
+the available evidence and unfortunately you're gorgeous" is structurally
+identical to a forensic-method entry: evidence reviewed, conclusion
+rendered, tone withheld — the only thing that has changed is the subject
+under investigation. The corpus elsewhere reads the forensic default as a
+survival tool turned inward on his own psyche
+([[wiki/mind/synthesis/ancestral-dialectic]]); here the same tool is turned
+outward, deliberately, as flirtation.
+
+**This complicates, rather than confirms, [[wiki/mind/profile/voice-modes]].**
+That page's Affectionate mode is described as a *drop* of the defensive
+front — sarcasm and "cold, intellectualizing phrasing" suppressed so
+sincerity can stand uncushioned. Categories I and II of this lexicon are
+addressed directly to Ally as sincere compliments, and they do the opposite:
+the intellectualizing register is not suppressed by the affection, it *is*
+the affection's container. "She has rendered ordinary adjectives inadequate"
+is not sincerity-with-the-armor-off; it is maximum armor, deployed in
+service of sincerity rather than against it. Read against Voice Modes'
+own description of Playful ("profanity here reads as affectionate, not
+harsh") this lexicon looks less like a violation of the Affectionate/Playful
+split and more like evidence the two fuse for this specific relationship:
+the deadpan-authority delivery is what makes the compliment land as
+*his* voice rather than a generic one, which is itself an intimacy move —
+performed sincerity as opposed to bare sincerity, and no less real for being
+performed. Category X ("Affectionate Insults") names this fusion directly:
+"the sweet spot where love + mock condemnation overlap."
+
+## The taste-signaling angle
+
+The elevated diction — *ontologically gorgeous*, *an affront to ordinary
+beauty*, *aesthetic felony*, *administratively difficult* — is not
+incidental to the joke; it is [[wiki/mind/concepts/the-cool-metric]]'s
+anti-normie aesthetic commitment running on a different vocabulary than
+usual. The cool metric documents Dan rejecting inherited, unexamined taste
+across music, politics, and media in favor of the deliberately constructed;
+this lexicon shows the identical move applied to the smallest unit of
+private speech — even "you're pretty" gets engineered rather than said
+plainly, because the plain version would be the "normie" one.
+
+## Gaps
+
+- **No usage evidence yet.** A targeted search of the general message
+  corpus for several of the lexicon's most distinctive phrases —
+  *resplendent*, *administratively*, *the tribunal*, *aesthetic felony*,
+  *anomalous concentration* — returned no hits at the time this page was
+  written. Consistent with "v1.0": this reads as a freshly commissioned tool
+  rather than a documented practice, and the page should be revisited once
+  (or if) deployment shows up in the record, to see whether the generator is
+  actually used or stays a one-time artifact.
+- **No date or model identity on the generating session.** The capture
+  gives no timestamp beyond when it was pasted into this wiki, and the
+  generating AI's identity is not stated in the paste itself.
+- **Whether earlier versions exist is unknown.** The "v1.0" label implies
+  iteration or a planned v2; nothing in the corpus currently documents a
+  prior version.
+
+
+========================================================================
 PAGE: wiki/mind/profile/linguistic-profile.md
 ========================================================================
 
@@ -17649,6 +17801,9 @@ connections:
   - page: wiki/mind/profile/neurodivergence
     type: parallels
     claim: "23,286 unique words in casual texting and 2,465 uses of 'because' read, in the corpus's own autism framing, as language reached for to think rather than to relate — the same stylometric extremes this page measures independently of that claim."
+  - page: wiki/mind/profile/lexicon
+    type: instance-of
+    claim: "The bespoke lexicon is 'forensic intimacy' engineered on purpose and pointed at affection rather than crisis — the same clinical-detachment-fused-with-confession register this page documents from the message corpus, now built forward as a reusable tool instead of measured backward as a pattern."
 ---
 
 # Linguistic Profile — Voice, Register, Stylometrics
@@ -18486,7 +18641,7 @@ title: "Voice Modes — Dan's Texting Register by Emotional State"
 aliases: ["mode activation", "composite voice model"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/google-drive-export/Composite Voice Model for Dan Frank.md
 related:
@@ -18504,6 +18659,9 @@ connections:
   - page: wiki/mind/profile/texting-deviance-audit
     type: parallels
     claim: "The eight emotional-state modes here and that page's seven countable structural turn-modes are orthogonal cuts of the same output; the structural taxonomy is the one with numbers on it, and it finds the Irritated mode's 'short and staccato, rapid bursts' description to be the NORM rather than the deviation — 8.5% of his 2026 turns against his interlocutors' 10.5%."
+  - page: wiki/mind/profile/lexicon
+    type: contradicts
+    claim: "This page states Affectionate mode suppresses cold, intellectualizing phrasing so sincerity can stand uncushioned; the bespoke lexicon's compliments to Ally do the opposite — maximally intellectualized, forensic-bureaucratic diction as the delivery mechanism for sincere affection, not a defense against it."
 ---
 
 # Voice Modes — Dan's Texting Register by Emotional State
@@ -18534,6 +18692,19 @@ endearment, explicit statements of care, longer messages that actually
 spell out feelings he'd otherwise hint at. Sarcasm and cold, intellectualizing
 phrasing are suppressed — sincerity is allowed to stand instead of being
 cushioned with a deflecting "lol."
+
+> **CONTRADICTION:** [[wiki/mind/profile/lexicon]] — a compliment-phrase
+> generator built by Dan explicitly around Ally — is the opposite move.
+> Categories I and II are sincere affection addressed directly to her, and
+> the intellectualizing register is not suppressed to let sincerity stand;
+> it is amplified to carry it ("she has rendered ordinary adjectives
+> inadequate," "an unreasonable concentration of beauty"). Read together
+> with this page's own Playful description ("profanity here reads as
+> affectionate, not harsh"), the more accurate model may be that Playful and
+> Affectionate fuse for this specific relationship rather than that
+> Affectionate strips the defenses Playful still wears — performed,
+> deadpan-authority sincerity rather than bare sincerity. Not resolved here;
+> see the lexicon page's own analysis.
 
 **Irritated** — frustration, disrespect, broken trust. Messages turn short
 and staccato, often arriving in rapid bursts; profanity escalates to convey
@@ -19851,7 +20022,7 @@ title: "AI Collaborative Analysis"
 tags: [ai-collaboration, forensic-analysis, personality-profile]
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-21
+date_modified: 2026-08-26
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini_00.md
@@ -19957,6 +20128,9 @@ connections:
   - page: wiki/work/tech/ai-video-essays
     type: instantiates
     claim: "Using an AI to stress-test his own hypothesis with real adoption data — and accepting the result flatly contradicted his premise — is a documented instance of the honesty-enforcement pattern applied to his own creative project, not just forensic or political material."
+  - page: wiki/mind/profile/lexicon
+    type: instantiates
+    claim: "A model asked to formalize an observed speech pattern into a standing, reusable generator — commissioned, named 'v1.0,' built for indefinite reuse — is the same apparatus this page documents for crisis and self-analysis, applied for the first time to humor and affection rather than threat."
 ---
 
 
@@ -27830,7 +28004,7 @@ title: "Read-Receipt Forensics — chat.db Metadata and Its Traps"
 aliases: ["read receipts", "date_read", "chat.db metadata"]
 tags: [forensic-analysis, digital-footprint]
 date_created: 2026-08-09
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources: []
 synthesizes:
   - wiki/mind/concepts/forensic-method
@@ -28061,6 +28235,13 @@ yet been audited; that audit is owed and is listed in `BACKLOG.md`.
 > *first* messages in a turn start lowercase at the same rate as his continuations, so
 > the lowercase opener is habit, not sentence-fragmentation. That is the same class of
 > check whose absence produced the four `chat.db` defects catalogued here.
+
+> **RE-CHECKED [2026-08-26] — premise moved by one typed edge, conclusion
+> unaffected.** [[wiki/mind/concepts/forensic-method]] gained an `instance-of` edge
+> into the new [[wiki/mind/profile/lexicon]] page — the same evidence-cite/
+> authority-invoke/render-a-finding machinery documented there for crisis analysis,
+> observed running on a compliment instead. Nothing about `chat.db` metadata
+> extraction is downstream of that finding.
 
 
 ========================================================================
@@ -35226,6 +35407,9 @@ connections:
   - page: wiki/timeline/periods/2018-deep-cycle
     type: component-of
     claim: "The tie is opened inside the deep cycle and shares its economics — a $25 finder's fee, a $250 Cash App gift and a Christmas present issued in the same December weeks Dan was running daily Cash App limits and declined payments."
+  - page: wiki/mind/profile/lexicon
+    type: evidenced-by
+    claim: "A twelve-category compliment-and-affection phrase generator, built around her by name and addressed to her specifically, is documented private-register evidence more elaborate and more deliberately engineered than anything recorded for any other contact in the corpus."
 ---
 
 # Ally Lubin (Alexandra Lubin)

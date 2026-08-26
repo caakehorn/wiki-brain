@@ -6,7 +6,7 @@ title: "AI Collaborative Analysis"
 tags: [ai-collaboration, forensic-analysis, personality-profile]
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-21
+date_modified: 2026-08-26
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini_00.md
@@ -112,6 +112,9 @@ connections:
   - page: wiki/work/tech/ai-video-essays
     type: instantiates
     claim: "Using an AI to stress-test his own hypothesis with real adoption data — and accepting the result flatly contradicted his premise — is a documented instance of the honesty-enforcement pattern applied to his own creative project, not just forensic or political material."
+  - page: wiki/mind/profile/lexicon
+    type: instantiates
+    claim: "A model asked to formalize an observed speech pattern into a standing, reusable generator — commissioned, named 'v1.0,' built for indefinite reuse — is the same apparatus this page documents for crisis and self-analysis, applied for the first time to humor and affection rather than threat."
 ---
 
 

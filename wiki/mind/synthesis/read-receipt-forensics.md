@@ -7,7 +7,7 @@ title: "Read-Receipt Forensics — chat.db Metadata and Its Traps"
 aliases: ["read receipts", "date_read", "chat.db metadata"]
 tags: [forensic-analysis, digital-footprint]
 date_created: 2026-08-09
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources: []
 synthesizes:
   - wiki/mind/concepts/forensic-method
@@ -238,3 +238,10 @@ yet been audited; that audit is owed and is listed in `BACKLOG.md`.
 > *first* messages in a turn start lowercase at the same rate as his continuations, so
 > the lowercase opener is habit, not sentence-fragmentation. That is the same class of
 > check whose absence produced the four `chat.db` defects catalogued here.
+
+> **RE-CHECKED [2026-08-26] — premise moved by one typed edge, conclusion
+> unaffected.** [[wiki/mind/concepts/forensic-method]] gained an `instance-of` edge
+> into the new [[wiki/mind/profile/lexicon]] page — the same evidence-cite/
+> authority-invoke/render-a-finding machinery documented there for crisis analysis,
+> observed running on a compliment instead. Nothing about `chat.db` metadata
+> extraction is downstream of that finding.

@@ -1,3 +1,49 @@
+## [2026-08-26] ingest | mind | new page: Dan's Bespoke Lexicon — operator-supplied capture
+
+Operator directive mid-session, delivered by paste rather than a file:
+"Add this into the wiki as its own entry and analyze it." The pasted
+material — "Dan's Bespoke Lexicon — v1.0," a twelve-category compliment/
+affection phrase generator built by an AI session and centered on
+[[wiki/people/ally-lubin]] by name — was filed verbatim to
+`raw/self/captures/2026-08-26_223221_dans-bespoke-lexicon-v1.md` before
+synthesis, per the standard capture protocol. New page:
+`wiki/mind/profile/lexicon.md`.
+
+**The analysis, not just the transcription.** The generator's own stated
+method — elevated/institutional register applied to trivial subject matter
+for the mismatch's comic effect — turns out to be the same machinery
+`wiki/mind/concepts/forensic-method.md` documents for crisis analysis and
+`wiki/mind/profile/linguistic-profile.md` names "forensic intimacy,"
+redeployed for the first documented time as an affection-delivery mechanism
+rather than an analytical one. Cross-checked against a handful of the
+lexicon's most distinctive phrases in the general message corpus — no hits
+at time of writing, so the page's Gaps section records this as an
+undeployed "v1.0" tool rather than a documented practice, not silently
+assumed to already be in active use.
+
+**A genuine complication of `wiki/mind/profile/voice-modes.md`, flagged
+properly.** That page states Affectionate mode suppresses "cold,
+intellectualizing phrasing" so sincerity can stand uncushioned; this
+lexicon's sincere compliments to Ally do the opposite — the
+intellectualizing register is the delivery vehicle for the affection, not
+suppressed by it. Added a `> **CONTRADICTION:**` block on voice-modes.md
+itself (not just a frontmatter edge) rather than silently harmonizing the
+two pages, per `STYLE_GUIDE.md` rule 9.
+
+**Write-back.** Inverse `connections:` edges added on the six pages this
+draws on (`linguistic-profile`, `forensic-method`, `voice-modes`,
+`the-cool-metric`, `ai-collaborative-analysis`, `ally-lubin`), each stating
+the finding itself rather than pointing at it. Bumping `forensic-method.md`
+flagged `read-receipt-forensics.md` stale; re-checked (the new edge doesn't
+touch anything that page reasons from) and closed with a dated
+`RE-CHECKED` note, continuing that page's own established pattern of
+recording every premise check rather than silently re-dating.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check`, `bin/wiki-climb check`, `bin/wiki-freshness` all
+clean; 125 unit tests pass; `bin/wiki-work scan` 0 obligations.
+`bin/wiki-digest` + `bin/llm-publish` regenerated.
+
 ## [2026-08-26] ingest | self | inbox drained: duplicate manifest identified, personality-profile capture filed
 
 Two of the three inbox items resolved (third, ANCESTRY_DNA.txt, is the next

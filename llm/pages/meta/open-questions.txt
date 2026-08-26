@@ -23,8 +23,8 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 45 |
-| Open gaps | 461 |
+| Live contradictions | 46 |
+| Open gaps | 464 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 55 |
 
@@ -61,6 +61,7 @@ somewhere and has not yet found out where.
 - **[[wiki/mind/profile/big-five-psychometrics]]** — acquisition-drive records the operator's own claim, offered with an explicit disclaimer against hyperbole, that his "resilience for the goal" sits at the 95th percentile or above — a persistence dimension that appears nowhere in the Big30 facet list and that the instrument does not test. If it is real, then a substanti
 - **[[wiki/mind/profile/enneagram-5w4]]** — Everything on this page descends from a commissioned instrument. The message corpus contains exactly one instance of Dan typing himself in his own words, quoting back a prompt he had written, on **2024-11-04**: *"vanessa is an xNFP 4w5 and **Dan is an INTP 5w6sx RLOEI** - compare them."* Not 5w4, and not RLUEI. The win
 - **[[wiki/mind/profile/texting-deviance-audit]]** — linguistic-profile records "Readability: post-graduate (16th grade+)" and "99th percentile for lexical diversity," both taken from the commissioned stylometric analyses. Recomputed directly from the corpus, his texting scores **Flesch-Kincaid 4.00** in 2026 (2.08 in 2015–19) and his type-token ratio in 2025–26 is **0.0
+- **[[wiki/mind/profile/voice-modes]]** — lexicon — a compliment-phrase generator built by Dan explicitly around Ally — is the opposite move. Categories I and II are sincere affection addressed directly to her, and the intellectualizing register is not suppressed to let sincerity stand; it is amplified to carry it ("she has rendered ordinary adjectives inadequ
 - **[[wiki/mind/synthesis/ancestral-dialectic]]** — fayette-return shows the return dynamic is fully documented within the paternal line alone, across four generations, so a two-line dialectic is not required to explain it and may be over-specified. Both G1 immigrants — David from Russia, Sadie from Austria — are on the Ashkenazi side; if one line reproduces the pattern
 - **[[wiki/mind/synthesis/august-grievance-verdict]]** — The Morgantown event page previously asserted, and this page assumed, that across the interrogation *"she never says yes."* At **04:43**, answering *"Yes or no?"*, Annie says ***"Yes, save it."*** Three seconds later Coles tells Dan ***"she's looking at me saying yeah, she don't want you to hear it."*** This is held op
 - **[[wiki/mind/synthesis/dormancy-not-exit]]** — block-unblock-loop scores Menore's February 2025 farewell as *"the record's only fully clean closure"* — its strongest non-Annie control for the rule that a block holds when no dependency flows. This page reads the same relationship as the corpus's best evidence that closures of exactly that shape are dormancies. Both 
@@ -186,7 +187,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/legal/2015-possession-arrest]]** — Whether the fines referenced in January and February 2016 belong to this case, to the Combos matter, or to both running concurrently is not determinable from the message record — the "combos are paid off" phrasing suggests at least some of that money was the t
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 
-### mind (134)
+### mind (137)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
 - **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
@@ -215,6 +216,9 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/concepts/the-handed-mirror]]** — **Does he predict the reaction in advance?** He had been told by the model, days before, that his text style *"is usually really poorly received in text"* — and proceeded. Whether he expected the rupture and sent it anyway, or genuinely did not see it coming, 
 - **[[wiki/mind/concepts/the-handed-mirror]]** — **The three-second tapbacks.** James objected to the file and to the Danielle copy essentially simultaneously. Which of the two actually did the damage is unrecoverable from the record and would sharpen the concept considerably.
 - **[[wiki/mind/politics/axioms]]** — This page reasons from a reading list and one self-authored system prompt, not from a direct first-person statement of political theory in Dan's own words explaining *why* he built the Cato identity or chose the Parenti book specifically — the inference that t
+- **[[wiki/mind/profile/lexicon]]** — **No usage evidence yet.** A targeted search of the general message corpus for several of the lexicon's most distinctive phrases — *resplendent*, *administratively*, *the tribunal*, *aesthetic felony*, *anomalous concentration* — returned no hits at the time t
+- **[[wiki/mind/profile/lexicon]]** — **No date or model identity on the generating session.** The capture gives no timestamp beyond when it was pasted into this wiki, and the generating AI's identity is not stated in the paste itself.
+- **[[wiki/mind/profile/lexicon]]** — **Whether earlier versions exist is unknown.** The "v1.0" label implies iteration or a planned v2; nothing in the corpus currently documents a prior version.
 - **[[wiki/mind/profile/neurodivergence]]** — **No clinical or diagnostic record exists anywhere in `raw/`.** There is no date of self-identification, no account of what prompted it, and no mention of a formal evaluation ever being sought. This is answerable by Dan directly in one paragraph — when the sel
 - **[[wiki/mind/profile/neurodivergence]]** — **No sensory, motor, or childhood-developmental evidence has been located.** The typical corroborating detail for a late self-identification — sensory sensitivities, special interests with the specific intensity/narrowness signature, childhood social difficult
 - **[[wiki/mind/profile/neurodivergence]]** — **No comorbidity discussion.** ADHD, commonly co-occurring with autism in adult self-identification, is not raised anywhere in the sources reviewed for this page. Not evidenced either way.

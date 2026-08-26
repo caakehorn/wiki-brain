@@ -41,6 +41,9 @@ connections:
   - page: wiki/mind/profile/neurodivergence
     type: parallels
     claim: "23,286 unique words in casual texting and 2,465 uses of 'because' read, in the corpus's own autism framing, as language reached for to think rather than to relate — the same stylometric extremes this page measures independently of that claim."
+  - page: wiki/mind/profile/lexicon
+    type: instance-of
+    claim: "The bespoke lexicon is 'forensic intimacy' engineered on purpose and pointed at affection rather than crisis — the same clinical-detachment-fused-with-confession register this page documents from the message corpus, now built forward as a reusable tool instead of measured backward as a pattern."
 ---
 
 # Linguistic Profile — Voice, Register, Stylometrics
