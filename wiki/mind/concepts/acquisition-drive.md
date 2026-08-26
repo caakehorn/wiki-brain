@@ -1,5 +1,4 @@
 ---
-sage_pending: '2026-08-22'
 domain: mind
 page_type: concept
 title: "The Acquisition Drive"
@@ -8,7 +7,7 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-11
+date_modified: 2026-08-26
 sources:
   - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
   - raw/legal/captures/2026-08-02_200741_the-arrest-the-real-one.md
@@ -58,6 +57,9 @@ connections:
   - page: wiki/health/cocaine
     type: evidences
     claim: "The cocaine supply chain is the material expression of the acquisition drive — a daily dependency that cannot be left to one supplier, which is why the network persists across every era while its individual nodes rotate constantly."
+  - page: wiki/mind/synthesis/closing-the-set
+    type: evidences
+    claim: "Dan's only documented positive self-report for something he did rather than had — the Fran vigil's 'got good closure and finally did something in my life that wasn't completely selfish' — reframes this page's payoff condition as closure rather than completion, which is the premise closing-the-set starts from."
 ---
 
 # The Acquisition Drive
@@ -211,6 +213,33 @@ be found if one exists.
 > claim plus the event record above; the evidence for the first is a scored
 > instrument. Neither is discarded here.
 
+## The payoff condition: closure, not completion
+
+The Fran vigil has a verdict from Dan himself that the section above never
+quoted. Four days after the funeral, unprompted, to a third party:
+
+> **DAN (2018-04-06 17:55, to 4137703708):** *"she was a trip dude but i spent
+> the past 6 months looking after her full time ($15 an hour to play video
+> games with gram is a good deal) and we had a lot of fun. got good closure and
+> finally did something in my life that wasn't completely selfish haha"*
+
+A `bin/mine-messages` sweep of all 106,629 sent messages finds no second
+instance of Dan reporting a good outcome from something he *did* — every other
+positive self-report in the corpus is attributed to a person or thing he *had*.
+That makes this sentence the drive's only documented success condition stated
+in his own voice, and it names three things at once: fun, **closure**, and
+usefulness to someone else.
+
+This narrows the claim rather than restoring it. "Runs to completion more or
+less independently of cost" is not what the vigil sentence describes — it
+describes an ending that felt resolved. That is a narrower and more testable
+condition than completion, and it is consistent with the second correction
+above rather than in tension with it: MNEME, the DANMODEL evaluation and the
+video essays were all self-set and none of them stalled for lack of
+determination — they stalled because none of them had a defined endpoint to
+close against. [[wiki/mind/synthesis/closing-the-set]] takes this as its
+starting premise.
+
 ## Gaps
 
 The ATM-card episode has no date, no amount, no duration and no corroboration
@@ -227,42 +256,3 @@ supply. And the claim that the drive was "honed" into a productive form is
 asserted rather than dated: the corpus can show productive outputs after
 roughly 2020, but not that anything about the trait itself changed rather
 than its targets.
-
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-22] — from the sage question `2026-08-22_005829_what-would-make-dan-happy`
-
-Answer and sources: `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`
-
-**The Fran vigil has a contemporaneous verdict from Dan and this page does not
-carry it.** The page reads the vigil as the completion drive pointed at a
-self-generated goal, and uses it to argue altruism was never the operative
-variable. Four days after the funeral Dan describes the same six months to a
-third party, unprompted:
-
-> **DAN (2018-04-06 17:55, to 4137703708):** *"she was a trip dude but i spent the
-> past 6 months looking after her full time ($15 an hour to play video games with
-> gram is a good deal) and we had a lot of fun. got good closure and finally did
-> something in my life that wasn't completely selfish haha"*
-
-**A `bin/mine-messages` sweep of all 106,629 sent messages finds no second
-instance of Dan reporting a good outcome from something he *did*** — every other
-positive self-report in the corpus is attributed to a person he *had*. That makes
-this sentence the drive's only documented success condition stated in his own
-voice, and it names three things at once: fun, **closure**, and usefulness to
-someone else.
-
-**The finding for this page: the drive's payoff condition is closure, not
-completion.** That is a narrower claim than "runs to completion independently of
-cost," and it is compatible with the correction already carried above — MNEME,
-DANMODEL and the video essays were all self-set and unfinished, and all three are
-open-ended. See [[wiki/mind/synthesis/closing-the-set]].
