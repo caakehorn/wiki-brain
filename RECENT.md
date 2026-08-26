@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-26 — 40 pages
+## 2026-08-26 — 42 pages
 
 - **Session log:** close | mind | attachment-trauma-bond — the Ally channel as a control case, cascade re-checked three levels deep
 - **Session log:** close | timeline/mind | estate-money-spine and fran-death-vigil integrated, cascades re-checked
@@ -49,8 +49,10 @@ simply listed.
 | [[wiki/mind/synthesis/the-rescue-premise]] | mind | **RE-CHECKED** — flagged stale against ally-lubin-cognitive-profile (2026-08-26), which added only a re-check note confirming its own parity finding unchanged. **No claim on this page is affected** — the money/volume/ |
 | [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **RE-CHECKED** — flagged stale against chaos-preference (2026-08-26), which added a section on the-cool-metric's one documented upper bound (an Ally exchange) and removed its own `sage_pending` staging. Ne |
 | [[wiki/mind/synthesis/totality-themes]] | mind | **RE-CHECKED** — flagged stale against the-embedded-objective and acquisition-drive (both 2026-08-26), which added a tenure-versus-satisfaction distinction built on the Fran vigil and left the MNEME/DAN |
+| [[wiki/people/alexis-armel]] | people | _(carries a CORRECTED from 2026-08-15)_ |
 | [[wiki/people/ally-lubin]] | people | _(carries a CORRECTED from 2026-08-22)_ |
 | [[wiki/people/ally-lubin-cognitive-profile]] | people | **RE-CHECKED** — flagged stale against ally-lubin (2026-08-26), which integrated its own staged love letter and sage-finding blocks. Both are already load-bearing on this page — the love letter's trend spotting line i |
+| [[wiki/people/annie-ulmer-personality-assessment]] | people | _(carries a RE-CHECKED from 2026-08-23)_ |
 | [[wiki/people/suzanne-frank]] | people | **RE-CHECKED** — flagged stale against fran-death-vigil (2026-08-26), which added the closure-cluster finding (four dated good-outcome statements in six days) and new typed edges to closing-the-set and attachment-mode |
 | [[wiki/people/suzanne-frank-personality-assessment]] | people | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-26), which gained a `RE-CHECKED` blockquote confirming the fran-death-vigil closure-cluster finding doesn't touch her caregiving or estate material. **No c |
 | [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — flagged stale against the-deferred-audit (2026-08-26), which gained a re-check note only, confirming an unrelated single-channel addition doesn't touch it. **No claim on this page is affected.** **RE- |
@@ -58,7 +60,7 @@ simply listed.
 | [[wiki/self/concepts/astrology-star-signs]] | self | **RE-CHECKED** — flagged stale again against ally-lubin (2026-08-26), which integrated a staged love letter and a sage finding about a mutual-correction sequence and a joke line ("I'm a SINGLE MOTHER"). None of the th |
 | [[wiki/timeline/events/fran-death-vigil]] | timeline | _(carries a CORRECTED from 2026-08-18)_ |
 
-## 2026-08-23 — 26 pages
+## 2026-08-23 — 25 pages
 
 - **Session log:** directive | people | the Annie record is closed — no further texts, no further narrative
 - **Session log:** lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
@@ -82,7 +84,6 @@ simply listed.
 | [[wiki/mind/synthesis/supply-network]] | mind | **RE-CHECKED** — flagged stale against annie-ulmer (2026-08-23), which gained a section on her 2024 employment (libby) and on unpaid childcare. **No supply figure, route, counterparty or date on that page changed**, a |
 | [[wiki/people/alice]] | people | — |
 | [[wiki/people/annie-ulmer]] | people | **CORRECTED** — The standing account of Annie's working life — sourced to `raw/self/dox-md/Honest assessment and value judgment analysis.md` and repeated downstream — is that she *"was fired in 2023 and spent a full  |
-| [[wiki/people/annie-ulmer-personality-assessment]] | people | **RE-CHECKED** — Flagged stale against annie-ulmer (2026-08-23), which gained a section establishing that Annie worked two jobs through most of 2024, including sustained paid care for an elderly woman (libby), and pro |
 | [[wiki/people/claire-ulmer]] | people | **GAP CLOSED** — This page previously read *"Claire has children — an unnamed niece and nephew."* **They are named.** Alice appears **66 times** between October 2023 and July 2025 and Otto **31 times** over the same s |
 | [[wiki/people/garrett]] | people | — |
 | [[wiki/people/index]] | people | — |
@@ -217,7 +218,7 @@ simply listed.
 | [[wiki/self/context-core]] | self | _(carries a CORRECTED)_ |
 | [[wiki/self/youtube-watch-history]] | self | _(carries a REVISED from 2026-07-20)_ |
 
-## 2026-08-18 — 19 pages
+## 2026-08-18 — 18 pages
 
 - **Session log:** rewrite | people | suzanne-frank — the wiki had the family's money flowing the wrong way, and the mother's thread undercounted fourteenfold
 - **Session log:** ingest | people/mind/timeline | raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania .md + Gemini-_21.md + message corpus
@@ -231,7 +232,6 @@ simply listed.
 | [[wiki/interests/index]] | interests | — |
 | [[wiki/interests/music/concepts/lyrics-as-timbre]] | interests | — |
 | [[wiki/interests/rock-irrelevance-thesis]] | interests | — |
-| [[wiki/people/alexis-armel]] | people | _(carries a CORRECTED from 2026-08-15)_ |
 | [[wiki/people/danielle-onesi]] | people | **CORRECTED** — this paragraph had the identification right and the wiki did not act on it. A separate entity page, `wiki/people/max-danielle-bf`, was created in June 2026 for the same man under the name "Max" — read |
 | [[wiki/people/dave-moore]] | people | — |
 | [[wiki/people/diane-moore]] | people | **CORRECTED** — This page previously titled her *"Diane (Rebecca Diane Van Voorhis Shrum)"* and stated outright that the surname was *"given here as Shrum on the strength of the documented marriage rather than a reco |

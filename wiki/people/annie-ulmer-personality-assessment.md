@@ -1,5 +1,4 @@
 ---
-sage_pending: '2026-08-21'
 domain: people
 page_type: profile
 title: "Annie Ulmer — Forensic Personality Assessment"
@@ -7,7 +6,7 @@ aliases: ["Annie MBTI", "Annie Enneagram", "Annie personality type"]
 status: active
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 importance: high
 tags: [personality-profile, forensic-analysis, ai-collaboration]
 infobox:
@@ -25,6 +24,9 @@ connections:
   - page: wiki/people/annie-ulmer
     type: instantiates
     claim: "The forensic assessment of Annie's MBTI and Enneagram types is based on behavioral evidence from her 126,683-message corpus."
+  - page: wiki/people/suzanne-frank-personality-assessment
+    type: parallels
+    claim: "The only other page in wiki/people/ written to a stated-confidence, alternatives-ranked standard — which is what let this page correct a fabricated ISFJ claim by being checkable rather than merely asserted."
 ---
 
 # Annie Ulmer — Forensic Personality Assessment
@@ -371,6 +373,25 @@ The evidence weakly suggests a 7-4-8 trifix for Annie:
 
 **Alternative: 7-3-8** is possible if her escort work and image management are interpreted as 3-style adaptability rather than 4-style authenticity-seeking. The evidence is insufficient to strongly distinguish.
 
+### The format is the reason this page could correct an error
+
+On 2026-08-21 a sage answer assigned Annie the type **ISFJ** in its first
+draft and reasoned from it. This page's own determination — **ESFP**, argued
+explicitly against ENFP on the Sensing/Intuition axis, with a stated
+confidence level and a list of surviving alternatives — is what let the
+error get caught by reading rather than by guessing. The same answer's other
+three type claims were not so lucky: Dan's own type was given as ENFP (he
+types INTP, [[wiki/mind/profile/intp]]), an invented ISFJ code was attached
+to Alexis (no assessment page existed for her at the time), and Katie
+Fletcher was given ENFP (her page carries no type at all). **An assessment that does not
+publish its own alternatives cannot refute anything, and a type code filed
+on somebody else's page cannot be found** — Alexis's own INFP/ISFP reading
+sat on [[wiki/people/franki-faris]] rather than
+[[wiki/people/alexis-armel]] until this same pass moved it. Exactly two
+pages in `wiki/people/` are written to the standard this page sets — this
+one and [[wiki/people/suzanne-frank-personality-assessment]] — and both
+belong to people around Dan rather than to Dan himself.
+
 ### Future Research Directions
 
 1. **Annie's own self-assessment:** If Annie ever takes an MBTI or Enneagram test and shares the result, this assessment should be updated accordingly.
@@ -378,39 +399,3 @@ The evidence weakly suggests a 7-4-8 trifix for Annie:
 3. **Additional conversational partners:** More data from Annie's interactions with people other than Dan (her mother, her sister, her coworkers) would provide additional evidence.
 4. **Longitudinal analysis:** As new messages enter the corpus, the assessment should be re-evaluated to determine whether the type holds across time and context.
 
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
-
-Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
-
-**This page was used to kill a fabricated claim, which is the best evidence that
-it should exist.** An answer published through the portal on 2026-08-21 assigned
-her the **ISFJ** type in its first version and reasoned from it. This page's
-assessment is **ESFP**, argued explicitly against ENFP on the Sensing/Intuition
-axis, and the error was caught by reading it. Three of the four types that answer
-reasoned from were invented — Dan's ENFP (he types **INTP**,
-[[wiki/mind/profile/intp]]), Alexis's ISFJ (no assessment exists) and Katie
-Fletcher's ENFP (her page carries no type). **What this page has and the others
-do not is the property that made it usable: a stated confidence level and a list
-of surviving alternatives** — *"Evidence favors ESFP but meaningful alternatives
-remain (ESTP, ENFP)"* — which is why a model checking against it got corrected
-rather than confirmed. The finding worth staging is that **two** pages in
-`wiki/people/` are written to that standard — this one and
-`suzanne-frank-personality-assessment` (*"Confidence: MODERATE"*, with
-contrastive testing against the strongest alternatives) — and that both are about
-people around Dan. The type codes attached to everyone else in the corpus are
-scattered across pages that are about something else: Alexis's INFP/ISFP is on
-[[wiki/people/franki-faris]], Dan's earliest INTP is on
-[[wiki/people/elizabeth-eleanor]]. **An assessment that does not publish its own
-alternatives cannot refute anything, and a type code filed on somebody else's
-page cannot be found.** Both failure modes were demonstrated on 2026-08-21.

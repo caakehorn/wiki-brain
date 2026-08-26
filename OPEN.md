@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 45 |
-| Open gaps | 453 |
+| Open gaps | 454 |
 | Answered, awaiting ingest | 1 |
 | Standing predictions | 55 |
 
@@ -303,9 +303,10 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (168)
+### people (169)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
+- **[[wiki/people/alexis-armel]]** — **The `known_for` line is now quoted outside the wiki, and the page owes it a harder look.** *"The six-year relationship that occupied the attachment slot without ever activating it"* was cited in a sage answer published 2026-08-21 as evidence that stability w
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
 - **[[wiki/people/alice]]** — 1. **Surname.** Claire's married name is nowhere in the corpus, so this page is filed under a single name. One sentence from the operator resolves Alice, Otto, Waylon and Claire together.
 - **[[wiki/people/alice]]** — 2. **Exact birth date.** Inferred as ~2019–2020 from a single retrospective remark. A birthday message would fix it.

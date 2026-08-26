@@ -17,7 +17,7 @@ this is the state of the thing.
 | Pages touched in the last 14 days | 169 |
 | Pages reasoning from other pages (`synthesizes:`) | 43 |
 | Live contradictions | 45 |
-| Open gaps | 453 |
+| Open gaps | 454 |
 | Standing predictions | 55 |
 
 ## By domain
@@ -46,13 +46,13 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-26** — 40 pages
+**2026-08-26** — 42 pages
   - close | mind | attachment-trauma-bond — the Ally channel as a control case, cascade re-checked three levels deep
   - close | timeline/mind | estate-money-spine and fran-death-vigil integrated, cascades re-checked
   - close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked
   - close | people | ally-lubin — the love letter and the mutual-correction finding integrated, three dependents re-checked
 
-**2026-08-23** — 26 pages
+**2026-08-23** — 25 pages
   - directive | people | the Annie record is closed — no further texts, no further narrative
   - lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
   - ingest | people | five new entries, and the Ulmer household turns out to be the corpus's largest blind spot
