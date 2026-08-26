@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -184,6 +184,14 @@ connections:
 > 2026-08-20 re-check above, which already established that this page uses the
 > loop's pattern rather than its tallies.
 
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/synthesis/the-embedded-objective]] and
+> [[wiki/mind/concepts/acquisition-drive]] (both 2026-08-26), which added a
+> tenure-versus-satisfaction distinction built on the Fran vigil and left the
+> MNEME/DANMODEL/video-essay self-origination record — the material "The
+> Irreversibility Firewall" below reasons from — untouched. **No claim on this
+> page is affected.**
 
 > **RETIRED 2026-08-11 — the original "themed summary" spine, kept for
 > history.** Everything from here through the old "## Conclusion" heading

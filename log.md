@@ -1,3 +1,38 @@
+## [2026-08-26] close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked
+
+**Cleared `sage_pending` on `wiki/mind/concepts/acquisition-drive.md`,
+`wiki/mind/synthesis/closing-the-set.md`, `wiki/mind/synthesis/the-embedded-objective.md`
+and `wiki/health/cocaine.md`** — four separate findings all produced by the
+same sage answer (`2026-08-22_005829_what-would-make-dan-happy`), each landing
+somewhere different: acquisition-drive's payoff condition narrows from
+completion to **closure**, on the strength of Dan's only documented
+first-person good-outcome report (the Fran vigil, "got good closure and
+finally did something in my life that wasn't completely selfish," 2018-04-06);
+closing-the-set gets the same quote from the opposite direction plus a
+negative control (the Annie bond as an unclosable set) and a real, stated
+prediction that the wiki itself cannot produce a closure verdict because it
+has no edge; the-embedded-objective adds a tenure-vs-satisfaction distinction
+and resolves, in prose, whether the payload rule and the closed-set rule are
+one mechanism or two (two, coinciding once, at the vigil); cocaine.md gets an
+outcome measure it never had — the 2017–2020 dosage peak runs opposite Dan's
+first-person happiness-claim rate (0.87/0.34/0.41 per 1,000 vs 7.86 in late
+2015). Reciprocal connections written on all four plus fran-death-vigil.
+
+**Cascade.** The four date bumps flagged the-rescue-premise (via
+cognitive-profile, already covered above), failure-to-launch, totality-themes,
+health/the-configured-body and alias-as-periodization stale; none required a
+claim change, each got a RE-CHECKED note.
+
+**Cleared `sage_pending` on `wiki/mind/synthesis/single-channel.md`** — a
+different sage answer
+(`2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`) found
+that the page's central liability (no-failover concentration) was read from
+outside the wiki as an asset: Ally names sustained undisguised intensity as
+her stated entry condition, which sharpens the page's live substitution test
+with a named candidate. Cascaded through the-deferred-audit and
+the-unpapered-address (both unaffected, RE-CHECKED). All three gates 0 errors
+throughout.
+
 ## [2026-08-26] close | people | ally-lubin — the love letter and the mutual-correction finding integrated, three dependents re-checked
 
 **Cleared both staging blocks on `wiki/people/ally-lubin.md`** (`pending_ingest`

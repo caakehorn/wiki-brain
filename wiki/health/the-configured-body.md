@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -55,6 +55,15 @@ connections:
 ---
 
 # The Configured Body
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against [[wiki/health/cocaine]]
+> (2026-08-26), which added a happiness-rate counter-measure to the same
+> dosage arc this page already cites (1g/day → 3.5–7g/day → 0.5–1g/day
+> tracking the inheritance). **The addition strengthens this page's claim
+> rather than complicating it** — the new finding shows the arc's peak
+> coincides with the corpus's lowest first-person happiness-claim rate, which
+> is a second variable absent from the curve alongside the health variable
+> this page already names. No claim withdrawn.
 
 > **RE-CHECKED [2026-08-23]:** flagged stale against
 > [[wiki/interests/food-and-diet]] and [[wiki/mind/synthesis/the-deferred-audit]]
