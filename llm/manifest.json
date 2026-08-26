@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 504,
+ "page_count": 505,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -1200,7 +1200,7 @@
    "title": "mind \u2014 index",
    "summary": "Beliefs, ideology, psychology, and values. The domain is organized in five layers: **profile/** holds the measured personality results and their detailed bre...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/index.txt",
-   "bytes": 15985
+   "bytes": 16224
   },
   {
    "page": "wiki/mind/politics/axioms.md",
@@ -1348,6 +1348,13 @@
    "summary": "A long-form Gemini \"deep research\" report titled *\"The Dan Frank OS: A Psychogenealogical Architecture of Collapse and Recursion\"* \u2014 built from the same unde...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/ancestral-dialectic.txt",
    "bytes": 12748
+  },
+  {
+   "page": "wiki/mind/synthesis/annual-volume-suz.md",
+   "title": "Annual Message Volume: Dan vs. Suz",
+   "summary": "prose \u2014 she outwrites Dan in every year but two, and the gap widens after 2018 until she is sending twice what he does. Read as a chart rather than a table, ...",
+   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/annual-volume-suz.txt",
+   "bytes": 4842
   },
   {
    "page": "wiki/mind/synthesis/attachment-trauma-bond.md",
@@ -2642,7 +2649,7 @@
    "title": "Suz (Suzanne Frank)",
    "summary": "Dan's mother, and the second-largest presence in the entire corpus: **33,698 messages across ten years and nine months**, behind only",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/suzanne-frank.txt",
-   "bytes": 65956
+   "bytes": 66409
   },
   {
    "page": "wiki/people/tan-calabrese.md",

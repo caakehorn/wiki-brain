@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-26
-504 pages, ~1,364,197 tokens.
+505 pages, ~1,365,580 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -14525,6 +14525,7 @@ authoritative factual spine remains [[wiki/self/context-core]].
 - [[wiki/mind/synthesis/music-as-identity]] — music as a century-spanning structure of self: performed teen identity, tour devotion, emotional regulator, producer identity; the "unutilized for actual purpose" gap made explicit.
 - [[wiki/mind/synthesis/2020-left-turn]] — the dated COVID-lockdown radicalization: Bernie 2020 on-ramp, the Chapo/Hasan/ContraPoints media pipeline, the Marx/Kropotkin reading, and the class-guilt over the family's union-busting money.
 - [[wiki/mind/synthesis/interests-as-era-markers]] — junction: the fixed intake rate makes subject-rotation the era signal; each life period has a dateable marker obsession (2007 teen cluster → 2012–13 O&A → 2016–19 golf → 2019 stand-up → 2020 politics → 2024 Rome), with the film canon as control case.
+- [[wiki/mind/synthesis/annual-volume-suz]] — `dataset` page: Dan-vs-Suz annual message volume. A fourteen-month reversal at the relationship's 2015-16 start, then a widening gap in her favor that reaches two-to-one by the record's end.
 - [[wiki/mind/synthesis/supply-network]] — junction: fifteen years of procurement as one architecture — the node succession (Johnny → Tim → Tom; Menore in NYC), the reliability inversion (distance disciplines, intimacy licenses failure), redundancy decay to a single node, and the terminal-phase inversion with Dan as Annie's supplier.
 - [[wiki/mind/synthesis/estate-money-spine]] — junction: the capital timeline as one causal chain — two family source-lines (Ira estate / Frank's Auto), the Adams trusteeship, the 2020 distribution ($144,069.31) and its six-month burn, the ~$119–123K net Annie drain, Suz as switchboard, and the 337→463 present state.
 - [[wiki/mind/synthesis/block-unblock-loop]] — junction: the declared-not-executed exit generalized across Annie (127/110), Tom (2014 + 2026), Kristin, Rick, accounts, and the Grok-loop; the governing rule — a block holds iff no dependency still flows through the channel — with Menore's clean closure and the June 1 closure as the live test.
@@ -18745,6 +18746,131 @@ genealogy). The 23andMe PDFs themselves were never OCR'd for exact
 percentages beyond the Neanderthal figure; a fuller ancestry-composition
 breakdown (European sub-regions, exact Ashkenazi percentage) remains
 unextracted in `raw/self/ancestry/dna-reports/`.
+
+
+========================================================================
+PAGE: wiki/mind/synthesis/annual-volume-suz.md
+========================================================================
+
+---
+domain: mind
+page_type: dataset
+title: "Annual Message Volume: Dan vs. Suz"
+status: active
+knowledge: mixed
+date_created: 2026-08-26
+date_modified: 2026-08-26
+sources: []
+synthesizes:
+  - wiki/people/suzanne-frank
+tags: [family, digital-footprint]
+chart:
+  kind: line
+  title: "Dan vs. Suz, messages sent per year"
+  x: { label: "Year", type: category }
+  y: { label: "Messages sent", type: number }
+  series:
+    - name: "Dan's messages"
+      points:
+        "2015": 281
+        "2016": 2453
+        "2017": 1850
+        "2018": 3066
+        "2019": 1891
+        "2020": 1517
+        "2021": 259
+        "2023": 483
+        "2024": 1206
+        "2025": 1202
+        "2026": 619
+    - name: "Suz's messages"
+      points:
+        "2015": 267
+        "2016": 2132
+        "2017": 1866
+        "2018": 4191
+        "2019": 2426
+        "2020": 1964
+        "2021": 440
+        "2023": 519
+        "2024": 1818
+        "2025": 2044
+        "2026": 1204
+connections:
+  - page: wiki/people/suzanne-frank
+    type: evidenced-by
+    claim: "The per-year volume table on that page is this chart's entire dataset: a fourteen-month reversal at the relationship's 2015-16 opening, then Suz permanently ahead from 2017, widening to roughly two-to-one by the record's end."
+---
+
+# Annual Message Volume: Dan vs. Suz
+
+[[wiki/people/suzanne-frank|Suz]]'s page already states the finding in
+prose — she outwrites Dan in every year but two, and the gap widens after
+2018 until she is sending twice what he does. Read as a chart rather than a
+table, the shape has a structure the prose doesn't foreground: a clean
+two-phase pattern with one hinge, not a gradual drift.
+
+## What the chart shows
+
+**Phase one (2015–2016): Dan ahead, narrowly.** In the relationship's first
+fourteen months — corpus start 2015-11-17 through the end of 2016 — Dan
+sends more than Suz in both years: 281 to 267 in the opening seven weeks,
+2,453 to 2,132 across all of 2016. Neither margin is large (5% and 13%
+respectively), but the direction is consistent across a full calendar year,
+which is long enough that it is not simply the volatility of a small
+partial-year sample.
+
+**The hinge (2017): a near-exact tie that resolves the other way.** 1,850
+to 1,866 — the closest year in the whole series, and the last year Dan is
+even competitive. From here the relationship's volume balance never returns
+to his favor.
+
+**Phase two (2017–2026): Suz ahead, and increasingly so.** Every year from
+2017 onward, Suz sends more, and the ratio climbs rather than holding
+steady: roughly 1.14:1 in 2018, widening past 1.5:1 by 2024–25 and reaching
+**1.94:1 in 2026** (619 to 1,204) — Suz is sending essentially two messages
+for every one of Dan's by the record's most recent year. 2018 is also the
+single largest year on either side (4,191 for Suz, 3,066 for Dan), which is
+the year [[wiki/people/fran-coldren|Fran]] died and the estate dispute
+opened — volume peaks for both of them at once, inside a widening gap
+rather than resetting it.
+
+## What this does and does not establish
+
+It establishes that the asymmetry is not a fixed disposition running the
+whole length of the relationship — it is a two-phase pattern with a
+specific pivot year (2017), and treating "she writes more" as true of the
+whole eleven-year record obscures that the first two years ran the other
+way.
+
+It does **not** establish why 2017 is the hinge. Suz's own page does not
+name a specific event dating to that year that would explain the reversal,
+and this page does not speculate one. It also does not establish whether
+the widening after 2018 tracks a specific cause (the estate dispute, her
+financial deterioration, the general drift of the relationship) or is
+simply what an already-reversed asymmetry does when nothing intervenes to
+correct it — both are consistent with the same numbers.
+
+## Falsifiers
+
+1. A message-content read of 2017 that shows the near-tie is driven by a
+   single short-lived event (an argument, a crisis) rather than a genuine
+   trend inflection — this would relocate the hinge to a different year or
+   dissolve it into noise.
+2. A per-month breakdown of 2018–2020 showing the widening gap is flat or
+   reversing rather than monotonic — the yearly aggregates here could hide
+   a non-monotonic path that a coarser read would miss.
+
+## Gaps
+
+- No mechanism is proposed for the 2017 hinge; the message content around
+  it has not been read specifically for this question.
+- 2021 and 2023 are partial years in the source table (to April; from
+  August), which is why they sit lower than the surrounding years — this
+  chart plots the partial-year totals as given rather than annualizing them,
+  and a reader comparing bar heights across those two years against full
+  years should account for that before drawing a conclusion from magnitude
+  alone.
 
 
 ========================================================================
@@ -52373,6 +52499,9 @@ infobox:
   handles: ["+172****8715", "suzfrank@***.net", "suzfrank915@***.com"]
   known_for: "The 33,698-message thread that is the second-largest relationship record in the corpus, and the unsettled mutual ledger running through all of it"
 connections:
+  - page: wiki/mind/synthesis/annual-volume-suz
+    type: evidences
+    claim: "This page's per-year volume table is the source data for that chart: a fourteen-month reversal at the relationship's start (2015-2016), then a widening gap in her favor from 2017 onward that reaches two-to-one by the record's end."
   - page: wiki/timeline/events/august-2026-morgantown-call
     type: evidenced-by
     claim: "Coles resumed calling and texting her on the night of 2026-08-16 — fifteen days after Annie apologised to her in person for the first campaign — and named her in a written threat the next day ('I have stuff to ruin you and your mom'). She received none of the calls: Dan had blocked Annie's number on her phone in advance, on a prediction that proved correct."
@@ -53272,8 +53401,10 @@ Volume by year, with the two source files joined at 2025-08-10:
 | 2026 (to Aug 11) | 1,823 | 1,204 | 619 |
 
 Two features of the table carry meaning. **She writes more than he does in
-every year but two** — the exceptions are 2015 and 2016 — and the gap widens
-steadily after 2018 until she is writing two messages for each of his. And
+every year but two** — the exceptions are 2015 and 2016, the relationship's
+first fourteen months — and the gap widens steadily after 2018 until she is
+writing two messages for each of his; [[wiki/mind/synthesis/annual-volume-suz]]
+charts the reversal and the widening as a single series. And
 **2018 is the peak on both sides**: the year Fran died, the year of the
 $14,000, the year the estate was pending and neither of them had any money.
 

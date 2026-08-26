@@ -47,6 +47,9 @@ infobox:
   handles: ["+172****8715", "suzfrank@***.net", "suzfrank915@***.com"]
   known_for: "The 33,698-message thread that is the second-largest relationship record in the corpus, and the unsettled mutual ledger running through all of it"
 connections:
+  - page: wiki/mind/synthesis/annual-volume-suz
+    type: evidences
+    claim: "This page's per-year volume table is the source data for that chart: a fourteen-month reversal at the relationship's start (2015-2016), then a widening gap in her favor from 2017 onward that reaches two-to-one by the record's end."
   - page: wiki/timeline/events/august-2026-morgantown-call
     type: evidenced-by
     claim: "Coles resumed calling and texting her on the night of 2026-08-16 — fifteen days after Annie apologised to her in person for the first campaign — and named her in a written threat the next day ('I have stuff to ruin you and your mom'). She received none of the calls: Dan had blocked Annie's number on her phone in advance, on a prediction that proved correct."
@@ -946,8 +949,10 @@ Volume by year, with the two source files joined at 2025-08-10:
 | 2026 (to Aug 11) | 1,823 | 1,204 | 619 |
 
 Two features of the table carry meaning. **She writes more than he does in
-every year but two** — the exceptions are 2015 and 2016 — and the gap widens
-steadily after 2018 until she is writing two messages for each of his. And
+every year but two** — the exceptions are 2015 and 2016, the relationship's
+first fourteen months — and the gap widens steadily after 2018 until she is
+writing two messages for each of his; [[wiki/mind/synthesis/annual-volume-suz]]
+charts the reversal and the widening as a single series. And
 **2018 is the peak on both sides**: the year Fran died, the year of the
 $14,000, the year the estate was pending and neither of them had any money.
 

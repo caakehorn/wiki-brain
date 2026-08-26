@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-26 — 51 pages
+## 2026-08-26 — 52 pages
 
 - **Session log:** close | mind | attachment-trauma-bond — the Ally channel as a control case, cascade re-checked three levels deep
 - **Session log:** close | timeline/mind | estate-money-spine and fran-death-vigil integrated, cascades re-checked
@@ -30,6 +30,7 @@ simply listed.
 | [[wiki/mind/profile/intp]] | mind | — |
 | [[wiki/mind/psychosexual/arrangement-history]] | mind | _(carries a CORRECTED from 2026-08-20)_ |
 | [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — flagged stale against totality-themes (2026-08-26), which gained two RE-CHECKED notes confirming its own cited premises unaffected by the same day's acquisition-drive/embedded-objective additions. **N |
+| [[wiki/mind/synthesis/annual-volume-suz]] | mind | — |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-26), which gained a RE-CHECKED note confirming the fran-death-vigil closure-cluster finding doesn't touch its caregiving or estate material. **No claim on  |
 | [[wiki/mind/synthesis/august-grievance-verdict]] | mind | **RE-CHECKED** — flagged stale against attachment-trauma-bond (2026-08-26), which added a counterexample section about the Ally channel's symmetric self-indictment. **No claim on this page is affected** — this page ci |
 | [[wiki/mind/synthesis/block-unblock-loop]] | mind | **RE-CHECKED** — flagged stale against conflict-architecture (2026-08-26), which added a section documenting the corpus's one completed refusal of the redefinition move (an Ally exchange) and removed its `sage_pending |

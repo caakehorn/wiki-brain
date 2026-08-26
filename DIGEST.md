@@ -13,11 +13,11 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 504 |
-| Pages touched in the last 14 days | 173 |
-| Pages reasoning from other pages (`synthesizes:`) | 43 |
+| Pages | 505 |
+| Pages touched in the last 14 days | 174 |
+| Pages reasoning from other pages (`synthesizes:`) | 44 |
 | Live contradictions | 45 |
-| Open gaps | 454 |
+| Open gaps | 456 |
 | Standing predictions | 55 |
 
 ## By domain
@@ -26,7 +26,7 @@ this is the state of the thing.
 |---|---|
 | people | 174 |
 | interests | 143 |
-| mind | 71 |
+| mind | 72 |
 | timeline | 42 |
 | self | 40 |
 | work | 15 |
@@ -39,14 +39,14 @@ this is the state of the thing.
 | Status | Pages |
 |---|---|
 | stable | 191 |
-| active | 170 |
+| active | 171 |
 | closed | 100 |
 | archived | 31 |
 | stub | 12 |
 
 ## The last few days
 
-**2026-08-26** — 51 pages
+**2026-08-26** — 52 pages
   - close | mind | attachment-trauma-bond — the Ally channel as a control case, cascade re-checked three levels deep
   - close | timeline/mind | estate-money-spine and fran-death-vigil integrated, cascades re-checked
   - close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked
@@ -107,6 +107,7 @@ have moved since.
 - [[wiki/mind/concepts/the-cool-metric]] — 3 premises
 - [[wiki/mind/politics/axioms]] — 5 premises
 - [[wiki/mind/synthesis/alias-as-periodization]] — 5 premises
+- [[wiki/mind/synthesis/annual-volume-suz]] — 1 premise
 - [[wiki/mind/synthesis/attachment-trauma-bond]] — 5 premises
 - [[wiki/mind/synthesis/august-grievance-verdict]] — 7 premises
 - [[wiki/mind/synthesis/block-unblock-loop]] — 11 premises

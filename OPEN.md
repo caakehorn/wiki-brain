@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 45 |
-| Open gaps | 454 |
+| Open gaps | 456 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 55 |
 
@@ -171,7 +171,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/legal/2015-possession-arrest]]** — Whether the fines referenced in January and February 2016 belong to this case, to the Combos matter, or to both running concurrently is not determinable from the message record — the "combos are paid off" phrasing suggests at least some of that money was the t
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 
-### mind (128)
+### mind (130)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
 - **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
@@ -210,6 +210,8 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/alias-as-periodization]]** — **The fourth name is not examined here.** `wiki/interests/music/aliases/mogged-up` is outside this page's `synthesizes:` list and its dates were not checked against the rule. If it breaks the pattern, this page is wrong and should be revised, not deleted.
 - **[[wiki/mind/synthesis/alias-as-periodization]]** — **The handoffs are fuzzy.** MOGZART's recorded start (~2014) overlaps SLOPPP's run to December 2015. The rule claims coincidence with period boundaries, not instantaneous succession, and the overlap is unresolved.
 - **[[wiki/mind/synthesis/alias-as-periodization]]** — **The 63–85% figure is a single provenance.** It traces to the context-core measurement and is repeated by the alias pages rather than independently re-measured per alias. The invariant is asserted three times from one source, which is weaker than three measur
+- **[[wiki/mind/synthesis/annual-volume-suz]]** — No mechanism is proposed for the 2017 hinge; the message content around it has not been read specifically for this question.
+- **[[wiki/mind/synthesis/annual-volume-suz]]** — 2021 and 2023 are partial years in the source table (to April; from August), which is why they sit lower than the surrounding years — this chart plots the partial-year totals as given rather than annualizing them, and a reader comparing bar heights across thos
 - **[[wiki/mind/synthesis/august-grievance-verdict]]** — **The record is almost entirely one-sided in construction.** 811 of the window's 1,199 messages are his, the audio is his recording, the analysis of the audio was commissioned by him, and this wiki is his. Annie's side of these seventy hours exists in 388 mess
 - **[[wiki/mind/synthesis/august-grievance-verdict]]** — **Her parents' actual beliefs are undocumented.** Grievance 4 rests on Dan's inference plus the asymmetric-clearing evidence, not on anything Ellen or Bill said.
 - **[[wiki/mind/synthesis/august-grievance-verdict]]** — **The phone call in which she agreed to clear his name** is voice and appears in no export.
