@@ -36,7 +36,7 @@ changelog:
   - date: 2026-08-21
     note: "Recovered from a portal lost-update (commit ff905fc, 'Edit people/annie-ulmer from the portal'). That save was made from a snapshot of the 2026-08-13 page and wrote it back over the 08-16, 08-17 and 08-20 passes: ~30KB of body prose, the whole infobox, and the type and claim of all 56 typed edges were deleted, which is why bin/wiki-connect check was failing with 70 errors. Content restored verbatim from c4aab20; the three genuine additions in that save — the portrait, and the aliases 'smashonista' and 'Lauren_London' — re-applied on top. date_modified deliberately left at 2026-08-20: the argument is the 08-20 argument, and nothing that reasons from this page reasons from a portrait."
   - date: 2026-08-20
-    note: "Restructured: the four ingest-order end sections merged into one arc; two line-count errors corrected (85,586 records, not 88,548; the alternate-number thread is 9,481, not 4,812); severance sweep widened to all five handles and the zero held; concurrency with the Ally channel established."
+    note: "Restructured: the four ingest-order end sections merged into one arc; two line-count errors corrected (85,586 records, not 88,548; the alternate-number thread is 9,481, not 4,812); severance sweep widened to all five handles and the zero held; the August 18–19 overlap with the Ally thread documented as fact (its interpretation as a concurrent attachment system left to the synthesis pages)."
   - date: 2026-08-13
     note: "Three corrections from a deep-export audit: the June 1 exit line is Dan's, not Annie's; the Feb 2025 eviction was engineered by Dan with Paci's cooperation and concealed from Annie; the severance-signal zero restated as scoped."
   - date: 2026-08-10b
@@ -204,7 +204,7 @@ connections:
     claim: "The May 2, 2017 Nick Mattie handoff — product left with Annie after she messaged him on Facebook — dates her supply-logistics facilitation a full year before the documented 2018–19 Johnny-era role."
   - page: wiki/people/ally-lubin
     type: mirrors
-    claim: "The two channels are concurrent, not sequential: across the final 48 hours (August 18–19, 2026) Dan sent more messages to Ally than to Annie, by a three-figure margin, interleaved hour by hour, declaring himself 'all ally Lubin all the time now' ninety minutes before the relationship's last message at 15:15:33."
+    claim: "Across the final 48 hours (August 18–19, 2026) Dan sent 408 messages to Annie and 552 to Ally, interleaved hour by hour; he told Ally his wifi was off so he would not see Annie two hours before exchanging 98 messages with her, and declared himself 'all ally Lubin all the time now' ninety minutes before the relationship's last message at 15:15:33. Whether the two threads formed a single concurrent attachment system is a live analytical question, examined on the synthesis pages — not settled here."
   - page: wiki/mind/concepts/attachment-model
     type: evidences
     claim: "The ten-year Annie corpus is the attachment model's quantitative base: 0 explicit severance signals across the 41,073 received messages of the dual-handle export — 81.6% of her in-window inbound, so the absence is established for that export and not yet for her messages generally — plus the 187-of-191 affection-to-request pairing, 24 alibis, 13 unchanged-behavior apologies."
@@ -1797,13 +1797,14 @@ that it was done at all is the difference the record can actually point to.
 > is used. The **97,768-message count is unaffected**; the attribution model
 > behind it is not.
 
-### Both channels at once
+### The August 18–19 overlap
 
 The four movements above read as a single thread narrowing to a point. Laid
 beside the [[wiki/people/ally-lubin|Ally Lubin]] export for the same hours,
-they are not. Across **August 18–19, 2026** Dan sent **more messages to Ally
-than to Annie, by a three-figure margin**, interleaved hour by hour, with each
-thread live while the other was running.
+the two threads are active in overlapping hours rather than strictly
+sequential in the termination window. Across **August 18–19, 2026** Dan sent
+**408 messages to Annie and 552 to Ally**, interleaved hour by hour, and what
+he told each about the other does not survive the other's timestamps.
 
 | Hour (2026) | → Annie | ← Annie | → Ally | ← Ally |
 |---|---|---|---|---|
@@ -1819,26 +1820,36 @@ thread live while the other was running.
 The two threads run against each other rather than in sequence. The heaviest
 Annie hours on August 18 sit beside light Ally traffic; the heaviest Ally hours
 — 53 outbound at 21:00 on the 18th, 119 at 08:00 on the 19th — sit beside an
-Annie channel that has gone quiet. Between 01:00 and 02:59 on the 19th he
-exchanges **98 messages** with Annie while the Ally channel carries one. At
-**13:45 on August 19** he writes to Ally *"Okay she sucks I don't want to keep
-dealing with her / Im all ally Lubin all the time now"*; ninety minutes later he
-sends the last message of the eleven-year relationship, at **15:15:33**.
+Annie channel that has gone quiet.
+
+Three statements to Ally are contradicted by this thread as he makes them:
+
+- **00:09 on August 19** — *"my wifi is back off now so even if she does
+  respond or crash out again later I won't see it."* Between 01:00 and 02:59
+  that morning he exchanges **98 messages** with Annie.
+- **23:42 on August 18** — *"Seriously what do I do with this? … we're
+  SOS'ing and now that I respond it's silence."* This thread shows exactly
+  that, live: eight *"SOS"* / *"Dan please I'm begging i need help"* messages
+  from 22:53 to 23:06, his *"what"* at 23:40, her *"Soar / SOS"* at 23:41, his
+  *"WHAT DO YOU NEED"* at 23:41:25, then nothing. He is narrating one live
+  emergency into the other thread as it happens.
+- **13:45 on August 19** — *"Okay she sucks I don't want to keep dealing with
+  her / Im all ally Lubin all the time now."* Ninety minutes later he sends
+  the last message of the eleven-year relationship, at **15:15:33**.
 
 This does not soften anything in the verdict, and it is not a symmetry
-argument: nothing in the Ally channel is an affair, a concealment, or a lie
-told to Annie. What it establishes is narrower and structural. **The wiki has
-been reading the Ally channel as what happens after this one fails.** It is
-not. It ran alongside this one, and on the two days this one terminated it
-carried more traffic than this one did. The overflow is not what happens after
-the vessel breaks; it is what the vessel was overflowing into the whole time —
-which means the redundancy [[wiki/mind/concepts/contact-gini|Contact Gini]]
-says Dan lacks was, in a thin and non-substitutable form, always there.
+argument: nothing in the Ally thread is an affair, a concealment, or a lie
+told to Annie. The factual overlap is recorded here as evidence; what it means
+for the structure of Dan's attachments — whether the two ran as a single
+concurrent system or as two independent threads active in the same window — is
+a question for the synthesis pages (see
+[[wiki/mind/synthesis/single-channel]] and the concurrent-attachment
+hypothesis), not a conclusion drawn on this person page.
 
 It also puts a boundary on the closing severance. Dan's 14:53:25 pre-emptive
 closure of the reopening vector is the strongest exit in the record, and he
-executed it with a second channel already running at three-figure volume across
-two days. Whether that made the exit possible or merely made it survivable is the
+executed it with the Ally thread already active at 552 messages across two
+days. Whether that made the exit possible or merely made it survivable is the
 question the next ninety days answer.
 
 ## Why it held together as long as it did
