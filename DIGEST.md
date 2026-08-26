@@ -47,6 +47,8 @@ this is the state of the thing.
 ## The last few days
 
 **2026-08-26** — 52 pages
+  - feat | mind | page_type: dataset added — chart-ready structured data, exemplar built and then corrected for the Annie moratorium
+  - close | mind/people | 20 remaining sage_pending and operator-answer pages closed — obligations 20 → 0
   - close | mind | attachment-trauma-bond — the Ally channel as a control case, cascade re-checked three levels deep
   - close | timeline/mind | estate-money-spine and fran-death-vigil integrated, cascades re-checked
   - close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked

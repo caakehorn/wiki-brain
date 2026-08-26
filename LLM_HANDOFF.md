@@ -4,9 +4,9 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
-### [2026-08-26] - Session: draining the sage-close backlog (in progress) — 9 of 29 obligations cleared
+### [2026-08-26] - Session: sage-close backlog fully drained (29 → 0); page_type: dataset added
 
-* **Model:** Claude Sonnet 5 (Claude Code, remote) · **Branch:** `claude/wiki-articles-expansion-9ns8mb`
+* **Model:** Claude Sonnet 5 (Claude Code, remote) · **Branch:** `claude/wiki-articles-expansion-9ns8mb` · **PR:** [#195](https://github.com/caakehorn/wiki-brain/pull/195)
 * **Trigger:** operator asked for as much expansion of important wiki articles
   as possible, plus a new page type/feature and better chart-ready data for the
   portal, after several failed attempts to edit the `caakehorn/home` repo
@@ -14,84 +14,73 @@
   `caakehorn/wiki-brain` only).
 
 **What this session found on arrival:** `bin/wiki-work` reported 29 obligations,
-27 of them pages carrying an unintegrated `## Sage findings — pending ingest`
-block (from `sage_pending`) plus one `bin/wiki-gaps` operator-answer block on
-`ally-lubin.md`. These are operator-approved or wiki-derived findings already
-staged on the page, waiting to be woven into the prose — exactly the kind of
-"more depth on existing articles" work the operator asked for, so this session
-treated CLOSE as the primary way to satisfy the request rather than a
-competing obligation.
+27 pages carrying an unintegrated `## Sage findings — pending ingest` block
+plus two `bin/wiki-gaps` operator-answer blocks. These are findings already
+staged on the page, waiting to be woven into the prose — exactly the "more
+depth on existing articles" work requested, so this session treated CLOSE as
+the primary way to satisfy that request rather than a competing obligation.
 
-**Closed so far (9 pages), each with its staging block deleted, `date_modified`
-bumped, and every stale-premise cascade it triggered re-checked (never bumped
-blind) down to 0 climb-check warnings before moving on:**
-- `wiki/people/ally-lubin.md` — integrated an Aug 21 love letter and a
-  mutual-correction finding; cascaded through `ally-lubin-cognitive-profile`,
-  `astrology-star-signs`, `ally-and-dan-love-as-destiny`, `the-rescue-premise`.
-- `wiki/mind/concepts/acquisition-drive.md`, `wiki/mind/synthesis/closing-the-set.md`,
-  `wiki/mind/synthesis/the-embedded-objective.md`, `wiki/health/cocaine.md` —
-  four different findings from the same sage answer
-  (`2026-08-22_005829_what-would-make-dan-happy`), each landing differently:
-  acquisition-drive's payoff condition narrows to **closure**, closing-the-set
-  gets a negative control (the Annie bond as unclosable) plus a prediction the
-  wiki itself cannot produce a closure verdict, the-embedded-objective resolves
-  whether the payload rule and closed-set rule are one mechanism or two, and
-  cocaine.md gets an outcome measure (happiness-claim rate) against its dosage
-  arc for the first time. Cascaded through failure-to-launch, totality-themes,
-  the-configured-body, alias-as-periodization.
-- `wiki/mind/synthesis/single-channel.md` — a different sage answer read the
-  no-failover architecture as an entry condition (Ally) rather than only a
-  liability. Cascaded through the-deferred-audit, the-unpapered-address.
-- `wiki/mind/synthesis/estate-money-spine.md` — the spine never had an outcome
-  measure against its own capital timeline; added one (Dan's own "middle-class
-  happy" prediction, falsified).
-- `wiki/timeline/events/fran-death-vigil.md` — the richest version of the
-  "what would make Dan happy" finding: four dated good-outcome statements in
-  six days, contrasted against the Annie ending. Cascaded into
-  `suzanne-frank.md`.
+**All 29 are closed.** `bin/wiki-work scan` now reports **0 obligations** —
+only standing campaign work remains (ingest/climb/connect/backlog queues,
+none session-blocking). Every cascade this produced was re-checked to 0
+`bin/wiki-climb check` warnings before moving on — never bumped blind. Full
+per-page list of what changed and why is in `log.md`, newest entries first,
+under the `close |` and `feat |` prefixes dated 2026-08-26. Highlights:
+Ally Lubin's love letter and love-bomb concession, four different
+happiness/closure findings across acquisition-drive/closing-the-set/
+the-embedded-objective/cocaine.md, the two largest synthesis cascades
+(totality-themes, the-unbroken-bond → dormancy-not-exit), a mistyped
+personality datum relocated from franki-faris.md to alexis-armel.md, and
+menore.md's last gap closed via the proper `bin/wiki-gaps clear` flow
+(2022's silence = a flip phone, not a service break).
 
-**Regenerated after each batch:** `bin/wiki-digest`, `bin/llm-publish`,
-`bin/wiki-freshness` (confirmed in sync). `bin/wiki-work scan` now reports
-**22 obligations**, down from 29.
+**Mid-session infra note, in case it recurs:** `git push` was blocked earlier
+in this session by what looked like a harness permission gate, forcing a slow
+GitHub-API (`push_files`) sync path. Mid-continuation, `git push` started
+working directly once the repo was re-attached with `access: "push"` via
+`add_repo` — the block was a stale-credential issue, not a standing
+restriction. If a future session hits the same wall, try re-attaching before
+assuming the API path is the only option; it is far cheaper.
 
-**Still outstanding — 20 sage_pending pages, next session should continue in
-this order** (grouped by likely shared source/topic, same pattern as above —
-read the whole page, work the finding into the argument, add reciprocal
-connections, delete the block, bump the date, re-check every stale cascade
-before moving on, never bump a date blind):
-- `wiki/mind/synthesis/attachment-trauma-bond.md` — **already flagged stale**
-  by the suzanne-frank.md edit above; check that first when you open it.
-- `wiki/mind/concepts/conflict-architecture.md`, `erotic-architecture.md`,
-  `the-cool-metric.md`
-- `wiki/mind/profile/enneagram-5w4.md`, `intp.md`
-- `wiki/mind/psychosexual/arrangement-history.md`
-- `wiki/mind/synthesis/bond-switch-2015.md`, `dormancy-not-exit.md`,
-  `music-as-identity.md`, `the-commissioned-self.md`, `the-unbroken-bond.md`
-- `wiki/people/alexis-armel.md`, `annie-ulmer-personality-assessment.md`,
-  `bekah-fullem.md`, `fran-coldren.md`, `franki-faris.md`, `kristin.md`,
-  `milo.md`, `shelbie-breakiron.md`
-- `wiki/people/suzanne-frank-personality-assessment.md` is also now flagged
-  stale (from the fran-death-vigil cascade) — cheap, check it early.
+**New feature, per the operator's actual request:** `page_type: dataset` — a
+chart-ready structured-data page type. Mandatory `chart:` frontmatter block
+(kind/title/axis labels/named series of `{x: y}` points), documented in
+`STYLE_GUIDE.md`, validated by `bin/wiki-lint`'s new `validate_dataset_chart`
+(free function, unit-tested in `tests/test_lint_gates.py`). Exemplar:
+`wiki/mind/synthesis/annual-volume-suz.md` (Dan-vs-Suz annual message volume,
+arguing a two-phase reversal the source table doesn't foreground). **This
+does not touch `caakehorn/home`** — this session has no access to that repo;
+the convention is designed so a future portal sync can key a chart renderer
+off the `chart:` block, but wiring that up is portal-side work for whoever
+next has access there.
 
-**Also still on the operator's actual request, not yet started:** a new page
-type / chart-data convention (the operator asked to "make up a new kind of
-page" and wants data "much better when displayed as charts in the home
-repo" — since this session has no access to `caakehorn/home`, the right scope
-is a documented, lint-validated structured-data convention in `wiki/` that a
-future portal sync can consume directly, plus 1-2 exemplar pages proving it
-out with real corpus-derived series). Not touched yet — do this after the
-sage-close backlog per CLAUDE.md's fixed order (operator's ask first in the
-turn it was made, obligations drained after), or interleave if a later
-session judges the backlog too large to finish first.
+**A near-miss worth recording.** The first version of the dataset exemplar
+compared Annie and Suz side by side — genuinely better data, since it showed
+both of Dan's two largest relationships share the same 2015-onset reversal
+shape. It was reverted and rebuilt as Suz-only after re-reading the Annie
+moratorium (`CLAUDE.md`, 2026-08-23): the moratorium's forbidden list names
+"typed-edge claim" and "synthesis... about Annie" explicitly, with no
+carve-out for aggregate/already-published numbers, and the comparison page
+drew a new cross-relationship conclusion from her data. Caught before commit,
+not after — but it is exactly the kind of thing a "just statistics, not
+narrative" instinct will keep proposing, and the moratorium's plain text does
+not leave room for that instinct to win. Read the moratorium in full before
+building anything that touches Annie's data, even structurally.
 
-**A note on discipline, for whoever continues this:** every one of the pages
-above sits in a dense cluster of mutual `synthesizes:` edges. Closing one
-routinely flags 1-4 others stale. Do not bump a flagged page's `date_modified`
-without reading what actually moved — most cascades in this pass turned out
-to be no-ops (confirmed by a RE-CHECKED note), but at least one
-(the-embedded-objective, prompted by acquisition-drive) required real
-argumentative work to reconcile two rules. Budget for that per page, not just
-for the sage block itself.
+**Discovered, not acted on, and flagged for the operator rather than fixed
+silently:** `bin/wiki-lint` is red on `main` itself — 20 pre-existing errors,
+none introduced by this branch (confirmed via a temporary worktree check
+against `origin/main`). All 20 live in 7 files merged via PRs #191-193
+(`ally-lubin-2026-08-26-*.md`, `annie-ulmer-2026-08-26-*.md`,
+`2026-08-26-visible-change*.md`, `2026-08-26-dan-consistency-test.md`):
+invalid `page_type: update`, invalid `knowledge: operator-observed`, missing
+people infobox, undeclared tags, and one retracted claim
+(`ally-object-of-fixation-accepted`) reasserted as live. This session did not
+touch these files — several sit squarely in Annie-moratorium territory
+(new dated timeline/people pages about her from today), and "no exception is
+delegated to a session" reads as covering even a pure lint-schema fix. Named
+in the PR #195 description; needs the operator's decision, not a future
+session's initiative.
 
 ### [2026-08-23e] - Session: the Annie record is closed, and every instruction that would have advanced it is withdrawn
 

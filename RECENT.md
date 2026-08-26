@@ -10,6 +10,8 @@ simply listed.
 
 ## 2026-08-26 — 52 pages
 
+- **Session log:** feat | mind | page_type: dataset added — chart-ready structured data, exemplar built and then corrected for the Annie moratorium
+- **Session log:** close | mind/people | 20 remaining sage_pending and operator-answer pages closed — obligations 20 → 0
 - **Session log:** close | mind | attachment-trauma-bond — the Ally channel as a control case, cascade re-checked three levels deep
 - **Session log:** close | timeline/mind | estate-money-spine and fran-death-vigil integrated, cascades re-checked
 - **Session log:** close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked
