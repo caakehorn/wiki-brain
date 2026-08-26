@@ -8,8 +8,9 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-26 — 82 pages
+## 2026-08-26 — 83 pages
 
+- **Session log:** close | work | BFS Foods drawer dispute — the retaliation-timing sequence corrected against Dan's own testimony
 - **Session log:** ingest | work | MAX_PRIME.md read to exhaustion — max-framework/overview.md rewritten, bunker-core.md's ecosystem list added, a pre-existing identity flag closed
 - **Session log:** ingest | self | ANCESTRY_DNA.txt (last inbox item) — redundancy confirmed, one new collateral relative verified
 - **Session log:** ingest | mind | new page: Dan's Bespoke Lexicon — operator-supplied capture
@@ -105,6 +106,7 @@ simply listed.
 | [[wiki/self/overview]] | self | — |
 | [[wiki/timeline/events/fran-death-vigil]] | timeline | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/timeline/periods/2020-2021-market-era]] | timeline | **RE-CHECKED** — `bin/wiki-climb check` flagged this page stale against context-core, which moved on 2026-08-26. The premise did not move in substance — the only change on that page was one new `connections:` entry cr |
+| [[wiki/work/bfs-foods]] | work | **CORRECTED** — the sentence above — refusal, then a same-day 36→7 cut — is the story as it was first analyzed, and it is not the sequence Dan later confirmed. Reading a fuller export of the same analysis thread (`Li |
 | [[wiki/work/fastly-fsly]] | work | _(carries a RE-CHECKED from 2026-08-21)_ |
 | [[wiki/work/tech/max-framework/overview]] | work | — |
 
@@ -182,7 +184,7 @@ simply listed.
 | [[wiki/self/concepts/wiki-brain]] | self | **RE-CHECKED** — llm moved on 2026-08-21: Gemini's 'chicken nugget' passage was corrected off Dan's ledger, and the post-GPT-5 causation of ChatGPT's decline was marked untested. This page carries an edge claiming Cha |
 | [[wiki/work/au-zaatar]] | work | _(carries a REVISED from 2026-07-14)_ |
 
-## 2026-08-20 — 18 pages
+## 2026-08-20 — 17 pages
 
 - **Session log:** ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
 - **Session log:** correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
@@ -213,7 +215,6 @@ simply listed.
 | [[wiki/timeline/events/august-2026-morgantown-call-source-amendment]] | timeline | — |
 | [[wiki/timeline/events/august-2026-unmasking]] | timeline | — |
 | [[wiki/timeline/index]] | timeline | — |
-| [[wiki/work/bfs-foods]] | work | — |
 
 ## 2026-08-19 — 25 pages
 

@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-26
-515 pages, ~1,430,980 tokens.
+515 pages, ~1,432,148 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10305,7 +10305,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-26** — 82 pages
+**2026-08-26** — 83 pages
+  - close | work | BFS Foods drawer dispute — the retaliation-timing sequence corrected against Dan's own testimony
   - ingest | work | MAX_PRIME.md read to exhaustion — max-framework/overview.md rewritten, bunker-core.md's ecosystem list added, a pre-existing identity flag closed
   - ingest | self | ANCESTRY_DNA.txt (last inbox item) — redundancy confirmed, one new collateral relative verified
   - ingest | mind | new page: Dan's Bespoke Lexicon — operator-supplied capture
@@ -10350,7 +10351,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - infra | portal | the loop had no return leg, and a corrected answer sat unpublished for forty minutes
   - infra | housekeeping | the pre-commit block had the wrong order, and the sweep had no protocol
 
-**2026-08-20** — 18 pages
+**2026-08-20** — 17 pages
   - ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
   - correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
   - close | timeline/people/mind | the catalyst was a five-word message in a group chat the wiki has never seen
@@ -11514,7 +11515,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-26 — 82 pages
+## 2026-08-26 — 83 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11598,6 +11599,7 @@ simply listed.
 | [[wiki/self/overview]] | self | — |
 | [[wiki/timeline/events/fran-death-vigil]] | timeline | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/timeline/periods/2020-2021-market-era]] | timeline | **RE-CHECKED** — `bin/wiki-climb check` flagged this page stale against context-core, which moved on 2026-08-26. The premise did not move in substance — the only change on that page was one new `connections:` entry cr |
+| [[wiki/work/bfs-foods]] | work | **CORRECTED** — the sentence above — refusal, then a same-day 36→7 cut — is the story as it was first analyzed, and it is not the sequence Dan later confirmed. Reading a fuller export of the same analysis thread (`Li |
 | [[wiki/work/fastly-fsly]] | work | _(carries a RE-CHECKED from 2026-08-21)_ |
 | [[wiki/work/tech/max-framework/overview]] | work | — |
 
@@ -11647,7 +11649,7 @@ simply listed.
 | [[wiki/self/concepts/wiki-brain]] | self | **RE-CHECKED** — llm moved on 2026-08-21: Gemini's 'chicken nugget' passage was corrected off Dan's ledger, and the post-GPT-5 causation of ChatGPT's decline was marked untested. This page carries an edge claiming Cha |
 | [[wiki/work/au-zaatar]] | work | _(carries a REVISED from 2026-07-14)_ |
 
-## 2026-08-20 — 18 pages
+## 2026-08-20 — 17 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11668,7 +11670,6 @@ simply listed.
 | [[wiki/timeline/events/august-2026-morgantown-call-source-amendment]] | timeline | — |
 | [[wiki/timeline/events/august-2026-unmasking]] | timeline | — |
 | [[wiki/timeline/index]] | timeline | — |
-| [[wiki/work/bfs-foods]] | work | — |
 
 ## 2026-08-19 — 25 pages
 
@@ -26033,6 +26034,9 @@ connections:
   - page: wiki/mind/synthesis/ancestral-dialectic
     type: instance-of
     claim: "This page is the worked example of the provenance rule: an interpretive frame that arrived knowledge: mixed and must not have that status laundered by anything that later reasons from it."
+  - page: wiki/work/bfs-foods
+    type: instance-of
+    claim: "The clearest case in the corpus of the failure mode working in reverse — instead of one model's uncorrected reading standing as fact, three chained sessions show the drift itself (incompetence read escalating into an orchestrated-campaign read) getting caught, named, and walked back against the operator's own corrected testimony, with the walk-back preserved on the page rather than silently absorbed."
 ---
 
 # The Instrument Is Also the Subject
@@ -82343,13 +82347,15 @@ title: "BFS Foods (2026): Job, Drawer Dispute, Termination"
 status: closed
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-08-20
+date_modified: 2026-08-26
 sources:
   - raw/legal/bfs-dispute/BFS_BOOTLOADER_v2.md
   - raw/legal/bfs-dispute/BFS Anita Quagmire strategy and legal exposure.md
   - "raw/self/dox-md/Drawer shortage dispute with assistant manager.md"
   - "raw/self/dox-md/Cash register shortage explanation.md"
   - "raw/self/dox-md/Little Caesars retaliation timing concerns.md"
+  - "raw/self/dox-md/Little Caesars retaliation timing concerns (1).md"
+  - "raw/self/dox-md/Reverse chronological context upload.md"
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 related:
   - wiki/people/brandon-hill
@@ -82423,6 +82429,9 @@ connections:
   - page: wiki/people/marty-martin
     type: evidences
     claim: "Marty's framing of the store's off-books culture ('make the store whole to keep your job') is the primary evidence for reading the $50 drawer-shortage demand as structural rather than an isolated shakedown."
+  - page: wiki/mind/synthesis/instrument-is-subject
+    type: instantiates
+    claim: "A model catching its own escalating drift across three chained sessions — a chaotic-franchise incompetence read inflating, session by session, into a named-actor orchestrated campaign, with a same-day retaliation shape reconstructed from a fuzzier real sequence — and asking its own operator to re-ground it, is a documented case of the corpus's self-correction mechanism working exactly as intended."
 ---
 
 # BFS Foods (2026)
@@ -82443,6 +82452,32 @@ evidence preservation, and a planned exit via a Little Caesars transfer
 arranged through [[wiki/people/kim]]. Context-core records it flatly:
 "BFS termination (cash-variance dispute); Little Caesars transfer via Kim
 as the exit."
+
+> **CORRECTED [2026-08-26]:** the sentence above — refusal, then a
+> same-day 36→7 cut — is the story as it was first analyzed, and it is
+> not the sequence Dan later confirmed. Reading a fuller export of the
+> same analysis thread (`Little Caesars retaliation timing concerns
+> (1).md`) turned up the model catching its own drift mid-conversation
+> and asking Dan to re-ground it, which he did. The corrected sequence:
+> **the schedule cut came first.** Monday at 5 PM — before Dan had any
+> awareness of a $50 claim, only the (already-dismissed) $15 gas
+> question from Sunday night — Anita told him "you work at 8 tonight," a
+> three-hour push he accepted without protest. Only afterward did Brandon
+> call him into the back and make the $50 demand. Dan's actual response
+> was not a refusal: he asked clarifying questions ("was it the gas
+> thing?"), got irritated at an unrelated dig about owing Marty $20, and
+> left. In his own words, correcting the record mid-session: *"i didn't
+> refuse to pay it and i am not even sure when my hours were cut exactly.
+> i knew it had to be after friday night but before monday."* Brandon
+> himself later independently corroborated that the hours cut was not
+> tied to the money — a 12:50 AM text volunteered that the reduction was
+> because "Anita was in one of her moods," framing it as separate from
+> the shortage. **What survives:** the demand was still off-books and
+> still illegal to make regardless of whether Dan explicitly refused it;
+> the hours cut is still the real wrong, whatever its precise cause. What
+> does not survive is the clean "protected refusal → same-day retaliation"
+> shape — see the Legal posture section below for what this does to that
+> theory.
 
 The tenure is also the control case for
 [[wiki/mind/synthesis/the-embedded-objective|the payload rule]]: one month
@@ -82670,13 +82705,29 @@ The strategy analysis concluded the labor claim was **inchoate**: under
 the Pennsylvania Wage Payment and Collection Law (43 P.S. § 260.3)
 employers cannot deduct shortages without written authorization, but no
 deduction or completed kickback existed until Dan actually paid — so not
-paying was both the defense and the whole game. The retaliation theory
-was judged real but narrow: refusing an off-books cash demand is
-wage-related protected activity in PA and the same-day 36→7 hours cut is
-the textbook retaliation shape, but the protection attaches only to that
-act and does not generalize forward — the Little Caesars application Dan
-submitted is exit insurance, not legal leverage, and if anything dilutes
-the retaliation narrative by supplying an alternative-causation story.
+paying was both the defense and the whole game. An early pass at the
+retaliation theory judged it real and narrow — refusing an off-books cash
+demand as wage-related protected activity, the hours cut as the textbook
+same-day retaliation shape — but that framing does not survive the
+corrected sequence above: the hours cut preceded the $50 conversation
+entirely, so it cannot have been retaliation *for* a refusal that hadn't
+happened yet. A later pass over the same evidence, run specifically to
+catch where the analysis had drifted across sessions, named this
+explicitly: *"the textbook retaliation shape isn't actually documented —
+it's a reconstruction that may compress what was actually a fuzzier
+sequence."* The same pass judged the whole apparatus built on top of it —
+a staged six-question "polygraph prop" escalation ladder with abandonment
+conditions — **disproportionate to the stakes of a fast-food drawer
+dispute**, useful as metaphor but over-extended into operational doctrine
+it didn't need to be. What remains genuinely live, unweakened by the
+correction: the off-books demand itself was still an illegal collection
+method regardless of timing, and the hours cut is still the real
+loss — Brandon's own account attributes it to Anita's mood, not to a
+retaliation motive he can name, which if anything makes the manager's
+conduct look more arbitrary rather than less actionable. The Little
+Caesars application Dan submitted is exit insurance, not legal leverage,
+and if anything dilutes any retaliation narrative by supplying an
+alternative-causation story.
 Anita's real exposure — the on-camera vape sale to a minor — was
 explicitly *not* to be weaponized, since deploying it would flip Dan's
 posture toward extortion and invite symmetric review of his own daily
@@ -82724,7 +82775,13 @@ mapping the POS fraud vector, the decorative reconciliation, and the
 mishearing chain with more rigor than the people running the store ever
 applied to it.
 
-**Gaps:** exact termination date narrowed to "sometime in May [2026]" per
+**Gaps:** the exact clock-time sequence between the Monday 5→8 schedule
+push and the Brandon confrontation is narrowed (the push came first, on
+the same visit) but the precise date the $50 demand itself first
+surfaced — "after Friday night, before Monday" per Dan — is not resolved
+further than that window; the source thread asking for this
+(`Reverse chronological context upload.md`) cuts off before Dan answers
+it. Exact termination date narrowed to "sometime in May [2026]" per
 Dan (2026-07-14), not more precisely dated; final payroll disposition is
 still not in the corpus; whether the Little Caesars transfer actually
 materialized after June 2026 is undocumented; the true cause of the $50

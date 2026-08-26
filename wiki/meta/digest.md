@@ -55,7 +55,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-26** — 82 pages
+**2026-08-26** — 83 pages
+  - close | work | BFS Foods drawer dispute — the retaliation-timing sequence corrected against Dan's own testimony
   - ingest | work | MAX_PRIME.md read to exhaustion — max-framework/overview.md rewritten, bunker-core.md's ecosystem list added, a pre-existing identity flag closed
   - ingest | self | ANCESTRY_DNA.txt (last inbox item) — redundancy confirmed, one new collateral relative verified
   - ingest | mind | new page: Dan's Bespoke Lexicon — operator-supplied capture
@@ -100,7 +101,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - infra | portal | the loop had no return leg, and a corrected answer sat unpublished for forty minutes
   - infra | housekeeping | the pre-commit block had the wrong order, and the sweep had no protocol
 
-**2026-08-20** — 18 pages
+**2026-08-20** — 17 pages
   - ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
   - correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
   - close | timeline/people/mind | the catalyst was a five-word message in a group chat the wiki has never seen

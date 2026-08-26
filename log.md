@@ -1,3 +1,51 @@
+## [2026-08-26] close | work | BFS Foods drawer dispute — the retaliation-timing sequence corrected against Dan's own testimony
+
+`queue.md`'s standing HIGH-priority item for the BFS Foods / Little
+Caesars drawer-dispute cluster was stale: most of it was already
+synthesized into `wiki/work/bfs-foods.md`. Two files remained unread —
+`Little Caesars retaliation timing concerns (1).md` (1920 lines against
+the 787-line file already cited) and `Reverse chronological context
+upload.md` — and reading them to exhaustion surfaced a real correction,
+not just more color.
+
+**What the fuller files contain: a model catching its own drift across
+three chained sessions, and asking Dan to re-ground it.** The first-read
+session built a "same-day retaliation" narrative — Dan refuses to pay,
+hours drop 36→7 that day — which the current page's opening paragraph
+still stated as settled fact. A later session in the same thread caught
+itself mid-analysis ("I'm doing this on a substrate that keeps not
+matching reality") and asked Dan for the actual sequence. His answer,
+quoted directly: *"i didn't refuse to pay it and i am not even sure when
+my hours were cut exactly. i knew it had to be after friday night but
+before monday."* The real sequence — the Monday 5→8 schedule push
+happened first, before Dan even knew about the $50 demand, and his actual
+response to Brandon was clarifying questions, not a refusal — independently
+corroborated by Brandon's own 12:50 AM text attributing the hours cut to
+"Anita was in one of her moods," not the money.
+
+**Written up as a proper correction, not a silent edit.** Added a
+`> **CORRECTED [2026-08-26]:**` block to bfs-foods.md's opening (STYLE_GUIDE
+rule 9 — old claim stays visible) and reworked the Legal posture section's
+"textbook retaliation" framing, which a later corrective pass in the
+source material itself judged "a reconstruction that may compress what
+was actually a fuzzier sequence" and its accompanying "polygraph prop"
+legal-strategy apparatus "disproportionate to the stakes of a fast-food
+drawer dispute." What survives unweakened: the off-books demand was still
+an illegal collection method regardless of timing, and the hours cut is
+still the real loss.
+
+**Write-back.** New connection to `wiki/mind/synthesis/instrument-is-subject`
+— this three-session self-correction, preserved rather than absorbed
+silently, is a documented instance of the corpus's own provenance
+discipline working as designed; inverse edge added there.
+
+`queue.md`'s HIGH item closed and marked done, with the note that it was
+already stale by the time this session found it.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check` 0 errors, 138 warnings; `bin/wiki-climb check`
+0 errors, 0 warnings; 125 unit tests pass.
+
 ## [2026-08-26] ingest | work | MAX_PRIME.md read to exhaustion — max-framework/overview.md rewritten, bunker-core.md's ecosystem list added, a pre-existing identity flag closed
 
 Standing queue item, `queue.md`'s "Carried over from old repo" section:

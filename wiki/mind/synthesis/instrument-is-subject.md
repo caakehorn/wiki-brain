@@ -49,6 +49,9 @@ connections:
   - page: wiki/mind/synthesis/ancestral-dialectic
     type: instance-of
     claim: "This page is the worked example of the provenance rule: an interpretive frame that arrived knowledge: mixed and must not have that status laundered by anything that later reasons from it."
+  - page: wiki/work/bfs-foods
+    type: instance-of
+    claim: "The clearest case in the corpus of the failure mode working in reverse — instead of one model's uncorrected reading standing as fact, three chained sessions show the drift itself (incompetence read escalating into an orchestrated-campaign read) getting caught, named, and walked back against the operator's own corrected testimony, with the walk-back preserved on the page rather than silently absorbed."
 ---
 
 # The Instrument Is Also the Subject
