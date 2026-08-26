@@ -149,11 +149,11 @@ connections:
 > [[wiki/mind/synthesis/block-unblock-loop]] (both 2026-08-23). Both moved for
 > one reason: the 127/110 exit pair was re-derived from primary data as **129
 > episodes with 100% re-engagement**, median gap thirty-six seconds. This page
-> cites *"127 declared exits before any of them held for even a season"* — that
-> sentence is **strengthened, not affected**: the corrected record shows none of
-> them held for even 46 hours, which is a stronger form of the same claim. The
-> other `127` on this page is a 2012–2014 volume figure and is unrelated. No
-> claim withdrawn.
+> cites *"127 declared exits before any of them held for even a season"* —
+> that sentence is **strengthened, not affected**: the corrected record shows
+> none of them held for even 46 hours, which is a stronger form of the same
+> claim. The other `127` on this page is a 2012–2014 volume figure and is
+> unrelated. No claim withdrawn.
 
 > **RE-CHECKED [2026-08-22] — three premises moved by re-check blocks only.**
 > [[wiki/mind/synthesis/the-embedded-objective]],

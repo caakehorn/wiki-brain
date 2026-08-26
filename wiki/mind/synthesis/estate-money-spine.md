@@ -433,4 +433,3 @@ implicit premise that one node in this system had reserves. None did.
 > on that page are the Annie-outflow figure, the landlord-debt stretch and Suz's
 > switchboard role — all money facts from 2023–2026. The correction introduces
 > no figure and moves no dated transaction. Closed unaffected.
-
