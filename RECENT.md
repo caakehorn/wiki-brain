@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-26 — 42 pages
+## 2026-08-26 — 44 pages
 
 - **Session log:** close | mind | attachment-trauma-bond — the Ally channel as a control case, cascade re-checked three levels deep
 - **Session log:** close | timeline/mind | estate-money-spine and fran-death-vigil integrated, cascades re-checked
@@ -53,6 +53,8 @@ simply listed.
 | [[wiki/people/ally-lubin]] | people | _(carries a CORRECTED from 2026-08-22)_ |
 | [[wiki/people/ally-lubin-cognitive-profile]] | people | **RE-CHECKED** — flagged stale against ally-lubin (2026-08-26), which integrated its own staged love letter and sage-finding blocks. Both are already load-bearing on this page — the love letter's trend spotting line i |
 | [[wiki/people/annie-ulmer-personality-assessment]] | people | _(carries a RE-CHECKED from 2026-08-23)_ |
+| [[wiki/people/bekah-fullem]] | people | — |
+| [[wiki/people/franki-faris]] | people | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/people/suzanne-frank]] | people | **RE-CHECKED** — flagged stale against fran-death-vigil (2026-08-26), which added the closure-cluster finding (four dated good-outcome statements in six days) and new typed edges to closing-the-set and attachment-mode |
 | [[wiki/people/suzanne-frank-personality-assessment]] | people | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-26), which gained a `RE-CHECKED` blockquote confirming the fran-death-vigil closure-cluster finding doesn't touch her caregiving or estate material. **No c |
 | [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — flagged stale against the-deferred-audit (2026-08-26), which gained a re-check note only, confirming an unrelated single-channel addition doesn't touch it. **No claim on this page is affected.** **RE- |
@@ -382,7 +384,7 @@ simply listed.
 | [[wiki/people/jack-connor]] | people | — |
 | [[wiki/people/lucy]] | people | — |
 
-## 2026-08-02 — 17 pages
+## 2026-08-02 — 16 pages
 
 - **Session log:** climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
 - **Session log:** ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
@@ -407,7 +409,6 @@ simply listed.
 | [[wiki/people/betherin-mechling]] | people | — |
 | [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/people/david-j-frank]] | people | — |
-| [[wiki/people/franki-faris]] | people | **CONTRADICTION** — This page has carried *"a five-day rebound"* and *"the Franki interlude lasted five days before collapsing,"* sourced to the Gemini-58 and DANSYNTH self-narrations, and dormancy-not-exit uses that fig |
 | [[wiki/people/jay-lauer]] | people | — |
 | [[wiki/people/joe-croftcheck]] | people | — |
 | [[wiki/people/morley-frank]] | people | — |

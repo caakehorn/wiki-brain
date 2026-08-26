@@ -1,11 +1,10 @@
 ---
-sage_pending: '2026-08-21'
 domain: people
 page_type: entity
 title: "Franki Faris"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-02
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-scan/Gemini-_58.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
@@ -31,6 +30,9 @@ connections:
   - page: wiki/mind/synthesis/dormancy-not-exit
     type: contradicts
     claim: "Five days of occupancy in 2013 left no corpus and no later trace, which is the control bounding the retention rule to relationships that clear a tenure floor."
+  - page: wiki/mind/synthesis/the-commissioned-self
+    type: precedes
+    claim: "The July 9-31, 2013 self-typology batch that typed Franki and Alexis also carries Dan's own earliest documented INTP self-identification, a decade before the AI instrumentation the commissioned-self pattern is mostly built on."
 ---
 
 # Franki Faris
@@ -50,7 +52,14 @@ Dan and Alexis had split, and within days he was involved with Franki —
 in his own later description, an attempt to "reboot" his identity around
 someone he typed up as her opposite: an ESFP/"Performer" ("magic pixie
 dream girl") against Alexis's INFP/ISFP "Idealist," in a batch of
-self-typology emails he sent himself between July 9 and July 31, 2013.
+self-typology emails he sent himself between July 9 and July 31, 2013 — a
+batch that also carries his own earliest documented INTP self-identification
+([[wiki/people/elizabeth-eleanor]], July 10–11, 2013) and is the origin
+point of [[wiki/mind/synthesis/the-commissioned-self]]'s pattern, a decade
+before the AI instrumentation that page is mostly built on. Alexis's own
+typing is now carried on [[wiki/people/alexis-armel]] as well as here, since
+the datum being filed only on a five-day rebound's page is what let two
+independent 2026-08-21 passes conclude she had no type at all.
 The Franki interlude lasted five days before collapsing — Dan's own
 framing was that a PA rebound couldn't replace a years-deep NYC
 relationship — and he went back to Alexis.
@@ -170,38 +179,3 @@ Seven Springs orbit raises an unasked question the corpus can probably answer �
 whether she was already known to Dan through skiing rather than only through
 school.
 
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
-
-Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
-
-**This page holds the corpus's typing of Alexis Armel, and that is why two
-passes in one day concluded she was untyped.** The line — Franki as an
-ESFP/"Performer" against *"Alexis's INFP/ISFP 'Idealist,' in a batch of
-self-typology emails he sent himself between July 9 and July 31, 2013"* — is the
-only place in `wiki/` where Alexis carries a type code. A sage answer published
-2026-08-21 first invented an **ISFJ** for her, then corrected itself to *"no
-assessment at all,"* and both were wrong because the datum is filed on the page
-of a five-day rebound rather than on the page of the six-year relationship.
-**Cross-reference it to [[wiki/people/alexis-armel]] with its provenance intact:
-it is Dan typing her, in his own self-typology batch, not an assessment of her**
-— and that distinction is most of its value, because it makes the typing evidence
-about the typer.
-
-**The batch itself deserves a line here.** July 9–31, 2013 produced at least three
-type codes — Franki's ESFP, Alexis's INFP/ISFP, and Dan's own earliest documented
-INTP self-identification ([[wiki/people/elizabeth-eleanor]], July 10–11, 2013,
-*"as an INTP and heavily introverted, logic-based dude"*). That fortnight is the
-origin point of [[wiki/mind/synthesis/the-commissioned-self]]'s pattern, a decade
-before the AI instrumentation that page is mostly built on, and it sits inside the
-five days this page is about.

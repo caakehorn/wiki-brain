@@ -15,7 +15,7 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (8)
+## Obligations (6)
 
 Somebody or something is waiting on each of these. Drain from the top.
 
@@ -24,8 +24,6 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 
 | P | Kind | What | Where | Since |
 |---|---|---|---|---|
-| 2 | sage-close | staged answer on people/bekah-fullem, not integrated | `wiki/people/bekah-fullem.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on people/franki-faris, not integrated | `wiki/people/franki-faris.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on people/kristin, not integrated | `wiki/people/kristin.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on people/shelbie-breakiron, not integrated | `wiki/people/shelbie-breakiron.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on mind/synthesis/music-as-identity, not integrated | `wiki/mind/synthesis/music-as-identity.md` | 2026-08-22 |
