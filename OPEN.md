@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 46 |
-| Open gaps | 464 |
+| Open gaps | 467 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 55 |
 
@@ -624,9 +624,12 @@ new knowledge available, because no new source is required.
 - **[[wiki/timeline/periods/dark-era-2007-2008]]** — No primary source gives an exact date for the eating disorder's onset, duration, or any point of resolution — the reconstruction above is built entirely from oblique references in later message threads, not from any direct account. The five-month first-use-to-
 - **[[wiki/timeline/periods/full-sail-2008-2010]]** — No message corpus or dated record narrows the "Danielle ends, Alexis begins" sequence to specific weeks within the eighteen-month window; both transitions are established only at the level of "during Full Sail."
 
-### work (3)
+### work (6)
 
 - **[[wiki/work/caviar-courier]]** — No earnings totals or delivery-count summaries are available from this export alone. The notification text does not include dollar amounts.
 - **[[wiki/work/creative-license]]** — The specific mechanism behind the airfare citation — what Dan actually found in the travel-expense records, and whether it involved Walmart/Molson Coors billing as the Gemini session speculates — is unverified; only the fact that he cited it is confirmed. What
 - **[[wiki/work/tech/danmodel]]** — Whether `eval_harness.py`'s blind test was ever run to completion, and what it found, is unknown — the most interesting question the project raises is also the one it left unanswered on disk. The full 34,808-row `reaction_pairs_train.jsonl` (~16MB) exceeds thi
+- **[[wiki/work/tech/max-framework/overview]]** — **No dated version history.** `MAX_PRIME.md` is marked "v1.0," generated April 2026, with an explicit note that it should be updated as gaps are filled — no evidence in the corpus of a v1.1 or later revision.
+- **[[wiki/work/tech/max-framework/overview]]** — **The six Bunker Core projects it names remain individually unverified** — see bunker-core for the full list and the same caveat repeated there: this is Dan's own build list from inside a session, not independent evidence any of the software exists as describe
+- **[[wiki/work/tech/max-framework/overview]]** — **CATO's own bootloader document has not been mined to the same depth MAX_PRIME has been here** — `CATO_BOOTLOADER_DANFRANK.md` and `CATO_conflict_architecture.md` are cited as sources but a dedicated pass reading them to exhaustion, the way this page now does
 

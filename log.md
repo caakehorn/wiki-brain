@@ -1,3 +1,68 @@
+## [2026-08-26] ingest | work | MAX_PRIME.md read to exhaustion — max-framework/overview.md rewritten, bunker-core.md's ecosystem list added, a pre-existing identity flag closed
+
+Standing queue item, `queue.md`'s "Carried over from old repo" section:
+`raw/self/dox-md/MAX_PRIME.md` (367 lines) had never been read in full;
+`wiki/work/tech/max-framework/overview.md` was assembled from fragments
+without it — two identical duplicate "Architecture" tables, bare bullet
+lists throughout, and an agent-chatter note at the bottom ("Notes:
+Raw/tech/max-framework/ empty; populate from...") left in the page,
+directly violating `STYLE_GUIDE.md` prose rules 1 and 6.
+
+**Rewritten in full prose**, first-paragraph test satisfied, duplication
+and chatter removed, nothing factual dropped. New content: the document's
+own `[DOC]`/`[MEM]`/`[INFER]` provenance-tagging convention named and
+explained as a deliberate epistemics choice (worth the same attention this
+wiki gives its own `knowledge:` field); all eight MAX operating axioms
+given full prose treatment instead of bare bullets.
+
+**A pre-existing identity flag, closed.** MAX_PRIME.md (April 2026) marks
+"Tom vs. Tom Maison" `[UNRESOLVED]` — whether the drug-supply contact at
++17249987341 and the platonic-anchor name from session memory are the same
+person. Later ingest work already resolved this (`wiki/people/tom.md`
+documents both names under one page) without ever closing MAX_PRIME's own
+flag; recorded explicitly here as the resolution, with a write-back edge
+on `tom.md` and a one-line `relationship_to_dan: unknown` → `friend`
+infobox fix that had drifted from the page's own body text.
+
+**`wiki/mind/concepts/bunker-core.md` gains its biggest open question
+answered.** That page's own Gaps asked "is this one codebase or a loose
+label for several scripts" — MAX_PRIME Section VI answers directly: six
+named projects (Instruction Forge, Cognitive Foundry, VoidDiagnostic,
+Memory Forge, YAHLATRO, Bibi) plus the "Fortress Protocol" glyph-formatting
+system, none independently verified elsewhere in the corpus. Added at the
+`[MEM]`-tag confidence level the source itself assigns — testimony about
+build intent, not evidence the software runs — with the caveat stated
+explicitly rather than folded into equal-confidence prose alongside the
+page's more verified content.
+
+**A connections-typing convention error, caught and fixed across five
+pages.** Mid-pass, `bin/wiki-connect check` flagged mismatched inverse
+types this pass introduced (an `instantiates`/`evidenced-by` pair that
+should have been `instance-of`/`instantiates`, a `contains` that should
+have been `instance-of`, a `parallels`/`instance-of` mismatch on a
+symmetric type). Traced to a wrong mental model of which direction
+`instantiates`/`instance-of` runs; fixed by reading the established usage
+elsewhere in the corpus (the-cool-metric.md/exocortex.md's existing pair)
+rather than the abstract spec table alone, since the codebase's actual
+convention has the concrete-instance page use `instance-of` toward the
+general-pattern page and vice versa. Also found and removed one duplicate
+edge pre-dating this session (`forensic-method.md` carried two entries to
+the same target with conflicting types and identical claim text).
+
+**A tooling near-miss.** An early edit to `wiki/people/tom.md` (a
+`replace_all: false` block edit ending right at the frontmatter's closing
+`---`) dropped that delimiter, which `bin/wiki-lint` caught immediately as
+"missing frontmatter" on the next gate run — fixed before it could have
+been committed. Recorded because it is exactly the failure mode a
+mid-file edit near a YAML boundary can produce silently if the gates
+aren't run every time.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check` 0 errors, 138 warnings — net cleanup: this pass's
+own typing fixes removed more missing-inverse warnings than the new pages
+and edges added; `bin/wiki-climb check` 0 errors, 0 warnings; 125 unit
+tests pass.
+
 ## [2026-08-26] ingest | self | ANCESTRY_DNA.txt (last inbox item) — redundancy confirmed, one new collateral relative verified
 
 Final inbox item. Read to exhaustion, including recovering the ~116KB

@@ -65,8 +65,14 @@ connections:
     type: evidences
     claim: "The exocortex concept — bootloaders, master prompts, the CATO system — is the primary evidence that LLMs are used as cognitive extensions, not conversation partners."
   - page: wiki/mind/profile/neurodivergence
-    type: evidenced-by
+    type: instantiates
     claim: "The self-identified-autistic claim is a case study in how the bootloader mechanism launders a single unverified assertion into settled fact: three independently-named documents each state it as background rather than argue for it, because each was built by feeding the model the prior ones as ground truth."
+  - page: wiki/work/tech/max-framework/overview
+    type: contains
+    claim: "CATO and MAX are the exocortex concept's two most fully specified instances — a general bootloader mechanism split here into a named forensic-input engine and a named adversarial-output engine, each with its own axioms and formatting rules."
+  - page: wiki/mind/concepts/bunker-core
+    type: instantiates
+    claim: "Cognitive Foundry — a four-phase Claude-API app for generating 'cognitive prosthetics' — is the exocortex metaphor built as standalone software rather than deployed as a pasteable session config, the clearest case of it becoming a literal build target."
 ---
 
 

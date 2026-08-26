@@ -115,6 +115,9 @@ connections:
   - page: wiki/mind/profile/lexicon
     type: instantiates
     claim: "A model asked to formalize an observed speech pattern into a standing, reusable generator — commissioned, named 'v1.0,' built for indefinite reuse — is the same apparatus this page documents for crisis and self-analysis, applied for the first time to humor and affection rather than threat."
+  - page: wiki/work/tech/max-framework/overview
+    type: instantiates
+    claim: "The CATO/MAX split — named, axiom-bearing, pasteable configuration documents rather than casual habits — is the fullest-specified single case of the cognitive-extension pattern this page documents at the corpus level."
 ---
 
 

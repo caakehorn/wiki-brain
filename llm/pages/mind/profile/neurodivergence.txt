@@ -29,10 +29,13 @@ connections:
     type: parallels
     claim: "A 23,286-word casual-texting vocabulary and a 2,465-instance 'because' count — language used to think rather than to relate — is the same pattern the corpus's own autism framing describes as reaching for words as a processing tool, not a communication tool."
   - page: wiki/self/context-core
-    type: evidenced-by
+    type: component-of
     claim: "The spine's one-line identity summary carries 'self-identified autistic' as settled fact; this page is where that claim's actual sourcing — three convergent AI-secondary documents, zero clinical or diagnostic record — is laid out and qualified."
+  - page: wiki/self/overview
+    type: component-of
+    claim: "'Self-identified autistic' sits in the same sentence as his date of birth and politics on the biographical summary; this page is where that identity marker's actual sourcing and open questions live."
   - page: wiki/mind/concepts/exocortex
-    type: instantiates
+    type: instance-of
     claim: "The autism claim itself was produced inside the same AI-collaborative sessions the exocortex page documents as Dan's primary self-knowledge mechanism — a label arrived at through, and repeated across, bootloader-style documents rather than through any process outside them."
 ---
 

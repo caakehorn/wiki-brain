@@ -51,7 +51,7 @@ connections:
     type: evidenced-by
     claim: "The one documented case of Dan losing a round inside his own filter: the August 18, 2026 Skins exchange, where Ally claims the subcultural reference outright and he does not adjudicate — the metric's only recorded upper bound."
   - page: wiki/mind/profile/lexicon
-    type: instance-of
+    type: parallels
     claim: "Even the smallest unit of private speech gets engineered rather than said plainly — a twelve-category, deliberately-constructed compliment generator built so 'you're pretty' never has to be the un-curated, off-the-shelf version — the anti-normie commitment running on affection instead of music or politics."
 ---
 

@@ -14,10 +14,10 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 515 |
-| Pages touched in the last 14 days | 186 |
+| Pages touched in the last 14 days | 188 |
 | Pages reasoning from other pages (`synthesizes:`) | 44 |
 | Live contradictions | 46 |
-| Open gaps | 464 |
+| Open gaps | 467 |
 | Standing predictions | 55 |
 
 ## By domain
@@ -47,7 +47,8 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-26** — 79 pages
+**2026-08-26** — 82 pages
+  - ingest | work | MAX_PRIME.md read to exhaustion — max-framework/overview.md rewritten, bunker-core.md's ecosystem list added, a pre-existing identity flag closed
   - ingest | self | ANCESTRY_DNA.txt (last inbox item) — redundancy confirmed, one new collateral relative verified
   - ingest | mind | new page: Dan's Bespoke Lexicon — operator-supplied capture
   - ingest | self | inbox drained: duplicate manifest identified, personality-profile capture filed
