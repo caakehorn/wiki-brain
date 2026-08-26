@@ -12,7 +12,14 @@ sources:
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/gemini-activity/Gemini Activity.html"
 tags: [music-production, personality-profile, digital-footprint]
+synthesizes:
+  - wiki/interests/favorites/music/artists/fall-out-boy
+  - wiki/interests/the-office
+  - wiki/timeline/events/teen-concert-years
 connections:
+  - page: wiki/interests/the-office
+    type: contains
+    claim: "The Schrute Farms alias is the itinerary/devotion mode's clearest proof of insider status: a fan who clocks and carries an in-joke for twelve years was let into the scene's own sense of humor, not just watching from outside it."
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Music is the domain 'The Irreversibility Firewall' barely touches, and prediction 2 (trust tracks absence of authorship) says why: it is one of the least-deliberately-optimized threads in the record, which is exactly what makes it safe to let run for the whole documented life without an audit ever landing on it."

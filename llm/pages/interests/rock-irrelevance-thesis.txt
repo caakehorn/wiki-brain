@@ -3,7 +3,7 @@ domain: interests
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-18
+date_modified: 2026-08-26
 sources: ["raw/self/chats/The 2nd most famous 'Jimmy Pop' in Pennsylvania .md"]
 related: ["wiki/interests/favorites/music", "wiki/interests/favorites/music/artists/", "wiki/interests/music/concepts/sub-bass-signature", "wiki/self/context-core", "wiki/self/favorites"]
 tags: [music-production, ai-collaboration]
@@ -14,6 +14,9 @@ connections:
   - page: wiki/timeline/events/james-analysis-pdf
     type: precedes
     claim: "The rock-is-dead argument and the profile that ended the friendship come out of the same ChatGPT session on the same afternoon, roughly an hour apart."
+  - page: wiki/interests/the-office
+    type: parallels
+    claim: "Both pages document media consumed for its idiom rather than for canonical prestige — this thesis argues genre status doesn't track cultural function, and the-office.md's 'that's what she said' reflex is the same disconnect running on a sitcom instead of a genre."
 ---
 
 # The 2nd Most Famous 'Jimmy Pop' in Pennsylvania

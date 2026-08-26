@@ -1,3 +1,39 @@
+## [2026-08-26] climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
+
+`bin/wiki-climb candidates` flagged a link-dense cluster —
+`wiki/interests/favorites/music/artists/fall-out-boy`,
+`wiki/interests/the-office`, `wiki/timeline/events/teen-concert-years`,
+and the existing `wiki/mind/synthesis/music-as-identity` — as unclimbed.
+Reading all four: the synthesis wasn't missing, it was already written
+(music-as-identity.md's "four modes music has actually served" already
+names all three as facets), just never formalized with a `synthesizes:`
+field, so the mechanical scan couldn't see that the question was answered
+and kept re-flagging it. Per `SYNTHESIS_SPEC.md` step 3, writing a new
+page here would have been the banned move — "these things are
+related" restated as if new — so the real work was completing the wiring
+rather than adding prose.
+
+**What was actually missing:** `wiki/interests/the-office.md` had no
+edge back into `music-as-identity.md` at all (only a loose `related:`
+entry), was still on the deprecated `related:` frontmatter format, and
+carried a banned `## Related` footer (`STYLE_GUIDE.md`: "if a link
+deserves to exist it deserves a typed edge and a claim"). Retrofitted in
+full: `connections:` with five real claims (fall-out-boy, teen-concert-years,
+deviance-mapping, rock-irrelevance-thesis, music-as-identity), footer
+removed. `music-as-identity.md` gained the formal `synthesizes:` field
+naming its three members, closing the gap the scanner was actually
+catching. `wiki/timeline/events/teen-concert-years.md` lost its own
+banned `## Related` footer in the same pass (one sentence of real prose
+inside it preserved, merged into the surrounding paragraph).
+
+Re-ran `bin/wiki-climb candidates` after: the cluster no longer appears
+(25 clusters remain, was flagging this one before).
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check` 0 errors, 136 warnings (down again — net
+cleanup); `bin/wiki-climb check` 0 errors, 0 warnings, 45 pages now carry
+`synthesizes:`; 125 unit tests pass.
+
 ## [2026-08-26] ingest | mind | the ideal-face specification — a mystery queue item resolved
 
 `queue.md` flagged an unexplained recurring "facial-feature/ideal-face"

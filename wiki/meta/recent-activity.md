@@ -23,13 +23,16 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-26 — 84 pages
+## 2026-08-26 — 88 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/cocaine]] | health | **RE-CHECKED** — flagged stale against acquisition-drive (2026-08-26), which added a closure-not-completion refinement built on the Fran vigil quote — unrelated to cocaine. **No claim on this page is affected.** **RE- |
 | [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — flagged stale against cocaine (2026-08-26), which added a happiness-rate counter-measure to the same dosage arc this page already cites (1g/day → 3.5–7g/day → 0.5–1g/day tracking the inheritance). **T |
+| [[wiki/interests/favorites/music/artists/fall-out-boy]] | interests | — |
 | [[wiki/interests/food-and-diet]] | interests | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-26), which added a section on the metric's one documented upper bound (the Ally Skins exchange) and removed its `sage_pending` staging. The food-exemptio |
+| [[wiki/interests/rock-irrelevance-thesis]] | interests | — |
+| [[wiki/interests/the-office]] | interests | — |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/index]] | meta | — |
 | [[wiki/meta/journeys/index]] | meta | — |
@@ -107,6 +110,7 @@ simply listed.
 | [[wiki/self/context-core]] | self | _(carries a CORRECTED)_ |
 | [[wiki/self/overview]] | self | — |
 | [[wiki/timeline/events/fran-death-vigil]] | timeline | _(carries a CORRECTED from 2026-08-18)_ |
+| [[wiki/timeline/events/teen-concert-years]] | timeline | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/timeline/periods/2020-2021-market-era]] | timeline | **RE-CHECKED** — `bin/wiki-climb check` flagged this page stale against context-core, which moved on 2026-08-26. The premise did not move in substance — the only change on that page was one new `connections:` entry cr |
 | [[wiki/work/bfs-foods]] | work | **CORRECTED** — the sentence above — refusal, then a same-day 36→7 cut — is the story as it was first analyzed, and it is not the sequence Dan later confirmed. Reading a fuller export of the same analysis thread (`Li |
 | [[wiki/work/fastly-fsly]] | work | _(carries a RE-CHECKED from 2026-08-21)_ |
@@ -209,13 +213,12 @@ simply listed.
 | [[wiki/self/concepts/gemini]] | self | **CORRECTED** — An earlier version of this page quoted Gemini's ChatGPT autopsy — "access and replicate a linguistic pattern from a specific subculture without an immediate, top-down ethical override," "every system  |
 | [[wiki/self/youtube-watch-history]] | self | _(carries a REVISED from 2026-07-20)_ |
 
-## 2026-08-18 — 16 pages
+## 2026-08-18 — 15 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/interests/index]] | interests | — |
 | [[wiki/interests/music/concepts/lyrics-as-timbre]] | interests | — |
-| [[wiki/interests/rock-irrelevance-thesis]] | interests | — |
 | [[wiki/people/danielle-onesi]] | people | **CORRECTED** — this paragraph had the identification right and the wiki did not act on it. A separate entity page, `wiki/people/max-danielle-bf`, was created in June 2026 for the same man under the name "Max" — read |
 | [[wiki/people/dave-moore]] | people | — |
 | [[wiki/people/diane-moore]] | people | **CORRECTED** — This page previously titled her *"Diane (Rebecca Diane Van Voorhis Shrum)"* and stated outright that the surname was *"given here as Shrum on the strength of the documented marriage rather than a reco |
@@ -319,7 +322,7 @@ simply listed.
 | [[wiki/people/jack-connor]] | people | — |
 | [[wiki/people/lucy]] | people | — |
 
-## 2026-08-02 — 16 pages
+## 2026-08-02 — 15 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -335,12 +338,11 @@ simply listed.
 | [[wiki/people/vanessa-frank]] | people | _(carries a REVISED from 2026-07-14)_ |
 | [[wiki/timeline/events/bald-eagle-cummings]] | timeline | — |
 | [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
-| [[wiki/timeline/events/teen-concert-years]] | timeline | **CONTRADICTION** — The Facebook "Concerts I've gone to" note dates HIM to **2005-11-09 at Mr. Small's**; the researched list places the Love Metal Tour at **2004-04-21, The Rock Club at Station Square**, with a separate |
 | [[wiki/timeline/events/the-fall-of-fran]] | timeline | **CONTRADICTION** — Both captures behind this page date the sequence to March–April **2017**, and one opens by asserting the date twice. Every independent record in the corpus dates it to **2018**, and they do not depend |
 | [[wiki/timeline/periods/2017-poverty-floor]] | timeline | — |
 | [[wiki/work/nemacolin-caddying]] | work | — |
 
-## 2026-08-01 — 95 pages
+## 2026-08-01 — 94 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -380,7 +382,6 @@ simply listed.
 | [[wiki/interests/favorites/music/artists/deftones]] | interests | — |
 | [[wiki/interests/favorites/music/artists/disturbed]] | interests | — |
 | [[wiki/interests/favorites/music/artists/every-avenue]] | interests | — |
-| [[wiki/interests/favorites/music/artists/fall-out-boy]] | interests | — |
 | [[wiki/interests/favorites/music/artists/finch]] | interests | — |
 | [[wiki/interests/favorites/music/artists/finger-eleven]] | interests | — |
 | [[wiki/interests/favorites/music/artists/flight-of-the-conchords]] | interests | — |

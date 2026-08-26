@@ -35,6 +35,9 @@ connections:
   - page: wiki/mind/profile/neurodivergence
     type: evidenced-by
     claim: "Three of this audit's top-10 outliers — hyper-specific linguistic style (97), extreme social aversion (90), the intellect/impulsivity paradox (95) — are exactly the cluster an adult self-recognizing autism typically cites, reached independently of the autism claim and never cross-referenced against it until now."
+  - page: wiki/interests/the-office
+    type: evidenced-by
+    claim: "Reading Gordon Sondland's testimony and Dwight Eisenhower's name through this sitcom's specific joke-logic is a small, checkable case of the 'hyper-specific linguistic style' outlier (97/100) — pop-culture schemas doing referential work a plain description could do instead."
 ---
 
 # Deviance Mapping — The Statistical Outlier Audit

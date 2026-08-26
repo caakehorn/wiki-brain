@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-26
-515 pages, ~1,434,123 tokens.
+515 pages, ~1,434,789 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -4085,7 +4085,7 @@ domain: interests
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-01
+date_modified: 2026-08-26
 sources:
   - "raw/self/favorites/FAVS MASTERLIST.csv"
   - "raw/self/dox-scan/Dan Profile.txt"
@@ -4127,6 +4127,9 @@ connections:
   - page: wiki/interests/video-games
     type: co-occurs
     claim: "The 2007 status layer names gaming and 'swooning over the new FOB' in the same breath; the two interests are contemporaneous coordinates of the pre-armor self-presentation."
+  - page: wiki/interests/the-office
+    type: co-occurs
+    claim: "The Nov 19 2007 Buffalo secret show was billed under the fake name 'Schrute Farms' — a sitcom in-joke carried into the band's own concert record and remembered by name twelve years later."
 ---
 
 # Fall Out Boy
@@ -9107,7 +9110,7 @@ domain: interests
 page_type: concept
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-18
+date_modified: 2026-08-26
 sources: ["raw/self/chats/The 2nd most famous 'Jimmy Pop' in Pennsylvania .md"]
 related: ["wiki/interests/favorites/music", "wiki/interests/favorites/music/artists/", "wiki/interests/music/concepts/sub-bass-signature", "wiki/self/context-core", "wiki/self/favorites"]
 tags: [music-production, ai-collaboration]
@@ -9118,6 +9121,9 @@ connections:
   - page: wiki/timeline/events/james-analysis-pdf
     type: precedes
     claim: "The rock-is-dead argument and the profile that ended the friendship come out of the same ChatGPT session on the same afternoon, roughly an hour apart."
+  - page: wiki/interests/the-office
+    type: parallels
+    claim: "Both pages document media consumed for its idiom rather than for canonical prestige — this thesis argues genre status doesn't track cultural function, and the-office.md's 'that's what she said' reflex is the same disconnect running on a sitcom instead of a genre."
 ---
 
 # The 2nd Most Famous 'Jimmy Pop' in Pennsylvania
@@ -9438,18 +9444,29 @@ domain: interests
 page_type: entity
 status: active
 date_created: 2026-07-16
-date_modified: 2026-07-16
+date_modified: 2026-08-26
 sources:
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/dox-scan/FULL TWITTER ANALYSIS.txt"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/facebook/facebook-ihatedanfrank/posts/your_posts_1.html"
-related:
-  - wiki/interests/favorites/music/artists/fall-out-boy
-  - wiki/timeline/events/teen-concert-years
-  - wiki/mind/profile/deviance-mapping
-  - wiki/interests/rock-irrelevance-thesis
 tags: [personality-profile, digital-footprint, nyc-era]
+connections:
+  - page: wiki/interests/favorites/music/artists/fall-out-boy
+    type: co-occurs
+    claim: "The Schrute Farms alias fuses this show into the single most-attended band's concert record — a joke from one media object carried twelve years and reused inside another fandom's timeline, rather than staying siloed to its own."
+  - page: wiki/timeline/events/teen-concert-years
+    type: contains
+    claim: "The Nov 19 2007 Buffalo secret show, billed as 'Schrute Farms,' is the one dated, verifiable instance where this show's idiom enters the concert record directly rather than staying a rhetorical habit."
+  - page: wiki/mind/profile/deviance-mapping
+    type: evidences
+    claim: "Reading public figures (Gordon Sondland, Dwight Eisenhower) through this show's specific joke-logic is a small, checkable instance of the audit's 'hyper-specific linguistic style' outlier — pop-culture schemas doing referential work a plain description could do instead."
+  - page: wiki/interests/rock-irrelevance-thesis
+    type: parallels
+    claim: "Both pages document media consumed for its idiom rather than for canonical prestige — the rock-irrelevance thesis argues genre status doesn't track cultural function, and this page's 'that's what she said' reflex is the same disconnect running on a sitcom instead of a genre."
+  - page: wiki/mind/synthesis/music-as-identity
+    type: component-of
+    claim: "The Schrute Farms alias is the itinerary/devotion mode's clearest proof of insider status: a fan who clocks and carries an in-joke for twelve years was let into the scene's own sense of humor, not just watching from outside it."
 ---
 
 # The Office (TV)
@@ -9493,10 +9510,6 @@ it supplied (a) a concert-alias identity, (b) a standing rhetorical tic,
 and (c) a frame for reading politics. The meaning is real and
 under-documented, not absent. It is logged here so the FOB secret-show
 entry and the political-psyops material have somewhere to point.
-
-## Related
-
-[[wiki/interests/favorites/music/artists/fall-out-boy]] · [[wiki/timeline/events/teen-concert-years]] · [[wiki/mind/profile/deviance-mapping]] · [[wiki/interests/rock-irrelevance-thesis]]
 
 
 ========================================================================
@@ -10272,8 +10285,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 515 |
-| Pages touched in the last 14 days | 188 |
-| Pages reasoning from other pages (`synthesizes:`) | 44 |
+| Pages touched in the last 14 days | 191 |
+| Pages reasoning from other pages (`synthesizes:`) | 45 |
 | Live contradictions | 46 |
 | Open gaps | 467 |
 | Standing predictions | 55 |
@@ -10305,7 +10318,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-26** — 84 pages
+**2026-08-26** — 88 pages
+  - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
   - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
   - close | work | BFS Foods drawer dispute — the retaliation-timing sequence corrected against Dan's own testimony
@@ -10389,6 +10403,7 @@ have moved since.
 - [[wiki/mind/synthesis/fayette-return]] — 6 premises
 - [[wiki/mind/synthesis/instrument-is-subject]] — 4 premises
 - [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] — 6 premises
+- [[wiki/mind/synthesis/music-as-identity]] — 3 premises
 - [[wiki/mind/synthesis/read-receipt-forensics]] — 2 premises
 - [[wiki/mind/synthesis/single-channel]] — 6 premises
 - [[wiki/mind/synthesis/supply-network]] — 9 premises
@@ -11517,13 +11532,16 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-26 — 84 pages
+## 2026-08-26 — 88 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/cocaine]] | health | **RE-CHECKED** — flagged stale against acquisition-drive (2026-08-26), which added a closure-not-completion refinement built on the Fran vigil quote — unrelated to cocaine. **No claim on this page is affected.** **RE- |
 | [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — flagged stale against cocaine (2026-08-26), which added a happiness-rate counter-measure to the same dosage arc this page already cites (1g/day → 3.5–7g/day → 0.5–1g/day tracking the inheritance). **T |
+| [[wiki/interests/favorites/music/artists/fall-out-boy]] | interests | — |
 | [[wiki/interests/food-and-diet]] | interests | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-26), which added a section on the metric's one documented upper bound (the Ally Skins exchange) and removed its `sage_pending` staging. The food-exemptio |
+| [[wiki/interests/rock-irrelevance-thesis]] | interests | — |
+| [[wiki/interests/the-office]] | interests | — |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/index]] | meta | — |
 | [[wiki/meta/journeys/index]] | meta | — |
@@ -11601,6 +11619,7 @@ simply listed.
 | [[wiki/self/context-core]] | self | _(carries a CORRECTED)_ |
 | [[wiki/self/overview]] | self | — |
 | [[wiki/timeline/events/fran-death-vigil]] | timeline | _(carries a CORRECTED from 2026-08-18)_ |
+| [[wiki/timeline/events/teen-concert-years]] | timeline | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/timeline/periods/2020-2021-market-era]] | timeline | **RE-CHECKED** — `bin/wiki-climb check` flagged this page stale against context-core, which moved on 2026-08-26. The premise did not move in substance — the only change on that page was one new `connections:` entry cr |
 | [[wiki/work/bfs-foods]] | work | **CORRECTED** — the sentence above — refusal, then a same-day 36→7 cut — is the story as it was first analyzed, and it is not the sequence Dan later confirmed. Reading a fuller export of the same analysis thread (`Li |
 | [[wiki/work/fastly-fsly]] | work | _(carries a RE-CHECKED from 2026-08-21)_ |
@@ -11703,13 +11722,12 @@ simply listed.
 | [[wiki/self/concepts/gemini]] | self | **CORRECTED** — An earlier version of this page quoted Gemini's ChatGPT autopsy — "access and replicate a linguistic pattern from a specific subculture without an immediate, top-down ethical override," "every system  |
 | [[wiki/self/youtube-watch-history]] | self | _(carries a REVISED from 2026-07-20)_ |
 
-## 2026-08-18 — 16 pages
+## 2026-08-18 — 15 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/interests/index]] | interests | — |
 | [[wiki/interests/music/concepts/lyrics-as-timbre]] | interests | — |
-| [[wiki/interests/rock-irrelevance-thesis]] | interests | — |
 | [[wiki/people/danielle-onesi]] | people | **CORRECTED** — this paragraph had the identification right and the wiki did not act on it. A separate entity page, `wiki/people/max-danielle-bf`, was created in June 2026 for the same man under the name "Max" — read |
 | [[wiki/people/dave-moore]] | people | — |
 | [[wiki/people/diane-moore]] | people | **CORRECTED** — This page previously titled her *"Diane (Rebecca Diane Van Voorhis Shrum)"* and stated outright that the surname was *"given here as Shrum on the strength of the documented marriage rather than a reco |
@@ -11813,7 +11831,7 @@ simply listed.
 | [[wiki/people/jack-connor]] | people | — |
 | [[wiki/people/lucy]] | people | — |
 
-## 2026-08-02 — 16 pages
+## 2026-08-02 — 15 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11829,12 +11847,11 @@ simply listed.
 | [[wiki/people/vanessa-frank]] | people | _(carries a REVISED from 2026-07-14)_ |
 | [[wiki/timeline/events/bald-eagle-cummings]] | timeline | — |
 | [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
-| [[wiki/timeline/events/teen-concert-years]] | timeline | **CONTRADICTION** — The Facebook "Concerts I've gone to" note dates HIM to **2005-11-09 at Mr. Small's**; the researched list places the Love Metal Tour at **2004-04-21, The Rock Club at Station Square**, with a separate |
 | [[wiki/timeline/events/the-fall-of-fran]] | timeline | **CONTRADICTION** — Both captures behind this page date the sequence to March–April **2017**, and one opens by asserting the date twice. Every independent record in the corpus dates it to **2018**, and they do not depend |
 | [[wiki/timeline/periods/2017-poverty-floor]] | timeline | — |
 | [[wiki/work/nemacolin-caddying]] | work | — |
 
-## 2026-08-01 — 95 pages
+## 2026-08-01 — 94 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11874,7 +11891,6 @@ simply listed.
 | [[wiki/interests/favorites/music/artists/deftones]] | interests | — |
 | [[wiki/interests/favorites/music/artists/disturbed]] | interests | — |
 | [[wiki/interests/favorites/music/artists/every-avenue]] | interests | — |
-| [[wiki/interests/favorites/music/artists/fall-out-boy]] | interests | — |
 | [[wiki/interests/favorites/music/artists/finch]] | interests | — |
 | [[wiki/interests/favorites/music/artists/finger-eleven]] | interests | — |
 | [[wiki/interests/favorites/music/artists/flight-of-the-conchords]] | interests | — |
@@ -17064,6 +17080,9 @@ connections:
   - page: wiki/mind/profile/neurodivergence
     type: evidenced-by
     claim: "Three of this audit's top-10 outliers — hyper-specific linguistic style (97), extreme social aversion (90), the intellect/impulsivity paradox (95) — are exactly the cluster an adult self-recognizing autism typically cites, reached independently of the autism claim and never cross-referenced against it until now."
+  - page: wiki/interests/the-office
+    type: evidenced-by
+    claim: "Reading Gordon Sondland's testimony and Dwight Eisenhower's name through this sitcom's specific joke-logic is a small, checkable case of the 'hyper-specific linguistic style' outlier (97/100) — pop-culture schemas doing referential work a plain description could do instead."
 ---
 
 # Deviance Mapping — The Statistical Outlier Audit
@@ -27822,7 +27841,14 @@ sources:
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/gemini-activity/Gemini Activity.html"
 tags: [music-production, personality-profile, digital-footprint]
+synthesizes:
+  - wiki/interests/favorites/music/artists/fall-out-boy
+  - wiki/interests/the-office
+  - wiki/timeline/events/teen-concert-years
 connections:
+  - page: wiki/interests/the-office
+    type: contains
+    claim: "The Schrute Farms alias is the itinerary/devotion mode's clearest proof of insider status: a fan who clocks and carries an in-joke for twelve years was let into the scene's own sense of humor, not just watching from outside it."
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Music is the domain 'The Irreversibility Firewall' barely touches, and prediction 2 (trust tracks absence of authorship) says why: it is one of the least-deliberately-optimized threads in the record, which is exactly what makes it safe to let run for the whole documented life without an audit ever landing on it."
@@ -73778,7 +73804,7 @@ aliases: ["teen concert years", "the itinerary"]
 status: stable
 knowledge: mixed
 date_created: 2026-07-16
-date_modified: 2026-08-02
+date_modified: 2026-08-26
 sources:
   - raw/interests/captures/2026-08-01_222556_concerts-update.md
   - raw/interests/captures/2026-08-01_222556_concerts-researched.csv
@@ -73808,6 +73834,9 @@ connections:
   - page: wiki/timeline/events/robotussin-s-last-dance
     type: contains
     claim: "This is an off-record member of the 2005 concert record: Tom Petty at Post-Gazette Pavilion on a night Dan never made it inside, the only concert date in the corpus where the destination is reached and the show is missed simultaneously."
+  - page: wiki/interests/the-office
+    type: component-of
+    claim: "The Nov 19 2007 Buffalo secret show, billed as 'Schrute Farms,' is the one dated, verifiable instance where this show's idiom enters the concert record directly rather than staying a rhetorical habit."
 ---
 
 
@@ -73944,11 +73973,9 @@ the message-corpora forensics and the wiki itself: a teenager who logs
 every show he attends and remembers the fake name on the marquee is
 already running the archival reflex the rest of the corpus documents.
 
-## Related
-
-[[wiki/interests/favorites/music/artists/fall-out-boy]] · [[wiki/interests/favorites/music/artists/my-chemical-romance]] · [[wiki/interests/favorites/music/artists/say-anything]] · [[wiki/interests/the-office]] · [[wiki/mind/psychosexual/developmental-origins]]
-
-This record is the itinerary/devotion facet of the four-mode thesis at [[wiki/mind/synthesis/music-as-identity]] — fandom run as logistics, the mid-2000s scene followed city to city.
+This record is the itinerary/devotion facet of the four-mode thesis at
+[[wiki/mind/synthesis/music-as-identity]] — fandom run as logistics, the
+mid-2000s scene followed city to city.
 
 
 ========================================================================

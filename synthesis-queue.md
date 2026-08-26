@@ -12,47 +12,47 @@ Mark entries `CLIMBED -> <page>` or `REJECTED — <reason>` as you work.
 
 | # | score | domains | members |
 |---|---|---|---|
-| 1 | 12.90 | people, self, timeline | [[wiki/people/annie-ulmer]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · [[wiki/timeline/periods/2017-poverty-floor]] |
-| 2 | 12.20 | mind, people, self, timeline, work | [[wiki/mind/concepts/forensic-method]] · [[wiki/people/annie-ulmer]] · [[wiki/self/chats/gemini-07]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] · [[wiki/work/au-zaatar]] |
-| 3 | 12.20 | mind, people, places, self, timeline | [[wiki/mind/synthesis/spatial-behavior]] · [[wiki/people/annie-ulmer]] · [[wiki/places/307-e-76th-st]] · [[wiki/self/location-history]] · [[wiki/timeline/master-timeline]] |
-| 4 | 12.20 | mind, people, places, self, timeline | [[wiki/mind/synthesis/spatial-behavior]] · [[wiki/people/annie-ulmer]] · [[wiki/places/337-saratoga-drive]] · [[wiki/self/location-history]] · [[wiki/timeline/master-timeline]] |
-| 5 | 11.20 | mind, people, self, timeline | [[wiki/mind/concepts/forensic-method]] · [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/people/annie-ulmer]] · [[wiki/people/eli]] · [[wiki/self/chats/gemini-07]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] |
-| 6 | 11.20 | people, self, timeline, work | [[wiki/people/dimitri]] · [[wiki/self/chats/gemini-07]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] · [[wiki/work/au-zaatar]] |
-| 7 | 11.20 | people, self, timeline, work | [[wiki/people/annie-ulmer]] · [[wiki/self/chats/gemini-18]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] · [[wiki/timeline/periods/2025-collapse]] · [[wiki/work/au-zaatar]] |
-| 8 | 11.20 | people, self, timeline, work | [[wiki/people/annie-ulmer]] · [[wiki/self/chats/gemini-07]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] · [[wiki/timeline/periods/2025-collapse]] · [[wiki/work/au-zaatar]] |
-| 9 | 11.20 | mind, people, self, timeline | [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/people/eli]] · [[wiki/self/chats/danfrank-isms-pinned]] · [[wiki/self/context-core]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] |
-| 10 | 11.20 | mind, people, self, timeline | [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/people/annie-ulmer]] · [[wiki/people/eli]] · [[wiki/self/chats/gemini-18]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] |
-| 11 | 11.20 | mind, people, self, timeline | [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/people/annie-ulmer]] · [[wiki/people/eli]] · [[wiki/self/chats/gemini-07]] · [[wiki/self/context-core]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] |
-| 12 | 10.90 | interests, mind, timeline | [[wiki/interests/favorites/music/artists/fall-out-boy]] · [[wiki/interests/the-office]] · [[wiki/mind/synthesis/music-as-identity]] · [[wiki/timeline/events/teen-concert-years]] |
-| 13 | 10.90 | people, self, timeline | [[wiki/people/annie-ulmer]] · [[wiki/self/facebook]] · [[wiki/self/facebook/messages]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/timeline/periods/2015-2016-annie-relationship-start]] |
-| 14 | 10.80 | people, self, timeline, work | [[wiki/people/dimitri]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] · [[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/work/au-zaatar]] |
-| 15 | 10.80 | mind, people, self, timeline | [[wiki/mind/concepts/forensic-method]] · [[wiki/people/annie-ulmer]] · [[wiki/self/chats/j6-chat]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] |
-| 16 | 10.80 | people, self, timeline, work | [[wiki/people/annie-ulmer]] · [[wiki/self/context-core]] · [[wiki/self/facebook]] · [[wiki/self/location-history]] · [[wiki/timeline/master-timeline]] · [[wiki/timeline/periods/2018-deep-cycle]] · [[wiki/work/au-zaatar]] |
-| 17 | 10.80 | mind, people, places, timeline | [[wiki/mind/synthesis/bond-switch-2015]] · [[wiki/people/annie-ulmer]] · [[wiki/people/zach-clingan]] · [[wiki/people/zachariah-harshman]] · [[wiki/places/155-virginia-ave]] · [[wiki/timeline/master-timeline]] |
-| 18 | 10.80 | people, self, timeline, work | [[wiki/people/annie-ulmer]] · [[wiki/people/valeria-iglesias-cid]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] · [[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/work/au-zaatar]] |
-| 19 | 10.80 | interests, mind, people, timeline | [[wiki/interests/favorites/music/artists/taking-back-sunday]] · [[wiki/mind/concepts/attachment-model]] · [[wiki/people/eli]] · [[wiki/timeline/master-timeline]] |
-| 20 | 10.80 | people, self, timeline, work | [[wiki/people/annie-ulmer]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] · [[wiki/timeline/periods/2021-2023-employment-block]] · [[wiki/timeline/periods/2025-collapse]] · [[wiki/work/au-zaatar]] |
-| 21 | 10.80 | mind, people, self, timeline | [[wiki/mind/concepts/forensic-method]] · [[wiki/mind/synthesis/ancestral-dialectic]] · [[wiki/people/annie-ulmer]] · [[wiki/people/eli]] · [[wiki/self/overview]] · [[wiki/timeline/master-timeline]] |
-| 22 | 10.80 | mind, people, self, timeline | [[wiki/mind/concepts/forensic-method]] · [[wiki/people/annie-ulmer]] · [[wiki/self/facebook]] · [[wiki/self/facebook/messages]] · [[wiki/timeline/master-timeline]] |
-| 23 | 10.80 | mind, people, timeline, work | [[wiki/mind/synthesis/vertical-authority-skepticism]] · [[wiki/people/anita]] · [[wiki/people/kim]] · [[wiki/timeline/master-timeline]] · [[wiki/work/bfs-foods]] |
-| 24 | 10.80 | people, self, timeline, work | [[wiki/people/annie-ulmer]] · [[wiki/people/tom]] · [[wiki/self/chats/gemini-18]] · [[wiki/timeline/master-timeline]] · [[wiki/timeline/periods/2025-collapse]] · [[wiki/work/bfs-foods]] |
-| 25 | 10.80 | people, self, timeline, work | [[wiki/people/annie-ulmer]] · [[wiki/self/chats/gemini-07]] · [[wiki/self/context-core]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] · [[wiki/work/au-zaatar]] |
+| 1 | 13.60 | legal, meta, people, self, timeline, work | [[wiki/legal/463-morgantown]] · [[wiki/meta/recent-activity]] · [[wiki/people/annie-ulmer]] · [[wiki/self/context-core]] · [[wiki/self/overview]] · [[wiki/timeline/master-timeline]] · [[wiki/work/bfs-foods]] |
+| 2 | 13.60 | meta, mind, people, self, timeline, work | [[wiki/meta/recent-activity]] · [[wiki/mind/concepts/forensic-method]] · [[wiki/people/annie-ulmer]] · [[wiki/self/overview]] · [[wiki/timeline/master-timeline]] · [[wiki/work/au-zaatar]] · [[wiki/work/bfs-foods]] |
+| 3 | 13.60 | meta, mind, people, places, timeline, work | [[wiki/meta/recent-activity]] · [[wiki/mind/synthesis/vertical-authority-skepticism]] · [[wiki/people/kevin-mckiernan]] · [[wiki/places/90th-st-manhattan]] · [[wiki/timeline/master-timeline]] · [[wiki/work/creative-license]] |
+| 4 | 13.60 | meta, people, places, self, timeline, work | [[wiki/meta/recent-activity]] · [[wiki/people/annie-ulmer]] · [[wiki/places/307-e-76th-st]] · [[wiki/self/location-history]] · [[wiki/timeline/master-timeline]] · [[wiki/work/au-zaatar]] |
+| 5 | 12.90 | people, self, timeline | [[wiki/people/annie-ulmer]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/periods/2015-2016-annie-relationship-start]] · [[wiki/timeline/periods/2017-poverty-floor]] |
+| 6 | 12.60 | meta, mind, people, places, timeline | [[wiki/meta/recent-activity]] · [[wiki/mind/synthesis/bond-switch-2015]] · [[wiki/people/annie-ulmer]] · [[wiki/people/zach-clingan]] · [[wiki/people/zachariah-harshman]] · [[wiki/places/155-virginia-ave]] · [[wiki/timeline/master-timeline]] |
+| 7 | 12.60 | meta, mind, people, places, timeline | [[wiki/meta/recent-activity]] · [[wiki/mind/psychosexual/arrangement-history]] · [[wiki/people/annie-ulmer]] · [[wiki/people/danny-matthews]] · [[wiki/people/fran-coldren]] · [[wiki/places/117-belmont-circle]] · [[wiki/timeline/events/the-fall-of-fran]] · [[wiki/timeline/master-timeline]] |
+| 8 | 12.60 | meta, people, self, timeline, work | [[wiki/meta/recent-activity]] · [[wiki/people/annie-ulmer]] · [[wiki/self/context-core]] · [[wiki/self/location-history]] · [[wiki/self/overview]] · [[wiki/timeline/master-timeline]] · [[wiki/work/au-zaatar]] |
+| 9 | 12.60 | meta, mind, people, places, timeline | [[wiki/meta/open-questions]] · [[wiki/meta/recent-activity]] · [[wiki/mind/psychosexual/arrangement-history]] · [[wiki/people/annie-ulmer]] · [[wiki/people/danny-matthews]] · [[wiki/people/fran-coldren]] · [[wiki/places/117-belmont-circle]] · [[wiki/timeline/events/the-fall-of-fran]] |
+| 10 | 12.20 | meta, people, self, timeline, work | [[wiki/meta/recent-activity]] · [[wiki/people/annie-ulmer]] · [[wiki/self/context-core]] · [[wiki/self/overview]] · [[wiki/timeline/master-timeline]] · [[wiki/work/au-zaatar]] · [[wiki/work/bfs-foods]] |
+| 11 | 12.20 | meta, mind, people, self, timeline | [[wiki/meta/recent-activity]] · [[wiki/mind/concepts/forensic-method]] · [[wiki/mind/synthesis/ancestral-dialectic]] · [[wiki/people/annie-ulmer]] · [[wiki/people/rick-frank]] · [[wiki/self/overview]] · [[wiki/timeline/master-timeline]] |
+| 12 | 12.20 | mind, people, self, timeline, work | [[wiki/mind/concepts/forensic-method]] · [[wiki/people/annie-ulmer]] · [[wiki/self/chats/gemini-07]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/master-timeline]] · [[wiki/work/au-zaatar]] |
+| 13 | 12.20 | interests, meta, people, places, timeline | [[wiki/interests/favorites/books]] · [[wiki/meta/recent-activity]] · [[wiki/people/jacob-bacharach]] · [[wiki/places/155-virginia-ave]] · [[wiki/timeline/master-timeline]] |
+| 14 | 12.20 | meta, mind, people, self, timeline | [[wiki/meta/recent-activity]] · [[wiki/mind/synthesis/ancestral-dialectic]] · [[wiki/mind/synthesis/vertical-authority-skepticism]] · [[wiki/people/rick-frank]] · [[wiki/self/ancestry]] · [[wiki/self/overview]] · [[wiki/timeline/master-timeline]] |
+| 15 | 12.20 | meta, mind, people, self, timeline | [[wiki/meta/recent-activity]] · [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/people/max]] · [[wiki/self/context-core]] · [[wiki/timeline/master-timeline]] |
+| 16 | 12.20 | mind, people, places, self, timeline | [[wiki/mind/synthesis/spatial-behavior]] · [[wiki/people/annie-ulmer]] · [[wiki/places/307-e-76th-st]] · [[wiki/self/location-history]] · [[wiki/timeline/master-timeline]] |
+| 17 | 12.20 | meta, people, self, timeline, work | [[wiki/meta/recent-activity]] · [[wiki/people/annie-ulmer]] · [[wiki/self/context-core]] · [[wiki/self/location-history]] · [[wiki/timeline/master-timeline]] · [[wiki/timeline/periods/2018-deep-cycle]] · [[wiki/work/au-zaatar]] |
+| 18 | 12.20 | meta, mind, people, self, timeline | [[wiki/meta/recent-activity]] · [[wiki/mind/synthesis/ancestral-dialectic]] · [[wiki/people/david-j-frank]] · [[wiki/people/rick-frank]] · [[wiki/people/sadie-harris]] · [[wiki/self/overview]] · [[wiki/timeline/master-timeline]] |
+| 19 | 12.20 | meta, mind, people, places, timeline | [[wiki/meta/recent-activity]] · [[wiki/mind/synthesis/bond-switch-2015]] · [[wiki/people/alexis-armel]] · [[wiki/people/annie-ulmer]] · [[wiki/places/155-virginia-ave]] · [[wiki/timeline/master-timeline]] · [[wiki/timeline/periods/uniontown-return-2013-2015]] |
+| 20 | 12.20 | meta, mind, people, places, timeline | [[wiki/meta/recent-activity]] · [[wiki/mind/synthesis/bond-switch-2015]] · [[wiki/people/alexis-armel]] · [[wiki/people/annie-ulmer]] · [[wiki/people/zachariah-harshman]] · [[wiki/places/155-virginia-ave]] · [[wiki/timeline/master-timeline]] |
+| 21 | 12.20 | mind, people, places, self, timeline | [[wiki/mind/synthesis/spatial-behavior]] · [[wiki/people/annie-ulmer]] · [[wiki/places/337-saratoga-drive]] · [[wiki/self/location-history]] · [[wiki/timeline/master-timeline]] |
+| 22 | 12.20 | meta, mind, self, timeline, work | [[wiki/meta/recent-activity]] · [[wiki/mind/synthesis/vertical-authority-skepticism]] · [[wiki/self/overview]] · [[wiki/timeline/master-timeline]] · [[wiki/work/au-zaatar]] · [[wiki/work/bfs-foods]] |
+| 23 | 12.00 | meta, mind, people, timeline | [[wiki/meta/recent-activity]] · [[wiki/mind/synthesis/bond-switch-2015]] · [[wiki/people/annie-ulmer]] · [[wiki/people/casey-bondarenka]] · [[wiki/people/ellen-ulmer]] · [[wiki/timeline/annie-read-notes]] · [[wiki/timeline/annie-record]] · [[wiki/timeline/master-timeline]] · [[wiki/timeline/periods/2015-2016-annie-relationship-start]] |
+| 24 | 11.60 | meta, mind, people, timeline | [[wiki/meta/recent-activity]] · [[wiki/mind/synthesis/bond-switch-2015]] · [[wiki/people/alexis-armel]] · [[wiki/people/annie-ulmer]] · [[wiki/people/casey-bondarenka]] · [[wiki/timeline/annie-read-notes]] · [[wiki/timeline/annie-record]] · [[wiki/timeline/master-timeline]] · [[wiki/timeline/periods/2015-2016-annie-relationship-start]] |
+| 25 | 11.60 | meta, people, self, timeline | [[wiki/meta/recent-activity]] · [[wiki/people/dave-moore]] · [[wiki/people/diane-moore]] · [[wiki/self/lineage/family-tree]] · [[wiki/timeline/master-timeline]] |
 
 Shared signals per cluster:
 
-1. tags: ai-collaboration, relationships; 1 shared raw source(s)
+1. link density only
 2. link density only
 3. link density only
 4. link density only
-5. link density only
+5. tags: ai-collaboration, relationships; 1 shared raw source(s)
 6. link density only
 7. link density only
 8. link density only
 9. link density only
 10. link density only
 11. link density only
-12. tags: digital-footprint, personality-profile
-13. tags: relationships, trauma-bond
+12. link density only
+13. link density only
 14. link density only
 15. link density only
 16. link density only

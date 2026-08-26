@@ -6,7 +6,7 @@ aliases: ["teen concert years", "the itinerary"]
 status: stable
 knowledge: mixed
 date_created: 2026-07-16
-date_modified: 2026-08-02
+date_modified: 2026-08-26
 sources:
   - raw/interests/captures/2026-08-01_222556_concerts-update.md
   - raw/interests/captures/2026-08-01_222556_concerts-researched.csv
@@ -36,6 +36,9 @@ connections:
   - page: wiki/timeline/events/robotussin-s-last-dance
     type: contains
     claim: "This is an off-record member of the 2005 concert record: Tom Petty at Post-Gazette Pavilion on a night Dan never made it inside, the only concert date in the corpus where the destination is reached and the show is missed simultaneously."
+  - page: wiki/interests/the-office
+    type: component-of
+    claim: "The Nov 19 2007 Buffalo secret show, billed as 'Schrute Farms,' is the one dated, verifiable instance where this show's idiom enters the concert record directly rather than staying a rhetorical habit."
 ---
 
 
@@ -172,8 +175,6 @@ the message-corpora forensics and the wiki itself: a teenager who logs
 every show he attends and remembers the fake name on the marquee is
 already running the archival reflex the rest of the corpus documents.
 
-## Related
-
-[[wiki/interests/favorites/music/artists/fall-out-boy]] · [[wiki/interests/favorites/music/artists/my-chemical-romance]] · [[wiki/interests/favorites/music/artists/say-anything]] · [[wiki/interests/the-office]] · [[wiki/mind/psychosexual/developmental-origins]]
-
-This record is the itinerary/devotion facet of the four-mode thesis at [[wiki/mind/synthesis/music-as-identity]] — fandom run as logistics, the mid-2000s scene followed city to city.
+This record is the itinerary/devotion facet of the four-mode thesis at
+[[wiki/mind/synthesis/music-as-identity]] — fandom run as logistics, the
+mid-2000s scene followed city to city.
