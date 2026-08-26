@@ -7,7 +7,7 @@ status: stable
 knowledge: earned
 importance: high
 date_created: 2026-08-22
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 tags: [career, personality-profile, financial-stress, music-production, ai-collaboration]
 sources:
   - raw/self/dox-md/Honest assessment and value judgment analysis.md
@@ -63,6 +63,17 @@ connections:
 ---
 
 # Failure to Launch — The Capability Audit
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/synthesis/the-embedded-objective]] and
+> [[wiki/mind/concepts/acquisition-drive]] (both 2026-08-26), which added a
+> distinction between tenure and satisfaction — the Fran vigil is the one
+> commitment in the corpus reported as satisfying, and the embedded-objective
+> page now argues this is because it is the sole case with no host distinct
+> from its payload and a payload with a findable edge. **No claim on this page
+> is affected.** This page's question is capability and transferability, not
+> satisfaction, and the non-transferability of a payload — the mechanism this
+> page depends on — is untouched by either addition.
 
 The question this page was asked is whether Dan is capable, what value he
 actually provides or could provide, and whether any of it is superlative
