@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-26 — 44 pages
+## 2026-08-26 — 46 pages
 
 - **Session log:** close | mind | attachment-trauma-bond — the Ally channel as a control case, cascade re-checked three levels deep
 - **Session log:** close | timeline/mind | estate-money-spine and fran-death-vigil integrated, cascades re-checked
@@ -55,6 +55,8 @@ simply listed.
 | [[wiki/people/annie-ulmer-personality-assessment]] | people | _(carries a RE-CHECKED from 2026-08-23)_ |
 | [[wiki/people/bekah-fullem]] | people | — |
 | [[wiki/people/franki-faris]] | people | _(carries a CONTRADICTION from 2026-08-02)_ |
+| [[wiki/people/kristin]] | people | _(carries a GAP CLOSED from 2026-08-17)_ |
+| [[wiki/people/shelbie-breakiron]] | people | — |
 | [[wiki/people/suzanne-frank]] | people | **RE-CHECKED** — flagged stale against fran-death-vigil (2026-08-26), which added the closure-cluster finding (four dated good-outcome statements in six days) and new typed edges to closing-the-set and attachment-mode |
 | [[wiki/people/suzanne-frank-personality-assessment]] | people | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-26), which gained a `RE-CHECKED` blockquote confirming the fran-death-vigil closure-cluster finding doesn't touch her caregiving or estate material. **No c |
 | [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — flagged stale against the-deferred-audit (2026-08-26), which gained a re-check note only, confirming an unrelated single-channel addition doesn't touch it. **No claim on this page is affected.** **RE- |
@@ -250,7 +252,7 @@ simply listed.
 | [[wiki/timeline/events/july-august-2026-reentanglement]] | timeline | **CORRECTED** — this section read the two as *"resolving opposite ways"* and derived from the contrast a rule that **announcement is the mechanism of non-execution.** Both halves are withdrawn, by this page's own lat |
 | [[wiki/timeline/periods/2018-deep-cycle]] | timeline | **CORRECTED** — the clause above read *"mom borrow $750/wk."* The rate does not exist and its direction is inverted. The corpus holds one $750 statement — an accusation about a single week, made in a 13 December 2018 |
 
-## 2026-08-17 — 9 pages
+## 2026-08-17 — 8 pages
 
 - **Session log:** restore | timeline | the December 2015 Annie read was written into the portal's derived snapshot and a cron deleted it 39 minutes after merge
 - **Session log:** climb | timeline, people, mind | the 2015 Annie read spread to ten pages, and five of its own corrections did not survive the evidence gate
@@ -262,7 +264,6 @@ simply listed.
 |---|---|---|
 | [[wiki/people/casey-bondarenka]] | people | **CORRECTED** — "Overstayed his welcome" implied an established friendship. The hand-read of the Annie corpus (annie-record) dates his arrival precisely: on 2015-11-30 Dan complains *"Casey will never stfu here"* and |
 | [[wiki/people/emilio]] | people | — |
-| [[wiki/people/kristin]] | people | **GAP CLOSED** — this page previously said *"Nothing after 2025-12-10. The block appears to have held; whether contact resumed off-corpus is unknown."* The operator: **"No contact after 10 Dec 2025"** (`raw/people/cap |
 | [[wiki/people/zach-clingan]] | people | _(carries a CORRECTED from 2026-08-08)_ |
 | [[wiki/people/zachariah-harshman]] | people | — |
 | [[wiki/self/gemini-activity/archive/v1-extract]] | self | — |

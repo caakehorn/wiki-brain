@@ -14,7 +14,7 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 504 |
-| Pages touched in the last 14 days | 171 |
+| Pages touched in the last 14 days | 172 |
 | Pages reasoning from other pages (`synthesizes:`) | 43 |
 | Live contradictions | 45 |
 | Open gaps | 454 |
@@ -46,7 +46,7 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-26** — 44 pages
+**2026-08-26** — 46 pages
   - close | mind | attachment-trauma-bond — the Ally channel as a control case, cascade re-checked three levels deep
   - close | timeline/mind | estate-money-spine and fran-death-vigil integrated, cascades re-checked
   - close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked
