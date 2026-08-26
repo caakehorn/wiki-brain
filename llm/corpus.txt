@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-26
-504 pages, ~1,367,945 tokens.
+504 pages, ~1,367,905 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -7493,7 +7493,7 @@ aliases: ["the unevaluated domain", "food as everything but taste"]
 status: active
 knowledge: earned
 date_created: 2026-07-25
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/captures/2026-08-01_154556_picky-eater.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -7546,6 +7546,13 @@ connections:
 ---
 
 # Food and Diet
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/concepts/the-cool-metric]] (2026-08-26), which added a section on
+> the metric's one documented upper bound (the Ally Skins exchange) and removed
+> its `sage_pending` staging. The food-exemption argument this page makes reasons
+> from the metric's jurisdiction and mechanism, neither of which the addition
+> touches. **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-23]:** flagged stale against
 > [[wiki/mind/concepts/the-cool-metric]] (2026-08-23), which gained a re-check
@@ -11163,7 +11170,7 @@ aliases: ["chaotic neutral", "the entropy appetite", "rooting for the fire"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -11205,6 +11212,14 @@ connections:
 ---
 
 # The Chaos Preference
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/concepts/the-cool-metric]] (2026-08-26), which added a section on
+> the metric's one documented upper bound (the Ally Skins exchange) and removed
+> its `sage_pending` staging. This page's mirror claim — "the performed is
+> false, the unmanaged is true" — reasons from the metric's general mechanism,
+> not from the new Ally-specific material. **No claim on this page is
+> affected.**
 
 > **RE-CHECKED [2026-08-23]:** flagged stale against
 > [[wiki/interests/music/overview]] (2026-08-23). That page gained one section —
@@ -11403,12 +11418,11 @@ PAGE: wiki/mind/concepts/conflict-architecture.md
 ========================================================================
 
 ---
-sage_pending: '2026-08-21'
 domain: mind
 page_type: concept
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-11
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -11458,6 +11472,9 @@ connections:
   - page: wiki/timeline/events/april-may-2026-final-weeks
     type: instance-of
     claim: "The live screaming match with Suz over whose grievance mattered more is a real-time instance of the resolution-seeking engine misreading an emotional bid as a proposition to be litigated, the same mechanism documented at scale in the Annie relationship."
+  - page: wiki/people/ally-lubin
+    type: evidenced-by
+    claim: "The corpus's only completed refusal of the redefinition move — a challenge conceded in six words, twice in one evening — happens in this channel and nowhere in the Annie corpus, because the challenger narrows rather than escalates and nothing about the exchange threatens Dan's exceptionality."
 ---
 
 
@@ -11539,33 +11556,37 @@ The [[wiki/people/eli|Eli]] affair amplified this architecture to its worst mode
 
 > **CONTRADICTION (with attachment-model):** The conflict engine treats emotional bids as propositions requiring resolution. This directly collides with the attachment architecture, which has no internal halt condition or counter-rule issuance pathway. The two systems are mutually amplifying rather than self-correcting.
 
-## Sage findings — pending ingest
+## The one completed refusal, and how it ends
 
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+The engine's move under challenge — contest the definition of the term rather
+than the conduct — has exactly one recorded instance of running to completion
+and stopping, and it is not in the Annie corpus. On August 18, 2026,
+21:07:43–21:09:11, in the [[wiki/people/ally-lubin|Ally]] channel: she
+challenges (*"You just love bomb"*), he runs the redefinition move (*"But love
+bomb is like a malicious tactic and there very little malice"*), she narrows
+rather than escalates (*"I didn't say malicious"*), and he concedes in six
+words (*"Okay that's fair then"*) — resolution in ninety seconds. The same
+evening carries the reciprocal case ninety minutes earlier, 16:46–16:47, where
+Dan pushes back on a challenge and Ally concedes in turn (*"Ok that's fair
+actually"*).
 
-### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
+Two things distinguish this from every documented Annie-corpus instance.
+First, the refusal to escalate is not his — it is hers: she does not meet the
+redefinition with a counter-argument, she narrows the claim ("I didn't say
+malicious"), which removes the ground the redefinition needed to stand on.
+Second, there is no stake riding on the concession: Core Axiom 1 ("not
+exceptional = worthless") has nothing to attach to, because nothing about the
+exchange threatens Dan's exceptionality — it is a factual quibble about a
+word, not a verdict about him. The one place in the corpus where the engine's
+core defect (no halt condition, because halting requires the
+existentially-coded act of conceding) does not fire is the one place where
+conceding costs nothing.
 
-Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
-
-**The corpus contains exactly one completed refusal of the redefinition move,
-and it is not on this page.** 2026-08-18, 21:07:43–21:09:11 — **ALLY:** *"You
-just love bomb"* → **DAN:** *"But love bomb is like a malicious tactic and there
-very little malice"* → **ALLY:** *"I didn't say malicious"* → **DAN:** *"Okay
-that's fair then"*. The middle move is the one this page documents: a challenge
-answered by contesting the definition of the term rather than the conduct. What
-has no precedent in the record is the fourth message. **Six words that decline to
-argue the definition end it in ninety seconds**, and the same evening contains the
-reciprocal case at 16:46–16:47, where Dan pushes back and *she* concedes (*"Ok
-that's fair actually"*). A page about how conflict is architected should carry
-its own documented failure case, and this is it — including the detail that the
-refusal works by narrowing rather than by escalating.
+**What this predicts, stated as a falsifier for the stakes-encoding claim:**
+if the mechanism is right, a completed concession should require,
+structurally, an interlocutor who narrows rather than escalates and a claim
+with no exceptionality-verdict attached — not less investment, just lower
+stakes on that specific move.
 
 
 ========================================================================
@@ -12330,14 +12351,13 @@ PAGE: wiki/mind/concepts/erotic-architecture.md
 ========================================================================
 
 ---
-sage_pending: '2026-08-21'
 domain: mind
 page_type: concept
 knowledge: mixed
 title: "Erotic Architecture: Sexuality as Controlled-Chaos Engineering"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-08-11
+date_modified: 2026-08-26
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/dansynth/DANSYNTH.txt
@@ -12370,7 +12390,7 @@ connections:
     claim: "This page named the same mechanism and logged the Bryan MMF as its documented case on 2026-08-02; the sibling page did not catch up until 2026-08-10, over two weeks in which it kept asserting the instance didn't exist."
   - page: wiki/people/ally-lubin
     type: evidenced-by
-    claim: "The purest case of the architecture running with no body in the room: arousal sustained entirely by inaccessibility, priced per item, and explicitly named by Dan as something he needs to 'get the poison out' of rather than consummate."
+    claim: "The purest case of the architecture running with no body in the room: arousal sustained entirely by inaccessibility, priced per item, and explicitly named by Dan as something he needs to 'get the poison out' of rather than consummate. The August 2026 elopement pitch and unanswered love letter make that a dated, falsifiable test: if the channel survives contact, inaccessibility was incidental to it; if it collapses, or access is never taken up despite being offered, this page is the reason."
   - page: wiki/self/concepts/ally-and-dan-love-as-destiny
     type: contradicts
     claim: "The destiny entry argues that the architecture has finally found its body — consummation is now possible and the bond holds despite (or because of) accessibility."
@@ -12497,35 +12517,26 @@ ontological rupture, emotional consumption) remains AI-authored and
 uncorroborated as *theory*, even where the underlying events are now
 independently documented.
 
-## Sage findings — pending ingest
+## The live test: inaccessibility as an operating condition, dated
 
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+The Ally case ties this page's externalized-libido reading to a specific,
+falsifiable clock rather than leaving it a standing characterization. Dan's
+own words are the clearest statement of the mechanism outside theory —
+2019-10-22: *"you don't even have the decency to allow me to see you naked
+**so i can get the poison out**."* Arousal there runs on distance as the
+operating condition, not an obstacle to it.
 
-### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
-
-Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
-
-**This page supplied the strongest counter-evidence in the 2026-08-21 answer,
-and it did so against the answer's own conclusion.** Asked who is the best match
-for Dan on qualities alone, the answer named Ally Lubin and then used this page's
-reading — *"the purest case of the architecture running with no body in the room:
-arousal sustained entirely by inaccessibility"* — to state that the case has never
-been tested against access. The load-bearing quote is Dan's, 2019-10-22: *"you
-don't even have the decency to allow me to see you naked **so i can get the
-poison out**."* **The finding for this page is that inaccessibility-as-operating-
-condition is now a falsifiable prediction with a date attached**: if a meeting
-occurs and the channel survives it, the architecture is weaker than this page
-claims; if it occurs and the channel collapses, this page is the reason. The
-ninety days after 2026-08-19 are where that resolves, and the page should say so
-in the same terms [[wiki/mind/synthesis/single-channel]] uses for its own live
-test.
+August 2026 puts a live test on the page for the first time. The unanswered
+elopement pitch of August 18 and the unreplied love letter of August 21
+([[wiki/people/ally-lubin]]) are both bids to close the distance this
+architecture is built on. If a meeting occurs and the channel survives it,
+inaccessibility was incidental rather than load-bearing and this page's claim
+is weaker than stated. If a meeting occurs and the channel collapses, or if
+access is never actually taken up despite being offered, this page is the
+reason. The ninety days after August 19, 2026 are the window — the same test
+[[wiki/mind/synthesis/single-channel]] is running on its own claim, and the
+two should resolve together or the disagreement between them is itself a
+finding.
 
 
 ========================================================================
@@ -13909,7 +13920,6 @@ PAGE: wiki/mind/concepts/the-cool-metric.md
 ========================================================================
 
 ---
-sage_pending: '2026-08-21'
 domain: mind
 page_type: concept
 title: "The Cool Metric"
@@ -13917,7 +13927,7 @@ aliases: ["anti-normie", "the normie check", "taste as sorting function"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -13958,6 +13968,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Authenticity-as-involuntariness is 'The Irreversibility Firewall's' trust rule stated positively: the one category never exposed to audit at all is the thing that was never a decision — the sub-bass signature, trusted precisely because choosing it was never possible."
+  - page: wiki/people/ally-lubin
+    type: evidenced-by
+    claim: "The one documented case of Dan losing a round inside his own filter: the August 18, 2026 Skins exchange, where Ally claims the subcultural reference outright and he does not adjudicate — the metric's only recorded upper bound."
 ---
 
 # The Cool Metric
@@ -14143,6 +14156,29 @@ worth.
 > to touch," and the interesting question it raises is what else is protected in
 > the same way. Nobody has looked.
 
+## The one documented upper bound
+
+The metric is described throughout this page as a one-directional sorting
+function — Dan runs it on other people, and the model does not describe what
+happens when someone outranks the person applying it. There is exactly one
+recorded case of him losing a round inside his own filter, and it happens in
+the [[wiki/people/ally-lubin|Ally]] channel: the Skins exchange of 2026-08-18,
+21:25–21:28, where she claims the subcultural reference outright — *"I don't
+think she's half Effy bc I'm Effy,"* *"Let's be real has she even seen
+Skins,"* *"I'm so Effy and Freddie even slid into my DMs once,"* *"Well first
+of all I'm not a Michelle / I'm a half Effy half Cassie"* — and Dan does not
+adjudicate, correct, or contest the claim. His own account of what draws him
+to her states the metric as attraction rather than judgment: *"how you are
+spotting slang and memes that I won't find out about for like 3 more
+months."*
+
+The filter has a documented ceiling, and this is the one instance of someone
+above it: a person whose command of the sorting criteria exceeds his own,
+which converts the metric from a tool he wields into a standard he is
+measured against. It does not undermine the metric's operation elsewhere in
+the record — it names the boundary condition the rest of this page never
+needed to state, because nobody else in the corpus tested it.
+
 ## Falsifiers
 
 1. A documented instance of sustained enthusiasm for a mass-market cultural
@@ -14170,36 +14206,6 @@ worth.
   analysed here.** A distribution of the favorites list against contemporaneous
   mainstream popularity would materially strengthen or damage the
   legibility-inverse claim, and is the obvious next operation.
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
-
-Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
-
-**The metric is documented as a one-directional sorting function, and there is
-one channel in which it runs both ways.** This page establishes taste as the
-*"master filter"* Dan applies to people. What the 2026-08-21 answer found is the
-only recorded case of him **losing a round inside his own filter**: the Skins
-exchange of 2026-08-18 21:25–21:28, in which Ally claims the reference outright
-(*"I don't think she's half Effy bc I'm Effy"*, *"Let's be real has she even seen
-Skins"*, *"I'm so Effy and Freddie even slid into my DMs once"*, *"Well first of
-all I'm not a Michelle / I'm a half Effy half Cassie"*) and Dan does not
-adjudicate. His own account of what he values in her is the metric stated as
-attraction — *"how you are spotting slang and memes that I won't find out about
-for like 3 more months"*
-(`raw/people/captures/2026-08-21_175309_gap-ally-lubin.md`). **The finding: the
-filter has a documented upper bound, one person is above it, and the page's
-model of the metric as an admission criterion does not currently describe what
-happens when someone outranks the person applying it.**
 
 
 ========================================================================
@@ -19718,7 +19724,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
@@ -19807,6 +19813,13 @@ connections:
 ---
 
 # The Block/Unblock Loop
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/concepts/conflict-architecture]] (2026-08-26), which added a
+> section documenting the corpus's one completed refusal of the redefinition
+> move (an Ally exchange) and removed its `sage_pending` staging. This page's
+> citation of conflict-architecture is about the repair mechanism's general
+> shape, not the new counter-instance. **No claim on this page is affected.**
 
 > **RESOLVED [2026-08-23] — the 127/110 pair is settled, and it settles at 100%.**
 > This page has carried *"127 exit declarations against 110 re-engagements (87%
@@ -21248,7 +21261,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessage_7244346811+212****2449_both_all_now.csv
@@ -21333,6 +21346,15 @@ connections:
 
 
 # The Dan/Annie Fallout — Was He Correct to Feel Wronged? (Raw-Evidenced)
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/concepts/conflict-architecture]] (2026-08-26), which added a
+> section documenting the corpus's one completed refusal of the redefinition
+> move (an Ally exchange) and removed its `sage_pending` staging. This verdict
+> reasons from the engine's behavior inside the Annie relationship specifically;
+> a counter-instance from a different, lower-stakes channel does not touch the
+> diagnosis-to-behavior gap this page finds. **No claim on this page is
+> affected.**
 
 > **REVISED [2026-08-23] — this page's own open caveat is now closed, in its
 > favour.** Flagged stale against [[wiki/mind/concepts/attachment-model]]
@@ -21756,7 +21778,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -21832,10 +21854,17 @@ connections:
   - page: wiki/self/concepts/ally-and-dan-love-as-destiny
     type: instance-of
     claim: "The Ally channel is the rule's longest-running case — thirty-eight and fourteen-month silences that closed nothing, then an August 2026 reactivation at the highest amplitude yet, which that page reads as a phase change and this rule reads as the pattern running normally."
-sage_pending: 2026-08-21
 ---
 
 # Dormancy, Not Exit
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/synthesis/the-unbroken-bond]] (2026-08-26), which added a
+> "directed fear of infidelity" cost item (the `cheat` word-count finding) and
+> removed its own `sage_pending` staging. That addition is about the
+> emotional cost of continuity, not about whether ties persist after ending —
+> it does not touch this page's mechanism, its member table, or the
+> measurement section. **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-23] — flagged stale against
 > [[wiki/mind/synthesis/the-unbroken-bond]] (2026-08-23), and the pass that moved
@@ -22241,6 +22270,17 @@ construction.
    and arguing politics with him for five hours in July 2022. The rule predicts
    that hostility does not trigger removal either, because removal is not
    available.
+4. **The February 2027 test is now a public commitment, not an internal
+   note.** A sage answer published through the portal on 2026-08-21 told an
+   outside asker that the corpus contains no attested exit in eleven years and
+   that the most recent test — the June 1 severance — failed at fifty-two
+   days. Whichever way the August 19 closure resolves, it resolves against a
+   claim already on record outside this repository, which is reason to work
+   it deliberately when the date arrives rather than whenever a pass happens
+   to land here. Watch the 14:53:25 latch specifically — the re-entry channel
+   Dan closed in advance — rather than the silence alone: if contact resumes
+   through that exact vector, the finding is stronger than if it resumes some
+   other way.
 
 ## Falsifiers
 
@@ -22374,41 +22414,6 @@ documents across different people.
 > mid-January 2016 on a misread pronoun; corrected the same day — see
 > [[wiki/mind/synthesis/bond-switch-2015]]. She stayed.)*
 
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
-
-Answer and sources: `raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md`
-
-**The 2027-02-19 test now has an external stake.** This page's re-check block sets
-the date at which the 2026-08-19 closure becomes either the strongest dormancy
-datum in the wiki or the first attested exit. An answer published through the
-portal on **2026-08-21** rests on that being genuinely open, and told the person
-who asked that the corpus contains **no attested exit in eleven years** and that
-the most recent test failed — severance 2026-06-01, contact resumed 2026-07-23,
-fifty-two days.
-
-Two consequences for the next pass:
-
-1. **The date is a commitment now, not a note.** Whichever way it resolves, it
-   resolves in public. It should be worked deliberately in February 2027 rather
-   than whenever a pass happens to land here.
-2. **The latch finding is the thing to watch, not the silence.** The answer
-   singled out 14:53:25 on August 19 — *"Do NOT ever think that enough time has
-   passed that now you can tell me… when something happens to Milo"* — as the
-   first time in the corpus anyone has named the re-entry vector in advance. If
-   the closure holds, that sentence is the mechanism and this page's
-   dormancy/exit boundary should turn on it. If contact resumes **through that
-   exact vector**, the finding is stronger still and points the other way.
 
 
 ========================================================================
@@ -29531,7 +29536,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -29576,10 +29581,16 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Seventeen years without a gap longer than weeks is 'The Irreversibility Firewall's' no-delete prediction at the level of the slot itself: leaving it empty long enough to become a real, examined choice would be exactly the irreversible fact the firewall exists to prevent."
-sage_pending: 2026-08-21
 ---
 
 # The Unbroken Bond
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/concepts/chaos-preference]] (2026-08-26), which added a section on
+> [[wiki/mind/concepts/the-cool-metric]]'s one documented upper bound (an Ally
+> exchange) and removed its own `sage_pending` staging. Neither addition touches
+> the "entropy as the fundamental truth of existence" claim this page's
+> contradiction rests on. **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-23]:** flagged stale against
 > [[wiki/mind/concepts/chaos-preference]] (2026-08-23), which gained a re-check
@@ -29736,6 +29747,24 @@ disorder he wants everywhere else, because it is his.
   parties. It is also, per the re-check below, a property of fast switches
   rather than of Dan specifically — Annie ran the same operation in the same
   seventy-two hours.
+- **A directed fear of infidelity, twice realized.** The continuity is not
+  maintained by fidelity policing, and the corpus is one-directional on the
+  point: `cheat` returns 141 uses across 217,573 records, and every era names
+  Dan as the party cheated on, never the reverse — *"Lex cheated on me 2
+  weeks in after I moved her to fla"* (2015-11-28), *"I got cheated on while
+  I was working before and it's a super helpless feeling"* (2016-02-18),
+  *"I've always been super worried about being cheated on"* (2024-08-12).
+  The rate more than quadruples in 2025 — 62 hits, 4.29 per 1,000 sent
+  messages against 0.24–1.22 in every prior year — almost all of it directed
+  at Annie. Seventeen years of continuous occupancy therefore run alongside a
+  decades-long, directed fear of infidelity, and two documented instances of
+  it actually happening. Whether the continuity causes the fear or the fear
+  causes the continuity is not settled by the corpus and should be stated as
+  open rather than assumed either way. He has his own name for the thesis,
+  said to a third party with nothing to manage on the point, in the middle of
+  the most open period of his life: *"i'm a serial monogamist so i've only
+  been with a few girls, and they all fit a very specific type"*
+  (2019-08-17, 22:26).
 - **The severance failed.** The single hardest piece of evidence on this page:
   the June 1 2026 closure held for **52 days** and then contact resumed on July
   23, running **624 messages across four days**. The wiki's own inference that
@@ -30073,45 +30102,6 @@ point the corpus has supplied evidence they can diverge.
 > no date in the relationship's ~10.5-year span and no claim this page's
 > continuity argument draws on. Nothing here needed revising.
 
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
-
-Answer and sources: `raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md`
-
-**The continuity is not maintained by fidelity policing, and the corpus can now
-say so with a count.** This page argues the slot is never empty. Mined for the
-answer: `cheat` returns **141 uses across 217,573 records**, and the direction is
-consistent in every era — *"Lex cheated on me 2 weeks in after I moved her to
-fla"* (2015-11-28), *"I got cheated on while I was working before and it's a
-super helpless feeling"* (2016-02-18), *"I've always been super worried about
-being cheated on"* (2024-08-12). **He is the party cheated on, in both documented
-bonds.** 2025 spikes to **62 hits — 4.29 per 1,000 sent messages against 0.24–1.22
-in every prior year**, a 5× rise, almost all of it to Annie.
-
-So the seventeen-year continuity runs alongside a documented, decades-long fear
-of infidelity *directed at him*, and two instances of it actually happening. That
-belongs in "What it costs and what it buys": the bond is the one structure he
-does not treat as entropy, and it is also the one place he has twice been
-injured in the way he most feared. **Whether the continuity is the cause or the
-consequence of that fear is not settled by the corpus and should be stated as
-open rather than assumed either way.**
-
-Second, smaller: *"i'm a serial monogamist so i've only been with a few girls,
-and they all fit a very specific type"* (Sent, **2019-08-17 22:26**) is his own
-name for this page's thesis, and it appears nowhere in the wiki. It is worth more
-than a self-description usually is because of *when* it was said — the middle of
-the most open period of his life — and to whom: a third party he had no reason to
-manage on the point.
 
 
 ========================================================================

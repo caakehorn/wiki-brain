@@ -1,12 +1,11 @@
 ---
-sage_pending: '2026-08-21'
 domain: mind
 page_type: concept
 knowledge: mixed
 title: "Erotic Architecture: Sexuality as Controlled-Chaos Engineering"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-08-11
+date_modified: 2026-08-26
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/dansynth/DANSYNTH.txt
@@ -39,7 +38,7 @@ connections:
     claim: "This page named the same mechanism and logged the Bryan MMF as its documented case on 2026-08-02; the sibling page did not catch up until 2026-08-10, over two weeks in which it kept asserting the instance didn't exist."
   - page: wiki/people/ally-lubin
     type: evidenced-by
-    claim: "The purest case of the architecture running with no body in the room: arousal sustained entirely by inaccessibility, priced per item, and explicitly named by Dan as something he needs to 'get the poison out' of rather than consummate."
+    claim: "The purest case of the architecture running with no body in the room: arousal sustained entirely by inaccessibility, priced per item, and explicitly named by Dan as something he needs to 'get the poison out' of rather than consummate. The August 2026 elopement pitch and unanswered love letter make that a dated, falsifiable test: if the channel survives contact, inaccessibility was incidental to it; if it collapses, or access is never taken up despite being offered, this page is the reason."
   - page: wiki/self/concepts/ally-and-dan-love-as-destiny
     type: contradicts
     claim: "The destiny entry argues that the architecture has finally found its body — consummation is now possible and the bond holds despite (or because of) accessibility."
@@ -166,32 +165,23 @@ ontological rupture, emotional consumption) remains AI-authored and
 uncorroborated as *theory*, even where the underlying events are now
 independently documented.
 
-## Sage findings — pending ingest
+## The live test: inaccessibility as an operating condition, dated
 
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+The Ally case ties this page's externalized-libido reading to a specific,
+falsifiable clock rather than leaving it a standing characterization. Dan's
+own words are the clearest statement of the mechanism outside theory —
+2019-10-22: *"you don't even have the decency to allow me to see you naked
+**so i can get the poison out**."* Arousal there runs on distance as the
+operating condition, not an obstacle to it.
 
-### FINDING [2026-08-21] — from the sage question `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`
-
-Answer and sources: `raw/self/sage/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md`
-
-**This page supplied the strongest counter-evidence in the 2026-08-21 answer,
-and it did so against the answer's own conclusion.** Asked who is the best match
-for Dan on qualities alone, the answer named Ally Lubin and then used this page's
-reading — *"the purest case of the architecture running with no body in the room:
-arousal sustained entirely by inaccessibility"* — to state that the case has never
-been tested against access. The load-bearing quote is Dan's, 2019-10-22: *"you
-don't even have the decency to allow me to see you naked **so i can get the
-poison out**."* **The finding for this page is that inaccessibility-as-operating-
-condition is now a falsifiable prediction with a date attached**: if a meeting
-occurs and the channel survives it, the architecture is weaker than this page
-claims; if it occurs and the channel collapses, this page is the reason. The
-ninety days after 2026-08-19 are where that resolves, and the page should say so
-in the same terms [[wiki/mind/synthesis/single-channel]] uses for its own live
-test.
+August 2026 puts a live test on the page for the first time. The unanswered
+elopement pitch of August 18 and the unreplied love letter of August 21
+([[wiki/people/ally-lubin]]) are both bids to close the distance this
+architecture is built on. If a meeting occurs and the channel survives it,
+inaccessibility was incidental rather than load-bearing and this page's claim
+is weaker than stated. If a meeting occurs and the channel collapses, or if
+access is never actually taken up despite being offered, this page is the
+reason. The ninety days after August 19, 2026 are the window — the same test
+[[wiki/mind/synthesis/single-channel]] is running on its own claim, and the
+two should resolve together or the disagreement between them is itself a
+finding.

@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
@@ -93,6 +93,13 @@ connections:
 ---
 
 # The Block/Unblock Loop
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/concepts/conflict-architecture]] (2026-08-26), which added a
+> section documenting the corpus's one completed refusal of the redefinition
+> move (an Ally exchange) and removed its `sage_pending` staging. This page's
+> citation of conflict-architecture is about the repair mechanism's general
+> shape, not the new counter-instance. **No claim on this page is affected.**
 
 > **RESOLVED [2026-08-23] — the 127/110 pair is settled, and it settles at 100%.**
 > This page has carried *"127 exit declarations against 110 re-engagements (87%

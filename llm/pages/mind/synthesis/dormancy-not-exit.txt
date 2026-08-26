@@ -6,7 +6,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -82,10 +82,17 @@ connections:
   - page: wiki/self/concepts/ally-and-dan-love-as-destiny
     type: instance-of
     claim: "The Ally channel is the rule's longest-running case — thirty-eight and fourteen-month silences that closed nothing, then an August 2026 reactivation at the highest amplitude yet, which that page reads as a phase change and this rule reads as the pattern running normally."
-sage_pending: 2026-08-21
 ---
 
 # Dormancy, Not Exit
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/synthesis/the-unbroken-bond]] (2026-08-26), which added a
+> "directed fear of infidelity" cost item (the `cheat` word-count finding) and
+> removed its own `sage_pending` staging. That addition is about the
+> emotional cost of continuity, not about whether ties persist after ending —
+> it does not touch this page's mechanism, its member table, or the
+> measurement section. **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-23] — flagged stale against
 > [[wiki/mind/synthesis/the-unbroken-bond]] (2026-08-23), and the pass that moved
@@ -491,6 +498,17 @@ construction.
    and arguing politics with him for five hours in July 2022. The rule predicts
    that hostility does not trigger removal either, because removal is not
    available.
+4. **The February 2027 test is now a public commitment, not an internal
+   note.** A sage answer published through the portal on 2026-08-21 told an
+   outside asker that the corpus contains no attested exit in eleven years and
+   that the most recent test — the June 1 severance — failed at fifty-two
+   days. Whichever way the August 19 closure resolves, it resolves against a
+   claim already on record outside this repository, which is reason to work
+   it deliberately when the date arrives rather than whenever a pass happens
+   to land here. Watch the 14:53:25 latch specifically — the re-entry channel
+   Dan closed in advance — rather than the silence alone: if contact resumes
+   through that exact vector, the finding is stronger than if it resumes some
+   other way.
 
 ## Falsifiers
 
@@ -624,38 +642,3 @@ documents across different people.
 > mid-January 2016 on a misread pronoun; corrected the same day — see
 > [[wiki/mind/synthesis/bond-switch-2015]]. She stayed.)*
 
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
-
-Answer and sources: `raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md`
-
-**The 2027-02-19 test now has an external stake.** This page's re-check block sets
-the date at which the 2026-08-19 closure becomes either the strongest dormancy
-datum in the wiki or the first attested exit. An answer published through the
-portal on **2026-08-21** rests on that being genuinely open, and told the person
-who asked that the corpus contains **no attested exit in eleven years** and that
-the most recent test failed — severance 2026-06-01, contact resumed 2026-07-23,
-fifty-two days.
-
-Two consequences for the next pass:
-
-1. **The date is a commitment now, not a note.** Whichever way it resolves, it
-   resolves in public. It should be worked deliberately in February 2027 rather
-   than whenever a pass happens to land here.
-2. **The latch finding is the thing to watch, not the silence.** The answer
-   singled out 14:53:25 on August 19 — *"Do NOT ever think that enough time has
-   passed that now you can tell me… when something happens to Milo"* — as the
-   first time in the corpus anyone has named the re-entry vector in advance. If
-   the closure holds, that sentence is the mechanism and this page's
-   dormancy/exit boundary should turn on it. If contact resumes **through that
-   exact vector**, the finding is stronger still and points the other way.
