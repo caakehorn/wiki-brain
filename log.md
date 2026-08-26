@@ -1,3 +1,25 @@
+## [2026-08-26] close | mind | attachment-trauma-bond — the Ally channel as a control case, cascade re-checked three levels deep
+
+**Cleared `sage_pending` on `wiki/mind/synthesis/attachment-trauma-bond.md`.**
+A sage answer used this page as the pathological control and found a
+documented channel where the mechanism doesn't run: the Ally channel's
+symmetric self-indictment (both sides pre-empt the other's confession-trap
+leverage in the same 2019-08-17 exchange) removes the moral-standing
+asymmetry the confession trap and DARVO both require. New section "The
+counterexample: symmetric confession disarms the mechanism," scoped
+narrowly — it disarms one pathology, not a verdict that the channel is
+healthy (it prices photographs off a suicidality disclosure three months
+later per arrangement-history). Edge added to `wiki/people/ally-lubin.md`.
+
+**Cascade, three levels:** suzanne-frank (already re-checked above) →
+attachment-trauma-bond → august-grievance-verdict → suzanne-frank-personality-assessment
+and morgantown-call-three-participant-ethical-analysis. None required a claim
+change; each got a RE-CHECKED note. All three gates 0 errors throughout.
+
+Regenerated DIGEST/RECENT/OPEN and `llm/` (freshness confirmed in sync);
+`bin/wiki-work scan` now reports **19 obligations** (down from 29 at session
+start, 22 after the previous batch).
+
 ## [2026-08-26] close | timeline/mind | estate-money-spine and fran-death-vigil integrated, cascades re-checked
 
 **Cleared `sage_pending` on `wiki/mind/synthesis/estate-money-spine.md`** — the

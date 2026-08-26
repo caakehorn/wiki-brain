@@ -46,18 +46,19 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-26** — 19 pages
+**2026-08-26** — 23 pages
+  - close | timeline/mind | estate-money-spine and fran-death-vigil integrated, cascades re-checked
   - close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked
   - close | people | ally-lubin — the love letter and the mutual-correction finding integrated, three dependents re-checked
 
-**2026-08-23** — 37 pages
+**2026-08-23** — 34 pages
   - directive | people | the Annie record is closed — no further texts, no further narrative
   - lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
   - ingest | people | five new entries, and the Ulmer household turns out to be the corpus's largest blind spot
   - close | people | Libby is Libby Titus, she died in October 2024, and the corpus had her married name all along
   - report | mind | texting deviance audit — the operator's model of his own texting was two-thirds wrong
 
-**2026-08-22** — 9 pages
+**2026-08-22** — 8 pages
   - answer | mind | what would make Dan happy — he answered it himself in 2025, and the record has already run the experiment
   - fix | people | a fourth portal incident, a duplicated H1 on annie-ulmer, and the freshness gate red on main
   - fix | people | the stale-snapshot clobber recurred on ally-lubin, six hours after the last one

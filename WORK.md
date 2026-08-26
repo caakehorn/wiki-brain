@@ -15,7 +15,7 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (22)
+## Obligations (19)
 
 Somebody or something is waiting on each of these. Drain from the top.
 
@@ -30,7 +30,6 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 2 | sage-close | staged answer on mind/profile/enneagram-5w4, not integrated | `wiki/mind/profile/enneagram-5w4.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on mind/profile/intp, not integrated | `wiki/mind/profile/intp.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on mind/psychosexual/arrangement-history, not integrated | `wiki/mind/psychosexual/arrangement-history.md` | 2026-08-21 |
-| 2 | sage-close | staged answer on mind/synthesis/attachment-trauma-bond, not integrated | `wiki/mind/synthesis/attachment-trauma-bond.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on mind/synthesis/bond-switch-2015, not integrated | `wiki/mind/synthesis/bond-switch-2015.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on mind/synthesis/dormancy-not-exit, not integrated | `wiki/mind/synthesis/dormancy-not-exit.md` | 2026-08-21 |
 | 2 | sage-close | staged answer on mind/synthesis/the-commissioned-self, not integrated | `wiki/mind/synthesis/the-commissioned-self.md` | 2026-08-21 |
@@ -44,8 +43,6 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 2 | sage-close | staged answer on mind/synthesis/music-as-identity, not integrated | `wiki/mind/synthesis/music-as-identity.md` | 2026-08-22 |
 | 2 | sage-close | staged answer on people/fran-coldren, not integrated | `wiki/people/fran-coldren.md` | 2026-08-22 |
 | 2 | sage-close | staged answer on people/milo, not integrated | `wiki/people/milo.md` | 2026-08-22 |
-| 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-08-26, after this page's 2026-08-22 | `wiki/people/suzanne-frank-personality-assessment.md` | 2026-08-26 |
-| 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-08-26, after this page's 2026-08-23 | `wiki/mind/synthesis/attachment-trauma-bond.md` | 2026-08-26 |
 
 ## Standing work (202)
 

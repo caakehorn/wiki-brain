@@ -6,7 +6,7 @@ aliases: ["Suz MBTI", "Suz Enneagram", "Suz personality type"]
 status: active
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-22
+date_modified: 2026-08-26
 importance: high
 tags: [personality-profile, forensic-analysis, ai-collaboration]
 infobox:
@@ -28,6 +28,12 @@ connections:
 ---
 
 # Suzanne Frank — Forensic Personality Assessment
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/people/suzanne-frank]] (2026-08-26), which gained a `RE-CHECKED`
+> blockquote confirming the fran-death-vigil closure-cluster finding doesn't
+> touch her caregiving or estate material. **No claim on this page is
+> affected.**
 
 > **RE-CHECKED [2026-08-22]:** flagged stale against
 > [[wiki/people/suzanne-frank]] (2026-08-22), which moved by a `RE-CHECKED`
