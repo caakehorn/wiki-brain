@@ -1,3 +1,46 @@
+## [2026-08-26] ingest | self | ANCESTRY_DNA.txt (last inbox item) — redundancy confirmed, one new collateral relative verified
+
+Final inbox item. Read to exhaustion, including recovering the ~116KB
+malformed-JSON ChatGPT export embedded at the file's tail (`"stop_tokens":}`
+truncation broke the JSON parser; extracted role/content pairs by regex
+instead of giving up on it).
+
+**Finding: two of three layers were already absorbed.** The multi-section AI
+narrative shares verbatim phrasing ("psychic sinkhole," "trauma-coded
+geography") with `raw/self/dansynth/DANSYNTH.txt`, already fully
+synthesized into `wiki/mind/synthesis/ancestral-dialectic.md` — confirmed by
+direct string match before assuming duplication rather than after. The
+embedded ChatGPT session is Dan re-pasting the same 515-person Ancestry.com
+GEDCOM already captured, more completely, in
+`raw/self/ancestry/extracted/Daniel Frank family tree.txt`.
+
+**One genuinely new fact survived, and was verified rather than trusted.**
+The AI's "weird and interesting" riff named "Daniel Shrum (1884-1918), died
+during the 1918 flu pandemic peak" — an AI-secondary claim, per
+`EXTRACTION_SPEC.md` not evidence on its own. Cross-checked directly against
+the GEDCOM: real person, `@I27132421676@`, born 11 Apr 1884, 1900 census at
+Irwin Ward 2 (single, living with parents), died 11 Dec 1918 Greensburg —
+a collateral (great-granduncle via Daniel E. Shrum Jr. + Ida M. Dixon's six
+children, one of whom is the direct-line G. Dixon Shrum). Added to
+`wiki/self/ancestry.md` with the pandemic-cause read flagged explicitly as
+inference, not documented fact — the GEDCOM carries no cause of death.
+
+**Write-back with real content, not a placeholder.**
+`wiki/mind/synthesis/fayette-return.md` names "collaterals unchecked" as its
+open falsifier-search gap; Daniel Shrum is the first collateral actually
+checked. He is not the falsifier (never departed the county at all, so
+can't test the departure-then-return rule), but the finding is recorded as
+what it is — one data point toward regional gravity, not the audit the gap
+still asks for — rather than dismissed as irrelevant because it didn't
+settle the question.
+
+Inbox is now empty. Filed to `raw/self/ancestry/ANCESTRY_DNA.txt`;
+`queue.md` closed.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check`, `bin/wiki-climb check`, `bin/wiki-freshness` all
+clean; 125 unit tests pass.
+
 ## [2026-08-26] ingest | mind | new page: Dan's Bespoke Lexicon — operator-supplied capture
 
 Operator directive mid-session, delivered by paste rather than a file:

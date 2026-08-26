@@ -55,7 +55,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-26** — 77 pages
+**2026-08-26** — 79 pages
+  - ingest | self | ANCESTRY_DNA.txt (last inbox item) — redundancy confirmed, one new collateral relative verified
   - ingest | mind | new page: Dan's Bespoke Lexicon — operator-supplied capture
   - ingest | self | inbox drained: duplicate manifest identified, personality-profile capture filed
   - ingest | mind | new page: autism/neurodivergence self-identification traced to its actual sourcing
@@ -67,7 +68,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked
   - close | people | ally-lubin — the love letter and the mutual-correction finding integrated, three dependents re-checked
 
-**2026-08-23** — 19 pages
+**2026-08-23** — 18 pages
   - directive | people | the Annie record is closed — no further texts, no further narrative
   - lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
   - ingest | people | five new entries, and the Ulmer household turns out to be the corpus's largest blind spot

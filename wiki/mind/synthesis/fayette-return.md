@@ -6,7 +6,7 @@ aliases: ["the elastic tether", "regional gravity", "leave-and-come-back"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 date_range_start: 1892-01-01
 date_range_end:
 sources:
@@ -322,3 +322,19 @@ solid.
 > earlier pass. Neither touches Rick's residence record — no departure from
 > Fayette County is attested by either finding, so his G3 row ("*none
 > attested*") is unchanged. Nothing here needed revising.
+
+> **RE-CHECKED [2026-08-26] — the collaterals-unchecked gap gains its first
+> data point, and it is not the falsifier.** [[wiki/self/ancestry]] added one
+> verified collateral from the maternal Shrum line: **Daniel Shrum** (b. 11
+> Apr 1884, Pennsylvania; d. 11 Dec 1918, Greensburg, Westmoreland County) —
+> an older brother of the direct-line G. Dixon Shrum, single and living at
+> home per the 1900 census, dead at 34. He never left Westmoreland County at
+> all: born and died in the same county the rest of the line is anchored to.
+> That makes him a **non-event for falsifier 1**, which asks specifically for
+> a collateral who *departed and did not return* — Daniel Shrum never
+> departed, so the search that gap names is still open. What it does confirm,
+> weakly, is the regional-gravity reading against the lineal one: a
+> collateral on a different branch, checked for the first time, holds the
+> same territory the direct line does. One data point against 515
+> unenumerated people is not the audit this gap asks for; it is the first
+> stone in it.

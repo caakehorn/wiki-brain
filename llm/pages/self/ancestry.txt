@@ -4,7 +4,7 @@ page_type: report
 knowledge: mixed
 status: active
 date_created: 2026-06-23
-date_modified: 2026-08-14
+date_modified: 2026-08-26
 sources:
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
   - raw/self/ancestry/dna-reports/Ancestry Composition - 23andMe.pdf
@@ -12,6 +12,7 @@ sources:
   - raw/self/ancestry/dna-reports/health.pdf
   - raw/self/ancestry/extracted/Daniel Frank family tree.txt
   - raw/self/ancestry/extracted/
+  - raw/self/ancestry/ANCESTRY_DNA.txt
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
 related:
   - wiki/self/context-core
@@ -92,6 +93,8 @@ Gay Gillingham's own geographic history is minimal: born in North Union, Fayette
 The Pittsburgh Corridor industrialists. George Dixon Shrum Jr. was born in Pittsburgh, Allegheny County, and his family's history is tied to the orbit of Pittsburgh rather than the deep rural Appalachian lines. His father, G. Dixon Shrum (abt 1896–1960), was born in Irwin, Westmoreland County, served in the military (1917–1918), and moved through North Huntingdon before settling in Pittsburgh's Fox Chapel neighborhood. The family represents the industrial and suburban development around Pittsburgh — working-to-middle-class participants in the 20th-century industrial economy.
 
 The Shrum line extends through Daniel E. Shrum Jr. (abt 1846) and Reuben Shrum (1818) to the early 19th-century settlers of Westmoreland County. The Dixon line (Ida M. Dixon, b. abt 1860) and the Kutz line (Linus Belus Cubulus Kutz, b. 1875, Bowers Station, Pennsylvania) add German and Scots-Irish components. The Kutz and Rush families (Anne Lois Rush, b. 1875, Lower Turkeyfoot, Somerset County) extend into the rural Somerset County region.
+
+Daniel E. Shrum Jr. and Ida M. Dixon married in 1875 and had at least six children, of whom G. Dixon Shrum (abt 1896–1960) is the direct line. One of his older brothers, **Daniel Shrum** (b. 11 April 1884, Pennsylvania), was still single and living at home per the 1900 census (Irwin Ward 2, Westmoreland County) and died 11 December 1918 in Greensburg, Westmoreland County, at age 34 — a death date that falls inside the second, deadliest wave of the 1918 influenza pandemic in Pennsylvania (which peaked in the state that October–December), though the GEDCOM carries no attached cause of death and this reading is inference, not documentation. He never appears elsewhere in the corpus; this is a collateral relative (a great-granduncle, 0% DNA contribution) rather than a direct ancestor, and the fact is recorded here as exactly the kind of mundane, previously-unmined GEDCOM detail `EXTRACTION_SPEC.md` argues is worth keeping even when nothing else connects to it yet.
 
 George Dixon Shrum Jr.'s own life traces a Fox Chapel → Pittsburgh trajectory, with documented residence at multiple Pittsburgh addresses from 1940 through 2020. He married Rebecca Diane Van Voorhis Jr. in 1961, linking the Pittsburgh industrial line to the Appalachian coal-country line.
 

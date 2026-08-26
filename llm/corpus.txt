@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-26
-515 pages, ~1,428,734 tokens.
+515 pages, ~1,429,284 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10305,7 +10305,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-26** — 77 pages
+**2026-08-26** — 79 pages
+  - ingest | self | ANCESTRY_DNA.txt (last inbox item) — redundancy confirmed, one new collateral relative verified
   - ingest | mind | new page: Dan's Bespoke Lexicon — operator-supplied capture
   - ingest | self | inbox drained: duplicate manifest identified, personality-profile capture filed
   - ingest | mind | new page: autism/neurodivergence self-identification traced to its actual sourcing
@@ -10317,7 +10318,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked
   - close | people | ally-lubin — the love letter and the mutual-correction finding integrated, three dependents re-checked
 
-**2026-08-23** — 19 pages
+**2026-08-23** — 18 pages
   - directive | people | the Annie record is closed — no further texts, no further narrative
   - lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
   - ingest | people | five new entries, and the Ulmer household turns out to be the corpus's largest blind spot
@@ -11509,7 +11510,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-26 — 77 pages
+## 2026-08-26 — 79 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11554,6 +11555,7 @@ simply listed.
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — flagged stale against the-unbroken-bond (2026-08-26), which added a "directed fear of infidelity" cost item (the `cheat` word-count finding) and removed its own `sage_pending` staging. That addition i |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a REVISED from 2026-08-23)_ |
 | [[wiki/mind/synthesis/failure-to-launch]] | mind | **RE-CHECKED** — flagged stale against the-embedded-objective and acquisition-drive (both 2026-08-26), which added a distinction between tenure and satisfaction — the Fran vigil is the one commitment in |
+| [[wiki/mind/synthesis/fayette-return]] | mind | **RE-CHECKED** — ancestry added one verified collateral from the maternal Shrum line: **Daniel Shrum** (b. 11 Apr 1884, Pennsylvania; d. 11 Dec 1918, Greensburg, Westmoreland County) — an older brother of the direct-l |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | **RE-CHECKED** — `bin/wiki-climb check` flagged this page stale again, against both context-core and exocortex, each of which moved on 2026-08-26 to add one new connections edge to the new |
 | [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] | mind | — |
 | [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] | mind | **RE-CHECKED** — flagged stale against august-grievance-verdict (2026-08-26), which gained a re-check note only, confirming an unrelated attachment-trauma-bond addition (the Ally symmetric-confession counterexample) d |
@@ -11583,6 +11585,7 @@ simply listed.
 | [[wiki/people/suzanne-frank]] | people | **RE-CHECKED** — flagged stale against fran-death-vigil (2026-08-26), which added the closure-cluster finding (four dated good-outcome statements in six days) and new typed edges to closing-the-set and attachment-mode |
 | [[wiki/people/suzanne-frank-personality-assessment]] | people | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-26), which gained a `RE-CHECKED` blockquote confirming the fran-death-vigil closure-cluster finding doesn't touch her caregiving or estate material. **No c |
 | [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — flagged stale against the-deferred-audit (2026-08-26), which gained a re-check note only, confirming an unrelated single-channel addition doesn't touch it. **No claim on this page is affected.** **RE- |
+| [[wiki/self/ancestry]] | self | — |
 | [[wiki/self/concepts/ally-and-dan-love-as-destiny]] | self | **RE-CHECKED** — flagged stale against ally-lubin (2026-08-26), which integrated a full unprompted love letter sent August 21, 2026 (*"I've spent 10 years… I just never got over it"* / *"still haven't lost interest… # |
 | [[wiki/self/concepts/astrology-star-signs]] | self | **RE-CHECKED** — flagged stale again against ally-lubin (2026-08-26), which integrated a staged love letter and a sage finding about a mutual-correction sequence and a joke line ("I'm a SINGLE MOTHER"). None of the th |
 | [[wiki/self/context-core]] | self | _(carries a CORRECTED)_ |
@@ -11591,7 +11594,7 @@ simply listed.
 | [[wiki/timeline/periods/2020-2021-market-era]] | timeline | **RE-CHECKED** — `bin/wiki-climb check` flagged this page stale against context-core, which moved on 2026-08-26. The premise did not move in substance — the only change on that page was one new `connections:` entry cr |
 | [[wiki/work/fastly-fsly]] | work | _(carries a RE-CHECKED from 2026-08-21)_ |
 
-## 2026-08-23 — 19 pages
+## 2026-08-23 — 18 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11600,7 +11603,6 @@ simply listed.
 | [[wiki/mind/concepts/calibrated-confidence]] | mind | **CORRECTED** — This page's measurement table gave **43 outbound instances against 2 inbound**, and **15 graded (non-endpoint) values against zero**. Re-derived from the on-disk CSVs — 98,228 deduped Dan-sent message |
 | [[wiki/mind/concepts/reassurance-architecture]] | mind | **REVISED** — The first version of this page assumed, from message-circadian-latency, that Dan was transmitting into a channel that answered slowly — *"broadcasting into a slow or silent void."* **That claim has si |
 | [[wiki/mind/profile/texting-deviance-audit]] | mind | _(carries a CONTRADICTION)_ |
-| [[wiki/mind/synthesis/fayette-return]] | mind | **RE-CHECKED** — flagged stale against rick-frank (2026-08-23), which gained an alias finding — *Ricky*, 66 further mentions across 2015–2020 — corroborating the 2026-08-11 retraction of that page's held-block reading |
 | [[wiki/mind/synthesis/message-circadian-latency]] | mind | **CORRECTED** — This section previously opened *"The headline: a 9× reply-latency asymmetry with Annie"* and concluded: *"Dan answers almost everyone within 1–5 minutes. The people he messages answer him on a complet |
 | [[wiki/people/alice]] | people | — |
 | [[wiki/people/annie-ulmer]] | people | **CORRECTED** — The standing account of Annie's working life — sourced to `raw/self/dox-md/Honest assessment and value judgment analysis.md` and repeated downstream — is that she *"was fired in 2023 and spent a full  |
@@ -11741,11 +11743,10 @@ simply listed.
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | — |
 | [[wiki/timeline/periods/uniontown-return-2013-2015]] | timeline | **CORRECTED** — The message behind it (*"Lex cheated on me 2 weeks in after I moved her to fla"*) is Dan telling Annie how the Alexis relationship **began, in 2009**, at Full Sail — the line before it is *"the exact  |
 
-## 2026-08-14 — 3 pages
+## 2026-08-14 — 2 pages
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/self/ancestry]] | self | — |
 | [[wiki/self/lineage/23andme-genomics]] | self | **CORRECTED** — The previous version of this page claimed the source PDFs were "image-based without an extractable text layer" and that "specific percentage values are not digitally recorded." This was wrong. All thr |
 | [[wiki/self/lineage/hybrid-analysis]] | self | — |
 
@@ -25568,7 +25569,7 @@ aliases: ["the elastic tether", "regional gravity", "leave-and-come-back"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 date_range_start: 1892-01-01
 date_range_end:
 sources:
@@ -25884,6 +25885,22 @@ solid.
 > earlier pass. Neither touches Rick's residence record — no departure from
 > Fayette County is attested by either finding, so his G3 row ("*none
 > attested*") is unchanged. Nothing here needed revising.
+
+> **RE-CHECKED [2026-08-26] — the collaterals-unchecked gap gains its first
+> data point, and it is not the falsifier.** [[wiki/self/ancestry]] added one
+> verified collateral from the maternal Shrum line: **Daniel Shrum** (b. 11
+> Apr 1884, Pennsylvania; d. 11 Dec 1918, Greensburg, Westmoreland County) —
+> an older brother of the direct-line G. Dixon Shrum, single and living at
+> home per the 1900 census, dead at 34. He never left Westmoreland County at
+> all: born and died in the same county the rest of the line is anchored to.
+> That makes him a **non-event for falsifier 1**, which asks specifically for
+> a collateral who *departed and did not return* — Daniel Shrum never
+> departed, so the search that gap names is still open. What it does confirm,
+> weakly, is the regional-gravity reading against the lineal one: a
+> collateral on a different branch, checked for the first time, holds the
+> same territory the direct line does. One data point against 515
+> unenumerated people is not the audit this gap asks for; it is the first
+> stone in it.
 
 
 ========================================================================
@@ -60124,7 +60141,7 @@ page_type: report
 knowledge: mixed
 status: active
 date_created: 2026-06-23
-date_modified: 2026-08-14
+date_modified: 2026-08-26
 sources:
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
   - raw/self/ancestry/dna-reports/Ancestry Composition - 23andMe.pdf
@@ -60132,6 +60149,7 @@ sources:
   - raw/self/ancestry/dna-reports/health.pdf
   - raw/self/ancestry/extracted/Daniel Frank family tree.txt
   - raw/self/ancestry/extracted/
+  - raw/self/ancestry/ANCESTRY_DNA.txt
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
 related:
   - wiki/self/context-core
@@ -60212,6 +60230,8 @@ Gay Gillingham's own geographic history is minimal: born in North Union, Fayette
 The Pittsburgh Corridor industrialists. George Dixon Shrum Jr. was born in Pittsburgh, Allegheny County, and his family's history is tied to the orbit of Pittsburgh rather than the deep rural Appalachian lines. His father, G. Dixon Shrum (abt 1896–1960), was born in Irwin, Westmoreland County, served in the military (1917–1918), and moved through North Huntingdon before settling in Pittsburgh's Fox Chapel neighborhood. The family represents the industrial and suburban development around Pittsburgh — working-to-middle-class participants in the 20th-century industrial economy.
 
 The Shrum line extends through Daniel E. Shrum Jr. (abt 1846) and Reuben Shrum (1818) to the early 19th-century settlers of Westmoreland County. The Dixon line (Ida M. Dixon, b. abt 1860) and the Kutz line (Linus Belus Cubulus Kutz, b. 1875, Bowers Station, Pennsylvania) add German and Scots-Irish components. The Kutz and Rush families (Anne Lois Rush, b. 1875, Lower Turkeyfoot, Somerset County) extend into the rural Somerset County region.
+
+Daniel E. Shrum Jr. and Ida M. Dixon married in 1875 and had at least six children, of whom G. Dixon Shrum (abt 1896–1960) is the direct line. One of his older brothers, **Daniel Shrum** (b. 11 April 1884, Pennsylvania), was still single and living at home per the 1900 census (Irwin Ward 2, Westmoreland County) and died 11 December 1918 in Greensburg, Westmoreland County, at age 34 — a death date that falls inside the second, deadliest wave of the 1918 influenza pandemic in Pennsylvania (which peaked in the state that October–December), though the GEDCOM carries no attached cause of death and this reading is inference, not documentation. He never appears elsewhere in the corpus; this is a collateral relative (a great-granduncle, 0% DNA contribution) rather than a direct ancestor, and the fact is recorded here as exactly the kind of mundane, previously-unmined GEDCOM detail `EXTRACTION_SPEC.md` argues is worth keeping even when nothing else connects to it yet.
 
 George Dixon Shrum Jr.'s own life traces a Fox Chapel → Pittsburgh trajectory, with documented residence at multiple Pittsburgh addresses from 1940 through 2020. He married Rebecca Diane Van Voorhis Jr. in 1961, linking the Pittsburgh industrial line to the Appalachian coal-country line.
 
