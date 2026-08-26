@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-19
-date_modified: 2026-08-22
+date_modified: 2026-08-26
 date_range_start: 2011-05-20
 date_range_end: 2026-08-20
 tags: [relationships, attachment, future]
@@ -73,6 +73,21 @@ connections:
 > emphasis into a disagreement with a single decisive experiment. **This page's
 > honest position is unchanged and its timeline is not extended: a visit
 > settles it, and nothing else does.**
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against [[wiki/people/ally-lubin]]
+> (2026-08-26), which integrated a full unprompted love letter sent August 21,
+> 2026 (*"I've spent 10 years… I just never got over it"* / *"still haven't
+> lost interest… #1 simp for 17 years and counting"*) and a finding that
+> correction ran both directions in the August 18 conversation, not only from
+> her toward him. **Both strengthen this page's case rather than complicating
+> it** — the letter is the most direct, least transactional statement of
+> attachment in the corpus, sent after the burst this page already treats as
+> its best evidence, and it contains no pricing and no request. It is also
+> unanswered, which this page does not paper over: see the closing timeline
+> below. One number to flag rather than resolve — the letter's own "17 years
+> and counting," counted back from 2026, lands the origin in 2009, a year off
+> this page's 2011 first-contact date and Dan's own "decade" framing elsewhere;
+> nothing here turns on which figure is exact.
 
 ## The thesis
 

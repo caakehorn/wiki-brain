@@ -1,3 +1,33 @@
+## [2026-08-26] close | people | ally-lubin — the love letter and the mutual-correction finding integrated, three dependents re-checked
+
+**Cleared both staging blocks on `wiki/people/ally-lubin.md`** (`pending_ingest`
+and `sage_pending`, both 2026-08-21). The operator's manual note carried a full
+love letter Dan sent Ally on 2026-08-21, filed at
+`raw/people/captures/2026-08-21_175309_gap-ally-lubin.md`; it now has its own
+dated section on the page, placed after the August 18–20 burst analysis. The
+sage finding (from `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`)
+identified that the page recorded only Ally's half of the August 18 concession
+sequence (16:46–16:47 and 21:07–21:09) as evidence of her hostility as a
+reviewer, when it is really the only clean two-directional correction sequence
+in eighteen years of record — folded into "She audits it." A second, defensive
+finding flagged "I'm a SINGLE MOTHER" as a joke about cats, not a family
+structure, self-corrected by her three minutes later — now stated on the page
+so the line does not trap a future pass the way it nearly trapped this one's
+own answer draft.
+
+**Cascade.** Bumping `date_modified` on the entity page flagged three
+dependents stale: `wiki/people/ally-lubin-cognitive-profile` (already used both
+the letter and the concession sequence from the raw captures directly — the
+entity page has now caught up, no claim changes), `wiki/self/concepts/astrology-star-signs`
+(dependency is her birth date, untouched, no claim changes), and
+`wiki/self/concepts/ally-and-dan-love-as-destiny` (the letter is new,
+unanswered, non-transactional evidence that strengthens rather than
+complicates the page's thesis — added as a RE-CHECKED note with the one loose
+thread, "17 years and counting" implying a 2009 origin against the page's 2011
+first-contact date, flagged and left open). The cognitive-profile bump then
+flagged `wiki/mind/synthesis/the-rescue-premise` stale in turn; re-checked, no
+claim affected. All three gates 0 errors at each step.
+
 ## [2026-08-23] directive | people | the Annie record is closed — no further texts, no further narrative
 
 **Operator directive, safety-grounded:** no new Annie material enters the
