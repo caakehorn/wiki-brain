@@ -5,7 +5,7 @@ title: "Voice Modes — Dan's Texting Register by Emotional State"
 aliases: ["mode activation", "composite voice model"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-08-23
+date_modified: 2026-08-26
 sources:
   - raw/self/google-drive-export/Composite Voice Model for Dan Frank.md
 related:
@@ -23,6 +23,9 @@ connections:
   - page: wiki/mind/profile/texting-deviance-audit
     type: parallels
     claim: "The eight emotional-state modes here and that page's seven countable structural turn-modes are orthogonal cuts of the same output; the structural taxonomy is the one with numbers on it, and it finds the Irritated mode's 'short and staccato, rapid bursts' description to be the NORM rather than the deviation — 8.5% of his 2026 turns against his interlocutors' 10.5%."
+  - page: wiki/mind/profile/lexicon
+    type: contradicts
+    claim: "This page states Affectionate mode suppresses cold, intellectualizing phrasing so sincerity can stand uncushioned; the bespoke lexicon's compliments to Ally do the opposite — maximally intellectualized, forensic-bureaucratic diction as the delivery mechanism for sincere affection, not a defense against it."
 ---
 
 # Voice Modes — Dan's Texting Register by Emotional State
@@ -53,6 +56,19 @@ endearment, explicit statements of care, longer messages that actually
 spell out feelings he'd otherwise hint at. Sarcasm and cold, intellectualizing
 phrasing are suppressed — sincerity is allowed to stand instead of being
 cushioned with a deflecting "lol."
+
+> **CONTRADICTION:** [[wiki/mind/profile/lexicon]] — a compliment-phrase
+> generator built by Dan explicitly around Ally — is the opposite move.
+> Categories I and II are sincere affection addressed directly to her, and
+> the intellectualizing register is not suppressed to let sincerity stand;
+> it is amplified to carry it ("she has rendered ordinary adjectives
+> inadequate," "an unreasonable concentration of beauty"). Read together
+> with this page's own Playful description ("profanity here reads as
+> affectionate, not harsh"), the more accurate model may be that Playful and
+> Affectionate fuse for this specific relationship rather than that
+> Affectionate strips the defenses Playful still wears — performed,
+> deadpan-authority sincerity rather than bare sincerity. Not resolved here;
+> see the lexicon page's own analysis.
 
 **Irritated** — frustration, disrespect, broken trust. Messages turn short
 and staccato, often arriving in rapid bursts; profanity escalates to convey

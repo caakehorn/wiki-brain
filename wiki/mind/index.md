@@ -3,7 +3,7 @@ domain: mind
 page_type: index
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-08-20
+date_modified: 2026-08-26
 sources: []
 related: []
 connections:
@@ -36,6 +36,8 @@ authoritative factual spine remains [[wiki/self/context-core]].
 - [[wiki/mind/profile/deviance-mapping]] — the 2025 statistical-outlier audit: deviation scores, top-10 outliers.
 - [[wiki/mind/profile/linguistic-profile]] — voice fingerprint, "forensic intimacy" register, stylometrics, emotional tells.
 - [[wiki/mind/profile/texting-deviance-audit]] — turn-level measurement of how he texts: the STACKED-ESSAY mode, the 2025-26 escalation, the answer-rate cost.
+- [[wiki/mind/profile/neurodivergence]] — the self-identified-autism claim traced to its actual sourcing: three convergent AI-secondary documents, no clinical record, and his own question about whether the label is legitimate architecture or an excuse.
+- [[wiki/mind/profile/lexicon]] — a twelve-category compliment/affection phrase generator built around Ally: the forensic-intimacy register redeployed as flirtation rather than crisis analysis, and a documented complication of the voice-modes Affectionate/Playful split.
 
 ## concepts — mechanisms
 

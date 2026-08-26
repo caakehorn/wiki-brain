@@ -5,7 +5,7 @@ title: "The Instrument Is Also the Subject"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-21
+date_modified: 2026-08-26
 synthesizes:
   - wiki/mind/synthesis/ai-collaborative-analysis
   - wiki/mind/synthesis/ancestral-dialectic
@@ -49,6 +49,9 @@ connections:
   - page: wiki/mind/synthesis/ancestral-dialectic
     type: instance-of
     claim: "This page is the worked example of the provenance rule: an interpretive frame that arrived knowledge: mixed and must not have that status laundered by anything that later reasons from it."
+  - page: wiki/work/bfs-foods
+    type: instance-of
+    claim: "The clearest case in the corpus of the failure mode working in reverse — instead of one model's uncorrected reading standing as fact, three chained sessions show the drift itself (incompetence read escalating into an orchestrated-campaign read) getting caught, named, and walked back against the operator's own corrected testimony, with the walk-back preserved on the page rather than silently absorbed."
 ---
 
 # The Instrument Is Also the Subject
@@ -202,3 +205,13 @@ testimony. It simply cannot be promoted to residue by being cited three times.
 > prompt Dan wrote — which the edit did not touch. No finding here is
 > affected; this is exactly the "its other content is not assessed"
 > boundary the Gaps note above already names.
+
+> **RE-CHECKED [2026-08-26]:** `bin/wiki-climb check` flagged this page
+> stale again, against both [[wiki/self/context-core]] and
+> [[wiki/mind/concepts/exocortex]], each of which moved on 2026-08-26 to
+> add one new connections edge to the new
+> [[wiki/mind/profile/neurodivergence]] page — itself a case study of the
+> bootloader-laundering pattern this page describes (an unverified claim,
+> restated as background by three documents built from each other, until it
+> reads as settled). Neither edit touched the honesty-standard premise this
+> page reasons from. Nothing here is affected.

@@ -46,6 +46,9 @@ connections:
   - page: wiki/people/ally-lubin
     type: evidenced-by
     claim: "The Fe-inferior conversion (emotional bids adjudicated rather than met) has its one documented interruption here: a challenge conceded in six words after the challenger narrows rather than escalates, raising the open question of whether the 10%-valuing score is a fixed ceiling or a floor a particular interlocutor can lift."
+  - page: wiki/mind/profile/neurodivergence
+    type: parallels
+    claim: "The self-identified-autistic label and this INTP read describe the same measured profile — bottom-percentile sociability, explicit-over-inferred meaning, systematizing run for its own sake — in two different vocabularies, neither checked against the other before both were accepted."
 ---
 
 # INTP — The Cognitive Function Stack

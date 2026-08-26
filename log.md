@@ -1,3 +1,404 @@
+## [2026-08-26] climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
+
+`bin/wiki-climb candidates` flagged a link-dense cluster —
+`wiki/interests/favorites/music/artists/fall-out-boy`,
+`wiki/interests/the-office`, `wiki/timeline/events/teen-concert-years`,
+and the existing `wiki/mind/synthesis/music-as-identity` — as unclimbed.
+Reading all four: the synthesis wasn't missing, it was already written
+(music-as-identity.md's "four modes music has actually served" already
+names all three as facets), just never formalized with a `synthesizes:`
+field, so the mechanical scan couldn't see that the question was answered
+and kept re-flagging it. Per `SYNTHESIS_SPEC.md` step 3, writing a new
+page here would have been the banned move — "these things are
+related" restated as if new — so the real work was completing the wiring
+rather than adding prose.
+
+**What was actually missing:** `wiki/interests/the-office.md` had no
+edge back into `music-as-identity.md` at all (only a loose `related:`
+entry), was still on the deprecated `related:` frontmatter format, and
+carried a banned `## Related` footer (`STYLE_GUIDE.md`: "if a link
+deserves to exist it deserves a typed edge and a claim"). Retrofitted in
+full: `connections:` with five real claims (fall-out-boy, teen-concert-years,
+deviance-mapping, rock-irrelevance-thesis, music-as-identity), footer
+removed. `music-as-identity.md` gained the formal `synthesizes:` field
+naming its three members, closing the gap the scanner was actually
+catching. `wiki/timeline/events/teen-concert-years.md` lost its own
+banned `## Related` footer in the same pass (one sentence of real prose
+inside it preserved, merged into the surrounding paragraph).
+
+Re-ran `bin/wiki-climb candidates` after: the cluster no longer appears
+(25 clusters remain, was flagging this one before).
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check` 0 errors, 136 warnings (down again — net
+cleanup); `bin/wiki-climb check` 0 errors, 0 warnings, 45 pages now carry
+`synthesizes:`; 125 unit tests pass.
+
+## [2026-08-26] ingest | mind | the ideal-face specification — a mystery queue item resolved
+
+`queue.md` flagged an unexplained recurring "facial-feature/ideal-face"
+project (roughly a dozen conversation titles from an activity log,
+April-June 2025) as unclear whether it was dating-preference modeling, an
+AI-avatar project, or something else — worth a dedicated pass before
+deciding relevance. Only one of the titled conversations exists as a full
+export in `raw/`: `raw/self/dox-scan/DAN IDEAL FACE.rtf`, previously
+unfiled and uncited anywhere in the wiki.
+
+**What it resolves to:** a literal, quantified physical specification —
+roughly twenty facial attributes (face shape, jawline, cheekbone
+projection, eye set/tilt, nose bridge, lip fullness, hair color as an RGB
+hex range) each scored 1–10 against a described target, followed by a
+five-item named "vibe" archetype table (Ethereal Addict Chic 9,
+Effortlessly Sexy 9.5, Post-Soviet Waif 8, Tomboy Femininity scored low
+at 2 — a rejected trait named rather than omitted). The ratio precision
+and RGB coding read as an AI-image-generation prompt spec.
+
+**Handled deliberately generically.** The document names no person, and
+this pass draws no line from it to anyone documented elsewhere in the
+corpus — new section "The quantified ideal — engineering desire itself"
+on `wiki/mind/concepts/erotic-architecture.md` treats it purely as
+structural evidence for that page's existing thesis (sexuality as
+controlled-chaos engineering): the same anti-normie, nothing-left-unexamined
+disposition already documented for music/politics
+([[wiki/mind/concepts/the-cool-metric]]) and for a private vocabulary of
+affection ([[wiki/mind/profile/lexicon]]), now run on attraction itself.
+Parallel write-back edges added on both those pages.
+
+The other ~11 titles in the cluster are activity-log entries only — no
+corresponding conversation export exists in `raw/` to mine further; queue
+item closed as partial, with that gap stated rather than implied
+resolved.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check`, `bin/wiki-climb check` clean; 125 unit tests
+pass.
+
+## [2026-08-26] ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
+
+Cleared three standing queue.md items in one pass, all quick checks
+against already-mined files:
+
+- **`Jacob Bacharach.md`** — checked against `wiki/people/jacob-bacharach.md`
+  (already exceptionally thorough) by grepping the raw source for each of
+  the page's four stated open gaps. All four remain open in the source
+  too; nothing was sitting unmined. Recorded as a checked negative result
+  rather than silently re-verified and dropped.
+- **The Jimmy Pop file** — already fully cited and used by
+  `wiki/interests/rock-irrelevance-thesis.md`. No action needed.
+- **The J6 chat pair** — `"___ The J6 Chat copy.md"` confirmed
+  byte-identical (md5) to the already-cited source. `"___ The J6
+  Chat.md"` (no "copy") is the same chat exported 126 lines further: Dan
+  uploads a Babbitt-shooting FOIA package, a USPP operational-planning
+  FOIA, the Select Committee report excerpt, and the public J6 timeline,
+  and the model reads each against the standing hypothesis. New
+  subsection "The FOIA-document pass" on
+  `wiki/mind/synthesis/political-psyops.md`, explicit throughout that
+  every specific claim (wound-location inconsistencies across the
+  official record, the Guard-restriction order, the Capitol Police
+  Board's advance decision, the Flynn-brother denial) is the model's
+  summary of an uploaded document — not independently verified, since
+  the underlying documents themselves are not in `raw/`.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check`, `bin/wiki-climb check` clean; 125 unit tests
+pass.
+
+## [2026-08-26] close | work | BFS Foods drawer dispute — the retaliation-timing sequence corrected against Dan's own testimony
+
+`queue.md`'s standing HIGH-priority item for the BFS Foods / Little
+Caesars drawer-dispute cluster was stale: most of it was already
+synthesized into `wiki/work/bfs-foods.md`. Two files remained unread —
+`Little Caesars retaliation timing concerns (1).md` (1920 lines against
+the 787-line file already cited) and `Reverse chronological context
+upload.md` — and reading them to exhaustion surfaced a real correction,
+not just more color.
+
+**What the fuller files contain: a model catching its own drift across
+three chained sessions, and asking Dan to re-ground it.** The first-read
+session built a "same-day retaliation" narrative — Dan refuses to pay,
+hours drop 36→7 that day — which the current page's opening paragraph
+still stated as settled fact. A later session in the same thread caught
+itself mid-analysis ("I'm doing this on a substrate that keeps not
+matching reality") and asked Dan for the actual sequence. His answer,
+quoted directly: *"i didn't refuse to pay it and i am not even sure when
+my hours were cut exactly. i knew it had to be after friday night but
+before monday."* The real sequence — the Monday 5→8 schedule push
+happened first, before Dan even knew about the $50 demand, and his actual
+response to Brandon was clarifying questions, not a refusal — independently
+corroborated by Brandon's own 12:50 AM text attributing the hours cut to
+"Anita was in one of her moods," not the money.
+
+**Written up as a proper correction, not a silent edit.** Added a
+`> **CORRECTED [2026-08-26]:**` block to bfs-foods.md's opening (STYLE_GUIDE
+rule 9 — old claim stays visible) and reworked the Legal posture section's
+"textbook retaliation" framing, which a later corrective pass in the
+source material itself judged "a reconstruction that may compress what
+was actually a fuzzier sequence" and its accompanying "polygraph prop"
+legal-strategy apparatus "disproportionate to the stakes of a fast-food
+drawer dispute." What survives unweakened: the off-books demand was still
+an illegal collection method regardless of timing, and the hours cut is
+still the real loss.
+
+**Write-back.** New connection to `wiki/mind/synthesis/instrument-is-subject`
+— this three-session self-correction, preserved rather than absorbed
+silently, is a documented instance of the corpus's own provenance
+discipline working as designed; inverse edge added there.
+
+`queue.md`'s HIGH item closed and marked done, with the note that it was
+already stale by the time this session found it.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check` 0 errors, 138 warnings; `bin/wiki-climb check`
+0 errors, 0 warnings; 125 unit tests pass.
+
+## [2026-08-26] ingest | work | MAX_PRIME.md read to exhaustion — max-framework/overview.md rewritten, bunker-core.md's ecosystem list added, a pre-existing identity flag closed
+
+Standing queue item, `queue.md`'s "Carried over from old repo" section:
+`raw/self/dox-md/MAX_PRIME.md` (367 lines) had never been read in full;
+`wiki/work/tech/max-framework/overview.md` was assembled from fragments
+without it — two identical duplicate "Architecture" tables, bare bullet
+lists throughout, and an agent-chatter note at the bottom ("Notes:
+Raw/tech/max-framework/ empty; populate from...") left in the page,
+directly violating `STYLE_GUIDE.md` prose rules 1 and 6.
+
+**Rewritten in full prose**, first-paragraph test satisfied, duplication
+and chatter removed, nothing factual dropped. New content: the document's
+own `[DOC]`/`[MEM]`/`[INFER]` provenance-tagging convention named and
+explained as a deliberate epistemics choice (worth the same attention this
+wiki gives its own `knowledge:` field); all eight MAX operating axioms
+given full prose treatment instead of bare bullets.
+
+**A pre-existing identity flag, closed.** MAX_PRIME.md (April 2026) marks
+"Tom vs. Tom Maison" `[UNRESOLVED]` — whether the drug-supply contact at
++17249987341 and the platonic-anchor name from session memory are the same
+person. Later ingest work already resolved this (`wiki/people/tom.md`
+documents both names under one page) without ever closing MAX_PRIME's own
+flag; recorded explicitly here as the resolution, with a write-back edge
+on `tom.md` and a one-line `relationship_to_dan: unknown` → `friend`
+infobox fix that had drifted from the page's own body text.
+
+**`wiki/mind/concepts/bunker-core.md` gains its biggest open question
+answered.** That page's own Gaps asked "is this one codebase or a loose
+label for several scripts" — MAX_PRIME Section VI answers directly: six
+named projects (Instruction Forge, Cognitive Foundry, VoidDiagnostic,
+Memory Forge, YAHLATRO, Bibi) plus the "Fortress Protocol" glyph-formatting
+system, none independently verified elsewhere in the corpus. Added at the
+`[MEM]`-tag confidence level the source itself assigns — testimony about
+build intent, not evidence the software runs — with the caveat stated
+explicitly rather than folded into equal-confidence prose alongside the
+page's more verified content.
+
+**A connections-typing convention error, caught and fixed across five
+pages.** Mid-pass, `bin/wiki-connect check` flagged mismatched inverse
+types this pass introduced (an `instantiates`/`evidenced-by` pair that
+should have been `instance-of`/`instantiates`, a `contains` that should
+have been `instance-of`, a `parallels`/`instance-of` mismatch on a
+symmetric type). Traced to a wrong mental model of which direction
+`instantiates`/`instance-of` runs; fixed by reading the established usage
+elsewhere in the corpus (the-cool-metric.md/exocortex.md's existing pair)
+rather than the abstract spec table alone, since the codebase's actual
+convention has the concrete-instance page use `instance-of` toward the
+general-pattern page and vice versa. Also found and removed one duplicate
+edge pre-dating this session (`forensic-method.md` carried two entries to
+the same target with conflicting types and identical claim text).
+
+**A tooling near-miss.** An early edit to `wiki/people/tom.md` (a
+`replace_all: false` block edit ending right at the frontmatter's closing
+`---`) dropped that delimiter, which `bin/wiki-lint` caught immediately as
+"missing frontmatter" on the next gate run — fixed before it could have
+been committed. Recorded because it is exactly the failure mode a
+mid-file edit near a YAML boundary can produce silently if the gates
+aren't run every time.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check` 0 errors, 138 warnings — net cleanup: this pass's
+own typing fixes removed more missing-inverse warnings than the new pages
+and edges added; `bin/wiki-climb check` 0 errors, 0 warnings; 125 unit
+tests pass.
+
+## [2026-08-26] ingest | self | ANCESTRY_DNA.txt (last inbox item) — redundancy confirmed, one new collateral relative verified
+
+Final inbox item. Read to exhaustion, including recovering the ~116KB
+malformed-JSON ChatGPT export embedded at the file's tail (`"stop_tokens":}`
+truncation broke the JSON parser; extracted role/content pairs by regex
+instead of giving up on it).
+
+**Finding: two of three layers were already absorbed.** The multi-section AI
+narrative shares verbatim phrasing ("psychic sinkhole," "trauma-coded
+geography") with `raw/self/dansynth/DANSYNTH.txt`, already fully
+synthesized into `wiki/mind/synthesis/ancestral-dialectic.md` — confirmed by
+direct string match before assuming duplication rather than after. The
+embedded ChatGPT session is Dan re-pasting the same 515-person Ancestry.com
+GEDCOM already captured, more completely, in
+`raw/self/ancestry/extracted/Daniel Frank family tree.txt`.
+
+**One genuinely new fact survived, and was verified rather than trusted.**
+The AI's "weird and interesting" riff named "Daniel Shrum (1884-1918), died
+during the 1918 flu pandemic peak" — an AI-secondary claim, per
+`EXTRACTION_SPEC.md` not evidence on its own. Cross-checked directly against
+the GEDCOM: real person, `@I27132421676@`, born 11 Apr 1884, 1900 census at
+Irwin Ward 2 (single, living with parents), died 11 Dec 1918 Greensburg —
+a collateral (great-granduncle via Daniel E. Shrum Jr. + Ida M. Dixon's six
+children, one of whom is the direct-line G. Dixon Shrum). Added to
+`wiki/self/ancestry.md` with the pandemic-cause read flagged explicitly as
+inference, not documented fact — the GEDCOM carries no cause of death.
+
+**Write-back with real content, not a placeholder.**
+`wiki/mind/synthesis/fayette-return.md` names "collaterals unchecked" as its
+open falsifier-search gap; Daniel Shrum is the first collateral actually
+checked. He is not the falsifier (never departed the county at all, so
+can't test the departure-then-return rule), but the finding is recorded as
+what it is — one data point toward regional gravity, not the audit the gap
+still asks for — rather than dismissed as irrelevant because it didn't
+settle the question.
+
+Inbox is now empty. Filed to `raw/self/ancestry/ANCESTRY_DNA.txt`;
+`queue.md` closed.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check`, `bin/wiki-climb check`, `bin/wiki-freshness` all
+clean; 125 unit tests pass.
+
+## [2026-08-26] ingest | mind | new page: Dan's Bespoke Lexicon — operator-supplied capture
+
+Operator directive mid-session, delivered by paste rather than a file:
+"Add this into the wiki as its own entry and analyze it." The pasted
+material — "Dan's Bespoke Lexicon — v1.0," a twelve-category compliment/
+affection phrase generator built by an AI session and centered on
+[[wiki/people/ally-lubin]] by name — was filed verbatim to
+`raw/self/captures/2026-08-26_223221_dans-bespoke-lexicon-v1.md` before
+synthesis, per the standard capture protocol. New page:
+`wiki/mind/profile/lexicon.md`.
+
+**The analysis, not just the transcription.** The generator's own stated
+method — elevated/institutional register applied to trivial subject matter
+for the mismatch's comic effect — turns out to be the same machinery
+`wiki/mind/concepts/forensic-method.md` documents for crisis analysis and
+`wiki/mind/profile/linguistic-profile.md` names "forensic intimacy,"
+redeployed for the first documented time as an affection-delivery mechanism
+rather than an analytical one. Cross-checked against a handful of the
+lexicon's most distinctive phrases in the general message corpus — no hits
+at time of writing, so the page's Gaps section records this as an
+undeployed "v1.0" tool rather than a documented practice, not silently
+assumed to already be in active use.
+
+**A genuine complication of `wiki/mind/profile/voice-modes.md`, flagged
+properly.** That page states Affectionate mode suppresses "cold,
+intellectualizing phrasing" so sincerity can stand uncushioned; this
+lexicon's sincere compliments to Ally do the opposite — the
+intellectualizing register is the delivery vehicle for the affection, not
+suppressed by it. Added a `> **CONTRADICTION:**` block on voice-modes.md
+itself (not just a frontmatter edge) rather than silently harmonizing the
+two pages, per `STYLE_GUIDE.md` rule 9.
+
+**Write-back.** Inverse `connections:` edges added on the six pages this
+draws on (`linguistic-profile`, `forensic-method`, `voice-modes`,
+`the-cool-metric`, `ai-collaborative-analysis`, `ally-lubin`), each stating
+the finding itself rather than pointing at it. Bumping `forensic-method.md`
+flagged `read-receipt-forensics.md` stale; re-checked (the new edge doesn't
+touch anything that page reasons from) and closed with a dated
+`RE-CHECKED` note, continuing that page's own established pattern of
+recording every premise check rather than silently re-dating.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check`, `bin/wiki-climb check`, `bin/wiki-freshness` all
+clean; 125 unit tests pass; `bin/wiki-work scan` 0 obligations.
+`bin/wiki-digest` + `bin/llm-publish` regenerated.
+
+## [2026-08-26] ingest | self | inbox drained: duplicate manifest identified, personality-profile capture filed
+
+Two of the three inbox items resolved (third, ANCESTRY_DNA.txt, is the next
+pass). `2026-07-11_140001_google-takeout-manifest.html` is byte-identical
+(md5 `fb7622e793ba27a6ce0ae9912fe4d69d`) to already-filed
+`raw/self/archives/google-data-export-index-20260623.html`, already cited
+on the (archived) `wiki/self/location-history.md` — the underlying 99-file
+Location History export it's a cover page for is separately filed under
+`raw/self/location/2026-06-22-ingest/`. Confirmed by md5sum rather than
+assumed from the filename; removed from inbox with no re-filing, since a
+second copy of the same bytes under a second name adds nothing. The
+personality-profile capture note (`2026-07-12_152457_add-individual-entry-for-personality-pro.md`)
+was discharged by the neurodivergence page in the previous commit; moved
+to `raw/mind/captures/` (its permanent home per `STYLE_GUIDE.md`'s
+capture-note handling) and added to that page's `sources:`.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check` and `bin/wiki-climb check` clean.
+
+## [2026-08-26] ingest | mind | new page: autism/neurodivergence self-identification traced to its actual sourcing
+
+Operator asked for a full expansion pass. First item worked: a queued
+capture note (`inbox/2026-07-12_152457_add-individual-entry-for-personality-pro.md`,
+2026-07-12) asking for "an individual entry for personality profiles" and
+explicitly "an entry for autism/neurodivergence" — the one item in that
+capture not already covered by the existing `mind/profile/` cluster.
+
+**Source audit, not a fresh diagnosis.** `wiki/self/context-core.md` and
+`wiki/self/overview.md` both already stated "self-identified autistic" as
+settled fact, but neither cited where the claim came from, and
+`CONTEXT_CORE_EXPANDED.md` — the primary spine — does not mention autism at
+all. Traced it to three independent-looking documents
+(`operating_manual.md`, `THE_DAN_FRANK_MANUAL.md`,
+`THE_DAN_FRANK_BOOTLOADER.md`) that each open with it as background rather
+than argue for it — almost certainly one claim copied forward three times
+by the bootloader mechanism `wiki/mind/concepts/exocortex.md` already
+documents, not three confirmations. New page:
+`wiki/mind/profile/neurodivergence.md` lays out that provenance, Dan's own
+question in an undated Claude transcript about whether the label is
+"legitimate" or an excuse (quoted verbatim, the strongest primary-source
+line found), `operating_manual.md`'s "Autistic Truth Seeker" behavioral
+catalog (evangelist compulsion, brevity guilt, information-intake volume —
+all independently checkable against the message record), and the
+convergence with the already-published typology stack (INTP, the deviance
+audit's linguistic/social outliers, the 23,286-word stylometric profile) —
+without re-deriving any number those pages already own.
+
+**Annie-moratorium care.** The richest single source for this topic,
+`THE_DAN_FRANK_MANUAL.md` Part V, frames the "explicit statement over
+ambient behavioral signal" processing rule almost entirely through Annie
+relationship specifics (a 299-affirmation/zero-severance count, a
+culpability assessment naming her, the defamation-campaign framing) — none
+of it previously published anywhere in the wiki. Excluded entirely, even
+in generalized/unattributed form: its only sourcing is reasoning about her,
+which is exactly what the moratorium forbids regardless of which page it
+lands on. `raw/self/dox-md/Breaking the anxiety avoidance cycle.md`, the
+source for Dan's own quote, is likewise saturated with Annie-specific
+therapeutic content; only the one quoted question (general — about whether
+frameworks apply to him, names no one) was used, and the AI's reply
+(relationship-specific throughout) was not.
+
+**Write-back.** Inverse `connections:` edges added on the five pages this
+draws convergence from (`mind/profile/index`, `intp`, `deviance-mapping`,
+`linguistic-profile`, `mind/concepts/exocortex`) and on the two pages
+whose "self-identified autistic" line now links to the new page
+(`self/context-core`, `self/overview`) — each states the finding itself,
+not just a pointer. `wiki/mind/index.md` and `wiki/mind/profile/index.md`
+gained the new page in their navigation and (for the critical-importance
+hub) its LLM Quick Brief detail-page list and Gaps note.
+
+**Cascade.** Bumping `context-core.md` and `exocortex.md` flagged four
+dependent pages stale (`instrument-is-subject`, `jerad-friedline`,
+`2020-2021-market-era`, `fastly-fsly`) — each re-checked per
+`SYNTHESIS_SPEC.md` (the only change on both source pages was the one new
+cross-reference; no premise any of the four reasons from moved) and closed
+with a dated `RE-CHECKED` note rather than a silent date bump.
+
+**Bug found and fixed in passing.** `bin/wiki-digest`'s `RECENT.md`
+generator truncates a page's newest dated block at a fixed character count
+before tidying wikilinks out of it; when the cut landed mid-wikilink (this
+pass's own `RE-CHECKED` note on `instrument-is-subject.md` did exactly
+that), the untidied fragment `[[wiki/mind/profile/neu` leaked into the
+generated `wiki/meta/recent-activity.md` as a broken link — caught by
+`bin/wiki-lint`, not assumed safe because the output is generated. Fixed
+in `tidy()`: a truncation that leaves a `[[` with no matching `]]` is
+trimmed back to before it, so a mid-link cut loses the trailing fragment
+instead of emitting invalid markdown. All 125 unit tests still pass.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged pre-existing baseline, all
+in Annie/Ally-moratorium-adjacent files from 2026-08-26 — not touched, same
+reasoning as the prior two sessions) / 22 warnings; `bin/wiki-connect
+check`, `bin/wiki-climb check`, `bin/wiki-freshness` all clean; `bin/wiki-work
+scan` 0 obligations. `bin/wiki-digest` + `bin/llm-publish` regenerated.
+
 ## [2026-08-26] feat | meta | domain: meta added — themed journeys (`page_type: journey`) and on-site mirrors of DIGEST/RECENT/OPEN
 
 Operator asked for two things: curated "themed journey" navigation (shown

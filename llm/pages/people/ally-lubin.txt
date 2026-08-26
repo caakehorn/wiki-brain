@@ -81,6 +81,9 @@ connections:
   - page: wiki/timeline/periods/2018-deep-cycle
     type: component-of
     claim: "The tie is opened inside the deep cycle and shares its economics — a $25 finder's fee, a $250 Cash App gift and a Christmas present issued in the same December weeks Dan was running daily Cash App limits and declined payments."
+  - page: wiki/mind/profile/lexicon
+    type: evidenced-by
+    claim: "A twelve-category compliment-and-affection phrase generator, built around her by name and addressed to her specifically, is documented private-register evidence more elaborate and more deliberately engineered than anything recorded for any other contact in the corpus."
 ---
 
 # Ally Lubin (Alexandra Lubin)

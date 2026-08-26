@@ -3,18 +3,29 @@ domain: interests
 page_type: entity
 status: active
 date_created: 2026-07-16
-date_modified: 2026-07-16
+date_modified: 2026-08-26
 sources:
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/dox-scan/FULL TWITTER ANALYSIS.txt"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/facebook/facebook-ihatedanfrank/posts/your_posts_1.html"
-related:
-  - wiki/interests/favorites/music/artists/fall-out-boy
-  - wiki/timeline/events/teen-concert-years
-  - wiki/mind/profile/deviance-mapping
-  - wiki/interests/rock-irrelevance-thesis
 tags: [personality-profile, digital-footprint, nyc-era]
+connections:
+  - page: wiki/interests/favorites/music/artists/fall-out-boy
+    type: co-occurs
+    claim: "The Schrute Farms alias fuses this show into the single most-attended band's concert record — a joke from one media object carried twelve years and reused inside another fandom's timeline, rather than staying siloed to its own."
+  - page: wiki/timeline/events/teen-concert-years
+    type: contains
+    claim: "The Nov 19 2007 Buffalo secret show, billed as 'Schrute Farms,' is the one dated, verifiable instance where this show's idiom enters the concert record directly rather than staying a rhetorical habit."
+  - page: wiki/mind/profile/deviance-mapping
+    type: evidences
+    claim: "Reading public figures (Gordon Sondland, Dwight Eisenhower) through this show's specific joke-logic is a small, checkable instance of the audit's 'hyper-specific linguistic style' outlier — pop-culture schemas doing referential work a plain description could do instead."
+  - page: wiki/interests/rock-irrelevance-thesis
+    type: parallels
+    claim: "Both pages document media consumed for its idiom rather than for canonical prestige — the rock-irrelevance thesis argues genre status doesn't track cultural function, and this page's 'that's what she said' reflex is the same disconnect running on a sitcom instead of a genre."
+  - page: wiki/mind/synthesis/music-as-identity
+    type: component-of
+    claim: "The Schrute Farms alias is the itinerary/devotion mode's clearest proof of insider status: a fan who clocks and carries an in-joke for twelve years was let into the scene's own sense of humor, not just watching from outside it."
 ---
 
 # The Office (TV)
@@ -58,7 +69,3 @@ it supplied (a) a concert-alias identity, (b) a standing rhetorical tic,
 and (c) a frame for reading politics. The meaning is real and
 under-documented, not absent. It is logged here so the FOB secret-show
 entry and the political-psyops material have somewhere to point.
-
-## Related
-
-[[wiki/interests/favorites/music/artists/fall-out-boy]] · [[wiki/timeline/events/teen-concert-years]] · [[wiki/mind/profile/deviance-mapping]] · [[wiki/interests/rock-irrelevance-thesis]]

@@ -5,7 +5,7 @@ title: "Deviance Mapping — The Statistical Outlier Audit"
 aliases: ["deviance audit", "social deviances"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-08-22
+date_modified: 2026-08-26
 sources:
   - raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md
   - raw/self/dox-scan/Dan Profile.txt
@@ -32,6 +32,12 @@ connections:
   - page: wiki/mind/synthesis/the-commissioned-self
     type: evidences
     claim: "The audit's own second-ranked outlier states this page's thesis better than anything else in the corpus: 'recursive self-analysis as a life project' at 98/100, with writing his own psychological operating manual named as 'his primary occupation' — an instrument scoring the frequency of its own commissioning."
+  - page: wiki/mind/profile/neurodivergence
+    type: evidenced-by
+    claim: "Three of this audit's top-10 outliers — hyper-specific linguistic style (97), extreme social aversion (90), the intellect/impulsivity paradox (95) — are exactly the cluster an adult self-recognizing autism typically cites, reached independently of the autism claim and never cross-referenced against it until now."
+  - page: wiki/interests/the-office
+    type: evidenced-by
+    claim: "Reading Gordon Sondland's testimony and Dwight Eisenhower's name through this sitcom's specific joke-logic is a small, checkable case of the 'hyper-specific linguistic style' outlier (97/100) — pop-culture schemas doing referential work a plain description could do instead."
 ---
 
 # Deviance Mapping — The Statistical Outlier Audit

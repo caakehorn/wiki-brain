@@ -4,7 +4,7 @@ page_type: period
 title: "2020–2021 Market Era"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-21
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/operating_manual.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -87,3 +87,10 @@ Where politics is interpreted through the vertical-authority-skepticism lens,
 markets operate as a cultural-trend sensing exercise. Jerad's role as the
 "first-call node" for financial events mirrors his political role — crisis
 triggers reconnection across both domains.
+
+> **RE-CHECKED [2026-08-26]:** `bin/wiki-climb check` flagged this page stale
+> against [[wiki/self/context-core]], which moved on 2026-08-26. The premise
+> did not move in substance — the only change on that page was one new
+> `connections:` entry cross-referencing the new
+> [[wiki/mind/profile/neurodivergence]] page. Nothing here is downstream of
+> it.

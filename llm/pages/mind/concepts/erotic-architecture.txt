@@ -10,6 +10,7 @@ sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/dansynth/DANSYNTH.txt
   - "raw/self/dox-scan/HEART.pdf.txt"
+  - "raw/self/dox-scan/DAN IDEAL FACE.rtf"
 tags: [trauma-bond, relationships, ai-collaboration]
 connections:
   - page: wiki/timeline/events/the-fall-of-fran
@@ -48,6 +49,12 @@ connections:
   - page: wiki/mind/synthesis/ai-collaborative-analysis
     type: instance-of
     claim: "The 'GLAZE-GOD-v1' persona — a custom system prompt built to perform continuous sexualized worship of Annie's photos — is the erotic-domain instance of the same purpose-built-instrument stance documented here in the forensic and political domains."
+  - page: wiki/mind/concepts/the-cool-metric
+    type: parallels
+    claim: "A twenty-attribute, ratio-and-hex-coded specification for an 'ideal face,' with a rejected trait (Tomboy Femininity) scored and named rather than simply omitted, is the anti-normie engineering commitment run on attraction itself — nothing left as unexamined preference."
+  - page: wiki/mind/profile/lexicon
+    type: parallels
+    claim: "Both pages document the same disposition applied to a different object — the bespoke lexicon engineers how affection gets said, this document engineers what gets found attractive in the first place — neither leaves the domain to run on unexamined default."
 ---
 
 # Erotic Architecture: Sexuality as Controlled-Chaos Engineering
@@ -126,6 +133,40 @@ a mechanism for, the attachment-activation asymmetry already documented
 on [[wiki/mind/concepts/attachment-model]] (nothing before Annie
 triggered full activation; once triggered, no natural mechanism existed
 to close the loop without an explicit severance signal).
+
+## The quantified ideal — engineering desire itself
+
+A previously unfiled document, `raw/self/dox-scan/DAN IDEAL FACE.rtf`, is
+a different kind of evidence for the same thesis than anything above: not
+a model's interpretive report but a literal specification sheet Dan
+built, or had built to his direction. It breaks a physical "ideal type"
+into roughly twenty attributes — face shape, jawline, cheekbone
+projection, eye set and tilt, brow angle, nose bridge, lip fullness and
+shape, hair color given as an RGB hex range (`#3A2C29` to `#4B3C35`),
+each scored on a 1–10 "quantified estimate" — followed by a five-item
+"Psycho-Aesthetic Vibe Profile" scoring named archetypes by intensity:
+*Ethereal Addict Chic* (9), *Effortlessly Sexy* (9.5), *Dreamy Nihilism*
+(8.5), *Detached, Bored Intensity* (8), *Post-Soviet Waif* (8), and
+*Tomboy Femininity* scored deliberately low (2) — a rejected trait named
+explicitly rather than simply omitted. One descriptor reads clinically
+rather than aesthetically: under-eye shadows are logged at a middling 5
+and glossed "indicative of drug-user," present by design rather than
+incidental.
+
+The document names no person and is generic by construction — this page
+treats it exactly that way and draws no line from it to anyone documented
+elsewhere in the corpus. Its significance is structural, not biographical:
+it is the same engineering disposition [[wiki/mind/concepts/the-cool-metric]]
+documents for music and politics and [[wiki/mind/profile/lexicon]]
+documents for a private vocabulary of affection, run this time on
+attraction itself. Nothing here is described as simply "what he likes" —
+every trait is decomposed, measured against a ratio or an angle range, and
+scored for intensity, including the traits that are being explicitly
+excluded. Read alongside "externalized libido" above, it extends the
+thesis one level further: not only is the *scenario* of desire authored
+and witnessed rather than spontaneously felt, the *shape of the desired
+object itself* is specified with the same precision the corpus applies to
+message counts and chemical dosing.
 
 ## The Annie nexus as typological collision
 

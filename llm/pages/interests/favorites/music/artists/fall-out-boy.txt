@@ -3,7 +3,7 @@ domain: interests
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-01
+date_modified: 2026-08-26
 sources:
   - "raw/self/favorites/FAVS MASTERLIST.csv"
   - "raw/self/dox-scan/Dan Profile.txt"
@@ -45,6 +45,9 @@ connections:
   - page: wiki/interests/video-games
     type: co-occurs
     claim: "The 2007 status layer names gaming and 'swooning over the new FOB' in the same breath; the two interests are contemporaneous coordinates of the pre-armor self-presentation."
+  - page: wiki/interests/the-office
+    type: co-occurs
+    claim: "The Nov 19 2007 Buffalo secret show was billed under the fake name 'Schrute Farms' — a sitcom in-joke carried into the band's own concert record and remembered by name twelve years later."
 ---
 
 # Fall Out Boy
