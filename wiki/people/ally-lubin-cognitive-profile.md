@@ -7,6 +7,7 @@ status: active
 knowledge: earned
 date_created: 2026-08-22
 date_modified: 2026-08-26
+pending_ingest: 2026-08-27
 importance: high
 tags: [personality-profile, forensic-analysis, relationships, mental-health]
 date_range_start: 2013-07-05
@@ -597,9 +598,6 @@ should believe on anything.*
 
 Each of these is answerable by the operator in a paragraph.
 
-- **Whose result is the screenshot, and when was it taken?** The image carries
-  no identifying metadata. Did Ally send it to Dan directly, and on what date?
-  The original `IMG_2320.heic` may carry EXIF that the screenshot destroyed.
 - **What was her state when she took it?** The 92% Turbulent is the load-bearing
   figure and neuroticism instruments are state-sensitive. A test taken inside a
   bad week and one taken inside a good month are different data.
@@ -619,3 +617,26 @@ Each of these is answerable by the operator in a paragraph.
   diagnosis for Ally exists anywhere in `raw/`. The suicidality material is
   self-report inside message threads, not assessment, and this page makes no
   clinical claim from it.
+
+## Operator answers — pending ingest
+
+> Transient staging, written from the portal. Each block below is the
+> operator answering something this page said it did not know. **Nothing here
+> has been integrated yet.** The next pass over this page reads these answers,
+> corrects this page *and every page that inherited the gap*, records each
+> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
+> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
+> section and the `pending_ingest:` flag. It is not allowed to accumulate into
+> a changelog — STYLE_GUIDE rule 6.
+
+### ANSWERED [2026-08-27] — Whose result is the screenshot, and when was it taken? The image carrie…
+
+**The gap, as this page stated it:**
+
+> - **Whose result is the screenshot, and when was it taken?** The image carries
+>   no identifying metadata. Did Ally send it to Dan directly, and on what date?
+>   The original `IMG_2320.heic` may carry EXIF that the screenshot destroyed.
+
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-27_022249_gap-ally-lubin-cognitive-profile.md`.
+
+Thats Ally Lubin’s result ajd it is recent
