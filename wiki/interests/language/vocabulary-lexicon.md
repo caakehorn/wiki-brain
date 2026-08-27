@@ -6,7 +6,7 @@ aliases: ["affective vocabulary", "the insult lexicon", "the pretty-words", "the
 status: active
 knowledge: mixed
 date_created: 2026-08-26
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 synthesizes: []
@@ -15,6 +15,12 @@ connections:
   - page: wiki/mind/concepts/the-cool-metric
     type: instantiates
     claim: "The two curation batches are the cool metric run on vocabulary itself: the 'stupid' axis is graded by mechanism (fake institutional prestige, historical condemnation, precision vulgarity), exactly the performed-versus-authentic sort the cool metric applies to people and culture; the 'pretty' axis is graded by register-escalation (mere 'beautiful' rejected for 'aesthetic felony')."
+  - page: wiki/mind/synthesis/the-commissioned-self
+    type: instantiates
+    claim: "The purest specimen of the commissioned-self cycle in the corpus, because all four stages sit inside one day's session: Dan asks, the model produces a graded artifact, the model then analyses that artifact as evidence about Dan, and the analysis designs a further instrument (the unadministered Slang Taste Battery V1) to measure him more precisely. Unlike the stylometrics row, this instrument measures nothing external — it records which words were selected as pleasing, and can acquire a control group only by counting, never by being analysed harder."
+  - page: wiki/mind/profile/linguistic-profile
+    type: component-of
+    claim: "The four registers that page measures are borrowed upward to make description sound forensic; the insult batch here borrows upward to make contempt sound like an obituary. Same register theft, opposite target — but that page's registers were counted against the message corpus and these were merely selected, so the two must not be read at equal weight."
   - page: wiki/mind/concepts/chaos-preference
     type: mirrors
     claim: "The 'pretty' list's 80–100 band — 'this level of attractiveness has become a regulatory problem' — is the same impulse as chaos-preference: imposed calm is distrusted, so even praise is engineered to sound dangerous rather than safe."
@@ -30,8 +36,9 @@ but two graded axes, each sorted by *mechanism* rather than synonymy. The
 person running the session selected the accepted terms from a larger
 machine-generated pool; the selections, not the pool, are the record here.
 
-This page is **curated**, not derived — it documents a deliberate vocabulary
-exercise, not a behavioral claim. It is filed under `interests/language`
+This page is `knowledge: mixed` — a curated record plus the reasoning laid
+over it. It documents a deliberate vocabulary exercise, not a behavioral
+claim. It is filed under `interests/language`
 because its subject is word-choice as a taste signal, and it is linked from
 [[wiki/mind/concepts/the-cool-metric]] as a concrete instance of that page's
 master filter applied to language. It does not assert that these words are
@@ -462,7 +469,7 @@ inverts the usual lexicon-building approach and is the part worth
  category-incongruent, dark-toned, and not youth-slanged.* That is a testable
  filter, and the Battery V1 Part IV is its instrumentation.
 
-**Epistemic status.** Everything in this section is `curated` — generated in
+**Epistemic status.** Everything in this section was generated in
 one session, attributed to the analyst within it, and not yet cross-checked
 against the corpus. The link to [[wiki/mind/concepts/the-cool-metric]] holds
 at the illustrative level (grading-by-mechanism ≈ performed-versus-authentic)

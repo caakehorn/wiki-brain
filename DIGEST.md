@@ -14,10 +14,10 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 516 |
-| Pages touched in the last 14 days | 192 |
+| Pages touched in the last 14 days | 193 |
 | Pages reasoning from other pages (`synthesizes:`) | 45 |
 | Live contradictions | 46 |
-| Open gaps | 466 |
+| Open gaps | 467 |
 | Standing predictions | 55 |
 
 ## By domain
@@ -47,10 +47,10 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-27** — 3 pages
+**2026-08-27** — 12 pages
   - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
 
-**2026-08-26** — 85 pages
+**2026-08-26** — 79 pages
   - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
   - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
@@ -68,14 +68,14 @@ this is the state of the thing.
   - close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked
   - close | people | ally-lubin — the love letter and the mutual-correction finding integrated, three dependents re-checked
 
-**2026-08-23** — 19 pages
+**2026-08-23** — 18 pages
   - directive | people | the Annie record is closed — no further texts, no further narrative
   - lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
   - ingest | people | five new entries, and the Ulmer household turns out to be the corpus's largest blind spot
   - close | people | Libby is Libby Titus, she died in October 2024, and the corpus had her married name all along
   - report | mind | texting deviance audit — the operator's model of his own texting was two-thirds wrong
 
-**2026-08-22** — 7 pages
+**2026-08-22** — 6 pages
   - answer | mind | what would make Dan happy — he answered it himself in 2025, and the record has already run the experiment
   - fix | people | a fourth portal incident, a duplicated H1 on annie-ulmer, and the freshness gate red on main
   - fix | people | the stale-snapshot clobber recurred on ally-lubin, six hours after the last one

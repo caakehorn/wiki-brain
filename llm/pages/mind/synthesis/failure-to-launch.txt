@@ -7,7 +7,7 @@ status: stable
 knowledge: earned
 importance: high
 date_created: 2026-08-22
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 tags: [career, personality-profile, financial-stress, music-production, ai-collaboration]
 sources:
   - raw/self/dox-md/Honest assessment and value judgment analysis.md
@@ -231,6 +231,19 @@ described as "a custom-built fork of English"
 is the interesting half: *functional as a high-fidelity channel to AI and niche
 in-groups, maladaptive in most professional contexts.* This is the clearest case
 in the profile of a real outlier capacity attached to a nearly empty market.
+
+> **RE-CHECKED [2026-08-27]:** flagged stale against
+> [[wiki/mind/profile/linguistic-profile]] (2026-08-27), which gained a section
+> on a commissioned vocabulary session ([[wiki/interests/language/vocabulary-lexicon]]).
+> **No claim on this page changes, and the new material cuts both ways rather
+> than one.** It is more of the same outlier capacity in a nearly empty market —
+> an insult register built by mechanism rather than reached for, which is a
+> genuinely unusual thing to be able to do and is worth approximately nothing
+> professionally, exactly this section's argument. But it is also *selected*
+> vocabulary rather than *measured* vocabulary, so it cannot be used to
+> strengthen the "custom-built fork of English" claim, which is a claim about
+> observed output. The 97/100 deviance score cited above is unaffected either
+> way; it was never computed from this material.
 
 **Forensic corpus analysis**, and this one is demonstrated rather than claimed —
 which in a self-commissioned profile cluster is worth more than any score. The

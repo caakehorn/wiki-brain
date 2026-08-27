@@ -40,7 +40,7 @@ infobox:
   role: "STEM professional (remote, Charlotte, NC)"
   first_contact: 2011-05-20
   handles: ["+156****1550", "allylubin@gmail.com"]
-  mbti: "ENTP-T (tested 2026-08-22, self-administered, attribution unverified; supersedes the disputed ENFP)"
+  mbti: "ENTP-T (tested 2026, self-administered; attribution confirmed by the operator 2026-08-27; supersedes the disputed ENFP)"
   known_for: "Eighteen years of one-sided idolization of a woman Dan has never met, converted in 2019 into a paid channel — 'i've sent 2100 and have like 2 pictures and im STILL trying' — and in August 2026 the first person outside Dan ever to read this wiki, whose joke about it was written into this page as fact"
   last_contact: "2026-08-21 (love letter, 'Your future soulmate / Beto o'rourke')"
   working_status: "Works in STEM, remote from Charlotte, NC"

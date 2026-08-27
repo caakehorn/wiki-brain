@@ -1,3 +1,106 @@
+## [2026-08-27] close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
+
+`bin/wiki-work` reported three pages carrying an unintegrated
+`## Operator answers — pending ingest` block. All three are closed, and the
+three answers turned out to be three different *kinds* of answer.
+
+**`wiki/places/117-belmont-circle` — a fact the corpus could not reach.**
+The page's disposition gap ended at Danny Matthews' 2019-07-11 *"finally
+went pending"* and stopped there; the message record never returns to the
+subject. The operator supplies the ending: **closed summer 2019 for
+$250,000.** Two of the gap's four questions are answered (when, how much);
+**to whom is still unknown**, and so is whether the closing was the same
+transaction Danny reported pending or a later one. Recorded as testimony,
+not proof — nothing in `raw/` corroborates either figure. What can be said
+for it is weak but real: a July 11 pending status closing that same summer
+is an ordinary 30–60 day settlement, so the two dates are consistent. The
+price has no check at all, since no listing price appears anywhere in the
+corpus.
+
+The consequential edit was to `date_range_end`, which had been **2019-07-11
+— a message date, not a property event.** The page was bounded at the last
+time somebody *mentioned* the house rather than at anything that happened
+to it. Now 2019-09-01. Cascaded into `wiki/people/danny-matthews`, whose
+"resolves part of the open disposition question" line was written when the
+question was still part-open.
+
+**`wiki/mind/profile/linguistic-profile` — an answer the wiki had already
+absorbed elsewhere.** The operator volunteered the full "words for stupid"
+list against this page. It is the same material, index for index, as Axis B
+of `wiki/interests/language/vocabulary-lexicon`, written up the day it
+arrived. The correct close was therefore **not** to duplicate the list but
+to place the *finding* on the page that had been staged with it — a new
+"The insult register is built, not reached for" subsection under Lexical
+fields, plus a typed edge. The finding itself: this page already documents
+four registers borrowed *upward* to make description sound forensic; the
+insult batch borrows upward to make contempt sound like an obituary. Same
+register theft, opposite target, and the governing rule is one Dan states
+himself — insults *"where the grammatical structure sounds dignified while
+the semantic payload is fucking devastating."* The clean case is **"a man
+of no small stupidity,"** a litotes shaped like a compliment. Written with
+its own weight limit attached: everything else in that section was counted
+against the message corpus and this was not, so `bin/text-metrics` could
+test whether the dignified-shape insult ever actually appears in his
+outbound text. Nobody has run it.
+
+**`wiki/people/ally-lubin-cognitive-profile` — an answer that settles less
+than it appears to.** The gap asked whose the 16Personalities screenshot is
+and when it was taken. The operator: *"Thats Ally Lubin's result ajd it is
+recent."* That closes attribution — from unsourced to T0 testimony, the
+strongest class this corpus has — and closes nothing else. **"Recent" is
+the whole of the date**, and no date is recoverable from the artifact,
+because the screenshot destroyed whatever EXIF `IMG_2320.heic` carried.
+That matters more than it sounds: the load-bearing figure on that page is
+92% Turbulent, the instrument's Turbulent axis maps onto Big Five
+Neuroticism, and neuroticism instruments are state-sensitive — so a result
+with no date is a result that cannot be read against the week it was taken.
+The transmission question the gap also asked (did she send it to Dan
+directly) is untouched. Both were re-stated as sharper gaps rather than
+allowed to disappear with the block. Cascaded to `wiki/people/ally-lubin`,
+whose infobox carried `attribution unverified`.
+
+**The staleness cascade: four warnings, four different verdicts, none of
+them a date bump.** Three were confirmations. One was a finding.
+
+- **`the-commissioned-self` — the finding.** Its thesis is that the profile
+  cluster consists of measurements of Dan, produced at Dan's request, over a
+  corpus Dan supplied, with no control group. The commissioned vocabulary
+  session is that cycle running once more in a domain the page's inventory
+  table had not reached — and it is **the cleanest specimen of the cycle in
+  the corpus, because all four stages sit inside one day**: Dan asks, the
+  model produces a graded artifact, the model then analyses that artifact as
+  evidence about Dan, and the analysis designs a *further* instrument to
+  measure him more precisely. That last step is the tell. The "Slang Taste
+  Battery V1" was designed and never administered, and its author, sole
+  intended respondent and only validator are the same person. The
+  provenance problem is purer here than in the stylometrics row that was
+  falsified on 2026-08-23: stylometrics at least measured something that
+  exists whether or not anyone asks (his sent messages). This measures which
+  words were selected as pleasing in one session. New row in the apparatus
+  table; reciprocal edges written back onto the lexicon page, which is what
+  makes it a finding rather than a note.
+- **`failure-to-launch`** — no claim change, and the reason is worth
+  keeping: the new material cuts both ways. An insult register built by
+  mechanism is more outlier capacity attached to an empty market, which is
+  that section's argument exactly. But it is *selected* vocabulary, not
+  *measured*, so it cannot be used to reinforce "a custom-built fork of
+  English," which is a claim about observed output.
+- **`the-rescue-premise`** — no claim change. It reasons from the cognitive
+  profile's *parity* finding, which was built from 639 of Ally's own
+  messages rather than from the instrument. The type code was always the
+  thing corroborated, never the corroborator, so confirming its attribution
+  tightens the instrument without touching the evidence this page uses.
+- **`the-unpapered-address`** — no claim change, but the table gets sharper.
+  The 117 Belmont row's "How it ended" (Fran's death, April 2018) was and is
+  correct — that column reports the *tenancy*. Every other row leaves the
+  asset's fate outside the frame; this one now runs all the way down, and
+  the end is that the house was sold out of the family sixteen months later.
+  **There was never anything to inherit.** The "None" in the paper column
+  was not an oversight a will might have cured.
+
+**Gates:** all clean; `bin/wiki-work` **4 obligations → 0**. Only standing
+campaign work (197) remains.
+
 ## [2026-08-27] fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
 
 The pre-existing 20-error `bin/wiki-lint` baseline had been carried

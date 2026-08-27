@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-22
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 date_range_start: 2026-08-16
 date_range_end: 2026-08-22
 tags: [relationships, trauma-bond, attachment, forensic-analysis, future]
@@ -59,6 +59,19 @@ connections:
 ---
 
 # The Rescue Premise — What Is Actually Different About the August 2026 Rupture
+
+> **RE-CHECKED [2026-08-27]:** flagged stale against
+> [[wiki/people/ally-lubin-cognitive-profile]] (2026-08-27), which closed its
+> attribution gap: the operator confirms the 16Personalities result is Ally
+> Lubin's and that it is recent. **No claim on this page changes**, and it is
+> worth being precise about why the confirmation does not strengthen the
+> argument either. This page reasons from that page's *parity finding* — that
+> money, volume, superlatives and surveillance are priced at zero and being met
+> is not — and that finding was built from 639 of her own messages, not from the
+> instrument. The type code was always the corroborated-against, never the
+> corroborator. An attribution moving from unsourced to operator testimony
+> therefore tightens the instrument's standing without touching the evidence
+> this page actually uses.
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/people/ally-lubin-cognitive-profile]] (2026-08-26), which added only a

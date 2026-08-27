@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-08-02
+date_modified: 2026-08-27
 date_range_start: 2018-02-16
 date_range_end: 2024-12-26
 sources:
@@ -11,6 +11,7 @@ sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
+  - raw/places/captures/2026-08-27_022401_gap-117-belmont-circle.md
 related: ["wiki/people/annie-ulmer", "wiki/places/117-belmont-circle", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
 tags: [relationships, uniontown-era, career]
 knowledge: mixed
@@ -48,7 +49,7 @@ He is also, on the evidence of his own thread, **the first person outside the re
 
 ## The realtor thread
 
-Danny works as a residential realtor, based near Uniontown ("the burgh" as backdrop) and mentions Dan's mother Suz as an existing client relationship of his own ("your mom even mentioned it to me"). He handled the listing on Fran's house after her April 2018 death: an April 7, 2018 message shows him stopping by the property the same week and running into Suz there ("I told her I stopped by to extend my condolences"), and by July 11, 2019 he reports the house "finally went pending," with a follow-up crack that "second time's a charm" — implying an earlier listing attempt had fallen through sometime in the intervening year. This resolves part of the open disposition question on [[wiki/places/117-belmont-circle]]: the house was actively re-listed and went to a pending sale in mid-2019, roughly 15 months after Fran's death.
+Danny works as a residential realtor, based near Uniontown ("the burgh" as backdrop) and mentions Dan's mother Suz as an existing client relationship of his own ("your mom even mentioned it to me"). He handled the listing on Fran's house after her April 2018 death: an April 7, 2018 message shows him stopping by the property the same week and running into Suz there ("I told her I stopped by to extend my condolences"), and by July 11, 2019 he reports the house "finally went pending," with a follow-up crack that "second time's a charm" — implying an earlier listing attempt had fallen through sometime in the intervening year. This resolves part of the open disposition question on [[wiki/places/117-belmont-circle]]: the house was actively re-listed and went to a pending sale in mid-2019, roughly 15 months after Fran's death. That pending status held — the sale closed in **summer 2019 for $250,000** (operator testimony, 2026-08-27; uncorroborated in the message record, which never returns to the subject after Danny's July 11 line). The buyer is still unknown, so whether Danny's own commission or a colleague's closed it is undocumented.
 
 ## The swinger relationship
 

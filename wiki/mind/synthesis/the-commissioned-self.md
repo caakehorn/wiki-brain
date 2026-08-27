@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
@@ -172,6 +172,7 @@ life. It exists in commissioned sessions, and it stays there.
 | Deviance audit | 80–99/100 across seven domains, 92% stated confidence | [[wiki/mind/profile/deviance-mapping]] | — |
 | Composite voice model | Eight modes, ten trigger-level modifiers with percentages | [[wiki/mind/profile/voice-modes]] | — |
 | This wiki | 476 pages | [[wiki/self/concepts/wiki-brain]] | — |
+| Bespoke vocabulary | Two graded word batches, selected from a machine-generated pool | [[wiki/interests/language/vocabulary-lexicon]] | — |
 
 > **RE-CHECKED [2026-08-23] — premise moved, and it moved in this page's favour.
 > The stylometrics row is now the first instrument in the table to be independently
@@ -196,6 +197,41 @@ life. It exists in commissioned sessions, and it stays there.
 > at "80–99/100 across seven domains" — were produced the same way and have never met
 > a control group either.** See [[wiki/mind/profile/texting-deviance-audit]] for the
 > recomputation.
+
+> **RE-CHECKED [2026-08-27] — premise moved, and it added an instrument rather
+> than disturbing a claim.** [[wiki/mind/profile/linguistic-profile]] gained a
+> section on 2026-08-27 documenting a **commissioned vocabulary session**: on
+> 2026-08-26 Dan prompted a model to generate graded insult and praise batches,
+> selected from the pool, and had the same session produce a second-order
+> reading of his own taste — including a five-family taxonomy, a twelve-axis
+> "semantic profile," and a designed psychometric instrument (the "Slang Taste
+> Battery V1") that was never administered. It is written up at
+> [[wiki/interests/language/vocabulary-lexicon]] and is now a row in the table
+> above.
+>
+> **No claim on this page changes, and the reason it does not is the finding.**
+> This is the apparatus running its documented cycle one more time, in a domain
+> the table had not yet reached — and it is the cleanest specimen of the cycle
+> yet, because all four stages are visible inside a single day's session: Dan
+> asks; the model produces a graded artifact; the model then analyses the
+> artifact as evidence about Dan; and the analysis proposes a *further*
+> instrument to measure him with. The Battery is the tell. An apparatus that has
+> just finished characterising its subject's taste immediately designs a test to
+> characterise it more precisely, and the subject is also its author, its sole
+> respondent and its only validator.
+>
+> The provenance problem is therefore not merely inherited here — it is
+> unusually pure. The stylometrics row at least measured something external (his
+> own sent messages, which exist whether or not anyone asks about them). This
+> row does not. The vocabulary batches record *which words were selected as
+> pleasing in one session*, and that page says so plainly; nothing establishes
+> that any of them appear in his outbound text. The prediction the 2026-08-23
+> re-check licensed applies here in advance rather than in retrospect: **this
+> instrument has no control group and cannot acquire one by being analysed
+> harder.** The one thing that would test it — running `bin/text-metrics` over
+> the corpus to see whether the dignified-shape insult ever actually appears —
+> is a counting operation, which is the same move that inverted the stylometrics
+> finding, and nobody has run it.
 
 [[wiki/mind/profile/index]] reads the convergence generously and correctly: the
 instruments *"are not five separate diagnoses but one structure measured five

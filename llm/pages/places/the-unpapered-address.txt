@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -171,6 +171,22 @@ signature continuously since 2010.
 | [[wiki/places/117-belmont-circle]] | 2017–2018 | [[wiki/people/fran-coldren\|Fran]], as a paid caregiving arrangement | **None** | Fran's death, April 2018 |
 | [[wiki/places/307-e-76th-st]] | 2019–2025 | Annie, jointly; landlord [[wiki/people/john-paci\|John Paci]] personally | A real lease exists; **signatory never recovered**; ~$10,000 arrears at move-out | Annie ended the cohabitation, Feb 2025 |
 | [[wiki/legal/463-morgantown]] | 2026– | Suz, in a blended agent/tenant/caretaker role | **No signed lease, no confirmed POA** | Unresolved; *"It's time for you to go"* (2026-08-11) |
+
+> **RE-CHECKED [2026-08-27] — premise moved, and it closes the one row whose
+> ending the corpus could not follow all the way down.**
+> [[wiki/places/117-belmont-circle]] gained the sale's disposition on
+> 2026-08-27: it **closed in summer 2019 for $250,000** (operator testimony,
+> uncorroborated in the message record, buyer still unknown). The row above is
+> unchanged and correct — the *tenancy* ended at Fran's death in April 2018,
+> which is what that column reports. But the table's argument gets sharper, not
+> merely more complete. Every other row ends with the tenancy and leaves the
+> asset's fate outside the frame; this one now runs to the end, and the end is
+> that the house was sold out of the family sixteen months later. **There was
+> never anything to inherit.** The "None" in the paper column was not an
+> oversight that a will or a deed might later have cured — the arrangement was
+> access granted by a living person, it ended when she died, and the property
+> itself was converted to cash and left. No claim on this page changes; the
+> pattern it names simply now has one row followed to its conclusion.
 
 Read the last column. Not one of these tenancies ends at a term, a notice
 period, or an enforcement. They end when a relative dies, when a partner ends a

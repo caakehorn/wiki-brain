@@ -24,3 +24,6 @@ every page that inherited the gap, then clear.
 | 2026-08-19 | wiki/self/concepts/chatgpt | staged-elsewhere | Not from the gap list — volunteered by the operator | raw/self/captures/2026-08-19_162808_gap-chatgpt.md | 2026-08-21 |
 | 2026-08-20 | wiki/people/james-dee | staged-elsewhere | Last name is Spiker | raw/people/captures/2026-08-20_015525_gap-james-dee.md | 2026-08-20 |
 | 2026-08-20 | wiki/people/ally-lubin | staged-elsewhere | The gap, as this page stated it: | raw/people/captures/2026-08-20_042255_gap-ally-lubin.md | 2026-08-20 |
+| 2026-08-27 | wiki/mind/profile/linguistic-profile | staged-elsewhere | Not from the gap list — volunteered by the operator, so the ingest | raw/mind/captures/2026-08-27_013705_gap-linguistic-profile.md | 2026-08-27 |
+| 2026-08-27 | wiki/people/ally-lubin-cognitive-profile | staged-elsewhere | The gap, as this page stated it: | raw/people/captures/2026-08-27_022249_gap-ally-lubin-cognitive-profile.md | 2026-08-27 |
+| 2026-08-27 | wiki/places/117-belmont-circle | staged-elsewhere | The gap, as this page stated it: | raw/places/captures/2026-08-27_022401_gap-117-belmont-circle.md | 2026-08-27 |
