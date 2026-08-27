@@ -5,7 +5,8 @@ title: "Linguistic Profile — Voice, Register, Stylometrics"
 aliases: ["voice", "stylometrics", "forensic intimacy"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-08-26
+date_modified: 2026-08-23
+pending_ingest: 2026-08-27
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
@@ -38,12 +39,6 @@ connections:
   - page: wiki/interests/opie-and-anthony
     type: caused-by
     claim: "The callous, riff-driven, gallows-irony register the profile calls a 'psychic ventilator' is the native dialect of the O&A universe — this binge is where that idiom was trained."
-  - page: wiki/mind/profile/neurodivergence
-    type: parallels
-    claim: "23,286 unique words in casual texting and 2,465 uses of 'because' read, in the corpus's own autism framing, as language reached for to think rather than to relate — the same stylometric extremes this page measures independently of that claim."
-  - page: wiki/mind/profile/lexicon
-    type: instance-of
-    claim: "The bespoke lexicon is 'forensic intimacy' engineered on purpose and pointed at affection rather than crisis — the same clinical-detachment-fused-with-confession register this page documents from the message corpus, now built forward as a reusable tool instead of measured backward as a pattern."
 ---
 
 # Linguistic Profile — Voice, Register, Stylometrics
@@ -200,3 +195,125 @@ See [[wiki/mind/profile/voice-modes]] for the emotional-state layer on top
 of this baseline — eight distinct modes (Neutral, Playful, Affectionate,
 Irritated, Persuasive, Storytelling, Stressed, Reflective) that each
 amplify and suppress specific mechanics documented here.
+
+## Operator answers — pending ingest
+
+> Transient staging, written from the portal. Each block below is the
+> operator answering something this page said it did not know. **Nothing here
+> has been integrated yet.** The next pass over this page reads these answers,
+> corrects this page *and every page that inherited the gap*, records each
+> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
+> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
+> section and the `pending_ingest:` flag. It is not allowed to accumulate into
+> a changelog — STYLE_GUIDE rule 6.
+
+### ANSWERED [2026-08-27] — manual note
+
+**Not from the gap list** — volunteered by the operator, so the ingest
+has to work out for itself where on the page it belongs, and whether it
+contradicts something already there.
+
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/mind/captures/2026-08-27_013550_gap-linguistic-profile.md`.
+
+Words for pretty
+
+1. Sublime
+2. Resplendent
+3. Ethereal
+4. Ravishing
+5. Exquisite
+6. Captivating
+7. Celestial
+8. Luminous
+9. Radiant
+10. Incandescent
+11. Iridescent
+12. Numinous
+13. Beatific
+14. Bewitching
+15. Beguiling
+16. Enchanting
+17. Spellbinding
+18. Mesmerizing
+19. Transcendent
+20. Preternatural
+21. Otherworldly
+22. Divine
+23. Angelic
+24. Seraphic
+25. Heavenly
+26. Glorious
+27. Stunning
+28. Striking
+29. Dazzling
+30. Breathtaking
+31. Alluring
+32. Seductive
+33. Magnetic
+34. Hypnotic
+35. Entrancing
+36. Arresting
+37. Compelling
+38. Gorgeous
+39. Lovely
+40. Elegant
+41. Graceful
+42. Statuesque
+43. Regal
+44. Majestic
+45. Regal
+46. Exalted
+47. Sublimely
+48. Exalted
+49. Divine
+50. Immaculate
+51. Flawless
+52. Perfect
+53. Radiant
+54. Glowing
+55. Resplendent
+56. Effulgent
+57. Aureate
+58. Opulent
+59. Lush
+60. Sumptuous
+61. Luxurious
+62. Exquisite
+63. Delicate
+64. Diaphanous
+65. Gossamer
+66. Irreproachable
+67. Unearthly
+68. Unworldly
+69. Uncanny
+70. Spectacular
+71. Phenomenal
+72. Extraordinary
+73. Remarkable
+74. Magnificent
+75. Formidable
+76. Subliminal
+77. Hypnotic
+78. Feral
+79. Lethal
+80. Dangerous
+81. Wicked
+82. Diabolical
+83. Obscene
+84. Indecent
+85. Unholy
+86. Sinful
+87. Forbidden
+88. Mythic
+89. Legendary
+90. Iconic
+91. Generational
+92. Monumental
+93. Unreasonable
+94. Preposterous
+95. Unfair
+96. Criminal
+97. Catastrophic
+98. Apocalyptic
+99. Preternaturally gorgeous
+100. Aesthetic felony
