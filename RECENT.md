@@ -8,26 +8,38 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-27 — 12 pages
+## 2026-08-27 — 22 pages
 
+- **Session log:** feat | meta, interests, mind | the word queue, and what its first entry falsified
+- **Session log:** close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
 - **Session log:** fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — flagged stale two hops down from the-cool-metric's 2026-08-27 correction, which retired its persona-slang counter-list as observed evidence and touched nothing else. The intermediate pages were re-che |
+| [[wiki/interests/food-and-diet]] | interests | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-27), which gained a `CORRECTED` block retiring its **persona-slang counter-list** (*failson, garbage person, shitshow, choomed, normie, Blue MAGA, choom* |
 | [[wiki/interests/language/vocabulary-lexicon]] | interests | — |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
+| [[wiki/mind/concepts/chaos-preference]] | mind | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-27), which gained a `CORRECTED` block retiring its **persona-slang counter-list** (*failson, garbage person, shitshow, choomed, normie, Blue MAGA, choom* |
+| [[wiki/mind/concepts/the-cool-metric]] | mind | **CORRECTED** — Counted against the sender-tagged corpus (106,629 sent messages), the six terms total **19 occurrences — about one every 5,600 messages** — and three are used exactly once, ever: `choom`/`choomed` 1 ( |
 | [[wiki/mind/profile/linguistic-profile]] | mind | **GAP CLOSED** — the operator volunteered the full "words for stupid" list against this page. It was not a gap this page had stated — unprompted material, staged here for the ingest to place. Placed here, in Lexical f |
+| [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — flagged stale two hops down from the-cool-metric's 2026-08-27 correction, which retired its persona-slang counter-list as observed evidence and touched nothing else. The intermediate pages were re-che |
+| [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — flagged stale three hops down from the-cool-metric's 2026-08-27 correction. Every page in the chain — chaos-preference, the-unbroken-bond — was read and withdrew no claim; the correction is confined t |
 | [[wiki/mind/synthesis/failure-to-launch]] | mind | **RE-CHECKED** — flagged stale against linguistic-profile (2026-08-27), which gained a section on a commissioned vocabulary session (vocabulary-lexicon). **No claim on this page changes, and the new ma |
+| [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-27), which gained a `CORRECTED` block retiring its **persona-slang counter-list** (*failson, garbage person, shitshow, choomed, normie, Blue MAGA, choom* |
 | [[wiki/mind/synthesis/the-commissioned-self]] | mind | **RE-CHECKED** — linguistic-profile gained a section on 2026-08-27 documenting a **commissioned vocabulary session**: on 2026-08-26 Dan prompted a model to generate graded insult and praise batches, selected from the  |
+| [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-27), which gained a `CORRECTED` block retiring its **persona-slang counter-list** (*failson, garbage person, shitshow, choomed, normie, Blue MAGA, choom* |
 | [[wiki/mind/synthesis/the-rescue-premise]] | mind | **RE-CHECKED** — flagged stale against ally-lubin-cognitive-profile (2026-08-27), which closed its attribution gap: the operator confirms the 16Personalities result is Ally Lubin's and that it is recent. **No claim on |
+| [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **RE-CHECKED** — flagged stale two hops down from the-cool-metric's 2026-08-27 correction, which retired its persona-slang counter-list as observed evidence and touched nothing else. The intermediate pages were re-che |
+| [[wiki/mind/synthesis/totality-themes]] | mind | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-27), which gained a `CORRECTED` block retiring its **persona-slang counter-list** (*failson, garbage person, shitshow, choomed, normie, Blue MAGA, choom* |
 | [[wiki/people/ally-lubin-cognitive-profile]] | people | **GAP CLOSED** — the page asked *"whose result is the screenshot, and when was it taken? The image carries no identifying metadata. Did Ally send it to Dan directly, and on what date? The original `IMG_2320.heic` may  |
 | [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 | [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — 117-belmont-circle gained the sale's disposition on 2026-08-27: it **closed in summer 2019 for $250,000** (operator testimony, uncorroborated in the message record, buyer still unknown). The row above |
 
-## 2026-08-26 — 79 pages
+## 2026-08-26 — 69 pages
 
 - **Session log:** climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
 - **Session log:** ingest | mind | the ideal-face specification — a mystery queue item resolved
@@ -49,9 +61,7 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/cocaine]] | health | **RE-CHECKED** — flagged stale against acquisition-drive (2026-08-26), which added a closure-not-completion refinement built on the Fran vigil quote — unrelated to cocaine. **No claim on this page is affected.** **RE- |
-| [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — flagged stale against cocaine (2026-08-26), which added a happiness-rate counter-measure to the same dosage arc this page already cites (1g/day → 3.5–7g/day → 0.5–1g/day tracking the inheritance). **T |
 | [[wiki/interests/favorites/music/artists/fall-out-boy]] | interests | — |
-| [[wiki/interests/food-and-diet]] | interests | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-26), which added a section on the metric's one documented upper bound (the Ally Skins exchange) and removed its `sage_pending` staging. The food-exemptio |
 | [[wiki/interests/rock-irrelevance-thesis]] | interests | — |
 | [[wiki/interests/the-office]] | interests | — |
 | [[wiki/meta/index]] | meta | — |
@@ -61,12 +71,10 @@ simply listed.
 | [[wiki/meta/journeys/the-type-machine]] | meta | — |
 | [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/mind/concepts/bunker-core]] | mind | — |
-| [[wiki/mind/concepts/chaos-preference]] | mind | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-26), which added a section on the metric's one documented upper bound (the Ally Skins exchange) and removed its `sage_pending` staging. This page's mirro |
 | [[wiki/mind/concepts/conflict-architecture]] | mind | _(carries a REVISED from 2026-07-18)_ |
 | [[wiki/mind/concepts/erotic-architecture]] | mind | — |
 | [[wiki/mind/concepts/exocortex]] | mind | — |
 | [[wiki/mind/concepts/forensic-method]] | mind | _(carries a CORRECTED from 2026-08-18)_ |
-| [[wiki/mind/concepts/the-cool-metric]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
 | [[wiki/mind/index]] | mind | — |
 | [[wiki/mind/politics/axioms]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
 | [[wiki/mind/profile/deviance-mapping]] | mind | _(carries a GAP CLOSED from 2026-08-22)_ |
@@ -78,7 +86,6 @@ simply listed.
 | [[wiki/mind/profile/voice-modes]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/mind/psychosexual/arrangement-history]] | mind | _(carries a CORRECTED from 2026-08-20)_ |
 | [[wiki/mind/synthesis/ai-collaborative-analysis]] | mind | — |
-| [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — flagged stale against totality-themes (2026-08-26), which gained two RE-CHECKED notes confirming its own cited premises unaffected by the same day's acquisition-drive/embedded-objective additions. **N |
 | [[wiki/mind/synthesis/annual-volume-suz]] | mind | — |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-26), which gained a RE-CHECKED note confirming the fran-death-vigil closure-cluster finding doesn't touch its caregiving or estate material. **No claim on  |
 | [[wiki/mind/synthesis/august-grievance-verdict]] | mind | **RE-CHECKED** — flagged stale against attachment-trauma-bond (2026-08-26), which added a counterexample section about the Ally channel's symmetric self-indictment. **No claim on this page is affected** — this page ci |
@@ -86,7 +93,6 @@ simply listed.
 | [[wiki/mind/synthesis/bond-switch-2015]] | mind | _(carries a CORRECTED from 2026-08-17)_ |
 | [[wiki/mind/synthesis/closing-the-set]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
 | [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | **RE-CHECKED** — flagged stale against conflict-architecture (2026-08-26), which added a section documenting the corpus's one completed refusal of the redefinition move (an Ally exchange) and removed its `sage_pending |
-| [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — flagged stale against the-unbroken-bond (2026-08-26), which added a "directed fear of infidelity" cost item (the `cheat` word-count finding) and removed its own `sage_pending` staging. That addition i |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a REVISED from 2026-08-23)_ |
 | [[wiki/mind/synthesis/fayette-return]] | mind | **RE-CHECKED** — ancestry added one verified collateral from the maternal Shrum line: **Daniel Shrum** (b. 11 Apr 1884, Pennsylvania; d. 11 Dec 1918, Greensburg, Westmoreland County) — an older brother of the direct-l |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | **RE-CHECKED** — `bin/wiki-climb check` flagged this page stale again, against both context-core and exocortex, each of which moved on 2026-08-26 to add one new connections edge to the new |
@@ -95,13 +101,9 @@ simply listed.
 | [[wiki/mind/synthesis/music-as-identity]] | mind | — |
 | [[wiki/mind/synthesis/political-psyops]] | mind | — |
 | [[wiki/mind/synthesis/read-receipt-forensics]] | mind | **RE-CHECKED** — forensic-method gained an `instance-of` edge into the new lexicon page — the same evidence-cite/ authority-invoke/render-a-finding machinery documented there for crisis analysis, observed r |
-| [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — flagged stale against totality-themes (2026-08-26), which gained a RE-CHECKED note confirming the same day's acquisition-drive/embedded-objective tenure-and-satisfaction additions do not touch anythin |
 | [[wiki/mind/synthesis/supply-network]] | mind | **RE-CHECKED** — flagged stale against menore (2026-08-26), which closed its last open gap: 2022's zero mentions are explained by the operator having a flip phone that year, not by a service break. This removes the on |
 | [[wiki/mind/synthesis/the-cato-seat]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
-| [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — flagged stale against single-channel (2026-08-26), which added a section reading the no-failover architecture's intensity as an entry condition for one relational object (Ally) rather than only a cost |
 | [[wiki/mind/synthesis/the-embedded-objective]] | mind | _(carries a RE-CHECKED from 2026-08-24)_ |
-| [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **RE-CHECKED** — flagged stale against chaos-preference (2026-08-26), which added a section on the-cool-metric's one documented upper bound (an Ally exchange) and removed its own `sage_pending` staging. Ne |
-| [[wiki/mind/synthesis/totality-themes]] | mind | **RE-CHECKED** — flagged stale against the-embedded-objective and acquisition-drive (both 2026-08-26), which added a tenure-versus-satisfaction distinction built on the Fran vigil and left the MNEME/DAN |
 | [[wiki/people/alexis-armel]] | people | _(carries a CORRECTED from 2026-08-15)_ |
 | [[wiki/people/ally-lubin]] | people | _(carries a CORRECTED from 2026-08-22)_ |
 | [[wiki/people/annie-ulmer-personality-assessment]] | people | _(carries a RE-CHECKED from 2026-08-23)_ |

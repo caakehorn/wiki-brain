@@ -1,3 +1,101 @@
+## [2026-08-27] feat | meta, interests, mind | the word queue, and what its first entry falsified
+
+**The mechanism.** `lexicon/words/` — a parked-word queue built as a
+structural mirror of `sage/questions/`, because it is the same problem: a
+word noticed in passing has a short half-life, and by the time there is a
+session with the time to work out what it means, the word is gone. The
+portal grows a box; a word typed into it lands here as a file; nothing
+analyses it automatically; `bin/wiki-work` lists it; a session drains it
+into `wiki/interests/language/vocabulary-lexicon.md`.
+
+Same id convention as sage (`<date>_<time>_<slug>`), same mutability
+argument for why it is not in `raw/` (`pending` → `analyzed` | `rejected`),
+same rule that a checked-and-empty result is kept rather than deleted — a
+word nobody has looked at and a word looked at and found to be nothing must
+not look the same from outside. New `find_words` detector in
+`bin/wiki-work` at **priority 3**, deliberately below staged answers:
+somebody outside is waiting on a sage question and can see nothing
+happening, which is what puts that at 1; nobody is standing over a word.
+`lexicon/words/**` added to `notify-portal.yml`'s path filter and its
+dispatch payload, so a submitted word wakes the portal like a question does
+instead of waiting for the hourly cron.
+
+**The one mandatory step, and why.** The protocol's step 2 is *count it
+before deciding what it is* — `bin/mine-messages` and `bin/text-metrics`
+over the sender-tagged record. This is not diligence for its own sake. The
+destination page's central caveat is that it records words **selected as
+pleasing**, never words **observed**, and a counted word is the first kind
+of entry it can hold without that caveat. Skipping the count produces
+entries indistinguishable from the ones already there.
+
+**The first entry proved the point by breaking something.** `choom` was
+pulled off `the-cool-metric`'s "documented persona slang" list purely to
+test the loop end to end. It appears **once** in 106,629 sent messages —
+2021-02-04, in its literal sense, with the meaning supplied in the same
+sentence (*"because I was too high"*), which is what somebody does with a
+word they do not expect the reader to know.
+
+Checking one word meant checking its list, and the list is the finding.
+`the-cool-metric` offered *failson, garbage person, shitshow, choomed,
+normie, Blue MAGA, choom* as the **observed** counterweight to vocabulary
+it rejects as merely performed — the answer to its own Skins objection.
+Counted:
+
+| Term | Sent | All | Dates |
+|---|---:|---:|---|
+| `choom` / `choomed` | 1 | 1 | 2021-02-04 only |
+| `failson` | 1 | 1 | 2025-05-31 only |
+| `shitshow` | 1 | 2 | 2017-01-29 only |
+| `Blue MAGA` | 3 | 3 | 2024-06-27 → 2024-07-13 |
+| `garbage person` | 6 | 6 | 2018-04-02 → 2023-10-30 |
+| `normie` | 7 | 8 | — |
+| **Total** | **19** | **21** | |
+
+Nineteen occurrences in 106,629 sent messages — one every ~5,600 — three of
+the six used exactly once, ever, against `fucking` at 1,745. **Nothing is
+fabricated**; every term is genuinely present, and that matters, because
+this is not the same failure as the 2026-08-23 stylometrics retraction. The
+figures were never wrong; the list simply cannot do the job it was given. Its
+function is to be evidence of a *different kind* from a curated word-list,
+and at these frequencies it is evidence of the *same* kind — words he likes —
+wearing the other kind's clothes.
+
+**One term was outright misfiled, and it is the most-used of the six.** Five
+of `garbage person`'s six hits are self-directed and share a single frame:
+*"because i'm just a garbage person"* (2018-04-02), *"Because I'm a garbage
+person"* (2018-10-27), *"Oh act surprised, like I'm not a garbage person"*
+(2018-12-17), *"i'm honest enough to let you know i'm a garbage person so you
+don't have to worry abo…"* (2019-08-17), *"I am self aware enough to know I'm
+a garbage person who acts like an impulsive tod…"* (2023-10-30). Exactly one
+points outward. **In four of the five the admission arrives before the
+accusation does.** That is a self-presentation move, not an impoliteness one,
+and it belongs with `linguistic-profile`'s identity-by-negation counts
+(`i don't` 1,845, `i'm not` 814) rather than in a list of impolite words.
+
+**What was deliberately not claimed.** The metric itself is untouched and the
+correction says so: the Skins objection is a judgement about *other people's*
+vocabulary and stands on its own evidence; what fails is only the attempt to
+answer it with a counter-list of his own. And the counts are **floors, not
+totals** — `bin/mine-messages` reads the iMessage dump only, and the Twitter
+archive would plausibly raise `normie` and `Blue MAGA`, both platform-native.
+That would move two rows and would not touch `choom`, `failson`, or the
+`garbage person` reading, which is where the finding lives. Also checked and
+cleared: `the-cool-metric`'s separate "`normie` appears 68 times" figure is
+explicitly scoped to the profile and context-core material, a different
+corpus, so it is not in tension with the 7 here.
+
+**The cascade: nine pages, three hops, zero date-bumps.** The correction
+propagated through `food-and-diet`, `chaos-preference`, `single-channel`,
+`the-deferred-audit`, `totality-themes`, then `the-configured-body`,
+`alias-as-periodization`, `the-unbroken-bond`, then `dormancy-not-exit`.
+Every one was checked for whether it cites any of the six terms — **none
+does** — and each carries a `RE-CHECKED` block saying so and naming what it
+actually reasons from. `bin/wiki-work` 0 → 5 → 4 → 1 → **0**.
+
+**Also:** CLAUDE.md gains the `lexicon/` architecture bullet, the LEXICON
+operation, and a tools-table row; `lexicon/README.md` carries the format and
+the full protocol. All gates clean, 125/125 tests.
+
 ## [2026-08-27] close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
 
 `bin/wiki-work` reported three pages carrying an unintegrated

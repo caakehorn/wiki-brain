@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -55,6 +55,14 @@ connections:
 ---
 
 # The Configured Body
+
+> **RE-CHECKED [2026-08-27]:** flagged stale two hops down from
+> [[wiki/mind/concepts/the-cool-metric]]'s 2026-08-27 correction, which retired
+> its persona-slang counter-list as observed evidence and touched nothing else.
+> The intermediate pages were re-checked and withdrew no claim, so nothing
+> reaches this one. **No claim on this page changes.** Recorded rather than
+> re-dated, because a date bumped without a reading is how the cascade stops
+> meaning anything.
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against [[wiki/health/cocaine]]
 > (2026-08-26), which added a happiness-rate counter-measure to the same

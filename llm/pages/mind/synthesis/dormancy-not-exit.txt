@@ -6,7 +6,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -85,6 +85,12 @@ connections:
 ---
 
 # Dormancy, Not Exit
+
+> **RE-CHECKED [2026-08-27]:** flagged stale three hops down from
+> [[wiki/mind/concepts/the-cool-metric]]'s 2026-08-27 correction. Every page in
+> the chain — chaos-preference, the-unbroken-bond — was read and withdrew no
+> claim; the correction is confined to a vocabulary counter-list this page has
+> never cited. **No claim on this page changes.**
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/synthesis/the-unbroken-bond]] (2026-08-26), which added a

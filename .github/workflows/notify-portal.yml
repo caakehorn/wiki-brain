@@ -44,6 +44,7 @@ on:
     paths:
       - 'wiki/**'
       - 'sage/questions/**'
+      - 'lexicon/words/**'
   workflow_dispatch:
 
 # Read-only here; the write this performs is on the other repository, with the
@@ -77,15 +78,18 @@ jobs:
           changed="$(git diff --name-only HEAD^ HEAD 2>/dev/null || true)"
           sage="$(printf '%s\n' "$changed" | grep -c '^sage/questions/' || true)"
           pages="$(printf '%s\n' "$changed" | grep -c '^wiki/' || true)"
+          words="$(printf '%s\n' "$changed" | grep -c '^lexicon/words/' || true)"
           echo "sage=$sage"   >> "$GITHUB_OUTPUT"
           echo "pages=$pages" >> "$GITHUB_OUTPUT"
-          echo "Answered or asked: $sage · pages: $pages"
+          echo "words=$words" >> "$GITHUB_OUTPUT"
+          echo "Answered or asked: $sage · pages: $pages · words: $words"
 
       - name: Fire wiki-updated at caakehorn/home
         env:
           TOKEN: ${{ secrets.PORTAL_DISPATCH_TOKEN }}
           SAGE: ${{ steps.what.outputs.sage }}
           PAGES: ${{ steps.what.outputs.pages }}
+          WORDS: ${{ steps.what.outputs.words }}
         run: |
           set -euo pipefail
           if [ -z "${TOKEN:-}" ]; then
@@ -96,8 +100,8 @@ jobs:
             exit 0
           fi
 
-          payload=$(printf '{"event_type":"wiki-updated","client_payload":{"slug":"%s","sage":%s,"pages":%s,"commit":"%s"}}' \
-            "push-${GITHUB_SHA:0:7}" "${SAGE:-0}" "${PAGES:-0}" "${GITHUB_SHA}")
+          payload=$(printf '{"event_type":"wiki-updated","client_payload":{"slug":"%s","sage":%s,"pages":%s,"words":%s,"commit":"%s"}}' \
+            "push-${GITHUB_SHA:0:7}" "${SAGE:-0}" "${PAGES:-0}" "${WORDS:-0}" "${GITHUB_SHA}")
 
           code=$(curl -sS -o /tmp/resp.txt -w '%{http_code}' -X POST \
             -H 'Accept: application/vnd.github+json' \
@@ -109,7 +113,7 @@ jobs:
           # 204 is the documented success. Anything else is worth failing on:
           # a silent 401 here is exactly the failure this file exists to end.
           if [ "$code" = '204' ]; then
-            echo "Dispatched wiki-updated (sage: ${SAGE:-0}, pages: ${PAGES:-0})."
+            echo "Dispatched wiki-updated (sage: ${SAGE:-0}, pages: ${PAGES:-0}, words: ${WORDS:-0})."
           else
             echo "::error::dispatch failed with HTTP $code"
             cat /tmp/resp.txt

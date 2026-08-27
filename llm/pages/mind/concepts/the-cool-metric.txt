@@ -6,7 +6,7 @@ aliases: ["anti-normie", "the normie check", "taste as sorting function"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -156,6 +156,43 @@ is his own documented persona slang — *failson, garbage person, shitshow,
 choomed, normie, Blue MAGA, choom* — vocabulary that is either genuinely
 impolite or genuinely subcultural, and in either case not manufactured to be
 safely quirky.
+
+> **CORRECTED [2026-08-27] — the persona-slang list is real and cannot do the
+> job this paragraph gives it.** Counted against the sender-tagged corpus
+> (106,629 sent messages), the six terms total **19 occurrences — about one
+> every 5,600 messages** — and three are used exactly once, ever:
+> `choom`/`choomed` 1 (2021-02-04, in its literal sense and glossed in the same
+> breath — *"because I was too high"*), `failson` 1 (2025-05-31), `shitshow` 1
+> (2017-01-29), `Blue MAGA` 3 (June–July 2024), `garbage person` 6, `normie` 7.
+> The same corpus carries `fucking` 1,745 times. Every term is genuinely
+> present, so nothing here is fabricated — but this list's function in the
+> argument above is to be the **observed** counterweight to vocabulary the
+> metric rejects as merely performed, and a list whose median member appears
+> once cannot carry that comparison. It is closer in kind to
+> [[wiki/interests/language/vocabulary-lexicon]] — words selected as pleasing —
+> than to a measured speech habit. Counts are floors: the Twitter archive is a
+> separate corpus and would plausibly raise `normie` and `Blue MAGA`, both
+> platform-native.
+>
+> **`garbage person` is misfiled, and it is the most-used of the six.** Five of
+> its six hits are self-directed and share one frame — *"because i'm just a
+> garbage person"* (2018-04-02), *"Because I'm a garbage person"* (2018-10-27),
+> *"Oh act surprised, like I'm not a garbage person"* (2018-12-17), *"i'm
+> honest enough to let you know i'm a garbage person so you don't have to worry
+> abo…"* (2019-08-17), *"I am self aware enough to know I'm a garbage person who
+> acts like an impulsive tod…"* (2023-10-30). Only one points outward. In four
+> of the five the admission **arrives before the accusation does** — which is a
+> finding about self-presentation, not about impoliteness, and it belongs with
+> the identity-by-negation counts on
+> [[wiki/mind/profile/linguistic-profile]] (`i don't` 1,845, `i'm not` 814).
+>
+> **The metric itself is untouched.** The Skins objection above — that certain
+> words "perform transgression while being structurally safe" — is a judgement
+> about other people's vocabulary and stands on its own evidence. What fails is
+> only the attempt to answer it with a counter-list of his own, which turns out
+> to be the same kind of artifact as the thing it was set against. Found by
+> `lexicon/words/2026-08-27_120000_choomed.md` — the word queue's first entry,
+> checked rather than assumed.
 
 The metric is legible in the vocabulary he *curates* as well as the vocabulary
 he uses. [[wiki/interests/language/vocabulary-lexicon]] records two graded word

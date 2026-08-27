@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -143,6 +143,19 @@ connections:
 
 
 # Totality Themes
+
+> **RE-CHECKED [2026-08-27]:** flagged stale against
+> [[wiki/mind/concepts/the-cool-metric]] (2026-08-27), which gained a
+> `CORRECTED` block retiring its **persona-slang counter-list** (*failson,
+> garbage person, shitshow, choomed, normie, Blue MAGA, choom*) as observed
+> evidence — the six terms total 19 occurrences in 106,629 sent messages, three
+> of them used exactly once, and `garbage person` turned out to be a
+> self-description rather than an insult. **No claim on this page changes.**
+> Checked rather than assumed: this page cites none of those six terms, and the
+> correction is confined to one paragraph answering the Skins objection. The
+> metric's own claim — one performed-versus-authentic axis applied across
+> domains — rests on the Normie Check, the sub-bass case and the favorites
+> record, none of which this touched.
 
 > **RE-CHECKED [2026-08-23]:** flagged stale against
 > [[wiki/mind/concepts/attachment-model]] and

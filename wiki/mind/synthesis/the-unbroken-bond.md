@@ -6,7 +6,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -54,6 +54,14 @@ connections:
 ---
 
 # The Unbroken Bond
+
+> **RE-CHECKED [2026-08-27]:** flagged stale two hops down from
+> [[wiki/mind/concepts/the-cool-metric]]'s 2026-08-27 correction, which retired
+> its persona-slang counter-list as observed evidence and touched nothing else.
+> The intermediate pages were re-checked and withdrew no claim, so nothing
+> reaches this one. **No claim on this page changes.** Recorded rather than
+> re-dated, because a date bumped without a reading is how the cascade stops
+> meaning anything.
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/concepts/chaos-preference]] (2026-08-26), which added a section on

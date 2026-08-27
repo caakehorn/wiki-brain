@@ -235,6 +235,76 @@ small stupidity"** — formally a compliment in shape, semantically a verdict.
 
 - 48 — offered, not selected; recorded as excluded per the curator's note.
 
+## The word queue — measured entries, not selected ones
+
+Everything above this line was **selected**: words picked as pleasing from a
+machine-generated pool in one session. That is the page's standing limitation
+and it is stated plainly at the top. This section is where the other kind of
+entry goes — a word caught in the wild, then **counted against the message
+record before anything is concluded from it**. The mechanism is
+`lexicon/words/` (see `lexicon/README.md`): a word typed into the portal's box
+is parked as a file, `bin/wiki-work` lists it, and a session checks it and
+folds the reading in here.
+
+The distinction is the whole point. A word he *likes* and a word he *says* are
+different facts, and the first thirty-odd entries on this page are all the
+first kind.
+
+### `choom` / `choomed` — and the list it came from
+
+The queue's first entry, taken from `the-cool-metric`'s persona-slang list to
+test the loop. **It appears once in 106,629 sent messages:**
+
+```
+2021-02-04 20:59  S
+So I was really choomed this morning and moved a bunch of stock that I
+probably shouldn't have just because I was too high
+```
+
+One use, in its literal sense, with the meaning supplied in the same sentence —
+which is what somebody does with a word they do not expect the reader to know.
+
+Checking one word meant checking its list, and the list is the finding.
+[[wiki/mind/concepts/the-cool-metric]] offered *failson, garbage person,
+shitshow, choomed, normie, Blue MAGA, choom* as his "documented persona slang,"
+the **observed** counterweight to vocabulary that page rejects as merely
+performed. Counted:
+
+| Term | Sent | All | Dates |
+|---|---:|---:|---|
+| `choom` / `choomed` | 1 | 1 | 2021-02-04 only |
+| `failson` | 1 | 1 | 2025-05-31 only |
+| `shitshow` | 1 | 2 | 2017-01-29 only |
+| `Blue MAGA` | 3 | 3 | 2024-06-27 → 2024-07-13 |
+| `garbage person` | 6 | 6 | 2018-04-02 → 2023-10-30 |
+| `normie` | 7 | 8 | — |
+| **Total** | **19** | **21** | |
+
+Nineteen occurrences across 106,629 sent messages — one every ~5,600 — with
+three of the six used exactly once, ever. The same corpus carries `fucking`
+1,745 times. Nothing here is fabricated; every term is genuinely present. But
+a list whose median member appears once is evidence **of the same kind as this
+page** — words he likes — and it was being used as evidence of the opposite
+kind. The correction is written into that page rather than left here.
+
+**One term turned out to be misfiled, and it is the most-used of the six.**
+Five of `garbage person`'s six hits are self-directed and share one frame:
+*"because i'm just a garbage person"* (2018-04-02), *"Because I'm a garbage
+person"* (2018-10-27), *"Oh act surprised, like I'm not a garbage person"*
+(2018-12-17), *"i'm honest enough to let you know i'm a garbage person so you
+don't have to worry abo…"* (2019-08-17), *"I am self aware enough to know I'm a
+garbage person who acts like an impulsive tod…"* (2023-10-30). Only one points
+outward. In four of the five **the admission arrives before the accusation
+does** — a self-presentation move, not an impoliteness one, and it belongs with
+the identity-by-negation counts on
+[[wiki/mind/profile/linguistic-profile]] (`i don't` 1,845, `i'm not` 814).
+
+**Counts are floors, not totals.** `bin/mine-messages` reads the iMessage dump
+only; the Twitter archive is a separate corpus and would plausibly raise
+`normie` and `Blue MAGA`, both platform-native. That would move two rows and
+would not touch `choom`, `failson`, or the `garbage person` reading — which is
+where the finding actually lives.
+
 ## What this is and is not
 
 - **Is:** a record of two vocabulary batches, the selection decisions, and the

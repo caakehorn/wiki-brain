@@ -6,7 +6,7 @@ aliases: ["chaotic neutral", "the entropy appetite", "rooting for the fire"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -48,6 +48,19 @@ connections:
 ---
 
 # The Chaos Preference
+
+> **RE-CHECKED [2026-08-27]:** flagged stale against
+> [[wiki/mind/concepts/the-cool-metric]] (2026-08-27), which gained a
+> `CORRECTED` block retiring its **persona-slang counter-list** (*failson,
+> garbage person, shitshow, choomed, normie, Blue MAGA, choom*) as observed
+> evidence — the six terms total 19 occurrences in 106,629 sent messages, three
+> of them used exactly once, and `garbage person` turned out to be a
+> self-description rather than an insult. **No claim on this page changes.**
+> Checked rather than assumed: this page cites none of those six terms, and the
+> correction is confined to one paragraph answering the Skins objection. The
+> metric's own claim — one performed-versus-authentic axis applied across
+> domains — rests on the Normie Check, the sub-bass case and the favorites
+> record, none of which this touched.
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/concepts/the-cool-metric]] (2026-08-26), which added a section on

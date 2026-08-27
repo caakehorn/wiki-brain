@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-27
-516 pages, ~1,443,507 tokens.
+516 pages, ~1,446,642 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -909,7 +909,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -957,6 +957,14 @@ connections:
 ---
 
 # The Configured Body
+
+> **RE-CHECKED [2026-08-27]:** flagged stale two hops down from
+> [[wiki/mind/concepts/the-cool-metric]]'s 2026-08-27 correction, which retired
+> its persona-slang counter-list as observed evidence and touched nothing else.
+> The intermediate pages were re-checked and withdrew no claim, so nothing
+> reaches this one. **No claim on this page changes.** Recorded rather than
+> re-dated, because a date bumped without a reading is how the cascade stops
+> meaning anything.
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against [[wiki/health/cocaine]]
 > (2026-08-26), which added a happiness-rate counter-measure to the same
@@ -7496,7 +7504,7 @@ aliases: ["the unevaluated domain", "food as everything but taste"]
 status: active
 knowledge: earned
 date_created: 2026-07-25
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources:
   - raw/self/captures/2026-08-01_154556_picky-eater.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -7549,6 +7557,19 @@ connections:
 ---
 
 # Food and Diet
+
+> **RE-CHECKED [2026-08-27]:** flagged stale against
+> [[wiki/mind/concepts/the-cool-metric]] (2026-08-27), which gained a
+> `CORRECTED` block retiring its **persona-slang counter-list** (*failson,
+> garbage person, shitshow, choomed, normie, Blue MAGA, choom*) as observed
+> evidence — the six terms total 19 occurrences in 106,629 sent messages, three
+> of them used exactly once, and `garbage person` turned out to be a
+> self-description rather than an insult. **No claim on this page changes.**
+> Checked rather than assumed: this page cites none of those six terms, and the
+> correction is confined to one paragraph answering the Skins objection. The
+> metric's own claim — one performed-versus-authentic axis applied across
+> domains — rests on the Normie Check, the sub-bass case and the favorites
+> record, none of which this touched.
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/concepts/the-cool-metric]] (2026-08-26), which added a section on
@@ -8291,6 +8312,76 @@ small stupidity"** — formally a compliment in shape, semantically a verdict.
 ### Excluded
 
 - 48 — offered, not selected; recorded as excluded per the curator's note.
+
+## The word queue — measured entries, not selected ones
+
+Everything above this line was **selected**: words picked as pleasing from a
+machine-generated pool in one session. That is the page's standing limitation
+and it is stated plainly at the top. This section is where the other kind of
+entry goes — a word caught in the wild, then **counted against the message
+record before anything is concluded from it**. The mechanism is
+`lexicon/words/` (see `lexicon/README.md`): a word typed into the portal's box
+is parked as a file, `bin/wiki-work` lists it, and a session checks it and
+folds the reading in here.
+
+The distinction is the whole point. A word he *likes* and a word he *says* are
+different facts, and the first thirty-odd entries on this page are all the
+first kind.
+
+### `choom` / `choomed` — and the list it came from
+
+The queue's first entry, taken from `the-cool-metric`'s persona-slang list to
+test the loop. **It appears once in 106,629 sent messages:**
+
+```
+2021-02-04 20:59  S
+So I was really choomed this morning and moved a bunch of stock that I
+probably shouldn't have just because I was too high
+```
+
+One use, in its literal sense, with the meaning supplied in the same sentence —
+which is what somebody does with a word they do not expect the reader to know.
+
+Checking one word meant checking its list, and the list is the finding.
+[[wiki/mind/concepts/the-cool-metric]] offered *failson, garbage person,
+shitshow, choomed, normie, Blue MAGA, choom* as his "documented persona slang,"
+the **observed** counterweight to vocabulary that page rejects as merely
+performed. Counted:
+
+| Term | Sent | All | Dates |
+|---|---:|---:|---|
+| `choom` / `choomed` | 1 | 1 | 2021-02-04 only |
+| `failson` | 1 | 1 | 2025-05-31 only |
+| `shitshow` | 1 | 2 | 2017-01-29 only |
+| `Blue MAGA` | 3 | 3 | 2024-06-27 → 2024-07-13 |
+| `garbage person` | 6 | 6 | 2018-04-02 → 2023-10-30 |
+| `normie` | 7 | 8 | — |
+| **Total** | **19** | **21** | |
+
+Nineteen occurrences across 106,629 sent messages — one every ~5,600 — with
+three of the six used exactly once, ever. The same corpus carries `fucking`
+1,745 times. Nothing here is fabricated; every term is genuinely present. But
+a list whose median member appears once is evidence **of the same kind as this
+page** — words he likes — and it was being used as evidence of the opposite
+kind. The correction is written into that page rather than left here.
+
+**One term turned out to be misfiled, and it is the most-used of the six.**
+Five of `garbage person`'s six hits are self-directed and share one frame:
+*"because i'm just a garbage person"* (2018-04-02), *"Because I'm a garbage
+person"* (2018-10-27), *"Oh act surprised, like I'm not a garbage person"*
+(2018-12-17), *"i'm honest enough to let you know i'm a garbage person so you
+don't have to worry abo…"* (2019-08-17), *"I am self aware enough to know I'm a
+garbage person who acts like an impulsive tod…"* (2023-10-30). Only one points
+outward. In four of the five **the admission arrives before the accusation
+does** — a self-presentation move, not an impoliteness one, and it belongs with
+the identity-by-negation counts on
+[[wiki/mind/profile/linguistic-profile]] (`i don't` 1,845, `i'm not` 814).
+
+**Counts are floors, not totals.** `bin/mine-messages` reads the iMessage dump
+only; the Twitter archive is a separate corpus and would plausibly raise
+`normie` and `Blue MAGA`, both platform-native. That would move two rows and
+would not touch `choom`, `failson`, or the `garbage person` reading — which is
+where the finding actually lives.
 
 ## What this is and is not
 
@@ -10807,10 +10898,12 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-27** — 12 pages
+**2026-08-27** — 22 pages
+  - feat | meta, interests, mind | the word queue, and what its first entry falsified
+  - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
   - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
 
-**2026-08-26** — 79 pages
+**2026-08-26** — 69 pages
   - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
   - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
@@ -12013,31 +12106,39 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-27 — 12 pages
+## 2026-08-27 — 22 pages
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — flagged stale two hops down from the-cool-metric's 2026-08-27 correction, which retired its persona-slang counter-list as observed evidence and touched nothing else. The intermediate pages were re-che |
+| [[wiki/interests/food-and-diet]] | interests | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-27), which gained a `CORRECTED` block retiring its **persona-slang counter-list** (*failson, garbage person, shitshow, choomed, normie, Blue MAGA, choom* |
 | [[wiki/interests/language/vocabulary-lexicon]] | interests | — |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
+| [[wiki/mind/concepts/chaos-preference]] | mind | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-27), which gained a `CORRECTED` block retiring its **persona-slang counter-list** (*failson, garbage person, shitshow, choomed, normie, Blue MAGA, choom* |
+| [[wiki/mind/concepts/the-cool-metric]] | mind | **CORRECTED** — Counted against the sender-tagged corpus (106,629 sent messages), the six terms total **19 occurrences — about one every 5,600 messages** — and three are used exactly once, ever: `choom`/`choomed` 1 ( |
 | [[wiki/mind/profile/linguistic-profile]] | mind | **GAP CLOSED** — the operator volunteered the full "words for stupid" list against this page. It was not a gap this page had stated — unprompted material, staged here for the ingest to place. Placed here, in Lexical f |
+| [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — flagged stale two hops down from the-cool-metric's 2026-08-27 correction, which retired its persona-slang counter-list as observed evidence and touched nothing else. The intermediate pages were re-che |
+| [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — flagged stale three hops down from the-cool-metric's 2026-08-27 correction. Every page in the chain — chaos-preference, the-unbroken-bond — was read and withdrew no claim; the correction is confined t |
 | [[wiki/mind/synthesis/failure-to-launch]] | mind | **RE-CHECKED** — flagged stale against linguistic-profile (2026-08-27), which gained a section on a commissioned vocabulary session (vocabulary-lexicon). **No claim on this page changes, and the new ma |
+| [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-27), which gained a `CORRECTED` block retiring its **persona-slang counter-list** (*failson, garbage person, shitshow, choomed, normie, Blue MAGA, choom* |
 | [[wiki/mind/synthesis/the-commissioned-self]] | mind | **RE-CHECKED** — linguistic-profile gained a section on 2026-08-27 documenting a **commissioned vocabulary session**: on 2026-08-26 Dan prompted a model to generate graded insult and praise batches, selected from the  |
+| [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-27), which gained a `CORRECTED` block retiring its **persona-slang counter-list** (*failson, garbage person, shitshow, choomed, normie, Blue MAGA, choom* |
 | [[wiki/mind/synthesis/the-rescue-premise]] | mind | **RE-CHECKED** — flagged stale against ally-lubin-cognitive-profile (2026-08-27), which closed its attribution gap: the operator confirms the 16Personalities result is Ally Lubin's and that it is recent. **No claim on |
+| [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **RE-CHECKED** — flagged stale two hops down from the-cool-metric's 2026-08-27 correction, which retired its persona-slang counter-list as observed evidence and touched nothing else. The intermediate pages were re-che |
+| [[wiki/mind/synthesis/totality-themes]] | mind | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-27), which gained a `CORRECTED` block retiring its **persona-slang counter-list** (*failson, garbage person, shitshow, choomed, normie, Blue MAGA, choom* |
 | [[wiki/people/ally-lubin-cognitive-profile]] | people | **GAP CLOSED** — the page asked *"whose result is the screenshot, and when was it taken? The image carries no identifying metadata. Did Ally send it to Dan directly, and on what date? The original `IMG_2320.heic` may  |
 | [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 | [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — 117-belmont-circle gained the sale's disposition on 2026-08-27: it **closed in summer 2019 for $250,000** (operator testimony, uncorroborated in the message record, buyer still unknown). The row above |
 
-## 2026-08-26 — 79 pages
+## 2026-08-26 — 69 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/cocaine]] | health | **RE-CHECKED** — flagged stale against acquisition-drive (2026-08-26), which added a closure-not-completion refinement built on the Fran vigil quote — unrelated to cocaine. **No claim on this page is affected.** **RE- |
-| [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — flagged stale against cocaine (2026-08-26), which added a happiness-rate counter-measure to the same dosage arc this page already cites (1g/day → 3.5–7g/day → 0.5–1g/day tracking the inheritance). **T |
 | [[wiki/interests/favorites/music/artists/fall-out-boy]] | interests | — |
-| [[wiki/interests/food-and-diet]] | interests | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-26), which added a section on the metric's one documented upper bound (the Ally Skins exchange) and removed its `sage_pending` staging. The food-exemptio |
 | [[wiki/interests/rock-irrelevance-thesis]] | interests | — |
 | [[wiki/interests/the-office]] | interests | — |
 | [[wiki/meta/index]] | meta | — |
@@ -12047,12 +12148,10 @@ simply listed.
 | [[wiki/meta/journeys/the-type-machine]] | meta | — |
 | [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/mind/concepts/bunker-core]] | mind | — |
-| [[wiki/mind/concepts/chaos-preference]] | mind | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-26), which added a section on the metric's one documented upper bound (the Ally Skins exchange) and removed its `sage_pending` staging. This page's mirro |
 | [[wiki/mind/concepts/conflict-architecture]] | mind | _(carries a REVISED from 2026-07-18)_ |
 | [[wiki/mind/concepts/erotic-architecture]] | mind | — |
 | [[wiki/mind/concepts/exocortex]] | mind | — |
 | [[wiki/mind/concepts/forensic-method]] | mind | _(carries a CORRECTED from 2026-08-18)_ |
-| [[wiki/mind/concepts/the-cool-metric]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
 | [[wiki/mind/index]] | mind | — |
 | [[wiki/mind/politics/axioms]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
 | [[wiki/mind/profile/deviance-mapping]] | mind | _(carries a GAP CLOSED from 2026-08-22)_ |
@@ -12064,7 +12163,6 @@ simply listed.
 | [[wiki/mind/profile/voice-modes]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/mind/psychosexual/arrangement-history]] | mind | _(carries a CORRECTED from 2026-08-20)_ |
 | [[wiki/mind/synthesis/ai-collaborative-analysis]] | mind | — |
-| [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — flagged stale against totality-themes (2026-08-26), which gained two RE-CHECKED notes confirming its own cited premises unaffected by the same day's acquisition-drive/embedded-objective additions. **N |
 | [[wiki/mind/synthesis/annual-volume-suz]] | mind | — |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-26), which gained a RE-CHECKED note confirming the fran-death-vigil closure-cluster finding doesn't touch its caregiving or estate material. **No claim on  |
 | [[wiki/mind/synthesis/august-grievance-verdict]] | mind | **RE-CHECKED** — flagged stale against attachment-trauma-bond (2026-08-26), which added a counterexample section about the Ally channel's symmetric self-indictment. **No claim on this page is affected** — this page ci |
@@ -12072,7 +12170,6 @@ simply listed.
 | [[wiki/mind/synthesis/bond-switch-2015]] | mind | _(carries a CORRECTED from 2026-08-17)_ |
 | [[wiki/mind/synthesis/closing-the-set]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
 | [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | **RE-CHECKED** — flagged stale against conflict-architecture (2026-08-26), which added a section documenting the corpus's one completed refusal of the redefinition move (an Ally exchange) and removed its `sage_pending |
-| [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — flagged stale against the-unbroken-bond (2026-08-26), which added a "directed fear of infidelity" cost item (the `cheat` word-count finding) and removed its own `sage_pending` staging. That addition i |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a REVISED from 2026-08-23)_ |
 | [[wiki/mind/synthesis/fayette-return]] | mind | **RE-CHECKED** — ancestry added one verified collateral from the maternal Shrum line: **Daniel Shrum** (b. 11 Apr 1884, Pennsylvania; d. 11 Dec 1918, Greensburg, Westmoreland County) — an older brother of the direct-l |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | **RE-CHECKED** — `bin/wiki-climb check` flagged this page stale again, against both context-core and exocortex, each of which moved on 2026-08-26 to add one new connections edge to the new |
@@ -12081,13 +12178,9 @@ simply listed.
 | [[wiki/mind/synthesis/music-as-identity]] | mind | — |
 | [[wiki/mind/synthesis/political-psyops]] | mind | — |
 | [[wiki/mind/synthesis/read-receipt-forensics]] | mind | **RE-CHECKED** — forensic-method gained an `instance-of` edge into the new lexicon page — the same evidence-cite/ authority-invoke/render-a-finding machinery documented there for crisis analysis, observed r |
-| [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — flagged stale against totality-themes (2026-08-26), which gained a RE-CHECKED note confirming the same day's acquisition-drive/embedded-objective tenure-and-satisfaction additions do not touch anythin |
 | [[wiki/mind/synthesis/supply-network]] | mind | **RE-CHECKED** — flagged stale against menore (2026-08-26), which closed its last open gap: 2022's zero mentions are explained by the operator having a flip phone that year, not by a service break. This removes the on |
 | [[wiki/mind/synthesis/the-cato-seat]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
-| [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — flagged stale against single-channel (2026-08-26), which added a section reading the no-failover architecture's intensity as an entry condition for one relational object (Ally) rather than only a cost |
 | [[wiki/mind/synthesis/the-embedded-objective]] | mind | _(carries a RE-CHECKED from 2026-08-24)_ |
-| [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **RE-CHECKED** — flagged stale against chaos-preference (2026-08-26), which added a section on the-cool-metric's one documented upper bound (an Ally exchange) and removed its own `sage_pending` staging. Ne |
-| [[wiki/mind/synthesis/totality-themes]] | mind | **RE-CHECKED** — flagged stale against the-embedded-objective and acquisition-drive (both 2026-08-26), which added a tenure-versus-satisfaction distinction built on the Fran vigil and left the MNEME/DAN |
 | [[wiki/people/alexis-armel]] | people | _(carries a CORRECTED from 2026-08-15)_ |
 | [[wiki/people/ally-lubin]] | people | _(carries a CORRECTED from 2026-08-22)_ |
 | [[wiki/people/annie-ulmer-personality-assessment]] | people | _(carries a RE-CHECKED from 2026-08-23)_ |
@@ -13426,7 +13519,7 @@ aliases: ["chaotic neutral", "the entropy appetite", "rooting for the fire"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -13468,6 +13561,19 @@ connections:
 ---
 
 # The Chaos Preference
+
+> **RE-CHECKED [2026-08-27]:** flagged stale against
+> [[wiki/mind/concepts/the-cool-metric]] (2026-08-27), which gained a
+> `CORRECTED` block retiring its **persona-slang counter-list** (*failson,
+> garbage person, shitshow, choomed, normie, Blue MAGA, choom*) as observed
+> evidence — the six terms total 19 occurrences in 106,629 sent messages, three
+> of them used exactly once, and `garbage person` turned out to be a
+> self-description rather than an insult. **No claim on this page changes.**
+> Checked rather than assumed: this page cites none of those six terms, and the
+> correction is confined to one paragraph answering the Skins objection. The
+> metric's own claim — one performed-versus-authentic axis applied across
+> domains — rests on the Normie Check, the sub-bass case and the favorites
+> record, none of which this touched.
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/concepts/the-cool-metric]] (2026-08-26), which added a section on
@@ -16233,7 +16339,7 @@ aliases: ["anti-normie", "the normie check", "taste as sorting function"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -16383,6 +16489,43 @@ is his own documented persona slang — *failson, garbage person, shitshow,
 choomed, normie, Blue MAGA, choom* — vocabulary that is either genuinely
 impolite or genuinely subcultural, and in either case not manufactured to be
 safely quirky.
+
+> **CORRECTED [2026-08-27] — the persona-slang list is real and cannot do the
+> job this paragraph gives it.** Counted against the sender-tagged corpus
+> (106,629 sent messages), the six terms total **19 occurrences — about one
+> every 5,600 messages** — and three are used exactly once, ever:
+> `choom`/`choomed` 1 (2021-02-04, in its literal sense and glossed in the same
+> breath — *"because I was too high"*), `failson` 1 (2025-05-31), `shitshow` 1
+> (2017-01-29), `Blue MAGA` 3 (June–July 2024), `garbage person` 6, `normie` 7.
+> The same corpus carries `fucking` 1,745 times. Every term is genuinely
+> present, so nothing here is fabricated — but this list's function in the
+> argument above is to be the **observed** counterweight to vocabulary the
+> metric rejects as merely performed, and a list whose median member appears
+> once cannot carry that comparison. It is closer in kind to
+> [[wiki/interests/language/vocabulary-lexicon]] — words selected as pleasing —
+> than to a measured speech habit. Counts are floors: the Twitter archive is a
+> separate corpus and would plausibly raise `normie` and `Blue MAGA`, both
+> platform-native.
+>
+> **`garbage person` is misfiled, and it is the most-used of the six.** Five of
+> its six hits are self-directed and share one frame — *"because i'm just a
+> garbage person"* (2018-04-02), *"Because I'm a garbage person"* (2018-10-27),
+> *"Oh act surprised, like I'm not a garbage person"* (2018-12-17), *"i'm
+> honest enough to let you know i'm a garbage person so you don't have to worry
+> abo…"* (2019-08-17), *"I am self aware enough to know I'm a garbage person who
+> acts like an impulsive tod…"* (2023-10-30). Only one points outward. In four
+> of the five the admission **arrives before the accusation does** — which is a
+> finding about self-presentation, not about impoliteness, and it belongs with
+> the identity-by-negation counts on
+> [[wiki/mind/profile/linguistic-profile]] (`i don't` 1,845, `i'm not` 814).
+>
+> **The metric itself is untouched.** The Skins objection above — that certain
+> words "perform transgression while being structurally safe" — is a judgement
+> about other people's vocabulary and stands on its own evidence. What fails is
+> only the attempt to answer it with a counter-list of his own, which turns out
+> to be the same kind of artifact as the thing it was set against. Found by
+> `lexicon/words/2026-08-27_120000_choomed.md` — the word queue's first entry,
+> checked rather than assumed.
 
 The metric is legible in the vocabulary he *curates* as well as the vocabulary
 he uses. [[wiki/interests/language/vocabulary-lexicon]] records two graded word
@@ -21085,7 +21228,7 @@ title: "The Alias Is a Clock, Not a Style"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 date_range_start: 2013-01-01
 date_range_end:
 synthesizes:
@@ -21129,6 +21272,14 @@ connections:
 ---
 
 # The Alias Is a Clock, Not a Style
+
+> **RE-CHECKED [2026-08-27]:** flagged stale two hops down from
+> [[wiki/mind/concepts/the-cool-metric]]'s 2026-08-27 correction, which retired
+> its persona-slang counter-list as observed evidence and touched nothing else.
+> The intermediate pages were re-checked and withdrew no claim, so nothing
+> reaches this one. **No claim on this page changes.** Recorded rather than
+> re-dated, because a date bumped without a reading is how the cascade stops
+> meaning anything.
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/synthesis/totality-themes]] (2026-08-26), which gained two
@@ -24541,7 +24692,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -24620,6 +24771,12 @@ connections:
 ---
 
 # Dormancy, Not Exit
+
+> **RE-CHECKED [2026-08-27]:** flagged stale three hops down from
+> [[wiki/mind/concepts/the-cool-metric]]'s 2026-08-27 correction. Every page in
+> the chain — chaos-preference, the-unbroken-bond — was read and withdrew no
+> claim; the correction is confined to a vocabulary counter-list this page has
+> never cited. **No claim on this page changes.**
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/synthesis/the-unbroken-bond]] (2026-08-26), which added a
@@ -29031,7 +29188,7 @@ aliases: ["one channel at maximum voltage", "no failover", "concentration archit
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -29084,6 +29241,19 @@ connections:
 ---
 
 # The Single Channel
+
+> **RE-CHECKED [2026-08-27]:** flagged stale against
+> [[wiki/mind/concepts/the-cool-metric]] (2026-08-27), which gained a
+> `CORRECTED` block retiring its **persona-slang counter-list** (*failson,
+> garbage person, shitshow, choomed, normie, Blue MAGA, choom*) as observed
+> evidence — the six terms total 19 occurrences in 106,629 sent messages, three
+> of them used exactly once, and `garbage person` turned out to be a
+> self-description rather than an insult. **No claim on this page changes.**
+> Checked rather than assumed: this page cites none of those six terms, and the
+> correction is confined to one paragraph answering the Skins objection. The
+> metric's own claim — one performed-versus-authentic axis applied across
+> domains — rests on the Normie Check, the sub-bass case and the favorites
+> record, none of which this touched.
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/synthesis/totality-themes]] (2026-08-26), which gained a
@@ -30974,7 +31144,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -31038,6 +31208,19 @@ connections:
 ---
 
 # The Deferred Audit
+
+> **RE-CHECKED [2026-08-27]:** flagged stale against
+> [[wiki/mind/concepts/the-cool-metric]] (2026-08-27), which gained a
+> `CORRECTED` block retiring its **persona-slang counter-list** (*failson,
+> garbage person, shitshow, choomed, normie, Blue MAGA, choom*) as observed
+> evidence — the six terms total 19 occurrences in 106,629 sent messages, three
+> of them used exactly once, and `garbage person` turned out to be a
+> self-description rather than an insult. **No claim on this page changes.**
+> Checked rather than assumed: this page cites none of those six terms, and the
+> correction is confined to one paragraph answering the Skins objection. The
+> metric's own claim — one performed-versus-authentic axis applied across
+> domains — rests on the Normie Check, the sub-bass case and the favorites
+> record, none of which this touched.
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/synthesis/single-channel]] (2026-08-26), which added a section
@@ -32449,7 +32632,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -32497,6 +32680,14 @@ connections:
 ---
 
 # The Unbroken Bond
+
+> **RE-CHECKED [2026-08-27]:** flagged stale two hops down from
+> [[wiki/mind/concepts/the-cool-metric]]'s 2026-08-27 correction, which retired
+> its persona-slang counter-list as observed evidence and touched nothing else.
+> The intermediate pages were re-checked and withdrew no claim, so nothing
+> reaches this one. **No claim on this page changes.** Recorded rather than
+> re-dated, because a date bumped without a reading is how the cascade stops
+> meaning anything.
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/concepts/chaos-preference]] (2026-08-26), which added a section on
@@ -33027,7 +33218,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -33166,6 +33357,19 @@ connections:
 
 
 # Totality Themes
+
+> **RE-CHECKED [2026-08-27]:** flagged stale against
+> [[wiki/mind/concepts/the-cool-metric]] (2026-08-27), which gained a
+> `CORRECTED` block retiring its **persona-slang counter-list** (*failson,
+> garbage person, shitshow, choomed, normie, Blue MAGA, choom*) as observed
+> evidence — the six terms total 19 occurrences in 106,629 sent messages, three
+> of them used exactly once, and `garbage person` turned out to be a
+> self-description rather than an insult. **No claim on this page changes.**
+> Checked rather than assumed: this page cites none of those six terms, and the
+> correction is confined to one paragraph answering the Skins objection. The
+> metric's own claim — one performed-versus-authentic axis applied across
+> domains — rests on the Normie Check, the sub-bass case and the favorites
+> record, none of which this touched.
 
 > **RE-CHECKED [2026-08-23]:** flagged stale against
 > [[wiki/mind/concepts/attachment-model]] and

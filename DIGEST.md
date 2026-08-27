@@ -47,10 +47,12 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-27** — 12 pages
+**2026-08-27** — 22 pages
+  - feat | meta, interests, mind | the word queue, and what its first entry falsified
+  - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
   - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
 
-**2026-08-26** — 79 pages
+**2026-08-26** — 69 pages
   - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
   - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded

@@ -71,6 +71,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 WIKI = ROOT / "wiki"
 SAGE = ROOT / "sage" / "questions"
+WORDS = ROOT / "lexicon" / "words"
 WORK = ROOT / "WORK.md"
 
 # The staging flags. `pending_ingest` is written by bin/wiki-gaps and holds an
@@ -92,6 +93,11 @@ OBLIGATIONS = {
     "sage":       (1, "ANSWER"),
     "close":      (2, "CLOSE"),
     "sage-close": (2, "CLOSE"),
+    # A parked word is the same shape of obligation as a parked question —
+    # somebody outside caught something and it is waiting on a pass — but it is
+    # not the same urgency: nobody is standing there watching for an answer to
+    # appear under it, so it sits below the staged answers rather than at 1.
+    "word":       (3, "lexicon/README.md — check it against the corpus, then fold it in"),
     "stale":      (3, "LINT — re-read the premise, never bump the date"),
     "edit":       (4, "LINT — normalise formatting and frontmatter"),
 }
@@ -212,6 +218,33 @@ def find_sage():
             rel(path), asked,
             detail="Answer it per CLAUDE.md's ANSWER section: cite every claim, quote "
                    "the record directly, and say where it cuts the other way.",
+        ))
+    return items
+
+
+def find_words():
+    """Words parked by the portal's word box and not yet analysed."""
+    if not WORDS.is_dir():
+        return []
+    items = []
+    for path in sorted(WORDS.glob("*.md")):
+        text = read(path)
+        if (field(text, "status") or "pending") != "pending":
+            continue
+        word = field(text, "word") or path.stem
+        kind = field(text, "kind") or "word"
+        added = (field(text, "added") or "")[:10]
+        body = text.split("## Note", 1)[-1].split("\n## ", 1)[0]
+        note = flatten(next((ln for ln in body.splitlines() if ln.strip()), ""))
+        items.append(Item(
+            "word",
+            "%s (%s)%s" % (word, kind, " — %s" % note if note else ""),
+            rel(path), added,
+            detail="Check it against the message record with bin/mine-messages and "
+                   "bin/text-metrics before deciding what it is — whether he actually "
+                   "uses it, and since when, is the whole difference between a finding "
+                   "and an impression. Then fold it into "
+                   "wiki/interests/language/vocabulary-lexicon.md and set status.",
         ))
     return items
 
@@ -445,6 +478,7 @@ OBLIGATION_DETECTORS = [
     find_sage,
     lambda: find_staged(FLAG_OPERATOR, "close"),
     lambda: find_staged(FLAG_SAGE, "sage-close"),
+    find_words,
     find_stale,
     find_portal_edits,
 ]
