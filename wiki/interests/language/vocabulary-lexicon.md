@@ -242,3 +242,232 @@ small stupidity"** — formally a compliment in shape, semantically a verdict.
   here; only the accepted terms and the one excluded item (48) survive. A
   later pass could recover the pools from the session transcript if the
   pre-selection distribution matters.
+
+---
+
+# Analyst profile (2026-08-26 session)
+
+The same 2026-08-26 session that produced the two vocab batches also
+generated a second-order reading of the curator's *positive* slang taste —
+not the curated lists above, but the analyst's inference about the aesthetic
+hiding inside the curator's word-picks. This section records that reading
+**as a documented analyst interpretation**, attributed to the session, not
+as an established wiki finding. It is the most analytically developed
+material the session produced and is preserved in full for later
+integration.
+
+## The underlying template: EXCEPTIONALITY + VIOLATION
+
+The analyst's central claim: the curator's preferred positive slang does not
+say "good." It says *"this is so good that the normal vocabulary for 'good'
+has become inadequate, so I'm going to describe it as a dangerous /
+pathological / catastrophic event."* The nine picks the curator had made
+were read as "weirdly coherent" around a single hidden aesthetic.
+
+The analyst resolved the apparent outliers — `dialed` and `cracked` — as
+**competence metaphors**, not violations, and placed them on the same axis:
+
+- `dialed` → precision, calibration, optimization
+- `cracked` → operating at an abnormal level of performance
+- `lethal` → dangerous effectiveness
+- `nuclear` → overwhelming destructive force
+- `feral` → civilized constraints removed
+- `diabolical` → intelligent maliciousness
+- `obscene` → violating an expected boundary
+- `generational` → historically exceptional
+- `stupid` → absurdly excessive to the point of irrationality
+
+> The underlying template is something like:
+> **EXCEPTIONALITY + VIOLATION.**
+> Something isn't merely excellent. It's performing outside the permitted
+> parameters of reality.
+
+The analyst's contrast example: *"My Discover Weekly is fire"* feels dead
+because it is "merely positive"; *"My Discover Weekly is diabolical"* implies
+Spotify has committed an act of musical malfeasance — "much better."
+
+## The strongest signal: misclassification
+
+The analyst named this as "probably the most useful part of the profile":
+the curator prefers words that are **technically the wrong category** for
+describing something good.
+
+- `obscene` isn't supposed to mean musically excellent.
+- `lethal` isn't supposed to mean a great playlist.
+- `nuclear` isn't supposed to mean "excellent."
+- `feral` isn't supposed to mean "I really like this."
+- `stupid` is "especially good because it deliberately refuses to sound
+  impressed" — *"This shit is stupid"* means *this shit is so
+  disproportionately good that I'm not even going to dignify it with an
+  adjective.* A particular comedic mechanism: semantic refusal.
+
+## Slang taxonomy — five families
+
+The analyst divided the taste into five families:
+
+1. **☢️ Catastrophic** — *nuclear · lethal · devastating · catastrophic ·
+   apocalyptic · terminal · explosive* — the thing is so good it becomes a
+   threat.
+2. **😈 Malicious** — *diabolical · sinister · nefarious · demonic ·
+   villainous · criminal* — so good you suspect someone deliberately
+   engineered it to fuck you up.
+3. **🐺 Uncivilized** — *feral · rabid · unhinged · deranged · animalistic ·
+   lawless* — has exceeded the bounds of civilized behavior.
+4. **🧪 Abnormally functional** — *dialed · cracked · optimized · surgical ·
+   calibrated · precise · locked-in* — the competence branch; not chaotic,
+   just operating at an obscene efficiency.
+5. **🚨 Boundary violation** — *obscene · outrageous · indecent · egregious ·
+   illegal · criminal* — "probably your richest vein"; the thing is so good
+   it has crossed a line.
+
+## Semantic axis profile
+
+The analyst scored the curator's taste on a fixed set of axes:
+
+| Axis | Level |
+|---|---|
+| Intensity | Very high |
+| Understatement | Moderate |
+| Exaggeration | Extremely high |
+| Positive emotion | Low–moderate |
+| Danger/threat | High |
+| Chaos | High |
+| Clinical/technical weirdness | High |
+| Violence/destruction | High |
+| Absurdity | Very high |
+| Wholesomeness | Basically zero |
+| Corporate/influencer energy | Fuck no |
+| Forced youth slang | Fuck no |
+
+## Predicted anti-preferences (the opposite-pole test)
+
+The analyst argued the opposite-pole test is *better* than asking the
+curator to rate positive slang directly, because the taste "depends heavily
+on semantic texture — whether a word feels like the right kind of wrong."
+Predicted disliked / lukewarm (too semantically direct — they tell you
+"this is good" instead of making the listener reverse-engineer it):
+
+`fire` · `slaps` · `banger` · `vibey` · `sick` · `dope` · `goated` · `based`
+· `peak` · `immaculate` · `elite` · `iconic` · `unreal` · `heavenly` ·
+`exquisite` · `beautiful` · `sublime` · `magical` · `amazing` · `incredible`
+
+## The proposed slang taste function
+
+> Goodness × absurdity × danger × semantic wrongness × understatement
+
+"the higher the product, the more likely you're going to like the word."
+
+## Unexplored hunting zone (analyst's forward bet)
+
+The analyst proposed the next vein to mine: words implying **a crime, medical
+emergency, natural disaster, military operation, or supernatural event** —
+e.g. *"My Discover Weekly is [felonious]"*, *"This shit is [pathological]"*,
+*"This is [demonic]"*, *"This shit is [industrial]."* Some predicted misses,
+but "the mechanism is exactly right."
+
+## The Slang Taste Battery™ V1 (instrument, administered 2026-08-26)
+
+The session closed by proposing a psychometric instrument. It is recorded
+here as a designed-but-unadministered tool; no responses were supplied in the
+material received, so the分值 columns are left for a later run. Filed as
+`curated` instrument design, not as results.
+
+**Part I — The Negative Pole.** Rate 1–7: "how satisfying would this be as
+slang for something fucked up / bad / broken / unpleasant?"
+
+- A. Catastrophe: Catastrophic · Apocalyptic · Nuclear · Terminal ·
+  Devastating · Calamitous · Extinction-level · Disastrous · Ruinous ·
+  Volcanic
+- B. Threat / Violence: Lethal · Violent · Brutal · Savage · Hostile ·
+  Dangerous · Fatal · Toxic · Weaponized · Ballistic
+- C. Criminal / Forbidden: Criminal · Illegal · Felonious · Obscene ·
+  Indecent · Unlawful · Egregious · Malfeasant · Incriminating · Forensic
+- D. Psychological / Behavioral: Feral · Rabid · Deranged · Unhinged ·
+  Psychotic · Manic · Pathological · Disturbed · Delusional · Depraved
+- E. Villainous: Diabolical · Sinister · Nefarious · Malicious · Villainous
+  · Demonic · Satanic · Malevolent · Insidious · Machiavellian
+- F. Mechanical / Technical Failure: Broken · Glitched · Corrupted · Fucked
+  · Defective · Malfunctioning · Compromised · Unstable · Degraded ·
+  Nonfunctional
+- G. Social / Aesthetic Disgust: Grotesque · Heinous · Vile · Repulsive ·
+  Hideous · Ghastly · Disgusting · Abominable · Monstrous · Revolting
+
+**Part II — Forced-choice pairs** (pick the word you'd rather use):
+1. Catastrophic vs Apocalyptic
+2. Lethal vs Ballistic
+3. Criminal vs Felonious
+4. Obscene vs Indecent
+5. Feral vs Rabid
+6. Diabolical vs Demonic
+7. Nuclear vs Volcanic
+8. Deranged vs Unhinged
+9. Corrupted vs Glitched
+10. Grotesque vs Repulsive
+11. Sinister vs Malevolent
+12. Brutal vs Savage
+13. Pathological vs Disturbed
+14. Terminal vs Fatal
+15. Obscene vs Egregious
+
+**Part III — The sentence test.** *"Jesus Christ, this playlist is ____."*
+Options: fucked · cursed · deranged · criminal · obscene · diabolical ·
+catastrophic · terminal · feral · forensic · pathological · industrial ·
+weaponized · apocalyptic · disgusting. (Rank top 5.)
+
+**Part IV — The anti-slang detector.** Rate 1–7 cringe when used as slang:
+slaps · fire · gas · heat · banger · vibey · iconic · immaculate · elite ·
+goated · peak · based · sick · insane · crazy · unreal · legendary ·
+immaculate · heavenly · divine.
+
+**Part V — Metaphor-type preference.** Pick the instinctive frame:
+A. Military ("weaponized") · B. Criminal ("felonious") · C. Medical
+("pathological") · D. Disaster ("catastrophic") · E. Supernatural ("demonic")
+· F. Animal ("feral") · G. Industrial ("industrial-grade") · H. Scientific
+("anomalous") · I. Bureaucratic ("an administrative failure") · J. Existential
+("cosmically fucked"). The analyst flagged Part V as potentially more
+diagnostic than 100 adjectives.
+
+## Full cross-cutting analysis
+
+Read against the two curated batches above (Axis A "pretty," Axis B
+"stupid"), the analyst profile, and the Battery, three structures repeat
+across all of them and are the actual finding of the 2026-08-26 session:
+
+**1. The violation axis is the through-line.** Axis A's 80–100 band
+(`Lethal` → `Aesthetic felony`) and Axis B's three mechanisms (fake
+institutional prestige, historical condemnation, precision vulgarity) are the
+*same move* as the analyst's EXCEPTIONALITY + VIOLATION template. Praise and
+insult both escalate by importing a register that does not belong — legality,
+pathology, catastrophe. The "pretty" list ends by calling beauty a crime;
+the "stupid" list calls the target a crime scene. The vocabulary is doing
+one thing in two directions.
+
+**2. Dignified shape, devastating payload — the misclassification constant.**
+The analyst's "Rosetta Stone" for insults (*a man of no small stupidity*) is
+structurally identical to the analyst's "strongest signal" for positive
+slang (misclassification: *obscene* isn't supposed to mean excellent). Both
+rely on a word occupying the wrong semantic category. This is the single most
+coherent thread in the whole session and the best candidate for a real,
+derivable claim — but it is currently supported only by the curator's own
+ selections and one analyst reading, not by corpus measurement. Marked
+`[INFER]` until tested against `raw/self/message-csv/` the way the cool
+metric's gaps section says is possible.
+
+**3. The anti-preference is the cleaner predictor than the preference.**
+The analyst's own admission — that the opposite-pole test is *better* than
+rating positive slang — is the most methodologically sound move in the
+session. "Too semantically direct" (`fire`, `slaps`, `immaculate`,
+`heavenly`) fails precisely because it tells rather than implies. This
+inverts the usual lexicon-building approach and is the part worth
+ operationalizing: a word is predicted to land iff it is *disproportionate,
+ category-incongruent, dark-toned, and not youth-slanged.* That is a testable
+ filter, and the Battery V1 Part IV is its instrumentation.
+
+**Epistemic status.** Everything in this section is `curated` — generated in
+one session, attributed to the analyst within it, and not yet cross-checked
+against the corpus. The link to [[wiki/mind/concepts/the-cool-metric]] holds
+at the illustrative level (grading-by-mechanism ≈ performed-versus-authentic)
+but no behavioral claim about Dan is established here. The honest gap: the
+Battery was designed and never run; the "misclassification" thesis is the
+strongest candidate for promotion to a derived finding and the obvious next
+operation.
