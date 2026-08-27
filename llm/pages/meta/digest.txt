@@ -5,7 +5,7 @@ title: "Wiki Digest"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources: []
 ---
 
@@ -21,8 +21,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | | |
 |---|---|
-| Pages | 515 |
-| Pages touched in the last 14 days | 191 |
+| Pages | 516 |
+| Pages touched in the last 14 days | 193 |
 | Pages reasoning from other pages (`synthesizes:`) | 45 |
 | Live contradictions | 46 |
 | Open gaps | 467 |
@@ -33,7 +33,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | Domain | Pages |
 |---|---|
 | people | 174 |
-| interests | 143 |
+| interests | 144 |
 | mind | 74 |
 | timeline | 42 |
 | self | 40 |
@@ -48,14 +48,17 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | Status | Pages |
 |---|---|
 | stable | 193 |
-| active | 179 |
+| active | 180 |
 | closed | 100 |
 | archived | 31 |
 | stub | 12 |
 
 ## The last few days
 
-**2026-08-26** — 88 pages
+**2026-08-27** — 12 pages
+  - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
+
+**2026-08-26** — 79 pages
   - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
   - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
@@ -80,7 +83,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - close | people | Libby is Libby Titus, she died in October 2024, and the corpus had her married name all along
   - report | mind | texting deviance audit — the operator's model of his own texting was two-thirds wrong
 
-**2026-08-22** — 7 pages
+**2026-08-22** — 6 pages
   - answer | mind | what would make Dan happy — he answered it himself in 2025, and the record has already run the experiment
   - fix | people | a fourth portal incident, a duplicated H1 on annie-ulmer, and the freshness gate red on main
   - fix | people | the stale-snapshot clobber recurred on ally-lubin, six hours after the last one
@@ -103,17 +106,6 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - answer | mind | re-audited with all sixteen type codes: two more absence claims were wrong
   - infra | portal | the loop had no return leg, and a corrected answer sat unpublished for forty minutes
   - infra | housekeeping | the pre-commit block had the wrong order, and the sweep had no protocol
-
-**2026-08-20** — 17 pages
-  - ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
-  - correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
-  - close | timeline/people/mind | the catalyst was a five-word message in a group chat the wiki has never seen
-  - climb | mind | the grievances of the last conversation, scored one by one — and Dan's own evidence turns out to cut both ways
-  - rewrite | people | ally-lubin — the wiki hallucinated about itself, and the infobox carried it
-  - rewrite | people | annie-ulmer — the zero holds at full width; the ending was not one thread
-  - lint | timeline | two committed conflict markers on main
-  - ingest | timeline | the Morgantown recording, verified against a real transcript
-  - lint | wiki | wiring the recent PRs into the structure — and a duplicate entity, a dead quarantine, and my own damage
 
 ## Pages that reason from other pages
 

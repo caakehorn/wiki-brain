@@ -121,6 +121,18 @@ def field(fm, name):
     return m.group(1).strip().strip("\"'") if m else ""
 
 
+def synthesizes_count(fm):
+    """How many wiki pages this page's `synthesizes:` block names.
+
+    Returns 0 for a page with no such field and for the inline empty form
+    `synthesizes: []`, which declares the field without naming a premise.
+    """
+    m = re.search(r"synthesizes:\s*\n((?:[ \t]+-\s+.*\n)+)", fm)
+    if not m:
+        return 0
+    return len(re.findall(r"^\s+-\s+wiki/", m.group(1), re.M))
+
+
 def rel(path):
     return os.path.relpath(path, ROOT).replace(".md", "")
 
@@ -412,7 +424,9 @@ def write_digest(entries, touched, counts, reasons):
         doms[e["domain"] or "—"] += 1
         stat[e["status"] or "—"] += 1
 
-    synth = [e for e in entries if "synthesizes:" in e["fm"]]
+    # An empty `synthesizes: []` declares the field without reasoning from
+    # anything, so it belongs in neither the count nor the listing below.
+    synth = [e for e in entries if synthesizes_count(e["fm"])]
     today = date.today().isoformat()
     recent_cut = (datetime.now() - timedelta(days=14)).date().isoformat()
     fresh = [e for e in entries if e["modified"] >= recent_cut]
@@ -462,7 +476,7 @@ def write_digest(entries, touched, counts, reasons):
         "",
     ]
     for e in sorted(synth, key=lambda e: e["path"]):
-        n = len(re.findall(r"^\s+-\s+wiki/", re.search(r"synthesizes:\s*\n((?:\s+-\s+.*\n)+)", e["fm"]).group(1), re.M))
+        n = synthesizes_count(e["fm"])
         body.append("- [[%s]] — %d premise%s" % (e["path"], n, "" if n == 1 else "s"))
 
     out = [

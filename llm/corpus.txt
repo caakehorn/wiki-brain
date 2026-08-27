@@ -1,5 +1,5 @@
-WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-26
-515 pages, ~1,434,789 tokens.
+WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-27
+516 pages, ~1,443,507 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -7988,6 +7988,10 @@ related: []
 - [[wiki/interests/film-canon]] — the 11-title movie list read as a real canon he evangelizes and tests partners with; Kubrick completism, Eyes Wide Shut as "favorite Christmas movie," and the King of Comedy/Taxi Driver self-portrait pair.
 - [[wiki/interests/roman-republic]] — the 2024 full-immersion ancient-history year: Carlin→Holland→Goldsworthy→Plutarch read back to back, and the evangelism of Caesar/Rome to everyone around him.
 
+## language
+
+- [[wiki/interests/language/vocabulary-lexicon]] — two curated word batches from a single 2026-08-26 session, both graded by mechanism rather than synonymy: the cool metric run on language itself, ending on "aesthetic felony."
+
 ## favorites
 
 - [[wiki/interests/favorites/art-and-movies]] — Minor categories in the masterlist (Art 25, Movies 11). All Art entries rated 5; movies unrated with…
@@ -8045,6 +8049,491 @@ related: []
 ## music/concepts
 
 - [[wiki/interests/music/concepts/sub-bass-signature]] — The sub-bass signature is the defining acoustic fingerprint across all of Dan Frank's production output —…
+
+
+========================================================================
+PAGE: wiki/interests/language/vocabulary-lexicon.md
+========================================================================
+
+---
+domain: interests
+page_type: concept
+title: "The Vocabulary Lexicon"
+aliases: ["affective vocabulary", "the insult lexicon", "the pretty-words", "the stupid-words"]
+status: active
+knowledge: mixed
+date_created: 2026-08-26
+date_modified: 2026-08-27
+sources:
+  - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+synthesizes: []
+tags: [language, taste, vocabulary, forensic-analysis]
+connections:
+  - page: wiki/mind/concepts/the-cool-metric
+    type: instantiates
+    claim: "The two curation batches are the cool metric run on vocabulary itself: the 'stupid' axis is graded by mechanism (fake institutional prestige, historical condemnation, precision vulgarity), exactly the performed-versus-authentic sort the cool metric applies to people and culture; the 'pretty' axis is graded by register-escalation (mere 'beautiful' rejected for 'aesthetic felony')."
+  - page: wiki/mind/synthesis/the-commissioned-self
+    type: instantiates
+    claim: "The purest specimen of the commissioned-self cycle in the corpus, because all four stages sit inside one day's session: Dan asks, the model produces a graded artifact, the model then analyses that artifact as evidence about Dan, and the analysis designs a further instrument (the unadministered Slang Taste Battery V1) to measure him more precisely. Unlike the stylometrics row, this instrument measures nothing external — it records which words were selected as pleasing, and can acquire a control group only by counting, never by being analysed harder."
+  - page: wiki/mind/profile/linguistic-profile
+    type: component-of
+    claim: "The four registers that page measures are borrowed upward to make description sound forensic; the insult batch here borrows upward to make contempt sound like an obituary. Same register theft, opposite target — but that page's registers were counted against the message corpus and these were merely selected, so the two must not be read at equal weight."
+  - page: wiki/mind/concepts/chaos-preference
+    type: mirrors
+    claim: "The 'pretty' list's 80–100 band — 'this level of attractiveness has become a regulatory problem' — is the same impulse as chaos-preference: imposed calm is distrusted, so even praise is engineered to sound dangerous rather than safe."
+---
+
+# The Vocabulary Lexicon
+
+Two curated vocabularies, generated in a single session on 2026-08-26 from a
+standing instruction to produce compact terms "tuned toward demonstrated
+taste: elevated, slightly archaic, ethereal, dangerous, excessive,
+weirdly formal — not just 'beautiful ×100.'" The output was not a flat list
+but two graded axes, each sorted by *mechanism* rather than synonymy. The
+person running the session selected the accepted terms from a larger
+machine-generated pool; the selections, not the pool, are the record here.
+
+This page is `knowledge: mixed` — a curated record plus the reasoning laid
+over it. It documents a deliberate vocabulary exercise, not a behavioral
+claim. It is filed under `interests/language`
+because its subject is word-choice as a taste signal, and it is linked from
+[[wiki/mind/concepts/the-cool-metric]] as a concrete instance of that page's
+master filter applied to language. It does not assert that these words are
+used in the corpus; it records that they were *selected* as pleasing, which
+is a different and smaller claim.
+
+## Axis A — "pretty / beautiful" (100 terms)
+
+The full hundred, in the order produced. The interesting structure is in the
+band, not the head:
+
+1. Sublime
+2. Resplendent
+3. Ethereal
+4. Ravishing
+5. Exquisite
+6. Captivating
+7. Celestial
+8. Luminous
+9. Radiant
+10. Incandescent
+11. Iridescent
+12. Numinous
+13. Beatific
+14. Bewitching
+15. Beguiling
+16. Enchanting
+17. Spellbinding
+18. Mesmerizing
+19. Transcendent
+20. Preternatural
+21. Otherworldly
+22. Divine
+23. Angelic
+24. Seraphic
+25. Heavenly
+26. Glorious
+27. Stunning
+28. Striking
+29. Dazzling
+30. Breathtaking
+31. Alluring
+32. Seductive
+33. Magnetic
+34. Hypnotic
+35. Entrancing
+36. Arresting
+37. Compelling
+38. Gorgeous
+39. Lovely
+40. Elegant
+41. Graceful
+42. Statuesque
+43. Regal
+44. Majestic
+45. Regal
+46. Exalted
+47. Sublimely
+48. Exalted
+49. Divine
+50. Immaculate
+51. Flawless
+52. Perfect
+53. Radiant
+54. Glowing
+55. Resplendent
+56. Effulgent
+57. Aureate
+58. Opulent
+59. Lush
+60. Sumptuous
+61. Luxurious
+62. Exquisite
+63. Delicate
+64. Diaphanous
+65. Gossamer
+66. Irreproachable
+67. Unearthly
+68. Unworldly
+69. Uncanny
+70. Spectacular
+71. Phenomenal
+72. Extraordinary
+73. Remarkable
+74. Magnificent
+75. Formidable
+76. Subliminal
+77. Hypnotic
+78. Feral
+79. Lethal
+80. Dangerous
+81. Wicked
+82. Diabolical
+83. Obscene
+84. Indecent
+85. Unholy
+86. Sinful
+87. Forbidden
+88. Mythic
+89. Legendary
+90. Iconic
+91. Generational
+92. Monumental
+93. Unreasonable
+94. Preposterous
+95. Unfair
+96. Criminal
+97. Catastrophic
+98. Apocalyptic
+99. Preternaturally gorgeous
+100. Aesthetic felony
+
+### The structure of the "pretty" axis
+
+The first ~77 terms are conventional elevation — luminosity, sanctity,
+scale. The **80–100 band** is where the register breaks from mere praise:
+`Feral`, `Lethal`, `Dangerous`, `Wicked`, `Diabolical`, `Obscene`,
+`Indecent`, `Unholy`, `Sinful`, `Forbidden`, then `Mythic` through
+`Apocalyptic`, closing on `Aesthetic felony`. The person running the session
+named the pattern himself: *"instead of merely saying pretty, you're saying
+'this level of attractiveness has become a regulatory problem.'"* That is the
+load-bearing observation — the axis does not plateau at "very beautiful"; it
+escalates into **transgression vocabulary**, where being attractive is
+reframed as a violation of order. The closing term, `Aesthetic felony`, is
+the punchline of the whole band: beauty described as a crime.
+
+Note the duplicates that survived selection uncorrected: `Regal` (43, 45),
+`Exalted` (46, 48), `Divine` (49, 22), `Resplendent` (2, 55), `Exquisite`
+(3, 62), `Radiant` (9, 53), `Hypnotic` (34, 77). The curator did not prune
+them; the list is a *selected pool*, not a deduplicated thesaurus, and the
+repetitions are part of the record.
+
+## Axis B — "stupid" (accepted terms, mechanism-clustered)
+
+This axis was produced and then **selected** from a larger pool. The accepted
+set clusters around three mechanisms, which the curator identified
+explicitly. Items marked with their accepted index; `48` was offered and
+*not* selected and is recorded as excluded.
+
+### Aristocratic / dismissive
+
+- 8 — a lesser mind
+- 9 — a pedestrian intellect
+- 17 — an anomalous concentration of bad decisions
+- 19 — a cognitive crime scene
+- 22 — a cautionary tale with shoes
+- 24 — a monument to poor judgment
+- 25 — a legendary failure
+- 26 — a relic of lesser civilization
+- 27 — an artifact of intellectual decline
+- 28 — a figure of negligible historical consequence
+- 29 — a man history wisely neglected
+- 30 — an unfortunate entry in the human record
+
+### Slang / punchy
+
+- 31 — absolute fucking goon
+- 32 — magnificent dumbass
+- 33 — professional idiot
+- 34 — elite-level moron
+- 35 — certified dipshit
+- 36 — premium-grade loser
+- 37 — industrial-strength dumbass
+- 38 — Olympic-caliber fool
+- 40 — world-class jackass
+
+### Bespoke register (strongest)
+
+- 41 — a distinguished scholar of being wrong
+- 42 — a man of no small stupidity
+- 43 — a formidable opponent of his own interests
+- 44 — too stupid by half
+- 45 — a gentleman and a liability
+- 46 — a scholar of absolutely fucking nothing
+
+### The three mechanisms (curator's reading)
+
+1. **Fake institutional prestige** — *"a distinguished scholar of being
+   wrong"*: the insult borrows the vocabulary of academe to deny the target
+   any actual achievement.
+2. **Historical / mythological condemnation** — *"a monument to poor
+   judgment"* / *"a legendary failure"*: the target is placed in a disgrace
+   canon rather than merely mocked in the present.
+3. **Precision-engineered vulgarity** — *"premium-grade loser"* /
+   *"magnificent dumbass"* / *"absolute fucking goon"*: compound modifiers
+   applied to base words, so the vulgarity is *graded* rather than flat.
+
+The curator's own sharpest observation: *"you seem to particularly like
+insults where the grammatical structure sounds dignified while the semantic
+payload is fucking devastating."* The cited Rosetta Stone is **"a man of no
+small stupidity"** — formally a compliment in shape, semantically a verdict.
+
+### Excluded
+
+- 48 — offered, not selected; recorded as excluded per the curator's note.
+
+## What this is and is not
+
+- **Is:** a record of two vocabulary batches, the selection decisions, and the
+  curator's own structural readings of them.
+- **Is not:** a claim that these words appear in the corpus, a personality
+  assessment, or evidence about behavior. The link to
+  [[wiki/mind/concepts/the-cool-metric]] is offered as *illustrative* — the
+  grading-by-mechanism on the "stupid" axis resembles that page's
+  performed-versus-authentic sort — not as a derived finding.
+- **Gap:** the full machine-generated pools (pre-selection) are not preserved
+  here; only the accepted terms and the one excluded item (48) survive. A
+  later pass could recover the pools from the session transcript if the
+  pre-selection distribution matters.
+
+---
+
+# Analyst profile (2026-08-26 session)
+
+The same 2026-08-26 session that produced the two vocab batches also
+generated a second-order reading of the curator's *positive* slang taste —
+not the curated lists above, but the analyst's inference about the aesthetic
+hiding inside the curator's word-picks. This section records that reading
+**as a documented analyst interpretation**, attributed to the session, not
+as an established wiki finding. It is the most analytically developed
+material the session produced and is preserved in full for later
+integration.
+
+## The underlying template: EXCEPTIONALITY + VIOLATION
+
+The analyst's central claim: the curator's preferred positive slang does not
+say "good." It says *"this is so good that the normal vocabulary for 'good'
+has become inadequate, so I'm going to describe it as a dangerous /
+pathological / catastrophic event."* The nine picks the curator had made
+were read as "weirdly coherent" around a single hidden aesthetic.
+
+The analyst resolved the apparent outliers — `dialed` and `cracked` — as
+**competence metaphors**, not violations, and placed them on the same axis:
+
+- `dialed` → precision, calibration, optimization
+- `cracked` → operating at an abnormal level of performance
+- `lethal` → dangerous effectiveness
+- `nuclear` → overwhelming destructive force
+- `feral` → civilized constraints removed
+- `diabolical` → intelligent maliciousness
+- `obscene` → violating an expected boundary
+- `generational` → historically exceptional
+- `stupid` → absurdly excessive to the point of irrationality
+
+> The underlying template is something like:
+> **EXCEPTIONALITY + VIOLATION.**
+> Something isn't merely excellent. It's performing outside the permitted
+> parameters of reality.
+
+The analyst's contrast example: *"My Discover Weekly is fire"* feels dead
+because it is "merely positive"; *"My Discover Weekly is diabolical"* implies
+Spotify has committed an act of musical malfeasance — "much better."
+
+## The strongest signal: misclassification
+
+The analyst named this as "probably the most useful part of the profile":
+the curator prefers words that are **technically the wrong category** for
+describing something good.
+
+- `obscene` isn't supposed to mean musically excellent.
+- `lethal` isn't supposed to mean a great playlist.
+- `nuclear` isn't supposed to mean "excellent."
+- `feral` isn't supposed to mean "I really like this."
+- `stupid` is "especially good because it deliberately refuses to sound
+  impressed" — *"This shit is stupid"* means *this shit is so
+  disproportionately good that I'm not even going to dignify it with an
+  adjective.* A particular comedic mechanism: semantic refusal.
+
+## Slang taxonomy — five families
+
+The analyst divided the taste into five families:
+
+1. **☢️ Catastrophic** — *nuclear · lethal · devastating · catastrophic ·
+   apocalyptic · terminal · explosive* — the thing is so good it becomes a
+   threat.
+2. **😈 Malicious** — *diabolical · sinister · nefarious · demonic ·
+   villainous · criminal* — so good you suspect someone deliberately
+   engineered it to fuck you up.
+3. **🐺 Uncivilized** — *feral · rabid · unhinged · deranged · animalistic ·
+   lawless* — has exceeded the bounds of civilized behavior.
+4. **🧪 Abnormally functional** — *dialed · cracked · optimized · surgical ·
+   calibrated · precise · locked-in* — the competence branch; not chaotic,
+   just operating at an obscene efficiency.
+5. **🚨 Boundary violation** — *obscene · outrageous · indecent · egregious ·
+   illegal · criminal* — "probably your richest vein"; the thing is so good
+   it has crossed a line.
+
+## Semantic axis profile
+
+The analyst scored the curator's taste on a fixed set of axes:
+
+| Axis | Level |
+|---|---|
+| Intensity | Very high |
+| Understatement | Moderate |
+| Exaggeration | Extremely high |
+| Positive emotion | Low–moderate |
+| Danger/threat | High |
+| Chaos | High |
+| Clinical/technical weirdness | High |
+| Violence/destruction | High |
+| Absurdity | Very high |
+| Wholesomeness | Basically zero |
+| Corporate/influencer energy | Fuck no |
+| Forced youth slang | Fuck no |
+
+## Predicted anti-preferences (the opposite-pole test)
+
+The analyst argued the opposite-pole test is *better* than asking the
+curator to rate positive slang directly, because the taste "depends heavily
+on semantic texture — whether a word feels like the right kind of wrong."
+Predicted disliked / lukewarm (too semantically direct — they tell you
+"this is good" instead of making the listener reverse-engineer it):
+
+`fire` · `slaps` · `banger` · `vibey` · `sick` · `dope` · `goated` · `based`
+· `peak` · `immaculate` · `elite` · `iconic` · `unreal` · `heavenly` ·
+`exquisite` · `beautiful` · `sublime` · `magical` · `amazing` · `incredible`
+
+## The proposed slang taste function
+
+> Goodness × absurdity × danger × semantic wrongness × understatement
+
+"the higher the product, the more likely you're going to like the word."
+
+## Unexplored hunting zone (analyst's forward bet)
+
+The analyst proposed the next vein to mine: words implying **a crime, medical
+emergency, natural disaster, military operation, or supernatural event** —
+e.g. *"My Discover Weekly is [felonious]"*, *"This shit is [pathological]"*,
+*"This is [demonic]"*, *"This shit is [industrial]."* Some predicted misses,
+but "the mechanism is exactly right."
+
+## The Slang Taste Battery™ V1 (instrument, administered 2026-08-26)
+
+The session closed by proposing a psychometric instrument. It is recorded
+here as a designed-but-unadministered tool; no responses were supplied in the
+material received, so the scoring columns are left for a later run. Filed as
+`curated` instrument design, not as results.
+
+**Part I — The Negative Pole.** Rate 1–7: "how satisfying would this be as
+slang for something fucked up / bad / broken / unpleasant?"
+
+- A. Catastrophe: Catastrophic · Apocalyptic · Nuclear · Terminal ·
+  Devastating · Calamitous · Extinction-level · Disastrous · Ruinous ·
+  Volcanic
+- B. Threat / Violence: Lethal · Violent · Brutal · Savage · Hostile ·
+  Dangerous · Fatal · Toxic · Weaponized · Ballistic
+- C. Criminal / Forbidden: Criminal · Illegal · Felonious · Obscene ·
+  Indecent · Unlawful · Egregious · Malfeasant · Incriminating · Forensic
+- D. Psychological / Behavioral: Feral · Rabid · Deranged · Unhinged ·
+  Psychotic · Manic · Pathological · Disturbed · Delusional · Depraved
+- E. Villainous: Diabolical · Sinister · Nefarious · Malicious · Villainous
+  · Demonic · Satanic · Malevolent · Insidious · Machiavellian
+- F. Mechanical / Technical Failure: Broken · Glitched · Corrupted · Fucked
+  · Defective · Malfunctioning · Compromised · Unstable · Degraded ·
+  Nonfunctional
+- G. Social / Aesthetic Disgust: Grotesque · Heinous · Vile · Repulsive ·
+  Hideous · Ghastly · Disgusting · Abominable · Monstrous · Revolting
+
+**Part II — Forced-choice pairs** (pick the word you'd rather use):
+1. Catastrophic vs Apocalyptic
+2. Lethal vs Ballistic
+3. Criminal vs Felonious
+4. Obscene vs Indecent
+5. Feral vs Rabid
+6. Diabolical vs Demonic
+7. Nuclear vs Volcanic
+8. Deranged vs Unhinged
+9. Corrupted vs Glitched
+10. Grotesque vs Repulsive
+11. Sinister vs Malevolent
+12. Brutal vs Savage
+13. Pathological vs Disturbed
+14. Terminal vs Fatal
+15. Obscene vs Egregious
+
+**Part III — The sentence test.** *"Jesus Christ, this playlist is ____."*
+Options: fucked · cursed · deranged · criminal · obscene · diabolical ·
+catastrophic · terminal · feral · forensic · pathological · industrial ·
+weaponized · apocalyptic · disgusting. (Rank top 5.)
+
+**Part IV — The anti-slang detector.** Rate 1–7 cringe when used as slang:
+slaps · fire · gas · heat · banger · vibey · iconic · immaculate · elite ·
+goated · peak · based · sick · insane · crazy · unreal · legendary ·
+immaculate · heavenly · divine.
+
+**Part V — Metaphor-type preference.** Pick the instinctive frame:
+A. Military ("weaponized") · B. Criminal ("felonious") · C. Medical
+("pathological") · D. Disaster ("catastrophic") · E. Supernatural ("demonic")
+· F. Animal ("feral") · G. Industrial ("industrial-grade") · H. Scientific
+("anomalous") · I. Bureaucratic ("an administrative failure") · J. Existential
+("cosmically fucked"). The analyst flagged Part V as potentially more
+diagnostic than 100 adjectives.
+
+## Full cross-cutting analysis
+
+Read against the two curated batches above (Axis A "pretty," Axis B
+"stupid"), the analyst profile, and the Battery, three structures repeat
+across all of them and are the actual finding of the 2026-08-26 session:
+
+**1. The violation axis is the through-line.** Axis A's 80–100 band
+(`Lethal` → `Aesthetic felony`) and Axis B's three mechanisms (fake
+institutional prestige, historical condemnation, precision vulgarity) are the
+*same move* as the analyst's EXCEPTIONALITY + VIOLATION template. Praise and
+insult both escalate by importing a register that does not belong — legality,
+pathology, catastrophe. The "pretty" list ends by calling beauty a crime;
+the "stupid" list calls the target a crime scene. The vocabulary is doing
+one thing in two directions.
+
+**2. Dignified shape, devastating payload — the misclassification constant.**
+The analyst's "Rosetta Stone" for insults (*a man of no small stupidity*) is
+structurally identical to the analyst's "strongest signal" for positive
+slang (misclassification: *obscene* isn't supposed to mean excellent). Both
+rely on a word occupying the wrong semantic category. This is the single most
+coherent thread in the whole session and the best candidate for a real,
+derivable claim — but it is currently supported only by the curator's own
+ selections and one analyst reading, not by corpus measurement. Marked
+`[INFER]` until tested against `raw/self/message-csv/` the way the cool
+metric's gaps section says is possible.
+
+**3. The anti-preference is the cleaner predictor than the preference.**
+The analyst's own admission — that the opposite-pole test is *better* than
+rating positive slang — is the most methodologically sound move in the
+session. "Too semantically direct" (`fire`, `slaps`, `immaculate`,
+`heavenly`) fails precisely because it tells rather than implies. This
+inverts the usual lexicon-building approach and is the part worth
+ operationalizing: a word is predicted to land iff it is *disproportionate,
+ category-incongruent, dark-toned, and not youth-slanged.* That is a testable
+ filter, and the Battery V1 Part IV is its instrumentation.
+
+**Epistemic status.** Everything in this section was generated in
+one session, attributed to the analyst within it, and not yet cross-checked
+against the corpus. The link to [[wiki/mind/concepts/the-cool-metric]] holds
+at the illustrative level (grading-by-mechanism ≈ performed-versus-authentic)
+but no behavioral claim about Dan is established here. The honest gap: the
+Battery was designed and never run; the "misclassification" thesis is the
+strongest candidate for promotion to a derived finding and the obvious next
+operation.
 
 
 ========================================================================
@@ -10268,7 +10757,7 @@ title: "Wiki Digest"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources: []
 ---
 
@@ -10284,8 +10773,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | | |
 |---|---|
-| Pages | 515 |
-| Pages touched in the last 14 days | 191 |
+| Pages | 516 |
+| Pages touched in the last 14 days | 193 |
 | Pages reasoning from other pages (`synthesizes:`) | 45 |
 | Live contradictions | 46 |
 | Open gaps | 467 |
@@ -10296,7 +10785,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | Domain | Pages |
 |---|---|
 | people | 174 |
-| interests | 143 |
+| interests | 144 |
 | mind | 74 |
 | timeline | 42 |
 | self | 40 |
@@ -10311,14 +10800,17 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | Status | Pages |
 |---|---|
 | stable | 193 |
-| active | 179 |
+| active | 180 |
 | closed | 100 |
 | archived | 31 |
 | stub | 12 |
 
 ## The last few days
 
-**2026-08-26** — 88 pages
+**2026-08-27** — 12 pages
+  - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
+
+**2026-08-26** — 79 pages
   - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
   - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
@@ -10343,7 +10835,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - close | people | Libby is Libby Titus, she died in October 2024, and the corpus had her married name all along
   - report | mind | texting deviance audit — the operator's model of his own texting was two-thirds wrong
 
-**2026-08-22** — 7 pages
+**2026-08-22** — 6 pages
   - answer | mind | what would make Dan happy — he answered it himself in 2025, and the record has already run the experiment
   - fix | people | a fourth portal incident, a duplicated H1 on annie-ulmer, and the freshness gate red on main
   - fix | people | the stale-snapshot clobber recurred on ally-lubin, six hours after the last one
@@ -10366,17 +10858,6 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - answer | mind | re-audited with all sixteen type codes: two more absence claims were wrong
   - infra | portal | the loop had no return leg, and a corrected answer sat unpublished for forty minutes
   - infra | housekeeping | the pre-commit block had the wrong order, and the sweep had no protocol
-
-**2026-08-20** — 17 pages
-  - ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
-  - correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
-  - close | timeline/people/mind | the catalyst was a five-word message in a group chat the wiki has never seen
-  - climb | mind | the grievances of the last conversation, scored one by one — and Dan's own evidence turns out to cut both ways
-  - rewrite | people | ally-lubin — the wiki hallucinated about itself, and the infobox carried it
-  - rewrite | people | annie-ulmer — the zero holds at full width; the ending was not one thread
-  - lint | timeline | two committed conflict markers on main
-  - ingest | timeline | the Morgantown recording, verified against a real transcript
-  - lint | wiki | wiring the recent PRs into the structure — and a duplicate entity, a dead quarantine, and my own damage
 
 ## Pages that reason from other pages
 
@@ -10858,7 +11339,7 @@ title: "Open Questions"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources: []
 ---
 
@@ -11201,9 +11682,9 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/ally-lubin]]** — **~107 email handle messages are unaccounted for.** The wiki previously claimed 907 email messages; the corrected count is 800. The discrepancy is in the sent direction — we have 563 sent, the wiki claimed 670. The missing messages may be in an export not avai
 - **[[wiki/people/ally-lubin]]** — **Negative result, recorded:** she does not appear in `contacts.csv` with an address, in the GEDCOM, in the Twitter export, or in the Facebook search history. The Model Mayhem and "boca raton ally lubin" searches Dan describes on 2019-08-22 are from Google, wh
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — Each of these is answerable by the operator in a paragraph.
-- **[[wiki/people/ally-lubin-cognitive-profile]]** — **Whose result is the screenshot, and when was it taken?** The image carries no identifying metadata. Did Ally send it to Dan directly, and on what date? The original `IMG_2320.heic` may carry EXIF that the screenshot destroyed.
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **What was her state when she took it?** The 92% Turbulent is the load-bearing figure and neuroticism instruments are state-sensitive. A test taken inside a bad week and one taken inside a good month are different data.
-- **[[wiki/people/ally-lubin-cognitive-profile]]** — **Did she report the result herself, or was it forwarded?** The visible page is the results email, which implies she had the account.
+- **[[wiki/people/ally-lubin-cognitive-profile]]** — **Did she report the result herself, or was it forwarded?** The visible page is the results email, which implies she had the account. The 2026-08-27 operator answer confirms the result is hers but says nothing about how the screenshot reached Dan, so this stay
+- **[[wiki/people/ally-lubin-cognitive-profile]]** — **When, exactly?** "Recent" is now the whole of the answer, and no date is recoverable from the artifact — the screenshot destroyed the EXIF. It matters for the bullet above it: a Turbulent score is only interpretable against the week it was taken.
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **Has she ever tested before?** She asserted ENFP in December 2018 with enough confidence to argue about it, which suggests a prior result rather than a guess.
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **Is the Enneagram available?** This page has an MBTI read and no Enneagram, where annie-ulmer-personality-assessment carries both. The father material and the 2008 fixation would support a determination, but the page declines to guess one from behaviour alone
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **Did she reply to the elopement pitch?** Inherited from ally-lubin and load-bearing here: prediction 1 cannot be scored without the missing 2026-08-19 inbound.
@@ -11355,7 +11836,7 @@ new knowledge available, because no new source is required.
 
 ### places (10)
 
-- **[[wiki/places/117-belmont-circle]]** — Whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at "pending." The earlier failed listing is inferred from four words and has no independent trace. The nursing home is still unnamed. The exact year the caregivi
+- **[[wiki/places/117-belmont-circle]]** — The sale's **buyer** is still unknown, and with them the question of whether the house left the family's orbit entirely or went to somebody in it. Four gaps this page opened remain untouched by the 2026-08-27 answer: the nursing home is still unnamed; the year
 - **[[wiki/places/307-e-76th-st]]** — Jim Blanchard's actual role at this address is unconfirmed beyond the operator's own account — a targeted search by his email (`jtblanchard66@gmail.com`) or phone across the fuller export set (not just the primary dump) might surface more. Whether Dan or Annie
 - **[[wiki/places/derrick-avenue]]** — 1. **Street numbers.** Only one is recorded anywhere — 278, and only because it caught fire. Which house is the Ulmers', and whether Fran's Belmont Circle lot fronts Derrick or merely corners it, are both unresolved.
 - **[[wiki/places/derrick-avenue]]** — 2. **Whose houses.** *"I saw al coming down Derrick. Must have been at your moms"* (2018-05-11) puts Dan's mother in the same orbit, but the corpus does not fix which addresses on or off Derrick belong to whom in which years.
@@ -11514,7 +11995,7 @@ title: "Recent Activity"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources: []
 ---
 
@@ -11532,7 +12013,24 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-26 — 88 pages
+## 2026-08-27 — 12 pages
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/interests/language/vocabulary-lexicon]] | interests | — |
+| [[wiki/meta/digest]] | meta | — |
+| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
+| [[wiki/mind/profile/linguistic-profile]] | mind | **GAP CLOSED** — the operator volunteered the full "words for stupid" list against this page. It was not a gap this page had stated — unprompted material, staged here for the ingest to place. Placed here, in Lexical f |
+| [[wiki/mind/synthesis/failure-to-launch]] | mind | **RE-CHECKED** — flagged stale against linguistic-profile (2026-08-27), which gained a section on a commissioned vocabulary session (vocabulary-lexicon). **No claim on this page changes, and the new ma |
+| [[wiki/mind/synthesis/the-commissioned-self]] | mind | **RE-CHECKED** — linguistic-profile gained a section on 2026-08-27 documenting a **commissioned vocabulary session**: on 2026-08-26 Dan prompted a model to generate graded insult and praise batches, selected from the  |
+| [[wiki/mind/synthesis/the-rescue-premise]] | mind | **RE-CHECKED** — flagged stale against ally-lubin-cognitive-profile (2026-08-27), which closed its attribution gap: the operator confirms the 16Personalities result is Ally Lubin's and that it is recent. **No claim on |
+| [[wiki/people/ally-lubin-cognitive-profile]] | people | **GAP CLOSED** — the page asked *"whose result is the screenshot, and when was it taken? The image carries no identifying metadata. Did Ally send it to Dan directly, and on what date? The original `IMG_2320.heic` may  |
+| [[wiki/people/danny-matthews]] | people | — |
+| [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
+| [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — 117-belmont-circle gained the sale's disposition on 2026-08-27: it **closed in summer 2019 for $250,000** (operator testimony, uncorroborated in the message record, buyer still unknown). The row above |
+
+## 2026-08-26 — 79 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11542,14 +12040,11 @@ simply listed.
 | [[wiki/interests/food-and-diet]] | interests | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-26), which added a section on the metric's one documented upper bound (the Ally Skins exchange) and removed its `sage_pending` staging. The food-exemptio |
 | [[wiki/interests/rock-irrelevance-thesis]] | interests | — |
 | [[wiki/interests/the-office]] | interests | — |
-| [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/index]] | meta | — |
 | [[wiki/meta/journeys/index]] | meta | — |
 | [[wiki/meta/journeys/the-instrumented-channel]] | meta | — |
 | [[wiki/meta/journeys/the-supply-line]] | meta | — |
 | [[wiki/meta/journeys/the-type-machine]] | meta | — |
-| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
 | [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/mind/concepts/bunker-core]] | mind | — |
 | [[wiki/mind/concepts/chaos-preference]] | mind | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-26), which added a section on the metric's one documented upper bound (the Ally Skins exchange) and removed its `sage_pending` staging. This page's mirro |
@@ -11565,7 +12060,6 @@ simply listed.
 | [[wiki/mind/profile/index]] | mind | — |
 | [[wiki/mind/profile/intp]] | mind | — |
 | [[wiki/mind/profile/lexicon]] | mind | — |
-| [[wiki/mind/profile/linguistic-profile]] | mind | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/mind/profile/neurodivergence]] | mind | — |
 | [[wiki/mind/profile/voice-modes]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/mind/psychosexual/arrangement-history]] | mind | _(carries a CORRECTED from 2026-08-20)_ |
@@ -11580,7 +12074,6 @@ simply listed.
 | [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | **RE-CHECKED** — flagged stale against conflict-architecture (2026-08-26), which added a section documenting the corpus's one completed refusal of the redefinition move (an Ally exchange) and removed its `sage_pending |
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — flagged stale against the-unbroken-bond (2026-08-26), which added a "directed fear of infidelity" cost item (the `cheat` word-count finding) and removed its own `sage_pending` staging. That addition i |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a REVISED from 2026-08-23)_ |
-| [[wiki/mind/synthesis/failure-to-launch]] | mind | **RE-CHECKED** — flagged stale against the-embedded-objective and acquisition-drive (both 2026-08-26), which added a distinction between tenure and satisfaction — the Fran vigil is the one commitment in |
 | [[wiki/mind/synthesis/fayette-return]] | mind | **RE-CHECKED** — ancestry added one verified collateral from the maternal Shrum line: **Daniel Shrum** (b. 11 Apr 1884, Pennsylvania; d. 11 Dec 1918, Greensburg, Westmoreland County) — an older brother of the direct-l |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | **RE-CHECKED** — `bin/wiki-climb check` flagged this page stale again, against both context-core and exocortex, each of which moved on 2026-08-26 to add one new connections edge to the new |
 | [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] | mind | — |
@@ -11591,15 +12084,12 @@ simply listed.
 | [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — flagged stale against totality-themes (2026-08-26), which gained a RE-CHECKED note confirming the same day's acquisition-drive/embedded-objective tenure-and-satisfaction additions do not touch anythin |
 | [[wiki/mind/synthesis/supply-network]] | mind | **RE-CHECKED** — flagged stale against menore (2026-08-26), which closed its last open gap: 2022's zero mentions are explained by the operator having a flip phone that year, not by a service break. This removes the on |
 | [[wiki/mind/synthesis/the-cato-seat]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
-| [[wiki/mind/synthesis/the-commissioned-self]] | mind | **RE-CHECKED** — flagged stale against intp and enneagram-5w4 (both 2026-08-26), which each added a documented instance from the Ally Lubin channel (a completed Fe-adjudication interruption; the Witness need |
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — flagged stale against single-channel (2026-08-26), which added a section reading the no-failover architecture's intensity as an entry condition for one relational object (Ally) rather than only a cost |
 | [[wiki/mind/synthesis/the-embedded-objective]] | mind | _(carries a RE-CHECKED from 2026-08-24)_ |
-| [[wiki/mind/synthesis/the-rescue-premise]] | mind | **RE-CHECKED** — flagged stale against ally-lubin-cognitive-profile (2026-08-26), which added only a re-check note confirming its own parity finding unchanged. **No claim on this page is affected** — the money/volume/ |
 | [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **RE-CHECKED** — flagged stale against chaos-preference (2026-08-26), which added a section on the-cool-metric's one documented upper bound (an Ally exchange) and removed its own `sage_pending` staging. Ne |
 | [[wiki/mind/synthesis/totality-themes]] | mind | **RE-CHECKED** — flagged stale against the-embedded-objective and acquisition-drive (both 2026-08-26), which added a tenure-versus-satisfaction distinction built on the Fran vigil and left the MNEME/DAN |
 | [[wiki/people/alexis-armel]] | people | _(carries a CORRECTED from 2026-08-15)_ |
 | [[wiki/people/ally-lubin]] | people | _(carries a CORRECTED from 2026-08-22)_ |
-| [[wiki/people/ally-lubin-cognitive-profile]] | people | **RE-CHECKED** — flagged stale against ally-lubin (2026-08-26), which integrated its own staged love letter and sage-finding blocks. Both are already load-bearing on this page — the love letter's trend spotting line i |
 | [[wiki/people/annie-ulmer-personality-assessment]] | people | _(carries a RE-CHECKED from 2026-08-23)_ |
 | [[wiki/people/bekah-fullem]] | people | — |
 | [[wiki/people/fran-coldren]] | people | _(carries a CONTRADICTION from 2026-08-02)_ |
@@ -11612,7 +12102,6 @@ simply listed.
 | [[wiki/people/suzanne-frank]] | people | **RE-CHECKED** — flagged stale against fran-death-vigil (2026-08-26), which added the closure-cluster finding (four dated good-outcome statements in six days) and new typed edges to closing-the-set and attachment-mode |
 | [[wiki/people/suzanne-frank-personality-assessment]] | people | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-26), which gained a `RE-CHECKED` blockquote confirming the fran-death-vigil closure-cluster finding doesn't touch her caregiving or estate material. **No c |
 | [[wiki/people/tom]] | people | — |
-| [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — flagged stale against the-deferred-audit (2026-08-26), which gained a re-check note only, confirming an unrelated single-channel addition doesn't touch it. **No claim on this page is affected.** **RE- |
 | [[wiki/self/ancestry]] | self | — |
 | [[wiki/self/concepts/ally-and-dan-love-as-destiny]] | self | **RE-CHECKED** — flagged stale against ally-lubin (2026-08-26), which integrated a full unprompted love letter sent August 21, 2026 (*"I've spent 10 years… I just never got over it"* / *"still haven't lost interest… # |
 | [[wiki/self/concepts/astrology-star-signs]] | self | **RE-CHECKED** — flagged stale again against ally-lubin (2026-08-26), which integrated a staged love letter and a sage finding about a mutual-correction sequence and a joke line ("I'm a SINGLE MOTHER"). None of the th |
@@ -11648,14 +12137,13 @@ simply listed.
 | [[wiki/places/index]] | places | — |
 | [[wiki/self/message-corpora/master-message-dump]] | self | **CORRECTED** — the ~8.36 figure is a **2015-19 baseline, not a constant.** Recomputed per era from the sender-tagged deep export: 8.34 (2015-19), 9.31 (2020-24), 11.71 (2025), **15.03 (2026)**. The "3-7 discrete bur |
 
-## 2026-08-22 — 7 pages
+## 2026-08-22 — 6 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/legal/2015-possession-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
 | [[wiki/legal/2015-retail-theft-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
 | [[wiki/legal/index]] | legal | — |
-| [[wiki/places/117-belmont-circle]] | places | _(carries a REVISED from 2026-08-08)_ |
 | [[wiki/places/155-virginia-ave]] | places | **GAP CLOSED** — This page read, until now, *"the residence timeline has him staying until February 2019, so the notice's outcome is undocumented."* It is documented. A Fayette County summary summons filed **April 5,  |
 | [[wiki/places/337-saratoga-drive]] | places | _(carries a REVISED from 2026-08-18)_ |
 | [[wiki/timeline/events/uniontown-hospital-vape-alarm]] | timeline | **GAP CLOSED** — This page asked, from its creation until now, *"Whether a summary offense was actually filed with a Fayette County magistrate, or whether the paperwork was an incident report a security guard describe |
@@ -11831,14 +12319,13 @@ simply listed.
 | [[wiki/people/jack-connor]] | people | — |
 | [[wiki/people/lucy]] | people | — |
 
-## 2026-08-02 — 15 pages
+## 2026-08-02 — 14 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/interests/music/concepts/sub-bass-signature]] | interests | — |
 | [[wiki/mind/synthesis/ancestral-dialectic]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/people/betherin-mechling]] | people | — |
-| [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/people/david-j-frank]] | people | — |
 | [[wiki/people/jay-lauer]] | people | — |
 | [[wiki/people/joe-croftcheck]] | people | — |
@@ -11949,17 +12436,6 @@ simply listed.
 | [[wiki/interests/favorites/music/artists/vertical-horizon]] | interests | — |
 | [[wiki/interests/favorites/music/artists/we-the-kings]] | interests | — |
 | [[wiki/interests/favorites/music/artists/wiki]] | interests | — |
-
-## 2026-07-26 — 6 pages
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/people/gabe]] | people | _(carries a CONTRADICTION)_ |
-| [[wiki/people/valeria-iglesias-cid]] | people | _(carries a REVISED from 2026-07-18)_ |
-| [[wiki/self/location-history]] | self | — |
-| [[wiki/timeline/events/april-may-2026-final-weeks]] | timeline | — |
-| [[wiki/timeline/events/group-chat-closure]] | timeline | **REVISED** — "closure" overstates what this event achieved, and the wiki inherited the overstatement. June 1 severed contact for fifty-two days — by a wide margin the most durable severance in a relationship with  |
-| [[wiki/timeline/periods/dec-2025-spike]] | timeline | — |
 
 
 
@@ -15795,6 +16271,9 @@ connections:
   - page: wiki/mind/concepts/exocortex
     type: instantiates
     claim: "The Normie Check is the metric compiled into machine-enforceable form — a standing instruction that any model must pass before it is permitted to continue, which is what distinguishes this from ordinary snobbery."
+  - page: wiki/interests/language/vocabulary-lexicon
+    type: evidenced-by
+    claim: "The curated 'stupid' axis — graded by fake institutional prestige, historical condemnation, and precision vulgarity — is the metric's performed-versus-authentic sort applied to insult vocabulary; the 'pretty' axis's 80–100 band (lethal, obscene, 'aesthetic felony') escalates praise into transgression, the same register-move chaos-preference names. The lexicon page records it as curated, not derived."
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Authenticity-as-involuntariness is 'The Irreversibility Firewall's' trust rule stated positively: the one category never exposed to audit at all is the thing that was never a decision — the sub-bass signature, trusted precisely because choosing it was never possible."
@@ -15904,6 +16383,16 @@ is his own documented persona slang — *failson, garbage person, shitshow,
 choomed, normie, Blue MAGA, choom* — vocabulary that is either genuinely
 impolite or genuinely subcultural, and in either case not manufactured to be
 safely quirky.
+
+The metric is legible in the vocabulary he *curates* as well as the vocabulary
+he uses. [[wiki/interests/language/vocabulary-lexicon]] records two graded word
+batches selected in a single 2026-08-26 session, and both are sorted by
+mechanism rather than by synonymy — the "stupid" axis by fake institutional
+prestige, historical condemnation and precision vulgarity; the "pretty" axis by
+register-escalation, ending on *aesthetic felony*. That is this page's
+performed-versus-authentic sort run on language itself. The caveat belongs here
+too: that page is curated, not derived, and records only which words were
+*selected as pleasing* — not that any of them appear in the corpus.
 
 The same logic runs through the music. A production note in the corpus keeps a
 sonic element *"inaudible to the normies"* while retaining it — a detail
@@ -17904,13 +18393,14 @@ title: "Linguistic Profile — Voice, Register, Stylometrics"
 aliases: ["voice", "stylometrics", "forensic intimacy"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/ANALYSIS_ Linguistic.rtf
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/Phase_2_Stylometric_Analysis.md
+  - raw/mind/captures/2026-08-27_013705_gap-linguistic-profile.md
 related:
   - wiki/mind/profile/index
   - wiki/mind/profile/deviance-mapping
@@ -17934,15 +18424,12 @@ connections:
   - page: wiki/mind/profile/texting-deviance-audit
     type: contradicts
     claim: "Recomputation against the corpus falsifies three of this page's measured markers: texting readability is Flesch-Kincaid 4.00 in 2026 rather than post-graduate, 2025-26 lexical diversity is below his interlocutors' (0.0509 vs 0.0544 on equal samples) rather than 99th-percentile, and the 8.36 words/message burst figure is a 2015-19 baseline against a 2026 figure of 15.03."
+  - page: wiki/interests/language/vocabulary-lexicon
+    type: evidenced-by
+    claim: "The register theft this page documents for description — clinical, military and philosophical vocabulary borrowed upward to make ordinary observation sound forensic — is the same move his commissioned insult batch makes for contempt: sorted by mechanism rather than intensity, with 'a man of no small stupidity' as the clean case of a dignified grammatical shape carrying a devastating payload. The difference in evidentiary weight is the point: this page's registers were measured against the corpus, that page's were merely selected as pleasing."
   - page: wiki/interests/opie-and-anthony
     type: caused-by
     claim: "The callous, riff-driven, gallows-irony register the profile calls a 'psychic ventilator' is the native dialect of the O&A universe — this binge is where that idiom was trained."
-  - page: wiki/mind/profile/neurodivergence
-    type: parallels
-    claim: "23,286 unique words in casual texting and 2,465 uses of 'because' read, in the corpus's own autism framing, as language reached for to think rather than to relate — the same stylometric extremes this page measures independently of that claim."
-  - page: wiki/mind/profile/lexicon
-    type: instance-of
-    claim: "The bespoke lexicon is 'forensic intimacy' engineered on purpose and pointed at affection rather than crisis — the same clinical-detachment-fused-with-confession register this page documents from the message corpus, now built forward as a reusable tool instead of measured backward as a pattern."
 ---
 
 # Linguistic Profile — Voice, Register, Stylometrics
@@ -18022,6 +18509,47 @@ and **psycho-spiritual** (myth, ritual, daemon, altar, cathedral). On top of
 these sits a private jargon layer — invented commands like `[FLAG-IT]`,
 named concepts, sacred jokes — a personal idiolect systematizing even his AI
 interactions.
+
+### The insult register is built, not reached for
+
+The four registers above describe vocabulary he *uses*. There is a fifth
+behaviour the corpus documents separately, and it is the more unusual one: he
+**commissions** vocabulary. On 2026-08-26 he ran a session generating graded
+insult and praise batches and then selected from the pool, and the selections
+are recorded in full at [[wiki/interests/language/vocabulary-lexicon]].
+
+What the selections show is that the insult register is sorted by *mechanism*
+rather than by intensity. Three mechanisms account for nearly all of it: fake
+institutional prestige (*a distinguished scholar of being wrong*), historical
+condemnation (*a monument to poor judgment*, *a man history wisely
+neglected*), and graded vulgarity built from compound modifiers
+(*industrial-strength dumbass*, *premium-grade loser*). He named the
+governing rule himself — a preference for insults *"where the grammatical
+structure sounds dignified while the semantic payload is fucking
+devastating"* — and the cleanest instance is **"a man of no small
+stupidity,"** a litotes shaped exactly like a compliment.
+
+This is the same machinery this page already documents, pointed somewhere
+new. The clinical/military/philosophical registers above are borrowed
+*upward* to make ordinary description sound forensic; the insult batch
+borrows *upward* to make contempt sound like an obituary. Both are register
+theft, and the payload in each case travels in the gap between the borrowed
+form and the actual content.
+
+> **GAP CLOSED [2026-08-27]:** the operator volunteered the full "words for
+> stupid" list against this page. It was not a gap this page had stated —
+> unprompted material, staged here for the ingest to place. Placed here, in
+> Lexical fields, because it is a register finding; the list itself is not
+> duplicated onto this page, because it was written up in full as
+> [[wiki/interests/language/vocabulary-lexicon]] the day it arrived. Source:
+> `raw/mind/captures/2026-08-27_013705_gap-linguistic-profile.md`.
+
+**What this does not establish.** These are words *selected as pleasing*, not
+words observed in the corpus. Everything else in this section was measured
+against the message record; this was not, and the two must not be read at the
+same weight. `bin/text-metrics` could test it — whether the dignified-shape
+insult ever actually appears in his outbound text, or only in a vocabulary he
+enjoys designing — and until somebody runs it, that stays open.
 
 ## Rhetorical architecture
 
@@ -25105,7 +25633,7 @@ status: stable
 knowledge: earned
 importance: high
 date_created: 2026-08-22
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 tags: [career, personality-profile, financial-stress, music-production, ai-collaboration]
 sources:
   - raw/self/dox-md/Honest assessment and value judgment analysis.md
@@ -25329,6 +25857,19 @@ described as "a custom-built fork of English"
 is the interesting half: *functional as a high-fidelity channel to AI and niche
 in-groups, maladaptive in most professional contexts.* This is the clearest case
 in the profile of a real outlier capacity attached to a nearly empty market.
+
+> **RE-CHECKED [2026-08-27]:** flagged stale against
+> [[wiki/mind/profile/linguistic-profile]] (2026-08-27), which gained a section
+> on a commissioned vocabulary session ([[wiki/interests/language/vocabulary-lexicon]]).
+> **No claim on this page changes, and the new material cuts both ways rather
+> than one.** It is more of the same outlier capacity in a nearly empty market —
+> an insult register built by mechanism rather than reached for, which is a
+> genuinely unusual thing to be able to do and is worth approximately nothing
+> professionally, exactly this section's argument. But it is also *selected*
+> vocabulary rather than *measured* vocabulary, so it cannot be used to
+> strengthen the "custom-built fork of English" claim, which is a claim about
+> observed output. The 97/100 deviance score cited above is unaffected either
+> way; it was never computed from this material.
 
 **Forensic corpus analysis**, and this one is demonstrated rather than claimed —
 which in a self-commissioned profile cluster is worth more than any score. The
@@ -26534,7 +27075,7 @@ domain: mind
 page_type: synthesis
 title: "Intensity Is No Longer the Only Mode"
 status: active
-knowledge: operator-observed
+knowledge: mixed
 importance: critical
 date_created: 2026-08-26
 date_modified: 2026-08-26
@@ -29957,7 +30498,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
@@ -30122,6 +30663,7 @@ life. It exists in commissioned sessions, and it stays there.
 | Deviance audit | 80–99/100 across seven domains, 92% stated confidence | [[wiki/mind/profile/deviance-mapping]] | — |
 | Composite voice model | Eight modes, ten trigger-level modifiers with percentages | [[wiki/mind/profile/voice-modes]] | — |
 | This wiki | 476 pages | [[wiki/self/concepts/wiki-brain]] | — |
+| Bespoke vocabulary | Two graded word batches, selected from a machine-generated pool | [[wiki/interests/language/vocabulary-lexicon]] | — |
 
 > **RE-CHECKED [2026-08-23] — premise moved, and it moved in this page's favour.
 > The stylometrics row is now the first instrument in the table to be independently
@@ -30146,6 +30688,41 @@ life. It exists in commissioned sessions, and it stays there.
 > at "80–99/100 across seven domains" — were produced the same way and have never met
 > a control group either.** See [[wiki/mind/profile/texting-deviance-audit]] for the
 > recomputation.
+
+> **RE-CHECKED [2026-08-27] — premise moved, and it added an instrument rather
+> than disturbing a claim.** [[wiki/mind/profile/linguistic-profile]] gained a
+> section on 2026-08-27 documenting a **commissioned vocabulary session**: on
+> 2026-08-26 Dan prompted a model to generate graded insult and praise batches,
+> selected from the pool, and had the same session produce a second-order
+> reading of his own taste — including a five-family taxonomy, a twelve-axis
+> "semantic profile," and a designed psychometric instrument (the "Slang Taste
+> Battery V1") that was never administered. It is written up at
+> [[wiki/interests/language/vocabulary-lexicon]] and is now a row in the table
+> above.
+>
+> **No claim on this page changes, and the reason it does not is the finding.**
+> This is the apparatus running its documented cycle one more time, in a domain
+> the table had not yet reached — and it is the cleanest specimen of the cycle
+> yet, because all four stages are visible inside a single day's session: Dan
+> asks; the model produces a graded artifact; the model then analyses the
+> artifact as evidence about Dan; and the analysis proposes a *further*
+> instrument to measure him with. The Battery is the tell. An apparatus that has
+> just finished characterising its subject's taste immediately designs a test to
+> characterise it more precisely, and the subject is also its author, its sole
+> respondent and its only validator.
+>
+> The provenance problem is therefore not merely inherited here — it is
+> unusually pure. The stylometrics row at least measured something external (his
+> own sent messages, which exist whether or not anyone asks about them). This
+> row does not. The vocabulary batches record *which words were selected as
+> pleasing in one session*, and that page says so plainly; nothing establishes
+> that any of them appear in his outbound text. The prediction the 2026-08-23
+> re-check licensed applies here in advance rather than in retrospect: **this
+> instrument has no control group and cannot acquire one by being analysed
+> harder.** The one thing that would test it — running `bin/text-metrics` over
+> the corpus to see whether the dignified-shape insult ever actually appears —
+> is a counting operation, which is the same move that inverted the stylometrics
+> finding, and nobody has run it.
 
 [[wiki/mind/profile/index]] reads the convergence generously and correctly: the
 instruments *"are not five separate diagnoses but one structure measured five
@@ -31322,7 +31899,7 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-22
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 date_range_start: 2026-08-16
 date_range_end: 2026-08-22
 tags: [relationships, trauma-bond, attachment, forensic-analysis, future]
@@ -31374,6 +31951,19 @@ connections:
 ---
 
 # The Rescue Premise — What Is Actually Different About the August 2026 Rupture
+
+> **RE-CHECKED [2026-08-27]:** flagged stale against
+> [[wiki/people/ally-lubin-cognitive-profile]] (2026-08-27), which closed its
+> attribution gap: the operator confirms the 16Personalities result is Ally
+> Lubin's and that it is recent. **No claim on this page changes**, and it is
+> worth being precise about why the confirmation does not strengthen the
+> argument either. This page reasons from that page's *parity finding* — that
+> money, volume, superlatives and surveillance are priced at zero and being met
+> is not — and that finding was built from 639 of her own messages, not from the
+> instrument. The type code was always the corroborated-against, never the
+> corroborator. An attribution moving from unsourced to operator testimony
+> therefore tightens the instrument's standing without touching the evidence
+> this page actually uses.
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/people/ally-lubin-cognitive-profile]] (2026-08-26), which added only a
@@ -34759,16 +35349,21 @@ PAGE: wiki/people/ally-lubin-2026-08-26-update.md
 
 ---
 domain: people
-page_type: update
+page_type: note
 title: "Ally Lubin — 2026-08-26 Current-State Update"
 status: active
-knowledge: operator-observed
+knowledge: mixed
 importance: high
 date: 2026-08-26
 related:
   - wiki/people/ally-lubin
   - wiki/people/annie-ulmer
   - wiki/timeline/events/2026-08-26-dan-consistency-test
+infobox:
+  name: "Alexandra Lubin"
+  relationship_to_dan: friend
+  subject_page: "[[wiki/people/ally-lubin]]"
+  notes: "Dated operator-observed addendum to the Ally Lubin page; carries no standing facts of its own."
 ---
 
 # Ally Lubin — 2026-08-26 Current-State Update
@@ -34835,9 +35430,12 @@ That would be a much bigger development than another declaration of love.
 ## Important constraint
 
 This page is an **operator-observed current-state addendum**, not a claim that
-Ally has accepted a relationship. The earlier correction remains decisive: the
-"object of fixation accepted" exchange was fabricated by the ingest process,
-and the August 18–20 elopement pitch was unanswered.
+Ally has accepted a relationship.
+
+> **CORRECTED [2026-08-26]:** the earlier correction remains decisive — the
+> "object of fixation accepted" exchange was fabricated by the ingest process
+> and no acceptance exists in any export, and the August 18–20 elopement pitch
+> was unanswered. Nothing on this page revives either claim.
 
 The interesting claim here is narrower and more defensible:
 
@@ -34854,14 +35452,19 @@ PAGE: wiki/people/ally-lubin-2026-08-26-visible-update.md
 
 ---
 domain: people
-page_type: update
+page_type: note
 title: "Ally Lubin — 2026-08-26 Visible Update"
 status: active
 importance: high
 date: 2026-08-26
 subject: wiki/people/ally-lubin
 related: [wiki/people/annie-ulmer, wiki/timeline/events/2026-08-26-visible-change]
-tags: [ally, behavioral-change, trust, consistency, intensity]
+tags: [behavioral-change, trust, consistency, intensity]
+infobox:
+  name: "Alexandra Lubin"
+  relationship_to_dan: friend
+  subject_page: "[[wiki/people/ally-lubin]]"
+  notes: "Dated operator-observed addendum to the Ally Lubin page; carries no standing facts of its own."
 ---
 
 # Ally Lubin — 2026-08-26 Visible Update
@@ -34939,7 +35542,7 @@ aliases: ["Ally MBTI", "Ally ENTP", "Ally Lubin personality type", "Alexandra Lu
 status: active
 knowledge: earned
 date_created: 2026-08-22
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 importance: high
 tags: [personality-profile, forensic-analysis, relationships, mental-health]
 date_range_start: 2013-07-05
@@ -34960,6 +35563,7 @@ sources:
   - "raw/self/message-csv/ally_lubin_chatdb_export.csv"
   - "raw/people/captures/2026-08-21_175309_gap-ally-lubin.md"
   - "raw/people/captures/2026-08-20_042255_gap-ally-lubin.md"
+  - "raw/people/captures/2026-08-27_022249_gap-ally-lubin-cognitive-profile.md"
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/alexandralubin_jnwin7cizw/message_1.html"
 synthesizes:
   - wiki/people/ally-lubin
@@ -35044,13 +35648,36 @@ The new datum is a 16Personalities result, supplied by the operator on
 | Role | Analyst | — |
 | Strategy | Social Engagement | — |
 
-**This is T1 self-report with unverified attribution, and the page treats it
-as such throughout.** The screenshot contains no name, no email address, no
-account handle and no timestamp; nothing inside the artifact ties it to Ally
-Lubin, and the attribution rests entirely on the operator's statement that it
-is hers. 16Personalities is self-administered, not proctored — it records
+**This is T1 self-report, and the page treats it as such throughout.** The
+attribution question the page originally opened is now closed, and closed by
+the only means available: the operator states plainly that the result is Ally
+Lubin's and that it is recent.
+
+> **GAP CLOSED [2026-08-27]:** the page asked *"whose result is the
+> screenshot, and when was it taken? The image carries no identifying
+> metadata. Did Ally send it to Dan directly, and on what date? The original
+> `IMG_2320.heic` may carry EXIF that the screenshot destroyed."* The operator
+> answers: *"Thats Ally Lubin's result ajd it is recent."* Source:
+> `raw/people/captures/2026-08-27_022249_gap-ally-lubin-cognitive-profile.md`.
+
+**What that does and does not settle.** It settles *whose* — attribution moves
+from unsourced to T0 operator testimony, which is the strongest source class
+this corpus has. It does not settle *when* beyond "recent," and it does not
+answer the transmission question the gap also asked: whether Ally sent the
+screenshot to Dan directly, or he obtained it some other way, is still
+undocumented. "Recent" against a 2026-08-22 capture puts the test somewhere in
+mid-2026 and no closer; no date is now recoverable from the artifact, since
+the screenshot destroyed whatever EXIF `IMG_2320.heic` carried.
+
+The corroboration position is unchanged by all of this. The screenshot itself
+still contains no name, no email address, no account handle and no timestamp;
+nothing *inside* the artifact ties it to her, and it never will. 16Personalities
+is self-administered, not proctored — it records what one person said about
+themselves on one occasion. The stock illustration is served to every ENTP
+result and is not evidence about who took the test. 16Personalities is self-administered, not proctored — it records
 what one person said about themselves on one occasion. The stock illustration
 is served to every ENTP result and is not evidence about who took the test.
+
 What makes the result usable anyway is that it is **testable against 639
 messages of her unedited first-person output**, which is the check the rest of
 this page performs. It passes on three dimensions, passes decisively on the
@@ -35530,14 +36157,17 @@ should believe on anything.*
 
 Each of these is answerable by the operator in a paragraph.
 
-- **Whose result is the screenshot, and when was it taken?** The image carries
-  no identifying metadata. Did Ally send it to Dan directly, and on what date?
-  The original `IMG_2320.heic` may carry EXIF that the screenshot destroyed.
 - **What was her state when she took it?** The 92% Turbulent is the load-bearing
   figure and neuroticism instruments are state-sensitive. A test taken inside a
   bad week and one taken inside a good month are different data.
 - **Did she report the result herself, or was it forwarded?** The visible page
-  is the results email, which implies she had the account.
+  is the results email, which implies she had the account. The 2026-08-27
+  operator answer confirms the result is hers but says nothing about how the
+  screenshot reached Dan, so this stays open.
+- **When, exactly?** "Recent" is now the whole of the answer, and no date is
+  recoverable from the artifact — the screenshot destroyed the EXIF. It
+  matters for the bullet above it: a Turbulent score is only interpretable
+  against the week it was taken.
 - **Has she ever tested before?** She asserted ENFP in December 2018 with
   enough confidence to argue about it, which suggests a prior result rather
   than a guess.
@@ -35600,7 +36230,7 @@ infobox:
   role: "STEM professional (remote, Charlotte, NC)"
   first_contact: 2011-05-20
   handles: ["+156****1550", "allylubin@gmail.com"]
-  mbti: "ENTP-T (tested 2026-08-22, self-administered, attribution unverified; supersedes the disputed ENFP)"
+  mbti: "ENTP-T (tested 2026, self-administered; attribution confirmed by the operator 2026-08-27; supersedes the disputed ENFP)"
   known_for: "Eighteen years of one-sided idolization of a woman Dan has never met, converted in 2019 into a paid channel — 'i've sent 2100 and have like 2 pictures and im STILL trying' — and in August 2026 the first person outside Dan ever to read this wiki, whose joke about it was written into this page as fact"
   last_contact: "2026-08-21 (love letter, 'Your future soulmate / Beto o'rourke')"
   working_status: "Works in STEM, remote from Charlotte, NC"
@@ -36693,16 +37323,21 @@ PAGE: wiki/people/annie-ulmer-2026-08-26-update.md
 
 ---
 domain: people
-page_type: update
+page_type: note
 title: "Annie Ulmer — 2026-08-26 Current-State Update"
 status: active
-knowledge: operator-observed
+knowledge: mixed
 importance: critical
 date: 2026-08-26
 related:
   - wiki/people/annie-ulmer
   - wiki/people/ally-lubin
   - wiki/timeline/events/2026-08-26-dan-consistency-test
+infobox:
+  name: "Annie Ulmer"
+  relationship_to_dan: ex-partner
+  subject_page: "[[wiki/people/annie-ulmer]]"
+  notes: "Dated operator-observed addendum to the Annie Ulmer page; carries no standing facts of its own."
 ---
 
 # Annie Ulmer — 2026-08-26 Current-State Update
@@ -36789,14 +37424,19 @@ PAGE: wiki/people/annie-ulmer-2026-08-26-visible-update.md
 
 ---
 domain: people
-page_type: update
+page_type: note
 title: "Annie Ulmer — 2026-08-26 Boundary Update"
 status: active
 importance: high
 date: 2026-08-26
 subject: wiki/people/annie-ulmer
 related: [wiki/people/ally-lubin, wiki/timeline/events/2026-08-26-visible-change, wiki/timeline/events/august-2026-morgantown-call]
-tags: [annie, boundary, block, severance, behavioral-change]
+tags: [boundaries, behavioral-change]
+infobox:
+  name: "Annie Ulmer"
+  relationship_to_dan: ex-partner
+  subject_page: "[[wiki/people/annie-ulmer]]"
+  notes: "Dated operator-observed addendum to the Annie Ulmer page; carries no standing facts of its own."
 ---
 
 # Annie Ulmer — 2026-08-26 Boundary Update
@@ -41432,7 +42072,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-08-02
+date_modified: 2026-08-27
 date_range_start: 2018-02-16
 date_range_end: 2024-12-26
 sources:
@@ -41440,6 +42080,7 @@ sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
+  - raw/places/captures/2026-08-27_022401_gap-117-belmont-circle.md
 related: ["wiki/people/annie-ulmer", "wiki/places/117-belmont-circle", "wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/contact-gini"]
 tags: [relationships, uniontown-era, career]
 knowledge: mixed
@@ -41477,7 +42118,7 @@ He is also, on the evidence of his own thread, **the first person outside the re
 
 ## The realtor thread
 
-Danny works as a residential realtor, based near Uniontown ("the burgh" as backdrop) and mentions Dan's mother Suz as an existing client relationship of his own ("your mom even mentioned it to me"). He handled the listing on Fran's house after her April 2018 death: an April 7, 2018 message shows him stopping by the property the same week and running into Suz there ("I told her I stopped by to extend my condolences"), and by July 11, 2019 he reports the house "finally went pending," with a follow-up crack that "second time's a charm" — implying an earlier listing attempt had fallen through sometime in the intervening year. This resolves part of the open disposition question on [[wiki/places/117-belmont-circle]]: the house was actively re-listed and went to a pending sale in mid-2019, roughly 15 months after Fran's death.
+Danny works as a residential realtor, based near Uniontown ("the burgh" as backdrop) and mentions Dan's mother Suz as an existing client relationship of his own ("your mom even mentioned it to me"). He handled the listing on Fran's house after her April 2018 death: an April 7, 2018 message shows him stopping by the property the same week and running into Suz there ("I told her I stopped by to extend my condolences"), and by July 11, 2019 he reports the house "finally went pending," with a follow-up crack that "second time's a charm" — implying an earlier listing attempt had fallen through sometime in the intervening year. This resolves part of the open disposition question on [[wiki/places/117-belmont-circle]]: the house was actively re-listed and went to a pending sale in mid-2019, roughly 15 months after Fran's death. That pending status held — the sale closed in **summer 2019 for $250,000** (operator testimony, 2026-08-27; uncorroborated in the message record, which never returns to the subject after Danny's July 11 line). The buyer is still unknown, so whether Danny's own commission or a colleague's closed it is undocumented.
 
 ## The swinger relationship
 
@@ -44700,9 +45341,13 @@ related: []
 - [[wiki/people/alexis-armel]] — The six-year partner (late 2009 – Nov 2015) who occupied the attachment slot without activating it; the corpus's control case, and the friendship that outlasted the breakup by a decade.
 - [[wiki/people/alice]] — Annie's niece, Claire and Garrett's elder daughter (b. ~2019–20); 66 mentions and the largest sustained unpaid commitment in Annie's documented life. Closes Claire's "unnamed niece" gap and carries the falsification of the Wednesday-alibi reading.
 - [[wiki/people/ally-lubin]] — Eighteen-year attachment to a woman Dan has never met (Boca Raton → NYC → Charlotte); 1,987 iMessage across two handles (2018–2026); a channel that runs concurrently with the primary bond rather than after it fails; $2,100 sent in the Aug–Oct 2019 crisis window, and the page whose 2026 climax turned out to be a hallucination the wiki wrote about itself.
+  - [[wiki/people/ally-lubin-2026-08-26-update]] — dated operator-observed addendum (2026-08-26).
+  - [[wiki/people/ally-lubin-2026-08-26-visible-update]] — dated operator-observed addendum (2026-08-26).
 - [[wiki/people/ally-lubin-cognitive-profile]] — ENTP-T (tested 2026, Turbulent 92%): the function-stack read behind the main entry, and the finding that the qualities Dan names as the attraction and the conduct he directs at her are in opposition.
 - [[wiki/people/anita]] — BFS gas-station GM who originated the $50 drawer-shortage claim; her "gas, foodstamps, lottery" confabulation and the Timmy blame-pivot make her the vertical-suspect exhibit.
 - [[wiki/people/annie-ulmer]] — Anne ("Annie") Ulmer. Primary relationship from Thanksgiving 2015; the June 1 2026 closure held 52 days and failed — status open, not historical.
+  - [[wiki/people/annie-ulmer-2026-08-26-update]] — dated operator-observed addendum (2026-08-26).
+  - [[wiki/people/annie-ulmer-2026-08-26-visible-update]] — dated operator-observed addendum (2026-08-26).
 - [[wiki/people/betherin-mechling]] — Annie's cousin; fiancée of Jay Lauer, controlled his finances, returned his ring weeks before his April 2017 overdose.
 - [[wiki/people/annoying]] — Unidentified 2019 cocaine dealer, saved under Dan's own "annoying" label.
 - [[wiki/people/arnu]] — Property work occurs amid context-core housing transition and work-power-dynamics (caretaker ambiguities +…
@@ -58669,9 +59314,9 @@ title: "117 Belmont Circle"
 status: closed
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-08-22
+date_modified: 2026-08-27
 date_range_start: 1961-02-08
-date_range_end: 2019-07-11
+date_range_end: 2019-09-01
 sources:
   - raw/self/ancestry/extracted/Daniel Frank family tree.txt
   - raw/self/dox-scan/all_imessages_complete_dump.txt
@@ -58679,6 +59324,7 @@ sources:
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - raw/places/captures/2026-08-27_022401_gap-117-belmont-circle.md
 tags: [family, housing, uniontown-era, grief, relationships]
 connections:
   - page: wiki/timeline/events/the-fall-of-fran
@@ -58761,6 +59407,7 @@ and one month** before Fran left it.
 | Second hole-in-one, UCC 11th, 153 yds, No. 5 wood | 1969 | Fran's golf record |
 | Occupancy ends | 2018-03-08 | Caregiver threads; [[wiki/timeline/events/the-fall-of-fran]] |
 | Reported "finally went pending" | 2019-07-11 | Danny Matthews thread |
+| Sale closed, $250,000 | summer 2019 | operator testimony (uncorroborated) |
 
 That the family's arrival at this address is a **return from Florida** is
 worth holding against the other side of the tree, where Morley Frank's
@@ -58910,17 +59557,49 @@ property's endings is not a coincidence in the Bacharach sense; Uniontown is
 small and he sells houses in it. It is, however, the reason the property's
 two terminal events are recorded at all. Both are in his thread.
 
+### The sale closed
+
+It closed in **summer 2019** for **$250,000** — operator testimony, and the
+only account of the closing that exists. The pending status Danny reported on
+July 11 held; the "second time's a charm" listing was the one that completed.
+
+> **GAP CLOSED [2026-08-27]:** the page previously said *"whether the sale
+> actually closed, when, to whom and for how much is undocumented; the record
+> stops at 'pending.'"* Two of those four are now answered — **when** (summer
+> 2019) and **for how much** ($250,000). **To whom** remains unknown, and so
+> does whether the closing was the same transaction Danny reported pending
+> sixteen days earlier or a later one. Source:
+> `raw/places/captures/2026-08-27_022401_gap-117-belmont-circle.md`.
+
+**What corroborates this and what does not.** The message record ends the
+story at "pending" and never returns to it, so nothing in `raw/` confirms
+either figure independently — this rests on testimony alone. It is, however,
+consistent with the one thing the record does fix: a July 11 pending status
+closing that same summer is an ordinary thirty-to-sixty-day settlement, and
+"summer 2019" is exactly the window that implies. The price is uncorroborated
+in a different way — no listing price appears anywhere in the corpus, so
+there is nothing to compare $250,000 against, not even a delta from the
+failed first attempt.
+
+**What this fixes downstream.** The house had no documented end. Its
+`date_range_end` was 2019-07-11 — the date somebody *mentioned* it was
+pending, which is a message date, not a property event. The residency's
+actual terminus is the summer 2019 closing, and the fifty-seven-year tenure
+is now bounded at both ends by something that happened to the house rather
+than by the last time anyone talked about it.
+
 ## Gaps
 
-Whether the sale actually closed, when, to whom and for how much is
-undocumented; the record stops at "pending." The earlier failed listing is
-inferred from four words and has no independent trace. The nursing home is
-still unnamed. The exact year the caregiving began informally is unfixed —
-only the paid six months from roughly October 2017 are anchored. The
-identity of the April 27, 2018 caddie who slept here is unresolved. And
-nothing in the corpus records what happened to the contents: Fran held this
-house for fifty-seven years, and no inventory, no photograph and no account
-of its clearance exists anywhere in it.
+The sale's **buyer** is still unknown, and with them the question of whether
+the house left the family's orbit entirely or went to somebody in it. Four
+gaps this page opened remain untouched by the 2026-08-27 answer: the nursing
+home is still unnamed; the year the caregiving began *informally* is still
+unfixed, with only the paid six months from roughly October 2017 anchored;
+the April 27, 2018 caddie who slept here is still unidentified; and nothing
+records what happened to the contents — Fran held this house for fifty-seven
+years, and no inventory, no photograph and no account of its clearance exists
+anywhere in the corpus. The earlier failed listing likewise still rests
+entirely on Danny's four words, with no independent trace.
 
 
 ========================================================================
@@ -59958,7 +60637,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -60122,6 +60801,22 @@ signature continuously since 2010.
 | [[wiki/places/117-belmont-circle]] | 2017–2018 | [[wiki/people/fran-coldren\|Fran]], as a paid caregiving arrangement | **None** | Fran's death, April 2018 |
 | [[wiki/places/307-e-76th-st]] | 2019–2025 | Annie, jointly; landlord [[wiki/people/john-paci\|John Paci]] personally | A real lease exists; **signatory never recovered**; ~$10,000 arrears at move-out | Annie ended the cohabitation, Feb 2025 |
 | [[wiki/legal/463-morgantown]] | 2026– | Suz, in a blended agent/tenant/caretaker role | **No signed lease, no confirmed POA** | Unresolved; *"It's time for you to go"* (2026-08-11) |
+
+> **RE-CHECKED [2026-08-27] — premise moved, and it closes the one row whose
+> ending the corpus could not follow all the way down.**
+> [[wiki/places/117-belmont-circle]] gained the sale's disposition on
+> 2026-08-27: it **closed in summer 2019 for $250,000** (operator testimony,
+> uncorroborated in the message record, buyer still unknown). The row above is
+> unchanged and correct — the *tenancy* ended at Fran's death in April 2018,
+> which is what that column reports. But the table's argument gets sharper, not
+> merely more complete. Every other row ends with the tenancy and leaves the
+> asset's fate outside the frame; this one now runs to the end, and the end is
+> that the house was sold out of the family sixteen months later. **There was
+> never anything to inherit.** The "None" in the paper column was not an
+> oversight that a will or a deed might later have cured — the arrangement was
+> access granted by a living person, it ended when she died, and the property
+> itself was converted to cash and left. No claim on this page changes; the
+> pattern it names simply now has one row followed to its conclusion.
 
 Read the last column. Not one of these tenancies ends at a term, a notice
 period, or an enforcement. They end when a relative dies, when a partner ends a
@@ -69191,12 +69886,12 @@ domain: timeline
 page_type: event
 title: "2026-08-26 — The Consistency Test"
 status: active
-knowledge: operator-observed
+knowledge: mixed
 importance: critical
 date: 2026-08-26
 date_range_start: 2026-08-26
 date_range_end: 2026-08-26
-tags: [relationships, behavioral-change, boundaries, ally, annie]
+tags: [relationships, behavioral-change, boundaries]
 related:
   - wiki/people/ally-lubin
   - wiki/people/annie-ulmer
@@ -69281,9 +69976,12 @@ with Ally.
 
 It **does not establish** that Ally and Dan are now a romantic couple, that Ally
 has accepted a courtship, or that the relationship has reached any particular
-future state. The previous wiki correction remains binding: the fabricated
-"object of fixation accepted" exchange stays fabricated, and the unanswered
-elopement pitch stays unanswered.
+future state.
+
+> **CORRECTED [2026-08-26]:** the previous wiki correction remains binding —
+> the fabricated "object of fixation accepted" exchange stays fabricated, no
+> acceptance exists in any export, and the unanswered elopement pitch stays
+> unanswered.
 
 Nor does it establish that the change is permanent. One week of different
 behavior is not a lifetime verdict.
@@ -69328,7 +70026,7 @@ status: active
 importance: high
 date: 2026-08-26
 related: [wiki/people/ally-lubin, wiki/people/annie-ulmer, wiki/timeline/events/2026-08-26-visible-change]
-tags: [relationships, behavioral-change, boundary, ally, annie, consistency, intensity]
+tags: [relationships, behavioral-change, boundaries, consistency, intensity]
 ---
 
 # The Visible Change, Continued — 2026-08-26
@@ -69505,7 +70203,7 @@ status: active
 importance: high
 date: 2026-08-26
 related: [wiki/people/ally-lubin, wiki/people/annie-ulmer, wiki/mind/synthesis/dormancy-not-exit]
-tags: [relationships, behavioral-change, boundary, ally, annie, consistency]
+tags: [relationships, behavioral-change, boundaries, consistency]
 ---
 
 # The Visible Change — 2026-08-26
@@ -74595,6 +75293,9 @@ connections:
 - [[wiki/timeline/events/march-2026-terminal-phase]] — the record's last 16 days: laundry response, bathroom incident, confession + retraction
 - [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] — Dan, Annie, and Shelbie Breakiron; the arrangement's clearest instance with a third woman rather than a male friend.
 - [[wiki/timeline/events/timeline]] — This is the master index. Full chronological + 1,104 in raw/self/dox-md/LIFE_EVENTS_CALENDAR.md. Re-mined…
+- [[wiki/timeline/events/2026-08-26-dan-consistency-test]] — operator-observed, 2026-08-26: a hard boundary held in one direction while a calm channel is sustained in the other — the corpus's first candidate counterexample to intensity-as-the-only-mode.
+- [[wiki/timeline/events/2026-08-26-visible-change]] — operator-observed, 2026-08-26: the same day's change stated as an observation rather than a conclusion.
+- [[wiki/timeline/events/2026-08-26-visible-change-2]] — operator-observed, 2026-08-26: the longer continuation of the above, with the reasoning the short note omits.
 
 ## periods
 

@@ -6,7 +6,7 @@ status: active
 importance: high
 date: 2026-08-26
 related: [wiki/people/ally-lubin, wiki/people/annie-ulmer, wiki/mind/synthesis/dormancy-not-exit]
-tags: [relationships, behavioral-change, boundary, ally, annie, consistency]
+tags: [relationships, behavioral-change, boundaries, consistency]
 ---
 
 # The Visible Change — 2026-08-26

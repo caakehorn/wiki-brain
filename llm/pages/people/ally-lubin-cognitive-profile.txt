@@ -6,7 +6,7 @@ aliases: ["Ally MBTI", "Ally ENTP", "Ally Lubin personality type", "Alexandra Lu
 status: active
 knowledge: earned
 date_created: 2026-08-22
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 importance: high
 tags: [personality-profile, forensic-analysis, relationships, mental-health]
 date_range_start: 2013-07-05
@@ -27,6 +27,7 @@ sources:
   - "raw/self/message-csv/ally_lubin_chatdb_export.csv"
   - "raw/people/captures/2026-08-21_175309_gap-ally-lubin.md"
   - "raw/people/captures/2026-08-20_042255_gap-ally-lubin.md"
+  - "raw/people/captures/2026-08-27_022249_gap-ally-lubin-cognitive-profile.md"
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/alexandralubin_jnwin7cizw/message_1.html"
 synthesizes:
   - wiki/people/ally-lubin
@@ -111,13 +112,36 @@ The new datum is a 16Personalities result, supplied by the operator on
 | Role | Analyst | — |
 | Strategy | Social Engagement | — |
 
-**This is T1 self-report with unverified attribution, and the page treats it
-as such throughout.** The screenshot contains no name, no email address, no
-account handle and no timestamp; nothing inside the artifact ties it to Ally
-Lubin, and the attribution rests entirely on the operator's statement that it
-is hers. 16Personalities is self-administered, not proctored — it records
+**This is T1 self-report, and the page treats it as such throughout.** The
+attribution question the page originally opened is now closed, and closed by
+the only means available: the operator states plainly that the result is Ally
+Lubin's and that it is recent.
+
+> **GAP CLOSED [2026-08-27]:** the page asked *"whose result is the
+> screenshot, and when was it taken? The image carries no identifying
+> metadata. Did Ally send it to Dan directly, and on what date? The original
+> `IMG_2320.heic` may carry EXIF that the screenshot destroyed."* The operator
+> answers: *"Thats Ally Lubin's result ajd it is recent."* Source:
+> `raw/people/captures/2026-08-27_022249_gap-ally-lubin-cognitive-profile.md`.
+
+**What that does and does not settle.** It settles *whose* — attribution moves
+from unsourced to T0 operator testimony, which is the strongest source class
+this corpus has. It does not settle *when* beyond "recent," and it does not
+answer the transmission question the gap also asked: whether Ally sent the
+screenshot to Dan directly, or he obtained it some other way, is still
+undocumented. "Recent" against a 2026-08-22 capture puts the test somewhere in
+mid-2026 and no closer; no date is now recoverable from the artifact, since
+the screenshot destroyed whatever EXIF `IMG_2320.heic` carried.
+
+The corroboration position is unchanged by all of this. The screenshot itself
+still contains no name, no email address, no account handle and no timestamp;
+nothing *inside* the artifact ties it to her, and it never will. 16Personalities
+is self-administered, not proctored — it records what one person said about
+themselves on one occasion. The stock illustration is served to every ENTP
+result and is not evidence about who took the test. 16Personalities is self-administered, not proctored — it records
 what one person said about themselves on one occasion. The stock illustration
 is served to every ENTP result and is not evidence about who took the test.
+
 What makes the result usable anyway is that it is **testable against 639
 messages of her unedited first-person output**, which is the check the rest of
 this page performs. It passes on three dimensions, passes decisively on the
@@ -597,14 +621,17 @@ should believe on anything.*
 
 Each of these is answerable by the operator in a paragraph.
 
-- **Whose result is the screenshot, and when was it taken?** The image carries
-  no identifying metadata. Did Ally send it to Dan directly, and on what date?
-  The original `IMG_2320.heic` may carry EXIF that the screenshot destroyed.
 - **What was her state when she took it?** The 92% Turbulent is the load-bearing
   figure and neuroticism instruments are state-sensitive. A test taken inside a
   bad week and one taken inside a good month are different data.
 - **Did she report the result herself, or was it forwarded?** The visible page
-  is the results email, which implies she had the account.
+  is the results email, which implies she had the account. The 2026-08-27
+  operator answer confirms the result is hers but says nothing about how the
+  screenshot reached Dan, so this stays open.
+- **When, exactly?** "Recent" is now the whole of the answer, and no date is
+  recoverable from the artifact — the screenshot destroyed the EXIF. It
+  matters for the bullet above it: a Turbulent score is only interpretable
+  against the week it was taken.
 - **Has she ever tested before?** She asserted ENFP in December 2018 with
   enough confidence to argue about it, which suggests a prior result rather
   than a guess.

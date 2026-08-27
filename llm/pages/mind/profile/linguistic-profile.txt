@@ -5,13 +5,14 @@ title: "Linguistic Profile — Voice, Register, Stylometrics"
 aliases: ["voice", "stylometrics", "forensic intimacy"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-08-26
+date_modified: 2026-08-27
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/ANALYSIS_ Linguistic.rtf
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/Phase_2_Stylometric_Analysis.md
+  - raw/mind/captures/2026-08-27_013705_gap-linguistic-profile.md
 related:
   - wiki/mind/profile/index
   - wiki/mind/profile/deviance-mapping
@@ -35,15 +36,12 @@ connections:
   - page: wiki/mind/profile/texting-deviance-audit
     type: contradicts
     claim: "Recomputation against the corpus falsifies three of this page's measured markers: texting readability is Flesch-Kincaid 4.00 in 2026 rather than post-graduate, 2025-26 lexical diversity is below his interlocutors' (0.0509 vs 0.0544 on equal samples) rather than 99th-percentile, and the 8.36 words/message burst figure is a 2015-19 baseline against a 2026 figure of 15.03."
+  - page: wiki/interests/language/vocabulary-lexicon
+    type: evidenced-by
+    claim: "The register theft this page documents for description — clinical, military and philosophical vocabulary borrowed upward to make ordinary observation sound forensic — is the same move his commissioned insult batch makes for contempt: sorted by mechanism rather than intensity, with 'a man of no small stupidity' as the clean case of a dignified grammatical shape carrying a devastating payload. The difference in evidentiary weight is the point: this page's registers were measured against the corpus, that page's were merely selected as pleasing."
   - page: wiki/interests/opie-and-anthony
     type: caused-by
     claim: "The callous, riff-driven, gallows-irony register the profile calls a 'psychic ventilator' is the native dialect of the O&A universe — this binge is where that idiom was trained."
-  - page: wiki/mind/profile/neurodivergence
-    type: parallels
-    claim: "23,286 unique words in casual texting and 2,465 uses of 'because' read, in the corpus's own autism framing, as language reached for to think rather than to relate — the same stylometric extremes this page measures independently of that claim."
-  - page: wiki/mind/profile/lexicon
-    type: instance-of
-    claim: "The bespoke lexicon is 'forensic intimacy' engineered on purpose and pointed at affection rather than crisis — the same clinical-detachment-fused-with-confession register this page documents from the message corpus, now built forward as a reusable tool instead of measured backward as a pattern."
 ---
 
 # Linguistic Profile — Voice, Register, Stylometrics
@@ -123,6 +121,47 @@ and **psycho-spiritual** (myth, ritual, daemon, altar, cathedral). On top of
 these sits a private jargon layer — invented commands like `[FLAG-IT]`,
 named concepts, sacred jokes — a personal idiolect systematizing even his AI
 interactions.
+
+### The insult register is built, not reached for
+
+The four registers above describe vocabulary he *uses*. There is a fifth
+behaviour the corpus documents separately, and it is the more unusual one: he
+**commissions** vocabulary. On 2026-08-26 he ran a session generating graded
+insult and praise batches and then selected from the pool, and the selections
+are recorded in full at [[wiki/interests/language/vocabulary-lexicon]].
+
+What the selections show is that the insult register is sorted by *mechanism*
+rather than by intensity. Three mechanisms account for nearly all of it: fake
+institutional prestige (*a distinguished scholar of being wrong*), historical
+condemnation (*a monument to poor judgment*, *a man history wisely
+neglected*), and graded vulgarity built from compound modifiers
+(*industrial-strength dumbass*, *premium-grade loser*). He named the
+governing rule himself — a preference for insults *"where the grammatical
+structure sounds dignified while the semantic payload is fucking
+devastating"* — and the cleanest instance is **"a man of no small
+stupidity,"** a litotes shaped exactly like a compliment.
+
+This is the same machinery this page already documents, pointed somewhere
+new. The clinical/military/philosophical registers above are borrowed
+*upward* to make ordinary description sound forensic; the insult batch
+borrows *upward* to make contempt sound like an obituary. Both are register
+theft, and the payload in each case travels in the gap between the borrowed
+form and the actual content.
+
+> **GAP CLOSED [2026-08-27]:** the operator volunteered the full "words for
+> stupid" list against this page. It was not a gap this page had stated —
+> unprompted material, staged here for the ingest to place. Placed here, in
+> Lexical fields, because it is a register finding; the list itself is not
+> duplicated onto this page, because it was written up in full as
+> [[wiki/interests/language/vocabulary-lexicon]] the day it arrived. Source:
+> `raw/mind/captures/2026-08-27_013705_gap-linguistic-profile.md`.
+
+**What this does not establish.** These are words *selected as pleasing*, not
+words observed in the corpus. Everything else in this section was measured
+against the message record; this was not, and the two must not be read at the
+same weight. `bin/text-metrics` could test it — whether the dignified-shape
+insult ever actually appears in his outbound text, or only in a vocabulary he
+enjoys designing — and until somebody runs it, that stays open.
 
 ## Rhetorical architecture
 

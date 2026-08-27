@@ -18,9 +18,13 @@ related: []
 - [[wiki/people/alexis-armel]] — The six-year partner (late 2009 – Nov 2015) who occupied the attachment slot without activating it; the corpus's control case, and the friendship that outlasted the breakup by a decade.
 - [[wiki/people/alice]] — Annie's niece, Claire and Garrett's elder daughter (b. ~2019–20); 66 mentions and the largest sustained unpaid commitment in Annie's documented life. Closes Claire's "unnamed niece" gap and carries the falsification of the Wednesday-alibi reading.
 - [[wiki/people/ally-lubin]] — Eighteen-year attachment to a woman Dan has never met (Boca Raton → NYC → Charlotte); 1,987 iMessage across two handles (2018–2026); a channel that runs concurrently with the primary bond rather than after it fails; $2,100 sent in the Aug–Oct 2019 crisis window, and the page whose 2026 climax turned out to be a hallucination the wiki wrote about itself.
+  - [[wiki/people/ally-lubin-2026-08-26-update]] — dated operator-observed addendum (2026-08-26).
+  - [[wiki/people/ally-lubin-2026-08-26-visible-update]] — dated operator-observed addendum (2026-08-26).
 - [[wiki/people/ally-lubin-cognitive-profile]] — ENTP-T (tested 2026, Turbulent 92%): the function-stack read behind the main entry, and the finding that the qualities Dan names as the attraction and the conduct he directs at her are in opposition.
 - [[wiki/people/anita]] — BFS gas-station GM who originated the $50 drawer-shortage claim; her "gas, foodstamps, lottery" confabulation and the Timmy blame-pivot make her the vertical-suspect exhibit.
 - [[wiki/people/annie-ulmer]] — Anne ("Annie") Ulmer. Primary relationship from Thanksgiving 2015; the June 1 2026 closure held 52 days and failed — status open, not historical.
+  - [[wiki/people/annie-ulmer-2026-08-26-update]] — dated operator-observed addendum (2026-08-26).
+  - [[wiki/people/annie-ulmer-2026-08-26-visible-update]] — dated operator-observed addendum (2026-08-26).
 - [[wiki/people/betherin-mechling]] — Annie's cousin; fiancée of Jay Lauer, controlled his finances, returned his ring weeks before his April 2017 overdose.
 - [[wiki/people/annoying]] — Unidentified 2019 cocaine dealer, saved under Dan's own "annoying" label.
 - [[wiki/people/arnu]] — Property work occurs amid context-core housing transition and work-power-dynamics (caretaker ambiguities +…

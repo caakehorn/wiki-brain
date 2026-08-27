@@ -157,6 +157,16 @@ choomed, normie, Blue MAGA, choom* — vocabulary that is either genuinely
 impolite or genuinely subcultural, and in either case not manufactured to be
 safely quirky.
 
+The metric is legible in the vocabulary he *curates* as well as the vocabulary
+he uses. [[wiki/interests/language/vocabulary-lexicon]] records two graded word
+batches selected in a single 2026-08-26 session, and both are sorted by
+mechanism rather than by synonymy — the "stupid" axis by fake institutional
+prestige, historical condemnation and precision vulgarity; the "pretty" axis by
+register-escalation, ending on *aesthetic felony*. That is this page's
+performed-versus-authentic sort run on language itself. The caveat belongs here
+too: that page is curated, not derived, and records only which words were
+*selected as pleasing* — not that any of them appear in the corpus.
+
 The same logic runs through the music. A production note in the corpus keeps a
 sonic element *"inaudible to the normies"* while retaining it — a detail
 audible only to the qualified, preserved specifically because it is

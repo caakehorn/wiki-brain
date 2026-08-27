@@ -3,7 +3,7 @@ domain: mind
 page_type: synthesis
 title: "Intensity Is No Longer the Only Mode"
 status: active
-knowledge: operator-observed
+knowledge: mixed
 importance: critical
 date_created: 2026-08-26
 date_modified: 2026-08-26

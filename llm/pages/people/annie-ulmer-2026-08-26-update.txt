@@ -1,15 +1,20 @@
 ---
 domain: people
-page_type: update
+page_type: note
 title: "Annie Ulmer — 2026-08-26 Current-State Update"
 status: active
-knowledge: operator-observed
+knowledge: mixed
 importance: critical
 date: 2026-08-26
 related:
   - wiki/people/annie-ulmer
   - wiki/people/ally-lubin
   - wiki/timeline/events/2026-08-26-dan-consistency-test
+infobox:
+  name: "Annie Ulmer"
+  relationship_to_dan: ex-partner
+  subject_page: "[[wiki/people/annie-ulmer]]"
+  notes: "Dated operator-observed addendum to the Annie Ulmer page; carries no standing facts of its own."
 ---
 
 # Annie Ulmer — 2026-08-26 Current-State Update
