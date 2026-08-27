@@ -8,7 +8,17 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-26 — 88 pages
+## 2026-08-27 — 3 pages
+
+- **Session log:** fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/meta/digest]] | meta | — |
+| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
+
+## 2026-08-26 — 85 pages
 
 - **Session log:** climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
 - **Session log:** ingest | mind | the ideal-face specification — a mystery queue item resolved
@@ -33,16 +43,14 @@ simply listed.
 | [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — flagged stale against cocaine (2026-08-26), which added a happiness-rate counter-measure to the same dosage arc this page already cites (1g/day → 3.5–7g/day → 0.5–1g/day tracking the inheritance). **T |
 | [[wiki/interests/favorites/music/artists/fall-out-boy]] | interests | — |
 | [[wiki/interests/food-and-diet]] | interests | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-26), which added a section on the metric's one documented upper bound (the Ally Skins exchange) and removed its `sage_pending` staging. The food-exemptio |
+| [[wiki/interests/language/vocabulary-lexicon]] | interests | — |
 | [[wiki/interests/rock-irrelevance-thesis]] | interests | — |
 | [[wiki/interests/the-office]] | interests | — |
-| [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/index]] | meta | — |
 | [[wiki/meta/journeys/index]] | meta | — |
 | [[wiki/meta/journeys/the-instrumented-channel]] | meta | — |
 | [[wiki/meta/journeys/the-supply-line]] | meta | — |
 | [[wiki/meta/journeys/the-type-machine]] | meta | — |
-| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
 | [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/mind/concepts/bunker-core]] | mind | — |
 | [[wiki/mind/concepts/chaos-preference]] | mind | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-26), which added a section on the metric's one documented upper bound (the Ally Skins exchange) and removed its `sage_pending` staging. This page's mirro |
@@ -58,7 +66,6 @@ simply listed.
 | [[wiki/mind/profile/index]] | mind | — |
 | [[wiki/mind/profile/intp]] | mind | — |
 | [[wiki/mind/profile/lexicon]] | mind | — |
-| [[wiki/mind/profile/linguistic-profile]] | mind | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/mind/profile/neurodivergence]] | mind | — |
 | [[wiki/mind/profile/voice-modes]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/mind/psychosexual/arrangement-history]] | mind | _(carries a CORRECTED from 2026-08-20)_ |
@@ -118,7 +125,7 @@ simply listed.
 | [[wiki/work/fastly-fsly]] | work | _(carries a RE-CHECKED from 2026-08-21)_ |
 | [[wiki/work/tech/max-framework/overview]] | work | — |
 
-## 2026-08-23 — 18 pages
+## 2026-08-23 — 19 pages
 
 - **Session log:** directive | people | the Annie record is closed — no further texts, no further narrative
 - **Session log:** lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
@@ -132,6 +139,7 @@ simply listed.
 | [[wiki/mind/concepts/attachment-model]] | mind | _(carries a GAP CLOSED from 2026-08-22)_ |
 | [[wiki/mind/concepts/calibrated-confidence]] | mind | **CORRECTED** — This page's measurement table gave **43 outbound instances against 2 inbound**, and **15 graded (non-endpoint) values against zero**. Re-derived from the on-disk CSVs — 98,228 deduped Dan-sent message |
 | [[wiki/mind/concepts/reassurance-architecture]] | mind | **REVISED** — The first version of this page assumed, from message-circadian-latency, that Dan was transmitting into a channel that answered slowly — *"broadcasting into a slow or silent void."* **That claim has si |
+| [[wiki/mind/profile/linguistic-profile]] | mind | **CORRECTED** — This page carried *"Readability: post-graduate (16th grade+), from concept density not verbosity"* and *"23,286 unique words (95th-percentile lexical diversity)"*, glossed in the opening paragraph as  |
 | [[wiki/mind/profile/texting-deviance-audit]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/mind/synthesis/message-circadian-latency]] | mind | **CORRECTED** — This section previously opened *"The headline: a 9× reply-latency asymmetry with Annie"* and concluded: *"Dan answers almost everyone within 1–5 minutes. The people he messages answer him on a complet |
 | [[wiki/people/alice]] | people | — |
@@ -560,18 +568,4 @@ simply listed.
 | [[wiki/interests/favorites/music/artists/vertical-horizon]] | interests | — |
 | [[wiki/interests/favorites/music/artists/we-the-kings]] | interests | — |
 | [[wiki/interests/favorites/music/artists/wiki]] | interests | — |
-
-## 2026-07-26 — 6 pages
-
-- **Session log:** climb | all | SYNTHESIS_SPEC + bin/wiki-climb — the wiki becomes an input to itself
-- **Session log:** ingest | people+timeline | the July 2026 re-contact — annie-ulmer reopened
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/people/gabe]] | people | _(carries a CONTRADICTION)_ |
-| [[wiki/people/valeria-iglesias-cid]] | people | _(carries a REVISED from 2026-07-18)_ |
-| [[wiki/self/location-history]] | self | — |
-| [[wiki/timeline/events/april-may-2026-final-weeks]] | timeline | — |
-| [[wiki/timeline/events/group-chat-closure]] | timeline | **REVISED** — "closure" overstates what this event achieved, and the wiki inherited the overstatement. June 1 severed contact for fifty-two days — by a wide margin the most durable severance in a relationship with  |
-| [[wiki/timeline/periods/dec-2025-spike]] | timeline | — |
 

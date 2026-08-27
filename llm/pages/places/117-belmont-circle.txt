@@ -6,6 +6,7 @@ status: closed
 knowledge: mixed
 date_created: 2026-07-13
 date_modified: 2026-08-22
+pending_ingest: 2026-08-27
 date_range_start: 1961-02-08
 date_range_end: 2019-07-11
 sources:
@@ -248,12 +249,34 @@ two terminal events are recorded at all. Both are in his thread.
 
 ## Gaps
 
-Whether the sale actually closed, when, to whom and for how much is
-undocumented; the record stops at "pending." The earlier failed listing is
-inferred from four words and has no independent trace. The nursing home is
-still unnamed. The exact year the caregiving began informally is unfixed —
-only the paid six months from roughly October 2017 are anchored. The
-identity of the April 27, 2018 caddie who slept here is unresolved. And
-nothing in the corpus records what happened to the contents: Fran held this
-house for fifty-seven years, and no inventory, no photograph and no account
-of its clearance exists anywhere in it.
+_All recorded gaps have been answered and are staged below._
+
+## Operator answers — pending ingest
+
+> Transient staging, written from the portal. Each block below is the
+> operator answering something this page said it did not know. **Nothing here
+> has been integrated yet.** The next pass over this page reads these answers,
+> corrects this page *and every page that inherited the gap*, records each
+> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
+> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
+> section and the `pending_ingest:` flag. It is not allowed to accumulate into
+> a changelog — STYLE_GUIDE rule 6.
+
+### ANSWERED [2026-08-27] — Whether the sale actually closed, when, to whom and for how much is und…
+
+**The gap, as this page stated it:**
+
+> Whether the sale actually closed, when, to whom and for how much is
+> undocumented; the record stops at "pending." The earlier failed listing is
+> inferred from four words and has no independent trace. The nursing home is
+> still unnamed. The exact year the caregiving began informally is unfixed —
+> only the paid six months from roughly October 2017 are anchored. The
+> identity of the April 27, 2018 caddie who slept here is unresolved. And
+> nothing in the corpus records what happened to the contents: Fran held this
+> house for fifty-seven years, and no inventory, no photograph and no account
+> of its clearance exists anywhere in it.
+
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/places/captures/2026-08-27_022401_gap-117-belmont-circle.md`.
+
+Summer 2019
+$250,000

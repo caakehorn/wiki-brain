@@ -6,7 +6,7 @@ status: active
 importance: high
 date: 2026-08-26
 related: [wiki/people/ally-lubin, wiki/people/annie-ulmer, wiki/timeline/events/2026-08-26-visible-change]
-tags: [relationships, behavioral-change, boundary, ally, annie, consistency, intensity]
+tags: [relationships, behavioral-change, boundaries, consistency, intensity]
 ---
 
 # The Visible Change, Continued — 2026-08-26

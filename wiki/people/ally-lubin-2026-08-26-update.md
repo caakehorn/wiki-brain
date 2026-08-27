@@ -1,15 +1,20 @@
 ---
 domain: people
-page_type: update
+page_type: note
 title: "Ally Lubin — 2026-08-26 Current-State Update"
 status: active
-knowledge: operator-observed
+knowledge: mixed
 importance: high
 date: 2026-08-26
 related:
   - wiki/people/ally-lubin
   - wiki/people/annie-ulmer
   - wiki/timeline/events/2026-08-26-dan-consistency-test
+infobox:
+  name: "Alexandra Lubin"
+  relationship_to_dan: friend
+  subject_page: "[[wiki/people/ally-lubin]]"
+  notes: "Dated operator-observed addendum to the Ally Lubin page; carries no standing facts of its own."
 ---
 
 # Ally Lubin — 2026-08-26 Current-State Update
@@ -76,9 +81,12 @@ That would be a much bigger development than another declaration of love.
 ## Important constraint
 
 This page is an **operator-observed current-state addendum**, not a claim that
-Ally has accepted a relationship. The earlier correction remains decisive: the
-"object of fixation accepted" exchange was fabricated by the ingest process,
-and the August 18–20 elopement pitch was unanswered.
+Ally has accepted a relationship.
+
+> **CORRECTED [2026-08-26]:** the earlier correction remains decisive — the
+> "object of fixation accepted" exchange was fabricated by the ingest process
+> and no acceptance exists in any export, and the August 18–20 elopement pitch
+> was unanswered. Nothing on this page revives either claim.
 
 The interesting claim here is narrower and more defensible:
 

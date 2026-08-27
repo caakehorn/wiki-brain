@@ -15,10 +15,18 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (0)
+## Obligations (3)
 
-None. No question is parked, no answer is staged, no premise has moved
-under a page that reasons from it, and every portal edit has had its pass.
+Somebody or something is waiting on each of these. Drain from the top.
+
+Priority: **0** failing gate · **1** parked question · **2** staged answer ·
+**3** stale premise · **4** unnormalised portal edit.
+
+| P | Kind | What | Where | Since |
+|---|---|---|---|---|
+| 2 | close | staged answer on mind/profile/linguistic-profile, not integrated | `wiki/mind/profile/linguistic-profile.md` | 2026-08-27 |
+| 2 | close | staged answer on people/ally-lubin-cognitive-profile, not integrated | `wiki/people/ally-lubin-cognitive-profile.md` | 2026-08-27 |
+| 2 | close | staged answer on places/117-belmont-circle, not integrated | `wiki/places/117-belmont-circle.md` | 2026-08-27 |
 
 ## Standing work (197)
 

@@ -5,7 +5,8 @@ title: "Linguistic Profile — Voice, Register, Stylometrics"
 aliases: ["voice", "stylometrics", "forensic intimacy"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-08-26
+date_modified: 2026-08-23
+pending_ingest: 2026-08-27
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
@@ -38,12 +39,6 @@ connections:
   - page: wiki/interests/opie-and-anthony
     type: caused-by
     claim: "The callous, riff-driven, gallows-irony register the profile calls a 'psychic ventilator' is the native dialect of the O&A universe — this binge is where that idiom was trained."
-  - page: wiki/mind/profile/neurodivergence
-    type: parallels
-    claim: "23,286 unique words in casual texting and 2,465 uses of 'because' read, in the corpus's own autism framing, as language reached for to think rather than to relate — the same stylometric extremes this page measures independently of that claim."
-  - page: wiki/mind/profile/lexicon
-    type: instance-of
-    claim: "The bespoke lexicon is 'forensic intimacy' engineered on purpose and pointed at affection rather than crisis — the same clinical-detachment-fused-with-confession register this page documents from the message corpus, now built forward as a reusable tool instead of measured backward as a pattern."
 ---
 
 # Linguistic Profile — Voice, Register, Stylometrics
@@ -200,3 +195,49 @@ See [[wiki/mind/profile/voice-modes]] for the emotional-state layer on top
 of this baseline — eight distinct modes (Neutral, Playful, Affectionate,
 Irritated, Persuasive, Storytelling, Stressed, Reflective) that each
 amplify and suppress specific mechanics documented here.
+
+## Operator answers — pending ingest
+
+> Transient staging, written from the portal. Each block below is the
+> operator answering something this page said it did not know. **Nothing here
+> has been integrated yet.** The next pass over this page reads these answers,
+> corrects this page *and every page that inherited the gap*, records each
+> result inline as a `GAP CLOSED [date]` blockquote per STYLE_GUIDE rule 9,
+> bumps `date_modified`, then runs `bin/wiki-gaps clear <page>` to delete this
+> section and the `pending_ingest:` flag. It is not allowed to accumulate into
+> a changelog — STYLE_GUIDE rule 6.
+
+### ANSWERED [2026-08-27] — manual note
+
+**Not from the gap list** — volunteered by the operator, so the ingest
+has to work out for itself where on the page it belongs, and whether it
+contradicts something already there.
+
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/mind/captures/2026-08-27_013705_gap-linguistic-profile.md`.
+
+Words for stupid 
+
+* 8 — a lesser mind
+* 9 — a pedestrian intellect
+* 17 — an anomalous concentration of bad decisions
+* 19 — a cognitive crime scene
+* 22 — a cautionary tale with shoes
+* 24 — a monument to poor judgment
+* 25 — a legendary failure
+* 26 — a relic of lesser civilization
+* 27 — an artifact of intellectual decline
+* 28 — a figure of negligible historical consequence
+* 29 — a man history wisely neglected
+* 30 — an unfortunate entry in the human record
+
+🧨 Slang / punchy
+
+* 31 — absolute fucking goon
+* 32 — magnificent dumbass
+* 33 — professional idiot
+* 34 — elite-level moron
+* 35 — certified dipshit
+* 36 — premium-grade loser
+* 37 — industrial-strength dumbass
+* 38 — Olympic-caliber fool
+* 40 — world-class jackass

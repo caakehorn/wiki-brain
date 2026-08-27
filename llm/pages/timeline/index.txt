@@ -49,6 +49,9 @@ connections:
 - [[wiki/timeline/events/march-2026-terminal-phase]] — the record's last 16 days: laundry response, bathroom incident, confession + retraction
 - [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] — Dan, Annie, and Shelbie Breakiron; the arrangement's clearest instance with a third woman rather than a male friend.
 - [[wiki/timeline/events/timeline]] — This is the master index. Full chronological + 1,104 in raw/self/dox-md/LIFE_EVENTS_CALENDAR.md. Re-mined…
+- [[wiki/timeline/events/2026-08-26-dan-consistency-test]] — operator-observed, 2026-08-26: a hard boundary held in one direction while a calm channel is sustained in the other — the corpus's first candidate counterexample to intensity-as-the-only-mode.
+- [[wiki/timeline/events/2026-08-26-visible-change]] — operator-observed, 2026-08-26: the same day's change stated as an observation rather than a conclusion.
+- [[wiki/timeline/events/2026-08-26-visible-change-2]] — operator-observed, 2026-08-26: the longer continuation of the above, with the reasoning the short note omits.
 
 ## periods
 

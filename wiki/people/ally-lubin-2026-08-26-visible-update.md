@@ -1,13 +1,18 @@
 ---
 domain: people
-page_type: update
+page_type: note
 title: "Ally Lubin — 2026-08-26 Visible Update"
 status: active
 importance: high
 date: 2026-08-26
 subject: wiki/people/ally-lubin
 related: [wiki/people/annie-ulmer, wiki/timeline/events/2026-08-26-visible-change]
-tags: [ally, behavioral-change, trust, consistency, intensity]
+tags: [behavioral-change, trust, consistency, intensity]
+infobox:
+  name: "Alexandra Lubin"
+  relationship_to_dan: friend
+  subject_page: "[[wiki/people/ally-lubin]]"
+  notes: "Dated operator-observed addendum to the Ally Lubin page; carries no standing facts of its own."
 ---
 
 # Ally Lubin — 2026-08-26 Visible Update

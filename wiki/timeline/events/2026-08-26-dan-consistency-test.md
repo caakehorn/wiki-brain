@@ -3,12 +3,12 @@ domain: timeline
 page_type: event
 title: "2026-08-26 — The Consistency Test"
 status: active
-knowledge: operator-observed
+knowledge: mixed
 importance: critical
 date: 2026-08-26
 date_range_start: 2026-08-26
 date_range_end: 2026-08-26
-tags: [relationships, behavioral-change, boundaries, ally, annie]
+tags: [relationships, behavioral-change, boundaries]
 related:
   - wiki/people/ally-lubin
   - wiki/people/annie-ulmer
@@ -93,9 +93,12 @@ with Ally.
 
 It **does not establish** that Ally and Dan are now a romantic couple, that Ally
 has accepted a courtship, or that the relationship has reached any particular
-future state. The previous wiki correction remains binding: the fabricated
-"object of fixation accepted" exchange stays fabricated, and the unanswered
-elopement pitch stays unanswered.
+future state.
+
+> **CORRECTED [2026-08-26]:** the previous wiki correction remains binding —
+> the fabricated "object of fixation accepted" exchange stays fabricated, no
+> acceptance exists in any export, and the unanswered elopement pitch stays
+> unanswered.
 
 Nor does it establish that the change is permanent. One week of different
 behavior is not a lifetime verdict.

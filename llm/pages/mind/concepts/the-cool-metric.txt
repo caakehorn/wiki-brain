@@ -44,6 +44,9 @@ connections:
   - page: wiki/mind/concepts/exocortex
     type: instantiates
     claim: "The Normie Check is the metric compiled into machine-enforceable form — a standing instruction that any model must pass before it is permitted to continue, which is what distinguishes this from ordinary snobbery."
+  - page: wiki/interests/language/vocabulary-lexicon
+    type: evidenced-by
+    claim: "The curated 'stupid' axis — graded by fake institutional prestige, historical condemnation, and precision vulgarity — is the metric's performed-versus-authentic sort applied to insult vocabulary; the 'pretty' axis's 80–100 band (lethal, obscene, 'aesthetic felony') escalates praise into transgression, the same register-move chaos-preference names. The lexicon page records it as curated, not derived."
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Authenticity-as-involuntariness is 'The Irreversibility Firewall's' trust rule stated positively: the one category never exposed to audit at all is the thing that was never a decision — the sub-bass signature, trusted precisely because choosing it was never possible."
@@ -153,6 +156,16 @@ is his own documented persona slang — *failson, garbage person, shitshow,
 choomed, normie, Blue MAGA, choom* — vocabulary that is either genuinely
 impolite or genuinely subcultural, and in either case not manufactured to be
 safely quirky.
+
+The metric is legible in the vocabulary he *curates* as well as the vocabulary
+he uses. [[wiki/interests/language/vocabulary-lexicon]] records two graded word
+batches selected in a single 2026-08-26 session, and both are sorted by
+mechanism rather than by synonymy — the "stupid" axis by fake institutional
+prestige, historical condemnation and precision vulgarity; the "pretty" axis by
+register-escalation, ending on *aesthetic felony*. That is this page's
+performed-versus-authentic sort run on language itself. The caveat belongs here
+too: that page is curated, not derived, and records only which words were
+*selected as pleasing* — not that any of them appear in the corpus.
 
 The same logic runs through the music. A production note in the corpus keeps a
 sonic element *"inaudible to the normies"* while retaining it — a detail

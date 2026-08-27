@@ -20,6 +20,8 @@ VALID_TAGS = {
     "music-production", "personality-profile", "ideology", "politics",
     "forensic-analysis", "ai-collaboration", "digital-footprint",
     "uniontown-era", "nyc-era", "pets", "non-monogamy", "future",
+    "language", "taste", "vocabulary",
+    "behavioral-change", "boundaries", "intensity", "trust", "consistency",
 }
 PAGE_BUDGET = 40 * 1024   # advisory only — see STYLE_GUIDE.md substance rule 4;
                           # depth is the standing directive, never trim to clear this

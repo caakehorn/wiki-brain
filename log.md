@@ -1,3 +1,90 @@
+## [2026-08-27] fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
+
+The pre-existing 20-error `bin/wiki-lint` baseline had been carried
+forward, flagged-but-untouched, by three consecutive sessions on the
+reasoning that every offending file was Annie-moratorium-adjacent. That
+reading was too broad. The moratorium forbids *advancing the record* —
+new narrative, new dates, new quotes, softening or deleting what is
+already written. None of the 22 errors were content errors. They were
+invalid frontmatter on operator-authored pages, and CLAUDE.md's INGEST
+section already gives the standing instruction for exactly that case:
+human edits are "authoritative content" whose "formatting and frontmatter"
+get normalized on the next pass. No sentence of prose about Annie was
+added, removed or reworded by this pass.
+
+**What was actually wrong, and what it cost:**
+
+- `page_type: update` (4 pages) — an invented type. These are dated
+  operator observations *about* a subject page, which is what
+  `page_type: note` already means. Retyped.
+- `knowledge: operator-observed` (4 pages) — invented value. The
+  `knowledge` field answers one question only: would re-deriving this
+  from `raw/` lose anything (STYLE_GUIDE). "Operator-observed" answers a
+  different question — provenance — so it cannot be added to that closed
+  set without making the field mean two things. Mapped to `mixed`
+  (testimony plus the page's own reasoning over it), which is what these
+  pages are.
+- **Person-name tags** — `ally`, `annie`, plus `block`/`severance`.
+  Dropped, and STYLE_GUIDE now says why in the tag section: a person-name
+  tag silently duplicates the wikilink graph, cannot be followed, never
+  appears in `bin/wiki-connect`, and drifts the moment an alias changes.
+  The genuine concept tags (`behavioral-change`, `boundaries`,
+  `intensity`, `trust`, `consistency`, and `language`/`taste`/`vocabulary`
+  from the lexicon page) were registered properly in both `VALID_TAGS` and
+  STYLE_GUIDE, which is the documented way to keep the set closed.
+- **Two retracted-claim hits** — `ally-object-of-fixation-accepted`
+  appearing live on `ally-lubin-2026-08-26-update.md:80` and
+  `2026-08-26-dan-consistency-test.md:97`. Worth being precise about
+  these, because the finding is that the gate was right for the wrong
+  reason: **both pages were already denying the claim** ("was fabricated
+  by the ingest process", "stays fabricated"). The gate cannot read a
+  negation; STYLE_GUIDE rule 9's `> **CORRECTED [date]:**` blockquote is
+  the form that makes a denial machine-visible, and neither page used it.
+  Wrapped. This is the gate working as designed — a page that denies a
+  retracted claim in bare prose is one careless edit away from asserting
+  it.
+- `vocabulary-lexicon.md` — listed `wiki/mind/concepts/the-cool-metric`
+  under `sources:`, which is what `bin/wiki-climb check` was red about: a
+  wiki page is a premise, not a source, and the distinction is the whole
+  basis of the climb gate. Removed (the typed edge to that page already
+  carried the relationship). Also `knowledge: curated`, another invented
+  value → `mixed`; and one mojibake fragment mid-sentence.
+
+**Two real tool bugs surfaced, neither of them cosmetic:**
+
+1. **`bin/wiki-digest` crashed outright** (`AttributeError`, exit 1) the
+   moment a page carried the inline empty form `synthesizes: []`. Its
+   premise-count regex assumed the multi-line list form and called
+   `.group(1)` on an unchecked `re.search`. Because `bin/wiki-check` runs
+   the generators *first*, this took the whole chain red and would have
+   blocked every commit in the repository until someone deleted the
+   offending page. Extracted `synthesizes_count()` with the empty case
+   handled, and used it for the summary count too — an empty block now
+   correctly reports zero premises rather than being counted as a page
+   that reasons from others.
+2. **`index.md` misreported the wiki's size** — interests claimed 139
+   against an actual 140, the drift the lint gate exists to catch, from
+   `vocabulary-lexicon.md` being added without the master index being
+   touched. This was also the single failing unit test
+   (`test_real_index_is_current`); 125/125 pass now.
+
+**Orphans wired rather than tolerated.** Eight pages had no inbound
+wikilink. All eight are now reachable: the three `2026-08-26` timeline
+events from `wiki/timeline/index`, the four dated addenda nested under
+their subjects in `wiki/people/index`, and `vocabulary-lexicon` from both
+`wiki/interests/index` (a new `language` section) and a real prose
+paragraph in `the-cool-metric.md` — the page it already claimed a typed
+edge to but which had never mentioned it in body text. Worth noting the
+asymmetry that caused this: a typed edge in frontmatter does **not**
+satisfy the orphan check, and shouldn't — a reader following the wiki
+never sees frontmatter.
+
+**Gates:** `bin/wiki-lint` 22 errors → **0** (141 warnings, all
+pre-existing `## Related` footers and advisory size); `bin/wiki-connect
+check` 0 errors; `bin/wiki-climb check` 1 error → **0**, 0 stale;
+`bin/wiki-freshness` in sync; 125/125 tests pass. First clean
+`bin/wiki-check` on this repo in three sessions.
+
 ## [2026-08-26] climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
 
 `bin/wiki-climb candidates` flagged a link-dense cluster —

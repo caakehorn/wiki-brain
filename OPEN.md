@@ -9,8 +9,8 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 46 |
-| Open gaps | 467 |
-| Answered, awaiting ingest | 0 |
+| Open gaps | 466 |
+| Answered, awaiting ingest | 3 |
 | Standing predictions | 55 |
 
 ## Answered, awaiting ingest
@@ -21,7 +21,12 @@ what is missing is the pass that corrects the page and every page that
 inherited the gap, then runs `bin/wiki-gaps clear <page>`. Cheapest work
 here — no new source required, and the answer is already written down.
 
-_Nothing staged._
+- **[[wiki/mind/profile/linguistic-profile]]** — staged 2026-08-27, 1 answer
+  - manual note
+- **[[wiki/people/ally-lubin-cognitive-profile]]** — staged 2026-08-27, 1 answer
+  - Whose result is the screenshot, and when was it taken? The image carrie…
+- **[[wiki/places/117-belmont-circle]]** — staged 2026-08-27, 1 answer
+  - Whether the sale actually closed, when, to whom and for how much is und…
 
 ## Live contradictions
 
@@ -312,7 +317,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (170)
+### people (169)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — **The `known_for` line is now quoted outside the wiki, and the page owes it a harder look.** *"The six-year relationship that occupied the attachment slot without ever activating it"* was cited in a sage answer published 2026-08-21 as evidence that stability w
@@ -333,7 +338,6 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/ally-lubin]]** — **~107 email handle messages are unaccounted for.** The wiki previously claimed 907 email messages; the corrected count is 800. The discrepancy is in the sent direction — we have 563 sent, the wiki claimed 670. The missing messages may be in an export not avai
 - **[[wiki/people/ally-lubin]]** — **Negative result, recorded:** she does not appear in `contacts.csv` with an address, in the GEDCOM, in the Twitter export, or in the Facebook search history. The Model Mayhem and "boca raton ally lubin" searches Dan describes on 2019-08-22 are from Google, wh
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — Each of these is answerable by the operator in a paragraph.
-- **[[wiki/people/ally-lubin-cognitive-profile]]** — **Whose result is the screenshot, and when was it taken?** The image carries no identifying metadata. Did Ally send it to Dan directly, and on what date? The original `IMG_2320.heic` may carry EXIF that the screenshot destroyed.
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **What was her state when she took it?** The 92% Turbulent is the load-bearing figure and neuroticism instruments are state-sensitive. A test taken inside a bad week and one taken inside a good month are different data.
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **Did she report the result herself, or was it forwarded?** The visible page is the results email, which implies she had the account.
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **Has she ever tested before?** She asserted ENFP in December 2018 with enough confidence to argue about it, which suggests a prior result rather than a guess.
@@ -487,7 +491,7 @@ new knowledge available, because no new source is required.
 
 ### places (10)
 
-- **[[wiki/places/117-belmont-circle]]** — Whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at "pending." The earlier failed listing is inferred from four words and has no independent trace. The nursing home is still unnamed. The exact year the caregivi
+- **[[wiki/places/117-belmont-circle]]** — _All recorded gaps have been answered and are staged below._
 - **[[wiki/places/307-e-76th-st]]** — Jim Blanchard's actual role at this address is unconfirmed beyond the operator's own account — a targeted search by his email (`jtblanchard66@gmail.com`) or phone across the fuller export set (not just the primary dump) might surface more. Whether Dan or Annie
 - **[[wiki/places/derrick-avenue]]** — 1. **Street numbers.** Only one is recorded anywhere — 278, and only because it caught fire. Which house is the Ulmers', and whether Fran's Belmont Circle lot fronts Derrick or merely corners it, are both unresolved.
 - **[[wiki/places/derrick-avenue]]** — 2. **Whose houses.** *"I saw al coming down Derrick. Must have been at your moms"* (2018-05-11) puts Dan's mother in the same orbit, but the corpus does not fix which addresses on or off Derrick belong to whom in which years.
