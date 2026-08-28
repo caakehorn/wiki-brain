@@ -56,13 +56,18 @@ knowledge. Process top-down; strike entries as done.
   prose mention is now a real wikilink. Typed edges added both directions,
   each with a load-bearing claim.
 
-## [11.9] wiki/self/context-core.md <-> wiki/timeline/events/timeline.md
+## [11.9] wiki/self/context-core.md <-> wiki/timeline/events/timeline.md **(DONE 2026-08-28)**
 - shared source: `raw/self/facebook/facebook-ihatedanfrank/`
 - shared source: `raw/self/dox-md/Gemini-_18.md`
 - wiki/self/context-core.md names 'timeline' unlinked
 - wiki/timeline/events/timeline.md names 'context_core_expanded' unlinked
 - co-cited from 3 pages
-- [ ] type: ______  claim: ______
+- type: evidenced-by (context-core from timeline) / evidences (inverse) —
+  the "unlinked" signals were false positives (generic word uses, a
+  sources: path), but a real relationship existed underneath: both pages
+  are built in part from the same LIFE_EVENTS_CALENDAR.md extraction,
+  context-core as the curated cross-check and timeline.md as the near-raw
+  event list. Typed both directions.
 
 ## [11.2] wiki/mind/concepts/node-locking.md <-> wiki/self/gemini-activity/gemini-activity.md
 - shared source: `raw/self/dox-md/Gemini-_07.md`

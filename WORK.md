@@ -15,12 +15,20 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (0)
+## Obligations (3)
 
-None. No question is parked, no answer is staged, no premise has moved
-under a page that reasons from it, and every portal edit has had its pass.
+Somebody or something is waiting on each of these. Drain from the top.
 
-## Standing work (195)
+Priority: **0** failing gate · **1** parked question · **2** staged answer ·
+**3** stale premise · **4** unnormalised portal edit.
+
+| P | Kind | What | Where | Since |
+|---|---|---|---|---|
+| 3 | stale | premise wiki/mind/synthesis/estate-money-spine.md moved 2026-08-28, after this page's 2026-… | `wiki/places/the-unpapered-address.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/the-deferred-audit.md moved 2026-08-28, after this page's 2026-… | `wiki/places/the-unpapered-address.md` | 2026-08-28 |
+| 3 | stale | premise wiki/places/155-virginia-ave.md moved 2026-08-28, after this page's 2026-08-27 | `wiki/places/the-unpapered-address.md` | 2026-08-28 |
+
+## Standing work (194)
 
 The campaign. Worked top-down by choice rather than drained, and each line
 below is a pointer — the file named is where the work itself is written, and
@@ -30,5 +38,5 @@ the only place to strike an entry.
 |---|---|---|---|---|
 | 5 | ingest | 38 | `queue.md` | sources ingested partially or not at all |
 | 6 | climb | 25 | `synthesis-queue.md` | clusters unclimbed and unrejected |
-| 6 | connect | 86 | `connection-queue.md` | mined edge pairs, untyped and unrejected |
+| 6 | connect | 85 | `connection-queue.md` | mined edge pairs, untyped and unrejected |
 | 7 | backlog | 46 | `BACKLOG.md` | standing campaign entries |

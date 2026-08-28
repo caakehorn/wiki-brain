@@ -14,10 +14,10 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 519 |
-| Pages touched in the last 14 days | 195 |
+| Pages touched in the last 14 days | 196 |
 | Pages reasoning from other pages (`synthesizes:`) | 48 |
-| Live contradictions | 46 |
-| Open gaps | 480 |
+| Live contradictions | 44 |
+| Open gaps | 481 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -47,7 +47,7 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-28** — 6 pages
+**2026-08-28** — 36 pages
   - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
   - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
@@ -60,12 +60,18 @@ this is the state of the thing.
   - constitution-pass | mind | wiki/mind/synthesis/the-embedded-objective
   - connect | mind, self | connection-queue.md (totality-themes <-> context-core)
   - constitution-pass | mind | wiki/mind/synthesis/dormancy-not-exit
+  - constitution-pass | mind | wiki/mind/synthesis/estate-money-spine
+  - close | people | wiki/people/alexis-armel — two operator-volunteered captures fully ingested
+  - constitution-pass | mind | wiki/mind/synthesis/supply-network
+  - connect | self, timeline | connection-queue.md (context-core <-> timeline.md)
+  - constitution-pass | mind | wiki/mind/synthesis/alias-as-periodization
+  - constitution-pass | mind | wiki/mind/synthesis/music-as-identity
 
-**2026-08-27** — 9 pages
+**2026-08-27** — 6 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
   - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
 
-**2026-08-26** — 79 pages
+**2026-08-26** — 58 pages
   - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
   - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
@@ -90,7 +96,7 @@ this is the state of the thing.
   - close | people | Libby is Libby Titus, she died in October 2024, and the corpus had her married name all along
   - report | mind | texting deviance audit — the operator's model of his own texting was two-thirds wrong
 
-**2026-08-22** — 6 pages
+**2026-08-22** — 4 pages
   - answer | mind | what would make Dan happy — he answered it himself in 2025, and the record has already run the experiment
   - fix | people | a fourth portal incident, a duplicated H1 on annie-ulmer, and the freshness gate red on main
   - fix | people | the stale-snapshot clobber recurred on ally-lubin, six hours after the last one
@@ -114,7 +120,7 @@ have moved since.
 - [[wiki/mind/concepts/chaos-preference]] — 2 premises
 - [[wiki/mind/concepts/the-cool-metric]] — 3 premises
 - [[wiki/mind/politics/axioms]] — 5 premises
-- [[wiki/mind/synthesis/alias-as-periodization]] — 5 premises
+- [[wiki/mind/synthesis/alias-as-periodization]] — 6 premises
 - [[wiki/mind/synthesis/annual-volume-suz]] — 1 premise
 - [[wiki/mind/synthesis/attachment-trauma-bond]] — 5 premises
 - [[wiki/mind/synthesis/august-grievance-verdict]] — 7 premises
@@ -125,13 +131,13 @@ have moved since.
 - [[wiki/mind/synthesis/estate-money-spine]] — 6 premises
 - [[wiki/mind/synthesis/failure-to-launch]] — 17 premises
 - [[wiki/mind/synthesis/fayette-return]] — 6 premises
-- [[wiki/mind/synthesis/instrument-is-subject]] — 4 premises
+- [[wiki/mind/synthesis/instrument-is-subject]] — 5 premises
 - [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] — 6 premises
-- [[wiki/mind/synthesis/music-as-identity]] — 3 premises
+- [[wiki/mind/synthesis/music-as-identity]] — 4 premises
 - [[wiki/mind/synthesis/no-platonic-channel]] — 9 premises
 - [[wiki/mind/synthesis/read-receipt-forensics]] — 2 premises
 - [[wiki/mind/synthesis/single-channel]] — 8 premises
-- [[wiki/mind/synthesis/supply-network]] — 9 premises
+- [[wiki/mind/synthesis/supply-network]] — 11 premises
 - [[wiki/mind/synthesis/the-binary-verdict]] — 13 premises
 - [[wiki/mind/synthesis/the-cato-seat]] — 9 premises
 - [[wiki/mind/synthesis/the-commissioned-self]] — 10 premises

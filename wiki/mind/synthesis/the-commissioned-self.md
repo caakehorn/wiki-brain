@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-27
+date_modified: 2026-08-28
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
@@ -66,6 +66,14 @@ connections:
 ---
 
 # The Commissioned Self
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/mind/synthesis/instrument-is-subject]] (2026-08-28), which added a
+> constitution-pass mechanism section: Ti-dominance explains why the
+> exocortex prompt's evidentiary standard takes the specific shape it does.
+> This page reasons from that page's general "instrument is also a subject"
+> claim, not from the new mechanism section. **No claim on this page is
+> affected.**
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/profile/intp]] and [[wiki/mind/profile/enneagram-5w4]] (both

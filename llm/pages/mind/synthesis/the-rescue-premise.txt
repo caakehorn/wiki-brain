@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-22
-date_modified: 2026-08-27
+date_modified: 2026-08-28
 date_range_start: 2026-08-16
 date_range_end: 2026-08-22
 tags: [relationships, trauma-bond, attachment, forensic-analysis, future]
@@ -62,6 +62,14 @@ connections:
 ---
 
 # The Rescue Premise — What Is Actually Different About the August 2026 Rupture
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/mind/synthesis/dormancy-not-exit]] (2026-08-28), which resolved a
+> standing contradiction over whether a five-day tenure figure belonged to
+> Franki Faris or to Alexis Armel's 2013 displacement — a Uniontown-era,
+> pre-Annie correction touching neither the June 1 severance, the July–August
+> reentanglement, nor the August 2026 rupture this page reasons about. **No
+> claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-27]:** flagged stale against
 > [[wiki/people/ally-lubin-cognitive-profile]] (2026-08-27), which closed its

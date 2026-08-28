@@ -6,7 +6,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -54,8 +54,8 @@ connections:
     type: evidenced-by
     claim: "The measurement of reactivation bandwidth: 2,044 days of total silence answered in one minute, which shows dormancy in this graph involves no decay of the channel at all."
   - page: wiki/people/franki-faris
-    type: contradicts
-    claim: "The control that bounds the rule: an occupancy of days in 2013 produced no message corpus and no later trace, so persistence is earned by sustained tenure rather than granted to everyone who passes through — the five-day figure itself is contested as of 2026-08-02 and may have been transposed from Alexis's stay at 155 Virginia Ave."
+    type: evidenced-by
+    claim: "The control that bounds the rule: an occupancy resolved 2026-08-28 to have collapsed immediately produced no message corpus and no later trace, so persistence is earned by sustained tenure rather than granted to everyone who passes through — the five-day figure once attached to this occupancy is now corrected to Alexis's displacement at 155 Virginia Ave, which makes the control sharper, not weaker."
   - page: wiki/places/155-virginia-ave
     type: evidenced-by
     claim: "Lair-continuity is the spatial signature of the same policy — the apartment leased for Alexis is the apartment Annie moves into, so the container is retained while the occupant is swapped."
@@ -66,8 +66,8 @@ connections:
     type: causes
     claim: "A graph that admits people slowly and releases them never must concentrate over time, so the no-exit rule is the mechanism that produces the contact Gini rather than a separate finding about it."
   - page: wiki/timeline/events/franki-fireworks-day-2013
-    type: contradicts
-    claim: "The capture attaches five days to Alexis's stay at 155 Virginia Ave, not to Franki's tenure, which puts this page's only quantity — the number defining its tenure floor — in question while leaving the qualitative control intact."
+    type: evidenced-by
+    claim: "This capture, now corroborated by a second independent 2026-08-27 statement, attaches five days to Alexis's stay at 155 Virginia Ave, not to Franki's tenure — resolving what was an open question over this page's tenure-floor number into a settled, sharper figure."
   - page: wiki/people/ally-lubin
     type: instantiates
     claim: "The channel never closes and never has to — but the operator's 2026-08-20 answer puts a boundary on the rule: the June 1, 2026 burst went to an email handle Ally does not monitor and was never delivered, and she had concluded she was blocked. At least one silence in this tie is a routing artifact rather than dormancy, so a gap is not evidence of the rule until the handle it was sent to is checked."
@@ -184,7 +184,7 @@ people who have vacated it — and finds that they are all still here.
 | [[wiki/people/menore]] | Apr 2013 (Dan leaves NYC) | Dormant, then reactivated Nov 2018; ran continuously to Feb 2025 — and the counterparty is **confirmed still operating in 2026** | **12 years, one gap** |
 | [[wiki/places/155-virginia-ave]] | — | Container retained across the occupant swap | — |
 | [[wiki/people/james-dee]] | Jul 2025 (56 days) | Residual contact only — two unanswered writes, then one in-person confrontation | **~2 months, then thin** |
-| [[wiki/people/franki-faris]] | 2013 (5 days) | **Nothing.** No corpus, no trace, `status: closed` | **none** |
+| [[wiki/people/franki-faris]] | 2013 (immediate collapse) | **Nothing.** No corpus, no trace, `status: closed` | **none** |
 
 Five of the seven carry the rule outright. One is the control, and it is what
 makes the rule a claim rather than a mood. The seventh —
@@ -403,6 +403,13 @@ the bandwidth it had. Every case in the table behaves this way, and it is why
 
 ## The control, and where the rule stops
 
+> **Read this section against the 2026-08-28 resolution below before quoting
+> a figure from it.** The "five days" this section originally attached to
+> Franki's own occupancy is corrected there to Alexis's displacement at 155
+> Virginia Ave; Franki's actual tenure is "immediately, and it went nowhere"
+> — shorter than five days, which sharpens rather than weakens everything
+> this section argues from the control.
+
 [[wiki/people/franki-faris|Franki Faris]] is the counterexample, and the page is
 better for having it. She occupied the primary slot for **five days** in the
 summer of 2013, during a brief split from Alexis. She has no message corpus, no
@@ -476,29 +483,38 @@ handled in the re-check immediately below.
 > already queued there — those handles should divide by tenure, not by whether
 > they were ever answered.
 
-> **CONTRADICTION [2026-08-02] — the "five days" may not be Franki's at all.**
-> An operator capture ingested on 2026-08-02
-> ([[wiki/timeline/events/franki-fireworks-day-2013]]) attaches five days to a
-> *different person in the same episode*: **Alexis** stayed at
+> **RESOLVED [2026-08-28] — was CONTRADICTION [2026-08-02]: the "five days"
+> is not Franki's, and a second capture settles it.** An operator capture
+> ingested on 2026-08-02
+> ([[wiki/timeline/events/franki-fireworks-day-2013]]) first attached five
+> days to a *different person in the same episode*: **Alexis** stayed at
 > [[wiki/places/155-virginia-ave|155 Virginia Ave]] *"for 5 days before returning
-> to carmichaels to her parents."* Of Franki's own tenure the capture says only
-> that she *"got sick of me basically immediately and it went nowhere."*
+> to carmichaels to her parents."* Of Franki's own tenure that capture said only
+> that she *"got sick of me basically immediately and it went nowhere."* At
+> the time neither reading was adopted, because the wiki's original five-day
+> figure traced to the Gemini-58 and DANSYNTH self-narrations — later
+> AI-assisted reconstructions, exactly the class of material most likely to
+> have transposed one five-day span onto the other person a week away from
+> it — and one capture against one reconstruction wasn't enough to call it.
 >
-> The wiki's five-day figure traces to the Gemini-58 and DANSYNTH
-> self-narrations — later AI-assisted reconstructions, and exactly the class of
-> material most likely to have transposed one five-day span onto the other person
-> a week away from it. Per [[wiki/mind/synthesis/instrument-is-subject]], that is
-> testimony; the capture is first-person operator memory, which is also not
-> residue. **Neither is adopted.**
+> **A second, independent operator capture (2026-08-27) removes the tie.**
+> Volunteered separately, with no reference to the first, it states again:
+> *"She [Alexis] spent 5 days at Virginia ave and then went to her moms."*
+> Two independent first-person statements now agree, so per
+> [[wiki/mind/synthesis/instrument-is-subject]]'s own standard this has
+> crossed from single-witness testimony into corroborated residue-adjacent
+> fact. **The five days belong to Alexis. Franki's occupancy is confirmed,
+> across both captures, as collapsing immediately rather than lasting a
+> measured span.**
 >
-> What this costs the page, stated plainly: the control's *duration* is the only
-> quantity in it, and the tenure floor is defined by that quantity. If Franki's
-> occupancy was "immediately, and it went nowhere" rather than five measured
-> days, the control still holds — it holds *harder*, since a shorter tenure makes
-> the floor argument stronger, and nothing about her non-persistence changes. What
-> breaks is the number. **Every use of "five days" on this page should be read as
-> "below the floor, magnitude uncertain" until a primary source fixes it.** The
-> qualitative control survives; the figure does not.
+> What this does to the page, stated plainly: exactly what the 2026-08-02
+> block predicted it would if this resolution landed. The control **holds
+> harder** — a shorter, now-settled Franki tenure ("immediately, and it went
+> nowhere") makes the tenure-floor argument sharper, not weaker, and nothing
+> about her non-persistence changes. Every use of "five days" on this page
+> now refers to Alexis's displacement, not to the control case's own
+> duration, and [[wiki/people/franki-faris]] and
+> [[wiki/timeline/events/franki-fireworks-day-2013]] are corrected to match.
 
 ## What this explains
 

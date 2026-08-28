@@ -7,7 +7,7 @@ status: closed
 knowledge: mixed
 importance: high
 date_created: 2026-06-23
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 date_range_start: 2009-10-01
 date_range_end: 2025-02-19
 sources:
@@ -25,6 +25,8 @@ sources:
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/lucasthomas_eu0ir1uckq/message_1.html
   - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/qymuchauiq/message_1.html
+  - raw/people/captures/2026-08-27_222932_gap-alexis-armel.md
+  - raw/people/captures/2026-08-27_223406_gap-alexis-armel.md
 tags: [relationships, attachment, infidelity, nyc-era, uniontown-era]
 infobox:
   name: "Alexis Armel"
@@ -99,6 +101,18 @@ connections:
   - page: wiki/people/franki-faris
     type: co-occurs
     claim: "Dan typed her INFP/ISFP 'Idealist' in the same July 9-31, 2013 self-typology batch that typed Franki ESFP — a reading of the six-year partner that had been sitting on the five-day rebound's page instead of here."
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: evidences
+    claim: "A 2026-08-27 operator capture narrows that page's own stated gap — no dated record placed the Danielle-ends/Alexis-begins sequence to specific weeks — by dating the meeting to a Thanksgiving 2009 trip home, a few months after the August 2009 graduation."
+  - page: wiki/health/chemical-architecture
+    type: causes
+    claim: "Alexis supplies thirty Roxicet pills over the Thanksgiving weekend they meet, restarting the opiate use that page's own timeline says was 'truly kicked' at that point — the previously unnamed final active-use episode immediately preceding the February 17, 2010 Suboxone stabilization seven weeks later."
+  - page: wiki/people/zach-clingan
+    type: co-occurs
+    claim: "A Christmas 2009 party at Suz's house is the dated origin of Dan's 'arch rival' framing of Clingan — an accusation that Alexis had been sexually involved with him in his car outside the party ends their friendship on the spot, five years before either the 2014 'drug people' taxonomy or the December 2015 'THAT is who introduced me to drugs' outburst."
+  - page: wiki/people/suzanne-frank
+    type: causes
+    claim: "A March 2014 washing-machine incident Dan says he still does not understand is Suz's stated reason for throwing Alexis out of the house — the second of at least two Suz-driven evictions this page now documents for Alexis, five months of concealment following this one."
 ---
 
 # Alexis Armel
@@ -150,6 +164,53 @@ nursing me back to health."* The overlap is not clean. Context-core records
 the sequence flatly: Danielle ends, Dan having cheated, and Alexis begins.
 [[wiki/people/danielle-onesi|Danielle Onesi]] and Alexis are listed together
 on Dan's own Facebook profile under "Previous relationships," in that order.
+
+> **GAP CLOSED [2026-08-28] — the meeting is now dated and staged, narrowing
+> a gap [[wiki/timeline/periods/full-sail-2008-2010]] stated directly:** *"No
+> message corpus or dated record narrows the 'Danielle ends, Alexis begins'
+> sequence to specific weeks within the eighteen-month window."* An operator
+> capture volunteered 2026-08-27 supplies the missing sequence. Dan graduated
+> Full Sail in **August 2009** and was living in Orlando when he came home to
+> PA for **Thanksgiving**, a few months later — the trip on which he meets
+> Alexis. They spend two nights together; a week or two after that he buys her
+> a one-way ticket to Orlando, unsure himself whether it was meant to be
+> permanent. Filed at
+> `raw/people/captures/2026-08-27_222932_gap-alexis-armel.md`.
+>
+> **The relapse the corpus had never connected to a cause.**
+> [[wiki/health/chemical-architecture]] already dates Suboxone stabilization
+> to February 17, 2010, "at Full Sail's end," without naming what the final
+> active-use episode before it was. This capture names it: Alexis brings
+> **thirty Roxicet pills** with her over the Thanksgiving weekend, and *"the
+> opiate addiction that Dan had truly kicked while in college is back in
+> force."* A supply line forms almost immediately in Orlando — a friend
+> called **Spetch**, described as a childhood friend and roommate of
+> [[wiki/people/jason-bermejo|Jason Bermejo]], drives from Winter Park to
+> Ocala daily to keep it running. The full causal chain — Thanksgiving
+> relapse, escalation over Christmas, stabilization seven weeks later — is
+> written up on [[wiki/timeline/periods/full-sail-2008-2010]] and
+> [[wiki/health/chemical-architecture]] rather than duplicated here.
+>
+> **Christmas 2009: the trip home that ends a friendship and nearly extends
+> itself past Orlando.** Dan and Alexis drive back to Pennsylvania for
+> Christmas, and Dan records being nervous about whether she would return
+> with him. The week produces two dated, load-bearing events, both written up
+> in full elsewhere: a party at Suz's house (337 Saratoga) that ends Dan's
+> friendship with [[wiki/people/zach-clingan|Zach Clingan]]
+> ([[wiki/people/zach-clingan|full account there]]), and an overnight ski
+> trip to Seven Springs the following night with a named group including
+> [[wiki/people/jason-bermejo|Jason Bermejo]] and
+> [[wiki/people/josh-brannan|Josh Brannan]]. What belongs on this page
+> specifically: the pills "become a determining factor of how and when we
+> leave," turning a planned visit into an **eight-day stay** — Dan draws the
+> parallel himself to a later trip extended the same way during the
+> [[wiki/timeline/events/shelbie-annie-threesome-april-2019|Annie/Shelbie
+> threesome]] years later, a repeated shape (a supply constraint at the point
+> of departure dictating the length of a trip) rather than a one-off. He
+> returns to Orlando with one of the worst flus of his life, which he later
+> connects — speculatively, his own theory, not a diagnosis — to the same
+> "new girl" adjustment reaction he reports again a few months into dating
+> Annie.
 
 **The relationship's first documented rupture happens roughly two weeks into
 it, in 2009, and it is the earliest event on this page.** Dan moved Alexis to
@@ -249,22 +310,80 @@ is not a thing the later, retrospective accounts of her ever suggest she did.
 
 ## The 2013 break, and the return
 
-The single interruption in six years is five days long. In July 2013, back
-in Pennsylvania after the New York chapter closed, Dan spent a fireworks day
-with [[wiki/people/franki-faris|Franki Faris]]; roughly ten minutes into the
-car ride Alexis texted **"I saw your messages. I know you're with Franki."**
-The relationship's only pre-terminal rupture is therefore dated to its first
+The single interruption in six years is five days long — and that figure
+belongs to *her*, not to Franki. In July 2013, back in Pennsylvania after
+the New York chapter closed, Dan spent a fireworks day with
+[[wiki/people/franki-faris|Franki Faris]]; roughly ten minutes into the car
+ride Alexis texted **"I saw your messages. I know you're with Franki."** The
+relationship's only pre-terminal rupture is therefore dated to its first
 hour, and it is dated by her — an act of detection, not a drift
-([[wiki/timeline/events/franki-fireworks-day-2013]]). He went back to her
-within weeks, and later assessed the interval as an error of self-report:
-*"I really didn't have the romantic feelings for franki that i said i did at
-the time."*
+([[wiki/timeline/events/franki-fireworks-day-2013]]).
+
+> **GAP CLOSED [2026-08-28] — the return took months, not weeks, and the
+> corpus now has the whole interval.** This page previously read "he went
+> back to her within weeks." An operator capture volunteered 2026-08-27
+> (`raw/people/captures/2026-08-27_223406_gap-alexis-armel.md`) supplies the
+> full sequence and it is longer and more specific than that: Alexis spent
+> her five days at [[wiki/places/155-virginia-ave|155 Virginia Ave]], then
+> went to her mother's in Carmichaels — matching, independently, the
+> 2026-08-02 capture already on record
+> ([[wiki/timeline/events/franki-fireworks-day-2013]]) — started dating a man
+> named **Chris Tressler**, and moved with him to New York. One week after
+> that move, in **October 2013**, she came home to Pennsylvania and saw Dan;
+> he convinced her not to go back, and she didn't. She never retrieved the
+> belongings she had left in New York, and the two of them "just continued
+> on as if it didn't fall apart in July." Two independent operator
+> statements, 2026-08-02 and 2026-08-27, now agree on the five-day figure at
+> the same address, which is why [[wiki/mind/synthesis/dormancy-not-exit]]'s
+> standing contradiction over whose tenure the number belongs to is resolved
+> below rather than left open a third time.
+
+He later assessed the interval as an error of self-report: *"I really didn't
+have the romantic feelings for franki that i said i did at the time."*
 
 The five-day Franki episode and the six-year Alexis relationship together
 make the point that neither makes alone. A name that occupied a slot for
 five days and a person who occupied one for six years were both, in the
 end, held rather than released — which is the observation
-[[wiki/mind/synthesis/dormancy-not-exit]] is built on.
+[[wiki/mind/synthesis/dormancy-not-exit]] is built on. It is now Alexis's
+five days, not Franki's, that supplies that page's tenure-floor control.
+
+## The hidden year (2014)
+
+**A second eviction, not the one this page had been carrying.** The same
+2026-08-27 capture continues the timeline past the October 2013
+reconciliation into a second Suz-driven rupture that this page had not previously
+distinguished from the one already documented under
+[The end, in one day](#the-end-in-one-day). "A few months later, in March" —
+2014, on the sequence as given — Suz "had enough with Alexis" after Alexis
+took the household's washing machine apart, an incident Dan says he still
+does not understand, and threw her out of the house. What followed was not
+a separation: for **five months** Dan snuck her in and out of the house,
+hidden in a closet when necessary, so that she continued to live with him in
+secret. In the following spring or summer they moved in with a woman named
+**Leah Tedesco** (detail deferred by the operator for a later pass), and by
+**Christmas 2014** the two of them had arrived at
+[[wiki/places/155-virginia-ave|155 Virginia Ave]] — the start of the
+[[wiki/people/zachariah-harshman|Zachariah Harshman]] supply era documented
+there. Alexis started working at CT's that summer (2015); Annie started at
+the same restaurant that October; Dan met Annie in November, and Alexis left
+within a day or two.
+
+> **This narrows, but does not settle, an existing open contradiction.**
+> [[wiki/places/155-virginia-ave]] and
+> [[wiki/legal/2015-possession-arrest]] both already carry a `CONTRADICTION`
+> over an *earlier* operator account of Alexis "secretly living at 337
+> Saratoga... hidden for roughly four months after being thrown out," placed
+> immediately before the January 2015 lease and the February 2015 arrest.
+> This capture describes a similarly-shaped episode — thrown out, hidden,
+> months long — but dates it a full year earlier (March–August 2014) and
+> adds an entirely undocumented intermediate residence (Leah Tedesco's) that
+> the four-month account never mentions. The two tellings may describe the
+> same event remembered at different resolutions, two separate evictions in
+> as many years, or a compression in one of the two accounts. Both are T0
+> operator testimony of different specificity, not a primary record against
+> testimony, so this page does not pick a winner — it is flagged on both
+> affected pages so nobody mistakes either account for settled.
 
 ## The end, in one day
 
@@ -273,7 +392,12 @@ Avenue]]** — "the Alexis lair," known locally as Scerba's old place — during
 the relationship's endgame, having spent roughly four months before that
 secretly housing her at [[wiki/places/337-saratoga-drive|337 Saratoga]] after
 she was thrown out, the window that brackets the
-[[wiki/legal/2015-possession-arrest|February 2015 possession arrest]].
+[[wiki/legal/2015-possession-arrest|February 2015 possession arrest]]. **A
+second, differently-dated account of a similarly-shaped episode** — thrown
+out, hidden for months, on no fixed timeline this page had previously
+recorded — now exists a full year earlier, in 2014; see
+[The hidden year (2014)](#the-hidden-year-2014) above for both tellings held
+side by side rather than reconciled.
 
 The end itself is compressed into a week in late 2015 and the corpus dates
 every beat of it:
@@ -564,10 +688,32 @@ would tell the two apart.
 The length of the relationship is quoted three different ways and the corpus
 does not settle it: Gemini's profile says 2010–2015, the bootloader says
 November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had
-"dated her for 7 years." The Twitter record favours a late-2009 start. Nothing in the corpus records how she
+"dated her for 7 years." The Twitter record favours a late-2009 start.
+
+> **GAP NARROWED [2026-08-28].** The 2026-08-27 capture dates the meeting
+> itself to a **Thanksgiving trip home, a few months after the August 2009
+> Full Sail graduation** — i.e., November 2009. That is consistent with the
+> bootloader's "November 2009" start and the Twitter record's "late 2009"
+> lean, and against the Gemini profile's "2010." It does not settle the "7
+> years" Dan told Lucas Thomas in 2017 (six years from Nov 2009 to Nov 2015
+> is the best-supported span; the extra year is unexplained and may simply be
+> loose retrospective rounding).
+
+Nothing in the corpus records how she
 learned about Annie, or whether the two women had any relationship as
 coworkers before the November 2018 arrangement. Her life after February 2025
 is entirely undocumented, as is whether she knows any of the rest of this
 exists. And the CATO bootloader's claim that Zac Shumar was also Annie's
 first has no primary source anywhere — it is an AI compression of the corpus
 repeating itself, and it should not be cited as fact until a message says it.
+
+**New gaps opened by the 2026-08-28 ingest.** The washing-machine incident
+that triggered the March 2014 eviction is recorded by the operator himself as
+not understood ("a story i still don't understand") and is not explained
+further here. The Leah Tedesco cohabitation is named but explicitly deferred
+("story later") and has no page or further detail yet. And the exact
+relationship between this page's now-two accounts of a Suz-driven eviction
+and months-long concealment (2014 here, late-2014/early-2015 on
+[[wiki/legal/2015-possession-arrest]] and [[wiki/places/155-virginia-ave]])
+is unresolved — see the note under [The hidden year
+(2014)](#the-hidden-year-2014).

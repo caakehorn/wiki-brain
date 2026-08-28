@@ -5991,3 +5991,263 @@ reciprocal typed edge; no member date_modified bumped.
 Gates: `bin/wiki-lint` 0 errors / 29 warnings (one fewer); `bin/wiki-connect
 check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors, 0 warnings;
 `bin/wiki-freshness` clean. 14 of 21 backlog pages remain.
+
+## [2026-08-28] close | people | wiki/people/alexis-armel — two operator-volunteered captures fully ingested
+
+**Not from a gap list — volunteered via the portal, two notes filed the same
+evening** (`raw/people/captures/2026-08-27_222932_gap-alexis-armel.md` and
+`_223406_`), staged as `pending_ingest` on the page. The portal's manual-note
+editor overwrote the first note's staging display with the second before
+either was cleared, so `bin/wiki-gaps pending` only ever saw the second — both
+captures were read from `raw/` directly and integrated in full per this
+session's user instruction to use the CLOSE protocol.
+
+**Primary target, fully rewritten around both answers.** `wiki/people/
+alexis-armel`: dates the relationship's start to a Thanksgiving 2009 trip
+home (three months after Dan's August 2009 Full Sail graduation) — closing a
+gap `full-sail-2008-2010` had stated directly; adds the Christmas 2009 trip
+(the Zach Clingan driveway rupture, a Seven Springs ski trip, an 8-day
+supply-extended stay paralleling the later Shelbie/Annie trip pattern);
+corrects "he went back to her within weeks" after the July 2013 Franki break
+to the fuller sequence (5 days at 155 Virginia Ave, her mother's, a new
+boyfriend, a brief NYC move, October 2013 reconciliation); and adds a second,
+previously undocumented 2014 eviction (a March washing-machine incident, 5
+months hidden, an intermediate Leah Tedesco residence, arrival at 155
+Virginia Ave "by Christmas 2014"). `GAP CLOSED`/`GAP NARROWED` blocks record
+each; new gaps opened (the washing-machine cause, Leah Tedesco) are stated
+rather than silently absorbed.
+
+**A real contradiction resolved, not just narrowed.** Two independent T0
+operator statements (2026-08-02 and 2026-08-27) now agree the "five days"
+belongs to Alexis's displacement at 155 Virginia Ave, not to Franki Faris's
+own tenure — corrected on `franki-faris`, `franki-fireworks-day-2013`, and
+`dormancy-not-exit` (whose tenure-floor control is sharper for it, per that
+page's own 2026-08-02 prediction of what a resolution would do).
+
+**A causal link the corpus never had.** `chemical-architecture` and
+`full-sail-2008-2010` both name, for the first time, the final active-use
+episode before the February 17, 2010 Suboxone stabilization: Alexis brings
+30 Roxicet pills over the same Thanksgiving weekend they meet, a friend
+(Spetch) runs a daily Winter-Park-to-Ocala supply line, and the episode
+resolves seven weeks later on the already-dated day-zero. Does not change
+"sixteen years, zero relapses" — supplies what preceded it.
+
+**A second, unreconciled eviction/concealment account, held open rather than
+forced.** The 2014 Suz/Alexis eviction resembles, but is dated a full year
+before, an existing account on `wiki/legal/2015-possession-arrest` and
+`wiki/places/155-virginia-ave` (thrown out, hidden ~4 months, immediately
+pre-dating the Jan 2015 lease). Both are T0 testimony of different
+specificity; flagged as a live, unresolved question on all three pages
+rather than one silently overwriting the other.
+
+**`zach-clingan`** gains its missing origin story: the Christmas 2009
+driveway accusation (Alexis and Clingan) is the dated rupture the 2014 "drug
+people" taxonomy and the 2015 "my arch rival" outburst had always assumed
+without ever documenting.
+
+**`suzanne-frank`** gains the March 2014 eviction as a new dated event —
+flagged on `suzanne-frank-personality-assessment` as new material that
+assessment has not yet incorporated, not integrated there (out of this
+pass's scope).
+
+**Staleness cascade worked through six hops**, each re-checked and confirmed
+unaffected rather than silently bumped: `dormancy-not-exit` →
+`totality-themes` → `single-channel` → `the-deferred-audit` →
+`the-configured-body` (chemical-architecture branch also touched `cocaine`);
+separately `suzanne-frank` → `annual-volume-suz` / `attachment-trauma-bond`
+/ `estate-money-spine` / `suzanne-frank-personality-assessment`, and
+`attachment-trauma-bond` → `august-grievance-verdict` →
+`morgantown-call-three-participant-ethical-analysis`. Three of the touched
+pages (`the-rescue-premise`, `attachment-trauma-bond`,
+`august-grievance-verdict`, `morgantown-call-three-participant-ethical-
+analysis`) are under the Annie moratorium — each got a bookkeeping-only
+RE-CHECKED confirmation, no new Annie narrative, fact, quote or date. Two
+legitimate staleness obligations left open rather than force-bumped
+(`alias-as-periodization`, `the-unpapered-address`) — both already on this
+session's constitution-pass backlog and will be handled in their own passes.
+
+`bin/wiki-gaps clear wiki/people/alexis-armel` run; both raw captures remain
+the permanent record.
+
+Gates: `bin/wiki-lint` 0 errors / 30 warnings (baseline, unrelated to this
+pass); `bin/wiki-connect check` 0 errors / 144 warnings (baseline — two
+missing-inverse and one mismatched-type warning introduced mid-pass, caught
+and fixed before commit); `bin/wiki-climb check` 0 errors / 4 warnings (the
+two legitimate open obligations above); `bin/wiki-freshness` clean; 125 unit
+tests pass.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/supply-network
+
+**Eighth of 21.** Had never cited `wiki/mind/profile/` despite its central
+"reliability inversion" (friend-suppliers less reliable than strangers)
+being a domain-general audit-timing rule applied to one market.
+
+**The mechanism was already sitting one page away, unnamed.** "Intimacy
+licenses failure" describes the pattern but not the engine. Enforcing a
+reliability standard on a supplier — noticing the failure, switching away —
+is an audit, in exactly the sense `the-deferred-audit` uses the word, and
+`intp`'s Ti-dominance is the same mechanism that page's own constitution
+pass (three commits ago in this session) already used for why chosen
+objects get their audits deferred: auditing a friendship risks a verdict on
+the friend*ship*, not merely a finding about the supplier. Tom is already a
+row on `the-deferred-audit`'s own two-clocks table — "model revised only
+after the mid-May 2026 supply failure... ~18 years" — and this page's
+reliability inversion turns out to be that exact rule generalized from one
+relationship to an entire market: Menore isn't more reliable because
+distance is a virtue, but because a stranger's failure costs nothing to
+notice and act on.
+
+**Declined to duplicate an adjacent page's personality-profile citations.**
+Trust 9 and Self-Consciousness 91 are already load-bearing for
+`the-deferred-audit`'s own version of this mechanism; the constitution-pass
+table records the decision not to re-cite them here as decorative, since
+this page's own argument (the cross-market generalization) doesn't need
+them independently.
+
+**Full constitution-pass table added.** 1 register moved the conclusion
+(cognitive stack); 1 explicitly declined as decorative (personality
+profile, already covered one hop away); 8 checked and found not to bear or
+already load-bearing (historical precedent, security/prosperity via
+estate-money-spine, health, romantic/relational via Annie, age/upbringing,
+geographic/ethnic, ideological, axiomatic politics); provenance gradient
+inherited by cross-reference rather than re-argued.
+
+Write-back: 2 new `synthesizes:` members (`intp`, `the-deferred-audit`),
+each with a reciprocal typed edge; `intp` edge is `evidenced-by`/`evidences`,
+`the-deferred-audit` edge is a symmetric `parallels` pair. `date_modified`
+bumped this time (a substantive new mechanism section, not a pure
+write-back) — checked dependents (`totality-themes`, `cocaine`,
+`the-configured-body`), all already current, no cascade.
+
+Gates: `bin/wiki-lint` 0 errors / 30 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors / 4 warnings
+(two pre-existing legitimate obligations, unrelated); `bin/wiki-freshness`
+clean. 13 of 21 backlog pages remain.
+
+## [2026-08-28] connect | self, timeline | connection-queue.md (context-core <-> timeline.md)
+
+**Track 2, interleaved.** The mined "unlinked" signals were false positives
+(generic word uses of "timeline," a `sources:` path mention), but a real
+relationship existed underneath: `context-core` and `wiki/timeline/events/
+timeline.md` are both built in part from the same `LIFE_EVENTS_CALENDAR.md`
+extraction — context-core as the curated, cross-checked read (its own
+Residence timeline section has already resolved several date conflicts),
+timeline.md as the near-raw auto-extracted event list. Typed edges added
+both directions.
+
+Gates: `bin/wiki-lint` 0 errors / 30 warnings (unchanged); `bin/wiki-connect
+check` 0 errors / 144 warnings (unchanged); `bin/wiki-climb check` 0 errors
+/ 4 warnings (unchanged — the two pre-existing legitimate obligations from
+prior commits, still open and still tracked for their own passes).
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/alias-as-periodization
+
+**Ninth of 21.** Already leaned on `totality-themes`' Ti-dominance account
+of the Irreversibility Firewall (renaming as identity-layer closure work)
+without ever citing `wiki/mind/profile/` directly, and had carried two days
+of accumulated staleness debt from that same dependency — resolved in the
+same pass.
+
+**A second, complementary function for the half of the rule Ti doesn't
+cover.** `totality-themes` already explains why the *name* changes at each
+period boundary (Ti-dominance treats a finished, public work as an exposed
+fact the audit apparatus could render a verdict on, so the name is
+sacrificed instead). It does not explain why the **sub-bass signature**
+specifically never turns over. `intp`'s Si-tertiary — "the vast
+high-fidelity archive," the same function `dormancy-not-exit`'s own
+constitution pass used for why nothing decays from the relational graph —
+supplies that half directly: the signature is identified post-hoc, an
+archived trait rather than a Ti-negotiated choice, so it sits outside the
+audit-and-revise cycle the name is subject to. Two functions, two halves of
+one rule, explicitly distinguished rather than blurred into one citation.
+
+**Declined a personality-profile citation as decorative** — no Big-Five
+facet added a distinct argument beyond the two cognitive-function accounts
+already carrying the rule.
+
+Write-back: 1 new `synthesizes:` member (`intp`), with a reciprocal typed
+edge; no member date_modified bumped. This page's own date_modified bumped
+(substantive new section, and the accumulated staleness needed a real
+re-check, not a bump-only clear) — checked dependents (`single-channel`,
+`totality-themes`), both already current, no cascade.
+
+Gates: `bin/wiki-lint` 0 errors / 29 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors / 3 warnings
+(one fewer — this page's own resolved); `bin/wiki-freshness` clean; 125
+tests pass. 12 of 21 backlog pages remain.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/music-as-identity
+
+**Tenth of 21.** Had never cited `wiki/mind/profile/`, and its own
+explanation for the Fall Out Boy freeze-at-boundary pattern ("the objects
+can't betray him") had never been tested against an object that
+structurally cannot betray him.
+
+**The register narrowed the conclusion, not just supported it.** A defunct
+band's studio catalog carries zero relational risk — it cannot release a
+bad record, cheat, or disappoint the way a person could — yet gets the
+identical freeze treatment the page documents for relationships. That is a
+falsifier the "can't betray him" framing does not survive. `intp`'s
+Ti-dominance supplies the sharper account: a verdict, once it holds under
+recursive collapse, is not supposed to need relitigating. The freeze is not
+defensive; it is what a closed Ti verdict looks like from outside, and it
+predicts (correctly) that the pattern generalizes to objects with zero
+relational stakes at all. New Gaps entry records the sharper prediction
+this licenses (a canonized verdict should hold even against strong external
+pressure to revise it) as untested.
+
+**Full constitution-pass table added.** 1 register moved and narrowed the
+conclusion (cognitive stack); 1 explicitly declined as adding nothing
+distinct (personality profile); the rest checked and found not to bear or
+already load-bearing (romantic/relational via the Annie happiness-ranking
+handover already central to the page).
+
+Write-back: 1 new `synthesizes:` member (`intp`), reciprocal typed edge; no
+member date_modified bumped. This page's date_modified bumped (substantive
+new section). Checked dependents (`totality-themes`), already current, no
+cascade.
+
+Gates: `bin/wiki-lint` 0 errors / 28 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors / 3 warnings
+(unchanged, pre-existing); `bin/wiki-freshness` clean; 125 tests pass. 11
+of 21 backlog pages remain.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/instrument-is-subject
+
+**Eleventh of 21 — the unusual case: this page's own conclusion is about
+repository structure, not directly about Dan**, which its own Gaps section
+already states candidly. Ran the pass in full anyway, per the standing
+instruction that it applies to every synthesis regardless of whether the
+material seems to call for it.
+
+**A register genuinely bears on the origin of the artifact, if not on the
+structural conclusion itself.** The page treats the exocortex prompt's
+evidentiary standard (unwavering honesty, no softening, residue over
+testimony) as a given. `intp`'s Ti-dominance explains why that specific
+standard exists rather than a softer one: "a system that holds under
+recursive collapse, not social consensus" is, verbatim, what the prompt's
+instructions look like once exported from a cognitive style into an
+instruction for a machine. This narrows what "the instrument is the
+subject" means — not merely that an LLM user built an LLM wiki about
+himself, but that the rigor making the wiki trustworthy and the recursion
+making it structurally blind are the same cognitive fact seen from two
+directions.
+
+**Did not overclaim the page's own boundary.** The constitution-pass table
+explicitly states what it did not do: claim the page's structural
+conclusion (about knowledge-propagation across the corpus) is "about Dan"
+the way the other 20 backlog pages are. That boundary is the page's own,
+stated honestly in its pre-existing Gaps section, and this pass respects
+rather than papers over it.
+
+Write-back: 1 new `synthesizes:` member (`intp`), with a `causes`/`caused-by`
+reciprocal edge (a mechanism claim, not merely evidentiary). This page's own
+date_modified bumped (substantive new section); cascaded to
+`the-commissioned-self` (re-checked, confirmed unaffected, bumped);
+`failure-to-launch` and `totality-themes` already current, no further
+cascade.
+
+Gates: `bin/wiki-lint` 0 errors / 27 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors / 3 warnings
+(unchanged, pre-existing, unrelated); `bin/wiki-freshness` clean; 125 tests
+pass. 10 of 21 backlog pages remain.

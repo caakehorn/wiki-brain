@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -157,6 +157,13 @@ connections:
 
 
 # Totality Themes
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/mind/synthesis/dormancy-not-exit]] (2026-08-28), which resolved a
+> standing contradiction over whether a five-day tenure figure belonged to
+> Franki Faris or to Alexis Armel's 2013 displacement. This page cites
+> `dormancy-not-exit` for the general no-delete prediction, never for the
+> Franki/Alexis figure. **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-23]:** flagged stale against
 > [[wiki/mind/concepts/attachment-model]] and

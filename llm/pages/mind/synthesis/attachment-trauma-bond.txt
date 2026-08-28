@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -83,6 +83,12 @@ connections:
 
 
 # Attachment Trauma Bond and Aura Illness
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/people/suzanne-frank]] (2026-08-28), which added a pre-Annie,
+> Alexis-era eviction/concealment episode (2013–2014, Uniontown). It touches
+> neither the Annie-era material nor any figure this page draws from Suz's
+> page. **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/people/suzanne-frank]] (2026-08-26), which gained a RE-CHECKED note

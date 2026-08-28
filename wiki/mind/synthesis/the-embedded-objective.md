@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -75,6 +75,13 @@ connections:
 ---
 
 # The Embedded Objective
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/legal/2015-possession-arrest]] (2026-08-28), which added a second,
+> differently-dated operator account of an Alexis eviction/concealment
+> episode used only to help date that page's arrest night. This page's own
+> row draws on the ARD acquisition/probation timing, not on the Alexis
+> housing chronology. **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-22]:** flagged stale against
 > [[wiki/legal/2015-possession-arrest]] (2026-08-22), which moved solely by a

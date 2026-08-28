@@ -6,7 +6,7 @@ aliases: ["Suz MBTI", "Suz Enneagram", "Suz personality type"]
 status: active
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 importance: high
 tags: [personality-profile, forensic-analysis, ai-collaboration]
 infobox:
@@ -28,6 +28,19 @@ connections:
 ---
 
 # Suzanne Frank — Forensic Personality Assessment
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/people/suzanne-frank]] (2026-08-28), which added a March 2014
+> eviction of Alexis Armel from the household over a washing-machine
+> incident. No existing claim on this page is falsified, but this is
+> genuinely new material this assessment has not incorporated: a
+> boundary-enforcement act against a household member's romantic partner,
+> which this page's own "protector for her children" framing (below) does
+> not currently account for either direction (protecting Dan by removing a
+> disruptive presence, or asserting a boundary regardless of Dan's wishes).
+> Flagged as a real gap rather than integrated here — this page's own pass
+> should read the new material and decide which reading it supports, or
+> whether it complicates the existing framing.
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/people/suzanne-frank]] (2026-08-26), which gained a `RE-CHECKED`

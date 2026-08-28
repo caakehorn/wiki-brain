@@ -4,7 +4,7 @@ page_type: period
 title: "Full Sail (Sep 2008 – Mar 2010)"
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-08-15
+date_modified: 2026-08-28
 date_range_start: 2008-09-01
 date_range_end: 2010-03-01
 sources:
@@ -13,6 +13,7 @@ sources:
   - raw/self/dox-scan/FULL TWITTER ANALYSIS.txt
   - raw/self/dox-scan/Gemini-_58.txt
   - raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md
+  - raw/people/captures/2026-08-27_222932_gap-alexis-armel.md
 related:
   - wiki/timeline/periods/dark-era-2007-2008
   - wiki/health/chemical-architecture
@@ -59,6 +60,12 @@ connections:
   - page: wiki/people/matt-dunn
     type: instantiates
     claim: "Dunn is the fourth named member of the Full Sail friend group that survives, in reduced-contact form, fifteen-plus years after Orlando."
+  - page: wiki/people/alexis-armel
+    type: evidenced-by
+    claim: "A 2026-08-27 operator capture dates the relationship's start to a Thanksgiving 2009 trip home and supplies the Christmas-week ski trip and Zach Clingan rupture that follow it — full account there."
+  - page: wiki/health/chemical-architecture
+    type: causes
+    claim: "The Alexis-supplied Roxicet relapse over Thanksgiving 2009 is the previously unnamed final active-use episode immediately preceding the February 17, 2010 Suboxone stabilization this page already dates to the same window."
 ---
 
 # Full Sail (Sep 2008 – Mar 2010)
@@ -135,6 +142,26 @@ closed-network in-jokes as [[wiki/people/josh-brannan|Josh Brannan]] and
 other Full Sail-era friends, consistent with her later confirmed presence
 through the NYC years documented on [[wiki/people/alexis-armel]].
 
+> **GAP CLOSED [2026-08-28] — the sequence is narrowed to specific weeks.**
+> This section's own Gaps entry asked for exactly this. A 2026-08-27 operator
+> capture (`raw/people/captures/2026-08-27_222932_gap-alexis-armel.md`)
+> supplies it: Dan graduated in **August 2009** and was already living in
+> Orlando when he went home to Pennsylvania for **Thanksgiving**, where he
+> meets Alexis. They spend two nights together; a week or two later he buys
+> her a one-way ticket to Orlando. That places the Alexis beginning in
+> **November 2009**, roughly three months after the Danielle/Full-Sail
+> cheating episode this section documents just above, and confirms the
+> bootloader's "November 2009" dating over the Gemini profile's "2010" (full
+> reconciliation on [[wiki/people/alexis-armel]]).
+>
+> **The trip also supplies a Christmas-week episode with two dated
+> consequences documented on other pages**: a party at Suz's house that ends
+> Dan's friendship with [[wiki/people/zach-clingan|Zach Clingan]], and an
+> overnight Seven Springs ski trip with [[wiki/people/jason-bermejo|Jason
+> Bermejo]] and [[wiki/people/josh-brannan|Josh Brannan]] among the group.
+> Both are written up in full on [[wiki/people/alexis-armel]] and
+> [[wiki/people/zach-clingan]] rather than duplicated here.
+
 ## The friend group
 
 Full Sail seeds the one social cohort in Dan's record that outlasts
@@ -193,6 +220,24 @@ later pinned to February 17, 2010 in the fuller chemical-history record
 fact of Dan's adult physiology (sixteen-plus years of daily maintenance,
 zero relapses) was set in motion in Winter Park, not Uniontown.
 
+> **GAP CLOSED [2026-08-28] — the final relapse before stabilization now has
+> a name and a cause.** This section previously stated the resolution
+> without naming what came immediately before it. The same 2026-08-27
+> capture that dates the Alexis relationship's start supplies it: over the
+> Thanksgiving weekend they meet, Alexis brings **thirty Roxicet pills**, and
+> "the opiate addiction that Dan had truly kicked while in college is back in
+> force." A friend called Spetch — described as a childhood friend and
+> roommate of [[wiki/people/jason-bermejo|Jason Bermejo]] — begins driving
+> from Winter Park to Ocala daily to keep the supply running. The relapse
+> continues through the Christmas trip home (an eight-day stay, extended
+> past plan by the same pattern — a supply constraint at the point of
+> departure — that recurs years later during the terminal Annie phase) and
+> resolves seven weeks after the couple's return to Orlando, on the
+> already-dated February 17 day-zero. This is the first source in the
+> corpus to connect a specific person and episode to the timing of the
+> stabilization, rather than leaving it as an undated, causeless resolution
+> at "Full Sail's end."
+
 ## What comes next
 
 Full Sail ends with the move to Brooklyn in April 2010 — the first of two
@@ -202,6 +247,11 @@ to Annie.
 
 ## Gaps
 
-No message corpus or dated record narrows the "Danielle ends, Alexis
+~~No message corpus or dated record narrows the "Danielle ends, Alexis
 begins" sequence to specific weeks within the eighteen-month window; both
-transitions are established only at the level of "during Full Sail."
+transitions are established only at the level of "during Full Sail."~~
+**CLOSED 2026-08-28** — see the GAP CLOSED block under [The relationship
+pivot](#the-relationship-pivot-danielle-ends-alexis-begins) above: the
+Alexis beginning is now dated to a Thanksgiving 2009 trip home, three
+months after the August 2009 graduation. The Danielle ending's own exact
+week is still not independently dated beyond "during this window."

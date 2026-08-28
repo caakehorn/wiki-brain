@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-20
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 # operator answers from 2026-08-20 have been integrated below
 
 > **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at
@@ -82,6 +82,13 @@ connections:
 > block in it at all.
 
 # The August Grievances — a verdict on the last conversation
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/mind/synthesis/attachment-trauma-bond]] (2026-08-28), which gained a
+> RE-CHECKED note tracing back to a pre-Annie, 2013–2014 Alexis-era
+> eviction/concealment episode on [[wiki/people/suzanne-frank]]. It touches
+> neither the August 2026 material nor any figure this page draws from
+> `attachment-trauma-bond`. **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/synthesis/attachment-trauma-bond]] (2026-08-26), which added a

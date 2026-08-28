@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-16
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - "raw/self/dox-md/FULL PROFILE 2026.md"
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -16,6 +16,7 @@ synthesizes:
   - wiki/interests/favorites/music/artists/fall-out-boy
   - wiki/interests/the-office
   - wiki/timeline/events/teen-concert-years
+  - wiki/mind/profile/intp
 connections:
   - page: wiki/interests/the-office
     type: contains
@@ -41,6 +42,9 @@ connections:
   - page: wiki/people/annie-ulmer
     type: evidenced-by
     claim: "The corpus's only ranked comparison of happiness sources dates the handover directly: music was 'the only thing that's ever made me happy' in December 2015, and had been displaced by exactly one thing by April 2016."
+  - page: wiki/mind/profile/intp
+    type: evidenced-by
+    claim: "Ti-dominance's closure standard — a verdict, once it holds, does not get relitigated — explains the freeze-at-boundary pattern more precisely than 'the objects can't betray him' does: a defunct band's back catalog carries zero relational risk yet gets the identical treatment, which means permanent closure of the verdict, not avoidance of betrayal, is the actual mechanism."
 ---
 
 
@@ -115,6 +119,30 @@ absorption, then a clean cutoff, with the pre-cut version held as the "real"
 one. Music preference is where this shows up cleanest, because the objects
 can't betray him.
 
+### The mechanism, and where "can't betray him" turns out to be the wrong frame
+
+That last clause is the one worth pressure-testing rather than repeating.
+If the freeze exists to protect Dan from a *betrayal risk*, it should be
+absent, or at least weaker, on an object that structurally carries none —
+and a defunct 2000s emo band's studio catalog is exactly that: it cannot
+release a bad new record, cheat, or disappoint him in any way a living
+person could. It gets the identical treatment anyway. That is the
+falsifier the "objects can't betray him" framing doesn't survive.
+
+[[wiki/mind/profile/intp]]'s Ti-dominance supplies the sharper account.
+Ti's job, per that page, is producing "a system that holds under recursive
+collapse" — a verdict that, once reached, is not supposed to need
+revisiting. *Folie à Deux* being the real Fall Out Boy is a verdict. Once
+it has held, relitigating it — auditing the reunion material on its own
+merits — is not protection from betrayal; it is the same audit-avoidance
+[[wiki/mind/synthesis/the-deferred-audit]] documents for chosen
+relationships, run here on an object that was never capable of failing an
+audit in the relational sense at all. **The freeze is not defensive. It is
+what a closed Ti verdict looks like from outside**, and it explains why the
+pattern generalizes to objects with zero relational stakes: closure, once
+reached, is closure, regardless of what would be lost or risked by
+reopening it.
+
 ## Why this is its own page
 
 The "unutilized for its actual purpose" directive that prompted this pass
@@ -132,4 +160,41 @@ one facet; this one states the whole.
 - Whether the producer identity and the favorites pole ever consciously
   cross (does he hear his own sub-bass signature in what he consumes?) is
   not settled by the corpus.
+- **A new question the mechanism section opens rather than closes.** If
+  closure, not betrayal-risk, is the real driver of the Fall Out Boy
+  freeze, the same rule predicts a canonized verdict should hold even
+  against strong external pressure to revise it (a critically acclaimed
+  reunion album, a friend's insistence the new material is as good). No
+  such test case has been checked against the corpus.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`. This
+page had never cited `wiki/mind/profile/`, and its own "objects can't
+betray him" explanation for the freeze pattern had never been tested
+against an object that structurally cannot betray him.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved and narrowed the conclusion.** [[wiki/mind/profile/intp]]'s Ti-dominance closure standard survives a test the page's own "can't betray him" framing does not (a defunct band carries zero relational risk yet gets the identical freeze) — see "The mechanism" above. |
+| 2. Personality profile | **Checked, does not add a distinct mechanism.** No Big-Five facet supplies an argument beyond the cognitive-stack account. |
+| 3. Historical precedent | **Checked, already this page's own base** (the 2005-2008 concert years, the 2007 Facebook layer). |
+| 4. Attitudes and forces | **Checked, does not add new material.** |
+| 5. Security and prosperity | **Checked, does not bear.** |
+| 6. Health | **Checked, does not bear.** |
+| 7. Romantic and relational state | **Already load-bearing.** The December 2015/April 2016 happiness-ranking handover to Annie is already this page's central evidence. |
+| 8. Age and upbringing | **Checked, does not add new material** beyond the already-documented teen-concert-years origin. |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Checked, left standing.** No profile-layer contradiction bears on a Ti-dominance claim already well-attested elsewhere in this session's passes. |
+
+**What survived:** the four-mode thesis and every dated instance (the 2015
+Elliott Smith gate, the Fall Out Boy cutoff, the happiness-ranking
+handover). **What the pass narrowed:** the page's own causal story for the
+freeze pattern — "the objects can't betray him" is replaced by "closure,
+once reached, doesn't get relitigated regardless of relational stakes,"
+which is a stronger claim because it predicts the freeze even where
+betrayal was never possible. **What it did not do:** manufacture
+connections to registers that genuinely don't bear on music preference.
 

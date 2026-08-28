@@ -64,6 +64,18 @@ connections:
   - page: wiki/mind/synthesis/dormancy-not-exit
     type: evidences
     claim: "Two functions explain two different halves of that page's 'suspend, not delete' rule: Si-tertiary's non-pruning archive is why a dormant tie costs nothing to reactivate after years of silence, and Fe-inferior at 10% valuing is why a Ti-generated decision that a tie is over never becomes felt-settled without an external terminating statement supplying the relational judgment this stack cannot produce internally."
+  - page: wiki/mind/synthesis/supply-network
+    type: evidences
+    claim: "The same Ti-dominance mechanism the-deferred-audit uses for chosen-object audit timing explains why supplier reliability inverts with intimacy: enforcing a standard on a friend-supplier is an audit that risks a verdict on the friendship, so Tom's failures accumulate for eighteen years while a stranger's failure is noticed and acted on immediately."
+  - page: wiki/mind/synthesis/alias-as-periodization
+    type: evidences
+    claim: "Si-tertiary's role as the high-fidelity archive is why the sub-bass signature never turns over across four aliases: it is an involuntary, identified-post-hoc trait rather than a Ti-negotiated public choice, so it sits outside the audit-and-revise cycle the name itself is subject to."
+  - page: wiki/mind/synthesis/music-as-identity
+    type: evidences
+    claim: "Ti's closure standard — a verdict, once reached, does not get relitigated — explains that page's Fall Out Boy freeze-at-boundary pattern more precisely than 'the objects can't betray him' does, since the pattern holds even on a defunct band's catalog that carries zero relational risk to begin with."
+  - page: wiki/mind/synthesis/instrument-is-subject
+    type: causes
+    claim: "The exocortex prompt's evidentiary standard — unwavering honesty, no softening, residue over testimony — is Ti-dominance's own truth criterion ('a system that holds under recursive collapse') exported into an instruction, which is why that page's recursion problem is a predictable consequence of this specific stack rather than an accident of which AI tool got used."
 ---
 
 # INTP — The Cognitive Function Stack

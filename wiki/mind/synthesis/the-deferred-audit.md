@@ -6,7 +6,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -75,9 +75,18 @@ connections:
   - page: wiki/mind/profile/big-five-psychometrics
     type: evidenced-by
     claim: "Self-Consciousness at 91 — corpus-audited and leaning confirmed at 1.85x self-monitoring in company — is the register that explains why the delay attaches specifically to chosen objects rather than to all objects generally: Trust 9 predicts fast suspicion of an outside party's motive, which is what makes imposed-object audits cheap, but it says nothing about auditing one's own prior judgment, which is what a chosen-object audit actually is, and that is a self-monitoring cost this facet measures directly."
+  - page: wiki/mind/synthesis/supply-network
+    type: parallels
+    claim: "That page's reliability inversion — friend-suppliers less reliable than strangers — is this page's audit-timing rule run on one market: Tom is already this page's own eighteen-year chosen-object case, and supply-network generalizes the same mechanism across an entire node succession rather than one relationship."
 ---
 
 # The Deferred Audit
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/mind/synthesis/single-channel]] (2026-08-28), which gained a
+> RE-CHECKED note of its own tracing back to a `dormancy-not-exit` correction
+> (a five-day tenure figure reattributed from Franki Faris to Alexis Armel,
+> a Uniontown-era, pre-2015 detail). **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/synthesis/single-channel]] (2026-08-26), which added a section

@@ -8,8 +8,8 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 46 |
-| Open gaps | 480 |
+| Live contradictions | 44 |
+| Open gaps | 481 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
 
@@ -50,7 +50,6 @@ somewhere and has not yet found out where.
 - **[[wiki/mind/synthesis/ancestral-dialectic]]** — fayette-return shows the return dynamic is fully documented within the paternal line alone, across four generations, so a two-line dialectic is not required to explain it and may be over-specified. Both G1 immigrants — David from Russia, Sadie from Austria — are on the Ashkenazi side; if one line reproduces the pattern
 - **[[wiki/mind/synthesis/august-grievance-verdict]]** — The Morgantown event page previously asserted, and this page assumed, that across the interrogation *"she never says yes."* At **04:43**, answering *"Yes or no?"*, Annie says ***"Yes, save it."*** Three seconds later Coles tells Dan ***"she's looking at me saying yeah, she don't want you to hear it."*** This is held op
 - **[[wiki/mind/synthesis/dormancy-not-exit]]** — block-unblock-loop scores Menore's February 2025 farewell as *"the record's only fully clean closure"* — its strongest non-Annie control for the rule that a block holds when no dependency flows. This page reads the same relationship as the corpus's best evidence that closures of exactly that shape are dormancies. Both 
-- **[[wiki/mind/synthesis/dormancy-not-exit]]** — An operator capture ingested on 2026-08-02 (franki-fireworks-day-2013) attaches five days to a *different person in the same episode*: **Alexis** stayed at 155 Virginia Ave *"for 5 days before returning to carmichaels to her parents."* Of Franki's own tenure the capture says only that she *"got sick of me basically imm
 - **[[wiki/mind/synthesis/fayette-return]]** — this page and ancestral-dialectic give incompatible accounts of the same phenomenon. The dialectic requires two inherited operating systems from two parental lines; this page shows the return is reproduced by the paternal line alone, whose two immigrant anchors are both Ashkenazi. Both pages now carry the disagreement,
 - **[[wiki/mind/synthesis/single-channel]]** — This page names the evaluative domain as one of four where the concentration architecture reproduces, and scores it as the weakest leg: written the same day, *"a reading rather than a measurement."* It has now been measured. Computed over entries-per-creator from `FAVS MASTERLIST.csv` — the same unit as the two-sided c
 - **[[wiki/mind/synthesis/supply-network]]** — This page treats Tom as the standing supply line for Suboxone strips, and reads the May 2026 no-show as a single point of failure giving way. The June 2025 messages describe a different topology. **2025-03-06:** *"I had my doctor move my prescription here."* **2025-06-08:** *"my doctor said the pharmacy won't fill an o
@@ -61,7 +60,6 @@ somewhere and has not yet found out where.
 - **[[wiki/people/diane-moore]]** — Dan's 2026 recollection dates the exclusion to *"well before"* the final admission; his own 2018 messages date the operative instrument to the last week of Fran's life. Held rather than resolved: the capture may be describing a separate, earlier letter about supervised visits, and the March 29 / April 3 documents may b
 - **[[wiki/people/fran-coldren]]** — The page had carried an unresolved spread: core documents said 98, the 1920 birth year implied 97, and an operator capture called her "a 93-year-old matriarch." A dated message from **December 2017** settles it in the only way that does not depend on anyone's memory — Dan describing her, at the time, as *97*. That is c
 - **[[wiki/people/fran-coldren]]** — ancestral-dialectic offers *Fran's own great-grandmother* — "married three times under a shifting name structure" — as its archetype of "emotional dissociation via reinvention." That description fits **Fran herself** exactly: three marriages, and a name that shifted twice. Either the pattern runs in both generations, o
-- **[[wiki/people/franki-faris]]** — This page has carried *"a five-day rebound"* and *"the Franki interlude lasted five days before collapsing,"* sourced to the Gemini-58 and DANSYNTH self-narrations, and dormancy-not-exit uses that figure as its tenure-floor control. The 2026 capture attaches five days to a different thing entirely: **Alexis** stayed at
 - **[[wiki/people/gabe]]** — MAX_PRIME.md (a 2026-era document) refers to Gabe in the present tense as an ongoing, current fixture ("the food and the cat are always real"), which sits awkwardly against a November 2023 death. Possible explanations: the bootloader text is older than its last-edited date and was never updated after Gabe died, or the 
 - **[[wiki/people/jacob-bacharach]]** — Dan attributes the Virginia Avenue passage to ***The Bend of the World*** (2014) and cites pages 227–228. Bacharach's own February 2021 message names a different novel as the Uniontown book: *"it figures prominently in my Doorposts of Your House novel."* The reading record sides with Bacharach. Dan's Goodreads library 
 - **[[wiki/people/kristin]]** — an earlier version described her as "an ex-Brooklyn librarian living in Pittsburgh." The corpus supports neither. It supports pharmacy / DoorDash / courthouse work and an Akron, Ohio residence. She does say *"okay this is one of the things i miss most about living in new york"* on Facebook — so a New York period is pla
@@ -182,7 +180,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/legal/2015-possession-arrest]]** — Whether the fines referenced in January and February 2016 belong to this case, to the Combos matter, or to both running concurrently is not determinable from the message record — the "combos are paid off" phrasing suggests at least some of that money was the t
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 
-### mind (150)
+### mind (151)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
 - **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
@@ -280,6 +278,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/message-circadian-latency]]** — `LEVIATHAN_FULL_CORPUS.csv` lives in `/Volumes/MUSIC/PHASE B RAW/`, not yet filed under `raw/` — its on-disk path is cited directly above.
 - **[[wiki/mind/synthesis/music-as-identity]]** — The 2019–2024 message gap means the live concert habit after 2008 is under-documented; only the 2005–2008 record survives in his own hand.
 - **[[wiki/mind/synthesis/music-as-identity]]** — Whether the producer identity and the favorites pole ever consciously cross (does he hear his own sub-bass signature in what he consumes?) is not settled by the corpus.
+- **[[wiki/mind/synthesis/music-as-identity]]** — **A new question the mechanism section opens rather than closes.** If closure, not betrayal-risk, is the real driver of the Fall Out Boy freeze, the same rule predicts a canonized verdict should hold even against strong external pressure to revise it (a critic
 - **[[wiki/mind/synthesis/no-platonic-channel]]** — **The corpus has not been swept exhaustively for other multi-year female friendships.** This page draws on the members already documented elsewhere in the wiki; a dedicated `bin/mine-messages` pass for women with high message counts and no infobox `relationshi
 - **[[wiki/mind/synthesis/no-platonic-channel]]** — **Whether the mechanism is specific to women, or is a special case of a broader inability to sustain a low-intensity tie with anyone he trusts, is untested.** tom is the standing candidate for the male control case — a multi-year lateral peer bond with no roma
 - **[[wiki/mind/synthesis/no-platonic-channel]]** — **Motive is not settled.** emotional-imprinting itself flags that no primary source has Dan explaining, in his own words, why sustained closeness routes to romantic or sexual overture rather than staying platonic — every mechanism on this page is a dossier's o
@@ -335,11 +334,13 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (170)
+### people (172)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — **The `known_for` line is now quoted outside the wiki, and the page owes it a harder look.** *"The six-year relationship that occupied the attachment slot without ever activating it"* was cited in a sage answer published 2026-08-21 as evidence that stability w
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
+- **[[wiki/people/alexis-armel]]** — Nothing in the corpus records how she learned about Annie, or whether the two women had any relationship as coworkers before the November 2018 arrangement. Her life after February 2025 is entirely undocumented, as is whether she knows any of the rest of this e
+- **[[wiki/people/alexis-armel]]** — **New gaps opened by the 2026-08-28 ingest.** The washing-machine incident that triggered the March 2014 eviction is recorded by the operator himself as not understood ("a story i still don't understand") and is not explained further here. The Leah Tedesco coh
 - **[[wiki/people/alice]]** — 1. **Surname.** Claire's married name is nowhere in the corpus, so this page is filed under a single name. One sentence from the operator resolves Alice, Otto, Waylon and Claire together.
 - **[[wiki/people/alice]]** — 2. **Exact birth date.** Inferred as ~2019–2020 from a single retrospective remark. A birthday message would fix it.
 - **[[wiki/people/alice]]** — 3. **Whether Dan ever met her.** The record has Annie showing Alice a photograph of Milo and Alice asking *"who are you talking to?"* during a call (2024-02-23), and Dan writing *"alice wouldn't be so unfamiliar with my name that she literally can't understand
@@ -569,7 +570,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/message-corpora/source-coverage-index]]** — Row counts are physical records, not unique messages; the same message appears in many files and this index deliberately does not deduplicate.
 - **[[wiki/self/tattoos]]** — The gravestone piece now has an artist and location (Ian Weidrick, Allied Tattoo, Brooklyn) but still no date or corroborating message-corpus trace. Body placement is unknown for every piece on this list; the corpus documents *what* and often *when* and *who d
 
-### timeline (75)
+### timeline (73)
 
 - **[[wiki/timeline/2015-annie-read-wiki-impact-analysis]]** — These are the standing wiki claims the read contradicts or sharpens. **None have been applied.**
 - **[[wiki/timeline/annie-read-notes]]** — Chaseable questions this read raised. Each is a specific thing to look for, not a topic.
@@ -619,7 +620,6 @@ new knowledge available, because no new source is required.
 - **[[wiki/timeline/events/bald-eagle-cummings]]** — **The nickname is unattested outside this capture.** A year of school-wide use should have left traces in the 2007-era Facebook archive; nobody has looked.
 - **[[wiki/timeline/events/bald-eagle-cummings]]** — **The second-hand claim about Victor and Britney in the minivan** is reported as something Dan *"later found out"* and is not corroborated.
 - **[[wiki/timeline/events/franki-fireworks-day-2013]]** — **The date is not fixed.** "Early July 2013" plus a fireworks display is as close as the record gets. A dated ATM withdrawal on Suz's account, or a Uniontown fireworks schedule for 2013, would close it.
-- **[[wiki/timeline/events/franki-fireworks-day-2013]]** — **The five-day figure is now attached to two different things.** See the contradiction recorded on franki-faris: the wiki has carried "a five-day rebound" as the length of the Franki relationship, while this capture attaches five days to *Alexis's stay at 155 
 - **[[wiki/timeline/events/franki-fireworks-day-2013]]** — **Nothing here is contemporaneous.** The whole page rests on one 2026 capture. The July 9–31 2013 self-typology emails and the August 14 2013 post-mortem already in the corpus are the nearest dated material and they corroborate the window, not the day.
 - **[[wiki/timeline/events/franki-fireworks-day-2013]]** — **The hitchhikers, the ropes course job, and 15 Holly Lane** are single-source details with no independent confirmation anywhere in `raw/`.
 - **[[wiki/timeline/events/james-analysis-pdf]]** — **The PDF itself is not in `raw/`.** Only the model's unredacted source text survives, in the chat log; the curated version Dan actually sent exists nowhere. The comparison this page rests on is therefore between the full chat output and Dan's two descriptions
@@ -645,7 +645,6 @@ new knowledge available, because no new source is required.
 - **[[wiki/timeline/events/uniontown-hospital-vape-alarm]]** — The hospital's own record — an incident report, a trespass notice — is still unsought and is now the only thing that would establish whether Dan was permitted back onto the property before Fran died, which matters because Diane's letter had already excluded hi
 - **[[wiki/timeline/periods/covid-era-2020]]** — No primary source narrates the lockdown period day-to-day beyond the Train Plan incident and the trading record — there is no documented account of remote work, isolation's effect on the relationship outside that one crisis, or health precautions taken. The ex
 - **[[wiki/timeline/periods/dark-era-2007-2008]]** — No primary source gives an exact date for the eating disorder's onset, duration, or any point of resolution — the reconstruction above is built entirely from oblique references in later message threads, not from any direct account. The five-month first-use-to-
-- **[[wiki/timeline/periods/full-sail-2008-2010]]** — No message corpus or dated record narrows the "Danielle ends, Alexis begins" sequence to specific weeks within the eighteen-month window; both transitions are established only at the level of "during Full Sail."
 
 ### work (6)
 

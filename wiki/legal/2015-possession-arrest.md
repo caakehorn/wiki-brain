@@ -7,12 +7,13 @@ status: closed
 knowledge: mixed
 importance: high
 date_created: 2026-08-03
-date_modified: 2026-08-22
+date_modified: 2026-08-28
 date_range_start: 2015-02-17
 date_range_end: 2016-02-17
 sources:
   - raw/legal/documents/2015-02_fayette-court-blotter-possession-charges.md
   - raw/legal/captures/2026-08-02_200741_the-arrest-the-real-one.md
+  - raw/people/captures/2026-08-27_223406_gap-alexis-armel.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/message-csv/imessage_ALL_both_all_now.csv
 tags: [legal, addiction-recovery, family, uniontown-era]
@@ -224,6 +225,19 @@ switch to [[wiki/people/annie-ulmer|Annie]]
 > — but the blotter only fixes the arrest, not the move, and this page does not
 > pick a winner. Resolving it needs the lease or a dated message from the
 > move.
+
+> **A second, differently-dated account complicates rather than resolves
+> this, per a 2026-08-28 ingest.** A 2026-08-27 operator capture (full
+> account on [[wiki/people/alexis-armel]]) describes a similarly-shaped
+> thrown-out/hidden episode — Suz evicting Alexis after a washing-machine
+> incident, months of concealment — but dates it a full year earlier, to
+> **March–August 2014**, and adds an intermediate residence (Leah Tedesco's)
+> between the concealment and the eventual move to 155 Virginia Ave "by
+> Christmas 2014." That is close to but still weeks before this page's
+> January 2015 lease date. Both operator accounts are T0 testimony of
+> different specificity; this page does not adopt one over the other. What
+> would actually settle both this contradiction and the one above is the
+> same missing document: a lease, or a dated message from the move.
 
 > **An unexplained date coincidence, recorded not resolved.** February 17
 > appears three times in Dan's record: the blotter window opens on it in 2015,
