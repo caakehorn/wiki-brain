@@ -6137,5 +6137,5 @@ both directions.
 
 Gates: `bin/wiki-lint` 0 errors / 30 warnings (unchanged); `bin/wiki-connect
 check` 0 errors / 144 warnings (unchanged); `bin/wiki-climb check` 0 errors
-/ 3 warnings (one fewer — alias-as-periodization's staleness note below
-resolved it before this commit).
+/ 4 warnings (unchanged — the two pre-existing legitimate obligations from
+prior commits, still open and still tracked for their own passes).
