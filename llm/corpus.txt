@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-28
-519 pages, ~1,505,997 tokens.
+519 pages, ~1,506,919 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10937,7 +10937,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-28** — 40 pages
+**2026-08-28** — 41 pages
   - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
   - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
@@ -10964,12 +10964,13 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - constitution-pass | mind | wiki/mind/synthesis/dan-annie-fallout-verdict
   - constitution-pass | mind | wiki/mind/synthesis/block-unblock-loop
   - constitution-pass | mind | wiki/mind/synthesis/august-grievance-verdict
+  - constitution-pass | mind | wiki/mind/synthesis/the-rescue-premise
 
 **2026-08-27** — 5 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
   - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
 
-**2026-08-26** — 55 pages
+**2026-08-26** — 54 pages
   - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
   - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
@@ -11033,7 +11034,7 @@ have moved since.
 - [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] — 6 premises
 - [[wiki/mind/synthesis/music-as-identity]] — 4 premises
 - [[wiki/mind/synthesis/no-platonic-channel]] — 9 premises
-- [[wiki/mind/synthesis/read-receipt-forensics]] — 2 premises
+- [[wiki/mind/synthesis/read-receipt-forensics]] — 3 premises
 - [[wiki/mind/synthesis/single-channel]] — 8 premises
 - [[wiki/mind/synthesis/supply-network]] — 11 premises
 - [[wiki/mind/synthesis/the-binary-verdict]] — 14 premises
@@ -12185,7 +12186,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-28 — 40 pages
+## 2026-08-28 — 41 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -12210,6 +12211,7 @@ simply listed.
 | [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] | mind | **RE-CHECKED** — flagged stale against august-grievance-verdict (2026-08-28), which gained a re-check note tracing back to a pre-Annie, 2013–2014 Alexis-era eviction/concealment episode on suzanne-frank. It touc |
 | [[wiki/mind/synthesis/music-as-identity]] | mind | — |
 | [[wiki/mind/synthesis/no-platonic-channel]] | mind | — |
+| [[wiki/mind/synthesis/read-receipt-forensics]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — flagged stale against totality-themes (2026-08-28), which gained a RE-CHECKED note of its own confirming that a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris  |
 | [[wiki/mind/synthesis/supply-network]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/the-binary-verdict]] | mind | **REVISED** — This entry previously asked whether the binary default is downstream of Core Axiom 1 specifically, or an instance of a more general Ti-dominant, forensic-verdict cognitive style, and flagged forensic- |
@@ -12240,7 +12242,7 @@ simply listed.
 | [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 
-## 2026-08-26 — 55 pages
+## 2026-08-26 — 54 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -12276,7 +12278,6 @@ simply listed.
 | [[wiki/mind/synthesis/fayette-return]] | mind | **RE-CHECKED** — ancestry added one verified collateral from the maternal Shrum line: **Daniel Shrum** (b. 11 Apr 1884, Pennsylvania; d. 11 Dec 1918, Greensburg, Westmoreland County) — an older brother of the direct-l |
 | [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] | mind | — |
 | [[wiki/mind/synthesis/political-psyops]] | mind | — |
-| [[wiki/mind/synthesis/read-receipt-forensics]] | mind | **RE-CHECKED** — forensic-method gained an `instance-of` edge into the new lexicon page — the same evidence-cite/ authority-invoke/render-a-finding machinery documented there for crisis analysis, observed r |
 | [[wiki/mind/synthesis/the-cato-seat]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
 | [[wiki/people/ally-lubin]] | people | _(carries a CORRECTED from 2026-08-22)_ |
 | [[wiki/people/annie-ulmer-personality-assessment]] | people | _(carries a RE-CHECKED from 2026-08-23)_ |
@@ -17383,6 +17384,9 @@ connections:
   - page: wiki/mind/synthesis/attachment-trauma-bond
     type: contradicts
     claim: "Vulnerability, the facet that would most directly predict that page's psychosomatic-crisis account, runs below the within-medium baseline (0.81x) on the 2026-08-16 corpus audit — flat like Impulsiveness, not confirmed like Trust or Self-Consciousness. That page's somatic-toll mechanism is sourced to the Ti-Si loop and the sx/sp instinct stacking instead, and explicitly does not lean on this facet."
+  - page: wiki/mind/synthesis/read-receipt-forensics
+    type: causes
+    claim: "Trust at the 9th percentile, corpus-confirmed at 1.96x, is the one hop that page's own reassurance-architecture citation left implicit: a confirmation that doesn't carry forward as a prior is why a device-level read-receipt query gets run in the first place."
 ---
 
 
@@ -29899,11 +29903,12 @@ title: "Read-Receipt Forensics — chat.db Metadata and Its Traps"
 aliases: ["read receipts", "date_read", "chat.db metadata"]
 tags: [forensic-analysis, digital-footprint]
 date_created: 2026-08-09
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources: []
 synthesizes:
   - wiki/mind/concepts/forensic-method
   - wiki/timeline/events/august-2026-unmasking
+  - wiki/mind/profile/big-five-psychometrics
 connections:
   - page: wiki/mind/concepts/reassurance-architecture
     type: instance-of
@@ -29917,6 +29922,9 @@ connections:
   - page: wiki/timeline/events/august-2026-unmasking
     type: evidences
     claim: "Every claim about her wakefulness rests on chat.db date_read values whose directional asymmetry that page defines; read the wrong way the same column produces the opposite conclusion."
+  - page: wiki/mind/profile/big-five-psychometrics
+    type: caused-by
+    claim: "This page's own reassurance-architecture citation — read-receipt analysis as 'measurement substituting for reassurance' — is one hop from its actual source: Trust at the 9th percentile, corpus-confirmed at 1.96x raised suspicion, is why a confirmation does not carry forward and a device-level metadata query gets run in the first place. Named directly here rather than left implicit."
 ---
 
 # Read-Receipt Forensics — chat.db Metadata and Its Traps
@@ -30137,6 +30145,38 @@ yet been audited; that audit is owed and is listed in `BACKLOG.md`.
 > authority-invoke/render-a-finding machinery documented there for crisis analysis,
 > observed running on a compliment instead. Nothing about `chat.db` metadata
 > extraction is downstream of that finding.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`. This
+page is a technical methodology page — SQLite column semantics and a
+type-affinity bug — and most registers genuinely do not bear on it; forcing
+a fit where the content is mechanical rather than psychological would be
+exactly the decorative citation this pass exists to catch, not to produce.
+One register does bear, and it was already implicit rather than absent.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Checked, does not add a distinct mechanism.** Ti-dominance's demand for verified truth could be gestured at for why these queries get run at all, but it would be redundant with register 2's more specific, corpus-confirmed account — not cited, to avoid citing the same fact twice under two names. |
+| 2. Personality profile | **Moved the conclusion, and made explicit what was already implicit.** This page's own pre-existing `reassurance-architecture` citation calls read-receipt analysis "measurement substituting for reassurance" without naming what that architecture runs on. [[wiki/mind/profile/big-five-psychometrics]]'s Trust 9 — corpus-confirmed at 1.96x — is the one hop back: a confirmation that doesn't carry forward is why a device-metadata query gets run in the first place. |
+| 3. Historical precedent | **Checked, does not bear.** The four defects are properties of `chat.db`, not of a documented pattern in Dan's history. |
+| 4. Attitudes and forces | **Checked, does not bear.** |
+| 5. Security and prosperity | **Checked, does not bear.** |
+| 6. Health | **Checked, does not bear.** |
+| 7. Romantic and relational state | **Already load-bearing, at one remove.** The worked examples (the August 2026 window, the third-party phone-access episodes) are relational in content but this page's own thesis is about the instrument, not about what the instrument found. |
+| 8. Age and upbringing | **Checked, does not bear.** |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Checked, left standing.** Trust 9 is corpus-confirmed rather than self-commissioned, which is the stronger half of the provenance gradient this session has tracked elsewhere — appropriate here, since it is the only register-level claim this page now carries. |
+
+**What survived:** all four defects (M1-M4), the extraction recipe, and
+every re-check block — none required a profile-layer citation to stand,
+since they are properties of a database schema. **What the pass added:** a
+name for the psychological driver this page's own prior citation already
+gestured at without stating. **What it did not do:** manufacture a
+cognitive-stack connection to a page whose actual content is a SQL
+type-coercion bug.
 
 
 ========================================================================

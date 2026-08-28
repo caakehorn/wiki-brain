@@ -55,7 +55,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-28** — 40 pages
+**2026-08-28** — 41 pages
   - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
   - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
@@ -82,12 +82,13 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - constitution-pass | mind | wiki/mind/synthesis/dan-annie-fallout-verdict
   - constitution-pass | mind | wiki/mind/synthesis/block-unblock-loop
   - constitution-pass | mind | wiki/mind/synthesis/august-grievance-verdict
+  - constitution-pass | mind | wiki/mind/synthesis/the-rescue-premise
 
 **2026-08-27** — 5 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
   - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
 
-**2026-08-26** — 55 pages
+**2026-08-26** — 54 pages
   - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
   - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
@@ -151,7 +152,7 @@ have moved since.
 - [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] — 6 premises
 - [[wiki/mind/synthesis/music-as-identity]] — 4 premises
 - [[wiki/mind/synthesis/no-platonic-channel]] — 9 premises
-- [[wiki/mind/synthesis/read-receipt-forensics]] — 2 premises
+- [[wiki/mind/synthesis/read-receipt-forensics]] — 3 premises
 - [[wiki/mind/synthesis/single-channel]] — 8 premises
 - [[wiki/mind/synthesis/supply-network]] — 11 premises
 - [[wiki/mind/synthesis/the-binary-verdict]] — 14 premises

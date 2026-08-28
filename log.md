@@ -6586,3 +6586,34 @@ check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors /
 0 warnings; `bin/wiki-freshness` clean; 125 tests pass. `bin/wiki-work
 scan`: 0 obligations, 194 standing. 2 of 7 Annie-moratorium pages remain:
 `read-receipt-forensics`, `morgantown-call-three-participant-ethical-analysis`.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/read-receipt-forensics
+
+Sixth of 7 Annie-moratorium backlog pages, bound throughout by the standing
+moratorium. This one is a genuinely different case from the other five: it
+is a technical methodology page (SQLite `chat.db` column semantics, a
+type-affinity bug), not a psychological or narrative one, and most of the
+eleven registers honestly do not bear on it — forcing a cognitive-stack
+citation onto a page about a SQL type-coercion defect would have been
+exactly the decorative connection this pass exists to prevent, not
+produce.
+
+One register does bear, and it was already implicit. The page's own
+pre-existing `reassurance-architecture` citation calls read-receipt
+analysis "measurement substituting for reassurance" without naming what
+that architecture runs on. `wiki/mind/profile/big-five-psychometrics`'
+Trust 9 (corpus-confirmed 1.96x raised suspicion) is the one hop back: a
+confirmation that doesn't carry forward as a prior is why a device-level
+metadata query gets run in the first place. Named directly rather than
+left implicit. Register 1 (cognitive stack) was checked and explicitly
+declined as redundant with register 2 rather than cited decoratively.
+
+Write-back: one new `synthesizes:` member (`big-five-psychometrics`) with
+a reciprocal edge.
+
+Gates: `bin/wiki-lint` 0 errors / 19 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors /
+0 warnings; `bin/wiki-freshness` clean; 125 tests pass. `bin/wiki-work
+scan`: 0 obligations, 194 standing. 1 of 7 Annie-moratorium pages remains:
+`morgantown-call-three-participant-ethical-analysis` — the last page of the
+entire 21-page backlog.
