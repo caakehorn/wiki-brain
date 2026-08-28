@@ -73,6 +73,7 @@ this is the state of the thing.
   - constitution-pass | mind | wiki/mind/synthesis/attachment-trauma-bond
   - constitution-pass | mind | wiki/mind/synthesis/dan-annie-fallout-verdict
   - constitution-pass | mind | wiki/mind/synthesis/block-unblock-loop
+  - constitution-pass | mind | wiki/mind/synthesis/august-grievance-verdict
 
 **2026-08-27** — 5 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
@@ -150,7 +151,7 @@ have moved since.
 - [[wiki/mind/synthesis/the-commissioned-self]] — 10 premises
 - [[wiki/mind/synthesis/the-deferred-audit]] — 11 premises
 - [[wiki/mind/synthesis/the-embedded-objective]] — 10 premises
-- [[wiki/mind/synthesis/the-rescue-premise]] — 13 premises
+- [[wiki/mind/synthesis/the-rescue-premise]] — 15 premises
 - [[wiki/mind/synthesis/the-serial-monogamist]] — 8 premises
 - [[wiki/mind/synthesis/the-unbroken-bond]] — 5 premises
 - [[wiki/mind/synthesis/totality-themes]] — 28 premises

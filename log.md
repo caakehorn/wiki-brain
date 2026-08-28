@@ -6552,3 +6552,37 @@ check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors /
 scan`: 0 obligations, 194 standing. 3 of 7 Annie-moratorium pages remain:
 `the-rescue-premise`, `read-receipt-forensics`,
 `morgantown-call-three-participant-ethical-analysis`.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/the-rescue-premise
+
+Fifth of 7 Annie-moratorium backlog pages, bound throughout by the standing
+moratorium — explicitly including a hard stop on the page's own gap 7 and
+predictions P1-P5, all of which depend on a newer export the moratorium
+forbids acquiring; this pass touches none of them. Two citations, both
+sourcing claims the page already made: `wiki/mind/profile/intp`'s
+Fe-inferior (10% valuing) for the page's own "the system... cannot generate
+one from behavioural evidence" line about the severance signal;
+`wiki/mind/synthesis/the-binary-verdict` identifying the confession trap
+this page restates ("a rescuer supplies neither the verdict nor the door")
+as the same mechanism already documented on `dan-annie-fallout-verdict` and
+`attachment-trauma-bond` — one mechanism now correctly identified as one
+mechanism across three pages, not three independent observations.
+
+**A second instance of the deferred write-back finding, cross-referenced
+rather than re-litigated.** This page's own Part II still carries the
+un-propagated 187-of-191 base-rate caveat first flagged during the
+`dan-annie-fallout-verdict` pass. Not fixed here either, for the identical
+reason (already logged to `BACKLOG.md`); the constitution-pass table simply
+notes the page is one of the five affected rather than re-deriving the
+finding.
+
+No new Annie narrative, date, quote, or figure anywhere in this pass.
+
+Write-back: two new `synthesizes:` members (`intp`, `the-binary-verdict`)
+with reciprocal edges on both pages.
+
+Gates: `bin/wiki-lint` 0 errors / 20 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors /
+0 warnings; `bin/wiki-freshness` clean; 125 tests pass. `bin/wiki-work
+scan`: 0 obligations, 194 standing. 2 of 7 Annie-moratorium pages remain:
+`read-receipt-forensics`, `morgantown-call-three-participant-ethical-analysis`.

@@ -94,6 +94,9 @@ connections:
   - page: wiki/mind/synthesis/august-grievance-verdict
     type: causes
     claim: "That page's grievance 6 — a demand for a statement that registers a different true answer as no answer at all — is Ti-dominance running with no Fe-mediated grading function available to read the different answer as responsive; the page's own scoring of the grievance as false is what this mechanism looks like from outside it."
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: causes
+    claim: "That page's own claim that the system 'cannot generate one from behavioural evidence' — a severance signal — is Fe-inferior (10% valuing) named without being sourced: the function that would read a decade of withdrawal as implicit closure is too weak to do it, which is why nothing short of an explicit statement can substitute."
 ---
 
 # INTP — The Cognitive Function Stack

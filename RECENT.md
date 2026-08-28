@@ -35,6 +35,7 @@ simply listed.
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/attachment-trauma-bond
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/dan-annie-fallout-verdict
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/block-unblock-loop
+- **Session log:** constitution-pass | mind | wiki/mind/synthesis/august-grievance-verdict
 
 | Page | Domain | What moved |
 |---|---|---|
