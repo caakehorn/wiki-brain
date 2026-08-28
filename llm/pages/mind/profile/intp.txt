@@ -85,6 +85,9 @@ connections:
   - page: wiki/mind/synthesis/attachment-trauma-bond
     type: causes
     claim: "The Ti-Si loop is why that page's bond-collapse crisis reactivated exactly the two schemas it already names (the 2004-05 rupture, the Alexis collapse) rather than fading into ordinary grief, and Ni-leak's mythic-overfitting is the measured function behind the 'burning rituals' language — the mind's own analytical strength turned on the wound, not a metaphor for its intensity."
+  - page: wiki/mind/synthesis/dan-annie-fallout-verdict
+    type: causes
+    claim: "That page's 'Ti-dominant processing reads emotional bids as propositions to litigate' line is Ti-dominance and Fe-inferior named without being sourced: Ti supplies the adjudication reflex, and Fe at 10% valuing is too weak to supply the empathic acknowledgment the engine skips — 'Fe's absence removes the social brake that would otherwise soften conclusions for company,' running here at full load."
 ---
 
 # INTP — The Cognitive Function Stack

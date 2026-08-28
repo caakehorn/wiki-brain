@@ -20,7 +20,7 @@ typo fix.
 None. No question is parked, no answer is staged, no premise has moved
 under a page that reasons from it, and every portal edit has had its pass.
 
-## Standing work (193)
+## Standing work (194)
 
 The campaign. Worked top-down by choice rather than drained, and each line
 below is a pointer — the file named is where the work itself is written, and
@@ -31,4 +31,4 @@ the only place to strike an entry.
 | 5 | ingest | 38 | `queue.md` | sources ingested partially or not at all |
 | 6 | climb | 25 | `synthesis-queue.md` | clusters unclimbed and unrejected |
 | 6 | connect | 84 | `connection-queue.md` | mined edge pairs, untyped and unrejected |
-| 7 | backlog | 46 | `BACKLOG.md` | standing campaign entries |
+| 7 | backlog | 47 | `BACKLOG.md` | standing campaign entries |

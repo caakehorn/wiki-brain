@@ -137,6 +137,22 @@ Each of these is a specific thing the corpus or the outside world could settle.
   exact date and cause of death; the date and authorship of Diane's letters;
   whether Champion, PA lies outside Fayette County (if so it is the line's only
   attested out-of-county residence in four generations).
+- **The 187-of-191 love-to-request statistic is stale on five pages, and the
+  fix is blocked by the moratorium, not forgotten.** `dan-annie-fallout-verdict`'s
+  own 2026-07-18 REVISED block found the figure non-diagnostic — 97.2% of *all*
+  her messages are equally request-adjacent at 24h, and the directional test
+  (1h window) inverts it — and `wiki/people/annie-ulmer.md` already carries the
+  correction. `wiki/mind/concepts/conflict-architecture.md`,
+  `wiki/mind/concepts/attachment-model.md`,
+  `wiki/mind/synthesis/the-binary-verdict.md`,
+  `wiki/mind/synthesis/the-rescue-premise.md` and
+  `wiki/people/annie-ulmer-personality-assessment.md` still cite the raw figure
+  without it — found during the 2026-08-28 constitution pass on
+  `dan-annie-fallout-verdict`, not fixed there. A correction requires stating
+  what the statistic does and doesn't show about Annie's behavior, which is new
+  Annie-adjacent prose the standing moratorium reserves to the operator's
+  discretion — not attempted by this session. Fix once the moratorium lifts, or
+  sooner if the operator says the correction itself is in scope.
 
 ## 4. Tooling and hygiene
 

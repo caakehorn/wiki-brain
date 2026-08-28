@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-28 — 38 pages
+## 2026-08-28 — 39 pages
 
 - **Session log:** spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
 - **Session log:** climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
@@ -32,6 +32,7 @@ simply listed.
 - **Session log:** constitution-pass | mind | wiki/interests/food-and-diet
 - **Session log:** constitution-pass | places | wiki/places/the-unpapered-address
 - **Session log:** connect | mind/self | node-locking.md <-> gemini-activity.md
+- **Session log:** constitution-pass | mind | wiki/mind/synthesis/attachment-trauma-bond
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -47,6 +48,7 @@ simply listed.
 | [[wiki/mind/synthesis/annual-volume-suz]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a new 2013–2014 eviction/concealment episode (Alexis Armel, the washing machine). No message-volume figure this page draws on is touched.  |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a pre-Annie, Alexis-era eviction/concealment episode (2013–2014, Uniontown). It touches neither the Annie-era material nor any figure this |
 | [[wiki/mind/synthesis/august-grievance-verdict]] | mind | **RE-CHECKED** — flagged stale against attachment-trauma-bond (2026-08-28), which gained a RE-CHECKED note tracing back to a pre-Annie, 2013–2014 Alexis-era eviction/concealment episode on suzanne-frank. It touc |
+| [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a March 2014 Alexis-era eviction/concealment episode — housing and family-drama, no capital event, no figure this page draws on. **No clai |
 | [[wiki/mind/synthesis/failure-to-launch]] | mind | **RE-CHECKED** — flagged stale against estate-money-spine (2026-08-28), which gained a RE-CHECKED note confirming a March 2014 Alexis-era eviction on suzanne-frank touches no capital event or figure this page |
@@ -87,7 +89,7 @@ simply listed.
 | [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 
-## 2026-08-26 — 57 pages
+## 2026-08-26 — 56 pages
 
 - **Session log:** climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
 - **Session log:** ingest | mind | the ideal-face specification — a mystery queue item resolved
@@ -138,7 +140,6 @@ simply listed.
 | [[wiki/mind/synthesis/block-unblock-loop]] | mind | **RE-CHECKED** — flagged stale against conflict-architecture (2026-08-26), which added a section documenting the corpus's one completed refusal of the redefinition move (an Ally exchange) and removed its `sage_pending |
 | [[wiki/mind/synthesis/bond-switch-2015]] | mind | _(carries a CORRECTED from 2026-08-17)_ |
 | [[wiki/mind/synthesis/closing-the-set]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
-| [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | **RE-CHECKED** — flagged stale against conflict-architecture (2026-08-26), which added a section documenting the corpus's one completed refusal of the redefinition move (an Ally exchange) and removed its `sage_pending |
 | [[wiki/mind/synthesis/fayette-return]] | mind | **RE-CHECKED** — ancestry added one verified collateral from the maternal Shrum line: **Daniel Shrum** (b. 11 Apr 1884, Pennsylvania; d. 11 Dec 1918, Greensburg, Westmoreland County) — an older brother of the direct-l |
 | [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] | mind | — |
 | [[wiki/mind/synthesis/political-psyops]] | mind | — |

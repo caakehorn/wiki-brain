@@ -6452,3 +6452,44 @@ standing. 6 of 7 Annie-moratorium pages remain, in the operator's stated
 order: `dan-annie-fallout-verdict`, `block-unblock-loop`,
 `august-grievance-verdict`, `the-rescue-premise`, `read-receipt-forensics`,
 `morgantown-call-three-participant-ethical-analysis`.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/dan-annie-fallout-verdict
+
+Second of 7 Annie-moratorium backlog pages, bound throughout by the standing
+moratorium. Sourced two claims the page already made about Dan's own
+cognition: `wiki/mind/profile/intp`'s Ti-dominance/Fe-inferior split for the
+already-stated "Ti-dominant processing reads emotional bids as propositions
+to litigate" line; `wiki/mind/synthesis/the-binary-verdict` reframing the
+already-quoted confession trap ("the exit was never through the verdict, it
+was through the door") as verdict-cognition's boundary case, matching the
+same citation just added to `attachment-trauma-bond`. No new Annie
+narrative, date, quote, or figure anywhere in this pass.
+
+**A real finding, deliberately not fixed.** Reading the whole page for this
+pass surfaced a genuine write-back failure: this page's own 2026-07-18
+REVISED block found the 187-of-191 "love-to-request" statistic
+non-diagnostic (97.2% of *all* her messages are equally request-adjacent at
+24h; the directional 1h-window test inverts it). `wiki/people/annie-ulmer`
+already carries that correction. Five other pages —
+`wiki/mind/concepts/conflict-architecture`, `wiki/mind/concepts/
+attachment-model`, `wiki/mind/synthesis/the-binary-verdict`, `wiki/mind/
+synthesis/the-rescue-premise`, `wiki/people/annie-ulmer-personality-
+assessment` — still cite the raw figure without the correction. **Not
+fixed in this pass.** A proper correction requires stating what the
+statistic does and doesn't show about Annie's behavior — new Annie-adjacent
+prose the standing moratorium reserves to the operator, not a session's own
+judgment call, however well-reasoned the fix. Logged to `BACKLOG.md` §3
+instead of silently fixed or silently dropped, per the task's explicit
+instruction: "if a constitution pass can only be completed by saying
+something new about her, stop and record why instead."
+
+Write-back: two new `synthesizes:` members (`intp`, `the-binary-verdict`)
+with reciprocal edges on both pages.
+
+Gates: `bin/wiki-lint` 0 errors / 23 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors /
+0 warnings; `bin/wiki-freshness` clean; 125 tests pass. `bin/wiki-work
+scan`: 0 obligations, 194 standing (one more — the new BACKLOG.md item).
+5 of 7 Annie-moratorium pages remain: `block-unblock-loop`,
+`august-grievance-verdict`, `the-rescue-premise`, `read-receipt-forensics`,
+`morgantown-call-three-participant-ethical-analysis`.

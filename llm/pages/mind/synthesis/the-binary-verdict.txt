@@ -70,6 +70,9 @@ connections:
   - page: wiki/mind/synthesis/attachment-trauma-bond
     type: parallels
     claim: "The confession trap that page documents is this rule's boundary case rather than its ordinary instance: where this page describes a reached verdict that will not be revisited, that page documents what happens when the same drive for a closing verdict is never satisfied at all — a distinction worth carrying back here, since every other member on this table is a verdict that closed, and this is the one that couldn't."
+  - page: wiki/mind/synthesis/dan-annie-fallout-verdict
+    type: parallels
+    claim: "The confession trap that page names — he could not exit without a validating confession that was never coming — is the same verdict-cognition boundary case documented on attachment-trauma-bond, in this page's other central relational case."
 ---
 
 # The Binary Verdict
