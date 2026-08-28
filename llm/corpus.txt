@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-28
-519 pages, ~1,497,995 tokens.
+519 pages, ~1,498,172 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10958,6 +10958,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - constitution-pass | mind | wiki/mind/synthesis/music-as-identity
   - constitution-pass | mind | wiki/mind/synthesis/instrument-is-subject
   - constitution-pass | mind | wiki/interests/food-and-diet
+  - constitution-pass | places | wiki/places/the-unpapered-address
 
 **2026-08-27** — 5 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
@@ -15594,6 +15595,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Demanding verbatim, unconsolidated AI memory retention extends 'The Irreversibility Firewall's' no-delete rule to the cognitive prosthetic itself: nothing, including a machine's summary of him, is allowed to lossily replace the original."
+  - page: wiki/self/gemini-activity/gemini-activity
+    type: evidenced-by
+    claim: "The aggregate counts this page's mechanism rests on — 403 'node,' 1,041 'profile,' 2,258 'lock' mentions, and the January 2, 2026 cluster combining J6 forensics with the heaviest profile-locking activity in the corpus — are that page's raw theme-frequency table, not independently re-derived here."
 
 ---
 
@@ -67899,6 +67903,9 @@ connections:
   - page: wiki/mind/synthesis/ai-collaborative-analysis
     type: evidences
     claim: "This archive is the primary corpus of the AI-collaboration synthesis."
+  - page: wiki/mind/concepts/node-locking
+    type: evidences
+    claim: "This page's theme-frequency table (403 'node,' 1,041 'profile,' 2,258 'lock' mentions, the Jan 2 2026 cluster) is the raw count node-locking's mechanism argument is built from."
 ---
 
 

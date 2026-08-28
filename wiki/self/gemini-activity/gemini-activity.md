@@ -13,6 +13,9 @@ connections:
   - page: wiki/mind/synthesis/ai-collaborative-analysis
     type: evidences
     claim: "This archive is the primary corpus of the AI-collaboration synthesis."
+  - page: wiki/mind/concepts/node-locking
+    type: evidences
+    claim: "This page's theme-frequency table (403 'node,' 1,041 'profile,' 2,258 'lock' mentions, the Jan 2 2026 cluster) is the raw count node-locking's mechanism argument is built from."
 ---
 
 

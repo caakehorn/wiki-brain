@@ -6372,3 +6372,27 @@ set: `attachment-trauma-bond`, `dan-annie-fallout-verdict`,
 Each is bound by the standing Annie moratorium: cognitive-stack and
 profile-layer mechanism citations are permitted, any new narrative, date,
 quote or figure about Annie is not.
+
+## [2026-08-28] connect | mind/self | node-locking.md <-> gemini-activity.md
+
+Track 2: typed the next unprocessed connection-queue pair (score 11.2).
+`wiki/mind/concepts/node-locking.md`'s mechanism argument (403 "node,"
+1,041 "profile," 2,258 "lock" mentions, the Jan 2 2026 forensics-plus-
+locking cluster) is built directly from `wiki/self/gemini-activity/
+gemini-activity.md`'s own theme-frequency table rather than independently
+re-derived — `evidences`/`evidenced-by` typed both directions. The
+next-highest-scored pair (dan-annie-fallout-verdict.md <-> group-chat-
+closure.md, 12.6) was skipped: typing it would be a new typed-edge claim
+about Annie, forbidden under the standing moratorium regardless of
+source quality.
+
+Neither page carries `synthesizes:`, so no staleness question; no
+date_modified bump, per this branch's established connection-queue
+convention (bookkeeping edge, not new argument).
+
+Gates: `bin/wiki-lint` 0 errors / 25 warnings; `bin/wiki-connect check` 0
+errors / 144 warnings (baseline; two pre-existing bare-`## Related`-footer
+warnings on gemini-activity.md and its archive page are unrelated to this
+edit); `bin/wiki-climb check` 0 errors / 0 warnings; `bin/wiki-freshness`
+clean; 125 tests pass. `bin/wiki-work scan`: 0 obligations, 193 standing
+(one fewer).

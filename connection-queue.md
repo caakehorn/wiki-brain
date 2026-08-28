@@ -69,13 +69,16 @@ knowledge. Process top-down; strike entries as done.
   context-core as the curated cross-check and timeline.md as the near-raw
   event list. Typed both directions.
 
-## [11.2] wiki/mind/concepts/node-locking.md <-> wiki/self/gemini-activity/gemini-activity.md
+## [11.2] wiki/mind/concepts/node-locking.md <-> wiki/self/gemini-activity/gemini-activity.md **(DONE 2026-08-28)**
 - shared source: `raw/self/dox-md/Gemini-_07.md`
 - shared source: `raw/self/dox-md/Gemini-_18.md`
 - wiki/self/gemini-activity/gemini-activity.md names 'node locking' unlinked
 - wiki/self/gemini-activity/gemini-activity.md names 'data_logged' unlinked
 - co-cited from 2 pages
-- [ ] type: ______  claim: ______
+- type: evidences (gemini-activity from node-locking) / evidenced-by (inverse) —
+  added typed edges: node-locking's mechanism argument (403/1,041/2,258 mention
+  counts, the Jan 2 2026 cluster) is built directly from gemini-activity's own
+  theme-frequency table, not independently re-derived.
 
 ## [11.2] wiki/mind/synthesis/totality-themes.md <-> wiki/self/context-core.md **(DONE 2026-08-28)**
 - shared source: `raw/self/dox-md/Gemini-_07.md`

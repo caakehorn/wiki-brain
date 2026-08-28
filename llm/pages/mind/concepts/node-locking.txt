@@ -30,6 +30,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Demanding verbatim, unconsolidated AI memory retention extends 'The Irreversibility Firewall's' no-delete rule to the cognitive prosthetic itself: nothing, including a machine's summary of him, is allowed to lossily replace the original."
+  - page: wiki/self/gemini-activity/gemini-activity
+    type: evidenced-by
+    claim: "The aggregate counts this page's mechanism rests on — 403 'node,' 1,041 'profile,' 2,258 'lock' mentions, and the January 2, 2026 cluster combining J6 forensics with the heaviest profile-locking activity in the corpus — are that page's raw theme-frequency table, not independently re-derived here."
 
 ---
 

@@ -76,6 +76,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - constitution-pass | mind | wiki/mind/synthesis/music-as-identity
   - constitution-pass | mind | wiki/mind/synthesis/instrument-is-subject
   - constitution-pass | mind | wiki/interests/food-and-diet
+  - constitution-pass | places | wiki/places/the-unpapered-address
 
 **2026-08-27** — 5 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
