@@ -73,6 +73,9 @@ connections:
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: parallels
     claim: "The confession trap that page names — he could not exit without a validating confession that was never coming — is the same verdict-cognition boundary case documented on attachment-trauma-bond, in this page's other central relational case."
+  - page: wiki/mind/synthesis/august-grievance-verdict
+    type: instantiates
+    claim: "Grievance 6's 'him or me' demand — a stated want that isn't one of the two named options registers as no answer at all — is a domain instance of this page's rule, scored false by that page's own analysis, which is what a working example of the rule looks like from outside the architecture running it."
 ---
 
 # The Binary Verdict

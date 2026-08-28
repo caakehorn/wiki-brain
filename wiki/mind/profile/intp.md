@@ -91,6 +91,9 @@ connections:
   - page: wiki/mind/synthesis/block-unblock-loop
     type: causes
     claim: "Two distinct functions explain that page's corrected rule ('the exit is executed; the deletion never is'): Si-tertiary's non-pruning archive is why nothing co-held is ever actually erased, and Fe-inferior (10% valuing) is why an executed severance never becomes felt-settled without an external terminating statement — the same account already established for dormancy-not-exit, run here on the channel-operation layer."
+  - page: wiki/mind/synthesis/august-grievance-verdict
+    type: causes
+    claim: "That page's grievance 6 — a demand for a statement that registers a different true answer as no answer at all — is Ti-dominance running with no Fe-mediated grading function available to read the different answer as responsive; the page's own scoring of the grievance as false is what this mechanism looks like from outside it."
 ---
 
 # INTP — The Cognitive Function Stack

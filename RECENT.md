@@ -34,6 +34,7 @@ simply listed.
 - **Session log:** connect | mind/self | node-locking.md <-> gemini-activity.md
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/attachment-trauma-bond
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/dan-annie-fallout-verdict
+- **Session log:** constitution-pass | mind | wiki/mind/synthesis/block-unblock-loop
 
 | Page | Domain | What moved |
 |---|---|---|

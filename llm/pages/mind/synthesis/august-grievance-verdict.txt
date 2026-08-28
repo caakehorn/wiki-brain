@@ -39,6 +39,8 @@ synthesizes:
   - wiki/mind/synthesis/block-unblock-loop
   - wiki/mind/synthesis/attachment-trauma-bond
   - wiki/mind/psychosexual/arrangement-history
+  - wiki/mind/profile/intp
+  - wiki/mind/synthesis/the-binary-verdict
 connections:
   - page: wiki/mind/synthesis/the-rescue-premise
     type: supplies
@@ -70,6 +72,12 @@ connections:
   - page: wiki/mind/psychosexual/arrangement-history
     type: instance-of
     claim: "This table's adjudication is what lets the humiliation grievance be scored as fully justified rather than as one contested claim against another: the accusation Dan was publicly named under fails on all three limbs against the primary record, so being named under it is a wrong done to him rather than a dispute between two accounts."
+  - page: wiki/mind/profile/intp
+    type: caused-by
+    claim: "The binary this page's grievance 6 already names — 'him or me,' which admits no third option, so a different true answer registers as no answer — is Ti-dominance running with no Fe-mediated grading function available to accept a partial or reframed answer as responsive. The page's own reading (a template-compliance check, not deception-detection) is that mechanism described without being named."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: instance-of
+    claim: "Grievance 6's 'him or me' demand is a domain instance of this page's rule: a verdict question collapsing to exactly two states, where a stated want that isn't one of the two named options registers as no answer at all rather than as a third state. The page's own scoring of grievance 6 as false is what a working example of this rule looks like from outside the architecture running it."
 ---
 
 > **RE-CHECKED [2026-08-21] — premise moved, conclusion unaffected.**
@@ -251,7 +259,7 @@ in a single exchange. Every threat in that page's eleven-year record demands a
 *statement*, and a demand for a statement can only be satisfied by the exact
 statement specified. A different true answer registers as no answer. The
 architecture is not detecting deception here; it is detecting non-compliance
-with a template, and it cannot tell the two apart.
+with a template, and it cannot tell the two apart — a binary ([[wiki/mind/synthesis/the-binary-verdict|him or me, with no third state]]) demanded by [[wiki/mind/profile/intp|Ti-dominance running with no Fe-mediated grading function]] available to read a different true answer as responsive rather than as a non-answer.
 
 That does not rescue her conduct and it is not offered as doing so. It does mean
 one of the ten grievances is not a grievance about her.
@@ -544,3 +552,36 @@ those two things is the whole of what this page has to say.
 > the behavior surrounding it can conflict with literal claims of wanting to be
 > alone. The motive remains an operator interpretation unless independently
 > corroborated.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`, and
+**bound by the standing Annie moratorium** (see `CLAUDE.md`). The only
+citation added is a mechanism for grievance 6, which this page had already
+scored and explained in its own words — the citation sources Dan's
+cognition, not Annie's conduct, and adds no new claim, quote, date, or
+figure about her.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]]'s Ti-dominance/Fe-inferior split is why grievance 6's demand cannot register a different true answer as responsive — see the inline citation in "Grievance 6" above. |
+| 2. Personality profile | **Checked, does not add a distinct mechanism.** No Big Five facet argues anything beyond register 1 for this page's specific finding. |
+| 3. Historical precedent | **Already load-bearing.** [[wiki/mind/synthesis/dan-annie-fallout-verdict]] and [[wiki/mind/synthesis/attachment-trauma-bond]] are this page's own historical base, already members. |
+| 4. Attitudes and forces | **Checked, does not bear** beyond [[wiki/mind/synthesis/block-unblock-loop]], already a member. |
+| 5. Security and prosperity | **Checked, does not bear** on this page's specific seventy-hour window. |
+| 6. Health | **Checked, does not bear** beyond the suicide-disclosure material already on the page, which is fact rather than a register-6 mechanism claim. |
+| 7. Romantic and relational state | **This page IS the register.** No further citation needed or added. |
+| 8. Age and upbringing | **Checked, does not bear.** |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Moved the conclusion.** [[wiki/mind/synthesis/the-binary-verdict]] names grievance 6 as a domain instance of a corpus-wide rule (verdict questions collapse to two states), which is a stronger, more general claim than "this one exchange has this shape" — and it is added as a mechanism for the page's own scoring, not as a new characterization of Annie. |
+
+**What survived:** all ten grievance scores, the counter-ledger, and the
+verdict itself — none required a profile-layer citation to stand, since
+they are dated, transcript-sourced findings. **What the pass added:** a
+sourced mechanism for grievance 6's false score, and a link to the
+corpus-wide rule it instantiates. **What it did not do, by the moratorium's
+own terms:** add, extend, date, or quote anything new about Annie —
+grievance 6's own scoring, evidence, and language are exactly as this page
+stated them before this pass.

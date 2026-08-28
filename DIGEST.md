@@ -72,6 +72,7 @@ this is the state of the thing.
   - connect | mind/self | node-locking.md <-> gemini-activity.md
   - constitution-pass | mind | wiki/mind/synthesis/attachment-trauma-bond
   - constitution-pass | mind | wiki/mind/synthesis/dan-annie-fallout-verdict
+  - constitution-pass | mind | wiki/mind/synthesis/block-unblock-loop
 
 **2026-08-27** — 5 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
@@ -129,7 +130,7 @@ have moved since.
 - [[wiki/mind/synthesis/alias-as-periodization]] — 6 premises
 - [[wiki/mind/synthesis/annual-volume-suz]] — 1 premise
 - [[wiki/mind/synthesis/attachment-trauma-bond]] — 9 premises
-- [[wiki/mind/synthesis/august-grievance-verdict]] — 7 premises
+- [[wiki/mind/synthesis/august-grievance-verdict]] — 9 premises
 - [[wiki/mind/synthesis/block-unblock-loop]] — 12 premises
 - [[wiki/mind/synthesis/closing-the-set]] — 9 premises
 - [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — 11 premises

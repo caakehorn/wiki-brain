@@ -6524,3 +6524,31 @@ in flight; branch was restarted from fresh `origin/main` and the two
 unmerged commits (`attachment-trauma-bond`, `dan-annie-fallout-verdict`)
 cherry-picked forward per protocol, gates re-verified identical, opened
 PR #206.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/august-grievance-verdict
+
+Fourth of 7 Annie-moratorium backlog pages, bound throughout by the standing
+moratorium — and the most sensitive page done so far, given its content
+(coercive control, a disclosed suicide attempt, grievance-by-grievance
+adjudication of a documented, recorded incident). The only edit is a
+mechanism citation for grievance 6, which the page had already scored
+(false) and explained in its own words: the "him or me" demand admits no
+third option, so a stated want that isn't one of the two named options
+registers as no answer at all. `wiki/mind/profile/intp`'s Ti-dominance
+running with no Fe-mediated grading function is why a different true
+answer can't register as responsive; `wiki/mind/synthesis/the-binary-verdict`
+names it as a domain instance of the corpus-wide rule already established
+this session — Dan's own cognition, using only language already on the
+page. No new claim, quote, date, or figure about Annie anywhere in this
+pass; every other grievance score, the counter-ledger, and the verdict
+itself are untouched.
+
+Write-back: two new `synthesizes:` members (`intp`, `the-binary-verdict`)
+with reciprocal edges on both pages.
+
+Gates: `bin/wiki-lint` 0 errors / 21 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors /
+0 warnings; `bin/wiki-freshness` clean; 125 tests pass. `bin/wiki-work
+scan`: 0 obligations, 194 standing. 3 of 7 Annie-moratorium pages remain:
+`the-rescue-premise`, `read-receipt-forensics`,
+`morgantown-call-three-participant-ethical-analysis`.
