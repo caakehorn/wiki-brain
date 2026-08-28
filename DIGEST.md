@@ -17,7 +17,7 @@ this is the state of the thing.
 | Pages touched in the last 14 days | 196 |
 | Pages reasoning from other pages (`synthesizes:`) | 48 |
 | Live contradictions | 44 |
-| Open gaps | 480 |
+| Open gaps | 481 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -47,7 +47,7 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-28** — 33 pages
+**2026-08-28** — 34 pages
   - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
   - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
@@ -64,12 +64,13 @@ this is the state of the thing.
   - close | people | wiki/people/alexis-armel — two operator-volunteered captures fully ingested
   - constitution-pass | mind | wiki/mind/synthesis/supply-network
   - connect | self, timeline | connection-queue.md (context-core <-> timeline.md)
+  - constitution-pass | mind | wiki/mind/synthesis/alias-as-periodization
 
 **2026-08-27** — 7 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
   - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
 
-**2026-08-26** — 60 pages
+**2026-08-26** — 59 pages
   - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
   - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
@@ -131,7 +132,7 @@ have moved since.
 - [[wiki/mind/synthesis/fayette-return]] — 6 premises
 - [[wiki/mind/synthesis/instrument-is-subject]] — 4 premises
 - [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] — 6 premises
-- [[wiki/mind/synthesis/music-as-identity]] — 3 premises
+- [[wiki/mind/synthesis/music-as-identity]] — 4 premises
 - [[wiki/mind/synthesis/no-platonic-channel]] — 9 premises
 - [[wiki/mind/synthesis/read-receipt-forensics]] — 2 premises
 - [[wiki/mind/synthesis/single-channel]] — 8 premises

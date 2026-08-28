@@ -6175,3 +6175,39 @@ Gates: `bin/wiki-lint` 0 errors / 29 warnings (one fewer); `bin/wiki-connect
 check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors / 3 warnings
 (one fewer — this page's own resolved); `bin/wiki-freshness` clean; 125
 tests pass. 12 of 21 backlog pages remain.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/music-as-identity
+
+**Tenth of 21.** Had never cited `wiki/mind/profile/`, and its own
+explanation for the Fall Out Boy freeze-at-boundary pattern ("the objects
+can't betray him") had never been tested against an object that
+structurally cannot betray him.
+
+**The register narrowed the conclusion, not just supported it.** A defunct
+band's studio catalog carries zero relational risk — it cannot release a
+bad record, cheat, or disappoint the way a person could — yet gets the
+identical freeze treatment the page documents for relationships. That is a
+falsifier the "can't betray him" framing does not survive. `intp`'s
+Ti-dominance supplies the sharper account: a verdict, once it holds under
+recursive collapse, is not supposed to need relitigating. The freeze is not
+defensive; it is what a closed Ti verdict looks like from outside, and it
+predicts (correctly) that the pattern generalizes to objects with zero
+relational stakes at all. New Gaps entry records the sharper prediction
+this licenses (a canonized verdict should hold even against strong external
+pressure to revise it) as untested.
+
+**Full constitution-pass table added.** 1 register moved and narrowed the
+conclusion (cognitive stack); 1 explicitly declined as adding nothing
+distinct (personality profile); the rest checked and found not to bear or
+already load-bearing (romantic/relational via the Annie happiness-ranking
+handover already central to the page).
+
+Write-back: 1 new `synthesizes:` member (`intp`), reciprocal typed edge; no
+member date_modified bumped. This page's date_modified bumped (substantive
+new section). Checked dependents (`totality-themes`), already current, no
+cascade.
+
+Gates: `bin/wiki-lint` 0 errors / 28 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors / 3 warnings
+(unchanged, pre-existing); `bin/wiki-freshness` clean; 125 tests pass. 11
+of 21 backlog pages remain.

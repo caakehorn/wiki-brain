@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 44 |
-| Open gaps | 480 |
+| Open gaps | 481 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
 
@@ -180,7 +180,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/legal/2015-possession-arrest]]** — Whether the fines referenced in January and February 2016 belong to this case, to the Combos matter, or to both running concurrently is not determinable from the message record — the "combos are paid off" phrasing suggests at least some of that money was the t
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 
-### mind (150)
+### mind (151)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
 - **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
@@ -278,6 +278,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/message-circadian-latency]]** — `LEVIATHAN_FULL_CORPUS.csv` lives in `/Volumes/MUSIC/PHASE B RAW/`, not yet filed under `raw/` — its on-disk path is cited directly above.
 - **[[wiki/mind/synthesis/music-as-identity]]** — The 2019–2024 message gap means the live concert habit after 2008 is under-documented; only the 2005–2008 record survives in his own hand.
 - **[[wiki/mind/synthesis/music-as-identity]]** — Whether the producer identity and the favorites pole ever consciously cross (does he hear his own sub-bass signature in what he consumes?) is not settled by the corpus.
+- **[[wiki/mind/synthesis/music-as-identity]]** — **A new question the mechanism section opens rather than closes.** If closure, not betrayal-risk, is the real driver of the Fall Out Boy freeze, the same rule predicts a canonized verdict should hold even against strong external pressure to revise it (a critic
 - **[[wiki/mind/synthesis/no-platonic-channel]]** — **The corpus has not been swept exhaustively for other multi-year female friendships.** This page draws on the members already documented elsewhere in the wiki; a dedicated `bin/mine-messages` pass for women with high message counts and no infobox `relationshi
 - **[[wiki/mind/synthesis/no-platonic-channel]]** — **Whether the mechanism is specific to women, or is a special case of a broader inability to sustain a low-intensity tie with anyone he trusts, is untested.** tom is the standing candidate for the male control case — a multi-year lateral peer bond with no roma
 - **[[wiki/mind/synthesis/no-platonic-channel]]** — **Motive is not settled.** emotional-imprinting itself flags that no primary source has Dan explaining, in his own words, why sustained closeness routes to romantic or sexual overture rather than staying platonic — every mechanism on this page is a dossier's o

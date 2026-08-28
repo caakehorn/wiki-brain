@@ -70,6 +70,9 @@ connections:
   - page: wiki/mind/synthesis/alias-as-periodization
     type: evidences
     claim: "Si-tertiary's role as the high-fidelity archive is why the sub-bass signature never turns over across four aliases: it is an involuntary, identified-post-hoc trait rather than a Ti-negotiated public choice, so it sits outside the audit-and-revise cycle the name itself is subject to."
+  - page: wiki/mind/synthesis/music-as-identity
+    type: evidences
+    claim: "Ti's closure standard — a verdict, once reached, does not get relitigated — explains that page's Fall Out Boy freeze-at-boundary pattern more precisely than 'the objects can't betray him' does, since the pattern holds even on a defunct band's catalog that carries zero relational risk to begin with."
 ---
 
 # INTP — The Cognitive Function Stack
