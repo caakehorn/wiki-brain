@@ -15,6 +15,8 @@ simply listed.
 - **Session log:** climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
 - **Session log:** climb | mind | the-binary-verdict (9 synthesized, 0 rejected)
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/the-binary-verdict
+- **Session log:** constitution-pass | mind | wiki/mind/synthesis/single-channel
+- **Session log:** connect | mind, people | connection-queue.md (2 pairs: 1 typed, 1 rejected)
 
 | Page | Domain | What moved |
 |---|---|---|

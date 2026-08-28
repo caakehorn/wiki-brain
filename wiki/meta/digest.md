@@ -25,7 +25,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | Pages touched in the last 14 days | 195 |
 | Pages reasoning from other pages (`synthesizes:`) | 48 |
 | Live contradictions | 46 |
-| Open gaps | 479 |
+| Open gaps | 480 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -61,6 +61,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
   - climb | mind | the-binary-verdict (9 synthesized, 0 rejected)
   - constitution-pass | mind | wiki/mind/synthesis/the-binary-verdict
+  - constitution-pass | mind | wiki/mind/synthesis/single-channel
+  - connect | mind, people | connection-queue.md (2 pairs: 1 typed, 1 rejected)
 
 **2026-08-27** — 9 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
@@ -136,7 +138,7 @@ have moved since.
 - [[wiki/mind/synthesis/the-binary-verdict]] — 13 premises
 - [[wiki/mind/synthesis/the-cato-seat]] — 9 premises
 - [[wiki/mind/synthesis/the-commissioned-self]] — 10 premises
-- [[wiki/mind/synthesis/the-deferred-audit]] — 9 premises
+- [[wiki/mind/synthesis/the-deferred-audit]] — 11 premises
 - [[wiki/mind/synthesis/the-embedded-objective]] — 8 premises
 - [[wiki/mind/synthesis/the-rescue-premise]] — 13 premises
 - [[wiki/mind/synthesis/the-serial-monogamist]] — 8 premises

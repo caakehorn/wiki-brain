@@ -101,6 +101,9 @@ connections:
   - page: wiki/mind/synthesis/no-platonic-channel
     type: parallels
     claim: "This page names exactly one enduring lateral peer bond in the entire psychological layer — Tom, 'primary male ally' — and no female equivalent is named anywhere in the corpus, the predicted absence if a trusted female tie cannot stay in the same undramatic lateral register."
+  - page: wiki/self/context-core
+    type: evidenced-by
+    claim: "Context-core is the source of this page's own name and organizing formula — 'vertical-authority-skeptic, lateral-solidarity-privileging' appears there verbatim, in the political-trajectory line, quoted in this page's own prose as 'the spine's own formula' without ever being linked to its source until this pass."
 ---
 
 
@@ -114,8 +117,8 @@ Submissiveness 1, Assertiveness 5
 ([[wiki/mind/profile/big-five-psychometrics]]). The low-assertiveness score
 is the tell that this is not dominance-seeking: he neither obeys the
 hierarchy nor competes for its top — he exits the axis and audits it from
-outside. The spine's own formula: "vertical-authority-skeptic,
-lateral-solidarity-privileging."
+outside. [[wiki/self/context-core|The spine]]'s own formula: "vertical-
+authority-skeptic, lateral-solidarity-privileging."
 
 ## The template: family verticals
 

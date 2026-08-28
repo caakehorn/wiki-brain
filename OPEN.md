@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 46 |
-| Open gaps | 479 |
+| Open gaps | 480 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
 
@@ -182,7 +182,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/legal/2015-possession-arrest]]** — Whether the fines referenced in January and February 2016 belong to this case, to the Combos matter, or to both running concurrently is not determinable from the message record — the "combos are paid off" phrasing suggests at least some of that money was the t
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 
-### mind (149)
+### mind (150)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
 - **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
@@ -313,6 +313,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/the-deferred-audit]]** — **The 2005 origin is testimony and is doing real work.** Everything in the origin section rests on AI-authored dossier material and Dan's own narration. If the hinge event is misdated or misweighted, the two clocks survive unchanged but lose their cause.
 - **[[wiki/mind/synthesis/the-deferred-audit]]** — **No base rate.** Auditing strangers harder than intimates is, at some level, ordinary human behaviour. What is claimed as distinctive is the *magnitude* of the asymmetry — hours against nine years — and nothing here compares that spread against anyone else. F
 - **[[wiki/mind/synthesis/the-deferred-audit]]** — **The protected class has two members.** Food and the pets are enough to establish that a reserve exists, not enough to characterise it. What else is in it has not been looked for, and the search is cheap: any domain with high corpus presence and zero evaluati
+- **[[wiki/mind/synthesis/the-deferred-audit]]** — **The financial and health domains were not tested against the two clocks, per the 2026-08-28 constitution pass.** estate-money-spine and supply-network were not read for that pass. The Menore row already on this page's own table is a health-adjacent supply re
 - **[[wiki/mind/synthesis/the-embedded-objective]]** — The payload for Nemacolin is inferred from what Dan chose to record rather than from any statement of intent, and it is the weakest of the three positive cases — a status ladder is exactly the kind of thing that could be post-hoc narrative rather than live mot
 - **[[wiki/mind/synthesis/the-rescue-premise]]** — 1. **Has the supply dependency actually ended?** Procurement ran daily at $50–$100 through August 16. Nothing in the corpus records its state after the 19th, and it is the single strongest predictor of resumption. One sentence from the operator settles it.
 - **[[wiki/mind/synthesis/the-rescue-premise]]** — 2. **Has Dan left the group chat containing Coles?** If the channel is still open it is a live re-entry route that Part I item 1 does not cover, because it is not affective and would not be recognised as one.

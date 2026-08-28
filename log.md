@@ -5769,3 +5769,48 @@ untouched.
 Gates: `bin/wiki-lint` 0 errors / 33 warnings (unchanged); `bin/wiki-connect
 check` 0 errors / 144 warnings (unchanged); `bin/wiki-climb check` 0 errors,
 0 warnings.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/the-deferred-audit
+
+**Third of 21.** This page already practiced a version of register-checking
+on itself (its "Provenance disclosure" callout, dated 2026-08-02, applies
+`instrument-is-subject`'s residue/testimony ranking 26 days before the
+formal constitution-pass rule existed) but had never cited
+`wiki/mind/profile/` directly, despite quoting Big Five scores in its own
+member-comparison table.
+
+**Two registers, answering different halves of the rule.** `intp`'s
+Ti-dominance — truth defined as "a system that holds under recursive
+collapse" — is the structural reason a chosen object's audit is never
+local: selecting something is how a Ti-dominant mind extends its own
+system, so a later audit re-runs the coherence test on a piece of the
+system that produced the original choice. `big-five-psychometrics`'
+Self-Consciousness 91 (corpus-confirmed at 1.85x self-monitoring, distinct
+from Trust 9's already-cited role in the fast/imposed half) is the
+trait-level reason the delay attaches specifically to *self-directed*
+audits: Trust 9 predicts suspicion of another party's motive, but auditing
+a chosen object checks Dan's own prior judgment, which Trust 9 does not
+measure and Self-Consciousness does. The two registers answer the frame-cost
+and the self-image-cost separately rather than competing, and the
+provenance gradient (Self-Consciousness corpus-confirmed; Ti-dominance
+self-commissioned) is stated explicitly, consistent with the pattern set on
+`the-binary-verdict`.
+
+**Full constitution-pass table added.** 2 registers moved the conclusion
+(cognitive stack, personality profile); 6 checked and left standing
+(historical precedent, attitudes/forces, romantic/relational, age/upbringing,
+ideological, axiomatic politics — several already handled at the page's own
+existing rigor); 1 does not bear (geographic/ethnic); 2 remain open Gaps
+(security/prosperity, health) — the health gap notes a loose thread: the
+Menore row already on this page's two-clocks table was never cross-checked
+against `supply-network`'s own account of the same relationship.
+
+Write-back: 2 new `synthesizes:` members (`intp`, `big-five-psychometrics`),
+each with a reciprocal typed edge and prose sentence; no member date_modified
+bumped.
+
+Gates: `bin/wiki-lint` 0 errors / 33 warnings (unchanged — this page's own
+constitution-pass warning cleared, one other page's warning happened to
+clear in a prior commit); `bin/wiki-connect check` 0 errors / 144 warnings;
+`bin/wiki-climb check` 0 errors, 0 warnings; `bin/wiki-freshness` clean. 18
+of 21 backlog pages remain.

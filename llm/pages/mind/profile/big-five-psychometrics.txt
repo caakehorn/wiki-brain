@@ -56,6 +56,9 @@ connections:
   - page: wiki/mind/synthesis/single-channel
     type: evidences
     claim: "Sociability at the 3rd percentile (corpus-audited at 0.73x baseline on initiating contact) combined with Trust at the 9th (corpus-confirmed at 1.96x raised suspicion) is the trait-level reason so few relational channels ever clear the vetting bar in the first place — the first trait-level answer that page's 'circumstance vs. architecture' falsifier has had, though not yet a resolution of it."
+  - page: wiki/mind/synthesis/the-deferred-audit
+    type: evidences
+    claim: "Self-Consciousness at 91 — corpus-confirmed at 1.85x self-monitoring in company — is the register that explains why the audit delay attaches specifically to chosen objects: Trust 9 predicts fast suspicion of an outside party's motive, but a chosen-object audit checks Dan's own prior judgment, which is a self-monitoring cost this facet measures directly and Trust 9 does not."
 ---
 
 
