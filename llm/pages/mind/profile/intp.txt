@@ -61,6 +61,9 @@ connections:
   - page: wiki/mind/synthesis/the-embedded-objective
     type: evidences
     claim: "Ti's internal-verification standard ('a system that holds under recursive collapse,' never social consensus) is why an assignment does not motivate until it is privately re-derived: a goal handed over by an employer has not passed that verification, but the same goal re-authored on Dan's own terms (a tip split, a status ladder) has, and behaves afterward like any other self-generated conclusion — defended past the point the external role would justify."
+  - page: wiki/mind/synthesis/dormancy-not-exit
+    type: evidences
+    claim: "Two functions explain two different halves of that page's 'suspend, not delete' rule: Si-tertiary's non-pruning archive is why a dormant tie costs nothing to reactivate after years of silence, and Fe-inferior at 10% valuing is why a Ti-generated decision that a tie is over never becomes felt-settled without an external terminating statement supplying the relational judgment this stack cannot produce internally."
 ---
 
 # INTP — The Cognitive Function Stack

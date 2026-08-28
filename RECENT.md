@@ -19,6 +19,8 @@ simply listed.
 - **Session log:** connect | mind, people | connection-queue.md (2 pairs: 1 typed, 1 rejected)
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/the-deferred-audit
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/totality-themes
+- **Session log:** constitution-pass | mind | wiki/mind/synthesis/the-embedded-objective
+- **Session log:** connect | mind, self | connection-queue.md (totality-themes <-> context-core)
 
 | Page | Domain | What moved |
 |---|---|---|

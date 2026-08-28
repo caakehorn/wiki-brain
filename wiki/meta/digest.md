@@ -65,6 +65,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - connect | mind, people | connection-queue.md (2 pairs: 1 typed, 1 rejected)
   - constitution-pass | mind | wiki/mind/synthesis/the-deferred-audit
   - constitution-pass | mind | wiki/mind/synthesis/totality-themes
+  - constitution-pass | mind | wiki/mind/synthesis/the-embedded-objective
+  - connect | mind, self | connection-queue.md (totality-themes <-> context-core)
 
 **2026-08-27** — 9 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
@@ -126,7 +128,7 @@ have moved since.
 - [[wiki/mind/synthesis/block-unblock-loop]] — 11 premises
 - [[wiki/mind/synthesis/closing-the-set]] — 9 premises
 - [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — 9 premises
-- [[wiki/mind/synthesis/dormancy-not-exit]] — 9 premises
+- [[wiki/mind/synthesis/dormancy-not-exit]] — 10 premises
 - [[wiki/mind/synthesis/estate-money-spine]] — 5 premises
 - [[wiki/mind/synthesis/failure-to-launch]] — 17 premises
 - [[wiki/mind/synthesis/fayette-return]] — 6 premises

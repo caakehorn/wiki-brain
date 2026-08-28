@@ -5914,3 +5914,42 @@ both directions recording the mismatch.
 Gates: `bin/wiki-lint` 0 errors / 31 warnings (unchanged); `bin/wiki-connect
 check` 0 errors / 144 warnings (unchanged); `bin/wiki-climb check` 0 errors,
 0 warnings.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/dormancy-not-exit
+
+**Sixth of 21.** Had never cited `wiki/mind/profile/` despite two prior
+mechanism corrections (2026-08-02, 2026-08-13) explicitly chasing the exact
+cognitive question a profile-layer register answers directly: why does a
+closure Dan performs himself never feel settled without an external
+terminating statement?
+
+**Two distinct functions for two distinct halves of the rule, not one
+blurred citation.** `intp`'s Si-tertiary (the "vast high-fidelity archive"
+with no pruning) explains the retention half — why a dormant channel costs
+nothing to reactivate after years of silence, a storage property requiring
+no claim about feelings. Fe-inferior at 10% valuing explains the
+ratification half — Ti can decide internally that a tie no longer holds
+together, but the *felt* closure Fe would normally certify is barely
+available, so the June 1 severance held for 52 days (the Ti decision) but
+was never treated as settled until an external signal supplied the
+relational read the stack could not generate itself.
+
+**Explicitly distinguished from the-deferred-audit's mechanism rather than
+duplicating it.** That page's Ti-dominance argument (audits of chosen
+objects are deferred because they risk a verdict on the chooser) explains a
+different, earlier gap than this page's Fe-ratification argument (why an
+audit that HAS run still needs external confirmation). Stated on the page
+as consecutive gaps in one architecture, not the same finding twice.
+
+**Deliberately declined a second profile-layer citation.** Trust 9 and
+Self-Consciousness 91 are already load-bearing for the-deferred-audit's
+adjacent question; the constitution-pass table records the decision not to
+force them onto this page as well, naming SYNTHESIS_SPEC's own warning
+against decorative citation as the reason.
+
+Write-back: 1 new `synthesizes:` member (`intp`), with a reciprocal typed
+edge naming both functions; no member date_modified bumped.
+
+Gates: `bin/wiki-lint` 0 errors / 30 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors, 0 warnings;
+`bin/wiki-freshness` clean. 15 of 21 backlog pages remain.
