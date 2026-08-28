@@ -62,6 +62,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: evidences
     claim: "Impulsiveness 96 is the control that keeps the Irreversibility Firewall from being misread as generalized caution: the trait scores highest in the whole Big30 table, but its own corpus audit finds immediacy language at 0.92x baseline, so the firewall's act-closure filter is a specific, narrow mechanism running underneath a mind that is not measurably cautious in the ordinary sense."
+  - page: wiki/mind/synthesis/the-embedded-objective
+    type: evidences
+    claim: "That page's completion-drive reading of Au Za'atar and Nemacolin's long tenures inherits acquisition-drive's CONTRADICTION with this instrument unstated: this page reads the same Impulsiveness-96 behaviour as a brake failure where acquisition-drive reads it as a working engine, and the-embedded-objective had been taking the engine side in its prose without disclosing that the instrument itself disagrees."
 ---
 
 

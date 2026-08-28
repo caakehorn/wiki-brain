@@ -64,6 +64,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - constitution-pass | mind | wiki/mind/synthesis/single-channel
   - connect | mind, people | connection-queue.md (2 pairs: 1 typed, 1 rejected)
   - constitution-pass | mind | wiki/mind/synthesis/the-deferred-audit
+  - constitution-pass | mind | wiki/mind/synthesis/totality-themes
 
 **2026-08-27** — 9 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
@@ -140,7 +141,7 @@ have moved since.
 - [[wiki/mind/synthesis/the-cato-seat]] — 9 premises
 - [[wiki/mind/synthesis/the-commissioned-self]] — 10 premises
 - [[wiki/mind/synthesis/the-deferred-audit]] — 11 premises
-- [[wiki/mind/synthesis/the-embedded-objective]] — 8 premises
+- [[wiki/mind/synthesis/the-embedded-objective]] — 10 premises
 - [[wiki/mind/synthesis/the-rescue-premise]] — 13 premises
 - [[wiki/mind/synthesis/the-serial-monogamist]] — 8 premises
 - [[wiki/mind/synthesis/the-unbroken-bond]] — 5 premises

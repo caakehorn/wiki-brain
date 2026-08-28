@@ -18,6 +18,7 @@ simply listed.
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/single-channel
 - **Session log:** connect | mind, people | connection-queue.md (2 pairs: 1 typed, 1 rejected)
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/the-deferred-audit
+- **Session log:** constitution-pass | mind | wiki/mind/synthesis/totality-themes
 
 | Page | Domain | What moved |
 |---|---|---|

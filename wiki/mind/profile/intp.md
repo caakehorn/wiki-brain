@@ -58,6 +58,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: evidences
     claim: "'Dan's own audit apparatus, turned on himself' — that page's phrase for the risk the Irreversibility Firewall defends against — names this stack's Ti-dominance specifically: the same coherence-testing engine that makes truth 'a system that holds under recursive collapse' is what a finished, shipped, or admitted act would expose to a verdict, which is why finishing, shipping and admitting are one category of dangerous event rather than three unrelated ones."
+  - page: wiki/mind/synthesis/the-embedded-objective
+    type: evidences
+    claim: "Ti's internal-verification standard ('a system that holds under recursive collapse,' never social consensus) is why an assignment does not motivate until it is privately re-derived: a goal handed over by an employer has not passed that verification, but the same goal re-authored on Dan's own terms (a tip split, a status ladder) has, and behaves afterward like any other self-generated conclusion — defended past the point the external role would justify."
 ---
 
 # INTP — The Cognitive Function Stack

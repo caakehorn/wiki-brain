@@ -5856,3 +5856,44 @@ this one via `synthesizes:` — checked before proceeding).
 Gates: `bin/wiki-lint` 0 errors / 32 warnings (one fewer); `bin/wiki-connect
 check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors, 0 warnings;
 `bin/wiki-freshness` clean. 17 of 21 backlog pages remain.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/the-embedded-objective
+
+**Fifth of 21.** Built its entire argument on `acquisition-drive`'s
+completion-drive claim without ever citing `wiki/mind/profile/` directly.
+
+**Ti-dominance explains why an assignment must be re-derived before it
+motivates.** `intp`'s standard of truth — "a system that holds under
+recursive collapse," verified internally, never by external say-so — means
+an assigned goal has not passed verification until Dan privately re-derives
+it (the tip split, the looper ladder), at which point it behaves like any
+other self-generated conclusion. Distinct from `vertical-authority-
+skepticism`'s already-cited Assertiveness/Submissiveness account (why he
+exits hierarchies) — this explains why an assigned *goal* specifically does
+not motivate until re-owned.
+
+**A dependency disclosed rather than resolved.** `acquisition-drive`
+(which this page's entire rule depends on) carries a live `CONTRADICTION`:
+`big-five-psychometrics` reads Impulsiveness 96 as a brake failure while
+acquisition-drive reads the identical behaviour as a working completion
+engine. This page's prose had been taking the engine side throughout —
+"the drive," "the engine" — without ever disclosing that the instrument it
+ultimately rests on disputes that reading. The page's actual evidence
+(dated tenure lengths) doesn't require the dispute to be settled, since
+tenure length is residue regardless of which trait-interpretation is
+correct; the prose narrating *why* did need the disclosure, and now has it.
+
+**Full constitution-pass table added.** 2 registers moved the conclusion
+(cognitive stack, personality profile — the latter by disclosure, not
+resolution); 8 checked and found not to bear (attitudes/forces, security/
+prosperity, romantic/relational, age/upbringing, geographic/ethnic,
+ideological, axiomatic politics) or already partially present (historical
+precedent, health via an existing prediction) — recorded honestly rather
+than forcing connections.
+
+Write-back: 2 new `synthesizes:` members (`intp`, `big-five-psychometrics`),
+each with a reciprocal typed edge; no member date_modified bumped.
+
+Gates: `bin/wiki-lint` 0 errors / 31 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors, 0 warnings;
+`bin/wiki-freshness` clean. 16 of 21 backlog pages remain.
