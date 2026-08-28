@@ -67,6 +67,9 @@ connections:
   - page: wiki/mind/synthesis/supply-network
     type: evidences
     claim: "The same Ti-dominance mechanism the-deferred-audit uses for chosen-object audit timing explains why supplier reliability inverts with intimacy: enforcing a standard on a friend-supplier is an audit that risks a verdict on the friendship, so Tom's failures accumulate for eighteen years while a stranger's failure is noticed and acted on immediately."
+  - page: wiki/mind/synthesis/alias-as-periodization
+    type: evidences
+    claim: "Si-tertiary's role as the high-fidelity archive is why the sub-bass signature never turns over across four aliases: it is an involuntary, identified-post-hoc trait rather than a Ti-negotiated public choice, so it sits outside the audit-and-revise cycle the name itself is subject to."
 ---
 
 # INTP — The Cognitive Function Stack

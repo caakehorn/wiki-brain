@@ -6139,3 +6139,39 @@ Gates: `bin/wiki-lint` 0 errors / 30 warnings (unchanged); `bin/wiki-connect
 check` 0 errors / 144 warnings (unchanged); `bin/wiki-climb check` 0 errors
 / 4 warnings (unchanged — the two pre-existing legitimate obligations from
 prior commits, still open and still tracked for their own passes).
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/alias-as-periodization
+
+**Ninth of 21.** Already leaned on `totality-themes`' Ti-dominance account
+of the Irreversibility Firewall (renaming as identity-layer closure work)
+without ever citing `wiki/mind/profile/` directly, and had carried two days
+of accumulated staleness debt from that same dependency — resolved in the
+same pass.
+
+**A second, complementary function for the half of the rule Ti doesn't
+cover.** `totality-themes` already explains why the *name* changes at each
+period boundary (Ti-dominance treats a finished, public work as an exposed
+fact the audit apparatus could render a verdict on, so the name is
+sacrificed instead). It does not explain why the **sub-bass signature**
+specifically never turns over. `intp`'s Si-tertiary — "the vast
+high-fidelity archive," the same function `dormancy-not-exit`'s own
+constitution pass used for why nothing decays from the relational graph —
+supplies that half directly: the signature is identified post-hoc, an
+archived trait rather than a Ti-negotiated choice, so it sits outside the
+audit-and-revise cycle the name is subject to. Two functions, two halves of
+one rule, explicitly distinguished rather than blurred into one citation.
+
+**Declined a personality-profile citation as decorative** — no Big-Five
+facet added a distinct argument beyond the two cognitive-function accounts
+already carrying the rule.
+
+Write-back: 1 new `synthesizes:` member (`intp`), with a reciprocal typed
+edge; no member date_modified bumped. This page's own date_modified bumped
+(substantive new section, and the accumulated staleness needed a real
+re-check, not a bump-only clear) — checked dependents (`single-channel`,
+`totality-themes`), both already current, no cascade.
+
+Gates: `bin/wiki-lint` 0 errors / 29 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors / 3 warnings
+(one fewer — this page's own resolved); `bin/wiki-freshness` clean; 125
+tests pass. 12 of 21 backlog pages remain.

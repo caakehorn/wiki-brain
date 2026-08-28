@@ -23,7 +23,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-28 — 32 pages
+## 2026-08-28 — 33 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -34,6 +34,7 @@ simply listed.
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
+| [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — totality-themes gained two RE-CHECKED notes (2026-08-28) confirming a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris to Alexis Armel) touches neither page. **N |
 | [[wiki/mind/synthesis/annual-volume-suz]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a new 2013–2014 eviction/concealment episode (Alexis Armel, the washing machine). No message-volume figure this page draws on is touched.  |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a pre-Annie, Alexis-era eviction/concealment episode (2013–2014, Uniontown). It touches neither the Annie-era material nor any figure this |
 | [[wiki/mind/synthesis/august-grievance-verdict]] | mind | **RE-CHECKED** — flagged stale against attachment-trauma-bond (2026-08-28), which gained a RE-CHECKED note tracing back to a pre-Annie, 2013–2014 Alexis-era eviction/concealment episode on suzanne-frank. It touc |
@@ -72,7 +73,7 @@ simply listed.
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 | [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — 117-belmont-circle gained the sale's disposition on 2026-08-27: it **closed in summer 2019 for $250,000** (operator testimony, uncorroborated in the message record, buyer still unknown). The row above |
 
-## 2026-08-26 — 61 pages
+## 2026-08-26 — 60 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -104,7 +105,6 @@ simply listed.
 | [[wiki/mind/profile/voice-modes]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/mind/psychosexual/arrangement-history]] | mind | _(carries a CORRECTED from 2026-08-20)_ |
 | [[wiki/mind/synthesis/ai-collaborative-analysis]] | mind | — |
-| [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — flagged stale against totality-themes (2026-08-26), which gained two RE-CHECKED notes confirming its own cited premises unaffected by the same day's acquisition-drive/embedded-objective additions. **N |
 | [[wiki/mind/synthesis/block-unblock-loop]] | mind | **RE-CHECKED** — flagged stale against conflict-architecture (2026-08-26), which added a section documenting the corpus's one completed refusal of the redefinition move (an Ally exchange) and removed its `sage_pending |
 | [[wiki/mind/synthesis/bond-switch-2015]] | mind | _(carries a CORRECTED from 2026-08-17)_ |
 | [[wiki/mind/synthesis/closing-the-set]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |

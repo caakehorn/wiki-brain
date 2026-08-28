@@ -47,7 +47,7 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-28** — 32 pages
+**2026-08-28** — 33 pages
   - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
   - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
@@ -62,12 +62,14 @@ this is the state of the thing.
   - constitution-pass | mind | wiki/mind/synthesis/dormancy-not-exit
   - constitution-pass | mind | wiki/mind/synthesis/estate-money-spine
   - close | people | wiki/people/alexis-armel — two operator-volunteered captures fully ingested
+  - constitution-pass | mind | wiki/mind/synthesis/supply-network
+  - connect | self, timeline | connection-queue.md (context-core <-> timeline.md)
 
 **2026-08-27** — 7 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
   - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
 
-**2026-08-26** — 61 pages
+**2026-08-26** — 60 pages
   - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
   - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
@@ -116,7 +118,7 @@ have moved since.
 - [[wiki/mind/concepts/chaos-preference]] — 2 premises
 - [[wiki/mind/concepts/the-cool-metric]] — 3 premises
 - [[wiki/mind/politics/axioms]] — 5 premises
-- [[wiki/mind/synthesis/alias-as-periodization]] — 5 premises
+- [[wiki/mind/synthesis/alias-as-periodization]] — 6 premises
 - [[wiki/mind/synthesis/annual-volume-suz]] — 1 premise
 - [[wiki/mind/synthesis/attachment-trauma-bond]] — 5 premises
 - [[wiki/mind/synthesis/august-grievance-verdict]] — 7 premises
