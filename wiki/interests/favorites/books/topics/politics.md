@@ -5,6 +5,11 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-22
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
+synthesizes:
+  - wiki/interests/favorites/books
+  - wiki/self/context-core
+  - wiki/mind/synthesis/2020-left-turn
+  - wiki/interests/roman-republic
 related: ["wiki/interests/favorites/books", "wiki/self/context-core"]
 connections:
   - page: wiki/mind/synthesis/2020-left-turn

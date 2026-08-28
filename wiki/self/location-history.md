@@ -5,6 +5,13 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-07-26
 sources: ["raw/self/location/2026-06-22-ingest/Location History (Timeline)-20260622T225253Z-3-001.zip", "raw/self/location/2026-06-22-ingest/Location History (Timeline)/semantic_location.db", "raw/self/location/2026-06-22-ingest/Location History (Timeline)/Records.json", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/archives/google-data-export-index-20260623.html"]
+synthesizes:
+  - wiki/self/context-core
+  - wiki/self/overview
+  - wiki/self/facebook
+  - wiki/mind/synthesis/millennial-digital-witness
+  - wiki/timeline/periods/2017-poverty-floor
+  - wiki/timeline/periods/2018-deep-cycle
 related:
   - wiki/self/context-core
   - wiki/self/overview
