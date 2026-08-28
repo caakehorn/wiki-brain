@@ -590,23 +590,17 @@ repeating itself, and it should not be cited as fact until a message says it.
 has to work out for itself where on the page it belongs, and whether it
 contradicts something already there.
 
-**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-27_222932_gap-alexis-armel.md`.
+**Operator's answer — verbatim, first person, T0.** Filed at `raw/people/captures/2026-08-27_223406_gap-alexis-armel.md`.
 
-Dan meets Alexis for the first time when he comes home for thanksgiving  to PA from Orlando, a few months after graduating Full Sail. 
+Correction: 
 
-After hanging out with her two nights in a row he buys her a one way ticket to ORL a week or two later. Unsure if she was staying forever? On a vacation? It didn’t much matter.
+Alexis and I dated right up u til I took off with Franki. 
 
-Alexis arrives in Orlando and the biggest shift is that the opiate addiction that Dan had truly kicked while in college is back in force when Alexis gets them Roxicet 30 pills during the thanksgiving weekend. Through some awful miracle they found a pill hook up in Orlando almost immediately and soon their friend Spetch, childhood friend and roommate of Jason Bermejo was driving from Winter Park to Ocala every single day for us.
+She spent 5 days at Virginia ave and then went to her moms. She started dating Chris Tressler and then moved back to nyc
 
-Christmas arrives and we drive back to PA. I think I may have even favored this because her stuff would have tk stay in Florida or something I can’t really remember but I can tell you for sure that I was nervous about whether or not she was coming back after Christmas.  
+In October, one week after moving to nyc, she comes home and sees me. I convince her not to move back to New York and she didn’t. She never got the stuff she left there and we just continues on as if it didn’t fall apart in July
 
-Christmas was one of the most memorable weeks of my life. It began with a small party at Suz’s house (337) where Zach Clingan, in the last time he and I would interact as friends and immediately before I would treat him as my arch enemy. Well we have no evidence about the veracity of the claim but - when the fighting began with him he made the claim that Alexis sucked his dick in his car outside in the driveway at this party. We will never know the truth and I can’t tell you I think one is more likely than another. 
+A few months later in march, suz has had enough with Alexis after Alexis takes the washing machine apart, a story i still don’t understand. Suz kicks Alexis out of the house and I spend 5 months sneaking her in and out so she still lives with me but she is hidden in the closet when necessary. 
 
-The next night we drive to 7springs for my last visit to the condo in the villages - sun ridge k2, where Jerad Friedline, Josh Coccagna, Josh Brannan, Jeb Williams, Zach Brannan, Anthony Prailey stayed at the condo overnight after skiing. 
-Most of the group were eating acid. Josh Coccagna had to fly back to Washington at 6am and he had taken something like 8 tabs between 9pm and 4am when he left. He must have been tripping his FACE off on the plane which is a hell I would rather not imagine. But there was also a decision made around 1am to hike double black diamonds Goosebumps and ski it in the dark. Jerad and Coccagna and Josh Brannan would, by the end of the night actually do it. And then it’s like 3am and Alexis and I are laying on one side of the massive couch and Josh Brannan on the other side like 6 feet away and Alexis climbs under the blanket and starts to suck my cock without ever saying anything about it and with the awareness that Brannan wasn’t asleep. All of this happening under the spell of LSD and it was a super memorable night. 
-
-Then something weird happens…the pills become a determining factor of how and when we leave. And just like what happened returning to New York during the Annie Shelbie threesome which kept us and extra 2 days…this was now an uncomfortable return to HOME which, with Shelbie didnt have the tattoo model I was fucking , but in the Alexis story it was a home without the same access to opiates as b3efore. 
-
-We ended up staying 8 days and Gabe was in Florida still. Thank god we left out enough food. 
-
-Returning back to Orlando I got one of the worst flu’s of my life. This is comparable to the flu I got a few months into dating Annie which was the basis of my speculation about a new girl’s pheromones or her pussy being something that my body has to physically reorient itself to when I date a new girl
+The next spring summer we move in with Leah Tedesco <story later> but we eventually end up at 155 Virgnia avenue by Christmas 2014. 
+Alexis and I live there and this is the Zach Harshman era and this continues until Alexis starts working at CT’s that summer. Annie starts at CT’s in October. In November I meet Annie and Alexis leaves a day or two later
