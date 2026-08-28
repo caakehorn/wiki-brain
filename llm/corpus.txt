@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-28
-519 pages, ~1,464,237 tokens.
+519 pages, ~1,467,370 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10777,7 +10777,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | Pages touched in the last 14 days | 195 |
 | Pages reasoning from other pages (`synthesizes:`) | 48 |
 | Live contradictions | 46 |
-| Open gaps | 477 |
+| Open gaps | 479 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -10812,6 +10812,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
   - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
   - climb | mind | the-binary-verdict (9 synthesized, 0 rejected)
+  - constitution-pass | mind | wiki/mind/synthesis/the-binary-verdict
 
 **2026-08-27** — 9 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
@@ -10882,7 +10883,7 @@ have moved since.
 - [[wiki/mind/synthesis/music-as-identity]] — 3 premises
 - [[wiki/mind/synthesis/no-platonic-channel]] — 9 premises
 - [[wiki/mind/synthesis/read-receipt-forensics]] — 2 premises
-- [[wiki/mind/synthesis/single-channel]] — 6 premises
+- [[wiki/mind/synthesis/single-channel]] — 8 premises
 - [[wiki/mind/synthesis/supply-network]] — 9 premises
 - [[wiki/mind/synthesis/the-binary-verdict]] — 13 premises
 - [[wiki/mind/synthesis/the-cato-seat]] — 9 premises
@@ -11356,7 +11357,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 46 |
-| Open gaps | 477 |
+| Open gaps | 479 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
 
@@ -11529,7 +11530,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/legal/2015-possession-arrest]]** — Whether the fines referenced in January and February 2016 belong to this case, to the Combos matter, or to both running concurrently is not determinable from the message record — the "combos are paid off" phrasing suggests at least some of that money was the t
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 
-### mind (147)
+### mind (149)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
 - **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
@@ -11638,6 +11639,8 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/single-channel]]** — **No base rate.** Falsifier 3 stands unanswered. Nothing here compares the coefficient against a demographically similar population, so "architectural" remains a reading.
 - **[[wiki/mind/synthesis/single-channel]]** — **The evaluative instance is the weakest leg, and it has since been bounded.** `the-cool-metric` was written the same day as this page and is itself a reading rather than a measurement. A rule resting on four legs where one was authored alongside it should be 
 - **[[wiki/mind/synthesis/single-channel]]** — **Chronology untested.** Whether the concentration was always present or tightened after the 2005 paternal rupture is not established, and the two imply very different things about whether it is disposition or adaptation.
+- **[[wiki/mind/synthesis/single-channel]]** — **The relational leg's mechanism rests on a disputed self-typing.** Per the constitution pass below, the sx-dominant/social-instinct-absent stack this page has quoted through the-unbroken-bond since 2026-08-01 traces to enneagram-5w4, which carries an unresolv
+- **[[wiki/mind/synthesis/single-channel]]** — **The per-era Gini recomputation that would actually settle falsifier 3 has not been run.** The mechanism section above names it directly: Fayette County vs. NYC vs. the return, computed on the same master CSV this page already cites. This is now the single hi
 - **[[wiki/mind/synthesis/supply-network]]** — **Tim** is named in the MAX_PRIME succession between Johnny and Tom but no message thread has been identified; era and product unconfirmed.
 - **[[wiki/mind/synthesis/supply-network]]** — The post-May-2026 state of the network is **partly** answered by the finding above — the network did not collapse with the Tom node; it was replaced by a daily, house-calling, higher-availability node, which is the reliability inversion documented above runnin
 - **[[wiki/mind/synthesis/supply-network]]** — Menore's product was never named in-thread; the "8" unit remains uninterpreted.
@@ -12037,7 +12040,7 @@ simply listed.
 |---|---|---|
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a REVISED)_ |
 | [[wiki/mind/synthesis/no-platonic-channel]] | mind | — |
 | [[wiki/mind/synthesis/the-binary-verdict]] | mind | **REVISED** — This entry previously asked whether the binary default is downstream of Core Axiom 1 specifically, or an instance of a more general Ti-dominant, forensic-verdict cognitive style, and flagged forensic- |
 | [[wiki/mind/synthesis/the-serial-monogamist]] | mind | — |
@@ -17205,6 +17208,9 @@ connections:
   - page: wiki/mind/synthesis/the-binary-verdict
     type: evidences
     claim: "Trust at the 9th percentile — the one facet here independently corpus-audited and confirmed, not merely self-reported — is the measured substrate for why an authority or trust verdict resets to a suspicious default instead of decaying as a continuous prior: there is no durable prior to decay, so each audit re-asks the same yes/no question rather than updating a running score."
+  - page: wiki/mind/synthesis/single-channel
+    type: evidences
+    claim: "Sociability at the 3rd percentile (corpus-audited at 0.73x baseline on initiating contact) combined with Trust at the 9th (corpus-confirmed at 1.96x raised suspicion) is the trait-level reason so few relational channels ever clear the vetting bar in the first place — the first trait-level answer that page's 'circumstance vs. architecture' falsifier has had, though not yet a resolution of it."
 ---
 
 
@@ -17273,6 +17279,10 @@ root of [[wiki/mind/synthesis/vertical-authority-skepticism]].
 draining except in rare vetted cases; "general detachment from day-to-day
 affairs." Matches the GPS record's home-anchoring (0.68) and the Gini-0.961
 contact concentration ([[wiki/mind/concepts/contact-gini]]).
+[[wiki/mind/synthesis/single-channel]] reads "rare vetted cases" as the
+mechanism itself: a high admission bar plus a low rate of originating new
+contact (0.73x baseline, above) predicts a small candidate set to
+concentrate among, independent of any given county's social density.
 
 **Limbic.** High anxiety, mood swings, depressive undertow — emotionally
 reactive despite the intellectual veneer, oscillating between cold
@@ -17739,6 +17749,9 @@ connections:
   - page: wiki/mind/synthesis/the-serial-monogamist
     type: causes
     claim: "A stack organising life around one relationship at maximum voltage rather than several at moderate voltage is the mechanism behind Dan having almost no adult lived experience of single life — continuous occupancy is not a reported preference, it is what the stack predicts before any relationship is examined."
+  - page: wiki/mind/synthesis/single-channel
+    type: causes
+    claim: "This page has been that page's relational-leg mechanism since 2026-08-01, cited only indirectly through the-unbroken-bond and without its own CONTRADICTION disclosed — single-channel's constitution pass (2026-08-28) now states directly that the Gini measurement is independent of which enneagram wing is correct, but the *explanation* for why the relational leg concentrates the way it does is not, and inherits this page's unresolved 5w6sx-vs-5w4sx dispute."
 ---
 
 
@@ -17755,7 +17768,13 @@ The 4 wing metabolizes perceived emotional defectiveness into psychic
 uniqueness: what it craves is not connection but *mythic comprehension* —
 being fully seen and found extraordinary. This is the emotional structure
 underneath the cognitive stack ([[wiki/mind/profile/intp]]), and it is where
-the profile's central war lives.
+the profile's central war lives. It is also, via
+[[wiki/mind/synthesis/the-unbroken-bond]], the uncredited mechanism behind
+[[wiki/mind/synthesis/single-channel]]'s relational leg — a stack that
+organises life around one relationship at maximum voltage rather than
+several predicts the measured Gini's relational instance directly, which
+means that page's explanation of *why* the leg concentrates carries this
+page's own wing-and-stacking dispute forward whether or not it says so.
 
 ## The sx/sp contradiction
 
@@ -29293,6 +29312,8 @@ synthesizes:
   - wiki/mind/synthesis/alias-as-periodization
   - wiki/mind/concepts/the-cool-metric
   - wiki/mind/synthesis/ai-collaborative-analysis
+  - wiki/mind/profile/big-five-psychometrics
+  - wiki/mind/profile/enneagram-5w4
 tags: [personality-profile, forensic-analysis, relationships]
 connections:
   - page: wiki/mind/synthesis/the-rescue-premise
@@ -29334,6 +29355,12 @@ connections:
   - page: wiki/mind/synthesis/the-binary-verdict
     type: component-of
     claim: "A two-sided Gini of 0.96 that tightens under load rather than spreading is the binary run on resource allocation: a channel is funded at maximum voltage or it is not funded, with no measured year showing moderate, distributed investment as a stable state."
+  - page: wiki/mind/profile/big-five-psychometrics
+    type: evidenced-by
+    claim: "Sociability at the 3rd percentile (corpus-audited: 0.73x baseline on initiating contact/plans) and Trust at the 9th (corpus-confirmed 1.96x raised suspicion) are the trait-level reason so few channels exist to concentrate among in the first place — a high vetting bar plus near-absent appetite to originate new ties predicts a small candidate set independent of any given county's social density, which is the first trait-level answer this page's own falsifier 3 (circumstance vs. architecture) has had."
+  - page: wiki/mind/profile/enneagram-5w4
+    type: caused-by
+    claim: "The sx-dominant, social-instinct-absent stack this page inherits one hop removed through the-unbroken-bond ('organises life around one relationship at maximum voltage, not many') is the mechanism this page has been resting the relational leg on without ever citing it directly or carrying forward its own live CONTRADICTION — the only first-person self-typing in the record gives 5w6sx, not the 5w4sx this stack is named for."
 ---
 
 # The Single Channel
@@ -29479,7 +29506,13 @@ Three falsifiers:
    graph. If a comparable Gini shows up in demographically similar people, this
    is geography wearing the costume of psychology.
 
-Falsifier 3 is the serious one, and it is not currently answerable from `raw/`.
+Falsifier 3 is the serious one, and it is not currently answerable from
+`raw/` as originally stated. The constitution pass below sharpens it rather
+than answers it: **a per-era recomputation of the Gini** (Fayette County vs.
+the NYC cohabitation vs. the return) would separate a trait-level
+prediction (concentration holds regardless of local social density) from a
+circumstantial one (concentration tracks it) — the data to run this exists
+in the same master CSV already cited, and nobody has run it yet.
 
 ## The consequence: no failover
 
@@ -29632,6 +29665,62 @@ the test case, and it went that way.
 channel without a ledger dispute following within six months, this page's
 architecture claim is wrong rather than merely qualified.
 
+## The mechanism, and the dispute it was already resting on
+
+Everything above establishes *that* four domains concentrate. It does not
+establish why a system with distribution *available* to it does not use it —
+and one register answers part of that directly, corpus-audited rather than
+merely typological.
+
+**Sociability 3 and Trust 9 predict a small candidate set, before any
+question of how load is split among it.**
+[[wiki/mind/profile/big-five-psychometrics]] scores Sociability at the 3rd
+percentile — its 2026-08-16
+corpus audit finds initiating contact and plans at **0.73x** the
+within-medium control, one of the facets that "leans yes" under independent
+measurement — and Trust at the 9th, corpus-confirmed at **1.96x** raised
+suspicion of motive. That page's own "Reserved" gloss already states the
+consequence in one line, unlinked to this page until now: *"people are
+draining except in rare vetted cases."* A high bar for admission plus a low
+rate of originating new contact does not by itself predict *concentration*
+— it predicts a small network. What it does predict, combined with the
+no-exit architecture [[wiki/mind/synthesis/dormancy-not-exit]] documents
+elsewhere, is that whichever channel clears the vetting bar first keeps
+clearing it indefinitely, because the machinery that would surface and vet
+a second candidate is the same machinery already measured running at a
+fraction of baseline rate. **This is the first trait-level answer falsifier
+3 has had.** It does not settle "circumstance vs. architecture" — that
+falsifier remains open below — but it converts it into a sharper, testable
+form: a trait-level account predicts the same concentration would reproduce
+in a demographically different environment, while a purely circumstantial
+account predicts it should track local social density. The corpus already
+spans geographically distinct eras (Fayette County, the NYC cohabitation,
+the return) without anyone having recomputed the Gini per era rather than
+per year; that recomputation, not a new register, is what would actually
+decide falsifier 3, and it remains undone.
+
+**The relational leg's mechanism was already cited — one hop away, and
+without its dispute.** [[wiki/mind/synthesis/the-unbroken-bond]] derives the
+relational instance from "an sx-dominant stack that organises life around
+one relationship at maximum voltage, not many," and that derivation
+originates on [[wiki/mind/profile/enneagram-5w4]]. This page has quoted the
+conclusion since 2026-08-01 without ever citing the source or its
+provenance. That source carries a live, unresolved
+`> **CONTRADICTION:**` — the only dated first-person self-typing in the
+whole message record gives **5w6sx**, not the **5w4sx** this stack, and the
+tragic-romantic/fusion-imperative reading built on it, is named for. A 6
+wing points at loyalty and security-seeking rather than at the 4's
+mythic-comprehension craving, and per
+[[wiki/mind/synthesis/the-commissioned-self]]'s residue-over-testimony
+ranking, the commissioned 5w4 code is testimony, not the stronger class of
+evidence. **This page's relational leg does not fall if the wing is wrong**
+— the Gini is a measured behavioural fact, independent of which enneagram
+wing produced it — but the *explanation* for why the relational leg in
+particular runs through one continuous 17-year slot rather than several
+shorter ones has been resting on a disputed self-typing this page never
+disclosed. That disclosure is this pass's finding on the relational leg,
+not a new claim about the leg's own measurement.
+
 ## Gaps
 
 - ~~**The Gini is quoted, not recomputed.**~~ **CLOSED 2026-08-01.** Recomputed
@@ -29685,6 +29774,20 @@ architecture claim is wrong rather than merely qualified.
 - **Chronology untested.** Whether the concentration was always present or
   tightened after the 2005 paternal rupture is not established, and the two
   imply very different things about whether it is disposition or adaptation.
+- **The relational leg's mechanism rests on a disputed self-typing.** Per the
+  constitution pass below, the sx-dominant/social-instinct-absent stack this
+  page has quoted through [[wiki/mind/synthesis/the-unbroken-bond]] since
+  2026-08-01 traces to [[wiki/mind/profile/enneagram-5w4]], which carries an
+  unresolved `CONTRADICTION` (5w6sx in the one dated first-person record
+  against the 5w4sx the stack is named for). The Gini measurement does not
+  depend on which wing is correct; the *explanation* for why the relational
+  leg concentrates the way it does might, if the 6-wing reading turns out to
+  be the accurate one — untested here.
+- **The per-era Gini recomputation that would actually settle falsifier 3 has
+  not been run.** The mechanism section above names it directly: Fayette
+  County vs. NYC vs. the return, computed on the same master CSV this page
+  already cites. This is now the single highest-value cheap next step for
+  this page specifically.
 
 > **RE-CHECKED [2026-08-08] — no change to this page's argument.**
 > [[wiki/mind/synthesis/the-unbroken-bond]] moved on 2026-08-08, but the
@@ -29730,6 +29833,38 @@ architecture claim is wrong rather than merely qualified.
 > re-derives the creative and cognitive legs on comparable evidence. The
 > alternative account of the same distribution is at
 > [[wiki/mind/synthesis/closing-the-set]].
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`. This
+page had zero direct citations into `wiki/mind/profile/` despite already
+leaning on the enneagram sx/sp stack indirectly (through
+[[wiki/mind/synthesis/the-unbroken-bond]]) since its first day.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Checked, does not add a new mechanism.** Ti/Ne/Si/Fe explain *how* Dan reasons about a channel once it exists, not why the network around it stays small; no argument found strong enough to add without being decorative. |
+| 2. Personality profile | **Moved the conclusion.** [[wiki/mind/profile/big-five-psychometrics]]'s Sociability 3 (corpus-audited) and Trust 9 (corpus-confirmed) explain why few channels exist to concentrate among — see "The mechanism" above. |
+| 3. Historical precedent | **Checked, left standing.** [[wiki/mind/synthesis/dormancy-not-exit]] already supplies the no-exit half of the mechanism argument; nothing new surfaced. |
+| 4. Attitudes and forces | **Checked, left standing.** [[wiki/mind/concepts/chaos-preference]] is already a documented (contradicting, then resolved) member; no new attitude bears. |
+| 5. Security and prosperity | **Not checked — a real Gap.** [[wiki/mind/synthesis/estate-money-spine]] was not read for this pass; whether the maternal channel's money-and-ledger dynamics (already documented above, 2026-08-18) generalise to a financial-concentration claim is untested. |
+| 6. Health | **Not checked — a real Gap.** No chemical or physiological register was read for this pass. |
+| 7. Romantic and relational state | **Moved the conclusion, and disclosed a dependency.** [[wiki/mind/profile/enneagram-5w4]] is the mechanism this page's relational leg has rested on since 2026-08-01 without ever being cited directly; its live CONTRADICTION (5w6sx vs. the 5w4sx this stack is named for) is now carried forward on this page rather than laundered through an intermediate citation. |
+| 8. Age and upbringing | **Checked, left standing.** The "chronology untested" Gap already asks whether concentration predates or follows the 2005 paternal rupture; this pass adds no new material to answer it. |
+| 9. Geographic and ethnic culture | **Checked, sharpened rather than resolved.** This is where the pass earns its keep: falsifier 3 (circumstance vs. architecture) is precisely a geographic-culture question, and "The mechanism" section above converts it into a specific, cheap, unrun test (per-era Gini) rather than leaving it as an unanswerable reading. |
+| 10. Religious and ideological programming | **Checked, does not bear.** No connection found between concentration architecture and religious or ideological material. |
+| 11. Axiomatic politics | **Checked, does not bear directly**, beyond the already-wired `the-binary-verdict` membership, which covers the political-legitimacy domain separately from this page's four instances. |
+| 12. Other — provenance | **Moved the conclusion.** [[wiki/mind/synthesis/the-commissioned-self]]'s residue-over-testimony ranking is what settles that the Gini measurement survives the enneagram dispute (residue) while the *explanation* for the relational leg's shape does not automatically (testimony) — a distinction this page did not previously draw. |
+
+**What survived:** the four-domain concentration thesis, its Gini
+measurement, and the no-failover consequence — none of them depend on which
+enneagram wing is correct, and no register produced evidence against any of
+them. **What moved:** falsifier 3 went from "not currently answerable" to a
+named, specific, cheap test (per-era Gini recomputation); the relational
+leg's mechanism was disclosed as resting on a disputed self-typing rather
+than an undisputed one. **What it did not do:** resolve falsifier 3, or
+either of the two newly-acknowledged Gaps (security/prosperity, health) —
+recorded as open rather than quietly closed.
 
 
 ========================================================================

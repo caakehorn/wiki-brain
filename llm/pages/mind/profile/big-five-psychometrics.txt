@@ -53,6 +53,9 @@ connections:
   - page: wiki/mind/synthesis/the-binary-verdict
     type: evidences
     claim: "Trust at the 9th percentile — the one facet here independently corpus-audited and confirmed, not merely self-reported — is the measured substrate for why an authority or trust verdict resets to a suspicious default instead of decaying as a continuous prior: there is no durable prior to decay, so each audit re-asks the same yes/no question rather than updating a running score."
+  - page: wiki/mind/synthesis/single-channel
+    type: evidences
+    claim: "Sociability at the 3rd percentile (corpus-audited at 0.73x baseline on initiating contact) combined with Trust at the 9th (corpus-confirmed at 1.96x raised suspicion) is the trait-level reason so few relational channels ever clear the vetting bar in the first place — the first trait-level answer that page's 'circumstance vs. architecture' falsifier has had, though not yet a resolution of it."
 ---
 
 
@@ -121,6 +124,10 @@ root of [[wiki/mind/synthesis/vertical-authority-skepticism]].
 draining except in rare vetted cases; "general detachment from day-to-day
 affairs." Matches the GPS record's home-anchoring (0.68) and the Gini-0.961
 contact concentration ([[wiki/mind/concepts/contact-gini]]).
+[[wiki/mind/synthesis/single-channel]] reads "rare vetted cases" as the
+mechanism itself: a high admission bar plus a low rate of originating new
+contact (0.73x baseline, above) predicts a small candidate set to
+concentrate among, independent of any given county's social density.
 
 **Limbic.** High anxiety, mood swings, depressive undertow — emotionally
 reactive despite the intellectual veneer, oscillating between cold

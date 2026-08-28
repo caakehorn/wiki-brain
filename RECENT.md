@@ -14,12 +14,13 @@ simply listed.
 - **Session log:** climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
 - **Session log:** climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
 - **Session log:** climb | mind | the-binary-verdict (9 synthesized, 0 rejected)
+- **Session log:** constitution-pass | mind | wiki/mind/synthesis/the-binary-verdict
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a REVISED)_ |
 | [[wiki/mind/synthesis/no-platonic-channel]] | mind | — |
 | [[wiki/mind/synthesis/the-binary-verdict]] | mind | **REVISED** — This entry previously asked whether the binary default is downstream of Core Axiom 1 specifically, or an instance of a more general Ti-dominant, forensic-verdict cognitive style, and flagged forensic- |
 | [[wiki/mind/synthesis/the-serial-monogamist]] | mind | — |

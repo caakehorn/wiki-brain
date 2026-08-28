@@ -42,6 +42,9 @@ connections:
   - page: wiki/mind/synthesis/the-serial-monogamist
     type: causes
     claim: "A stack organising life around one relationship at maximum voltage rather than several at moderate voltage is the mechanism behind Dan having almost no adult lived experience of single life — continuous occupancy is not a reported preference, it is what the stack predicts before any relationship is examined."
+  - page: wiki/mind/synthesis/single-channel
+    type: causes
+    claim: "This page has been that page's relational-leg mechanism since 2026-08-01, cited only indirectly through the-unbroken-bond and without its own CONTRADICTION disclosed — single-channel's constitution pass (2026-08-28) now states directly that the Gini measurement is independent of which enneagram wing is correct, but the *explanation* for why the relational leg concentrates the way it does is not, and inherits this page's unresolved 5w6sx-vs-5w4sx dispute."
 ---
 
 
@@ -58,7 +61,13 @@ The 4 wing metabolizes perceived emotional defectiveness into psychic
 uniqueness: what it craves is not connection but *mythic comprehension* —
 being fully seen and found extraordinary. This is the emotional structure
 underneath the cognitive stack ([[wiki/mind/profile/intp]]), and it is where
-the profile's central war lives.
+the profile's central war lives. It is also, via
+[[wiki/mind/synthesis/the-unbroken-bond]], the uncredited mechanism behind
+[[wiki/mind/synthesis/single-channel]]'s relational leg — a stack that
+organises life around one relationship at maximum voltage rather than
+several predicts the measured Gini's relational instance directly, which
+means that page's explanation of *why* the leg concentrates carries this
+page's own wing-and-stacking dispute forward whether or not it says so.
 
 ## The sx/sp contradiction
 

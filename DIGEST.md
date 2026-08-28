@@ -17,7 +17,7 @@ this is the state of the thing.
 | Pages touched in the last 14 days | 195 |
 | Pages reasoning from other pages (`synthesizes:`) | 48 |
 | Live contradictions | 46 |
-| Open gaps | 477 |
+| Open gaps | 479 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -52,6 +52,7 @@ this is the state of the thing.
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
   - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
   - climb | mind | the-binary-verdict (9 synthesized, 0 rejected)
+  - constitution-pass | mind | wiki/mind/synthesis/the-binary-verdict
 
 **2026-08-27** — 9 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
@@ -122,7 +123,7 @@ have moved since.
 - [[wiki/mind/synthesis/music-as-identity]] — 3 premises
 - [[wiki/mind/synthesis/no-platonic-channel]] — 9 premises
 - [[wiki/mind/synthesis/read-receipt-forensics]] — 2 premises
-- [[wiki/mind/synthesis/single-channel]] — 6 premises
+- [[wiki/mind/synthesis/single-channel]] — 8 premises
 - [[wiki/mind/synthesis/supply-network]] — 9 premises
 - [[wiki/mind/synthesis/the-binary-verdict]] — 13 premises
 - [[wiki/mind/synthesis/the-cato-seat]] — 9 premises

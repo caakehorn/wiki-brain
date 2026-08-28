@@ -24,7 +24,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 46 |
-| Open gaps | 477 |
+| Open gaps | 479 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
 
@@ -197,7 +197,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/legal/2015-possession-arrest]]** — Whether the fines referenced in January and February 2016 belong to this case, to the Combos matter, or to both running concurrently is not determinable from the message record — the "combos are paid off" phrasing suggests at least some of that money was the t
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 
-### mind (147)
+### mind (149)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
 - **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
@@ -306,6 +306,8 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/single-channel]]** — **No base rate.** Falsifier 3 stands unanswered. Nothing here compares the coefficient against a demographically similar population, so "architectural" remains a reading.
 - **[[wiki/mind/synthesis/single-channel]]** — **The evaluative instance is the weakest leg, and it has since been bounded.** `the-cool-metric` was written the same day as this page and is itself a reading rather than a measurement. A rule resting on four legs where one was authored alongside it should be 
 - **[[wiki/mind/synthesis/single-channel]]** — **Chronology untested.** Whether the concentration was always present or tightened after the 2005 paternal rupture is not established, and the two imply very different things about whether it is disposition or adaptation.
+- **[[wiki/mind/synthesis/single-channel]]** — **The relational leg's mechanism rests on a disputed self-typing.** Per the constitution pass below, the sx-dominant/social-instinct-absent stack this page has quoted through the-unbroken-bond since 2026-08-01 traces to enneagram-5w4, which carries an unresolv
+- **[[wiki/mind/synthesis/single-channel]]** — **The per-era Gini recomputation that would actually settle falsifier 3 has not been run.** The mechanism section above names it directly: Fayette County vs. NYC vs. the return, computed on the same master CSV this page already cites. This is now the single hi
 - **[[wiki/mind/synthesis/supply-network]]** — **Tim** is named in the MAX_PRIME succession between Johnny and Tom but no message thread has been identified; era and product unconfirmed.
 - **[[wiki/mind/synthesis/supply-network]]** — The post-May-2026 state of the network is **partly** answered by the finding above — the network did not collapse with the Tom node; it was replaced by a daily, house-calling, higher-availability node, which is the reliability inversion documented above runnin
 - **[[wiki/mind/synthesis/supply-network]]** — Menore's product was never named in-thread; the "8" unit remains uninterpreted.

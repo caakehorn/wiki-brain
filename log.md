@@ -5693,3 +5693,55 @@ constitution-pass warning cleared); `bin/wiki-connect check` 0 errors / 144
 warnings (baseline, no new); `bin/wiki-climb check` 0 errors, 0 warnings (no
 staleness introduced); `bin/wiki-freshness` clean. 20 of 21 backlog pages
 remain.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/single-channel
+
+**Second of 21.** Zero direct `wiki/mind/profile/` citations despite already
+leaning on the enneagram sx/sp stack indirectly (through `the-unbroken-bond`)
+since the page's first day, 2026-08-01.
+
+**Mechanism found for the falsifier the page itself called "the serious one."**
+`big-five-psychometrics`' Sociability 3 (corpus-audited, 0.73x baseline on
+initiating contact) and Trust 9 (corpus-confirmed, 1.96x raised suspicion)
+explain why so few channels ever clear the vetting bar in the first place —
+that page's own "Reserved" gloss ("people are draining except in rare vetted
+cases") is the mechanism, unlinked to this page until now. This converts
+falsifier 3 (circumstance vs. architecture) from "not currently answerable"
+into a specific, cheap, unrun test: a per-era Gini recomputation (Fayette
+County / NYC / the return) on the same master CSV already cited, which a
+trait-level account predicts should stay flat and a circumstantial account
+predicts should track local social density.
+
+**A dependency disclosed, not a new claim.** The relational leg's own
+mechanism — "an sx-dominant stack that organises life around one relationship
+at maximum voltage" — has been quoted from `the-unbroken-bond` since day one
+without ever citing its source, `enneagram-5w4`, or that page's live
+CONTRADICTION (the only first-person self-typing in the record gives 5w6sx,
+not the 5w4sx the stack is named for). The Gini measurement does not depend
+on which wing is correct; the *explanation* for the relational leg's shape
+does, and that dependency is now stated on the page instead of laundered
+through an intermediate citation. Two new Gaps entries record this and the
+per-era-recomputation test explicitly, rather than treating either as
+resolved.
+
+**Full constitution-pass table added.** 2 registers moved the conclusion
+(personality profile via big-five; romantic/relational via the enneagram
+disclosure) plus provenance (the-commissioned-self's residue-over-testimony
+ranking, which is what lets the Gini survive the wing dispute while the
+explanation does not automatically); geographic/ethnic culture sharpened
+(falsifier 3, above) rather than resolved; cognitive stack checked and found
+no non-decorative argument; 4 registers checked and left standing; 2 remain
+open Gaps (security/prosperity, health).
+
+Write-back: 2 new `synthesizes:` members (`big-five-psychometrics`,
+`enneagram-5w4`), each with a reciprocal typed edge and a load-bearing prose
+sentence; `enneagram-5w4`'s edge is `causes`/`caused-by` (a mechanism claim,
+not merely evidentiary) — caught and corrected a type mismatch before
+committing by running `bin/wiki-connect check` first, per the standing
+reminder from the 2026-08-28 predecessor session's own handoff note. No
+member page's `date_modified` bumped (write-back only), consistent with
+established practice.
+
+Gates: `bin/wiki-lint` 0 errors / 33 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors, 0
+warnings; `bin/wiki-freshness` clean. 19 of 21 backlog pages remain.
