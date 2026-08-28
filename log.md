@@ -1,3 +1,91 @@
+## [2026-08-28] feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch
+
+**Operator directive.** Two modes of the wiki, both visible to the reader and
+toggled from the top of the page: the current wiki, and a READER'S DIGEST
+edition written to be understood by non-experts. Every page to have a
+corresponding translation. Build the mechanism; translate a couple of the denser
+synthesis entries.
+
+**What was built, and the one decision that shaped the rest.** A twin lives at
+`plain/<slug>.md`, mirroring `wiki/` exactly, and is **a rendering of a page
+rather than a page**: no typed edges, no `synthesizes:`, no Gaps, no index
+entry, nothing citable. It sits outside `wiki/` deliberately. Inside it, every
+twin would have been a page — `bin/wiki-lint` globs `wiki/**` — doubling the
+page count and orphan-warning forever, and, worse, becoming **citable**, so a
+later CLIMB could reason from a simplification instead of from the finding. That
+is the failure this layout forecloses structurally rather than by convention.
+
+Named `plain/`, not `digest/`, because `bin/wiki-digest` and `DIGEST.md` already
+exist, mean the activity ledger, and *write files*. A future session conflating
+the two would be running a generator at something it thinks is a translation.
+
+**The gate, which is the actual content of this change.** A twin records
+`source_modified:` — the `date_modified` of the page it was written against —
+and goes STALE when the page moves past it. `bin/wiki-plain check` fails on
+that, and it is wired into `bin/wiki-check`'s GATE table, so it blocks commits
+the way the other three do. This is rule 3 of "the four things that matter most"
+one layer down, and it binds harder here: a stale synthesis misleads a reader
+who can check it, and a stale twin misleads the one reader who cannot. Missing
+twins are explicitly *not* errors — coverage is campaign work — so the gate only
+ever fires on a twin that is broken, forbidden or orphaned.
+
+**The moratorium is now code, and it had a hole.** A plain-language retelling of
+an Annie page adds no facts but is new prose about her, rebuilt for readers who
+could not read the original, on a public site — squarely inside the standing
+directive. So `bin/wiki-plain` enforces it in two rules: a page substantially
+about her gets no twin (`new` refuses, `next` skips, `check` fails), and **no
+file under `plain/` may name her at all, whatever its source says.** The second
+is the guarantee; the first stops a page being "translated" by quietly eliding
+its subject, which would pass the second and misrepresent the page.
+
+The first pattern written was `\bannie\b`, and it was wrong in the permissive
+direction: `_` is a word character, so the trailing boundary fails against
+`annie_metadata_24h.csv`, the filename that material is cited by throughout.
+`wiki/mind/synthesis/read-receipt-forensics` carries it twice and **read as
+eligible for translation** until it was caught by hand. Now `\b(annie|ulmer)`,
+leading boundary only, with `tests/test_wiki_plain.py` pinning the exact case —
+21 tests, 4 of which fail against the old pattern.
+
+**Portal.** `sync-wiki.mjs` folds the twin into each page's own JSON (one fetch,
+not two) and recomputes `stale` rather than trusting the source repo's gate — a
+derivation that trusts its input to have been gated publishes whatever got past
+the gate. `wiki-locks.mjs` blanks `plain` in a sealed page's husk: `split()` is
+denylist-by-default so the twin was already inside the ciphertext, and an
+easier-to-read edition of a sealed page would publish through the back door what
+the seal exists to keep shut. The index carries a `plain` flag and count, and a
+sealed page's flag is redacted with the rest.
+
+**A defect found by looking at the rendered page rather than at the types.** In
+the digest edition the four-generation table on `fayette-return` came out as a
+bar chart of birth years — and switching that chart to its TABLE face returned
+**two columns of six**, because `Chart`'s table view renders only the columns
+the spec selected. Who, Left for, Ended up and Buried were simply gone. Fixed by
+not routing tables through the chart at all in the plain edition
+(`Markdown`'s `tables` prop), rather than by changing which face it opens on.
+The full edition is untouched.
+
+**Translated (3), the densest synthesis pages carrying no moratorium material:**
+
+| Page | Source | Twin |
+|---|---:|---:|
+| `mind/synthesis/fayette-return` | 3,440w | 1,253w |
+| `mind/synthesis/the-cato-seat` | 2,577w | 1,601w |
+| `mind/synthesis/vertical-authority-skepticism` | 1,388w | 1,192w |
+
+Every number, date and name is carried; the falsifiers and gaps are carried in
+plain words, because an edition that shows a lay reader only the confident half
+is worse than no edition. What was dropped is apparatus: typed edges, provenance
+disclosures, register tables, `raw/` paths.
+
+**Worth recording for the next session: the densest pages in the wiki are not
+translatable.** Every one of the top eight synthesis pages by word count carries
+Annie material — `totality-themes` (16 mentions), `dan-annie-fallout-verdict`
+(22), `block-unblock-loop`, `dormancy-not-exit`, `the-deferred-audit`,
+`supply-network`, `estate-money-spine`. Coverage stands at 3 of 302 eligible
+pages, and 216 of 518 pages are withheld. The operator should know that a
+literal reading of "every page will have a translation" is currently capped at
+58% of the wiki by the standing directive, and that lifting it is theirs alone.
+
 ## [2026-08-28] spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
 
 **Operator directive.** Every synthesis conclusion must be checked against the

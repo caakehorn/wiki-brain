@@ -48,6 +48,7 @@ this is the state of the thing.
 ## The last few days
 
 **2026-08-28** — 42 pages
+  - feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch
   - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
   - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
@@ -76,6 +77,7 @@ this is the state of the thing.
   - constitution-pass | mind | wiki/mind/synthesis/august-grievance-verdict
   - constitution-pass | mind | wiki/mind/synthesis/the-rescue-premise
   - constitution-pass | mind | wiki/mind/synthesis/read-receipt-forensics
+  - constitution-pass | mind | wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis + wiki/mind/synthesis/fayette-return
 
 **2026-08-27** — 5 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
