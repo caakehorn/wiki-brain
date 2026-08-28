@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-28
-519 pages, ~1,486,619 tokens.
+519 pages, ~1,488,154 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10859,7 +10859,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-28** — 31 pages
+**2026-08-28** — 32 pages
   - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
   - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
@@ -10873,12 +10873,13 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - connect | mind, self | connection-queue.md (totality-themes <-> context-core)
   - constitution-pass | mind | wiki/mind/synthesis/dormancy-not-exit
   - constitution-pass | mind | wiki/mind/synthesis/estate-money-spine
+  - close | people | wiki/people/alexis-armel — two operator-volunteered captures fully ingested
 
 **2026-08-27** — 7 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
   - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
 
-**2026-08-26** — 62 pages
+**2026-08-26** — 61 pages
   - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
   - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
@@ -10944,7 +10945,7 @@ have moved since.
 - [[wiki/mind/synthesis/no-platonic-channel]] — 9 premises
 - [[wiki/mind/synthesis/read-receipt-forensics]] — 2 premises
 - [[wiki/mind/synthesis/single-channel]] — 8 premises
-- [[wiki/mind/synthesis/supply-network]] — 9 premises
+- [[wiki/mind/synthesis/supply-network]] — 11 premises
 - [[wiki/mind/synthesis/the-binary-verdict]] — 13 premises
 - [[wiki/mind/synthesis/the-cato-seat]] — 9 premises
 - [[wiki/mind/synthesis/the-commissioned-self]] — 10 premises
@@ -12093,7 +12094,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-28 — 31 pages
+## 2026-08-28 — 32 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -12103,7 +12104,7 @@ simply listed.
 | [[wiki/legal/2015-possession-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a REVISED)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
 | [[wiki/mind/synthesis/annual-volume-suz]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a new 2013–2014 eviction/concealment episode (Alexis Armel, the washing machine). No message-volume figure this page draws on is touched.  |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a pre-Annie, Alexis-era eviction/concealment episode (2013–2014, Uniontown). It touches neither the Annie-era material nor any figure this |
 | [[wiki/mind/synthesis/august-grievance-verdict]] | mind | **RE-CHECKED** — flagged stale against attachment-trauma-bond (2026-08-28), which gained a RE-CHECKED note tracing back to a pre-Annie, 2013–2014 Alexis-era eviction/concealment episode on suzanne-frank. It touc |
@@ -12113,6 +12114,7 @@ simply listed.
 | [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] | mind | **RE-CHECKED** — flagged stale against august-grievance-verdict (2026-08-28), which gained a re-check note tracing back to a pre-Annie, 2013–2014 Alexis-era eviction/concealment episode on suzanne-frank. It touc |
 | [[wiki/mind/synthesis/no-platonic-channel]] | mind | — |
 | [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — flagged stale against totality-themes (2026-08-28), which gained a RE-CHECKED note of its own confirming that a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris  |
+| [[wiki/mind/synthesis/supply-network]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/the-binary-verdict]] | mind | **REVISED** — This entry previously asked whether the binary default is downstream of Core Axiom 1 specifically, or an instance of a more general Ti-dominant, forensic-verdict cognitive style, and flagged forensic- |
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — flagged stale against single-channel (2026-08-28), which gained a RE-CHECKED note of its own tracing back to a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris t |
 | [[wiki/mind/synthesis/the-embedded-objective]] | mind | **RE-CHECKED** — flagged stale against 2015-possession-arrest (2026-08-28), which added a second, differently-dated operator account of an Alexis eviction/concealment episode used only to help date that page's arrest  |
@@ -12141,7 +12143,7 @@ simply listed.
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 | [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — 117-belmont-circle gained the sale's disposition on 2026-08-27: it **closed in summer 2019 for $250,000** (operator testimony, uncorroborated in the message record, buyer still unknown). The row above |
 
-## 2026-08-26 — 62 pages
+## 2026-08-26 — 61 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -12184,7 +12186,6 @@ simply listed.
 | [[wiki/mind/synthesis/music-as-identity]] | mind | — |
 | [[wiki/mind/synthesis/political-psyops]] | mind | — |
 | [[wiki/mind/synthesis/read-receipt-forensics]] | mind | **RE-CHECKED** — forensic-method gained an `instance-of` edge into the new lexicon page — the same evidence-cite/ authority-invoke/render-a-finding machinery documented there for crisis analysis, observed r |
-| [[wiki/mind/synthesis/supply-network]] | mind | **RE-CHECKED** — flagged stale against menore (2026-08-26), which closed its last open gap: 2022's zero mentions are explained by the operator having a flip phone that year, not by a service break. This removes the on |
 | [[wiki/mind/synthesis/the-cato-seat]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
 | [[wiki/people/ally-lubin]] | people | _(carries a CORRECTED from 2026-08-22)_ |
 | [[wiki/people/annie-ulmer-personality-assessment]] | people | _(carries a RE-CHECKED from 2026-08-23)_ |
@@ -18174,6 +18175,9 @@ connections:
   - page: wiki/mind/synthesis/dormancy-not-exit
     type: evidences
     claim: "Two functions explain two different halves of that page's 'suspend, not delete' rule: Si-tertiary's non-pruning archive is why a dormant tie costs nothing to reactivate after years of silence, and Fe-inferior at 10% valuing is why a Ti-generated decision that a tie is over never becomes felt-settled without an external terminating statement supplying the relational judgment this stack cannot produce internally."
+  - page: wiki/mind/synthesis/supply-network
+    type: evidences
+    claim: "The same Ti-dominance mechanism the-deferred-audit uses for chosen-object audit timing explains why supplier reliability inverts with intimacy: enforcing a standard on a friend-supplier is an audit that risks a verdict on the friendship, so Tom's failures accumulate for eighteen years while a stranger's failure is noticed and acted on immediately."
 ---
 
 # INTP — The Cognitive Function Stack
@@ -30301,7 +30305,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
@@ -30319,6 +30323,8 @@ synthesizes:
   - wiki/people/sam
   - wiki/people/vaughn
   - wiki/timeline/events/july-2026-recontact
+  - wiki/mind/profile/intp
+  - wiki/mind/synthesis/the-deferred-audit
 tags: [addiction-recovery, forensic-analysis, financial-stress]
 connections:
   - page: wiki/people/zaco
@@ -30411,6 +30417,12 @@ connections:
   - page: wiki/people/drew-mcgettigan
     type: contains
     claim: "A summer 2015 buyer/go-between node, active for a single three-month window and connected to the Zach Harshman circle he was headed to meet the same night as a documented deal."
+  - page: wiki/mind/profile/intp
+    type: evidenced-by
+    claim: "Ti-dominance's 'audit risks a verdict on the chooser' rule is why the reliability inversion runs the direction it does: enforcing a standard on a supplier — noticing the failure, switching away — is an audit, and Tom's failures are not enforced because he is a chosen friendship, not because friendship makes people more forgiving in general."
+  - page: wiki/mind/synthesis/the-deferred-audit
+    type: parallels
+    claim: "This page's reliability inversion is the domain-general audit-timing rule that page states, run on suppliers specifically: Tom already appears on that page's own two-clocks table as a chosen object whose model was revised only after an eighteen-year lag, and Menore's professional distance is the imposed-object case run on the same market."
 ---
 
 # The Supply Network
@@ -30598,6 +30610,29 @@ May 2026 collapse: what bothered him most was not the money but "that he
 would be okay letting me go sick" — the discovery that the
 friendship-embedded node had a friend's sense of obligation, not a
 supplier's.
+
+### The mechanism: enforcement is an audit, and audits of friends are deferred
+
+"Intimacy licenses failure" describes the pattern correctly but not the
+engine underneath it. Enforcing a reliability standard on a supplier —
+noticing the pattern, calling it out, switching away — is not a neutral
+administrative act. It is an **audit**, in exactly the sense
+[[wiki/mind/synthesis/the-deferred-audit]] uses the word, and that page's
+own constitution pass already supplies the reason audits of chosen objects
+run late: [[wiki/mind/profile/intp]]'s Ti-dominance treats a chosen
+relationship as load-bearing furniture inside the system that produced the
+choice, so auditing it risks a verdict on the chooser, not merely a finding
+about the object. **Tom is already a row on `the-deferred-audit`'s own
+two-clocks table** — "friendship dates to the late 2000s... model revised
+only after the mid-May 2026 supply failure... ~18 years" — and this page's
+reliability inversion is that same rule, generalized from one relationship
+to the whole market. Menore is not more reliable because distance is a
+virtue in itself; Menore is more reliable because a delivery failure from a
+stranger costs nothing to notice and act on, while eighteen years of Tom
+failures had to accumulate past the point of undeniability before the audit
+that had always been available finally ran. The friend does not get a more
+forgiving standard. He gets the standard applied on a schedule set by
+provenance, exactly as the parent rule predicts.
 
 ## What node failure costs
 
@@ -30839,6 +30874,36 @@ than a logistics one.
 > subs from my old doctor"* is the only earlier corroboration, and no prescriber
 > is named anywhere in `raw/`. Full accounting at
 > [[wiki/health/the-configured-body]].
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`. This
+page had never cited `wiki/mind/profile/` despite the reliability inversion
+being a domain-general audit-timing rule applied to one market.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]]'s Ti-dominance explains why enforcing a reliability standard is an audit, and why Tom's failures accumulated eighteen years before one ran — see "The mechanism" above. |
+| 2. Personality profile | **Checked, already load-bearing one hop away.** Trust 9 and Self-Consciousness 91 are already the measured substrate for audit-timing on [[wiki/mind/synthesis/the-deferred-audit]] itself; citing them again here directly would be decorative rather than adding a new argument. |
+| 3. Historical precedent | **Checked, already this page's own base.** The node succession (Zach Harshman 2014 through Bop 2026) is the historical register. |
+| 4. Attitudes and forces | **Checked, does not add new material.** |
+| 5. Security and prosperity | **Already load-bearing.** [[wiki/mind/synthesis/estate-money-spine]] is already a member (via parallels) for the shared lump-arrival/metered-drain architecture. |
+| 6. Health | **This page IS a health-adjacent register for other pages** (supply-network is itself cited by `estate-money-spine` and `totality-themes`); the daily-Suboxone framing is the page's own foundation, not an external register to add. |
+| 7. Romantic and relational state | **Already load-bearing.** [[wiki/people/annie-ulmer]] and the terminal-phase supply inversion are already central to this page. |
+| 8. Age and upbringing | **Checked, does not bear.** No developmental account of supply-seeking behavior specifically exists in the corpus. |
+| 9. Geographic and ethnic culture | **Checked, does not bear beyond the already-documented Uniontown/NYC market split this page's own node table carries.** |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Applied.** [[wiki/mind/synthesis/the-deferred-audit]]'s own constitution pass already distinguished the corpus-audited register (Trust 9) from the self-commissioned one (Ti-dominance); this page inherits that gradient by cross-reference rather than re-arguing it. |
+
+**What survived:** the node table, the reliability rankings, and every
+dated figure — all residue, unaffected by the mechanism added. **What the
+pass added:** a cognitive-architecture explanation for why the inversion
+runs friend-to-stranger rather than the reverse, tying this page's own
+finding to a rule already established and worked out in detail on
+`the-deferred-audit`. **What it did not do:** duplicate that page's
+personality-profile citations, which the pass explicitly declined as
+decorative given this page's own argument does not need them.
 
 
 ========================================================================
@@ -32202,6 +32267,9 @@ connections:
   - page: wiki/mind/profile/big-five-psychometrics
     type: evidenced-by
     claim: "Self-Consciousness at 91 — corpus-audited and leaning confirmed at 1.85x self-monitoring in company — is the register that explains why the delay attaches specifically to chosen objects rather than to all objects generally: Trust 9 predicts fast suspicion of an outside party's motive, which is what makes imposed-object audits cheap, but it says nothing about auditing one's own prior judgment, which is what a chosen-object audit actually is, and that is a self-monitoring cost this facet measures directly."
+  - page: wiki/mind/synthesis/supply-network
+    type: parallels
+    claim: "That page's reliability inversion — friend-suppliers less reliable than strangers — is this page's audit-timing rule run on one market: Tom is already this page's own eighteen-year chosen-object case, and supply-network generalizes the same mechanism across an entire node succession rather than one relationship."
 ---
 
 # The Deferred Audit

@@ -64,6 +64,9 @@ connections:
   - page: wiki/mind/synthesis/dormancy-not-exit
     type: evidences
     claim: "Two functions explain two different halves of that page's 'suspend, not delete' rule: Si-tertiary's non-pruning archive is why a dormant tie costs nothing to reactivate after years of silence, and Fe-inferior at 10% valuing is why a Ti-generated decision that a tie is over never becomes felt-settled without an external terminating statement supplying the relational judgment this stack cannot produce internally."
+  - page: wiki/mind/synthesis/supply-network
+    type: evidences
+    claim: "The same Ti-dominance mechanism the-deferred-audit uses for chosen-object audit timing explains why supplier reliability inverts with intimacy: enforcing a standard on a friend-supplier is an audit that risks a verdict on the friendship, so Tom's failures accumulate for eighteen years while a stranger's failure is noticed and acted on immediately."
 ---
 
 # INTP — The Cognitive Function Stack

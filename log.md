@@ -6075,3 +6075,51 @@ missing-inverse and one mismatched-type warning introduced mid-pass, caught
 and fixed before commit); `bin/wiki-climb check` 0 errors / 4 warnings (the
 two legitimate open obligations above); `bin/wiki-freshness` clean; 125 unit
 tests pass.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/supply-network
+
+**Eighth of 21.** Had never cited `wiki/mind/profile/` despite its central
+"reliability inversion" (friend-suppliers less reliable than strangers)
+being a domain-general audit-timing rule applied to one market.
+
+**The mechanism was already sitting one page away, unnamed.** "Intimacy
+licenses failure" describes the pattern but not the engine. Enforcing a
+reliability standard on a supplier — noticing the failure, switching away —
+is an audit, in exactly the sense `the-deferred-audit` uses the word, and
+`intp`'s Ti-dominance is the same mechanism that page's own constitution
+pass (three commits ago in this session) already used for why chosen
+objects get their audits deferred: auditing a friendship risks a verdict on
+the friend*ship*, not merely a finding about the supplier. Tom is already a
+row on `the-deferred-audit`'s own two-clocks table — "model revised only
+after the mid-May 2026 supply failure... ~18 years" — and this page's
+reliability inversion turns out to be that exact rule generalized from one
+relationship to an entire market: Menore isn't more reliable because
+distance is a virtue, but because a stranger's failure costs nothing to
+notice and act on.
+
+**Declined to duplicate an adjacent page's personality-profile citations.**
+Trust 9 and Self-Consciousness 91 are already load-bearing for
+`the-deferred-audit`'s own version of this mechanism; the constitution-pass
+table records the decision not to re-cite them here as decorative, since
+this page's own argument (the cross-market generalization) doesn't need
+them independently.
+
+**Full constitution-pass table added.** 1 register moved the conclusion
+(cognitive stack); 1 explicitly declined as decorative (personality
+profile, already covered one hop away); 8 checked and found not to bear or
+already load-bearing (historical precedent, security/prosperity via
+estate-money-spine, health, romantic/relational via Annie, age/upbringing,
+geographic/ethnic, ideological, axiomatic politics); provenance gradient
+inherited by cross-reference rather than re-argued.
+
+Write-back: 2 new `synthesizes:` members (`intp`, `the-deferred-audit`),
+each with a reciprocal typed edge; `intp` edge is `evidenced-by`/`evidences`,
+`the-deferred-audit` edge is a symmetric `parallels` pair. `date_modified`
+bumped this time (a substantive new mechanism section, not a pure
+write-back) — checked dependents (`totality-themes`, `cocaine`,
+`the-configured-body`), all already current, no cascade.
+
+Gates: `bin/wiki-lint` 0 errors / 30 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors / 4 warnings
+(two pre-existing legitimate obligations, unrelated); `bin/wiki-freshness`
+clean. 13 of 21 backlog pages remain.

@@ -47,7 +47,7 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-28** — 31 pages
+**2026-08-28** — 32 pages
   - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
   - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
@@ -61,12 +61,13 @@ this is the state of the thing.
   - connect | mind, self | connection-queue.md (totality-themes <-> context-core)
   - constitution-pass | mind | wiki/mind/synthesis/dormancy-not-exit
   - constitution-pass | mind | wiki/mind/synthesis/estate-money-spine
+  - close | people | wiki/people/alexis-armel — two operator-volunteered captures fully ingested
 
 **2026-08-27** — 7 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
   - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
 
-**2026-08-26** — 62 pages
+**2026-08-26** — 61 pages
   - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
   - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
@@ -132,7 +133,7 @@ have moved since.
 - [[wiki/mind/synthesis/no-platonic-channel]] — 9 premises
 - [[wiki/mind/synthesis/read-receipt-forensics]] — 2 premises
 - [[wiki/mind/synthesis/single-channel]] — 8 premises
-- [[wiki/mind/synthesis/supply-network]] — 9 premises
+- [[wiki/mind/synthesis/supply-network]] — 11 premises
 - [[wiki/mind/synthesis/the-binary-verdict]] — 13 premises
 - [[wiki/mind/synthesis/the-cato-seat]] — 9 premises
 - [[wiki/mind/synthesis/the-commissioned-self]] — 10 premises
