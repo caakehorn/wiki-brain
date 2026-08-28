@@ -79,6 +79,9 @@ connections:
   - page: wiki/interests/food-and-diet
     type: causes
     claim: "The same closure test named for worth, taste and trust verdicts runs on a plate: an unrequested ingredient fails Ti's pass/fail standard outright, with Fe (10% valuing) too weak to run the graded negotiation that would soften it into 'acceptable enough' — the most literal instance of the mechanism found so far, because a sandwich cannot be lobbied or flattered the way a person sometimes can."
+  - page: wiki/places/the-unpapered-address
+    type: causes
+    claim: "Ti's definition of truth as 'a system that holds under recursive collapse' is why paper was never sought from a housing provider rather than merely never offered: demanding a lease from someone who has already granted access audits whether they can be trusted to keep granting it, which risks the choice to depend on them, not just the housing itself."
 ---
 
 # INTP — The Cognitive Function Stack

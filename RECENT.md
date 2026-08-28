@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-28 — 37 pages
+## 2026-08-28 — 38 pages
 
 - **Session log:** spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
 - **Session log:** climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
@@ -29,6 +29,7 @@ simply listed.
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/alias-as-periodization
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/music-as-identity
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/instrument-is-subject
+- **Session log:** constitution-pass | mind | wiki/interests/food-and-diet
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -67,10 +68,11 @@ simply listed.
 | [[wiki/people/suzanne-frank-personality-assessment]] | people | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a March 2014 eviction of Alexis Armel from the household over a washing-machine incident. No existing claim on this page is falsified, but |
 | [[wiki/people/zach-clingan]] | people | **GAP CLOSED** — The 2014 "drug people" taxonomy and the December 2015 "my arch rival" outburst (below) both assume a rupture the corpus had never actually recorded. A 2026-08-27 operator capture (`raw/people/captures |
 | [[wiki/places/155-virginia-ave]] | places | _(carries a GAP CLOSED from 2026-08-22)_ |
+| [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — estate-money-spine gained a constitution-pass mechanism section (the Altruism-1 inversion explaining the $14,000 family loan) and a full register table. Nothing in it touches tenancy, paper, or any of |
 | [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | **GAP CLOSED** — This section's own Gaps entry asked for exactly this. A 2026-08-27 operator capture (`raw/people/captures/2026-08-27_222932_gap-alexis-armel.md`) supplies it: Dan graduated in **August 2009** and was  |
 
-## 2026-08-27 — 6 pages
+## 2026-08-27 — 5 pages
 
 - **Session log:** close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
 - **Session log:** fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
@@ -82,7 +84,6 @@ simply listed.
 | [[wiki/people/ally-lubin-cognitive-profile]] | people | **GAP CLOSED** — the page asked *"whose result is the screenshot, and when was it taken? The image carries no identifying metadata. Did Ally send it to Dan directly, and on what date? The original `IMG_2320.heic` may  |
 | [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
-| [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — 117-belmont-circle gained the sale's disposition on 2026-08-27: it **closed in summer 2019 for $250,000** (operator testimony, uncorroborated in the message record, buyer still unknown). The row above |
 
 ## 2026-08-26 — 57 pages
 

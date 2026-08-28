@@ -68,6 +68,9 @@ connections:
   - page: wiki/mind/synthesis/estate-money-spine
     type: evidences
     claim: "The $14,000 transferred to Suz within weeks of an undistributed bridging advance, with nothing in writing, is exactly what the Altruism-1 inversion predicts once its two halves are separated: instrumental generosity (offering resources) runs at 1.79-2.49x baseline while the affective half (sympathy, condolence) runs at 0.45x, so a nominal 1st-percentile altruism score is the wrong prediction for a lump-sum family transfer and the corpus-audited reading is the one that fits."
+  - page: wiki/places/the-unpapered-address
+    type: contradicts
+    claim: "Trust at the 9th percentile predicts a paper trail should have been sought across sixteen years of housing dependency, and none was — the sharpest apparent counter-instance to this facet found in this session's constitution passes, resolved not by this page but by vertical-authority-skepticism's lateral/vertical scoping, which that page cites directly."
 ---
 
 

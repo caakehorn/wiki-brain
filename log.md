@@ -6311,3 +6311,64 @@ Note: PR #204 merged mid-session; branch `claude/constitution-pass-backlog-95zhn
 was restarted from fresh `origin/main` per protocol before this pass, since
 no unmerged commits existed beyond the merged history — only this
 in-progress, uncommitted edit, which carried forward cleanly.
+
+## [2026-08-28] constitution-pass | places | wiki/places/the-unpapered-address
+
+Constitution pass on the 13th and last non-Annie backlog page. This page
+had never cited `wiki/mind/profile/`, and it also carried three legitimate
+staleness warnings from `bin/wiki-climb check` (premises in
+`estate-money-spine`, `the-deferred-audit` and `155-virginia-ave` had all
+moved to 2026-08-28 while this page sat at 2026-08-27) — resolved as part
+of the same pass rather than deferred, per CLAUDE.md's "never clear a
+staleness warning by bumping a date" rule.
+
+**The three re-checks.** `estate-money-spine` and `the-deferred-audit` both
+gained constitution-pass mechanism sections unrelated to housing/tenancy —
+re-read, confirmed unaffected, recorded as RE-CHECKED blocks rather than
+silently bumped. `155-virginia-ave` gained a genuinely relevant addition: a
+newly surfaced operator account (from this session's earlier Alexis Armel
+close) dates an eviction/concealment episode to March 2014 with arrival at
+155 Virginia "by Christmas 2014," a few weeks before the January 2015 lease
+date this page's table cites. That page holds two differently-dated
+accounts open rather than reconciling them, and this page does the same —
+the possible shift touches no claim here (no lease, no rent, no signatory
+survive either dating) and if anything reinforces the thesis. Recorded as a
+RE-CHECKED block; the table's date range is left as-is pending the other
+page's own resolution.
+
+**The finding.** A corpus-confirmed low-trust score (Trust 9, 1.96x raised
+suspicion) predicts the opposite of what sixteen years of housing behavior
+shows — zero paper-seeking across seven addresses is the sharpest apparent
+counter-instance to that facet found in this session's passes. Resolved not
+by smoothing it over but by `vertical-authority-skepticism`'s lateral/
+vertical split: every housing provider in the table (mother, grandmother,
+partner, great-grandmother) is a lateral by that page's own definition,
+which is exactly the relationship category that gets a trusted-now,
+audited-later default rather than the suspicion Trust 9 predicts elsewhere.
+`intp`'s Ti-dominance supplies the other half directly (already implicit
+via the already-cited `the-deferred-audit`, now stated as this page's own
+mechanism): demanding paper from a person granting housing audits whether
+they can be trusted to keep granting it, which risks the dependency itself.
+
+**Write-back.** Three new `synthesizes:` members (`intp`,
+`big-five-psychometrics`, `vertical-authority-skepticism`) with reciprocal
+edges on all three pages. New falsifier and Gap recorded: the mechanism has
+never been tested against its own counter-case (a vertical housing provider
+treated without paper, or a lateral treated with it) — stated honestly
+rather than claimed as settled.
+
+Gates: `bin/wiki-lint` 0 errors / 25 warnings (one fewer — the last
+`no wiki/mind/profile/` warning outside the Annie set is gone);
+`bin/wiki-connect check` 0 errors / 144 warnings (baseline); `bin/wiki-climb
+check` **0 errors / 0 warnings** — all staleness debt from the backlog is
+now resolved; `bin/wiki-freshness` clean after `bin/wiki-digest` +
+`bin/llm-publish`; 125 tests pass. `bin/wiki-work scan`: **0 obligations.**
+
+**All 13 non-Annie constitution-pass backlog pages are now done.** Only the
+7 Annie-moratorium pages remain, to be done last, in the order the operator
+set: `attachment-trauma-bond`, `dan-annie-fallout-verdict`,
+`block-unblock-loop`, `august-grievance-verdict`, `the-rescue-premise`,
+`read-receipt-forensics`, `morgantown-call-three-participant-ethical-analysis`.
+Each is bound by the standing Annie moratorium: cognitive-stack and
+profile-layer mechanism citations are permitted, any new narrative, date,
+quote or figure about Annie is not.

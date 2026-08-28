@@ -55,7 +55,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-28** — 37 pages
+**2026-08-28** — 38 pages
   - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
   - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
@@ -75,8 +75,9 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - constitution-pass | mind | wiki/mind/synthesis/alias-as-periodization
   - constitution-pass | mind | wiki/mind/synthesis/music-as-identity
   - constitution-pass | mind | wiki/mind/synthesis/instrument-is-subject
+  - constitution-pass | mind | wiki/interests/food-and-diet
 
-**2026-08-27** — 6 pages
+**2026-08-27** — 5 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
   - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
 
@@ -165,7 +166,7 @@ have moved since.
 - [[wiki/people/johnny-dealer]] — 3 premises
 - [[wiki/people/suzanne-frank]] — 4 premises
 - [[wiki/people/suzanne-frank-personality-assessment]] — 1 premise
-- [[wiki/places/the-unpapered-address]] — 10 premises
+- [[wiki/places/the-unpapered-address]] — 13 premises
 - [[wiki/self/concepts/ally-and-dan-love-as-destiny]] — 1 premise
 - [[wiki/self/concepts/astrology-star-signs]] — 1 premise
 - [[wiki/self/concepts/wiki-brain]] — 2 premises
