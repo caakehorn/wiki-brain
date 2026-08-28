@@ -5745,3 +5745,27 @@ established practice.
 Gates: `bin/wiki-lint` 0 errors / 33 warnings (one fewer); `bin/wiki-connect
 check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors, 0
 warnings; `bin/wiki-freshness` clean. 19 of 21 backlog pages remain.
+
+## [2026-08-28] connect | mind, people | connection-queue.md (2 pairs: 1 typed, 1 rejected)
+
+**Track 2, interleaved per session brief.** Two top-of-queue pairs processed.
+
+**`vertical-authority-skepticism` <-> `context-core` (evidenced-by /
+evidences).** The political-trajectory line in `context-core` states this
+page's entire organizing formula verbatim — "vertical-authority-skeptic,
+lateral-solidarity-privileging" — a decade before the page independently
+derives the same claim from measured Trust/Assertiveness/Submissiveness
+scores. The page's own prose already said "the spine's own formula" without
+linking to its source; now it does. Typed edges added both directions.
+
+**`danielle-onesi` <-> `wiki/timeline/events/timeline.md` — REJECTED.** The
+mined "'timeline' unlinked" signal is a false positive (matches
+danielle-onesi's own `## Timeline` section header). The timeline page never
+mentions Danielle and her 2009 breakup predates its Nov-2015 coverage
+window; shared raw sources are wide-coverage documents cited by dozens of
+unrelated pages. Recorded as a considered non-edge rather than left
+untouched.
+
+Gates: `bin/wiki-lint` 0 errors / 33 warnings (unchanged); `bin/wiki-connect
+check` 0 errors / 144 warnings (unchanged); `bin/wiki-climb check` 0 errors,
+0 warnings.
