@@ -27,6 +27,11 @@ sources:
   - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
   - "raw/self/dox-md/Crisis mode briefing.md"
   - "raw/self/dox-md/Creating robust video essays from scripts.md"
+synthesizes:
+  - wiki/mind/concepts/exocortex
+  - wiki/mind/synthesis/millennial-digital-witness
+  - wiki/mind/synthesis/instrument-is-subject
+  - wiki/self/gemini-activity/gemini-activity
 connections:
   - page: wiki/people/jacob-bacharach
     type: instance-of

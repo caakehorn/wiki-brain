@@ -17,6 +17,16 @@ sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini-_07.md
   - raw/self/dox-md/Gemini-_18.md
+synthesizes:
+  - wiki/mind/synthesis/vertical-authority-skepticism
+  - wiki/mind/synthesis/2020-left-turn
+  - wiki/mind/synthesis/totality-themes
+  - wiki/mind/synthesis/dormancy-not-exit
+  - wiki/people/annie-ulmer
+  - wiki/people/tom
+  - wiki/people/suzanne-frank
+  - wiki/people/rick-frank
+  - wiki/people/fran-coldren
 tags: [personality-profile, family, relationships, ai-collaboration]
 connections:
   - page: wiki/timeline/events/timeline

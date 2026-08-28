@@ -12,9 +12,29 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
   - raw/self/chats/j6-chat.md
-  - raw/self/chats/_✧✧ 𝔻𝔸ℕ𝔽ℝ𝔸ℕ𝕂-𝕀𝕊𝕄'𝕊 ✧✧ Pinned chat.md
+  - raw/self/chats/_✧✧ 𝔻𝔸𝔻𝔽ℝ𝔸ℕ𝕂-𝕀𝕊𝕄'𝕊 ✧✧ Pinned chat.md
   - raw/self/facebook/facebook-ihatedanfrank/
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
+synthesizes:
+  - wiki/legal/2015-possession-arrest
+  - wiki/mind/synthesis/the-embedded-objective
+  - wiki/people/diane-moore
+  - wiki/mind/synthesis/the-deferred-audit
+  - wiki/mind/concepts/institutional-out
+  - wiki/mind/synthesis/totality-themes
+  - wiki/work/bfs-foods
+  - wiki/work/au-zaatar
+  - wiki/mind/synthesis/political-psyops
+  - wiki/mind/profile/big-five-psychometrics
+  - wiki/people/rick-frank
+  - wiki/people/suzanne-frank
+  - wiki/people/tom
+  - wiki/mind/synthesis/2020-left-turn
+  - wiki/work/creative-license
+  - wiki/mind/politics/axioms
+  - wiki/mind/synthesis/the-cato-seat
+  - wiki/places/90th-st-manhattan
+  - wiki/timeline/periods/2021-2023-employment-block
 tags: [politics, relationships, family, personality-profile, nyc-era]
 connections:
   - page: wiki/legal/2015-possession-arrest

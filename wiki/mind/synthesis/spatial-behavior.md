@@ -7,6 +7,11 @@ date_created: 2026-07-20
 date_modified: 2026-07-20
 sources:
   - raw/self/dox-md/GPS_ANALYSIS.md
+synthesizes:
+  - wiki/self/location-history
+  - wiki/mind/concepts/contact-gini
+  - wiki/timeline/periods/2017-poverty-floor
+  - wiki/timeline/periods/2018-deep-cycle
 tags: [digital-footprint, relationships, career, housing]
 connections:
   - page: wiki/self/location-history

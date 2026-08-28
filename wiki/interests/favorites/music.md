@@ -5,6 +5,13 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-07-14
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
+synthesizes:
+  - wiki/interests/music/concepts/sub-bass-signature
+  - wiki/interests/music/concepts/lyrics-as-timbre
+  - wiki/interests/music/overview
+  - wiki/interests/favorites/eclecticism
+  - wiki/interests/favorites/taste-profile
+  - wiki/mind/synthesis/totality-themes
 related: ["wiki/interests/favorites/index", "wiki/self/context-core", "wiki/interests/music/index", "wiki/interests/music/concepts/sub-bass-signature", "wiki/interests/music/concepts/lyrics-as-timbre", "wiki/self/facebook", "wiki/interests/favorites/eclecticism", "wiki/interests/favorites/taste-profile", "wiki/mind/synthesis/totality-themes", "wiki/timeline/periods/2025-collapse", "wiki/timeline/periods/dec-2025-spike"]
 tags: [music-production]
 ---
