@@ -4,12 +4,13 @@ page_type: entity
 title: "155 Virginia Ave"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-22
+date_modified: 2026-08-28
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/operating_manual.md
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
+  - raw/people/captures/2026-08-27_223406_gap-alexis-armel.md
 related:
   - wiki/people/alexis-armel
   - wiki/people/annie-ulmer
@@ -141,6 +142,26 @@ because Dan's own account places that night while Alexis was still being hidden
 at 337 Saratoga and *before* the move here. The contradiction is recorded on
 the arrest page; a lease or a dated message from the move would settle it.
 
+> **A second, differently-dated account of a similarly-shaped episode
+> surfaced 2026-08-28, and it complicates rather than settles the
+> contradiction above.** A 2026-08-27 operator capture
+> (`raw/people/captures/2026-08-27_223406_gap-alexis-armel.md`, full account
+> on [[wiki/people/alexis-armel]]) describes Suz throwing Alexis out of the
+> house over a March **2014** washing-machine incident, followed by five
+> months of Dan secretly housing her — thrown out, hidden, months long, the
+> same shape as the account above, but dated a full year earlier and adding
+> an intermediate residence (a Leah Tedesco cohabitation) this page's account
+> never mentions before arriving at 155 Virginia Ave "by Christmas 2014."
+> Christmas 2014 is close to, but still a few weeks earlier than, this
+> page's own January 2015 lease date. Both accounts are T0 operator
+> testimony of different specificity, not a primary record against
+> testimony, so neither is adopted over the other here. What would actually
+> settle it — a lease, a dated message from the move, or a primary record of
+> which eviction is which — is still missing.
+
 **Gaps:** lease details, rent, and who held the lease across the
 Alexis→Annie transition are undocumented; the physical layout appears
-nowhere in the record.
+nowhere in the record. Whether the 2014 and late-2014/early-2015
+eviction/concealment accounts (see above) describe one event remembered at
+different resolutions or two separate episodes is now the page's most
+consequential open question.

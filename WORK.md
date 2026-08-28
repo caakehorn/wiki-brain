@@ -15,10 +15,19 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (0)
+## Obligations (4)
 
-None. No question is parked, no answer is staged, no premise has moved
-under a page that reasons from it, and every portal edit has had its pass.
+Somebody or something is waiting on each of these. Drain from the top.
+
+Priority: **0** failing gate · **1** parked question · **2** staged answer ·
+**3** stale premise · **4** unnormalised portal edit.
+
+| P | Kind | What | Where | Since |
+|---|---|---|---|---|
+| 3 | stale | premise wiki/mind/synthesis/estate-money-spine.md moved 2026-08-28, after this page's 2026-… | `wiki/places/the-unpapered-address.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/the-deferred-audit.md moved 2026-08-28, after this page's 2026-… | `wiki/places/the-unpapered-address.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/totality-themes.md moved 2026-08-28, after this page's 2026-08-… | `wiki/mind/synthesis/alias-as-periodization.md` | 2026-08-28 |
+| 3 | stale | premise wiki/places/155-virginia-ave.md moved 2026-08-28, after this page's 2026-08-27 | `wiki/places/the-unpapered-address.md` | 2026-08-28 |
 
 ## Standing work (195)
 

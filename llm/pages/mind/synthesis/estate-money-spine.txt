@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -79,6 +79,12 @@ connections:
 ---
 
 # The Estate / Money Spine
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/people/suzanne-frank]] (2026-08-28), which added a March 2014
+> Alexis-era eviction/concealment episode — housing and family-drama, no
+> capital event, no figure this page draws on. **No claim on this page is
+> affected.**
 
 > **REVISED [2026-08-23] — the spine gains a second direction it has never
 > recorded.** Flagged stale against [[wiki/people/annie-ulmer]] and

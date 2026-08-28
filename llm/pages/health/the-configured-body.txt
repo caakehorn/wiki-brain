@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -55,6 +55,13 @@ connections:
 ---
 
 # The Configured Body
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/mind/synthesis/the-deferred-audit]] (2026-08-28), which gained a
+> RE-CHECKED note tracing back to a `dormancy-not-exit` correction (a
+> five-day tenure figure reattributed from Franki Faris to Alexis Armel, a
+> 2013 Uniontown-era detail unrelated to chemical history). **No claim on
+> this page is affected.**
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against [[wiki/health/cocaine]]
 > (2026-08-26), which added a happiness-rate counter-measure to the same

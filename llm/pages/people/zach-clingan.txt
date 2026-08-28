@@ -6,7 +6,7 @@ aliases: ["Zach", "Clingan"]
 status: stable
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-08-17
+date_modified: 2026-08-28
 date_range_start: 2009-10-06
 date_range_end: 2018-04-13
 sources:
@@ -16,6 +16,7 @@ sources:
   - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/tommaison_z_scvtnccq/message_1.html
   - raw/self/facebook/facebook-ihatedanfrank/other_personal_information/your_address_books.html
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
+  - raw/people/captures/2026-08-27_222932_gap-alexis-armel.md
 tags: [uniontown-era, digital-footprint, career, relationships]
 infobox:
   name: "Zach Clingan"
@@ -25,8 +26,11 @@ infobox:
   role: "caddie, Nemacolin Woodlands"
   first_contact: 2009-10-06
   handles: ["+1843***3264", "+1413***0339", "+1724***0771"]
-  known_for: "the nine-year Uniontown acquaintance an earlier pass filed under the wrong surname"
+  known_for: "a Christmas 2009 driveway accusation that ended the friendship on the spot, and the nine-year Uniontown acquaintance that followed it — an earlier pass filed under the wrong surname"
 connections:
+  - page: wiki/people/alexis-armel
+    type: co-occurs
+    claim: "A Christmas 2009 party at Suz's house is the dated origin of the rupture every later appearance of Clingan assumes: an accusation that Alexis had been sexually involved with him in his car outside the party, which Dan says he can never resolve either way."
   - page: wiki/timeline/annie-record
     type: evidenced-by
     claim: "Dan names Clingan in real time as the origin of his drug use — \"THAT is who introduced me to drugs\" (2015-12-09) — which places him earlier on the supply chain than any node the network page tracks, and his warning to Annie the same day is the first documented use of the switch against her by a third party."
@@ -105,6 +109,29 @@ Full Sail year, and it fixes his single most durable attribute in Dan's
 model of him — he lies — nine years before the last message between them and
 five years before the only other third-party assessment the corpus holds.
 
+## Christmas 2009: the driveway accusation, and the end of the friendship
+
+**GAP CLOSED [2026-08-28] — the page had documented that Clingan became an
+enemy, but never why.** The 2014 "drug people" taxonomy and the December
+2015 "my arch rival" outburst (below) both assume a rupture the corpus had
+never actually recorded. A 2026-08-27 operator capture
+(`raw/people/captures/2026-08-27_222932_gap-alexis-armel.md`) supplies it,
+roughly ten weeks after the October 6 line above.
+
+Dan and [[wiki/people/alexis-armel|Alexis]] — two months into the
+relationship — drove home to Pennsylvania for Christmas. The visit opened
+with a small party at Suz's house, 337 Saratoga, that Dan names directly as
+**"the last time he and I would interact as friends and immediately before I
+would treat him as my arch enemy."** During the party, when a fight broke
+out between them, Clingan claimed that Alexis had performed oral sex on him
+in his car in the driveway outside. Dan's own assessment, recorded in the
+same capture: *"We will never know the truth and I can't tell you I think
+one is more likely than another."* The friendship did not survive the
+accusation regardless of whether it was true, and the corpus's next two
+appearances of Clingan — the 2014 "drug people" verdict and the 2015 "my
+arch rival" reaction — are downstream of this one unresolved claim rather
+than of anything documented between the two men directly.
+
 ## 2014: "drug people"
 
 The second appearance is inside a longer April 21, 2014 argument with
@@ -137,9 +164,10 @@ load-bearing sentence about Clingan anywhere in the wiki.
 Clingan is one of [[wiki/people/annie-ulmer|Annie's]] exes. On **2015-12-09**,
 eleven days after the switch, he texts her — *"Zach clingan just texted me
 saying 'I have to talk to you'"* (15:17). Dan's reaction is immediate and
-disproportionate to a rival's phone call: *"My arch rival / Glad he's in the
-mix too"*, then *"Literally makes me want to puke. **THAT is who introduced me
-to drugs**"* (15:19–15:20).
+disproportionate to a rival's phone call — six years disproportionate, once
+the Christmas 2009 driveway accusation above is on the record — *"My arch
+rival / Glad he's in the mix too"*, then *"Literally makes me want to puke.
+**THAT is who introduced me to drugs**"* (15:19–15:20).
 
 That line reframes the whole page. Everywhere else Clingan is a fixed point in
 a moral taxonomy — one of the "drug people" Dan uses to locate himself and

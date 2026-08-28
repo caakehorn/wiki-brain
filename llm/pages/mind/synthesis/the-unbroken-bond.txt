@@ -6,7 +6,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -57,6 +57,18 @@ connections:
 ---
 
 # The Unbroken Bond
+
+> **RE-CHECKED [2026-08-28] — premise moved, and it confirms this page rather
+> than complicating it.** [[wiki/people/alexis-armel]] moved 2026-08-28 for a
+> 2026-08-27 operator capture giving the fuller sequence of the 2013
+> separation: five days at 155 Virginia Ave, her mother's house, a new
+> boyfriend (Chris Tressler), a brief NYC move, and reconciliation in
+> **October 2013**. This page's own chronology table already read "Jul–Oct
+> 2013 separation" before this capture existed — the new testimony
+> independently corroborates a dating this page had already gotten right,
+> rather than correcting it. **No claim on this page is affected**, and the
+> table's "Jul–Oct 2013" entry is now backed by primary operator testimony
+> rather than by inference alone.
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/concepts/chaos-preference]] (2026-08-26), which added a section on

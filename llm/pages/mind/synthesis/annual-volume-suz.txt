@@ -5,7 +5,7 @@ title: "Annual Message Volume: Dan vs. Suz"
 status: active
 knowledge: mixed
 date_created: 2026-08-26
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources: []
 synthesizes:
   - wiki/people/suzanne-frank
@@ -49,6 +49,12 @@ connections:
 ---
 
 # Annual Message Volume: Dan vs. Suz
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/people/suzanne-frank]] (2026-08-28), which added a new
+> 2013–2014 eviction/concealment episode (Alexis Armel, the washing
+> machine). No message-volume figure this page draws on is touched. **No
+> claim on this page is affected.**
 
 [[wiki/people/suzanne-frank|Suz]]'s page already states the finding in
 prose — she outwrites Dan in every year but two, and the gap widens after

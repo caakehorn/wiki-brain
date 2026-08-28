@@ -22,9 +22,9 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 519 |
-| Pages touched in the last 14 days | 195 |
+| Pages touched in the last 14 days | 196 |
 | Pages reasoning from other pages (`synthesizes:`) | 48 |
-| Live contradictions | 46 |
+| Live contradictions | 44 |
 | Open gaps | 480 |
 | Standing predictions | 65 |
 
@@ -55,7 +55,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-28** — 6 pages
+**2026-08-28** — 31 pages
   - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
   - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
@@ -68,12 +68,13 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - constitution-pass | mind | wiki/mind/synthesis/the-embedded-objective
   - connect | mind, self | connection-queue.md (totality-themes <-> context-core)
   - constitution-pass | mind | wiki/mind/synthesis/dormancy-not-exit
+  - constitution-pass | mind | wiki/mind/synthesis/estate-money-spine
 
-**2026-08-27** — 9 pages
+**2026-08-27** — 7 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
   - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
 
-**2026-08-26** — 79 pages
+**2026-08-26** — 62 pages
   - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
   - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
@@ -98,7 +99,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - close | people | Libby is Libby Titus, she died in October 2024, and the corpus had her married name all along
   - report | mind | texting deviance audit — the operator's model of his own texting was two-thirds wrong
 
-**2026-08-22** — 6 pages
+**2026-08-22** — 4 pages
   - answer | mind | what would make Dan happy — he answered it himself in 2025, and the record has already run the experiment
   - fix | people | a fourth portal incident, a duplicated H1 on annie-ulmer, and the freshness gate red on main
   - fix | people | the stale-snapshot clobber recurred on ally-lubin, six hours after the last one

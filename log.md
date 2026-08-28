@@ -5991,3 +5991,87 @@ reciprocal typed edge; no member date_modified bumped.
 Gates: `bin/wiki-lint` 0 errors / 29 warnings (one fewer); `bin/wiki-connect
 check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors, 0 warnings;
 `bin/wiki-freshness` clean. 14 of 21 backlog pages remain.
+
+## [2026-08-28] close | people | wiki/people/alexis-armel — two operator-volunteered captures fully ingested
+
+**Not from a gap list — volunteered via the portal, two notes filed the same
+evening** (`raw/people/captures/2026-08-27_222932_gap-alexis-armel.md` and
+`_223406_`), staged as `pending_ingest` on the page. The portal's manual-note
+editor overwrote the first note's staging display with the second before
+either was cleared, so `bin/wiki-gaps pending` only ever saw the second — both
+captures were read from `raw/` directly and integrated in full per this
+session's user instruction to use the CLOSE protocol.
+
+**Primary target, fully rewritten around both answers.** `wiki/people/
+alexis-armel`: dates the relationship's start to a Thanksgiving 2009 trip
+home (three months after Dan's August 2009 Full Sail graduation) — closing a
+gap `full-sail-2008-2010` had stated directly; adds the Christmas 2009 trip
+(the Zach Clingan driveway rupture, a Seven Springs ski trip, an 8-day
+supply-extended stay paralleling the later Shelbie/Annie trip pattern);
+corrects "he went back to her within weeks" after the July 2013 Franki break
+to the fuller sequence (5 days at 155 Virginia Ave, her mother's, a new
+boyfriend, a brief NYC move, October 2013 reconciliation); and adds a second,
+previously undocumented 2014 eviction (a March washing-machine incident, 5
+months hidden, an intermediate Leah Tedesco residence, arrival at 155
+Virginia Ave "by Christmas 2014"). `GAP CLOSED`/`GAP NARROWED` blocks record
+each; new gaps opened (the washing-machine cause, Leah Tedesco) are stated
+rather than silently absorbed.
+
+**A real contradiction resolved, not just narrowed.** Two independent T0
+operator statements (2026-08-02 and 2026-08-27) now agree the "five days"
+belongs to Alexis's displacement at 155 Virginia Ave, not to Franki Faris's
+own tenure — corrected on `franki-faris`, `franki-fireworks-day-2013`, and
+`dormancy-not-exit` (whose tenure-floor control is sharper for it, per that
+page's own 2026-08-02 prediction of what a resolution would do).
+
+**A causal link the corpus never had.** `chemical-architecture` and
+`full-sail-2008-2010` both name, for the first time, the final active-use
+episode before the February 17, 2010 Suboxone stabilization: Alexis brings
+30 Roxicet pills over the same Thanksgiving weekend they meet, a friend
+(Spetch) runs a daily Winter-Park-to-Ocala supply line, and the episode
+resolves seven weeks later on the already-dated day-zero. Does not change
+"sixteen years, zero relapses" — supplies what preceded it.
+
+**A second, unreconciled eviction/concealment account, held open rather than
+forced.** The 2014 Suz/Alexis eviction resembles, but is dated a full year
+before, an existing account on `wiki/legal/2015-possession-arrest` and
+`wiki/places/155-virginia-ave` (thrown out, hidden ~4 months, immediately
+pre-dating the Jan 2015 lease). Both are T0 testimony of different
+specificity; flagged as a live, unresolved question on all three pages
+rather than one silently overwriting the other.
+
+**`zach-clingan`** gains its missing origin story: the Christmas 2009
+driveway accusation (Alexis and Clingan) is the dated rupture the 2014 "drug
+people" taxonomy and the 2015 "my arch rival" outburst had always assumed
+without ever documenting.
+
+**`suzanne-frank`** gains the March 2014 eviction as a new dated event —
+flagged on `suzanne-frank-personality-assessment` as new material that
+assessment has not yet incorporated, not integrated there (out of this
+pass's scope).
+
+**Staleness cascade worked through six hops**, each re-checked and confirmed
+unaffected rather than silently bumped: `dormancy-not-exit` →
+`totality-themes` → `single-channel` → `the-deferred-audit` →
+`the-configured-body` (chemical-architecture branch also touched `cocaine`);
+separately `suzanne-frank` → `annual-volume-suz` / `attachment-trauma-bond`
+/ `estate-money-spine` / `suzanne-frank-personality-assessment`, and
+`attachment-trauma-bond` → `august-grievance-verdict` →
+`morgantown-call-three-participant-ethical-analysis`. Three of the touched
+pages (`the-rescue-premise`, `attachment-trauma-bond`,
+`august-grievance-verdict`, `morgantown-call-three-participant-ethical-
+analysis`) are under the Annie moratorium — each got a bookkeeping-only
+RE-CHECKED confirmation, no new Annie narrative, fact, quote or date. Two
+legitimate staleness obligations left open rather than force-bumped
+(`alias-as-periodization`, `the-unpapered-address`) — both already on this
+session's constitution-pass backlog and will be handled in their own passes.
+
+`bin/wiki-gaps clear wiki/people/alexis-armel` run; both raw captures remain
+the permanent record.
+
+Gates: `bin/wiki-lint` 0 errors / 30 warnings (baseline, unrelated to this
+pass); `bin/wiki-connect check` 0 errors / 144 warnings (baseline — two
+missing-inverse and one mismatched-type warning introduced mid-pass, caught
+and fixed before commit); `bin/wiki-climb check` 0 errors / 4 warnings (the
+two legitimate open obligations above); `bin/wiki-freshness` clean; 125 unit
+tests pass.

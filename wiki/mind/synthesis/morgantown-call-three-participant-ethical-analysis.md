@@ -5,7 +5,7 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-20
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 tags: [forensic-analysis, relationships, legal, mental-health]
 sources:
   - raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a
@@ -36,6 +36,12 @@ connections:
 ---
 
 # The Morgantown Call: Ethical Roles of Dan, Annie, and Jerel Coles
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/mind/synthesis/august-grievance-verdict]] (2026-08-28), which gained
+> a re-check note tracing back to a pre-Annie, 2013–2014 Alexis-era
+> eviction/concealment episode on [[wiki/people/suzanne-frank]]. It touches
+> nothing this page reasons from. **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/synthesis/august-grievance-verdict]] (2026-08-26), which gained

@@ -7,7 +7,7 @@ status: stable
 knowledge: earned
 importance: high
 date_created: 2026-08-22
-date_modified: 2026-08-27
+date_modified: 2026-08-28
 tags: [career, personality-profile, financial-stress, music-production, ai-collaboration]
 sources:
   - raw/self/dox-md/Honest assessment and value judgment analysis.md
@@ -63,6 +63,12 @@ connections:
 ---
 
 # Failure to Launch — The Capability Audit
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/mind/synthesis/estate-money-spine]] (2026-08-28), which gained a
+> RE-CHECKED note confirming a March 2014 Alexis-era eviction on
+> [[wiki/people/suzanne-frank]] touches no capital event or figure this page
+> draws on. **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/synthesis/the-embedded-objective]] and

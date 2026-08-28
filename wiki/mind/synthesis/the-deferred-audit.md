@@ -6,7 +6,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -78,6 +78,12 @@ connections:
 ---
 
 # The Deferred Audit
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/mind/synthesis/single-channel]] (2026-08-28), which gained a
+> RE-CHECKED note of its own tracing back to a `dormancy-not-exit` correction
+> (a five-day tenure figure reattributed from Franki Faris to Alexis Armel,
+> a Uniontown-era, pre-2015 detail). **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/synthesis/single-channel]] (2026-08-26), which added a section

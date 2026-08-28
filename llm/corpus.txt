@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-28
-519 pages, ~1,478,239 tokens.
+519 pages, ~1,486,619 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -18,7 +18,7 @@ aliases: ["substance stack", "the chemical triad"]
 status: active
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-08-19
+date_modified: 2026-08-28
 sources:
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -27,6 +27,7 @@ sources:
   - raw/legal/bfs-dispute/BFS_BOOTLOADER_v2.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-md/ADDICTION_PROFILE.md
+  - raw/people/captures/2026-08-27_222932_gap-alexis-armel.md
 related:
   - wiki/self/context-core
   - wiki/mind/profile/deviance-mapping
@@ -38,6 +39,12 @@ connections:
   - page: wiki/health/cocaine
     type: contains
     claim: "The stimulant layer of this stack has its own page: the twenty-year use history, the finance-driven dosage arc (1g → 3.5–7g → 0.5–1g), the age-13 family exposure, and the supply chain built to deliver it."
+  - page: wiki/people/alexis-armel
+    type: caused-by
+    claim: "Alexis supplies the previously unnamed final active-use episode before stabilization — thirty Roxicet pills over Thanksgiving 2009 and a daily Winter-Park-to-Ocala supply run — seven weeks before the February 17, 2010 day-zero this page already dated."
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: caused-by
+    claim: "That page's own GAP CLOSED block dates the Alexis relationship's start to Thanksgiving 2009 and the relapse she brings with her to the same window, giving this page's previously undated 'stabilization at Full Sail's end' a specific triggering episode."
   - page: wiki/timeline/events/uniontown-hospital-vape-alarm
     type: evidenced-by
     claim: "Nicotine is catalogued here as the ritual regulator that smooths transitions between chemical states; the April 2018 hospital alarm is the record's demonstration that the regulator runs on its own schedule and does not defer to circumstance."
@@ -98,7 +105,24 @@ the post-rupture years; five months from first use to addiction; then the
 stabilization at Full Sail's end — Suboxone day-zero February 17, 2010.
 Sixteen unbroken years followed on the maintenance dose itself: no relapse
 back to full opiate use, and no recovery-program participation anywhere in
-the record. One real exception to a strict "no detox attempt" reading
+the record.
+
+> **GAP CLOSED [2026-08-28] — the final pre-stabilization episode has a
+> name.** This page has always stated the February 17, 2010 day-zero without
+> naming what the last active-use episode before it was. A 2026-08-27
+> operator capture (`raw/people/captures/2026-08-27_222932_gap-alexis-armel.md`)
+> supplies it: [[wiki/people/alexis-armel|Alexis]] enters the record over
+> **Thanksgiving 2009**, and brings **thirty Roxicet pills** with her — "the
+> opiate addiction that Dan had truly kicked while in college is back in
+> force." A friend, Spetch, drives from Winter Park to Ocala daily to keep a
+> supply running; the pattern continues through a Christmas trip home and
+> resolves seven weeks after the couple's return to Orlando, on the
+> already-dated day-zero. This does not change the "sixteen unbroken years,
+> zero relapses" figure, which is measured *from* February 17, 2010 — it
+> supplies the episode that made stabilizing on that date necessary, closing
+> what had been an undated, causeless resolution at "Full Sail's end." Full
+> account on [[wiki/people/alexis-armel]] and
+> [[wiki/timeline/periods/full-sail-2008-2010]]. One real exception to a strict "no detox attempt" reading
 surfaces early in the [[wiki/people/annie-ulmer|Annie]] relationship: on
 December 8, 2015, just ten days after the corpus's first "YOU ARE MY
 EVERYTHING," the two discuss quitting an unspecified substance together
@@ -266,7 +290,7 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/self/dox-md/ADDICTION_PROFILE.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -348,6 +372,13 @@ changelog:
 ---
 
 # Cocaine
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/health/chemical-architecture]] (2026-08-28), which added the
+> previously-unnamed final pre-Suboxone opiate relapse (Alexis, Thanksgiving
+> 2009, thirty Roxicet pills) to the **opiate** arc. This page's own dosage
+> arc and supply history are about cocaine specifically, and the addition
+> does not touch either. **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/concepts/acquisition-drive]] (2026-08-26), which added a
@@ -909,7 +940,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -957,6 +988,13 @@ connections:
 ---
 
 # The Configured Body
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/mind/synthesis/the-deferred-audit]] (2026-08-28), which gained a
+> RE-CHECKED note tracing back to a `dormancy-not-exit` correction (a
+> five-day tenure figure reattributed from Franki Faris to Alexis Armel, a
+> 2013 Uniontown-era detail unrelated to chemical history). **No claim on
+> this page is affected.**
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against [[wiki/health/cocaine]]
 > (2026-08-26), which added a happiness-rate counter-measure to the same
@@ -10098,12 +10136,13 @@ status: closed
 knowledge: mixed
 importance: high
 date_created: 2026-08-03
-date_modified: 2026-08-22
+date_modified: 2026-08-28
 date_range_start: 2015-02-17
 date_range_end: 2016-02-17
 sources:
   - raw/legal/documents/2015-02_fayette-court-blotter-possession-charges.md
   - raw/legal/captures/2026-08-02_200741_the-arrest-the-real-one.md
+  - raw/people/captures/2026-08-27_223406_gap-alexis-armel.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/message-csv/imessage_ALL_both_all_now.csv
 tags: [legal, addiction-recovery, family, uniontown-era]
@@ -10315,6 +10354,19 @@ switch to [[wiki/people/annie-ulmer|Annie]]
 > — but the blotter only fixes the arrest, not the move, and this page does not
 > pick a winner. Resolving it needs the lease or a dated message from the
 > move.
+
+> **A second, differently-dated account complicates rather than resolves
+> this, per a 2026-08-28 ingest.** A 2026-08-27 operator capture (full
+> account on [[wiki/people/alexis-armel]]) describes a similarly-shaped
+> thrown-out/hidden episode — Suz evicting Alexis after a washing-machine
+> incident, months of concealment — but dates it a full year earlier, to
+> **March–August 2014**, and adds an intermediate residence (Leah Tedesco's)
+> between the concealment and the eventual move to 155 Virginia Ave "by
+> Christmas 2014." That is close to but still weeks before this page's
+> January 2015 lease date. Both operator accounts are T0 testimony of
+> different specificity; this page does not adopt one over the other. What
+> would actually settle both this contradiction and the one above is the
+> same missing document: a lease, or a dated message from the move.
 
 > **An unexplained date coincidence, recorded not resolved.** February 17
 > appears three times in Dan's record: the blotter window opens on it in 2015,
@@ -10774,9 +10826,9 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 519 |
-| Pages touched in the last 14 days | 195 |
+| Pages touched in the last 14 days | 196 |
 | Pages reasoning from other pages (`synthesizes:`) | 48 |
-| Live contradictions | 46 |
+| Live contradictions | 44 |
 | Open gaps | 480 |
 | Standing predictions | 65 |
 
@@ -10807,7 +10859,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-28** — 6 pages
+**2026-08-28** — 31 pages
   - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
   - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
@@ -10820,12 +10872,13 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - constitution-pass | mind | wiki/mind/synthesis/the-embedded-objective
   - connect | mind, self | connection-queue.md (totality-themes <-> context-core)
   - constitution-pass | mind | wiki/mind/synthesis/dormancy-not-exit
+  - constitution-pass | mind | wiki/mind/synthesis/estate-money-spine
 
-**2026-08-27** — 9 pages
+**2026-08-27** — 7 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
   - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
 
-**2026-08-26** — 79 pages
+**2026-08-26** — 62 pages
   - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
   - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
@@ -10850,7 +10903,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - close | people | Libby is Libby Titus, she died in October 2024, and the corpus had her married name all along
   - report | mind | texting deviance audit — the operator's model of his own texting was two-thirds wrong
 
-**2026-08-22** — 6 pages
+**2026-08-22** — 4 pages
   - answer | mind | what would make Dan happy — he answered it himself in 2025, and the record has already run the experiment
   - fix | people | a fourth portal incident, a duplicated H1 on annie-ulmer, and the freshness gate red on main
   - fix | people | the stale-snapshot clobber recurred on ally-lubin, six hours after the last one
@@ -11363,7 +11416,7 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 46 |
+| Live contradictions | 44 |
 | Open gaps | 480 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
@@ -11405,7 +11458,6 @@ somewhere and has not yet found out where.
 - **[[wiki/mind/synthesis/ancestral-dialectic]]** — fayette-return shows the return dynamic is fully documented within the paternal line alone, across four generations, so a two-line dialectic is not required to explain it and may be over-specified. Both G1 immigrants — David from Russia, Sadie from Austria — are on the Ashkenazi side; if one line reproduces the pattern
 - **[[wiki/mind/synthesis/august-grievance-verdict]]** — The Morgantown event page previously asserted, and this page assumed, that across the interrogation *"she never says yes."* At **04:43**, answering *"Yes or no?"*, Annie says ***"Yes, save it."*** Three seconds later Coles tells Dan ***"she's looking at me saying yeah, she don't want you to hear it."*** This is held op
 - **[[wiki/mind/synthesis/dormancy-not-exit]]** — block-unblock-loop scores Menore's February 2025 farewell as *"the record's only fully clean closure"* — its strongest non-Annie control for the rule that a block holds when no dependency flows. This page reads the same relationship as the corpus's best evidence that closures of exactly that shape are dormancies. Both 
-- **[[wiki/mind/synthesis/dormancy-not-exit]]** — An operator capture ingested on 2026-08-02 (franki-fireworks-day-2013) attaches five days to a *different person in the same episode*: **Alexis** stayed at 155 Virginia Ave *"for 5 days before returning to carmichaels to her parents."* Of Franki's own tenure the capture says only that she *"got sick of me basically imm
 - **[[wiki/mind/synthesis/fayette-return]]** — this page and ancestral-dialectic give incompatible accounts of the same phenomenon. The dialectic requires two inherited operating systems from two parental lines; this page shows the return is reproduced by the paternal line alone, whose two immigrant anchors are both Ashkenazi. Both pages now carry the disagreement,
 - **[[wiki/mind/synthesis/single-channel]]** — This page names the evaluative domain as one of four where the concentration architecture reproduces, and scores it as the weakest leg: written the same day, *"a reading rather than a measurement."* It has now been measured. Computed over entries-per-creator from `FAVS MASTERLIST.csv` — the same unit as the two-sided c
 - **[[wiki/mind/synthesis/supply-network]]** — This page treats Tom as the standing supply line for Suboxone strips, and reads the May 2026 no-show as a single point of failure giving way. The June 2025 messages describe a different topology. **2025-03-06:** *"I had my doctor move my prescription here."* **2025-06-08:** *"my doctor said the pharmacy won't fill an o
@@ -11416,7 +11468,6 @@ somewhere and has not yet found out where.
 - **[[wiki/people/diane-moore]]** — Dan's 2026 recollection dates the exclusion to *"well before"* the final admission; his own 2018 messages date the operative instrument to the last week of Fran's life. Held rather than resolved: the capture may be describing a separate, earlier letter about supervised visits, and the March 29 / April 3 documents may b
 - **[[wiki/people/fran-coldren]]** — The page had carried an unresolved spread: core documents said 98, the 1920 birth year implied 97, and an operator capture called her "a 93-year-old matriarch." A dated message from **December 2017** settles it in the only way that does not depend on anyone's memory — Dan describing her, at the time, as *97*. That is c
 - **[[wiki/people/fran-coldren]]** — ancestral-dialectic offers *Fran's own great-grandmother* — "married three times under a shifting name structure" — as its archetype of "emotional dissociation via reinvention." That description fits **Fran herself** exactly: three marriages, and a name that shifted twice. Either the pattern runs in both generations, o
-- **[[wiki/people/franki-faris]]** — This page has carried *"a five-day rebound"* and *"the Franki interlude lasted five days before collapsing,"* sourced to the Gemini-58 and DANSYNTH self-narrations, and dormancy-not-exit uses that figure as its tenure-floor control. The 2026 capture attaches five days to a different thing entirely: **Alexis** stayed at
 - **[[wiki/people/gabe]]** — MAX_PRIME.md (a 2026-era document) refers to Gabe in the present tense as an ongoing, current fixture ("the food and the cat are always real"), which sits awkwardly against a November 2023 death. Possible explanations: the bootloader text is older than its last-edited date and was never updated after Gabe died, or the 
 - **[[wiki/people/jacob-bacharach]]** — Dan attributes the Virginia Avenue passage to ***The Bend of the World*** (2014) and cites pages 227–228. Bacharach's own February 2021 message names a different novel as the Uniontown book: *"it figures prominently in my Doorposts of Your House novel."* The reading record sides with Bacharach. Dan's Goodreads library 
 - **[[wiki/people/kristin]]** — an earlier version described her as "an ex-Brooklyn librarian living in Pittsburgh." The corpus supports neither. It supports pharmacy / DoorDash / courthouse work and an Akron, Ohio residence. She does say *"okay this is one of the things i miss most about living in new york"* on Facebook — so a New York period is pla
@@ -11690,11 +11741,13 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (170)
+### people (172)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — **The `known_for` line is now quoted outside the wiki, and the page owes it a harder look.** *"The six-year relationship that occupied the attachment slot without ever activating it"* was cited in a sage answer published 2026-08-21 as evidence that stability w
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
+- **[[wiki/people/alexis-armel]]** — Nothing in the corpus records how she learned about Annie, or whether the two women had any relationship as coworkers before the November 2018 arrangement. Her life after February 2025 is entirely undocumented, as is whether she knows any of the rest of this e
+- **[[wiki/people/alexis-armel]]** — **New gaps opened by the 2026-08-28 ingest.** The washing-machine incident that triggered the March 2014 eviction is recorded by the operator himself as not understood ("a story i still don't understand") and is not explained further here. The Leah Tedesco coh
 - **[[wiki/people/alice]]** — 1. **Surname.** Claire's married name is nowhere in the corpus, so this page is filed under a single name. One sentence from the operator resolves Alice, Otto, Waylon and Claire together.
 - **[[wiki/people/alice]]** — 2. **Exact birth date.** Inferred as ~2019–2020 from a single retrospective remark. A birthday message would fix it.
 - **[[wiki/people/alice]]** — 3. **Whether Dan ever met her.** The record has Annie showing Alice a photograph of Milo and Alice asking *"who are you talking to?"* during a call (2024-02-23), and Dan writing *"alice wouldn't be so unfamiliar with my name that she literally can't understand
@@ -11924,7 +11977,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/message-corpora/source-coverage-index]]** — Row counts are physical records, not unique messages; the same message appears in many files and this index deliberately does not deduplicate.
 - **[[wiki/self/tattoos]]** — The gravestone piece now has an artist and location (Ian Weidrick, Allied Tattoo, Brooklyn) but still no date or corroborating message-corpus trace. Body placement is unknown for every piece on this list; the corpus documents *what* and often *when* and *who d
 
-### timeline (75)
+### timeline (73)
 
 - **[[wiki/timeline/2015-annie-read-wiki-impact-analysis]]** — These are the standing wiki claims the read contradicts or sharpens. **None have been applied.**
 - **[[wiki/timeline/annie-read-notes]]** — Chaseable questions this read raised. Each is a specific thing to look for, not a topic.
@@ -11974,7 +12027,6 @@ new knowledge available, because no new source is required.
 - **[[wiki/timeline/events/bald-eagle-cummings]]** — **The nickname is unattested outside this capture.** A year of school-wide use should have left traces in the 2007-era Facebook archive; nobody has looked.
 - **[[wiki/timeline/events/bald-eagle-cummings]]** — **The second-hand claim about Victor and Britney in the minivan** is reported as something Dan *"later found out"* and is not corroborated.
 - **[[wiki/timeline/events/franki-fireworks-day-2013]]** — **The date is not fixed.** "Early July 2013" plus a fireworks display is as close as the record gets. A dated ATM withdrawal on Suz's account, or a Uniontown fireworks schedule for 2013, would close it.
-- **[[wiki/timeline/events/franki-fireworks-day-2013]]** — **The five-day figure is now attached to two different things.** See the contradiction recorded on franki-faris: the wiki has carried "a five-day rebound" as the length of the Franki relationship, while this capture attaches five days to *Alexis's stay at 155 
 - **[[wiki/timeline/events/franki-fireworks-day-2013]]** — **Nothing here is contemporaneous.** The whole page rests on one 2026 capture. The July 9–31 2013 self-typology emails and the August 14 2013 post-mortem already in the corpus are the nearest dated material and they corroborate the window, not the day.
 - **[[wiki/timeline/events/franki-fireworks-day-2013]]** — **The hitchhikers, the ropes course job, and 15 Holly Lane** are single-source details with no independent confirmation anywhere in `raw/`.
 - **[[wiki/timeline/events/james-analysis-pdf]]** — **The PDF itself is not in `raw/`.** Only the model's unredacted source text survives, in the chat log; the curated version Dan actually sent exists nowhere. The comparison this page rests on is therefore between the full chat output and Dan's two descriptions
@@ -12000,7 +12052,6 @@ new knowledge available, because no new source is required.
 - **[[wiki/timeline/events/uniontown-hospital-vape-alarm]]** — The hospital's own record — an incident report, a trespass notice — is still unsought and is now the only thing that would establish whether Dan was permitted back onto the property before Fran died, which matters because Diane's letter had already excluded hi
 - **[[wiki/timeline/periods/covid-era-2020]]** — No primary source narrates the lockdown period day-to-day beyond the Train Plan incident and the trading record — there is no documented account of remote work, isolation's effect on the relationship outside that one crisis, or health precautions taken. The ex
 - **[[wiki/timeline/periods/dark-era-2007-2008]]** — No primary source gives an exact date for the eating disorder's onset, duration, or any point of resolution — the reconstruction above is built entirely from oblique references in later message threads, not from any direct account. The five-month first-use-to-
-- **[[wiki/timeline/periods/full-sail-2008-2010]]** — No message corpus or dated record narrows the "Danielle ends, Alexis begins" sequence to specific weeks within the eighteen-month window; both transitions are established only at the level of "during Full Sail."
 
 ### work (6)
 
@@ -12042,37 +12093,58 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-28 — 6 pages
+## 2026-08-28 — 31 pages
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/health/chemical-architecture]] | health | **GAP CLOSED** — This page has always stated the February 17, 2010 day-zero without naming what the last active-use episode before it was. A 2026-08-27 operator capture (`raw/people/captures/2026-08-27_222932_gap-alex |
+| [[wiki/health/cocaine]] | health | **RE-CHECKED** — flagged stale against chemical-architecture (2026-08-28), which added the previously-unnamed final pre-Suboxone opiate relapse (Alexis, Thanksgiving 2009, thirty Roxicet pills) to the **opiate** arc.  |
+| [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — flagged stale against the-deferred-audit (2026-08-28), which gained a RE-CHECKED note tracing back to a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris to Alexi |
+| [[wiki/legal/2015-possession-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/recent-activity]] | meta | _(carries a REVISED)_ |
+| [[wiki/mind/synthesis/annual-volume-suz]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a new 2013–2014 eviction/concealment episode (Alexis Armel, the washing machine). No message-volume figure this page draws on is touched.  |
+| [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a pre-Annie, Alexis-era eviction/concealment episode (2013–2014, Uniontown). It touches neither the Annie-era material nor any figure this |
+| [[wiki/mind/synthesis/august-grievance-verdict]] | mind | **RE-CHECKED** — flagged stale against attachment-trauma-bond (2026-08-28), which gained a RE-CHECKED note tracing back to a pre-Annie, 2013–2014 Alexis-era eviction/concealment episode on suzanne-frank. It touc |
+| [[wiki/mind/synthesis/dormancy-not-exit]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
+| [[wiki/mind/synthesis/estate-money-spine]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a March 2014 Alexis-era eviction/concealment episode — housing and family-drama, no capital event, no figure this page draws on. **No clai |
+| [[wiki/mind/synthesis/failure-to-launch]] | mind | **RE-CHECKED** — flagged stale against estate-money-spine (2026-08-28), which gained a RE-CHECKED note confirming a March 2014 Alexis-era eviction on suzanne-frank touches no capital event or figure this page |
+| [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] | mind | **RE-CHECKED** — flagged stale against august-grievance-verdict (2026-08-28), which gained a re-check note tracing back to a pre-Annie, 2013–2014 Alexis-era eviction/concealment episode on suzanne-frank. It touc |
 | [[wiki/mind/synthesis/no-platonic-channel]] | mind | — |
+| [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — flagged stale against totality-themes (2026-08-28), which gained a RE-CHECKED note of its own confirming that a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris  |
 | [[wiki/mind/synthesis/the-binary-verdict]] | mind | **REVISED** — This entry previously asked whether the binary default is downstream of Core Axiom 1 specifically, or an instance of a more general Ti-dominant, forensic-verdict cognitive style, and flagged forensic- |
+| [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — flagged stale against single-channel (2026-08-28), which gained a RE-CHECKED note of its own tracing back to a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris t |
+| [[wiki/mind/synthesis/the-embedded-objective]] | mind | **RE-CHECKED** — flagged stale against 2015-possession-arrest (2026-08-28), which added a second, differently-dated operator account of an Alexis eviction/concealment episode used only to help date that page's arrest  |
+| [[wiki/mind/synthesis/the-rescue-premise]] | mind | **RE-CHECKED** — flagged stale against dormancy-not-exit (2026-08-28), which resolved a standing contradiction over whether a five-day tenure figure belonged to Franki Faris or to Alexis Armel's 2013 displacement — a  |
 | [[wiki/mind/synthesis/the-serial-monogamist]] | mind | — |
+| [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **RE-CHECKED** — alexis-armel moved 2026-08-28 for a 2026-08-27 operator capture giving the fuller sequence of the 2013 separation: five days at 155 Virginia Ave, her mother's house, a new boyfriend (Chris Tressler),  |
+| [[wiki/mind/synthesis/totality-themes]] | mind | **RE-CHECKED** — flagged stale against dormancy-not-exit (2026-08-28), which resolved a standing contradiction over whether a five-day tenure figure belonged to Franki Faris or to Alexis Armel's 2013 displacement. Thi |
+| [[wiki/people/alexis-armel]] | people | **GAP CLOSED** — *"No message corpus or dated record narrows the 'Danielle ends, Alexis begins' sequence to specific weeks within the eighteen-month window."* An operator capture volunteered 2026-08-27 supplies the mi |
+| [[wiki/people/franki-faris]] | people | _(carries a REVISED from 2026-07-13)_ |
+| [[wiki/people/suzanne-frank]] | people | _(carries a RE-CHECKED from 2026-08-26)_ |
+| [[wiki/people/suzanne-frank-personality-assessment]] | people | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a March 2014 eviction of Alexis Armel from the household over a washing-machine incident. No existing claim on this page is falsified, but |
+| [[wiki/people/zach-clingan]] | people | **GAP CLOSED** — The 2014 "drug people" taxonomy and the December 2015 "my arch rival" outburst (below) both assume a rupture the corpus had never actually recorded. A 2026-08-27 operator capture (`raw/people/captures |
+| [[wiki/places/155-virginia-ave]] | places | _(carries a GAP CLOSED from 2026-08-22)_ |
+| [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
+| [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | **GAP CLOSED** — This section's own Gaps entry asked for exactly this. A 2026-08-27 operator capture (`raw/people/captures/2026-08-27_222932_gap-alexis-armel.md`) supplies it: Dan graduated in **August 2009** and was  |
 
-## 2026-08-27 — 9 pages
+## 2026-08-27 — 7 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/interests/language/vocabulary-lexicon]] | interests | — |
 | [[wiki/mind/profile/linguistic-profile]] | mind | **GAP CLOSED** — the operator volunteered the full "words for stupid" list against this page. It was not a gap this page had stated — unprompted material, staged here for the ingest to place. Placed here, in Lexical f |
-| [[wiki/mind/synthesis/failure-to-launch]] | mind | **RE-CHECKED** — flagged stale against linguistic-profile (2026-08-27), which gained a section on a commissioned vocabulary session (vocabulary-lexicon). **No claim on this page changes, and the new ma |
 | [[wiki/mind/synthesis/the-commissioned-self]] | mind | **RE-CHECKED** — linguistic-profile gained a section on 2026-08-27 documenting a **commissioned vocabulary session**: on 2026-08-26 Dan prompted a model to generate graded insult and praise batches, selected from the  |
-| [[wiki/mind/synthesis/the-rescue-premise]] | mind | **RE-CHECKED** — flagged stale against ally-lubin-cognitive-profile (2026-08-27), which closed its attribution gap: the operator confirms the 16Personalities result is Ally Lubin's and that it is recent. **No claim on |
 | [[wiki/people/ally-lubin-cognitive-profile]] | people | **GAP CLOSED** — the page asked *"whose result is the screenshot, and when was it taken? The image carries no identifying metadata. Did Ally send it to Dan directly, and on what date? The original `IMG_2320.heic` may  |
 | [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 | [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — 117-belmont-circle gained the sale's disposition on 2026-08-27: it **closed in summer 2019 for $250,000** (operator testimony, uncorroborated in the message record, buyer still unknown). The row above |
 
-## 2026-08-26 — 79 pages
+## 2026-08-26 — 62 pages
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/health/cocaine]] | health | **RE-CHECKED** — flagged stale against acquisition-drive (2026-08-26), which added a closure-not-completion refinement built on the Fran vigil quote — unrelated to cocaine. **No claim on this page is affected.** **RE- |
-| [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — flagged stale against cocaine (2026-08-26), which added a happiness-rate counter-measure to the same dosage arc this page already cites (1g/day → 3.5–7g/day → 0.5–1g/day tracking the inheritance). **T |
 | [[wiki/interests/favorites/music/artists/fall-out-boy]] | interests | — |
 | [[wiki/interests/food-and-diet]] | interests | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-26), which added a section on the metric's one documented upper bound (the Ally Skins exchange) and removed its `sage_pending` staging. The food-exemptio |
 | [[wiki/interests/rock-irrelevance-thesis]] | interests | — |
@@ -12102,42 +12174,27 @@ simply listed.
 | [[wiki/mind/psychosexual/arrangement-history]] | mind | _(carries a CORRECTED from 2026-08-20)_ |
 | [[wiki/mind/synthesis/ai-collaborative-analysis]] | mind | — |
 | [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — flagged stale against totality-themes (2026-08-26), which gained two RE-CHECKED notes confirming its own cited premises unaffected by the same day's acquisition-drive/embedded-objective additions. **N |
-| [[wiki/mind/synthesis/annual-volume-suz]] | mind | — |
-| [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-26), which gained a RE-CHECKED note confirming the fran-death-vigil closure-cluster finding doesn't touch its caregiving or estate material. **No claim on  |
-| [[wiki/mind/synthesis/august-grievance-verdict]] | mind | **RE-CHECKED** — flagged stale against attachment-trauma-bond (2026-08-26), which added a counterexample section about the Ally channel's symmetric self-indictment. **No claim on this page is affected** — this page ci |
 | [[wiki/mind/synthesis/block-unblock-loop]] | mind | **RE-CHECKED** — flagged stale against conflict-architecture (2026-08-26), which added a section documenting the corpus's one completed refusal of the redefinition move (an Ally exchange) and removed its `sage_pending |
 | [[wiki/mind/synthesis/bond-switch-2015]] | mind | _(carries a CORRECTED from 2026-08-17)_ |
 | [[wiki/mind/synthesis/closing-the-set]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
 | [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | **RE-CHECKED** — flagged stale against conflict-architecture (2026-08-26), which added a section documenting the corpus's one completed refusal of the redefinition move (an Ally exchange) and removed its `sage_pending |
-| [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — flagged stale against the-unbroken-bond (2026-08-26), which added a "directed fear of infidelity" cost item (the `cheat` word-count finding) and removed its own `sage_pending` staging. That addition i |
-| [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a REVISED from 2026-08-23)_ |
 | [[wiki/mind/synthesis/fayette-return]] | mind | **RE-CHECKED** — ancestry added one verified collateral from the maternal Shrum line: **Daniel Shrum** (b. 11 Apr 1884, Pennsylvania; d. 11 Dec 1918, Greensburg, Westmoreland County) — an older brother of the direct-l |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | **RE-CHECKED** — `bin/wiki-climb check` flagged this page stale again, against both context-core and exocortex, each of which moved on 2026-08-26 to add one new connections edge to the new |
 | [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] | mind | — |
-| [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] | mind | **RE-CHECKED** — flagged stale against august-grievance-verdict (2026-08-26), which gained a re-check note only, confirming an unrelated attachment-trauma-bond addition (the Ally symmetric-confession counterexample) d |
 | [[wiki/mind/synthesis/music-as-identity]] | mind | — |
 | [[wiki/mind/synthesis/political-psyops]] | mind | — |
 | [[wiki/mind/synthesis/read-receipt-forensics]] | mind | **RE-CHECKED** — forensic-method gained an `instance-of` edge into the new lexicon page — the same evidence-cite/ authority-invoke/render-a-finding machinery documented there for crisis analysis, observed r |
-| [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — flagged stale against totality-themes (2026-08-26), which gained a RE-CHECKED note confirming the same day's acquisition-drive/embedded-objective tenure-and-satisfaction additions do not touch anythin |
 | [[wiki/mind/synthesis/supply-network]] | mind | **RE-CHECKED** — flagged stale against menore (2026-08-26), which closed its last open gap: 2022's zero mentions are explained by the operator having a flip phone that year, not by a service break. This removes the on |
 | [[wiki/mind/synthesis/the-cato-seat]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
-| [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — flagged stale against single-channel (2026-08-26), which added a section reading the no-failover architecture's intensity as an entry condition for one relational object (Ally) rather than only a cost |
-| [[wiki/mind/synthesis/the-embedded-objective]] | mind | _(carries a RE-CHECKED from 2026-08-24)_ |
-| [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **RE-CHECKED** — flagged stale against chaos-preference (2026-08-26), which added a section on the-cool-metric's one documented upper bound (an Ally exchange) and removed its own `sage_pending` staging. Ne |
-| [[wiki/mind/synthesis/totality-themes]] | mind | **RE-CHECKED** — flagged stale against the-embedded-objective and acquisition-drive (both 2026-08-26), which added a tenure-versus-satisfaction distinction built on the Fran vigil and left the MNEME/DAN |
-| [[wiki/people/alexis-armel]] | people | _(carries a CORRECTED from 2026-08-15)_ |
 | [[wiki/people/ally-lubin]] | people | _(carries a CORRECTED from 2026-08-22)_ |
 | [[wiki/people/annie-ulmer-personality-assessment]] | people | _(carries a RE-CHECKED from 2026-08-23)_ |
 | [[wiki/people/bekah-fullem]] | people | — |
 | [[wiki/people/fran-coldren]] | people | _(carries a CONTRADICTION from 2026-08-02)_ |
-| [[wiki/people/franki-faris]] | people | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/people/jerad-friedline]] | people | **RE-CHECKED** — `bin/wiki-climb check` flagged this page stale against context-core, which moved on 2026-08-26. The premise did not move in substance — the only change on that page was one new `connections:` entry cr |
 | [[wiki/people/kristin]] | people | _(carries a GAP CLOSED from 2026-08-17)_ |
 | [[wiki/people/menore]] | people | **GAP CLOSED** — the operator, T0, first person (`raw/people/captures/2026-08-26_034338_gap-menore.md`): *"I had a flip phone that year."* 2022's silence has an ordinary explanation that does not require a service bre |
 | [[wiki/people/milo]] | people | _(carries a GAP CLOSED from 2026-08-17)_ |
 | [[wiki/people/shelbie-breakiron]] | people | — |
-| [[wiki/people/suzanne-frank]] | people | **RE-CHECKED** — flagged stale against fran-death-vigil (2026-08-26), which added the closure-cluster finding (four dated good-outcome statements in six days) and new typed edges to closing-the-set and attachment-mode |
-| [[wiki/people/suzanne-frank-personality-assessment]] | people | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-26), which gained a `RE-CHECKED` blockquote confirming the fran-death-vigil closure-cluster finding doesn't touch her caregiving or estate material. **No c |
 | [[wiki/people/tom]] | people | — |
 | [[wiki/self/ancestry]] | self | — |
 | [[wiki/self/concepts/ally-and-dan-love-as-destiny]] | self | **RE-CHECKED** — flagged stale against ally-lubin (2026-08-26), which integrated a full unprompted love letter sent August 21, 2026 (*"I've spent 10 years… I just never got over it"* / *"still haven't lost interest… # |
@@ -12174,14 +12231,12 @@ simply listed.
 | [[wiki/places/index]] | places | — |
 | [[wiki/self/message-corpora/master-message-dump]] | self | **CORRECTED** — the ~8.36 figure is a **2015-19 baseline, not a constant.** Recomputed per era from the sender-tagged deep export: 8.34 (2015-19), 9.31 (2020-24), 11.71 (2025), **15.03 (2026)**. The "3-7 discrete bur |
 
-## 2026-08-22 — 6 pages
+## 2026-08-22 — 4 pages
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/legal/2015-possession-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
 | [[wiki/legal/2015-retail-theft-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
 | [[wiki/legal/index]] | legal | — |
-| [[wiki/places/155-virginia-ave]] | places | **GAP CLOSED** — This page read, until now, *"the residence timeline has him staying until February 2019, so the notice's outcome is undocumented."* It is documented. A Fayette County summary summons filed **April 5,  |
 | [[wiki/places/337-saratoga-drive]] | places | _(carries a REVISED from 2026-08-18)_ |
 | [[wiki/timeline/events/uniontown-hospital-vape-alarm]] | timeline | **GAP CLOSED** — This page asked, from its creation until now, *"Whether a summary offense was actually filed with a Fayette County magistrate, or whether the paperwork was an incident report a security guard describe |
 
@@ -12218,11 +12273,10 @@ simply listed.
 | [[wiki/timeline/events/august-2026-unmasking]] | timeline | — |
 | [[wiki/timeline/index]] | timeline | — |
 
-## 2026-08-19 — 24 pages
+## 2026-08-19 — 23 pages
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/health/chemical-architecture]] | health | **CORRECTED** — It records "no medical records, prescriber information, or further dosage data" and, in the body, that "no labs, no dental, no primary care appears anywhere in 17 years of messages." A term census ove |
 | [[wiki/health/hyperreflexivity]] | health | _(carries a REVISED from 2026-07-26)_ |
 | [[wiki/health/index]] | health | — |
 | [[wiki/interests/extreme-sports]] | interests | — |
@@ -12267,13 +12321,12 @@ simply listed.
 | [[wiki/timeline/events/july-august-2026-reentanglement]] | timeline | **CORRECTED** — this section read the two as *"resolving opposite ways"* and derived from the contrast a rule that **announcement is the mechanism of non-execution.** Both halves are withdrawn, by this page's own lat |
 | [[wiki/timeline/periods/2018-deep-cycle]] | timeline | **CORRECTED** — the clause above read *"mom borrow $750/wk."* The rate does not exist and its direction is inverted. The corpus holds one $750 statement — an accusation about a single week, made in a 13 December 2018 |
 
-## 2026-08-17 — 8 pages
+## 2026-08-17 — 7 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/people/casey-bondarenka]] | people | **CORRECTED** — "Overstayed his welcome" implied an established friendship. The hand-read of the Annie corpus (annie-record) dates his arrival precisely: on 2015-11-30 Dan complains *"Casey will never stfu here"* and |
 | [[wiki/people/emilio]] | people | — |
-| [[wiki/people/zach-clingan]] | people | _(carries a CORRECTED from 2026-08-08)_ |
 | [[wiki/people/zachariah-harshman]] | people | — |
 | [[wiki/self/gemini-activity/archive/v1-extract]] | self | — |
 | [[wiki/timeline/2015-annie-read-wiki-impact-analysis]] | timeline | — |
@@ -12286,13 +12339,12 @@ simply listed.
 |---|---|---|
 | [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] | timeline | **GAP CLOSED** — This page carried "Exact date within April 2019 is not established. Whether this was a one-time event or recurred beyond the June 8 exchange is unknown" as an open question since 2026-07-14. The opera |
 
-## 2026-08-15 — 4 pages
+## 2026-08-15 — 3 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/timeline/events/timeline]] | timeline | — |
 | [[wiki/timeline/master-timeline]] | timeline | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | — |
 | [[wiki/timeline/periods/uniontown-return-2013-2015]] | timeline | **CORRECTED** — The message behind it (*"Lex cheated on me 2 weeks in after I moved her to fla"*) is Dan telling Annie how the Alexis relationship **began, in 2009**, at Full Sail — the line before it is *"the exact  |
 
 ## 2026-08-14 — 2 pages
@@ -12356,7 +12408,7 @@ simply listed.
 | [[wiki/people/jack-connor]] | people | — |
 | [[wiki/people/lucy]] | people | — |
 
-## 2026-08-02 — 14 pages
+## 2026-08-02 — 13 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -12370,7 +12422,6 @@ simply listed.
 | [[wiki/people/sadie-harris]] | people | _(carries a CONTRADICTION)_ |
 | [[wiki/people/vanessa-frank]] | people | _(carries a REVISED from 2026-07-14)_ |
 | [[wiki/timeline/events/bald-eagle-cummings]] | timeline | — |
-| [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
 | [[wiki/timeline/events/the-fall-of-fran]] | timeline | **CONTRADICTION** — Both captures behind this page date the sequence to March–April **2017**, and one opens by asserting the date twice. Every independent record in the corpus dates it to **2018**, and they do not depend |
 | [[wiki/timeline/periods/2017-poverty-floor]] | timeline | — |
 | [[wiki/work/nemacolin-caddying]] | work | — |
@@ -21520,7 +21571,7 @@ title: "Annual Message Volume: Dan vs. Suz"
 status: active
 knowledge: mixed
 date_created: 2026-08-26
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources: []
 synthesizes:
   - wiki/people/suzanne-frank
@@ -21564,6 +21615,12 @@ connections:
 ---
 
 # Annual Message Volume: Dan vs. Suz
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/people/suzanne-frank]] (2026-08-28), which added a new
+> 2013–2014 eviction/concealment episode (Alexis Armel, the washing
+> machine). No message-volume figure this page draws on is touched. **No
+> claim on this page is affected.**
 
 [[wiki/people/suzanne-frank|Suz]]'s page already states the finding in
 prose — she outwrites Dan in every year but two, and the gap widens after
@@ -21644,7 +21701,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -21723,6 +21780,12 @@ connections:
 
 
 # Attachment Trauma Bond and Aura Illness
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/people/suzanne-frank]] (2026-08-28), which added a pre-Annie,
+> Alexis-era eviction/concealment episode (2013–2014, Uniontown). It touches
+> neither the Annie-era material nor any figure this page draws from Suz's
+> page. **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/people/suzanne-frank]] (2026-08-26), which gained a RE-CHECKED note
@@ -21993,7 +22056,7 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-20
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 # operator answers from 2026-08-20 have been integrated below
 
 > **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at
@@ -22068,6 +22131,13 @@ connections:
 > block in it at all.
 
 # The August Grievances — a verdict on the last conversation
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/mind/synthesis/attachment-trauma-bond]] (2026-08-28), which gained a
+> RE-CHECKED note tracing back to a pre-Annie, 2013–2014 Alexis-era
+> eviction/concealment episode on [[wiki/people/suzanne-frank]]. It touches
+> neither the August 2026 material nor any figure this page draws from
+> `attachment-trauma-bond`. **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/synthesis/attachment-trauma-bond]] (2026-08-26), which added a
@@ -24571,7 +24641,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -24619,8 +24689,8 @@ connections:
     type: evidenced-by
     claim: "The measurement of reactivation bandwidth: 2,044 days of total silence answered in one minute, which shows dormancy in this graph involves no decay of the channel at all."
   - page: wiki/people/franki-faris
-    type: contradicts
-    claim: "The control that bounds the rule: an occupancy of days in 2013 produced no message corpus and no later trace, so persistence is earned by sustained tenure rather than granted to everyone who passes through — the five-day figure itself is contested as of 2026-08-02 and may have been transposed from Alexis's stay at 155 Virginia Ave."
+    type: evidenced-by
+    claim: "The control that bounds the rule: an occupancy resolved 2026-08-28 to have collapsed immediately produced no message corpus and no later trace, so persistence is earned by sustained tenure rather than granted to everyone who passes through — the five-day figure once attached to this occupancy is now corrected to Alexis's displacement at 155 Virginia Ave, which makes the control sharper, not weaker."
   - page: wiki/places/155-virginia-ave
     type: evidenced-by
     claim: "Lair-continuity is the spatial signature of the same policy — the apartment leased for Alexis is the apartment Annie moves into, so the container is retained while the occupant is swapped."
@@ -24631,8 +24701,8 @@ connections:
     type: causes
     claim: "A graph that admits people slowly and releases them never must concentrate over time, so the no-exit rule is the mechanism that produces the contact Gini rather than a separate finding about it."
   - page: wiki/timeline/events/franki-fireworks-day-2013
-    type: contradicts
-    claim: "The capture attaches five days to Alexis's stay at 155 Virginia Ave, not to Franki's tenure, which puts this page's only quantity — the number defining its tenure floor — in question while leaving the qualitative control intact."
+    type: evidenced-by
+    claim: "This capture, now corroborated by a second independent 2026-08-27 statement, attaches five days to Alexis's stay at 155 Virginia Ave, not to Franki's tenure — resolving what was an open question over this page's tenure-floor number into a settled, sharper figure."
   - page: wiki/people/ally-lubin
     type: instantiates
     claim: "The channel never closes and never has to — but the operator's 2026-08-20 answer puts a boundary on the rule: the June 1, 2026 burst went to an email handle Ally does not monitor and was never delivered, and she had concluded she was blocked. At least one silence in this tie is a routing artifact rather than dormancy, so a gap is not evidence of the rule until the handle it was sent to is checked."
@@ -24749,7 +24819,7 @@ people who have vacated it — and finds that they are all still here.
 | [[wiki/people/menore]] | Apr 2013 (Dan leaves NYC) | Dormant, then reactivated Nov 2018; ran continuously to Feb 2025 — and the counterparty is **confirmed still operating in 2026** | **12 years, one gap** |
 | [[wiki/places/155-virginia-ave]] | — | Container retained across the occupant swap | — |
 | [[wiki/people/james-dee]] | Jul 2025 (56 days) | Residual contact only — two unanswered writes, then one in-person confrontation | **~2 months, then thin** |
-| [[wiki/people/franki-faris]] | 2013 (5 days) | **Nothing.** No corpus, no trace, `status: closed` | **none** |
+| [[wiki/people/franki-faris]] | 2013 (immediate collapse) | **Nothing.** No corpus, no trace, `status: closed` | **none** |
 
 Five of the seven carry the rule outright. One is the control, and it is what
 makes the rule a claim rather than a mood. The seventh —
@@ -24968,6 +25038,13 @@ the bandwidth it had. Every case in the table behaves this way, and it is why
 
 ## The control, and where the rule stops
 
+> **Read this section against the 2026-08-28 resolution below before quoting
+> a figure from it.** The "five days" this section originally attached to
+> Franki's own occupancy is corrected there to Alexis's displacement at 155
+> Virginia Ave; Franki's actual tenure is "immediately, and it went nowhere"
+> — shorter than five days, which sharpens rather than weakens everything
+> this section argues from the control.
+
 [[wiki/people/franki-faris|Franki Faris]] is the counterexample, and the page is
 better for having it. She occupied the primary slot for **five days** in the
 summer of 2013, during a brief split from Alexis. She has no message corpus, no
@@ -25041,29 +25118,38 @@ handled in the re-check immediately below.
 > already queued there — those handles should divide by tenure, not by whether
 > they were ever answered.
 
-> **CONTRADICTION [2026-08-02] — the "five days" may not be Franki's at all.**
-> An operator capture ingested on 2026-08-02
-> ([[wiki/timeline/events/franki-fireworks-day-2013]]) attaches five days to a
-> *different person in the same episode*: **Alexis** stayed at
+> **RESOLVED [2026-08-28] — was CONTRADICTION [2026-08-02]: the "five days"
+> is not Franki's, and a second capture settles it.** An operator capture
+> ingested on 2026-08-02
+> ([[wiki/timeline/events/franki-fireworks-day-2013]]) first attached five
+> days to a *different person in the same episode*: **Alexis** stayed at
 > [[wiki/places/155-virginia-ave|155 Virginia Ave]] *"for 5 days before returning
-> to carmichaels to her parents."* Of Franki's own tenure the capture says only
-> that she *"got sick of me basically immediately and it went nowhere."*
+> to carmichaels to her parents."* Of Franki's own tenure that capture said only
+> that she *"got sick of me basically immediately and it went nowhere."* At
+> the time neither reading was adopted, because the wiki's original five-day
+> figure traced to the Gemini-58 and DANSYNTH self-narrations — later
+> AI-assisted reconstructions, exactly the class of material most likely to
+> have transposed one five-day span onto the other person a week away from
+> it — and one capture against one reconstruction wasn't enough to call it.
 >
-> The wiki's five-day figure traces to the Gemini-58 and DANSYNTH
-> self-narrations — later AI-assisted reconstructions, and exactly the class of
-> material most likely to have transposed one five-day span onto the other person
-> a week away from it. Per [[wiki/mind/synthesis/instrument-is-subject]], that is
-> testimony; the capture is first-person operator memory, which is also not
-> residue. **Neither is adopted.**
+> **A second, independent operator capture (2026-08-27) removes the tie.**
+> Volunteered separately, with no reference to the first, it states again:
+> *"She [Alexis] spent 5 days at Virginia ave and then went to her moms."*
+> Two independent first-person statements now agree, so per
+> [[wiki/mind/synthesis/instrument-is-subject]]'s own standard this has
+> crossed from single-witness testimony into corroborated residue-adjacent
+> fact. **The five days belong to Alexis. Franki's occupancy is confirmed,
+> across both captures, as collapsing immediately rather than lasting a
+> measured span.**
 >
-> What this costs the page, stated plainly: the control's *duration* is the only
-> quantity in it, and the tenure floor is defined by that quantity. If Franki's
-> occupancy was "immediately, and it went nowhere" rather than five measured
-> days, the control still holds — it holds *harder*, since a shorter tenure makes
-> the floor argument stronger, and nothing about her non-persistence changes. What
-> breaks is the number. **Every use of "five days" on this page should be read as
-> "below the floor, magnitude uncertain" until a primary source fixes it.** The
-> qualitative control survives; the figure does not.
+> What this does to the page, stated plainly: exactly what the 2026-08-02
+> block predicted it would if this resolution landed. The control **holds
+> harder** — a shorter, now-settled Franki tenure ("immediately, and it went
+> nowhere") makes the tenure-floor argument sharper, not weaker, and nothing
+> about her non-persistence changes. Every use of "five days" on this page
+> now refers to Alexis's displacement, not to the control case's own
+> duration, and [[wiki/people/franki-faris]] and
+> [[wiki/timeline/events/franki-fireworks-day-2013]] are corrected to match.
 
 ## What this explains
 
@@ -25304,7 +25390,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -25379,6 +25465,12 @@ connections:
 ---
 
 # The Estate / Money Spine
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/people/suzanne-frank]] (2026-08-28), which added a March 2014
+> Alexis-era eviction/concealment episode — housing and family-drama, no
+> capital event, no figure this page draws on. **No claim on this page is
+> affected.**
 
 > **REVISED [2026-08-23] — the spine gains a second direction it has never
 > recorded.** Flagged stale against [[wiki/people/annie-ulmer]] and
@@ -25821,7 +25913,7 @@ status: stable
 knowledge: earned
 importance: high
 date_created: 2026-08-22
-date_modified: 2026-08-27
+date_modified: 2026-08-28
 tags: [career, personality-profile, financial-stress, music-production, ai-collaboration]
 sources:
   - raw/self/dox-md/Honest assessment and value judgment analysis.md
@@ -25877,6 +25969,12 @@ connections:
 ---
 
 # Failure to Launch — The Capability Audit
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/mind/synthesis/estate-money-spine]] (2026-08-28), which gained a
+> RE-CHECKED note confirming a March 2014 Alexis-era eviction on
+> [[wiki/people/suzanne-frank]] touches no capital event or figure this page
+> draws on. **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/synthesis/the-embedded-objective]] and
@@ -27920,7 +28018,7 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-20
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 tags: [forensic-analysis, relationships, legal, mental-health]
 sources:
   - raw/self/audio/2026-08-16_Morgantown_St_call-recording.m4a
@@ -27951,6 +28049,12 @@ connections:
 ---
 
 # The Morgantown Call: Ethical Roles of Dan, Annie, and Jerel Coles
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/mind/synthesis/august-grievance-verdict]] (2026-08-28), which gained
+> a re-check note tracing back to a pre-Annie, 2013–2014 Alexis-era
+> eviction/concealment episode on [[wiki/people/suzanne-frank]]. It touches
+> nothing this page reasons from. **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/synthesis/august-grievance-verdict]] (2026-08-26), which gained
@@ -29490,7 +29594,7 @@ aliases: ["one channel at maximum voltage", "no failover", "concentration archit
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -29554,6 +29658,13 @@ connections:
 ---
 
 # The Single Channel
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/mind/synthesis/totality-themes]] (2026-08-28), which gained a
+> RE-CHECKED note of its own confirming that a `dormancy-not-exit` correction
+> (a five-day tenure figure reattributed from Franki Faris to Alexis Armel)
+> does not touch anything either page cites. **No claim on this page is
+> affected.**
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/synthesis/totality-themes]] (2026-08-26), which gained a
@@ -32022,7 +32133,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -32094,6 +32205,12 @@ connections:
 ---
 
 # The Deferred Audit
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/mind/synthesis/single-channel]] (2026-08-28), which gained a
+> RE-CHECKED note of its own tracing back to a `dormancy-not-exit` correction
+> (a five-day tenure figure reattributed from Franki Faris to Alexis Armel,
+> a Uniontown-era, pre-2015 detail). **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/synthesis/single-channel]] (2026-08-26), which added a section
@@ -32688,7 +32805,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -32756,6 +32873,13 @@ connections:
 ---
 
 # The Embedded Objective
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/legal/2015-possession-arrest]] (2026-08-28), which added a second,
+> differently-dated operator account of an Alexis eviction/concealment
+> episode used only to help date that page's arrest night. This page's own
+> row draws on the ARD acquisition/probation timing, not on the Alexis
+> housing chronology. **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-22]:** flagged stale against
 > [[wiki/legal/2015-possession-arrest]] (2026-08-22), which moved solely by a
@@ -33143,7 +33267,7 @@ status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-22
-date_modified: 2026-08-27
+date_modified: 2026-08-28
 date_range_start: 2026-08-16
 date_range_end: 2026-08-22
 tags: [relationships, trauma-bond, attachment, forensic-analysis, future]
@@ -33198,6 +33322,14 @@ connections:
 ---
 
 # The Rescue Premise — What Is Actually Different About the August 2026 Rupture
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/mind/synthesis/dormancy-not-exit]] (2026-08-28), which resolved a
+> standing contradiction over whether a five-day tenure figure belonged to
+> Franki Faris or to Alexis Armel's 2013 displacement — a Uniontown-era,
+> pre-Annie correction touching neither the June 1 severance, the July–August
+> reentanglement, nor the August 2026 rupture this page reasons about. **No
+> claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-27]:** flagged stale against
 > [[wiki/people/ally-lubin-cognitive-profile]] (2026-08-27), which closed its
@@ -33956,7 +34088,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -34007,6 +34139,18 @@ connections:
 ---
 
 # The Unbroken Bond
+
+> **RE-CHECKED [2026-08-28] — premise moved, and it confirms this page rather
+> than complicating it.** [[wiki/people/alexis-armel]] moved 2026-08-28 for a
+> 2026-08-27 operator capture giving the fuller sequence of the 2013
+> separation: five days at 155 Virginia Ave, her mother's house, a new
+> boyfriend (Chris Tressler), a brief NYC move, and reconciliation in
+> **October 2013**. This page's own chronology table already read "Jul–Oct
+> 2013 separation" before this capture existed — the new testimony
+> independently corroborates a dating this page had already gotten right,
+> rather than correcting it. **No claim on this page is affected**, and the
+> table's "Jul–Oct 2013" entry is now backed by primary operator testimony
+> rather than by inference alone.
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/concepts/chaos-preference]] (2026-08-26), which added a section on
@@ -34537,7 +34681,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -34690,6 +34834,13 @@ connections:
 
 
 # Totality Themes
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/mind/synthesis/dormancy-not-exit]] (2026-08-28), which resolved a
+> standing contradiction over whether a five-day tenure figure belonged to
+> Franki Faris or to Alexis Armel's 2013 displacement. This page cites
+> `dormancy-not-exit` for the general no-delete prediction, never for the
+> Franki/Alexis figure. **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-23]:** flagged stale against
 > [[wiki/mind/concepts/attachment-model]] and
@@ -36247,7 +36398,7 @@ status: closed
 knowledge: mixed
 importance: high
 date_created: 2026-06-23
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 date_range_start: 2009-10-01
 date_range_end: 2025-02-19
 sources:
@@ -36265,6 +36416,8 @@ sources:
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/lucasthomas_eu0ir1uckq/message_1.html
   - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/qymuchauiq/message_1.html
+  - raw/people/captures/2026-08-27_222932_gap-alexis-armel.md
+  - raw/people/captures/2026-08-27_223406_gap-alexis-armel.md
 tags: [relationships, attachment, infidelity, nyc-era, uniontown-era]
 infobox:
   name: "Alexis Armel"
@@ -36339,6 +36492,18 @@ connections:
   - page: wiki/people/franki-faris
     type: co-occurs
     claim: "Dan typed her INFP/ISFP 'Idealist' in the same July 9-31, 2013 self-typology batch that typed Franki ESFP — a reading of the six-year partner that had been sitting on the five-day rebound's page instead of here."
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: evidences
+    claim: "A 2026-08-27 operator capture narrows that page's own stated gap — no dated record placed the Danielle-ends/Alexis-begins sequence to specific weeks — by dating the meeting to a Thanksgiving 2009 trip home, a few months after the August 2009 graduation."
+  - page: wiki/health/chemical-architecture
+    type: causes
+    claim: "Alexis supplies thirty Roxicet pills over the Thanksgiving weekend they meet, restarting the opiate use that page's own timeline says was 'truly kicked' at that point — the previously unnamed final active-use episode immediately preceding the February 17, 2010 Suboxone stabilization seven weeks later."
+  - page: wiki/people/zach-clingan
+    type: co-occurs
+    claim: "A Christmas 2009 party at Suz's house is the dated origin of Dan's 'arch rival' framing of Clingan — an accusation that Alexis had been sexually involved with him in his car outside the party ends their friendship on the spot, five years before either the 2014 'drug people' taxonomy or the December 2015 'THAT is who introduced me to drugs' outburst."
+  - page: wiki/people/suzanne-frank
+    type: causes
+    claim: "A March 2014 washing-machine incident Dan says he still does not understand is Suz's stated reason for throwing Alexis out of the house — the second of at least two Suz-driven evictions this page now documents for Alexis, five months of concealment following this one."
 ---
 
 # Alexis Armel
@@ -36390,6 +36555,53 @@ nursing me back to health."* The overlap is not clean. Context-core records
 the sequence flatly: Danielle ends, Dan having cheated, and Alexis begins.
 [[wiki/people/danielle-onesi|Danielle Onesi]] and Alexis are listed together
 on Dan's own Facebook profile under "Previous relationships," in that order.
+
+> **GAP CLOSED [2026-08-28] — the meeting is now dated and staged, narrowing
+> a gap [[wiki/timeline/periods/full-sail-2008-2010]] stated directly:** *"No
+> message corpus or dated record narrows the 'Danielle ends, Alexis begins'
+> sequence to specific weeks within the eighteen-month window."* An operator
+> capture volunteered 2026-08-27 supplies the missing sequence. Dan graduated
+> Full Sail in **August 2009** and was living in Orlando when he came home to
+> PA for **Thanksgiving**, a few months later — the trip on which he meets
+> Alexis. They spend two nights together; a week or two after that he buys her
+> a one-way ticket to Orlando, unsure himself whether it was meant to be
+> permanent. Filed at
+> `raw/people/captures/2026-08-27_222932_gap-alexis-armel.md`.
+>
+> **The relapse the corpus had never connected to a cause.**
+> [[wiki/health/chemical-architecture]] already dates Suboxone stabilization
+> to February 17, 2010, "at Full Sail's end," without naming what the final
+> active-use episode before it was. This capture names it: Alexis brings
+> **thirty Roxicet pills** with her over the Thanksgiving weekend, and *"the
+> opiate addiction that Dan had truly kicked while in college is back in
+> force."* A supply line forms almost immediately in Orlando — a friend
+> called **Spetch**, described as a childhood friend and roommate of
+> [[wiki/people/jason-bermejo|Jason Bermejo]], drives from Winter Park to
+> Ocala daily to keep it running. The full causal chain — Thanksgiving
+> relapse, escalation over Christmas, stabilization seven weeks later — is
+> written up on [[wiki/timeline/periods/full-sail-2008-2010]] and
+> [[wiki/health/chemical-architecture]] rather than duplicated here.
+>
+> **Christmas 2009: the trip home that ends a friendship and nearly extends
+> itself past Orlando.** Dan and Alexis drive back to Pennsylvania for
+> Christmas, and Dan records being nervous about whether she would return
+> with him. The week produces two dated, load-bearing events, both written up
+> in full elsewhere: a party at Suz's house (337 Saratoga) that ends Dan's
+> friendship with [[wiki/people/zach-clingan|Zach Clingan]]
+> ([[wiki/people/zach-clingan|full account there]]), and an overnight ski
+> trip to Seven Springs the following night with a named group including
+> [[wiki/people/jason-bermejo|Jason Bermejo]] and
+> [[wiki/people/josh-brannan|Josh Brannan]]. What belongs on this page
+> specifically: the pills "become a determining factor of how and when we
+> leave," turning a planned visit into an **eight-day stay** — Dan draws the
+> parallel himself to a later trip extended the same way during the
+> [[wiki/timeline/events/shelbie-annie-threesome-april-2019|Annie/Shelbie
+> threesome]] years later, a repeated shape (a supply constraint at the point
+> of departure dictating the length of a trip) rather than a one-off. He
+> returns to Orlando with one of the worst flus of his life, which he later
+> connects — speculatively, his own theory, not a diagnosis — to the same
+> "new girl" adjustment reaction he reports again a few months into dating
+> Annie.
 
 **The relationship's first documented rupture happens roughly two weeks into
 it, in 2009, and it is the earliest event on this page.** Dan moved Alexis to
@@ -36489,22 +36701,80 @@ is not a thing the later, retrospective accounts of her ever suggest she did.
 
 ## The 2013 break, and the return
 
-The single interruption in six years is five days long. In July 2013, back
-in Pennsylvania after the New York chapter closed, Dan spent a fireworks day
-with [[wiki/people/franki-faris|Franki Faris]]; roughly ten minutes into the
-car ride Alexis texted **"I saw your messages. I know you're with Franki."**
-The relationship's only pre-terminal rupture is therefore dated to its first
+The single interruption in six years is five days long — and that figure
+belongs to *her*, not to Franki. In July 2013, back in Pennsylvania after
+the New York chapter closed, Dan spent a fireworks day with
+[[wiki/people/franki-faris|Franki Faris]]; roughly ten minutes into the car
+ride Alexis texted **"I saw your messages. I know you're with Franki."** The
+relationship's only pre-terminal rupture is therefore dated to its first
 hour, and it is dated by her — an act of detection, not a drift
-([[wiki/timeline/events/franki-fireworks-day-2013]]). He went back to her
-within weeks, and later assessed the interval as an error of self-report:
-*"I really didn't have the romantic feelings for franki that i said i did at
-the time."*
+([[wiki/timeline/events/franki-fireworks-day-2013]]).
+
+> **GAP CLOSED [2026-08-28] — the return took months, not weeks, and the
+> corpus now has the whole interval.** This page previously read "he went
+> back to her within weeks." An operator capture volunteered 2026-08-27
+> (`raw/people/captures/2026-08-27_223406_gap-alexis-armel.md`) supplies the
+> full sequence and it is longer and more specific than that: Alexis spent
+> her five days at [[wiki/places/155-virginia-ave|155 Virginia Ave]], then
+> went to her mother's in Carmichaels — matching, independently, the
+> 2026-08-02 capture already on record
+> ([[wiki/timeline/events/franki-fireworks-day-2013]]) — started dating a man
+> named **Chris Tressler**, and moved with him to New York. One week after
+> that move, in **October 2013**, she came home to Pennsylvania and saw Dan;
+> he convinced her not to go back, and she didn't. She never retrieved the
+> belongings she had left in New York, and the two of them "just continued
+> on as if it didn't fall apart in July." Two independent operator
+> statements, 2026-08-02 and 2026-08-27, now agree on the five-day figure at
+> the same address, which is why [[wiki/mind/synthesis/dormancy-not-exit]]'s
+> standing contradiction over whose tenure the number belongs to is resolved
+> below rather than left open a third time.
+
+He later assessed the interval as an error of self-report: *"I really didn't
+have the romantic feelings for franki that i said i did at the time."*
 
 The five-day Franki episode and the six-year Alexis relationship together
 make the point that neither makes alone. A name that occupied a slot for
 five days and a person who occupied one for six years were both, in the
 end, held rather than released — which is the observation
-[[wiki/mind/synthesis/dormancy-not-exit]] is built on.
+[[wiki/mind/synthesis/dormancy-not-exit]] is built on. It is now Alexis's
+five days, not Franki's, that supplies that page's tenure-floor control.
+
+## The hidden year (2014)
+
+**A second eviction, not the one this page had been carrying.** The same
+2026-08-27 capture continues the timeline past the October 2013
+reconciliation into a second Suz-driven rupture that this page had not previously
+distinguished from the one already documented under
+[The end, in one day](#the-end-in-one-day). "A few months later, in March" —
+2014, on the sequence as given — Suz "had enough with Alexis" after Alexis
+took the household's washing machine apart, an incident Dan says he still
+does not understand, and threw her out of the house. What followed was not
+a separation: for **five months** Dan snuck her in and out of the house,
+hidden in a closet when necessary, so that she continued to live with him in
+secret. In the following spring or summer they moved in with a woman named
+**Leah Tedesco** (detail deferred by the operator for a later pass), and by
+**Christmas 2014** the two of them had arrived at
+[[wiki/places/155-virginia-ave|155 Virginia Ave]] — the start of the
+[[wiki/people/zachariah-harshman|Zachariah Harshman]] supply era documented
+there. Alexis started working at CT's that summer (2015); Annie started at
+the same restaurant that October; Dan met Annie in November, and Alexis left
+within a day or two.
+
+> **This narrows, but does not settle, an existing open contradiction.**
+> [[wiki/places/155-virginia-ave]] and
+> [[wiki/legal/2015-possession-arrest]] both already carry a `CONTRADICTION`
+> over an *earlier* operator account of Alexis "secretly living at 337
+> Saratoga... hidden for roughly four months after being thrown out," placed
+> immediately before the January 2015 lease and the February 2015 arrest.
+> This capture describes a similarly-shaped episode — thrown out, hidden,
+> months long — but dates it a full year earlier (March–August 2014) and
+> adds an entirely undocumented intermediate residence (Leah Tedesco's) that
+> the four-month account never mentions. The two tellings may describe the
+> same event remembered at different resolutions, two separate evictions in
+> as many years, or a compression in one of the two accounts. Both are T0
+> operator testimony of different specificity, not a primary record against
+> testimony, so this page does not pick a winner — it is flagged on both
+> affected pages so nobody mistakes either account for settled.
 
 ## The end, in one day
 
@@ -36513,7 +36783,12 @@ Avenue]]** — "the Alexis lair," known locally as Scerba's old place — during
 the relationship's endgame, having spent roughly four months before that
 secretly housing her at [[wiki/places/337-saratoga-drive|337 Saratoga]] after
 she was thrown out, the window that brackets the
-[[wiki/legal/2015-possession-arrest|February 2015 possession arrest]].
+[[wiki/legal/2015-possession-arrest|February 2015 possession arrest]]. **A
+second, differently-dated account of a similarly-shaped episode** — thrown
+out, hidden for months, on no fixed timeline this page had previously
+recorded — now exists a full year earlier, in 2014; see
+[The hidden year (2014)](#the-hidden-year-2014) above for both tellings held
+side by side rather than reconciled.
 
 The end itself is compressed into a week in late 2015 and the corpus dates
 every beat of it:
@@ -36804,13 +37079,35 @@ would tell the two apart.
 The length of the relationship is quoted three different ways and the corpus
 does not settle it: Gemini's profile says 2010–2015, the bootloader says
 November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had
-"dated her for 7 years." The Twitter record favours a late-2009 start. Nothing in the corpus records how she
+"dated her for 7 years." The Twitter record favours a late-2009 start.
+
+> **GAP NARROWED [2026-08-28].** The 2026-08-27 capture dates the meeting
+> itself to a **Thanksgiving trip home, a few months after the August 2009
+> Full Sail graduation** — i.e., November 2009. That is consistent with the
+> bootloader's "November 2009" start and the Twitter record's "late 2009"
+> lean, and against the Gemini profile's "2010." It does not settle the "7
+> years" Dan told Lucas Thomas in 2017 (six years from Nov 2009 to Nov 2015
+> is the best-supported span; the extra year is unexplained and may simply be
+> loose retrospective rounding).
+
+Nothing in the corpus records how she
 learned about Annie, or whether the two women had any relationship as
 coworkers before the November 2018 arrangement. Her life after February 2025
 is entirely undocumented, as is whether she knows any of the rest of this
 exists. And the CATO bootloader's claim that Zac Shumar was also Annie's
 first has no primary source anywhere — it is an AI compression of the corpus
 repeating itself, and it should not be cited as fact until a message says it.
+
+**New gaps opened by the 2026-08-28 ingest.** The washing-machine incident
+that triggered the March 2014 eviction is recorded by the operator himself as
+not understood ("a story i still don't understand") and is not explained
+further here. The Leah Tedesco cohabitation is named but explicitly deferred
+("story later") and has no page or further detail yet. And the exact
+relationship between this page's now-two accounts of a Suz-driven eviction
+and months-long concealment (2014 here, late-2014/early-2015 on
+[[wiki/legal/2015-possession-arrest]] and [[wiki/places/155-virginia-ave]])
+is unresolved — see the note under [The hidden year
+(2014)](#the-hidden-year-2014).
 
 
 ========================================================================
@@ -46486,7 +46783,7 @@ page_type: entity
 title: "Franki Faris"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/self/dox-scan/Gemini-_58.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
@@ -46494,6 +46791,7 @@ sources:
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/people/captures/2026-08-02_004832_franki-and-the-fireworks.md
+  - raw/people/captures/2026-08-27_223406_gap-alexis-armel.md
 related:
   - wiki/people/alexis-armel
   - wiki/people/katie-fletcher
@@ -46510,8 +46808,8 @@ connections:
     type: contains
     claim: "One documented day carries effectively the whole relationship — the pickup at 15 Holly Lane, Alexis's discovery ten minutes in, the cocaine, the fireworks, and the collapse within days — which is why the tenure figure this page rests on is now in question."
   - page: wiki/mind/synthesis/dormancy-not-exit
-    type: contradicts
-    claim: "Five days of occupancy in 2013 left no corpus and no later trace, which is the control bounding the retention rule to relationships that clear a tenure floor."
+    type: evidences
+    claim: "An occupancy resolved 2026-08-28 to be effectively immediate rather than five days (the five-day figure belongs to Alexis's displacement, not to Franki's own tenure) left no corpus and no later trace regardless — the control bounding the retention rule to relationships that clear a tenure floor is, if anything, sharper now that the tenure is shorter than previously stated."
   - page: wiki/mind/synthesis/the-commissioned-self
     type: precedes
     claim: "The July 9-31, 2013 self-typology batch that typed Franki and Alexis also carries Dan's own earliest documented INTP self-identification, a decade before the AI instrumentation the commissioned-self pattern is mostly built on."
@@ -46519,11 +46817,15 @@ connections:
 
 # Franki Faris
 
-Franki Faris was a five-day rebound during a brief split from
-[[wiki/people/alexis-armel|Alexis Armel]] in the summer of 2013 — a real,
-named person, but one who appears in the record almost entirely as a
+Franki Faris was a rebound, collapsing within days, during a brief split
+from [[wiki/people/alexis-armel|Alexis Armel]] in the summer of 2013 — a
+real, named person, but one who appears in the record almost entirely as a
 retrospective data point rather than through any surviving direct
-correspondence. She has no message corpus of her own; everything known
+correspondence. (Two independent operator statements, 2026-08-02 and
+2026-08-27, corrected the standing "five-day rebound" framing: the five
+days belong to Alexis's displacement to 155 Virginia Ave in the same
+episode, not to Franki's own tenure, which collapsed faster than that.) She
+has no message corpus of her own; everything known
 about her comes from Dan's later AI-assisted self-narration (the
 Gemini-58 and DANSYNTH chats) and from a handful of contemporaneous
 messages to and about her in the iMessage archive.
@@ -46542,15 +46844,42 @@ before the AI instrumentation that page is mostly built on. Alexis's own
 typing is now carried on [[wiki/people/alexis-armel]] as well as here, since
 the datum being filed only on a five-day rebound's page is what let two
 independent 2026-08-21 passes conclude she had no type at all.
-The Franki interlude lasted five days before collapsing — Dan's own
-framing was that a PA rebound couldn't replace a years-deep NYC
-relationship — and he went back to Alexis.
 
-The reconciliation wasn't clean. Alexis had, in the interim, confronted
+> **RESOLVED [2026-08-28] — the five-day figure belongs to this page's
+> title, but only barely, and Franki's own tenure is now separately
+> attested.** The CONTRADICTION below (2026-08-02) held two five-day spans
+> open against each other rather than pick one. A second, independent
+> operator capture (2026-08-27,
+> `raw/people/captures/2026-08-27_223406_gap-alexis-armel.md`) states again,
+> unprompted and without reference to the first: *"She [Alexis] spent 5 days
+> at Virginia ave and then went to her moms."* Two independent T0 statements
+> now agree the five days belong to **Alexis's** displacement to 155
+> Virginia Ave, not to Franki's own tenure — which the same family of
+> captures describes only as ending immediately ("got sick of me basically
+> immediately and it went nowhere"). This page's title phrase — "a five-day
+> rebound" — is retired as imprecise: the rebound itself had no measured
+> duration; five days is how long it took Alexis to leave the address she
+> was displaced to.
+
+The Franki interlude's own length is undocumented — Dan's own framing was
+that a PA rebound couldn't replace a years-deep NYC relationship, and he
+went back to Alexis — but the return took considerably longer than "within
+days" implies for the underlying relationship. The 2026-08-27 capture
+supplies the fuller sequence: Alexis, after her five days at 155 Virginia
+Ave, went to her mother's in Carmichaels, began dating a man named **Chris
+Tressler**, and moved with him to New York. One week later she came home to
+Pennsylvania to see Dan; he convinced her to stay, and the actual
+reconciliation landed in **October 2013**, roughly three months after the
+fireworks day, not "within weeks." Full account and the CT's/Annie timeline
+this cascades into: [[wiki/people/alexis-armel]].
+
+The reconciliation wasn't clean, and the interim it spanned was real.
+Alexis had, in the interim, confronted
 him — the source material points to a (not yet located verbatim) message
 along the lines of "I know you're with Franki" in the early-July window —
 and by the time Dan tried to return, she had already moved on to another
-man, described as "fully invested." The clearest primary anchor for the
+man, described as "fully invested" (the 2026-08-27 capture now names him:
+Chris Tressler). The clearest primary anchor for the
 whole episode is an August 14, 2013 email in which Dan performs a
 point-by-point post-mortem of the previous two months and admits: "I
 really didn't have the romantic feelings for franki that i said i did at
@@ -46558,7 +46887,8 @@ the time... I wasn't even able to kiss anyone." Between the Franki
 collapse and the actual reconciliation with Alexis, [[wiki/people/katie-fletcher|Katie Fletcher]]
 filled the gap as what Dan later called an "interim frequency"
 — including the August 30, 2013 Oddball Festival / Chappelle-meltdown
-night that closes out her own page.
+night that closes out her own page, itself falling inside the July–October
+window the reconciliation now spans rather than after it closed.
 
 ## Resolving the dating contradiction
 
@@ -46604,11 +46934,14 @@ messages, unrelated to the original person.
 
 This makes Franki the control case for
 [[wiki/mind/synthesis/dormancy-not-exit]], and a sharper one than a plain
-absence would be. Five days of occupancy left **no person** in the graph — no
+absence would be. An occupancy that collapsed **immediately** — not the
+five days once attributed to it here, now resolved to Alexis's displacement
+instead — left **no person** in the graph — no
 corpus, no contact, nothing after 2013 — while leaving **the name** behind as
 working vocabulary, first as shorthand for the abrupt-switch pattern and by 2018
 as a pet nickname for Annie. What survives below the tenure floor is the label,
-not the tie.
+not the tie, and the floor itself is now known to sit even closer to zero
+than the page previously stated.
 
 ## The day itself, and what a 2026 capture settled
 
@@ -46639,24 +46972,35 @@ mall, seen from the Rt 119 bypass near the Main Street exit. It does not name th
 date. The framing is now **supported rather than unsourced**, and still not
 fixed.
 
-> **CONTRADICTION [2026-08-02]: the "five days" may belong to Alexis, not
-> Franki.** This page has carried *"a five-day rebound"* and *"the Franki
-> interlude lasted five days before collapsing,"* sourced to the Gemini-58 and
-> DANSYNTH self-narrations, and [[wiki/mind/synthesis/dormancy-not-exit]] uses
-> that figure as its tenure-floor control. The 2026 capture attaches five days to
-> a different thing entirely: **Alexis** stayed at 155 Virginia Avenue *"for 5
-> days before returning to carmichaels to her parents."* Of Franki's own tenure it
-> says only that she *"got sick of me basically immediately and it went
-> nowhere."* Two five-day spans, in the same episode, one week apart — and the
-> earlier sources are later AI-assisted reconstructions, exactly the class of
-> material most likely to have conflated them. Neither reading is adopted here.
-> What follows is that **the control case on `dormancy-not-exit` rests on a
-> number that may have been transposed from another person**, and that page now
-> carries the same flag.
+> **RESOLVED [2026-08-28] — was CONTRADICTION [2026-08-02]: the "five days"
+> belongs to Alexis, not Franki.** This page carried *"a five-day rebound"*
+> and *"the Franki interlude lasted five days before collapsing,"* sourced to
+> the Gemini-58 and DANSYNTH self-narrations, and
+> [[wiki/mind/synthesis/dormancy-not-exit]] used that figure as its
+> tenure-floor control. A 2026-08-02 capture first attached five days to a
+> different thing entirely: **Alexis** stayed at 155 Virginia Avenue *"for 5
+> days before returning to carmichaels to her parents."* Of Franki's own
+> tenure it said only that she *"got sick of me basically immediately and it
+> went nowhere."* At the time, neither reading was adopted — two five-day
+> spans in the same episode, one week apart, and the earlier sources were
+> later AI-assisted reconstructions exactly the class of material most likely
+> to have conflated them.
+>
+> **A second, independent operator capture (2026-08-27) resolves it.**
+> Volunteered separately, with no reference to the first, it states again:
+> *"She [Alexis] spent 5 days at Virginia ave and then went to her moms."*
+> Two independent T0 statements now agree. The five days belong to Alexis's
+> displacement to 155 Virginia Ave; Franki's own tenure is separately and
+> consistently described, across both captures, as collapsing immediately.
+> The Gemini-58/DANSYNTH reconstructions did conflate the two spans, exactly
+> as suspected. **The control case on `dormancy-not-exit` is corrected
+> accordingly** — Franki's own occupancy is now the shorter, sharper control
+> the page had been reaching for all along, and this page's title phrase "a
+> five-day rebound" is retired.
 
 **Gaps:** no primary chat log with Franki survives in the archive; nothing is
 known about her life after 2013; the exact date of the fireworks day is unfixed;
-and the tenure figure is contested per the block above. Her presence in the
+and the tenure figure is now resolved rather than contested (see above). Her presence in the
 Seven Springs orbit raises an unasked question the corpus can probably answer —
 whether she was already known to Dan through skiing rather than only through
 school.
@@ -56766,7 +57110,7 @@ aliases: ["Suz MBTI", "Suz Enneagram", "Suz personality type"]
 status: active
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 importance: high
 tags: [personality-profile, forensic-analysis, ai-collaboration]
 infobox:
@@ -56788,6 +57132,19 @@ connections:
 ---
 
 # Suzanne Frank — Forensic Personality Assessment
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/people/suzanne-frank]] (2026-08-28), which added a March 2014
+> eviction of Alexis Armel from the household over a washing-machine
+> incident. No existing claim on this page is falsified, but this is
+> genuinely new material this assessment has not incorporated: a
+> boundary-enforcement act against a household member's romantic partner,
+> which this page's own "protector for her children" framing (below) does
+> not currently account for either direction (protecting Dan by removing a
+> disruptive presence, or asserting a boundary regardless of Dan's wishes).
+> Flagged as a real gap rather than integrated here — this page's own pass
+> should read the new material and decide which reading it supports, or
+> whether it complicates the existing framing.
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/people/suzanne-frank]] (2026-08-26), which gained a `RE-CHECKED`
@@ -57104,7 +57461,7 @@ importance: critical
 status: active
 knowledge: mixed
 date_created: 2026-06-22
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 date_range_start: 1962-09-15
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
@@ -57124,6 +57481,7 @@ sources:
   - raw/self/captures/2026-08-10_015145_suz-winter-park-condo-tenant.md
   - raw/self/captures/2026-08-10_160647_winter-park-condo-address.md
   - raw/self/captures/2026-08-10_websearch-winter-park-condo-lead.md
+  - raw/people/captures/2026-08-27_223406_gap-alexis-armel.md
 synthesizes:
   - wiki/places/337-saratoga-drive
   - wiki/legal/463-morgantown
@@ -57144,6 +57502,9 @@ infobox:
   handles: ["+172****8715", "suzfrank@***.net", "suzfrank915@***.com"]
   known_for: "The 33,698-message thread that is the second-largest relationship record in the corpus, and the unsettled mutual ledger running through all of it"
 connections:
+  - page: wiki/people/alexis-armel
+    type: caused-by
+    claim: "A March 2014 washing-machine incident Dan says he still does not understand is her stated reason for throwing Alexis out of the house — the second Suz-driven eviction of Alexis this page now documents, and one her son overrode for five months by hiding her in the house in secret."
   - page: wiki/mind/synthesis/annual-volume-suz
     type: evidences
     claim: "This page's per-year volume table is the source data for that chart: a fourteen-month reversal at the relationship's start (2015-2016), then a widening gap in her favor from 2017 onward that reaches two-to-one by the record's end."
@@ -57855,6 +58216,41 @@ Read alongside the July 2019 line about *"all the bills I paid for in Florida,
 NY and at Va,"* the two named property losses — Antique Oaks and 155 Virginia
 Ave, the latter at roughly $135,000 — are the two largest financial events of
 her adult life, and both of them are houses she bought or held for Dan.
+
+## The washing-machine eviction, March 2014
+
+A 2026-08-27 operator capture
+(`raw/people/captures/2026-08-27_223406_gap-alexis-armel.md`), filed to
+[[wiki/people/alexis-armel]], adds a second eviction to Suz's record — one
+this page had not previously carried. In **March 2014**, after
+[[wiki/people/alexis-armel|Alexis]] took the household's washing machine
+apart in an incident Dan says he still does not understand, Suz "had enough"
+and threw her out of the house. Dan's response was not to accept the
+separation: for **five months** he snuck Alexis in and out, hiding her in a
+closet when necessary, so that she continued living there in secret against
+her mother's decision. Suz does not appear to have known, or at least the
+capture does not say she found out.
+
+This is the second documented instance of Suz evicting a partner of Dan's
+from a property she controls — the first being the 2015 removal of
+[[wiki/people/alexis-armel|Alexis]] herself from
+[[wiki/places/155-virginia-ave|155 Virginia Ave]] the following year (see
+below) — and it complicates the picture of her as the household's
+switchboard: the March 2014 eviction was not merely routed through her, it
+was **overridden**, for five months, by her own son inside her own house.
+Whether she remained unaware the whole time or simply let it stand
+unaddressed is not established by the capture and is not resolved here.
+
+> **This sits alongside, and does not resolve, a second, differently-dated
+> account of a similarly-shaped episode.** [[wiki/legal/2015-possession-arrest]]
+> and [[wiki/places/155-virginia-ave]] already carry an operator account of
+> Alexis "secretly living at 337 Saratoga... hidden for roughly four months
+> after being thrown out," placed immediately before the January 2015 lease
+> and February 2015 arrest — a full year after this one. The two may describe
+> the same event at different resolutions, two separate evictions, or a
+> compression in one telling; see the note on
+> [[wiki/people/alexis-armel#the-hidden-year-2014]] for both held side by
+> side.
 
 ## Housing, 2025–2026
 
@@ -60286,7 +60682,7 @@ aliases: ["Zach", "Clingan"]
 status: stable
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-08-17
+date_modified: 2026-08-28
 date_range_start: 2009-10-06
 date_range_end: 2018-04-13
 sources:
@@ -60296,6 +60692,7 @@ sources:
   - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/tommaison_z_scvtnccq/message_1.html
   - raw/self/facebook/facebook-ihatedanfrank/other_personal_information/your_address_books.html
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
+  - raw/people/captures/2026-08-27_222932_gap-alexis-armel.md
 tags: [uniontown-era, digital-footprint, career, relationships]
 infobox:
   name: "Zach Clingan"
@@ -60305,8 +60702,11 @@ infobox:
   role: "caddie, Nemacolin Woodlands"
   first_contact: 2009-10-06
   handles: ["+1843***3264", "+1413***0339", "+1724***0771"]
-  known_for: "the nine-year Uniontown acquaintance an earlier pass filed under the wrong surname"
+  known_for: "a Christmas 2009 driveway accusation that ended the friendship on the spot, and the nine-year Uniontown acquaintance that followed it — an earlier pass filed under the wrong surname"
 connections:
+  - page: wiki/people/alexis-armel
+    type: co-occurs
+    claim: "A Christmas 2009 party at Suz's house is the dated origin of the rupture every later appearance of Clingan assumes: an accusation that Alexis had been sexually involved with him in his car outside the party, which Dan says he can never resolve either way."
   - page: wiki/timeline/annie-record
     type: evidenced-by
     claim: "Dan names Clingan in real time as the origin of his drug use — \"THAT is who introduced me to drugs\" (2015-12-09) — which places him earlier on the supply chain than any node the network page tracks, and his warning to Annie the same day is the first documented use of the switch against her by a third party."
@@ -60385,6 +60785,29 @@ Full Sail year, and it fixes his single most durable attribute in Dan's
 model of him — he lies — nine years before the last message between them and
 five years before the only other third-party assessment the corpus holds.
 
+## Christmas 2009: the driveway accusation, and the end of the friendship
+
+**GAP CLOSED [2026-08-28] — the page had documented that Clingan became an
+enemy, but never why.** The 2014 "drug people" taxonomy and the December
+2015 "my arch rival" outburst (below) both assume a rupture the corpus had
+never actually recorded. A 2026-08-27 operator capture
+(`raw/people/captures/2026-08-27_222932_gap-alexis-armel.md`) supplies it,
+roughly ten weeks after the October 6 line above.
+
+Dan and [[wiki/people/alexis-armel|Alexis]] — two months into the
+relationship — drove home to Pennsylvania for Christmas. The visit opened
+with a small party at Suz's house, 337 Saratoga, that Dan names directly as
+**"the last time he and I would interact as friends and immediately before I
+would treat him as my arch enemy."** During the party, when a fight broke
+out between them, Clingan claimed that Alexis had performed oral sex on him
+in his car in the driveway outside. Dan's own assessment, recorded in the
+same capture: *"We will never know the truth and I can't tell you I think
+one is more likely than another."* The friendship did not survive the
+accusation regardless of whether it was true, and the corpus's next two
+appearances of Clingan — the 2014 "drug people" verdict and the 2015 "my
+arch rival" reaction — are downstream of this one unresolved claim rather
+than of anything documented between the two men directly.
+
 ## 2014: "drug people"
 
 The second appearance is inside a longer April 21, 2014 argument with
@@ -60417,9 +60840,10 @@ load-bearing sentence about Clingan anywhere in the wiki.
 Clingan is one of [[wiki/people/annie-ulmer|Annie's]] exes. On **2015-12-09**,
 eleven days after the switch, he texts her — *"Zach clingan just texted me
 saying 'I have to talk to you'"* (15:17). Dan's reaction is immediate and
-disproportionate to a rival's phone call: *"My arch rival / Glad he's in the
-mix too"*, then *"Literally makes me want to puke. **THAT is who introduced me
-to drugs**"* (15:19–15:20).
+disproportionate to a rival's phone call — six years disproportionate, once
+the Christmas 2009 driveway accusation above is on the record — *"My arch
+rival / Glad he's in the mix too"*, then *"Literally makes me want to puke.
+**THAT is who introduced me to drugs**"* (15:19–15:20).
 
 That line reframes the whole page. Everywhere else Clingan is a fixed point in
 a moral taxonomy — one of the "drug people" Dan uses to locate himself and
@@ -61239,12 +61663,13 @@ page_type: entity
 title: "155 Virginia Ave"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-22
+date_modified: 2026-08-28
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/operating_manual.md
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
+  - raw/people/captures/2026-08-27_223406_gap-alexis-armel.md
 related:
   - wiki/people/alexis-armel
   - wiki/people/annie-ulmer
@@ -61376,9 +61801,29 @@ because Dan's own account places that night while Alexis was still being hidden
 at 337 Saratoga and *before* the move here. The contradiction is recorded on
 the arrest page; a lease or a dated message from the move would settle it.
 
+> **A second, differently-dated account of a similarly-shaped episode
+> surfaced 2026-08-28, and it complicates rather than settles the
+> contradiction above.** A 2026-08-27 operator capture
+> (`raw/people/captures/2026-08-27_223406_gap-alexis-armel.md`, full account
+> on [[wiki/people/alexis-armel]]) describes Suz throwing Alexis out of the
+> house over a March **2014** washing-machine incident, followed by five
+> months of Dan secretly housing her — thrown out, hidden, months long, the
+> same shape as the account above, but dated a full year earlier and adding
+> an intermediate residence (a Leah Tedesco cohabitation) this page's account
+> never mentions before arriving at 155 Virginia Ave "by Christmas 2014."
+> Christmas 2014 is close to, but still a few weeks earlier than, this
+> page's own January 2015 lease date. Both accounts are T0 operator
+> testimony of different specificity, not a primary record against
+> testimony, so neither is adopted over the other here. What would actually
+> settle it — a lease, a dated message from the move, or a primary record of
+> which eviction is which — is still missing.
+
 **Gaps:** lease details, rent, and who held the lease across the
 Alexis→Annie transition are undocumented; the physical layout appears
-nowhere in the record.
+nowhere in the record. Whether the 2014 and late-2014/early-2015
+eviction/concealment accounts (see above) describe one event remembered at
+different resolutions or two separate episodes is now the page's most
+consequential open question.
 
 
 ========================================================================
@@ -74196,11 +74641,12 @@ aliases: ["the franki fandango", "the fireworks day"]
 status: stable
 knowledge: mixed
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-28
 date_range_start: 2013-07-01
-date_range_end: 2013-07-31
+date_range_end: 2013-10-31
 sources:
   - raw/people/captures/2026-08-02_004832_franki-and-the-fireworks.md
+  - raw/people/captures/2026-08-27_223406_gap-alexis-armel.md
 tags: [relationships, uniontown-era, music-production, addiction-recovery]
 connections:
   - page: wiki/people/franki-faris
@@ -74222,8 +74668,8 @@ connections:
     type: causes
     claim: "The DJ controller acquired at ishlab and left untouched is picked up in the spring of 2013 and becomes a daily occupation by that summer — the dated origin of the production identity, previously carried only as 'since approximately 2013'."
   - page: wiki/mind/synthesis/dormancy-not-exit
-    type: contradicts
-    claim: "This capture attaches five days to Alexis's stay at 155 Virginia Ave and describes Franki's own tenure only as immediate collapse — which puts the number that defines that page's tenure floor in question, without disturbing the control it draws from her non-persistence."
+    type: evidences
+    claim: "This capture, now corroborated by a second independent 2026-08-27 statement, attaches five days to Alexis's stay at 155 Virginia Ave and describes Franki's own tenure only as immediate collapse — the tenure-floor control is corrected to the shorter, sharper figure rather than left in question."
   - page: wiki/people/suzanne-frank
     type: co-occurs
     claim: "Three of Suz's instruments appear inside one day — the car, the ATM card that funded the cocaine, and a second property used to house the displaced partner — after which she convenes Alexis and Danielle to bond over their grievance against her son."
@@ -74296,6 +74742,14 @@ already performing the function the later page calls lair-continuity: housing a
 partner who has been displaced from the primary residence. The lair predates the
 tenancy.
 
+> **RESOLVED [2026-08-28].** A second, independent operator capture
+> (2026-08-27) confirms this five-day figure again, unprompted: *"She spent 5
+> days at Virginia ave and then went to her moms."* [[wiki/people/franki-faris]]
+> is corrected accordingly — the five days were never hers. Full account on
+> [[wiki/people/franki-faris]] and [[wiki/people/alexis-armel]], including
+> the fuller sequence this second capture adds (her mother's house, a new
+> boyfriend, a brief NYC move, and an October 2013 reconciliation).
+
 **Suz then engineered the aftermath.** Per the capture, she thought it a good
 idea to have Alexis and [[wiki/people/danielle-onesi|Danielle Onesi]] — Dan's
 first girlfriend, and Alexis's *"former enemy"* — spend time together and bond
@@ -74349,11 +74803,10 @@ immediately.
 - **The date is not fixed.** "Early July 2013" plus a fireworks display is as
   close as the record gets. A dated ATM withdrawal on Suz's account, or a
   Uniontown fireworks schedule for 2013, would close it.
-- **The five-day figure is now attached to two different things.** See the
-  contradiction recorded on [[wiki/people/franki-faris]]: the wiki has carried
-  "a five-day rebound" as the length of the Franki relationship, while this
-  capture attaches five days to *Alexis's stay at 155 Virginia Ave*. Both cannot
-  be assumed.
+- ~~**The five-day figure is now attached to two different things.**~~
+  **RESOLVED 2026-08-28** — a second, independent 2026-08-27 capture confirms
+  the five days belong to Alexis's stay here, not to Franki's own tenure. See
+  the resolution on [[wiki/people/franki-faris]].
 - **Nothing here is contemporaneous.** The whole page rests on one 2026 capture.
   The July 9–31 2013 self-typology emails and the August 14 2013 post-mortem
   already in the corpus are the nearest dated material and they corroborate the
@@ -84177,7 +84630,7 @@ page_type: period
 title: "Full Sail (Sep 2008 – Mar 2010)"
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-08-15
+date_modified: 2026-08-28
 date_range_start: 2008-09-01
 date_range_end: 2010-03-01
 sources:
@@ -84186,6 +84639,7 @@ sources:
   - raw/self/dox-scan/FULL TWITTER ANALYSIS.txt
   - raw/self/dox-scan/Gemini-_58.txt
   - raw/self/captures/2026-07-19_operator-note-full-sail-mohler.md
+  - raw/people/captures/2026-08-27_222932_gap-alexis-armel.md
 related:
   - wiki/timeline/periods/dark-era-2007-2008
   - wiki/health/chemical-architecture
@@ -84232,6 +84686,12 @@ connections:
   - page: wiki/people/matt-dunn
     type: instantiates
     claim: "Dunn is the fourth named member of the Full Sail friend group that survives, in reduced-contact form, fifteen-plus years after Orlando."
+  - page: wiki/people/alexis-armel
+    type: evidenced-by
+    claim: "A 2026-08-27 operator capture dates the relationship's start to a Thanksgiving 2009 trip home and supplies the Christmas-week ski trip and Zach Clingan rupture that follow it — full account there."
+  - page: wiki/health/chemical-architecture
+    type: causes
+    claim: "The Alexis-supplied Roxicet relapse over Thanksgiving 2009 is the previously unnamed final active-use episode immediately preceding the February 17, 2010 Suboxone stabilization this page already dates to the same window."
 ---
 
 # Full Sail (Sep 2008 – Mar 2010)
@@ -84308,6 +84768,26 @@ closed-network in-jokes as [[wiki/people/josh-brannan|Josh Brannan]] and
 other Full Sail-era friends, consistent with her later confirmed presence
 through the NYC years documented on [[wiki/people/alexis-armel]].
 
+> **GAP CLOSED [2026-08-28] — the sequence is narrowed to specific weeks.**
+> This section's own Gaps entry asked for exactly this. A 2026-08-27 operator
+> capture (`raw/people/captures/2026-08-27_222932_gap-alexis-armel.md`)
+> supplies it: Dan graduated in **August 2009** and was already living in
+> Orlando when he went home to Pennsylvania for **Thanksgiving**, where he
+> meets Alexis. They spend two nights together; a week or two later he buys
+> her a one-way ticket to Orlando. That places the Alexis beginning in
+> **November 2009**, roughly three months after the Danielle/Full-Sail
+> cheating episode this section documents just above, and confirms the
+> bootloader's "November 2009" dating over the Gemini profile's "2010" (full
+> reconciliation on [[wiki/people/alexis-armel]]).
+>
+> **The trip also supplies a Christmas-week episode with two dated
+> consequences documented on other pages**: a party at Suz's house that ends
+> Dan's friendship with [[wiki/people/zach-clingan|Zach Clingan]], and an
+> overnight Seven Springs ski trip with [[wiki/people/jason-bermejo|Jason
+> Bermejo]] and [[wiki/people/josh-brannan|Josh Brannan]] among the group.
+> Both are written up in full on [[wiki/people/alexis-armel]] and
+> [[wiki/people/zach-clingan]] rather than duplicated here.
+
 ## The friend group
 
 Full Sail seeds the one social cohort in Dan's record that outlasts
@@ -84366,6 +84846,24 @@ later pinned to February 17, 2010 in the fuller chemical-history record
 fact of Dan's adult physiology (sixteen-plus years of daily maintenance,
 zero relapses) was set in motion in Winter Park, not Uniontown.
 
+> **GAP CLOSED [2026-08-28] — the final relapse before stabilization now has
+> a name and a cause.** This section previously stated the resolution
+> without naming what came immediately before it. The same 2026-08-27
+> capture that dates the Alexis relationship's start supplies it: over the
+> Thanksgiving weekend they meet, Alexis brings **thirty Roxicet pills**, and
+> "the opiate addiction that Dan had truly kicked while in college is back in
+> force." A friend called Spetch — described as a childhood friend and
+> roommate of [[wiki/people/jason-bermejo|Jason Bermejo]] — begins driving
+> from Winter Park to Ocala daily to keep the supply running. The relapse
+> continues through the Christmas trip home (an eight-day stay, extended
+> past plan by the same pattern — a supply constraint at the point of
+> departure — that recurs years later during the terminal Annie phase) and
+> resolves seven weeks after the couple's return to Orlando, on the
+> already-dated February 17 day-zero. This is the first source in the
+> corpus to connect a specific person and episode to the timing of the
+> stabilization, rather than leaving it as an undated, causeless resolution
+> at "Full Sail's end."
+
 ## What comes next
 
 Full Sail ends with the move to Brooklyn in April 2010 — the first of two
@@ -84375,9 +84873,14 @@ to Annie.
 
 ## Gaps
 
-No message corpus or dated record narrows the "Danielle ends, Alexis
+~~No message corpus or dated record narrows the "Danielle ends, Alexis
 begins" sequence to specific weeks within the eighteen-month window; both
-transitions are established only at the level of "during Full Sail."
+transitions are established only at the level of "during Full Sail."~~
+**CLOSED 2026-08-28** — see the GAP CLOSED block under [The relationship
+pivot](#the-relationship-pivot-danielle-ends-alexis-begins) above: the
+Alexis beginning is now dated to a Thanksgiving 2009 trip home, three
+months after the August 2009 graduation. The Danielle ending's own exact
+week is still not independently dated beyond "during this window."
 
 
 ========================================================================

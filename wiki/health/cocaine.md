@@ -7,7 +7,7 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/self/dox-md/ADDICTION_PROFILE.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -89,6 +89,13 @@ changelog:
 ---
 
 # Cocaine
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/health/chemical-architecture]] (2026-08-28), which added the
+> previously-unnamed final pre-Suboxone opiate relapse (Alexis, Thanksgiving
+> 2009, thirty Roxicet pills) to the **opiate** arc. This page's own dosage
+> arc and supply history are about cocaine specifically, and the addition
+> does not touch either. **No claim on this page is affected.**
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/concepts/acquisition-drive]] (2026-08-26), which added a
