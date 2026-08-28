@@ -10,6 +10,7 @@ simply listed.
 
 ## 2026-08-28 — 42 pages
 
+- **Session log:** feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch
 - **Session log:** spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
 - **Session log:** climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
 - **Session log:** climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
@@ -38,6 +39,7 @@ simply listed.
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/august-grievance-verdict
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/the-rescue-premise
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/read-receipt-forensics
+- **Session log:** constitution-pass | mind | wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis + wiki/mind/synthesis/fayette-return
 
 | Page | Domain | What moved |
 |---|---|---|

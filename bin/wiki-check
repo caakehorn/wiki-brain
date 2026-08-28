@@ -65,6 +65,11 @@ GATE = [
     (["wiki-lint"], "frontmatter, links, retractions, index drift", False),
     (["wiki-connect", "check"], "typed-edge claims", False),
     (["wiki-climb", "check"], "synthesizes: and stale premises", False),
+    # A Reader's Digest twin that has fallen behind its page is a confident,
+    # readable, WRONG account served to the reader least able to catch it — the
+    # same failure class as a stale premise, one layer down, so it gates in the
+    # same place. Missing twins are campaign work and never fail this.
+    (["wiki-plain", "check"], "Reader's Digest twins current and permitted", False),
     (["wiki-freshness"], "generated corpus in step with wiki/", False),
 ]
 SCAN = [

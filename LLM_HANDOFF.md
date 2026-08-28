@@ -4,6 +4,27 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-28] - Session: the READER'S DIGEST edition (`plain/`, `bin/wiki-plain`, portal EDITION switch)
+
+* **Model:** Claude Code (remote) · **Branches:** `claude/wiki-readers-digest-mode-x2wn5z` in **both** repos.
+* **Trigger:** operator asked for two modes of the wiki behind a switch at the top of the page — the current wiki, and a READER'S DIGEST edition for non-experts — every page to have a translation, plus a couple of the denser synthesis entries done as demonstrations.
+
+**What exists now.** `plain/<slug>.md` mirrors `wiki/<slug>.md`. `bin/wiki-plain` (`status` / `check` / `next` / `new`) owns the layer, and `check` is wired into `bin/wiki-check`'s GATE table. The portal's `sync-wiki.mjs` folds the twin into each page's JSON; `PortalProvider` carries `readMode`, painted to `<html data-read>`; the EDITION switch sits at the front of `HeaderControls`. Full protocol: the **TRANSLATE** operation in `CLAUDE.md`.
+
+**Read these before touching it:**
+
+1. **A twin is a rendering, not a page.** No typed edges, no `synthesizes:`, nothing citable. It is outside `wiki/` so a CLIMB can never reason from a simplification instead of from the finding. Do not "promote" one into `wiki/`.
+2. **`source_modified:` is load-bearing.** It pins the page version a twin was written against; a moved page makes it stale and fails the gate. **Never clear that by bumping the date** — re-read what moved. This is the standing rule 3 one layer down, and it binds harder here because the reader of a twin is the one who cannot check it.
+3. **The moratorium is enforced in code now**, in two rules, in `bin/wiki-plain` (`MORATORIUM`, `INCIDENTAL`) with `tests/test_wiki_plain.py` pinning them. It refuses rather than warns. Only the operator lifts it. The first pattern shipped permissive — `\bannie\b` misses `annie_metadata_24h.csv` because `_` kills the trailing boundary — and `read-receipt-forensics` read as translatable until it was caught by hand. If you widen or narrow that regex, run the tests.
+
+**Immediate next work, in order:**
+
+1. **Coverage.** `bin/wiki-plain next --synthesis` is the queue, densest first. 3 of 302 eligible pages are done. `the-embedded-objective` (4,068w) is top of the list.
+2. **The operator needs to decide something.** "Every page will have a translation" currently caps at **302 of 518 pages** — 216 are withheld under the standing directive, including *every one of the eight densest synthesis pages in the wiki*. Nobody but the operator can change that. Flagged in `log.md` and raised with them directly.
+3. Two PRs, one per repo, both draft, both watched.
+
+**Do not** hand-edit `public/wiki/**` in the portal, as always — including the new `plain` field. It is derived and rebuilt hourly.
+
 ### [2026-08-28] - Session: constitution-pass backlog complete (21 pages), Alexis Armel close, Track 2 interleaving
 
 * **Model:** Claude Sonnet 5 (Claude Code, remote) · **Branch:**
