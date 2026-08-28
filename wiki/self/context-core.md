@@ -19,6 +19,9 @@ sources:
   - raw/self/dox-md/Gemini-_18.md
 tags: [personality-profile, family, relationships, ai-collaboration]
 connections:
+  - page: wiki/timeline/events/timeline
+    type: evidenced-by
+    claim: "Both pages are built in part from the same raw extraction — LIFE_EVENTS_CALENDAR.md, auto-parsed from 175,358 iMessages — with this page as the curated, cross-checked read of it and the other as the near-raw event list; where the two disagree on a date, the curated version has already resolved several such conflicts (see its Residence timeline section) and should win."
   - page: wiki/mind/concepts/calibrated-confidence
     type: evidenced-by
     claim: "The Ti-dominant 'reality parsed as a high-fidelity system' claim, carried here on typological authority, has a measured behavioural signature underneath it for the first time — 22x the corpus baseline, present in every year, spread across 12 handles."

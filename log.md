@@ -6123,3 +6123,19 @@ Gates: `bin/wiki-lint` 0 errors / 30 warnings (one fewer); `bin/wiki-connect
 check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors / 4 warnings
 (two pre-existing legitimate obligations, unrelated); `bin/wiki-freshness`
 clean. 13 of 21 backlog pages remain.
+
+## [2026-08-28] connect | self, timeline | connection-queue.md (context-core <-> timeline.md)
+
+**Track 2, interleaved.** The mined "unlinked" signals were false positives
+(generic word uses of "timeline," a `sources:` path mention), but a real
+relationship existed underneath: `context-core` and `wiki/timeline/events/
+timeline.md` are both built in part from the same `LIFE_EVENTS_CALENDAR.md`
+extraction — context-core as the curated, cross-checked read (its own
+Residence timeline section has already resolved several date conflicts),
+timeline.md as the near-raw auto-extracted event list. Typed edges added
+both directions.
+
+Gates: `bin/wiki-lint` 0 errors / 30 warnings (unchanged); `bin/wiki-connect
+check` 0 errors / 144 warnings (unchanged); `bin/wiki-climb check` 0 errors
+/ 3 warnings (one fewer — alias-as-periodization's staleness note below
+resolved it before this commit).
