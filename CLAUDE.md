@@ -84,11 +84,12 @@ was **not** filed to `raw/`, not copied into the repository, and nothing was
 derived from it — deliberately, under this directive. That is the correct
 handling of the next one too.
 
-## The three things that matter most
+## The four things that matter most
 
 1. **Depth is the binding constraint.** There are 438 pages; there are not enough *details on them*. A pattern can only be found among details that were written down, and synthesis reasons from `wiki/`, not `raw/` — so anything dropped at extraction is a connection nobody can ever make. Read sources to exhaustion, write long, keep the mundane. `EXTRACTION_SPEC.md`.
 2. **Findings get written back.** A conclusion that spans several pages is written into *each* of them as a typed edge whose claim states the finding — not left on one page for the others to rediscover. This is `STRATEGY.md`'s core loop, step 5, and the step most often done partially.
 3. **Never clear a stale warning by bumping a date.** Re-read the premise that moved, decide whether the conclusion survives, record the decision. This is the one move that corrupts the system quietly.
+4. **Every conclusion is checked against the person before it is written.** A pattern found across N pages is a fact about those N pages until it has been read against Dan's cognitive stack, measured personality profile, historical precedent, attitudes and the forces acting on him, his current security and prosperity, health, romantic state, age and upbringing, geographic and ethnic culture, religious or ideological programming, and axiomatic politics. This is **the constitution pass**, it is mandatory and deterministic rather than a matter of judgment, and its eleven registers and worked failure case are in `SYNTHESIS_SPEC.md`. A rule that survives it is stronger; a rule that only survives by not looking is not a finding.
 
 ## Architecture — plain files, one direction of flow
 
@@ -162,7 +163,7 @@ QUERY is somebody in this repository asking the wiki something. ANSWER is somebo
 Read `sage/README.md` for the file format. The protocol:
 
 1. **Read the question as asked**, not as you would have preferred it asked. It may be hostile, badly framed, or about something the corpus cannot settle. Answer the question that was typed.
-2. **Retrieve properly.** Reason from `wiki/` first, then go to `raw/` for the proofs — `bin/mine-messages` over the message record rather than grep, and the per-contact CSVs where the question is about one relationship. A question about future behaviour is a question about the documented pattern; find the pattern's instances and its counterexamples both.
+2. **Retrieve properly.** Reason from `wiki/` first, then go to `raw/` for the proofs — `bin/mine-messages` over the message record rather than grep, and the per-contact CSVs where the question is about one relationship. A question about future behaviour is a question about the documented pattern; find the pattern's instances and its counterexamples both. **Then run the constitution pass** (`SYNTHESIS_SPEC.md`) — an answer about what Dan will do, or why he does something, is a claim about a specific mind in specific circumstances, and it is checked against the cognitive stack, the measured profile, the history, the material and health situation, and the ideology before it is filed.
 3. **Cite every claim, and quote directly.** This is the standard the whole operation stands on. A sentence about what Dan does cites the page that establishes it; a sentence about what he *did* quotes the record with its date. An answer without proofs is an opinion with a citation style, and it is worth less than nothing here — it looks like evidence.
 4. **Say where the record cuts the other way.** Every answer states its own strongest counter-evidence and what would falsify it. The corpus contains things that do not flatter its subject, and an answering system that routes around them is one nobody should believe on anything. Where the corpus genuinely cannot settle the question, that is the answer, and it is a real one.
 5. **Never quote a sealed page.** `wiki.locks.json` in the portal repo names pages that ship as ciphertext precisely so the site cannot read them out. An answer that quotes one publishes through the back door what the seal exists to keep shut.
@@ -186,9 +187,10 @@ The only operation that runs on `wiki/` rather than `raw/`. Where INGEST adds gr
 1. `bin/wiki-climb candidates` maintains `synthesis-queue.md`. Take the top cluster, or one you have reason to prefer.
 2. Read the member pages **in full** — you are reasoning from them.
 3. Find the governing rule, **or reject the cluster in the queue with a line of reasoning.** A cluster that resists synthesis is knowledge too. Never write a page whose thesis is "these things are related."
-4. Write it: `page_type: synthesis`, `knowledge: earned`, `synthesizes:` listing every member, thesis in the first two sentences, the controls that carry it, at least one prediction, and Gaps.
-5. Wire it both ways. **Every member page gets the finding written back into it** — an `instantiates` edge whose claim states what this page turned out to be evidence *of*, plus a prose sentence wherever it is load-bearing. A synthesis whose members do not carry it back is half-built.
-6. All three gates at 0 errors; log `climb | <domain> | <page>`; commit.
+4. **Run the constitution pass before writing** — check the candidate rule against the eleven registers (cognitive stack, measured profile, historical precedent, attitudes and forces, security and prosperity, health, romantic state, age and upbringing, geographic/ethnic culture, ideological programming, axiomatic politics). Mandatory, `SYNTHESIS_SPEC.md`. It is allowed to change or kill the conclusion, and its result goes on the page.
+5. Write it: `page_type: synthesis`, `knowledge: earned`, `synthesizes:` listing every member, thesis in the first two sentences, the controls that carry it, at least one prediction, Gaps, and which registers moved the conclusion versus left it standing.
+6. Wire it both ways. **Every member page gets the finding written back into it** — an `instantiates` edge whose claim states what this page turned out to be evidence *of*, plus a prose sentence wherever it is load-bearing. A synthesis whose members do not carry it back is half-built.
+7. All three gates at 0 errors; log `climb | <domain> | <page>`; commit.
 
 Climb when a cluster has survived two or more ingests, or immediately when an ingest makes you think "this is the third time I've seen this shape." Do not climb to raise a number: three thin pages stacked make one thin page.
 
