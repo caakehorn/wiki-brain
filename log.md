@@ -5964,7 +5964,7 @@ as such rather than forced.
 page had been carrying unexamined.** The page's sharpest rule — "a lump
 arriving anywhere in this family is immediately re-lent inside it, on no
 paper, at the moment of arrival" — looks like the opposite of what a
-1st-percentile Altruism score would predict. `big-five-psychometrics`'ы own
+1st-percentile Altruism score would predict. `big-five-psychometrics`'s own
 2026-08-16 corpus audit already resolved this: Altruism-1 is inverted
 specifically on its *instrumental* half (offering resources unprompted runs
 1.79-2.49x baseline) while the *affective* half (sympathy, condolence) runs
