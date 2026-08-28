@@ -67,6 +67,9 @@ connections:
   - page: wiki/interests/food-and-diet
     type: instantiates
     claim: "The food-composition regime — every ingredient accepted in full or refused outright, with no recorded case of a tolerated small amount — is a ninth domain instance of this page's rule, and the most literal one on record: run on a plate rather than a person or a taste, it has nothing available to blur the binary the way flattery or lobbying can elsewhere."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: parallels
+    claim: "The confession trap that page documents is this rule's boundary case rather than its ordinary instance: where this page describes a reached verdict that will not be revisited, that page documents what happens when the same drive for a closing verdict is never satisfied at all — a distinction worth carrying back here, since every other member on this table is a verdict that closed, and this is the one that couldn't."
 ---
 
 # The Binary Verdict

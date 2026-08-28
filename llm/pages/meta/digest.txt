@@ -77,6 +77,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - constitution-pass | mind | wiki/mind/synthesis/instrument-is-subject
   - constitution-pass | mind | wiki/interests/food-and-diet
   - constitution-pass | places | wiki/places/the-unpapered-address
+  - connect | mind/self | node-locking.md <-> gemini-activity.md
 
 **2026-08-27** — 5 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
@@ -133,7 +134,7 @@ have moved since.
 - [[wiki/mind/politics/axioms]] — 5 premises
 - [[wiki/mind/synthesis/alias-as-periodization]] — 6 premises
 - [[wiki/mind/synthesis/annual-volume-suz]] — 1 premise
-- [[wiki/mind/synthesis/attachment-trauma-bond]] — 5 premises
+- [[wiki/mind/synthesis/attachment-trauma-bond]] — 9 premises
 - [[wiki/mind/synthesis/august-grievance-verdict]] — 7 premises
 - [[wiki/mind/synthesis/block-unblock-loop]] — 11 premises
 - [[wiki/mind/synthesis/closing-the-set]] — 9 premises

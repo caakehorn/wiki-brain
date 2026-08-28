@@ -6396,3 +6396,59 @@ warnings on gemini-activity.md and its archive page are unrelated to this
 edit); `bin/wiki-climb check` 0 errors / 0 warnings; `bin/wiki-freshness`
 clean; 125 tests pass. `bin/wiki-work scan`: 0 obligations, 193 standing
 (one fewer).
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/attachment-trauma-bond
+
+First of the 7 Annie-moratorium backlog pages, done last per the operator's
+explicit ordering and bound throughout by the standing Annie moratorium in
+CLAUDE.md. This page had never cited `wiki/mind/profile/`, despite its own
+"Aura Illness" section already asserting an unsourced typological claim
+("Dan's INTP 5w4 sx/sp profile dictates...") — the citation gap and the
+mechanism argument were the same piece of missing work, which made this a
+safe first case: every citation below sources a claim the page already made
+about Dan's own cognition, using no material beyond what this page and the
+profile pages already state.
+
+**The mechanism, sourced rather than asserted.** `wiki/mind/profile/intp`'s
+Ti-Si loop (the type's own documented "signature pathology") is why the
+bond's collapse reactivated exactly the two schemas already named on the
+page — the 2004-05 parental rupture, the Alexis collapse — rather than
+fading into ordinary grief; Ni-leak's mythic-overfitting is the measured
+function behind the "burning rituals" language. `wiki/mind/profile/
+enneagram-5w4`'s sx/sp fusion-or-annihilation instinct stacking is the
+literal source for "ontological amputation," and its own unresolved
+5w4-vs-5w6sx wing contradiction is disclosed rather than laundered — the
+mechanism survives it because it rests on the instinct order, not the
+disputed wing. `wiki/mind/synthesis/the-binary-verdict` reframes the
+confession trap as verdict-cognition's *boundary case*: not an ordinary
+instance of a reached verdict staying closed, but what happens when the
+same drive for a closing verdict is never satisfied — which is why the
+eventual exit ran through a door rather than through closure.
+
+**One tempting register checked and declined.** `wiki/mind/profile/
+big-five-psychometrics`' Vulnerability facet — the one that would most
+directly predict a psychosomatic-crisis account — runs flat (0.81x, below
+baseline) on the corpus audit, like Impulsiveness. Not cited as a
+mechanism; recorded as checked and found wanting, consistent with this
+session's provenance-gradient discipline.
+
+**Moratorium compliance, explicit.** The page's own new "## The
+constitution pass" section states directly that nothing new about Annie
+was added, dated, quoted, or extended — every sentence either concerns
+Dan's measured cognitive architecture or restates a fact already on the
+page (the 2004-05 rupture, the Alexis collapse, the confession-trap quote,
+the "ontological amputation" language) with its mechanism now cited rather
+than asserted.
+
+Write-back: four new `synthesizes:` members (`intp`, `enneagram-5w4`,
+`big-five-psychometrics`, `the-binary-verdict`) with reciprocal edges on
+all four pages.
+
+Gates: `bin/wiki-lint` 0 errors / 24 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors /
+0 warnings; `bin/wiki-freshness` clean after `bin/wiki-digest` +
+`bin/llm-publish`; 125 tests pass. `bin/wiki-work scan`: 0 obligations, 193
+standing. 6 of 7 Annie-moratorium pages remain, in the operator's stated
+order: `dan-annie-fallout-verdict`, `block-unblock-loop`,
+`august-grievance-verdict`, `the-rescue-premise`, `read-receipt-forensics`,
+`morgantown-call-three-participant-ethical-analysis`.

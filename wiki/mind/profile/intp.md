@@ -82,6 +82,9 @@ connections:
   - page: wiki/places/the-unpapered-address
     type: causes
     claim: "Ti's definition of truth as 'a system that holds under recursive collapse' is why paper was never sought from a housing provider rather than merely never offered: demanding a lease from someone who has already granted access audits whether they can be trusted to keep granting it, which risks the choice to depend on them, not just the housing itself."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: causes
+    claim: "The Ti-Si loop is why that page's bond-collapse crisis reactivated exactly the two schemas it already names (the 2004-05 rupture, the Alexis collapse) rather than fading into ordinary grief, and Ni-leak's mythic-overfitting is the measured function behind the 'burning rituals' language — the mind's own analytical strength turned on the wound, not a metaphor for its intensity."
 ---
 
 # INTP — The Cognitive Function Stack

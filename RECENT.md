@@ -31,6 +31,7 @@ simply listed.
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/instrument-is-subject
 - **Session log:** constitution-pass | mind | wiki/interests/food-and-diet
 - **Session log:** constitution-pass | places | wiki/places/the-unpapered-address
+- **Session log:** connect | mind/self | node-locking.md <-> gemini-activity.md
 
 | Page | Domain | What moved |
 |---|---|---|
