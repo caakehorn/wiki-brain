@@ -104,6 +104,9 @@ connections:
   - page: wiki/self/context-core
     type: evidenced-by
     claim: "Context-core is the source of this page's own name and organizing formula — 'vertical-authority-skeptic, lateral-solidarity-privileging' appears there verbatim, in the political-trajectory line, quoted in this page's own prose as 'the spine's own formula' without ever being linked to its source until this pass."
+  - page: wiki/places/the-unpapered-address
+    type: instantiates
+    claim: "Every housing provider across sixteen years and seven addresses — mother, maternal grandmother, a live-in partner, a great-grandmother — is a lateral by this page's own definition, never a vertical, which is what scopes Trust 9's corpus-confirmed low-trust default away from housing entirely: laterals get the trusted-now, audited-later default this page already documents, and none of these seven relationships was ever audited while it held."
 ---
 
 

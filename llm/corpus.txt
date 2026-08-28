@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-28
-519 pages, ~1,492,691 tokens.
+519 pages, ~1,498,172 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -7534,7 +7534,7 @@ aliases: ["the unevaluated domain", "food as everything but taste"]
 status: active
 knowledge: earned
 date_created: 2026-07-25
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/self/captures/2026-08-01_154556_picky-eater.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -7549,6 +7549,8 @@ synthesizes:
   - wiki/self/youtube-watch-history
   - wiki/self/tattoos
   - wiki/mind/concepts/the-cool-metric
+  - wiki/mind/profile/intp
+  - wiki/mind/synthesis/the-binary-verdict
 tags: [physical-health, nyc-era, uniontown-era, personality-profile]
 connections:
   - page: wiki/mind/synthesis/the-deferred-audit
@@ -7584,6 +7586,12 @@ connections:
   - page: wiki/health/the-configured-body
     type: parallels
     claim: "The composition regime and the substance stack are one faculty measured in two domains: an absolute rule about what may enter, enforced without negotiation on a plate and in a bloodstream alike, which is why food looks like pickiness and behaves like the Suboxone floor."
+  - page: wiki/mind/profile/intp
+    type: caused-by
+    claim: "Ti-dominance's pass/fail closure test, with Fe (10% valuing) too weak to run a graded negotiation, is the mechanism: an unrequested ingredient fails the closure test outright, with no relational-grading function available to soften the verdict into 'acceptable enough.'"
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: instance-of
+    claim: "The composition regime is a ninth domain instance of that page's rule — accept-in-full or refuse-in-full with no recorded middle state — and the most literal one found so far, run on a plate rather than a person or a taste, which is exactly what removes anything that could blur the binary."
 ---
 
 # Food and Diet
@@ -7689,6 +7697,42 @@ The distinction the earlier version of this page missed is between **evaluation*
 and **specification**. He does not judge food. He specifies it, and enforcement
 is absolute. Those are different faculties, and only the first one leaves a
 favourites list.
+
+### The mechanism: composition is a binary verdict, not a graded rule
+
+[[wiki/mind/synthesis/the-binary-verdict]] documents eight domains where a
+question that resolves to a *verdict* — worth, taste, trust, legitimacy —
+collapses to exactly one of two states with no persisting middle value, and
+names health, money and work-performance as domains its own pass left
+untested. The composition table above is a ninth, and an unusually literal
+one: *"the mortal enemy"* and *"an absolute, dealbreaking, no-questions-asked
+policy"* are not intensifiers, they are the vocabulary of a verdict with no
+third state. There is no recorded case of an onion tolerated in small
+quantity or picked out after the fact and eaten anyway — every ingredient is
+accepted in full or refused in full, the identical shape that page finds in
+worth and trust questions and finds absent from the one place gradation
+actually lives on the record, [[wiki/mind/concepts/calibrated-confidence]]'s
+graded percentage estimates about unwitnessed facts. A plate is not an
+unwitnessed fact. It is a closure question, and closure questions come back
+binary.
+
+[[wiki/mind/profile/intp]] supplies the same mechanism this page's neighbors
+use to explain the pattern elsewhere. Ti-dominance (96% latent / 95%
+aptitude) runs a pass/fail closure test — does this hold together, not how
+much of it holds together — and Fe (10% valuing), the function whose job
+would be producing a graded verdict such as *"fine, in a small amount,"* is
+the weakest function on the five-function table. A sandwich that arrives
+with an unrequested component fails the closure test outright; there is no
+Fe-mediated negotiation available to soften it into "acceptable enough,"
+because the function that would run that negotiation is nearly absent. This
+is the same account [[wiki/mind/synthesis/music-as-identity]] gives for the
+Fall Out Boy freeze and [[wiki/mind/synthesis/the-binary-verdict]] gives for
+worth, taste and trust: a closure function running with no relational-grading
+function beside it. Here it runs on a plate instead of a person, which is
+exactly what makes it the cleanest and most literal instance of the rule
+found so far — a sandwich cannot be lobbied, flattered or given the benefit
+of the doubt the way a person or a taste sometimes can, so the binary shows
+with nothing to blur it.
 
 ## The controls
 
@@ -7841,6 +7885,40 @@ for everything it is allowed to touch."
 > derived "Irreversibility Firewall" doctrine page) — the master-filter
 > claim and the food/music jurisdiction dispute this page's CONTRADICTION
 > block tracks are both untouched. Nothing here needed revising.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`. This
+page had never cited `wiki/mind/profile/`, and its central claim — an
+absolute, no-questions-asked composition rule — had never been checked
+against the cognitive-verdict machinery [[wiki/mind/synthesis/the-binary-verdict]]
+documents for every other verdict-domain in the corpus.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved and sharpened the conclusion.** [[wiki/mind/profile/intp]]'s Ti-dominance/Fe-weakness split supplies the mechanism argued in "The mechanism" above — the composition regime is a closure test, not a taste judgement, which explains why it is absolute rather than graded. |
+| 2. Personality profile | **Checked, does not add a distinct mechanism.** No Big-Five facet supplies an argument beyond the cognitive-stack account; Trust 9 and Altruism-1 concern other people, not food composition. |
+| 3. Historical precedent | **Moved the conclusion.** [[wiki/mind/synthesis/the-binary-verdict]] establishes the domain-general rule this page's regime turns out to be a ninth instance of — see "The mechanism" above. This is not decoration: it is what explains *why* the rule is absolute rather than a strong preference. |
+| 4. Attitudes and forces | **Checked, does not bear.** No documented attitude or social pressure explains the composition rule beyond the closure mechanism already cited. |
+| 5. Security and prosperity | **Checked, does not bear.** The regime predates and is independent of any documented financial period; BFS Foods and Caviar Courier are labour controls, not causes. |
+| 6. Health | **Checked, left open as an existing Gap rather than closed by this pass.** [[wiki/health/hyperreflexivity]] documents the adolescent bulimia and candy-staple period, and this page's own Gaps section already asks whether the regime predates or follows it. This pass did not settle that, and does not claim to. |
+| 7. Romantic and relational state | **Checked, does not bear.** No relationship record ties a partner's food preference to the composition rule; the rule is applied at BFS, Au Za'atar and in the picky-eating capture alike, independent of company. |
+| 8. Age and upbringing | **Checked, does not add new material.** The capture is undated relative to childhood; this pass does not manufacture a developmental origin the corpus does not support. |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** Forty-one months at Au Za'atar produced cultural affection with zero effect on the composition rule itself — already this page's own control, not new material from this pass. |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Checked, left standing.** The Ti/Fe percentages are self-commissioned rather than corpus-audited (per [[wiki/mind/synthesis/the-commissioned-self]]), which this page's mechanism argument does not launder — it is offered as the best available account of *why* the regime is absolute, not as independently confirmed at the same strength as the composition table itself, which is a direct operator capture. |
+
+**What survived:** every finding already on the page — the absence of a
+favourites entry, the labour/pathology/region/metaphor/body-art registers,
+the composition table itself. **What the pass added:** a mechanism (Ti's
+pass/fail closure test, with no Fe-mediated grading function beside it) for
+*why* the composition rule is a strict binary rather than a strong
+preference, and a write-back into [[wiki/mind/synthesis/the-binary-verdict]]
+extending that page's domain table toward food — one of the three domains
+its own Gaps section named as untested. **What it did not do:** date the
+regime's origin or settle whether it predates the adolescent eating-disorder
+period; that Gap stays open.
 
 
 ========================================================================
@@ -10859,7 +10937,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-28** — 36 pages
+**2026-08-28** — 38 pages
   - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
   - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
@@ -10878,12 +10956,15 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - connect | self, timeline | connection-queue.md (context-core <-> timeline.md)
   - constitution-pass | mind | wiki/mind/synthesis/alias-as-periodization
   - constitution-pass | mind | wiki/mind/synthesis/music-as-identity
+  - constitution-pass | mind | wiki/mind/synthesis/instrument-is-subject
+  - constitution-pass | mind | wiki/interests/food-and-diet
+  - constitution-pass | places | wiki/places/the-unpapered-address
 
-**2026-08-27** — 6 pages
+**2026-08-27** — 5 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
   - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
 
-**2026-08-26** — 58 pages
+**2026-08-26** — 57 pages
   - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
   - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
@@ -10928,7 +11009,7 @@ have moved since.
 
 - [[wiki/health/cocaine]] — 15 premises
 - [[wiki/health/the-configured-body]] — 8 premises
-- [[wiki/interests/food-and-diet]] — 9 premises
+- [[wiki/interests/food-and-diet]] — 11 premises
 - [[wiki/mind/concepts/chaos-preference]] — 2 premises
 - [[wiki/mind/concepts/the-cool-metric]] — 3 premises
 - [[wiki/mind/politics/axioms]] — 5 premises
@@ -10950,7 +11031,7 @@ have moved since.
 - [[wiki/mind/synthesis/read-receipt-forensics]] — 2 premises
 - [[wiki/mind/synthesis/single-channel]] — 8 premises
 - [[wiki/mind/synthesis/supply-network]] — 11 premises
-- [[wiki/mind/synthesis/the-binary-verdict]] — 13 premises
+- [[wiki/mind/synthesis/the-binary-verdict]] — 14 premises
 - [[wiki/mind/synthesis/the-cato-seat]] — 9 premises
 - [[wiki/mind/synthesis/the-commissioned-self]] — 10 premises
 - [[wiki/mind/synthesis/the-deferred-audit]] — 11 premises
@@ -10968,7 +11049,7 @@ have moved since.
 - [[wiki/people/johnny-dealer]] — 3 premises
 - [[wiki/people/suzanne-frank]] — 4 premises
 - [[wiki/people/suzanne-frank-personality-assessment]] — 1 premise
-- [[wiki/places/the-unpapered-address]] — 10 premises
+- [[wiki/places/the-unpapered-address]] — 13 premises
 - [[wiki/self/concepts/ally-and-dan-love-as-destiny]] — 1 premise
 - [[wiki/self/concepts/astrology-star-signs]] — 1 premise
 - [[wiki/self/concepts/wiki-brain]] — 2 premises
@@ -11708,7 +11789,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/supply-network]]** — **Tim** is named in the MAX_PRIME succession between Johnny and Tom but no message thread has been identified; era and product unconfirmed.
 - **[[wiki/mind/synthesis/supply-network]]** — The post-May-2026 state of the network is **partly** answered by the finding above — the network did not collapse with the Tom node; it was replaced by a daily, house-calling, higher-availability node, which is the reliability inversion documented above runnin
 - **[[wiki/mind/synthesis/supply-network]]** — Menore's product was never named in-thread; the "8" unit remains uninterpreted.
-- **[[wiki/mind/synthesis/the-binary-verdict]]** — **Only eight domains were checked.** Health, money, and work-performance verdicts were not systematically tested for the same binary/graded split; estate-money-spine and the-embedded-objective are the obvious next places to look.
+- **[[wiki/mind/synthesis/the-binary-verdict]]** — **Originally eight domains were checked; a ninth (food composition) was added 2026-08-28**, independently, by food-and-diet's own constitution pass rather than by a re-check run from this page. Health, money, and work-performance verdicts still have not been s
 - **[[wiki/mind/synthesis/the-binary-verdict]]** — **The 90% rule instance is n=1.** Whether Dan accepted other graded logistics compromises across the following decade of the same relationship — as opposed to re-litigating the underlying verdict question itself, which conflict-architecture documents happening
 - **[[wiki/mind/synthesis/the-cato-seat]]** — **The art tags are Dan's and may be circular.** He wrote `observer` and `collapse` himself, possibly with a model's help, and the ART MATRIX source behind the twenty-five entries has not been read to establish who generated them. If the tags are AI-produced, t
 - **[[wiki/mind/synthesis/the-cato-seat]]** — **The "heroic figures" list is not attested in `raw/`.** gore-vidal states that Dan lists Vidal among heroic figures he identifies with, alongside Sanders, Hunter S. Thompson, Rollins, Brown, Hampton and Debs. A search of the dossier and message material for t
@@ -12099,13 +12180,14 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-28 — 36 pages
+## 2026-08-28 — 38 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/chemical-architecture]] | health | **GAP CLOSED** — This page has always stated the February 17, 2010 day-zero without naming what the last active-use episode before it was. A 2026-08-27 operator capture (`raw/people/captures/2026-08-27_222932_gap-alex |
 | [[wiki/health/cocaine]] | health | **RE-CHECKED** — flagged stale against chemical-architecture (2026-08-28), which added the previously-unnamed final pre-Suboxone opiate relapse (Alexis, Thanksgiving 2009, thirty Roxicet pills) to the **opiate** arc.  |
 | [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — flagged stale against the-deferred-audit (2026-08-28), which gained a RE-CHECKED note tracing back to a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris to Alexi |
+| [[wiki/interests/food-and-diet]] | interests | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/legal/2015-possession-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
@@ -12137,10 +12219,11 @@ simply listed.
 | [[wiki/people/suzanne-frank-personality-assessment]] | people | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a March 2014 eviction of Alexis Armel from the household over a washing-machine incident. No existing claim on this page is falsified, but |
 | [[wiki/people/zach-clingan]] | people | **GAP CLOSED** — The 2014 "drug people" taxonomy and the December 2015 "my arch rival" outburst (below) both assume a rupture the corpus had never actually recorded. A 2026-08-27 operator capture (`raw/people/captures |
 | [[wiki/places/155-virginia-ave]] | places | _(carries a GAP CLOSED from 2026-08-22)_ |
+| [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — estate-money-spine gained a constitution-pass mechanism section (the Altruism-1 inversion explaining the $14,000 family loan) and a full register table. Nothing in it touches tenancy, paper, or any of |
 | [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | **GAP CLOSED** — This section's own Gaps entry asked for exactly this. A 2026-08-27 operator capture (`raw/people/captures/2026-08-27_222932_gap-alexis-armel.md`) supplies it: Dan graduated in **August 2009** and was  |
 
-## 2026-08-27 — 6 pages
+## 2026-08-27 — 5 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -12149,14 +12232,12 @@ simply listed.
 | [[wiki/people/ally-lubin-cognitive-profile]] | people | **GAP CLOSED** — the page asked *"whose result is the screenshot, and when was it taken? The image carries no identifying metadata. Did Ally send it to Dan directly, and on what date? The original `IMG_2320.heic` may  |
 | [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
-| [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — 117-belmont-circle gained the sale's disposition on 2026-08-27: it **closed in summer 2019 for $250,000** (operator testimony, uncorroborated in the message record, buyer still unknown). The row above |
 
-## 2026-08-26 — 58 pages
+## 2026-08-26 — 57 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/interests/favorites/music/artists/fall-out-boy]] | interests | — |
-| [[wiki/interests/food-and-diet]] | interests | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-26), which added a section on the metric's one documented upper bound (the Ally Skins exchange) and removed its `sage_pending` staging. The food-exemptio |
 | [[wiki/interests/rock-irrelevance-thesis]] | interests | — |
 | [[wiki/interests/the-office]] | interests | — |
 | [[wiki/meta/index]] | meta | — |
@@ -15514,6 +15595,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Demanding verbatim, unconsolidated AI memory retention extends 'The Irreversibility Firewall's' no-delete rule to the cognitive prosthetic itself: nothing, including a machine's summary of him, is allowed to lossily replace the original."
+  - page: wiki/self/gemini-activity/gemini-activity
+    type: evidenced-by
+    claim: "The aggregate counts this page's mechanism rests on — 403 'node,' 1,041 'profile,' 2,258 'lock' mentions, and the January 2, 2026 cluster combining J6 forensics with the heaviest profile-locking activity in the corpus — are that page's raw theme-frequency table, not independently re-derived here."
 
 ---
 
@@ -17288,6 +17372,9 @@ connections:
   - page: wiki/mind/synthesis/estate-money-spine
     type: evidences
     claim: "The $14,000 transferred to Suz within weeks of an undistributed bridging advance, with nothing in writing, is exactly what the Altruism-1 inversion predicts once its two halves are separated: instrumental generosity (offering resources) runs at 1.79-2.49x baseline while the affective half (sympathy, condolence) runs at 0.45x, so a nominal 1st-percentile altruism score is the wrong prediction for a lump-sum family transfer and the corpus-audited reading is the one that fits."
+  - page: wiki/places/the-unpapered-address
+    type: contradicts
+    claim: "Trust at the 9th percentile predicts a paper trail should have been sought across sixteen years of housing dependency, and none was — the sharpest apparent counter-instance to this facet found in this session's constitution passes, resolved not by this page but by vertical-authority-skepticism's lateral/vertical scoping, which that page cites directly."
 ---
 
 
@@ -18192,6 +18279,12 @@ connections:
   - page: wiki/mind/synthesis/instrument-is-subject
     type: causes
     claim: "The exocortex prompt's evidentiary standard — unwavering honesty, no softening, residue over testimony — is Ti-dominance's own truth criterion ('a system that holds under recursive collapse') exported into an instruction, which is why that page's recursion problem is a predictable consequence of this specific stack rather than an accident of which AI tool got used."
+  - page: wiki/interests/food-and-diet
+    type: causes
+    claim: "The same closure test named for worth, taste and trust verdicts runs on a plate: an unrequested ingredient fails Ti's pass/fail standard outright, with Fe (10% valuing) too weak to run the graded negotiation that would soften it into 'acceptable enough' — the most literal instance of the mechanism found so far, because a sandwich cannot be lobbied or flattered the way a person sometimes can."
+  - page: wiki/places/the-unpapered-address
+    type: causes
+    claim: "Ti's definition of truth as 'a system that holds under recursive collapse' is why paper was never sought from a housing provider rather than merely never offered: demanding a lease from someone who has already granted access audits whether they can be trusted to keep granting it, which risks the choice to depend on them, not just the housing itself."
 ---
 
 # INTP — The Cognitive Function Stack
@@ -31154,6 +31247,7 @@ synthesizes:
   - wiki/mind/profile/big-five-psychometrics
   - wiki/mind/concepts/forensic-method
   - wiki/mind/synthesis/the-commissioned-self
+  - wiki/interests/food-and-diet
 tags: [personality-profile, forensic-analysis, ideology, relationships]
 connections:
   - page: wiki/mind/synthesis/totality-themes
@@ -31195,6 +31289,9 @@ connections:
   - page: wiki/mind/synthesis/the-commissioned-self
     type: instance-of
     claim: "This page is a documented instance of the provenance gradient that page requires: it leans most heavily on calibrated-confidence, the one profile-layer finding with no self-report origin, and on Trust 9, the one Big30 facet independently corpus-audited, while treating the Ti/Fe function percentages as the weaker, self-commissioned register its rule concerns."
+  - page: wiki/interests/food-and-diet
+    type: instantiates
+    claim: "The food-composition regime — every ingredient accepted in full or refused outright, with no recorded case of a tolerated small amount — is a ninth domain instance of this page's rule, and the most literal one on record: run on a plate rather than a person or a taste, it has nothing available to blur the binary the way flattery or lobbying can elsewhere."
 ---
 
 # The Binary Verdict
@@ -31244,7 +31341,17 @@ is sharp enough to test.
 | Authority ([[wiki/mind/synthesis/vertical-authority-skepticism]]) | audited-and-suspect / lateral-trusted | a partial, watched trust | No — reframed as timing (audited now / audited later), still binary once the audit runs |
 | Power, political ([[wiki/mind/synthesis/political-psyops]], [[wiki/mind/politics/axioms]]) | legitimate claim on power / illegitimate | negotiated partial legitimacy | No at the top level; graded scoring appears only inside the "everyone is wrong" bucket |
 | Resource allocation ([[wiki/mind/synthesis/single-channel]]) | one channel at maximum voltage / unfunded | moderate, distributed investment | No — Gini 0.96, tightening under load rather than spreading |
+| Food composition ([[wiki/interests/food-and-diet]]) | accept-in-full / refuse-outright | "acceptable in a small amount" | No — every documented ingredient decision is all-or-nothing |
 | Unwitnessed fact ([[wiki/mind/concepts/calibrated-confidence]]) | — | 75, 80, 89, 90, 95, 99, 99.9999 | **Yes** — this is where the middle values live |
+
+**Added 2026-08-28.** [[wiki/interests/food-and-diet]]'s own constitution
+pass found the composition regime independently and cited this page as the
+domain-general rule it instantiates — see that page's "The mechanism"
+section. It is added here as the ninth domain rather than left as a
+one-directional citation, because it is the most literal member on the
+table: a plate has no relational stakes to be lobbied, flattered, or
+partially forgiven the way a person, a taste, or an authority sometimes can,
+so the binary shows with nothing available to blur it.
 
 ## Worth: the axiom that names its own binary
 
@@ -31578,8 +31685,11 @@ this pass.
 > contain the material to settle which way that causation runs, and this
 > page will not guess.
 
-- **Only eight domains were checked.** Health, money, and work-performance
-  verdicts were not systematically tested for the same binary/graded split;
+- **Originally eight domains were checked; a ninth (food composition) was
+  added 2026-08-28**, independently, by [[wiki/interests/food-and-diet]]'s
+  own constitution pass rather than by a re-check run from this page. Health,
+  money, and work-performance verdicts still have not been systematically
+  tested for the same binary/graded split;
   [[wiki/mind/synthesis/estate-money-spine]] and
   [[wiki/mind/synthesis/the-embedded-objective]] are the obvious next places
   to look.
@@ -36181,6 +36291,9 @@ connections:
   - page: wiki/self/context-core
     type: evidenced-by
     claim: "Context-core is the source of this page's own name and organizing formula — 'vertical-authority-skeptic, lateral-solidarity-privileging' appears there verbatim, in the political-trajectory line, quoted in this page's own prose as 'the spine's own formula' without ever being linked to its source until this pass."
+  - page: wiki/places/the-unpapered-address
+    type: instantiates
+    claim: "Every housing provider across sixteen years and seven addresses — mother, maternal grandmother, a live-in partner, a great-grandmother — is a lateral by this page's own definition, never a vertical, which is what scopes Trust 9's corpus-confirmed low-trust default away from housing entirely: laterals get the trusted-now, audited-later default this page already documents, and none of these seven relationships was ever audited while it held."
 ---
 
 
@@ -63005,7 +63118,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-27
+date_modified: 2026-08-28
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -63022,6 +63135,9 @@ synthesizes:
   - wiki/mind/synthesis/estate-money-spine
   - wiki/mind/concepts/dans-law
   - wiki/mind/synthesis/the-deferred-audit
+  - wiki/mind/profile/intp
+  - wiki/mind/profile/big-five-psychometrics
+  - wiki/mind/synthesis/vertical-authority-skepticism
 tags: [housing, financial-stress, legal, nyc-era, uniontown-era]
 connections:
   - page: wiki/legal/463-morgantown
@@ -63057,9 +63173,50 @@ connections:
   - page: wiki/mind/synthesis/block-unblock-loop
     type: instantiates
     claim: "The corpus's only instance of Dan reaching for a housing instrument himself is a declared exit that was never executed — 'Tomorrow I'm calling John and telling him that I will no longer be in the lease' (2024-10-27), four months before the physical move, answered with 'Please don't do this Dan' and never carried out."
+  - page: wiki/mind/profile/intp
+    type: caused-by
+    claim: "Ti-dominance's audit logic, already load-bearing via the-deferred-audit, is why paper was never sought rather than merely never offered: demanding a lease from a person granting housing is an audit of whether they can be trusted to keep granting it, which risks the choice to depend on them, not just the housing."
+  - page: wiki/mind/profile/big-five-psychometrics
+    type: contradicts
+    claim: "Trust at the 9th percentile, corpus-confirmed at 1.96x raised suspicion, predicts the opposite of this page's finding — a suspicious mind should want the paper trail housing security depends on. The contradiction is resolved, not left standing, by vertical-authority-skepticism's lateral/vertical split: see 'The mechanism' below."
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: instance-of
+    claim: "Every housing provider in the seven-address table — mother, grandmother, partner, great-grandmother — is a lateral by that page's own definition, which is what scopes the corpus-confirmed low-trust default away from housing entirely: laterals get a trusted-now, audited-later default, and none of these seven relationships was ever audited while it held."
 ---
 
 # The Unpapered Address
+
+> **RE-CHECKED [2026-08-28] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/estate-money-spine]] gained a constitution-pass
+> mechanism section (the Altruism-1 inversion explaining the $14,000 family
+> loan) and a full register table. Nothing in it touches tenancy, paper, or
+> any of the seven addresses. This page's "no absorber, no document" pairing
+> with that page is unaffected.
+
+> **RE-CHECKED [2026-08-28] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/the-deferred-audit]] gained a constitution-pass
+> mechanism section (Ti-dominance and Self-Consciousness 91 explaining why a
+> chosen object's audit threatens the frame and the self-image) and a full
+> register table. The edge into this page — that the 463 Morgantown
+> prediction was already true six times over before it was made — is
+> unchanged; the new material explains the mechanism behind that prediction
+> more precisely without altering it. This page's housing argument reasons
+> from the already-cited claim, not from the new section. Nothing here is
+> affected.
+
+> **RE-CHECKED [2026-08-28] — premise moved, and it stays an open question
+> rather than a settled one.** [[wiki/places/155-virginia-ave]] gained a
+> note recording that a newly surfaced operator account dates Alexis's
+> eviction from the house and Dan's concealment of her to March 2014, with
+> arrival at 155 Virginia Ave "by Christmas 2014" — a few weeks earlier than
+> the January 2015 lease date this page's table uses for that address's
+> start year. That page holds the two accounts open rather than reconciling
+> them, and so does this one: the possible few-week shift touches no claim
+> this page makes (no lease, no rent, no signatory for that address survive
+> either way), and if anything it reinforces the thesis — an informal
+> arrival ahead of any dated lease is the same pattern in miniature. The
+> table's "2015–2019" range is left as-is pending
+> [[wiki/places/155-virginia-ave]]'s own resolution of the contradiction.
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/synthesis/the-deferred-audit]] (2026-08-26), which gained a
@@ -63296,6 +63453,58 @@ relationships at once with no separation of liability — which is the finding
 that keeps this page from reading as a story about her competence and makes it a
 story about a family that does housing this way.
 
+## The mechanism: why the audit that runs on everything else never ran here
+
+The reconciliation [[wiki/mind/synthesis/the-deferred-audit]] already
+supplies explains why a *chosen* object's audit gets deferred until it
+fails — auditing it risks a verdict on the choice, not merely on the
+object. That accounts for delay. It does not, by itself, account for
+*never*: sixteen years and seven addresses without a single documented
+instance of Dan asking for a lease when none was offered is a stronger
+claim than deferral, and it needs a second register to explain fully.
+
+**Ti-dominance is the half already load-bearing here.**
+[[wiki/mind/profile/intp]]'s Ti-dominance (96% latent) defines truth as "a
+system that holds under recursive collapse" — and depending on a person for
+housing is, on that definition, an act of admitting them into the system.
+Demanding paper from someone who has already granted access is not a
+request for a document; it is running the audit [[wiki/mind/synthesis/the-deferred-audit]]
+says a Ti-dominant mind avoids specifically, because a failure would not
+just cost the housing, it would refute the decision to depend on the
+person providing it. That is why Dan manages the *relationship* with John
+Paci — clean rent checks so the landlord "won't have to deliberate" — rather
+than the *contract*: the contract was never the thing being protected.
+
+**Trust at the 9th percentile predicts the opposite, and that is the
+finding worth stating rather than smoothing over.**
+[[wiki/mind/profile/big-five-psychometrics]]'s Trust score is one of the
+handful corpus-confirmed against a real control — 1.96x raised
+suspicion-of-motive language — and a mind running that default should want
+exactly the paper trail this page shows was never sought. Sixteen years of
+zero paper-seeking behavior in the single domain where the material stakes
+of being wrong about someone are highest is the strongest apparent
+counter-instance to Trust 9 anywhere in this session's constitution passes,
+and it does not resolve by appeal to Ti-dominance alone: Ti explains why an
+*existing* dependency doesn't get audited, not why a suspicious mind would
+enter into seven consecutive undocumented dependencies to begin with.
+
+**[[wiki/mind/synthesis/vertical-authority-skepticism]] is what actually
+resolves it.** That page's rule is not "trust is uniformly low" — it is
+that trust is withheld from *verticals* (unaccountable authority) and
+extended by default to *laterals* (peers and intimates), audited later
+rather than audited never, but starting from good faith rather than
+suspicion. Every provider in the seven-address table — mother, maternal
+grandmother, a live-in partner, a great-grandmother — is a lateral by that
+page's own definition, not a vertical. The corpus-confirmed low-trust
+default is not contradicted by this page's finding; it is scoped exactly
+the way [[wiki/mind/synthesis/vertical-authority-skepticism]] already scopes
+it. Housing in this life has never once been held through an institution,
+a landlord with no prior relationship, or any other vertical — it has
+always run entirely inside the one relationship category that gets the
+trusted-now default, which is why the suspicion Trust 9 predicts elsewhere
+in the corpus never surfaces in the one domain that, on paper, most needed
+it.
+
 ## What this explains that its members do not
 
 **Why the 463 exposure was predictable.**
@@ -63362,6 +63571,15 @@ detail. What it does not record is a single one of their terms.
    address in the table is co-held with a partner or a relative. A documented
    solo tenancy would narrow the mechanism from "granted by a person" to
    "granted by a co-occupant," which is a different and weaker claim.
+5. **A housing provider who is a vertical rather than a lateral, treated
+   without paper.** All seven providers in this page's table are laterals
+   by [[wiki/mind/synthesis/vertical-authority-skepticism]]'s own
+   definition, which is exactly what the constitution pass's mechanism
+   argument needs — but it means the claim has never been tested against
+   its own counter-case. A documented unpapered arrangement with an
+   institutional or unrelated-authority landlord would strengthen the
+   mechanism; a documented *papered* arrangement with a lateral would
+   weaken it.
 
 ## Predictions
 
@@ -63411,6 +63629,42 @@ detail. What it does not record is a single one of their terms.
   have very different implications. The February 2019 messages lean toward
   "accepted" — he wanted a lease, his mother demanded one, and what he got was a
   favour — but one address is not a pattern of intent.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`. This
+page had never cited `wiki/mind/profile/`, despite reasoning at length from
+[[wiki/mind/synthesis/the-deferred-audit]]'s own cognitive-stack conclusions
+about why chosen objects go unaudited — and its central claim (a
+corpus-confirmed low-trust person sought zero housing paper for sixteen
+years) turns out to sit in real tension with a Big Five facet this page had
+never checked against.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]]'s Ti-dominance supplies the direct mechanism — see "The mechanism" above — rather than leaving it implicit in the borrowed [[wiki/mind/synthesis/the-deferred-audit]] citation. |
+| 2. Personality profile | **Moved the conclusion, and surfaced a real tension rather than a decorative fit.** [[wiki/mind/profile/big-five-psychometrics]]'s Trust 9 predicts the opposite of this page's finding; resolving that tension (not just citing the number) is what "The mechanism" section does. |
+| 3. Historical precedent | **Checked, left standing.** The seven-address table and the two-instrument analysis are already this page's own historical base. |
+| 4. Attitudes and forces | **Checked, left standing.** [[wiki/mind/concepts/dans-law]] is already a member and already carries the relevant attitude (a missing paper trail as a feature, not an oversight). |
+| 5. Security and prosperity | **Already load-bearing.** [[wiki/mind/synthesis/estate-money-spine]] is already a member — "why there is no absorber" section. |
+| 6. Health | **Checked, does not bear.** No documented chemical or physiological register explains housing-paper-seeking behavior specifically. |
+| 7. Romantic and relational state | **Already load-bearing.** Annie and Alexis both appear as co-holders in the table; no new relational claim was added by this pass. |
+| 8. Age and upbringing | **Checked, left standing.** The pattern is dated from 2010 (424 Bedford); the pre-2010 record is an existing, undisturbed Gap. |
+| 9. Geographic and ethnic culture | **Checked, does not bear** beyond the already-documented family housing pattern the page's own table carries. |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Checked, left standing.** Per the existing "Provenance disclosure" callout, every member is a T1 page read from primary records; the Ti/Fe and Trust figures carry the same corpus-audited/self-commissioned split already stated on [[wiki/mind/synthesis/the-binary-verdict]] and [[wiki/mind/synthesis/the-deferred-audit]] — Trust 9 is corpus-confirmed, the Ti-dominance figure is not, and the mechanism section states that gradient rather than citing both at equal weight. |
+
+**What survived:** the seven-address table, both instruments, the
+tenure-was-discretionary section, and every prediction — none required a
+personality-register mechanism to stand, since they are dated residue.
+**What the pass added:** a resolved tension (a corpus-confirmed low-trust
+score predicting the opposite of what sixteen years of housing behavior
+shows) rather than a merely decorative citation, plus a new falsifier and
+Gap the vertical/lateral framing opens (register 5 above has never been
+tested against its own counter-case). **What it did not do:** manufacture
+a health, ideological, or geographic connection where none of this page's
+content actually bears.
 
 
 ========================================================================
@@ -67649,6 +67903,9 @@ connections:
   - page: wiki/mind/synthesis/ai-collaborative-analysis
     type: evidences
     claim: "This archive is the primary corpus of the AI-collaboration synthesis."
+  - page: wiki/mind/concepts/node-locking
+    type: evidences
+    claim: "This page's theme-frequency table (403 'node,' 1,041 'profile,' 2,258 'lock' mentions, the Jan 2 2026 cluster) is the raw count node-locking's mechanism argument is built from."
 ---
 
 

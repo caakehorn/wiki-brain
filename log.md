@@ -6251,3 +6251,148 @@ Gates: `bin/wiki-lint` 0 errors / 27 warnings (one fewer); `bin/wiki-connect
 check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors / 3 warnings
 (unchanged, pre-existing, unrelated); `bin/wiki-freshness` clean; 125 tests
 pass. 10 of 21 backlog pages remain.
+
+## [2026-08-28] constitution-pass | mind | wiki/interests/food-and-diet
+
+Constitution pass on the 12th of 21 backlog pages (second-to-last non-Annie
+page). This page had never cited `wiki/mind/profile/`, and its central
+finding — an absolute, no-questions-asked composition regime governing every
+plate — had never been checked against the domain-general verdict machinery
+`wiki/mind/synthesis/the-binary-verdict.md` documents for worth, taste,
+trust and legitimacy questions elsewhere in the corpus.
+
+**The finding.** The composition table (accept corn/lettuce, meat/cheese/
+bread-or-shell-or-roll; refuse onion and tomato outright; pickles as "the
+mortal enemy") has no recorded middle state anywhere — no ingredient
+tolerated in a small amount, none picked out and eaten anyway. That is the
+identical shape `the-binary-verdict` finds in worth, taste and trust
+questions, and food composition is a ninth domain instance of that page's
+rule — the most literal one on record, because a sandwich has no relational
+stakes available to blur the verdict the way a person or a taste sometimes
+can. `wiki/mind/profile/intp`'s Ti-dominance (96% latent, pass/fail closure
+test) with Fe at 10% valuing (too weak to run a graded "acceptable enough"
+negotiation) is the mechanism: an unrequested ingredient fails closure
+outright, with nothing available to soften the verdict.
+
+**Did not overclaim.** The regime's origin relative to the adolescent
+bulimia period (`wiki/health/hyperreflexivity`) stays an open Gap — this
+pass supplies a mechanism for why the rule is *absolute*, not a date for
+when it started, and says so directly in the constitution-pass table.
+
+**Write-back, both directions.** `food-and-diet.md` gained two new
+`synthesizes:` members (`intp`, `the-binary-verdict`) with reciprocal edges:
+`caused-by`/`causes` to `intp` (mechanism), `instance-of`/`instantiates` to
+`the-binary-verdict` (domain instance — corrected from an initial
+`contains`/`instance-of` mismatch caught by `bin/wiki-connect check`).
+`the-binary-verdict.md` itself got more than a one-line reciprocal: a new
+row in its own domain table (food composition, ninth domain), an addendum
+note dating the addition and explaining why it's the most literal member on
+the table, and its Gaps bullet revised to record that the ninth domain was
+added independently rather than by its own re-check (health, money and
+work-performance remain untested, unchanged). `intp.md` got a bookkeeping-
+only reciprocal edge, no date bump. `the-binary-verdict.md`'s date_modified
+was already 2026-08-28 from its own pass earlier this session; the new
+material there is substantive rather than mere write-back, but no additional
+bump was needed.
+
+**Cascade check.** No page reasons from `food-and-diet.md` as a premise with
+an earlier date, so no staleness cascade. `wiki-climb check`'s 3 remaining
+warnings (all `wiki/places/the-unpapered-address.md`) are pre-existing and
+unrelated — that page is next in the backlog.
+
+Gates: `bin/wiki-lint` 0 errors / 26 warnings; `bin/wiki-connect check` 0
+errors / 144 warnings (baseline restored after the type-mismatch fix);
+`bin/wiki-climb check` 0 errors / 3 warnings (unchanged, pre-existing);
+`bin/wiki-freshness` clean after `bin/wiki-digest` + `bin/llm-publish`; 125
+tests pass. 9 of 21 backlog pages remain — 1 more non-Annie page
+(`wiki/places/the-unpapered-address.md`), then the 7 Annie-moratorium pages.
+
+Note: PR #204 merged mid-session; branch `claude/constitution-pass-backlog-95zhnz`
+was restarted from fresh `origin/main` per protocol before this pass, since
+no unmerged commits existed beyond the merged history — only this
+in-progress, uncommitted edit, which carried forward cleanly.
+
+## [2026-08-28] constitution-pass | places | wiki/places/the-unpapered-address
+
+Constitution pass on the 13th and last non-Annie backlog page. This page
+had never cited `wiki/mind/profile/`, and it also carried three legitimate
+staleness warnings from `bin/wiki-climb check` (premises in
+`estate-money-spine`, `the-deferred-audit` and `155-virginia-ave` had all
+moved to 2026-08-28 while this page sat at 2026-08-27) — resolved as part
+of the same pass rather than deferred, per CLAUDE.md's "never clear a
+staleness warning by bumping a date" rule.
+
+**The three re-checks.** `estate-money-spine` and `the-deferred-audit` both
+gained constitution-pass mechanism sections unrelated to housing/tenancy —
+re-read, confirmed unaffected, recorded as RE-CHECKED blocks rather than
+silently bumped. `155-virginia-ave` gained a genuinely relevant addition: a
+newly surfaced operator account (from this session's earlier Alexis Armel
+close) dates an eviction/concealment episode to March 2014 with arrival at
+155 Virginia "by Christmas 2014," a few weeks before the January 2015 lease
+date this page's table cites. That page holds two differently-dated
+accounts open rather than reconciling them, and this page does the same —
+the possible shift touches no claim here (no lease, no rent, no signatory
+survive either dating) and if anything reinforces the thesis. Recorded as a
+RE-CHECKED block; the table's date range is left as-is pending the other
+page's own resolution.
+
+**The finding.** A corpus-confirmed low-trust score (Trust 9, 1.96x raised
+suspicion) predicts the opposite of what sixteen years of housing behavior
+shows — zero paper-seeking across seven addresses is the sharpest apparent
+counter-instance to that facet found in this session's passes. Resolved not
+by smoothing it over but by `vertical-authority-skepticism`'s lateral/
+vertical split: every housing provider in the table (mother, grandmother,
+partner, great-grandmother) is a lateral by that page's own definition,
+which is exactly the relationship category that gets a trusted-now,
+audited-later default rather than the suspicion Trust 9 predicts elsewhere.
+`intp`'s Ti-dominance supplies the other half directly (already implicit
+via the already-cited `the-deferred-audit`, now stated as this page's own
+mechanism): demanding paper from a person granting housing audits whether
+they can be trusted to keep granting it, which risks the dependency itself.
+
+**Write-back.** Three new `synthesizes:` members (`intp`,
+`big-five-psychometrics`, `vertical-authority-skepticism`) with reciprocal
+edges on all three pages. New falsifier and Gap recorded: the mechanism has
+never been tested against its own counter-case (a vertical housing provider
+treated without paper, or a lateral treated with it) — stated honestly
+rather than claimed as settled.
+
+Gates: `bin/wiki-lint` 0 errors / 25 warnings (one fewer — the last
+`no wiki/mind/profile/` warning outside the Annie set is gone);
+`bin/wiki-connect check` 0 errors / 144 warnings (baseline); `bin/wiki-climb
+check` **0 errors / 0 warnings** — all staleness debt from the backlog is
+now resolved; `bin/wiki-freshness` clean after `bin/wiki-digest` +
+`bin/llm-publish`; 125 tests pass. `bin/wiki-work scan`: **0 obligations.**
+
+**All 13 non-Annie constitution-pass backlog pages are now done.** Only the
+7 Annie-moratorium pages remain, to be done last, in the order the operator
+set: `attachment-trauma-bond`, `dan-annie-fallout-verdict`,
+`block-unblock-loop`, `august-grievance-verdict`, `the-rescue-premise`,
+`read-receipt-forensics`, `morgantown-call-three-participant-ethical-analysis`.
+Each is bound by the standing Annie moratorium: cognitive-stack and
+profile-layer mechanism citations are permitted, any new narrative, date,
+quote or figure about Annie is not.
+
+## [2026-08-28] connect | mind/self | node-locking.md <-> gemini-activity.md
+
+Track 2: typed the next unprocessed connection-queue pair (score 11.2).
+`wiki/mind/concepts/node-locking.md`'s mechanism argument (403 "node,"
+1,041 "profile," 2,258 "lock" mentions, the Jan 2 2026 forensics-plus-
+locking cluster) is built directly from `wiki/self/gemini-activity/
+gemini-activity.md`'s own theme-frequency table rather than independently
+re-derived — `evidences`/`evidenced-by` typed both directions. The
+next-highest-scored pair (dan-annie-fallout-verdict.md <-> group-chat-
+closure.md, 12.6) was skipped: typing it would be a new typed-edge claim
+about Annie, forbidden under the standing moratorium regardless of
+source quality.
+
+Neither page carries `synthesizes:`, so no staleness question; no
+date_modified bump, per this branch's established connection-queue
+convention (bookkeeping edge, not new argument).
+
+Gates: `bin/wiki-lint` 0 errors / 25 warnings; `bin/wiki-connect check` 0
+errors / 144 warnings (baseline; two pre-existing bare-`## Related`-footer
+warnings on gemini-activity.md and its archive page are unrelated to this
+edit); `bin/wiki-climb check` 0 errors / 0 warnings; `bin/wiki-freshness`
+clean; 125 tests pass. `bin/wiki-work scan`: 0 obligations, 193 standing
+(one fewer).
