@@ -55,6 +55,9 @@ connections:
   - page: wiki/mind/synthesis/the-deferred-audit
     type: evidences
     claim: "Ti's own definition of truth — 'a system that holds under recursive collapse' — is the structural reason a chosen object's audit is never local: selecting something is how this stack extends its own system, so a later audit of that object re-runs the coherence test on a piece of the system that produced the original choice, which is why the finding implicates the chooser rather than staying contained to the object."
+  - page: wiki/mind/synthesis/totality-themes
+    type: evidences
+    claim: "'Dan's own audit apparatus, turned on himself' — that page's phrase for the risk the Irreversibility Firewall defends against — names this stack's Ti-dominance specifically: the same coherence-testing engine that makes truth 'a system that holds under recursive collapse' is what a finished, shipped, or admitted act would expose to a verdict, which is why finishing, shipping and admitting are one category of dangerous event rather than three unrelated ones."
 ---
 
 # INTP — The Cognitive Function Stack

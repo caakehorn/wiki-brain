@@ -5814,3 +5814,45 @@ constitution-pass warning cleared, one other page's warning happened to
 clear in a prior commit); `bin/wiki-connect check` 0 errors / 144 warnings;
 `bin/wiki-climb check` 0 errors, 0 warnings; `bin/wiki-freshness` clean. 18
 of 21 backlog pages remain.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/totality-themes
+
+**Fourth of 21 — the doctrine-level page (T3, 26 synthesizes members before
+this pass).** Unusual case: the page already used Impulsiveness 96 in its
+own opening paragraph to rule out the wrong reading of the Irreversibility
+Firewall (ordinary risk-aversion), and already used the phrase "Dan's own
+audit apparatus, turned on himself" — both uncredited citations of the
+profile layer, never formalized into `synthesizes:`.
+
+**Formalized one existing citation, named one new mechanism.**
+`big-five-psychometrics`' Impulsiveness 96 (corpus-audited at 0.92x baseline
+on immediacy language — the trait scores highest in the whole Big30 table
+yet leaves no behavioral trace) is now a proper member: the control that
+keeps the firewall from being misread as generalized caution rather than
+the narrow, specific act-closure filter it actually is. `intp`'s
+Ti-dominance — truth as "a system that holds under recursive collapse" —
+names what "audit apparatus turned on himself" was always describing: the
+same coherence-testing engine `the-deferred-audit`'s own constitution pass
+(this session, three commits ago) already used for chosen-object audits,
+generalized here to any act (finishing, shipping, admitting) that would
+expose the whole system to that engine's verdict.
+
+**Most registers were already load-bearing.** Unlike the prior three
+passes, security/prosperity (`estate-money-spine`) and health
+(`supply-network`) were already members with substantive treatment, as were
+historical precedent, attitudes/forces, romantic/relational,
+geographic/ethnic, and both ideological/political registers. The
+constitution-pass table records this explicitly rather than re-arguing
+settled ground — the pass's real work here was crediting two uncredited
+citations, not discovering new territory. Provenance (register 12) was also
+already being practiced: the page's 2026-08-11 `note_on_sources` downgrade
+of 17 raw AI-secondary sources to corroboration predates the formal
+constitution-pass rule by 17 days.
+
+Write-back: 2 new `synthesizes:` members, each with a reciprocal typed edge
+and prose sentence; no member date_modified bumped (only 3 pages depend on
+this one via `synthesizes:` — checked before proceeding).
+
+Gates: `bin/wiki-lint` 0 errors / 32 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors, 0 warnings;
+`bin/wiki-freshness` clean. 17 of 21 backlog pages remain.

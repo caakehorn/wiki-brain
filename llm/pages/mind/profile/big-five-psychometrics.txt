@@ -59,6 +59,9 @@ connections:
   - page: wiki/mind/synthesis/the-deferred-audit
     type: evidences
     claim: "Self-Consciousness at 91 — corpus-confirmed at 1.85x self-monitoring in company — is the register that explains why the audit delay attaches specifically to chosen objects: Trust 9 predicts fast suspicion of an outside party's motive, but a chosen-object audit checks Dan's own prior judgment, which is a self-monitoring cost this facet measures directly and Trust 9 does not."
+  - page: wiki/mind/synthesis/totality-themes
+    type: evidences
+    claim: "Impulsiveness 96 is the control that keeps the Irreversibility Firewall from being misread as generalized caution: the trait scores highest in the whole Big30 table, but its own corpus audit finds immediacy language at 0.92x baseline, so the firewall's act-closure filter is a specific, narrow mechanism running underneath a mind that is not measurably cautious in the ordinary sense."
 ---
 
 
