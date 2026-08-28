@@ -5897,3 +5897,20 @@ each with a reciprocal typed edge; no member date_modified bumped.
 Gates: `bin/wiki-lint` 0 errors / 31 warnings (one fewer); `bin/wiki-connect
 check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors, 0 warnings;
 `bin/wiki-freshness` clean. 16 of 21 backlog pages remain.
+
+## [2026-08-28] connect | mind, self | connection-queue.md (totality-themes <-> context-core)
+
+**Track 2, interleaved.** `totality-themes`' Cross-Corpus Extensions section
+cites "the spine" (its nickname for context-core's raw material) as primary
+evidence at least eight times — the alias chronology, the money-flow
+direction, the vertical/romantic-axis starvation reading — while the same
+page's core Irreversibility Firewall section explicitly downgrades the
+identical source to corroboration only (`note_on_sources`, 2026-08-11). One
+page runs two different evidentiary standards for the same source depending
+on which half is reasoning, and neither half linked the wiki page
+(`wiki/self/context-core`) that actually synthesizes it. Typed edges added
+both directions recording the mismatch.
+
+Gates: `bin/wiki-lint` 0 errors / 31 warnings (unchanged); `bin/wiki-connect
+check` 0 errors / 144 warnings (unchanged); `bin/wiki-climb check` 0 errors,
+0 warnings.

@@ -150,6 +150,9 @@ connections:
   - page: wiki/mind/profile/intp
     type: evidenced-by
     claim: "'Dan's own audit apparatus, turned on himself' is this page's own phrase for a specific measured function, not a metaphor: Ti-dominance defines truth as 'a system that holds under recursive collapse,' and the firewall's whole logic — that finishing, shipping and admitting are one category of dangerous act — follows from the fact that any of them lets that same coherence-testing engine render a verdict on the system as a whole."
+  - page: wiki/self/context-core
+    type: evidenced-by
+    claim: "The Cross-Corpus Extensions section (2026-07-15) cites 'the spine' by name as primary evidence at least eight times — the alias chronology, the money-flow direction, the vertical/romantic-axis starvation reading — while the core Irreversibility Firewall section above it deliberately downgraded the same raw material to corroboration only (note_on_sources, 2026-08-11); one page therefore carries two different evidentiary standards for the same source depending on which of its two halves is doing the reasoning, and until this edge neither half linked the wiki page that actually synthesizes that source."
 ---
 
 

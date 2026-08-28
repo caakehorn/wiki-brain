@@ -72,12 +72,17 @@ knowledge. Process top-down; strike entries as done.
 - co-cited from 2 pages
 - [ ] type: ______  claim: ______
 
-## [11.2] wiki/mind/synthesis/totality-themes.md <-> wiki/self/context-core.md
+## [11.2] wiki/mind/synthesis/totality-themes.md <-> wiki/self/context-core.md **(DONE 2026-08-28)**
 - shared source: `raw/self/dox-md/Gemini-_07.md`
 - wiki/mind/synthesis/totality-themes.md names 'spine' unlinked
 - wiki/mind/synthesis/totality-themes.md names 'context_core_expanded' unlinked
 - co-cited from 11 pages
-- [ ] type: ______  claim: ______
+- type: evidenced-by (totality-themes from context-core) / evidences
+  (inverse) — the Cross-Corpus Extensions section cites "the spine" as
+  primary evidence at least eight times while the core Firewall section
+  deliberately downgrades the same source to corroboration only; the
+  mismatch between the two standards, within one page, is now recorded on
+  both sides of the edge.
 
 ## [10.8] wiki/mind/synthesis/totality-themes.md <-> wiki/self/chats/gemini-02.md **(RETIRED 2026-07-18: chats/gemini-02 page deleted — storytime absorbed into wiki/work/au-zaatar + wiki/timeline/periods/2021-2023-employment-block; re-evaluate pair against those pages)**
 - shared source: `raw/self/dox-md/Gemini-_07.md`
