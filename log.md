@@ -6211,3 +6211,43 @@ Gates: `bin/wiki-lint` 0 errors / 28 warnings (one fewer); `bin/wiki-connect
 check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors / 3 warnings
 (unchanged, pre-existing); `bin/wiki-freshness` clean; 125 tests pass. 11
 of 21 backlog pages remain.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/instrument-is-subject
+
+**Eleventh of 21 — the unusual case: this page's own conclusion is about
+repository structure, not directly about Dan**, which its own Gaps section
+already states candidly. Ran the pass in full anyway, per the standing
+instruction that it applies to every synthesis regardless of whether the
+material seems to call for it.
+
+**A register genuinely bears on the origin of the artifact, if not on the
+structural conclusion itself.** The page treats the exocortex prompt's
+evidentiary standard (unwavering honesty, no softening, residue over
+testimony) as a given. `intp`'s Ti-dominance explains why that specific
+standard exists rather than a softer one: "a system that holds under
+recursive collapse, not social consensus" is, verbatim, what the prompt's
+instructions look like once exported from a cognitive style into an
+instruction for a machine. This narrows what "the instrument is the
+subject" means — not merely that an LLM user built an LLM wiki about
+himself, but that the rigor making the wiki trustworthy and the recursion
+making it structurally blind are the same cognitive fact seen from two
+directions.
+
+**Did not overclaim the page's own boundary.** The constitution-pass table
+explicitly states what it did not do: claim the page's structural
+conclusion (about knowledge-propagation across the corpus) is "about Dan"
+the way the other 20 backlog pages are. That boundary is the page's own,
+stated honestly in its pre-existing Gaps section, and this pass respects
+rather than papers over it.
+
+Write-back: 1 new `synthesizes:` member (`intp`), with a `causes`/`caused-by`
+reciprocal edge (a mechanism claim, not merely evidentiary). This page's own
+date_modified bumped (substantive new section); cascaded to
+`the-commissioned-self` (re-checked, confirmed unaffected, bumped);
+`failure-to-launch` and `totality-themes` already current, no further
+cascade.
+
+Gates: `bin/wiki-lint` 0 errors / 27 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors / 3 warnings
+(unchanged, pre-existing, unrelated); `bin/wiki-freshness` clean; 125 tests
+pass. 10 of 21 backlog pages remain.
