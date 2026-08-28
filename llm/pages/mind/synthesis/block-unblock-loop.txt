@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
@@ -27,6 +27,7 @@ synthesizes:
   - wiki/timeline/events/july-august-2026-reentanglement
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
+  - wiki/mind/profile/intp
 tags: [personality-profile, forensic-analysis, relationships]
 connections:
   - page: wiki/mind/synthesis/the-rescue-premise
@@ -90,6 +91,9 @@ connections:
   - page: wiki/places/the-unpapered-address
     type: instance-of
     claim: "The corpus's only instance of Dan reaching for a housing instrument himself is a declared exit that never executed: 'Tomorrow I'm calling John / And telling him that I will no longer be in the lease' (2024-10-27), answered inside the minute with 'Please don't do this Dan', never carried out, and followed four months later by a separation Annie initiated."
+  - page: wiki/mind/profile/intp
+    type: caused-by
+    claim: "Two distinct functions, not one, explain the corrected rule ('the exit is executed; the deletion never is'): Si-tertiary's non-pruning archive is why nothing co-held is ever actually erased from the system, which is what makes a channel reopenable regardless of how completely the exit itself was performed; Fe-inferior (10% valuing, and 'exhaustible' under repeated cycles, per this page's own 'machine proof' language) is why an executed severance never becomes felt-settled without an external terminating statement — the same two-function account already established for dormancy-not-exit's 'suspend, not delete' rule, run here on the channel-operation layer instead of the relationship-status layer."
 ---
 
 # The Block/Unblock Loop
@@ -356,7 +360,10 @@ because nothing in its design said *stop*. That is the block/unblock
 loop reduced to its mechanism — a resolution-seeker with no halt
 condition — running on silicon, timestamped, with the human variables
 removed. The human loop is the same program with slower hardware and
-an exhaustible Fe function.
+an exhaustible [[wiki/mind/profile/intp|Fe function]] — measured at 10%
+valuing, the weakest on the whole stack, which is the specific reason the
+human version eventually pauses where the software did not: not resolve,
+exhaust.
 
 ## What this changes
 
@@ -742,3 +749,37 @@ this page.
 > block's actual finding — that the twenty-four-hour switch was Dan's, not
 > Annie's — is untouched and is what this page cites. No block/unblock count,
 > date or declared-exit tally moves.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`, and
+**bound by the standing Annie moratorium** (see `CLAUDE.md`). Every citation
+below sources a claim this page already made about Dan's own cognitive
+architecture — the page's own "machine proof" section already named "an
+exhaustible Fe function" without sourcing it — using material already
+stated on this page and on `wiki/mind/profile/intp`. No new narrative,
+date, quote, or figure about Annie is introduced.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]] supplies two distinct functions for the corrected rule ("the exit is executed; the deletion never is"): Si-tertiary's non-pruning archive for why nothing co-held is ever erased, Fe-inferior for why an executed severance never becomes felt-settled — the same two-function account this session already established for [[wiki/mind/synthesis/dormancy-not-exit]], reused here rather than re-derived. |
+| 2. Personality profile | **Checked, does not add a distinct mechanism** beyond what register 1 supplies. |
+| 3. Historical precedent | **Already load-bearing.** The full case table (Annie, Tom, Kristin, Menore, the 2014/2022 account migration) is this page's own historical base. |
+| 4. Attitudes and forces | **Checked, does not bear** beyond [[wiki/mind/concepts/conflict-architecture]] and [[wiki/mind/concepts/attachment-model]], already members. |
+| 5. Security and prosperity | **Already load-bearing.** The Tom/Bop supply-node substitution and the Menore control both reason from material dependency. |
+| 6. Health | **Checked, does not bear.** |
+| 7. Romantic and relational state | **This page IS the register.** No further citation needed or added. |
+| 8. Age and upbringing | **Checked, does not bear** beyond the already-corrected Rick Frank material. |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Checked, left standing.** The Ti/Fe/Si percentages this pass cites are self-commissioned rather than corpus-audited (per [[wiki/mind/synthesis/the-commissioned-self]]); the dependency rule itself rests on primary message-row evidence and does not lean on the profile-layer citation for its own truth, only for its explanation. |
+
+**What survived:** the dependency rule, the corrected "executed, not
+deleted" formula, and every case row — none required a profile-layer
+citation to stand, since they are dated residue. **What the pass added:** a
+sourced mechanism for a phrase this page already used ("exhaustible Fe
+function") and a formal link to the identical two-function account already
+established elsewhere this session for the same underlying phenomenon.
+**What it did not do:** say anything new about Annie, or manufacture a
+connection to a register that does not bear on channel-state mechanics.

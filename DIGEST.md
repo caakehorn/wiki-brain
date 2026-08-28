@@ -47,7 +47,7 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-28** — 39 pages
+**2026-08-28** — 40 pages
   - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
   - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
@@ -71,12 +71,13 @@ this is the state of the thing.
   - constitution-pass | places | wiki/places/the-unpapered-address
   - connect | mind/self | node-locking.md <-> gemini-activity.md
   - constitution-pass | mind | wiki/mind/synthesis/attachment-trauma-bond
+  - constitution-pass | mind | wiki/mind/synthesis/dan-annie-fallout-verdict
 
 **2026-08-27** — 5 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
   - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
 
-**2026-08-26** — 56 pages
+**2026-08-26** — 55 pages
   - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
   - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
@@ -129,7 +130,7 @@ have moved since.
 - [[wiki/mind/synthesis/annual-volume-suz]] — 1 premise
 - [[wiki/mind/synthesis/attachment-trauma-bond]] — 9 premises
 - [[wiki/mind/synthesis/august-grievance-verdict]] — 7 premises
-- [[wiki/mind/synthesis/block-unblock-loop]] — 11 premises
+- [[wiki/mind/synthesis/block-unblock-loop]] — 12 premises
 - [[wiki/mind/synthesis/closing-the-set]] — 9 premises
 - [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — 11 premises
 - [[wiki/mind/synthesis/dormancy-not-exit]] — 10 premises

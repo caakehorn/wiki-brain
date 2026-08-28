@@ -88,6 +88,9 @@ connections:
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
     type: causes
     claim: "That page's 'Ti-dominant processing reads emotional bids as propositions to litigate' line is Ti-dominance and Fe-inferior named without being sourced: Ti supplies the adjudication reflex, and Fe at 10% valuing is too weak to supply the empathic acknowledgment the engine skips — 'Fe's absence removes the social brake that would otherwise soften conclusions for company,' running here at full load."
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: causes
+    claim: "Two distinct functions explain that page's corrected rule ('the exit is executed; the deletion never is'): Si-tertiary's non-pruning archive is why nothing co-held is ever actually erased, and Fe-inferior (10% valuing) is why an executed severance never becomes felt-settled without an external terminating statement — the same account already established for dormancy-not-exit, run here on the channel-operation layer."
 ---
 
 # INTP — The Cognitive Function Stack

@@ -6493,3 +6493,34 @@ scan`: 0 obligations, 194 standing (one more — the new BACKLOG.md item).
 5 of 7 Annie-moratorium pages remain: `block-unblock-loop`,
 `august-grievance-verdict`, `the-rescue-premise`, `read-receipt-forensics`,
 `morgantown-call-three-participant-ethical-analysis`.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/block-unblock-loop
+
+Third of 7 Annie-moratorium backlog pages, bound throughout by the standing
+moratorium. Sourced a phrase the page already used unsourced: "the machine
+proof" section named "an exhaustible Fe function" without citing
+`wiki/mind/profile/intp`. Two distinct functions explain the page's
+corrected rule ("the exit is executed; the deletion never is"): Si-tertiary's
+non-pruning archive is why nothing co-held is ever actually erased from the
+system, and Fe-inferior (10% valuing) is why an executed severance never
+becomes felt-settled without an external terminating statement — reusing,
+rather than re-deriving, the identical two-function account this session
+already established for `wiki/mind/synthesis/dormancy-not-exit`'s "suspend,
+not delete" rule, applied here to the channel-operation layer instead of
+the relationship-status layer. No new Annie narrative, date, quote, or
+figure anywhere in this pass.
+
+Write-back: one new `synthesizes:` member (`intp`) with a reciprocal edge.
+
+Gates: `bin/wiki-lint` 0 errors / 22 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors /
+0 warnings; `bin/wiki-freshness` clean; 125 tests pass. `bin/wiki-work
+scan`: 0 obligations, 194 standing. 4 of 7 Annie-moratorium pages remain:
+`august-grievance-verdict`, `the-rescue-premise`, `read-receipt-forensics`,
+`morgantown-call-three-participant-ethical-analysis`.
+
+Note: PR #205 merged mid-session (again) while two more commits were still
+in flight; branch was restarted from fresh `origin/main` and the two
+unmerged commits (`attachment-trauma-bond`, `dan-annie-fallout-verdict`)
+cherry-picked forward per protocol, gates re-verified identical, opened
+PR #206.
