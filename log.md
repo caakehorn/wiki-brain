@@ -1,3 +1,54 @@
+## [2026-08-28] spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
+
+**Operator directive.** Every synthesis conclusion must be checked against the
+person before it is written — cognitive stack, measured personality profile,
+historical precedent, attitudes and the forces acting on him, current security
+and prosperity, health, romantic events, age and upbringing, geographic and
+ethnic culture, religious or ideological programming, axiomatic politics, and
+any other personal factor the material raises. Critical and deterministic, not
+a matter of judgment.
+
+**What prompted it, recorded because the failure is the argument.** The three
+character-concept pages merged earlier the same day (`the-binary-verdict`,
+`no-platonic-channel`, `the-serial-monogamist`) cite **one of the eleven pages
+in `wiki/mind/profile/` between them**, and the page specifically about how
+Dan's mind resolves questions cites **none**. It argued verdicts come out
+binary while factual estimates come out graded, and never reached for `intp`'s
+measured **Ti 96% against Fe 10% valuing** — a dominant function whose job is
+"does this hold together, yes or no" against a near-absent function that would
+produce graded relational judgment. It argued trust has no stable middle value
+without citing **Trust at the 9th percentile**, which `reassurance-architecture`
+had already read as why a confirmation decays rather than carrying forward as a
+prior. The conclusions were not wrong; they were re-derived from behaviour when
+the mechanism was already measured one directory away.
+
+**Written into the governing set, canonical definition in one place:**
+- `SYNTHESIS_SPEC.md` — new step 4 in CLIMB (before the page is written), plus
+  a full section: why it exists, the worked failure above, the eleven registers
+  with the repo paths each lives at, what the pass requires (name the
+  mechanism, let the registers argue back, check the register's own provenance
+  — `enneagram-5w4` carries a live 5w4-vs-5w6 contradiction that any page
+  leaning on the sx/sp stack inherits — record the result, never let it become
+  a citation ritual), and **the floating rule** named as the anti-pattern it
+  stops. Also added to the Anti-patterns list.
+- `CLAUDE.md` — promoted to a fourth entry under "the four things that matter
+  most"; CLIMB renumbered to seven steps with the pass at 4; ANSWER's retrieve
+  step now requires it, since a sage answer about future behaviour is a claim
+  about a specific mind in specific circumstances.
+- `STYLE_GUIDE.md` — new substance rule 11, carrying the format consequence:
+  the page states which registers moved the conclusion, which left it standing,
+  and which the corpus cannot answer (the last being a Gaps entry).
+
+**And a deterministic gate, because a spec nobody runs is a spec nobody
+follows.** `bin/wiki-lint` now warns when a `page_type: synthesis` page's
+`synthesizes:` contains no `wiki/mind/profile/` page. Warning rather than
+error, deliberately: the correct fix is an argument, and a lint rule cannot
+tell a load-bearing citation from a decorative one — but it surfaces on every
+run, which is exactly what did not happen this morning. **21 existing synthesis
+pages trip it**, including two of the three that prompted the rule; that
+backlog is real work, not noise, and is left visible rather than suppressed.
+125 tests pass.
+
 ## [2026-08-28] climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
 
 Operator asked for three concept entries in one request; this is the third,

@@ -79,6 +79,14 @@ The same applies to the wiki's own errors. A rewrite that fixes a false claim sa
 
 Where the material you are holding is the third or fourth instance of a shape seen elsewhere, say so on the page and name the shape. If there is no page above it yet, that is a CLIMB candidate, not a footnote (`SYNTHESIS_SPEC.md`). The wiki's product is not the facts; it is what the facts turn out to be instances of.
 
+## 11. A conclusion has to be about the person, not about the pages
+
+Any page carrying an argued conclusion — every `page_type: synthesis`, most `concept` pages, every sage answer, and the load-bearing reads on entity pages — is checked against Dan's own constitution before it is written: cognitive stack, measured personality profile, historical precedent, the attitudes and forces acting on him, his security and prosperity, health, romantic state, age and upbringing, geographic and ethnic culture, religious or ideological programming, and axiomatic politics.
+
+This is **the constitution pass**, it is mandatory and deterministic, and the full register list with a worked failure case lives in `SYNTHESIS_SPEC.md`. The rule here is the format consequence: **the page states the result.** Which registers moved the conclusion, which were checked and left it standing, and which the corpus cannot presently speak to — the last being a Gaps entry.
+
+A pattern true of six pages is a fact about six pages. What makes it a fact about Dan is the mechanism underneath it, and this wiki usually already has that mechanism measured. Reaching for it is not decoration; a rule with a cognitive-function or psychometric mechanism under it predicts in domains the corpus has not sampled, and the same rule stated from behaviour alone does not.
+
 ## Exemplars
 
 Before rewriting any page, read the exemplar of the same `page_type` and match its shape.
