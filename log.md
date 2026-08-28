@@ -5625,3 +5625,369 @@ larger than claimed, is syntactic complexity: 10.83 words/sentence against 5.62,
 New page `wiki/mind/profile/texting-deviance-audit`; corrections written back to
 `linguistic-profile`, `master-message-dump`, and edges into `voice-modes`,
 `message-circadian-latency`, `forensic-method`.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/the-binary-verdict
+
+**The worked exemplar for the 21-page constitution-pass backlog (SYNTHESIS_SPEC.md,
+adopted this session's predecessor).** This page was the specific failure case
+the rule was written from — three 2026-08-28 syntheses cited one
+`wiki/mind/profile/` page between them, and this one, about how Dan's mind
+resolves questions, cited none.
+
+**Mechanism found: a closure test with no grading function beside it, on a
+corpus-confirmed low-trust default.** `wiki/mind/profile/intp`'s Ti 96%/Fe 10%
+split (Ti tests for binary closure, "does this hold together"; Fe — the
+function that would grade a verdict relationally — is nearly absent, and its
+own text already states "Fe's absence removes the social brake that would
+otherwise soften conclusions for company," never previously cited by this
+page) explains *why* worth/taste/order/conflict/authority/power/allocation
+verdicts collapse to two states. `wiki/mind/profile/big-five-psychometrics`'s
+Trust 9 — the one facet in that table independently corpus-audited (1.96x
+raised suspicion of motive, not self-report) — explains why authority/trust
+verdicts specifically reset to a suspicious default instead of decaying from a
+graded prior, the same mechanism `reassurance-architecture` already reads as
+the reason a relational confirmation does not carry forward. `forensic-method`
+supplies the general case: its own four-step detection procedure is a
+threshold gate with exactly two outputs regardless of how graded the evidence
+feeding it is, and it names the same two registers as its own grounding —
+which closes most of this page's own previously-open "direction of causation"
+Gap (narrowed via a `> **REVISED:**` block, not silently deleted).
+
+**Provenance stated as a gradient, not laundered.** `the-commissioned-self`
+establishes the Ti/Fe percentages are AI-inferred/self-commissioned with no
+independent confirmation, unlike Trust 9. The new mechanism section says this
+explicitly — the argument leans hardest on `calibrated-confidence` (a
+behavioural count with no self-report origin) and Trust 9 (corpus-audited),
+and treats Ti/Fe as the weaker, best-available-explanation register rather
+than citing all three at equal weight. This is itself now a documented
+instance of `the-commissioned-self`'s own standing rule, written back onto
+that page.
+
+**One documented register argued back and was checked, not laundered**: the
+one recorded Fe-adjudication interruption (Aug 18 2026, Ally Lubin) is read as
+a binary flip (wrong → fair), not a graded middle — consistent with, not a
+counter-instance to, the rule. Added as new falsifier 4 (tied to that specific
+interlocutor) and integrated into `intp`'s own Fe section.
+
+**Full constitution-pass table added** covering all eleven registers plus a
+twelfth (provenance): 4 registers moved the conclusion or added a named
+mechanism (cognitive stack, personality profile, romantic/relational via
+reassurance-architecture, provenance), 5 were checked and left standing
+(historical precedent, attitudes/forces, age/upbringing, religious/ideological,
+axiomatic politics), 1 checked and does not bear (geographic/ethnic — the
+Fayette Return page is about regional migration gravity, not cognition), 2
+remain open Gaps rather than silently closed (security/prosperity, health).
+Domain-level rule unchanged; no falsifier found.
+
+**Write-back**: 4 new `synthesizes:` members (`intp`, `big-five-psychometrics`,
+`forensic-method`, `the-commissioned-self`), each with a reciprocal typed edge
+stating the finding and a load-bearing prose sentence on the member page,
+following this repo's established practice of not bumping the member pages'
+`date_modified` for a write-back-only addition (confirmed against precedent:
+`totality-themes`' own 2026-08-28 write-back edge was committed without a date
+bump) — avoids an unwarranted staleness cascade onto the 8 pages that already
+`synthesizes:` these four profile/concept pages.
+
+Gates: `bin/wiki-lint` 0 errors / 34 warnings (one fewer — this page's
+constitution-pass warning cleared); `bin/wiki-connect check` 0 errors / 144
+warnings (baseline, no new); `bin/wiki-climb check` 0 errors, 0 warnings (no
+staleness introduced); `bin/wiki-freshness` clean. 20 of 21 backlog pages
+remain.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/single-channel
+
+**Second of 21.** Zero direct `wiki/mind/profile/` citations despite already
+leaning on the enneagram sx/sp stack indirectly (through `the-unbroken-bond`)
+since the page's first day, 2026-08-01.
+
+**Mechanism found for the falsifier the page itself called "the serious one."**
+`big-five-psychometrics`' Sociability 3 (corpus-audited, 0.73x baseline on
+initiating contact) and Trust 9 (corpus-confirmed, 1.96x raised suspicion)
+explain why so few channels ever clear the vetting bar in the first place —
+that page's own "Reserved" gloss ("people are draining except in rare vetted
+cases") is the mechanism, unlinked to this page until now. This converts
+falsifier 3 (circumstance vs. architecture) from "not currently answerable"
+into a specific, cheap, unrun test: a per-era Gini recomputation (Fayette
+County / NYC / the return) on the same master CSV already cited, which a
+trait-level account predicts should stay flat and a circumstantial account
+predicts should track local social density.
+
+**A dependency disclosed, not a new claim.** The relational leg's own
+mechanism — "an sx-dominant stack that organises life around one relationship
+at maximum voltage" — has been quoted from `the-unbroken-bond` since day one
+without ever citing its source, `enneagram-5w4`, or that page's live
+CONTRADICTION (the only first-person self-typing in the record gives 5w6sx,
+not the 5w4sx the stack is named for). The Gini measurement does not depend
+on which wing is correct; the *explanation* for the relational leg's shape
+does, and that dependency is now stated on the page instead of laundered
+through an intermediate citation. Two new Gaps entries record this and the
+per-era-recomputation test explicitly, rather than treating either as
+resolved.
+
+**Full constitution-pass table added.** 2 registers moved the conclusion
+(personality profile via big-five; romantic/relational via the enneagram
+disclosure) plus provenance (the-commissioned-self's residue-over-testimony
+ranking, which is what lets the Gini survive the wing dispute while the
+explanation does not automatically); geographic/ethnic culture sharpened
+(falsifier 3, above) rather than resolved; cognitive stack checked and found
+no non-decorative argument; 4 registers checked and left standing; 2 remain
+open Gaps (security/prosperity, health).
+
+Write-back: 2 new `synthesizes:` members (`big-five-psychometrics`,
+`enneagram-5w4`), each with a reciprocal typed edge and a load-bearing prose
+sentence; `enneagram-5w4`'s edge is `causes`/`caused-by` (a mechanism claim,
+not merely evidentiary) — caught and corrected a type mismatch before
+committing by running `bin/wiki-connect check` first, per the standing
+reminder from the 2026-08-28 predecessor session's own handoff note. No
+member page's `date_modified` bumped (write-back only), consistent with
+established practice.
+
+Gates: `bin/wiki-lint` 0 errors / 33 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors, 0
+warnings; `bin/wiki-freshness` clean. 19 of 21 backlog pages remain.
+
+## [2026-08-28] connect | mind, people | connection-queue.md (2 pairs: 1 typed, 1 rejected)
+
+**Track 2, interleaved per session brief.** Two top-of-queue pairs processed.
+
+**`vertical-authority-skepticism` <-> `context-core` (evidenced-by /
+evidences).** The political-trajectory line in `context-core` states this
+page's entire organizing formula verbatim — "vertical-authority-skeptic,
+lateral-solidarity-privileging" — a decade before the page independently
+derives the same claim from measured Trust/Assertiveness/Submissiveness
+scores. The page's own prose already said "the spine's own formula" without
+linking to its source; now it does. Typed edges added both directions.
+
+**`danielle-onesi` <-> `wiki/timeline/events/timeline.md` — REJECTED.** The
+mined "'timeline' unlinked" signal is a false positive (matches
+danielle-onesi's own `## Timeline` section header). The timeline page never
+mentions Danielle and her 2009 breakup predates its Nov-2015 coverage
+window; shared raw sources are wide-coverage documents cited by dozens of
+unrelated pages. Recorded as a considered non-edge rather than left
+untouched.
+
+Gates: `bin/wiki-lint` 0 errors / 33 warnings (unchanged); `bin/wiki-connect
+check` 0 errors / 144 warnings (unchanged); `bin/wiki-climb check` 0 errors,
+0 warnings.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/the-deferred-audit
+
+**Third of 21.** This page already practiced a version of register-checking
+on itself (its "Provenance disclosure" callout, dated 2026-08-02, applies
+`instrument-is-subject`'s residue/testimony ranking 26 days before the
+formal constitution-pass rule existed) but had never cited
+`wiki/mind/profile/` directly, despite quoting Big Five scores in its own
+member-comparison table.
+
+**Two registers, answering different halves of the rule.** `intp`'s
+Ti-dominance — truth defined as "a system that holds under recursive
+collapse" — is the structural reason a chosen object's audit is never
+local: selecting something is how a Ti-dominant mind extends its own
+system, so a later audit re-runs the coherence test on a piece of the
+system that produced the original choice. `big-five-psychometrics`'
+Self-Consciousness 91 (corpus-confirmed at 1.85x self-monitoring, distinct
+from Trust 9's already-cited role in the fast/imposed half) is the
+trait-level reason the delay attaches specifically to *self-directed*
+audits: Trust 9 predicts suspicion of another party's motive, but auditing
+a chosen object checks Dan's own prior judgment, which Trust 9 does not
+measure and Self-Consciousness does. The two registers answer the frame-cost
+and the self-image-cost separately rather than competing, and the
+provenance gradient (Self-Consciousness corpus-confirmed; Ti-dominance
+self-commissioned) is stated explicitly, consistent with the pattern set on
+`the-binary-verdict`.
+
+**Full constitution-pass table added.** 2 registers moved the conclusion
+(cognitive stack, personality profile); 6 checked and left standing
+(historical precedent, attitudes/forces, romantic/relational, age/upbringing,
+ideological, axiomatic politics — several already handled at the page's own
+existing rigor); 1 does not bear (geographic/ethnic); 2 remain open Gaps
+(security/prosperity, health) — the health gap notes a loose thread: the
+Menore row already on this page's two-clocks table was never cross-checked
+against `supply-network`'s own account of the same relationship.
+
+Write-back: 2 new `synthesizes:` members (`intp`, `big-five-psychometrics`),
+each with a reciprocal typed edge and prose sentence; no member date_modified
+bumped.
+
+Gates: `bin/wiki-lint` 0 errors / 33 warnings (unchanged — this page's own
+constitution-pass warning cleared, one other page's warning happened to
+clear in a prior commit); `bin/wiki-connect check` 0 errors / 144 warnings;
+`bin/wiki-climb check` 0 errors, 0 warnings; `bin/wiki-freshness` clean. 18
+of 21 backlog pages remain.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/totality-themes
+
+**Fourth of 21 — the doctrine-level page (T3, 26 synthesizes members before
+this pass).** Unusual case: the page already used Impulsiveness 96 in its
+own opening paragraph to rule out the wrong reading of the Irreversibility
+Firewall (ordinary risk-aversion), and already used the phrase "Dan's own
+audit apparatus, turned on himself" — both uncredited citations of the
+profile layer, never formalized into `synthesizes:`.
+
+**Formalized one existing citation, named one new mechanism.**
+`big-five-psychometrics`' Impulsiveness 96 (corpus-audited at 0.92x baseline
+on immediacy language — the trait scores highest in the whole Big30 table
+yet leaves no behavioral trace) is now a proper member: the control that
+keeps the firewall from being misread as generalized caution rather than
+the narrow, specific act-closure filter it actually is. `intp`'s
+Ti-dominance — truth as "a system that holds under recursive collapse" —
+names what "audit apparatus turned on himself" was always describing: the
+same coherence-testing engine `the-deferred-audit`'s own constitution pass
+(this session, three commits ago) already used for chosen-object audits,
+generalized here to any act (finishing, shipping, admitting) that would
+expose the whole system to that engine's verdict.
+
+**Most registers were already load-bearing.** Unlike the prior three
+passes, security/prosperity (`estate-money-spine`) and health
+(`supply-network`) were already members with substantive treatment, as were
+historical precedent, attitudes/forces, romantic/relational,
+geographic/ethnic, and both ideological/political registers. The
+constitution-pass table records this explicitly rather than re-arguing
+settled ground — the pass's real work here was crediting two uncredited
+citations, not discovering new territory. Provenance (register 12) was also
+already being practiced: the page's 2026-08-11 `note_on_sources` downgrade
+of 17 raw AI-secondary sources to corroboration predates the formal
+constitution-pass rule by 17 days.
+
+Write-back: 2 new `synthesizes:` members, each with a reciprocal typed edge
+and prose sentence; no member date_modified bumped (only 3 pages depend on
+this one via `synthesizes:` — checked before proceeding).
+
+Gates: `bin/wiki-lint` 0 errors / 32 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors, 0 warnings;
+`bin/wiki-freshness` clean. 17 of 21 backlog pages remain.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/the-embedded-objective
+
+**Fifth of 21.** Built its entire argument on `acquisition-drive`'s
+completion-drive claim without ever citing `wiki/mind/profile/` directly.
+
+**Ti-dominance explains why an assignment must be re-derived before it
+motivates.** `intp`'s standard of truth — "a system that holds under
+recursive collapse," verified internally, never by external say-so — means
+an assigned goal has not passed verification until Dan privately re-derives
+it (the tip split, the looper ladder), at which point it behaves like any
+other self-generated conclusion. Distinct from `vertical-authority-
+skepticism`'s already-cited Assertiveness/Submissiveness account (why he
+exits hierarchies) — this explains why an assigned *goal* specifically does
+not motivate until re-owned.
+
+**A dependency disclosed rather than resolved.** `acquisition-drive`
+(which this page's entire rule depends on) carries a live `CONTRADICTION`:
+`big-five-psychometrics` reads Impulsiveness 96 as a brake failure while
+acquisition-drive reads the identical behaviour as a working completion
+engine. This page's prose had been taking the engine side throughout —
+"the drive," "the engine" — without ever disclosing that the instrument it
+ultimately rests on disputes that reading. The page's actual evidence
+(dated tenure lengths) doesn't require the dispute to be settled, since
+tenure length is residue regardless of which trait-interpretation is
+correct; the prose narrating *why* did need the disclosure, and now has it.
+
+**Full constitution-pass table added.** 2 registers moved the conclusion
+(cognitive stack, personality profile — the latter by disclosure, not
+resolution); 8 checked and found not to bear (attitudes/forces, security/
+prosperity, romantic/relational, age/upbringing, geographic/ethnic,
+ideological, axiomatic politics) or already partially present (historical
+precedent, health via an existing prediction) — recorded honestly rather
+than forcing connections.
+
+Write-back: 2 new `synthesizes:` members (`intp`, `big-five-psychometrics`),
+each with a reciprocal typed edge; no member date_modified bumped.
+
+Gates: `bin/wiki-lint` 0 errors / 31 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors, 0 warnings;
+`bin/wiki-freshness` clean. 16 of 21 backlog pages remain.
+
+## [2026-08-28] connect | mind, self | connection-queue.md (totality-themes <-> context-core)
+
+**Track 2, interleaved.** `totality-themes`' Cross-Corpus Extensions section
+cites "the spine" (its nickname for context-core's raw material) as primary
+evidence at least eight times — the alias chronology, the money-flow
+direction, the vertical/romantic-axis starvation reading — while the same
+page's core Irreversibility Firewall section explicitly downgrades the
+identical source to corroboration only (`note_on_sources`, 2026-08-11). One
+page runs two different evidentiary standards for the same source depending
+on which half is reasoning, and neither half linked the wiki page
+(`wiki/self/context-core`) that actually synthesizes it. Typed edges added
+both directions recording the mismatch.
+
+Gates: `bin/wiki-lint` 0 errors / 31 warnings (unchanged); `bin/wiki-connect
+check` 0 errors / 144 warnings (unchanged); `bin/wiki-climb check` 0 errors,
+0 warnings.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/dormancy-not-exit
+
+**Sixth of 21.** Had never cited `wiki/mind/profile/` despite two prior
+mechanism corrections (2026-08-02, 2026-08-13) explicitly chasing the exact
+cognitive question a profile-layer register answers directly: why does a
+closure Dan performs himself never feel settled without an external
+terminating statement?
+
+**Two distinct functions for two distinct halves of the rule, not one
+blurred citation.** `intp`'s Si-tertiary (the "vast high-fidelity archive"
+with no pruning) explains the retention half — why a dormant channel costs
+nothing to reactivate after years of silence, a storage property requiring
+no claim about feelings. Fe-inferior at 10% valuing explains the
+ratification half — Ti can decide internally that a tie no longer holds
+together, but the *felt* closure Fe would normally certify is barely
+available, so the June 1 severance held for 52 days (the Ti decision) but
+was never treated as settled until an external signal supplied the
+relational read the stack could not generate itself.
+
+**Explicitly distinguished from the-deferred-audit's mechanism rather than
+duplicating it.** That page's Ti-dominance argument (audits of chosen
+objects are deferred because they risk a verdict on the chooser) explains a
+different, earlier gap than this page's Fe-ratification argument (why an
+audit that HAS run still needs external confirmation). Stated on the page
+as consecutive gaps in one architecture, not the same finding twice.
+
+**Deliberately declined a second profile-layer citation.** Trust 9 and
+Self-Consciousness 91 are already load-bearing for the-deferred-audit's
+adjacent question; the constitution-pass table records the decision not to
+force them onto this page as well, naming SYNTHESIS_SPEC's own warning
+against decorative citation as the reason.
+
+Write-back: 1 new `synthesizes:` member (`intp`), with a reciprocal typed
+edge naming both functions; no member date_modified bumped.
+
+Gates: `bin/wiki-lint` 0 errors / 30 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors, 0 warnings;
+`bin/wiki-freshness` clean. 15 of 21 backlog pages remain.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/estate-money-spine
+
+**Seventh of 21.** A financial/genealogical forensics page rather than a
+cognitive-architecture one — most registers genuinely do not bear, recorded
+as such rather than forced.
+
+**The one register that does bear resolves an apparent contradiction the
+page had been carrying unexamined.** The page's sharpest rule — "a lump
+arriving anywhere in this family is immediately re-lent inside it, on no
+paper, at the moment of arrival" — looks like the opposite of what a
+1st-percentile Altruism score would predict. `big-five-psychometrics`'s own
+2026-08-16 corpus audit already resolved this: Altruism-1 is inverted
+specifically on its *instrumental* half (offering resources unprompted runs
+1.79-2.49x baseline) while the *affective* half (sympathy, condolence) runs
+0.45x. The $14,000 unsecured transfer to Suz is exactly the shape that
+inversion predicts — high-provision, zero documented condolence — which a
+bare "Altruism 1" reading would have called the least likely event in the
+family's ledger.
+
+**Explicitly declined the more obvious-looking explanation.** Impulsiveness
+96 is the tempting account for a fast, undocumented decision, but that
+facet's own corpus audit found no behavioral trace at all (0.92x, flat) —
+using it here would cite the one Big30 facet the audit could not confirm to
+explain something the audit's *other* finding already explains directly.
+Stated on the page rather than reached for the easier-sounding citation.
+
+**Full constitution-pass table added**, honestly recording that 8 of 11
+registers either don't bear on financial forensics or were already
+load-bearing pre-pass (cocaine, Annie, Rick, Fran already members) — no
+manufactured connections.
+
+Write-back: 1 new `synthesizes:` member (`big-five-psychometrics`), with a
+reciprocal typed edge; no member date_modified bumped.
+
+Gates: `bin/wiki-lint` 0 errors / 29 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors, 0 warnings;
+`bin/wiki-freshness` clean. 14 of 21 backlog pages remain.

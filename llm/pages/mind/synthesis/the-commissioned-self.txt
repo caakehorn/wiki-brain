@@ -60,6 +60,9 @@ connections:
   - page: wiki/mind/profile/socionics-and-attitudinal
     type: contains
     claim: "Three further systems on the same subject — Socionics, Attitudinal Psyche, a moral alignment — bring the count to seven independent frameworks run over one person, and 'socionics' returns zero hits in 217,573 messages, which is what makes the framework count a fact about commissioning rather than about interest."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: instantiates
+    claim: "That page's constitution pass is a documented instance of this page's own standing instruction — 'any answer that draws a behavioral prediction from mind/profile/ should cite this page alongside it' — applied to itself: it leans most heavily on calibrated-confidence, the one profile-layer finding with no self-report origin, states plainly that Trust 9 is corpus-audited while the Ti/Fe function split is not, and treats the two as different-strength evidence rather than citing them at equal weight."
 ---
 
 # The Commissioned Self

@@ -20,6 +20,8 @@ synthesizes:
   - wiki/mind/concepts/acquisition-drive
   - wiki/timeline/periods/2021-2023-employment-block
   - wiki/legal/2015-possession-arrest
+  - wiki/mind/profile/intp
+  - wiki/mind/profile/big-five-psychometrics
 tags: [career, personality-profile, forensic-analysis, uniontown-era, nyc-era]
 connections:
   - page: wiki/mind/synthesis/failure-to-launch
@@ -64,6 +66,12 @@ connections:
   - page: wiki/timeline/events/fran-death-vigil
     type: evidenced-by
     claim: "The only commitment in 106,629 sent messages Dan reports back as having gone well, at a seventh of Au Za'atar's duration — tenure and satisfaction are independent variables, and this is the corpus's one case of both landing together."
+  - page: wiki/mind/profile/intp
+    type: evidenced-by
+    claim: "Ti-dominance defines truth as 'a system that holds under recursive collapse,' verified internally rather than by external assignment — an objective handed to him by an employer has not passed that verification and is not yet real to the system, but a goal he re-derives inside the role (the tip split, the looper ladder) has, which is why the engine attaches to the re-derived objective and not to the assignment that contains it."
+  - page: wiki/mind/profile/big-five-psychometrics
+    type: evidenced-by
+    claim: "The intellect/impulsivity paradox this page's completion-drive reading depends on is a live, unresolved dispute rather than settled fact: this instrument reads Impulsiveness 96 as a brake failure, acquisition-drive reads the same behaviour as an engine, and this page inherits the engine reading without ever stating that the instrument itself reads it the other way — carried forward here rather than laundered into consensus."
 ---
 
 # The Embedded Objective
@@ -255,6 +263,52 @@ entirely self-set, none was assigned to anyone, and none completed. The engine
 requires a self-set objective to fire, and having one is not a guarantee that
 it does.
 
+## The mechanism, and the dispute it inherits
+
+Everything above documents *that* a self-set objective sustains a host
+structure while an assignment alone does not. Two measured registers bear
+on *why*, and they carry different weight.
+
+**Ti-dominance is the reason an assignment does not count as real until it
+is re-derived.** [[wiki/mind/profile/intp]] measures dominant introverted
+thinking at 96% latent, and that page defines its standard of truth as "a
+system that holds under recursive collapse, not social consensus" — verified
+internally, by simulation, never by an external authority's say-so. An
+assigned goal arrives already labeled *someone else's conclusion*; it has
+not been run through the internal verification a Ti-dominant system
+requires before treating anything as worth defending. A tip split talked
+into existence, a status ladder tracked on his own terms, a territory
+claimed and named — each of these is the same assignment re-derived from
+first principles into something the internal system now owns, at which
+point it behaves exactly like any other self-generated conclusion: defended
+past the point the external role would justify. This is a genuinely
+different claim from [[wiki/mind/synthesis/vertical-authority-skepticism]]'s
+already-cited Assertiveness/Submissiveness account of why Dan exits
+hierarchies — that page explains why he does not compete for authority;
+this page's mechanism explains why an assigned *goal specifically* does not
+register as motivating until it has been privately re-authored.
+
+**The completion-drive reading this page depends on is a live dispute, not
+settled fact, and it has to be carried forward rather than resolved by
+citing it.** This page's whole argument rests on
+[[wiki/mind/concepts/acquisition-drive]]'s claim that a self-set objective
+recruits a real completion engine — and that page's own frontmatter carries
+a `> **CONTRADICTION:**` this page has never mentioned:
+[[wiki/mind/profile/big-five-psychometrics]] reads the same Impulsiveness-96
+behaviour as a **brake failure** (the "diagnosis-to-behaviour gap"), while
+acquisition-drive reads it as an **engine that works**. Both readings are
+consistent with everything in this page's own table — a payload that
+recruits 41 months of tenure looks identical whether the underlying trait is
+"an engine firing on a self-chosen target" or "an impulse-control deficit
+that happens to lock onto whatever object was self-selected first." **This
+page's own evidence does not decide between them**, because tenure length
+is a residue fact (dated job records) that holds regardless of which
+interpretation of the trait is correct — but the *prose* explaining the
+tenure ("the drive," "the engine," borrowed uncritically from
+acquisition-drive throughout this page) has been taking a side the
+underlying instrument itself disputes. That is now on the record instead of
+quietly inherited.
+
 ## Tenure and satisfaction are different axes
 
 This page measures how long a commitment lasts. It says nothing about whether
@@ -362,3 +416,34 @@ deliberately and says so, but nothing in the corpus describes him choosing
 > tenure. The diagnostic claim — that the job ended when the assigned demand
 > came, with no payload to sustain it — is unaffected by the later reversal.
 > The conclusion survives.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`. This
+page had never cited `wiki/mind/profile/` directly, despite building its
+entire argument on `acquisition-drive`'s completion-drive claim, which does.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]]'s Ti-dominance explains why an assignment must be internally re-derived before it can motivate — see "The mechanism" above. |
+| 2. Personality profile | **Surfaced an inherited dispute rather than resolving it.** [[wiki/mind/profile/big-five-psychometrics]] reads Impulsiveness 96 as brake failure where `acquisition-drive` (which this page depends on) reads the same behaviour as a working engine. This page's own residue (dated tenure lengths) does not require either reading to be correct, but its prose had been taking a side without saying so — now disclosed. |
+| 3. Historical precedent | **Checked, left standing.** The four-job table and the 2015 arrest are already this page's own historical evidence base. |
+| 4. Attitudes and forces | **Checked, does not add new material.** No chaos-preference or political material bears on employment tenure specifically. |
+| 5. Security and prosperity | **Checked, does not bear directly.** [[wiki/mind/synthesis/estate-money-spine]] concerns capital events, not employment tenure; the two domains do not obviously interact and no connection was forced. |
+| 6. Health | **Checked, one thread already present.** [[wiki/mind/synthesis/supply-network]] is the subject of prediction 3 (the Suboxone regimen as a converted self-set objective) but is not a full member; the connection is a prediction, not yet a finding. |
+| 7. Romantic and relational state | **Checked, does not bear.** [[wiki/mind/synthesis/the-unbroken-bond]]'s single-slot occupancy logic is a parallel structure, not a shared mechanism, and this page does not claim one. |
+| 8. Age and upbringing | **Checked, does not bear.** No developmental account of the payload-embedding habit exists in the corpus; not manufactured here. |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** The four jobs span Uniontown and resort settings without a regional pattern this page's rule depends on. |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear directly**, beyond the already-cited parallel to vertical-authority-skepticism's exit-the-hierarchy finding. |
+| 12. Other — provenance | **Applied.** The acquisition-drive CONTRADICTION this page silently depended on is now stated on this page rather than left for a reader to discover by following the link. |
+
+**What survived:** the payload rule and every row in its evidence table —
+none of them require the completion-drive/brake-failure dispute to be
+settled, because tenure length is residue. **What the pass added:** a
+cognitive mechanism (Ti-dominance) for why re-derivation is what converts
+an assignment into something motivating, and a disclosed dependency (the
+inherited Impulsiveness dispute) that was previously invisible on this
+page. **What it did not do:** resolve the dispute, or manufacture
+connections to registers (age/upbringing, geographic culture, security) that
+genuinely do not bear on employment-tenure mechanics.

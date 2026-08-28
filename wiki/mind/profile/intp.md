@@ -49,6 +49,21 @@ connections:
   - page: wiki/mind/profile/neurodivergence
     type: parallels
     claim: "The self-identified-autistic label and this INTP read describe the same measured profile — bottom-percentile sociability, explicit-over-inferred meaning, systematizing run for its own sake — in two different vocabularies, neither checked against the other before both were accepted."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: evidences
+    claim: "The Ti-dominant/Fe-inferior split (96% latent vs. 10% valuing) is the cognitive-function mechanism behind a corpus-wide pattern: verdict questions on a person's worth, a taste's authenticity, an order's legitimacy or an actor's trustworthiness collapse to two states because the dominant function tests only for binary closure while the function that would grade a verdict relationally is nearly absent — 'Fe's absence removes the social brake that would otherwise soften conclusions for company' is that page's rule, stated here first."
+  - page: wiki/mind/synthesis/the-deferred-audit
+    type: evidences
+    claim: "Ti's own definition of truth — 'a system that holds under recursive collapse' — is the structural reason a chosen object's audit is never local: selecting something is how this stack extends its own system, so a later audit of that object re-runs the coherence test on a piece of the system that produced the original choice, which is why the finding implicates the chooser rather than staying contained to the object."
+  - page: wiki/mind/synthesis/totality-themes
+    type: evidences
+    claim: "'Dan's own audit apparatus, turned on himself' — that page's phrase for the risk the Irreversibility Firewall defends against — names this stack's Ti-dominance specifically: the same coherence-testing engine that makes truth 'a system that holds under recursive collapse' is what a finished, shipped, or admitted act would expose to a verdict, which is why finishing, shipping and admitting are one category of dangerous event rather than three unrelated ones."
+  - page: wiki/mind/synthesis/the-embedded-objective
+    type: evidences
+    claim: "Ti's internal-verification standard ('a system that holds under recursive collapse,' never social consensus) is why an assignment does not motivate until it is privately re-derived: a goal handed over by an employer has not passed that verification, but the same goal re-authored on Dan's own terms (a tip split, a status ladder) has, and behaves afterward like any other self-generated conclusion — defended past the point the external role would justify."
+  - page: wiki/mind/synthesis/dormancy-not-exit
+    type: evidences
+    claim: "Two functions explain two different halves of that page's 'suspend, not delete' rule: Si-tertiary's non-pruning archive is why a dormant tie costs nothing to reactivate after years of silence, and Fe-inferior at 10% valuing is why a Ti-generated decision that a tie is over never becomes felt-settled without an external terminating statement supplying the relational judgment this stack cannot produce internally."
 ---
 
 # INTP — The Cognitive Function Stack
@@ -153,7 +168,10 @@ corpus completes that sequence. The finding is not that Fe improved — it is
 that the conversion is refusable from the outside, by narrowing the claim
 rather than escalating against it, which raises the open question of whether
 the 10%-valuing score is a fixed ceiling or a floor a particular kind of
-interlocutor can lift.
+interlocutor can lift. Read against [[wiki/mind/synthesis/the-binary-verdict]],
+even that one exception is a **binary flip** (wrong → fair) rather than a
+graded middle ("partly fair"): the gate moved, but a gate is still what it
+is.
 
 ## The stack as one machine
 

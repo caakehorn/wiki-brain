@@ -29,9 +29,9 @@ simply listed.
 |---|---|---|
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a REVISED)_ |
 | [[wiki/mind/synthesis/no-platonic-channel]] | mind | — |
-| [[wiki/mind/synthesis/the-binary-verdict]] | mind | — |
+| [[wiki/mind/synthesis/the-binary-verdict]] | mind | **REVISED** — This entry previously asked whether the binary default is downstream of Core Axiom 1 specifically, or an instance of a more general Ti-dominant, forensic-verdict cognitive style, and flagged forensic- |
 | [[wiki/mind/synthesis/the-serial-monogamist]] | mind | — |
 
 ## 2026-08-27 — 9 pages

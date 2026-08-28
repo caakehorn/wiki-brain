@@ -10,13 +10,26 @@ simply listed.
 
 ## 2026-08-28 — 6 pages
 
+- **Session log:** spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
+- **Session log:** climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
+- **Session log:** climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
+- **Session log:** climb | mind | the-binary-verdict (9 synthesized, 0 rejected)
+- **Session log:** constitution-pass | mind | wiki/mind/synthesis/the-binary-verdict
+- **Session log:** constitution-pass | mind | wiki/mind/synthesis/single-channel
+- **Session log:** connect | mind, people | connection-queue.md (2 pairs: 1 typed, 1 rejected)
+- **Session log:** constitution-pass | mind | wiki/mind/synthesis/the-deferred-audit
+- **Session log:** constitution-pass | mind | wiki/mind/synthesis/totality-themes
+- **Session log:** constitution-pass | mind | wiki/mind/synthesis/the-embedded-objective
+- **Session log:** connect | mind, self | connection-queue.md (totality-themes <-> context-core)
+- **Session log:** constitution-pass | mind | wiki/mind/synthesis/dormancy-not-exit
+
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a REVISED)_ |
 | [[wiki/mind/synthesis/no-platonic-channel]] | mind | — |
-| [[wiki/mind/synthesis/the-binary-verdict]] | mind | — |
+| [[wiki/mind/synthesis/the-binary-verdict]] | mind | **REVISED** — This entry previously asked whether the binary default is downstream of Core Axiom 1 specifically, or an instance of a more general Ti-dominant, forensic-verdict cognitive style, and flagged forensic- |
 | [[wiki/mind/synthesis/the-serial-monogamist]] | mind | — |
 
 ## 2026-08-27 — 9 pages

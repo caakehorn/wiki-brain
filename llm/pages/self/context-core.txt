@@ -40,6 +40,12 @@ connections:
   - page: wiki/mind/profile/neurodivergence
     type: contains
     claim: "This spine's one-line 'self-identified autistic' is carried as settled fact; the neurodivergence page traces that claim to its actual sourcing — three convergent AI-secondary documents and no clinical or diagnostic record — and qualifies it accordingly."
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: evidences
+    claim: "The political-trajectory line's own formula — 'vertical-authority-skeptic, lateral-solidarity-privileging' — states that page's entire thesis in seven words, in a source written for an unrelated political summary, a decade before the measured Trust/Assertiveness/Submissiveness scores that page later builds the same claim from independently."
+  - page: wiki/mind/synthesis/totality-themes
+    type: evidences
+    claim: "That page's Cross-Corpus Extensions section cites this material by its nickname ('the spine') as primary evidence at least eight times, while its own core Irreversibility Firewall section explicitly downgrades the same source to corroboration only — one page running two different evidentiary standards for this source depending on which half is reasoning, which its own note_on_sources block does not flag."
 related:
   - wiki/self/overview
   - wiki/mind/concepts/conflict-architecture

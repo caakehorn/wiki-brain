@@ -50,6 +50,8 @@ synthesizes:
   - wiki/mind/concepts/erotic-architecture
   - wiki/mind/synthesis/music-as-identity
   - wiki/mind/synthesis/political-psyops
+  - wiki/mind/profile/big-five-psychometrics
+  - wiki/mind/profile/intp
 tags: [ai-collaboration, trauma-bond, politics, personality-profile, forensic-analysis]
 connections:
   - page: wiki/mind/synthesis/dan-annie-fallout-verdict
@@ -142,6 +144,15 @@ connections:
   - page: wiki/mind/synthesis/the-binary-verdict
     type: component-of
     claim: "Core Axiom 1 — 'not exceptional = worthless' — is the clearest worth-domain instance of a corpus-wide rule: verdict questions collapse to two states with no recorded middle value, while the same mind grades unwitnessed facts on a continuous numeric scale."
+  - page: wiki/mind/profile/big-five-psychometrics
+    type: evidenced-by
+    claim: "Impulsiveness 96 is the control that proves the firewall is narrow rather than a generalized caution dial: the trait scores at the top of the whole Big30 table, but its own corpus audit finds the immediacy language a globally impulsive mind would produce runs at 0.92x baseline — Dan is not measurably cautious, which is what makes the specific act-closure filter this page derives a real finding rather than a redescription of temperament."
+  - page: wiki/mind/profile/intp
+    type: evidenced-by
+    claim: "'Dan's own audit apparatus, turned on himself' is this page's own phrase for a specific measured function, not a metaphor: Ti-dominance defines truth as 'a system that holds under recursive collapse,' and the firewall's whole logic — that finishing, shipping and admitting are one category of dangerous act — follows from the fact that any of them lets that same coherence-testing engine render a verdict on the system as a whole."
+  - page: wiki/self/context-core
+    type: evidenced-by
+    claim: "The Cross-Corpus Extensions section (2026-07-15) cites 'the spine' by name as primary evidence at least eight times — the alias chronology, the money-flow direction, the vertical/romantic-axis starvation reading — while the core Irreversibility Firewall section above it deliberately downgraded the same raw material to corroboration only (note_on_sources, 2026-08-11); one page therefore carries two different evidentiary standards for the same source depending on which of its two halves is doing the reasoning, and until this edge neither half linked the wiki page that actually synthesizes that source."
 ---
 
 
@@ -262,6 +273,42 @@ that conversion from happening, or to happen only when it can no longer be
 avoided — and the four sections below are the same mechanism read off four
 completely different corpora, none of which cite each other.
 
+### The measured mechanism, not just the behavioral one
+
+Two things above are already citing the measured profile layer without
+being formally wired to it, which the 2026-08-28 constitution pass
+(SYNTHESIS_SPEC.md) makes explicit rather than leaves implicit.
+
+**Impulsiveness 96 is not a counter-instance; it is the control that proves
+the firewall is narrow.** The opening paragraph already uses
+[[wiki/mind/profile/big-five-psychometrics]]'s Impulsiveness score to rule
+out the obvious wrong reading — that this is ordinary risk-aversion. That
+figure is corpus-audited, not merely self-reported, and the 2026-08-16
+audit found it runs at **0.92x baseline**, meaning the immediacy language
+that would accompany a globally impulsive mind is *absent* from the message
+record even though the trait score is the highest in the whole Big30 table.
+Read together, the two facts sharpen rather than soften the firewall's
+claim: Dan is not measurably cautious in the ordinary behavioral sense, and
+the rule that governs which acts get finished, closed, or admitted is
+therefore not a generalized caution dial turned up. It is a specific,
+narrow filter running underneath a mind that is otherwise, and measurably,
+uncautious.
+
+**"Dan's own audit apparatus, turned on himself" is a description of a
+specific cognitive function, not a figure of speech.**
+[[wiki/mind/profile/intp]] measures dominant introverted thinking at 96%
+latent, defined on that page as building "a system that holds under
+recursive collapse" — the same apparatus
+[[wiki/mind/synthesis/the-deferred-audit]]'s own constitution pass names as
+the reason a chosen object's audit is never local, because auditing it
+re-runs the coherence
+test on the system that produced the choice. The firewall generalizes that
+one step further: it is not only relational choices that risk this, it is
+**any act that would let the same engine render a verdict on the
+system as a whole**, which is why finishing, shipping, and admitting are
+one category rather than three. The engine that makes the firewall
+necessary and the engine the firewall is defending against are the same
+engine.
 
 > **RE-CHECKED [2026-08-16] — premise moved, conclusion survives, and one
 > prediction gains a boundary.**
@@ -489,6 +536,37 @@ does that derivation properly. And this page's own `synthesizes:` list —
 contradicts the rule outright rather than merely failing to instantiate
 it; absence of a found counter-instance is not the same as a search that
 was run to completion.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`. This
+page had never formally cited `wiki/mind/profile/` despite already using
+Impulsiveness 96 in its opening paragraph to rule out the wrong reading of
+its own rule — the citation existed in prose, uncredited in `synthesizes:`.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]]'s Ti-dominance turns "Dan's own audit apparatus, turned on himself" from a phrase into a named mechanism — see "The measured mechanism" above. |
+| 2. Personality profile | **Formalized an existing citation.** [[wiki/mind/profile/big-five-psychometrics]]'s Impulsiveness 96, already used in this page's opening paragraph, is now in `synthesizes:` with its own corpus-audit figure (0.92x baseline) added — the control that keeps the firewall from being misread as generalized caution. |
+| 3. Historical precedent | **Checked, left standing.** The page's own four-prediction structure already draws on `dormancy-not-exit`, `the-unbroken-bond`, and the timeline layer as load-bearing members. |
+| 4. Attitudes and forces | **Checked, left standing.** [[wiki/mind/concepts/chaos-preference]] and [[wiki/mind/concepts/the-cool-metric]] are already members. |
+| 5. Security and prosperity | **Checked, already load-bearing.** [[wiki/mind/synthesis/estate-money-spine]] is already a member — capital "arrives in lumps and exits through standing drains" rather than accumulating into a static, adjudicable fact is already read as the firewall applied to money. |
+| 6. Health | **Checked, already load-bearing.** [[wiki/mind/synthesis/supply-network]] is already a member — the continuously-operating procurement architecture since 2011 is already read as the no-delete prediction running on chemistry rather than relationships. |
+| 7. Romantic and relational state | **Checked, left standing.** [[wiki/mind/synthesis/the-unbroken-bond]], [[wiki/mind/concepts/attachment-model]] and [[wiki/mind/synthesis/dan-annie-fallout-verdict]] are already load-bearing members, including the page's own explicit "this is the firewall's cost, not its defense" caveat. |
+| 8. Age and upbringing | **Checked, does not add new material this pass.** The page's origin material is inherited from the same 2005-hinge account [[wiki/mind/synthesis/the-deferred-audit]] already marks as testimony; not independently re-derived here. |
+| 9. Geographic and ethnic culture | **Checked, already load-bearing.** [[wiki/mind/synthesis/fayette-return]] is already a member. |
+| 10. Religious and ideological programming | **Checked, already load-bearing.** [[wiki/mind/politics/axioms]] and [[wiki/mind/synthesis/political-psyops]] are already members. |
+| 11. Axiomatic politics | **Checked, already load-bearing.** Same members as register 10 above. |
+| 12. Other — provenance | **Checked, left standing.** This page's own `note_on_sources` block already downgrades the original 17 AI-secondary raw sources to corroboration and derives the firewall from the wiki's T2/T3 layer instead — the residue-over-testimony discipline `the-commissioned-self` and `instrument-is-subject` require was already being practiced here since 2026-08-11. |
+
+**What survived:** the firewall's one-sentence rule and all four predictions
+are unchanged — this is the rare backlog page where most registers were
+already load-bearing members by the time the formal rule existed; the pass
+mainly formalized citations and named two mechanisms (Ti-dominance,
+Impulsiveness-as-control) the page was already using without crediting.
+**What it did not do:** run the "hunt for a counter-instance" the page's own
+existing Gaps paragraph already calls for — that remains exactly as open as
+it was before this pass.
 
 ---
 

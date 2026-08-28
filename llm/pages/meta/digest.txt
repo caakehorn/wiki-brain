@@ -25,8 +25,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | Pages touched in the last 14 days | 195 |
 | Pages reasoning from other pages (`synthesizes:`) | 48 |
 | Live contradictions | 46 |
-| Open gaps | 478 |
-| Standing predictions | 64 |
+| Open gaps | 480 |
+| Standing predictions | 65 |
 
 ## By domain
 
@@ -56,6 +56,18 @@ between regenerations. Do not hand-edit here — rerun the tool._
 ## The last few days
 
 **2026-08-28** — 6 pages
+  - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
+  - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
+  - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
+  - climb | mind | the-binary-verdict (9 synthesized, 0 rejected)
+  - constitution-pass | mind | wiki/mind/synthesis/the-binary-verdict
+  - constitution-pass | mind | wiki/mind/synthesis/single-channel
+  - connect | mind, people | connection-queue.md (2 pairs: 1 typed, 1 rejected)
+  - constitution-pass | mind | wiki/mind/synthesis/the-deferred-audit
+  - constitution-pass | mind | wiki/mind/synthesis/totality-themes
+  - constitution-pass | mind | wiki/mind/synthesis/the-embedded-objective
+  - connect | mind, self | connection-queue.md (totality-themes <-> context-core)
+  - constitution-pass | mind | wiki/mind/synthesis/dormancy-not-exit
 
 **2026-08-27** — 9 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
@@ -117,8 +129,8 @@ have moved since.
 - [[wiki/mind/synthesis/block-unblock-loop]] — 11 premises
 - [[wiki/mind/synthesis/closing-the-set]] — 9 premises
 - [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — 9 premises
-- [[wiki/mind/synthesis/dormancy-not-exit]] — 9 premises
-- [[wiki/mind/synthesis/estate-money-spine]] — 5 premises
+- [[wiki/mind/synthesis/dormancy-not-exit]] — 10 premises
+- [[wiki/mind/synthesis/estate-money-spine]] — 6 premises
 - [[wiki/mind/synthesis/failure-to-launch]] — 17 premises
 - [[wiki/mind/synthesis/fayette-return]] — 6 premises
 - [[wiki/mind/synthesis/instrument-is-subject]] — 4 premises
@@ -126,17 +138,17 @@ have moved since.
 - [[wiki/mind/synthesis/music-as-identity]] — 3 premises
 - [[wiki/mind/synthesis/no-platonic-channel]] — 9 premises
 - [[wiki/mind/synthesis/read-receipt-forensics]] — 2 premises
-- [[wiki/mind/synthesis/single-channel]] — 6 premises
+- [[wiki/mind/synthesis/single-channel]] — 8 premises
 - [[wiki/mind/synthesis/supply-network]] — 9 premises
-- [[wiki/mind/synthesis/the-binary-verdict]] — 9 premises
+- [[wiki/mind/synthesis/the-binary-verdict]] — 13 premises
 - [[wiki/mind/synthesis/the-cato-seat]] — 9 premises
 - [[wiki/mind/synthesis/the-commissioned-self]] — 10 premises
-- [[wiki/mind/synthesis/the-deferred-audit]] — 9 premises
-- [[wiki/mind/synthesis/the-embedded-objective]] — 8 premises
+- [[wiki/mind/synthesis/the-deferred-audit]] — 11 premises
+- [[wiki/mind/synthesis/the-embedded-objective]] — 10 premises
 - [[wiki/mind/synthesis/the-rescue-premise]] — 13 premises
 - [[wiki/mind/synthesis/the-serial-monogamist]] — 8 premises
 - [[wiki/mind/synthesis/the-unbroken-bond]] — 5 premises
-- [[wiki/mind/synthesis/totality-themes]] — 26 premises
+- [[wiki/mind/synthesis/totality-themes]] — 28 premises
 - [[wiki/people/alexander-jackson]] — 1 premise
 - [[wiki/people/ally-lubin-cognitive-profile]] — 4 premises
 - [[wiki/people/annie-ulmer-personality-assessment]] — 1 premise

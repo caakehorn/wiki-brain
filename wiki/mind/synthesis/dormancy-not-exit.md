@@ -22,6 +22,7 @@ synthesizes:
   - wiki/people/franki-faris
   - wiki/places/155-virginia-ave
   - wiki/mind/synthesis/the-unbroken-bond
+  - wiki/mind/profile/intp
 tags: [relationships, nyc-era, uniontown-era, forensic-analysis]
 connections:
   - page: wiki/mind/synthesis/the-rescue-premise
@@ -82,6 +83,9 @@ connections:
   - page: wiki/self/concepts/ally-and-dan-love-as-destiny
     type: instance-of
     claim: "The Ally channel is the rule's longest-running case — thirty-eight and fourteen-month silences that closed nothing, then an August 2026 reactivation at the highest amplitude yet, which that page reads as a phase change and this rule reads as the pattern running normally."
+  - page: wiki/mind/profile/intp
+    type: evidenced-by
+    claim: "Two distinct functions on that page explain two distinct halves of this page's rule: tertiary Si's high-fidelity, non-pruning archive is why nothing decays out of the graph in the first place, and inferior Fe — the function that would certify a closure as socially, relationally real — is nearly absent, which is why a Ti-generated decision that a tie is over never becomes felt-settled without an external terminating statement supplying the Fe judgment Dan cannot generate for himself."
 ---
 
 # Dormancy, Not Exit
@@ -313,6 +317,55 @@ block is the closest thing the corpus has to that case.
 > email rather than the blocked channel. A second initiated suspension with nothing
 > co-held should not reopen at all, and if one does, the suspend/delete distinction is
 > wrong and the reopening is internal after all.
+
+### The mechanism, named at the function level (added 2026-08-28)
+
+The 2026-08-13 correction above replaced one mechanism ("closing requires a
+counterparty") with a sharper one ("suspend, not delete — the counterparty
+ratifies, doesn't perform, the closure"), and left open *why* a closure
+Dan performs perfectly well cannot be treated as settled without that
+ratification. Two functions on [[wiki/mind/profile/intp]], read separately
+rather than as one blur, answer two different halves of that question.
+
+**Si-tertiary is why nothing decays out of the graph at all.** That page
+describes tertiary introverted sensing as "the vast high-fidelity archive"
+that "maintains... the minute recall of years-old details," retained
+without the pruning an ordinary memory performs. A channel does not need
+active maintenance to survive 2,044 days of silence, because nothing about
+this architecture forgets a node exists — dormancy costs nothing precisely
+because the archive was never going to drop the entry regardless of
+contact frequency. This is the retention half of the rule, and it requires
+no claim about feelings or decisions at all: it is closer to a storage
+property than a relational one.
+
+**Fe-inferior is why a self-performed closure never becomes *felt* as
+settled.** [[wiki/mind/profile/intp]] measures Fe — the function whose job
+is exactly the socially-anchored, relationally-calibrated judgment of
+"is this actually over" — at 10% valuing, the weakest score on the whole
+five-function table. Ti can determine, on its own authority, that a tie no
+longer holds together ("I am 95% sure this is over," in the idiom
+[[wiki/mind/concepts/calibrated-confidence]] documents him using
+everywhere else). What Ti cannot supply is the *felt* closure Fe would
+normally certify, because Fe is barely active. The June 1 severance shows
+exactly this split: Dan executed the closing operation without difficulty
+and sustained it for fifty-two days against direct pressure — the Ti
+decision held — but never treated it as *settled*, and reactivated the
+moment an external signal (Annie's silence breaking) supplied the
+relational read his own Fe could not generate. The counterparty's
+terminating statement is not a formality this architecture is choosing to
+wait for. It is importing a judgment the system has no reliable internal
+source for.
+
+**This sharpens, rather than duplicates,
+[[wiki/mind/synthesis/the-deferred-audit]]'s Ti-dominance mechanism.** That
+page's constitution pass argues a chosen object's audit risks a verdict on
+the chooser, which is why audits of chosen objects are deferred until the
+object fails on its own. This page's mechanism is narrower and comes after
+that one in sequence: even once an audit *has* run and produced a closure
+decision, that decision still needs a second, different kind of
+confirmation — not a further Ti coherence check, but the Fe-shaped social
+ratification the stack cannot produce internally. The two pages describe
+consecutive gaps in the same architecture, not the same gap twice.
 
 > **RE-CHECKED [2026-08-03] — premise moved, conclusion untouched.**
 > [[wiki/places/155-virginia-ave]] was edited today to flag that its January
@@ -641,4 +694,36 @@ documents across different people.
 > *(A first version of this block put her departure from Pennsylvania in
 > mid-January 2016 on a misread pronoun; corrected the same day — see
 > [[wiki/mind/synthesis/bond-switch-2015]]. She stayed.)*
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`. This
+page had never cited `wiki/mind/profile/` despite two mechanism corrections
+(2026-08-02, 2026-08-13) explicitly chasing the cognitive question a
+profile-layer register answers directly.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]]'s Si-tertiary explains the retention half (nothing decays from the archive); Fe-inferior explains the ratification half (why a self-performed closure never feels settled) — see "The mechanism, named at the function level" above. |
+| 2. Personality profile | **Checked, deliberately not added.** Trust 9 and Self-Consciousness 91 are already load-bearing for the adjacent question of audit *timing* on [[wiki/mind/synthesis/the-deferred-audit]]; forcing them here on top of the Ti/Si/Fe account this page actually needs would be the decorative citation SYNTHESIS_SPEC warns against. |
+| 3. Historical precedent | **Checked, left standing.** The member table (Danielle, Alexis, 424 Bedford, Menore, James Dee, Franki) is this page's own historical evidence base and required no new material. |
+| 4. Attitudes and forces | **Checked, does not bear.** No chaos-preference or political material explains retention-without-decay specifically. |
+| 5. Security and prosperity | **Checked, does not bear.** No financial register explains why relational nodes persist. |
+| 6. Health | **Checked, does not bear directly.** |
+| 7. Romantic and relational state | **Checked, already load-bearing throughout** — [[wiki/mind/synthesis/the-unbroken-bond]] is already a member and the page's entire evidence base is relational. |
+| 8. Age and upbringing | **Checked, does not add new material.** No developmental account of the retention habit's origin exists in the corpus. |
+| 9. Geographic and ethnic culture | **Checked, flagged as the standing unresolved gap.** The "no base rate" Gap already on this page (small-county social graphs retain people structurally) is exactly this register, and it remains open rather than resolved by this pass. |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Checked, left standing.** The page's own July 28, 2026 self-report ("I'm fucking autistic") is already correctly flagged as "his own framing rather than adopt as a diagnosis" — the constitution pass adds no new provenance caveat beyond what the page already practices. |
+
+**What survived:** the suspend-not-delete rule, the member table, and every
+prediction — the mechanism section adds an explanation underneath an
+already-correct behavioral finding rather than changing it. **What the
+pass added:** two distinct, textually-grounded functions (Si, Fe) for two
+distinct halves of the rule, and an explicit statement of how this page's
+mechanism differs from the adjacent one on `the-deferred-audit` rather than
+merely restating it. **What it did not do:** force Trust 9 or
+Self-Consciousness onto a page that does not need them, or manufacture an
+age/upbringing or geographic origin story the corpus does not support.
 

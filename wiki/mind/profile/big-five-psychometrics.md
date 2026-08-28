@@ -50,6 +50,24 @@ connections:
   - page: wiki/mind/synthesis/the-commissioned-self
     type: component-of
     claim: "The Big30 table, the SLOAN code and the PD vector leave no trace in the life they measure: 'percentile' returns zero outbound hits across 106,629 messages and 'Big Five' returns one, which is what makes these numbers a commissioned instrument reading rather than a description Dan uses."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: evidences
+    claim: "Trust at the 9th percentile — the one facet here independently corpus-audited and confirmed, not merely self-reported — is the measured substrate for why an authority or trust verdict resets to a suspicious default instead of decaying as a continuous prior: there is no durable prior to decay, so each audit re-asks the same yes/no question rather than updating a running score."
+  - page: wiki/mind/synthesis/single-channel
+    type: evidences
+    claim: "Sociability at the 3rd percentile (corpus-audited at 0.73x baseline on initiating contact) combined with Trust at the 9th (corpus-confirmed at 1.96x raised suspicion) is the trait-level reason so few relational channels ever clear the vetting bar in the first place — the first trait-level answer that page's 'circumstance vs. architecture' falsifier has had, though not yet a resolution of it."
+  - page: wiki/mind/synthesis/the-deferred-audit
+    type: evidences
+    claim: "Self-Consciousness at 91 — corpus-confirmed at 1.85x self-monitoring in company — is the register that explains why the audit delay attaches specifically to chosen objects: Trust 9 predicts fast suspicion of an outside party's motive, but a chosen-object audit checks Dan's own prior judgment, which is a self-monitoring cost this facet measures directly and Trust 9 does not."
+  - page: wiki/mind/synthesis/totality-themes
+    type: evidences
+    claim: "Impulsiveness 96 is the control that keeps the Irreversibility Firewall from being misread as generalized caution: the trait scores highest in the whole Big30 table, but its own corpus audit finds immediacy language at 0.92x baseline, so the firewall's act-closure filter is a specific, narrow mechanism running underneath a mind that is not measurably cautious in the ordinary sense."
+  - page: wiki/mind/synthesis/the-embedded-objective
+    type: evidences
+    claim: "That page's completion-drive reading of Au Za'atar and Nemacolin's long tenures inherits acquisition-drive's CONTRADICTION with this instrument unstated: this page reads the same Impulsiveness-96 behaviour as a brake failure where acquisition-drive reads it as a working engine, and the-embedded-objective had been taking the engine side in its prose without disclosing that the instrument itself disagrees."
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: evidences
+    claim: "The $14,000 transferred to Suz within weeks of an undistributed bridging advance, with nothing in writing, is exactly what the Altruism-1 inversion predicts once its two halves are separated: instrumental generosity (offering resources) runs at 1.79-2.49x baseline while the affective half (sympathy, condolence) runs at 0.45x, so a nominal 1st-percentile altruism score is the wrong prediction for a lump-sum family transfer and the corpus-audited reading is the one that fits."
 ---
 
 
@@ -118,6 +136,10 @@ root of [[wiki/mind/synthesis/vertical-authority-skepticism]].
 draining except in rare vetted cases; "general detachment from day-to-day
 affairs." Matches the GPS record's home-anchoring (0.68) and the Gini-0.961
 contact concentration ([[wiki/mind/concepts/contact-gini]]).
+[[wiki/mind/synthesis/single-channel]] reads "rare vetted cases" as the
+mechanism itself: a high admission bar plus a low rate of originating new
+contact (0.73x baseline, above) predicts a small candidate set to
+concentrate among, independent of any given county's social density.
 
 **Limbic.** High anxiety, mood swings, depressive undertow — emotionally
 reactive despite the intellectual veneer, oscillating between cold
@@ -241,7 +263,7 @@ measuring the register the offer is made in, not whether it is made.
 |---|---:|---|---:|---|
 | Artistic Interests | 81 | aesthetic register | **3.82×** | supported |
 | Schizotypal | 79 | pattern / conspiracy cognition | **2.39×** | supported |
-| Trust | 9 | suspicion of motive | **1.96×** | supported (low trust → raised suspicion) |
+| Trust | 9 | suspicion of motive | **1.96×** | supported (low trust → raised suspicion; [[wiki/mind/synthesis/the-binary-verdict]] reads this as the reason authority/trust verdicts reset to a suspicious default rather than decay from a graded prior) |
 | Sympathy | 6 | sympathy tokens | **0.45×** | supported |
 | Antisocial | 58 | rule indifference | 1.85× | leans yes |
 | Self-Consciousness | 91 | self-monitoring in company | 1.85× | leans yes |
