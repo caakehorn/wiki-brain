@@ -9,9 +9,9 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 46 |
-| Open gaps | 478 |
+| Open gaps | 477 |
 | Answered, awaiting ingest | 0 |
-| Standing predictions | 64 |
+| Standing predictions | 65 |
 
 ## Answered, awaiting ingest
 
@@ -118,6 +118,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/the-binary-verdict]]** — Any newly-documented verdict-domain — a new person, a new taste category, a new political actor, a new institution — will resolve, on inspection, to one of two states, with no stable middle value surviving more than one exchange.
 - **[[wiki/mind/synthesis/the-binary-verdict]]** — Graded numeric confidence, wherever it next appears in an unread corpus segment, will attach to a factual proposition rather than to a verdict. *Falsified by:* a percentage attached to worth, authenticity, trust, or legitimacy.
 - **[[wiki/mind/synthesis/the-binary-verdict]]** — Any future documented instance of Dan accepting a graded compromise will be scoped to logistics or allocation inside a structure he himself authored, never to the legitimacy of the structure or the worth of a party to it.
+- **[[wiki/mind/synthesis/the-binary-verdict]]** — If Fe-valuing is genuinely liftable by a specific interlocutor rather than fixed — the open question intp states about the Ally Lubin exception — then any future documented verdict exchange with that same interlocutor should show the gate moving faster or flip
 - **[[wiki/mind/synthesis/the-cato-seat]]** — **Any new intense subject will be a system failing, and it will be observer-anchored.** interests-as-era-markers names the 2021–2023 marker as unidentified. This rule predicts that when it is found it will be a collapse, a concealment, or a fall — and that Dan
 - **[[wiki/mind/synthesis/the-cato-seat]]** — **The Ally material will be narrated from the seat.** ally-lubin and ally-and-dan-love-as-destiny are the corpus's only forward-tense pages. This rule predicts that if that situation degrades, the record will show the degradation correctly diagnosed in advance
 - **[[wiki/mind/synthesis/the-cato-seat]]** — **The wiki will accumulate more predictions than interventions.** The repository already tracks thirteen. This rule predicts the ratio of recorded forecasts to recorded actions taken on them stays lopsided, and that the pages which do change behaviour will be 
@@ -181,7 +182,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/legal/2015-possession-arrest]]** — Whether the fines referenced in January and February 2016 belong to this case, to the Combos matter, or to both running concurrently is not determinable from the message record — the "combos are paid off" phrasing suggests at least some of that money was the t
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 
-### mind (148)
+### mind (147)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
 - **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
@@ -293,7 +294,6 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/supply-network]]** — **Tim** is named in the MAX_PRIME succession between Johnny and Tom but no message thread has been identified; era and product unconfirmed.
 - **[[wiki/mind/synthesis/supply-network]]** — The post-May-2026 state of the network is **partly** answered by the finding above — the network did not collapse with the Tom node; it was replaced by a daily, house-calling, higher-availability node, which is the reliability inversion documented above runnin
 - **[[wiki/mind/synthesis/supply-network]]** — Menore's product was never named in-thread; the "8" unit remains uninterpreted.
-- **[[wiki/mind/synthesis/the-binary-verdict]]** — **The direction of causation is untested.** Whether the binary default is downstream of Core Axiom 1 specifically, or whether the axiom is itself one instance of a more general Ti-dominant, forensic-verdict cognitive style (forensic-method) that produces binar
 - **[[wiki/mind/synthesis/the-binary-verdict]]** — **Only eight domains were checked.** Health, money, and work-performance verdicts were not systematically tested for the same binary/graded split; estate-money-spine and the-embedded-objective are the obvious next places to look.
 - **[[wiki/mind/synthesis/the-binary-verdict]]** — **The 90% rule instance is n=1.** Whether Dan accepted other graded logistics compromises across the following decade of the same relationship — as opposed to re-litigating the underlying verdict question itself, which conflict-architecture documents happening
 - **[[wiki/mind/synthesis/the-cato-seat]]** — **The art tags are Dan's and may be circular.** He wrote `observer` and `collapse` himself, possibly with a model's help, and the ART MATRIX source behind the twenty-five entries has not been read to establish who generated them. If the tags are AI-produced, t

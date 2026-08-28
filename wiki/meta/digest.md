@@ -25,8 +25,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | Pages touched in the last 14 days | 195 |
 | Pages reasoning from other pages (`synthesizes:`) | 48 |
 | Live contradictions | 46 |
-| Open gaps | 478 |
-| Standing predictions | 64 |
+| Open gaps | 477 |
+| Standing predictions | 65 |
 
 ## By domain
 
@@ -56,6 +56,10 @@ between regenerations. Do not hand-edit here — rerun the tool._
 ## The last few days
 
 **2026-08-28** — 6 pages
+  - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
+  - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
+  - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
+  - climb | mind | the-binary-verdict (9 synthesized, 0 rejected)
 
 **2026-08-27** — 9 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
@@ -128,7 +132,7 @@ have moved since.
 - [[wiki/mind/synthesis/read-receipt-forensics]] — 2 premises
 - [[wiki/mind/synthesis/single-channel]] — 6 premises
 - [[wiki/mind/synthesis/supply-network]] — 9 premises
-- [[wiki/mind/synthesis/the-binary-verdict]] — 9 premises
+- [[wiki/mind/synthesis/the-binary-verdict]] — 13 premises
 - [[wiki/mind/synthesis/the-cato-seat]] — 9 premises
 - [[wiki/mind/synthesis/the-commissioned-self]] — 10 premises
 - [[wiki/mind/synthesis/the-deferred-audit]] — 9 premises

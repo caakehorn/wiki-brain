@@ -49,6 +49,9 @@ connections:
   - page: wiki/mind/profile/neurodivergence
     type: parallels
     claim: "The self-identified-autistic label and this INTP read describe the same measured profile — bottom-percentile sociability, explicit-over-inferred meaning, systematizing run for its own sake — in two different vocabularies, neither checked against the other before both were accepted."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: evidences
+    claim: "The Ti-dominant/Fe-inferior split (96% latent vs. 10% valuing) is the cognitive-function mechanism behind a corpus-wide pattern: verdict questions on a person's worth, a taste's authenticity, an order's legitimacy or an actor's trustworthiness collapse to two states because the dominant function tests only for binary closure while the function that would grade a verdict relationally is nearly absent — 'Fe's absence removes the social brake that would otherwise soften conclusions for company' is that page's rule, stated here first."
 ---
 
 # INTP — The Cognitive Function Stack
@@ -153,7 +156,10 @@ corpus completes that sequence. The finding is not that Fe improved — it is
 that the conversion is refusable from the outside, by narrowing the claim
 rather than escalating against it, which raises the open question of whether
 the 10%-valuing score is a fixed ceiling or a floor a particular kind of
-interlocutor can lift.
+interlocutor can lift. Read against [[wiki/mind/synthesis/the-binary-verdict]],
+even that one exception is a **binary flip** (wrong → fair) rather than a
+graded middle ("partly fair"): the gate moved, but a gate is still what it
+is.
 
 ## The stack as one machine
 

@@ -50,6 +50,9 @@ connections:
   - page: wiki/mind/synthesis/the-commissioned-self
     type: component-of
     claim: "The Big30 table, the SLOAN code and the PD vector leave no trace in the life they measure: 'percentile' returns zero outbound hits across 106,629 messages and 'Big Five' returns one, which is what makes these numbers a commissioned instrument reading rather than a description Dan uses."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: evidences
+    claim: "Trust at the 9th percentile — the one facet here independently corpus-audited and confirmed, not merely self-reported — is the measured substrate for why an authority or trust verdict resets to a suspicious default instead of decaying as a continuous prior: there is no durable prior to decay, so each audit re-asks the same yes/no question rather than updating a running score."
 ---
 
 
@@ -241,7 +244,7 @@ measuring the register the offer is made in, not whether it is made.
 |---|---:|---|---:|---|
 | Artistic Interests | 81 | aesthetic register | **3.82×** | supported |
 | Schizotypal | 79 | pattern / conspiracy cognition | **2.39×** | supported |
-| Trust | 9 | suspicion of motive | **1.96×** | supported (low trust → raised suspicion) |
+| Trust | 9 | suspicion of motive | **1.96×** | supported (low trust → raised suspicion; [[wiki/mind/synthesis/the-binary-verdict]] reads this as the reason authority/trust verdicts reset to a suspicious default rather than decay from a graded prior) |
 | Sympathy | 6 | sympathy tokens | **0.45×** | supported |
 | Antisocial | 58 | rule indifference | 1.85× | leans yes |
 | Self-Consciousness | 91 | self-monitoring in company | 1.85× | leans yes |

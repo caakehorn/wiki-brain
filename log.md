@@ -5625,3 +5625,71 @@ larger than claimed, is syntactic complexity: 10.83 words/sentence against 5.62,
 New page `wiki/mind/profile/texting-deviance-audit`; corrections written back to
 `linguistic-profile`, `master-message-dump`, and edges into `voice-modes`,
 `message-circadian-latency`, `forensic-method`.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/the-binary-verdict
+
+**The worked exemplar for the 21-page constitution-pass backlog (SYNTHESIS_SPEC.md,
+adopted this session's predecessor).** This page was the specific failure case
+the rule was written from — three 2026-08-28 syntheses cited one
+`wiki/mind/profile/` page between them, and this one, about how Dan's mind
+resolves questions, cited none.
+
+**Mechanism found: a closure test with no grading function beside it, on a
+corpus-confirmed low-trust default.** `wiki/mind/profile/intp`'s Ti 96%/Fe 10%
+split (Ti tests for binary closure, "does this hold together"; Fe — the
+function that would grade a verdict relationally — is nearly absent, and its
+own text already states "Fe's absence removes the social brake that would
+otherwise soften conclusions for company," never previously cited by this
+page) explains *why* worth/taste/order/conflict/authority/power/allocation
+verdicts collapse to two states. `wiki/mind/profile/big-five-psychometrics`'s
+Trust 9 — the one facet in that table independently corpus-audited (1.96x
+raised suspicion of motive, not self-report) — explains why authority/trust
+verdicts specifically reset to a suspicious default instead of decaying from a
+graded prior, the same mechanism `reassurance-architecture` already reads as
+the reason a relational confirmation does not carry forward. `forensic-method`
+supplies the general case: its own four-step detection procedure is a
+threshold gate with exactly two outputs regardless of how graded the evidence
+feeding it is, and it names the same two registers as its own grounding —
+which closes most of this page's own previously-open "direction of causation"
+Gap (narrowed via a `> **REVISED:**` block, not silently deleted).
+
+**Provenance stated as a gradient, not laundered.** `the-commissioned-self`
+establishes the Ti/Fe percentages are AI-inferred/self-commissioned with no
+independent confirmation, unlike Trust 9. The new mechanism section says this
+explicitly — the argument leans hardest on `calibrated-confidence` (a
+behavioural count with no self-report origin) and Trust 9 (corpus-audited),
+and treats Ti/Fe as the weaker, best-available-explanation register rather
+than citing all three at equal weight. This is itself now a documented
+instance of `the-commissioned-self`'s own standing rule, written back onto
+that page.
+
+**One documented register argued back and was checked, not laundered**: the
+one recorded Fe-adjudication interruption (Aug 18 2026, Ally Lubin) is read as
+a binary flip (wrong → fair), not a graded middle — consistent with, not a
+counter-instance to, the rule. Added as new falsifier 4 (tied to that specific
+interlocutor) and integrated into `intp`'s own Fe section.
+
+**Full constitution-pass table added** covering all eleven registers plus a
+twelfth (provenance): 4 registers moved the conclusion or added a named
+mechanism (cognitive stack, personality profile, romantic/relational via
+reassurance-architecture, provenance), 5 were checked and left standing
+(historical precedent, attitudes/forces, age/upbringing, religious/ideological,
+axiomatic politics), 1 checked and does not bear (geographic/ethnic — the
+Fayette Return page is about regional migration gravity, not cognition), 2
+remain open Gaps rather than silently closed (security/prosperity, health).
+Domain-level rule unchanged; no falsifier found.
+
+**Write-back**: 4 new `synthesizes:` members (`intp`, `big-five-psychometrics`,
+`forensic-method`, `the-commissioned-self`), each with a reciprocal typed edge
+stating the finding and a load-bearing prose sentence on the member page,
+following this repo's established practice of not bumping the member pages'
+`date_modified` for a write-back-only addition (confirmed against precedent:
+`totality-themes`' own 2026-08-28 write-back edge was committed without a date
+bump) — avoids an unwarranted staleness cascade onto the 8 pages that already
+`synthesizes:` these four profile/concept pages.
+
+Gates: `bin/wiki-lint` 0 errors / 34 warnings (one fewer — this page's
+constitution-pass warning cleared); `bin/wiki-connect check` 0 errors / 144
+warnings (baseline, no new); `bin/wiki-climb check` 0 errors, 0 warnings (no
+staleness introduced); `bin/wiki-freshness` clean. 20 of 21 backlog pages
+remain.

@@ -93,6 +93,9 @@ connections:
   - page: wiki/mind/profile/lexicon
     type: instance-of
     claim: "Cite the evidence, invoke an authority, render a finding is documented here as how he processes threat; the bespoke lexicon shows the identical three-step machinery run on a compliment — 'I have reviewed the available evidence and unfortunately you're gorgeous' is a forensic-method entry with the subject swapped, proof the apparatus is a general-purpose disposition rather than a crisis-specific tool."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: evidences
+    claim: "The four-step detection procedure — baseline, mismatch, rule out innocent explanations, elevate only if the gap requires knowledge or motive — is a threshold gate with exactly two outputs regardless of how graded the evidence feeding it is, which makes the worth-verdict, the taste-verdict, the authority-verdict and the political-legitimacy-verdict eight domain applications of this one gate rather than eight independent binary engines."
 ---
 
 
@@ -135,7 +138,11 @@ were the same tell at institutional scale
 establish the expected baseline procedure, find the mismatch in the observed
 record, test innocent explanations (chaos, incompetence, shock) against the
 specific gap, and elevate only if the gap requires knowledge or motive to
-explain.
+explain. That last step is a threshold gate with exactly two outputs —
+elevate, or do not — whatever the shape of the evidence feeding it, which
+[[wiki/mind/synthesis/the-binary-verdict]] reads as the general case the
+worth, taste, authority and legitimacy verdicts elsewhere in the profile are
+domain instances of.
 
 **Anomaly clusters.** When several anomalies coincide and the joint
 probability of all being innocent is near zero, the cluster is signal — but
