@@ -95,6 +95,12 @@ connections:
   - page: wiki/people/brandon-hill
     type: evidenced-by
     claim: "Brandon is the bottom-layer execution of an off-books extraction he doesn't fully understand — the sympathetic face of a structurally coercive arrangement."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: component-of
+    claim: "The 'clock, not a switch' correction relocates the binary from a permanent trust label to audit timing rather than producing a third state — every audit this page documents still resolves to exactly one of two outcomes once it runs."
+  - page: wiki/mind/synthesis/no-platonic-channel
+    type: parallels
+    claim: "This page names exactly one enduring lateral peer bond in the entire psychological layer — Tom, 'primary male ally' — and no female equivalent is named anywhere in the corpus, the predicted absence if a trusted female tie cannot stay in the same undramatic lateral register."
 ---
 
 

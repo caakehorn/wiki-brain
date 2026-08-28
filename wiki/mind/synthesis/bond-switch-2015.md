@@ -55,6 +55,9 @@ connections:
   - page: wiki/mind/synthesis/the-unbroken-bond
     type: instantiates
     claim: "The 2015 switch is the sharpest instance of a seventeen-year pattern: the attachment slot has never been left voluntarily empty, and this is the transition that proves it at the resolution of days."
+  - page: wiki/mind/synthesis/the-serial-monogamist
+    type: component-of
+    claim: "The replacement sourced before the vacancy occurred is the clearest demonstration that 'single' is never actually entered — the slot went from occupied to occupied inside roughly a week, with no interval that functions as single life in any ordinary sense of the phrase."
 ---
 
 

@@ -56,6 +56,9 @@ connections:
   - page: wiki/people/ally-lubin
     type: evidenced-by
     claim: "Ally is the one relational object in the corpus who has named this page's defining trait — sustained undisguised intensity — as her stated entry condition rather than her objection, which sharpens this page's live substitution test with a named candidate."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: component-of
+    claim: "A two-sided Gini of 0.96 that tightens under load rather than spreading is the binary run on resource allocation: a channel is funded at maximum voltage or it is not funded, with no measured year showing moderate, distributed investment as a stable state."
 ---
 
 # The Single Channel

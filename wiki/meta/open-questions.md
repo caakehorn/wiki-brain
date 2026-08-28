@@ -5,7 +5,7 @@ title: "Open Questions"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-08-27
+date_modified: 2026-08-28
 sources: []
 ---
 
@@ -24,9 +24,9 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 46 |
-| Open gaps | 467 |
+| Open gaps | 478 |
 | Answered, awaiting ingest | 0 |
-| Standing predictions | 55 |
+| Standing predictions | 64 |
 
 ## Answered, awaiting ingest
 
@@ -127,6 +127,12 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/failure-to-launch]]** — **The calibration test resolves Tier 1 in one pass.** Scoring the 43 archived numeric confidences against known outcomes will place Dan closer to well-calibrated than the general population. **This is the highest-value cheap experiment named anywhere in this c
 - **[[wiki/mind/synthesis/failure-to-launch]]** — **Analytical income arrives only through third-party-directed work.** Any revenue from the forensic capacity will come from findings delivered about a system or a third party, not about the commissioner. *Falsifier:* a paid engagement in which Dan analyses the
 - **[[wiki/mind/synthesis/failure-to-launch]]** — **The container prediction.** If GRIPNOTIC output is ever measured and found substantial, the "no orbit" thesis needs narrowing to employment and capital and does not hold across the biography. *Falsifier:* a release catalogue showing sustained, countable outp
+- **[[wiki/mind/synthesis/no-platonic-channel]]** — Any future-documented woman who accumulates trusted-circle-level closeness with Dan (sustained contact, real disclosure, multi-year duration) will show a dated romantic or sexual overture somewhere in the relationship's history, engineered or opportunistic.
+- **[[wiki/mind/synthesis/no-platonic-channel]]** — Where a woman remains platonic across a comparable duration, the record will show either (a) the closeness never actually crossed the trusted-circle threshold this page uses, or (b) an overture was made and declined, per the Lauryn Ashly shape — not an absence
+- **[[wiki/mind/synthesis/no-platonic-channel]]** — If Dan and Jamie Mohler are ever shown back in contact post-2023, this page's rule makes a direct, checkable prediction about what that contact will contain.
+- **[[wiki/mind/synthesis/the-binary-verdict]]** — Any newly-documented verdict-domain — a new person, a new taste category, a new political actor, a new institution — will resolve, on inspection, to one of two states, with no stable middle value surviving more than one exchange.
+- **[[wiki/mind/synthesis/the-binary-verdict]]** — Graded numeric confidence, wherever it next appears in an unread corpus segment, will attach to a factual proposition rather than to a verdict. *Falsified by:* a percentage attached to worth, authenticity, trust, or legitimacy.
+- **[[wiki/mind/synthesis/the-binary-verdict]]** — Any future documented instance of Dan accepting a graded compromise will be scoped to logistics or allocation inside a structure he himself authored, never to the legitimacy of the structure or the worth of a party to it.
 - **[[wiki/mind/synthesis/the-cato-seat]]** — **Any new intense subject will be a system failing, and it will be observer-anchored.** interests-as-era-markers names the 2021–2023 marker as unidentified. This rule predicts that when it is found it will be a collapse, a concealment, or a fall — and that Dan
 - **[[wiki/mind/synthesis/the-cato-seat]]** — **The Ally material will be narrated from the seat.** ally-lubin and ally-and-dan-love-as-destiny are the corpus's only forward-tense pages. This rule predicts that if that situation degrades, the record will show the degradation correctly diagnosed in advance
 - **[[wiki/mind/synthesis/the-cato-seat]]** — **The wiki will accumulate more predictions than interventions.** The repository already tracks thirteen. This rule predicts the ratio of recorded forecasts to recorded actions taken on them stays lopsided, and that the pages which do change behaviour will be 
@@ -142,6 +148,9 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/the-embedded-objective]]** — **Every job in the record, including any not yet documented, will show an out or a private objective installed in its first weeks — or it will be short.** A long tenure with no documented payload falsifies this page outright. The named test is the roughly elev
 - **[[wiki/mind/synthesis/the-embedded-objective]]** — **Jobs end when the payload is destroyed, not when conditions worsen.** Au Za'atar is the worked case. Any future job loss in the corpus should be checkable against which of the two happened first.
 - **[[wiki/mind/synthesis/the-embedded-objective]]** — **Assigned obligations with nothing embeddable should show acquisition documented and compliance undocumented**, as the ARD does. The Suboxone regimen is the sharpest available test in the other direction: it is a fifteen-year daily commitment originating in a
+- **[[wiki/mind/synthesis/the-serial-monogamist]]** — If a future export ever documents Dan genuinely single for a sustained period, the corpus should show him treating it as an anomaly requiring resolution — actively working to end it — rather than as a neutral or preferred state, consistent with the sx-dominant
+- **[[wiki/mind/synthesis/the-serial-monogamist]]** — Any future first-person statement of "what I look for" will be checkable against a document, a habit, or a specification, the same way the ideal-face file checks the "very specific type" claim, rather than standing as an unexamined preference.
+- **[[wiki/mind/synthesis/the-serial-monogamist]]** — The next documented transition out of a long bond, if one occurs, will show a successor identified before or immediately upon the vacancy, consistent with both documented transitions to date (2015, 2026).
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **Parity predicts engagement; intensity does not.** Her inbound volume in any future window will correlate with the proportion of the exchange that is mutual riffing, and will be uncorrelated or negatively correlated with Dan's outbound volume. *Falsified by:*
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **A further money transfer will not produce reciprocity and will produce a comparison.** *Falsified by:* a documented payment followed inside a week by a sustained inbound increase with no comparative or self-diminishing line attached.
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **A concession from Dan in a live disagreement will be followed inside the hour by disclosure from her.** This is the 16:47 and 21:09 pattern, and it is the page's most specific claim. *Falsified by:* two or more clean concessions with no disclosure following.
@@ -187,7 +196,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/legal/2015-possession-arrest]]** — Whether the fines referenced in January and February 2016 belong to this case, to the Combos matter, or to both running concurrently is not determinable from the message record — the "combos are paid off" phrasing suggests at least some of that money was the t
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 
-### mind (137)
+### mind (148)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
 - **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
@@ -285,6 +294,10 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/message-circadian-latency]]** — `LEVIATHAN_FULL_CORPUS.csv` lives in `/Volumes/MUSIC/PHASE B RAW/`, not yet filed under `raw/` — its on-disk path is cited directly above.
 - **[[wiki/mind/synthesis/music-as-identity]]** — The 2019–2024 message gap means the live concert habit after 2008 is under-documented; only the 2005–2008 record survives in his own hand.
 - **[[wiki/mind/synthesis/music-as-identity]]** — Whether the producer identity and the favorites pole ever consciously cross (does he hear his own sub-bass signature in what he consumes?) is not settled by the corpus.
+- **[[wiki/mind/synthesis/no-platonic-channel]]** — **The corpus has not been swept exhaustively for other multi-year female friendships.** This page draws on the members already documented elsewhere in the wiki; a dedicated `bin/mine-messages` pass for women with high message counts and no infobox `relationshi
+- **[[wiki/mind/synthesis/no-platonic-channel]]** — **Whether the mechanism is specific to women, or is a special case of a broader inability to sustain a low-intensity tie with anyone he trusts, is untested.** tom is the standing candidate for the male control case — a multi-year lateral peer bond with no roma
+- **[[wiki/mind/synthesis/no-platonic-channel]]** — **Motive is not settled.** emotional-imprinting itself flags that no primary source has Dan explaining, in his own words, why sustained closeness routes to romantic or sexual overture rather than staying platonic — every mechanism on this page is a dossier's o
+- **[[wiki/mind/synthesis/no-platonic-channel]]** — **The Jamie Mohler question is the single most answerable gap on this page** and is, per jamie-mohler's own gaps section, already unresolved there: whether any contact exists post-transition. One sentence from the operator would convert this page's central lim
 - **[[wiki/mind/synthesis/read-receipt-forensics]]** — The underlying `annie_metadata_24h.csv` this page's counts are drawn from has not been filed to `raw/self/message-csv/` — see the sourcing note above. Prior corpus analyses that used `reply_to_guid` as a threading signal (M2) have not yet been audited; that au
 - **[[wiki/mind/synthesis/single-channel]]** — **The two-sided figure is an upper bound, by a known amount.** Imputation inflates concentration — on held-out data the imputed Gini runs +0.0225 above the true one under the conservative rule and +0.0996 under the permissive one, because misassignment invents
 - **[[wiki/mind/synthesis/single-channel]]** — **The whole method assumes the `direction` column is honest**, which `STRATEGY.md` names as a known trap in this file. Blank handles being 99.88% `Sent` is real internal support — noise does not correlate that cleanly — but no content-level speaker reconstruct
@@ -295,6 +308,9 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/supply-network]]** — **Tim** is named in the MAX_PRIME succession between Johnny and Tom but no message thread has been identified; era and product unconfirmed.
 - **[[wiki/mind/synthesis/supply-network]]** — The post-May-2026 state of the network is **partly** answered by the finding above — the network did not collapse with the Tom node; it was replaced by a daily, house-calling, higher-availability node, which is the reliability inversion documented above runnin
 - **[[wiki/mind/synthesis/supply-network]]** — Menore's product was never named in-thread; the "8" unit remains uninterpreted.
+- **[[wiki/mind/synthesis/the-binary-verdict]]** — **The direction of causation is untested.** Whether the binary default is downstream of Core Axiom 1 specifically, or whether the axiom is itself one instance of a more general Ti-dominant, forensic-verdict cognitive style (forensic-method) that produces binar
+- **[[wiki/mind/synthesis/the-binary-verdict]]** — **Only eight domains were checked.** Health, money, and work-performance verdicts were not systematically tested for the same binary/graded split; estate-money-spine and the-embedded-objective are the obvious next places to look.
+- **[[wiki/mind/synthesis/the-binary-verdict]]** — **The 90% rule instance is n=1.** Whether Dan accepted other graded logistics compromises across the following decade of the same relationship — as opposed to re-litigating the underlying verdict question itself, which conflict-architecture documents happening
 - **[[wiki/mind/synthesis/the-cato-seat]]** — **The art tags are Dan's and may be circular.** He wrote `observer` and `collapse` himself, possibly with a model's help, and the ART MATRIX source behind the twenty-five entries has not been read to establish who generated them. If the tags are AI-produced, t
 - **[[wiki/mind/synthesis/the-cato-seat]]** — **The "heroic figures" list is not attested in `raw/`.** gore-vidal states that Dan lists Vidal among heroic figures he identifies with, alongside Sanders, Hunter S. Thompson, Rollins, Brown, Hampton and Debs. A search of the dossier and message material for t
 - **[[wiki/mind/synthesis/the-cato-seat]]** — **Nobody has read the eleven films against the rule.** The canon list carries no tags and no ratings, and four titles — *Pulp Fiction*, *Kill Bill*, *The Graduate*, *Parasite* — are placed here on a reading rather than on evidence. A pass over what Dan actuall
@@ -317,6 +333,10 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/the-rescue-premise]]** — 4. **The seventy-two-minute SOS latency is unexplained.** Exhaustion, depletion, retaliation and genuine detachment all predict it and the corpus cannot presently distinguish them. The operator can.
 - **[[wiki/mind/synthesis/the-rescue-premise]]** — 5. **Housing.** 337 Saratoga has sold and the 463 Morgantown landing is unresolved (463-morgantown). attachment-model records an AI session's read that the anxiety loop has little independent existence and is almost entirely parasitized by two situations — Ann
 - **[[wiki/mind/synthesis/the-rescue-premise]]** — 7. **The single most important open item is now a file, not a question.** The newest Annie export ends 2026-08-19 15:15:33. **Nothing in this repository knows what happened on August 20, 21 or 22.** Every forward claim on this page is an inference from the abs
+- **[[wiki/mind/synthesis/the-serial-monogamist]]** — **The 2007–2009 window is undocumented**, the same gap the-unbroken-bond already flags — whether Dan experienced any period of being single between high school and the Alexis relationship is unknown, and it is the single biggest hole in this page's central cla
+- **[[wiki/mind/synthesis/the-serial-monogamist]]** — **Whether the ideal-face document names a specific person is unresolved.** erotic-architecture treats it as generic by construction and draws no line from it to anyone in the corpus; if it does encode a real person, this page's "engineered rather than organic"
+- **[[wiki/mind/synthesis/the-serial-monogamist]]** — **No primary source states, in Dan's own words, why "single" is avoided** rather than merely never occurring. Every mechanism this page cites — the sx-dominant stack, the Irreversibility Firewall's no-delete rule, the no-failover architecture — is an outside r
+- **[[wiki/mind/synthesis/the-serial-monogamist]]** — **The self-theory quote is n=1.** Whether "serial monogamist... a very specific type" was said again, in different words, at other points in the eleven-year corpus has not been checked systematically; a `bin/mine-messages` pass for self-description language ar
 - **[[wiki/mind/synthesis/the-unbroken-bond]]** — **The 2007–2009 window is undocumented.** The claim of continuity *since high school* rests on the operator's own account for those years; `raw/` was not found to establish a bond before Alexis in November 2009. Until that is closed, the defensible span is **s
 - **[[wiki/mind/synthesis/the-unbroken-bond]]** — **The Jul–Oct 2013 Alexis separation is unquantified.** It is recorded as a separation within the relationship, but whether the slot was genuinely vacant for those months — which would be a ~3-month gap — has not been checked against the message record. It is 
 - **[[wiki/mind/synthesis/the-unbroken-bond]]** — **`knowledge:` inheritance.** This page synthesises `bond-switch-2015`, whose attachment-activation thesis originates partly in bootloader/AI-interpretive material. Per instrument-is-subject, the *timing* here is residue (message counts, dated events, recomput

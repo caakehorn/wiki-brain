@@ -37,6 +37,9 @@ connections:
   - page: wiki/mind/synthesis/fayette-return
     type: evidences
     claim: "Sharpens the Champion question rather than settling it: the family rented at Seven Springs for years before buying unit K2, and Champion is the resort's town — so Morley's 1996-99 listings are now a specific checkable question (that rental, a separate property, or the unit later purchased) instead of a vague adjacency."
+  - page: wiki/mind/synthesis/the-serial-monogamist
+    type: component-of
+    claim: "Dan names his own dating pattern here first — 'somehow getting a girl way above my level to date me' as something he 'would go through many times' — eight years before the earliest adult bond the wiki can document, which makes every later instance a repetition of a self-narrated template rather than an independent conclusion."
 ---
 
 # Bald Eagle Cummings (~2000–2001?)

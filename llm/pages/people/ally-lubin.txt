@@ -84,6 +84,9 @@ connections:
   - page: wiki/mind/profile/lexicon
     type: evidenced-by
     claim: "A twelve-category compliment-and-affection phrase generator, built around her by name and addressed to her specifically, is documented private-register evidence more elaborate and more deliberately engineered than anything recorded for any other contact in the corpus."
+  - page: wiki/mind/synthesis/no-platonic-channel
+    type: component-of
+    claim: "The $25 paid introduction followed within a year by paid photographs is the corpus's cleanest engineered case of a friendship built specifically to be converted — proof this is a documented default rather than a pattern that happens to a friendship after the fact."
 ---
 
 # Ally Lubin (Alexandra Lubin)
@@ -97,7 +100,12 @@ whatever 'cool' is"*), paid a mutual friend $25 to introduce them in
 December 2018, and in the autumn of 2019 turned the resulting friendship
 into a transaction — roughly two thousand dollars sent to her while she was
 unemployed and suicidal, against photographs he mostly did not receive. The
-relationship is real on both sides and funny on both sides.
+relationship is real on both sides and funny on both sides. Read against
+[[wiki/mind/synthesis/no-platonic-channel]], the sequence — engineer the
+friendship, then convert it within a year — is the corpus's cleanest case of
+a pattern documented across several of Dan's female friendships: sustained
+platonic closeness does not appear anywhere in the record as a stable end
+state on its own.
 
 Its governing fact used to be stated here as *the channel activates when
 Dan's primary bond fails*. The August 2026 record complicates that: in the

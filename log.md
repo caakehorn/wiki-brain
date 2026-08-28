@@ -1,3 +1,105 @@
+## [2026-08-28] climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
+
+Operator asked for three concept entries in one request; this is the third,
+and the most tightly scoped against its sibling. `wiki/mind/synthesis/no-
+platonic-channel` documents the *mechanism* — proximity to a trusted woman
+converting to a romantic/sexual overture. This page documents the
+*self-theory* — what Dan believes and says about his own dating pattern,
+checked against the record. New page `wiki/mind/synthesis/the-serial-
+monogamist`: the header fact is that seventeen continuous years inside a
+long-term bond ([[wiki/mind/synthesis/the-unbroken-bond]]) means Dan has
+almost no adult lived experience of single life, and the corpus's one
+completed exit from a long relationship
+([[wiki/mind/synthesis/bond-switch-2015]]) was a same-week transfer to a
+successor, not an interval of being unattached. Checked his one first-person
+self-theory quote — "i'm a serial monogamist... a very specific type"
+(2019-08-17) — against [[wiki/mind/psychosexual/arrangement-history]]'s
+corpus-wide word-frequency finding (commitment vocabulary nearly absent,
+arrangement vocabulary abundant) and against the literal "ideal face"
+specification sheet on [[wiki/mind/concepts/erotic-architecture]]: both
+readings hold, and the self-theory resolves to an engineered target and an
+occupancy label rather than a discovered organic preference.
+[[wiki/mind/synthesis/the-rescue-premise]] supplies the test of whether
+being rescued into single life would help — the one completed instance was
+a transfer, not an exit, and cost a decade.
+[[wiki/timeline/events/bald-eagle-cummings]] dates Dan naming his own
+pattern to seventh grade, eight years before any adult relationship exists
+to generalize from. Write-back edges added to all 8 members
+(`the-unbroken-bond`, `bond-switch-2015`, `arrangement-history`,
+`erotic-architecture`, `enneagram-5w4`, `the-rescue-premise`,
+`bald-eagle-cummings`, `ally-lubin-cognitive-profile`), each with a claim
+stating the finding rather than merely pointing at it. All three gates at 0
+errors.
+
+## [2026-08-28] climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
+
+Second of three requested entries. New page `wiki/mind/synthesis/no-
+platonic-channel`: every documented multi-year, high-trust female
+friendship in the corpus carries a dated romantic or sexual overture, most
+starkly in the Ally Lubin case — Dan paid a mutual friend $25 to engineer
+the introduction in December 2018 and had converted the resulting
+friendship into paid photographs within a year
+([[wiki/people/ally-lubin]]). [[wiki/people/jenn-lynn]] supplies the
+control that matters most: three separate arrangement solicitations across
+three years, layered onto an intact, reciprocal drug-sourcing friendship
+that survives all three — the overture recurring against an undamaged tie
+is stronger evidence of a standing default than a single dramatic instance
+would be. Took the two candidate falsifiers seriously rather than waving
+them through: [[wiki/people/lauryn-ashly]] is a real instance of the
+pattern surviving refusal (an overture made and declined, friendship
+undamaged), and [[wiki/people/jamie-mohler]] is flagged honestly as an edge
+case rather than claimed either way — the corpus's one lastingly platonic
+close female friendship ran during years (2010–2011) when she was, on all
+available evidence, read as a man; the rule has never actually been tested
+against her as a woman, and the page says so rather than counting her as a
+counter-instance. Mechanism supplied by
+[[wiki/mind/psychosexual/emotional-imprinting]] ("crush activation on
+contact") and [[wiki/mind/profile/enneagram-5w4]] (sx-dominant, social
+instinct absent). Noted the corpus's own vocabulary corroborating the
+absence: [[wiki/mind/synthesis/vertical-authority-skepticism]] names
+exactly one enduring lateral peer bond in the whole psychological layer,
+and it is male ("Tom, primary male ally") — no female equivalent is named
+anywhere. Write-back edges added to all 9 members, two required a type-pair
+correction after `bin/wiki-connect check` caught a mismatched inverse
+(`contains`/`instantiates` is not a pair — fixed to `instance-of`/
+`instantiates`). All three gates at 0 errors.
+
+## [2026-08-28] climb | mind | the-binary-verdict (9 synthesized, 0 rejected)
+
+First of three concept entries requested by the operator in one pass — a
+character-concept sweep asking why Dan hates moderation and defaults to
+zero-sum binary framing, why he cannot stay platonic with women, and how he
+thinks about dating and single life. Treated as three separate CLIMB
+operations rather than one page, since each has its own falsifiable
+governing rule and its own member set (some pages, `arrangement-history` and
+`enneagram-5w4` chief among them, are load-bearing on more than one of the
+three). This entry is the first: new page
+`wiki/mind/synthesis/the-binary-verdict`. The rule — verdict questions
+(worth, authenticity, order, trust, conflict, political legitimacy,
+resource allocation) collapse to two states with no recorded middle value,
+while the one instrument that natively grades, numeric confidence
+([[wiki/mind/concepts/calibrated-confidence]]), is fenced off almost
+entirely to unwitnessed facts about the world and essentially never applied
+to a verdict. Deliberately went looking for the strongest counter-evidence
+rather than only confirming instances, and found a real one: the December
+10, 2015 "90% rule" exchange already published on
+[[wiki/timeline/annie-record]] ("I like the 90% thing / It doesn't have to
+be that black and white") is Dan naming the binary default out loud and
+choosing a graded rule instead — read closely, it is confined to a
+logistics question inside a structure he was actively authoring, not to a
+verdict question, which sharpens the rule rather than breaking it.
+[[wiki/mind/synthesis/political-psyops]]'s own vocabulary ("a zero-sum
+binary team sport") and its "score who is more wrong" method needed the
+same honest treatment — the comparative grading turns out to run only
+inside the bucket of actors who already failed the binary sort, not as an
+alternative to it. [[wiki/mind/synthesis/vertical-authority-skepticism]]'s
+own "clock, not a switch" correction is the same story: a binary relocated
+in time, not a graded trust score. Write-back edges added to all 9 members
+(including one to `wiki/timeline/annie-record`, handled carefully under the
+Annie moratorium — the quote was already published on that page, nothing
+new about Annie was added, and the finding is about Dan's own cognition).
+All three gates at 0 errors throughout.
+
 ## [2026-08-27] close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
 
 `bin/wiki-work` reported three pages carrying an unintegrated

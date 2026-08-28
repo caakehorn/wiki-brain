@@ -74,6 +74,12 @@ connections:
   - page: wiki/people/ally-lubin
     type: instance-of
     claim: "The arrangement pitched to a non-partner inside ninety minutes of her losing her income — the fastest-onset instance in the corpus, and the one that shows speed-of-onset is a property worth measuring for the rest of the table."
+  - page: wiki/mind/synthesis/no-platonic-channel
+    type: component-of
+    claim: "The Jenn Lynn row (three arrangement solicitations across three years, layered onto an intact drug-sourcing friendship) and the ninety-minute Ally onset together establish that an unprompted romantic or sexual pitch is the modal event inside a trusted female friendship in this corpus, not an occasional escalation."
+  - page: wiki/mind/synthesis/the-serial-monogamist
+    type: component-of
+    claim: "The 'serial monogamist... a very specific type' self-description, checked against a corpus where commitment vocabulary is nearly absent and arrangement vocabulary is abundant, does not describe sexual exclusivity — it describes the single-slot occupancy pattern; 'openness was never the requirement here — authorship was' is the finding this page's self-theory claim rests on."
 ---
 
 # Arrangement History

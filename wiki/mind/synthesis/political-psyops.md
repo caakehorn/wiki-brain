@@ -36,6 +36,9 @@ connections:
   - page: wiki/mind/synthesis/the-cato-seat
     type: parallels
     claim: "The J6 verdict and the curated shelf are one posture in two registers — an institutional failure reconstructed in detail, a confident conclusion reached, and no route from the conclusion to any action — which is why the analysis is the terminal product rather than a step toward one."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: component-of
+    claim: "The pinned nodes name the mechanism in their own words — Trump-era politics as 'a zero-sum binary team sport' — and the 'score who is more wrong' method is not a counter-instance: the top-level sort (legitimate claim on power / illegitimate) is binary, and comparative grading runs only inside the bucket of actors who already failed it."
 ---
 
 

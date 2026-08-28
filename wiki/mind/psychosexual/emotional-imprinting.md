@@ -22,6 +22,9 @@ connections:
   - page: wiki/mind/psychosexual/taboo-and-boundary-testing
     type: mirrors
     claim: "Both mechanisms trace to the same 'Pattern Mapping' section of Dan Profile.txt and both have since gained real corroboration from outside that single document — this page from the independently-built attachment model, taboo-and-boundary-testing from the Bryan MMF — so neither is single-sourced any longer, though both remain thin."
+  - page: wiki/mind/synthesis/no-platonic-channel
+    type: component-of
+    claim: "'Crush activation on contact' with no off switch supplies the mechanism a friendship-to-romance conversion pattern needs: if sustained, high-investment attention to another person is the trigger regardless of the register it starts in, a trusted female friendship is structurally the same input as a romantic overture."
 
 ---
 

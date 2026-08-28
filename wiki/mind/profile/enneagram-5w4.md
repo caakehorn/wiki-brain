@@ -36,6 +36,12 @@ connections:
   - page: wiki/people/ally-lubin
     type: evidenced-by
     claim: "The Witness need's one documented completion: Dan made her the first human ever to read this wiki, she audited rather than merely witnessed it, and both parties survived the transaction without the predicted consumption fear firing."
+  - page: wiki/mind/synthesis/no-platonic-channel
+    type: component-of
+    claim: "An sx-dominant stack with the social instinct functionally absent predicts that the ordinary, low-intensity peer register most friendships run in is simply not an available setting — closeness has only the fusion mode and the fortress mode, which is why a trusted female tie is documented converting toward one of the two rather than settling into a third, undramatic register."
+  - page: wiki/mind/synthesis/the-serial-monogamist
+    type: causes
+    claim: "A stack organising life around one relationship at maximum voltage rather than several at moderate voltage is the mechanism behind Dan having almost no adult lived experience of single life — continuous occupancy is not a reported preference, it is what the stack predicts before any relationship is examined."
 ---
 
 
