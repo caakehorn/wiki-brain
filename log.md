@@ -6251,3 +6251,63 @@ Gates: `bin/wiki-lint` 0 errors / 27 warnings (one fewer); `bin/wiki-connect
 check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors / 3 warnings
 (unchanged, pre-existing, unrelated); `bin/wiki-freshness` clean; 125 tests
 pass. 10 of 21 backlog pages remain.
+
+## [2026-08-28] constitution-pass | mind | wiki/interests/food-and-diet
+
+Constitution pass on the 12th of 21 backlog pages (second-to-last non-Annie
+page). This page had never cited `wiki/mind/profile/`, and its central
+finding — an absolute, no-questions-asked composition regime governing every
+plate — had never been checked against the domain-general verdict machinery
+`wiki/mind/synthesis/the-binary-verdict.md` documents for worth, taste,
+trust and legitimacy questions elsewhere in the corpus.
+
+**The finding.** The composition table (accept corn/lettuce, meat/cheese/
+bread-or-shell-or-roll; refuse onion and tomato outright; pickles as "the
+mortal enemy") has no recorded middle state anywhere — no ingredient
+tolerated in a small amount, none picked out and eaten anyway. That is the
+identical shape `the-binary-verdict` finds in worth, taste and trust
+questions, and food composition is a ninth domain instance of that page's
+rule — the most literal one on record, because a sandwich has no relational
+stakes available to blur the verdict the way a person or a taste sometimes
+can. `wiki/mind/profile/intp`'s Ti-dominance (96% latent, pass/fail closure
+test) with Fe at 10% valuing (too weak to run a graded "acceptable enough"
+negotiation) is the mechanism: an unrequested ingredient fails closure
+outright, with nothing available to soften the verdict.
+
+**Did not overclaim.** The regime's origin relative to the adolescent
+bulimia period (`wiki/health/hyperreflexivity`) stays an open Gap — this
+pass supplies a mechanism for why the rule is *absolute*, not a date for
+when it started, and says so directly in the constitution-pass table.
+
+**Write-back, both directions.** `food-and-diet.md` gained two new
+`synthesizes:` members (`intp`, `the-binary-verdict`) with reciprocal edges:
+`caused-by`/`causes` to `intp` (mechanism), `instance-of`/`instantiates` to
+`the-binary-verdict` (domain instance — corrected from an initial
+`contains`/`instance-of` mismatch caught by `bin/wiki-connect check`).
+`the-binary-verdict.md` itself got more than a one-line reciprocal: a new
+row in its own domain table (food composition, ninth domain), an addendum
+note dating the addition and explaining why it's the most literal member on
+the table, and its Gaps bullet revised to record that the ninth domain was
+added independently rather than by its own re-check (health, money and
+work-performance remain untested, unchanged). `intp.md` got a bookkeeping-
+only reciprocal edge, no date bump. `the-binary-verdict.md`'s date_modified
+was already 2026-08-28 from its own pass earlier this session; the new
+material there is substantive rather than mere write-back, but no additional
+bump was needed.
+
+**Cascade check.** No page reasons from `food-and-diet.md` as a premise with
+an earlier date, so no staleness cascade. `wiki-climb check`'s 3 remaining
+warnings (all `wiki/places/the-unpapered-address.md`) are pre-existing and
+unrelated — that page is next in the backlog.
+
+Gates: `bin/wiki-lint` 0 errors / 26 warnings; `bin/wiki-connect check` 0
+errors / 144 warnings (baseline restored after the type-mismatch fix);
+`bin/wiki-climb check` 0 errors / 3 warnings (unchanged, pre-existing);
+`bin/wiki-freshness` clean after `bin/wiki-digest` + `bin/llm-publish`; 125
+tests pass. 9 of 21 backlog pages remain — 1 more non-Annie page
+(`wiki/places/the-unpapered-address.md`), then the 7 Annie-moratorium pages.
+
+Note: PR #204 merged mid-session; branch `claude/constitution-pass-backlog-95zhnz`
+was restarted from fresh `origin/main` per protocol before this pass, since
+no unmerged commits existed beyond the merged history — only this
+in-progress, uncommitted edit, which carried forward cleanly.

@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-28 — 36 pages
+## 2026-08-28 — 37 pages
 
 - **Session log:** spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
 - **Session log:** climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
@@ -28,12 +28,14 @@ simply listed.
 - **Session log:** connect | self, timeline | connection-queue.md (context-core <-> timeline.md)
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/alias-as-periodization
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/music-as-identity
+- **Session log:** constitution-pass | mind | wiki/mind/synthesis/instrument-is-subject
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/chemical-architecture]] | health | **GAP CLOSED** — This page has always stated the February 17, 2010 day-zero without naming what the last active-use episode before it was. A 2026-08-27 operator capture (`raw/people/captures/2026-08-27_222932_gap-alex |
 | [[wiki/health/cocaine]] | health | **RE-CHECKED** — flagged stale against chemical-architecture (2026-08-28), which added the previously-unnamed final pre-Suboxone opiate relapse (Alexis, Thanksgiving 2009, thirty Roxicet pills) to the **opiate** arc.  |
 | [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — flagged stale against the-deferred-audit (2026-08-28), which gained a RE-CHECKED note tracing back to a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris to Alexi |
+| [[wiki/interests/food-and-diet]] | interests | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/legal/2015-possession-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
@@ -82,7 +84,7 @@ simply listed.
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 | [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — 117-belmont-circle gained the sale's disposition on 2026-08-27: it **closed in summer 2019 for $250,000** (operator testimony, uncorroborated in the message record, buyer still unknown). The row above |
 
-## 2026-08-26 — 58 pages
+## 2026-08-26 — 57 pages
 
 - **Session log:** climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
 - **Session log:** ingest | mind | the ideal-face specification — a mystery queue item resolved
@@ -104,7 +106,6 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/interests/favorites/music/artists/fall-out-boy]] | interests | — |
-| [[wiki/interests/food-and-diet]] | interests | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-26), which added a section on the metric's one documented upper bound (the Ally Skins exchange) and removed its `sage_pending` staging. The food-exemptio |
 | [[wiki/interests/rock-irrelevance-thesis]] | interests | — |
 | [[wiki/interests/the-office]] | interests | — |
 | [[wiki/meta/index]] | meta | — |

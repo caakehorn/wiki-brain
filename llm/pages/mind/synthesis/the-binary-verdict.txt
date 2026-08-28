@@ -22,6 +22,7 @@ synthesizes:
   - wiki/mind/profile/big-five-psychometrics
   - wiki/mind/concepts/forensic-method
   - wiki/mind/synthesis/the-commissioned-self
+  - wiki/interests/food-and-diet
 tags: [personality-profile, forensic-analysis, ideology, relationships]
 connections:
   - page: wiki/mind/synthesis/totality-themes
@@ -63,6 +64,9 @@ connections:
   - page: wiki/mind/synthesis/the-commissioned-self
     type: instance-of
     claim: "This page is a documented instance of the provenance gradient that page requires: it leans most heavily on calibrated-confidence, the one profile-layer finding with no self-report origin, and on Trust 9, the one Big30 facet independently corpus-audited, while treating the Ti/Fe function percentages as the weaker, self-commissioned register its rule concerns."
+  - page: wiki/interests/food-and-diet
+    type: instantiates
+    claim: "The food-composition regime — every ingredient accepted in full or refused outright, with no recorded case of a tolerated small amount — is a ninth domain instance of this page's rule, and the most literal one on record: run on a plate rather than a person or a taste, it has nothing available to blur the binary the way flattery or lobbying can elsewhere."
 ---
 
 # The Binary Verdict
@@ -112,7 +116,17 @@ is sharp enough to test.
 | Authority ([[wiki/mind/synthesis/vertical-authority-skepticism]]) | audited-and-suspect / lateral-trusted | a partial, watched trust | No — reframed as timing (audited now / audited later), still binary once the audit runs |
 | Power, political ([[wiki/mind/synthesis/political-psyops]], [[wiki/mind/politics/axioms]]) | legitimate claim on power / illegitimate | negotiated partial legitimacy | No at the top level; graded scoring appears only inside the "everyone is wrong" bucket |
 | Resource allocation ([[wiki/mind/synthesis/single-channel]]) | one channel at maximum voltage / unfunded | moderate, distributed investment | No — Gini 0.96, tightening under load rather than spreading |
+| Food composition ([[wiki/interests/food-and-diet]]) | accept-in-full / refuse-outright | "acceptable in a small amount" | No — every documented ingredient decision is all-or-nothing |
 | Unwitnessed fact ([[wiki/mind/concepts/calibrated-confidence]]) | — | 75, 80, 89, 90, 95, 99, 99.9999 | **Yes** — this is where the middle values live |
+
+**Added 2026-08-28.** [[wiki/interests/food-and-diet]]'s own constitution
+pass found the composition regime independently and cited this page as the
+domain-general rule it instantiates — see that page's "The mechanism"
+section. It is added here as the ninth domain rather than left as a
+one-directional citation, because it is the most literal member on the
+table: a plate has no relational stakes to be lobbied, flattered, or
+partially forgiven the way a person, a taste, or an authority sometimes can,
+so the binary shows with nothing available to blur it.
 
 ## Worth: the axiom that names its own binary
 
@@ -446,8 +460,11 @@ this pass.
 > contain the material to settle which way that causation runs, and this
 > page will not guess.
 
-- **Only eight domains were checked.** Health, money, and work-performance
-  verdicts were not systematically tested for the same binary/graded split;
+- **Originally eight domains were checked; a ninth (food composition) was
+  added 2026-08-28**, independently, by [[wiki/interests/food-and-diet]]'s
+  own constitution pass rather than by a re-check run from this page. Health,
+  money, and work-performance verdicts still have not been systematically
+  tested for the same binary/graded split;
   [[wiki/mind/synthesis/estate-money-spine]] and
   [[wiki/mind/synthesis/the-embedded-objective]] are the obvious next places
   to look.

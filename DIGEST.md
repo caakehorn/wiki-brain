@@ -47,7 +47,7 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-28** — 36 pages
+**2026-08-28** — 37 pages
   - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
   - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
@@ -66,12 +66,13 @@ this is the state of the thing.
   - connect | self, timeline | connection-queue.md (context-core <-> timeline.md)
   - constitution-pass | mind | wiki/mind/synthesis/alias-as-periodization
   - constitution-pass | mind | wiki/mind/synthesis/music-as-identity
+  - constitution-pass | mind | wiki/mind/synthesis/instrument-is-subject
 
 **2026-08-27** — 6 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
   - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
 
-**2026-08-26** — 58 pages
+**2026-08-26** — 57 pages
   - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
   - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
@@ -116,7 +117,7 @@ have moved since.
 
 - [[wiki/health/cocaine]] — 15 premises
 - [[wiki/health/the-configured-body]] — 8 premises
-- [[wiki/interests/food-and-diet]] — 9 premises
+- [[wiki/interests/food-and-diet]] — 11 premises
 - [[wiki/mind/concepts/chaos-preference]] — 2 premises
 - [[wiki/mind/concepts/the-cool-metric]] — 3 premises
 - [[wiki/mind/politics/axioms]] — 5 premises
@@ -138,7 +139,7 @@ have moved since.
 - [[wiki/mind/synthesis/read-receipt-forensics]] — 2 premises
 - [[wiki/mind/synthesis/single-channel]] — 8 premises
 - [[wiki/mind/synthesis/supply-network]] — 11 premises
-- [[wiki/mind/synthesis/the-binary-verdict]] — 13 premises
+- [[wiki/mind/synthesis/the-binary-verdict]] — 14 premises
 - [[wiki/mind/synthesis/the-cato-seat]] — 9 premises
 - [[wiki/mind/synthesis/the-commissioned-self]] — 10 premises
 - [[wiki/mind/synthesis/the-deferred-audit]] — 11 premises

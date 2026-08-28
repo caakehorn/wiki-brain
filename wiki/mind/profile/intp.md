@@ -76,6 +76,9 @@ connections:
   - page: wiki/mind/synthesis/instrument-is-subject
     type: causes
     claim: "The exocortex prompt's evidentiary standard — unwavering honesty, no softening, residue over testimony — is Ti-dominance's own truth criterion ('a system that holds under recursive collapse') exported into an instruction, which is why that page's recursion problem is a predictable consequence of this specific stack rather than an accident of which AI tool got used."
+  - page: wiki/interests/food-and-diet
+    type: causes
+    claim: "The same closure test named for worth, taste and trust verdicts runs on a plate: an unrequested ingredient fails Ti's pass/fail standard outright, with Fe (10% valuing) too weak to run the graded negotiation that would soften it into 'acceptable enough' — the most literal instance of the mechanism found so far, because a sandwich cannot be lobbied or flattered the way a person sometimes can."
 ---
 
 # INTP — The Cognitive Function Stack
