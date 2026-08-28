@@ -67,6 +67,21 @@ connections:
   - page: wiki/interests/food-and-diet
     type: instantiates
     claim: "The food-composition regime — every ingredient accepted in full or refused outright, with no recorded case of a tolerated small amount — is a ninth domain instance of this page's rule, and the most literal one on record: run on a plate rather than a person or a taste, it has nothing available to blur the binary the way flattery or lobbying can elsewhere."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: parallels
+    claim: "The confession trap that page documents is this rule's boundary case rather than its ordinary instance: where this page describes a reached verdict that will not be revisited, that page documents what happens when the same drive for a closing verdict is never satisfied at all — a distinction worth carrying back here, since every other member on this table is a verdict that closed, and this is the one that couldn't."
+  - page: wiki/mind/synthesis/dan-annie-fallout-verdict
+    type: parallels
+    claim: "The confession trap that page names — he could not exit without a validating confession that was never coming — is the same verdict-cognition boundary case documented on attachment-trauma-bond, in this page's other central relational case."
+  - page: wiki/mind/synthesis/august-grievance-verdict
+    type: instantiates
+    claim: "Grievance 6's 'him or me' demand — a stated want that isn't one of the two named options registers as no answer at all — is a domain instance of this page's rule, scored false by that page's own analysis, which is what a working example of the rule looks like from outside the architecture running it."
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: parallels
+    claim: "That page's restatement of the confession trap — a rescuer 'supplies neither the verdict nor the door' — identifies it as the same verdict-cognition boundary case documented on dan-annie-fallout-verdict and attachment-trauma-bond: one mechanism, now three instances rather than three independent observations."
+  - page: wiki/mind/synthesis/fayette-return
+    type: instantiates
+    claim: "The 'personal failure' reading that page's own Consequences section rejects is Core Axiom 1's worth-binary applied to a family return — exceptional or worthless, no middle state — and that page's genealogical reframing is a rare documented case of escaping the binary by changing category (inherited pattern, not personal verdict) rather than by arguing for a graded middle value the architecture does not have."
 ---
 
 # The Binary Verdict

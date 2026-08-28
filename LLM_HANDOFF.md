@@ -4,6 +4,139 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-28] - Session: constitution-pass backlog complete (21 pages), Alexis Armel close, Track 2 interleaving
+
+* **Model:** Claude Sonnet 5 (Claude Code, remote) · **Branch:**
+  `claude/constitution-pass-backlog-95zhnz` · **PRs:** #203, #204, #205 (all
+  merged), **#206** (open, watched, draft) — the branch was restarted from
+  fresh `main` three separate times this session because each PR merged
+  mid-session while more commits were still in flight; every restart
+  cherry-picked the orphaned commits forward and re-verified gates
+  identical before force-pushing. No work was lost across any of the three
+  restarts.
+* **Trigger:** operator asked for a full pass on the 21-page constitution-
+  pass backlog — every `page_type: synthesis` page whose `synthesizes:`
+  cited no `wiki/mind/profile/` page, a `bin/wiki-lint` warning added this
+  session — in an explicit order: `the-binary-verdict` first (worked
+  exemplar), then 12 more non-Annie pages, then the 7 Annie-moratorium
+  pages **last**, bound throughout by the standing moratorium in
+  `CLAUDE.md`. Mid-session interrupt: commit/push what existed, then fully
+  ingest two operator-volunteered captures staged on `wiki/people/
+  alexis-armel.md` via `bin/wiki-gaps`, per the CLOSE protocol.
+
+**Constitution-pass backlog: complete, 22 pages total (21 planned + one
+found missed during final verification).** Full detail on every page is in
+`log.md`, one entry per page; summarized by category:
+
+- **The exemplar and 12 non-Annie pages:** `the-binary-verdict`,
+  `single-channel`, `the-deferred-audit`, `totality-themes`, `the-
+  embedded-objective`, `dormancy-not-exit`, `estate-money-spine`, `supply-
+  network`, `alias-as-periodization`, `music-as-identity`, `instrument-is-
+  subject`, `wiki/interests/food-and-diet`, `wiki/places/the-unpapered-
+  address`. Each got a named causal mechanism (never a decorative
+  citation) — most commonly `intp`'s Ti-dominance/Fe-inferior split or
+  `big-five-psychometrics`' corpus-confirmed facets (Trust 9, Self-
+  Consciousness 91, the Altruism-1 inversion) — with reciprocal write-back
+  edges on every cited profile/synthesis page. Several tempting-but-
+  unconfirmed registers were explicitly checked and declined (Impulsiveness
+  on `estate-money-spine`; Vulnerability on `attachment-trauma-bond`) rather
+  than cited decoratively.
+- **`fayette-return`** — found still flagged during the *final* gate check
+  of this whole backlog, despite being 8th on the original ordering; it had
+  been skipped earlier in the session with no record of why. Closed the
+  same way as the rest: `intp`/`the-binary-verdict`'s Core Axiom 1 account
+  explains why misfiling a family return as "personal failure" is
+  consequential (resolves to the corpus's binary worthless pole) rather
+  than loose. **Lesson for the next session: re-run `bin/wiki-lint`'s
+  full output at the end of a multi-page backlog pass, not just after each
+  individual page** — a page can silently fall out of a session's own
+  tracking without anyone noticing until the gate is re-read in full.
+- **The 7 Annie-moratorium pages, done last, in the operator's stated
+  order:** `attachment-trauma-bond`, `dan-annie-fallout-verdict`, `block-
+  unblock-loop`, `august-grievance-verdict`, `the-rescue-premise`, `read-
+  receipt-forensics`, `morgantown-call-three-participant-ethical-analysis`.
+  Every citation on every one of these sources a mechanism the page had
+  *already* stated in its own words (a typology claim, a named-but-uncited
+  quote, an independently-reached moral finding) — never a new fact, date,
+  quote, or narrative about Annie. `read-receipt-forensics` is the one
+  genuinely different case: a technical `chat.db`/SQLite methodology page,
+  where most registers were honestly declined rather than forced, and the
+  one that did bear (Trust 9) was already implicit in an existing citation.
+  `morgantown-call-three-participant-ethical-analysis` — the most sensitive
+  page in the corpus — got exactly one citation (`intp`'s Ti-dominance,
+  sourcing the page's own already-reached "instrumentalization" finding)
+  and nothing else.
+
+**A real finding surfaced and deliberately left unfixed.** Reading
+`dan-annie-fallout-verdict` in full for its own pass surfaced a genuine
+write-back failure: that page's own 2026-07-18 correction to the
+187-of-191 "love-to-request" statistic (found non-diagnostic — 97.2% of
+*all* her messages are equally request-adjacent at 24h) never propagated
+to five sibling pages (`conflict-architecture`, `attachment-model`,
+`the-binary-verdict`, `the-rescue-premise`, `annie-ulmer-personality-
+assessment`), though `annie-ulmer.md` itself already carries the fix.
+**Not fixed this session, on either page it was found on** — a proper
+correction requires stating what the statistic does and doesn't show
+about Annie's behavior, which the standing moratorium reserves to the
+operator's discretion rather than a session's own judgment call, however
+well-reasoned. Logged to `BACKLOG.md` §3 instead. **This is the single
+highest-value item for whoever the operator authorizes to work on it
+next** — five pages currently assert a discredited statistic as if
+settled.
+
+**Track 2, interleaved rather than left untouched:** one `connection-
+queue.md` pair typed this session beyond the two done just before this
+entry (`vertical-authority-skepticism<->context-core`, `context-core<->
+timeline.md`) — `node-locking<->gemini-activity` (`evidences`/
+`evidenced-by`, mechanism-count sourcing). The next-highest-scored pair
+(`dan-annie-fallout-verdict<->group-chat-closure`, score 12.6) was
+correctly skipped: typing it would itself be a new typed-edge claim about
+Annie. `queue.md`, `synthesis-queue.md` and most of `connection-queue.md`
+remain a large standing backlog, worked top-down by choice per `WORK.md`,
+not drained — this session's ratio (one Track 2 item per several Track 1
+pages) reflects the operator's explicit "alternate, don't grind straight
+through" instruction, not neglect.
+
+**The Alexis Armel close** (mid-session interrupt, done before resuming
+the backlog): two operator-volunteered `bin/wiki-gaps`-staged captures on
+`wiki/people/alexis-armel.md` fully integrated per the CLOSE protocol —
+dated the relationship's start to Thanksgiving 2009, added the Christmas
+2009 trip and Zach Clingan rupture, corrected the post-Franki
+reconciliation to October 2013, added a second, differently-dated 2014
+eviction/concealment episode held open against an existing account rather
+than force-reconciled. Resolved a real standing contradiction: two
+independent T0 statements agree the "five days" tenure figure belongs to
+Alexis, not Franki Faris — corrected on three pages
+(`franki-faris`, `franki-fireworks-day-2013`, `dormancy-not-exit`) with
+matching edge-type fixes. Cascaded to six more pages
+(`zach-clingan`, `suzanne-frank`, `chemical-architecture`, `full-sail-
+2008-2010`, `155-virginia-ave`, `2015-possession-arrest`). Full detail in
+`log.md`.
+
+**Gates, every commit this session:** `bin/wiki-lint` 0 errors throughout
+(warning count dropped from 26 to 18 as each backlog page's missing-
+profile warning cleared, and once more from bookkeeping fixes); `bin/wiki-
+connect check` 0 errors, warnings held at the 144 baseline except during
+mid-pass type-mismatch catches, always fixed before commit; `bin/wiki-
+climb check` 0 errors, ended at **0 warnings** (every pre-existing
+staleness debt this backlog carried in — `estate-money-spine`, `the-
+deferred-audit`, `155-virginia-ave` flagging `the-unpapered-address` — was
+worked and closed, not bumped); `bin/wiki-freshness` clean after every
+`bin/wiki-digest` + `bin/llm-publish`; 125 unit tests pass throughout.
+`bin/wiki-work scan`: **0 obligations** at session end.
+
+* **Handoff note:** the constitution-pass backlog, as both originally
+  scoped and as actually discovered (22 pages), is complete. Nothing is
+  outstanding from this specific task. The two live threads for whoever
+  picks this up next: (1) the 187-of-191 write-back fix, logged to
+  `BACKLOG.md` §3, blocked on operator authorization under the Annie
+  moratorium rather than on any remaining analysis; (2) Track 2's standing
+  queues (`queue.md` ~38 items, `synthesis-queue.md` ~25 clusters,
+  `connection-queue.md` ~85 remaining pairs, `BACKLOG.md` ~46 entries,
+  now 47 with the new item) are exactly as large as before this session
+  — this session's mandate was the constitution-pass backlog with Track 2
+  as light interleaving, not Track 2 completion.
+
 ### [2026-08-28] - Session: three character-concept syntheses (binary/zero-sum cognition, no-platonic-channel, the-serial-monogamist)
 
 * **Model:** Claude Sonnet 5 (Claude Code, remote) · **Branch:**

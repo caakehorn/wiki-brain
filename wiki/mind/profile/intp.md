@@ -82,6 +82,27 @@ connections:
   - page: wiki/places/the-unpapered-address
     type: causes
     claim: "Ti's definition of truth as 'a system that holds under recursive collapse' is why paper was never sought from a housing provider rather than merely never offered: demanding a lease from someone who has already granted access audits whether they can be trusted to keep granting it, which risks the choice to depend on them, not just the housing itself."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: causes
+    claim: "The Ti-Si loop is why that page's bond-collapse crisis reactivated exactly the two schemas it already names (the 2004-05 rupture, the Alexis collapse) rather than fading into ordinary grief, and Ni-leak's mythic-overfitting is the measured function behind the 'burning rituals' language — the mind's own analytical strength turned on the wound, not a metaphor for its intensity."
+  - page: wiki/mind/synthesis/dan-annie-fallout-verdict
+    type: causes
+    claim: "That page's 'Ti-dominant processing reads emotional bids as propositions to litigate' line is Ti-dominance and Fe-inferior named without being sourced: Ti supplies the adjudication reflex, and Fe at 10% valuing is too weak to supply the empathic acknowledgment the engine skips — 'Fe's absence removes the social brake that would otherwise soften conclusions for company,' running here at full load."
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: causes
+    claim: "Two distinct functions explain that page's corrected rule ('the exit is executed; the deletion never is'): Si-tertiary's non-pruning archive is why nothing co-held is ever actually erased, and Fe-inferior (10% valuing) is why an executed severance never becomes felt-settled without an external terminating statement — the same account already established for dormancy-not-exit, run here on the channel-operation layer."
+  - page: wiki/mind/synthesis/august-grievance-verdict
+    type: causes
+    claim: "That page's grievance 6 — a demand for a statement that registers a different true answer as no answer at all — is Ti-dominance running with no Fe-mediated grading function available to read the different answer as responsive; the page's own scoring of the grievance as false is what this mechanism looks like from outside it."
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: causes
+    claim: "That page's own claim that the system 'cannot generate one from behavioural evidence' — a severance signal — is Fe-inferior (10% valuing) named without being sourced: the function that would read a decade of withdrawal as implicit closure is too weak to do it, which is why nothing short of an explicit statement can substitute."
+  - page: wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis
+    type: causes
+    claim: "That page's own 'deepest moral failure' finding — instrumentalization, converting concern into an optimization problem and designing a stronger signal when ordinary conversation fails — is Ti-dominance's 'internal simulation labs' turned on a person: the same faculty that stress-tests ideas and relationships against a truth standard holding 'under recursive collapse, not social consensus,' with the wrong kind of object in it."
+  - page: wiki/mind/synthesis/fayette-return
+    type: causes
+    claim: "Core Axiom 1's binary self-worth verdict, running on Ti-dominance with no Fe-mediated grading function, is why that page's 'personal failure' misfiling of a family return is consequential rather than loose: with no graded middle available, the misfiling resolves straight to the worthless pole rather than to a discounted setback."
 ---
 
 # INTP — The Cognitive Function Stack

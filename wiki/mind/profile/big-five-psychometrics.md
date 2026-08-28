@@ -71,6 +71,12 @@ connections:
   - page: wiki/places/the-unpapered-address
     type: contradicts
     claim: "Trust at the 9th percentile predicts a paper trail should have been sought across sixteen years of housing dependency, and none was — the sharpest apparent counter-instance to this facet found in this session's constitution passes, resolved not by this page but by vertical-authority-skepticism's lateral/vertical scoping, which that page cites directly."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: contradicts
+    claim: "Vulnerability, the facet that would most directly predict that page's psychosomatic-crisis account, runs below the within-medium baseline (0.81x) on the 2026-08-16 corpus audit — flat like Impulsiveness, not confirmed like Trust or Self-Consciousness. That page's somatic-toll mechanism is sourced to the Ti-Si loop and the sx/sp instinct stacking instead, and explicitly does not lean on this facet."
+  - page: wiki/mind/synthesis/read-receipt-forensics
+    type: causes
+    claim: "Trust at the 9th percentile, corpus-confirmed at 1.96x, is the one hop that page's own reassurance-architecture citation left implicit: a confirmation that doesn't carry forward as a prior is why a device-level read-receipt query gets run in the first place."
 ---
 
 

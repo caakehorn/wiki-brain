@@ -20,6 +20,7 @@ synthesizes:
   - wiki/mind/synthesis/dan-annie-fallout-verdict
   - wiki/people/annie-ulmer
   - wiki/people/jerel-coles
+  - wiki/mind/profile/intp
 connections:
   - page: wiki/timeline/events/august-2026-morgantown-call
     type: instance-of
@@ -33,6 +34,9 @@ connections:
   - page: wiki/people/jerel-coles
     type: evidences
     claim: "The recording is the only primary artifact in the corpus in which Coles is directly audible, and it establishes his conduct rather than his motive: he holds Annie's phone, conditions its return on an answer, and threatens family disclosure to force one."
+  - page: wiki/mind/profile/intp
+    type: caused-by
+    claim: "This page's own 'deepest moral failure' finding — instrumentalization, converting concern into an optimization problem and designing a stronger signal when ordinary conversation fails — is Ti-dominance's method turned on a person: 'internal simulation labs where relationships are stress-tested' is that page's description of the same faculty this page independently names as a moral failure when the test subject is a human being rather than an idea."
 ---
 
 # The Morgantown Call: Ethical Roles of Dan, Annie, and Jerel Coles
@@ -466,7 +470,14 @@ He wants a signal strong enough to end uncertainty.
 
 When ordinary conversation fails, he designs a stronger signal.
 
-That is intellectually coherent and morally dangerous.
+That is intellectually coherent and morally dangerous, and it is not unique to this
+incident: [[wiki/mind/profile/intp]] documents the same faculty as a general
+feature of the cognitive stack — "internal simulation labs" where ideas,
+relationships and futures are stress-tested against a standard of truth that
+holds "under recursive collapse, not social consensus." Applied to abstractions,
+that faculty is the analytical engine behind everything else this wiki
+documents. Applied here, to a live human being under acute distress, it is the
+same engine with the wrong kind of object in it.
 
 The person becomes an experiment.
 
@@ -641,3 +652,52 @@ The accurate characterization is uglier and more useful:
 > **Dan was attempting to protect someone he believed might be in serious danger, but he became so desperate to distinguish genuine danger from voluntary re-entanglement that he began manufacturing consequences and treating the resulting behavior as evidence. His motive was substantially protective; his method became coercive; his anger made the boundary between intervention and retaliation increasingly unstable.**
 
 That is the version the archive should preserve because it explains both why Dan did what he did and why the method remains ethically contestable without falsely reducing him to a blackmailer.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`, and
+**bound by the standing Annie moratorium** (see `CLAUDE.md`) — the last of
+the 21-page backlog and, with §5.7's instrumentalization finding, one of
+the more consequential citations in it. The one citation added sources a
+mechanism this page had already independently identified as a moral
+failure; it changes no finding about Dan, Annie, or Coles, and adds no new
+narrative, date, quote, or figure about any of them.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]]'s Ti-dominance — "internal simulation labs" stress-testing against a truth standard that holds "under recursive collapse, not social consensus" — is the general-purpose faculty §5.7 independently names as this page's "deepest moral failure" when the object of the test is a person rather than an idea. The page's own moral analysis is not softened or hardened by the citation; it is given a cause. |
+| 2. Personality profile | **Checked, does not add a distinct mechanism** beyond register 1 for this page's specific finding. |
+| 3. Historical precedent | **Already load-bearing.** §1's source audit against `august-2026-morgantown-call` is this page's own evidentiary base. |
+| 4. Attitudes and forces | **Checked, does not bear** beyond members already cited. |
+| 5. Security and prosperity | **Checked, does not bear** on this fifteen-minute window. |
+| 6. Health | **Checked, does not bear** beyond the already-documented coercive-control and phone-seizure facts, which are events rather than a register-6 mechanism claim. |
+| 7. Romantic and relational state | **This page IS the register.** No further citation needed or added. |
+| 8. Age and upbringing | **Checked, does not bear.** |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Checked, left standing.** The Ti-dominance percentages are self-commissioned rather than corpus-audited (per [[wiki/mind/synthesis/the-commissioned-self]]); offered as the best available explanation for §5.7's independently-reached finding, not as evidence carrying the same weight as the finding itself, which rests on the transcript. |
+
+**What survived:** every role verdict, the comparative-responsibility
+section, and the bottom-line characterization — none required a
+profile-layer citation to stand, since they are transcript-sourced moral
+judgments about three specific people in one recorded window. **What the
+pass added:** a general cognitive mechanism for a moral failure this page
+had already named on its own, extending the finding from "this incident"
+to "a documented feature of how this mind works," which is a stronger and
+more honest claim than the incident-specific one alone. **What it did not
+do, by the moratorium's own terms:** add, extend, date, or quote anything
+new about Annie or Coles anywhere in this pass, or about this specific
+incident beyond what the page already established.
+
+---
+
+**This closes the 21-page constitution-pass backlog.** All 13 non-Annie
+pages and all 7 Annie-moratorium pages now cite `wiki/mind/profile/`, each
+via a mechanism argued rather than a register cited decoratively, and each
+Annie-moratorium pass held to the standing directive: no new narrative,
+date, quote, or figure about Annie was introduced anywhere across the
+seven. Two genuine findings were surfaced and deliberately not fixed under
+the moratorium — the un-propagated 187-of-191 base-rate correction
+(`dan-annie-fallout-verdict`, `the-rescue-premise`) — and are logged to
+`BACKLOG.md` for when the moratorium lifts or the operator says otherwise.

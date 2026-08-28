@@ -6396,3 +6396,279 @@ warnings on gemini-activity.md and its archive page are unrelated to this
 edit); `bin/wiki-climb check` 0 errors / 0 warnings; `bin/wiki-freshness`
 clean; 125 tests pass. `bin/wiki-work scan`: 0 obligations, 193 standing
 (one fewer).
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/attachment-trauma-bond
+
+First of the 7 Annie-moratorium backlog pages, done last per the operator's
+explicit ordering and bound throughout by the standing Annie moratorium in
+CLAUDE.md. This page had never cited `wiki/mind/profile/`, despite its own
+"Aura Illness" section already asserting an unsourced typological claim
+("Dan's INTP 5w4 sx/sp profile dictates...") — the citation gap and the
+mechanism argument were the same piece of missing work, which made this a
+safe first case: every citation below sources a claim the page already made
+about Dan's own cognition, using no material beyond what this page and the
+profile pages already state.
+
+**The mechanism, sourced rather than asserted.** `wiki/mind/profile/intp`'s
+Ti-Si loop (the type's own documented "signature pathology") is why the
+bond's collapse reactivated exactly the two schemas already named on the
+page — the 2004-05 parental rupture, the Alexis collapse — rather than
+fading into ordinary grief; Ni-leak's mythic-overfitting is the measured
+function behind the "burning rituals" language. `wiki/mind/profile/
+enneagram-5w4`'s sx/sp fusion-or-annihilation instinct stacking is the
+literal source for "ontological amputation," and its own unresolved
+5w4-vs-5w6sx wing contradiction is disclosed rather than laundered — the
+mechanism survives it because it rests on the instinct order, not the
+disputed wing. `wiki/mind/synthesis/the-binary-verdict` reframes the
+confession trap as verdict-cognition's *boundary case*: not an ordinary
+instance of a reached verdict staying closed, but what happens when the
+same drive for a closing verdict is never satisfied — which is why the
+eventual exit ran through a door rather than through closure.
+
+**One tempting register checked and declined.** `wiki/mind/profile/
+big-five-psychometrics`' Vulnerability facet — the one that would most
+directly predict a psychosomatic-crisis account — runs flat (0.81x, below
+baseline) on the corpus audit, like Impulsiveness. Not cited as a
+mechanism; recorded as checked and found wanting, consistent with this
+session's provenance-gradient discipline.
+
+**Moratorium compliance, explicit.** The page's own new "## The
+constitution pass" section states directly that nothing new about Annie
+was added, dated, quoted, or extended — every sentence either concerns
+Dan's measured cognitive architecture or restates a fact already on the
+page (the 2004-05 rupture, the Alexis collapse, the confession-trap quote,
+the "ontological amputation" language) with its mechanism now cited rather
+than asserted.
+
+Write-back: four new `synthesizes:` members (`intp`, `enneagram-5w4`,
+`big-five-psychometrics`, `the-binary-verdict`) with reciprocal edges on
+all four pages.
+
+Gates: `bin/wiki-lint` 0 errors / 24 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors /
+0 warnings; `bin/wiki-freshness` clean after `bin/wiki-digest` +
+`bin/llm-publish`; 125 tests pass. `bin/wiki-work scan`: 0 obligations, 193
+standing. 6 of 7 Annie-moratorium pages remain, in the operator's stated
+order: `dan-annie-fallout-verdict`, `block-unblock-loop`,
+`august-grievance-verdict`, `the-rescue-premise`, `read-receipt-forensics`,
+`morgantown-call-three-participant-ethical-analysis`.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/dan-annie-fallout-verdict
+
+Second of 7 Annie-moratorium backlog pages, bound throughout by the standing
+moratorium. Sourced two claims the page already made about Dan's own
+cognition: `wiki/mind/profile/intp`'s Ti-dominance/Fe-inferior split for the
+already-stated "Ti-dominant processing reads emotional bids as propositions
+to litigate" line; `wiki/mind/synthesis/the-binary-verdict` reframing the
+already-quoted confession trap ("the exit was never through the verdict, it
+was through the door") as verdict-cognition's boundary case, matching the
+same citation just added to `attachment-trauma-bond`. No new Annie
+narrative, date, quote, or figure anywhere in this pass.
+
+**A real finding, deliberately not fixed.** Reading the whole page for this
+pass surfaced a genuine write-back failure: this page's own 2026-07-18
+REVISED block found the 187-of-191 "love-to-request" statistic
+non-diagnostic (97.2% of *all* her messages are equally request-adjacent at
+24h; the directional 1h-window test inverts it). `wiki/people/annie-ulmer`
+already carries that correction. Five other pages —
+`wiki/mind/concepts/conflict-architecture`, `wiki/mind/concepts/
+attachment-model`, `wiki/mind/synthesis/the-binary-verdict`, `wiki/mind/
+synthesis/the-rescue-premise`, `wiki/people/annie-ulmer-personality-
+assessment` — still cite the raw figure without the correction. **Not
+fixed in this pass.** A proper correction requires stating what the
+statistic does and doesn't show about Annie's behavior — new Annie-adjacent
+prose the standing moratorium reserves to the operator, not a session's own
+judgment call, however well-reasoned the fix. Logged to `BACKLOG.md` §3
+instead of silently fixed or silently dropped, per the task's explicit
+instruction: "if a constitution pass can only be completed by saying
+something new about her, stop and record why instead."
+
+Write-back: two new `synthesizes:` members (`intp`, `the-binary-verdict`)
+with reciprocal edges on both pages.
+
+Gates: `bin/wiki-lint` 0 errors / 23 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors /
+0 warnings; `bin/wiki-freshness` clean; 125 tests pass. `bin/wiki-work
+scan`: 0 obligations, 194 standing (one more — the new BACKLOG.md item).
+5 of 7 Annie-moratorium pages remain: `block-unblock-loop`,
+`august-grievance-verdict`, `the-rescue-premise`, `read-receipt-forensics`,
+`morgantown-call-three-participant-ethical-analysis`.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/block-unblock-loop
+
+Third of 7 Annie-moratorium backlog pages, bound throughout by the standing
+moratorium. Sourced a phrase the page already used unsourced: "the machine
+proof" section named "an exhaustible Fe function" without citing
+`wiki/mind/profile/intp`. Two distinct functions explain the page's
+corrected rule ("the exit is executed; the deletion never is"): Si-tertiary's
+non-pruning archive is why nothing co-held is ever actually erased from the
+system, and Fe-inferior (10% valuing) is why an executed severance never
+becomes felt-settled without an external terminating statement — reusing,
+rather than re-deriving, the identical two-function account this session
+already established for `wiki/mind/synthesis/dormancy-not-exit`'s "suspend,
+not delete" rule, applied here to the channel-operation layer instead of
+the relationship-status layer. No new Annie narrative, date, quote, or
+figure anywhere in this pass.
+
+Write-back: one new `synthesizes:` member (`intp`) with a reciprocal edge.
+
+Gates: `bin/wiki-lint` 0 errors / 22 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors /
+0 warnings; `bin/wiki-freshness` clean; 125 tests pass. `bin/wiki-work
+scan`: 0 obligations, 194 standing. 4 of 7 Annie-moratorium pages remain:
+`august-grievance-verdict`, `the-rescue-premise`, `read-receipt-forensics`,
+`morgantown-call-three-participant-ethical-analysis`.
+
+Note: PR #205 merged mid-session (again) while two more commits were still
+in flight; branch was restarted from fresh `origin/main` and the two
+unmerged commits (`attachment-trauma-bond`, `dan-annie-fallout-verdict`)
+cherry-picked forward per protocol, gates re-verified identical, opened
+PR #206.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/august-grievance-verdict
+
+Fourth of 7 Annie-moratorium backlog pages, bound throughout by the standing
+moratorium — and the most sensitive page done so far, given its content
+(coercive control, a disclosed suicide attempt, grievance-by-grievance
+adjudication of a documented, recorded incident). The only edit is a
+mechanism citation for grievance 6, which the page had already scored
+(false) and explained in its own words: the "him or me" demand admits no
+third option, so a stated want that isn't one of the two named options
+registers as no answer at all. `wiki/mind/profile/intp`'s Ti-dominance
+running with no Fe-mediated grading function is why a different true
+answer can't register as responsive; `wiki/mind/synthesis/the-binary-verdict`
+names it as a domain instance of the corpus-wide rule already established
+this session — Dan's own cognition, using only language already on the
+page. No new claim, quote, date, or figure about Annie anywhere in this
+pass; every other grievance score, the counter-ledger, and the verdict
+itself are untouched.
+
+Write-back: two new `synthesizes:` members (`intp`, `the-binary-verdict`)
+with reciprocal edges on both pages.
+
+Gates: `bin/wiki-lint` 0 errors / 21 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors /
+0 warnings; `bin/wiki-freshness` clean; 125 tests pass. `bin/wiki-work
+scan`: 0 obligations, 194 standing. 3 of 7 Annie-moratorium pages remain:
+`the-rescue-premise`, `read-receipt-forensics`,
+`morgantown-call-three-participant-ethical-analysis`.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/the-rescue-premise
+
+Fifth of 7 Annie-moratorium backlog pages, bound throughout by the standing
+moratorium — explicitly including a hard stop on the page's own gap 7 and
+predictions P1-P5, all of which depend on a newer export the moratorium
+forbids acquiring; this pass touches none of them. Two citations, both
+sourcing claims the page already made: `wiki/mind/profile/intp`'s
+Fe-inferior (10% valuing) for the page's own "the system... cannot generate
+one from behavioural evidence" line about the severance signal;
+`wiki/mind/synthesis/the-binary-verdict` identifying the confession trap
+this page restates ("a rescuer supplies neither the verdict nor the door")
+as the same mechanism already documented on `dan-annie-fallout-verdict` and
+`attachment-trauma-bond` — one mechanism now correctly identified as one
+mechanism across three pages, not three independent observations.
+
+**A second instance of the deferred write-back finding, cross-referenced
+rather than re-litigated.** This page's own Part II still carries the
+un-propagated 187-of-191 base-rate caveat first flagged during the
+`dan-annie-fallout-verdict` pass. Not fixed here either, for the identical
+reason (already logged to `BACKLOG.md`); the constitution-pass table simply
+notes the page is one of the five affected rather than re-deriving the
+finding.
+
+No new Annie narrative, date, quote, or figure anywhere in this pass.
+
+Write-back: two new `synthesizes:` members (`intp`, `the-binary-verdict`)
+with reciprocal edges on both pages.
+
+Gates: `bin/wiki-lint` 0 errors / 20 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors /
+0 warnings; `bin/wiki-freshness` clean; 125 tests pass. `bin/wiki-work
+scan`: 0 obligations, 194 standing. 2 of 7 Annie-moratorium pages remain:
+`read-receipt-forensics`, `morgantown-call-three-participant-ethical-analysis`.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/read-receipt-forensics
+
+Sixth of 7 Annie-moratorium backlog pages, bound throughout by the standing
+moratorium. This one is a genuinely different case from the other five: it
+is a technical methodology page (SQLite `chat.db` column semantics, a
+type-affinity bug), not a psychological or narrative one, and most of the
+eleven registers honestly do not bear on it — forcing a cognitive-stack
+citation onto a page about a SQL type-coercion defect would have been
+exactly the decorative connection this pass exists to prevent, not
+produce.
+
+One register does bear, and it was already implicit. The page's own
+pre-existing `reassurance-architecture` citation calls read-receipt
+analysis "measurement substituting for reassurance" without naming what
+that architecture runs on. `wiki/mind/profile/big-five-psychometrics`'
+Trust 9 (corpus-confirmed 1.96x raised suspicion) is the one hop back: a
+confirmation that doesn't carry forward as a prior is why a device-level
+metadata query gets run in the first place. Named directly rather than
+left implicit. Register 1 (cognitive stack) was checked and explicitly
+declined as redundant with register 2 rather than cited decoratively.
+
+Write-back: one new `synthesizes:` member (`big-five-psychometrics`) with
+a reciprocal edge.
+
+Gates: `bin/wiki-lint` 0 errors / 19 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors /
+0 warnings; `bin/wiki-freshness` clean; 125 tests pass. `bin/wiki-work
+scan`: 0 obligations, 194 standing. 1 of 7 Annie-moratorium pages remains:
+`morgantown-call-three-participant-ethical-analysis` — the last page of the
+entire 21-page backlog.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis + wiki/mind/synthesis/fayette-return
+
+Seventh and last of the Annie-moratorium pages, plus one page that turned
+out to have been missed earlier in this session's Track 1 pass.
+
+**`morgantown-call-three-participant-ethical-analysis`** — bound throughout
+by the standing moratorium. The single most sensitive page in the backlog:
+a three-participant ethical analysis of a documented coercive-control
+incident. One citation, sourcing a mechanism the page had already
+independently reached on its own: §5.7's "deepest moral failure" finding
+(instrumentalization — converting concern into an optimization problem and
+designing a stronger signal when ordinary conversation fails) is
+`wiki/mind/profile/intp`'s Ti-dominance ("internal simulation labs" that
+stress-test ideas and relationships against a truth standard holding
+"under recursive collapse, not social consensus") turned on a person
+instead of an idea. The page's own role verdicts, comparative-responsibility
+section, and bottom-line characterization are untouched. No new claim,
+quote, date, or figure about Annie or Coles anywhere in this pass.
+
+**This closes the 7-page Annie-moratorium sequence and the 21-page
+constitution-pass backlog as originally scoped.** Across all seven,
+citations sourced mechanisms the pages had already reached on their own
+language; two genuine cross-page write-back failures were found and
+deliberately not fixed (the un-propagated 187-of-191 statistic, logged to
+`BACKLOG.md`); one page (`read-receipt-forensics`) correctly declined most
+registers as a technical-methodology page rather than forcing a fit.
+
+**`fayette-return`** — while running the final gate check, `bin/wiki-lint`
+showed this page *still* flagged for no `wiki/mind/profile/` citation,
+despite being 8th on the original 13-page non-Annie ordering. It was missed
+earlier in this session — not present in either this session's work log or
+the file's own frontmatter. Closed now: `wiki/mind/profile/intp` (Ti-
+dominance/Fe-inferior, via `wiki/mind/synthesis/the-binary-verdict`'s Core
+Axiom 1 account) explains why the page's own "Consequences" section is
+right that misfiling a family return as "personal failure" is consequential
+rather than loose — with no graded middle available, the misfiling resolves
+straight to the corpus's documented worthless pole rather than to a
+discounted setback. The page's own reframing (inherited pattern, not
+personal verdict) works by changing category rather than arguing for a
+middle value the architecture doesn't have. One connections type-mismatch
+(`contradicts`/`instance-of` asymmetry) caught and corrected to
+`instance-of`/`instantiates` before commit.
+
+Write-back: four new `synthesizes:` members total (`intp` on both pages,
+`the-binary-verdict` on `fayette-return` only) with reciprocal edges on
+both target pages.
+
+Gates: `bin/wiki-lint` 0 errors / 18 warnings (two fewer, both `no wiki/mind/
+profile/` warnings now cleared); `bin/wiki-connect check` 0 errors / 144
+warnings (baseline, after fixing the type mismatch); `bin/wiki-climb check`
+0 errors / 0 warnings; `bin/wiki-freshness` clean; 125 tests pass.
+`bin/wiki-work scan`: **0 obligations.** The 21-page constitution-pass
+backlog, plus the one missed page found during final verification, is
+complete.

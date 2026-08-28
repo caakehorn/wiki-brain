@@ -6,7 +6,7 @@ aliases: ["the elastic tether", "regional gravity", "leave-and-come-back"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 date_range_start: 1892-01-01
 date_range_end:
 sources:
@@ -20,6 +20,8 @@ synthesizes:
   - wiki/people/rick-frank
   - wiki/self/ancestry
   - wiki/mind/synthesis/ancestral-dialectic
+  - wiki/mind/profile/intp
+  - wiki/mind/synthesis/the-binary-verdict
 tags: [family, uniontown-era, personality-profile, forensic-analysis]
 connections:
   - page: wiki/people/morley-frank
@@ -52,6 +54,12 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Four generations, each leaving and returning to Fayette County, is 'The Irreversibility Firewall' run at the scale of geography: departure is never converted into the irreversible, examined fact of having left for good."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: instance-of
+    claim: "The 'personal failure' reading this page's own Consequences section rejects is Core Axiom 1's worth-binary applied to a return — exceptional-departure or worthless-retreat, no middle state. This page's genealogical reframing is the one documented case in the corpus that offers a way out of that binary without invoking a middle value: not a graded self-assessment, but a different category entirely (inherited pattern, not personal verdict)."
+  - page: wiki/mind/profile/intp
+    type: caused-by
+    claim: "Core Axiom 1's binary self-worth verdict, per the-binary-verdict's account of Ti-dominance with no Fe-mediated grading function, is why a return misfiled as 'personal failure' would otherwise resolve to worthless rather than to a graded 'a setback, not a verdict' — which is what makes this page's reframing substantive rather than merely comforting: it changes the category the event is judged in, not its position on a scale that was never available."
 ---
 
 # The Fayette Return
@@ -207,6 +215,15 @@ solid.
   the timeline as collapses, retreats and failures. They are also the fourth
   generation of a pattern with a 100% completion rate, and any account of his
   life that reads them purely as individual failure is missing the base rate.
+  That misfiling is not a neutral error. [[wiki/mind/synthesis/the-binary-verdict]]
+  documents a self-worth axiom with exactly two states and no graded middle —
+  "not exceptional = worthless" — so a return read as personal failure does not
+  resolve to a discounted, tolerable setback; per [[wiki/mind/profile/intp]]'s
+  account of the mechanism (Ti-dominance with no Fe-mediated grading function
+  to soften the verdict), it resolves to the worthless pole outright. This
+  page's reframing works because it changes the *category* a return is judged
+  in — inherited pattern, not personal verdict — rather than trying to argue
+  for a middle value the architecture does not have available.
 - **It predicts.** If the rule holds, the current tenancy at
   [[wiki/places/337-saratoga-drive]] is not the end state — a departure is
   expected, and so is a return. The rule makes a claim about the future and can
@@ -338,3 +355,39 @@ solid.
 > same territory the direct line does. One data point against 515
 > unenumerated people is not the audit this gap asks for; it is the first
 > stone in it.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`. This
+page had never cited `wiki/mind/profile/`, and its own methodological
+identity (residue over testimony, per [[wiki/mind/synthesis/instrument-is-subject]],
+already cited in prose) made a decorative citation an easy trap to avoid
+falling into and an easy one to fall into anyway — most of what this page
+argues is genealogical residue and does not need a cognitive-stack
+mechanism to stand. One place genuinely does.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion, narrowly.** [[wiki/mind/profile/intp]]'s Ti-dominance/Fe-inferior account (via [[wiki/mind/synthesis/the-binary-verdict]]) explains why "personal failure" is a consequential misfiling rather than a loose one — see the addition to "Consequences" above. This is the only register this pass found a genuine, non-decorative fit for. |
+| 2. Personality profile | **Checked, does not add a distinct mechanism** beyond register 1. |
+| 3. Historical precedent | **This page IS the register.** The four-generation table is its own historical base; no further citation needed. |
+| 4. Attitudes and forces | **Checked, does not bear.** |
+| 5. Security and prosperity | **Checked, does not bear** beyond the already-documented 337 Saratoga Drive tenure. |
+| 6. Health | **Checked, does not bear.** |
+| 7. Romantic and relational state | **Checked, does not bear.** |
+| 8. Age and upbringing | **Already load-bearing, and IS the register** together with #9 — the whole page is a claim about family and origin. |
+| 9. Geographic and ethnic culture | **This page IS the register**, more than any other page in this backlog. No further citation needed or added. |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Already load-bearing.** The residue-over-testimony discipline against [[wiki/mind/synthesis/ancestral-dialectic]] is this page's own central methodological argument, already correctly attributed to [[wiki/mind/synthesis/instrument-is-subject]] in prose. |
+
+**What survived:** the four-generation table, all three falsifiers, and
+the parsimony argument against the dialectic (as already qualified by the
+2026-08-18 re-check) — none required a profile-layer citation, since this
+is fundamentally a genealogical-residue page. **What the pass added:** a
+cognitive-stack account of *why* misfiling a return as personal failure is
+consequential rather than merely inaccurate — the corpus's own binary
+worth-verdict, not a graded self-assessment, is what such a misfiling
+actually invokes. **What it did not do:** manufacture a mechanism for
+registers 3-11, which are either already this page's own base or
+genuinely do not bear on a claim about ancestral geography.

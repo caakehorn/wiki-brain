@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-28
-519 pages, ~1,498,172 tokens.
+519 pages, ~1,509,665 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10937,7 +10937,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-28** — 38 pages
+**2026-08-28** — 42 pages
   - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
   - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
@@ -10959,12 +10959,19 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - constitution-pass | mind | wiki/mind/synthesis/instrument-is-subject
   - constitution-pass | mind | wiki/interests/food-and-diet
   - constitution-pass | places | wiki/places/the-unpapered-address
+  - connect | mind/self | node-locking.md <-> gemini-activity.md
+  - constitution-pass | mind | wiki/mind/synthesis/attachment-trauma-bond
+  - constitution-pass | mind | wiki/mind/synthesis/dan-annie-fallout-verdict
+  - constitution-pass | mind | wiki/mind/synthesis/block-unblock-loop
+  - constitution-pass | mind | wiki/mind/synthesis/august-grievance-verdict
+  - constitution-pass | mind | wiki/mind/synthesis/the-rescue-premise
+  - constitution-pass | mind | wiki/mind/synthesis/read-receipt-forensics
 
 **2026-08-27** — 5 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
   - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
 
-**2026-08-26** — 57 pages
+**2026-08-26** — 53 pages
   - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
   - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
@@ -11015,20 +11022,20 @@ have moved since.
 - [[wiki/mind/politics/axioms]] — 5 premises
 - [[wiki/mind/synthesis/alias-as-periodization]] — 6 premises
 - [[wiki/mind/synthesis/annual-volume-suz]] — 1 premise
-- [[wiki/mind/synthesis/attachment-trauma-bond]] — 5 premises
-- [[wiki/mind/synthesis/august-grievance-verdict]] — 7 premises
-- [[wiki/mind/synthesis/block-unblock-loop]] — 11 premises
+- [[wiki/mind/synthesis/attachment-trauma-bond]] — 9 premises
+- [[wiki/mind/synthesis/august-grievance-verdict]] — 9 premises
+- [[wiki/mind/synthesis/block-unblock-loop]] — 12 premises
 - [[wiki/mind/synthesis/closing-the-set]] — 9 premises
-- [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — 9 premises
+- [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — 11 premises
 - [[wiki/mind/synthesis/dormancy-not-exit]] — 10 premises
 - [[wiki/mind/synthesis/estate-money-spine]] — 6 premises
 - [[wiki/mind/synthesis/failure-to-launch]] — 17 premises
-- [[wiki/mind/synthesis/fayette-return]] — 6 premises
+- [[wiki/mind/synthesis/fayette-return]] — 8 premises
 - [[wiki/mind/synthesis/instrument-is-subject]] — 5 premises
-- [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] — 6 premises
+- [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] — 7 premises
 - [[wiki/mind/synthesis/music-as-identity]] — 4 premises
 - [[wiki/mind/synthesis/no-platonic-channel]] — 9 premises
-- [[wiki/mind/synthesis/read-receipt-forensics]] — 2 premises
+- [[wiki/mind/synthesis/read-receipt-forensics]] — 3 premises
 - [[wiki/mind/synthesis/single-channel]] — 8 premises
 - [[wiki/mind/synthesis/supply-network]] — 11 premises
 - [[wiki/mind/synthesis/the-binary-verdict]] — 14 premises
@@ -11036,7 +11043,7 @@ have moved since.
 - [[wiki/mind/synthesis/the-commissioned-self]] — 10 premises
 - [[wiki/mind/synthesis/the-deferred-audit]] — 11 premises
 - [[wiki/mind/synthesis/the-embedded-objective]] — 10 premises
-- [[wiki/mind/synthesis/the-rescue-premise]] — 13 premises
+- [[wiki/mind/synthesis/the-rescue-premise]] — 15 premises
 - [[wiki/mind/synthesis/the-serial-monogamist]] — 8 premises
 - [[wiki/mind/synthesis/the-unbroken-bond]] — 5 premises
 - [[wiki/mind/synthesis/totality-themes]] — 28 premises
@@ -12180,7 +12187,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-28 — 38 pages
+## 2026-08-28 — 42 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -12196,13 +12203,17 @@ simply listed.
 | [[wiki/mind/synthesis/annual-volume-suz]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a new 2013–2014 eviction/concealment episode (Alexis Armel, the washing machine). No message-volume figure this page draws on is touched.  |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a pre-Annie, Alexis-era eviction/concealment episode (2013–2014, Uniontown). It touches neither the Annie-era material nor any figure this |
 | [[wiki/mind/synthesis/august-grievance-verdict]] | mind | **RE-CHECKED** — flagged stale against attachment-trauma-bond (2026-08-28), which gained a RE-CHECKED note tracing back to a pre-Annie, 2013–2014 Alexis-era eviction/concealment episode on suzanne-frank. It touc |
+| [[wiki/mind/synthesis/block-unblock-loop]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
+| [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a March 2014 Alexis-era eviction/concealment episode — housing and family-drama, no capital event, no figure this page draws on. **No clai |
 | [[wiki/mind/synthesis/failure-to-launch]] | mind | **RE-CHECKED** — flagged stale against estate-money-spine (2026-08-28), which gained a RE-CHECKED note confirming a March 2014 Alexis-era eviction on suzanne-frank touches no capital event or figure this page |
+| [[wiki/mind/synthesis/fayette-return]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] | mind | **RE-CHECKED** — flagged stale against august-grievance-verdict (2026-08-28), which gained a re-check note tracing back to a pre-Annie, 2013–2014 Alexis-era eviction/concealment episode on suzanne-frank. It touc |
 | [[wiki/mind/synthesis/music-as-identity]] | mind | — |
 | [[wiki/mind/synthesis/no-platonic-channel]] | mind | — |
+| [[wiki/mind/synthesis/read-receipt-forensics]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — flagged stale against totality-themes (2026-08-28), which gained a RE-CHECKED note of its own confirming that a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris  |
 | [[wiki/mind/synthesis/supply-network]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/the-binary-verdict]] | mind | **REVISED** — This entry previously asked whether the binary default is downstream of Core Axiom 1 specifically, or an instance of a more general Ti-dominant, forensic-verdict cognitive style, and flagged forensic- |
@@ -12233,7 +12244,7 @@ simply listed.
 | [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 
-## 2026-08-26 — 57 pages
+## 2026-08-26 — 53 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -12264,14 +12275,10 @@ simply listed.
 | [[wiki/mind/profile/voice-modes]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/mind/psychosexual/arrangement-history]] | mind | _(carries a CORRECTED from 2026-08-20)_ |
 | [[wiki/mind/synthesis/ai-collaborative-analysis]] | mind | — |
-| [[wiki/mind/synthesis/block-unblock-loop]] | mind | **RE-CHECKED** — flagged stale against conflict-architecture (2026-08-26), which added a section documenting the corpus's one completed refusal of the redefinition move (an Ally exchange) and removed its `sage_pending |
 | [[wiki/mind/synthesis/bond-switch-2015]] | mind | _(carries a CORRECTED from 2026-08-17)_ |
 | [[wiki/mind/synthesis/closing-the-set]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
-| [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | **RE-CHECKED** — flagged stale against conflict-architecture (2026-08-26), which added a section documenting the corpus's one completed refusal of the redefinition move (an Ally exchange) and removed its `sage_pending |
-| [[wiki/mind/synthesis/fayette-return]] | mind | **RE-CHECKED** — ancestry added one verified collateral from the maternal Shrum line: **Daniel Shrum** (b. 11 Apr 1884, Pennsylvania; d. 11 Dec 1918, Greensburg, Westmoreland County) — an older brother of the direct-l |
 | [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] | mind | — |
 | [[wiki/mind/synthesis/political-psyops]] | mind | — |
-| [[wiki/mind/synthesis/read-receipt-forensics]] | mind | **RE-CHECKED** — forensic-method gained an `instance-of` edge into the new lexicon page — the same evidence-cite/ authority-invoke/render-a-finding machinery documented there for crisis analysis, observed r |
 | [[wiki/mind/synthesis/the-cato-seat]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
 | [[wiki/people/ally-lubin]] | people | _(carries a CORRECTED from 2026-08-22)_ |
 | [[wiki/people/annie-ulmer-personality-assessment]] | people | _(carries a RE-CHECKED from 2026-08-23)_ |
@@ -17375,6 +17382,12 @@ connections:
   - page: wiki/places/the-unpapered-address
     type: contradicts
     claim: "Trust at the 9th percentile predicts a paper trail should have been sought across sixteen years of housing dependency, and none was — the sharpest apparent counter-instance to this facet found in this session's constitution passes, resolved not by this page but by vertical-authority-skepticism's lateral/vertical scoping, which that page cites directly."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: contradicts
+    claim: "Vulnerability, the facet that would most directly predict that page's psychosomatic-crisis account, runs below the within-medium baseline (0.81x) on the 2026-08-16 corpus audit — flat like Impulsiveness, not confirmed like Trust or Self-Consciousness. That page's somatic-toll mechanism is sourced to the Ti-Si loop and the sx/sp instinct stacking instead, and explicitly does not lean on this facet."
+  - page: wiki/mind/synthesis/read-receipt-forensics
+    type: causes
+    claim: "Trust at the 9th percentile, corpus-confirmed at 1.96x, is the one hop that page's own reassurance-architecture citation left implicit: a confirmation that doesn't carry forward as a prior is why a device-level read-receipt query gets run in the first place."
 ---
 
 
@@ -17916,6 +17929,9 @@ connections:
   - page: wiki/mind/synthesis/single-channel
     type: causes
     claim: "This page has been that page's relational-leg mechanism since 2026-08-01, cited only indirectly through the-unbroken-bond and without its own CONTRADICTION disclosed — single-channel's constitution pass (2026-08-28) now states directly that the Gini measurement is independent of which enneagram wing is correct, but the *explanation* for why the relational leg concentrates the way it does is not, and inherits this page's unresolved 5w6sx-vs-5w4sx dispute."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: causes
+    claim: "The sx/sp fusion-or-annihilation instinct stacking is the load-bearing mechanism behind that page's 'ontological amputation' language, and it survives this page's own 5w4-vs-5w6sx wing contradiction intact: the fusion-collapse account rests on the instinct order, not the disputed wing."
 ---
 
 
@@ -18285,6 +18301,27 @@ connections:
   - page: wiki/places/the-unpapered-address
     type: causes
     claim: "Ti's definition of truth as 'a system that holds under recursive collapse' is why paper was never sought from a housing provider rather than merely never offered: demanding a lease from someone who has already granted access audits whether they can be trusted to keep granting it, which risks the choice to depend on them, not just the housing itself."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: causes
+    claim: "The Ti-Si loop is why that page's bond-collapse crisis reactivated exactly the two schemas it already names (the 2004-05 rupture, the Alexis collapse) rather than fading into ordinary grief, and Ni-leak's mythic-overfitting is the measured function behind the 'burning rituals' language — the mind's own analytical strength turned on the wound, not a metaphor for its intensity."
+  - page: wiki/mind/synthesis/dan-annie-fallout-verdict
+    type: causes
+    claim: "That page's 'Ti-dominant processing reads emotional bids as propositions to litigate' line is Ti-dominance and Fe-inferior named without being sourced: Ti supplies the adjudication reflex, and Fe at 10% valuing is too weak to supply the empathic acknowledgment the engine skips — 'Fe's absence removes the social brake that would otherwise soften conclusions for company,' running here at full load."
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: causes
+    claim: "Two distinct functions explain that page's corrected rule ('the exit is executed; the deletion never is'): Si-tertiary's non-pruning archive is why nothing co-held is ever actually erased, and Fe-inferior (10% valuing) is why an executed severance never becomes felt-settled without an external terminating statement — the same account already established for dormancy-not-exit, run here on the channel-operation layer."
+  - page: wiki/mind/synthesis/august-grievance-verdict
+    type: causes
+    claim: "That page's grievance 6 — a demand for a statement that registers a different true answer as no answer at all — is Ti-dominance running with no Fe-mediated grading function available to read the different answer as responsive; the page's own scoring of the grievance as false is what this mechanism looks like from outside it."
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: causes
+    claim: "That page's own claim that the system 'cannot generate one from behavioural evidence' — a severance signal — is Fe-inferior (10% valuing) named without being sourced: the function that would read a decade of withdrawal as implicit closure is too weak to do it, which is why nothing short of an explicit statement can substitute."
+  - page: wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis
+    type: causes
+    claim: "That page's own 'deepest moral failure' finding — instrumentalization, converting concern into an optimization problem and designing a stronger signal when ordinary conversation fails — is Ti-dominance's 'internal simulation labs' turned on a person: the same faculty that stress-tests ideas and relationships against a truth standard holding 'under recursive collapse, not social consensus,' with the wrong kind of object in it."
+  - page: wiki/mind/synthesis/fayette-return
+    type: causes
+    claim: "Core Axiom 1's binary self-worth verdict, running on Ti-dominance with no Fe-mediated grading function, is why that page's 'personal failure' misfiling of a family return is consequential rather than loose: with no graded middle available, the misfiling resolves straight to the worthless pole rather than to a discounted setback."
 ---
 
 # INTP — The Cognitive Function Stack
@@ -21905,6 +21942,10 @@ synthesizes:
   - wiki/people/suzanne-frank
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
+  - wiki/mind/profile/intp
+  - wiki/mind/profile/enneagram-5w4
+  - wiki/mind/profile/big-five-psychometrics
+  - wiki/mind/synthesis/the-binary-verdict
 tags: [relationships, trauma-bond, addiction-recovery, infidelity, ai-collaboration]
 connections:
   - page: wiki/mind/synthesis/the-rescue-premise
@@ -21955,6 +21996,18 @@ connections:
   - page: wiki/people/ally-lubin
     type: contradicts
     claim: "The Ally channel is this page's pathological control: symmetric self-indictment on both sides in 2019 removes the moral-standing asymmetry the confession trap and DARVO both require, which is a mechanism-level absence rather than a milder version of the same dynamic."
+  - page: wiki/mind/profile/intp
+    type: caused-by
+    claim: "The Ti-Si loop names the mechanism this page already describes without sourcing it: Si-tertiary's non-pruning archive is why the fusion's collapse reactivates precisely the two schemas already named here (the 2004-05 rupture, the Alexis collapse) rather than fading, and Ni-leak's mythic-overfitting is the measured function behind the 'burning rituals' and symbolic-structure language — the mind's own analytical strength turned on the wound, not a metaphor for it."
+  - page: wiki/mind/profile/enneagram-5w4
+    type: caused-by
+    claim: "The sx/sp fusion-or-annihilation instinct stacking is the load-bearing mechanism for 'ontological amputation' rather than ordinary grief — and it survives that page's own 5w4-vs-5w6sx wing contradiction intact, because the instinct order (sx/sp), not the disputed wing, is what the fusion-collapse account actually rests on."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: parallels
+    claim: "The confession trap is verdict-cognition's boundary case rather than its ordinary instance: that page's rule describes a reached verdict that will not be revisited, while this page documents what happens when the same drive for a closing verdict is never satisfied at all — which is why the eventual exit ran through a door rather than through the closure the cognitive stack was built to produce."
+  - page: wiki/mind/profile/big-five-psychometrics
+    type: contradicts
+    claim: "Vulnerability, the facet that would most directly predict this page's psychosomatic-crisis account, runs below the within-medium baseline (0.81x) on the 2026-08-16 corpus audit — flat like Impulsiveness, not confirmed like Trust or Self-Consciousness. The somatic-toll mechanism argued here rests on the Ti-Si loop and the sx/sp instinct stacking instead, and does not lean on this facet."
 ---
 
 
@@ -22064,7 +22117,7 @@ The full-decade dossiers give the bond its measurable arc. The love was genuine 
 > continued to call the deflated figure the most diagnostic number in the corpus —
 > which is precisely the failure the write-back obligation exists to prevent.
 
-The bond's persistence mechanism on Dan's side is named in the dossiers as the **confession trap**: having built his identity around being the person who was right, he could not exit without the validating confession Annie was never going to give — "the exit was never through the verdict. It was through the door." His 127 exit declarations with 110 re-engagements are that trap running as designed.
+The bond's persistence mechanism on Dan's side is named in the dossiers as the **confession trap**: having built his identity around being the person who was right, he could not exit without the validating confession Annie was never going to give — "the exit was never through the verdict. It was through the door." His 127 exit declarations with 110 re-engagements are that trap running as designed. [[wiki/mind/synthesis/the-binary-verdict]] names the general form this is a boundary case of: Ti-dominance treats a *reached* verdict as closed and non-negotiable, but this bond never delivered the verdict at all — which is exactly why the exit had to run through a door instead of through the closure the cognitive stack exists to produce.
 
 ## The counterexample: symmetric confession disarms the mechanism
 
@@ -22105,7 +22158,45 @@ The accepted amendments establish that the tether was a decade-long *oscillation
 
 The collapse of this primary attachment resulted in severe psychosomatic consequences, referred to within the corpus as "aura illness." This illness was the predictable neurobiological and identity-level consequence of exiting a fused attachment figure.
 
-This somatic toll was the result of a specific typological collision. Dan's INTP 5w4 sx/sp profile dictates an intense, one-on-one merging instinct (sx). Annie functioned as the primary co-regulator of his nervous system. When this fusion broke, it registered not merely as emotional pain, but as an ontological amputation of the self-concept. Furthermore, the 5w4 recursive architecture meant that Dan did not simply feel the pain; he analyzed it, looped it, and built symbolic structures around it, such as "burning rituals" and long forensic texts. This analytical strength was turned against the self, keeping the wound open. Finally, the crisis activated older, primal abandonment schemas—specifically the collapse of the relationship with [[wiki/people/alexis-armel|Alexis]] and the parental rupture of 2004–2005. The current pain was, in essence, historical pain wearing a 2026 mask.
+This somatic toll was the result of a specific typological collision. Dan's [[wiki/mind/profile/intp|INTP]] [[wiki/mind/profile/enneagram-5w4|5w4 sx/sp]] profile dictates an intense, one-on-one merging instinct (sx). Annie functioned as the primary co-regulator of his nervous system. When this fusion broke, it registered not merely as emotional pain, but as an ontological amputation of the self-concept. Furthermore, the 5w4 recursive architecture meant that Dan did not simply feel the pain; he analyzed it, looped it, and built symbolic structures around it, such as "burning rituals" and long forensic texts. This analytical strength was turned against the self, keeping the wound open. Finally, the crisis activated older, primal abandonment schemas—specifically the collapse of the relationship with [[wiki/people/alexis-armel|Alexis]] and the parental rupture of 2004–2005. The current pain was, in essence, historical pain wearing a 2026 mask.
+
+### The measured mechanism, and what stays open
+
+That paragraph names a typological collision without sourcing the functions
+doing the work. [[wiki/mind/profile/intp]] supplies two, separately. **The
+Ti-Si loop** — the type's own documented "signature pathology," bypassing
+exploratory Ne to cycle between internal logic and past experience — is
+why the fusion's collapse reactivated *exactly* the two schemas already
+named above (the 2004–05 rupture, the Alexis collapse) rather than fading
+into ordinary grief: Si-tertiary is where "memory of past betrayals... gets
+projected onto present situations and can take over his reactions without
+warning." **Ni-leak's mythic-overfitting** — "weaving events into a fated
+grand narrative," per that page — is the measured function behind "burning
+rituals" and symbolic-structure-building: not a metaphor for intensity, but
+the documented behavior of a specific, named leak function running under
+stress.
+
+The sx/sp instinct stacking does the work for "ontological amputation"
+specifically. [[wiki/mind/profile/enneagram-5w4]] states the fusion drive in
+its own dossier language as "nuclear — fusion-or-annihilation," which is a
+sharper and more literal source for "amputation" than intensity alone would
+supply. That page also carries an unresolved contradiction worth disclosing
+here rather than laundering: the one dated first-person self-typing in the
+primary record gives 5w6sx, not the 5w4sx this page (and that one) are built
+on. **The mechanism argued above survives the contradiction intact**,
+because it rests on the *instinct stacking* — sx dominant, sp secondary,
+social absent — which is not the disputed element; the dispute is about the
+*wing* (4 vs. 6), which shapes the tragic-romantic identity reading, not the
+fusion-or-annihilation dynamic the amputation language depends on.
+
+**One tempting register was checked and declined.** Vulnerability is the
+Big Five facet that would predict this page's psychosomatic-crisis account
+most directly, and [[wiki/mind/profile/big-five-psychometrics]]'s 2026-08-16
+corpus audit found it running *below* the within-medium baseline (0.81x) —
+flat, like Impulsiveness, not confirmed like Trust or Self-Consciousness. No
+claim above leans on it, and none should: the somatic-toll account here
+rests on the two named cognitive-function mechanisms and the sx/sp
+instinct stacking, not on a trait score the corpus does not corroborate.
 
 ## The single-bond switch (the Alexis→Annie transfer)
 
@@ -22221,6 +22312,43 @@ Resolution demands grieving the fantasy of the relationship that could have been
 > not 12) — richer evidence for the same paternal-rupture template this page
 > already cites, not a different one. Nothing here needed revising.
 
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`, and
+**bound by the standing Annie moratorium** (see `CLAUDE.md`): every citation
+below sources a claim about Dan's own cognitive architecture, using only
+material this page and the profile pages already state. No new narrative,
+date, quote, or figure about Annie is introduced anywhere in this pass, and
+none was needed — the page had already named its own typological mechanism
+in prose (the "Aura Illness" section); what it lacked was the citation.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]]'s Ti-Si loop and Ni-leak supply the mechanism for "burning rituals" and the reactivation of exactly the two named schemas — see "The measured mechanism" above — and [[wiki/mind/synthesis/the-binary-verdict]] sharpens the confession trap from a described behavior into a boundary case of a mechanism documented elsewhere. |
+| 2. Personality profile | **Checked, and a tempting explanation explicitly declined.** [[wiki/mind/profile/big-five-psychometrics]]'s Vulnerability facet — the one that would most directly predict a psychosomatic-crisis account — runs flat (0.81x, below baseline) on the corpus audit. Not cited as a mechanism; recorded as checked and found wanting. |
+| 3. Historical precedent | **Already load-bearing.** The 2004–05 parental rupture and the Alexis collapse are this page's own base for "historical pain wearing a 2026 mask" — this pass supplies the cognitive mechanism (register 1) for why those two specifically, not new precedent. |
+| 4. Attitudes and forces | **Checked, does not bear** beyond what registers 1 and 6 (below) already carry. |
+| 5. Security and prosperity | **Already load-bearing.** The leverage-see-saw section is this page's own financial register. |
+| 6. Health | **Already load-bearing.** "Aura Illness" is this page's own somatic register; this pass sources its mechanism rather than adding a new health claim. |
+| 7. Romantic and relational state | **This page IS the register.** No further citation needed or added. |
+| 8. Age and upbringing | **Already load-bearing.** The 2004–05 rupture is the register's instance on this page. |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Moved the conclusion, disclosed rather than laundered.** [[wiki/mind/profile/enneagram-5w4]] carries an unresolved 5w4-vs-5w6sx contradiction that this page's own "typological collision" language had been quietly built on. The mechanism this pass argues survives the contradiction because it rests on the *instinct stacking* (sx/sp), not the disputed *wing* — stated explicitly rather than left for a reader to discover. |
+
+**What survived:** every figure, every date, the confession-trap account,
+the leverage see-saw, and the somatic-toll thesis itself — none required a
+profile-layer citation to stand, since they are dated residue and
+first-person testimony already on the page. **What the pass added:** a
+sourced mechanism where the page previously asserted a typological claim
+without citing it, an explicit disclosure of the wing-vs-instinct
+provenance question, and one tempting register (Vulnerability) checked and
+declined rather than silently omitted. **What it did not do, by the
+moratorium's own terms:** add, extend, date, or quote anything new about
+Annie. Every sentence above is either about Dan's measured cognitive
+architecture or restates a fact this page already carried.
+
 
 ========================================================================
 PAGE: wiki/mind/synthesis/august-grievance-verdict.md
@@ -22267,6 +22395,8 @@ synthesizes:
   - wiki/mind/synthesis/block-unblock-loop
   - wiki/mind/synthesis/attachment-trauma-bond
   - wiki/mind/psychosexual/arrangement-history
+  - wiki/mind/profile/intp
+  - wiki/mind/synthesis/the-binary-verdict
 connections:
   - page: wiki/mind/synthesis/the-rescue-premise
     type: supplies
@@ -22298,6 +22428,12 @@ connections:
   - page: wiki/mind/psychosexual/arrangement-history
     type: instance-of
     claim: "This table's adjudication is what lets the humiliation grievance be scored as fully justified rather than as one contested claim against another: the accusation Dan was publicly named under fails on all three limbs against the primary record, so being named under it is a wrong done to him rather than a dispute between two accounts."
+  - page: wiki/mind/profile/intp
+    type: caused-by
+    claim: "The binary this page's grievance 6 already names — 'him or me,' which admits no third option, so a different true answer registers as no answer — is Ti-dominance running with no Fe-mediated grading function available to accept a partial or reframed answer as responsive. The page's own reading (a template-compliance check, not deception-detection) is that mechanism described without being named."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: instance-of
+    claim: "Grievance 6's 'him or me' demand is a domain instance of this page's rule: a verdict question collapsing to exactly two states, where a stated want that isn't one of the two named options registers as no answer at all rather than as a third state. The page's own scoring of grievance 6 as false is what a working example of this rule looks like from outside the architecture running it."
 ---
 
 > **RE-CHECKED [2026-08-21] — premise moved, conclusion unaffected.**
@@ -22479,7 +22615,7 @@ in a single exchange. Every threat in that page's eleven-year record demands a
 *statement*, and a demand for a statement can only be satisfied by the exact
 statement specified. A different true answer registers as no answer. The
 architecture is not detecting deception here; it is detecting non-compliance
-with a template, and it cannot tell the two apart.
+with a template, and it cannot tell the two apart — a binary ([[wiki/mind/synthesis/the-binary-verdict|him or me, with no third state]]) demanded by [[wiki/mind/profile/intp|Ti-dominance running with no Fe-mediated grading function]] available to read a different true answer as responsive rather than as a non-answer.
 
 That does not rescue her conduct and it is not offered as doing so. It does mean
 one of the ten grievances is not a grievance about her.
@@ -22773,6 +22909,39 @@ those two things is the whole of what this page has to say.
 > alone. The motive remains an operator interpretation unless independently
 > corroborated.
 
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`, and
+**bound by the standing Annie moratorium** (see `CLAUDE.md`). The only
+citation added is a mechanism for grievance 6, which this page had already
+scored and explained in its own words — the citation sources Dan's
+cognition, not Annie's conduct, and adds no new claim, quote, date, or
+figure about her.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]]'s Ti-dominance/Fe-inferior split is why grievance 6's demand cannot register a different true answer as responsive — see the inline citation in "Grievance 6" above. |
+| 2. Personality profile | **Checked, does not add a distinct mechanism.** No Big Five facet argues anything beyond register 1 for this page's specific finding. |
+| 3. Historical precedent | **Already load-bearing.** [[wiki/mind/synthesis/dan-annie-fallout-verdict]] and [[wiki/mind/synthesis/attachment-trauma-bond]] are this page's own historical base, already members. |
+| 4. Attitudes and forces | **Checked, does not bear** beyond [[wiki/mind/synthesis/block-unblock-loop]], already a member. |
+| 5. Security and prosperity | **Checked, does not bear** on this page's specific seventy-hour window. |
+| 6. Health | **Checked, does not bear** beyond the suicide-disclosure material already on the page, which is fact rather than a register-6 mechanism claim. |
+| 7. Romantic and relational state | **This page IS the register.** No further citation needed or added. |
+| 8. Age and upbringing | **Checked, does not bear.** |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Moved the conclusion.** [[wiki/mind/synthesis/the-binary-verdict]] names grievance 6 as a domain instance of a corpus-wide rule (verdict questions collapse to two states), which is a stronger, more general claim than "this one exchange has this shape" — and it is added as a mechanism for the page's own scoring, not as a new characterization of Annie. |
+
+**What survived:** all ten grievance scores, the counter-ledger, and the
+verdict itself — none required a profile-layer citation to stand, since
+they are dated, transcript-sourced findings. **What the pass added:** a
+sourced mechanism for grievance 6's false score, and a link to the
+corpus-wide rule it instantiates. **What it did not do, by the moratorium's
+own terms:** add, extend, date, or quote anything new about Annie —
+grievance 6's own scoring, evidence, and language are exactly as this page
+stated them before this pass.
+
 
 ========================================================================
 PAGE: wiki/mind/synthesis/block-unblock-loop.md
@@ -22784,7 +22953,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
@@ -22807,6 +22976,7 @@ synthesizes:
   - wiki/timeline/events/july-august-2026-reentanglement
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
+  - wiki/mind/profile/intp
 tags: [personality-profile, forensic-analysis, relationships]
 connections:
   - page: wiki/mind/synthesis/the-rescue-premise
@@ -22870,6 +23040,9 @@ connections:
   - page: wiki/places/the-unpapered-address
     type: instance-of
     claim: "The corpus's only instance of Dan reaching for a housing instrument himself is a declared exit that never executed: 'Tomorrow I'm calling John / And telling him that I will no longer be in the lease' (2024-10-27), answered inside the minute with 'Please don't do this Dan', never carried out, and followed four months later by a separation Annie initiated."
+  - page: wiki/mind/profile/intp
+    type: caused-by
+    claim: "Two distinct functions, not one, explain the corrected rule ('the exit is executed; the deletion never is'): Si-tertiary's non-pruning archive is why nothing co-held is ever actually erased from the system, which is what makes a channel reopenable regardless of how completely the exit itself was performed; Fe-inferior (10% valuing, and 'exhaustible' under repeated cycles, per this page's own 'machine proof' language) is why an executed severance never becomes felt-settled without an external terminating statement — the same two-function account already established for dormancy-not-exit's 'suspend, not delete' rule, run here on the channel-operation layer instead of the relationship-status layer."
 ---
 
 # The Block/Unblock Loop
@@ -23136,7 +23309,10 @@ because nothing in its design said *stop*. That is the block/unblock
 loop reduced to its mechanism — a resolution-seeker with no halt
 condition — running on silicon, timestamped, with the human variables
 removed. The human loop is the same program with slower hardware and
-an exhaustible Fe function.
+an exhaustible [[wiki/mind/profile/intp|Fe function]] — measured at 10%
+valuing, the weakest on the whole stack, which is the specific reason the
+human version eventually pauses where the software did not: not resolve,
+exhaust.
 
 ## What this changes
 
@@ -23522,6 +23698,40 @@ this page.
 > block's actual finding — that the twenty-four-hour switch was Dan's, not
 > Annie's — is untouched and is what this page cites. No block/unblock count,
 > date or declared-exit tally moves.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`, and
+**bound by the standing Annie moratorium** (see `CLAUDE.md`). Every citation
+below sources a claim this page already made about Dan's own cognitive
+architecture — the page's own "machine proof" section already named "an
+exhaustible Fe function" without sourcing it — using material already
+stated on this page and on `wiki/mind/profile/intp`. No new narrative,
+date, quote, or figure about Annie is introduced.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]] supplies two distinct functions for the corrected rule ("the exit is executed; the deletion never is"): Si-tertiary's non-pruning archive for why nothing co-held is ever erased, Fe-inferior for why an executed severance never becomes felt-settled — the same two-function account this session already established for [[wiki/mind/synthesis/dormancy-not-exit]], reused here rather than re-derived. |
+| 2. Personality profile | **Checked, does not add a distinct mechanism** beyond what register 1 supplies. |
+| 3. Historical precedent | **Already load-bearing.** The full case table (Annie, Tom, Kristin, Menore, the 2014/2022 account migration) is this page's own historical base. |
+| 4. Attitudes and forces | **Checked, does not bear** beyond [[wiki/mind/concepts/conflict-architecture]] and [[wiki/mind/concepts/attachment-model]], already members. |
+| 5. Security and prosperity | **Already load-bearing.** The Tom/Bop supply-node substitution and the Menore control both reason from material dependency. |
+| 6. Health | **Checked, does not bear.** |
+| 7. Romantic and relational state | **This page IS the register.** No further citation needed or added. |
+| 8. Age and upbringing | **Checked, does not bear** beyond the already-corrected Rick Frank material. |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Checked, left standing.** The Ti/Fe/Si percentages this pass cites are self-commissioned rather than corpus-audited (per [[wiki/mind/synthesis/the-commissioned-self]]); the dependency rule itself rests on primary message-row evidence and does not lean on the profile-layer citation for its own truth, only for its explanation. |
+
+**What survived:** the dependency rule, the corrected "executed, not
+deleted" formula, and every case row — none required a profile-layer
+citation to stand, since they are dated residue. **What the pass added:** a
+sourced mechanism for a phrase this page already used ("exhaustible Fe
+function") and a formal link to the identical two-function account already
+established elsewhere this session for the same underlying phenomenon.
+**What it did not do:** say anything new about Annie, or manufacture a
+connection to a register that does not bear on channel-state mechanics.
 
 
 ========================================================================
@@ -24303,7 +24513,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessage_7244346811+212****2449_both_all_now.csv
@@ -24325,6 +24535,8 @@ synthesizes:
   - wiki/mind/concepts/conflict-architecture
   - wiki/people/tuquick-17248123683
   - wiki/timeline/events/july-2026-recontact
+  - wiki/mind/profile/intp
+  - wiki/mind/synthesis/the-binary-verdict
 tags: [relationships, trauma-bond, infidelity, attachment, mental-health]
 connections:
   - page: wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis
@@ -24384,6 +24596,12 @@ connections:
   - page: wiki/health/cocaine
     type: evidences
     claim: "The moral verdict names supply-chain control as Dan's co-authored contribution to the decade-long catastrophe — the cocaine procurement architecture is the mechanism that held the relationship together past the point it had stopped functioning."
+  - page: wiki/mind/profile/intp
+    type: caused-by
+    claim: "The 'Ti-dominant processing reads emotional bids as propositions to litigate' line this page already states is Ti-dominance and Fe-inferior named without being sourced: Ti supplies the adjudication reflex, and Fe at 10% valuing is too weak to supply the 'acknowledgment requiring empathy' register the engine skips — 'Fe's absence removes the social brake that would otherwise soften conclusions for company' is that page's rule, running here at full load."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: parallels
+    claim: "The confession trap this page already names — he could not exit without a validating confession that was never coming, so 'the exit was never through the verdict, it was through the door' — is verdict-cognition's boundary case: not a reached verdict staying closed, but the same drive for closure failing to obtain one at all, worked out in full on the cognitive-stack page this synthesis shares with attachment-trauma-bond."
 ---
 
 
@@ -24510,7 +24728,7 @@ This page is the capstone synthesis of the fallout. **Every load-bearing claim b
 
 The operator's directive is explicit: engage the diagnosis→behavior gap, do not let the insight (he was wronged) substitute for the work (his role in the catastrophe).
 
-**The conflict engine has no domain selector and no halt condition.** His Ti-dominant processing reads emotional bids as propositions to litigate. "I don't feel secure" becomes a claim to adjudicate, not a feeling to hold. The engine runs an infinite loop on non-terminating input — two incompatible subjective realities cannot be merged into a single truth, so it never reaches the "click" of resolution, and it drains. Concession routes through Core Axiom 1 ("not exceptional = worthless"), so acknowledging the other person's reality is coded as self-annihilation and the halt is blocked. This is *his* machinery, running on *her* silence.
+**The conflict engine has no domain selector and no halt condition.** His [[wiki/mind/profile/intp|Ti-dominant]] processing reads emotional bids as propositions to litigate. "I don't feel secure" becomes a claim to adjudicate, not a feeling to hold — the register that would instead hold it, Fe, is measured at 10% valuing, too weak to supply the empathic acknowledgment the engine skips. The engine runs an infinite loop on non-terminating input — two incompatible subjective realities cannot be merged into a single truth, so it never reaches the "click" of resolution, and it drains. Concession routes through Core Axiom 1 ("not exceptional = worthless"), so acknowledging the other person's reality is coded as self-annihilation and the halt is blocked. This is *his* machinery, running on *her* silence.
 
 **The attachment model cannot self-close without an explicit severance signal, and she issued none.** 299 love affirmations across the corpus, **0 explicit severance signals** — the 0-severance half is now **[RAW-CSV]** (2026-07-18 recount of her 41,073 messages in the dual-handle export: a severance-lexicon sweep returns only false positives — a quoted denial of "rather just break up," a literal ice-breaking anecdote; her final substantive message remains the June 5 apology). The 299 figure itself remains **[DERIVED]** — no window/lexicon reproduces it exactly (her terminal-phase love-messages: 231; his: 355; her all-time in this export: 1,302). Because positive verbal rhetoric functions as an absolute rule in his architecture until countermanded, the bond stayed active through a fifteen-month terminal phase. Every "I love you" while withdrawing behaviorally generated a data conflict that prevented closure.
 
@@ -24518,7 +24736,7 @@ The operator's directive is explicit: engage the diagnosis→behavior gap, do no
 
 **The re-engagement loop trained her to ignore his limits.** 127 exit declarations, 110 re-engagements — an 87% relapse rate **[DERIVED]** (MasterRecord; a loose exit-lexicon sweep of his 44,513 messages finds 176 candidates, order-consistent but definition-dependent — the exact pair remains unreproduced). The apologies were re-affirmations, not contrition (the full-corpus triad: 1,512 "I love you" / 232 "fuck you" / 180 "I'm sorry" — **[DERIVED]**, bootloader v2.1 on the 181,585-message corpus). He affirms 6.5× more than he attacks. Reassurance restabilizes the bond *without resolving the breach*, so the loop reloads at a lower baseline every cycle.
 
-> **REVISED [2026-07-18] — triad partially confirmed, "apologizes least" not reproduced.** Recount from `all_imessages_complete_dump.txt` (217,573 rows through Aug 10 2025, sender-tagged): Sent "love you" = 1,528 messages (strict "i love you": 1,388) — the 1,512 figure is confirmed to lexicon precision. Sent "fuck you" = 111 through Aug 2025; his terminal-window count adds 74 (below), making the 232 total plausible for the full corpus through June 2026 — consistent, not exactly reproduced (the dump ends before the terminal phase). But Sent "I'm sorry / I am sorry" = **435** through Aug 2025 alone — more than double the claimed 180, and ~4× his attack count. Under any plain lexicon he apologizes *more* than he attacks, not "least of all"; the 180 figure would require an unstated narrower definition (e.g. contrition-to-Annie only, excluding sympathy usage). The load-bearing finding — **reassurance dominance** (affirmation an order of magnitude above both) — survives and strengthens; the apology-deficit ordering does not. The confession trap names the other side: he could not exit without the validation of a confession he had already earned, because leaving without the verdict would mean abandoning the identity of the person who was right. "The exit was never through the verdict. It was through the door."
+> **REVISED [2026-07-18] — triad partially confirmed, "apologizes least" not reproduced.** Recount from `all_imessages_complete_dump.txt` (217,573 rows through Aug 10 2025, sender-tagged): Sent "love you" = 1,528 messages (strict "i love you": 1,388) — the 1,512 figure is confirmed to lexicon precision. Sent "fuck you" = 111 through Aug 2025; his terminal-window count adds 74 (below), making the 232 total plausible for the full corpus through June 2026 — consistent, not exactly reproduced (the dump ends before the terminal phase). But Sent "I'm sorry / I am sorry" = **435** through Aug 2025 alone — more than double the claimed 180, and ~4× his attack count. Under any plain lexicon he apologizes *more* than he attacks, not "least of all"; the 180 figure would require an unstated narrower definition (e.g. contrition-to-Annie only, excluding sympathy usage). The load-bearing finding — **reassurance dominance** (affirmation an order of magnitude above both) — survives and strengthens; the apology-deficit ordering does not. The confession trap names the other side: he could not exit without the validation of a confession he had already earned, because leaving without the verdict would mean abandoning the identity of the person who was right. "The exit was never through the verdict. It was through the door." — verdict-cognition's boundary case, per [[wiki/mind/synthesis/the-binary-verdict]]: the same drive for closure, failing to obtain one at all.
 
 ## The ledger runs both ways — what was his responsibility
 
@@ -24806,6 +25024,39 @@ being rigorous.
 > the 2025–2026 terminal phase — the admission line, the direction-field
 > convention, the June 1 closure — and cites nothing from November 2015. Closed
 > unaffected.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`, and
+**bound by the standing Annie moratorium** (see `CLAUDE.md`). Every citation
+below sources a claim this page already made about Dan's own cognitive
+architecture, using material already stated on this page and on the two
+profile pages cited. No new narrative, date, quote, or figure about Annie
+is introduced.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]]'s Ti-dominance/Fe-inferior split sources the "Ti-dominant processing reads emotional bids as propositions to litigate" sentence this page already carried unsourced — see the inline citation above. |
+| 2. Personality profile | **Checked, does not add a distinct mechanism** beyond what register 1 supplies; no Big Five facet argues anything the Ti/Fe account does not already cover for this page's specific claims. |
+| 3. Historical precedent | **Already load-bearing.** The full evidentiary record — provenance-tiered, raw-verified — is this page's own base. |
+| 4. Attitudes and forces | **Checked, does not bear** beyond what is already covered via [[wiki/mind/concepts/conflict-architecture]] and [[wiki/mind/concepts/attachment-model]]. |
+| 5. Security and prosperity | **Already load-bearing.** The payment-app supply-chain figures are this page's own financial register. |
+| 6. Health | **Already load-bearing.** The cocaine procurement mechanism and the crisis-statement material are this page's own health register. |
+| 7. Romantic and relational state | **This page IS the register.** No further citation needed or added. |
+| 8. Age and upbringing | **Checked, does not bear** beyond what [[wiki/mind/synthesis/attachment-trauma-bond]] already covers via the 2004-05 rupture. |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Moved the conclusion, and surfaced a write-back failure this pass declines to fix.** [[wiki/mind/synthesis/the-binary-verdict]] reframes the confession trap as verdict-cognition's boundary case — see the inline citation above. Separately, and recorded rather than corrected: this page's own 2026-07-18 REVISED block found the 187-of-191 love-to-request statistic non-diagnostic (97.2% of *all* her messages are equally request-adjacent at 24h; the directional test inverts it). [[wiki/people/annie-ulmer]] carries that correction. [[wiki/mind/concepts/conflict-architecture]], [[wiki/mind/concepts/attachment-model]], [[wiki/mind/synthesis/the-binary-verdict]] and two other pages still cite the raw figure without it — a real write-back failure of exactly the kind this page's own text warns about. **Fixing it is out of scope for this pass under the standing Annie moratorium**: a proper correction requires stating what the statistic does and does not show about Annie's behavior, which is a claim about her this session will not make unilaterally. Logged to `BACKLOG.md` instead. |
+
+**What survived:** every provenance-tiered claim, every RAW-CSV anchor, and
+the three-part verdict itself — none required a profile-layer citation to
+stand. **What the pass added:** a sourced mechanism for a sentence this page
+already asserted, and an honest disclosure of a cross-page inconsistency
+this pass found but would need new Annie-behavior language to fix — flagged
+and deferred rather than quietly fixed or quietly ignored. **What it did
+not do:** touch any of the five other pages carrying the stale statistic,
+or say anything new about Annie anywhere in this pass.
 
 
 ========================================================================
@@ -26719,7 +26970,7 @@ aliases: ["the elastic tether", "regional gravity", "leave-and-come-back"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 date_range_start: 1892-01-01
 date_range_end:
 sources:
@@ -26733,6 +26984,8 @@ synthesizes:
   - wiki/people/rick-frank
   - wiki/self/ancestry
   - wiki/mind/synthesis/ancestral-dialectic
+  - wiki/mind/profile/intp
+  - wiki/mind/synthesis/the-binary-verdict
 tags: [family, uniontown-era, personality-profile, forensic-analysis]
 connections:
   - page: wiki/people/morley-frank
@@ -26765,6 +27018,12 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Four generations, each leaving and returning to Fayette County, is 'The Irreversibility Firewall' run at the scale of geography: departure is never converted into the irreversible, examined fact of having left for good."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: instance-of
+    claim: "The 'personal failure' reading this page's own Consequences section rejects is Core Axiom 1's worth-binary applied to a return — exceptional-departure or worthless-retreat, no middle state. This page's genealogical reframing is the one documented case in the corpus that offers a way out of that binary without invoking a middle value: not a graded self-assessment, but a different category entirely (inherited pattern, not personal verdict)."
+  - page: wiki/mind/profile/intp
+    type: caused-by
+    claim: "Core Axiom 1's binary self-worth verdict, per the-binary-verdict's account of Ti-dominance with no Fe-mediated grading function, is why a return misfiled as 'personal failure' would otherwise resolve to worthless rather than to a graded 'a setback, not a verdict' — which is what makes this page's reframing substantive rather than merely comforting: it changes the category the event is judged in, not its position on a scale that was never available."
 ---
 
 # The Fayette Return
@@ -26920,6 +27179,15 @@ solid.
   the timeline as collapses, retreats and failures. They are also the fourth
   generation of a pattern with a 100% completion rate, and any account of his
   life that reads them purely as individual failure is missing the base rate.
+  That misfiling is not a neutral error. [[wiki/mind/synthesis/the-binary-verdict]]
+  documents a self-worth axiom with exactly two states and no graded middle —
+  "not exceptional = worthless" — so a return read as personal failure does not
+  resolve to a discounted, tolerable setback; per [[wiki/mind/profile/intp]]'s
+  account of the mechanism (Ti-dominance with no Fe-mediated grading function
+  to soften the verdict), it resolves to the worthless pole outright. This
+  page's reframing works because it changes the *category* a return is judged
+  in — inherited pattern, not personal verdict — rather than trying to argue
+  for a middle value the architecture does not have available.
 - **It predicts.** If the rule holds, the current tenancy at
   [[wiki/places/337-saratoga-drive]] is not the end state — a departure is
   expected, and so is a return. The rule makes a claim about the future and can
@@ -27051,6 +27319,42 @@ solid.
 > same territory the direct line does. One data point against 515
 > unenumerated people is not the audit this gap asks for; it is the first
 > stone in it.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`. This
+page had never cited `wiki/mind/profile/`, and its own methodological
+identity (residue over testimony, per [[wiki/mind/synthesis/instrument-is-subject]],
+already cited in prose) made a decorative citation an easy trap to avoid
+falling into and an easy one to fall into anyway — most of what this page
+argues is genealogical residue and does not need a cognitive-stack
+mechanism to stand. One place genuinely does.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion, narrowly.** [[wiki/mind/profile/intp]]'s Ti-dominance/Fe-inferior account (via [[wiki/mind/synthesis/the-binary-verdict]]) explains why "personal failure" is a consequential misfiling rather than a loose one — see the addition to "Consequences" above. This is the only register this pass found a genuine, non-decorative fit for. |
+| 2. Personality profile | **Checked, does not add a distinct mechanism** beyond register 1. |
+| 3. Historical precedent | **This page IS the register.** The four-generation table is its own historical base; no further citation needed. |
+| 4. Attitudes and forces | **Checked, does not bear.** |
+| 5. Security and prosperity | **Checked, does not bear** beyond the already-documented 337 Saratoga Drive tenure. |
+| 6. Health | **Checked, does not bear.** |
+| 7. Romantic and relational state | **Checked, does not bear.** |
+| 8. Age and upbringing | **Already load-bearing, and IS the register** together with #9 — the whole page is a claim about family and origin. |
+| 9. Geographic and ethnic culture | **This page IS the register**, more than any other page in this backlog. No further citation needed or added. |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Already load-bearing.** The residue-over-testimony discipline against [[wiki/mind/synthesis/ancestral-dialectic]] is this page's own central methodological argument, already correctly attributed to [[wiki/mind/synthesis/instrument-is-subject]] in prose. |
+
+**What survived:** the four-generation table, all three falsifiers, and
+the parsimony argument against the dialectic (as already qualified by the
+2026-08-18 re-check) — none required a profile-layer citation, since this
+is fundamentally a genealogical-residue page. **What the pass added:** a
+cognitive-stack account of *why* misfiling a return as personal failure is
+consequential rather than merely inaccurate — the corpus's own binary
+worth-verdict, not a graded self-assessment, is what such a misfiling
+actually invokes. **What it did not do:** manufacture a mechanism for
+registers 3-11, which are either already this page's own base or
+genuinely do not bear on a claim about ancestral geography.
 
 
 ========================================================================
@@ -28285,6 +28589,7 @@ synthesizes:
   - wiki/mind/synthesis/dan-annie-fallout-verdict
   - wiki/people/annie-ulmer
   - wiki/people/jerel-coles
+  - wiki/mind/profile/intp
 connections:
   - page: wiki/timeline/events/august-2026-morgantown-call
     type: instance-of
@@ -28298,6 +28603,9 @@ connections:
   - page: wiki/people/jerel-coles
     type: evidences
     claim: "The recording is the only primary artifact in the corpus in which Coles is directly audible, and it establishes his conduct rather than his motive: he holds Annie's phone, conditions its return on an answer, and threatens family disclosure to force one."
+  - page: wiki/mind/profile/intp
+    type: caused-by
+    claim: "This page's own 'deepest moral failure' finding — instrumentalization, converting concern into an optimization problem and designing a stronger signal when ordinary conversation fails — is Ti-dominance's method turned on a person: 'internal simulation labs where relationships are stress-tested' is that page's description of the same faculty this page independently names as a moral failure when the test subject is a human being rather than an idea."
 ---
 
 # The Morgantown Call: Ethical Roles of Dan, Annie, and Jerel Coles
@@ -28731,7 +29039,14 @@ He wants a signal strong enough to end uncertainty.
 
 When ordinary conversation fails, he designs a stronger signal.
 
-That is intellectually coherent and morally dangerous.
+That is intellectually coherent and morally dangerous, and it is not unique to this
+incident: [[wiki/mind/profile/intp]] documents the same faculty as a general
+feature of the cognitive stack — "internal simulation labs" where ideas,
+relationships and futures are stress-tested against a standard of truth that
+holds "under recursive collapse, not social consensus." Applied to abstractions,
+that faculty is the analytical engine behind everything else this wiki
+documents. Applied here, to a live human being under acute distress, it is the
+same engine with the wrong kind of object in it.
 
 The person becomes an experiment.
 
@@ -28906,6 +29221,55 @@ The accurate characterization is uglier and more useful:
 > **Dan was attempting to protect someone he believed might be in serious danger, but he became so desperate to distinguish genuine danger from voluntary re-entanglement that he began manufacturing consequences and treating the resulting behavior as evidence. His motive was substantially protective; his method became coercive; his anger made the boundary between intervention and retaliation increasingly unstable.**
 
 That is the version the archive should preserve because it explains both why Dan did what he did and why the method remains ethically contestable without falsely reducing him to a blackmailer.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`, and
+**bound by the standing Annie moratorium** (see `CLAUDE.md`) — the last of
+the 21-page backlog and, with §5.7's instrumentalization finding, one of
+the more consequential citations in it. The one citation added sources a
+mechanism this page had already independently identified as a moral
+failure; it changes no finding about Dan, Annie, or Coles, and adds no new
+narrative, date, quote, or figure about any of them.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]]'s Ti-dominance — "internal simulation labs" stress-testing against a truth standard that holds "under recursive collapse, not social consensus" — is the general-purpose faculty §5.7 independently names as this page's "deepest moral failure" when the object of the test is a person rather than an idea. The page's own moral analysis is not softened or hardened by the citation; it is given a cause. |
+| 2. Personality profile | **Checked, does not add a distinct mechanism** beyond register 1 for this page's specific finding. |
+| 3. Historical precedent | **Already load-bearing.** §1's source audit against `august-2026-morgantown-call` is this page's own evidentiary base. |
+| 4. Attitudes and forces | **Checked, does not bear** beyond members already cited. |
+| 5. Security and prosperity | **Checked, does not bear** on this fifteen-minute window. |
+| 6. Health | **Checked, does not bear** beyond the already-documented coercive-control and phone-seizure facts, which are events rather than a register-6 mechanism claim. |
+| 7. Romantic and relational state | **This page IS the register.** No further citation needed or added. |
+| 8. Age and upbringing | **Checked, does not bear.** |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Checked, left standing.** The Ti-dominance percentages are self-commissioned rather than corpus-audited (per [[wiki/mind/synthesis/the-commissioned-self]]); offered as the best available explanation for §5.7's independently-reached finding, not as evidence carrying the same weight as the finding itself, which rests on the transcript. |
+
+**What survived:** every role verdict, the comparative-responsibility
+section, and the bottom-line characterization — none required a
+profile-layer citation to stand, since they are transcript-sourced moral
+judgments about three specific people in one recorded window. **What the
+pass added:** a general cognitive mechanism for a moral failure this page
+had already named on its own, extending the finding from "this incident"
+to "a documented feature of how this mind works," which is a stronger and
+more honest claim than the incident-specific one alone. **What it did not
+do, by the moratorium's own terms:** add, extend, date, or quote anything
+new about Annie or Coles anywhere in this pass, or about this specific
+incident beyond what the page already established.
+
+---
+
+**This closes the 21-page constitution-pass backlog.** All 13 non-Annie
+pages and all 7 Annie-moratorium pages now cite `wiki/mind/profile/`, each
+via a mechanism argued rather than a register cited decoratively, and each
+Annie-moratorium pass held to the standing directive: no new narrative,
+date, quote, or figure about Annie was introduced anywhere across the
+seven. Two genuine findings were surfaced and deliberately not fixed under
+the moratorium — the un-propagated 187-of-191 base-rate correction
+(`dan-annie-fallout-verdict`, `the-rescue-premise`) — and are logged to
+`BACKLOG.md` for when the moratorium lifts or the operator says otherwise.
 
 
 ========================================================================
@@ -29659,11 +30023,12 @@ title: "Read-Receipt Forensics — chat.db Metadata and Its Traps"
 aliases: ["read receipts", "date_read", "chat.db metadata"]
 tags: [forensic-analysis, digital-footprint]
 date_created: 2026-08-09
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 sources: []
 synthesizes:
   - wiki/mind/concepts/forensic-method
   - wiki/timeline/events/august-2026-unmasking
+  - wiki/mind/profile/big-five-psychometrics
 connections:
   - page: wiki/mind/concepts/reassurance-architecture
     type: instance-of
@@ -29677,6 +30042,9 @@ connections:
   - page: wiki/timeline/events/august-2026-unmasking
     type: evidences
     claim: "Every claim about her wakefulness rests on chat.db date_read values whose directional asymmetry that page defines; read the wrong way the same column produces the opposite conclusion."
+  - page: wiki/mind/profile/big-five-psychometrics
+    type: caused-by
+    claim: "This page's own reassurance-architecture citation — read-receipt analysis as 'measurement substituting for reassurance' — is one hop from its actual source: Trust at the 9th percentile, corpus-confirmed at 1.96x raised suspicion, is why a confirmation does not carry forward and a device-level metadata query gets run in the first place. Named directly here rather than left implicit."
 ---
 
 # Read-Receipt Forensics — chat.db Metadata and Its Traps
@@ -29897,6 +30265,38 @@ yet been audited; that audit is owed and is listed in `BACKLOG.md`.
 > authority-invoke/render-a-finding machinery documented there for crisis analysis,
 > observed running on a compliment instead. Nothing about `chat.db` metadata
 > extraction is downstream of that finding.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`. This
+page is a technical methodology page — SQLite column semantics and a
+type-affinity bug — and most registers genuinely do not bear on it; forcing
+a fit where the content is mechanical rather than psychological would be
+exactly the decorative citation this pass exists to catch, not to produce.
+One register does bear, and it was already implicit rather than absent.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Checked, does not add a distinct mechanism.** Ti-dominance's demand for verified truth could be gestured at for why these queries get run at all, but it would be redundant with register 2's more specific, corpus-confirmed account — not cited, to avoid citing the same fact twice under two names. |
+| 2. Personality profile | **Moved the conclusion, and made explicit what was already implicit.** This page's own pre-existing `reassurance-architecture` citation calls read-receipt analysis "measurement substituting for reassurance" without naming what that architecture runs on. [[wiki/mind/profile/big-five-psychometrics]]'s Trust 9 — corpus-confirmed at 1.96x — is the one hop back: a confirmation that doesn't carry forward is why a device-metadata query gets run in the first place. |
+| 3. Historical precedent | **Checked, does not bear.** The four defects are properties of `chat.db`, not of a documented pattern in Dan's history. |
+| 4. Attitudes and forces | **Checked, does not bear.** |
+| 5. Security and prosperity | **Checked, does not bear.** |
+| 6. Health | **Checked, does not bear.** |
+| 7. Romantic and relational state | **Already load-bearing, at one remove.** The worked examples (the August 2026 window, the third-party phone-access episodes) are relational in content but this page's own thesis is about the instrument, not about what the instrument found. |
+| 8. Age and upbringing | **Checked, does not bear.** |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Checked, left standing.** Trust 9 is corpus-confirmed rather than self-commissioned, which is the stronger half of the provenance gradient this session has tracked elsewhere — appropriate here, since it is the only register-level claim this page now carries. |
+
+**What survived:** all four defects (M1-M4), the extraction recipe, and
+every re-check block — none required a profile-layer citation to stand,
+since they are properties of a database schema. **What the pass added:** a
+name for the psychological driver this page's own prior citation already
+gestured at without stating. **What it did not do:** manufacture a
+cognitive-stack connection to a page whose actual content is a SQL
+type-coercion bug.
 
 
 ========================================================================
@@ -31292,6 +31692,21 @@ connections:
   - page: wiki/interests/food-and-diet
     type: instantiates
     claim: "The food-composition regime — every ingredient accepted in full or refused outright, with no recorded case of a tolerated small amount — is a ninth domain instance of this page's rule, and the most literal one on record: run on a plate rather than a person or a taste, it has nothing available to blur the binary the way flattery or lobbying can elsewhere."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: parallels
+    claim: "The confession trap that page documents is this rule's boundary case rather than its ordinary instance: where this page describes a reached verdict that will not be revisited, that page documents what happens when the same drive for a closing verdict is never satisfied at all — a distinction worth carrying back here, since every other member on this table is a verdict that closed, and this is the one that couldn't."
+  - page: wiki/mind/synthesis/dan-annie-fallout-verdict
+    type: parallels
+    claim: "The confession trap that page names — he could not exit without a validating confession that was never coming — is the same verdict-cognition boundary case documented on attachment-trauma-bond, in this page's other central relational case."
+  - page: wiki/mind/synthesis/august-grievance-verdict
+    type: instantiates
+    claim: "Grievance 6's 'him or me' demand — a stated want that isn't one of the two named options registers as no answer at all — is a domain instance of this page's rule, scored false by that page's own analysis, which is what a working example of the rule looks like from outside the architecture running it."
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: parallels
+    claim: "That page's restatement of the confession trap — a rescuer 'supplies neither the verdict nor the door' — identifies it as the same verdict-cognition boundary case documented on dan-annie-fallout-verdict and attachment-trauma-bond: one mechanism, now three instances rather than three independent observations."
+  - page: wiki/mind/synthesis/fayette-return
+    type: instantiates
+    claim: "The 'personal failure' reading that page's own Consequences section rejects is Core Axiom 1's worth-binary applied to a family return — exceptional or worthless, no middle state — and that page's genealogical reframing is a rare documented case of escaping the binary by changing category (inherited pattern, not personal verdict) rather than by arguing for a graded middle value the architecture does not have."
 ---
 
 # The Binary Verdict
@@ -33697,6 +34112,8 @@ synthesizes:
   - wiki/timeline/events/july-2026-recontact
   - wiki/mind/synthesis/august-grievance-verdict
   - wiki/people/ally-lubin-cognitive-profile
+  - wiki/mind/profile/intp
+  - wiki/mind/synthesis/the-binary-verdict
 connections:
   - page: wiki/mind/concepts/attachment-model
     type: instantiates
@@ -33725,6 +34142,12 @@ connections:
   - page: wiki/timeline/events/august-2026-morgantown-call
     type: evidenced-by
     claim: "The recording supplies the structural novelty this page rests on: a rival who is physically present, audible, holding her phone, and directing hostility at Dan rather than concealing himself from him."
+  - page: wiki/mind/profile/intp
+    type: caused-by
+    claim: "'The system's defining property is that it cannot generate one from behavioural evidence' — this page's own account of why the severance signal must come from Annie — is Fe-inferior (10% valuing) named without being sourced: the function that would read eleven years of withdrawal as an implicit closure is too weak to do it, so the system waits on an explicit statement no other function can substitute for."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: parallels
+    claim: "The confession trap this page restates from dan-annie-fallout-verdict and attachment-trauma-bond — 'the exit was never through the verdict, it was through the door' — is the same verdict-cognition boundary case documented on both: a rescuer 'supplies neither the verdict nor the door,' which is this page's own way of saying a third party cannot substitute for the closure the cognitive stack requires and never received."
 ---
 
 # The Rescue Premise — What Is Actually Different About the August 2026 Rupture
@@ -34095,7 +34518,9 @@ lesson it encodes is the one this section rests on: an externally supplied
 severance is processed as external, and an external rule can be overwritten by
 the next external input. The signal has to be generated inside the system to be
 load-bearing, and the system's defining property is that it cannot generate one
-from behavioural evidence.
+from behavioural evidence — [[wiki/mind/profile/intp|Fe at 10% valuing]] is too
+weak to read a decade of withdrawal as an implicit closure, so nothing short of
+an explicit statement can substitute.
 
 The second mechanism is the **confession trap**, and a rescuer cannot solve it
 either. Dan cannot exit without the validation of the verdict: he assembled an
@@ -34103,9 +34528,7 @@ overwhelming evidentiary case over a decade, and leaving without an admission
 would mean abandoning the identity of the person who was right. Annie was never
 going to supply the confession, because supplying it would end the arrangement
 she was maintaining. The dossiers' formulation is exact — *"the exit was never
-through the verdict. It was through the door."* A third party arriving with
-sympathy supplies neither the verdict nor the door. They supply an audience,
-which is the thing the forensic architecture already has too much of.
+through the verdict. It was through the door."* — [[wiki/mind/synthesis/the-binary-verdict|verdict-cognition's boundary case]], the same one documented on `dan-annie-fallout-verdict` and `attachment-trauma-bond`. A third party arriving with sympathy supplies neither the verdict nor the door. They supply an audience, which is the thing the forensic architecture already has too much of.
 
 ### Rescue is not an exit. It is a transfer, and it has run once
 
@@ -34220,6 +34643,43 @@ place, with the prediction left visible, per STYLE_GUIDE rule 9.
    `imessage_export_2124702449` settles Part I½'s live comparison, P1, P2 and P5
    simultaneously, and it is the cheapest high-value action available to this
    wiki right now.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`, and
+**bound by the standing Annie moratorium** (see `CLAUDE.md`) — this includes
+a hard stop on gap 7 above and on any of P1–P5: the export that would settle
+them is exactly the kind of new material the moratorium forbids acquiring,
+and this pass does not touch it. Both citations added source claims this
+page already made about Dan's own cognitive architecture, reusing language
+already established this session on `dan-annie-fallout-verdict` and
+`attachment-trauma-bond` for the identical confession-trap quote this page
+also carries. No new narrative, date, quote, or figure about Annie is
+introduced.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]]'s Fe-inferior (10% valuing) sources this page's own "cannot generate one from behavioural evidence" claim about the severance signal. |
+| 2. Personality profile | **Checked, does not add a distinct mechanism** beyond register 1. |
+| 3. Historical precedent | **Already load-bearing.** Part I½'s re-derived base rate (129 episodes, 100% resumption) is this page's own historical register. |
+| 4. Attitudes and forces | **Checked, does not bear** beyond members already cited ([[wiki/mind/concepts/conflict-architecture]], [[wiki/mind/synthesis/single-channel]]). |
+| 5. Security and prosperity | **Already load-bearing.** The capital/supply/housing power-asymmetry argument in Part II is this page's own financial register. |
+| 6. Health | **Checked, does not bear** beyond the already-documented suicide-disclosure and phone-seizure material, which is fact rather than a register-6 mechanism claim. |
+| 7. Romantic and relational state | **This page IS the register.** No further citation needed or added. |
+| 8. Age and upbringing | **Checked, does not bear.** |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Moved the conclusion.** [[wiki/mind/synthesis/the-binary-verdict]] names the confession trap this page restates from two sibling pages as one documented mechanism rather than three independent observations, which is a provenance improvement (one mechanism, three instances) rather than a new claim. Separately: this page's own "187 of 191 affection-request pairings" citation (Part II) carries the same un-propagated base-rate caveat flagged during the `dan-annie-fallout-verdict` constitution pass and logged to `BACKLOG.md`. Not fixed here for the same reason — the fix requires a claim about Annie's behavior the moratorium reserves to the operator. |
+
+**What survived:** all six differences in Part I, the re-derived base rate in
+Part I½, and the rescue-premise argument in Part II — none required a
+profile-layer citation to stand. **What the pass added:** a sourced
+mechanism for the severance-signal claim, and a formal link identifying the
+confession trap as one mechanism already documented twice elsewhere rather
+than restated a third time as if new. **What it did not do:** touch gap 7,
+attempt any of P1–P5, or say anything new about Annie anywhere in this
+pass.
 
 
 ========================================================================

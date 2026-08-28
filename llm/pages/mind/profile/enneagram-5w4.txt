@@ -45,6 +45,9 @@ connections:
   - page: wiki/mind/synthesis/single-channel
     type: causes
     claim: "This page has been that page's relational-leg mechanism since 2026-08-01, cited only indirectly through the-unbroken-bond and without its own CONTRADICTION disclosed — single-channel's constitution pass (2026-08-28) now states directly that the Gini measurement is independent of which enneagram wing is correct, but the *explanation* for why the relational leg concentrates the way it does is not, and inherits this page's unresolved 5w6sx-vs-5w4sx dispute."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: causes
+    claim: "The sx/sp fusion-or-annihilation instinct stacking is the load-bearing mechanism behind that page's 'ontological amputation' language, and it survives this page's own 5w4-vs-5w6sx wing contradiction intact: the fusion-collapse account rests on the instinct order, not the disputed wing."
 ---
 
 

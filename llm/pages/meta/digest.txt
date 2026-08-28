@@ -55,7 +55,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-28** — 38 pages
+**2026-08-28** — 42 pages
   - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
   - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
@@ -77,12 +77,19 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - constitution-pass | mind | wiki/mind/synthesis/instrument-is-subject
   - constitution-pass | mind | wiki/interests/food-and-diet
   - constitution-pass | places | wiki/places/the-unpapered-address
+  - connect | mind/self | node-locking.md <-> gemini-activity.md
+  - constitution-pass | mind | wiki/mind/synthesis/attachment-trauma-bond
+  - constitution-pass | mind | wiki/mind/synthesis/dan-annie-fallout-verdict
+  - constitution-pass | mind | wiki/mind/synthesis/block-unblock-loop
+  - constitution-pass | mind | wiki/mind/synthesis/august-grievance-verdict
+  - constitution-pass | mind | wiki/mind/synthesis/the-rescue-premise
+  - constitution-pass | mind | wiki/mind/synthesis/read-receipt-forensics
 
 **2026-08-27** — 5 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
   - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
 
-**2026-08-26** — 57 pages
+**2026-08-26** — 53 pages
   - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
   - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
@@ -133,20 +140,20 @@ have moved since.
 - [[wiki/mind/politics/axioms]] — 5 premises
 - [[wiki/mind/synthesis/alias-as-periodization]] — 6 premises
 - [[wiki/mind/synthesis/annual-volume-suz]] — 1 premise
-- [[wiki/mind/synthesis/attachment-trauma-bond]] — 5 premises
-- [[wiki/mind/synthesis/august-grievance-verdict]] — 7 premises
-- [[wiki/mind/synthesis/block-unblock-loop]] — 11 premises
+- [[wiki/mind/synthesis/attachment-trauma-bond]] — 9 premises
+- [[wiki/mind/synthesis/august-grievance-verdict]] — 9 premises
+- [[wiki/mind/synthesis/block-unblock-loop]] — 12 premises
 - [[wiki/mind/synthesis/closing-the-set]] — 9 premises
-- [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — 9 premises
+- [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — 11 premises
 - [[wiki/mind/synthesis/dormancy-not-exit]] — 10 premises
 - [[wiki/mind/synthesis/estate-money-spine]] — 6 premises
 - [[wiki/mind/synthesis/failure-to-launch]] — 17 premises
-- [[wiki/mind/synthesis/fayette-return]] — 6 premises
+- [[wiki/mind/synthesis/fayette-return]] — 8 premises
 - [[wiki/mind/synthesis/instrument-is-subject]] — 5 premises
-- [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] — 6 premises
+- [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] — 7 premises
 - [[wiki/mind/synthesis/music-as-identity]] — 4 premises
 - [[wiki/mind/synthesis/no-platonic-channel]] — 9 premises
-- [[wiki/mind/synthesis/read-receipt-forensics]] — 2 premises
+- [[wiki/mind/synthesis/read-receipt-forensics]] — 3 premises
 - [[wiki/mind/synthesis/single-channel]] — 8 premises
 - [[wiki/mind/synthesis/supply-network]] — 11 premises
 - [[wiki/mind/synthesis/the-binary-verdict]] — 14 premises
@@ -154,7 +161,7 @@ have moved since.
 - [[wiki/mind/synthesis/the-commissioned-self]] — 10 premises
 - [[wiki/mind/synthesis/the-deferred-audit]] — 11 premises
 - [[wiki/mind/synthesis/the-embedded-objective]] — 10 premises
-- [[wiki/mind/synthesis/the-rescue-premise]] — 13 premises
+- [[wiki/mind/synthesis/the-rescue-premise]] — 15 premises
 - [[wiki/mind/synthesis/the-serial-monogamist]] — 8 premises
 - [[wiki/mind/synthesis/the-unbroken-bond]] — 5 premises
 - [[wiki/mind/synthesis/totality-themes]] — 28 premises

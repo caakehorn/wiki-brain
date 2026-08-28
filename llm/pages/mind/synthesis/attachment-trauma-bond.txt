@@ -29,6 +29,10 @@ synthesizes:
   - wiki/people/suzanne-frank
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
+  - wiki/mind/profile/intp
+  - wiki/mind/profile/enneagram-5w4
+  - wiki/mind/profile/big-five-psychometrics
+  - wiki/mind/synthesis/the-binary-verdict
 tags: [relationships, trauma-bond, addiction-recovery, infidelity, ai-collaboration]
 connections:
   - page: wiki/mind/synthesis/the-rescue-premise
@@ -79,6 +83,18 @@ connections:
   - page: wiki/people/ally-lubin
     type: contradicts
     claim: "The Ally channel is this page's pathological control: symmetric self-indictment on both sides in 2019 removes the moral-standing asymmetry the confession trap and DARVO both require, which is a mechanism-level absence rather than a milder version of the same dynamic."
+  - page: wiki/mind/profile/intp
+    type: caused-by
+    claim: "The Ti-Si loop names the mechanism this page already describes without sourcing it: Si-tertiary's non-pruning archive is why the fusion's collapse reactivates precisely the two schemas already named here (the 2004-05 rupture, the Alexis collapse) rather than fading, and Ni-leak's mythic-overfitting is the measured function behind the 'burning rituals' and symbolic-structure language — the mind's own analytical strength turned on the wound, not a metaphor for it."
+  - page: wiki/mind/profile/enneagram-5w4
+    type: caused-by
+    claim: "The sx/sp fusion-or-annihilation instinct stacking is the load-bearing mechanism for 'ontological amputation' rather than ordinary grief — and it survives that page's own 5w4-vs-5w6sx wing contradiction intact, because the instinct order (sx/sp), not the disputed wing, is what the fusion-collapse account actually rests on."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: parallels
+    claim: "The confession trap is verdict-cognition's boundary case rather than its ordinary instance: that page's rule describes a reached verdict that will not be revisited, while this page documents what happens when the same drive for a closing verdict is never satisfied at all — which is why the eventual exit ran through a door rather than through the closure the cognitive stack was built to produce."
+  - page: wiki/mind/profile/big-five-psychometrics
+    type: contradicts
+    claim: "Vulnerability, the facet that would most directly predict this page's psychosomatic-crisis account, runs below the within-medium baseline (0.81x) on the 2026-08-16 corpus audit — flat like Impulsiveness, not confirmed like Trust or Self-Consciousness. The somatic-toll mechanism argued here rests on the Ti-Si loop and the sx/sp instinct stacking instead, and does not lean on this facet."
 ---
 
 
@@ -188,7 +204,7 @@ The full-decade dossiers give the bond its measurable arc. The love was genuine 
 > continued to call the deflated figure the most diagnostic number in the corpus —
 > which is precisely the failure the write-back obligation exists to prevent.
 
-The bond's persistence mechanism on Dan's side is named in the dossiers as the **confession trap**: having built his identity around being the person who was right, he could not exit without the validating confession Annie was never going to give — "the exit was never through the verdict. It was through the door." His 127 exit declarations with 110 re-engagements are that trap running as designed.
+The bond's persistence mechanism on Dan's side is named in the dossiers as the **confession trap**: having built his identity around being the person who was right, he could not exit without the validating confession Annie was never going to give — "the exit was never through the verdict. It was through the door." His 127 exit declarations with 110 re-engagements are that trap running as designed. [[wiki/mind/synthesis/the-binary-verdict]] names the general form this is a boundary case of: Ti-dominance treats a *reached* verdict as closed and non-negotiable, but this bond never delivered the verdict at all — which is exactly why the exit had to run through a door instead of through the closure the cognitive stack exists to produce.
 
 ## The counterexample: symmetric confession disarms the mechanism
 
@@ -229,7 +245,45 @@ The accepted amendments establish that the tether was a decade-long *oscillation
 
 The collapse of this primary attachment resulted in severe psychosomatic consequences, referred to within the corpus as "aura illness." This illness was the predictable neurobiological and identity-level consequence of exiting a fused attachment figure.
 
-This somatic toll was the result of a specific typological collision. Dan's INTP 5w4 sx/sp profile dictates an intense, one-on-one merging instinct (sx). Annie functioned as the primary co-regulator of his nervous system. When this fusion broke, it registered not merely as emotional pain, but as an ontological amputation of the self-concept. Furthermore, the 5w4 recursive architecture meant that Dan did not simply feel the pain; he analyzed it, looped it, and built symbolic structures around it, such as "burning rituals" and long forensic texts. This analytical strength was turned against the self, keeping the wound open. Finally, the crisis activated older, primal abandonment schemas—specifically the collapse of the relationship with [[wiki/people/alexis-armel|Alexis]] and the parental rupture of 2004–2005. The current pain was, in essence, historical pain wearing a 2026 mask.
+This somatic toll was the result of a specific typological collision. Dan's [[wiki/mind/profile/intp|INTP]] [[wiki/mind/profile/enneagram-5w4|5w4 sx/sp]] profile dictates an intense, one-on-one merging instinct (sx). Annie functioned as the primary co-regulator of his nervous system. When this fusion broke, it registered not merely as emotional pain, but as an ontological amputation of the self-concept. Furthermore, the 5w4 recursive architecture meant that Dan did not simply feel the pain; he analyzed it, looped it, and built symbolic structures around it, such as "burning rituals" and long forensic texts. This analytical strength was turned against the self, keeping the wound open. Finally, the crisis activated older, primal abandonment schemas—specifically the collapse of the relationship with [[wiki/people/alexis-armel|Alexis]] and the parental rupture of 2004–2005. The current pain was, in essence, historical pain wearing a 2026 mask.
+
+### The measured mechanism, and what stays open
+
+That paragraph names a typological collision without sourcing the functions
+doing the work. [[wiki/mind/profile/intp]] supplies two, separately. **The
+Ti-Si loop** — the type's own documented "signature pathology," bypassing
+exploratory Ne to cycle between internal logic and past experience — is
+why the fusion's collapse reactivated *exactly* the two schemas already
+named above (the 2004–05 rupture, the Alexis collapse) rather than fading
+into ordinary grief: Si-tertiary is where "memory of past betrayals... gets
+projected onto present situations and can take over his reactions without
+warning." **Ni-leak's mythic-overfitting** — "weaving events into a fated
+grand narrative," per that page — is the measured function behind "burning
+rituals" and symbolic-structure-building: not a metaphor for intensity, but
+the documented behavior of a specific, named leak function running under
+stress.
+
+The sx/sp instinct stacking does the work for "ontological amputation"
+specifically. [[wiki/mind/profile/enneagram-5w4]] states the fusion drive in
+its own dossier language as "nuclear — fusion-or-annihilation," which is a
+sharper and more literal source for "amputation" than intensity alone would
+supply. That page also carries an unresolved contradiction worth disclosing
+here rather than laundering: the one dated first-person self-typing in the
+primary record gives 5w6sx, not the 5w4sx this page (and that one) are built
+on. **The mechanism argued above survives the contradiction intact**,
+because it rests on the *instinct stacking* — sx dominant, sp secondary,
+social absent — which is not the disputed element; the dispute is about the
+*wing* (4 vs. 6), which shapes the tragic-romantic identity reading, not the
+fusion-or-annihilation dynamic the amputation language depends on.
+
+**One tempting register was checked and declined.** Vulnerability is the
+Big Five facet that would predict this page's psychosomatic-crisis account
+most directly, and [[wiki/mind/profile/big-five-psychometrics]]'s 2026-08-16
+corpus audit found it running *below* the within-medium baseline (0.81x) —
+flat, like Impulsiveness, not confirmed like Trust or Self-Consciousness. No
+claim above leans on it, and none should: the somatic-toll account here
+rests on the two named cognitive-function mechanisms and the sx/sp
+instinct stacking, not on a trait score the corpus does not corroborate.
 
 ## The single-bond switch (the Alexis→Annie transfer)
 
@@ -344,3 +398,40 @@ Resolution demands grieving the fantasy of the relationship that could have been
 > December 2015 rupture and its 2025–26 tail (13 verified unanswered reaches,
 > not 12) — richer evidence for the same paternal-rupture template this page
 > already cites, not a different one. Nothing here needed revising.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`, and
+**bound by the standing Annie moratorium** (see `CLAUDE.md`): every citation
+below sources a claim about Dan's own cognitive architecture, using only
+material this page and the profile pages already state. No new narrative,
+date, quote, or figure about Annie is introduced anywhere in this pass, and
+none was needed — the page had already named its own typological mechanism
+in prose (the "Aura Illness" section); what it lacked was the citation.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]]'s Ti-Si loop and Ni-leak supply the mechanism for "burning rituals" and the reactivation of exactly the two named schemas — see "The measured mechanism" above — and [[wiki/mind/synthesis/the-binary-verdict]] sharpens the confession trap from a described behavior into a boundary case of a mechanism documented elsewhere. |
+| 2. Personality profile | **Checked, and a tempting explanation explicitly declined.** [[wiki/mind/profile/big-five-psychometrics]]'s Vulnerability facet — the one that would most directly predict a psychosomatic-crisis account — runs flat (0.81x, below baseline) on the corpus audit. Not cited as a mechanism; recorded as checked and found wanting. |
+| 3. Historical precedent | **Already load-bearing.** The 2004–05 parental rupture and the Alexis collapse are this page's own base for "historical pain wearing a 2026 mask" — this pass supplies the cognitive mechanism (register 1) for why those two specifically, not new precedent. |
+| 4. Attitudes and forces | **Checked, does not bear** beyond what registers 1 and 6 (below) already carry. |
+| 5. Security and prosperity | **Already load-bearing.** The leverage-see-saw section is this page's own financial register. |
+| 6. Health | **Already load-bearing.** "Aura Illness" is this page's own somatic register; this pass sources its mechanism rather than adding a new health claim. |
+| 7. Romantic and relational state | **This page IS the register.** No further citation needed or added. |
+| 8. Age and upbringing | **Already load-bearing.** The 2004–05 rupture is the register's instance on this page. |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Moved the conclusion, disclosed rather than laundered.** [[wiki/mind/profile/enneagram-5w4]] carries an unresolved 5w4-vs-5w6sx contradiction that this page's own "typological collision" language had been quietly built on. The mechanism this pass argues survives the contradiction because it rests on the *instinct stacking* (sx/sp), not the disputed *wing* — stated explicitly rather than left for a reader to discover. |
+
+**What survived:** every figure, every date, the confession-trap account,
+the leverage see-saw, and the somatic-toll thesis itself — none required a
+profile-layer citation to stand, since they are dated residue and
+first-person testimony already on the page. **What the pass added:** a
+sourced mechanism where the page previously asserted a typological claim
+without citing it, an explicit disclosure of the wing-vs-instinct
+provenance question, and one tempting register (Vulnerability) checked and
+declined rather than silently omitted. **What it did not do, by the
+moratorium's own terms:** add, extend, date, or quote anything new about
+Annie. Every sentence above is either about Dan's measured cognitive
+architecture or restates a fact this page already carried.
