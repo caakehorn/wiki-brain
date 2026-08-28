@@ -65,6 +65,9 @@ connections:
   - page: wiki/mind/synthesis/the-embedded-objective
     type: evidences
     claim: "That page's completion-drive reading of Au Za'atar and Nemacolin's long tenures inherits acquisition-drive's CONTRADICTION with this instrument unstated: this page reads the same Impulsiveness-96 behaviour as a brake failure where acquisition-drive reads it as a working engine, and the-embedded-objective had been taking the engine side in its prose without disclosing that the instrument itself disagrees."
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: evidences
+    claim: "The $14,000 transferred to Suz within weeks of an undistributed bridging advance, with nothing in writing, is exactly what the Altruism-1 inversion predicts once its two halves are separated: instrumental generosity (offering resources) runs at 1.79-2.49x baseline while the affective half (sympathy, condolence) runs at 0.45x, so a nominal 1st-percentile altruism score is the wrong prediction for a lump-sum family transfer and the corpus-audited reading is the one that fits."
 ---
 
 

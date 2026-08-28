@@ -19,6 +19,7 @@ synthesizes:
   - wiki/people/rick-frank
   - wiki/people/annie-ulmer
   - wiki/places/337-saratoga-drive
+  - wiki/mind/profile/big-five-psychometrics
 tags: [financial-stress, forensic-analysis, family]
 connections:
   - page: wiki/mind/synthesis/failure-to-launch
@@ -72,6 +73,9 @@ connections:
   - page: wiki/health/cocaine
     type: evidences
     claim: "Dan's own 2018-04-08 prediction that the inheritance would make him 'middle-class happy' is falsified by his first-person happiness-claim rate over the same 2018-2020 window (0.87/0.34/0.41 per 1,000 against 7.86 in late 2015) — the identical capital that removed cocaine's price constraint and drove the dosage arc to 3.5-7g/day."
+  - page: wiki/mind/profile/big-five-psychometrics
+    type: evidenced-by
+    claim: "The $14,000 transferred to Suz within weeks of an undistributed bridging advance is a corpus-confirmed instrument-inversion, not an anomaly: this page's own 2026-08-16 audit found the Altruism-1 score inverted specifically on its instrumental half — offering help or resources unprompted runs at 1.79-2.49x baseline — while the affective half (sympathy, condolence) runs at 0.45x, so a 'first-percentile' altruism score predicting no unearned generosity is exactly the wrong prediction for a lump-sum family transfer, and the corpus-confirmed reading is the one that fits what actually happened."
 ---
 
 # The Estate / Money Spine
@@ -291,6 +295,43 @@ Chapter 13 with ~$157,000 scheduled, mostly IRS priority claims for 2018–2021 
 the exact years the spine treats as the poverty floor and the deep cycle. Both
 parties were at the floor at the same time, lending to each other.
 
+## The mechanism behind the instant re-lending
+
+"A lump arriving anywhere in this family is immediately re-lent inside it,
+on no paper, at the moment of arrival" is this page's sharpest rule, and it
+looks, on its face, like the opposite of what the measured profile would
+predict. [[wiki/mind/profile/big-five-psychometrics]] scores Altruism at
+the 1st percentile — the bottom of the entire Big30 table — which reads as
+a prediction that unearned, uncollateralized generosity toward a family
+member should be rare to nonexistent. Dan lent 70% of a bridging advance he
+had not yet legally received, with nothing in writing, within weeks of
+drawing it.
+
+The instrument's own 2026-08-16 corpus audit resolves the apparent
+contradiction rather than leaving it standing: **Altruism-1 is inverted,
+and the inversion is specific.** Offering help or resources unprompted runs
+at **1.79–2.49x** the within-medium baseline; the *affective* half of the
+same nominal trait — sympathy, condolence, "I'm so sorry" — runs at
+**0.45x**, less than half. The instrument collapses two channels the
+corpus keeps separate: he is not low-warmth, he is **high-provision and
+low-condolence.** The $14,000 transfer to Suz is exactly the shape that
+inversion predicts — an instrumental, resource-level act of generosity,
+executed fast and unprompted, with no accompanying emotional register
+documented anywhere in the exchange. A trait-level reading that stopped at
+"Altruism 1" would have called this transfer the least likely event in the
+family's financial history. The corpus-audited reading — provision high,
+condolence low — calls it the expected one.
+
+**This is why the mechanism belongs on `big-five-psychometrics` and not on
+a broader claim about impulsivity.** Impulsiveness 96 is tempting as an
+explanation for a fast, undocumented decision, but that facet's own corpus
+audit found **no behavioral trace at all** — immediacy language runs at
+0.92x baseline, flat. Leaning on Impulsiveness here would cite the one
+Big30 facet the corpus audit could not confirm to explain a transaction
+the corpus audit's *other* finding already explains directly. The
+provision/condolence split, not a general impulse-control account, is the
+evidenced mechanism.
+
 ## What the spine predicts
 
 The pattern — lump arrivals, metered drains, six-month survival, no
@@ -433,3 +474,35 @@ implicit premise that one node in this system had reserves. None did.
 > on that page are the Annie-outflow figure, the landlord-debt stretch and Suz's
 > switchboard role — all money facts from 2023–2026. The correction introduces
 > no figure and moves no dated transaction. Closed unaffected.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`. This
+page is mostly financial and family forensics rather than cognitive
+architecture, so several registers genuinely do not bear — recorded as
+such rather than forced.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Checked, does not add a non-decorative mechanism.** Ti-dominance and Fe-inferior explain verdict cognition and audit timing elsewhere; no clean argument connects them to capital flow specifically without straining. |
+| 2. Personality profile | **Moved the conclusion.** [[wiki/mind/profile/big-five-psychometrics]]'s corpus-confirmed Altruism-1 inversion (instrumental generosity high, affective low) explains the instant-re-lending rule directly — see "The mechanism" above — and the pass explicitly declined the tempting-but-unconfirmed Impulsiveness explanation. |
+| 3. Historical precedent | **Checked, already this page's own base.** The event-by-event chain is the historical register. |
+| 4. Attitudes and forces | **Checked, does not bear.** No chaos-preference or political material explains capital-flow timing. |
+| 5. Security and prosperity | **This page IS the register for other pages.** No further register needed beyond its own content. |
+| 6. Health | **Already load-bearing.** [[wiki/health/cocaine]] is already a member — the "outcome measure the spine never carried" section. |
+| 7. Romantic and relational state | **Already load-bearing.** [[wiki/people/annie-ulmer]] is already a member for the largest drain. |
+| 8. Age and upbringing | **Already load-bearing.** [[wiki/people/rick-frank]] and [[wiki/people/fran-coldren]] are the two source-lines. |
+| 9. Geographic and ethnic culture | **Checked, does not bear beyond the already-documented Fayette/coal-region origin of the maternal line, which the page already carries.** |
+| 10. Religious and ideological programming | **Already load-bearing.** The August 22, 2020 "kushy lives" class-guilt message is already on the page. |
+| 11. Axiomatic politics | **Checked, covered by register 10 above** — the same dated message is the instance for both. |
+| 12. Other — provenance | **Checked, left standing.** The payment-app totals are already flagged in Gaps as operator-provided screenshots rather than `raw/` exports; no new provenance issue surfaced. |
+
+**What survived:** the full capital chain, every dated figure, and the
+switchboard finding — none required a personality-register mechanism to
+stand, since they are residue (dated transfers) rather than interpretation.
+**What the pass added:** a corpus-confirmed explanation for the one clause
+that looked psychologically surprising (why a 1st-percentile Altruism score
+predicts an instant, unsecured $14,000 family loan) — the instrument's own
+audit already resolved this, and it had never been cited. **What it did
+not do:** manufacture cognitive-stack or ideological connections where
+the page's actual content is financial and genealogical.

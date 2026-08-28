@@ -21,6 +21,7 @@ simply listed.
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/totality-themes
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/the-embedded-objective
 - **Session log:** connect | mind, self | connection-queue.md (totality-themes <-> context-core)
+- **Session log:** constitution-pass | mind | wiki/mind/synthesis/dormancy-not-exit
 
 | Page | Domain | What moved |
 |---|---|---|

@@ -5953,3 +5953,41 @@ edge naming both functions; no member date_modified bumped.
 Gates: `bin/wiki-lint` 0 errors / 30 warnings (one fewer); `bin/wiki-connect
 check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors, 0 warnings;
 `bin/wiki-freshness` clean. 15 of 21 backlog pages remain.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/estate-money-spine
+
+**Seventh of 21.** A financial/genealogical forensics page rather than a
+cognitive-architecture one — most registers genuinely do not bear, recorded
+as such rather than forced.
+
+**The one register that does bear resolves an apparent contradiction the
+page had been carrying unexamined.** The page's sharpest rule — "a lump
+arriving anywhere in this family is immediately re-lent inside it, on no
+paper, at the moment of arrival" — looks like the opposite of what a
+1st-percentile Altruism score would predict. `big-five-psychometrics`'ы own
+2026-08-16 corpus audit already resolved this: Altruism-1 is inverted
+specifically on its *instrumental* half (offering resources unprompted runs
+1.79-2.49x baseline) while the *affective* half (sympathy, condolence) runs
+0.45x. The $14,000 unsecured transfer to Suz is exactly the shape that
+inversion predicts — high-provision, zero documented condolence — which a
+bare "Altruism 1" reading would have called the least likely event in the
+family's ledger.
+
+**Explicitly declined the more obvious-looking explanation.** Impulsiveness
+96 is the tempting account for a fast, undocumented decision, but that
+facet's own corpus audit found no behavioral trace at all (0.92x, flat) —
+using it here would cite the one Big30 facet the audit could not confirm to
+explain something the audit's *other* finding already explains directly.
+Stated on the page rather than reached for the easier-sounding citation.
+
+**Full constitution-pass table added**, honestly recording that 8 of 11
+registers either don't bear on financial forensics or were already
+load-bearing pre-pass (cocaine, Annie, Rick, Fran already members) — no
+manufactured connections.
+
+Write-back: 1 new `synthesizes:` member (`big-five-psychometrics`), with a
+reciprocal typed edge; no member date_modified bumped.
+
+Gates: `bin/wiki-lint` 0 errors / 29 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors, 0 warnings;
+`bin/wiki-freshness` clean. 14 of 21 backlog pages remain.
