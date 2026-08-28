@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-28
-519 pages, ~1,506,919 tokens.
+519 pages, ~1,509,665 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10937,7 +10937,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-28** — 41 pages
+**2026-08-28** — 42 pages
   - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
   - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
@@ -10965,12 +10965,13 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - constitution-pass | mind | wiki/mind/synthesis/block-unblock-loop
   - constitution-pass | mind | wiki/mind/synthesis/august-grievance-verdict
   - constitution-pass | mind | wiki/mind/synthesis/the-rescue-premise
+  - constitution-pass | mind | wiki/mind/synthesis/read-receipt-forensics
 
 **2026-08-27** — 5 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
   - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
 
-**2026-08-26** — 54 pages
+**2026-08-26** — 53 pages
   - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
   - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
@@ -11029,9 +11030,9 @@ have moved since.
 - [[wiki/mind/synthesis/dormancy-not-exit]] — 10 premises
 - [[wiki/mind/synthesis/estate-money-spine]] — 6 premises
 - [[wiki/mind/synthesis/failure-to-launch]] — 17 premises
-- [[wiki/mind/synthesis/fayette-return]] — 6 premises
+- [[wiki/mind/synthesis/fayette-return]] — 8 premises
 - [[wiki/mind/synthesis/instrument-is-subject]] — 5 premises
-- [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] — 6 premises
+- [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] — 7 premises
 - [[wiki/mind/synthesis/music-as-identity]] — 4 premises
 - [[wiki/mind/synthesis/no-platonic-channel]] — 9 premises
 - [[wiki/mind/synthesis/read-receipt-forensics]] — 3 premises
@@ -12186,7 +12187,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-28 — 41 pages
+## 2026-08-28 — 42 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -12207,6 +12208,7 @@ simply listed.
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a March 2014 Alexis-era eviction/concealment episode — housing and family-drama, no capital event, no figure this page draws on. **No clai |
 | [[wiki/mind/synthesis/failure-to-launch]] | mind | **RE-CHECKED** — flagged stale against estate-money-spine (2026-08-28), which gained a RE-CHECKED note confirming a March 2014 Alexis-era eviction on suzanne-frank touches no capital event or figure this page |
+| [[wiki/mind/synthesis/fayette-return]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] | mind | **RE-CHECKED** — flagged stale against august-grievance-verdict (2026-08-28), which gained a re-check note tracing back to a pre-Annie, 2013–2014 Alexis-era eviction/concealment episode on suzanne-frank. It touc |
 | [[wiki/mind/synthesis/music-as-identity]] | mind | — |
@@ -12242,7 +12244,7 @@ simply listed.
 | [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 
-## 2026-08-26 — 54 pages
+## 2026-08-26 — 53 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -12275,7 +12277,6 @@ simply listed.
 | [[wiki/mind/synthesis/ai-collaborative-analysis]] | mind | — |
 | [[wiki/mind/synthesis/bond-switch-2015]] | mind | _(carries a CORRECTED from 2026-08-17)_ |
 | [[wiki/mind/synthesis/closing-the-set]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
-| [[wiki/mind/synthesis/fayette-return]] | mind | **RE-CHECKED** — ancestry added one verified collateral from the maternal Shrum line: **Daniel Shrum** (b. 11 Apr 1884, Pennsylvania; d. 11 Dec 1918, Greensburg, Westmoreland County) — an older brother of the direct-l |
 | [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] | mind | — |
 | [[wiki/mind/synthesis/political-psyops]] | mind | — |
 | [[wiki/mind/synthesis/the-cato-seat]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
@@ -18315,6 +18316,12 @@ connections:
   - page: wiki/mind/synthesis/the-rescue-premise
     type: causes
     claim: "That page's own claim that the system 'cannot generate one from behavioural evidence' — a severance signal — is Fe-inferior (10% valuing) named without being sourced: the function that would read a decade of withdrawal as implicit closure is too weak to do it, which is why nothing short of an explicit statement can substitute."
+  - page: wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis
+    type: causes
+    claim: "That page's own 'deepest moral failure' finding — instrumentalization, converting concern into an optimization problem and designing a stronger signal when ordinary conversation fails — is Ti-dominance's 'internal simulation labs' turned on a person: the same faculty that stress-tests ideas and relationships against a truth standard holding 'under recursive collapse, not social consensus,' with the wrong kind of object in it."
+  - page: wiki/mind/synthesis/fayette-return
+    type: causes
+    claim: "Core Axiom 1's binary self-worth verdict, running on Ti-dominance with no Fe-mediated grading function, is why that page's 'personal failure' misfiling of a family return is consequential rather than loose: with no graded middle available, the misfiling resolves straight to the worthless pole rather than to a discounted setback."
 ---
 
 # INTP — The Cognitive Function Stack
@@ -26963,7 +26970,7 @@ aliases: ["the elastic tether", "regional gravity", "leave-and-come-back"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-26
+date_modified: 2026-08-28
 date_range_start: 1892-01-01
 date_range_end:
 sources:
@@ -26977,6 +26984,8 @@ synthesizes:
   - wiki/people/rick-frank
   - wiki/self/ancestry
   - wiki/mind/synthesis/ancestral-dialectic
+  - wiki/mind/profile/intp
+  - wiki/mind/synthesis/the-binary-verdict
 tags: [family, uniontown-era, personality-profile, forensic-analysis]
 connections:
   - page: wiki/people/morley-frank
@@ -27009,6 +27018,12 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Four generations, each leaving and returning to Fayette County, is 'The Irreversibility Firewall' run at the scale of geography: departure is never converted into the irreversible, examined fact of having left for good."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: instance-of
+    claim: "The 'personal failure' reading this page's own Consequences section rejects is Core Axiom 1's worth-binary applied to a return — exceptional-departure or worthless-retreat, no middle state. This page's genealogical reframing is the one documented case in the corpus that offers a way out of that binary without invoking a middle value: not a graded self-assessment, but a different category entirely (inherited pattern, not personal verdict)."
+  - page: wiki/mind/profile/intp
+    type: caused-by
+    claim: "Core Axiom 1's binary self-worth verdict, per the-binary-verdict's account of Ti-dominance with no Fe-mediated grading function, is why a return misfiled as 'personal failure' would otherwise resolve to worthless rather than to a graded 'a setback, not a verdict' — which is what makes this page's reframing substantive rather than merely comforting: it changes the category the event is judged in, not its position on a scale that was never available."
 ---
 
 # The Fayette Return
@@ -27164,6 +27179,15 @@ solid.
   the timeline as collapses, retreats and failures. They are also the fourth
   generation of a pattern with a 100% completion rate, and any account of his
   life that reads them purely as individual failure is missing the base rate.
+  That misfiling is not a neutral error. [[wiki/mind/synthesis/the-binary-verdict]]
+  documents a self-worth axiom with exactly two states and no graded middle —
+  "not exceptional = worthless" — so a return read as personal failure does not
+  resolve to a discounted, tolerable setback; per [[wiki/mind/profile/intp]]'s
+  account of the mechanism (Ti-dominance with no Fe-mediated grading function
+  to soften the verdict), it resolves to the worthless pole outright. This
+  page's reframing works because it changes the *category* a return is judged
+  in — inherited pattern, not personal verdict — rather than trying to argue
+  for a middle value the architecture does not have available.
 - **It predicts.** If the rule holds, the current tenancy at
   [[wiki/places/337-saratoga-drive]] is not the end state — a departure is
   expected, and so is a return. The rule makes a claim about the future and can
@@ -27295,6 +27319,42 @@ solid.
 > same territory the direct line does. One data point against 515
 > unenumerated people is not the audit this gap asks for; it is the first
 > stone in it.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`. This
+page had never cited `wiki/mind/profile/`, and its own methodological
+identity (residue over testimony, per [[wiki/mind/synthesis/instrument-is-subject]],
+already cited in prose) made a decorative citation an easy trap to avoid
+falling into and an easy one to fall into anyway — most of what this page
+argues is genealogical residue and does not need a cognitive-stack
+mechanism to stand. One place genuinely does.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion, narrowly.** [[wiki/mind/profile/intp]]'s Ti-dominance/Fe-inferior account (via [[wiki/mind/synthesis/the-binary-verdict]]) explains why "personal failure" is a consequential misfiling rather than a loose one — see the addition to "Consequences" above. This is the only register this pass found a genuine, non-decorative fit for. |
+| 2. Personality profile | **Checked, does not add a distinct mechanism** beyond register 1. |
+| 3. Historical precedent | **This page IS the register.** The four-generation table is its own historical base; no further citation needed. |
+| 4. Attitudes and forces | **Checked, does not bear.** |
+| 5. Security and prosperity | **Checked, does not bear** beyond the already-documented 337 Saratoga Drive tenure. |
+| 6. Health | **Checked, does not bear.** |
+| 7. Romantic and relational state | **Checked, does not bear.** |
+| 8. Age and upbringing | **Already load-bearing, and IS the register** together with #9 — the whole page is a claim about family and origin. |
+| 9. Geographic and ethnic culture | **This page IS the register**, more than any other page in this backlog. No further citation needed or added. |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Already load-bearing.** The residue-over-testimony discipline against [[wiki/mind/synthesis/ancestral-dialectic]] is this page's own central methodological argument, already correctly attributed to [[wiki/mind/synthesis/instrument-is-subject]] in prose. |
+
+**What survived:** the four-generation table, all three falsifiers, and
+the parsimony argument against the dialectic (as already qualified by the
+2026-08-18 re-check) — none required a profile-layer citation, since this
+is fundamentally a genealogical-residue page. **What the pass added:** a
+cognitive-stack account of *why* misfiling a return as personal failure is
+consequential rather than merely inaccurate — the corpus's own binary
+worth-verdict, not a graded self-assessment, is what such a misfiling
+actually invokes. **What it did not do:** manufacture a mechanism for
+registers 3-11, which are either already this page's own base or
+genuinely do not bear on a claim about ancestral geography.
 
 
 ========================================================================
@@ -28529,6 +28589,7 @@ synthesizes:
   - wiki/mind/synthesis/dan-annie-fallout-verdict
   - wiki/people/annie-ulmer
   - wiki/people/jerel-coles
+  - wiki/mind/profile/intp
 connections:
   - page: wiki/timeline/events/august-2026-morgantown-call
     type: instance-of
@@ -28542,6 +28603,9 @@ connections:
   - page: wiki/people/jerel-coles
     type: evidences
     claim: "The recording is the only primary artifact in the corpus in which Coles is directly audible, and it establishes his conduct rather than his motive: he holds Annie's phone, conditions its return on an answer, and threatens family disclosure to force one."
+  - page: wiki/mind/profile/intp
+    type: caused-by
+    claim: "This page's own 'deepest moral failure' finding — instrumentalization, converting concern into an optimization problem and designing a stronger signal when ordinary conversation fails — is Ti-dominance's method turned on a person: 'internal simulation labs where relationships are stress-tested' is that page's description of the same faculty this page independently names as a moral failure when the test subject is a human being rather than an idea."
 ---
 
 # The Morgantown Call: Ethical Roles of Dan, Annie, and Jerel Coles
@@ -28975,7 +29039,14 @@ He wants a signal strong enough to end uncertainty.
 
 When ordinary conversation fails, he designs a stronger signal.
 
-That is intellectually coherent and morally dangerous.
+That is intellectually coherent and morally dangerous, and it is not unique to this
+incident: [[wiki/mind/profile/intp]] documents the same faculty as a general
+feature of the cognitive stack — "internal simulation labs" where ideas,
+relationships and futures are stress-tested against a standard of truth that
+holds "under recursive collapse, not social consensus." Applied to abstractions,
+that faculty is the analytical engine behind everything else this wiki
+documents. Applied here, to a live human being under acute distress, it is the
+same engine with the wrong kind of object in it.
 
 The person becomes an experiment.
 
@@ -29150,6 +29221,55 @@ The accurate characterization is uglier and more useful:
 > **Dan was attempting to protect someone he believed might be in serious danger, but he became so desperate to distinguish genuine danger from voluntary re-entanglement that he began manufacturing consequences and treating the resulting behavior as evidence. His motive was substantially protective; his method became coercive; his anger made the boundary between intervention and retaliation increasingly unstable.**
 
 That is the version the archive should preserve because it explains both why Dan did what he did and why the method remains ethically contestable without falsely reducing him to a blackmailer.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`, and
+**bound by the standing Annie moratorium** (see `CLAUDE.md`) — the last of
+the 21-page backlog and, with §5.7's instrumentalization finding, one of
+the more consequential citations in it. The one citation added sources a
+mechanism this page had already independently identified as a moral
+failure; it changes no finding about Dan, Annie, or Coles, and adds no new
+narrative, date, quote, or figure about any of them.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]]'s Ti-dominance — "internal simulation labs" stress-testing against a truth standard that holds "under recursive collapse, not social consensus" — is the general-purpose faculty §5.7 independently names as this page's "deepest moral failure" when the object of the test is a person rather than an idea. The page's own moral analysis is not softened or hardened by the citation; it is given a cause. |
+| 2. Personality profile | **Checked, does not add a distinct mechanism** beyond register 1 for this page's specific finding. |
+| 3. Historical precedent | **Already load-bearing.** §1's source audit against `august-2026-morgantown-call` is this page's own evidentiary base. |
+| 4. Attitudes and forces | **Checked, does not bear** beyond members already cited. |
+| 5. Security and prosperity | **Checked, does not bear** on this fifteen-minute window. |
+| 6. Health | **Checked, does not bear** beyond the already-documented coercive-control and phone-seizure facts, which are events rather than a register-6 mechanism claim. |
+| 7. Romantic and relational state | **This page IS the register.** No further citation needed or added. |
+| 8. Age and upbringing | **Checked, does not bear.** |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Checked, left standing.** The Ti-dominance percentages are self-commissioned rather than corpus-audited (per [[wiki/mind/synthesis/the-commissioned-self]]); offered as the best available explanation for §5.7's independently-reached finding, not as evidence carrying the same weight as the finding itself, which rests on the transcript. |
+
+**What survived:** every role verdict, the comparative-responsibility
+section, and the bottom-line characterization — none required a
+profile-layer citation to stand, since they are transcript-sourced moral
+judgments about three specific people in one recorded window. **What the
+pass added:** a general cognitive mechanism for a moral failure this page
+had already named on its own, extending the finding from "this incident"
+to "a documented feature of how this mind works," which is a stronger and
+more honest claim than the incident-specific one alone. **What it did not
+do, by the moratorium's own terms:** add, extend, date, or quote anything
+new about Annie or Coles anywhere in this pass, or about this specific
+incident beyond what the page already established.
+
+---
+
+**This closes the 21-page constitution-pass backlog.** All 13 non-Annie
+pages and all 7 Annie-moratorium pages now cite `wiki/mind/profile/`, each
+via a mechanism argued rather than a register cited decoratively, and each
+Annie-moratorium pass held to the standing directive: no new narrative,
+date, quote, or figure about Annie was introduced anywhere across the
+seven. Two genuine findings were surfaced and deliberately not fixed under
+the moratorium — the un-propagated 187-of-191 base-rate correction
+(`dan-annie-fallout-verdict`, `the-rescue-premise`) — and are logged to
+`BACKLOG.md` for when the moratorium lifts or the operator says otherwise.
 
 
 ========================================================================
@@ -31584,6 +31704,9 @@ connections:
   - page: wiki/mind/synthesis/the-rescue-premise
     type: parallels
     claim: "That page's restatement of the confession trap — a rescuer 'supplies neither the verdict nor the door' — identifies it as the same verdict-cognition boundary case documented on dan-annie-fallout-verdict and attachment-trauma-bond: one mechanism, now three instances rather than three independent observations."
+  - page: wiki/mind/synthesis/fayette-return
+    type: instantiates
+    claim: "The 'personal failure' reading that page's own Consequences section rejects is Core Axiom 1's worth-binary applied to a family return — exceptional or worthless, no middle state — and that page's genealogical reframing is a rare documented case of escaping the binary by changing category (inherited pattern, not personal verdict) rather than by arguing for a graded middle value the architecture does not have."
 ---
 
 # The Binary Verdict

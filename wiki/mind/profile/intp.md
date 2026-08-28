@@ -97,6 +97,12 @@ connections:
   - page: wiki/mind/synthesis/the-rescue-premise
     type: causes
     claim: "That page's own claim that the system 'cannot generate one from behavioural evidence' — a severance signal — is Fe-inferior (10% valuing) named without being sourced: the function that would read a decade of withdrawal as implicit closure is too weak to do it, which is why nothing short of an explicit statement can substitute."
+  - page: wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis
+    type: causes
+    claim: "That page's own 'deepest moral failure' finding — instrumentalization, converting concern into an optimization problem and designing a stronger signal when ordinary conversation fails — is Ti-dominance's 'internal simulation labs' turned on a person: the same faculty that stress-tests ideas and relationships against a truth standard holding 'under recursive collapse, not social consensus,' with the wrong kind of object in it."
+  - page: wiki/mind/synthesis/fayette-return
+    type: causes
+    claim: "Core Axiom 1's binary self-worth verdict, running on Ti-dominance with no Fe-mediated grading function, is why that page's 'personal failure' misfiling of a family return is consequential rather than loose: with no graded middle available, the misfiling resolves straight to the worthless pole rather than to a discounted setback."
 ---
 
 # INTP — The Cognitive Function Stack

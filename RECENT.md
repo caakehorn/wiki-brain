@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-28 — 41 pages
+## 2026-08-28 — 42 pages
 
 - **Session log:** spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
 - **Session log:** climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
@@ -37,6 +37,7 @@ simply listed.
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/block-unblock-loop
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/august-grievance-verdict
 - **Session log:** constitution-pass | mind | wiki/mind/synthesis/the-rescue-premise
+- **Session log:** constitution-pass | mind | wiki/mind/synthesis/read-receipt-forensics
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -57,6 +58,7 @@ simply listed.
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a March 2014 Alexis-era eviction/concealment episode — housing and family-drama, no capital event, no figure this page draws on. **No clai |
 | [[wiki/mind/synthesis/failure-to-launch]] | mind | **RE-CHECKED** — flagged stale against estate-money-spine (2026-08-28), which gained a RE-CHECKED note confirming a March 2014 Alexis-era eviction on suzanne-frank touches no capital event or figure this page |
+| [[wiki/mind/synthesis/fayette-return]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] | mind | **RE-CHECKED** — flagged stale against august-grievance-verdict (2026-08-28), which gained a re-check note tracing back to a pre-Annie, 2013–2014 Alexis-era eviction/concealment episode on suzanne-frank. It touc |
 | [[wiki/mind/synthesis/music-as-identity]] | mind | — |
@@ -95,7 +97,7 @@ simply listed.
 | [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 
-## 2026-08-26 — 54 pages
+## 2026-08-26 — 53 pages
 
 - **Session log:** climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
 - **Session log:** ingest | mind | the ideal-face specification — a mystery queue item resolved
@@ -145,7 +147,6 @@ simply listed.
 | [[wiki/mind/synthesis/ai-collaborative-analysis]] | mind | — |
 | [[wiki/mind/synthesis/bond-switch-2015]] | mind | _(carries a CORRECTED from 2026-08-17)_ |
 | [[wiki/mind/synthesis/closing-the-set]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
-| [[wiki/mind/synthesis/fayette-return]] | mind | **RE-CHECKED** — ancestry added one verified collateral from the maternal Shrum line: **Daniel Shrum** (b. 11 Apr 1884, Pennsylvania; d. 11 Dec 1918, Greensburg, Westmoreland County) — an older brother of the direct-l |
 | [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] | mind | — |
 | [[wiki/mind/synthesis/political-psyops]] | mind | — |
 | [[wiki/mind/synthesis/the-cato-seat]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |

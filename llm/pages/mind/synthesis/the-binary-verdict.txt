@@ -79,6 +79,9 @@ connections:
   - page: wiki/mind/synthesis/the-rescue-premise
     type: parallels
     claim: "That page's restatement of the confession trap — a rescuer 'supplies neither the verdict nor the door' — identifies it as the same verdict-cognition boundary case documented on dan-annie-fallout-verdict and attachment-trauma-bond: one mechanism, now three instances rather than three independent observations."
+  - page: wiki/mind/synthesis/fayette-return
+    type: instantiates
+    claim: "The 'personal failure' reading that page's own Consequences section rejects is Core Axiom 1's worth-binary applied to a family return — exceptional or worthless, no middle state — and that page's genealogical reframing is a rare documented case of escaping the binary by changing category (inherited pattern, not personal verdict) rather than by arguing for a graded middle value the architecture does not have."
 ---
 
 # The Binary Verdict

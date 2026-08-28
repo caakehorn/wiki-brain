@@ -6617,3 +6617,58 @@ check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors /
 scan`: 0 obligations, 194 standing. 1 of 7 Annie-moratorium pages remains:
 `morgantown-call-three-participant-ethical-analysis` — the last page of the
 entire 21-page backlog.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis + wiki/mind/synthesis/fayette-return
+
+Seventh and last of the Annie-moratorium pages, plus one page that turned
+out to have been missed earlier in this session's Track 1 pass.
+
+**`morgantown-call-three-participant-ethical-analysis`** — bound throughout
+by the standing moratorium. The single most sensitive page in the backlog:
+a three-participant ethical analysis of a documented coercive-control
+incident. One citation, sourcing a mechanism the page had already
+independently reached on its own: §5.7's "deepest moral failure" finding
+(instrumentalization — converting concern into an optimization problem and
+designing a stronger signal when ordinary conversation fails) is
+`wiki/mind/profile/intp`'s Ti-dominance ("internal simulation labs" that
+stress-test ideas and relationships against a truth standard holding
+"under recursive collapse, not social consensus") turned on a person
+instead of an idea. The page's own role verdicts, comparative-responsibility
+section, and bottom-line characterization are untouched. No new claim,
+quote, date, or figure about Annie or Coles anywhere in this pass.
+
+**This closes the 7-page Annie-moratorium sequence and the 21-page
+constitution-pass backlog as originally scoped.** Across all seven,
+citations sourced mechanisms the pages had already reached on their own
+language; two genuine cross-page write-back failures were found and
+deliberately not fixed (the un-propagated 187-of-191 statistic, logged to
+`BACKLOG.md`); one page (`read-receipt-forensics`) correctly declined most
+registers as a technical-methodology page rather than forcing a fit.
+
+**`fayette-return`** — while running the final gate check, `bin/wiki-lint`
+showed this page *still* flagged for no `wiki/mind/profile/` citation,
+despite being 8th on the original 13-page non-Annie ordering. It was missed
+earlier in this session — not present in either this session's work log or
+the file's own frontmatter. Closed now: `wiki/mind/profile/intp` (Ti-
+dominance/Fe-inferior, via `wiki/mind/synthesis/the-binary-verdict`'s Core
+Axiom 1 account) explains why the page's own "Consequences" section is
+right that misfiling a family return as "personal failure" is consequential
+rather than loose — with no graded middle available, the misfiling resolves
+straight to the corpus's documented worthless pole rather than to a
+discounted setback. The page's own reframing (inherited pattern, not
+personal verdict) works by changing category rather than arguing for a
+middle value the architecture doesn't have. One connections type-mismatch
+(`contradicts`/`instance-of` asymmetry) caught and corrected to
+`instance-of`/`instantiates` before commit.
+
+Write-back: four new `synthesizes:` members total (`intp` on both pages,
+`the-binary-verdict` on `fayette-return` only) with reciprocal edges on
+both target pages.
+
+Gates: `bin/wiki-lint` 0 errors / 18 warnings (two fewer, both `no wiki/mind/
+profile/` warnings now cleared); `bin/wiki-connect check` 0 errors / 144
+warnings (baseline, after fixing the type mismatch); `bin/wiki-climb check`
+0 errors / 0 warnings; `bin/wiki-freshness` clean; 125 tests pass.
+`bin/wiki-work scan`: **0 obligations.** The 21-page constitution-pass
+backlog, plus the one missed page found during final verification, is
+complete.
