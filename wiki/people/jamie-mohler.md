@@ -68,6 +68,9 @@ connections:
   - page: wiki/people/joe-oshnack
     type: evidences
     claim: "A Dec 13, 2017 message on Jamie's rediscovered thread independently confirms the Alexis/Annie cam encounter this page first surfaced, narrowing it to Alexis's Feb-Oct 2017 bail window."
+  - page: wiki/mind/synthesis/no-platonic-channel
+    type: instantiates
+    claim: "The corpus's one lastingly platonic close female friendship is an edge case, not a counter-instance: every documented year of the relationship's active NYC-1 closeness (2010-2011) predates the 2023 transition, so the friendship formed and ran between two men, and a friendship-to-romance conversion pattern has never actually been tested against Jamie as a woman."
 ---
 
 # Jamie Mohler

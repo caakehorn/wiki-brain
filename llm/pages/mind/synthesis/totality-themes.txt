@@ -139,6 +139,9 @@ connections:
   - page: wiki/mind/concepts/erotic-architecture
     type: contains
     claim: "Sexuality as controlled-chaos engineering is chaos-preference and the audit-timing rule run on the same domain at once — disorder invited, but only inside a structure he built and can still see all of."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: component-of
+    claim: "Core Axiom 1 — 'not exceptional = worthless' — is the clearest worth-domain instance of a corpus-wide rule: verdict questions collapse to two states with no recorded middle value, while the same mind grades unwitnessed facts on a continuous numeric scale."
 ---
 
 
@@ -559,7 +562,11 @@ Three consequences follow, and each reframes an existing theme on this page:
    implicit argument is that the floor is the achievement. That observation does
    not dissolve the axiom — the spine is explicit that the failure mode is never
    the insight, it is the diagnosis→behavior gap — but it is on the record that
-   the axiom's own evidentiary base, audited, points the other way.
+   the axiom's own evidentiary base, audited, points the other way. Read against
+   [[wiki/mind/synthesis/the-binary-verdict]], the axiom itself is the sharpest
+   case of a corpus-wide pattern: a self-verdict with exactly two named states
+   and, on this evidence, a data set that would support a middle one the
+   verdict never uses.
 3. **It gives the consistency claim its proper scope.** The second YouTube pass
    tested consistency *within* one platform and found it; the join extends it
    *across* platforms. What persists across account migrations, alias rotations,

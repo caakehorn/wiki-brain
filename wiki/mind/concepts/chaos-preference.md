@@ -45,6 +45,9 @@ connections:
   - page: wiki/mind/synthesis/fayette-return
     type: mirrors
     claim: "The same asymmetry as the entropy appetite: disorder is welcome everywhere except in the structures he did not choose, and geography is the one structure nobody in this line has successfully chosen against."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: component-of
+    claim: "'The managed is false; the unmanaged is true' is a truth-value assignment, not a measurement of how ordered something is — order is never scored as partially legitimate, only sorted as chosen-and-suspect or unchosen-and-real."
 ---
 
 # The Chaos Preference

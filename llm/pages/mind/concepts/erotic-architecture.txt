@@ -55,6 +55,9 @@ connections:
   - page: wiki/mind/profile/lexicon
     type: parallels
     claim: "Both pages document the same disposition applied to a different object — the bespoke lexicon engineers how affection gets said, this document engineers what gets found attractive in the first place — neither leaves the domain to run on unexamined default."
+  - page: wiki/mind/synthesis/the-serial-monogamist
+    type: component-of
+    claim: "The 'ideal face' specification is the closest primary evidence to a direct statement of what draws Dan to a woman, and it answers the question as an engineered target rather than a discovered preference — the same reading that reframes his one self-described 'very specific type' claim."
 ---
 
 # Erotic Architecture: Sexuality as Controlled-Chaos Engineering

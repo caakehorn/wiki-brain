@@ -51,6 +51,9 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Seventeen years without a gap longer than weeks is 'The Irreversibility Firewall's' no-delete prediction at the level of the slot itself: leaving it empty long enough to become a real, examined choice would be exactly the irreversible fact the firewall exists to prevent."
+  - page: wiki/mind/synthesis/the-serial-monogamist
+    type: component-of
+    claim: "Seventeen continuous years with the unattached total measurable in weeks is the header fact behind Dan's stated theory of himself as a dater: he has almost no adult lived experience of the state — single life as an occupied interval rather than a gap between transfers — that any account of his own pattern would need to check itself against."
 ---
 
 # The Unbroken Bond

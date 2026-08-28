@@ -59,6 +59,9 @@ connections:
   - page: wiki/mind/concepts/erotic-architecture
     type: parallels
     claim: "A twenty-attribute, ratio-and-hex-coded 'ideal face' specification, with a rejected trait scored and named rather than omitted, is the anti-normie engineering commitment running on attraction — the same refusal to leave a domain on unexamined default."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: component-of
+    claim: "The metric outputs pass/fail on every input it touches and has exactly one documented ceiling (the Ally Skins exchange) rather than any documented middle value — a filter that sorts into two bins rather than a scale that scores distance from one."
 ---
 
 # The Cool Metric

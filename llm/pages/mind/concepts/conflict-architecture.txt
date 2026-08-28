@@ -56,6 +56,9 @@ connections:
   - page: wiki/people/ally-lubin
     type: evidenced-by
     claim: "The corpus's only completed refusal of the redefinition move — a challenge conceded in six words, twice in one evening — happens in this channel and nowhere in the Annie corpus, because the challenger narrows rather than escalates and nothing about the exchange threatens Dan's exceptionality."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: component-of
+    claim: "The engine has exactly two output states, open anomaly and closed, with no state for a provisional or partial agreement — which is why 187 of 191 affection sequences re-open the rule rather than discounting it toward a stable, lower-confidence position."
 ---
 
 

@@ -50,6 +50,9 @@ connections:
   - page: wiki/people/ally-lubin-cognitive-profile
     type: evidenced-by
     claim: "The named candidate for an external rescue has priced money, volume, superlatives and surveillance at zero across eighteen years, which makes the most available rescue script the one with the longest documented failure record."
+  - page: wiki/mind/synthesis/the-serial-monogamist
+    type: component-of
+    claim: "The corpus's only completed exit from a long relationship is a same-week substitution, not a period of single life, and its cost was the following decade — the strongest available evidence that Dan's architecture is built to avoid the unattached state rather than to pass through it."
   - page: wiki/mind/synthesis/dormancy-not-exit
     type: escalates
     claim: "Dormancy rather than exit is the corpus default, and this page states the specific conditions under which the August 2026 severance would have to be classified as the first genuine exit rather than the longest dormancy."

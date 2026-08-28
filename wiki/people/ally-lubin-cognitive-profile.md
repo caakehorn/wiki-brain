@@ -56,6 +56,12 @@ connections:
   - page: wiki/mind/profile/intp
     type: co-occurs
     claim: "Dan's INTP and Ally's tested ENTP share Ne and Ti in the top two slots in opposite order, which is the specific mechanism behind the corpus's only documented two-way correction sequence in a single evening."
+  - page: wiki/mind/synthesis/no-platonic-channel
+    type: component-of
+    claim: "'The channel with no stake... is the asset most directly destroyed by converting the channel into a pursuit' is this page's single most load-bearing sentence for a corpus-wide pattern: proximity to a woman he trusts converts to pursuit here as everywhere else, and the conversion is what costs him the thing that made the tie valuable in the first place."
+  - page: wiki/mind/synthesis/the-serial-monogamist
+    type: component-of
+    claim: "The love letter's trend-spotting line is the closest primary evidence to Dan stating an organic attraction, and even it describes a quality he prices and pursues rather than a felt preference — read beside the quantified 'ideal face' document, the same engineering habit running on the same question twice."
 ---
 
 # Ally Lubin — Cognitive Profile

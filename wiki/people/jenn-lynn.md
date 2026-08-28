@@ -20,6 +20,9 @@ connections:
   - page: wiki/mind/psychosexual/arrangement-history
     type: component-of
     claim: "A three-year, repeatedly-solicited but never definitively confirmed swap arrangement with a local couple (Jenn and her boyfriend Brad) — distinct from the paid-professional and ex-partner instances already on the timeline in running alongside an ordinary Uniontown drug-sourcing friendship rather than a commercial or NYC-scene relationship."
+  - page: wiki/mind/synthesis/no-platonic-channel
+    type: instantiates
+    claim: "Three separate arrangement solicitations across three years, with the underlying drug-sourcing friendship intact and reciprocal after each one, is the corpus's clearest evidence that the overture is a standing default recurring against a relationship rather than an escalation that burns it down."
 ---
 
 # Jenn Lynn

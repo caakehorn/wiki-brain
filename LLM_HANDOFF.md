@@ -4,6 +4,100 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-28] - Session: three character-concept syntheses (binary/zero-sum cognition, no-platonic-channel, the-serial-monogamist)
+
+* **Model:** Claude Sonnet 5 (Claude Code, remote) · **Branch:**
+  `claude/dan-character-concept-yhm0lv`
+* **Trigger:** operator asked to "analyze the premise and flesh out the
+  concept for 3 entries": (1) why Dan hates moderation and treats
+  everything as a zero-sum binary, (2) his inability to be friends with
+  girls and insistence on forming a romantic bond, (3) his perspectives on
+  dating, girls and single life.
+
+**What this session found on arrival:** `bin/wiki-work` reported zero
+obligations outstanding — no gate, no parked question, no staged answer.
+The request was pure CLIMB work: no new source material, three theses
+reasoned entirely from the existing wiki (46 candidate member pages read in
+full before writing anything), each requiring its own falsifiable governing
+rule per `SYNTHESIS_SPEC.md` rather than a shared umbrella page.
+
+**Three new `page_type: synthesis` pages, `domain: mind`, all `knowledge:
+earned`, full detail in `log.md`:**
+
+1. **`wiki/mind/synthesis/the-binary-verdict`** — verdict questions (worth,
+   authenticity, order, trust, conflict, political legitimacy, resource
+   allocation) collapse to two states with no recorded middle value across
+   nine members (`totality-themes`'s Core Axiom 1, `the-cool-metric`,
+   `chaos-preference`, `conflict-architecture`, `vertical-authority-
+   skepticism`, `political-psyops`, `single-channel`, `calibrated-
+   confidence`), while the one instrument that natively grades — numeric
+   confidence — is fenced off almost entirely to unwitnessed facts about
+   the world. The falsifier the page found and kept: the December 2015
+   "90% rule" exchange already on `wiki/timeline/annie-record`, where Dan
+   explicitly rejects "that black and white" for a graded logistics
+   compromise — read closely, confined to logistics inside a structure he
+   authored, not to a verdict, which sharpens rather than breaks the rule.
+2. **`wiki/mind/synthesis/no-platonic-channel`** — every documented
+   multi-year, high-trust female friendship carries a dated romantic or
+   sexual overture; cleanest case is Ally Lubin (paid $25 to engineer the
+   introduction, converted the friendship into paid photographs within a
+   year). Took the two candidate falsifiers seriously: Lauryn Ashly is a
+   real instance of the overture being declined without damaging the
+   friendship; Jamie Mohler is flagged as an untested edge case rather than
+   claimed as a counter-instance, because her documented closeness with Dan
+   (2010–2011) predates her 2023 transition and the pattern has never
+   actually been tested against her as a woman.
+3. **`wiki/mind/synthesis/the-serial-monogamist`** — Dan has almost no
+   adult lived experience of single life (17 continuous years occupied,
+   `the-unbroken-bond`); the one completed exit from a long relationship
+   was a same-week transfer to a successor (`bond-switch-2015`), not an
+   unattached interval; his one self-theory quote ("serial monogamist... a
+   very specific type") resolves against the corpus to an occupancy label
+   and an engineered specification (`erotic-architecture`'s literal "ideal
+   face" document) rather than a discovered organic preference — and he
+   named the pattern himself at age twelve (`bald-eagle-cummings`), eight
+   years before any adult relationship existed to generalize from.
+
+**Write-back discipline, held throughout.** All three pages' `synthesizes:`
+members (up to 9 each, some pages load-bearing on two of the three) got a
+reciprocal typed edge stating the finding, not merely pointing at the
+synthesis — per `SYNTHESIS_SPEC.md`'s write-back obligation — plus a prose
+sentence on the ones the argument turns on (`totality-themes`, `ally-lubin`
+chief among them). `bin/wiki-connect check` caught one real mistake mid-pass:
+two edge pairs used mismatched types (`contains`/`instantiates`,
+`causes`/`contains`) that aren't inverses of each other; both fixed to the
+correct pair before commit, which is worth flagging for the next session as
+a reminder to run the gate *before* assuming a batch of hand-written edges
+is consistent, not just after.
+
+**Annie-moratorium discipline.** All three pages cite Annie material
+extensively, since she is central to Dan's relational architecture — but
+every citation routes through already-published wiki pages
+(`attachment-model`, `arrangement-history`, `the-rescue-premise`,
+`the-unbroken-bond`, `bond-switch-2015`, `annie-record`'s already-quoted
+"90% rule" line) rather than pulling anything new from `raw/`. No new fact,
+date, quote or figure about Annie was added anywhere; the one direct quote
+used (the "90% rule") was already on a published page before this session
+started.
+
+**Gates:** `bin/wiki-lint` 0 errors / 144 warnings (unchanged pre-existing
+baseline, all size/footer advisories); `bin/wiki-connect check` 0 errors;
+`bin/wiki-climb check` 0 errors, 0 warnings; `bin/wiki-freshness` clean;
+master-index count drift (mind: 70→73) fixed same pass. `bin/wiki-digest`
+and `bin/llm-publish` regenerated via `bin/wiki-check`.
+
+* **Handoff note:** nothing outstanding from this session. The three new
+  pages are wired into `wiki/mind/index.md` and each other's `synthesizes:`
+  where genuinely load-bearing, but were kept as three distinct theses
+  rather than merged, per the operator's explicit "3 entries" framing and
+  because each has an independent falsifiable rule. A natural next step,
+  not requested this session: `no-platonic-channel`'s own stated gap — a
+  dedicated page reasoning from the Tom/Ally contrast (the one enduring
+  *male* lateral peer bond against the pattern this session just
+  documented for women) — would sharpen the boundary of whether the
+  mechanism is female-specific or a special case of a broader inability to
+  sustain any low-intensity trusted tie.
+
 ### [2026-08-26] - Session: full-run expansion pass — 9 commits, inbox drained, one factual correction, one operator-supplied page
 
 * **Model:** Claude Sonnet 5 (Claude Code, remote) · **Branch:** `claude/wiki-articles-expansion-0ika0h` · **PR:** [#197](https://github.com/caakehorn/wiki-brain/pull/197) (open, watched)

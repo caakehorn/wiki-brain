@@ -23,6 +23,9 @@ connections:
   - page: wiki/mind/psychosexual/arrangement-history
     type: co-occurs
     claim: "Dan's September 2020 message soliciting 'sexually adventurous friends' for Annie is a rare documented instance of the arrangement being pitched to an old friend outside the usual circle and declined — 'unfortunately i do not' — without damaging the friendship."
+  - page: wiki/mind/synthesis/no-platonic-channel
+    type: instantiates
+    claim: "The clean falsifier-in-part for a friendship-to-romance conversion pattern: the same kind of overture is made and declined here as everywhere else in the cluster, and the friendship survives it undamaged — evidence the pattern is a survivable default move, not a compulsion that costs the tie."
 ---
 
 # Lauryn Ashly

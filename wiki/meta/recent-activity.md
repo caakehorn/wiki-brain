@@ -5,7 +5,7 @@ title: "Recent Activity"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-08-27
+date_modified: 2026-08-28
 sources: []
 ---
 
@@ -23,14 +23,22 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-27 — 12 pages
+## 2026-08-28 — 6 pages
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/meta/digest]] | meta | — |
+| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
+| [[wiki/mind/synthesis/no-platonic-channel]] | mind | — |
+| [[wiki/mind/synthesis/the-binary-verdict]] | mind | — |
+| [[wiki/mind/synthesis/the-serial-monogamist]] | mind | — |
+
+## 2026-08-27 — 9 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/interests/language/vocabulary-lexicon]] | interests | — |
-| [[wiki/meta/digest]] | meta | — |
-| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
 | [[wiki/mind/profile/linguistic-profile]] | mind | **GAP CLOSED** — the operator volunteered the full "words for stupid" list against this page. It was not a gap this page had stated — unprompted material, staged here for the ingest to place. Placed here, in Lexical f |
 | [[wiki/mind/synthesis/failure-to-launch]] | mind | **RE-CHECKED** — flagged stale against linguistic-profile (2026-08-27), which gained a section on a commissioned vocabulary session (vocabulary-lexicon). **No claim on this page changes, and the new ma |
 | [[wiki/mind/synthesis/the-commissioned-self]] | mind | **RE-CHECKED** — linguistic-profile gained a section on 2026-08-27 documenting a **commissioned vocabulary session**: on 2026-08-26 Dan prompted a model to generate graded insult and praise batches, selected from the  |
@@ -347,103 +355,4 @@ simply listed.
 | [[wiki/timeline/events/the-fall-of-fran]] | timeline | **CONTRADICTION** — Both captures behind this page date the sequence to March–April **2017**, and one opens by asserting the date twice. Every independent record in the corpus dates it to **2018**, and they do not depend |
 | [[wiki/timeline/periods/2017-poverty-floor]] | timeline | — |
 | [[wiki/work/nemacolin-caddying]] | work | — |
-
-## 2026-08-01 — 94 pages
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/interests/concert-record/festivals/face2face-tour]] | interests | — |
-| [[wiki/interests/concert-record/festivals/final-show-2011]] | interests | — |
-| [[wiki/interests/concert-record/festivals/high-tide-4]] | interests | — |
-| [[wiki/interests/concert-record/festivals/nintendo-fusion-tour]] | interests | — |
-| [[wiki/interests/concert-record/festivals/oddball-comedy-curiosity-festival]] | interests | — |
-| [[wiki/interests/concert-record/festivals/rolling-rock-town-fair]] | interests | — |
-| [[wiki/interests/concert-record/festivals/the-bamboozle-2011]] | interests | — |
-| [[wiki/interests/concert-record/festivals/vans-warped-tour]] | interests | — |
-| [[wiki/interests/concert-record/index]] | interests | — |
-| [[wiki/interests/concert-record/performers/dave-chappelle]] | interests | — |
-| [[wiki/interests/concert-record/performers/hannibal-buress]] | interests | — |
-| [[wiki/interests/concert-record/performers/john-mulaney]] | interests | — |
-| [[wiki/interests/favorites/music/artists/20-cruise]] | interests | — |
-| [[wiki/interests/favorites/music/artists/3oh3]] | interests | — |
-| [[wiki/interests/favorites/music/artists/a-day-to-remember]] | interests | — |
-| [[wiki/interests/favorites/music/artists/acceptance]] | interests | — |
-| [[wiki/interests/favorites/music/artists/ace-enders]] | interests | — |
-| [[wiki/interests/favorites/music/artists/afi]] | interests | — |
-| [[wiki/interests/favorites/music/artists/against-me]] | interests | — |
-| [[wiki/interests/favorites/music/artists/alexisonfire]] | interests | — |
-| [[wiki/interests/favorites/music/artists/all-time-low]] | interests | — |
-| [[wiki/interests/favorites/music/artists/anberlin]] | interests | — |
-| [[wiki/interests/favorites/music/artists/angels-and-airships]] | interests | — |
-| [[wiki/interests/favorites/music/artists/bad-religion]] | interests | — |
-| [[wiki/interests/favorites/music/artists/barenaked-ladies]] | interests | — |
-| [[wiki/interests/favorites/music/artists/ben-kweller]] | interests | — |
-| [[wiki/interests/favorites/music/artists/bloc-party]] | interests | — |
-| [[wiki/interests/favorites/music/artists/boys-night-out]] | interests | — |
-| [[wiki/interests/favorites/music/artists/cobra-starship]] | interests | — |
-| [[wiki/interests/favorites/music/artists/codeseven]] | interests | — |
-| [[wiki/interests/favorites/music/artists/coheed-and-cambria]] | interests | — |
-| [[wiki/interests/favorites/music/artists/coldplay]] | interests | — |
-| [[wiki/interests/favorites/music/artists/default]] | interests | — |
-| [[wiki/interests/favorites/music/artists/deftones]] | interests | — |
-| [[wiki/interests/favorites/music/artists/disturbed]] | interests | — |
-| [[wiki/interests/favorites/music/artists/every-avenue]] | interests | — |
-| [[wiki/interests/favorites/music/artists/finch]] | interests | — |
-| [[wiki/interests/favorites/music/artists/finger-eleven]] | interests | — |
-| [[wiki/interests/favorites/music/artists/flight-of-the-conchords]] | interests | — |
-| [[wiki/interests/favorites/music/artists/godsmack]] | interests | — |
-| [[wiki/interests/favorites/music/artists/gogol-bordello]] | interests | — |
-| [[wiki/interests/favorites/music/artists/guster]] | interests | — |
-| [[wiki/interests/favorites/music/artists/gym-class-heroes]] | interests | — |
-| [[wiki/interests/favorites/music/artists/hawthorne-heights]] | interests | — |
-| [[wiki/interests/favorites/music/artists/head-automatica]] | interests | — |
-| [[wiki/interests/favorites/music/artists/hey-monday]] | interests | — |
-| [[wiki/interests/favorites/music/artists/him]] | interests | — |
-| [[wiki/interests/favorites/music/artists/hoobastank]] | interests | — |
-| [[wiki/interests/favorites/music/artists/incubus]] | interests | — |
-| [[wiki/interests/favorites/music/artists/injected]] | interests | — |
-| [[wiki/interests/favorites/music/artists/jacks-mannequin]] | interests | — |
-| [[wiki/interests/favorites/music/artists/jedi-mind-tricks]] | interests | — |
-| [[wiki/interests/favorites/music/artists/john-mayer]] | interests | — |
-| [[wiki/interests/favorites/music/artists/kota-the-friend]] | interests | — |
-| [[wiki/interests/favorites/music/artists/letter-kills]] | interests | — |
-| [[wiki/interests/favorites/music/artists/lil-wayne]] | interests | — |
-| [[wiki/interests/favorites/music/artists/live]] | interests | — |
-| [[wiki/interests/favorites/music/artists/lostprophets]] | interests | — |
-| [[wiki/interests/favorites/music/artists/mayday-parade]] | interests | — |
-| [[wiki/interests/favorites/music/artists/motion-city-soundtrack]] | interests | — |
-| [[wiki/interests/favorites/music/artists/motley-crue]] | interests | — |
-| [[wiki/interests/favorites/music/artists/n-e-r-d]] | interests | — |
-| [[wiki/interests/favorites/music/artists/nickelback]] | interests | — |
-| [[wiki/interests/favorites/music/artists/nofx]] | interests | — |
-| [[wiki/interests/favorites/music/artists/oleander]] | interests | — |
-| [[wiki/interests/favorites/music/artists/outkast]] | interests | — |
-| [[wiki/interests/favorites/music/artists/p-o-d]] | interests | — |
-| [[wiki/interests/favorites/music/artists/panic-at-the-disco]] | interests | — |
-| [[wiki/interests/favorites/music/artists/paramore]] | interests | — |
-| [[wiki/interests/favorites/music/artists/rilo-kiley]] | interests | — |
-| [[wiki/interests/favorites/music/artists/rise-against]] | interests | — |
-| [[wiki/interests/favorites/music/artists/saosin]] | interests | — |
-| [[wiki/interests/favorites/music/artists/sevendust]] | interests | — |
-| [[wiki/interests/favorites/music/artists/staind]] | interests | — |
-| [[wiki/interests/favorites/music/artists/stone-temple-pilots]] | interests | — |
-| [[wiki/interests/favorites/music/artists/story-of-the-year]] | interests | — |
-| [[wiki/interests/favorites/music/artists/taking-back-sunday]] | interests | — |
-| [[wiki/interests/favorites/music/artists/tantric]] | interests | — |
-| [[wiki/interests/favorites/music/artists/terminal]] | interests | — |
-| [[wiki/interests/favorites/music/artists/the-academy-is]] | interests | — |
-| [[wiki/interests/favorites/music/artists/the-darkness]] | interests | — |
-| [[wiki/interests/favorites/music/artists/the-dresden-dolls]] | interests | — |
-| [[wiki/interests/favorites/music/artists/the-early-november]] | interests | — |
-| [[wiki/interests/favorites/music/artists/the-hush-sound]] | interests | — |
-| [[wiki/interests/favorites/music/artists/the-maine]] | interests | — |
-| [[wiki/interests/favorites/music/artists/the-starting-line]] | interests | — |
-| [[wiki/interests/favorites/music/artists/the-subways]] | interests | — |
-| [[wiki/interests/favorites/music/artists/three-days-grace]] | interests | — |
-| [[wiki/interests/favorites/music/artists/thursday]] | interests | — |
-| [[wiki/interests/favorites/music/artists/tommy-lee]] | interests | — |
-| [[wiki/interests/favorites/music/artists/velvet-revolver]] | interests | — |
-| [[wiki/interests/favorites/music/artists/vertical-horizon]] | interests | — |
-| [[wiki/interests/favorites/music/artists/we-the-kings]] | interests | — |
-| [[wiki/interests/favorites/music/artists/wiki]] | interests | — |
 

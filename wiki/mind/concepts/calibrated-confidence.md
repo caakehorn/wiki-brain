@@ -39,6 +39,9 @@ connections:
   - page: wiki/self/message-corpora/master-message-dump
     type: instantiates
     claim: "The first finding produced by the message-density campaign, and the demonstration of what the corpus is actually good for — behavioural signatures Dan never knew were being counted, rather than self-report he was never going to type into SMS."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: component-of
+    claim: "This page is the control for a corpus-wide binary/graded split: all 24 strict credences attach to unwitnessed facts about the world, never to a verdict about a person's worth, a taste's authenticity, or a relationship's legitimacy — the one place gradation lives is fenced off from the one place it never appears."
 ---
 
 # Calibrated Confidence
