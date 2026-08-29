@@ -4,6 +4,68 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-29] - Session: removal of 47 concert-log artist stubs
+
+* **Model:** Claude Code (remote) · **Branch:** `claude/remove-wiki-entries-qu3p74` (wiki-brain only; portal untouched — see below).
+* **Trigger:** operator named 48 artist entries and asked for them removed as unnecessary.
+
+**What happened.** 47 removed, `knock2` held back. The 47 were uniform derived
+stubs (154–228 words) sourced solely to `raw/self/concerts/table.csv`, with no
+`knowledge:` field, no Gaps, no `synthesizes:` and nothing citable. PR #212,
+draft, watched. Full account in `log.md`.
+
+**Read these before touching it:**
+
+1. **The concert record was never in those pages.** It is in
+   `concert-record/index.md`'s 36-row master event list and the per-edition
+   festival lineups. Both survived intact. If a future pass wants an artist
+   page back, the data to rebuild it is still there.
+2. **Festival lineups now mix links and plain names, deliberately.** The
+   lineup chains were link-only, so deleting the pages emptied them — Jul 31
+   2004 Rolling Rock briefly listed no performers at all. All 35 dead links
+   were converted to plain-text names instead of dropped. Do not "tidy" the
+   plain names away: they are the lineup.
+3. **`master-timeline.md` is generated — regenerate, never hand-edit.** An
+   early pass in this session mangled its `↳ [[page]] · Section` attribution
+   lines by mistaking them for `·`-separated link chains. Reverted and rebuilt
+   with `bin/wiki-timeline generate`. Any future bulk link-surgery must exclude
+   that file.
+4. **`knock2.md` is still live and is not one of these stubs.** Different
+   source (`FAVS MASTERLIST.csv`), `status: active`, a full rewrite from stub
+   on 2026-07-14, and reasoning wired into `lyny`, `electronic-bass`,
+   `sub-bass-signature`, `lyrics-as-timbre` and `gripnotic`. It was on the
+   operator's list; deleting it is a real loss where the other 47 were not, so
+   it was referred back rather than deleted on a session's judgement. **If the
+   operator says remove it, it is a one-line commit plus its edges in those
+   five pages.**
+
+**A portal consequence nobody should discover by accident.** Two committed
+derived payloads in `caakehorn/home` are **not rebuilt by the sync workflow** —
+it runs `npm run leviathan` and `npm run docket`, but never `npm run
+wiki-instruments` (`public/leviathan/wiki.json`) or `npm run core`
+(`public/core/structure.json`), and stages only `public/wiki public/leviathan
+public/docket`.
+
+- `wiki.json` was **already 33 pages behind before this session** (486 pages,
+  `generatedAt` 2026-08-21, against a 519-page snapshot). Pre-existing.
+- `structure.json` was **current** (519 nodes, rebuilt by hand 2026-08-29) and
+  goes 47 nodes stale once this merges and syncs.
+
+Neither can be regenerated until this PR merges and the hourly sync updates
+`public/wiki/`. Nothing was changed in the portal for that reason. **After the
+merge syncs, run `npm run wiki-instruments` and `npm run core` there and commit
+`public/leviathan/wiki.json` and `public/core/structure.json`.** The durable fix
+is adding both to `.github/workflows/sync-wiki.yml` and staging `public/core`
+— deliberately not done unilaterally, since it changes the operator's CI.
+
+**Immediate next work, in order:**
+
+1. **The operator's decision on `knock2`** — the only thing blocking this PR
+   from being complete as asked.
+2. **The portal payload regeneration above**, once the sync has run.
+3. **The 90 stale obligations** in `WORK.md` — unchanged by this pass, none
+   introduced. Still the largest standing debt.
+
 ### [2026-08-29] - Session: THE DOCKET — the outstanding-work record published as a site section
 
 * **Model:** Claude Code (remote) · **Branches:** `claude/wiki-brain-corpus-research-eac3wi` in **both** repos.

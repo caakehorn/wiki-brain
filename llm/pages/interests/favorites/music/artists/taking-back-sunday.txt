@@ -20,15 +20,6 @@ connections:
   - page: wiki/interests/concert-record/festivals/the-bamboozle-2011
     type: component-of
     claim: "Taking Back Sunday performed at The Bamboozle 2011 on Apr 29 - May 1, 2011 (New Meadowlands Stadium, East Rutherford, NJ)."
-  - page: wiki/interests/favorites/music/artists/angels-and-airships
-    type: co-occurs
-    claim: "Angels & Airwaves and Taking Back Sunday appeared together at Chevrolet Amphitheatre, Pittsburgh, PA on Jun 27, 2006."
-  - page: wiki/interests/favorites/music/artists/head-automatica
-    type: co-occurs
-    claim: "Head Automatica and Taking Back Sunday appeared together at Chevrolet Amphitheatre, Pittsburgh, PA on Jun 27, 2006."
-  - page: wiki/interests/favorites/music/artists/the-subways
-    type: co-occurs
-    claim: "The Subways and Taking Back Sunday appeared together at Chevrolet Amphitheatre, Pittsburgh, PA on Jun 27, 2006."
 ---
 
 # Taking Back Sunday

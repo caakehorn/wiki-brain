@@ -15,12 +15,6 @@ connections:
   - page: wiki/interests/favorites/music/artists/mayday-parade
     type: co-occurs
     claim: "Mayday Parade and All Time Low appeared together at House of Blues, Orlando, FL on Oct 18, 2008."
-  - page: wiki/interests/favorites/music/artists/the-maine
-    type: co-occurs
-    claim: "The Maine and All Time Low appeared together at House of Blues, Orlando, FL on Oct 18, 2008."
-  - page: wiki/interests/favorites/music/artists/every-avenue
-    type: co-occurs
-    claim: "Every Avenue and All Time Low appeared together at House of Blues, Orlando, FL on Oct 18, 2008."
 ---
 
 # All Time Low

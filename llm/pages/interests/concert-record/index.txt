@@ -13,7 +13,9 @@ tags: [music-production, digital-footprint]
 
 A complete record of every concert Dan Frank is documented attending, compiled from a consolidated concert table preserved in the corpus and filed to [[raw/self/concerts/table.csv]]. Entries preserve every detail in the source, including tentative, unresolved, or unconfirmed items (flagged as such). The record runs from the Rolling Rock Town Fair editions of 2001-2004 through a 2019 New York yacht show.
 
-Per the repository's ingest philosophy, the unit of entry is the **artist**, not the event: each performer Dan saw gets a page under [[wiki/interests/favorites/music/artists]] (or [[wiki/interests/concert-record/performers]] for non-music performers), and every date he saw them is listed and discussed on that page. Festivals and tours get their own pages under [[wiki/interests/concert-record/festivals]].
+Per the repository's ingest philosophy, the unit of entry is the **artist**, not the event: a performer Dan saw may have a page under [[wiki/interests/favorites/music/artists]] (or [[wiki/interests/concert-record/performers]] for non-music performers), listing and discussing every date he saw them. Festivals and tours get their own pages under [[wiki/interests/concert-record/festivals]].
+
+**Not every performer has a page, and the master table below — not the page list — is the complete record.** On 2026-08-29 the operator removed 47 single-appearance artist stubs as unnecessary; each held nothing the master event list and the festival lineups do not already state. The performers are still named in both. See `log.md`.
 
 ## Master event list
 
@@ -69,88 +71,43 @@ Per the repository's ingest philosophy, the unit of entry is the **artist**, not
 
 ## Performers seen live
 
+The acts below are those with their own page. For the full cast of every night, read the master event list above and the per-edition lineups on the festival pages.
+
 ### Music acts
 
-- [[wiki/interests/favorites/music/artists/20-cruise]] — 20 Cruise
-- [[wiki/interests/favorites/music/artists/3oh3]] — 3OH!3
 - [[wiki/interests/favorites/music/artists/a-day-to-remember]] — A Day to Remember
-- [[wiki/interests/favorites/music/artists/acceptance]] — Acceptance
-- [[wiki/interests/favorites/music/artists/ace-enders]] — Ace Enders
 - [[wiki/interests/favorites/music/artists/afi]] — AFI
-- [[wiki/interests/favorites/music/artists/against-me]] — Against Me!
-- [[wiki/interests/favorites/music/artists/alexisonfire]] — Alexisonfire
 - [[wiki/interests/favorites/music/artists/all-time-low]] — All Time Low
 - [[wiki/interests/favorites/music/artists/anberlin]] — Anberlin
-- [[wiki/interests/favorites/music/artists/angels-and-airships]] — Angels & Airwaves
-- [[wiki/interests/favorites/music/artists/bad-religion]] — Bad Religion
 - [[wiki/interests/favorites/music/artists/barenaked-ladies]] — Barenaked Ladies
-- [[wiki/interests/favorites/music/artists/ben-kweller]] — Ben Kweller
 - [[wiki/interests/favorites/music/artists/bloc-party]] — Bloc Party
-- [[wiki/interests/favorites/music/artists/boys-night-out]] — Boys Night Out
 - [[wiki/interests/favorites/music/artists/cobra-starship]] — Cobra Starship
-- [[wiki/interests/favorites/music/artists/codeseven]] — Codeseven
 - [[wiki/interests/favorites/music/artists/coheed-and-cambria]] — Coheed and Cambria
 - [[wiki/interests/favorites/music/artists/coldplay]] — Coldplay
 - [[wiki/interests/favorites/music/artists/default]] — Default
-- [[wiki/interests/favorites/music/artists/deftones]] — Deftones
-- [[wiki/interests/favorites/music/artists/disturbed]] — Disturbed
-- [[wiki/interests/favorites/music/artists/every-avenue]] — Every Avenue
 - [[wiki/interests/favorites/music/artists/fall-out-boy]] — Fall Out Boy
-- [[wiki/interests/favorites/music/artists/finch]] — Finch
-- [[wiki/interests/favorites/music/artists/finger-eleven]] — Finger Eleven
 - [[wiki/interests/favorites/music/artists/flight-of-the-conchords]] — Flight of the Conchords
-- [[wiki/interests/favorites/music/artists/godsmack]] — Godsmack
-- [[wiki/interests/favorites/music/artists/gogol-bordello]] — Gogol Bordello
 - [[wiki/interests/favorites/music/artists/guster]] — Guster
 - [[wiki/interests/favorites/music/artists/gym-class-heroes]] — Gym Class Heroes
 - [[wiki/interests/favorites/music/artists/hawthorne-heights]] — Hawthorne Heights
-- [[wiki/interests/favorites/music/artists/head-automatica]] — Head Automatica
 - [[wiki/interests/favorites/music/artists/hey-monday]] — Hey Monday
 - [[wiki/interests/favorites/music/artists/him]] — HIM
-- [[wiki/interests/favorites/music/artists/hoobastank]] — Hoobastank
 - [[wiki/interests/favorites/music/artists/incubus]] — Incubus
-- [[wiki/interests/favorites/music/artists/injected]] — Injected
 - [[wiki/interests/favorites/music/artists/jacks-mannequin]] — Jack's Mannequin
 - [[wiki/interests/favorites/music/artists/jedi-mind-tricks]] — Jedi Mind Tricks
 - [[wiki/interests/favorites/music/artists/john-mayer]] — John Mayer
-- [[wiki/interests/favorites/music/artists/kota-the-friend]] — Kota the Friend
-- [[wiki/interests/favorites/music/artists/letter-kills]] — Letter Kills
 - [[wiki/interests/favorites/music/artists/lil-wayne]] — Lil Wayne
-- [[wiki/interests/favorites/music/artists/live]] — Live
-- [[wiki/interests/favorites/music/artists/lostprophets]] — Lostprophets
 - [[wiki/interests/favorites/music/artists/mayday-parade]] — Mayday Parade
 - [[wiki/interests/favorites/music/artists/motion-city-soundtrack]] — Motion City Soundtrack
-- [[wiki/interests/favorites/music/artists/motley-crue]] — Motley Crue
-- [[wiki/interests/favorites/music/artists/n-e-r-d]] — N.E.R.D
-- [[wiki/interests/favorites/music/artists/nickelback]] — Nickelback
 - [[wiki/interests/favorites/music/artists/nofx]] — NOFX
-- [[wiki/interests/favorites/music/artists/oleander]] — Oleander
 - [[wiki/interests/favorites/music/artists/outkast]] — Outkast
-- [[wiki/interests/favorites/music/artists/p-o-d]] — P.O.D.
 - [[wiki/interests/favorites/music/artists/panic-at-the-disco]] — Panic! at the Disco
 - [[wiki/interests/favorites/music/artists/paramore]] — Paramore
-- [[wiki/interests/favorites/music/artists/rilo-kiley]] — Rilo Kiley
-- [[wiki/interests/favorites/music/artists/rise-against]] — Rise Against
 - [[wiki/interests/favorites/music/artists/saosin]] — Saosin
-- [[wiki/interests/favorites/music/artists/sevendust]] — Sevendust
-- [[wiki/interests/favorites/music/artists/staind]] — Staind
-- [[wiki/interests/favorites/music/artists/stone-temple-pilots]] — Stone Temple Pilots
-- [[wiki/interests/favorites/music/artists/story-of-the-year]] — Story of the Year
 - [[wiki/interests/favorites/music/artists/taking-back-sunday]] — Taking Back Sunday
-- [[wiki/interests/favorites/music/artists/tantric]] — Tantric
-- [[wiki/interests/favorites/music/artists/terminal]] — Terminal
 - [[wiki/interests/favorites/music/artists/the-academy-is]] — The Academy Is...
-- [[wiki/interests/favorites/music/artists/the-darkness]] — The Darkness
-- [[wiki/interests/favorites/music/artists/the-dresden-dolls]] — The Dresden Dolls
 - [[wiki/interests/favorites/music/artists/the-early-november]] — The Early November
-- [[wiki/interests/favorites/music/artists/the-hush-sound]] — The Hush Sound
-- [[wiki/interests/favorites/music/artists/the-maine]] — The Maine
 - [[wiki/interests/favorites/music/artists/the-starting-line]] — The Starting Line
-- [[wiki/interests/favorites/music/artists/the-subways]] — The Subways
-- [[wiki/interests/favorites/music/artists/three-days-grace]] — Three Days Grace
-- [[wiki/interests/favorites/music/artists/thursday]] — Thursday
-- [[wiki/interests/favorites/music/artists/tommy-lee]] — Tommy Lee
-- [[wiki/interests/favorites/music/artists/velvet-revolver]] — Velvet Revolver
 - [[wiki/interests/favorites/music/artists/vertical-horizon]] — Vertical Horizon
 - [[wiki/interests/favorites/music/artists/we-the-kings]] — We The Kings
 - [[wiki/interests/favorites/music/artists/wiki]] — Wiki
