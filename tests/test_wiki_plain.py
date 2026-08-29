@@ -247,6 +247,24 @@ class TestOrphansAndPointers(TreeCase):
         self.assertEqual(code, 1)
         self.assertIn("ORPHAN", out)
 
+    def test_bookkeeping_files_are_not_orphan_twins(self):
+        # plain/DECLINED.md records pages considered and declined. It is not a
+        # twin of anything and must not read as one.
+        self.t.page("mind/x")
+        write(os.path.join(wp.PLAIN, "DECLINED.md"), "# Declined\n\nA reason.\n")
+        code, out = self.errors()
+        self.assertEqual(code, 0, out)
+        self.assertNotIn("ORPHAN", out)
+
+    def test_a_real_orphan_still_fails_alongside_bookkeeping(self):
+        self.t.page("mind/x")
+        write(os.path.join(wp.PLAIN, "DECLINED.md"), "# Declined\n")
+        self.t.twin("mind/ghost")
+        code, out = self.errors()
+        self.assertEqual(code, 1)
+        self.assertIn("ORPHAN", out)
+        self.assertIn("ghost", out)
+
     def test_a_mismatched_plain_of_fails(self):
         self.t.page("mind/x")
         write(

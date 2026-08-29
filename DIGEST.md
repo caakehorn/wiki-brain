@@ -48,6 +48,7 @@ this is the state of the thing.
 ## The last few days
 
 **2026-08-29** — 3 pages
+  - gate | meta | the moratorium guard caught a real violation on `main`, made by a careful writer
   - feature | meta | THE DOCKET — the outstanding-work record published as a room, and three parser bugs it found
 
 **2026-08-28** — 39 pages

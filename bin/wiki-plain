@@ -123,6 +123,18 @@ INCIDENTAL = 2
 SKIP_DIRS = {".obsidian", "archive"}
 
 
+def bookkeeping(slug):
+    """Is this a `plain/` file that is not a twin of anything?
+
+    `plain/DECLINED.md` records pages considered and declined. It sits at the
+    root of the tree with an ALL-CAPS name, the same convention the repository
+    root already uses to separate meta files (`CLAUDE.md`, `WORK.md`,
+    `BACKLOG.md`) from content — so it is bookkeeping, not an orphaned twin.
+    Twins are always lowercase slugs one or more directories deep.
+    """
+    return "/" not in slug and slug.isupper()
+
+
 def read(path):
     with open(path, encoding="utf-8") as fh:
         return fh.read()
@@ -265,6 +277,8 @@ def cmd_check(_args):
     # A twin with no page above it: the page was renamed or deleted and the
     # translation was left behind pointing at nothing.
     for slug in walk(PLAIN):
+        if bookkeeping(slug):
+            continue
         if slug not in by_slug:
             errors.append(
                 f"{slug}: plain/{slug}.md is an ORPHAN — no wiki/{slug}.md above "
