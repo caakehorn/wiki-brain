@@ -3,7 +3,7 @@
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
- "page_count": 519,
+ "page_count": 472,
  "pages": [
   {
    "page": "wiki/health/chemical-architecture.md",
@@ -59,14 +59,14 @@
    "title": "High Tide 4",
    "summary": "High Tide 4 is a festival / tour Dan Frank attended. This page records the edition(s) he is documented at, with full lineups and notes, preserved from the co...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/concert-record/festivals/high-tide-4.txt",
-   "bytes": 1379
+   "bytes": 911
   },
   {
    "page": "wiki/interests/concert-record/festivals/nintendo-fusion-tour.md",
    "title": "Nintendo Fusion Tour",
    "summary": "Nintendo Fusion Tour is a festival / tour Dan Frank attended. This page records the edition(s) he is documented at, with full lineups and notes, preserved fr...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/concert-record/festivals/nintendo-fusion-tour.txt",
-   "bytes": 3034
+   "bytes": 2038
   },
   {
    "page": "wiki/interests/concert-record/festivals/oddball-comedy-curiosity-festival.md",
@@ -80,28 +80,28 @@
    "title": "Rolling Rock Town Fair",
    "summary": "Rolling Rock Town Fair is a festival / tour Dan Frank attended. This page records the edition(s) he is documented at, with full lineups and notes, preserved ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/concert-record/festivals/rolling-rock-town-fair.txt",
-   "bytes": 7432
+   "bytes": 2142
   },
   {
    "page": "wiki/interests/concert-record/festivals/the-bamboozle-2011.md",
    "title": "The Bamboozle 2011",
    "summary": "The Bamboozle 2011 is a festival / tour Dan Frank attended. This page records the edition(s) he is documented at, with full lineups and notes, preserved from...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/concert-record/festivals/the-bamboozle-2011.txt",
-   "bytes": 1867
+   "bytes": 1615
   },
   {
    "page": "wiki/interests/concert-record/festivals/vans-warped-tour.md",
    "title": "Vans Warped Tour",
    "summary": "Vans Warped Tour is a festival / tour Dan Frank attended. This page records the edition(s) he is documented at, with full lineups and notes, preserved from t...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/concert-record/festivals/vans-warped-tour.txt",
-   "bytes": 5637
+   "bytes": 3991
   },
   {
    "page": "wiki/interests/concert-record/index.md",
    "title": "Concert Record (2001-2019)",
    "summary": "A complete record of every concert Dan Frank is documented attending, compiled from a consolidated concert table preserved in the corpus and filed to [[raw/s...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/concert-record/index.txt",
-   "bytes": 13977
+   "bytes": 11057
   },
   {
    "page": "wiki/interests/concert-record/performers/dave-chappelle.md",
@@ -244,39 +244,11 @@
    "bytes": 2884
   },
   {
-   "page": "wiki/interests/favorites/music/artists/20-cruise.md",
-   "title": "20 Cruise",
-   "summary": "20 Cruise is an act Dan Frank saw live 1 time between 2019, per the concert log he kept (preserved in the corpus). This page records those appearances and th...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/20-cruise.txt",
-   "bytes": 1112
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/3oh3.md",
-   "title": "3OH!3",
-   "summary": "3OH!3 is an act Dan Frank saw live 1 time between 2008, per the concert log he kept (preserved in the corpus). This page records those appearances and the de...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/3oh3.txt",
-   "bytes": 1228
-  },
-  {
    "page": "wiki/interests/favorites/music/artists/a-day-to-remember.md",
    "title": "A Day to Remember",
    "summary": "A Day to Remember is an act Dan Frank saw live 1 time between 2011, per the concert log he kept (preserved in the corpus). This page records those appearance...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/a-day-to-remember.txt",
    "bytes": 1349
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/acceptance.md",
-   "title": "Acceptance",
-   "summary": "Acceptance is an act Dan Frank saw live 1 time between 2005, per the concert log he kept (preserved in the corpus). This page records those appearances and t...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/acceptance.txt",
-   "bytes": 1318
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/ace-enders.md",
-   "title": "Ace Enders",
-   "summary": "Ace Enders is an act Dan Frank saw live 1 time between 2004, per the concert log he kept (preserved in the corpus). This page records those appearances and t...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/ace-enders.txt",
-   "bytes": 1098
   },
   {
    "page": "wiki/interests/favorites/music/artists/afi.md",
@@ -286,25 +258,11 @@
    "bytes": 1252
   },
   {
-   "page": "wiki/interests/favorites/music/artists/against-me.md",
-   "title": "Against Me!",
-   "summary": "Against Me! is an act Dan Frank saw live 1 time between 2008, per the concert log he kept (preserved in the corpus). This page records those appearances and ...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/against-me.txt",
-   "bytes": 1246
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/alexisonfire.md",
-   "title": "Alexisonfire",
-   "summary": "Alexisonfire is an act Dan Frank saw live 1 time between 2005, per the concert log he kept (preserved in the corpus). This page records those appearances and...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/alexisonfire.txt",
-   "bytes": 1284
-  },
-  {
    "page": "wiki/interests/favorites/music/artists/all-time-low.md",
    "title": "All Time Low",
    "summary": "All Time Low is an act Dan Frank saw live 3 times between 2007-2008, per the concert log he kept (preserved in the corpus). This page records those appearanc...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/all-time-low.txt",
-   "bytes": 2427
+   "bytes": 2051
   },
   {
    "page": "wiki/interests/favorites/music/artists/anberlin.md",
@@ -314,32 +272,11 @@
    "bytes": 1840
   },
   {
-   "page": "wiki/interests/favorites/music/artists/angels-and-airships.md",
-   "title": "Angels & Airwaves",
-   "summary": "Angels & Airwaves is an act Dan Frank saw live 1 time between 2006, per the concert log he kept (preserved in the corpus). This page records those appearance...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/angels-and-airships.txt",
-   "bytes": 1245
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/bad-religion.md",
-   "title": "Bad Religion",
-   "summary": "Bad Religion is an act Dan Frank saw live 1 time between 2007, per the concert log he kept (preserved in the corpus). This page records those appearances and...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/bad-religion.txt",
-   "bytes": 1270
-  },
-  {
    "page": "wiki/interests/favorites/music/artists/barenaked-ladies.md",
    "title": "Barenaked Ladies",
    "summary": "Barenaked Ladies is an act Dan Frank saw live 1 time between 2002, per the concert log he kept (preserved in the corpus). This page records those appearances...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/barenaked-ladies.txt",
    "bytes": 1498
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/ben-kweller.md",
-   "title": "Ben Kweller",
-   "summary": "Ben Kweller is an act Dan Frank saw live 1 time between 2004, per the concert log he kept (preserved in the corpus). This page records those appearances and ...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/ben-kweller.txt",
-   "bytes": 1209
   },
   {
    "page": "wiki/interests/favorites/music/artists/bloc-party.md",
@@ -349,25 +286,11 @@
    "bytes": 951
   },
   {
-   "page": "wiki/interests/favorites/music/artists/boys-night-out.md",
-   "title": "Boys Night Out",
-   "summary": "Boys Night Out is an act Dan Frank saw live 1 time between 2005, per the concert log he kept (preserved in the corpus). This page records those appearances a...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/boys-night-out.txt",
-   "bytes": 1164
-  },
-  {
    "page": "wiki/interests/favorites/music/artists/cobra-starship.md",
    "title": "Cobra Starship",
    "summary": "Cobra Starship is an act Dan Frank saw live 1 time between 2008, per the concert log he kept (preserved in the corpus). This page records those appearances a...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/cobra-starship.txt",
    "bytes": 1475
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/codeseven.md",
-   "title": "Codeseven",
-   "summary": "Codeseven is an act Dan Frank saw live 1 time between 2005, per the concert log he kept (preserved in the corpus). This page records those appearances and th...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/codeseven.txt",
-   "bytes": 1316
   },
   {
    "page": "wiki/interests/favorites/music/artists/coheed-and-cambria.md",
@@ -381,7 +304,7 @@
    "title": "Coldplay",
    "summary": "Coldplay is an act Dan Frank saw live 1 time between 2005, per the concert log he kept (preserved in the corpus). This page records those appearances and the...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/coldplay.txt",
-   "bytes": 1263
+   "bytes": 1068
   },
   {
    "page": "wiki/interests/favorites/music/artists/default.md",
@@ -391,32 +314,11 @@
    "bytes": 1265
   },
   {
-   "page": "wiki/interests/favorites/music/artists/deftones.md",
-   "title": "Deftones",
-   "summary": "Deftones is an act Dan Frank saw live 1 time between 2001, per the concert log he kept (preserved in the corpus). This page records those appearances and the...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/deftones.txt",
-   "bytes": 1163
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/disturbed.md",
-   "title": "Disturbed",
-   "summary": "Disturbed is an act Dan Frank saw live 1 time between 2004, per the concert log he kept (preserved in the corpus). This page records those appearances and th...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/disturbed.txt",
-   "bytes": 1243
-  },
-  {
    "page": "wiki/interests/favorites/music/artists/elliott-smith.md",
    "title": "Elliott Smith",
    "summary": "Portland singer-songwriter, 1969\u20132003. Recorded on four-track cassette recorders and later in professional studios, but with a production sensibility that al...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/elliott-smith.txt",
    "bytes": 5010
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/every-avenue.md",
-   "title": "Every Avenue",
-   "summary": "Every Avenue is an act Dan Frank saw live 1 time between 2008, per the concert log he kept (preserved in the corpus). This page records those appearances and...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/every-avenue.txt",
-   "bytes": 1179
   },
   {
    "page": "wiki/interests/favorites/music/artists/fall-out-boy.md",
@@ -426,39 +328,11 @@
    "bytes": 12311
   },
   {
-   "page": "wiki/interests/favorites/music/artists/finch.md",
-   "title": "Finch",
-   "summary": "Finch is an act Dan Frank saw live 1 time between 2004, per the concert log he kept (preserved in the corpus). This page records those appearances and the de...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/finch.txt",
-   "bytes": 1231
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/finger-eleven.md",
-   "title": "Finger Eleven",
-   "summary": "Finger Eleven is an act Dan Frank saw live 1 time between 2004, per the concert log he kept (preserved in the corpus). This page records those appearances an...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/finger-eleven.txt",
-   "bytes": 1255
-  },
-  {
    "page": "wiki/interests/favorites/music/artists/flight-of-the-conchords.md",
    "title": "Flight of the Conchords",
    "summary": "Flight of the Conchords is an act Dan Frank saw live 1 time between 2009, per the concert log he kept (preserved in the corpus). This page records those appe...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/flight-of-the-conchords.txt",
    "bytes": 897
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/godsmack.md",
-   "title": "Godsmack",
-   "summary": "Godsmack is an act Dan Frank saw live 1 time between 2002, per the concert log he kept (preserved in the corpus). This page records those appearances and the...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/godsmack.txt",
-   "bytes": 1268
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/gogol-bordello.md",
-   "title": "Gogol Bordello",
-   "summary": "Gogol Bordello is an act Dan Frank saw live 1 time between 2005, per the concert log he kept (preserved in the corpus). This page records those appearances a...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/gogol-bordello.txt",
-   "bytes": 1290
   },
   {
    "page": "wiki/interests/favorites/music/artists/guster.md",
@@ -482,13 +356,6 @@
    "bytes": 1299
   },
   {
-   "page": "wiki/interests/favorites/music/artists/head-automatica.md",
-   "title": "Head Automatica",
-   "summary": "Head Automatica is an act Dan Frank saw live 1 time between 2006, per the concert log he kept (preserved in the corpus). This page records those appearances ...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/head-automatica.txt",
-   "bytes": 1241
-  },
-  {
    "page": "wiki/interests/favorites/music/artists/hey-monday.md",
    "title": "Hey Monday",
    "summary": "Hey Monday is an act Dan Frank saw live 1 time between 2008, per the concert log he kept (preserved in the corpus). This page records those appearances and t...",
@@ -503,25 +370,11 @@
    "bytes": 991
   },
   {
-   "page": "wiki/interests/favorites/music/artists/hoobastank.md",
-   "title": "Hoobastank",
-   "summary": "Hoobastank is an act Dan Frank saw live 1 time between 2004, per the concert log he kept (preserved in the corpus). This page records those appearances and t...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/hoobastank.txt",
-   "bytes": 1246
-  },
-  {
    "page": "wiki/interests/favorites/music/artists/incubus.md",
    "title": "Incubus",
    "summary": "Incubus is an act Dan Frank saw live 2 times between 2001-2004, per the concert log he kept (preserved in the corpus). This page records those appearances an...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/incubus.txt",
-   "bytes": 1660
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/injected.md",
-   "title": "Injected",
-   "summary": "Injected is an act Dan Frank saw live 1 time between 2002, per the concert log he kept (preserved in the corpus). This page records those appearances and the...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/injected.txt",
-   "bytes": 1268
+   "bytes": 1468
   },
   {
    "page": "wiki/interests/favorites/music/artists/jacks-mannequin.md",
@@ -566,39 +419,11 @@
    "bytes": 2987
   },
   {
-   "page": "wiki/interests/favorites/music/artists/kota-the-friend.md",
-   "title": "Kota the Friend",
-   "summary": "Kota the Friend is an act Dan Frank saw live 1 time between 2019, per the concert log he kept (preserved in the corpus). This page records those appearances ...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/kota-the-friend.txt",
-   "bytes": 1130
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/letter-kills.md",
-   "title": "Letter Kills",
-   "summary": "Letter Kills is an act Dan Frank saw live 1 time between 2004, per the concert log he kept (preserved in the corpus). This page records those appearances and...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/letter-kills.txt",
-   "bytes": 1246
-  },
-  {
    "page": "wiki/interests/favorites/music/artists/lil-wayne.md",
    "title": "Lil Wayne",
    "summary": "Lil Wayne is an act Dan Frank saw live 1 time between 2011, per the concert log he kept (preserved in the corpus). This page records those appearances and th...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/lil-wayne.txt",
    "bytes": 1325
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/live.md",
-   "title": "Live",
-   "summary": "Live is an act Dan Frank saw live 1 time between 2001, per the concert log he kept (preserved in the corpus). This page records those appearances and the det...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/live.txt",
-   "bytes": 1151
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/lostprophets.md",
-   "title": "Lostprophets",
-   "summary": "Lostprophets is an act Dan Frank saw live 1 time between 2004, per the concert log he kept (preserved in the corpus). This page records those appearances and...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/lostprophets.txt",
-   "bytes": 1246
   },
   {
    "page": "wiki/interests/favorites/music/artists/lyny.md",
@@ -622,25 +447,11 @@
    "bytes": 1758
   },
   {
-   "page": "wiki/interests/favorites/music/artists/motley-crue.md",
-   "title": "Motley Crue",
-   "summary": "Motley Crue is an act Dan Frank saw live 1 time between 2011, per the concert log he kept (preserved in the corpus). This page records those appearances and ...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/motley-crue.txt",
-   "bytes": 1331
-  },
-  {
    "page": "wiki/interests/favorites/music/artists/my-chemical-romance.md",
    "title": "My Chemical Romance",
    "summary": "New Jersey rock band, formed 2001 by Gerard Way in the direct aftermath of 9/11 \u2014 a founding-myth detail the band never let audiences forget. Their commercia...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/my-chemical-romance.txt",
    "bytes": 4987
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/n-e-r-d.md",
-   "title": "N.E.R.D",
-   "summary": "N.E.R.D is an act Dan Frank saw live 1 time between 2004, per the concert log he kept (preserved in the corpus). This page records those appearances and the ...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/n-e-r-d.txt",
-   "bytes": 1237
   },
   {
    "page": "wiki/interests/favorites/music/artists/new-found-glory.md",
@@ -650,25 +461,11 @@
    "bytes": 3616
   },
   {
-   "page": "wiki/interests/favorites/music/artists/nickelback.md",
-   "title": "Nickelback",
-   "summary": "Nickelback is an act Dan Frank saw live 1 time between 2002, per the concert log he kept (preserved in the corpus). This page records those appearances and t...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/nickelback.txt",
-   "bytes": 1274
-  },
-  {
    "page": "wiki/interests/favorites/music/artists/nofx.md",
    "title": "NOFX",
    "summary": "NOFX is an act Dan Frank saw live 1 time between 2006, per the concert log he kept (preserved in the corpus). This page records those appearances and the det...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/nofx.txt",
    "bytes": 1255
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/oleander.md",
-   "title": "Oleander",
-   "summary": "Oleander is an act Dan Frank saw live 1 time between 2001, per the concert log he kept (preserved in the corpus). This page records those appearances and the...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/oleander.txt",
-   "bytes": 1163
   },
   {
    "page": "wiki/interests/favorites/music/artists/outkast.md",
@@ -678,18 +475,11 @@
    "bytes": 1265
   },
   {
-   "page": "wiki/interests/favorites/music/artists/p-o-d.md",
-   "title": "P.O.D.",
-   "summary": "P.O.D. is an act Dan Frank saw live 1 time between 2002, per the concert log he kept (preserved in the corpus). This page records those appearances and the d...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/p-o-d.txt",
-   "bytes": 1262
-  },
-  {
    "page": "wiki/interests/favorites/music/artists/panic-at-the-disco.md",
    "title": "Panic! at the Disco",
    "summary": "Panic! at the Disco is an act Dan Frank saw live 3 times between 2005-2008, per the concert log he kept (preserved in the corpus). This page records those ap...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/panic-at-the-disco.txt",
-   "bytes": 3617
+   "bytes": 3185
   },
   {
    "page": "wiki/interests/favorites/music/artists/paramore.md",
@@ -699,25 +489,11 @@
    "bytes": 2010
   },
   {
-   "page": "wiki/interests/favorites/music/artists/rilo-kiley.md",
-   "title": "Rilo Kiley",
-   "summary": "Rilo Kiley is an act Dan Frank saw live 1 time between 2005, per the concert log he kept (preserved in the corpus). This page records those appearances and t...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/rilo-kiley.txt",
-   "bytes": 1263
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/rise-against.md",
-   "title": "Rise Against",
-   "summary": "Rise Against is an act Dan Frank saw live 1 time between 2006, per the concert log he kept (preserved in the corpus). This page records those appearances and...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/rise-against.txt",
-   "bytes": 1279
-  },
-  {
    "page": "wiki/interests/favorites/music/artists/saosin.md",
    "title": "Saosin",
    "summary": "Saosin is an act Dan Frank saw live 1 time between 2005, per the concert log he kept (preserved in the corpus). This page records those appearances and the d...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/saosin.txt",
-   "bytes": 1905
+   "bytes": 1314
   },
   {
    "page": "wiki/interests/favorites/music/artists/say-anything.md",
@@ -727,53 +503,11 @@
    "bytes": 4638
   },
   {
-   "page": "wiki/interests/favorites/music/artists/sevendust.md",
-   "title": "Sevendust",
-   "summary": "Sevendust is an act Dan Frank saw live 2 times between 2002-2004, per the concert log he kept (preserved in the corpus). This page records those appearances ...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/sevendust.txt",
-   "bytes": 1574
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/staind.md",
-   "title": "Staind",
-   "summary": "Staind is an act Dan Frank saw live 2 times between 2001-2004, per the concert log he kept (preserved in the corpus). This page records those appearances and...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/staind.txt",
-   "bytes": 1460
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/stone-temple-pilots.md",
-   "title": "Stone Temple Pilots",
-   "summary": "Stone Temple Pilots is an act Dan Frank saw live 1 time between 2001, per the concert log he kept (preserved in the corpus). This page records those appearan...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/stone-temple-pilots.txt",
-   "bytes": 1196
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/story-of-the-year.md",
-   "title": "Story of the Year",
-   "summary": "Story of the Year is an act Dan Frank saw live 1 time between 2004, per the concert log he kept (preserved in the corpus). This page records those appearance...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/story-of-the-year.txt",
-   "bytes": 1261
-  },
-  {
    "page": "wiki/interests/favorites/music/artists/taking-back-sunday.md",
    "title": "Taking Back Sunday",
    "summary": "Long Island band whose 2002 debut, *Tell All Your Friends*, is one of the genre's most famous real-life betrayal records: original guitarist John Nolan began...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/taking-back-sunday.txt",
-   "bytes": 5704
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/tantric.md",
-   "title": "Tantric",
-   "summary": "Tantric is an act Dan Frank saw live 1 time between 2001, per the concert log he kept (preserved in the corpus). This page records those appearances and the ...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/tantric.txt",
-   "bytes": 1160
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/terminal.md",
-   "title": "Terminal",
-   "summary": "Terminal is an act Dan Frank saw live 1 time between 2005, per the concert log he kept (preserved in the corpus). This page records those appearances and the...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/terminal.txt",
-   "bytes": 1314
+   "bytes": 5064
   },
   {
    "page": "wiki/interests/favorites/music/artists/the-academy-is.md",
@@ -783,39 +517,11 @@
    "bytes": 1945
   },
   {
-   "page": "wiki/interests/favorites/music/artists/the-darkness.md",
-   "title": "The Darkness",
-   "summary": "The Darkness is an act Dan Frank saw live 1 time between 2004, per the concert log he kept (preserved in the corpus). This page records those appearances and...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/the-darkness.txt",
-   "bytes": 1045
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/the-dresden-dolls.md",
-   "title": "The Dresden Dolls",
-   "summary": "The Dresden Dolls is an act Dan Frank saw live 1 time between 2006, per the concert log he kept (preserved in the corpus). This page records those appearance...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/the-dresden-dolls.txt",
-   "bytes": 1333
-  },
-  {
    "page": "wiki/interests/favorites/music/artists/the-early-november.md",
    "title": "The Early November",
    "summary": "The Early November is an act Dan Frank saw live 1 time between 2004, per the concert log he kept (preserved in the corpus). This page records those appearanc...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/the-early-november.txt",
-   "bytes": 1098
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/the-hush-sound.md",
-   "title": "The Hush Sound",
-   "summary": "The Hush Sound is an act Dan Frank saw live 1 time between 2006, per the concert log he kept (preserved in the corpus). This page records those appearances a...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/the-hush-sound.txt",
-   "bytes": 1327
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/the-maine.md",
-   "title": "The Maine",
-   "summary": "The Maine is an act Dan Frank saw live 1 time between 2008, per the concert log he kept (preserved in the corpus). This page records those appearances and th...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/the-maine.txt",
-   "bytes": 1173
+   "bytes": 912
   },
   {
    "page": "wiki/interests/favorites/music/artists/the-starting-line.md",
@@ -823,41 +529,6 @@
    "summary": "The Starting Line is an act Dan Frank saw live 1 time between 2005, per the concert log he kept (preserved in the corpus). This page records those appearance...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/the-starting-line.txt",
    "bytes": 1173
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/the-subways.md",
-   "title": "The Subways",
-   "summary": "The Subways is an act Dan Frank saw live 1 time between 2006, per the concert log he kept (preserved in the corpus). This page records those appearances and ...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/the-subways.txt",
-   "bytes": 1233
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/three-days-grace.md",
-   "title": "Three Days Grace",
-   "summary": "Three Days Grace is an act Dan Frank saw live 1 time between 2004, per the concert log he kept (preserved in the corpus). This page records those appearances...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/three-days-grace.txt",
-   "bytes": 1264
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/thursday.md",
-   "title": "Thursday",
-   "summary": "Thursday is an act Dan Frank saw live 1 time between 2006, per the concert log he kept (preserved in the corpus). This page records those appearances and the...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/thursday.txt",
-   "bytes": 1267
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/tommy-lee.md",
-   "title": "Tommy Lee",
-   "summary": "Tommy Lee is an act Dan Frank saw live 1 time between 2002, per the concert log he kept (preserved in the corpus). This page records those appearances and th...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/tommy-lee.txt",
-   "bytes": 1271
-  },
-  {
-   "page": "wiki/interests/favorites/music/artists/velvet-revolver.md",
-   "title": "Velvet Revolver",
-   "summary": "Velvet Revolver is an act Dan Frank saw live 1 time between 2004, per the concert log he kept (preserved in the corpus). This page records those appearances ...",
-   "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/velvet-revolver.txt",
-   "bytes": 1261
   },
   {
    "page": "wiki/interests/favorites/music/artists/vertical-horizon.md",
@@ -1081,7 +752,7 @@
    "title": "Wiki Digest",
    "summary": "_Generated by `bin/wiki-digest`, mirroring `DIGEST.md` for on-site reading \u2014 the repo's copy is authoritative if the two ever diverge between regenerations. ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/meta/digest.txt",
-   "bytes": 11028
+   "bytes": 11098
   },
   {
    "page": "wiki/meta/index.md",
@@ -3440,7 +3111,7 @@
    "title": "Master Timeline",
    "summary": "Every dated event recorded anywhere in this wiki, in order, each linked back to the page and section that documents it.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/master-timeline.txt",
-   "bytes": 685684
+   "bytes": 777429
   },
   {
    "page": "wiki/timeline/periods/2010s.md",

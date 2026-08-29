@@ -9,9 +9,6 @@ sources:
 related: []
 tags: [music-production, digital-footprint]
 connections:
-  - page: wiki/interests/favorites/music/artists/ace-enders
-    type: co-occurs
-    claim: "Ace Enders and The Early November appeared together at Small venue, Pittsburgh, PA on ~2004."
 ---
 
 # The Early November

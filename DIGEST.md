@@ -13,7 +13,7 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 519 |
+| Pages | 472 |
 | Pages touched in the last 14 days | 194 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 41 |
@@ -25,7 +25,7 @@ this is the state of the thing.
 | Domain | Pages |
 |---|---|
 | people | 174 |
-| interests | 144 |
+| interests | 97 |
 | mind | 77 |
 | timeline | 42 |
 | self | 40 |
@@ -39,8 +39,8 @@ this is the state of the thing.
 
 | Status | Pages |
 |---|---|
-| stable | 193 |
 | active | 183 |
+| stable | 146 |
 | closed | 100 |
 | archived | 31 |
 | stub | 12 |
@@ -49,6 +49,7 @@ this is the state of the thing.
 
 **2026-08-29** — 3 pages
   - feature | meta | THE DOCKET — the outstanding-work record published as a room, and three parser bugs it found
+  - delete | interests | 47 single-appearance concert-log artist stubs
 
 **2026-08-28** — 39 pages
   - feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch

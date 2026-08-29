@@ -12,15 +12,6 @@ connections:
   - page: wiki/interests/favorites/music/artists/anberlin
     type: co-occurs
     claim: "Anberlin and Saosin appeared together at Charleroi VFW, Charleroi, PA (Pittsburgh area) on Jul 5, 2005."
-  - page: wiki/interests/favorites/music/artists/acceptance
-    type: co-occurs
-    claim: "Acceptance and Saosin appeared together at Charleroi VFW, Charleroi, PA (Pittsburgh area) on Jul 5, 2005."
-  - page: wiki/interests/favorites/music/artists/terminal
-    type: co-occurs
-    claim: "Terminal and Saosin appeared together at Charleroi VFW, Charleroi, PA (Pittsburgh area) on Jul 5, 2005."
-  - page: wiki/interests/favorites/music/artists/codeseven
-    type: co-occurs
-    claim: "Codeseven and Saosin appeared together at Charleroi VFW, Charleroi, PA (Pittsburgh area) on Jul 5, 2005."
 ---
 
 # Saosin

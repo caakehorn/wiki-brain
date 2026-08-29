@@ -12,9 +12,6 @@ connections:
   - page: wiki/interests/concert-record/festivals/rolling-rock-town-fair
     type: component-of
     claim: "Incubus performed at Rolling Rock Town Fair on Aug 4, 2001 (Westmoreland Fairgrounds, Latrobe / Mt. Pleasant, PA)."
-  - page: wiki/interests/favorites/music/artists/ben-kweller
-    type: co-occurs
-    claim: "Ben Kweller and Incubus appeared together at A.J. Palumbo Center, Pittsburgh, PA on Oct 10, 2004."
 ---
 
 # Incubus

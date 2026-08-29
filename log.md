@@ -6829,3 +6829,70 @@ warnings (baseline, after fixing the type mismatch); `bin/wiki-climb check`
 `bin/wiki-work scan`: **0 obligations.** The 21-page constitution-pass
 backlog, plus the one missed page found during final verification, is
 complete.
+
+## [2026-08-29] delete | interests | 47 single-appearance concert-log artist stubs
+
+Operator instruction: remove 48 named entries as unnecessary. **47 removed;
+`knock2` held back and referred back to the operator** — see below.
+
+**What the 47 were.** Uniform derived stubs, 154–228 words each, every one
+sourced solely to `raw/self/concerts/table.csv`, `page_type: entity`,
+`status: stable`, no `knowledge:` field, no Gaps, no `synthesizes:`, no
+`sage_pending`/`pending_ingest`, nothing citable. Each restated one or two
+rows of the concert table as a one-line "Live appearances" table plus a
+"Notes per appearance" bullet repeating the same sentence. Nothing on them
+was earned content in the `CLAUDE.md` sense; the reasoning had never been
+done, so none was lost.
+
+**Nothing factual was deleted with them.** The concert record is held by
+`wiki/interests/concert-record/index.md`'s 36-row master event list (intact,
+untouched) and by the per-edition lineups on the five festival pages. Both
+predate the stubs and are more complete than they were.
+
+**Where the removal would have silently cost data, and what was done.** The
+festival lineup sections were written as chains of links to these pages. A
+straight link-removal emptied them — the Jul 31 2004 Rolling Rock edition
+was briefly left listing no performers at all, and Warped 2005/2006/2007/2008
+each lost acts from their lineup. Deleting a page must not delete the fact
+that Deftones played Rolling Rock in 2001. All 35 dead links across the five
+festival pages were therefore converted to **plain-text performer names**
+rather than dropped: surviving acts stay linked, removed ones read as names.
+Every lineup is complete as before.
+
+**A claim on the index was made false by this and has been corrected.**
+`concert-record/index.md` stated that "each performer Dan saw gets a page
+under `wiki/interests/favorites/music/artists`". That is no longer true for
+47 performers. The sentence now says a performer *may* have a page, and the
+section carries an explicit line that **the master table, not the page list,
+is the complete record**. Left uncorrected this would have read as a silent
+gap in the concert record rather than a deliberate removal.
+
+**Reference cleanup, all mechanical, 0 residual:** 48 typed-edge blocks
+removed from 12 pages (5 festivals, 7 surviving artist pages —
+`taking-back-sunday`, `saosin`, `panic-at-the-disco`, `all-time-low`,
+`the-early-november`, `incubus`, `coldplay`); 47 index bullets from
+`concert-record/index.md`; 35 lineup links converted as above.
+`wiki/timeline/master-timeline.md` is generated and was regenerated rather
+than hand-edited (`bin/wiki-timeline generate`) — an early pass mangled its
+`↳ [[page]] · Section` attribution lines by mistaking them for link chains;
+reverted and regenerated instead.
+
+**Master-index drift caught by the gate:** root `index.md` claimed 140
+interests pages against an actual 93. Corrected. This was caused by the
+deletion and would have failed `bin/wiki-lint` on the next run.
+
+**Held back — `knock2.md`.** On the operator's list but not one of this set.
+Different source (`raw/self/favorites/FAVS MASTERLIST.csv`, not the concert
+table), `status: active`, a 2026-07-14 changelog recording a full rewrite
+from stub, and 353 words of reasoning rather than a restated table: it argues
+Knock2 is a live reference point for Dan's current GRIPNOTIC-era production
+rather than legacy taste, and is wired into `lyny`, `electronic-bass`,
+`sub-bass-signature`, `lyrics-as-timbre` and `gripnotic`. That is earned
+content in a live cluster, and `raw/` does not contain it literally. Deleting
+it is a real loss where deleting the other 47 was not, so it was not deleted
+on a session's own judgement. Referred to the operator.
+
+Gates: `bin/wiki-lint` 0 errors; `bin/wiki-connect check` 0 errors;
+`bin/wiki-climb check` 0 errors; `bin/wiki-plain check` 0 errors;
+`bin/wiki-freshness` in sync; `bin/wiki-work scan` **90 obligations —
+unchanged, none introduced by this pass.** 472 pages (was 519).

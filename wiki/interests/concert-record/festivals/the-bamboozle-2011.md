@@ -12,9 +12,6 @@ connections:
   - page: wiki/interests/favorites/music/artists/lil-wayne
     type: contains
     claim: "Lil Wayne performed at The Bamboozle 2011 on Apr 29 - May 1, 2011 (New Meadowlands Stadium, East Rutherford, NJ)."
-  - page: wiki/interests/favorites/music/artists/motley-crue
-    type: contains
-    claim: "Motley Crue performed at The Bamboozle 2011 on Apr 29 - May 1, 2011 (New Meadowlands Stadium, East Rutherford, NJ)."
   - page: wiki/interests/favorites/music/artists/taking-back-sunday
     type: contains
     claim: "Taking Back Sunday performed at The Bamboozle 2011 on Apr 29 - May 1, 2011 (New Meadowlands Stadium, East Rutherford, NJ)."
@@ -36,5 +33,5 @@ The Bamboozle 2011 is a festival / tour Dan Frank attended. This page records th
 ## Lineups (per edition)
 
 ### Apr 29 - May 1, 2011 — New Meadowlands Stadium, East Rutherford, NJ
-[[wiki/interests/favorites/music/artists/lil-wayne]] · [[wiki/interests/favorites/music/artists/motley-crue]] · [[wiki/interests/favorites/music/artists/taking-back-sunday]] · [[wiki/interests/favorites/music/artists/a-day-to-remember]]
+[[wiki/interests/favorites/music/artists/lil-wayne]] · Motley Crue · [[wiki/interests/favorites/music/artists/taking-back-sunday]] · [[wiki/interests/favorites/music/artists/a-day-to-remember]]
 
