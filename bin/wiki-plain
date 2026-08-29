@@ -90,6 +90,8 @@ twin — stale, orphaned, or forbidden — is a gate failure.
     bin/wiki-plain check           # the gate: 0 = clean, 1 = broken twin
     bin/wiki-plain next [n]        # the n densest pages with no twin yet
     bin/wiki-plain new <slug>      # scaffold a twin, frontmatter filled in
+    bin/wiki-plain task [slug]     # one page's whole writing task, for an agent
+    bin/wiki-plain audit [slug]    # the anti-slop referee: is this twin any good?
 """
 import argparse
 import os
@@ -280,6 +282,270 @@ def cmd_check(_args):
     return 1 if errors else 0
 
 
+# ---------------------------------------------------------------------------
+# AUDIT — the anti-slop referee
+#
+# `check` answers "is this twin BROKEN?" — stale, orphaned, forbidden. `audit`
+# answers a different and harder question: "is this twin any GOOD?"
+#
+# It exists because the twins are the one layer of this repository a weak or
+# careless writer can degrade without leaving a trace. A wrong synthesis
+# contradicts a page somebody can go read. A slop twin reads fine, cites
+# nothing, and is served to the reader least equipped to notice — and the
+# writer, asked whether it is slop, will say no. So nothing here asks anyone's
+# opinion. Every rule below is arithmetic over two files.
+#
+# The load-bearing one is FABRICATED NUMBERS. A twin may only contain numbers
+# that appear in the page it translates. Simplifying the language is the job;
+# inventing a quantity is manufacturing evidence, and it is the single most
+# damaging thing a translator can do here, because a number reads as proof.
+# Single digits are exempt (ordinary prose counts things: "two origins"); every
+# multi-digit number, year and percentage is checked against the source.
+
+# Numbers, dates and quantities. Commas stripped so "2,000" matches "2000".
+NUMBER = re.compile(r"\d[\d,]*(?:\.\d+)?%?")
+
+# A page often spells a quantity out ("thirty-five years", "Twenty-five works")
+# where the twin quite properly writes the digits. That is a rendering choice,
+# not an invented number, so the source's spelled forms are resolved to digits
+# before anything is called fabricated. Only what a page plausibly spells out.
+UNITS = {
+    "one": 1, "two": 2, "three": 3, "four": 4, "five": 5, "six": 6, "seven": 7,
+    "eight": 8, "nine": 9, "ten": 10, "eleven": 11, "twelve": 12,
+    "thirteen": 13, "fourteen": 14, "fifteen": 15, "sixteen": 16,
+    "seventeen": 17, "eighteen": 18, "nineteen": 19,
+}
+TENS = {
+    "twenty": 20, "thirty": 30, "forty": 40, "fifty": 50,
+    "sixty": 60, "seventy": 70, "eighty": 80, "ninety": 90,
+}
+SPELLED = re.compile(
+    r"\b(" + "|".join(list(TENS) + list(UNITS)) + r")(?:[-\s](" + "|".join(UNITS) + r"))?\b",
+    re.I,
+)
+
+
+def spelled_numbers(text):
+    """Digit strings for every number the text spells out in words."""
+    out = set()
+    for m in SPELLED.finditer(text):
+        head, tail = m.group(1).lower(), (m.group(2) or "").lower()
+        if head in TENS:
+            out.add(str(TENS[head] + UNITS.get(tail, 0)))
+        else:
+            out.add(str(UNITS[head]))
+    return out
+
+# Machinery that belongs to the technical edition and must not survive into the
+# plain one. A reader who has never been here does not need a `raw/` path.
+APPARATUS = [
+    (re.compile(r"\[\[[^\]]+\]\]"), "a [[wiki/...]] link"),
+    (re.compile(r"\braw/[a-z0-9_./-]+", re.I), "a raw/ source path"),
+    (re.compile(r"^\s*(synthesizes|connections|page_type|knowledge|date_range_\w+|tags|aliases):", re.M), "a frontmatter key that belongs to the page, not the twin"),
+    (re.compile(r"\b(typed edge|instantiates|component-of|evidenced-by|constitution pass|provenance disclosure)\b", re.I), "wiki-maintenance vocabulary"),
+    (re.compile(r"\bknowledge:\s*(earned|derived|mixed)\b", re.I), "a knowledge: value"),
+]
+
+# The house style of a model writing to fill space. Not a taste judgement —
+# every one of these is a phrase that adds no claim, and a twin is 100% claims.
+SLOP = [
+    r"\bit'?s (important|worth) (to note|noting|remembering)\b",
+    r"\bit should be noted\b",
+    r"\bdelve[sd]? into\b",
+    r"\ba (rich )?tapestry\b",
+    r"\bnavigat(e|ing) the (complexit|landscape|nuance)",
+    r"\bmultifacet(ed)?\b",
+    r"\bplays? a (crucial|key|vital|significant) role\b",
+    r"\bin (today'?s|the modern) world\b",
+    r"\bin conclusion\b",
+    r"\bthis (article|document|page) (will )?(explore|examine|discuss)",
+    r"\bfurthermore,",
+    r"\bmoreover,",
+    r"\bit is (clear|evident) that\b",
+    r"\ba testament to\b",
+    r"\bunderscore[sd]? the importance\b",
+    r"\bsheds? light on\b",
+    r"\bat the end of the day\b",
+    r"\bwhen it comes to\b",
+]
+
+# The page admits what it does not know, and so must the twin.
+SOURCE_HONESTY = re.compile(r"^#{2,3}\s+.*\b(gaps?|falsifiers?|what would|open questions|unresolved)\b", re.I | re.M)
+TWIN_HONESTY = re.compile(r"^#{2,3}\s+.*(prove this wrong|don'?t know|not sure|unknown|gaps?|falsif|gets? this wrong|missing)\b", re.I | re.M)
+
+POINTER = re.compile(r"(full|technical|complete)\s+(entry|page|version)", re.I)
+
+# `new` and `task` leave angle-bracket prompts in the scaffold. A twin still
+# carrying one was abandoned mid-write, and the tree should say so rather than
+# publish a template.
+PLACEHOLDER = re.compile(r"<[A-Z][^>\n]{12,}>")
+
+
+def sentences(text):
+    return [s for s in re.split(r"[.!?]+(?:\s|$)", text) if s.strip()]
+
+
+def syllables(word):
+    """Good enough for a grade level; this is a smoke alarm, not a linguist."""
+    word = re.sub(r"[^a-z]", "", word.lower())
+    if not word:
+        return 0
+    groups = re.findall(r"[aeiouy]+", word)
+    n = len(groups)
+    if word.endswith("e") and n > 1 and not word.endswith(("le", "ee")):
+        n -= 1
+    return max(1, n)
+
+
+def grade_level(text):
+    """Flesch-Kincaid. The plain edition is for people who have not read the wiki."""
+    prose = re.sub(r"^\s*\|.*$", "", text, flags=re.M)          # tables are not prose
+    prose = re.sub(r"[*_`#>\[\]]", " ", prose)
+    words = re.findall(r"[A-Za-z][A-Za-z'-]*", prose)
+    sents = sentences(prose)
+    if not words or not sents:
+        return 0.0
+    syl = sum(syllables(w) for w in words)
+    return 0.39 * (len(words) / len(sents)) + 11.8 * (syl / len(words)) - 15.59
+
+
+def audit_page(p):
+    """(errors, warnings) for one translated page. Arithmetic, never opinion."""
+    errors, warnings = [], []
+    src = read(p.src_path)
+    twin = read(p.twin_path)
+    src_body, twin_body = body_of(src), body_of(twin)
+
+    # -- 1. fabricated numbers ------------------------------------------------
+    norm = lambda m: m.group(0).replace(",", "").rstrip(".")
+    src_nums = {norm(m) for m in NUMBER.finditer(src_body)}
+    src_nums |= spelled_numbers(src_body)
+    # A four-digit year licenses its own shorthand: a page writing "2011-2012"
+    # and a twin writing "2011-12" are the same date, not a new one.
+    src_nums |= {n[2:] for n in list(src_nums) if len(n) == 4 and n.isdigit() and n.startswith(("18", "19", "20"))}
+    invented = sorted(
+        {
+            norm(m)
+            for m in NUMBER.finditer(twin_body)
+            if len(norm(m).rstrip("%").replace(".", "")) > 1 and norm(m) not in src_nums
+        },
+        key=lambda v: (len(v), v),
+    )
+    if invented:
+        errors.append(
+            "FABRICATED NUMBERS — these appear in the twin but nowhere in the page: "
+            + ", ".join(invented[:12])
+            + ". Every quantity must be traceable to the page. Delete it or use the "
+            "page's own figure; do not round, convert, total or estimate."
+        )
+
+    # -- 2. evidence quietly dropped -----------------------------------------
+    kept = len({n for n in src_nums if n in {norm(m) for m in NUMBER.finditer(twin_body)}})
+    big_src = {n for n in src_nums if len(n.rstrip("%").replace(".", "")) > 1}
+    if big_src:
+        keep_rate = len({n for n in big_src if n in twin_body.replace(",", "")}) / len(big_src)
+        if keep_rate < 0.25:
+            warnings.append(
+                f"only {keep_rate * 100:.0f}% of the page's figures survive into the twin "
+                "— check you are simplifying the language and not the evidence"
+            )
+
+    # -- 3. apparatus that should have been stripped --------------------------
+    for pattern, what in APPARATUS:
+        m = pattern.search(twin)
+        if m:
+            errors.append(
+                f"APPARATUS LEAKED — {what}: {m.group(0)[:60]!r}. That is machinery for "
+                "maintaining the wiki, not part of the finding. Remove it."
+            )
+
+    # -- 4. slop ---------------------------------------------------------------
+    for pattern in SLOP:
+        m = re.search(pattern, twin_body, re.I)
+        if m:
+            errors.append(
+                f"FILLER PHRASE — {m.group(0)!r}. It carries no claim. Cut the sentence "
+                "or replace it with what actually happened."
+            )
+
+    # -- 5. the honest half ----------------------------------------------------
+    if SOURCE_HONESTY.search(src_body) and not TWIN_HONESTY.search(twin_body):
+        errors.append(
+            "MISSING THE HONEST HALF — the page states its gaps or what would prove it "
+            "wrong, and the twin does not. A reader shown only the confident half is "
+            "being sold something. Add those sections in plain words."
+        )
+
+    # -- 6. length band --------------------------------------------------------
+    if p.words and p.twin_words:
+        ratio = p.twin_words / p.words
+        if ratio < 0.18:
+            errors.append(
+                f"TOO SHORT — {p.twin_words} words against the page's {p.words} "
+                f"({ratio * 100:.0f}%). That is a summary, not a translation. A twin "
+                "carries the same finding at the same altitude."
+            )
+        elif ratio > 0.95:
+            warnings.append(
+                f"barely shorter than the page ({ratio * 100:.0f}%) — check the apparatus "
+                "was actually dropped"
+            )
+
+    # -- 7. reading level ------------------------------------------------------
+    grade = grade_level(twin_body)
+    if grade > 12.5:
+        errors.append(
+            f"TOO HARD TO READ — Flesch-Kincaid grade {grade:.1f}, target 12 or below. "
+            "Shorten the sentences and swap the long words. Keep every fact."
+        )
+
+    # -- 8. an abandoned scaffold ---------------------------------------------
+    m = PLACEHOLDER.search(twin_body)
+    if m:
+        errors.append(
+            f"UNFILLED TEMPLATE — the scaffold prompt {m.group(0)[:50]!r} is still here. "
+            "Either finish the twin or delete the file; a half-written one blocks the gate "
+            "on purpose."
+        )
+
+    # -- 9. the way back -------------------------------------------------------
+    if not POINTER.search(twin_body):
+        errors.append(
+            "NO POINTER BACK — close with the standard line telling the reader the full "
+            "entry exists and carries the sources."
+        )
+
+    return errors, warnings
+
+
+def cmd_audit(args):
+    pages = [p for p in load() if p.twin]
+    if args.slug:
+        want = args.slug.removeprefix("wiki/").removesuffix(".md")
+        pages = [p for p in pages if p.slug == want]
+        if not pages:
+            print(f"No twin at plain/{want}.md", file=sys.stderr)
+            return 2
+
+    failed = 0
+    for p in pages:
+        errors, warnings = audit_page(p)
+        grade = grade_level(body_of(read(p.twin_path)))
+        if errors or warnings or args.slug:
+            print(f"\n{p.slug}  ({p.words} -> {p.twin_words} words, grade {grade:.1f})")
+        for e in errors:
+            print(f"  FAIL  {e}")
+        for w in warnings:
+            print(f"  warn  {w}")
+        if errors:
+            failed += 1
+        elif args.slug:
+            print("  PASS  nothing mechanical to object to.")
+
+    print(f"\nwiki-plain audit: {len(pages)} twin(s), {failed} failing")
+    return 1 if failed else 0
+
+
 def cmd_status(args):
     pages = load()
     eligible = [p for p in pages if not p.excluded]
@@ -370,6 +636,102 @@ only shown the confident half is being sold something.>
 """
 
 
+TASK_RULES = """\
+RULES — the tool enforces these; you cannot talk your way past them.
+
+  1. Write ONE file: plain/{slug}.md. Touch nothing else. Never edit wiki/.
+  2. Every number, date and quantity in what you write MUST appear in the page
+     above. Do not round, convert, total, estimate or add a denominator. If you
+     cannot point at it in the page, delete it.
+  3. Keep the falsifiers and the gaps. Put them under plain headings a stranger
+     would use: "What would prove this wrong" and "What we still don't know".
+     A reader shown only the confident half is being sold something.
+  4. Drop the apparatus: [[wiki/...]] links, raw/ paths, typed edges,
+     synthesizes:, knowledge:, register tables, provenance notes.
+  5. Explain jargon, do not delete the concept. "Ti-dominance with no
+     Fe-mediated grading function" becomes "his sense of his own worth runs on
+     an on/off switch with nothing in between".
+  6. Short sentences. Target US grade 12 or below. Keep every fact.
+  7. Aim for 30-60% of the page's length. Shorter than 18% is a summary, and a
+     summary is not what this is.
+  8. Close with a line telling the reader the full entry exists and carries the
+     sources.
+  9. Do not invent a finding, soften a conclusion, or add an opinion the page
+     does not make. You are re-wording an argument, not having one.
+
+THEN, and this is not optional:
+
+    bin/wiki-plain audit {slug}
+
+Fix every FAIL it prints and run it again. When it prints PASS, run
+`bin/wiki-check` and commit. If you cannot get it to PASS in three tries,
+delete plain/{slug}.md, say why in one line, and move to the next page.
+"""
+
+
+def cmd_task(args):
+    """Everything a writer needs for one page, in one blob.
+
+    Written for an agent that will not remember the rules from last time and
+    will not go and read a spec. The rules ride along with every task, and the
+    whole page is printed rather than named — a twin written from the first
+    three paragraphs is a summary, and that is the most common way this goes
+    wrong.
+    """
+    if args.slug:
+        slug = args.slug.removeprefix("wiki/").removesuffix(".md")
+        pages = [p for p in load() if p.slug == slug]
+        if not pages:
+            print(f"No such page: wiki/{slug}.md", file=sys.stderr)
+            return 2
+        p = pages[0]
+        if p.excluded:
+            print(
+                f"REFUSED: wiki/{slug}.md is withheld under the standing "
+                f"moratorium in CLAUDE.md. Pick another page.",
+                file=sys.stderr,
+            )
+            return 2
+    else:
+        todo = [p for p in load() if not p.twin and not p.excluded]
+        if args.synthesis:
+            todo = [p for p in todo if p.page_type == "synthesis"]
+        if not todo:
+            print("NOTHING TO DO — every eligible page has a twin.")
+            return 0
+        todo.sort(key=lambda p: -p.words)
+        p = todo[0]
+
+    if not p.twin:
+        os.makedirs(os.path.dirname(p.twin_path), exist_ok=True)
+        import datetime
+
+        with open(p.twin_path, "w", encoding="utf-8") as fh:
+            fh.write(
+                SCAFFOLD.format(
+                    slug=p.slug,
+                    title=p.meta.get("title", p.slug.split("/")[-1]).strip("\"'"),
+                    today=datetime.date.today().isoformat(),
+                    source_modified=p.modified,
+                )
+            )
+        scaffolded = "scaffolded just now"
+    else:
+        scaffolded = "already exists — you are revising it"
+
+    bar = "=" * 72
+    print(f"{bar}\nTASK: write the plain-English twin of wiki/{p.slug}.md")
+    print(f"WRITE TO: plain/{p.slug}.md   ({scaffolded})")
+    print(f"LENGTH: the page is {p.words} words. Aim for {int(p.words * 0.3)}-{int(p.words * 0.6)}.")
+    print(bar)
+    print(TASK_RULES.format(slug=p.slug))
+    print(bar)
+    print(f"THE PAGE — read all of it before you write a word.\n{bar}\n")
+    print(read(p.src_path))
+    print(bar)
+    return 0
+
+
 def cmd_new(args):
     slug = args.slug.removeprefix("wiki/").removesuffix(".md")
     src = os.path.join(WIKI, *slug.split("/")) + ".md"
@@ -412,6 +774,9 @@ def main():
     sub = ap.add_subparsers(dest="cmd")
 
     sub.add_parser("check", help="gate: broken twins only")
+
+    a = sub.add_parser("audit", help="anti-slop referee: is this twin any good?")
+    a.add_argument("slug", nargs="?")
     sub.add_parser("status", help="coverage report")
 
     n = sub.add_parser("next", help="densest untranslated pages")
@@ -421,12 +786,18 @@ def main():
     w = sub.add_parser("new", help="scaffold a twin")
     w.add_argument("slug")
 
+    t = sub.add_parser("task", help="one page's full writing task, rules and page included")
+    t.add_argument("slug", nargs="?")
+    t.add_argument("--synthesis", action="store_true", help="synthesis pages only")
+
     args = ap.parse_args()
     return {
         "check": cmd_check,
+        "audit": cmd_audit,
         "status": cmd_status,
         "next": cmd_next,
         "new": cmd_new,
+        "task": cmd_task,
         None: cmd_status,
     }[args.cmd](args)
 

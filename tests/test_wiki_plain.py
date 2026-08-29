@@ -259,6 +259,112 @@ class TestOrphansAndPointers(TreeCase):
         self.assertIn("plain_of", out)
 
 
+class TestAudit(TreeCase):
+    """The anti-slop referee. Every rule is arithmetic, so every rule is testable."""
+
+    def audit(self, slug="mind/x"):
+        return wp.audit_page(self.one(slug))
+
+    def good_twin(self, extra=""):
+        """A twin that should pass: page figures kept, honest half present."""
+        return (
+            "The short version: he moved 4 times between 1892 and 1988.\n\n"
+            "## What would prove this wrong\n\nA relative who left and stayed away.\n\n"
+            "## What we still don't know\n\nNobody checked the cousins.\n\n"
+            + extra
+            + "\nThis is the plain-English version of the full entry.\n"
+        )
+
+    def base_page(self):
+        return (
+            "He moved 4 times between 1892 and 1988, across 130 years.\n\n"
+            "## Gaps\n\nThe collaterals are unchecked.\n"
+        )
+
+    def test_a_faithful_twin_passes(self):
+        self.t.page("mind/x", body=self.base_page())
+        self.t.twin("mind/x", body=self.good_twin())
+        errors, _ = self.audit()
+        self.assertEqual(errors, [], errors)
+
+    def test_a_number_not_in_the_page_is_fabrication(self):
+        self.t.page("mind/x", body=self.base_page())
+        self.t.twin("mind/x", body=self.good_twin("He owned 250 paintings.\n"))
+        errors, _ = self.audit()
+        self.assertTrue(any("FABRICATED" in e and "250" in e for e in errors), errors)
+
+    def test_single_digits_are_not_fabrication(self):
+        # Ordinary prose counts things; "two origins" is not invented evidence.
+        self.t.page("mind/x", body=self.base_page())
+        self.t.twin("mind/x", body=self.good_twin("There are 2 reasons.\n"))
+        errors, _ = self.audit()
+        self.assertFalse(any("FABRICATED" in e for e in errors), errors)
+
+    def test_a_number_the_page_spells_out_is_not_fabrication(self):
+        # The page writes "thirty-five years"; the twin writing "35" is a
+        # rendering choice, not a new quantity.
+        self.t.page("mind/x", body=self.base_page() + "\nThirty-five years passed.\n")
+        self.t.twin("mind/x", body=self.good_twin("35 years passed.\n"))
+        errors, _ = self.audit()
+        self.assertFalse(any("FABRICATED" in e for e in errors), errors)
+
+    def test_year_shorthand_is_not_fabrication(self):
+        self.t.page("mind/x", body=self.base_page() + "\nHe worked there 2011-2012.\n")
+        self.t.twin("mind/x", body=self.good_twin("He worked there in 2011-12.\n"))
+        errors, _ = self.audit()
+        self.assertFalse(any("FABRICATED" in e for e in errors), errors)
+
+    def test_apparatus_must_not_leak(self):
+        for leak in ("[[wiki/people/x]]", "raw/self/notes.md", "knowledge: earned"):
+            with self.subTest(leak=leak):
+                self.t.twin("mind/x", body=self.good_twin(leak + "\n"))
+                self.t.page("mind/x", body=self.base_page())
+                errors, _ = self.audit()
+                self.assertTrue(any("APPARATUS" in e for e in errors), (leak, errors))
+
+    def test_filler_phrases_fail(self):
+        self.t.page("mind/x", body=self.base_page())
+        self.t.twin("mind/x", body=self.good_twin("It's important to note this.\n"))
+        errors, _ = self.audit()
+        self.assertTrue(any("FILLER" in e for e in errors), errors)
+
+    def test_dropping_the_honest_half_fails(self):
+        self.t.page("mind/x", body=self.base_page())
+        self.t.twin(
+            "mind/x",
+            body="He moved 4 times between 1892 and 1988 across 130 years. "
+            "See the full entry.\n",
+        )
+        errors, _ = self.audit()
+        self.assertTrue(any("HONEST HALF" in e for e in errors), errors)
+
+    def test_a_summary_is_too_short(self):
+        self.t.page("mind/x", body=self.base_page() + ("filler word here. " * 400))
+        self.t.twin("mind/x", body=self.good_twin())
+        errors, _ = self.audit()
+        self.assertTrue(any("TOO SHORT" in e for e in errors), errors)
+
+    def test_missing_pointer_back_fails(self):
+        self.t.page("mind/x", body=self.base_page())
+        self.t.twin(
+            "mind/x",
+            body="He moved 4 times, 1892 to 1988, 130 years.\n\n"
+            "## What would prove this wrong\n\nA relative who stayed away.\n",
+        )
+        errors, _ = self.audit()
+        self.assertTrue(any("POINTER" in e for e in errors), errors)
+
+    def test_grade_level_rises_with_harder_prose(self):
+        easy = wp.grade_level("The dog ran. The cat sat. He went home.")
+        hard = wp.grade_level(
+            "The epistemological ramifications of institutional intransigence "
+            "necessitate a reconsideration of methodological presuppositions "
+            "underlying contemporary interpretative frameworks."
+        )
+        self.assertLess(easy, hard)
+        self.assertLess(easy, 8)
+
+
 class TestWiredIntoTheChain(unittest.TestCase):
     """The gate is only a gate if the pre-commit chain actually runs it."""
 
@@ -268,6 +374,13 @@ class TestWiredIntoTheChain(unittest.TestCase):
         block = re.search(r"^GATE = \[(.*?)^\]", source, re.S | re.M)
         self.assertIsNotNone(block, "GATE table not found in bin/wiki-check")
         self.assertIn("wiki-plain", block.group(1))
+
+    def test_wiki_check_gates_on_the_audit_too(self):
+        # A slop twin has to block a commit, not merely print a warning.
+        with open(os.path.join(ROOT, "bin", "wiki-check"), encoding="utf-8") as fh:
+            source = fh.read()
+        block = re.search(r"^GATE = \[(.*?)^\]", source, re.S | re.M)
+        self.assertIn('"audit"', block.group(1))
 
     def test_the_dispatch_watches_the_plain_tree(self):
         # A merged translation that does not wake the portal waits an hour,

@@ -70,6 +70,12 @@ GATE = [
     # same failure class as a stale premise, one layer down, so it gates in the
     # same place. Missing twins are campaign work and never fail this.
     (["wiki-plain", "check"], "Reader's Digest twins current and permitted", False),
+    # The anti-slop referee. It gates rather than advises because this layer is
+    # the one a careless writer can degrade invisibly — a slop twin reads fine,
+    # cites nothing, and is served to the reader least able to catch it. Every
+    # rule it applies is arithmetic over the twin and its page, so there is
+    # nothing here for a writer to talk its way past.
+    (["wiki-plain", "audit"], "Reader's Digest twins carry the page's evidence", False),
     (["wiki-freshness"], "generated corpus in step with wiki/", False),
 ]
 SCAN = [
