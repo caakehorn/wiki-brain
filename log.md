@@ -1,3 +1,44 @@
+## [2026-08-29] gate | meta | the moratorium guard caught a real violation on `main`, made by a careful writer
+
+**What happened.** A Reader's Digest twin of `wiki/mind/synthesis/totality-themes`
+was written and merged to `main` (commit `61319cb`). The source page names the
+person under the standing directive **19 times**, against a threshold of two.
+`bin/wiki-plain check` on `main` was red from that merge until this branch.
+
+**The instructive part is the commit message, not the mistake.** It reads:
+
+> The moratorium is mechanically satisfied: zero mentions of the protected person.
+
+That is **rule 2 verified and rule 1 not considered** — and it was written by a
+writer doing a careful job, who checked a rule, found it satisfied, and said so.
+The twin is competent prose. It carries the page's numbers. It names nobody.
+
+Rule 1 exists for precisely this and no other case. It withholds a page
+*substantially about* her because translating one by eliding her produces a twin
+that **passes rule 2 and misrepresents the page** — a reader is handed an
+11,105-word synthesis's finding with its subject removed, which misleads more
+efficiently than an error would. The two rules are not one rule applied twice:
+the second is the guarantee, and the first is the one that stops a page being
+quietly hollowed out to satisfy it. That reasoning was already written into
+`bin/wiki-plain`'s docstring and into `CLAUDE.md`, and it still did not survive
+contact with a writer reading only the rule it happened to check.
+
+**Which is the argument for mechanical enforcement, restated by example.** The
+guard did not need anybody to remember it. It failed the commit.
+
+**Handled.** Twin removed; the page itself untouched, per "a stop, not a
+retraction and not a redaction". Declined in the open at the new `plain/DECLINED.md`
+rather than silently deleted — the same principle as a declined `sage/` question.
+The twin was also stale on arrival (written against 2026-08-21, page moved
+2026-08-28), so restoring it after any lift means re-translating, not reverting.
+
+**One defect in my own guard, found by it.** `plain/DECLINED.md` read as an
+orphaned twin, because `walk(PLAIN)` treats every `.md` under `plain/` as one.
+`plain/` now has a notion of bookkeeping files — root-level, ALL-CAPS, the same
+convention the repo root already uses to separate `CLAUDE.md` and `WORK.md` from
+content. Two tests pin it, including that a genuine orphan still fails alongside
+one.
+
 ## [2026-08-29] feature | meta | THE DOCKET — the outstanding-work record published as a room, and three parser bugs it found
 
 **Operator directive.** Crawl the corpus and find material for a new full site

@@ -21,8 +21,9 @@ Think of two directions.
 **Vertical** is anyone with authority over him. **Horizontal** — or lateral — is
 a peer, someone on his level.
 
-His personality test scores put numbers on it: Trust scores 9 out of 100.
-Altruism 1. Submissiveness 1. Assertiveness 5.
+His personality test scores put numbers on it, and they are percentile ranks —
+the lower the number, the rarer that trait is in him. Trust: 9. Altruism: 1.
+Submissiveness: 1. Assertiveness: 5.
 
 That last number is the interesting one. Low assertiveness means he isn't trying
 to climb the ladder or take it over — if he were, assertiveness would be high.
