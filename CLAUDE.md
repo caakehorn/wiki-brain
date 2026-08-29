@@ -288,6 +288,23 @@ Coverage is standing campaign work, not an obligation — a page with no twin
 serves the technical edition and says plainly that no plain version exists yet.
 Only a **broken** twin (stale, orphaned, or forbidden) is a gate failure.
 
+**The second gate: `bin/wiki-plain audit`.** `check` asks whether a twin is
+broken; `audit` asks whether it is any good, and it gates too. Fabricated
+numbers (a quantity in the twin that appears nowhere in the page — the
+load-bearing check, because a number reads as proof), leaked apparatus, filler
+phrases, a dropped falsifiers-and-gaps section, a summary masquerading as a
+translation, prose above US grade 12.5, an unfilled scaffold. Every rule is
+arithmetic over the two files, so there is nothing in it for a writer to talk
+its way past — which is the point: this is the one layer of the repository a
+careless writer can degrade without leaving a trace.
+
+**Running it unattended.** `bin/wiki-plain task` emits one page's entire writing
+task — the rules and the full source page — in a single blob, so a cheap model
+that will not remember a spec gets it re-injected every run. `PLAIN_AGENT.md` is
+the operating manual for pointing such an agent at the backlog: the loop, the
+prompt, what the referee catches, what it structurally cannot catch, and the
+spot-check that remains a human's job.
+
 ### LINT (periodic)
 
 Sweep for: broken links, orphan pages, contradictions between pages, claims superseded by newer raw data, entities mentioned 3+ times with no page, and **stale premises** (`bin/wiki-climb check`). Fix mechanically what you can; queue the rest in `BACKLOG.md`. A stale page is never fixed mechanically — re-read what changed in the premise before touching the dependent.
@@ -312,7 +329,7 @@ Sweep for: broken links, orphan pages, contradictions between pages, claims supe
 | `bin/wiki-search`, `bin/wiki-status`, `bin/wiki-tui` | search, status, terminal browser |
 | `bin/ingest-pack` / `bin/ingest-apply` | the any-LLM paste-box route (`INGEST_PROTOCOL.md`) |
 | `bin/wiki-work` | **the one outstanding-work list, and a required session step.** Aggregates every source of outstanding work — parked `sage/` questions, staged answers, stale premises, unnormalised portal edits, and the four standing queues — and separates obligations from campaign work. `scan` regenerates `WORK.md`; `next` names the top item and the operation that clears it; `check` prints the gate banner and always exits 0. No `done` command, by design |
-| `bin/wiki-plain` | **the READER'S DIGEST layer.** `status` (coverage), `check` (the gate — stale, orphaned or forbidden twins), `next [n] [--synthesis]` (densest untranslated), `new <slug>` (scaffold). Encodes the standing moratorium as two mechanical rules rather than leaving it to a session to remember, and **refuses** rather than warns |
+| `bin/wiki-plain` | **the READER'S DIGEST layer.** `status` (coverage), `check` (the gate — stale, orphaned or forbidden twins), `audit [slug]` (**the anti-slop referee** — fabricated numbers, leaked apparatus, filler, a dropped honest half, reading level; gates in `bin/wiki-check`), `next [n] [--synthesis]` (densest untranslated), `new <slug>` (scaffold), `task [slug]` (one page's whole writing task, rules and page included, for an unattended agent — see `PLAIN_AGENT.md`). Encodes the standing moratorium as two mechanical rules rather than leaving it to a session to remember, and **refuses** rather than warns |
 | `bin/wiki-gaps` | operator-facing: answer an open gap, or volunteer a fact the page never asked for, and stage it for the next pass. `pages [filter]` lists **every** page so any of them can take a manual addition; `list` lists only those with open items; `pending` lists what is waiting; `clear` closes the loop and marks `operator-log.md`. Reads gaps, open leads, corrections queues and "what's missing" sections alike |
 
 ## Before every commit

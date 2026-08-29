@@ -10,6 +10,7 @@ simply listed.
 
 ## 2026-08-29 — 3 pages
 
+- **Session log:** gate | meta | the moratorium guard caught a real violation on `main`, made by a careful writer
 - **Session log:** feature | meta | THE DOCKET — the outstanding-work record published as a room, and three parser bugs it found
 - **Session log:** delete | interests | 47 single-appearance concert-log artist stubs
 
