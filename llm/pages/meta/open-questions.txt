@@ -5,7 +5,7 @@ title: "Open Questions"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-08-28
+date_modified: 2026-08-29
 sources: []
 ---
 
@@ -23,8 +23,8 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 44 |
-| Open gaps | 481 |
+| Live contradictions | 41 |
+| Open gaps | 484 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
 
@@ -73,7 +73,6 @@ somewhere and has not yet found out where.
 - **[[wiki/people/ally-lubin]]** — Polyak describes himself as used and reports Ally's alarm; Ally, four months later, describes the same class of events as "weird" and characteristic rather than frightening, and does not break contact over any of it. Both accounts are first-hand, and the corpus does not contain her account of the April 18 incident itse
 - **[[wiki/people/annie-ulmer]]** — a separate account preserved in `CATO_BOOTLOADER_DANFRANK.md` tells the origin differently — Alexis, as Annie's coworker, sending Dan to buy drugs from her, with the two of them hooking up during the transaction, dated loosely to "~2014-15" rather than the corpus-anchored November 28, 2015. The dated message evidence (
 - **[[wiki/people/diane-moore]]** — Dan's 2026 recollection dates the exclusion to *"well before"* the final admission; his own 2018 messages date the operative instrument to the last week of Fran's life. Held rather than resolved: the capture may be describing a separate, earlier letter about supervised visits, and the March 29 / April 3 documents may b
-- **[[wiki/people/fran-coldren]]** — The page had carried an unresolved spread: core documents said 98, the 1920 birth year implied 97, and an operator capture called her "a 93-year-old matriarch." A dated message from **December 2017** settles it in the only way that does not depend on anyone's memory — Dan describing her, at the time, as *97*. That is c
 - **[[wiki/people/fran-coldren]]** — ancestral-dialectic offers *Fran's own great-grandmother* — "married three times under a shifting name structure" — as its archetype of "emotional dissociation via reinvention." That description fits **Fran herself** exactly: three marriages, and a name that shifted twice. Either the pattern runs in both generations, o
 - **[[wiki/people/gabe]]** — MAX_PRIME.md (a 2026-era document) refers to Gabe in the present tense as an ongoing, current fixture ("the food and the cat are always real"), which sits awkwardly against a November 2023 death. Possible explanations: the bootloader text is older than its last-edited date and was never updated after Gabe died, or the 
 - **[[wiki/people/jacob-bacharach]]** — Dan attributes the Virginia Avenue passage to ***The Bend of the World*** (2014) and cites pages 227–228. Bacharach's own February 2021 message names a different novel as the Uniontown book: *"it figures prominently in my Doorposts of Your House novel."* The reading record sides with Bacharach. Dan's Goodreads library 
@@ -82,11 +81,9 @@ somewhere and has not yet found out where.
 - **[[wiki/people/sadie-harris]]** — earlier versions of this page and the member table on fayette-return both recorded Sadie as having *died* in Hopwood on 27 November 1997. The GEDCOM records no death place at all — only the date — and lists Hopwood as the **burial** place. Her last attested residence is Brownsville in 1993. The Hopwood association is r
 - **[[wiki/people/suzanne-frank]]** — A $200 cocaine spend on 2015-12-29 is **not** established as hers, and an earlier pass wrongly recorded it as such. The record has Annie saying *"And that $200 wasn't even your own"* (23:48) and Dan answering *"It was my money"* (23:50). The two lines conflict and the corpus does not settle them. Held open rather than 
 - **[[wiki/self/concepts/chatgpt]]** — This page and claude-code make incompatible claims about where an LLM's value sits. This page treats it as residing in the model's *willingness* — a register it will speak in, a class of question it will engage — which is why a guardrail change reads here as a capability loss and why the honesty standard is encoded as 
-- **[[wiki/self/context-core]]** — fran-coldren resolved it on 2026-08-02 against a dated message in which Dan describes her, at the time, as *"a 97 year old woman with advanced dimentia"* (2017-12-29) — consistent with an August 1920 birth and an April 2018 death. The **98** in this page and in `raw/self/context-core/CONTEXT_CORE_EXPANDED.md`, and the 
 - **[[wiki/timeline/events/august-2026-morgantown-call]]** — Dan states he sent the audio to Annie's parents (three times, Aug 19 01:04–01:48) and states that he did not (twice, Aug 19 11:25 and 15:12), and the corpus contains a proven false claim of exactly this kind from the day before. No email, no bounce, no reply, and no third-party reaction appears anywhere in `raw/`. **Th
 - **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — the operator's account says Annie *"contacted her independently without me knowing and invited her back over."* The 22:56 `Shelbie Breakiron.vcf` attachment, sent by Dan to Annie, is hard to reconcile with that. The likeliest reading is that the memory compresses a night in which he supplied the means and did not expec
 - **[[wiki/timeline/events/teen-concert-years]]** — The Facebook "Concerts I've gone to" note dates HIM to **2005-11-09 at Mr. Small's**; the researched list places the Love Metal Tour at **2004-04-21, The Rock Club at Station Square**, with a separate November 2004 return. The note dates Taking Back Sunday / Angels & Airwaves to **2006-07-04 in Columbus**; the research
-- **[[wiki/timeline/events/the-fall-of-fran]]** — Both captures behind this page date the sequence to March–April **2017**, and one opens by asserting the date twice. Every independent record in the corpus dates it to **2018**, and they do not depend on each other: | Evidence | Date | What it fixes | |---|---|---| | Ancestry GEDCOM death record | 2018-04-04 | Death | 
 - **[[wiki/timeline/events/uniontown-hospital-vape-alarm]]** — fran-death-vigil, written from the Photo Thread session, has Dan blowing enormous clouds from a 110-watt SMOK **in the room** while Suz puffed her 10-watt device **in the hospital bathroom**. Both captures behind this page invert that: **Suz in the room, Dan in the bathroom.** The positions are not decorative — a bathr
 
 ## Standing predictions
@@ -195,7 +192,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/legal/2015-possession-arrest]]** — Whether the fines referenced in January and February 2016 belong to this case, to the Combos matter, or to both running concurrently is not determinable from the message record — the "combos are paid off" phrasing suggests at least some of that money was the t
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 
-### mind (151)
+### mind (150)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
 - **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
@@ -343,13 +340,12 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/the-unbroken-bond]]** — **The Jul–Oct 2013 Alexis separation is unquantified.** It is recorded as a separation within the relationship, but whether the slot was genuinely vacant for those months — which would be a ~3-month gap — has not been checked against the message record. It is 
 - **[[wiki/mind/synthesis/the-unbroken-bond]]** — **`knowledge:` inheritance.** This page synthesises `bond-switch-2015`, whose attachment-activation thesis originates partly in bootloader/AI-interpretive material. Per instrument-is-subject, the *timing* here is residue (message counts, dated events, recomput
 - **[[wiki/mind/synthesis/the-unbroken-bond]]** — **Nothing here assesses the relationships' quality or the other parties.** This page is about a structural property of Dan's life and deliberately makes no claim about whether the bonds were good, nor about the people in them.
-- **[[wiki/mind/synthesis/totality-themes]]** — The synthesis leaves specific falsifiable residue, in rough order of resolution cost:
 - **[[wiki/mind/synthesis/totality-themes]]** — **Cheap (existing data, one session each):** the per-active-day search recomputation by year (settles the "New York activates you" city-effect claim, §1); the monthly 2024 search distribution against the 177-day YouTube gap (fully closes prediction four); the 
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on the sibling exports:** the six remaining YouTube predictions, unchanged — with the note that the May-2014 account-ignition prediction now carries the alias-boundary join as an additional expected correlate (the sibling account's early content shou
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (172)
+### people (168)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — **The `known_for` line is now quoted outside the wiki, and the page owes it a harder look.** *"The six-year relationship that occupied the attachment slot without ever activating it"* was cited in a sage answer published 2026-08-21 as evidence that stability w
@@ -359,7 +355,6 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/alice]]** — 1. **Surname.** Claire's married name is nowhere in the corpus, so this page is filed under a single name. One sentence from the operator resolves Alice, Otto, Waylon and Claire together.
 - **[[wiki/people/alice]]** — 2. **Exact birth date.** Inferred as ~2019–2020 from a single retrospective remark. A birthday message would fix it.
 - **[[wiki/people/alice]]** — 3. **Whether Dan ever met her.** The record has Annie showing Alice a photograph of Milo and Alice asking *"who are you talking to?"* during a call (2024-02-23), and Dan writing *"alice wouldn't be so unfamiliar with my name that she literally can't understand
-- **[[wiki/people/ally-lubin]]** — Each of these is answerable by the operator in a paragraph.
 - **[[wiki/people/ally-lubin]]** — **Re-export both handles from `chat.db` in full.** This is the top action on this page. The August 19 inbound is missing (see the caveat above), and the chat.db extract already in `raw/` is missing all 120 messages of January 2019 — a window that overturned th
 - **[[wiki/people/ally-lubin]]** — **Where did the December 6, 2018 conversation happen?** It is the origin of the modern relationship and is in no message corpus here — the iMessage record starts eleven days later. Instagram DM, Twitter DM, or Facebook Messenger on an account not in the takeou
 - **[[wiki/people/ally-lubin]]** — **Where did Dan first encounter her, if not AbsolutePunk?** He retracted the venue on 2026-08-18 and named Twitter as a guess. Overcast Kids, the Chris Miller orbit and Polyak are the named leads.
@@ -371,7 +366,6 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/ally-lubin]]** — **What is Ally's brother's name, and does he still speak to Bob?** Dan asks both questions on August 19 at 08:12 and the answers are in the missing inbound.
 - **[[wiki/people/ally-lubin]]** — **~107 email handle messages are unaccounted for.** The wiki previously claimed 907 email messages; the corrected count is 800. The discrepancy is in the sent direction — we have 563 sent, the wiki claimed 670. The missing messages may be in an export not avai
 - **[[wiki/people/ally-lubin]]** — **Negative result, recorded:** she does not appear in `contacts.csv` with an address, in the GEDCOM, in the Twitter export, or in the Facebook search history. The Model Mayhem and "boca raton ally lubin" searches Dan describes on 2019-08-22 are from Google, wh
-- **[[wiki/people/ally-lubin-cognitive-profile]]** — Each of these is answerable by the operator in a paragraph.
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **What was her state when she took it?** The 92% Turbulent is the load-bearing figure and neuroticism instruments are state-sensitive. A test taken inside a bad week and one taken inside a good month are different data.
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **Did she report the result herself, or was it forwarded?** The visible page is the results email, which implies she had the account. The 2026-08-27 operator answer confirms the result is hers but says nothing about how the screenshot reached Dan, so this stay
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **When, exactly?** "Recent" is now the whole of the answer, and no date is recoverable from the artifact — the screenshot destroyed the EXIF. It matters for the bullet above it: a Turbulent score is only interpretable against the week it was taken.
@@ -501,7 +495,6 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/sadie-harris]]** — **Arrival date unknown.** Nothing on disk dates either her emigration from Austria or the couple's move from New York City to Fayette County; the 1915 Bronx and 1920 Brownsville records only bracket it.
 - **[[wiki/people/sadie-harris]]** — **Nothing personal survives.** This page is entirely residue — census rows, directory listings, a burial record. No letters, photographs, anecdotes or family stories about her appear anywhere in the corpus, which is itself worth recording: the line's matriarch
 - **[[wiki/people/slim]]** — Identity entirely unresolved. The nickname and the NYC summer-2019 timing could place this in any number of social, recreational, or transactional contexts. No Facebook or other corpus cross-references found.
-- **[[wiki/people/suzanne-frank]]** — Each of these is answerable by one person in one paragraph.
 - **[[wiki/people/suzanne-frank]]** — **Her account of the 2005 rupture.** Still entirely Dan-side. The contemporaneous record begins in 2015, ten years after.
 - **[[wiki/people/suzanne-frank]]** — **Did the 11 August 2026 eviction hold?** Where is Dan living now, and is the 463 Morgantown arrangement still active for either of them?
 - **[[wiki/people/suzanne-frank]]** — **What happened to the $14,000?** Was any of the remaining ~$10,000 ever repaid, in cash or in kind, after July 2019?
@@ -518,7 +511,6 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/zach-clabaugh]]** — Relationship and context unresolved. The professional email domain and collaborative message tone suggest a work or project connection rather than a purely social one. No Facebook or other corpus cross-references found.
 - **[[wiki/people/zach-clingan]]** — The surname identification rests on the contact-export chain above rather than on any message in which he is named alongside the 843 number; a single message addressing him by name would close it, and none exists. What he did outside the caddie yard is unrecor
 - **[[wiki/people/zach-hendricks]]** — Relationship to Dan unresolved. The casual nickname and Fayette County location suggest a Uniontown social-circle friend. No Facebook or other corpus cross-references found.
-- **[[wiki/people/zaco]]** — Each answerable by the operator in a paragraph.
 - **[[wiki/people/zaco]]** — **Who is Zaco?** The name is self-given in a single SMS and appears nowhere else in the corpus — not in contacts, the Facebook archive, or any other thread. A real name would let this page be checked against the rest of the Uniontown network.
 - **[[wiki/people/zaco]]** — **What is "Tex"?** Advertised repeatedly alongside strips and never explained.
 - **[[wiki/people/zaco]]** — **Did the November 26 purchase ever happen?** The thread ends with Dan unable to travel. Nothing later in the corpus refers to him.
@@ -585,10 +577,9 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/message-corpora/source-coverage-index]]** — Row counts are physical records, not unique messages; the same message appears in many files and this index deliberately does not deduplicate.
 - **[[wiki/self/tattoos]]** — The gravestone piece now has an artist and location (Ian Weidrick, Allied Tattoo, Brooklyn) but still no date or corroborating message-corpus trace. Body placement is unknown for every piece on this list; the corpus documents *what* and often *when* and *who d
 
-### timeline (73)
+### timeline (81)
 
 - **[[wiki/timeline/2015-annie-read-wiki-impact-analysis]]** — These are the standing wiki claims the read contradicts or sharpens. **None have been applied.**
-- **[[wiki/timeline/annie-read-notes]]** — Chaseable questions this read raised. Each is a specific thing to look for, not a topic.
 - **[[wiki/timeline/annie-read-notes]]** — 2. **The "Casey saga," Nov 30, 23:00** — *"the worst part of the Casey saga / It is bombastic"* — moves to a phone call and is never restated in text. Look: Dec 1–3 for a retelling, and Casey's own channel.
 - **[[wiki/timeline/annie-read-notes]]** — 3. **The missing laptop (Nov 30)** — disappears during Alexis's move-out; Harshman reports Dan *"shouldn't worry"* about it. Resolution unrecorded.
 - **[[wiki/timeline/annie-read-notes]]** — 4. **Dan's "love letters" are sent to an inbox, not by text** (Nov 30, 06:51 / 13:20 — Annie initially cannot find them, Dan resends). **There is an email channel carrying the most deliberate writing of the relationship's first week, and none of it is in the m
@@ -604,18 +595,27 @@ new knowledge available, because no new source is required.
 - **[[wiki/timeline/annie-read-notes]]** — 14. **Who is "j"?** (Dec 29, 17:43; Jan 4, 18:22 — The needle/ice incident. Annie says "j" got her started on drugs and "the one who had to do brown." Not in any contact list.
 - **[[wiki/timeline/annie-read-notes]]** — 15. **Who is Lukyan?** (Dec 30, 01:29 — Drops off "greens" for the "stay away from coca" plan. Not in any contact list.
 - **[[wiki/timeline/annie-read-notes]]** — 16. **Who is Gina?** (Jan 1, 17:30 — Sends Annie a friend request. Annie is annoyed.
-- **[[wiki/timeline/annie-read-notes]]** — Wiki claims this read contradicts or sharpens. Not yet applied except where noted.
-- **[[wiki/timeline/annie-read-notes]]** — | Page | Standing claim | What the read shows | |---|---|---| | `mind/synthesis/bond-switch-2015` | the switch is Dan leaving Alexis for an unattached Annie | **Annie had her own partner and ended it in the same week.** The switch was mutual. **Not yet applied
+- **[[wiki/timeline/annie-read-notes]]** — `people/annie-ulmer` · *"I met someone that instantly changed my life"* quoted without address · said **to Annie**, 2015-11-29 03:28, an hour after the meeting
+- **[[wiki/timeline/annie-read-notes]]** — `timeline/periods/2015-2016-...` · *"YOU ARE MY EVERYTHING"* on "day two/three" · 2015-11-29 **03:24**, hours after the first in-person meeting
+- **[[wiki/timeline/annie-read-notes]]** — `people/casey-bondarenka` · (check) longstanding friend · *"just started hanging out with us last week"* — joins ~3rd week Nov 2015
+- **[[wiki/timeline/annie-read-notes]]** — `people/suzanne-frank` · supportive maternal figure, financier · on 11-29/11-30 she supplies cocaine and offers a car **conditional on evicting Alexis**
+- **[[wiki/timeline/annie-read-notes]]** — `mind/synthesis/supply-network` · supply as a binding mechanism, documented late · Dan names it in real time on 2015-11-29 about **Alexis** (*"she doesn't have another drug source"*)
+- **[[wiki/timeline/annie-read-notes]]** — `people/claire-ulmer` · (check) sister · **active participant in the Dec 2 confrontation** — jumps on Annie when Ellen finds out; Emilio texts her as his channel to the family
+- **[[wiki/timeline/annie-read-notes]]** — `people/rick-frank` · (check) father · **intervenes in the Dec 2 crisis** — *"Call me tomorrow. I will help you fix this"*; knows Annie's dad; positioned as the family mediator
+- **[[wiki/timeline/annie-read-notes]]** — `people/zachariah-harshman` · (check) cover story for the first night · **active threat post-breakup** — texts Annie "I have to talk to you" on Dec 9; tells her she looks like shit; the "cover story" reading is incomplete
+- **[[wiki/timeline/annie-read-notes]]** — `wiki/places/155-virginia-ave` · Dan's house · **the Annie box exists** — a box of mementos (notes, pen straws, snowflakes) from the first week, referenced on Dec 3 and Dec 10
+- **[[wiki/timeline/annie-read-notes]]** — `people/jill` · (check) friend · **Annie's closest friend** — referenced repeatedly; her birthday is Dec 8; her boyfriend is invited to the NYE party
 - **[[wiki/timeline/annie-read-notes]]** — 1. **What did Alexis ask Dan for on Dec 13?** Annie says "I can't believe she asked you that last night" — the content is never stated. Worth a targeted read of the Alexis export around Dec 12-13.
 - **[[wiki/timeline/annie-read-notes]]** — 2. **Who is "Lukeyan"?** Dan debriefed him at 3:43am on Dec 15. Not in any existing contact list. Identity question.
 - **[[wiki/timeline/annie-read-notes]]** — 3. **What is Annie'scam history?** She references "doing all the shit I did before" (Dec 13, 11:13) and "I wouldn't go as far as I did before" — this predates the MyFreeCams history on her wiki page.
 - **[[wiki/timeline/annie-read-notes]]** — 4. **Did Annie take a pregnancy test?** The Dec 16 scare is unresolved in this window. The next export (Dec 17+) should address it.
-- **[[wiki/timeline/annie-read-notes]]** — | Page | Standing claim | What the read shows | Applied? | |---|---|---|---| | Annie Ulmer | Pre-Dan nude leak from MyFreeCams | Dec 13, 11:11: Annie references "doing all the shit I did before" — this predates the MyFreeCams history and is a distinct earlier 
+- **[[wiki/timeline/annie-read-notes]]** — Annie Ulmer · Pre-Dan nude leak from MyFreeCams · Dec 13, 11:11: Annie references "doing all the shit I did before" — this predates the MyFreeCams history and is a distinct earlier episode. The MyFreeCams history on her page may be a later development, not the
 - **[[wiki/timeline/annie-read-notes]]** — 1. **Who is Lukyan?** He drops off marijuana for the "stay away from coca" plan. Not in any existing contact list. Identity question.
 - **[[wiki/timeline/annie-read-notes]]** — 2. **What happened at j's?** Annie references "one of the last times I was over at j's" — a needle/ice incident. Who is j?
 - **[[wiki/timeline/annie-read-notes]]** — 3. **Did Annie take a pregnancy test?** The Dec 16 scare is unresolved. The next export (Jan 1+) should address it.
 - **[[wiki/timeline/annie-read-notes]]** — 4. **What happened with the CT's job?** Annie was told she'd be bartending NYE but was forced to serve. She's furious. Next shift unknown.
-- **[[wiki/timeline/annie-read-notes]]** — | Page | Standing claim | What the read shows | Applied? | |---|---|---|---| | Annie Ulmer | Pre-Dan nude leak from MyFreeCams | Dec 29, 17:43: Annie references a needle/ice incident at "j's" — this predates the MyFreeCams history and is a distinct earlier epi
+- **[[wiki/timeline/annie-read-notes]]** — Annie Ulmer · Pre-Dan nude leak from MyFreeCams · Dec 29, 17:43: Annie references a needle/ice incident at "j's" — this predates the MyFreeCams history and is a distinct earlier episode. The MyFreeCams history on her page may be a later development, not the fi
+- **[[wiki/timeline/annie-read-notes]]** — Bond Switch 2015 · Annie was unattached · Dec 29, 17:43: Annie references "one of the last times I was over at j's" — she had her own life/partners. Consistent with the "Annie was leaving someone too" finding from Nov 29. · queued
 - **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — Whether the Nov 4 evening's planned repeat happened as planned, distinct from the confirmed Nov 5 birthday-night event, is not fully disambiguated
 - **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — Whether any footage from the "hidden camera" request was actually taken, and if so what became of it, is undocumented
 - **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — How many total times Alexis and Annie were together beyond the specifically dated messages is unknown

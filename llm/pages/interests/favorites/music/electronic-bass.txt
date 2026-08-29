@@ -5,6 +5,10 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-07-14
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
+synthesizes:
+  - wiki/interests/music/concepts/sub-bass-signature
+  - wiki/interests/music/concepts/lyrics-as-timbre
+  - wiki/interests/music/aliases/gripnotic
 related:
   - wiki/interests/favorites/music
   - wiki/interests/favorites/music/artists/lyny

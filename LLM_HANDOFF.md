@@ -4,6 +4,63 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-29] - Session: THE DOCKET — the outstanding-work record published as a site section
+
+* **Model:** Claude Code (remote) · **Branches:** `claude/wiki-brain-corpus-research-eac3wi` in **both** repos.
+* **Trigger:** operator asked for a corpus crawl to find material for a new FULL SITE SECTION in the portal, then to build it — visually and interactively substantial.
+
+**What exists now.** `/docket` in the portal (未決), a nine-page room built from
+`public/wiki/` by `npm run docket` (`scripts/build-docket.mjs` →
+`public/docket/docket.json`), wired into the sync workflow. Four benches over
+1,036 items: **THE COLLISIONS** (41 held contradictions, as a graph),
+**THE FIELD** (484 gaps, as a tally wall), **THE BOARD** (68 predictions, as a
+departures board), **THE RULINGS** (443 dated verdicts, per-day stacked). Full
+account in `log.md` and in the portal `README.md` under "The docket".
+
+**Read these before touching it:**
+
+1. **The room decides nothing, and that is the design.** It does not resolve a
+   collision, rank a gap or score a prediction. Every item is a span of prose
+   this repository wrote about itself, lifted whole and attributed. The one
+   place a judgement could enter is which blocks count as settled, and that is
+   not the build's opinion — `CLOSED`/`RESOLVED`/`SETTLED` are the marks
+   `bin/wiki-digest` already filters on.
+2. **Three parsers read the gaps sections and they have to agree** — this file's
+   `gap_items()`, `bin/wiki-gaps`, and the portal's `sync-wiki.mjs`. They were
+   out of step by four items in both directions and are now all at 484. The tool
+   finds a gap on the page by *matching the text* `OPEN.md` publishes, so a
+   split that diverges is a gap the operator cannot answer from the browser.
+   If you touch one, touch all three and re-diff them.
+3. **`docket.json` takes its `generatedAt` from the snapshot, never the clock.**
+   It is committed and the sync workflow rebuilds it hourly; a wall-clock stamp
+   would commit a one-line diff every hour. Keep it keyed off `index.generatedAt`.
+4. **The three `wiki/meta/` mirrors are skipped by slug** in the docket build.
+   They republish the very lists it is built from; reading them counts every gap
+   twice.
+
+**Numbers that moved, and why:** live contradictions **44 → 41** (three were
+closed on their own heading and never filtered); open gaps **481 → 484** (the
+preamble and corrections-table guards from 2026-08-17 ported into
+`bin/wiki-digest`, less one horizontal rule the portal was counting). Both are
+corrections to reporting, not to the corpus.
+
+**Two red gates on `main` were fixed here**, since nothing commits over them: a
+duplicate `tags:` key on `wiki/mind/synthesis/political-psyops.md`, and the
+generated corpus 51 pages behind `wiki/`.
+
+**Immediate next work, in order:**
+
+1. **The 90 stale obligations** in `WORK.md` are all inherited and none were
+   created by this pass. They are the largest standing debt in the repository
+   and `bin/wiki-work next` orders them.
+2. **Two more full-section candidates are written up in `BACKLOG.md`** from the
+   same crawl: `master-timeline.md`'s 2,842 tiered events (1796–2027, each
+   linked back to its page and section — nothing on the site reads it), and the
+   2,016-entry favourites masterlist, which is already declared over there as
+   LEVIATHAN's SEALED **THE SHELF** and so wants an instrument rather than a room.
+3. **Reader's Digest coverage** is still 3 of 302, unchanged by this session.
+4. Two PRs, one per repo, both draft, both watched.
+
 ### [2026-08-28] - Session: the READER'S DIGEST edition (`plain/`, `bin/wiki-plain`, portal EDITION switch)
 
 * **Model:** Claude Code (remote) · **Branches:** `claude/wiki-readers-digest-mode-x2wn5z` in **both** repos.

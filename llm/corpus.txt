@@ -1,5 +1,5 @@
-WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-28
-519 pages, ~1,509,725 tokens.
+WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-29
+519 pages, ~1,511,379 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -2178,6 +2178,11 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
+synthesizes:
+  - wiki/interests/favorites/eclecticism
+  - wiki/interests/favorites/taste-profile
+  - wiki/mind/synthesis/totality-themes
+  - wiki/mind/profile/index
 related: ["wiki/interests/favorites/index", "wiki/self/context-core", "wiki/self/facebook", "wiki/interests/favorites/eclecticism", "wiki/interests/favorites/taste-profile", "wiki/mind/synthesis/totality-themes", "wiki/mind/profile/index"]
 tags: [personality-profile]
 ---
@@ -2454,6 +2459,9 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-22
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
+synthesizes:
+  - wiki/interests/favorites/books
+  - wiki/self/context-core
 related: ["wiki/interests/favorites/books", "wiki/self/context-core"]
 ---
 
@@ -2474,6 +2482,9 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-22
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
+synthesizes:
+  - wiki/interests/favorites/books
+  - wiki/self/context-core
 related: ["wiki/interests/favorites/books", "wiki/self/context-core"]
 ---
 
@@ -2500,6 +2511,9 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-22
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
+synthesizes:
+  - wiki/interests/favorites/books
+  - wiki/self/context-core
 related: ["wiki/interests/favorites/books", "wiki/self/context-core"]
 ---
 
@@ -2523,6 +2537,11 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-22
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
+synthesizes:
+  - wiki/interests/favorites/books
+  - wiki/self/context-core
+  - wiki/mind/synthesis/2020-left-turn
+  - wiki/interests/roman-republic
 related: ["wiki/interests/favorites/books", "wiki/self/context-core"]
 connections:
   - page: wiki/mind/synthesis/2020-left-turn
@@ -2559,6 +2578,9 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-22
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
+synthesizes:
+  - wiki/interests/favorites/books
+  - wiki/self/context-core
 related: ["wiki/interests/favorites/books", "wiki/self/context-core"]
 tags: [politics]
 ---
@@ -2583,6 +2605,9 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-22
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
+synthesizes:
+  - wiki/interests/favorites/books
+  - wiki/self/context-core
 related: ["wiki/interests/favorites/books", "wiki/self/context-core"]
 ---
 
@@ -2605,6 +2630,11 @@ date_created: 2026-07-14
 date_modified: 2026-07-14
 sources:
   - raw/self/dox-md/DAN_COMP.md
+synthesizes:
+  - wiki/interests/favorites/books
+  - wiki/interests/favorites/books/topics/politics
+  - wiki/interests/favorites/books/topics/ancient-history
+  - wiki/self/context-core
 related:
   - wiki/interests/favorites/books
   - wiki/interests/favorites/books/topics/politics
@@ -2829,6 +2859,11 @@ date_modified: 2026-08-19
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv", "raw/self/dox-md/FAVORITES DATA (2).md", "raw/self/google-drive-export/goodreads_library_export.md"]
 related: ["wiki/interests/favorites/index", "wiki/self/context-core", "wiki/self/overview", "wiki/self/facebook", "wiki/interests/favorites/eclecticism", "wiki/interests/favorites/taste-profile", "wiki/mind/synthesis/totality-themes", "wiki/timeline/events/timeline", "wiki/interests/favorites/books/want-to-read"]
 tags: [politics, personality-profile, ai-collaboration]
+synthesizes:
+  - wiki/mind/synthesis/totality-themes
+  - wiki/mind/synthesis/closing-the-set
+  - wiki/interests/favorites/eclecticism
+  - wiki/interests/favorites/books/want-to-read
 connections:
   - page: wiki/mind/synthesis/closing-the-set
     type: contradicts
@@ -3012,6 +3047,10 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
+synthesizes:
+  - wiki/interests/favorites/music
+  - wiki/interests/favorites/books
+  - wiki/mind/synthesis/totality-themes
 related: ["wiki/interests/favorites/index", "wiki/self/context-core", "wiki/self/facebook", "wiki/interests/favorites/music", "wiki/interests/favorites/books", "wiki/mind/synthesis/totality-themes"]
 ---
 
@@ -7110,6 +7149,10 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-07-14
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
+synthesizes:
+  - wiki/interests/music/concepts/sub-bass-signature
+  - wiki/interests/music/concepts/lyrics-as-timbre
+  - wiki/interests/music/aliases/gripnotic
 related:
   - wiki/interests/favorites/music
   - wiki/interests/favorites/music/artists/lyny
@@ -7199,6 +7242,13 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-07-14
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
+synthesizes:
+  - wiki/interests/music/concepts/sub-bass-signature
+  - wiki/interests/music/concepts/lyrics-as-timbre
+  - wiki/interests/music/overview
+  - wiki/interests/favorites/eclecticism
+  - wiki/interests/favorites/taste-profile
+  - wiki/mind/synthesis/totality-themes
 related: ["wiki/interests/favorites/index", "wiki/self/context-core", "wiki/interests/music/index", "wiki/interests/music/concepts/sub-bass-signature", "wiki/interests/music/concepts/lyrics-as-timbre", "wiki/self/facebook", "wiki/interests/favorites/eclecticism", "wiki/interests/favorites/taste-profile", "wiki/mind/synthesis/totality-themes", "wiki/timeline/periods/2025-collapse", "wiki/timeline/periods/dec-2025-spike"]
 tags: [music-production]
 ---
@@ -7369,6 +7419,10 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
+synthesizes:
+  - wiki/interests/music/concepts/sub-bass-signature
+  - wiki/interests/favorites/eclecticism
+  - wiki/mind/synthesis/totality-themes
 related: ["wiki/interests/favorites/index", "wiki/self/context-core", "wiki/self/overview", "wiki/self/facebook", "wiki/interests/favorites/eclecticism", "wiki/mind/synthesis/totality-themes", "wiki/interests/music/concepts/sub-bass-signature"]
 tags: [personality-profile]
 ---
@@ -10887,7 +10941,7 @@ title: "Wiki Digest"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-08-28
+date_modified: 2026-08-29
 sources: []
 ---
 
@@ -10904,10 +10958,10 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 519 |
-| Pages touched in the last 14 days | 196 |
-| Pages reasoning from other pages (`synthesizes:`) | 48 |
-| Live contradictions | 44 |
-| Open gaps | 481 |
+| Pages touched in the last 14 days | 194 |
+| Pages reasoning from other pages (`synthesizes:`) | 79 |
+| Live contradictions | 41 |
+| Open gaps | 484 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -10937,7 +10991,10 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-28** — 42 pages
+**2026-08-29** — 3 pages
+  - feature | meta | THE DOCKET — the outstanding-work record published as a room, and three parser bugs it found
+
+**2026-08-28** — 39 pages
   - feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch
   - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
@@ -10998,18 +11055,6 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - close | people | Libby is Libby Titus, she died in October 2024, and the corpus had her married name all along
   - report | mind | texting deviance audit — the operator's model of his own texting was two-thirds wrong
 
-**2026-08-22** — 4 pages
-  - answer | mind | what would make Dan happy — he answered it himself in 2025, and the record has already run the experiment
-  - fix | people | a fourth portal incident, a duplicated H1 on annie-ulmer, and the freshness gate red on main
-  - fix | people | the stale-snapshot clobber recurred on ally-lubin, six hours after the last one
-  - meta | style | the blanket no-photographs rule is removed from STYLE_GUIDE
-  - fix | people | a portal save put stray keystrokes into ally-lubin and turned the connect gate red on main
-  - ingest | legal | the hospital-smoking summons — the charging documents were real, and they moved an address
-  - ingest | people | 16Personalities result — Ally Lubin (ENTP-T)
-  - lint | people | the same red gate was found twice, independently, inside twenty minutes
-  - climb | mind | three entries, and two of them answer a different question than the one asked
-  - close | mind | two staged sage findings integrated on the pages this pass was already holding open
-
 ## Pages that reason from other pages
 
 The altitude of the wiki — everything here was built on top of something
@@ -11018,15 +11063,32 @@ have moved since.
 
 - [[wiki/health/cocaine]] — 15 premises
 - [[wiki/health/the-configured-body]] — 8 premises
+- [[wiki/interests/favorites/art-and-movies]] — 4 premises
+- [[wiki/interests/favorites/books]] — 4 premises
+- [[wiki/interests/favorites/books/topics/ancient-history]] — 2 premises
+- [[wiki/interests/favorites/books/topics/history]] — 2 premises
+- [[wiki/interests/favorites/books/topics/journalism]] — 2 premises
+- [[wiki/interests/favorites/books/topics/politics]] — 4 premises
+- [[wiki/interests/favorites/books/topics/trump]] — 2 premises
+- [[wiki/interests/favorites/books/topics/war]] — 2 premises
+- [[wiki/interests/favorites/books/want-to-read]] — 4 premises
+- [[wiki/interests/favorites/eclecticism]] — 3 premises
+- [[wiki/interests/favorites/music]] — 6 premises
+- [[wiki/interests/favorites/music/electronic-bass]] — 3 premises
+- [[wiki/interests/favorites/taste-profile]] — 3 premises
 - [[wiki/interests/food-and-diet]] — 11 premises
 - [[wiki/mind/concepts/chaos-preference]] — 2 premises
 - [[wiki/mind/concepts/the-cool-metric]] — 3 premises
 - [[wiki/mind/politics/axioms]] — 5 premises
+- [[wiki/mind/synthesis/2020-left-turn]] — 7 premises
+- [[wiki/mind/synthesis/ai-collaborative-analysis]] — 4 premises
 - [[wiki/mind/synthesis/alias-as-periodization]] — 6 premises
+- [[wiki/mind/synthesis/ancestral-dialectic]] — 8 premises
 - [[wiki/mind/synthesis/annual-volume-suz]] — 1 premise
 - [[wiki/mind/synthesis/attachment-trauma-bond]] — 9 premises
 - [[wiki/mind/synthesis/august-grievance-verdict]] — 9 premises
 - [[wiki/mind/synthesis/block-unblock-loop]] — 12 premises
+- [[wiki/mind/synthesis/bond-switch-2015]] — 5 premises
 - [[wiki/mind/synthesis/closing-the-set]] — 9 premises
 - [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — 11 premises
 - [[wiki/mind/synthesis/dormancy-not-exit]] — 10 premises
@@ -11034,11 +11096,18 @@ have moved since.
 - [[wiki/mind/synthesis/failure-to-launch]] — 17 premises
 - [[wiki/mind/synthesis/fayette-return]] — 8 premises
 - [[wiki/mind/synthesis/instrument-is-subject]] — 5 premises
+- [[wiki/mind/synthesis/intake-constancy]] — 5 premises
+- [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] — 4 premises
+- [[wiki/mind/synthesis/interests-as-era-markers]] — 5 premises
+- [[wiki/mind/synthesis/message-circadian-latency]] — 5 premises
+- [[wiki/mind/synthesis/millennial-digital-witness]] — 5 premises
 - [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] — 7 premises
-- [[wiki/mind/synthesis/music-as-identity]] — 4 premises
+- [[wiki/mind/synthesis/music-as-identity]] — 6 premises
 - [[wiki/mind/synthesis/no-platonic-channel]] — 9 premises
+- [[wiki/mind/synthesis/political-psyops]] — 6 premises
 - [[wiki/mind/synthesis/read-receipt-forensics]] — 3 premises
 - [[wiki/mind/synthesis/single-channel]] — 8 premises
+- [[wiki/mind/synthesis/spatial-behavior]] — 4 premises
 - [[wiki/mind/synthesis/supply-network]] — 11 premises
 - [[wiki/mind/synthesis/the-binary-verdict]] — 14 premises
 - [[wiki/mind/synthesis/the-cato-seat]] — 9 premises
@@ -11049,6 +11118,7 @@ have moved since.
 - [[wiki/mind/synthesis/the-serial-monogamist]] — 8 premises
 - [[wiki/mind/synthesis/the-unbroken-bond]] — 5 premises
 - [[wiki/mind/synthesis/totality-themes]] — 28 premises
+- [[wiki/mind/synthesis/vertical-authority-skepticism]] — 19 premises
 - [[wiki/people/alexander-jackson]] — 1 premise
 - [[wiki/people/ally-lubin-cognitive-profile]] — 4 premises
 - [[wiki/people/annie-ulmer-personality-assessment]] — 1 premise
@@ -11062,6 +11132,12 @@ have moved since.
 - [[wiki/self/concepts/ally-and-dan-love-as-destiny]] — 1 premise
 - [[wiki/self/concepts/astrology-star-signs]] — 1 premise
 - [[wiki/self/concepts/wiki-brain]] — 2 premises
+- [[wiki/self/context-core]] — 9 premises
+- [[wiki/self/favorites]] — 3 premises
+- [[wiki/self/lineage/hybrid-analysis]] — 4 premises
+- [[wiki/self/location-history]] — 6 premises
+- [[wiki/self/twitter]] — 3 premises
+- [[wiki/self/youtube-watch-history]] — 10 premises
 - [[wiki/timeline/periods/2020-2021-market-era]] — 1 premise
 - [[wiki/work/fastly-fsly]] — 2 premises
 
@@ -11493,7 +11569,7 @@ title: "Open Questions"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-08-28
+date_modified: 2026-08-29
 sources: []
 ---
 
@@ -11511,8 +11587,8 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 44 |
-| Open gaps | 481 |
+| Live contradictions | 41 |
+| Open gaps | 484 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
 
@@ -11561,7 +11637,6 @@ somewhere and has not yet found out where.
 - **[[wiki/people/ally-lubin]]** — Polyak describes himself as used and reports Ally's alarm; Ally, four months later, describes the same class of events as "weird" and characteristic rather than frightening, and does not break contact over any of it. Both accounts are first-hand, and the corpus does not contain her account of the April 18 incident itse
 - **[[wiki/people/annie-ulmer]]** — a separate account preserved in `CATO_BOOTLOADER_DANFRANK.md` tells the origin differently — Alexis, as Annie's coworker, sending Dan to buy drugs from her, with the two of them hooking up during the transaction, dated loosely to "~2014-15" rather than the corpus-anchored November 28, 2015. The dated message evidence (
 - **[[wiki/people/diane-moore]]** — Dan's 2026 recollection dates the exclusion to *"well before"* the final admission; his own 2018 messages date the operative instrument to the last week of Fran's life. Held rather than resolved: the capture may be describing a separate, earlier letter about supervised visits, and the March 29 / April 3 documents may b
-- **[[wiki/people/fran-coldren]]** — The page had carried an unresolved spread: core documents said 98, the 1920 birth year implied 97, and an operator capture called her "a 93-year-old matriarch." A dated message from **December 2017** settles it in the only way that does not depend on anyone's memory — Dan describing her, at the time, as *97*. That is c
 - **[[wiki/people/fran-coldren]]** — ancestral-dialectic offers *Fran's own great-grandmother* — "married three times under a shifting name structure" — as its archetype of "emotional dissociation via reinvention." That description fits **Fran herself** exactly: three marriages, and a name that shifted twice. Either the pattern runs in both generations, o
 - **[[wiki/people/gabe]]** — MAX_PRIME.md (a 2026-era document) refers to Gabe in the present tense as an ongoing, current fixture ("the food and the cat are always real"), which sits awkwardly against a November 2023 death. Possible explanations: the bootloader text is older than its last-edited date and was never updated after Gabe died, or the 
 - **[[wiki/people/jacob-bacharach]]** — Dan attributes the Virginia Avenue passage to ***The Bend of the World*** (2014) and cites pages 227–228. Bacharach's own February 2021 message names a different novel as the Uniontown book: *"it figures prominently in my Doorposts of Your House novel."* The reading record sides with Bacharach. Dan's Goodreads library 
@@ -11570,11 +11645,9 @@ somewhere and has not yet found out where.
 - **[[wiki/people/sadie-harris]]** — earlier versions of this page and the member table on fayette-return both recorded Sadie as having *died* in Hopwood on 27 November 1997. The GEDCOM records no death place at all — only the date — and lists Hopwood as the **burial** place. Her last attested residence is Brownsville in 1993. The Hopwood association is r
 - **[[wiki/people/suzanne-frank]]** — A $200 cocaine spend on 2015-12-29 is **not** established as hers, and an earlier pass wrongly recorded it as such. The record has Annie saying *"And that $200 wasn't even your own"* (23:48) and Dan answering *"It was my money"* (23:50). The two lines conflict and the corpus does not settle them. Held open rather than 
 - **[[wiki/self/concepts/chatgpt]]** — This page and claude-code make incompatible claims about where an LLM's value sits. This page treats it as residing in the model's *willingness* — a register it will speak in, a class of question it will engage — which is why a guardrail change reads here as a capability loss and why the honesty standard is encoded as 
-- **[[wiki/self/context-core]]** — fran-coldren resolved it on 2026-08-02 against a dated message in which Dan describes her, at the time, as *"a 97 year old woman with advanced dimentia"* (2017-12-29) — consistent with an August 1920 birth and an April 2018 death. The **98** in this page and in `raw/self/context-core/CONTEXT_CORE_EXPANDED.md`, and the 
 - **[[wiki/timeline/events/august-2026-morgantown-call]]** — Dan states he sent the audio to Annie's parents (three times, Aug 19 01:04–01:48) and states that he did not (twice, Aug 19 11:25 and 15:12), and the corpus contains a proven false claim of exactly this kind from the day before. No email, no bounce, no reply, and no third-party reaction appears anywhere in `raw/`. **Th
 - **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — the operator's account says Annie *"contacted her independently without me knowing and invited her back over."* The 22:56 `Shelbie Breakiron.vcf` attachment, sent by Dan to Annie, is hard to reconcile with that. The likeliest reading is that the memory compresses a night in which he supplied the means and did not expec
 - **[[wiki/timeline/events/teen-concert-years]]** — The Facebook "Concerts I've gone to" note dates HIM to **2005-11-09 at Mr. Small's**; the researched list places the Love Metal Tour at **2004-04-21, The Rock Club at Station Square**, with a separate November 2004 return. The note dates Taking Back Sunday / Angels & Airwaves to **2006-07-04 in Columbus**; the research
-- **[[wiki/timeline/events/the-fall-of-fran]]** — Both captures behind this page date the sequence to March–April **2017**, and one opens by asserting the date twice. Every independent record in the corpus dates it to **2018**, and they do not depend on each other: | Evidence | Date | What it fixes | |---|---|---| | Ancestry GEDCOM death record | 2018-04-04 | Death | 
 - **[[wiki/timeline/events/uniontown-hospital-vape-alarm]]** — fran-death-vigil, written from the Photo Thread session, has Dan blowing enormous clouds from a 110-watt SMOK **in the room** while Suz puffed her 10-watt device **in the hospital bathroom**. Both captures behind this page invert that: **Suz in the room, Dan in the bathroom.** The positions are not decorative — a bathr
 
 ## Standing predictions
@@ -11683,7 +11756,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/legal/2015-possession-arrest]]** — Whether the fines referenced in January and February 2016 belong to this case, to the Combos matter, or to both running concurrently is not determinable from the message record — the "combos are paid off" phrasing suggests at least some of that money was the t
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 
-### mind (151)
+### mind (150)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
 - **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
@@ -11831,13 +11904,12 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/the-unbroken-bond]]** — **The Jul–Oct 2013 Alexis separation is unquantified.** It is recorded as a separation within the relationship, but whether the slot was genuinely vacant for those months — which would be a ~3-month gap — has not been checked against the message record. It is 
 - **[[wiki/mind/synthesis/the-unbroken-bond]]** — **`knowledge:` inheritance.** This page synthesises `bond-switch-2015`, whose attachment-activation thesis originates partly in bootloader/AI-interpretive material. Per instrument-is-subject, the *timing* here is residue (message counts, dated events, recomput
 - **[[wiki/mind/synthesis/the-unbroken-bond]]** — **Nothing here assesses the relationships' quality or the other parties.** This page is about a structural property of Dan's life and deliberately makes no claim about whether the bonds were good, nor about the people in them.
-- **[[wiki/mind/synthesis/totality-themes]]** — The synthesis leaves specific falsifiable residue, in rough order of resolution cost:
 - **[[wiki/mind/synthesis/totality-themes]]** — **Cheap (existing data, one session each):** the per-active-day search recomputation by year (settles the "New York activates you" city-effect claim, §1); the monthly 2024 search distribution against the 177-day YouTube gap (fully closes prediction four); the 
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on the sibling exports:** the six remaining YouTube predictions, unchanged — with the note that the May-2014 account-ignition prediction now carries the alias-boundary join as an additional expected correlate (the sibling account's early content shou
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
 
-### people (172)
+### people (168)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — **The `known_for` line is now quoted outside the wiki, and the page owes it a harder look.** *"The six-year relationship that occupied the attachment slot without ever activating it"* was cited in a sage answer published 2026-08-21 as evidence that stability w
@@ -11847,7 +11919,6 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/alice]]** — 1. **Surname.** Claire's married name is nowhere in the corpus, so this page is filed under a single name. One sentence from the operator resolves Alice, Otto, Waylon and Claire together.
 - **[[wiki/people/alice]]** — 2. **Exact birth date.** Inferred as ~2019–2020 from a single retrospective remark. A birthday message would fix it.
 - **[[wiki/people/alice]]** — 3. **Whether Dan ever met her.** The record has Annie showing Alice a photograph of Milo and Alice asking *"who are you talking to?"* during a call (2024-02-23), and Dan writing *"alice wouldn't be so unfamiliar with my name that she literally can't understand
-- **[[wiki/people/ally-lubin]]** — Each of these is answerable by the operator in a paragraph.
 - **[[wiki/people/ally-lubin]]** — **Re-export both handles from `chat.db` in full.** This is the top action on this page. The August 19 inbound is missing (see the caveat above), and the chat.db extract already in `raw/` is missing all 120 messages of January 2019 — a window that overturned th
 - **[[wiki/people/ally-lubin]]** — **Where did the December 6, 2018 conversation happen?** It is the origin of the modern relationship and is in no message corpus here — the iMessage record starts eleven days later. Instagram DM, Twitter DM, or Facebook Messenger on an account not in the takeou
 - **[[wiki/people/ally-lubin]]** — **Where did Dan first encounter her, if not AbsolutePunk?** He retracted the venue on 2026-08-18 and named Twitter as a guess. Overcast Kids, the Chris Miller orbit and Polyak are the named leads.
@@ -11859,7 +11930,6 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/ally-lubin]]** — **What is Ally's brother's name, and does he still speak to Bob?** Dan asks both questions on August 19 at 08:12 and the answers are in the missing inbound.
 - **[[wiki/people/ally-lubin]]** — **~107 email handle messages are unaccounted for.** The wiki previously claimed 907 email messages; the corrected count is 800. The discrepancy is in the sent direction — we have 563 sent, the wiki claimed 670. The missing messages may be in an export not avai
 - **[[wiki/people/ally-lubin]]** — **Negative result, recorded:** she does not appear in `contacts.csv` with an address, in the GEDCOM, in the Twitter export, or in the Facebook search history. The Model Mayhem and "boca raton ally lubin" searches Dan describes on 2019-08-22 are from Google, wh
-- **[[wiki/people/ally-lubin-cognitive-profile]]** — Each of these is answerable by the operator in a paragraph.
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **What was her state when she took it?** The 92% Turbulent is the load-bearing figure and neuroticism instruments are state-sensitive. A test taken inside a bad week and one taken inside a good month are different data.
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **Did she report the result herself, or was it forwarded?** The visible page is the results email, which implies she had the account. The 2026-08-27 operator answer confirms the result is hers but says nothing about how the screenshot reached Dan, so this stay
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **When, exactly?** "Recent" is now the whole of the answer, and no date is recoverable from the artifact — the screenshot destroyed the EXIF. It matters for the bullet above it: a Turbulent score is only interpretable against the week it was taken.
@@ -11989,7 +12059,6 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/sadie-harris]]** — **Arrival date unknown.** Nothing on disk dates either her emigration from Austria or the couple's move from New York City to Fayette County; the 1915 Bronx and 1920 Brownsville records only bracket it.
 - **[[wiki/people/sadie-harris]]** — **Nothing personal survives.** This page is entirely residue — census rows, directory listings, a burial record. No letters, photographs, anecdotes or family stories about her appear anywhere in the corpus, which is itself worth recording: the line's matriarch
 - **[[wiki/people/slim]]** — Identity entirely unresolved. The nickname and the NYC summer-2019 timing could place this in any number of social, recreational, or transactional contexts. No Facebook or other corpus cross-references found.
-- **[[wiki/people/suzanne-frank]]** — Each of these is answerable by one person in one paragraph.
 - **[[wiki/people/suzanne-frank]]** — **Her account of the 2005 rupture.** Still entirely Dan-side. The contemporaneous record begins in 2015, ten years after.
 - **[[wiki/people/suzanne-frank]]** — **Did the 11 August 2026 eviction hold?** Where is Dan living now, and is the 463 Morgantown arrangement still active for either of them?
 - **[[wiki/people/suzanne-frank]]** — **What happened to the $14,000?** Was any of the remaining ~$10,000 ever repaid, in cash or in kind, after July 2019?
@@ -12006,7 +12075,6 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/zach-clabaugh]]** — Relationship and context unresolved. The professional email domain and collaborative message tone suggest a work or project connection rather than a purely social one. No Facebook or other corpus cross-references found.
 - **[[wiki/people/zach-clingan]]** — The surname identification rests on the contact-export chain above rather than on any message in which he is named alongside the 843 number; a single message addressing him by name would close it, and none exists. What he did outside the caddie yard is unrecor
 - **[[wiki/people/zach-hendricks]]** — Relationship to Dan unresolved. The casual nickname and Fayette County location suggest a Uniontown social-circle friend. No Facebook or other corpus cross-references found.
-- **[[wiki/people/zaco]]** — Each answerable by the operator in a paragraph.
 - **[[wiki/people/zaco]]** — **Who is Zaco?** The name is self-given in a single SMS and appears nowhere else in the corpus — not in contacts, the Facebook archive, or any other thread. A real name would let this page be checked against the rest of the Uniontown network.
 - **[[wiki/people/zaco]]** — **What is "Tex"?** Advertised repeatedly alongside strips and never explained.
 - **[[wiki/people/zaco]]** — **Did the November 26 purchase ever happen?** The thread ends with Dan unable to travel. Nothing later in the corpus refers to him.
@@ -12073,10 +12141,9 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/message-corpora/source-coverage-index]]** — Row counts are physical records, not unique messages; the same message appears in many files and this index deliberately does not deduplicate.
 - **[[wiki/self/tattoos]]** — The gravestone piece now has an artist and location (Ian Weidrick, Allied Tattoo, Brooklyn) but still no date or corroborating message-corpus trace. Body placement is unknown for every piece on this list; the corpus documents *what* and often *when* and *who d
 
-### timeline (73)
+### timeline (81)
 
 - **[[wiki/timeline/2015-annie-read-wiki-impact-analysis]]** — These are the standing wiki claims the read contradicts or sharpens. **None have been applied.**
-- **[[wiki/timeline/annie-read-notes]]** — Chaseable questions this read raised. Each is a specific thing to look for, not a topic.
 - **[[wiki/timeline/annie-read-notes]]** — 2. **The "Casey saga," Nov 30, 23:00** — *"the worst part of the Casey saga / It is bombastic"* — moves to a phone call and is never restated in text. Look: Dec 1–3 for a retelling, and Casey's own channel.
 - **[[wiki/timeline/annie-read-notes]]** — 3. **The missing laptop (Nov 30)** — disappears during Alexis's move-out; Harshman reports Dan *"shouldn't worry"* about it. Resolution unrecorded.
 - **[[wiki/timeline/annie-read-notes]]** — 4. **Dan's "love letters" are sent to an inbox, not by text** (Nov 30, 06:51 / 13:20 — Annie initially cannot find them, Dan resends). **There is an email channel carrying the most deliberate writing of the relationship's first week, and none of it is in the m
@@ -12092,18 +12159,27 @@ new knowledge available, because no new source is required.
 - **[[wiki/timeline/annie-read-notes]]** — 14. **Who is "j"?** (Dec 29, 17:43; Jan 4, 18:22 — The needle/ice incident. Annie says "j" got her started on drugs and "the one who had to do brown." Not in any contact list.
 - **[[wiki/timeline/annie-read-notes]]** — 15. **Who is Lukyan?** (Dec 30, 01:29 — Drops off "greens" for the "stay away from coca" plan. Not in any contact list.
 - **[[wiki/timeline/annie-read-notes]]** — 16. **Who is Gina?** (Jan 1, 17:30 — Sends Annie a friend request. Annie is annoyed.
-- **[[wiki/timeline/annie-read-notes]]** — Wiki claims this read contradicts or sharpens. Not yet applied except where noted.
-- **[[wiki/timeline/annie-read-notes]]** — | Page | Standing claim | What the read shows | |---|---|---| | `mind/synthesis/bond-switch-2015` | the switch is Dan leaving Alexis for an unattached Annie | **Annie had her own partner and ended it in the same week.** The switch was mutual. **Not yet applied
+- **[[wiki/timeline/annie-read-notes]]** — `people/annie-ulmer` · *"I met someone that instantly changed my life"* quoted without address · said **to Annie**, 2015-11-29 03:28, an hour after the meeting
+- **[[wiki/timeline/annie-read-notes]]** — `timeline/periods/2015-2016-...` · *"YOU ARE MY EVERYTHING"* on "day two/three" · 2015-11-29 **03:24**, hours after the first in-person meeting
+- **[[wiki/timeline/annie-read-notes]]** — `people/casey-bondarenka` · (check) longstanding friend · *"just started hanging out with us last week"* — joins ~3rd week Nov 2015
+- **[[wiki/timeline/annie-read-notes]]** — `people/suzanne-frank` · supportive maternal figure, financier · on 11-29/11-30 she supplies cocaine and offers a car **conditional on evicting Alexis**
+- **[[wiki/timeline/annie-read-notes]]** — `mind/synthesis/supply-network` · supply as a binding mechanism, documented late · Dan names it in real time on 2015-11-29 about **Alexis** (*"she doesn't have another drug source"*)
+- **[[wiki/timeline/annie-read-notes]]** — `people/claire-ulmer` · (check) sister · **active participant in the Dec 2 confrontation** — jumps on Annie when Ellen finds out; Emilio texts her as his channel to the family
+- **[[wiki/timeline/annie-read-notes]]** — `people/rick-frank` · (check) father · **intervenes in the Dec 2 crisis** — *"Call me tomorrow. I will help you fix this"*; knows Annie's dad; positioned as the family mediator
+- **[[wiki/timeline/annie-read-notes]]** — `people/zachariah-harshman` · (check) cover story for the first night · **active threat post-breakup** — texts Annie "I have to talk to you" on Dec 9; tells her she looks like shit; the "cover story" reading is incomplete
+- **[[wiki/timeline/annie-read-notes]]** — `wiki/places/155-virginia-ave` · Dan's house · **the Annie box exists** — a box of mementos (notes, pen straws, snowflakes) from the first week, referenced on Dec 3 and Dec 10
+- **[[wiki/timeline/annie-read-notes]]** — `people/jill` · (check) friend · **Annie's closest friend** — referenced repeatedly; her birthday is Dec 8; her boyfriend is invited to the NYE party
 - **[[wiki/timeline/annie-read-notes]]** — 1. **What did Alexis ask Dan for on Dec 13?** Annie says "I can't believe she asked you that last night" — the content is never stated. Worth a targeted read of the Alexis export around Dec 12-13.
 - **[[wiki/timeline/annie-read-notes]]** — 2. **Who is "Lukeyan"?** Dan debriefed him at 3:43am on Dec 15. Not in any existing contact list. Identity question.
 - **[[wiki/timeline/annie-read-notes]]** — 3. **What is Annie'scam history?** She references "doing all the shit I did before" (Dec 13, 11:13) and "I wouldn't go as far as I did before" — this predates the MyFreeCams history on her wiki page.
 - **[[wiki/timeline/annie-read-notes]]** — 4. **Did Annie take a pregnancy test?** The Dec 16 scare is unresolved in this window. The next export (Dec 17+) should address it.
-- **[[wiki/timeline/annie-read-notes]]** — | Page | Standing claim | What the read shows | Applied? | |---|---|---|---| | Annie Ulmer | Pre-Dan nude leak from MyFreeCams | Dec 13, 11:11: Annie references "doing all the shit I did before" — this predates the MyFreeCams history and is a distinct earlier 
+- **[[wiki/timeline/annie-read-notes]]** — Annie Ulmer · Pre-Dan nude leak from MyFreeCams · Dec 13, 11:11: Annie references "doing all the shit I did before" — this predates the MyFreeCams history and is a distinct earlier episode. The MyFreeCams history on her page may be a later development, not the
 - **[[wiki/timeline/annie-read-notes]]** — 1. **Who is Lukyan?** He drops off marijuana for the "stay away from coca" plan. Not in any existing contact list. Identity question.
 - **[[wiki/timeline/annie-read-notes]]** — 2. **What happened at j's?** Annie references "one of the last times I was over at j's" — a needle/ice incident. Who is j?
 - **[[wiki/timeline/annie-read-notes]]** — 3. **Did Annie take a pregnancy test?** The Dec 16 scare is unresolved. The next export (Jan 1+) should address it.
 - **[[wiki/timeline/annie-read-notes]]** — 4. **What happened with the CT's job?** Annie was told she'd be bartending NYE but was forced to serve. She's furious. Next shift unknown.
-- **[[wiki/timeline/annie-read-notes]]** — | Page | Standing claim | What the read shows | Applied? | |---|---|---|---| | Annie Ulmer | Pre-Dan nude leak from MyFreeCams | Dec 29, 17:43: Annie references a needle/ice incident at "j's" — this predates the MyFreeCams history and is a distinct earlier epi
+- **[[wiki/timeline/annie-read-notes]]** — Annie Ulmer · Pre-Dan nude leak from MyFreeCams · Dec 29, 17:43: Annie references a needle/ice incident at "j's" — this predates the MyFreeCams history and is a distinct earlier episode. The MyFreeCams history on her page may be a later development, not the fi
+- **[[wiki/timeline/annie-read-notes]]** — Bond Switch 2015 · Annie was unattached · Dec 29, 17:43: Annie references "one of the last times I was over at j's" — she had her own life/partners. Consistent with the "Annie was leaving someone too" finding from Nov 29. · queued
 - **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — Whether the Nov 4 evening's planned repeat happened as planned, distinct from the confirmed Nov 5 birthday-night event, is not fully disambiguated
 - **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — Whether any footage from the "hidden camera" request was actually taken, and if so what became of it, is undocumented
 - **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — How many total times Alexis and Annie were together beyond the specifically dated messages is unknown
@@ -12171,7 +12247,7 @@ title: "Recent Activity"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-08-28
+date_modified: 2026-08-29
 sources: []
 ---
 
@@ -12189,7 +12265,15 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-28 — 42 pages
+## 2026-08-29 — 3 pages
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/meta/digest]] | meta | — |
+| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
+
+## 2026-08-28 — 39 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -12198,9 +12282,6 @@ simply listed.
 | [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — flagged stale against the-deferred-audit (2026-08-28), which gained a RE-CHECKED note tracing back to a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris to Alexi |
 | [[wiki/interests/food-and-diet]] | interests | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/legal/2015-possession-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
-| [[wiki/meta/digest]] | meta | — |
-| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
 | [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — totality-themes gained two RE-CHECKED notes (2026-08-28) confirming a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris to Alexis Armel) touches neither page. **N |
 | [[wiki/mind/synthesis/annual-volume-suz]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a new 2013–2014 eviction/concealment episode (Alexis Armel, the washing machine). No message-volume figure this page draws on is touched.  |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a pre-Annie, Alexis-era eviction/concealment episode (2013–2014, Uniontown). It touches neither the Annie-era material nor any figure this |
@@ -12503,24 +12584,6 @@ simply listed.
 |---|---|---|
 | [[wiki/people/jack-connor]] | people | — |
 | [[wiki/people/lucy]] | people | — |
-
-## 2026-08-02 — 13 pages
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/interests/music/concepts/sub-bass-signature]] | interests | — |
-| [[wiki/mind/synthesis/ancestral-dialectic]] | mind | _(carries a CONTRADICTION)_ |
-| [[wiki/people/betherin-mechling]] | people | — |
-| [[wiki/people/david-j-frank]] | people | — |
-| [[wiki/people/jay-lauer]] | people | — |
-| [[wiki/people/joe-croftcheck]] | people | — |
-| [[wiki/people/morley-frank]] | people | — |
-| [[wiki/people/sadie-harris]] | people | _(carries a CONTRADICTION)_ |
-| [[wiki/people/vanessa-frank]] | people | _(carries a REVISED from 2026-07-14)_ |
-| [[wiki/timeline/events/bald-eagle-cummings]] | timeline | — |
-| [[wiki/timeline/events/the-fall-of-fran]] | timeline | **CONTRADICTION** — Both captures behind this page date the sequence to March–April **2017**, and one opens by asserting the date twice. Every independent record in the corpus dates it to **2018**, and they do not depend |
-| [[wiki/timeline/periods/2017-poverty-floor]] | timeline | — |
-| [[wiki/work/nemacolin-caddying]] | work | — |
 
 
 
@@ -20753,6 +20816,14 @@ sources:
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/bobbycole_-p2picui8w/message_1.html"
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/joeoshnack_7killpebkw/message_1.html"
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/ryanscherich_z-v_ahjumq/message_1.html"
+synthesizes:
+  - wiki/timeline/periods/covid-era-2020
+  - wiki/mind/synthesis/political-psyops
+  - wiki/mind/synthesis/vertical-authority-skepticism
+  - wiki/self/youtube-watch-history
+  - wiki/interests/favorites/books/topics/politics
+  - wiki/mind/synthesis/interests-as-era-markers
+  - wiki/health/the-configured-body
 tags: [ideology, politics, nyc-era, digital-footprint]
 connections:
   - page: wiki/timeline/periods/covid-era-2020
@@ -20941,6 +21012,11 @@ sources:
   - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
   - "raw/self/dox-md/Crisis mode briefing.md"
   - "raw/self/dox-md/Creating robust video essays from scripts.md"
+synthesizes:
+  - wiki/mind/concepts/exocortex
+  - wiki/mind/synthesis/millennial-digital-witness
+  - wiki/mind/synthesis/instrument-is-subject
+  - wiki/self/gemini-activity/gemini-activity
 connections:
   - page: wiki/people/jacob-bacharach
     type: instance-of
@@ -21589,6 +21665,15 @@ date_modified: 2026-08-02
 sources:
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
+synthesizes:
+  - wiki/self/lineage/family-tree
+  - wiki/self/lineage/23andme-genomics
+  - wiki/self/lineage/hybrid-analysis
+  - wiki/self/ancestry
+  - wiki/health/chemical-architecture
+  - wiki/mind/concepts/attachment-model
+  - wiki/mind/synthesis/fayette-return
+  - wiki/mind/synthesis/instrument-is-subject
 tags: [uniontown-era, relationships, family, addiction-recovery, nyc-era]
 connections:
   - page: wiki/self/lineage/family-tree
@@ -23753,6 +23838,12 @@ sources:
   - raw/self/message-csv/imessage_ALL_both_2026-05-31_2026-06-02.csv
   - raw/self/dox-md/operating_manual.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+synthesizes:
+  - wiki/people/annie-ulmer
+  - wiki/people/alexis-armel
+  - wiki/mind/profile/enneagram-5w4
+  - wiki/mind/concepts/attachment-model
+  - wiki/places/155-virginia-ave
 tags: [relationships, attachment, infidelity, trauma-bond, uniontown-era]
 connections:
   - page: wiki/mind/synthesis/the-rescue-premise
@@ -27672,6 +27763,12 @@ sources:
   - raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2026-07-20).html
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/browser_history_analysis.txt
+synthesizes:
+  - wiki/mind/synthesis/totality-themes
+  - wiki/mind/synthesis/interests-as-era-markers
+  - wiki/mind/synthesis/supply-network
+  - wiki/mind/synthesis/closing-the-set
+  - wiki/self/youtube-watch-history
 tags: [personality-profile, ai-collaboration, forensic-analysis]
 connections:
   - page: wiki/mind/synthesis/totality-themes
@@ -27924,6 +28021,11 @@ importance: critical
 date_created: 2026-08-26
 date_modified: 2026-08-26
 tags: [behavioral-change, intensity, boundaries, relationships]
+synthesizes:
+  - wiki/people/ally-lubin
+  - wiki/people/annie-ulmer
+  - wiki/timeline/events/2026-08-26-dan-consistency-test
+  - wiki/self/concepts/ally-and-dan-love-as-destiny
 related:
   - wiki/people/ally-lubin
   - wiki/people/annie-ulmer
@@ -28032,6 +28134,12 @@ sources:
   - "raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/facebook/facebook-ihatedanfrank/posts/your_posts_1.html"
+synthesizes:
+  - wiki/mind/synthesis/intake-constancy
+  - wiki/mind/synthesis/2020-left-turn
+  - wiki/mind/synthesis/closing-the-set
+  - wiki/interests/opie-and-anthony
+  - wiki/interests/roman-republic
 tags: [personality-profile, digital-footprint, forensic-analysis]
 connections:
   - page: wiki/mind/synthesis/intake-constancy
@@ -28201,6 +28309,12 @@ sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - /Volumes/MUSIC/PHASE B RAW/LEVIATHAN_FULL_CORPUS.csv
   - raw/self/dox-md/OMNI_FORENSIC_DOSSIER.md
+synthesizes:
+  - wiki/mind/concepts/attachment-model
+  - wiki/mind/concepts/contact-gini
+  - wiki/people/annie-ulmer
+  - wiki/self/message-corpora/master-message-dump
+  - wiki/mind/synthesis/attachment-trauma-bond
 tags: [digital-footprint, relationships, attachment, infidelity, ai-collaboration]
 connections:
   - page: wiki/mind/concepts/reassurance-architecture
@@ -28467,6 +28581,12 @@ sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/facebook/facebook-ihatedanfrank/
+synthesizes:
+  - wiki/self/facebook
+  - wiki/mind/synthesis/political-psyops
+  - wiki/mind/synthesis/totality-themes
+  - wiki/mind/profile/big-five-psychometrics
+  - wiki/mind/synthesis/ai-collaborative-analysis
 tags: [ai-collaboration, personality-profile]
 connections:
   - page: wiki/self/facebook
@@ -29291,12 +29411,14 @@ sources:
   - "raw/self/dox-scan/Dan Profile.txt"
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/gemini-activity/Gemini Activity.html"
-tags: [music-production, personality-profile, digital-footprint]
 synthesizes:
+  - wiki/mind/synthesis/totality-themes
+  - wiki/interests/music/overview
+  - wiki/interests/favorites/music/artists/elliott-smith
   - wiki/interests/favorites/music/artists/fall-out-boy
-  - wiki/interests/the-office
   - wiki/timeline/events/teen-concert-years
-  - wiki/mind/profile/intp
+  - wiki/mind/synthesis/attachment-trauma-bond
+tags: [music-production, personality-profile, digital-footprint]
 connections:
   - page: wiki/interests/the-office
     type: contains
@@ -29774,6 +29896,13 @@ sources:
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
   - raw/self/chatgpt-export/babbitt-shooting-psyop-debate-2025-06-15.md
   - "raw/self/chats/___ The J6 Chat.md"
+synthesizes:
+  - wiki/mind/concepts/dans-law
+  - wiki/mind/concepts/forensic-method
+  - wiki/mind/synthesis/vertical-authority-skepticism
+  - wiki/mind/synthesis/totality-themes
+  - wiki/mind/synthesis/the-cato-seat
+  - wiki/mind/synthesis/2020-left-turn
 connections:
   - page: wiki/mind/concepts/dans-law
     type: parallels
@@ -30900,6 +31029,11 @@ date_created: 2026-07-20
 date_modified: 2026-07-20
 sources:
   - raw/self/dox-md/GPS_ANALYSIS.md
+synthesizes:
+  - wiki/self/location-history
+  - wiki/mind/concepts/contact-gini
+  - wiki/timeline/periods/2017-poverty-floor
+  - wiki/timeline/periods/2018-deep-cycle
 tags: [digital-footprint, relationships, career, housing]
 connections:
   - page: wiki/self/location-history
@@ -36661,9 +36795,29 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
   - raw/self/chats/j6-chat.md
-  - raw/self/chats/_✧✧ 𝔻𝔸ℕ𝔽ℝ𝔸ℕ𝕂-𝕀𝕊𝕄'𝕊 ✧✧ Pinned chat.md
+  - raw/self/chats/_✧✧ 𝔻𝔸𝔻𝔽ℝ𝔸ℕ𝕂-𝕀𝕊𝕄'𝕊 ✧✧ Pinned chat.md
   - raw/self/facebook/facebook-ihatedanfrank/
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
+synthesizes:
+  - wiki/legal/2015-possession-arrest
+  - wiki/mind/synthesis/the-embedded-objective
+  - wiki/people/diane-moore
+  - wiki/mind/synthesis/the-deferred-audit
+  - wiki/mind/concepts/institutional-out
+  - wiki/mind/synthesis/totality-themes
+  - wiki/work/bfs-foods
+  - wiki/work/au-zaatar
+  - wiki/mind/synthesis/political-psyops
+  - wiki/mind/profile/big-five-psychometrics
+  - wiki/people/rick-frank
+  - wiki/people/suzanne-frank
+  - wiki/people/tom
+  - wiki/mind/synthesis/2020-left-turn
+  - wiki/work/creative-license
+  - wiki/mind/politics/axioms
+  - wiki/mind/synthesis/the-cato-seat
+  - wiki/places/90th-st-manhattan
+  - wiki/timeline/periods/2021-2023-employment-block
 tags: [politics, relationships, family, personality-profile, nyc-era]
 connections:
   - page: wiki/legal/2015-possession-arrest
@@ -67372,6 +67526,16 @@ sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini-_07.md
   - raw/self/dox-md/Gemini-_18.md
+synthesizes:
+  - wiki/mind/synthesis/vertical-authority-skepticism
+  - wiki/mind/synthesis/2020-left-turn
+  - wiki/mind/synthesis/totality-themes
+  - wiki/mind/synthesis/dormancy-not-exit
+  - wiki/people/annie-ulmer
+  - wiki/people/tom
+  - wiki/people/suzanne-frank
+  - wiki/people/rick-frank
+  - wiki/people/fran-coldren
 tags: [personality-profile, family, relationships, ai-collaboration]
 connections:
   - page: wiki/timeline/events/timeline
@@ -68071,6 +68235,10 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
+synthesizes:
+  - wiki/interests/music/concepts/sub-bass-signature
+  - wiki/interests/favorites/index
+  - wiki/mind/synthesis/totality-themes
 related:
   - wiki/interests/music/concepts/sub-bass-signature
   - wiki/interests/music/aliases/gripnotic
@@ -69227,6 +69395,11 @@ sources:
   - raw/self/ancestry/dna-reports/chromosome.pdf
   - raw/self/ancestry/dna-reports/health.pdf
   - raw/self/ancestry/extracted/Daniel Frank family tree.txt
+synthesizes:
+  - wiki/mind/synthesis/ancestral-dialectic
+  - wiki/self/ancestry
+  - wiki/self/lineage/23andme-genomics
+  - wiki/self/lineage/family-tree
 tags:
   - family
   - personality-profile
@@ -69367,6 +69540,13 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-07-26
 sources: ["raw/self/location/2026-06-22-ingest/Location History (Timeline)-20260622T225253Z-3-001.zip", "raw/self/location/2026-06-22-ingest/Location History (Timeline)/semantic_location.db", "raw/self/location/2026-06-22-ingest/Location History (Timeline)/Records.json", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/archives/google-data-export-index-20260623.html"]
+synthesizes:
+  - wiki/self/context-core
+  - wiki/self/overview
+  - wiki/self/facebook
+  - wiki/mind/synthesis/millennial-digital-witness
+  - wiki/timeline/periods/2017-poverty-floor
+  - wiki/timeline/periods/2018-deep-cycle
 related:
   - wiki/self/context-core
   - wiki/self/overview
@@ -70362,6 +70542,10 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-22
 sources: ["raw/self/twitter/profile.txt", "raw/self/twitter/tweets_sample_2019-2026.txt"]
+synthesizes:
+  - wiki/self/overview
+  - wiki/mind/concepts/conflict-architecture
+  - wiki/mind/concepts/attachment-model
 related: ["wiki/self/overview", "wiki/mind/concepts/conflict-architecture", "wiki/mind/concepts/attachment-model"]
 tags: [music-production, ai-collaboration, politics, digital-footprint]
 connections:
@@ -70436,6 +70620,17 @@ date_modified: 2026-08-19
 date_range_start: 2007-01-01
 date_range_end: 2026-07-20
 sources: ["raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html", "raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2026-07-20).html", "raw/self/facebook/facebook-ihatedanfrank/pages_and_profiles/pages_you_ve_liked.html"]
+synthesizes:
+  - wiki/self/overview
+  - wiki/self/context-core
+  - wiki/mind/synthesis/millennial-digital-witness
+  - wiki/mind/synthesis/totality-themes
+  - wiki/mind/synthesis/vertical-authority-skepticism
+  - wiki/mind/synthesis/political-psyops
+  - wiki/mind/concepts/conflict-architecture
+  - wiki/timeline/periods/dec-2025-spike
+  - wiki/timeline/events/march-2026-terminal-phase
+  - wiki/timeline/events/april-may-2026-final-weeks
 related:
   - wiki/self/overview
   - wiki/self/context-core

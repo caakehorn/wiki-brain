@@ -8,6 +8,11 @@ importance: critical
 date_created: 2026-08-26
 date_modified: 2026-08-26
 tags: [behavioral-change, intensity, boundaries, relationships]
+synthesizes:
+  - wiki/people/ally-lubin
+  - wiki/people/annie-ulmer
+  - wiki/timeline/events/2026-08-26-dan-consistency-test
+  - wiki/self/concepts/ally-and-dan-love-as-destiny
 related:
   - wiki/people/ally-lubin
   - wiki/people/annie-ulmer

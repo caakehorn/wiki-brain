@@ -9,6 +9,12 @@ sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - /Volumes/MUSIC/PHASE B RAW/LEVIATHAN_FULL_CORPUS.csv
   - raw/self/dox-md/OMNI_FORENSIC_DOSSIER.md
+synthesizes:
+  - wiki/mind/concepts/attachment-model
+  - wiki/mind/concepts/contact-gini
+  - wiki/people/annie-ulmer
+  - wiki/self/message-corpora/master-message-dump
+  - wiki/mind/synthesis/attachment-trauma-bond
 tags: [digital-footprint, relationships, attachment, infidelity, ai-collaboration]
 connections:
   - page: wiki/mind/concepts/reassurance-architecture

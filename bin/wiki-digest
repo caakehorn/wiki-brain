@@ -82,7 +82,19 @@ BLOCK_RE = re.compile(
     r"\s*\[?(\d{4}-\d{2}-\d{2})?\]?[^*]*\*\*(?::)?\s*(.{0,240})",
     re.S,
 )
-CONTRA_RE = re.compile(r"^>\s*\*\*CONTRADICTION[^*]*\*\*:?\s*(.{0,400})", re.M | re.S)
+# A contradiction block, with its own head captured so the filter below can
+# read it. The head is `CONTRADICTION`, optionally followed by the word that
+# says it is finished — `CONTRADICTION CLOSED [2026-08-16]`,
+# `CONTRADICTION RESOLVED [2026-08-02]` — and then the argument.
+CONTRA_RE = re.compile(r"^>\s*\*\*CONTRADICTION([^*]*)\*\*:?\s*(.{0,400})", re.M | re.S)
+
+# The three marks a page uses to say an item is settled. The gap extractor
+# below has always applied them; the contradiction extractor never did, so
+# every contradiction the wiki actually closed stayed on the live list
+# forever. Three of the 44 were closed — one on 2026-08-16 and two on
+# 2026-08-02 — which made this file's headline count, and the OPEN.md table
+# it feeds, read three high for three weeks.
+SETTLED_RE = re.compile(r"\b(CLOSED|RESOLVED|SETTLED|WITHDRAWN)\b", re.I)
 
 # Where a page writes down what it does not know. `## Gaps` is 107 of the 112 in
 # the corpus; the rest are the same section under another name, and were invisible
@@ -91,6 +103,14 @@ CONTRA_RE = re.compile(r"^>\s*\*\*CONTRADICTION[^*]*\*\*:?\s*(.{0,400})", re.M |
 # he identifies". Kept in step with GAP_HEAD in bin/wiki-gaps. Pages carry more
 # than one — jerel-coles has both an `## Open questions` and a `## Gaps` — so this
 # is iterated, never searched once.
+# Item shapes inside a gaps section. Kept identical to `bin/wiki-gaps` and to
+# the portal's port of it — see the note in gap_items().
+BULLET_RE = re.compile(r"^([-*]|\d+\.)\s+\S")
+TABLE_ROW_RE = re.compile(r"^[ \t]*\|")
+TABLE_RULE_RE = re.compile(r"^[ \t]*\|[\s:|-]+\|[ \t]*$")
+# How the corrections tables mark a row already dealt with.
+DONE_CELL_RE = re.compile(r"\b(applied|n/a)\b", re.I)
+
 GAPS_SECTION = re.compile(
     r"^##+[ \t]+(?:\d+[.)][ \t]*)?(?:new[ \t]+)?"
     r"(?:gaps?\b|notes[ \t]+(?:and|&)[ \t]+gaps\b|corpus[ \t]+gaps\b|open[ \t]+questions\b"
@@ -284,10 +304,61 @@ def gap_items(section):
     So: split on blank lines, then split any block that opens with a top-level
     bullet at each subsequent top-level bullet. Nested bullets are indented, so
     they stay with the item they belong to.
+
+    Two rules below arrived in `bin/wiki-gaps` on 2026-08-17 with the widened
+    GAP_HEAD and were never brought over here, which is why this file counted
+    481 gaps against the 485 the tool and the portal both counted:
+
+      PREAMBLE  a section that itemises may open with a sentence explaining the
+                list, and that sentence is not a gap. Five pages had theirs
+                counted as one — `people/zaco`'s "Each answerable by the
+                operator in a paragraph" among them.
+      TABLES    a corrections queue is a table and its *rows* are the items.
+                Read as one blob, `timeline/annie-read-notes` reported one gap
+                where it has nine, and rows already marked applied or n/a were
+                counted as open.
+
+    Three parsers read these sections — this one, `bin/wiki-gaps`, and the
+    portal's port in `sync-wiki.mjs` — and they have to agree, because the tool
+    finds a gap on the page by matching the text this file publishes. Keep them
+    in step.
     """
+    lines = section.split("\n")
+    blocks, cur = [], []
+    for i, line in enumerate(lines):
+        if line.strip():
+            cur.append(i)
+        elif cur:
+            blocks.append(cur)
+            cur = []
+    if cur:
+        blocks.append(cur)
+
+    def itemised(block):
+        return any(BULLET_RE.match(lines[i]) or TABLE_ROW_RE.match(lines[i]) for i in block)
+
+    first_itemised = next((n for n, b in enumerate(blocks) if itemised(b)), None)
+
     out = []
-    for block in re.split(r"\n\s*\n", section):
-        block = block.rstrip()
+    for n, indices in enumerate(blocks):
+        if first_itemised is not None and n < first_itemised:
+            continue  # prose explaining the list, not an item in it
+
+        if TABLE_ROW_RE.match(lines[indices[0]]):
+            for i in indices:
+                if TABLE_RULE_RE.match(lines[i]):
+                    continue
+                if i + 1 in indices and TABLE_RULE_RE.match(lines[i + 1]):
+                    continue  # the header row is the one above the rule
+                cells = [c.strip() for c in lines[i].strip().strip("|").split("|")]
+                if not any(cells):
+                    continue
+                if DONE_CELL_RE.search(cells[-1]):
+                    continue
+                out.append(" · ".join(c for c in cells if c))
+            continue
+
+        block = "\n".join(lines[i] for i in indices).rstrip()
         if not block.strip():
             continue
         first = block.lstrip()
@@ -307,7 +378,9 @@ def write_open(entries):
         body = e["body"]
 
         for m in CONTRA_RE.finditer(body):
-            contradictions.append((e, tidy(m.group(1))[:320]))
+            if SETTLED_RE.search(m.group(1)):
+                continue  # the page says it closed this one
+            contradictions.append((e, tidy(m.group(2))[:320]))
 
         # Gaps the operator has answered but nobody has acted on yet — staged by
         # bin/wiki-gaps and flagged in frontmatter. These are the cheapest items

@@ -5,7 +5,7 @@ title: "Wiki Digest"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-08-28
+date_modified: 2026-08-29
 sources: []
 ---
 
@@ -22,10 +22,10 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 519 |
-| Pages touched in the last 14 days | 196 |
-| Pages reasoning from other pages (`synthesizes:`) | 48 |
-| Live contradictions | 44 |
-| Open gaps | 481 |
+| Pages touched in the last 14 days | 194 |
+| Pages reasoning from other pages (`synthesizes:`) | 79 |
+| Live contradictions | 41 |
+| Open gaps | 484 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -55,7 +55,10 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-28** — 42 pages
+**2026-08-29** — 3 pages
+  - feature | meta | THE DOCKET — the outstanding-work record published as a room, and three parser bugs it found
+
+**2026-08-28** — 39 pages
   - feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch
   - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
@@ -116,18 +119,6 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - close | people | Libby is Libby Titus, she died in October 2024, and the corpus had her married name all along
   - report | mind | texting deviance audit — the operator's model of his own texting was two-thirds wrong
 
-**2026-08-22** — 4 pages
-  - answer | mind | what would make Dan happy — he answered it himself in 2025, and the record has already run the experiment
-  - fix | people | a fourth portal incident, a duplicated H1 on annie-ulmer, and the freshness gate red on main
-  - fix | people | the stale-snapshot clobber recurred on ally-lubin, six hours after the last one
-  - meta | style | the blanket no-photographs rule is removed from STYLE_GUIDE
-  - fix | people | a portal save put stray keystrokes into ally-lubin and turned the connect gate red on main
-  - ingest | legal | the hospital-smoking summons — the charging documents were real, and they moved an address
-  - ingest | people | 16Personalities result — Ally Lubin (ENTP-T)
-  - lint | people | the same red gate was found twice, independently, inside twenty minutes
-  - climb | mind | three entries, and two of them answer a different question than the one asked
-  - close | mind | two staged sage findings integrated on the pages this pass was already holding open
-
 ## Pages that reason from other pages
 
 The altitude of the wiki — everything here was built on top of something
@@ -136,15 +127,32 @@ have moved since.
 
 - [[wiki/health/cocaine]] — 15 premises
 - [[wiki/health/the-configured-body]] — 8 premises
+- [[wiki/interests/favorites/art-and-movies]] — 4 premises
+- [[wiki/interests/favorites/books]] — 4 premises
+- [[wiki/interests/favorites/books/topics/ancient-history]] — 2 premises
+- [[wiki/interests/favorites/books/topics/history]] — 2 premises
+- [[wiki/interests/favorites/books/topics/journalism]] — 2 premises
+- [[wiki/interests/favorites/books/topics/politics]] — 4 premises
+- [[wiki/interests/favorites/books/topics/trump]] — 2 premises
+- [[wiki/interests/favorites/books/topics/war]] — 2 premises
+- [[wiki/interests/favorites/books/want-to-read]] — 4 premises
+- [[wiki/interests/favorites/eclecticism]] — 3 premises
+- [[wiki/interests/favorites/music]] — 6 premises
+- [[wiki/interests/favorites/music/electronic-bass]] — 3 premises
+- [[wiki/interests/favorites/taste-profile]] — 3 premises
 - [[wiki/interests/food-and-diet]] — 11 premises
 - [[wiki/mind/concepts/chaos-preference]] — 2 premises
 - [[wiki/mind/concepts/the-cool-metric]] — 3 premises
 - [[wiki/mind/politics/axioms]] — 5 premises
+- [[wiki/mind/synthesis/2020-left-turn]] — 7 premises
+- [[wiki/mind/synthesis/ai-collaborative-analysis]] — 4 premises
 - [[wiki/mind/synthesis/alias-as-periodization]] — 6 premises
+- [[wiki/mind/synthesis/ancestral-dialectic]] — 8 premises
 - [[wiki/mind/synthesis/annual-volume-suz]] — 1 premise
 - [[wiki/mind/synthesis/attachment-trauma-bond]] — 9 premises
 - [[wiki/mind/synthesis/august-grievance-verdict]] — 9 premises
 - [[wiki/mind/synthesis/block-unblock-loop]] — 12 premises
+- [[wiki/mind/synthesis/bond-switch-2015]] — 5 premises
 - [[wiki/mind/synthesis/closing-the-set]] — 9 premises
 - [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — 11 premises
 - [[wiki/mind/synthesis/dormancy-not-exit]] — 10 premises
@@ -152,11 +160,18 @@ have moved since.
 - [[wiki/mind/synthesis/failure-to-launch]] — 17 premises
 - [[wiki/mind/synthesis/fayette-return]] — 8 premises
 - [[wiki/mind/synthesis/instrument-is-subject]] — 5 premises
+- [[wiki/mind/synthesis/intake-constancy]] — 5 premises
+- [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] — 4 premises
+- [[wiki/mind/synthesis/interests-as-era-markers]] — 5 premises
+- [[wiki/mind/synthesis/message-circadian-latency]] — 5 premises
+- [[wiki/mind/synthesis/millennial-digital-witness]] — 5 premises
 - [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] — 7 premises
-- [[wiki/mind/synthesis/music-as-identity]] — 4 premises
+- [[wiki/mind/synthesis/music-as-identity]] — 6 premises
 - [[wiki/mind/synthesis/no-platonic-channel]] — 9 premises
+- [[wiki/mind/synthesis/political-psyops]] — 6 premises
 - [[wiki/mind/synthesis/read-receipt-forensics]] — 3 premises
 - [[wiki/mind/synthesis/single-channel]] — 8 premises
+- [[wiki/mind/synthesis/spatial-behavior]] — 4 premises
 - [[wiki/mind/synthesis/supply-network]] — 11 premises
 - [[wiki/mind/synthesis/the-binary-verdict]] — 14 premises
 - [[wiki/mind/synthesis/the-cato-seat]] — 9 premises
@@ -167,6 +182,7 @@ have moved since.
 - [[wiki/mind/synthesis/the-serial-monogamist]] — 8 premises
 - [[wiki/mind/synthesis/the-unbroken-bond]] — 5 premises
 - [[wiki/mind/synthesis/totality-themes]] — 28 premises
+- [[wiki/mind/synthesis/vertical-authority-skepticism]] — 19 premises
 - [[wiki/people/alexander-jackson]] — 1 premise
 - [[wiki/people/ally-lubin-cognitive-profile]] — 4 premises
 - [[wiki/people/annie-ulmer-personality-assessment]] — 1 premise
@@ -180,5 +196,11 @@ have moved since.
 - [[wiki/self/concepts/ally-and-dan-love-as-destiny]] — 1 premise
 - [[wiki/self/concepts/astrology-star-signs]] — 1 premise
 - [[wiki/self/concepts/wiki-brain]] — 2 premises
+- [[wiki/self/context-core]] — 9 premises
+- [[wiki/self/favorites]] — 3 premises
+- [[wiki/self/lineage/hybrid-analysis]] — 4 premises
+- [[wiki/self/location-history]] — 6 premises
+- [[wiki/self/twitter]] — 3 premises
+- [[wiki/self/youtube-watch-history]] — 10 premises
 - [[wiki/timeline/periods/2020-2021-market-era]] — 1 premise
 - [[wiki/work/fastly-fsly]] — 2 premises

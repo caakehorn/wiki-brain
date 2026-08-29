@@ -15,12 +15,107 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (0)
+## Obligations (90)
 
-None. No question is parked, no answer is staged, no premise has moved
-under a page that reasons from it, and every portal edit has had its pass.
+Somebody or something is waiting on each of these. Drain from the top.
 
-## Standing work (194)
+Priority: **0** failing gate · **1** parked question · **2** staged answer ·
+**3** stale premise · **4** unnormalised portal edit.
+
+| P | Kind | What | Where | Since |
+|---|---|---|---|---|
+| 3 | stale | premise wiki/interests/favorites/music.md moved 2026-07-14, after this page's 2026-06-23 | `wiki/interests/favorites/eclecticism.md` | 2026-07-14 |
+| 3 | stale | premise wiki/self/location-history.md moved 2026-07-26, after this page's 2026-07-20 | `wiki/mind/synthesis/spatial-behavior.md` | 2026-07-26 |
+| 3 | stale | premise wiki/interests/music/concepts/sub-bass-signature.md moved 2026-08-02, after this pa… | `wiki/interests/favorites/taste-profile.md` | 2026-08-02 |
+| 3 | stale | premise wiki/interests/music/concepts/sub-bass-signature.md moved 2026-08-02, after this pa… | `wiki/self/favorites.md` | 2026-08-02 |
+| 3 | stale | premise wiki/interests/music/concepts/sub-bass-signature.md moved 2026-08-02, after this pa… | `wiki/interests/favorites/music.md` | 2026-08-02 |
+| 3 | stale | premise wiki/interests/music/concepts/sub-bass-signature.md moved 2026-08-02, after this pa… | `wiki/interests/favorites/music/electronic-bass.md` | 2026-08-02 |
+| 3 | stale | premise wiki/timeline/periods/2017-poverty-floor.md moved 2026-08-02, after this page's 202… | `wiki/mind/synthesis/spatial-behavior.md` | 2026-08-02 |
+| 3 | stale | premise wiki/timeline/periods/2017-poverty-floor.md moved 2026-08-02, after this page's 202… | `wiki/self/location-history.md` | 2026-08-02 |
+| 3 | stale | premise wiki/mind/synthesis/millennial-digital-witness.md moved 2026-08-11, after this page… | `wiki/self/location-history.md` | 2026-08-11 |
+| 3 | stale | premise wiki/self/lineage/23andme-genomics.md moved 2026-08-14, after this page's 2026-08-02 | `wiki/mind/synthesis/ancestral-dialectic.md` | 2026-08-14 |
+| 3 | stale | premise wiki/self/lineage/hybrid-analysis.md moved 2026-08-14, after this page's 2026-08-02 | `wiki/mind/synthesis/ancestral-dialectic.md` | 2026-08-14 |
+| 3 | stale | premise wiki/interests/music/concepts/lyrics-as-timbre.md moved 2026-08-18, after this page… | `wiki/interests/favorites/music.md` | 2026-08-18 |
+| 3 | stale | premise wiki/interests/music/concepts/lyrics-as-timbre.md moved 2026-08-18, after this page… | `wiki/interests/favorites/music/electronic-bass.md` | 2026-08-18 |
+| 3 | stale | premise wiki/self/lineage/family-tree.md moved 2026-08-18, after this page's 2026-08-02 | `wiki/mind/synthesis/ancestral-dialectic.md` | 2026-08-18 |
+| 3 | stale | premise wiki/self/lineage/family-tree.md moved 2026-08-18, after this page's 2026-08-14 | `wiki/self/lineage/hybrid-analysis.md` | 2026-08-18 |
+| 3 | stale | premise wiki/timeline/periods/2018-deep-cycle.md moved 2026-08-18, after this page's 2026-0… | `wiki/mind/synthesis/spatial-behavior.md` | 2026-08-18 |
+| 3 | stale | premise wiki/timeline/periods/2018-deep-cycle.md moved 2026-08-18, after this page's 2026-0… | `wiki/self/location-history.md` | 2026-08-18 |
+| 3 | stale | premise wiki/interests/favorites/books.md moved 2026-08-19, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/ancient-history.md` | 2026-08-19 |
+| 3 | stale | premise wiki/interests/favorites/books.md moved 2026-08-19, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/history.md` | 2026-08-19 |
+| 3 | stale | premise wiki/interests/favorites/books.md moved 2026-08-19, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/journalism.md` | 2026-08-19 |
+| 3 | stale | premise wiki/interests/favorites/books.md moved 2026-08-19, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/politics.md` | 2026-08-19 |
+| 3 | stale | premise wiki/interests/favorites/books.md moved 2026-08-19, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/trump.md` | 2026-08-19 |
+| 3 | stale | premise wiki/interests/favorites/books.md moved 2026-08-19, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/war.md` | 2026-08-19 |
+| 3 | stale | premise wiki/interests/favorites/books.md moved 2026-08-19, after this page's 2026-06-23 | `wiki/interests/favorites/eclecticism.md` | 2026-08-19 |
+| 3 | stale | premise wiki/interests/favorites/books.md moved 2026-08-19, after this page's 2026-07-14 | `wiki/interests/favorites/books/want-to-read.md` | 2026-08-19 |
+| 3 | stale | premise wiki/interests/roman-republic.md moved 2026-08-19, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/politics.md` | 2026-08-19 |
+| 3 | stale | premise wiki/mind/profile/big-five-psychometrics.md moved 2026-08-19, after this page's 202… | `wiki/mind/synthesis/millennial-digital-witness.md` | 2026-08-19 |
+| 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-08-19, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/politics.md` | 2026-08-19 |
+| 3 | stale | premise wiki/mind/concepts/contact-gini.md moved 2026-08-20, after this page's 2026-07-20 | `wiki/mind/synthesis/spatial-behavior.md` | 2026-08-20 |
+| 3 | stale | premise wiki/work/au-zaatar.md moved 2026-08-21, after this page's 2026-08-19 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-21 |
+| 3 | stale | premise wiki/interests/music/overview.md moved 2026-08-23, after this page's 2026-07-14 | `wiki/interests/favorites/music.md` | 2026-08-23 |
+| 3 | stale | premise wiki/mind/concepts/attachment-model.md moved 2026-08-23, after this page's 2026-06-… | `wiki/self/twitter.md` | 2026-08-23 |
+| 3 | stale | premise wiki/mind/concepts/attachment-model.md moved 2026-08-23, after this page's 2026-08-… | `wiki/mind/synthesis/ancestral-dialectic.md` | 2026-08-23 |
+| 3 | stale | premise wiki/people/rick-frank.md moved 2026-08-23, after this page's 2026-08-19 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-23 |
+| 3 | stale | premise wiki/mind/concepts/conflict-architecture.md moved 2026-08-26, after this page's 202… | `wiki/self/twitter.md` | 2026-08-26 |
+| 3 | stale | premise wiki/mind/concepts/conflict-architecture.md moved 2026-08-26, after this page's 202… | `wiki/self/youtube-watch-history.md` | 2026-08-26 |
+| 3 | stale | premise wiki/mind/politics/axioms.md moved 2026-08-26, after this page's 2026-08-19 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-26 |
+| 3 | stale | premise wiki/mind/profile/index.md moved 2026-08-26, after this page's 2026-06-23 | `wiki/interests/favorites/art-and-movies.md` | 2026-08-26 |
+| 3 | stale | premise wiki/mind/synthesis/ai-collaborative-analysis.md moved 2026-08-26, after this page'… | `wiki/mind/synthesis/millennial-digital-witness.md` | 2026-08-26 |
+| 3 | stale | premise wiki/mind/synthesis/closing-the-set.md moved 2026-08-26, after this page's 2026-08-… | `wiki/interests/favorites/books.md` | 2026-08-26 |
+| 3 | stale | premise wiki/mind/synthesis/closing-the-set.md moved 2026-08-26, after this page's 2026-08-… | `wiki/mind/synthesis/intake-constancy.md` | 2026-08-26 |
+| 3 | stale | premise wiki/mind/synthesis/closing-the-set.md moved 2026-08-26, after this page's 2026-08-… | `wiki/mind/synthesis/interests-as-era-markers.md` | 2026-08-26 |
+| 3 | stale | premise wiki/mind/synthesis/political-psyops.md moved 2026-08-26, after this page's 2026-08… | `wiki/mind/synthesis/millennial-digital-witness.md` | 2026-08-26 |
+| 3 | stale | premise wiki/mind/synthesis/political-psyops.md moved 2026-08-26, after this page's 2026-08… | `wiki/mind/synthesis/2020-left-turn.md` | 2026-08-26 |
+| 3 | stale | premise wiki/mind/synthesis/political-psyops.md moved 2026-08-26, after this page's 2026-08… | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-26 |
+| 3 | stale | premise wiki/mind/synthesis/political-psyops.md moved 2026-08-26, after this page's 2026-08… | `wiki/self/youtube-watch-history.md` | 2026-08-26 |
+| 3 | stale | premise wiki/mind/synthesis/the-cato-seat.md moved 2026-08-26, after this page's 2026-08-19 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-26 |
+| 3 | stale | premise wiki/people/tom.md moved 2026-08-26, after this page's 2026-08-19 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-26 |
+| 3 | stale | premise wiki/self/ancestry.md moved 2026-08-26, after this page's 2026-08-02 | `wiki/mind/synthesis/ancestral-dialectic.md` | 2026-08-26 |
+| 3 | stale | premise wiki/self/ancestry.md moved 2026-08-26, after this page's 2026-08-14 | `wiki/self/lineage/hybrid-analysis.md` | 2026-08-26 |
+| 3 | stale | premise wiki/self/context-core.md moved 2026-08-26, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/ancient-history.md` | 2026-08-26 |
+| 3 | stale | premise wiki/self/context-core.md moved 2026-08-26, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/history.md` | 2026-08-26 |
+| 3 | stale | premise wiki/self/context-core.md moved 2026-08-26, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/journalism.md` | 2026-08-26 |
+| 3 | stale | premise wiki/self/context-core.md moved 2026-08-26, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/politics.md` | 2026-08-26 |
+| 3 | stale | premise wiki/self/context-core.md moved 2026-08-26, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/trump.md` | 2026-08-26 |
+| 3 | stale | premise wiki/self/context-core.md moved 2026-08-26, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/war.md` | 2026-08-26 |
+| 3 | stale | premise wiki/self/context-core.md moved 2026-08-26, after this page's 2026-07-14 | `wiki/interests/favorites/books/want-to-read.md` | 2026-08-26 |
+| 3 | stale | premise wiki/self/context-core.md moved 2026-08-26, after this page's 2026-07-26 | `wiki/self/location-history.md` | 2026-08-26 |
+| 3 | stale | premise wiki/self/context-core.md moved 2026-08-26, after this page's 2026-08-19 | `wiki/self/youtube-watch-history.md` | 2026-08-26 |
+| 3 | stale | premise wiki/self/overview.md moved 2026-08-26, after this page's 2026-06-22 | `wiki/self/twitter.md` | 2026-08-26 |
+| 3 | stale | premise wiki/self/overview.md moved 2026-08-26, after this page's 2026-07-26 | `wiki/self/location-history.md` | 2026-08-26 |
+| 3 | stale | premise wiki/self/overview.md moved 2026-08-26, after this page's 2026-08-19 | `wiki/self/youtube-watch-history.md` | 2026-08-26 |
+| 3 | stale | premise wiki/work/bfs-foods.md moved 2026-08-26, after this page's 2026-08-19 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-26 |
+| 3 | stale | premise wiki/health/chemical-architecture.md moved 2026-08-28, after this page's 2026-08-02 | `wiki/mind/synthesis/ancestral-dialectic.md` | 2026-08-28 |
+| 3 | stale | premise wiki/health/the-configured-body.md moved 2026-08-28, after this page's 2026-08-19 | `wiki/mind/synthesis/2020-left-turn.md` | 2026-08-28 |
+| 3 | stale | premise wiki/legal/2015-possession-arrest.md moved 2026-08-28, after this page's 2026-08-19 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/attachment-trauma-bond.md moved 2026-08-28, after this page's 2… | `wiki/mind/synthesis/message-circadian-latency.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/dormancy-not-exit.md moved 2026-08-28, after this page's 2026-0… | `wiki/self/context-core.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/fayette-return.md moved 2026-08-28, after this page's 2026-08-02 | `wiki/mind/synthesis/ancestral-dialectic.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/instrument-is-subject.md moved 2026-08-28, after this page's 20… | `wiki/mind/synthesis/ancestral-dialectic.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/instrument-is-subject.md moved 2026-08-28, after this page's 20… | `wiki/mind/synthesis/ai-collaborative-analysis.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/supply-network.md moved 2026-08-28, after this page's 2026-08-19 | `wiki/mind/synthesis/intake-constancy.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/the-deferred-audit.md moved 2026-08-28, after this page's 2026-… | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/the-embedded-objective.md moved 2026-08-28, after this page's 2… | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/totality-themes.md moved 2026-08-28, after this page's 2026-06-… | `wiki/interests/favorites/art-and-movies.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/totality-themes.md moved 2026-08-28, after this page's 2026-06-… | `wiki/interests/favorites/eclecticism.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/totality-themes.md moved 2026-08-28, after this page's 2026-06-… | `wiki/interests/favorites/taste-profile.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/totality-themes.md moved 2026-08-28, after this page's 2026-06-… | `wiki/self/favorites.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/totality-themes.md moved 2026-08-28, after this page's 2026-07-… | `wiki/interests/favorites/music.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/totality-themes.md moved 2026-08-28, after this page's 2026-08-… | `wiki/mind/synthesis/millennial-digital-witness.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/totality-themes.md moved 2026-08-28, after this page's 2026-08-… | `wiki/interests/favorites/books.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/totality-themes.md moved 2026-08-28, after this page's 2026-08-… | `wiki/mind/synthesis/intake-constancy.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/totality-themes.md moved 2026-08-28, after this page's 2026-08-… | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/totality-themes.md moved 2026-08-28, after this page's 2026-08-… | `wiki/self/youtube-watch-history.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/totality-themes.md moved 2026-08-28, after this page's 2026-08-… | `wiki/mind/synthesis/political-psyops.md` | 2026-08-28 |
+| 3 | stale | premise wiki/mind/synthesis/totality-themes.md moved 2026-08-28, after this page's 2026-08-… | `wiki/self/context-core.md` | 2026-08-28 |
+| 3 | stale | premise wiki/people/alexis-armel.md moved 2026-08-28, after this page's 2026-08-26 | `wiki/mind/synthesis/bond-switch-2015.md` | 2026-08-28 |
+| 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-08-28, after this page's 2026-08-19 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-28 |
+| 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-08-28, after this page's 2026-08-26 | `wiki/self/context-core.md` | 2026-08-28 |
+| 3 | stale | premise wiki/places/155-virginia-ave.md moved 2026-08-28, after this page's 2026-08-26 | `wiki/mind/synthesis/bond-switch-2015.md` | 2026-08-28 |
+
+## Standing work (197)
 
 The campaign. Worked top-down by choice rather than drained, and each line
 below is a pointer — the file named is where the work itself is written, and
@@ -31,4 +126,4 @@ the only place to strike an entry.
 | 5 | ingest | 38 | `queue.md` | sources ingested partially or not at all |
 | 6 | climb | 25 | `synthesis-queue.md` | clusters unclimbed and unrejected |
 | 6 | connect | 84 | `connection-queue.md` | mined edge pairs, untyped and unrejected |
-| 7 | backlog | 47 | `BACKLOG.md` | standing campaign entries |
+| 7 | backlog | 50 | `BACKLOG.md` | standing campaign entries |

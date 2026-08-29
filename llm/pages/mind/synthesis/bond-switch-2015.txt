@@ -11,6 +11,12 @@ sources:
   - raw/self/message-csv/imessage_ALL_both_2026-05-31_2026-06-02.csv
   - raw/self/dox-md/operating_manual.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+synthesizes:
+  - wiki/people/annie-ulmer
+  - wiki/people/alexis-armel
+  - wiki/mind/profile/enneagram-5w4
+  - wiki/mind/concepts/attachment-model
+  - wiki/places/155-virginia-ave
 tags: [relationships, attachment, infidelity, trauma-bond, uniontown-era]
 connections:
   - page: wiki/mind/synthesis/the-rescue-premise
