@@ -5,7 +5,7 @@ title: "Recent Activity"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-08-28
+date_modified: 2026-08-29
 sources: []
 ---
 
@@ -23,7 +23,15 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-28 — 42 pages
+## 2026-08-29 — 3 pages
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/meta/digest]] | meta | — |
+| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
+
+## 2026-08-28 — 39 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -32,9 +40,6 @@ simply listed.
 | [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — flagged stale against the-deferred-audit (2026-08-28), which gained a RE-CHECKED note tracing back to a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris to Alexi |
 | [[wiki/interests/food-and-diet]] | interests | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/legal/2015-possession-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
-| [[wiki/meta/digest]] | meta | — |
-| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
 | [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — totality-themes gained two RE-CHECKED notes (2026-08-28) confirming a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris to Alexis Armel) touches neither page. **N |
 | [[wiki/mind/synthesis/annual-volume-suz]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a new 2013–2014 eviction/concealment episode (Alexis Armel, the washing machine). No message-volume figure this page draws on is touched.  |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a pre-Annie, Alexis-era eviction/concealment episode (2013–2014, Uniontown). It touches neither the Annie-era material nor any figure this |
@@ -337,22 +342,4 @@ simply listed.
 |---|---|---|
 | [[wiki/people/jack-connor]] | people | — |
 | [[wiki/people/lucy]] | people | — |
-
-## 2026-08-02 — 13 pages
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/interests/music/concepts/sub-bass-signature]] | interests | — |
-| [[wiki/mind/synthesis/ancestral-dialectic]] | mind | _(carries a CONTRADICTION)_ |
-| [[wiki/people/betherin-mechling]] | people | — |
-| [[wiki/people/david-j-frank]] | people | — |
-| [[wiki/people/jay-lauer]] | people | — |
-| [[wiki/people/joe-croftcheck]] | people | — |
-| [[wiki/people/morley-frank]] | people | — |
-| [[wiki/people/sadie-harris]] | people | _(carries a CONTRADICTION)_ |
-| [[wiki/people/vanessa-frank]] | people | _(carries a REVISED from 2026-07-14)_ |
-| [[wiki/timeline/events/bald-eagle-cummings]] | timeline | — |
-| [[wiki/timeline/events/the-fall-of-fran]] | timeline | **CONTRADICTION** — Both captures behind this page date the sequence to March–April **2017**, and one opens by asserting the date twice. Every independent record in the corpus dates it to **2018**, and they do not depend |
-| [[wiki/timeline/periods/2017-poverty-floor]] | timeline | — |
-| [[wiki/work/nemacolin-caddying]] | work | — |
 

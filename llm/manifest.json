@@ -1,5 +1,5 @@
 {
- "generated": "2026-08-28",
+ "generated": "2026-08-29",
  "base_url": "https://caakehorn.github.io/wiki-brain",
  "entry_point": "https://caakehorn.github.io/wiki-brain/llm/index.txt",
  "corpus": "https://caakehorn.github.io/wiki-brain/llm/corpus.txt",
@@ -136,7 +136,7 @@
    "title": "Art and Movies Favorites",
    "summary": "Minor categories in the masterlist (Art 25, Movies 11). All Art entries rated 5; movies unrated with minimal metadata.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/art-and-movies.txt",
-   "bytes": 2712
+   "bytes": 2877
   },
   {
    "page": "wiki/interests/favorites/books/authors/adrian-goldsworthy.md",
@@ -178,63 +178,63 @@
    "title": "Ancient History (Book Favorites)",
    "summary": "Interest in foundational power dynamics, empires, and leaders (Caesar, Plutarch). Provides long-view context for modern politics.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/books/topics/ancient-history.txt",
-   "bytes": 418
+   "bytes": 493
   },
   {
    "page": "wiki/interests/favorites/books/topics/history.md",
    "title": "History (Book Favorites)",
    "summary": "69 tagged books.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/books/topics/history.txt",
-   "bytes": 485
+   "bytes": 560
   },
   {
    "page": "wiki/interests/favorites/books/topics/journalism.md",
    "title": "Journalism (Book Favorites)",
    "summary": "31 tagged.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/books/topics/journalism.txt",
-   "bytes": 395
+   "bytes": 470
   },
   {
    "page": "wiki/interests/favorites/books/topics/politics.md",
    "title": "Politics (Book Favorites)",
    "summary": "79 tagged books.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/books/topics/politics.txt",
-   "bytes": 1122
+   "bytes": 1270
   },
   {
    "page": "wiki/interests/favorites/books/topics/trump.md",
    "title": "Trump Era (Book Favorites)",
    "summary": "40+ tagged around trump / president / election.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/books/topics/trump.txt",
-   "bytes": 471
+   "bytes": 546
   },
   {
    "page": "wiki/interests/favorites/books/topics/war.md",
    "title": "War (Book Favorites)",
    "summary": "Military and conflict history as part of broader analytical framework.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/books/topics/war.txt",
-   "bytes": 347
+   "bytes": 422
   },
   {
    "page": "wiki/interests/favorites/books/want-to-read.md",
    "title": "Book Want-to-Read List",
    "summary": "149 titles on Dan's Goodreads \"want to read\" shelf \u2014 never mined before this pass, distinct from the 120-book *read* corpus already covered in",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/books/want-to-read.txt",
-   "bytes": 12344
+   "bytes": 12528
   },
   {
    "page": "wiki/interests/favorites/books.md",
    "title": "Book Favorites",
    "summary": "**120 books**, overwhelmingly non-fiction with heavy emphasis on politics, history, recent events, and power structures.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/books.txt",
-   "bytes": 11822
+   "bytes": 12004
   },
   {
    "page": "wiki/interests/favorites/eclecticism.md",
    "title": "Eclecticism in Favorites",
    "summary": "1,477 unique artists in 1,860 tracks \u2014 deliberately broad (avg 1.26 tracks/artist). Three main clusters (exp. hip-hop, emo/rock, electronic/bass) each ~5% in...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/eclecticism.txt",
-   "bytes": 1493
+   "bytes": 1616
   },
   {
    "page": "wiki/interests/favorites/index.md",
@@ -885,21 +885,21 @@
    "title": "Electronic & Bass Music Cluster",
    "summary": "Nine artists beyond [[wiki/interests/favorites/music/artists/lyny]] and",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/electronic-bass.txt",
-   "bytes": 4396
+   "bytes": 4556
   },
   {
    "page": "wiki/interests/favorites/music.md",
    "title": "Music Favorites",
    "summary": "The FAVS MASTERLIST logs 1,860 tracks across 1,477 unique artists \u2014 an average of 1.26 tracks per artist, which is the number that matters more than any indi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music.txt",
-   "bytes": 8577
+   "bytes": 8852
   },
   {
    "page": "wiki/interests/favorites/taste-profile.md",
    "title": "Taste Profile from Favorites",
    "summary": "The FAVS MASTERLIST reveals an eclectic but focused consumer. Deep re-parse: 2,016 total, 1,477 music artists.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/taste-profile.txt",
-   "bytes": 2001
+   "bytes": 2148
   },
   {
    "page": "wiki/interests/film-canon.md",
@@ -1081,7 +1081,7 @@
    "title": "Wiki Digest",
    "summary": "_Generated by `bin/wiki-digest`, mirroring `DIGEST.md` for on-site reading \u2014 the repo's copy is authoritative if the two ever diverge between regenerations. ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/meta/digest.txt",
-   "bytes": 10043
+   "bytes": 11028
   },
   {
    "page": "wiki/meta/index.md",
@@ -1123,14 +1123,14 @@
    "title": "Open Questions",
    "summary": "_Generated by `bin/wiki-digest`, mirroring `OPEN.md` for on-site reading \u2014 the repo's copy is authoritative if the two ever diverge between regenerations. Do...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/meta/open-questions.txt",
-   "bytes": 156708
+   "bytes": 156956
   },
   {
    "page": "wiki/meta/recent-activity.md",
    "title": "Recent Activity",
    "summary": "_Generated by `bin/wiki-digest`, mirroring `RECENT.md` for on-site reading \u2014 the repo's copy is authoritative if the two ever diverge between regenerations. ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/meta/recent-activity.txt",
-   "bytes": 33902
+   "bytes": 32875
   },
   {
    "page": "wiki/mind/concepts/acquisition-drive.md",
@@ -1403,14 +1403,14 @@
    "title": "The 2020 Left Turn",
    "summary": "Dan's politics did not arrive gradually. There is a documented inflection \u2014 the COVID lockdown of 2020 \u2014 where a Bernie-curious liberal became a self-identif...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/2020-left-turn.txt",
-   "bytes": 9480
+   "bytes": 9801
   },
   {
    "page": "wiki/mind/synthesis/ai-collaborative-analysis.md",
    "title": "AI Collaborative Analysis",
    "summary": "Large language models occupy a specific, unusual role in Dan's cognitive life: not conversational companions but external processors \u2014 memory, structuring en...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/ai-collaborative-analysis.txt",
-   "bytes": 26329
+   "bytes": 26518
   },
   {
    "page": "wiki/mind/synthesis/alias-as-periodization.md",
@@ -1424,7 +1424,7 @@
    "title": "The Ancestral Dialectic: Ashkenazi Hypervigilance vs. Appalachian Numbness",
    "summary": "A long-form Gemini \"deep research\" report titled *\"The Dan Frank OS: A Psychogenealogical Architecture of Collapse and Recursion\"* \u2014 built from the same unde...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/ancestral-dialectic.txt",
-   "bytes": 12748
+   "bytes": 13058
   },
   {
    "page": "wiki/mind/synthesis/annual-volume-suz.md",
@@ -1459,7 +1459,7 @@
    "title": "The 2015 Single-Bond Switch",
    "summary": "This event is one instance of a longer pattern; see",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/bond-switch-2015.txt",
-   "bytes": 26771
+   "bytes": 26950
   },
   {
    "page": "wiki/mind/synthesis/closing-the-set.md",
@@ -1515,35 +1515,35 @@
    "title": "The Intake Constancy",
    "summary": "The most stable fact in twenty years of involuntary behavioral record is not a peak, a collapse, or a rupture. It is a rate. Two independent, platform-indepe...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/intake-constancy.txt",
-   "bytes": 16047
+   "bytes": 16264
   },
   {
    "page": "wiki/mind/synthesis/intensity-is-no-longer-the-only-mode.md",
    "title": "Intensity Is No Longer the Only Mode",
    "summary": "Dan's historical problem was never a shortage of feeling. It was an apparent inability to tolerate the low-intensity states surrounding feeling: uncertainty,...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/intensity-is-no-longer-the-only-mode.txt",
-   "bytes": 3299
+   "bytes": 3476
   },
   {
    "page": "wiki/mind/synthesis/interests-as-era-markers.md",
    "title": "Interests as Era-Markers",
    "summary": "Dan's biography can be periodized two ways: by external events (jobs, moves, the Annie relationship's arcs) or by what his intake channel was locked onto. Th...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/interests-as-era-markers.txt",
-   "bytes": 9858
+   "bytes": 10061
   },
   {
    "page": "wiki/mind/synthesis/message-circadian-latency.md",
    "title": "Message Corpus \u2014 Circadian Rhythm, Reply Latency, and Volume Trajectories",
    "summary": "This is a **primary cut** of the raw message corpus, generated fresh from the export rather than summarized from prior wiki pages. The goal was to read the r...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/message-circadian-latency.txt",
-   "bytes": 18003
+   "bytes": 18217
   },
   {
    "page": "wiki/mind/synthesis/millennial-digital-witness.md",
    "title": "Millennial Digital Witness",
    "summary": "One of Dan's most developed self-theories holds that his generation occupies a unique epistemic position \u2014 and that he is an unusually complete specimen of i...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/millennial-digital-witness.txt",
-   "bytes": 6063
+   "bytes": 6275
   },
   {
    "page": "wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis.md",
@@ -1557,7 +1557,7 @@
    "title": "Music as Identity",
    "summary": "The thesis: for Dan, music is not a hobby or a \"top artists\" list. It is one of the few stable structures of self that has run the entire length of the docum...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/music-as-identity.txt",
-   "bytes": 12239
+   "bytes": 12360
   },
   {
    "page": "wiki/mind/synthesis/no-platonic-channel.md",
@@ -1571,7 +1571,7 @@
    "title": "Political Psyops & Hybrid Events",
    "summary": "Dan's political skepticism is not partisan; it is the forensic default applied to institutions on every side. A democratic socialist with zero Trump or MAGA ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/political-psyops.txt",
-   "bytes": 17686
+   "bytes": 17941
   },
   {
    "page": "wiki/mind/synthesis/read-receipt-forensics.md",
@@ -1592,7 +1592,7 @@
    "title": "Spatial Behavior \u2014 GPS Analysis of Location History",
    "summary": "A behavioral/psychographic reading of Dan's Google Location History data (2014\u20132024). This analysis is distinct from and built on top of the raw visit-count ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/spatial-behavior.txt",
-   "bytes": 6420
+   "bytes": 6587
   },
   {
    "page": "wiki/mind/synthesis/supply-network.md",
@@ -1669,7 +1669,7 @@
    "title": "Vertical Authority Skepticism",
    "summary": "Dan treats the vertical axis \u2014 fathers, managers, owners, institutions, the state \u2014 as structurally suspect, and the horizontal axis \u2014 the vetted few peers \u2014...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/vertical-authority-skepticism.txt",
-   "bytes": 20341
+   "bytes": 21028
   },
   {
    "page": "wiki/people/aaron.md",
@@ -3097,7 +3097,7 @@
    "title": "Context Core",
    "summary": "**The authoritative behavioral spine.** All self-knowledge in the wiki defers to this synthesis and its raw source for documented facts. Facts tagged `[DOC]`...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/context-core.txt",
-   "bytes": 25410
+   "bytes": 25732
   },
   {
    "page": "wiki/self/facebook/friends.md",
@@ -3139,7 +3139,7 @@
    "title": "Favorites Masterlist (Legacy)",
    "summary": "**Note:** Favorites now have a dedicated top-level category at [[wiki/interests/favorites/index]].",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/favorites.txt",
-   "bytes": 6566
+   "bytes": 6707
   },
   {
    "page": "wiki/self/gemini-activity/archive/v1-extract.md",
@@ -3181,7 +3181,7 @@
    "title": "Hybrid Lineage Analysis",
    "summary": "This page cross-references the 23andMe genomic data against the Ancestry.com documentary record to map the interaction between biological inheritance and cul...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/lineage/hybrid-analysis.txt",
-   "bytes": 8763
+   "bytes": 8916
   },
   {
    "page": "wiki/self/lineage/index.md",
@@ -3195,7 +3195,7 @@
    "title": "Location History (Google Timeline)",
    "summary": "Peak mobility 2017-2018 (2,827 visits). NYC chapter 2019 onward accounts for majority of non-PA. 2020-21 low mobility aligns employment + pandemic \u2014 see [[wi...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/location-history.txt",
-   "bytes": 14598
+   "bytes": 14822
   },
   {
    "page": "wiki/self/message-corpora/master-message-dump.md",
@@ -3230,14 +3230,14 @@
    "title": "Twitter / X Activity (@danfrank)",
    "summary": "Personal account: **@danfrank** (\"insufferable politics sicko\"). Active since at least December 2019 (sampled data). 256 followers (as of 2026). Mix of:",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/twitter.txt",
-   "bytes": 4650
+   "bytes": 4771
   },
   {
    "page": "wiki/self/youtube-watch-history.md",
    "title": "YouTube Watch History (2007\u20132026)",
    "summary": "Extensive personal YouTube activity log spanning nearly two decades. Primary media consumption channel for news, politics, comedy, and cultural commentary. D...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/youtube-watch-history.txt",
-   "bytes": 23898
+   "bytes": 24336
   },
   {
    "page": "wiki/timeline/2015-annie-read-wiki-impact-analysis.md",

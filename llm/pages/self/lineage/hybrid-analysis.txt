@@ -10,6 +10,11 @@ sources:
   - raw/self/ancestry/dna-reports/chromosome.pdf
   - raw/self/ancestry/dna-reports/health.pdf
   - raw/self/ancestry/extracted/Daniel Frank family tree.txt
+synthesizes:
+  - wiki/mind/synthesis/ancestral-dialectic
+  - wiki/self/ancestry
+  - wiki/self/lineage/23andme-genomics
+  - wiki/self/lineage/family-tree
 tags:
   - family
   - personality-profile

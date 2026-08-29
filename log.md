@@ -1,3 +1,72 @@
+## [2026-08-29] feature | meta | THE DOCKET — the outstanding-work record published as a room, and three parser bugs it found
+
+**Operator directive.** Crawl the corpus and find material for a new full site
+section in the portal, then build it. Requirement stated on selection: it has to
+be visually and interactively substantial.
+
+**What the crawl found.** Three large datasets in `wiki/` with no room on the
+site: the epistemic frontier (contradictions, gaps, predictions, and the dated
+blocks that close them), `master-timeline.md`'s 2,842 tiered events, and the
+2,016-entry favourites masterlist. The first was chosen and built as **THE
+DOCKET** (`/docket`, 未決). The other two are written up in `BACKLOG.md` as
+standing candidates — the favourites one is already declared over there as
+LEVIATHAN's SEALED **THE SHELF**, so the honest build for it is an instrument
+rather than a room.
+
+**Three bugs in this repository's own reporting, found by trying to publish it.**
+Building a room whose headline numbers come off `OPEN.md` meant checking them,
+and all three were wrong in the same direction — the file that collects what the
+wiki does not know was itself out of step with the tools that answer it.
+
+1. **`bin/wiki-digest` counted closed contradictions as live.** `CONTRA_RE`
+   filtered nothing, while the gap extractor eight lines below it has always
+   filtered `CLOSED|RESOLVED|SETTLED`. Three of the 44 are closed on their own
+   heading — `context-core` on 2026-08-16, `fran-coldren` and `the-fall-of-fran`
+   on 2026-08-02 — so the headline count, and the `OPEN.md` and `DIGEST.md`
+   tables it feeds, read three high for three weeks. **Live contradictions: 44 →
+   41.**
+2. **`bin/wiki-digest`'s gap parser was six months behind the other two.** The
+   preamble guard and the corrections-table handling added to `bin/wiki-gaps` on
+   2026-08-17 were never brought over, so a section's introductory sentence was
+   counted as a gap on five pages (`people/zaco`'s *"Each answerable by the
+   operator in a paragraph"* among them), and `timeline/annie-read-notes`'
+   corrections tables arrived as one blob each instead of one item per row —
+   including rows already marked applied. Ported, with the note that three
+   parsers read these sections and have to agree, because the tool finds a gap
+   on the page by matching the text this file publishes.
+3. **The portal's port counted a horizontal rule as a gap.** `---` at the end of
+   `timeline/2015-annie-read-wiki-impact-analysis`' corrections queue was being
+   published as an open gap and offered to the operator as answerable. Fixed in
+   `scripts/sync-wiki.mjs` in the portal repo.
+
+**All three parsers now report the same 484**, where `OPEN.md` said 481 and the
+portal said 485.
+
+**Two gates were already red on `main`** and are fixed here, since nothing can be
+committed over them: `wiki/mind/synthesis/political-psyops.md` carried a
+byte-identical duplicate `tags:` key (line 30 deleted, line 6 kept), and the
+generated corpus was 51 pages out of step with `wiki/` — `bin/wiki-digest` and
+`bin/llm-publish` re-run.
+
+**What the room publishes.** 1,036 items over four benches: 41 collisions drawn
+as a graph over the whole 516-page map with the fifty-one carrying one lit; 484
+gaps as a tally wall; 68 predictions on a departures board with their falsifiers
+(19 state one, 49 do not, and the dash is printed rather than the column
+dropped); 443 dated rulings on a per-day stacked chart. Nothing is summarised,
+ranked or scored — every item is the wiki's own prose, whole, with the page that
+wrote it and a link to it.
+
+**One thing the room says out loud that this repository already knew.**
+`the-cato-seat` predicts *"the wiki will accumulate more predictions than
+interventions."* The board scores three of sixty-eight — 4% — and that
+prediction is on it, standing, being confirmed by the board it is on.
+
+**Gates:** `bin/wiki-lint` 0 errors (46 warnings, all advisory size/staleness),
+`bin/wiki-connect check` 0 errors, `bin/wiki-climb check` 0 errors,
+`bin/wiki-plain check` 0 errors, `bin/wiki-freshness` in sync, 146 tests pass.
+`bin/wiki-work scan`: 90 stale obligations standing, all inherited, none created
+by this pass.
+
 ## [2026-08-28] feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch
 
 **Operator directive.** Two modes of the wiki, both visible to the reader and

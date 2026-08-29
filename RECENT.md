@@ -8,7 +8,17 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-28 — 42 pages
+## 2026-08-29 — 3 pages
+
+- **Session log:** feature | meta | THE DOCKET — the outstanding-work record published as a room, and three parser bugs it found
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/meta/digest]] | meta | — |
+| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
+
+## 2026-08-28 — 39 pages
 
 - **Session log:** feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch
 - **Session log:** spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
@@ -48,9 +58,6 @@ simply listed.
 | [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — flagged stale against the-deferred-audit (2026-08-28), which gained a RE-CHECKED note tracing back to a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris to Alexi |
 | [[wiki/interests/food-and-diet]] | interests | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/legal/2015-possession-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
-| [[wiki/meta/digest]] | meta | — |
-| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
 | [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — totality-themes gained two RE-CHECKED notes (2026-08-28) confirming a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris to Alexis Armel) touches neither page. **N |
 | [[wiki/mind/synthesis/annual-volume-suz]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a new 2013–2014 eviction/concealment episode (Alexis Armel, the washing machine). No message-volume figure this page draws on is touched.  |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a pre-Annie, Alexis-era eviction/concealment episode (2013–2014, Uniontown). It touches neither the Annie-era material nor any figure this |
@@ -464,38 +471,4 @@ simply listed.
 |---|---|---|
 | [[wiki/people/jack-connor]] | people | — |
 | [[wiki/people/lucy]] | people | — |
-
-## 2026-08-02 — 13 pages
-
-- **Session log:** climb | mind | the-embedded-objective (1 synthesized, 2 rejected)
-- **Session log:** ingest | timeline+people+mind | the re-entanglement — Annie thread through 2026-08-02
-- **Session log:** write-back | mind | write-back audit across all 19 synthesizes: pages (41 gaps closed, 0 remaining)
-- **Session log:** climb | interests | food-and-diet — "food in every register except taste"; bounds the cool metric's jurisdiction
-- **Session log:** ingest | people | sadie-harris, david-j-frank, morley-frank rewritten from the GEDCOM; fayette-return revised (Sadie burial vs death, G1's NYC years, the Hopwood terminus)
-- **Session log:** climb | mind | the-deferred-audit — provenance sets the audit's clock; the audit lag explains the diagnosis-to-behaviour gap (8 synthesized, doctrine tier)
-- **Session log:** climb | mind | the-deferred-audit predictions 1-2 scored same-day — P1 partially falsified and narrowed (lag is one-time per object), P2 confirmed pending failure
-- **Session log:** ingest | multi | factstory batch of 5 manual captures — queue cleared
-- **Session log:** fix | people | annie-ulmer — the 24-hour bond-switch was Dan's, not Annie's; corrected in two places and propagated to bond-switch-2015, the-unbroken-bond, dan-annie-fallout-verdict, block-unblock-loop, supply-network
-- **Session log:** tooling | meta | bin/wiki-digest — generates DIGEST.md, RECENT.md, OPEN.md as human reading aids (state of the wiki, what changed and why, every unresolved contradiction/gap/prediction)
-- **Session log:** ingest | multi | factstory batch of 4 manual captures — Jay Lauer's death, the Fall of Fran, the vape alarm, the acquisition drive
-- **Session log:** fix | meta | wiki-brain went private — sync restored, dead Pages URLs repointed at the leviathan mirror
-- **Session log:** fix | interests | stray empty frontmatter fences on fall-out-boy and taking-back-sunday
-- **Session log:** mine | mind | message-density campaign opened — bin/mine-messages, calibrated-confidence, and a negative on the four axioms
-- **Session log:** rewrite | people | fran-coldren rebuilt from scratch against the message corpus
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/interests/music/concepts/sub-bass-signature]] | interests | — |
-| [[wiki/mind/synthesis/ancestral-dialectic]] | mind | _(carries a CONTRADICTION)_ |
-| [[wiki/people/betherin-mechling]] | people | — |
-| [[wiki/people/david-j-frank]] | people | — |
-| [[wiki/people/jay-lauer]] | people | — |
-| [[wiki/people/joe-croftcheck]] | people | — |
-| [[wiki/people/morley-frank]] | people | — |
-| [[wiki/people/sadie-harris]] | people | _(carries a CONTRADICTION)_ |
-| [[wiki/people/vanessa-frank]] | people | _(carries a REVISED from 2026-07-14)_ |
-| [[wiki/timeline/events/bald-eagle-cummings]] | timeline | — |
-| [[wiki/timeline/events/the-fall-of-fran]] | timeline | **CONTRADICTION** — Both captures behind this page date the sequence to March–April **2017**, and one opens by asserting the date twice. Every independent record in the corpus dates it to **2018**, and they do not depend |
-| [[wiki/timeline/periods/2017-poverty-floor]] | timeline | — |
-| [[wiki/work/nemacolin-caddying]] | work | — |
 

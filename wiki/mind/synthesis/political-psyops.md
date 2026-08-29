@@ -27,7 +27,6 @@ synthesizes:
   - wiki/mind/synthesis/totality-themes
   - wiki/mind/synthesis/the-cato-seat
   - wiki/mind/synthesis/2020-left-turn
-tags: [politics, forensic-analysis, ideology]
 connections:
   - page: wiki/mind/concepts/dans-law
     type: parallels

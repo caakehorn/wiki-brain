@@ -7,6 +7,17 @@ date_modified: 2026-08-19
 date_range_start: 2007-01-01
 date_range_end: 2026-07-20
 sources: ["raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html", "raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2026-07-20).html", "raw/self/facebook/facebook-ihatedanfrank/pages_and_profiles/pages_you_ve_liked.html"]
+synthesizes:
+  - wiki/self/overview
+  - wiki/self/context-core
+  - wiki/mind/synthesis/millennial-digital-witness
+  - wiki/mind/synthesis/totality-themes
+  - wiki/mind/synthesis/vertical-authority-skepticism
+  - wiki/mind/synthesis/political-psyops
+  - wiki/mind/concepts/conflict-architecture
+  - wiki/timeline/periods/dec-2025-spike
+  - wiki/timeline/events/march-2026-terminal-phase
+  - wiki/timeline/events/april-may-2026-final-weeks
 related:
   - wiki/self/overview
   - wiki/self/context-core

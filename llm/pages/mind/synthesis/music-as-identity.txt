@@ -11,12 +11,14 @@ sources:
   - "raw/self/dox-scan/Dan Profile.txt"
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/gemini-activity/Gemini Activity.html"
-tags: [music-production, personality-profile, digital-footprint]
 synthesizes:
+  - wiki/mind/synthesis/totality-themes
+  - wiki/interests/music/overview
+  - wiki/interests/favorites/music/artists/elliott-smith
   - wiki/interests/favorites/music/artists/fall-out-boy
-  - wiki/interests/the-office
   - wiki/timeline/events/teen-concert-years
-  - wiki/mind/profile/intp
+  - wiki/mind/synthesis/attachment-trauma-bond
+tags: [music-production, personality-profile, digital-footprint]
 connections:
   - page: wiki/interests/the-office
     type: contains
