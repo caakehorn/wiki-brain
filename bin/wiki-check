@@ -60,12 +60,12 @@ BIN = os.path.join(ROOT, "bin")
 GENERATE = [
     (["wiki-digest"], "regenerate DIGEST / RECENT / OPEN", True),
     (["llm-publish"], "rebuild the llm/ corpus", True),
-    # skills/INDEX.md is derived from the skill files, and `wiki-skills check`
+    # skills/INDEX.md is derived from the skill files, and `wiki-lessons check`
     # gates on it being current — so it regenerates HERE, with the other
     # generators, for the same reason wiki-digest runs before wiki-lint's index
     # drift check. In --check-only this step is skipped and the drift check
     # becomes the real gate, which is what a reviewer actually wants asked.
-    (["wiki-skills", "scan"], "regenerate skills/INDEX.md", True),
+    (["wiki-lessons", "scan"], "regenerate skills/INDEX.md", True),
 ]
 GATE = [
     (["wiki-lint"], "frontmatter, links, retractions, index drift", False),
@@ -95,7 +95,15 @@ GATE = [
     # the section shipped on 2026-08-30 with two skills absent from its own
     # changelog and an index that had already drifted from the files, and
     # nothing surfaced either.
-    (["wiki-skills", "check"], "skills routed, well-formed and recorded", False),
+    (["wiki-lessons", "check"], "skills routed, well-formed and recorded", False),
+    # The skills database has the same derived-file problem as the ledger, plus
+    # one the ledger does not: it is written by several models from several
+    # branches, and its page is public. A drifted projection still reads as a
+    # plausible registry; a page behind the log tells a foreign model the
+    # repository offers something it no longer does. This also re-scans the
+    # committed database for credential shapes, which is the check that has to
+    # run on every commit rather than on every push.
+    (["wiki-skills", "check"], "skills database log, projection and page agree", False),
 ]
 SCAN = [
     (["wiki-work", "scan"], "recompute WORK.md", True),

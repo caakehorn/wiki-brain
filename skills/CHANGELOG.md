@@ -14,13 +14,17 @@ nothing surfaced what it was holding. This pass makes it real.
 
 **Tooling and routing**
 
-- Added `bin/wiki-skills` — `check` (the gate), `scan` (regenerates
+- Added `bin/wiki-lessons` — `check` (the gate), `scan` (regenerates
   `INDEX.md`), `route` (runs the routing algorithm rather than describing it),
-  `list`, `status`, `next`, `new`.
+  `list`, `status`, `next`, `new`. Written as `bin/wiki-skills` and renamed on
+  merge: `#225` had taken that name the same day for the capability registry,
+  which is a different tool over different data and was already public at
+  `wiki/meta/skills.md`. Two tools, two names: **lessons** are what agents have
+  learned about this repository, **skills** are what a model has.
 - `INDEX.md` is now **generated** from the skill files. It previously carried a
   `Status` column duplicating each file's `status:` frontmatter — two sources of
   truth for one fact, which is the defect `WORK.md` exists to not have.
-- `bin/wiki-skills check` joined the gate chain in `bin/wiki-check`, and
+- `bin/wiki-lessons check` joined the gate chain in `bin/wiki-check`, and
   unvalidated inbox candidates now surface as obligations in `bin/wiki-work`.
 - `CLAUDE.md` routes at the section: the governing set, the architecture map,
   the LEARN operation, the tools table and the pre-commit block.
@@ -52,3 +56,17 @@ repository's record:
 - `repo/session-loop.md` and `repo/change-safety.md` — promoted `active` on
   2026-08-30 with the section itself; named here because the gate requires it
   and their arrival was never recorded.
+
+## 2026-08-30 — the section, and the registry
+
+- Created the canonical `skills/` subsystem for persistent, cross-model operational learning.
+- Added routing (`INDEX.md`), lifecycle rules (`PROTOCOL.md`), candidate capture (`INBOX.md`), and initial repository skills.
+- Added the registry: `skills/registry/`, an append-only cross-model database of
+  what each model actually has — skills, MCP servers, plugin tools, subagents,
+  harnesses and this repository's own commands. Written by `bin/wiki-skills`,
+  rendered public at `wiki/meta/skills.md`, gated in `bin/wiki-check`. This
+  makes the third mandatory session step in `README.md` a real operation rather
+  than an intention; it had named a "running directory" that did not exist.
+- Promoted `agents/registry-push.md` to active — the instruction for a model
+  told to update the skills in the wiki. Seeded with 51 capabilities from one
+  model; the diff view is worth nothing until a second model pushes.

@@ -15,22 +15,22 @@ describing a system that did not exist. `CLAUDE.md` never mentioned it, so its
 routed to it, no test covered it. Two of its own skills were already missing from
 its `CHANGELOG.md` and its `INDEX.md` had already drifted from the files.
 
-**What exists now.** `bin/wiki-skills` (`route`, `check`, `scan`, `next`, `list`,
+**What exists now.** `bin/wiki-lessons` (`route`, `check`, `scan`, `next`, `list`,
 `status`, `new`), gating inside `bin/wiki-check`; `skills/INDEX.md` **generated**
 rather than hand-maintained; inbox candidates surfacing as obligations in
 `bin/wiki-work`; a **LEARN** operation in `CLAUDE.md`; six skills, four of them
 newly promoted from dated incidents already in this repository;
-`tests/test_wiki_skills.py` (22 cases, suite 262 green). Full account in `log.md`.
+`tests/test_wiki_lessons.py` (22 cases, suite 262 green). Full account in `log.md`.
 
 **Read these before touching it:**
 
 1. **`skills/INDEX.md` is generated. Do not hand-edit it.** Change a skill's
-   `status:` or `triggers:` in its own file and run `bin/wiki-skills scan`. The
+   `status:` or `triggers:` in its own file and run `bin/wiki-lessons scan`. The
    gate fails while the committed index is not what `scan` would write.
 2. **`skills/` is not `.claude/skills/`.** The latter holds procedures for one
    whole wiki operation, invoked by name by Claude Code. The former holds
    vendor-neutral lessons about the machinery, loaded by trigger via
-   `bin/wiki-skills route "<task>"`. Both are described in `CLAUDE.md`.
+   `bin/wiki-lessons route "<task>"`. Both are described in `CLAUDE.md`.
 3. **Do not promote an inbox candidate to clear the obligation.** One candidate
    is parked and is meant to stay parked until its evidence arrives —
    `PROTOCOL.md` §3. An instruction promoted early is worse than one still in
@@ -51,6 +51,85 @@ describes, not a date bump, and that is a content pass rather than this one.
 > the entry below is stale on that point and is left as written rather than
 > silently edited. `skills/repo/publication-surface.md` records the current
 > state and the trap that produced the confusion.
+
+> **Renamed on merge (2026-08-30).** This session's tool shipped as
+> `bin/wiki-skills`; PR #225 had taken that name the same day for the capability
+> registry, which is a different tool over different data and was already public
+> at `wiki/meta/skills.md`. This one is now **`bin/wiki-lessons`** — lessons are
+> what agents have learned here, skills are what a model has. Every reference in
+> this entry has been updated; `tests/test_wiki_skills.py` became
+> `tests/test_wiki_lessons.py`, and both tools now gate side by side in
+> `bin/wiki-check`.
+
+### [2026-08-30] - Session: the skills section became a cross-model database
+
+* **Model:** Claude Code (remote) · **Branch:** `claude/wikibrain-skills-database-fhkn9h`
+* **Trigger:** operator asked to keep the purpose already written into `skills/`
+  **and** add a running database of the skills every model has — one that models
+  push to and iterate off each other through, public-facing, and its own page in
+  the wiki rather than a side file.
+
+**What exists now.** `bin/wiki-skills` · `skills/registry/` (`events.jsonl`
+append-only record, `registry.json` projection, `manifests/`, `README.md`) ·
+`skills/agents/registry-push.md` · `.claude/skills/wiki-skills/` ·
+**`wiki/meta/skills.md`**, generated and served on the portal ·
+`tests/test_wiki_skills.py` (24 tests) · a gate inside `bin/wiki-check`. Full
+account in `log.md`.
+
+**Read these before touching it:**
+
+1. **The page is generated. Never hand-edit it.** `wiki/meta/skills.md` is
+   written by `bin/wiki-skills page` from the log, and the gate fails on drift.
+   The fix is always to rerun the tool.
+2. **Values never enter the database — names only.** This repository is public
+   (`"visibility": "public"`, checked against the API this pass). The tool
+   refuses a credential shape and names the field rather than stripping it; the
+   refusal is correct and is not to be worked around by rephrasing. `check`
+   re-scans the committed file on every commit.
+3. **The standing directive is enforced in the renderer, in two tiers** — a name
+   that cannot be printed is omitted and counted; a neutral name whose summary
+   names her keeps its row and path and loses the summary. Both the render and
+   the file on disk are checked. Not yours to override, including by hand-editing
+   the page.
+4. **A push that records nothing is a success.** It is idempotent by content
+   digest. `0 new, 0 revised, 53 unchanged` means the database already had you —
+   report that, do not hunt for something to change.
+
+**The next thing that should happen here, and it needs another model.** The
+database holds 53 capabilities from exactly one agent (`claude-code`), so
+`bin/wiki-skills diff` has nothing to compare and the Shared surface section of
+the page is empty by construction. **The value is entirely in the second
+push.** When a Codex, Cursor or browser-Claude session works here, have it run:
+
+```bash
+bin/wiki-skills push --scan --agent <id> --vendor <v> --surface <s>
+cp skills/registry/manifests/claude-code.json skills/registry/manifests/<id>.json
+# rewrite the agent block and the capabilities, then
+bin/wiki-skills push -f skills/registry/manifests/<id>.json
+bin/wiki-skills page && bin/wiki-check
+```
+
+Then `bin/wiki-skills diff claude-code <id>` becomes the interesting view: not
+only what each has that the other lacks, but capabilities **both** declare at
+different content digests — meaning one has revised an instruction the other is
+still running.
+
+**Two things left undone, deliberately, and neither silently:**
+
+* **The 90 stale-premise obligations in `WORK.md` are untouched.** They predate
+  this session and are unrelated to it — every one is a `climb` premise that
+  moved under a synthesis. Draining them is a reading job, not a mechanical one
+  (`wiki-housekeeping`), and doing it inside a tooling pass would have mixed two
+  kinds of change in one branch. They are still there, still advisory, still
+  first in `bin/wiki-work next`.
+* **`log.md`'s tail is stale on one point.** An earlier pass the same day wrote
+  *"The repository is private as of this pass."* It is public — confirmed
+  against the API — and `CLAUDE.md` governs: the ledger is tracked and public by
+  a later operator decision. A session reading only the tail of `log.md` would
+  conclude the opposite and might relax the secret discipline. `intake/events.jsonl`
+  is empty, so nothing personal has been published.
+
+**Gates:** `bin/wiki-check` all clean · 472 pages · 264 tests pass.
 
 ### [2026-08-30] - Session: the intake ledger (`bin/intake`, `intake/`, Special:Intake)
 

@@ -21,8 +21,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | | |
 |---|---|
-| Pages | 471 |
-| Pages touched in the last 14 days | 191 |
+| Pages | 472 |
+| Pages touched in the last 14 days | 192 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 41 |
 | Open gaps | 484 |
@@ -39,7 +39,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | self | 40 |
 | work | 15 |
 | places | 10 |
-| meta | 8 |
+| meta | 9 |
 | health | 5 |
 | legal | 4 |
 
@@ -47,7 +47,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | Status | Pages |
 |---|---|
-| active | 182 |
+| active | 183 |
 | stable | 146 |
 | closed | 100 |
 | archived | 31 |
@@ -55,9 +55,11 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-30** — 3 pages
+**2026-08-30** — 5 pages
+  - build | meta | the skills section was a contract with no counterparty
   - tool | health | the intake ledger — `bin/intake`, `intake/`, Special:Intake
   - infra | intake | the portal as a third interface, and the guard that actually guards
+  - declare | meta | the skills section becomes a cross-model database
 
 **2026-08-28** — 39 pages
   - feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch
@@ -95,7 +97,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
   - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
 
-**2026-08-26** — 53 pages
+**2026-08-26** — 52 pages
   - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
   - ingest | mind | the ideal-face specification — a mystery queue item resolved
   - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded

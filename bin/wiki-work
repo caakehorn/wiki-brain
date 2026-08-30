@@ -254,7 +254,8 @@ def find_failing_gates():
     items = []
     for name, why in (("wiki-connect", "typed edges are missing a type or a claim"),
                       ("wiki-climb", "a synthesizes: block does not resolve"),
-                      ("wiki-skills", "a skill is malformed, unrouted or unrecorded")):
+                      ("wiki-lessons", "a skill is malformed, unrouted or unrecorded"),
+                      ("wiki-skills", "the capability registry, its projection and its page disagree")):
         tool = ROOT / "bin" / name
         if not tool.exists():
             continue
@@ -321,7 +322,7 @@ def find_skill_candidates():
                    "(skills/PROTOCOL.md \u00a73). Otherwise leave it in the inbox and "
                    "record what evidence is still missing \u2014 an instruction promoted "
                    "early is worse than one still parked, because the index vouches "
-                   "for it. `bin/wiki-skills next` lists these.",
+                   "for it. `bin/wiki-lessons next` lists these.",
         ))
     return items
 

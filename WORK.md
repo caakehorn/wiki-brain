@@ -15,7 +15,7 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (91)
+## Obligations (92)
 
 Somebody or something is waiting on each of these. Drain from the top.
 
@@ -114,6 +114,7 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-08-28, after this page's 2026-08-19 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-28 |
 | 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-08-28, after this page's 2026-08-26 | `wiki/self/context-core.md` | 2026-08-28 |
 | 3 | stale | premise wiki/places/155-virginia-ave.md moved 2026-08-28, after this page's 2026-08-26 | `wiki/mind/synthesis/bond-switch-2015.md` | 2026-08-28 |
+| 4 | skill | unvalidated skill candidate — A generator's own output is not the published object | `skills/INBOX.md` | 2026-08-30 |
 | 4 | skill | unvalidated skill candidate — Persistent cross-agent learning loop | `skills/INBOX.md` | 2026-08-30 |
 
 ## Standing work (197)

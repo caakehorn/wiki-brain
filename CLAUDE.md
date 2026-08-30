@@ -35,9 +35,9 @@ A custom wiki system that aims to be as exhaustive and detailed as possible abou
 4. **then come back and drain the obligations, from the top**
 5. anything still outstanding goes into `LLM_HANDOFF.md` with a reason — never silently
 
-**Before you change anything mechanical, run `bin/wiki-skills route "<what you are about to do>"`.** `LLM_HANDOFF.md` says where we are and `WORK.md` says what is owed; `skills/` says *how not to break this repository doing it*, and it is the one of the three that is about technique rather than state. The router names the skills whose triggers intersect your surface and you load those — it is step 2 of `skills/INDEX.md`'s routing algorithm, run rather than remembered.
+**Before you change anything mechanical, run `bin/wiki-lessons route "<what you are about to do>"`.** `LLM_HANDOFF.md` says where we are and `WORK.md` says what is owed; `skills/` says *how not to break this repository doing it*, and it is the one of the three that is about technique rather than state. The router names the skills whose triggers intersect your surface and you load those — it is step 2 of `skills/INDEX.md`'s routing algorithm, run rather than remembered.
 
-This is a real step and it was inert until 2026-08-30. The section shipped declaring "mandatory session behavior" while this file — the only file that can make anything mandatory here — did not mention it, so nothing loaded it and nothing checked it. That is precisely the defect `bin/wiki-work` was built to end, arriving again in a seventh file: a corpus of instructions that relies on somebody remembering to look is one that a session can skip without the skip being visible. It now gates (`bin/wiki-skills check`) and its unvalidated candidates surface as obligations.
+This is a real step and it was inert until 2026-08-30. The section shipped declaring "mandatory session behavior" while this file — the only file that can make anything mandatory here — did not mention it, so nothing loaded it and nothing checked it. That is precisely the defect `bin/wiki-work` was built to end, arriving again in a seventh file: a corpus of instructions that relies on somebody remembering to look is one that a session can skip without the skip being visible. It now gates (`bin/wiki-lessons check`) and its unvalidated candidates surface as obligations.
 
 **At the end, write back what you learned.** If the session exposed a repeatable failure mode, a hidden invariant, a command sequence that prevents a recurring failure, or a trap specific to this repository, that is a skill — see the LEARN operation below. A lesson that stays in the session transcript is a lesson the next agent pays for again.
 
@@ -142,12 +142,18 @@ outside the repository, and the work of answering it goes back into `raw/` and
 **The analysis surface is `intake/SUMMARY.md` and `intake/units.json`** — both generated on every write, both committed, and both there so a session can reason about intake without parsing JSONL or reimplementing the arithmetic. **Read the coverage figure before quoting any mean from them.** A finding drawn from the ledger still reaches a page through the normal operations, cited to a unit id and a date range with its coverage attached — never as a bare mean.
 
 Four interfaces over one code path: `bin/intake`, Special:Intake in the local app, `/ledger` in the portal, and ボスの部屋 (`boss.html` in [`caakehorn/leviathan`](https://github.com/caakehorn/leviathan)) — the last two are the ones in his pocket, and therefore the ones most of the record will arrive through. Both write `intake/events.jsonl` directly through the contents API, byte-compatible with what the CLI appends; merges are set union by event id, so no two devices can lose each other's work. `intake/README.md`.
+- **`skills/`** — the two-layer agent-skills subsystem, with **one tool per layer, and they are not the same tool.**
+
+  The prose half is the **cross-agent operational memory**: what agents have learned about *changing* this repository, as opposed to what the repository knows about Dan. One instruction per file under a domain (`skills/repo/`, `skills/corpus/`), each carrying its trigger, the failure it prevents, and the command that validates it. `INDEX.md` is **generated** by `bin/wiki-lessons scan` — it used to carry a `Status` column duplicating each skill's own `status:` frontmatter, which is two sources of truth for one fact and the exact defect `WORK.md` exists to not have. `INBOX.md` holds candidates that are not yet validated; `PROTOCOL.md` is the lifecycle; `CHANGELOG.md` is the append-only record of every promotion, and a skill missing from it fails the gate, because an instruction with no dated account of why it should be believed is one nobody can audit. Reach it through `bin/wiki-lessons route "<task>"`, not by browsing.
+
+  The other half is **`skills/registry/`, the cross-model database**: an append-only log of what each model actually *has* — skills, MCP servers, plugin tool links, subagents, harnesses, and this repository's own `bin/` commands — pushed by the model itself, so a session can find out what it is working with instead of rediscovering it. `events.jsonl` is the record; `registry.json` is a projection, regenerable and safe to delete. It is a log rather than a document because several models push from several branches and two appends merge as a set union, where one mutable file would make every concurrent push a conflict whose loser is dropped silently. **`wiki/meta/skills.md` is its public face**, generated by `bin/wiki-skills page` and served by the portal like any other page — the database is part of the corpus, not an appendix to it. **⚠ It writes to a public repository**: values never enter it, only names, and the tool refuses a credential shape rather than stripping it. `skills/registry/README.md` and `skills/agents/registry-push.md`.
+
+  **The two names.** `bin/wiki-lessons` routes and gates the prose — *lessons* are what agents have learned here. `bin/wiki-skills` writes the registry — *skills* are what a model has. Both landed on 2026-08-30, both were written as `wiki-skills` by sessions that could not see each other, and the second one was renamed on merge because the first was already public at `wiki/meta/skills.md`. They read different data, gate different things, and share no code.
 - **`exports/`** — output of `bin/export-corpus`; never hand-edit, gitignored.
-- **`skills/`** — the **cross-agent operational memory**: what agents have learned about *changing* this repository, as opposed to what the repository knows about Dan. Everything else here is knowledge about the subject; this is knowledge about the work. One instruction per file under a domain (`skills/repo/`, `skills/corpus/`), each carrying its trigger, the failure it prevents, and the command that validates it. `INDEX.md` is **generated** by `bin/wiki-skills scan` — it used to carry a `Status` column duplicating each skill's own `status:` frontmatter, which is two sources of truth for one fact and the exact defect `WORK.md` exists to not have. `INBOX.md` holds candidates that are not yet validated; `PROTOCOL.md` is the lifecycle; `CHANGELOG.md` is the append-only record of every promotion, and a skill missing from it fails the gate, because an instruction with no dated account of why it should be believed is one nobody can audit. Reach it through `bin/wiki-skills route "<task>"`, not by browsing.
 
   **`skills/` and `.claude/skills/` are different things and the collision is unfortunate.** `.claude/skills/` holds Claude Code skills — `wiki-rewrite`, `wiki-housekeeping`, `corpus-read` — which are procedures for running one big *wiki operation*, invoked by name by one vendor's agent, and named in this file where that operation is defined. `skills/` is vendor-neutral, is loaded by trigger rather than by name, and holds the small durable lessons about not breaking the machinery — the kind of thing that would otherwise be rediscovered once per model. A procedure for an operation goes in `.claude/skills/`; a lesson about the repository goes in `skills/`. When a lesson is big enough to be a procedure, promote it and leave a pointer.
 - **The portal** — [`caakehorn/home`](https://github.com/caakehorn/home) renders this wiki, and its `public/wiki/**` is a **derived snapshot of `wiki/`, not a second copy of it.** A workflow there re-runs the derivation against this repo on dispatch *and hourly*, deleting the directory and rebuilding it, so **anything written into `public/wiki/` is destroyed within the hour** — including a change that merged. If a session finds itself editing a page as JSON, it is in the wrong repository: pages are `wiki/**.md`, here. This is not a style preference; two December 2015 read passes were written into the snapshot and one was reverted 39 minutes after merging (restored 2026-08-17). **The dispatch that wakes it is `.github/workflows/notify-portal.yml`, here** — it fires `wiki-updated` at the portal on every push to `main` touching `wiki/**`, `sage/questions/**` or `plain/**`, which are the only three paths the portal's `sync-wiki.mjs` reads. It needs `PORTAL_DISPATCH_TOKEN` in this repository's secrets and **ships inert without it**, falling back to the portal's hourly cron; if a merged answer is not live within a minute or two, check that secret first.
-- **Meta files** (root): `index.md` master navigation · `log.md` append-only operation log · `operator-log.md` append-only ledger of operator additions (written by `bin/wiki-gaps`, never by hand) · **`WORK.md` the one outstanding-work list (written by `bin/wiki-work`, never by hand)** · `skills/INDEX.md` the skill routing table (written by `bin/wiki-skills`, never by hand) · `queue.md` pending-ingest ledger · `connection-queue.md` mined edge backlog · `synthesis-queue.md` mined climb backlog · `BACKLOG.md` standing work.
+- **Meta files** (root): `index.md` master navigation · `log.md` append-only operation log · `operator-log.md` append-only ledger of operator additions (written by `bin/wiki-gaps`, never by hand) · **`WORK.md` the one outstanding-work list (written by `bin/wiki-work`, never by hand)** · `skills/INDEX.md` the skill routing table (written by `bin/wiki-lessons`, never by hand) · `queue.md` pending-ingest ledger · `connection-queue.md` mined edge backlog · `synthesis-queue.md` mined climb backlog · `BACKLOG.md` standing work.
 
 Git is the history mechanism. Commit after every ingest with `<op>: <short description>`. Never commit secrets or `exports/`.
 
@@ -343,7 +349,7 @@ discover that the next one should not have to?**
 3. **Something proven → a skill.** Promote only when one of `PROTOCOL.md` §3's
    three tests passes: it has explained the same class of failure more than once,
    a command or test validates it, or a governing spec already implies it
-   mechanically. `bin/wiki-skills new <domain>/<slug>` scaffolds the file.
+   mechanically. `bin/wiki-lessons new <domain>/<slug>` scaffolds the file.
 4. **Revise rather than overwrite.** If an existing skill was nearly right,
    improve the instruction and keep the invariant; if it was wrong, mark it
    `deprecated` or `retired` and write the replacement with `supersedes:`. Never
@@ -351,10 +357,10 @@ discover that the next one should not have to?**
    in the tree and in the index's History table on purpose: deleting it leaves
    the agent who remembers being told it with nothing to correct it.
 5. **Record it in `skills/CHANGELOG.md`** with the date and the reason. This is
-   not bookkeeping — `bin/wiki-skills check` fails on a skill that is not named
+   not bookkeeping — `bin/wiki-lessons check` fails on a skill that is not named
    there, because an instruction the corpus cannot account for is one no later
    reader can weigh.
-6. `bin/wiki-skills scan`, then the gates; log `learn | skills | <what was
+6. `bin/wiki-lessons scan`, then the gates; log `learn | skills | <what was
    promoted and why>`; commit.
 
 **Do not promote a lesson to clear an inbox entry.** A candidate parked with its
@@ -362,6 +368,49 @@ evidence still missing is doing its job; an instruction promoted early is worse
 than one still parked, because the index vouches for it and the next agent has
 no way to know it was a guess. Leaving it in the inbox with a note about what
 evidence is still needed is a complete and correct outcome.
+
+### DECLARE — push what this model has into the skills database
+
+Every other operation moves knowledge about Dan. This one moves knowledge about
+the machines: **what capabilities the model doing the work actually has.**
+
+Several models work on this repository — Claude Code in a terminal, Claude in a
+browser, Codex, Cursor, whatever comes next — and each arrives with a different
+set of skills, MCP servers, plugin tools and subagents that none of the others
+can see. Without a shared record every session rediscovers the same surface, and
+a lesson one model learned about a tool the next model also has dies in a
+transcript nobody keeps.
+
+**When the operator asks to update the skills in the wiki, this is the
+operation** — not editing a skill's prose, which is `skills/PROTOCOL.md`.
+Invoke the `wiki-skills` skill (`.claude/skills/wiki-skills/`); the full
+instruction is `skills/agents/registry-push.md` and the format is
+`skills/registry/README.md`. The short form:
+
+1. `bin/wiki-skills push --scan --agent <id> --vendor <v> --surface <s>` — the
+   repository's own half: the skills under `.claude/skills/` and `skills/`,
+   every command in `bin/` with its own docstring as its summary, MCP servers
+   configured in the tree, hooks, subagent definitions.
+2. `bin/wiki-skills push -f skills/registry/manifests/<id>.json` — **the half no
+   scan can see**: the model's own skills, MCP servers, plugin tool links,
+   subagents and harness. Nothing in the working tree records these, so an
+   undeclared capability is one no other model will ever learn about.
+3. **Environment variable NAMES only, never a value.** This repository is public
+   and its history cannot be un-published; MCP configurations are the most
+   reliable place in an agent's environment to find a live key. The tool refuses
+   a credential shape and names the field rather than stripping it — the refusal
+   is correct and is not to be worked around by rephrasing.
+4. `bin/wiki-skills page`, then the gates. The page is generated; a hand-edit
+   fails `check` and the fix is to rerun the tool.
+5. Read the other direction before substantial work: `bin/wiki-skills list
+   --kind command` for what this repo gives you, and `bin/wiki-skills diff <a>
+   <b>` for what another model has that you lack — including capabilities you
+   both declare at **different digests**, meaning one of you has revised an
+   instruction the other is still running.
+
+A push that records nothing is a success: it is idempotent by content digest,
+and `0 new, 0 revised, 51 unchanged` means the database already had you. Log
+`declare | meta | <agent> — <what moved>` and commit.
 
 ### LINT (periodic)
 
@@ -388,9 +437,10 @@ Sweep for: broken links, orphan pages, contradictions between pages, claims supe
 | `bin/ingest-pack` / `bin/ingest-apply` | the any-LLM paste-box route (`INGEST_PROTOCOL.md`) |
 | `bin/wiki-work` | **the one outstanding-work list, and a required session step.** Aggregates every source of outstanding work — parked `sage/` questions, staged answers, stale premises, unnormalised portal edits, and the four standing queues — and separates obligations from campaign work. `scan` regenerates `WORK.md`; `next` names the top item and the operation that clears it; `check` prints the gate banner and always exits 0. No `done` command, by design |
 | `bin/wiki-plain` | **the READER'S DIGEST layer.** `status` (coverage), `check` (the gate — stale, orphaned or forbidden twins), `audit [slug]` (**the anti-slop referee** — fabricated numbers, leaked apparatus, filler, a dropped honest half, reading level; gates in `bin/wiki-check`), `next [n] [--synthesis]` (densest untranslated), `new <slug>` (scaffold), `task [slug]` (one page's whole writing task, rules and page included, for an unattended agent — see `PLAIN_AGENT.md`). Encodes the standing moratorium as two mechanical rules rather than leaving it to a session to remember, and **refuses** rather than warns |
-| `bin/wiki-skills` | **the gate and the router over `skills/`.** `route "<task>"` names the skills a piece of work must load — the routing algorithm run rather than remembered; `check` gates (malformed frontmatter, a missing required section, an index that has drifted from the files, a superseded skill still routed, a skill absent from `CHANGELOG.md`); `scan` regenerates `INDEX.md`; `next` lists candidates awaiting validation; `new` scaffolds; `list`/`status` read the corpus. It deliberately does **not** judge whether a skill is *true* — that needs evidence and a second occurrence, per `PROTOCOL.md` §3 |
+| `bin/wiki-lessons` | **the gate and the router over `skills/`.** `route "<task>"` names the skills a piece of work must load — the routing algorithm run rather than remembered; `check` gates (malformed frontmatter, a missing required section, an index that has drifted from the files, a superseded skill still routed, a skill absent from `CHANGELOG.md`); `scan` regenerates `INDEX.md`; `next` lists candidates awaiting validation; `new` scaffolds; `list`/`status` read the corpus. It deliberately does **not** judge whether a skill is *true* — that needs evidence and a second occurrence, per `PROTOCOL.md` §3 |
 | `bin/wiki-gaps` | operator-facing: answer an open gap, or volunteer a fact the page never asked for, and stage it for the next pass. `pages [filter]` lists **every** page so any of them can take a manual addition; `list` lists only those with open items; `pending` lists what is waiting; `clear` closes the loop and marks `operator-log.md`. Reads gaps, open leads, corrections queues and "what's missing" sections alike |
 | `bin/intake` | **the intake ledger.** `new` opens a unit, `log` records one intake against it (measured, `--estimated`, or `--descriptor "one line"` for an event with no reliable quantity), `correct`/`void` supersede an event without erasing it, `close` refuses to finish while quantity is unaccounted for, `report` prints the unit report, `stats` reads across every unit, `check` gates in `bin/wiki-check`. Event-sourced in plain JSONL. **Never prints a quantity statistic without the share of events it was computed from** — a mean over 10 of 13 events must not be able to look like a mean over 13 |
+| `bin/wiki-skills` | **the cross-model skills database.** `push --scan --agent <id>` records what this repository supplies; `push -f <manifest>` records what a model brings that no scan can see — its skills, MCP servers, plugin tool links, subagents and harness. `list`, `show`, `diff <a> <b>` read it; `note` attaches an observation to a capability; `page` regenerates `wiki/meta/skills.md`; `check` gates in `bin/wiki-check`. Append-only JSONL with a regenerable projection, idempotent by content digest. **Values never enter it — environment variable NAMES only** — and it refuses rather than strips, because this repository is public |
 
 ## Before every commit
 
@@ -413,12 +463,13 @@ without regenerating, which is how the LLM manifest got eleven pages behind on
 ```bash
 bin/wiki-lint && bin/wiki-connect check && bin/wiki-climb check   # all at 0 errors
 bin/wiki-plain check                                               # Reader's Digest twins current
-bin/wiki-skills check                                              # skills routed, well-formed, recorded
+bin/wiki-lessons check                                             # skills routed, well-formed, recorded
 bin/intake check                                                   # ledger log and projection agree
+bin/wiki-skills check                                              # skills database, projection and page agree
 bin/wiki-digest && bin/llm-publish                                 # after any content pass
 bin/wiki-freshness                                                 # confirms the two above actually ran
 bin/wiki-work scan                                                 # WORK.md back in step with the repo
-bin/wiki-skills scan                                               # skills/INDEX.md back in step with the files
+bin/wiki-lessons scan                                              # skills/INDEX.md back in step with the files
 ```
 
 `bin/wiki-lint` ends every run with what `bin/wiki-work check` found. That banner
