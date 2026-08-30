@@ -85,7 +85,7 @@ Non-music performers in the record: **Dave Chappelle**, **Hannibal Buress**, **J
 
 The concert log is not a complete autobiography, but it does trace several arcs with unusual precision.
 
-**The geography is a life map.** The cluster of Burgettstown, Pittsburgh, and Latrobe dates from 2001–2009 corresponds to the southwest Pennsylvania years. The Orlando entries from 2008–2009 mark the brief Florida chapter. The New York and New Jersey dates from 2011–2019 trace the post-2010 chapter. The 2013 Oddball Festival appearance — back at the Post-Gazette Pavilion — coincides with the return to Pennsylvania that the timeline documents.
+**The geography is a life map.** The cluster of Burgettstown, Pittsburgh, and Latrobe dates from 2001–2009 corresponds to the southwest Pennsylvania years. The Orlando entries from 2008–2009 mark the brief Florida chapter. The New York and New Jersey dates from 2011–2019 trace the chapter after that. The 2013 Oddball Festival appearance — back at the Post-Gazette Pavilion — coincides with the return to Pennsylvania that the timeline documents.
 
 **The Warped Tour was the most consistent live experience.** Five appearances between 2005 and 2008 at the same venue, year after year, with overlapping lineups of the pop-punk and emo-adjacent acts that dominate the favorites list. It was less a concert series than a seasonal ritual.
 

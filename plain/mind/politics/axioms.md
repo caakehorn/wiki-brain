@@ -3,7 +3,7 @@ plain_of: wiki/mind/politics/axioms
 title: "The Power Axiom: What Resolves the Leftist/Authoritarian 'Paradox'"
 reading_level: general
 date_modified: 2026-08-26
-source_modified: 2026-08-19
+source_modified: 2026-08-26
 ---
 
 # The Power Axiom: What Resolves the Leftist/Authoritarian "Paradox"

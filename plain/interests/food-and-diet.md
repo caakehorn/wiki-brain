@@ -3,7 +3,7 @@ plain_of: wiki/interests/food-and-diet
 title: "Food and Diet"
 reading_level: general
 date_modified: 2026-08-26
-source_modified: 2026-08-21
+source_modified: 2026-08-28
 ---
 
 # Food and Diet
@@ -77,6 +77,33 @@ The distinction the earlier reading missed is between **evaluation** and
 **specification**. He does not judge food. He specifies it, and enforcement is
 absolute. Those are different faculties, and only the first one leaves a
 favourites list.
+
+## Why the rule is all-or-nothing
+
+The most useful thing about the food rule is not how strict it is. It is that
+the strictness has a known cause, and the cause is the same one that explains
+several other things about Dan.
+
+His mind runs a pass/fail test. It asks whether a thing holds together, not how
+much of it holds together. There is no second setting that produces a verdict
+like *"fine, in a small amount."* The part of a person that would normally make
+that softer call — the part that weighs how others feel and lands somewhere in
+the middle — is the weakest part of his profile by a wide margin.
+
+So a sandwich that turns up with something on it he did not ask for does not
+fail by degrees. It fails. There is no room to talk him into "close enough,"
+because the function that would run that negotiation is barely there.
+
+That is the same account the rest of the wiki gives for much bigger things:
+worth, taste, trust, and his frozen verdict on a favourite band. Here it runs
+on a plate instead of a person, and that is what makes food the clearest case
+of all. A person can be argued with, flattered, or given the benefit of the
+doubt. A sandwich cannot. So the on/off switch shows with nothing to blur it.
+
+One honest caveat: the profile scores behind this explanation were commissioned
+by Dan about himself, not measured against his message record. The composition
+rule itself comes straight from him and is solid. The explanation for *why* it
+is absolute is the best account available, not an independently checked fact.
 
 ## The controls
 

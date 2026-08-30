@@ -53,7 +53,7 @@ The theory doubles as identity project. "Witness" is a role that converts Dan's 
 
 ## What we still don't know
 
-- The theory is developed entirely in AI sessions from 2025–2026. No earlier statement of it exists in the record, so whether it is a long-held frame or a recent LLM-era construction is undetermined.
+- The theory is developed entirely in AI sessions from 2025–26. No earlier statement of it exists in the record, so whether it is a long-held frame or a recent LLM-era construction is undetermined.
 - Whether the witness role is experienced by Dan as epistemic advantage or as a consolation for social distance is not resolved in the record.
 - The Facebook archive ends in 2022. Whether the "witness" function has continued, intensified, or diminished in the years since is undocumented.
 - Whether the theory can be tested against actual analytical output — does the "witness" produce better analysis than non-witness approaches? — is not established.

@@ -36,7 +36,6 @@ The corpus doesn't provide, and this page doesn't claim, a clinical framing for 
 
 - **Whether this applies universally** (all genres, all languages) or specifically to English-language vocals in genres Dan listens to most (where the assumption that "of course he's parsing the words" would be strongest) is unclear from the single capture this page is built on.
 - **No raw corpus source predates this direct statement** — it is not yet corroborated by any message thread or earlier self-description.
-- **The statement was corroborated once**, roughly a year later, when Dan told a hostile third party mid-argument in late summer 2025: "I hear melodies, harmonies. I don't hear the narrative or the topic of the lyrical content at all."
 
 ---
 

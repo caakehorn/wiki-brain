@@ -30,7 +30,7 @@ The conversion was not presented as tentative or exploratory. Dan did not say "I
 
 ## The media pipeline
 
-The names Dan credits are a specific ecosystem, often called the "dirtbag left" or "BreadTube." This is a loose network of left-wing podcasts, YouTube channels, and streamers that emerged in the late 2010s as a reaction against both mainstream liberalism and online "woke-scold" culture. The through-line is a class-first, anti-capitalist politics delivered with irony and vulgarity, explicitly rejecting the respectability politics of the center-left establishment.
+The names Dan credits are a specific ecosystem, often called the "dirtbag left" or "BreadTube." This is a loose network of left-wing podcasts, YouTube channels, and streamers that grew up as a reaction against both mainstream liberalism and online "woke-scold" culture. The through-line is a class-first, anti-capitalist politics delivered with irony and vulgarity, explicitly rejecting the respectability politics of the center-left establishment.
 
 Each name is corroborated by independent activity in his digital record:
 

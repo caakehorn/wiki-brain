@@ -3,7 +3,7 @@ plain_of: wiki/mind/concepts/acquisition-drive
 title: "The Acquisition Drive"
 reading_level: general
 date_modified: 2026-08-26
-source_modified: 2026-08-11
+source_modified: 2026-08-26
 ---
 
 # The Acquisition Drive
@@ -139,6 +139,31 @@ readings are not compatible: one describes a brake that fails, the other an
 engine that works. The evidence for the second is currently one first-person
 operator claim plus the event record above; the evidence for the first is a
 scored instrument. Neither is discarded here.
+
+## What the drive is actually chasing: closure, not completion
+
+There is a sentence from Dan himself that changes the shape of this page, and
+it is the only one of its kind in the record. Four days after his
+great-grandmother's funeral, unprompted, he wrote to a third party:
+
+> **2018-04-06, 17:55:** *"she was a trip dude but i spent the past 6 months
+> looking after her full time ($15 an hour to play video games with gram is a
+> good deal) and we had a lot of fun. got good closure and finally did
+> something in my life that wasn't completely selfish haha"*
+
+A search of all 106,629 messages Dan has sent turns up no second instance of
+him reporting a good outcome from something he *did*. Every other positive
+thing he says about himself is about something he *had* — a person, an object,
+a possession. This one sentence is the only place in the entire record where
+the drive gets a success condition stated in his own voice, and it names three
+things: fun, **closure**, and being useful to somebody else.
+
+That narrows the page's claim rather than rescuing it. "Runs to the end no
+matter the cost" is not what the sentence describes. It describes an ending
+that felt *finished*. That is a smaller and more testable idea, and it fits
+the correction above rather than fighting it: the abandoned projects were all
+self-set, and none of them stalled because he ran out of determination. They
+stalled because none of them had a defined ending to close against.
 
 ## The controls
 

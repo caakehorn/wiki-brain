@@ -3,7 +3,7 @@ plain_of: wiki/mind/synthesis/political-psyops
 title: "Political Psyops & Hybrid Events"
 reading_level: general
 date_modified: 2026-08-26
-source_modified: 2026-08-19
+source_modified: 2026-08-26
 ---
 
 # Political Psyops & Hybrid Events
@@ -35,6 +35,53 @@ The meta-point survives scrutiny either way, in Dan's reading: the point was the
 In a separate conversation with Claude, an initially skeptical AI conceded that the coordination problem is overstated for a small group, called the procedural anomalies the strongest argument, rated it "the most internally coherent version of January 6th revisionism," and updated its assessment to "warrants genuine forensic investigation that has not occurred."
 
 **A note on timing:** the Gemini "Operation Wildfall" codification is dated January 2, 2026, but the thesis itself is older. A ChatGPT session from June 15, 2025 — seven months earlier, on a different platform — has Dan independently posing the same question ("what are the odds the Babbitt shooting is a legitimate shooting... and not part of a false flag to build a narrative") and landing on the same hybrid verdict. The recurrence across platforms and months is itself evidence of how settled this conclusion was long before it got its formal vocabulary.
+
+## The documents pass — and how much weight it can carry
+
+A fuller copy of the same AI chat runs on past where the earlier copy stops. In
+the later part, Dan uploads actual documents and asks the model to read each one
+against the theory he has been building: a records release about the Babbitt
+shooting, a police operational-planning release, the public timeline of the day,
+part of the January 6 Committee's final report, and a map-based visualisation.
+
+**Read what follows at arm's length.** This is a model summarising documents Dan
+handed it. Those documents are not held in this archive, so nothing in this
+section has been checked against the originals. That is a weaker kind of evidence
+than most of what this wiki carries, and the difference matters.
+
+**On the shooting records**, the model points out that the official papers do not
+agree with each other about where the wound was — "upper portion of the left
+chest near the clavicle" in one, "left anterior shoulder" in another, "left
+shoulder" in a same-day email, "the chest somewhere" from a witness. Its own read
+is that this is a problem *for* the official account rather than a hole in it: it
+means the physical baseline anyone would argue from is itself unsteady. The same
+release records that a police lawyer asked for the radio recordings back and never
+passed them to the investigators, and states that Capitol Police officers wore no
+body cameras — which left footage filmed by members of the public as the only
+visual record of the day.
+
+**On the police planning records**, the model reads an 11:19 a.m. alert placing
+200-plus Proud Boys on Capitol grounds while Trump was still speaking at the
+Ellipse, an FBI report noting people already under investigation were in the
+crowd, and a Secret Service note about attendees in helmets and body armour
+carrying military-grade radios. The gap it draws out: heavy security went to the
+Ellipse, while the Capitol — where the intelligence had already put an organised
+group early — got comparatively little.
+
+**On the report and the timeline**, three details it calls under-examined: the
+Defense Secretary's January 4 order that National Guard members could not deploy
+with weapons, helmets, body armour or riot gear without his personal say-so, two
+days beforehand; the Capitol Police Board's decision not to request the Guard,
+taken three days early rather than during the breach itself; and the Army's
+two-week denial that Lt. Gen. Charles Flynn — Michael Flynn's brother — was on
+the 2:26 p.m. call where deployment stalled, which the timeline then shows he was.
+
+None of this is offered as proof. The model's own closing line treats it as a
+pattern rather than a smoking gun: a security apparatus that "received clear
+advance intelligence, pre-positioned insufficient forces, stripped available
+forces of protective gear, required multiple redundant authorization chains to
+deploy... and then spent the subsequent investigation carefully separating each
+individual failure from the others so no systemic picture emerges."
 
 ## The broader political picture
 

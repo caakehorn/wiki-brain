@@ -3,7 +3,7 @@ plain_of: wiki/timeline/events/franki-fireworks-day-2013
 title: "The Franki Fireworks Day (early July 2013)"
 reading_level: general
 date_modified: 2026-08-26
-source_modified: 2026-08-02
+source_modified: 2026-08-28
 ---
 
 # The Franki Fireworks Day (early July 2013)
@@ -33,7 +33,7 @@ The page for Franki has carried a standing note that the "July 4" framing used e
 
 **The confrontation is now verbatim.** The Franki Faris page had recorded that the wording and date of Alexis's challenge "hasn't been located verbatim, only referenced retrospectively." It has been located: "I saw your messages. I know you're with Franki." The mechanism is also newly specific — she was reading his messages, prompted by something in his behavior, which makes the discovery an act of detection rather than a coincidence.
 
-**Alexis was displaced to a property the archive did not know was in play.** She moved to "suz's other place at 155 virginia avenue," stayed five days, and then returned to her parents in Carmichaels. The page for 155 Virginia Avenue dates its own story from a January 2015 lease. This puts the address under Dan's mother's control eighteen months earlier, and already performing the function the later page calls lair-continuity: housing a partner who has been displaced from the primary residence. The lair predates the tenancy.
+**Alexis was displaced to a property the archive did not know was in play.** She moved to "suz's other place at 155 virginia avenue," stayed five days, and then returned to her parents in Carmichaels. The page for 155 Virginia Avenue dates its own story from a January 2015 lease. This puts the address under Dan's mother's control eighteen months earlier, and already performing the function the later page calls lair-continuity: housing a partner who has been displaced from the primary residence. The lair predates the tenancy. The second 2026 account also carries her onward: from Virginia Avenue to her mother's house, then a new boyfriend, a brief move to New York City, and a reconciliation with Dan in October 2013 — which is why this entry's span now runs to the end of October rather than stopping in July.
 
 **Dan's mother then engineered the aftermath.** Per the account, she thought it a good idea to have Alexis and Danielle Onesi — Dan's first girlfriend and Alexis's "former enemy" — spend time together and bond over their shared grievance, "and this caused a huge thing." That is the maternal switchboard operating on the relational graph rather than the financial one, and it is the earliest documented instance of it.
 
@@ -59,13 +59,13 @@ Two things are worth separating here. The attribute list is a type, stated by Da
 ## Predictions
 
 1. **The date will remain "early July 2013."** Without a dated bank record or fireworks schedule, the day will stay approximate.
-2. **The five-day figure will stay attached to Alexis's stay, not Franki's.** The contradiction between the two uses of "five days" will not be resolved without a new source.
+2. ~~**The five-day figure will stay attached to Alexis's stay, not Franki's.**~~ **This one has now come true, and sooner than expected.** A second account, given independently in August 2026, confirmed the five days unprompted: "She spent 5 days at Virginia ave and then went to her moms." The five days were Alexis's, never Franki's.
 3. **The day will continue to function as a pivot point.** It is too densely consequential — the relationship collapse, the production identity, the maternal switchboard, the chaos preference — to lose its status.
 
 ## What we still don't know
 
 - **The exact date.** "Early July 2013" plus a fireworks display is as close as the record gets.
-- **The five-day figure is now attached to two different things.** The archive has carried "a five-day rebound" as the length of the Franki relationship, while this account attaches five days to Alexis's stay at 155 Virginia Ave. Both cannot be assumed.
+- ~~**The five-day figure is now attached to two different things.**~~ **Settled in August 2026.** A second, independent account confirmed the five days belong to Alexis's stay at 155 Virginia Ave, not to the length of the Franki relationship. Franki's own tenure is described only as an immediate collapse.
 - **Nothing here is contemporaneous.** The July 9–31, 2013 self-typology emails and the August 14, 2013 post-mortem already in the archive are the nearest dated material and they corroborate the window, not the day.
 - **The hitchhikers, the ropes course job, and 15 Holly Lane** are single-source details with no independent confirmation.
 

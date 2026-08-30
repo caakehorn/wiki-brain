@@ -3,7 +3,7 @@ plain_of: wiki/interests/favorites/music/artists/fall-out-boy
 title: "Fall Out Boy"
 reading_level: general
 date_modified: 2026-08-26
-source_modified: 2026-08-01
+source_modified: 2026-08-26
 ---
 
 # Fall Out Boy
