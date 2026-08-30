@@ -32,9 +32,11 @@ The real ledger is never touched: every case builds one in a temp directory.
 import importlib.util
 import json
 import os
+import re
 import sys
 import tempfile
 import unittest
+from pathlib import Path
 from importlib.machinery import SourceFileLoader
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -331,35 +333,43 @@ class TestGate(LedgerCase):
         errors, _ = m.check(self.L)
         self.assertTrue(any("unknown unit" in e for e in errors))
 
-    def test_it_warns_when_an_ignore_line_contradicts_a_tracked_ledger(self):
-        """The check reversed with the decision, and this is what it reversed to.
+    def test_it_warns_when_the_data_is_not_gitignored(self):
+        """The repository is public; an un-ignored ledger is one `git add` away.
 
-        It used to fire when the data was NOT ignored, because the repository
-        was public. The repository is private, those lines are gone on purpose,
-        and warning about their absence on every run is how a gate becomes
-        something people scroll past.
+        This check was briefly reversed — made to fire when the data WAS ignored
+        — on the stated ground that the repository had been made private. It had
+        not been: an anonymous read of the GitHub API on 2026-08-30 returned
+        `private: false`, `visibility: public`. So the direction here follows the
+        guard in `.gitignore`, and that guard follows a visibility somebody
+        actually checked rather than one the docs asserted.
 
-        The live risk is the other direction: an ignore line back in place while
-        the file is here with data in it means somebody started reverting to
-        public and stopped halfway — and by then the history already carries the
-        ledger, so the ignore line is protecting nothing.
+        The failure this catches is not hypothetical. On the same day, in a
+        session that had deliberately emptied the ledger and was watching for
+        exactly this, a routine `git add -A` still staged `events.jsonl` and
+        `units.json` the moment the ignore lines were absent.
 
-        Note what neither version could ever catch. `.gitignore` governs
-        `git add`; the portal writes through GitHub's contents API from a
-        browser and that API commits an ignored path without complaint. The
-        guard for that path is in the portal, which reads the repository's
-        visibility and refuses to sync while it is public.
+        Note what it cannot catch, because it is easy to trust too far.
+        `.gitignore` governs `git add`, so this covers the CLI and the local app.
+        GitHub's contents API ignores it completely, and that is how the portal
+        writes from a browser; that path is guarded in the portal, which reads
+        the repository's visibility and refuses to sync while it is public.
         """
         self.unit()
         (self.L.root / ".gitignore").write_text("exports/\n")
         _, warnings = m.check(self.L)
-        self.assertFalse(any("gitignore" in w for w in warnings),
-                         "a private repo tracking its own ledger is the intended state")
+        self.assertTrue(any("NOT in .gitignore" in w for w in warnings),
+                        "a public repo holding an un-ignored ledger is the live risk")
 
         (self.L.root / ".gitignore").write_text("intake/events.jsonl\n")
         _, warnings = m.check(self.L)
-        self.assertTrue(any("gitignore" in w for w in warnings),
-                        "an ignore line over a ledger that is here with data in it")
+        self.assertFalse(any("gitignore" in w for w in warnings),
+                         "guarded is the intended state and must stay quiet")
+
+    def test_the_repo_ships_the_guard_it_documents(self):
+        """The real `.gitignore` carries all three paths, not just the log."""
+        text = (Path(ROOT) / ".gitignore").read_text(encoding="utf-8")
+        for path in ("intake/events.jsonl", "intake/units.json", "raw/health/intake/"):
+            self.assertIn(path, text, f"{path} is not guarded")
 
 
 class TestCrossUnit(LedgerCase):
@@ -396,6 +406,67 @@ class TestPhases(LedgerCase):
         phases = self.reload()["analysis"]["phases"]
         self.assertEqual([p["events"] for p in phases], [1, 2, 1])
         self.assertEqual(sum(p["quantity"] for p in phases), 4.0)
+
+
+class TestCrossOriginBoundary(unittest.TestCase):
+    """The one cross-origin hole in the local app, pinned shut.
+
+    ボスの部屋 (boss.html, in the leviathan site) renders this ledger from
+    another origin, so `/api/intake*` has to answer one. That is a security
+    boundary and it gets tests: an allowlist rather than a wildcard, localhost
+    always, everything else refused, and — the one that would be silent if it
+    broke — *no other path on this server* answering a foreign origin at all.
+    """
+
+    def setUp(self):
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("wapp", os.path.join(ROOT, "app.py"))
+        self.app = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(self.app)
+
+    def test_the_site_origin_is_allowed(self):
+        self.assertEqual(self.app.intake_cors_origin("https://caakehorn.github.io"),
+                         "https://caakehorn.github.io")
+
+    def test_localhost_is_always_allowed(self):
+        for o in ("http://127.0.0.1:8099", "http://localhost:3000"):
+            self.assertEqual(self.app.intake_cors_origin(o), o)
+
+    def test_everything_else_is_refused(self):
+        for o in ("https://evil.example", "https://caakehorn.github.io.evil.example",
+                  "null", "", None):
+            self.assertIsNone(self.app.intake_cors_origin(o))
+
+    def test_it_is_never_a_wildcard(self):
+        self.assertNotIn("*", self.app.DEFAULT_INTAKE_ORIGINS)
+        with open(os.path.join(ROOT, "app.py"), encoding="utf-8") as fh:
+            src = fh.read()
+        self.assertNotIn('"Access-Control-Allow-Origin", "*"', src)
+        # Credentials are never allowed: an allowlisted origin gets to call the
+        # endpoints, never to ride along on anything this browser already holds.
+        self.assertNotIn("Access-Control-Allow-Credentials", src)
+
+    def test_the_env_var_can_close_it_completely(self):
+        old = os.environ.get("WIKI_INTAKE_ORIGINS")
+        os.environ["WIKI_INTAKE_ORIGINS"] = ""
+        try:
+            self.assertIsNone(self.app.intake_cors_origin("https://caakehorn.github.io"))
+            # localhost still works, so Special:Intake and the CLI are unaffected
+            self.assertIsNotNone(self.app.intake_cors_origin("http://127.0.0.1:8477"))
+        finally:
+            if old is None:
+                del os.environ["WIKI_INTAKE_ORIGINS"]
+            else:
+                os.environ["WIKI_INTAKE_ORIGINS"] = old
+
+    def test_only_the_intake_paths_carry_the_headers(self):
+        """cors() returns early on every other route — the wiki, capture, git
+        sync and the file reader all stay strictly same-origin."""
+        with open(os.path.join(ROOT, "app.py"), encoding="utf-8") as fh:
+            src = fh.read()
+        block = re.search(r"def cors\(self\):(.*?)def do_OPTIONS", src, re.S).group(1)
+        self.assertIn('self.path.startswith("/api/intake")', block)
+        self.assertIn("return", block.split("\n")[3])
 
 
 class TestContract(unittest.TestCase):

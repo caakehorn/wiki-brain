@@ -11,6 +11,7 @@ simply listed.
 ## 2026-08-30 — 3 pages
 
 - **Session log:** tool | health | the intake ledger — `bin/intake`, `intake/`, Special:Intake
+- **Session log:** infra | intake | the portal as a third interface, and the guard that actually guards
 
 | Page | Domain | What moved |
 |---|---|---|
