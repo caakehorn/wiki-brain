@@ -1,0 +1,100 @@
+{
+  "note": "The select box. Edit by hand or with `bin/intake substance add`. Reference data, not history — the log is history.",
+  "categories": [
+    "stimulant",
+    "depressant",
+    "psychedelic",
+    "dissociative",
+    "opioid",
+    "cannabinoid",
+    "prescription",
+    "supplement",
+    "other"
+  ],
+  "substances": [
+    {
+      "id": "alcohol",
+      "name": "Alcohol",
+      "category": "depressant",
+      "default_unit": "ml"
+    },
+    {
+      "id": "amphetamine",
+      "name": "Amphetamine (prescribed)",
+      "category": "prescription",
+      "default_unit": "mg"
+    },
+    {
+      "id": "benzodiazepine",
+      "name": "Benzodiazepine",
+      "category": "depressant",
+      "default_unit": "mg"
+    },
+    {
+      "id": "caffeine",
+      "name": "Caffeine",
+      "category": "stimulant",
+      "default_unit": "mg"
+    },
+    {
+      "id": "cannabis",
+      "name": "Cannabis",
+      "category": "cannabinoid",
+      "default_unit": "g"
+    },
+    {
+      "id": "cocaine",
+      "name": "Cocaine",
+      "category": "stimulant",
+      "default_unit": "g"
+    },
+    {
+      "id": "ketamine",
+      "name": "Ketamine",
+      "category": "dissociative",
+      "default_unit": "g"
+    },
+    {
+      "id": "lsd",
+      "name": "LSD",
+      "category": "psychedelic",
+      "default_unit": "mcg"
+    },
+    {
+      "id": "mdma",
+      "name": "MDMA",
+      "category": "stimulant",
+      "default_unit": "mg"
+    },
+    {
+      "id": "nicotine",
+      "name": "Nicotine",
+      "category": "stimulant",
+      "default_unit": "mg"
+    },
+    {
+      "id": "opioid",
+      "name": "Opioid",
+      "category": "opioid",
+      "default_unit": "mg"
+    },
+    {
+      "id": "prescription-other",
+      "name": "Prescription (other)",
+      "category": "prescription",
+      "default_unit": "mg"
+    },
+    {
+      "id": "psilocybin",
+      "name": "Psilocybin",
+      "category": "psychedelic",
+      "default_unit": "g"
+    },
+    {
+      "id": "supplement",
+      "name": "Supplement",
+      "category": "supplement",
+      "default_unit": "mg"
+    }
+  ]
+}
