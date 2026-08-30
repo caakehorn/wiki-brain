@@ -1394,14 +1394,30 @@ def check(ledger):
     elif units:
         errors.append("intake/units.json is missing — run `bin/intake rebuild`")
 
-    # The repository is public. A ledger file that is not ignored is a ledger
-    # file that gets pushed, and this one is not the kind of thing that survives
-    # being published by accident.
+    # This used to warn whenever the ledger held data and was NOT in
+    # `.gitignore`, because the repository was public and a consumption record
+    # does not survive being published by accident. The repository is private
+    # now and those lines are deliberately gone, so that warning would fire on
+    # every run forever — and a gate that cries wolf is a gate people learn to
+    # scroll past.
+    #
+    # The danger reversed with the decision. It is no longer forgetting to
+    # ignore the file; it is the repository going public again while the file is
+    # tracked. That is not visible from disk, so it is not checked here — the
+    # portal reads the repository's visibility over the API and refuses to sync
+    # while it is public, which is the only place the check can actually be
+    # made. See `intake/README.md`, "The interlock".
+    #
+    # What is still worth saying from here is the contradiction: an ignore line
+    # back in place while the file is here with data in it means somebody
+    # started reverting to public and did not finish, and the history already
+    # has the ledger in it by then.
     ignore = (ledger.root / ".gitignore")
     ignored = "intake/events.jsonl" in ignore.read_text(encoding="utf-8") if ignore.exists() else False
-    if events and not ignored:
-        warnings.append("intake/events.jsonl holds data and is NOT in .gitignore — "
-                        "the next commit publishes it. See intake/README.md.")
+    if events and ignored:
+        warnings.append("intake/events.jsonl is in .gitignore but is here with data in it — "
+                        "if this repository is going back to public, its history already "
+                        "carries the ledger. See intake/README.md.")
 
     for u in units:
         if u["analysis"]["chronology_error"]:

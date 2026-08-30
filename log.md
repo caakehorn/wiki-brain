@@ -7039,3 +7039,34 @@ tests, all passing, 40 of them new. **90 obligations outstanding, unchanged —
 none introduced by this pass.** No `wiki/` page was added or edited: a finding
 drawn from the ledger reaches a page through the normal operations, cited to a
 unit id and a date range with its coverage figure attached.
+
+## [2026-08-30] infra | intake | the portal as a third interface, and the guard that actually guards
+
+**Two sessions built this ledger in parallel.** #215 landed `bin/intake`,
+`intake/` and Special:Intake here; a second was building `/ledger` in the portal
+against a `data/intake/` of its own, with a `bin/wiki-intake` beside it. That
+second taxonomy is **deleted rather than merged** — the operator's brief said to
+adapt to an established data architecture rather than invent a competing one,
+and two folds of the same night that disagree is exactly what that rule is for.
+`bin/intake` is the tool; the portal is a third interface onto it and writes
+this repository's format.
+
+**The `.gitignore` lines were protecting less than they looked like.** They
+governed `git add` and nothing else. The portal writes through GitHub's contents
+API from a browser with no working tree in the loop, and that API commits an
+ignored path without complaint — so for the one interface most of the record was
+going to arrive through, the guard was not in the circuit at all.
+
+The repository is private as of this pass, so the three lines are gone and the
+ledger keeps its history in git the way everything else here does. The guard
+that replaces them is in the portal and does not depend on `.gitignore`: **it
+reads this repository's visibility before its first push of a session and
+refuses to sync while it is public.** Making the repo public again stops the
+portal writing rather than quietly publishing a night's events — which is the
+failure the ignore lines were reaching for and could not catch.
+
+**Sequencing worth keeping in mind:** private-then-unignore is the safe order,
+and the interlock is what makes getting it wrong survivable in either direction.
+
+Gates: `bin/wiki-check --check-only` all clean. 471 pages, `bin/intake check`
+0 errors over 0 units.

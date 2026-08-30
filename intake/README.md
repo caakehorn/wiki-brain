@@ -6,7 +6,9 @@ what is unknown, and computes only what the evidence actually supports.
 
 That sentence is the whole design. Everything below is how it is enforced.
 
-Run it with `bin/intake`, or from the local app at **Special:Intake**.
+Run it with `bin/intake`, from the local app at **Special:Intake**, or from
+**`/ledger`** in [`caakehorn/home`](https://github.com/caakehorn/home) — the
+portal, which is the one interface that is in your pocket.
 
 ## Why a unit and not a dose
 
@@ -115,19 +117,36 @@ greps, survives every tool here, and shows up in `git log` as the history it
 already is. `sqlite3` is stdlib and would have worked — it would just have been
 the only unreadable file in the corpus.
 
-## ⚠ The data is gitignored, and here is why
+## ⚠ The data is in git, and that depends on this repository being private
 
-**`caakehorn/wiki-brain` is a public repository.** `intake/events.jsonl`,
-`intake/units.json` and `raw/health/intake/` are in `.gitignore` for that reason
-alone. The *tool* is tracked; the *record* is not.
+It did not used to be. `intake/events.jsonl`, `intake/units.json` and
+`raw/health/intake/` were in `.gitignore` because this repository was public and
+a consumption record is not something to publish by accident — the tool tracked,
+the record not. That cost was real: the ledger's history was outside git, a
+fresh clone started empty, and a session working from a clone could not read it.
 
-This is a real cost and worth naming: the ledger's history is not in git, a
-fresh clone starts empty, and a session working from a clone cannot read it.
-The fix is one step — **make the repository private, then delete those three
-lines from `.gitignore`** — and after that the ledger keeps its history the same
-way everything else here does. Until then `bin/intake check` warns whenever the
-file holds data and is not ignored, because the failure mode is a single
-absent-minded `git add`.
+**The repository is private now, so those three lines are gone** and the ledger
+keeps its history the way everything else here does. That is the step the
+previous version of this section named as the fix.
+
+### The interlock, because `.gitignore` was never the guard it looked like
+
+Worth being precise about, because it is easy to get wrong twice. `.gitignore`
+only governs `git add`. It has no effect whatsoever on GitHub's contents API —
+which is exactly how `/ledger` in the portal writes here, from a browser, with
+no working tree involved. An ignored path is committed by that API without
+complaint.
+
+So while those lines were in place they were protecting the CLI and the local
+app and doing nothing at all for the portal. The actual guard is in the portal:
+**it reads this repository's visibility before its first push of a session and
+refuses to sync while it is public**, naming the reason. That check does not
+care what `.gitignore` says, and it is what makes the ordering safe — flip the
+repository back to public and the portal stops writing rather than quietly
+publishing a night's events.
+
+If you ever do make it public again, put the three lines back *and* expect the
+portal to stop syncing. Both are correct.
 
 ## Why it lives in wiki-brain
 

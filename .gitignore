@@ -7,10 +7,3 @@ corpus_*.md
 .hermes-tmp*
 __pycache__/
 
-# The intake ledger's DATA — never the tool, which is bin/intake and is tracked.
-# This repository is public; a consumption record is not something to publish by
-# accident. Make the repo private and delete these three lines to keep the
-# ledger's history in git, which is where it belongs once that is safe.
-intake/events.jsonl
-intake/units.json
-raw/health/intake/
