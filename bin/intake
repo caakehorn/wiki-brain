@@ -287,6 +287,7 @@ class Ledger:
         self.events_path = self.dir / "events.jsonl"
         self.units_path = self.dir / "units.json"
         self.substances_path = self.dir / "substances.json"
+        self.sealed_path = self.dir / SEALED
         self.captures = self.root / "raw" / "health" / "intake"
 
     # ------------------------------------------------------------ raw log
@@ -961,6 +962,39 @@ class Ops:
         self.L.write_projection()
         return self.L.find_unit(u["id"])
 
+    def seal(self, pw=None):
+        """Local plaintext log -> `intake/events.enc`, the copy that travels."""
+        crypto = _crypto()
+        lines = [l for l in self.L.events_path.read_text(encoding="utf-8").splitlines()
+                 if l.strip()] if self.L.events_path.exists() else []
+        blob = crypto.seal(pw or passphrase("passphrase to seal with: "),
+                           ("\n".join(lines) + ("\n" if lines else "")).encode("utf-8"))
+        self.L.dir.mkdir(parents=True, exist_ok=True)
+        self.L.sealed_path.write_text(json.dumps(blob) + "\n", encoding="utf-8")
+        return len(lines)
+
+    def unseal(self, pw=None):
+        """`intake/events.enc` -> merged into the local log. Union, never overwrite.
+
+        Nothing is lost in either direction: events written on a phone arrive,
+        events written here stay, and an id present on both sides appears once.
+        """
+        if not self.L.sealed_path.exists():
+            raise LedgerError(f"no {self.L.sealed_path.name} to open")
+        crypto = _crypto()
+        blob = json.loads(self.L.sealed_path.read_text(encoding="utf-8"))
+        remote = crypto.unseal(pw or passphrase("passphrase to open it: "),
+                               blob).decode("utf-8").splitlines()
+        local = (self.L.events_path.read_text(encoding="utf-8").splitlines()
+                 if self.L.events_path.exists() else [])
+        merged = merge_lines(local, remote)
+        gained = len(merged) - len([l for l in local if l.strip()])
+        self.L.dir.mkdir(parents=True, exist_ok=True)
+        self.L.events_path.write_text("\n".join(merged) + ("\n" if merged else ""),
+                                      encoding="utf-8")
+        self.L.write_projection()
+        return gained, len(merged)
+
     def write_capture(self, unit):
         """The immutable record of a closed unit, filed to raw/.
 
@@ -1322,6 +1356,63 @@ def render_stats(st):
     return "\n".join(L)
 
 
+# ---------------------------------------------------------- sealed transport
+#
+# The ledger has to reach a phone, and this repository is public. Those two
+# facts meet in exactly one place: `intake/events.enc` — the same log, sealed
+# with the site's passphrase, committed, and readable only by something holding
+# that passphrase. `intake/events.jsonl` stays local and gitignored; the sealed
+# file is the copy that travels.
+#
+# WHY A UNION IS ALWAYS SAFE. The log is append-only and every event carries a
+# ULID, so merging two copies is set union by id. There is no last-writer-wins,
+# no field-level conflict and nothing that can be lost when a phone and a laptop
+# both write — the worst case is that one of them re-reads. Corrections and
+# voids are themselves events, so even a change of mind merges cleanly.
+SEALED = "events.enc"
+
+
+def passphrase(prompt="passphrase: "):
+    """From the environment, or asked for. Never stored, never echoed, never logged."""
+    import getpass
+    pw = os.environ.get("LEVIATHAN_PASSPHRASE")
+    if pw:
+        return pw
+    pw = getpass.getpass(prompt)
+    if not pw:
+        raise LedgerError("no passphrase given")
+    return pw
+
+
+def _crypto():
+    """bin/ is not on the path when this file is loaded by SourceFileLoader."""
+    import importlib
+    here = str(Path(__file__).resolve().parent)
+    if here not in sys.path:
+        sys.path.insert(0, here)
+    return importlib.import_module("aesgcm")
+
+
+def merge_lines(*groups):
+    """Set union by event id, ordered by when each event was recorded."""
+    seen, out = set(), []
+    for group in groups:
+        for line in group:
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                eid = json.loads(line).get("id")
+            except json.JSONDecodeError:
+                raise LedgerError(f"unmergeable line in the log: {line[:80]}")
+            if eid in seen:
+                continue
+            seen.add(eid)
+            out.append(line)
+    out.sort(key=lambda l: (json.loads(l).get("timestamp") or "", json.loads(l).get("id") or ""))
+    return out
+
+
 # --------------------------------------------------------------------- gate
 def check(ledger):
     """Integrity of the log, and of the projection derived from it.
@@ -1516,6 +1607,12 @@ def build_parser():
     p.add_argument("--unit", default="g")
     p.add_argument("--json", action="store_true")
 
+    p = sub.add_parser("seal", help="write intake/events.enc — the sealed copy that travels")
+    p.add_argument("--passphrase", help="default: $LEVIATHAN_PASSPHRASE, else asked for")
+
+    p = sub.add_parser("open", help="merge intake/events.enc back into the local log")
+    p.add_argument("--passphrase")
+
     sub.add_parser("rebuild", help="regenerate intake/units.json from the log")
     sub.add_parser("check", help="gate: the log parses, the projection matches")
     p = sub.add_parser("export", help="the whole ledger as one JSON document")
@@ -1549,6 +1646,17 @@ def main(argv=None):
         for s in items:
             print(f"  {s['id']:<22} {s['name']:<28} {s['category']:<14} {s['default_unit']}")
         print("\n  add one:  bin/intake substance add \"Name\" --category stimulant --unit mg")
+        return 0
+
+    if cmd == "seal":
+        n = ops.seal(args.passphrase)
+        print(f"sealed {n} event(s) into intake/{SEALED} — commit it; "
+              f"the plaintext log stays here and stays ignored")
+        return 0
+
+    if cmd == "open":
+        gained, total = ops.unseal(args.passphrase)
+        print(f"opened intake/{SEALED} — {gained} new event(s), {total} in the log now")
         return 0
 
     if cmd == "rebuild":
