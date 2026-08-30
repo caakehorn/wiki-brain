@@ -58,6 +58,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 **2026-08-30** — 5 pages
   - tool | health | the intake ledger — `bin/intake`, `intake/`, Special:Intake
   - infra | intake | the portal as a third interface, and the guard that actually guards
+  - declare | meta | the skills section becomes a cross-model database
 
 **2026-08-28** — 39 pages
   - feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch

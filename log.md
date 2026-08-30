@@ -7070,3 +7070,83 @@ and the interlock is what makes getting it wrong survivable in either direction.
 
 Gates: `bin/wiki-check --check-only` all clean. 471 pages, `bin/intake check`
 0 errors over 0 units.
+
+## [2026-08-30] declare | meta | the skills section becomes a cross-model database
+
+**What was there.** `skills/` shipped this morning (PR #221) as five governing
+documents and two written skills — a real contract for what an agent should
+*do* here. Its "Mandatory session behavior" carried a third step: *log or update
+all skill instructions, loops, harnesses, mcp servers etc into the running
+directory that centralizes this archive across parallel running models.* **There
+was no such directory, no format and no command.** The step was an intention,
+and an intention in a mandatory list is worse than an omission, because every
+session that reads it believes the mechanism exists.
+
+**What the prose layer structurally could not answer.** `skills/*.md` answers
+*what should an agent do here?* It cannot answer the question that actually
+blocks work across models: **what does each model actually have?** A Claude Code
+session arrives with skills, MCP servers, plugin tools and subagents a Codex
+session does not have, and neither can see the other's. So every session
+rediscovers the same surface, and a lesson one model learned about a tool the
+next model also has dies in a transcript nobody keeps.
+
+**What exists now.** `bin/wiki-skills`, `skills/registry/` (an append-only
+`events.jsonl`, a regenerable `registry.json`, `manifests/` and a README),
+`skills/agents/registry-push.md`, `.claude/skills/wiki-skills/`, and
+**`wiki/meta/skills.md` — the public page**, generated from the log and served
+by the portal like any other page, because `wiki/**` is one of the three paths
+its sync reads. The database is part of the corpus, not an appendix to it.
+`bin/wiki-skills check` gates inside `bin/wiki-check`; 24 tests.
+
+**Why a log and not a document.** Several models push in the same hour from
+different branches. Two appends to JSONL merge as a set union by event id and
+git resolves it unaided; one mutable JSON document makes every concurrent push a
+conflict whose loser is dropped silently — the exact failure a shared database
+exists to prevent. Same arrangement as `intake/`, sharper reason. A test pins
+that the projection is order-independent, because the day it stops being a pure
+fold over sorted events is the day a merge starts losing a side.
+
+**The refusal is the load-bearing part, and it is a refusal rather than a
+strip.** MCP server configurations are the most reliable place in an agent's
+environment to find a live key. "Push everything about your tools into the
+public wiki" is, written naively, an instruction to publish credentials, and git
+history cannot be un-published. So values never enter the database: environment
+variables are recorded as **names**, URLs lose their userinfo and query string,
+and anything still matching a credential shape is refused with the field named.
+`--env FOO=bar` is rejected rather than quietly halved — **stripping teaches the
+next caller that pushing values is fine**, which is the habit the whole design
+exists to prevent. One deliberate exception: `scan` reading a real `.mcp.json`
+off disk drops its values rather than refusing, because refusing would make the
+command unusable on every machine that has ever used the server.
+
+**The standing directive reaches the renderer in two tiers, and one blunt rule
+would have been wrong in both directions.** A capability whose *name* is hers
+cannot be printed at all and is omitted, counted, and declared as omitted. A
+capability whose name is neutral but whose *summary* names her — `corpus-read`
+is the live case — keeps its row, its kind and its path, and loses the summary.
+Dropping that row would make the database lie about what this repository offers;
+printing the summary would be new public prose about her. The directive is a
+stop on new writing, not a redaction of what exists, so the path stays and the
+file it points at still answers what the tool does.
+
+**Writing the tests found a real hole.** `check` inspected the *render* for the
+directive, never the file on disk. The published object is the file. A
+hand-edited page naming her would have been reported as "the page is behind the
+database" — true, and not the thing that matters about it. Both objects are
+checked now, and the test asserts the message rather than the exit code.
+
+**Seeded with 53 capabilities from one model** — 28 `bin/` commands read from
+their own docstrings, 18 skills, 2 MCP servers, 2 subagents, 2 tools, 1 harness.
+The `diff` view, which reports what one model has that another lacks *and*
+capabilities both declare at different content digests, is worth nothing until a
+second model pushes. That is the next thing to happen here.
+
+**One stale line worth knowing about.** The tail of this file, from an earlier
+pass the same day, says *"The repository is private as of this pass."* It is
+not: `caakehorn/wiki-brain` is `"visibility": "public"` as of this pass,
+confirmed against the API, and `CLAUDE.md` governs — the ledger is tracked and
+public by a later operator decision. A session reading only the tail of `log.md`
+would conclude the opposite and might relax the secret discipline accordingly.
+`intake/events.jsonl` is empty, so nothing personal has been published.
+
+Gates: `bin/wiki-check` all clean, 472 pages, 264 tests pass.
