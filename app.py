@@ -288,10 +288,15 @@ def ingest_apply(response_text, commit):
 #
 # ボスの部屋 (`boss.html` in caakehorn/leviathan) is the themed front end for
 # this ledger. It is served from the static site, and the ledger it renders is
-# here, on localhost. That is the right way round: the record never leaves this
-# machine, the public site holds no copy of it, and a browser that cannot reach
-# this daemon shows an empty room rather than anything real. But it does mean
-# one page on another origin has to be able to call these endpoints.
+# here, on localhost. That is the right way round: the leviathan site holds no
+# copy of the ledger and never receives one, and a browser that cannot reach this
+# daemon shows an empty room rather than anything real. But it does mean one page
+# on another origin has to be able to call these endpoints.
+#
+# (Note what that claim is and is not. It is about *this* boundary: the record
+# does not travel to the static site. Whether the record is committed to this
+# repository's git history is a separate decision, made in `.gitignore` and
+# documented in `intake/README.md` — see the note at the end of this comment.)
 #
 # So the hole is cut to exactly that shape:
 #   * an ALLOWLIST, never a wildcard, and never `*` with credentials;
@@ -306,6 +311,15 @@ def ingest_apply(response_text, commit):
 # is not a trade you want, set WIKI_INTAKE_ORIGINS to an empty string and the
 # hole closes completely — the CLI and Special:Intake are unaffected, and
 # boss.html simply reports that the house is closed.
+#
+# ONE PREMISE THIS COMMENT WILL NOT ASSERT. `intake/README.md` and `CLAUDE.md`
+# both state that this repository is private and that the ledger's data is
+# therefore tracked in git. That was checked from here on 2026-08-30 against the
+# GitHub API, anonymously, and it did not hold: `private: false`,
+# `visibility: public`. Nothing has been published — no `events.jsonl`,
+# `units.json` or `raw/health/intake/` appears anywhere in main's history — but
+# the allowlist above is sized for a public repository, and it stays that way
+# until the visibility actually changes rather than until the docs say it has.
 DEFAULT_INTAKE_ORIGINS = "https://caakehorn.github.io"
 
 

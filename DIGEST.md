@@ -49,6 +49,7 @@ this is the state of the thing.
 
 **2026-08-30** — 3 pages
   - tool | health | the intake ledger — `bin/intake`, `intake/`, Special:Intake
+  - infra | intake | the portal as a third interface, and the guard that actually guards
 
 **2026-08-28** — 39 pages
   - feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch
