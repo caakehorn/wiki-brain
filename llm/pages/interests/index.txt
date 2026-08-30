@@ -62,7 +62,6 @@ related: []
 - [[wiki/interests/favorites/music/artists/fall-out-boy]] — 6 tracks, but a 2007 tour-following artifact: 3 shows + TRL taping, the Buffalo "Schrute Farms" secret show, love cut off at Folie à Deux.
 - [[wiki/interests/favorites/music/artists/jpegmafia]] — 13 tracks — highest count in the masterlist.
 - [[wiki/interests/favorites/music/artists/kanye-west]] — 11 tracks.
-- [[wiki/interests/favorites/music/artists/knock2]] — 6 tracks.
 - [[wiki/interests/favorites/music/artists/lyny]] — 7 tracks.
 - [[wiki/interests/favorites/music/artists/my-chemical-romance]] — 9 tracks.
 - [[wiki/interests/favorites/music/artists/new-found-glory]] — 8 tracks.

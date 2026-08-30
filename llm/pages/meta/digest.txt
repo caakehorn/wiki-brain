@@ -5,7 +5,7 @@ title: "Wiki Digest"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-08-29
+date_modified: 2026-08-30
 sources: []
 ---
 
@@ -21,8 +21,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | | |
 |---|---|
-| Pages | 472 |
-| Pages touched in the last 14 days | 194 |
+| Pages | 471 |
+| Pages touched in the last 14 days | 191 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 41 |
 | Open gaps | 484 |
@@ -33,7 +33,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | Domain | Pages |
 |---|---|
 | people | 174 |
-| interests | 97 |
+| interests | 96 |
 | mind | 77 |
 | timeline | 42 |
 | self | 40 |
@@ -47,7 +47,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | Status | Pages |
 |---|---|
-| active | 183 |
+| active | 182 |
 | stable | 146 |
 | closed | 100 |
 | archived | 31 |
@@ -55,10 +55,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-29** — 3 pages
-  - gate | meta | the moratorium guard caught a real violation on `main`, made by a careful writer
-  - feature | meta | THE DOCKET — the outstanding-work record published as a room, and three parser bugs it found
-  - delete | interests | 47 single-appearance concert-log artist stubs
+**2026-08-30** — 3 pages
 
 **2026-08-28** — 39 pages
   - feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch
