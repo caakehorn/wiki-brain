@@ -79,6 +79,14 @@ The same applies to the wiki's own errors. A rewrite that fixes a false claim sa
 
 Where the material you are holding is the third or fourth instance of a shape seen elsewhere, say so on the page and name the shape. If there is no page above it yet, that is a CLIMB candidate, not a footnote (`SYNTHESIS_SPEC.md`). The wiki's product is not the facts; it is what the facts turn out to be instances of.
 
+## 11. A conclusion has to be about the person, not about the pages
+
+Any page carrying an argued conclusion — every `page_type: synthesis`, most `concept` pages, every sage answer, and the load-bearing reads on entity pages — is checked against Dan's own constitution before it is written: cognitive stack, measured personality profile, historical precedent, the attitudes and forces acting on him, his security and prosperity, health, romantic state, age and upbringing, geographic and ethnic culture, religious or ideological programming, and axiomatic politics.
+
+This is **the constitution pass**, it is mandatory and deterministic, and the full register list with a worked failure case lives in `SYNTHESIS_SPEC.md`. The rule here is the format consequence: **the page states the result.** Which registers moved the conclusion, which were checked and left it standing, and which the corpus cannot presently speak to — the last being a Gaps entry.
+
+A pattern true of six pages is a fact about six pages. What makes it a fact about Dan is the mechanism underneath it, and this wiki usually already has that mechanism measured. Reaching for it is not decoration; a rule with a cognitive-function or psychometric mechanism under it predicts in domains the corpus has not sampled, and the same rule stated from behaviour alone does not.
+
 ## Exemplars
 
 Before rewriting any page, read the exemplar of the same `page_type` and match its shape.
@@ -112,8 +120,8 @@ Required fields, in this order:
 
 ```yaml
 ---
-domain: self | timeline | people | mind | work | interests | health | places | legal
-page_type: entity | event | concept | period | summary | synthesis | profile | report | chat | note | index
+domain: self | timeline | people | mind | work | interests | health | places | legal | meta
+page_type: entity | event | concept | period | summary | synthesis | profile | report | chat | note | index | dataset | journey
 status: active | stable | stub | closed | archived
 date_created: YYYY-MM-DD
 date_modified: YYYY-MM-DD
@@ -147,8 +155,7 @@ date_range_start / date_range_end: YYYY-MM-DD
 changelog:                  # only on critical pages; newest first
   - date: YYYY-MM-DD
     note: "one line"
-image: self                 # override the auto illustration; assets/img/<name>.svg
-                            # (no real photographs are used anywhere in the wiki)
+image: self                 # override the auto illustration; any path under assets/
 pending_ingest: YYYY-MM-DD  # written by bin/wiki-gaps, removed by bin/wiki-gaps clear
 ```
 
@@ -180,8 +187,15 @@ addiction-recovery, mental-health, physical-health, grief,
 legal, dui, financial-stress, housing, career,
 music-production, personality-profile, ideology, politics,
 forensic-analysis, ai-collaboration, digital-footprint,
-uniontown-era, nyc-era, pets, non-monogamy, future
+uniontown-era, nyc-era, pets, non-monogamy, future,
+language, taste, vocabulary,
+behavioral-change, boundaries, intensity, trust, consistency
 ```
+
+Tags name *concepts*, never people or places — a page about Ally is linked to
+`wiki/people/ally-lubin`, not tagged `ally`. A person-name tag duplicates the
+wikilink graph badly: it cannot be followed, it does not appear in
+`bin/wiki-connect`, and it drifts the moment an alias changes.
 
 There is **no** `author-stub` / `artist-stub` or other invented `page_type`: a stub is `page_type: entity` (or the appropriate type) with `status: stub`.
 
@@ -212,6 +226,109 @@ Non-people pages may carry a freer `infobox:` (any of: born, status, type, alias
 ## LLM Quick Brief
 
 Pages marked `importance: critical` should open, after the intro paragraph, with an `## LLM Quick Brief` section: one dense paragraph written for direct context injection — who/what this page covers and the load-bearing facts, self-contained, with wikilinks, under 200 words. Do not add briefs to ordinary pages.
+
+## Chart-ready data — the `dataset` page type
+
+Every quantified table in this wiki lives inside prose, which is correct for
+a reader but useless to the portal: it would have to scrape a markdown table
+to plot one, and a scrape breaks the moment a page's prose changes shape. A
+`page_type: dataset` page exists for the opposite case — a finding whose
+point *is* a chart, structured so the portal can render it without parsing
+prose at all. It is not a replacement for tables inside ordinary pages, and
+it is not where a number goes just because it could be charted; it is for a
+comparison or a trend that a chart states more clearly than a sentence does,
+and that is worth a page of its own for that reason.
+
+**Mandatory `chart:` block**, in addition to every field an ordinary page
+carries (`domain`, `status`, `date_created`, `date_modified`, `sources`,
+`knowledge`, `connections:`, and `synthesizes:` for every page this one
+reasons from):
+
+```yaml
+chart:
+  kind: line | bar | grouped-bar | area | scatter
+  title: "One-line chart title, as it should render"
+  x: { label: "X axis label", type: category | number | date }
+  y: { label: "Y axis label", type: number }
+  series:
+    - name: "Series label as it should render in a legend"
+      points:
+        "2015": 7242
+        "2016": 13954
+    - name: "A second series, same x-axis"
+      points:
+        "2015": 6394
+        "2016": 14395
+```
+
+`series:` is a list, never a single object — a dataset page with one series
+is legal, but the shape must stay list-of-series so a two-series page
+doesn't need restructuring later. Each `points:` map is `{x: y}`; keep every
+series on the same x-axis so a renderer can plot them together without
+re-keying. `bin/wiki-lint` requires `kind`, `title`, and at least one named,
+non-empty series — it does not and cannot check that the numbers are right,
+so **every value must trace to a source cited in `sources:` or a page named
+in `synthesizes:`**, exactly like a table in an ordinary page. A `dataset`
+page still needs the prose an ordinary page needs: what the chart shows,
+where the numbers come from, and what would be a wrong way to read it. The
+chart is the point; it is not a substitute for the argument.
+
+**Never invent a `dataset` page to avoid writing a table well.** If the
+finding is a handful of numbers inside a larger argument, a markdown table
+in the page that argument belongs to is still correct — `dataset` is for a
+comparison that stands on its own, is not a footnote to a larger page, and
+would lose something real if it were only prose. Exemplar:
+[[wiki/mind/synthesis/annual-volume-suz]].
+
+## Themed journeys — the `journey` page type
+
+A journey is a curated, ordered sequence of existing pages connected by one
+narrative thread — the wiki-brain equivalent of a reading list with an
+argument, not a folder. It exists because the wiki's default navigation
+(domain indexes, `connections:` edges) is organized by what a page *is*, and
+a journey is organized by what a *reader* wants to follow — a theme that cuts
+across domains and person pages the way a synthesis page's `synthesizes:`
+does, but for guiding a reader rather than proving a claim.
+
+**Domain is `meta`** — a journey is about the corpus's own navigation, not
+about Dan directly, which is why it does not belong in `self`, `mind`, or any
+domain that describes him. `wiki/meta/` also holds the on-site mirrors of
+`DIGEST.md`, `RECENT.md`, and `OPEN.md` for the same reason: both are the
+wiki describing itself rather than describing its subject.
+
+**Mandatory `journey:` block**, in addition to every field an ordinary page
+carries:
+
+```yaml
+journey:
+  stops:
+    - page: wiki/people/tom
+      note: "One sentence: why this page is a stop, in this order."
+    - page: wiki/mind/synthesis/supply-network
+      note: "..."
+    - page: wiki/health/cocaine
+      note: "..."
+```
+
+`bin/wiki-lint` requires at least three stops, a `note:` on every one, and
+that every `page:` resolves to a real wiki page — it cannot check that the
+notes are true, so **the connecting narrative belongs in prose on the page,
+not only in the frontmatter**. A journey page's body should read as an essay
+that walks the stops in order, quoting or citing the documentary evidence
+(dates, figures, direct quotes) that ties them together — "these are
+related" is not a journey, the same way it is not a synthesis
+(`SYNTHESIS_SPEC.md`). Unlike a synthesis page, a journey is not required to
+state a falsifiable governing rule; it is allowed to simply be a well-argued
+guided tour. It should still name what the stops have in common precisely
+enough that a reader could predict what a fourth stop would need to qualify.
+
+**Never invent a journey as a second, weaker index.** If the connecting
+thread does not survive being stated as one sentence a stranger could
+follow, it belongs in a domain index instead. **A journey through pages the
+Annie moratorium covers may link to Annie's existing pages exactly as
+published — never add narrative, synthesis, or connective claims about her
+that are not already written elsewhere in the wiki**, per `CLAUDE.md`'s
+standing directive. Exemplar: `wiki/meta/journeys/the-supply-line.md`.
 
 ## Linking
 

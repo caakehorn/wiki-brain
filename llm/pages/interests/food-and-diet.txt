@@ -6,7 +6,7 @@ aliases: ["the unevaluated domain", "food as everything but taste"]
 status: active
 knowledge: earned
 date_created: 2026-07-25
-date_modified: 2026-08-21
+date_modified: 2026-08-28
 sources:
   - raw/self/captures/2026-08-01_154556_picky-eater.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -21,6 +21,8 @@ synthesizes:
   - wiki/self/youtube-watch-history
   - wiki/self/tattoos
   - wiki/mind/concepts/the-cool-metric
+  - wiki/mind/profile/intp
+  - wiki/mind/synthesis/the-binary-verdict
 tags: [physical-health, nyc-era, uniontown-era, personality-profile]
 connections:
   - page: wiki/mind/synthesis/the-deferred-audit
@@ -56,9 +58,28 @@ connections:
   - page: wiki/health/the-configured-body
     type: parallels
     claim: "The composition regime and the substance stack are one faculty measured in two domains: an absolute rule about what may enter, enforced without negotiation on a plate and in a bloodstream alike, which is why food looks like pickiness and behaves like the Suboxone floor."
+  - page: wiki/mind/profile/intp
+    type: caused-by
+    claim: "Ti-dominance's pass/fail closure test, with Fe (10% valuing) too weak to run a graded negotiation, is the mechanism: an unrequested ingredient fails the closure test outright, with no relational-grading function available to soften the verdict into 'acceptable enough.'"
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: instance-of
+    claim: "The composition regime is a ninth domain instance of that page's rule — accept-in-full or refuse-in-full with no recorded middle state — and the most literal one found so far, run on a plate rather than a person or a taste, which is exactly what removes anything that could blur the binary."
 ---
 
 # Food and Diet
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/concepts/the-cool-metric]] (2026-08-26), which added a section on
+> the metric's one documented upper bound (the Ally Skins exchange) and removed
+> its `sage_pending` staging. The food-exemption argument this page makes reasons
+> from the metric's jurisdiction and mechanism, neither of which the addition
+> touches. **No claim on this page is affected.**
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/concepts/the-cool-metric]] (2026-08-23), which gained a re-check
+> note recording that a music-domain corpus search left its claims untouched. No
+> axis, judgement or example on that page changed. Nothing here is affected and
+> no claim is withdrawn.
 
 Food appears in this corpus in every register except taste. It is labour — three
 documented jobs, one of them a forty-one-month immersion in a single cuisine. It
@@ -148,6 +169,42 @@ The distinction the earlier version of this page missed is between **evaluation*
 and **specification**. He does not judge food. He specifies it, and enforcement
 is absolute. Those are different faculties, and only the first one leaves a
 favourites list.
+
+### The mechanism: composition is a binary verdict, not a graded rule
+
+[[wiki/mind/synthesis/the-binary-verdict]] documents eight domains where a
+question that resolves to a *verdict* — worth, taste, trust, legitimacy —
+collapses to exactly one of two states with no persisting middle value, and
+names health, money and work-performance as domains its own pass left
+untested. The composition table above is a ninth, and an unusually literal
+one: *"the mortal enemy"* and *"an absolute, dealbreaking, no-questions-asked
+policy"* are not intensifiers, they are the vocabulary of a verdict with no
+third state. There is no recorded case of an onion tolerated in small
+quantity or picked out after the fact and eaten anyway — every ingredient is
+accepted in full or refused in full, the identical shape that page finds in
+worth and trust questions and finds absent from the one place gradation
+actually lives on the record, [[wiki/mind/concepts/calibrated-confidence]]'s
+graded percentage estimates about unwitnessed facts. A plate is not an
+unwitnessed fact. It is a closure question, and closure questions come back
+binary.
+
+[[wiki/mind/profile/intp]] supplies the same mechanism this page's neighbors
+use to explain the pattern elsewhere. Ti-dominance (96% latent / 95%
+aptitude) runs a pass/fail closure test — does this hold together, not how
+much of it holds together — and Fe (10% valuing), the function whose job
+would be producing a graded verdict such as *"fine, in a small amount,"* is
+the weakest function on the five-function table. A sandwich that arrives
+with an unrequested component fails the closure test outright; there is no
+Fe-mediated negotiation available to soften it into "acceptable enough,"
+because the function that would run that negotiation is nearly absent. This
+is the same account [[wiki/mind/synthesis/music-as-identity]] gives for the
+Fall Out Boy freeze and [[wiki/mind/synthesis/the-binary-verdict]] gives for
+worth, taste and trust: a closure function running with no relational-grading
+function beside it. Here it runs on a plate instead of a person, which is
+exactly what makes it the cleanest and most literal instance of the rule
+found so far — a sandwich cannot be lobbied, flattered or given the benefit
+of the doubt the way a person or a taste sometimes can, so the binary shows
+with nothing to blur it.
 
 ## The controls
 
@@ -300,3 +357,37 @@ for everything it is allowed to touch."
 > derived "Irreversibility Firewall" doctrine page) — the master-filter
 > claim and the food/music jurisdiction dispute this page's CONTRADICTION
 > block tracks are both untouched. Nothing here needed revising.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`. This
+page had never cited `wiki/mind/profile/`, and its central claim — an
+absolute, no-questions-asked composition rule — had never been checked
+against the cognitive-verdict machinery [[wiki/mind/synthesis/the-binary-verdict]]
+documents for every other verdict-domain in the corpus.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved and sharpened the conclusion.** [[wiki/mind/profile/intp]]'s Ti-dominance/Fe-weakness split supplies the mechanism argued in "The mechanism" above — the composition regime is a closure test, not a taste judgement, which explains why it is absolute rather than graded. |
+| 2. Personality profile | **Checked, does not add a distinct mechanism.** No Big-Five facet supplies an argument beyond the cognitive-stack account; Trust 9 and Altruism-1 concern other people, not food composition. |
+| 3. Historical precedent | **Moved the conclusion.** [[wiki/mind/synthesis/the-binary-verdict]] establishes the domain-general rule this page's regime turns out to be a ninth instance of — see "The mechanism" above. This is not decoration: it is what explains *why* the rule is absolute rather than a strong preference. |
+| 4. Attitudes and forces | **Checked, does not bear.** No documented attitude or social pressure explains the composition rule beyond the closure mechanism already cited. |
+| 5. Security and prosperity | **Checked, does not bear.** The regime predates and is independent of any documented financial period; BFS Foods and Caviar Courier are labour controls, not causes. |
+| 6. Health | **Checked, left open as an existing Gap rather than closed by this pass.** [[wiki/health/hyperreflexivity]] documents the adolescent bulimia and candy-staple period, and this page's own Gaps section already asks whether the regime predates or follows it. This pass did not settle that, and does not claim to. |
+| 7. Romantic and relational state | **Checked, does not bear.** No relationship record ties a partner's food preference to the composition rule; the rule is applied at BFS, Au Za'atar and in the picky-eating capture alike, independent of company. |
+| 8. Age and upbringing | **Checked, does not add new material.** The capture is undated relative to childhood; this pass does not manufacture a developmental origin the corpus does not support. |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** Forty-one months at Au Za'atar produced cultural affection with zero effect on the composition rule itself — already this page's own control, not new material from this pass. |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Checked, left standing.** The Ti/Fe percentages are self-commissioned rather than corpus-audited (per [[wiki/mind/synthesis/the-commissioned-self]]), which this page's mechanism argument does not launder — it is offered as the best available account of *why* the regime is absolute, not as independently confirmed at the same strength as the composition table itself, which is a direct operator capture. |
+
+**What survived:** every finding already on the page — the absence of a
+favourites entry, the labour/pathology/region/metaphor/body-art registers,
+the composition table itself. **What the pass added:** a mechanism (Ti's
+pass/fail closure test, with no Fe-mediated grading function beside it) for
+*why* the composition rule is a strict binary rather than a strong
+preference, and a write-back into [[wiki/mind/synthesis/the-binary-verdict]]
+extending that page's domain table toward food — one of the three domains
+its own Gaps section named as untested. **What it did not do:** date the
+regime's origin or settle whether it predates the adolescent eating-disorder
+period; that Gap stays open.

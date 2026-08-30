@@ -10,6 +10,12 @@ sources:
   - "raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/facebook/facebook-ihatedanfrank/posts/your_posts_1.html"
+synthesizes:
+  - wiki/mind/synthesis/intake-constancy
+  - wiki/mind/synthesis/2020-left-turn
+  - wiki/mind/synthesis/closing-the-set
+  - wiki/interests/opie-and-anthony
+  - wiki/interests/roman-republic
 tags: [personality-profile, digital-footprint, forensic-analysis]
 connections:
   - page: wiki/mind/synthesis/intake-constancy

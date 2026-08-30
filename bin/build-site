@@ -115,6 +115,27 @@ def esc_attr(s: str) -> str:
     return html.escape(s, quote=True)
 
 
+# The Wikipedia-style reader is no longer served here; every human-facing
+# path redirects to the home portal. Data paths (raw .md, agent feed) are
+# untouched so consumers of llms.txt / manifest.json / the home sync keep
+# working. See the discussion in CLAUDE.md's "three things" — this is about
+# surface area, not the data.
+REDIRECT_TARGET = "https://caakehorn.github.io/home"
+
+
+def redirect_html(page_rel: str) -> str:
+    return f"""<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta http-equiv="refresh" content="0;url={REDIRECT_TARGET}">
+<title>Moved — wiki-brain</title>
+</head>
+<body style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:600px;margin:8rem auto;padding:0 1rem;text-align:center">
+<h1 style="font-family:Georgia,'Times New Roman',serif;font-weight:400">Moved</h1>
+<p>The wiki now lives at <a href="{REDIRECT_TARGET}">{REDIRECT_TARGET}</a>.</p>
+</body></html>"""
+
+
 # --------------------------------------------------------------------------
 # wikilink resolution
 # --------------------------------------------------------------------------
@@ -910,9 +931,7 @@ def build(out: Path, base_url: str) -> dict:
         article_img = "" if infobox_html else (
             f'<img src="{esc_attr(img_url)}" alt="{esc_attr(title)} illustration">'
         )
-        html_page = render_page(meta, body_html, page_rel, title, toc, known, out, base_url,
-                                navbox_html=navbox_html, infobox_html=infobox_html,
-                                img_url=img_url, article_img=article_img)
+        html_page = redirect_html(page_rel)
         dst = out / page_rel
         dst.parent.mkdir(parents=True, exist_ok=True)
         dst.write_text(html_page, encoding="utf-8")
@@ -974,76 +993,20 @@ def build(out: Path, base_url: str) -> dict:
             for e in sorted(entries)
         )
         title = dkey.split("/")[-1]
-        dp = f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{esc_html(title)} — wiki-brain</title>
-<link rel="stylesheet" href="{relative_url(idx_html, 'assets/style.css')}"></head>
-<body><header class="site"><div class="brand">wiki-brain<small>compiled second brain</small></div>
-<input id="q" type="search" placeholder="Search the wiki…" autocomplete="off"></header>
-<div class="layout">{render_sidebar(idx_html)}<main class="content">
-{crumb}<h1>{esc_html(title)}</h1>
-<p class="cardsmall">{len(entries)} page(s){f", {len(subdirs)} subsection(s)" if subdirs else ""} in this section.</p>
-<ul class="dirlist">{rows}</ul>
-<div class="meta-note">Auto-generated directory index.</div>
-</main></div>
-<div id="search-results" style="max-width:1200px;margin:0 auto;padding:0 2rem 3rem"></div>
-<script src="{relative_url(idx_html, 'assets/app.js')}"></script></body></html>"""
+        dp = redirect_html(idx_html)
         (out / idx_html).parent.mkdir(parents=True, exist_ok=True)
         (out / idx_html).write_text(dp, encoding="utf-8")
 
-    # root reading aids (DIGEST / RECENT / OPEN / log / queue) as real pages
+    # root reading aids (DIGEST / RECENT / OPEN / log / queue) — raw .md
+    # preserved for the agent feed; the human HTML reader redirects home
     for name in root_docs:
         src = ROOT / f"{name}.md"
         doc_rel = f"{name}.html"
-        text = src.read_text(encoding="utf-8", errors="replace")
-        meta, body = parse_frontmatter(text)
-        doc_link = make_wikilink(known, doc_rel, title_map)
-        doc_title = meta.get("title") or first_heading(text) or name
-        (out / doc_rel).write_text(f"""<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>{esc_html(doc_title)} — wiki-brain</title>
-<link rel="stylesheet" href="assets/style.css"></head>
-<body><header class="site"><div class="brand">wiki-brain<small>compiled second brain</small></div>
-<input id="q" type="search" placeholder="Search the wiki…" autocomplete="off"></header>
-<div class="layout">{render_sidebar(doc_rel)}<main class="content">
-<div class="crumbs"><a href="index.html">Wiki</a> &rsaquo; <span>{esc_html(name)}.md</span></div>
-{md_to_html(body, doc_rel, doc_link)}
-<div class="meta-note">Generated reading aid — source: <code>{esc_html(name)}.md</code>.</div>
-</main></div>
-<div id="search-results" style="max-width:1200px;margin:0 auto;padding:0 2rem 3rem"></div>
-<script src="assets/app.js"></script></body></html>""", encoding="utf-8")
         shutil.copy2(src, out / f"{name}.md")
+        (out / doc_rel).write_text(redirect_html(doc_rel), encoding="utf-8")
 
-    # root index.html from index.md
-    root_index = ROOT / "index.md"
-    if root_index.exists():
-        shutil.copy2(root_index, out / "index.md")
-        meta, body = parse_frontmatter(root_index.read_text(encoding="utf-8", errors="replace"))
-        wikilink_fn = make_wikilink(known, "index.html", title_map)
-        body_html = md_to_html(body, "index.html", wikilink_fn)
-    else:
-        body_html = ""
-    cards = "".join(
-        f'<div class="card"><h3><a href="wiki/{d}/index.html">{esc_html(DOMAIN_TITLES.get(d, d))}</a></h3>'
-        f'<div class="cardsmall">domain</div></div>' for d in DOMAINS
-    )
-    home = f"""<!DOCTYPE html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>wiki-brain</title><link rel="stylesheet" href="assets/style.css"></head>
-<body>
-<header class="site"><div class="brand">wiki-brain<small>compiled second brain</small></div>
-<input id="q" type="search" placeholder="Search the wiki…" autocomplete="off"></header>
-<div class="layout"><nav class="sidebar"></nav>
-<main class="content">
-<h1>Personal Wiki</h1>
-{body_html}
-<h2 style="border:none">Browse by domain</h2>
-<div class="domains">{cards}</div>
-<div class="meta-note">Agents: start at <a href="llms.txt">llms.txt</a> or
-<a href="agent/manifest.json">agent/manifest.json</a>.</div>
-</main></div>
-<div id="search-results" style="max-width:1200px;margin:0 auto;padding:0 2rem 3rem"></div>
-<script src="assets/app.js"></script></body></html>"""
+    # root index.html -> redirect to home portal (human-facing reader gone)
+    home = redirect_html("index.html")
     (out / "index.html").write_text(home, encoding="utf-8")
 
     # assets

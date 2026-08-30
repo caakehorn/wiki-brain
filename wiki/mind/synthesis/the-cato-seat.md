@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-19
+date_modified: 2026-08-26
 sources:
   - raw/self/favorites/FAVS MASTERLIST.csv
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -59,6 +59,13 @@ connections:
 ---
 
 # The Cato Seat
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/profile/intp]] (2026-08-26), which added a documented
+> interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and
+> removed its `sage_pending` staging. This page reasons from the
+> singular-perceiver self-myth and the curated-artwork tag count, neither of
+> which the addition touches. **No claim on this page is affected.**
 
 In the system prompt Dan wrote to configure his own AI collaborator, the
 identity block reads:

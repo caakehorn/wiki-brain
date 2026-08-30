@@ -5,9 +5,9 @@ title: "117 Belmont Circle"
 status: closed
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-08-19
+date_modified: 2026-08-27
 date_range_start: 1961-02-08
-date_range_end: 2019-07-11
+date_range_end: 2019-09-01
 sources:
   - raw/self/ancestry/extracted/Daniel Frank family tree.txt
   - raw/self/dox-scan/all_imessages_complete_dump.txt
@@ -15,6 +15,7 @@ sources:
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
+  - raw/places/captures/2026-08-27_022401_gap-117-belmont-circle.md
 tags: [family, housing, uniontown-era, grief, relationships]
 connections:
   - page: wiki/timeline/events/the-fall-of-fran
@@ -97,6 +98,7 @@ and one month** before Fran left it.
 | Second hole-in-one, UCC 11th, 153 yds, No. 5 wood | 1969 | Fran's golf record |
 | Occupancy ends | 2018-03-08 | Caregiver threads; [[wiki/timeline/events/the-fall-of-fran]] |
 | Reported "finally went pending" | 2019-07-11 | Danny Matthews thread |
+| Sale closed, $250,000 | summer 2019 | operator testimony (uncorroborated) |
 
 That the family's arrival at this address is a **return from Florida** is
 worth holding against the other side of the tree, where Morley Frank's
@@ -219,6 +221,19 @@ resolve it, but it supplies the missing option: through the spring and
 summer of 2018 he had somewhere else to be, one lot away, and he was using
 it.
 
+> **UPDATE [2026-08-22]:** The notice's outcome is now partly recorded, and it
+> points at a *different* house. A Fayette County summons filed **April 5,
+> 2018** — seven days after the notice — gives Dan's address as
+> **337 Saratoga Drive** ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]).
+> So there were two somewheres, not one: this house was where he *was* across
+> that spring, by his own texts, and [[wiki/places/337-saratoga-drive|337
+> Saratoga]] was where the Commonwealth wrote to him. The two are not in
+> conflict — an address of record and an operating address are different
+> things, and the gap between them is itself characteristic of the period. It
+> does mean this section's "he had somewhere else to be" should be read as an
+> observation about use rather than about residency, which is now separately
+> documented and is not this address.
+
 ## The listing
 
 The house was re-listed after Fran's death, and the realtor was Danny
@@ -233,14 +248,46 @@ property's endings is not a coincidence in the Bacharach sense; Uniontown is
 small and he sells houses in it. It is, however, the reason the property's
 two terminal events are recorded at all. Both are in his thread.
 
+### The sale closed
+
+It closed in **summer 2019** for **$250,000** — operator testimony, and the
+only account of the closing that exists. The pending status Danny reported on
+July 11 held; the "second time's a charm" listing was the one that completed.
+
+> **GAP CLOSED [2026-08-27]:** the page previously said *"whether the sale
+> actually closed, when, to whom and for how much is undocumented; the record
+> stops at 'pending.'"* Two of those four are now answered — **when** (summer
+> 2019) and **for how much** ($250,000). **To whom** remains unknown, and so
+> does whether the closing was the same transaction Danny reported pending
+> sixteen days earlier or a later one. Source:
+> `raw/places/captures/2026-08-27_022401_gap-117-belmont-circle.md`.
+
+**What corroborates this and what does not.** The message record ends the
+story at "pending" and never returns to it, so nothing in `raw/` confirms
+either figure independently — this rests on testimony alone. It is, however,
+consistent with the one thing the record does fix: a July 11 pending status
+closing that same summer is an ordinary thirty-to-sixty-day settlement, and
+"summer 2019" is exactly the window that implies. The price is uncorroborated
+in a different way — no listing price appears anywhere in the corpus, so
+there is nothing to compare $250,000 against, not even a delta from the
+failed first attempt.
+
+**What this fixes downstream.** The house had no documented end. Its
+`date_range_end` was 2019-07-11 — the date somebody *mentioned* it was
+pending, which is a message date, not a property event. The residency's
+actual terminus is the summer 2019 closing, and the fifty-seven-year tenure
+is now bounded at both ends by something that happened to the house rather
+than by the last time anyone talked about it.
+
 ## Gaps
 
-Whether the sale actually closed, when, to whom and for how much is
-undocumented; the record stops at "pending." The earlier failed listing is
-inferred from four words and has no independent trace. The nursing home is
-still unnamed. The exact year the caregiving began informally is unfixed —
-only the paid six months from roughly October 2017 are anchored. The
-identity of the April 27, 2018 caddie who slept here is unresolved. And
-nothing in the corpus records what happened to the contents: Fran held this
-house for fifty-seven years, and no inventory, no photograph and no account
-of its clearance exists anywhere in it.
+The sale's **buyer** is still unknown, and with them the question of whether
+the house left the family's orbit entirely or went to somebody in it. Four
+gaps this page opened remain untouched by the 2026-08-27 answer: the nursing
+home is still unnamed; the year the caregiving began *informally* is still
+unfixed, with only the paid six months from roughly October 2017 anchored;
+the April 27, 2018 caddie who slept here is still unidentified; and nothing
+records what happened to the contents — Fran held this house for fifty-seven
+years, and no inventory, no photograph and no account of its clearance exists
+anywhere in the corpus. The earlier failed listing likewise still rests
+entirely on Danny's four words, with no independent trace.

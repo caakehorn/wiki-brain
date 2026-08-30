@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-20
+date_modified: 2026-08-26
 date_range_start: 2019-05-15
 date_range_end: 2019-08-11
 sources:
@@ -131,3 +131,14 @@ retaliating for an overnight Dan spent with her, calling her "a fucking
 low life Fayette County stripper") confirms the relationship predates
 this thread's start, supporting an April origin independent of this
 number.
+
+**A caveat about what kind of page this is.** Read as a candidate for
+modeling Dan's relational qualities, this page does not currently support
+that: it establishes the shape of a negotiated arrangement and how it ended,
+which is an outcome, not a set of qualities either person brought to it. And
+almost everything recorded here is **Dan's account of her** — her own
+messages exist in the thread but are thinly excerpted above relative to his.
+Where her own words appear (the June 8 texts, "How Annie 😒😂") they are the
+material a future pass should prioritize; where they do not, the page should
+be read as thinly attesting the person and only moderately better attesting
+the arrangement.

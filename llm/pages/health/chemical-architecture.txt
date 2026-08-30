@@ -6,7 +6,7 @@ aliases: ["substance stack", "the chemical triad"]
 status: active
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-08-19
+date_modified: 2026-08-28
 sources:
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -15,6 +15,7 @@ sources:
   - raw/legal/bfs-dispute/BFS_BOOTLOADER_v2.md
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-md/ADDICTION_PROFILE.md
+  - raw/people/captures/2026-08-27_222932_gap-alexis-armel.md
 related:
   - wiki/self/context-core
   - wiki/mind/profile/deviance-mapping
@@ -26,6 +27,12 @@ connections:
   - page: wiki/health/cocaine
     type: contains
     claim: "The stimulant layer of this stack has its own page: the twenty-year use history, the finance-driven dosage arc (1g → 3.5–7g → 0.5–1g), the age-13 family exposure, and the supply chain built to deliver it."
+  - page: wiki/people/alexis-armel
+    type: caused-by
+    claim: "Alexis supplies the previously unnamed final active-use episode before stabilization — thirty Roxicet pills over Thanksgiving 2009 and a daily Winter-Park-to-Ocala supply run — seven weeks before the February 17, 2010 day-zero this page already dated."
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: caused-by
+    claim: "That page's own GAP CLOSED block dates the Alexis relationship's start to Thanksgiving 2009 and the relapse she brings with her to the same window, giving this page's previously undated 'stabilization at Full Sail's end' a specific triggering episode."
   - page: wiki/timeline/events/uniontown-hospital-vape-alarm
     type: evidenced-by
     claim: "Nicotine is catalogued here as the ritual regulator that smooths transitions between chemical states; the April 2018 hospital alarm is the record's demonstration that the regulator runs on its own schedule and does not defer to circumstance."
@@ -86,7 +93,24 @@ the post-rupture years; five months from first use to addiction; then the
 stabilization at Full Sail's end — Suboxone day-zero February 17, 2010.
 Sixteen unbroken years followed on the maintenance dose itself: no relapse
 back to full opiate use, and no recovery-program participation anywhere in
-the record. One real exception to a strict "no detox attempt" reading
+the record.
+
+> **GAP CLOSED [2026-08-28] — the final pre-stabilization episode has a
+> name.** This page has always stated the February 17, 2010 day-zero without
+> naming what the last active-use episode before it was. A 2026-08-27
+> operator capture (`raw/people/captures/2026-08-27_222932_gap-alexis-armel.md`)
+> supplies it: [[wiki/people/alexis-armel|Alexis]] enters the record over
+> **Thanksgiving 2009**, and brings **thirty Roxicet pills** with her — "the
+> opiate addiction that Dan had truly kicked while in college is back in
+> force." A friend, Spetch, drives from Winter Park to Ocala daily to keep a
+> supply running; the pattern continues through a Christmas trip home and
+> resolves seven weeks after the couple's return to Orlando, on the
+> already-dated day-zero. This does not change the "sixteen unbroken years,
+> zero relapses" figure, which is measured *from* February 17, 2010 — it
+> supplies the episode that made stabilizing on that date necessary, closing
+> what had been an undated, causeless resolution at "Full Sail's end." Full
+> account on [[wiki/people/alexis-armel]] and
+> [[wiki/timeline/periods/full-sail-2008-2010]]. One real exception to a strict "no detox attempt" reading
 surfaces early in the [[wiki/people/annie-ulmer|Annie]] relationship: on
 December 8, 2015, just ten days after the corpus's first "YOU ARE MY
 EVERYTHING," the two discuss quitting an unspecified substance together

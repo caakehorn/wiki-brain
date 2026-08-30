@@ -11,6 +11,12 @@ sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/facebook/facebook-ihatedanfrank/
+synthesizes:
+  - wiki/self/facebook
+  - wiki/mind/synthesis/political-psyops
+  - wiki/mind/synthesis/totality-themes
+  - wiki/mind/profile/big-five-psychometrics
+  - wiki/mind/synthesis/ai-collaborative-analysis
 tags: [ai-collaboration, personality-profile]
 connections:
   - page: wiki/self/facebook

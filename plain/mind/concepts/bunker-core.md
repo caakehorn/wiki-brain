@@ -3,7 +3,7 @@ plain_of: wiki/mind/concepts/bunker-core
 title: "Bunker Core"
 reading_level: general
 date_modified: 2026-08-26
-source_modified: 2026-07-20
+source_modified: 2026-08-26
 ---
 
 # Bunker Core
@@ -19,6 +19,47 @@ That's the documented software reality. Beyond it, "Bunker Core" starts function
 An AI-generated forensic-inventory document — one Dan did not prompt or author himself — elaborates the concept at length. It describes Bunker Core as an "epistemic fortress," a system built so that no one, not even a partner or a platform, can rewrite his narrative without a SQL receipt. That framing is interpretive. It is something an AI produced when given Dan's setup, not something Dan stated about himself in the retained record. But the same document flags its own double edge without prompting: the same architecture that protects against gaslighting — facts that don't change based on who is shouting loudest — also risks functioning as insulation. A wall of text that prevents external entry. Optimizing for accuracy over access.
 
 Treat the software as documented fact. Treat the fortress framing as a plausible but AI-authored interpretive overlay — a reading of what the software means, not a claim Dan has made in his own words anywhere in the corpus.
+
+## Not one program — a small ecosystem
+
+One of Dan's own AI session documents settles a question this entry used to
+leave open. It names six separate pieces of software under the heading "the
+Bunker Core ecosystem," which answers it plainly: Bunker Core is not a single
+application. It is a label for a set of small, purpose-built tools.
+
+- **Instruction Forge** — an offline tool, running in a browser, that checks
+  written instructions given to AI models. It follows fixed rules rather than
+  asking another AI, so the tool that audits AI instructions does not itself
+  need an AI to work.
+- **Cognitive Foundry** — a four-stage app, wired to the Claude API, for
+  building what he calls "cognitive prosthetics": aids for thinking.
+- **VoidDiagnostic** — a tool for testing what a model knows. He moved it from
+  Gemini to the Claude API and rebuilt its wording in the move instead of
+  copying it over.
+- **Memory Forge** — a browser tool that examines the items an AI stores about
+  a user. It is built to match Gemini's own memory format, which means he
+  worked out how that format functions and rebuilt it as a tool of his own.
+- **YAHLATRO** — a dice game, shipped as one HTML file. It is the only thing on
+  the list with no investigative or self-analysis purpose at all: a game built
+  the same way the serious tools are built.
+- **Bibi** — an AI persona rather than a program, described as "the
+  AI-as-collaborator identity": a standing character he can work with, instead
+  of a role set up fresh each session.
+
+Two more things round the set out. The **Fortress Protocol** is a deliberately
+maximalist visual style for AI replies — the heavy symbols, dividers and
+"fortress walls" that show up throughout these documents turn out to be a
+designed system rather than decoration that crept in. And there is a master
+instructions document, assembled from his personal files.
+
+**Take this list at the confidence it earns, which is not much.** None of the
+six projects, the Fortress Protocol, or the master document has any independent
+trace anywhere else in the record — no code, no repository, no dated evidence
+that any of it was built. This is Dan listing his own projects inside an AI
+session. That is good evidence of what he intended to build. It is not evidence
+that the software exists and runs as described. The list answers "one program
+or several?" — several, by his own account — and leaves "does each one work?"
+wide open.
 
 ## The two-track life
 
@@ -55,7 +96,7 @@ A related gap: the AI-generated forensic-inventory document that elaborates the 
 
 ## What we still don't know
 
-- **Whether Bunker Core is one codebase or many.** The commercial product is single and dated. The rest may be a loose federation of scripts under a shared philosophy.
+- ~~**Whether Bunker Core is one codebase or many.**~~ **Answered:** several, by Dan's own account — see the list above. But each project on that list is still unverified. There is no code, repository or independent record for any of the six.
 - **Whether anyone else has used or seen the toolkit beyond the Gumroad listing.** The record documents the launch. It does not document users, collaborators, or public reception.
 - **Whether the fortress framing is accurate.** The AI-generated reading is plausible and self-aware about its own limits. But it remains an AI reading of a human setup, not the human's own words.
 - **Whether the project is still active.** The documentation window is 2026. Nothing in the record speaks to whether the toolkit or the forensic practice continued past that point.

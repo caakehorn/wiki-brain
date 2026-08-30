@@ -7,7 +7,7 @@ importance: critical
 status: active
 knowledge: mixed
 date_created: 2026-06-22
-date_modified: 2026-08-20
+date_modified: 2026-08-28
 date_range_start: 1962-09-15
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
@@ -27,6 +27,7 @@ sources:
   - raw/self/captures/2026-08-10_015145_suz-winter-park-condo-tenant.md
   - raw/self/captures/2026-08-10_160647_winter-park-condo-address.md
   - raw/self/captures/2026-08-10_websearch-winter-park-condo-lead.md
+  - raw/people/captures/2026-08-27_223406_gap-alexis-armel.md
 synthesizes:
   - wiki/places/337-saratoga-drive
   - wiki/legal/463-morgantown
@@ -47,6 +48,12 @@ infobox:
   handles: ["+172****8715", "suzfrank@***.net", "suzfrank915@***.com"]
   known_for: "The 33,698-message thread that is the second-largest relationship record in the corpus, and the unsettled mutual ledger running through all of it"
 connections:
+  - page: wiki/people/alexis-armel
+    type: caused-by
+    claim: "A March 2014 washing-machine incident Dan says he still does not understand is her stated reason for throwing Alexis out of the house — the second Suz-driven eviction of Alexis this page now documents, and one her son overrode for five months by hiding her in the house in secret."
+  - page: wiki/mind/synthesis/annual-volume-suz
+    type: evidences
+    claim: "This page's per-year volume table is the source data for that chart: a fourteen-month reversal at the relationship's start (2015-2016), then a widening gap in her favor from 2017 onward that reaches two-to-one by the record's end."
   - page: wiki/timeline/events/august-2026-morgantown-call
     type: evidenced-by
     claim: "Coles resumed calling and texting her on the night of 2026-08-16 — fifteen days after Annie apologised to her in person for the first campaign — and named her in a written threat the next day ('I have stuff to ruin you and your mom'). She received none of the calls: Dan had blocked Annie's number on her phone in advance, on a prediction that proved correct."
@@ -147,6 +154,35 @@ connections:
 
 
 # Suz (Suzanne Frank)
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/timeline/events/fran-death-vigil]] (2026-08-26), which added the
+> closure-cluster finding (four dated good-outcome statements in six days)
+> and new typed edges to closing-the-set and attachment-model. **No claim on
+> this page is affected** — nothing here reasons from Dan's happiness
+> statements or the closure mechanism, only from the caregiving rotation and
+> the estate timeline, both untouched.
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/places/337-saratoga-drive]] and
+> [[wiki/timeline/events/fran-death-vigil]] (both 2026-08-22). Both moved for one
+> reason: the April 2018 hospital summons surfaced
+> ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]) — docket
+> MJ-14101-NT-0000082-2018, filed **April 5, 2018**, the day after Fran died, and
+> addressed to 337 Saratoga Drive. **No claim on this page is withdrawn.** The
+> vigil's division of labour, her administrative half done alone, the memorial
+> she planned by herself, the bankruptcy and the $465k sale are all untouched;
+> her documented role in the vape incident — vaping in the room without anyone
+> remarking on it, which Dan credits with priming the act — is unchanged.
+>
+> One fact is new and belongs to her page rather than to the summons': a court
+> summons for her son, printed at 2:51 PM on the day after her grandmother died,
+> was mailed to **her house**, arriving during the week she was planning the
+> memorial service alone. Nothing in the corpus records her reaction, or whether
+> she ever knew. Recorded here as an addition to the vigil-week picture; not
+> written into the body, because a single undocumented delivery cannot carry a
+> claim about her.
+
 
 Dan's mother, and the second-largest presence in the entire corpus: **33,698
 messages across ten years and nine months**, behind only
@@ -727,6 +763,41 @@ NY and at Va,"* the two named property losses — Antique Oaks and 155 Virginia
 Ave, the latter at roughly $135,000 — are the two largest financial events of
 her adult life, and both of them are houses she bought or held for Dan.
 
+## The washing-machine eviction, March 2014
+
+A 2026-08-27 operator capture
+(`raw/people/captures/2026-08-27_223406_gap-alexis-armel.md`), filed to
+[[wiki/people/alexis-armel]], adds a second eviction to Suz's record — one
+this page had not previously carried. In **March 2014**, after
+[[wiki/people/alexis-armel|Alexis]] took the household's washing machine
+apart in an incident Dan says he still does not understand, Suz "had enough"
+and threw her out of the house. Dan's response was not to accept the
+separation: for **five months** he snuck Alexis in and out, hiding her in a
+closet when necessary, so that she continued living there in secret against
+her mother's decision. Suz does not appear to have known, or at least the
+capture does not say she found out.
+
+This is the second documented instance of Suz evicting a partner of Dan's
+from a property she controls — the first being the 2015 removal of
+[[wiki/people/alexis-armel|Alexis]] herself from
+[[wiki/places/155-virginia-ave|155 Virginia Ave]] the following year (see
+below) — and it complicates the picture of her as the household's
+switchboard: the March 2014 eviction was not merely routed through her, it
+was **overridden**, for five months, by her own son inside her own house.
+Whether she remained unaware the whole time or simply let it stand
+unaddressed is not established by the capture and is not resolved here.
+
+> **This sits alongside, and does not resolve, a second, differently-dated
+> account of a similarly-shaped episode.** [[wiki/legal/2015-possession-arrest]]
+> and [[wiki/places/155-virginia-ave]] already carry an operator account of
+> Alexis "secretly living at 337 Saratoga... hidden for roughly four months
+> after being thrown out," placed immediately before the January 2015 lease
+> and February 2015 arrest — a full year after this one. The two may describe
+> the same event at different resolutions, two separate evictions, or a
+> compression in one telling; see the note on
+> [[wiki/people/alexis-armel#the-hidden-year-2014]] for both held side by
+> side.
+
 ## Housing, 2025–2026
 
 Dan returned to 337 Saratoga on 22 February 2025 after six years in Manhattan,
@@ -917,8 +988,10 @@ Volume by year, with the two source files joined at 2025-08-10:
 | 2026 (to Aug 11) | 1,823 | 1,204 | 619 |
 
 Two features of the table carry meaning. **She writes more than he does in
-every year but two** — the exceptions are 2015 and 2016 — and the gap widens
-steadily after 2018 until she is writing two messages for each of his. And
+every year but two** — the exceptions are 2015 and 2016, the relationship's
+first fourteen months — and the gap widens steadily after 2018 until she is
+writing two messages for each of his; [[wiki/mind/synthesis/annual-volume-suz]]
+charts the reversal and the widening as a single series. And
 **2018 is the peak on both sides**: the year Fran died, the year of the
 $14,000, the year the estate was pending and neither of them had any money.
 

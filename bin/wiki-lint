@@ -9,8 +9,9 @@ import os, re, sys, glob, json
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WIKI = os.path.join(ROOT, "wiki")
 VALID_STATUS = {"active", "stable", "stub", "closed", "archived"}
-VALID_DOMAIN = {"self", "timeline", "people", "mind", "work", "interests", "health", "places", "legal"}
-VALID_TYPE = {"entity", "event", "concept", "period", "summary", "synthesis", "profile", "report", "chat", "note", "index"}
+VALID_DOMAIN = {"self", "timeline", "people", "mind", "work", "interests", "health", "places", "legal", "meta"}
+VALID_TYPE = {"entity", "event", "concept", "period", "summary", "synthesis", "profile", "report", "chat", "note", "index", "dataset", "journey"}
+VALID_CHART_KIND = {"line", "bar", "grouped-bar", "area", "scatter"}
 VALID_KNOWLEDGE = {"earned", "derived", "mixed"}
 VALID_TAGS = {
     "relationships", "trauma-bond", "infidelity", "attachment", "family",
@@ -19,6 +20,8 @@ VALID_TAGS = {
     "music-production", "personality-profile", "ideology", "politics",
     "forensic-analysis", "ai-collaboration", "digital-footprint",
     "uniontown-era", "nyc-era", "pets", "non-monogamy", "future",
+    "language", "taste", "vocabulary",
+    "behavioral-change", "boundaries", "intensity", "trust", "consistency",
 }
 PAGE_BUDGET = 40 * 1024   # advisory only — see STYLE_GUIDE.md substance rule 4;
                           # depth is the standing directive, never trim to clear this
@@ -89,6 +92,65 @@ def duplicate_top_level_keys(fm_text):
         first, count = seen[key]
         if count > 1:
             yield key, first, count
+
+
+def validate_dataset_chart(fm_text):
+    """Check a `page_type: dataset` page's `chart:` block against STYLE_GUIDE.md.
+
+    Returns a list of error strings (empty if the block is well-formed). Only
+    called when `page_type` is `dataset`; every other page is exempt. The
+    checks are structural — presence and shape — not numeric: nothing here can
+    confirm the plotted values are correct, only that a renderer has something
+    parseable to work with. `fm_text` is the raw frontmatter block (the text
+    between the `---` fences, as `fm_match.group(1)` gives it).
+    """
+    errors = []
+    chart_block = re.search(r"^chart:\s*\n((?:[ \t]+.*\n?)*)", fm_text, re.M)
+    if chart_block is None:
+        return ["page_type=dataset requires a chart: block (kind, title, series)"]
+    cb = chart_block.group(1)
+    kind_m = re.search(r"^\s*kind:\s*(\S+)", cb, re.M)
+    if not kind_m:
+        errors.append("chart: block missing required 'kind'")
+    elif kind_m.group(1) not in VALID_CHART_KIND:
+        errors.append(f"chart.kind '{kind_m.group(1)}' invalid — one of {sorted(VALID_CHART_KIND)}")
+    if not re.search(r"^\s*title:\s*\S", cb, re.M):
+        errors.append("chart: block missing required 'title'")
+    series_names = re.findall(r"^\s*-\s*name:\s*\S", cb, re.M)
+    if not series_names:
+        errors.append("chart: block needs series: as a list with at least one named series")
+    points_blocks = re.findall(r"points:\s*\n((?:[ \t]+\S.*\n?)*)", cb)
+    if series_names and not any(pb.strip() for pb in points_blocks):
+        errors.append("chart series has no non-empty points: map")
+    return errors
+
+
+def validate_journey_stops(fm_text, page_exists):
+    """Check a `page_type: journey` page's `journey:` block against STYLE_GUIDE.md.
+
+    Returns a list of error strings (empty if well-formed). Only called when
+    `page_type` is `journey`. A journey is a curated, narrated sequence of
+    existing pages — the `journey.stops:` block is the machine-readable form
+    a future renderer (e.g. the portal) can walk without re-parsing prose,
+    mirroring how `chart:` serves `page_type: dataset`. `page_exists` is a
+    callable(rel_wiki_path) -> bool, so this stays a pure function testable
+    without touching disk.
+    """
+    errors = []
+    block = re.search(r"^journey:\s*\n((?:[ \t]+.*\n?)*)", fm_text, re.M)
+    if block is None:
+        return ["page_type=journey requires a journey: block (stops: with page + note each)"]
+    jb = block.group(1)
+    stop_pages = re.findall(r"^\s*-\s*page:\s*(\S+)", jb, re.M)
+    if len(stop_pages) < 3:
+        errors.append("journey: block needs stops: as a list with at least 3 stops")
+    notes = re.findall(r"^\s*note:\s*\S", jb, re.M)
+    if len(notes) < len(stop_pages):
+        errors.append("every journey stop needs a note: explaining why it's on this journey")
+    for pg in stop_pages:
+        if not page_exists(pg):
+            errors.append(f"journey stop page not found: {pg}")
+    return errors
 
 
 def quarantine_mask(text):
@@ -394,6 +456,25 @@ for p in scan:
     elif not is_index and size > PAGE_BUDGET and not is_contact_stub:
         warnings.append(f"{r}: page is {size//1024}KB — unusually long; split ONLY if navigation genuinely improves, never to shorten")
 
+    # The constitution pass (SYNTHESIS_SPEC.md). A synthesis page that reasons
+    # from no page in the profile layer has, on the evidence of its own
+    # citations, never checked its rule against the cognitive stack or the
+    # measured personality profile. That is the "floating rule" anti-pattern:
+    # a conclusion true of its members and unattached to the person it claims
+    # to describe. WARNING rather than error, because the correct fix is an
+    # argument and a lint gate cannot tell one from a decorative citation --
+    # but it is surfaced on every run, because the 2026-08-28 pass that
+    # prompted this rule wrote three cognition pages citing one profile page
+    # between them and nothing said a word.
+    if re.search(r"^page_type:\s*synthesis\s*$", text, re.M):
+        syn_block = re.search(r"^synthesizes:\s*$(.*?)(?=^[A-Za-z_]+:|^---)", text, re.S | re.M)
+        if syn_block and "wiki/mind/profile/" not in syn_block.group(1):
+            warnings.append(
+                f"{r}: synthesis reasons from no wiki/mind/profile/ page — "
+                f"run the constitution pass (SYNTHESIS_SPEC.md) or say on the "
+                f"page why the profile layer does not bear on this rule"
+            )
+
     fm_match = re.match(r"^---\n(.*?)\n---\n", text, re.S)
     fm = fm_parse(text)
     if fm is None:
@@ -443,6 +524,16 @@ for p in scan:
                     errors.append(f"{r}: infobox missing required 'name'")
                 if "relationship_to_dan" not in ib_fields:
                     errors.append(f"{r}: infobox missing required 'relationship_to_dan'")
+
+        # dataset chart schema (mandatory for page_type: dataset — STYLE_GUIDE.md)
+        if pt == "dataset" and fm_match:
+            for msg in validate_dataset_chart(fm_match.group(1)):
+                errors.append(f"{r}: {msg}")
+
+        # journey stops schema (mandatory for page_type: journey — STYLE_GUIDE.md)
+        if pt == "journey" and fm_match:
+            for msg in validate_journey_stops(fm_match.group(1), lambda pg: pg.rstrip("/") in page_keys):
+                errors.append(f"{r}: {msg}")
 
         # sources must exist on disk
         for src in re.findall(r'"(raw/[^"]+)"', fm.get("sources", "")):

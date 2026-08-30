@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-20
+date_modified: 2026-08-26
 date_range_start: 2020-02-09
 date_range_end: 2020-03-29
 sources:
@@ -105,3 +105,13 @@ The outcome of the cat's medical crisis, the disposition of her assault
 report, and any relationship to Dan beyond these two crisis contacts
 are undocumented. The Annie-assault claim has no independent
 corroboration anywhere else in the corpus.
+
+**Stated plainly, because a reader arriving from elsewhere will otherwise
+take the warmth for more than it is:** this page's entire evidentiary base
+is one flirtation and two crisis contacts across seven weeks in early 2020.
+That is enough to show Dan capable of real, appropriate warmth under a
+serious disclosure — which is worth recording precisely because it is a
+genuine data point — but it is not enough record to predict a sustained
+relational dynamic from, and this page should not be read or cited as if it
+were. If either handle carries unmined material beyond this window, finding
+it is the single highest-value action on this page.

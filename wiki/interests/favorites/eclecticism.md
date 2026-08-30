@@ -5,6 +5,10 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
+synthesizes:
+  - wiki/interests/favorites/music
+  - wiki/interests/favorites/books
+  - wiki/mind/synthesis/totality-themes
 related: ["wiki/interests/favorites/index", "wiki/self/context-core", "wiki/self/facebook", "wiki/interests/favorites/music", "wiki/interests/favorites/books", "wiki/mind/synthesis/totality-themes"]
 ---
 

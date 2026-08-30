@@ -38,6 +38,9 @@ connections:
   - page: wiki/mind/synthesis/bond-switch-2015
     type: evidences
     claim: "The hand-read of the two-sided corpus establishes that Annie was ending her own relationship in the same seventy-two hours (\"I am going to get rid of him just like you just did\", 2015-11-29 02:52), and that Suz supplied cocaine and offered a car conditional on the eviction — the switch was mutual, and it was brokered and paid for by the family."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: evidences
+    claim: "The December 10, 2015 '90% rule' exchange ('I like the 90% thing / It doesn't have to be that black and white') is Dan naming his own binary default out loud and choosing a graded rule instead, confined to a logistics question inside a structure he was actively authoring rather than to a verdict question."
   - page: wiki/mind/synthesis/supply-network
     type: evidences
     claim: "Dan names supply as the tie holding a partner in place on 2015-11-29 (\"she doesn't have another drug source\"), roughly three years earlier than any node previously on this page and applied to the departing partner rather than to himself."

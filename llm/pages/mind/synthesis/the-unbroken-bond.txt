@@ -6,7 +6,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-21
+date_modified: 2026-08-28
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -51,10 +51,55 @@ connections:
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Seventeen years without a gap longer than weeks is 'The Irreversibility Firewall's' no-delete prediction at the level of the slot itself: leaving it empty long enough to become a real, examined choice would be exactly the irreversible fact the firewall exists to prevent."
-sage_pending: 2026-08-21
+  - page: wiki/mind/synthesis/the-serial-monogamist
+    type: component-of
+    claim: "Seventeen continuous years with the unattached total measurable in weeks is the header fact behind Dan's stated theory of himself as a dater: he has almost no adult lived experience of the state — single life as an occupied interval rather than a gap between transfers — that any account of his own pattern would need to check itself against."
 ---
 
 # The Unbroken Bond
+
+> **RE-CHECKED [2026-08-28] — premise moved, and it confirms this page rather
+> than complicating it.** [[wiki/people/alexis-armel]] moved 2026-08-28 for a
+> 2026-08-27 operator capture giving the fuller sequence of the 2013
+> separation: five days at 155 Virginia Ave, her mother's house, a new
+> boyfriend (Chris Tressler), a brief NYC move, and reconciliation in
+> **October 2013**. This page's own chronology table already read "Jul–Oct
+> 2013 separation" before this capture existed — the new testimony
+> independently corroborates a dating this page had already gotten right,
+> rather than correcting it. **No claim on this page is affected**, and the
+> table's "Jul–Oct 2013" entry is now backed by primary operator testimony
+> rather than by inference alone.
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/concepts/chaos-preference]] (2026-08-26), which added a section on
+> [[wiki/mind/concepts/the-cool-metric]]'s one documented upper bound (an Ally
+> exchange) and removed its own `sage_pending` staging. Neither addition touches
+> the "entropy as the fundamental truth of existence" claim this page's
+> contradiction rests on. **No claim on this page is affected.**
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/concepts/chaos-preference]] (2026-08-23), which gained a re-check
+> note and no claim change. Nothing here is affected by that page. **Separately
+> and more materially, the base rate this page's thesis lives or dies on has now
+> been derived** — 129 severance episodes, 100% re-engagement, median gap
+> thirty-six seconds, all-time maximum 46 hours
+> ([[wiki/mind/synthesis/the-rescue-premise]] Part I½). That is the strongest
+> quantitative support "the bond is unbroken" has ever had for the decade to
+> May 2026, and it simultaneously supplies the first dated condition under which
+> the claim would have to be narrowed: the August 19 severance has already
+> outlasted 128 of those 129 episodes. No claim withdrawn today.
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/people/annie-ulmer]] (2026-08-22). That page moved by one appended
+> paragraph and a changelog entry, both pointing at
+> [[wiki/mind/synthesis/the-rescue-premise]]; no claim was withdrawn. **This
+> page's thesis is neither confirmed nor refuted by the change and is now
+> testable on a date.** The new page's Part I sets out six endogenous features
+> of the August 2026 severance that have no precedent in eleven years, and its
+> P4 states the falsifier plainly: a severance holding past 2026-12-19 with no
+> external agent involved. That is the first dated condition under which "the
+> bond is unbroken" would have to be narrowed rather than restated. No claim
+> withdrawn today.
 
 Since leaving high school, Dan has been continuously inside a long-term
 monogamous relationship for approximately **seventeen years**, with an
@@ -187,6 +232,24 @@ disorder he wants everywhere else, because it is his.
   parties. It is also, per the re-check below, a property of fast switches
   rather than of Dan specifically — Annie ran the same operation in the same
   seventy-two hours.
+- **A directed fear of infidelity, twice realized.** The continuity is not
+  maintained by fidelity policing, and the corpus is one-directional on the
+  point: `cheat` returns 141 uses across 217,573 records, and every era names
+  Dan as the party cheated on, never the reverse — *"Lex cheated on me 2
+  weeks in after I moved her to fla"* (2015-11-28), *"I got cheated on while
+  I was working before and it's a super helpless feeling"* (2016-02-18),
+  *"I've always been super worried about being cheated on"* (2024-08-12).
+  The rate more than quadruples in 2025 — 62 hits, 4.29 per 1,000 sent
+  messages against 0.24–1.22 in every prior year — almost all of it directed
+  at Annie. Seventeen years of continuous occupancy therefore run alongside a
+  decades-long, directed fear of infidelity, and two documented instances of
+  it actually happening. Whether the continuity causes the fear or the fear
+  causes the continuity is not settled by the corpus and should be stated as
+  open rather than assumed either way. He has his own name for the thesis,
+  said to a third party with nothing to manage on the point, in the middle of
+  the most open period of his life: *"i'm a serial monogamist so i've only
+  been with a few girls, and they all fit a very specific type"*
+  (2019-08-17, 22:26).
 - **The severance failed.** The single hardest piece of evidence on this page:
   the June 1 2026 closure held for **52 days** and then contact resumed on July
   23, running **624 messages across four days**. The wiki's own inference that
@@ -524,42 +587,3 @@ point the corpus has supplied evidence they can diverge.
 > no date in the relationship's ~10.5-year span and no claim this page's
 > continuity argument draws on. Nothing here needed revising.
 
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
-
-Answer and sources: `raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md`
-
-**The continuity is not maintained by fidelity policing, and the corpus can now
-say so with a count.** This page argues the slot is never empty. Mined for the
-answer: `cheat` returns **141 uses across 217,573 records**, and the direction is
-consistent in every era — *"Lex cheated on me 2 weeks in after I moved her to
-fla"* (2015-11-28), *"I got cheated on while I was working before and it's a
-super helpless feeling"* (2016-02-18), *"I've always been super worried about
-being cheated on"* (2024-08-12). **He is the party cheated on, in both documented
-bonds.** 2025 spikes to **62 hits — 4.29 per 1,000 sent messages against 0.24–1.22
-in every prior year**, a 5× rise, almost all of it to Annie.
-
-So the seventeen-year continuity runs alongside a documented, decades-long fear
-of infidelity *directed at him*, and two instances of it actually happening. That
-belongs in "What it costs and what it buys": the bond is the one structure he
-does not treat as entropy, and it is also the one place he has twice been
-injured in the way he most feared. **Whether the continuity is the cause or the
-consequence of that fear is not settled by the corpus and should be stated as
-open rather than assumed either way.**
-
-Second, smaller: *"i'm a serial monogamist so i've only been with a few girls,
-and they all fit a very specific type"* (Sent, **2019-08-17 22:26**) is his own
-name for this page's thesis, and it appears nowhere in the wiki. It is worth more
-than a self-description usually is because of *when* it was said — the middle of
-the most open period of his life — and to whom: a third party he had no reason to
-manage on the point.

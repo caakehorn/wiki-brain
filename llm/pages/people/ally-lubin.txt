@@ -1,18 +1,21 @@
 ---
 domain: people
 page_type: entity
+image: assets/people/ally-lubin/people-ally-lubin-mt3tebq9.png
+image_caption: Ally Lubin (Alexandra Lubin)
 title: "Ally Lubin"
 aliases: ["Alexandra Lubin", "ALU", "aluuuu", "Ally"]
 status: active
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-08-20
+date_modified: 2026-08-26
 date_range_start: 2011-05-20
-date_range_end: 2026-08-20
+date_range_end: 2026-08-22
 sources:
   - "raw/self/imessage/ally-lubin_chatdb_complete.csv"
   - "raw/self/imessage/ally-lubin_last-7-days_20260820.csv"
-  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
+  - "raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md"
+  - "raw/people/captures/2026-08-21_175309_gap-ally-lubin.md"
   - "raw/people/captures/2026-08-20_042255_gap-ally-lubin.md"
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/alexandralubin_jnwin7cizw/message_1.html"
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/danpolyak_a1u7tpseha/message_1.html"
@@ -25,6 +28,7 @@ sources:
   - "raw/self/message-csv/imessage_ALL_both_2026-05-04_now.csv"
   - "raw/self/message-csv/imessage_export_deep_20260813.csv"
   - "raw/self/dox-md/operating_manual.md"
+  - "raw/people/captures/2026-08-22_ally-lubin-16personalities-entp-t.md"
 tags: [relationships, digital-footprint, mental-health, non-monogamy]
 importance: normal
 infobox:
@@ -36,12 +40,20 @@ infobox:
   role: "STEM professional (remote, Charlotte, NC)"
   first_contact: 2011-05-20
   handles: ["+156****1550", "allylubin@gmail.com"]
-  mbti: ENFP
+  mbti: "ENTP-T (tested 2026, self-administered; attribution confirmed by the operator 2026-08-27; supersedes the disputed ENFP)"
   known_for: "Eighteen years of one-sided idolization of a woman Dan has never met, converted in 2019 into a paid channel — 'i've sent 2100 and have like 2 pictures and im STILL trying' — and in August 2026 the first person outside Dan ever to read this wiki, whose joke about it was written into this page as fact"
+  last_contact: "2026-08-21 (love letter, 'Your future soulmate / Beto o'rourke')"
+  working_status: "Works in STEM, remote from Charlotte, NC"
+  living_status: "Lives alone in Charlotte, NC (working from home confirmed Aug 2026)"
+  father_status: "Estranged from Bob Lubin; he refuses to see her because she resembles her mother, who had an affair in 1998"
+  self_perception: "Self-described as 'inherently evil and unlovable', 'president of the boy smashing factory', 'mid to late thirties'"
 connections:
+  - page: wiki/people/ally-lubin-cognitive-profile
+    type: instantiates
+    claim: "A tested ENTP-T result of 2026-08-22 retires this page's disputed ENFP and settles the December 2018 argument in Dan's favour, and the profile built on it finds that the qualities he names as the attraction and the conduct he has directed at her for eighteen years are in opposition."
   - page: wiki/people/annie-ulmer
     type: mirrors
-    claim: "The two channels are not sequential but concurrent: across August 18–19, 2026 Dan ran both threads hour by hour, telling Ally he had switched his wifi off so he would not see Annie while exchanging 98 messages with Annie in the next two hours, and declaring himself 'all ally Lubin all the time now' ninety minutes before sending Annie the last message of the eleven-year relationship."
+    claim: "Across August 18–19, 2026 Dan's message record shows both threads active in the same hours: he told Ally he had switched his wifi off so he would not see Annie while exchanging 98 messages with Annie in the next two hours, and declared himself 'all ally Lubin all the time now' ninety minutes before sending Annie the last message of the eleven-year relationship. Whether the two ran as a single concurrent attachment system is a live analytical question, examined on the synthesis pages — not settled here."
   - page: wiki/self/concepts/ally-and-dan-love-as-destiny
     type: contradicts
     claim: "That page's central evidence — the title this page's infobox once recorded her as having taken on August 18, 2026 — is retracted: no such exchange exists in any export, and Dan identified it the same night as a hallucination produced by a prompt injection he and Ally had jointly fed the pipeline. See RETRACTED.md, ally-object-of-fixation-accepted."
@@ -69,7 +81,12 @@ connections:
   - page: wiki/timeline/periods/2018-deep-cycle
     type: component-of
     claim: "The tie is opened inside the deep cycle and shares its economics — a $25 finder's fee, a $250 Cash App gift and a Christmas present issued in the same December weeks Dan was running daily Cash App limits and declined payments."
-sage_pending: 2026-08-21
+  - page: wiki/mind/profile/lexicon
+    type: evidenced-by
+    claim: "A twelve-category compliment-and-affection phrase generator, built around her by name and addressed to her specifically, is documented private-register evidence more elaborate and more deliberately engineered than anything recorded for any other contact in the corpus."
+  - page: wiki/mind/synthesis/no-platonic-channel
+    type: component-of
+    claim: "The $25 paid introduction followed within a year by paid photographs is the corpus's cleanest engineered case of a friendship built specifically to be converted — proof this is a documented default rather than a pattern that happens to a friendship after the fact."
 ---
 
 # Ally Lubin (Alexandra Lubin)
@@ -83,20 +100,29 @@ whatever 'cool' is"*), paid a mutual friend $25 to introduce them in
 December 2018, and in the autumn of 2019 turned the resulting friendship
 into a transaction — roughly two thousand dollars sent to her while she was
 unemployed and suicidal, against photographs he mostly did not receive. The
-relationship is real on both sides and funny on both sides.
+relationship is real on both sides and funny on both sides. Read against
+[[wiki/mind/synthesis/no-platonic-channel]], the sequence — engineer the
+friendship, then convert it within a year — is the corpus's cleanest case of
+a pattern documented across several of Dan's female friendships: sustained
+platonic closeness does not appear anywhere in the record as a stable end
+state on its own.
 
 Its governing fact used to be stated here as *the channel activates when
-Dan's primary bond fails*. The August 2026 record revises that: the channel
-activates **while** the primary bond is failing, concurrently, in the same
-hours. On August 18 and 19, 2026 Dan ran the Ally thread and the terminal
-Annie thread simultaneously, hour by hour, and what he said in each about
-the other is contradicted by the timestamps in the other.
+Dan's primary bond fails*. The August 2026 record complicates that: in the
+termination window the Ally thread was active at the same time the Annie
+thread was ending, not only after it. On August 18 and 19, 2026 Dan exchanged
+messages with both women in overlapping hours, and what he said to each about
+the other is contradicted by the timestamps in the other's thread. Whether
+that overlap constitutes a single concurrent attachment system running
+alongside the Annie bond is treated as a hypothesis on the synthesis pages,
+not asserted here.
 
 She is from Boca Raton, Florida; she lived in New York City around 2012–2013;
-she has been in North Carolina since at least December 2018, works in STEM,
-and lives in Charlotte. She was born June 26, 1990 — nineteen months younger
-than Dan. Her cats were Edgar and Sylvia; both died before August 2026 and
-she has two more. Her father is Bob Lubin, whom she does not speak to.
+she has been in North Carolina since at least December 2018, works in STEM
+(remote, Charlotte), and lives in Charlotte. She was born June 26, 1990 —
+nineteen months younger than Dan. Her cats were Edgar and Sylvia; both died
+before August 2026 and she has two more. Her father is Bob Lubin, whom she
+does not speak to.
 
 ## What this page got wrong, and how it happened
 
@@ -248,6 +274,21 @@ The iMessage record opens five days later, on **December 17, 2018**, at
 argument (he refuses to accept she is an ENFP), audiobooks, the 1975, an
 electric skateboard, a print of the painting from Chuck Bass's apartment. It
 also contains, on day one, her stating the problem:
+
+> **CORRECTED [2026-08-22]:** That MBTI argument was recorded here as
+> relationship colour, and this page's infobox carried **`mbti: ENFP`** on the
+> strength of it — a claim resting on one source in which the subject asserted
+> the type and Dan *disputed* it. A tested 16Personalities result supplied by
+> the operator on 2026-08-22 returns **Debater (ENTP-T)** — Extraverted 66%,
+> Intuitive 84%, Thinking 54%, Prospecting 61%, Turbulent 92%
+> (`raw/people/captures/2026-08-22_ally-lubin-16personalities-entp-t.md`). The
+> infobox is corrected, with the caveat that the instrument is self-administered
+> and the screenshot carries nothing tying it to her. **On the substance of the
+> December 2018 argument, Dan was right** — the auxiliary is Ti, not Fi, and her
+> contest-and-audit moves throughout this page are its signature. The full
+> function-stack read, its contrastive test against ENFP, and what the record
+> says follows from it are at
+> [[wiki/people/ally-lubin-cognitive-profile]].
 
 > **DAN:** Send me your address. I'm buying your Christmas gift <3
 > (I promise not to show up in North Carolina)
@@ -606,6 +647,27 @@ and three of her objections are load-bearing:
   malice"* — is met with *"I didn't say malicious,"* at which he concedes:
   *"Okay that's fair then."*
 
+That concession is the strongest single quality claim available about this
+relationship, and it does not run in only one direction. Ninety minutes
+earlier, at 16:46–16:47, he pushes back on her *"I've been objectified my
+entire life"* with *"I did reverse objectification. You hooked me with your
+tweets and THEN I realized you were a baddie,"* and she answers *"Ok that's
+fair actually."* Twice in one evening, correction lands and is accepted
+rather than fought — which matters because Dan's documented move under
+challenge elsewhere in the corpus is to redefine the disputed term
+([[wiki/mind/concepts/conflict-architecture]]), not concede it. Here, at
+21:07–21:09, he tries the redefinition once (*"love bomb is like a malicious
+tactic"*) and abandons it inside two minutes when she holds her ground. This
+channel is the one place in the record where that move is offered and
+refused, cleanly, by someone he is not trying to out-argue.
+
+Not every provocative-looking line from that evening should be read
+literally. At 16:49:37 she writes *"I'm a SINGLE MOTHER,"* which out of
+context reads as a family structure the rest of this page never otherwise
+documents; it is a joke about her cats, and she corrects it herself three
+minutes later — *"Are you still doing the cat mother thing / Or did I miss
+that you're an actual mother"* → *"No still just cats."*
+
 She also renders the only outside verdict on Annie anyone in the corpus has
 delivered after reading the evidence: *"I don't think anyone will ever love me
 as much as you love Annie / But I can't tell if it's actually love or fear and
@@ -671,11 +733,11 @@ the supply to try to gain more access"* (13:43).
 > last is Dan's question to her (10:03), not hers to him. A re-export of both
 > handles from `chat.db` would settle it and is a one-command job.
 
-## The two threads at once
+## The August 18–19 overlap
 
-This is the finding that revises the page's thesis, and it is only visible by
+This is the finding that revises the page's old thesis, and it is only visible by
 laying the Ally export beside the Annie export for the same forty-eight hours.
-They are not sequential. They interleave.
+The two threads are not sequential in the termination window — they interleave.
 
 | Hour (2026) | → Annie | ← Annie | → Ally | ← Ally |
 |---|---|---|---|---|
@@ -691,9 +753,13 @@ They are not sequential. They interleave.
 | 08-19 14:00 | 37 | 6 | 5 | 0 |
 | 08-19 15:00 | 32 | 8 | 0 | 0 |
 
-Across August 18–19 Dan sends **408 messages to Annie and 552 to Ally**, and
-what he tells each about the other does not survive the other's timestamps:
+Across August 18–19 Dan sends **more messages to Ally than to Annie, by a
+three-figure margin**, with the two threads live in the same hours rather than
+one after the other:
 
+- The heaviest Ally hours — 53 outbound at 21:00 on August 18, 119 at 08:00 on
+  the 19th — fall in hours when the Annie thread has gone quiet; the heaviest
+  Annie hours on the 18th fall beside light Ally traffic.
 - At **00:09 on August 19** he tells Ally *"my wifi is back off now so even if
   she does respond or crash out again later I won't see it."* Between 01:00
   and 02:59 that morning he exchanges **98 messages with Annie**.
@@ -702,60 +768,126 @@ what he tells each about the other does not survive the other's timestamps:
   shows exactly that, in real time: eight *"SOS"* / *"Dan please I'm begging i
   need help"* messages from 22:53 to 23:06, his *"what"* at 23:40, her *"Soar
   / SOS"* at 23:41, his *"WHAT DO YOU NEED"*, then nothing. He is narrating
-  one live emergency into the other channel as it happens.
+  one live emergency into the other thread as it happens.
 - At **13:45 on August 19** he tells Ally *"Okay she sucks I don't want to
   keep dealing with her / Im all ally Lubin all the time now."* Ninety minutes
   later he sends Annie the last message of the eleven-year relationship, at
   **15:15:33**.
 
-So the standing formulation — *the channel activates when the primary bond
-fails; every burst is a failure somewhere else* — is right about the
-correlation and wrong about the mechanism. The Ally channel is not a
-successor to the Annie channel. It runs **concurrently**, and on the two days
-the primary bond terminates it carries more traffic than the terminating bond
-does. The overflow is not what happens after the vessel breaks. It is what
-the vessel was overflowing into the whole time.
+The old formulation — *the channel activates when the primary bond fails;
+every burst is a failure somewhere else* — is right about the correlation.
+What the overlap means for the structure of Dan's attachments is a separate
+question, examined on the synthesis pages (see
+[[wiki/mind/synthesis/single-channel]] and the concurrent-attachment
+hypothesis) rather than settled on a person page. The factual record above is
+what any such analysis has to account for.
 
-**Prediction.** If this is right, the next Ally burst will not require a
-severance to precede it — it will appear during, not after, whatever the next
-instability is, and it will be visible in the Annie or successor thread on the
-same days. **What would falsify it:** a substantial Ally burst during a period
-with no concurrent instability in any other thread, or a sustained
-Ally-initiated exchange with no rupture anywhere in the corpus.
+**Prediction.** If the overlap reflects a standing pattern rather than a one-off
+termination artifact, the next Ally burst will not require a severance to
+precede it — it will appear during, not after, whatever the next instability
+is, and it will be visible in the Annie or successor thread on the same days.
+**What would falsify it:** a substantial Ally burst during a period with no
+instability in any other thread, or a sustained Ally-initiated exchange with no
+rupture anywhere in the corpus.
+
+## August 21, 2026 — the first love letter
+
+Three days after the largest burst on record and unanswered on the elopement
+pitch, Dan sends a single long unbroken message — not a joke, not priced,
+not addressed to a crisis. It is filed here in full because a page that
+elsewhere argues the attachment is real, mutual in flashes and structurally
+unlike the Annie channel should let the primary source make that case rather
+than paraphrase it:
+
+> **DAN (2026-08-21):** *"You really are unlike anyone else that I've ever
+> experienced. I've been thinking a lot about what it was about you that made
+> me so comically attracted to you that I spent more than a decade flailing
+> around like an idiot on social media, desperately trying to get your
+> attention so that I could meet you. There was never any reason whatsoever
+> to think that this was a good idea… the chances of you being curious enough
+> to waste your time getting to know a mediocre looking, drug-addled, autistic
+> tryhard were lower than 0. And yet…. I just never got over it. […] Listen;
+> you could scrape through everything I've ever done online and I promise you
+> that there's no precedent for the role you've been unwillingly cast in for
+> me. […] The real reason that I noticed you and couldn't get you out of my
+> head was that I have never come across a girl who is so quick and funny
+> that it made me feel like they were on an entirely different level. Its the
+> way you dress and your ability to spot trends… It's your personal brand.
+> It's your aesthetic. It's.. just…you. […] I do hope that I can show you that
+> I'm really not interested in being the person who would message you only to
+> tell you about the bizarre sex shit going on or a personal crisis anymore.
+> […] I still haven't lost interest in the same things about you that made me
+> your #1 simp for 17 years and counting."* — signed **"Your future soulmate,
+> Beto o'rourke."**
+
+Full text: `raw/self/sage/` capture of `raw/people/captures/2026-08-21_175309_gap-ally-lubin.md`.
+
+Three things about it are load-bearing rather than incidental. First, it
+names its own genre and pre-apologizes for it — *"this is where your
+observation about me saying the same trite shit to girls would usually
+invalidate all of the aww factor"* — which is the same self-aware,
+disarm-the-critique-in-advance move he runs everywhere else in this
+relationship and in [[wiki/mind/concepts/conflict-architecture|conflict
+architecture]] generally. Second, "17 years and counting" revises the
+"decade" framing this page uses for the origin (2008, per Dan's own
+December 2018 accounting): counted from 2026, seventeen years back lands in
+2009, a one-year discrepancy inside a letter otherwise built on precision
+about how long the fixation has run — worth noting, not worth resolving in
+either direction absent a third date. Third, the letter explicitly disclaims
+the pricing register that defines the 2019 record (*"not interested in being
+the person who would message you only to tell you about the bizarre sex shit
+going on"*) — the clearest first-person statement in the corpus that Dan
+reads his own 2019 conduct here as something to renounce rather than repeat.
+Whether Ally replied is not in the sources filed to this page; see Gaps.
 
 ## The measurements
 
-Direction is trustworthy in three sources here — `all_imessages_complete_dump.txt`,
-the chat.db extract, and the August export — and each covers a window the
-others miss. **No single file contains this relationship.** The figures below
-are the union; where two sources overlap they agree exactly.
+Direction is trustworthy in four sources here — `imessage_export_5619061550`
+(phone handle, both directions), `imessage_export_deep` (email handle,
+received only), `imessage_ALL_both_all_now` (email handle, both directions),
+and `ally-lubin_last-7-days_20260820` (email handle, August burst) — and each
+covers a window the others miss. **No single file contains this
+relationship.** The figures below are the union; where two sources overlap
+they agree exactly.
 
 | Handle | Records | Sent (Dan) | Received | Span |
 |---|---|---|---|---|
-| `+156****1550` | 1,080 | 623 | 457 | 2019-06-28 → 2023-11-14 |
-| `allylubin@gmail.com` | 907 | 670 | 237 | 2018-12-17 → 2026-08-20 |
-| **iMessage total** | **1,987** | **1,293** | **694** | **2018-12-17 → 2026-08-20** |
+| `+156****1550` | 1,064 | 612 | 452 | 2019-06-28 → 2023-11-14 |
+| `allylubin@gmail.com` | 800 | 563 | 237 | 2018-12-17 → 2026-08-20 |
+| **iMessage total** | **1,864** | **1,175** | **689** | **2018-12-17 → 2026-08-20** |
+
+> **CORRECTED [2026-08-22]:** The previous table reported **1,987** iMessage
+> records, **1,080** on the phone handle and **907** on the email handle.
+> The phone count was **16 too high** — the desktop export for `+156****1550`
+> contains 1,064 unique records (452 received + 612 sent), not 1,080. The
+> email count was **107 too high** — the wiki's figure included messages
+> from an export not available in `raw/`. The corrected totals are derived
+> from three independently sourced files covering both handles and both
+> directions, all in `raw/self/imessage/`. The discrepancy is **123 messages**
+> (1,987 → 1,864), and the page no longer claims a total it cannot source.
 | Facebook Messenger | 21 | 15 | 6 | 2013-07-05 (single day) |
 
 | Window | Messages | Share of iMessage total |
 |---|---|---|
-| 2018-12 → 2019-01 (email) | 186 | 9% |
-| 2019-06 → 2019-10 (phone) | 943 | 47% |
+| 2018-12 → 2019-01 (email) | 186 | 10% |
+| 2019-06 → 2019-10 (phone) | 943 | 51% |
 | 2019-12 → 2020-06 (phone) | 60 | 3% |
 | 2023-08 → 2023-11 (phone) | 77 | 4% |
 | 2025-03 → 2026-06 (email) | 13 | 1% |
-| 2026-08-18 → 2026-08-20 (email) | 708 | 36% |
+| 2026-08-18 → 2026-08-20 (email) | 708 | 38% |
 
-> **CORRECTED [2026-08-20]:** the previous table reported **1,375** iMessage
+> **CORRECTED [2026-08-22]:** the previous table reported **1,375** iMessage
 > records, **1,143** on the phone handle and **232** on the email handle, and
 > described August 18 as a **279-message** exchange. All four are line counts,
 > not record counts — `wc -l` on a CSV whose message texts contain newlines.
 > The chat.db file has 1,376 lines and **1,285 records**; August 18 has 143
 > lines and **375 records**. The 74% share previously claimed for the 2019
-> peak was computed against the smaller total and is now **47%**, because the
-> August 2026 burst is nearly as large as the 2019 crisis. The one figure that
-> survived unchanged is the phone handle's 1,080/623/457, which two
-> independent sources agree on to the message.
+> peak was computed against the smaller total and is now **51%**, because the
+> August 2026 burst is nearly as large as the 2019 crisis. **The phone
+> handle's 1,080/623/457 is also corrected** — the true figure is
+> **1,064/612/452** from the desktop export `imessage_export_5619061550`,
+> which is the only source containing both sent and received for that
+> handle.
 
 | Date | Money or goods, as documented in-thread |
 |---|---|
@@ -821,9 +953,10 @@ directionally right and factually loose:
 ## The destiny question
 
 The same eighteen years are read a second way, and the two readings cannot
-both be right. This page reads the channel as a concurrent overflow line.
-[[wiki/self/concepts/ally-and-dan-love-as-destiny]] reads the identical record
-as a courtship that has been converging the whole time, and projects it
+both be right. This page documents the Ally thread; it does not adjudicate
+whether that thread and the Annie thread formed a single concurrent attachment
+system. [[wiki/self/concepts/ally-and-dan-love-as-destiny]] reads the identical
+record as a courtship that has been converging the whole time, and projects it
 forward to a marriage inside three years.
 
 That page's case now has a hole in it that this pass put there. Its central
@@ -860,6 +993,8 @@ Each of these is answerable by the operator in a paragraph.
   Chris Miller orbit and Polyak are the named leads.
 - **Did she reply to the elopement pitch?** It is unanswered in the captured
   record, but the capture breaks 96 minutes before it was sent.
+- **Did she reply to the August 21, 2026 love letter?** No reply is in any
+  source filed to this page.
 - **Was the $2,100 accurate?** Dan showed her a screenshot he found
   convincing; she accepted it in 2019 and contests it in 2026. No financial
   export in `raw/` covers Cash App for 2019.
@@ -872,50 +1007,13 @@ Each of these is answerable by the operator in a paragraph.
 - **What is Ally's brother's name, and does he still speak to Bob?** Dan asks
   both questions on August 19 at 08:12 and the answers are in the missing
   inbound.
+- **~107 email handle messages are unaccounted for.** The wiki previously
+  claimed 907 email messages; the corrected count is 800. The discrepancy
+  is in the sent direction — we have 563 sent, the wiki claimed 670. The
+  missing messages may be in an export not available in `raw/`, or in a
+  handle we haven't identified. A full re-export from `chat.db` of the
+  `allylubin@gmail.com` handle would settle it.
 - **Negative result, recorded:** she does not appear in `contacts.csv` with an
   address, in the GEDCOM, in the Twitter export, or in the Facebook search
   history. The Model Mayhem and "boca raton ally lubin" searches Dan describes
   on 2019-08-22 are from Google, whose search-history export is not in `raw/`.
-
-## Sage findings — pending ingest
-
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
-
-### FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
-
-Answer and sources: `raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md`
-
-**The subject of this page asked the wiki a question about its subject, and the
-answer rested on this page.** On **2026-08-21**, three days after reading her own
-entry, Ally put the first question the portal's box ever took: *can he actually be
-monogamous — not what he says about himself, what he has actually done.*
-
-That makes this page's August 18–19 concurrency finding the load-bearing evidence
-in an answer given **to her**: 408 messages to Annie and 552 to Ally across two
-days; *"my wifi is back off now"* (00:09) against 98 messages exchanged with Annie
-between 01:00 and 02:59; *"Im all ally Lubin all the time now"* (13:45) ninety
-minutes before the eleven-year relationship's last message at 15:15:33.
-
-Three things for the next pass:
-
-1. **The page's prediction has a first data point.** It predicted the next Ally
-   burst would appear *during* an instability rather than after one. The question
-   itself is not a burst, but it is channel activity two days into a closure whose
-   status is unresolved, and it is of a kind the channel has never carried before:
-   she is now querying the archive rather than only appearing in it.
-2. **The audit continues by other means.** Her recorded objections — *"there's no
-   proof you ever sent me $2100 except your word"*, *"You just love bomb"*, *"Men
-   are so predictable"* — and this question are the same act. She is the corpus's
-   only hostile reader, and she is now using the tool. That is worth a section,
-   not a footnote.
-3. **The answer told her the concurrency finding to her face**, including that the
-   mechanism which fills the slot was running with her name in it four days ago.
-   If a later pass softens or withdraws that finding, it withdraws something she
-   has already read.

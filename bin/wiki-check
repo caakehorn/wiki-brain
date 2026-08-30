@@ -1,0 +1,180 @@
+#!/usr/bin/env python3
+"""wiki-check — the mechanical half of a housekeeping pass, in one command.
+
+`CLAUDE.md` has always carried this as a block of four shell lines to run before
+every commit. Four lines is three chances to run three of them, and the failure
+is silent: the gates pass, the commit lands, and the generated corpus is a pass
+behind. The 2026-08-20 audit found `llm/manifest.json` eleven pages behind
+`wiki/` for exactly that reason.
+
+ORDER MATTERS, and the block in CLAUDE.md had it backwards for a single chain.
+It listed the three gates first and the generators second. But:
+
+  * `bin/wiki-lint` checks master-index count drift, so running it before
+    `bin/wiki-digest` inspects the pre-regeneration state and can pass on
+    numbers that are about to change.
+  * `bin/wiki-freshness` exists to confirm the generators ran. Running it before
+    them asks a question whose answer is guaranteed stale.
+
+So the order here is: GENERATE, then GATE, then SCAN. Regenerating first also
+means the gates are reading exactly what a reviewer will read.
+
+TWO MODES, because they answer different questions:
+
+  (default)      Regenerate, then gate. This is the pre-commit pass. Note that
+                 `wiki-freshness` is close to a tautology here — we just ran the
+                 generators — and it is kept because it is cheap and because a
+                 generator that silently failed still shows up as drift.
+
+  --check-only   Gate without writing anything. This is the question CI and a
+                 reviewer actually want answered: *is what is committed already
+                 consistent?* Here `wiki-freshness` is the real gate rather than
+                 a formality — it fails when somebody committed a content pass
+                 without regenerating, which is the whole failure mode above.
+
+WHAT THIS DELIBERATELY DOES NOT DO. It does not drain obligations, judge a
+warning, or touch a stale premise. `bin/wiki-work check` prints what is
+outstanding and this reports it, but a red gate is the only thing that makes it
+exit non-zero. Everything else on a housekeeping pass needs a reader:
+`.claude/skills/wiki-housekeeping/` is that half, and it calls this one first.
+
+Exit 0 = every gate clean. 1 = a gate failed. 2 = a tool is missing or crashed.
+
+    bin/wiki-check                 # regenerate, then gate (pre-commit)
+    bin/wiki-check --check-only    # gate only, writes nothing (CI, review)
+    bin/wiki-check --quiet         # exit code and failures only
+"""
+import argparse
+import os
+import subprocess
+import sys
+import time
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BIN = os.path.join(ROOT, "bin")
+
+# (argv, label, writes, summary_filter)
+#
+# `summary_filter` keeps the digest readable: each tool already prints a one-line
+# summary, and in quiet mode that single line is all anyone wants to see.
+GENERATE = [
+    (["wiki-digest"], "regenerate DIGEST / RECENT / OPEN", True),
+    (["llm-publish"], "rebuild the llm/ corpus", True),
+]
+GATE = [
+    (["wiki-lint"], "frontmatter, links, retractions, index drift", False),
+    (["wiki-connect", "check"], "typed-edge claims", False),
+    (["wiki-climb", "check"], "synthesizes: and stale premises", False),
+    # A Reader's Digest twin that has fallen behind its page is a confident,
+    # readable, WRONG account served to the reader least able to catch it — the
+    # same failure class as a stale premise, one layer down, so it gates in the
+    # same place. Missing twins are campaign work and never fail this.
+    (["wiki-plain", "check"], "Reader's Digest twins current and permitted", False),
+    # The anti-slop referee. It gates rather than advises because this layer is
+    # the one a careless writer can degrade invisibly — a slop twin reads fine,
+    # cites nothing, and is served to the reader least able to catch it. Every
+    # rule it applies is arithmetic over the twin and its page, so there is
+    # nothing here for a writer to talk its way past.
+    (["wiki-plain", "audit"], "Reader's Digest twins carry the page's evidence", False),
+    (["wiki-freshness"], "generated corpus in step with wiki/", False),
+    # The intake ledger's projection is generated from its append-only log, so
+    # it can drift the same way llm/ drifts — and unlike llm/ nobody would
+    # notice, because a stale units.json still reads as a plausible ledger.
+    # Silent and clean when no unit has ever been opened.
+    (["intake", "check"], "intake ledger log and projection agree", False),
+    # The skills database has the same derived-file problem as the ledger, plus
+    # one the ledger does not: it is written by several models from several
+    # branches, and its page is public. A drifted projection still reads as a
+    # plausible registry; a page behind the log tells a foreign model the
+    # repository offers something it no longer does. This also re-scans the
+    # committed database for credential shapes, which is the check that has to
+    # run on every commit rather than on every push.
+    (["wiki-skills", "check"], "skills database log, projection and page agree", False),
+]
+SCAN = [
+    (["wiki-work", "scan"], "recompute WORK.md", True),
+]
+
+
+def run(argv, quiet):
+    """Run one bin/ tool, streaming or capturing per mode. Returns (code, text)."""
+    path = os.path.join(BIN, argv[0])
+    if not os.path.exists(path):
+        print(f"wiki-check: no such tool: bin/{argv[0]}", file=sys.stderr)
+        return 2, ""
+    try:
+        proc = subprocess.run(
+            [sys.executable, path, *argv[1:]],
+            cwd=ROOT,
+            capture_output=True,
+            text=True,
+        )
+    except OSError as exc:  # pragma: no cover - environment failure
+        print(f"wiki-check: could not run bin/{argv[0]}: {exc}", file=sys.stderr)
+        return 2, ""
+    out = (proc.stdout or "") + (proc.stderr or "")
+    if not quiet:
+        sys.stdout.write(out if out.endswith("\n") or not out else out + "\n")
+    return proc.returncode, out
+
+
+def headline(text):
+    """The one line a tool prints about itself, for the quiet digest."""
+    for line in text.splitlines():
+        s = line.strip()
+        if s and not s.startswith(("warning", "WARN", "ERROR", "-", "…")):
+            return s
+    return ""
+
+
+def main():
+    ap = argparse.ArgumentParser(
+        description="Run the mechanical housekeeping chain in the one order that is correct."
+    )
+    ap.add_argument(
+        "--check-only",
+        action="store_true",
+        help="gate without regenerating — writes nothing (CI, review)",
+    )
+    ap.add_argument("--quiet", "-q", action="store_true", help="summaries and failures only")
+    args = ap.parse_args()
+
+    steps = list(GATE) if args.check_only else GENERATE + GATE + SCAN
+    started = time.time()
+    failed = []
+
+    for argv, why, writes in steps:
+        if not args.quiet:
+            print(f"\n── bin/{' '.join(argv)} — {why}")
+        code, text = run(argv, args.quiet)
+        if code == 2 and not text:
+            return 2
+        if args.quiet:
+            line = headline(text)
+            if line:
+                print(("FAIL  " if code else "ok    ") + line)
+        if code:
+            failed.append((" ".join(argv), code))
+
+    elapsed = time.time() - started
+    print()
+    if failed:
+        for name, code in failed:
+            print(f"FAILED  bin/{name} (exit {code})")
+        print(
+            f"\nwiki-check: {len(failed)} gate(s) red in {elapsed:.1f}s — "
+            "fix before committing."
+        )
+        return 1
+
+    mode = "checked" if args.check_only else "regenerated and checked"
+    print(f"wiki-check: all gates clean, {mode} in {elapsed:.1f}s.")
+    # Advisory, exactly as bin/wiki-lint treats it: outstanding work must not
+    # block an unrelated commit, or the gate acquires an escape hatch and the
+    # escape hatch becomes the habit.
+    run(["wiki-work", "check"], quiet=False)
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

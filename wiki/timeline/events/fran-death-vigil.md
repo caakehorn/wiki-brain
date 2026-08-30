@@ -6,7 +6,7 @@ status: stable
 importance: high
 knowledge: mixed
 date_created: 2026-07-13
-date_modified: 2026-08-18
+date_modified: 2026-08-26
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
@@ -62,7 +62,7 @@ connections:
     claim: "The vigil's opening event was not only a fall: the first encounter of Dan and Annie's non-monogamy arrangement was executing in the house between the two impacts, which is the fact this page carried for six weeks without knowing it."
   - page: wiki/timeline/events/uniontown-hospital-vape-alarm
     type: contains
-    claim: "The SMOK-versus-10W-vape story this page set up with its ending missing resolves as a building-wide fire alarm, four fire trucks and an escort off hospital property — the punchline named here as an open gap since 2026-07-19."
+    claim: "The SMOK-versus-10W-vape story this page set up with its ending missing resolves as a building-wide fire alarm, four fire trucks and an escort off hospital property — and, per the summons surfaced 2026-08-22, a summary case filed with the Fayette magistrate on April 5, 2018, the day after Fran died."
   - page: wiki/people/diane-moore
     type: caused-by
     claim: "The reason the two people who had kept Fran at home for three years held no shift in Fred Adams's mandated rotation is a letter: Dan's maternal grandmother barred them from the house unsupervised and from visiting without an assigned monitor, sent before the final admission rather than in response to it."
@@ -81,6 +81,12 @@ connections:
   - page: wiki/people/lucie-dobbin
     type: contains
     claim: "Dan reached out to Lucie within hours of Fran's death specifically because she 'already knew just how magical that woman was' — the message is the vigil's richest surviving first-person account, offered to a peer of Fran's rather than family."
+  - page: wiki/mind/synthesis/closing-the-set
+    type: instance-of
+    claim: "The vigil is a set-closure object like the cultural record — self-set, bounded by a death, finished — and the four dated statements of good outcome inside six days are the only cluster of its kind anywhere in 106,629 sent messages."
+  - page: wiki/mind/concepts/attachment-model
+    type: contradicts
+    claim: "The one death Dan attended produced closure within 48 hours, stated four times unprompted; the one long relationship's ending in the same corpus produced none and required an external severance signal after ten years — closure and no-closure sitting side by side as the corpus's cleanest contrast."
 ---
 
 # The Fran Vigil (March–April 2018)
@@ -204,8 +210,14 @@ took one pull from the sub-ohm device, set off the smoke detector, and
 triggered an alarm that chain-spread through the entire hospital; four
 fire trucks arrived within minutes, and a security guard escorted him off
 the property and wrote up charging documents while Fran lay dying feet
-away. The full account — including a direct contradiction with the
-sentence above over which of the two of them was in the bathroom — is at
+away. **The charging documents were real.** The summons surfaced 2026-08-22:
+a Fayette County summary non-traffic case, docket MJ-14101-NT-0000082-2018,
+**filed April 5, 2018 — the day after Fran died** — before Magisterial District
+Judge Michael M. Metros, on a single local-ordinance count of smoking in a
+hospital. It was printed at 2:51 that afternoon and mailed to 337 Saratoga
+Drive, which means it arrived during the week of the funeral. The full account
+— including a direct contradiction with the sentence above over which of the
+two of them was in the bathroom — is at
 [[wiki/timeline/events/uniontown-hospital-vape-alarm]].
 
 The family's exclusion order belongs in this sequence too. A letter reached
@@ -282,18 +294,49 @@ rather than a conventional funeral.
 
 ## Why it matters
 
-The vigil is load-bearing in three directions. For Dan's self-model, it
+The vigil is load-bearing in four directions. For Dan's self-model, it
 is the counter-evidence to the low-altruism reading: months of
 unglamorous, paid full-time care — six months of it at $15/hour, on Dan's own contemporaneous account — held to the end. For the Annie
 record, it is the high-water mark — the one extended episode where the
 two of them function as a unit under real weight, which is part of why
-the bond survived so much after. And for the family record, it
+the bond survived so much after. For the family record, it
 crystallizes the pattern: the functional sentinels doing the work while
 the estate's institutional actors (the trustee, the eviction letter, the
 absent relatives) managed the assets — with the important nuance that
 the working side was bigger than two: Vicki and Marla carried shifts to
 the last day, and Suz, keno morning notwithstanding, showed up at the
 end.
+
+**And it is the densest cluster of Dan reporting that something went well
+anywhere in the corpus outside the November–December 2015 onset flood.**
+Four dated statements inside six days, three of them to people outside the
+household:
+
+> **2018-04-01 19:28** — *"i've grown from seeing this from such a close
+> perspective and i got to make sure she had fun during her last days."*
+> **2018-04-02 09:15** — *"she spent the last year of her life with people who
+> cared about her and legitimately had fun."*
+> **2018-04-02 22:58** — *"i have said my goodbyes to her like 3 or 4 times now…
+> i've got all the closure i need with her."*
+> **2018-04-06 17:55** — *"i spent the past 6 months looking after her full time
+> ($15 an hour to play video games with gram is a good deal) and we had a lot of
+> fun. got good closure and finally did something in my life that wasn't
+> completely selfish haha"*
+
+A `bin/mine-messages` sweep of all 106,629 sent messages finds no second
+instance of Dan reporting a good outcome from something he *did* rather than
+from someone he *had*. The vigil is therefore not only counter-evidence to
+the low-altruism reading argued above — it is the corpus's single worked
+example of an ending going right, and
+[[wiki/mind/synthesis/closing-the-set]] supplies the mechanism: self-set,
+bounded by a death, and closed.
+
+The contrast with the corpus's other ending is the sharpest version of the
+finding. The one death he attended produced closure, and he says so within
+forty-eight hours, four times, unprompted. The one long relationship's ending
+in the same corpus produced none, and required an external severance signal
+after ten years ([[wiki/mind/concepts/attachment-model]]) rather than
+anything resembling this page's April 2 and April 6 statements.
 
 > **REVISED [2026-07-18] (two corrections from the primary Photo Thread
 > PT II session + caregiver threads):** (1) Earlier versions of this page

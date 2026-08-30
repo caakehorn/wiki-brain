@@ -6,7 +6,7 @@ aliases: ["5w4", "sx/sp", "social-blind", "remote intimacy"]
 status: stable
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-08-19
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-scan/Dan Profile.txt
@@ -33,6 +33,21 @@ connections:
   - page: wiki/mind/synthesis/the-commissioned-self
     type: contradicts
     claim: "The only dated first-person self-typing in the primary record gives '5w6sx RLOEI' (2024-11-04), not the 5w4 and RLUEI this page is named for and built on — a residue reading that disagrees with the commissioned one, unreconciled, and load-bearing because the 4 wing supplies the tragic-romantic identity reading."
+  - page: wiki/people/ally-lubin
+    type: evidenced-by
+    claim: "The Witness need's one documented completion: Dan made her the first human ever to read this wiki, she audited rather than merely witnessed it, and both parties survived the transaction without the predicted consumption fear firing."
+  - page: wiki/mind/synthesis/no-platonic-channel
+    type: component-of
+    claim: "An sx-dominant stack with the social instinct functionally absent predicts that the ordinary, low-intensity peer register most friendships run in is simply not an available setting — closeness has only the fusion mode and the fortress mode, which is why a trusted female tie is documented converting toward one of the two rather than settling into a third, undramatic register."
+  - page: wiki/mind/synthesis/the-serial-monogamist
+    type: causes
+    claim: "A stack organising life around one relationship at maximum voltage rather than several at moderate voltage is the mechanism behind Dan having almost no adult lived experience of single life — continuous occupancy is not a reported preference, it is what the stack predicts before any relationship is examined."
+  - page: wiki/mind/synthesis/single-channel
+    type: causes
+    claim: "This page has been that page's relational-leg mechanism since 2026-08-01, cited only indirectly through the-unbroken-bond and without its own CONTRADICTION disclosed — single-channel's constitution pass (2026-08-28) now states directly that the Gini measurement is independent of which enneagram wing is correct, but the *explanation* for why the relational leg concentrates the way it does is not, and inherits this page's unresolved 5w6sx-vs-5w4sx dispute."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: causes
+    claim: "The sx/sp fusion-or-annihilation instinct stacking is the load-bearing mechanism behind that page's 'ontological amputation' language, and it survives this page's own 5w4-vs-5w6sx wing contradiction intact: the fusion-collapse account rests on the instinct order, not the disputed wing."
 ---
 
 
@@ -49,7 +64,13 @@ The 4 wing metabolizes perceived emotional defectiveness into psychic
 uniqueness: what it craves is not connection but *mythic comprehension* —
 being fully seen and found extraordinary. This is the emotional structure
 underneath the cognitive stack ([[wiki/mind/profile/intp]]), and it is where
-the profile's central war lives.
+the profile's central war lives. It is also, via
+[[wiki/mind/synthesis/the-unbroken-bond]], the uncredited mechanism behind
+[[wiki/mind/synthesis/single-channel]]'s relational leg — a stack that
+organises life around one relationship at maximum voltage rather than
+several predicts the measured Gini's relational instance directly, which
+means that page's explanation of *why* the leg concentrates carries this
+page's own wing-and-stacking dispute forward whether or not it says so.
 
 ## The sx/sp contradiction
 
@@ -115,6 +136,16 @@ validates that the internal world is real — who reads the work and
 *understands*. The paradox is needing the Witness desperately while fearing
 the Witness will consume him or demand reciprocal witnessing he cannot
 provide.
+
+That paradox has one documented instance of running to completion rather
+than staying theoretical. On August 18, 2026, Dan sent this wiki to
+[[wiki/people/ally-lubin|Ally Lubin]], making her the first human other than
+him ever to read it — a fact he states himself the next day: *"You def
+should have substantially more trust in me after I let you be the literal
+first person to ever read that wiki."* She did not just read it; she
+audited it, contesting its money figures and its pattern-reading of the
+Annie material. Both parties survived the transaction: the Witness function
+performed, once, without triggering the predicted consumption fear.
 
 ## The 4 wing — aristocratic alienation
 

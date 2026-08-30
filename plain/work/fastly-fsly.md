@@ -3,7 +3,7 @@ plain_of: wiki/work/fastly-fsly
 title: "Fastly (FSLY)"
 reading_level: general
 date_modified: 2026-08-26
-source_modified: 2026-08-21
+source_modified: 2026-08-26
 ---
 
 # Fastly (FSLY)
@@ -59,8 +59,8 @@ Jerad confirmed: "Buy FSLY and do not touch for 2-3 years."
 
 Dan bought in. By September 30 he told Jerad "112 shares my dude" and "fastly
 killing it." On October 6: "dude i made $600 just from FSLY today." He had
-dumped roughly $15,000 of his portfolio into the position and taken a quick
-profit of about $4,000 before the meme-stock eruption widened the game in
+dumped roughly $15k of his portfolio into the position and taken a quick
+profit of about $4k before the meme-stock eruption widened the game in
 January 2021.
 
 ## Why the timing was lucky, not just the pick
@@ -113,8 +113,8 @@ the ascent and learned momentum from the dip.
 It is also the cleanest instance of the evangelism pattern. Jerad passed the
 tip to Dan. Dan passed it onward to another friend who "started calling in
 daily gains," matching the relational-broadcast instinct that runs through
-Dan's social world. The position's modest size — about $15,000 in, about
-$4,000 profit, a single $600 day — is the floor under the later, larger
+Dan's social world. The position's modest size — about $15k in, about
+$4k profit, a single $600 day — is the floor under the later, larger
 swings in GME, AMC, and CCIV that would define the meme-stock eruption.
 
 ## The larger pattern
@@ -126,12 +126,12 @@ followed in early 2021. The meme-stock eruption, the GME and AMC squeezes,
 the CCIV SPAC saga — all of those came after Fastly, and all of them ran on
 the same engine: reading the crowd, not the balance sheet. Fastly taught Dan
 that the crowd could be read, that the momentum could be ridden, and that the
-exit mattered more than the thesis. The $15,000 position and the $4,000 profit
+exit mattered more than the thesis. The $15k position and the $4k profit
 were the proof of concept. Everything that followed was the scaling up.
 
-The position size is worth pausing over. $15,000 was not a trivial sum for Dan
+The position size is worth pausing over. $15k was not a trivial sum for Dan
 in 2020 — it was a serious commitment, the kind of money that hurts when it
-goes wrong. And the $4,000 profit he took was real money, not a paper gain.
+goes wrong. And the $4k profit he took was real money, not a paper gain.
 It was enough to prove the concept without being enough to change his life.
 That modesty is part of what makes Fastly the cleanest case study: the stakes
 were high enough to matter, low enough to walk away from. The later trades

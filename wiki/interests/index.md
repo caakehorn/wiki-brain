@@ -22,6 +22,10 @@ related: []
 - [[wiki/interests/film-canon]] — the 11-title movie list read as a real canon he evangelizes and tests partners with; Kubrick completism, Eyes Wide Shut as "favorite Christmas movie," and the King of Comedy/Taxi Driver self-portrait pair.
 - [[wiki/interests/roman-republic]] — the 2024 full-immersion ancient-history year: Carlin→Holland→Goldsworthy→Plutarch read back to back, and the evangelism of Caesar/Rome to everyone around him.
 
+## language
+
+- [[wiki/interests/language/vocabulary-lexicon]] — two curated word batches from a single 2026-08-26 session, both graded by mechanism rather than synonymy: the cool metric run on language itself, ending on "aesthetic felony."
+
 ## favorites
 
 - [[wiki/interests/favorites/art-and-movies]] — Minor categories in the masterlist (Art 25, Movies 11). All Art entries rated 5; movies unrated with…
@@ -58,7 +62,6 @@ related: []
 - [[wiki/interests/favorites/music/artists/fall-out-boy]] — 6 tracks, but a 2007 tour-following artifact: 3 shows + TRL taping, the Buffalo "Schrute Farms" secret show, love cut off at Folie à Deux.
 - [[wiki/interests/favorites/music/artists/jpegmafia]] — 13 tracks — highest count in the masterlist.
 - [[wiki/interests/favorites/music/artists/kanye-west]] — 11 tracks.
-- [[wiki/interests/favorites/music/artists/knock2]] — 6 tracks.
 - [[wiki/interests/favorites/music/artists/lyny]] — 7 tracks.
 - [[wiki/interests/favorites/music/artists/my-chemical-romance]] — 9 tracks.
 - [[wiki/interests/favorites/music/artists/new-found-glory]] — 8 tracks.

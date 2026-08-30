@@ -7,7 +7,7 @@ status: stable
 knowledge: mixed
 importance: high
 date_created: 2026-06-22
-date_modified: 2026-08-20
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -66,9 +66,6 @@ connections:
   - page: wiki/mind/synthesis/political-psyops
     type: instantiates
     claim: "The J6 analysis is the method applied to a public event; same anomaly-detection engine, different corpus."
-  - page: wiki/work/tech/max-framework/overview
-    type: contains
-    claim: "CATO's evidence-first, no-sycophancy, glyph-enforced operating mode is the forensic-method cognitive OS deliberately pasted into an AI session as a standing configuration, rather than left as a default disposition."
   - page: wiki/mind/synthesis/attachment-trauma-bond
     type: instantiates
     claim: "The Annie decade's evidentiary reconstruction — message counts, dated patterns, the confession trap — is the forensic method applied to the corpus's highest-stakes relationship."
@@ -90,6 +87,15 @@ connections:
   - page: wiki/work/tech/max-framework/overview
     type: instantiates
     claim: "CATO's evidence-first, no-sycophancy, glyph-enforced operating mode is the forensic-method cognitive OS deliberately pasted into an AI session as a standing configuration, rather than left as a default disposition."
+  - page: wiki/mind/profile/texting-deviance-audit
+    type: instance-of
+    claim: "The method turned on its own operator's self-report: Dan's stated model of his texting — fragmented speech-cadence, technical vocabulary, ten-paragraph walls — was tested against 217,573 records and two of its three claims were falsified, including by the control that killed the staccato hypothesis (his FIRST messages start lowercase at the same rate as his continuations, so the lowercase opener is habit, not fragmentation)."
+  - page: wiki/mind/profile/lexicon
+    type: instance-of
+    claim: "Cite the evidence, invoke an authority, render a finding is documented here as how he processes threat; the bespoke lexicon shows the identical three-step machinery run on a compliment — 'I have reviewed the available evidence and unfortunately you're gorgeous' is a forensic-method entry with the subject swapped, proof the apparatus is a general-purpose disposition rather than a crisis-specific tool."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: evidences
+    claim: "The four-step detection procedure — baseline, mismatch, rule out innocent explanations, elevate only if the gap requires knowledge or motive — is a threshold gate with exactly two outputs regardless of how graded the evidence feeding it is, which makes the worth-verdict, the taste-verdict, the authority-verdict and the political-legitimacy-verdict eight domain applications of this one gate rather than eight independent binary engines."
 ---
 
 
@@ -132,7 +138,11 @@ were the same tell at institutional scale
 establish the expected baseline procedure, find the mismatch in the observed
 record, test innocent explanations (chaos, incompetence, shock) against the
 specific gap, and elevate only if the gap requires knowledge or motive to
-explain.
+explain. That last step is a threshold gate with exactly two outputs —
+elevate, or do not — whatever the shape of the evidence feeding it, which
+[[wiki/mind/synthesis/the-binary-verdict]] reads as the general case the
+worth, taste, authority and legitimacy verdicts elsewhere in the profile are
+domain instances of.
 
 **Anomaly clusters.** When several anomalies coincide and the joint
 probability of all being innocent is near zero, the cluster is signal — but

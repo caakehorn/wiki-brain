@@ -28,7 +28,7 @@ The fake ailment functions as a unilateral raise: hours paid versus hours actual
 
 ## The night class (masterpiece)
 
-At Au Za'atar, a restaurant job held roughly 2021–2023, Dan maintained a fictitious college schedule with classes "always at 9pm" for well over a year. The alibi secured peak-hour shifts and equal tip splits while exempting him from closing duty. It also doubled as cover for an affair. It survived a one-star review that asked "WAS HE HIGH?" and was never exposed.
+At Au Za'atar, a restaurant job held roughly 2021–23, Dan maintained a fictitious college schedule with classes "always at 9pm" for well over a year. The alibi secured peak-hour shifts and equal tip splits while exempting him from closing duty. It also doubled as cover for an affair. It survived a one-star review that asked "WAS HE HIGH?" and was never exposed.
 
 The night class is the protocol's masterpiece because it is multi-functional: it solved a scheduling problem, secured better shifts, provided cover for a personal relationship, and did all of this simultaneously for eighteen months without detection. The fact that it was never exposed — despite a suspicious customer leaving a public review — suggests the protocol's reliance on institutional credulity is well-placed. Employers generally believe their employees, and the night class exploits that belief systematically.
 

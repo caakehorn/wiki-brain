@@ -3,7 +3,7 @@ plain_of: wiki/health/the-configured-body
 title: "The Configured Body"
 reading_level: general
 date_modified: 2026-08-21
-source_modified: 2026-08-21
+source_modified: 2026-08-28
 ---
 
 # The Configured Body

@@ -11,6 +11,12 @@ sources:
   - raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2026-07-20).html
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/browser_history_analysis.txt
+synthesizes:
+  - wiki/mind/synthesis/totality-themes
+  - wiki/mind/synthesis/interests-as-era-markers
+  - wiki/mind/synthesis/supply-network
+  - wiki/mind/synthesis/closing-the-set
+  - wiki/self/youtube-watch-history
 tags: [personality-profile, ai-collaboration, forensic-analysis]
 connections:
   - page: wiki/mind/synthesis/totality-themes

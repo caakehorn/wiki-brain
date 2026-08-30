@@ -6,11 +6,12 @@ aliases: ["the franki fandango", "the fireworks day"]
 status: stable
 knowledge: mixed
 date_created: 2026-08-02
-date_modified: 2026-08-02
+date_modified: 2026-08-28
 date_range_start: 2013-07-01
-date_range_end: 2013-07-31
+date_range_end: 2013-10-31
 sources:
   - raw/people/captures/2026-08-02_004832_franki-and-the-fireworks.md
+  - raw/people/captures/2026-08-27_223406_gap-alexis-armel.md
 tags: [relationships, uniontown-era, music-production, addiction-recovery]
 connections:
   - page: wiki/people/franki-faris
@@ -32,8 +33,8 @@ connections:
     type: causes
     claim: "The DJ controller acquired at ishlab and left untouched is picked up in the spring of 2013 and becomes a daily occupation by that summer — the dated origin of the production identity, previously carried only as 'since approximately 2013'."
   - page: wiki/mind/synthesis/dormancy-not-exit
-    type: contradicts
-    claim: "This capture attaches five days to Alexis's stay at 155 Virginia Ave and describes Franki's own tenure only as immediate collapse — which puts the number that defines that page's tenure floor in question, without disturbing the control it draws from her non-persistence."
+    type: evidences
+    claim: "This capture, now corroborated by a second independent 2026-08-27 statement, attaches five days to Alexis's stay at 155 Virginia Ave and describes Franki's own tenure only as immediate collapse — the tenure-floor control is corrected to the shorter, sharper figure rather than left in question."
   - page: wiki/people/suzanne-frank
     type: co-occurs
     claim: "Three of Suz's instruments appear inside one day — the car, the ATM card that funded the cocaine, and a second property used to house the displaced partner — after which she convenes Alexis and Danielle to bond over their grievance against her son."
@@ -106,6 +107,14 @@ already performing the function the later page calls lair-continuity: housing a
 partner who has been displaced from the primary residence. The lair predates the
 tenancy.
 
+> **RESOLVED [2026-08-28].** A second, independent operator capture
+> (2026-08-27) confirms this five-day figure again, unprompted: *"She spent 5
+> days at Virginia ave and then went to her moms."* [[wiki/people/franki-faris]]
+> is corrected accordingly — the five days were never hers. Full account on
+> [[wiki/people/franki-faris]] and [[wiki/people/alexis-armel]], including
+> the fuller sequence this second capture adds (her mother's house, a new
+> boyfriend, a brief NYC move, and an October 2013 reconciliation).
+
 **Suz then engineered the aftermath.** Per the capture, she thought it a good
 idea to have Alexis and [[wiki/people/danielle-onesi|Danielle Onesi]] — Dan's
 first girlfriend, and Alexis's *"former enemy"* — spend time together and bond
@@ -159,11 +168,10 @@ immediately.
 - **The date is not fixed.** "Early July 2013" plus a fireworks display is as
   close as the record gets. A dated ATM withdrawal on Suz's account, or a
   Uniontown fireworks schedule for 2013, would close it.
-- **The five-day figure is now attached to two different things.** See the
-  contradiction recorded on [[wiki/people/franki-faris]]: the wiki has carried
-  "a five-day rebound" as the length of the Franki relationship, while this
-  capture attaches five days to *Alexis's stay at 155 Virginia Ave*. Both cannot
-  be assumed.
+- ~~**The five-day figure is now attached to two different things.**~~
+  **RESOLVED 2026-08-28** — a second, independent 2026-08-27 capture confirms
+  the five days belong to Alexis's stay here, not to Franki's own tenure. See
+  the resolution on [[wiki/people/franki-faris]].
 - **Nothing here is contemporaneous.** The whole page rests on one 2026 capture.
   The July 9–31 2013 self-typology emails and the August 14 2013 post-mortem
   already in the corpus are the nearest dated material and they corroborate the

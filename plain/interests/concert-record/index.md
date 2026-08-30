@@ -12,12 +12,12 @@ source_modified: 2026-08-01
 
 ## The record at a glance
 
-- **Span:** August 4, 2001 – April 20, 2019
-- **Total documented events:** 36
-- **Geographic centers:** Pittsburgh, PA area (22 events); Orlando, FL (8 events); New York, NY area (6 events)
-- **Most-frequent venue:** Post-Gazette Pavilion, Burgettstown, PA (6 events)
-- **Most-frequent act:** Fall Out Boy (4 documented appearances, plus 1 multi-act)
-- **Festival appearances:** At least 8 — Rolling Rock Town Fair, Vans Warped Tour, Nintendo Fusion Tour, The Bamboozle, Oddball Comedy & Curiosity Festival, and others
+- **Span:** August 4, 2001 – April 20, 2019.
+- **Total documented events:** 36.
+- **Geographic centers:** Pittsburgh, PA area (22 events); Orlando, FL (8 events); New York, NY area (6 events).
+- **Most-frequent venue:** Post-Gazette Pavilion, Burgettstown, PA (6 events).
+- **Most-frequent act:** Fall Out Boy (4 documented appearances, plus 1 multi-act).
+- **Festival appearances:** At least 8 — Rolling Rock Town Fair, Vans Warped Tour, Nintendo Fusion Tour, The Bamboozle, Oddball Comedy & Curiosity Festival, and others.
 
 ## Master event list
 
@@ -64,14 +64,14 @@ source_modified: 2026-08-01
 
 The record includes appearances at several recurring festival circuits and at least one tour window:
 
-- **Face2Face Tour** (2003) — Mellon Arena, Pittsburgh
-- **Final Show (2011)** — Madison Square Garden, New York
-- **High Tide 4** (2019) — Hornblower Infinity Yacht, New York
-- **Nintendo Fusion Tour** (2005) — Rostraver Ice Garden, PA, plus a multi-city tour window
-- **Oddball Comedy & Curiosity Festival** (2013) — Post-Gazette Pavilion, Burgettstown
-- **Rolling Rock Town Fair** (2001, 2002, 2004) — Westmoreland Fairgrounds, Latrobe/Mt. Pleasant
-- **The Bamboozle 2011** — New Meadowlands Stadium, East Rutherford
-- **Vans Warped Tour** (2005, 2006, 2006, 2007, 2008) — Post-Gazette Pavilion, Burgettstown (5 appearances)
+- **Face2Face Tour** (2003) — Mellon Arena, Pittsburgh.
+- **Final Show (2011)** — Madison Square Garden, New York.
+- **High Tide 4** (2019) — Hornblower Infinity Yacht, New York.
+- **Nintendo Fusion Tour** (2005) — Rostraver Ice Garden, PA, plus a multi-city tour window.
+- **Oddball Comedy & Curiosity Festival** (2013) — Post-Gazette Pavilion, Burgettstown.
+- **Rolling Rock Town Fair** (2001, 2002, 2004) — Westmoreland Fairgrounds, Latrobe/Mt. Pleasant.
+- **The Bamboozle 2011** — New Meadowlands Stadium, East Rutherford.
+- **Vans Warped Tour** (2005, 2006, 2006, 2007, 2008) — Post-Gazette Pavilion, Burgettstown (5 appearances).
 
 ## Performers seen live
 
@@ -85,7 +85,7 @@ Non-music performers in the record: **Dave Chappelle**, **Hannibal Buress**, **J
 
 The concert log is not a complete autobiography, but it does trace several arcs with unusual precision.
 
-**The geography is a life map.** The cluster of Burgettstown, Pittsburgh, and Latrobe dates from 2001–2009 corresponds to the southwest Pennsylvania years. The Orlando entries from 2008–2009 mark the brief Florida chapter. The New York and New Jersey dates from 2011–2019 trace the post-2010 chapter. The 2013 Oddball Festival appearance — back at the Post-Gazette Pavilion — coincides with the return to Pennsylvania that the timeline documents.
+**The geography is a life map.** The cluster of Burgettstown, Pittsburgh, and Latrobe dates from 2001–2009 corresponds to the southwest Pennsylvania years. The Orlando entries from 2008–2009 mark the brief Florida chapter. The New York and New Jersey dates from 2011–2019 trace the chapter after that. The 2013 Oddball Festival appearance — back at the Post-Gazette Pavilion — coincides with the return to Pennsylvania that the timeline documents.
 
 **The Warped Tour was the most consistent live experience.** Five appearances between 2005 and 2008 at the same venue, year after year, with overlapping lineups of the pop-punk and emo-adjacent acts that dominate the favorites list. It was less a concert series than a seasonal ritual.
 

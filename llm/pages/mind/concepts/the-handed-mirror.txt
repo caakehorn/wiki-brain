@@ -14,6 +14,12 @@ sources:
   - raw/self/chats/Analyzing manipulation and ethical intent in data.md
 tags: [ai-collaboration, forensic-analysis, personality-profile, relationships]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: causes
+    claim: "The delivery failure lands precisely on the markets the analytical capacity would otherwise serve, because each of them is a service rendered to a person about themselves, which is the exact configuration with a documented zero success rate."
+  - page: wiki/mind/concepts/reassurance-architecture
+    type: parallels
+    claim: "Both behaviours terminate in delivery to a subject who did not request it and both fail identically, which establishes that the failure is not about the content of what is transmitted in either domain."
   - page: wiki/timeline/events/james-analysis-pdf
     type: evidenced-by
     claim: "The July 2025 event is the concept's controlled experiment: the harsh material was removed before delivery and the friendship still ended in twelve minutes, which isolates being-analyzed from being-insulted as the operative variable."

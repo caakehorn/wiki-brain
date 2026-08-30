@@ -177,21 +177,125 @@ One climb per pass, fully:
    rejection in `synthesis-queue.md` with a line of reasoning and move on. A
    cluster that resists synthesis is knowledge too. **Do not write a page whose
    thesis is "these things are related."**
-4. **Write the page.** `page_type: synthesis`, `knowledge: earned`,
+4. **Run the constitution pass — mandatory, before the page is written.**
+   The candidate rule is checked against the eleven registers below. This is
+   not a citation formality; it is the step that decides whether the rule you
+   found is a rule *about Dan* or a rule about the seven pages you happened to
+   read. See "The constitution pass" below — **a synthesis page written without
+   it is not finished, whatever else is on it.**
+5. **Write the page.** `page_type: synthesis`, `knowledge: earned`,
    `synthesizes:` listing every member, thesis in the first two sentences, the
    rule stated plainly, a table of members against the rule, the controls or
-   counterexamples that carry the argument, at least one prediction, and a
-   Gaps section.
-5. **Wire it, and write the finding back.** Typed edges both ways per
+   counterexamples that carry the argument, at least one prediction, a Gaps
+   section, and the constitution pass's own result — which registers moved the
+   conclusion, which were checked and left it standing, and which the corpus
+   cannot presently speak to.
+6. **Wire it, and write the finding back.** Typed edges both ways per
    `CONNECTIONS_SPEC.md`. Every member page gets an `instantiates` edge whose
    claim states what that page turned out to be evidence *of*, and a prose
    sentence wherever the finding is load-bearing for it. See "The write-back
    obligation" above — this step is the one that makes the synthesis compound
    instead of merely existing, and it is the one most often left half-done.
-6. **Gates and log.** `bin/wiki-lint`, `bin/wiki-connect check`,
+7. **Gates and log.** `bin/wiki-lint`, `bin/wiki-connect check`,
    `bin/wiki-climb check` — all three at 0 errors. `log.md`:
    `## [YYYY-MM-DD] climb | <domain> | <page> (N synthesized, M rejected)`.
    Commit.
+
+## The constitution pass — the step that makes a conclusion about a person
+
+Adopted 2026-08-28 by operator directive, and it is **critical, deterministic
+and not delegated to judgment**: it runs on every synthesis, every sage answer,
+and every earned conclusion on an entity page, whether or not the material
+seems to call for it.
+
+### Why it exists
+
+A pattern found across N pages is, on its own, a statement about **those N
+pages**. It becomes a statement about *Dan* only once it has been checked
+against the thing generating the behaviour — a specific mind, with a measured
+cognitive stack, running inside a specific body, history, family, county,
+class position, ideology and moment. Skip that check and the failure is not
+that the page is unsupported; it is that the page is **accidentally about the
+corpus's sampling** rather than about its subject, and it will read as
+authoritative anyway.
+
+The failure has a worked example in this repository, which is why the rule is
+now written down. On 2026-08-28 three synthesis pages were written on
+cognition and relational architecture — `the-binary-verdict`,
+`no-platonic-channel`, `the-serial-monogamist` — and between them they cited
+**one of the eleven pages in `wiki/mind/profile/`**. The page specifically
+about how Dan's mind resolves questions cited **none of them**. It argued that
+verdicts come out binary while factual estimates come out graded, and never
+reached for `intp`'s measured **Ti at 96% against Fe at 10% valuing** — a
+dominant function whose entire job is "does this hold together, yes or no" set
+against a near-absent function that is the one that would produce a graded
+*relational* judgment. It argued trust has no stable middle value without
+citing **Trust at the 9th percentile** on `big-five-psychometrics`, which
+`reassurance-architecture` had already read as the reason a confirmation
+"decays" instead of carrying forward as a prior. The conclusions were not
+wrong. They were **re-derived from behaviour when the mechanism was already
+measured and sitting one directory away**, which is exactly the waste
+`STRATEGY.md`'s core loop exists to prevent.
+
+### The eleven registers
+
+Every one gets a decision. The decision may be *"checked, does not bear on
+this"* — that is a legitimate and useful outcome, and recording it is what
+makes the next pass cheap — but it may not be *silence*.
+
+| # | Register | Where it lives |
+|---|---|---|
+| 1 | **Cognitive stack** — function order, and what each function is *for* | `wiki/mind/profile/intp` |
+| 2 | **Personality profile** — measured traits, types, deviation scores | `wiki/mind/profile/`: `big-five-psychometrics`, `enneagram-5w4`, `socionics-and-attitudinal`, `deviance-mapping`, `neurodivergence` |
+| 3 | **Historical precedent** — has this shape happened before, and when | `wiki/timeline/`, `dormancy-not-exit`, `interests-as-era-markers` |
+| 4 | **Attitudes, trends and forces** — what was moving in him and around him | `the-cool-metric`, `chaos-preference`, `intake-constancy`, `2020-left-turn` |
+| 5 | **Current environment — security and prosperity** | `estate-money-spine`, `wiki/places/337-saratoga-drive`, `wiki/legal/463-morgantown`, `wiki/work/` |
+| 6 | **Health** — chemical, physical, psychiatric | `wiki/health/`, `supply-network` |
+| 7 | **Romantic and relational state** | `the-unbroken-bond`, `attachment-model`, `arrangement-history`, `wiki/people/` |
+| 8 | **Age and upbringing** — how old he was, who raised him, what it cost | `wiki/timeline/periods/`, `rick-frank`, `suzanne-frank`, `fran-coldren` |
+| 9 | **Cultural markers — geographic and ethnic** | `fayette-return`, `wiki/self/ancestry`, `ancestral-dialectic`, `wiki/places/` |
+| 10 | **Religious and ideological programming** | `wiki/mind/politics/`, `2020-left-turn`, `wiki/self/concepts/` |
+| 11 | **Axiomatic political belief** | `wiki/mind/politics/axioms`, `political-psyops`, `vertical-authority-skepticism` |
+
+Plus a standing twelfth slot: **any other personal factor the material itself
+raises.** The list is a floor, not a ceiling — it exists so that nothing on it
+is forgotten, not so that everything off it is excluded.
+
+### What the pass actually requires
+
+1. **Name the mechanism, not just the pattern.** If a measured value explains
+   the behaviour the page documents, the page cites it. A rule with a
+   psychometric or cognitive-function mechanism under it is a different and
+   better object than the same rule stated from behaviour alone: it predicts
+   in domains the corpus has not sampled yet.
+2. **Let the registers argue back.** The pass is allowed to *change the
+   conclusion*, narrow its scope, or kill it. A rule that survives being read
+   against the profile layer is stronger; a rule that only survives by not
+   looking is not a finding.
+3. **Check the register's own provenance before leaning on it.** Several
+   carry live contradictions — `enneagram-5w4` holds a `CONTRADICTION` block
+   recording that the only first-person self-typing in the record is **5w6sx
+   RLOEI, not the 5w4 the page is named for**, and `the-commissioned-self`
+   establishes that most of this layer is a commissioned instrument reading
+   rather than something Dan lives out loud. A synthesis leaning on the sx/sp
+   stack inherits that dispute and **must carry it forward**, not launder it
+   into settled fact by citing the page without its caveat.
+4. **Record the result on the page.** Which registers moved it, which were
+   checked and left it standing, which the corpus cannot answer. The third
+   category is a Gaps entry and often the most valuable thing the pass
+   produces.
+5. **Never let the pass become a citation ritual.** Adding `synthesizes:
+   wiki/mind/profile/intp` without an argument that uses it is worse than
+   omitting it, because it makes an unexamined page look examined.
+
+### The anti-pattern this replaces
+
+**The floating rule.** A conclusion true of its members, elegantly stated,
+falsifiable, wired correctly — and unattached to any fact about the person it
+claims to describe. It survives every mechanical gate in this repository. It
+is still the most common way a synthesis page is wrong, because a rule with no
+constitution under it cannot tell you which of its predictions to trust, and
+it will be cited as though it can.
 
 ### When to climb
 
@@ -217,6 +321,12 @@ build above it.
   warning without re-reading the premise. This is the one prohibited move.
 - **Climbing on sand.** Building T3 doctrine on T2 pages that are themselves
   thin. Altitude does not add rigor; it inherits whatever the floor had.
+- **The floating rule.** A conclusion that is true of its members, elegantly
+  stated and correctly wired, but never checked against the cognitive stack,
+  the measured profile, the history, the material circumstances or the
+  ideology of the person it claims to describe. It passes every mechanical
+  gate here and is still about the corpus's sampling rather than about Dan.
+  See "The constitution pass" — this is the anti-pattern it exists to stop.
 - **The write-only synthesis.** A T2/T3 page that is correct, well-argued, and
   wired to nothing — or wired with inverse claims so generic that a reader on the
   member page learns nothing. The finding exists but cannot be found from below,

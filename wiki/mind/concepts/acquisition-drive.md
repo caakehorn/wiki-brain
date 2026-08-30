@@ -7,7 +7,7 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-11
+date_modified: 2026-08-26
 sources:
   - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
   - raw/legal/captures/2026-08-02_200741_the-arrest-the-real-one.md
@@ -15,6 +15,9 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
 tags: [personality-profile, addiction-recovery, legal, forensic-analysis]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: contradicts
+    claim: "The operator's 95th-percentile persistence claim and the instrument's Impulsiveness 96 are readings of the same episodes by two scales that disagree, and the employment record settles part of it: 41 and 43 months on assignments set by other people."
   - page: wiki/mind/synthesis/the-embedded-objective
     type: contradicts
     claim: "This page's stated falsifier was found on the first place it pointed to: the employment record holds 41 months at Au Za'atar and 43 at Nemacolin against a six-month Fran vigil, so assigned goals DO receive sustained costly effort — via a private objective installed inside the assignment."
@@ -54,6 +57,9 @@ connections:
   - page: wiki/health/cocaine
     type: evidences
     claim: "The cocaine supply chain is the material expression of the acquisition drive — a daily dependency that cannot be left to one supplier, which is why the network persists across every era while its individual nodes rotate constantly."
+  - page: wiki/mind/synthesis/closing-the-set
+    type: evidences
+    claim: "Dan's only documented positive self-report for something he did rather than had — the Fran vigil's 'got good closure and finally did something in my life that wasn't completely selfish' — reframes this page's payoff condition as closure rather than completion, which is the premise closing-the-set starts from."
 ---
 
 # The Acquisition Drive
@@ -206,6 +212,33 @@ be found if one exists.
 > works. The evidence for the second is currently one first-person operator
 > claim plus the event record above; the evidence for the first is a scored
 > instrument. Neither is discarded here.
+
+## The payoff condition: closure, not completion
+
+The Fran vigil has a verdict from Dan himself that the section above never
+quoted. Four days after the funeral, unprompted, to a third party:
+
+> **DAN (2018-04-06 17:55, to 4137703708):** *"she was a trip dude but i spent
+> the past 6 months looking after her full time ($15 an hour to play video
+> games with gram is a good deal) and we had a lot of fun. got good closure and
+> finally did something in my life that wasn't completely selfish haha"*
+
+A `bin/mine-messages` sweep of all 106,629 sent messages finds no second
+instance of Dan reporting a good outcome from something he *did* — every other
+positive self-report in the corpus is attributed to a person or thing he *had*.
+That makes this sentence the drive's only documented success condition stated
+in his own voice, and it names three things at once: fun, **closure**, and
+usefulness to someone else.
+
+This narrows the claim rather than restoring it. "Runs to completion more or
+less independently of cost" is not what the vigil sentence describes — it
+describes an ending that felt resolved. That is a narrower and more testable
+condition than completion, and it is consistent with the second correction
+above rather than in tension with it: MNEME, the DANMODEL evaluation and the
+video essays were all self-set and none of them stalled for lack of
+determination — they stalled because none of them had a defined endpoint to
+close against. [[wiki/mind/synthesis/closing-the-set]] takes this as its
+starting premise.
 
 ## Gaps
 

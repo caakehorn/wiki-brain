@@ -3,7 +3,7 @@ plain_of: wiki/mind/concepts/the-cool-metric
 title: "The Cool Metric"
 reading_level: general
 date_modified: 2026-08-26
-source_modified: 2026-08-21
+source_modified: 2026-08-26
 ---
 
 # The Cool Metric
@@ -177,6 +177,44 @@ means — food is held exempt from the forensic treatment everything else
 receives. The claim this page should make is therefore "one axis for
 everything it is allowed to touch," and the interesting question it raises is
 what else is protected in the same way. Nobody has looked.
+
+## The one time he lost a round
+
+Everywhere else on this page, the metric runs in one direction: Dan applies it
+to other people. The model never said what happens when someone out-scores the
+person holding the yardstick. There is exactly one case on record, and it is
+with Ally.
+
+On August 18, 2026, between 9:25 and 9:28 in the evening, they were talking
+about the TV show *Skins*, and she simply claimed the reference outright: *"I
+don't think she's half Effy bc I'm Effy,"* *"Let's be real has she even seen
+Skins,"* *"I'm so Effy and Freddie even slid into my DMs once,"* *"Well first
+of all I'm not a Michelle / I'm a half Effy half Cassie."*
+
+Dan does not rule on it. He does not correct her or argue. And his own account
+of what draws him to her puts the metric in the language of attraction rather
+than judgement: *"how you are spotting slang and memes that I won't find out
+about for like 3 more months."*
+
+So the filter has a ceiling, and this is the one person recorded above it —
+someone whose grip on the criteria beats his own. That turns the metric from a
+tool he uses into a standard he gets measured by. It does not undo how the
+metric works everywhere else. It marks the edge the rest of this entry never
+had to name, because nobody else in the record ever tested it.
+
+## The same sort, run on words
+
+The metric shows in the words Dan *collects*, not only the ones he uses. In a
+single session on August 26, 2026, he graded two batches of vocabulary, and
+both are sorted by how a word works rather than by what it means. The "stupid"
+batch is graded by fake official grandness, by historical condemnation, and by
+exact vulgarity. The "pretty" batch is graded by how far each word pushes past
+plain praise, ending on *aesthetic felony*. That is this entry's
+performed-versus-real sort, run on language itself.
+
+The caveat belongs here too: that list is chosen, not measured. It records only
+which words he picked as pleasing. It does not show that he ever used any of
+them.
 
 ## Falsifiers
 

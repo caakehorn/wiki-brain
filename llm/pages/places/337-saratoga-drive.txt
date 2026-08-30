@@ -4,7 +4,7 @@ page_type: entity
 title: "337 Saratoga Drive"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-19
+date_modified: 2026-08-22
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -33,6 +33,9 @@ connections:
   - page: wiki/places/the-unpapered-address
     type: evidences
     claim: "The one residence in the record decided by real recorded paper was decided by somebody else's — a deed, a Chapter 13 docket and a court drop-dead provision all belonging to Suz — which is the control that proves the rule rather than breaking it."
+  - page: wiki/timeline/events/uniontown-hospital-vape-alarm
+    type: evidenced-by
+    claim: "A Fayette County summons filed 2018-04-05 prints 337 Saratoga Dr as the defendant's address of record, which is court paper placing Dan at this house inside the ten-year gap this page's occupancy table shows between January 2015 and February 2025."
   - page: wiki/mind/synthesis/fayette-return
     type: instantiates
     claim: "The tether at maximum tension: the current return has landed Dan in the childhood home itself, the tightest possible value of the pattern, while that house is being sold out from under him."
@@ -55,7 +58,21 @@ where the post-[[wiki/people/annie-ulmer|Annie]] aftermath is being lived out.
 |--------|---------|
 | 1996 – Sep 2008 | Childhood/adolescence (moved from 12 Bryer Ave); ski-identity years; the Nov 2005 hinge; left for Full Sail |
 | May 2013 – Jan 2015 | First return from NYC; SLOPPP era; moved out to 155 Virginia Ave |
+| **Apr 2018 (address of record)** | **A Fayette County summary summons filed 2018-04-05 gives the defendant's address as "337 Saratoga Dr, Uniontown, PA 15401"** — see below |
 | Feb 22, 2025 – present | Post-[[wiki/people/eli|Eli]] return from Manhattan; Annie terminal phase and closure; basement studio; vibe-coding and AI work |
+
+**On the April 2018 row.** The table above is a table of *eras* and this is not
+one — it is a single dated document, added because the era it falls inside is
+one the table says Dan was not here for. The wiki's residence timeline runs him
+from 155 Virginia Avenue (January 2015) to New York (February 2019); the summons
+behind [[wiki/timeline/events/uniontown-hospital-vape-alarm]], filed a week
+after [[wiki/people/diane-moore|Dian Moore]] served him an eviction notice at
+155 Virginia, has the Commonwealth of Pennsylvania addressing him here. An
+address of record is not a bed — it can be a driver's-licence address, and
+[[wiki/places/117-belmont-circle]] documents him operating out of Fran's empty
+house across the same spring. What it is, is the only piece of official paper
+in the corpus that places Dan at 337 Saratoga on a named day between 2015 and
+2025, and it lands in a hole the table cannot otherwise fill.
 
 ## The sale
 

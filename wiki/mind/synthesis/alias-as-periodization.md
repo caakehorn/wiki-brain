@@ -5,7 +5,7 @@ title: "The Alias Is a Clock, Not a Style"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-21
+date_modified: 2026-08-28
 date_range_start: 2013-01-01
 date_range_end:
 synthesizes:
@@ -14,6 +14,7 @@ synthesizes:
   - wiki/interests/music/aliases/gripnotic
   - wiki/interests/music/overview
   - wiki/mind/synthesis/totality-themes
+  - wiki/mind/profile/intp
 tags: [music-production, personality-profile, forensic-analysis]
 connections:
   - page: wiki/interests/music/aliases/sloppp
@@ -46,9 +47,52 @@ connections:
   - page: wiki/mind/synthesis/instrument-is-subject
     type: mirrors
     claim: "The methodological contrast case: alias boundaries are admissible precisely because they were produced by the subject without intending to testify, which is the property AI-interpretive pages structurally lack."
+  - page: wiki/mind/profile/intp
+    type: evidenced-by
+    claim: "Si-tertiary's role as 'the vast high-fidelity archive' is why the sub-bass signature specifically is the layer that never turns over: it is an involuntary, identified-post-hoc trait rather than a Ti-negotiated public choice, so it sits outside the audit-and-revise cycle the name is subject to — complementary to, not a restatement of, totality-themes' already-cited Ti-dominance account of why the name is what gets sacrificed instead."
 ---
 
 # The Alias Is a Clock, Not a Style
+
+> **RE-CHECKED [2026-08-28] — premise moved, and a constitution pass adds
+> the mechanism this page was missing on the invariant side.**
+> [[wiki/mind/synthesis/totality-themes]] gained two RE-CHECKED notes
+> (2026-08-28) confirming a `dormancy-not-exit` correction (a five-day
+> tenure figure reattributed from Franki Faris to Alexis Armel) touches
+> neither page. **No claim here is affected.** Folded into the same pass:
+> this page had never cited `wiki/mind/profile/` directly despite already
+> leaning on totality-themes' Ti-dominance account of the Firewall — see
+> "The mechanism" below.
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/synthesis/totality-themes]] (2026-08-26), which gained two
+> RE-CHECKED notes confirming its own cited premises unaffected by the same
+> day's acquisition-drive/embedded-objective additions. **No claim on this
+> page is affected** — nothing here reasons from the tenure or satisfaction
+> material either page added.
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/interests/music/overview]] (2026-08-23), which gained a corpus search
+> for the production identity's social trace: **one Dan-sent message in fifteen
+> years about making a track, zero about a studio, three lifetime mentions of
+> GRIPNOTIC, no play count anywhere.** This page's thesis — that the alias is a
+> clock rather than a style, because the aesthetics do not turn over at the
+> renames — is **untouched and quietly corroborated.** An alias that marks
+> periods rather than sounds is exactly what you would expect to find behind a
+> production identity that is strongly held as self-concept and almost
+> unmentioned as activity: the renames are doing biographical work, not musical
+> work. No claim withdrawn, and the new evidence is an independent line to the
+> same conclusion.
+
+> **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at
+> third remove.** [[wiki/mind/synthesis/totality-themes]] moved on 2026-08-22 solely by
+> gaining a `RE-CHECKED` blockquote, which itself recorded that *its* premises
+> had moved only by re-check blocks, all of them tracing back to the April 2018
+> hospital summons ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]) and
+> finding nothing affected. No substantive claim changed anywhere along that
+> chain, and this page reasons from the claims rather than the blocks. Nothing
+> withdrawn.
+
 
 Dan has released music under four names in thirteen years, and the renaming
 has never once corresponded to a change in the music. Across SLOPPP, MOGZART
@@ -104,6 +148,32 @@ longer attached to records at all — it now marks whatever the current project
 of self is. That is the same mechanism, applied to a different substrate, and
 it is the reason this page sits in `mind` rather than in `interests`.
 
+## The mechanism: why the invariant is the archive, not a choice
+
+[[wiki/mind/synthesis/totality-themes]] already supplies half of why this
+rule holds: renaming is the Irreversibility Firewall's identity-layer
+prediction, and its own constitution pass names the mechanism — Ti-dominance
+defines truth as "a system that holds under recursive collapse," and a
+finished, public, named work is exactly the kind of exposed fact that
+engine would have to render a verdict on, so the name is the layer sacrificed
+to keep the verdict from landing on the underlying work. That explains why
+the *name* changes. It does not explain why the **sub-bass signature**
+specifically is the thing that never does.
+
+[[wiki/mind/profile/intp]] supplies the other half. Tertiary Si is described
+there as "the vast high-fidelity archive" — the same function that
+maintains "the minute recall of years-old details" and, on
+[[wiki/mind/synthesis/dormancy-not-exit]], is why nothing decays out of the
+relational graph either. The sub-bass band was never a stylistic decision:
+it is identified *post-hoc*, across four names and thirteen years, the way
+an archived trait is discovered rather than the way a choice is made. A
+Ti-dominant system negotiates and revises its *choices* — which is exactly
+what the name is, a public specification renegotiated at each period
+boundary — but an archived, involuntary signature was never a choice to
+begin with, so it sits outside the audit-and-revise cycle entirely. The
+name is Ti's problem. The signature is Si's, and Si does not revise its
+archive; it only adds to it.
+
 ## The speculation this licenses
 
 If renaming marks time rather than sound, then the aliases are a **legible
@@ -130,6 +200,34 @@ a period ended, the alias record was not written to persuade anyone.
   context-core measurement and is repeated by the alias pages rather than
   independently re-measured per alias. The invariant is asserted three times
   from one source, which is weaker than three measurements.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`. This
+page already leaned on `totality-themes`' Ti-dominance account without
+citing `wiki/mind/profile/` directly.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]]'s Si-tertiary explains why the sub-bass signature is archived rather than chosen, complementing (not restating) totality-themes' Ti-dominance account of why the name is the sacrificed layer. |
+| 2. Personality profile | **Checked, does not add a non-decorative mechanism.** No Big-Five facet supplies a distinct argument beyond what registers 1 and the totality-themes cross-reference already carry. |
+| 3. Historical precedent | **Checked, already load-bearing.** The Fran-discarded-her-name parallel is already a member connection. |
+| 4. Attitudes and forces | **Checked, does not add new material.** |
+| 5. Security and prosperity | **Checked, does not bear.** |
+| 6. Health | **Checked, does not bear.** |
+| 7. Romantic and relational state | **Checked, already load-bearing.** The MOGZART/Annie-relationship boundary coincidence is already this page's clearest instance. |
+| 8. Age and upbringing | **Checked, does not bear beyond the already-cited Fran parallel.** |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Checked, left standing.** [[wiki/mind/synthesis/instrument-is-subject]] is already a member for the residue-over-testimony point (alias boundaries are admissible because they were not produced to testify). |
+
+**What survived:** the rule, the falsifiers, and the MOGZART/GRIPNOTIC
+instances — all residue, unaffected by the mechanism added. **What the
+pass added:** a second, complementary cognitive-function account (Si) for
+the half of the rule (invariant) totality-themes' own account (Ti) does not
+cover. **What it did not do:** force a personality-profile citation where
+none added a genuinely new argument.
 
 > **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
 > [[wiki/mind/synthesis/totality-themes]] moved the same day to retract a

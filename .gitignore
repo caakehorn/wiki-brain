@@ -6,3 +6,18 @@ corpus_*.md
 .README.md.swp
 .hermes-tmp*
 __pycache__/
+
+# THE INTAKE LEDGER'S DATA IS TRACKED, and this repository is public.
+#
+# That is a decision, not an oversight, and it was made twice: the guard was
+# restored on 2026-08-30 when the "repo is private now" premise turned out to be
+# false, and removed again the same day when the operator asked for the ledger to
+# sync while the repository is public, stating they understood the implications.
+#
+# What that means concretely: `intake/events.jsonl` is a public, permanent record
+# of consumption, readable by anyone, and git history cannot be un-published. It
+# is tracked because the wiki has to be able to read it — a sealed or ignored
+# ledger is invisible to the analysis it exists to feed.
+#
+# To reverse: make the repository private FIRST, verify it, and only then decide
+# whether the ignore lines are still wanted. In that order.

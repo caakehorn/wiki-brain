@@ -7,6 +7,11 @@ date_created: 2026-07-14
 date_modified: 2026-07-14
 sources:
   - raw/self/dox-md/DAN_COMP.md
+synthesizes:
+  - wiki/interests/favorites/books
+  - wiki/interests/favorites/books/topics/politics
+  - wiki/interests/favorites/books/topics/ancient-history
+  - wiki/self/context-core
 related:
   - wiki/interests/favorites/books
   - wiki/interests/favorites/books/topics/politics

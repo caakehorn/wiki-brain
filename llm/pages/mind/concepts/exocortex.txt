@@ -5,7 +5,7 @@ title: "The Exocortex (Bootloaders & Master Prompts)"
 aliases: ["CATO", "operating manual", "master forensic prompt", "MAX"]
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-20
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
   - raw/self/dox-md/CATO_conflict_architecture.md
@@ -22,6 +22,9 @@ related:
   - wiki/self/context-core
 tags: [forensic-analysis, ai-collaboration, trauma-bond]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidenced-by
+    claim: "These artifacts are the strongest evidence for a capacity with a currently liquid market, and the corpus holds no client, invoice or externally shipped product against any of them - the one capability that could be sold has never been shown to a buyer."
   - page: wiki/mind/concepts/document-fabrication
     type: instance-of
     claim: "An output class the toolchain was not known to have: a plausible institutional document, iterated against a critic in under an hour, with fidelity calibrated to how adversarially it would be examined."
@@ -61,6 +64,15 @@ connections:
   - page: wiki/mind/synthesis/ai-collaborative-analysis
     type: evidences
     claim: "The exocortex concept — bootloaders, master prompts, the CATO system — is the primary evidence that LLMs are used as cognitive extensions, not conversation partners."
+  - page: wiki/mind/profile/neurodivergence
+    type: instantiates
+    claim: "The self-identified-autistic claim is a case study in how the bootloader mechanism launders a single unverified assertion into settled fact: three independently-named documents each state it as background rather than argue for it, because each was built by feeding the model the prior ones as ground truth."
+  - page: wiki/work/tech/max-framework/overview
+    type: contains
+    claim: "CATO and MAX are the exocortex concept's two most fully specified instances — a general bootloader mechanism split here into a named forensic-input engine and a named adversarial-output engine, each with its own axioms and formatting rules."
+  - page: wiki/mind/concepts/bunker-core
+    type: instantiates
+    claim: "Cognitive Foundry — a four-phase Claude-API app for generating 'cognitive prosthetics' — is the exocortex metaphor built as standalone software rather than deployed as a pasteable session config, the clearest case of it becoming a literal build target."
 ---
 
 

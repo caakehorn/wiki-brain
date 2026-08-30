@@ -4,7 +4,7 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-08-17
+date_modified: 2026-08-26
 date_range_start: 2025-08-29
 date_range_end: 2025-12-10
 sources: ["raw/self/message-csv/imessage_3307038747_both_all_now.csv", "raw/self/message-csv/imessage_export_3307038747_20260624.csv", "raw/self/dox-scan/messenger_Kristin Shaelene_2025-09-01-07-53-22.txt", "raw/people/kristin/chimera-genesis-addendum.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/dox-md/operating_manual.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
@@ -36,6 +36,9 @@ connections:
   - page: wiki/mind/concepts/contact-gini
     type: evidences
     claim: "22,018 messages compressed into ten weeks, 73% of them into September alone, is the corpus's most extreme single-node concentration — and it lands entirely outside the dump the Gini was computed over."
+  - page: wiki/people/ally-lubin
+    type: contradicts
+    claim: "The corpus's two poles on conflict disposition: a challenge here is met with escalation to federal complaint portals and a permanent block, where the Ally channel narrows a challenge and concedes it in ninety seconds."
 ---
 
 # Kristin Prentiss
@@ -325,6 +328,21 @@ spirit of romantic adventure that you've described in your relationship with
 danny, but with a sense of permanence and stability"*, 25 Sep) are all in the
 primary record. And death-by-attrition is roughly what happened — five weeks
 earlier than the page previously recorded.
+
+## The disposition, not just the outcome
+
+The page so far reads the relationship as an outcome — ten weeks that ended
+a specific way. Read from outside the wiki, an answer contrasting this
+thread against the [[wiki/people/ally-lubin|Ally Lubin]] channel's
+ninety-second concession (2026-08-18, 21:08–21:09) used it for something
+sharper: total-exclusivity demand, escalating purity tests, and severance
+deployed as a conflict move rather than a last resort are not just what
+happened here — they are a description of the person she was during it.
+Kristin does not narrow a challenge and concede; she leaves, cites federal
+complaint portals, and blocks. That disposition, not the $40 or the sixteen
+minutes, is what makes this the corpus's cleanest inbound control case on
+[[wiki/mind/synthesis/block-unblock-loop]] — a severance that stuck because
+nothing about how she handled conflict left room for it not to.
 
 ## Corpus dimensions
 

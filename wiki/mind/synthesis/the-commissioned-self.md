@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-21
+date_modified: 2026-08-28
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-scan/Dan Profile.txt
@@ -27,6 +27,9 @@ synthesizes:
   - wiki/self/concepts/wiki-brain
 tags: [personality-profile, ai-collaboration, forensic-analysis, digital-footprint]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: instantiates
+    claim: "Eight of the deviance audit's ten outliers are single-model judgments over material Dan supplied, and the vocabulary the whole apparatus produced appears seventeen times in 106,629 messages of actual life - which is the honest ceiling on every capability claim sourced to it."
   - page: wiki/mind/synthesis/instrument-is-subject
     type: instantiates
     claim: "That page establishes that the wiki's instrument is also one of its subjects; this is the same defect one layer deeper and measured — the entire psychological layer of this repository is a self-commissioned instrument reading with no independent observer anywhere in it, and the message record shows the vocabulary never leaves the laboratory."
@@ -57,9 +60,43 @@ connections:
   - page: wiki/mind/profile/socionics-and-attitudinal
     type: contains
     claim: "Three further systems on the same subject — Socionics, Attitudinal Psyche, a moral alignment — bring the count to seven independent frameworks run over one person, and 'socionics' returns zero hits in 217,573 messages, which is what makes the framework count a fact about commissioning rather than about interest."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: instantiates
+    claim: "That page's constitution pass is a documented instance of this page's own standing instruction — 'any answer that draws a behavioral prediction from mind/profile/ should cite this page alongside it' — applied to itself: it leans most heavily on calibrated-confidence, the one profile-layer finding with no self-report origin, states plainly that Trust 9 is corpus-audited while the Ti/Fe function split is not, and treats the two as different-strength evidence rather than citing them at equal weight."
 ---
 
 # The Commissioned Self
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/mind/synthesis/instrument-is-subject]] (2026-08-28), which added a
+> constitution-pass mechanism section: Ti-dominance explains why the
+> exocortex prompt's evidentiary standard takes the specific shape it does.
+> This page reasons from that page's general "instrument is also a subject"
+> claim, not from the new mechanism section. **No claim on this page is
+> affected.**
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/profile/intp]] and [[wiki/mind/profile/enneagram-5w4]] (both
+> 2026-08-26), which each added a documented instance from the Ally Lubin
+> channel (a completed Fe-adjudication interruption; the Witness need's one
+> completion) and removed their `sage_pending` staging. Both additions are
+> integrated into this page's own sections above rather than merely
+> acknowledged — the third-party-citation caveat and the July 2013 email
+> batch. **No further claim on this page is affected.**
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/mind/profile/deviance-mapping]] (2026-08-22), and this one is a
+> substantive move in **this page's favour**. That page gained a section
+> checking its own ten outlier claims against the raw record, and the result is
+> that **exactly two survive independent recomputation against a real comparison
+> population** — the 0.9601 contact concentration and the 43-versus-2 calibrated
+> confidence measure the audit never produced at all. The remaining eight are
+> single-model judgments over material Dan supplied, which is this page's thesis
+> stated by the instrument itself. **No claim here is withdrawn; the evidence
+> base is strengthened**, and the seventeen-appearances-in-106,629-messages
+> figure this page already carries is now doing work on a second page
+> ([[wiki/mind/synthesis/failure-to-launch]]) as the ceiling on every capability
+> claim sourced to the audit.
 
 Dan knows himself the way he knows a stranger: **by running an instrument over
 the evidence and reading the output.** Seven independent frameworks have been
@@ -142,10 +179,70 @@ life. It exists in commissioned sessions, and it stays there.
 | Socionics | ILI-Ni, "the Critic" | [[wiki/mind/profile/socionics-and-attitudinal]] | **0** |
 | Attitudinal Psyche | FLEV "Alchemist" / VLEF "Inquisitor" | [[wiki/mind/profile/socionics-and-attitudinal]] | **0** |
 | Moral alignment | Chaotic Neutral | [[wiki/mind/profile/socionics-and-attitudinal]] | — |
-| Stylometrics | 99th percentile; "a custom-built fork of English" | [[wiki/mind/profile/linguistic-profile]] | — |
+| Stylometrics | 99th percentile; "a custom-built fork of English" — **the percentile retracted 2026-08-23** | [[wiki/mind/profile/linguistic-profile]] | — |
 | Deviance audit | 80–99/100 across seven domains, 92% stated confidence | [[wiki/mind/profile/deviance-mapping]] | — |
 | Composite voice model | Eight modes, ten trigger-level modifiers with percentages | [[wiki/mind/profile/voice-modes]] | — |
 | This wiki | 476 pages | [[wiki/self/concepts/wiki-brain]] | — |
+| Bespoke vocabulary | Two graded word batches, selected from a machine-generated pool | [[wiki/interests/language/vocabulary-lexicon]] | — |
+
+> **RE-CHECKED [2026-08-23] — premise moved, and it moved in this page's favour.
+> The stylometrics row is now the first instrument in the table to be independently
+> falsified.** [[wiki/mind/profile/linguistic-profile]] was corrected on 2026-08-23:
+> its "99th percentile for lexical diversity" and "post-graduate (16th grade+)
+> readability" were recomputed against the sender-tagged corpus and both failed.
+> Measured Flesch-Kincaid is **2.08 (2015–19) to 4.00 (2026)**, and his 2025–26
+> type-token ratio is **0.0509 against his own interlocutors' 0.0544** on equal
+> 200,000-token samples — he is marginally *less* lexically diverse than the people
+> answering him. The mechanism is exactly the one this page names: **no percentile
+> was ever computed against a comparison group.** The analysis ranked Dan against an
+> implied population that was never assembled, at Dan's request, over Dan's corpus.
+> The moment somebody built the obvious control — the other side of his own
+> conversations, already sitting in the same file — the finding inverted.
+>
+> This does not weaken the page; it supplies the first hard instance of what it has
+> so far argued structurally. Seven frameworks agreeing was already weak evidence for
+> the reasons below. It is now weaker by one, and the failure was found by counting
+> rather than by re-interviewing the apparatus. The prediction this licenses is
+> specific and cheap to test: **the remaining instruments in the table that report
+> percentiles — Big Five/Big30 at "Impulsiveness 96, Altruism 1", the deviance audit
+> at "80–99/100 across seven domains" — were produced the same way and have never met
+> a control group either.** See [[wiki/mind/profile/texting-deviance-audit]] for the
+> recomputation.
+
+> **RE-CHECKED [2026-08-27] — premise moved, and it added an instrument rather
+> than disturbing a claim.** [[wiki/mind/profile/linguistic-profile]] gained a
+> section on 2026-08-27 documenting a **commissioned vocabulary session**: on
+> 2026-08-26 Dan prompted a model to generate graded insult and praise batches,
+> selected from the pool, and had the same session produce a second-order
+> reading of his own taste — including a five-family taxonomy, a twelve-axis
+> "semantic profile," and a designed psychometric instrument (the "Slang Taste
+> Battery V1") that was never administered. It is written up at
+> [[wiki/interests/language/vocabulary-lexicon]] and is now a row in the table
+> above.
+>
+> **No claim on this page changes, and the reason it does not is the finding.**
+> This is the apparatus running its documented cycle one more time, in a domain
+> the table had not yet reached — and it is the cleanest specimen of the cycle
+> yet, because all four stages are visible inside a single day's session: Dan
+> asks; the model produces a graded artifact; the model then analyses the
+> artifact as evidence about Dan; and the analysis proposes a *further*
+> instrument to measure him with. The Battery is the tell. An apparatus that has
+> just finished characterising its subject's taste immediately designs a test to
+> characterise it more precisely, and the subject is also its author, its sole
+> respondent and its only validator.
+>
+> The provenance problem is therefore not merely inherited here — it is
+> unusually pure. The stylometrics row at least measured something external (his
+> own sent messages, which exist whether or not anyone asks about them). This
+> row does not. The vocabulary batches record *which words were selected as
+> pleasing in one session*, and that page says so plainly; nothing establishes
+> that any of them appear in his outbound text. The prediction the 2026-08-23
+> re-check licensed applies here in advance rather than in retrospect: **this
+> instrument has no control group and cannot acquire one by being analysed
+> harder.** The one thing that would test it — running `bin/text-metrics` over
+> the corpus to see whether the dignified-shape insult ever actually appears —
+> is a counting operation, which is the same move that inverted the stylometrics
+> finding, and nobody has run it.
 
 [[wiki/mind/profile/index]] reads the convergence generously and correctly: the
 instruments *"are not five separate diagnoses but one structure measured five
@@ -228,6 +325,14 @@ logic-based dude...i can't see myself flourishing in AA/NA."* That predates
 every dossier and every model, and it is genuinely load-bearing — the type is
 not something a machine told him.
 
+The self-typing did not run alone. Per [[wiki/people/franki-faris]], the same
+**July 9–31, 2013** window carries a batch of self-sent emails typing at
+least three people — his own INTP, Alexis's INFP/ISFP, Franki's ESFP — a
+fortnight of the same operation run on a household rather than a single
+line. That batch lives in the email corpus, not the iMessage dump the
+seventeen-appearance census below measures, so the true earliest and widest
+instance of the apparatus sits outside this page's own count.
+
 It is also, read closely, **the pattern's origin rather than an exception to
 it.** The type is not being used introspectively in that sentence. It is being
 used as a *credential in an argument*: a claim about what kind of system he is,
@@ -288,6 +393,29 @@ output is not.
 **The 2013 message is the control on the AI-origin claim**, and it holds: the
 self-typing habit is a decade older than the models. What the models changed is
 throughput, not kind.
+
+**Plain-vocabulary counting is an escape hatch from the whole problem, and it
+is under-used.** The apparatus's absence from ordinary speech is what this
+page measures; the same method applied to an ordinary word instead of a
+jargon term produces a usable finding rather than an absence — first-person
+happiness claims run 170 times across the identical 106,629 messages, at
+7.86 per 1,000 in late 2015 against 0.00–2.72 in every year after
+([[wiki/health/cocaine]] reads that rate against the drug-dosage record).
+Where a commissioned claim and a word-count disagree, this page's own
+ranking says the residue wins.
+
+## The apparatus cited outward, to a third party
+
+The pattern this page tracks — commissioned, administered, handed to its
+subject — has one further stage the census above does not cover: the
+instrument cited as proof about Dan **to somebody who is not him.** A sage
+answer published 2026-08-21 used [[wiki/mind/profile/intp]]'s Fe figure and
+its stated relational consequence to explain a documented exchange to an
+outside asker, with the AI-inferred, uncorroborated-instrument caveat
+attached by hand at the point of use rather than cited from a standing rule.
+That caveat should not have to be supplied fresh every time the apparatus is
+cited; it belongs here: **any answer that draws a behavioral prediction from
+`mind/profile/` should cite this page alongside it.**
 
 ## Falsifiers
 
@@ -351,3 +479,4 @@ throughput, not kind.
   the MBTI result, their agreement is worth nothing; if independently, it is
   worth something. The session exports could settle this and have not been read
   for it.
+

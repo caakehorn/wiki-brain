@@ -6,7 +6,7 @@ aliases: ["Ti-Ne-Si-Fe", "cognitive functions"]
 status: stable
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-08-19
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-scan/Dan Profile.txt
@@ -43,6 +43,66 @@ connections:
   - page: wiki/timeline/periods/2021-2023-employment-block
     type: evidenced-by
     claim: "The introversion cost is stated in primary voice — fifteen-table freezing Saturday nights took 'literally EVERYTHING i had in me' — hospitality as a direct stressor of the documented type."
+  - page: wiki/people/ally-lubin
+    type: evidenced-by
+    claim: "The Fe-inferior conversion (emotional bids adjudicated rather than met) has its one documented interruption here: a challenge conceded in six words after the challenger narrows rather than escalates, raising the open question of whether the 10%-valuing score is a fixed ceiling or a floor a particular interlocutor can lift."
+  - page: wiki/mind/profile/neurodivergence
+    type: parallels
+    claim: "The self-identified-autistic label and this INTP read describe the same measured profile — bottom-percentile sociability, explicit-over-inferred meaning, systematizing run for its own sake — in two different vocabularies, neither checked against the other before both were accepted."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: evidences
+    claim: "The Ti-dominant/Fe-inferior split (96% latent vs. 10% valuing) is the cognitive-function mechanism behind a corpus-wide pattern: verdict questions on a person's worth, a taste's authenticity, an order's legitimacy or an actor's trustworthiness collapse to two states because the dominant function tests only for binary closure while the function that would grade a verdict relationally is nearly absent — 'Fe's absence removes the social brake that would otherwise soften conclusions for company' is that page's rule, stated here first."
+  - page: wiki/mind/synthesis/the-deferred-audit
+    type: evidences
+    claim: "Ti's own definition of truth — 'a system that holds under recursive collapse' — is the structural reason a chosen object's audit is never local: selecting something is how this stack extends its own system, so a later audit of that object re-runs the coherence test on a piece of the system that produced the original choice, which is why the finding implicates the chooser rather than staying contained to the object."
+  - page: wiki/mind/synthesis/totality-themes
+    type: evidences
+    claim: "'Dan's own audit apparatus, turned on himself' — that page's phrase for the risk the Irreversibility Firewall defends against — names this stack's Ti-dominance specifically: the same coherence-testing engine that makes truth 'a system that holds under recursive collapse' is what a finished, shipped, or admitted act would expose to a verdict, which is why finishing, shipping and admitting are one category of dangerous event rather than three unrelated ones."
+  - page: wiki/mind/synthesis/the-embedded-objective
+    type: evidences
+    claim: "Ti's internal-verification standard ('a system that holds under recursive collapse,' never social consensus) is why an assignment does not motivate until it is privately re-derived: a goal handed over by an employer has not passed that verification, but the same goal re-authored on Dan's own terms (a tip split, a status ladder) has, and behaves afterward like any other self-generated conclusion — defended past the point the external role would justify."
+  - page: wiki/mind/synthesis/dormancy-not-exit
+    type: evidences
+    claim: "Two functions explain two different halves of that page's 'suspend, not delete' rule: Si-tertiary's non-pruning archive is why a dormant tie costs nothing to reactivate after years of silence, and Fe-inferior at 10% valuing is why a Ti-generated decision that a tie is over never becomes felt-settled without an external terminating statement supplying the relational judgment this stack cannot produce internally."
+  - page: wiki/mind/synthesis/supply-network
+    type: evidences
+    claim: "The same Ti-dominance mechanism the-deferred-audit uses for chosen-object audit timing explains why supplier reliability inverts with intimacy: enforcing a standard on a friend-supplier is an audit that risks a verdict on the friendship, so Tom's failures accumulate for eighteen years while a stranger's failure is noticed and acted on immediately."
+  - page: wiki/mind/synthesis/alias-as-periodization
+    type: evidences
+    claim: "Si-tertiary's role as the high-fidelity archive is why the sub-bass signature never turns over across four aliases: it is an involuntary, identified-post-hoc trait rather than a Ti-negotiated public choice, so it sits outside the audit-and-revise cycle the name itself is subject to."
+  - page: wiki/mind/synthesis/music-as-identity
+    type: evidences
+    claim: "Ti's closure standard — a verdict, once reached, does not get relitigated — explains that page's Fall Out Boy freeze-at-boundary pattern more precisely than 'the objects can't betray him' does, since the pattern holds even on a defunct band's catalog that carries zero relational risk to begin with."
+  - page: wiki/mind/synthesis/instrument-is-subject
+    type: causes
+    claim: "The exocortex prompt's evidentiary standard — unwavering honesty, no softening, residue over testimony — is Ti-dominance's own truth criterion ('a system that holds under recursive collapse') exported into an instruction, which is why that page's recursion problem is a predictable consequence of this specific stack rather than an accident of which AI tool got used."
+  - page: wiki/interests/food-and-diet
+    type: causes
+    claim: "The same closure test named for worth, taste and trust verdicts runs on a plate: an unrequested ingredient fails Ti's pass/fail standard outright, with Fe (10% valuing) too weak to run the graded negotiation that would soften it into 'acceptable enough' — the most literal instance of the mechanism found so far, because a sandwich cannot be lobbied or flattered the way a person sometimes can."
+  - page: wiki/places/the-unpapered-address
+    type: causes
+    claim: "Ti's definition of truth as 'a system that holds under recursive collapse' is why paper was never sought from a housing provider rather than merely never offered: demanding a lease from someone who has already granted access audits whether they can be trusted to keep granting it, which risks the choice to depend on them, not just the housing itself."
+  - page: wiki/mind/synthesis/attachment-trauma-bond
+    type: causes
+    claim: "The Ti-Si loop is why that page's bond-collapse crisis reactivated exactly the two schemas it already names (the 2004-05 rupture, the Alexis collapse) rather than fading into ordinary grief, and Ni-leak's mythic-overfitting is the measured function behind the 'burning rituals' language — the mind's own analytical strength turned on the wound, not a metaphor for its intensity."
+  - page: wiki/mind/synthesis/dan-annie-fallout-verdict
+    type: causes
+    claim: "That page's 'Ti-dominant processing reads emotional bids as propositions to litigate' line is Ti-dominance and Fe-inferior named without being sourced: Ti supplies the adjudication reflex, and Fe at 10% valuing is too weak to supply the empathic acknowledgment the engine skips — 'Fe's absence removes the social brake that would otherwise soften conclusions for company,' running here at full load."
+  - page: wiki/mind/synthesis/block-unblock-loop
+    type: causes
+    claim: "Two distinct functions explain that page's corrected rule ('the exit is executed; the deletion never is'): Si-tertiary's non-pruning archive is why nothing co-held is ever actually erased, and Fe-inferior (10% valuing) is why an executed severance never becomes felt-settled without an external terminating statement — the same account already established for dormancy-not-exit, run here on the channel-operation layer."
+  - page: wiki/mind/synthesis/august-grievance-verdict
+    type: causes
+    claim: "That page's grievance 6 — a demand for a statement that registers a different true answer as no answer at all — is Ti-dominance running with no Fe-mediated grading function available to read the different answer as responsive; the page's own scoring of the grievance as false is what this mechanism looks like from outside it."
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: causes
+    claim: "That page's own claim that the system 'cannot generate one from behavioural evidence' — a severance signal — is Fe-inferior (10% valuing) named without being sourced: the function that would read a decade of withdrawal as implicit closure is too weak to do it, which is why nothing short of an explicit statement can substitute."
+  - page: wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis
+    type: causes
+    claim: "That page's own 'deepest moral failure' finding — instrumentalization, converting concern into an optimization problem and designing a stronger signal when ordinary conversation fails — is Ti-dominance's 'internal simulation labs' turned on a person: the same faculty that stress-tests ideas and relationships against a truth standard holding 'under recursive collapse, not social consensus,' with the wrong kind of object in it."
+  - page: wiki/mind/synthesis/fayette-return
+    type: causes
+    claim: "Core Axiom 1's binary self-worth verdict, running on Ti-dominance with no Fe-mediated grading function, is why that page's 'personal failure' misfiling of a family return is consequential rather than loose: with no graded middle available, the misfiling resolves straight to the worthless pole rather than to a discounted setback."
 ---
 
 # INTP — The Cognitive Function Stack
@@ -137,6 +197,21 @@ recognition, no networking instinct. In relationships, Fe-inferior is a
 prime mover of [[wiki/mind/concepts/conflict-architecture]]: emotional bids
 arrive as claim-shaped propositions and get adjudicated instead of met.
 
+That conversion has exactly one documented interruption. On August 18, 2026,
+in the [[wiki/people/ally-lubin|Ally Lubin]] channel: **ALLY** *"You just love
+bomb"* (a bid arriving shaped as judgment) → **DAN** *"But love bomb is like a
+malicious tactic and there very little malice"* (the adjudication, exactly as
+described above) → **ALLY** *"I didn't say malicious"* (declining to be
+adjudicated) → **DAN** *"Okay that's fair then."* No other exchange in the
+corpus completes that sequence. The finding is not that Fe improved — it is
+that the conversion is refusable from the outside, by narrowing the claim
+rather than escalating against it, which raises the open question of whether
+the 10%-valuing score is a fixed ceiling or a floor a particular kind of
+interlocutor can lift. Read against [[wiki/mind/synthesis/the-binary-verdict]],
+even that one exception is a **binary flip** (wrong → fair) rather than a
+graded middle ("partly fair"): the gate moved, but a gate is still what it
+is.
+
 ## The stack as one machine
 
 Run together, the functions produce the behavioral record with uncomfortable
@@ -161,3 +236,4 @@ history and cinema.
 proctored instrument; the Ni measurement in particular has no independent
 confirmation; no data on how the stack presents post-closure (all sources
 pre-date June 2026).
+

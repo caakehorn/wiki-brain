@@ -3,7 +3,7 @@ plain_of: wiki/timeline/events/teen-concert-years
 title: "Concert Record (2001–2019)"
 reading_level: general
 date_modified: 2026-08-26
-source_modified: 2026-08-02
+source_modified: 2026-08-26
 ---
 
 # Concert Record (2001–2019)
@@ -148,7 +148,7 @@ the archival reflex the rest of the record documents.
 
 One concert date in the record does not follow the pattern. June 15, 2005: a
 sold-out Tom Petty show at the Post-Gazette Pavilion in Burgettstown. The
-destination was reached. The show was not seen. The drive back on Route 51 was
+destination was reached. The show was not seen. The drive home was
 laced with DXM — the substance context a memory had always left blank. It is
 the only concert date in the corpus where the destination is reached and the
 show is missed simultaneously.

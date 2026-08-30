@@ -8,7 +8,7 @@ source_modified: 2026-08-02
 
 # Sub-Bass Signature
 
-**The short version.** Across every alias, every genre target, and every era of Dan Frank's production output, there is one acoustic fingerprint that never changes: a 63–85% sub-bass presence. It appears in SLOPPP material from 2013. It appears in MOGZART, MOGGED-UP, and GRIPNOTIC releases after that. It shows up whether the target genre is bass house, tech house, DnB-adjacent, trap-adjacent, or experimental. And the most important fact about it is that it was never chosen. It was *discovered* — identified post-hoc across releases that spanned multiple alias identities, different genre targets, and a 13-year span. It was there before anyone named it. That involuntary consistency is the clearest evidence that Dan's production identity is structural rather than stylistic. He is not applying a sound. He is running a signature he cannot turn off.
+**The short version.** Across every alias, every genre target, and every era of Dan Frank's production output, there is one acoustic fingerprint that never changes: a 63–85% sub-bass presence. It appears in the earliest SLOPPP material. It appears in MOGZART, MOGGED-UP, and GRIPNOTIC releases after that. It shows up whether the target genre is bass house, tech house, DnB-adjacent, trap-adjacent, or experimental. And the most important fact about it is that it was never chosen. It was *discovered* — identified post-hoc across releases that spanned multiple alias identities, different genre targets, and a 13-year span. It was there before anyone named it. That involuntary consistency is the clearest evidence that Dan's production identity is structural rather than stylistic. He is not applying a sound. He is running a signature he cannot turn off.
 
 ## What the numbers say
 
@@ -46,7 +46,7 @@ The Jimmy Pop data adds cultural context: the sub-bass direction was where the a
 
 ## The aliases as periods, not aesthetics
 
-The four aliases — SLOPPP, MOGZART, MOGGED-UP, GRIPNOTIC — are not four different artistic visions. They are four names for the same underlying signature. The sub-bass thread runs through all of them. The aliases mark periods of a life rather than changes of artistic direction. The invariant that dates the rule: the band is already present in the 2013 SLOPPP material and never moves across four renames. That is what proves the aliases mark periods rather than aesthetics.
+The four aliases — SLOPPP, MOGZART, MOGGED-UP, GRIPNOTIC — are not four different artistic visions. They are four names for the same underlying signature. The sub-bass thread runs through all of them. The aliases mark periods of a life rather than changes of artistic direction. The invariant that dates the rule: the band is already present in the earliest SLOPPP material and never moves across four renames. That is what proves the aliases mark periods rather than aesthetics.
 
 ## What we still don't know
 

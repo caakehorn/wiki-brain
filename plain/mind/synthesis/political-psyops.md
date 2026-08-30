@@ -3,7 +3,7 @@ plain_of: wiki/mind/synthesis/political-psyops
 title: "Political Psyops & Hybrid Events"
 reading_level: general
 date_modified: 2026-08-26
-source_modified: 2026-08-19
+source_modified: 2026-08-26
 ---
 
 # Political Psyops & Hybrid Events
@@ -12,7 +12,7 @@ source_modified: 2026-08-19
 
 ## The January 6th argument
 
-The claim is deliberately narrow. Dan is not saying the rally was staged or the event was fake. Instead, he argues that a small operational insertion rode on top of organic conditions to manufacture a specific visual product: images of martyrdom and revolutionary violence designed to poison the populist right's future electoral chances.
+The claim is deliberately narrow. Dan is not saying the rally was staged or the event was fake. His actual claim is narrower. A small operation, he argues, was slipped on top of conditions that were already real. Its purpose was to manufacture one specific set of images: martyrdom and revolutionary violence. And the point of those images was to damage the populist right at future elections.
 
 The case is built on an "anomaly set" — details that don't fit the official narrative when studied closely. There are four categories:
 
@@ -26,15 +26,79 @@ The case is built on an "anomaly set" — details that don't fit the official na
 
 ## The "Sandwich" theory
 
-In a series of conversations with Google's Gemini AI on January 2, 2026, this analysis was formalized under the name "Operation Wildfall." The core mechanism is called a "Sandwich" operation: an organic outer layer (the riot) with an inserted lethal core (the Babbitt shooting) treated as a "narrative necessity." Babbitt is described as "a prop" — unarmed, small, a white female Air Force veteran, cast for the specific optics of tragedy.
+Dan worked this analysis into a formal shape in conversations with Google's Gemini AI on January 2, 2026. He named it "Operation Wildfall."
 
-The surrounding doctrine is called "Inverted Containment": the outer perimeter is kept porous while the inner hard point is sacrificed, so the imagery is captured cleanly. Much of the supporting detail pile is acknowledged as a "Gish Gallop" — a flood of individually weak claims — and genuine stress-freeze trauma responses. But the surviving flags are the perfect framing, the textbook protocol violations, and the instant-available footage, especially when contrasted with footage that was suppressed.
+The central idea he calls a "Sandwich" operation. The outer layer is real: the riot itself. Inserted into the middle is a lethal core, the Babbitt shooting, treated as a "narrative necessity."
+
+Babbitt herself is described as "a prop" — unarmed, small, a white female Air Force veteran. Cast, in his reading, for how the tragedy would look.
+
+The wider doctrine he calls "Inverted Containment." The outer ring is left deliberately leaky. The inner strongpoint is given up. That way the images get captured cleanly.
+
+He concedes a lot of the supporting detail. Much of the pile is a "Gish Gallop" — a flood of individually weak claims — and some of it is just genuine trauma, people freezing under stress.
+
+Three things survive that concession. The framing is too perfect. The protocol violations are textbook. And the footage was available instantly, especially compared with footage that was suppressed.
 
 The meta-point survives scrutiny either way, in Dan's reading: the point was the imagery, and the execution didn't need to be perfect, because almost nobody studies raw footage streams, and those who do are often dismissed as fringe.
 
-In a separate conversation with Claude, an initially skeptical AI conceded that the coordination problem is overstated for a small group, called the procedural anomalies the strongest argument, rated it "the most internally coherent version of January 6th revisionism," and updated its assessment to "warrants genuine forensic investigation that has not occurred."
+In a separate conversation with Claude, a model that started out skeptical gave ground on several points. It agreed the coordination problem is overstated for a small group. It called the procedural oddities the strongest part of the argument. It rated the whole thing "the most internally coherent version of January 6th revisionism." And it revised its own view to say the case "warrants genuine forensic investigation that has not occurred."
 
-**A note on timing:** the Gemini "Operation Wildfall" codification is dated January 2, 2026, but the thesis itself is older. A ChatGPT session from June 15, 2025 — seven months earlier, on a different platform — has Dan independently posing the same question ("what are the odds the Babbitt shooting is a legitimate shooting... and not part of a false flag to build a narrative") and landing on the same hybrid verdict. The recurrence across platforms and months is itself evidence of how settled this conclusion was long before it got its formal vocabulary.
+**A note on timing:** the Gemini "Operation Wildfall" codification is dated January 2, 2026, but the thesis itself is older. A ChatGPT session from June 15, 2025 shows him asking the same question seven months earlier, on a different platform: "what are the odds the Babbitt shooting is a legitimate shooting... and not part of a false flag to build a narrative." He landed on the same mixed verdict then.
+
+That it came back across platforms and months is itself telling. The conclusion was settled well before it had a formal name.
+
+## The documents pass — and how much weight it can carry
+
+A fuller copy of the same AI chat runs on past where the earlier copy stops. In
+the later part, Dan uploads actual documents. He asks the model to read each
+one against the theory he has been building. There are five: a records release
+about the Babbitt shooting, a police operational-planning release, the public
+timeline of the day, part of the January 6 Committee's final report, and a
+map-based visualisation.
+
+**Read what follows at arm's length.** This is a model summarising documents Dan
+handed it. Those documents are not held in this archive, so nothing in this
+section has been checked against the originals. That is a weaker kind of evidence
+than most of what this wiki carries, and the difference matters.
+
+**On the shooting records**, the model points out that the official papers do not
+agree with each other about where the wound was — "upper portion of the left
+chest near the clavicle" in one, "left anterior shoulder" in another, "left
+shoulder" in a same-day email, "the chest somewhere" from a witness. Its own read
+is that this is a problem *for* the official account rather than a hole in it: it
+means the physical baseline anyone would argue from is itself unsteady. The same
+release records two more things. A police lawyer asked for the radio
+recordings back and never passed them to the investigators. And Capitol Police
+officers wore no body cameras. That left footage filmed by members of the public
+as the only visual record of the day.
+
+**On the police planning records**, the model reads an 11:19 a.m. alert placing
+200-plus Proud Boys on Capitol grounds while Trump was still speaking at the
+Ellipse, an FBI report noting people already under investigation were in the
+crowd, and a Secret Service note about attendees in helmets and body armour
+carrying military-grade radios. The gap it draws out: heavy security went to the
+Ellipse, while the Capitol — where the intelligence had already put an organised
+group early — got comparatively little.
+
+**On the report and the timeline**, it flags three details as under-examined.
+
+First, the Defense Secretary's order of January 4 — two days beforehand — that
+National Guard members could not deploy with weapons, helmets, body armour or
+riot gear without his personal say-so.
+
+Second, the Capitol Police Board's decision not to request the Guard. That was
+taken three days early, not during the breach itself.
+
+Third, the Army's two-week denial that Lt. Gen. Charles Flynn — Michael Flynn's
+brother — was on the 2:26 p.m. call where deployment stalled. The timeline then
+shows he was.
+
+None of this is offered as proof. The model's own closing line treats it as a
+pattern rather than a smoking gun. It describes a security apparatus that
+"received clear advance intelligence, pre-positioned insufficient forces,
+stripped available forces of protective gear, required multiple redundant
+authorization chains to deploy... and then spent the subsequent investigation
+carefully separating each individual failure from the others so no systemic
+picture emerges."
 
 ## The broader political picture
 

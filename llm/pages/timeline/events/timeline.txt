@@ -6,6 +6,9 @@ date_created: 2026-06-22
 date_modified: 2026-08-15
 sources: ["raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/LIFE REPORT.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/BFS_BOOTLOADER_v2.md", "raw/self/message-csv/*", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/FAVORITES DATA (2).md", "raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md", "raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md", "raw/self/ancestry/"]
 connections:
+  - page: wiki/self/context-core
+    type: evidences
+    claim: "Both pages are built in part from the same raw extraction — LIFE_EVENTS_CALENDAR.md — with context-core as the curated, cross-checked read and this page as the near-raw event list; context-core's Residence timeline section has already resolved several date conflicts this page's own auto-extraction carries uncorrected."
   - page: wiki/people/johnny-dealer
     type: evidenced-by
     claim: "The 2018 peak of 254 events resolves to a named supply node rather than to a diffuse bad year: the handle carrying that period's logistics is +17243223678, which is what lets the event spike be read as a procurement pattern instead of a mood."

@@ -3,12 +3,12 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-18
-sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_ALL_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/Cash register shortage explanation.md", "raw/self/dox-md/_Deconstructing a Chaotic 24 Hours .md"]
+date_modified: 2026-08-26
+sources: ["raw/self/dox-scan/dan tom 2010 2022.txt", "raw/self/dox-scan/Dan Profile.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-csv/imessage_ALL_both_all_now.csv", "raw/self/dox-md/operating_manual.md", "raw/self/dox-md/tom_kristin_master_dossier.md", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-scan/DanAnnie_CompleteRecord_Final.docx", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md", "raw/self/dox-md/Cash register shortage explanation.md", "raw/self/dox-md/_Deconstructing a Chaotic 24 Hours .md", "raw/self/dox-md/MAX_PRIME.md"]
 tags: [addiction-recovery, dui, ai-collaboration, relationships, mental-health]
 infobox:
   name: "Tom"
-  relationship_to_dan: unknown
+  relationship_to_dan: friend
   sex: male
   location: uniontown
   known_for: "Tom Maison — Dan's primary male ally and, for most of the corpus, the clearest instance of safe, lateral (peer, non-pate"
@@ -61,8 +61,10 @@ connections:
   - page: wiki/people/matt-kraus
     type: co-occurs
     claim: "Both Matt Kraus and Tom Maison appear in the same adolescent Seven Springs scene — shared terrain, shared years — but their documented records are non-overlapping (Kraus: pre-2010; Tom: post-2010), so the shared mountain is a background condition, not a jointly documented episode."
+  - page: wiki/work/tech/max-framework/overview
+    type: evidences
+    claim: "This page is the resolution to a question MAX_PRIME.md (April 2026) flagged as [UNRESOLVED]: whether the drug-supply contact at +17249987341 and the platonic anchor 'Tom Maison' named in session memory were the same person. One page, one number, one role — they are."
 ---
-
 
 # Tom
 

@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-21
+date_modified: 2026-08-28
 sources:
   - raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
@@ -27,8 +27,12 @@ synthesizes:
   - wiki/timeline/events/july-august-2026-reentanglement
   - wiki/mind/concepts/attachment-model
   - wiki/mind/concepts/conflict-architecture
+  - wiki/mind/profile/intp
 tags: [personality-profile, forensic-analysis, relationships]
 connections:
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: contradicts
+    claim: "The August 19 2026 severance is the first in the record to name and pre-close its own most likely reopening channel in advance - the Milo and thinking-of-you route that ended the fifty-two-day silence on July 4 - which is the specific failure mode this page's rule describes."
   - page: wiki/mind/synthesis/august-grievance-verdict
     type: evidenced-by
     claim: "Why the loop never terminates, visible in one exchange: Annie did state a want — 'I want to be alone. I want to get help' — and because it was not one of the two options the demand specified, it registered as no answer at all. Every threat in this page's eleven-year record demands a statement, and a demand for a statement can only be satisfied by the exact statement specified."
@@ -87,9 +91,80 @@ connections:
   - page: wiki/places/the-unpapered-address
     type: instance-of
     claim: "The corpus's only instance of Dan reaching for a housing instrument himself is a declared exit that never executed: 'Tomorrow I'm calling John / And telling him that I will no longer be in the lease' (2024-10-27), answered inside the minute with 'Please don't do this Dan', never carried out, and followed four months later by a separation Annie initiated."
+  - page: wiki/mind/profile/intp
+    type: caused-by
+    claim: "Two distinct functions, not one, explain the corrected rule ('the exit is executed; the deletion never is'): Si-tertiary's non-pruning archive is why nothing co-held is ever actually erased from the system, which is what makes a channel reopenable regardless of how completely the exit itself was performed; Fe-inferior (10% valuing, and 'exhaustible' under repeated cycles, per this page's own 'machine proof' language) is why an executed severance never becomes felt-settled without an external terminating statement — the same two-function account already established for dormancy-not-exit's 'suspend, not delete' rule, run here on the channel-operation layer instead of the relationship-status layer."
 ---
 
 # The Block/Unblock Loop
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/concepts/conflict-architecture]] (2026-08-26), which added a
+> section documenting the corpus's one completed refusal of the redefinition
+> move (an Ally exchange) and removed its `sage_pending` staging. This page's
+> citation of conflict-architecture is about the repair mechanism's general
+> shape, not the new counter-instance. **No claim on this page is affected.**
+
+> **RESOLVED [2026-08-23] — the 127/110 pair is settled, and it settles at 100%.**
+> This page has carried *"127 exit declarations against 110 re-engagements (87%
+> relapse)"* flagged `[DERIVED]` from the dossier passes, against
+> [[wiki/mind/concepts/attachment-model]]'s Gaps section, which noted that the
+> same dossiers describe the re-engagement rate as *"effectively 100%"* and that
+> neither figure had ever been re-derived from primary data. It has now been
+> re-derived.
+>
+> Searching Dan-sent severance language — blocking declarations, *goodbye*,
+> *I'm done / we're done / it's over*, *never contact me again* — across the
+> **95,067-row merged Annie corpus** (2015-11-28 → 2026-05-28) returns **258
+> messages, collapsing to 129 distinct episodes** when hits within 24 hours of
+> each other are treated as one declaration.
+>
+> **129 episodes against the dossier's 127, from a completely independent
+> method.** That is corroboration, not coincidence, and it retires the doubt
+> this page has carried about its own headline number.
+>
+> **The relapse figure is not 87%. It is 100%, and the interesting part is the
+> speed.** Of the 129 episodes, 128 are followed by a further message inside the
+> corpus (the 129th is the last row in the file). **All 128 resumed.** The median
+> gap between a severance declaration and the next message in either direction
+> is **0.01 hours — thirty-six seconds.** 89.1% resumed inside one hour; 99.2%
+> inside a day; **the longest gap in eleven years is 46 hours.**
+>
+> The 87% figure is withdrawn. It appears to have been arrived at by counting
+> some declarations as non-relapses that the primary record shows resuming
+> within minutes.
+
+> **And this is what makes June 1 2026 an outlier rather than an instance.**
+> Against a base rate of 129 declarations, a median resumption of thirty-six
+> seconds and an all-time maximum of 46 hours, the fifty-two-day silence that
+> followed the June 1 closure is **twenty-seven times longer than the longest
+> gap in the preceding decade.** This page's falsified prediction — that the
+> June severance would hold — now reads differently in its own favour: it was
+> not a bad call against a flat prior, it was a call on an event that was, by
+> the only measure available, unprecedented by more than an order of magnitude.
+> It still failed, and both facts belong on the page. The rule this page states
+> survived; what the numbers add is **how far the exception had to travel before
+> it broke.**
+>
+> The corpus used ends 2026-05-28 and therefore excludes both the June 1 closure
+> and the August 19 severance. The 100% figure describes the decade *before*
+> those two events, which is exactly what makes it the right base rate to judge
+> them against — see [[wiki/mind/synthesis/the-rescue-premise]].
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/people/annie-ulmer]] and [[wiki/mind/concepts/attachment-model]] (both
+> 2026-08-22). Both moved to carry a pointer into
+> [[wiki/mind/synthesis/the-rescue-premise]]; no figure, arc section or claim
+> was withdrawn on either. **One claim on this page is directly engaged and it
+> is engaged in this page's favour, not against it.** That page's Part I item 1
+> argues that the August 19 2026 severance is the first in the record to name
+> and pre-close its own most likely reopening channel — Milo and
+> thinking-of-you news, the July 4 route that ended the fifty-two-day silence —
+> which is precisely the failure mode this page's rule predicts and which this
+> page's own falsified June 2026 prediction was widened to accommodate. The rule
+> stands unchanged; what is new is the first documented attempt to patch it from
+> inside. **Nothing is withdrawn**, and the outcome after 2026-12-19 settles
+> whether the patch holds.
 
 > **ADDED [2026-08-20] — why the loop does not terminate, in one exchange.**
 > [[wiki/mind/synthesis/august-grievance-verdict]] isolates the mechanism this
@@ -285,7 +360,10 @@ because nothing in its design said *stop*. That is the block/unblock
 loop reduced to its mechanism — a resolution-seeker with no halt
 condition — running on silicon, timestamped, with the human variables
 removed. The human loop is the same program with slower hardware and
-an exhaustible Fe function.
+an exhaustible [[wiki/mind/profile/intp|Fe function]] — measured at 10%
+valuing, the weakest on the whole stack, which is the specific reason the
+human version eventually pauses where the software did not: not resolve,
+exhaust.
 
 ## What this changes
 
@@ -671,3 +749,37 @@ this page.
 > block's actual finding — that the twenty-four-hour switch was Dan's, not
 > Annie's — is untouched and is what this page cites. No block/unblock count,
 > date or declared-exit tally moves.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`, and
+**bound by the standing Annie moratorium** (see `CLAUDE.md`). Every citation
+below sources a claim this page already made about Dan's own cognitive
+architecture — the page's own "machine proof" section already named "an
+exhaustible Fe function" without sourcing it — using material already
+stated on this page and on `wiki/mind/profile/intp`. No new narrative,
+date, quote, or figure about Annie is introduced.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]] supplies two distinct functions for the corrected rule ("the exit is executed; the deletion never is"): Si-tertiary's non-pruning archive for why nothing co-held is ever erased, Fe-inferior for why an executed severance never becomes felt-settled — the same two-function account this session already established for [[wiki/mind/synthesis/dormancy-not-exit]], reused here rather than re-derived. |
+| 2. Personality profile | **Checked, does not add a distinct mechanism** beyond what register 1 supplies. |
+| 3. Historical precedent | **Already load-bearing.** The full case table (Annie, Tom, Kristin, Menore, the 2014/2022 account migration) is this page's own historical base. |
+| 4. Attitudes and forces | **Checked, does not bear** beyond [[wiki/mind/concepts/conflict-architecture]] and [[wiki/mind/concepts/attachment-model]], already members. |
+| 5. Security and prosperity | **Already load-bearing.** The Tom/Bop supply-node substitution and the Menore control both reason from material dependency. |
+| 6. Health | **Checked, does not bear.** |
+| 7. Romantic and relational state | **This page IS the register.** No further citation needed or added. |
+| 8. Age and upbringing | **Checked, does not bear** beyond the already-corrected Rick Frank material. |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Checked, left standing.** The Ti/Fe/Si percentages this pass cites are self-commissioned rather than corpus-audited (per [[wiki/mind/synthesis/the-commissioned-self]]); the dependency rule itself rests on primary message-row evidence and does not lean on the profile-layer citation for its own truth, only for its explanation. |
+
+**What survived:** the dependency rule, the corrected "executed, not
+deleted" formula, and every case row — none required a profile-layer
+citation to stand, since they are dated residue. **What the pass added:** a
+sourced mechanism for a phrase this page already used ("exhaustible Fe
+function") and a formal link to the identical two-function account already
+established elsewhere this session for the same underlying phenomenon.
+**What it did not do:** say anything new about Annie, or manufacture a
+connection to a register that does not bear on channel-state mechanics.

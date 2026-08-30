@@ -22,6 +22,9 @@ related:
   - wiki/mind/concepts/forensic-method
 tags: [career, uniontown-era, financial-stress]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidences
+    claim: "Forty-three months is the longest tenure in the record and it ran in a peer-visible status ladder rather than a managerial one, which is the configuration Assertiveness 5 with Submissiveness 1 predicts is the only kind Dan can sustain."
   - page: wiki/people/zach-clingan
     type: contains
     claim: "Zach Clingan is a previously undocumented member of the yard cohort whose entire thread runs on its clock — getting cut, the offered two-bag round, the end-of-season bonfire invite, and the next April's opening-day ping."

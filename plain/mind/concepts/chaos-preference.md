@@ -3,33 +3,39 @@ plain_of: wiki/mind/concepts/chaos-preference
 title: "The Chaos Preference"
 reading_level: general
 date_modified: 2026-08-26
-source_modified: 2026-08-21
+source_modified: 2026-08-26
 ---
 
 # The Chaos Preference
 
 **The short version.** Dan wants the world to be less orderly than it is, and
 — with one large exception — he wants this consistently, quietly, and almost
-never out loud. The preference operates at every scale: at the macro end he
-follows unfolding public disorder with an appetite that is engaged rather
-than distressed, and experiences *resolution* as the disappointing part; at
-the micro end a day at work that comes apart is a **better day than one that
-runs to plan**, because a system in failure produces experience that a system
-in operation does not. The private nature of this is structural, not
-incidental. The preference is socially unsayable, so it is held internally
-and expressed as aesthetics, humour, and ideology instead.
+never out loud. The preference runs at every scale.
 
-The record does not treat this as a quirk. It is a **named tier of the
-personality architecture**, and the vocabulary density says so: across the
-profile and context-core material, **`chaos` appears 98 times, `entropy` 57,
-`chaotic` 47**, with `accelerationist`/`accelerationism` appearing 7 times
-between them, against `boredom`/`bored` at 17 and `mundane` at 10. The
-concept is not mentioned; it is organising.
+At the large end, he follows public disorder as it unfolds with an appetite that
+is engaged rather than upset. The *resolution* is the part he finds
+disappointing.
+
+At the small end, a day at work that falls apart is a **better day than one that
+goes to plan.** A system in failure produces experience. A system that is
+working does not.
+
+That he keeps this private is structural, not accidental. The preference cannot
+be said out loud in company. So it is held internally and comes out instead as
+taste, as humour, and as politics.
+
+The record does not treat this as a quirk. It is a **named tier of the personality architecture**. The sheer vocabulary
+density says so. Across the profile and context-core material, **`chaos` appears
+98 times, `entropy` 57, `chaotic` 47**. `accelerationist` and `accelerationism`
+appear 7 times between them. Against those, `boredom` and `bored` come to 17,
+and `mundane` to 10.
+
+The concept is not being mentioned. It is organising.
 
 ## It is a declared alignment, not a mood
 
-The profile gives it its own numbered section, and the framing is
-unambiguous:
+The profile gives it a numbered section of its own. The framing leaves no room
+for doubt:
 
 > **2.5 Chaotic Neutral: The Philosophical Alignment**
 > *"Chaotic Neutral is not merely a gaming alignment but a fundamental
@@ -37,17 +43,16 @@ unambiguous:
 
 The section splits into two halves, and both matter.
 
-**2.5.1 Rejection of Law (External Structure)** — what "Law" represents:
-external structure *"viewed as oppressive or inauthentic"*; social
-conventions as **"arbitrary performances"**; tradition as **"dead weight
-constraining authentic experience"**; hierarchies as **"illogical power
-games."**
+**2.5.1 Rejection of Law (External Structure).** Here is what "Law" stands for.
+External structure is *"viewed as oppressive or inauthentic."* Social conventions
+are **"arbitrary performances."** Tradition is **"dead weight constraining
+authentic experience."** Hierarchies are **"illogical power games."****
 
-**2.5.2 Embrace of Chaos (Authentic Reality)** — what "Chaos" represents:
-*"the unpredictable and unstructured as more **real** than imposed order"*;
-**"entropy as the fundamental truth of existence"**; **"beauty in
-malfunction, glitch, breakdown"**; **"truth in randomness rather than
-constructed meaning."**
+**2.5.2 Embrace of Chaos (Authentic Reality).** And here is what "Chaos" stands
+for. The unpredictable and unstructured is *"more **real** than imposed order."*
+There is **"entropy as the fundamental truth of existence."** There is
+**"beauty in malfunction, glitch, breakdown."** And there is **"truth in
+randomness rather than constructed meaning."**
 
 Read those two lists together and the preference stops looking like a taste
 for excitement. It is an **ontological claim**: order is a story imposed on
@@ -79,8 +84,9 @@ pleasure.
 
 ## Micro-scale: the good bad day
 
-The workplace case is where the preference is most visible and least
-defensible, and the profile supplies the mechanism rather than the incident:
+The workplace case is where the preference shows most clearly. It is also the
+hardest to defend. What the profile supplies is the mechanism rather than the
+incident:
 
 > **2.4.3 Unstructured: The Chaos Embrace** — *"Disorganized, spontaneous,
 > resistant to schedules… Resists external structure while maintaining
@@ -155,12 +161,12 @@ failover, total-loss failure modes rather than partial ones, and a documented
 response to stress of pushing *more* load into the failing path (2025 is
 simultaneously the highest-concentration and highest-volume year in the
 archive). Someone who holds entropy as the fundamental truth of existence has
-constructed the one personal system least able to survive it. The two pages
-resolve rather than cancel: the appetite is outward-facing and the
-concentration is inward-facing, which is a single policy stated twice —
-**maximum investment in the chosen, maximum indifference to the imposed** —
-but the cost lands here, because the chosen carries everything and carries
-it alone.
+constructed the one personal system least able to survive it. The two readings resolve rather than cancel each other. The appetite points
+outward. The concentration points inward. It is one policy stated twice —
+**maximum investment in the chosen, maximum indifference to the imposed.**
+
+But the cost lands here. The chosen carries everything, and it carries it
+alone.
 
 ## Falsifiers
 

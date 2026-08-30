@@ -14,6 +14,9 @@ sources:
   - raw/self/message-csv/imessage_export_2124702449_20260802.csv
 tags: [relationships, trauma-bond, attachment, addiction-recovery, forensic-analysis]
 connections:
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: caused-by
+    claim: "The July 4 email about the dog is the specific channel the August 19 severance names and closes in advance, which is why this page's fifty-two-day collapse is the control case the later severance was engineered against."
   - page: wiki/timeline/events/july-august-2026-reentanglement
     type: precedes
     claim: "The eight days after this page's final message answer all three of its open questions and reverse its central inference: the goodbye at 05:04 was followed by the densest contact period since March 2026, not by the disappearance it announced."
