@@ -476,6 +476,47 @@ class TestPresets(LedgerCase):
         self.assertEqual(ev["data"]["quantity"], 150)
 
 
+class TestCoverageWording(unittest.TestCase):
+    """The line answers two questions, and the second one was missing.
+
+    A table logged entirely by one-tap presets has full coverage and not a
+    single measurement on it. The old wording said "all N events carry a
+    quantity" and stopped, which reads as reassurance for a column that is
+    entirely estimates — the exact shape of false confidence this ledger exists
+    to refuse. Presets made it common, so it is pinned here.
+
+    `js/boss-web.js` mirrors this string exactly and a cross-implementation
+    check compares the two, so a change here is a change there.
+    """
+
+    @staticmethod
+    def a(total, measured, estimated, unquantified):
+        return {"events": {"total": total, "measured": measured, "estimated": estimated,
+                           "unquantified": unquantified, "voided": 0},
+                "coverage": (measured + estimated) / total if total else None}
+
+    def test_all_estimates_never_reads_as_reassurance(self):
+        line = m.coverage_line(self.a(4, 0, 4, 0))
+        self.assertIn("none was weighed", line)
+        self.assertIn("all 4 are estimates", line)
+
+    def test_a_mix_names_both_halves(self):
+        line = m.coverage_line(self.a(3, 1, 1, 1))
+        self.assertIn("2 of 3", line)
+        self.assertIn("1 weighed, 1 estimated", line)
+
+    def test_all_weighed_says_so(self):
+        self.assertIn("every one weighed", m.coverage_line(self.a(5, 5, 0, 0)))
+
+    def test_the_singular_reads_like_english(self):
+        self.assertEqual(m.coverage_line(self.a(1, 1, 0, 0)),
+                         "the one event carries a quantity, and it was weighed")
+        self.assertIn("it is an estimate", m.coverage_line(self.a(1, 0, 1, 0)))
+
+    def test_nothing_logged(self):
+        self.assertEqual(m.coverage_line(self.a(0, 0, 0, 0)), "no events logged")
+
+
 class TestShippedCatalog(unittest.TestCase):
     """The five the operator named, and the presets they carry."""
 

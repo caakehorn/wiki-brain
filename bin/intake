@@ -155,6 +155,9 @@ def parse_time(text, what="time"):
     if re.fullmatch(r"\d{4}-\d{2}-\d{2}", s):
         s += "T00:00:00"
     s = re.sub(r"^(\d{4}-\d{2}-\d{2}) (\d)", r"\1T\2", s)
+    # A single-digit hour is a natural thing to type at 9am and fromisoformat
+    # rejects it. Zero-pad rather than making the operator care.
+    s = re.sub(r"^(\d{4}-\d{2}-\d{2}T)(\d):", r"\g<1>0\2:", s)
     if re.fullmatch(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}", s):
         s += ":00"
     try:
@@ -1093,15 +1096,33 @@ def pct(x):
 
 
 def coverage_line(a):
-    """The caveat that goes next to every quantity statistic, spelled out."""
+    """The caveat that goes next to every quantity statistic, spelled out.
+
+    It answers two questions, not one, and the second was missing until presets
+    made it obvious: how many events carry a number at all, and how many of
+    those numbers came off a scale. A table logged entirely by one-tap presets
+    has full coverage and not a single measurement on it — and the old wording
+    called that "all events carry a quantity" and stopped, which read as
+    reassurance for a column that is entirely estimates.
+    """
     e = a["events"]
     q = e["measured"] + e["estimated"]
     if not e["total"]:
         return "no events logged"
     if e["unquantified"] == 0:
-        return f"all {e['total']} events carry a quantity"
-    return (f"{q} of {e['total']} events carry a quantity ({pct(a['coverage'])}); "
-            f"{e['unquantified']} logged without one")
+        base = ("the one event carries a quantity" if e["total"] == 1
+                else f"all {e['total']} events carry a quantity")
+    else:
+        base = (f"{q} of {e['total']} events carry a quantity ({pct(a['coverage'])}); "
+                f"{e['unquantified']} logged without one")
+    if not q:
+        return base
+    if e["estimated"] == 0:
+        return base + (", and it was weighed" if e["total"] == 1 else " — every one weighed")
+    if e["measured"] == 0:
+        return base + (" — but it was not weighed; it is an estimate" if e["estimated"] == 1
+                       else f" — but none was weighed; all {e['estimated']} are estimates")
+    return base + f" — {e['measured']} weighed, {e['estimated']} estimated"
 
 
 def render_report(unit, capture=False):
