@@ -331,15 +331,35 @@ class TestGate(LedgerCase):
         errors, _ = m.check(self.L)
         self.assertTrue(any("unknown unit" in e for e in errors))
 
-    def test_it_warns_when_the_data_is_not_gitignored(self):
-        """The repository is public; an un-ignored ledger is one `git add` away."""
+    def test_it_warns_when_an_ignore_line_contradicts_a_tracked_ledger(self):
+        """The check reversed with the decision, and this is what it reversed to.
+
+        It used to fire when the data was NOT ignored, because the repository
+        was public. The repository is private, those lines are gone on purpose,
+        and warning about their absence on every run is how a gate becomes
+        something people scroll past.
+
+        The live risk is the other direction: an ignore line back in place while
+        the file is here with data in it means somebody started reverting to
+        public and stopped halfway — and by then the history already carries the
+        ledger, so the ignore line is protecting nothing.
+
+        Note what neither version could ever catch. `.gitignore` governs
+        `git add`; the portal writes through GitHub's contents API from a
+        browser and that API commits an ignored path without complaint. The
+        guard for that path is in the portal, which reads the repository's
+        visibility and refuses to sync while it is public.
+        """
         self.unit()
         (self.L.root / ".gitignore").write_text("exports/\n")
         _, warnings = m.check(self.L)
-        self.assertTrue(any("NOT in .gitignore" in w for w in warnings))
+        self.assertFalse(any("gitignore" in w for w in warnings),
+                         "a private repo tracking its own ledger is the intended state")
+
         (self.L.root / ".gitignore").write_text("intake/events.jsonl\n")
         _, warnings = m.check(self.L)
-        self.assertFalse(any("gitignore" in w for w in warnings))
+        self.assertTrue(any("gitignore" in w for w in warnings),
+                        "an ignore line over a ledger that is here with data in it")
 
 
 class TestCrossUnit(LedgerCase):
