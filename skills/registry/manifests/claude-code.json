@@ -1,0 +1,179 @@
+{
+  "_comment": [
+    "A worked manifest — the half of a model's surface that no repository scan can see.",
+    "Copy this file, change the agent block, replace the capabilities with your own, then:",
+    "    bin/wiki-skills push -f skills/registry/manifests/<you>.json",
+    "Record environment variable NAMES only. Never a value. This repository is public.",
+    "Keys beginning with _ are ignored by the loader."
+  ],
+  "agent": {
+    "id": "claude-code",
+    "name": "Claude Code",
+    "vendor": "Anthropic",
+    "surface": "cli · web · desktop · ide",
+    "model": "claude-opus-5",
+    "note": "The agent that built bin/ and maintains wiki/. Runs locally and as a remote web session."
+  },
+  "capabilities": [
+    {
+      "kind": "harness",
+      "name": "claude-code",
+      "title": "Claude Code",
+      "provider": "Anthropic",
+      "scope": "agent",
+      "summary": "Anthropic's coding agent: shell, file read/write, edit, glob, grep, task delegation, scheduled triggers and artifact publishing. Runs as a terminal CLI, a desktop app, an IDE extension and a remote web session against a cloned repo.",
+      "link": "https://claude.com/claude-code",
+      "tools": ["Agent", "Artifact", "AskUserQuestion", "Bash", "Edit", "Glob", "Grep", "Monitor", "NotebookEdit", "Read", "SendUserFile", "Skill", "TaskCreate", "TaskList", "ToolSearch", "WebFetch", "WebSearch", "Write"],
+      "instructions": "Governing entrypoint is CLAUDE.md at the repository root. Session order is fixed: read LLM_HANDOFF.md and operator-log.md, run bin/wiki-work, do the operator's request in full, then drain obligations from the top. Gate with bin/wiki-check before every commit."
+    },
+    {
+      "kind": "mcp_server",
+      "name": "github",
+      "title": "GitHub MCP server",
+      "provider": "GitHub",
+      "scope": "agent",
+      "transport": "http",
+      "summary": "The only GitHub access a remote Claude Code session has — there is no gh CLI and no direct API. Pull requests, issues, reviews, checks, file contents, branches, commits, code search. Tools are prefixed mcp__github__.",
+      "link": "https://github.com/github/github-mcp-server",
+      "tools": ["create_pull_request", "get_file_contents", "list_commits", "pull_request_read", "pull_request_review_write", "push_files", "search_code", "subscribe_pr_activity"],
+      "instructions": "In a remote session `gh` and `hub` are absent and unauthenticated curl to github.com returns 404 for private repos even when the session is authorised. Use these tools rather than concluding a repository is unreachable. Repository scope is fixed at session start; add_repo widens it."
+    },
+    {
+      "kind": "mcp_server",
+      "name": "claude-code-remote",
+      "title": "Claude Code Remote",
+      "provider": "Anthropic",
+      "scope": "agent",
+      "transport": "http",
+      "summary": "Session and schedule control for remote runs: attach repositories, spawn and message sibling sessions, list environments, and create Routines (cron triggers) that fire a prompt into this session or a fresh one.",
+      "tools": ["add_repo", "create_session", "create_trigger", "list_environments", "list_repos", "send_later", "send_message", "subscribe_pr_activity"],
+      "instructions": "send_later schedules a message back into this session and survives container restarts — it is the correct way to re-check a PR rather than polling with sleep. create_trigger cron expressions are evaluated in UTC."
+    },
+    {
+      "kind": "subagent",
+      "name": "Explore",
+      "provider": "Anthropic (Claude Code)",
+      "scope": "agent",
+      "summary": "Read-only fan-out search agent for sweeping many files or naming conventions at once. Reads excerpts rather than whole files, so it locates code but does not audit it.",
+      "link": "https://code.claude.com/docs/en/sub-agents",
+      "instructions": "Specify search breadth explicitly — 'medium' or 'very thorough'. Do not use where a single Grep would answer; the cold start costs more than the search."
+    },
+    {
+      "kind": "subagent",
+      "name": "general-purpose",
+      "provider": "Anthropic (Claude Code)",
+      "scope": "agent",
+      "summary": "Full-tool agent for multi-step research and execution where the parent only needs the conclusion.",
+      "link": "https://code.claude.com/docs/en/sub-agents",
+      "instructions": "Each spawn starts cold and re-derives context the parent already has. In this repository, prefer working inline: a wiki pass depends on CLAUDE.md, the specs and the handoff, none of which a fresh agent carries."
+    },
+    {
+      "kind": "skill",
+      "name": "skill-creator",
+      "provider": "Anthropic",
+      "scope": "agent",
+      "summary": "Create, edit and evaluate skills; measure trigger accuracy and benchmark a skill's description against variance analysis.",
+      "link": "https://code.claude.com/docs/en/skills",
+      "instructions": "Relevant here when writing anything under skills/ or .claude/skills/ — it is the tooling half of skills/PROTOCOL.md's promotion step."
+    },
+    {
+      "kind": "skill",
+      "name": "code-review",
+      "provider": "Anthropic",
+      "scope": "agent",
+      "summary": "Review a diff, PR, branch or path for correctness bugs and simplification at a chosen effort level; --comment posts findings inline on a PR, --fix applies them.",
+      "link": "https://code.claude.com/docs/en/slash-commands"
+    },
+    {
+      "kind": "skill",
+      "name": "docx",
+      "provider": "Anthropic",
+      "scope": "agent",
+      "summary": "Read, create and edit Word documents and templates, including tracked changes and comments.",
+      "link": "https://code.claude.com/docs/en/skills"
+    },
+    {
+      "kind": "skill",
+      "name": "xlsx",
+      "provider": "Anthropic",
+      "scope": "agent",
+      "summary": "Read, create and repair spreadsheets and delimited files — formulas, formatting, charts, and restructuring messy tabular data.",
+      "link": "https://code.claude.com/docs/en/skills",
+      "instructions": "Relevant to this repository's message exports: the per-contact CSVs contain embedded newlines inside quoted message text, so line counts are not record counts. Parse, never wc -l."
+    },
+    {
+      "kind": "skill",
+      "name": "pdf",
+      "provider": "Anthropic",
+      "scope": "agent",
+      "summary": "Extract text and tables from PDFs, merge, split, fill forms, and OCR scanned documents.",
+      "link": "https://code.claude.com/docs/en/skills"
+    },
+    {
+      "kind": "skill",
+      "name": "pptx",
+      "provider": "Anthropic",
+      "scope": "agent",
+      "summary": "Create, read and edit PowerPoint presentations, layouts, templates and speaker notes.",
+      "link": "https://code.claude.com/docs/en/skills"
+    },
+    {
+      "kind": "skill",
+      "name": "dataviz",
+      "provider": "Anthropic",
+      "scope": "agent",
+      "summary": "Chart and dashboard design method — form heuristics, an accessible colour formula with a runnable validator, mark specs and interaction rules. Read before writing any chart code in any medium.",
+      "link": "https://code.claude.com/docs/en/skills",
+      "instructions": "Constrained here by THE RULE in caakehorn/home: a visual channel must encode a count, a date or a length — never a score, a mood, or a category somebody chose."
+    },
+    {
+      "kind": "skill",
+      "name": "artifact-design",
+      "provider": "Anthropic",
+      "scope": "agent",
+      "summary": "Design calibration for published Artifact pages — load before writing one, including a Markdown one.",
+      "link": "https://code.claude.com/docs/en/skills"
+    },
+    {
+      "kind": "skill",
+      "name": "security-review",
+      "provider": "Anthropic",
+      "scope": "agent",
+      "summary": "Security review of the pending changes on the current branch.",
+      "link": "https://code.claude.com/docs/en/slash-commands",
+      "instructions": "Worth running against anything that touches skills/registry/ or intake/: both write to a public repository from a browser."
+    },
+    {
+      "kind": "skill",
+      "name": "update-config",
+      "provider": "Anthropic",
+      "scope": "agent",
+      "summary": "Configure the harness through settings.json — permissions, environment variables, and hooks. Automated 'whenever X happens' behaviour must be a hook; the harness runs those, not the model.",
+      "link": "https://code.claude.com/docs/en/hooks"
+    },
+    {
+      "kind": "skill",
+      "name": "session-start-hook",
+      "provider": "Anthropic",
+      "scope": "agent",
+      "summary": "Set up a repository for Claude Code on the web — a SessionStart hook that installs dependencies so tests and linters can run in a fresh remote container.",
+      "link": "https://code.claude.com/docs/en/claude-code-on-the-web"
+    },
+    {
+      "kind": "tool",
+      "name": "Artifact",
+      "provider": "Anthropic (Claude Code)",
+      "scope": "agent",
+      "summary": "Publish an HTML page to a private, shareable URL on claude.ai, with optional runtime capabilities. Useful for handing the operator a rendered view of corpus data without deploying to the portal.",
+      "link": "https://claude.ai/code/artifacts"
+    },
+    {
+      "kind": "tool",
+      "name": "WebSearch",
+      "provider": "Anthropic (Claude Code)",
+      "scope": "agent",
+      "summary": "Search the web from inside a session. The one route to facts that are newer than the model's cutoff.",
+      "instructions": "In this repository, treat any web result as a tier below raw/: it is not first-party testimony about Dan and must never be filed to raw/self/ as though it were."
+    }
+  ]
+}
