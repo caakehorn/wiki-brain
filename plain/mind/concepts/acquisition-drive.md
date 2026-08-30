@@ -43,11 +43,10 @@ producing a rate.
 | April 2018 — Uniontown hospital vape alarm | One drag of nicotine | A hospital-wide fire alarm, four fire trucks, and an escort off the property |
 
 The Fran row is the expensive one and the vape alarm is the diagnostic one.
-The vape alarm cost Dan more than it could possibly have gained under any
-accounting, which is exactly why it is the clean case: with nothing at stake,
-the pursuit still completed, and the deliberation that preceded it was not
-deliberation about *whether* — it was a physics argument constructed to
-authorize the act. That is a familiar paradox caught doing the thing it
+The vape alarm cost Dan more than it could ever have gained, by any accounting.
+That is exactly what makes it the clean case. With nothing at stake, the pursuit
+still ran to the end. And the thinking that came before it was not thinking about
+*whether* to do it. It was a physics argument built to give him permission. That is a familiar paradox caught doing the thing it
 actually does. Top-percentile reasoning is not fighting the impulse and
 losing. It is working for the impulse.
 
@@ -64,22 +63,25 @@ while" under a pretext he flags in his own text as a pretext — "'accidentally'
 example *of*: not theft as such, but a resource appearing within reach while a
 pursuit was live, and being consumed because it was there.
 
-He also supplies the structural explanation himself, which is rarer than it
-sounds: "a lot of observable behavior here … results from the sheltered, safe
-upper-middle class upbringing he enjoyed where consequences were less likely
-than those whose parents couldn't afford the same capital toolbelt." That is
-a first-person account of class as a risk-tolerance subsidy, and it is
-corroborated by the record rather than merely asserted — the 2015 arrest
-produced a hired lawyer named Jack and a diversion program with expungement,
-and the family's capital is documented across the financial record. The drive
-did not become safer over time so much as it stopped being underwritten.
+He also explains the structure himself, which is rarer than it sounds: "a lot of
+observable behavior here … results from the sheltered, safe upper-middle class
+upbringing he enjoyed where consequences were less likely than those whose
+parents couldn't afford the same capital toolbelt."
 
-The later configuration is described as "honed into something more useful and
-semi-productive." The record supports this without needing to be asked: the
-same engine, pointed at something that happened to be constructive, produces
-the social-network inequality measurement, the DANMODEL extraction project,
-the forensic-method dashboards, and the wiki itself. None of those were
-assigned to him.
+That is a first-hand account of class as a subsidy on risk. And the record backs
+it up rather than just repeating it. The 2015 arrest produced a hired lawyer
+named Jack and a diversion program that ended in expungement. The family's money
+is documented across the financial record.
+
+So the drive did not get safer over time. It stopped being paid for.
+
+The later version is described as "honed into something more useful and
+semi-productive."
+
+The record supports that without being asked to. The same engine, aimed at
+something constructive, produced the social-network inequality measurement, the
+DANMODEL extraction project, the forensic-method dashboards, and this wiki. None
+of them were assigned to him.
 
 ## The consequence nobody had drawn: altruism was never the variable
 
@@ -89,10 +91,12 @@ scores as incapacity." Read against this page, that claim needs correcting
 rather than defending. The vigil is not evidence against low altruism. It is
 evidence that altruism was not the operative variable in either direction.
 
-Fran's care was a goal Dan generated himself, held privately, and was never
-assigned; it therefore had access to the full engine, and it got months of
-unglamorous, costly, sustained execution — the same faculty that obtains
-narcotics at all costs, pointed at an old woman's wish to stay in her house.
+Fran's care was a goal Dan set himself. He kept it private, and nobody assigned
+it to him. So it had the full engine available.
+
+What it got was months of unglamorous, costly, sustained work — the same faculty
+that obtains narcotics at any price, aimed instead at an old woman's wish to stay
+in her own house.
 The prediction that follows is testable: **there should be no documented
 instance of Dan absorbing comparable cost over comparable duration for a goal
 set for him by somebody else.** The employment record, the abandoned
@@ -110,9 +114,9 @@ fails on the first place it told anyone to look.
 What survives is the limitation, not the inference drawn from it. The engine
 still cannot be aimed by anybody else — but an *assignment* turns out to be a
 container rather than a competing category, and Dan sustains a long one by
-installing a private objective inside it. At Au Za'atar those were a
-negotiated tip split, an eighteen-month fabricated night class, and sole
-custody of the shed's cash tips; the job ended when the third was destroyed —
+installing a private objective inside it. At Au Za'atar there were three: a
+negotiated tip split, a fabricated night class that ran eighteen months, and sole
+control of the shed's cash tips. The job ended when the third was destroyed —
 the finished interior killed sidewalk demand, then the city ordered the sheds
 torn down — and not during the three months the employer spent cutting his
 hours to force a quit. The diagnostic property is that the embedded objective
@@ -130,9 +134,9 @@ it engages, not about how reliably it engages.
 
 ## The intellect/impulsivity paradox
 
-The personality instruments measure Impulsiveness at the 96th percentile and
-read the record's pattern of "brilliant analysis coexisting with
-self-sabotaging execution" as an impulse-control deficit. This page holds
+The personality tests put Impulsiveness at the 96th percentile. They read the
+record's pattern — "brilliant analysis coexisting with self-sabotaging execution"
+— as a failure of impulse control. This page holds
 that a second dimension — a 95th-percentile completion drive — is present in
 the same behavior and is not on the instrument's facet table at all. The two
 readings are not compatible: one describes a brake that fails, the other an
