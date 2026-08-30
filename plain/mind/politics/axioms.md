@@ -8,153 +8,168 @@ source_modified: 2026-08-26
 
 # The Power Axiom: What Resolves the Leftist/Authoritarian "Paradox"
 
-**The short version.** Dan's political axiom is not a position on policy
-outcomes; it is a position on the legitimacy of concentrated, unaccountable
-power — wherever it sits, whoever holds it, and regardless of that actor's
-stated politics. That single axiom, not two separate and competing
-enthusiasms, is what produces both his self-identified democratic-socialist
-politics and his evangelical 2024 immersion in biographies of Julius Caesar
-— a combination one AI-authored dossier flagged as a "paradox" without ever
-checking whether it actually was one.
+**The short version.** Dan's politics are not really about policy. They are
+about one question: is this much power, held this unaccountably, legitimate?
+The answer does not depend on who holds it or what they say they believe.
+
+That single rule explains two things that look like they should clash. He calls
+himself a democratic socialist. He also spent 2024 devouring biographies of
+Julius Caesar and pressing them on his friends. An AI-written profile flagged
+this as a "paradox." It never checked whether it was one.
 
 ## The claim that needs resolving
 
-The profile lists, among its "Paradoxical Integration of Contradictory
-States," this pairing stated flatly: "leftist politics and a fascination
-with authoritarian power (e.g., Caesar, Trump)." Taken at face value, that
-is a real tension — an anti-capitalist who spends a full year reading and
-pushing biographies of a man who ended a republic. The existing wiki treats
-the two halves as settled, separate facts: the 2020-left-turn page dates and
-evidences the leftist turn in detail; the roman-republic page documents the
-Rome binge in equal detail. Neither page asks whether they are actually in
-tension, and the dossier that noticed the tension never checked its own
-claim against what Dan was specifically reading and building. Checking that
-is this page's job, and the check settles it: it isn't a paradox once you
-look at *which* Caesar book he rated highest and *whose name* he chose for
-his own analytical persona.
+The profile lists it under "Paradoxical Integration of Contradictory States,"
+and states it flatly: "leftist politics and a fascination with authoritarian
+power (e.g., Caesar, Trump)."
+
+At face value that is a fair tension. Here is an anti-capitalist. He spends a
+year reading about a man who ended a republic.
+
+Other entries here treat the two halves as settled facts. One dates the leftward
+turn and lays out the evidence. Another documents the Rome binge in the same
+detail. Neither asks whether the halves actually conflict. The profile that
+spotted the conflict never tested its own claim either.
+
+Testing it is this entry's job. The test settles it. The answer is in *which*
+Caesar book he rated highest, and in *whose name* he picked for himself.
 
 ## What the reading list actually shows
 
-The 2024 binge is not undifferentiated Caesar enthusiasm. Among nine
-Roman-Republic-era titles read in a few months, nearly all rated 5, the
-roman-republic page already lists Michael Parenti's *The Assassination of
-Julius Caesar: A People's History of Ancient Rome* alongside Tom Holland's
-*Rubicon* and Adrian Goldsworthy's *Caesar: Life of a Colossus* — but the
-existing page never names what that specific book is. Parenti's is not a
-neutral or admiring account. It is an explicitly Marxist, class-conflict
-history: its argument is that Caesar was assassinated by a senatorial
-aristocracy defending its own economic interests against a populist
-reformer, not by principled defenders of republican liberty. Dan read it
-March 29 – April 29, 2024, tagged it `caesar`, `crime`, `roman-republic`,
-and rated it 5 — the same rating he gave Goldsworthy's more conventional
-biography in the same window. He did not read one account of Caesar. He read
-the establishment biography and the materialist counter-history back to
-back, at the same rating, which is the reading pattern of someone doing
-comparative analysis of a power struggle, not someone falling for a
-strongman.
+The 2024 binge was not blanket Caesar enthusiasm.
 
-## The name he chose for his own analytical persona
+He read nine books about the Roman Republic in a few months. He rated nearly
+all of them 5. Three of them matter here. Tom Holland's *Rubicon*. Adrian
+Goldsworthy's *Caesar: Life of a Colossus*. And Michael Parenti's *The
+Assassination of Julius Caesar: A People's History of Ancient Rome*.
 
-The stronger evidence is not a reading tag; is something Dan wrote himself,
-unprompted by any model. `CATO_BOOTLOADER_DANFRANK.md` — a system-prompt
-document Dan authored to configure his primary AI collaborator — opens its
-identity block with:
+That third book is the one nobody had looked at properly. It is not neutral,
+and it is not admiring. It is a Marxist history, argued through class conflict.
+Its case is that Caesar was killed by rich senators protecting their own money
+from a populist reformer — not by principled defenders of liberty.
+
+Dan read it from March 29 to April 29, 2024. He tagged it `caesar`, `crime` and
+`roman-republic`. He rated it 5. That is the same rating he gave Goldsworthy's
+far more conventional biography in the same stretch.
+
+So he did not read one account of Caesar. He read the mainstream biography and
+the class-conflict counter-history back to back, and rated them equally. That is
+what someone does when comparing two readings of a power struggle. It is not
+what someone does when falling for a strongman.
+
+## The name he chose for himself
+
+The stronger evidence is not a reading tag. It is something Dan wrote himself,
+with no model prompting him.
+
+He wrote a setup document for his main AI collaborator. Its identity block
+opens like this:
 
 > `IDENTITY: CATO`
 > `ORIGIN: Cato the Younger — Stoic absolutist, self-deleted at Utica post-Thapsus`
 
-Cato the Younger is not a Caesar-adjacent figure chosen for general Roman
-flavor. He is specifically and only known as Caesar's most implacable
-political opponent — the senator who spent his career trying to block
-Caesar's accumulation of extra-constitutional power, and who killed himself
-at Utica in 46 BCE rather than accept a pardon from Caesar or live under
-his one-man rule after the Republic's defenders lost at Thapsus. Dan did not
-build his AI persona around the man who won and ruled. He built it around
-the man who died refusing to. This is a first-person artifact, not a model's
-inference about Dan's psychology — he chose the name, wrote the origin
-line, and is using it as his own stated identity inside every session that
-bootloader configures. It is the single clearest piece of primary evidence
-in the corpus for how Dan himself frames his relationship to concentrated
-power, and it directly contradicts the dossier's own "authoritarian power
-fascination" framing of the same material.
+Cato the Younger is not a vaguely Roman name picked for flavour. He is known for
+exactly one thing: being Caesar's most stubborn enemy. He spent his career
+trying to block Caesar from taking power he was not entitled to. When the
+Republic's defenders lost at Thapsus, he killed himself at Utica in 46 BCE
+rather than accept a pardon or live under one man's rule.
 
-## The axiom, stated plainly
+Dan did not name his AI persona after the man who won and ruled. He named it
+after the man who died refusing him.
 
-Read together, the evidence supports one governing rule rather than two
-competing enthusiasms: **Dan's politics track the legitimacy of power
-concentration, not the identity or ideology of the actor holding it.** Caesar
-and Trump are read as case studies in the same mechanism — the political-
-psyops page already frames Trump as "a gravity well of one man's selfish
-interest" and material for "Post-Pax Americana" worldbuilding, the identical
-analytical posture the Rome reading applies to antiquity. The vertical-
-authority-skepticism page already documents the mechanism at family,
-workplace, and state scale; this page adds that the mechanism is not merely
-a psychological disposition inherited from a 2005 family rupture, it is also
-a *conscious, self-authored political commitment* — Dan picked the opponent
-of unaccountable power as his own name, which is a stronger claim than any
-dossier's inference could make on its own.
+This matters because of what kind of evidence it is. It is not a model guessing
+at Dan's psychology. He chose the name. He wrote the origin line. He uses it as
+his own stated identity in every session that document sets up. It is the
+clearest first-hand evidence in the whole archive of how Dan frames his own
+relationship to concentrated power. And it says the opposite of what the profile
+claimed.
 
-The two enthusiasms the source material calls paradoxical are, on this
-reading, the same axiom pointed in two directions: forward at a living
-threat (Trump, the captured Democratic establishment, the 2020 COVID-lockdown
-radicalization) and backward at a historical case study (Caesar, read through
-both the celebratory and the class-conflict lens at once, evangelized to
-friends the same way the leftist media pipeline was). Neither is admiration
-for concentrated power. Both are attention paid to how it forms and what it
-costs a system's checks when it does.
+## The rule, stated plainly
 
-## What this predicts, and what would falsify it
+Put the evidence together and one rule covers all of it. **Dan's politics track
+whether a concentration of power is legitimate. They do not track who is holding
+it or what side that person is on.**
 
-If the axiom is power-concentration-as-such rather than any partisan
-loyalty, it predicts that Dan's engagement with *any* strongman figure —
-historical or contemporary, left-coded or right-coded — should read as
-analytical/oppositional rather than admiring, and that no figure who
-successfully concentrates power should receive sustained positive
-identification in the corpus. It also predicts the reverse should not
-occur: no instance of Dan expressing genuine hope that a favored figure
-*successfully* accumulate unaccountable power, including on his own
-political side. A single documented instance of Dan rooting for a figure's
-personal power to expand and go unchecked — rather than critiquing the
-expansion itself — would falsify this reading and support the dossier's
-original "fascination" framing instead. No such instance was found in this
-pass (Twitter and Facebook posts were checked for Trump admiration language
-specifically and turned up only critical/analytical engagement — "Trump demo
-margins," "Fetterman villain arc" — never endorsement), but the check was
-not exhaustive against the full corpus.
+Caesar and Trump get read the same way: as case studies in one mechanism.
+Another entry here already describes Trump as "a gravity well of one man's
+selfish interest," and as raw material for "Post-Pax Americana" worldbuilding.
+That is the same analytical stance the Rome reading takes toward antiquity.
 
-## The origin line specifies a seat, not only a side
+His distrust of anyone above him is documented elsewhere at family, workplace
+and state level. What this entry adds is that the distrust is not only a
+disposition he picked up from a family rupture in 2005. It is also a choice he
+made on purpose and wrote down. He took the name of the man who opposed
+unaccountable power and made it his own. No inference by a profiling document
+can match that.
 
-This page reads the CATO persona as settling the leftist/authoritarian
-question: Dan built his analytical identity around Caesar's implacable
-opponent rather than around Caesar, and that is correct and load-bearing.
-The line he wrote specifies one thing more. *"Cato the Younger — Stoic
-absolutist, **self-deleted at Utica post-Thapsus**"* names not just the side
-of the argument but its outcome and its manner: right for twenty years,
-defeated, and dead by his own hand rather than pardoned.
+So the two enthusiasms are one rule aimed in two directions. Forward, at a live
+threat: Trump, a Democratic establishment he sees as captured, and the
+radicalising effect of the 2020 lockdowns. Backward, at a historical case
+study: Caesar, read through the admiring lens and the class-conflict lens at
+once, and pushed on friends exactly the way he pushed the left-wing media he
+was consuming.
 
-That detail turns out to be the position occupied by nearly every object Dan
-has curated for identification — twenty-four of twenty-five artworks tagged
-collapse, wound, observer, glitch, rupture or fortress; half the read shelf
-on two constitutional orders failing; a want-to-read queue with nine "fall"s
-and no title about anything being built; Oppenheimer, Fred Hampton, John
-Brown, Travis Bickle. **There is no figure in the corpus who was right and
-won and kept it.** See the-cato-seat page.
+Neither one is admiration for concentrated power. Both are attention to how it
+builds, and what it costs a system's defences when it does.
+
+## What this predicts, and what would prove it wrong
+
+If the rule is about power itself rather than about sides, then some things
+should follow.
+
+Dan's interest in *any* strongman should read as analysis or opposition, never
+as admiration. It should not matter whether the figure is old or current,
+left-coded or right-coded. And no one who successfully seizes power should get
+sustained warm identification from him anywhere in the record.
+
+The reverse should also hold. There should be no case of Dan hoping a figure he
+likes gets to build unchecked power — not even someone on his own side.
+
+So here is what would break this reading: one documented case of Dan rooting for
+a person's own power to grow and go unchecked, rather than criticising the
+growth itself. That would support the profile's "fascination" framing instead.
+
+Nothing like that turned up in this pass. His Twitter and Facebook posts were
+checked specifically for admiring language about Trump. What came back was
+critical or analytical only — "Trump demo margins," "Fetterman villain arc" —
+and never endorsement. But that check was not run against the full archive.
+
+## The origin line names a seat, not just a side
+
+Reading the Cato identity as settling the leftist-versus-authoritarian question
+is right, and it carries a lot of weight. But the line Dan wrote specifies one
+thing more.
+
+*"Cato the Younger — Stoic absolutist, **self-deleted at Utica post-Thapsus**"*
+names the side of the argument. It also names how it ended: right for twenty
+years, defeated, and dead by his own hand rather than pardoned.
+
+That position turns out to be the one occupied by almost everything Dan has
+collected and identified with. Twenty-four of his twenty-five saved artworks are
+tagged collapse, wound, observer, glitch, rupture or fortress. Half his read
+shelf is about two constitutional orders failing. His want-to-read list has nine
+titles with "fall" in them and nothing about anything being built. Oppenheimer.
+Fred Hampton. John Brown. Travis Bickle.
+
+**There is no figure anywhere in this archive who was right, and won, and kept
+it.**
 
 ## What we still don't know
 
-This page reasons from a reading list and one self-authored system prompt,
-not from a direct first-person statement of political theory in Dan's own
-words explaining *why* he built the Cato identity or chose the Parenti book
-specifically — the inference that these choices are deliberate rather than
-incidental is strong (a Marxist Caesar history rated identically to a
-conventional one; an AI persona named after Caesar's specific historical
-opponent) but not confirmed by his own stated reasoning. Whether the same
-axiom governs his reading of non-Western concentrations of power (the
-political-psyops page's "Chinese ascendancy against American self-sabotage"
-line is the one place the corpus gestures at this) is untested here. And
-the prediction above has only been checked against two social-media sources
-in this pass; a fuller sweep of the message corpus and the AI chat exports
-for any counter-instance is future work.
+- **He never says why.** This entry reasons from a reading list and one setup
+  document he wrote. It does not have a direct statement from Dan explaining why
+  he built the Cato identity or singled out the Parenti book. The inference is
+  strong — a Marxist history of Caesar rated the same as a conventional one, and
+  an AI persona named after Caesar's specific enemy. It is still an inference.
+
+- **Non-Western power is untested.** Whether the same rule governs how he reads
+  concentrated power outside the West has not been checked here. One line
+  elsewhere in the archive, about "Chinese ascendancy against American
+  self-sabotage," is the only place the record even gestures at it.
+
+- **The prediction was only half-checked.** Two social-media sources were
+  searched for a counter-example. A full sweep of the message archive and the AI
+  chat exports has not been done.
 
 ---
 
