@@ -94,6 +94,7 @@ OBLIGATIONS = {
     "sage-close": (2, "CLOSE"),
     "stale":      (3, "LINT — re-read the premise, never bump the date"),
     "edit":       (4, "LINT — normalise formatting and frontmatter"),
+    "skill":      (4, "LEARN — validate and promote, or leave it and say why"),
 }
 STANDING = {
     "ingest":  (5, "INGEST"),
@@ -252,7 +253,8 @@ def find_failing_gates():
     """
     items = []
     for name, why in (("wiki-connect", "typed edges are missing a type or a claim"),
-                      ("wiki-climb", "a synthesizes: block does not resolve")):
+                      ("wiki-climb", "a synthesizes: block does not resolve"),
+                      ("wiki-skills", "a skill is malformed, unrouted or unrecorded")):
         tool = ROOT / "bin" / name
         if not tool.exists():
             continue
@@ -272,6 +274,54 @@ def find_failing_gates():
                    "errors; a large sudden count usually means a page lost content "
                    "rather than that many pages went wrong at once — check `git log` on "
                    "the named page before rewriting anything by hand.",
+        ))
+    return items
+
+
+def find_skill_candidates():
+    """Lessons captured in `skills/INBOX.md` that no pass has validated.
+
+    An inbox candidate is the same shape as a staged answer: the evidence is
+    already in the repository and only the pass that acts on it is missing. It
+    is listed here because `skills/` shipped on 2026-08-30 as a section nothing
+    read — the README declared mandatory session behavior that `CLAUDE.md` never
+    routed anyone to — and an unread inbox is how a corpus of instructions
+    accumulates entries that were never tested against a second reader.
+
+    Deliberately NOT an error anywhere: PROTOCOL.md §3 is explicit that a
+    candidate promoted before its evidence arrives is worse than one left in the
+    inbox, because the index vouches for it. So this surfaces the candidate and
+    says so; it never pushes anyone to promote it.
+    """
+    # Derived from ROOT at call time, not frozen at import: the tests repoint
+    # ROOT at a temp tree, and a detector reading past it reports on the wrong
+    # repository.
+    inbox = ROOT / "skills" / "INBOX.md"
+    if not inbox.is_file():
+        return []
+    text = read(inbox)
+    body = re.split(r"^##\s+Seed candidates\s*$", text, maxsplit=1, flags=re.M)
+    body = body[1] if len(body) > 1 else text
+    items = []
+    for block in re.split(r"^###\s+", body, flags=re.M)[1:]:
+        head = block.splitlines()[0].strip()
+        m = re.match(r"^(\d{4}-\d{2}-\d{2})\s*[\u2014-]\s*(.+)$", head)
+        if not m:
+            continue
+        status = re.search(r"\*\*Status:\*\*\s*([A-Za-z |]+)", block)
+        value = (status.group(1).strip().lower() if status else "")
+        value = value.split("|")[0].strip() if "|" in value else value
+        if value not in ("inbox", "provisional"):
+            continue
+        items.append(Item(
+            "skill", "unvalidated skill candidate — %s" % flatten(m.group(2)),
+            rel(inbox), m.group(1),
+            detail="Promote it only when it has explained the same failure twice, a "
+                   "command validates it, or a governing spec already implies it "
+                   "(skills/PROTOCOL.md \u00a73). Otherwise leave it in the inbox and "
+                   "record what evidence is still missing \u2014 an instruction promoted "
+                   "early is worse than one still parked, because the index vouches "
+                   "for it. `bin/wiki-skills next` lists these.",
         ))
     return items
 
@@ -447,6 +497,7 @@ OBLIGATION_DETECTORS = [
     lambda: find_staged(FLAG_SAGE, "sage-close"),
     find_stale,
     find_portal_edits,
+    find_skill_candidates,
 ]
 
 

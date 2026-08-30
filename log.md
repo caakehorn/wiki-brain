@@ -1,3 +1,74 @@
+## [2026-08-30] build | meta | the skills section was a contract with no counterparty
+
+**What was wrong.** `skills/` merged earlier today (PR #221) as seven markdown
+files describing a system that did not exist. `CLAUDE.md` — the file every
+session is required to read, and the only file here that can make anything
+mandatory — did not mention `skills/` anywhere. The README's "Mandatory session
+behavior" was therefore mandatory nowhere: nothing routed an agent to the index,
+nothing validated the corpus, nothing surfaced what it was holding, and no test
+covered any of it. Zero references from `CLAUDE.md`, `README.md`, `index.md`,
+`AGENT_ACCESS.md`, `STRATEGY.md`, `bin/**` or `tests/**`.
+
+**The evidence it was already failing, on day one.** Two of its own defects were
+live at merge and nothing could see them: `repo/session-loop.md` and
+`repo/change-safety.md` were absent from `CHANGELOG.md`, whose own `PROTOCOL.md`
+§6 requires every state transition recorded; and `INDEX.md` carried a `Status`
+column duplicating each skill's `status:` frontmatter — two sources of truth for
+one fact, which is exactly the defect `WORK.md` exists to not have.
+
+**Why this is the seventh instance of a known failure.** `bin/wiki-work` was
+built because outstanding work lived in six files and "every one of them relied
+on somebody remembering to look." `skills/` shipped the same week with the same
+property, and it is the worse case: an unread queue stays merely undrained,
+while an unread instruction corpus accumulates entries never tested against a
+second reader, and hands the first agent who finally opens it the lot at once
+with no way to tell which were ever true.
+
+**What changed.**
+
+- **`bin/wiki-skills`** — the gate and the router. `route "<task>"` runs the
+  routing algorithm rather than describing it; `check` gates; `scan` regenerates
+  `INDEX.md`; `next`, `list`, `status`, `new`. It deliberately does not judge
+  whether a skill is *true* — `PROTOCOL.md` §3 makes that evidence and a second
+  occurrence, which needs a reader.
+- **`INDEX.md` is now generated**, killing the two-sources-of-truth class rather
+  than gating agreement on it. `check` fails when the committed file is not what
+  `scan` would write; in `--check-only` that becomes the real gate, exactly as
+  `wiki-freshness` is for `llm/`. Verified by hand: a status changed in a skill
+  file without a rescan turns the chain red.
+- **Wired in.** `bin/wiki-skills check` joined the `bin/wiki-check` GATE list and
+  the red-gate detector in `bin/wiki-work`; `scan` went into GENERATE, not SCAN,
+  because a generated file that gates must be generated before the gates — the
+  same ordering rule that puts `wiki-digest` ahead of `wiki-lint`. Unvalidated
+  inbox candidates now surface as `skill` obligations at priority 4.
+- **`CLAUDE.md` routes at it**: the governing set, the architecture map, the
+  session-start loop, a new **LEARN** operation, the tools table, and the
+  pre-commit block.
+- **The name collision is resolved in writing.** `.claude/skills/` holds
+  procedures for one whole wiki operation, invoked by name by one vendor's
+  agent; `skills/` holds vendor-neutral lessons about the machinery, loaded by
+  trigger. Both `CLAUDE.md` and `skills/README.md` now say which is which.
+- **Four earned skills promoted**, each traceable to a dated incident already in
+  this repository rather than invented for the occasion: `repo/derived-surfaces`
+  (the 2026-08-17 portal-snapshot deletion 39 minutes after merge, and the
+  2026-08-20 eleven-page `llm/manifest.json` drift), `repo/stale-premise`,
+  `corpus/message-mining` (grep is quietly wrong on the dump; message-level
+  counts hide the 3.05x turn-level effect entirely), `repo/publication-surface`
+  (`.gitignore` governs `git add` and never touched the contents API).
+
+**A bug the tests found, which is the point of having them.** `bin/wiki-skills
+new` printed "the gate fails until they are filled in" while the gate did no
+such thing — its `REPLACE` placeholders were not in the scaffold-detection list,
+so a scaffolded skill could be committed unfilled, parse, route, and be handed
+to an agent as an instruction reading "REPLACE — imperative steps". Fixed, and
+pinned. `tests/test_wiki_skills.py` covers 22 cases; the suite is 262 green.
+
+**What was deliberately not done.** The 90 stale premises `bin/wiki-work` lists
+are pre-existing on `main` and untouched — they need the re-read that
+`repo/stale-premise.md` now describes, not a date bump. The one inbox candidate
+is left parked: promoting it to clear the list is the error `PROTOCOL.md` §3
+names, since the index vouches for what it lists.
+
 ## [2026-08-29] gate | meta | the moratorium guard caught a real violation on `main`, made by a careful writer
 
 **What happened.** A Reader's Digest twin of `wiki/mind/synthesis/totality-themes`
