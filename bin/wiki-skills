@@ -1176,11 +1176,18 @@ def check(reg, fix=False):
             errors.append(f"{_rel(reg.page, reg.root)} is behind the database — "
                           f"run `bin/wiki-skills page`")
 
-    # The directive, checked on the rendered page rather than trusted to the
-    # renderer that produced it — the same belt-and-braces as bin/wiki-plain.
+    # The directive, checked twice and on two different objects. The render is
+    # what the tool WOULD publish; the file on disk is what the portal actually
+    # serves, and the two are only the same when the drift check above passed.
+    # Checking the render alone would let a hand-edited page name her and report
+    # nothing worse than "the page is behind the database".
     if MORATORIUM.search(page):
         errors.append("the generated page names a person under the standing directive "
                       "in CLAUDE.md — the renderer's holdout failed")
+    if reg.page.exists() and MORATORIUM.search(reg.page.read_text(encoding="utf-8")):
+        errors.append(f"{_rel(reg.page, reg.root)} names a person under the standing "
+                      f"directive in CLAUDE.md — this page is published; regenerate it "
+                      f"with `bin/wiki-skills page` and do not hand-edit it")
 
     for w in warnings:
         print(f"WARN  {w}")

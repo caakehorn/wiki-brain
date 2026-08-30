@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-30
-472 pages, ~1,518,965 tokens.
+472 pages, ~1,519,118 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10607,7 +10607,7 @@ chart:
   series:
     - name: "Declared"
       points:
-        "Skills": 17
+        "Skills": 19
         "MCP servers": 2
         "Tools": 2
         "Commands": 27
@@ -10644,17 +10644,17 @@ outside can read is a capability list that cannot be checked.
 
 | | |
 |---|---|
-| Capabilities on the record | 51 |
+| Capabilities on the record | 53 |
 | Declared by more than one model | 0 |
 | Models on the record | 1 |
 | Retired | 0 |
-| Events in the log | 52 |
+| Events in the log | 54 |
 | Last push | 2026-08-30 |
 
 | Kind | Live |
 |---|---|
 | Commands | 27 |
-| Skills | 17 |
+| Skills | 19 |
 | MCP servers | 2 |
 | Subagents | 2 |
 | Tools | 2 |
@@ -10664,7 +10664,7 @@ outside can read is a capability list that cannot be checked.
 
 | Model | Vendor | Surface | Declares | First seen | Last push |
 |---|---|---|---|---|---|
-| `claude-code` | Anthropic | cli · web · desktop · ide | 51 | 2026-08-30 | 2026-08-30 |
+| `claude-code` | Anthropic | cli · web · desktop · ide | 53 | 2026-08-30 | 2026-08-30 |
 
 ## Shared surface
 
@@ -10689,11 +10689,13 @@ second push will change.
 | `security-review` | Security review of the pending changes on the current branch. | `claude-code` | https://code.claude.com/docs/en/slash-commands |
 | `session-start-hook` | Set up a repository for Claude Code on the web — a SessionStart hook that installs dependencies so tests and linters can run in a fresh remote container. | `claude-code` | https://code.claude.com/docs/en/claude-code-on-the-web |
 | `skill-creator` | Create, edit and evaluate skills; measure trigger accuracy and benchmark a skill's description against variance analysis. | `claude-code` | https://code.claude.com/docs/en/skills |
+| `skills/agents/registry-push` | Push what you have into the skills database — triggers: told to update the skills in the wiki; told to push skills, MCP servers or tools into the wiki-brain; starting substantial work as a model that has not pushed befo… | `claude-code` | `skills/agents/registry-push.md` |
 | `skills/repo/change-safety` | Validate behavior, not merely successful commands — triggers: editing commands; editing workflows; editing build logic; repository-wide behavior changes | `claude-code` | `skills/repo/change-safety.md` |
 | `skills/repo/session-loop` | Preserve the repository session loop — triggers: any multi-step code or repository task | `claude-code` | `skills/repo/session-loop.md` |
 | `update-config` | Configure the harness through settings.json — permissions, environment variables, and hooks. Automated 'whenever X happens' behaviour must be a hook; the harness runs those, not the model. | `claude-code` | https://code.claude.com/docs/en/hooks |
 | `wiki-housekeeping` | The periodic LINT sweep over this wiki — the judgment half of housekeeping, after `bin/wiki-check` has run the mechanical half. Triage the standing lint and connect warnings, work the stale-premise cascade, hunt contrad… | `claude-code` | `.claude/skills/wiki-housekeeping/SKILL.md` |
 | `wiki-rewrite` | Full wipe-and-rewrite of one or more existing wiki/ pages in this repository — re-researching every claim from raw/ rather than editing the prose in place, then rebuilding the page's typed edges, index entries, downstre… | `claude-code` | `.claude/skills/wiki-rewrite/SKILL.md` |
+| `wiki-skills` | Push this session's capabilities into the wiki-brain's cross-model skills database, and read what other models have. Use whenever the operator asks to update, refresh, sync or push "the skills" in the wiki; whenever the… | `claude-code` | `.claude/skills/wiki-skills/SKILL.md` |
 | `xlsx` | Read, create and repair spreadsheets and delimited files — formulas, formatting, charts, and restructuring messy tabular data. | `claude-code` | https://code.claude.com/docs/en/skills |
 
 ## MCP servers
