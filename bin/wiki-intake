@@ -1,0 +1,783 @@
+#!/usr/bin/env python3
+"""wiki-intake — read the intake ledger, and refuse the same arithmetic it does.
+
+The capture layer is `/ledger` in caakehorn/home. It writes an append-only event
+log to `data/intake/events-YYYY-MM.jsonl` here, and this is the analysis side of
+it: the corpus reading a dataset that, uniquely among everything in `raw/`, was
+recorded at the moment the thing happened rather than remembered afterwards.
+
+    bin/wiki-intake check              validate the log; the gate
+    bin/wiki-intake units              every unit, with its honest tally
+    bin/wiki-intake report <unit-id>   one unit, start to finish
+    bin/wiki-intake stats              across units, by substance
+    bin/wiki-intake timeline [--from D] [--to D] [--substance S]
+                                       events in a window, for correlating
+                                       against anything else dated
+
+---- why this shares no code with the writer ---------------------------------
+
+`src/ledger/project.ts` over there and this file both fold the same log, and
+neither imports the other. That is the point. A contract held by a shared
+helper is not tested by two programs using the helper; it is tested by two
+independent implementations agreeing, and by each of them failing loudly when
+they stop. `scripts/check-ledger.mjs` asserts the properties on that side;
+`tests/test_wiki_intake.py` asserts them here, over the same worked fixture.
+
+---- the refusals, restated ---------------------------------------------------
+
+These are not stylistic. They are the reason the dataset is worth anything.
+
+  * A unit's remainder is `initial − quantified − spilled`, and it is an UPPER
+    BOUND whenever an event was logged without a figure. Those events took an
+    unknown positive amount. This prints `<=` and says `bound` in the column
+    header; it never prints a bare remainder it cannot stand behind.
+
+  * A mean dose is the quantified total over the count of QUANTIFIED events.
+    Never the unit's initial quantity over the count of all events. A unit of
+    3.5 g with seven events did not average 0.5 g unless the log accounts for
+    all 3.5 g, and it usually does not.
+
+  * An event logged without a figure counts toward every event total, every
+    interval and every time-of-day figure, and contributes nothing to any sum.
+    It is a real event. Dropping it would make the record cleaner and false.
+
+  * A voided event is out of every total and still in the log. A corrected one
+    reports its corrected value and keeps what it was corrected from.
+
+  * Quantities are converted only within a dimension. A dose logged in tablets
+    against a unit measured in grams is counted, named as unconvertible, and
+    kept out of every sum.
+
+Nothing here writes to the repository. Exit 0 = fine, 1 = the log has problems,
+2 = cannot run.
+"""
+import argparse
+import glob
+import json
+import os
+import re
+import statistics
+import sys
+from collections import defaultdict
+from datetime import datetime, timedelta
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DIR = os.path.join(ROOT, "data", "intake")
+SHARD = re.compile(r"^events-\d{4}-\d{2}\.jsonl$")
+
+# Must mirror src/ledger/events.ts INSTANT. An instant with no offset is refused
+# because time-of-day is one of the few things this dataset answers well, and
+# 03:40-04:00 and 07:40Z are the same instant but not the same fact about a night.
+INSTANT = re.compile(r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d{1,3})?(?:Z|[+-]\d{2}:\d{2})$")
+
+TYPES = {
+    "unit_opened",
+    "intake_logged",
+    "intake_corrected",
+    "intake_voided",
+    "unit_adjusted",
+    "unit_amended",
+    "unit_closed",
+    "unit_reopened",
+}
+
+# Must mirror src/ledger/uom.ts. Base units: mg, ml, item.
+UOM = {
+    "g": ("mass", 1000.0),
+    "mg": ("mass", 1.0),
+    "kg": ("mass", 1_000_000.0),
+    "oz": ("mass", 28349.523125),
+    "ml": ("volume", 1.0),
+    "l": ("volume", 1000.0),
+    "floz": ("volume", 29.5735295625),
+    "ct": ("count", 1.0),
+    "tab": ("count", 1.0),
+    "cap": ("count", 1.0),
+    "patch": ("count", 1.0),
+    "strip": ("count", 1.0),
+}
+
+
+def convert(value, frm, to):
+    """Value in `frm` expressed in `to`, or None when they do not commensurate."""
+    a, b = UOM.get(frm), UOM.get(to)
+    if not a or not b or a[0] != b[0]:
+        return None
+    # Count units share a dimension but not an identity — a tablet is not a
+    # capsule — so they convert only to themselves and to the generic `ct`.
+    if a[0] == "count" and frm != to and "ct" not in (frm, to):
+        return None
+    return value * a[1] / b[1]
+
+
+def fmt(value, uom):
+    if value is None:
+        return "—"
+    places = {"mg": 1, "kg": 4, "oz": 4, "ml": 2, "floz": 2}.get(uom, 3)
+    text = f"{value:.{places}f}".rstrip("0").rstrip(".")
+    return f"{text or '0'} {uom}"
+
+
+def parse_instant(iso):
+    return datetime.fromisoformat(iso.replace("Z", "+00:00"))
+
+
+def local_hour(iso):
+    """The hour on the clock where it happened. Two characters, because the
+    offset was kept — a UTC instant would need a timezone database and would
+    still get it wrong across a DST boundary."""
+    return int(iso[11:13])
+
+
+def duration(seconds):
+    if seconds is None:
+        return "—"
+    minutes = round(seconds / 60)
+    if minutes < 60:
+        return f"{minutes}m"
+    hours, rest = divmod(minutes, 60)
+    if hours < 48:
+        return f"{hours}h {rest}m" if rest else f"{hours}h"
+    days, rest_h = divmod(hours, 24)
+    return f"{days}d {rest_h}h"
+
+
+# ---------------------------------------------------------------------------
+# reading
+
+
+def validate(event):
+    """The reason this row cannot be used, or None. Mirrors events.ts."""
+    if not isinstance(event, dict):
+        return "not an object"
+    for key in ("id", "type", "loggedAt"):
+        if not isinstance(event.get(key), str) or not event[key]:
+            return f"no {key}"
+    if event["type"] not in TYPES:
+        return f"unknown type {event['type']}"
+    if not INSTANT.match(event["loggedAt"]):
+        return "loggedAt is not an ISO instant"
+
+    kind = event["type"]
+    if kind == "unit_opened":
+        if not isinstance(event.get("substance"), str) or not event["substance"]:
+            return "no substance"
+        if not isinstance(event.get("quantity"), (int, float)) or event["quantity"] <= 0:
+            return "quantity must be a positive number"
+        if not isinstance(event.get("uom"), str):
+            return "no uom"
+        if not INSTANT.match(event.get("receivedAt", "")):
+            return "receivedAt is not an ISO instant"
+    elif kind == "intake_logged":
+        if not isinstance(event.get("unit"), str):
+            return "no unit"
+        if not INSTANT.match(event.get("occurredAt", "")):
+            return "occurredAt is not an ISO instant"
+        measurement = event.get("measurement")
+        if measurement not in ("measured", "estimated", "unquantified"):
+            return f"bad measurement {measurement}"
+        if measurement == "unquantified":
+            if "quantity" in event:
+                return "an unquantified intake carries no quantity"
+        else:
+            if not isinstance(event.get("quantity"), (int, float)) or event["quantity"] <= 0:
+                return "quantity must be a positive number"
+            if not isinstance(event.get("uom"), str):
+                return "a quantified intake needs a uom"
+    elif kind in ("intake_corrected", "intake_voided"):
+        if not isinstance(event.get("target"), str):
+            return "no target"
+        if not isinstance(event.get("reason"), str) or not event["reason"].strip():
+            return "needs a reason"
+        if kind == "intake_corrected" and not isinstance(event.get("patch"), dict):
+            return "no patch"
+    elif kind == "unit_adjusted":
+        if not isinstance(event.get("unit"), str):
+            return "no unit"
+        if not isinstance(event.get("quantity"), (int, float)) or event["quantity"] <= 0:
+            return "quantity must be a positive number"
+        if event.get("direction") not in ("out", "in"):
+            return "direction must be out or in"
+        if not isinstance(event.get("reason"), str) or not event["reason"].strip():
+            return "an adjustment needs a reason"
+    elif kind in ("unit_amended", "unit_reopened"):
+        if not isinstance(event.get("unit"), str):
+            return "no unit"
+        if not isinstance(event.get("reason"), str) or not event["reason"].strip():
+            return "needs a reason"
+    elif kind == "unit_closed":
+        if not isinstance(event.get("unit"), str):
+            return "no unit"
+        if not INSTANT.match(event.get("closedAt", "")):
+            return "closedAt is not an ISO instant"
+        if not isinstance(event.get("disposition"), str):
+            return "no disposition"
+    return None
+
+
+def load(directory=None):
+    """Every shard, merged and ordered. Problems are returned, never swallowed —
+    a parser that skips a bad line quietly is how a ledger loses a week and
+    still renders a confident total.
+
+    `directory=None` rather than `directory=DIR`: a default argument is bound
+    once, at definition, so the latter would capture the path this module was
+    imported with and quietly ignore any later reassignment of `DIR` — which is
+    how the test suite points the tool at a temp tree, and how anyone would
+    inspect a log outside the repository."""
+    directory = directory or DIR
+    events, problems, seen = [], [], set()
+    if not os.path.isdir(directory):
+        return events, problems
+    for path in sorted(glob.glob(os.path.join(directory, "*.jsonl"))):
+        name = os.path.basename(path)
+        if not SHARD.match(name):
+            problems.append(f"{name}: not a shard filename this tool recognises")
+            continue
+        with open(path, encoding="utf-8") as handle:
+            for n, line in enumerate(handle, 1):
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    event = json.loads(line)
+                except ValueError:
+                    problems.append(f"{name}:{n}: not JSON")
+                    continue
+                problem = validate(event)
+                if problem:
+                    problems.append(f"{name}:{n}: {problem}")
+                    continue
+                if event["id"] in seen:
+                    continue
+                seen.add(event["id"])
+                events.append(event)
+    # By loggedAt then id: a correction has to land after what it corrects, and
+    # the order has to be total or two readers disagree.
+    events.sort(key=lambda e: (e["loggedAt"], e["id"]))
+    return events, problems
+
+
+# ---------------------------------------------------------------------------
+# the projection
+
+
+def project(events):
+    """Fold the log into units. Mirrors src/ledger/project.ts."""
+    units, index, orphans = {}, {}, []
+
+    for event in events:
+        kind = event["type"]
+        if kind == "unit_opened":
+            units.setdefault(
+                event["unit"],
+                {
+                    "id": event["unit"],
+                    "substance": event["substance"],
+                    "quantity": float(event["quantity"]),
+                    "uom": event["uom"],
+                    "receivedAt": event["receivedAt"],
+                    "origin": event.get("origin"),
+                    "status": "active",
+                    "closure": None,
+                    "intakes": [],
+                    "adjustments": [],
+                },
+            )
+            continue
+
+        unit = units.get(event.get("unit", ""))
+
+        if kind == "intake_logged":
+            if unit is None:
+                orphans.append(event["id"])
+                continue
+            record = {
+                "id": event["id"],
+                "occurredAt": event["occurredAt"],
+                "measurement": event["measurement"],
+                "quantity": event.get("quantity"),
+                "uom": event.get("uom"),
+                "confidence": event.get("confidence"),
+                "descriptor": event.get("descriptor"),
+                "note": event.get("note"),
+                "corrections": [],
+                "voided": None,
+            }
+            unit["intakes"].append(record)
+            index[event["id"]] = record
+        elif kind == "intake_corrected":
+            record = index.get(event["target"])
+            if record is None:
+                orphans.append(event["id"])
+                continue
+            before = {}
+            for key, value in event["patch"].items():
+                before[key] = record.get(key)
+                record[key] = value
+            record["corrections"].append(
+                {"at": event["loggedAt"], "reason": event["reason"], "before": before}
+            )
+        elif kind == "intake_voided":
+            record = index.get(event["target"])
+            if record is None:
+                orphans.append(event["id"])
+                continue
+            record["voided"] = {"at": event["loggedAt"], "reason": event["reason"]}
+        elif kind == "unit_adjusted":
+            if unit is None:
+                orphans.append(event["id"])
+                continue
+            unit["adjustments"].append(
+                {
+                    "occurredAt": event["occurredAt"],
+                    "quantity": float(event["quantity"]),
+                    "uom": event["uom"],
+                    "direction": event["direction"],
+                    "reason": event["reason"],
+                }
+            )
+        elif kind == "unit_amended":
+            if unit is None:
+                orphans.append(event["id"])
+                continue
+            unit.update({k: v for k, v in event["patch"].items() if v is not None})
+        elif kind == "unit_closed":
+            if unit is None:
+                orphans.append(event["id"])
+                continue
+            unit["status"] = "closed"
+            unit["closure"] = {
+                "closedAt": event["closedAt"],
+                "disposition": event["disposition"],
+                "reconciliation": event.get("reconciliation"),
+                "unaccounted": event.get("unaccounted"),
+                "note": event.get("note"),
+            }
+        elif kind == "unit_reopened":
+            if unit is None:
+                orphans.append(event["id"])
+                continue
+            unit["status"] = "active"
+
+    for unit in units.values():
+        unit["intakes"].sort(key=lambda i: i["occurredAt"])
+        unit["adjustments"].sort(key=lambda a: a["occurredAt"])
+        unit["tally"] = tally(unit)
+
+    ordered = sorted(units.values(), key=lambda u: u["receivedAt"])
+    return ordered, orphans
+
+
+def live(unit):
+    return [i for i in unit["intakes"] if not i["voided"]]
+
+
+def tally(unit):
+    """What the log accounts for, and — separately — what it does not."""
+    out = {
+        "events": 0,
+        "measured": 0,
+        "estimated": 0,
+        "unquantified": 0,
+        "voided": 0,
+        "measuredQuantity": 0.0,
+        "quantifiedQuantity": 0.0,
+        "adjustedOut": 0.0,
+        "adjustedIn": 0.0,
+        "unconvertible": 0,
+    }
+
+    for intake in unit["intakes"]:
+        if intake["voided"]:
+            out["voided"] += 1
+            continue
+        out["events"] += 1
+        if intake["measurement"] == "unquantified":
+            out["unquantified"] += 1
+            continue
+        out["measured" if intake["measurement"] == "measured" else "estimated"] += 1
+        amount = (
+            convert(intake["quantity"], intake["uom"], unit["uom"])
+            if intake["quantity"] is not None and intake["uom"]
+            else None
+        )
+        if amount is None:
+            out["unconvertible"] += 1
+            continue
+        out["quantifiedQuantity"] += amount
+        if intake["measurement"] == "measured":
+            out["measuredQuantity"] += amount
+
+    for adjustment in unit["adjustments"]:
+        amount = convert(adjustment["quantity"], adjustment["uom"], unit["uom"])
+        if amount is None:
+            out["unconvertible"] += 1
+            continue
+        out["adjusted" + ("Out" if adjustment["direction"] == "out" else "In")] += amount
+
+    spent = out["quantifiedQuantity"] + out["adjustedOut"] - out["adjustedIn"]
+    out["remainingAtMost"] = max(0.0, unit["quantity"] - spent)
+    # The bound is tight only when nothing untallied stands against the unit.
+    out["remainingExact"] = out["unquantified"] == 0 and out["unconvertible"] == 0
+    out["coverage"] = out["quantifiedQuantity"] / unit["quantity"] if unit["quantity"] else 0.0
+    out["unaccounted"] = unit["quantity"] - spent
+    return out
+
+
+def doses(unit):
+    """Quantified intakes in the unit's own uom, oldest first."""
+    out = []
+    for intake in live(unit):
+        if intake["measurement"] == "unquantified" or intake["quantity"] is None:
+            continue
+        amount = convert(intake["quantity"], intake["uom"], unit["uom"])
+        if amount is not None:
+            out.append((intake["occurredAt"], amount))
+    return sorted(out)
+
+
+def intervals(times):
+    stamps = sorted(parse_instant(t) for t in times)
+    return [(b - a).total_seconds() for a, b in zip(stamps, stamps[1:])]
+
+
+def densest_window(times, hours=6):
+    """The `hours`-wide window holding the most events. A sliding window over
+    the sorted instants, so a burst straddling midnight is found rather than
+    split between two days."""
+    if not times:
+        return None
+    stamps = sorted(parse_instant(t) for t in times)
+    span = timedelta(hours=hours)
+    best, left = (0, None), 0
+    for right in range(len(stamps)):
+        while stamps[right] - stamps[left] > span:
+            left += 1
+        if right - left + 1 > best[0]:
+            best = (right - left + 1, stamps[left])
+    return {"events": best[0], "start": best[1], "end": best[1] + span}
+
+
+# ---------------------------------------------------------------------------
+# commands
+
+
+def cmd_check(args):
+    events, problems = load()
+    units, orphans = project(events)
+    if not events:
+        print(f"intake: no log yet — nothing in {DIR}/")
+        return 0
+
+    print(f"intake: {len(events)} events, {len(units)} units")
+    for unit in units:
+        t = unit["tally"]
+        # The one internal consistency check worth making: the log must not
+        # claim more was taken than the unit ever held. When it does, a dose was
+        # double-logged or the initial weight was wrong, and that is a finding
+        # rather than an error to clamp.
+        if t["unaccounted"] < -1e-6:
+            problems.append(
+                f"{unit['id']} ({unit['substance']}): the log accounts for "
+                f"{fmt(-t['unaccounted'], unit['uom'])} more than the unit held"
+            )
+    for orphan in orphans:
+        problems.append(f"{orphan}: refers to a unit or event the log never opened")
+
+    if problems:
+        print(f"\n{len(problems)} problems:")
+        for problem in problems:
+            print(f"  {problem}")
+        return 1
+    print("  ok    every line parses, every reference resolves, no unit is overdrawn")
+    return 0
+
+
+def cmd_units(args):
+    events, problems = load()
+    units, _ = project(events)
+    if not units:
+        print("intake: no units yet")
+        return 0
+
+    print(f"{'UNIT':<14} {'SUBSTANCE':<14} {'SIZE':>10} {'EV':>4} {'NOFIG':>6} "
+          f"{'QUANTIFIED':>12} {'LEFT (bound)':>14}  STATUS")
+    for unit in units:
+        t = unit["tally"]
+        left = ("" if t["remainingExact"] else "<=") + fmt(t["remainingAtMost"], unit["uom"])
+        print(
+            f"{unit['id'][-12:]:<14} {unit['substance'][:14]:<14} "
+            f"{fmt(unit['quantity'], unit['uom']):>10} {t['events']:>4} {t['unquantified']:>6} "
+            f"{fmt(t['quantifiedQuantity'], unit['uom']):>12} {left:>14}  {unit['status']}"
+        )
+    if problems:
+        print(f"\n{len(problems)} unreadable lines — run `bin/wiki-intake check`")
+    return 0
+
+
+def find_unit(units, needle):
+    matches = [u for u in units if u["id"] == needle or u["id"].endswith(needle)]
+    if not matches:
+        matches = [u for u in units if needle.lower() in u["substance"].lower()]
+    return matches
+
+
+def cmd_report(args):
+    events, _ = load()
+    units, _ = project(events)
+    matches = find_unit(units, args.unit)
+    if not matches:
+        print(f"no unit matching {args.unit!r}", file=sys.stderr)
+        return 2
+    if len(matches) > 1:
+        print(f"{args.unit!r} matches {len(matches)} units:", file=sys.stderr)
+        for unit in matches:
+            print(f"  {unit['id']}  {unit['substance']}  {unit['receivedAt'][:10]}", file=sys.stderr)
+        return 2
+
+    unit = matches[0]
+    t = unit["tally"]
+    amounts = [a for _, a in doses(unit)]
+    times = [i["occurredAt"] for i in live(unit)]
+    gaps = intervals(times)
+    started = parse_instant(unit["receivedAt"])
+    ended = parse_instant(unit["closure"]["closedAt"]) if unit["closure"] else None
+
+    def line(label, value, note=""):
+        print(f"  {label:<26} {value:>16}" + (f"   {note}" if note else ""))
+
+    print(f"\n{unit['substance'].upper()} · {unit['id']}")
+    print("─" * 64)
+    line("Received", unit["receivedAt"][:16].replace("T", " "))
+    if ended:
+        line("Closed", unit["closure"]["closedAt"][:16].replace("T", " "))
+        line("Duration", duration((ended - started).total_seconds()))
+    else:
+        line("Still open", "", "duration measured at closing")
+    line("Initial quantity", fmt(unit["quantity"], unit["uom"]))
+    print()
+    line("Consumption events", str(t["events"]))
+    line("Quantified", str(t["measured"] + t["estimated"]), "a weight, or a stated estimate")
+    line("Without a figure", str(t["unquantified"]), "counted everywhere, summed nowhere")
+    if t["voided"]:
+        line("Voided", str(t["voided"]), "out of every total, still in the log")
+    if t["unconvertible"]:
+        line("Unconvertible", str(t["unconvertible"]), f"not reducible to {unit['uom']}")
+    print()
+    line("Quantified intake", fmt(t["quantifiedQuantity"], unit["uom"]))
+    line("Of which weighed", fmt(t["measuredQuantity"], unit["uom"]))
+    if t["adjustedOut"]:
+        line("Spilled or given away", fmt(t["adjustedOut"], unit["uom"]), "never taken")
+    left = ("<= " if not t["remainingExact"] else "") + fmt(t["remainingAtMost"], unit["uom"])
+    line("Remaining", left, "an upper bound" if not t["remainingExact"] else "exact")
+    line("Accounted for", f"{round(t['coverage'] * 100)}%")
+    print()
+    # The denominator is printed beside the number, always. This is the figure
+    # the whole design exists to not get wrong.
+    line(
+        "Mean quantified dose",
+        fmt(statistics.fmean(amounts), unit["uom"]) if amounts else "—",
+        f"÷ {len(amounts)}, not ÷ {t['events']}",
+    )
+    line("Median", fmt(statistics.median(amounts), unit["uom"]) if amounts else "—")
+    line("Smallest", fmt(min(amounts), unit["uom"]) if amounts else "—")
+    line("Largest", fmt(max(amounts), unit["uom"]) if amounts else "—")
+    line("Spread", fmt(statistics.stdev(amounts), unit["uom"]) if len(amounts) > 1 else "—",
+         "standard deviation")
+    print()
+    line("Mean interval", duration(statistics.fmean(gaps)) if gaps else "—")
+    line("Median interval", duration(statistics.median(gaps)) if gaps else "—")
+    line("Shortest", duration(min(gaps)) if gaps else "—")
+    line("Longest", duration(max(gaps)) if gaps else "—")
+    window = densest_window(times, args.window)
+    if window:
+        line(f"Densest {args.window}h", f"{window['events']} events",
+             f"from {window['start'].strftime('%Y-%m-%d %H:%M')}")
+
+    if unit["closure"]:
+        print()
+        line("How it ended", unit["closure"]["disposition"])
+        if unit["closure"]["reconciliation"]:
+            line("The difference",
+                 fmt(abs(unit["closure"]["unaccounted"] or 0), unit["uom"]),
+                 unit["closure"]["reconciliation"])
+        # Derived only where closing said the gap belonged to those events, and
+        # always labelled derived. Never folded into the mean above.
+        if (unit["closure"]["reconciliation"] == "attributed-to-unquantified"
+                and t["unquantified"] and (unit["closure"]["unaccounted"] or 0) > 0):
+            line("Implied unquantified dose",
+                 fmt(unit["closure"]["unaccounted"] / t["unquantified"], unit["uom"]),
+                 "derived at closing, not measured")
+
+    if args.events:
+        print(f"\n  THE LOG — {len(live(unit))} events")
+        for intake in unit["intakes"]:
+            mark = "  x " if intake["voided"] else "    "
+            amount = (
+                fmt(intake["quantity"], intake["uom"])
+                if intake["quantity"] is not None
+                else (intake["descriptor"] or "no figure")
+            )
+            print(f"{mark}{intake['occurredAt'][:16].replace('T', ' ')}  {amount:>12}  "
+                  f"{intake['measurement']}")
+            for correction in intake["corrections"]:
+                was = correction["before"].get("quantity")
+                print(f"        corrected — {correction['reason']}"
+                      + (f" (was {was})" if was is not None else ""))
+            if intake["voided"]:
+                print(f"        voided — {intake['voided']['reason']}")
+    print()
+    return 0
+
+
+def cmd_stats(args):
+    events, _ = load()
+    units, _ = project(events)
+    if not units:
+        print("intake: no units yet")
+        return 0
+
+    groups = defaultdict(list)
+    for unit in units:
+        groups[unit["substance"].strip().lower()].append(unit)
+
+    for key in sorted(groups, key=lambda k: -sum(u["tally"]["events"] for u in groups[k])):
+        members = groups[key]
+        # Report in whichever uom most units of this substance were bought in.
+        # Converting a tablet count into grams would be the invention this
+        # ledger refuses, so units in another dimension contribute no doses.
+        uom = max({u["uom"] for u in members}, key=lambda c: sum(1 for u in members if u["uom"] == c))
+        amounts, lifetimes = [], []
+        events_n = quantified_n = unquantified_n = 0
+        for unit in members:
+            t = unit["tally"]
+            events_n += t["events"]
+            quantified_n += t["measured"] + t["estimated"]
+            unquantified_n += t["unquantified"]
+            if unit["uom"] == uom:
+                amounts.extend(a for _, a in doses(unit))
+            if unit["closure"]:
+                lifetimes.append(
+                    (parse_instant(unit["closure"]["closedAt"])
+                     - parse_instant(unit["receivedAt"])).total_seconds()
+                )
+
+        print(f"\n{members[0]['substance'].upper()}")
+        print("─" * 64)
+        print(f"  units                    {len(members)}  ({len(lifetimes)} closed)")
+        print(f"  events                   {events_n}  "
+              f"({quantified_n} quantified, {unquantified_n} without a figure)")
+        print(f"  quantified total         {fmt(sum(amounts), uom) if amounts else '—'}")
+        print(f"  mean dose                {fmt(statistics.fmean(amounts), uom) if amounts else '—'}"
+              f"   ÷ {len(amounts)} quantified events")
+        print(f"  median dose              {fmt(statistics.median(amounts), uom) if amounts else '—'}")
+        if len(amounts) > 3:
+            lo = statistics.quantiles(amounts, n=4)[0]
+            hi = statistics.quantiles(amounts, n=4)[2]
+            print(f"  middle half              {fmt(lo, uom)} – {fmt(hi, uom)}")
+        print(f"  median unit life         {duration(statistics.median(lifetimes)) if lifetimes else '—'}")
+        if lifetimes:
+            within = sum(1 for s in lifetimes if s < 24 * 3600)
+            print(f"  gone within a day        {within} of {len(lifetimes)} closed units")
+
+        print("\n  unit by unit")
+        for unit in members:
+            t = unit["tally"]
+            unit_amounts = [a for _, a in doses(unit)] if unit["uom"] == uom else []
+            life = (
+                duration((parse_instant(unit["closure"]["closedAt"])
+                          - parse_instant(unit["receivedAt"])).total_seconds())
+                if unit["closure"] else "open"
+            )
+            print(f"    {unit['receivedAt'][:10]}  {fmt(unit['quantity'], unit['uom']):>9}  "
+                  f"{life:>9}  {t['events']:>3} ev  mean "
+                  f"{fmt(statistics.fmean(unit_amounts), uom) if unit_amounts else '—':>9}")
+
+    hours = [0] * 24
+    days = [0] * 7
+    for unit in units:
+        for intake in live(unit):
+            hours[local_hour(intake["occurredAt"])] += 1
+            days[parse_instant(intake["occurredAt"][:19]).weekday()] += 1
+
+    print("\nBY HOUR OF THE LOCAL CLOCK")
+    print("─" * 64)
+    top = max(hours) or 1
+    for hour, count in enumerate(hours):
+        bar = "█" * round(count / top * 34)
+        print(f"  {hour:02d}  {bar:<34} {count}")
+    print("\nBY DAY OF THE WEEK")
+    print("─" * 64)
+    top = max(days) or 1
+    for day, count in enumerate(days):
+        name = ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"][day]
+        print(f"  {name} {'█' * round(count / top * 34):<34} {count}")
+    print()
+    return 0
+
+
+def cmd_timeline(args):
+    """Events in a window, one per line — for correlating the ledger against
+    anything else in this repository that carries a date."""
+    events, _ = load()
+    units, _ = project(events)
+    by_id = {u["id"]: u for u in units}
+
+    rows = []
+    for unit in units:
+        if args.substance and args.substance.lower() not in unit["substance"].lower():
+            continue
+        for intake in live(unit):
+            rows.append((intake["occurredAt"], unit["id"], intake))
+    rows.sort()
+
+    for occurred, unit_id, intake in rows:
+        if args.since and occurred[:10] < args.since:
+            continue
+        if args.until and occurred[:10] > args.until:
+            continue
+        unit = by_id[unit_id]
+        amount = (
+            fmt(intake["quantity"], intake["uom"])
+            if intake["quantity"] is not None
+            else (intake["descriptor"] or "no figure")
+        )
+        print(f"{occurred}  {unit['substance']:<12} {amount:>10}  {intake['measurement']}")
+    return 0
+
+
+def main(argv=None):
+    parser = argparse.ArgumentParser(prog="wiki-intake", description=__doc__.split("\n")[0])
+    sub = parser.add_subparsers(dest="command")
+
+    sub.add_parser("check", help="validate the log; the gate")
+    sub.add_parser("units", help="every unit, with its honest tally")
+
+    report = sub.add_parser("report", help="one unit, start to finish")
+    report.add_argument("unit", help="a unit id, an id suffix, or a substance name")
+    report.add_argument("--window", type=int, default=6, help="densest-window width in hours")
+    report.add_argument("--events", action="store_true", help="list every event")
+
+    sub.add_parser("stats", help="across units, by substance")
+
+    timeline = sub.add_parser("timeline", help="events in a window")
+    timeline.add_argument("--from", dest="since", help="YYYY-MM-DD")
+    timeline.add_argument("--to", dest="until", help="YYYY-MM-DD")
+    timeline.add_argument("--substance")
+
+    args = parser.parse_args(argv)
+    if not args.command:
+        parser.print_help()
+        return 0
+    return {
+        "check": cmd_check,
+        "units": cmd_units,
+        "report": cmd_report,
+        "stats": cmd_stats,
+        "timeline": cmd_timeline,
+    }[args.command](args)
+
+
+if __name__ == "__main__":
+    sys.exit(main())

@@ -6937,3 +6937,59 @@ Gates: `bin/wiki-lint` 0 errors; `bin/wiki-connect check` 0 errors;
 `bin/wiki-climb check` 0 errors; `bin/wiki-plain check` 0 errors;
 `bin/wiki-freshness` in sync; `bin/wiki-work scan` **90 obligations —
 unchanged, none introduced by this pass.** 472 pages (was 519).
+
+## [2026-08-30] build | data | the intake ledger — `data/intake/` and `bin/wiki-intake`
+
+**A new dataset class, and the reason it is not in `raw/`.** Everything this
+repository holds about substance use is recollection. `wiki/health/cocaine.md`
+states a dosage arc of "1 g → 3.5–7 g → 0.5–1 g" reconstructed across twenty
+years from messages and memory, and that is the best the corpus could do from
+the sources it had. `data/intake/` is the instrument that measures the same
+thing instead: an append-only event log of substances and consumables tracked as
+discrete units, written at the moment each event happens from `/ledger` in the
+portal. It is a *primary instrument*, not a source that arrived from somewhere
+else — and it is mutable, since events append to the current month's shard
+forever — so `raw/`, which is an immutable archive of received material, would
+misdescribe it on both counts. `data/intake/README.md` is the contract.
+
+**`bin/wiki-intake` reads it, and shares no code with the writer.** Both fold
+the same log; neither imports the other. A contract held by a shared helper is
+not tested by two programs using the helper, so the test is two independent
+implementations agreeing over the same worked fixture — asserted here in
+`tests/test_wiki_intake.py` (18 cases) and in `scripts/check-ledger.mjs` over
+there (88). Verified against an 88-event four-unit log: both produce 11 events,
+2.37 g quantified and a ≤1.05 g bound for the same unit, to the digit.
+
+**Five refusals, stated as refusals because each one is a plausible wrong
+number rather than an error.** A remainder is an *upper bound* whenever any
+event was logged without a figure, because those events took an unknown positive
+amount. A mean dose is over quantified events and carries its denominator —
+never the unit's initial quantity over the count of all events, which for a
+3.5 g unit with seven logged events invents 0.5 g out of a shape. Closing offers
+no default reconciliation, because the automatic answer is always "assume it was
+consumed". A unit whose log accounts for more than it ever held is a finding
+(a double-logged dose, or a wrong initial weight) and fails `check` rather than
+being clamped to zero. Quantities convert only within a dimension.
+
+**Three measurement classes, and the third is the point.** `measured` came off a
+scale; `estimated` is a number somebody produced by looking; `unquantified` is a
+real event with no number — "one line" — which counts toward every event total,
+interval and time-of-day figure and contributes to no sum. Dropping those events
+would make the record cleaner and false.
+
+**Wired as a gate.** `bin/wiki-intake check` runs in `bin/wiki-check` beside the
+others: a corrupt shard fails the way a stale twin does, quietly, while every
+total still renders. It exits 0 while the directory is empty, so it costs
+nothing until there is a log.
+
+**What this is for.** `bin/wiki-intake timeline --from --to` exists to be joined
+against anything else here that carries a date — `bin/mine-messages`,
+`bin/text-metrics`, `wiki/timeline/master-timeline.md`. That join is the whole
+reason the log lives in this repository rather than in an app.
+
+Nothing was written into `wiki/` by this pass and nothing should be
+automatically: a pattern in this log is a fact about this log until it has been
+read against the person, per `SYNTHESIS_SPEC.md`.
+
+Gates: `bin/wiki-check --check-only` all clean. 472 pages, 90 obligations —
+unchanged, none introduced by this pass.

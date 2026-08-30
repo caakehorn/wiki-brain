@@ -76,6 +76,11 @@ GATE = [
     # rule it applies is arithmetic over the twin and its page, so there is
     # nothing here for a writer to talk its way past.
     (["wiki-plain", "audit"], "Reader's Digest twins carry the page's evidence", False),
+    # The intake ledger is the one dataset here written by an instrument rather
+    # than recalled by a person, and a corrupt shard in it fails exactly the way
+    # a stale twin does: quietly, while every total still renders. Costs nothing
+    # until there is a log — the tool exits 0 when the directory is empty.
+    (["wiki-intake", "check"], "the intake ledger's log parses and reconciles", False),
     (["wiki-freshness"], "generated corpus in step with wiki/", False),
 ]
 SCAN = [
