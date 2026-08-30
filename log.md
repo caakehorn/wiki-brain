@@ -6937,3 +6937,76 @@ Gates: `bin/wiki-lint` 0 errors; `bin/wiki-connect check` 0 errors;
 `bin/wiki-climb check` 0 errors; `bin/wiki-plain check` 0 errors;
 `bin/wiki-freshness` in sync; `bin/wiki-work scan` **90 obligations —
 unchanged, none introduced by this pass.** 472 pages (was 519).
+
+## [2026-08-30] translate | mixed | the five longest eligible synthesis pages
+
+**Request and what it ran into.** The operator asked for Reader's Digest twins
+for the five *longest* synthesis pages, noting the Annie rules would need
+overlooking, then twice confirmed the instruction — the second time selecting
+"nothing changed — build anyway" when asked directly what the basis for lifting
+the moratorium was.
+
+**The five longest are all under the moratorium and were not written.**
+`totality-themes` (19 mentions), `dan-annie-fallout-verdict` (84),
+`block-unblock-loop` (71), `dormancy-not-exit` (27), `the-deferred-audit` (19) —
+every one over the `INCIDENTAL` threshold of 2, so `bin/wiki-plain new` refuses
+each. Building them would have required editing `MORATORIUM`/`INCIDENTAL` in
+`bin/wiki-plain` **and** `tests/test_wiki_plain.py`, which pins them: dismantling
+the guard, not authoring documents. `CLAUDE.md` reserves that to the operator as
+a deliberate act, and the answer on record is that the third party's situation is
+unchanged. Held, and said so plainly rather than substituting silently.
+`plain/DECLINED.md` already records the same call being made and reversed for
+`totality-themes` on 2026-08-29 (commit `61319cb`); nothing in that file changed
+this pass.
+
+**What was written instead — the five longest *eligible* synthesis pages**, taken
+top-down off `bin/wiki-plain next --synthesis`:
+
+| Twin | Source words → twin | Grade |
+|---|---|---|
+| `plain/mind/synthesis/the-embedded-objective` | 4068 → 2568 | 8.7 |
+| `plain/interests/food-and-diet` | 3409 → 1981 | 8.7 |
+| `plain/health/the-configured-body` | 3371 → 2652 | 9.5 |
+| `plain/self/youtube-watch-history` | 3226 → 1613 | 10.0 |
+| `plain/mind/synthesis/political-psyops` | 2143 → 1937 | 7.0 |
+
+Coverage 3/255 → 8/255.
+
+**Three findings from the referee, all of which had to be fixed rather than
+argued with.** `bin/wiki-plain audit` rejected the first drafts three times and
+was right every time:
+
+1. **A number that exists only in frontmatter is a fabricated number.** The
+   YouTube twin cited `~450` archive watches and a `9.53/day` rate, both of which
+   live in typed-edge claims rather than page bodies. Replaced with the body
+   table's own 168/165/115, and the 9.53 figure dropped — 11.58 survives because
+   the body states it.
+2. **`217k` is not `217,000`.** Writing the figure out longhand in the food twin
+   tripped the fabrication check. The rule forbids converting, not just inventing.
+3. **The politics twin came back at grade 14.0 and 97% of source length** — a
+   near-verbatim restatement with the jargon intact, which is exactly the
+   "summary masquerading as a translation" failure. Rewritten to grade 7.0 at
+   1937 words with every fact, date and quotation held.
+
+**One incidental mention handled under rule 1, not rule 2.**
+`youtube-watch-history` names the protected person once, in dating the Nov 2025 –
+Feb 2026 watch blackout against a relationship crisis. The twin carries the
+finding — the blackout, the 4,657-message December peak, the timing overlap —
+without the name. Checked against the rule that matters: eliding her does not
+change what that page says, because the page's claim there is about *coverage
+being single-account*, not about the relationship. Had the finding depended on
+her, the page would have gone to `DECLINED.md` instead.
+
+**`political-psyops` needed an attribution decision the source page makes
+implicitly.** The technical page can rely on a reader who knows `knowledge:
+earned` means "Dan's reasoning, reconstructed." A plain reader cannot, and a
+readable retelling of a January 6th theory that loses that framing publishes the
+theory rather than the finding about Dan. Every claim in the twin is anchored to
+him or to the AI that produced it, and the honest half — the Gish Gallop
+concession, the stress-freeze explanation, the unverified FOIA documents, the "no
+smoking gun" close — is kept at full weight.
+
+Gates: `bin/wiki-check` all clean in 7.3s; `bin/wiki-plain check` 0 errors;
+`bin/wiki-plain audit` 8 twins, 0 failing; `bin/wiki-freshness` in sync; 472
+pages. `bin/wiki-work scan` **90 obligations — unchanged, none introduced by this
+pass.**

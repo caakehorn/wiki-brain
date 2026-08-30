@@ -5,7 +5,7 @@ title: "Wiki Digest"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-08-29
+date_modified: 2026-08-30
 sources: []
 ---
 
@@ -22,7 +22,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 472 |
-| Pages touched in the last 14 days | 194 |
+| Pages touched in the last 14 days | 191 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 41 |
 | Open gaps | 484 |

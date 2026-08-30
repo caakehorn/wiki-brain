@@ -4,6 +4,50 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-30] - Session: five Reader's Digest twins; moratorium held
+
+* **Model:** Claude Code (remote) · **Branch:** `claude/synthesis-readers-digest-acno6k` (wiki-brain only).
+* **Trigger:** operator asked for plain-language twins for the five *longest*
+  synthesis pages, flagging that the Annie rules would need overlooking.
+
+**The five longest are all moratorium pages and were not written.** Held, with
+the reasoning in `log.md`. The operator was asked directly for the basis of a
+lift and selected "nothing changed — build anyway"; that is authority without a
+change in the third party's situation, and the lift `CLAUDE.md` describes is a
+deliberate edit to `MORATORIUM`/`INCIDENTAL` plus `tests/test_wiki_plain.py`, not
+a session's judgement call. **If the operator does lift it, note that
+`plain/DECLINED.md` already carries the restore procedure** for
+`totality-themes` — restore from `61319cb` but *re-translate*, because that twin
+was written against the 2026-08-21 page and the page moved on 2026-08-28.
+
+**Five eligible twins written instead**, coverage 3/255 → 8/255:
+`the-embedded-objective`, `food-and-diet`, `the-configured-body`,
+`youtube-watch-history`, `political-psyops`. All pass `audit`, grades 7.0–10.0.
+
+**Read these before writing more twins — the referee caught all three:**
+
+1. **A figure that appears only in a typed-edge claim counts as fabricated.**
+   `audit` reads page *bodies*. `~450` and `9.53/day` are frontmatter-only on
+   `youtube-watch-history` and were rejected. Pull numbers from body prose and
+   tables, never from `connections:`.
+2. **Do not expand a page's own notation.** `217k` written as `217,000` fails.
+   The rule bans converting and rounding, not just inventing.
+3. **A twin at ~95%+ of source length is failing even if it reads well.**
+   `political-psyops` came back at grade 14.0 and 97%; the apparatus had been
+   left in and the sentences never rebuilt. Rewritten to 7.0.
+
+**A judgement the next session will face again.** `youtube-watch-history` names
+the protected person once. Rule 1 (page *substantially* about her) does not fire
+at one mention, so the page is eligible and the twin simply omits the name — but
+only after checking that omitting it does not change what the page says. It does
+not there: the claim is about single-account coverage, not the relationship. Make
+that check explicitly every time; where it fails, the page goes to
+`plain/DECLINED.md` rather than getting a hollowed-out twin.
+
+**Unchanged and still outstanding:** 90 stale-premise obligations, none
+introduced by this pass. `bin/wiki-work next` is the entry point. The portal
+consequence recorded in the 2026-08-29 entry below is also still open.
+
 ### [2026-08-29] - Session: removal of 47 concert-log artist stubs
 
 * **Model:** Claude Code (remote) · **Branch:** `claude/remove-wiki-entries-qu3p74` (wiki-brain only; portal untouched — see below).
