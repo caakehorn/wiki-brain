@@ -5,7 +5,7 @@ title: "Recent Activity"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-08-29
+date_modified: 2026-08-30
 sources: []
 ---
 
@@ -23,7 +23,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-29 — 3 pages
+## 2026-08-30 — 3 pages
 
 | Page | Domain | What moved |
 |---|---|---|

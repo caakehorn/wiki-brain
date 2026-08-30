@@ -6938,58 +6938,135 @@ Gates: `bin/wiki-lint` 0 errors; `bin/wiki-connect check` 0 errors;
 `bin/wiki-freshness` in sync; `bin/wiki-work scan` **90 obligations —
 unchanged, none introduced by this pass.** 472 pages (was 519).
 
-## [2026-08-30] build | data | the intake ledger — `data/intake/` and `bin/wiki-intake`
+## [2026-08-29] delete | interests | knock2 — the page held back from the 47
 
-**A new dataset class, and the reason it is not in `raw/`.** Everything this
-repository holds about substance use is recollection. `wiki/health/cocaine.md`
-states a dosage arc of "1 g → 3.5–7 g → 0.5–1 g" reconstructed across twenty
-years from messages and memory, and that is the best the corpus could do from
-the sources it had. `data/intake/` is the instrument that measures the same
-thing instead: an append-only event log of substances and consumables tracked as
-discrete units, written at the moment each event happens from `/ledger` in the
-portal. It is a *primary instrument*, not a source that arrived from somewhere
-else — and it is mutable, since events append to the current month's shard
-forever — so `raw/`, which is an immutable archive of received material, would
-misdescribe it on both counts. `data/intake/README.md` is the contract.
+Operator decision on the one entry referred back in the previous pass (PR #212):
+**delete it too.** Done.
 
-**`bin/wiki-intake` reads it, and shares no code with the writer.** Both fold
-the same log; neither imports the other. A contract held by a shared helper is
-not tested by two programs using the helper, so the test is two independent
-implementations agreeing over the same worked fixture — asserted here in
-`tests/test_wiki_intake.py` (18 cases) and in `scripts/check-ledger.mjs` over
-there (88). Verified against an 88-event four-unit log: both produce 11 events,
-2.37 g quantified and a ≤1.05 g bound for the same unit, to the digit.
+**What was lost, stated plainly, because it was not nothing.** Unlike the 47
+concert stubs, this page was earned content: `status: active`, sourced to
+`raw/self/favorites/FAVS MASTERLIST.csv`, rewritten in full on 2026-07-14, and
+353 words of reasoning rather than a restated table. Its argument — that
+Knock2's 2024–2026 rise coincides with the GRIPNOTIC reactivation window, making
+him a live production reference point rather than legacy taste — is not
+recoverable from `raw/`, which holds only six track names. That reasoning is
+gone. The operator was told this before deciding and decided anyway; recording
+it here so no later session mistakes the absence for an oversight.
 
-**Five refusals, stated as refusals because each one is a plausible wrong
-number rather than an error.** A remainder is an *upper bound* whenever any
-event was logged without a figure, because those events took an unknown positive
-amount. A mean dose is over quantified events and carries its denominator —
-never the unit's initial quantity over the count of all events, which for a
-3.5 g unit with seven logged events invents 0.5 g out of a shape. Closing offers
-no default reconciliation, because the automatic answer is always "assume it was
-consumed". A unit whose log accounts for more than it ever held is a finding
-(a double-logged dose, or a wrong initial weight) and fails `check` rather than
-being clamped to zero. Quantities convert only within a dimension.
+**What survives, and where.** Knock2 as a favourites datum is untouched: the
+6-track count in `favorites/music.md`'s table and `self/favorites.md`, and the
+plain-name mentions in `taste-profile.md`, `rock-irrelevance-thesis.md` and
+`electronic-bass.md`. The cluster reasoning it sat in also survives
+independently on `electronic-bass.md` and `lyny.md`, both of which make the
+producer's-ear argument on their own evidence.
 
-**Three measurement classes, and the third is the point.** `measured` came off a
-scale; `estimated` is a number somebody produced by looking; `unquantified` is a
-real event with no number — "one line" — which counts toward every event total,
-interval and time-of-day figure and contributes to no sum. Dropping those events
-would make the record cleaner and false.
+**Reference cleanup — 7 links across 4 pages, 0 residual.** Two `related:`
+entries (`lyny`, `electronic-bass`), three `·` chains (`favorites/music`,
+`lyny`, `electronic-bass`), one index bullet (`interests/index`). No typed-edge
+`connections:` block pointed at it, so no claims were destroyed.
 
-**Wired as a gate.** `bin/wiki-intake check` runs in `bin/wiki-check` beside the
-others: a corrupt shard fails the way a stale twin does, quietly, while every
-total still renders. It exits 0 while the directory is empty, so it costs
-nothing until there is a log.
+**Two prose sentences on `electronic-bass.md` needed rewriting rather than
+link-stripping**, on the same principle as the festival lineups last pass — the
+artist is a fact, the page was only a pointer:
 
-**What this is for.** `bin/wiki-intake timeline --from --to` exists to be joined
-against anything else here that carries a date — `bin/mine-messages`,
-`bin/text-metrics`, `wiki/timeline/master-timeline.md`. That join is the whole
-reason the log lives in this repository rather than in an app.
+- "Nine artists beyond LYNY and [[knock2]] make up the rest of the tier" — the
+  count *nine* is arithmetic over the cluster and stays correct only if Knock2
+  is still named. Kept as plain text.
+- "the dashstar* original-and-VIP pairing on Knock2's page" — cited a page that
+  no longer exists. Now "among Knock2's six masterlist entries", which points at
+  the source instead and is checkable.
 
-Nothing was written into `wiki/` by this pass and nothing should be
-automatically: a pattern in this log is a fact about this log until it has been
-read against the person, per `SYNTHESIS_SPEC.md`.
+Master index corrected 93 → 92 interests pages; caught by `bin/wiki-lint`, as
+last pass.
 
-Gates: `bin/wiki-check --check-only` all clean. 472 pages, 90 obligations —
-unchanged, none introduced by this pass.
+Gates: lint / connect / climb / plain all 0 errors; freshness in sync; 471
+pages; `bin/wiki-work` 90 obligations, unchanged.
+
+## [2026-08-30] tool | health | the intake ledger — `bin/intake`, `intake/`, Special:Intake
+
+**What was missing.** The corpus holds no first-party record of consumption at
+all, and the only thing that would ever have filled the gap is prose
+recollection — the least reliable testimony a person gives about themselves.
+Every other instrument here exists to replace an assertion with a measurement
+(`bin/text-metrics` against claims about how he writes, `bin/mine-messages`
+against claims about who he talks to). This is that instrument for intake.
+
+**What was built.** An event-sourced ledger whose primary object is the **unit**
+— a finite quantity that entered the record at a known time — with intake events
+logged against it and a reconciled closure. `intake/events.jsonl` is append-only
+and the source of truth; `intake/units.json` is a projection, regenerated on
+every write and rebuildable to the byte; `intake/substances.json` is a catalog so
+the interface offers a select box rather than free text (free text yields
+"coke"/"cocaine"/"Cocaine " as three substances and no cross-unit statistic
+survives that). The local app gets **Special:Intake**, which imports `bin/intake`
+rather than restating it — one implementation, so two records of the same night
+cannot disagree.
+
+**The finding the design turns on.** A ledger that only accepts grams loses the
+behavioural record — count, timing, clustering — every time the scale is absent,
+and loses it *silently*. So an event has three kinds: measured, estimated, and
+**unquantified** ("one line"), the third carrying no quantity and still counting
+toward everything except the quantities. The corollary is enforced everywhere:
+no quantity statistic is ever printed without the share of events it was
+computed from, so a mean over 10 of 13 events cannot look like a mean over 13.
+
+**The second rule with teeth.** Closure will not do arithmetic over a fiction.
+Open 3.5 g, log 2.45 g, and `close` refuses until somebody says what happened to
+the remaining 1.05 g — a final intake, a discrepancy, a spill, a transfer.
+Answer `final_intake` and the remainder is recorded as one explicitly estimated,
+low-confidence event and named as a remainder on every report thereafter, never
+folded into the measured total.
+
+**A bug found and fixed while testing:** an event dated before its unit was
+received produced a negative duration and, from it, a negative consumption rate.
+Both were wrong in the way that matters — a wrong timestamp rendered as a
+figure. Duration, rate and phases are now withheld on such a unit and the
+condition is a named warning in `bin/intake check`.
+
+**Privacy decision, deliberately not left implicit.** `caakehorn/wiki-brain` is
+a **public** repository. The tool is committed; the record is not.
+`intake/events.jsonl`, `intake/units.json` and `raw/health/intake/` are in
+`.gitignore`, `bin/intake check` warns whenever the file holds data and is not
+ignored, and `intake/README.md` states the one step that reverses it — make the
+repository private, delete those three lines. This costs the ledger its git
+history, which is a real loss and is named as one rather than glossed.
+
+Gates: `bin/wiki-lint` 0 errors; `bin/wiki-connect check` 0 errors;
+`bin/wiki-climb check` 0 errors; `bin/wiki-plain check` 0 errors;
+`bin/wiki-plain audit` 0 failing; `bin/wiki-freshness` in sync;
+`bin/intake check` 0 errors. `python3 -m unittest discover -s tests` — 200
+tests, all passing, 40 of them new. **90 obligations outstanding, unchanged —
+none introduced by this pass.** No `wiki/` page was added or edited: a finding
+drawn from the ledger reaches a page through the normal operations, cited to a
+unit id and a date range with its coverage figure attached.
+
+## [2026-08-30] infra | intake | the portal as a third interface, and the guard that actually guards
+
+**Two sessions built this ledger in parallel.** #215 landed `bin/intake`,
+`intake/` and Special:Intake here; a second was building `/ledger` in the portal
+against a `data/intake/` of its own, with a `bin/wiki-intake` beside it. That
+second taxonomy is **deleted rather than merged** — the operator's brief said to
+adapt to an established data architecture rather than invent a competing one,
+and two folds of the same night that disagree is exactly what that rule is for.
+`bin/intake` is the tool; the portal is a third interface onto it and writes
+this repository's format.
+
+**The `.gitignore` lines were protecting less than they looked like.** They
+governed `git add` and nothing else. The portal writes through GitHub's contents
+API from a browser with no working tree in the loop, and that API commits an
+ignored path without complaint — so for the one interface most of the record was
+going to arrive through, the guard was not in the circuit at all.
+
+The repository is private as of this pass, so the three lines are gone and the
+ledger keeps its history in git the way everything else here does. The guard
+that replaces them is in the portal and does not depend on `.gitignore`: **it
+reads this repository's visibility before its first push of a session and
+refuses to sync while it is public.** Making the repo public again stops the
+portal writing rather than quietly publishing a night's events — which is the
+failure the ignore lines were reaching for and could not catch.
+
+**Sequencing worth keeping in mind:** private-then-unignore is the safe order,
+and the interlock is what makes getting it wrong survivable in either direction.
+
+Gates: `bin/wiki-check --check-only` all clean. 471 pages, `bin/intake check`
+0 errors over 0 units.

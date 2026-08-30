@@ -7,7 +7,6 @@ date_modified: 2026-07-14
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
 related:
   - wiki/interests/favorites/music
-  - wiki/interests/favorites/music/artists/knock2
   - wiki/interests/favorites/music/electronic-bass
   - wiki/interests/music/concepts/sub-bass-signature
   - wiki/interests/music/aliases/gripnotic
@@ -67,4 +66,4 @@ would make the attraction closer to recognition than discovery.
 
 ## Related
 
-[[wiki/interests/favorites/music]] · [[wiki/interests/favorites/music/artists/knock2]] · [[wiki/interests/favorites/music/electronic-bass]] · [[wiki/interests/music/concepts/sub-bass-signature]] · [[wiki/interests/music/aliases/gripnotic]] · [[wiki/people/tom]]
+[[wiki/interests/favorites/music]] · [[wiki/interests/favorites/music/electronic-bass]] · [[wiki/interests/music/concepts/sub-bass-signature]] · [[wiki/interests/music/aliases/gripnotic]] · [[wiki/people/tom]]

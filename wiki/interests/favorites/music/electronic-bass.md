@@ -12,7 +12,6 @@ synthesizes:
 related:
   - wiki/interests/favorites/music
   - wiki/interests/favorites/music/artists/lyny
-  - wiki/interests/favorites/music/artists/knock2
   - wiki/interests/music/concepts/sub-bass-signature
   - wiki/interests/music/concepts/lyrics-as-timbre
   - wiki/interests/music/aliases/gripnotic
@@ -23,7 +22,7 @@ tags: [music-production]
 # Electronic & Bass Music Cluster
 
 Nine artists beyond [[wiki/interests/favorites/music/artists/lyny]] and
-[[wiki/interests/favorites/music/artists/knock2]] make up the rest of the
+Knock2 make up the rest of the
 electronic/bass tier: Effin, Mau P, PEEKABOO, Levity, Nikita the Wicked,
 rSUN, oskar med k, borne, and A.M.C — roughly 46 tracks together, all
 logged under "SPOTIFY LIKED 2025-2026." This is, alongside JPEGMAFIA and
@@ -54,7 +53,7 @@ As on [[wiki/interests/favorites/music/artists/lyny]], this cluster reads
 most plausibly as craft-level listening rather than casual consumption.
 Mau P's "BEATS FOR THE UNDERGROUND" and the multiple "-Mixed" / VIP-style
 entries across the cluster (Mau P's "MERTHER – Mixed," the dashstar*
-original-and-VIP pairing on Knock2's page) show engagement with how
+original-and-VIP pairing among Knock2's six masterlist entries) show engagement with how
 tracks get reworked and remixed, not just which ones chart. rSUN's
 seven-track presence — the same count as LYNY — and the recurring motif
 of physical-space and motion titles across the cluster (oskar med k's
@@ -84,4 +83,4 @@ sitting before he ever set out to match it.
 
 ## Related
 
-[[wiki/interests/favorites/music]] · [[wiki/interests/favorites/music/artists/lyny]] · [[wiki/interests/favorites/music/artists/knock2]] · [[wiki/interests/music/concepts/sub-bass-signature]] · [[wiki/interests/music/concepts/lyrics-as-timbre]] · [[wiki/interests/music/aliases/gripnotic]]
+[[wiki/interests/favorites/music]] · [[wiki/interests/favorites/music/artists/lyny]] · [[wiki/interests/music/concepts/sub-bass-signature]] · [[wiki/interests/music/concepts/lyrics-as-timbre]] · [[wiki/interests/music/aliases/gripnotic]]
