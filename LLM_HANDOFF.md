@@ -4,6 +4,59 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-30] - Session: page history, on the site and behind a gate
+
+* **Model:** Claude Code (remote) · **Branch:** `claude/wiki-brain-page-history-04f7cf`, in **both** repositories
+* **Trigger:** operator asked for page history for wiki-brain, including full
+  snapshots and last-modified tags where helpful.
+
+**What exists now.** Here: `bin/wiki-history` (`status` · `page <slug>` · `drift`
+· `check`), a gate inside `bin/wiki-check`, `tests/test_wiki_history.py` (15
+tests). In `caakehorn/home`: `scripts/build-wiki-history.mjs`,
+`scripts/check-history.mjs` (`npm run history:check`), `src/wiki/history.ts`,
+`src/wiki/History.tsx`, a RECENT sort and last-modified chips across the browse,
+`docs/CORPUS.md` §1.5a, and `fetch-depth: 0` on the sync's wiki-brain checkout.
+Full account in `log.md`.
+
+**Read these before touching it:**
+
+1. **`drift` is a reading job; `check` is the gate, and they are different
+   questions on purpose.** 214 of 472 pages have a `date_modified` behind their
+   last commit and are *right* to — a link cleanup across forty pages moves none
+   of them. Do not "fix" that number, and do not turn it into a gate; it was
+   measured and rejected for exactly that reason. The gate is the other
+   direction only: a page dated LATER than its last commit.
+2. **The gate exempts anything uncommitted, and is worthless without it.** You,
+   mid-pass, have bumped a date for a commit you have not made. If you find
+   yourself wanting to remove that exemption, the gate will go red on every
+   honest run within a day.
+3. **The `<op>:` commit convention is now load-bearing on a public site.** Every
+   revision row in the portal's history panel is labelled from it. A message
+   without the prefix loses its label; a commit that bundles an ingest with a
+   lint sweep loses the ability to say which one changed the paragraph.
+4. **The moratorium does not withhold history, and that was a decision, not an
+   oversight.** `bin/wiki-plain`'s test would have blanked 217 of 472 pages,
+   including ones that only cite her in `sources:`. A history view writes
+   nothing and cannot advance the record. The mechanism is live behind
+   `WITHHOLD_UNDER_MORATORIUM` in `build-wiki-history.mjs` — **this is the one
+   call in the pass that is the operator's to overrule, and flipping it is one
+   line.** Sealed pages are separate and are not a judgement call: they get no
+   history file at all, always.
+
+**What needs the operator, or a session with time:**
+
+* **The portal branch is not merged.** Until it is, nothing is live. The first
+  sync after merge does a full clone of this repository (~270 MB) and commits
+  ~11 MB of history JSON; that is a one-off, and per-page files carry no
+  timestamp so later syncs commit only the pages that moved.
+* **The 90 stale-premise obligations in `WORK.md` are still untouched**, as they
+  were before this pass. They are unrelated to it and are a reading job
+  (`wiki-housekeeping`). `bin/wiki-history page <slug>` is now a genuinely
+  useful thing to run while working one: it shows what the premise commit
+  actually did, which is the question "did the conclusion survive" starts from.
+
+**Gates:** `bin/wiki-check` all clean · 472 pages · 279 tests pass.
+
 ### [2026-08-30] - Session: the skills section became a cross-model database
 
 * **Model:** Claude Code (remote) · **Branch:** `claude/wikibrain-skills-database-fhkn9h`

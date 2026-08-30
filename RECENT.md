@@ -13,6 +13,7 @@ simply listed.
 - **Session log:** tool | health | the intake ledger — `bin/intake`, `intake/`, Special:Intake
 - **Session log:** infra | intake | the portal as a third interface, and the guard that actually guards
 - **Session log:** declare | meta | the skills section becomes a cross-model database
+- **Session log:** tool | meta | page history — every version of every page, on the site and behind a gate
 
 | Page | Domain | What moved |
 |---|---|---|
