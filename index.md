@@ -11,7 +11,7 @@ The compiled second brain. Start here; each domain has its own index.
 | people | Every person with a role in the story | 173 | [[wiki/people/index]] |
 | mind | Beliefs, ideology, values, psychological profile | 73 | [[wiki/mind/index]] |
 | work | Career, projects, business history | 13 | [[wiki/work/index]] |
-| interests | Music production, favorites, media, taste profile | 93 | [[wiki/interests/index]] |
+| interests | Music production, favorites, media, taste profile | 92 | [[wiki/interests/index]] |
 | health | Physical and mental health history | 4 | [[wiki/health/index]] |
 | places | Homes, cities, significant locations | 9 | [[wiki/places/index]] |
 | legal | Disputes, property matters, legal history | 3 | [[wiki/legal/index]] |

@@ -6937,3 +6937,47 @@ Gates: `bin/wiki-lint` 0 errors; `bin/wiki-connect check` 0 errors;
 `bin/wiki-climb check` 0 errors; `bin/wiki-plain check` 0 errors;
 `bin/wiki-freshness` in sync; `bin/wiki-work scan` **90 obligations —
 unchanged, none introduced by this pass.** 472 pages (was 519).
+
+## [2026-08-29] delete | interests | knock2 — the page held back from the 47
+
+Operator decision on the one entry referred back in the previous pass (PR #212):
+**delete it too.** Done.
+
+**What was lost, stated plainly, because it was not nothing.** Unlike the 47
+concert stubs, this page was earned content: `status: active`, sourced to
+`raw/self/favorites/FAVS MASTERLIST.csv`, rewritten in full on 2026-07-14, and
+353 words of reasoning rather than a restated table. Its argument — that
+Knock2's 2024–2026 rise coincides with the GRIPNOTIC reactivation window, making
+him a live production reference point rather than legacy taste — is not
+recoverable from `raw/`, which holds only six track names. That reasoning is
+gone. The operator was told this before deciding and decided anyway; recording
+it here so no later session mistakes the absence for an oversight.
+
+**What survives, and where.** Knock2 as a favourites datum is untouched: the
+6-track count in `favorites/music.md`'s table and `self/favorites.md`, and the
+plain-name mentions in `taste-profile.md`, `rock-irrelevance-thesis.md` and
+`electronic-bass.md`. The cluster reasoning it sat in also survives
+independently on `electronic-bass.md` and `lyny.md`, both of which make the
+producer's-ear argument on their own evidence.
+
+**Reference cleanup — 7 links across 4 pages, 0 residual.** Two `related:`
+entries (`lyny`, `electronic-bass`), three `·` chains (`favorites/music`,
+`lyny`, `electronic-bass`), one index bullet (`interests/index`). No typed-edge
+`connections:` block pointed at it, so no claims were destroyed.
+
+**Two prose sentences on `electronic-bass.md` needed rewriting rather than
+link-stripping**, on the same principle as the festival lineups last pass — the
+artist is a fact, the page was only a pointer:
+
+- "Nine artists beyond LYNY and [[knock2]] make up the rest of the tier" — the
+  count *nine* is arithmetic over the cluster and stays correct only if Knock2
+  is still named. Kept as plain text.
+- "the dashstar* original-and-VIP pairing on Knock2's page" — cited a page that
+  no longer exists. Now "among Knock2's six masterlist entries", which points at
+  the source instead and is checkable.
+
+Master index corrected 93 → 92 interests pages; caught by `bin/wiki-lint`, as
+last pass.
+
+Gates: lint / connect / climb / plain all 0 errors; freshness in sync; 471
+pages; `bin/wiki-work` 90 obligations, unchanged.
