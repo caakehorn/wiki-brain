@@ -10,6 +10,17 @@
       "note": "The agent that built bin/ and maintains wiki/. Runs locally and as a remote web session.",
       "surface": "cli · web · desktop · ide",
       "vendor": "Anthropic"
+    },
+    {
+      "declares": 15,
+      "first_seen": "2026-08-30T17:12:43-04:00",
+      "id": "hermes",
+      "last_seen": "2026-08-30T17:12:43-04:00",
+      "model": "meituan/longcat-2.0:free",
+      "name": "Hermes",
+      "note": "Dan's personal AI on Hermes by Nous Research. Maintains the wiki-brain, runs plain-language translations, manages git/PR workflow. No direct bin/ access — runs via terminal.",
+      "surface": "telegram · cli · web",
+      "vendor": "Nous Research"
     }
   ],
   "capabilities": [
@@ -20,9 +31,15 @@
           "digest": "68f98aa962eb4b17",
           "first_seen": "2026-08-30T17:26:52+00:00",
           "last_seen": "2026-08-30T17:26:52+00:00"
+        },
+        {
+          "agent": "hermes",
+          "digest": "891e90efc536ed7f",
+          "first_seen": "2026-08-30T17:12:43-04:00",
+          "last_seen": "2026-08-30T17:12:43-04:00"
         }
       ],
-      "first_seen": "2026-08-30T17:26:52+00:00",
+      "first_seen": "2026-08-30T17:12:43-04:00",
       "kind": "command",
       "last_seen": "2026-08-30T17:26:52+00:00",
       "name": "bin/annie-corpus",
@@ -49,10 +66,10 @@
       },
       "revisions": [
         {
-          "agent": "claude-code",
-          "at": "2026-08-30T17:26:52+00:00",
+          "agent": "hermes",
+          "at": "2026-08-30T17:12:43-04:00",
           "from": "",
-          "to": "68f98aa962eb4b17"
+          "to": "891e90efc536ed7f"
         }
       ],
       "slug": "command-bin-annie-corpus",
@@ -290,9 +307,15 @@
           "digest": "62a9750e519fca41",
           "first_seen": "2026-08-30T17:26:52+00:00",
           "last_seen": "2026-08-30T17:26:52+00:00"
+        },
+        {
+          "agent": "hermes",
+          "digest": "5c617ee7c104b9e1",
+          "first_seen": "2026-08-30T17:12:43-04:00",
+          "last_seen": "2026-08-30T17:12:43-04:00"
         }
       ],
-      "first_seen": "2026-08-30T17:26:52+00:00",
+      "first_seen": "2026-08-30T17:12:43-04:00",
       "kind": "command",
       "last_seen": "2026-08-30T17:26:52+00:00",
       "name": "bin/intake",
@@ -319,10 +342,10 @@
       },
       "revisions": [
         {
-          "agent": "claude-code",
-          "at": "2026-08-30T17:26:52+00:00",
+          "agent": "hermes",
+          "at": "2026-08-30T17:12:43-04:00",
           "from": "",
-          "to": "62a9750e519fca41"
+          "to": "5c617ee7c104b9e1"
         }
       ],
       "slug": "command-bin-intake",
@@ -380,9 +403,15 @@
           "digest": "bab084548c6b2c04",
           "first_seen": "2026-08-30T17:26:52+00:00",
           "last_seen": "2026-08-30T17:26:52+00:00"
+        },
+        {
+          "agent": "hermes",
+          "digest": "33b72ec76fd8f1c2",
+          "first_seen": "2026-08-30T17:12:43-04:00",
+          "last_seen": "2026-08-30T17:12:43-04:00"
         }
       ],
-      "first_seen": "2026-08-30T17:26:52+00:00",
+      "first_seen": "2026-08-30T17:12:43-04:00",
       "kind": "command",
       "last_seen": "2026-08-30T17:26:52+00:00",
       "name": "bin/mine-messages",
@@ -409,10 +438,10 @@
       },
       "revisions": [
         {
-          "agent": "claude-code",
-          "at": "2026-08-30T17:26:52+00:00",
+          "agent": "hermes",
+          "at": "2026-08-30T17:12:43-04:00",
           "from": "",
-          "to": "bab084548c6b2c04"
+          "to": "33b72ec76fd8f1c2"
         }
       ],
       "slug": "command-bin-mine-messages",
@@ -605,9 +634,15 @@
           "digest": "8d1e8cda3ebdc59e",
           "first_seen": "2026-08-30T17:26:52+00:00",
           "last_seen": "2026-08-30T17:26:52+00:00"
+        },
+        {
+          "agent": "hermes",
+          "digest": "96f5660cc4137ca9",
+          "first_seen": "2026-08-30T17:12:43-04:00",
+          "last_seen": "2026-08-30T17:12:43-04:00"
         }
       ],
-      "first_seen": "2026-08-30T17:26:52+00:00",
+      "first_seen": "2026-08-30T17:12:43-04:00",
       "kind": "command",
       "last_seen": "2026-08-30T17:26:52+00:00",
       "name": "bin/wiki-check",
@@ -634,10 +669,10 @@
       },
       "revisions": [
         {
-          "agent": "claude-code",
-          "at": "2026-08-30T17:26:52+00:00",
+          "agent": "hermes",
+          "at": "2026-08-30T17:12:43-04:00",
           "from": "",
-          "to": "8d1e8cda3ebdc59e"
+          "to": "96f5660cc4137ca9"
         }
       ],
       "slug": "command-bin-wiki-check",
@@ -650,9 +685,15 @@
           "digest": "2ab89f17e3122ca6",
           "first_seen": "2026-08-30T17:26:52+00:00",
           "last_seen": "2026-08-30T17:26:52+00:00"
+        },
+        {
+          "agent": "hermes",
+          "digest": "43d3bacb44680b7d",
+          "first_seen": "2026-08-30T17:12:43-04:00",
+          "last_seen": "2026-08-30T17:12:43-04:00"
         }
       ],
-      "first_seen": "2026-08-30T17:26:52+00:00",
+      "first_seen": "2026-08-30T17:12:43-04:00",
       "kind": "command",
       "last_seen": "2026-08-30T17:26:52+00:00",
       "name": "bin/wiki-climb",
@@ -679,10 +720,10 @@
       },
       "revisions": [
         {
-          "agent": "claude-code",
-          "at": "2026-08-30T17:26:52+00:00",
+          "agent": "hermes",
+          "at": "2026-08-30T17:12:43-04:00",
           "from": "",
-          "to": "2ab89f17e3122ca6"
+          "to": "43d3bacb44680b7d"
         }
       ],
       "slug": "command-bin-wiki-climb",
@@ -695,9 +736,15 @@
           "digest": "4bf3fa782eefe191",
           "first_seen": "2026-08-30T17:26:52+00:00",
           "last_seen": "2026-08-30T17:26:52+00:00"
+        },
+        {
+          "agent": "hermes",
+          "digest": "af2e096bf9538f65",
+          "first_seen": "2026-08-30T17:12:43-04:00",
+          "last_seen": "2026-08-30T17:12:43-04:00"
         }
       ],
-      "first_seen": "2026-08-30T17:26:52+00:00",
+      "first_seen": "2026-08-30T17:12:43-04:00",
       "kind": "command",
       "last_seen": "2026-08-30T17:26:52+00:00",
       "name": "bin/wiki-connect",
@@ -724,10 +771,10 @@
       },
       "revisions": [
         {
-          "agent": "claude-code",
-          "at": "2026-08-30T17:26:52+00:00",
+          "agent": "hermes",
+          "at": "2026-08-30T17:12:43-04:00",
           "from": "",
-          "to": "4bf3fa782eefe191"
+          "to": "af2e096bf9538f65"
         }
       ],
       "slug": "command-bin-wiki-connect",
@@ -740,9 +787,15 @@
           "digest": "ee5efa80afb9d5c4",
           "first_seen": "2026-08-30T17:26:52+00:00",
           "last_seen": "2026-08-30T17:26:52+00:00"
+        },
+        {
+          "agent": "hermes",
+          "digest": "05ef756f5995485f",
+          "first_seen": "2026-08-30T17:12:43-04:00",
+          "last_seen": "2026-08-30T17:12:43-04:00"
         }
       ],
-      "first_seen": "2026-08-30T17:26:52+00:00",
+      "first_seen": "2026-08-30T17:12:43-04:00",
       "kind": "command",
       "last_seen": "2026-08-30T17:26:52+00:00",
       "name": "bin/wiki-digest",
@@ -769,10 +822,10 @@
       },
       "revisions": [
         {
-          "agent": "claude-code",
-          "at": "2026-08-30T17:26:52+00:00",
+          "agent": "hermes",
+          "at": "2026-08-30T17:12:43-04:00",
           "from": "",
-          "to": "ee5efa80afb9d5c4"
+          "to": "05ef756f5995485f"
         }
       ],
       "slug": "command-bin-wiki-digest",
@@ -875,9 +928,15 @@
           "digest": "feba4b4d5adb48ee",
           "first_seen": "2026-08-30T17:26:52+00:00",
           "last_seen": "2026-08-30T17:26:52+00:00"
+        },
+        {
+          "agent": "hermes",
+          "digest": "93adaaef18b92e2c",
+          "first_seen": "2026-08-30T17:12:43-04:00",
+          "last_seen": "2026-08-30T17:12:43-04:00"
         }
       ],
-      "first_seen": "2026-08-30T17:26:52+00:00",
+      "first_seen": "2026-08-30T17:12:43-04:00",
       "kind": "command",
       "last_seen": "2026-08-30T17:26:52+00:00",
       "name": "bin/wiki-lint",
@@ -904,10 +963,10 @@
       },
       "revisions": [
         {
-          "agent": "claude-code",
-          "at": "2026-08-30T17:26:52+00:00",
+          "agent": "hermes",
+          "at": "2026-08-30T17:12:43-04:00",
           "from": "",
-          "to": "feba4b4d5adb48ee"
+          "to": "93adaaef18b92e2c"
         }
       ],
       "slug": "command-bin-wiki-lint",
@@ -920,9 +979,15 @@
           "digest": "5db999115629cc41",
           "first_seen": "2026-08-30T17:26:52+00:00",
           "last_seen": "2026-08-30T17:26:52+00:00"
+        },
+        {
+          "agent": "hermes",
+          "digest": "1cc86db88af00674",
+          "first_seen": "2026-08-30T17:12:43-04:00",
+          "last_seen": "2026-08-30T17:12:43-04:00"
         }
       ],
-      "first_seen": "2026-08-30T17:26:52+00:00",
+      "first_seen": "2026-08-30T17:12:43-04:00",
       "kind": "command",
       "last_seen": "2026-08-30T17:26:52+00:00",
       "name": "bin/wiki-plain",
@@ -949,10 +1014,10 @@
       },
       "revisions": [
         {
-          "agent": "claude-code",
-          "at": "2026-08-30T17:26:52+00:00",
+          "agent": "hermes",
+          "at": "2026-08-30T17:12:43-04:00",
           "from": "",
-          "to": "5db999115629cc41"
+          "to": "1cc86db88af00674"
         }
       ],
       "slug": "command-bin-wiki-plain",
@@ -965,9 +1030,15 @@
           "digest": "ba519c8f17ee3633",
           "first_seen": "2026-08-30T17:26:52+00:00",
           "last_seen": "2026-08-30T17:26:52+00:00"
+        },
+        {
+          "agent": "hermes",
+          "digest": "b80d2e4e0b2d333c",
+          "first_seen": "2026-08-30T17:12:43-04:00",
+          "last_seen": "2026-08-30T17:12:43-04:00"
         }
       ],
-      "first_seen": "2026-08-30T17:26:52+00:00",
+      "first_seen": "2026-08-30T17:12:43-04:00",
       "kind": "command",
       "last_seen": "2026-08-30T17:26:52+00:00",
       "name": "bin/wiki-search",
@@ -994,10 +1065,10 @@
       },
       "revisions": [
         {
-          "agent": "claude-code",
-          "at": "2026-08-30T17:26:52+00:00",
+          "agent": "hermes",
+          "at": "2026-08-30T17:12:43-04:00",
           "from": "",
-          "to": "ba519c8f17ee3633"
+          "to": "b80d2e4e0b2d333c"
         }
       ],
       "slug": "command-bin-wiki-search",
@@ -1055,9 +1126,15 @@
           "digest": "00e764acf9facb6b",
           "first_seen": "2026-08-30T17:26:52+00:00",
           "last_seen": "2026-08-30T17:26:52+00:00"
+        },
+        {
+          "agent": "hermes",
+          "digest": "c3438bad953b515d",
+          "first_seen": "2026-08-30T17:12:43-04:00",
+          "last_seen": "2026-08-30T17:12:43-04:00"
         }
       ],
-      "first_seen": "2026-08-30T17:26:52+00:00",
+      "first_seen": "2026-08-30T17:12:43-04:00",
       "kind": "command",
       "last_seen": "2026-08-30T17:26:52+00:00",
       "name": "bin/wiki-status",
@@ -1084,10 +1161,10 @@
       },
       "revisions": [
         {
-          "agent": "claude-code",
-          "at": "2026-08-30T17:26:52+00:00",
+          "agent": "hermes",
+          "at": "2026-08-30T17:12:43-04:00",
           "from": "",
-          "to": "00e764acf9facb6b"
+          "to": "c3438bad953b515d"
         }
       ],
       "slug": "command-bin-wiki-status",
@@ -1190,9 +1267,15 @@
           "digest": "376ad898296690ab",
           "first_seen": "2026-08-30T17:26:52+00:00",
           "last_seen": "2026-08-30T17:26:52+00:00"
+        },
+        {
+          "agent": "hermes",
+          "digest": "93e7631b2682a65b",
+          "first_seen": "2026-08-30T17:12:43-04:00",
+          "last_seen": "2026-08-30T17:12:43-04:00"
         }
       ],
-      "first_seen": "2026-08-30T17:26:52+00:00",
+      "first_seen": "2026-08-30T17:12:43-04:00",
       "kind": "command",
       "last_seen": "2026-08-30T17:26:52+00:00",
       "name": "bin/wiki-work",
@@ -1219,10 +1302,10 @@
       },
       "revisions": [
         {
-          "agent": "claude-code",
-          "at": "2026-08-30T17:26:52+00:00",
+          "agent": "hermes",
+          "at": "2026-08-30T17:12:43-04:00",
           "from": "",
-          "to": "376ad898296690ab"
+          "to": "93e7631b2682a65b"
         }
       ],
       "slug": "command-bin-wiki-work",
@@ -1290,6 +1373,69 @@
         }
       ],
       "slug": "harness-claude-code",
+      "status": "live"
+    },
+    {
+      "declared_by": [
+        {
+          "agent": "hermes",
+          "digest": "df716ab59640be59",
+          "first_seen": "2026-08-30T17:12:43-04:00",
+          "last_seen": "2026-08-30T17:12:43-04:00"
+        }
+      ],
+      "first_seen": "2026-08-30T17:12:43-04:00",
+      "kind": "harness",
+      "last_seen": "2026-08-30T17:12:43-04:00",
+      "name": "hermes",
+      "notes": [],
+      "record": {
+        "args": [],
+        "command": "",
+        "digest": "df716ab59640be59",
+        "env": [],
+        "instructions": "Wiki-brain workflow: work on feature branches, never main. Stash unrelated WIP before isolation. Max 2 parallel subagents (3+ triggers HTTP 429). Hermes gateway SIGTERM-propagates to bin/ scripts — run bin/wiki-lint etc. via terminal only, never python3 directly. Moratorium in CLAUDE.md excludes any Annie/Ulmer synthesis or plain-language twin. All credentials in environment variable names only, never values.",
+        "kind": "harness",
+        "link": "https://hermes-agent.nousresearch.com",
+        "name": "hermes",
+        "path": "",
+        "provider": "Nous Research",
+        "scope": "agent",
+        "slug": "harness-hermes",
+        "summary": "Personal AI assistant with terminal, file, browser, web search, image/video generation, delegation, cron, and persistent memory. Runs via Telegram and CLI.",
+        "title": "Hermes Agent",
+        "tools": [
+          "bfl_flux3_text_to_video",
+          "browser_click",
+          "browser_navigate",
+          "cronjob",
+          "delegate_task",
+          "image_generate",
+          "memory",
+          "patch",
+          "read_file",
+          "search_files",
+          "skill_manage",
+          "skill_view",
+          "terminal",
+          "vision_analyze",
+          "web_extract",
+          "web_search",
+          "write_file"
+        ],
+        "transport": "",
+        "triggers": [],
+        "version": ""
+      },
+      "revisions": [
+        {
+          "agent": "hermes",
+          "at": "2026-08-30T17:12:43-04:00",
+          "from": "",
+          "to": "df716ab59640be59"
+        }
+      ],
+      "slug": "harness-hermes",
       "status": "live"
     },
     {
@@ -2090,6 +2236,96 @@
     {
       "declared_by": [
         {
+          "agent": "hermes",
+          "digest": "a0d6a494f1360050",
+          "first_seen": "2026-08-30T17:12:43-04:00",
+          "last_seen": "2026-08-30T17:12:43-04:00"
+        }
+      ],
+      "first_seen": "2026-08-30T17:12:43-04:00",
+      "kind": "skill",
+      "last_seen": "2026-08-30T17:12:43-04:00",
+      "name": "wiki-brain-entry",
+      "notes": [],
+      "record": {
+        "args": [],
+        "command": "",
+        "digest": "a0d6a494f1360050",
+        "env": [],
+        "instructions": "",
+        "kind": "skill",
+        "link": "",
+        "name": "wiki-brain-entry",
+        "path": "~/.hermes/skills/wiki-brain-entry/SKILL.md",
+        "provider": "wiki-brain (local)",
+        "scope": "repo",
+        "slug": "skill-wiki-brain-entry",
+        "summary": "How to create compliant wiki entries — frontmatter, typed edges, synthesizes:, page_type taxonomy, and the three-gate validation (wiki-lint, wiki-connect check, wiki-climb check).",
+        "title": "wiki-brain-entry",
+        "tools": [],
+        "transport": "",
+        "triggers": [],
+        "version": ""
+      },
+      "revisions": [
+        {
+          "agent": "hermes",
+          "at": "2026-08-30T17:12:43-04:00",
+          "from": "",
+          "to": "a0d6a494f1360050"
+        }
+      ],
+      "slug": "skill-wiki-brain-entry",
+      "status": "live"
+    },
+    {
+      "declared_by": [
+        {
+          "agent": "hermes",
+          "digest": "2acb424104939ac2",
+          "first_seen": "2026-08-30T17:12:43-04:00",
+          "last_seen": "2026-08-30T17:12:43-04:00"
+        }
+      ],
+      "first_seen": "2026-08-30T17:12:43-04:00",
+      "kind": "skill",
+      "last_seen": "2026-08-30T17:12:43-04:00",
+      "name": "wiki-brain-operations",
+      "notes": [],
+      "record": {
+        "args": [],
+        "command": "",
+        "digest": "2acb424104939ac2",
+        "env": [],
+        "instructions": "",
+        "kind": "skill",
+        "link": "",
+        "name": "wiki-brain-operations",
+        "path": "~/.hermes/skills/wiki-brain-operations/SKILL.md",
+        "provider": "wiki-brain (local)",
+        "scope": "repo",
+        "slug": "skill-wiki-brain-operations",
+        "summary": "Session-start protocol for wiki-brain. How to read the governing set, run bin/wiki-work, drain obligations, and maintain the altitude ladder. Loaded via skill_view.",
+        "title": "wiki-brain-operations",
+        "tools": [],
+        "transport": "",
+        "triggers": [],
+        "version": ""
+      },
+      "revisions": [
+        {
+          "agent": "hermes",
+          "at": "2026-08-30T17:12:43-04:00",
+          "from": "",
+          "to": "2acb424104939ac2"
+        }
+      ],
+      "slug": "skill-wiki-brain-operations",
+      "status": "live"
+    },
+    {
+      "declared_by": [
+        {
           "agent": "claude-code",
           "digest": "0b603580876dc7c5",
           "first_seen": "2026-08-30T17:26:52+00:00",
@@ -2449,20 +2685,20 @@
     }
   ],
   "counts": {
-    "agents": 1,
+    "agents": 2,
     "by_kind": {
       "command": 27,
-      "harness": 1,
+      "harness": 2,
       "mcp_server": 2,
-      "skill": 19,
+      "skill": 21,
       "subagent": 2,
       "tool": 2
     },
-    "capabilities": 53,
+    "capabilities": 56,
     "retired": 0,
-    "shared": 0
+    "shared": 12
   },
-  "events": 54,
+  "events": 70,
   "last_event": "2026-08-30T17:32:46+00:00",
   "schema": 1
 }
