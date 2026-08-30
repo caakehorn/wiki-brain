@@ -6,7 +6,7 @@ aliases: ["Annie MBTI", "Annie Enneagram", "Annie personality type"]
 status: active
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-20
+date_modified: 2026-08-26
 importance: high
 tags: [personality-profile, forensic-analysis, ai-collaboration]
 infobox:
@@ -24,9 +24,37 @@ connections:
   - page: wiki/people/annie-ulmer
     type: instantiates
     claim: "The forensic assessment of Annie's MBTI and Enneagram types is based on behavioral evidence from her 126,683-message corpus."
+  - page: wiki/people/suzanne-frank-personality-assessment
+    type: parallels
+    claim: "The only other page in wiki/people/ written to a stated-confidence, alternatives-ranked standard — which is what let this page correct a fabricated ISFJ claim by being checkable rather than merely asserted."
 ---
 
 # Annie Ulmer — Forensic Personality Assessment
+
+> **RE-CHECKED [2026-08-23] — new behavioural material, and it cuts against the
+> harsher readings rather than confirming them.** Flagged stale against
+> [[wiki/people/annie-ulmer]] (2026-08-23), which gained a section establishing
+> that Annie worked two jobs through most of 2024, including sustained paid care
+> for an elderly woman ([[wiki/people/libby]]), and provided regular unpaid
+> childcare for her sister's children ([[wiki/people/alice]],
+> [[wiki/people/otto]]) into 2025.
+>
+> **No scored trait on this page is withdrawn**, because none of them was derived
+> from an employment claim. But the assessment should be read alongside two
+> stretches of conduct it did not have: roughly a year of reliable, unsupervised,
+> medically-involved care work for someone outside the family who trusted her with
+> money, correspondence and appointments — and two years of childcare she was not
+> paid for and largely did not refuse. Those are the two longest documented
+> instances in the corpus of Annie doing something for another person, repeatedly,
+> with no audience, and any assessment that has no room for them is incomplete
+> rather than wrong. Flagged for the next pass over this page.
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/people/annie-ulmer]] (2026-08-22). The entity page moved by an appended
+> Closing-note paragraph and a changelog line only — **no assessment input
+> changed**: no new quote, no new dated behaviour, no revision to the August
+> 16–19 record this assessment scores. Nothing here is affected and no claim is
+> withdrawn.
 
 > **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/people/annie-ulmer]] (2026-08-20). That page gained a substantial August 2026 section and eight chronology rows for the severance window. Re-read against
 > the change; **no claim on this page is affected** and nothing here is
@@ -345,9 +373,29 @@ The evidence weakly suggests a 7-4-8 trifix for Annie:
 
 **Alternative: 7-3-8** is possible if her escort work and image management are interpreted as 3-style adaptability rather than 4-style authenticity-seeking. The evidence is insufficient to strongly distinguish.
 
+### The format is the reason this page could correct an error
+
+On 2026-08-21 a sage answer assigned Annie the type **ISFJ** in its first
+draft and reasoned from it. This page's own determination — **ESFP**, argued
+explicitly against ENFP on the Sensing/Intuition axis, with a stated
+confidence level and a list of surviving alternatives — is what let the
+error get caught by reading rather than by guessing. The same answer's other
+three type claims were not so lucky: Dan's own type was given as ENFP (he
+types INTP, [[wiki/mind/profile/intp]]), an invented ISFJ code was attached
+to Alexis (no assessment page existed for her at the time), and Katie
+Fletcher was given ENFP (her page carries no type at all). **An assessment that does not
+publish its own alternatives cannot refute anything, and a type code filed
+on somebody else's page cannot be found** — Alexis's own INFP/ISFP reading
+sat on [[wiki/people/franki-faris]] rather than
+[[wiki/people/alexis-armel]] until this same pass moved it. Exactly two
+pages in `wiki/people/` are written to the standard this page sets — this
+one and [[wiki/people/suzanne-frank-personality-assessment]] — and both
+belong to people around Dan rather than to Dan himself.
+
 ### Future Research Directions
 
 1. **Annie's own self-assessment:** If Annie ever takes an MBTI or Enneagram test and shares the result, this assessment should be updated accordingly.
 2. **Non-crisis periods:** The corpus is heavily weighted toward crisis periods. More data from stable periods would strengthen the assessment.
 3. **Additional conversational partners:** More data from Annie's interactions with people other than Dan (her mother, her sister, her coworkers) would provide additional evidence.
 4. **Longitudinal analysis:** As new messages enter the corpus, the assessment should be re-evaluated to determine whether the type holds across time and context.
+

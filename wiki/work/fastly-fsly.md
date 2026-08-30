@@ -5,7 +5,7 @@ title: "Fastly (FSLY)"
 aliases: ["FSLY", "Fastly Inc.", "$FSLY"]
 status: stable
 date_created: 2026-07-15
-date_modified: 2026-08-21
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
@@ -152,3 +152,12 @@ message corpus rather than through the period page. Nothing rederived.
 > `wiki/mind/psychosexual/developmental-origins`, which had an empty duplicate
 > `connections:`); all three are fixed, and a lint rule is queued in
 > `BACKLOG.md`.
+
+## RE-CHECKED [2026-08-26]
+
+`bin/wiki-climb check` flagged this page stale again against
+[[wiki/self/context-core]], which moved on 2026-08-26. **The premise did not
+move in substance.** The only change on that page was one new `connections:`
+entry cross-referencing the new [[wiki/mind/profile/neurodivergence]] page —
+no date, price, position size, or quote this page depends on was touched.
+Nothing rederived.

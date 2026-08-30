@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-20
+date_modified: 2026-08-28
 sources:
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
   - raw/self/message-csv/imessage_7244346811+212****2449_both_all_now.csv
@@ -26,6 +26,8 @@ synthesizes:
   - wiki/mind/concepts/conflict-architecture
   - wiki/people/tuquick-17248123683
   - wiki/timeline/events/july-2026-recontact
+  - wiki/mind/profile/intp
+  - wiki/mind/synthesis/the-binary-verdict
 tags: [relationships, trauma-bond, infidelity, attachment, mental-health]
 connections:
   - page: wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis
@@ -85,10 +87,57 @@ connections:
   - page: wiki/health/cocaine
     type: evidences
     claim: "The moral verdict names supply-chain control as Dan's co-authored contribution to the decade-long catastrophe — the cocaine procurement architecture is the mechanism that held the relationship together past the point it had stopped functioning."
+  - page: wiki/mind/profile/intp
+    type: caused-by
+    claim: "The 'Ti-dominant processing reads emotional bids as propositions to litigate' line this page already states is Ti-dominance and Fe-inferior named without being sourced: Ti supplies the adjudication reflex, and Fe at 10% valuing is too weak to supply the 'acknowledgment requiring empathy' register the engine skips — 'Fe's absence removes the social brake that would otherwise soften conclusions for company' is that page's rule, running here at full load."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: parallels
+    claim: "The confession trap this page already names — he could not exit without a validating confession that was never coming, so 'the exit was never through the verdict, it was through the door' — is verdict-cognition's boundary case: not a reached verdict staying closed, but the same drive for closure failing to obtain one at all, worked out in full on the cognitive-stack page this synthesis shares with attachment-trauma-bond."
 ---
 
 
 # The Dan/Annie Fallout — Was He Correct to Feel Wronged? (Raw-Evidenced)
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/concepts/conflict-architecture]] (2026-08-26), which added a
+> section documenting the corpus's one completed refusal of the redefinition
+> move (an Ally exchange) and removed its `sage_pending` staging. This verdict
+> reasons from the engine's behavior inside the Annie relationship specifically;
+> a counter-instance from a different, lower-stakes channel does not touch the
+> diagnosis-to-behavior gap this page finds. **No claim on this page is
+> affected.**
+
+> **REVISED [2026-08-23] — this page's own open caveat is now closed, in its
+> favour.** Flagged stale against [[wiki/mind/concepts/attachment-model]]
+> (2026-08-23). This page carried the 127/110 pair marked **[DERIVED]** with the
+> note that *"a loose exit-lexicon sweep of his 44,513 messages finds 176
+> candidates, order-consistent but definition-dependent — the exact pair remains
+> unreproduced."* It has now been reproduced on the full 95,067-row merged Annie
+> corpus: **258 severance messages collapsing to 129 episodes**, which is
+> order-consistent with this page's own 176-candidate sweep on a smaller subset
+> and within two of the dossier's 127.
+>
+> **The relapse rate is 100%, not 87%** — 128 of 128 episodes resumed, median gap
+> thirty-six seconds, all-time maximum 46 hours. Read the *"87% relapse rate"* in
+> the re-engagement-loop section as **100%**, and the `[DERIVED]` flag on the
+> pair as discharged.
+>
+> **The verdict itself is untouched and the diagnosis→behavior gap is widened by
+> the correction.** This page's central move is that the wrong was real *and*
+> Dan's response architecture converted a survivable betrayal into a decade-long
+> catastrophe. A loop with a 100% re-engagement rate and a sub-minute median is a
+> stronger statement of that architecture than an 87% one, not a weaker one. No
+> moral finding is affected.
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/people/annie-ulmer]] and [[wiki/mind/concepts/attachment-model]] (both
+> 2026-08-22). Both gained a pointer into
+> [[wiki/mind/synthesis/the-rescue-premise]] and nothing else; no count, quote
+> or dated claim on either premise moved. **This verdict's central procurement
+> finding is untouched and is in fact load-bearing on the new page**, which uses
+> the daily $50–$100 supply channel through August 16 as the strongest single
+> predictor of resumption and files its present state as an open gap. No claim
+> withdrawn.
 
 The verdict, stated plainly: **yes — on the documented facts, Dan was correct to feel wronged, and the feeling was not a misreading.** The record supports a specific, narrower claim than "the whole relationship was abuse": Annie's *terminal-phase* conduct — a sustained concealed affair, months of gaslighting that attacked his capacity to perceive reality, a procurement-structured "love" instrument, and a concurrent defamation campaign — is a genuine wrong, and it landed on a person whose attachment architecture made him maximally vulnerable to exactly that shape of harm. What must be held in the same frame, and what the operator's standing directive requires, is the **diagnosis→behavior gap**: the wrong was real, but Dan's *response architecture* (the conflict engine, the 127-exit/110-reengage loop, the supply-chain control) is his own, and it converted a survivable betrayal into a decade-long catastrophe. He was wronged *and* he was not a passive victim of the wronging. Both are true, and the second does not cancel the first.
 
@@ -170,7 +219,7 @@ This page is the capstone synthesis of the fallout. **Every load-bearing claim b
 
 The operator's directive is explicit: engage the diagnosis→behavior gap, do not let the insight (he was wronged) substitute for the work (his role in the catastrophe).
 
-**The conflict engine has no domain selector and no halt condition.** His Ti-dominant processing reads emotional bids as propositions to litigate. "I don't feel secure" becomes a claim to adjudicate, not a feeling to hold. The engine runs an infinite loop on non-terminating input — two incompatible subjective realities cannot be merged into a single truth, so it never reaches the "click" of resolution, and it drains. Concession routes through Core Axiom 1 ("not exceptional = worthless"), so acknowledging the other person's reality is coded as self-annihilation and the halt is blocked. This is *his* machinery, running on *her* silence.
+**The conflict engine has no domain selector and no halt condition.** His [[wiki/mind/profile/intp|Ti-dominant]] processing reads emotional bids as propositions to litigate. "I don't feel secure" becomes a claim to adjudicate, not a feeling to hold — the register that would instead hold it, Fe, is measured at 10% valuing, too weak to supply the empathic acknowledgment the engine skips. The engine runs an infinite loop on non-terminating input — two incompatible subjective realities cannot be merged into a single truth, so it never reaches the "click" of resolution, and it drains. Concession routes through Core Axiom 1 ("not exceptional = worthless"), so acknowledging the other person's reality is coded as self-annihilation and the halt is blocked. This is *his* machinery, running on *her* silence.
 
 **The attachment model cannot self-close without an explicit severance signal, and she issued none.** 299 love affirmations across the corpus, **0 explicit severance signals** — the 0-severance half is now **[RAW-CSV]** (2026-07-18 recount of her 41,073 messages in the dual-handle export: a severance-lexicon sweep returns only false positives — a quoted denial of "rather just break up," a literal ice-breaking anecdote; her final substantive message remains the June 5 apology). The 299 figure itself remains **[DERIVED]** — no window/lexicon reproduces it exactly (her terminal-phase love-messages: 231; his: 355; her all-time in this export: 1,302). Because positive verbal rhetoric functions as an absolute rule in his architecture until countermanded, the bond stayed active through a fifteen-month terminal phase. Every "I love you" while withdrawing behaviorally generated a data conflict that prevented closure.
 
@@ -178,7 +227,7 @@ The operator's directive is explicit: engage the diagnosis→behavior gap, do no
 
 **The re-engagement loop trained her to ignore his limits.** 127 exit declarations, 110 re-engagements — an 87% relapse rate **[DERIVED]** (MasterRecord; a loose exit-lexicon sweep of his 44,513 messages finds 176 candidates, order-consistent but definition-dependent — the exact pair remains unreproduced). The apologies were re-affirmations, not contrition (the full-corpus triad: 1,512 "I love you" / 232 "fuck you" / 180 "I'm sorry" — **[DERIVED]**, bootloader v2.1 on the 181,585-message corpus). He affirms 6.5× more than he attacks. Reassurance restabilizes the bond *without resolving the breach*, so the loop reloads at a lower baseline every cycle.
 
-> **REVISED [2026-07-18] — triad partially confirmed, "apologizes least" not reproduced.** Recount from `all_imessages_complete_dump.txt` (217,573 rows through Aug 10 2025, sender-tagged): Sent "love you" = 1,528 messages (strict "i love you": 1,388) — the 1,512 figure is confirmed to lexicon precision. Sent "fuck you" = 111 through Aug 2025; his terminal-window count adds 74 (below), making the 232 total plausible for the full corpus through June 2026 — consistent, not exactly reproduced (the dump ends before the terminal phase). But Sent "I'm sorry / I am sorry" = **435** through Aug 2025 alone — more than double the claimed 180, and ~4× his attack count. Under any plain lexicon he apologizes *more* than he attacks, not "least of all"; the 180 figure would require an unstated narrower definition (e.g. contrition-to-Annie only, excluding sympathy usage). The load-bearing finding — **reassurance dominance** (affirmation an order of magnitude above both) — survives and strengthens; the apology-deficit ordering does not. The confession trap names the other side: he could not exit without the validation of a confession he had already earned, because leaving without the verdict would mean abandoning the identity of the person who was right. "The exit was never through the verdict. It was through the door."
+> **REVISED [2026-07-18] — triad partially confirmed, "apologizes least" not reproduced.** Recount from `all_imessages_complete_dump.txt` (217,573 rows through Aug 10 2025, sender-tagged): Sent "love you" = 1,528 messages (strict "i love you": 1,388) — the 1,512 figure is confirmed to lexicon precision. Sent "fuck you" = 111 through Aug 2025; his terminal-window count adds 74 (below), making the 232 total plausible for the full corpus through June 2026 — consistent, not exactly reproduced (the dump ends before the terminal phase). But Sent "I'm sorry / I am sorry" = **435** through Aug 2025 alone — more than double the claimed 180, and ~4× his attack count. Under any plain lexicon he apologizes *more* than he attacks, not "least of all"; the 180 figure would require an unstated narrower definition (e.g. contrition-to-Annie only, excluding sympathy usage). The load-bearing finding — **reassurance dominance** (affirmation an order of magnitude above both) — survives and strengthens; the apology-deficit ordering does not. The confession trap names the other side: he could not exit without the validation of a confession he had already earned, because leaving without the verdict would mean abandoning the identity of the person who was right. "The exit was never through the verdict. It was through the door." — verdict-cognition's boundary case, per [[wiki/mind/synthesis/the-binary-verdict]]: the same drive for closure, failing to obtain one at all.
 
 ## The ledger runs both ways — what was his responsibility
 
@@ -466,3 +515,36 @@ being rigorous.
 > the 2025–2026 terminal phase — the admission line, the direction-field
 > convention, the June 1 closure — and cites nothing from November 2015. Closed
 > unaffected.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`, and
+**bound by the standing Annie moratorium** (see `CLAUDE.md`). Every citation
+below sources a claim this page already made about Dan's own cognitive
+architecture, using material already stated on this page and on the two
+profile pages cited. No new narrative, date, quote, or figure about Annie
+is introduced.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]]'s Ti-dominance/Fe-inferior split sources the "Ti-dominant processing reads emotional bids as propositions to litigate" sentence this page already carried unsourced — see the inline citation above. |
+| 2. Personality profile | **Checked, does not add a distinct mechanism** beyond what register 1 supplies; no Big Five facet argues anything the Ti/Fe account does not already cover for this page's specific claims. |
+| 3. Historical precedent | **Already load-bearing.** The full evidentiary record — provenance-tiered, raw-verified — is this page's own base. |
+| 4. Attitudes and forces | **Checked, does not bear** beyond what is already covered via [[wiki/mind/concepts/conflict-architecture]] and [[wiki/mind/concepts/attachment-model]]. |
+| 5. Security and prosperity | **Already load-bearing.** The payment-app supply-chain figures are this page's own financial register. |
+| 6. Health | **Already load-bearing.** The cocaine procurement mechanism and the crisis-statement material are this page's own health register. |
+| 7. Romantic and relational state | **This page IS the register.** No further citation needed or added. |
+| 8. Age and upbringing | **Checked, does not bear** beyond what [[wiki/mind/synthesis/attachment-trauma-bond]] already covers via the 2004-05 rupture. |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Moved the conclusion, and surfaced a write-back failure this pass declines to fix.** [[wiki/mind/synthesis/the-binary-verdict]] reframes the confession trap as verdict-cognition's boundary case — see the inline citation above. Separately, and recorded rather than corrected: this page's own 2026-07-18 REVISED block found the 187-of-191 love-to-request statistic non-diagnostic (97.2% of *all* her messages are equally request-adjacent at 24h; the directional test inverts it). [[wiki/people/annie-ulmer]] carries that correction. [[wiki/mind/concepts/conflict-architecture]], [[wiki/mind/concepts/attachment-model]], [[wiki/mind/synthesis/the-binary-verdict]] and two other pages still cite the raw figure without it — a real write-back failure of exactly the kind this page's own text warns about. **Fixing it is out of scope for this pass under the standing Annie moratorium**: a proper correction requires stating what the statistic does and does not show about Annie's behavior, which is a claim about her this session will not make unilaterally. Logged to `BACKLOG.md` instead. |
+
+**What survived:** every provenance-tiered claim, every RAW-CSV anchor, and
+the three-part verdict itself — none required a profile-layer citation to
+stand. **What the pass added:** a sourced mechanism for a sentence this page
+already asserted, and an honest disclosure of a cross-page inconsistency
+this pass found but would need new Annie-behavior language to fix — flagged
+and deferred rather than quietly fixed or quietly ignored. **What it did
+not do:** touch any of the five other pages carrying the stale statistic,
+or say anything new about Annie anywhere in this pass.

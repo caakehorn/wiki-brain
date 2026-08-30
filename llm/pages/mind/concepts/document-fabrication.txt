@@ -14,6 +14,9 @@ tags: [forensic-analysis, ai-collaboration, addiction-recovery, digital-footprin
 sources:
   - raw/self/message-csv/imessage_export_2124702449_20260820.csv
 connections:
+  - page: wiki/mind/concepts/reassurance-architecture
+    type: instance-of
+    claim: "The August 18 2026 false send is the check-in escalated into a manufactured stimulus - 'I knew you would suddenly come back to life' - and it sits four days from the fabricated drug screen built for her, the same capability pointed both ways."
   - page: wiki/mind/concepts/forensic-method
     type: contradicts
     claim: "The same faculty, run backwards. The method's authority rests on documents being what they claim to be — timestamps, logs, exports, 'the receipts' — and on 2026-08-14 its owner spent forty minutes manufacturing a document designed to survive exactly that kind of inspection. Both capabilities live in one person and neither page is complete without the other."

@@ -12,12 +12,6 @@ connections:
   - page: wiki/interests/concert-record/festivals/nintendo-fusion-tour
     type: component-of
     claim: "Panic! at the Disco performed at Nintendo Fusion Tour on Sep 28 - Nov 23, 2005 (Various (tour), Multiple cities)."
-  - page: wiki/interests/favorites/music/artists/the-dresden-dolls
-    type: co-occurs
-    claim: "The Dresden Dolls and Panic! at the Disco appeared together at Chevrolet Amphitheatre, Pittsburgh, PA on Jul 18, 2006."
-  - page: wiki/interests/favorites/music/artists/the-hush-sound
-    type: co-occurs
-    claim: "The Hush Sound and Panic! at the Disco appeared together at Chevrolet Amphitheatre, Pittsburgh, PA on Jul 18, 2006."
   - page: wiki/interests/favorites/music/artists/paramore
     type: co-occurs
     claim: "Paramore and Panic! at the Disco appeared together at Meadowlands Sports Complex, East Rutherford, NJ on May 4, 2008."

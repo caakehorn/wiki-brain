@@ -12,6 +12,14 @@ sources:
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/bobbycole_-p2picui8w/message_1.html"
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/joeoshnack_7killpebkw/message_1.html"
   - "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/ryanscherich_z-v_ahjumq/message_1.html"
+synthesizes:
+  - wiki/timeline/periods/covid-era-2020
+  - wiki/mind/synthesis/political-psyops
+  - wiki/mind/synthesis/vertical-authority-skepticism
+  - wiki/self/youtube-watch-history
+  - wiki/interests/favorites/books/topics/politics
+  - wiki/mind/synthesis/interests-as-era-markers
+  - wiki/health/the-configured-body
 tags: [ideology, politics, nyc-era, digital-footprint]
 connections:
   - page: wiki/timeline/periods/covid-era-2020

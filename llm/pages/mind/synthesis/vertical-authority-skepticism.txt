@@ -12,9 +12,29 @@ sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/Drawer shortage dispute with assistant manager (1).md
   - raw/self/chats/j6-chat.md
-  - raw/self/chats/_✧✧ 𝔻𝔸ℕ𝔽ℝ𝔸ℕ𝕂-𝕀𝕊𝕄'𝕊 ✧✧ Pinned chat.md
+  - raw/self/chats/_✧✧ 𝔻𝔸𝔻𝔽ℝ𝔸ℕ𝕂-𝕀𝕊𝕄'𝕊 ✧✧ Pinned chat.md
   - raw/self/facebook/facebook-ihatedanfrank/
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
+synthesizes:
+  - wiki/legal/2015-possession-arrest
+  - wiki/mind/synthesis/the-embedded-objective
+  - wiki/people/diane-moore
+  - wiki/mind/synthesis/the-deferred-audit
+  - wiki/mind/concepts/institutional-out
+  - wiki/mind/synthesis/totality-themes
+  - wiki/work/bfs-foods
+  - wiki/work/au-zaatar
+  - wiki/mind/synthesis/political-psyops
+  - wiki/mind/profile/big-five-psychometrics
+  - wiki/people/rick-frank
+  - wiki/people/suzanne-frank
+  - wiki/people/tom
+  - wiki/mind/synthesis/2020-left-turn
+  - wiki/work/creative-license
+  - wiki/mind/politics/axioms
+  - wiki/mind/synthesis/the-cato-seat
+  - wiki/places/90th-st-manhattan
+  - wiki/timeline/periods/2021-2023-employment-block
 tags: [politics, relationships, family, personality-profile, nyc-era]
 connections:
   - page: wiki/legal/2015-possession-arrest
@@ -95,6 +115,18 @@ connections:
   - page: wiki/people/brandon-hill
     type: evidenced-by
     claim: "Brandon is the bottom-layer execution of an off-books extraction he doesn't fully understand — the sympathetic face of a structurally coercive arrangement."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: component-of
+    claim: "The 'clock, not a switch' correction relocates the binary from a permanent trust label to audit timing rather than producing a third state — every audit this page documents still resolves to exactly one of two outcomes once it runs."
+  - page: wiki/mind/synthesis/no-platonic-channel
+    type: parallels
+    claim: "This page names exactly one enduring lateral peer bond in the entire psychological layer — Tom, 'primary male ally' — and no female equivalent is named anywhere in the corpus, the predicted absence if a trusted female tie cannot stay in the same undramatic lateral register."
+  - page: wiki/self/context-core
+    type: evidenced-by
+    claim: "Context-core is the source of this page's own name and organizing formula — 'vertical-authority-skeptic, lateral-solidarity-privileging' appears there verbatim, in the political-trajectory line, quoted in this page's own prose as 'the spine's own formula' without ever being linked to its source until this pass."
+  - page: wiki/places/the-unpapered-address
+    type: instantiates
+    claim: "Every housing provider across sixteen years and seven addresses — mother, maternal grandmother, a live-in partner, a great-grandmother — is a lateral by this page's own definition, never a vertical, which is what scopes Trust 9's corpus-confirmed low-trust default away from housing entirely: laterals get the trusted-now, audited-later default this page already documents, and none of these seven relationships was ever audited while it held."
 ---
 
 
@@ -108,8 +140,8 @@ Submissiveness 1, Assertiveness 5
 ([[wiki/mind/profile/big-five-psychometrics]]). The low-assertiveness score
 is the tell that this is not dominance-seeking: he neither obeys the
 hierarchy nor competes for its top — he exits the axis and audits it from
-outside. The spine's own formula: "vertical-authority-skeptic,
-lateral-solidarity-privileging."
+outside. [[wiki/self/context-core|The spine]]'s own formula: "vertical-
+authority-skeptic, lateral-solidarity-privileging."
 
 ## The template: family verticals
 

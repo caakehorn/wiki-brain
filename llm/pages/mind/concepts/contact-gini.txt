@@ -29,6 +29,12 @@ related:
   - wiki/mind/synthesis/intake-constancy
 tags: [relationships, music-production, trauma-bond]
 connections:
+  - page: wiki/mind/concepts/reassurance-architecture
+    type: evidences
+    claim: "Concentration tightening under load - 2025 is simultaneously the highest-volume year at 33,214 messages and the highest-concentration full year at 0.9576 - is why the verification load lands entirely on the one node the stakes concern rather than spreading across a network."
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: evidenced-by
+    claim: "A coefficient of 0.9601 with no failover predicts that when the primary node fails the load relocates entire rather than distributing, which is the mechanism by which an external rescue becomes a transfer instead of an exit."
   - page: wiki/people/kristin
     type: evidenced-by
     claim: "22,018 messages in ten weeks is the corpus's most concentrated single node — and it falls entirely outside the dump this concept's coefficient was computed over, so the measured Gini understates the concentration it describes."
@@ -361,9 +367,9 @@ The relationship closure on June 1, 2026, did not simply end a personal partners
 > was comprehensive *"because no redundant support infrastructure was
 > prepared."* The August 2026 exports show that is not quite true. Across
 > August 18–19, 2026 — the two days the Annie relationship terminated — Dan
-> sent **408 messages to Annie and 552 to [[wiki/people/ally-lubin|Ally
-> Lubin]]**, interleaved hour by hour, and the Ally channel carried more
-> traffic than the terminating one.
+> sent **more messages to [[wiki/people/ally-lubin|Ally Lubin]] than to Annie,
+> by a three-figure margin**, interleaved hour by hour, and the Ally channel
+> carried more traffic than the terminating one.
 >
 > This does not lower the Gini and does not rescue the argument. A channel
 > that has never met its counterpart, produces no material support, and had

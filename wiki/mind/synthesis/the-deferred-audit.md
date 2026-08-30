@@ -6,7 +6,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-21
+date_modified: 2026-08-28
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -23,6 +23,8 @@ synthesizes:
   - wiki/mind/synthesis/dan-annie-fallout-verdict
   - wiki/mind/synthesis/the-unbroken-bond
   - wiki/interests/food-and-diet
+  - wiki/mind/profile/intp
+  - wiki/mind/profile/big-five-psychometrics
 tags: [personality-profile, forensic-analysis, relationships, ideology]
 connections:
   - page: wiki/mind/synthesis/the-embedded-objective
@@ -67,9 +69,54 @@ connections:
   - page: wiki/places/the-unpapered-address
     type: instance-of
     claim: "This page's 463 Morgantown prediction — that a chosen housing arrangement gets reconstructed only after it fails — was already true six times over before it was made: seven addresses across sixteen years, every one unpapered, none ever audited while standing."
+  - page: wiki/mind/profile/intp
+    type: evidenced-by
+    claim: "Ti-dominance defines truth as 'a system that holds under recursive collapse' — once a chosen object is admitted as trusted, it becomes load-bearing furniture inside that system, so auditing it is never local the way auditing an imposed object is: the audit risks the frame, not just the fact, which is why 'its audit is also an audit of the choice' is a structural property of a Ti-dominant mind rather than a personality quirk."
+  - page: wiki/mind/profile/big-five-psychometrics
+    type: evidenced-by
+    claim: "Self-Consciousness at 91 — corpus-audited and leaning confirmed at 1.85x self-monitoring in company — is the register that explains why the delay attaches specifically to chosen objects rather than to all objects generally: Trust 9 predicts fast suspicion of an outside party's motive, which is what makes imposed-object audits cheap, but it says nothing about auditing one's own prior judgment, which is what a chosen-object audit actually is, and that is a self-monitoring cost this facet measures directly."
+  - page: wiki/mind/synthesis/supply-network
+    type: parallels
+    claim: "That page's reliability inversion — friend-suppliers less reliable than strangers — is this page's audit-timing rule run on one market: Tom is already this page's own eighteen-year chosen-object case, and supply-network generalizes the same mechanism across an entire node succession rather than one relationship."
 ---
 
 # The Deferred Audit
+
+> **RE-CHECKED [2026-08-28]:** flagged stale against
+> [[wiki/mind/synthesis/single-channel]] (2026-08-28), which gained a
+> RE-CHECKED note of its own tracing back to a `dormancy-not-exit` correction
+> (a five-day tenure figure reattributed from Franki Faris to Alexis Armel,
+> a Uniontown-era, pre-2015 detail). **No claim on this page is affected.**
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/synthesis/single-channel]] (2026-08-26), which added a section
+> reading the no-failover architecture's intensity as an entry condition for
+> one relational object (Ally) rather than only a cost. **No claim on this
+> page is affected** — this page cites single-channel's provenance-rule
+> framing, not its relational-substitution material.
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/concepts/chaos-preference]], [[wiki/mind/concepts/the-cool-metric]]
+> and [[wiki/mind/synthesis/dan-annie-fallout-verdict]] (all 2026-08-23). The
+> first two gained re-check notes with no claim change; the third corrected its
+> exit-relapse rate from 87% to **100%**. This page carries no exit-cycle figure
+> — its one apparent match is a PR number, not the relapse pair. Nothing
+> affected, no claim withdrawn. Worth noting forward: this pass **is** an
+> instance of what this page describes, and a favourable one — two long-deferred
+> derivations (the 127/110 pair and the music-output gap) were finally run, and
+> both had been sitting behind a query nobody had executed rather than behind
+> missing data.
+
+> **RE-CHECKED [2026-08-22] — premise moved by a re-check block only, at the
+> end of a four-link chain.** [[wiki/mind/synthesis/single-channel]] moved on 2026-08-22
+> solely by gaining a `RE-CHECKED` blockquote. Walking the chain back: it leads
+> to the April 2018 hospital summons
+> ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]), a court document that
+> closed that page's legal gap and corrected an address on
+> [[wiki/places/155-virginia-ave]]. Every page between here and there recorded
+> **no change to any claim**. Nothing here is affected and nothing is withdrawn.
+> This is where the cascade terminates.
+
 
 > **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/mind/concepts/forensic-method]] (2026-08-20). Moved by two typed-edge additions only, no prose change. Re-read against
 > the change; **no claim on this page is affected** and nothing here is
@@ -196,6 +243,66 @@ which point the finding is *the thing failed* rather than *I chose wrong*.
 This is why the reconstruction arrives with such force and such volume the
 moment a bond ends: nothing was suppressed, it was **queued**, and closure
 releases the queue.
+
+## The mechanism underneath the reconciliation: two registers, not one
+
+The section above states *that* auditing a chosen object risks a verdict on
+the chooser. It does not say why a mind would be built that way at all —
+why the forensic engine does not simply run the same check on every object
+and report what it finds, indifferent to what the finding costs. Two
+measured registers, doing different work, supply that.
+
+**Ti-dominance is why a chosen object's failure is never local.**
+[[wiki/mind/profile/intp]] measures dominant introverted thinking at 96%
+latent, and defines its own standard of truth as "a system that holds under
+recursive collapse, not social consensus." An imposed object never enters
+that system as a load-bearing member — it arrives already labeled *other*,
+and testing it costs nothing because a failure there is a fact about the
+manager or the assistant, external to the frame. A **chosen** object is
+different in kind precisely because choosing is how a Ti-dominant mind
+extends its own system: selecting Annie, Tom, or the offboard processor is
+an act of admitting that object into the structure that "holds under
+recursive collapse." Auditing it later is not a second, independent check —
+it is re-running the coherence test on a piece of the same system that
+produced the original selection, so a failure is not contained to the
+object. This is the structural reason "its audit is also an audit of the
+choice" is true at all, rather than merely observed to be true.
+
+**Self-Consciousness 91 is why the *self-monitoring* cost specifically
+attaches to chosen objects.** [[wiki/mind/profile/big-five-psychometrics]]'s
+Trust 9 is already this page's neighbor via
+[[wiki/mind/synthesis/vertical-authority-skepticism]], and it explains the
+fast half of the rule: a low-trust default makes an outside party's motive
+cheap to suspect, so imposed objects get checked on contact. But Trust 9
+is a claim about **other people's** motives, and a chosen-object audit is not
+that — it is a check on **Dan's own prior judgment**. That is a different
+facet's territory. Self-Consciousness sits at the 91st percentile and
+survived the 2026-08-16 corpus audit at 1.85x baseline on self-monitoring
+language — one of the handful of facets independently confirmed rather than
+resting on self-report alone. A system that monitors how it reads from
+outside at that intensity, combined with
+[[wiki/mind/synthesis/totality-themes|Core Axiom 1]]'s all-or-nothing worth
+verdict, makes a self-directed audit
+categorically more expensive than an other-directed one: the finding is not
+"that object was flawed," it is "the chooser is refuted," and the
+self-monitoring apparatus that would have to sit with that finding is
+running at a corpus-confirmed extreme.
+
+**The two registers are not competing explanations; they answer different
+halves of the same rule.** Ti-dominance explains why an audit of a chosen
+object threatens the *frame* (a systemic, cognitive cost). Self-Consciousness
+91 explains why it also threatens the *self-image* (a social-monitoring
+cost). Both costs are avoided by the same move — deferring the audit until
+the object has already failed on its own, at which point the finding is
+"the thing failed" rather than "I chose wrong" or "I am refuted," per the
+reconciliation already on this page. Consistent with the pattern
+established on [[wiki/mind/synthesis/the-binary-verdict]]'s own constitution
+pass, the weight these two registers carry is not equal: Self-Consciousness
+91 is corpus-confirmed against a within-medium control, while the
+Ti-dominance figure is AI-inferred from corpus behavior rather than
+independently audited. The cognitive-stack account is the best available
+explanation for the *frame* cost; the trait-level account is the stronger
+evidentiary claim for the *self-image* cost.
 
 ## What this explains that its members do not
 
@@ -460,6 +567,15 @@ comparison, or the Arnu prediction above — and are noted here only because
   establish that a reserve exists, not enough to characterise it. What else is
   in it has not been looked for, and the search is cheap: any domain with high
   corpus presence and zero evaluative content.
+- **The financial and health domains were not tested against the two
+  clocks, per the 2026-08-28 constitution pass.**
+  [[wiki/mind/synthesis/estate-money-spine]] and
+  [[wiki/mind/concepts/supply-network]] were not read for that pass. The
+  Menore row already on this page's own table is a health-adjacent supply
+  relationship treated as "chosen" with an ~8-year lag, which is suggestive
+  but was written before this pass existed and was not cross-checked
+  against `supply-network`'s own account of the same relationship — a real
+  next step, not a finding claimed here.
 
 > **RE-CHECKED [2026-08-08] — the mechanism survives and gains a second
 > instance.** [[wiki/mind/synthesis/the-unbroken-bond]] moved on 2026-08-08
@@ -516,3 +632,37 @@ channel is the largest *imposed* relationship in the corpus, it was never
 audited, and the wiki's own count of it was wrong by an order of magnitude for
 two months without anyone noticing. **A deferred audit of a relationship
 produced a deferred audit of the data about it.**
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`. This
+page already practiced a version of register-checking on itself — the
+"Provenance disclosure" callout above predates the formal rule by 26 days
+and does the same job for `instrument-is-subject`'s residue/testimony
+ranking — but had never cited `wiki/mind/profile/` directly, despite naming
+Big Five scores in its own member-comparison table.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]]'s Ti-dominance explains why a chosen object's audit is never local — see "The mechanism" above. |
+| 2. Personality profile | **Moved the conclusion.** [[wiki/mind/profile/big-five-psychometrics]]'s Self-Consciousness 91 (corpus-confirmed) explains the self-monitoring cost specifically attached to auditing one's own prior choice, distinct from Trust 9's already-cited role in the fast, other-directed half of the rule. |
+| 3. Historical precedent | **Checked, left standing.** The 2005 hinge and the Alexis/the-unbroken-bond precedent are already carefully marked as testimony rather than residue; nothing new to add. |
+| 4. Attitudes and forces | **Checked, left standing.** [[wiki/mind/concepts/chaos-preference]] and [[wiki/mind/concepts/the-cool-metric]] are already members; no new attitude bears. |
+| 5. Security and prosperity | **Not checked — a real Gap.** [[wiki/mind/synthesis/estate-money-spine]] was not read for this pass; see the new Gaps entry above. |
+| 6. Health | **Not checked — a real Gap, with one loose thread.** [[wiki/mind/concepts/supply-network]] was not read; the Menore row already on this page's own table was never cross-checked against it. |
+| 7. Romantic and relational state | **Checked, left standing.** [[wiki/mind/synthesis/the-unbroken-bond]] and [[wiki/mind/synthesis/dan-annie-fallout-verdict]] are already load-bearing members; no new relational claim was added by this pass. |
+| 8. Age and upbringing | **Checked, left standing.** The origin section already does exactly what a constitution pass would ask — marks the 2005 hinge as inference, not fact. |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** No connection found between regional or ethnic material and the provenance-timing rule. |
+| 10. Religious and ideological programming | **Checked, partially covered already.** The J6/state-actor row in the two-clocks table is the ideological instance of the imposed-fast half; no new material found. |
+| 11. Axiomatic politics | **Checked, left standing.** Covered by the existing [[wiki/mind/synthesis/vertical-authority-skepticism]] membership. |
+| 12. Other — provenance | **Applied, not newly discovered.** This page already carries its own version of the-commissioned-self's residue/testimony gradient; the mechanism section above extends the same discipline to the two new registers (Self-Consciousness 91 corpus-confirmed; Ti-dominance self-commissioned) rather than introducing it. |
+
+**What survived:** the two-clocks rule, its evidentiary table, and every
+scored prediction — none depend on which cognitive or trait register
+explains them. **What the pass added:** a structural answer (Ti-dominance)
+for why a chosen object's failure threatens the frame, and a trait-level
+answer (Self-Consciousness 91) for why it also threatens the self-image —
+where before the reconciliation section stated that both costs exist
+without explaining why a mind would be built to avoid them specifically
+this way. **What it did not do:** touch the financial or health registers,
+which remain open Gaps rather than quietly resolved.

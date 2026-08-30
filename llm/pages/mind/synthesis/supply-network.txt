@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-21
+date_modified: 2026-08-28
 sources:
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
@@ -22,6 +22,8 @@ synthesizes:
   - wiki/people/sam
   - wiki/people/vaughn
   - wiki/timeline/events/july-2026-recontact
+  - wiki/mind/profile/intp
+  - wiki/mind/synthesis/the-deferred-audit
 tags: [addiction-recovery, forensic-analysis, financial-stress]
 connections:
   - page: wiki/people/zaco
@@ -114,9 +116,42 @@ connections:
   - page: wiki/people/drew-mcgettigan
     type: contains
     claim: "A summer 2015 buyer/go-between node, active for a single three-month window and connected to the Zach Harshman circle he was headed to meet the same night as a documented deal."
+  - page: wiki/mind/profile/intp
+    type: evidenced-by
+    claim: "Ti-dominance's 'audit risks a verdict on the chooser' rule is why the reliability inversion runs the direction it does: enforcing a standard on a supplier — noticing the failure, switching away — is an audit, and Tom's failures are not enforced because he is a chosen friendship, not because friendship makes people more forgiving in general."
+  - page: wiki/mind/synthesis/the-deferred-audit
+    type: parallels
+    claim: "This page's reliability inversion is the domain-general audit-timing rule that page states, run on suppliers specifically: Tom already appears on that page's own two-clocks table as a chosen object whose model was revised only after an eighteen-year lag, and Menore's professional distance is the imposed-object case run on the same market."
 ---
 
 # The Supply Network
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against [[wiki/people/menore]]
+> (2026-08-26), which closed its last open gap: 2022's zero mentions are
+> explained by the operator having a flip phone that year, not by a service
+> break. This removes the one residue in Menore's continuous-service reading
+> rather than complicating it. **No claim on this page is affected.**
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against [[wiki/people/annie-ulmer]]
+> (2026-08-23), which gained a section on her 2024 employment
+> ([[wiki/people/libby]]) and on unpaid childcare. **No supply figure, route,
+> counterparty or date on that page changed**, and this page reasons only from
+> those. Nothing here is affected and no claim is withdrawn. Worth noting forward
+> for whoever works the economics: the Libby arrangement is the first documented
+> inbound income on Annie's side anywhere in the corpus, and it runs concurrently
+> with the procurement channel this page models — but no message connects the two,
+> and this page does not assert one.
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/people/annie-ulmer]] (2026-08-22), which moved solely by an appended
+> paragraph in its Closing note pointing at
+> [[wiki/mind/synthesis/the-rescue-premise]], plus a changelog line. **No supply
+> figure, date, route or counterparty on that page changed**, and this page
+> reasons from exactly those. Nothing here is affected and no claim is
+> withdrawn. Worth noting forward: the new page treats the procurement
+> dependency's post-August-19 state as its first-listed gap, because it is the
+> single strongest predictor of resumption and this page cannot presently supply
+> it.
 
 Since January 2011, Dan has been on a daily Suboxone regimen — fifteen
 years, described in the primary sources as structural rather than
@@ -274,6 +309,29 @@ May 2026 collapse: what bothered him most was not the money but "that he
 would be okay letting me go sick" — the discovery that the
 friendship-embedded node had a friend's sense of obligation, not a
 supplier's.
+
+### The mechanism: enforcement is an audit, and audits of friends are deferred
+
+"Intimacy licenses failure" describes the pattern correctly but not the
+engine underneath it. Enforcing a reliability standard on a supplier —
+noticing the pattern, calling it out, switching away — is not a neutral
+administrative act. It is an **audit**, in exactly the sense
+[[wiki/mind/synthesis/the-deferred-audit]] uses the word, and that page's
+own constitution pass already supplies the reason audits of chosen objects
+run late: [[wiki/mind/profile/intp]]'s Ti-dominance treats a chosen
+relationship as load-bearing furniture inside the system that produced the
+choice, so auditing it risks a verdict on the chooser, not merely a finding
+about the object. **Tom is already a row on `the-deferred-audit`'s own
+two-clocks table** — "friendship dates to the late 2000s... model revised
+only after the mid-May 2026 supply failure... ~18 years" — and this page's
+reliability inversion is that same rule, generalized from one relationship
+to the whole market. Menore is not more reliable because distance is a
+virtue in itself; Menore is more reliable because a delivery failure from a
+stranger costs nothing to notice and act on, while eighteen years of Tom
+failures had to accumulate past the point of undeniability before the audit
+that had always been available finally ran. The friend does not get a more
+forgiving standard. He gets the standard applied on a schedule set by
+provenance, exactly as the parent rule predicts.
 
 ## What node failure costs
 
@@ -515,3 +573,33 @@ than a logistics one.
 > subs from my old doctor"* is the only earlier corroboration, and no prescriber
 > is named anywhere in `raw/`. Full accounting at
 > [[wiki/health/the-configured-body]].
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`. This
+page had never cited `wiki/mind/profile/` despite the reliability inversion
+being a domain-general audit-timing rule applied to one market.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]]'s Ti-dominance explains why enforcing a reliability standard is an audit, and why Tom's failures accumulated eighteen years before one ran — see "The mechanism" above. |
+| 2. Personality profile | **Checked, already load-bearing one hop away.** Trust 9 and Self-Consciousness 91 are already the measured substrate for audit-timing on [[wiki/mind/synthesis/the-deferred-audit]] itself; citing them again here directly would be decorative rather than adding a new argument. |
+| 3. Historical precedent | **Checked, already this page's own base.** The node succession (Zach Harshman 2014 through Bop 2026) is the historical register. |
+| 4. Attitudes and forces | **Checked, does not add new material.** |
+| 5. Security and prosperity | **Already load-bearing.** [[wiki/mind/synthesis/estate-money-spine]] is already a member (via parallels) for the shared lump-arrival/metered-drain architecture. |
+| 6. Health | **This page IS a health-adjacent register for other pages** (supply-network is itself cited by `estate-money-spine` and `totality-themes`); the daily-Suboxone framing is the page's own foundation, not an external register to add. |
+| 7. Romantic and relational state | **Already load-bearing.** [[wiki/people/annie-ulmer]] and the terminal-phase supply inversion are already central to this page. |
+| 8. Age and upbringing | **Checked, does not bear.** No developmental account of supply-seeking behavior specifically exists in the corpus. |
+| 9. Geographic and ethnic culture | **Checked, does not bear beyond the already-documented Uniontown/NYC market split this page's own node table carries.** |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Applied.** [[wiki/mind/synthesis/the-deferred-audit]]'s own constitution pass already distinguished the corpus-audited register (Trust 9) from the self-commissioned one (Ti-dominance); this page inherits that gradient by cross-reference rather than re-arguing it. |
+
+**What survived:** the node table, the reliability rankings, and every
+dated figure — all residue, unaffected by the mechanism added. **What the
+pass added:** a cognitive-architecture explanation for why the inversion
+runs friend-to-stranger rather than the reverse, tying this page's own
+finding to a rule already established and worked out in detail on
+`the-deferred-audit`. **What it did not do:** duplicate that page's
+personality-profile citations, which the pass explicitly declined as
+decorative given this page's own argument does not need them.

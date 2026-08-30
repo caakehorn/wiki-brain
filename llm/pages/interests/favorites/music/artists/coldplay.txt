@@ -9,9 +9,6 @@ sources:
 related: []
 tags: [music-production, digital-footprint]
 connections:
-  - page: wiki/interests/favorites/music/artists/rilo-kiley
-    type: co-occurs
-    claim: "Rilo Kiley and Coldplay appeared together at Post-Gazette Pavilion, Burgettstown, PA on Aug 11, 2005."
 ---
 
 # Coldplay

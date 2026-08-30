@@ -5,7 +5,7 @@ title: "The Combos Incident (2015 Retail Theft)"
 aliases: ["the Combos incident", "stealing combos"]
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-03
+date_modified: 2026-08-22
 sources:
   - raw/legal/captures/2026-08-02_200741_the-arrest-the-real-one.md
   - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
@@ -83,7 +83,11 @@ correction above does not weaken that — it sharpens it. A want worth a few
 dollars was run to completion until it produced a criminal citation, and the
 same shape recurs three years later when one drag of nicotine produces a
 hospital-wide fire alarm and charging documents
-([[wiki/timeline/events/uniontown-hospital-vape-alarm]]). What the correction
+([[wiki/timeline/events/uniontown-hospital-vape-alarm]]) — and as of 2026-08-22
+the 2018 half of that parallel is documented to the docket number
+(MJ-14101-NT-0000082-2018, filed 4/5/2018), while this half still has none. The
+asymmetry is worth naming: the *better-evidenced* instance of the drive is now
+the one that obtained less. What the correction
 removes is the claim that this particular want cost a lawyer and a diversion
 programme. It did not. The other one did, and the fact that **2015 produced
 two separate chargeable incidents a few weeks apart** is itself the better

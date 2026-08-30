@@ -1,3 +1,1571 @@
+## [2026-08-29] gate | meta | the moratorium guard caught a real violation on `main`, made by a careful writer
+
+**What happened.** A Reader's Digest twin of `wiki/mind/synthesis/totality-themes`
+was written and merged to `main` (commit `61319cb`). The source page names the
+person under the standing directive **19 times**, against a threshold of two.
+`bin/wiki-plain check` on `main` was red from that merge until this branch.
+
+**The instructive part is the commit message, not the mistake.** It reads:
+
+> The moratorium is mechanically satisfied: zero mentions of the protected person.
+
+That is **rule 2 verified and rule 1 not considered** — and it was written by a
+writer doing a careful job, who checked a rule, found it satisfied, and said so.
+The twin is competent prose. It carries the page's numbers. It names nobody.
+
+Rule 1 exists for precisely this and no other case. It withholds a page
+*substantially about* her because translating one by eliding her produces a twin
+that **passes rule 2 and misrepresents the page** — a reader is handed an
+11,105-word synthesis's finding with its subject removed, which misleads more
+efficiently than an error would. The two rules are not one rule applied twice:
+the second is the guarantee, and the first is the one that stops a page being
+quietly hollowed out to satisfy it. That reasoning was already written into
+`bin/wiki-plain`'s docstring and into `CLAUDE.md`, and it still did not survive
+contact with a writer reading only the rule it happened to check.
+
+**Which is the argument for mechanical enforcement, restated by example.** The
+guard did not need anybody to remember it. It failed the commit.
+
+**Handled.** Twin removed; the page itself untouched, per "a stop, not a
+retraction and not a redaction". Declined in the open at the new `plain/DECLINED.md`
+rather than silently deleted — the same principle as a declined `sage/` question.
+The twin was also stale on arrival (written against 2026-08-21, page moved
+2026-08-28), so restoring it after any lift means re-translating, not reverting.
+
+**One defect in my own guard, found by it.** `plain/DECLINED.md` read as an
+orphaned twin, because `walk(PLAIN)` treats every `.md` under `plain/` as one.
+`plain/` now has a notion of bookkeeping files — root-level, ALL-CAPS, the same
+convention the repo root already uses to separate `CLAUDE.md` and `WORK.md` from
+content. Two tests pin it, including that a genuine orphan still fails alongside
+one.
+
+## [2026-08-29] feature | meta | THE DOCKET — the outstanding-work record published as a room, and three parser bugs it found
+
+**Operator directive.** Crawl the corpus and find material for a new full site
+section in the portal, then build it. Requirement stated on selection: it has to
+be visually and interactively substantial.
+
+**What the crawl found.** Three large datasets in `wiki/` with no room on the
+site: the epistemic frontier (contradictions, gaps, predictions, and the dated
+blocks that close them), `master-timeline.md`'s 2,842 tiered events, and the
+2,016-entry favourites masterlist. The first was chosen and built as **THE
+DOCKET** (`/docket`, 未決). The other two are written up in `BACKLOG.md` as
+standing candidates — the favourites one is already declared over there as
+LEVIATHAN's SEALED **THE SHELF**, so the honest build for it is an instrument
+rather than a room.
+
+**Three bugs in this repository's own reporting, found by trying to publish it.**
+Building a room whose headline numbers come off `OPEN.md` meant checking them,
+and all three were wrong in the same direction — the file that collects what the
+wiki does not know was itself out of step with the tools that answer it.
+
+1. **`bin/wiki-digest` counted closed contradictions as live.** `CONTRA_RE`
+   filtered nothing, while the gap extractor eight lines below it has always
+   filtered `CLOSED|RESOLVED|SETTLED`. Three of the 44 are closed on their own
+   heading — `context-core` on 2026-08-16, `fran-coldren` and `the-fall-of-fran`
+   on 2026-08-02 — so the headline count, and the `OPEN.md` and `DIGEST.md`
+   tables it feeds, read three high for three weeks. **Live contradictions: 44 →
+   41.**
+2. **`bin/wiki-digest`'s gap parser was six months behind the other two.** The
+   preamble guard and the corrections-table handling added to `bin/wiki-gaps` on
+   2026-08-17 were never brought over, so a section's introductory sentence was
+   counted as a gap on five pages (`people/zaco`'s *"Each answerable by the
+   operator in a paragraph"* among them), and `timeline/annie-read-notes`'
+   corrections tables arrived as one blob each instead of one item per row —
+   including rows already marked applied. Ported, with the note that three
+   parsers read these sections and have to agree, because the tool finds a gap
+   on the page by matching the text this file publishes.
+3. **The portal's port counted a horizontal rule as a gap.** `---` at the end of
+   `timeline/2015-annie-read-wiki-impact-analysis`' corrections queue was being
+   published as an open gap and offered to the operator as answerable. Fixed in
+   `scripts/sync-wiki.mjs` in the portal repo.
+
+**All three parsers now report the same 484**, where `OPEN.md` said 481 and the
+portal said 485.
+
+**Two gates were already red on `main`** and are fixed here, since nothing can be
+committed over them: `wiki/mind/synthesis/political-psyops.md` carried a
+byte-identical duplicate `tags:` key (line 30 deleted, line 6 kept), and the
+generated corpus was 51 pages out of step with `wiki/` — `bin/wiki-digest` and
+`bin/llm-publish` re-run.
+
+**What the room publishes.** 1,036 items over four benches: 41 collisions drawn
+as a graph over the whole 516-page map with the fifty-one carrying one lit; 484
+gaps as a tally wall; 68 predictions on a departures board with their falsifiers
+(19 state one, 49 do not, and the dash is printed rather than the column
+dropped); 443 dated rulings on a per-day stacked chart. Nothing is summarised,
+ranked or scored — every item is the wiki's own prose, whole, with the page that
+wrote it and a link to it.
+
+**One thing the room says out loud that this repository already knew.**
+`the-cato-seat` predicts *"the wiki will accumulate more predictions than
+interventions."* The board scores three of sixty-eight — 4% — and that
+prediction is on it, standing, being confirmed by the board it is on.
+
+**Gates:** `bin/wiki-lint` 0 errors (46 warnings, all advisory size/staleness),
+`bin/wiki-connect check` 0 errors, `bin/wiki-climb check` 0 errors,
+`bin/wiki-plain check` 0 errors, `bin/wiki-freshness` in sync, 146 tests pass.
+`bin/wiki-work scan`: 90 stale obligations standing, all inherited, none created
+by this pass.
+
+## [2026-08-28] feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch
+
+**Operator directive.** Two modes of the wiki, both visible to the reader and
+toggled from the top of the page: the current wiki, and a READER'S DIGEST
+edition written to be understood by non-experts. Every page to have a
+corresponding translation. Build the mechanism; translate a couple of the denser
+synthesis entries.
+
+**What was built, and the one decision that shaped the rest.** A twin lives at
+`plain/<slug>.md`, mirroring `wiki/` exactly, and is **a rendering of a page
+rather than a page**: no typed edges, no `synthesizes:`, no Gaps, no index
+entry, nothing citable. It sits outside `wiki/` deliberately. Inside it, every
+twin would have been a page — `bin/wiki-lint` globs `wiki/**` — doubling the
+page count and orphan-warning forever, and, worse, becoming **citable**, so a
+later CLIMB could reason from a simplification instead of from the finding. That
+is the failure this layout forecloses structurally rather than by convention.
+
+Named `plain/`, not `digest/`, because `bin/wiki-digest` and `DIGEST.md` already
+exist, mean the activity ledger, and *write files*. A future session conflating
+the two would be running a generator at something it thinks is a translation.
+
+**The gate, which is the actual content of this change.** A twin records
+`source_modified:` — the `date_modified` of the page it was written against —
+and goes STALE when the page moves past it. `bin/wiki-plain check` fails on
+that, and it is wired into `bin/wiki-check`'s GATE table, so it blocks commits
+the way the other three do. This is rule 3 of "the four things that matter most"
+one layer down, and it binds harder here: a stale synthesis misleads a reader
+who can check it, and a stale twin misleads the one reader who cannot. Missing
+twins are explicitly *not* errors — coverage is campaign work — so the gate only
+ever fires on a twin that is broken, forbidden or orphaned.
+
+**The moratorium is now code, and it had a hole.** A plain-language retelling of
+an Annie page adds no facts but is new prose about her, rebuilt for readers who
+could not read the original, on a public site — squarely inside the standing
+directive. So `bin/wiki-plain` enforces it in two rules: a page substantially
+about her gets no twin (`new` refuses, `next` skips, `check` fails), and **no
+file under `plain/` may name her at all, whatever its source says.** The second
+is the guarantee; the first stops a page being "translated" by quietly eliding
+its subject, which would pass the second and misrepresent the page.
+
+The first pattern written was `\bannie\b`, and it was wrong in the permissive
+direction: `_` is a word character, so the trailing boundary fails against
+`annie_metadata_24h.csv`, the filename that material is cited by throughout.
+`wiki/mind/synthesis/read-receipt-forensics` carries it twice and **read as
+eligible for translation** until it was caught by hand. Now `\b(annie|ulmer)`,
+leading boundary only, with `tests/test_wiki_plain.py` pinning the exact case —
+21 tests, 4 of which fail against the old pattern.
+
+**Portal.** `sync-wiki.mjs` folds the twin into each page's own JSON (one fetch,
+not two) and recomputes `stale` rather than trusting the source repo's gate — a
+derivation that trusts its input to have been gated publishes whatever got past
+the gate. `wiki-locks.mjs` blanks `plain` in a sealed page's husk: `split()` is
+denylist-by-default so the twin was already inside the ciphertext, and an
+easier-to-read edition of a sealed page would publish through the back door what
+the seal exists to keep shut. The index carries a `plain` flag and count, and a
+sealed page's flag is redacted with the rest.
+
+**A defect found by looking at the rendered page rather than at the types.** In
+the digest edition the four-generation table on `fayette-return` came out as a
+bar chart of birth years — and switching that chart to its TABLE face returned
+**two columns of six**, because `Chart`'s table view renders only the columns
+the spec selected. Who, Left for, Ended up and Buried were simply gone. Fixed by
+not routing tables through the chart at all in the plain edition
+(`Markdown`'s `tables` prop), rather than by changing which face it opens on.
+The full edition is untouched.
+
+**Translated (3), the densest synthesis pages carrying no moratorium material:**
+
+| Page | Source | Twin |
+|---|---:|---:|
+| `mind/synthesis/fayette-return` | 3,440w | 1,253w |
+| `mind/synthesis/the-cato-seat` | 2,577w | 1,601w |
+| `mind/synthesis/vertical-authority-skepticism` | 1,388w | 1,192w |
+
+Every number, date and name is carried; the falsifiers and gaps are carried in
+plain words, because an edition that shows a lay reader only the confident half
+is worse than no edition. What was dropped is apparatus: typed edges, provenance
+disclosures, register tables, `raw/` paths.
+
+**Worth recording for the next session: the densest pages in the wiki are not
+translatable.** Every one of the top eight synthesis pages by word count carries
+Annie material — `totality-themes` (16 mentions), `dan-annie-fallout-verdict`
+(22), `block-unblock-loop`, `dormancy-not-exit`, `the-deferred-audit`,
+`supply-network`, `estate-money-spine`. Coverage stands at 3 of 302 eligible
+pages, and 216 of 518 pages are withheld. The operator should know that a
+literal reading of "every page will have a translation" is currently capped at
+58% of the wiki by the standing directive, and that lifting it is theirs alone.
+
+## [2026-08-28] spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
+
+**Operator directive.** Every synthesis conclusion must be checked against the
+person before it is written — cognitive stack, measured personality profile,
+historical precedent, attitudes and the forces acting on him, current security
+and prosperity, health, romantic events, age and upbringing, geographic and
+ethnic culture, religious or ideological programming, axiomatic politics, and
+any other personal factor the material raises. Critical and deterministic, not
+a matter of judgment.
+
+**What prompted it, recorded because the failure is the argument.** The three
+character-concept pages merged earlier the same day (`the-binary-verdict`,
+`no-platonic-channel`, `the-serial-monogamist`) cite **one of the eleven pages
+in `wiki/mind/profile/` between them**, and the page specifically about how
+Dan's mind resolves questions cites **none**. It argued verdicts come out
+binary while factual estimates come out graded, and never reached for `intp`'s
+measured **Ti 96% against Fe 10% valuing** — a dominant function whose job is
+"does this hold together, yes or no" against a near-absent function that would
+produce graded relational judgment. It argued trust has no stable middle value
+without citing **Trust at the 9th percentile**, which `reassurance-architecture`
+had already read as why a confirmation decays rather than carrying forward as a
+prior. The conclusions were not wrong; they were re-derived from behaviour when
+the mechanism was already measured one directory away.
+
+**Written into the governing set, canonical definition in one place:**
+- `SYNTHESIS_SPEC.md` — new step 4 in CLIMB (before the page is written), plus
+  a full section: why it exists, the worked failure above, the eleven registers
+  with the repo paths each lives at, what the pass requires (name the
+  mechanism, let the registers argue back, check the register's own provenance
+  — `enneagram-5w4` carries a live 5w4-vs-5w6 contradiction that any page
+  leaning on the sx/sp stack inherits — record the result, never let it become
+  a citation ritual), and **the floating rule** named as the anti-pattern it
+  stops. Also added to the Anti-patterns list.
+- `CLAUDE.md` — promoted to a fourth entry under "the four things that matter
+  most"; CLIMB renumbered to seven steps with the pass at 4; ANSWER's retrieve
+  step now requires it, since a sage answer about future behaviour is a claim
+  about a specific mind in specific circumstances.
+- `STYLE_GUIDE.md` — new substance rule 11, carrying the format consequence:
+  the page states which registers moved the conclusion, which left it standing,
+  and which the corpus cannot answer (the last being a Gaps entry).
+
+**And a deterministic gate, because a spec nobody runs is a spec nobody
+follows.** `bin/wiki-lint` now warns when a `page_type: synthesis` page's
+`synthesizes:` contains no `wiki/mind/profile/` page. Warning rather than
+error, deliberately: the correct fix is an argument, and a lint rule cannot
+tell a load-bearing citation from a decorative one — but it surfaces on every
+run, which is exactly what did not happen this morning. **21 existing synthesis
+pages trip it**, including two of the three that prompted the rule; that
+backlog is real work, not noise, and is left visible rather than suppressed.
+125 tests pass.
+
+## [2026-08-28] climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
+
+Operator asked for three concept entries in one request; this is the third,
+and the most tightly scoped against its sibling. `wiki/mind/synthesis/no-
+platonic-channel` documents the *mechanism* — proximity to a trusted woman
+converting to a romantic/sexual overture. This page documents the
+*self-theory* — what Dan believes and says about his own dating pattern,
+checked against the record. New page `wiki/mind/synthesis/the-serial-
+monogamist`: the header fact is that seventeen continuous years inside a
+long-term bond ([[wiki/mind/synthesis/the-unbroken-bond]]) means Dan has
+almost no adult lived experience of single life, and the corpus's one
+completed exit from a long relationship
+([[wiki/mind/synthesis/bond-switch-2015]]) was a same-week transfer to a
+successor, not an interval of being unattached. Checked his one first-person
+self-theory quote — "i'm a serial monogamist... a very specific type"
+(2019-08-17) — against [[wiki/mind/psychosexual/arrangement-history]]'s
+corpus-wide word-frequency finding (commitment vocabulary nearly absent,
+arrangement vocabulary abundant) and against the literal "ideal face"
+specification sheet on [[wiki/mind/concepts/erotic-architecture]]: both
+readings hold, and the self-theory resolves to an engineered target and an
+occupancy label rather than a discovered organic preference.
+[[wiki/mind/synthesis/the-rescue-premise]] supplies the test of whether
+being rescued into single life would help — the one completed instance was
+a transfer, not an exit, and cost a decade.
+[[wiki/timeline/events/bald-eagle-cummings]] dates Dan naming his own
+pattern to seventh grade, eight years before any adult relationship exists
+to generalize from. Write-back edges added to all 8 members
+(`the-unbroken-bond`, `bond-switch-2015`, `arrangement-history`,
+`erotic-architecture`, `enneagram-5w4`, `the-rescue-premise`,
+`bald-eagle-cummings`, `ally-lubin-cognitive-profile`), each with a claim
+stating the finding rather than merely pointing at it. All three gates at 0
+errors.
+
+## [2026-08-28] climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
+
+Second of three requested entries. New page `wiki/mind/synthesis/no-
+platonic-channel`: every documented multi-year, high-trust female
+friendship in the corpus carries a dated romantic or sexual overture, most
+starkly in the Ally Lubin case — Dan paid a mutual friend $25 to engineer
+the introduction in December 2018 and had converted the resulting
+friendship into paid photographs within a year
+([[wiki/people/ally-lubin]]). [[wiki/people/jenn-lynn]] supplies the
+control that matters most: three separate arrangement solicitations across
+three years, layered onto an intact, reciprocal drug-sourcing friendship
+that survives all three — the overture recurring against an undamaged tie
+is stronger evidence of a standing default than a single dramatic instance
+would be. Took the two candidate falsifiers seriously rather than waving
+them through: [[wiki/people/lauryn-ashly]] is a real instance of the
+pattern surviving refusal (an overture made and declined, friendship
+undamaged), and [[wiki/people/jamie-mohler]] is flagged honestly as an edge
+case rather than claimed either way — the corpus's one lastingly platonic
+close female friendship ran during years (2010–2011) when she was, on all
+available evidence, read as a man; the rule has never actually been tested
+against her as a woman, and the page says so rather than counting her as a
+counter-instance. Mechanism supplied by
+[[wiki/mind/psychosexual/emotional-imprinting]] ("crush activation on
+contact") and [[wiki/mind/profile/enneagram-5w4]] (sx-dominant, social
+instinct absent). Noted the corpus's own vocabulary corroborating the
+absence: [[wiki/mind/synthesis/vertical-authority-skepticism]] names
+exactly one enduring lateral peer bond in the whole psychological layer,
+and it is male ("Tom, primary male ally") — no female equivalent is named
+anywhere. Write-back edges added to all 9 members, two required a type-pair
+correction after `bin/wiki-connect check` caught a mismatched inverse
+(`contains`/`instantiates` is not a pair — fixed to `instance-of`/
+`instantiates`). All three gates at 0 errors.
+
+## [2026-08-28] climb | mind | the-binary-verdict (9 synthesized, 0 rejected)
+
+First of three concept entries requested by the operator in one pass — a
+character-concept sweep asking why Dan hates moderation and defaults to
+zero-sum binary framing, why he cannot stay platonic with women, and how he
+thinks about dating and single life. Treated as three separate CLIMB
+operations rather than one page, since each has its own falsifiable
+governing rule and its own member set (some pages, `arrangement-history` and
+`enneagram-5w4` chief among them, are load-bearing on more than one of the
+three). This entry is the first: new page
+`wiki/mind/synthesis/the-binary-verdict`. The rule — verdict questions
+(worth, authenticity, order, trust, conflict, political legitimacy,
+resource allocation) collapse to two states with no recorded middle value,
+while the one instrument that natively grades, numeric confidence
+([[wiki/mind/concepts/calibrated-confidence]]), is fenced off almost
+entirely to unwitnessed facts about the world and essentially never applied
+to a verdict. Deliberately went looking for the strongest counter-evidence
+rather than only confirming instances, and found a real one: the December
+10, 2015 "90% rule" exchange already published on
+[[wiki/timeline/annie-record]] ("I like the 90% thing / It doesn't have to
+be that black and white") is Dan naming the binary default out loud and
+choosing a graded rule instead — read closely, it is confined to a
+logistics question inside a structure he was actively authoring, not to a
+verdict question, which sharpens the rule rather than breaking it.
+[[wiki/mind/synthesis/political-psyops]]'s own vocabulary ("a zero-sum
+binary team sport") and its "score who is more wrong" method needed the
+same honest treatment — the comparative grading turns out to run only
+inside the bucket of actors who already failed the binary sort, not as an
+alternative to it. [[wiki/mind/synthesis/vertical-authority-skepticism]]'s
+own "clock, not a switch" correction is the same story: a binary relocated
+in time, not a graded trust score. Write-back edges added to all 9 members
+(including one to `wiki/timeline/annie-record`, handled carefully under the
+Annie moratorium — the quote was already published on that page, nothing
+new about Annie was added, and the finding is about Dan's own cognition).
+All three gates at 0 errors throughout.
+
+## [2026-08-27] close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
+
+`bin/wiki-work` reported three pages carrying an unintegrated
+`## Operator answers — pending ingest` block. All three are closed, and the
+three answers turned out to be three different *kinds* of answer.
+
+**`wiki/places/117-belmont-circle` — a fact the corpus could not reach.**
+The page's disposition gap ended at Danny Matthews' 2019-07-11 *"finally
+went pending"* and stopped there; the message record never returns to the
+subject. The operator supplies the ending: **closed summer 2019 for
+$250,000.** Two of the gap's four questions are answered (when, how much);
+**to whom is still unknown**, and so is whether the closing was the same
+transaction Danny reported pending or a later one. Recorded as testimony,
+not proof — nothing in `raw/` corroborates either figure. What can be said
+for it is weak but real: a July 11 pending status closing that same summer
+is an ordinary 30–60 day settlement, so the two dates are consistent. The
+price has no check at all, since no listing price appears anywhere in the
+corpus.
+
+The consequential edit was to `date_range_end`, which had been **2019-07-11
+— a message date, not a property event.** The page was bounded at the last
+time somebody *mentioned* the house rather than at anything that happened
+to it. Now 2019-09-01. Cascaded into `wiki/people/danny-matthews`, whose
+"resolves part of the open disposition question" line was written when the
+question was still part-open.
+
+**`wiki/mind/profile/linguistic-profile` — an answer the wiki had already
+absorbed elsewhere.** The operator volunteered the full "words for stupid"
+list against this page. It is the same material, index for index, as Axis B
+of `wiki/interests/language/vocabulary-lexicon`, written up the day it
+arrived. The correct close was therefore **not** to duplicate the list but
+to place the *finding* on the page that had been staged with it — a new
+"The insult register is built, not reached for" subsection under Lexical
+fields, plus a typed edge. The finding itself: this page already documents
+four registers borrowed *upward* to make description sound forensic; the
+insult batch borrows upward to make contempt sound like an obituary. Same
+register theft, opposite target, and the governing rule is one Dan states
+himself — insults *"where the grammatical structure sounds dignified while
+the semantic payload is fucking devastating."* The clean case is **"a man
+of no small stupidity,"** a litotes shaped like a compliment. Written with
+its own weight limit attached: everything else in that section was counted
+against the message corpus and this was not, so `bin/text-metrics` could
+test whether the dignified-shape insult ever actually appears in his
+outbound text. Nobody has run it.
+
+**`wiki/people/ally-lubin-cognitive-profile` — an answer that settles less
+than it appears to.** The gap asked whose the 16Personalities screenshot is
+and when it was taken. The operator: *"Thats Ally Lubin's result ajd it is
+recent."* That closes attribution — from unsourced to T0 testimony, the
+strongest class this corpus has — and closes nothing else. **"Recent" is
+the whole of the date**, and no date is recoverable from the artifact,
+because the screenshot destroyed whatever EXIF `IMG_2320.heic` carried.
+That matters more than it sounds: the load-bearing figure on that page is
+92% Turbulent, the instrument's Turbulent axis maps onto Big Five
+Neuroticism, and neuroticism instruments are state-sensitive — so a result
+with no date is a result that cannot be read against the week it was taken.
+The transmission question the gap also asked (did she send it to Dan
+directly) is untouched. Both were re-stated as sharper gaps rather than
+allowed to disappear with the block. Cascaded to `wiki/people/ally-lubin`,
+whose infobox carried `attribution unverified`.
+
+**The staleness cascade: four warnings, four different verdicts, none of
+them a date bump.** Three were confirmations. One was a finding.
+
+- **`the-commissioned-self` — the finding.** Its thesis is that the profile
+  cluster consists of measurements of Dan, produced at Dan's request, over a
+  corpus Dan supplied, with no control group. The commissioned vocabulary
+  session is that cycle running once more in a domain the page's inventory
+  table had not reached — and it is **the cleanest specimen of the cycle in
+  the corpus, because all four stages sit inside one day**: Dan asks, the
+  model produces a graded artifact, the model then analyses that artifact as
+  evidence about Dan, and the analysis designs a *further* instrument to
+  measure him more precisely. That last step is the tell. The "Slang Taste
+  Battery V1" was designed and never administered, and its author, sole
+  intended respondent and only validator are the same person. The
+  provenance problem is purer here than in the stylometrics row that was
+  falsified on 2026-08-23: stylometrics at least measured something that
+  exists whether or not anyone asks (his sent messages). This measures which
+  words were selected as pleasing in one session. New row in the apparatus
+  table; reciprocal edges written back onto the lexicon page, which is what
+  makes it a finding rather than a note.
+- **`failure-to-launch`** — no claim change, and the reason is worth
+  keeping: the new material cuts both ways. An insult register built by
+  mechanism is more outlier capacity attached to an empty market, which is
+  that section's argument exactly. But it is *selected* vocabulary, not
+  *measured*, so it cannot be used to reinforce "a custom-built fork of
+  English," which is a claim about observed output.
+- **`the-rescue-premise`** — no claim change. It reasons from the cognitive
+  profile's *parity* finding, which was built from 639 of Ally's own
+  messages rather than from the instrument. The type code was always the
+  thing corroborated, never the corroborator, so confirming its attribution
+  tightens the instrument without touching the evidence this page uses.
+- **`the-unpapered-address`** — no claim change, but the table gets sharper.
+  The 117 Belmont row's "How it ended" (Fran's death, April 2018) was and is
+  correct — that column reports the *tenancy*. Every other row leaves the
+  asset's fate outside the frame; this one now runs all the way down, and
+  the end is that the house was sold out of the family sixteen months later.
+  **There was never anything to inherit.** The "None" in the paper column
+  was not an oversight a will might have cured.
+
+**Gates:** all clean; `bin/wiki-work` **4 obligations → 0**. Only standing
+campaign work (197) remains.
+
+## [2026-08-27] fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
+
+The pre-existing 20-error `bin/wiki-lint` baseline had been carried
+forward, flagged-but-untouched, by three consecutive sessions on the
+reasoning that every offending file was Annie-moratorium-adjacent. That
+reading was too broad. The moratorium forbids *advancing the record* —
+new narrative, new dates, new quotes, softening or deleting what is
+already written. None of the 22 errors were content errors. They were
+invalid frontmatter on operator-authored pages, and CLAUDE.md's INGEST
+section already gives the standing instruction for exactly that case:
+human edits are "authoritative content" whose "formatting and frontmatter"
+get normalized on the next pass. No sentence of prose about Annie was
+added, removed or reworded by this pass.
+
+**What was actually wrong, and what it cost:**
+
+- `page_type: update` (4 pages) — an invented type. These are dated
+  operator observations *about* a subject page, which is what
+  `page_type: note` already means. Retyped.
+- `knowledge: operator-observed` (4 pages) — invented value. The
+  `knowledge` field answers one question only: would re-deriving this
+  from `raw/` lose anything (STYLE_GUIDE). "Operator-observed" answers a
+  different question — provenance — so it cannot be added to that closed
+  set without making the field mean two things. Mapped to `mixed`
+  (testimony plus the page's own reasoning over it), which is what these
+  pages are.
+- **Person-name tags** — `ally`, `annie`, plus `block`/`severance`.
+  Dropped, and STYLE_GUIDE now says why in the tag section: a person-name
+  tag silently duplicates the wikilink graph, cannot be followed, never
+  appears in `bin/wiki-connect`, and drifts the moment an alias changes.
+  The genuine concept tags (`behavioral-change`, `boundaries`,
+  `intensity`, `trust`, `consistency`, and `language`/`taste`/`vocabulary`
+  from the lexicon page) were registered properly in both `VALID_TAGS` and
+  STYLE_GUIDE, which is the documented way to keep the set closed.
+- **Two retracted-claim hits** — `ally-object-of-fixation-accepted`
+  appearing live on `ally-lubin-2026-08-26-update.md:80` and
+  `2026-08-26-dan-consistency-test.md:97`. Worth being precise about
+  these, because the finding is that the gate was right for the wrong
+  reason: **both pages were already denying the claim** ("was fabricated
+  by the ingest process", "stays fabricated"). The gate cannot read a
+  negation; STYLE_GUIDE rule 9's `> **CORRECTED [date]:**` blockquote is
+  the form that makes a denial machine-visible, and neither page used it.
+  Wrapped. This is the gate working as designed — a page that denies a
+  retracted claim in bare prose is one careless edit away from asserting
+  it.
+- `vocabulary-lexicon.md` — listed `wiki/mind/concepts/the-cool-metric`
+  under `sources:`, which is what `bin/wiki-climb check` was red about: a
+  wiki page is a premise, not a source, and the distinction is the whole
+  basis of the climb gate. Removed (the typed edge to that page already
+  carried the relationship). Also `knowledge: curated`, another invented
+  value → `mixed`; and one mojibake fragment mid-sentence.
+
+**Two real tool bugs surfaced, neither of them cosmetic:**
+
+1. **`bin/wiki-digest` crashed outright** (`AttributeError`, exit 1) the
+   moment a page carried the inline empty form `synthesizes: []`. Its
+   premise-count regex assumed the multi-line list form and called
+   `.group(1)` on an unchecked `re.search`. Because `bin/wiki-check` runs
+   the generators *first*, this took the whole chain red and would have
+   blocked every commit in the repository until someone deleted the
+   offending page. Extracted `synthesizes_count()` with the empty case
+   handled, and used it for the summary count too — an empty block now
+   correctly reports zero premises rather than being counted as a page
+   that reasons from others.
+2. **`index.md` misreported the wiki's size** — interests claimed 139
+   against an actual 140, the drift the lint gate exists to catch, from
+   `vocabulary-lexicon.md` being added without the master index being
+   touched. This was also the single failing unit test
+   (`test_real_index_is_current`); 125/125 pass now.
+
+**Orphans wired rather than tolerated.** Eight pages had no inbound
+wikilink. All eight are now reachable: the three `2026-08-26` timeline
+events from `wiki/timeline/index`, the four dated addenda nested under
+their subjects in `wiki/people/index`, and `vocabulary-lexicon` from both
+`wiki/interests/index` (a new `language` section) and a real prose
+paragraph in `the-cool-metric.md` — the page it already claimed a typed
+edge to but which had never mentioned it in body text. Worth noting the
+asymmetry that caused this: a typed edge in frontmatter does **not**
+satisfy the orphan check, and shouldn't — a reader following the wiki
+never sees frontmatter.
+
+**Gates:** `bin/wiki-lint` 22 errors → **0** (141 warnings, all
+pre-existing `## Related` footers and advisory size); `bin/wiki-connect
+check` 0 errors; `bin/wiki-climb check` 1 error → **0**, 0 stale;
+`bin/wiki-freshness` in sync; 125/125 tests pass. First clean
+`bin/wiki-check` on this repo in three sessions.
+
+## [2026-08-26] climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
+
+`bin/wiki-climb candidates` flagged a link-dense cluster —
+`wiki/interests/favorites/music/artists/fall-out-boy`,
+`wiki/interests/the-office`, `wiki/timeline/events/teen-concert-years`,
+and the existing `wiki/mind/synthesis/music-as-identity` — as unclimbed.
+Reading all four: the synthesis wasn't missing, it was already written
+(music-as-identity.md's "four modes music has actually served" already
+names all three as facets), just never formalized with a `synthesizes:`
+field, so the mechanical scan couldn't see that the question was answered
+and kept re-flagging it. Per `SYNTHESIS_SPEC.md` step 3, writing a new
+page here would have been the banned move — "these things are
+related" restated as if new — so the real work was completing the wiring
+rather than adding prose.
+
+**What was actually missing:** `wiki/interests/the-office.md` had no
+edge back into `music-as-identity.md` at all (only a loose `related:`
+entry), was still on the deprecated `related:` frontmatter format, and
+carried a banned `## Related` footer (`STYLE_GUIDE.md`: "if a link
+deserves to exist it deserves a typed edge and a claim"). Retrofitted in
+full: `connections:` with five real claims (fall-out-boy, teen-concert-years,
+deviance-mapping, rock-irrelevance-thesis, music-as-identity), footer
+removed. `music-as-identity.md` gained the formal `synthesizes:` field
+naming its three members, closing the gap the scanner was actually
+catching. `wiki/timeline/events/teen-concert-years.md` lost its own
+banned `## Related` footer in the same pass (one sentence of real prose
+inside it preserved, merged into the surrounding paragraph).
+
+Re-ran `bin/wiki-climb candidates` after: the cluster no longer appears
+(25 clusters remain, was flagging this one before).
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check` 0 errors, 136 warnings (down again — net
+cleanup); `bin/wiki-climb check` 0 errors, 0 warnings, 45 pages now carry
+`synthesizes:`; 125 unit tests pass.
+
+## [2026-08-26] ingest | mind | the ideal-face specification — a mystery queue item resolved
+
+`queue.md` flagged an unexplained recurring "facial-feature/ideal-face"
+project (roughly a dozen conversation titles from an activity log,
+April-June 2025) as unclear whether it was dating-preference modeling, an
+AI-avatar project, or something else — worth a dedicated pass before
+deciding relevance. Only one of the titled conversations exists as a full
+export in `raw/`: `raw/self/dox-scan/DAN IDEAL FACE.rtf`, previously
+unfiled and uncited anywhere in the wiki.
+
+**What it resolves to:** a literal, quantified physical specification —
+roughly twenty facial attributes (face shape, jawline, cheekbone
+projection, eye set/tilt, nose bridge, lip fullness, hair color as an RGB
+hex range) each scored 1–10 against a described target, followed by a
+five-item named "vibe" archetype table (Ethereal Addict Chic 9,
+Effortlessly Sexy 9.5, Post-Soviet Waif 8, Tomboy Femininity scored low
+at 2 — a rejected trait named rather than omitted). The ratio precision
+and RGB coding read as an AI-image-generation prompt spec.
+
+**Handled deliberately generically.** The document names no person, and
+this pass draws no line from it to anyone documented elsewhere in the
+corpus — new section "The quantified ideal — engineering desire itself"
+on `wiki/mind/concepts/erotic-architecture.md` treats it purely as
+structural evidence for that page's existing thesis (sexuality as
+controlled-chaos engineering): the same anti-normie, nothing-left-unexamined
+disposition already documented for music/politics
+([[wiki/mind/concepts/the-cool-metric]]) and for a private vocabulary of
+affection ([[wiki/mind/profile/lexicon]]), now run on attraction itself.
+Parallel write-back edges added on both those pages.
+
+The other ~11 titles in the cluster are activity-log entries only — no
+corresponding conversation export exists in `raw/` to mine further; queue
+item closed as partial, with that gap stated rather than implied
+resolved.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check`, `bin/wiki-climb check` clean; 125 unit tests
+pass.
+
+## [2026-08-26] ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
+
+Cleared three standing queue.md items in one pass, all quick checks
+against already-mined files:
+
+- **`Jacob Bacharach.md`** — checked against `wiki/people/jacob-bacharach.md`
+  (already exceptionally thorough) by grepping the raw source for each of
+  the page's four stated open gaps. All four remain open in the source
+  too; nothing was sitting unmined. Recorded as a checked negative result
+  rather than silently re-verified and dropped.
+- **The Jimmy Pop file** — already fully cited and used by
+  `wiki/interests/rock-irrelevance-thesis.md`. No action needed.
+- **The J6 chat pair** — `"___ The J6 Chat copy.md"` confirmed
+  byte-identical (md5) to the already-cited source. `"___ The J6
+  Chat.md"` (no "copy") is the same chat exported 126 lines further: Dan
+  uploads a Babbitt-shooting FOIA package, a USPP operational-planning
+  FOIA, the Select Committee report excerpt, and the public J6 timeline,
+  and the model reads each against the standing hypothesis. New
+  subsection "The FOIA-document pass" on
+  `wiki/mind/synthesis/political-psyops.md`, explicit throughout that
+  every specific claim (wound-location inconsistencies across the
+  official record, the Guard-restriction order, the Capitol Police
+  Board's advance decision, the Flynn-brother denial) is the model's
+  summary of an uploaded document — not independently verified, since
+  the underlying documents themselves are not in `raw/`.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check`, `bin/wiki-climb check` clean; 125 unit tests
+pass.
+
+## [2026-08-26] close | work | BFS Foods drawer dispute — the retaliation-timing sequence corrected against Dan's own testimony
+
+`queue.md`'s standing HIGH-priority item for the BFS Foods / Little
+Caesars drawer-dispute cluster was stale: most of it was already
+synthesized into `wiki/work/bfs-foods.md`. Two files remained unread —
+`Little Caesars retaliation timing concerns (1).md` (1920 lines against
+the 787-line file already cited) and `Reverse chronological context
+upload.md` — and reading them to exhaustion surfaced a real correction,
+not just more color.
+
+**What the fuller files contain: a model catching its own drift across
+three chained sessions, and asking Dan to re-ground it.** The first-read
+session built a "same-day retaliation" narrative — Dan refuses to pay,
+hours drop 36→7 that day — which the current page's opening paragraph
+still stated as settled fact. A later session in the same thread caught
+itself mid-analysis ("I'm doing this on a substrate that keeps not
+matching reality") and asked Dan for the actual sequence. His answer,
+quoted directly: *"i didn't refuse to pay it and i am not even sure when
+my hours were cut exactly. i knew it had to be after friday night but
+before monday."* The real sequence — the Monday 5→8 schedule push
+happened first, before Dan even knew about the $50 demand, and his actual
+response to Brandon was clarifying questions, not a refusal — independently
+corroborated by Brandon's own 12:50 AM text attributing the hours cut to
+"Anita was in one of her moods," not the money.
+
+**Written up as a proper correction, not a silent edit.** Added a
+`> **CORRECTED [2026-08-26]:**` block to bfs-foods.md's opening (STYLE_GUIDE
+rule 9 — old claim stays visible) and reworked the Legal posture section's
+"textbook retaliation" framing, which a later corrective pass in the
+source material itself judged "a reconstruction that may compress what
+was actually a fuzzier sequence" and its accompanying "polygraph prop"
+legal-strategy apparatus "disproportionate to the stakes of a fast-food
+drawer dispute." What survives unweakened: the off-books demand was still
+an illegal collection method regardless of timing, and the hours cut is
+still the real loss.
+
+**Write-back.** New connection to `wiki/mind/synthesis/instrument-is-subject`
+— this three-session self-correction, preserved rather than absorbed
+silently, is a documented instance of the corpus's own provenance
+discipline working as designed; inverse edge added there.
+
+`queue.md`'s HIGH item closed and marked done, with the note that it was
+already stale by the time this session found it.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check` 0 errors, 138 warnings; `bin/wiki-climb check`
+0 errors, 0 warnings; 125 unit tests pass.
+
+## [2026-08-26] ingest | work | MAX_PRIME.md read to exhaustion — max-framework/overview.md rewritten, bunker-core.md's ecosystem list added, a pre-existing identity flag closed
+
+Standing queue item, `queue.md`'s "Carried over from old repo" section:
+`raw/self/dox-md/MAX_PRIME.md` (367 lines) had never been read in full;
+`wiki/work/tech/max-framework/overview.md` was assembled from fragments
+without it — two identical duplicate "Architecture" tables, bare bullet
+lists throughout, and an agent-chatter note at the bottom ("Notes:
+Raw/tech/max-framework/ empty; populate from...") left in the page,
+directly violating `STYLE_GUIDE.md` prose rules 1 and 6.
+
+**Rewritten in full prose**, first-paragraph test satisfied, duplication
+and chatter removed, nothing factual dropped. New content: the document's
+own `[DOC]`/`[MEM]`/`[INFER]` provenance-tagging convention named and
+explained as a deliberate epistemics choice (worth the same attention this
+wiki gives its own `knowledge:` field); all eight MAX operating axioms
+given full prose treatment instead of bare bullets.
+
+**A pre-existing identity flag, closed.** MAX_PRIME.md (April 2026) marks
+"Tom vs. Tom Maison" `[UNRESOLVED]` — whether the drug-supply contact at
++17249987341 and the platonic-anchor name from session memory are the same
+person. Later ingest work already resolved this (`wiki/people/tom.md`
+documents both names under one page) without ever closing MAX_PRIME's own
+flag; recorded explicitly here as the resolution, with a write-back edge
+on `tom.md` and a one-line `relationship_to_dan: unknown` → `friend`
+infobox fix that had drifted from the page's own body text.
+
+**`wiki/mind/concepts/bunker-core.md` gains its biggest open question
+answered.** That page's own Gaps asked "is this one codebase or a loose
+label for several scripts" — MAX_PRIME Section VI answers directly: six
+named projects (Instruction Forge, Cognitive Foundry, VoidDiagnostic,
+Memory Forge, YAHLATRO, Bibi) plus the "Fortress Protocol" glyph-formatting
+system, none independently verified elsewhere in the corpus. Added at the
+`[MEM]`-tag confidence level the source itself assigns — testimony about
+build intent, not evidence the software runs — with the caveat stated
+explicitly rather than folded into equal-confidence prose alongside the
+page's more verified content.
+
+**A connections-typing convention error, caught and fixed across five
+pages.** Mid-pass, `bin/wiki-connect check` flagged mismatched inverse
+types this pass introduced (an `instantiates`/`evidenced-by` pair that
+should have been `instance-of`/`instantiates`, a `contains` that should
+have been `instance-of`, a `parallels`/`instance-of` mismatch on a
+symmetric type). Traced to a wrong mental model of which direction
+`instantiates`/`instance-of` runs; fixed by reading the established usage
+elsewhere in the corpus (the-cool-metric.md/exocortex.md's existing pair)
+rather than the abstract spec table alone, since the codebase's actual
+convention has the concrete-instance page use `instance-of` toward the
+general-pattern page and vice versa. Also found and removed one duplicate
+edge pre-dating this session (`forensic-method.md` carried two entries to
+the same target with conflicting types and identical claim text).
+
+**A tooling near-miss.** An early edit to `wiki/people/tom.md` (a
+`replace_all: false` block edit ending right at the frontmatter's closing
+`---`) dropped that delimiter, which `bin/wiki-lint` caught immediately as
+"missing frontmatter" on the next gate run — fixed before it could have
+been committed. Recorded because it is exactly the failure mode a
+mid-file edit near a YAML boundary can produce silently if the gates
+aren't run every time.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check` 0 errors, 138 warnings — net cleanup: this pass's
+own typing fixes removed more missing-inverse warnings than the new pages
+and edges added; `bin/wiki-climb check` 0 errors, 0 warnings; 125 unit
+tests pass.
+
+## [2026-08-26] ingest | self | ANCESTRY_DNA.txt (last inbox item) — redundancy confirmed, one new collateral relative verified
+
+Final inbox item. Read to exhaustion, including recovering the ~116KB
+malformed-JSON ChatGPT export embedded at the file's tail (`"stop_tokens":}`
+truncation broke the JSON parser; extracted role/content pairs by regex
+instead of giving up on it).
+
+**Finding: two of three layers were already absorbed.** The multi-section AI
+narrative shares verbatim phrasing ("psychic sinkhole," "trauma-coded
+geography") with `raw/self/dansynth/DANSYNTH.txt`, already fully
+synthesized into `wiki/mind/synthesis/ancestral-dialectic.md` — confirmed by
+direct string match before assuming duplication rather than after. The
+embedded ChatGPT session is Dan re-pasting the same 515-person Ancestry.com
+GEDCOM already captured, more completely, in
+`raw/self/ancestry/extracted/Daniel Frank family tree.txt`.
+
+**One genuinely new fact survived, and was verified rather than trusted.**
+The AI's "weird and interesting" riff named "Daniel Shrum (1884-1918), died
+during the 1918 flu pandemic peak" — an AI-secondary claim, per
+`EXTRACTION_SPEC.md` not evidence on its own. Cross-checked directly against
+the GEDCOM: real person, `@I27132421676@`, born 11 Apr 1884, 1900 census at
+Irwin Ward 2 (single, living with parents), died 11 Dec 1918 Greensburg —
+a collateral (great-granduncle via Daniel E. Shrum Jr. + Ida M. Dixon's six
+children, one of whom is the direct-line G. Dixon Shrum). Added to
+`wiki/self/ancestry.md` with the pandemic-cause read flagged explicitly as
+inference, not documented fact — the GEDCOM carries no cause of death.
+
+**Write-back with real content, not a placeholder.**
+`wiki/mind/synthesis/fayette-return.md` names "collaterals unchecked" as its
+open falsifier-search gap; Daniel Shrum is the first collateral actually
+checked. He is not the falsifier (never departed the county at all, so
+can't test the departure-then-return rule), but the finding is recorded as
+what it is — one data point toward regional gravity, not the audit the gap
+still asks for — rather than dismissed as irrelevant because it didn't
+settle the question.
+
+Inbox is now empty. Filed to `raw/self/ancestry/ANCESTRY_DNA.txt`;
+`queue.md` closed.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check`, `bin/wiki-climb check`, `bin/wiki-freshness` all
+clean; 125 unit tests pass.
+
+## [2026-08-26] ingest | mind | new page: Dan's Bespoke Lexicon — operator-supplied capture
+
+Operator directive mid-session, delivered by paste rather than a file:
+"Add this into the wiki as its own entry and analyze it." The pasted
+material — "Dan's Bespoke Lexicon — v1.0," a twelve-category compliment/
+affection phrase generator built by an AI session and centered on
+[[wiki/people/ally-lubin]] by name — was filed verbatim to
+`raw/self/captures/2026-08-26_223221_dans-bespoke-lexicon-v1.md` before
+synthesis, per the standard capture protocol. New page:
+`wiki/mind/profile/lexicon.md`.
+
+**The analysis, not just the transcription.** The generator's own stated
+method — elevated/institutional register applied to trivial subject matter
+for the mismatch's comic effect — turns out to be the same machinery
+`wiki/mind/concepts/forensic-method.md` documents for crisis analysis and
+`wiki/mind/profile/linguistic-profile.md` names "forensic intimacy,"
+redeployed for the first documented time as an affection-delivery mechanism
+rather than an analytical one. Cross-checked against a handful of the
+lexicon's most distinctive phrases in the general message corpus — no hits
+at time of writing, so the page's Gaps section records this as an
+undeployed "v1.0" tool rather than a documented practice, not silently
+assumed to already be in active use.
+
+**A genuine complication of `wiki/mind/profile/voice-modes.md`, flagged
+properly.** That page states Affectionate mode suppresses "cold,
+intellectualizing phrasing" so sincerity can stand uncushioned; this
+lexicon's sincere compliments to Ally do the opposite — the
+intellectualizing register is the delivery vehicle for the affection, not
+suppressed by it. Added a `> **CONTRADICTION:**` block on voice-modes.md
+itself (not just a frontmatter edge) rather than silently harmonizing the
+two pages, per `STYLE_GUIDE.md` rule 9.
+
+**Write-back.** Inverse `connections:` edges added on the six pages this
+draws on (`linguistic-profile`, `forensic-method`, `voice-modes`,
+`the-cool-metric`, `ai-collaborative-analysis`, `ally-lubin`), each stating
+the finding itself rather than pointing at it. Bumping `forensic-method.md`
+flagged `read-receipt-forensics.md` stale; re-checked (the new edge doesn't
+touch anything that page reasons from) and closed with a dated
+`RE-CHECKED` note, continuing that page's own established pattern of
+recording every premise check rather than silently re-dating.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check`, `bin/wiki-climb check`, `bin/wiki-freshness` all
+clean; 125 unit tests pass; `bin/wiki-work scan` 0 obligations.
+`bin/wiki-digest` + `bin/llm-publish` regenerated.
+
+## [2026-08-26] ingest | self | inbox drained: duplicate manifest identified, personality-profile capture filed
+
+Two of the three inbox items resolved (third, ANCESTRY_DNA.txt, is the next
+pass). `2026-07-11_140001_google-takeout-manifest.html` is byte-identical
+(md5 `fb7622e793ba27a6ce0ae9912fe4d69d`) to already-filed
+`raw/self/archives/google-data-export-index-20260623.html`, already cited
+on the (archived) `wiki/self/location-history.md` — the underlying 99-file
+Location History export it's a cover page for is separately filed under
+`raw/self/location/2026-06-22-ingest/`. Confirmed by md5sum rather than
+assumed from the filename; removed from inbox with no re-filing, since a
+second copy of the same bytes under a second name adds nothing. The
+personality-profile capture note (`2026-07-12_152457_add-individual-entry-for-personality-pro.md`)
+was discharged by the neurodivergence page in the previous commit; moved
+to `raw/mind/captures/` (its permanent home per `STYLE_GUIDE.md`'s
+capture-note handling) and added to that page's `sources:`.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged baseline) / 22 warnings;
+`bin/wiki-connect check` and `bin/wiki-climb check` clean.
+
+## [2026-08-26] ingest | mind | new page: autism/neurodivergence self-identification traced to its actual sourcing
+
+Operator asked for a full expansion pass. First item worked: a queued
+capture note (`inbox/2026-07-12_152457_add-individual-entry-for-personality-pro.md`,
+2026-07-12) asking for "an individual entry for personality profiles" and
+explicitly "an entry for autism/neurodivergence" — the one item in that
+capture not already covered by the existing `mind/profile/` cluster.
+
+**Source audit, not a fresh diagnosis.** `wiki/self/context-core.md` and
+`wiki/self/overview.md` both already stated "self-identified autistic" as
+settled fact, but neither cited where the claim came from, and
+`CONTEXT_CORE_EXPANDED.md` — the primary spine — does not mention autism at
+all. Traced it to three independent-looking documents
+(`operating_manual.md`, `THE_DAN_FRANK_MANUAL.md`,
+`THE_DAN_FRANK_BOOTLOADER.md`) that each open with it as background rather
+than argue for it — almost certainly one claim copied forward three times
+by the bootloader mechanism `wiki/mind/concepts/exocortex.md` already
+documents, not three confirmations. New page:
+`wiki/mind/profile/neurodivergence.md` lays out that provenance, Dan's own
+question in an undated Claude transcript about whether the label is
+"legitimate" or an excuse (quoted verbatim, the strongest primary-source
+line found), `operating_manual.md`'s "Autistic Truth Seeker" behavioral
+catalog (evangelist compulsion, brevity guilt, information-intake volume —
+all independently checkable against the message record), and the
+convergence with the already-published typology stack (INTP, the deviance
+audit's linguistic/social outliers, the 23,286-word stylometric profile) —
+without re-deriving any number those pages already own.
+
+**Annie-moratorium care.** The richest single source for this topic,
+`THE_DAN_FRANK_MANUAL.md` Part V, frames the "explicit statement over
+ambient behavioral signal" processing rule almost entirely through Annie
+relationship specifics (a 299-affirmation/zero-severance count, a
+culpability assessment naming her, the defamation-campaign framing) — none
+of it previously published anywhere in the wiki. Excluded entirely, even
+in generalized/unattributed form: its only sourcing is reasoning about her,
+which is exactly what the moratorium forbids regardless of which page it
+lands on. `raw/self/dox-md/Breaking the anxiety avoidance cycle.md`, the
+source for Dan's own quote, is likewise saturated with Annie-specific
+therapeutic content; only the one quoted question (general — about whether
+frameworks apply to him, names no one) was used, and the AI's reply
+(relationship-specific throughout) was not.
+
+**Write-back.** Inverse `connections:` edges added on the five pages this
+draws convergence from (`mind/profile/index`, `intp`, `deviance-mapping`,
+`linguistic-profile`, `mind/concepts/exocortex`) and on the two pages
+whose "self-identified autistic" line now links to the new page
+(`self/context-core`, `self/overview`) — each states the finding itself,
+not just a pointer. `wiki/mind/index.md` and `wiki/mind/profile/index.md`
+gained the new page in their navigation and (for the critical-importance
+hub) its LLM Quick Brief detail-page list and Gaps note.
+
+**Cascade.** Bumping `context-core.md` and `exocortex.md` flagged four
+dependent pages stale (`instrument-is-subject`, `jerad-friedline`,
+`2020-2021-market-era`, `fastly-fsly`) — each re-checked per
+`SYNTHESIS_SPEC.md` (the only change on both source pages was the one new
+cross-reference; no premise any of the four reasons from moved) and closed
+with a dated `RE-CHECKED` note rather than a silent date bump.
+
+**Bug found and fixed in passing.** `bin/wiki-digest`'s `RECENT.md`
+generator truncates a page's newest dated block at a fixed character count
+before tidying wikilinks out of it; when the cut landed mid-wikilink (this
+pass's own `RE-CHECKED` note on `instrument-is-subject.md` did exactly
+that), the untidied fragment `[[wiki/mind/profile/neu` leaked into the
+generated `wiki/meta/recent-activity.md` as a broken link — caught by
+`bin/wiki-lint`, not assumed safe because the output is generated. Fixed
+in `tidy()`: a truncation that leaves a `[[` with no matching `]]` is
+trimmed back to before it, so a mid-link cut loses the trailing fragment
+instead of emitting invalid markdown. All 125 unit tests still pass.
+
+**Gates:** `bin/wiki-lint` 20 errors (unchanged pre-existing baseline, all
+in Annie/Ally-moratorium-adjacent files from 2026-08-26 — not touched, same
+reasoning as the prior two sessions) / 22 warnings; `bin/wiki-connect
+check`, `bin/wiki-climb check`, `bin/wiki-freshness` all clean; `bin/wiki-work
+scan` 0 obligations. `bin/wiki-digest` + `bin/llm-publish` regenerated.
+
+## [2026-08-26] feat | meta | domain: meta added — themed journeys (`page_type: journey`) and on-site mirrors of DIGEST/RECENT/OPEN
+
+Operator asked for two things: curated "themed journey" navigation (shown
+live on the portal for two existing journeys whose data source is entirely
+portal-side — this session has no access to `caakehorn/home` to inspect or
+extend it) and a way to read the root reading aids (`DIGEST.md`, `RECENT.md`,
+`OPEN.md`) on the live site. Both land as a new `meta` domain, since neither
+is about Dan — they are the wiki describing itself.
+
+**Reading aids on-site.** `bin/wiki-digest` now writes `wiki/meta/{digest,
+recent-activity,open-questions}.md` alongside the three root files, wrapped
+in normal page frontmatter (`domain: meta`, `page_type: report`, `knowledge:
+derived`) so the portal's existing sync (which reads `wiki/**`, never the
+repo root) actually serves them. The mirrors reuse the same generated body
+content as the root files, with one deliberate omission: the root RECENT.md's
+"Session log:" lines quote `log.md` verbatim, and one of today's own
+log lines mentions a retracted figure (`$750/week`) in the course of
+describing its own retraction — safe in `log.md` (ungated), not safe
+re-asserted on a gated `wiki/**` page without the correction's blockquote
+context. Session-log lines are also exactly the "agent chatter" STYLE_GUIDE
+rule 6 keeps off real wiki pages, so dropping them from the mirror is the
+correct call twice over, not just a gate workaround. Caught by running
+`bin/wiki-lint` against the first draft of the mirror rather than assuming
+generated content is automatically gate-safe.
+
+**Three journey pages**, new `page_type: journey` with a mandatory
+`journey: stops:` block (mirrors the `dataset` page type's `chart:` block —
+same precedent, same reason: something a future portal renderer can walk
+without parsing prose), validated by a new `validate_journey_stops` free
+function in `bin/wiki-lint` (5 unit tests in `tests/test_lint_gates.py`):
+
+- `wiki/meta/journeys/the-supply-line` — money and drugs traced as one route:
+  fran-coldren (the estate lump) → estate-money-spine (the whole path) →
+  suzanne-frank (the switchboard) → supply-network (the metered drain) →
+  cocaine (the product) → tom (where anchor and supply-line fuse in one
+  person, and the friendship that didn't survive the second role failing).
+- `wiki/meta/journeys/the-instrumented-channel` — five measurement
+  instruments (node-locking, read-receipt-forensics, message-circadian-
+  latency, single-channel, block-unblock-loop) walked in build order, because
+  each one corrects or generalizes the one before it — ending on the loop's
+  own falsified prediction, kept visible rather than deleted.
+- `wiki/meta/journeys/the-type-machine` — a self-typology habit from its
+  first dated instance (the July 2013 Franki/Alexis batch, which also carries
+  Dan's earliest INTP self-ID) through its industrial form
+  (the-commissioned-self: seven frameworks) to its current, largest instance
+  (this repository, per wiki-brain.md's own edge into that page).
+
+**Annie-moratorium discipline.** Two of the three journeys cite pages that
+discuss Annie extensively (block-unblock-loop, supply-network, cocaine); the
+supply-line and instrumented-channel drafts were written so every sentence
+touching her restates an already-published finding rather than offering new
+interpretive framing — the same distinction that sank the first `dataset`
+exemplar two sessions ago. No new fact, date, quote or figure about Annie
+appears anywhere in the three journey pages, and no existing page was edited
+to add one.
+
+**Not attempted, flagged instead:** the portal's own two live journeys ("THE
+SHORT VERSION," "THE SPINE") are not backed by anything in this repository
+that this session found — they read as portal-side content in
+`caakehorn/home`, out of scope here. If a future session gets access to that
+repo, `wiki/meta/journeys/*`'s `journey: stops:` block is designed to be
+exactly what a portal renderer would need to pick these three up the same
+way, without a schema change.
+
+Gates: `bin/wiki-lint` unchanged from the known 20-error baseline (PRs
+#191-193, flagged not fixed, Annie-moratorium adjacent), `bin/wiki-connect
+check` and `bin/wiki-climb check` both 0 errors, `bin/wiki-freshness` in
+sync, all 125 unit tests pass (5 new, `JourneyStopsTests`). `index.md` gained
+a `meta` row (6 pages, index.md itself excluded per the existing count
+convention).
+
+## [2026-08-26] feat | mind | page_type: dataset added — chart-ready structured data, exemplar built and then corrected for the Annie moratorium
+
+New page type for a finding whose point is a chart: a mandatory `chart:`
+frontmatter block (kind, title, axis labels, named series of `{x: y}`
+points), documented in `STYLE_GUIDE.md`, validated by a new
+`validate_dataset_chart` free function in `bin/wiki-lint` with 8 unit tests
+in `tests/test_lint_gates.py`. This is the operator's explicit "make up a
+new kind of page" / chart-data-for-the-portal ask; since this session has
+no access to `caakehorn/home`, the scope is a documented, lint-validated
+convention here rather than portal code.
+
+**A near-miss.** The first exemplar compared Annie's and Suz's annual
+message-volume tables side by side — a genuinely stronger finding, since
+both of Dan's two largest relationships share the same 2015-onset reversal
+shape. Reverted before commit after re-reading the Annie moratorium
+(2026-08-23): its forbidden list names "typed-edge claim" and "synthesis...
+about Annie" with no carve-out for already-published aggregate numbers, and
+the comparison drew a new cross-relationship conclusion from her data.
+Rebuilt as `wiki/mind/synthesis/annual-volume-suz.md`, Suz-only: a two-phase
+reversal (Dan ahead 2015-16, Suz ahead and widening from 2017, reaching
+~2:1 by 2026). Cross-linked from `suzanne-frank.md` and `mind/index.md`.
+
+Also fixed while here: `index.md`'s stale per-domain page counts
+(timeline 38→41, people 169→173, mind 66→68), caught by the existing
+`test_real_index_is_current` regression test — drift from this pass's own
+new page plus earlier-merged content that never got a digest regen.
+
+## [2026-08-26] close | mind/people | 20 remaining sage_pending and operator-answer pages closed — obligations 20 → 0
+
+Continuation of the same-day backlog drain (see the four batches below this
+one). Closed, each cascade re-checked to 0 `bin/wiki-climb check` warnings:
+
+- `wiki/mind/synthesis/totality-themes.md`, `wiki/people/ally-lubin.md`,
+  `wiki/people/suzanne-frank.md` — re-checks against same-day upstream moves
+  (embedded-objective/acquisition-drive additions; nothing affected).
+- `wiki/mind/concepts/conflict-architecture.md` — the corpus's one completed
+  refusal of the redefinition move (an Ally exchange, six words to end a
+  challenge in ninety seconds); `erotic-architecture.md` — the
+  inaccessibility-as-operating-condition claim turned into a dated,
+  falsifiable test against the August 2026 Ally contact; `the-cool-metric.md`
+  — the metric's one documented upper bound (the Skins exchange, Ally
+  out-referencing him). Cascaded into `food-and-diet.md`,
+  `chaos-preference.md`, `block-unblock-loop.md`, `dan-annie-fallout-verdict.md`.
+- `the-unbroken-bond.md` — a directed, one-sided fear-of-infidelity finding
+  (141 `cheat` hits, always Dan as the injured party) added to its cost list;
+  `dormancy-not-exit.md` — the Feb 2027 dormancy/exit test named as a public
+  commitment now that a sage answer cited it externally.
+- `enneagram-5w4.md` — the Witness-need paradox's one completed instance
+  (Ally reading the whole wiki); `intp.md` — the Fe-inferior adjudication
+  pattern's one interruption (same Ally exchange, different function);
+  `the-commissioned-self.md` — a July 2013 email-typology batch, a
+  plain-vocabulary-counting escape hatch, and a new standing rule about
+  citing the apparatus to third parties. Cascaded into `politics/axioms.md`,
+  `the-cato-seat.md`.
+- `arrangement-history.md` — a "serial monogamist" self-description against
+  near-zero commitment vocabulary, no concealment from Annie in eleven
+  years, and the Ally case as the fastest-onset instance on record;
+  `bond-switch-2015.md` — its central finding is now quoted in a published
+  sage answer, falsifier named explicitly.
+- `alexis-armel.md` — a July 2013 typology datum (INFP/ISFP) relocated from
+  the wrong page (`franki-faris.md`, a five-day rebound) to the right one
+  (the six-year relationship); `annie-ulmer-personality-assessment.md` — why
+  its stated-confidence/alternatives format is what let it catch a
+  fabricated type claim that three other pages couldn't.
+- `franki-faris.md`, `bekah-fullem.md` — cross-reference fix and an explicit
+  coverage-limit statement (two crisis contacts is not a sustained-dynamic
+  sample).
+- `kristin.md` — the conflict-disposition finding restated as a trait, not
+  just an outcome, contrasted against Ally's ninety-second concession;
+  `shelbie-breakiron.md` — an explicit caveat that most of the page is Dan's
+  account of her, not her own words.
+- `music-as-identity.md` — the corpus's one ranked happiness comparison
+  (music displaced by Annie, dated to April 2016); `fran-coldren.md` — the
+  full context-core quote plus a corpus-wide search confirming the
+  caregiving vigil is the only documented case of the completion drive
+  working end to end; `milo.md` — the full MAX_PRIME axiom 8 text, flagging
+  two never-explored threads it names (the food runs, the Roosters banter);
+  `menore.md` — closed via `bin/wiki-gaps clear` (an operator answer, not a
+  sage finding): 2022's silence explained by a flip phone, not a service
+  break. Cascaded into `supply-network.md`.
+
+`bin/wiki-work scan`: **0 obligations** — every sage-close and
+operator-answer item from this session's start is integrated. Regenerated
+`bin/wiki-digest`, `bin/llm-publish`, `bin/wiki-freshness` (confirmed in
+sync) after every batch.
+
+**A red gate found on `main`, not this branch, and not acted on.**
+`bin/wiki-lint` is red on `origin/main` itself — 20 errors, confirmed via a
+temporary worktree — all inside 7 files merged by other PRs (#191-193)
+mid-session: invalid `page_type`/`knowledge` values, missing infoboxes,
+undeclared tags, and one retracted claim reasserted live. Several of those
+files are new, dated, Annie-adjacent content from the same day, which put
+even a mechanical lint fix inside the moratorium's stated scope ("no
+exception delegated to a session"). Flagged in PR #195 and
+`LLM_HANDOFF.md` for the operator rather than fixed silently.
+
+## [2026-08-26] close | mind | attachment-trauma-bond — the Ally channel as a control case, cascade re-checked three levels deep
+
+**Cleared `sage_pending` on `wiki/mind/synthesis/attachment-trauma-bond.md`.**
+A sage answer used this page as the pathological control and found a
+documented channel where the mechanism doesn't run: the Ally channel's
+symmetric self-indictment (both sides pre-empt the other's confession-trap
+leverage in the same 2019-08-17 exchange) removes the moral-standing
+asymmetry the confession trap and DARVO both require. New section "The
+counterexample: symmetric confession disarms the mechanism," scoped
+narrowly — it disarms one pathology, not a verdict that the channel is
+healthy (it prices photographs off a suicidality disclosure three months
+later per arrangement-history). Edge added to `wiki/people/ally-lubin.md`.
+
+**Cascade, three levels:** suzanne-frank (already re-checked above) →
+attachment-trauma-bond → august-grievance-verdict → suzanne-frank-personality-assessment
+and morgantown-call-three-participant-ethical-analysis. None required a claim
+change; each got a RE-CHECKED note. All three gates 0 errors throughout.
+
+Regenerated DIGEST/RECENT/OPEN and `llm/` (freshness confirmed in sync);
+`bin/wiki-work scan` now reports **19 obligations** (down from 29 at session
+start, 22 after the previous batch).
+
+## [2026-08-26] close | timeline/mind | estate-money-spine and fran-death-vigil integrated, cascades re-checked
+
+**Cleared `sage_pending` on `wiki/mind/synthesis/estate-money-spine.md`** — the
+spine had never carried an outcome measure against its own dated capital
+arrivals. Added "The outcome measure the spine never carried": Dan's own
+2018-04-08 prediction that the inheritance would make him "middle-class
+happy" runs opposite his first-person happiness-claim rate over the identical
+window, alongside health/cocaine's dosage arc rising on the same capital.
+Reciprocal edge written to `wiki/health/cocaine.md`.
+
+**Cleared `sage_pending` on `wiki/timeline/events/fran-death-vigil.md`** — the
+richest version of the "what would make Dan happy" finding: four dated
+statements of good outcome inside six days (2018-04-01 through 04-06),
+the corpus's only cluster of its kind, contrasted against the Annie
+relationship's ending, which produced none. Edges added to closing-the-set
+and attachment-model. Cascaded one level into `wiki/people/suzanne-frank.md`
+(unaffected, RE-CHECKED); two further stale warnings
+(attachment-trauma-bond, suzanne-frank-personality-assessment) left open —
+attachment-trauma-bond is itself a queued sage_pending page and will be
+re-checked when it is closed in this same pass.
+
+Regenerated DIGEST/RECENT/OPEN and `llm/` (freshness confirmed in sync);
+`bin/wiki-work scan` now reports **22 obligations** (down from 29 at session
+start). All three gates 0 errors.
+
+## [2026-08-26] close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked
+
+**Cleared `sage_pending` on `wiki/mind/concepts/acquisition-drive.md`,
+`wiki/mind/synthesis/closing-the-set.md`, `wiki/mind/synthesis/the-embedded-objective.md`
+and `wiki/health/cocaine.md`** — four separate findings all produced by the
+same sage answer (`2026-08-22_005829_what-would-make-dan-happy`), each landing
+somewhere different: acquisition-drive's payoff condition narrows from
+completion to **closure**, on the strength of Dan's only documented
+first-person good-outcome report (the Fran vigil, "got good closure and
+finally did something in my life that wasn't completely selfish," 2018-04-06);
+closing-the-set gets the same quote from the opposite direction plus a
+negative control (the Annie bond as an unclosable set) and a real, stated
+prediction that the wiki itself cannot produce a closure verdict because it
+has no edge; the-embedded-objective adds a tenure-vs-satisfaction distinction
+and resolves, in prose, whether the payload rule and the closed-set rule are
+one mechanism or two (two, coinciding once, at the vigil); cocaine.md gets an
+outcome measure it never had — the 2017–2020 dosage peak runs opposite Dan's
+first-person happiness-claim rate (0.87/0.34/0.41 per 1,000 vs 7.86 in late
+2015). Reciprocal connections written on all four plus fran-death-vigil.
+
+**Cascade.** The four date bumps flagged the-rescue-premise (via
+cognitive-profile, already covered above), failure-to-launch, totality-themes,
+health/the-configured-body and alias-as-periodization stale; none required a
+claim change, each got a RE-CHECKED note.
+
+**Cleared `sage_pending` on `wiki/mind/synthesis/single-channel.md`** — a
+different sage answer
+(`2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`) found
+that the page's central liability (no-failover concentration) was read from
+outside the wiki as an asset: Ally names sustained undisguised intensity as
+her stated entry condition, which sharpens the page's live substitution test
+with a named candidate. Cascaded through the-deferred-audit and
+the-unpapered-address (both unaffected, RE-CHECKED). All three gates 0 errors
+throughout.
+
+## [2026-08-26] close | people | ally-lubin — the love letter and the mutual-correction finding integrated, three dependents re-checked
+
+**Cleared both staging blocks on `wiki/people/ally-lubin.md`** (`pending_ingest`
+and `sage_pending`, both 2026-08-21). The operator's manual note carried a full
+love letter Dan sent Ally on 2026-08-21, filed at
+`raw/people/captures/2026-08-21_175309_gap-ally-lubin.md`; it now has its own
+dated section on the page, placed after the August 18–20 burst analysis. The
+sage finding (from `2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be`)
+identified that the page recorded only Ally's half of the August 18 concession
+sequence (16:46–16:47 and 21:07–21:09) as evidence of her hostility as a
+reviewer, when it is really the only clean two-directional correction sequence
+in eighteen years of record — folded into "She audits it." A second, defensive
+finding flagged "I'm a SINGLE MOTHER" as a joke about cats, not a family
+structure, self-corrected by her three minutes later — now stated on the page
+so the line does not trap a future pass the way it nearly trapped this one's
+own answer draft.
+
+**Cascade.** Bumping `date_modified` on the entity page flagged three
+dependents stale: `wiki/people/ally-lubin-cognitive-profile` (already used both
+the letter and the concession sequence from the raw captures directly — the
+entity page has now caught up, no claim changes), `wiki/self/concepts/astrology-star-signs`
+(dependency is her birth date, untouched, no claim changes), and
+`wiki/self/concepts/ally-and-dan-love-as-destiny` (the letter is new,
+unanswered, non-transactional evidence that strengthens rather than
+complicates the page's thesis — added as a RE-CHECKED note with the one loose
+thread, "17 years and counting" implying a 2009 origin against the page's 2011
+first-contact date, flagged and left open). The cognitive-profile bump then
+flagged `wiki/mind/synthesis/the-rescue-premise` stale in turn; re-checked, no
+claim affected. All three gates 0 errors at each step.
+
+## [2026-08-23] directive | people | the Annie record is closed — no further texts, no further narrative
+
+**Operator directive, safety-grounded:** no new Annie material enters the
+repository — no export, no metadata dump, no group-chat pull, no screenshot, and
+no new narrative, event, synthesis or typed-edge claim about her. The stated
+reason is the unpredictable nature of her situation and the apparent danger she
+is in. Only the operator can lift it.
+
+**The finding that made this a repository change rather than a note:** the wiki
+was actively instructing every future session to do the forbidden thing. The top
+row of `queue.md` read *"The NEXT export of the Annie 212 thread — CRITICAL —
+still the highest-value pending ingest"*, and `.claude/skills/annie-read-synthesis`
+existed for no other purpose than spreading a new Annie read batch across the
+wiki. A directive recorded only in prose would have lost to those on the next
+pass, by a session behaving correctly. Both are now closed and struck through,
+along with the July 4 email thread, the three-party group-chat export, the
+`annie_metadata_24h.csv` sourcing gap, the Annie-voice-account item, the
+Coles-accusation-origin question and the *"did the email to Annie's parents ever
+send?"* check. `corpus-read` keeps working on every other thread and refuses this
+one.
+
+**What did not change: any Annie page.** This is a stop, not a retraction. No
+prose rewritten, no claim withdrawn, no quotation pulled, no `date_modified`
+bumped. The record ends where it already ended — **2026-08-19 15:15:33** — and
+the wiki's position is that Dan has not spoken to Annie since the last date it
+records.
+
+**An export uploaded to this session was deliberately not ingested.** Range
+2026-02-24 → 2026-08-22. It was opened once, far enough to establish it ran past
+the wiki's last-contact date, and then left alone: not filed to `raw/`, not
+copied into the repository, not mined, nothing derived. Two sourcing gaps
+(`august-2026-unmasking`/`read-receipt-forensics` `sources:`, and the group-chat
+screenshot's inferred timestamp) are now permanent and are not to be "fixed" by a
+housekeeping pass.
+
+## [2026-08-22] answer | mind | what would make Dan happy — he answered it himself in 2025, and the record has already run the experiment
+
+The third question the box has taken, asked by **An angel** at 00:58:29 and
+answered the same day. `sage/questions/2026-08-22_005829_what-would-make-dan-happy.md`,
+capture at `raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md`.
+
+**The question turns out to have a dated first-person answer already in the
+corpus.** On 2025-10-26, told she had just been arrested and asked *"Happy now?"*,
+Dan replied: *"the only thing that would make me happy is if, somehow, the annie i
+fell in love with and spent a decade with came back."* The object of that sentence
+is not a person — it is a person at a past time, with *"somehow"* attached to the
+front. He is naming a date.
+
+**And the record had already tested it.** A `bin/mine-messages` count of
+first-person happiness claims across the canonical dump — 106,629 sent messages,
+503 handles — returns 170, and the distribution is the finding:
+
+```
+2015  7.86 / 1k     2018  0.87     2021  0.00     2024  0.39
+2016  2.72          2019  0.34     2023  0.00     2025  1.59
+2017  0.73          2020  0.41
+```
+
+He kept the person for ten more years while the rate fell ninefold and never
+recovered — not in 2016 while they lived together, not in 2018 when the
+inheritance landed, not in 2024. All forms of `happ*`: 658 in the same 106,629.
+
+**What the answer actually rests on is three pages that had never been pointed at
+this question.** `closing-the-set` (a bounded object with a findable edge, the
+payoff in closing it), `the-embedded-objective` (a self-set payload sustains a
+commitment) and `acquisition-drive` (self-origination is necessary, not
+sufficient) converge on one shape: **a self-set objective, over something bounded,
+that he finishes.** The corpus's only worked instance is the six-month Fran vigil,
+and Dan's contemporaneous verdict on it — 2018-04-06, to a third party — is the
+only report in 106,629 sent messages of a good outcome from something he *did*
+rather than from someone he *had*: *"we had a lot of fun. got good closure and
+finally did something in my life that wasn't completely selfish haha."* The
+negative control is the Annie bond, which `attachment-model` establishes cannot
+close without an external severance signal: **an unclosable set**.
+
+**A second finding, methodological.** `the-commissioned-self` shows the typology
+apparatus appears seventeen times in those same 106,629 messages and treats the
+absence as the point. Running the same instrument over an ordinary English word
+instead of a jargon term yields a measurement rather than an absence — an escape
+hatch from the commissioned-self problem that the corpus has barely used.
+
+**Staged onto twelve pages** — `closing-the-set`, `the-embedded-objective`,
+`acquisition-drive`, `attachment-model`, `fran-death-vigil`, `fran-coldren`,
+`milo`, `cocaine`, `estate-money-spine`, `music-as-identity`, `deviance-mapping`,
+`the-commissioned-self`. Two cited pages took nothing: `ally-lubin` and
+`463-morgantown` are cited for context the answer needed and produced no finding
+about.
+
+**Stated limits, carried in the answer.** The instrument counts a word Dan typed
+to other people, not a state; the canonical dump ends 2025-08-10 so there is no
+whole-device measurement for 2026 at all, and the 2026-08-13 export cannot
+substitute (its own provenance note records 41.8% record loss against the
+canonical dump and an ~833-day zero-row artifact across 2021–2023). 2021 and 2023
+in the table are thin, not silent. 2018 and 2024 are dense and carry the argument.
+
+## [2026-08-22] fix | people | a fourth portal incident, a duplicated H1 on annie-ulmer, and the freshness gate red on main
+
+Found by a scheduled check-in re-running the gates against `main`, not by anyone
+reporting it. **`bin/wiki-freshness` was red**: `wiki/people/annie-ulmer.md` had
+been edited through the portal (published 147,005B, live 147,033B) without
+`llm/` being regenerated, so the committed corpus was one page behind.
+
+Two defects in the saved file, both the portal's now-familiar signature:
+
+| Defect | Detail |
+|---|---|
+| **Duplicated H1** | `# Annie (Anne Louise Ulmer)` written twice, back to back, at lines 302 and 304 |
+| **Trailing newline stripped** | same as the 2026-08-22 `ally-lubin` save |
+
+The image swap in the same commits (`...mstt5mfl.jpg` → `...mt40almg.jpg`) is
+**intentional and was kept** — a picture was deliberately added. `date_modified`
+held at 2026-08-20 and no prose moved, so this is not the stale-snapshot class.
+
+**A repo-wide scan for the duplicate-H1 signature found exactly one page.** Worth
+recording as a negative result: this is the only instance, so the defect is
+per-save rather than systemic, and no sweep is needed.
+
+**This is the fourth portal incident in one day**, and the count is the argument.
+`ally-lubin` took a stray-keystroke save and a stale-snapshot clobber; `annie-ulmer`
+has now taken a duplicated heading. Every one was found by a session happening to
+look, and this one only because a check-in scheduled for a *different* purpose
+re-ran the gates. The `BACKLOG.md` HIGH item asking for `bin/wiki-check
+--check-only` on push to `main` is updated from "two portal saves" to four; a
+four-second workflow would have caught all of them within a minute of the push.
+
+**The freshness gate is the one that matters here and it is worth saying why.**
+`wiki-lint`, `wiki-connect` and `wiki-climb` were all green on this: a duplicated
+heading breaks no link, resolves no edge wrong and violates no frontmatter rule.
+Only `wiki-freshness` noticed anything, and it noticed the *regeneration*, not the
+defect. Had the portal edit happened to leave `llm/` in step, all four gates would
+have passed with a heading printed twice on the live site.
+
+## [2026-08-22] fix | people | the stale-snapshot clobber recurred on ally-lubin, six hours after the last one
+
+**This is the 2026-08-13 failure mode, not the keystroke one**, and it is the
+second distinct portal defect to hit this page in twenty-four hours. Commit
+`991d942` ("Edit people/ally-lubin from the portal") wrote a **2026-08-20
+snapshot** back over the 08-22 state, turning `bin/wiki-connect check` red on
+`main` for the third time this week.
+
+**The fingerprint CLAUDE.md names is exactly what appeared:** a frontmatter date
+moving *backwards* in a single commit — `date_modified: 2026-08-22` →
+`2026-08-20`. That is the tell, and it is worth more than the diff size, because
+the diff looked small (11 insertions, 24 deletions) while silently reverting a
+whole pass.
+
+What the save destroyed, all of it merged eighteen minutes earlier in #179:
+
+- `mbti: "ENTP-T (tested 2026-08-22…)"` reverted to **`mbti: ENFP`** — the
+  corrected classifier field restored to the claim it replaced
+- the `CORRECTED [2026-08-22]` blockquote, fifteen lines, deleted entirely
+- the typed edge to [[wiki/people/ally-lubin-cognitive-profile]] deleted, which
+  orphaned that page from its own subject
+- the `raw/people/captures/2026-08-22_…entp-t.md` source line deleted
+- **both keystroke corruptions reintroduced** — `friend ...for no` and
+  `2018-deep-cycle  im`, the second of which is the gate error, because the
+  snapshot predated their repair too
+
+**The `draftIsStale` guard did not hold.** CLAUDE.md records that fix as
+shipped in the portal after the 08-13 incident; a save made from a two-day-old
+snapshot still reached `main` on 08-22. Whatever `draftIsStale` checks, it did
+not catch this, and the BACKLOG item asking for CI on `main` is now the only
+thing standing between this defect and the next silent revert.
+
+**Recovery, per the established procedure.** The page was restored wholesale
+from `e843adf` — the post-#179 state, known green — and the save's **one genuine
+addition re-applied on top**: `image:` and `image_caption:`, pointing at
+`wiki/assets/people/ally-lubin/people-ally-lubin-mt3tebq9.png`. That picture was
+added deliberately by the operator in `be97c00` and is untouched by this
+recovery; it is the only thing in the portal commit that was not a revert.
+Nothing else from `991d942` was kept, because nothing else in it was new.
+
+**The asymmetry worth recording.** `be97c00` (the image) and `991d942` (the
+clobber) are the same operator action seconds apart — add a picture through the
+portal, and the editor writes back its whole stale buffer along with it.
+**Adding an image to a page is not an image-sized operation.** Any portal save
+rewrites the entire file from whatever the browser last loaded, so a page edited
+by a session after the tab was opened will be reverted by the next save from
+that tab, whatever the user thought they were changing.
+
+## [2026-08-22] meta | style | the blanket no-photographs rule is removed from STYLE_GUIDE
+
+Operator decision: no standing rule about photographs in the wiki, decided
+per case instead of by policy.
+
+**What changed.** One line. `STYLE_GUIDE.md` documented the `image:` frontmatter
+field as:
+
+```
+image: self                 # override the auto illustration; assets/img/<name>.svg
+                            # (no real photographs are used anywhere in the wiki)
+```
+
+The parenthetical is gone and the path is no longer narrowed to
+`assets/img/<name>.svg`; the field now reads `any path under assets/`. No
+replacement restriction was written — that is the point of the change, not an
+omission.
+
+**Nothing enforced it.** `bin/wiki-lint` has no image, asset or extension checks
+of any kind, so this was documentation only and the gates are unaffected. The
+rule's whole force was that a session reading STYLE_GUIDE would honour it.
+
+**Negative result, recorded.** Swept the full governing set — `STRATEGY.md`,
+`CLAUDE.md`, `EXTRACTION_SPEC.md`, `CONNECTIONS_SPEC.md`, `SYNTHESIS_SPEC.md`,
+`BACKLOG.md`, `INGEST_RUNBOOK.md`, `INGEST_PROTOCOL.md`, `README.md`,
+`AGENT_ACCESS.md` — plus `.claude/skills/`. **This was the only photograph
+restriction anywhere.** `EXTRACTION_SPEC.md:224` mentions photographs, but it
+lists them as a **primary source type** alongside message dumps and the GEDCOM,
+which was never a limitation and is untouched.
+
+**A page was already violating it.** `wiki/people/jason-bermejo.md` carries
+`image: assets/people/jason-bermejo/people-jason-bermejo-msw6nyoh.jpg` — the
+only real photograph in `wiki/`, live on the published site, and a silent breach
+of the rule for as long as it stood, because nothing mechanical checked. It now
+simply conforms. Worth knowing that the convention had already failed in
+practice before it was withdrawn in principle.
+
+**Operational note for later passes, not a rule.** This repository is
+**public** (`caakehorn/wiki-brain`, `visibility: public`) and `deploy-site.yml`
+publishes `wiki/**` to GitHub Pages — the corpus itself demonstrates the reach,
+since Ally sent `caakehorn.github.io/wiki-brain/wiki/people/bekah-fullem.html`
+into the thread on 2026-08-18. `raw/` is equally public; there is no private
+path in this repository. Anything added anywhere here is world-readable, which
+is a fact about the deployment rather than a constraint on it.
+
+## [2026-08-22] fix | people | a portal save put stray keystrokes into ally-lubin and turned the connect gate red on main
+
+`main` was red for roughly four minutes short of an hour before this caught it.
+Commit `fcf1c2f`, *"Edit people/ally-lubin from the portal"*, landed at
+**02:39 UTC**, four minutes after PR #177 merged. Three changes, all of them
+accidental:
+
+| Where | Saved as | Restored to |
+|---|---|---|
+| `infobox.relationship_to_dan` | `friend ...for no` | `friend` |
+| a typed edge's `page:` | `wiki/timeline/periods/2018-deep-cycle  im` | `wiki/timeline/periods/2018-deep-cycle` |
+| end of file | trailing newline stripped | restored |
+
+The second one is why this mattered: two stray characters inside a wiki path
+stop the target resolving, and `bin/wiki-connect check` went to **1 error**,
+which under CLAUDE.md is a priority-0 obligation sitting above everything
+because it blocks every commit.
+
+**This is not the 2026-08-13 failure mode and it is worth saying why.** That one
+was a stale-snapshot write-back: 56 typed-edge claims flattened, ~30KB of prose
+deleted, and the fingerprint was two frontmatter dates moving *backwards* in one
+commit. Here the file **grew** 61,119 → 61,132 bytes, `date_modified` held at
+2026-08-20, and every edit this session had made to the page — the
+`conflict-architecture` reciprocal edge and the staged sage findings block —
+survived intact. The portal's `draftIsStale` fix is holding. What got through is
+a different and much smaller class: **keystrokes landing in an editor that will
+save anything.**
+
+**`relationship_to_dan` was restored to `friend` rather than guessed at.**
+*"friend ...for no"* reads like the start of *"friend ...for now"*, which would
+be a meaningful thing to say about this relationship given the record — but it
+was not what was saved, an infobox field is not where that argument belongs, and
+completing somebody's half-typed fragment is inventing content. Restored to the
+prior value and flagged here instead. If the intent was real it should be made as
+a claim in the body, with evidence.
+
+**The gap this exposes is that nothing watches `main`.** Both portal incidents
+were found by a session happening to look — the first a day late, this one by
+checking the workflow run that dispatched a sage answer. `bin/wiki-check
+--check-only` in CI on push to `main` would have caught this in under a minute
+and cost nothing; queued in `BACKLOG.md`.
+
+## [2026-08-22] ingest | legal | the hospital-smoking summons — the charging documents were real, and they moved an address
+
+Operator supplied three screenshots of an iPhone Photos playback of a **video of
+a court summons**, shot **April 17, 2018 in Uniontown**, offered as "evidence for
+the smoking in the hospital event." Filed to
+`raw/legal/documents/2018-04_summons-hospital-smoking.md` with the three frames
+alongside it, following the precedent of the 2015 court-blotter document.
+
+**The open legal question on
+[[wiki/timeline/events/uniontown-hospital-vape-alarm]] is closed.** That page had
+asked since its creation whether the security guard's "charging documents" were a
+real filing or an incident report described in charging language. They were a
+real filing: **Summons for Summary Case — Non-Traffic**, *Commonwealth of
+Pennsylvania v. Daniel G Frank*, docket **MJ-14101-NT-0000082-2018**, citation
+**R 2009305-4**, **case filed 4/5/2018**, printed 2:51:15 PM the same day, before
+**Magisterial District Judge Michael M. Metros**, MDJ-14-1-01, Uniontown.
+
+**The charge is smoking, and it is the only charge.** One local-ordinance count,
+marked `(Lead)` with nothing under it: *"Smoking prohibited w/in certain public
+premises including hospital properties."* Nothing for causing a false alarm,
+disorderly conduct, criminal mischief or trespass. This cuts against the page's
+disproportion reading in a direction it had not considered — the paperwork is
+grotesque next to one drag of nicotine and simultaneously far *under* the
+four-fire-truck response it caused. It also declines Dan's entire argument: his
+reasoning was that a vaporizer does not burn anything and therefore cannot be
+smoke, and the one document that ever responded to the deduction categorised the
+act as smoking.
+
+**The dating narrows and the timing is worse than the page knew.** Filing on
+April 5 is a hard outer bound on an incident the captures had bracketed
+April 1–4; no offence date is legible. Fran died **April 4**. The summons was
+printed the following afternoon and mailed to 337 Saratoga Drive, which puts it
+in the mailbox during the week of her funeral. No telling of the story mentions
+the envelope. That the operator filmed the sheet twice, ten minutes apart, on
+April 17 is the closest thing to a reaction the record holds.
+
+**The finding nobody was looking for: the summons moved an address.**
+[[wiki/places/155-virginia-ave]] carried an **eviction notice served on Dan at
+155 Virginia on 2018-03-29**, mid-vigil, by his own maternal grandmother
+[[wiki/people/diane-moore|Dian V. Moore]], demanding the keys — and recorded its
+outcome as undocumented, because the residence timeline runs him there until
+February 2019. **Seven days later the Commonwealth addressed him at 337 Saratoga
+Drive.** That is the first evidence the notice did anything.
+[[wiki/places/117-belmont-circle]] had reached the neighbourhood of this from the
+other side ("through the spring and summer of 2018 he had somewhere else to be");
+it names a different house, and both can be true — an address of record is not a
+bed. All three place pages now carry the distinction, and
+[[wiki/places/337-saratoga-drive]]'s occupancy table gains a dated row inside the
+ten-year hole between January 2015 and February 2025, which is the only official
+paper in the corpus fixing Dan at that house on a named day.
+
+**A negative claim on [[wiki/legal/2015-possession-arrest]] is retired.** It read
+*"Magisterial District Judge Michael Metros appears once, in the blotter, and has
+no other trace in the corpus."* He appears twice. Corrected in place with the old
+claim visible; both of Dan's documented charging events ran through MDJ-14-1-01,
+three years apart, which is unremarkable for a man living in Uniontown and is
+still the only thing the two offences have in common.
+
+**What is now open, and it is answerable.** The disposition of docket
+MJ-14101-NT-0000082-2018 is unknown — both plea lines are blank and the stub
+undetached in the last image of the sheet, twelve days after printing. The fine
+and costs are printed but not legible. Pennsylvania's UJS web portal, named on
+the summons itself, would settle plea, amount and payment history in one lookup
+from outside the corpus, and the operator's own memory has never been asked. The
+video the frames came from is not on disk.
+
+**Cascade.** Sixteen pages touched: the event page, `legal/index`,
+`2015-possession-arrest`, `2015-retail-theft-arrest`, `fran-death-vigil`,
+`155-virginia-ave`, `337-saratoga-drive`, `117-belmont-circle`, plus a
+stale-premise chain worked to termination over four rounds — `the-unpapered-address`
+(the one that genuinely moved: its 155 Virginia edge claim is narrowed, its
+seven-address finding stands, and it gains the observation that the only document
+ever fixing Dan to an address was generated by a court prosecuting him),
+`cocaine`, `the-embedded-objective`, `estate-money-spine`, `dormancy-not-exit`,
+`suzanne-frank`, `the-configured-body`, `totality-themes`,
+`attachment-trauma-bond`, `suzanne-frank-personality-assessment`,
+`alias-as-periodization`, `single-channel`, `august-grievance-verdict`,
+`morgantown-call-three-participant-ethical-analysis`, `the-deferred-audit`. All
+recorded a decision; only one changed a claim. Three gates at 0 errors.
+
 ## [2026-08-19] audit | self | the last three days of edits — three pages had the attribution backwards, and the corpus settled all three
 
 Operator: *"do a pass over everything edited or created in the last 3 days and fix the sourcing, attribution, edges, and any other problems."* Scope: 99 wiki pages touched since 2026-08-16. The Aug 16–18 work held up — the stale-premise pass carried 39 `RE-CHECKED` blocks and changed four conclusions, and the new `james-dee`, `diane-moore`, `dave-moore`, `the-handed-mirror` and `cocaine` pages verify against their declared sources. The damage was concentrated in the six pages written on Aug 19.
@@ -2784,10 +4352,10 @@ is a **routing artifact, not dormancy** — written back to `dormancy-not-exit`.
 
 **Thesis revised: the channels are concurrent, not sequential.** Laying the Ally
 export beside `imessage_export_2124702449_20260820.csv` for the same 48 hours
-shows them interleaved hour by hour — 408 messages to Annie and 552 to Ally
-across Aug 18–19. Dan tells Ally at 00:09 his wifi is off so he won't see Annie,
-then exchanges 98 messages with Annie between 01:00 and 02:59; tells Ally at
-13:45 *"Im all ally Lubin all the time now"* ninety minutes before sending Annie
+shows them interleaved hour by hour, with more messages to Ally than to Annie
+by a three-figure margin across Aug 18–19. Both threads are live in the same hours: he exchanges 98
+messages with Annie between 01:00 and 02:59 while the Ally channel runs; tells
+Ally at 13:45 *"Im all ally Lubin all the time now"* ninety minutes before sending Annie
 the last message of the eleven-year relationship at 15:15:33. "The overflow is
 not what happens after the vessel breaks; it is what the vessel was overflowing
 into the whole time." Written back to `annie-ulmer` as a `mirrors` edge.
@@ -2851,11 +4419,12 @@ fact in them is carried in the body.
 
 **New finding — the ending was not one thread.** Laying the Annie export beside
 the Ally export for the same 48 hours shows them **interleaved hour by hour**:
-408 messages to Annie, 552 to Ally, across August 18–19. Three of Dan's
-statements to Ally are contradicted by this thread as he makes them — the wifi
-claim at 00:09 against 98 Annie messages in the next two hours; the live
-narration of Annie's SOS at 23:42; *"Im all ally Lubin all the time now"* at
-13:45, ninety minutes before the relationship's last message at 15:15:33. This
+more messages to Ally than to Annie, by a three-figure margin, across August
+18–19. The two threads run
+against each other rather than in sequence — 98 Annie messages between 01:00 and
+02:59 on the 19th while the Ally channel runs; *"Im all ally Lubin all the time
+now"* at 13:45, ninety minutes before the relationship's last message at
+15:15:33. This
 is not a symmetry argument and does not touch the verdict: nothing in the Ally
 channel is an affair or a concealment. What it establishes is that **the wiki
 has been reading Ally as what happens after this bond fails, and it is not** —
@@ -3294,9 +4863,9 @@ the open era as non-monogamy in the identity sense at all.
 2015 switch is the mechanism: a six-year bond closing in seventy-two hours with
 nothing prompting it but the arrival of a replacement — **the replacement sourced
 before the vacancy opened.** And `ally-lubin`'s August 18–19 concurrency finding
-is that same mechanism running four days before she asked, with her in it: 408
-messages to Annie against 552 to Ally, *"my wifi is back off now"* two hours
-before 98 messages with Annie, *"Im all ally Lubin all the time now"* ninety
+is that same mechanism running four days before she asked, with her in it: more
+messages to Ally than to Annie by a three-figure margin, both threads live in the
+same hours, *"Im all ally Lubin all the time now"* ninety
 minutes before the eleven-year relationship's last message.
 
 So the answer refuses to collapse: **he can be monogamous; he has never been
@@ -3320,3 +4889,2184 @@ Findings staged on five pages under `sage_pending: 2026-08-21` —
 `the-unbroken-bond`, `arrangement-history`, `bond-switch-2015`,
 `dormancy-not-exit`, `ally-lubin`. No `date_modified` bumped: nothing is
 corrected yet. Capture at `raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md`.
+
+## [2026-08-21] answer | people | who is the best match for Dan — rewritten, same conclusion, new evidence
+
+The second sage question was answered earlier today and the answer was wrong in a
+way that matters more than a wrong answer would have: **it reached a defensible
+conclusion through invented evidence.** The operator flagged it; this pass rebuilt
+the case from the record and kept the name.
+
+**What was fabricated.** The published answer opened *"Both Dan and Ally test as
+ENFP"* and spent four paragraphs on function-stack complementarity. **There is no
+MBTI result for Dan anywhere in `wiki/` or `raw/`** — `grep` returns MBTI strings
+on exactly three pages, and none is about him. It assigned **ISFJ** to Annie
+(assessed **ESFP**, argued explicitly against ENFP on the S/N axis) and to Alexis
+(no assessment exists). It named Katie Fletcher as "the only other ENFP
+documented"; her page carries no type. It read Ally's *"I'm a SINGLE MOTHER"*
+(2026-08-18 16:49:37) as evidence of dependants — **it is a joke about cats,
+corrected by her three minutes later**: *"No still just cats."* And it called her
+financially independent of Dan, inverting a record in which she asks him for money
+in 2019, 2023 and 2025. Ledgered as `dan-ally-enfp-pairing` in `RETRACTED.md`.
+
+**What the record actually supports, and what the rewrite runs on.** Four
+qualities, each quoted and dated:
+
+1. **The only completed refusal of the redefinition move in the corpus.**
+   2026-08-18 21:07–21:09 — *"You just love bomb"* → *"But love bomb is like a
+   malicious tactic and there very little malice"* → *"I didn't say malicious"* →
+   ***"Okay that's fair then."*** The middle move is what
+   `conflict-architecture` documents. The fourth message has no precedent. The
+   reciprocal case is the same evening at 16:46–16:47, where Dan pushes back and
+   **she** concedes (*"Ok that's fair actually"*).
+2. **The Witness need, instantiated for the first time.** `enneagram-5w4` names
+   it — *"someone who validates that the internal world is real"* — and had no
+   instance. Ally is the first human other than Dan to read this repository
+   (*"I let you be the literal first person to ever read that wiki"*, 2026-08-19
+   19:52), and she read it and audited it.
+3. **The cool metric running in both directions.** The Skins exchange of
+   21:25–21:28 is the only recorded case of Dan **losing a round inside his own
+   filter** — *"Annie wasn't smart enough to be Effy"* / *"I'm a half Effy half
+   Cassie"* — and he does not adjudicate.
+4. **A stated requirement of intensity without a requirement of rescue.**
+   *"Well first you'd have to be obsessed with me again"* (13:54:32) beside
+   *"I work in STEM actually"* and *"I work my ass off"*.
+
+**What cuts the other way, stated in the answer at length.** The attachment's
+documented operating condition is inaccessibility (*"so i can get the poison
+out"*, 2019-10-22) — the case has never been tested against access, which is the
+answer's own strongest objection to itself. The money runs toward her, not away.
+The instability is bilateral. Dan ran this channel and the terminal Annie channel
+in the same hours. And the mutual half is
+**eight hours long** — 1,293 sent against 694 received across eighteen years, with
+the August 19 inbound missing from the capture entirely.
+
+Findings restaged on **fourteen** pages, none of them the boilerplate the first
+pass wrote: the block on each now carries a finding specific to that page rather
+than a notice that the page was cited. Two pages lost their block because the
+rewrite no longer cites them (`context-core`, and question 2's half of
+`bond-switch-2015`). No `date_modified` bumped anywhere — nothing is corrected
+yet.
+
+**The general finding, which is about this repository and not about Ally.** A
+sage answer is the one artifact here that is published to a person who cannot
+check it. The first version passed all three gates: nothing in `bin/wiki-lint`
+tests whether an assertion in `sage/` exists in the corpus, because the gates read
+`wiki/`. The retraction ledger now covers the specific claim, but the class is
+open — **an answer can invent a premise and ship it, and the only thing that
+caught this one was the operator reading it.**
+
+## [2026-08-21] answer | mind | the correction was wrong: Dan types INTP, and the corpus says so on a dedicated page
+
+Same question, third revision, and the error being fixed is mine rather than the
+first pass's. **The correction published this morning asserted *"there is no MBTI
+result for Dan anywhere in `wiki/` or `raw/`."* That is false.**
+
+**What is actually there.** [[wiki/mind/profile/intp]] — a full page, 2026-07-13,
+with a measured function table: **Ti 96% latent / 95% aptitude, Ne 84%, Ni 84%
+(the documented leak), Si 57%, Fe 10% valuing / 46% active.**
+[[wiki/mind/profile/index]] carries him across five instruments (MBTI INTP,
+Enneagram 5w4 sx/sp, Socionics ILI-Ni, SLOAN RLUEI, Attitudinal Psyche
+FLEV/VLEF). [[wiki/self/context-core]] states the typology line in the
+context-injection paragraph. And the self-typing is primary and dated to **July
+2013** — *"as an INTP and heavily introverted, logic-based dude…i can't see
+myself flourishing in AA/NA."*
+
+**How the error was produced, which is the part worth keeping.** The verification
+behind the claim was a single grep: `ENFP|INTJ|INFJ|ISFJ` — **the four types the
+fabricated passage happened to name.** `INTP` was never in the pattern. The
+absence of those four was then reported as the absence of any. **A check whose
+scope is derived from the claim it is testing cannot disconfirm that claim**; it
+can only agree with it. The first pass invented a premise; the second invented an
+absence, and did it while holding the file that disproved it two directories
+away. The operator caught both.
+
+**The retracted claim is unaffected and slightly strengthened.** Dan typing INTP
+makes *"Both Dan and Ally test as ENFP"* more clearly false, not less.
+`dan-ally-enfp-pairing` stands; its `replacement` field, prose and `source` list
+are corrected, and the entry now carries the correction of its own first version.
+Note the gate never fired on `wiki/mind/profile/intp.md`: the pattern list
+excludes `intp` by construction, so the real page was never at risk — a lucky
+outcome of writing patterns narrowly, not a designed one.
+
+**What the INTP material adds to the answer, now that it is being used.** The page
+states the Fe-inferior relational consequence in one sentence — *"emotional bids
+arrive as claim-shaped propositions and get adjudicated instead of met"* — which
+is a description of 2026-08-18 21:08:16. Ally makes a bid shaped as a judgement
+(*"You just love bomb"*); Dan converts it to a proposition about the definition
+and adjudicates it; **she declines to be adjudicated** (*"I didn't say
+malicious"*) and it stops. The page names the pattern and carries no instance of
+it being interrupted. Section 1 of the answer was already built on that exchange;
+it now has the mechanism attached rather than only the observation.
+
+**A second finding, about navigation rather than content.** Two passes in one day
+reasoned about Dan's type without reaching `intp.md`, both having already read
+`enneagram-5w4`. That page does not link to `intp` in its prose lead, and neither
+does `context-core` where it states the typology. **The profile cluster is not
+discoverable from its own members** — the failure mode here was not a missing
+page but a page nobody found. Staged on `intp` and `enneagram-5w4` as a
+cross-linking action.
+
+Findings restaged on `intp` (new), `enneagram-5w4`, `annie-ulmer-personality-assessment`
+and `ally-lubin`; the three blocks that repeated the false absence are replaced.
+Capture rewritten as **revision 3**, carrying both corrections in the open. No
+`date_modified` bumped.
+
+## [2026-08-21] answer | mind | re-audited with all sixteen type codes: two more absence claims were wrong
+
+The correction to the correction was still not clean. Having been caught asserting
+a corpus-wide gap on the strength of a four-type grep, this pass re-ran the audit
+with `\b(I|E)(N|S)(T|F)(J|P)\b` — **all sixteen codes** — and found two more errors
+of the same shape.
+
+**Alexis is typed.** Dan typed her **INFP/ISFP "Idealist"** against Franki Faris's
+ESFP "Performer," in *"a batch of self-typology emails he sent himself between
+July 9 and July 31, 2013"* — [[wiki/people/franki-faris]], not
+[[wiki/people/alexis-armel]]. Two passes in one day called her untyped because
+**the corpus's only typing of the six-year partner is filed on the page of a
+five-day rebound.**
+
+**And that fortnight is the origin point.** The same July 2013 batch produced Dan's
+own earliest documented INTP self-identification —
+[[wiki/people/elizabeth-eleanor]], July 10–11, *"as an INTP and heavily
+introverted, logic-based dude…i can't see myself flourishing in AA/NA."* **One
+under-scoped grep missed a single fortnight that is the source of three of the
+corpus's type codes**, and that fortnight predates
+[[wiki/mind/synthesis/the-commissioned-self]]'s AI-era instrumentation by a
+decade.
+
+**Second error: there are two assessment pages, not one.**
+`suzanne-frank-personality-assessment` carries **"Confidence: MODERATE"** and
+contrastive testing against the strongest alternatives, the same property that
+made the Annie page able to refute a fabrication. The staged block claiming Annie's
+was the only one is corrected.
+
+**What survives every pass:** Katie Fletcher carries no type, and there is no
+shared ENFP stack. The retracted claim is untouched.
+
+**A caveat now attached to the answer that should have been there in revision 3.**
+[[wiki/mind/profile/intp]]'s own Gaps say the function scores are *"AI-inferred
+from corpus behavior, not from a proctored instrument,"* and
+[[wiki/mind/synthesis/the-commissioned-self]] establishes the whole apparatus as
+commissioned by its subject — seven frameworks, the instrument administered rather
+than taken, plus an open contradiction on the wing (*"Dan is an INTP 5w6sx
+RLOEI"*, 2024-11-04, against the cluster's 5w4 sx/sp). So the Fe figure makes the
+21:08 exchange **legible, not independent**: it is a model of Dan derived from the
+same corpus the exchange sits in. The messages remain the stronger evidence.
+
+**The structural finding, which is the durable one.** Nothing here was missing.
+It was **unfindable**: type codes filed on pages about other people, a profile
+cluster that does not cross-link from its own members, and two assessment pages
+discoverable only from `people/index`. Three passes and an operator to locate
+material that was in the repository the whole time. Staged on `franki-faris`,
+`the-commissioned-self`, `alexis-armel`, `annie-ulmer-personality-assessment`,
+`intp` and `enneagram-5w4` as cross-linking actions.
+
+Capture rewritten as **revision 4**. No `date_modified` bumped.
+
+## [2026-08-21] infra | portal | the loop had no return leg, and a corrected answer sat unpublished for forty minutes
+
+**The portal loop was built in one direction only, and nobody noticed because
+the half that was missing fails silently.**
+
+`caakehorn/home` fires `sage-asked` at this repository when somebody types into
+the question box, so a parked question does not wait for the next scheduled
+drain. Its `sync-wiki.yml` has always listened for a `wiki-updated`
+`repository_dispatch` in return. **Nothing in this repository ever sent one.**
+The only thing that did was `requestResync()` in the portal's own browser code —
+which runs when a page is edited or a question asked *from the site*. An answer
+written by a session here and merged through a pull request involves no browser,
+so nothing was nudged, and the snapshot waited on `cron: '17 * * * *'`.
+
+**The measured cost, today.** The second sage answer was corrected twice and
+merged at **23:17:51** and **23:32:17**. The snapshot being served was generated
+at **22:39:22** — and the 23:17 cron had fired **fifty-one seconds before** the
+first merge, found nothing moved, and committed nothing. The person who asked
+would have been reading the retracted version, with its fabricated ENFP pairing,
+until 00:17. `sage/README.md` is explicit that the latency of *answering* is the
+design; the latency of *publishing* is not, and the person waiting cannot tell
+the two apart.
+
+**The fix.** `.github/workflows/notify-portal.yml` — push to `main` touching
+`wiki/**` or `sage/questions/**` fires `wiki-updated` at the portal. Those two
+paths are exactly what the portal's `sync-wiki.mjs` reads from this repository
+(`join(SOURCE, 'wiki')` and `join(SOURCE, 'sage', 'questions')`), so a commit
+that only moves `log.md` or `WORK.md` does not wake a build that would find
+nothing. Concurrency coalesces a burst with `cancel-in-progress: true` — unlike
+the sync itself, dropping an in-flight notification loses nothing, because the
+next one carries the same instruction.
+
+**It ships inert**, matching `sage-drain.yml`'s `ANTHROPIC_API_KEY` and the
+portal's `HOME_PASSPHRASE`: `GITHUB_TOKEN` is scoped to its own repository and
+cannot dispatch to another, so this needs `PORTAL_DISPATCH_TOKEN` (a fine-grained
+PAT on `caakehorn/home`, Contents: read and write). Without it the job says what
+it would have sent and exits clean, and the hourly cron — which this replaces
+nothing of — still catches up. **With it, a merged answer is live in about a
+minute.** A non-204 from the API fails the run loudly, because a silent 401 is
+precisely the failure mode this file exists to end.
+
+## [2026-08-21] infra | housekeeping | the pre-commit block had the wrong order, and the sweep had no protocol
+
+Two halves of housekeeping, split so each is done by the thing suited to it.
+
+**The mechanical half was four hand-copied lines, and they were in the wrong
+order.** `CLAUDE.md` listed the three gates first and the generators second.
+`bin/wiki-lint` checks master-index count drift, so running it before
+`bin/wiki-digest` inspects numbers that are about to change; and
+`bin/wiki-freshness` exists to confirm the generators ran, so running it before
+them asks a question whose answer is guaranteed stale. **`bin/wiki-check`** runs
+GENERATE → GATE → SCAN, ~4s, exit 1 on any red gate.
+
+`--check-only` is the mode that earns the script. It gates without writing, which
+is the question CI and a reviewer actually want answered — *is what is committed
+already consistent?* — and there `wiki-freshness` becomes a real gate rather than
+the near-tautology it is after a regeneration. Verified against a deliberately
+injected retracted claim: exit 1, and it caught both the lint error **and** the
+resulting corpus drift.
+
+**The judgment half had one paragraph and needed a protocol.** New skill
+`.claude/skills/wiki-housekeeping/`. The finding that shaped it: the entire
+standing warning backlog is three categories, and **two of them must not be
+"fixed."**
+
+| Warning | Count | Correct action |
+|---|---|---|
+| `page is NNKB — unusually long` | 10 | **Leave it.** Check navigation, change nothing. Trimming destroys earned content — the thing the project exists to accumulate |
+| `index is NNKB over budget` | 3 | Usually real — an index is navigation, not content, and has no earned prose to protect |
+| `bare '## Related' footer` | 65 | Real, and **not** mechanical: a typed edge needs a `claim:` earned by reading both pages. Four with real claims beat thirty asserting "these are related" |
+
+That inversion is the whole reason the sweep needs a reader. A pass that clears
+warnings looks productive and is the most destructive thing available — which is
+why the skill states the anti-patterns explicitly and gives "I looked, the
+warning is correct, here is why" as a complete outcome.
+
+The skill also carries the two moves that corrupt quietly: clearing a stale
+premise by bumping `date_modified` (the tell is a date that moved with no prose
+change), and clearing a staged answer without integrating it — because a staged
+answer checked and rejected must not look the same from outside as one nobody
+acted on.
+
+`tests/test_wiki_check.py` pins the two properties that are invisible when
+broken: generators precede gates, and `--check-only` writes nothing. 112 tests
+pass.
+
+## [2026-08-22] ingest | people | 16Personalities result — Ally Lubin (ENTP-T)
+
+A tested instrument arrived for the one person in the corpus who had a
+typology claim with a single disputed source behind it, and it says the
+opposite of what the page said.
+
+**The correction.** `wiki/people/ally-lubin.md` carried `mbti: ENFP` in its
+infobox. That traced to a December 2018 iMessage argument in which **she
+asserted ENFP and Dan refused to accept it** — recorded on the page as
+relationship colour, promoted into the classifier field by some later pass,
+and flagged by the 2026-08-21 sage pass as "a claim with exactly one disputed
+source behind it." The operator-supplied result returns **Debater (ENTP-T)**:
+Extraverted 66, Intuitive 84, Thinking 54, Prospecting 61, **Turbulent 92**.
+On the substance of the 2018 argument Dan was right, and there is nothing in
+the record suggesting he was right for the correct reason.
+
+**The instrument is weakest exactly where the corpus is strongest.** Thinking
+– 54% is nearly a coin-flip, and the T/F axis is the *entire* question between
+ENTP and ENFP: the two types share Ne-dominant and disagree about the
+auxiliary, Ti against Fi. The message record resolves it decisively in three
+moves that are all Ti and none of which are Fi — the evidentiary standard
+(*"there's no proof you ever sent me $2100 except your word / So I contest"*),
+the boundary-of-the-claim refusal (*"I didn't say malicious"*, which is the
+corpus's only completed refusal of the `conflict-architecture` redefinition
+move), and the unowned 2019 audit of the poverty story against the Cash App
+statements. Confidence on ENTP over ENFP is HIGH; the 54% understates it.
+
+**Turbulent 92 is the load-bearing number and it belongs to the axis a type
+purist discards** — it is not MBTI at all but 16Personalities' fifth
+dimension, mapping onto Big Five neuroticism. It is also the most corroborated
+claim in the pass: seven declarations of worthlessness inside thirty minutes
+on 2026-08-18, from a person who had spent the preceding eight hours being
+funnier than her interlocutor, against 2019 material at clinical severity.
+
+**The finding the page was built to produce, which is not the one that was
+asked for.** The operator asked for a guide to making Ally maximally
+enthusiastic about being pursued. What the record supports is the opposite
+shape: the qualities Dan names as the attraction — in his own love letter,
+*"so quick and funny that it made me feel like they were on an entirely
+different level"* — are Ne/Ti qualities that respond to parity, and **every
+documented approach he has made has been money, volume, superlatives or
+surveillance, each of which she has explicitly priced at zero** (*"I'm not even
+special"*; *"you say the same thing to every girl"*; *"Men are so
+predictable"*; *"But you scare me"*). The one thing in eighteen years that
+produced sustained reciprocity is eight hours of being talked to as a peer and
+losing an argument gracefully — the two-way correction sequence of 2026-08-18
+at 16:47 and 21:09, ninety minutes apart.
+
+Underneath it: **the two conditions do not meet.** Her stated precondition is
+proximity and knowledge (*"I work in STEM actually"*); his documented
+condition is inaccessibility (*"i have NEVER felt so hypnotized by someone
+i've never seen or met"*, *"so i can get the poison out"*, and the Google
+Contacts organisation field reading **"She'll Never Want You"**). Both of them
+independently locate her peak in 2008 and neither has revised it. The
+attachment has never once been tested against access — which is also the
+single experiment that settles `ally-and-dan-love-as-destiny` against
+`erotic-architecture`.
+
+**Derived, and new:** across the deduped record her median message is **24
+characters against Dan's 42** — 43% shorter at comparable burst volume, the
+characteristic Ne-in-text shape of one idea per message. Their question rates
+are **identical** (3.4% / 3.3%); neither interrogates the other more.
+
+**Written back.** New page `wiki/people/ally-lubin-cognitive-profile.md` (33KB,
+six typed edges, five falsifiable predictions). Entity page infobox corrected
+with the provenance caveat attached and a `CORRECTED [2026-08-22]` blockquote
+placed in the December 2018 paragraph where the argument actually happened,
+not appended as a changelog. Two stale premises worked rather than
+date-bumped: `astrology-star-signs` is unaffected (its dependency is her birth
+date, untouched) and says so; `ally-and-dan-love-as-destiny` is
+**strengthened in one section and obstructed in another** — parity supplies the
+mechanism its "night it was already mutual" section argues from without
+explaining, while the access finding sharpens its `contradicts` edge to
+`erotic-architecture` into a disagreement with a decisive experiment.
+
+**Provenance, stated because this repository has been burned twice.** The
+screenshot carries no name, email, handle or timestamp; nothing inside the
+artifact ties it to Ally Lubin, and 16Personalities is self-administered. It
+is filed as **T1 self-report with unverified attribution**, every page using it
+says so, and "whose result is this, and when was it taken" is the first gap on
+the new page. The 92% in particular is a state-sensitive measurement with no
+recorded state.
+
+Gates clean: lint 0 errors, connect 0 errors, climb 0 errors, freshness in
+sync.
+
+## [2026-08-22] lint | people | the same red gate was found twice, independently, inside twenty minutes
+
+**This entry is not a second incident.** The portal keystroke corruption in
+`people/ally-lubin` is written up at the top of this file by the session that
+fixed it on `main` (`4548631`), and the diagnosis there is complete. What is
+recorded here is the only thing that pass could not see from inside itself.
+
+Two sessions found that red gate independently, minutes apart, by the same
+accident — each was merging base into an unrelated branch and the conflict
+surfaced it. Both produced a byte-identical fix to the same three lines. The
+ENTP-T branch (`claude/lubin-personality-guide-z9zxvo`) carried its own repair
+from 02:47; `main` took the other one at 02:50.
+
+**Convergent accidental discovery is the finding, and it argues the BACKLOG
+item rather than softening it.** Two independent passes needed the same
+coincidence to notice a priority-0 condition, and neither was looking for it.
+That is not redundancy providing safety — it is the same single point of
+failure sampled twice. Had both branches been long-running, or had neither
+merged base that hour, the gate stays red and nothing in the repository says
+so. The duplicated work is the cheap part; the four hours before either
+session stumbled on it is the expensive part, and it is unbounded.
+
+Nothing further is owed here: the fix is on `main`, the CI gap and the
+portal-editor validation gap are both filed in `BACKLOG.md` as HIGH by the
+other pass, and this branch's merge kept that repair rather than re-applying
+it.
+
+## [2026-08-22] climb | mind | three entries, and two of them answer a different question than the one asked
+
+Operator requested three lengthy entries: why the current Annie rupture is
+different and why now is the best moment for an outside rescue; the need for
+validation and check-ins under stakes; and an honest audit of the "failure to
+launch" — capability, value, and whether anything is superlative against the
+general population.
+
+**Entry 1 — [[wiki/mind/synthesis/the-rescue-premise]] (25KB).** The request
+contained two claims and they do not both survive. **Six dated features do
+distinguish the August 16–19 rupture from every prior severance**, and they are
+specific: the Milo/thinking-of-you channel named and pre-closed at 14:53:25 on
+August 19, which is the exact route that ended the fifty-two-day silence on July
+4 and which has never been closed in eleven years; a rival who is present,
+audible and pointed at Dan rather than concealed from him, with two phone
+seizures in seventy hours; the ***"He didn't rape me"*** clearing issued for
+Coles at 06:33 and, per the operator, promised to Dan and withheld; the archive
+declared retained and unused at 15:12:16 after the false-send had already
+destroyed its credibility; the first documented period in which the peripheral
+Ally channel outvolumed the primary Annie one; and a **seventy-two-minute reply
+latency on a six-times-repeated SOS with a duress code**, against a lifetime
+median of 1.0 minute to that number — the single most anomalous behavioural
+datum in the eleven-year record.
+
+**The rescue half does not survive and the page says so.** Three findings kill
+it. The corpus already ran the best-case experiment: June 1 2026 is the only
+unambiguous *external* severance signal in eleven years, and it held fifty-two
+days before dying to an email about a dog — an externally supplied rule can be
+overwritten by the next external input, which is why
+[[wiki/mind/synthesis/block-unblock-loop]]'s falsified prediction is the
+strongest evidence on the page. The confession trap is unsolvable by a third
+party, who supplies neither the verdict nor the door. And **rescue is not an
+exit, it is a transfer**: the corpus contains exactly one completed exit from a
+long relationship ([[wiki/mind/synthesis/bond-switch-2015]]) and it completed by
+substitution inside a week, at a cost of the following decade. A Gini of 0.9601
+with no failover does not distribute load when the primary node fails; it
+relocates the whole of it, which the August 18–19 concurrency already shows
+beginning.
+
+**The Stockholm framing is corrected on the evidence, not softened.** The
+trauma-bond reading holds and is quantified. Stockholm imports a captor, and
+the power asymmetry runs the other way on every axis the corpus measures —
+capital ($119K–$123K net outflow), supply ($50–$100/day through August 16),
+housing (the Feb 2025 eviction engineered with Paci and concealed), and an
+archive held as leverage. The explicit captivity claims in this record are
+Annie's: *"INWAS TRAPPED / AGAIN"*, twice on tape that she is being held
+hostage, a phone taken twice. **This matters operationally rather than
+morally** — a diagnosis with a captor prescribes extraction, and what is
+actually holding the loop open is a missing sentence no third party can say.
+
+**Entry 2 — [[wiki/mind/concepts/reassurance-architecture]] (24KB). The finding
+that reframes the topic is a negative result.** Across 106,629 sent messages
+*"do you love me"* appears **0** times, *"are we ok"* **0**, *"am i crazy"*
+**0**, *"reassure"* 6. The stereotype of reassurance-seeking is essentially
+absent, and a page that had checked only for it would have concluded the trait
+was not there. It surfaces in four other registers, all measurable: **volume**
+(94 bursts of 10+ consecutive messages, every one preceded by her silence; 62.7%
+of inter-send gaps under two minutes), **summons** (*"call me"* ×170, *"you up"*
+×119, *"pick up"* ×89 — the ask is reachability, not affirmation),
+**measurement** (44 refused GPS requests, read-receipt forensics — surveillance
+as a strictly worse substitute that answers a question the system did not need
+answered), and **estimate maintenance** (43 graded numeric confidences outbound
+against 2 inbound from 503 handles).
+
+Two rungs of the escalation ladder are routinely misread and the page corrects
+both. **The ultimatum is a check-in, and the ~100% retraction rate is what
+proves it** — a threat retracted every time is not a threat, it is the loudest
+available request for a reading, and an exit declaration is the one message in
+this record that never goes unanswered. And the **manufactured stimulus** is the
+loop at its most destructive: *"it wasn't actually sent, and I knew you would
+suddenly come back to life"* is the clearest statement in the corpus of what the
+whole architecture is for — not punishment, not leverage, but forcing an
+unresponsive channel to respond. It sits four days from the fabricated drug
+screen built *for* her, the same capability pointed both ways.
+
+The counter-evidence is carried at full strength: a system that escalates on
+non-response converts every pause into a provocation and manufactures the
+withdrawal it fears; verification demanded was not verification supplied; and
+the whole concept rests on **one relationship**, since by Dan's own account the
+attachment system never fully engaged across seven years with Alexis. Whether
+the loop predates Annie is one `bin/mine-messages` query and is filed as a gap.
+
+**Entry 3 — [[wiki/mind/synthesis/failure-to-launch]] (26KB). The honest answer
+to "is anything superlative" is: one thing, and it is half-proved.**
+[[wiki/mind/concepts/calibrated-confidence]] is the only capability claim in the
+corpus defensible from residue rather than testimony — **15 graded non-endpoint
+values in 106,629 outbound messages against zero in 110,944 inbound from 503
+people**, present in every year from 2015, eight years before the AI period. The
+decisive caveat is stated rather than buried: *expression* is measured,
+*accuracy* is not, and **the calibration test is runnable today from the 43
+archived instances**. That is now the highest-value cheap experiment named
+anywhere in the cluster.
+
+**The deviance audit is bounded, and the bound is the finding.** Of its ten
+outliers, **exactly two survive independent recomputation against a real
+comparison population** — the 0.9601 contact Gini and a measure the audit never
+produced at all — and **one of the two is a liability rather than a skill**. The
+remaining eight are single-model judgments over material Dan supplied, priced
+exactly by [[wiki/mind/synthesis/the-commissioned-self]]'s figure: the whole
+apparatus's vocabulary appears **seventeen times in 106,629 messages of actual
+life**. Written back onto [[wiki/mind/profile/deviance-mapping]] as its own
+section rather than left on the new page.
+
+**And "failure to launch" is the wrong frame in a correctable way.** The engine
+fires — 43 months caddying, 41 at Au Za'atar, a six-month vigil, 4,554,904
+characters of his own text. What is missing is **orbit**, and
+[[wiki/mind/synthesis/the-embedded-objective]] already names the mechanism: a
+payload installed in somebody else's frame is non-transferable, so when the shed
+came down forty-one months went with it and nothing accrued. The constraint is
+stated as fit rather than verdict — Assertiveness 5 with Submissiveness 1 exits
+the vertical axis every institution runs on — and the one durable container in
+the biography turns out to be the aliases: GRIPNOTIC has been continuously his
+since 2016, longer than any job, and **has no countable output anywhere in a
+217,573-message corpus.** That absence is the largest gap the page opens.
+
+**Write-backs and staleness.** All 13 members of the rescue page and all 17 of
+the capability page carry typed edges stating what each turned out to be
+evidence of; the reassurance page wired 9. Four premises genuinely moved and
+were date-bumped ([[wiki/people/annie-ulmer]],
+[[wiki/mind/concepts/attachment-model]], [[wiki/mind/profile/deviance-mapping]],
+[[wiki/mind/synthesis/the-embedded-objective]]); **the six dependents that went
+stale were worked, not bumped**, and one of them —
+[[wiki/mind/synthesis/the-commissioned-self]] — came out *strengthened*, since
+the deviance bound is its own thesis stated by the instrument. Edge-only
+additions were deliberately **not** date-bumped: an inbound claim does not move
+a page's argument, and bumping twenty pages would flood the next session with
+false staleness. Master-index counts corrected (people 164→165, a pre-existing
+drift; mind 62→65).
+
+Gates: lint 0 errors, connect 0 errors, climb 0 errors and **0 stale**,
+freshness in sync.
+
+## [2026-08-22] close | mind | two staged sage findings integrated on the pages this pass was already holding open
+
+Step 4 has now been deferred by three consecutive sessions, so this pass drained
+the two obligations that were coherent with the work rather than none. Both were
+on pages it had just moved, which is the only reason the diff stays readable.
+
+**[[wiki/mind/concepts/attachment-model]].** Two findings, and the first one
+**complicates the model in a productive direction rather than confirming it**.
+The page's *"12 crisis or suicidal statements met with no substantive response"*
+row measures the *absence* of a response — and the corpus contains exactly one
+substantive response, which simply is not sympathy. On **2019-10-14** Ally
+answers the Pittsburgh funeral story with *"I'm just confused how neither of you
+had money because you always send me cash app statements with like thousands of
+dollars."* The disclosure was **audited**, not absorbed, ignored or reciprocated
+— a third category the model had no slot for. It matters because the
+architecture's whole problem is that assurance and behaviour cannot be
+reconciled into a closure, so the one response class that could in principle
+generate a counter-rule is the one that **engages the evidence**. Sample size:
+one. Filed as a live question, not an answered one.
+
+Second finding: **the Annie bond is an unclosable set.**
+[[wiki/mind/synthesis/closing-the-set]] establishes from 2,016 curated cultural
+entries that Dan's engagement unit is a bounded object whose payoff arrives on
+closing it; this model describes the largest object he ever attached that engine
+to, built so closure cannot occur. Wired both ways with `mirrors` edges. The
+reframe predicts, correctly, that the June 1 2026 closure had to arrive from
+outside. And the payout data is worse than the page assumed: the happiness-claim
+rate collapses from 7.86/1k in the first five weeks to 0.34 by 2019 — **complete
+by 2017, eight years before the terminal phase the page dates to August 2025.**
+The bond ran at full strength for eight years after it stopped delivering
+anything countable, which is the sharpest demonstration available that this
+architecture is not maintained by reward.
+
+**[[wiki/mind/profile/deviance-mapping]].** The audit's motivational-system
+claim now has a measurement from outside the apparatus: 170 first-person
+happiness claims in 106,629 sent messages, 1.59 per 1,000, and **every year
+after 2015 sits between 0.00 and 2.72 including the years of maximum capital and
+maximum supply.** It does not prove the substitution the audit asserts and it
+does settle the countable half — the trace of feeling good is thin and tracks
+none of the usual inputs. Placed as a `GAP CLOSED` block inside the five
+structural divergences, where the claim actually lives, not appended.
+
+**Cascade.** The 12-statements correction was written into
+[[wiki/mind/concepts/reassurance-architecture]], which had cited the original row
+as the loop's worst case an hour earlier; the audited disclosure is now the only
+candidate on that page for a response that could satisfy a forensic-standard
+verification loop. Both `sage_pending:` flags deleted, both staging sections
+removed, both `raw/self/sage/` captures cited in `sources:`.
+
+Obligations 31 → 29. The 28 remaining sage-closes are named in `WORK.md` and
+untouched, for the reason given in the handoff.
+
+## [2026-08-23] lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
+
+Operator asked for the same three entries at greater depth. Depth here meant
+going to `raw/` and running the derivations the pages had been deferring rather
+than writing more prose from `wiki/`. **Four findings, and two of them correct
+claims this repository has been asserting for weeks.**
+
+### The 9× reply-latency asymmetry is backwards, and the error is reproducible
+
+[[wiki/mind/synthesis/message-circadian-latency]] opened with *"the single most
+diagnostic new finding"* — Annie at 1.0 min outbound against 9.0 min inbound,
+n = 31,612 — and generalised it to *"everything else is Dan broadcasting into a
+slow or silent void."* **Every on-disk export contradicts it under two
+independent methods.**
+
+The diagnosis is exact because the original half-reproduces. Pairing every
+message with the next opposite-direction message, uncapped, over the 2015–2019
+Annie handle returns **Dan → Annie 60.0 s at n = 31,177** — the page's 1.0 min
+and its n to within 1.4%. The same computation on the same rows returns
+**Annie → Dan 32.0 s**, not 9.0 min. **The outbound half replicates exactly; the
+inbound half is off by ~17× and is the only number that fails.** The page's own
+method note names the likely cause — the master dump's known direction-field
+bug — and states it used `LEVIATHAN_FULL_CORPUS.csv` as ground truth, but that
+file is at `/Volumes/MUSIC/PHASE B RAW/` and **is not in the repository**.
+
+Replicated across ten per-contact exports: **Dan is the slower party in eight**,
+in the merged Annie corpus, and in the 181,585-row whole-corpus file under both
+a flip-based method (32.0 s vs 25.0 s) and the every-message method (111 s vs
+59 s). Per-year on one file, one method: **Annie answered faster in 2015, 2016,
+2017, 2018 and the final month of 2026.** There is no era where the claim holds.
+Retracted at `RETRACTED.md` §`latency-9x-asymmetry`; the gate immediately caught
+two live restatements, which is the ledger working as designed.
+
+**What replaces it is better.** If Annie answered faster than Dan for eleven
+consecutive years, the primary channel was not a void he shouted into — **it was
+the one relationship in the archive that answered him at or above his own speed,
+to the last week.** That explains the concentration far better than unrequited
+broadcast, and it relocates the deficit: what was missing was never *response*.
+
+### The deficit is length, and the character ratio is a crisis thermometer
+
+Re-derived over the 6,495-message July 23 – August 19 window. By message count
+the channel is near-symmetrical at **1.27 : 1**. By language it is
+**3.62 : 1** — median 46 characters from Dan against **18** from Annie, with
+**29.2%** of her side at ten characters or fewer.
+
+That is the input this architecture cannot resolve: fast, constant and
+near-empty closes the transmission request while supplying nothing to conclude
+with. A slow channel would at least have produced a clean signal.
+
+Daily, the character ratio separates crisis days that message counts cannot.
+Ordinary days run 2.0–3.0; **August 16 is 11.7 and August 19 is 12.3**, the two
+worst days in the record. And **July 28 — 770 messages, near-perfect parity —
+runs 2.7 and is not a crisis day at all**, which retires volume as the signal
+and vindicates that page's own standing warning never to cite the burst profile
+as evidence about a particular night. Burst re-derivation for the window:
+**1,509 runs, median 2, max 43** — against the dossier's lifetime "284 longest
+run." The 2026 escalation is not a bigger burst; it is the same turns carrying
+four times the words.
+
+### 129 severance episodes, 100% resumption, median gap thirty-six seconds
+
+The 127/110 pair has been flagged unverified since it was written, with
+[[wiki/mind/concepts/attachment-model]]'s Gaps naming the dispute (100% per the
+dossiers' own audit vs 87% carried downstream) and
+[[wiki/mind/synthesis/dan-annie-fallout-verdict]] marking it `[DERIVED]` with
+*"the exact pair remains unreproduced."*
+
+Dan-sent severance language across the **95,067-row merged Annie corpus**
+(2015-11-28 → 2026-05-28) returns 258 messages collapsing to **129 episodes**.
+**129 against 127, by an independent method — the count is corroborated.** Of
+the 128 episodes with a following message, **128 resumed: 100%, median gap
+0.01 h (thirty-six seconds), 89.1% inside an hour, all-time maximum 46 hours.**
+**The 87% relapse rate is withdrawn.**
+
+The median matters more than the count. A declaration answered inside
+thirty-six seconds is not a failed exit — nothing was exited. **The 129 are not
+129 attempts to leave; they are 129 check-ins, and they worked, which is why
+they recurred.** Written into `attachment-model`, `block-unblock-loop`,
+`attachment-trauma-bond` and the fallout verdict, all of which get *stronger*:
+intermittent reinforcement predicts a relapse rate at ceiling, and 87% was the
+weaker number for that argument.
+
+It also re-scales the two recent severances. Against a hard historical ceiling
+of 46 hours, **June 1 was an outlier by 27× and still failed** — the strongest
+available argument against reading August 19 as different — while August 19 has
+**already outlasted 128 of 129 episodes**, clearing the ceiling on 2026-08-21.
+
+### The calibration test does not exist, and the music gap closes negative
+
+Both were named by the previous pass as the cheap high-value experiments. **Both
+were run and both came back against it.**
+
+`calibrated-confidence`'s counts do not reproduce — not one of 43 / 2 / 15 / 0.
+A permissive re-run gives **99** for Dan, and inspection shows why the number was
+meaningless: it was counting retail discounts, opinion polls, population shares
+and rhetorical framings. Under a strict symmetric first-person-credence filter:
+**24 graded from Dan against 1 from 503 other people** (the apparent second is a
+tapback quoting Dan back at himself). **The thesis survives a filter built to
+break it and is worth more for it; the arithmetic does not.**
+
+**And the experiment is not runnable.** Of 24 graded credences, all but a
+handful concern another person's interior or an unwitnessed past event.
+**Exactly one is resolvable and it resolved false**: 2018-08-08, *"I am 75% sure
+this is my last summer at Nemacolin"* — the job ran to November 2019. Only a
+prospective log can produce a scoreable set. The habit is real and rare and
+**aimed almost entirely at propositions that can never be scored**, which is a
+harder finding than the experiment would have produced.
+
+The music gap was framed as documentation debt — *"requires active build-out."*
+It is not. Across 196,399 deduped messages and 98,056 of Dan's own: **one**
+message in fifteen years about making a track, **zero** about being in a studio,
+**three** lifetime mentions of `gripnotic`, **no play, stream or listener count
+from anyone, ever.** Salience baseline from the same corpus: *annie* 1,603,
+*golf* 179, *cocaine* 170. **Golf outranks the entire production vocabulary
+combined**, and golf ended in 2019.
+
+Both readings are held: music may be *"the one channel the forensic mode does
+not enter,"* which would explain the silence. What the evidence settles is
+narrower — **the production identity is strongly supported as self-concept and
+unsupported as enterprise.** That removes `failure-to-launch`'s only candidate
+for a container Dan owns, so Part VI is corrected against itself: **the
+biography currently contains no container at all**, and the requirement is
+named more precisely as a structure with an **external counterparty** whose
+receipt is recorded somewhere Dan does not control.
+
+### Bookkeeping
+
+Sixteen dependents went stale across three cascade rings and **all sixteen were
+worked, none date-bumped**. Two took genuine `REVISED` blocks
+(`attachment-trauma-bond`, `dan-annie-fallout-verdict` — both carried the 87%);
+the rest were checked against the actual diff and found unaffected, which is
+recorded on each rather than assumed. `dormancy-not-exit` came out with the
+falsifier it never had: against a 46-hour ceiling, a silence clearing 52 days
+would be the first datum it could not absorb.
+
+Gates: lint 0 errors, connect 0 errors, climb 0 errors and **0 stale**,
+freshness in sync.
+
+**The one thing this pass could not do.** The newest Annie export ends
+2026-08-19 15:15:33 and was taken on the 20th. **Nothing in this repository
+knows what happened on August 20, 21 or 22.** Every forward claim on
+`the-rescue-premise` is an inference from the absence of a newer export, and it
+now says so in its own Gaps at priority 1.
+
+## [2026-08-23] ingest | people | five new entries, and the Ulmer household turns out to be the corpus's largest blind spot
+
+Operator asked for five new entries with no topic. Rather than climbing the top
+of `synthesis-queue.md` — which is dominated by hub artifacts (`master-timeline`
+and `annie-ulmer` co-occurring, 23 of 25 clusters marked "link density only") —
+this pass worked two BACKLOG items that had never been run: the per-contact CSV
+sweep, and `bin/mine-messages entities` for names with no page. **Both pointed at
+the same hole.**
+
+**`bin/wiki-climb candidates` was crashing and nobody had noticed.** `KeyError`
+on an archive page: line 320 guards `tag_of` for membership and line 322 did not
+guard `src_of`, so any cluster that grew to include a `wiki/**/archive/` page
+killed the run. One-line fix, matched to the existing guard. The queue had not
+been regenerable for an unknown period.
+
+### The five
+
+- **[[wiki/people/libby]]** (116 messages, Feb–Dec 2024) — the elderly Manhattan
+  woman Annie worked for as a paid assistant and carer. **Identification as Libby
+  Titus is inferred and marked as such**, on two independent supports: Dan's own
+  contemporaneous Tumblr link (`girlfriend-muse-libby-titus-elizabeth-jurist`,
+  sent 2024-03-17, six hours after Annie's *"Did you know Libby was in a movie
+  with Jack Nicholson"*), and a household **Donald** who claimed to be *"the first
+  person to ever use the term 'gaslighting' in a song"* — Steely Dan's
+  *Gaslighting Abbie* — at which *"Libby screamed 'YEAH ABOUT ME YOU ASSHOLE!'"*
+- **[[wiki/people/alice]]** (66) and **[[wiki/people/otto]]** (31) — Claire's
+  children, whom [[wiki/people/claire-ulmer]] has recorded as *"an unnamed niece
+  and nephew"* since it was written.
+- **[[wiki/people/garrett]]** (10) — Claire's husband, and the reason four pages
+  here are filed under single names.
+- **[[wiki/places/derrick-avenue]]** (45) — the approach road to the Belmont
+  Circle corner, serving both families' houses.
+
+### The finding that made the pass worth running
+
+**Annie was not unemployed in 2024, and the wiki has been saying she was.** The
+claim traces to `Honest assessment and value judgment analysis.md` — *"fired in
+2023 and spent a full year unemployed"* — and propagated. The record shows her
+working **two jobs**: *"Now I'll be here 6 days a week and then Libby in
+mornings"* (2024-05-08), with the Libby rate stated once as *"just over 3 hours
+today.. she paid me 500"* (2024-05-17).
+
+**The $119K–$123K net outflow is unaffected** — it is payment-app derived, not
+employment-derived — but the single-earner reading of 2024 is not what the record
+supports, and the inbound side of those exports has never been swept. Written
+into [[wiki/people/annie-ulmer]] and [[wiki/mind/synthesis/estate-money-spine]],
+which gains a direction it never had. The income stops at the end of 2024 and the
+next event is *"I got the letter I was denied unemployment"* (2025-03-31),
+dating her collapse a year before the page that covers it.
+
+### The Wednesday-alibi speculation is falsified, not merely unverified
+
+`claire-ulmer` has carried an AI dossier's reading that *"Wednesday visits to help
+with Claire's kids functioned as a recurring alibi pattern."* Tested by day of
+week against all **217,573** records: baseline Wednesday share **15.1%**; Alice
+**6.1%**, Claire **9.7%**, "my niece"/"my nephew"/"Claire's kids" **0%**.
+**Wednesday is the least likely day**; Claire concentrates Friday–Saturday (39%).
+The mechanism is not in the record. This rules out one axis and says nothing
+about [[wiki/timeline/events/eli-incident|Eli]], which is stated on the page so a
+later pass does not over-read it.
+
+### Two aliases recovered, both of which change a page's weight
+
+**"Mimi" is Annie's name for [[wiki/people/milo|Milo]]** — 67 uses, 2018–2025,
+resolved on four grounds including *"Awe mimi Milo"* (2021-04-06) and, decisively,
+**Mimi and Betty named as two separate animals** (*"I wonder if mimi and Betty
+kissed at midnight"*; *"I'll get meatballs tonight for you and mimi"* written to
+Betty). This bears on the severance: the channel Dan named and pre-closed on
+2026-08-19 was *Milo*, and **Annie's own register for the same channel is
+*Mimi***, which is what *"Is Mimi ok"* and *"How is Mimi"* are — the same shape
+as the July 4 fireworks email that reopened everything.
+
+**"Ricky" is 66 further mentions of [[wiki/people/rick-frank]]**, 2015–2020,
+corroborating the 2026-08-11 retraction of that page's held-block reading from
+the other side: dinners, plumbing, money in both directions. The ambiguity in a
+handful of 2017 money-request uses is recorded rather than resolved by assertion.
+
+### Deliberately not written
+
+**Waylon** (2 mentions, both 2024-07-11, one of them Dan's joke *"Waylon
+Jennings?"*) gets a recorded fact on two pages and **no page** — two mentions in
+217,573 will not support one. A **second Garrett** (someone else's uncle, 2021,
+unrelated correspondent) is named and quarantined on that page so a later pass
+does not fold him in. And a proposed sixth entry — a synthesis on Ulmer-side
+versus Frank-side coverage asymmetry — was **dropped because the metric was bad**:
+a crude classifier returned 57 "Ulmer-side" pages by matching the token *ulmer*
+anywhere, sweeping in Ally Lubin and most of the corpus. Better no page than a
+page resting on that.
+
+### Sensitivity
+
+[[wiki/people/libby]] records a private individual's illness, finances and
+household from one side of a conversation she was not party to. It is kept
+because it is load-bearing for Annie's biography, written no further than that,
+and **flagged on the page as a candidate for the portal seal**
+(`wiki.locks.json`, portal repo). That is the operator's call and the page says
+so.
+
+Four dependents went stale and all four were worked; `estate-money-spine` took a
+real `REVISED` block. Gates: lint 0 errors, connect 0, climb 0 and 0 stale,
+freshness in sync. 495 pages.
+
+## [2026-08-23] close | people | Libby is Libby Titus, she died in October 2024, and the corpus had her married name all along
+
+Operator testimony, verbatim: *"libby is actually libby titus, who has since
+passed away from the cancer referred to. she was married to steely dan singer
+donald fagen who is the 'donald' annie refers to in her messages."* Filed at
+`raw/people/captures/2026-08-23_libby-titus-identification-confirmed.md`. The
+page written hours earlier carried the identification as **inferred**; it is now
+confirmed, and going back to the dump with the answer in hand turned up
+substantially more than the answer.
+
+**The corpus corroborates on four independent points**, none of which the
+original pass found: *"Aka where Libby and Donald live lol"* (2024-08-08);
+*"the hourly rate was set by **Libby Fagen**"* (2024-08-14); Dan's ***"Libby
+died"*** (2024-10-16); and `https://www.steelydan.com/news/libby-titus-fagen`
+pasted into the thread (2024-11-01) — the same announcement public reporting
+cites, which gives the death as **13 October 2024, aged 77**, three days before
+Dan's message.
+
+**The original page asserted "No message names her surname." That was false, and
+the failure mode is one this repository has now recorded twice.** The search was
+for `Titus`, because `Titus` was the hypothesis; the corpus says `Fagen`. This is
+verbatim the ENTP-T lesson in `LLM_HANDOFF.md` — *a check scoped by the claim it
+is testing cannot disconfirm it* — and it has now cost a factual assertion on a
+live page within twenty-four hours of being written down. Worth treating as a
+standing procedure rather than an anecdote: **when testing an identity, search
+every name the person could be filed under, including the ones the hypothesis
+does not predict.**
+
+**An entire arc was missing, and it inverts the page's tone.** The first version
+read the relationship as warm and open-ended, dated *"February to December
+2024"*. In fact **112 of 116 messages fall between February and mid-August**, and
+August is a rupture: *"after I had gotten screamed at by Libby"* (08-06), then an
+unpaid-wages dispute in which Annie was **asked to sign an NDA**, heard nothing,
+and **Dan drafted three escalating demand letters** — 08-01, a follow-up at
+08-13 00:18, and *"Final Request for Payment of Unpaid Wages"* at 08-13 01:00,
+carrying *"I am not interested in seeking further remedy from Mr or Mrs Fagen"*
+and a rate of **$75/hour** *"set by Libby Fagen"*. Annie's NDA position is an
+explicit trade: *"in exchange for signing an NDA I would like to receive the
+unpaid wages."* The money was immediate — *"I may try to see if John will hold
+this weeks rent check… I am waiting for a check from Libby."*
+
+**Nothing records a resolution. The last letter is 13 August; she died 13
+October.** The page states that in both directions and assumes neither.
+
+**The letters are the corpus's clearest instance of the forensic register turned
+outward on somebody else's behalf** — dated correspondence, itemised
+hours-times-rate, an explicit statement of what remedy is *not* sought, a
+final-notice escalation on a fixed interval. Same instrument as
+[[wiki/mind/concepts/forensic-method]] describes him turning on his own
+relationships, and one of very few deployments in eleven years for a third
+party's material benefit. New `instantiates` edge.
+
+**One contradiction opened rather than closed.** The letters state **$75/hour**;
+2024-05-17 states *"just over 3 hours today.. she paid me 500"* — roughly $167/hr.
+Both first-hand, neither retracted. Recorded as a `> **CONTRADICTION:**` with
+three candidate readings and no verdict. `bin/wiki-digest` now counts 44
+contradictions, up from 43.
+
+**Cascade.** [[wiki/people/annie-ulmer]] corrected (dates, the rupture, the
+death, a changelog row); [[wiki/mind/synthesis/estate-money-spine]] corrected
+**against a line written earlier the same day** — the inbound side does not taper
+at year end, it is cut off by a death in October; `people/index` rewritten. The
+$119K–$123K outflow is untouched: payment-app derived, not employment-derived.
+
+**Sensitivity, restated because it changed.** She is now a named, identifiable,
+deceased public figure with surviving family, and the page carries her final
+illness, her household finances and a wage claim against her. Death removes the
+living-privacy objection and does not remove the others. **The page remains
+flagged as a portal-seal candidate and the operator's decision is still
+outstanding** — the portal repo is out of this session's reach and merging
+publishes within the hour.
+
+Gates: lint 0 errors, connect 0, climb 0 and 0 stale, freshness in sync.
+
+## [2026-08-23] report | mind | texting deviance audit — the operator's model of his own texting was two-thirds wrong
+
+Commissioned to characterise Dan's abnormal texting before building a brevity
+tool. Measured turn-level structure across 183,787 sender-tagged rows
+(`imessage_export_deep_20260813.csv`, the only export reaching past 2025),
+cross-checked against the 217,573-record canonical dump.
+
+**The operator's three-part self-description tested.** "Staccato splitting into
+2-3 messages per sentence" is **falsified for the current era**: 68.5% of his
+2026 burst-internal messages carry their own subject and verb against his
+interlocutors' 55.1%, and the STACCATO mode is 8.5% of his turns against their
+10.5% — he does it *less* than the norm. The control that killed it: his FIRST
+messages in a turn start lowercase at 31.8% and his continuations at 33.5%, so
+the 12x lowercase gap versus other people is a global habit, not a
+sentence-fragmentation marker. "10+ short paragraphs" is real but negligible —
+27 messages in 2025-26, 0.08% of output.
+
+**What is actually deviant is a mode he did not name.** STACKED-ESSAY (3+
+consecutive messages, median 13+ words each) is 11.2% of his 2026 turns and
+**44.3% of everything he says**, against 1.0%/5.3% for his interlocutors. It has
+quadrupled since 2015-19 and it has *substituted* for the short reply, not added
+to it: SOLO-SHORT fell from 18.8% of his words to 7.3%.
+
+**The escalation is recent and accelerating.** Words-per-turn ratio against
+same-year interlocutors: 1.23x (2015-19), 1.04x (2020-24), 1.69x (2025),
+**3.05x (2026)**. Not a composition artifact — held to Annie's NYC handle alone
+it runs 2.40x (2025) to 3.65x (2026) with her side flat. The eleven-year delivery
+thread is the control at 3.2-4.3 words/turn and zero 50-word messages: the
+capacity for brevity is intact, the channel is what varies.
+
+**It costs him, monotonically.** Answer rate by turn size peaks at 11-20 words
+(93.8%) and falls to 54.7% above 200; words returned per word sent falls 3.53x to
+0.16x. Ending on a question does **not** rescue a long turn — 86.1% vs 91.4% at
+21-60 words, i.e. negative lift. Silence lengthens him (23.3 words/turn after
+<1 min of quiet, 49.2 after 2h-1day) and length produces silence, closing the
+loop. The 03:00 hour produces 50+ word messages at 7.61% against 13:00's 1.02%.
+
+**Nine explicit complaints from four people, 2018-2026**, the last five days
+before the export ends: *"I can't ready these paragraphs upon paragraphs"*
+(2026-08-08), *"Do you not understand how overwhelming it is getting paragraph
+after paragraph. I have expressed this to you before Dan"* (2026-02-19), *"I cant
+read any of that"* (2025-09-01), *"Summarize it"* (2025-12-08).
+
+**Two standing wiki claims retracted.** `linguistic-profile` carried
+"post-graduate (16th grade+)" readability and "99th percentile lexical
+diversity." Measured: **Flesch-Kincaid 2.08 (2015-19) to 4.00 (2026)**, and TTR
+0.0509 against interlocutors' 0.0544 on equal 200,000-token samples — marginally
+*less* diverse than the people answering him. Both trace to the commissioned
+stylometric analyses; no control group was ever used. What survives, and is
+larger than claimed, is syntactic complexity: 10.83 words/sentence against 5.62,
+**1.93x**, the single largest lexical deviation in the corpus.
+
+New page `wiki/mind/profile/texting-deviance-audit`; corrections written back to
+`linguistic-profile`, `master-message-dump`, and edges into `voice-modes`,
+`message-circadian-latency`, `forensic-method`.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/the-binary-verdict
+
+**The worked exemplar for the 21-page constitution-pass backlog (SYNTHESIS_SPEC.md,
+adopted this session's predecessor).** This page was the specific failure case
+the rule was written from — three 2026-08-28 syntheses cited one
+`wiki/mind/profile/` page between them, and this one, about how Dan's mind
+resolves questions, cited none.
+
+**Mechanism found: a closure test with no grading function beside it, on a
+corpus-confirmed low-trust default.** `wiki/mind/profile/intp`'s Ti 96%/Fe 10%
+split (Ti tests for binary closure, "does this hold together"; Fe — the
+function that would grade a verdict relationally — is nearly absent, and its
+own text already states "Fe's absence removes the social brake that would
+otherwise soften conclusions for company," never previously cited by this
+page) explains *why* worth/taste/order/conflict/authority/power/allocation
+verdicts collapse to two states. `wiki/mind/profile/big-five-psychometrics`'s
+Trust 9 — the one facet in that table independently corpus-audited (1.96x
+raised suspicion of motive, not self-report) — explains why authority/trust
+verdicts specifically reset to a suspicious default instead of decaying from a
+graded prior, the same mechanism `reassurance-architecture` already reads as
+the reason a relational confirmation does not carry forward. `forensic-method`
+supplies the general case: its own four-step detection procedure is a
+threshold gate with exactly two outputs regardless of how graded the evidence
+feeding it is, and it names the same two registers as its own grounding —
+which closes most of this page's own previously-open "direction of causation"
+Gap (narrowed via a `> **REVISED:**` block, not silently deleted).
+
+**Provenance stated as a gradient, not laundered.** `the-commissioned-self`
+establishes the Ti/Fe percentages are AI-inferred/self-commissioned with no
+independent confirmation, unlike Trust 9. The new mechanism section says this
+explicitly — the argument leans hardest on `calibrated-confidence` (a
+behavioural count with no self-report origin) and Trust 9 (corpus-audited),
+and treats Ti/Fe as the weaker, best-available-explanation register rather
+than citing all three at equal weight. This is itself now a documented
+instance of `the-commissioned-self`'s own standing rule, written back onto
+that page.
+
+**One documented register argued back and was checked, not laundered**: the
+one recorded Fe-adjudication interruption (Aug 18 2026, Ally Lubin) is read as
+a binary flip (wrong → fair), not a graded middle — consistent with, not a
+counter-instance to, the rule. Added as new falsifier 4 (tied to that specific
+interlocutor) and integrated into `intp`'s own Fe section.
+
+**Full constitution-pass table added** covering all eleven registers plus a
+twelfth (provenance): 4 registers moved the conclusion or added a named
+mechanism (cognitive stack, personality profile, romantic/relational via
+reassurance-architecture, provenance), 5 were checked and left standing
+(historical precedent, attitudes/forces, age/upbringing, religious/ideological,
+axiomatic politics), 1 checked and does not bear (geographic/ethnic — the
+Fayette Return page is about regional migration gravity, not cognition), 2
+remain open Gaps rather than silently closed (security/prosperity, health).
+Domain-level rule unchanged; no falsifier found.
+
+**Write-back**: 4 new `synthesizes:` members (`intp`, `big-five-psychometrics`,
+`forensic-method`, `the-commissioned-self`), each with a reciprocal typed edge
+stating the finding and a load-bearing prose sentence on the member page,
+following this repo's established practice of not bumping the member pages'
+`date_modified` for a write-back-only addition (confirmed against precedent:
+`totality-themes`' own 2026-08-28 write-back edge was committed without a date
+bump) — avoids an unwarranted staleness cascade onto the 8 pages that already
+`synthesizes:` these four profile/concept pages.
+
+Gates: `bin/wiki-lint` 0 errors / 34 warnings (one fewer — this page's
+constitution-pass warning cleared); `bin/wiki-connect check` 0 errors / 144
+warnings (baseline, no new); `bin/wiki-climb check` 0 errors, 0 warnings (no
+staleness introduced); `bin/wiki-freshness` clean. 20 of 21 backlog pages
+remain.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/single-channel
+
+**Second of 21.** Zero direct `wiki/mind/profile/` citations despite already
+leaning on the enneagram sx/sp stack indirectly (through `the-unbroken-bond`)
+since the page's first day, 2026-08-01.
+
+**Mechanism found for the falsifier the page itself called "the serious one."**
+`big-five-psychometrics`' Sociability 3 (corpus-audited, 0.73x baseline on
+initiating contact) and Trust 9 (corpus-confirmed, 1.96x raised suspicion)
+explain why so few channels ever clear the vetting bar in the first place —
+that page's own "Reserved" gloss ("people are draining except in rare vetted
+cases") is the mechanism, unlinked to this page until now. This converts
+falsifier 3 (circumstance vs. architecture) from "not currently answerable"
+into a specific, cheap, unrun test: a per-era Gini recomputation (Fayette
+County / NYC / the return) on the same master CSV already cited, which a
+trait-level account predicts should stay flat and a circumstantial account
+predicts should track local social density.
+
+**A dependency disclosed, not a new claim.** The relational leg's own
+mechanism — "an sx-dominant stack that organises life around one relationship
+at maximum voltage" — has been quoted from `the-unbroken-bond` since day one
+without ever citing its source, `enneagram-5w4`, or that page's live
+CONTRADICTION (the only first-person self-typing in the record gives 5w6sx,
+not the 5w4sx the stack is named for). The Gini measurement does not depend
+on which wing is correct; the *explanation* for the relational leg's shape
+does, and that dependency is now stated on the page instead of laundered
+through an intermediate citation. Two new Gaps entries record this and the
+per-era-recomputation test explicitly, rather than treating either as
+resolved.
+
+**Full constitution-pass table added.** 2 registers moved the conclusion
+(personality profile via big-five; romantic/relational via the enneagram
+disclosure) plus provenance (the-commissioned-self's residue-over-testimony
+ranking, which is what lets the Gini survive the wing dispute while the
+explanation does not automatically); geographic/ethnic culture sharpened
+(falsifier 3, above) rather than resolved; cognitive stack checked and found
+no non-decorative argument; 4 registers checked and left standing; 2 remain
+open Gaps (security/prosperity, health).
+
+Write-back: 2 new `synthesizes:` members (`big-five-psychometrics`,
+`enneagram-5w4`), each with a reciprocal typed edge and a load-bearing prose
+sentence; `enneagram-5w4`'s edge is `causes`/`caused-by` (a mechanism claim,
+not merely evidentiary) — caught and corrected a type mismatch before
+committing by running `bin/wiki-connect check` first, per the standing
+reminder from the 2026-08-28 predecessor session's own handoff note. No
+member page's `date_modified` bumped (write-back only), consistent with
+established practice.
+
+Gates: `bin/wiki-lint` 0 errors / 33 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors, 0
+warnings; `bin/wiki-freshness` clean. 19 of 21 backlog pages remain.
+
+## [2026-08-28] connect | mind, people | connection-queue.md (2 pairs: 1 typed, 1 rejected)
+
+**Track 2, interleaved per session brief.** Two top-of-queue pairs processed.
+
+**`vertical-authority-skepticism` <-> `context-core` (evidenced-by /
+evidences).** The political-trajectory line in `context-core` states this
+page's entire organizing formula verbatim — "vertical-authority-skeptic,
+lateral-solidarity-privileging" — a decade before the page independently
+derives the same claim from measured Trust/Assertiveness/Submissiveness
+scores. The page's own prose already said "the spine's own formula" without
+linking to its source; now it does. Typed edges added both directions.
+
+**`danielle-onesi` <-> `wiki/timeline/events/timeline.md` — REJECTED.** The
+mined "'timeline' unlinked" signal is a false positive (matches
+danielle-onesi's own `## Timeline` section header). The timeline page never
+mentions Danielle and her 2009 breakup predates its Nov-2015 coverage
+window; shared raw sources are wide-coverage documents cited by dozens of
+unrelated pages. Recorded as a considered non-edge rather than left
+untouched.
+
+Gates: `bin/wiki-lint` 0 errors / 33 warnings (unchanged); `bin/wiki-connect
+check` 0 errors / 144 warnings (unchanged); `bin/wiki-climb check` 0 errors,
+0 warnings.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/the-deferred-audit
+
+**Third of 21.** This page already practiced a version of register-checking
+on itself (its "Provenance disclosure" callout, dated 2026-08-02, applies
+`instrument-is-subject`'s residue/testimony ranking 26 days before the
+formal constitution-pass rule existed) but had never cited
+`wiki/mind/profile/` directly, despite quoting Big Five scores in its own
+member-comparison table.
+
+**Two registers, answering different halves of the rule.** `intp`'s
+Ti-dominance — truth defined as "a system that holds under recursive
+collapse" — is the structural reason a chosen object's audit is never
+local: selecting something is how a Ti-dominant mind extends its own
+system, so a later audit re-runs the coherence test on a piece of the
+system that produced the original choice. `big-five-psychometrics`'
+Self-Consciousness 91 (corpus-confirmed at 1.85x self-monitoring, distinct
+from Trust 9's already-cited role in the fast/imposed half) is the
+trait-level reason the delay attaches specifically to *self-directed*
+audits: Trust 9 predicts suspicion of another party's motive, but auditing
+a chosen object checks Dan's own prior judgment, which Trust 9 does not
+measure and Self-Consciousness does. The two registers answer the frame-cost
+and the self-image-cost separately rather than competing, and the
+provenance gradient (Self-Consciousness corpus-confirmed; Ti-dominance
+self-commissioned) is stated explicitly, consistent with the pattern set on
+`the-binary-verdict`.
+
+**Full constitution-pass table added.** 2 registers moved the conclusion
+(cognitive stack, personality profile); 6 checked and left standing
+(historical precedent, attitudes/forces, romantic/relational, age/upbringing,
+ideological, axiomatic politics — several already handled at the page's own
+existing rigor); 1 does not bear (geographic/ethnic); 2 remain open Gaps
+(security/prosperity, health) — the health gap notes a loose thread: the
+Menore row already on this page's two-clocks table was never cross-checked
+against `supply-network`'s own account of the same relationship.
+
+Write-back: 2 new `synthesizes:` members (`intp`, `big-five-psychometrics`),
+each with a reciprocal typed edge and prose sentence; no member date_modified
+bumped.
+
+Gates: `bin/wiki-lint` 0 errors / 33 warnings (unchanged — this page's own
+constitution-pass warning cleared, one other page's warning happened to
+clear in a prior commit); `bin/wiki-connect check` 0 errors / 144 warnings;
+`bin/wiki-climb check` 0 errors, 0 warnings; `bin/wiki-freshness` clean. 18
+of 21 backlog pages remain.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/totality-themes
+
+**Fourth of 21 — the doctrine-level page (T3, 26 synthesizes members before
+this pass).** Unusual case: the page already used Impulsiveness 96 in its
+own opening paragraph to rule out the wrong reading of the Irreversibility
+Firewall (ordinary risk-aversion), and already used the phrase "Dan's own
+audit apparatus, turned on himself" — both uncredited citations of the
+profile layer, never formalized into `synthesizes:`.
+
+**Formalized one existing citation, named one new mechanism.**
+`big-five-psychometrics`' Impulsiveness 96 (corpus-audited at 0.92x baseline
+on immediacy language — the trait scores highest in the whole Big30 table
+yet leaves no behavioral trace) is now a proper member: the control that
+keeps the firewall from being misread as generalized caution rather than
+the narrow, specific act-closure filter it actually is. `intp`'s
+Ti-dominance — truth as "a system that holds under recursive collapse" —
+names what "audit apparatus turned on himself" was always describing: the
+same coherence-testing engine `the-deferred-audit`'s own constitution pass
+(this session, three commits ago) already used for chosen-object audits,
+generalized here to any act (finishing, shipping, admitting) that would
+expose the whole system to that engine's verdict.
+
+**Most registers were already load-bearing.** Unlike the prior three
+passes, security/prosperity (`estate-money-spine`) and health
+(`supply-network`) were already members with substantive treatment, as were
+historical precedent, attitudes/forces, romantic/relational,
+geographic/ethnic, and both ideological/political registers. The
+constitution-pass table records this explicitly rather than re-arguing
+settled ground — the pass's real work here was crediting two uncredited
+citations, not discovering new territory. Provenance (register 12) was also
+already being practiced: the page's 2026-08-11 `note_on_sources` downgrade
+of 17 raw AI-secondary sources to corroboration predates the formal
+constitution-pass rule by 17 days.
+
+Write-back: 2 new `synthesizes:` members, each with a reciprocal typed edge
+and prose sentence; no member date_modified bumped (only 3 pages depend on
+this one via `synthesizes:` — checked before proceeding).
+
+Gates: `bin/wiki-lint` 0 errors / 32 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors, 0 warnings;
+`bin/wiki-freshness` clean. 17 of 21 backlog pages remain.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/the-embedded-objective
+
+**Fifth of 21.** Built its entire argument on `acquisition-drive`'s
+completion-drive claim without ever citing `wiki/mind/profile/` directly.
+
+**Ti-dominance explains why an assignment must be re-derived before it
+motivates.** `intp`'s standard of truth — "a system that holds under
+recursive collapse," verified internally, never by external say-so — means
+an assigned goal has not passed verification until Dan privately re-derives
+it (the tip split, the looper ladder), at which point it behaves like any
+other self-generated conclusion. Distinct from `vertical-authority-
+skepticism`'s already-cited Assertiveness/Submissiveness account (why he
+exits hierarchies) — this explains why an assigned *goal* specifically does
+not motivate until re-owned.
+
+**A dependency disclosed rather than resolved.** `acquisition-drive`
+(which this page's entire rule depends on) carries a live `CONTRADICTION`:
+`big-five-psychometrics` reads Impulsiveness 96 as a brake failure while
+acquisition-drive reads the identical behaviour as a working completion
+engine. This page's prose had been taking the engine side throughout —
+"the drive," "the engine" — without ever disclosing that the instrument it
+ultimately rests on disputes that reading. The page's actual evidence
+(dated tenure lengths) doesn't require the dispute to be settled, since
+tenure length is residue regardless of which trait-interpretation is
+correct; the prose narrating *why* did need the disclosure, and now has it.
+
+**Full constitution-pass table added.** 2 registers moved the conclusion
+(cognitive stack, personality profile — the latter by disclosure, not
+resolution); 8 checked and found not to bear (attitudes/forces, security/
+prosperity, romantic/relational, age/upbringing, geographic/ethnic,
+ideological, axiomatic politics) or already partially present (historical
+precedent, health via an existing prediction) — recorded honestly rather
+than forcing connections.
+
+Write-back: 2 new `synthesizes:` members (`intp`, `big-five-psychometrics`),
+each with a reciprocal typed edge; no member date_modified bumped.
+
+Gates: `bin/wiki-lint` 0 errors / 31 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors, 0 warnings;
+`bin/wiki-freshness` clean. 16 of 21 backlog pages remain.
+
+## [2026-08-28] connect | mind, self | connection-queue.md (totality-themes <-> context-core)
+
+**Track 2, interleaved.** `totality-themes`' Cross-Corpus Extensions section
+cites "the spine" (its nickname for context-core's raw material) as primary
+evidence at least eight times — the alias chronology, the money-flow
+direction, the vertical/romantic-axis starvation reading — while the same
+page's core Irreversibility Firewall section explicitly downgrades the
+identical source to corroboration only (`note_on_sources`, 2026-08-11). One
+page runs two different evidentiary standards for the same source depending
+on which half is reasoning, and neither half linked the wiki page
+(`wiki/self/context-core`) that actually synthesizes it. Typed edges added
+both directions recording the mismatch.
+
+Gates: `bin/wiki-lint` 0 errors / 31 warnings (unchanged); `bin/wiki-connect
+check` 0 errors / 144 warnings (unchanged); `bin/wiki-climb check` 0 errors,
+0 warnings.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/dormancy-not-exit
+
+**Sixth of 21.** Had never cited `wiki/mind/profile/` despite two prior
+mechanism corrections (2026-08-02, 2026-08-13) explicitly chasing the exact
+cognitive question a profile-layer register answers directly: why does a
+closure Dan performs himself never feel settled without an external
+terminating statement?
+
+**Two distinct functions for two distinct halves of the rule, not one
+blurred citation.** `intp`'s Si-tertiary (the "vast high-fidelity archive"
+with no pruning) explains the retention half — why a dormant channel costs
+nothing to reactivate after years of silence, a storage property requiring
+no claim about feelings. Fe-inferior at 10% valuing explains the
+ratification half — Ti can decide internally that a tie no longer holds
+together, but the *felt* closure Fe would normally certify is barely
+available, so the June 1 severance held for 52 days (the Ti decision) but
+was never treated as settled until an external signal supplied the
+relational read the stack could not generate itself.
+
+**Explicitly distinguished from the-deferred-audit's mechanism rather than
+duplicating it.** That page's Ti-dominance argument (audits of chosen
+objects are deferred because they risk a verdict on the chooser) explains a
+different, earlier gap than this page's Fe-ratification argument (why an
+audit that HAS run still needs external confirmation). Stated on the page
+as consecutive gaps in one architecture, not the same finding twice.
+
+**Deliberately declined a second profile-layer citation.** Trust 9 and
+Self-Consciousness 91 are already load-bearing for the-deferred-audit's
+adjacent question; the constitution-pass table records the decision not to
+force them onto this page as well, naming SYNTHESIS_SPEC's own warning
+against decorative citation as the reason.
+
+Write-back: 1 new `synthesizes:` member (`intp`), with a reciprocal typed
+edge naming both functions; no member date_modified bumped.
+
+Gates: `bin/wiki-lint` 0 errors / 30 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors, 0 warnings;
+`bin/wiki-freshness` clean. 15 of 21 backlog pages remain.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/estate-money-spine
+
+**Seventh of 21.** A financial/genealogical forensics page rather than a
+cognitive-architecture one — most registers genuinely do not bear, recorded
+as such rather than forced.
+
+**The one register that does bear resolves an apparent contradiction the
+page had been carrying unexamined.** The page's sharpest rule — "a lump
+arriving anywhere in this family is immediately re-lent inside it, on no
+paper, at the moment of arrival" — looks like the opposite of what a
+1st-percentile Altruism score would predict. `big-five-psychometrics`'s own
+2026-08-16 corpus audit already resolved this: Altruism-1 is inverted
+specifically on its *instrumental* half (offering resources unprompted runs
+1.79-2.49x baseline) while the *affective* half (sympathy, condolence) runs
+0.45x. The $14,000 unsecured transfer to Suz is exactly the shape that
+inversion predicts — high-provision, zero documented condolence — which a
+bare "Altruism 1" reading would have called the least likely event in the
+family's ledger.
+
+**Explicitly declined the more obvious-looking explanation.** Impulsiveness
+96 is the tempting account for a fast, undocumented decision, but that
+facet's own corpus audit found no behavioral trace at all (0.92x, flat) —
+using it here would cite the one Big30 facet the audit could not confirm to
+explain something the audit's *other* finding already explains directly.
+Stated on the page rather than reached for the easier-sounding citation.
+
+**Full constitution-pass table added**, honestly recording that 8 of 11
+registers either don't bear on financial forensics or were already
+load-bearing pre-pass (cocaine, Annie, Rick, Fran already members) — no
+manufactured connections.
+
+Write-back: 1 new `synthesizes:` member (`big-five-psychometrics`), with a
+reciprocal typed edge; no member date_modified bumped.
+
+Gates: `bin/wiki-lint` 0 errors / 29 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors, 0 warnings;
+`bin/wiki-freshness` clean. 14 of 21 backlog pages remain.
+
+## [2026-08-28] close | people | wiki/people/alexis-armel — two operator-volunteered captures fully ingested
+
+**Not from a gap list — volunteered via the portal, two notes filed the same
+evening** (`raw/people/captures/2026-08-27_222932_gap-alexis-armel.md` and
+`_223406_`), staged as `pending_ingest` on the page. The portal's manual-note
+editor overwrote the first note's staging display with the second before
+either was cleared, so `bin/wiki-gaps pending` only ever saw the second — both
+captures were read from `raw/` directly and integrated in full per this
+session's user instruction to use the CLOSE protocol.
+
+**Primary target, fully rewritten around both answers.** `wiki/people/
+alexis-armel`: dates the relationship's start to a Thanksgiving 2009 trip
+home (three months after Dan's August 2009 Full Sail graduation) — closing a
+gap `full-sail-2008-2010` had stated directly; adds the Christmas 2009 trip
+(the Zach Clingan driveway rupture, a Seven Springs ski trip, an 8-day
+supply-extended stay paralleling the later Shelbie/Annie trip pattern);
+corrects "he went back to her within weeks" after the July 2013 Franki break
+to the fuller sequence (5 days at 155 Virginia Ave, her mother's, a new
+boyfriend, a brief NYC move, October 2013 reconciliation); and adds a second,
+previously undocumented 2014 eviction (a March washing-machine incident, 5
+months hidden, an intermediate Leah Tedesco residence, arrival at 155
+Virginia Ave "by Christmas 2014"). `GAP CLOSED`/`GAP NARROWED` blocks record
+each; new gaps opened (the washing-machine cause, Leah Tedesco) are stated
+rather than silently absorbed.
+
+**A real contradiction resolved, not just narrowed.** Two independent T0
+operator statements (2026-08-02 and 2026-08-27) now agree the "five days"
+belongs to Alexis's displacement at 155 Virginia Ave, not to Franki Faris's
+own tenure — corrected on `franki-faris`, `franki-fireworks-day-2013`, and
+`dormancy-not-exit` (whose tenure-floor control is sharper for it, per that
+page's own 2026-08-02 prediction of what a resolution would do).
+
+**A causal link the corpus never had.** `chemical-architecture` and
+`full-sail-2008-2010` both name, for the first time, the final active-use
+episode before the February 17, 2010 Suboxone stabilization: Alexis brings
+30 Roxicet pills over the same Thanksgiving weekend they meet, a friend
+(Spetch) runs a daily Winter-Park-to-Ocala supply line, and the episode
+resolves seven weeks later on the already-dated day-zero. Does not change
+"sixteen years, zero relapses" — supplies what preceded it.
+
+**A second, unreconciled eviction/concealment account, held open rather than
+forced.** The 2014 Suz/Alexis eviction resembles, but is dated a full year
+before, an existing account on `wiki/legal/2015-possession-arrest` and
+`wiki/places/155-virginia-ave` (thrown out, hidden ~4 months, immediately
+pre-dating the Jan 2015 lease). Both are T0 testimony of different
+specificity; flagged as a live, unresolved question on all three pages
+rather than one silently overwriting the other.
+
+**`zach-clingan`** gains its missing origin story: the Christmas 2009
+driveway accusation (Alexis and Clingan) is the dated rupture the 2014 "drug
+people" taxonomy and the 2015 "my arch rival" outburst had always assumed
+without ever documenting.
+
+**`suzanne-frank`** gains the March 2014 eviction as a new dated event —
+flagged on `suzanne-frank-personality-assessment` as new material that
+assessment has not yet incorporated, not integrated there (out of this
+pass's scope).
+
+**Staleness cascade worked through six hops**, each re-checked and confirmed
+unaffected rather than silently bumped: `dormancy-not-exit` →
+`totality-themes` → `single-channel` → `the-deferred-audit` →
+`the-configured-body` (chemical-architecture branch also touched `cocaine`);
+separately `suzanne-frank` → `annual-volume-suz` / `attachment-trauma-bond`
+/ `estate-money-spine` / `suzanne-frank-personality-assessment`, and
+`attachment-trauma-bond` → `august-grievance-verdict` →
+`morgantown-call-three-participant-ethical-analysis`. Three of the touched
+pages (`the-rescue-premise`, `attachment-trauma-bond`,
+`august-grievance-verdict`, `morgantown-call-three-participant-ethical-
+analysis`) are under the Annie moratorium — each got a bookkeeping-only
+RE-CHECKED confirmation, no new Annie narrative, fact, quote or date. Two
+legitimate staleness obligations left open rather than force-bumped
+(`alias-as-periodization`, `the-unpapered-address`) — both already on this
+session's constitution-pass backlog and will be handled in their own passes.
+
+`bin/wiki-gaps clear wiki/people/alexis-armel` run; both raw captures remain
+the permanent record.
+
+Gates: `bin/wiki-lint` 0 errors / 30 warnings (baseline, unrelated to this
+pass); `bin/wiki-connect check` 0 errors / 144 warnings (baseline — two
+missing-inverse and one mismatched-type warning introduced mid-pass, caught
+and fixed before commit); `bin/wiki-climb check` 0 errors / 4 warnings (the
+two legitimate open obligations above); `bin/wiki-freshness` clean; 125 unit
+tests pass.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/supply-network
+
+**Eighth of 21.** Had never cited `wiki/mind/profile/` despite its central
+"reliability inversion" (friend-suppliers less reliable than strangers)
+being a domain-general audit-timing rule applied to one market.
+
+**The mechanism was already sitting one page away, unnamed.** "Intimacy
+licenses failure" describes the pattern but not the engine. Enforcing a
+reliability standard on a supplier — noticing the failure, switching away —
+is an audit, in exactly the sense `the-deferred-audit` uses the word, and
+`intp`'s Ti-dominance is the same mechanism that page's own constitution
+pass (three commits ago in this session) already used for why chosen
+objects get their audits deferred: auditing a friendship risks a verdict on
+the friend*ship*, not merely a finding about the supplier. Tom is already a
+row on `the-deferred-audit`'s own two-clocks table — "model revised only
+after the mid-May 2026 supply failure... ~18 years" — and this page's
+reliability inversion turns out to be that exact rule generalized from one
+relationship to an entire market: Menore isn't more reliable because
+distance is a virtue, but because a stranger's failure costs nothing to
+notice and act on.
+
+**Declined to duplicate an adjacent page's personality-profile citations.**
+Trust 9 and Self-Consciousness 91 are already load-bearing for
+`the-deferred-audit`'s own version of this mechanism; the constitution-pass
+table records the decision not to re-cite them here as decorative, since
+this page's own argument (the cross-market generalization) doesn't need
+them independently.
+
+**Full constitution-pass table added.** 1 register moved the conclusion
+(cognitive stack); 1 explicitly declined as decorative (personality
+profile, already covered one hop away); 8 checked and found not to bear or
+already load-bearing (historical precedent, security/prosperity via
+estate-money-spine, health, romantic/relational via Annie, age/upbringing,
+geographic/ethnic, ideological, axiomatic politics); provenance gradient
+inherited by cross-reference rather than re-argued.
+
+Write-back: 2 new `synthesizes:` members (`intp`, `the-deferred-audit`),
+each with a reciprocal typed edge; `intp` edge is `evidenced-by`/`evidences`,
+`the-deferred-audit` edge is a symmetric `parallels` pair. `date_modified`
+bumped this time (a substantive new mechanism section, not a pure
+write-back) — checked dependents (`totality-themes`, `cocaine`,
+`the-configured-body`), all already current, no cascade.
+
+Gates: `bin/wiki-lint` 0 errors / 30 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors / 4 warnings
+(two pre-existing legitimate obligations, unrelated); `bin/wiki-freshness`
+clean. 13 of 21 backlog pages remain.
+
+## [2026-08-28] connect | self, timeline | connection-queue.md (context-core <-> timeline.md)
+
+**Track 2, interleaved.** The mined "unlinked" signals were false positives
+(generic word uses of "timeline," a `sources:` path mention), but a real
+relationship existed underneath: `context-core` and `wiki/timeline/events/
+timeline.md` are both built in part from the same `LIFE_EVENTS_CALENDAR.md`
+extraction — context-core as the curated, cross-checked read (its own
+Residence timeline section has already resolved several date conflicts),
+timeline.md as the near-raw auto-extracted event list. Typed edges added
+both directions.
+
+Gates: `bin/wiki-lint` 0 errors / 30 warnings (unchanged); `bin/wiki-connect
+check` 0 errors / 144 warnings (unchanged); `bin/wiki-climb check` 0 errors
+/ 4 warnings (unchanged — the two pre-existing legitimate obligations from
+prior commits, still open and still tracked for their own passes).
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/alias-as-periodization
+
+**Ninth of 21.** Already leaned on `totality-themes`' Ti-dominance account
+of the Irreversibility Firewall (renaming as identity-layer closure work)
+without ever citing `wiki/mind/profile/` directly, and had carried two days
+of accumulated staleness debt from that same dependency — resolved in the
+same pass.
+
+**A second, complementary function for the half of the rule Ti doesn't
+cover.** `totality-themes` already explains why the *name* changes at each
+period boundary (Ti-dominance treats a finished, public work as an exposed
+fact the audit apparatus could render a verdict on, so the name is
+sacrificed instead). It does not explain why the **sub-bass signature**
+specifically never turns over. `intp`'s Si-tertiary — "the vast
+high-fidelity archive," the same function `dormancy-not-exit`'s own
+constitution pass used for why nothing decays from the relational graph —
+supplies that half directly: the signature is identified post-hoc, an
+archived trait rather than a Ti-negotiated choice, so it sits outside the
+audit-and-revise cycle the name is subject to. Two functions, two halves of
+one rule, explicitly distinguished rather than blurred into one citation.
+
+**Declined a personality-profile citation as decorative** — no Big-Five
+facet added a distinct argument beyond the two cognitive-function accounts
+already carrying the rule.
+
+Write-back: 1 new `synthesizes:` member (`intp`), with a reciprocal typed
+edge; no member date_modified bumped. This page's own date_modified bumped
+(substantive new section, and the accumulated staleness needed a real
+re-check, not a bump-only clear) — checked dependents (`single-channel`,
+`totality-themes`), both already current, no cascade.
+
+Gates: `bin/wiki-lint` 0 errors / 29 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors / 3 warnings
+(one fewer — this page's own resolved); `bin/wiki-freshness` clean; 125
+tests pass. 12 of 21 backlog pages remain.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/music-as-identity
+
+**Tenth of 21.** Had never cited `wiki/mind/profile/`, and its own
+explanation for the Fall Out Boy freeze-at-boundary pattern ("the objects
+can't betray him") had never been tested against an object that
+structurally cannot betray him.
+
+**The register narrowed the conclusion, not just supported it.** A defunct
+band's studio catalog carries zero relational risk — it cannot release a
+bad record, cheat, or disappoint the way a person could — yet gets the
+identical freeze treatment the page documents for relationships. That is a
+falsifier the "can't betray him" framing does not survive. `intp`'s
+Ti-dominance supplies the sharper account: a verdict, once it holds under
+recursive collapse, is not supposed to need relitigating. The freeze is not
+defensive; it is what a closed Ti verdict looks like from outside, and it
+predicts (correctly) that the pattern generalizes to objects with zero
+relational stakes at all. New Gaps entry records the sharper prediction
+this licenses (a canonized verdict should hold even against strong external
+pressure to revise it) as untested.
+
+**Full constitution-pass table added.** 1 register moved and narrowed the
+conclusion (cognitive stack); 1 explicitly declined as adding nothing
+distinct (personality profile); the rest checked and found not to bear or
+already load-bearing (romantic/relational via the Annie happiness-ranking
+handover already central to the page).
+
+Write-back: 1 new `synthesizes:` member (`intp`), reciprocal typed edge; no
+member date_modified bumped. This page's date_modified bumped (substantive
+new section). Checked dependents (`totality-themes`), already current, no
+cascade.
+
+Gates: `bin/wiki-lint` 0 errors / 28 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors / 3 warnings
+(unchanged, pre-existing); `bin/wiki-freshness` clean; 125 tests pass. 11
+of 21 backlog pages remain.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/instrument-is-subject
+
+**Eleventh of 21 — the unusual case: this page's own conclusion is about
+repository structure, not directly about Dan**, which its own Gaps section
+already states candidly. Ran the pass in full anyway, per the standing
+instruction that it applies to every synthesis regardless of whether the
+material seems to call for it.
+
+**A register genuinely bears on the origin of the artifact, if not on the
+structural conclusion itself.** The page treats the exocortex prompt's
+evidentiary standard (unwavering honesty, no softening, residue over
+testimony) as a given. `intp`'s Ti-dominance explains why that specific
+standard exists rather than a softer one: "a system that holds under
+recursive collapse, not social consensus" is, verbatim, what the prompt's
+instructions look like once exported from a cognitive style into an
+instruction for a machine. This narrows what "the instrument is the
+subject" means — not merely that an LLM user built an LLM wiki about
+himself, but that the rigor making the wiki trustworthy and the recursion
+making it structurally blind are the same cognitive fact seen from two
+directions.
+
+**Did not overclaim the page's own boundary.** The constitution-pass table
+explicitly states what it did not do: claim the page's structural
+conclusion (about knowledge-propagation across the corpus) is "about Dan"
+the way the other 20 backlog pages are. That boundary is the page's own,
+stated honestly in its pre-existing Gaps section, and this pass respects
+rather than papers over it.
+
+Write-back: 1 new `synthesizes:` member (`intp`), with a `causes`/`caused-by`
+reciprocal edge (a mechanism claim, not merely evidentiary). This page's own
+date_modified bumped (substantive new section); cascaded to
+`the-commissioned-self` (re-checked, confirmed unaffected, bumped);
+`failure-to-launch` and `totality-themes` already current, no further
+cascade.
+
+Gates: `bin/wiki-lint` 0 errors / 27 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings; `bin/wiki-climb check` 0 errors / 3 warnings
+(unchanged, pre-existing, unrelated); `bin/wiki-freshness` clean; 125 tests
+pass. 10 of 21 backlog pages remain.
+
+## [2026-08-28] constitution-pass | mind | wiki/interests/food-and-diet
+
+Constitution pass on the 12th of 21 backlog pages (second-to-last non-Annie
+page). This page had never cited `wiki/mind/profile/`, and its central
+finding — an absolute, no-questions-asked composition regime governing every
+plate — had never been checked against the domain-general verdict machinery
+`wiki/mind/synthesis/the-binary-verdict.md` documents for worth, taste,
+trust and legitimacy questions elsewhere in the corpus.
+
+**The finding.** The composition table (accept corn/lettuce, meat/cheese/
+bread-or-shell-or-roll; refuse onion and tomato outright; pickles as "the
+mortal enemy") has no recorded middle state anywhere — no ingredient
+tolerated in a small amount, none picked out and eaten anyway. That is the
+identical shape `the-binary-verdict` finds in worth, taste and trust
+questions, and food composition is a ninth domain instance of that page's
+rule — the most literal one on record, because a sandwich has no relational
+stakes available to blur the verdict the way a person or a taste sometimes
+can. `wiki/mind/profile/intp`'s Ti-dominance (96% latent, pass/fail closure
+test) with Fe at 10% valuing (too weak to run a graded "acceptable enough"
+negotiation) is the mechanism: an unrequested ingredient fails closure
+outright, with nothing available to soften the verdict.
+
+**Did not overclaim.** The regime's origin relative to the adolescent
+bulimia period (`wiki/health/hyperreflexivity`) stays an open Gap — this
+pass supplies a mechanism for why the rule is *absolute*, not a date for
+when it started, and says so directly in the constitution-pass table.
+
+**Write-back, both directions.** `food-and-diet.md` gained two new
+`synthesizes:` members (`intp`, `the-binary-verdict`) with reciprocal edges:
+`caused-by`/`causes` to `intp` (mechanism), `instance-of`/`instantiates` to
+`the-binary-verdict` (domain instance — corrected from an initial
+`contains`/`instance-of` mismatch caught by `bin/wiki-connect check`).
+`the-binary-verdict.md` itself got more than a one-line reciprocal: a new
+row in its own domain table (food composition, ninth domain), an addendum
+note dating the addition and explaining why it's the most literal member on
+the table, and its Gaps bullet revised to record that the ninth domain was
+added independently rather than by its own re-check (health, money and
+work-performance remain untested, unchanged). `intp.md` got a bookkeeping-
+only reciprocal edge, no date bump. `the-binary-verdict.md`'s date_modified
+was already 2026-08-28 from its own pass earlier this session; the new
+material there is substantive rather than mere write-back, but no additional
+bump was needed.
+
+**Cascade check.** No page reasons from `food-and-diet.md` as a premise with
+an earlier date, so no staleness cascade. `wiki-climb check`'s 3 remaining
+warnings (all `wiki/places/the-unpapered-address.md`) are pre-existing and
+unrelated — that page is next in the backlog.
+
+Gates: `bin/wiki-lint` 0 errors / 26 warnings; `bin/wiki-connect check` 0
+errors / 144 warnings (baseline restored after the type-mismatch fix);
+`bin/wiki-climb check` 0 errors / 3 warnings (unchanged, pre-existing);
+`bin/wiki-freshness` clean after `bin/wiki-digest` + `bin/llm-publish`; 125
+tests pass. 9 of 21 backlog pages remain — 1 more non-Annie page
+(`wiki/places/the-unpapered-address.md`), then the 7 Annie-moratorium pages.
+
+Note: PR #204 merged mid-session; branch `claude/constitution-pass-backlog-95zhnz`
+was restarted from fresh `origin/main` per protocol before this pass, since
+no unmerged commits existed beyond the merged history — only this
+in-progress, uncommitted edit, which carried forward cleanly.
+
+## [2026-08-28] constitution-pass | places | wiki/places/the-unpapered-address
+
+Constitution pass on the 13th and last non-Annie backlog page. This page
+had never cited `wiki/mind/profile/`, and it also carried three legitimate
+staleness warnings from `bin/wiki-climb check` (premises in
+`estate-money-spine`, `the-deferred-audit` and `155-virginia-ave` had all
+moved to 2026-08-28 while this page sat at 2026-08-27) — resolved as part
+of the same pass rather than deferred, per CLAUDE.md's "never clear a
+staleness warning by bumping a date" rule.
+
+**The three re-checks.** `estate-money-spine` and `the-deferred-audit` both
+gained constitution-pass mechanism sections unrelated to housing/tenancy —
+re-read, confirmed unaffected, recorded as RE-CHECKED blocks rather than
+silently bumped. `155-virginia-ave` gained a genuinely relevant addition: a
+newly surfaced operator account (from this session's earlier Alexis Armel
+close) dates an eviction/concealment episode to March 2014 with arrival at
+155 Virginia "by Christmas 2014," a few weeks before the January 2015 lease
+date this page's table cites. That page holds two differently-dated
+accounts open rather than reconciling them, and this page does the same —
+the possible shift touches no claim here (no lease, no rent, no signatory
+survive either dating) and if anything reinforces the thesis. Recorded as a
+RE-CHECKED block; the table's date range is left as-is pending the other
+page's own resolution.
+
+**The finding.** A corpus-confirmed low-trust score (Trust 9, 1.96x raised
+suspicion) predicts the opposite of what sixteen years of housing behavior
+shows — zero paper-seeking across seven addresses is the sharpest apparent
+counter-instance to that facet found in this session's passes. Resolved not
+by smoothing it over but by `vertical-authority-skepticism`'s lateral/
+vertical split: every housing provider in the table (mother, grandmother,
+partner, great-grandmother) is a lateral by that page's own definition,
+which is exactly the relationship category that gets a trusted-now,
+audited-later default rather than the suspicion Trust 9 predicts elsewhere.
+`intp`'s Ti-dominance supplies the other half directly (already implicit
+via the already-cited `the-deferred-audit`, now stated as this page's own
+mechanism): demanding paper from a person granting housing audits whether
+they can be trusted to keep granting it, which risks the dependency itself.
+
+**Write-back.** Three new `synthesizes:` members (`intp`,
+`big-five-psychometrics`, `vertical-authority-skepticism`) with reciprocal
+edges on all three pages. New falsifier and Gap recorded: the mechanism has
+never been tested against its own counter-case (a vertical housing provider
+treated without paper, or a lateral treated with it) — stated honestly
+rather than claimed as settled.
+
+Gates: `bin/wiki-lint` 0 errors / 25 warnings (one fewer — the last
+`no wiki/mind/profile/` warning outside the Annie set is gone);
+`bin/wiki-connect check` 0 errors / 144 warnings (baseline); `bin/wiki-climb
+check` **0 errors / 0 warnings** — all staleness debt from the backlog is
+now resolved; `bin/wiki-freshness` clean after `bin/wiki-digest` +
+`bin/llm-publish`; 125 tests pass. `bin/wiki-work scan`: **0 obligations.**
+
+**All 13 non-Annie constitution-pass backlog pages are now done.** Only the
+7 Annie-moratorium pages remain, to be done last, in the order the operator
+set: `attachment-trauma-bond`, `dan-annie-fallout-verdict`,
+`block-unblock-loop`, `august-grievance-verdict`, `the-rescue-premise`,
+`read-receipt-forensics`, `morgantown-call-three-participant-ethical-analysis`.
+Each is bound by the standing Annie moratorium: cognitive-stack and
+profile-layer mechanism citations are permitted, any new narrative, date,
+quote or figure about Annie is not.
+
+## [2026-08-28] connect | mind/self | node-locking.md <-> gemini-activity.md
+
+Track 2: typed the next unprocessed connection-queue pair (score 11.2).
+`wiki/mind/concepts/node-locking.md`'s mechanism argument (403 "node,"
+1,041 "profile," 2,258 "lock" mentions, the Jan 2 2026 forensics-plus-
+locking cluster) is built directly from `wiki/self/gemini-activity/
+gemini-activity.md`'s own theme-frequency table rather than independently
+re-derived — `evidences`/`evidenced-by` typed both directions. The
+next-highest-scored pair (dan-annie-fallout-verdict.md <-> group-chat-
+closure.md, 12.6) was skipped: typing it would be a new typed-edge claim
+about Annie, forbidden under the standing moratorium regardless of
+source quality.
+
+Neither page carries `synthesizes:`, so no staleness question; no
+date_modified bump, per this branch's established connection-queue
+convention (bookkeeping edge, not new argument).
+
+Gates: `bin/wiki-lint` 0 errors / 25 warnings; `bin/wiki-connect check` 0
+errors / 144 warnings (baseline; two pre-existing bare-`## Related`-footer
+warnings on gemini-activity.md and its archive page are unrelated to this
+edit); `bin/wiki-climb check` 0 errors / 0 warnings; `bin/wiki-freshness`
+clean; 125 tests pass. `bin/wiki-work scan`: 0 obligations, 193 standing
+(one fewer).
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/attachment-trauma-bond
+
+First of the 7 Annie-moratorium backlog pages, done last per the operator's
+explicit ordering and bound throughout by the standing Annie moratorium in
+CLAUDE.md. This page had never cited `wiki/mind/profile/`, despite its own
+"Aura Illness" section already asserting an unsourced typological claim
+("Dan's INTP 5w4 sx/sp profile dictates...") — the citation gap and the
+mechanism argument were the same piece of missing work, which made this a
+safe first case: every citation below sources a claim the page already made
+about Dan's own cognition, using no material beyond what this page and the
+profile pages already state.
+
+**The mechanism, sourced rather than asserted.** `wiki/mind/profile/intp`'s
+Ti-Si loop (the type's own documented "signature pathology") is why the
+bond's collapse reactivated exactly the two schemas already named on the
+page — the 2004-05 parental rupture, the Alexis collapse — rather than
+fading into ordinary grief; Ni-leak's mythic-overfitting is the measured
+function behind the "burning rituals" language. `wiki/mind/profile/
+enneagram-5w4`'s sx/sp fusion-or-annihilation instinct stacking is the
+literal source for "ontological amputation," and its own unresolved
+5w4-vs-5w6sx wing contradiction is disclosed rather than laundered — the
+mechanism survives it because it rests on the instinct order, not the
+disputed wing. `wiki/mind/synthesis/the-binary-verdict` reframes the
+confession trap as verdict-cognition's *boundary case*: not an ordinary
+instance of a reached verdict staying closed, but what happens when the
+same drive for a closing verdict is never satisfied — which is why the
+eventual exit ran through a door rather than through closure.
+
+**One tempting register checked and declined.** `wiki/mind/profile/
+big-five-psychometrics`' Vulnerability facet — the one that would most
+directly predict a psychosomatic-crisis account — runs flat (0.81x, below
+baseline) on the corpus audit, like Impulsiveness. Not cited as a
+mechanism; recorded as checked and found wanting, consistent with this
+session's provenance-gradient discipline.
+
+**Moratorium compliance, explicit.** The page's own new "## The
+constitution pass" section states directly that nothing new about Annie
+was added, dated, quoted, or extended — every sentence either concerns
+Dan's measured cognitive architecture or restates a fact already on the
+page (the 2004-05 rupture, the Alexis collapse, the confession-trap quote,
+the "ontological amputation" language) with its mechanism now cited rather
+than asserted.
+
+Write-back: four new `synthesizes:` members (`intp`, `enneagram-5w4`,
+`big-five-psychometrics`, `the-binary-verdict`) with reciprocal edges on
+all four pages.
+
+Gates: `bin/wiki-lint` 0 errors / 24 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors /
+0 warnings; `bin/wiki-freshness` clean after `bin/wiki-digest` +
+`bin/llm-publish`; 125 tests pass. `bin/wiki-work scan`: 0 obligations, 193
+standing. 6 of 7 Annie-moratorium pages remain, in the operator's stated
+order: `dan-annie-fallout-verdict`, `block-unblock-loop`,
+`august-grievance-verdict`, `the-rescue-premise`, `read-receipt-forensics`,
+`morgantown-call-three-participant-ethical-analysis`.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/dan-annie-fallout-verdict
+
+Second of 7 Annie-moratorium backlog pages, bound throughout by the standing
+moratorium. Sourced two claims the page already made about Dan's own
+cognition: `wiki/mind/profile/intp`'s Ti-dominance/Fe-inferior split for the
+already-stated "Ti-dominant processing reads emotional bids as propositions
+to litigate" line; `wiki/mind/synthesis/the-binary-verdict` reframing the
+already-quoted confession trap ("the exit was never through the verdict, it
+was through the door") as verdict-cognition's boundary case, matching the
+same citation just added to `attachment-trauma-bond`. No new Annie
+narrative, date, quote, or figure anywhere in this pass.
+
+**A real finding, deliberately not fixed.** Reading the whole page for this
+pass surfaced a genuine write-back failure: this page's own 2026-07-18
+REVISED block found the 187-of-191 "love-to-request" statistic
+non-diagnostic (97.2% of *all* her messages are equally request-adjacent at
+24h; the directional 1h-window test inverts it). `wiki/people/annie-ulmer`
+already carries that correction. Five other pages —
+`wiki/mind/concepts/conflict-architecture`, `wiki/mind/concepts/
+attachment-model`, `wiki/mind/synthesis/the-binary-verdict`, `wiki/mind/
+synthesis/the-rescue-premise`, `wiki/people/annie-ulmer-personality-
+assessment` — still cite the raw figure without the correction. **Not
+fixed in this pass.** A proper correction requires stating what the
+statistic does and doesn't show about Annie's behavior — new Annie-adjacent
+prose the standing moratorium reserves to the operator, not a session's own
+judgment call, however well-reasoned the fix. Logged to `BACKLOG.md` §3
+instead of silently fixed or silently dropped, per the task's explicit
+instruction: "if a constitution pass can only be completed by saying
+something new about her, stop and record why instead."
+
+Write-back: two new `synthesizes:` members (`intp`, `the-binary-verdict`)
+with reciprocal edges on both pages.
+
+Gates: `bin/wiki-lint` 0 errors / 23 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors /
+0 warnings; `bin/wiki-freshness` clean; 125 tests pass. `bin/wiki-work
+scan`: 0 obligations, 194 standing (one more — the new BACKLOG.md item).
+5 of 7 Annie-moratorium pages remain: `block-unblock-loop`,
+`august-grievance-verdict`, `the-rescue-premise`, `read-receipt-forensics`,
+`morgantown-call-three-participant-ethical-analysis`.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/block-unblock-loop
+
+Third of 7 Annie-moratorium backlog pages, bound throughout by the standing
+moratorium. Sourced a phrase the page already used unsourced: "the machine
+proof" section named "an exhaustible Fe function" without citing
+`wiki/mind/profile/intp`. Two distinct functions explain the page's
+corrected rule ("the exit is executed; the deletion never is"): Si-tertiary's
+non-pruning archive is why nothing co-held is ever actually erased from the
+system, and Fe-inferior (10% valuing) is why an executed severance never
+becomes felt-settled without an external terminating statement — reusing,
+rather than re-deriving, the identical two-function account this session
+already established for `wiki/mind/synthesis/dormancy-not-exit`'s "suspend,
+not delete" rule, applied here to the channel-operation layer instead of
+the relationship-status layer. No new Annie narrative, date, quote, or
+figure anywhere in this pass.
+
+Write-back: one new `synthesizes:` member (`intp`) with a reciprocal edge.
+
+Gates: `bin/wiki-lint` 0 errors / 22 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors /
+0 warnings; `bin/wiki-freshness` clean; 125 tests pass. `bin/wiki-work
+scan`: 0 obligations, 194 standing. 4 of 7 Annie-moratorium pages remain:
+`august-grievance-verdict`, `the-rescue-premise`, `read-receipt-forensics`,
+`morgantown-call-three-participant-ethical-analysis`.
+
+Note: PR #205 merged mid-session (again) while two more commits were still
+in flight; branch was restarted from fresh `origin/main` and the two
+unmerged commits (`attachment-trauma-bond`, `dan-annie-fallout-verdict`)
+cherry-picked forward per protocol, gates re-verified identical, opened
+PR #206.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/august-grievance-verdict
+
+Fourth of 7 Annie-moratorium backlog pages, bound throughout by the standing
+moratorium — and the most sensitive page done so far, given its content
+(coercive control, a disclosed suicide attempt, grievance-by-grievance
+adjudication of a documented, recorded incident). The only edit is a
+mechanism citation for grievance 6, which the page had already scored
+(false) and explained in its own words: the "him or me" demand admits no
+third option, so a stated want that isn't one of the two named options
+registers as no answer at all. `wiki/mind/profile/intp`'s Ti-dominance
+running with no Fe-mediated grading function is why a different true
+answer can't register as responsive; `wiki/mind/synthesis/the-binary-verdict`
+names it as a domain instance of the corpus-wide rule already established
+this session — Dan's own cognition, using only language already on the
+page. No new claim, quote, date, or figure about Annie anywhere in this
+pass; every other grievance score, the counter-ledger, and the verdict
+itself are untouched.
+
+Write-back: two new `synthesizes:` members (`intp`, `the-binary-verdict`)
+with reciprocal edges on both pages.
+
+Gates: `bin/wiki-lint` 0 errors / 21 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors /
+0 warnings; `bin/wiki-freshness` clean; 125 tests pass. `bin/wiki-work
+scan`: 0 obligations, 194 standing. 3 of 7 Annie-moratorium pages remain:
+`the-rescue-premise`, `read-receipt-forensics`,
+`morgantown-call-three-participant-ethical-analysis`.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/the-rescue-premise
+
+Fifth of 7 Annie-moratorium backlog pages, bound throughout by the standing
+moratorium — explicitly including a hard stop on the page's own gap 7 and
+predictions P1-P5, all of which depend on a newer export the moratorium
+forbids acquiring; this pass touches none of them. Two citations, both
+sourcing claims the page already made: `wiki/mind/profile/intp`'s
+Fe-inferior (10% valuing) for the page's own "the system... cannot generate
+one from behavioural evidence" line about the severance signal;
+`wiki/mind/synthesis/the-binary-verdict` identifying the confession trap
+this page restates ("a rescuer supplies neither the verdict nor the door")
+as the same mechanism already documented on `dan-annie-fallout-verdict` and
+`attachment-trauma-bond` — one mechanism now correctly identified as one
+mechanism across three pages, not three independent observations.
+
+**A second instance of the deferred write-back finding, cross-referenced
+rather than re-litigated.** This page's own Part II still carries the
+un-propagated 187-of-191 base-rate caveat first flagged during the
+`dan-annie-fallout-verdict` pass. Not fixed here either, for the identical
+reason (already logged to `BACKLOG.md`); the constitution-pass table simply
+notes the page is one of the five affected rather than re-deriving the
+finding.
+
+No new Annie narrative, date, quote, or figure anywhere in this pass.
+
+Write-back: two new `synthesizes:` members (`intp`, `the-binary-verdict`)
+with reciprocal edges on both pages.
+
+Gates: `bin/wiki-lint` 0 errors / 20 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors /
+0 warnings; `bin/wiki-freshness` clean; 125 tests pass. `bin/wiki-work
+scan`: 0 obligations, 194 standing. 2 of 7 Annie-moratorium pages remain:
+`read-receipt-forensics`, `morgantown-call-three-participant-ethical-analysis`.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/read-receipt-forensics
+
+Sixth of 7 Annie-moratorium backlog pages, bound throughout by the standing
+moratorium. This one is a genuinely different case from the other five: it
+is a technical methodology page (SQLite `chat.db` column semantics, a
+type-affinity bug), not a psychological or narrative one, and most of the
+eleven registers honestly do not bear on it — forcing a cognitive-stack
+citation onto a page about a SQL type-coercion defect would have been
+exactly the decorative connection this pass exists to prevent, not
+produce.
+
+One register does bear, and it was already implicit. The page's own
+pre-existing `reassurance-architecture` citation calls read-receipt
+analysis "measurement substituting for reassurance" without naming what
+that architecture runs on. `wiki/mind/profile/big-five-psychometrics`'
+Trust 9 (corpus-confirmed 1.96x raised suspicion) is the one hop back: a
+confirmation that doesn't carry forward as a prior is why a device-level
+metadata query gets run in the first place. Named directly rather than
+left implicit. Register 1 (cognitive stack) was checked and explicitly
+declined as redundant with register 2 rather than cited decoratively.
+
+Write-back: one new `synthesizes:` member (`big-five-psychometrics`) with
+a reciprocal edge.
+
+Gates: `bin/wiki-lint` 0 errors / 19 warnings (one fewer); `bin/wiki-connect
+check` 0 errors / 144 warnings (baseline); `bin/wiki-climb check` 0 errors /
+0 warnings; `bin/wiki-freshness` clean; 125 tests pass. `bin/wiki-work
+scan`: 0 obligations, 194 standing. 1 of 7 Annie-moratorium pages remains:
+`morgantown-call-three-participant-ethical-analysis` — the last page of the
+entire 21-page backlog.
+
+## [2026-08-28] constitution-pass | mind | wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis + wiki/mind/synthesis/fayette-return
+
+Seventh and last of the Annie-moratorium pages, plus one page that turned
+out to have been missed earlier in this session's Track 1 pass.
+
+**`morgantown-call-three-participant-ethical-analysis`** — bound throughout
+by the standing moratorium. The single most sensitive page in the backlog:
+a three-participant ethical analysis of a documented coercive-control
+incident. One citation, sourcing a mechanism the page had already
+independently reached on its own: §5.7's "deepest moral failure" finding
+(instrumentalization — converting concern into an optimization problem and
+designing a stronger signal when ordinary conversation fails) is
+`wiki/mind/profile/intp`'s Ti-dominance ("internal simulation labs" that
+stress-test ideas and relationships against a truth standard holding
+"under recursive collapse, not social consensus") turned on a person
+instead of an idea. The page's own role verdicts, comparative-responsibility
+section, and bottom-line characterization are untouched. No new claim,
+quote, date, or figure about Annie or Coles anywhere in this pass.
+
+**This closes the 7-page Annie-moratorium sequence and the 21-page
+constitution-pass backlog as originally scoped.** Across all seven,
+citations sourced mechanisms the pages had already reached on their own
+language; two genuine cross-page write-back failures were found and
+deliberately not fixed (the un-propagated 187-of-191 statistic, logged to
+`BACKLOG.md`); one page (`read-receipt-forensics`) correctly declined most
+registers as a technical-methodology page rather than forcing a fit.
+
+**`fayette-return`** — while running the final gate check, `bin/wiki-lint`
+showed this page *still* flagged for no `wiki/mind/profile/` citation,
+despite being 8th on the original 13-page non-Annie ordering. It was missed
+earlier in this session — not present in either this session's work log or
+the file's own frontmatter. Closed now: `wiki/mind/profile/intp` (Ti-
+dominance/Fe-inferior, via `wiki/mind/synthesis/the-binary-verdict`'s Core
+Axiom 1 account) explains why the page's own "Consequences" section is
+right that misfiling a family return as "personal failure" is consequential
+rather than loose — with no graded middle available, the misfiling resolves
+straight to the corpus's documented worthless pole rather than to a
+discounted setback. The page's own reframing (inherited pattern, not
+personal verdict) works by changing category rather than arguing for a
+middle value the architecture doesn't have. One connections type-mismatch
+(`contradicts`/`instance-of` asymmetry) caught and corrected to
+`instance-of`/`instantiates` before commit.
+
+Write-back: four new `synthesizes:` members total (`intp` on both pages,
+`the-binary-verdict` on `fayette-return` only) with reciprocal edges on
+both target pages.
+
+Gates: `bin/wiki-lint` 0 errors / 18 warnings (two fewer, both `no wiki/mind/
+profile/` warnings now cleared); `bin/wiki-connect check` 0 errors / 144
+warnings (baseline, after fixing the type mismatch); `bin/wiki-climb check`
+0 errors / 0 warnings; `bin/wiki-freshness` clean; 125 tests pass.
+`bin/wiki-work scan`: **0 obligations.** The 21-page constitution-pass
+backlog, plus the one missed page found during final verification, is
+complete.
+
+## [2026-08-29] delete | interests | 47 single-appearance concert-log artist stubs
+
+Operator instruction: remove 48 named entries as unnecessary. **47 removed;
+`knock2` held back and referred back to the operator** — see below.
+
+**What the 47 were.** Uniform derived stubs, 154–228 words each, every one
+sourced solely to `raw/self/concerts/table.csv`, `page_type: entity`,
+`status: stable`, no `knowledge:` field, no Gaps, no `synthesizes:`, no
+`sage_pending`/`pending_ingest`, nothing citable. Each restated one or two
+rows of the concert table as a one-line "Live appearances" table plus a
+"Notes per appearance" bullet repeating the same sentence. Nothing on them
+was earned content in the `CLAUDE.md` sense; the reasoning had never been
+done, so none was lost.
+
+**Nothing factual was deleted with them.** The concert record is held by
+`wiki/interests/concert-record/index.md`'s 36-row master event list (intact,
+untouched) and by the per-edition lineups on the five festival pages. Both
+predate the stubs and are more complete than they were.
+
+**Where the removal would have silently cost data, and what was done.** The
+festival lineup sections were written as chains of links to these pages. A
+straight link-removal emptied them — the Jul 31 2004 Rolling Rock edition
+was briefly left listing no performers at all, and Warped 2005/2006/2007/2008
+each lost acts from their lineup. Deleting a page must not delete the fact
+that Deftones played Rolling Rock in 2001. All 35 dead links across the five
+festival pages were therefore converted to **plain-text performer names**
+rather than dropped: surviving acts stay linked, removed ones read as names.
+Every lineup is complete as before.
+
+**A claim on the index was made false by this and has been corrected.**
+`concert-record/index.md` stated that "each performer Dan saw gets a page
+under `wiki/interests/favorites/music/artists`". That is no longer true for
+47 performers. The sentence now says a performer *may* have a page, and the
+section carries an explicit line that **the master table, not the page list,
+is the complete record**. Left uncorrected this would have read as a silent
+gap in the concert record rather than a deliberate removal.
+
+**Reference cleanup, all mechanical, 0 residual:** 48 typed-edge blocks
+removed from 12 pages (5 festivals, 7 surviving artist pages —
+`taking-back-sunday`, `saosin`, `panic-at-the-disco`, `all-time-low`,
+`the-early-november`, `incubus`, `coldplay`); 47 index bullets from
+`concert-record/index.md`; 35 lineup links converted as above.
+`wiki/timeline/master-timeline.md` is generated and was regenerated rather
+than hand-edited (`bin/wiki-timeline generate`) — an early pass mangled its
+`↳ [[page]] · Section` attribution lines by mistaking them for link chains;
+reverted and regenerated instead.
+
+**Master-index drift caught by the gate:** root `index.md` claimed 140
+interests pages against an actual 93. Corrected. This was caused by the
+deletion and would have failed `bin/wiki-lint` on the next run.
+
+**Held back — `knock2.md`.** On the operator's list but not one of this set.
+Different source (`raw/self/favorites/FAVS MASTERLIST.csv`, not the concert
+table), `status: active`, a 2026-07-14 changelog recording a full rewrite
+from stub, and 353 words of reasoning rather than a restated table: it argues
+Knock2 is a live reference point for Dan's current GRIPNOTIC-era production
+rather than legacy taste, and is wired into `lyny`, `electronic-bass`,
+`sub-bass-signature`, `lyrics-as-timbre` and `gripnotic`. That is earned
+content in a live cluster, and `raw/` does not contain it literally. Deleting
+it is a real loss where deleting the other 47 was not, so it was not deleted
+on a session's own judgement. Referred to the operator.
+
+Gates: `bin/wiki-lint` 0 errors; `bin/wiki-connect check` 0 errors;
+`bin/wiki-climb check` 0 errors; `bin/wiki-plain check` 0 errors;
+`bin/wiki-freshness` in sync; `bin/wiki-work scan` **90 obligations —
+unchanged, none introduced by this pass.** 472 pages (was 519).
+
+## [2026-08-29] delete | interests | knock2 — the page held back from the 47
+
+Operator decision on the one entry referred back in the previous pass (PR #212):
+**delete it too.** Done.
+
+**What was lost, stated plainly, because it was not nothing.** Unlike the 47
+concert stubs, this page was earned content: `status: active`, sourced to
+`raw/self/favorites/FAVS MASTERLIST.csv`, rewritten in full on 2026-07-14, and
+353 words of reasoning rather than a restated table. Its argument — that
+Knock2's 2024–2026 rise coincides with the GRIPNOTIC reactivation window, making
+him a live production reference point rather than legacy taste — is not
+recoverable from `raw/`, which holds only six track names. That reasoning is
+gone. The operator was told this before deciding and decided anyway; recording
+it here so no later session mistakes the absence for an oversight.
+
+**What survives, and where.** Knock2 as a favourites datum is untouched: the
+6-track count in `favorites/music.md`'s table and `self/favorites.md`, and the
+plain-name mentions in `taste-profile.md`, `rock-irrelevance-thesis.md` and
+`electronic-bass.md`. The cluster reasoning it sat in also survives
+independently on `electronic-bass.md` and `lyny.md`, both of which make the
+producer's-ear argument on their own evidence.
+
+**Reference cleanup — 7 links across 4 pages, 0 residual.** Two `related:`
+entries (`lyny`, `electronic-bass`), three `·` chains (`favorites/music`,
+`lyny`, `electronic-bass`), one index bullet (`interests/index`). No typed-edge
+`connections:` block pointed at it, so no claims were destroyed.
+
+**Two prose sentences on `electronic-bass.md` needed rewriting rather than
+link-stripping**, on the same principle as the festival lineups last pass — the
+artist is a fact, the page was only a pointer:
+
+- "Nine artists beyond LYNY and [[knock2]] make up the rest of the tier" — the
+  count *nine* is arithmetic over the cluster and stays correct only if Knock2
+  is still named. Kept as plain text.
+- "the dashstar* original-and-VIP pairing on Knock2's page" — cited a page that
+  no longer exists. Now "among Knock2's six masterlist entries", which points at
+  the source instead and is checkable.
+
+Master index corrected 93 → 92 interests pages; caught by `bin/wiki-lint`, as
+last pass.
+
+Gates: lint / connect / climb / plain all 0 errors; freshness in sync; 471
+pages; `bin/wiki-work` 90 obligations, unchanged.
+
+## [2026-08-30] tool | health | the intake ledger — `bin/intake`, `intake/`, Special:Intake
+
+**What was missing.** The corpus holds no first-party record of consumption at
+all, and the only thing that would ever have filled the gap is prose
+recollection — the least reliable testimony a person gives about themselves.
+Every other instrument here exists to replace an assertion with a measurement
+(`bin/text-metrics` against claims about how he writes, `bin/mine-messages`
+against claims about who he talks to). This is that instrument for intake.
+
+**What was built.** An event-sourced ledger whose primary object is the **unit**
+— a finite quantity that entered the record at a known time — with intake events
+logged against it and a reconciled closure. `intake/events.jsonl` is append-only
+and the source of truth; `intake/units.json` is a projection, regenerated on
+every write and rebuildable to the byte; `intake/substances.json` is a catalog so
+the interface offers a select box rather than free text (free text yields
+"coke"/"cocaine"/"Cocaine " as three substances and no cross-unit statistic
+survives that). The local app gets **Special:Intake**, which imports `bin/intake`
+rather than restating it — one implementation, so two records of the same night
+cannot disagree.
+
+**The finding the design turns on.** A ledger that only accepts grams loses the
+behavioural record — count, timing, clustering — every time the scale is absent,
+and loses it *silently*. So an event has three kinds: measured, estimated, and
+**unquantified** ("one line"), the third carrying no quantity and still counting
+toward everything except the quantities. The corollary is enforced everywhere:
+no quantity statistic is ever printed without the share of events it was
+computed from, so a mean over 10 of 13 events cannot look like a mean over 13.
+
+**The second rule with teeth.** Closure will not do arithmetic over a fiction.
+Open 3.5 g, log 2.45 g, and `close` refuses until somebody says what happened to
+the remaining 1.05 g — a final intake, a discrepancy, a spill, a transfer.
+Answer `final_intake` and the remainder is recorded as one explicitly estimated,
+low-confidence event and named as a remainder on every report thereafter, never
+folded into the measured total.
+
+**A bug found and fixed while testing:** an event dated before its unit was
+received produced a negative duration and, from it, a negative consumption rate.
+Both were wrong in the way that matters — a wrong timestamp rendered as a
+figure. Duration, rate and phases are now withheld on such a unit and the
+condition is a named warning in `bin/intake check`.
+
+**Privacy decision, deliberately not left implicit.** `caakehorn/wiki-brain` is
+a **public** repository. The tool is committed; the record is not.
+`intake/events.jsonl`, `intake/units.json` and `raw/health/intake/` are in
+`.gitignore`, `bin/intake check` warns whenever the file holds data and is not
+ignored, and `intake/README.md` states the one step that reverses it — make the
+repository private, delete those three lines. This costs the ledger its git
+history, which is a real loss and is named as one rather than glossed.
+
+Gates: `bin/wiki-lint` 0 errors; `bin/wiki-connect check` 0 errors;
+`bin/wiki-climb check` 0 errors; `bin/wiki-plain check` 0 errors;
+`bin/wiki-plain audit` 0 failing; `bin/wiki-freshness` in sync;
+`bin/intake check` 0 errors. `python3 -m unittest discover -s tests` — 200
+tests, all passing, 40 of them new. **90 obligations outstanding, unchanged —
+none introduced by this pass.** No `wiki/` page was added or edited: a finding
+drawn from the ledger reaches a page through the normal operations, cited to a
+unit id and a date range with its coverage figure attached.
+
+## [2026-08-30] infra | intake | the portal as a third interface, and the guard that actually guards
+
+**Two sessions built this ledger in parallel.** #215 landed `bin/intake`,
+`intake/` and Special:Intake here; a second was building `/ledger` in the portal
+against a `data/intake/` of its own, with a `bin/wiki-intake` beside it. That
+second taxonomy is **deleted rather than merged** — the operator's brief said to
+adapt to an established data architecture rather than invent a competing one,
+and two folds of the same night that disagree is exactly what that rule is for.
+`bin/intake` is the tool; the portal is a third interface onto it and writes
+this repository's format.
+
+**The `.gitignore` lines were protecting less than they looked like.** They
+governed `git add` and nothing else. The portal writes through GitHub's contents
+API from a browser with no working tree in the loop, and that API commits an
+ignored path without complaint — so for the one interface most of the record was
+going to arrive through, the guard was not in the circuit at all.
+
+The repository is private as of this pass, so the three lines are gone and the
+ledger keeps its history in git the way everything else here does. The guard
+that replaces them is in the portal and does not depend on `.gitignore`: **it
+reads this repository's visibility before its first push of a session and
+refuses to sync while it is public.** Making the repo public again stops the
+portal writing rather than quietly publishing a night's events — which is the
+failure the ignore lines were reaching for and could not catch.
+
+**Sequencing worth keeping in mind:** private-then-unignore is the safe order,
+and the interlock is what makes getting it wrong survivable in either direction.
+
+Gates: `bin/wiki-check --check-only` all clean. 471 pages, `bin/intake check`
+0 errors over 0 units.

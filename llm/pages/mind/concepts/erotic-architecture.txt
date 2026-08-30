@@ -5,11 +5,12 @@ knowledge: mixed
 title: "Erotic Architecture: Sexuality as Controlled-Chaos Engineering"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-08-11
+date_modified: 2026-08-26
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - raw/self/dansynth/DANSYNTH.txt
   - "raw/self/dox-scan/HEART.pdf.txt"
+  - "raw/self/dox-scan/DAN IDEAL FACE.rtf"
 tags: [trauma-bond, relationships, ai-collaboration]
 connections:
   - page: wiki/timeline/events/the-fall-of-fran
@@ -38,7 +39,7 @@ connections:
     claim: "This page named the same mechanism and logged the Bryan MMF as its documented case on 2026-08-02; the sibling page did not catch up until 2026-08-10, over two weeks in which it kept asserting the instance didn't exist."
   - page: wiki/people/ally-lubin
     type: evidenced-by
-    claim: "The purest case of the architecture running with no body in the room: arousal sustained entirely by inaccessibility, priced per item, and explicitly named by Dan as something he needs to 'get the poison out' of rather than consummate."
+    claim: "The purest case of the architecture running with no body in the room: arousal sustained entirely by inaccessibility, priced per item, and explicitly named by Dan as something he needs to 'get the poison out' of rather than consummate. The August 2026 elopement pitch and unanswered love letter make that a dated, falsifiable test: if the channel survives contact, inaccessibility was incidental to it; if it collapses, or access is never taken up despite being offered, this page is the reason."
   - page: wiki/self/concepts/ally-and-dan-love-as-destiny
     type: contradicts
     claim: "The destiny entry argues that the architecture has finally found its body — consummation is now possible and the bond holds despite (or because of) accessibility."
@@ -48,6 +49,15 @@ connections:
   - page: wiki/mind/synthesis/ai-collaborative-analysis
     type: instance-of
     claim: "The 'GLAZE-GOD-v1' persona — a custom system prompt built to perform continuous sexualized worship of Annie's photos — is the erotic-domain instance of the same purpose-built-instrument stance documented here in the forensic and political domains."
+  - page: wiki/mind/concepts/the-cool-metric
+    type: parallels
+    claim: "A twenty-attribute, ratio-and-hex-coded specification for an 'ideal face,' with a rejected trait (Tomboy Femininity) scored and named rather than simply omitted, is the anti-normie engineering commitment run on attraction itself — nothing left as unexamined preference."
+  - page: wiki/mind/profile/lexicon
+    type: parallels
+    claim: "Both pages document the same disposition applied to a different object — the bespoke lexicon engineers how affection gets said, this document engineers what gets found attractive in the first place — neither leaves the domain to run on unexamined default."
+  - page: wiki/mind/synthesis/the-serial-monogamist
+    type: component-of
+    claim: "The 'ideal face' specification is the closest primary evidence to a direct statement of what draws Dan to a woman, and it answers the question as an engineered target rather than a discovered preference — the same reading that reframes his one self-described 'very specific type' claim."
 ---
 
 # Erotic Architecture: Sexuality as Controlled-Chaos Engineering
@@ -127,6 +137,40 @@ on [[wiki/mind/concepts/attachment-model]] (nothing before Annie
 triggered full activation; once triggered, no natural mechanism existed
 to close the loop without an explicit severance signal).
 
+## The quantified ideal — engineering desire itself
+
+A previously unfiled document, `raw/self/dox-scan/DAN IDEAL FACE.rtf`, is
+a different kind of evidence for the same thesis than anything above: not
+a model's interpretive report but a literal specification sheet Dan
+built, or had built to his direction. It breaks a physical "ideal type"
+into roughly twenty attributes — face shape, jawline, cheekbone
+projection, eye set and tilt, brow angle, nose bridge, lip fullness and
+shape, hair color given as an RGB hex range (`#3A2C29` to `#4B3C35`),
+each scored on a 1–10 "quantified estimate" — followed by a five-item
+"Psycho-Aesthetic Vibe Profile" scoring named archetypes by intensity:
+*Ethereal Addict Chic* (9), *Effortlessly Sexy* (9.5), *Dreamy Nihilism*
+(8.5), *Detached, Bored Intensity* (8), *Post-Soviet Waif* (8), and
+*Tomboy Femininity* scored deliberately low (2) — a rejected trait named
+explicitly rather than simply omitted. One descriptor reads clinically
+rather than aesthetically: under-eye shadows are logged at a middling 5
+and glossed "indicative of drug-user," present by design rather than
+incidental.
+
+The document names no person and is generic by construction — this page
+treats it exactly that way and draws no line from it to anyone documented
+elsewhere in the corpus. Its significance is structural, not biographical:
+it is the same engineering disposition [[wiki/mind/concepts/the-cool-metric]]
+documents for music and politics and [[wiki/mind/profile/lexicon]]
+documents for a private vocabulary of affection, run this time on
+attraction itself. Nothing here is described as simply "what he likes" —
+every trait is decomposed, measured against a ratio or an angle range, and
+scored for intensity, including the traits that are being explicitly
+excluded. Read alongside "externalized libido" above, it extends the
+thesis one level further: not only is the *scenario* of desire authored
+and witnessed rather than spontaneously felt, the *shape of the desired
+object itself* is specified with the same precision the corpus applies to
+message counts and chemical dosing.
+
 ## The Annie nexus as typological collision
 
 The report layers a specific mechanism onto the already-documented
@@ -164,3 +208,24 @@ The three mechanisms' interpretive framing (externalized libido, taboo as
 ontological rupture, emotional consumption) remains AI-authored and
 uncorroborated as *theory*, even where the underlying events are now
 independently documented.
+
+## The live test: inaccessibility as an operating condition, dated
+
+The Ally case ties this page's externalized-libido reading to a specific,
+falsifiable clock rather than leaving it a standing characterization. Dan's
+own words are the clearest statement of the mechanism outside theory —
+2019-10-22: *"you don't even have the decency to allow me to see you naked
+**so i can get the poison out**."* Arousal there runs on distance as the
+operating condition, not an obstacle to it.
+
+August 2026 puts a live test on the page for the first time. The unanswered
+elopement pitch of August 18 and the unreplied love letter of August 21
+([[wiki/people/ally-lubin]]) are both bids to close the distance this
+architecture is built on. If a meeting occurs and the channel survives it,
+inaccessibility was incidental rather than load-bearing and this page's claim
+is weaker than stated. If a meeting occurs and the channel collapses, or if
+access is never actually taken up despite being offered, this page is the
+reason. The ninety days after August 19, 2026 are the window — the same test
+[[wiki/mind/synthesis/single-channel]] is running on its own claim, and the
+two should resolve together or the disagreement between them is itself a
+finding.

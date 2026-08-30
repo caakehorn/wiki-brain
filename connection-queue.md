@@ -10,14 +10,21 @@ knowledge. Process top-down; strike entries as done.
 ## [14.0] wiki/mind/synthesis/attachment-trauma-bond.md <-> wiki/timeline/events/eli-incident.md **(DONE 2026-07-20)**
 - type: evidenced-by (both directions) — added typed edges + prose wikilink fix on both pages.
 
-## [12.9] wiki/people/danielle-onesi.md <-> wiki/timeline/events/timeline.md
+## [12.9] wiki/people/danielle-onesi.md <-> wiki/timeline/events/timeline.md **(REJECTED 2026-08-28)**
 - shared source: `raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md`
 - shared source: `raw/self/facebook/facebook-ihatedanfrank/`
 - shared source: `raw/self/dox-md/Gemini-_18.md`
 - wiki/people/danielle-onesi.md names 'timeline' unlinked
 - co-cited from 2 pages
 - shared tags: infidelity
-- [ ] type: ______  claim: ______
+- **rejected:** the "'timeline' unlinked" signal is a false positive — it
+  matches danielle-onesi.md's own `## Timeline` section header, not a
+  reference to this page. `wiki/timeline/events/timeline.md` (the
+  auto-extracted 2015–2026 iMessage event calendar) never mentions Danielle,
+  and her 2009 breakup predates its Nov-2015 coverage window entirely. The
+  shared raw sources are wide-coverage documents (a Facebook export, two
+  bootloaders) cited by dozens of unrelated pages — co-citation with no
+  shared content. No defensible claim.
 
 ## [12.6] wiki/self/chats/gemini-02.md <-> wiki/timeline/periods/2025-collapse.md **(RETIRED 2026-07-18: chats/gemini-02 page deleted — storytime absorbed into wiki/work/au-zaatar + wiki/timeline/periods/2021-2023-employment-block; re-evaluate pair against those pages)**
 - shared source: `raw/self/facebook/facebook-ihatedanfrank/`
@@ -35,36 +42,55 @@ knowledge. Process top-down; strike entries as done.
 - co-cited from 2 pages
 - [ ] type: ______  claim: ______
 
-## [12.2] wiki/mind/synthesis/vertical-authority-skepticism.md <-> wiki/self/context-core.md
+## [12.2] wiki/mind/synthesis/vertical-authority-skepticism.md <-> wiki/self/context-core.md **(DONE 2026-08-28)**
 - shared source: `raw/self/facebook/facebook-ihatedanfrank/`
 - wiki/mind/synthesis/vertical-authority-skepticism.md names 'spine' unlinked
 - wiki/mind/synthesis/vertical-authority-skepticism.md names 'context_core_expanded' unlinked
 - co-cited from 19 pages
 - shared tags: family
-- [ ] type: ______  claim: ______
+- type: evidenced-by (vertical-authority-skepticism from context-core) /
+  evidences (inverse) — the political-trajectory line in context-core states
+  this page's organizing formula verbatim ("vertical-authority-skeptic,
+  lateral-solidarity-privileging") a decade before the measured Big-Five
+  scores this page independently derives the same claim from; "the spine"
+  prose mention is now a real wikilink. Typed edges added both directions,
+  each with a load-bearing claim.
 
-## [11.9] wiki/self/context-core.md <-> wiki/timeline/events/timeline.md
+## [11.9] wiki/self/context-core.md <-> wiki/timeline/events/timeline.md **(DONE 2026-08-28)**
 - shared source: `raw/self/facebook/facebook-ihatedanfrank/`
 - shared source: `raw/self/dox-md/Gemini-_18.md`
 - wiki/self/context-core.md names 'timeline' unlinked
 - wiki/timeline/events/timeline.md names 'context_core_expanded' unlinked
 - co-cited from 3 pages
-- [ ] type: ______  claim: ______
+- type: evidenced-by (context-core from timeline) / evidences (inverse) —
+  the "unlinked" signals were false positives (generic word uses, a
+  sources: path), but a real relationship existed underneath: both pages
+  are built in part from the same LIFE_EVENTS_CALENDAR.md extraction,
+  context-core as the curated cross-check and timeline.md as the near-raw
+  event list. Typed both directions.
 
-## [11.2] wiki/mind/concepts/node-locking.md <-> wiki/self/gemini-activity/gemini-activity.md
+## [11.2] wiki/mind/concepts/node-locking.md <-> wiki/self/gemini-activity/gemini-activity.md **(DONE 2026-08-28)**
 - shared source: `raw/self/dox-md/Gemini-_07.md`
 - shared source: `raw/self/dox-md/Gemini-_18.md`
 - wiki/self/gemini-activity/gemini-activity.md names 'node locking' unlinked
 - wiki/self/gemini-activity/gemini-activity.md names 'data_logged' unlinked
 - co-cited from 2 pages
-- [ ] type: ______  claim: ______
+- type: evidences (gemini-activity from node-locking) / evidenced-by (inverse) —
+  added typed edges: node-locking's mechanism argument (403/1,041/2,258 mention
+  counts, the Jan 2 2026 cluster) is built directly from gemini-activity's own
+  theme-frequency table, not independently re-derived.
 
-## [11.2] wiki/mind/synthesis/totality-themes.md <-> wiki/self/context-core.md
+## [11.2] wiki/mind/synthesis/totality-themes.md <-> wiki/self/context-core.md **(DONE 2026-08-28)**
 - shared source: `raw/self/dox-md/Gemini-_07.md`
 - wiki/mind/synthesis/totality-themes.md names 'spine' unlinked
 - wiki/mind/synthesis/totality-themes.md names 'context_core_expanded' unlinked
 - co-cited from 11 pages
-- [ ] type: ______  claim: ______
+- type: evidenced-by (totality-themes from context-core) / evidences
+  (inverse) — the Cross-Corpus Extensions section cites "the spine" as
+  primary evidence at least eight times while the core Firewall section
+  deliberately downgrades the same source to corroboration only; the
+  mismatch between the two standards, within one page, is now recorded on
+  both sides of the edge.
 
 ## [10.8] wiki/mind/synthesis/totality-themes.md <-> wiki/self/chats/gemini-02.md **(RETIRED 2026-07-18: chats/gemini-02 page deleted — storytime absorbed into wiki/work/au-zaatar + wiki/timeline/periods/2021-2023-employment-block; re-evaluate pair against those pages)**
 - shared source: `raw/self/dox-md/Gemini-_07.md`

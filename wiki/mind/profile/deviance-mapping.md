@@ -5,8 +5,9 @@ title: "Deviance Mapping — The Statistical Outlier Audit"
 aliases: ["deviance audit", "social deviances"]
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-08-19
+date_modified: 2026-08-26
 sources:
+  - raw/self/sage/2026-08-22_005829_what-would-make-dan-happy.md
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/ANALYSIS_ SOCIAL DEVIANCES.rtf
   - raw/self/dox-md/OMNI_FORENSIC_DOSSIER.md
@@ -19,6 +20,9 @@ related:
   - wiki/mind/psychosexual/index
 tags: [addiction-recovery, personality-profile]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: contradicts
+    claim: "Exactly two of this audit's outlier claims survive independent recomputation against a real comparison population, and one of the two - relational concentration at 0.9601 - is a liability rather than a skill, which bounds the living-edge-case verdict much more tightly than 92% confidence suggests."
   - page: wiki/mind/concepts/erotic-architecture
     type: parallels
     claim: "The engineered-sexuality material sits in this page's register: the documented statistical extremes cluster around deliberate construction — chemical stack, non-monogamy architecture, authored scenes — not impulse."
@@ -28,6 +32,12 @@ connections:
   - page: wiki/mind/synthesis/the-commissioned-self
     type: evidences
     claim: "The audit's own second-ranked outlier states this page's thesis better than anything else in the corpus: 'recursive self-analysis as a life project' at 98/100, with writing his own psychological operating manual named as 'his primary occupation' — an instrument scoring the frequency of its own commissioning."
+  - page: wiki/mind/profile/neurodivergence
+    type: evidenced-by
+    claim: "Three of this audit's top-10 outliers — hyper-specific linguistic style (97), extreme social aversion (90), the intellect/impulsivity paradox (95) — are exactly the cluster an adult self-recognizing autism typically cites, reached independently of the autism claim and never cross-referenced against it until now."
+  - page: wiki/interests/the-office
+    type: evidenced-by
+    claim: "Reading Gordon Sondland's testimony and Dwight Eisenhower's name through this sitcom's specific joke-logic is a small, checkable case of the 'hyper-specific linguistic style' outlier (97/100) — pop-culture schemas doing referential work a plain description could do instead."
 ---
 
 # Deviance Mapping — The Statistical Outlier Audit
@@ -116,6 +126,24 @@ knowledge in place of happiness and stability); **chemical engineering**
 private religion, with cycles of fusion and collapse); and **social
 interface** (self-imposed, intellectually fortified exile).
 
+> **GAP CLOSED [2026-08-22]:** the motivational-system claim — *"intensity and
+> forbidden knowledge in place of happiness and stability"* — now has a
+> measurement behind it taken from **outside** the apparatus, and it settles
+> half the claim while leaving the other half exactly where it was. A count of
+> first-person happiness claims across 106,629 sent messages returns **170**, a
+> rate of **1.59 per 1,000**, concentrated so heavily in the first five weeks of
+> the Annie relationship (**7.86 per 1,000**) that every subsequent year sits
+> between 0.00 and 2.72 — **including the years of maximum capital and maximum
+> supply.**
+>
+> That is not proof of the *substitution* the audit asserts, and it is
+> independent evidence for the half that can be counted: whatever this system
+> optimises for, **the trace of feeling good is thin and does not track any of
+> the usual inputs.** The audit is testimony; this is residue
+> ([[wiki/mind/synthesis/instrument-is-subject]]). The distinction is the same
+> one the section below applies to the audit's ten outliers, and it is the only
+> honest way to read a self-commissioned instrument.
+
 ## Reading the audit
 
 Two features make this document more than AI flattery-by-pathology. First,
@@ -148,3 +176,27 @@ single statement anywhere in the corpus of the problem
 psychological layer is a self-commissioned reading with no independent observer
 at any point in it, and the vocabulary it produces appears seventeen times in
 106,629 messages of actual life.
+
+## What survives when the audit is checked from outside
+
+[[wiki/mind/synthesis/failure-to-launch]] runs this audit's ten outliers
+against the raw record and separates what has been **measured against other
+people** from what this instrument **asserted about material Dan supplied**.
+The separation costs the audit most of its range. Exactly two claims survive
+independent recomputation against a real comparison population: the relational
+concentration recomputed at **0.9601 across 496 handles** from 184,359 rows
+([[wiki/mind/concepts/contact-gini]]), and a measure this audit never produced
+at all — graded numeric confidence in casual text, **43 instances outbound
+against 2 inbound from 503 handles, and 15 non-endpoint values against zero**
+([[wiki/mind/concepts/calibrated-confidence]]). The remaining eight are
+single-model judgments scored against a baseline this page already concedes is
+a sketch rather than a normed population.
+
+That is not a refutation of the verdict and it is a hard boundary on it. Two
+dimensions of genuine statistical outlierhood are established, **one of which
+is a liability rather than a skill** — a Gini of 0.9601 with no failover is the
+structural cause of most of the relational damage the corpus documents. The
+rest of "a living edge case… pushed to the absolute limits of its design
+parameters" is an instrument reasoning about its own commissioner, which is the
+problem [[wiki/mind/synthesis/the-commissioned-self]] holds and which the
+seventeen-appearances-in-106,629-messages figure prices exactly.

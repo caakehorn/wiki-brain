@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-21
+date_modified: 2026-08-28
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -24,6 +24,9 @@ synthesizes:
   - wiki/mind/synthesis/estate-money-spine
   - wiki/mind/concepts/dans-law
   - wiki/mind/synthesis/the-deferred-audit
+  - wiki/mind/profile/intp
+  - wiki/mind/profile/big-five-psychometrics
+  - wiki/mind/synthesis/vertical-authority-skepticism
 tags: [housing, financial-stress, legal, nyc-era, uniontown-era]
 connections:
   - page: wiki/legal/463-morgantown
@@ -34,7 +37,7 @@ connections:
     claim: "The page's declared gap on rent is closed: the last signed lease was $2,450 and the renewal was $2,700 (2024-05-02/03), and the tenancy ran on the landlord's discretion throughout — 'as long as we sustain jobs the lease would be open for us on a second year', 'so our landlord won't have to deliberate about signing next years lease.'"
   - page: wiki/places/155-virginia-ave
     type: contains
-    claim: "The March 2018 eviction notice served by Dan's own maternal grandmother is the first of the corpus's only two housing instruments, and it establishes the rule: served mid-vigil demanding the keys, it produced no change in occupancy for eleven months, because the tenancy was never held by paper in the first place."
+    claim: "The March 2018 eviction notice served by Dan's own maternal grandmother is the first of the corpus's only two housing instruments, and it establishes the rule in a qualified form: it produced no documented change in occupancy for eleven months, though a court summons seven days later carries a different address, so what the paper moved was the paper."
   - page: wiki/places/424-bedford-ave
     type: evidenced-by
     claim: "Two years at the first New York address leave no rent figure, no lease, no signatory and no photograph — the earliest instance of the documentary void, and evidence that the pattern predates both the poverty years and the Annie decade."
@@ -59,9 +62,95 @@ connections:
   - page: wiki/mind/synthesis/block-unblock-loop
     type: instantiates
     claim: "The corpus's only instance of Dan reaching for a housing instrument himself is a declared exit that was never executed — 'Tomorrow I'm calling John and telling him that I will no longer be in the lease' (2024-10-27), four months before the physical move, answered with 'Please don't do this Dan' and never carried out."
+  - page: wiki/mind/profile/intp
+    type: caused-by
+    claim: "Ti-dominance's audit logic, already load-bearing via the-deferred-audit, is why paper was never sought rather than merely never offered: demanding a lease from a person granting housing is an audit of whether they can be trusted to keep granting it, which risks the choice to depend on them, not just the housing."
+  - page: wiki/mind/profile/big-five-psychometrics
+    type: contradicts
+    claim: "Trust at the 9th percentile, corpus-confirmed at 1.96x raised suspicion, predicts the opposite of this page's finding — a suspicious mind should want the paper trail housing security depends on. The contradiction is resolved, not left standing, by vertical-authority-skepticism's lateral/vertical split: see 'The mechanism' below."
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: instance-of
+    claim: "Every housing provider in the seven-address table — mother, grandmother, partner, great-grandmother — is a lateral by that page's own definition, which is what scopes the corpus-confirmed low-trust default away from housing entirely: laterals get a trusted-now, audited-later default, and none of these seven relationships was ever audited while it held."
 ---
 
 # The Unpapered Address
+
+> **RE-CHECKED [2026-08-28] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/estate-money-spine]] gained a constitution-pass
+> mechanism section (the Altruism-1 inversion explaining the $14,000 family
+> loan) and a full register table. Nothing in it touches tenancy, paper, or
+> any of the seven addresses. This page's "no absorber, no document" pairing
+> with that page is unaffected.
+
+> **RE-CHECKED [2026-08-28] — premise moved, conclusion unaffected.**
+> [[wiki/mind/synthesis/the-deferred-audit]] gained a constitution-pass
+> mechanism section (Ti-dominance and Self-Consciousness 91 explaining why a
+> chosen object's audit threatens the frame and the self-image) and a full
+> register table. The edge into this page — that the 463 Morgantown
+> prediction was already true six times over before it was made — is
+> unchanged; the new material explains the mechanism behind that prediction
+> more precisely without altering it. This page's housing argument reasons
+> from the already-cited claim, not from the new section. Nothing here is
+> affected.
+
+> **RE-CHECKED [2026-08-28] — premise moved, and it stays an open question
+> rather than a settled one.** [[wiki/places/155-virginia-ave]] gained a
+> note recording that a newly surfaced operator account dates Alexis's
+> eviction from the house and Dan's concealment of her to March 2014, with
+> arrival at 155 Virginia Ave "by Christmas 2014" — a few weeks earlier than
+> the January 2015 lease date this page's table uses for that address's
+> start year. That page holds the two accounts open rather than reconciling
+> them, and so does this one: the possible few-week shift touches no claim
+> this page makes (no lease, no rent, no signatory for that address survive
+> either way), and if anything it reinforces the thesis — an informal
+> arrival ahead of any dated lease is the same pattern in miniature. The
+> table's "2015–2019" range is left as-is pending
+> [[wiki/places/155-virginia-ave]]'s own resolution of the contradiction.
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/synthesis/the-deferred-audit]] (2026-08-26), which gained a
+> re-check note only, confirming an unrelated single-channel addition doesn't
+> touch it. **No claim on this page is affected.**
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/mind/synthesis/the-deferred-audit]] (2026-08-23), which gained a
+> re-check note only — no deferral case, date or instance on it changed, and
+> nothing on it touches tenancy, the lien clock or the 463 arrangement. Nothing
+> here is affected and no claim is withdrawn.
+
+
+> **RE-CHECKED [2026-08-22] — a real change, and it narrows one claim.** Three
+> premises moved on the same day for the same reason: a Fayette County summons
+> from April 2018 surfaced ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]),
+> and it carries **337 Saratoga Dr as Dan's address of record on 2018-04-05** —
+> seven days after the eviction notice served at
+> [[wiki/places/155-virginia-ave|155 Virginia Avenue]].
+>
+> **The seven-address finding stands and is not weakened.** A summons is not a
+> housing instrument: it creates no tenancy, records no rent, names no landlord
+> and no signatory, and it is paper *about* Dan that the state generated for its
+> own purposes rather than paper *he* held. The corpus still contains no lease,
+> no rent figure recorded at the time, no signatory and no deposit for any of
+> the seven residences. Nothing on this page is withdrawn.
+>
+> **One claim is narrowed.** This page's edge into 155 Virginia asserted that
+> the eviction notice "produced no change in occupancy for eleven months,
+> because the tenancy was never held by paper in the first place." The second
+> half of that is the argument and it survives. The first half was always an
+> inference from silence — the residence timeline running to February 2019 —
+> and the summons is the first evidence against it: something moved within the
+> week, at least on paper. The edge claim is amended above to say so. The
+> distinction the page now has to hold is **address of record versus address of
+> occupancy**, which are different things in a life where the second is never
+> documented; the notice may well have moved only the first.
+>
+> **And it supplies a sharper instance of the page's own thesis.** In sixteen
+> years the only document that fixes Dan at a specific address on a specific
+> day was generated by a magisterial district court prosecuting him for smoking.
+> Not one of the seven tenancies produced such a record; a summary offence did.
+> That belongs in the body on a later pass — recorded here rather than written,
+> because a single instance is not the regularity this page argues from.
+
 
 > **RE-CHECKED [2026-08-20]:** flagged stale against [[wiki/legal/463-morgantown]] (2026-08-20). That page gained a section on the address as a threat vector and one typed edge. Re-read against
 > the change; **no claim on this page is affected** and nothing here is
@@ -126,6 +215,22 @@ signature continuously since 2010.
 | [[wiki/places/117-belmont-circle]] | 2017–2018 | [[wiki/people/fran-coldren\|Fran]], as a paid caregiving arrangement | **None** | Fran's death, April 2018 |
 | [[wiki/places/307-e-76th-st]] | 2019–2025 | Annie, jointly; landlord [[wiki/people/john-paci\|John Paci]] personally | A real lease exists; **signatory never recovered**; ~$10,000 arrears at move-out | Annie ended the cohabitation, Feb 2025 |
 | [[wiki/legal/463-morgantown]] | 2026– | Suz, in a blended agent/tenant/caretaker role | **No signed lease, no confirmed POA** | Unresolved; *"It's time for you to go"* (2026-08-11) |
+
+> **RE-CHECKED [2026-08-27] — premise moved, and it closes the one row whose
+> ending the corpus could not follow all the way down.**
+> [[wiki/places/117-belmont-circle]] gained the sale's disposition on
+> 2026-08-27: it **closed in summer 2019 for $250,000** (operator testimony,
+> uncorroborated in the message record, buyer still unknown). The row above is
+> unchanged and correct — the *tenancy* ended at Fran's death in April 2018,
+> which is what that column reports. But the table's argument gets sharper, not
+> merely more complete. Every other row ends with the tenancy and leaves the
+> asset's fate outside the frame; this one now runs to the end, and the end is
+> that the house was sold out of the family sixteen months later. **There was
+> never anything to inherit.** The "None" in the paper column was not an
+> oversight that a will or a deed might later have cured — the arrangement was
+> access granted by a living person, it ended when she died, and the property
+> itself was converted to cash and left. No claim on this page changes; the
+> pattern it names simply now has one row followed to its conclusion.
 
 Read the last column. Not one of these tenancies ends at a term, a notice
 period, or an enforcement. They end when a relative dies, when a partner ends a
@@ -237,6 +342,58 @@ relationships at once with no separation of liability — which is the finding
 that keeps this page from reading as a story about her competence and makes it a
 story about a family that does housing this way.
 
+## The mechanism: why the audit that runs on everything else never ran here
+
+The reconciliation [[wiki/mind/synthesis/the-deferred-audit]] already
+supplies explains why a *chosen* object's audit gets deferred until it
+fails — auditing it risks a verdict on the choice, not merely on the
+object. That accounts for delay. It does not, by itself, account for
+*never*: sixteen years and seven addresses without a single documented
+instance of Dan asking for a lease when none was offered is a stronger
+claim than deferral, and it needs a second register to explain fully.
+
+**Ti-dominance is the half already load-bearing here.**
+[[wiki/mind/profile/intp]]'s Ti-dominance (96% latent) defines truth as "a
+system that holds under recursive collapse" — and depending on a person for
+housing is, on that definition, an act of admitting them into the system.
+Demanding paper from someone who has already granted access is not a
+request for a document; it is running the audit [[wiki/mind/synthesis/the-deferred-audit]]
+says a Ti-dominant mind avoids specifically, because a failure would not
+just cost the housing, it would refute the decision to depend on the
+person providing it. That is why Dan manages the *relationship* with John
+Paci — clean rent checks so the landlord "won't have to deliberate" — rather
+than the *contract*: the contract was never the thing being protected.
+
+**Trust at the 9th percentile predicts the opposite, and that is the
+finding worth stating rather than smoothing over.**
+[[wiki/mind/profile/big-five-psychometrics]]'s Trust score is one of the
+handful corpus-confirmed against a real control — 1.96x raised
+suspicion-of-motive language — and a mind running that default should want
+exactly the paper trail this page shows was never sought. Sixteen years of
+zero paper-seeking behavior in the single domain where the material stakes
+of being wrong about someone are highest is the strongest apparent
+counter-instance to Trust 9 anywhere in this session's constitution passes,
+and it does not resolve by appeal to Ti-dominance alone: Ti explains why an
+*existing* dependency doesn't get audited, not why a suspicious mind would
+enter into seven consecutive undocumented dependencies to begin with.
+
+**[[wiki/mind/synthesis/vertical-authority-skepticism]] is what actually
+resolves it.** That page's rule is not "trust is uniformly low" — it is
+that trust is withheld from *verticals* (unaccountable authority) and
+extended by default to *laterals* (peers and intimates), audited later
+rather than audited never, but starting from good faith rather than
+suspicion. Every provider in the seven-address table — mother, maternal
+grandmother, a live-in partner, a great-grandmother — is a lateral by that
+page's own definition, not a vertical. The corpus-confirmed low-trust
+default is not contradicted by this page's finding; it is scoped exactly
+the way [[wiki/mind/synthesis/vertical-authority-skepticism]] already scopes
+it. Housing in this life has never once been held through an institution,
+a landlord with no prior relationship, or any other vertical — it has
+always run entirely inside the one relationship category that gets the
+trusted-now default, which is why the suspicion Trust 9 predicts elsewhere
+in the corpus never surfaces in the one domain that, on paper, most needed
+it.
+
 ## What this explains that its members do not
 
 **Why the 463 exposure was predictable.**
@@ -303,6 +460,15 @@ detail. What it does not record is a single one of their terms.
    address in the table is co-held with a partner or a relative. A documented
    solo tenancy would narrow the mechanism from "granted by a person" to
    "granted by a co-occupant," which is a different and weaker claim.
+5. **A housing provider who is a vertical rather than a lateral, treated
+   without paper.** All seven providers in this page's table are laterals
+   by [[wiki/mind/synthesis/vertical-authority-skepticism]]'s own
+   definition, which is exactly what the constitution pass's mechanism
+   argument needs — but it means the claim has never been tested against
+   its own counter-case. A documented unpapered arrangement with an
+   institutional or unrelated-authority landlord would strengthen the
+   mechanism; a documented *papered* arrangement with a lateral would
+   weaken it.
 
 ## Predictions
 
@@ -352,3 +518,39 @@ detail. What it does not record is a single one of their terms.
   have very different implications. The February 2019 messages lean toward
   "accepted" — he wanted a lease, his mother demanded one, and what he got was a
   favour — but one address is not a pattern of intent.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`. This
+page had never cited `wiki/mind/profile/`, despite reasoning at length from
+[[wiki/mind/synthesis/the-deferred-audit]]'s own cognitive-stack conclusions
+about why chosen objects go unaudited — and its central claim (a
+corpus-confirmed low-trust person sought zero housing paper for sixteen
+years) turns out to sit in real tension with a Big Five facet this page had
+never checked against.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]]'s Ti-dominance supplies the direct mechanism — see "The mechanism" above — rather than leaving it implicit in the borrowed [[wiki/mind/synthesis/the-deferred-audit]] citation. |
+| 2. Personality profile | **Moved the conclusion, and surfaced a real tension rather than a decorative fit.** [[wiki/mind/profile/big-five-psychometrics]]'s Trust 9 predicts the opposite of this page's finding; resolving that tension (not just citing the number) is what "The mechanism" section does. |
+| 3. Historical precedent | **Checked, left standing.** The seven-address table and the two-instrument analysis are already this page's own historical base. |
+| 4. Attitudes and forces | **Checked, left standing.** [[wiki/mind/concepts/dans-law]] is already a member and already carries the relevant attitude (a missing paper trail as a feature, not an oversight). |
+| 5. Security and prosperity | **Already load-bearing.** [[wiki/mind/synthesis/estate-money-spine]] is already a member — "why there is no absorber" section. |
+| 6. Health | **Checked, does not bear.** No documented chemical or physiological register explains housing-paper-seeking behavior specifically. |
+| 7. Romantic and relational state | **Already load-bearing.** Annie and Alexis both appear as co-holders in the table; no new relational claim was added by this pass. |
+| 8. Age and upbringing | **Checked, left standing.** The pattern is dated from 2010 (424 Bedford); the pre-2010 record is an existing, undisturbed Gap. |
+| 9. Geographic and ethnic culture | **Checked, does not bear** beyond the already-documented family housing pattern the page's own table carries. |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Checked, left standing.** Per the existing "Provenance disclosure" callout, every member is a T1 page read from primary records; the Ti/Fe and Trust figures carry the same corpus-audited/self-commissioned split already stated on [[wiki/mind/synthesis/the-binary-verdict]] and [[wiki/mind/synthesis/the-deferred-audit]] — Trust 9 is corpus-confirmed, the Ti-dominance figure is not, and the mechanism section states that gradient rather than citing both at equal weight. |
+
+**What survived:** the seven-address table, both instruments, the
+tenure-was-discretionary section, and every prediction — none required a
+personality-register mechanism to stand, since they are dated residue.
+**What the pass added:** a resolved tension (a corpus-confirmed low-trust
+score predicting the opposite of what sixteen years of housing behavior
+shows) rather than a merely decorative citation, plus a new falsifier and
+Gap the vertical/lateral framing opens (register 5 above has never been
+tested against its own counter-case). **What it did not do:** manufacture
+a health, ideological, or geographic connection where none of this page's
+content actually bears.

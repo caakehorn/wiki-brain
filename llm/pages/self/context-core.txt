@@ -6,7 +6,7 @@ aliases: ["spine", "behavioral spine", "CONTEXT_CORE_EXPANDED"]
 status: stable
 importance: critical
 date_created: 2026-06-22
-date_modified: 2026-08-19
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -17,8 +17,21 @@ sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini-_07.md
   - raw/self/dox-md/Gemini-_18.md
+synthesizes:
+  - wiki/mind/synthesis/vertical-authority-skepticism
+  - wiki/mind/synthesis/2020-left-turn
+  - wiki/mind/synthesis/totality-themes
+  - wiki/mind/synthesis/dormancy-not-exit
+  - wiki/people/annie-ulmer
+  - wiki/people/tom
+  - wiki/people/suzanne-frank
+  - wiki/people/rick-frank
+  - wiki/people/fran-coldren
 tags: [personality-profile, family, relationships, ai-collaboration]
 connections:
+  - page: wiki/timeline/events/timeline
+    type: evidenced-by
+    claim: "Both pages are built in part from the same raw extraction — LIFE_EVENTS_CALENDAR.md, auto-parsed from 175,358 iMessages — with this page as the curated, cross-checked read of it and the other as the near-raw event list; where the two disagree on a date, the curated version has already resolved several such conflicts (see its Residence timeline section) and should win."
   - page: wiki/mind/concepts/calibrated-confidence
     type: evidenced-by
     claim: "The Ti-dominant 'reality parsed as a high-fidelity system' claim, carried here on typological authority, has a measured behavioural signature underneath it for the first time — 22x the corpus baseline, present in every year, spread across 12 handles."
@@ -37,6 +50,15 @@ connections:
   - page: wiki/places/seven-springs
     type: contains
     claim: "Seven Springs is the childhood social anchor named in the canonical origin timeline — a weekly ritual that predates and outlasts the family's later collapse."
+  - page: wiki/mind/profile/neurodivergence
+    type: contains
+    claim: "This spine's one-line 'self-identified autistic' is carried as settled fact; the neurodivergence page traces that claim to its actual sourcing — three convergent AI-secondary documents and no clinical or diagnostic record — and qualifies it accordingly."
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: evidences
+    claim: "The political-trajectory line's own formula — 'vertical-authority-skeptic, lateral-solidarity-privileging' — states that page's entire thesis in seven words, in a source written for an unrelated political summary, a decade before the measured Trust/Assertiveness/Submissiveness scores that page later builds the same claim from independently."
+  - page: wiki/mind/synthesis/totality-themes
+    type: evidences
+    claim: "That page's Cross-Corpus Extensions section cites this material by its nickname ('the spine') as primary evidence at least eight times, while its own core Irreversibility Firewall section explicitly downgrades the same source to corroboration only — one page running two different evidentiary standards for this source depending on which half is reasoning, which its own note_on_sources block does not flag."
 related:
   - wiki/self/overview
   - wiki/mind/concepts/conflict-architecture

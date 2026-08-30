@@ -14,6 +14,9 @@ date_range_end: 2026-08-09
 sources:
   - raw/people/captures/2026-08-08_190122_identity-of-the-interloper.md
 connections:
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: precedes
+    claim: "The refusal-to-narrow finding of August 8-9 is the immediate precedent for the seventy-hour campaign that follows, and the same channel that produced it is the one Dan pre-closes eleven days later."
   - page: wiki/timeline/events/august-2026-morgantown-call
     type: precedes
     claim: "The sleep claim this page could not settle is settled seven days later by a recording: on 2026-08-16 Coles is audible on a live call from Annie's phone, which makes the contact this page could only infer from read-receipt latency a matter of primary evidence."

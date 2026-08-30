@@ -12,24 +12,12 @@ connections:
   - page: wiki/interests/favorites/music/artists/fall-out-boy
     type: contains
     claim: "Fall Out Boy performed at Vans Warped Tour on Aug 1, 2005 (Post-Gazette Pavilion, Burgettstown, PA)."
-  - page: wiki/interests/favorites/music/artists/alexisonfire
-    type: contains
-    claim: "Alexisonfire performed at Vans Warped Tour on Aug 1, 2005 (Post-Gazette Pavilion, Burgettstown, PA)."
-  - page: wiki/interests/favorites/music/artists/gogol-bordello
-    type: contains
-    claim: "Gogol Bordello performed at Vans Warped Tour on Aug 1, 2005 (Post-Gazette Pavilion, Burgettstown, PA)."
   - page: wiki/interests/favorites/music/artists/hawthorne-heights
     type: contains
     claim: "Hawthorne Heights performed at Vans Warped Tour on Aug 1, 2005 (Post-Gazette Pavilion, Burgettstown, PA)."
   - page: wiki/interests/favorites/music/artists/afi
     type: contains
     claim: "AFI performed at Vans Warped Tour on Jul 27, 2006 (Post-Gazette Pavilion, Burgettstown, PA)."
-  - page: wiki/interests/favorites/music/artists/rise-against
-    type: contains
-    claim: "Rise Against performed at Vans Warped Tour on Jul 27, 2006 (Post-Gazette Pavilion, Burgettstown, PA)."
-  - page: wiki/interests/favorites/music/artists/thursday
-    type: contains
-    claim: "Thursday performed at Vans Warped Tour on Jul 27, 2006 (Post-Gazette Pavilion, Burgettstown, PA)."
   - page: wiki/interests/favorites/music/artists/motion-city-soundtrack
     type: contains
     claim: "Motion City Soundtrack performed at Vans Warped Tour on Jul 27, 2006 (Post-Gazette Pavilion, Burgettstown, PA)."
@@ -45,21 +33,12 @@ connections:
   - page: wiki/interests/favorites/music/artists/all-time-low
     type: contains
     claim: "All Time Low performed at Vans Warped Tour on Aug 8, 2007 (Post-Gazette Pavilion, Burgettstown, PA)."
-  - page: wiki/interests/favorites/music/artists/bad-religion
-    type: contains
-    claim: "Bad Religion performed at Vans Warped Tour on Aug 8, 2007 (Post-Gazette Pavilion, Burgettstown, PA)."
   - page: wiki/interests/favorites/music/artists/anberlin
     type: contains
     claim: "Anberlin performed at Vans Warped Tour on Jul 29, 2008 (Post-Gazette Pavilion, Burgettstown, PA)."
   - page: wiki/interests/favorites/music/artists/all-time-low
     type: contains
     claim: "All Time Low performed at Vans Warped Tour on Jul 29, 2008 (Post-Gazette Pavilion, Burgettstown, PA)."
-  - page: wiki/interests/favorites/music/artists/against-me
-    type: contains
-    claim: "Against Me! performed at Vans Warped Tour on Jul 29, 2008 (Post-Gazette Pavilion, Burgettstown, PA)."
-  - page: wiki/interests/favorites/music/artists/3oh3
-    type: contains
-    claim: "3OH!3 performed at Vans Warped Tour on Jul 29, 2008 (Post-Gazette Pavilion, Burgettstown, PA)."
 ---
 
 # Vans Warped Tour
@@ -78,14 +57,14 @@ Vans Warped Tour is a festival / tour Dan Frank attended. This page records the 
 ## Lineups (per edition)
 
 ### Aug 1, 2005 — Post-Gazette Pavilion, Burgettstown, PA
-[[wiki/interests/favorites/music/artists/fall-out-boy]] · [[wiki/interests/favorites/music/artists/alexisonfire]] · [[wiki/interests/favorites/music/artists/gogol-bordello]] · [[wiki/interests/favorites/music/artists/hawthorne-heights]]
+[[wiki/interests/favorites/music/artists/fall-out-boy]] · Alexisonfire · Gogol Bordello · [[wiki/interests/favorites/music/artists/hawthorne-heights]]
 
 ### Jul 27, 2006 — Post-Gazette Pavilion, Burgettstown, PA
-[[wiki/interests/favorites/music/artists/afi]] · [[wiki/interests/favorites/music/artists/rise-against]] · [[wiki/interests/favorites/music/artists/thursday]] · [[wiki/interests/favorites/music/artists/motion-city-soundtrack]] · [[wiki/interests/favorites/music/artists/nofx]]
+[[wiki/interests/favorites/music/artists/afi]] · Rise Against · Thursday · [[wiki/interests/favorites/music/artists/motion-city-soundtrack]] · [[wiki/interests/favorites/music/artists/nofx]]
 
 ### Aug 8, 2007 — Post-Gazette Pavilion, Burgettstown, PA
-[[wiki/interests/favorites/music/artists/paramore]] · [[wiki/interests/favorites/music/artists/coheed-and-cambria]] · [[wiki/interests/favorites/music/artists/all-time-low]] · [[wiki/interests/favorites/music/artists/bad-religion]]
+[[wiki/interests/favorites/music/artists/paramore]] · [[wiki/interests/favorites/music/artists/coheed-and-cambria]] · [[wiki/interests/favorites/music/artists/all-time-low]] · Bad Religion
 
 ### Jul 29, 2008 — Post-Gazette Pavilion, Burgettstown, PA
-[[wiki/interests/favorites/music/artists/anberlin]] · [[wiki/interests/favorites/music/artists/all-time-low]] · [[wiki/interests/favorites/music/artists/against-me]] · [[wiki/interests/favorites/music/artists/3oh3]]
+[[wiki/interests/favorites/music/artists/anberlin]] · [[wiki/interests/favorites/music/artists/all-time-low]] · Against Me! · 3OH!3
 

@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-08-21
+date_modified: 2026-08-26
 date_range_start: 2018-11-04
 date_range_end: 2025-07-28
 sources:
@@ -307,6 +307,18 @@ surely went unconfirmed by text.
 > itself showing up in the record. **No export exists for any handle but
 > 3476070497**, so the intermediate number's own thread is unrecovered; every
 > 2021–2024 datum above is a third-party mention, not a message to Menore.
+>
+> **GAP CLOSED [2026-08-26]:** the operator, T0, first person
+> (`raw/people/captures/2026-08-26_034338_gap-menore.md`): *"I had a flip
+> phone that year."* 2022's silence has an ordinary explanation that does not
+> require a service break: a flip phone is not going to generate the same
+> iMessage/SMS trail as the smartphone years bracketing it on both sides, and
+> the *other* threads that carry the 2021 and 2023 third-party mentions above
+> would have run through the same constrained device. This does not upgrade
+> to a mined figure — there is nothing to mine for a year a flip phone
+> covered — but it removes 2022 as the one place a genuine break could still
+> be hiding, and the continuous-service reading above stands without a gap
+> in it.
 
 **The ending, corrected:** the relationship did not fade out — it was
 formally closed. Service ran hard to the end (453 messages, 38 meetings
@@ -384,8 +396,6 @@ The 6-year silence (2013–2018) followed by immediate resurrection of the exact
   more than one), but **no export exists for any handle but 3476070497**.
   Recovering it would convert ~184 third-party mentions into a primary
   thread and close the last real hole in this page.
-- **2022 is the one blank year** — zero mentions, no evidence either way.
-  The only window where a genuine service break could still hide.
 - **Real name**: "Menor"/"el menore" is now well-supported as a Spanish
   diminutive rather than a transcription artifact, but his legal name is
   unrecorded.

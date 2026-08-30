@@ -3,7 +3,7 @@ domain: mind
 page_type: index
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-08-20
+date_modified: 2026-08-26
 sources: []
 related: []
 connections:
@@ -35,6 +35,9 @@ authoritative factual spine remains [[wiki/self/context-core]].
 - [[wiki/mind/profile/socionics-and-attitudinal]] — ILI-Ni "Critic," FLEV/VLEF, Chaotic Neutral as psychology.
 - [[wiki/mind/profile/deviance-mapping]] — the 2025 statistical-outlier audit: deviation scores, top-10 outliers.
 - [[wiki/mind/profile/linguistic-profile]] — voice fingerprint, "forensic intimacy" register, stylometrics, emotional tells.
+- [[wiki/mind/profile/texting-deviance-audit]] — turn-level measurement of how he texts: the STACKED-ESSAY mode, the 2025-26 escalation, the answer-rate cost.
+- [[wiki/mind/profile/neurodivergence]] — the self-identified-autism claim traced to its actual sourcing: three convergent AI-secondary documents, no clinical record, and his own question about whether the label is legitimate architecture or an excuse.
+- [[wiki/mind/profile/lexicon]] — a twelve-category compliment/affection phrase generator built around Ally: the forensic-intimacy register redeployed as flirtation rather than crisis analysis, and a documented complication of the voice-modes Affectionate/Playful split.
 
 ## concepts — mechanisms
 
@@ -55,6 +58,7 @@ authoritative factual spine remains [[wiki/self/context-core]].
 - [[wiki/mind/concepts/chaos-preference]] — the appetite for entropy and system failure, and the finding that it is strictly outward-facing.
 - [[wiki/mind/concepts/acquisition-drive]] — the 95th-percentile completion drive that cannot be aimed: once a want becomes a decided outcome it runs to completion regardless of cost, and only self-originated goals can recruit it.
 - [[wiki/mind/concepts/calibrated-confidence]] — graded numeric probability attached to his own beliefs in casual SMS, at 22x the rate of the 503 people texting him; the first Ti-dominance evidence from behaviour rather than an instrument.
+- [[wiki/mind/concepts/reassurance-architecture]] — the check-in loop: why validation and reaffirmation are nearly silent at baseline and become the organising behaviour under stakes, and why the explicit vocabulary ("do you love me" — 0 instances in 106,629 messages) is absent while "call me" runs to 170.
 ## psychosexual — the sexuality cluster
 
 - [[wiki/mind/psychosexual/index]] — hub: theory-vs-practice provenance split, quick brief, cluster map.
@@ -74,10 +78,12 @@ authoritative factual spine remains [[wiki/self/context-core]].
 - [[wiki/mind/synthesis/political-psyops]] — the J6 hybrid conclusion, the structural-decay politics, politics as aesthetic object.
 - [[wiki/mind/synthesis/vertical-authority-skepticism]] — vertical suspect, lateral trusted: family template, workplace and state evidence, function and cost.
 - [[wiki/mind/synthesis/attachment-trauma-bond]] — the Annie decade as trauma bond: architecture, tethers, somatic toll.
+- [[wiki/mind/synthesis/the-rescue-premise]] — the six endogenous features that make the August 2026 rupture different in kind, and the test that rejects external rescue as the mechanism: the corpus's only completed exit from a long relationship completed by substitution inside a week.
 - [[wiki/mind/synthesis/dan-annie-fallout-verdict]] — capstone: was Dan correct to feel wronged? The real wrong + the diagnosis→behavior gap, held in one frame.
 - [[wiki/mind/synthesis/august-grievance-verdict]] — the seventy-hour version of the fallout verdict: Dan's ten grievances of 16–19 August scored one by one (seven supported, two partly, one false), and the finding that the recording he held as proof of betrayal is also the best corroboration of her defence.
 - [[wiki/mind/synthesis/bond-switch-2015]] — the 2015 Alexis→Annie single-bond switch: same-week transfer, verified onset flood, 155 Virginia lair-continuity.
-- [[wiki/mind/synthesis/message-circadian-latency]] — primary cut of the raw corpus: circadian curve + era drift, 9× reply-latency asymmetry, burstiness, per-contact volume trajectories.
+- [[wiki/mind/synthesis/message-circadian-latency]] — primary cut of the raw corpus: circadian curve + era drift, burstiness, per-contact volume trajectories, and the retraction of its own former headline — Dan is the slower correspondent, in every year and under both methods.
+- [[wiki/mind/synthesis/failure-to-launch]] — the capability audit: what is genuinely superlative against a real comparison population (two dimensions, one of them a liability), what the bottom-decile facet cluster forecloses, and why the missing thing is orbit rather than thrust.
 - [[wiki/mind/synthesis/spatial-behavior]] — GPS-analysis reading of location history: extreme home-anchoring, the Friday release valve, and four sharply bounded life phases (Forge/Binary System/Collapse/Siege) rather than gradual drift.
 - [[wiki/mind/synthesis/ai-collaborative-analysis]] — how LLMs are actually used: node logging, steelman, injection lab, capability contests.
 - [[wiki/mind/synthesis/millennial-digital-witness]] — the generational bridge self-theory and its uses.
@@ -87,6 +93,7 @@ authoritative factual spine remains [[wiki/self/context-core]].
 - [[wiki/mind/synthesis/music-as-identity]] — music as a century-spanning structure of self: performed teen identity, tour devotion, emotional regulator, producer identity; the "unutilized for actual purpose" gap made explicit.
 - [[wiki/mind/synthesis/2020-left-turn]] — the dated COVID-lockdown radicalization: Bernie 2020 on-ramp, the Chapo/Hasan/ContraPoints media pipeline, the Marx/Kropotkin reading, and the class-guilt over the family's union-busting money.
 - [[wiki/mind/synthesis/interests-as-era-markers]] — junction: the fixed intake rate makes subject-rotation the era signal; each life period has a dateable marker obsession (2007 teen cluster → 2012–13 O&A → 2016–19 golf → 2019 stand-up → 2020 politics → 2024 Rome), with the film canon as control case.
+- [[wiki/mind/synthesis/annual-volume-suz]] — `dataset` page: Dan-vs-Suz annual message volume. A fourteen-month reversal at the relationship's 2015-16 start, then a widening gap in her favor that reaches two-to-one by the record's end.
 - [[wiki/mind/synthesis/supply-network]] — junction: fifteen years of procurement as one architecture — the node succession (Johnny → Tim → Tom; Menore in NYC), the reliability inversion (distance disciplines, intimacy licenses failure), redundancy decay to a single node, and the terminal-phase inversion with Dan as Annie's supplier.
 - [[wiki/mind/synthesis/estate-money-spine]] — junction: the capital timeline as one causal chain — two family source-lines (Ira estate / Frank's Auto), the Adams trusteeship, the 2020 distribution ($144,069.31) and its six-month burn, the ~$119–123K net Annie drain, Suz as switchboard, and the 337→463 present state.
 - [[wiki/mind/synthesis/block-unblock-loop]] — junction: the declared-not-executed exit generalized across Annie (127/110), Tom (2014 + 2026), Kristin, Rick, accounts, and the Grok-loop; the governing rule — a block holds iff no dependency still flows through the channel — with Menore's clean closure and the June 1 closure as the live test.
@@ -103,3 +110,6 @@ authoritative factual spine remains [[wiki/self/context-core]].
 - [[wiki/mind/synthesis/the-cato-seat]] — doctrine: every curated identification object occupies one position — accurate, early, unable to intervene. The AI persona is named for the senator who lost and killed himself; 24 of 25 artworks are collapse, wound or observer; half the shelf is two republics ending; nothing on the 150-title queue is about something being built. No figure in the corpus was right and won and kept it.
 - [[wiki/mind/synthesis/read-receipt-forensics]] — methodology: four chat.db metadata defects found in one extraction session, each silently returning a confident wrong answer rather than an error — a directional `date_read` column, an auto-populated `reply_to_guid`, a SQLite type-affinity trap, and clustered-not-random missing `delivered_at` rows.
 - [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] — the same fifteen minutes judged three ways: Coles the active coercive force, Annie the least powerful person in the room, Dan protective during the call and compromised after it — the one window where the decade's power distribution inverts.
+- [[wiki/mind/synthesis/the-binary-verdict]] — doctrine: verdict questions (worth, authenticity, order, trust, conflict, legitimacy, allocation) collapse to two states with no recorded middle value, while the one instrument that natively grades — numeric confidence — is fenced off to unwitnessed facts about the world; the one dated exception (the 2015 "90% rule") is a graded logistics compromise inside a structure Dan authored, not a verdict.
+- [[wiki/mind/synthesis/no-platonic-channel]] — junction: every documented multi-year, high-trust female friendship in the corpus carries a dated romantic or sexual overture — engineered outright in the Ally Lubin case ($25 paid introduction, converted within a year) — with the one lastingly platonic tie (Jamie Mohler) an edge case whose active closeness predates her 2023 transition rather than a counter-instance.
+- [[wiki/mind/synthesis/the-serial-monogamist]] — junction: seventeen continuous years inside a long-term bond means Dan has almost no adult lived experience of single life; the one completed exit from a long relationship was a same-week transfer to a successor, not an interval spent unattached, and his stated theory of his own "type" resolves to an engineered specification rather than a discovered preference — named by him first at age twelve, before any adult relationship existed to generalize from.

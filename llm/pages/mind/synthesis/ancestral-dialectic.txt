@@ -10,6 +10,15 @@ date_modified: 2026-08-02
 sources:
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip
+synthesizes:
+  - wiki/self/lineage/family-tree
+  - wiki/self/lineage/23andme-genomics
+  - wiki/self/lineage/hybrid-analysis
+  - wiki/self/ancestry
+  - wiki/health/chemical-architecture
+  - wiki/mind/concepts/attachment-model
+  - wiki/mind/synthesis/fayette-return
+  - wiki/mind/synthesis/instrument-is-subject
 tags: [uniontown-era, relationships, family, addiction-recovery, nyc-era]
 connections:
   - page: wiki/self/lineage/family-tree

@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-21
+date_modified: 2026-08-26
 sources:
   - raw/self/favorites/FAVS MASTERLIST.csv
   - raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html
@@ -25,6 +25,9 @@ synthesizes:
   - wiki/self/youtube-watch-history
 tags: [personality-profile, forensic-analysis, digital-footprint]
 connections:
+  - page: wiki/mind/concepts/attachment-model
+    type: mirrors
+    claim: "The Annie bond is the unclosable set: the largest object the completion engine was ever attached to, and the only one whose terminating signal had to arrive from outside because 41,073 of her messages contain none."
   - page: wiki/mind/synthesis/intake-constancy
     type: caused-by
     claim: "That page proves the intake rate never varies and concludes that subject is therefore the only free variable; this page measures what the subject is actually doing, and it is not rotating between tastes — it is closing one bounded set at a time, which is why the transitions are sharp enough to date."
@@ -58,6 +61,12 @@ connections:
   - page: wiki/mind/synthesis/the-cato-seat
     type: parallels
     claim: "Two readings of one shelf that do not compete: that page explains the collection's shape, one witness per event until the set closes, and this one explains what the sets are always of — a system coming apart while somebody watches."
+  - page: wiki/mind/concepts/acquisition-drive
+    type: parallels
+    claim: "Two pages reasoning from the same 2018-04-06 quote toward the same correction from opposite premises: that page narrows the drive's payoff condition from completion to closure; this page supplies the object-boundary mechanism that explains why closure is available at all — a bounded set with a findable edge."
+  - page: wiki/timeline/events/fran-death-vigil
+    type: instance-of
+    claim: "The vigil is a set-closure object like the cultural record — self-set, bounded by a death, finished — and Dan's own verdict on it ('got good closure') is the only documented case where this appetite is pointed at a life event rather than a catalogue."
 ---
 
 # Closing the Set
@@ -280,6 +289,48 @@ or consolidate anything."* That is not a research methodology arrived at by
 argument. It is this appetite pointed at a life, and the object it has selected
 is the only set in the corpus that cannot close.
 
+## The satisfaction condition: closure, and the object that cannot have one
+
+Everything above is about intake. This section is about payoff, and it rests
+on the corpus's only documented instance of Dan reporting a good outcome from
+something he *did* rather than something he *had*. Four days after her
+funeral, unprompted, to a third party:
+
+> **DAN (2018-04-06 17:55, to 4137703708):** *"she was a trip dude but i spent
+> the past 6 months looking after her full time ($15 an hour to play video
+> games with gram is a good deal) and we had a lot of fun. got good closure and
+> finally did something in my life that wasn't completely selfish haha"*
+
+The [[wiki/timeline/events/fran-death-vigil|six-month Fran vigil]] is a
+set-closure object like any on this page — self-set, bounded by a death,
+finished — and the word Dan reaches for in his own verdict on it is
+**closure**, not completion, not pride, not relief. That is exactly this
+page's mechanism, applied for the first time to something other than a
+catalogue: the payoff is not the acquiring, it is the set going shut.
+[[wiki/mind/concepts/acquisition-drive]] independently arrives at the same
+narrowing from the persistence side — completion is not the drive's actual
+success condition, closure is — which is two pages reasoning from the same
+quote toward the same correction from opposite starting premises.
+
+**The negative control is the largest object in the corpus.**
+[[wiki/mind/concepts/attachment-model]]'s central claim is that the Annie bond
+cannot close without an explicit external severance signal, and a primary
+sweep of 41,073 of her messages returns zero of them. In this page's
+vocabulary, the eleven-year relationship was **an unclosable set** — the one
+object type this appetite cannot resolve on its own terms. It took an outside
+force to end it, which is what an object with no findable edge should
+predict.
+
+**The prediction this yields is about this repository, and it is a real one.**
+The wiki is entirely self-set and has no edge: a life has no last item. On
+this page's own rule it therefore cannot deliver what the vigil delivered —
+only ever more surface, never closure. If a future pass over this project
+does produce that verdict from Dan, the edge condition is wrong and the rule
+collapses to "self-set is enough," which
+[[wiki/mind/concepts/acquisition-drive]] has already falsified once on the
+MNEME/DANMODEL/video-essay record. Nothing in the corpus currently shows the
+wiki producing that response.
+
 ## Falsifiers
 
 1. **A named favourite with sustained return traffic and no set behind it.** An
@@ -321,7 +372,12 @@ is the only set in the corpus that cannot close.
    within its first three months**, and will not show a second work by the
    first source until the others are used up. This is scoreable against the
    next favourites or Goodreads export with no interpretation required.
-4. **The Ally material will be read this way.** [[wiki/people/ally-lubin]] is
+4. **The wiki itself will not produce a closure verdict from Dan.** It has no
+   findable edge, so this page's own rule predicts it can generate surface
+   indefinitely but not the satisfaction the Fran vigil produced. *Falsified
+   by:* a dated, unprompted statement from Dan that working on or reading this
+   project produced closure rather than more material.
+5. **The Ally material will be read this way.** [[wiki/people/ally-lubin]] is
    the corpus's live relational object. The rule predicts that whatever
    reconstruction gets built there will be assembled from every independent
    channel available — messages, contact exports, third-party recollection —
@@ -357,3 +413,12 @@ is the only set in the corpus that cannot close.
   which [[wiki/interests/extreme-sports]] describes as total-obsession and
   scene-complete — is exactly the shape this rule predicts and is attested only
   by one retrospective capture.
+
+> **RE-CHECKED [2026-08-23] — premise moved by one typed edge, conclusion
+> unaffected.** [[wiki/mind/concepts/forensic-method]] moved on 2026-08-23 to carry an
+> `instance-of` edge into [[wiki/mind/profile/texting-deviance-audit]] — the method
+> turned on Dan's own self-report about how he texts, where two of his three stated
+> claims were falsified by counting. No factual content on the premise page changed and
+> nothing this page reasons from is touched. Worth noting only because the new instance
+> is the method pointed at its own operator rather than at a third party, which is a
+> shape this page tracks.

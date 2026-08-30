@@ -6,7 +6,7 @@ aliases: ["chaotic neutral", "the entropy appetite", "rooting for the fire"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-21
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -45,9 +45,28 @@ connections:
   - page: wiki/mind/synthesis/fayette-return
     type: mirrors
     claim: "The same asymmetry as the entropy appetite: disorder is welcome everywhere except in the structures he did not choose, and geography is the one structure nobody in this line has successfully chosen against."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: component-of
+    claim: "'The managed is false; the unmanaged is true' is a truth-value assignment, not a measurement of how ordered something is — order is never scored as partially legitimate, only sorted as chosen-and-suspect or unchosen-and-real."
 ---
 
 # The Chaos Preference
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/concepts/the-cool-metric]] (2026-08-26), which added a section on
+> the metric's one documented upper bound (the Ally Skins exchange) and removed
+> its `sage_pending` staging. This page's mirror claim — "the performed is
+> false, the unmanaged is true" — reasons from the metric's general mechanism,
+> not from the new Ally-specific material. **No claim on this page is
+> affected.**
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/interests/music/overview]] (2026-08-23). That page gained one section —
+> a corpus search establishing that the production identity has almost no social
+> trace in fifteen years of messages (one message about making a track, zero
+> about a studio, no play counts). **No alias, genre, date, release or aesthetic
+> claim on that page changed**, and this page reasons only from those. Nothing
+> here is affected and no claim is withdrawn.
 
 Dan wants the world to be less orderly than it is, and — with one large
 exception — he wants this consistently, quietly, and almost never out loud. The

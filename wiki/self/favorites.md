@@ -5,6 +5,10 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
+synthesizes:
+  - wiki/interests/music/concepts/sub-bass-signature
+  - wiki/interests/favorites/index
+  - wiki/mind/synthesis/totality-themes
 related:
   - wiki/interests/music/concepts/sub-bass-signature
   - wiki/interests/music/aliases/gripnotic

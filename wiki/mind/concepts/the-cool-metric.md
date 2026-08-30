@@ -6,7 +6,7 @@ aliases: ["anti-normie", "the normie check", "taste as sorting function"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-21
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -44,12 +44,35 @@ connections:
   - page: wiki/mind/concepts/exocortex
     type: instantiates
     claim: "The Normie Check is the metric compiled into machine-enforceable form — a standing instruction that any model must pass before it is permitted to continue, which is what distinguishes this from ordinary snobbery."
+  - page: wiki/interests/language/vocabulary-lexicon
+    type: evidenced-by
+    claim: "The curated 'stupid' axis — graded by fake institutional prestige, historical condemnation, and precision vulgarity — is the metric's performed-versus-authentic sort applied to insult vocabulary; the 'pretty' axis's 80–100 band (lethal, obscene, 'aesthetic felony') escalates praise into transgression, the same register-move chaos-preference names. The lexicon page records it as curated, not derived."
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Authenticity-as-involuntariness is 'The Irreversibility Firewall's' trust rule stated positively: the one category never exposed to audit at all is the thing that was never a decision — the sub-bass signature, trusted precisely because choosing it was never possible."
+  - page: wiki/people/ally-lubin
+    type: evidenced-by
+    claim: "The one documented case of Dan losing a round inside his own filter: the August 18, 2026 Skins exchange, where Ally claims the subcultural reference outright and he does not adjudicate — the metric's only recorded upper bound."
+  - page: wiki/mind/profile/lexicon
+    type: parallels
+    claim: "Even the smallest unit of private speech gets engineered rather than said plainly — a twelve-category, deliberately-constructed compliment generator built so 'you're pretty' never has to be the un-curated, off-the-shelf version — the anti-normie commitment running on affection instead of music or politics."
+  - page: wiki/mind/concepts/erotic-architecture
+    type: parallels
+    claim: "A twenty-attribute, ratio-and-hex-coded 'ideal face' specification, with a rejected trait scored and named rather than omitted, is the anti-normie engineering commitment running on attraction — the same refusal to leave a domain on unexamined default."
+  - page: wiki/mind/synthesis/the-binary-verdict
+    type: component-of
+    claim: "The metric outputs pass/fail on every input it touches and has exactly one documented ceiling (the Ally Skins exchange) rather than any documented middle value — a filter that sorts into two bins rather than a scale that scores distance from one."
 ---
 
 # The Cool Metric
+
+> **RE-CHECKED [2026-08-23]:** flagged stale against
+> [[wiki/interests/music/overview]] (2026-08-23). That page gained one section —
+> a corpus search establishing that the production identity has almost no social
+> trace in fifteen years of messages (one message about making a track, zero
+> about a studio, no play counts). **No alias, genre, date, release or aesthetic
+> claim on that page changed**, and this page reasons only from those. Nothing
+> here is affected and no claim is withdrawn.
 
 Dan evaluates culture, objects, and people on a single axis, and the axis is
 not quality. It is whether the thing in question is **performed or authentic** —
@@ -137,6 +160,16 @@ choomed, normie, Blue MAGA, choom* — vocabulary that is either genuinely
 impolite or genuinely subcultural, and in either case not manufactured to be
 safely quirky.
 
+The metric is legible in the vocabulary he *curates* as well as the vocabulary
+he uses. [[wiki/interests/language/vocabulary-lexicon]] records two graded word
+batches selected in a single 2026-08-26 session, and both are sorted by
+mechanism rather than by synonymy — the "stupid" axis by fake institutional
+prestige, historical condemnation and precision vulgarity; the "pretty" axis by
+register-escalation, ending on *aesthetic felony*. That is this page's
+performed-versus-authentic sort run on language itself. The caveat belongs here
+too: that page is curated, not derived, and records only which words were
+*selected as pleasing* — not that any of them appear in the corpus.
+
 The same logic runs through the music. A production note in the corpus keeps a
 sonic element *"inaudible to the normies"* while retaining it — a detail
 audible only to the qualified, preserved specifically because it is
@@ -223,6 +256,29 @@ worth.
 > claim this page should make is therefore "one axis for everything it is allowed
 > to touch," and the interesting question it raises is what else is protected in
 > the same way. Nobody has looked.
+
+## The one documented upper bound
+
+The metric is described throughout this page as a one-directional sorting
+function — Dan runs it on other people, and the model does not describe what
+happens when someone outranks the person applying it. There is exactly one
+recorded case of him losing a round inside his own filter, and it happens in
+the [[wiki/people/ally-lubin|Ally]] channel: the Skins exchange of 2026-08-18,
+21:25–21:28, where she claims the subcultural reference outright — *"I don't
+think she's half Effy bc I'm Effy,"* *"Let's be real has she even seen
+Skins,"* *"I'm so Effy and Freddie even slid into my DMs once,"* *"Well first
+of all I'm not a Michelle / I'm a half Effy half Cassie"* — and Dan does not
+adjudicate, correct, or contest the claim. His own account of what draws him
+to her states the metric as attraction rather than judgment: *"how you are
+spotting slang and memes that I won't find out about for like 3 more
+months."*
+
+The filter has a documented ceiling, and this is the one instance of someone
+above it: a person whose command of the sorting criteria exceeds his own,
+which converts the metric from a tool he wields into a standard he is
+measured against. It does not undermine the metric's operation elsewhere in
+the record — it names the boundary condition the rest of this page never
+needed to state, because nobody else in the corpus tested it.
 
 ## Falsifiers
 

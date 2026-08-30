@@ -39,24 +39,85 @@ That order is deliberate in both directions: the operator's request never waits 
 
 `operator-log.md` and `bin/wiki-gaps pending` still exist and are still worth opening: the log is the durable half — append-only, survives `clear`, and records what was *already* integrated so a session can tell a fresh answer from an old one without reading git history. `bin/wiki-work` will not let you miss that there is one; the log tells you its history.
 
-## The three things that matter most
+## STANDING DIRECTIVE — the Annie moratorium (2026-08-23, operator)
+
+**we are trying to date ally so stop writibg that in textibg annie**
+
+The operator's instruction, verbatim in substance: *we can no longer include
+texts or any narrative anything about Annie, due to the unpredictable nature of
+her situation and the apparent danger she is in.* This is a safety directive
+about a living person, not an editorial preference, and it outranks every
+priority elsewhere in this file — including `queue.md`'s CRITICAL row, which
+stood for weeks telling each session that the next 212 export was the
+highest-value pending ingest. That row is closed. So is every other standing
+instruction that would have pulled Annie messages in.
+
+**What is forbidden, from today:**
+
+- Filing any new Annie message export, metadata dump, group-chat export or
+  screenshot into `raw/` or `inbox/` — including exports already named in
+  `queue.md` or `BACKLOG.md` as pending.
+- Writing any new narrative, event, timeline entry, synthesis, typed-edge claim
+  or dated line about Annie, or extending an existing one past what the wiki
+  already says.
+- Quoting any Annie message not already quoted on a page.
+- Answering a `sage/` question with new Annie material. A question that can only
+  be answered that way is answered from what the wiki already holds, or it is
+  declined with this directive as the stated reason.
+
+**Where it is enforced mechanically.** `bin/wiki-plain` — the READER'S DIGEST
+layer — holds this directive as code rather than as something a session has to
+remember, in two rules. A page substantially about her gets no plain-language
+twin at all (`new` refuses, `next` never proposes it, `check` fails if one
+appears); and **no file under `plain/` may name her at all, whatever its source
+page says.** The second rule is the guarantee: the first draws a line somebody
+could argue about, and the second means no new prose about her enters that layer
+regardless of where the line fell. A plain-language retelling adds no facts, but
+it is new writing about her, rebuilt to be read by people who could not read the
+original, and published on a public site — squarely what this directive stops.
+The pattern and the threshold are `MORATORIUM` and `INCIDENTAL` at the top of
+that file, and `tests/test_wiki_plain.py` pins them. Only the operator changes
+either.
+
+**What is unchanged, and must stay unchanged:** every existing Annie page. This
+directive is a stop, not a retraction and not a redaction. Nothing already
+written is deleted, softened or rewritten, because the operator asked for
+nothing to be done differently — only for the record to stop advancing.
+
+**Where the record stops.** The wiki's account ends at the last contact it
+already states — **2026-08-19, 15:15:33**, the last message on
+`wiki/people/annie-ulmer.md` (`date_range_end: 2026-08-19`). Treat that as the
+current state of the world: *Dan has not spoken to Annie since the last date the
+wiki records.* Do not date-check it against an export, do not "confirm" it, and
+do not bump it. If a source you are reading for some other purpose runs past
+that date on this thread, stop reading at it and take nothing from beyond.
+
+An export was uploaded to a session on 2026-08-23 that runs past that date. It
+was **not** filed to `raw/`, not copied into the repository, and nothing was
+derived from it — deliberately, under this directive. That is the correct
+handling of the next one too.
+
+## The four things that matter most
 
 1. **Depth is the binding constraint.** There are 438 pages; there are not enough *details on them*. A pattern can only be found among details that were written down, and synthesis reasons from `wiki/`, not `raw/` — so anything dropped at extraction is a connection nobody can ever make. Read sources to exhaustion, write long, keep the mundane. `EXTRACTION_SPEC.md`.
 2. **Findings get written back.** A conclusion that spans several pages is written into *each* of them as a typed edge whose claim states the finding — not left on one page for the others to rediscover. This is `STRATEGY.md`'s core loop, step 5, and the step most often done partially.
 3. **Never clear a stale warning by bumping a date.** Re-read the premise that moved, decide whether the conclusion survives, record the decision. This is the one move that corrupts the system quietly.
+4. **Every conclusion is checked against the person before it is written.** A pattern found across N pages is a fact about those N pages until it has been read against Dan's cognitive stack, measured personality profile, historical precedent, attitudes and the forces acting on him, his current security and prosperity, health, romantic state, age and upbringing, geographic and ethnic culture, religious or ideological programming, and axiomatic politics. This is **the constitution pass**, it is mandatory and deterministic rather than a matter of judgment, and its eleven registers and worked failure case are in `SYNTHESIS_SPEC.md`. A rule that survives it is stronger; a rule that only survives by not looking is not a finding.
 
 ## Architecture — plain files, one direction of flow
 
 ```
 inbox/  →  raw/  →  wiki/  →  caakehorn/home public/wiki/   exports/ (generated,
 typed &     immutable   compiled    derived snapshot, never edited            disposable)
-uploaded    source      knowledge                    │
-              ▲                                      │  a question is asked
-              │                                      ▼
-              └────────────── sage/questions/ ◄──────┘
-               the answer is filed        parked until a session answers it
-               to raw/ and staged
-               onto every page it cites
+uploaded    source      knowledge      ▲             │
+              ▲                │       │             │  a question is asked
+              │                ▼       │             ▼
+              │             plain/ ────┘   sage/questions/ ◄──────┐
+              │        the same finding,    parked until a        │
+              │        in plain English     session answers it    │
+              └──────────────────────────────────────────────────┘
+                       the answer is filed to raw/ and staged
+                       onto every page it cites
 ```
 
 One loop closes here that no other operation closes: a question comes *in* from
@@ -65,10 +126,12 @@ outside the repository, and the work of answering it goes back into `raw/` and
 
 - **`inbox/`** — staging. Material arrives via `bin/capture` or by being dropped in. On ingest, MOVE the file to the right `raw/` subdirectory, then synthesize. Never leave a file in both.
 - **`raw/`** — immutable source archive, organized `raw/<domain>/<collection>/`. Never modify or delete anything here except when filing from `inbox/`. **`raw/self/context-core/CONTEXT_CORE_EXPANDED.md` is the primary authoritative source for facts about Dan** — curated, internally cross-checked, explicit about its own gaps. Check it first on any self/mind/timeline topic; treat other sources as supplementary or corrective to it unless they carry a specific dated correction it lacks. Source tiers and per-source traps: `EXTRACTION_SPEC.md`.
-- **`wiki/`** — the compiled product: accumulated understanding, not a cache of `raw/`. Domains: `self`, `timeline`, `people`, `mind`, `work`, `interests`, `health`, `places`, `legal`. Add a domain only when several pages clearly don't fit an existing one. `wiki/**/archive/` holds pinned oversized artifacts (`status: archived`) — exempt from budgets, never updated.
+- **`wiki/`** — the compiled product: accumulated understanding, not a cache of `raw/`. Domains: `self`, `timeline`, `people`, `mind`, `work`, `interests`, `health`, `places`, `legal`, `meta`. Add a domain only when several pages clearly don't fit an existing one. `meta` (added 2026-08-26) is the wiki describing itself rather than Dan: `wiki/meta/journeys/` holds curated cross-domain reading paths (`page_type: journey`, `STYLE_GUIDE.md`), and `wiki/meta/{digest,recent-activity,open-questions}.md` are on-site mirrors of `DIGEST.md`/`RECENT.md`/`OPEN.md`, regenerated by `bin/wiki-digest` — the mirrors exist because the portal's sync only reads `wiki/**` and `sage/questions/**` (see the portal bullet below), so a root-level file is otherwise invisible on the live site. `wiki/**/archive/` holds pinned oversized artifacts (`status: archived`) — exempt from budgets, never updated.
+- **`plain/`** — the **READER'S DIGEST** layer: one plain-language twin per page, mirroring `wiki/`'s tree exactly (`plain/mind/synthesis/fayette-return.md` is the twin of `wiki/mind/synthesis/fayette-return.md`). The portal serves the pair as two editions behind one switch in the header. A twin is a **rendering of a page, not a page**: no typed edges, no `synthesizes:`, no Gaps, no index entry, nothing to cite — so no synthesis can ever reason from a simplification instead of from the finding. It lives outside `wiki/` for that reason and because `bin/wiki-lint` globs `wiki/**` and would otherwise double the page count and orphan-warn forever. Called `plain/` rather than `digest/` because `bin/wiki-digest` and `DIGEST.md` already exist, mean something entirely different, and *write files*. See the TRANSLATE operation below and `bin/wiki-plain`.
 - **`sage/`** — questions put to the wiki **from outside it**. The portal has a question box; anyone through the door can ask something about Dan and the question lands in `sage/questions/` as a file. Nothing answers it automatically — there is no model behind the box and no workflow that calls one. It is parked, `bin/wiki-work` lists it at priority 1, and a session answers it properly. Not in `raw/` because these files mutate (`pending` → `answered`); the immutable artifact is the capture written to `raw/self/sage/` at answer time. See `sage/README.md` and the ANSWER operation below.
+- **`intake/`** — the **intake ledger**: a finite quantity enters the record, every known disposition of it is recorded after that, and at depletion the ledger reconciles what is known and preserves what is unknown. `events.jsonl` is an append-only log and the source of truth; `units.json` is a projection regenerated from it and safe to delete; `substances.json` is the select box. Its point is not dose-counting — it is the anti-unreliable-narrator layer, a first-party dated dataset to set against a page's narrative the way `bin/text-metrics` is set against a page's claims about how he writes. **Its data is in git**, now that this repository is private — the three `.gitignore` lines that used to hold `intake/events.jsonl`, `intake/units.json` and `raw/health/intake/` out of it are gone, which is the step `intake/README.md` always named as the fix. Note what those lines were and were not doing: `.gitignore` governs `git add` and has no effect on GitHub's contents API, which is how the portal writes here from a browser, so they never guarded that path at all. The guard that does is in the portal — **it reads this repository's visibility and refuses to sync while it is public.** Make the repo public again and the portal stops writing rather than quietly publishing. A finding drawn from the ledger reaches a page through the normal operations, cited to a unit id and a date range **with its coverage figure attached** — never as a bare mean. Three interfaces over one code path: `bin/intake`, Special:Intake in the local app, and `/ledger` in the portal — which is the one that is in his pocket, and therefore the one most of the record will arrive through. `intake/README.md`.
 - **`exports/`** — output of `bin/export-corpus`; never hand-edit, gitignored.
-- **The portal** — [`caakehorn/home`](https://github.com/caakehorn/home) renders this wiki, and its `public/wiki/**` is a **derived snapshot of `wiki/`, not a second copy of it.** A workflow there re-runs the derivation against this repo on dispatch *and hourly*, deleting the directory and rebuilding it, so **anything written into `public/wiki/` is destroyed within the hour** — including a change that merged. If a session finds itself editing a page as JSON, it is in the wrong repository: pages are `wiki/**.md`, here. This is not a style preference; two December 2015 read passes were written into the snapshot and one was reverted 39 minutes after merging (restored 2026-08-17).
+- **The portal** — [`caakehorn/home`](https://github.com/caakehorn/home) renders this wiki, and its `public/wiki/**` is a **derived snapshot of `wiki/`, not a second copy of it.** A workflow there re-runs the derivation against this repo on dispatch *and hourly*, deleting the directory and rebuilding it, so **anything written into `public/wiki/` is destroyed within the hour** — including a change that merged. If a session finds itself editing a page as JSON, it is in the wrong repository: pages are `wiki/**.md`, here. This is not a style preference; two December 2015 read passes were written into the snapshot and one was reverted 39 minutes after merging (restored 2026-08-17). **The dispatch that wakes it is `.github/workflows/notify-portal.yml`, here** — it fires `wiki-updated` at the portal on every push to `main` touching `wiki/**`, `sage/questions/**` or `plain/**`, which are the only three paths the portal's `sync-wiki.mjs` reads. It needs `PORTAL_DISPATCH_TOKEN` in this repository's secrets and **ships inert without it**, falling back to the portal's hourly cron; if a merged answer is not live within a minute or two, check that secret first.
 - **Meta files** (root): `index.md` master navigation · `log.md` append-only operation log · `operator-log.md` append-only ledger of operator additions (written by `bin/wiki-gaps`, never by hand) · **`WORK.md` the one outstanding-work list (written by `bin/wiki-work`, never by hand)** · `queue.md` pending-ingest ledger · `connection-queue.md` mined edge backlog · `synthesis-queue.md` mined climb backlog · `BACKLOG.md` standing work.
 
 Git is the history mechanism. Commit after every ingest with `<op>: <short description>`. Never commit secrets or `exports/`.
@@ -117,7 +180,7 @@ QUERY is somebody in this repository asking the wiki something. ANSWER is somebo
 Read `sage/README.md` for the file format. The protocol:
 
 1. **Read the question as asked**, not as you would have preferred it asked. It may be hostile, badly framed, or about something the corpus cannot settle. Answer the question that was typed.
-2. **Retrieve properly.** Reason from `wiki/` first, then go to `raw/` for the proofs — `bin/mine-messages` over the message record rather than grep, and the per-contact CSVs where the question is about one relationship. A question about future behaviour is a question about the documented pattern; find the pattern's instances and its counterexamples both.
+2. **Retrieve properly.** Reason from `wiki/` first, then go to `raw/` for the proofs — `bin/mine-messages` over the message record rather than grep, and the per-contact CSVs where the question is about one relationship. A question about future behaviour is a question about the documented pattern; find the pattern's instances and its counterexamples both. **Then run the constitution pass** (`SYNTHESIS_SPEC.md`) — an answer about what Dan will do, or why he does something, is a claim about a specific mind in specific circumstances, and it is checked against the cognitive stack, the measured profile, the history, the material and health situation, and the ideology before it is filed.
 3. **Cite every claim, and quote directly.** This is the standard the whole operation stands on. A sentence about what Dan does cites the page that establishes it; a sentence about what he *did* quotes the record with its date. An answer without proofs is an opinion with a citation style, and it is worth less than nothing here — it looks like evidence.
 4. **Say where the record cuts the other way.** Every answer states its own strongest counter-evidence and what would falsify it. The corpus contains things that do not flatter its subject, and an answering system that routes around them is one nobody should believe on anything. Where the corpus genuinely cannot settle the question, that is the answer, and it is a real one.
 5. **Never quote a sealed page.** `wiki.locks.json` in the portal repo names pages that ship as ciphertext precisely so the site cannot read them out. An answer that quotes one publishes through the back door what the seal exists to keep shut.
@@ -141,9 +204,10 @@ The only operation that runs on `wiki/` rather than `raw/`. Where INGEST adds gr
 1. `bin/wiki-climb candidates` maintains `synthesis-queue.md`. Take the top cluster, or one you have reason to prefer.
 2. Read the member pages **in full** — you are reasoning from them.
 3. Find the governing rule, **or reject the cluster in the queue with a line of reasoning.** A cluster that resists synthesis is knowledge too. Never write a page whose thesis is "these things are related."
-4. Write it: `page_type: synthesis`, `knowledge: earned`, `synthesizes:` listing every member, thesis in the first two sentences, the controls that carry it, at least one prediction, and Gaps.
-5. Wire it both ways. **Every member page gets the finding written back into it** — an `instantiates` edge whose claim states what this page turned out to be evidence *of*, plus a prose sentence wherever it is load-bearing. A synthesis whose members do not carry it back is half-built.
-6. All three gates at 0 errors; log `climb | <domain> | <page>`; commit.
+4. **Run the constitution pass before writing** — check the candidate rule against the eleven registers (cognitive stack, measured profile, historical precedent, attitudes and forces, security and prosperity, health, romantic state, age and upbringing, geographic/ethnic culture, ideological programming, axiomatic politics). Mandatory, `SYNTHESIS_SPEC.md`. It is allowed to change or kill the conclusion, and its result goes on the page.
+5. Write it: `page_type: synthesis`, `knowledge: earned`, `synthesizes:` listing every member, thesis in the first two sentences, the controls that carry it, at least one prediction, Gaps, and which registers moved the conclusion versus left it standing.
+6. Wire it both ways. **Every member page gets the finding written back into it** — an `instantiates` edge whose claim states what this page turned out to be evidence *of*, plus a prose sentence wherever it is load-bearing. A synthesis whose members do not carry it back is half-built.
+7. All three gates at 0 errors; log `climb | <domain> | <page>`; commit.
 
 Climb when a cluster has survived two or more ingests, or immediately when an ingest makes you think "this is the third time I've seen this shape." Do not climb to raise a number: three thin pages stacked make one thin page.
 
@@ -168,9 +232,84 @@ Every other operation starts from a source. This one starts from the operator ha
 
 If an answer turns out to be **wrong** against a primary source, that is a finding worth more than the answer was — write it up, keep both claims visible, and clear the flag anyway. A staged answer that was never acted on and a staged answer that was checked and rejected must not look the same from outside.
 
+### TRANSLATE — write the plain-language edition of a page
+
+The portal has an EDITION switch in its header: FULL is the wiki as written,
+READER'S DIGEST is the same finding told to somebody who has never read anything
+else here. This operation writes the second one. `bin/wiki-plain` runs it.
+
+**What a twin is for.** Every page here is written for a reader who already
+knows the corpus, and that is the correct register for the technical wiki — but
+it means the wiki is unreadable to the people most likely to arrive at it
+through the front door. A twin is not a summary and not an abstract: it is the
+same finding at the **same altitude**, with the apparatus removed and the
+sentences rebuilt for somebody who does not have the context.
+
+1. `bin/wiki-plain next --synthesis` names the densest eligible pages with no
+   twin yet. Take the top one, or one you have reason to prefer.
+2. `bin/wiki-plain new <slug>` scaffolds `plain/<slug>.md` with `plain_of:` and
+   `source_modified:` already filled in. It **refuses** a page under the
+   standing moratorium; that refusal is not advisory and not yours to override.
+3. **Read the whole page first.** You are translating a finding, not compressing
+   a document — a twin written from the first three paragraphs is a summary, and
+   the difference matters.
+4. Write it. What goes, what stays:
+   - **Keep every number, date, name and quantity.** Simplifying the language is
+     the job; simplifying the *evidence* is inventing a second, weaker wiki.
+   - **Keep the falsifiers and the gaps**, in plain words. A reader shown only
+     the confident half is being sold something, and this edition reaches the
+     readers least equipped to notice.
+   - **Drop the apparatus**: typed edges, `synthesizes:`, provenance
+     disclosures, `knowledge:` values, register tables, `raw/` paths. That is
+     machinery for maintaining the wiki, not part of the finding.
+   - **Explain the jargon rather than deleting the concept.** "Ti-dominance with
+     no Fe-mediated grading function" becomes "his sense of his own worth runs
+     on an on/off switch with nothing in between." The claim survives; the
+     vocabulary does not.
+   - Close with the standard pointer back to the full entry.
+5. **A page you cannot translate honestly, you do not translate.** If the only
+   way to write it is to leave out something that changes what the page says,
+   that is a finding — say so where the next session will read it and move on.
+   A misleading plain version is worse than none, because it is easier to read.
+6. `bin/wiki-plain check` at 0 errors; log `translate | <domain> | <page>`;
+   commit.
+
+**The one rule that has teeth.** A twin records the version of the page it was
+written against, in `source_modified:`. When the page is revised the twin goes
+stale, and `bin/wiki-plain check` — which `bin/wiki-check` runs as a gate —
+fails until somebody deals with it. **Never clear it by bumping the date.**
+Re-read what moved, decide whether the plain version survives it, rewrite what
+did not. This is rule 3 of "the four things that matter most", one layer down,
+and it matters more here rather than less: a stale twin is a confident, readable,
+wrong account of what the wiki says, served to the one reader who cannot check
+it against anything.
+
+Coverage is standing campaign work, not an obligation — a page with no twin
+serves the technical edition and says plainly that no plain version exists yet.
+Only a **broken** twin (stale, orphaned, or forbidden) is a gate failure.
+
+**The second gate: `bin/wiki-plain audit`.** `check` asks whether a twin is
+broken; `audit` asks whether it is any good, and it gates too. Fabricated
+numbers (a quantity in the twin that appears nowhere in the page — the
+load-bearing check, because a number reads as proof), leaked apparatus, filler
+phrases, a dropped falsifiers-and-gaps section, a summary masquerading as a
+translation, prose above US grade 12.5, an unfilled scaffold. Every rule is
+arithmetic over the two files, so there is nothing in it for a writer to talk
+its way past — which is the point: this is the one layer of the repository a
+careless writer can degrade without leaving a trace.
+
+**Running it unattended.** `bin/wiki-plain task` emits one page's entire writing
+task — the rules and the full source page — in a single blob, so a cheap model
+that will not remember a spec gets it re-injected every run. `PLAIN_AGENT.md` is
+the operating manual for pointing such an agent at the backlog: the loop, the
+prompt, what the referee catches, what it structurally cannot catch, and the
+spot-check that remains a human's job.
+
 ### LINT (periodic)
 
 Sweep for: broken links, orphan pages, contradictions between pages, claims superseded by newer raw data, entities mentioned 3+ times with no page, and **stale premises** (`bin/wiki-climb check`). Fix mechanically what you can; queue the rest in `BACKLOG.md`. A stale page is never fixed mechanically — re-read what changed in the premise before touching the dependent.
+
+**Invoke the `wiki-housekeeping` skill (`.claude/skills/wiki-housekeeping/`) and follow it** whenever the operator asks to tidy, sweep, lint, audit or do housekeeping, and at the end of a session that moved the repo a lot. It carries the part this paragraph cannot: which warnings are requests to look rather than defects (the size warnings are, and trimming to clear one destroys earned content), how to work a stale premise without bumping a date, and how to drain obligations without mistaking a cleared flag for an integrated answer. The mechanical half is `bin/wiki-check`; the skill is the half that needs a reader.
 
 ## Tools (`bin/` — pure Python stdlib, no dependencies, no APIs)
 
@@ -178,22 +317,44 @@ Sweep for: broken links, orphan pages, contradictions between pages, claims supe
 |---|---|
 | `bin/capture` | human-facing input: interactive typing/pasting, one-shot facts, file upload (`-f`), `status` |
 | `bin/mine-messages` | corpus mining over the full iMessage dump: `stats`, `grep`, `timeline`, `battery`, `entities`. **Use this instead of grep** — three properties of the dump make naive grep silently wrong |
+| `bin/text-metrics` | turn-level style measurement: `eras`, `modes`, `contacts`, `response`, `hours`, `silence`, `target`. The instrument behind `wiki/mind/profile/texting-deviance-audit`. **Use this rather than `mine-messages` for anything about length or cadence** — message-level counts hide the effect entirely, because the unit of Dan's speech is the turn, not the message |
+| `bin/wiki-check` | **the whole mechanical chain in one command** — regenerates, runs the three gates plus freshness, rescans `WORK.md`, in the one order that is correct. `--check-only` gates without writing (CI, review); `--quiet` for hooks. Exits 1 on any red gate. The judgment half is the `wiki-housekeeping` skill |
 | `bin/wiki-lint` | frontmatter, links, orphans, sizes, duplicate frontmatter keys, retracted claims (`RETRACTED.md`), empty cited sources, **unresolved merge markers, assistant citation artifacts, malformed frontmatter blocks and master-index count drift**. Must be 0 errors before commit |
 | `bin/wiki-freshness` | is the generated corpus (`llm/`) in sync with `wiki/`? Exact set difference against `llm/manifest.json`; never writes. Exit 1 on drift |
 | `bin/wiki-connect` | `check` (typed-edge lint), `audit` (graph health), `candidates` (writes `connection-queue.md`) |
 | `bin/wiki-climb` | `check` (validates `synthesizes:`, reports stale premises), `audit` (tier distribution), `candidates` (writes `synthesis-queue.md`) |
-| `bin/wiki-digest` | regenerates `DIGEST.md`, `RECENT.md`, `OPEN.md` — committed, safe to rerun any time |
+| `bin/wiki-digest` | regenerates `DIGEST.md`, `RECENT.md`, `OPEN.md`, and their `wiki/meta/` on-site mirrors — committed, safe to rerun any time |
 | `bin/llm-publish` | builds `llm/`, the public LLM access point — **generated but COMMITTED**; rerun after any content pass |
 | `bin/export-corpus` | concatenates the wiki into one markdown file for LLM ingestion, with a token estimate |
 | `bin/wiki-search`, `bin/wiki-status`, `bin/wiki-tui` | search, status, terminal browser |
 | `bin/ingest-pack` / `bin/ingest-apply` | the any-LLM paste-box route (`INGEST_PROTOCOL.md`) |
 | `bin/wiki-work` | **the one outstanding-work list, and a required session step.** Aggregates every source of outstanding work — parked `sage/` questions, staged answers, stale premises, unnormalised portal edits, and the four standing queues — and separates obligations from campaign work. `scan` regenerates `WORK.md`; `next` names the top item and the operation that clears it; `check` prints the gate banner and always exits 0. No `done` command, by design |
+| `bin/wiki-plain` | **the READER'S DIGEST layer.** `status` (coverage), `check` (the gate — stale, orphaned or forbidden twins), `audit [slug]` (**the anti-slop referee** — fabricated numbers, leaked apparatus, filler, a dropped honest half, reading level; gates in `bin/wiki-check`), `next [n] [--synthesis]` (densest untranslated), `new <slug>` (scaffold), `task [slug]` (one page's whole writing task, rules and page included, for an unattended agent — see `PLAIN_AGENT.md`). Encodes the standing moratorium as two mechanical rules rather than leaving it to a session to remember, and **refuses** rather than warns |
 | `bin/wiki-gaps` | operator-facing: answer an open gap, or volunteer a fact the page never asked for, and stage it for the next pass. `pages [filter]` lists **every** page so any of them can take a manual addition; `list` lists only those with open items; `pending` lists what is waiting; `clear` closes the loop and marks `operator-log.md`. Reads gaps, open leads, corrections queues and "what's missing" sections alike |
+| `bin/intake` | **the intake ledger.** `new` opens a unit, `log` records one intake against it (measured, `--estimated`, or `--descriptor "one line"` for an event with no reliable quantity), `correct`/`void` supersede an event without erasing it, `close` refuses to finish while quantity is unaccounted for, `report` prints the unit report, `stats` reads across every unit, `check` gates in `bin/wiki-check`. Event-sourced in plain JSONL. **Never prints a quantity statistic without the share of events it was computed from** — a mean over 10 of 13 events must not be able to look like a mean over 13 |
 
 ## Before every commit
 
 ```bash
+bin/wiki-check              # regenerate, gate, scan — the whole chain, ~4s, red exits 1
+bin/wiki-check --check-only # gate without writing anything (CI, or reviewing a branch)
+```
+
+`bin/wiki-check` runs what used to be four hand-copied lines, **and it runs them
+in the order that is actually correct**, which the four lines were not:
+generators first, then gates, then the scan. `bin/wiki-lint` checks master-index
+count drift, so running it before `bin/wiki-digest` inspects numbers that are
+about to change; and `bin/wiki-freshness` exists to confirm the generators ran,
+so running it before them asks a question whose answer is guaranteed stale. In
+`--check-only` mode nothing is written and `wiki-freshness` becomes the real
+gate rather than a formality — it is what catches a content pass committed
+without regenerating, which is how the LLM manifest got eleven pages behind on
+2026-08-20. The individual tools still work exactly as before:
+
+```bash
 bin/wiki-lint && bin/wiki-connect check && bin/wiki-climb check   # all at 0 errors
+bin/wiki-plain check                                               # Reader's Digest twins current
+bin/intake check                                                   # ledger log and projection agree
 bin/wiki-digest && bin/llm-publish                                 # after any content pass
 bin/wiki-freshness                                                 # confirms the two above actually ran
 bin/wiki-work scan                                                 # WORK.md back in step with the repo

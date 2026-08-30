@@ -1,6 +1,6 @@
 ---
 image_caption: Annie (Anne Louise Ulmer)
-image: assets/people/annie-ulmer/people-annie-ulmer-mstt5mfl.jpg
+image: assets/people/annie-ulmer/people-annie-ulmer-mt40almg.jpg
 domain: people
 page_type: entity
 title: "Annie (Anne Louise Ulmer)"
@@ -9,7 +9,7 @@ importance: critical
 knowledge: mixed
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-20
+date_modified: 2026-08-23
 date_range_start: 2015-11-01
 date_range_end: 2026-08-19
 infobox:
@@ -29,10 +29,14 @@ infobox:
   enneagram: 7w8
   personality_assessment: "[[wiki/people/annie-ulmer-personality-assessment]]"
 changelog:
+  - date: 2026-08-23b
+    note: "Libby identified as Libby Titus (Libby Fagen) on operator testimony; the 2024 section corrected — work runs Feb to mid-August not to December, ended in an unresolved unpaid-wages dispute with three demand letters Dan drafted, and closed with her death on 13 October 2024. The $500-for-3-hours figure does not reconcile with the $75/hour in the letters; contradiction held open on her page."
+  - date: 2026-08-22
+    note: "Closing note extended: the six endogenous features that distinguish the August 16-19 rupture from every prior severance are now argued at wiki/mind/synthesis/the-rescue-premise, along with the test that rejects an external rescue as the mechanism. No claim on this page withdrawn; the arc sections are unchanged."
   - date: 2026-08-21
     note: "Recovered from a portal lost-update (commit ff905fc, 'Edit people/annie-ulmer from the portal'). That save was made from a snapshot of the 2026-08-13 page and wrote it back over the 08-16, 08-17 and 08-20 passes: ~30KB of body prose, the whole infobox, and the type and claim of all 56 typed edges were deleted, which is why bin/wiki-connect check was failing with 70 errors. Content restored verbatim from c4aab20; the three genuine additions in that save — the portrait, and the aliases 'smashonista' and 'Lauren_London' — re-applied on top. date_modified deliberately left at 2026-08-20: the argument is the 08-20 argument, and nothing that reasons from this page reasons from a portrait."
   - date: 2026-08-20
-    note: "Restructured: the four ingest-order end sections merged into one arc; two line-count errors corrected (85,586 records, not 88,548; the alternate-number thread is 9,481, not 4,812); severance sweep widened to all five handles and the zero held; concurrency with the Ally channel established."
+    note: "Restructured: the four ingest-order end sections merged into one arc; two line-count errors corrected (85,586 records, not 88,548; the alternate-number thread is 9,481, not 4,812); severance sweep widened to all five handles and the zero held; the August 18–19 overlap with the Ally thread documented as fact (its interpretation as a concurrent attachment system left to the synthesis pages)."
   - date: 2026-08-13
     note: "Three corrections from a deep-export audit: the June 1 exit line is Dan's, not Annie's; the Feb 2025 eviction was engineered by Dan with Paci's cooperation and concealed from Annie; the severance-signal zero restated as scoped."
   - date: 2026-08-10b
@@ -129,6 +133,9 @@ related:
   - wiki/people/brian
 tags: [relationships, infidelity, nyc-era, trauma-bond, ai-collaboration]
 connections:
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: instance-of
+    claim: "Six dated features distinguish the August 16-19 2026 rupture from every prior severance on this page, and all six are endogenous - the pre-closed Milo channel, the present and hostile third party, the written clearing issued for Coles and withheld from Dan, the renounced archive, the concurrent Ally channel, and the seventy-two-minute SOS latency."
   - page: wiki/mind/synthesis/august-grievance-verdict
     type: evidenced-by
     claim: "Three findings about her survive the August window on evidence rather than either party's rhetoric: her truth-value is audience-dependent under pressure (the rape claim asserted to Dan and denied to Coles inside five hours), she still issues no terminating statement — 'I want to be alone' is the nearest approach in eleven years and is not one — and her self-blame is immediate, total and unprompted, which is the strongest argument in the record against reading any of it as strategy."
@@ -197,7 +204,7 @@ connections:
     claim: "The May 2, 2017 Nick Mattie handoff — product left with Annie after she messaged him on Facebook — dates her supply-logistics facilitation a full year before the documented 2018–19 Johnny-era role."
   - page: wiki/people/ally-lubin
     type: mirrors
-    claim: "The two channels are concurrent, not sequential: across the final 48 hours (August 18–19, 2026) Dan sent 408 messages to Annie and 552 to Ally, interleaved hour by hour, telling Ally his wifi was off so he would not see Annie two hours before exchanging 98 messages with her, and declaring himself 'all ally Lubin all the time now' ninety minutes before the relationship's last message at 15:15:33."
+    claim: "Across the final 48 hours (August 18–19, 2026) Dan sent 408 messages to Annie and 552 to Ally, interleaved hour by hour; he told Ally his wifi was off so he would not see Annie two hours before exchanging 98 messages with her, and declared himself 'all ally Lubin all the time now' ninety minutes before the relationship's last message at 15:15:33. Whether the two threads formed a single concurrent attachment system is a live analytical question, examined on the synthesis pages — not settled here."
   - page: wiki/mind/concepts/attachment-model
     type: evidences
     claim: "The ten-year Annie corpus is the attachment model's quantitative base: 0 explicit severance signals across the 41,073 received messages of the dual-handle export — 81.6% of her in-window inbound, so the absence is established for that export and not yet for her messages generally — plus the 187-of-191 affection-to-request pairing, 24 alibis, 13 unchanged-behavior apologies."
@@ -1790,13 +1797,14 @@ that it was done at all is the difference the record can actually point to.
 > is used. The **97,768-message count is unaffected**; the attribution model
 > behind it is not.
 
-### Both channels at once
+### The August 18–19 overlap
 
 The four movements above read as a single thread narrowing to a point. Laid
 beside the [[wiki/people/ally-lubin|Ally Lubin]] export for the same hours,
-they are not. Across **August 18–19, 2026** Dan sent **408 messages to Annie
-and 552 to Ally**, interleaved hour by hour, and what he told each about the
-other does not survive the other's timestamps.
+the two threads are active in overlapping hours rather than strictly
+sequential in the termination window. Across **August 18–19, 2026** Dan sent
+**408 messages to Annie and 552 to Ally**, interleaved hour by hour, and what
+he told each about the other does not survive the other's timestamps.
 
 | Hour (2026) | → Annie | ← Annie | → Ally | ← Ally |
 |---|---|---|---|---|
@@ -1809,6 +1817,11 @@ other does not survive the other's timestamps.
 | 08-19 14:00 | 37 | 6 | 5 | 0 |
 | 08-19 15:00 | 32 | 8 | 0 | 0 |
 
+The two threads run against each other rather than in sequence. The heaviest
+Annie hours on August 18 sit beside light Ally traffic; the heaviest Ally hours
+— 53 outbound at 21:00 on the 18th, 119 at 08:00 on the 19th — sit beside an
+Annie channel that has gone quiet.
+
 Three statements to Ally are contradicted by this thread as he makes them:
 
 - **00:09 on August 19** — *"my wifi is back off now so even if she does
@@ -1819,24 +1832,23 @@ Three statements to Ally are contradicted by this thread as he makes them:
   that, live: eight *"SOS"* / *"Dan please I'm begging i need help"* messages
   from 22:53 to 23:06, his *"what"* at 23:40, her *"Soar / SOS"* at 23:41, his
   *"WHAT DO YOU NEED"* at 23:41:25, then nothing. He is narrating one live
-  emergency into the other channel as it happens.
+  emergency into the other thread as it happens.
 - **13:45 on August 19** — *"Okay she sucks I don't want to keep dealing with
   her / Im all ally Lubin all the time now."* Ninety minutes later he sends
   the last message of the eleven-year relationship, at **15:15:33**.
 
 This does not soften anything in the verdict, and it is not a symmetry
-argument: nothing in the Ally channel is an affair, a concealment, or a lie
-told to Annie. What it establishes is narrower and structural. **The wiki has
-been reading the Ally channel as what happens after this one fails.** It is
-not. It ran alongside this one, and on the two days this one terminated it
-carried more traffic than this one did. The overflow is not what happens after
-the vessel breaks; it is what the vessel was overflowing into the whole time —
-which means the redundancy [[wiki/mind/concepts/contact-gini|Contact Gini]]
-says Dan lacks was, in a thin and non-substitutable form, always there.
+argument: nothing in the Ally thread is an affair, a concealment, or a lie
+told to Annie. The factual overlap is recorded here as evidence; what it means
+for the structure of Dan's attachments — whether the two ran as a single
+concurrent system or as two independent threads active in the same window — is
+a question for the synthesis pages (see
+[[wiki/mind/synthesis/single-channel]] and the concurrent-attachment
+hypothesis), not a conclusion drawn on this person page.
 
 It also puts a boundary on the closing severance. Dan's 14:53:25 pre-emptive
 closure of the reopening vector is the strongest exit in the record, and he
-executed it with a second channel already running at 552 messages across two
+executed it with the Ally thread already active at 552 messages across two
 days. Whether that made the exit possible or merely made it survivable is the
 question the next ninety days answer.
 
@@ -1924,6 +1936,64 @@ profile of this relationship, written before the closure, describes Annie
 as stable, direct, and well-aligned with Dan — a framing worth preserving
 only as evidence of how convincing the concealment looked from the
 inside ([[wiki/self/chats/gemini-18]]).
+
+## 2024, and the year she was not unemployed
+
+> **CORRECTED [2026-08-23].** The standing account of Annie's working life —
+> sourced to `raw/self/dox-md/Honest assessment and value judgment analysis.md`
+> and repeated downstream — is that she *"was fired in 2023 and spent a full year
+> unemployed."* **The message record shows her working two jobs through most of
+> 2024**, and the better-paid one has been invisible to this wiki until now.
+
+From **February to early August 2024** Annie worked as a paid personal assistant
+and informal carer for **[[wiki/people/libby|Libby Titus]]** — the songwriter
+married to Donald Fagen of Steely Dan, identified by operator testimony on
+2026-08-23 and named *"Libby Fagen"* in Annie's own messages. 116 messages, **112
+of them between February and mid-August**. The work was real and it escalated:
+driving to hospital and doctor's appointments, sitting through them, handling
+correspondence, packing an apartment, for a woman who had told her in March that
+she had brain cancer.
+
+She was doing it **on top of another job**: *"Now I'll be here 6 days a week and
+then Libby in mornings…: I don't want to get worked again and pass out like last
+time"* (2024-05-08). That second 2024 employer is named nowhere and appears in no
+`wiki/work/` page.
+
+**It ended badly and then it ended finally.** On 2024-08-06 — *"after I had gotten
+screamed at by Libby"* — the work stops. Through August Annie was owed wages, was
+asked to sign an NDA, and heard nothing; **Dan drafted three escalating demand
+letters for her**, the last headed *"Final Request for Payment of Unpaid Wages"*
+and stating a rate of **$75/hour** *"set by Libby Fagen"*. The money was not
+abstract — *"I may try to see if John will hold this weeks rent check… I am
+waiting for a check from Libby"* (2024-08-01), [[wiki/people/john-paci|John]]
+being the landlord at [[wiki/places/307-e-76th-st]]. **Libby died on 13 October
+2024**; Dan records it three days later in two words, *"Libby died"*, and pastes
+the Steely Dan announcement on 2024-11-01. **Nothing in the corpus records the
+balance being paid.**
+
+> **CORRECTED [2026-08-23].** An earlier version of this section dated the work
+> *"February to December 2024"* and described it only in its warm phase. Both are
+> wrong: the work runs to **mid-August**, everything after is aftermath, and the
+> arrangement ended in a screaming match and an unresolved wage claim. The
+> quoted *"just over 3 hours today.. she paid me 500"* (2024-05-17) also does not
+> reconcile with the $75/hour in the letters; the contradiction is held open on
+> [[wiki/people/libby]] rather than smoothed.
+
+**Three things follow.** First, the unemployment claim is wrong for 2024 and
+should not be repeated. Second, the **$119K–$123K net outflow** recorded at
+[[wiki/mind/synthesis/estate-money-spine]] is *unaffected* — it is derived from
+payment-app records rather than from any assumption about her employment — but the
+picture of a single-earner household in 2024 specifically is not what the record
+supports. Third, the income ends **with a death in October 2024**, and the next
+documented event in the sequence is **March 2025**, *"I got the letter I was
+denied unemployment"* (2025-03-31), which dates the start of her income collapse
+five months later and inside the window
+[[wiki/timeline/periods/2025-collapse]] covers.
+
+The unpaid counterpart ran alongside it and continued after it stopped — regular
+childcare for her sister's children, [[wiki/people/alice]] and
+[[wiki/people/otto]], which she names as unpaid on the record in the same message
+as the unemployment letter.
 
 ## By the numbers
 
@@ -2199,3 +2269,18 @@ mechanism that would end it is named.
 What this relationship taught the wiki about how Dan forms and loses
 attachments still stands. What it is teaching now is that he has not lost
 this one.
+
+The August 2026 rupture is the first event since that correction that gives
+the mechanism a name rather than a feeling.
+[[wiki/mind/synthesis/the-rescue-premise]] sets out six dated features that
+distinguish it from every prior severance on this page — the pre-closed Milo
+channel, a rival who is present and audible rather than concealed, a written
+clearing issued for that rival and withheld from Dan, an archive declared
+retained and unused, a concurrent second channel carrying more volume than
+this one, and a seventy-two-minute reply latency on a duress signal from a man
+whose lifetime median to this number is one minute. **Every one of the six is
+endogenous.** That page also tests, and rejects, the proposition that the
+present is therefore a good moment for somebody outside to end this: the only
+completed exit from a long relationship anywhere in the corpus
+([[wiki/mind/synthesis/bond-switch-2015]]) completed by substitution inside a
+week, and it produced this page.

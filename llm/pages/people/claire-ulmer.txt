@@ -4,7 +4,7 @@ page_type: entity
 title: "Claire Ulmer"
 status: active
 date_created: 2026-07-14
-date_modified: 2026-08-17
+date_modified: 2026-08-23
 sources:
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
   - raw/self/dox-md/Honest assessment and value judgment analysis.md
@@ -32,16 +32,50 @@ the tiny newcomer in her house, she and Annie arranged for Dan and Annie
 to foster him for a single night, which is the night he chose Dan
 permanently (full story on [[wiki/people/milo]]).
 
-Beyond that, Claire has children — an unnamed niece and nephew — whom
-Annie regularly helped care for, a real and recurring commitment that
-appears elsewhere in the corpus (one AI-authored dossier speculates,
-without confirmation, that Wednesday visits to help with Claire's kids
-functioned as a recurring alibi pattern during the relationship's
-suspicious period; treat that reading as unverified interpretation, not
-established fact). Claire also attended a family funeral with Annie and
-their mother in April 2017, consistent with an otherwise ordinary,
-close sibling relationship.
+Beyond that, Claire is **married to [[wiki/people/garrett]]** and has children —
+**[[wiki/people/alice]]** and **[[wiki/people/otto]]**, and probably a third named
+Waylon — whom Annie regularly helped care for, a real and recurring commitment
+that runs through the last two years of the corpus at high density.
 
-**Gaps:** surname (presumably Ulmer, unconfirmed — she may be married);
+> **GAP CLOSED [2026-08-23].** This page previously read *"Claire has children —
+> an unnamed niece and nephew."* **They are named.** Alice appears **66 times**
+> between October 2023 and July 2025 and Otto **31 times** over the same span;
+> Alice is the elder, born around 2019–2020, and Otto is young enough to be on a
+> fixed 1:00–3:00 nap in March 2025 with a late-October birthday. A third child,
+> **Waylon**, appears exactly twice, both on 2024-07-11 (*"Otto Alice and
+> waylon"*, and Dan's reply *"Waylon Jennings?"*) — too thin to establish whether
+> he is a third sibling, a cousin or a friend, and deliberately left without a
+> page rather than guessed at.
+
+> **REJECTED [2026-08-23] — the Wednesday-alibi reading is falsified, not merely
+> unverified.** This page has carried an AI-authored dossier's speculation that
+> *"Wednesday visits to help with Claire's kids functioned as a recurring alibi
+> pattern during the relationship's suspicious period."* Tested against the full
+> **217,573-record** dump by day of week:
+>
+> | Term | n | Wednesday share |
+> |---|---:|---:|
+> | corpus baseline | 217,573 | **15.1%** |
+> | Alice | 66 | **6.1%** |
+> | Claire | 257 | **9.7%** |
+> | "my niece" / "my nephew" / "Claire's kids" | 4 | **0%** |
+> | Otto | 31 | 16.1% |
+>
+> **Wednesday is the least likely day for Alice and well below baseline for
+> Claire**, whose mentions concentrate on Friday and Saturday (100 of 257, 39%).
+> The proposed pattern is not in the record. This rules out one specific
+> mechanism on one specific axis and says nothing else about the
+> [[wiki/timeline/events/eli-incident|Eli]] period, which is untouched by it.
+
+Claire also attended a family funeral with Annie and their mother in April 2017,
+consistent with an otherwise ordinary, close sibling relationship. In the 2025
+material she is the one asking: Annie watches the children while Claire is at a
+doctor's appointment, cuts Alice's hair on request and unpaid, and takes lunch to
+Claire and Alice at the school. That asymmetry, and Annie's one recorded protest
+about it, are set out on [[wiki/people/alice]].
+
+**Gaps:** surname — **she is married** ([[wiki/people/garrett]]), so "Ulmer" is
+probably wrong, and the corpus never records his surname either, which is why
+four pages here are filed under single names;
 age relative to Annie; any independent relationship between Claire and
 Dan beyond the Milo story and shared family events.

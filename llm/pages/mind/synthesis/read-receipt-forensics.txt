@@ -7,12 +7,16 @@ title: "Read-Receipt Forensics — chat.db Metadata and Its Traps"
 aliases: ["read receipts", "date_read", "chat.db metadata"]
 tags: [forensic-analysis, digital-footprint]
 date_created: 2026-08-09
-date_modified: 2026-08-20
+date_modified: 2026-08-28
 sources: []
 synthesizes:
   - wiki/mind/concepts/forensic-method
   - wiki/timeline/events/august-2026-unmasking
+  - wiki/mind/profile/big-five-psychometrics
 connections:
+  - page: wiki/mind/concepts/reassurance-architecture
+    type: instance-of
+    claim: "Read-receipt timestamp analysis is the developed form of measurement substituting for reassurance, and it is a strictly worse substitute: it establishes that she was awake and cannot establish that the rule still holds."
   - page: wiki/mind/concepts/forensic-method
     type: component-of
     claim: "Three instrument-level defects found in a single extraction session, each of which silently produces a confident wrong answer rather than an error — the failure mode the method is least protected against."
@@ -22,6 +26,9 @@ connections:
   - page: wiki/timeline/events/august-2026-unmasking
     type: evidences
     claim: "Every claim about her wakefulness rests on chat.db date_read values whose directional asymmetry that page defines; read the wrong way the same column produces the opposite conclusion."
+  - page: wiki/mind/profile/big-five-psychometrics
+    type: caused-by
+    claim: "This page's own reassurance-architecture citation — read-receipt analysis as 'measurement substituting for reassurance' — is one hop from its actual source: Trust at the 9th percentile, corpus-confirmed at 1.96x raised suspicion, is why a confirmation does not carry forward and a device-level metadata query gets run in the first place. Named directly here rather than left implicit."
 ---
 
 # Read-Receipt Forensics — chat.db Metadata and Its Traps
@@ -227,3 +234,50 @@ yet been audited; that audit is owed and is listed in `BACKLOG.md`.
 > because a cited source had been read to eleven percent of its length. The
 > instrument that lied quietly there was a reading pass rather than a query.
 
+> **RE-CHECKED [2026-08-23] — premise moved by one typed edge, conclusion
+> unaffected.** [[wiki/mind/concepts/forensic-method]] gained an `instance-of` edge on
+> 2026-08-23 into [[wiki/mind/profile/texting-deviance-audit]]. No content this page
+> depends on changed. The new instance does rhyme with this page's subject: the audit's
+> decisive move was a control that disconfirmed the hypothesis being tested — Dan's
+> *first* messages in a turn start lowercase at the same rate as his continuations, so
+> the lowercase opener is habit, not sentence-fragmentation. That is the same class of
+> check whose absence produced the four `chat.db` defects catalogued here.
+
+> **RE-CHECKED [2026-08-26] — premise moved by one typed edge, conclusion
+> unaffected.** [[wiki/mind/concepts/forensic-method]] gained an `instance-of` edge
+> into the new [[wiki/mind/profile/lexicon]] page — the same evidence-cite/
+> authority-invoke/render-a-finding machinery documented there for crisis analysis,
+> observed running on a compliment instead. Nothing about `chat.db` metadata
+> extraction is downstream of that finding.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`. This
+page is a technical methodology page — SQLite column semantics and a
+type-affinity bug — and most registers genuinely do not bear on it; forcing
+a fit where the content is mechanical rather than psychological would be
+exactly the decorative citation this pass exists to catch, not to produce.
+One register does bear, and it was already implicit rather than absent.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Checked, does not add a distinct mechanism.** Ti-dominance's demand for verified truth could be gestured at for why these queries get run at all, but it would be redundant with register 2's more specific, corpus-confirmed account — not cited, to avoid citing the same fact twice under two names. |
+| 2. Personality profile | **Moved the conclusion, and made explicit what was already implicit.** This page's own pre-existing `reassurance-architecture` citation calls read-receipt analysis "measurement substituting for reassurance" without naming what that architecture runs on. [[wiki/mind/profile/big-five-psychometrics]]'s Trust 9 — corpus-confirmed at 1.96x — is the one hop back: a confirmation that doesn't carry forward is why a device-metadata query gets run in the first place. |
+| 3. Historical precedent | **Checked, does not bear.** The four defects are properties of `chat.db`, not of a documented pattern in Dan's history. |
+| 4. Attitudes and forces | **Checked, does not bear.** |
+| 5. Security and prosperity | **Checked, does not bear.** |
+| 6. Health | **Checked, does not bear.** |
+| 7. Romantic and relational state | **Already load-bearing, at one remove.** The worked examples (the August 2026 window, the third-party phone-access episodes) are relational in content but this page's own thesis is about the instrument, not about what the instrument found. |
+| 8. Age and upbringing | **Checked, does not bear.** |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Checked, left standing.** Trust 9 is corpus-confirmed rather than self-commissioned, which is the stronger half of the provenance gradient this session has tracked elsewhere — appropriate here, since it is the only register-level claim this page now carries. |
+
+**What survived:** all four defects (M1-M4), the extraction recipe, and
+every re-check block — none required a profile-layer citation to stand,
+since they are properties of a database schema. **What the pass added:** a
+name for the psychological driver this page's own prior citation already
+gestured at without stating. **What it did not do:** manufacture a
+cognitive-stack connection to a page whose actual content is a SQL
+type-coercion bug.

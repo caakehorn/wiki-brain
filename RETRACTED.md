@@ -163,3 +163,128 @@ standing order and the thread's language. The true idiom is `can you stop by`
   ]
 }
 ```
+
+---
+
+## Dan and Ally as a shared-ENFP pairing
+
+Retracted 2026-08-21, the day it was written. The first published answer to the
+sage question `2026-08-21_220918_...` ("who is the best match for Dan?") opened
+with *"Both Dan and Ally test as ENFP"* and built four paragraphs of function-stack
+reasoning on it. **Dan does not type ENFP. He types INTP**, on a dedicated page
+with a measured function stack — `wiki/mind/profile/intp.md`, Ti 96% latent / Ne
+84% / Si 57% / Fe 10% valuing plus a documented Ni leak — carried in the typology
+table on `wiki/mind/profile/index.md` alongside four other instruments, stated in
+the context-injection line on `wiki/self/context-core.md`, and self-typed in
+primary voice as early as July 2013. Ally's `mbti: ENFP` is a real frontmatter
+value with one disputed source behind it: the recorded datapoint is an argument in
+which *he refuses to accept she is an ENFP* (`wiki/people/ally-lubin.md`,
+2018-12-17). The same passage assigned **ISFJ** to Annie and to Alexis: Annie is
+assessed **ESFP** on `wiki/people/annie-ulmer-personality-assessment.md`, argued
+explicitly against ENFP on the Sensing/Intuition axis, and Alexis is typed
+**INFP/ISFP "Idealist"** on `wiki/people/franki-faris.md` — from the same July
+2013 batch of self-typology emails that produced Dan's own earliest INTP
+self-identification. It also named Katie Fletcher as *"the only other ENFP
+documented"*; her page carries no type, and that part holds.
+
+**What is retracted is the shared type and the complementarity built on it** —
+plus the ENFP assigned to Dan and to Katie Fletcher, and the ISFJ assigned to
+Annie and to Alexis. Neither Ally's ENFP nor Dan's INTP is retracted; both are
+real values on real pages.
+
+> **CORRECTED [2026-08-21]:** this entry's first version, and the answer's
+> correction blockquote, both asserted *"there is no MBTI assessment for Dan
+> anywhere in `wiki/` or `raw/`."* **That was false and is withdrawn.** The check
+> behind it was a grep for `ENFP|INTJ|INFJ|ISFJ` — the four types the fabricated
+> passage happened to name — and the absence of those four was reported as the
+> absence of all. `INTP` was never searched for. A verification shaped by the
+> claim it is testing confirms whatever that claim assumes; that is the reusable
+> lesson, and it is worth more than the retraction it was attached to. The
+> retracted claim itself is unaffected — Dan typing INTP makes *"both test as
+> ENFP"* more clearly wrong, not less.
+>
+> **Re-audited the same day with a pattern matching all sixteen type codes**,
+> which turned up two further errors of the same shape: **Alexis is typed**
+> (INFP/ISFP, `wiki/people/franki-faris.md`), and Suzanne Frank has a second
+> dedicated assessment page with its own confidence statement, so the corpus
+> holds two, not one. The July 9–31, 2013 self-typology batch is the origin of
+> three type codes — Dan's INTP, Alexis's INFP/ISFP, Franki's ESFP — and one
+> under-scoped grep missed the whole fortnight.
+
+The answer's conclusion (Ally Lubin) survives on other evidence and was rewritten
+the same day.
+
+```json
+{
+  "id": "dan-ally-enfp-pairing",
+  "claim": "Dan and Ally are both ENFP / Dan has a documented MBTI type / Annie and Alexis are ISFJ",
+  "patterns": [
+    "both[^.\\n]{0,30}(dan and ally|ally and dan)[^.\\n]{0,20}(test as|are)[^.\\n]{0,10}enfp",
+    "dan[^.\\n]{0,20}(tests? as|is an?)[^.\\n]{0,10}(enfp|intj|infj|entp)",
+    "(annie|alexis)[^.\\n]{0,20}(was|is)[^.\\n]{0,10}isfj",
+    "katie fletcher[^.\\n]{0,40}enfp"
+  ],
+  "replacement": "Dan types INTP (wiki/mind/profile/intp.md — Ti 96/Ne 84/Si 57/Fe 10, Ni leak; self-typed in primary voice July 2013). Ally's ENFP is a single disputed value (Dan argues against it, 2018-12-17). Annie is assessed ESFP. Alexis is typed INFP/ISFP (wiki/people/franki-faris.md, July 2013 self-typology batch). Katie Fletcher has no type on record. There is no shared type and no matched function stack.",
+  "reason": "Fabricated psychometrics: a sage answer invented type results for three people and reasoned from the pairing. Dan is typed INTP in the corpus, not ENFP. The first retraction of this claim also asserted that no MBTI result for Dan existed at all — that was a verification error (the grep covered only the four types the fabrication named) and is corrected in the prose above.",
+  "retracted": "2026-08-21",
+  "source": "wiki/mind/profile/intp.md; wiki/mind/profile/index.md (five-instrument typology table); wiki/self/context-core.md; wiki/people/annie-ulmer-personality-assessment.md; wiki/people/ally-lubin.md (2018-12-17 argument)",
+  "affected_pages": [
+    "sage/questions/2026-08-21_220918_which-of-the-people-in-this-wiki-would-be-the-be.md"
+  ]
+}
+```
+
+---
+
+## `latency-9x-asymmetry` — "a 9× reply-latency asymmetry with Annie" / "Dan broadcasting into a slow or silent void"
+
+Retracted 2026-08-23. `wiki/mind/synthesis/message-circadian-latency.md` opened
+with *"a 9× reply-latency asymmetry with Annie"* — Dan at 1.0 min outbound
+against 9.0 min inbound, n = 31,612 — and generalised it to *"Dan's outbound
+responsiveness is uniform and near-instant across every relationship… everything
+else is Dan broadcasting into a slow or silent void."*
+
+**The outbound half replicates exactly and the inbound half does not.** Pairing
+every message with the next opposite-direction message, uncapped, over the
+2015–2019 Annie handle returns Dan → Annie median **60.0 s** at n = 31,177 —
+the page's 1.0 min and its n to within 1.4% — and Annie → Dan median **32.0 s**,
+not 9.0 min. Under a flip-based method on the whole-corpus file (181,585 rows)
+Dan is slower again: **32.0 s against 25.0 s**. Dan is the slower correspondent
+in eight of ten per-contact exports, in the merged Annie corpus, and per-year in
+every year from 2015 to 2026.
+
+The likely cause is named on the page itself: the master dump's known
+direction-field bug. The page states it used `LEVIATHAN_FULL_CORPUS.csv` as
+ground truth, but that file is at `/Volumes/MUSIC/PHASE B RAW/` and is not in
+the repository, so the original figure cannot be re-checked and every on-disk
+file contradicts it.
+
+**The peripheral-contact rows are not retracted** — Dan genuinely does answer
+marginal contacts far faster than they answer him. What is retracted is the
+Annie figure, the 9× headline, and the "void" generalisation built on it.
+
+```json
+{
+  "id": "latency-9x-asymmetry",
+  "claim": "Annie (and people generally) replied to Dan far more slowly than he replied to them — a 9× reply-latency asymmetry — leaving him broadcasting into a slow or silent void.",
+  "patterns": [
+    "9\\s*[x×]\\s*reply[- ]latency asymmetry",
+    "reply[- ]latency asymmetry with annie",
+    "broadcasting into a (?:slow|silent|slow or silent) void",
+    "outbound responsiveness is uniform and near-instant across every relationship"
+  ],
+  "replacement": "Dan is the slower correspondent: 32.0 s against 25.0 s corpus-wide (flip method, 181,585 rows), and Annie answered faster than him in every year from 2015 to 2026. The Annie channel is the one relationship that answered him at or above his own speed; the deficit was never response, it was content (median 46 chars from Dan against 18 from Annie in the final month).",
+  "reason": "The inbound half of the pair does not reproduce from any on-disk export under either of two methods, while the outbound half reproduces exactly — indicating the master dump's known direction-field bug corrupted the inbound measurement. The cited ground-truth file is not in the repository.",
+  "retracted": "2026-08-23",
+  "source": "Re-derivation across ten per-contact exports plus the 181,585-row whole-corpus file, two methods (flip-based and every-message-pairing), plus a per-year check on the 2015-2019 Annie handle.",
+  "documented_on": [
+    "wiki/mind/synthesis/message-circadian-latency",
+    "wiki/mind/concepts/reassurance-architecture"
+  ],
+  "affected_pages": [
+    "wiki/mind/synthesis/message-circadian-latency",
+    "wiki/mind/concepts/reassurance-architecture",
+    "wiki/mind/concepts/contact-gini"
+  ]
+}
+```

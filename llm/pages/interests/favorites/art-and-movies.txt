@@ -5,6 +5,11 @@ status: archived
 date_created: 2026-06-22
 date_modified: 2026-06-23
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
+synthesizes:
+  - wiki/interests/favorites/eclecticism
+  - wiki/interests/favorites/taste-profile
+  - wiki/mind/synthesis/totality-themes
+  - wiki/mind/profile/index
 related: ["wiki/interests/favorites/index", "wiki/self/context-core", "wiki/self/facebook", "wiki/interests/favorites/eclecticism", "wiki/interests/favorites/taste-profile", "wiki/mind/synthesis/totality-themes", "wiki/mind/profile/index"]
 tags: [personality-profile]
 ---

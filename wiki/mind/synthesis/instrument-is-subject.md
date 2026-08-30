@@ -5,14 +5,18 @@ title: "The Instrument Is Also the Subject"
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-21
+date_modified: 2026-08-28
 synthesizes:
   - wiki/mind/synthesis/ai-collaborative-analysis
   - wiki/mind/synthesis/ancestral-dialectic
   - wiki/mind/concepts/exocortex
   - wiki/self/context-core
+  - wiki/mind/profile/intp
 tags: [ai-collaboration, forensic-analysis, personality-profile]
 connections:
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: instantiates
+    claim: "Every top-percentile capacity the capability audit identifies is observational, and every one of them is currently pointed at Dan's own life, which is this page's closed loop stated at the level of a career rather than a corpus."
   - page: wiki/mind/synthesis/ai-collaborative-analysis
     type: component-of
     claim: "That page establishes LLM use as a daily cognitive organ rather than a novelty — 26,348 'ai' mentions in the activity archive — which is precisely what makes the same class of tool disqualified as a neutral observer of the person it is an organ of."
@@ -46,6 +50,12 @@ connections:
   - page: wiki/mind/synthesis/ancestral-dialectic
     type: instance-of
     claim: "This page is the worked example of the provenance rule: an interpretive frame that arrived knowledge: mixed and must not have that status laundered by anything that later reasons from it."
+  - page: wiki/work/bfs-foods
+    type: instance-of
+    claim: "The clearest case in the corpus of the failure mode working in reverse — instead of one model's uncorrected reading standing as fact, three chained sessions show the drift itself (incompetence read escalating into an orchestrated-campaign read) getting caught, named, and walked back against the operator's own corrected testimony, with the walk-back preserved on the page rather than silently absorbed."
+  - page: wiki/mind/profile/intp
+    type: caused-by
+    claim: "The specific shape of the evidentiary standard this page's recursion problem depends on — unwavering honesty, no softening, residue graded above testimony — is not an arbitrary prompt choice: it is what Ti-dominance's own truth criterion, 'a system that holds under recursive collapse, not social consensus,' looks like exported into an instruction. A different cognitive stack writing the same prompt would not necessarily have specified this standard, which is why the recursion this page names is a predictable consequence of a specific mind rather than an accident of tooling."
 ---
 
 # The Instrument Is Also the Subject
@@ -143,6 +153,39 @@ testimony. It simply cannot be promoted to residue by being cited three times.
   the disagreement is recorded rather than resolved silently — the same
   discipline `STRATEGY.md` already applies to falsified conclusions.
 
+## The mechanism: why this specific standard, and not a softer one
+
+Everything above treats the evidentiary standard — unwavering honesty, no
+softening, residue over testimony — as a given fact about the prompt
+[[wiki/mind/concepts/exocortex]] documents Dan writing. It is worth asking
+why the prompt specifies *that* standard rather than some other one, because
+the answer is what makes the recursion this page names predictable rather
+than incidental.
+
+[[wiki/mind/profile/intp]] measures Ti-dominance defining truth as "a system
+that holds under recursive collapse, not social consensus" — a standard that
+is, verbatim, what "no softening, confidence levels, never summarize away
+detail" looks like once it is exported from a private cognitive style into
+an instruction written for a machine. A mind whose dominant function
+routes every claim through internal, recursive coherence-testing does not
+merely tolerate an unsoftened evidentiary standard; it is the kind of mind
+that would specify one, because anything less would fail its own criterion
+for what counts as true. The residue-over-testimony discipline this page's
+whole rule depends on is therefore not an arbitrary methodological choice
+Dan happened to make. It is what his own dominant function does to
+information, formalized into a prompt and then, recursively, applied back
+to the prompt-writer.
+
+**This narrows what "the instrument is the subject" actually means.** It is
+not merely that an LLM user built an LLM-based wiki about himself — that
+would be true of anyone. It is that the specific evidentiary rigor making
+this wiki worth trusting at all, and therefore the specific recursion
+making it structurally unable to observe its subject independently, are the
+same cognitive fact viewed from two directions. A less Ti-dominant author
+writing the same kind of self-wiki would likely have produced a softer
+standard and a less severe version of this page's problem — or simply
+never noticed the problem existed.
+
 > **RE-CHECKED [2026-08-02] — the premise moved, the rule survives, and the
 > movement is the rule's first live exercise.**
 > [[wiki/mind/synthesis/ancestral-dialectic]] was revised on 2026-08-02 after a
@@ -199,3 +242,49 @@ testimony. It simply cannot be promoted to residue by being cited three times.
 > prompt Dan wrote — which the edit did not touch. No finding here is
 > affected; this is exactly the "its other content is not assessed"
 > boundary the Gaps note above already names.
+
+> **RE-CHECKED [2026-08-26]:** `bin/wiki-climb check` flagged this page
+> stale again, against both [[wiki/self/context-core]] and
+> [[wiki/mind/concepts/exocortex]], each of which moved on 2026-08-26 to
+> add one new connections edge to the new
+> [[wiki/mind/profile/neurodivergence]] page — itself a case study of the
+> bootloader-laundering pattern this page describes (an unverified claim,
+> restated as background by three documents built from each other, until it
+> reads as settled). Neither edit touched the honesty-standard premise this
+> page reasons from. Nothing here is affected.
+
+## The constitution pass
+
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`. This
+page is unusual among the backlog: its own conclusion is about repository
+*structure*, not directly about Dan, which the page's own Gaps section
+already flags candidly. The pass still runs in full, because the
+mechanism section above shows a register does bear — on the origin of the
+standard, if not on the structural conclusion itself.
+
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion, narrowly.** [[wiki/mind/profile/intp]]'s Ti-dominance explains why the evidentiary standard takes the specific shape it does, which is why the recursion this page names is a predictable consequence of a specific mind rather than an accident of tooling — see "The mechanism" above. It does not change the page's structural claim about knowledge-propagation. |
+| 2. Personality profile | **Checked, does not add a distinct mechanism** beyond the cognitive-stack account above. |
+| 3. Historical precedent | **Checked, does not bear** — this page's claim is synchronic (about the corpus's current epistemics), not historical. |
+| 4. Attitudes and forces | **Checked, does not bear.** |
+| 5. Security and prosperity | **Checked, does not bear.** |
+| 6. Health | **Checked, does not bear.** |
+| 7. Romantic and relational state | **Checked, does not bear directly**, though [[wiki/mind/synthesis/the-deferred-audit]] (already a parallel member) shares the same underlying mechanism in a relational domain. |
+| 8. Age and upbringing | **Checked, does not bear.** |
+| 9. Geographic and ethnic culture | **Checked, does not bear.** |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **This page IS the provenance register for most of the rest of the corpus.** Its own Gaps section already states the honest limit: it should arguably carry `knowledge: mixed` by its own rule, and is marked `earned` only because its claim is about structure rather than about Dan — a distinction the page states explicitly rather than quietly relying on. |
+
+**What survived:** the propagation rule, the residue/testimony distinction,
+and the 2026-08-02 enumeration finding (ten pages reason from `mixed`
+premises without stating what they added). **What the pass added:** a
+cognitive-stack explanation for *why* the evidentiary standard has the
+specific shape that produces the recursion this page is built to describe
+— not a claim about Dan's psychology in general, but about the origin of
+one artifact (the exocortex prompt) that turns out to be a direct export of
+a measured cognitive trait. **What it did not do:** claim the page's
+structural conclusion is "about Dan" in the way the other twenty pages in
+this backlog are — that boundary is the page's own, and this pass respects
+it rather than papering over it with a citation.

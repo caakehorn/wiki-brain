@@ -8,7 +8,7 @@ importance: critical
 relation_type: family
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-08-18
+date_modified: 2026-08-26
 date_range: ["1920-08-15", "2018-04-04"]
 tags: [family, uniontown-era, grief, music-production, financial-stress]
 sources:
@@ -102,6 +102,9 @@ connections:
   - page: wiki/interests/music/concepts/sub-bass-signature
     type: causes
     claim: "The Numark NS7 II she bought on top of the annual cheque is the hardware origin of every production alias and of the involuntary sub-bass signature that runs through all of them."
+  - page: wiki/mind/synthesis/closing-the-set
+    type: evidences
+    claim: "A corpus-wide search finds no second instance of Dan reporting a good outcome from an action he took, which makes the caregiving vigil the corpus's only documented case of the completion drive working end to end."
 ---
 
 # Frances "Fran" Whyel Coldren
@@ -396,6 +399,18 @@ named herself — she did anything he asked, so he showed up for her.
 > altruism was never the operative variable. Fran's care was a goal he
 > generated himself and was never assigned, which is the only kind the
 > completion drive can serve, and it therefore got the full engine.
+>
+> **The full sentence, and what a corpus-wide search adds to it.** The quote
+> above has been cited in fragments; in full it reads (2018-04-06 17:55, to a
+> friend): *"we had a lot of fun. got good closure and finally did something
+> in my life that wasn't completely selfish haha."* A `bin/mine-messages`
+> sweep of all 106,629 sent messages returns **no second instance** of Dan
+> reporting a good outcome from an action he took — every other positive
+> self-report in the corpus is attributed to a person he had, not a thing he
+> did. This is therefore the corpus's only documented case of the drive
+> working end to end, and the operative words in his own account are *fun*,
+> *closure* and *not selfish* — not *completion*. See
+> [[wiki/mind/synthesis/closing-the-set]].
 
 She is also half the reason the Annie relationship carried a mythic charge: the
 deathwatch the two of them kept, three years into their decade, is the
@@ -420,3 +435,4 @@ retraction above, and therefore the only primary document that could settle
 what actually happened in that room — exist only as uploads inside AI sessions.
 Locating the originals is the highest-value collection task attached to this
 page.
+

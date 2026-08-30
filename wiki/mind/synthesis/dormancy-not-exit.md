@@ -6,7 +6,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-21
+date_modified: 2026-08-28
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -22,8 +22,12 @@ synthesizes:
   - wiki/people/franki-faris
   - wiki/places/155-virginia-ave
   - wiki/mind/synthesis/the-unbroken-bond
+  - wiki/mind/profile/intp
 tags: [relationships, nyc-era, uniontown-era, forensic-analysis]
 connections:
+  - page: wiki/mind/synthesis/the-rescue-premise
+    type: escalates
+    claim: "This page's dormancy default supplies the null hypothesis the August 2026 severance has to beat, and the conditions under which it would have to be reclassified as the first genuine exit are stated there as dated falsifiers."
   - page: wiki/people/kristin
     type: instance-of
     claim: "The Kristin thread is the rule's shortest instance and its cleanest: November 2025 holds 53 messages, the channel goes dormant rather than closing, and the December burst is Dan re-entering it — a failed reactivation, not a collapse."
@@ -50,8 +54,8 @@ connections:
     type: evidenced-by
     claim: "The measurement of reactivation bandwidth: 2,044 days of total silence answered in one minute, which shows dormancy in this graph involves no decay of the channel at all."
   - page: wiki/people/franki-faris
-    type: contradicts
-    claim: "The control that bounds the rule: an occupancy of days in 2013 produced no message corpus and no later trace, so persistence is earned by sustained tenure rather than granted to everyone who passes through — the five-day figure itself is contested as of 2026-08-02 and may have been transposed from Alexis's stay at 155 Virginia Ave."
+    type: evidenced-by
+    claim: "The control that bounds the rule: an occupancy resolved 2026-08-28 to have collapsed immediately produced no message corpus and no later trace, so persistence is earned by sustained tenure rather than granted to everyone who passes through — the five-day figure once attached to this occupancy is now corrected to Alexis's displacement at 155 Virginia Ave, which makes the control sharper, not weaker."
   - page: wiki/places/155-virginia-ave
     type: evidenced-by
     claim: "Lair-continuity is the spatial signature of the same policy — the apartment leased for Alexis is the apartment Annie moves into, so the container is retained while the occupant is swapped."
@@ -62,8 +66,8 @@ connections:
     type: causes
     claim: "A graph that admits people slowly and releases them never must concentrate over time, so the no-exit rule is the mechanism that produces the contact Gini rather than a separate finding about it."
   - page: wiki/timeline/events/franki-fireworks-day-2013
-    type: contradicts
-    claim: "The capture attaches five days to Alexis's stay at 155 Virginia Ave, not to Franki's tenure, which puts this page's only quantity — the number defining its tenure floor — in question while leaving the qualitative control intact."
+    type: evidenced-by
+    claim: "This capture, now corroborated by a second independent 2026-08-27 statement, attaches five days to Alexis's stay at 155 Virginia Ave, not to Franki's tenure — resolving what was an open question over this page's tenure-floor number into a settled, sharper figure."
   - page: wiki/people/ally-lubin
     type: instantiates
     claim: "The channel never closes and never has to — but the operator's 2026-08-20 answer puts a boundary on the rule: the June 1, 2026 burst went to an email handle Ally does not monitor and was never delivered, and she had concluded she was blocked. At least one silence in this tie is a routing artifact rather than dormancy, so a gap is not evidence of the rule until the handle it was sent to is checked."
@@ -79,10 +83,57 @@ connections:
   - page: wiki/self/concepts/ally-and-dan-love-as-destiny
     type: instance-of
     claim: "The Ally channel is the rule's longest-running case — thirty-eight and fourteen-month silences that closed nothing, then an August 2026 reactivation at the highest amplitude yet, which that page reads as a phase change and this rule reads as the pattern running normally."
-sage_pending: 2026-08-21
+  - page: wiki/mind/profile/intp
+    type: evidenced-by
+    claim: "Two distinct functions on that page explain two distinct halves of this page's rule: tertiary Si's high-fidelity, non-pruning archive is why nothing decays out of the graph in the first place, and inferior Fe — the function that would certify a closure as socially, relationally real — is nearly absent, which is why a Ti-generated decision that a tie is over never becomes felt-settled without an external terminating statement supplying the Fe judgment Dan cannot generate for himself."
 ---
 
 # Dormancy, Not Exit
+
+> **RE-CHECKED [2026-08-26]:** flagged stale against
+> [[wiki/mind/synthesis/the-unbroken-bond]] (2026-08-26), which added a
+> "directed fear of infidelity" cost item (the `cheat` word-count finding) and
+> removed its own `sage_pending` staging. That addition is about the
+> emotional cost of continuity, not about whether ties persist after ending —
+> it does not touch this page's mechanism, its member table, or the
+> measurement section. **No claim on this page is affected.**
+
+> **RE-CHECKED [2026-08-23] — flagged stale against
+> [[wiki/mind/synthesis/the-unbroken-bond]] (2026-08-23), and the pass that moved
+> it also produced the number this page has always needed.** That page gained a
+> re-check note; nothing on it was withdrawn. The material development is
+> elsewhere in the same pass: the severance base rate is now derived from primary
+> data rather than inferred — **129 declarations across the merged Annie corpus,
+> 128 of 128 resumed, median gap thirty-six seconds, all-time maximum 46 hours**
+> ([[wiki/mind/synthesis/the-rescue-premise]] Part I½).
+>
+> **This is the strongest evidence this page's thesis has ever had.** "Dormancy,
+> not exit" predicts that declared endings produce pauses rather than
+> terminations, and the primary record now shows a decade of declared endings
+> producing a median pause of under a minute and never once exceeding two days.
+> Nothing here is withdrawn; the claim is upgraded from a reading to a
+> measurement.
+>
+> **And it supplies the falsifier this page lacked.** Dormancy is
+> unfalsifiable while every silence is finite and short. Against a hard
+> historical ceiling of 46 hours, two observations now sit outside the
+> distribution — the 52-day June silence (27×, and it still broke) and the
+> August 19 severance, which passed the ceiling on 2026-08-21 and is running. A
+> silence that clears 52 days would be the first datum this page could not
+> absorb.
+
+> **RE-CHECKED [2026-08-22]:** flagged stale against
+> [[wiki/places/155-virginia-ave]] (2026-08-22). That page's change concerns the
+> **outcome of the March 2018 eviction notice** — a court summons filed seven
+> days later gives Dan's address as 337 Saratoga
+> ([[wiki/timeline/events/uniontown-hospital-vape-alarm]]), so the notice moved
+> his address of record even though the residence timeline runs to February 2019.
+> **This page reasons from 155 Virginia as a *container* across an occupant swap,
+> and from the contested five-day figure attached to Alexis's stay there.**
+> Neither depends on when or whether Dan's own tenancy there ended on paper. The
+> tenure floor, the swap, and the open question about the five days are all
+> unaffected. No claim withdrawn.
+
 
 > **RE-CHECKED [2026-08-20] — a live test of this page's central rule opened
 > four days ago, and the page must not pre-score it.** Flagged stale against
@@ -133,7 +184,7 @@ people who have vacated it — and finds that they are all still here.
 | [[wiki/people/menore]] | Apr 2013 (Dan leaves NYC) | Dormant, then reactivated Nov 2018; ran continuously to Feb 2025 — and the counterparty is **confirmed still operating in 2026** | **12 years, one gap** |
 | [[wiki/places/155-virginia-ave]] | — | Container retained across the occupant swap | — |
 | [[wiki/people/james-dee]] | Jul 2025 (56 days) | Residual contact only — two unanswered writes, then one in-person confrontation | **~2 months, then thin** |
-| [[wiki/people/franki-faris]] | 2013 (5 days) | **Nothing.** No corpus, no trace, `status: closed` | **none** |
+| [[wiki/people/franki-faris]] | 2013 (immediate collapse) | **Nothing.** No corpus, no trace, `status: closed` | **none** |
 
 Five of the seven carry the rule outright. One is the control, and it is what
 makes the rule a claim rather than a mood. The seventh —
@@ -267,6 +318,55 @@ block is the closest thing the corpus has to that case.
 > co-held should not reopen at all, and if one does, the suspend/delete distinction is
 > wrong and the reopening is internal after all.
 
+### The mechanism, named at the function level (added 2026-08-28)
+
+The 2026-08-13 correction above replaced one mechanism ("closing requires a
+counterparty") with a sharper one ("suspend, not delete — the counterparty
+ratifies, doesn't perform, the closure"), and left open *why* a closure
+Dan performs perfectly well cannot be treated as settled without that
+ratification. Two functions on [[wiki/mind/profile/intp]], read separately
+rather than as one blur, answer two different halves of that question.
+
+**Si-tertiary is why nothing decays out of the graph at all.** That page
+describes tertiary introverted sensing as "the vast high-fidelity archive"
+that "maintains... the minute recall of years-old details," retained
+without the pruning an ordinary memory performs. A channel does not need
+active maintenance to survive 2,044 days of silence, because nothing about
+this architecture forgets a node exists — dormancy costs nothing precisely
+because the archive was never going to drop the entry regardless of
+contact frequency. This is the retention half of the rule, and it requires
+no claim about feelings or decisions at all: it is closer to a storage
+property than a relational one.
+
+**Fe-inferior is why a self-performed closure never becomes *felt* as
+settled.** [[wiki/mind/profile/intp]] measures Fe — the function whose job
+is exactly the socially-anchored, relationally-calibrated judgment of
+"is this actually over" — at 10% valuing, the weakest score on the whole
+five-function table. Ti can determine, on its own authority, that a tie no
+longer holds together ("I am 95% sure this is over," in the idiom
+[[wiki/mind/concepts/calibrated-confidence]] documents him using
+everywhere else). What Ti cannot supply is the *felt* closure Fe would
+normally certify, because Fe is barely active. The June 1 severance shows
+exactly this split: Dan executed the closing operation without difficulty
+and sustained it for fifty-two days against direct pressure — the Ti
+decision held — but never treated it as *settled*, and reactivated the
+moment an external signal (Annie's silence breaking) supplied the
+relational read his own Fe could not generate. The counterparty's
+terminating statement is not a formality this architecture is choosing to
+wait for. It is importing a judgment the system has no reliable internal
+source for.
+
+**This sharpens, rather than duplicates,
+[[wiki/mind/synthesis/the-deferred-audit]]'s Ti-dominance mechanism.** That
+page's constitution pass argues a chosen object's audit risks a verdict on
+the chooser, which is why audits of chosen objects are deferred until the
+object fails on its own. This page's mechanism is narrower and comes after
+that one in sequence: even once an audit *has* run and produced a closure
+decision, that decision still needs a second, different kind of
+confirmation — not a further Ti coherence check, but the Fe-shaped social
+ratification the stack cannot produce internally. The two pages describe
+consecutive gaps in the same architecture, not the same gap twice.
+
 > **RE-CHECKED [2026-08-03] — premise moved, conclusion untouched.**
 > [[wiki/places/155-virginia-ave]] was edited today to flag that its January
 > 2015 start date collides by a few weeks with Dan's account of the February
@@ -302,6 +402,13 @@ the bandwidth it had. Every case in the table behaves this way, and it is why
 > which is the condition both pages are supposed to be in.
 
 ## The control, and where the rule stops
+
+> **Read this section against the 2026-08-28 resolution below before quoting
+> a figure from it.** The "five days" this section originally attached to
+> Franki's own occupancy is corrected there to Alexis's displacement at 155
+> Virginia Ave; Franki's actual tenure is "immediately, and it went nowhere"
+> — shorter than five days, which sharpens rather than weakens everything
+> this section argues from the control.
 
 [[wiki/people/franki-faris|Franki Faris]] is the counterexample, and the page is
 better for having it. She occupied the primary slot for **five days** in the
@@ -376,29 +483,38 @@ handled in the re-check immediately below.
 > already queued there — those handles should divide by tenure, not by whether
 > they were ever answered.
 
-> **CONTRADICTION [2026-08-02] — the "five days" may not be Franki's at all.**
-> An operator capture ingested on 2026-08-02
-> ([[wiki/timeline/events/franki-fireworks-day-2013]]) attaches five days to a
-> *different person in the same episode*: **Alexis** stayed at
+> **RESOLVED [2026-08-28] — was CONTRADICTION [2026-08-02]: the "five days"
+> is not Franki's, and a second capture settles it.** An operator capture
+> ingested on 2026-08-02
+> ([[wiki/timeline/events/franki-fireworks-day-2013]]) first attached five
+> days to a *different person in the same episode*: **Alexis** stayed at
 > [[wiki/places/155-virginia-ave|155 Virginia Ave]] *"for 5 days before returning
-> to carmichaels to her parents."* Of Franki's own tenure the capture says only
-> that she *"got sick of me basically immediately and it went nowhere."*
+> to carmichaels to her parents."* Of Franki's own tenure that capture said only
+> that she *"got sick of me basically immediately and it went nowhere."* At
+> the time neither reading was adopted, because the wiki's original five-day
+> figure traced to the Gemini-58 and DANSYNTH self-narrations — later
+> AI-assisted reconstructions, exactly the class of material most likely to
+> have transposed one five-day span onto the other person a week away from
+> it — and one capture against one reconstruction wasn't enough to call it.
 >
-> The wiki's five-day figure traces to the Gemini-58 and DANSYNTH
-> self-narrations — later AI-assisted reconstructions, and exactly the class of
-> material most likely to have transposed one five-day span onto the other person
-> a week away from it. Per [[wiki/mind/synthesis/instrument-is-subject]], that is
-> testimony; the capture is first-person operator memory, which is also not
-> residue. **Neither is adopted.**
+> **A second, independent operator capture (2026-08-27) removes the tie.**
+> Volunteered separately, with no reference to the first, it states again:
+> *"She [Alexis] spent 5 days at Virginia ave and then went to her moms."*
+> Two independent first-person statements now agree, so per
+> [[wiki/mind/synthesis/instrument-is-subject]]'s own standard this has
+> crossed from single-witness testimony into corroborated residue-adjacent
+> fact. **The five days belong to Alexis. Franki's occupancy is confirmed,
+> across both captures, as collapsing immediately rather than lasting a
+> measured span.**
 >
-> What this costs the page, stated plainly: the control's *duration* is the only
-> quantity in it, and the tenure floor is defined by that quantity. If Franki's
-> occupancy was "immediately, and it went nowhere" rather than five measured
-> days, the control still holds — it holds *harder*, since a shorter tenure makes
-> the floor argument stronger, and nothing about her non-persistence changes. What
-> breaks is the number. **Every use of "five days" on this page should be read as
-> "below the floor, magnitude uncertain" until a primary source fixes it.** The
-> qualitative control survives; the figure does not.
+> What this does to the page, stated plainly: exactly what the 2026-08-02
+> block predicted it would if this resolution landed. The control **holds
+> harder** — a shorter, now-settled Franki tenure ("immediately, and it went
+> nowhere") makes the tenure-floor argument sharper, not weaker, and nothing
+> about her non-persistence changes. Every use of "five days" on this page
+> now refers to Alexis's displacement, not to the control case's own
+> duration, and [[wiki/people/franki-faris]] and
+> [[wiki/timeline/events/franki-fireworks-day-2013]] are corrected to match.
 
 ## What this explains
 
@@ -451,6 +567,17 @@ construction.
    and arguing politics with him for five hours in July 2022. The rule predicts
    that hostility does not trigger removal either, because removal is not
    available.
+4. **The February 2027 test is now a public commitment, not an internal
+   note.** A sage answer published through the portal on 2026-08-21 told an
+   outside asker that the corpus contains no attested exit in eleven years and
+   that the most recent test — the June 1 severance — failed at fifty-two
+   days. Whichever way the August 19 closure resolves, it resolves against a
+   claim already on record outside this repository, which is reason to work
+   it deliberately when the date arrives rather than whenever a pass happens
+   to land here. Watch the 14:53:25 latch specifically — the re-entry channel
+   Dan closed in advance — rather than the silence alone: if contact resumes
+   through that exact vector, the finding is stronger than if it resumes some
+   other way.
 
 ## Falsifiers
 
@@ -584,38 +711,35 @@ documents across different people.
 > mid-January 2016 on a misread pronoun; corrected the same day — see
 > [[wiki/mind/synthesis/bond-switch-2015]]. She stayed.)*
 
-## Sage findings — pending ingest
+## The constitution pass
 
-> Transient staging, written by an ANSWER pass. Each block below is a finding
-> produced while answering a question put to the wiki **from outside it** —
-> synthesis about the corpus, **not** operator testimony, which is why this
-> section and its `sage_pending:` flag are separate from `bin/wiki-gaps`'s.
-> **Nothing here has been integrated yet.** The next pass over this page reads
-> these, works them into the argument where they belong, cascades into every
-> page that inherits them, bumps `date_modified`, and deletes this section. It
-> is not allowed to accumulate into a changelog — STYLE_GUIDE rule 6.
+Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`. This
+page had never cited `wiki/mind/profile/` despite two mechanism corrections
+(2026-08-02, 2026-08-13) explicitly chasing the cognitive question a
+profile-layer register answers directly.
 
-### FINDING [2026-08-21] — from the sage question `2026-08-21_143022_can-he-actually-be-monogamous`
+| # | Register | Disposition |
+|---|---|---|
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]]'s Si-tertiary explains the retention half (nothing decays from the archive); Fe-inferior explains the ratification half (why a self-performed closure never feels settled) — see "The mechanism, named at the function level" above. |
+| 2. Personality profile | **Checked, deliberately not added.** Trust 9 and Self-Consciousness 91 are already load-bearing for the adjacent question of audit *timing* on [[wiki/mind/synthesis/the-deferred-audit]]; forcing them here on top of the Ti/Si/Fe account this page actually needs would be the decorative citation SYNTHESIS_SPEC warns against. |
+| 3. Historical precedent | **Checked, left standing.** The member table (Danielle, Alexis, 424 Bedford, Menore, James Dee, Franki) is this page's own historical evidence base and required no new material. |
+| 4. Attitudes and forces | **Checked, does not bear.** No chaos-preference or political material explains retention-without-decay specifically. |
+| 5. Security and prosperity | **Checked, does not bear.** No financial register explains why relational nodes persist. |
+| 6. Health | **Checked, does not bear directly.** |
+| 7. Romantic and relational state | **Checked, already load-bearing throughout** — [[wiki/mind/synthesis/the-unbroken-bond]] is already a member and the page's entire evidence base is relational. |
+| 8. Age and upbringing | **Checked, does not add new material.** No developmental account of the retention habit's origin exists in the corpus. |
+| 9. Geographic and ethnic culture | **Checked, flagged as the standing unresolved gap.** The "no base rate" Gap already on this page (small-county social graphs retain people structurally) is exactly this register, and it remains open rather than resolved by this pass. |
+| 10. Religious and ideological programming | **Checked, does not bear.** |
+| 11. Axiomatic politics | **Checked, does not bear.** |
+| 12. Other — provenance | **Checked, left standing.** The page's own July 28, 2026 self-report ("I'm fucking autistic") is already correctly flagged as "his own framing rather than adopt as a diagnosis" — the constitution pass adds no new provenance caveat beyond what the page already practices. |
 
-Answer and sources: `raw/self/sage/2026-08-21_143022_can-he-actually-be-monogamous.md`
+**What survived:** the suspend-not-delete rule, the member table, and every
+prediction — the mechanism section adds an explanation underneath an
+already-correct behavioral finding rather than changing it. **What the
+pass added:** two distinct, textually-grounded functions (Si, Fe) for two
+distinct halves of the rule, and an explicit statement of how this page's
+mechanism differs from the adjacent one on `the-deferred-audit` rather than
+merely restating it. **What it did not do:** force Trust 9 or
+Self-Consciousness onto a page that does not need them, or manufacture an
+age/upbringing or geographic origin story the corpus does not support.
 
-**The 2027-02-19 test now has an external stake.** This page's re-check block sets
-the date at which the 2026-08-19 closure becomes either the strongest dormancy
-datum in the wiki or the first attested exit. An answer published through the
-portal on **2026-08-21** rests on that being genuinely open, and told the person
-who asked that the corpus contains **no attested exit in eleven years** and that
-the most recent test failed — severance 2026-06-01, contact resumed 2026-07-23,
-fifty-two days.
-
-Two consequences for the next pass:
-
-1. **The date is a commitment now, not a note.** Whichever way it resolves, it
-   resolves in public. It should be worked deliberately in February 2027 rather
-   than whenever a pass happens to land here.
-2. **The latch finding is the thing to watch, not the silence.** The answer
-   singled out 14:53:25 on August 19 — *"Do NOT ever think that enough time has
-   passed that now you can tell me… when something happens to Milo"* — as the
-   first time in the corpus anyone has named the re-entry vector in advance. If
-   the closure holds, that sentence is the mechanism and this page's
-   dormancy/exit boundary should turn on it. If contact resumes **through that
-   exact vector**, the finding is stronger still and points the other way.
