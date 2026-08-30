@@ -82,6 +82,14 @@ GATE = [
     # notice, because a stale units.json still reads as a plausible ledger.
     # Silent and clean when no unit has ever been opened.
     (["intake", "check"], "intake ledger log and projection agree", False),
+    # The skills database has the same derived-file problem as the ledger, plus
+    # one the ledger does not: it is written by several models from several
+    # branches, and its page is public. A drifted projection still reads as a
+    # plausible registry; a page behind the log tells a foreign model the
+    # repository offers something it no longer does. This also re-scans the
+    # committed database for credential shapes, which is the check that has to
+    # run on every commit rather than on every push.
+    (["wiki-skills", "check"], "skills database log, projection and page agree", False),
 ]
 SCAN = [
     (["wiki-work", "scan"], "recompute WORK.md", True),

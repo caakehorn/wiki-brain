@@ -18,7 +18,15 @@ work → observation → candidate instruction → validation → skill → reus
 
 No model is the permanent owner. Claude, Codex, ChatGPT, Cursor, local agents, scripts, and future tools all read and improve the same corpus.
 
-## Directory contract
+## Two layers, one subsystem
+
+The prose layer answers *what should an agent do here?* and a person reads it.
+It cannot answer the other question, which is the one that actually blocks
+cross-model work: **what does each model actually have?** A Claude Code session
+arrives with skills, MCP servers, plugin tools and subagents a Codex session
+does not have, and neither can see the other's. So there is a second layer, and
+it is a database rather than prose because its writers are machines running in
+parallel.
 
 ```text
 skills/
@@ -27,9 +35,18 @@ skills/
 ├── PROTOCOL.md        # how to create, test, revise, and retire skills
 ├── INBOX.md           # unvalidated observations and candidate lessons
 ├── CHANGELOG.md       # append-only history of promotions/revisions/retirements
-└── <domain>/
-    └── <skill>.md     # one reusable skill per file
+├── <domain>/
+│   └── <skill>.md     # one reusable skill per file
+└── registry/          # THE DATABASE — what each model has, pushed by the model
+    ├── README.md      # the manifest format and the one rule with teeth
+    ├── events.jsonl   # append-only; the record
+    ├── registry.json  # a projection of the log; regenerable
+    └── manifests/     # worked examples of the half a scan cannot see
 ```
+
+`bin/wiki-skills` writes the database; `wiki/meta/skills.md` is its public face,
+generated and served on the portal like any other page. Full instruction:
+`skills/agents/registry-push.md`.
 
 ## Mandatory session behavior
 
@@ -37,7 +54,19 @@ Before making a non-trivial code or repository change:
 
 1. Read `skills/INDEX.md`.
 2. Load every skill whose trigger matches the task.
-3. Log or update all skill instructions, loops, harnesses, mcp servers etc into the running directory that centralizes this archive across parallel running models  .
+3. Push what you have into the database, and read what the others have:
+
+   ```bash
+   bin/wiki-skills push --scan --agent <your-id> --vendor <v> --surface <s>
+   bin/wiki-skills push -f skills/registry/manifests/<your-id>.json
+   bin/wiki-skills page
+   ```
+
+   The scan covers this repository. The manifest covers your own skills, MCP
+   servers, plugin tools, subagents and harness — nothing in the working tree
+   records those, so if you do not declare them nobody else will know you had
+   them. The push is idempotent; recording nothing is a success. **Environment
+   variable names only, never a value: this repository is public.**
 
 After completing work:
 

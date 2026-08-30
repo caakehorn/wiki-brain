@@ -4,6 +4,76 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-30] - Session: the skills section became a cross-model database
+
+* **Model:** Claude Code (remote) · **Branch:** `claude/wikibrain-skills-database-fhkn9h`
+* **Trigger:** operator asked to keep the purpose already written into `skills/`
+  **and** add a running database of the skills every model has — one that models
+  push to and iterate off each other through, public-facing, and its own page in
+  the wiki rather than a side file.
+
+**What exists now.** `bin/wiki-skills` · `skills/registry/` (`events.jsonl`
+append-only record, `registry.json` projection, `manifests/`, `README.md`) ·
+`skills/agents/registry-push.md` · `.claude/skills/wiki-skills/` ·
+**`wiki/meta/skills.md`**, generated and served on the portal ·
+`tests/test_wiki_skills.py` (24 tests) · a gate inside `bin/wiki-check`. Full
+account in `log.md`.
+
+**Read these before touching it:**
+
+1. **The page is generated. Never hand-edit it.** `wiki/meta/skills.md` is
+   written by `bin/wiki-skills page` from the log, and the gate fails on drift.
+   The fix is always to rerun the tool.
+2. **Values never enter the database — names only.** This repository is public
+   (`"visibility": "public"`, checked against the API this pass). The tool
+   refuses a credential shape and names the field rather than stripping it; the
+   refusal is correct and is not to be worked around by rephrasing. `check`
+   re-scans the committed file on every commit.
+3. **The standing directive is enforced in the renderer, in two tiers** — a name
+   that cannot be printed is omitted and counted; a neutral name whose summary
+   names her keeps its row and path and loses the summary. Both the render and
+   the file on disk are checked. Not yours to override, including by hand-editing
+   the page.
+4. **A push that records nothing is a success.** It is idempotent by content
+   digest. `0 new, 0 revised, 53 unchanged` means the database already had you —
+   report that, do not hunt for something to change.
+
+**The next thing that should happen here, and it needs another model.** The
+database holds 53 capabilities from exactly one agent (`claude-code`), so
+`bin/wiki-skills diff` has nothing to compare and the Shared surface section of
+the page is empty by construction. **The value is entirely in the second
+push.** When a Codex, Cursor or browser-Claude session works here, have it run:
+
+```bash
+bin/wiki-skills push --scan --agent <id> --vendor <v> --surface <s>
+cp skills/registry/manifests/claude-code.json skills/registry/manifests/<id>.json
+# rewrite the agent block and the capabilities, then
+bin/wiki-skills push -f skills/registry/manifests/<id>.json
+bin/wiki-skills page && bin/wiki-check
+```
+
+Then `bin/wiki-skills diff claude-code <id>` becomes the interesting view: not
+only what each has that the other lacks, but capabilities **both** declare at
+different content digests — meaning one has revised an instruction the other is
+still running.
+
+**Two things left undone, deliberately, and neither silently:**
+
+* **The 90 stale-premise obligations in `WORK.md` are untouched.** They predate
+  this session and are unrelated to it — every one is a `climb` premise that
+  moved under a synthesis. Draining them is a reading job, not a mechanical one
+  (`wiki-housekeeping`), and doing it inside a tooling pass would have mixed two
+  kinds of change in one branch. They are still there, still advisory, still
+  first in `bin/wiki-work next`.
+* **`log.md`'s tail is stale on one point.** An earlier pass the same day wrote
+  *"The repository is private as of this pass."* It is public — confirmed
+  against the API — and `CLAUDE.md` governs: the ledger is tracked and public by
+  a later operator decision. A session reading only the tail of `log.md` would
+  conclude the opposite and might relax the secret discipline. `intake/events.jsonl`
+  is empty, so nothing personal has been published.
+
+**Gates:** `bin/wiki-check` all clean · 472 pages · 264 tests pass.
+
 ### [2026-08-30] - Session: the intake ledger (`bin/intake`, `intake/`, Special:Intake)
 
 * **Model:** Claude Code (remote) · **Branch:** `claude/intake-ledger-design-o378y9` (wiki-brain only; `caakehorn/leviathan` untouched and deliberately so — see below).
