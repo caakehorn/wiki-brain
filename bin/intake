@@ -155,6 +155,9 @@ def parse_time(text, what="time"):
     if re.fullmatch(r"\d{4}-\d{2}-\d{2}", s):
         s += "T00:00:00"
     s = re.sub(r"^(\d{4}-\d{2}-\d{2}) (\d)", r"\1T\2", s)
+    # A single-digit hour is a natural thing to type at 9am and fromisoformat
+    # rejects it. Zero-pad rather than making the operator care.
+    s = re.sub(r"^(\d{4}-\d{2}-\d{2}T)(\d):", r"\g<1>0\2:", s)
     if re.fullmatch(r"\d{4}-\d{2}-\d{2}T\d{2}:\d{2}", s):
         s += ":00"
     try:
@@ -249,21 +252,55 @@ def fmt_when(iso):
 # It is a reference table, not history — the one file here that is meant to be
 # edited by hand. Adding through the tool also appends a `substance_added` event
 # so the log records when the vocabulary grew.
+# THE PRESETS are the reason this file is more than a list of names. A ledger
+# only tells you anything if the logging actually happens, and the moment when
+# it is least likely to happen is the moment it matters most — so the common
+# case has to be one tap with no arithmetic in it.
+#
+# Every preset is `estimated`, never `measured`, and that is not a technicality.
+# Nobody weighed a one-hitter or a line; the number is a stand-in with a known
+# spread, and the ledger's whole premise is that a stand-in must never be able
+# to pass for a measurement. `confidence` records how wide the spread is, and
+# the note travels onto the event so the record explains its own figure.
 DEFAULT_SUBSTANCES = [
-    {"id": "caffeine", "name": "Caffeine", "category": "stimulant", "default_unit": "mg"},
-    {"id": "nicotine", "name": "Nicotine", "category": "stimulant", "default_unit": "mg"},
-    {"id": "alcohol", "name": "Alcohol", "category": "depressant", "default_unit": "ml"},
-    {"id": "cannabis", "name": "Cannabis", "category": "cannabinoid", "default_unit": "g"},
-    {"id": "cocaine", "name": "Cocaine", "category": "stimulant", "default_unit": "g"},
-    {"id": "ketamine", "name": "Ketamine", "category": "dissociative", "default_unit": "g"},
-    {"id": "mdma", "name": "MDMA", "category": "stimulant", "default_unit": "mg"},
-    {"id": "amphetamine", "name": "Amphetamine (prescribed)", "category": "prescription", "default_unit": "mg"},
-    {"id": "benzodiazepine", "name": "Benzodiazepine", "category": "depressant", "default_unit": "mg"},
-    {"id": "psilocybin", "name": "Psilocybin", "category": "psychedelic", "default_unit": "g"},
-    {"id": "lsd", "name": "LSD", "category": "psychedelic", "default_unit": "mcg"},
-    {"id": "opioid", "name": "Opioid", "category": "opioid", "default_unit": "mg"},
-    {"id": "prescription-other", "name": "Prescription (other)", "category": "prescription", "default_unit": "mg"},
-    {"id": "supplement", "name": "Supplement", "category": "supplement", "default_unit": "mg"},
+    {"id": "cocaine", "name": "Cocaine", "category": "stimulant", "default_unit": "g",
+     "presets": [
+         {"id": "line", "label": "ONE LINE", "quantity": 0.1, "unit": "g",
+          "measurement_type": "estimated", "confidence": "low",
+          "note": "preset: one line, 0.1 g by eye — the widest-spread estimate here"},
+     ]},
+    {"id": "cannabis", "name": "Cannabis", "category": "cannabinoid", "default_unit": "g",
+     "presets": [
+         {"id": "one-hitter", "label": "ONE HITTER", "quantity": 0.05, "unit": "g",
+          "measurement_type": "estimated", "confidence": "medium",
+          "note": "preset: one-hitter bowl, 0.05 g — a fixed bowl, so it repeats well"},
+     ]},
+    {"id": "nicotine", "name": "Nicotine", "category": "stimulant", "default_unit": "mg",
+     "presets": [
+         # 12 mg is the nicotine CONTENT of the tobacco rod (typically 10-14 mg,
+         # published analyses run 7.5-13.4). That is the right number for this
+         # ledger because it is what leaves the pack: 20 cigarettes at 12 mg
+         # depletes a 240 mg unit exactly, and a pack has to be able to run out.
+         #
+         # It is NOT the dose. A smoker absorbs roughly 1-1.5 mg per cigarette,
+         # about a tenth of the content, and machine-measured pack yields run
+         # 0.6-1.2 mg. Any reading of this substance's mean has to know which of
+         # the two it is looking at, so the note says so on every event.
+         {"id": "cigarette", "label": "ONE CIGARETTE", "quantity": 12, "unit": "mg",
+          "measurement_type": "estimated", "confidence": "medium",
+          "note": "preset: one cigarette — 12 mg is CONTENT in the rod (typical "
+                  "10-14 mg), which is what leaves the pack. Absorbed dose is "
+                  "roughly 1-1.5 mg, about a tenth of this."},
+     ]},
+    {"id": "caffeine", "name": "Caffeine", "category": "stimulant", "default_unit": "mg",
+     "presets": [
+         {"id": "coffee", "label": "A COFFEE", "quantity": 150, "unit": "mg",
+          "measurement_type": "estimated", "confidence": "low",
+          "note": "preset: one brewed coffee, 150 mg — an 8 oz cup runs 95-165 mg, "
+                  "so brew strength moves this more than cup size does"},
+     ]},
+    {"id": "buprenorphine", "name": "Buprenorphine", "category": "opioid",
+     "default_unit": "mg", "presets": []},
 ]
 CATEGORIES = ["stimulant", "depressant", "psychedelic", "dissociative", "opioid",
               "cannabinoid", "prescription", "supplement", "other"]
@@ -360,6 +397,24 @@ class Ledger:
         self.write_substances(items)
         self.append("substance_added", data=dict(entry), interface=interface)
         return entry
+
+    def presets(self, substance_id):
+        for sub in self.substances():
+            if sub["id"] == substance_id:
+                return sub.get("presets") or []
+        return []
+
+    def find_preset(self, substance_id, ref):
+        """By id or by label, case-insensitively. Never guesses across substances."""
+        options = self.presets(substance_id)
+        q = str(ref).strip().lower()
+        for pre in options:
+            if pre["id"].lower() == q or pre.get("label", "").lower() == q:
+                return pre
+        if not options:
+            raise LedgerError(f"{substance_id} has no presets — log a quantity instead")
+        raise LedgerError(f"no preset {ref!r} for {substance_id} — try: " +
+                          ", ".join(p["id"] for p in options))
 
     def resolve_substance(self, text):
         """Accept an id, a name, or an unambiguous prefix — never invent one.
@@ -830,6 +885,22 @@ class Ops:
         self.L.write_projection()
         return ev, self.L.find_unit(u["id"])
 
+    def log_preset(self, ref, preset_id, occurred_at=None, note=None, interface="cli"):
+        """One tap. Resolves the preset, then goes through the ordinary log path.
+
+        Deliberately a thin wrapper rather than its own writer: a preset is a
+        set of default arguments, not a different kind of event, and the moment
+        it becomes a second write path is the moment a tapped line and a typed
+        one stop being the same thing in the record.
+        """
+        u = self.L.find_unit(ref)
+        pre = self.L.find_preset(u.get("substance_id") or "", preset_id)
+        joined = "; ".join(x for x in (pre.get("note"), note) if x)
+        return self.log_intake(
+            ref, pre["quantity"], pre.get("unit") or u["quantity_unit"],
+            pre.get("measurement_type", "estimated"), pre.get("confidence"),
+            None, occurred_at, joined or None, interface=interface)
+
     def adjust(self, ref, quantity, unit, kind, note=None, occurred_at=None, interface="cli"):
         u = self.L.find_unit(ref)
         if kind not in ADJUSTMENT_KINDS:
@@ -1025,15 +1096,33 @@ def pct(x):
 
 
 def coverage_line(a):
-    """The caveat that goes next to every quantity statistic, spelled out."""
+    """The caveat that goes next to every quantity statistic, spelled out.
+
+    It answers two questions, not one, and the second was missing until presets
+    made it obvious: how many events carry a number at all, and how many of
+    those numbers came off a scale. A table logged entirely by one-tap presets
+    has full coverage and not a single measurement on it — and the old wording
+    called that "all events carry a quantity" and stopped, which read as
+    reassurance for a column that is entirely estimates.
+    """
     e = a["events"]
     q = e["measured"] + e["estimated"]
     if not e["total"]:
         return "no events logged"
     if e["unquantified"] == 0:
-        return f"all {e['total']} events carry a quantity"
-    return (f"{q} of {e['total']} events carry a quantity ({pct(a['coverage'])}); "
-            f"{e['unquantified']} logged without one")
+        base = ("the one event carries a quantity" if e["total"] == 1
+                else f"all {e['total']} events carry a quantity")
+    else:
+        base = (f"{q} of {e['total']} events carry a quantity ({pct(a['coverage'])}); "
+                f"{e['unquantified']} logged without one")
+    if not q:
+        return base
+    if e["estimated"] == 0:
+        return base + (", and it was weighed" if e["total"] == 1 else " — every one weighed")
+    if e["measured"] == 0:
+        return base + (" — but it was not weighed; it is an estimate" if e["estimated"] == 1
+                       else f" — but none was weighed; all {e['estimated']} are estimates")
+    return base + f" — {e['measured']} weighed, {e['estimated']} estimated"
 
 
 def render_report(unit, capture=False):
@@ -1546,6 +1635,8 @@ def build_parser():
     _unit_arg(p)
     p.add_argument("quantity", nargs="?", help="e.g. .18g — omit it and give --descriptor")
     p.add_argument("--descriptor", help="'one line', 'two hits' — logs an unquantified event")
+    p.add_argument("--preset", help="a one-tap preset for this unit's substance "
+                                    "(see `bin/intake substances`)")
     p.add_argument("--estimated", action="store_true", help="mark the quantity as an estimate")
     p.add_argument("--confidence", choices=CONFIDENCES)
     p.add_argument("--at", help="when it happened (default: now)")
@@ -1643,9 +1734,15 @@ def main(argv=None):
             print(json.dumps(items, indent=2))
             return 0
         print(f"THE SELECT BOX — {len(items)} substances in intake/substances.json\n")
-        for s in items:
-            print(f"  {s['id']:<22} {s['name']:<28} {s['category']:<14} {s['default_unit']}")
-        print("\n  add one:  bin/intake substance add \"Name\" --category stimulant --unit mg")
+        for sub in items:
+            print(f"  {sub['id']:<16} {sub['name']:<18} {sub['category']:<13} {sub['default_unit']}")
+            for pre in sub.get("presets") or []:
+                print(f"      · {pre['id']:<12} {pre.get('label', ''):<16} "
+                      f"{fmt_qty(pre['quantity'], pre['unit']):>9}  "
+                      f"{pre.get('measurement_type', 'estimated')}"
+                      f"{', ' + pre['confidence'] if pre.get('confidence') else ''}")
+        print("\n  one tap:  bin/intake log <unit> --preset <id>")
+        print("  add one:  bin/intake substance add \"Name\" --category stimulant --unit mg")
         return 0
 
     if cmd == "seal":
@@ -1697,6 +1794,18 @@ def main(argv=None):
         return 0
 
     if cmd == "log":
+        if args.preset:
+            ev, u = ops.log_preset(args.unit, args.preset, args.at, args.note)
+            a = u["analysis"]
+            d = ev["data"]
+            print(f"logged {fmt_qty(d['quantity'], d['unit'])} ({d['measurement_type']}"
+                  f"{', ' + d['confidence'] + ' confidence' if d.get('confidence') else ''}) "
+                  f"against unit #{u['ordinal']} {u['substance']} — {ev['id'][-6:]}")
+            print(f"  {a['events']['total']} events · "
+                  f"{fmt_qty(a['quantified_total'], u['quantity_unit'])} logged · "
+                  f"{fmt_qty(a['remaining'], u['quantity_unit'])} left"
+                  + (" (estimate)" if a["remaining_is_estimate"] else ""))
+            return 0
         qty = unit = None
         if args.quantity:
             qty, unit = parse_quantity(args.quantity)

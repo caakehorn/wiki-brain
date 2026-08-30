@@ -408,6 +408,155 @@ class TestPhases(LedgerCase):
         self.assertEqual(sum(p["quantity"] for p in phases), 4.0)
 
 
+class TestPresets(LedgerCase):
+    """One tap, and it still cannot lie about what kind of number it produced."""
+
+    def test_a_preset_logs_as_an_estimate_never_a_measurement(self):
+        """Nobody weighed a line. The type has to say so."""
+        self.ops.new_unit("cocaine", 3.5, "g", "2026-08-01 12:00")
+        ev, u = self.ops.log_preset(1, "line", occurred_at="2026-08-01 13:00")
+        self.assertEqual(ev["data"]["measurement_type"], "estimated")
+        self.assertEqual(ev["data"]["quantity"], 0.1)
+        self.assertEqual(u["analysis"]["events"]["measured"], 0)
+        self.assertEqual(u["analysis"]["events"]["estimated"], 1)
+
+    def test_the_confidence_records_how_wide_the_spread_is(self):
+        self.ops.new_unit("cannabis", 3.5, "g", "2026-08-01 12:00")
+        ev, _ = self.ops.log_preset(1, "one-hitter", occurred_at="2026-08-01 13:00")
+        self.assertEqual(ev["data"]["confidence"], "medium")   # a fixed bowl repeats
+        self.ops.new_unit("cocaine", 3.5, "g", "2026-08-01 12:00")
+        ev2, _ = self.ops.log_preset(2, "line", occurred_at="2026-08-01 13:00")
+        self.assertEqual(ev2["data"]["confidence"], "low")     # a line does not
+
+    def test_the_note_travels_onto_the_event(self):
+        """The cigarette figure is content, not dose, and every row says so."""
+        self.ops.new_unit("nicotine", 240, "mg", "2026-08-01 12:00")
+        ev, _ = self.ops.log_preset(1, "cigarette", occurred_at="2026-08-01 13:00")
+        note = ev["data"]["note"]
+        self.assertIn("CONTENT", note)
+        self.assertIn("1-1.5 mg", note)
+
+    def test_a_pack_of_twenty_depletes_exactly(self):
+        """20 cigarettes at 12 mg content is a 240 mg unit, to the milligram.
+
+        This is why the preset carries content rather than absorbed dose: a pack
+        has to be able to run out. Logging ~1.2 mg of absorbed nicotine against
+        it twenty times would leave 216 mg in an empty box.
+        """
+        self.ops.new_unit("nicotine", 240, "mg", "2026-08-01 12:00")
+        for i in range(20):
+            self.ops.log_preset(1, "cigarette", occurred_at=f"2026-08-01 {12 + i % 12}:00")
+        a = self.reload()["analysis"]
+        self.assertAlmostEqual(a["quantified_total"], 240)
+        self.assertAlmostEqual(a["remaining"], 0)
+        rec = self.ops.reconciliation(self.reload())
+        self.assertFalse(rec["needs_answer"])
+
+    def test_a_users_note_is_kept_alongside_the_presets(self):
+        self.ops.new_unit("caffeine", 900, "mg", "2026-08-01 12:00")
+        ev, _ = self.ops.log_preset(1, "coffee", note="second one, bad night")
+        self.assertIn("second one, bad night", ev["data"]["note"])
+        self.assertIn("95-165 mg", ev["data"]["note"])
+
+    def test_a_preset_from_another_substance_is_refused(self):
+        self.ops.new_unit("cannabis", 3.5, "g", "2026-08-01 12:00")
+        with self.assertRaises(m.LedgerError) as ctx:
+            self.ops.log_preset(1, "cigarette")
+        self.assertIn("one-hitter", str(ctx.exception))
+
+    def test_a_substance_with_no_presets_says_so(self):
+        self.ops.new_unit("buprenorphine", 8, "mg", "2026-08-01 12:00")
+        with self.assertRaises(m.LedgerError) as ctx:
+            self.ops.log_preset(1, "anything")
+        self.assertIn("no presets", str(ctx.exception))
+
+    def test_presets_can_be_named_by_label_too(self):
+        self.ops.new_unit("caffeine", 900, "mg", "2026-08-01 12:00")
+        ev, _ = self.ops.log_preset(1, "A COFFEE")
+        self.assertEqual(ev["data"]["quantity"], 150)
+
+
+class TestCoverageWording(unittest.TestCase):
+    """The line answers two questions, and the second one was missing.
+
+    A table logged entirely by one-tap presets has full coverage and not a
+    single measurement on it. The old wording said "all N events carry a
+    quantity" and stopped, which reads as reassurance for a column that is
+    entirely estimates — the exact shape of false confidence this ledger exists
+    to refuse. Presets made it common, so it is pinned here.
+
+    `js/boss-web.js` mirrors this string exactly and a cross-implementation
+    check compares the two, so a change here is a change there.
+    """
+
+    @staticmethod
+    def a(total, measured, estimated, unquantified):
+        return {"events": {"total": total, "measured": measured, "estimated": estimated,
+                           "unquantified": unquantified, "voided": 0},
+                "coverage": (measured + estimated) / total if total else None}
+
+    def test_all_estimates_never_reads_as_reassurance(self):
+        line = m.coverage_line(self.a(4, 0, 4, 0))
+        self.assertIn("none was weighed", line)
+        self.assertIn("all 4 are estimates", line)
+
+    def test_a_mix_names_both_halves(self):
+        line = m.coverage_line(self.a(3, 1, 1, 1))
+        self.assertIn("2 of 3", line)
+        self.assertIn("1 weighed, 1 estimated", line)
+
+    def test_all_weighed_says_so(self):
+        self.assertIn("every one weighed", m.coverage_line(self.a(5, 5, 0, 0)))
+
+    def test_the_singular_reads_like_english(self):
+        self.assertEqual(m.coverage_line(self.a(1, 1, 0, 0)),
+                         "the one event carries a quantity, and it was weighed")
+        self.assertIn("it is an estimate", m.coverage_line(self.a(1, 0, 1, 0)))
+
+    def test_nothing_logged(self):
+        self.assertEqual(m.coverage_line(self.a(0, 0, 0, 0)), "no events logged")
+
+
+class TestShippedCatalog(unittest.TestCase):
+    """The five the operator named, and the presets they carry."""
+
+    def test_the_catalog_is_the_five(self):
+        ids = {s["id"] for s in m.DEFAULT_SUBSTANCES}
+        self.assertEqual(ids, {"cocaine", "cannabis", "nicotine", "caffeine", "buprenorphine"})
+
+    def test_the_units_are_the_ones_asked_for(self):
+        want = {"cocaine": "g", "cannabis": "g", "nicotine": "mg",
+                "caffeine": "mg", "buprenorphine": "mg"}
+        got = {s["id"]: s["default_unit"] for s in m.DEFAULT_SUBSTANCES}
+        self.assertEqual(got, want)
+
+    def test_the_four_presets_carry_the_agreed_quantities(self):
+        want = {"line": (0.1, "g"), "one-hitter": (0.05, "g"),
+                "cigarette": (12, "mg"), "coffee": (150, "mg")}
+        got = {p["id"]: (p["quantity"], p["unit"])
+               for s in m.DEFAULT_SUBSTANCES for p in s.get("presets", [])}
+        self.assertEqual(got, want)
+
+    def test_every_preset_is_an_estimate(self):
+        """If one ever ships as `measured`, the whole coverage figure is a lie."""
+        for s in m.DEFAULT_SUBSTANCES:
+            for p in s.get("presets", []):
+                with self.subTest(preset=p["id"]):
+                    self.assertEqual(p["measurement_type"], "estimated")
+                    self.assertIn(p["confidence"], ("high", "medium", "low"))
+
+    def test_the_shipped_file_matches_the_defaults(self):
+        import json
+        with open(os.path.join(ROOT, "intake", "substances.json"), encoding="utf-8") as fh:
+            shipped = json.load(fh)["substances"]
+        self.assertEqual({s["id"] for s in shipped},
+                         {s["id"] for s in m.DEFAULT_SUBSTANCES})
+        by_id = {s["id"]: s for s in shipped}
+        for d in m.DEFAULT_SUBSTANCES:
+            with self.subTest(substance=d["id"]):
+                self.assertEqual(by_id[d["id"]].get("presets", []), d.get("presets", []))
+
+
 class TestCrossOriginBoundary(unittest.TestCase):
     """The one cross-origin hole in the local app, pinned shut.
 
