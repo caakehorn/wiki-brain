@@ -14,12 +14,12 @@ chart:
   series:
     - name: "Declared"
       points:
-        "Skills": 19
+        "Skills": 21
         "MCP servers": 2
         "Tools": 2
         "Commands": 27
         "Subagents": 2
-        "Harnesses": 1
+        "Harnesses": 2
 sources: []
 ---
 
@@ -51,27 +51,28 @@ outside can read is a capability list that cannot be checked.
 
 | | |
 |---|---|
-| Capabilities on the record | 53 |
-| Declared by more than one model | 0 |
-| Models on the record | 1 |
+| Capabilities on the record | 56 |
+| Declared by more than one model | 12 |
+| Models on the record | 2 |
 | Retired | 0 |
-| Events in the log | 54 |
+| Events in the log | 70 |
 | Last push | 2026-08-30 |
 
 | Kind | Live |
 |---|---|
 | Commands | 27 |
-| Skills | 19 |
+| Skills | 21 |
+| Harnesses | 2 |
 | MCP servers | 2 |
 | Subagents | 2 |
 | Tools | 2 |
-| Harnesses | 1 |
 
 ## The models on the record
 
 | Model | Vendor | Surface | Declares | First seen | Last push |
 |---|---|---|---|---|---|
 | `claude-code` | Anthropic | cli · web · desktop · ide | 53 | 2026-08-30 | 2026-08-30 |
+| `hermes` | Nous Research | telegram · cli · web | 15 | 2026-08-30 | 2026-08-30 |
 
 ## Shared surface
 
@@ -79,8 +80,19 @@ Capabilities more than one model declares. These are the ones where a
 lesson learned by one model transfers to another without translation —
 and therefore the ones worth writing a skill about.
 
-No capability is yet declared by more than one model. That is what the
-second push will change.
+| Capability | Kind | Declared by |
+|---|---|---|
+| bin/intake | command | `claude-code`, `hermes` |
+| bin/mine-messages | command | `claude-code`, `hermes` |
+| bin/wiki-check | command | `claude-code`, `hermes` |
+| bin/wiki-climb | command | `claude-code`, `hermes` |
+| bin/wiki-connect | command | `claude-code`, `hermes` |
+| bin/wiki-digest | command | `claude-code`, `hermes` |
+| bin/wiki-lint | command | `claude-code`, `hermes` |
+| bin/wiki-plain | command | `claude-code`, `hermes` |
+| bin/wiki-search | command | `claude-code`, `hermes` |
+| bin/wiki-status | command | `claude-code`, `hermes` |
+| bin/wiki-work | command | `claude-code`, `hermes` |
 
 ## Skills
 
@@ -100,6 +112,8 @@ second push will change.
 | `skills/repo/change-safety` | Validate behavior, not merely successful commands — triggers: editing commands; editing workflows; editing build logic; repository-wide behavior changes | `claude-code` | `skills/repo/change-safety.md` |
 | `skills/repo/session-loop` | Preserve the repository session loop — triggers: any multi-step code or repository task | `claude-code` | `skills/repo/session-loop.md` |
 | `update-config` | Configure the harness through settings.json — permissions, environment variables, and hooks. Automated 'whenever X happens' behaviour must be a hook; the harness runs those, not the model. | `claude-code` | https://code.claude.com/docs/en/hooks |
+| `wiki-brain-entry` | How to create compliant wiki entries — frontmatter, typed edges, synthesizes:, page_type taxonomy, and the three-gate validation (wiki-lint, wiki-connect check, wiki-climb check). | `hermes` | `~/.hermes/skills/wiki-brain-entry/SKILL.md` |
+| `wiki-brain-operations` | Session-start protocol for wiki-brain. How to read the governing set, run bin/wiki-work, drain obligations, and maintain the altitude ladder. Loaded via skill_view. | `hermes` | `~/.hermes/skills/wiki-brain-operations/SKILL.md` |
 | `wiki-housekeeping` | The periodic LINT sweep over this wiki — the judgment half of housekeeping, after `bin/wiki-check` has run the mechanical half. Triage the standing lint and connect warnings, work the stale-premise cascade, hunt contrad… | `claude-code` | `.claude/skills/wiki-housekeeping/SKILL.md` |
 | `wiki-rewrite` | Full wipe-and-rewrite of one or more existing wiki/ pages in this repository — re-researching every claim from raw/ rather than editing the prose in place, then rebuilding the page's typed edges, index entries, downstre… | `claude-code` | `.claude/skills/wiki-rewrite/SKILL.md` |
 | `wiki-skills` | Push this session's capabilities into the wiki-brain's cross-model skills database, and read what other models have. Use whenever the operator asks to update, refresh, sync or push "the skills" in the wiki; whenever the… | `claude-code` | `.claude/skills/wiki-skills/SKILL.md` |
@@ -128,27 +142,27 @@ second push will change.
 | `bin/export-corpus` | export-corpus — bundle the wiki into a single file for LLM ingestion. | `claude-code` | `bin/export-corpus` |
 | `bin/ingest-apply` | ingest-apply — apply an LLM's ingestion response to the wiki. | `claude-code` | `bin/ingest-apply` |
 | `bin/ingest-pack` | ingest-pack — bundle one inbox item into a paste-anywhere LLM prompt. | `claude-code` | `bin/ingest-pack` |
-| `bin/intake` | intake — the intake ledger: finite units in, discrete events out, honest arithmetic. | `claude-code` | `bin/intake` |
+| `bin/intake` | intake — the intake ledger: finite units in, discrete events out, honest arithmetic. | `claude-code`, `hermes` | `bin/intake` |
 | `bin/llm-publish` | llm-publish — build the LLM-readable static export of the wiki (llm/). | `claude-code` | `bin/llm-publish` |
-| `bin/mine-messages` | mine-messages — corpus mining over the full iMessage dump. | `claude-code` | `bin/mine-messages` |
+| `bin/mine-messages` | mine-messages — corpus mining over the full iMessage dump. | `claude-code`, `hermes` | `bin/mine-messages` |
 | `bin/psychometrics` | psychometrics — test the instrument scores against the message corpus. | `claude-code` | `bin/psychometrics` |
 | `bin/source-index` | source-index — coverage index for the message-source archive. | `claude-code` | `bin/source-index` |
 | `bin/text-metrics` | text-metrics — turn-level style measurement over the message corpus. | `claude-code` | `bin/text-metrics` |
 | `bin/verify-master` | verify-master — the promotion gate for a candidate master message corpus. | `claude-code` | `bin/verify-master` |
-| `bin/wiki-check` | wiki-check — the mechanical half of a housekeeping pass, in one command. | `claude-code` | `bin/wiki-check` |
-| `bin/wiki-climb` | wiki-climb — altitude engine for the wiki. | `claude-code` | `bin/wiki-climb` |
-| `bin/wiki-connect` | wiki-connect — connective-tissue engine for the wiki graph. | `claude-code` | `bin/wiki-connect` |
-| `bin/wiki-digest` | wiki-digest — generate human-facing reading aids from the wiki. | `claude-code` | `bin/wiki-digest` |
+| `bin/wiki-check` | wiki-check — the mechanical half of a housekeeping pass, in one command. | `claude-code`, `hermes` | `bin/wiki-check` |
+| `bin/wiki-climb` | wiki-climb — altitude engine for the wiki. | `claude-code`, `hermes` | `bin/wiki-climb` |
+| `bin/wiki-connect` | wiki-connect — connective-tissue engine for the wiki graph. | `claude-code`, `hermes` | `bin/wiki-connect` |
+| `bin/wiki-digest` | wiki-digest — generate human-facing reading aids from the wiki. | `claude-code`, `hermes` | `bin/wiki-digest` |
 | `bin/wiki-freshness` | wiki-freshness — is the generated corpus in sync with wiki/? | `claude-code` | `bin/wiki-freshness` |
 | `bin/wiki-gaps` | wiki-gaps — answer an open gap and park the answer for the next pass. | `claude-code` | `bin/wiki-gaps` |
-| `bin/wiki-lint` | Mechanical lint for the personal wiki. Exits 1 if errors found. | `claude-code` | `bin/wiki-lint` |
-| `bin/wiki-plain` | wiki-plain — the READER'S DIGEST layer: one plain-language twin per page. | `claude-code` | `bin/wiki-plain` |
-| `bin/wiki-search` | wiki-search — repository command | `claude-code` | `bin/wiki-search` |
+| `bin/wiki-lint` | Mechanical lint for the personal wiki. Exits 1 if errors found. | `claude-code`, `hermes` | `bin/wiki-lint` |
+| `bin/wiki-plain` | wiki-plain — the READER'S DIGEST layer: one plain-language twin per page. | `claude-code`, `hermes` | `bin/wiki-plain` |
+| `bin/wiki-search` | wiki-search — repository command | `claude-code`, `hermes` | `bin/wiki-search` |
 | `bin/wiki-skills` | wiki-skills — the cross-model skills database, and its public-facing page. | `claude-code` | `bin/wiki-skills` |
-| `bin/wiki-status` | wiki-status — repository command | `claude-code` | `bin/wiki-status` |
+| `bin/wiki-status` | wiki-status — repository command | `claude-code`, `hermes` | `bin/wiki-status` |
 | `bin/wiki-timeline` | wiki-timeline — build the master chronological index from wiki/ pages. | `claude-code` | `bin/wiki-timeline` |
 | `bin/wiki-tui` | wiki-tui — a tiny full-screen capture terminal for the wiki-brain. | `claude-code` | `bin/wiki-tui` |
-| `bin/wiki-work` | wiki-work — the one list of outstanding work, and it is mandatory. | `claude-code` | `bin/wiki-work` |
+| `bin/wiki-work` | wiki-work — the one list of outstanding work, and it is mandatory. | `claude-code`, `hermes` | `bin/wiki-work` |
 
 ## Subagents
 
@@ -162,6 +176,7 @@ second push will change.
 | Name | What it is | Declared by | Where |
 |---|---|---|---|
 | `claude-code` | Anthropic's coding agent: shell, file read/write, edit, glob, grep, task delegation, scheduled triggers and artifact publishing. Runs as a terminal CLI, a desktop app, an IDE extension and a remote web session against a… | `claude-code` | https://claude.com/claude-code |
+| `hermes` | Personal AI assistant with terminal, file, browser, web search, image/video generation, delegation, cron, and persistent memory. Runs via Telegram and CLI. | `hermes` | https://hermes-agent.nousresearch.com |
 
 ## Recently revised
 
