@@ -448,6 +448,11 @@ def intake_action(action, d):
                          d.get("source") or None, d.get("note") or None, interface=UI)
         return {"unit": u["id"], "ordinal": u["ordinal"]}
     if action == "log":
+        if (d.get("preset") or "").strip():
+            ev, u = ops.log_preset(d.get("unit"), d["preset"].strip(),
+                                   d.get("at") or None,
+                                   (d.get("note") or "").strip() or None, interface=UI)
+            return {"event": ev["id"], "ordinal": u["ordinal"], "preset": d["preset"]}
         q, un = qty()
         mtype = d.get("measurement_type") or ("unquantified" if q is None else "measured")
         ev, u = ops.log_intake(d.get("unit"), q, un, mtype, d.get("confidence") or None,
@@ -2046,6 +2051,18 @@ function iUnitCard(u){
   h+=`<div class="icov">${esc(d.coverage)}</div>`;
   if(d.overdrawn) h+=`<div class="msg">⚠ more is logged against this unit than it was opened with.</div>`;
   if(open){
+    // ONE TAP. The manual row below is still the honest path for anything
+    // weighed — these are for the case that actually recurs, where the
+    // alternative to a tap is not a careful entry but no entry at all.
+    const pres=((IST.substances||[]).find(x=>x.id===u.substance_id)||{}).presets||[];
+    if(pres.length) h+=`<div style="font-size:8.5px;letter-spacing:.26em;color:#54595d;margin:.9em 0 .35em">ONE TAP</div>`+
+      `<div class="iquick">`+pres.map(pre=>
+        `<button class="mw-btn" data-role="pre" data-pre="${esc(pre.id)}" title="${esc(pre.note||"")}">`+
+        `${esc(pre.label||pre.id)} <span style="opacity:.65">${esc(pre.quantity)} ${esc(pre.unit)}</span></button>`
+      ).join("")+`</div>`+
+      `<div style="font-size:.78em;color:#72777d;line-height:1.7;margin:.35em 0 .2em">`+
+      `Every preset logs as an <b>estimate</b>, never a measurement — nobody weighed these, `+
+      `and the ledger will not let a stand-in pass for a scale.</div>`;
     h+=`<div class="iquick">`+
       `<input type="text" class="q" placeholder="0.18" data-role="q">`+
       `<select data-role="u">${iQtyUnits(u.quantity_unit)}</select>`+
@@ -2139,6 +2156,13 @@ function iWireUnits(){
         measurement_type:mt?mt.value:"measured", descriptor:val("desc"),
         at:val("at"), note:val("note")}, msg);
     };
+    card.querySelectorAll('[data-role="pre"]').forEach(b=>{
+      b.onclick=async()=>{
+        b.disabled=true;
+        await iPost("log",{unit:id, preset:b.dataset.pre}, msg);
+        iRender();
+      };
+    });
     if(g("log")) g("log").onclick=doLog;
     if(g("q")) g("q").onkeydown=e=>{if(e.key==="Enter"){e.preventDefault(); doLog();}};
     if(g("desc")) g("desc").onkeydown=e=>{if(e.key==="Enter"){e.preventDefault(); doLog();}};
