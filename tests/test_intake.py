@@ -333,43 +333,51 @@ class TestGate(LedgerCase):
         errors, _ = m.check(self.L)
         self.assertTrue(any("unknown unit" in e for e in errors))
 
-    def test_it_warns_when_the_data_is_not_gitignored(self):
-        """The repository is public; an un-ignored ledger is one `git add` away.
+    def test_the_check_is_silent_about_a_settled_decision(self):
+        """No gitignore warning, in either direction, on purpose.
 
-        This check was briefly reversed — made to fire when the data WAS ignored
-        — on the stated ground that the repository had been made private. It had
-        not been: an anonymous read of the GitHub API on 2026-08-30 returned
-        `private: false`, `visibility: public`. So the direction here follows the
-        guard in `.gitignore`, and that guard follows a visibility somebody
-        actually checked rather than one the docs asserted.
+        This check flipped twice in one day. It fired when the data was NOT
+        ignored (right, while the repo was public and the ledger was meant to
+        stay out of git); it was reversed to fire when the data WAS ignored, on
+        a "the repo is private now" premise that an anonymous read of the GitHub
+        API disproved; and it was restored.
 
-        The failure this catches is not hypothetical. On the same day, in a
-        session that had deliberately emptied the ledger and was watching for
-        exactly this, a routine `git add -A` still staged `events.jsonl` and
-        `units.json` the moment the ignore lines were absent.
+        Then the operator decided the ledger should sync while the repository is
+        public, stating they understood what that publishes — and at that point
+        BOTH directions are noise. A gate that fires on a settled, documented
+        decision is a gate people learn to scroll past, and the next real
+        warning scrolls past with it.
 
-        Note what it cannot catch, because it is easy to trust too far.
-        `.gitignore` governs `git add`, so this covers the CLI and the local app.
-        GitHub's contents API ignores it completely, and that is how the portal
-        writes from a browser; that path is guarded in the portal, which reads
-        the repository's visibility and refuses to sync while it is public.
+        The decision is not lost by being un-gated: it is written where a reader
+        actually meets it, and the two tests below keep it from being dropped.
         """
         self.unit()
-        (self.L.root / ".gitignore").write_text("exports/\n")
-        _, warnings = m.check(self.L)
-        self.assertTrue(any("NOT in .gitignore" in w for w in warnings),
-                        "a public repo holding an un-ignored ledger is the live risk")
+        for gitignore in ("exports/\n", "intake/events.jsonl\n"):
+            (self.L.root / ".gitignore").write_text(gitignore)
+            _, warnings = m.check(self.L)
+            self.assertFalse(any("gitignore" in w.lower() for w in warnings),
+                             f"the ledger's tracking is a decision, not a warning: {gitignore!r}")
 
-        (self.L.root / ".gitignore").write_text("intake/events.jsonl\n")
-        _, warnings = m.check(self.L)
-        self.assertFalse(any("gitignore" in w for w in warnings),
-                         "guarded is the intended state and must stay quiet")
-
-    def test_the_repo_ships_the_guard_it_documents(self):
-        """The real `.gitignore` carries all three paths, not just the log."""
+    def test_the_ledger_data_is_tracked_not_ignored(self):
+        """The operator asked for the record to sync while the repo is public."""
         text = (Path(ROOT) / ".gitignore").read_text(encoding="utf-8")
-        for path in ("intake/events.jsonl", "intake/units.json", "raw/health/intake/"):
-            self.assertIn(path, text, f"{path} is not guarded")
+        for path in ("intake/events.jsonl", "intake/units.json"):
+            for line in text.splitlines():
+                self.assertNotEqual(line.strip(), path,
+                                    f"{path} is ignored again — that reverses a stated decision")
+
+    def test_the_decision_is_written_down_where_it_will_be_met(self):
+        """Un-gating it is only safe while the reasoning is still visible.
+
+        A public consumption record is not a thing to discover by accident, so
+        `.gitignore` and `intake/README.md` both have to carry what was decided
+        and the order to reverse it in. If either stops saying so, this fails.
+        """
+        gi = (Path(ROOT) / ".gitignore").read_text(encoding="utf-8")
+        self.assertIn("public", gi.lower())
+        self.assertIn("private FIRST", gi)
+        readme = (Path(ROOT) / "intake" / "README.md").read_text(encoding="utf-8")
+        self.assertIn("public", readme.lower())
 
 
 class TestCrossUnit(LedgerCase):

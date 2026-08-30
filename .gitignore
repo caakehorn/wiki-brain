@@ -7,20 +7,17 @@ corpus_*.md
 .hermes-tmp*
 __pycache__/
 
-# The intake ledger's DATA — never the tool, which is bin/intake and is tracked.
-# These lines came out on 2026-08-30 on the stated ground that the repository had
-# been made private. It had not: checked anonymously against the GitHub API the
-# same day, `private: false`, `visibility: public`. Restored by operator decision.
+# THE INTAKE LEDGER'S DATA IS TRACKED, and this repository is public.
 #
-# Know what this does and does not do. `.gitignore` governs `git add`, so it
-# guards the CLI and the local app — the paths a session and the Sync button use.
-# It has NO effect on GitHub's contents API, which is how the portal writes from
-# a browser; that path is guarded in the portal, which reads this repository's
-# visibility and refuses to sync while it is public. Both guards are needed and
-# neither substitutes for the other.
+# That is a decision, not an oversight, and it was made twice: the guard was
+# restored on 2026-08-30 when the "repo is private now" premise turned out to be
+# false, and removed again the same day when the operator asked for the ledger to
+# sync while the repository is public, stating they understood the implications.
 #
-# To reverse: make the repository private FIRST, verify it, then delete these
-# lines. In that order — the history cannot be un-published afterwards.
-intake/events.jsonl
-intake/units.json
-raw/health/intake/
+# What that means concretely: `intake/events.jsonl` is a public, permanent record
+# of consumption, readable by anyone, and git history cannot be un-published. It
+# is tracked because the wiki has to be able to read it — a sealed or ignored
+# ledger is invisible to the analysis it exists to feed.
+#
+# To reverse: make the repository private FIRST, verify it, and only then decide
+# whether the ignore lines are still wanted. In that order.

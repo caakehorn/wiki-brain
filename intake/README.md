@@ -117,42 +117,47 @@ greps, survives every tool here, and shows up in `git log` as the history it
 already is. `sqlite3` is stdlib and would have worked — it would just have been
 the only unreadable file in the corpus.
 
-## ⚠ The data is in git, and that depends on this repository being private
+## ⚠ The ledger is public. Read this before you log anything.
 
-`intake/events.jsonl`, `intake/units.json` and `raw/health/intake/` are in
-`.gitignore`, because **`caakehorn/wiki-brain` is a public repository** and a
-consumption record is not something to publish by accident. The *tool* is
-tracked; the *record* is not.
+`intake/events.jsonl` and `intake/units.json` are **tracked, in a public
+repository**. That means the record of what was consumed, and when, is readable
+by anyone who finds this repo, permanently — git history cannot be un-published.
 
-This is a real cost and worth naming: the ledger's history is not in git, a
-fresh clone starts empty, and a session working from a clone cannot read it.
+That is a decision, taken on 2026-08-30, and the operator took it knowing what
+it publishes. It is written here rather than left implicit because it is not a
+thing anybody should discover by accident.
 
-**These lines were removed once, on 2026-08-30, on the stated ground that the
-repository had been made private.** It had not been. Checked the same day
-against the GitHub API, anonymously and with no credentials: `private: false`,
-`visibility: public`. Nothing had been published — no ledger data appears
-anywhere in `main`'s history — but within the hour a routine `git add -A`, in a
-session that had deliberately emptied the ledger and was watching for exactly
-this, staged both files anyway. They were restored by operator decision.
+**Why it was taken.** The ledger exists so the wiki can set a dated first-party
+record against a page's narrative — that is the whole reason it lives in
+wiki-brain rather than in a phone app. Two earlier arrangements each defeated
+that:
 
-**To reverse it properly: make the repository private FIRST, verify it, then
-delete the three lines.** In that order. A history cannot be un-published.
+- **Gitignored** kept the record out of the repo and therefore out of reach of
+  every session, agent and synthesis that might have cited it.
+- **Sealed** (`intake/events.enc`, AES-256-GCM under the site passphrase) kept a
+  public repo from publishing anything readable — and kept the analysis layer
+  from reading it too. A ledger the wiki cannot open has no reason to be here.
 
-### The interlock, because `.gitignore` is not the only guard
+Plaintext is the only arrangement where the thing works as designed. The privacy
+cost is real, it is not mitigated, and it is the price of the feature.
 
-Worth being precise about, because it is easy to get wrong in both directions.
-`.gitignore` governs `git add`. It covers the CLI and the local app — the paths
-a session and the Sync button use, and the paths where that near-miss happened.
+**To reverse it: make the repository private FIRST, verify it, and only then
+decide whether ignoring the files is still wanted.** In that order, always.
 
-It has no effect whatsoever on GitHub's contents API, which is exactly how
-`/ledger` in the portal writes here, from a browser, with no working tree
-involved. An ignored path is committed by that API without complaint. The guard
-for *that* path is in the portal: **it reads this repository's visibility before
-its first push of a session and refuses to sync while it is public**, naming the
-reason.
+The sealing machinery is still in the repo and still works — `bin/intake seal`
+and `bin/intake open`, with `bin/aesgcm.py` underneath — so this is one commit
+away from being reversible if the trade ever stops being worth it.
 
-Two guards, two paths. Neither is a substitute for the other, and the mistake
-made on 2026-08-30 was treating the second as though it retired the first.
+### What `.gitignore` never covered
+
+Worth keeping, because it is easy to get wrong in both directions. `.gitignore`
+governs `git add`: it covers the CLI and the local app. It has no effect
+whatsoever on GitHub's contents API, which is how both `/ledger` in the portal
+and ボスの部屋 on the leviathan site write here, from a browser, with no working
+tree involved. An ignored path is committed by that API without complaint.
+
+So an ignore line was never the whole guard even when it was there, and anyone
+reinstating one should know it protects exactly one of the three write paths.
 
 ## Why it lives in wiki-brain
 
