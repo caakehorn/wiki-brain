@@ -6981,3 +6981,61 @@ last pass.
 
 Gates: lint / connect / climb / plain all 0 errors; freshness in sync; 471
 pages; `bin/wiki-work` 90 obligations, unchanged.
+
+## [2026-08-30] tool | health | the intake ledger — `bin/intake`, `intake/`, Special:Intake
+
+**What was missing.** The corpus holds no first-party record of consumption at
+all, and the only thing that would ever have filled the gap is prose
+recollection — the least reliable testimony a person gives about themselves.
+Every other instrument here exists to replace an assertion with a measurement
+(`bin/text-metrics` against claims about how he writes, `bin/mine-messages`
+against claims about who he talks to). This is that instrument for intake.
+
+**What was built.** An event-sourced ledger whose primary object is the **unit**
+— a finite quantity that entered the record at a known time — with intake events
+logged against it and a reconciled closure. `intake/events.jsonl` is append-only
+and the source of truth; `intake/units.json` is a projection, regenerated on
+every write and rebuildable to the byte; `intake/substances.json` is a catalog so
+the interface offers a select box rather than free text (free text yields
+"coke"/"cocaine"/"Cocaine " as three substances and no cross-unit statistic
+survives that). The local app gets **Special:Intake**, which imports `bin/intake`
+rather than restating it — one implementation, so two records of the same night
+cannot disagree.
+
+**The finding the design turns on.** A ledger that only accepts grams loses the
+behavioural record — count, timing, clustering — every time the scale is absent,
+and loses it *silently*. So an event has three kinds: measured, estimated, and
+**unquantified** ("one line"), the third carrying no quantity and still counting
+toward everything except the quantities. The corollary is enforced everywhere:
+no quantity statistic is ever printed without the share of events it was
+computed from, so a mean over 10 of 13 events cannot look like a mean over 13.
+
+**The second rule with teeth.** Closure will not do arithmetic over a fiction.
+Open 3.5 g, log 2.45 g, and `close` refuses until somebody says what happened to
+the remaining 1.05 g — a final intake, a discrepancy, a spill, a transfer.
+Answer `final_intake` and the remainder is recorded as one explicitly estimated,
+low-confidence event and named as a remainder on every report thereafter, never
+folded into the measured total.
+
+**A bug found and fixed while testing:** an event dated before its unit was
+received produced a negative duration and, from it, a negative consumption rate.
+Both were wrong in the way that matters — a wrong timestamp rendered as a
+figure. Duration, rate and phases are now withheld on such a unit and the
+condition is a named warning in `bin/intake check`.
+
+**Privacy decision, deliberately not left implicit.** `caakehorn/wiki-brain` is
+a **public** repository. The tool is committed; the record is not.
+`intake/events.jsonl`, `intake/units.json` and `raw/health/intake/` are in
+`.gitignore`, `bin/intake check` warns whenever the file holds data and is not
+ignored, and `intake/README.md` states the one step that reverses it — make the
+repository private, delete those three lines. This costs the ledger its git
+history, which is a real loss and is named as one rather than glossed.
+
+Gates: `bin/wiki-lint` 0 errors; `bin/wiki-connect check` 0 errors;
+`bin/wiki-climb check` 0 errors; `bin/wiki-plain check` 0 errors;
+`bin/wiki-plain audit` 0 failing; `bin/wiki-freshness` in sync;
+`bin/intake check` 0 errors. `python3 -m unittest discover -s tests` — 200
+tests, all passing, 40 of them new. **90 obligations outstanding, unchanged —
+none introduced by this pass.** No `wiki/` page was added or edited: a finding
+drawn from the ledger reaches a page through the normal operations, cited to a
+unit id and a date range with its coverage figure attached.

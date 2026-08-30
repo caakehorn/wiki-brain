@@ -275,6 +275,154 @@ def ingest_apply(response_text, commit):
         Path(tmp).unlink(missing_ok=True)
 
 
+# ------------------------------------------------------------- intake ledger
+#
+# Special:Intake is a form over `bin/intake`, and it imports that file rather
+# than reimplementing any of it. The tool has no .py extension, so it is loaded
+# through SourceFileLoader — worth the four lines, because the alternative is a
+# second implementation of the same arithmetic behind a nicer form, and two
+# records of the same night that do not agree.
+_intake_cache = {}
+
+
+def intake_mod():
+    if "m" not in _intake_cache:
+        import importlib.util
+        from importlib.machinery import SourceFileLoader
+        loader = SourceFileLoader("intake_ledger", str(ROOT / "bin" / "intake"))
+        spec = importlib.util.spec_from_loader("intake_ledger", loader)
+        mod = importlib.util.module_from_spec(spec)
+        loader.exec_module(mod)
+        _intake_cache["m"] = mod
+    return _intake_cache["m"]
+
+
+def intake_view(m, ops, u):
+    """One unit, plus every string the page shows — formatted here, once.
+
+    The browser gets numbers *and* the rendered forms of them. Formatting a
+    quantity is not hard, but doing it twice is how a page ends up saying 0.2 g
+    where the report says 200 mg.
+    """
+    a, bu = u["analysis"], u["quantity_unit"]
+    view = dict(u)
+    view["display"] = {
+        "initial": m.fmt_qty(u["initial_quantity"], bu),
+        "logged": m.fmt_qty(a["quantified_total"], bu),
+        "remaining": m.fmt_qty(a["remaining"], bu),
+        "remaining_is_estimate": a["remaining_is_estimate"],
+        "mean": m.fmt_qty(a["dose"]["mean"], bu) if a["dose"]["n"] else None,
+        "coverage": m.coverage_line(a),
+        "received": m.fmt_when(u["received_at"]),
+        "closed": m.fmt_when(u["closed_at"]) if u["closed_at"] else None,
+        "duration": m.fmt_dur(a["duration_seconds"]),
+        "events": m.render_events(u),
+        "overdrawn": a["overdrawn"],
+    }
+    view["reconciliation"] = ops.reconciliation(u)
+    return view
+
+
+def intake_state():
+    m = intake_mod()
+    L = m.Ledger(ROOT)
+    ops = m.Ops(L)
+    units = L.project()
+    errors, warnings = m.check(L)
+    today = datetime.date.today().isoformat()
+    return {
+        "substances": L.substances(),
+        "categories": m.CATEGORIES,
+        "units": [intake_view(m, ops, u) for u in units],
+        "quantity_units": {fam: sorted(t, key=lambda u: t[u]) for fam, t in m.FAMILIES.items()},
+        "confidences": list(m.CONFIDENCES),
+        "dispositions": list(m.DISPOSITIONS),
+        "resolutions": list(m.RESOLUTIONS),
+        "adjustment_kinds": list(m.ADJUSTMENT_KINDS),
+        "warnings": warnings,
+        "errors": errors,
+        "today": sum(1 for u in units for e in u["intakes"]
+                     if not e["voided"] and e["occurred_at"][:10] == today),
+    }
+
+
+def intake_report(ref):
+    m = intake_mod()
+    L = m.Ledger(ROOT)
+    u = L.find_unit(ref)
+    return {"unit_id": u["id"], "ordinal": u["ordinal"], "report": m.render_report(u),
+            "events": m.render_events(u)}
+
+
+def intake_action(action, d):
+    """Every mutation the page can make, each one a thin call into bin/intake."""
+    m = intake_mod()
+    L = m.Ledger(ROOT)
+    ops = m.Ops(L)
+    UI = "app"
+
+    def qty(field="quantity", unit_field="quantity_unit"):
+        raw = (d.get(field) or "").strip() if isinstance(d.get(field), str) else d.get(field)
+        if raw in (None, ""):
+            return None, None
+        unit = (d.get(unit_field) or "").strip() or None
+        if unit:
+            return m.parse_quantity(f"{raw}{unit}")
+        return m.parse_quantity(str(raw))
+
+    if action == "unit":
+        q, un = qty()
+        if q is None:
+            raise m.LedgerError("a unit has to start with a quantity")
+        u = ops.new_unit(d.get("substance"), q, un, d.get("at") or None,
+                         d.get("source") or None, d.get("note") or None, interface=UI)
+        return {"unit": u["id"], "ordinal": u["ordinal"]}
+    if action == "log":
+        q, un = qty()
+        mtype = d.get("measurement_type") or ("unquantified" if q is None else "measured")
+        ev, u = ops.log_intake(d.get("unit"), q, un, mtype, d.get("confidence") or None,
+                               (d.get("descriptor") or "").strip() or None,
+                               d.get("at") or None, (d.get("note") or "").strip() or None,
+                               interface=UI)
+        return {"event": ev["id"], "ordinal": u["ordinal"]}
+    if action == "adjust":
+        q, un = qty()
+        ev, u = ops.adjust(d.get("unit"), q, un, d.get("kind"),
+                           (d.get("note") or "").strip() or None, d.get("at") or None,
+                           interface=UI)
+        return {"event": ev["id"]}
+    if action == "correct":
+        fields = {}
+        q, un = qty()
+        if q is not None:
+            fields["quantity"], fields["unit"] = q, un
+        for key in ("descriptor", "note"):
+            if (d.get(key) or "").strip():
+                fields[key] = d[key].strip()
+        if d.get("at"):
+            fields["occurred_at"] = d["at"]
+        ev = ops.correct(d.get("event"), fields, (d.get("reason") or "").strip(), interface=UI)
+        return {"event": ev["id"]}
+    if action == "void":
+        ev = ops.void(d.get("event"), (d.get("reason") or "").strip(), interface=UI)
+        return {"event": ev["id"]}
+    if action == "close":
+        u, capture, _ = ops.close_unit(d.get("unit"), d.get("disposition"),
+                                       d.get("resolution") or None, d.get("at") or None,
+                                       (d.get("note") or "").strip() or None, interface=UI)
+        log_line("intake", "health", f"closed unit #{u['ordinal']} — {u['substance']}")
+        return {"unit": u["id"], "report": m.render_report(u),
+                "capture": str(capture.relative_to(ROOT))}
+    if action == "reopen":
+        u = ops.reopen(d.get("unit"), (d.get("reason") or "").strip(), interface=UI)
+        return {"unit": u["id"]}
+    if action == "substance":
+        entry = L.add_substance(d.get("name") or "", d.get("category") or "other",
+                                d.get("quantity_unit") or "g", interface=UI)
+        return {"substance": entry}
+    raise m.LedgerError(f"unknown intake action {action!r}")
+
+
 def git_status():
     _, branch = run(["git", "rev-parse", "--abbrev-ref", "HEAD"])
     _, dirty = run(["git", "status", "--porcelain"])
@@ -375,6 +523,19 @@ class Handler(BaseHTTPRequestHandler):
                 self.send(200, git_recent())
             elif url.path == "/api/git/status":
                 self.send(200, git_status())
+            elif url.path.startswith("/api/intake"):
+                # Its own try//except: a LedgerError is the operator being told
+                # no (a closed unit, an unaccounted remainder), which is a 400
+                # with a sentence, never a traceback.
+                try:
+                    if url.path == "/api/intake":
+                        self.send(200, intake_state())
+                    elif url.path == "/api/intake/report":
+                        self.send(200, intake_report(qs.get("unit", ["active"])[0]))
+                    else:
+                        self.send(404, {"error": "not found"})
+                except Exception as exc:
+                    self.send(400, {"error": str(exc)})
             elif url.path == "/api/download":
                 p = safe(qs["path"][0])
                 self.send(200, p.read_bytes(), "application/octet-stream",
@@ -430,6 +591,13 @@ class Handler(BaseHTTPRequestHandler):
                 if not d.get("response", "").strip():
                     self.send(400, {"error": "empty response text"}); return
                 self.send(200, ingest_apply(d["response"], bool(d.get("commit"))))
+            elif self.path.startswith("/api/intake/"):
+                try:
+                    self.send(200, {"ok": True,
+                                    "result": intake_action(self.path.rsplit("/", 1)[-1], d),
+                                    "state": intake_state()})
+                except Exception as exc:
+                    self.send(400, {"error": str(exc)})
             elif self.path == "/api/git/sync":
                 self.send(200, git_sync(d.get("message", "")))
             elif self.path == "/api/delete-inbox":
@@ -681,6 +849,32 @@ table.wikitable td{border:1px solid #a2a9b1; padding:.2em .4em}
 .step .hint{font-size:.85em; color:#54595d; margin-bottom:.5em}
 .note{background:#eaf3ff; border:1px solid #a7d7f9; padding:.6em 1em; font-size:.85em; color:#54595d; margin-top:1em}
 
+/* ---- Special:Intake ---- */
+.iwarn{background:#fee7e6; border:1px solid #d33; padding:.6em 1em; font-size:.85em; margin:0 0 1em}
+.iunit{border:1px solid #c8ccd1; background:#fff; padding:.8em 1em; margin:.7em 0}
+.iunit.closed{background:#f8f9fa; color:#54595d}
+.iunit h3{margin:0 0 .15em; font-family:Georgia,serif; font-weight:normal; font-size:1.15em}
+.iunit .imeta{font-size:.82em; color:#54595d; margin-bottom:.5em}
+.ibig{font-size:1.5em; font-family:Georgia,serif; color:#202122}
+.ibig small{font-size:.5em; color:#72777d}
+.icov{font-size:.8em; color:#72777d; font-style:italic; margin:.3em 0}
+/* The quick-log row. If logging is annoying the data dies, so this is one line
+   of controls on the unit itself — no dialog, no page change, Enter saves. */
+.iquick{display:flex; gap:.4em; align-items:center; flex-wrap:wrap; margin:.5em 0 .2em}
+.iquick input[type=text]{width:5.5em; padding:.35em .4em; border:1px solid #a2a9b1; font-size:1em}
+.iquick select{padding:.35em; border:1px solid #a2a9b1}
+.iquick .desc{width:11em}
+.imore{font-size:.82em; color:#54595d; margin:.4em 0 0}
+.imore label{display:inline-block; margin-right:1em; font-weight:normal; text-transform:none}
+.ievents{font:12px/1.55 'Courier New',monospace; background:#f8f9fa; border:1px solid #eaecf0;
+  padding:.5em .7em; margin:.5em 0 0; white-space:pre; overflow-x:auto; color:#202122}
+.ireport{font:12px/1.5 'Courier New',monospace; background:#f8f9fa; border:1px solid #c8ccd1;
+  padding:1em; white-space:pre; overflow-x:auto}
+.igrid{display:flex; gap:1.5em; flex-wrap:wrap; align-items:flex-start}
+.igrid > div{flex:1; min-width:300px}
+.ipill{display:inline-block; font-size:.75em; border:1px solid #a2a9b1; border-radius:2px;
+  padding:.05em .45em; margin-left:.4em; color:#54595d; background:#f8f9fa}
+
 dialog{border:1px solid #a2a9b1; background:#fff; color:#202122; padding:1.3em 1.5em; max-width:460px;
   box-shadow:0 8px 30px rgba(0,0,0,.3)}
 dialog::backdrop{background:rgba(0,0,0,.35)}
@@ -774,6 +968,7 @@ dialog select{padding:.35em; border:1px solid #a2a9b1; font:inherit}
       <li><a id="nav-capture">Capture a note</a></li>
       <li><a id="nav-ingest">Ingest inbox <span class="cnt" id="inboxN"></span></a></li>
       <li><a id="nav-export">Export corpus</a></li>
+      <li><a id="nav-intake">Intake ledger <span class="cnt" id="intakeN"></span></a></li>
       <li><a id="nav-newpage">Create a page</a></li>
     </ul>
   </div>
@@ -947,6 +1142,68 @@ dialog select{padding:.35em; border:1px solid #a2a9b1; font:inherit}
     <div style="margin-top:.8em"><button class="mw-btn progressive" id="eGo">Export</button></div>
     <div class="msg" id="eMsg"></div>
   </div>
+</template>
+
+<template id="tpl-intake">
+  <div id="iwarn"></div>
+  <p style="color:#54595d; max-width:70ch">A finite object enters the record; every known
+  disposition of it is recorded after that. At closure the ledger reconciles what is known,
+  preserves what is unknown, and computes only what the evidence supports.
+  <a href="#" id="iHelp">How it works</a>.</p>
+  <div class="igrid">
+    <div style="flex:2">
+      <h2 style="border-bottom:1px solid #a2a9b1; font-family:Georgia,serif; font-weight:normal">
+        Active units</h2>
+      <div id="iactive"></div>
+      <h2 style="border-bottom:1px solid #a2a9b1; font-family:Georgia,serif; font-weight:normal">
+        Closed <span id="iclosedN" style="font-size:.7em; color:#72777d"></span></h2>
+      <div id="iclosed"></div>
+    </div>
+    <div style="flex:1; min-width:300px" class="spForm">
+      <div class="step">
+        <h3>New unit</h3>
+        <div class="hint">What arrived, how much of it, and when.</div>
+        <label>What is it?</label>
+        <select id="nuSub"></select>
+        <div id="nuNew" style="display:none; border-left:3px solid #36c; padding-left:.8em">
+          <label>Name</label><input type="text" id="nuName" placeholder="Kratom">
+          <label>Category</label><select id="nuCat"></select>
+          <label>Default unit</label><select id="nuDefUnit"></select>
+          <div style="margin-top:.6em"><button class="mw-btn" id="nuAdd">Add to the catalog</button></div>
+          <div class="hint" style="margin-top:.4em">Added once, on purpose — after that every unit
+          picks it from the list. Free text produces four spellings of one substance and no
+          cross-unit statistic survives that.</div>
+        </div>
+        <label>Quantity received</label>
+        <div class="iquick">
+          <input type="text" id="nuQty" placeholder="3.5">
+          <select id="nuUnit"></select>
+        </div>
+        <label>When did you receive it?</label>
+        <div class="iquick">
+          <input type="text" id="nuAt" placeholder="now" style="width:12em">
+          <span class="hint">blank = now; or 2026-08-29 13:42</span>
+        </div>
+        <label>Source / context (optional)</label><input type="text" id="nuSource">
+        <label>Note (optional)</label><input type="text" id="nuNote">
+        <div style="margin-top:.9em"><button class="mw-btn progressive" id="nuGo">Create unit</button></div>
+        <div class="msg" id="nuMsg"></div>
+      </div>
+      <div class="note" id="iHelpText" style="display:none">
+        <b>Three kinds of event.</b> <i>Measured</i> is a number off a scale. <i>Estimated</i> is a
+        number you are guessing at, kept apart so a mean can say how much of itself rests on a
+        guess. <i>Unquantified</i> — &ldquo;one line&rdquo;, &ldquo;two hits&rdquo; — carries no
+        quantity and is still a real event: it counts toward the event total, the intervals and the
+        time-of-day profile, and is excluded from every quantity figure.<br><br>
+        <b>Nothing is edited in place.</b> A mistyped 0.5&nbsp;g becomes a correction naming the
+        original, the new value and the reason. The ledger shows the corrected number; the log
+        remembers both.<br><br>
+        <b>Closing asks what happened.</b> If quantity is unaccounted for, the ledger will not
+        guess — it asks, records the answer, and prints it on the report from then on.
+      </div>
+    </div>
+  </div>
+  <div id="ireport" style="display:none; margin-top:1.5em"></div>
 </template>
 
 <script>
@@ -1528,6 +1785,7 @@ $("#nav-whatlinks").onclick=showWhatLinks;
 $("#nav-capture").onclick=()=>showTemplate("tpl-capture","Special:Capture",initCapture);
 $("#nav-ingest").onclick=()=>showTemplate("tpl-ingest","Special:Ingest",initIngest);
 $("#nav-export").onclick=()=>showTemplate("tpl-export","Special:Export",initExport);
+$("#nav-intake").onclick=()=>showTemplate("tpl-intake","Special:Intake",initIntake);
 $("#nav-newpage").onclick=()=>{
   $("#npMsg").textContent=""; $("#npTitle").value="";
   $("#newPageDlg").showModal(); $("#npTitle").focus();
@@ -1632,6 +1890,211 @@ $("#syncLink").onclick=async()=>{
 
 /* ============================ special: capture ============================ */
 let TGT=new Set(), acSel=0, acMatches=[], acStart=-1;
+/* ============================ Special:Intake ============================
+   A form over bin/intake. Every mutation is one POST to /api/intake/<action>,
+   which calls the same functions the CLI calls and hands back the whole
+   recomputed state — so the page can never hold a number the ledger disagrees
+   with, and there is no second copy of the arithmetic to drift. */
+let IST=null, IMORE={}, ICLOSE={}, IADJ={};
+
+function iQtyUnits(sel){
+  let h="";
+  for(const [fam,units] of Object.entries(IST.quantity_units))
+    h+=`<optgroup label="${esc(fam)}">`+units.map(u=>
+      `<option${u===sel?" selected":""}>${esc(u)}</option>`).join("")+"</optgroup>";
+  return h;
+}
+function iSubOptions(){
+  const byCat={};
+  for(const s of IST.substances)(byCat[s.category]=byCat[s.category]||[]).push(s);
+  let h='<option value="">— choose —</option>';
+  for(const c of IST.categories.filter(c=>byCat[c]))
+    h+=`<optgroup label="${esc(c)}">`+byCat[c].map(s=>
+      `<option value="${esc(s.id)}" data-unit="${esc(s.default_unit)}">${esc(s.name)}</option>`
+      ).join("")+"</optgroup>";
+  return h+'<option value="__new__">+ add a substance…</option>';
+}
+async function iPost(action, body, msg){
+  if(msg) msg.textContent="";
+  const r=await api("/api/intake/"+action,{method:"POST",body:JSON.stringify(body)});
+  if(r.error){ if(msg) msg.textContent="⚠ "+r.error; else alert(r.error); return null; }
+  IST=r.state; iRender(); return r.result;
+}
+async function initIntake(){
+  IST=await api("/api/intake");
+  iRender();
+  $("#iHelp").onclick=e=>{e.preventDefault();
+    const t=$("#iHelpText"); t.style.display=t.style.display==="none"?"":"none";};
+}
+
+function iUnitCard(u){
+  const d=u.display, open=u.status==="active";
+  const mid="mt-"+u.id;
+  let h=`<div class="iunit${open?"":" closed"}" data-u="${esc(u.id)}">`+
+    `<h3>${esc(u.substance)}<span class="ipill">#${u.ordinal}</span>`+
+    (open?"":`<span class="ipill">${esc(u.disposition||"closed")}</span>`)+`</h3>`+
+    `<div class="imeta">${esc(d.initial)} received ${esc(d.received)}`+
+    (d.closed?` · closed ${esc(d.closed)}`:"")+` · ${esc(d.duration)} · `+
+    `${u.analysis.events.total} event(s)`+
+    (u.source_context?` · ${esc(u.source_context)}`:"")+`</div>`;
+  if(open) h+=`<div class="ibig">${esc(d.remaining_is_estimate?"~":"")}${esc(d.remaining)}`+
+    ` <small>left of ${esc(d.initial)}${d.mean?" · mean "+esc(d.mean):""}</small></div>`;
+  h+=`<div class="icov">${esc(d.coverage)}</div>`;
+  if(d.overdrawn) h+=`<div class="msg">⚠ more is logged against this unit than it was opened with.</div>`;
+  if(open){
+    h+=`<div class="iquick">`+
+      `<input type="text" class="q" placeholder="0.18" data-role="q">`+
+      `<select data-role="u">${iQtyUnits(u.quantity_unit)}</select>`+
+      `<button class="mw-btn progressive" data-role="log">Log intake</button>`+
+      `<a href="#" data-role="tog">${IMORE[u.id]?"less":"more"}…</a></div>`+
+      `<div class="imore" style="display:${IMORE[u.id]?"":"none"}" data-role="more">`+
+      ["measured","estimated","unquantified"].map((t,i)=>
+        `<label><input type="radio" name="${mid}" value="${t}"${i?"":" checked"}> ${t}</label>`).join("")+
+      `<br><label>descriptor <input type="text" class="desc" data-role="desc" placeholder="one line"></label>`+
+      `<label>at <input type="text" data-role="at" placeholder="now" style="width:9em"></label>`+
+      `<label>note <input type="text" data-role="note" style="width:12em"></label>`+
+      `<div style="margin-top:.4em">An <i>unquantified</i> event needs no quantity — the descriptor
+       is enough, and the event still counts toward everything except the grams.</div></div>`;
+  }
+  if(d.events.length) h+=`<pre class="ievents">`+esc(d.events.join("\n"))+`</pre>`;
+  h+=`<div style="margin-top:.5em; font-size:.85em">`+
+    `<a href="#" data-role="report">unit report</a>`+
+    (open?` · <a href="#" data-role="adjust">record a spill or transfer</a>`+
+          ` · <a href="#" data-role="close">close this unit</a>`
+        :` · <a href="#" data-role="reopen">reopen</a>`)+`</div>`;
+  if(open&&IADJ[u.id]) h+=iAdjustPanel(u);
+  if(open&&ICLOSE[u.id]) h+=iClosePanel(u);
+  return h+`<div class="msg" data-role="msg"></div></div>`;
+}
+
+function iAdjustPanel(u){
+  return `<div class="step" data-role="adjpanel"><h3>Quantity leaving without being consumed</h3>`+
+    `<div class="hint">A spilled gram is not a dose. Recorded apart from intake so it never
+     shows up in a use pattern.</div><div class="iquick">`+
+    `<input type="text" data-role="aq" placeholder="0.3"><select data-role="au">${iQtyUnits(u.quantity_unit)}</select>`+
+    `<select data-role="ak">`+IST.adjustment_kinds.map(k=>`<option>${esc(k)}</option>`).join("")+`</select>`+
+    `<input type="text" data-role="an" placeholder="note" style="width:14em">`+
+    `<button class="mw-btn progressive" data-role="asave">Record</button>`+
+    `<a href="#" data-role="acancel">cancel</a></div></div>`;
+}
+
+function iClosePanel(u){
+  const r=u.reconciliation, bu=u.quantity_unit;
+  let h=`<div class="step" data-role="closepanel"><h3>How did this unit end?</h3>`+
+    `<select data-role="cd">`+IST.dispositions.map(x=>`<option>${esc(x)}</option>`).join("")+`</select>`;
+  if(r&&r.needs_answer){
+    const gap=Math.abs(r.unaccounted).toFixed(3).replace(/0+$/,"").replace(/\.$/,"");
+    h+=`<div class="hint" style="margin-top:.7em">`+
+      `<b>Initial</b> ${r.initial} ${esc(bu)} · <b>quantified intake</b> `+
+      `${r.quantified_intake.toFixed(3).replace(/0+$/,"").replace(/\.$/,"")} ${esc(bu)}`+
+      (r.adjusted?` · <b>adjustments</b> ${r.adjusted} ${esc(bu)}`:"")+
+      ` · <b>${r.overdrawn?"over-logged":"unaccounted"}</b> ${gap} ${esc(bu)}`+
+      (r.unquantified_events?` · ${r.unquantified_events} event(s) logged without a quantity`:"")+
+      `<br>The ledger will not guess what happened to it. Say what did:</div>`+
+      `<select data-role="cr">`+IST.resolutions.map(x=>
+        `<option value="${esc(x)}">${esc(x.replace("_"," "))}</option>`).join("")+`</select>`+
+      `<div class="hint" style="margin-top:.3em"><i>final intake</i> records the remainder as one
+       estimated, low-confidence event — it is counted, and every report names it as a remainder
+       rather than a watched dose.</div>`;
+  } else {
+    h+=`<div class="hint" style="margin-top:.7em">The ledger balances — nothing unaccounted for.</div>`;
+  }
+  return h+`<div class="iquick" style="margin-top:.6em">`+
+    `<input type="text" data-role="cat" placeholder="closed at (blank = now)" style="width:14em">`+
+    `<input type="text" data-role="cn" placeholder="note" style="width:14em">`+
+    `<button class="mw-btn progressive" data-role="csave">Close unit</button>`+
+    `<a href="#" data-role="ccancel">cancel</a></div></div>`;
+}
+
+function iRender(){
+  if(!IST||!$("#iactive")) return;
+  const warn=$("#iwarn");
+  warn.innerHTML=(IST.errors||[]).map(e=>`<div class="iwarn"><b>ERROR</b> ${esc(e)}</div>`).join("")+
+    (IST.warnings||[]).map(w=>`<div class="iwarn">⚠ ${esc(w)}</div>`).join("");
+  const active=IST.units.filter(u=>u.status==="active");
+  const closed=IST.units.filter(u=>u.status!=="active").reverse();
+  $("#iactive").innerHTML=active.length?active.map(iUnitCard).join("")
+    :`<p style="color:#54595d">No open units. Create one on the right — the unit comes first,
+      and intake events are logged against it.</p>`;
+  $("#iclosedN").textContent=closed.length?`(${closed.length}) · ${IST.today} event(s) logged today`
+    :`· ${IST.today} event(s) logged today`;
+  $("#iclosed").innerHTML=closed.length?closed.map(iUnitCard).join(""):"";
+  const n=$("#intakeN"); if(n) n.textContent=active.length?`(${active.length})`:"";
+  iWireUnits(); iWireNew();
+}
+
+function iWireUnits(){
+  document.querySelectorAll(".iunit").forEach(card=>{
+    const id=card.dataset.u, g=r=>card.querySelector(`[data-role="${r}"]`), msg=g("msg");
+    const val=r=>{const el=g(r); return el?el.value.trim():"";};
+    const tog=g("tog");
+    if(tog) tog.onclick=e=>{e.preventDefault(); IMORE[id]=!IMORE[id]; iRender();};
+    const doLog=async()=>{
+      const mt=card.querySelector(`input[name="mt-${id}"]:checked`);
+      await iPost("log",{unit:id, quantity:val("q"), quantity_unit:val("u"),
+        measurement_type:mt?mt.value:"measured", descriptor:val("desc"),
+        at:val("at"), note:val("note")}, msg);
+    };
+    if(g("log")) g("log").onclick=doLog;
+    if(g("q")) g("q").onkeydown=e=>{if(e.key==="Enter"){e.preventDefault(); doLog();}};
+    if(g("desc")) g("desc").onkeydown=e=>{if(e.key==="Enter"){e.preventDefault(); doLog();}};
+    if(g("report")) g("report").onclick=async e=>{e.preventDefault(); await iShowReport(id);};
+    if(g("adjust")) g("adjust").onclick=e=>{e.preventDefault(); IADJ[id]=!IADJ[id]; iRender();};
+    if(g("acancel")) g("acancel").onclick=e=>{e.preventDefault(); IADJ[id]=false; iRender();};
+    if(g("asave")) g("asave").onclick=async()=>{
+      const ok=await iPost("adjust",{unit:id, quantity:val("aq"), quantity_unit:val("au"),
+        kind:val("ak"), note:val("an")}, msg);
+      if(ok){ IADJ[id]=false; iRender(); }};
+    if(g("close")) g("close").onclick=e=>{e.preventDefault(); ICLOSE[id]=!ICLOSE[id]; iRender();};
+    if(g("ccancel")) g("ccancel").onclick=e=>{e.preventDefault(); ICLOSE[id]=false; iRender();};
+    if(g("csave")) g("csave").onclick=async()=>{
+      const res=await iPost("close",{unit:id, disposition:val("cd"), resolution:val("cr"),
+        at:val("cat"), note:val("cn")}, msg);
+      if(res){ ICLOSE[id]=false; iRender();
+        $("#ireport").style.display="";
+        $("#ireport").innerHTML=`<div class="note">Archived to <code>${esc(res.capture)}</code>
+          — written once, never regenerated.</div><pre class="ireport">${esc(res.report)}</pre>`;
+        $("#ireport").scrollIntoView({behavior:"smooth"}); }};
+    if(g("reopen")) g("reopen").onclick=async e=>{e.preventDefault();
+      const why=prompt("Reopening a closed unit needs a reason:"); if(!why) return;
+      await iPost("reopen",{unit:id, reason:why}, msg);};
+  });
+}
+
+async function iShowReport(id){
+  const r=await api("/api/intake/report?unit="+encodeURIComponent(id));
+  const box=$("#ireport"); box.style.display="";
+  box.innerHTML=r.error?`<div class="msg">⚠ ${esc(r.error)}</div>`
+    :`<pre class="ireport">${esc(r.report)}\n\nEVENTS\n${esc(r.events.join("\n"))}</pre>`;
+  box.scrollIntoView({behavior:"smooth"});
+}
+
+function iWireNew(){
+  const sub=$("#nuSub"); if(!sub) return;
+  const keep=sub.value;
+  sub.innerHTML=iSubOptions(); if(keep) sub.value=keep;
+  $("#nuUnit").innerHTML=iQtyUnits($("#nuUnit").value||"g");
+  $("#nuDefUnit").innerHTML=iQtyUnits($("#nuDefUnit").value||"g");
+  $("#nuCat").innerHTML=IST.categories.map(c=>`<option>${esc(c)}</option>`).join("");
+  sub.onchange=()=>{
+    const isNew=sub.value==="__new__";
+    $("#nuNew").style.display=isNew?"":"none";
+    const opt=sub.selectedOptions[0];
+    if(!isNew&&opt&&opt.dataset.unit) $("#nuUnit").value=opt.dataset.unit;
+  };
+  $("#nuAdd").onclick=async()=>{
+    const r=await iPost("substance",{name:$("#nuName").value,category:$("#nuCat").value,
+      quantity_unit:$("#nuDefUnit").value}, $("#nuMsg"));
+    if(r){ $("#nuName").value=""; $("#nuNew").style.display="none";
+      $("#nuSub").value=r.substance.id; $("#nuUnit").value=r.substance.default_unit; }};
+  $("#nuGo").onclick=async()=>{
+    const r=await iPost("unit",{substance:$("#nuSub").value, quantity:$("#nuQty").value,
+      quantity_unit:$("#nuUnit").value, at:$("#nuAt").value, source:$("#nuSource").value,
+      note:$("#nuNote").value}, $("#nuMsg"));
+    if(r){ $("#nuQty").value=$("#nuAt").value=$("#nuSource").value=$("#nuNote").value=""; }};
+  $("#nuQty").onkeydown=e=>{if(e.key==="Enter"){e.preventDefault(); $("#nuGo").click();}};
+}
+
 function initCapture(){
   TGT=new Set(); acSel=0; acMatches=[]; acStart=-1;
   const body=$("#cBody"), ac=$("#ac");

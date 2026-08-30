@@ -31,6 +31,12 @@ at `http://127.0.0.1:8477` with everything in one place:
 - **Sync** — header shows branch / uncommitted / ahead-behind state; the
   Sync button commits, pulls --rebase, and pushes to GitHub. A red banner
   warns if the GitHub repo is publicly visible.
+- **Intake ledger** — catalogue a finite quantity when it arrives (substance
+  from a select box, amount, unit, when), then log each intake against it in
+  one line. Events can be measured, estimated, or *unquantified* — "one line"
+  is still an event and still counts toward the timing, it just never enters a
+  gram figure. Closing a unit asks how it ended and refuses to guess at
+  anything unaccounted for. `bin/intake` does the same from the terminal
 - **Inbox** — see and manage what's waiting for ingestion
 - **Export** — one click bundles the corpus for LLMs, with a download link
 

@@ -77,6 +77,11 @@ GATE = [
     # nothing here for a writer to talk its way past.
     (["wiki-plain", "audit"], "Reader's Digest twins carry the page's evidence", False),
     (["wiki-freshness"], "generated corpus in step with wiki/", False),
+    # The intake ledger's projection is generated from its append-only log, so
+    # it can drift the same way llm/ drifts — and unlike llm/ nobody would
+    # notice, because a stale units.json still reads as a plausible ledger.
+    # Silent and clean when no unit has ever been opened.
+    (["intake", "check"], "intake ledger log and projection agree", False),
 ]
 SCAN = [
     (["wiki-work", "scan"], "recompute WORK.md", True),

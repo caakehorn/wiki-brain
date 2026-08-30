@@ -56,6 +56,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 ## The last few days
 
 **2026-08-30** — 3 pages
+  - tool | health | the intake ledger — `bin/intake`, `intake/`, Special:Intake
 
 **2026-08-28** — 39 pages
   - feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch

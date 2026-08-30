@@ -4,6 +4,53 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-30] - Session: the intake ledger (`bin/intake`, `intake/`, Special:Intake)
+
+* **Model:** Claude Code (remote) · **Branch:** `claude/intake-ledger-design-o378y9` (wiki-brain only; `caakehorn/leviathan` untouched and deliberately so — see below).
+* **Trigger:** operator specified a provenance-aware intake ledger — units tracked acquisition → depletion, intake events recorded against them — and asked for a select box for the substance.
+
+**What exists now.** `bin/intake` (event-sourced ledger + CLI), `intake/`
+(`events.jsonl` append-only source of truth, `units.json` projection,
+`substances.json` catalog, `README.md`), **Special:Intake** in `app.py`, and
+`tests/test_intake.py` (40 tests). `bin/intake check` is a gate inside
+`bin/wiki-check`. Full account in `log.md`.
+
+**Read these before touching it:**
+
+1. **The ledger's data is gitignored and that is not an oversight.**
+   `caakehorn/wiki-brain` is a public repository. `intake/events.jsonl`,
+   `intake/units.json` and `raw/health/intake/` are ignored; the tool is
+   tracked. Do not "fix" this by committing the data. The intended path is:
+   operator makes the repo private, then deletes those three `.gitignore`
+   lines. Until then the ledger has no git history, which is a real cost and
+   is stated as one in `intake/README.md`.
+2. **Never print a quantity from this ledger without its coverage figure.**
+   Unquantified events ("one line") are real events that carry no quantity.
+   Every mean, median and total is computed over the quantified subset only,
+   and `coverage_line()` exists so that subset is always named beside it. A
+   page citing the ledger cites the coverage too — a bare "mean dose 0.245 g"
+   drawn from 10 of 13 events is exactly the kind of confident, unfalsifiable
+   number this repository is built to not produce.
+3. **`intake/units.json` is generated. Never hand-edit it.** It is rebuilt from
+   the log on every write; `bin/intake rebuild` returns it identical, and
+   `bin/intake check` fails the gate if it has drifted.
+4. **Nothing about the ledger has been written into `wiki/` yet, on purpose.**
+   The ledger is evidence; a page is a claim. A finding goes onto a page
+   through the normal operations, cited to a unit id and a date range. There
+   is no unit in the ledger yet, so there is nothing to cite.
+5. **`caakehorn/leviathan` was left alone deliberately.** It is a public
+   GitHub Pages site (gated, but public), and the original design named
+   `caakehorn/home` — a third repository not attached to this session — as the
+   capture layer. A live consumption record does not belong on a served static
+   site, so the whole system was built in wiki-brain, where the local app
+   already provides a capture surface and where the analysis layer lives. If
+   the operator wants a presentation layer on leviathan, feed it a redacted
+   export from `bin/intake export`, never the ledger itself.
+
+**Immediate next step for the next session:** nothing is pending on this work.
+The 90 stale-premise obligations in `WORK.md` are unchanged and untouched by
+this pass — they were 90 before it and are 90 after.
+
 ### [2026-08-29] - Session: removal of 47 concert-log artist stubs
 
 * **Model:** Claude Code (remote) · **Branch:** `claude/remove-wiki-entries-qu3p74` (wiki-brain only; portal untouched — see below).

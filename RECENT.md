@@ -10,6 +10,8 @@ simply listed.
 
 ## 2026-08-30 — 3 pages
 
+- **Session log:** tool | health | the intake ledger — `bin/intake`, `intake/`, Special:Intake
+
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/meta/digest]] | meta | — |
