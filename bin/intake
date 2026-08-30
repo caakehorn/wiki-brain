@@ -1394,30 +1394,30 @@ def check(ledger):
     elif units:
         errors.append("intake/units.json is missing — run `bin/intake rebuild`")
 
-    # This used to warn whenever the ledger held data and was NOT in
-    # `.gitignore`, because the repository was public and a consumption record
-    # does not survive being published by accident. The repository is private
-    # now and those lines are deliberately gone, so that warning would fire on
-    # every run forever — and a gate that cries wolf is a gate people learn to
-    # scroll past.
+    # The repository is public, so a ledger file that is not ignored is a ledger
+    # file that gets pushed — and this one is not the kind of thing that survives
+    # being published by accident.
     #
-    # The danger reversed with the decision. It is no longer forgetting to
-    # ignore the file; it is the repository going public again while the file is
-    # tracked. That is not visible from disk, so it is not checked here — the
-    # portal reads the repository's visibility over the API and refuses to sync
-    # while it is public, which is the only place the check can actually be
-    # made. See `intake/README.md`, "The interlock".
+    # This warning was briefly reversed, to fire when the file WAS ignored, on
+    # the stated ground that the repository had been made private. It had not
+    # been; the check that established that is an anonymous read of the GitHub
+    # API, and it is not something this file can do — it has no network and
+    # should not grow one. So the direction here follows the guard on disk, and
+    # the guard on disk follows a visibility somebody verified.
     #
-    # What is still worth saying from here is the contradiction: an ignore line
-    # back in place while the file is here with data in it means somebody
-    # started reverting to public and did not finish, and the history already
-    # has the ledger in it by then.
+    # Know what this cannot catch, because it is easy to trust it too far.
+    # `.gitignore` governs `git add`, so this covers the CLI and the local app.
+    # It has no effect on GitHub's contents API, which is how the portal writes
+    # from a browser — an ignored path is committed by that API without
+    # complaint. That path is guarded in the portal, which reads the
+    # repository's visibility and refuses to sync while it is public. Two
+    # guards, two paths, neither one a substitute for the other.
     ignore = (ledger.root / ".gitignore")
     ignored = "intake/events.jsonl" in ignore.read_text(encoding="utf-8") if ignore.exists() else False
-    if events and ignored:
-        warnings.append("intake/events.jsonl is in .gitignore but is here with data in it — "
-                        "if this repository is going back to public, its history already "
-                        "carries the ledger. See intake/README.md.")
+    if events and not ignored:
+        warnings.append("intake/events.jsonl holds data and is NOT in .gitignore — "
+                        "the next commit publishes it, and this repository is public. "
+                        "See intake/README.md.")
 
     for u in units:
         if u["analysis"]["chronology_error"]:

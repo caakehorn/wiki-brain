@@ -16,6 +16,7 @@ repository.
 """
 import datetime
 import json
+import os
 import mimetypes
 import re
 import shutil
@@ -282,6 +283,63 @@ def ingest_apply(response_text, commit):
 # through SourceFileLoader — worth the four lines, because the alternative is a
 # second implementation of the same arithmetic behind a nicer form, and two
 # records of the same night that do not agree.
+# THE ONE CROSS-ORIGIN HOLE IN THIS SERVER, and it is worth being explicit
+# about why it exists and how narrow it is.
+#
+# ボスの部屋 (`boss.html` in caakehorn/leviathan) is the themed front end for
+# this ledger. It is served from the static site, and the ledger it renders is
+# here, on localhost. That is the right way round: the leviathan site holds no
+# copy of the ledger and never receives one, and a browser that cannot reach this
+# daemon shows an empty room rather than anything real. But it does mean one page
+# on another origin has to be able to call these endpoints.
+#
+# (Note what that claim is and is not. It is about *this* boundary: the record
+# does not travel to the static site. Whether the record is committed to this
+# repository's git history is a separate decision, made in `.gitignore` and
+# documented in `intake/README.md` — see the note at the end of this comment.)
+#
+# So the hole is cut to exactly that shape:
+#   * an ALLOWLIST, never a wildcard, and never `*` with credentials;
+#   * `/api/intake*` only — nothing else on this server answers a foreign origin,
+#     so the wiki, the capture box, git sync and the file reader stay same-origin;
+#   * credentials off, so nothing rides along that the page did not send itself.
+#
+# The residual risk, stated plainly: script execution on an allowlisted origin
+# can read and write this ledger while the daemon is running. leviathan serves
+# no user content, but it does load two third-party scripts (Google Fonts and
+# GoatCounter), and either of those going bad is the realistic path in. If that
+# is not a trade you want, set WIKI_INTAKE_ORIGINS to an empty string and the
+# hole closes completely — the CLI and Special:Intake are unaffected, and
+# boss.html simply reports that the house is closed.
+#
+# ONE PREMISE THIS COMMENT WILL NOT ASSERT. `intake/README.md` and `CLAUDE.md`
+# both state that this repository is private and that the ledger's data is
+# therefore tracked in git. That was checked from here on 2026-08-30 against the
+# GitHub API, anonymously, and it did not hold: `private: false`,
+# `visibility: public`. Nothing has been published — no `events.jsonl`,
+# `units.json` or `raw/health/intake/` appears anywhere in main's history — but
+# the allowlist above is sized for a public repository, and it stays that way
+# until the visibility actually changes rather than until the docs say it has.
+DEFAULT_INTAKE_ORIGINS = "https://caakehorn.github.io"
+
+
+def intake_origins():
+    raw = os.environ.get("WIKI_INTAKE_ORIGINS", DEFAULT_INTAKE_ORIGINS)
+    return {o.strip() for o in raw.split(",") if o.strip()}
+
+
+def intake_cors_origin(origin):
+    """Echo back an allowlisted origin, or None. Localhost is always allowed."""
+    if not origin:
+        return None
+    if origin in intake_origins():
+        return origin
+    host = urllib.parse.urlparse(origin).hostname
+    if host in ("127.0.0.1", "localhost", "::1"):
+        return origin
+    return None
+
+
 _intake_cache = {}
 
 
@@ -344,6 +402,18 @@ def intake_state():
         "today": sum(1 for u in units for e in u["intakes"]
                      if not e["voided"] and e["occurred_at"][:10] == today),
     }
+
+
+def intake_stats(substance=None, since=None, until=None):
+    """The cross-unit read, computed by the ledger and rendered by the ledger.
+
+    Returned as both the JSON and the tool's own rendered text, so a client can
+    draw a chart from the numbers without ever having to restate the prose —
+    and so the prose it shows is the same prose `bin/intake stats` prints.
+    """
+    m = intake_mod()
+    st = m.cross_stats(m.Ledger(ROOT).project(), substance, since, until)
+    return {"stats": st, "text": m.render_stats(st)}
 
 
 def intake_report(ref):
@@ -476,11 +546,41 @@ class Handler(BaseHTTPRequestHandler):
     def log_message(self, *a):
         pass
 
+    def cors(self):
+        """CORS headers for /api/intake* and nothing else on this server."""
+        if not self.path.startswith("/api/intake"):
+            return
+        origin = intake_cors_origin(self.headers.get("Origin"))
+        if not origin:
+            return
+        self.send_header("Access-Control-Allow-Origin", origin)
+        self.send_header("Vary", "Origin")
+        self.send_header("Access-Control-Allow-Methods", "GET, POST, OPTIONS")
+        self.send_header("Access-Control-Allow-Headers", "Content-Type")
+        # Chrome's Private Network Access preflight: a public page reaching a
+        # loopback server is refused without this, silently, with a CORS error
+        # that names nothing useful.
+        self.send_header("Access-Control-Allow-Private-Network", "true")
+        self.send_header("Access-Control-Max-Age", "600")
+
+    def do_OPTIONS(self):
+        origin = intake_cors_origin(self.headers.get("Origin"))
+        if not self.path.startswith("/api/intake") or not origin:
+            self.send_response(404)
+            self.send_header("Content-Length", "0")
+            self.end_headers()
+            return
+        self.send_response(204)
+        self.cors()
+        self.send_header("Content-Length", "0")
+        self.end_headers()
+
     def send(self, code, body, ctype="application/json", extra=None):
         data = body if isinstance(body, bytes) else json.dumps(body).encode()
         self.send_response(code)
         self.send_header("Content-Type", ctype)
         self.send_header("Content-Length", str(len(data)))
+        self.cors()
         for k, v in (extra or {}).items():
             self.send_header(k, v)
         self.end_headers()
@@ -532,6 +632,10 @@ class Handler(BaseHTTPRequestHandler):
                         self.send(200, intake_state())
                     elif url.path == "/api/intake/report":
                         self.send(200, intake_report(qs.get("unit", ["active"])[0]))
+                    elif url.path == "/api/intake/stats":
+                        self.send(200, intake_stats(qs.get("substance", [None])[0],
+                                                    qs.get("since", [None])[0],
+                                                    qs.get("until", [None])[0]))
                     else:
                         self.send(404, {"error": "not found"})
                 except Exception as exc:
@@ -2231,7 +2335,6 @@ gitRefresh(); setInterval(gitRefresh, 120000);
 
 
 def main():
-    import os
     server = ThreadingHTTPServer(("127.0.0.1", PORT), Handler)
     url = f"http://127.0.0.1:{PORT}"
     print(f"Personal Wiki running at {url}  (Ctrl-C to stop)")
