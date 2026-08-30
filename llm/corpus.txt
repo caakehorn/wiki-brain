@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-30
-472 pages, ~1,516,163 tokens.
+471 pages, ~1,515,278 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -4123,77 +4123,6 @@ The relevance here is genealogical as much as aesthetic. A music producer in the
 
 
 ========================================================================
-PAGE: wiki/interests/favorites/music/artists/knock2.md
-========================================================================
-
----
-domain: interests
-page_type: entity
-status: active
-date_created: 2026-06-22
-date_modified: 2026-07-14
-sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
-related:
-  - wiki/interests/favorites/music
-  - wiki/interests/favorites/music/artists/lyny
-  - wiki/interests/favorites/music/electronic-bass
-  - wiki/interests/music/concepts/sub-bass-signature
-  - wiki/interests/music/aliases/gripnotic
-  - wiki/self/context-core
-changelog:
-  - 2026-07-14: Full rewrite from stub. Added track list, genre/scene context, GRIPNOTIC-era production connection.
-tags: [music-production]
----
-
-# Knock2
-
-Los Angeles-based bass house producer (real name Alex Coba) who broke
-into the genre's front rank in the mid-2020s largely through Skrillex
-collaborations and remix work, helping define the current wave of
-maximalist, vocal-sample-forward bass house that dominates festival main
-stages as of 2025–2026 — the exact scene and moment GRIPNOTIC's own
-revival output is positioning itself within.
-
-## In Favorites
-
-Six tracks, all "SPOTIFY LIKED 2025-2026": "dashstar* – VIP," "ready 2,"
-"dashstar*," "Make U SWEAT!," "2HEARTs," "feel U luv Me." The presence of
-both a track and its VIP (an alternate, usually more intense club remix
-of the same source material) reflects a specific kind of engaged
-listening — not just liking a song, but following how a producer reworks
-and re-releases their own material, which is closer to studying a
-technique than consuming a playlist.
-
-## Genre placement and timing
-
-Knock2's rise (2024–2026) tracks almost exactly with the period the
-[[wiki/interests/music/aliases/gripnotic|GRIPNOTIC]] page identifies as
-Dan's own production "reactivation" — meaning this isn't legacy taste
-carried over from an earlier era, it's live engagement with the artist
-currently setting the pace in the exact lane GRIPNOTIC operates in. That
-timing makes Knock2 a plausible direct reference point for current
-production decisions, not just a listening preference running parallel
-to the work.
-
-## Connection to the sub-bass signature
-
-Like [[wiki/interests/favorites/music/artists/lyny]], Knock2's tracks are
-built around aggressive, vocal-chop-driven low end rather than melodic or
-lyrical content — see [[wiki/interests/music/concepts/lyrics-as-timbre]]
-for why that matters here less as a caveat and more as a structural fit:
-this is a genre where the vocal fragments function as pure rhythmic and
-textural material by design, for every listener, not just for Dan. The
-involuntary sub-bass signature documented across all four of Dan's own
-aliases ([[wiki/interests/music/concepts/sub-bass-signature]]) makes
-Knock2's whole catalog close to a native-frequency match rather than an
-adjacent-genre appreciation.
-
-## Related
-
-[[wiki/interests/favorites/music]] · [[wiki/interests/favorites/music/artists/lyny]] · [[wiki/interests/favorites/music/electronic-bass]] · [[wiki/interests/music/concepts/sub-bass-signature]] · [[wiki/interests/music/aliases/gripnotic]]
-
-
-========================================================================
 PAGE: wiki/interests/favorites/music/artists/lil-wayne.md
 ========================================================================
 
@@ -4243,7 +4172,6 @@ date_modified: 2026-07-14
 sources: ["raw/self/favorites/FAVS MASTERLIST.csv"]
 related:
   - wiki/interests/favorites/music
-  - wiki/interests/favorites/music/artists/knock2
   - wiki/interests/favorites/music/electronic-bass
   - wiki/interests/music/concepts/sub-bass-signature
   - wiki/interests/music/aliases/gripnotic
@@ -4303,7 +4231,7 @@ would make the attraction closer to recognition than discovery.
 
 ## Related
 
-[[wiki/interests/favorites/music]] · [[wiki/interests/favorites/music/artists/knock2]] · [[wiki/interests/favorites/music/electronic-bass]] · [[wiki/interests/music/concepts/sub-bass-signature]] · [[wiki/interests/music/aliases/gripnotic]] · [[wiki/people/tom]]
+[[wiki/interests/favorites/music]] · [[wiki/interests/favorites/music/electronic-bass]] · [[wiki/interests/music/concepts/sub-bass-signature]] · [[wiki/interests/music/aliases/gripnotic]] · [[wiki/people/tom]]
 
 
 ========================================================================
@@ -5217,7 +5145,6 @@ synthesizes:
 related:
   - wiki/interests/favorites/music
   - wiki/interests/favorites/music/artists/lyny
-  - wiki/interests/favorites/music/artists/knock2
   - wiki/interests/music/concepts/sub-bass-signature
   - wiki/interests/music/concepts/lyrics-as-timbre
   - wiki/interests/music/aliases/gripnotic
@@ -5228,7 +5155,7 @@ tags: [music-production]
 # Electronic & Bass Music Cluster
 
 Nine artists beyond [[wiki/interests/favorites/music/artists/lyny]] and
-[[wiki/interests/favorites/music/artists/knock2]] make up the rest of the
+Knock2 make up the rest of the
 electronic/bass tier: Effin, Mau P, PEEKABOO, Levity, Nikita the Wicked,
 rSUN, oskar med k, borne, and A.M.C — roughly 46 tracks together, all
 logged under "SPOTIFY LIKED 2025-2026." This is, alongside JPEGMAFIA and
@@ -5259,7 +5186,7 @@ As on [[wiki/interests/favorites/music/artists/lyny]], this cluster reads
 most plausibly as craft-level listening rather than casual consumption.
 Mau P's "BEATS FOR THE UNDERGROUND" and the multiple "-Mixed" / VIP-style
 entries across the cluster (Mau P's "MERTHER – Mixed," the dashstar*
-original-and-VIP pairing on Knock2's page) show engagement with how
+original-and-VIP pairing among Knock2's six masterlist entries) show engagement with how
 tracks get reworked and remixed, not just which ones chart. rSUN's
 seven-track presence — the same count as LYNY — and the recurring motif
 of physical-space and motion titles across the cluster (oskar med k's
@@ -5289,7 +5216,7 @@ sitting before he ever set out to match it.
 
 ## Related
 
-[[wiki/interests/favorites/music]] · [[wiki/interests/favorites/music/artists/lyny]] · [[wiki/interests/favorites/music/artists/knock2]] · [[wiki/interests/music/concepts/sub-bass-signature]] · [[wiki/interests/music/concepts/lyrics-as-timbre]] · [[wiki/interests/music/aliases/gripnotic]]
+[[wiki/interests/favorites/music]] · [[wiki/interests/favorites/music/artists/lyny]] · [[wiki/interests/music/concepts/sub-bass-signature]] · [[wiki/interests/music/concepts/lyrics-as-timbre]] · [[wiki/interests/music/aliases/gripnotic]]
 
 
 ========================================================================
@@ -5466,7 +5393,7 @@ sits, not a retreat into a niche.
 
 ## Related
 
-[[wiki/interests/favorites/music/artists/jpegmafia]] · [[wiki/interests/favorites/music/artists/kanye-west]] · [[wiki/interests/favorites/music/artists/elliott-smith]] · [[wiki/interests/favorites/music/artists/fall-out-boy]] · [[wiki/interests/favorites/music/artists/my-chemical-romance]] · [[wiki/interests/favorites/music/artists/say-anything]] · [[wiki/interests/favorites/music/artists/taking-back-sunday]] · [[wiki/interests/favorites/music/artists/new-found-glory]] · [[wiki/interests/favorites/music/artists/lyny]] · [[wiki/interests/favorites/music/artists/knock2]] · [[wiki/interests/favorites/music/electronic-bass]] · [[wiki/interests/music/concepts/lyrics-as-timbre]] · [[wiki/interests/music/concepts/sub-bass-signature]] · [[wiki/self/facebook]] · [[wiki/interests/rock-irrelevance-thesis]]
+[[wiki/interests/favorites/music/artists/jpegmafia]] · [[wiki/interests/favorites/music/artists/kanye-west]] · [[wiki/interests/favorites/music/artists/elliott-smith]] · [[wiki/interests/favorites/music/artists/fall-out-boy]] · [[wiki/interests/favorites/music/artists/my-chemical-romance]] · [[wiki/interests/favorites/music/artists/say-anything]] · [[wiki/interests/favorites/music/artists/taking-back-sunday]] · [[wiki/interests/favorites/music/artists/new-found-glory]] · [[wiki/interests/favorites/music/artists/lyny]] · [[wiki/interests/favorites/music/electronic-bass]] · [[wiki/interests/music/concepts/lyrics-as-timbre]] · [[wiki/interests/music/concepts/sub-bass-signature]] · [[wiki/self/facebook]] · [[wiki/interests/rock-irrelevance-thesis]]
 
 
 ========================================================================
@@ -6259,7 +6186,6 @@ related: []
 - [[wiki/interests/favorites/music/artists/fall-out-boy]] — 6 tracks, but a 2007 tour-following artifact: 3 shows + TRL taping, the Buffalo "Schrute Farms" secret show, love cut off at Folie à Deux.
 - [[wiki/interests/favorites/music/artists/jpegmafia]] — 13 tracks — highest count in the masterlist.
 - [[wiki/interests/favorites/music/artists/kanye-west]] — 11 tracks.
-- [[wiki/interests/favorites/music/artists/knock2]] — 6 tracks.
 - [[wiki/interests/favorites/music/artists/lyny]] — 7 tracks.
 - [[wiki/interests/favorites/music/artists/my-chemical-romance]] — 9 tracks.
 - [[wiki/interests/favorites/music/artists/new-found-glory]] — 8 tracks.
@@ -9018,7 +8944,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | | |
 |---|---|
-| Pages | 472 |
+| Pages | 471 |
 | Pages touched in the last 14 days | 191 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 41 |
@@ -9030,7 +8956,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | Domain | Pages |
 |---|---|
 | people | 174 |
-| interests | 97 |
+| interests | 96 |
 | mind | 77 |
 | timeline | 42 |
 | self | 40 |
@@ -9044,7 +8970,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | Status | Pages |
 |---|---|
-| active | 183 |
+| active | 182 |
 | stable | 146 |
 | closed | 100 |
 | archived | 31 |
@@ -9052,10 +8978,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-29** — 3 pages
-  - gate | meta | the moratorium guard caught a real violation on `main`, made by a careful writer
-  - feature | meta | THE DOCKET — the outstanding-work record published as a room, and three parser bugs it found
-  - delete | interests | 47 single-appearance concert-log artist stubs
+**2026-08-30** — 3 pages
+  - tool | health | the intake ledger — `bin/intake`, `intake/`, Special:Intake
 
 **2026-08-28** — 39 pages
   - feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch
@@ -10328,7 +10252,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-29 — 3 pages
+## 2026-08-30 — 3 pages
 
 | Page | Domain | What moved |
 |---|---|---|

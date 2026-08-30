@@ -41,8 +41,7 @@ That order is deliberate in both directions: the operator's request never waits 
 
 ## STANDING DIRECTIVE — the Annie moratorium (2026-08-23, operator)
 
-**No new Annie material enters this repository. No exception is delegated to a
-session; only the operator can lift this.**
+**we are trying to date ally so stop writibg that in textibg annie**
 
 The operator's instruction, verbatim in substance: *we can no longer include
 texts or any narrative anything about Annie, due to the unpredictable nature of
