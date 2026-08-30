@@ -32,6 +32,7 @@ The real ledger is never touched: every case builds one in a temp directory.
 import importlib.util
 import json
 import os
+import re
 import sys
 import tempfile
 import unittest
@@ -376,6 +377,67 @@ class TestPhases(LedgerCase):
         phases = self.reload()["analysis"]["phases"]
         self.assertEqual([p["events"] for p in phases], [1, 2, 1])
         self.assertEqual(sum(p["quantity"] for p in phases), 4.0)
+
+
+class TestCrossOriginBoundary(unittest.TestCase):
+    """The one cross-origin hole in the local app, pinned shut.
+
+    ボスの部屋 (boss.html, in the leviathan site) renders this ledger from
+    another origin, so `/api/intake*` has to answer one. That is a security
+    boundary and it gets tests: an allowlist rather than a wildcard, localhost
+    always, everything else refused, and — the one that would be silent if it
+    broke — *no other path on this server* answering a foreign origin at all.
+    """
+
+    def setUp(self):
+        import importlib.util
+        spec = importlib.util.spec_from_file_location("wapp", os.path.join(ROOT, "app.py"))
+        self.app = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(self.app)
+
+    def test_the_site_origin_is_allowed(self):
+        self.assertEqual(self.app.intake_cors_origin("https://caakehorn.github.io"),
+                         "https://caakehorn.github.io")
+
+    def test_localhost_is_always_allowed(self):
+        for o in ("http://127.0.0.1:8099", "http://localhost:3000"):
+            self.assertEqual(self.app.intake_cors_origin(o), o)
+
+    def test_everything_else_is_refused(self):
+        for o in ("https://evil.example", "https://caakehorn.github.io.evil.example",
+                  "null", "", None):
+            self.assertIsNone(self.app.intake_cors_origin(o))
+
+    def test_it_is_never_a_wildcard(self):
+        self.assertNotIn("*", self.app.DEFAULT_INTAKE_ORIGINS)
+        with open(os.path.join(ROOT, "app.py"), encoding="utf-8") as fh:
+            src = fh.read()
+        self.assertNotIn('"Access-Control-Allow-Origin", "*"', src)
+        # Credentials are never allowed: an allowlisted origin gets to call the
+        # endpoints, never to ride along on anything this browser already holds.
+        self.assertNotIn("Access-Control-Allow-Credentials", src)
+
+    def test_the_env_var_can_close_it_completely(self):
+        old = os.environ.get("WIKI_INTAKE_ORIGINS")
+        os.environ["WIKI_INTAKE_ORIGINS"] = ""
+        try:
+            self.assertIsNone(self.app.intake_cors_origin("https://caakehorn.github.io"))
+            # localhost still works, so Special:Intake and the CLI are unaffected
+            self.assertIsNotNone(self.app.intake_cors_origin("http://127.0.0.1:8477"))
+        finally:
+            if old is None:
+                del os.environ["WIKI_INTAKE_ORIGINS"]
+            else:
+                os.environ["WIKI_INTAKE_ORIGINS"] = old
+
+    def test_only_the_intake_paths_carry_the_headers(self):
+        """cors() returns early on every other route — the wiki, capture, git
+        sync and the file reader all stay strictly same-origin."""
+        with open(os.path.join(ROOT, "app.py"), encoding="utf-8") as fh:
+            src = fh.read()
+        block = re.search(r"def cors\(self\):(.*?)def do_OPTIONS", src, re.S).group(1)
+        self.assertIn('self.path.startswith("/api/intake")', block)
+        self.assertIn("return", block.split("\n")[3])
 
 
 class TestContract(unittest.TestCase):
