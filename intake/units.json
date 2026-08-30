@@ -1,0 +1,6 @@
+{
+  "generated": "2026-08-30T16:01:03+00:00",
+  "note": "GENERATED from intake/events.jsonl by bin/intake — never edit. Delete it and run `bin/intake rebuild` and it comes back identical.",
+  "event_count": 0,
+  "units": []
+}
