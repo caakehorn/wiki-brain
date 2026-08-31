@@ -785,6 +785,95 @@ class TestBackfilledCaptures(LedgerCase):
         self.assertNotIn("BACKFILLED", text)
 
 
+class TestWikiPage(LedgerCase):
+    """`wiki/health/intake-ledger.md` — the ledger rendered as a wiki entry.
+
+    Generated, so a hand-edit is drift and drift is a red gate. Evidence rather
+    than a claim, so the one figure that reads as evidence and is not — the
+    per-unit rate, which extrapolates a unit's quantity across a full day from
+    however long the unit lived — must not appear on it.
+    """
+
+    def loaded(self):
+        self.unit()
+        self.ops.log_intake(1, 0.2, "g", "measured", occurred_at="2026-08-01 13:00")
+        self.ops.log_intake(1, descriptor="one line", occurred_at="2026-08-01 14:00")
+        units = self.L.project()
+        return units, m.render_wiki_page(units, m.cross_stats(units))
+
+    def test_it_is_deterministic(self):
+        units, first = self.loaded()
+        self.assertEqual(first, m.render_wiki_page(units, m.cross_stats(units)))
+
+    def test_it_declares_itself_generated(self):
+        _, page = self.loaded()
+        self.assertIn("bin/intake page", page)
+        self.assertIn("Do not hand-edit", page)
+
+    def test_it_never_publishes_the_extrapolated_rate(self):
+        """The number most likely to be quoted as a daily figure, and it is not one.
+
+        The page is allowed to NAME the withheld figure — it explains why it is
+        withheld — so this asserts no per-day *value* is printed, which is the
+        thing that could be quoted.
+        """
+        _, page = self.loaded()
+        # A leading digit is required: the caveat's own "... g / day" is prose,
+        # not a value, and must not trip this.
+        self.assertIsNone(re.search(r"\d[\d.]*\s*m?[gl]\s*/\s*day", page), page)
+        self.assertIn("No rate is published here", page)
+
+    def test_an_unquantified_event_keeps_its_row_and_carries_no_quantity(self):
+        _, page = self.loaded()
+        row = [l for l in page.splitlines() if "one line" in l and l.startswith("|")]
+        self.assertEqual(len(row), 1, page)
+        self.assertIn("| — |", row[0])
+
+    def test_coverage_is_stated_when_events_lack_a_quantity(self):
+        _, page = self.loaded()
+        self.assertIn("1 of 2 events carry a quantity", page)
+
+    def test_a_hand_edit_is_a_red_gate(self):
+        self.loaded()
+        path = self.L.root / m.INTAKE_PAGE
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(m.render_wiki_page(self.L.project(),
+                                           m.cross_stats(self.L.project())), encoding="utf-8")
+        self.assertEqual(m.check(self.L)[0], [])
+        path.write_text(path.read_text() + "\nsomething a person typed\n", encoding="utf-8")
+        errors, _ = m.check(self.L)
+        self.assertTrue(any("drifted" in e for e in errors), errors)
+
+    def test_a_missing_page_warns_rather_than_failing(self):
+        """Behind is not broken, and the warning names the one command that fixes it."""
+        self.loaded()
+        errors, warnings = m.check(self.L)
+        self.assertEqual(errors, [])
+        self.assertTrue(any("bin/intake page" in w for w in warnings), warnings)
+
+    def test_a_correction_row_shows_only_what_changed(self):
+        self.unit()
+        self.ops.log_intake(1, 0.5, "g", "measured", occurred_at="2026-08-01 13:00")
+        ev = [e for e in self.L.read_events() if e["type"] == "intake_logged"][0]
+        self.ops.correct(ev["id"], {"quantity": 0.05, "unit": "g"},
+                         reason="decimal entry error")
+        units = self.L.project()
+        page = m.render_wiki_page(units, m.cross_stats(units))
+        row = [l for l in page.splitlines() if "decimal entry error" in l][0]
+        self.assertIn("`quantity`", row)
+        self.assertNotIn("`unit`", row)   # g -> g did not move
+
+    def test_the_frontmatter_quotes_are_balanced(self):
+        """A claim containing a bare double quote breaks the page's YAML silently."""
+        _, page = self.loaded()
+        fm = page.split("---")[1]
+        for line in fm.splitlines():
+            body = line.split(":", 1)[1].strip() if line.strip().startswith("claim:") else ""
+            if body:
+                self.assertTrue(body.startswith('"') and body.endswith('"'), line)
+                self.assertNotIn('"', body[1:-1], line)
+
+
 class TestContract(unittest.TestCase):
     def test_help_runs(self):
         import subprocess

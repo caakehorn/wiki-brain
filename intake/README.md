@@ -172,10 +172,27 @@ The ledger does not argue. It says: `Aug 14–16 — 37 logged intake events acr
 against a page's narrative the way `bin/text-metrics` is set against a page's
 assertions about how he writes, and it is meant to be cited in exactly that way.
 
-**It is not a wiki page and does not become one automatically.** A finding drawn
-from the ledger goes onto a page through the normal operations, cited to a unit
-id and a date range, with the coverage figure attached. The ledger is evidence;
-the page is the claim.
+**The ledger is evidence; a page is a claim, and the distinction survives the
+fact that the ledger now has a page of its own.** `wiki/health/intake-ledger.md`
+is the record *rendered* — every unit, every event, every correction, generated
+by `bin/intake page` and served on the portal like any other entry. It exists
+because the portal's sync reads `wiki/**` and nothing else, so until it was
+written the only way to see the record was to open a JSONL file in this
+repository. It states no finding, argues nothing, and concludes nothing about
+the person.
+
+A **finding** drawn from the ledger still goes onto an ordinary page through the
+normal operations, cited to a unit id and a date range with the coverage figure
+attached — never onto the generated page, which is overwritten on every write
+and would lose it. `wiki/health/cocaine.md` and
+`wiki/health/chemical-architecture.md` are the worked examples.
+
+Two things the generated page does deliberately. It is **gated**: a hand-edit is
+drift and `bin/intake check` fails on it, because a hand-written snapshot of a
+growing log is wrong the day after it is written and nothing would say so. And
+it **withholds the per-unit rate** — `report`'s `Rate of consumption ... g / day`
+— rather than printing it with a caveat, on the grounds that a number nobody can
+quote wrongly is worth more than a number with a warning beside it.
 
 ## The commands
 

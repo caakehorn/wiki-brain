@@ -21,8 +21,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | | |
 |---|---|
-| Pages | 472 |
-| Pages touched in the last 14 days | 191 |
+| Pages | 473 |
+| Pages touched in the last 14 days | 192 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 41 |
 | Open gaps | 484 |
@@ -40,14 +40,14 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | work | 15 |
 | places | 10 |
 | meta | 9 |
-| health | 5 |
+| health | 6 |
 | legal | 4 |
 
 ## By status
 
 | Status | Pages |
 |---|---|
-| active | 183 |
+| active | 184 |
 | stable | 146 |
 | closed | 100 |
 | archived | 31 |
@@ -55,8 +55,9 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-31** — 6 pages
+**2026-08-31** — 8 pages
   - ingest | health | the intake ledger's first export (2026-08-30/31)
+  - ingest | health | the ledger gets an entry page
 
 **2026-08-30** — 2 pages
   - build | meta | the skills section was a contract with no counterparty
