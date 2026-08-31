@@ -60,6 +60,12 @@ BIN = os.path.join(ROOT, "bin")
 GENERATE = [
     (["wiki-digest"], "regenerate DIGEST / RECENT / OPEN", True),
     (["llm-publish"], "rebuild the llm/ corpus", True),
+    # skills/INDEX.md is derived from the skill files, and `wiki-lessons check`
+    # gates on it being current — so it regenerates HERE, with the other
+    # generators, for the same reason wiki-digest runs before wiki-lint's index
+    # drift check. In --check-only this step is skipped and the drift check
+    # becomes the real gate, which is what a reviewer actually wants asked.
+    (["wiki-lessons", "scan"], "regenerate skills/INDEX.md", True),
 ]
 GATE = [
     (["wiki-lint"], "frontmatter, links, retractions, index drift", False),
@@ -82,6 +88,14 @@ GATE = [
     # notice, because a stale units.json still reads as a plausible ledger.
     # Silent and clean when no unit has ever been opened.
     (["intake", "check"], "intake ledger log and projection agree", False),
+    # skills/ is the instruction corpus every agent is told to load before
+    # touching this repository, so a malformed or unrouted skill is not untidy —
+    # it is a session following something nobody validated, or failing to load
+    # something somebody did. It gates for the same reason wiki-connect does:
+    # the section shipped on 2026-08-30 with two skills absent from its own
+    # changelog and an index that had already drifted from the files, and
+    # nothing surfaced either.
+    (["wiki-lessons", "check"], "skills routed, well-formed and recorded", False),
     # The skills database has the same derived-file problem as the ledger, plus
     # one the ledger does not: it is written by several models from several
     # branches, and its page is public. A drifted projection still reads as a

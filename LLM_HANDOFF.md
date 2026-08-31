@@ -4,6 +4,63 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-30] - Session: the skills section, made real
+
+* **Model:** Claude Code (remote) · **Branch:** `claude/wiki-brain-skills-section-fzuqw1` (wiki-brain only; `caakehorn/leviathan` untouched).
+* **Trigger:** operator asked to find and fully establish the new skills section.
+
+**What was wrong.** `skills/` merged earlier the same day (PR #221) as prose
+describing a system that did not exist. `CLAUDE.md` never mentioned it, so its
+"mandatory session behavior" was mandatory nowhere; nothing validated it, nothing
+routed to it, no test covered it. Two of its own skills were already missing from
+its `CHANGELOG.md` and its `INDEX.md` had already drifted from the files.
+
+**What exists now.** `bin/wiki-lessons` (`route`, `check`, `scan`, `next`, `list`,
+`status`, `new`), gating inside `bin/wiki-check`; `skills/INDEX.md` **generated**
+rather than hand-maintained; inbox candidates surfacing as obligations in
+`bin/wiki-work`; a **LEARN** operation in `CLAUDE.md`; six skills, four of them
+newly promoted from dated incidents already in this repository;
+`tests/test_wiki_lessons.py` (22 cases, suite 262 green). Full account in `log.md`.
+
+**Read these before touching it:**
+
+1. **`skills/INDEX.md` is generated. Do not hand-edit it.** Change a skill's
+   `status:` or `triggers:` in its own file and run `bin/wiki-lessons scan`. The
+   gate fails while the committed index is not what `scan` would write.
+2. **`skills/` is not `.claude/skills/`.** The latter holds procedures for one
+   whole wiki operation, invoked by name by Claude Code. The former holds
+   vendor-neutral lessons about the machinery, loaded by trigger via
+   `bin/wiki-lessons route "<task>"`. Both are described in `CLAUDE.md`.
+3. **Do not promote an inbox candidate to clear the obligation.** One candidate
+   is parked and is meant to stay parked until its evidence arrives —
+   `PROTOCOL.md` §3. An instruction promoted early is worse than one still in
+   the inbox, because the index vouches for what it lists.
+4. **A skill must be named in `skills/CHANGELOG.md`.** That is a gate, not
+   etiquette: an instruction with no dated account of why it should be believed
+   cannot be weighed by anyone arriving later.
+
+**Left alone, deliberately.** The 90 stale premises in `WORK.md` are pre-existing
+on `main`. They need the re-read that `skills/repo/stale-premise.md` now
+describes, not a date bump, and that is a content pass rather than this one.
+
+> **Contradiction to resolve — not introduced here.** The intake-ledger entry
+> immediately below states that the ledger's data is gitignored and that
+> committing it would be a mistake. `CLAUDE.md` was since changed (commit
+> `e801efa`, "the ledger is tracked, public, and readable by the wiki") and the
+> data **is** tracked now, by operator decision. `CLAUDE.md` wins on process;
+> the entry below is stale on that point and is left as written rather than
+> silently edited. `skills/repo/publication-surface.md` records the current
+> state and the trap that produced the confusion.
+
+> **Renamed on merge (2026-08-30).** This session's tool shipped as
+> `bin/wiki-skills`; PR #225 had taken that name the same day for the capability
+> registry, which is a different tool over different data and was already public
+> at `wiki/meta/skills.md`. This one is now **`bin/wiki-lessons`** — lessons are
+> what agents have learned here, skills are what a model has. Every reference in
+> this entry has been updated; `tests/test_wiki_skills.py` became
+> `tests/test_wiki_lessons.py`, and both tools now gate side by side in
+> `bin/wiki-check`.
+
 ### [2026-08-30] - Session: the skills section became a cross-model database
 
 * **Model:** Claude Code (remote) · **Branch:** `claude/wikibrain-skills-database-fhkn9h`

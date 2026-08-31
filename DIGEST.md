@@ -48,6 +48,7 @@ this is the state of the thing.
 ## The last few days
 
 **2026-08-30** — 5 pages
+  - build | meta | the skills section was a contract with no counterparty
   - tool | health | the intake ledger — `bin/intake`, `intake/`, Special:Intake
   - infra | intake | the portal as a third interface, and the guard that actually guards
   - declare | meta | the skills section becomes a cross-model database
