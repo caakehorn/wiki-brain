@@ -2,8 +2,8 @@
 plain_of: wiki/health/the-configured-body
 title: "The Configured Body"
 reading_level: general
-date_modified: 2026-08-21
-source_modified: 2026-08-28
+date_modified: 2026-08-31
+source_modified: 2026-08-31
 ---
 
 # The Configured Body
@@ -136,6 +136,28 @@ being able to just go to the doctor or dentist when you need"* and *"the
 doctor thing is a really big thing for me... there's no reason that 50,000
 people die a year because they don't have insurance."*
 
+## The ledger, and what it shows about the missing mode
+
+In late August 2026 Dan started keeping a written record of everything he takes
+— what it was, how much, and when. The first full night of it is on record,
+30–31 August 2026: one 0.75 gram batch of cocaine, worked through in six doses
+over nine and a half hours, and three separate 0.05 gram servings of cannabis in
+the same window. At the end, every gram was accounted for.
+
+That is one night, and one night proves nothing about how often nights like it
+happen. Four of the six cocaine doses were entered by tapping a button that
+fills in 0.1 grams rather than by weighing anything, so the record is less exact
+than it first looks. What it shows is something else. The system he built
+measures the inputs to a tenth of a gram, and it will not let a batch be closed
+out until every part of it is explained. It is the most precise instrument
+anyone in this archive has ever pointed at his body — and it measures only what
+goes in. There is no repair in it, no follow-up, and nothing that would prompt
+an action. A man with no regular doctor, no lab tests and no dental schedule in
+seventeen years built himself a scale and a logbook for the inputs.
+
+That is this page's whole argument arriving in a new form: the body specified at
+the input, watched at the output, and still never serviced.
+
 ## The asymmetry that names the mechanism
 
 Set those modal self-sentences against how he talks about other people's
@@ -224,8 +246,18 @@ the rule survives narrowed.
    diet, a stack change, a substance protocol — never a course of
    treatment, a physiotherapy, or a follow-up schedule.
 
+   *Where this stands as of 31 August 2026:* leaning, but not settled. The
+   intake ledger described above is the first new regime Dan has set himself
+   since this was written, and it is entirely about measuring inputs — there is
+   no treatment anywhere in it. But he built it to keep the record honest
+   rather than to make himself healthier, so it is not squarely a "health
+   kick," and this prediction stays open.
+
 ## What we still don't know
 
+- **The intake ledger has one night in it.** It started recording on 30 August
+  2026, so it cannot say how typical that night was, and its silence before that
+  date means only that nobody was writing anything down.
 - **The census is one pass over one dump** with a fixed term list and gaps
   for 2022 and 2026, so nothing here speaks to the present.
 - **No medical record of any kind exists in the raw data.** Everything above

@@ -12,7 +12,7 @@ The compiled second brain. Start here; each domain has its own index.
 | mind | Beliefs, ideology, values, psychological profile | 73 | [[wiki/mind/index]] |
 | work | Career, projects, business history | 13 | [[wiki/work/index]] |
 | interests | Music production, favorites, media, taste profile | 92 | [[wiki/interests/index]] |
-| health | Physical and mental health history | 4 | [[wiki/health/index]] |
+| health | Physical and mental health history | 5 | [[wiki/health/index]] |
 | places | Homes, cities, significant locations | 9 | [[wiki/places/index]] |
 | legal | Disputes, property matters, legal history | 3 | [[wiki/legal/index]] |
 | meta | The wiki describing itself: on-site reading-aid mirrors, curated journeys, the cross-model skills database | 7 | [[wiki/meta/index]] |

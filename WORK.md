@@ -15,7 +15,7 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (93)
+## Obligations (95)
 
 Somebody or something is waiting on each of these. Drain from the top.
 
@@ -87,8 +87,6 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/self/overview.md moved 2026-08-26, after this page's 2026-07-26 | `wiki/self/location-history.md` | 2026-08-26 |
 | 3 | stale | premise wiki/self/overview.md moved 2026-08-26, after this page's 2026-08-19 | `wiki/self/youtube-watch-history.md` | 2026-08-26 |
 | 3 | stale | premise wiki/work/bfs-foods.md moved 2026-08-26, after this page's 2026-08-19 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-26 |
-| 3 | stale | premise wiki/health/chemical-architecture.md moved 2026-08-28, after this page's 2026-08-02 | `wiki/mind/synthesis/ancestral-dialectic.md` | 2026-08-28 |
-| 3 | stale | premise wiki/health/the-configured-body.md moved 2026-08-28, after this page's 2026-08-19 | `wiki/mind/synthesis/2020-left-turn.md` | 2026-08-28 |
 | 3 | stale | premise wiki/legal/2015-possession-arrest.md moved 2026-08-28, after this page's 2026-08-19 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-28 |
 | 3 | stale | premise wiki/mind/synthesis/attachment-trauma-bond.md moved 2026-08-28, after this page's 2… | `wiki/mind/synthesis/message-circadian-latency.md` | 2026-08-28 |
 | 3 | stale | premise wiki/mind/synthesis/dormancy-not-exit.md moved 2026-08-28, after this page's 2026-0… | `wiki/self/context-core.md` | 2026-08-28 |
@@ -114,9 +112,13 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-08-28, after this page's 2026-08-19 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-28 |
 | 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-08-28, after this page's 2026-08-26 | `wiki/self/context-core.md` | 2026-08-28 |
 | 3 | stale | premise wiki/places/155-virginia-ave.md moved 2026-08-28, after this page's 2026-08-26 | `wiki/mind/synthesis/bond-switch-2015.md` | 2026-08-28 |
+| 3 | stale | premise wiki/health/chemical-architecture.md moved 2026-08-31, after this page's 2026-08-02 | `wiki/mind/synthesis/ancestral-dialectic.md` | 2026-08-31 |
+| 3 | stale | premise wiki/health/the-configured-body.md moved 2026-08-31, after this page's 2026-08-19 | `wiki/mind/synthesis/2020-left-turn.md` | 2026-08-31 |
 | 4 | skill | unvalidated skill candidate — A generator's own output is not the published object | `skills/INBOX.md` | 2026-08-30 |
 | 4 | skill | unvalidated skill candidate — Persistent cross-agent learning loop | `skills/INBOX.md` | 2026-08-30 |
 | 4 | skill | unvalidated skill candidate — A secret's absence must fail whatever the secret was for | `skills/INBOX.md` | 2026-08-31 |
+| 4 | skill | unvalidated skill candidate — A tie-break that is arbitrary is a tie-break that will be wro… | `skills/INBOX.md` | 2026-08-31 |
+| 4 | skill | unvalidated skill candidate — A write path that skips the tool skips everything the tool al… | `skills/INBOX.md` | 2026-08-31 |
 
 ## Standing work (197)
 

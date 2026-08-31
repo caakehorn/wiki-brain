@@ -8,7 +8,23 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-30 — 5 pages
+## 2026-08-31 — 8 pages
+
+- **Session log:** ingest | health | the intake ledger's first export (2026-08-30/31)
+- **Session log:** ingest | health | the ledger gets an entry page
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/health/chemical-architecture]] | health | _(carries a GAP CLOSED from 2026-08-28)_ |
+| [[wiki/health/cocaine]] | health | _(carries a RE-CHECKED from 2026-08-28)_ |
+| [[wiki/health/index]] | health | — |
+| [[wiki/health/intake-ledger]] | health | — |
+| [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — cocaine and chemical-architecture both gained the intake ledger's first measured night (2026-08-30/31: one 0.75 g cocaine unit over 9h 31m in six doses, three 0.05 g cannabis units; the unit reconcile |
+| [[wiki/meta/digest]] | meta | — |
+| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
+
+## 2026-08-30 — 2 pages
 
 - **Session log:** build | meta | the skills section was a contract with no counterparty
 - **Session log:** tool | health | the intake ledger — `bin/intake`, `intake/`, Special:Intake
@@ -17,13 +33,10 @@ simply listed.
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/index]] | meta | — |
-| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
 | [[wiki/meta/skills]] | meta | — |
 
-## 2026-08-28 — 39 pages
+## 2026-08-28 — 36 pages
 
 - **Session log:** feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch
 - **Session log:** spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
@@ -58,9 +71,6 @@ simply listed.
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/health/chemical-architecture]] | health | **GAP CLOSED** — This page has always stated the February 17, 2010 day-zero without naming what the last active-use episode before it was. A 2026-08-27 operator capture (`raw/people/captures/2026-08-27_222932_gap-alex |
-| [[wiki/health/cocaine]] | health | **RE-CHECKED** — flagged stale against chemical-architecture (2026-08-28), which added the previously-unnamed final pre-Suboxone opiate relapse (Alexis, Thanksgiving 2009, thirty Roxicet pills) to the **opiate** arc.  |
-| [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — flagged stale against the-deferred-audit (2026-08-28), which gained a RE-CHECKED note tracing back to a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris to Alexi |
 | [[wiki/interests/food-and-diet]] | interests | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/legal/2015-possession-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
 | [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — totality-themes gained two RE-CHECKED notes (2026-08-28) confirming a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris to Alexis Armel) touches neither page. **N |
@@ -288,7 +298,7 @@ simply listed.
 | [[wiki/timeline/events/august-2026-unmasking]] | timeline | — |
 | [[wiki/timeline/index]] | timeline | — |
 
-## 2026-08-19 — 23 pages
+## 2026-08-19 — 22 pages
 
 - **Session log:** audit | self | the last three days of edits — three pages had the attribution backwards, and the corpus settled all three
 - **Session log:** synthesis | health | cocaine — new substance profile page
@@ -297,7 +307,6 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/hyperreflexivity]] | health | _(carries a REVISED from 2026-07-26)_ |
-| [[wiki/health/index]] | health | — |
 | [[wiki/interests/extreme-sports]] | interests | — |
 | [[wiki/interests/favorites/books]] | interests | **CONTRADICTION** — This page, and eclecticism alongside it, read 120 books across 98 authors as breadth. Counted by subject rather than by author, the shelf is the opposite. **Forty of the 120 books are tagged `trump` o |
 | [[wiki/interests/film-canon]] | interests | — |
@@ -465,14 +474,4 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/people/jacob-bacharach]] | people | **CONTRADICTION** — Dan attributes the Virginia Avenue passage to ***The Bend of the World*** (2014) and cites pages 227–228. Bacharach's own February 2021 message names a different novel as the Uniontown book: *"it figu |
-
-## 2026-08-03 — 2 pages
-
-- **Session log:** ingest | legal | court blotter photo — the arrest is now primary-documented, and a wiki inference was wrong
-- **Session log:** ingest | legal | factstory brief #5 — "The Arrest (the real one)"
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/people/jack-connor]] | people | — |
-| [[wiki/people/lucy]] | people | — |
 

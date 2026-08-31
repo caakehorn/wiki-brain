@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-28
+date_modified: 2026-08-31
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -62,6 +62,36 @@ connections:
 > five-day tenure figure reattributed from Franki Faris to Alexis Armel, a
 > 2013 Uniontown-era detail unrelated to chemical history). **No claim on
 > this page is affected.**
+
+> **RE-CHECKED [2026-08-31] — both chemical premises moved, and the movement
+> is on this page's side.** [[wiki/health/cocaine]] and
+> [[wiki/health/chemical-architecture]] both gained the intake ledger's first
+> measured night (2026-08-30/31: one 0.75 g cocaine unit over 9h 31m in six
+> doses, three 0.05 g cannabis units; the unit reconciled with nothing
+> unaccounted for, and four of the six cocaine doses were entered through a
+> one-tap preset that fills in 0.1 g, so the record is less exactly weighed than
+> its coverage figure suggests). Nothing in it touches the dosage arc this page cites,
+> and no claim here is withdrawn — but the *instrument* is worth naming, because
+> it is a new instance of the structure this page argues for rather than a
+> complication of it. Dan built a ledger that records the inputs to a tenth of a
+> gram, with a reconciliation step that refuses to close a unit while quantity
+> is unaccounted for. That is the specification mode and the monitoring mode
+> both, running at a new level of rigour. It produces no repair. A record this
+> precise about what goes in, kept by somebody with no primary care, no labs and
+> no dental in seventeen years, is the **missing middle mode stated in a new
+> register** — the body measured at the input and read at the output, and still
+> never serviced. Falsifier 2 is untouched: the ledger shows no dose changed for
+> a health reason, because it shows no dose changed for any stated reason at all.
+>
+> **Prediction 4 is not settled, but it is leaning.** It says any future "health
+> kick" in the record will be an input regime — a diet, a stack change, a
+> substance protocol — and never a course of treatment or a follow-up schedule.
+> The ledger is the first new self-directed bodily regime to enter the corpus
+> since that prediction was written, and it is an input-measurement regime with
+> no treatment arm anywhere in it. It is *not* squarely a health kick, which is
+> why this is a lean and not a resolution: it was built to hold the record
+> honest, not to improve anything. Recorded here so the next reader can settle
+> it rather than re-derive it.
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against [[wiki/health/cocaine]]
 > (2026-08-26), which added a happiness-rate counter-measure to the same
