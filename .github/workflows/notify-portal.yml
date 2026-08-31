@@ -39,30 +39,33 @@
 # carries: a read path added on one side has to be added on the other, and the
 # way to check is `grep 'join(SOURCE' scripts/sync-wiki.mjs` in the portal.
 #
-# ---- it is switched off, and that is a decision rather than a failure -------
+# ---- re-enabled 2026-08-31, because the trade it was switched off for stopped
+# ---- holding -----------------------------------------------------------------
 #
-# This workflow no longer runs on a push. The `push:` trigger is commented out
-# below and only `workflow_dispatch` remains, so it fires when a person asks it
-# to and never otherwise.
+# It was switched off from roughly 2026-08-31T00:02 to later the same day on the
+# reasoning directly below: the portal's own schedule, moved to every five
+# minutes, would cover the gap without needing this cross-repository credential.
+# That reasoning assumed GitHub actually runs a `*/5 * * * *` schedule every five
+# minutes. It does not, reliably, at this frequency: checked the same day against
+# `caakehorn/home`'s Actions history, the schedule-triggered runs of
+# `sync-wiki.yml` after the interval was tightened were **05:29, 14:13, then
+# 20:07** — gaps of 8h44m and 5h54m, not 5–15 minutes. That is worse than the
+# hourly cron it replaced, not better, and it means the portal was silently
+# running on nothing but scheduled luck for most of that day, with the "sync
+# behind" banner as the only visible symptom, on the one page a visitor would
+# have to know to go looking for.
 #
-# The token it needs was never restored, and the portal's own schedule was moved
-# from hourly to every five minutes on the same day to cover the gap instead —
-# see `.github/workflows/sync-wiki.yml` in caakehorn/home. That is slower than a
-# dispatch and it needs no cross-repository credential, which was the trade the
-# operator asked for.
-#
-# Left switched off rather than deleted, on purpose. A workflow whose only job
-# is impossible would fail red on every push, and a red mark nobody can clear is
-# how a repository teaches its owner to stop reading the Actions tab — which is
-# the same disease as the green run below, wearing the other colour. Everything
-# needed to bring it back is still here.
-#
-# To re-enable, in this order:
+# So the push trigger is back, and the fallback is now what it was originally
+# meant to be — a backstop for the schedule's own bad days, not the only
+# mechanism. Nothing about the "it used to ship inert" failure below is
+# reopened: the loud `exit 1` on a missing token stays exactly as it was, so if
+# `PORTAL_DISPATCH_TOKEN` is not present this job goes red on the next matching
+# push rather than lying green. That is deliberate and it is not a regression —
+# see the section below. A red run here right now means exactly one thing: the
+# secret still needs to be added. To finish closing the loop:
 #   1. add PORTAL_DISPATCH_TOKEN to this repository's secrets — a fine-grained
 #      PAT on caakehorn/home with Contents: read and write
-#   2. uncomment the `push:` block below
-# Do the secret first. The check at the bottom is loud now, so a push with the
-# trigger back and no token is a red run, which is correct and also avoidable.
+# The `push:` block below no longer needs uncommenting — that step is done.
 #
 # ---- it used to ship inert, and that is the bug this file now carries -------
 #
@@ -97,16 +100,16 @@
 name: Tell the portal the wiki moved
 
 on:
-  # DORMANT since 2026-08-31 — see "it is switched off" at the top of this file.
-  # Re-enabling is this block and a secret, nothing else.
-  #
-  # push:
-  #   branches: [main]
-  #   paths:
-  #     - 'wiki/**'
-  #     - 'sage/questions/**'
-  #     - 'plain/**'
-  #     - 'lexicon/words/**'
+  # RE-ENABLED 2026-08-31 — see the top of this file. Needs PORTAL_DISPATCH_TOKEN
+  # in this repository's secrets to actually dispatch; until it's added, a push
+  # touching these paths fails loudly instead of silently doing nothing.
+  push:
+    branches: [main]
+    paths:
+      - 'wiki/**'
+      - 'sage/questions/**'
+      - 'plain/**'
+      - 'lexicon/words/**'
   workflow_dispatch:
 
 # Read-only here; the write this performs is on the other repository, with the
