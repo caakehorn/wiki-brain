@@ -4,6 +4,83 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-08-31] - Session: the intake ledger's first export
+
+* **Model:** Claude Code (remote) · **Branch:** `claude/ingest-intake-ledger-cbfbsf` (wiki-brain only).
+* **Trigger:** operator uploaded `intakeledger20260831.jsonl` — "ingest yesterday's intake ledger".
+
+**The ledger was empty.** `intake/events.jsonl` was tracked at zero bytes on
+`main`; the nights it had been recording lived only on the phone. 17 events, 4
+units, one night (2026-08-30/31) are now filed.
+
+**Read these before touching the ledger again:**
+
+1. **`bin/intake capture` exists now, and you will need it.** The portal and
+   ボスの部屋 never call `close`, so every unit closed from a phone arrives with
+   no `raw/` archive and **no gate says so** — the capture lives outside the
+   data `check` compares. Run it after any export. A backfilled capture says
+   `BACKFILLED` on its face; that line is load-bearing and is not cosmetic.
+2. **Never cite `report`'s `Rate of consumption ... g / day`.** It extrapolates
+   the unit's quantity across 24 hours from however long the unit lived. The one
+   cocaine unit here reports **1.89 g / day** for 0.75 g consumed in an evening.
+   It is a restatement of the unit's lifespan, not a daily figure. This is
+   written on `wiki/health/cocaine.md`, in `intake/README.md` and in `queue.md`,
+   because it is the single most quotable wrong number the tool produces.
+3. **The portal writes substances as free text with a null `substance_id`.**
+   Grouping now folds on the catalog id where there is one, so a typo costs one
+   row instead of forking `SUMMARY.md` into two headings with two means. If a
+   new interface appears, check what it puts in that field.
+4. **Coverage is not precision.** All 6 cocaine events carry a quantity, and
+   four of them carry exactly 0.1 g because that is the `ONE LINE` preset —
+   which `substances.json` itself defines as *estimated, low confidence*. They
+   reached the log flagged `measured`. The 100% coverage figure is honest about
+   how many events have a number and optimistic about where the numbers came
+   from. Whether the portal is mislabelling presets as measured is **worth
+   checking in `caakehorn/home`'s `/ledger` and in ボスの部屋** — this pass did
+   not, and it would change what every future coverage line means.
+
+**Three `bin/intake` defects fixed**, all found by trying to file the export,
+all with tests: `merge_lines` ordering same-timestamp bursts by a random ULID
+tail (a unit closed before it was opened; `check` caught it); `cross_stats`
+grouping by display string; and the missing `raw/` archives. `correct` also
+gained `--substance`, which it had no path to at all. 11 tests added, suite 297.
+
+**On the wiki:** `wiki/health/cocaine.md` gains "The first measured night" —
+the first quantity on that page that is not recollection, landing inside the
+self-reported 0.5–1 g/day band, with `n = 1` stated four different ways because
+the figures invite the error. Its "Post-2026 dosage state" gap is **narrowed,
+not closed**: what is still missing is a denominator.
+`wiki/health/chemical-architecture.md` gains the same night against its
+"Daily" rows. Two dependents got real re-checks — `the-configured-body` (the
+ledger is the specification and surveillance modes at new rigour, with no
+repair; prediction 4 now *leans*) and `ancestral-dialectic` (the two substances
+interleaved rather than alternating on the one measured night — not a
+falsification, but not what the two-regulators model predicts either).
+
+> **One thing to know about `ancestral-dialectic`, because it is the trap
+> `CLAUDE.md` warns about and this session walked into it.** Bumping that page's
+> `date_modified` to 2026-08-31 cleared **seven** unrelated stale premises from
+> `WORK.md` in one move, none of which had been re-read. It was reverted, the
+> date is back at 2026-08-02, and the page now says on its face which seven are
+> still owed. Check the obligation count before and after any date bump: `93`
+> before this pass and `93` after is the number that proves nothing was hidden.
+
+**Left alone, deliberately.** The 90 pre-existing stale premises. The two 0.1 g
+cocaine events seven seconds apart at 20:05 were **not** voided — a double-tap is
+plausible, but the unit reconciles to exactly 0.75 g with both counted, and that
+is evidence they were both real. Two skill candidates parked in `skills/INBOX.md`
+(now 5), neither promoted: each needs a second instance, and the named
+candidates are `skills/registry/events.jsonl` for the tie-break and any second
+contents-API interface for the side-effect gap.
+
+**The next thing that should happen here.** One night is a datapoint, not a
+pattern, and no synthesis should be built on it. The ledger becomes interesting
+at roughly a fortnight — enough units for `bin/intake stats` to say something
+about unit lifespan and dose drift that a single night cannot. Until then the
+useful work is making sure the record keeps arriving: check that the portal's
+preset labelling is honest (point 4 above), and run `bin/intake capture` on
+every export.
+
 ### [2026-08-30] - Session: the skills section, made real
 
 * **Model:** Claude Code (remote) · **Branch:** `claude/wiki-brain-skills-section-fzuqw1` (wiki-brain only; `caakehorn/leviathan` untouched).

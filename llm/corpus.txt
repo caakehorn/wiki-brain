@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-31
-472 pages, ~1,519,529 tokens.
+472 pages, ~1,521,891 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -18,7 +18,7 @@ aliases: ["substance stack", "the chemical triad"]
 status: active
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-08-28
+date_modified: 2026-08-31
 sources:
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -28,6 +28,8 @@ sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-md/ADDICTION_PROFILE.md
   - raw/people/captures/2026-08-27_222932_gap-alexis-armel.md
+  - raw/health/intake/intake_unit_01M1AJ47K2HKZ8TZZ75CPNGFJ7.md
+  - intake/events.jsonl
 related:
   - wiki/self/context-core
   - wiki/mind/profile/deviance-mapping
@@ -94,9 +96,27 @@ neurochemical engineering" ([[wiki/mind/profile/deviance-mapping]]).
 | Suboxone | "System stabilizer — chassis & OS" | Daily since 2010-02-17 (day-zero pinned; earlier docs said ~Jan 2010/Jan 2011); prevents withdrawal; the residual "1% opiate glow" described as intentional |
 | Cocaine ([[wiki/health/cocaine]]) | "Cognitive & drive accelerator — CPU & RAM" | Daily; framed as tool, "voltage," focus sharpener — full profile, dosage arc and supply history on its own page |
 | Nicotine | "Ritualistic regulator — thermal paste" | Smooths transitions between chemical states |
-| Cannabis | Creative lubricant | Daily |
+| Cannabis | Creative lubricant | Daily; first dated measurement 2026-08-30/31 — three one-hitter units (0.05 g each) inside nine hours |
 | Alcohol | **Zero** | 13–15 years abstinent; active aversion; family pattern implicated in prior conflicts |
 | Psychedelics/other | Occasional | Mushrooms and klonopin appear in the Tom supply record |
+
+### The stack, measured rather than described — 2026-08-30/31
+
+Every "Daily" in the table above is a description the corpus took from Dan's
+own account of his system. The intake ledger began recording on 2026-08-30 and
+supplies the first night where two rows of it were written down as they
+happened: one **0.75 g cocaine unit** worked over 9h 31m in six doses, and
+**three separate 0.05 g cannabis units** at 22:06, 00:37 and 02:36, each opened
+and closed in a single action. The full unit report, its coverage caveats and
+what a single night cannot establish are on
+[[wiki/health/cocaine|cocaine]] — including the reason the ledger's
+"1.89 g / day" figure for that unit must not be read as a daily rate.
+
+The narrow finding for *this* page: on the one night the instrument was
+running, the stack behaved as the table describes it. Two rows corroborated,
+on one night, by a first-party dated record rather than by recollection. The
+Suboxone and nicotine rows have no ledger entries at all and remain
+description.
 
 ## History
 
@@ -290,7 +310,7 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-28
+date_modified: 2026-08-31
 sources:
   - raw/self/dox-md/ADDICTION_PROFILE.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -300,6 +320,8 @@ sources:
   - raw/self/dox-md/operating_manual.md
   - raw/self/dox-md/MAX_PRIME.md
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
+  - raw/health/intake/intake_unit_01M1AJ47K2HKZ8TZZ75CPNGFJ7.md
+  - intake/events.jsonl
 synthesizes:
   - wiki/health/chemical-architecture
   - wiki/mind/synthesis/supply-network
@@ -484,6 +506,81 @@ not by any internal ceiling** — and the later reduction is framed
 explicitly as a **resource adjustment, not a step toward moderation or
 recovery**. The daily-cocaine baseline sits atop a 96th-percentile
 impulsiveness score in the deviance audit.
+
+## The first measured night — 2026-08-30/31
+
+Every quantity above this line is recollection. On the night of 2026-08-30 the
+intake ledger recorded a cocaine unit from end to end, and it is the first
+figure on this page that was written down as it happened rather than
+reconstructed afterwards.
+
+**Unit `intake_unit_01M1AJ47K2HKZ8TZZ75CPNGFJ7`** — 0.75 g, received 17:04 on
+Aug 30, closed 02:35 on Aug 31, disposition *consumed*, reconciled balanced with
+nothing unaccounted for.
+
+| | |
+|---|---|
+| Duration | 9h 31m, received to close |
+| Intake events | 6 — 4 flagged measured, 2 estimated, 0 unquantified |
+| Quantified intake | 0.75 g (0.4 g measured, 0.35 g estimated) |
+| Median dose | 0.1 g · mean 0.125 g · largest 0.25 g |
+| Dose variability | 0.49 CV |
+| Median interval | 1h 07m · mean 1h 18m |
+| Peak window | Aug 30, 8pm–midnight — 5 of the 6 events inside five hours |
+| Coverage | 6 of 6 events carry a quantity |
+
+The shape of the night is front-loaded and then closed out: five doses of 0.1 g
+between 20:05 and 00:01, a two-and-a-half-hour gap, then a single 0.25 g at
+02:35 that finished the unit and closed it thirteen seconds later. The first
+dose (0.1 g) is smaller than the later mean (0.13 g); the largest dose is the
+last one.
+
+**What this settles, which is less than it looks.** The dosage arc above puts
+2020–present at ~0.5–1 g/day on the strength of a retrospective self-report.
+This night lands inside that band — 0.75 g, gone in under ten hours — so the
+first measurement the corpus has does not contradict the recollection it was
+set against. That is worth something, and it is the whole of it.
+
+**What it does not settle, stated plainly because the figures invite the
+error:**
+
+- **This is one unit on one night.** It establishes nothing about a daily rate,
+  a weekly rate, or whether this night was typical. `n = 1`.
+- **The ledger prints "Rate of consumption 1.89 g / day" for this unit. Do not
+  cite that as a daily figure**, here or anywhere. It is 0.75 g extrapolated
+  across 24 hours from a unit that existed for 9h 31m — an arithmetic
+  restatement of the unit's lifespan, not an observation about any day.
+- **The "measured" flags probably overstate the precision.** Four of the six
+  events carry exactly 0.1 g, which is the value of the portal's `ONE LINE`
+  preset — and `intake/substances.json` defines that preset as *estimated, low
+  confidence*, calling 0.1 g "by eye, the widest-spread estimate here". They
+  reached the log flagged `measured` anyway. The 100% coverage figure is
+  therefore honest about how many events carry a number and optimistic about
+  where those numbers came from.
+- **An unlogged night is indistinguishable here from a night with nothing in
+  it.** The ledger records what was logged. Its silence before 2026-08-30 is
+  the absence of a ledger, not the absence of use.
+
+No synthesis is built on this and none should be until there are more units. One
+night is a datapoint; the reason it is on the page is that the page had no
+measured ones at all.
+
+**The same night, cannabis.** Three separate single-serving cannabis units were
+opened, consumed and closed inside the same window — 0.05 g at 22:06, 0.05 g at
+00:37, 0.05 g at 02:36 — each the one-hitter preset. The last of them was opened
+**24 seconds after the cocaine unit closed**. That is the first dated
+corroboration of the "daily cannabis" entry on
+[[wiki/health/chemical-architecture|chemical-architecture]], and the sequencing
+at the end of the night is an observation about one night, not a pattern.
+
+> **Provenance.** These four units were logged through the portal on a phone and
+> reached this repository as an export filed on 2026-08-31. Two corrections are
+> on the log and visible in it: unit 2's substance was typed `cannibis`, and
+> unit 4 was opened and logged in milligrams where cannabis defaults to grams.
+> Neither touched the cocaine unit. The per-unit archives under
+> `raw/health/intake/` were backfilled rather than written at close, and say so
+> on their face — the portal does not call `close`, so no capture was filed that
+> night.
 
 ## Role in the chemical stack
 
@@ -684,9 +781,14 @@ better living" reading a bare dosage increase might otherwise invite.
 - **Prescriber information and medical oversight**: No prescriber, clinic,
   or medical record for the cocaine use appears anywhere in the corpus —
   it is entirely self-directed and undocumented by any clinical source.
-- **Post-2026 dosage state**: The dosage arc is documented through the
-  inheritance exhaustion (~2020 onward), but no figure is on record for
-  the 2026–present window, when Bop replaced Tom as the daily node.
+- **Post-2026 dosage state**: partially answered, and narrowed rather than
+  closed. The dosage arc is documented through the inheritance exhaustion
+  (~2020 onward) from self-report; the intake ledger now supplies one measured
+  unit — 0.75 g over 9h 31m on 2026-08-30/31 — inside the stated 0.5–1 g/day
+  band. What is still missing is any *rate*: one unit cannot say how many
+  nights like it there are in a week, and the ledger's silence before
+  2026-08-30 is the absence of an instrument rather than the absence of use.
+  This gap closes when the ledger has run long enough to have a denominator.
 - **The cocaine–bulimia link** is stated in a self-audit but never
   independently corroborated by any source outside Dan's own retrospective
   account.
@@ -940,7 +1042,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-28
+date_modified: 2026-08-31
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -995,6 +1097,36 @@ connections:
 > five-day tenure figure reattributed from Franki Faris to Alexis Armel, a
 > 2013 Uniontown-era detail unrelated to chemical history). **No claim on
 > this page is affected.**
+
+> **RE-CHECKED [2026-08-31] — both chemical premises moved, and the movement
+> is on this page's side.** [[wiki/health/cocaine]] and
+> [[wiki/health/chemical-architecture]] both gained the intake ledger's first
+> measured night (2026-08-30/31: one 0.75 g cocaine unit over 9h 31m in six
+> doses, three 0.05 g cannabis units; the unit reconciled with nothing
+> unaccounted for, and four of the six cocaine doses were entered through a
+> one-tap preset that fills in 0.1 g, so the record is less exactly weighed than
+> its coverage figure suggests). Nothing in it touches the dosage arc this page cites,
+> and no claim here is withdrawn — but the *instrument* is worth naming, because
+> it is a new instance of the structure this page argues for rather than a
+> complication of it. Dan built a ledger that records the inputs to a tenth of a
+> gram, with a reconciliation step that refuses to close a unit while quantity
+> is unaccounted for. That is the specification mode and the monitoring mode
+> both, running at a new level of rigour. It produces no repair. A record this
+> precise about what goes in, kept by somebody with no primary care, no labs and
+> no dental in seventeen years, is the **missing middle mode stated in a new
+> register** — the body measured at the input and read at the output, and still
+> never serviced. Falsifier 2 is untouched: the ledger shows no dose changed for
+> a health reason, because it shows no dose changed for any stated reason at all.
+>
+> **Prediction 4 is not settled, but it is leaning.** It says any future "health
+> kick" in the record will be an input regime — a diet, a stack change, a
+> substance protocol — and never a course of treatment or a follow-up schedule.
+> The ledger is the first new self-directed bodily regime to enter the corpus
+> since that prediction was written, and it is an input-measurement regime with
+> no treatment arm anywhere in it. It is *not* squarely a health kick, which is
+> why this is a lean and not a resolution: it was built to hold the record
+> honest, not to improve anything. Recorded here so the next reader can settle
+> it rather than re-derive it.
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against [[wiki/health/cocaine]]
 > (2026-08-26), which added a happiness-rate counter-measure to the same
@@ -8978,13 +9110,16 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-30** — 5 pages
+**2026-08-31** — 6 pages
+  - ingest | health | the intake ledger's first export (2026-08-30/31)
+
+**2026-08-30** — 2 pages
   - build | meta | the skills section was a contract with no counterparty
   - tool | health | the intake ledger — `bin/intake`, `intake/`, Special:Intake
   - infra | intake | the portal as a third interface, and the guard that actually guards
   - declare | meta | the skills section becomes a cross-model database
 
-**2026-08-28** — 39 pages
+**2026-08-28** — 36 pages
   - feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch
   - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
@@ -9037,13 +9172,6 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - close | timeline/mind | estate-money-spine and fran-death-vigil integrated, cascades re-checked
   - close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked
   - close | people | ally-lubin — the love letter and the mutual-correction finding integrated, three dependents re-checked
-
-**2026-08-23** — 18 pages
-  - directive | people | the Annie record is closed — no further texts, no further narrative
-  - lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
-  - ingest | people | five new entries, and the Ulmer household turns out to be the corpus's largest blind spot
-  - close | people | Libby is Libby Titus, she died in October 2024, and the corpus had her married name all along
-  - report | mind | texting deviance audit — the operator's model of his own texting was two-thirds wrong
 
 ## Pages that reason from other pages
 
@@ -9727,7 +9855,7 @@ new knowledge available, because no new source is required.
 ### health (11)
 
 - **[[wiki/health/cocaine]]** — **Prescriber information and medical oversight**: No prescriber, clinic, or medical record for the cocaine use appears anywhere in the corpus — it is entirely self-directed and undocumented by any clinical source.
-- **[[wiki/health/cocaine]]** — **Post-2026 dosage state**: The dosage arc is documented through the inheritance exhaustion (~2020 onward), but no figure is on record for the 2026–present window, when Bop replaced Tom as the daily node.
+- **[[wiki/health/cocaine]]** — **Post-2026 dosage state**: partially answered, and narrowed rather than closed. The dosage arc is documented through the inheritance exhaustion (~2020 onward) from self-report; the intake ledger now supplies one measured unit — 0.75 g over 9h 31m on 2026-08-3
 - **[[wiki/health/cocaine]]** — **The cocaine–bulimia link** is stated in a self-audit but never independently corroborated by any source outside Dan's own retrospective account.
 - **[[wiki/health/cocaine]]** — **Product specificity in the NYC era**: Menore's product is still not positively identified, but the question is narrower than it was — see the re-check below. It is *not* weed, it is sold in **bags**, and the thread's silence on the point is now measured rath
 - **[[wiki/health/cocaine]]** — **The true scale of the 2017–2020 spend**: The dosage arc gives quantities but not dollar figures; the financial cost of the 3.5–7g daily peak is undocumented.
@@ -10266,23 +10394,28 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-30 — 5 pages
+## 2026-08-31 — 6 pages
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/health/chemical-architecture]] | health | _(carries a GAP CLOSED from 2026-08-28)_ |
+| [[wiki/health/cocaine]] | health | _(carries a RE-CHECKED from 2026-08-28)_ |
+| [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — cocaine and chemical-architecture both gained the intake ledger's first measured night (2026-08-30/31: one 0.75 g cocaine unit over 9h 31m in six doses, three 0.05 g cannabis units; the unit reconcile |
 | [[wiki/meta/digest]] | meta | — |
-| [[wiki/meta/index]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
+
+## 2026-08-30 — 2 pages
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/meta/index]] | meta | — |
 | [[wiki/meta/skills]] | meta | — |
 
-## 2026-08-28 — 39 pages
+## 2026-08-28 — 36 pages
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/health/chemical-architecture]] | health | **GAP CLOSED** — This page has always stated the February 17, 2010 day-zero without naming what the last active-use episode before it was. A 2026-08-27 operator capture (`raw/people/captures/2026-08-27_222932_gap-alex |
-| [[wiki/health/cocaine]] | health | **RE-CHECKED** — flagged stale against chemical-architecture (2026-08-28), which added the previously-unnamed final pre-Suboxone opiate relapse (Alexis, Thanksgiving 2009, thirty Roxicet pills) to the **opiate** arc.  |
-| [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — flagged stale against the-deferred-audit (2026-08-28), which gained a RE-CHECKED note tracing back to a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris to Alexi |
 | [[wiki/interests/food-and-diet]] | interests | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/legal/2015-possession-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
 | [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — totality-themes gained two RE-CHECKED notes (2026-08-28) confirming a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris to Alexis Armel) touches neither page. **N |
@@ -10579,13 +10712,6 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/people/jacob-bacharach]] | people | **CONTRADICTION** — Dan attributes the Virginia Avenue passage to ***The Bend of the World*** (2014) and cites pages 227–228. Bacharach's own February 2021 message names a different novel as the Uniontown book: *"it figu |
-
-## 2026-08-03 — 2 pages
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/people/jack-connor]] | people | — |
-| [[wiki/people/lucy]] | people | — |
 
 
 
@@ -20092,6 +20218,41 @@ self-model — engineering, not indulgence. Nothing here contradicts that
 page; it supplies a proposed *cause* (two incompatible ancestral codes
 needing separate chemical regulators) for an *effect* the wiki had
 already described without explaining.
+
+> **RE-CHECKED [2026-08-31] — the premise moved, and for once it moved with
+> data that bears on this page directly.** [[wiki/health/chemical-architecture]]
+> gained the intake ledger's first measured night. The model above assigns
+> cocaine to the analytical/Ashkenazi mode and cannabis to the
+> dissociative/Appalachian one — two regulators for two codes. On the one night
+> now on record they did not run in separate blocks. Each cannabis unit follows
+> a cocaine dose closely and never replaces one: 22:06:36 arrives 53 seconds
+> after the 22:05:43 dose, 00:37:40 falls between the 00:01 and 02:35 doses, and
+> 02:36:01 opens 24 seconds after the cocaine unit closed for the night. The two
+> substances interleave, with cannabis trailing cocaine every time.
+>
+> **This is not a falsification and is not written as one.** The page's claim is
+> about which mode each substance *amplifies*, and two amplifiers can run
+> concurrently — an interleaved night is compatible with the model as stated. It
+> is, however, a specific thing the model did not predict, and a reading that
+> expected alternation between two ancestral scripts now has one night of
+> evidence against it. `n = 1`; the ledger began recording on 2026-08-30 and its
+> silence before that date is the absence of an instrument. No claim withdrawn,
+> and this is worth re-checking once the ledger has more nights than it has
+> hypotheses.
+>
+> **`date_modified` is deliberately NOT bumped for this note, and that is the
+> point of the note's last paragraph.** This page carries seven other stale
+> premises that predate this pass — `wiki/self/lineage/23andme-genomics`,
+> `wiki/self/lineage/family-tree`, `wiki/self/lineage/hybrid-analysis`,
+> `wiki/self/ancestry`, `wiki/mind/concepts/attachment-model`,
+> `wiki/mind/synthesis/fayette-return` and
+> `wiki/mind/synthesis/instrument-is-subject` — and **none of them was
+> re-read here.** Bumping the date to 2026-08-31 was tried and reverted: it
+> cleared all seven from `WORK.md` in one move, without anybody having looked
+> at any of them. That is the failure `CLAUDE.md` calls the one that corrupts
+> the system quietly, and it is worth more to this page to stay flagged than to
+> look tidy. The seven are still owed. This block is a re-check of the chemical
+> premise only, and claims nothing about the other seven.
 
 **Gaps:** this entire page rests on one AI-authored report's synthesis of
 family-tree data plus the existing psych corpus — it should not be

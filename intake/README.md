@@ -201,9 +201,31 @@ bin/intake report 1                 the unit report, plus every event
 bin/intake stats --substance cocaine --since 2026-01-01
 bin/intake units --all
 bin/intake rebuild                  units.json from the log
+bin/intake capture                  file raw/ archives for closed units missing one
 bin/intake check                    the gate — runs inside bin/wiki-check
 bin/intake export                   the whole ledger as one JSON document
 ```
+
+### What the portal does not do
+
+`close` files the unit's archive to `raw/health/intake/` as well as appending
+the `unit_closed` event. The portal and ボスの部屋 write events straight to
+`events.jsonl` through the contents API and never call `close`, so a unit closed
+from a phone — which is most of them — reaches the ledger with **no archive
+entry at all**, and no gate reports it, because the capture lives outside the
+data `check` compares. Run `bin/intake capture` after ingesting an export. A
+capture written that way says `BACKFILLED` on its face and explains that its
+figures were computed later, from the log as it then stood: the archive's whole
+warrant is that it cannot be quietly restated, so one that *was* written later
+must not carry the sentence claiming otherwise.
+
+### One figure that is not what it looks like
+
+`report` prints `Rate of consumption — N g / day`. That is the unit's quantity
+extrapolated across 24 hours from however long the unit actually lived. A 0.75 g
+unit consumed over an evening reports **1.89 g / day**, which is not a
+statement about any day. It is a restatement of the unit's lifespan. Do not cite
+it as a consumption rate, on a page or anywhere else.
 
 Units convert inside a family and never across one: milligrams are grams,
 millilitres are not, and `2 tab` is never `2 g`. A cross-family log is an error,

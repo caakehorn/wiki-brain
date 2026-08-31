@@ -47,13 +47,16 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-08-30** — 5 pages
+**2026-08-31** — 6 pages
+  - ingest | health | the intake ledger's first export (2026-08-30/31)
+
+**2026-08-30** — 2 pages
   - build | meta | the skills section was a contract with no counterparty
   - tool | health | the intake ledger — `bin/intake`, `intake/`, Special:Intake
   - infra | intake | the portal as a third interface, and the guard that actually guards
   - declare | meta | the skills section becomes a cross-model database
 
-**2026-08-28** — 39 pages
+**2026-08-28** — 36 pages
   - feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch
   - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
@@ -106,13 +109,6 @@ this is the state of the thing.
   - close | timeline/mind | estate-money-spine and fran-death-vigil integrated, cascades re-checked
   - close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked
   - close | people | ally-lubin — the love letter and the mutual-correction finding integrated, three dependents re-checked
-
-**2026-08-23** — 18 pages
-  - directive | people | the Annie record is closed — no further texts, no further narrative
-  - lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
-  - ingest | people | five new entries, and the Ulmer household turns out to be the corpus's largest blind spot
-  - close | people | Libby is Libby Titus, she died in October 2024, and the corpus had her married name all along
-  - report | mind | texting deviance audit — the operator's model of his own texting was two-thirds wrong
 
 ## Pages that reason from other pages
 

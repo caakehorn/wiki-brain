@@ -1074,7 +1074,7 @@ class Ops:
         self.L.write_projection()
         return gained, len(merged)
 
-    def write_capture(self, unit):
+    def write_capture(self, unit, backfilled=None):
         """The immutable record of a closed unit, filed to raw/.
 
         Same shape as the sage captures: `intake/` is a working ledger whose
@@ -1084,7 +1084,8 @@ class Ops:
         """
         self.L.captures.mkdir(parents=True, exist_ok=True)
         path = self.L.captures / f"{unit['id']}.md"
-        path.write_text(render_report(unit, capture=True), encoding="utf-8")
+        path.write_text(render_report(unit, capture=True, backfilled=backfilled),
+                        encoding="utf-8")
         return path
 
 
@@ -1133,11 +1134,16 @@ def coverage_line(a):
     return base + f" — {e['measured']} weighed, {e['estimated']} estimated"
 
 
-def render_report(unit, capture=False):
+def render_report(unit, capture=False, backfilled=None):
     a = unit["analysis"]
     bu = unit["quantity_unit"]
     L = []
     if capture:
+        # A backfilled capture says so. The archive's whole value is that it was
+        # computed at close and cannot be quietly restated later — so one that
+        # was NOT must not carry the sentence claiming it was. A unit closed
+        # from the portal reaches raw/ days later, through whatever version of
+        # this code is current, and a reader has to be able to tell.
         L += [
             "---",
             f"unit_id: {unit['id']}",
@@ -1146,16 +1152,26 @@ def render_report(unit, capture=False):
             f"closed: {unit['closed_at']}",
             f"initial_quantity: {unit['initial_quantity']} {bu}",
             f"disposition: {unit['disposition']}",
-            "source: bin/intake — generated once at close, never revised",
+            ("source: bin/intake — generated once at close, never revised"
+             if not backfilled else
+             f"source: bin/intake capture — BACKFILLED {backfilled}, not written at close"),
             "---",
             "",
             f"# Intake unit report — {unit['substance']} · #{unit['ordinal']}",
             "",
+        ]
+        L += ([
             "Written when the unit closed. `intake/units.json` holds the live projection;",
             "this file is the archive copy and is not regenerated.",
-            "",
-            "```",
-        ]
+        ] if not backfilled else [
+            f"**Backfilled on {backfilled}, not written at close.** This unit was closed",
+            "through the portal, which writes events straight to `intake/events.jsonl`",
+            "and never calls `close`, so no capture was filed at the time. The figures",
+            "below are computed from the log as it stands now — including any correction",
+            "recorded after the unit closed — rather than as they stood that night.",
+            "From here it is the archive copy and is not regenerated.",
+        ])
+        L += ["", "```"]
     L += [
         "UNIT REPORT",
         f"{unit['substance']} · unit #{unit['ordinal']} · {unit['id']}",
@@ -1826,6 +1842,9 @@ def build_parser():
 
     sub.add_parser("summary", help="regenerate intake/SUMMARY.md, the wiki's analysis surface")
     sub.add_parser("rebuild", help="regenerate intake/units.json from the log")
+    p = sub.add_parser("capture", help="file the raw/ archive for closed units that have none")
+    p.add_argument("unit", nargs="?", default=None,
+                   help="a unit number or id; omit it to do every closed unit missing one")
     sub.add_parser("check", help="gate: the log parses, the projection matches")
     p = sub.add_parser("export", help="the whole ledger as one JSON document")
     p.add_argument("--out", help="write here instead of stdout")
@@ -1881,6 +1900,28 @@ def main(argv=None):
         payload = L.write_projection()
         print(f"wrote intake/SUMMARY.md and intake/units.json — "
               f"{len(payload['units'])} unit(s) from {payload['event_count']} event(s)")
+        return 0
+
+    if cmd == "capture":
+        # `close` files the capture, but only the CLI and the local app go
+        # through `close`. The portal and ボスの部屋 write the events straight
+        # to events.jsonl through the contents API, so a unit closed from a
+        # phone — which the README expects to be most of them — reaches the
+        # ledger with no archive entry at all. This backfills those.
+        units = L.project()
+        if args.unit:
+            units = [L.find_unit(args.unit)]
+        wrote = 0
+        for u in units:
+            if u["status"] != "closed":
+                continue
+            if (L.captures / f"{u['id']}.md").exists():
+                continue
+            path = ops.write_capture(u, backfilled=now_iso()[:10])
+            print(f"filed {path.relative_to(L.root)}")
+            wrote += 1
+        if not wrote:
+            print("every closed unit already has its capture.")
         return 0
 
     if cmd == "rebuild":

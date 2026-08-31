@@ -7,7 +7,7 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-28
+date_modified: 2026-08-31
 sources:
   - raw/self/dox-md/ADDICTION_PROFILE.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -17,6 +17,8 @@ sources:
   - raw/self/dox-md/operating_manual.md
   - raw/self/dox-md/MAX_PRIME.md
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
+  - raw/health/intake/intake_unit_01M1AJ47K2HKZ8TZZ75CPNGFJ7.md
+  - intake/events.jsonl
 synthesizes:
   - wiki/health/chemical-architecture
   - wiki/mind/synthesis/supply-network
@@ -201,6 +203,81 @@ not by any internal ceiling** — and the later reduction is framed
 explicitly as a **resource adjustment, not a step toward moderation or
 recovery**. The daily-cocaine baseline sits atop a 96th-percentile
 impulsiveness score in the deviance audit.
+
+## The first measured night — 2026-08-30/31
+
+Every quantity above this line is recollection. On the night of 2026-08-30 the
+intake ledger recorded a cocaine unit from end to end, and it is the first
+figure on this page that was written down as it happened rather than
+reconstructed afterwards.
+
+**Unit `intake_unit_01M1AJ47K2HKZ8TZZ75CPNGFJ7`** — 0.75 g, received 17:04 on
+Aug 30, closed 02:35 on Aug 31, disposition *consumed*, reconciled balanced with
+nothing unaccounted for.
+
+| | |
+|---|---|
+| Duration | 9h 31m, received to close |
+| Intake events | 6 — 4 flagged measured, 2 estimated, 0 unquantified |
+| Quantified intake | 0.75 g (0.4 g measured, 0.35 g estimated) |
+| Median dose | 0.1 g · mean 0.125 g · largest 0.25 g |
+| Dose variability | 0.49 CV |
+| Median interval | 1h 07m · mean 1h 18m |
+| Peak window | Aug 30, 8pm–midnight — 5 of the 6 events inside five hours |
+| Coverage | 6 of 6 events carry a quantity |
+
+The shape of the night is front-loaded and then closed out: five doses of 0.1 g
+between 20:05 and 00:01, a two-and-a-half-hour gap, then a single 0.25 g at
+02:35 that finished the unit and closed it thirteen seconds later. The first
+dose (0.1 g) is smaller than the later mean (0.13 g); the largest dose is the
+last one.
+
+**What this settles, which is less than it looks.** The dosage arc above puts
+2020–present at ~0.5–1 g/day on the strength of a retrospective self-report.
+This night lands inside that band — 0.75 g, gone in under ten hours — so the
+first measurement the corpus has does not contradict the recollection it was
+set against. That is worth something, and it is the whole of it.
+
+**What it does not settle, stated plainly because the figures invite the
+error:**
+
+- **This is one unit on one night.** It establishes nothing about a daily rate,
+  a weekly rate, or whether this night was typical. `n = 1`.
+- **The ledger prints "Rate of consumption 1.89 g / day" for this unit. Do not
+  cite that as a daily figure**, here or anywhere. It is 0.75 g extrapolated
+  across 24 hours from a unit that existed for 9h 31m — an arithmetic
+  restatement of the unit's lifespan, not an observation about any day.
+- **The "measured" flags probably overstate the precision.** Four of the six
+  events carry exactly 0.1 g, which is the value of the portal's `ONE LINE`
+  preset — and `intake/substances.json` defines that preset as *estimated, low
+  confidence*, calling 0.1 g "by eye, the widest-spread estimate here". They
+  reached the log flagged `measured` anyway. The 100% coverage figure is
+  therefore honest about how many events carry a number and optimistic about
+  where those numbers came from.
+- **An unlogged night is indistinguishable here from a night with nothing in
+  it.** The ledger records what was logged. Its silence before 2026-08-30 is
+  the absence of a ledger, not the absence of use.
+
+No synthesis is built on this and none should be until there are more units. One
+night is a datapoint; the reason it is on the page is that the page had no
+measured ones at all.
+
+**The same night, cannabis.** Three separate single-serving cannabis units were
+opened, consumed and closed inside the same window — 0.05 g at 22:06, 0.05 g at
+00:37, 0.05 g at 02:36 — each the one-hitter preset. The last of them was opened
+**24 seconds after the cocaine unit closed**. That is the first dated
+corroboration of the "daily cannabis" entry on
+[[wiki/health/chemical-architecture|chemical-architecture]], and the sequencing
+at the end of the night is an observation about one night, not a pattern.
+
+> **Provenance.** These four units were logged through the portal on a phone and
+> reached this repository as an export filed on 2026-08-31. Two corrections are
+> on the log and visible in it: unit 2's substance was typed `cannibis`, and
+> unit 4 was opened and logged in milligrams where cannabis defaults to grams.
+> Neither touched the cocaine unit. The per-unit archives under
+> `raw/health/intake/` were backfilled rather than written at close, and say so
+> on their face — the portal does not call `close`, so no capture was filed that
+> night.
 
 ## Role in the chemical stack
 
@@ -401,9 +478,14 @@ better living" reading a bare dosage increase might otherwise invite.
 - **Prescriber information and medical oversight**: No prescriber, clinic,
   or medical record for the cocaine use appears anywhere in the corpus —
   it is entirely self-directed and undocumented by any clinical source.
-- **Post-2026 dosage state**: The dosage arc is documented through the
-  inheritance exhaustion (~2020 onward), but no figure is on record for
-  the 2026–present window, when Bop replaced Tom as the daily node.
+- **Post-2026 dosage state**: partially answered, and narrowed rather than
+  closed. The dosage arc is documented through the inheritance exhaustion
+  (~2020 onward) from self-report; the intake ledger now supplies one measured
+  unit — 0.75 g over 9h 31m on 2026-08-30/31 — inside the stated 0.5–1 g/day
+  band. What is still missing is any *rate*: one unit cannot say how many
+  nights like it there are in a week, and the ledger's silence before
+  2026-08-30 is the absence of an instrument rather than the absence of use.
+  This gap closes when the ledger has run long enough to have a denominator.
 - **The cocaine–bulimia link** is stated in a self-audit but never
   independently corroborated by any source outside Dan's own retrospective
   account.

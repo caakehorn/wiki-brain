@@ -218,3 +218,28 @@ frontmatter), forensic-methodology (20 KB), context-core (14 KB), youtube-watch-
       `date_modified` is older than the commit before it, or whose `connections:`
       block has `- page:` entries with no `type:`. The connect gate catches the
       second; nothing catches the first.
+
+## [2026-08-31] intake ledger, first export — INGESTED
+
+The ledger had been running on the phone since 2026-08-30 while
+`intake/events.jsonl` sat tracked at zero bytes on `main`. The export covering
+that night was filed this pass.
+
+| Item | Status | Notes |
+|---|---|---|
+| `intakeledger20260831.jsonl` (17 events, 4 units) | **INGESTED 2026-08-31** | Merged into `intake/events.jsonl` by set union on event id, which is the documented merge and is now order-safe. Findings written onto [[wiki/health/cocaine]] and [[wiki/health/chemical-architecture]]; per-unit archives backfilled to `raw/health/intake/`. Three `bin/intake` defects fixed on the way in — see `log.md`. |
+
+**Standing, for the next export.** The ledger is not an inbox item and does not
+arrive through `inbox/`: it is written from a phone into `intake/events.jsonl`
+through GitHub's contents API, so most of the record will already be in the repo
+before any session sees it. What a session owes it is the *reading* — the merge
+is only the mechanical half. Re-run `bin/intake capture` after any pass that
+finds closed units (the portal does not file the `raw/` archive), and read
+`intake/SUMMARY.md`'s coverage line before quoting any figure from it.
+
+**One figure to never quote.** `bin/intake report` prints a per-unit
+`Rate of consumption ... g / day`. It extrapolates the unit's quantity across 24
+hours from however long the unit lived, so a unit consumed in an evening reports
+a daily rate more than double what was consumed that day. It is not a daily
+figure and no page may cite it as one.
+

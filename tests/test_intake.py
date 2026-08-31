@@ -759,6 +759,32 @@ class TestSubstanceGrouping(LedgerCase):
         self.assertEqual(st["substances"][0]["substance"], "Cannabis")
 
 
+class TestBackfilledCaptures(LedgerCase):
+    """A unit closed through the portal never reaches `close`, so nothing filed
+    its raw/ archive. `capture` backfills those — and must not claim the
+    backfill was written at close, which is the archive's whole warrant.
+    """
+
+    def closed_unit(self):
+        self.unit()
+        self.ops.log_intake(1, 0.5, "g", "measured", occurred_at="2026-08-01 13:00")
+        self.ops.close_unit(1, "consumed", resolution="discrepancy")
+
+    def test_a_backfilled_capture_says_it_was_backfilled(self):
+        self.closed_unit()
+        unit = self.L.find_unit(1)
+        path = self.ops.write_capture(unit, backfilled="2026-08-31")
+        text = path.read_text()
+        self.assertIn("BACKFILLED 2026-08-31", text)
+        self.assertNotIn("generated once at close, never revised", text)
+
+    def test_a_capture_written_at_close_still_claims_it(self):
+        self.closed_unit()
+        text = (self.L.captures / f"{self.L.find_unit(1)['id']}.md").read_text()
+        self.assertIn("generated once at close", text)
+        self.assertNotIn("BACKFILLED", text)
+
+
 class TestContract(unittest.TestCase):
     def test_help_runs(self):
         import subprocess

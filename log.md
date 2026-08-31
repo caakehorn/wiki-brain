@@ -7221,3 +7221,72 @@ would conclude the opposite and might relax the secret discipline accordingly.
 `intake/events.jsonl` is empty, so nothing personal has been published.
 
 Gates: `bin/wiki-check` all clean, 472 pages, 264 tests pass.
+
+## [2026-08-31] ingest | health | the intake ledger's first export (2026-08-30/31)
+
+**The ledger was empty until this pass.** `intake/events.jsonl` was tracked at
+zero bytes on `main`; the record of the nights it had been running lived only on
+the phone. This filed the first export: 17 events, 4 units, one night.
+
+**What is now on record.** One cocaine unit
+(`intake_unit_01M1AJ47K2HKZ8TZZ75CPNGFJ7`) — 0.75 g received 17:04 Aug 30,
+closed 02:35 Aug 31, consumed, balanced. Six intake events over 9h 31m, median
+dose 0.1 g, median interval 1h 07m, five of the six between 20:05 and 00:01 and
+a closing 0.25 g at 02:35. Three single-serving cannabis units of 0.05 g at
+22:06, 00:37 and 02:36, the last opened 24 seconds after the cocaine unit
+closed.
+
+**The finding, and its size.** `wiki/health/cocaine.md` carried a dosage arc
+whose 2020–present row (~0.5–1 g/day) came entirely from a retrospective
+self-report; the page's own "What's missing" said no figure was on record for
+the 2026 window. This night lands inside the stated band. That is the whole
+claim: one unit, one night, `n = 1`, no rate. The gap is narrowed on the page
+rather than marked closed, because what is still missing is a denominator.
+
+**Three traps written onto the page rather than left in the data.** The ledger
+prints `Rate of consumption 1.89 g / day` for this unit — that is 0.75 g
+extrapolated across 24 hours from a unit that lived 9h 31m, and it is not a
+daily figure. Four of the six events are flagged `measured` while carrying
+exactly 0.1 g, the value of the portal's `ONE LINE` preset, which
+`substances.json` itself defines as *estimated, low confidence* — so the 100%
+coverage figure is honest about how many events carry a number and optimistic
+about where the numbers came from. And the ledger's silence before 2026-08-30
+is the absence of an instrument, not the absence of use.
+
+**Three defects in `bin/intake`, all found by trying to file the export.**
+
+1. `merge_lines` ordered same-timestamp events by event id. A unit opened,
+   logged and closed in one tap writes three events sharing a timestamp to the
+   second, and a ULID's low half is random — so the burst merged in arbitrary
+   order and the log said a unit was closed before it was opened. `check`
+   rejected it, which is the system working; the merge produced it. The sort key
+   now ranks by what an event does to a unit before falling back to the id,
+   which keeps two devices merging to byte-identical files.
+2. `cross_stats` grouped units by the substance *display string*. The portal
+   sends the substance as free text with a null `substance_id`, so a single
+   `cannibis` typo opened its own heading in `SUMMARY.md` beside `cannabis`,
+   each with its own mean, neither looking wrong. Correcting the typo produced a
+   *third* heading (`Cannabis`, the catalog's name), which is how the grouping
+   defect surfaced at all. Grouping is now on the catalog id where there is one.
+3. **Every unit closed through the portal has no `raw/` archive.** `close`
+   files the capture, but the portal and ボスの部屋 write events straight to
+   `events.jsonl` through the contents API and never call `close` — and the
+   README expects most of the record to arrive that way. All four units here
+   were missing theirs. Added `bin/intake capture` to backfill, and made a
+   backfilled capture say so on its face: the archive's warrant is that it was
+   computed at close and cannot be quietly restated, so one that was not must
+   not carry the sentence claiming it was.
+
+**Two corrections recorded, both additive, both with reasons on the log:** unit
+2's `cannibis`, and unit 4 opened and logged as 0.05 mg where cannabis defaults
+to grams, the one-hitter preset is 0.05 g, and two identical units earlier the
+same night were both 0.05 g. **Not corrected, deliberately:** the two 0.1 g
+cocaine events seven seconds apart at 20:05. A double-tap is plausible, but the
+unit reconciles to exactly 0.75 g with both counted, and that is evidence they
+were both real.
+
+Also added: `bin/intake correct --substance`, because a unit opened against the
+wrong substance had no path back through the tool at all.
+
+Gates: `bin/wiki-check` all clean, 472 pages, 297 tests pass (11 added).
+
