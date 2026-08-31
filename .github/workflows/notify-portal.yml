@@ -39,19 +39,36 @@
 # carries: a read path added on one side has to be added on the other, and the
 # way to check is `grep 'join(SOURCE' scripts/sync-wiki.mjs` in the portal.
 #
-# ---- it ships inert, on purpose --------------------------------------------
+# ---- it used to ship inert, and that is the bug this file now carries -------
 #
 # `GITHUB_TOKEN` is scoped to the repository it runs in and cannot dispatch to
 # another one, so this needs a real token in `PORTAL_DISPATCH_TOKEN` — a
 # fine-grained PAT on `caakehorn/home` with **Contents: read and write**, which
 # is the permission `repository_dispatch` sits under.
 #
-# Without that secret the job reports what it would have sent and exits clean,
-# the same shape `sage-drain.yml` uses for `ANTHROPIC_API_KEY` and the portal's
-# deploy uses for `HOME_PASSPHRASE`. A workflow that fails red on every push
-# because a secret was never set is a workflow people learn to ignore, and the
-# hourly cron on the other side is still there as the backstop this replaces
-# nothing of.
+# Until 2026-08-31 a missing secret made this job print what it would have sent
+# and exit clean. The reasoning was that a workflow which fails red on every
+# push because a secret was never set is a workflow people learn to ignore, and
+# that the hourly cron on the other side is a real backstop.
+#
+# It did not survive contact. The secret stopped being present on 2026-08-28 —
+# the log reads `TOKEN:` with nothing after it — and this workflow then reported
+# **success eighteen times in a row while sending nothing**, including on runs
+# where its own `What moved` step had just counted a changed page. On the far
+# side `caakehorn/home` recorded no `repository_dispatch` at all for three days:
+# every edit merged here waited for the next `:17`. Nobody noticed, because
+# there was nothing to notice — green workflow, green deploy, and a site quietly
+# up to an hour behind the wiki it claims to be.
+#
+# That is the worse failure of the two. A red run on a repository whose owner
+# has not set a secret is a job somebody can decide to ignore; a green run that
+# did nothing is a job that has lied, and it takes a person reading two Actions
+# tabs side by side to catch it. The note further down already says a silent 401
+# "is exactly the failure this file exists to end" — a missing token is that
+# same failure wearing a friendlier message, so it is red now as well.
+#
+# The hourly cron is still there and still catches everything. What it cannot do
+# is tell anybody that it has become the only thing working.
 name: Tell the portal the wiki moved
 
 on:
@@ -113,11 +130,17 @@ jobs:
         run: |
           set -euo pipefail
           if [ -z "${TOKEN:-}" ]; then
-            echo '::notice::PORTAL_DISPATCH_TOKEN is not set — no dispatch sent.'
-            echo 'The portal will still catch up on its hourly cron (17 * * * *).'
-            echo 'To make this immediate, add a fine-grained PAT on caakehorn/home'
-            echo 'with Contents: read and write as PORTAL_DISPATCH_TOKEN here.'
-            exit 0
+            echo '::error::PORTAL_DISPATCH_TOKEN is not set — the portal was told nothing.'
+            echo
+            echo 'This is not a new problem with this push. Every push since 2026-08-28 has'
+            echo 'reported success here and dispatched nothing, and the portal has been'
+            echo 'catching up only on its hourly cron (17 * * * *) the whole time.'
+            echo
+            echo 'To fix it: create a fine-grained PAT with repository access limited to'
+            echo 'caakehorn/home and permission Contents: read and write — that is the'
+            echo 'permission repository_dispatch sits under — then add it to THIS repository'
+            echo 'as the secret PORTAL_DISPATCH_TOKEN.'
+            exit 1
           fi
 
           payload=$(printf '{"event_type":"wiki-updated","client_payload":{"slug":"%s","sage":%s,"pages":%s,"plain":%s,"words":%s,"commit":"%s"}}' \
