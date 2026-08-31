@@ -112,6 +112,18 @@ handling of the next one too.
 3. **Never clear a stale warning by bumping a date.** Re-read the premise that moved, decide whether the conclusion survives, record the decision. This is the one move that corrupts the system quietly.
 4. **Every conclusion is checked against the person before it is written.** A pattern found across N pages is a fact about those N pages until it has been read against Dan's cognitive stack, measured personality profile, historical precedent, attitudes and the forces acting on him, his current security and prosperity, health, romantic state, age and upbringing, geographic and ethnic culture, religious or ideological programming, and axiomatic politics. This is **the constitution pass**, it is mandatory and deterministic rather than a matter of judgment, and its eleven registers and worked failure case are in `SYNTHESIS_SPEC.md`. A rule that survives it is stronger; a rule that only survives by not looking is not a finding.
 
+**Comparative claims about people.** Do not infer that one person outranks
+another in significance or priority from message volume, emotional intensity,
+relationship duration, concurrent contact, crisis involvement, or from Dan
+having said different or contradictory things to each. None of those establish
+a ranking — contradictory communication in particular is evidence of
+compartmentalization, avoidance, impression management, uncertainty or a
+changed mind long before it is evidence of a hierarchy. A comparative priority
+claim requires direct evidence appropriate to that specific claim, and it is
+stated with its evidence and its scope or it is not stated. The reasoning
+patterns and the worked trap are in `skills/corpus/comparative-priority.md`;
+`bin/wiki-lessons route` loads it when the work touches two people at once.
+
 ## Architecture — plain files, one direction of flow
 
 ```

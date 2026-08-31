@@ -5,6 +5,24 @@ and its reason. `PROTOCOL.md` §6 forbids silently changing what a skill means, 
 a skill that is not named here has entered the corpus with no account of why it
 should be believed — and `bin/wiki-skills check` fails on exactly that.
 
+## 2026-08-31 — a ranking is a claim (operator directive)
+
+- Promoted `corpus/comparative-priority.md`. The operator established a standing
+  interpretive invariant: relational priority may not be inferred from message
+  volume, emotional intensity, relationship duration, concurrent contact, crisis
+  involvement, or from Dan having said different or contradictory things to two
+  people. Promoted rather than parked in `INBOX.md` under `PROTOCOL.md` §3's
+  third test — `CLAUDE.md` now carries the invariant in "the four things that
+  matter most", so a governing file already implies it and the skill carries the
+  reasoning that file has no room for.
+- The skill records the correction trap as well as the inference: an August 2026
+  draft "fixed" this on `ally-lubin` and `contact-gini` by replacing the exact
+  August 18–19 counts with "a three-figure margin" — deleting the evidence and
+  keeping the comparison. The rule is remove the conclusion, keep the record.
+- Scope note: this is an interpretive rule about how existing material is read
+  and how future comparisons are drawn. It is **not** a change to the Annie
+  moratorium and confers no permission to extend that record.
+
 ## 2026-08-30 — the subsystem is wired in
 
 The section shipped earlier today as seven markdown files describing a system

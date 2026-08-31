@@ -1,4 +1,4 @@
-WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-30
+WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-08-31
 472 pages, ~1,519,529 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
@@ -8928,7 +8928,7 @@ title: "Wiki Digest"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-08-30
+date_modified: 2026-08-31
 sources: []
 ---
 
@@ -8945,7 +8945,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 472 |
-| Pages touched in the last 14 days | 192 |
+| Pages touched in the last 14 days | 191 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 41 |
 | Open gaps | 484 |
@@ -9570,7 +9570,7 @@ title: "Open Questions"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-08-30
+date_modified: 2026-08-31
 sources: []
 ---
 
@@ -10248,7 +10248,7 @@ title: "Recent Activity"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-08-30
+date_modified: 2026-08-31
 sources: []
 ---
 

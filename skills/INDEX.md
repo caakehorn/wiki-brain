@@ -9,11 +9,12 @@ Read this before non-trivial repository work. Load skills by trigger, not by
 curiosity — `bin/wiki-lessons route "<what you are about to do>"` does the
 matching for you.
 
-## Routed (7)
+## Routed (8)
 
 | Skill | Trigger | Status | Validated |
 |---|---|---|---|
 | `agents/registry-push.md` | told to update the skills in the wiki; told to push skills, MCP servers or tools into the wiki-brain; starting substantial work as a model that has not pushed before; a skill, MCP server, hook or subagent was added, changed or removed | active | 2026-08-30 |
+| `corpus/comparative-priority.md` | a claim that ranks two people against each other; writing or revising a page that names two partners in the same finding; message volume, thread concurrency or response latency compared across contacts; Dan said different things to two people and the difference is being interpreted; a synthesis about attachment, primacy, substitution or which bond mattered more | active | 2026-08-31 |
 | `corpus/message-mining.md` | counting messages or searching the iMessage dump; a claim about how often or how much Dan writes; measuring message length, cadence, or response time; reaching for grep over raw/ message exports | active | 2026-08-30 |
 | `repo/change-safety.md` | editing commands; editing workflows; editing build logic; repository-wide behavior changes | active | 2026-08-30 |
 | `repo/derived-surfaces.md` | editing a wiki page that the portal renders; working in caakehorn/home or public/wiki; a merged change that disappeared; editing generated files, llm/, DIGEST.md, RECENT.md, OPEN.md, WORK.md, INDEX.md | active | 2026-08-30 |
