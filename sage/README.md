@@ -16,15 +16,24 @@ worth putting under someone's question is one that read the corpus, and the
 corpus is 486 pages and 134,348 messages.
 
 **The latency of *answering* is the design; the latency of *publishing* is not.**
-Once an answer merges to `main`, `.github/workflows/notify-portal.yml` fires
-`wiki-updated` at the portal and the snapshot re-derives immediately. Before that
-workflow existed the only thing that nudged the portal was its own browser code,
-which runs when a page is edited or a question asked *from the site* — so an
-answer written here and merged through a pull request touched nothing, and waited
-for the hourly cron. On 2026-08-21 that put a retracted version of an answer in
-front of the person who asked for forty minutes after it had been corrected. The
-person waiting cannot see the difference between "not answered yet" and "answered
-but not synced", which is the whole reason this obligation sits at priority 1.
+An answer merged here goes live on the portal's schedule — five minutes, and up
+to fifteen when GitHub is busy. Nothing needs nudging and nothing needs checking;
+just do not assume it is live the second it merges.
+
+It was an hour until 2026-08-31. `.github/workflows/notify-portal.yml` was built
+to remove that wait by dispatching the moment an answer merged, because the only
+other nudge was the portal's own browser code, which runs when a page is edited
+or a question asked *from the site* — and an answer merged through a pull request
+has no browser behind it. On 2026-08-21 the hour put a retracted version of an
+answer in front of the person who asked, for forty minutes after it had been
+corrected. That workflow needed a cross-repository token, the token went missing
+on 2026-08-28 without saying so, and the schedule was turned up instead; the
+workflow is dormant and explains how to bring it back.
+
+The person waiting cannot see the difference between "not answered yet" and
+"answered but not synced", which is the whole reason this obligation sits at
+priority 1 — and why five minutes is worth having over an hour even though
+neither is instant.
 
 ## Why these files are not in `raw/`
 

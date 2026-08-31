@@ -39,6 +39,31 @@
 # carries: a read path added on one side has to be added on the other, and the
 # way to check is `grep 'join(SOURCE' scripts/sync-wiki.mjs` in the portal.
 #
+# ---- it is switched off, and that is a decision rather than a failure -------
+#
+# This workflow no longer runs on a push. The `push:` trigger is commented out
+# below and only `workflow_dispatch` remains, so it fires when a person asks it
+# to and never otherwise.
+#
+# The token it needs was never restored, and the portal's own schedule was moved
+# from hourly to every five minutes on the same day to cover the gap instead —
+# see `.github/workflows/sync-wiki.yml` in caakehorn/home. That is slower than a
+# dispatch and it needs no cross-repository credential, which was the trade the
+# operator asked for.
+#
+# Left switched off rather than deleted, on purpose. A workflow whose only job
+# is impossible would fail red on every push, and a red mark nobody can clear is
+# how a repository teaches its owner to stop reading the Actions tab — which is
+# the same disease as the green run below, wearing the other colour. Everything
+# needed to bring it back is still here.
+#
+# To re-enable, in this order:
+#   1. add PORTAL_DISPATCH_TOKEN to this repository's secrets — a fine-grained
+#      PAT on caakehorn/home with Contents: read and write
+#   2. uncomment the `push:` block below
+# Do the secret first. The check at the bottom is loud now, so a push with the
+# trigger back and no token is a red run, which is correct and also avoidable.
+#
 # ---- it used to ship inert, and that is the bug this file now carries -------
 #
 # `GITHUB_TOKEN` is scoped to the repository it runs in and cannot dispatch to
@@ -72,13 +97,16 @@
 name: Tell the portal the wiki moved
 
 on:
-  push:
-    branches: [main]
-    paths:
-      - 'wiki/**'
-      - 'sage/questions/**'
-      - 'plain/**'
-      - 'lexicon/words/**'
+  # DORMANT since 2026-08-31 — see "it is switched off" at the top of this file.
+  # Re-enabling is this block and a secret, nothing else.
+  #
+  # push:
+  #   branches: [main]
+  #   paths:
+  #     - 'wiki/**'
+  #     - 'sage/questions/**'
+  #     - 'plain/**'
+  #     - 'lexicon/words/**'
   workflow_dispatch:
 
 # Read-only here; the write this performs is on the other repository, with the
