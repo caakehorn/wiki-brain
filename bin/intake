@@ -1334,6 +1334,22 @@ def render_status(units, ops):
 
 
 # ------------------------------------------------------- cross-unit analysis
+def _substance_key(u):
+    """What counts as the same substance across units.
+
+    Never the display string. Three of the four units in the first real export
+    were written by the portal, which sends the substance as free text and
+    leaves `substance_id` null — so `cannibis` opened its own heading in
+    SUMMARY.md beside `cannabis`, with its own mean, and a corrected unit
+    carrying the catalog's `Cannabis` opened a third. Each looked like a
+    finding about a different substance. Group on the catalog id where there is
+    one and on the folded name where there is not, so a typo costs one row
+    rather than forking the analysis.
+    """
+    return ((u.get("substance_id") or "").strip().lower()
+            or (u.get("substance") or "").strip().lower())
+
+
 def cross_stats(units, substance=None, since=None, until=None):
     """The longitudinal read: everything that needs more than one unit to see."""
     sel = []
@@ -1354,13 +1370,15 @@ def cross_stats(units, substance=None, since=None, until=None):
     all_events = 0
     for u in sel:
         bu = u["quantity_unit"]
-        b = by_sub.setdefault(u["substance"], {
+        b = by_sub.setdefault(_substance_key(u), {
             "substance": u["substance"], "unit": bu, "units": 0, "closed": 0,
             "events": 0, "quantified": 0, "unquantified": 0, "doses": [],
             "durations": [], "initials": [], "rates": [], "under24": 0,
             "monthly": {},
         })
         b["units"] += 1
+        if u["substance_id"] and b["substance"] != u["substance"]:
+            b["substance"] = u["substance"]      # the catalog name beats free text
         a = u["analysis"]
         b["events"] += a["events"]["total"]
         b["unquantified"] += a["events"]["unquantified"]
@@ -1490,6 +1508,27 @@ def _crypto():
     return importlib.import_module("aesgcm")
 
 
+# A unit opened, logged and closed in one action — the one-hitter tap in the
+# portal, and every `--single` unit — writes three events carrying the SAME
+# timestamp to the second. Ordering those by id would order them by the random
+# half of a ULID, which is to say arbitrarily, and a log that says a unit was
+# closed before it was opened is one `bin/intake check` rejects outright. So the
+# key ranks by what an event does to a unit before it falls back to the id:
+# a unit is created, then consumed from, then reconciled, then closed. The id
+# stays in the key as the last resort, because two devices merging the same
+# events must produce byte-identical files or every sync is a conflict.
+CAUSAL_RANK = {"substance_added": 0, "unit_created": 1, "intake_logged": 2,
+               "unit_adjusted": 2, "event_corrected": 3, "event_voided": 3,
+               "unit_closed": 4, "unit_reopened": 5}
+
+
+def _merge_key(line):
+    ev = json.loads(line)
+    return (ev.get("timestamp") or "",
+            CAUSAL_RANK.get(ev.get("type"), 2),
+            ev.get("id") or "")
+
+
 def merge_lines(*groups):
     """Set union by event id, ordered by when each event was recorded."""
     seen, out = set(), []
@@ -1506,7 +1545,7 @@ def merge_lines(*groups):
                 continue
             seen.add(eid)
             out.append(line)
-    out.sort(key=lambda l: (json.loads(l).get("timestamp") or "", json.loads(l).get("id") or ""))
+    out.sort(key=_merge_key)
     return out
 
 
@@ -1731,6 +1770,8 @@ def build_parser():
     p = sub.add_parser("correct", help="supersede an event's values, keeping both on the record")
     p.add_argument("event", help="an event id or its last characters")
     p.add_argument("--quantity")
+    p.add_argument("--substance", help="the unit was opened against the wrong substance "
+                                       "(resolved against the catalog, never invented)")
     p.add_argument("--at")
     p.add_argument("--descriptor")
     p.add_argument("--note")
@@ -1923,6 +1964,16 @@ def main(argv=None):
         if args.quantity:
             q, un = parse_quantity(args.quantity)
             fields["quantity"], fields["unit"] = q, un
+        if args.substance:
+            # Through the catalog, exactly as `new` does. A free-text substance
+            # forks the ledger silently: `cannibis` and `cannabis` are two
+            # headings in SUMMARY.md, each with its own mean, and neither is
+            # wrong enough to look wrong. Fixing that must not be the one path
+            # that reintroduces free text.
+            sub_ = L.resolve_substance(args.substance)
+            fields["substance"] = sub_["name"]
+            fields["substance_id"] = sub_["id"]
+            fields["category"] = sub_.get("category")
         if args.at:
             fields["occurred_at"] = args.at
         if args.descriptor:

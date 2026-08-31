@@ -1,6 +1,710 @@
 {
-  "generated": "2026-08-30T16:01:03+00:00",
+  "generated": "2026-08-31T16:41:11+00:00",
   "note": "GENERATED from intake/events.jsonl by bin/intake — never edit. Delete it and run `bin/intake rebuild` and it comes back identical.",
-  "event_count": 0,
-  "units": []
+  "event_count": 20,
+  "units": [
+    {
+      "id": "intake_unit_01M1AJ47K2HKZ8TZZ75CPNGFJ7",
+      "ordinal": 1,
+      "substance": "cocaine",
+      "substance_id": null,
+      "category": null,
+      "initial_quantity": 0.75,
+      "quantity_unit": "g",
+      "received_at": "2026-08-30T17:04:00-04:00",
+      "created_at": "2026-08-30T20:04:54-04:00",
+      "source_context": null,
+      "note": null,
+      "status": "closed",
+      "closed_at": "2026-08-31T02:35:37-04:00",
+      "disposition": "consumed",
+      "reconciliation": {
+        "resolution": "balanced",
+        "unaccounted": 0,
+        "quantity_unit": "g",
+        "overdrawn": false
+      },
+      "corrections": [],
+      "intakes": [
+        {
+          "id": "intake_evt_01M1AJ4R7XJ7GZGBQY6RP0BY3X",
+          "occurred_at": "2026-08-30T20:05:11-04:00",
+          "logged_at": "2026-08-30T20:05:11-04:00",
+          "quantity": 0.1,
+          "quantity_unit": "g",
+          "measurement_type": "estimated",
+          "confidence": "medium",
+          "descriptor": null,
+          "note": null,
+          "reconciliation": false,
+          "corrections": [],
+          "voided": null
+        },
+        {
+          "id": "intake_evt_01M1AJ4YRX3H7BXR78M3K6FZFC",
+          "occurred_at": "2026-08-30T20:05:18-04:00",
+          "logged_at": "2026-08-30T20:05:18-04:00",
+          "quantity": 0.1,
+          "quantity_unit": "g",
+          "measurement_type": "measured",
+          "confidence": null,
+          "descriptor": null,
+          "note": null,
+          "reconciliation": false,
+          "corrections": [],
+          "voided": null
+        },
+        {
+          "id": "intake_evt_01M1AS1EWMGGHC0895P7GKXQZA",
+          "occurred_at": "2026-08-30T22:05:43-04:00",
+          "logged_at": "2026-08-30T22:05:43-04:00",
+          "quantity": 0.1,
+          "quantity_unit": "g",
+          "measurement_type": "measured",
+          "confidence": null,
+          "descriptor": null,
+          "note": null,
+          "reconciliation": false,
+          "corrections": [],
+          "voided": null
+        },
+        {
+          "id": "intake_evt_01M1AWWJPEN35K4JJDAJW5XFQG",
+          "occurred_at": "2026-08-30T23:12:58-04:00",
+          "logged_at": "2026-08-30T23:12:58-04:00",
+          "quantity": 0.1,
+          "quantity_unit": "g",
+          "measurement_type": "measured",
+          "confidence": null,
+          "descriptor": null,
+          "note": null,
+          "reconciliation": false,
+          "corrections": [],
+          "voided": null
+        },
+        {
+          "id": "intake_evt_01M1AZP0EB2AMK24RMZFVPV1RC",
+          "occurred_at": "2026-08-31T00:01:48-04:00",
+          "logged_at": "2026-08-31T00:01:48-04:00",
+          "quantity": 0.1,
+          "quantity_unit": "g",
+          "measurement_type": "measured",
+          "confidence": null,
+          "descriptor": null,
+          "note": null,
+          "reconciliation": false,
+          "corrections": [],
+          "voided": null
+        },
+        {
+          "id": "intake_evt_01M1B8F8VBWZDWTZ71W6GXFE6Y",
+          "occurred_at": "2026-08-31T02:35:24-04:00",
+          "logged_at": "2026-08-31T02:35:24-04:00",
+          "quantity": 0.25,
+          "quantity_unit": "g",
+          "measurement_type": "estimated",
+          "confidence": "medium",
+          "descriptor": null,
+          "note": null,
+          "reconciliation": false,
+          "corrections": [],
+          "voided": null
+        }
+      ],
+      "adjustments": [],
+      "closing_note": null,
+      "analysis": {
+        "quantity_unit": "g",
+        "events": {
+          "total": 6,
+          "measured": 4,
+          "estimated": 2,
+          "unquantified": 0,
+          "voided": 0
+        },
+        "coverage": 1.0,
+        "measured_total": 0.4,
+        "estimated_total": 0.35,
+        "quantified_total": 0.75,
+        "reconciliation_total": 0.0,
+        "adjusted_total": 0.0,
+        "accounted": 0.75,
+        "remaining": 0.0,
+        "overdrawn": false,
+        "remaining_is_estimate": true,
+        "duration_seconds": 34297.0,
+        "chronology_error": false,
+        "first_event": "2026-08-30T20:05:11-04:00",
+        "last_event": "2026-08-31T02:35:24-04:00",
+        "dose": {
+          "n": 6,
+          "mean": 0.125,
+          "median": 0.1,
+          "min": 0.1,
+          "max": 0.25,
+          "stdev": 0.06123724356957945,
+          "cv": 0.4898979485566356
+        },
+        "interval": {
+          "n": 5,
+          "mean": 4682.6,
+          "median": 4035.0,
+          "min": 7.0,
+          "max": 9216.0,
+          "stdev": 3618.277946758651,
+          "cv": 0.7727070317256761
+        },
+        "first_dose": 0.1,
+        "later_dose_mean": 0.13,
+        "rate_per_day": 1.889378079715427,
+        "events_per_day": 15.115024637723415,
+        "peak_window": {
+          "start": "2026-08-30T20:05:11-04:00",
+          "end": "2026-08-31T00:01:48-04:00",
+          "events": 5
+        },
+        "time_of_day": [
+          1,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          2,
+          0,
+          1,
+          1
+        ],
+        "phases": [
+          {
+            "label": "first 25%",
+            "events": 2,
+            "unquantified": 0,
+            "quantity": 0.2,
+            "quantity_unit": "g",
+            "seconds": 7.0,
+            "start": "2026-08-30T20:05:11-04:00",
+            "end": "2026-08-30T20:05:18-04:00"
+          },
+          {
+            "label": "middle 50%",
+            "events": 3,
+            "unquantified": 0,
+            "quantity": 0.3,
+            "quantity_unit": "g",
+            "seconds": 6965.0,
+            "start": "2026-08-30T22:05:43-04:00",
+            "end": "2026-08-31T00:01:48-04:00"
+          },
+          {
+            "label": "final 25%",
+            "events": 1,
+            "unquantified": 0,
+            "quantity": 0.25,
+            "quantity_unit": "g",
+            "seconds": 0.0,
+            "start": "2026-08-31T02:35:24-04:00",
+            "end": "2026-08-31T02:35:24-04:00"
+          }
+        ],
+        "depleted_within_24h": true
+      }
+    },
+    {
+      "id": "intake_unit_01M1AS32B01HGPPF276RK4M7SE",
+      "ordinal": 2,
+      "substance": "Cannabis",
+      "substance_id": "cannabis",
+      "category": "cannabinoid",
+      "initial_quantity": 0.05,
+      "quantity_unit": "g",
+      "received_at": "2026-08-30T22:06:36-04:00",
+      "created_at": "2026-08-30T22:06:36-04:00",
+      "source_context": null,
+      "note": null,
+      "status": "closed",
+      "closed_at": "2026-08-30T22:06:36-04:00",
+      "disposition": "consumed",
+      "reconciliation": {
+        "resolution": "balanced",
+        "unaccounted": 0,
+        "quantity_unit": null,
+        "overdrawn": false
+      },
+      "corrections": [
+        {
+          "at": "2026-08-31T16:40:40+00:00",
+          "reason": "misspelt 'cannibis' at entry; the portal wrote the free-text string rather than a catalog id (substance_id was null), splitting one substance into two headings in SUMMARY.md",
+          "from": {
+            "substance": "cannibis",
+            "substance_id": null,
+            "category": null
+          },
+          "to": {
+            "substance": "Cannabis",
+            "substance_id": "cannabis",
+            "category": "cannabinoid"
+          }
+        }
+      ],
+      "intakes": [
+        {
+          "id": "intake_evt_01M1AS32B1QBB3F8C14ECP75NQ",
+          "occurred_at": "2026-08-30T22:06:36-04:00",
+          "logged_at": "2026-08-30T22:06:36-04:00",
+          "quantity": 0.05,
+          "quantity_unit": "g",
+          "measurement_type": "estimated",
+          "confidence": "medium",
+          "descriptor": null,
+          "note": null,
+          "reconciliation": false,
+          "corrections": [],
+          "voided": null
+        }
+      ],
+      "adjustments": [],
+      "closing_note": null,
+      "analysis": {
+        "quantity_unit": "g",
+        "events": {
+          "total": 1,
+          "measured": 0,
+          "estimated": 1,
+          "unquantified": 0,
+          "voided": 0
+        },
+        "coverage": 1.0,
+        "measured_total": 0.0,
+        "estimated_total": 0.05,
+        "quantified_total": 0.05,
+        "reconciliation_total": 0.0,
+        "adjusted_total": 0.0,
+        "accounted": 0.05,
+        "remaining": 0.0,
+        "overdrawn": false,
+        "remaining_is_estimate": true,
+        "duration_seconds": 0.0,
+        "chronology_error": false,
+        "first_event": "2026-08-30T22:06:36-04:00",
+        "last_event": "2026-08-30T22:06:36-04:00",
+        "dose": {
+          "n": 1,
+          "mean": 0.05,
+          "median": 0.05,
+          "min": 0.05,
+          "max": 0.05,
+          "stdev": null,
+          "cv": null
+        },
+        "interval": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "stdev": null,
+          "cv": null
+        },
+        "first_dose": 0.05,
+        "later_dose_mean": null,
+        "rate_per_day": null,
+        "events_per_day": null,
+        "peak_window": null,
+        "time_of_day": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          1,
+          0
+        ],
+        "phases": [
+          {
+            "label": "first 25%",
+            "events": 0,
+            "unquantified": 0,
+            "quantity": 0.0,
+            "quantity_unit": "g",
+            "seconds": 0.0,
+            "start": null,
+            "end": null
+          },
+          {
+            "label": "middle 50%",
+            "events": 1,
+            "unquantified": 0,
+            "quantity": 0.05,
+            "quantity_unit": "g",
+            "seconds": 0.0,
+            "start": "2026-08-30T22:06:36-04:00",
+            "end": "2026-08-30T22:06:36-04:00"
+          },
+          {
+            "label": "final 25%",
+            "events": 0,
+            "unquantified": 0,
+            "quantity": 0.0,
+            "quantity_unit": "g",
+            "seconds": 0.0,
+            "start": null,
+            "end": null
+          }
+        ],
+        "depleted_within_24h": true
+      }
+    },
+    {
+      "id": "intake_unit_01M1B1QNV7J0YC01MVHR2A1936",
+      "ordinal": 3,
+      "substance": "cannabis",
+      "substance_id": null,
+      "category": null,
+      "initial_quantity": 0.05,
+      "quantity_unit": "g",
+      "received_at": "2026-08-31T00:37:40-04:00",
+      "created_at": "2026-08-31T00:37:40-04:00",
+      "source_context": null,
+      "note": null,
+      "status": "closed",
+      "closed_at": "2026-08-31T00:37:40-04:00",
+      "disposition": "consumed",
+      "reconciliation": {
+        "resolution": "balanced",
+        "unaccounted": 0,
+        "quantity_unit": null,
+        "overdrawn": false
+      },
+      "corrections": [],
+      "intakes": [
+        {
+          "id": "intake_evt_01M1B1QNV8EW6PMMWC02HF939F",
+          "occurred_at": "2026-08-31T00:37:40-04:00",
+          "logged_at": "2026-08-31T00:37:40-04:00",
+          "quantity": 0.05,
+          "quantity_unit": "g",
+          "measurement_type": "estimated",
+          "confidence": "medium",
+          "descriptor": null,
+          "note": null,
+          "reconciliation": false,
+          "corrections": [],
+          "voided": null
+        }
+      ],
+      "adjustments": [],
+      "closing_note": null,
+      "analysis": {
+        "quantity_unit": "g",
+        "events": {
+          "total": 1,
+          "measured": 0,
+          "estimated": 1,
+          "unquantified": 0,
+          "voided": 0
+        },
+        "coverage": 1.0,
+        "measured_total": 0.0,
+        "estimated_total": 0.05,
+        "quantified_total": 0.05,
+        "reconciliation_total": 0.0,
+        "adjusted_total": 0.0,
+        "accounted": 0.05,
+        "remaining": 0.0,
+        "overdrawn": false,
+        "remaining_is_estimate": true,
+        "duration_seconds": 0.0,
+        "chronology_error": false,
+        "first_event": "2026-08-31T00:37:40-04:00",
+        "last_event": "2026-08-31T00:37:40-04:00",
+        "dose": {
+          "n": 1,
+          "mean": 0.05,
+          "median": 0.05,
+          "min": 0.05,
+          "max": 0.05,
+          "stdev": null,
+          "cv": null
+        },
+        "interval": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "stdev": null,
+          "cv": null
+        },
+        "first_dose": 0.05,
+        "later_dose_mean": null,
+        "rate_per_day": null,
+        "events_per_day": null,
+        "peak_window": null,
+        "time_of_day": [
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "phases": [
+          {
+            "label": "first 25%",
+            "events": 0,
+            "unquantified": 0,
+            "quantity": 0.0,
+            "quantity_unit": "g",
+            "seconds": 0.0,
+            "start": null,
+            "end": null
+          },
+          {
+            "label": "middle 50%",
+            "events": 1,
+            "unquantified": 0,
+            "quantity": 0.05,
+            "quantity_unit": "g",
+            "seconds": 0.0,
+            "start": "2026-08-31T00:37:40-04:00",
+            "end": "2026-08-31T00:37:40-04:00"
+          },
+          {
+            "label": "final 25%",
+            "events": 0,
+            "unquantified": 0,
+            "quantity": 0.0,
+            "quantity_unit": "g",
+            "seconds": 0.0,
+            "start": null,
+            "end": null
+          }
+        ],
+        "depleted_within_24h": true
+      }
+    },
+    {
+      "id": "intake_unit_01M1B8GCGVKYT6RG453B89K2JY",
+      "ordinal": 4,
+      "substance": "cannabis",
+      "substance_id": null,
+      "category": null,
+      "initial_quantity": 0.05,
+      "quantity_unit": "g",
+      "received_at": "2026-08-31T02:36:01-04:00",
+      "created_at": "2026-08-31T02:36:01-04:00",
+      "source_context": null,
+      "note": null,
+      "status": "closed",
+      "closed_at": "2026-08-31T02:36:01-04:00",
+      "disposition": "consumed",
+      "reconciliation": {
+        "resolution": "balanced",
+        "unaccounted": 0,
+        "quantity_unit": null,
+        "overdrawn": false
+      },
+      "corrections": [
+        {
+          "at": "2026-08-31T16:40:40+00:00",
+          "reason": "unit selector slip: opened as 0.05 mg. Cannabis defaults to g, the one-hitter preset is 0.05 g, and the two identical single units logged earlier the same night (Aug 30 22:06, Aug 31 00:37) were both 0.05 g. 0.05 mg is 1/1000th of a bowl",
+          "from": {
+            "quantity": 0.05,
+            "unit": "mg"
+          },
+          "to": {
+            "quantity": 0.05,
+            "unit": "g"
+          }
+        }
+      ],
+      "intakes": [
+        {
+          "id": "intake_evt_01M1B8GCGV7ARQ0GBDZCA8QEJ2",
+          "occurred_at": "2026-08-31T02:36:01-04:00",
+          "logged_at": "2026-08-31T02:36:01-04:00",
+          "quantity": 0.05,
+          "quantity_unit": "g",
+          "measurement_type": "measured",
+          "confidence": null,
+          "descriptor": null,
+          "note": null,
+          "reconciliation": false,
+          "corrections": [
+            {
+              "at": "2026-08-31T16:40:40+00:00",
+              "reason": "the intake against the unit corrected above, logged in mg for the same reason",
+              "from": {
+                "quantity": 0.05,
+                "unit": "mg"
+              },
+              "to": {
+                "quantity": 0.05,
+                "unit": "g"
+              }
+            }
+          ],
+          "voided": null
+        }
+      ],
+      "adjustments": [],
+      "closing_note": null,
+      "analysis": {
+        "quantity_unit": "g",
+        "events": {
+          "total": 1,
+          "measured": 1,
+          "estimated": 0,
+          "unquantified": 0,
+          "voided": 0
+        },
+        "coverage": 1.0,
+        "measured_total": 0.05,
+        "estimated_total": 0.0,
+        "quantified_total": 0.05,
+        "reconciliation_total": 0.0,
+        "adjusted_total": 0.0,
+        "accounted": 0.05,
+        "remaining": 0.0,
+        "overdrawn": false,
+        "remaining_is_estimate": false,
+        "duration_seconds": 0.0,
+        "chronology_error": false,
+        "first_event": "2026-08-31T02:36:01-04:00",
+        "last_event": "2026-08-31T02:36:01-04:00",
+        "dose": {
+          "n": 1,
+          "mean": 0.05,
+          "median": 0.05,
+          "min": 0.05,
+          "max": 0.05,
+          "stdev": null,
+          "cv": null
+        },
+        "interval": {
+          "n": 0,
+          "mean": null,
+          "median": null,
+          "min": null,
+          "max": null,
+          "stdev": null,
+          "cv": null
+        },
+        "first_dose": 0.05,
+        "later_dose_mean": null,
+        "rate_per_day": null,
+        "events_per_day": null,
+        "peak_window": null,
+        "time_of_day": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "phases": [
+          {
+            "label": "first 25%",
+            "events": 0,
+            "unquantified": 0,
+            "quantity": 0.0,
+            "quantity_unit": "g",
+            "seconds": 0.0,
+            "start": null,
+            "end": null
+          },
+          {
+            "label": "middle 50%",
+            "events": 1,
+            "unquantified": 0,
+            "quantity": 0.05,
+            "quantity_unit": "g",
+            "seconds": 0.0,
+            "start": "2026-08-31T02:36:01-04:00",
+            "end": "2026-08-31T02:36:01-04:00"
+          },
+          {
+            "label": "final 25%",
+            "events": 0,
+            "unquantified": 0,
+            "quantity": 0.0,
+            "quantity_unit": "g",
+            "seconds": 0.0,
+            "start": null,
+            "end": null
+          }
+        ],
+        "depleted_within_24h": true
+      }
+    }
+  ]
 }
