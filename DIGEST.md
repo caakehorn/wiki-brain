@@ -72,7 +72,7 @@ this is the state of the thing.
   - constitution-pass | mind | wiki/mind/synthesis/the-deferred-audit
   - constitution-pass | mind | wiki/mind/synthesis/totality-themes
   - constitution-pass | mind | wiki/mind/synthesis/the-embedded-objective
-  - connect | mind, people | connection-queue.md (totality-themes <-> context-core)
+  - connect | mind, self | connection-queue.md (totality-themes <-> context-core)
   - constitution-pass | mind | wiki/mind/synthesis/dormancy-not-exit
   - constitution-pass | mind | wiki/mind/synthesis/estate-money-spine
   - close | people | wiki/people/alexis-armel — two operator-volunteered captures fully ingested
