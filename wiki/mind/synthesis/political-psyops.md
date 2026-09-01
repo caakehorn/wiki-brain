@@ -6,7 +6,7 @@ title: "Political Psyops & Hybrid Events"
 tags: [politics, forensic-analysis, ideology]
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-26
+date_modified: 2026-09-01
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/chats/j6-chat.md
@@ -46,10 +46,23 @@ connections:
   - page: wiki/mind/synthesis/the-binary-verdict
     type: component-of
     claim: "The pinned nodes name the mechanism in their own words — Trump-era politics as 'a zero-sum binary team sport' — and the 'score who is more wrong' method is not a counter-instance: the top-level sort (legitimate claim on power / illegitimate) is binary, and comparative grading runs only inside the bucket of actors who already failed it."
+  - page: wiki/mind/synthesis/millennial-digital-witness
+    type: instantiates
+    claim: "Raw-stream J6 study, and the independent finding that Jerad and Josh arrived at the same reluctant-Trump fascination from the same Bernie start, are the witness thesis at political scale: dual fluency as the warrant for unmediated evidence, and the trajectory possibly cohort rather than idiosyncratic."
 ---
 
 
 # Political Psyops & Hybrid Events
+
+> **RE-CHECKED [2026-09-01]:** flagged stale against
+> [[wiki/mind/synthesis/millennial-digital-witness]] (2026-09-01), which
+> split the generational-advantage claim from the archive practice and
+> joined the non-intervention of the J6 verdict to
+> [[wiki/mind/synthesis/the-cato-seat]]. This page's J6 warrant, FOIA
+> provenance tags, and Jerad/Josh cohort speculation are the political
+> instance that rewrite reasons from; nothing here is withdrawn. The
+> cohort speculation is now also a prediction on that page (they share
+> the trajectory, not the witness self-theory).
 
 Dan's political skepticism is not partisan; it is the forensic default
 applied to institutions on every side. A democratic socialist with zero
@@ -210,6 +223,10 @@ establishment's handling of Sanders, not to something unique in Dan's own
 psychology. It reframes his political trajectory as a data point in a
 generational pattern he happens to have documented with unusual density,
 rather than a personal idiosyncrasy requiring its own explanation.
+[[wiki/mind/synthesis/millennial-digital-witness]] takes that speculation
+as the first evidence the political *trajectory* may be cohort, and
+predicts the millennial-bridge *self-theory* is not shared — it is the
+Cato seat, which is personal.
 
 [[wiki/mind/concepts/dans-law]] is the analytical engine underneath: when a
 coincidence cluster (crowd dynamics + procedural failures + informant
