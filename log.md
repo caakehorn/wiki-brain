@@ -7222,6 +7222,86 @@ would conclude the opposite and might relax the secret discipline accordingly.
 
 Gates: `bin/wiki-check` all clean, 472 pages, 264 tests pass.
 
+## [2026-08-30] tool | meta | page history — every version of every page, on the site and behind a gate
+
+**What the wiki could not answer about itself.** `date_modified` says a page
+changed. Nothing said *how*, and this is a repository whose whole premise is that
+pages are revised rather than regenerated — a thesis rewritten, a number
+corrected, a paragraph quietly dropped. The answer was already here and unread:
+git, where every operation commits `<op>: <short description>`, so the log is a
+labelled record of every ingest, climb, close, answer and portal edit that ever
+touched a page. This pass turns it into two things: a reader-facing history on
+the portal, and a tool plus a gate here.
+
+**On the portal** (`caakehorn/home`, same branch). `scripts/build-wiki-history.mjs`
+derives every revision of every page into `public/wiki/history/` — the current
+file whole, then a reverse line-patch chain walking back one revision at a time.
+3,587 revisions across 472 pages, 2026-07-11 to 2026-08-30, in 11 MB rather than
+the 50 MB full text would take. The panel gives a reader the diff for any commit
+and the entry as it stood on any date, rendered through the same markdown path as
+a live page under a banner saying it is not the current one. `?rev=<sha>` makes a
+version a link somebody can send.
+
+**The claim is checked three ways, because a wrong old version is the one error a
+reader cannot catch** — they opened the history precisely because they do not
+know what the page used to say. The build folds all 3,587 chains and compares
+each to the blob git holds, exiting 1 rather than publishing one it could not
+reproduce. `npm run history:check` then does it again against the SHIPPED files
+through the *browser's* copy of the applier — the build proving itself against
+itself would pass even if both halves were wrong in the same direction — and
+checks that the diff the panel would draw carries the counts it prints beside it.
+Corrupting one op in one chain by a single line makes it name the page and the
+sha; that was verified, not assumed.
+
+**`bin/wiki-history` here.** `status` reads the corpus as work rather than as
+text: 3,587 revisions, 756 ingests, 380 lints, 257 climbs, 73 pages never revised
+since the commit that created them. `page <slug>` is one entry's revisions.
+`drift` and `check` are the two halves of the date question, and separating them
+is the finding of this pass.
+
+**The gate, and the check that was measured and rejected.** The obvious gate is
+"does `date_modified` match the last commit." **214 of 472 pages fail it**, and
+the commits doing it are `delete: knock2 — the entry held back from the 47` and
+its kind: a link cleanup that touched forty pages and changed what none of them
+*say*. Those pages are right not to have bumped. A gate on that number would be
+red on every honest run, and a gate that is red on every honest run is one
+somebody deletes. So `drift` reports it, prints the commit subject beside it, and
+says in as many words that it is a reading job.
+
+`check` gates on the one direction that cannot be innocent: **a page dated LATER
+than the last commit that touched it.** The file has not changed since, so the
+date is a claim git does not support — which is what "clearing a stale warning by
+bumping a date" looks like from outside, the move `CLAUDE.md` calls the one that
+corrupts this system quietly. It is at **0** today, which is why it is a gate.
+
+**The exemption is the gate.** A session mid-pass has revised a page and set
+`date_modified` to today for a commit it has not made — so the date is ahead of
+the log by construction, and without exempting the working tree the gate fires on
+every honest run. Staged, unstaged and untracked pages are all exempt; the date
+becomes checkable the moment it is committed. Two tests pin it.
+
+**The moratorium was implemented as a withholding rule, then measured and
+switched off.** `bin/wiki-plain`'s test — named in frontmatter, or more than two
+body mentions — held back **217 of 472 pages**, among them `interests/golf` and
+`self/tattoos`, which name her in a `sources:` line. That is a citation, not a
+page about her. And the two operations are not alike: a plain twin is new prose
+that does not exist until somebody writes it, while a history view writes nothing
+— it replays bytes this wiki already published, out of a public log, and cannot
+advance the record because it only looks backwards. The directive is explicit
+that it is "a stop, not a retraction and not a redaction," so blanking the
+history of 46% of the corpus is the thing it forbids rather than the thing it
+asks for. The mechanism is kept live behind one constant
+(`WITHHOLD_UNDER_MORATORIUM`) so the call is reversible in either direction, and
+it is the operator's. **Sealed pages get no history file at all** — that one is
+not a judgement call: a history file would publish every earlier version of a
+page that ships as ciphertext.
+
+**Two derivations of one log, and they agree.** The Node build and the Python
+tool were written separately and both report 472 pages, 3,587 revisions, and 92
+revisions of `people/annie-ulmer`. Neither was tuned to match the other.
+
+Gates: `bin/wiki-check` all clean, 472 pages, 279 tests pass (15 new).
+
 ## [2026-08-31] ingest | health | the intake ledger's first export (2026-08-30/31)
 
 **The ledger was empty until this pass.** `intake/events.jsonl` was tracked at
@@ -7341,4 +7421,3 @@ pages behind on 2026-08-20, arriving from a new direction.
 is deterministic across runs, that a hand-edit is a red gate, that a missing
 page warns rather than fails, and that no per-day *value* ever reaches it.
 Gates: `bin/wiki-check` all clean, 473 pages.
-

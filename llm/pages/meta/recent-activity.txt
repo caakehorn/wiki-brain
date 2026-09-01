@@ -5,7 +5,7 @@ title: "Recent Activity"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-08-31
+date_modified: 2026-09-01
 sources: []
 ---
 
@@ -23,7 +23,15 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-31 — 8 pages
+## 2026-09-01 — 3 pages
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/meta/digest]] | meta | — |
+| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
+
+## 2026-08-31 — 5 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -32,9 +40,6 @@ simply listed.
 | [[wiki/health/index]] | health | — |
 | [[wiki/health/intake-ledger]] | health | — |
 | [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — cocaine and chemical-architecture both gained the intake ledger's first measured night (2026-08-30/31: one 0.75 g cocaine unit over 9h 31m in six doses, three 0.05 g cannabis units; the unit reconcile |
-| [[wiki/meta/digest]] | meta | — |
-| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
 
 ## 2026-08-30 — 2 pages
 
@@ -336,10 +341,4 @@ simply listed.
 | [[wiki/people/tom-wallisch]] | people | — |
 | [[wiki/places/seven-springs]] | places | — |
 | [[wiki/timeline/events/annie-alexis-reunion-november-2018]] | timeline | — |
-
-## 2026-08-08 — 1 page
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/people/jacob-bacharach]] | people | **CONTRADICTION** — Dan attributes the Virginia Avenue passage to ***The Bend of the World*** (2014) and cites pages 227–228. Bacharach's own February 2021 message names a different novel as the Uniontown book: *"it figu |
 

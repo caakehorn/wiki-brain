@@ -5,7 +5,7 @@ title: "Wiki Digest"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-08-31
+date_modified: 2026-09-01
 sources: []
 ---
 
@@ -22,7 +22,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 473 |
-| Pages touched in the last 14 days | 192 |
+| Pages touched in the last 14 days | 185 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 41 |
 | Open gaps | 484 |
@@ -55,7 +55,9 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-08-31** — 8 pages
+**2026-09-01** — 3 pages
+
+**2026-08-31** — 5 pages
   - ingest | health | the intake ledger's first export (2026-08-30/31)
   - ingest | health | the ledger gets an entry page
 
@@ -64,6 +66,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - tool | health | the intake ledger — `bin/intake`, `intake/`, Special:Intake
   - infra | intake | the portal as a third interface, and the guard that actually guards
   - declare | meta | the skills section becomes a cross-model database
+  - tool | meta | page history — every version of every page, on the site and behind a gate
 
 **2026-08-28** — 36 pages
   - feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch
@@ -100,24 +103,6 @@ between regenerations. Do not hand-edit here — rerun the tool._
 **2026-08-27** — 5 pages
   - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
   - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
-
-**2026-08-26** — 52 pages
-  - climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
-  - ingest | mind | the ideal-face specification — a mystery queue item resolved
-  - ingest | mind | three MED/LOW queue.md checks — one new subsection, two negative results recorded
-  - close | work | BFS Foods drawer dispute — the retaliation-timing sequence corrected against Dan's own testimony
-  - ingest | work | MAX_PRIME.md read to exhaustion — max-framework/overview.md rewritten, bunker-core.md's ecosystem list added, a pre-existing identity flag closed
-  - ingest | self | ANCESTRY_DNA.txt (last inbox item) — redundancy confirmed, one new collateral relative verified
-  - ingest | mind | new page: Dan's Bespoke Lexicon — operator-supplied capture
-  - ingest | self | inbox drained: duplicate manifest identified, personality-profile capture filed
-  - ingest | mind | new page: autism/neurodivergence self-identification traced to its actual sourcing
-  - feat | meta | domain: meta added — themed journeys (`page_type: journey`) and on-site mirrors of DIGEST/RECENT/OPEN
-  - feat | mind | page_type: dataset added — chart-ready structured data, exemplar built and then corrected for the Annie moratorium
-  - close | mind/people | 20 remaining sage_pending and operator-answer pages closed — obligations 20 → 0
-  - close | mind | attachment-trauma-bond — the Ally channel as a control case, cascade re-checked three levels deep
-  - close | timeline/mind | estate-money-spine and fran-death-vigil integrated, cascades re-checked
-  - close | mind/health | four pages sharing the "what would make Dan happy" sage answer integrated, cascades re-checked
-  - close | people | ally-lubin — the love letter and the mutual-correction finding integrated, three dependents re-checked
 
 ## Pages that reason from other pages
 

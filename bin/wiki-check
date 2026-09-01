@@ -111,6 +111,18 @@ GATE = [
     # committed database for credential shapes, which is the check that has to
     # run on every commit rather than on every push.
     (["wiki-skills", "check"], "skills database log, projection and page agree", False),
+    # A page whose date_modified is LATER than the last commit that touched it.
+    # The file has not changed since, so the date is a claim git does not
+    # support — which is what "clearing a staleness warning by bumping a date"
+    # looks like from outside, and that is the one move CLAUDE.md says corrupts
+    # this system quietly. Two whole classes of page are exempt, and the gate is
+    # worthless without both: anything edited in the working tree (a session
+    # mid-pass has bumped a date for a commit it has not made yet), and the
+    # far commoner case of a date BEHIND the log, which a link cleanup across
+    # forty pages produces honestly. `bin/wiki-history drift` reports those as
+    # a reading job. Skips itself in a shallow clone rather than failing on a
+    # truth it cannot see.
+    (["wiki-history", "check"], "no page dated ahead of its own last commit", False),
 ]
 SCAN = [
     (["wiki-work", "scan"], "recompute WORK.md", True),

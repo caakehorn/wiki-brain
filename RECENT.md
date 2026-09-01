@@ -8,7 +8,15 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-08-31 — 8 pages
+## 2026-09-01 — 3 pages
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/meta/digest]] | meta | — |
+| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
+
+## 2026-08-31 — 5 pages
 
 - **Session log:** ingest | health | the intake ledger's first export (2026-08-30/31)
 - **Session log:** ingest | health | the ledger gets an entry page
@@ -20,9 +28,6 @@ simply listed.
 | [[wiki/health/index]] | health | — |
 | [[wiki/health/intake-ledger]] | health | — |
 | [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — cocaine and chemical-architecture both gained the intake ledger's first measured night (2026-08-30/31: one 0.75 g cocaine unit over 9h 31m in six doses, three 0.05 g cannabis units; the unit reconcile |
-| [[wiki/meta/digest]] | meta | — |
-| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
 
 ## 2026-08-30 — 2 pages
 
@@ -30,6 +35,7 @@ simply listed.
 - **Session log:** tool | health | the intake ledger — `bin/intake`, `intake/`, Special:Intake
 - **Session log:** infra | intake | the portal as a third interface, and the guard that actually guards
 - **Session log:** declare | meta | the skills section becomes a cross-model database
+- **Session log:** tool | meta | page history — every version of every page, on the site and behind a gate
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -464,14 +470,4 @@ simply listed.
 | [[wiki/people/tom-wallisch]] | people | — |
 | [[wiki/places/seven-springs]] | places | — |
 | [[wiki/timeline/events/annie-alexis-reunion-november-2018]] | timeline | — |
-
-## 2026-08-08 — 1 page
-
-- **Session log:** ingest | people | tuquick identity unmasked (Jerel Wayne Coles)
-- **Session log:** rewrite | people, places | full re-research and rewrite of four entries (jacob-bacharach, 117-belmont-circle, zach-harshman→zach-clingan, alexis-armel)
-- **Session log:** govern | root | governance rewrite — six specs, one backlog, six documents retired
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/people/jacob-bacharach]] | people | **CONTRADICTION** — Dan attributes the Virginia Avenue passage to ***The Bend of the World*** (2014) and cites pages 227–228. Bacharach's own February 2021 message names a different novel as the Uniontown book: *"it figu |
 
