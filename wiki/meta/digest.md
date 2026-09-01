@@ -55,7 +55,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-01** — 3 pages
+**2026-09-01** — 4 pages
 
 **2026-08-31** — 5 pages
   - ingest | health | the intake ledger's first export (2026-08-30/31)
