@@ -47,7 +47,7 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-09-01** — 3 pages
+**2026-09-01** — 4 pages
 
 **2026-08-31** — 5 pages
   - ingest | health | the intake ledger's first export (2026-08-30/31)
@@ -72,7 +72,7 @@ this is the state of the thing.
   - constitution-pass | mind | wiki/mind/synthesis/the-deferred-audit
   - constitution-pass | mind | wiki/mind/synthesis/totality-themes
   - constitution-pass | mind | wiki/mind/synthesis/the-embedded-objective
-  - connect | mind, self | connection-queue.md (totality-themes <-> context-core)
+  - connect | mind, people | connection-queue.md (totality-themes <-> context-core)
   - constitution-pass | mind | wiki/mind/synthesis/dormancy-not-exit
   - constitution-pass | mind | wiki/mind/synthesis/estate-money-spine
   - close | people | wiki/people/alexis-armel — two operator-volunteered captures fully ingested
