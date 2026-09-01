@@ -3,7 +3,7 @@ domain: self
 page_type: summary
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-02
+date_modified: 2026-09-01
 date_range_start: 2007-01-09
 date_range_end: 2022-09-05
 sources: ["raw/self/facebook/facebook-ihatedanfrank/"]
@@ -12,7 +12,7 @@ tags: [relationships, nyc-era, family, uniontown-era, trauma-bond]
 connections:
   - page: wiki/mind/synthesis/millennial-digital-witness
     type: evidences
-    claim: "The archive is the witness theory instantiated in one person's complete data arc."
+    claim: "The 2007–2022 export is the witness practice as residue — registered pre-smartphone at 18, exported as the owner repossessing the commodified record — which is the half of the millennial-witness thesis that does not depend on a 2025–26 self-theory."
 ---
 
 
@@ -63,7 +63,7 @@ The handle is a fifteen-year deliberate ironic persona, not a throwaway. Registe
 
 The network shape confirms [[wiki/mind/concepts/contact-gini]] from the public-platform side: roughly 650 friends and 400 message threads of breadth, with real depth concentrated in a handful of nodes — above all the Annie "Eggie" thread (2017–2021: nicknames, video calls, family-conflict disclosure), the deep counter-example to the wide-but-shallow surface. Volume functions as ambiguous tether; closure happens in few channels ([[wiki/people/annie-ulmer]], [[wiki/mind/concepts/attachment-model]]).
 
-As a corpus object, the export is the prime [[wiki/mind/synthesis/millennial-digital-witness]] artifact: a 2007-registered account is a bridge specimen from pre-smartphone status updates through the tracked-commerce era, and the archive includes Facebook's surveillance model of its owner alongside the owner's self-presentation ([[wiki/self/facebook/interests]], [[wiki/mind/concepts/forensic-method]]). No contradictions with the existing self corpus; this is the public fossil layer.
+As a corpus object, the export is the prime [[wiki/mind/synthesis/millennial-digital-witness]] artifact: a 2007-registered account is a bridge specimen from pre-smartphone status updates through the tracked-commerce era, and the archive includes Facebook's surveillance model of its owner alongside the owner's self-presentation ([[wiki/self/facebook/interests]], [[wiki/mind/concepts/forensic-method]]). The 2026-09-01 rewrite of that page splits theory from practice; this export is the practice — dated residue that does not depend on Node 6. No contradictions with the existing self corpus; this is the public fossil layer.
 
 > **REVISED [2026-06-23]:** raw/self/facebook/facebook-ihatedanfrank/ contains a nested duplicate copy of the export tree (~2,906 top files, 1,453 nested). Noted, not modified — raw/ is immutable.
 
