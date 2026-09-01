@@ -1,3 +1,74 @@
+## [2026-08-30] build | meta | the skills section was a contract with no counterparty
+
+**What was wrong.** `skills/` merged earlier today (PR #221) as seven markdown
+files describing a system that did not exist. `CLAUDE.md` — the file every
+session is required to read, and the only file here that can make anything
+mandatory — did not mention `skills/` anywhere. The README's "Mandatory session
+behavior" was therefore mandatory nowhere: nothing routed an agent to the index,
+nothing validated the corpus, nothing surfaced what it was holding, and no test
+covered any of it. Zero references from `CLAUDE.md`, `README.md`, `index.md`,
+`AGENT_ACCESS.md`, `STRATEGY.md`, `bin/**` or `tests/**`.
+
+**The evidence it was already failing, on day one.** Two of its own defects were
+live at merge and nothing could see them: `repo/session-loop.md` and
+`repo/change-safety.md` were absent from `CHANGELOG.md`, whose own `PROTOCOL.md`
+§6 requires every state transition recorded; and `INDEX.md` carried a `Status`
+column duplicating each skill's `status:` frontmatter — two sources of truth for
+one fact, which is exactly the defect `WORK.md` exists to not have.
+
+**Why this is the seventh instance of a known failure.** `bin/wiki-work` was
+built because outstanding work lived in six files and "every one of them relied
+on somebody remembering to look." `skills/` shipped the same week with the same
+property, and it is the worse case: an unread queue stays merely undrained,
+while an unread instruction corpus accumulates entries never tested against a
+second reader, and hands the first agent who finally opens it the lot at once
+with no way to tell which were ever true.
+
+**What changed.**
+
+- **`bin/wiki-lessons`** — the gate and the router. `route "<task>"` runs the
+  routing algorithm rather than describing it; `check` gates; `scan` regenerates
+  `INDEX.md`; `next`, `list`, `status`, `new`. It deliberately does not judge
+  whether a skill is *true* — `PROTOCOL.md` §3 makes that evidence and a second
+  occurrence, which needs a reader.
+- **`INDEX.md` is now generated**, killing the two-sources-of-truth class rather
+  than gating agreement on it. `check` fails when the committed file is not what
+  `scan` would write; in `--check-only` that becomes the real gate, exactly as
+  `wiki-freshness` is for `llm/`. Verified by hand: a status changed in a skill
+  file without a rescan turns the chain red.
+- **Wired in.** `bin/wiki-lessons check` joined the `bin/wiki-check` GATE list and
+  the red-gate detector in `bin/wiki-work`; `scan` went into GENERATE, not SCAN,
+  because a generated file that gates must be generated before the gates — the
+  same ordering rule that puts `wiki-digest` ahead of `wiki-lint`. Unvalidated
+  inbox candidates now surface as `skill` obligations at priority 4.
+- **`CLAUDE.md` routes at it**: the governing set, the architecture map, the
+  session-start loop, a new **LEARN** operation, the tools table, and the
+  pre-commit block.
+- **The name collision is resolved in writing.** `.claude/skills/` holds
+  procedures for one whole wiki operation, invoked by name by one vendor's
+  agent; `skills/` holds vendor-neutral lessons about the machinery, loaded by
+  trigger. Both `CLAUDE.md` and `skills/README.md` now say which is which.
+- **Four earned skills promoted**, each traceable to a dated incident already in
+  this repository rather than invented for the occasion: `repo/derived-surfaces`
+  (the 2026-08-17 portal-snapshot deletion 39 minutes after merge, and the
+  2026-08-20 eleven-page `llm/manifest.json` drift), `repo/stale-premise`,
+  `corpus/message-mining` (grep is quietly wrong on the dump; message-level
+  counts hide the 3.05x turn-level effect entirely), `repo/publication-surface`
+  (`.gitignore` governs `git add` and never touched the contents API).
+
+**A bug the tests found, which is the point of having them.** `bin/wiki-lessons
+new` printed "the gate fails until they are filled in" while the gate did no
+such thing — its `REPLACE` placeholders were not in the scaffold-detection list,
+so a scaffolded skill could be committed unfilled, parse, route, and be handed
+to an agent as an instruction reading "REPLACE — imperative steps". Fixed, and
+pinned. `tests/test_wiki_lessons.py` covers 22 cases; the suite is 262 green.
+
+**What was deliberately not done.** The 90 stale premises `bin/wiki-work` lists
+are pre-existing on `main` and untouched — they need the re-read that
+`repo/stale-premise.md` now describes, not a date bump. The one inbox candidate
+is left parked: promoting it to clear the list is the error `PROTOCOL.md` §3
+names, since the index vouches for what it lists.
+
 ## [2026-08-29] gate | meta | the moratorium guard caught a real violation on `main`, made by a careful writer
 
 **What happened.** A Reader's Digest twin of `wiki/mind/synthesis/totality-themes`
@@ -7230,3 +7301,123 @@ tool were written separately and both report 472 pages, 3,587 revisions, and 92
 revisions of `people/annie-ulmer`. Neither was tuned to match the other.
 
 Gates: `bin/wiki-check` all clean, 472 pages, 279 tests pass (15 new).
+
+## [2026-08-31] ingest | health | the intake ledger's first export (2026-08-30/31)
+
+**The ledger was empty until this pass.** `intake/events.jsonl` was tracked at
+zero bytes on `main`; the record of the nights it had been running lived only on
+the phone. This filed the first export: 17 events, 4 units, one night.
+
+**What is now on record.** One cocaine unit
+(`intake_unit_01M1AJ47K2HKZ8TZZ75CPNGFJ7`) — 0.75 g received 17:04 Aug 30,
+closed 02:35 Aug 31, consumed, balanced. Six intake events over 9h 31m, median
+dose 0.1 g, median interval 1h 07m, five of the six between 20:05 and 00:01 and
+a closing 0.25 g at 02:35. Three single-serving cannabis units of 0.05 g at
+22:06, 00:37 and 02:36, the last opened 24 seconds after the cocaine unit
+closed.
+
+**The finding, and its size.** `wiki/health/cocaine.md` carried a dosage arc
+whose 2020–present row (~0.5–1 g/day) came entirely from a retrospective
+self-report; the page's own "What's missing" said no figure was on record for
+the 2026 window. This night lands inside the stated band. That is the whole
+claim: one unit, one night, `n = 1`, no rate. The gap is narrowed on the page
+rather than marked closed, because what is still missing is a denominator.
+
+**Three traps written onto the page rather than left in the data.** The ledger
+prints `Rate of consumption 1.89 g / day` for this unit — that is 0.75 g
+extrapolated across 24 hours from a unit that lived 9h 31m, and it is not a
+daily figure. Four of the six events are flagged `measured` while carrying
+exactly 0.1 g, the value of the portal's `ONE LINE` preset, which
+`substances.json` itself defines as *estimated, low confidence* — so the 100%
+coverage figure is honest about how many events carry a number and optimistic
+about where the numbers came from. And the ledger's silence before 2026-08-30
+is the absence of an instrument, not the absence of use.
+
+**Three defects in `bin/intake`, all found by trying to file the export.**
+
+1. `merge_lines` ordered same-timestamp events by event id. A unit opened,
+   logged and closed in one tap writes three events sharing a timestamp to the
+   second, and a ULID's low half is random — so the burst merged in arbitrary
+   order and the log said a unit was closed before it was opened. `check`
+   rejected it, which is the system working; the merge produced it. The sort key
+   now ranks by what an event does to a unit before falling back to the id,
+   which keeps two devices merging to byte-identical files.
+2. `cross_stats` grouped units by the substance *display string*. The portal
+   sends the substance as free text with a null `substance_id`, so a single
+   `cannibis` typo opened its own heading in `SUMMARY.md` beside `cannabis`,
+   each with its own mean, neither looking wrong. Correcting the typo produced a
+   *third* heading (`Cannabis`, the catalog's name), which is how the grouping
+   defect surfaced at all. Grouping is now on the catalog id where there is one.
+3. **Every unit closed through the portal has no `raw/` archive.** `close`
+   files the capture, but the portal and ボスの部屋 write events straight to
+   `events.jsonl` through the contents API and never call `close` — and the
+   README expects most of the record to arrive that way. All four units here
+   were missing theirs. Added `bin/intake capture` to backfill, and made a
+   backfilled capture say so on its face: the archive's warrant is that it was
+   computed at close and cannot be quietly restated, so one that was not must
+   not carry the sentence claiming it was.
+
+**Two corrections recorded, both additive, both with reasons on the log:** unit
+2's `cannibis`, and unit 4 opened and logged as 0.05 mg where cannabis defaults
+to grams, the one-hitter preset is 0.05 g, and two identical units earlier the
+same night were both 0.05 g. **Not corrected, deliberately:** the two 0.1 g
+cocaine events seven seconds apart at 20:05. A double-tap is plausible, but the
+unit reconciles to exactly 0.75 g with both counted, and that is evidence they
+were both real.
+
+Also added: `bin/intake correct --substance`, because a unit opened against the
+wrong substance had no path back through the tool at all.
+
+Gates: `bin/wiki-check` all clean, 472 pages, 297 tests pass (11 added).
+
+## [2026-08-31] ingest | health | the ledger gets an entry page
+
+**The record was in the repository and invisible from the site.** The portal's
+`sync-wiki.mjs` reads `wiki/**`, `sage/questions/**`, `plain/**` and
+`lexicon/words/**` — and nothing else. `intake/events.jsonl`,
+`intake/units.json` and `intake/SUMMARY.md` are none of those, so the only way
+to see the ledger was to open a JSONL file in this repository. The pages that
+reason *from* it were on the site; the evidence under them was not.
+
+**`wiki/health/intake-ledger.md`** now renders it: units, every event in date
+order, the corrections with their reasons, per-substance figures with coverage,
+and a bar chart of events per hour of day. Generated by `bin/intake page`, which
+gates on drift inside `bin/intake check` exactly as `bin/wiki-skills` gates its
+own page — a hand-written snapshot of a growing log is wrong the day after it is
+written and nothing would say so.
+
+**It is evidence, not a claim, and that is enforced by what is on it.** It
+states no finding, argues nothing and concludes nothing about the person; the
+findings stay on `wiki/health/cocaine.md` and
+`wiki/health/chemical-architecture.md` where the operations put them, cited back
+to unit ids. `intake/README.md`'s "it is not a wiki page and does not become one
+automatically" was the right instinct and the wrong sentence — updated in both
+that file and `CLAUDE.md` to say what actually holds: a *finding* never lands on
+the generated page, which is overwritten on every write and would lose it.
+
+**One figure is withheld rather than caveated.** `bin/intake report` prints a
+per-unit `Rate of consumption ... g / day` — the unit's quantity extrapolated
+across a full day from however long the unit lived, which for the 2026-08-30
+cocaine unit reads 1.89 g/day against 0.75 g actually consumed. It is kept off
+the page entirely, and the page says so. A number nobody can quote wrongly is
+worth more than a number with a warning beside it, and this is the one number
+here that reads as evidence and is not.
+
+**Two defects in the first render, both caught before commit.** A typed-edge
+claim contained a bare `"Daily"` inside a double-quoted YAML scalar, which
+breaks the page's frontmatter silently — the generator no longer emits an inner
+double quote and a test asserts the claim scalars stay balanced. And correction
+rows listed every field the correction carried, so the mg→g fix displayed as
+`quantity: 0.05 → 0.05, unit: 'mg' → 'g'`, burying the edit that mattered in a
+field that did not move. Rows now show only what changed.
+
+**Ordering.** `bin/intake page` runs FIRST in `bin/wiki-check`'s generator list,
+ahead of `wiki-digest` and `llm-publish`, because it writes a page into `wiki/`
+and both of those read `wiki/`. Either running ahead of it would publish a
+corpus one pass behind the ledger — the drift that put the LLM manifest eleven
+pages behind on 2026-08-20, arriving from a new direction.
+
+9 tests added (86 in `test_intake`, 306 in the suite), including that the page
+is deterministic across runs, that a hand-edit is a red gate, that a missing
+page warns rather than fails, and that no per-day *value* ever reaches it.
+Gates: `bin/wiki-check` all clean, 473 pages.

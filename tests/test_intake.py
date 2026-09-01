@@ -626,6 +626,254 @@ class TestCrossOriginBoundary(unittest.TestCase):
         self.assertIn("return", block.split("\n")[3])
 
 
+class TestMerge(unittest.TestCase):
+    """Merging two copies of the log, which is how the portal's writes arrive.
+
+    The failure this pins was found ingesting a real export on 2026-08-31. A
+    unit opened, logged and closed in one tap — every `single` unit, and three
+    of the four in that file — writes three events carrying the same timestamp
+    to the second. `merge_lines` tie-broke on the event id, which is a ULID
+    whose low half is random, so the burst came back in arbitrary order and the
+    merged log said a unit had been closed before it was opened. `check`
+    rejected it, which is the system working; the merge produced it, which is
+    the bug.
+    """
+
+    def burst(self, stamp, unit, prefix):
+        """One unit opened, consumed and closed at the same second."""
+        def ev(eid, etype):
+            return json.dumps({"id": eid, "type": etype, "timestamp": stamp,
+                               "occurred_at": stamp, "unit_id": unit,
+                               "data": {}, "source": {}})
+        # Ids deliberately sort against the causal order: close < log < create.
+        return [ev(prefix + "a-create", "unit_created"),
+                ev(prefix + "b-log", "intake_logged"),
+                ev(prefix + "0-close", "unit_closed")]
+
+    def test_a_same_second_burst_keeps_its_causal_order(self):
+        lines = self.burst("2026-08-31T00:37:40-04:00", "u1", "evt_")
+        types = [json.loads(l)["type"] for l in m.merge_lines(lines)]
+        self.assertEqual(types, ["unit_created", "intake_logged", "unit_closed"])
+
+    def test_a_scrambled_burst_is_put_back_in_order(self):
+        lines = self.burst("2026-08-31T00:37:40-04:00", "u1", "evt_")
+        types = [json.loads(l)["type"] for l in m.merge_lines(list(reversed(lines)))]
+        self.assertEqual(types, ["unit_created", "intake_logged", "unit_closed"])
+
+    def test_merging_is_a_set_union_by_id(self):
+        lines = self.burst("2026-08-31T00:37:40-04:00", "u1", "evt_")
+        self.assertEqual(m.merge_lines(lines, lines), m.merge_lines(lines))
+
+    def test_two_devices_merge_to_the_same_bytes(self):
+        """Order-independence is what keeps a sync from being a conflict."""
+        a = self.burst("2026-08-31T00:37:40-04:00", "u1", "aa_")
+        b = self.burst("2026-08-31T00:37:40-04:00", "u2", "bb_")
+        self.assertEqual(m.merge_lines(a, b), m.merge_lines(b, a))
+
+    def test_a_merged_burst_passes_the_gate(self):
+        """The end-to-end version: the order has to survive into `check`."""
+        with tempfile.TemporaryDirectory() as tmp:
+            L = m.Ledger(tmp)
+            L.dir.mkdir(parents=True, exist_ok=True)
+            created = json.dumps({
+                "id": "evt_a-create", "type": "unit_created", "unit_id": "u1",
+                "timestamp": "2026-08-31T00:37:40-04:00",
+                "occurred_at": "2026-08-31T00:37:40-04:00",
+                "data": {"substance": "cannabis", "substance_id": None, "quantity": 0.05,
+                         "unit": "g", "single": True},
+                "source": {"application": "wiki-brain", "tool": "intake-ledger",
+                           "interface": "portal"}})
+            logged = json.dumps({
+                "id": "evt_b-log", "type": "intake_logged", "unit_id": "u1",
+                "timestamp": "2026-08-31T00:37:40-04:00",
+                "occurred_at": "2026-08-31T00:37:40-04:00",
+                "data": {"quantity": 0.05, "unit": "g", "measurement_type": "estimated",
+                         "confidence": "medium"},
+                "source": {"application": "wiki-brain", "tool": "intake-ledger",
+                           "interface": "portal"}})
+            closed = json.dumps({
+                "id": "evt_0-close", "type": "unit_closed", "unit_id": "u1",
+                "timestamp": "2026-08-31T00:37:40-04:00",
+                "occurred_at": "2026-08-31T00:37:40-04:00",
+                "data": {"disposition": "consumed",
+                         "reconciliation": {"resolution": "balanced", "unaccounted": 0,
+                                            "quantity_unit": None, "overdrawn": False}},
+                "source": {"application": "wiki-brain", "tool": "intake-ledger",
+                           "interface": "portal"}})
+            merged = m.merge_lines([], [created, logged, closed])
+            L.events_path.write_text("\n".join(merged) + "\n", encoding="utf-8")
+            L.write_projection()
+            errors, _ = m.check(L)
+            self.assertEqual(errors, [])
+
+
+class TestSubstanceGrouping(LedgerCase):
+    """One substance is one heading, however it was spelt at entry.
+
+    The portal sends the substance as free text with a null `substance_id`.
+    Before this, `cross_stats` grouped on that string, so `cannibis` got its own
+    heading in SUMMARY.md beside `cannabis` — each with its own mean, and
+    neither looking wrong.
+    """
+
+    def units(self, *names):
+        for n, name in enumerate(names):
+            self.ops.new_unit(name, 0.05, "g", received_at=f"2026-08-0{n + 1} 12:00")
+            self.ops.log_intake(n + 1, 0.05, "g", "measured",
+                                occurred_at=f"2026-08-0{n + 1} 12:30")
+        return m.cross_stats(self.L.project())
+
+    def _free_text(self, unit_id, name):
+        """A portal-shaped unit: the name as typed, no catalog id."""
+        for u in self.L.project():
+            if u["ordinal"] == unit_id:
+                self.ops.correct(
+                    [e["id"] for e in self.L.read_events()
+                     if e["type"] == "unit_created" and e["unit_id"] == u["id"]][0],
+                    {"substance": name, "substance_id": None}, reason="test fixture")
+                return
+
+    def test_a_misspelling_does_not_fork_the_analysis(self):
+        self.units("cannabis", "cannabis")
+        self._free_text(2, "cannibis")
+        st = m.cross_stats(self.L.project())
+        self.assertEqual(len(st["substances"]), 1)
+        self.assertEqual(st["substances"][0]["units"], 2)
+
+    def test_case_does_not_fork_it_either(self):
+        self.units("cannabis", "cannabis")
+        self._free_text(1, "cannabis")
+        self._free_text(2, "Cannabis")
+        st = m.cross_stats(self.L.project())
+        self.assertEqual(len(st["substances"]), 1)
+
+    def test_different_substances_still_separate(self):
+        st = self.units("cannabis", "cocaine")
+        self.assertEqual(len(st["substances"]), 2)
+
+    def test_the_catalog_name_wins_the_label(self):
+        """A group holding one catalogued unit is titled by the catalog."""
+        self.units("cannabis", "cannabis")
+        self._free_text(1, "cannibis")
+        st = m.cross_stats(self.L.project())
+        self.assertEqual(st["substances"][0]["substance"], "Cannabis")
+
+
+class TestBackfilledCaptures(LedgerCase):
+    """A unit closed through the portal never reaches `close`, so nothing filed
+    its raw/ archive. `capture` backfills those — and must not claim the
+    backfill was written at close, which is the archive's whole warrant.
+    """
+
+    def closed_unit(self):
+        self.unit()
+        self.ops.log_intake(1, 0.5, "g", "measured", occurred_at="2026-08-01 13:00")
+        self.ops.close_unit(1, "consumed", resolution="discrepancy")
+
+    def test_a_backfilled_capture_says_it_was_backfilled(self):
+        self.closed_unit()
+        unit = self.L.find_unit(1)
+        path = self.ops.write_capture(unit, backfilled="2026-08-31")
+        text = path.read_text()
+        self.assertIn("BACKFILLED 2026-08-31", text)
+        self.assertNotIn("generated once at close, never revised", text)
+
+    def test_a_capture_written_at_close_still_claims_it(self):
+        self.closed_unit()
+        text = (self.L.captures / f"{self.L.find_unit(1)['id']}.md").read_text()
+        self.assertIn("generated once at close", text)
+        self.assertNotIn("BACKFILLED", text)
+
+
+class TestWikiPage(LedgerCase):
+    """`wiki/health/intake-ledger.md` — the ledger rendered as a wiki entry.
+
+    Generated, so a hand-edit is drift and drift is a red gate. Evidence rather
+    than a claim, so the one figure that reads as evidence and is not — the
+    per-unit rate, which extrapolates a unit's quantity across a full day from
+    however long the unit lived — must not appear on it.
+    """
+
+    def loaded(self):
+        self.unit()
+        self.ops.log_intake(1, 0.2, "g", "measured", occurred_at="2026-08-01 13:00")
+        self.ops.log_intake(1, descriptor="one line", occurred_at="2026-08-01 14:00")
+        units = self.L.project()
+        return units, m.render_wiki_page(units, m.cross_stats(units))
+
+    def test_it_is_deterministic(self):
+        units, first = self.loaded()
+        self.assertEqual(first, m.render_wiki_page(units, m.cross_stats(units)))
+
+    def test_it_declares_itself_generated(self):
+        _, page = self.loaded()
+        self.assertIn("bin/intake page", page)
+        self.assertIn("Do not hand-edit", page)
+
+    def test_it_never_publishes_the_extrapolated_rate(self):
+        """The number most likely to be quoted as a daily figure, and it is not one.
+
+        The page is allowed to NAME the withheld figure — it explains why it is
+        withheld — so this asserts no per-day *value* is printed, which is the
+        thing that could be quoted.
+        """
+        _, page = self.loaded()
+        # A leading digit is required: the caveat's own "... g / day" is prose,
+        # not a value, and must not trip this.
+        self.assertIsNone(re.search(r"\d[\d.]*\s*m?[gl]\s*/\s*day", page), page)
+        self.assertIn("No rate is published here", page)
+
+    def test_an_unquantified_event_keeps_its_row_and_carries_no_quantity(self):
+        _, page = self.loaded()
+        row = [l for l in page.splitlines() if "one line" in l and l.startswith("|")]
+        self.assertEqual(len(row), 1, page)
+        self.assertIn("| — |", row[0])
+
+    def test_coverage_is_stated_when_events_lack_a_quantity(self):
+        _, page = self.loaded()
+        self.assertIn("1 of 2 events carry a quantity", page)
+
+    def test_a_hand_edit_is_a_red_gate(self):
+        self.loaded()
+        path = self.L.root / m.INTAKE_PAGE
+        path.parent.mkdir(parents=True, exist_ok=True)
+        path.write_text(m.render_wiki_page(self.L.project(),
+                                           m.cross_stats(self.L.project())), encoding="utf-8")
+        self.assertEqual(m.check(self.L)[0], [])
+        path.write_text(path.read_text() + "\nsomething a person typed\n", encoding="utf-8")
+        errors, _ = m.check(self.L)
+        self.assertTrue(any("drifted" in e for e in errors), errors)
+
+    def test_a_missing_page_warns_rather_than_failing(self):
+        """Behind is not broken, and the warning names the one command that fixes it."""
+        self.loaded()
+        errors, warnings = m.check(self.L)
+        self.assertEqual(errors, [])
+        self.assertTrue(any("bin/intake page" in w for w in warnings), warnings)
+
+    def test_a_correction_row_shows_only_what_changed(self):
+        self.unit()
+        self.ops.log_intake(1, 0.5, "g", "measured", occurred_at="2026-08-01 13:00")
+        ev = [e for e in self.L.read_events() if e["type"] == "intake_logged"][0]
+        self.ops.correct(ev["id"], {"quantity": 0.05, "unit": "g"},
+                         reason="decimal entry error")
+        units = self.L.project()
+        page = m.render_wiki_page(units, m.cross_stats(units))
+        row = [l for l in page.splitlines() if "decimal entry error" in l][0]
+        self.assertIn("`quantity`", row)
+        self.assertNotIn("`unit`", row)   # g -> g did not move
+
+    def test_the_frontmatter_quotes_are_balanced(self):
+        """A claim containing a bare double quote breaks the page's YAML silently."""
+        _, page = self.loaded()
+        fm = page.split("---")[1]
+        for line in fm.splitlines():
+            body = line.split(":", 1)[1].strip() if line.strip().startswith("claim:") else ""
+            if body:
+                self.assertTrue(body.startswith('"') and body.endswith('"'), line)
+                self.assertNotIn('"', body[1:-1], line)
+
+
 class TestContract(unittest.TestCase):
     def test_help_runs(self):
         import subprocess

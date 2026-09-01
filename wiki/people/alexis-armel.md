@@ -199,7 +199,7 @@ on Dan's own Facebook profile under "Previous relationships," in that order.
 > friendship with [[wiki/people/zach-clingan|Zach Clingan]]
 > ([[wiki/people/zach-clingan|full account there]]), and an overnight ski
 > trip to Seven Springs the following night with a named group including
-> [[wiki/people/jason-bermejo|Jason Bermejo]] and
+> [[wiki/people/jerad-friedline|Jerad Friedline]] and
 > [[wiki/people/josh-brannan|Josh Brannan]]. What belongs on this page
 > specifically: the pills "become a determining factor of how and when we
 > leave," turning a planned visit into an **eight-day stay** — Dan draws the

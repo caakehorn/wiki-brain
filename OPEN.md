@@ -147,7 +147,7 @@ new knowledge available, because no new source is required.
 ### health (11)
 
 - **[[wiki/health/cocaine]]** — **Prescriber information and medical oversight**: No prescriber, clinic, or medical record for the cocaine use appears anywhere in the corpus — it is entirely self-directed and undocumented by any clinical source.
-- **[[wiki/health/cocaine]]** — **Post-2026 dosage state**: The dosage arc is documented through the inheritance exhaustion (~2020 onward), but no figure is on record for the 2026–present window, when Bop replaced Tom as the daily node.
+- **[[wiki/health/cocaine]]** — **Post-2026 dosage state**: partially answered, and narrowed rather than closed. The dosage arc is documented through the inheritance exhaustion (~2020 onward) from self-report; the intake ledger now supplies one measured unit — 0.75 g over 9h 31m on 2026-08-3
 - **[[wiki/health/cocaine]]** — **The cocaine–bulimia link** is stated in a self-audit but never independently corroborated by any source outside Dan's own retrospective account.
 - **[[wiki/health/cocaine]]** — **Product specificity in the NYC era**: Menore's product is still not positively identified, but the question is narrower than it was — see the re-check below. It is *not* weed, it is sold in **bags**, and the thread's silence on the point is now measured rath
 - **[[wiki/health/cocaine]]** — **The true scale of the 2017–2020 spend**: The dosage arc gives quantities but not dollar figures; the financial cost of the 3.5–7g daily peak is undocumented.

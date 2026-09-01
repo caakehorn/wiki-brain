@@ -6,7 +6,7 @@ aliases: ["substance stack", "the chemical triad"]
 status: active
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-08-28
+date_modified: 2026-08-31
 sources:
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -16,6 +16,8 @@ sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/dox-md/ADDICTION_PROFILE.md
   - raw/people/captures/2026-08-27_222932_gap-alexis-armel.md
+  - raw/health/intake/intake_unit_01M1AJ47K2HKZ8TZZ75CPNGFJ7.md
+  - intake/events.jsonl
 related:
   - wiki/self/context-core
   - wiki/mind/profile/deviance-mapping
@@ -82,9 +84,27 @@ neurochemical engineering" ([[wiki/mind/profile/deviance-mapping]]).
 | Suboxone | "System stabilizer — chassis & OS" | Daily since 2010-02-17 (day-zero pinned; earlier docs said ~Jan 2010/Jan 2011); prevents withdrawal; the residual "1% opiate glow" described as intentional |
 | Cocaine ([[wiki/health/cocaine]]) | "Cognitive & drive accelerator — CPU & RAM" | Daily; framed as tool, "voltage," focus sharpener — full profile, dosage arc and supply history on its own page |
 | Nicotine | "Ritualistic regulator — thermal paste" | Smooths transitions between chemical states |
-| Cannabis | Creative lubricant | Daily |
+| Cannabis | Creative lubricant | Daily; first dated measurement 2026-08-30/31 — three one-hitter units (0.05 g each) inside nine hours |
 | Alcohol | **Zero** | 13–15 years abstinent; active aversion; family pattern implicated in prior conflicts |
 | Psychedelics/other | Occasional | Mushrooms and klonopin appear in the Tom supply record |
+
+### The stack, measured rather than described — 2026-08-30/31
+
+Every "Daily" in the table above is a description the corpus took from Dan's
+own account of his system. The intake ledger began recording on 2026-08-30 and
+supplies the first night where two rows of it were written down as they
+happened: one **0.75 g cocaine unit** worked over 9h 31m in six doses, and
+**three separate 0.05 g cannabis units** at 22:06, 00:37 and 02:36, each opened
+and closed in a single action. The full unit report, its coverage caveats and
+what a single night cannot establish are on
+[[wiki/health/cocaine|cocaine]] — including the reason the ledger's
+"1.89 g / day" figure for that unit must not be read as a daily rate.
+
+The narrow finding for *this* page: on the one night the instrument was
+running, the stack behaved as the table describes it. Two rows corroborated,
+on one night, by a first-party dated record rather than by recollection. The
+Suboxone and nicotine rows have no ledger entries at all and remain
+description.
 
 ## History
 

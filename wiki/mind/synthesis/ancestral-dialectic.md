@@ -196,6 +196,41 @@ page; it supplies a proposed *cause* (two incompatible ancestral codes
 needing separate chemical regulators) for an *effect* the wiki had
 already described without explaining.
 
+> **RE-CHECKED [2026-08-31] — the premise moved, and for once it moved with
+> data that bears on this page directly.** [[wiki/health/chemical-architecture]]
+> gained the intake ledger's first measured night. The model above assigns
+> cocaine to the analytical/Ashkenazi mode and cannabis to the
+> dissociative/Appalachian one — two regulators for two codes. On the one night
+> now on record they did not run in separate blocks. Each cannabis unit follows
+> a cocaine dose closely and never replaces one: 22:06:36 arrives 53 seconds
+> after the 22:05:43 dose, 00:37:40 falls between the 00:01 and 02:35 doses, and
+> 02:36:01 opens 24 seconds after the cocaine unit closed for the night. The two
+> substances interleave, with cannabis trailing cocaine every time.
+>
+> **This is not a falsification and is not written as one.** The page's claim is
+> about which mode each substance *amplifies*, and two amplifiers can run
+> concurrently — an interleaved night is compatible with the model as stated. It
+> is, however, a specific thing the model did not predict, and a reading that
+> expected alternation between two ancestral scripts now has one night of
+> evidence against it. `n = 1`; the ledger began recording on 2026-08-30 and its
+> silence before that date is the absence of an instrument. No claim withdrawn,
+> and this is worth re-checking once the ledger has more nights than it has
+> hypotheses.
+>
+> **`date_modified` is deliberately NOT bumped for this note, and that is the
+> point of the note's last paragraph.** This page carries seven other stale
+> premises that predate this pass — `wiki/self/lineage/23andme-genomics`,
+> `wiki/self/lineage/family-tree`, `wiki/self/lineage/hybrid-analysis`,
+> `wiki/self/ancestry`, `wiki/mind/concepts/attachment-model`,
+> `wiki/mind/synthesis/fayette-return` and
+> `wiki/mind/synthesis/instrument-is-subject` — and **none of them was
+> re-read here.** Bumping the date to 2026-08-31 was tried and reverted: it
+> cleared all seven from `WORK.md` in one move, without anybody having looked
+> at any of them. That is the failure `CLAUDE.md` calls the one that corrupts
+> the system quietly, and it is worth more to this page to stay flagged than to
+> look tidy. The seven are still owed. This block is a re-check of the chemical
+> premise only, and claims nothing about the other seven.
+
 **Gaps:** this entire page rests on one AI-authored report's synthesis of
 family-tree data plus the existing psych corpus — it should not be
 treated as a genealogical or psychiatric finding, only as one coherent
