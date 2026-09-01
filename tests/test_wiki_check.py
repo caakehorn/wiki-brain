@@ -50,8 +50,15 @@ class TestOrder(unittest.TestCase):
         gen, gate = steps(self.src, "GENERATE"), steps(self.src, "GATE")
         self.assertIn("wiki-digest", gen)
         self.assertIn("llm-publish", gen)
+        self.assertIn("wiki-timeline", gen)
         self.assertIn("wiki-lint", gate)
         self.assertNotIn("wiki-lint", gen)
+
+    def test_timeline_generate_precedes_digest_and_publish(self):
+        """wiki-timeline writes a wiki page; digest counts it and llm-publish copies it."""
+        gen = steps(self.src, "GENERATE")
+        self.assertLess(gen.index("wiki-timeline"), gen.index("wiki-digest"))
+        self.assertLess(gen.index("wiki-timeline"), gen.index("llm-publish"))
 
     def test_freshness_is_a_gate_not_a_generator(self):
         """It reports drift and writes nothing — it must never be in GENERATE."""
