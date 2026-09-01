@@ -7,7 +7,7 @@ status: stable
 date_created: 2026-06-22
 date_modified: 2026-09-01
 sources:
-  - raw/self/chats/_✧✧ 𝓓𝓐𝒭𝓕𝓡𝓐𝒭𝓚-𝓘𝓒 𝓘’𝓢 ✧✧ Pinned chat.md
+  - raw/self/chats/_✧✧ 𝔻𝔸ℕ𝔽ℝ𝔸ℕ𝕂-𝕀𝕊𝕄'𝕊 ✧✧ Pinned chat.md
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/facebook/facebook-ihatedanfrank/
