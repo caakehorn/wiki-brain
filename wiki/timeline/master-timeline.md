@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,320 events** across **80 years** (1796–2027), drawn from **364 pages**. Tier 1 675 · Tier 2 400 · Tier 3 2,245.
+**3,324 events** across **80 years** (1796–2027), drawn from **365 pages**. Tier 1 675 · Tier 2 400 · Tier 3 2,249.
 
 ## What counts as an event here
 
@@ -980,9 +980,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2010-01-03** — one is timestamped by the platform and one was typed into a profile  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **2010-01-03** — facebook — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 30 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 32 pages
 - · **2010-01-03** — location history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 30 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 32 pages
 - · **2010-01-03** — Places lived  
   ↳ [[wiki/self/facebook]] · Identity & Profile Data (2022 snapshot, self-reported)
 - ★ **2010-01-23** — On the evening of **23 January 2010**, five weeks before the move north, Dan got his first tattoo: the letter **A**.  
@@ -2635,10 +2635,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/lukyan-mraz]] · The ending
 - · **2016-02-18** — A brief, guarded check-in follows on February 18, 2016 ("Yo is everything alright with Luke?" — Zach asking after Lukyan Mraz, a shared friend named earlier in the thread as an Xbox-modding console gamer).  
   ↳ [[wiki/people/zachariah-harshman]] · After the rupture: dormancy, then revival
+- · **March 2016** — What the archive establishes is narrower and still worth having: between March 2016 and March 2026 Dan did not *tell anyone publicly* that he was making music, on an account he was otherwise using heavily.  
+  ↳ [[wiki/interests/music/overview]] · And what the public record says — the same answer, a second corpus
 - · **March 2016** — Gaps:** the exact nature of "everything" owed by March 2016 and whether it was resolved; what prompted Lukyan's Feb 17 "you alright?" check-in, cross-corroborated by Zach's own concern the next day but unexplained in either thread; Lukyan's current circumstances.  
   ↳ [[wiki/people/lukyan-mraz]] · Corpus record
 - · **March 2016** — Vermin control came and got it!" (March 2016).  
   ↳ [[wiki/people/vicki]] · The working years (2016–2018)
+- · **2016-03-07** — The last public post of Dan's own music before the revival is 7 March 2016** — a link to `soundcloud.com/sloppp/juicy-j-hella-bandz-sloppp-bootleg`.  
+  ↳ [[wiki/interests/music/overview]] · And what the public record says — the same answer, a second corpus
 - · **2016-03-11** — By March 11, 2016 the register has turned hostile: "When should I expect you?  
   ↳ [[wiki/people/lukyan-mraz]] · The ending
 - · **2016-03-23** — 2016-03-23:** identifying a film as "Same director as the shining" —  
@@ -4571,7 +4575,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **October 2023** — Early messages are workplace-adjacent (spinach sourcing, an October 2023 birthday party, a joke about Shakespeare being "aburrido" because he doesn't do coke like El Chapo).  
   ↳ [[wiki/people/manuel]] · Texture
 - · **October 2023** — claire ulmer — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
 - · **October 2023** — Manuel was a coworker at Au Za'atar — the thread opens with an October 2023 message referencing Tarik telling him to stay and work — who became a genuine, ongoing friendship that outlasted the job itself, running from August 2023 into 2026 (`+13472828140`, 45 messages; unlike most contacts in this…  
   ↳ [[wiki/people/manuel]] · Manuel
 - · **October 2023** — He appears **31 times** between October 2023 and June 2025, roughly half as often as his sister alice.  
@@ -4648,7 +4652,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2024-03-05** — March — the illness, and the job turning medical.** On **2024-03-05** Annie reports that Libby has told her she has brain cancer, and *"Libby just said 'I think I'm dying..'"*; the next day, that it is also back in her right lung.  
   ↳ [[wiki/people/libby]] · The arc, February to October 2024
 - · **2024-03-17** — libby — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
 - · **2024-03-27** — 2024-03-27:** "You might like this. It's a series of videos  
   ↳ [[wiki/interests/roman-republic]] · It became something he pushed on people
 - · **Spring 2024** — In spring 2024 he is actively proselytizing it:  
@@ -5711,6 +5715,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/music/aliases/mogzart]] · Identity
 - · **2026-03-04** — posted to SoundCloud with #DnB #Remix  
   ↳ [[wiki/interests/music/aliases/mogzart]] · Release Catalog (known)
+- · **2026-03-04** — The next is 4 March 2026**, the MOGZART DnB remix (mogzart).  
+  ↳ [[wiki/interests/music/overview]] · And what the public record says — the same answer, a second corpus
 - ◆ **2026-03-05** — He is the addressee and signatory on the building's final word on the tenancy: a March 5, 2026 message rounding the couple's outstanding balance to an even $10,000 and asking Dan to begin paying it down (see "The debt," below).  
   ↳ [[wiki/places/307-e-76th-st]] · The cast
 - · **2026-03-06** — They both think they turned your location back on…"*, 6 March 2026) rather than surfacing the deception.  
@@ -6196,7 +6202,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 30 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 32 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -6472,7 +6478,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-11** — Suz to Dan: *"It's time for you to go."* — the newest datapoint on his housing, from the person who controls it (suzanne frank)  
   ↳ [[wiki/legal/463-morgantown]] · Timeline
 - · **2026-08-11** — rick frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
 - · **2026-08-11** — What the qualification is.** The right distinction is between *volume* and *dependability*, and the mother channel fails the second test on its own record: it alternates rescue with an itemised bill, it produced a $14,000 dispute that ran unresolved for seven years, and on 11 August 2026 it…  
   ↳ [[wiki/mind/synthesis/single-channel]] · RE-CHECKED [2026-08-18]
 - · **2026-08-11** — Confirmation, downgraded 2026-08-11 — the amputation operation.** The  
@@ -6786,7 +6792,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-22** — ally lubin — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-22** — attachment model — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
 - · **2026-08-22** — It does not settle *when* beyond "recent," and it does not answer the transmission question the gap also asked: whether Ally sent the screenshot to Dan directly, or he obtained it some other way, is still undocumented. "Recent" against a 2026-08-22 capture puts the test somewhere in mid-2026 and no…  
   ↳ [[wiki/people/ally-lubin-cognitive-profile]] · The instrument, and what it is worth
 - ★ **2026-08-23** — the cool metric — mind  
@@ -6795,12 +6801,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/failure-to-launch]] · Gaps
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
+- · **2026-08-23** — overview — interests  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 32 pages
 - · **2026-08-23** — closing the set — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-23** — annie ulmer personality assessment — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-23** — johnny dealer — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
 - · **2026-08-23** — 1. ~~**No calibration test has been run**, though the data for it exists.~~ **CLOSED [2026-08-23], as a negative result.** The data does not exist: of 24 strict graded credences across eleven years, one is resolvable and it resolved false.  
   ↳ [[wiki/mind/synthesis/failure-to-launch]] · Gaps
 - · **2026-08-23** — Stylometrics — linguistic profile — —  
@@ -6864,9 +6872,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 30 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 32 pages
 - · **2026-08-28** — full sail 2008 2010 — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 30 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 32 pages
 - · **2026-08-28** — chemical architecture — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 5 pages
 - · **2026-08-28** — cocaine — health  
@@ -6963,4 +6971,4 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 364 wiki pages. 979 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 365 wiki pages. 984 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*

@@ -3,7 +3,7 @@ domain: interests
 page_type: summary
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-23
+date_modified: 2026-09-02
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -22,7 +22,7 @@ tags: [music-production, family]
 connections:
   - page: wiki/mind/synthesis/failure-to-launch
     type: evidences
-    claim: "One message in fifteen years about making a track and zero about a studio, against 179 mentions of golf in the same corpus, establishes the production identity as self-concept rather than enterprise and removes the capability audit's only candidate for a container Dan owns."
+    claim: "One message in fifteen years about making a track and zero about a studio, against 179 mentions of golf in the same corpus — and, in the independent public archive, no post about his own music between 7 March 2016 and 4 March 2026 — establishes the production identity as self-concept rather than enterprise across two corpora that were not collected to answer the question."
   - page: wiki/mind/synthesis/failure-to-launch
     type: contextualizes
     claim: "GRIPNOTIC is the only container in the biography that Dan has owned continuously - eleven years, longer than any job - and the absence of any countable output for it is the largest single gap in the capability audit."
@@ -41,6 +41,9 @@ connections:
   - page: wiki/mind/synthesis/alias-as-periodization
     type: contradicts
     claim: "This page's own framing — four aliases mapping to distinct periods and distinct aesthetics — does not survive a read of the alias pages against each other: the aesthetics do not turn over at the renames, only the periods do, so the alias functions as a clock rather than a style."
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "The public archive dates the production identity's public life exactly: 23.4% and 31.6% of originals in 2013-14, then nothing about his own music from 7 March 2016 to 4 March 2026 across 908 originals."
 ---
 
 
@@ -108,6 +111,60 @@ What the evidence settles is narrower than either: **the production identity is
 strongly supported as self-concept and unsupported as enterprise.** Whether
 finished tracks exist off-record — a distributor account, an unreleased folder —
 is the open question, and it is answerable by the operator in one sentence.
+
+## And what the public record says — the same answer, a second corpus
+
+`bin/mine-tweets` puts the same question to the 2,525-tweet public archive
+that `bin/mine-messages` put to the private one, and it returns the same
+shape by a different route.
+
+| Year | Originals | Touching production vocabulary |
+|---|---:|---:|
+| 2013 | 346 | 81 (**23.4%**) |
+| 2014 | 171 | 54 (**31.6%**) |
+| 2015 | 62 | 4 |
+| 2016 | 75 | 3 |
+| 2017–2025 | 908 | 0 about his own music |
+| 2026 | 26 | 5 (**19.2%**) |
+
+The production identity is not a constant that the archive samples
+unevenly. It runs hot for two years, decays for two more, and then stops.
+
+**The last public post of Dan's own music before the revival is 7 March
+2016** — a link to `soundcloud.com/sloppp/juicy-j-hella-bandz-sloppp-bootleg`.
+**The next is 4 March 2026**, the MOGZART DnB remix
+([[wiki/interests/music/aliases/mogzart]]). Ten years and three days, across
+908 public originals, in which Dan mentioned his own music-making **not
+once**.
+
+Nine of those years are not quiet years on the account: 2024 alone is 258
+originals, the archive's peak. He was posting more than he ever had, about
+politics, and nothing about the thing this page calls his production
+identity.
+
+**The two corpora agree, which is what makes this load-bearing.** The
+message record above finds one message about making a beat across 98,056;
+the public record finds a ten-year gap across 908 originals. They are
+different corpora, different audiences, different retrieval methods, and
+neither was collected to answer this question. A private silence could be
+a man who does not talk about his work. A private silence *and* a public
+silence, over the same decade, is [[wiki/mind/synthesis/failure-to-launch]]
+with a second witness.
+
+**Where it cuts the other way.** Silence about production is not absence of
+production, and this page should not be read as claiming it is. GRIPNOTIC
+is documented as developing through exactly these years — "Uniontown
+basement. Gripnotic developing." — and the basement studio at 337 Saratoga
+is real. What the archive establishes is narrower and still worth having:
+between March 2016 and March 2026 Dan did not *tell anyone publicly* that
+he was making music, on an account he was otherwise using heavily. The
+work may have continued; the announcing of it did not.
+
+Two limits on the arithmetic. The archive is originals-only, so a repost of
+someone else's track is not counted, and 2010–2012 are live-scrape
+reconstructions whose counts are floors — but the 2017–2025 window is
+spreadsheet-complete, so the zero in it is a real zero and not a gap in
+retrieval.
 
 ## Related
 - [[wiki/interests/music/concepts/sub-bass-signature]]

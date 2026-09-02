@@ -14,7 +14,7 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 492 |
-| Pages touched in the last 14 days | 196 |
+| Pages touched in the last 14 days | 197 |
 | Pages reasoning from other pages (`synthesizes:`) | 78 |
 | Live contradictions | 43 |
 | Open gaps | 502 |
@@ -47,12 +47,13 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-09-02** — 30 pages
+**2026-09-02** — 32 pages
   - ingest | self | @danfrank twitter archive as yearly pages
   - build | plain | two writing lanes, a floor that had to be measured, and a campaign page
   - translate | interests | favorites/eclecticism
   - translate | mind | synthesis/the-embedded-objective
   - translate | self | youtube-watch-history
+  - ingest | self/timeline/people | @danfrank twitter archive — mined across the wiki
 
 **2026-09-01** — 2 pages
 

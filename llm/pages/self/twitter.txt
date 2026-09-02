@@ -91,6 +91,9 @@ connections:
   - page: wiki/self/facebook
     type: contradicts
     claim: 'The February 2010 tweets put Dan in Florida eight weeks after the date Facebook''s `places lived` field claims he was living in Brooklyn — a self-entered profile field failing against timestamps, while the same export''s work history holds.'
+  - page: wiki/interests/music/overview
+    type: evidences
+    claim: 'The archive dates the production identity''s public arc — a 2013-14 peak, then no post about his own music between 7 March 2016 and 4 March 2026, ten years across 908 originals.'
 ---
 
 # Twitter / X Activity (@danfrank)

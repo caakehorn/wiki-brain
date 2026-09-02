@@ -7602,3 +7602,34 @@ departure is the one date the tweets do not fix (NY references run 8.8/8.9/
 
 Twenty typed edges added, including the twelve year pages the hub had never
 claimed with a `contains` edge.
+
+## [2026-09-02] ingest | interests/music | the production identity has a public arc, and it stops for ten years
+
+`wiki/interests/music/overview` already measured the production identity
+against the private corpus — one message in 98,056 about making a beat, zero
+about a studio, against 179 mentions of golf. `bin/mine-tweets` puts the same
+question to the 2,525-tweet public archive and gets the same answer by a
+different route.
+
+Production vocabulary is **23.4%** of 2013 originals and **31.6%** of 2014's,
+decays through 2015–16, and then stops. **The last public post of Dan's own
+music before the revival is 7 March 2016** (a SLOPPP bootleg link); **the next
+is 4 March 2026** (the MOGZART DnB remix). Ten years and three days, across
+**908 originals**, with no mention of his own music-making — and nine of those
+are not quiet years: 2024 alone is 258 originals, the archive's peak. He was
+posting more than ever, about politics, and nothing about production.
+
+Two corpora, different audiences, different methods, neither collected to
+answer this, agreeing. That is what upgrades it from a fact about the message
+dump to a second witness for `failure-to-launch`.
+
+Stated on the page against itself: silence about production is not absence of
+production. GRIPNOTIC is documented as developing through exactly these years
+and the basement studio is real. What the archive establishes is narrower —
+he stopped *telling anyone* — and the 2017–2025 window is spreadsheet-complete,
+so the zero in it is a real zero rather than a retrieval gap.
+
+`sloppp`: `date_range_end` corrected 2015-12-26 → 2016-03-07, with the
+distinction written on the page — the March 2016 link promotes existing
+catalogue rather than adding to it, so the discography does not move, but the
+alias's public life does.
