@@ -69,6 +69,17 @@ GENERATE = [
     # llm-publish have to see it. Left out of GENERATE it rots. In --check-only
     # it is skipped; do not add a separate gate for it.
     (["wiki-timeline", "generate"], "regenerate wiki/timeline/master-timeline.md", True),
+    # And again: the veracity ledger's public face is a wiki page, so it has to
+    # be current before digest counts pages and llm-publish copies them.
+    (["wiki-testimony", "page"], "regenerate wiki/meta/testimony-veracity.md", True),
+    # Fourth page-writer, and it was missing until 2026-09-02. `wiki-plain
+    # report` regenerates wiki/meta/readers-digest.md from the tree, and
+    # `wiki-plain check` gates on that page being current — so ANY pass that
+    # added or removed a wiki page left the gate red until somebody ran the
+    # generator by hand, with nothing naming which generator. Found by adding a
+    # page. Same rule as the three above: a generator whose output is gated
+    # belongs in GENERATE, or the gate is a trap rather than a check.
+    (["wiki-plain", "report"], "regenerate wiki/meta/readers-digest.md", True),
     (["wiki-digest"], "regenerate DIGEST / RECENT / OPEN", True),
     (["llm-publish"], "rebuild the llm/ corpus", True),
     # skills/INDEX.md is derived from the skill files, and `wiki-lessons check`
@@ -99,6 +110,13 @@ GATE = [
     # notice, because a stale units.json still reads as a plausible ledger.
     # Silent and clean when no unit has ever been opened.
     (["intake", "check"], "intake ledger log and projection agree", False),
+    # The veracity ledger has the intake ledger's derived-file problem and one
+    # of its own: a drifted projection still reads as a plausible ledger, and a
+    # stale PAGE misreports how much a first-person claim is worth to anyone
+    # reading the public site. This also re-checks the committed log against the
+    # standing directive, which has to happen on every commit rather than only
+    # at the moment a record is written.
+    (["wiki-testimony", "check"], "testimony ledger log, projection and page agree", False),
     # skills/ is the instruction corpus every agent is told to load before
     # touching this repository, so a malformed or unrouted skill is not untidy —
     # it is a session following something nobody validated, or failing to load

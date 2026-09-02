@@ -13,8 +13,8 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 493 |
-| Pages touched in the last 14 days | 204 |
+| Pages | 494 |
+| Pages touched in the last 14 days | 205 |
 | Pages reasoning from other pages (`synthesizes:`) | 78 |
 | Live contradictions | 43 |
 | Open gaps | 503 |
@@ -30,8 +30,8 @@ this is the state of the thing.
 | self | 58 |
 | timeline | 42 |
 | work | 15 |
+| meta | 11 |
 | places | 10 |
-| meta | 10 |
 | health | 6 |
 | legal | 4 |
 
@@ -39,7 +39,7 @@ this is the state of the thing.
 
 | Status | Pages |
 |---|---|
-| active | 188 |
+| active | 189 |
 | stable | 164 |
 | closed | 100 |
 | archived | 29 |
@@ -47,7 +47,8 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-09-02** — 40 pages
+**2026-09-02** — 42 pages
+  - build | meta | the wiki has been checking his testimony for months and throwing away every result
   - ingest | self | @danfrank twitter archive as yearly pages
   - build | plain | two writing lanes, a floor that had to be measured, and a campaign page
   - translate | interests | favorites/eclecticism
@@ -60,6 +61,7 @@ this is the state of the thing.
   - ingest | mind | the digital-witness noticing is fourteen years older than the theory
   - lint | mind | withdrawing the "two steps" politics finding published four hours earlier
   - ingest | people | the social graph, pass 2 — and an edge that was never actually written
+  - ingest | interests/music | 2014 read in full — SLOPPP was an operating practice, and two named gaps close
 
 **2026-09-01** — 2 pages
 
@@ -67,7 +69,7 @@ this is the state of the thing.
   - ingest | health | the intake ledger's first export (2026-08-30/31)
   - ingest | health | the ledger gets an entry page
 
-**2026-08-30** — 2 pages
+**2026-08-30** — 1 page
   - build | meta | the skills section was a contract with no counterparty
   - tool | health | the intake ledger — `bin/intake`, `intake/`, Special:Intake
   - infra | intake | the portal as a third interface, and the guard that actually guards

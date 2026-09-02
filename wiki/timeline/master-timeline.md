@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,381 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 682 · Tier 2 409 · Tier 3 2,290.
+**3,389 events** across **80 years** (1796–2027), drawn from **367 pages**. Tier 1 682 · Tier 2 410 · Tier 3 2,297.
 
 ## What counts as an event here
 
@@ -988,9 +988,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2010-01-03** — one is timestamped by the platform and one was typed into a profile  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **2010-01-03** — facebook — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
 - · **2010-01-03** — location history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
+- · **2010-01-03** — t002 — date, location — certain — refuted — The tweet archive has him in Florida for another eight weeks: 'moving to brooklyn in 9 days' (20 Feb 2010), 'last day in errrlando' (27th), 'peace out, florida. it's been real.' (28th)  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2010-01-03** — Places lived  
   ↳ [[wiki/self/facebook]] · Identity & Profile Data (2022 snapshot, self-reported)
 - ★ **2010-01-23** — On the evening of **23 January 2010**, five weeks before the move north, Dan got his first tattoo: the letter **A**.  
@@ -1601,6 +1603,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/uniontown-return-2013-2015]] · SLOPPP: the recording-arts ambition, migrated
 - · **2014-05-07** — Drake x Cashmere Cat – No Lie ft. 2 Chainz (SLOPPP Bootleg) — Bootleg  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
+- · **2014-05-13** — sloppp — interests  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
 - · **2014-05-14** — Heatwave Vol. 1** — "1 hour of tweriffik plurntastic tracks" — **Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
 - · **2014-05-22** — SLOPPP Trap Micromix — Mix  
@@ -2907,7 +2911,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **May 2017** — Twice Dan evidently weighed what he'd bought and found it light, and twice Vaughn retreated to the same defense: "What did it weight because he said it was 3.5… that's my best friend I got it from and I know he wouldn't do it on purpose" (May 2017), and "I swear I watched him weigh it" against a…  
   ↳ [[wiki/people/vaughn]] · The yard and the hustle, one channel
 - · **May 2017** — eric jester — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
 - · **May 2017** — Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two Nemacolin caddying seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a fellow caddie in 2017 who came back for 2018 as **assistant caddie master** — "I'm actually gonna be assistant caddie…  
   ↳ [[wiki/people/davey-fitzpatrick]] · Davey Fitzpatrick
 - · **May 2017** — Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose message thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — sparse check-ins that resurface every year or two, each one picking back up exactly where the last left…  
@@ -3211,6 +3215,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/places/337-saratoga-drive]] · Occupancy history
 - ◆ **April 2018** — 117 belmont circle — 2017–2018 — fran coldren\ — Fran, as a paid caregiving arrangement — **None  
   ↳ [[wiki/places/the-unpapered-address]] · Seven addresses, one structure
+- · **April 2018** — t001 — existence — confident — confirmed  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
+- · **April 2018** — t006 — location — confident — self_contradicted  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **Spring 2018** — A recurring bit through spring 2018 has Chad asking whether Brad had sent report times and joking about his golf ambitions ("I'm going pro soon!").  
   ↳ [[wiki/people/chad-johnson]] · Texture
 - · **April 2018** — One April 2018 message asks whether he could live with Dan in town for a month before heading to a summer camp job — outcome undocumented.  
@@ -3948,6 +3956,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **Summer 2019** — 117 belmont circle — places  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-27 — 5 pages
+- · **Summer 2019** — t005 — date, quantity — confident — unfalsifiable — Uncorroborated in the message record, which never returns to the subject after Danny's 11 July line. Buyer unknown. A deed search would settle it.  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **July 2019** — The engagement shape is exactly what the rule predicts for an unhostable assignment: dense April–July 2019, near-silent August through November, scattered orders in March 2020, one final burst in April 2020.  
   ↳ [[wiki/mind/synthesis/the-embedded-objective]] · The controls
 - · **Summer 2019** — Saved in Google Contacts under the first name "annoying" — Dan's own label, not a self-identification — this is a cocaine dealer contacted through the summer of 2019 (`+13057095740`, 87 messages, June 2–July 17).  
@@ -4160,6 +4170,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/jim-blanchard]] · Gaps
 - ◆ **November 2019** — This is followed by a long gap from August through November 2019, a scattered handful of orders in March 2020, and a final short burst April 7–14, 2020 — right as COVID-19 lockdowns began in NYC, suggesting gig delivery work was picked back up (or intensified) as a stopgap income source at the…  
   ↳ [[wiki/work/caviar-courier]] · What the pattern shows
+- · **November 2019** — t010 — A named individual was the building's superintendent and real estate agent at 307 E 76th St — identity, attribution — confident — unfalsifiable  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **November 2019** — Gaps:** exact end circumstances (voluntary departure vs. displaced by the Nemacolin job's November 2019 end per resume, which lines up with the run-up to NYC round two) are undocumented; no message record narrows when the caddying work actually stopped versus when Au Za'atar began (March 2021)…  
   ↳ [[wiki/work/nemacolin-caddying]] · Why the job matters
 - · **2019-11-05** — Tim Dillon, Ian Fidance  
@@ -5560,6 +5572,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/dec-2025-spike]] · Data profile
 - ◆ **November 2025** — attachment model** — Annie issued written denials of third-party involvement in November 2025 and February 2026. These denials were issued while she was involved with the third party she ultimately left for (Tuquick — tuquick-17248123683) and a defamation campaign was running within their shared…  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
+- ◆ **November 2025** — t008 — behavior, quantity — hedged — unfalsifiable — A consolidated multi-account YouTube export would settle it and has not been supplied. The single-account export is consistent with both readings: a real 100-day gap, or a routing artifact.  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
 - ◆ **November 2025** — This generalises: it is the same shape as the Nov 2025 and Feb 2026 written denials of any third party issued while she was involved with Coles (dan annie fallout verdict), and the same shape as *"I'm at home Dan… i dont know why he's doing that."  
   ↳ [[wiki/mind/synthesis/august-grievance-verdict]] · What this says about Annie
 - ◆ **November 2025** — The defamation campaign ran concurrently with private denials — the moral weight sits above ordinary betrayal.** Two written denials of any third party (Nov 2025, Feb 2026) were issued while she was involved with Tuquick, and while a defamation narrative (false rape allegation, "junkie" framing)…  
@@ -6250,9 +6264,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-14** — Dan does not hear or process sung lyrics as language in real time — he stated this directly (2026-07-14): words in a song register to him essentially as **timbre**, another textural element of the vocal performance, not as semantic content to be parsed and understood the way lyrics function for…  
   ↳ [[wiki/interests/music/concepts/lyrics-as-timbre]] · Lyrics as Timbre
 - · **2026-07-14** — vanessa frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
 - · **2026-07-14** — au zaatar — work  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
+- · **2026-07-14** — t009 — enumeration — hedged — partial — The tweet archive holds two pieces the list did not: the letter 'A' for Alexis, tattooed 23 January 2010 and eight years earlier than anything on the list, and a Morrissey piece dated by 24 October 2019.  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2026-07-14** — Gaps:** surname — per Dan (2026-07-14), a Greek name starting with "A," not more precisely recalled; what became of him after the shed shutdown; no contact after December 2024 in this export.  
   ↳ [[wiki/people/dimitri]] · Corpus record
 - · **2026-07-14** — Origin and end (per Dan directly, 2026-07-14):** Gabe was adopted the day after Dan arrived in Orlando to start college — August 2008, right at the front edge of the Full Sail era.  
@@ -6314,7 +6330,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -6914,7 +6930,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
 - · **2026-08-23** — overview — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
 - · **2026-08-23** — closing the set — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-23** — annie ulmer personality assessment — people  
@@ -6984,9 +7000,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
 - · **2026-08-28** — full sail 2008 2010 — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
 - · **2026-08-28** — chemical architecture — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 5 pages
 - · **2026-08-28** — cocaine — health  
@@ -7085,4 +7101,4 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 366 wiki pages. 997 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 367 wiki pages. 997 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*

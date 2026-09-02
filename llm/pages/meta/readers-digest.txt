@@ -44,7 +44,7 @@ This page is the campaign to write one for every entry.
 | | |
 |---|---|
 | Entries with a plain-English edition | **28** |
-| Entries eligible for one | 274 |
+| Entries eligible for one | 275 |
 | Withheld under the standing directive | 217 |
 | Coverage | 10.2% |
 
