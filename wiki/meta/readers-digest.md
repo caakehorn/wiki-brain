@@ -15,8 +15,8 @@ chart:
     - name: "Entries"
       points:
         "Translated": 28
-        "Major lane": 38
-        "Free lane": 40
+        "Major lane": 40
+        "Free lane": 39
         "Held (people)": 94
         "Too thin": 49
         "Withheld": 217
@@ -44,7 +44,7 @@ This page is the campaign to write one for every entry.
 | | |
 |---|---|
 | Entries with a plain-English edition | **28** |
-| Entries eligible for one | 274 |
+| Entries eligible for one | 275 |
 | Withheld under the standing directive | 217 |
 | Coverage | 10.2% |
 
@@ -56,8 +56,8 @@ is arithmetic in `bin/wiki-plain`: 900 words is the boundary.
 
 | Lane | What is in it | Outstanding |
 |---|---|---|
-| `major` | entries of 900 words or more — the dense findings | 38 |
-| `free` | entries under 900 words, worked smallest first | 40 |
+| `major` | entries of 900 words or more — the dense findings | 40 |
+| `free` | entries under 900 words, worked smallest first | 39 |
 
 A further **94** eligible entries about other people are in
 neither lane. They are held back deliberately, pending a decision about
@@ -108,15 +108,15 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 
 ## Next up
 
-**major** — 38 outstanding
+**major** — 40 outstanding
 
-- [[wiki/self/twitter/2024]] (10344 words)
-- [[wiki/self/twitter/2013]] (8992 words)
-- [[wiki/self/twitter/2010]] (8727 words)
-- [[wiki/self/twitter/2022]] (6584 words)
-- [[wiki/self/twitter/2023]] (6529 words)
+- [[wiki/self/twitter/2024]] (10376 words)
+- [[wiki/self/twitter/2013]] (9108 words)
+- [[wiki/self/twitter/2010]] (8865 words)
+- [[wiki/self/twitter/2009]] (7167 words)
+- [[wiki/self/twitter/2022]] (6677 words)
 
-**free** — 40 outstanding
+**free** — 39 outstanding
 
 - [[wiki/work/caviar-courier]] (301 words)
 - [[wiki/interests/favorites/books/authors/adrian-goldsworthy]] (315 words)

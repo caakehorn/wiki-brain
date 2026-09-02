@@ -213,36 +213,39 @@ reconstructions whose counts are floors — but the 2017–2025 window is
 spreadsheet-complete, so the zero in it is a real zero and not a gap in
 retrieval.
 
-> **The start boundary is contested, and this is the finding's strongest
-> counter-evidence [2026-09-02].** `raw/self/dox-scan/FULL TWITTER
-> ANALYSIS.txt`, in its 2016 section, quotes a tweet that would break the
-> window open at its front edge: *"Had lit times playing @ulmdub birthday
-> party last night at OSU."* That is Dan playing a live set, and if it is
-> real and postdates 7 March 2016, the ten-year run starts later than this
-> page says.
+> **RESOLVED [2026-09-02] — the disputed tweet is real, and the archive was
+> the unreliable source.** This block previously said the corpus could not
+> tell whether `raw/self/dox-scan/FULL TWITTER ANALYSIS.txt` had invented the
+> line *"Had lit times playing @ulmdub birthday party last night at OSU"*, or
+> whether the archive's 2016 was incomplete — and it leaned toward the first,
+> on the grounds that the analysis file is AI-generated and demonstrably works
+> from a smaller corpus.
 >
-> **The tweet is not in the archive.** 2016 holds 75 originals and none of
-> them is this one; no tweet in any year matches "OSU", "birthday party" or
-> "lit times". So one of two things is true, and the corpus cannot yet say
-> which. Either the analysis file invented or heavily paraphrased the line —
-> it is an AI-generated secondary source, it demonstrably works from a
-> **smaller** corpus than the archive (it puts 2009 at "approximately 65–70
-> tweets" where the archive holds 165), and it appends a spurious
-> `@danfrank` tag after nearly every quotation, all of which argue for low
-> confidence — or the archive's 2016 is not as complete as
-> [[wiki/self/twitter]]'s coverage table states, in which case the table is
-> wrong and so is the "spreadsheet-complete" assurance above it.
+> **That lean was wrong.** A backend fetch on 2026-09-02 returned the tweet:
+> id `696416822011289601`, **2016-02-07T19:34:43 UTC**, text matching the
+> secondary source exactly, one video attached, one repost. It is now in
+> `raw/self/twitter/archive.jsonl`.
 >
-> Note which way this cuts even if the line is genuine: a DJ set at a
-> friend's college birthday party is a *gig*, not a release, and the claim
-> here is about **posting about his own music**. It would move the boundary
-> by up to ten months. It would not touch the 2017–2025 zero, which is where
-> the weight of the finding sits.
+> **So the archive's 2016 is not complete for originals**, whatever
+> [[wiki/self/twitter]]'s coverage table says, and the AI-generated analysis
+> was accurate on a specific quotation this page used its general
+> unreliability to discount. Both corrections belong on the record: a source
+> being unreliable in aggregate does not make it wrong about any given line,
+> and "the archive does not contain it" is a statement about the archive.
 >
-> **What would settle it:** the official X Settings/archive export, already
-> listed as welcome in `queue.md` as a completeness check. Until then this
-> page holds the discrepancy rather than choosing the reading that flatters
-> its own conclusion.
+> **What it does to the finding: less than the block feared.** The gig is
+> **7 February 2016** and the last post about his own music was already
+> **7 March 2016** — the SLOPPP bootleg link, a month *later*. The ten-year
+> boundary does not move. What weakens is the *support* for it: the sentence
+> above asserting the 2017–2025 window is "spreadsheet-complete, so the zero
+> in it is a real zero" rests on the same coverage table now shown wrong for
+> 2016. The zero may well hold; the argument for it no longer does on its own.
+>
+> **Still open, and now the only thing that would close it:** a complete X
+> account export. The 2026-09-02 fetch was search-based and capped at ten
+> results per query, so it can confirm a named tweet exists and cannot
+> enumerate what else 2017–2025 is missing.
+
 
 ## Related
 - [[wiki/interests/music/concepts/sub-bass-signature]]

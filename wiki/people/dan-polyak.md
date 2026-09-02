@@ -39,6 +39,30 @@ Dan Polyak is a longtime friend — a shared-first-name running joke
 Messenger thread (2013–2020) is defensive-toned banter for most of its
 length but carries two genuinely consequential exchanges.
 
+## An unresolved 2008 lead: `@clandan`
+
+This page dates the shared-first-name joke — *"bitchdan," "clandan"* — to at
+least 2013. A handle **`@clandan`** appears twice in the account's recovered
+2008 tweets:
+
+> *"@clandan omw bb- 5 dollar footlong."* (14 October 2008)
+> *"@clandan my new kitten and your new puppy shall duel. be forewarned that my kitten is a level 70 mage."* (26 October 2008)
+
+Both are casual, both are to someone Dan knows well, and the name is one of
+the two the joke uses.
+
+**It is not established that `@clandan` is Dan Polyak, and this page does not
+claim it.** The two tweets are the handle's entire footprint — it never
+appears again in 2,741 originals, it never co-occurs with `@danpolyak`, and no
+tweet identifies the person behind it. A handle change between 2008 and the
+first `@danpolyak` tweet of December 2009 would explain it; so would a
+different friend whose name also fed the joke.
+
+**What would settle it:** a contacts export or a Facebook friend record
+linking `clandan` to a name, or a complete X export showing the two handles
+in one thread. Until then this is a lead, and the 2013 date on the joke stands
+as the earliest *documented* instance.
+
 ## Four years before the Facebook thread
 
 The Messenger thread this page is built on runs **2013–2020**. Twenty-one

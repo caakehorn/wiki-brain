@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,409 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 683 · Tier 2 416 · Tier 3 2,310.
+**3,419 events** across **80 years** (1796–2027), drawn from **367 pages**. Tier 1 684 · Tier 2 416 · Tier 3 2,319.
 
 ## What counts as an event here
 
@@ -871,8 +871,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
 - ◆ **September 2008** — When Dan left for Full Sail in September 2008, Suz bought a condo near campus rather than renting one — the earliest documented instance of her using real property rather than cash to support him, seventeen years before the 337 sale and the 463 arrangement did the same thing in reverse.  
   ↳ [[wiki/people/suzanne-frank]] · The Winter Park condo, 2008–2010
-- ◆ **September 2008** — Personal account **@danfrank** ("insufferable politics sicko"), registered **September 2008** by its own anniversary tag, with a recovered record beginning October 2009.  
-  ↳ [[wiki/self/twitter]] · Twitter / X Activity (@danfrank)
 - · **September 2008** — Buys the Winter Park FL condo (2924 Antique Oaks Circle) as Dan starts Full Sail  
   ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **September 2008** — ski-identity years  
@@ -889,10 +887,22 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
 - · **September 2008** — Danielle ends, Alexis begins  
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
+- ◆ **2008-09-24** — It is written to nobody.** The account has no followers on 24 September 2008 — it is being started that day.  
+  ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The period's exit, in his own words, on the day it happened
+- · **2008-09-24** — The record now begins **24 September 2008** — the day Dan arrived in Winter Park for Full Sail — after a backend fetch on 2026-09-02 recovered 213 tweets the archive had never reached.  
+  ↳ [[wiki/self/twitter]] · Twitter / X Activity (@danfrank)
+- · **2008-09-24** — The 24 September 2008 date is an inference from three consistent facts — the earliest tweet retrieved, two queries before it returning nothing, and the `#MyTwitterAnniversary` post of 2022-09-24 — and it should be cited as an inference.  
+  ↳ [[wiki/self/twitter]] · The backfill of 2026-09-02, and what it settled
+- · **2008-09-24** — The account opens on **24 September 2008** with *"i fucking looove winter park. this town is unreal."* Winter Park is where Full Sail is.  
+  ↳ [[wiki/self/twitter/2008]] · Twitter / X — 2008
+- · **2008-09-24** — Creation on 24 September 2008 is an inference from three consistent facts: the earliest tweet retrieved, two queries before it returning nothing, and the `#MyTwitterAnniversary` tweet of 2022-09-24.  
+  ↳ [[wiki/self/twitter/2008]] · Gaps
 - ◆ **2008-10-18** — Multi-act show — House of Blues — Orlando, FL — Resolved. Joint fall 2008 package.  
   ↳ [[wiki/interests/favorites/music/artists/all-time-low]] · Live appearances
 - · **2008-10-18** — 28 — All Time Low, Mayday Parade, The Maine, Every Avenue — House of Blues — Orlando, FL — Resolved. Joint fall 2008 package.  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
+- · **2008-10-26** — Two months earlier the same account had made the cat a WoW joke: *"my new kitten and your new puppy shall duel. be forewarned that my kitten is a level 70 mage"* (26 October 2008), and level 70 was the cap in that expansion.  
+  ↳ [[wiki/interests/video-games]] · 2008: fourteen hours in twenty-four
 - ★ **2008-10-31** — Traffic — turning movements / required signal — 1 — unavailable  
   ↳ [[wiki/people/jerel-coles]] · The record, 2008–2025
 - · **2008-11-17** — 29 — Jedi Mind Tricks — The Social — Orlando, FL — Resolved. With Outerspace / Reef the Lost Cause.  
@@ -903,12 +913,16 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - ★ **2008-11-20** — Disorderly conduct — engaging in fighting — 1 — **guilty plea  
   ↳ [[wiki/people/jerel-coles]] · The record, 2008–2025
+- · **December 2008** — Every month that returned ten hits is truncated at ten: **October, November and December 2008 are all incomplete.** Only 24 September is a strong candidate for a complete day, at six tweets.  
+  ↳ [[wiki/self/twitter/2008]] · Gaps
 - ◆ **2008-12-12** — Multi-act show — House of Blues — Orlando, FL — Resolved. XL 106.7 'XL-ent Electric Xmas'.  
   ↳ [[wiki/interests/favorites/music/artists/fall-out-boy]] · Concert record — supplementary appearances (from the 2001-2019 log)
 - · **2008-12-12** — 30 — Fall Out Boy, The Academy Is..., We The Kings — House of Blues — Orlando, FL — Resolved. XL 106.7 'XL-ent Electric Xmas'.  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
 - · **2008-12-12** — 29 — Fall Out Boy / The Academy Is… / We The Kings — House of Blues — Orlando, FL — Resolved — XL 106.7 "XL-ent Electric Xmas"  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
+- · **2008-12-31** — The earliest gaming evidence in the corpus is now **31 December 2008**, from the account's recovered first year (2008):  
+  ↳ [[wiki/interests/video-games]] · 2008: fourteen hours in twenty-four
 
 ### 2009
 
@@ -942,8 +956,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/zach-clingan]] · 2009: the faun
 - · **2009-10-06** — Full documented span  
   ↳ [[wiki/people/zach-clingan]] · Corpus record
-- · **2009-10-20** — What this changes.** The hub's framing of 2009 as "the origin year" is the origin of the *record*, not of the account, and the two are not the same thing. `date_range_start` stays 2009-10-20 because that is the first tweet held; the account's own start is a year earlier and is unrepresented.  
-  ↳ [[wiki/self/twitter]] · The account is older than the archive
+- · **2009-10-20** — The archive began at 2009-10-20 and was believed complete for originals from 2013-08-17 on.  
+  ↳ [[wiki/self/twitter]] · The backfill of 2026-09-02, and what it settled
+- · **2009-10-20** — Yes — 213 tweets**, earliest 2008-09-24T04:52:36, *"i fucking looove winter park. this town is unreal."  
+  ↳ [[wiki/self/twitter]] · The backfill of 2026-09-02, and what it settled
 - ◆ **2009-10-23** — Within two weeks the exchange turns explicitly romantic and stays there without interruption: constant "I ♥ you," daily phone dates, drunk-texting confessions, YouTube-link flirting, and a real in-person visit — Dan traveling from Orlando back to Uniontown for a weekend that included a shared…  
   ↳ [[wiki/people/stephanie-nalbone]] · The relationship
 - ★ **November 2009** — Stephanie Nalbone is an ex-girlfriend from a relationship the corpus had no other record of: a six-week, high-intensity long-distance romance running late September to early November 2009, reconnecting old Uniontown history right at the close of Full Sail.  
@@ -970,6 +986,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter]] · The densest day in seventeen years
 - ★ **2009-11-26** — He appears paired with Jerad Friedline three times — *"i'm thankful for my family/friend, sour diesel, tropical lifesaver gummies, and @joshbrannan / @jfriedline for their sign stealing abilities"* (26 November 2009), *"seeing my boyzzzz @jfriedline @joshbrannan tonight"* (21 December 2009), and a…  
   ↳ [[wiki/people/josh-brannan]] · The tweet record, 2009–2012
+- · **December 2009** — A handle change between 2008 and the first `@danpolyak` tweet of December 2009 would explain it; so would a different friend whose name also fed the joke.  
+  ↳ [[wiki/people/dan-polyak]] · An unresolved 2008 lead: `@clandan`
 
 ## 2010s
 
@@ -2733,6 +2751,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/annie-record]] · Reading progress
 - · **2016-02-01** — "It's crazy tho Bernie sanders could  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · Bernie 2020 as the bridge
+- ★ **2016-02-07** — Does the 2016 "@ulmdub birthday party at OSU" tweet exist?  
+  ↳ [[wiki/self/twitter]] · The backfill of 2026-09-02, and what it settled
 - ★ **2016-02-12** — The first_contact: 2016-02-12 field reflects the first contact in the specific 2016–2020 CSV export thread, not the true origin of the relationship.  
   ↳ [[wiki/people/tan-calabrese]] · Tan Calabrese
 - · **2016-02-15** — He frames his own behavior as trying to help while acknowledging he doesn't want "legitimate ties" with Alexis, calling her "diabolical AF." The cluster ends with a full apology on February 15, 2016 for "anything I may have done that need apologizing for."  
@@ -4633,6 +4653,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/opie-and-anthony]] · The fanbase split, and which side Dan took
 - · **2022-07-18** — On **18 July 2022**, addressing Opie of Opie & Anthony directly:  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · A second causal account, in his own words, from 2022
+- · **2022-07-18** — Recovered**, both  
+  ↳ [[wiki/self/twitter]] · The backfill of 2026-09-02, and what it settled
 - ◆ **August 2022** — Security: account_activity / logins / ip (39 unique) show 2022+ activity (earliest Aug 2022 in parses)  
   ↳ [[wiki/self/location-history]] · Ties to Facebook Events / Security / Profile (2010+)
 - · **August 2022** — "pa" mentions frequent in loc fields. Limited older export data but consistent with FB profile timeline.  
@@ -4641,16 +4663,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - · **September 2022** — Waiting on Dan:** the August–September 2022 question — the most precisely  
   ↳ [[wiki/mind/synthesis/totality-themes]] · Gaps and open questions carried from the third pass
-- · **September 2022** — Fourteen years back from September 2022 is **September 2008** — thirteen months before this archive's earliest tweet, 20 October 2009.  
-  ↳ [[wiki/self/twitter]] · The account is older than the archive
 - · **2022-09-05** — Full Facebook data export (79 MB, generated Sep 5 2022) for the account **ihatedanfrank** — registered January 9, 2007.  
   ↳ [[wiki/self/facebook]] · Facebook Archive (ihatedanfrank)
 - · **2022-09-05** — Export size / date  
   ↳ [[wiki/self/facebook]] · Corpus Dimensions
 - · **2022-09-20** — Migration back (Aug 16 – Sep 20, 2022):** continuity-restore gesture  
   ↳ [[wiki/mind/synthesis/totality-themes]] · The migration grammar — identity reorganization has a syntax
-- · **2022-09-24** — On **24 September 2022** Dan posted, under Twitter's own generated `#MyTwitterAnniversary` tag: *"14 years of pointless nothingness but at least I got the @danfrank handle."  
-  ↳ [[wiki/self/twitter]] · The account is older than the archive
 - ◆ **November 2022** — The costly case is Paul Pelosi, October–November 2022**, and it is the one that shows the skepticism is not partisan.  
   ↳ [[wiki/mind/synthesis/vertical-authority-skepticism]] · The conspiracy question, settled by what he actually does
 - ◆ **2022-11-10** — Two Bacharach videos watched two minutes apart — a Hill clip, then the Chapo episode  
@@ -4659,8 +4677,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/jacob-bacharach]] · Why it is the flagship
 - · **2022-11-18** — He was inside the community deeply enough for the split to be personal — *"I was a regular in the storied opieandanthony subreddit before it was banned"* (18 November 2022) — and he kept engaging the hosts publicly throughout: sixteen tweets to `@OpieRadio`, ten to `@AnthonyCumia`, nine each to…  
   ↳ [[wiki/interests/opie-and-anthony]] · The fanbase split, and which side Dan took
-- · **2022-11-18** — He also states, in the same tweet, what the account was for: **the handle.** `@danfrank` on a service he joined in 2008 is a first-name-plus-surname handle acquired before that was hard, and he says so again two months later — *"I'm fucking bummed because Twitter is the only place I got in early…  
-  ↳ [[wiki/self/twitter]] · The account is older than the archive
 - · **December 2022** — Word volume, Dan : Annie, all-time  
   ↳ [[wiki/people/annie-ulmer]] · By the numbers
 - · **December 2022** — The December 2022 start date is primary and holds.  
@@ -7127,6 +7143,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/shane-brannan]] · Shane Brannan
 - · **2026-09-02** — Pre / Origin (Twitter + FB) — ~2010-2013 — **15 check-ins** (Google loc starts 2014)  
   ↳ [[wiki/self/location-history]] · Granular by Period (cross to wiki periods)
+- · **2026-09-02** — All 95 rows came from the 2026-09-02 backend fetch, `source: grok-backend`.  
+  ↳ [[wiki/self/twitter/2008]] · Coverage
+- · **2026-09-02** — The `@danfrank` Twitter account was recovered thirteen months further back on 2026-09-02 (2008), and it opens on **24 September 2008**, the day Dan arrives in Winter Park.  
+  ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The period's exit, in his own words, on the day it happened
 - ★ **2026-12-19** — P4 — **No third party ends this relationship.** Any severance that holds past 120 days will be traceable to a self-generated move, not an intervention — a documented outside intervention followed by a severance holding >120 days  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Predictions and falsifiers
 - ★ **2026-12-19** — A severance holding past **2026-12-19** with no external agent involved confirms Part I and P4 together.  
@@ -7141,4 +7161,4 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 366 wiki pages. 999 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 367 wiki pages. 1,004 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
