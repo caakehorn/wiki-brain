@@ -6,7 +6,7 @@ aliases: ["Ti-Ne-Si-Fe", "cognitive functions"]
 status: stable
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-09-01
+date_modified: 2026-08-26
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-scan/Dan Profile.txt
@@ -104,8 +104,8 @@ connections:
     type: causes
     claim: "Core Axiom 1's binary self-worth verdict, running on Ti-dominance with no Fe-mediated grading function, is why that page's 'personal failure' misfiling of a family return is consequential rather than loose: with no graded middle available, the misfiling resolves straight to the worthless pole rather than to a discounted setback."
   - page: wiki/mind/synthesis/millennial-digital-witness
-    type: instantiates
-    claim: "Ne/Si/Ti/Fe-inferior is the engine the millennial-witness cohort claim had been absorbing; dual fluency is the referent, this stack is the method."
+    type: evidences
+    claim: "Ti 96 / Ne 84 / Si 57 / Fe 10 is the engine that page had been attributing to a generation: cross-domain anomaly detection is Ne, the archive is Si, the forensic default is Ti, and standing outside is Fe-inferior — which is why the cohort supplies the dual-fluency referent and this stack supplies the method."
 ---
 
 # INTP — The Cognitive Function Stack
