@@ -1,3 +1,26 @@
+## [2026-09-02] adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
+
+**First record made by the ADJUDICATE operation rather than reconstructed from
+one.** The operator capture of 2026-08-27 dated the Alexis meeting to a
+Thanksgiving trip home, two nights, and *"a week or two after that he buys her a
+one-way ticket to Orlando."* It was integrated on 2026-08-28 — **before the
+tweet archive was in this repository** — so nothing checked it. The 2009 read on
+2026-09-02 checked it and it holds: in PA 25–30 Nov (*"cookies, water, beer,
+wine, and her."*), first @alexisarmel tweet 14 Dec from Orlando (*"you amaze me.
+can't believe you're real"*), about two and a half weeks later.
+
+**Recorded as t012, confirmed on `first_party_record`.** Veracity moves 48 → 57
+over n=6, and `date` becomes the first class with two settled claims — one
+refuted 56 days early, one confirmed. That is not yet a bias; it is the first
+two points of one.
+
+**What the same capture's other half shows, and why it stays unfalsifiable.**
+The Roxicet, Spetch, the ticket as a purchase and the Clingan accusation appear
+in no tweet. t007 already carries the accusation as `unfalsifiable` and it
+stands. **One capture, two halves, two different evidentiary standings** — which
+is the granularity this ledger exists to hold and a page-level "corroborated"
+stamp cannot.
+
 ## [2026-09-02] build | meta | the wiki has been checking his testimony for months and throwing away every result
 
 **What was wrong.** `CLAUDE.md`'s CLOSE operation says the right thing about

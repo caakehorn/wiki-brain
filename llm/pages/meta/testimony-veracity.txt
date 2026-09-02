@@ -22,7 +22,7 @@ chart:
     - name: "What it turned out to be worth"
       points:
         "certain": 0.00
-        "confident": 0.62
+        "confident": 0.75
         "hedged": 0.75
 sources:
   - testimony/events.jsonl
@@ -43,25 +43,25 @@ A single trust score would collapse two facts that behave differently. **Veracit
 
 | | value | n |
 |---|---|---:|
-| **Veracity** | **48 / 100** — -0.5 points on 14.5 weight | 5 |
-| **Calibration** | Brier 0.283, skill -0.13 vs a coin flip | 5 |
-| **Stated vs actual** | -0.20 | 5 |
+| **Veracity** | **57 / 100** — +2.5 points on 17.5 weight | 6 |
+| **Calibration** | Brier 0.243, skill +0.03 vs a coin flip | 6 |
+| **Stated vs actual** | -0.13 | 6 |
 
-Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 5 settled claims, not thousands.
+Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 6 settled claims, not thousands.
 
 ## What his confidence is actually worth
 
 | band | he states | it is worth | gap | n |
 |---|---:|---:|---:|---:|
 | certain | 0.95 | 0.00 | -0.95 | 1 |
-| confident | 0.80 | 0.62 | -0.18 | 2 |
+| confident | 0.80 | 0.75 | -0.05 | 3 |
 | hedged | 0.60 | 0.75 | +0.15 | 2 |
 
 ## Outcomes
 
 | outcome | n | meaning |
 |---|---:|---|
-| confirmed | 2 | independent evidence bears it out |
+| confirmed | 3 | independent evidence bears it out |
 | partial | 1 | the core holds, a material detail does not |
 | self_contradicted | 1 | he has given two accounts that cannot both be true |
 | refuted | 1 | independent evidence contradicts it |
@@ -69,15 +69,17 @@ Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refut
 
 ## By claim class
 
-Rates are shrunk toward the global 0.55 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
+Rates are shrunk toward the global 0.62 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
 
 | class | n | raw | shrunk | 95% CI on clean confirmations | dominant failure |
 |---|---:|---:|---:|---|---|
-| location | 2 | 0.12 | 0.38 | 0%–66% | displacement, rounding |
-| date | 1 | 0.00 | 0.41 | 0%–79% | displacement, rounding |
-| enumeration | 1 | 0.50 | 0.54 | 0%–79% | omission |
-| existence | 1 | 1.00 | 0.66 | 21%–100% | — |
-| quantity | 1 | 1.00 | 0.66 | 21%–100% | — |
+| date | 2 | 0.50 | 0.57 | 9%–91% | displacement, rounding |
+| location | 2 | 0.12 | 0.42 | 0%–66% | displacement, rounding |
+| duration | 1 | 1.00 | 0.72 | 21%–100% | — |
+| enumeration | 1 | 0.50 | 0.59 | 0%–79% | omission |
+| existence | 1 | 1.00 | 0.72 | 21%–100% | — |
+| quantity | 1 | 1.00 | 0.72 | 21%–100% | — |
+| sequence | 1 | 1.00 | 0.72 | 21%–100% | — |
 
 ## Which way the errors run
 
@@ -102,6 +104,7 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 | t009 | The six tattoos he named on 14 July 2026 are his tattoos | enumeration | hedged | partial | The tweet archive holds two pieces the list did not: the letter 'A' for Alexis, tattooed 23 January 2010 and eight years earlier than anything on the list, and a Morrissey piece dated by 24 October 2019. |
 | t010 | A named individual was the building's superintendent and real estate agent at 307 E 76th St | identity, attribution | confident | unfalsifiable | The only independent corpus trace is a single November 2019 message placing him in the apartment, which does not establish the role. |
 | t011 | Four unconscious axioms are load-bearing in his cognition: not exceptional = worthless, not vigilant = annihilated, love that does not cost everything is not real, and time = countdown | self_state | certain | unfalsifiable | Tested lexically against all 106,629 outbound messages 2015-2025 with 110,944 inbound from 503 handles as a within-medium control. On every explicit urgency construction but one he writes LESS than his controls. This does not falsify the axiom — SMS is a near-zero-introspection medium for everybody in it — but it establishes that the message corpus cannot corroborate it. |
+| t012 | He met Alexis Armel on a Thanksgiving 2009 trip home, spent two nights with her, and about a week or two later she came to Orlando on a one-way ticket he bought | date, sequence, duration | confident | confirmed | The tweet archive puts him in PA 25-30 Nov 2009 ('cookies, water, beer, wine, and her.' on the 29th; 'watching the game with someone special' and 'I miss her already' on the 30th, 'her' unnamed), then the first @alexisarmel tweet on 14 Dec from Orlando -- 'you amaze me. can't believe you're real' alongside 'dan in love' -- about two and a half weeks later. 'i have the most amaaaazing girlfriend' on 16 Dec. The account carried the relationship publicly for a fortnight before it carried her name. |
 
 ## What this ledger cannot see
 

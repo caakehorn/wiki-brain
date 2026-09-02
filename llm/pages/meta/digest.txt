@@ -56,6 +56,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 ## The last few days
 
 **2026-09-02** — 43 pages
+  - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result
   - ingest | self | @danfrank twitter archive as yearly pages
   - build | plain | two writing lanes, a floor that had to be measured, and a campaign page

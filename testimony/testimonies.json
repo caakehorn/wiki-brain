@@ -1,7 +1,7 @@
 {
   "counts": {
-    "adjudicated": 11,
-    "testimonies": 11,
+    "adjudicated": 12,
+    "testimonies": 12,
     "voided": 0
   },
   "generated": "bin/wiki-testimony — do not hand-edit; the log is the record",
@@ -371,6 +371,41 @@
       ],
       "recorded_at": "2026-09-02",
       "source": "wiki/self/context-core.md",
+      "speaker": "operator",
+      "specificity": 2,
+      "subject": "self"
+    },
+    "t012": {
+      "about": "2009-11",
+      "adjudication": {
+        "at": "2026-09-02",
+        "direction": "none",
+        "evidence": "The tweet archive puts him in PA 25-30 Nov 2009 ('cookies, water, beer, wine, and her.' on the 29th; 'watching the game with someone special' and 'I miss her already' on the 30th, 'her' unnamed), then the first @alexisarmel tweet on 14 Dec from Orlando -- 'you amaze me. can't believe you're real' alongside 'dan in love' -- about two and a half weeks later. 'i have the most amaaaazing girlfriend' on 16 Dec. The account carried the relationship publicly for a fortnight before it carried her name.",
+        "failure": [],
+        "magnitude": "",
+        "outcome": "confirmed",
+        "slant": "",
+        "tier": "first_party_record"
+      },
+      "asserted": "2026-08-27",
+      "channel": "capture",
+      "claim": "He met Alexis Armel on a Thanksgiving 2009 trip home, spent two nights with her, and about a week or two later she came to Orlando on a one-way ticket he bought",
+      "classes": [
+        "date",
+        "sequence",
+        "duration"
+      ],
+      "confidence": "confident",
+      "history": [],
+      "id": "t012",
+      "load_bearing": true,
+      "note": "Integrated 2026-08-28, before the tweet archive was in the repository, so it was never checked against a contemporaneous record until the 2009 read on 2026-09-02.",
+      "pages": [
+        "wiki/people/alexis-armel",
+        "wiki/self/tattoos"
+      ],
+      "recorded_at": "2026-09-02",
+      "source": "raw/people/captures/2026-08-27_222932_gap-alexis-armel.md",
       "speaker": "operator",
       "specificity": 2,
       "subject": "self"
