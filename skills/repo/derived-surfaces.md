@@ -22,7 +22,8 @@ Before editing any file, establish whether it is a source or a derivation of one
 
 1. If the file is generated, edit the thing it is generated *from*, then rerun the
    generator. `DIGEST.md`, `RECENT.md`, `OPEN.md`, `wiki/meta/*`, `llm/**`,
-   `WORK.md`, `skills/INDEX.md` and `intake/units.json` are all derivations.
+   `WORK.md`, `skills/INDEX.md`, `intake/units.json` and
+   `wiki/timeline/master-timeline.md` are all derivations.
 2. If you are editing a wiki page as JSON, stop — you are in the portal
    repository. Pages are `wiki/**.md`, in wiki-brain.
 3. Never hand-edit `public/wiki/**` in `caakehorn/home`. It is deleted and
