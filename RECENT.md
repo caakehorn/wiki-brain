@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-02 — 3 pages
+## 2026-09-02 — 4 pages
 
 - **Session log:** build | plain | two writing lanes, a floor that had to be measured, and a campaign page
 
@@ -16,6 +16,7 @@ simply listed.
 |---|---|---|
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
+| [[wiki/meta/readers-digest]] | meta | — |
 | [[wiki/meta/recent-activity]] | meta | _(carries a REVISED)_ |
 
 ## 2026-09-01 — 2 pages
@@ -25,7 +26,7 @@ simply listed.
 | [[wiki/interests/favorites/eclecticism]] | interests | **REVISED** — This page last moved on 2026-06-23. Twenty-one days later the music member was rewritten from a cluster inventory into a two-wave, three-cluster, eighteen-year continuity argument with a lyrics-as-tim |
 | [[wiki/timeline/index]] | timeline | — |
 
-## 2026-08-31 — 6 pages
+## 2026-08-31 — 5 pages
 
 - **Session log:** ingest | health | the intake ledger's first export (2026-08-30/31)
 - **Session log:** ingest | health | the ledger gets an entry page
@@ -37,7 +38,6 @@ simply listed.
 | [[wiki/health/index]] | health | — |
 | [[wiki/health/intake-ledger]] | health | — |
 | [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — cocaine and chemical-architecture both gained the intake ledger's first measured night (2026-08-30/31: one 0.75 g cocaine unit over 9h 31m in six doses, three 0.05 g cannabis units; the unit reconcile |
-| [[wiki/meta/readers-digest]] | meta | — |
 
 ## 2026-08-30 — 2 pages
 

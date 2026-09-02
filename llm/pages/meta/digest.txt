@@ -55,12 +55,12 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-02** — 3 pages
+**2026-09-02** — 4 pages
   - build | plain | two writing lanes, a floor that had to be measured, and a campaign page
 
 **2026-09-01** — 2 pages
 
-**2026-08-31** — 6 pages
+**2026-08-31** — 5 pages
   - ingest | health | the intake ledger's first export (2026-08-30/31)
   - ingest | health | the ledger gets an entry page
 
