@@ -6,7 +6,7 @@ aliases: ["RLUEI", "Big30", "psychometrics", "personality disorder scores"]
 status: stable
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-09-01
+date_modified: 2026-08-19
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
