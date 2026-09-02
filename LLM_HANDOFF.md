@@ -9,7 +9,7 @@
 * **Model:** Grok Build · **Branch:** `ingest/twitter-archive`.
 * **Trigger:** operator asked for a wiki/mind (filed under wiki/self/twitter to match the existing twitter page and facebook yearly-style split) text archive of ALL @danfrank tweets, one page per year, nothing omitted except pure reposts with no quote text. Then: commit to PR now, keep scraping.
 
-**What is on the branch.** Hub `wiki/self/twitter.md`. Yearly pages 2009–2026. Raw `raw/self/twitter/archive.jsonl` + `tweet-archive.xlsx`. **1719 originals currently filed.** Live scrape still walking 2009–2012, pre-2013-08-17, and 2026 gaps.
+**What is on the branch.** Hub `wiki/self/twitter.md`. Yearly pages 2009–2026. Raw `raw/self/twitter/archive.jsonl` + `tweet-archive.xlsx`. **1891 originals currently filed.** Live scrape still walking 2009–2012, pre-2013-08-17, and 2026 gaps.
 
 **Still to scrape, on this same branch, do not open a second PR.** Walk `from:danfrank max_id:<oldest-id-on-the-year-page>` for 2009, 2010, 2011, 2012, and 2013-01-01..2013-08-16. Fill 2026-04-08..2026-06-01 the same way. Append to `archive.jsonl` and regenerate the year page. Do not drop any original. Do not add pure reposts.
 
