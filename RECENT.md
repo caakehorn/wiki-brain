@@ -25,6 +25,7 @@ simply listed.
 - **Session log:** ingest | interests/music | 2014 read in full — SLOPPP was an operating practice, and two named gaps close
 - **Session log:** ingest | work/tech | one day of Codecademy in 2013, then thirteen years of nothing
 - **Session log:** ingest | people | 2009 read in full — an operator testimony corroborated, and my own error corrected
+- **Session log:** ingest | self/mind/interests | 2022 read in full — a stated gap closed, an account older than its record, and a second radicalization mechanism
 
 | Page | Domain | What moved |
 |---|---|---|

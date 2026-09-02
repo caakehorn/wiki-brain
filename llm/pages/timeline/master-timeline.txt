@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,393 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 682 · Tier 2 411 · Tier 3 2,300.
+**3,401 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 683 · Tier 2 414 · Tier 3 2,304.
 
 ## What counts as an event here
 
@@ -4319,6 +4319,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/jaredtricia]] · August 2, 2019: the photo, and Dan wearing the "Hazel" voice
 - · **2020-06-28** — Whether further bookings occurred after the June 28, 2020 non-response is undocumented — the thread simply goes quiet.  
   ↳ [[wiki/people/jaredtricia]] · Gaps
+- ★ **July 2020** — Michael Brooks was the Majority Report co-host and *Michael Brooks Show* host who died in July 2020, three weeks before the 2020-08-22 conversion narration.  
+  ↳ [[wiki/mind/politics/axioms]] · The test he says he applies
 - · **2020-07-30** — 16 — alulmer28@gmail.com — 802 — 2020-10-07 — Unknown  
   ↳ [[wiki/self/concepts/astrology-star-signs]] · The Unknown Signs
 - ★ **August 2020** — Bobby's own life surfaces only incidentally: a daughter he co-parents (an August 2020 aside references "the first weekend in October" as his custody weekend), a second child born around April 26, 2021 ("I'm legit in the hospital room holding my newborn"), and a girlfriend who by 2021 had grown…  
@@ -4601,6 +4603,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2022** — 2,256 — Resurgence; Vaush 34, Majority Report 41, Pakman 39  
   ↳ [[wiki/self/youtube-watch-history]] · Activity by Year (Watched events, from date parses + broad counts)
+- · **2022-01-31** — He uses the label the way he uses *"as someone with no qualifications, experience or even a cursory understanding of the subject at hand…I'm probably wrong"* (31 January 2022) — a pre-emptive discount on his own credibility, applied before anyone else can.  
+  ↳ [[wiki/mind/synthesis/vertical-authority-skepticism]] · The conspiracy question, settled by what he actually does
+- ◆ **2022-02-22** — It predicts the behaviour the archive actually shows.** Two of the positions that most distinguish Dan from his own tribe are Brooksian rather than generically leftist: repeated criticism of Hasan Piker's foreign-policy takes (*"I love Hasan but his take on Russia is either purposefully…  
+  ↳ [[wiki/mind/politics/axioms]] · The test he says he applies
 - · **2022-03-05** — Jason's page already preserved the bare fact — Dan ran into an old Florida friend, Oscar Lindquist, while waiting tables in Manhattan, an "impossible coincidence in a 9M-person city." The Dunn thread supplies the date and Dan's live reaction: on March 5, 2022, at 9:57 PM, Dan tells Dunn "So I'm…  
   ↳ [[wiki/people/matt-dunn]] · The Oscar Lindquist coincidence, dated
 - · **2022-03-05** — The thread itself ends in 2011, but the friendship's best-known moment happened a decade later and is preserved only secondhand, on Matt Dunn's page: on March 5, 2022, Dan was waiting tables in midtown Manhattan when Oscar sat down in his section — the "impossible coincidence in a 9M-person city"…  
@@ -4639,6 +4645,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/totality-themes]] · The migration grammar — identity reorganization has a syntax
 - · **2022-09-24** — On **24 September 2022** Dan posted, under Twitter's own generated `#MyTwitterAnniversary` tag: *"14 years of pointless nothingness but at least I got the @danfrank handle."  
   ↳ [[wiki/self/twitter]] · The account is older than the archive
+- ◆ **November 2022** — The costly case is Paul Pelosi, October–November 2022**, and it is the one that shows the skepticism is not partisan.  
+  ↳ [[wiki/mind/synthesis/vertical-authority-skepticism]] · The conspiracy question, settled by what he actually does
 - ◆ **2022-11-10** — Two Bacharach videos watched two minutes apart — a Hill clip, then the Chapo episode  
   ↳ [[wiki/people/jacob-bacharach]] · What actually happened, dated from the message corpus
 - ◆ **2022-11-10** — The attention is measurable rather than impressionistic: the browsing analysis counts **26 Bacharach searches across 2021–2023**, and the YouTube export's only two Bacharach items sit two minutes apart at one in the morning on **November 10, 2022** — a Hill clip and then the Chapo episode, which is…  
@@ -4674,6 +4682,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/favorites/books]] · Detailed Books Snapshot (from FAVORITES DATA (2).md)
 - · **2023-01-26** — The Rise and Fall of the Third Reich: A History of Nazi Germany — Shirer, William L. — ★★★★★ — gonzo, history, journalism, massive, non-fiction, politics, source, top-shelf, war  
   ↳ [[wiki/interests/favorites/books]] · Detailed Books Snapshot (from FAVORITES DATA (2).md)
+- · **2023-02-10** — Dan calls himself a **"conspiracy crank"** in public — 10 February 2023, in passing, as a self-description he expects to be understood.  
+  ↳ [[wiki/mind/synthesis/vertical-authority-skepticism]] · The conspiracy question, settled by what he actually does
+- · **2023-03-06** — He spends leisure time on the material: *"I needed a pallet cleanser so I finally spent some time learning about the MLK assassination conspiracy"* (6 March 2023).  
+  ↳ [[wiki/mind/synthesis/vertical-authority-skepticism]] · The conspiracy question, settled by what he actually does
+- ◆ **2023-03-29** — Nashville, 29 March 2023** — four tweets across one day, on the claim that the shooter's clothing had been altered in released footage:  
+  ↳ [[wiki/mind/synthesis/vertical-authority-skepticism]] · The conspiracy question, settled by what he actually does
 - · **2023-07-14** — American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer — Bird, Kai — ★★★★★ — american-history, biography, great-man-theory, history, massive, non-fiction, science, source, top-shelf, war  
   ↳ [[wiki/interests/favorites/books]] · Detailed Books Snapshot (from FAVORITES DATA (2).md)
 - ★ **August 2023** — The 80-message thread splits cleanly into an employment-logistics phase (Aug 2023 – Aug 2024) and a post-termination phase (Aug 2024 onward) that is, on its own, the strongest evidence in the corpus that Dan's relationships with authority figures were never purely adversarial.  
@@ -4714,6 +4728,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/manuel]] · Manuel
 - · **October 2023** — He appears **31 times** between October 2023 and June 2025, roughly half as often as his sister alice.  
   ↳ [[wiki/people/otto]] · Otto
+- · **2023-10-10** — On **10 October 2023** Dan states a decision procedure for his own politics in one line:  
+  ↳ [[wiki/mind/politics/axioms]] · The test he says he applies
 - · **2023-10-15** — On 2023-10-15 he calls him **"el menore"**, with the Spanish article — which makes the page's long-standing guess that "Menore" is a variant of *menor* ("the younger," "the lesser") a substantially better bet than "placeholder or transcription variant," and fits a man whose associate may be his own…  
   ↳ [[wiki/people/menore]] · Identity & Role
 - ◆ **2023-10-28** — Alice is at a Halloween party in an Elsa outfit Annie bought her (2023-10-28) and wakes Annie up the next morning.  
@@ -7109,4 +7125,4 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 366 wiki pages. 997 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 366 wiki pages. 998 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*

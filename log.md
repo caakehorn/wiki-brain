@@ -8054,3 +8054,57 @@ absolutism on 28 March 2022 — *"I've moved away from belief in comedy's
 absolutist defense of free speech ('it's just a joke')"* — which is the exact
 doctrine that show ran on, though he defends the Rock joke in the same thread
 and warns against "wokescoldery", so it is a shift and not a conversion.
+
+## [2026-09-02] ingest | mind | "conspiracy crank" is a label his own behaviour contradicts
+
+159 originals from 2023 read tweet by tweet.
+
+**Dan calls himself a "conspiracy crank"** (10 February 2023) and spends
+leisure time on the material — *"I finally spent some time learning about the
+MLK assassination conspiracy"* (6 March). On a skepticism page that reads as a
+confirming detail. **The behaviour does not match the label.**
+
+In every documented case where he works a live conspiracy in public, he works
+it to a **resolution** and publishes the negative result. Nashville, 29 March
+2023, four tweets in one day: *"Dumb conspiracy. Shooter does not have Puma's
+on."* → *"Disappointed to announce that the 'Audrey Hale shoes' conspiracy is
+a bust."* → the camo-pattern claim rated *"only slightly more questionable"* →
+*"the pattern looks slightly different but not enough to rule out"*. He
+checked, reached a negative, published it, and hedged the residual rather than
+resolving it his own way. *Disappointed* is the operative word.
+
+**That is his most-read tweet in seventeen years — 114 likes against a career
+mean under 0.2**, roughly thirty times anything else. The second-widest (83)
+is the OceanGate line about Stockton Rush pitching the submersible for *"deep
+water fossil fuel extraction"* — class critique of a dead billionaire. Neither
+of the two tweets that actually reached anyone is conspiracy-spreading.
+
+**The costly case is Paul Pelosi, Oct–Nov 2022**, and it shows the skepticism
+is not partisan: he disbelieved the official account for a week while naming
+what it cost — *"It super sucks being (as far as I can tell) the only person
+not buying the Paul pelosi story who isn't a groyper maga shitlord"*, *"I'm
+just disgusted that sides have been drawn"* — and refused to convert doubt into
+a counter-narrative: *"What actually happened? I have absolutely zero idea."*
+
+Written to `vertical-authority-skepticism`: the disposition it documents toward
+*verticals* also runs on **official accounts of events**, and it is
+**falsifiable to him** — he states a suspicion, tests it, and publishes either
+way, including against his own side. The gap between the label and the
+behaviour is itself the finding; he uses "conspiracy crank" the way he uses
+*"as someone with no qualifications… I'm probably wrong"* (31 Jan 2022), as a
+pre-emptive discount on his own credibility. Falsifier stated: a documented
+case of him pushing a claim after his own check failed. The archive has none,
+and the private corpora have not been searched for it.
+
+**`wiki/mind/politics/axioms` gains a named decision procedure.** 10 October
+2023: *"Political positions are best formulated and checked with one test:
+what would Michael Brooks do?"* Brooks — Majority Report / TMBS, died July 2020,
+three weeks before the conversion narration — was internationalist,
+anti-imperialist and hostile to left sectarianism. It is the one documented
+authority a systematically anti-authority mind admits, and it is a dead man,
+which is the only form an authority can take without becoming a vertical. It
+also predicts the two positions that most separate Dan from his own tribe: the
+repeated criticism of Hasan Piker on foreign policy, and the refusal of a side
+in Israel–Gaza (*"shades of bad"*). Gap: nothing dates his exposure to Brooks
+before 2020, so whether Brooks shaped the conversion or supplied its
+articulation afterwards is open — `youtube-watch-history` could settle it.

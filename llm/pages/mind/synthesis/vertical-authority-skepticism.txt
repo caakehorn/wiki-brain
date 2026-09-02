@@ -37,6 +37,10 @@ synthesizes:
   - wiki/timeline/periods/2021-2023-employment-block
 tags: [politics, relationships, family, personality-profile, nyc-era]
 connections:
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "Dan calls himself a 'conspiracy crank' but the archive shows him working live conspiracies to a resolution and publishing negative results — the Nashville debunking of 29 March 2023 is his most-read tweet in seventeen years, and the Paul Pelosi sequence shows the same skepticism running against his own political side at a cost he names."
+
   - page: wiki/legal/2015-possession-arrest
     type: evidenced-by
     claim: "The concrete floor under the disposition: troopers told Suz they knew something was wrong because Dan was being unnaturally polite and accommodating — the earliest documented case of deference itself reading as guilt."
@@ -253,6 +257,72 @@ are treated as junior analysts requiring explicit anti-softening constraints
 — vertical claims to authority ("the safety filter says") get the same
 suspicion as a manager's unverified demand
 ([[wiki/mind/concepts/exocortex]]).
+
+## The conspiracy question, settled by what he actually does
+
+Dan calls himself a **"conspiracy crank"** in public — 10 February 2023, in
+passing, as a self-description he expects to be understood. He spends leisure
+time on the material: *"I needed a pallet cleanser so I finally spent some
+time learning about the MLK assassination conspiracy"* (6 March 2023). On a
+skepticism-of-authority page that label looks like a confirming detail.
+
+**The behaviour does not match the label, and the archive settles it.** In
+every documented case where Dan works a live conspiracy in public, he works
+it toward a **resolution**, and he publishes the negative result.
+
+**Nashville, 29 March 2023** — four tweets across one day, on the claim that
+the shooter's clothing had been altered in released footage:
+
+> *"Dumb conspiracy. Shooter does not have Puma's on."*
+> *"Disappointed to announce that the 'Audrey Hale shoes' conspiracy is a bust. It's not totally clear that the Vans in the CCTV are the same ones in the Nashville PD bodycam, but I'm going to go out on a [limb]…"*
+> *"The second #nashville conspiracy involves the camo pattern on the shooters pants and is only slightly more questionable than the shoes."*
+> *"For the record, the pattern looks slightly different but not enough to rule out the possibility that the difference in [lighting]…"*
+
+He checked the footage, reached a negative, published it, and hedged the
+residual uncertainty rather than resolving it in the direction he had started
+in. *"Disappointed"* is the operative word: the disappointment is that the
+conspiracy failed, and he reports the failure anyway.
+
+**This is his most-read tweet.** The "bust" announcement carries **114 likes**
+against a career mean under 0.2 — by a factor of roughly thirty, the widest
+reach anything on the account has had in seventeen years. The second-widest,
+83 likes, is the OceanGate line about Stockton Rush having pitched the
+submersible for *"deep water fossil fuel extraction"* — a class critique of a
+dead billionaire, not a conspiracy either.
+
+**The costly case is Paul Pelosi, October–November 2022**, and it is the one
+that shows the skepticism is not partisan. He disbelieved the official account
+of the hammer attack and said so for a week, while narrating exactly what it
+cost him:
+
+> *"It super sucks being (as far as I can tell) the only person not buying the Paul pelosi story who isn't a groyper maga shitlord."*
+> *"And I'm just disgusted that sides have been drawn and on this one single issue, I find myself with the most vile…"*
+> *"What actually happened? I have absolutely zero idea."*
+
+Three things there. He holds the position against his own tribe. He names the
+company it puts him in and finds it disgusting rather than energising. And he
+refuses to convert doubt into a counter-narrative — *zero idea* is the
+conclusion, not a placeholder for one.
+
+**What this adds to the page's thesis.** The skepticism documented elsewhere
+here is toward *verticals* — fathers, bosses, institutions. This is the same
+disposition applied to **official accounts of events**, and the archive shows
+it running with an unusual property: it is **falsifiable to him**. He states a
+suspicion, tests it against available material, and publishes whichever way it
+comes out, including against his own prior and against his own side.
+
+That is not what "conspiracy crank" ordinarily denotes, and the gap between
+the label and the behaviour is itself the finding. He uses the label the way
+he uses *"as someone with no qualifications, experience or even a cursory
+understanding of the subject at hand…I'm probably wrong"* (31 January 2022) —
+a pre-emptive discount on his own credibility, applied before anyone else can.
+See [[wiki/mind/concepts/calibrated-confidence]].
+
+**Falsifier.** A documented case of Dan promoting a conspiracy claim he had
+been shown was false, or continuing to push one after his own check failed,
+would break this. The archive as it stands contains none — but it contains
+2,525 originals and no private material, and the private corpora have not been
+searched for this specific pattern.
 
 ## Function and cost
 

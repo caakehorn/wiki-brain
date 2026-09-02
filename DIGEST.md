@@ -63,6 +63,7 @@ this is the state of the thing.
   - ingest | interests/music | 2014 read in full — SLOPPP was an operating practice, and two named gaps close
   - ingest | work/tech | one day of Codecademy in 2013, then thirteen years of nothing
   - ingest | people | 2009 read in full — an operator testimony corroborated, and my own error corrected
+  - ingest | self/mind/interests | 2022 read in full — a stated gap closed, an account older than its record, and a second radicalization mechanism
 
 **2026-09-01** — 2 pages
 

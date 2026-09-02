@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-02
-493 pages, ~1,725,175 tokens.
+493 pages, ~1,727,545 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10142,6 +10142,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | interests/music | 2014 read in full — SLOPPP was an operating practice, and two named gaps close
   - ingest | work/tech | one day of Codecademy in 2013, then thirteen years of nothing
   - ingest | people | 2009 read in full — an operator testimony corroborated, and my own error corrected
+  - ingest | self/mind/interests | 2022 read in full — a stated gap closed, an account older than its record, and a second radicalization mechanism
 
 **2026-09-01** — 2 pages
 
@@ -16781,6 +16782,52 @@ COVID-lockdown radicalization) and backward at a historical case study
 at once, evangelized to friends the same way the leftist media pipeline
 was). Neither is admiration for concentrated power. Both are attention
 paid to how it forms and what it costs a system's checks when it does.
+
+## The test he says he applies
+
+On **10 October 2023** Dan states a decision procedure for his own politics in
+one line:
+
+> *"Political positions are best formulated and checked with one test: what
+> would Michael Brooks do?"*
+
+Michael Brooks was the Majority Report co-host and *Michael Brooks Show* host
+who died in July 2020, three weeks before the
+[[wiki/mind/synthesis/2020-left-turn|2020-08-22 conversion narration]]. His
+distinctive position on the left was **internationalist, anti-imperialist and
+explicitly hostile to left sectarianism** — best known for the formulation
+that one should be "kind to people, ruthless to systems."
+
+Three things make this worth recording as more than a shout-out.
+
+**It is a named authority, on a page about a mind that does not take
+authorities.** [[wiki/mind/synthesis/vertical-authority-skepticism]]
+documents a systematic refusal of vertical authority. This is the one
+documented exception in the political domain, and it is a dead man — which is
+the form an authority can take without becoming a vertical: Brooks cannot
+issue instructions, only be consulted.
+
+**It predicts the behaviour the archive actually shows.** Two of the
+positions that most distinguish Dan from his own tribe are Brooksian rather
+than generically leftist: repeated criticism of Hasan Piker's foreign-policy
+takes (*"I love Hasan but his take on Russia is either purposefully
+antagonistic at the expense of his intellectual credibility"*, 22 February
+2022; *"how is it that Hasan can be so good at domestic political analysis and
+so cringe during every global conflict?"*, 14 October 2023), and the refusal
+of a side in the Israel–Gaza conflict — *"a conflict that doesn't have a
+'right side' and where the only sensible perspective is to analyze shades of
+bad"* (14 October 2023). Both are anti-sectarian moves against his own
+in-group.
+
+**It dates.** The test is stated in 2023, about a figure who died in 2020, in
+the same window as the conversion this wiki dates to August 2020. The axiom
+this page states plainly has, on the evidence, a named human referent Dan
+checks it against.
+
+**Gap:** no source in the corpus records Dan listening to Brooks *before*
+2020, so whether Brooks shaped the conversion or was adopted afterwards as its
+articulation is undetermined. `wiki/self/youtube-watch-history` is the place
+that could settle it and has not been searched for this.
 
 ## What this predicts, and what would falsify it
 
@@ -36676,6 +36723,10 @@ synthesizes:
   - wiki/timeline/periods/2021-2023-employment-block
 tags: [politics, relationships, family, personality-profile, nyc-era]
 connections:
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "Dan calls himself a 'conspiracy crank' but the archive shows him working live conspiracies to a resolution and publishing negative results — the Nashville debunking of 29 March 2023 is his most-read tweet in seventeen years, and the Paul Pelosi sequence shows the same skepticism running against his own political side at a cost he names."
+
   - page: wiki/legal/2015-possession-arrest
     type: evidenced-by
     claim: "The concrete floor under the disposition: troopers told Suz they knew something was wrong because Dan was being unnaturally polite and accommodating — the earliest documented case of deference itself reading as guilt."
@@ -36892,6 +36943,72 @@ are treated as junior analysts requiring explicit anti-softening constraints
 — vertical claims to authority ("the safety filter says") get the same
 suspicion as a manager's unverified demand
 ([[wiki/mind/concepts/exocortex]]).
+
+## The conspiracy question, settled by what he actually does
+
+Dan calls himself a **"conspiracy crank"** in public — 10 February 2023, in
+passing, as a self-description he expects to be understood. He spends leisure
+time on the material: *"I needed a pallet cleanser so I finally spent some
+time learning about the MLK assassination conspiracy"* (6 March 2023). On a
+skepticism-of-authority page that label looks like a confirming detail.
+
+**The behaviour does not match the label, and the archive settles it.** In
+every documented case where Dan works a live conspiracy in public, he works
+it toward a **resolution**, and he publishes the negative result.
+
+**Nashville, 29 March 2023** — four tweets across one day, on the claim that
+the shooter's clothing had been altered in released footage:
+
+> *"Dumb conspiracy. Shooter does not have Puma's on."*
+> *"Disappointed to announce that the 'Audrey Hale shoes' conspiracy is a bust. It's not totally clear that the Vans in the CCTV are the same ones in the Nashville PD bodycam, but I'm going to go out on a [limb]…"*
+> *"The second #nashville conspiracy involves the camo pattern on the shooters pants and is only slightly more questionable than the shoes."*
+> *"For the record, the pattern looks slightly different but not enough to rule out the possibility that the difference in [lighting]…"*
+
+He checked the footage, reached a negative, published it, and hedged the
+residual uncertainty rather than resolving it in the direction he had started
+in. *"Disappointed"* is the operative word: the disappointment is that the
+conspiracy failed, and he reports the failure anyway.
+
+**This is his most-read tweet.** The "bust" announcement carries **114 likes**
+against a career mean under 0.2 — by a factor of roughly thirty, the widest
+reach anything on the account has had in seventeen years. The second-widest,
+83 likes, is the OceanGate line about Stockton Rush having pitched the
+submersible for *"deep water fossil fuel extraction"* — a class critique of a
+dead billionaire, not a conspiracy either.
+
+**The costly case is Paul Pelosi, October–November 2022**, and it is the one
+that shows the skepticism is not partisan. He disbelieved the official account
+of the hammer attack and said so for a week, while narrating exactly what it
+cost him:
+
+> *"It super sucks being (as far as I can tell) the only person not buying the Paul pelosi story who isn't a groyper maga shitlord."*
+> *"And I'm just disgusted that sides have been drawn and on this one single issue, I find myself with the most vile…"*
+> *"What actually happened? I have absolutely zero idea."*
+
+Three things there. He holds the position against his own tribe. He names the
+company it puts him in and finds it disgusting rather than energising. And he
+refuses to convert doubt into a counter-narrative — *zero idea* is the
+conclusion, not a placeholder for one.
+
+**What this adds to the page's thesis.** The skepticism documented elsewhere
+here is toward *verticals* — fathers, bosses, institutions. This is the same
+disposition applied to **official accounts of events**, and the archive shows
+it running with an unusual property: it is **falsifiable to him**. He states a
+suspicion, tests it against available material, and publishes whichever way it
+comes out, including against his own prior and against his own side.
+
+That is not what "conspiracy crank" ordinarily denotes, and the gap between
+the label and the behaviour is itself the finding. He uses the label the way
+he uses *"as someone with no qualifications, experience or even a cursory
+understanding of the subject at hand…I'm probably wrong"* (31 January 2022) —
+a pre-emptive discount on his own credibility, applied before anyone else can.
+See [[wiki/mind/concepts/calibrated-confidence]].
+
+**Falsifier.** A documented case of Dan promoting a conspiracy claim he had
+been shown was false, or continuing to push one after his own check failed,
+would break this. The archive as it stands contains none — but it contains
+2,525 originals and no private material, and the private corpora have not been
+searched for this specific pattern.
 
 ## Function and cost
 
@@ -95541,7 +95658,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,393 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 682 · Tier 2 411 · Tier 3 2,300.
+**3,401 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 683 · Tier 2 414 · Tier 3 2,304.
 
 ## What counts as an event here
 
@@ -99841,6 +99958,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/jaredtricia]] · August 2, 2019: the photo, and Dan wearing the "Hazel" voice
 - · **2020-06-28** — Whether further bookings occurred after the June 28, 2020 non-response is undocumented — the thread simply goes quiet.  
   ↳ [[wiki/people/jaredtricia]] · Gaps
+- ★ **July 2020** — Michael Brooks was the Majority Report co-host and *Michael Brooks Show* host who died in July 2020, three weeks before the 2020-08-22 conversion narration.  
+  ↳ [[wiki/mind/politics/axioms]] · The test he says he applies
 - · **2020-07-30** — 16 — alulmer28@gmail.com — 802 — 2020-10-07 — Unknown  
   ↳ [[wiki/self/concepts/astrology-star-signs]] · The Unknown Signs
 - ★ **August 2020** — Bobby's own life surfaces only incidentally: a daughter he co-parents (an August 2020 aside references "the first weekend in October" as his custody weekend), a second child born around April 26, 2021 ("I'm legit in the hospital room holding my newborn"), and a girlfriend who by 2021 had grown…  
@@ -100123,6 +100242,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2022** — 2,256 — Resurgence; Vaush 34, Majority Report 41, Pakman 39  
   ↳ [[wiki/self/youtube-watch-history]] · Activity by Year (Watched events, from date parses + broad counts)
+- · **2022-01-31** — He uses the label the way he uses *"as someone with no qualifications, experience or even a cursory understanding of the subject at hand…I'm probably wrong"* (31 January 2022) — a pre-emptive discount on his own credibility, applied before anyone else can.  
+  ↳ [[wiki/mind/synthesis/vertical-authority-skepticism]] · The conspiracy question, settled by what he actually does
+- ◆ **2022-02-22** — It predicts the behaviour the archive actually shows.** Two of the positions that most distinguish Dan from his own tribe are Brooksian rather than generically leftist: repeated criticism of Hasan Piker's foreign-policy takes (*"I love Hasan but his take on Russia is either purposefully…  
+  ↳ [[wiki/mind/politics/axioms]] · The test he says he applies
 - · **2022-03-05** — Jason's page already preserved the bare fact — Dan ran into an old Florida friend, Oscar Lindquist, while waiting tables in Manhattan, an "impossible coincidence in a 9M-person city." The Dunn thread supplies the date and Dan's live reaction: on March 5, 2022, at 9:57 PM, Dan tells Dunn "So I'm…  
   ↳ [[wiki/people/matt-dunn]] · The Oscar Lindquist coincidence, dated
 - · **2022-03-05** — The thread itself ends in 2011, but the friendship's best-known moment happened a decade later and is preserved only secondhand, on Matt Dunn's page: on March 5, 2022, Dan was waiting tables in midtown Manhattan when Oscar sat down in his section — the "impossible coincidence in a 9M-person city"…  
@@ -100161,6 +100284,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/totality-themes]] · The migration grammar — identity reorganization has a syntax
 - · **2022-09-24** — On **24 September 2022** Dan posted, under Twitter's own generated `#MyTwitterAnniversary` tag: *"14 years of pointless nothingness but at least I got the @danfrank handle."  
   ↳ [[wiki/self/twitter]] · The account is older than the archive
+- ◆ **November 2022** — The costly case is Paul Pelosi, October–November 2022**, and it is the one that shows the skepticism is not partisan.  
+  ↳ [[wiki/mind/synthesis/vertical-authority-skepticism]] · The conspiracy question, settled by what he actually does
 - ◆ **2022-11-10** — Two Bacharach videos watched two minutes apart — a Hill clip, then the Chapo episode  
   ↳ [[wiki/people/jacob-bacharach]] · What actually happened, dated from the message corpus
 - ◆ **2022-11-10** — The attention is measurable rather than impressionistic: the browsing analysis counts **26 Bacharach searches across 2021–2023**, and the YouTube export's only two Bacharach items sit two minutes apart at one in the morning on **November 10, 2022** — a Hill clip and then the Chapo episode, which is…  
@@ -100196,6 +100321,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/favorites/books]] · Detailed Books Snapshot (from FAVORITES DATA (2).md)
 - · **2023-01-26** — The Rise and Fall of the Third Reich: A History of Nazi Germany — Shirer, William L. — ★★★★★ — gonzo, history, journalism, massive, non-fiction, politics, source, top-shelf, war  
   ↳ [[wiki/interests/favorites/books]] · Detailed Books Snapshot (from FAVORITES DATA (2).md)
+- · **2023-02-10** — Dan calls himself a **"conspiracy crank"** in public — 10 February 2023, in passing, as a self-description he expects to be understood.  
+  ↳ [[wiki/mind/synthesis/vertical-authority-skepticism]] · The conspiracy question, settled by what he actually does
+- · **2023-03-06** — He spends leisure time on the material: *"I needed a pallet cleanser so I finally spent some time learning about the MLK assassination conspiracy"* (6 March 2023).  
+  ↳ [[wiki/mind/synthesis/vertical-authority-skepticism]] · The conspiracy question, settled by what he actually does
+- ◆ **2023-03-29** — Nashville, 29 March 2023** — four tweets across one day, on the claim that the shooter's clothing had been altered in released footage:  
+  ↳ [[wiki/mind/synthesis/vertical-authority-skepticism]] · The conspiracy question, settled by what he actually does
 - · **2023-07-14** — American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer — Bird, Kai — ★★★★★ — american-history, biography, great-man-theory, history, massive, non-fiction, science, source, top-shelf, war  
   ↳ [[wiki/interests/favorites/books]] · Detailed Books Snapshot (from FAVORITES DATA (2).md)
 - ★ **August 2023** — The 80-message thread splits cleanly into an employment-logistics phase (Aug 2023 – Aug 2024) and a post-termination phase (Aug 2024 onward) that is, on its own, the strongest evidence in the corpus that Dan's relationships with authority figures were never purely adversarial.  
@@ -100236,6 +100367,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/manuel]] · Manuel
 - · **October 2023** — He appears **31 times** between October 2023 and June 2025, roughly half as often as his sister alice.  
   ↳ [[wiki/people/otto]] · Otto
+- · **2023-10-10** — On **10 October 2023** Dan states a decision procedure for his own politics in one line:  
+  ↳ [[wiki/mind/politics/axioms]] · The test he says he applies
 - · **2023-10-15** — On 2023-10-15 he calls him **"el menore"**, with the Spanish article — which makes the page's long-standing guess that "Menore" is a variant of *menor* ("the younger," "the lesser") a substantially better bet than "placeholder or transcription variant," and fits a man whose associate may be his own…  
   ↳ [[wiki/people/menore]] · Identity & Role
 - ◆ **2023-10-28** — Alice is at a Halloween party in an Elsa outfit Annie bought her (2023-10-28) and wakes Annie up the next morning.  
@@ -102631,7 +102764,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 366 wiki pages. 997 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 366 wiki pages. 998 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================
