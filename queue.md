@@ -20,6 +20,34 @@ _Items waiting for or in the middle of ingestion. `bin/capture status` lists the
 | **Arnu mechanics lien, 463 Morgantown** | **CRITICAL — matures ~2026-07-27** | Time-sensitive and unresolved in every source read. See wiki/legal/463-morgantown.md. |
 | ~~The July 4 2026 email thread (Annie → Dan, re Milo/fireworks)~~ | **CLOSED — ANNIE MORATORIUM 2026-08-23** | Not to be retrieved. It is described where it needs to be described; it does not get archived. |
 
+## The @danfrank Twitter archive — IN PROGRESS, worked in passes
+
+2,525 originals, 2009-10-20 to 2026-09-01, filed at
+`raw/self/twitter/archive.jsonl` by #238 and rendered as eighteen yearly pages
+under `wiki/self/twitter/`. The tweets are **transcribed; the integration into
+the rest of the corpus is the open work.** This is a large export and
+`CLAUDE.md` says to track it here rather than half-finish it silently.
+
+**The instrument is `bin/mine-twitter`** (`stats`, `year`, `grep`, `timeline`,
+`entities`). Use it rather than grepping the yearly pages, which are a rendering
+and count markdown. Its docstring carries the three traps; the load-bearing one
+is that the file mixes a **census** (operator spreadsheet, 2013-08-17 to
+2026-04-07, 1,427 rows) with a **live scrape** (2009 to mid-2013 and 2026 after
+April 7, 1,098 rows, still growing). Every count is labelled with its coverage
+class and a figure outside the census span is a floor, never a total.
+
+| Pass | Status | Notes |
+|---|---|---|
+| The archive filed and rendered as yearly pages | **DONE (#238)** | Hub at `wiki/self/twitter.md`, years 2009–2026. |
+| `bin/mine-twitter` built | **DONE 2026-09-02** | Coverage-aware by construction; `stats` refuses to draw a trend across the census boundary. |
+| Production identity — origin and channel | **DONE 2026-09-02** | Two findings written back to `wiki/interests/music/overview` and `wiki/self/twitter`, both directions. See `log.md`. |
+| **Handles with no page** | **NEXT** | `bin/mine-twitter entities --kind handle` marks them. Live leads: `lo_weez` (17, 2015-12-04 → 2020-10-01), `shane_brannan` (19, 2011–2016), `woodguts` (17, 2009–2013), `yamez1` (13), `iamcoreybrown` (10). Five years of mentions with no page is a person the corpus does not know about. |
+| Politics — the 2016→2024 curve | pending | `timeline "trump"` is entirely inside the census: 1.3% (2016) → 16.4% (2023) → 10.9% (2024). Comparable shares, so this is a real curve and bears on `wiki/mind/synthesis/2020-left-turn` and `political-psyops`. |
+| The 2025 collapse | pending | 13 originals against 2024's 258, both census, so a 95% drop that is not a coverage artifact. Bears on the 2025 timeline pages. |
+| Engagement as a finding | pending | 194 of 2,525 rows carry any engagement; 400 total likes lifetime. A public valve almost nobody was reading, which is a fact about the account rather than a nuisance in the data. |
+| Cross-corpus attention curve | pending | The volume shape here (early peak, mid-decade lull, 2022+ resurgence) is the same shape `wiki/self/youtube-watch-history` shows on a different platform. Two independent witnesses to one attention curve — check before believing it. |
+| 2009–2013 scrape completion | **blocked, operator** | Those years are batched live-scrape and still growing. Every finding drawn from them is a floor until the scrape finishes. |
+
 ## Factstory batch of 2026-08-02 (brief #4) — INGESTED, queue cleared
 
 Four manual captures (`wikibrainingestbrief4`). All four filed to `raw/` and

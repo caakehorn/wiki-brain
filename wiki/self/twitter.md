@@ -46,6 +46,12 @@ connections:
   - page: wiki/people/aaron
     type: parallels
     claim: 'Aaron''s thread extends the same sicko/justice-system-skeptic political engagement already documented from Dan''s Twitter activity (Luigi Mangione coverage) into a second, real-time political-violence event a year later.'
+  - page: wiki/interests/music/overview
+    type: evidences
+    claim: 'This archive is where the production identity is narrated: 46 hand-written alias mentions in 2,525 originals is 1.82% against 0.0122% in 98,056 private messages, so the production silence that page measures in the message record is channel-specific rather than general.'
+  - page: wiki/interests/music/overview
+    type: contradicts
+    claim: 'The 2010-03-27 "learning to warp in ableton" line, written from Brooklyn, puts production activity inside the New York period and against that page''s dated origin of a controller left untouched until after New York failed; SLOPPP in 2013 is the first named alias, not the start of the practice.'
 ---
 
 # Twitter / X Activity (@danfrank)
@@ -85,6 +91,10 @@ The older page on this path was a sample synthesis from 2019–2026 and said so.
 Volume is the other correction. 2024 is the peak (258 spreadsheet originals), 2020 the floor (25), 2025 a collapse-year quiet (13). Twitter is an output valve, not the diary: 2015, the year the Annie relationship starts, is almost silent here. When the life is happening in texts, this account thins. When it is happening as commentary — 2017 Sessions, 2022 J6, 2023 Fetterman villain arc, 2024 Luigi — it thickens. That is the same contact-gini shape the private corpora show, rendered in public.
 
 The production identity is not a late add-on. 2013 is SLOPPP trap mixes on SoundCloud in the same weeks as Instagram lookouts; 2026 is MOGZART DnB and moltbook agent claims. Music is the sincere channel across both ends of the archive. The AI year (Grok Build, Fable 5, Claude godmode, moltbook) is real and is 2026, not the whole story.
+
+**And it starts earlier than 2013.** `bin/mine-twitter grep` puts the practice inside the New York period: *"my fuggin foot hurts. learning to warp in ableton"* (2010-03-27), with contemporaneous tweets placing him in Brooklyn that spring, and four days later *"i've been telling ppl for years that my first released material would be a lady gaga x plies mixtape"* (2010-03-31) — an intention he dates, in 2010, back years further. [[wiki/interests/music/overview]] dates the identity to a controller picked up after New York failed; these two lines contradict the framing without touching the controller. SLOPPP is the first *named alias*, not the first production. 2010 is live-scrape coverage and therefore a floor: more may surface as the scrape fills in.
+
+**This account is also where the production identity is narrated at all.** The message record holds 12 alias mentions across 98,056 of Dan's own messages — 0.0122%, the number [[wiki/interests/music/overview]] uses to argue the enterprise leaves almost no trace. This archive holds 86, of which 46 are hand-written rather than SoundCloud's auto-share button: **1.82% of everything he wrote here, a 149× rate difference.** The silence is channel-specific. He does narrate the work; he does it on the valve, not in conversation. What that does *not* establish is output — a promotional line is not a play count, and the 46 are overwhelmingly advertisements for mixes rather than descriptions of practice.
 
 ## Inclusion rule
 

@@ -3,12 +3,13 @@ domain: interests
 page_type: summary
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-23
+date_modified: 2026-09-02
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/operating_manual.md
   - raw/self/chats/The 2nd most famous 'Jimmy Pop' in Pennsylvania .md
+  - raw/self/twitter/archive.jsonl
 related:
   - wiki/interests/music/aliases/gripnotic
   - wiki/interests/music/aliases/mogzart
@@ -41,6 +42,12 @@ connections:
   - page: wiki/mind/synthesis/alias-as-periodization
     type: contradicts
     claim: "This page's own framing — four aliases mapping to distinct periods and distinct aesthetics — does not survive a read of the alias pages against each other: the aesthetics do not turn over at the renames, only the periods do, so the alias functions as a clock rather than a style."
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "The production silence measured in the message record is channel-specific, not general: 46 hand-written alias mentions in 2,525 public originals is 1.82% against 0.0122% in 98,056 private messages, a 149x rate difference, so the enterprise is narrated — on the public valve rather than in conversation."
+  - page: wiki/self/twitter
+    type: contradicts
+    claim: "This page dates the production identity to a controller picked up after the failed New York attempt, with a daily occupation by summer 2013; the public archive has him learning to warp in Ableton on 2010-03-27 while living in Brooklyn, and on 2010-03-31 saying he had been telling people 'for years' that his first released material would be a mixtape."
 ---
 
 
@@ -108,6 +115,73 @@ What the evidence settles is narrower than either: **the production identity is
 strongly supported as self-concept and unsupported as enterprise.** Whether
 finished tracks exist off-record — a distributor account, an unreleased folder —
 is the open question, and it is answerable by the operator in one sentence.
+
+## What the public archive says, and it is not the same thing
+
+> **REVISED [2026-09-02] — the silence above is channel-specific, and the
+> section that established it could not have known.** The message search ran on
+> the private corpus because that was the corpus that existed. The @danfrank
+> archive — 2,525 originals, 2009-10-20 to 2026-09-01, filed as
+> `raw/self/twitter/archive.jsonl` — is a second body of Dan's own writing, and
+> the same vocabulary behaves completely differently in it.
+
+Counted with `bin/mine-twitter` over the same alias names the section above
+counted in messages:
+
+| | Private messages | Public originals |
+|---|---:|---:|
+| Corpus size (Dan's own) | 98,056 | 2,525 |
+| Alias mentions | 12 | 86 |
+| — of those, hand-written | — | **46** |
+| Rate, hand-written only | 0.0122% | **1.82%** |
+
+**A 149× difference in rate**, and 278× if the 40 SoundCloud auto-share posts
+are counted alongside the 46 he typed himself. The hand-written figure is the
+one to quote; the auto-share rows are a platform button, not narration.
+
+**What this does to the two readings.** It supports the first and weakens the
+second. The first reading — that music is the one channel the forensic mode does
+not enter, so a man who narrates everything else may simply not narrate this —
+survives and gains a mechanism: he does narrate it, at length, in the one place
+that is not the audit channel. The second reading — that an enterprise leaves a
+trace above three lifetime mentions and this one does not — was measuring a
+channel rather than an enterprise. It does leave a trace. The trace is public.
+
+**What it does not settle.** Nothing here produces a play count, a listener, a
+booking or a release figure, so the capability question the section above raises
+is untouched: talking about the work in public is not evidence of output.
+Announcing a mix is closer to enterprise than silence and a long way from
+countable. The 46 are also overwhelmingly promotional in character — *"TAKE THE
+FUCKING TOUR OKAY?!"*, 2013-08-17 — which is a man advertising, not a man
+describing his practice.
+
+**One caveat that cannot be argued away.** A tweet and a message turn are not the
+same unit. A tweet is a deliberate broadcast; a message is one turn of a
+conversation with one person. Some part of a 149× gap is the difference between
+those two things rather than any disposition of Dan's, and this page does not
+know how much. The direction is safe; the magnitude is not.
+
+> **CONTRADICTION [2026-09-02] — the dated origin above is too late.** The
+> `caused-by` edge on this page states the identity begins with a controller
+> *"acquired at ishlab and never touched, picked up in the depressive interval
+> after the failed first New York attempt,"* daily by summer 2013. The public
+> archive puts production activity inside the New York period:
+>
+> - **2010-03-27** — *"my fuggin foot hurts. learning to warp in ableton."*
+>   Warping is an Ableton technique; it is not a thing you report while owning
+>   untouched equipment. Contemporaneous tweets place him in Brooklyn that
+>   spring (*"sunrise on brooklyn bridge"*, 2010-03-25; *"the mean streets of
+>   brooklyn"*, 2010-05-29).
+> - **2010-03-31** — *"i've been telling ppl for years that my first released
+>   material would be a lady gaga x plies mixtape."* By his own account in 2010,
+>   the intention to release predates 2010 by years.
+>
+> Both rows sit in live-scrape coverage, which is a floor: 2010 is not complete
+> and more may exist. **The controller claim is not refuted** — a specific piece
+> of hardware can go untouched while a DAW does not — but the framing it carries,
+> that production began after New York failed, does not survive these two dates.
+> SLOPPP in 2013 is the first *named alias* and the first *released* material.
+> It is not the start of the practice.
 
 ## Related
 - [[wiki/interests/music/concepts/sub-bass-signature]]

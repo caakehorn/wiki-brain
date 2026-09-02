@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,266 events** across **80 years** (1796–2027), drawn from **364 pages**. Tier 1 665 · Tier 2 399 · Tier 3 2,202.
+**3,269 events** across **80 years** (1796–2027), drawn from **365 pages**. Tier 1 665 · Tier 2 400 · Tier 3 2,204.
 
 ## What counts as an event here
 
@@ -938,6 +938,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/zach-clingan]] · 2009: the faun
 - · **2009-10-06** — Full documented span  
   ↳ [[wiki/people/zach-clingan]] · Corpus record
+- · **2009-10-20** — overview — interests  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 25 pages
 - ◆ **2009-10-23** — Within two weeks the exchange turns explicitly romantic and stays there without interruption: constant "I ♥ you," daily phone dates, drunk-texting confessions, YouTube-link flirting, and a real in-person visit — Dan traveling from Orlando back to Uniontown for a weekend that included a shared…  
   ↳ [[wiki/people/stephanie-nalbone]] · The relationship
 - ★ **November 2009** — Stephanie Nalbone is an ex-girlfriend from a relationship the corpus had no other record of: a six-week, high-intensity long-distance romance running late September to early November 2009, reconnecting old Uniontown history right at the close of Full Sail.  
@@ -1021,6 +1023,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/chats/gemini-58]] · Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)
 - · **March 2010** — He stayed in Florida through March 2010 after graduating, a five-month tail before returning north.  
   ↳ [[wiki/timeline/periods/full-sail-2008-2010]] · The degree
+- · **2010-03-27** — And it starts earlier than 2013.** `bin/mine-twitter grep` puts the practice inside the New York period: *"my fuggin foot hurts. learning to warp in ableton"* (2010-03-27), with contemporaneous tweets placing him in Brooklyn that spring, and four days later *"i've been telling ppl for years that my…  
+  ↳ [[wiki/self/twitter]] · What the public valve actually is
 - ★ **April 2010** — Dan and Alexis moved to Brooklyn in April 2010 — 424 Bedford Ave for two years, then 90th between 3rd and Lex until May 2013.  
   ↳ [[wiki/people/alexis-armel]] · New York, in her own words and his
 - ★ **April 2010** — Dan moved in April 2010, at the front edge of his post-Full-Sail push into the recording-arts career the degree pointed at — the one stretch of his life where audio engineering was the actual job, running through **ishlab** (2010–11) and **Creative License** (2010–2012).  
@@ -1326,6 +1330,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/franki-fireworks-day-2013]] · Gaps
 - · **2013-08-15** — The Fish in the Sea Mix (trap) — Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
+- ◆ **2013-08-17** — The 46 are also overwhelmingly promotional in character — *"TAKE THE FUCKING TOUR OKAY?!"*, 2013-08-17 — which is a man advertising, not a man describing his practice.  
+  ↳ [[wiki/interests/music/overview]] · What the public archive says, and it is not the same thing
 - · **2013-08-17** — 2013** — Spreadsheet originals are complete from 2013-08-17 through year-end. January through 2013-08-13 is still being scraped and appended in live batches of ten.  
   ↳ [[wiki/meta/open-questions]] · self (58)
 - · **2013-08-17** — The spreadsheet span 2013-08-17 through 2026-04-07 is complete for originals.  
@@ -4471,7 +4477,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **October 2023** — Early messages are workplace-adjacent (spinach sourcing, an October 2023 birthday party, a joke about Shakespeare being "aburrido" because he doesn't do coke like El Chapo).  
   ↳ [[wiki/people/manuel]] · Texture
 - · **October 2023** — claire ulmer — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
 - · **October 2023** — Manuel was a coworker at Au Za'atar — the thread opens with an October 2023 message referencing Tarik telling him to stay and work — who became a genuine, ongoing friendship that outlasted the job itself, running from August 2023 into 2026 (`+13472828140`, 45 messages; unlike most contacts in this…  
   ↳ [[wiki/people/manuel]] · Manuel
 - · **October 2023** — He appears **31 times** between October 2023 and June 2025, roughly half as often as his sister alice.  
@@ -4548,7 +4554,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2024-03-05** — March — the illness, and the job turning medical.** On **2024-03-05** Annie reports that Libby has told her she has brain cancer, and *"Libby just said 'I think I'm dying..'"*; the next day, that it is also back in her right lung.  
   ↳ [[wiki/people/libby]] · The arc, February to October 2024
 - · **2024-03-17** — libby — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
 - · **2024-03-27** — 2024-03-27:** "You might like this. It's a series of videos  
   ↳ [[wiki/interests/roman-republic]] · It became something he pushed on people
 - · **Spring 2024** — In spring 2024 he is actively proselytizing it:  
@@ -6092,7 +6098,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 24 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 25 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -6368,7 +6374,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-11** — Suz to Dan: *"It's time for you to go."* — the newest datapoint on his housing, from the person who controls it (suzanne frank)  
   ↳ [[wiki/legal/463-morgantown]] · Timeline
 - · **2026-08-11** — rick frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
 - · **2026-08-11** — What the qualification is.** The right distinction is between *volume* and *dependability*, and the mother channel fails the second test on its own record: it alternates rescue with an itemised bill, it produced a $14,000 dispute that ran unresolved for seven years, and on 11 August 2026 it…  
   ↳ [[wiki/mind/synthesis/single-channel]] · RE-CHECKED [2026-08-18]
 - · **2026-08-11** — Confirmation, downgraded 2026-08-11 — the amputation operation.** The  
@@ -6682,7 +6688,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-22** — ally lubin — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-22** — attachment model — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
 - · **2026-08-22** — It does not settle *when* beyond "recent," and it does not answer the transmission question the gap also asked: whether Ally sent the screenshot to Dan directly, or he obtained it some other way, is still undocumented. "Recent" against a 2026-08-22 capture puts the test somewhere in mid-2026 and no…  
   ↳ [[wiki/people/ally-lubin-cognitive-profile]] · The instrument, and what it is worth
 - ★ **2026-08-23** — the cool metric — mind  
@@ -6696,7 +6702,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-23** — annie ulmer personality assessment — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-23** — johnny dealer — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
 - · **2026-08-23** — 1. ~~**No calibration test has been run**, though the data for it exists.~~ **CLOSED [2026-08-23], as a negative result.** The data does not exist: of 24 strict graded credences across eleven years, one is resolvable and it resolved false.  
   ↳ [[wiki/mind/synthesis/failure-to-launch]] · Gaps
 - · **2026-08-23** — Stylometrics — linguistic profile — —  
@@ -6855,4 +6861,4 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 364 wiki pages. 972 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 365 wiki pages. 973 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*

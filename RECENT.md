@@ -8,16 +8,18 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-02 — 24 pages
+## 2026-09-02 — 25 pages
 
 - **Session log:** ingest | self | @danfrank twitter archive as yearly pages
 - **Session log:** build | plain | two writing lanes, a floor that had to be measured, and a campaign page
 - **Session log:** translate | interests | favorites/eclecticism
 - **Session log:** translate | mind | synthesis/the-embedded-objective
 - **Session log:** translate | self | youtube-watch-history
+- **Session log:** ingest | interests | the @danfrank archive says production is narrated publicly and starts in 2010
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/interests/music/overview]] | interests | **REVISED** — The message search ran on the private corpus because that was the corpus that existed. The @danfrank archive — 2,525 originals, 2009-10-20 to 2026-09-01, filed as `raw/self/twitter/archive.jsonl` — is |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/readers-digest]] | meta | — |
@@ -235,7 +237,7 @@ simply listed.
 | [[wiki/work/fastly-fsly]] | work | _(carries a RE-CHECKED from 2026-08-21)_ |
 | [[wiki/work/tech/max-framework/overview]] | work | — |
 
-## 2026-08-23 — 18 pages
+## 2026-08-23 — 17 pages
 
 - **Session log:** directive | people | the Annie record is closed — no further texts, no further narrative
 - **Session log:** lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
@@ -245,7 +247,6 @@ simply listed.
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/interests/music/overview]] | interests | **CORRECTED** — This page has described the production domain as one that *"requires active build-out"* — framing the absence of release data as a documentation gap this wiki had not got to yet. failure-to-launch sea |
 | [[wiki/mind/concepts/attachment-model]] | mind | _(carries a GAP CLOSED from 2026-08-22)_ |
 | [[wiki/mind/concepts/calibrated-confidence]] | mind | **CORRECTED** — This page's measurement table gave **43 outbound instances against 2 inbound**, and **15 graded (non-endpoint) values against zero**. Re-derived from the on-disk CSVs — 98,228 deduped Dan-sent message |
 | [[wiki/mind/concepts/reassurance-architecture]] | mind | **REVISED** — The first version of this page assumed, from message-circadian-latency, that Dan was transmitting into a channel that answered slowly — *"broadcasting into a slow or silent void."* **That claim has si |

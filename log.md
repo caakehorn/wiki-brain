@@ -7561,3 +7561,65 @@ high-intensity stretch, and it is an export artifact because the watching
 happened on another account. That sequence is the most useful thing on the page
 for teaching a reader how to read the rest of it. Second incidental-mention
 case; the twin names nobody.
+
+## [2026-09-02] ingest | interests | the @danfrank archive says production is narrated publicly and starts in 2010
+
+First integration pass over the twitter archive #238 landed. Two findings, both
+written back in both directions, both from `bin/mine-twitter` rather than grep
+over the rendered yearly pages.
+
+**The production silence is channel-specific, and the page that established it
+could not have known.** `wiki/interests/music/overview` carries a CORRECTED
+block from 2026-08-23: across 98,056 of Dan's own messages there is **one**
+message about making a track, zero about a studio, and 12 lifetime mentions of
+the four aliases — against 179 for golf, a hobby that ended in 2019. It holds
+two readings open: that music is the one channel the forensic mode does not
+enter, or that an enterprise leaves more trace than this and therefore is not
+one.
+
+The same vocabulary in the public archive: **86 alias mentions in 2,525
+originals, of which 46 are hand-written** rather than SoundCloud's auto-share
+button. That is **1.82% against 0.0122% — a 149× rate difference** (278× if the
+auto-share rows are counted, which they should not be).
+
+This **supports the first reading and weakens the second.** He does narrate the
+work, at length; he does it on the public valve and not in conversation. The
+second reading was measuring a channel and reporting an enterprise.
+
+What it does not settle, and the page says so: no play count, no listener, no
+booking, no release figure. The 46 are advertisements for mixes rather than
+descriptions of practice — *"TAKE THE FUCKING TOUR OKAY?!"* (2013-08-17). And a
+tweet and a message turn are not the same unit, so some part of 149× is the
+difference between a broadcast and one turn of a conversation. The direction is
+safe; the magnitude is not, and that is on the page.
+
+**The dated origin is three years too late.** The `caused-by` edge on that page
+has the identity beginning with a controller *"acquired at ishlab and never
+touched, picked up in the depressive interval after the failed first New York
+attempt,"* daily by summer 2013. The archive puts production inside the New York
+period:
+
+- **2010-03-27** — *"my fuggin foot hurts. learning to warp in ableton."*
+- **2010-03-31** — *"i've been telling ppl for years that my first released
+  material would be a lady gaga x plies mixtape."*
+
+Contemporaneous tweets place him in Brooklyn that spring (*"sunrise on brooklyn
+bridge"*, 03-25; *"the mean streets of brooklyn"*, 05-29). Warping is an Ableton
+technique and not something reported while owning untouched equipment.
+
+Held as a `> **CONTRADICTION:**` rather than a correction, because it is
+narrower than it looks: **the controller claim survives** — specific hardware can
+sit untouched while a DAW does not — and what fails is the framing that
+production began after New York failed. SLOPPP in 2013 is the first *named
+alias* and the first *released* material, not the start of the practice. Both
+2010 rows are live-scrape coverage and therefore a floor.
+
+**A side effect worth recording.** Adding the finding took
+`wiki/interests/music/overview` from 824 words to 1,497 and it moved itself from
+the free lane to the major lane in `bin/wiki-plain`. The lanes are recomputed
+conditions rather than a list, so a page that grows past 900 words changes hands
+with nobody updating anything — which is what that design is for.
+
+`queue.md` now tracks the rest of the campaign as passes rather than as one
+item, per CLAUDE.md on large exports. Next: five recurring handles with no wiki
+page, the longest running five years.

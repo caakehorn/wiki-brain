@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-02
-492 pages, ~1,694,261 tokens.
+492 pages, ~1,696,299 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -8315,12 +8315,13 @@ domain: interests
 page_type: summary
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-23
+date_modified: 2026-09-02
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/operating_manual.md
   - raw/self/chats/The 2nd most famous 'Jimmy Pop' in Pennsylvania .md
+  - raw/self/twitter/archive.jsonl
 related:
   - wiki/interests/music/aliases/gripnotic
   - wiki/interests/music/aliases/mogzart
@@ -8353,6 +8354,12 @@ connections:
   - page: wiki/mind/synthesis/alias-as-periodization
     type: contradicts
     claim: "This page's own framing — four aliases mapping to distinct periods and distinct aesthetics — does not survive a read of the alias pages against each other: the aesthetics do not turn over at the renames, only the periods do, so the alias functions as a clock rather than a style."
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "The production silence measured in the message record is channel-specific, not general: 46 hand-written alias mentions in 2,525 public originals is 1.82% against 0.0122% in 98,056 private messages, a 149x rate difference, so the enterprise is narrated — on the public valve rather than in conversation."
+  - page: wiki/self/twitter
+    type: contradicts
+    claim: "This page dates the production identity to a controller picked up after the failed New York attempt, with a daily occupation by summer 2013; the public archive has him learning to warp in Ableton on 2010-03-27 while living in Brooklyn, and on 2010-03-31 saying he had been telling people 'for years' that his first released material would be a mixtape."
 ---
 
 
@@ -8420,6 +8427,73 @@ What the evidence settles is narrower than either: **the production identity is
 strongly supported as self-concept and unsupported as enterprise.** Whether
 finished tracks exist off-record — a distributor account, an unreleased folder —
 is the open question, and it is answerable by the operator in one sentence.
+
+## What the public archive says, and it is not the same thing
+
+> **REVISED [2026-09-02] — the silence above is channel-specific, and the
+> section that established it could not have known.** The message search ran on
+> the private corpus because that was the corpus that existed. The @danfrank
+> archive — 2,525 originals, 2009-10-20 to 2026-09-01, filed as
+> `raw/self/twitter/archive.jsonl` — is a second body of Dan's own writing, and
+> the same vocabulary behaves completely differently in it.
+
+Counted with `bin/mine-twitter` over the same alias names the section above
+counted in messages:
+
+| | Private messages | Public originals |
+|---|---:|---:|
+| Corpus size (Dan's own) | 98,056 | 2,525 |
+| Alias mentions | 12 | 86 |
+| — of those, hand-written | — | **46** |
+| Rate, hand-written only | 0.0122% | **1.82%** |
+
+**A 149× difference in rate**, and 278× if the 40 SoundCloud auto-share posts
+are counted alongside the 46 he typed himself. The hand-written figure is the
+one to quote; the auto-share rows are a platform button, not narration.
+
+**What this does to the two readings.** It supports the first and weakens the
+second. The first reading — that music is the one channel the forensic mode does
+not enter, so a man who narrates everything else may simply not narrate this —
+survives and gains a mechanism: he does narrate it, at length, in the one place
+that is not the audit channel. The second reading — that an enterprise leaves a
+trace above three lifetime mentions and this one does not — was measuring a
+channel rather than an enterprise. It does leave a trace. The trace is public.
+
+**What it does not settle.** Nothing here produces a play count, a listener, a
+booking or a release figure, so the capability question the section above raises
+is untouched: talking about the work in public is not evidence of output.
+Announcing a mix is closer to enterprise than silence and a long way from
+countable. The 46 are also overwhelmingly promotional in character — *"TAKE THE
+FUCKING TOUR OKAY?!"*, 2013-08-17 — which is a man advertising, not a man
+describing his practice.
+
+**One caveat that cannot be argued away.** A tweet and a message turn are not the
+same unit. A tweet is a deliberate broadcast; a message is one turn of a
+conversation with one person. Some part of a 149× gap is the difference between
+those two things rather than any disposition of Dan's, and this page does not
+know how much. The direction is safe; the magnitude is not.
+
+> **CONTRADICTION [2026-09-02] — the dated origin above is too late.** The
+> `caused-by` edge on this page states the identity begins with a controller
+> *"acquired at ishlab and never touched, picked up in the depressive interval
+> after the failed first New York attempt,"* daily by summer 2013. The public
+> archive puts production activity inside the New York period:
+>
+> - **2010-03-27** — *"my fuggin foot hurts. learning to warp in ableton."*
+>   Warping is an Ableton technique; it is not a thing you report while owning
+>   untouched equipment. Contemporaneous tweets place him in Brooklyn that
+>   spring (*"sunrise on brooklyn bridge"*, 2010-03-25; *"the mean streets of
+>   brooklyn"*, 2010-05-29).
+> - **2010-03-31** — *"i've been telling ppl for years that my first released
+>   material would be a lady gaga x plies mixtape."* By his own account in 2010,
+>   the intention to release predates 2010 by years.
+>
+> Both rows sit in live-scrape coverage, which is a floor: 2010 is not complete
+> and more may exist. **The controller claim is not refuted** — a specific piece
+> of hardware can go untouched while a DAW does not — but the framing it carries,
+> that production began after New York failed, does not survive these two dates.
+> SLOPPP in 2013 is the first *named alias* and the first *released* material.
+> It is not the start of the practice.
 
 ## Related
 - [[wiki/interests/music/concepts/sub-bass-signature]]
@@ -9750,7 +9824,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | Pages | 492 |
 | Pages touched in the last 14 days | 192 |
 | Pages reasoning from other pages (`synthesizes:`) | 78 |
-| Live contradictions | 41 |
+| Live contradictions | 42 |
 | Open gaps | 502 |
 | Standing predictions | 65 |
 
@@ -9781,12 +9855,13 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-02** — 24 pages
+**2026-09-02** — 25 pages
   - ingest | self | @danfrank twitter archive as yearly pages
   - build | plain | two writing lanes, a floor that had to be measured, and a campaign page
   - translate | interests | favorites/eclecticism
   - translate | mind | synthesis/the-embedded-objective
   - translate | self | youtube-watch-history
+  - ingest | interests | the @danfrank archive says production is narrated publicly and starts in 2010
 
 **2026-09-01** — 2 pages
 
@@ -10385,7 +10460,7 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 41 |
+| Live contradictions | 42 |
 | Open gaps | 502 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
@@ -10408,6 +10483,7 @@ somewhere and has not yet found out where.
 
 - **[[wiki/interests/favorites/books]]** — This page, and the 2026-06-23 form of eclecticism alongside it, read 120 books across 98 authors as breadth. Counted by subject rather than by author, the shelf is the opposite. **Forty of the 120 books are tagged `trump` or `jan-6`, carried by thirty different authors. Twenty are tagged `roman-republic`, `ancient-hist
 - **[[wiki/interests/food-and-diet]]** — the-cool-metric states that music, language, politics, film, work and strangers "all go through the same gate." Food does not, and food out-mentions music in the same corpus. Both pages carry the disagreement; the resolution below is that the metric has a jurisdiction rather than that it has an exception. It bounds it.
+- **[[wiki/interests/music/overview]]** — The `caused-by` edge on this page states the identity begins with a controller *"acquired at ishlab and never touched, picked up in the depressive interval after the failed first New York attempt,"* daily by summer 2013. The public archive puts production activity inside the New York period: - **2010-03-27** — *"my fug
 - **[[wiki/legal/2015-possession-arrest]]** — The capture places the arrest firmly *before* the move to 155 Virginia Ave — Alexis was still being hidden at 337 Saratoga, "before we made it to her 155 virginia ave house where she let me and lex live together." But that page dates the residence from **January 2015**, a month before the blotter filing. One of the thr
 - **[[wiki/legal/2015-possession-arrest]]** — This page's earlier form stated that during the stop Dan "consented to a breath search — a decision he later credited with saving his driver's license," citing a March 2026 message: "I would have lost mine if I hadn't consented to the breath search when I got arrested." The capture states the opposite in direct terms: 
 - **[[wiki/legal/2015-possession-arrest]]** — An October 19, 2017 message to Christo Coan — "hell yeah I already got a DUI I'm not getting any more of those :D" — indicates a separate, otherwise undocumented DUI. The capture's flat statement that this arrest is "my first and only real arrest" sharpens rather than settles the puzzle: a DUI can be issued by citation
@@ -11073,8 +11149,8 @@ chart:
     - name: "Entries"
       points:
         "Translated": 28
-        "Major lane": 34
-        "Free lane": 44
+        "Major lane": 35
+        "Free lane": 43
         "Held (people)": 93
         "Too thin": 50
         "Withheld": 216
@@ -11114,8 +11190,8 @@ is arithmetic in `bin/wiki-plain`: 900 words is the boundary.
 
 | Lane | What is in it | Outstanding |
 |---|---|---|
-| `major` | entries of 900 words or more — the dense findings | 34 |
-| `free` | entries under 900 words, worked smallest first | 44 |
+| `major` | entries of 900 words or more — the dense findings | 35 |
+| `free` | entries under 900 words, worked smallest first | 43 |
 
 A further **93** eligible entries about other people are in
 neither lane. They are held back deliberately, pending a decision about
@@ -11166,7 +11242,7 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 
 ## Next up
 
-**major** — 34 outstanding
+**major** — 35 outstanding
 
 - [[wiki/self/twitter/2024]] (10344 words)
 - [[wiki/self/twitter/2013]] (8992 words)
@@ -11174,7 +11250,7 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 - [[wiki/self/twitter/2022]] (6584 words)
 - [[wiki/self/twitter/2023]] (6529 words)
 
-**free** — 44 outstanding
+**free** — 43 outstanding
 
 - [[wiki/work/caviar-courier]] (301 words)
 - [[wiki/interests/favorites/books/authors/adrian-goldsworthy]] (315 words)
@@ -11216,10 +11292,11 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-02 — 24 pages
+## 2026-09-02 — 25 pages
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/interests/music/overview]] | interests | **REVISED** — The message search ran on the private corpus because that was the corpus that existed. The @danfrank archive — 2,525 originals, 2009-10-20 to 2026-09-01, filed as `raw/self/twitter/archive.jsonl` — is |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/readers-digest]] | meta | — |
@@ -11377,11 +11454,10 @@ simply listed.
 | [[wiki/work/fastly-fsly]] | work | _(carries a RE-CHECKED from 2026-08-21)_ |
 | [[wiki/work/tech/max-framework/overview]] | work | — |
 
-## 2026-08-23 — 18 pages
+## 2026-08-23 — 17 pages
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/interests/music/overview]] | interests | **CORRECTED** — This page has described the production domain as one that *"requires active build-out"* — framing the absence of release data as a documentation gap this wiki had not got to yet. failure-to-launch sea |
 | [[wiki/mind/concepts/attachment-model]] | mind | _(carries a GAP CLOSED from 2026-08-22)_ |
 | [[wiki/mind/concepts/calibrated-confidence]] | mind | **CORRECTED** — This page's measurement table gave **43 outbound instances against 2 inbound**, and **15 graded (non-endpoint) values against zero**. Re-derived from the on-disk CSVs — 98,228 deduped Dan-sent message |
 | [[wiki/mind/concepts/reassurance-architecture]] | mind | **REVISED** — The first version of this page assumed, from message-circadian-latency, that Dan was transmitting into a channel that answered slowly — *"broadcasting into a slow or silent void."* **That claim has si |
@@ -86119,6 +86195,12 @@ connections:
   - page: wiki/people/aaron
     type: parallels
     claim: 'Aaron''s thread extends the same sicko/justice-system-skeptic political engagement already documented from Dan''s Twitter activity (Luigi Mangione coverage) into a second, real-time political-violence event a year later.'
+  - page: wiki/interests/music/overview
+    type: evidences
+    claim: 'This archive is where the production identity is narrated: 46 hand-written alias mentions in 2,525 originals is 1.82% against 0.0122% in 98,056 private messages, so the production silence that page measures in the message record is channel-specific rather than general.'
+  - page: wiki/interests/music/overview
+    type: contradicts
+    claim: 'The 2010-03-27 "learning to warp in ableton" line, written from Brooklyn, puts production activity inside the New York period and against that page''s dated origin of a controller left untouched until after New York failed; SLOPPP in 2013 is the first named alias, not the start of the practice.'
 ---
 
 # Twitter / X Activity (@danfrank)
@@ -86158,6 +86240,10 @@ The older page on this path was a sample synthesis from 2019–2026 and said so.
 Volume is the other correction. 2024 is the peak (258 spreadsheet originals), 2020 the floor (25), 2025 a collapse-year quiet (13). Twitter is an output valve, not the diary: 2015, the year the Annie relationship starts, is almost silent here. When the life is happening in texts, this account thins. When it is happening as commentary — 2017 Sessions, 2022 J6, 2023 Fetterman villain arc, 2024 Luigi — it thickens. That is the same contact-gini shape the private corpora show, rendered in public.
 
 The production identity is not a late add-on. 2013 is SLOPPP trap mixes on SoundCloud in the same weeks as Instagram lookouts; 2026 is MOGZART DnB and moltbook agent claims. Music is the sincere channel across both ends of the archive. The AI year (Grok Build, Fable 5, Claude godmode, moltbook) is real and is 2026, not the whole story.
+
+**And it starts earlier than 2013.** `bin/mine-twitter grep` puts the practice inside the New York period: *"my fuggin foot hurts. learning to warp in ableton"* (2010-03-27), with contemporaneous tweets placing him in Brooklyn that spring, and four days later *"i've been telling ppl for years that my first released material would be a lady gaga x plies mixtape"* (2010-03-31) — an intention he dates, in 2010, back years further. [[wiki/interests/music/overview]] dates the identity to a controller picked up after New York failed; these two lines contradict the framing without touching the controller. SLOPPP is the first *named alias*, not the first production. 2010 is live-scrape coverage and therefore a floor: more may surface as the scrape fills in.
+
+**This account is also where the production identity is narrated at all.** The message record holds 12 alias mentions across 98,056 of Dan's own messages — 0.0122%, the number [[wiki/interests/music/overview]] uses to argue the enterprise leaves almost no trace. This archive holds 86, of which 46 are hand-written rather than SoundCloud's auto-share button: **1.82% of everything he wrote here, a 149× rate difference.** The silence is channel-specific. He does narrate the work; he does it on the valve, not in conversation. What that does *not* establish is output — a promotional line is not a play count, and the 46 are overwhelmingly advertisements for mixes rather than descriptions of practice.
 
 ## Inclusion rule
 
@@ -94211,7 +94297,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,266 events** across **80 years** (1796–2027), drawn from **364 pages**. Tier 1 665 · Tier 2 399 · Tier 3 2,202.
+**3,269 events** across **80 years** (1796–2027), drawn from **365 pages**. Tier 1 665 · Tier 2 400 · Tier 3 2,204.
 
 ## What counts as an event here
 
@@ -95130,6 +95216,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/zach-clingan]] · 2009: the faun
 - · **2009-10-06** — Full documented span  
   ↳ [[wiki/people/zach-clingan]] · Corpus record
+- · **2009-10-20** — overview — interests  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 25 pages
 - ◆ **2009-10-23** — Within two weeks the exchange turns explicitly romantic and stays there without interruption: constant "I ♥ you," daily phone dates, drunk-texting confessions, YouTube-link flirting, and a real in-person visit — Dan traveling from Orlando back to Uniontown for a weekend that included a shared…  
   ↳ [[wiki/people/stephanie-nalbone]] · The relationship
 - ★ **November 2009** — Stephanie Nalbone is an ex-girlfriend from a relationship the corpus had no other record of: a six-week, high-intensity long-distance romance running late September to early November 2009, reconnecting old Uniontown history right at the close of Full Sail.  
@@ -95213,6 +95301,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/chats/gemini-58]] · Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)
 - · **March 2010** — He stayed in Florida through March 2010 after graduating, a five-month tail before returning north.  
   ↳ [[wiki/timeline/periods/full-sail-2008-2010]] · The degree
+- · **2010-03-27** — And it starts earlier than 2013.** `bin/mine-twitter grep` puts the practice inside the New York period: *"my fuggin foot hurts. learning to warp in ableton"* (2010-03-27), with contemporaneous tweets placing him in Brooklyn that spring, and four days later *"i've been telling ppl for years that my…  
+  ↳ [[wiki/self/twitter]] · What the public valve actually is
 - ★ **April 2010** — Dan and Alexis moved to Brooklyn in April 2010 — 424 Bedford Ave for two years, then 90th between 3rd and Lex until May 2013.  
   ↳ [[wiki/people/alexis-armel]] · New York, in her own words and his
 - ★ **April 2010** — Dan moved in April 2010, at the front edge of his post-Full-Sail push into the recording-arts career the degree pointed at — the one stretch of his life where audio engineering was the actual job, running through **ishlab** (2010–11) and **Creative License** (2010–2012).  
@@ -95518,6 +95608,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/franki-fireworks-day-2013]] · Gaps
 - · **2013-08-15** — The Fish in the Sea Mix (trap) — Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
+- ◆ **2013-08-17** — The 46 are also overwhelmingly promotional in character — *"TAKE THE FUCKING TOUR OKAY?!"*, 2013-08-17 — which is a man advertising, not a man describing his practice.  
+  ↳ [[wiki/interests/music/overview]] · What the public archive says, and it is not the same thing
 - · **2013-08-17** — 2013** — Spreadsheet originals are complete from 2013-08-17 through year-end. January through 2013-08-13 is still being scraped and appended in live batches of ten.  
   ↳ [[wiki/meta/open-questions]] · self (58)
 - · **2013-08-17** — The spreadsheet span 2013-08-17 through 2026-04-07 is complete for originals.  
@@ -98663,7 +98755,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **October 2023** — Early messages are workplace-adjacent (spinach sourcing, an October 2023 birthday party, a joke about Shakespeare being "aburrido" because he doesn't do coke like El Chapo).  
   ↳ [[wiki/people/manuel]] · Texture
 - · **October 2023** — claire ulmer — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
 - · **October 2023** — Manuel was a coworker at Au Za'atar — the thread opens with an October 2023 message referencing Tarik telling him to stay and work — who became a genuine, ongoing friendship that outlasted the job itself, running from August 2023 into 2026 (`+13472828140`, 45 messages; unlike most contacts in this…  
   ↳ [[wiki/people/manuel]] · Manuel
 - · **October 2023** — He appears **31 times** between October 2023 and June 2025, roughly half as often as his sister alice.  
@@ -98740,7 +98832,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2024-03-05** — March — the illness, and the job turning medical.** On **2024-03-05** Annie reports that Libby has told her she has brain cancer, and *"Libby just said 'I think I'm dying..'"*; the next day, that it is also back in her right lung.  
   ↳ [[wiki/people/libby]] · The arc, February to October 2024
 - · **2024-03-17** — libby — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
 - · **2024-03-27** — 2024-03-27:** "You might like this. It's a series of videos  
   ↳ [[wiki/interests/roman-republic]] · It became something he pushed on people
 - · **Spring 2024** — In spring 2024 he is actively proselytizing it:  
@@ -100284,7 +100376,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 24 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 25 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -100560,7 +100652,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-11** — Suz to Dan: *"It's time for you to go."* — the newest datapoint on his housing, from the person who controls it (suzanne frank)  
   ↳ [[wiki/legal/463-morgantown]] · Timeline
 - · **2026-08-11** — rick frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
 - · **2026-08-11** — What the qualification is.** The right distinction is between *volume* and *dependability*, and the mother channel fails the second test on its own record: it alternates rescue with an itemised bill, it produced a $14,000 dispute that ran unresolved for seven years, and on 11 August 2026 it…  
   ↳ [[wiki/mind/synthesis/single-channel]] · RE-CHECKED [2026-08-18]
 - · **2026-08-11** — Confirmation, downgraded 2026-08-11 — the amputation operation.** The  
@@ -100874,7 +100966,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-22** — ally lubin — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-22** — attachment model — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
 - · **2026-08-22** — It does not settle *when* beyond "recent," and it does not answer the transmission question the gap also asked: whether Ally sent the screenshot to Dan directly, or he obtained it some other way, is still undocumented. "Recent" against a 2026-08-22 capture puts the test somewhere in mid-2026 and no…  
   ↳ [[wiki/people/ally-lubin-cognitive-profile]] · The instrument, and what it is worth
 - ★ **2026-08-23** — the cool metric — mind  
@@ -100888,7 +100980,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-23** — annie ulmer personality assessment — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-23** — johnny dealer — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
 - · **2026-08-23** — 1. ~~**No calibration test has been run**, though the data for it exists.~~ **CLOSED [2026-08-23], as a negative result.** The data does not exist: of 24 strict graded credences across eleven years, one is resolvable and it resolved false.  
   ↳ [[wiki/mind/synthesis/failure-to-launch]] · Gaps
 - · **2026-08-23** — Stylometrics — linguistic profile — —  
@@ -101047,7 +101139,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 364 wiki pages. 972 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 365 wiki pages. 973 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================

@@ -23,7 +23,7 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 41 |
+| Live contradictions | 42 |
 | Open gaps | 502 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
@@ -46,6 +46,7 @@ somewhere and has not yet found out where.
 
 - **[[wiki/interests/favorites/books]]** — This page, and the 2026-06-23 form of eclecticism alongside it, read 120 books across 98 authors as breadth. Counted by subject rather than by author, the shelf is the opposite. **Forty of the 120 books are tagged `trump` or `jan-6`, carried by thirty different authors. Twenty are tagged `roman-republic`, `ancient-hist
 - **[[wiki/interests/food-and-diet]]** — the-cool-metric states that music, language, politics, film, work and strangers "all go through the same gate." Food does not, and food out-mentions music in the same corpus. Both pages carry the disagreement; the resolution below is that the metric has a jurisdiction rather than that it has an exception. It bounds it.
+- **[[wiki/interests/music/overview]]** — The `caused-by` edge on this page states the identity begins with a controller *"acquired at ishlab and never touched, picked up in the depressive interval after the failed first New York attempt,"* daily by summer 2013. The public archive puts production activity inside the New York period: - **2010-03-27** — *"my fug
 - **[[wiki/legal/2015-possession-arrest]]** — The capture places the arrest firmly *before* the move to 155 Virginia Ave — Alexis was still being hidden at 337 Saratoga, "before we made it to her 155 virginia ave house where she let me and lex live together." But that page dates the residence from **January 2015**, a month before the blotter filing. One of the thr
 - **[[wiki/legal/2015-possession-arrest]]** — This page's earlier form stated that during the stop Dan "consented to a breath search — a decision he later credited with saving his driver's license," citing a March 2026 message: "I would have lost mine if I hadn't consented to the breath search when I got arrested." The capture states the opposite in direct terms: 
 - **[[wiki/legal/2015-possession-arrest]]** — An October 19, 2017 message to Christo Coan — "hell yeah I already got a DUI I'm not getting any more of those :D" — indicates a separate, otherwise undocumented DUI. The capture's flat statement that this arrest is "my first and only real arrest" sharpens rather than settles the puzzle: a DUI can be issued by citation
