@@ -5,7 +5,7 @@ status: active
 date_created: 2026-06-22
 date_modified: 2026-09-02
 knowledge: mixed
-date_range_start: 2009-10-29
+date_range_start: 2009-10-22
 date_range_end: 2026-09-02
 title: "Twitter / X (@danfrank)"
 aliases: [danfrank, @danfrank]
@@ -58,11 +58,11 @@ The operator spreadsheet (Drive: Dan Frank - Tweet Archive, filed as `raw/self/t
 
 | Year | Originals on page | Coverage |
 |------|------------------:|----------|
-| [[wiki/self/twitter/2009\|2009]] | 79 | in progress |
-| [[wiki/self/twitter/2010\|2010]] | 157 | in progress |
-| [[wiki/self/twitter/2011\|2011]] | 108 | in progress |
-| [[wiki/self/twitter/2012\|2012]] | 89 | in progress |
-| [[wiki/self/twitter/2013\|2013]] | 310 | in progress |
+| [[wiki/self/twitter/2009\|2009]] | 137 | in progress |
+| [[wiki/self/twitter/2010\|2010]] | 273 | in progress |
+| [[wiki/self/twitter/2011\|2011]] | 185 | in progress |
+| [[wiki/self/twitter/2012\|2012]] | 175 | in progress |
+| [[wiki/self/twitter/2013\|2013]] | 326 | in progress |
 | [[wiki/self/twitter/2014\|2014]] | 171 | complete for originals |
 | [[wiki/self/twitter/2015\|2015]] | 62 | complete for originals |
 | [[wiki/self/twitter/2016\|2016]] | 75 | complete for originals |
@@ -76,7 +76,7 @@ The operator spreadsheet (Drive: Dan Frank - Tweet Archive, filed as `raw/self/t
 | [[wiki/self/twitter/2024\|2024]] | 258 | complete for originals |
 | [[wiki/self/twitter/2025\|2025]] | 13 | complete for originals |
 | [[wiki/self/twitter/2026\|2026]] | 26 | in progress |
-| **Total** | **1985** | |
+| **Total** | **2338** | |
 
 ## What the public valve actually is
 
