@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,381 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 681 · Tier 2 409 · Tier 3 2,291.
+**3,393 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 682 · Tier 2 411 · Tier 3 2,300.
 
 ## What counts as an event here
 
@@ -871,6 +871,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
 - ◆ **September 2008** — When Dan left for Full Sail in September 2008, Suz bought a condo near campus rather than renting one — the earliest documented instance of her using real property rather than cash to support him, seventeen years before the 337 sale and the 463 arrangement did the same thing in reverse.  
   ↳ [[wiki/people/suzanne-frank]] · The Winter Park condo, 2008–2010
+- ◆ **September 2008** — Personal account **@danfrank** ("insufferable politics sicko"), registered **September 2008** by its own anniversary tag, with a recovered record beginning October 2009.  
+  ↳ [[wiki/self/twitter]] · Twitter / X Activity (@danfrank)
 - · **September 2008** — Buys the Winter Park FL condo (2924 Antique Oaks Circle) as Dan starts Full Sail  
   ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **September 2008** — ski-identity years  
@@ -940,6 +942,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/zach-clingan]] · 2009: the faun
 - · **2009-10-06** — Full documented span  
   ↳ [[wiki/people/zach-clingan]] · Corpus record
+- · **2009-10-20** — What this changes.** The hub's framing of 2009 as "the origin year" is the origin of the *record*, not of the account, and the two are not the same thing. `date_range_start` stays 2009-10-20 because that is the first tweet held; the account's own start is a year earlier and is unrepresented.  
+  ↳ [[wiki/self/twitter]] · The account is older than the archive
 - ◆ **2009-10-23** — Within two weeks the exchange turns explicitly romantic and stays there without interruption: constant "I ♥ you," daily phone dates, drunk-texting confessions, YouTube-link flirting, and a real in-person visit — Dan traveling from Orlando back to Uniontown for a weekend that included a shared…  
   ↳ [[wiki/people/stephanie-nalbone]] · The relationship
 - ★ **November 2009** — Stephanie Nalbone is an ex-girlfriend from a relationship the corpus had no other record of: a six-week, high-intensity long-distance romance running late September to early November 2009, reconnecting old Uniontown history right at the close of Full Sail.  
@@ -4347,6 +4351,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · The self-narrated conversion, 2020-08-22
 - · **2020-08-22** — The conversion above is self-narrated — Dan describing his own change on 2020-08-22.  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · An independent witness, and what it can and cannot measure
+- · **2020-08-22** — That is what the 2020-08-22 self-narration says, and it is well evidenced.  
+  ↳ [[wiki/mind/synthesis/2020-left-turn]] · A second causal account, in his own words, from 2022
 - · **2020-08-22** — On **August 22, 2020** he wrote the family-thread message pairing his new politics with both source-lines at once: "it feels super gross knowing that dad fought to keep frank's auto employees from unionizing and that we have such kushy lives because of it," alongside discomfort that the Fran…  
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The two source-lines and their trustee
 - · **2020-08-22** — 10. Religious and ideological programming  
@@ -4601,12 +4607,20 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/oscar-lindquist]] · The 2022 coincidence
 - · **2022-03-24** — Cross-link:** jacob bacharach appears in the export exactly once — *The Doorposts of Your House and on Your Gates* (Liveright, **2017**; shelved 2022-03-24, tagged "fiction, 2022"), rated the maximum ★★★★★.  
   ↳ [[wiki/interests/favorites/books]] · 2025 update (fresher Goodreads export)
+- ★ **2022-03-28** — One documented consequence.** On **28 March 2022**, during the Chris Rock/Will Smith argument, he stated a position that the show's own ethic would not recognise: *"I've moved away from belief in comedy's absolutist defense of free speech ('it's just a joke') and have a more sympathetic view of how…  
+  ↳ [[wiki/interests/opie-and-anthony]] · The fanbase split, and which side Dan took
 - · **May 2022** — Gaps:** exact start (how/when the affair began before the IG thread's May 2022 first message — the winter 2021–22 peak predates it, presumably on another channel); her current status and whether contact continued past July 2025; the "Norteno server"'s identity.  
   ↳ [[wiki/people/valeria-iglesias-cid]] · Structural significance
 - ★ **June 2022** — Valeria "worthy of like CONSTANT effort," himself a "stupid fat lazy skinny gringo," the state named a "Valeria infection." He watched her Instagram stories from a logged-out browser to avoid getting her in trouble, met her mother once (and typed up a comparative analysis of their mothers — Vogue…  
   ↳ [[wiki/people/valeria-iglesias-cid]] · The affair (winter 2021–22 → mid-2022)
 - ★ **July 2022** — Adversarial ties are retained too.** Zac Shumar dated Dan's sister, then Alexis, then took a plea deal that sent Alexis to prison while he walked — and Dan was collaborating with him on an apparel project during her probation and arguing politics with him for five hours in July 2022.  
   ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · Predictions
+- ◆ **2022-07-18** — The show's afterlife has a politics, and Dan gave his own account of it on **18 July 2022**, writing to Opie directly:  
+  ↳ [[wiki/interests/opie-and-anthony]] · The fanbase split, and which side Dan took
+- · **2022-07-18** — Gap:** the 18 July 2022 tweet is marked **(1/3)** and parts 2 and 3 are not in the archive.  
+  ↳ [[wiki/interests/opie-and-anthony]] · The fanbase split, and which side Dan took
+- · **2022-07-18** — On **18 July 2022**, addressing Opie of Opie & Anthony directly:  
+  ↳ [[wiki/mind/synthesis/2020-left-turn]] · A second causal account, in his own words, from 2022
 - ◆ **August 2022** — Security: account_activity / logins / ip (39 unique) show 2022+ activity (earliest Aug 2022 in parses)  
   ↳ [[wiki/self/location-history]] · Ties to Facebook Events / Security / Profile (2010+)
 - · **August 2022** — "pa" mentions frequent in loc fields. Limited older export data but consistent with FB profile timeline.  
@@ -4615,18 +4629,28 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - · **September 2022** — Waiting on Dan:** the August–September 2022 question — the most precisely  
   ↳ [[wiki/mind/synthesis/totality-themes]] · Gaps and open questions carried from the third pass
+- · **September 2022** — Fourteen years back from September 2022 is **September 2008** — thirteen months before this archive's earliest tweet, 20 October 2009.  
+  ↳ [[wiki/self/twitter]] · The account is older than the archive
 - · **2022-09-05** — Full Facebook data export (79 MB, generated Sep 5 2022) for the account **ihatedanfrank** — registered January 9, 2007.  
   ↳ [[wiki/self/facebook]] · Facebook Archive (ihatedanfrank)
 - · **2022-09-05** — Export size / date  
   ↳ [[wiki/self/facebook]] · Corpus Dimensions
 - · **2022-09-20** — Migration back (Aug 16 – Sep 20, 2022):** continuity-restore gesture  
   ↳ [[wiki/mind/synthesis/totality-themes]] · The migration grammar — identity reorganization has a syntax
+- · **2022-09-24** — On **24 September 2022** Dan posted, under Twitter's own generated `#MyTwitterAnniversary` tag: *"14 years of pointless nothingness but at least I got the @danfrank handle."  
+  ↳ [[wiki/self/twitter]] · The account is older than the archive
 - ◆ **2022-11-10** — Two Bacharach videos watched two minutes apart — a Hill clip, then the Chapo episode  
   ↳ [[wiki/people/jacob-bacharach]] · What actually happened, dated from the message corpus
 - ◆ **2022-11-10** — The attention is measurable rather than impressionistic: the browsing analysis counts **26 Bacharach searches across 2021–2023**, and the YouTube export's only two Bacharach items sit two minutes apart at one in the morning on **November 10, 2022** — a Hill clip and then the Chapo episode, which is…  
   ↳ [[wiki/people/jacob-bacharach]] · Why it is the flagship
+- · **2022-11-18** — He was inside the community deeply enough for the split to be personal — *"I was a regular in the storied opieandanthony subreddit before it was banned"* (18 November 2022) — and he kept engaging the hosts publicly throughout: sixteen tweets to `@OpieRadio`, ten to `@AnthonyCumia`, nine each to…  
+  ↳ [[wiki/interests/opie-and-anthony]] · The fanbase split, and which side Dan took
+- · **2022-11-18** — He also states, in the same tweet, what the account was for: **the handle.** `@danfrank` on a service he joined in 2008 is a first-name-plus-surname handle acquired before that was hard, and he says so again two months later — *"I'm fucking bummed because Twitter is the only place I got in early…  
+  ↳ [[wiki/self/twitter]] · The account is older than the archive
 - · **December 2022** — Word volume, Dan : Annie, all-time  
   ↳ [[wiki/people/annie-ulmer]] · By the numbers
+- · **December 2022** — The December 2022 start date is primary and holds.  
+  ↳ [[wiki/self/concepts/chatgpt]] · The primary record — 375 threads, measured
 - ◆ **2022-12-10** — Dan's LLM usage began with ChatGPT on **2022-12-10**, ten days after its public launch (per the archived export; the operator's account adds that a first-release DALL-E beta code is what got him in).  
   ↳ [[wiki/self/concepts/llm]] · History of LLM usage
 - · **2022-12-10** — The export holds **375 conversations, 2022-12-10 → 2025-07-01**: 1,456 user turns and 1,599 assistant turns, counted over every node in every conversation tree rather than the surviving reply chain — regenerated and abandoned branches included, because a refusal Dan regenerated away is exactly the…  
@@ -6831,8 +6855,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/open-questions]] · timeline (81)
 - · **2026-08-19** — enneagram 5w4 — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
-- · **2026-08-19** — chatgpt — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-08-19** — The strongest is the **asymmetric clearing** — on 2026-08-19 at 06:33 Annie publicly cleared Coles of rape in a group chat, having agreed by phone to do the same for Dan, and did not.  
   ↳ [[wiki/mind/synthesis/august-grievance-verdict]] · LLM Quick Brief
 - · **2026-08-19** — The strongest — Annie publicly clearing Coles of rape in a group chat on 2026-08-19 at 06:33 having agreed by phone to clear Dan and not doing so — is the cleanest documented wrong in the corpus, because it required no interpretation: one act was performed and its promised counterpart was not.  
@@ -6973,6 +6995,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/franki-faris]] · The five days (summer 2013)
 - · **2026-08-27** — ally lubin cognitive profile** — **Did she report the result herself, or was it forwarded?** The visible page is the results email, which implies she had the account. The 2026-08-27 operator answer confirms the result is hers but says nothing about how the screenshot reached Dan, so this stay  
   ↳ [[wiki/meta/open-questions]] · people (169)
+- · **2026-08-27** — alexis armel — people  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 41 pages
 - · **2026-08-27** — The 2026-08-27 operator answer confirms the result is hers but says nothing about how the screenshot reached Dan, so this stays open.  
   ↳ [[wiki/people/ally-lubin-cognitive-profile]] · Gaps
 - · **2026-08-27** — That pending status held — the sale closed in **summer 2019 for $250,000** (operator testimony, 2026-08-27; uncorroborated in the message record, which never returns to the subject after Danny's July 11 line).  
@@ -6983,8 +7007,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
-- · **2026-08-28** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 41 pages
 - · **2026-08-28** — full sail 2008 2010 — timeline  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 41 pages
 - · **2026-08-28** — chemical architecture — health  
@@ -7067,6 +7089,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/2010s]] · Transition
 - · **2026-09-02** — failure to launch — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+- · **2026-09-02** — chatgpt — self  
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-09-02** — He had no page here until 2026-09-02, and he is not named anywhere else in the corpus: no message thread, no Facebook exchange, no appearance on another person's page.  
   ↳ [[wiki/people/shane-brannan]] · Shane Brannan
 - · **2026-09-02** — Pre / Origin (Twitter + FB) — ~2010-2013 — **15 check-ins** (Google loc starts 2014)  

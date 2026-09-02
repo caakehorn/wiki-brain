@@ -18,7 +18,7 @@ tags: [digital-footprint, politics, music-production, ai-collaboration, ideology
 connections:
   - page: wiki/self/twitter/2009
     type: contains
-    claim: '2009 is the origin year of the @danfrank account and the first public sample of the voice the later corpora treat as stable.'
+    claim: '2009 is the origin year of the surviving record — the account itself dates to September 2008 by its own anniversary tag — and the first public sample of the voice the later corpora treat as stable.'
   - page: wiki/self/twitter/2013
     type: contains
     claim: '2013 is the first year the operator spreadsheet covers in full for originals, and the production-identity (SLOPPP/trap) year.'
@@ -75,7 +75,7 @@ connections:
     claim: 'The 764 originals dated inside NYC-1 are the only contemporaneous first-party record that period has; they closed its move-date gap and moved both apartment dates a month earlier.'
   - page: wiki/self/facebook
     type: parallels
-    claim: 'Facebook is the 2007-registered public fossil; Twitter is the 2009-origin parallel public valve, same person, different platform rules.'
+    claim: 'Facebook is the 2007-registered public fossil; Twitter is registered a year later in September 2008 and is the parallel public valve, same person, different platform rules — though its recovered record starts only in October 2009.'
   - page: wiki/mind/profile/linguistic-profile
     type: evidences
     claim: 'The dated originals from 2009 onward are the public half of the two-corpus voice proof that page is built on.'
@@ -121,11 +121,14 @@ connections:
   - page: wiki/work/tech/index
     type: evidences
     claim: 'Two Codecademy badges auto-posted on 19 February 2013, then no reference to code in 2,525 originals across the next thirteen years until the 2026 Grok CLI and Claude building — the only record of a pre-AI attempt at the skill.'
+  - page: wiki/self/concepts/chatgpt
+    type: evidences
+    claim: 'Four tweets on 8 September 2022 document hands-on DALL-E image-variation use three months before ChatGPT launched, closing that page''s stated gap that the DALL-E half of the origin account was not checkable in this corpus.'
 ---
 
 # Twitter / X Activity (@danfrank)
 
-Personal account **@danfrank** ("insufferable politics sicko"), live since at least late 2009. This hub is the index of a text archive of his originals: one wiki page per year, every retrieved original and every quote-tweet that carries his own text. Pure reposts with no @danfrank quote content are the one omitted class.
+Personal account **@danfrank** ("insufferable politics sicko"), registered **September 2008** by its own anniversary tag, with a recovered record beginning October 2009. This hub is the index of a text archive of his originals: one wiki page per year, every retrieved original and every quote-tweet that carries his own text. Pure reposts with no @danfrank quote content are the one omitted class.
 
 The operator spreadsheet (Drive: Dan Frank - Tweet Archive, filed as `raw/self/twitter/tweet-archive.xlsx`) holds 1,427 originals from 2013-08-17 through 2026-04-07 and 229 pure reposts, which are dropped. Years before the spreadsheet, the mid-August 2013 days before it starts, and 2026 after 7 April are filled from live X search and will grow as further batches are committed on this branch.
 
@@ -191,6 +194,40 @@ York is still undated by this source. New York references run 8.8%, 8.9%
 and 10.2% of originals in 2010, 2011 and 2012 and fall to 0.3% in 2013 —
 the right shape for a spring 2013 exit, and not a date. It continues to
 rest on context-core.
+
+## The account is older than the archive
+
+On **24 September 2022** Dan posted, under Twitter's own generated
+`#MyTwitterAnniversary` tag: *"14 years of pointless nothingness but at least
+I got the @danfrank handle."*
+
+Fourteen years back from September 2022 is **September 2008** — thirteen
+months before this archive's earliest tweet, 20 October 2009. The anniversary
+tag fires on the account's join date rather than on its first post, so the
+account existed through the whole of the 2008–09 Full Sail year and no tweet
+from that period has been recovered.
+
+**What this changes.** The hub's framing of 2009 as "the origin year" is the
+origin of the *record*, not of the account, and the two are not the same
+thing. `date_range_start` stays 2009-10-20 because that is the first tweet
+held; the account's own start is a year earlier and is unrepresented. Whether
+he simply did not post for thirteen months, or whether those tweets exist and
+the live scrape has not reached them, is unresolved — and the second is more
+likely than it looks, since every year before 2013 here is a scrape
+reconstruction rather than a complete export.
+
+**The single thing that would settle it** is the official X Settings archive,
+which carries the exact account-creation timestamp and every tweet. It is
+already listed in `queue.md` as welcome; this is a second reason to want it,
+alongside the 2016 discrepancy noted on
+[[wiki/interests/music/overview]].
+
+He also states, in the same tweet, what the account was for: **the handle.**
+`@danfrank` on a service he joined in 2008 is a first-name-plus-surname
+handle acquired before that was hard, and he says so again two months later —
+*"I'm fucking bummed because Twitter is the only place I got in early enough
+to secure the @danfrank handle"* (18 November 2022), written while
+considering leaving over the Musk acquisition.
 
 ## Inclusion rule
 

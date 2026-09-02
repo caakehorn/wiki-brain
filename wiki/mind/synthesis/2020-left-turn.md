@@ -22,6 +22,9 @@ synthesizes:
   - wiki/health/the-configured-body
 tags: [ideology, politics, nyc-era, digital-footprint]
 connections:
+  - page: wiki/interests/opie-and-anthony
+    type: caused-by
+    claim: "Dan's own 2022 account gives a second mechanism for the conversion this page dates: the O&A fanbase following Anthony Cumia rightward repelled part of the community leftward — 'we were radicalized to leftist politics' — which is the departure this page's arrival story never had."
   - page: wiki/self/twitter
     type: evidenced-by
     claim: "The share of original tweets touching politics roughly doubles into 2020 and again into 2021 under every pattern tried, bracketing the August 2020 self-narration from an independent record — while finer per-year claims proved unmeasurable by keyword matching and were withdrawn the day they were published."
@@ -179,6 +182,43 @@ pose: the new framework immediately turned back on his own inherited
 comfort. This is the "since I've been stuck inside" of lockdown
 ([[wiki/timeline/periods/covid-era-2020]]) doing the classic
 micro-radius-siege radicalization.
+
+## A second causal account, in his own words, from 2022
+
+This page's mechanism is media plus reading under lockdown: Chapo, Hasan,
+ContraPoints, then Marx and Kropotkin. That is what the 2020-08-22
+self-narration says, and it is well evidenced.
+
+Two years later he gave a **different** account of the same conversion, and it
+is not in this page. On **18 July 2022**, addressing Opie of
+[[wiki/interests/opie-and-anthony|Opie & Anthony]] directly:
+
+> *"something to consider - while many O&A fans followed Anthony down the
+> reactionary rabbit hole of white-grievance politics…a lot of the online
+> community were so repulsed by the racism and fascistic overtones that we
+> were radicalized to leftist politics (1/3)"*
+
+**"We were radicalized to leftist politics."** Same verb this page uses,
+different cause: not media he sought out, but a media community he already
+belonged to turning right, and repulsion doing the work.
+
+**The two accounts are compatible and should both be held.** Repulsion opens a
+vacancy; Chapo and Hasan fill it. The 2020 narration describes what he moved
+*to* and names the sources; the 2022 tweet describes what he was moving *from*
+and names the mechanism. The second is the half this page never had, and it
+matters because it reframes the conversion as partly a **departure from a
+prior tribe** rather than only an arrival at a new one — which is a different
+psychological event, with different predictions about how stable it is.
+
+It is also addressed to the host of the show himself, which makes it a
+considered statement rather than an aside.
+
+**The gap, and it is annoying.** The tweet is marked **(1/3)** and parts 2 and
+3 are **not in the archive** — no matching tweet exists anywhere in the 2,525
+originals. The most causally explicit thing Dan ever said in public about his
+own radicalization survives as its first third. The official X export would
+recover the rest; see [[wiki/self/twitter]] for the two other reasons that
+export is now wanted.
 
 ## The media pipeline (dirtbag left / BreadTube)
 

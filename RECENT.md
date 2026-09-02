@@ -24,6 +24,7 @@ simply listed.
 - **Session log:** ingest | people | the social graph, pass 2 — and an edge that was never actually written
 - **Session log:** ingest | interests/music | 2014 read in full — SLOPPP was an operating practice, and two named gaps close
 - **Session log:** ingest | work/tech | one day of Codecademy in 2013, then thirteen years of nothing
+- **Session log:** ingest | people | 2009 read in full — an operator testimony corroborated, and my own error corrected
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -324,7 +325,7 @@ simply listed.
 |---|---|---|
 | [[wiki/people/emaly-minerd]] | people | — |
 | [[wiki/people/trinity-st-clair]] | people | — |
-| [[wiki/self/concepts/chatgpt]] | self | **GAP CLOSED** — The operator, T0: *"Read the old pre gpt5 threads to understand the lead up to the release."* This page was written on 2026-08-19 without them. Its `sources:` listed Gemini's activity log, two dox fil |
+| [[wiki/self/concepts/chatgpt]] | self | _(carries a GAP CLOSED from 2026-09-02)_ |
 | [[wiki/self/concepts/llm]] | self | **CORRECTED** — this section previously presented all three bullets below as *"his analysis."* They are **Gemini's**, generated in the 2025-08-24 session from Dan's five-word prompt *"gemini i think chatGPT is cooked |
 | [[wiki/self/concepts/wiki-brain]] | self | **RE-CHECKED** — llm moved on 2026-08-21: Gemini's 'chicken nugget' passage was corrected off Dan's ledger, and the post-GPT-5 causation of ChatGPT's decline was marked untested. This page carries an edge claiming Cha |
 | [[wiki/work/au-zaatar]] | work | _(carries a REVISED from 2026-07-14)_ |

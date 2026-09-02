@@ -7997,3 +7997,60 @@ commute of at least three round trips in ten weeks; *"retire by 25"* and
 20 (22 October); Seven Springs with Alexis on 22 and 27 December; and the
 Full Sail rooms named directly — *"I'm in the control24 rooms right now. PT1
 bitch"* (24 November).
+
+## [2026-09-02] ingest | self/mind/interests | 2022 read in full — a stated gap closed, an account older than its record, and a second radicalization mechanism
+
+156 originals read tweet by tweet.
+
+**`wiki/self/concepts/chatgpt` closed its own stated gap.** It carried the
+operator's account that he *"used the very first public release of chatGPT,"*
+having got a beta code for the first DALL-E release, and said flatly: *"The
+DALL-E provenance is testimony alone and is not checkable in this corpus."*
+It is checkable now. On **8 September 2022** — three months before ChatGPT
+launched — four tweets in fourteen minutes: *"I ran the image of what is
+supposed to be a historically accurate Jesus through #dalle2 for 3
+variations…"*, then a direct `@openai` query about whether the result was
+mechanism or coincidence, then *"Full screen recording of the process."*
+Hands-on use of the **image-variations** operation, which is DALL-E 2 and not
+the free DALL-E mini.
+
+Bounded on the page: this corroborates the DALL-E half, not the *beta code*
+or the claim that the same code produced GPT access — nothing in the tweets
+says how he got in, and the fourth tweet's hashtags mix two products. The
+behaviour is the better find than the provenance: **the first thing he did
+with a generative model was run an adversarial test on it**, feeding it a
+historically-grounded image to see whether it would collapse to the culturally
+standard one. That is `instrument-is-subject` performed on day one, years
+before the vocabulary existed here.
+
+**The account is thirteen months older than its record.** 24 September 2022,
+under Twitter's own generated tag: *"14 years of pointless nothingness but at
+least I got the @danfrank handle #MyTwitterAnniversary."* Fourteen years back
+is **September 2008**, against an archive that starts 2009-10-20. The hub's
+"2009-origin" framing describes the record, not the account. `date_range_start`
+stays at the first tweet held; the year before it is unrepresented, and whether
+that is silence or unrecovered scrape is open. Third reason to want the
+official X export.
+
+**A second causal account of the 2020 left turn, in his own words.**
+`2020-left-turn` attributes the conversion to Chapo/Hasan/ContraPoints plus
+lockdown reading. On 18 July 2022, to Opie directly: *"while many O&A fans
+followed Anthony down the reactionary rabbit hole of white-grievance
+politics…a lot of the online community were so repulsed by the racism and
+fascistic overtones that we were radicalized to leftist politics (1/3)."*
+Same verb, different cause — not media sought out but a community he belonged
+to turning right, with repulsion doing the work. The two are compatible and
+both are now held: the 2020 narration says what he moved *to*, this says what
+he moved *from*. It reframes the conversion as partly a **departure from a
+prior tribe**, which has different stability predictions.
+
+**Gap:** the tweet is marked **(1/3)** and parts 2 and 3 are not in the
+archive. His fullest public statement about his own radicalization survives as
+its first third.
+
+Also written to `opie-and-anthony`: the fanbase split, his side of it, the
+subreddit membership, and a dated move away from comedy's free-speech
+absolutism on 28 March 2022 — *"I've moved away from belief in comedy's
+absolutist defense of free speech ('it's just a joke')"* — which is the exact
+doctrine that show ran on, though he defends the Rock joke in the same thread
+and warns against "wokescoldery", so it is a shift and not a conversion.

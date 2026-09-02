@@ -62,6 +62,7 @@ this is the state of the thing.
   - ingest | people | the social graph, pass 2 — and an edge that was never actually written
   - ingest | interests/music | 2014 read in full — SLOPPP was an operating practice, and two named gaps close
   - ingest | work/tech | one day of Codecademy in 2013, then thirteen years of nothing
+  - ingest | people | 2009 read in full — an operator testimony corroborated, and my own error corrected
 
 **2026-09-01** — 2 pages
 

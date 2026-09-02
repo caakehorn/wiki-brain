@@ -21,6 +21,10 @@ sources:
   - "raw/self/dox-scan/Fresh perspective and research needed.txt"
   - "raw/self/twitter/tweets_sample_2019-2026.txt"
 connections:
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "Four tweets on 8 September 2022 document hands-on DALL-E image-variation use three months before ChatGPT launched, closing this page's stated gap that the DALL-E half of the operator's origin account was 'not checkable in this corpus'."
+
   - page: wiki/self/concepts/llm
     type: instantiates
     claim: "ChatGPT is the early-adopter model, first used 2022-12-10 — ten days after launch. Dan's 'cooked' verdict is real but its post-GPT-5 causation is untested: the 375-thread export ends 2025-07-01, five weeks before the release, and within it refusals run 5 of 1,599 with zero before April 2025."
@@ -88,8 +92,47 @@ exactly the evidence a guardrail claim needs and it is invisible to a
 corroborates the operator's separate T0 account (`raw/self/captures/2026-08-19_162720_gap-chatgpt.md`)
 that he *"used the very first public release of chatGPT,"* having obtained a
 beta code for the first DALL-E release that also got him one for GPT. The
-DALL-E provenance is testimony alone and is not checkable in this corpus;
-the December 2022 start date is primary and holds. The first eleven threads
+December 2022 start date is primary and holds.
+
+> **GAP CLOSED [2026-09-02]:** the gap, as this page stated it — *"The DALL-E
+> provenance is testimony alone and is not checkable in this corpus."* It is
+> checkable now. On **8 September 2022**, three months before ChatGPT
+> launched, Dan posted four tweets in fourteen minutes about running an image
+> through DALL-E himself:
+>
+> > *"I ran the image of what is supposed to be a historically accurate Jesus
+> > through #dalle2 for 3 variations. I ended up with a result looks exactly
+> > like the typical portrayal of Jesus. I'm curious if this can be explained
+> > by the way functions or if it's a weird coincidence"* (02:40 UTC)
+>
+> Then, tagging `@openai` directly: *"Expecting that there's an infinitely
+> small chance that this isn't easily explained by someone who understands the
+> code but oh man am I hoping that this is a really weird anomaly. Is this the
+> new jesus toast?"* (02:48), followed by *"Full screen recording of the
+> process"* (02:50).
+>
+> **What this establishes.** He had hands-on access to image generation in
+> early September 2022 and was using the **image-variations** operation —
+> upload an image, request variants — which is a DALL-E 2 feature, not
+> something the free DALL-E mini did. He documented the session on video. The
+> testimony's DALL-E half is therefore corroborated from a contemporaneous
+> first-party source, three months ahead of the GPT record this page opens
+> with.
+>
+> **What it does not establish.** Whether the access was a *beta code*
+> specifically, and whether that code was the one that produced GPT access,
+> are still testimony — nothing in the tweets names how he got in. And the
+> fourth tweet's hashtags (`#dalle #dallemini #openai`) mix two different
+> products, so the tag set alone proves nothing; it is the described operation
+> that identifies which tool he was in.
+>
+> The behaviour is also the more interesting corroboration than the
+> provenance. The first thing he did with a generative model was **run an
+> adversarial test on it** — feeding it a historically-grounded image to see
+> whether the model would collapse back to the culturally standard one, then
+> asking publicly whether the result was mechanism or coincidence. That is the
+> same move [[wiki/mind/synthesis/instrument-is-subject]] documents at length,
+> performed on day one and years before the vocabulary for it existed here. The first eleven threads
 are puns, voice-over rewrites and a video-essay draft — the bootloader work
 this page calls foundational is nowhere in the origin period.
 
