@@ -14,8 +14,8 @@ chart:
   series:
     - name: "Entries"
       points:
-        "Translated": 27
-        "Major lane": 18
+        "Translated": 28
+        "Major lane": 17
         "Free lane": 42
         "Held (people)": 93
         "Too thin": 50
@@ -43,10 +43,10 @@ This page is the campaign to write one for every entry.
 
 | | |
 |---|---|
-| Entries with a plain-English edition | **27** |
+| Entries with a plain-English edition | **28** |
 | Entries eligible for one | 256 |
 | Withheld under the standing directive | 216 |
-| Coverage | 10.5% |
+| Coverage | 10.9% |
 
 ## The two lanes
 
@@ -56,7 +56,7 @@ is arithmetic in `bin/wiki-plain`: 900 words is the boundary.
 
 | Lane | What is in it | Outstanding |
 |---|---|---|
-| `major` | entries of 900 words or more — the dense findings | 18 |
+| `major` | entries of 900 words or more — the dense findings | 17 |
 | `free` | entries under 900 words, worked smallest first | 42 |
 
 A further **93** eligible entries about other people are in
@@ -100,6 +100,7 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 - [[wiki/mind/synthesis/the-cato-seat|The Cato Seat]]
 - [[wiki/mind/synthesis/the-embedded-objective|The Embedded Objective]]
 - [[wiki/mind/synthesis/vertical-authority-skepticism|Vertical Authority Skepticism]]
+- [[wiki/self/youtube-watch-history|YouTube Watch History (2007–2026)]]
 - [[wiki/timeline/events/franki-fireworks-day-2013|The Franki Fireworks Day (early July 2013)]]
 - [[wiki/timeline/events/teen-concert-years|Concert Record (2001–2019)]]
 - [[wiki/work/creative-license|Creative License (NYC, 2011–2012)]]
@@ -107,13 +108,13 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 
 ## Next up
 
-**major** — 18 outstanding
+**major** — 17 outstanding
 
-- [[wiki/self/youtube-watch-history]] (3226 words)
 - [[wiki/self/lineage/family-tree]] (3197 words)
 - [[wiki/self/concepts/ally-and-dan-love-as-destiny]] (2941 words)
 - [[wiki/self/lineage/23andme-genomics]] (2794 words)
 - [[wiki/interests/language/vocabulary-lexicon]] (2762 words)
+- [[wiki/mind/profile/big-five-psychometrics]] (2350 words)
 
 **free** — 42 outstanding
 
