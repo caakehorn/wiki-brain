@@ -8,8 +8,10 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-02 — 42 pages
+## 2026-09-02 — 44 pages
 
+- **Session log:** adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
+- **Session log:** build | meta | the wiki has been checking his testimony for months and throwing away every result
 - **Session log:** ingest | self | @danfrank twitter archive as yearly pages
 - **Session log:** build | plain | two writing lanes, a floor that had to be measured, and a campaign page
 - **Session log:** translate | interests | favorites/eclecticism
@@ -28,6 +30,7 @@ simply listed.
 - **Session log:** ingest | self/mind/interests | 2022 read in full — a stated gap closed, an account older than its record, and a second radicalization mechanism
 - **Session log:** ingest | mind | "conspiracy crank" is a label his own behaviour contradicts
 - **Session log:** ingest | interests/self | 2024 read in full — the Roman interest starts on YouTube, and the account's peak is one evening
+- **Session log:** ingest | self | the backend backfill — a first year recovered, and a published lean corrected
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -35,9 +38,11 @@ simply listed.
 | [[wiki/interests/music/overview]] | interests | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/interests/video-games]] | interests | — |
 | [[wiki/meta/digest]] | meta | — |
+| [[wiki/meta/index]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/readers-digest]] | meta | — |
 | [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
+| [[wiki/meta/testimony-veracity]] | meta | — |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | **CORRECTED** — An earlier version of this section claimed the archive showed **two steps, not one** — a first step in 2017 (4.0% → 11.1%, "nearly tripling") separating *political engagement* from *socialist identity |
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
 | [[wiki/people/alexis-armel]] | people | **CORRECTED** — this paragraph first read *"four months in."* That was wrong and it understated the finding. The operator capture of 2026-08-27 dates the meeting to **Thanksgiving 2009** (26 November); the tattoo is  |
@@ -94,7 +99,7 @@ simply listed.
 | [[wiki/health/intake-ledger]] | health | — |
 | [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — cocaine and chemical-architecture both gained the intake ledger's first measured night (2026-08-30/31: one 0.75 g cocaine unit over 9h 31m in six doses, three 0.05 g cannabis units; the unit reconcile |
 
-## 2026-08-30 — 2 pages
+## 2026-08-30 — 1 page
 
 - **Session log:** build | meta | the skills section was a contract with no counterparty
 - **Session log:** tool | health | the intake ledger — `bin/intake`, `intake/`, Special:Intake
@@ -104,7 +109,6 @@ simply listed.
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/meta/index]] | meta | — |
 | [[wiki/meta/skills]] | meta | — |
 
 ## 2026-08-28 — 34 pages

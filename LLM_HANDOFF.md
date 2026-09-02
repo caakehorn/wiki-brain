@@ -4,6 +4,71 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-02] - Session: the operator testimony veracity ledger (Claude Opus 5)
+
+* **Branch:** `claude/operator-testimony-trust-score-55viga` · gates green · 367 tests pass.
+* **Trigger:** operator — *"develop an 'operator testimony' veracity program where when my testimonies are proven true or false i am given or lose points towards a trust score that looks at what and how I got right or wrong to better analyze future and current unproven testimony input."*
+
+**Built `bin/wiki-testimony` + `testimony/` + `wiki/meta/testimony-veracity.md`
++ an `ADJUDICATE` operation in `CLAUDE.md` + a gate in `bin/wiki-check`.**
+
+**The premise.** `GAP CLOSED` on 37 pages, `CONTRADICTION` on 53, corroboration
+language on 135 — every one an adjudication of a first-person claim, none of
+them reachable from any other page. The corpus was checking his testimony
+constantly and keeping none of the results. This is the missing half of CLOSE.
+
+**Two numbers, not one.** *Veracity* (how often right) and *calibration*
+(whether his stated confidence tracks it). Only the second makes an unproven
+claim assessable, which is the thing the operator actually asked for.
+
+**Standing state: veracity 48/100 over n=5 settled, Wilson 12–77%.** Six of the
+eleven seeded records are `unfalsifiable` and score zero. That is the honest
+headline — **the corpus can rarely check him** — and it is exactly the number
+that should not be read as "he is 48% honest".
+
+**What the seed set cannot do, and what fixes it:**
+
+1. **The `confidence` values are inferred**, read from how each page reports the
+   assertion, because nobody recorded them at the time. **Every record made from
+   here on should capture confidence at the moment of assertion** — the whole
+   calibration half runs on that field, and it is the one thing no amount of
+   later archaeology can recover. `bin/wiki-gaps` is the natural place to ask.
+2. **n=5 settled is a reading, not a result.** No class is above `MIN_N`, so
+   `assess` currently falls back to the global rate for everything and says so.
+   The ledger becomes useful at roughly 30 settled claims.
+3. **The fastest way to n=30 is the existing corpus.** 37 `GAP CLOSED` blocks,
+   53 `CONTRADICTION` blocks and 135 pages with corroboration language were
+   surveyed but only ~15 read closely. Most are wiki-derived numbers rather than
+   his testimony — the discipline that matters is **never scoring a wiki error
+   against him** — but there is real signal left in them.
+
+**Next, in value order:**
+1. **Mine the remaining `GAP CLOSED` / `CONTRADICTION` blocks for adjudications.**
+   `grep -rn -A6 "GAP CLOSED" wiki/` is the seam. Check provenance on each: if it
+   came from `raw/**/captures/` or a `[MEM]` line it is testimony; if it came from
+   a derived count it is a wiki error and must not be recorded.
+2. **Wire `ADJUDICATE` into the CLOSE habit.** Every `bin/wiki-gaps clear` should
+   be followed by a `bin/wiki-testimony record`. Nothing enforces this yet, and a
+   good candidate for the next mechanical step is making `wiki-gaps clear` print
+   the reminder — or surfacing unrecorded closes as a `bin/wiki-work` obligation.
+3. **The `date` class is the one to fill first.** t002 is currently the only
+   settled date claim and it came back **56 days early** with `displacement` +
+   `rounding`. If that direction replicates across four more, it becomes a
+   subtractable bias — the single most useful thing this ledger could produce.
+4. **`--subject other` is nearly empty.** Claims about other people's states and
+   motives are a different task with a different error profile, and the split is
+   built but unpopulated.
+
+**A repo defect fixed on the way out.** `bin/wiki-plain report` writes
+`wiki/meta/readers-digest.md` and `wiki-plain check` gates on it, but the
+generator was absent from `bin/wiki-check`'s `GENERATE` list — so any pass adding
+a wiki page turned that gate red, pointing at a file it is told never to
+hand-edit. Added above `wiki-digest`. Rule in `skills/INBOX.md`.
+
+**Not done, deliberately:** the 102 obligations in `WORK.md` (94 stale premises,
+8 skill candidates) are untouched. They were untouched at session start and this
+session added no stale premises — the new page has no dependents. The stale-premise
+cascade is a reading job and the right shape for a dedicated housekeeping pass.
 ### [2026-09-02] - Session: tweet mining COMPLETE — every year 2009-2026 read (Claude Opus 5)
 
 * **Branch:** `claude/mine-tweets-wiki-brain-zi6nue` · **PRs:** #239, #240, #241 merged; pass 4 open.

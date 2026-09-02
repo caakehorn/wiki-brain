@@ -1,3 +1,100 @@
+## [2026-09-02] adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
+
+**First record made by the ADJUDICATE operation rather than reconstructed from
+one.** The operator capture of 2026-08-27 dated the Alexis meeting to a
+Thanksgiving trip home, two nights, and *"a week or two after that he buys her a
+one-way ticket to Orlando."* It was integrated on 2026-08-28 — **before the
+tweet archive was in this repository** — so nothing checked it. The 2009 read on
+2026-09-02 checked it and it holds: in PA 25–30 Nov (*"cookies, water, beer,
+wine, and her."*), first @alexisarmel tweet 14 Dec from Orlando (*"you amaze me.
+can't believe you're real"*), about two and a half weeks later.
+
+**Recorded as t012, confirmed on `first_party_record`.** Veracity moves 48 → 57
+over n=6, and `date` becomes the first class with two settled claims — one
+refuted 56 days early, one confirmed. That is not yet a bias; it is the first
+two points of one.
+
+**What the same capture's other half shows, and why it stays unfalsifiable.**
+The Roxicet, Spetch, the ticket as a purchase and the Clingan accusation appear
+in no tweet. t007 already carries the accusation as `unfalsifiable` and it
+stands. **One capture, two halves, two different evidentiary standings** — which
+is the granularity this ledger exists to hold and a page-level "corroborated"
+stamp cannot.
+
+## [2026-09-02] build | meta | the wiki has been checking his testimony for months and throwing away every result
+
+**What was wrong.** `CLAUDE.md`'s CLOSE operation says the right thing about
+first-person testimony — it is T0, it is not proof, and where it can be checked
+against `raw/` it must be. The wiki has been doing exactly that. `GAP CLOSED`
+appears on 37 pages, `CONTRADICTION` on 53, corroboration language on 135. Every
+one of those is an adjudication of a claim, and **not one of them is reachable
+from any other page.** The result lands as a blockquote where the check happened
+and stops there. Page 41 has no way to know that the same person's date claims
+came back eight weeks early on page 12, so the next answer is weighed exactly as
+credulously as the first. The corpus was accumulating evidence about its own
+most valuable and least verifiable source class and discarding all of it.
+
+**Built: `bin/wiki-testimony`**, `testimony/` (append-only JSONL + projection +
+`SUMMARY.md`), `wiki/meta/testimony-veracity.md` (generated, public), 27 tests,
+a gate in `bin/wiki-check`, and an `ADJUDICATE` operation in `CLAUDE.md`.
+
+**Two numbers, because one would have been a lie.** A single trust score
+collapses *how often he is right* with *whether his confidence tracks it*, and
+only the second makes an **unproven** claim assessable — an unproven claim
+offers nothing to check except the class it belongs to and the confidence it
+arrived with. A person right 70% of the time who hedges on exactly the wrong 30%
+is fully reliable; a person right 90% of the time who says "definitely" about all
+of it is more accurate and less usable.
+
+**Seeded from eleven adjudications the wiki had already made**, every one cited
+to the page or capture it came from:
+
+| | claim | outcome |
+|---|---|---|
+| t001 | the hospital paperwork was a real criminal charge | **confirmed** — docket MJ-14101-NT-0000082-2018, filed 4/5/2018 |
+| t002 | moved to Brooklyn 3 Jan 2010 (Facebook `places lived`) | **refuted** — in Florida through 28 Feb; displacement + rounding, **56 days early** |
+| t003 | Fran was "about 97 or 98" | **confirmed** — 97; the hedged range contained the truth |
+| t006 | Suz in the room, him in the bathroom, April 2018 | **self-contradicted** — his own vigil account inverts both positions |
+| t009 | the six tattoos he named on 2026-07-14 | **partial** — two missing, including the first; *but he flagged the list incomplete and the flag was right* |
+| t004/5/7/8/10/11 | six more | **unfalsifiable** — checked, corpus silent |
+
+**Standing state: veracity 48/100 over n=5 settled, Wilson 12–77%.** That
+interval is the finding. Six of eleven records are unfalsifiable and score
+nothing, which is the correct treatment and also the honest headline: **the
+corpus can rarely check him.**
+
+**Three things the design refuses to do, and each is load-bearing.**
+*`unfalsifiable` scores zero, never negative* — punishing him for the archive's
+gaps would make the number a measure of the corpus, and would make honest
+recording of a hard claim costly. *A miss must name its failure mode and its
+slant* (`check` fails without both, and `neutral` must be given rather than
+assumed) — without those columns this is a tally, and a tally predicts nothing.
+*An adjudication is superseded, never edited* — a veracity record that can be
+quietly rewritten is worth less than none.
+
+**Every rate carries its `n`**, class rates shrink toward the global with a
+pseudocount of 3, Wilson intervals replace bare percentages, and a class under
+`MIN_N=5` is refused as a prior outright rather than quoted. This is
+`bin/intake`'s coverage-share discipline, applied to a smaller sample that needs
+it more.
+
+**The sample is filtered and the page says so.** The standing directive excludes
+at least one cleanly adjudicated confirmation — an April 2019 sequence the
+operator supplied that a direction-reliable dump then corroborated to the minute.
+The exclusion is correct; it is still a bias, and a score drawn from a filtered
+record that does not announce the filter is worse than no score. The moratorium
+is enforced as a refusal in `record` and `check`, not as something a session has
+to remember.
+
+**A defect found on the way out.** `bin/wiki-plain report` writes
+`wiki/meta/readers-digest.md` and `bin/wiki-plain check` gates on it, but the
+generator was not in `bin/wiki-check`'s `GENERATE` list — so **any** pass adding
+or removing a wiki page turned that gate red, naming a file the session is told
+never to hand-edit and no step in the chain regenerates. Added to `GENERATE`
+above `wiki-digest`, with the three other page-writers. `skills/INBOX.md` carries
+the general rule: the set of generators in `GENERATE` and the set of generated
+artifacts checked in `GATE` must be the same set.
+
 ## [2026-08-30] build | meta | the skills section was a contract with no counterparty
 
 **What was wrong.** `skills/` merged earlier today (PR #221) as seven markdown

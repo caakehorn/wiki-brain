@@ -44,9 +44,9 @@ This page is the campaign to write one for every entry.
 | | |
 |---|---|
 | Entries with a plain-English edition | **28** |
-| Entries eligible for one | 275 |
+| Entries eligible for one | 276 |
 | Withheld under the standing directive | 217 |
-| Coverage | 10.2% |
+| Coverage | 10.1% |
 
 ## The two lanes
 
