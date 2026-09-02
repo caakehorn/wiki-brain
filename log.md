@@ -7421,3 +7421,70 @@ pages behind on 2026-08-20, arriving from a new direction.
 is deterministic across runs, that a hand-edit is a red gate, that a missing
 page warns rather than fails, and that no per-day *value* ever reaches it.
 Gates: `bin/wiki-check` all clean, 473 pages.
+
+## [2026-09-02] build | plain | two writing lanes, a floor that had to be measured, and a campaign page
+
+**The Reader's Digest layer had one queue and two writers.** `bin/wiki-plain
+next` ranked every eligible untranslated page by word count and offered the top
+of that list to whoever asked. With a strong model and a weak unattended one
+both working the backlog, that hands them the same page — and `PLAIN_AGENT.md`,
+the operating manual for the weak one, opened with `task --synthesis`, pointing
+it at precisely the densest findings a weak model should never be given.
+
+**The lanes are arithmetic now, not a convention.** `major` is 900 words and up,
+densest first; `free` is 300–899, **smallest first**. Disjoint by construction,
+so neither writer checks what the other is doing. `--lane` refuses an
+out-of-lane page the same way the moratorium refuses one, because a lane that
+only advises is not a lane: an agent told "free lane" and handed a 4,900-word
+synthesis will attempt it.
+
+**The floor is the part that had to be measured rather than chosen.** Ordering
+the free lane smallest-first walked straight into
+`interests/favorites/books/topics/war` — sixteen words, one sentence, `status:
+archived` — then a run of concert records that are a date, a venue and a lineup
+table. A one-sentence entry translated is the same sentence; a table is already
+plain. Neither carries falsifiers, so `audit`'s honest-half rule fails every
+attempt and the agent burns its three tries on a page nobody wanted. 300 sits
+below every twin that has worked here (the shortest is 393 words) and above the
+point where entries stop being arguments. It costs the free lane 62 of its 106
+pages, deliberately.
+
+Also out of both lanes: `people/` (93 pages — the moratorium protects one living
+person by name and the rest have no guard, so they wait for a decision rather
+than for a free run), generated `page_type: dataset` pages, `page_type: index`,
+and `status: archived`. All four reasoned out in `plain/DECLINED.md`, and all
+four **counted** on the new campaign page rather than dropped — an entry nobody
+will translate and an entry nobody has got to must not look the same.
+
+**`bin/wiki-plain report` and `wiki/meta/readers-digest`.** Coverage, both lanes,
+what is held back, and who wrote each twin — attributed from the git log by the
+last commit to touch the file, so there is no ledger to maintain and an agent
+that forgets to report has still reported. Generated: a hand-edit fails `check`.
+It says so and withholds the writer column in a shallow clone rather than
+publishing a number the log cannot support.
+
+**Two defects found by writing it.**
+
+`REPORT_PAGE` was a module constant computed from `WIKI` at import. The tests
+rebind `WIKI` to a temp tree, so the drift check read the *real* corpus's page
+while checking a throwaway one — four unrelated tests went red, and the same
+bug would have fired for anything else driving the module. Resolved per call
+now (`report_page()`), pinned by a test.
+
+The report counted itself. It is a page in `wiki/` like any other, so writing it
+changed the page count, which changed what it should say, which failed the drift
+check on the very next run — a generator that cannot reach a fixpoint. It now
+excludes its own path from its figures, the same reasoning `bookkeeping()`
+already applies one tree over. Two tests pin it: the render is unchanged by the
+file existing, and writing twice is byte-identical.
+
+**One pre-existing defect, unrelated and fixed in passing.** `bin/wiki-check` was
+mode `100644` in git — the repository's primary command, the one `CLAUDE.md`
+puts at the top of "before every commit", was not executable and had to be run
+as `python3 bin/wiki-check`. Its own test (`test_wiki_check.TestContract.
+test_is_executable`) had been failing on `main`. Restored with `git
+update-index --chmod=+x`.
+
+18 tests added (340 in the suite). Gates: `bin/wiki-check` all clean, 474 pages.
+Coverage unchanged at 25 — this pass moved no content, only the machinery that
+decides who writes what next.

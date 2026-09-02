@@ -15,7 +15,7 @@ The compiled second brain. Start here; each domain has its own index.
 | health | Physical and mental health history | 5 | [[wiki/health/index]] |
 | places | Homes, cities, significant locations | 9 | [[wiki/places/index]] |
 | legal | Disputes, property matters, legal history | 3 | [[wiki/legal/index]] |
-| meta | The wiki describing itself: on-site reading-aid mirrors, curated journeys, the cross-model skills database | 7 | [[wiki/meta/index]] |
+| meta | The wiki describing itself: on-site reading-aid mirrors, curated journeys, the cross-model skills database, the plain-edition campaign | 8 | [[wiki/meta/index]] |
 
 Governance: [STRATEGY.md](STRATEGY.md) — purpose and the core loop · [CLAUDE.md](CLAUDE.md) — the operations · [EXTRACTION_SPEC.md](EXTRACTION_SPEC.md) — how deep to mine a source · [STYLE_GUIDE.md](STYLE_GUIDE.md) — page format · [CONNECTIONS_SPEC.md](CONNECTIONS_SPEC.md) — typed edges · [SYNTHESIS_SPEC.md](SYNTHESIS_SPEC.md) — altitude
 
