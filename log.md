@@ -7980,3 +7980,248 @@ see a *practice*, only a *subject*. The difference between hobby and operation
 is in what the sentences do — announce, solicit, compete, thank — not in their
 vocabulary. `vocabulary-drift` says a count under-reports; this says a count
 can be perfectly accurate and still miss the finding entirely.
+
+## [2026-09-02] ingest | work/tech | one day of Codecademy in 2013, then thirteen years of nothing
+
+**The wiki had zero coverage of Dan ever attempting to program before 2026.**
+The archive has exactly one trace: Codecademy auto-posted twice to his account
+on **19 February 2013** — *"50 points earned in one day"* at 19:17 UTC and
+*"75 points earned in one day"* at 23:33 — four hours apart, escalating, on a
+single day.
+
+**Then nothing.** No further Codecademy post and no reference to writing,
+running or debugging code anywhere in 2,525 originals across the next thirteen
+years, until **31 May 2026**: *"the app i built with the new Grok CLI coding
+agent to auto-respond on iMessage… had just spent about 5 hours mass-spam
+texting garbled unicode to my ex girlfriend. so it actually outperformed what i
+had asked it to build."*
+
+Stated on the page: this documents **one day of Codecademy**, not one day of
+study followed by quitting. The badges are auto-posts, and a feature switched
+off looks identical to a habit that stops. What can be said is that an account
+which carried his production, politics and friendships in detail across the
+same span carried nothing about code between those two dates.
+
+Filed at the top of `wiki/work/tech/index` — a 288-word stub with empty
+`sources:` — because it is the prehistory of every project listed below it.
+February 2013 sits four months before the Uniontown return, in the same
+stretch as the O&A internship application and the SLOPPP genesis: a period of
+trying several doors. **The door that opened in 2026 opened because the skill
+stopped being a prerequisite.** Every project on that index was built by
+directing a model rather than by acquiring the capability attempted in 2013 —
+the one case in the corpus where the constraint was removed rather than
+overcome.
+
+**`failure-to-launch` corrected.** It stated *"no release figures, no platform
+links and no streaming numbers anywhere in the corpus."* The middle term is
+false — the archive carries a SoundCloud link for essentially every 2014
+release. Play counts and revenue are still absent, so the outer terms and the
+conclusion stand.
+
+But the conclusion needed a **harder** version, not a softer one. 2014 was a
+year of competitive outward shipping — monthly releases, two mix series, a
+Beatport contest entry with vote canvassing, a public collaboration address,
+tracks emailed to other DJs, live streams, named producer support. Shipping is
+the exact bottleneck that page identifies. So the finding is not that he never
+shipped: **he shipped for a year, and the absence of audience is what the
+shipping bought him.** The constraint survived being directly attacked for
+twelve months, which is a worse result than never trying and a more precise
+one.
+
+## [2026-09-02] ingest | people | 2009 read in full — an operator testimony corroborated, and my own error corrected
+
+2009 (165 originals, 20 October – 31 December) read tweet by tweet.
+
+**The operator capture of 2026-08-27 checks out against a contemporaneous
+record it was never tested against.** That capture — integrated 2026-08-28,
+before the tweet archive existed here — dated the Alexis meeting to a
+**Thanksgiving 2009** trip home, two nights together, and *"a week or two
+after that he buys her a one-way ticket to Orlando."* It is T0 testimony given
+seventeen years after the events. The tweets confirm every load-bearing
+element and date the sequence to the day:
+
+- **25–30 Nov 2009** — in PA; *"cookies, water, beer, wine, and her."* (29th),
+  *"watching the game with someone special"* / *"I miss her already"* /
+  *"going home...but things are different now"* (30th). "Her", unnamed.
+- **14 Dec 2009** — the **first `@alexisarmel` tweet ever**, *"you amaze me.
+  can't believe you're real"*, alongside *"dan in love."* In Orlando, about
+  two and a half weeks later — exactly the shape of "a week or two after."
+- **16 Dec** — *"i have the most amaaaazing girlfriend"*, first use of the word.
+- **20 Dec** — the drive to PA. **25 Dec** — *"d&a's first christmas."*
+- **30 Dec** — *"our trip was saved entirely by @alexisarmel"*: she returned to
+  Florida with him, answering the Christmas nervousness the capture describes.
+
+The account carried the relationship publicly for a fortnight before it
+carried her name. **What the tweets do not corroborate is stated too:** the
+Roxicet, Spetch, the ticket as a purchase and the Clingan accusation appear
+nowhere in them, and that half still rests on testimony alone.
+
+**A correction to this session's own work.** Earlier today I wrote on
+`wiki/self/tattoos` and `wiki/people/alexis-armel` that the "A" tattoo of 23
+January 2010 came *"four months into the relationship."* Wrong. They met at
+Thanksgiving — **26 November 2009** — so it is **eight weeks**. Both pages
+corrected. The error understated the finding: the initial is permanent before
+they have known each other two months, and he leaves the state for her five
+weeks after that.
+
+**Also in 2009, unmined and not yet written up:** the account opens 20 October
+2009 (*"packing/getting house in order"*); a documented Orlando↔Pennsylvania
+commute of at least three round trips in ten weeks; *"retire by 25"* and
+*"country club status. bloated sense of self worth."* on the same day at age
+20 (22 October); Seven Springs with Alexis on 22 and 27 December; and the
+Full Sail rooms named directly — *"I'm in the control24 rooms right now. PT1
+bitch"* (24 November).
+
+## [2026-09-02] ingest | self/mind/interests | 2022 read in full — a stated gap closed, an account older than its record, and a second radicalization mechanism
+
+156 originals read tweet by tweet.
+
+**`wiki/self/concepts/chatgpt` closed its own stated gap.** It carried the
+operator's account that he *"used the very first public release of chatGPT,"*
+having got a beta code for the first DALL-E release, and said flatly: *"The
+DALL-E provenance is testimony alone and is not checkable in this corpus."*
+It is checkable now. On **8 September 2022** — three months before ChatGPT
+launched — four tweets in fourteen minutes: *"I ran the image of what is
+supposed to be a historically accurate Jesus through #dalle2 for 3
+variations…"*, then a direct `@openai` query about whether the result was
+mechanism or coincidence, then *"Full screen recording of the process."*
+Hands-on use of the **image-variations** operation, which is DALL-E 2 and not
+the free DALL-E mini.
+
+Bounded on the page: this corroborates the DALL-E half, not the *beta code*
+or the claim that the same code produced GPT access — nothing in the tweets
+says how he got in, and the fourth tweet's hashtags mix two products. The
+behaviour is the better find than the provenance: **the first thing he did
+with a generative model was run an adversarial test on it**, feeding it a
+historically-grounded image to see whether it would collapse to the culturally
+standard one. That is `instrument-is-subject` performed on day one, years
+before the vocabulary existed here.
+
+**The account is thirteen months older than its record.** 24 September 2022,
+under Twitter's own generated tag: *"14 years of pointless nothingness but at
+least I got the @danfrank handle #MyTwitterAnniversary."* Fourteen years back
+is **September 2008**, against an archive that starts 2009-10-20. The hub's
+"2009-origin" framing describes the record, not the account. `date_range_start`
+stays at the first tweet held; the year before it is unrepresented, and whether
+that is silence or unrecovered scrape is open. Third reason to want the
+official X export.
+
+**A second causal account of the 2020 left turn, in his own words.**
+`2020-left-turn` attributes the conversion to Chapo/Hasan/ContraPoints plus
+lockdown reading. On 18 July 2022, to Opie directly: *"while many O&A fans
+followed Anthony down the reactionary rabbit hole of white-grievance
+politics…a lot of the online community were so repulsed by the racism and
+fascistic overtones that we were radicalized to leftist politics (1/3)."*
+Same verb, different cause — not media sought out but a community he belonged
+to turning right, with repulsion doing the work. The two are compatible and
+both are now held: the 2020 narration says what he moved *to*, this says what
+he moved *from*. It reframes the conversion as partly a **departure from a
+prior tribe**, which has different stability predictions.
+
+**Gap:** the tweet is marked **(1/3)** and parts 2 and 3 are not in the
+archive. His fullest public statement about his own radicalization survives as
+its first third.
+
+Also written to `opie-and-anthony`: the fanbase split, his side of it, the
+subreddit membership, and a dated move away from comedy's free-speech
+absolutism on 28 March 2022 — *"I've moved away from belief in comedy's
+absolutist defense of free speech ('it's just a joke')"* — which is the exact
+doctrine that show ran on, though he defends the Rock joke in the same thread
+and warns against "wokescoldery", so it is a shift and not a conversion.
+
+## [2026-09-02] ingest | mind | "conspiracy crank" is a label his own behaviour contradicts
+
+159 originals from 2023 read tweet by tweet.
+
+**Dan calls himself a "conspiracy crank"** (10 February 2023) and spends
+leisure time on the material — *"I finally spent some time learning about the
+MLK assassination conspiracy"* (6 March). On a skepticism page that reads as a
+confirming detail. **The behaviour does not match the label.**
+
+In every documented case where he works a live conspiracy in public, he works
+it to a **resolution** and publishes the negative result. Nashville, 29 March
+2023, four tweets in one day: *"Dumb conspiracy. Shooter does not have Puma's
+on."* → *"Disappointed to announce that the 'Audrey Hale shoes' conspiracy is
+a bust."* → the camo-pattern claim rated *"only slightly more questionable"* →
+*"the pattern looks slightly different but not enough to rule out"*. He
+checked, reached a negative, published it, and hedged the residual rather than
+resolving it his own way. *Disappointed* is the operative word.
+
+**That is his most-read tweet in seventeen years — 114 likes against a career
+mean under 0.2**, roughly thirty times anything else. The second-widest (83)
+is the OceanGate line about Stockton Rush pitching the submersible for *"deep
+water fossil fuel extraction"* — class critique of a dead billionaire. Neither
+of the two tweets that actually reached anyone is conspiracy-spreading.
+
+**The costly case is Paul Pelosi, Oct–Nov 2022**, and it shows the skepticism
+is not partisan: he disbelieved the official account for a week while naming
+what it cost — *"It super sucks being (as far as I can tell) the only person
+not buying the Paul pelosi story who isn't a groyper maga shitlord"*, *"I'm
+just disgusted that sides have been drawn"* — and refused to convert doubt into
+a counter-narrative: *"What actually happened? I have absolutely zero idea."*
+
+Written to `vertical-authority-skepticism`: the disposition it documents toward
+*verticals* also runs on **official accounts of events**, and it is
+**falsifiable to him** — he states a suspicion, tests it, and publishes either
+way, including against his own side. The gap between the label and the
+behaviour is itself the finding; he uses "conspiracy crank" the way he uses
+*"as someone with no qualifications… I'm probably wrong"* (31 Jan 2022), as a
+pre-emptive discount on his own credibility. Falsifier stated: a documented
+case of him pushing a claim after his own check failed. The archive has none,
+and the private corpora have not been searched for it.
+
+**`wiki/mind/politics/axioms` gains a named decision procedure.** 10 October
+2023: *"Political positions are best formulated and checked with one test:
+what would Michael Brooks do?"* Brooks — Majority Report / TMBS, died July 2020,
+three weeks before the conversion narration — was internationalist,
+anti-imperialist and hostile to left sectarianism. It is the one documented
+authority a systematically anti-authority mind admits, and it is a dead man,
+which is the only form an authority can take without becoming a vertical. It
+also predicts the two positions that most separate Dan from his own tribe: the
+repeated criticism of Hasan Piker on foreign policy, and the refusal of a side
+in Israel–Gaza (*"shades of bad"*). Gap: nothing dates his exposure to Brooks
+before 2020, so whether Brooks shaped the conversion or supplied its
+articulation afterwards is open — `youtube-watch-history` could settle it.
+
+## [2026-09-02] ingest | interests/self | 2024 read in full — the Roman interest starts on YouTube, and the account's peak is one evening
+
+258 originals read. The archive is now **fully mined year by year**: 2009
+through 2026, every year read rather than counted.
+
+**`wiki/interests/roman-republic` calls 2024 a reading binge. Dan says the
+reading came second, and rates it lower.** 8 April 2024:
+
+> *"After I finished the @HistoriaCivilis Caesar/Octavian series, I started
+> devouring the 'essential' books about the late Roman Republic. The books are
+> wonderful, but none of them has come close to compiling the story in a way
+> that has pulled me in like videos with squares."*
+
+HistoriaCivilis animates Roman politics as coloured squares. The sequence is
+**video essay → books**, and the standard syllabus that page identifies
+(Holland → Goldsworthy → Parenti → Plutarch, nine titles, all rated 4 or 5)
+was assembled *after* the interest existed. Having read all of it he says none
+of it came close to the animation. That is a statement about his learning
+modality, not about the books.
+
+He also corroborates this page's own Parenti reading from an independent
+direction: *"Carlin does a wonderful job of presenting the proto-Marxian
+narrative that underlies the whole era"* (9 April) — he was tracking the class
+analysis under the Republic's collapse before Parenti made it the thesis.
+
+**That preference is the motivating fact behind
+`wiki/work/tech/ai-video-essays`**, and it is now written there. A YouTube
+channel beat nine books on a subject he cared enough about to read nine books
+on; eleven days earlier he praised a `@beatmastermatt` Iraq-war essay in the
+exact vocabulary that project's template uses. So the project is not admiration
+for a format in the abstract — it is an attempt to make the thing he learns
+best from. Which sharpens the absence: motivation documented, dated and
+strong, and still no script or video.
+
+**The account's densest day in seventeen years is 28 June 2024 — 23 originals,
+the Biden debate, live.** *"This is not SOTU Joe"* → *"It's joever"* → *"This
+is catastrophic"*, interleaved with a betting-market check and a pre-debate
+prediction he watched fail in real time. The top six days contain no birthday,
+no move and no relationship event; the only personal entry is the 2009
+Thanksgiving travel day on which he met Alexis. **The peak of a seventeen-year
+personal account is reactive** — a live event he was watching — and in the one
+mode this archive has ever rewarded.

@@ -14,7 +14,7 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 494 |
-| Pages touched in the last 14 days | 205 |
+| Pages touched in the last 14 days | 206 |
 | Pages reasoning from other pages (`synthesizes:`) | 78 |
 | Live contradictions | 43 |
 | Open gaps | 503 |
@@ -47,7 +47,7 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-09-02** — 42 pages
+**2026-09-02** — 43 pages
   - build | meta | the wiki has been checking his testimony for months and throwing away every result
   - ingest | self | @danfrank twitter archive as yearly pages
   - build | plain | two writing lanes, a floor that had to be measured, and a campaign page
@@ -62,6 +62,11 @@ this is the state of the thing.
   - lint | mind | withdrawing the "two steps" politics finding published four hours earlier
   - ingest | people | the social graph, pass 2 — and an edge that was never actually written
   - ingest | interests/music | 2014 read in full — SLOPPP was an operating practice, and two named gaps close
+  - ingest | work/tech | one day of Codecademy in 2013, then thirteen years of nothing
+  - ingest | people | 2009 read in full — an operator testimony corroborated, and my own error corrected
+  - ingest | self/mind/interests | 2022 read in full — a stated gap closed, an account older than its record, and a second radicalization mechanism
+  - ingest | mind | "conspiracy crank" is a label his own behaviour contradicts
+  - ingest | interests/self | 2024 read in full — the Roman interest starts on YouTube, and the account's peak is one evening
 
 **2026-09-01** — 2 pages
 

@@ -10,6 +10,10 @@ sources:
   - "raw/self/dox-md/Creating robust video essays from scripts.md"
 tags: [ai-collaboration, music-production, ideology]
 connections:
+  - page: wiki/interests/roman-republic
+    type: caused-by
+    claim: "The 2024 Roman binge is where Dan states the preference this project runs on — an animated YouTube series pulled him in as nine books on the same subject did not."
+
   - page: wiki/mind/synthesis/ai-collaborative-analysis
     type: instance-of
     claim: "Using an AI to stress-test his own hypothesis with real adoption data — and accepting the result flatly contradicted his premise — is a documented instance of the honesty-enforcement pattern applied to his own creative project, not just forensic or political material."
@@ -31,6 +35,37 @@ out on a technology they could easily be using. No script or published
 video is recorded anywhere in the corpus; this page documents the
 planning process itself, which is substantive enough to be worth
 tracking.
+
+## The preference this project runs on is documented, and it is not new
+
+This page describes a 2026 plan to make long-form video essays. The reason
+the format appeals has a dated first-party statement two years earlier, and it
+is unusually strong evidence because it comes at the *expense* of the medium
+Dan is otherwise most invested in.
+
+On **8 April 2024**, having just read the standard modern syllabus on the fall
+of the Roman Republic — Tom Holland, four Adrian Goldsworthy volumes, Michael
+Parenti, Plutarch, all rated 4 or 5
+([[wiki/interests/roman-republic]]) — he wrote:
+
+> *"After I finished the @HistoriaCivilis Caesar/Octavian series, I started
+> devouring the 'essential' books about the late Roman Republic. The books are
+> wonderful, but none of them has come close to compiling the story in a way
+> that has pulled me in like videos with squares."*
+
+A YouTube channel that animates Roman politics as coloured squares beat nine
+books, by his own account, on a subject he cared enough about to read nine
+books on. Eleven days earlier he had praised a `@beatmastermatt` essay on the
+Iraq war in the vocabulary this project's own template uses — *"comprehensive,
+balanced and accessible to any audience"* (27 March 2024).
+
+So the project is not a 2026 idea about a format he admires abstractly. It is
+an attempt to produce the thing he is on record as **learning from better than
+anything else**, aimed at an audience he identifies with, in a format he has
+been consuming and rating for years. That makes the absence of any script or
+published video a sharper fact than this page's opening treats it as: the
+motivation is documented, dated and strong, and there is still no artifact.
+
 
 ## The structural template: Some More News
 

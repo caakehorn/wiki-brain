@@ -23,7 +23,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-02 — 42 pages
+## 2026-09-02 — 43 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -38,7 +38,7 @@ simply listed.
 | [[wiki/meta/testimony-veracity]] | meta | — |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | **CORRECTED** — An earlier version of this section claimed the archive showed **two steps, not one** — a first step in 2017 (4.0% → 11.1%, "nearly tripling") separating *political engagement* from *socialist identity |
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
-| [[wiki/people/alexis-armel]] | people | _(carries a GAP CLOSED from 2026-08-28)_ |
+| [[wiki/people/alexis-armel]] | people | **CORRECTED** — this paragraph first read *"four months in."* That was wrong and it understated the finding. The operator capture of 2026-08-27 dates the meeting to **Thanksgiving 2009** (26 November); the tattoo is  |
 | [[wiki/people/dan-polyak]] | people | — |
 | [[wiki/people/eric-jester]] | people | **CORRECTED** — this page described the friendship itself as "sparse but genuinely warm." That is an accurate reading of the *message thread*, which begins **May 2017**. It is not an accurate description of the frien |
 | [[wiki/people/josh-brannan]] | people | — |
@@ -69,6 +69,7 @@ simply listed.
 | [[wiki/self/twitter/2026]] | self | — |
 | [[wiki/timeline/periods/2010s]] | timeline | **GAP CLOSED** — the gap, as this page stated it — *"the exact 2010 move date is unresolved (context-core's residence table starts Brooklyn in April 2010, while an earlier note claimed a January 3 move — the Florida t |
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | _(carries a GAP CLOSED from 2026-08-28)_ |
+| [[wiki/work/tech/index]] | work | — |
 
 ## 2026-09-01 — 2 pages
 
@@ -107,7 +108,7 @@ simply listed.
 | [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a March 2014 Alexis-era eviction/concealment episode — housing and family-drama, no capital event, no figure this page draws on. **No clai |
-| [[wiki/mind/synthesis/failure-to-launch]] | mind | **RE-CHECKED** — flagged stale against estate-money-spine (2026-08-28), which gained a RE-CHECKED note confirming a March 2014 Alexis-era eviction on suzanne-frank touches no capital event or figure this page |
+| [[wiki/mind/synthesis/failure-to-launch]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/mind/synthesis/fayette-return]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] | mind | **RE-CHECKED** — flagged stale against august-grievance-verdict (2026-08-28), which gained a re-check note tracing back to a pre-Annie, 2013–2014 Alexis-era eviction/concealment episode on suzanne-frank. It touc |
@@ -236,7 +237,7 @@ simply listed.
 |---|---|---|
 | [[wiki/people/emaly-minerd]] | people | — |
 | [[wiki/people/trinity-st-clair]] | people | — |
-| [[wiki/self/concepts/chatgpt]] | self | **GAP CLOSED** — The operator, T0: *"Read the old pre gpt5 threads to understand the lead up to the release."* This page was written on 2026-08-19 without them. Its `sources:` listed Gemini's activity log, two dox fil |
+| [[wiki/self/concepts/chatgpt]] | self | _(carries a GAP CLOSED from 2026-09-02)_ |
 | [[wiki/self/concepts/llm]] | self | **CORRECTED** — this section previously presented all three bullets below as *"his analysis."* They are **Gemini's**, generated in the 2025-08-24 session from Dan's five-word prompt *"gemini i think chatGPT is cooked |
 | [[wiki/self/concepts/wiki-brain]] | self | **RE-CHECKED** — llm moved on 2026-08-21: Gemini's 'chicken nugget' passage was corrected off Dan's ledger, and the post-GPT-5 causation of ChatGPT's decline was marked untested. This page carries an edge claiming Cha |
 | [[wiki/work/au-zaatar]] | work | _(carries a REVISED from 2026-07-14)_ |

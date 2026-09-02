@@ -153,6 +153,52 @@ at once, evangelized to friends the same way the leftist media pipeline
 was). Neither is admiration for concentrated power. Both are attention
 paid to how it forms and what it costs a system's checks when it does.
 
+## The test he says he applies
+
+On **10 October 2023** Dan states a decision procedure for his own politics in
+one line:
+
+> *"Political positions are best formulated and checked with one test: what
+> would Michael Brooks do?"*
+
+Michael Brooks was the Majority Report co-host and *Michael Brooks Show* host
+who died in July 2020, three weeks before the
+[[wiki/mind/synthesis/2020-left-turn|2020-08-22 conversion narration]]. His
+distinctive position on the left was **internationalist, anti-imperialist and
+explicitly hostile to left sectarianism** — best known for the formulation
+that one should be "kind to people, ruthless to systems."
+
+Three things make this worth recording as more than a shout-out.
+
+**It is a named authority, on a page about a mind that does not take
+authorities.** [[wiki/mind/synthesis/vertical-authority-skepticism]]
+documents a systematic refusal of vertical authority. This is the one
+documented exception in the political domain, and it is a dead man — which is
+the form an authority can take without becoming a vertical: Brooks cannot
+issue instructions, only be consulted.
+
+**It predicts the behaviour the archive actually shows.** Two of the
+positions that most distinguish Dan from his own tribe are Brooksian rather
+than generically leftist: repeated criticism of Hasan Piker's foreign-policy
+takes (*"I love Hasan but his take on Russia is either purposefully
+antagonistic at the expense of his intellectual credibility"*, 22 February
+2022; *"how is it that Hasan can be so good at domestic political analysis and
+so cringe during every global conflict?"*, 14 October 2023), and the refusal
+of a side in the Israel–Gaza conflict — *"a conflict that doesn't have a
+'right side' and where the only sensible perspective is to analyze shades of
+bad"* (14 October 2023). Both are anti-sectarian moves against his own
+in-group.
+
+**It dates.** The test is stated in 2023, about a figure who died in 2020, in
+the same window as the conversion this wiki dates to August 2020. The axiom
+this page states plainly has, on the evidence, a named human referent Dan
+checks it against.
+
+**Gap:** no source in the corpus records Dan listening to Brooks *before*
+2020, so whether Brooks shaped the conversion or was adopted afterwards as its
+articulation is undetermined. `wiki/self/youtube-watch-history` is the place
+that could settle it and has not been searched for this.
+
 ## What this predicts, and what would falsify it
 
 If the axiom is power-concentration-as-such rather than any partisan

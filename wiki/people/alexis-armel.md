@@ -76,7 +76,7 @@ connections:
     claim: "A December 13, 2017 message on Jamie's thread is the earliest of three tellings of the Zac Shumar arrest and independently places the Alexis/Annie cam encounter inside her Feb–Oct 2017 bail window rather than during her incarceration."
   - page: wiki/self/tattoos
     type: evidenced-by
-    claim: "Dan's first tattoo, dated to 23 January 2010, is Alexis's initial — permanent commitment four months into the relationship and five weeks before he left Florida for the city she was in."
+    claim: "Dan's first tattoo, dated to 23 January 2010, is Alexis's initial — permanent commitment eight weeks after they met at Thanksgiving 2009, and five weeks before he left Florida for the city she was in."
   - page: wiki/timeline/periods/2010s
     type: component-of
     claim: "Alexis is present for the whole of NYC-1 — Brooklyn through the Upper East Side, the Bridge Cafe job through Hurricane Sandy — and is the only continuous personal thread the decade's first half has."
@@ -194,6 +194,38 @@ on Dan's own Facebook profile under "Previous relationships," in that order.
 > written up on [[wiki/timeline/periods/full-sail-2008-2010]] and
 > [[wiki/health/chemical-architecture]] rather than duplicated here.
 >
+> **CORROBORATED [2026-09-02] from a contemporaneous first-party record.**
+> The capture above is operator testimony given in 2026 about events of 2009 —
+> the strongest source class the corpus has, and still one source, recalled
+> seventeen years later. The [[wiki/self/twitter|tweet archive]] was not
+> available when it was integrated on 2026-08-28. It is now, and it independently
+> confirms the sequence and dates it to the day:
+>
+> | Date | Tweet | What it confirms |
+> |---|---|---|
+> | 2009-11-25 | *"pennsylvania, what's a stoner to do?!"* | He is in PA for Thanksgiving |
+> | 2009-11-28 | *"i had the absolute best day. heart is full from seeing true friends today. you're all amazing"* | The Thanksgiving trip |
+> | 2009-11-29 | *"cookies, water, beer, wine, and her."* | "Her" appears — unnamed |
+> | 2009-11-30 | *"watching the game with someone special"* / *"I miss her already."* / *"going home...but things are different now"* | Leaving PA, something has changed |
+> | **2009-12-14** | **first-ever `@alexisarmel` tweet: *"you amaze me. can't believe you're real"*, and separately *"dan in love."*** | **Named, in Orlando, ~2.5 weeks later** |
+> | 2009-12-16 | *"i have the most amaaaazing girlfriend"* | First use of "girlfriend" |
+> | 2009-12-20 | *"home again with much help from my amazing girlfriend"* | The drive to PA for Christmas |
+> | 2009-12-25 | *"d&a's first christmas"* | Christmas together, as a unit |
+> | 2009-12-30 | *"our trip was saved entirely by @alexisarmel"* | The drive back to Florida — she returned with him |
+>
+> Every load-bearing element of the testimony holds. The unnamed "her" of 29–30
+> November precedes the first named tweet by a fortnight, which is exactly the
+> shape of *"a week or two after that he buys her a one-way ticket to Orlando"*
+> — and it means the account was carrying the relationship publicly before it
+> carried her name. The Christmas nervousness the capture describes — *"whether
+> she would return with him"* — is answered on 30 December by a tweet crediting
+> her with saving the drive.
+>
+> **What the tweets do not corroborate:** the Roxicet, Spetch, the one-way
+> ticket as a purchase, and the Clingan accusation appear nowhere in them. The
+> archive confirms the relationship's shape and pace, not the drug chain, and
+> that half still rests on testimony alone.
+
 > **Christmas 2009: the trip home that ends a friendship and nearly extends
 > itself past Orlando.** Dan and Alexis drive back to Pennsylvania for
 > Christmas, and Dan records being nervous about whether she would return
@@ -251,9 +283,14 @@ execution within sixteen minutes of each other — *"getting my 'a' tattoo
 on monday =]"*, then *"scratch that going to get it NOW!"*, then, two
 hours later, *"my first tattoo! I have her on me forever now <3"*.
 
-The relationship had begun the previous autumn. Four months in, her
-initial is permanent, and six weeks after that he has left the state he
-was living in to be where she is. It is the earliest hard evidence in the
+They had met **eight weeks earlier**, at Thanksgiving. Her initial is
+permanent before they have known each other two months, and five weeks
+after that he has left the state he was living in to be where she is.
+
+> **CORRECTED [2026-09-02]:** this paragraph first read *"four months in."*
+> That was wrong and it understated the finding. The operator capture of
+> 2026-08-27 dates the meeting to **Thanksgiving 2009** (26 November); the
+> tattoo is **23 January 2010**. Eight weeks. It is the earliest hard evidence in the
 corpus of the commitment speed the rest of this page documents at longer
 range, and it is dated to the hour rather than recalled — see
 [[wiki/self/tattoos]] for the piece itself and for what the archive does

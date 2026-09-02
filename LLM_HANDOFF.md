@@ -69,6 +69,59 @@ hand-edit. Added above `wiki-digest`. Rule in `skills/INBOX.md`.
 8 skill candidates) are untouched. They were untouched at session start and this
 session added no stale premises — the new page has no dependents. The stale-premise
 cascade is a reading job and the right shape for a dedicated housekeeping pass.
+### [2026-09-02] - Session: tweet mining COMPLETE — every year 2009-2026 read (Claude Opus 5)
+
+* **Branch:** `claude/mine-tweets-wiki-brain-zi6nue` · **PRs:** #239, #240, #241 merged; pass 4 open.
+* **Trigger:** operator — "keep mining" / "do it".
+
+**THE ARCHIVE IS NOW FULLY MINED.** All 2,525 originals, 2009 through 2026,
+**read year by year rather than pattern-matched**. That method is not optional
+here — see `skills/corpus/vocabulary-drift.md`, promoted this session after a
+keyword count put a false claim on a synthesis page.
+
+**Pass 4 (this branch): 2022, 2023, 2024.**
+
+| Page | Finding |
+|---|---|
+| `self/concepts/chatgpt` | **Its stated gap closed.** It said the DALL-E half of the origin account was "testimony alone and not checkable in this corpus." Four tweets of **8 Sept 2022** — three months pre-ChatGPT — show hands-on DALL-E **image-variations** use plus a screen recording. Bounded: corroborates DALL-E, not the beta code or the GPT link |
+| `self/twitter` | **The account is 13 months older than its record** — `#MyTwitterAnniversary`, 24 Sept 2022, "14 years" → **September 2008**. Also: the densest day in 17 years is 2024-06-28, 23 originals, the Biden debate, live |
+| `mind/synthesis/2020-left-turn` | **A second causal account, his own**: the O&A fanbase following Cumia right "radicalized [us] to leftist politics" (18 July 2022). Reframes the conversion as partly a *departure from a tribe*, which the media-pipeline story never had. **Marked (1/3); parts 2–3 are not in the archive** |
+| `interests/opie-and-anthony` | The fanbase split, his side of it, subreddit membership, and a dated move away from comedy free-speech absolutism (28 Mar 2022) |
+| `mind/synthesis/vertical-authority-skepticism` | **"Conspiracy crank" is a label his behaviour contradicts.** He works live conspiracies to a *resolution* and publishes negatives — the Nashville debunk (29 Mar 2023) is his most-read tweet ever, 114 likes vs a career mean under 0.2. Paul Pelosi (2022) shows it running against his own side at a cost he names: *"What actually happened? I have absolutely zero idea."* |
+| `mind/politics/axioms` | A named decision procedure: *"what would Michael Brooks do?"* (10 Oct 2023) — the one authority an anti-authority mind admits, and a dead one |
+| `interests/roman-republic` + `work/tech/ai-video-essays` | The 2024 "reading binge" **started on YouTube and he rates it above the books** — HistoriaCivilis beat nine titles he rated 4–5. That preference is the motivating fact behind the video-essay project, which still has no artifact |
+
+**What is left, and it is not year-by-year work:**
+
+1. **The people pass is still partial.** Done: Jester, Shane Brannan, Polyak,
+   Josh Brannan, Vanessa. **Untouched with pages:** `@jfriedline` (7).
+   **Untouched without pages:** `@yamez1` (13, a DJ — Full Frequency),
+   `@iamcoreybrown` (10), `@woodguts` (17, in `BACKLOG.md`, unidentified),
+   `@alexarandolph`, `@tbichris`, `@katie_efff`, `@filthysilver`,
+   `@phloxenheim`, `@lapiana`, `@sunofrich`, `@kristarenae25`.
+2. **@Lo_weez = Annie. 17 tweets, 2015-2020. NOT MINED, nothing written**,
+   under the standing moratorium. Recorded so nobody rediscovers it as an
+   unexploited seam.
+3. **Three things the official X Settings export would settle**, and it is now
+   the single highest-value addition to `raw/`: the 2016 gig tweet the AI
+   analysis quotes and the archive lacks (`interests/music/overview`); the
+   account's true creation date and the missing 2008-09 year; and parts 2-3 of
+   the radicalization thread.
+4. **Unwritten leads from 2009**, logged not dropped: the first tweet (20 Oct
+   2009), an Orlando↔PA commute of three round trips in ten weeks, Seven
+   Springs with Alexis (22 and 27 Dec), and *"retire by 25"* / *"country club
+   status. bloated sense of self worth."* posted the same day at age 20.
+5. **Unwritten from 2022-24:** TikTok `@caakehorn` with published videos (one
+   removed by moderation, Oct 2022) — the wiki has one 2021 Facebook mention
+   and no page; election forecasting as a **practice** (PredictIt positions,
+   yapms maps, polling threads, 2022-2024); and the 92-hours-of-history-
+   audiobooks-in-two-months figure (2 Feb 2023).
+
+**Method note that bounds the promoted skill.** `vocabulary-drift` says a count
+under-reports. 2014 showed the second limit: **a count can be accurate and
+still miss the finding, because it sees subjects and not practices.** The
+difference between a hobby and an operation is what the sentences *do* —
+announce, solicit, compete, thank.
 
 ### [2026-09-02] - Session: tweet mining pass 2 — social graph, politics, digital witness (Claude Opus 5)
 
