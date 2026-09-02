@@ -58,11 +58,11 @@ The operator spreadsheet (Drive: Dan Frank - Tweet Archive, filed as `raw/self/t
 
 | Year | Originals on page | Coverage |
 |------|------------------:|----------|
-| [[wiki/self/twitter/2009\|2009]] | 20 | in progress |
-| [[wiki/self/twitter/2010\|2010]] | 20 | in progress |
-| [[wiki/self/twitter/2011\|2011]] | 20 | in progress |
-| [[wiki/self/twitter/2012\|2012]] | 20 | in progress |
-| [[wiki/self/twitter/2013\|2013]] | 227 | in progress |
+| [[wiki/self/twitter/2009\|2009]] | 30 | in progress |
+| [[wiki/self/twitter/2010\|2010]] | 60 | in progress |
+| [[wiki/self/twitter/2011\|2011]] | 60 | in progress |
+| [[wiki/self/twitter/2012\|2012]] | 60 | in progress |
+| [[wiki/self/twitter/2013\|2013]] | 267 | in progress |
 | [[wiki/self/twitter/2014\|2014]] | 171 | complete for originals |
 | [[wiki/self/twitter/2015\|2015]] | 62 | complete for originals |
 | [[wiki/self/twitter/2016\|2016]] | 75 | complete for originals |
@@ -75,8 +75,8 @@ The operator spreadsheet (Drive: Dan Frank - Tweet Archive, filed as `raw/self/t
 | [[wiki/self/twitter/2023\|2023]] | 159 | complete for originals |
 | [[wiki/self/twitter/2024\|2024]] | 258 | complete for originals |
 | [[wiki/self/twitter/2025\|2025]] | 13 | complete for originals |
-| [[wiki/self/twitter/2026\|2026]] | 22 | in progress |
-| **Total** | **1545** | |
+| [[wiki/self/twitter/2026\|2026]] | 26 | in progress |
+| **Total** | **1719** | |
 
 ## What the public valve actually is
 
