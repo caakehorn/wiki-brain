@@ -33,8 +33,8 @@ connections:
     type: contradicts
     claim: "The facet table has no persistence dimension and reads the corpus's execution failures as Impulsiveness at 96; the operator claims a 95th-percentile completion drive is running in the same behaviour, which would mean this instrument is scoring an engine as a brake failure."
   - page: wiki/mind/synthesis/millennial-digital-witness
-    type: evidences
-    claim: "The psychometric fit underwrites — and flags as self-serving — the witness self-theory."
+    type: instantiates
+    claim: "Sociability 3 is the confirmed specimen-fit for the millennial-witness role; archival memory and pattern recognition were Si and Ti, not this table."
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: evidences
     claim: "The Trust/Altruism/Submissiveness/Assertiveness scores are the skepticism architecture as measurement."
@@ -209,6 +209,11 @@ encyclopedic curated taste (Artistic Interests 81, Inquisitive →
 91 → [[wiki/mind/synthesis/political-psyops]]). The profile's value to the
 wiki is exactly this predictive compression: one table that most of the
 behavioral corpus instantiates.
+[[wiki/mind/synthesis/millennial-digital-witness]]'s specimen-fit on this
+table is Sociability 3 (corpus-audited at 0.73×), not the archival memory
+or high pattern recognition the older page attributed here — those were Si
+and Ti — which is why the identity-project charge survives: the one
+confirmed social-deficit score is real, and the table itself is commissioned.
 
 **Gaps:** no instrument name, norm group, or administration date for the
 Big30 or PD screens; scores appear identically across dossiers, suggesting a

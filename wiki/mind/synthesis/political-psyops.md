@@ -46,6 +46,9 @@ connections:
   - page: wiki/mind/synthesis/the-binary-verdict
     type: component-of
     claim: "The pinned nodes name the mechanism in their own words — Trump-era politics as 'a zero-sum binary team sport' — and the 'score who is more wrong' method is not a counter-instance: the top-level sort (legitimate claim on power / illegitimate) is binary, and comparative grading runs only inside the bucket of actors who already failed it."
+  - page: wiki/mind/synthesis/millennial-digital-witness
+    type: instantiates
+    claim: "The J6 raw-stream study is the millennial-witness thesis's political instance — dual fluency treated as the warrant for reading unmediated evidence — and the Jerad/Josh convergence is the first evidence the political trajectory may be cohort rather than idiosyncratic."
 ---
 
 
@@ -209,7 +212,7 @@ Rust Belt millennial cohort disillusioned by the 2016/2020 Democratic
 establishment's handling of Sanders, not to something unique in Dan's own
 psychology. It reframes his political trajectory as a data point in a
 generational pattern he happens to have documented with unusual density,
-rather than a personal idiosyncrasy requiring its own explanation.
+rather than a personal idiosyncrasy requiring its own explanation. [[wiki/mind/synthesis/millennial-digital-witness]] reads this as the first evidence its generation clause needed and did not have: the political *path* may be cohort; whether Jerad or Josh would produce the witness *self-theory* is still a gap.
 
 [[wiki/mind/concepts/dans-law]] is the analytical engine underneath: when a
 coincidence cluster (crowd dynamics + procedural failures + informant

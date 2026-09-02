@@ -106,8 +106,8 @@ connections:
     type: contains
     claim: "The post-partisan, score-who-is-more-wrong posture is prediction 4 run on the state itself — every political actor is a vertical claim, audited on contact, with no lateral exemption because no politician is a vetted peer."
   - page: wiki/mind/synthesis/millennial-digital-witness
-    type: contains
-    claim: "The generational-bridge self-theory is the one theme in this page's original spine that the firewall does not obviously predict or explain — carried forward as a named sub-topic rather than forced into the new frame."
+    type: instantiates
+    claim: "The generational-advantage claim is the leftover the Irreversibility Firewall cannot deduct; the archive practice underneath it is the firewall's no-delete rule running on identity."
   - page: wiki/people/ryan-lisac
     type: parallels
     claim: "The 'Snob Squad' name road-tested here for the 2026 DJ-identity relaunch is a deliberate callback to the childhood-era vocabulary originated around Ryan Lisac, not a coincidence of naming — unrelated to the firewall thesis, kept because it is a real, checkable connection this page already carried."
@@ -525,6 +525,15 @@ it best. The rule explains why the loop couldn't close on its own. It does
 not make the loop's ten years of documented harm to both people any less
 real, and this page should never be read as offering the mechanism as a
 defense.
+
+[[wiki/mind/synthesis/millennial-digital-witness]] (rewritten 2026-09-01)
+now states the split this page opened and did not close: the
+generational-advantage *claim* remains the leftover the firewall cannot
+deduct; the archive *practice* (retain everything, ship the wiki as
+witness-work) is prediction 1 running on identity, and is the one
+self-set project that actually ships. The millennial page is no longer
+carried as an un-forced sub-topic. It is the claim the firewall cannot
+explain, plus the practice the firewall does.
 
 **Gaps, stated as open predictions rather than settled facts:** predictions
 2 and 4 above were stated and instantiated but not systematically stress-

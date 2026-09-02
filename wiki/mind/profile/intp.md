@@ -103,6 +103,9 @@ connections:
   - page: wiki/mind/synthesis/fayette-return
     type: causes
     claim: "Core Axiom 1's binary self-worth verdict, running on Ti-dominance with no Fe-mediated grading function, is why that page's 'personal failure' misfiling of a family return is consequential rather than loose: with no graded middle available, the misfiling resolves straight to the worthless pole rather than to a discounted setback."
+  - page: wiki/mind/synthesis/millennial-digital-witness
+    type: evidences
+    claim: "Ti 96 / Ne 84 / Si 57 / Fe 10 is the engine that page had been attributing to a generation: cross-domain anomaly detection is Ne, the archive is Si, the forensic default is Ti, and standing outside is Fe-inferior — which is why the cohort supplies the dual-fluency referent and this stack supplies the method."
 ---
 
 # INTP — The Cognitive Function Stack
@@ -223,7 +226,11 @@ the forensic default, derived rather than chosen. The same arithmetic
 explains the costs: a mind that can prove things cannot stop litigating
 ([[wiki/mind/concepts/conflict-architecture]]), and a memory that cannot
 forget keeps every wound current
-([[wiki/mind/concepts/attachment-model]]). The self-myth the stack
+([[wiki/mind/concepts/attachment-model]]). [[wiki/mind/synthesis/millennial-digital-witness]] is the same
+arithmetic pointed at a self-theory: Ne, Si, Ti and Fe-inferior are the
+method that page had been absorbing into "millennial," which is why the
+cohort can supply the dual-fluency referent and still not be the engine.
+The self-myth the stack
 sustains — the singular perceiver against a system too dull to see what
 he sees — also shows in what he chooses to consume: the great-man shelf
 of the 2024 [[wiki/interests/roman-republic|Roman-Republic year]]
@@ -236,4 +243,3 @@ history and cinema.
 proctored instrument; the Ni measurement in particular has no independent
 confirmation; no data on how the stack presents post-closure (all sources
 pre-date June 2026).
-

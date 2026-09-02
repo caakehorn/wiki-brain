@@ -56,6 +56,9 @@ connections:
   - page: wiki/mind/synthesis/closing-the-set
     type: parallels
     claim: "Two readings of the same shelf that do not compete: that page explains the collection's shape — one witness each, until the set closes — and this one explains what the sets are always of, which is a system coming apart while somebody watches."
+  - page: wiki/mind/synthesis/millennial-digital-witness
+    type: instantiates
+    claim: "The millennial-witness mission — standing outside and recording as a generation's highest calling — is this page's accurate-early-unable seat given a historical costume; the two pages occupy the word 'witness' and they are not the same claim."
 ---
 
 # The Cato Seat
@@ -211,6 +214,11 @@ follow-through. This page suggests it is not a gap but a **template**: in every
 model of a correct person Dan has curated, the correctness terminates in itself.
 There is no example on his shelves of a right reading converting into a
 successful intervention, so there is no pattern available to imitate.
+[[wiki/mind/synthesis/millennial-digital-witness]] occupies the same word
+and a different claim: its generational-advantage argument is a cohort fact
+or a 2025–26 construction, and the millennial mission — standing outside
+and recording as the generation's highest calling — is this page's
+accurate-early-unable seat in historical dress.
 
 **Why the diagnosis-to-behaviour gap is felt as fate rather than as failure.**
 [[wiki/mind/profile/socionics-and-attitudinal]]'s ILI-Ni reading predicts

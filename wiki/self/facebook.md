@@ -11,8 +11,8 @@ related: ["wiki/self/context-core", "wiki/self/facebook/messages", "wiki/self/fa
 tags: [relationships, nyc-era, family, uniontown-era, trauma-bond]
 connections:
   - page: wiki/mind/synthesis/millennial-digital-witness
-    type: evidences
-    claim: "The archive is the witness theory instantiated in one person's complete data arc."
+    type: instantiates
+    claim: "The 2007-01-09 pre-smartphone registration through 2022-09-05 export is the archive-practice half of the millennial-witness split: residue independent of the 2025–26 self-theory."
 ---
 
 
@@ -55,7 +55,7 @@ Every field cross-checks against [[wiki/self/context-core]] — this export is t
 | Friends | ~617–659 unique, adds ~Apr 2009–Sep 2022 |
 | Pages liked | ~229–234 |
 | Media | ~627 items across 17+ albums (2010–2022) |
-| Off-Facebook tracking files | 339 |
+| Off-Facebook tracking files | 336 dated activity HTML + 3 sibling HTML (339 in tree) |
 
 ## Narrative: the "ihatedanfrank" persona
 
@@ -63,7 +63,9 @@ The handle is a fifteen-year deliberate ironic persona, not a throwaway. Registe
 
 The network shape confirms [[wiki/mind/concepts/contact-gini]] from the public-platform side: roughly 650 friends and 400 message threads of breadth, with real depth concentrated in a handful of nodes — above all the Annie "Eggie" thread (2017–2021: nicknames, video calls, family-conflict disclosure), the deep counter-example to the wide-but-shallow surface. Volume functions as ambiguous tether; closure happens in few channels ([[wiki/people/annie-ulmer]], [[wiki/mind/concepts/attachment-model]]).
 
-As a corpus object, the export is the prime [[wiki/mind/synthesis/millennial-digital-witness]] artifact: a 2007-registered account is a bridge specimen from pre-smartphone status updates through the tracked-commerce era, and the archive includes Facebook's surveillance model of its owner alongside the owner's self-presentation ([[wiki/self/facebook/interests]], [[wiki/mind/concepts/forensic-method]]). No contradictions with the existing self corpus; this is the public fossil layer.
+As a corpus object, the export is the prime [[wiki/mind/synthesis/millennial-digital-witness]] artifact: a 2007-01-09 pre-smartphone registration through the 2022-09-05 export is the archive-practice half of the witness split — residue independent of the 2025–26 self-theory, not the cohort-advantage claim. The archive includes Facebook's surveillance model of its owner alongside the owner's self-presentation ([[wiki/self/facebook/interests]], [[wiki/mind/concepts/forensic-method]]). No contradictions with the existing self corpus; this is the public fossil layer.
+
+The 2026-09-01 rewrite of that page split theory from practice: this export is the practice half — dated residue that does not depend on Node 6. Re-opened `profile_information.html` rather than trusting the hub: registration is Tuesday, January 9, 2007 at 3:40 AM UTC-04:00. The off-Facebook tree is 336 dated activity files plus three sibling HTML files (339 in the tree), which is the one facebook figure that rewrite corrected.
 
 > **REVISED [2026-06-23]:** raw/self/facebook/facebook-ihatedanfrank/ contains a nested duplicate copy of the export tree (~2,906 top files, 1,453 nested). Noted, not modified — raw/ is immutable.
 
