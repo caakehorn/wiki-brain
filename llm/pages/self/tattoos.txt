@@ -4,9 +4,10 @@ page_type: entity
 title: "Tattoos"
 status: active
 date_created: 2026-07-14
-date_modified: 2026-07-19
+date_modified: 2026-09-02
 knowledge: mixed
 sources:
+  - raw/self/twitter/archive.jsonl
   - raw/self/captures/2026-07-14-tattoo-list.md
   - raw/self/captures/2026-07-15_195532_tattoo-artist.md
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
@@ -14,6 +15,12 @@ sources:
   - raw/self/dox-scan/dan tom 2010 2022.txt
   - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/chrisredmond_ewkx6qfqha/message_1.html
 connections:
+  - page: wiki/self/twitter/2010
+    type: evidenced-by
+    claim: "The tweet 'my first tattoo! I have her on me forever now' dates the first piece to the night of 23 January 2010 and identifies it as a lover's initial — the one documented tattoo that is not a cultural reference, and the counterexample this page's thesis has to survive."
+  - page: wiki/people/alexis-armel
+    type: evidences
+    claim: "Dan had Alexis's initial tattooed roughly four months into the relationship, in January 2010, six weeks before moving to Brooklyn to be with her — the earliest hard evidence of the all-in commitment speed that the relationship history describes."
   - page: wiki/interests/food-and-diet
     type: evidences
     claim: "The one food image permanently on his body is a Misfits tattoo: the pizza slice was chosen because it was the unconventional alternative to the Crimson Ghost-in-a-coffin variant, which is a cool-metric operation executed through a food image without the food being the point."
@@ -31,16 +38,28 @@ tags: [personality-profile, digital-footprint]
 
 # Tattoos
 
-Dan's body art is, as far as the corpus documents, entirely cultural
-reference rather than abstract design — every known piece points at a
-specific record, band, or artist rather than a generic symbol. The list
-below starts with six pieces Dan named directly (2026-07-14); it is not
+Dan's body art is, with one dated exception, cultural reference rather
+than abstract design — nearly every known piece points at a specific
+record, band, or artist rather than a generic symbol. The list below
+starts with six pieces Dan named directly (2026-07-14); it is not
 presented as complete, and further pieces should be added as they surface.
+
+> **CORRECTED [2026-09-02]:** this page previously read "**entirely**
+> cultural reference … *every* known piece points at a specific record,
+> band, or artist rather than a generic symbol," and dated the earliest
+> well-documented piece to October 2018. The tweet archive breaks both
+> halves. The **first** tattoo is eight years earlier and is not a
+> cultural reference at all: it is the letter **A**, for
+> [[wiki/people/alexis-armel|Alexis]]. The generalisation was true of the
+> six pieces the 2026-07-14 list happened to name, and the list said it
+> was not complete — this is what an incomplete list costs when a thesis
+> is drawn from it.
 
 ## The list
 
 | Design | Style/reference | Placement | Artist/shop | Date |
 |--------|------------------|-----------|-------------|------|
+| **"A"** | Alexis Armel's initial — not a cultural reference | Unknown | Unknown, Florida | **2010-01-23** (first) |
 | Misfits skull in a pizza slice | Custom mashup of the Misfits' Crimson Ghost mascot and a pizza slice | Forearm, ~3"x1.5" | Chris Redmond (custom drawn), Uniontown-area | 2018-10-13 |
 | Misfits logo (green lettering) | Band's own logo lettering, unmodified | Forearm, beneath the pizza slice | Chris Redmond | 2018-10-22 |
 | Kanye West *808s & Heartbreak* KAWS bear | KAWS's reworked "Dropout Bear" from the *808s* era art/toy campaign | Unknown | Unknown | By Sept 22, 2025 |
@@ -48,6 +67,85 @@ presented as complete, and further pieces should be added as they surface.
 | Old school traditional rose | American traditional flash | Brooklyn, NY | Ian Weidrick, Allied Tattoo (Brooklyn) | Possibly March 8, 2019 |
 | Gravestone | Memorial-style piece | Brooklyn, NY | Ian Weidrick, Allied Tattoo (Brooklyn) | Undocumented |
 | Flapper girl | American traditional flash (pin-up style) | Brooklyn, NY | Ian Weidrick, Allied Tattoo (Brooklyn) | Undocumented |
+| **Morrissey** | The Smiths frontman | Unknown | Unknown | By **2019-10-24** |
+
+## The first one: "A", January 2010
+
+The earliest piece on Dan's body predates the rest of this list by more
+than eight years, and the archive dates it to the hour. On the evening of
+**Saturday 23 January 2010** — he was still in Florida, five weeks from
+the move to Brooklyn — he posted:
+
+> **02:47 UTC 24 Jan** — `getting my "a" tattoo on monday =]`
+> **03:03 UTC** — `scratch that going to get it NOW!`
+> **04:53 UTC** — `my first tattoo! I have her on me forever now <3`
+
+(The timestamps are UTC; in Eastern local time all three fall on the
+evening of the 23rd. The photo the last one links to is on yfrog, which
+shut down in 2016 — the image is gone, the caption is not.)
+
+Three things follow from it, and each cuts against something this page
+used to say.
+
+**It is not a cultural reference.** Every other documented piece points at
+a band, a record or an artist. This one points at a person, and Dan says
+so in the same breath: *I have her on me forever now*. The "A" is
+[[wiki/people/alexis-armel|Alexis Armel]].
+
+**It is fast.** The relationship began in 2009, during the Full Sail tail.
+By late January 2010 he is putting her initial on his body permanently,
+and five weeks later he is loading a U-Haul to move to the city she is in
+([[wiki/timeline/periods/2010s]]). The tattoo and the relocation are the
+same decision at two scales, six weeks apart, and both are executed
+within days of being announced — "scratch that going to get it NOW!" is
+the whole pattern in six words.
+
+**It is impulsive in a specifically documented way.** The plan is Monday.
+Sixteen minutes later the plan is now. Whatever else this page records, it
+records that the first permanent mark Dan made on himself was moved
+forward two days on an impulse and announced as it happened.
+
+**What the archive does not say:** where on his body it is, who did it,
+whether it is still there, and whether it was ever covered or reworked
+after the relationship ended in December 2015. None of the later
+inventories name an "A", which is consistent with a cover-up, with a
+small piece nobody thought to list, or with an inventory that was never
+complete. The 2026-07-14 list is six pieces Dan named from memory; it did
+not claim to be everything.
+
+## Two pieces the list did not have
+
+**Morrissey.** On 24 October 2019: *"basically i'm a horrible shit person
+but i'm hoping that having a Morrisey tattoo is helping make up for it"*
+— stated as a thing he has, not a thing he wants. It is not on the
+2026-07-14 list. Date, placement and artist are all unknown; the upper
+bound is the tweet.
+
+**Elliott Smith, intended.** On 24 January 2018: *"Gonna crowdfund an
+Elliott Smith tattoo for myself. I deserve it."* No later source records
+it being done. It is worth keeping as an intention rather than a piece,
+because it lands **nine months before** the October 2018 Redmond sequence
+that Dan framed to the artist as the first of "4 or 5 other pieces"
+before turning 30 — so the pre-30 tattoo campaign was already on his mind
+at the start of that year, and the Misfits work was not its opening move.
+
+> **DISCREPANCY:** on 7 December 2018 Dan wrote *"I'm 30 years old, got a
+> Misfits tattoo last week."* The Messenger thread with Chris Redmond
+> dates the pizza slice to 13 October and the logo lettering to 22
+> October 2018 — six and seven weeks earlier, and both **before** his
+> 1 November birthday rather than after it. Either "last week" is loose
+> (he is making a joke, not filing a report) or there is a third
+> Misfits-related piece from late November 2018 that nothing else
+> records. The Messenger thread is the better-dated source and the list
+> above follows it; this is flagged rather than resolved.
+
+> **NOT A TATTOO.** On 26 January 2012: *"Finished the color on my Chris
+> Brown tattoo today. @chrisbrown UR DA BEZT"*, retracted two hours
+> later — *"I do NOT have a Chris Brown tattoo rofl. You can all calm
+> down now."* Recorded here so the first line cannot be found by a future
+> grep and filed as a piece. It is the earliest evidence of Dan using his
+> own body art as a bit, seven years before the Morrissey line does the
+> same thing.
 
 ## Misfits: skull in a pizza slice, and a second Misfits piece
 

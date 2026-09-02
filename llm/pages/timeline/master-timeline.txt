@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,266 events** across **80 years** (1796–2027), drawn from **364 pages**. Tier 1 665 · Tier 2 399 · Tier 3 2,202.
+**3,320 events** across **80 years** (1796–2027), drawn from **364 pages**. Tier 1 675 · Tier 2 400 · Tier 3 2,245.
 
 ## What counts as an event here
 
@@ -965,20 +965,50 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/danielle-onesi]] · Relationship Summary
 - ★ **January 2010** — The same year initialises two other things that run underneath the whole relationship: **Suboxone, from around January 2010**, and an aggressive atheism that turns out to be shared rather than tolerated.  
   ↳ [[wiki/people/alexis-armel]] · Full Sail, and the beginning
+- ★ **January 2010** — By late January 2010 he is putting her initial on his body permanently, and five weeks later he is loading a U-Haul to move to the city she is in (2010s).  
+  ↳ [[wiki/self/tattoos]] · The first one: "A", January 2010
 - ◆ **January 2010** — The opiate arc that began in 2007 reaches its resolution at the tail end of this period: Suboxone initiated around January 2010, with day-zero later pinned to February 17, 2010 in the fuller chemical-history record (chemical architecture) — meaning the single most durable fact of Dan's adult…  
   ↳ [[wiki/timeline/periods/full-sail-2008-2010]] · Chemical stabilization
 - · **January 2010** — Early rock era — 2008–2010  
   ↳ [[wiki/self/facebook/interests]] · Event Responses (2008–2020)
-- · **January 2010** — Pre / Origin (FB documented) — ~2010-2013 — N/A (loc starts 2014)  
-  ↳ [[wiki/self/location-history]] · Granular by Period (cross to wiki periods)
 - · **January 2010** — The **Suboxone regimen** begins at its front edge (~January 2010, with a one-year discrepancy against legacy docs that context-core flags as resolvable from the first strips reference) — the fifteen-year daily chassis documented in chemical architecture starts here.  
   ↳ [[wiki/timeline/periods/2010s]] · The two things that started here and did not stop
+- ★ **2010-01-03** — twitter** — the archive and facebook disagree about when Dan moved to Brooklyn. Facebook's `places lived` field says 3 January 2010. On 20 February 2010 he tweeted *"moving to brooklyn in 9 days"*, and on the 28th *"peace out, florida."* Both records are his own  
+  ↳ [[wiki/meta/open-questions]] · Live contradictions
+- · **2010-01-03** — facebook** — This paragraph used to say *every* field cross-checks. One does not. `places lived` gives **Brooklyn NYC from January 3, 2010**. The tweet archive has Dan in Florida for another eight weeks: *"moving to brooklyn in 9 days"* on 20 February 2010, *"last day in errrlando…hangin in a…  
+  ↳ [[wiki/meta/open-questions]] · Live contradictions
+- · **2010-01-03** — one is timestamped by the platform and one was typed into a profile  
+  ↳ [[wiki/meta/open-questions]] · Live contradictions
+- · **2010-01-03** — facebook — self  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 30 pages
+- · **2010-01-03** — location history — self  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 30 pages
 - · **2010-01-03** — Places lived  
   ↳ [[wiki/self/facebook]] · Identity & Profile Data (2022 snapshot, self-reported)
+- ★ **2010-01-23** — On the evening of **23 January 2010**, five weeks before the move north, Dan got his first tattoo: the letter **A**.  
+  ↳ [[wiki/people/alexis-armel]] · He tattooed her initial four months in
+- ★ **2010-01-23** — On the evening of **Saturday 23 January 2010** — he was still in Florida, five weeks from the move to Brooklyn — he posted:  
+  ↳ [[wiki/self/tattoos]] · The first one: "A", January 2010
+- · **2010-01-23** — "A"** — Alexis Armel's initial — not a cultural reference — Unknown — Unknown, Florida  
+  ↳ [[wiki/self/tattoos]] · The list
+- · **2010-01-23** — tattoos, alexis armel  
+  ↳ [[wiki/self/twitter]] · What the archive settled elsewhere in the wiki
 - · **2010-01-24** — The earliest message is Dan's: on January 24, 2010, he writes "hey if you're going to be around at some point today let me know, i'm in need of another run down there," to which Charles replies the same evening, "im here...wats your #..phones on." The phrasing — "another run down there" — implies a…  
   ↳ [[wiki/people/charles-davenport]] · The thread
-- · **February 2010** — The Twitter corpus dates the Pro Tools certification push precisely: a "heavy early-year focus" cluster in January–February 2010, immediately before the abrupt geographic pivot to NYC (Foursquare check-ins begin late March 2010 — Brooklyn, DuMont Burger, the Union Ave Walgreens).  
-  ↳ [[wiki/timeline/periods/full-sail-2008-2010]] · Pro Tools certification (Jan–Feb 2010)
+- · **2010-01-25** — "ughhhhhhhhhhh missed my 210m by 3 questions." — The Pro Tools exam is failed once, on the 25th  
+  ↳ [[wiki/timeline/periods/2010s]] · The move, dated to the day
+- · **2010-01-25** — He sat the "210m" exam and **failed it** on 25 January 2010 ("ughhhhhhhhhhh missed my 210m by 3 questions"), retook it the next morning, and announced the pass at **19:40 UTC on 26 January 2010**.  
+  ↳ [[wiki/timeline/periods/full-sail-2008-2010]] · Pro Tools certification (26 January 2010)
+- ★ **2010-01-26** — "Brooklyn here we come!!" — **Eleven minutes later.** The credential and the decision to move are one moment  
+  ↳ [[wiki/timeline/periods/2010s]] · The move, dated to the day
+- · **2010-01-26** — "EAT UR HEART OUT BITCH IM PRO TOOLS CERTIFIED" — The retake passes — the certification is **26 January 2010  
+  ↳ [[wiki/timeline/periods/2010s]] · The move, dated to the day
+- ★ **February 2010** — Full Sail ends with the move to Brooklyn in **late February 2010** — the first of two distinct New York chapters, this one running to May 2013 before an Uniontown return that develops the producer aliases and eventually leads to Annie.  
+  ↳ [[wiki/timeline/periods/full-sail-2008-2010]] · What comes next
+- · **February 2010** — The @danfrank archive holds **764 dated originals inside this period** — 265 from the February 2010 departure to year end, 225 in 2011, 205 in 2012, 69 in January–May 2013 — written contemporaneously by Dan, in public, with timestamps.  
+  ↳ [[wiki/timeline/periods/2010s]] · NYC Round One (2010–2013)
+- ★ **2010-02-17** — "off to Williamsburg" — The apartment hunt — a scouting trip, not the move  
+  ↳ [[wiki/timeline/periods/2010s]] · The move, dated to the day
 - · **2010-02-17** — The load-bearing fact: **daily Suboxone since February 17, 2010 — sixteen years, zero relapses** — on top of which sit cocaine as a daily "cognitive accelerant," nicotine as ritual regulator, daily cannabis, and a hard, fifteen-year zero on alcohol (active aversion, rooted in the pervasive…  
   ↳ [[wiki/health/chemical-architecture]] · Chemical Architecture
 - · **2010-02-17** — Suboxone — "System stabilizer — chassis & OS"  
@@ -997,6 +1027,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/overview]] · LLM Quick Brief
 - · **2010-02-17** — The same window contains the opiate arc's beginning and stabilization: five months from first opiate to addiction in 2007, then Suboxone day-zero on February 17, 2010 — daily ever since, zero relapses, framed not as recovery but as engineered architecture (context core).  
   ↳ [[wiki/self/overview]] · The arc
+- · **2010-02-17** — "this is the most stressful day/decision of my life" — Same day, seven hours on  
+  ↳ [[wiki/timeline/periods/2010s]] · The move, dated to the day
 - · **2010-02-17** — The stabilization did not arrive until Suboxone day-zero, February 17, 2010, at the tail end of the Full Sail window (full sail 2008 2010, chemical architecture).  
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The opiate onset
 - ★ **2010-02-18** — On **February 18, 2010** — four days before Dan's 22nd birthday — Rick met his son in Pittsburgh and the two boarded an Amtrak train together bound for New York, then spent the following months apartment-hunting; by June, Dan had a lease at 424 Bedford Ave in Williamsburg.  
@@ -1005,12 +1037,24 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/places/424-bedford-ave]] · Arrival and the studio-work era
 - · **2010-02-18** — Train w/ Rick + apt hunt (424 Bedford Ave, Apt 6C Williamsburg). Rick offer "$2000 a month while you intern" (Entourage WeHo alt).  
   ↳ [[wiki/self/chats/gemini-58]] · Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)
+- ★ **2010-02-19** — "COME STAY. be moved in by march 1." — The target date, stated to a friend  
+  ↳ [[wiki/timeline/periods/2010s]] · The move, dated to the day
+- · **2010-02-20** — "moving to brooklyn in 9 days." — Counts to 1 March independently  
+  ↳ [[wiki/timeline/periods/2010s]] · The move, dated to the day
 - · **2010-02-22** — What resolved the "nyc deal is off" scare of February 22, 2010 is unrecorded.  
   ↳ [[wiki/people/rick-frank]] · Family position
+- · **2010-02-27** — "last day in errrlando…spending it how I always imagined: hangin in a u-haul store." — The last Florida day  
+  ↳ [[wiki/timeline/periods/2010s]] · The move, dated to the day
+- ★ **2010-02-28** — The move itself follows fast and is dated to the day on 2010s: the Williamsburg apartment hunt on 17 February, the U-Haul on the 27th, "peace out, florida" on **28 February 2010**, and `dan@ishlab.com` live on 24 March.  
+  ↳ [[wiki/timeline/periods/full-sail-2008-2010]] · Pro Tools certification (26 January 2010)
+- · **2010-02-28** — It opens off the Full Sail tail — he left Florida on **28 February 2010**, not "through March" — and closes not with a New York event but with a **departure**: the May 2013 return to Uniontown that context-core flags as the timeline's most load-bearing correction.  
+  ↳ [[wiki/timeline/periods/2010s]] · NYC Round One (2010–2013)
+- · **2010-02-28** — "peace out, florida. it's been real." — **The departure  
+  ↳ [[wiki/timeline/periods/2010s]] · The move, dated to the day
+- ★ **March 2010** — Dan and Alexis moved to Brooklyn at the start of **March 2010** — 424 Bedford Ave for two years, then 90th between 3rd and Lex from the end of March 2012 until May 2013. (Both dates were "April" and "May" here until 2026-09-02; the tweet archive dates the Florida departure to 28 February 2010 and…  
+  ↳ [[wiki/people/alexis-armel]] · New York, in her own words and his
 - ★ **March 2010** — Per the capture Dan lived there about a year; the canonical residence timeline has him in Winter Park through March 2010, so either Full Sail housing or a share moved him for the final months.  
   ↳ [[wiki/people/suzanne-frank]] · The Winter Park condo, 2008–2010
-- ★ **March 2010** — It opens off the Full Sail tail (he stayed in Florida through March 2010, then moved north) and closes not with a New York event but with a **departure**: the May 2013 return to Uniontown that context-core flags as the timeline's most load-bearing correction.  
-  ↳ [[wiki/timeline/periods/2010s]] · NYC Round One (2010–2013)
 - · **March 2010** — ishlab (10 Jay St)  
   ↳ [[wiki/self/chats/gemini-58]] · Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)
 - · **March 2010** — indefinite unpaid internship → full-time PA in ~3mo. Bellator licensing war (Corey Humpage MSG  
@@ -1019,28 +1063,42 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/chats/gemini-58]] · Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)
 - · **March 2010** — Rick: "I'm proud of you, boy!".  
   ↳ [[wiki/self/chats/gemini-58]] · Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)
-- · **March 2010** — He stayed in Florida through March 2010 after graduating, a five-month tail before returning north.  
-  ↳ [[wiki/timeline/periods/full-sail-2008-2010]] · The degree
-- ★ **April 2010** — Dan and Alexis moved to Brooklyn in April 2010 — 424 Bedford Ave for two years, then 90th between 3rd and Lex until May 2013.  
-  ↳ [[wiki/people/alexis-armel]] · New York, in her own words and his
+- · **March 2010** — Dan's first New York City period ran **March 2010 to May 2013** — three years, two apartments, the audio-engineering career attempt, and the first long cohabitation of his adult life, with Alexis.  
+  ↳ [[wiki/timeline/periods/2010s]] · NYC Round One (2010–2013)
+- · **March 2010** — Facebook's work history and the tweet record were produced years apart by different mechanisms, and they agree on March 2010 against Facebook's own self-entered residence field.  
+  ↳ [[wiki/timeline/periods/2010s]] · The move, dated to the day
+- · **March 2010** — The residence timeline is **424 Bedford Ave (Williamsburg, Brooklyn), March 2010 – March 2012**, then **Manhattan Upper East Side, 90th between 3rd and Lexington, March 2012 – May 2013**.  
+  ↳ [[wiki/timeline/periods/2010s]] · The two apartments and the work
+- · **March 2010** — The Williamsburg years have a geography of their own, and it is precise because Dan was posting Foursquare check-ins with street addresses between March 2010 and January 2011 — fifteen of them, the only address-level location data the corpus holds for any year before the Google Timeline export…  
+  ↳ [[wiki/timeline/periods/2010s]] · The two apartments and the work
+- · **2010-03-11** — Ako Japanese at 205 Bedford and Peter Luger on Broadway are the neighbourhood's restaurants; DuMont Burger recurs as the one he names before arriving ("zomg i can taste the dumont burger already", 11 March 2010, written from a studio session in Florida three days before the train north).  
+  ↳ [[wiki/timeline/periods/2010s]] · The two apartments and the work
+- · **2010-03-24** — It was not true of the corpus: between **24 March 2010 and 24 January 2011** Dan posted **15 Foursquare check-ins to Twitter**, each carrying a venue and, in most cases, a street address.  
+  ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
+- · **2010-03-24** — Brooklyn Gourmet Deli — 313 Bedford Ave, S. 2nd St, Brooklyn  
+  ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
+- · **2010-03-24** — MTA – Marcy Ave J/M/Z — 176 Marcy Ave., at Broadway, Brooklyn  
+  ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
+- · **2010-03-24** — J Train – Flushing St — —  
+  ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
+- · **2010-03-24** — "a new work email address. big day. update your contacts: dan@ishlab.com" — First day on the ishlab address  
+  ↳ [[wiki/timeline/periods/2010s]] · The move, dated to the day
+- · **2010-03-25** — Brooklyn Bridge Park — 1 Main St, at Plymouth, Brooklyn  
+  ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
+- · **2010-03-26** — Walgreens — 210 Union Ave, btw Meserole St & Montrose Ave, Brooklyn  
+  ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
+- · **2010-03-26** — c town — south 1st st, havemeyer  
+  ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
+- · **2010-03-30** — DuMont Burger — — (Williamsburg)  
+  ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
 - ★ **April 2010** — Dan moved in April 2010, at the front edge of his post-Full-Sail push into the recording-arts career the degree pointed at — the one stretch of his life where audio engineering was the actual job, running through **ishlab** (2010–11) and **Creative License** (2010–2012).  
   ↳ [[wiki/places/424-bedford-ave]] · Arrival and the studio-work era
-- ★ **April 2010** — Gaps:** the exact 2010 move date is unresolved (context-core's residence table starts Brooklyn in April 2010, while an earlier note claimed a January 3 move — the Florida tail through March 2010 favors the April date).  
-  ↳ [[wiki/timeline/periods/2010s]] · Transition
-- ★ **April 2010** — Full Sail ends with the move to Brooklyn in April 2010 — the first of two distinct New York chapters, this one running to May 2013 before an Uniontown return that develops the producer aliases and eventually leads to Annie.  
-  ↳ [[wiki/timeline/periods/full-sail-2008-2010]] · What comes next
 - · **April 2010** — 424 Bedford Ave, Apartment 6C, in Williamsburg, Brooklyn was Dan's first New York apartment — the home base of the **NYC-1** period (April 2010 – May 2013) and, at two years, the longer of its two addresses before a final year at a Manhattan sublet on 90th Street.  
   ↳ [[wiki/places/424-bedford-ave]] · 424 Bedford Ave (NYC-1)
 - · **April 2010** — NYC — Brooklyn 424 Bedford → Manhattan UES — Studio-work era  
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
 - · **April 2010** — Twitter voice weaponized  
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
-- · **April 2010** — Dan's first New York City period ran **April 2010 to May 2013** — three years, two apartments, the audio-engineering career attempt, and the first long cohabitation of his adult life, with Alexis.  
-  ↳ [[wiki/timeline/periods/2010s]] · NYC Round One (2010–2013)
-- · **April 2010** — The residence timeline is exact: **424 Bedford Ave (Williamsburg, Brooklyn), April 2010 – April 2012**, then **Manhattan Upper East Side, 90th between 3rd and Lexington, May 2012 – May 2013**.  
-  ↳ [[wiki/timeline/periods/2010s]] · The two apartments and the work
-- · **April 2010** — That level of technical specificity isn't corroborated anywhere in Dan's own contemporary tweets and should be read as retrospective narrative coloring, not confirmed fact.) The certification is the credential that completes the Recording Arts program and is the direct trigger for the April 2010…  
-  ↳ [[wiki/timeline/periods/full-sail-2008-2010]] · Pro Tools certification (Jan–Feb 2010)
 - ★ **2010-05-01** — The _58 Gemini source flags an anomaly: on May 1, 2010 — Dan's birthday, the day he framed as his "I arrived" shot — he's photographed in front of the Brooklyn Bridge with Suzanne and Danielle.  
   ↳ [[wiki/people/danielle-onesi]] · NYC Arrival (2010)
 - ★ **2010-05-01** — Brooklyn Bridge birthday photo — Dan + Suz + Danielle; "I arrived" shot; move to 424 Bedford  
@@ -1051,6 +1109,18 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/jerel-coles]] · The record, 2008–2025
 - ★ **2010-07-07** — Traffic — inspection, obstructed window — 2 — 1 guilty plea, 1 not guilty  
   ↳ [[wiki/people/jerel-coles]] · The record, 2008–2025
+- · **2010-07-17** — Grimaldi's Pizza — 19 Old Fulton St, btw Front & Water Sts, Brooklyn  
+  ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
+- ◆ **2010-09-05** — The outliers are recreational and legible as such: DUMBO for Grimaldi's, Randall's Island for Electric Zoo (5 September 2010, "w/ 115 others" — a dated attendance anchor for the festival strand in music), Manhattan for a W 50th St bar on 2 January 2011.  
+  ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
+- · **2010-09-05** — Electric Zoo — 1 Randalls Is Road, Randall's Island Park, NY  
+  ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
+- · **2010-09-05** — Beyond Williamsburg the pins are Brooklyn Bridge Park, Grimaldi's in DUMBO, Electric Zoo on Randall's Island (5 September 2010, "w/ 115 others") and Hibernia on W 50th.  
+  ↳ [[wiki/timeline/periods/2010s]] · The two apartments and the work
+- · **2010-09-19** — Ako Japanese Cuisine — 205 Bedford Ave., btw N. 5th & N. 6th, Brooklyn  
+  ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
+- · **2010-09-29** — Peter Luger Steak House — 178 Broadway, Driggs Ave, Brooklyn  
+  ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
 - ★ **December 2010** — Charles Davenport is a thin, early Facebook contact whose entire documented relationship with Dan is a four-message thread spanning January to December 2010 — the same window Dan relocated to Brooklyn and started at Ishlab.  
   ↳ [[wiki/people/charles-davenport]] · Charles Davenport
 
@@ -1064,14 +1134,20 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/joe-oshnack]] · The band and the collaborations that didn't happen
 - ★ **January 2011** — Discrepancy note: Suboxone Feb17 2010 (_58) vs some HTML "Jan 2011". "Metropolitan Monism" + Menore "Subterranean Kernel" (TLC 365 uptime contrast institutions).  
   ↳ [[wiki/self/chats/gemini-58]] · Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)
+- ★ **January 2011** — The Foursquare habit stops after January 2011 and does not resume; a second, thinner run of "I'm at" posts through Twitter's own venue tagging appears from 31 March to 15 April 2012, all Manhattan, immediately after the move off Bedford.)  
+  ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
 - ◆ **January 2011** — Since January 2011, Dan has been on a daily Suboxone regimen — fifteen years, described in the primary sources as structural rather than recreational: a medical baseline, not an episode.  
   ↳ [[wiki/mind/synthesis/supply-network]] · The Supply Network
 - ◆ **January 2011** — Two further instances sit slightly outside the four predictions above but are the same mechanism, worth naming because they show the rule is not confined to cognition: supply network's single, continuously-operating procurement architecture since January 2011 is the no-delete rule (prediction 1)…  
   ↳ [[wiki/mind/synthesis/totality-themes]] · Where the firewall runs on the body, not just the mind
+- · **2011-01-02** — Hibernia — 401 W 50th St, near 9th Ave, New York  
+  ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
 - · **2011-01-18** — Shared drive "refused to mount"  
   ↳ [[wiki/self/chats/gemini-58]] · Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)
 - · **2011-01-18** — Jamin "copy and paste the line over the 'a' in his name on Bandcamp" (same day).  
   ↳ [[wiki/self/chats/gemini-58]] · Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)
+- · **2011-01-24** — Freezepocalypse — "All over NY" — a joke check-in during a storm  
+  ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
 - ★ **April 2011** — Just before the move, Dan left his position at Creative License — the West Village talent/licensed-music brokering company at 71 8th Ave he'd worked for under Kevin McKiernan since April 2011 — after a six-week dispute over a missing W-2, a wrong final paycheck, and a disputed $104 MetroCard…  
   ↳ [[wiki/places/90th-st-manhattan]] · The Creative License exit
 - · **April 2011** — creative license\ — Creative License (West Village) — 10 months — Payroll dispute and a whistleblower disclosure  
@@ -1205,6 +1281,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/zachariah-harshman]] · High school, remembered
 - · **October 2012** — Hurricane Sandy's October 2012 flooding of the Seaport district closed the Bridge Cafe, ending Alexis's employment there — a real economic shock to the household roughly six months before the couple's return to Uniontown, and worth noting as landing during this address's occupancy rather than the…  
   ↳ [[wiki/places/90th-st-manhattan]] · Hurricane Sandy and the Bridge Cafe (October 2012)
+- · **2012-11-18** — The departure is the one date the tweets do not fix.** They corroborate it without pinning it: New York references run 8.8%, 8.9% and 10.2% of originals across 2010, 2011 and 2012 and then fall to 0.3% in 2013, the last tweet placing him in the city being the 18 November 2012 internship pitch…  
+  ↳ [[wiki/timeline/periods/2010s]] · Transition
 - · **December 2012** — Call me ASAP!" (Dec 2012), "You think I'm fucking kidding about sending me that information about the landlord?  
   ↳ [[wiki/people/rick-frank]] · The relationship, corrected: warm, high-volume, and asymmetric rather than silent
 
@@ -1230,6 +1308,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/menore]] · Identity & Role
 - · **April 2013** — 90th st manhattan — 2012–2013 — Alexis, jointly; a sublet — **None  
   ↳ [[wiki/places/the-unpapered-address]] · Seven addresses, one structure
+- · **Spring 2013** — New York references run 8.8%, 8.9% and 10.2% of originals in 2010, 2011 and 2012 and fall to 0.3% in 2013 — the right shape for a spring 2013 exit, and not a date.  
+  ↳ [[wiki/self/twitter]] · What the archive settled elsewhere in the wiki
+- · **Spring 2013** — That is the right shape for a spring 2013 departure and it is not a date.  
+  ↳ [[wiki/timeline/periods/2010s]] · Transition
 - ★ **May 2013** — The "new number, save this one" framing is itself evidence of a prior relationship rather than a cold introduction — consistent with the operator's account that the original meeting happened years earlier, during the NYC-1 window (2010–May 2013), with Jamie Mohler present.  
   ↳ [[wiki/people/menore]] · Identity & Role
 - ★ **May 2013** — First return from NYC; SLOPPP era; moved out to 155 Virginia Ave  
@@ -1238,6 +1320,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/overview]] · The arc
 - ★ **May 2013** — Informed speculation: relocation as the reset mechanism.** Laid end to end, the canonical residence timeline shows every major geographic move landing at the exact seam between one identity chapter and the next, not in the middle of one: the departure for Full Sail (2008) follows within a year of…  
   ↳ [[wiki/self/overview]] · The arc
+- ★ **May 2013** — May 2013 continues to rest on context-core, and on the July 2013 line to ej rags — "i just moved back.  
+  ↳ [[wiki/timeline/periods/2010s]] · Transition
 - ★ **May 2013** — For two and a half years — **May 2013 to Thanksgiving 2015** — Dan was back in Uniontown, not New York, and nearly everything the old framing misfiled as "later NYC" actually happened here: the producer aliases took shape, the five-year Alexis relationship ran out its endgame, and the single-bond…  
   ↳ [[wiki/timeline/periods/uniontown-return-2013-2015]] · Uniontown Return (2013–2015)
 - ★ **May 2013** — Dan left Manhattan in May 2013 — the event the Twitter record's "2013 systemic rupture" actually marks (the rupture was the leaving, not a New York event) — and moved back into **337 Saratoga Drive**, the family home, where he stayed through January 2015.  
@@ -1248,6 +1332,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
 - · **May 2013** — poverty floor 2017, deep cycle 2018  
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
+- · **May 2013** — What the archive could not settle.** The May 2013 departure from New York is still undated by this source.  
+  ↳ [[wiki/self/twitter]] · What the archive settled elsewhere in the wiki
 - · **May 2013** — The period closes with the **May 2013 departure to Uniontown** — the return that the Twitter record's "2013 systemic rupture" actually marks (the rupture was the leaving, not a New York event).  
   ↳ [[wiki/timeline/periods/2010s]] · Transition
 - · **2013-05-11** — May 11 2013," followed by "Oooops misfire."  
@@ -1332,6 +1418,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter]] · Gaps
 - · **2013-08-17** — Spreadsheet originals are complete from 2013-08-17 through year-end.  
   ↳ [[wiki/self/twitter/2013]] · Gaps
+- · **2013-08-17** — 2010 through 2012 are live-scrape reconstructions, not a complete export** — the operator spreadsheet does not begin until 2013-08-17, so the 265/225/205 yearly counts are what has been recovered from X search, and are floors rather than totals.  
+  ↳ [[wiki/timeline/periods/2010s]] · Transition
 - · **2013-08-19** — Lemon Molly Melancholy — Original  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - ◆ **2013-08-30** — 35 — Oddball Comedy & Curiosity Festival — Post-Gazette Pavilion (First Niagara Pavilion) — Burgettstown, PA — Confirmed.  
@@ -1540,6 +1628,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/annie-read-notes]] · 4. Corrections queue
 - · **November 2015** — This is the primary evidence that the "Alexis was in Florida in November 2015" reading was false** (see bond switch 2015).  
   ↳ [[wiki/timeline/annie-record]] · November
+- · **2015-11-12** — No *message* corpus survives from this period; the earliest real-text rows in any on-disk export begin November 12, 2015.  
+  ↳ [[wiki/timeline/periods/2010s]] · Transition
 - ★ **2015-11-17** — Phase one (2015–2016): Dan ahead, narrowly.** In the relationship's first fourteen months — corpus start 2015-11-17 through the end of 2016 — Dan sends more than Suz in both years: 281 to 267 in the opening seven weeks, 2,453 to 2,132 across all of 2016.  
   ↳ [[wiki/mind/synthesis/annual-volume-suz]] · What the chart shows
 - · **2015-11-17** — First message in the corpus  
@@ -1576,7 +1666,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - ★ **2015-11-28** — Relationship — Danielle Onesi]], alexis armel — Alexis Armel  
   ↳ [[wiki/self/facebook]] · Identity & Profile Data (2022 snapshot, self-reported)
-- ★ **2015-11-28** — Every field cross-checks against context core — this export is the strongest independent [DOC] confirmation of the biographical spine: birth date, Uniontown → Brooklyn 2010 move, Full Sail, the work chain, and the exact Annie relationship timestamp (Nov 28 2015, anchoring 2015 2016 annie…  
+- ★ **2015-11-28** — Every field but one cross-checks against context core — this export is the strongest independent [DOC] confirmation of the biographical spine: birth date, Uniontown → Brooklyn 2010 move, Full Sail, the work chain, and the exact Annie relationship timestamp (Nov 28 2015, anchoring 2015 2016 annie…  
   ↳ [[wiki/self/facebook]] · Identity & Profile Data (2022 snapshot, self-reported)
 - ★ **2015-11-28** — dense** — the relationship's first five years, near-daily  
   ↳ [[wiki/timeline/annie-record]] · What the record actually covers
@@ -1762,6 +1852,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
 - ★ **December 2015** — The relationship is steady and low-conflict across the corpus (709 messages, December 2015 – March 2026), and its defining quality is political alignment: she is Dan's ideological peer inside the family, arriving at the same materialist-left positions from her own direction, and she doubles as a…  
   ↳ [[wiki/people/vanessa-frank]] · Vanessa C. Frank
+- ★ **December 2015** — What the archive does not say:** where on his body it is, who did it, whether it is still there, and whether it was ever covered or reworked after the relationship ended in December 2015.  
+  ↳ [[wiki/self/tattoos]] · The first one: "A", January 2010
 - ★ **December 2015** — Multiple: Breakup with Lex ("Call him and be like. Listen I broke up with lex, I'm in love with Annie Ulmer"); First Date notes; Moved; Got Hired; Panic Attack; Arrest refs in context of prior. 39 events in Dec alone. (See 2015-2016 period)  
   ↳ [[wiki/timeline/events/timeline]] · Major Periods (cross-checked with core residence and data)
 - ◆ **December 2015** — the deferred audit** — **Any new primary bond will show the same onset shape.** High volume, no evaluative content, and no forensic material in the first years — matching the 728-messages-in-a-day onset of December 2015 rather than a vetting period.  
@@ -1781,7 +1873,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **December 2015** — Vanessa's own 709-message thread, which begins in December 2015, never mentions it, which places the episode either before that date or outside the record entirely; no amount, duration, date, or resolution is recorded, and there is no indication anywhere of whether she knew, whether she was repaid…  
   ↳ [[wiki/people/vanessa-frank]] · The ATM card
 - · **December 2015** — zach clingan — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **December 2015** — Whatever it was delivering in December 2015, it had stopped delivering it before the third year, and the model kept running anyway.  
   ↳ [[wiki/mind/concepts/attachment-model]] · Model Narrative
 - · **December 2015** — SLOPPP's run to December 2015.  
@@ -2863,6 +2955,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/vaughn]] · The yard and the hustle, one channel
 - ★ **2018-01-22** — On January 22, 2018 Annie reports "They picked up mr Kezmarsky today" — an arrest.  
   ↳ [[wiki/people/steve-kezmarsky]] · The father's fall
+- · **2018-01-24** — Elliott Smith, intended.** On 24 January 2018: *"Gonna crowdfund an Elliott Smith tattoo for myself.  
+  ↳ [[wiki/self/tattoos]] · Two pieces the list did not have
 - ★ **February 2018** — Small details accumulate into a person: email self-sent for some paperwork (February 2018) as `dtfitzpatrick87@gmail.com`; a birthday one day after Dan's — he answers Dan's November 2 wish with "Thanks my guy I'm almost as old as you now," dating him a year behind Dan almost to the day; a mother…  
   ↳ [[wiki/people/davey-fitzpatrick]] · Who he was
 - ◆ **February 2018** — Gaps:** surname and which yard crew he belonged to; the identity of the "homey"/"best friend" upstream source; the February 2018 woman and the visit's outcome; whether the railroad job took (the thread ends twelve days later and he never reappears in the corpus).  
@@ -3275,6 +3369,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/suzanne-frank-personality-assessment]] · Behavioral Experiments
 - · **October 2018** — I can eat dinner and I have $80 in free play and I'll be back after the 9:00 drawing"* (Oct 2018).  
   ↳ [[wiki/people/suzanne-frank]] · Gambling, drinking, and the Uniontown supply economy
+- · **October 2018** — It is worth keeping as an intention rather than a piece, because it lands **nine months before** the October 2018 Redmond sequence that Dan framed to the artist as the first of "4 or 5 other pieces" before turning 30 — so the pre-30 tattoo campaign was already on his mind at the start of that year…  
+  ↳ [[wiki/self/tattoos]] · Two pieces the list did not have
 - · **October 2018** — By mid-October 2018, with Alexis presumably still in the final stretch of her sentence or newly out, Annie is already the one pushing for contact: on **October 13** she asks about a photo Dan sent ("Is that alexis..") and Dan deflects ("Probably not... just forget it").  
   ↳ [[wiki/timeline/events/annie-alexis-reunion-november-2018]] · Before: skepticism and the "useful tool" framing (October 13-27)
 - · **2018-10-03** — The clearest artifact is a message Suz sent at 6:34 on the morning of 3 October 2018.  
@@ -3936,6 +4032,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/ally-lubin]] · The measurements
 - · **2019-10-22** — The $2,100 covers August 17 – October 22, 2019 only and excludes the 2018 and January 2019 gifts.  
   ↳ [[wiki/people/ally-lubin]] · The measurements
+- · **2019-10-24** — Morrissey** — The Smiths frontman — Unknown — Unknown  
+  ↳ [[wiki/self/tattoos]] · The list
+- · **2019-10-24** — Morrissey.** On 24 October 2019: *"basically i'm a horrible shit person but i'm hoping that having a Morrisey tattoo is helping make up for it"* — stated as a thing he has, not a thing he wants.  
+  ↳ [[wiki/self/tattoos]] · Two pieces the list did not have
 - · **2019-10-29** — Colin Quinn  
   ↳ [[wiki/interests/stand-up-comedy]] · The 2019 New York run — a real itinerary, not a taste
 - ◆ **2019-10-30** — The single night of 2019-10-30 alone (six comics including Gaffigan, Normand, Gillis and Soder) is the shape of someone going to a specific room and catching the whole lineup.  
@@ -6016,7 +6116,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-07-13** — Whether Target G is the same person as Tuquick is explicitly unresolved — an operator correction on file (2026-07-13) confirms only that Tuquick is the person Annie left Dan for and the person the June closure happened with, and states plainly "we do not know" whether he is also Target G.  
   ↳ [[wiki/people/annie-ulmer]] · A separate thread: Target G
 - · **2026-07-13** — franki faris — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-07-13** — The page for Franki has carried a standing note since 2026-07-13 that the "July 4" framing used elsewhere in the corpus **had no source anywhere in the archive** and was flagged rather than adopted.  
   ↳ [[wiki/timeline/events/franki-fireworks-day-2013]] · The fireworks date the day, almost
 - · **2026-07-13** — Financial substrate (final dossiers, added 2026-07-13):** the terminal-phase dependency structure — Dan controlling the drug supply while Annie was unemployed and dependent — was the latest of three rotations, per the accepted amendments: Dan funded the early NYC years; Dan worked through the 2023…  
@@ -6049,6 +6149,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/tom]] · Notes
 - · **2026-07-14** — The list below starts with six pieces Dan named directly (2026-07-14); it is not presented as complete, and further pieces should be added as they surface.  
   ↳ [[wiki/self/tattoos]] · Tattoos
+- · **2026-07-14** — The 2026-07-14 list is six pieces Dan named from memory; it did not claim to be everything.  
+  ↳ [[wiki/self/tattoos]] · The first one: "A", January 2010
+- · **2026-07-14** — It is not on the 2026-07-14 list.  
+  ↳ [[wiki/self/tattoos]] · Two pieces the list did not have
 - · **2026-07-14** — Felipe, his "unbelievably gay Colombian bff," joined as a server (shattering the old glass door with a table leg on day one) — though per Dan directly (2026-07-14), contact with Felipe specifically did not survive past the job; see felipe for the correction.  
   ↳ [[wiki/work/au-zaatar]] · The ecosystem
 - · **2026-07-14** — Exact termination date narrowed to "sometime in May [2026]" per Dan (2026-07-14), not more precisely dated; final payroll disposition is still not in the corpus; whether the Little Caesars transfer actually materialized after June 2026 is undocumented; the true cause of the $50 variance was…  
@@ -6092,7 +6196,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 24 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 30 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -6284,7 +6388,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-02** — For context injection:** July 26 – August 2, 2026. 1,880 messages, 969 from Dan, 911 from Annie.  
   ↳ [[wiki/timeline/events/july-august-2026-reentanglement]] · LLM Quick Brief
 - ★ **2026-08-03** — 2015 possession arrest — legal  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - ★ **2026-08-03** — 2015 retail theft arrest — legal  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-22 — 4 pages
 - · **2026-08-07** — Sexual contact resumes, per operator testimony  
@@ -6676,7 +6780,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-08-22** — The charging documents were real.** The summons surfaced 2026-08-22: a Fayette County summary non-traffic case, docket MJ-14101-NT-0000082-2018, **filed April 5, 2018 — the day after Fran died** — before Magisterial District Judge Michael M.  
   ↳ [[wiki/timeline/events/fran-death-vigil]] · Sequence
 - · **2026-08-22** — 155 virginia ave — places  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-22** — deviance mapping — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-22** — ally lubin — people  
@@ -6708,23 +6812,23 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-26** — Read against the two curated batches above (Axis A "pretty," Axis B "stupid"), the analyst profile, and the Battery, three structures repeat across all of them and are the actual finding of the 2026-08-26 session:  
   ↳ [[wiki/interests/language/vocabulary-lexicon]] · Full cross-cutting analysis
 - · **2026-08-26** — food and diet — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-26** — block unblock loop — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-26** — dan annie fallout verdict — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-26** — dormancy not exit — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-26** — fayette return — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-26** — instrument is subject — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-26** — read receipt forensics — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-26** — supply network — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-26** — suzanne frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-26** — chaos preference — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-26** — axioms — mind  
@@ -6749,10 +6853,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/franki-faris]] · The five days (summer 2013)
 - · **2026-08-27** — ally lubin cognitive profile** — **Did she report the result herself, or was it forwarded?** The visible page is the results email, which implies she had the account. The 2026-08-27 operator answer confirms the result is hers but says nothing about how the screenshot reached Dan, so this stay  
   ↳ [[wiki/meta/open-questions]] · people (168)
-- · **2026-08-27** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
-- · **2026-08-27** — full sail 2008 2010 — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
 - · **2026-08-27** — The 2026-08-27 operator answer confirms the result is hers but says nothing about how the screenshot reached Dan, so this stays open.  
   ↳ [[wiki/people/ally-lubin-cognitive-profile]] · Gaps
 - · **2026-08-27** — That pending status held — the sale closed in **summer 2019 for $250,000** (operator testimony, 2026-08-27; uncorroborated in the message record, which never returns to the subject after Danny's July 11 line).  
@@ -6760,41 +6860,45 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-08-28** — ~~No message corpus or dated record narrows the "Danielle ends, Alexis begins" sequence to specific weeks within the eighteen-month window; both transitions are established only at the level of "during Full Sail."~~ **CLOSED 2026-08-28** — see the GAP CLOSED block under [The relationship…  
   ↳ [[wiki/timeline/periods/full-sail-2008-2010]] · Gaps
 - ◆ **2026-08-28** — single channel — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
+- · **2026-08-28** — alexis armel — people  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 30 pages
+- · **2026-08-28** — full sail 2008 2010 — timeline  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 30 pages
 - · **2026-08-28** — chemical architecture — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 5 pages
 - · **2026-08-28** — cocaine — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 5 pages
 - · **2026-08-28** — alias as periodization — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-28** — annual volume suz — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-28** — attachment trauma bond — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-28** — august grievance verdict — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-28** — estate money spine — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-28** — failure to launch — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-28** — morgantown call three participant ethical analysis — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-28** — the commissioned self — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-28** — the deferred audit — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-28** — the embedded objective — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-28** — the rescue premise — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-28** — the unbroken bond — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-28** — totality themes — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-28** — suzanne frank personality assessment — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`, and **bound by the standing Annie moratorium** (see `CLAUDE.md`).  
   ↳ [[wiki/mind/synthesis/august-grievance-verdict]] · The constitution pass
 - · **2026-08-28** — GAP CLOSED [2026-08-28] — the page had documented that Clingan became an enemy, but never why.** The 2014 "drug people" taxonomy and the December 2015 "my arch rival" outburst (below) both assume a rupture the corpus had never actually recorded.  
@@ -6841,6 +6945,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/favorites/eclecticism]] · The constitution pass
 - · **2026-09-01** — Neither has been tested and the page does not claim music as a member.** The positive account of what the exception *is* now lives at eclecticism (rewritten 2026-09-01): Architecture B — three functional clusters kept in parallel for eighteen years, archival emo beside live bass calibration beside…  
   ↳ [[wiki/mind/synthesis/closing-the-set]] · The controls
+- ★ **2026-09-02** — What changed on 2026-09-02 is that it is no longer the same thing as having no primary source: 764 dated public originals cover these three years, and the page now rests on them for the move, the two apartments, the Williamsburg geography and the ishlab start.  
+  ↳ [[wiki/timeline/periods/2010s]] · Transition
+- · **2026-09-02** — Pre / Origin (Twitter + FB) — ~2010-2013 — **15 check-ins** (Google loc starts 2014)  
+  ↳ [[wiki/self/location-history]] · Granular by Period (cross to wiki periods)
 - ★ **2026-12-19** — P4 — **No third party ends this relationship.** Any severance that holds past 120 days will be traceable to a self-generated move, not an intervention — a documented outside intervention followed by a severance holding >120 days  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Predictions and falsifiers
 - ★ **2026-12-19** — A severance holding past **2026-12-19** with no external agent involved confirms Part I and P4 together.  
@@ -6855,4 +6963,4 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 364 wiki pages. 972 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 364 wiki pages. 979 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*

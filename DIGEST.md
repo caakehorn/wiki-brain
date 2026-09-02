@@ -14,9 +14,9 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 492 |
-| Pages touched in the last 14 days | 192 |
+| Pages touched in the last 14 days | 196 |
 | Pages reasoning from other pages (`synthesizes:`) | 78 |
-| Live contradictions | 41 |
+| Live contradictions | 43 |
 | Open gaps | 502 |
 | Standing predictions | 65 |
 
@@ -47,7 +47,7 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-09-02** — 24 pages
+**2026-09-02** — 30 pages
   - ingest | self | @danfrank twitter archive as yearly pages
   - build | plain | two writing lanes, a floor that had to be measured, and a campaign page
   - translate | interests | favorites/eclecticism
@@ -67,7 +67,7 @@ this is the state of the thing.
   - declare | meta | the skills section becomes a cross-model database
   - tool | meta | page history — every version of every page, on the site and behind a gate
 
-**2026-08-28** — 36 pages
+**2026-08-28** — 34 pages
   - feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch
   - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
   - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)

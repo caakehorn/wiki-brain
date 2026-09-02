@@ -3,13 +3,16 @@ domain: self
 page_type: summary
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-02
+date_modified: 2026-09-02
 date_range_start: 2007-01-09
 date_range_end: 2022-09-05
-sources: ["raw/self/facebook/facebook-ihatedanfrank/"]
+sources: ["raw/self/facebook/facebook-ihatedanfrank/", "raw/self/twitter/archive.jsonl"]
 related: ["wiki/self/context-core", "wiki/self/facebook/messages", "wiki/self/facebook/posts", "wiki/self/facebook/friends", "wiki/self/facebook/interests"]
 tags: [relationships, nyc-era, family, uniontown-era, trauma-bond]
 connections:
+  - page: wiki/self/twitter
+    type: contradicts
+    claim: "Facebook's `places lived` field dates the Brooklyn move to 3 January 2010; the tweet archive has Dan still in Florida counting down to it on 20 February and leaving on the 28th — the self-entered profile field is wrong by eight weeks while the same export's work history is right."
   - page: wiki/mind/synthesis/millennial-digital-witness
     type: evidences
     claim: "The archive is the witness theory instantiated in one person's complete data arc."
@@ -44,10 +47,38 @@ Full Facebook data export (79 MB, generated Sep 5 2022) for the account **ihated
 | Education | Full Sail University — Recording Arts (2010); Laurel Highlands Senior HS (2006) |
 | Work history | [[wiki/work/au-zaatar|Au Za'atar]] (Apr 2021–); Nemacolin (Apr 2016–Mar 2019); caddie, Farmington PA; Creative License (2011–12, NYC); Ishlab Studio (Mar 2010–Feb 2011, Brooklyn) |
 | Politics / religion | Democratic Socialists of America (NY chapter) / Humanistic Atheism |
-| Places lived | Brooklyn NYC from Jan 3, 2010 |
+| Places lived | Brooklyn NYC from Jan 3, 2010 — **wrong by eight weeks**, see below |
 | Family listed | [[wiki/people/rick-frank|Rick Frank]] (father), [[wiki/people/vanessa-frank|Vanessa Frank]] (sister), Alan Frank (cousin), Becca, Andy, Wendy Beth |
 
-Every field cross-checks against [[wiki/self/context-core]] — this export is the strongest independent [DOC] confirmation of the biographical spine: birth date, Uniontown → Brooklyn 2010 move, Full Sail, the work chain, and the exact Annie relationship timestamp (Nov 28 2015, anchoring [[wiki/timeline/periods/2015-2016-annie-relationship-start]]).
+Every field but one cross-checks against [[wiki/self/context-core]] — this
+export is the strongest independent [DOC] confirmation of the biographical
+spine: birth date, Uniontown → Brooklyn 2010 move, Full Sail, the work
+chain, and the exact Annie relationship timestamp (Nov 28 2015, anchoring
+[[wiki/timeline/periods/2015-2016-annie-relationship-start]]).
+
+> **CONTRADICTION [2026-09-02] — `places lived` is not a dated field.**
+> This paragraph used to say *every* field cross-checks. One does not.
+> `places lived` gives **Brooklyn NYC from January 3, 2010**. The
+> [[wiki/self/twitter|tweet archive]] has Dan in Florida for another
+> eight weeks: *"moving to brooklyn in 9 days"* on 20 February 2010,
+> *"last day in errrlando…hangin in a u-haul store"* on the 27th, *"peace
+> out, florida. it's been real."* on the 28th.
+>
+> **This export contradicts itself, and the other half is right.** The
+> `work history` row two lines up starts **Ishlab Studio in March 2010**
+> — and `dan@ishlab.com` first appears in a tweet on 24 March 2010. Where
+> Facebook is transcribing something with a real date behind it (a job, a
+> relationship timestamp, a birthday) it holds. Where it is rendering a
+> value Dan typed into a profile form at an unknown later moment, it is
+> memory, and it drifted by two months.
+>
+> The distinction is worth carrying beyond this page: **a Facebook
+> profile field is testimony, not a record.** `relationship … since
+> November 28, 2015` is a system-generated timestamp and can anchor a
+> period page. `places lived: from Jan 3, 2010` is free text and cannot.
+> They sit in the same table and look identical. See
+> [[wiki/timeline/periods/2010s]], where the correct move date is now
+> established.
 
 ## Corpus Dimensions
 

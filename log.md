@@ -7561,3 +7561,44 @@ high-intensity stretch, and it is an export artifact because the watching
 happened on another account. That sequence is the most useful thing on the page
 for teaching a reader how to read the rest of it. Second incidental-mention
 case; the twin names nobody.
+
+## [2026-09-02] ingest | self/timeline/people | @danfrank twitter archive — mined across the wiki
+
+The archive landed as 2,525 originals and eighteen yearly transcription
+pages and had never been mined; no page outside `wiki/self/twitter/` cited a
+tweet. Built `bin/mine-tweets` and worked it into seven pages.
+
+**What was wrong.** `wiki/timeline/periods/2010s` declared its own unresolved
+gap — the 2010 move date, "April 2010" per context-core versus "January 3"
+per an earlier note. Neither is right: Dan left Florida **28 February 2010**
+("peace out, florida. it's been real."), targeting a 1 March move-in, and
+`dan@ishlab.com` is live on 24 March. The same page's second apartment date
+moves too — "Goodbye, Brooklyn!" / "Hello, Manhattan." on 29 and 30 **March**
+2012, not May. `full-sail-2008-2010` carried the same April date and a vague
+"Jan–Feb 2010" certification; the exam was failed on 25 January and passed at
+19:40 UTC on the 26th, with "Brooklyn here we come!!" posted at 19:51 —
+eleven minutes later, which makes a test score the period's causal hinge.
+
+**What was falsified.** `wiki/self/tattoos` opened "entirely cultural
+reference … every known piece points at a specific record, band, or artist."
+The first tattoo is 23 January 2010 and is the letter **A**, for Alexis — "I
+have her on me forever now." A Morrissey piece (by 2019-10-24) was also
+missing from the inventory. `wiki/self/facebook` claimed "every field
+cross-checks"; its `places lived: Brooklyn from Jan 3, 2010` is wrong by
+eight weeks while its work history (ishlab, March 2010) is right — the same
+export contradicting itself, held on both pages rather than resolved.
+`wiki/self/location-history` said "No contradiction" about that field, and
+recorded 2010–2013 as "N/A (loc starts 2014)": there are 15 Foursquare
+check-ins with street addresses from March 2010 to January 2011, the only
+address-level location data before the Google export begins.
+
+**The evidentiary change is the real one.** NYC-1 said it rested on
+"context-core, the Facebook record, and the Gemini-_58 reconstruction, not on
+primary message data." 764 dated first-party originals fall inside it. Both
+limits are stated on the page rather than quietly enjoyed: 2010–2012 are
+live-scrape reconstructions whose counts are floors, and the May 2013
+departure is the one date the tweets do not fix (NY references run 8.8/8.9/
+10.2% across 2010–12, then 0.3% — the right shape, not a date).
+
+Twenty typed edges added, including the twelve year pages the hub had never
+claimed with a `contains` edge.

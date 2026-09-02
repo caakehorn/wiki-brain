@@ -85,6 +85,12 @@ connections:
   - page: wiki/people/aaron
     type: parallels
     claim: 'Aaron''s thread extends the same sicko/justice-system-skeptic political engagement already documented from Dan''s Twitter activity (Luigi Mangione coverage) into a second, real-time political-violence event a year later.'
+  - page: wiki/self/location-history
+    type: evidences
+    claim: 'The 15 Foursquare check-ins of 2010-11 fill that page''s pre-2014 blind window with street-address data — the only such data the corpus holds before the Google Timeline export begins.'
+  - page: wiki/self/facebook
+    type: contradicts
+    claim: 'The February 2010 tweets put Dan in Florida eight weeks after the date Facebook''s `places lived` field claims he was living in Brooklyn — a self-entered profile field failing against timestamps, while the same export''s work history holds.'
 ---
 
 # Twitter / X Activity (@danfrank)
@@ -124,6 +130,37 @@ The older page on this path was a sample synthesis from 2019–2026 and said so.
 Volume is the other correction. 2024 is the peak (258 spreadsheet originals), 2020 the floor (25), 2025 a collapse-year quiet (13). Twitter is an output valve, not the diary: 2015, the year the Annie relationship starts, is almost silent here. When the life is happening in texts, this account thins. When it is happening as commentary — 2017 Sessions, 2022 J6, 2023 Fetterman villain arc, 2024 Luigi — it thickens. That is the same contact-gini shape the private corpora show, rendered in public.
 
 The production identity is not a late add-on. 2013 is SLOPPP trap mixes on SoundCloud in the same weeks as Instagram lookouts; 2026 is MOGZART DnB and moltbook agent claims. Music is the sincere channel across both ends of the archive. The AI year (Grok Build, Fable 5, Claude godmode, moltbook) is real and is 2026, not the whole story.
+
+## What the archive settled elsewhere in the wiki
+
+The yearly pages are a transcript. This is what reading them changed on
+other pages — each claim dated, each traceable to a tweet with a URL.
+
+| Finding | Where it landed |
+|---|---|
+| Dan left Florida **28 February 2010**, not April; in Brooklyn and working by 24 March | [[wiki/timeline/periods/2010s]], [[wiki/timeline/periods/full-sail-2008-2010]] |
+| Pro Tools certification is **26 January 2010**, failed once the day before; "Brooklyn here we come!!" posted **eleven minutes** after the pass | [[wiki/timeline/periods/full-sail-2008-2010]] |
+| Brooklyn → Manhattan is **29–30 March 2012**, a month earlier than recorded | [[wiki/timeline/periods/2010s]] |
+| Dan's **first tattoo** is 23 January 2010 — the letter "A", for Alexis. Not a cultural reference, which the tattoos page's thesis had said all of them were | [[wiki/self/tattoos]], [[wiki/people/alexis-armel]] |
+| A **Morrissey tattoo** exists that no inventory listed | [[wiki/self/tattoos]] |
+| **15 Foursquare check-ins** with street addresses, 2010–11 — the only address-level location data before the Google export starts in 2014 | [[wiki/self/location-history]] |
+| Facebook's `places lived` date is **wrong by eight weeks**, while the same export's work history is right | [[wiki/self/facebook]] |
+
+> **CONTRADICTION:** the archive and [[wiki/self/facebook]] disagree about
+> when Dan moved to Brooklyn. Facebook's `places lived` field says 3
+> January 2010. On 20 February 2010 he tweeted *"moving to brooklyn in 9
+> days"*, and on the 28th *"peace out, florida."* Both records are his
+> own; one is timestamped by the platform and one was typed into a
+> profile form later. The contradiction is held on both pages rather than
+> resolved by seniority, and the general lesson is recorded there: a
+> Facebook profile field is testimony, not a record, even when it sits in
+> the same table as fields that are.
+
+**What the archive could not settle.** The May 2013 departure from New
+York is still undated by this source. New York references run 8.8%, 8.9%
+and 10.2% of originals in 2010, 2011 and 2012 and fall to 0.3% in 2013 —
+the right shape for a spring 2013 exit, and not a date. It continues to
+rest on context-core.
 
 ## Inclusion rule
 

@@ -8,7 +8,7 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 41 |
+| Live contradictions | 43 |
 | Open gaps | 502 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
@@ -66,6 +66,8 @@ somewhere and has not yet found out where.
 - **[[wiki/people/sadie-harris]]** — earlier versions of this page and the member table on fayette-return both recorded Sadie as having *died* in Hopwood on 27 November 1997. The GEDCOM records no death place at all — only the date — and lists Hopwood as the **burial** place. Her last attested residence is Brownsville in 1993. The Hopwood association is r
 - **[[wiki/people/suzanne-frank]]** — A $200 cocaine spend on 2015-12-29 is **not** established as hers, and an earlier pass wrongly recorded it as such. The record has Annie saying *"And that $200 wasn't even your own"* (23:48) and Dan answering *"It was my money"* (23:50). The two lines conflict and the corpus does not settle them. Held open rather than 
 - **[[wiki/self/concepts/chatgpt]]** — This page and claude-code make incompatible claims about where an LLM's value sits. This page treats it as residing in the model's *willingness* — a register it will speak in, a class of question it will engage — which is why a guardrail change reads here as a capability loss and why the honesty standard is encoded as 
+- **[[wiki/self/facebook]]** — This paragraph used to say *every* field cross-checks. One does not. `places lived` gives **Brooklyn NYC from January 3, 2010**. The tweet archive has Dan in Florida for another eight weeks: *"moving to brooklyn in 9 days"* on 20 February 2010, *"last day in errrlando…hangin in a u-haul store"* on the 27th, *"peace out
+- **[[wiki/self/twitter]]** — the archive and facebook disagree about when Dan moved to Brooklyn. Facebook's `places lived` field says 3 January 2010. On 20 February 2010 he tweeted *"moving to brooklyn in 9 days"*, and on the 28th *"peace out, florida."* Both records are his own; one is timestamped by the platform and one was typed into a profile 
 - **[[wiki/timeline/events/august-2026-morgantown-call]]** — Dan states he sent the audio to Annie's parents (three times, Aug 19 01:04–01:48) and states that he did not (twice, Aug 19 11:25 and 15:12), and the corpus contains a proven false claim of exactly this kind from the day before. No email, no bounce, no reply, and no third-party reaction appears anywhere in `raw/`. **Th
 - **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — the operator's account says Annie *"contacted her independently without me knowing and invited her back over."* The 22:56 `Shelbie Breakiron.vcf` attachment, sent by Dan to Annie, is hard to reconcile with that. The likeliest reading is that the memory compresses a night in which he supplied the means and did not expec
 - **[[wiki/timeline/events/teen-concert-years]]** — The Facebook "Concerts I've gone to" note dates HIM to **2005-11-09 at Mr. Small's**; the researched list places the Love Metal Tour at **2004-04-21, The Rock Club at Station Square**, with a separate November 2004 return. The note dates Taking Back Sunday / Angels & Airwaves to **2006-07-04 in Columbus**; the research

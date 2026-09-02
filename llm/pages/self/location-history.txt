@@ -3,8 +3,8 @@ domain: self
 page_type: synthesis
 status: archived
 date_created: 2026-06-22
-date_modified: 2026-07-26
-sources: ["raw/self/location/2026-06-22-ingest/Location History (Timeline)-20260622T225253Z-3-001.zip", "raw/self/location/2026-06-22-ingest/Location History (Timeline)/semantic_location.db", "raw/self/location/2026-06-22-ingest/Location History (Timeline)/Records.json", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/archives/google-data-export-index-20260623.html"]
+date_modified: 2026-09-02
+sources: ["raw/self/twitter/archive.jsonl", "raw/self/location/2026-06-22-ingest/Location History (Timeline)-20260622T225253Z-3-001.zip", "raw/self/location/2026-06-22-ingest/Location History (Timeline)/semantic_location.db", "raw/self/location/2026-06-22-ingest/Location History (Timeline)/Records.json", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/archives/google-data-export-index-20260623.html"]
 synthesizes:
   - wiki/self/context-core
   - wiki/self/overview
@@ -34,6 +34,9 @@ related:
   - wiki/interests/favorites/music
 tags: [uniontown-era, nyc-era, career, financial-stress, housing]
 connections:
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "15 Foursquare check-ins posted to Twitter between March 2010 and January 2011 are the only street-address location data the corpus holds before the Google Timeline export begins in April 2014, and they place Dan in south Williamsburg."
   - page: wiki/people/morley-frank
     type: co-occurs
     claim: "The paternal grandfather held a Champion, PA address in the 1996-99 directories — the Seven Springs resort town — concurrently with his Hopwood one, overlapping the childhood years CONTEXT_CORE records as a weekly ski identity; documented co-occurrence, causal link unestablished."
@@ -89,11 +92,61 @@ Not a full multi-product Takeout; no YouTube, Gmail, Drive, Photos etc. in this 
 - Noted in self/index + phenom/context as "digital witness" substrate.
 - Archive browser reinforces no new phenom concepts; pure data index.
 
+### Before the export begins (2010–2012)
+
+This page's headline limit is that the Google Timeline export starts in
+**April 2014**, so everything before it was N/A. That was true of *this
+source*. It was not true of the corpus: between **24 March 2010 and 24
+January 2011** Dan posted **15 Foursquare check-ins to Twitter**, each
+carrying a venue and, in most cases, a street address. They are the only
+address-level location data the wiki holds for any year before 2014.
+
+| Date | Venue | Address as posted |
+|---|---|---|
+| 2010-03-24 | Brooklyn Gourmet Deli | 313 Bedford Ave, S. 2nd St, Brooklyn |
+| 2010-03-24 | MTA – Marcy Ave J/M/Z | 176 Marcy Ave., at Broadway, Brooklyn |
+| 2010-03-24 | J Train – Flushing St | — |
+| 2010-03-25 | Brooklyn Bridge Park | 1 Main St, at Plymouth, Brooklyn |
+| 2010-03-26 | Walgreens | 210 Union Ave, btw Meserole St & Montrose Ave, Brooklyn |
+| 2010-03-26 | c town | south 1st st, havemeyer |
+| 2010-03-30 | DuMont Burger | — (Williamsburg) |
+| 2010-07-17 | Grimaldi's Pizza | 19 Old Fulton St, btw Front & Water Sts, Brooklyn |
+| 2010-09-05 | Electric Zoo | 1 Randalls Is Road, Randall's Island Park, NY |
+| 2010-09-19 | Ako Japanese Cuisine | 205 Bedford Ave., btw N. 5th & N. 6th, Brooklyn |
+| 2010-09-29 | Peter Luger Steak House | 178 Broadway, Driggs Ave, Brooklyn |
+| 2011-01-02 | Hibernia | 401 W 50th St, near 9th Ave, New York |
+| 2011-01-24 | Freezepocalypse | "All over NY" — a joke check-in during a storm |
+
+(Two further badge-unlock posts carry no venue. The Foursquare habit
+stops after January 2011 and does not resume; a second, thinner run of
+"I'm at" posts through Twitter's own venue tagging appears from 31 March
+to 15 April 2012, all Manhattan, immediately after the move off Bedford.)
+
+**What they establish.** The 2010–11 pins sit inside a few blocks of
+south Williamsburg — Bedford at S. 2nd, South 1st and Havemeyer, Union
+Ave at Meserole, the Marcy Ave platform — which is the residence
+neighbourhood of [[wiki/places/424-bedford-ave|424 Bedford Ave]] and
+corroborates it independently of context-core. The outliers are
+recreational and legible as such: DUMBO for Grimaldi's, Randall's Island
+for Electric Zoo (5 September 2010, "w/ 115 others" — a dated attendance
+anchor for the festival strand in
+[[wiki/interests/favorites/music|music]]), Manhattan for a W 50th St bar
+on 2 January 2011.
+
+**What they are not.** Fifteen points over ten months is not a movement
+record — it is a sample of the places Dan chose to announce, on a service
+he used for four seasons and then abandoned. It cannot support a visit
+count, a home/work ratio, or any of the arithmetic the Google export
+carries, and none is attempted here. It fixes a **neighbourhood** and a
+set of **dates**, and that is the whole of it. The check-in is also a
+performance in a way a passive location log is not: Peter Luger and
+Grimaldi's are worth posting, the walk home is not.
+
 ### Granular by Period (cross to wiki periods)
 
 | Period | Years | Visits | Notes / Ties |
 |--------|-------|--------|--------------|
-| Pre / Origin (FB documented) | ~2010-2013 | N/A (loc starts 2014) | FB profile: Brooklyn Jan 2010; hometown Uniontown; events 2012-2014 (e.g. Jul 2014, Feb 2013). FB security logins start sparse ~2022 in export. |
+| Pre / Origin (Twitter + FB) | ~2010-2013 | **15 check-ins** (Google loc starts 2014) | **Not N/A since 2026-09-02.** 15 Foursquare check-ins with street addresses, Mar 2010–Jan 2011, clustered in south Williamsburg — the only address-level location data before 2014. See [Before the export begins](#before-the-export-begins-2010-2012) below. FB events 2012-2014; FB security logins sparse ~2022. |
 | 2014-2016 ramp | 2014-16 | 662 | Early PA cluster; FB events align data start. |
 | 2017-poverty-floor + 2018-deep-cycle | 2017-18 | 2,827 | Highest volume; local Uniontown/Farmington heavy (e.g. 73 Smith School House Rd 206, 117 Belmont 246). High mobility pre-NYC move. |
 | NYC chapter (2019-Feb 2025) | 2019-23 | ~2,593 (2019-23) | 307 E 76th 1,082; [[wiki/work/au-zaatar|Au Za'atar]] 445; 1063 1st Ave. FB profile "current city New York". Low 2020-21 (85+257). 2022-23 high (806+728). |
@@ -182,7 +235,19 @@ McDonald's 130, CVS 126, Walgreens 24, Walmart 23, Sheetz 22, KeyBank 66, Sunoco
 
 - **Current / post-closure**: Low 2024 counts may reflect data export cutoff, phone changes, or reduced travel after return to Uniontown Feb 2025 and major life events (Annie closure June 2026). 337 Saratoga remains high-signal home base. Ties [[wiki/timeline/periods/2025-collapse]].
 
-- **Ancestry / FB pre-2014 context**: FB profile (ihatedanfrank, reg. 2007-01-09) lists hometown Uniontown PA, places lived Brooklyn NYC (from Jan 3, 2010), current city New York (at snapshot). FB events include 2012-2014 dates (e.g. Jul 4 2014, Feb 22 2013, May 2012) aligning loc data start 2014. FB security_and_login_information exports mostly 2022+ (67-151 dates, PA mentions), consistent with later periods. No contradiction.
+- **Ancestry / FB pre-2014 context**: FB profile (ihatedanfrank, reg. 2007-01-09) lists hometown Uniontown PA, places lived Brooklyn NYC (from Jan 3, 2010), current city New York (at snapshot). FB events include 2012-2014 dates (e.g. Jul 4 2014, Feb 22 2013, May 2012) aligning loc data start 2014. FB security_and_login_information exports mostly 2022+ (67-151 dates, PA mentions), consistent with later periods.
+
+  > **CONTRADICTION [2026-09-02]:** this bullet used to end "No
+  > contradiction." There is one, and it is in the Facebook profile
+  > itself. `places lived` says **Brooklyn from 3 January 2010**; the
+  > tweet archive has Dan in Florida through 28 February 2010, still
+  > counting down — *"moving to brooklyn in 9 days"* on the 20th. The
+  > same export's **work** history says ishlab from **March 2010**, and
+  > `dan@ishlab.com` first appears in a tweet on 24 March. Facebook
+  > contradicts itself; the timestamped record agrees with the work
+  > history and not with the residence field. Held rather than resolved
+  > by seniority: `places lived` is a value typed into a form at an
+  > unknown later date, and it should not be treated as dating anything.
 
 - Complements other behavioral streams:
   - [[wiki/self/youtube-watch-history]] (digital attention; 2022-23 loc resurgence matches YT 5k+ watched + YT Music; portable across homes)
