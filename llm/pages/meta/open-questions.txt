@@ -5,7 +5,7 @@ title: "Open Questions"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-09-01
+date_modified: 2026-09-02
 sources: []
 ---
 
@@ -24,7 +24,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 41 |
-| Open gaps | 484 |
+| Open gaps | 489 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
 
@@ -44,7 +44,7 @@ Pages making incompatible claims, held rather than resolved. These are the
 highest-value items here: each one is a place the corpus knows it is wrong
 somewhere and has not yet found out where.
 
-- **[[wiki/interests/favorites/books]]** — This page, and eclecticism alongside it, read 120 books across 98 authors as breadth. Counted by subject rather than by author, the shelf is the opposite. **Forty of the 120 books are tagged `trump` or `jan-6`, carried by thirty different authors. Twenty are tagged `roman-republic`, `ancient-history` or `caesar`, carri
+- **[[wiki/interests/favorites/books]]** — This page, and the 2026-06-23 form of eclecticism alongside it, read 120 books across 98 authors as breadth. Counted by subject rather than by author, the shelf is the opposite. **Forty of the 120 books are tagged `trump` or `jan-6`, carried by thirty different authors. Twenty are tagged `roman-republic`, `ancient-hist
 - **[[wiki/interests/food-and-diet]]** — the-cool-metric states that music, language, politics, film, work and strangers "all go through the same gate." Food does not, and food out-mentions music in the same corpus. Both pages carry the disagreement; the resolution below is that the metric has a jurisdiction rather than that it has an exception. It bounds it.
 - **[[wiki/legal/2015-possession-arrest]]** — The capture places the arrest firmly *before* the move to 155 Virginia Ave — Alexis was still being hidden at 337 Saratoga, "before we made it to her 155 virginia ave house where she let me and lex live together." But that page dates the residence from **January 2015**, a month before the blotter filing. One of the thr
 - **[[wiki/legal/2015-possession-arrest]]** — This page's earlier form stated that during the stop Dan "consented to a breath search — a decision he later credited with saving his driver's license," citing a March 2026 message: "I would have lost mine if I hadn't consented to the breath search when I got arrested." The capture states the opposite in direct terms: 
@@ -173,9 +173,14 @@ new knowledge available, because no new source is required.
 - **[[wiki/health/the-configured-body]]** — **The extreme-sports material rests on one retrospective capture.** The training years are the page's control against an indifference reading and they are attested by a single 2026 recollection, with no contemporaneous record. If that capture is wrong about th
 - **[[wiki/health/the-configured-body]]** — **The prescriber is unnamed and undated before 2019.** Whether the Suboxone regimen has been continuously prescribed since 2010 or has moved between prescribed and unprescribed stretches is unresolved, and it changes what the sixteen-year "zero relapses" figur
 
-### interests (10)
+### interests (15)
 
 - **[[wiki/interests/extreme-sports]]** — No intake-digital record (YouTube watch history, social media posts) documents this era in the corpus — it predates the Twitter record (2009) and the iMessage record (2015). The reconstruction is built entirely from this one manual capture. Specific dating of 
+- **[[wiki/interests/favorites/eclecticism]]** — **Play counts do not exist anywhere in `raw/`.** Inherited from closing-the-set, still the single most load-bearing unmeasured quantity. Architecture B's "being used" clause is currently evidenced by production practice, Facebook continuity, and the live-feed 
+- **[[wiki/interests/favorites/eclecticism]]** — **The movies category is still a stub sitting inside a member.** Eleven titles, no creators, no tags, no dates on art-and-movies. Eyes Wide Shut is on the list and on the Kubrick-control quote, which is a hint, not a score. One pass over `FAVS MASTERLIST.csv` 
+- **[[wiki/interests/favorites/eclecticism]]** — **Whether the 2025–26 Spotify rows are hand-liked or algorithm-dumped is still untested.** Closing-the-set named this as the cheap test for the music exception (`Origin` column). Music.md treats SPOTIFY LIKED as the live feed without resolving the hand-versus-
+- **[[wiki/interests/favorites/eclecticism]]** — **Taste-profile still carries the 2026-06-23 error.** It is archived, thin, and not a member. It will flag stale against this page once this page moves. Clearing it is a separate rewrite, not this one.
+- **[[wiki/interests/favorites/eclecticism]]** — **No pre-2007 record.** Architecture B's continuity claim starts at the Facebook registration date (2007-01-09). The extreme-sports years extreme-sports describes as total-obsession and scene-complete are exactly Architecture A predicted on a bodily domain, at
 - **[[wiki/interests/food-and-diet]]** — **The message-dump counts are lexical, not semantic.** `food` at 968 includes every use of the word, and the six evaluative hits were found by a fixed phrase list. A proper pass would code a sample of the 968 by register rather than trusting the pattern the sa
 - **[[wiki/interests/food-and-diet]]** — **The dump ends around August 2025.** The terminal phase and the 2026 return — including the whole BFS Foods period — are outside it, so the "no evaluation" claim is strongest for 2015–2025 and weakest for the last year.
 - **[[wiki/interests/food-and-diet]]** — **Nothing here checks in-person or call behaviour**, which is invisible to a text corpus and is exactly where food opinions would ordinarily live. This is the most serious limitation on the page and it cannot be closed from `raw/`.

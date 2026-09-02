@@ -15,7 +15,7 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (95)
+## Obligations (96)
 
 Somebody or something is waiting on each of these. Drain from the top.
 
@@ -24,7 +24,6 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 
 | P | Kind | What | Where | Since |
 |---|---|---|---|---|
-| 3 | stale | premise wiki/interests/favorites/music.md moved 2026-07-14, after this page's 2026-06-23 | `wiki/interests/favorites/eclecticism.md` | 2026-07-14 |
 | 3 | stale | premise wiki/self/location-history.md moved 2026-07-26, after this page's 2026-07-20 | `wiki/mind/synthesis/spatial-behavior.md` | 2026-07-26 |
 | 3 | stale | premise wiki/interests/music/concepts/sub-bass-signature.md moved 2026-08-02, after this pa… | `wiki/interests/favorites/taste-profile.md` | 2026-08-02 |
 | 3 | stale | premise wiki/interests/music/concepts/sub-bass-signature.md moved 2026-08-02, after this pa… | `wiki/self/favorites.md` | 2026-08-02 |
@@ -47,7 +46,6 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/interests/favorites/books.md moved 2026-08-19, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/politics.md` | 2026-08-19 |
 | 3 | stale | premise wiki/interests/favorites/books.md moved 2026-08-19, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/trump.md` | 2026-08-19 |
 | 3 | stale | premise wiki/interests/favorites/books.md moved 2026-08-19, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/war.md` | 2026-08-19 |
-| 3 | stale | premise wiki/interests/favorites/books.md moved 2026-08-19, after this page's 2026-06-23 | `wiki/interests/favorites/eclecticism.md` | 2026-08-19 |
 | 3 | stale | premise wiki/interests/favorites/books.md moved 2026-08-19, after this page's 2026-07-14 | `wiki/interests/favorites/books/want-to-read.md` | 2026-08-19 |
 | 3 | stale | premise wiki/interests/roman-republic.md moved 2026-08-19, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/politics.md` | 2026-08-19 |
 | 3 | stale | premise wiki/mind/profile/big-five-psychometrics.md moved 2026-08-19, after this page's 202… | `wiki/mind/synthesis/millennial-digital-witness.md` | 2026-08-19 |
@@ -97,7 +95,6 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/mind/synthesis/the-deferred-audit.md moved 2026-08-28, after this page's 2026-… | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-28 |
 | 3 | stale | premise wiki/mind/synthesis/the-embedded-objective.md moved 2026-08-28, after this page's 2… | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-28 |
 | 3 | stale | premise wiki/mind/synthesis/totality-themes.md moved 2026-08-28, after this page's 2026-06-… | `wiki/interests/favorites/art-and-movies.md` | 2026-08-28 |
-| 3 | stale | premise wiki/mind/synthesis/totality-themes.md moved 2026-08-28, after this page's 2026-06-… | `wiki/interests/favorites/eclecticism.md` | 2026-08-28 |
 | 3 | stale | premise wiki/mind/synthesis/totality-themes.md moved 2026-08-28, after this page's 2026-06-… | `wiki/interests/favorites/taste-profile.md` | 2026-08-28 |
 | 3 | stale | premise wiki/mind/synthesis/totality-themes.md moved 2026-08-28, after this page's 2026-06-… | `wiki/self/favorites.md` | 2026-08-28 |
 | 3 | stale | premise wiki/mind/synthesis/totality-themes.md moved 2026-08-28, after this page's 2026-07-… | `wiki/interests/favorites/music.md` | 2026-08-28 |
@@ -114,6 +111,10 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/places/155-virginia-ave.md moved 2026-08-28, after this page's 2026-08-26 | `wiki/mind/synthesis/bond-switch-2015.md` | 2026-08-28 |
 | 3 | stale | premise wiki/health/chemical-architecture.md moved 2026-08-31, after this page's 2026-08-02 | `wiki/mind/synthesis/ancestral-dialectic.md` | 2026-08-31 |
 | 3 | stale | premise wiki/health/the-configured-body.md moved 2026-08-31, after this page's 2026-08-19 | `wiki/mind/synthesis/2020-left-turn.md` | 2026-08-31 |
+| 3 | stale | premise wiki/interests/favorites/eclecticism.md moved 2026-09-01, after this page's 2026-06… | `wiki/interests/favorites/art-and-movies.md` | 2026-09-01 |
+| 3 | stale | premise wiki/interests/favorites/eclecticism.md moved 2026-09-01, after this page's 2026-06… | `wiki/interests/favorites/taste-profile.md` | 2026-09-01 |
+| 3 | stale | premise wiki/interests/favorites/eclecticism.md moved 2026-09-01, after this page's 2026-07… | `wiki/interests/favorites/music.md` | 2026-09-01 |
+| 3 | stale | premise wiki/interests/favorites/eclecticism.md moved 2026-09-01, after this page's 2026-08… | `wiki/interests/favorites/books.md` | 2026-09-01 |
 | 4 | skill | unvalidated skill candidate — A generator's own output is not the published object | `skills/INBOX.md` | 2026-08-30 |
 | 4 | skill | unvalidated skill candidate — Persistent cross-agent learning loop | `skills/INBOX.md` | 2026-08-30 |
 | 4 | skill | unvalidated skill candidate — A secret's absence must fail whatever the secret was for | `skills/INBOX.md` | 2026-08-31 |

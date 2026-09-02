@@ -13,6 +13,9 @@ connections:
   - page: wiki/mind/synthesis/millennial-digital-witness
     type: evidences
     claim: "The archive is the witness theory instantiated in one person's complete data arc."
+  - page: wiki/interests/favorites/eclecticism
+    type: evidences
+    claim: "The 2007 Fall Out Boy and Say Anything statuses, the 2012–2014 electronic likes, and Electric Zoo 2010 are the dated proof that the three music clusters predate the Spotify feed by more than a decade, so Architecture B is continuity rather than a 2025 discovery."
 ---
 
 
@@ -59,7 +62,7 @@ Every field cross-checks against [[wiki/self/context-core]] — this export is t
 
 ## Narrative: the "ihatedanfrank" persona
 
-The handle is a fifteen-year deliberate ironic persona, not a throwaway. Registered at 18 in 2007, the earliest posts already show the two through-lines that survive every later era: genuine music obsession (Fall Out Boy, Say Anything, Radiohead, Lil Wayne — swooning posted without irony) and reflexive scam-detection (calling out a group giveaway as fraud within weeks of joining). The first is the authentic signal that later becomes the electronic/bass production identity ([[wiki/interests/music/overview]]); the second is the earliest documented instance of the forensic disposition ([[wiki/mind/concepts/forensic-method]]).
+The handle is a fifteen-year deliberate ironic persona, not a throwaway. Registered at 18 in 2007, the earliest posts already show the two through-lines that survive every later era: genuine music obsession (Fall Out Boy, Say Anything, Radiohead, Lil Wayne — swooning posted without irony) and reflexive scam-detection (calling out a group giveaway as fraud within weeks of joining). The first is the authentic signal that later becomes the electronic/bass production identity ([[wiki/interests/music/overview]]); the second is the earliest documented instance of the forensic disposition ([[wiki/mind/concepts/forensic-method]]). Those 2007 statuses, the 2012–2014 likes migration, and Electric Zoo 2010 are also the continuity control at [[wiki/interests/favorites/eclecticism]]: the three music clusters are eighteen years old, which is why Architecture B is parallel maintenance rather than a 2025 Spotify discovery.
 
 The network shape confirms [[wiki/mind/concepts/contact-gini]] from the public-platform side: roughly 650 friends and 400 message threads of breadth, with real depth concentrated in a handful of nodes — above all the Annie "Eggie" thread (2017–2021: nicknames, video calls, family-conflict disclosure), the deep counter-example to the wide-but-shallow surface. Volume functions as ambiguous tether; closure happens in few channels ([[wiki/people/annie-ulmer]], [[wiki/mind/concepts/attachment-model]]).
 

@@ -5,7 +5,7 @@ title: "Wiki Digest"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-09-01
+date_modified: 2026-09-02
 sources: []
 ---
 
@@ -21,11 +21,11 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | | |
 |---|---|
-| Pages | 473 |
-| Pages touched in the last 14 days | 185 |
+| Pages | 474 |
+| Pages touched in the last 14 days | 172 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 41 |
-| Open gaps | 484 |
+| Open gaps | 489 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -39,7 +39,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | self | 40 |
 | work | 15 |
 | places | 10 |
-| meta | 9 |
+| meta | 10 |
 | health | 6 |
 | legal | 4 |
 
@@ -47,17 +47,20 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | Status | Pages |
 |---|---|
-| active | 184 |
-| stable | 146 |
+| active | 185 |
+| stable | 147 |
 | closed | 100 |
-| archived | 31 |
+| archived | 30 |
 | stub | 12 |
 
 ## The last few days
 
-**2026-09-01** — 4 pages
+**2026-09-02** — 3 pages
+  - build | plain | two writing lanes, a floor that had to be measured, and a campaign page
 
-**2026-08-31** — 5 pages
+**2026-09-01** — 2 pages
+
+**2026-08-31** — 6 pages
   - ingest | health | the intake ledger's first export (2026-08-30/31)
   - ingest | health | the ledger gets an entry page
 
@@ -100,10 +103,6 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - constitution-pass | mind | wiki/mind/synthesis/read-receipt-forensics
   - constitution-pass | mind | wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis + wiki/mind/synthesis/fayette-return
 
-**2026-08-27** — 5 pages
-  - close | places, mind, people | three staged answers integrated; one of them was already in the wiki under a different name
-  - fix | meta | the 22-error lint baseline cleared, and the two tool bugs it was hiding
-
 ## Pages that reason from other pages
 
 The altitude of the wiki — everything here was built on top of something
@@ -121,7 +120,7 @@ have moved since.
 - [[wiki/interests/favorites/books/topics/trump]] — 2 premises
 - [[wiki/interests/favorites/books/topics/war]] — 2 premises
 - [[wiki/interests/favorites/books/want-to-read]] — 4 premises
-- [[wiki/interests/favorites/eclecticism]] — 3 premises
+- [[wiki/interests/favorites/eclecticism]] — 6 premises
 - [[wiki/interests/favorites/music]] — 6 premises
 - [[wiki/interests/favorites/music/electronic-bass]] — 3 premises
 - [[wiki/interests/favorites/taste-profile]] — 3 premises

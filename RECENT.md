@@ -8,15 +8,24 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-01 — 3 pages
+## 2026-09-02 — 3 pages
+
+- **Session log:** build | plain | two writing lanes, a floor that had to be measured, and a campaign page
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a REVISED)_ |
 
-## 2026-08-31 — 5 pages
+## 2026-09-01 — 2 pages
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/interests/favorites/eclecticism]] | interests | **REVISED** — This page last moved on 2026-06-23. Twenty-one days later the music member was rewritten from a cluster inventory into a two-wave, three-cluster, eighteen-year continuity argument with a lyrics-as-tim |
+| [[wiki/timeline/index]] | timeline | — |
+
+## 2026-08-31 — 6 pages
 
 - **Session log:** ingest | health | the intake ledger's first export (2026-08-30/31)
 - **Session log:** ingest | health | the ledger gets an entry page
@@ -28,6 +37,7 @@ simply listed.
 | [[wiki/health/index]] | health | — |
 | [[wiki/health/intake-ledger]] | health | — |
 | [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — cocaine and chemical-architecture both gained the intake ledger's first measured night (2026-08-30/31: one 0.75 g cocaine unit over 9h 31m in six doses, three 0.05 g cannabis units; the unit reconcile |
+| [[wiki/meta/readers-digest]] | meta | — |
 
 ## 2026-08-30 — 2 pages
 
@@ -272,7 +282,7 @@ simply listed.
 | [[wiki/self/concepts/wiki-brain]] | self | **RE-CHECKED** — llm moved on 2026-08-21: Gemini's 'chicken nugget' passage was corrected off Dan's ledger, and the post-GPT-5 causation of ChatGPT's decline was marked untested. This page carries an edge claiming Cha |
 | [[wiki/work/au-zaatar]] | work | _(carries a REVISED from 2026-07-14)_ |
 
-## 2026-08-20 — 17 pages
+## 2026-08-20 — 16 pages
 
 - **Session log:** ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
 - **Session log:** correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
@@ -302,7 +312,6 @@ simply listed.
 | [[wiki/timeline/events/august-2026-morgantown-call]] | timeline | **CORRECTED** — *"fourteen separate times between 06:30 and 12:31"* → **twenty times, 06:31 to 14:17.** Undercounted by six, and the window was cut short by nearly two minutes; he is still saying it ninety seconds be |
 | [[wiki/timeline/events/august-2026-morgantown-call-source-amendment]] | timeline | — |
 | [[wiki/timeline/events/august-2026-unmasking]] | timeline | — |
-| [[wiki/timeline/index]] | timeline | — |
 
 ## 2026-08-19 — 22 pages
 
@@ -314,7 +323,7 @@ simply listed.
 |---|---|---|
 | [[wiki/health/hyperreflexivity]] | health | _(carries a REVISED from 2026-07-26)_ |
 | [[wiki/interests/extreme-sports]] | interests | — |
-| [[wiki/interests/favorites/books]] | interests | **CONTRADICTION** — This page, and eclecticism alongside it, read 120 books across 98 authors as breadth. Counted by subject rather than by author, the shelf is the opposite. **Forty of the 120 books are tagged `trump` o |
+| [[wiki/interests/favorites/books]] | interests | **CONTRADICTION** — This page, and the 2026-06-23 form of eclecticism alongside it, read 120 books across 98 authors as breadth. Counted by subject rather than by author, the shelf is the opposite. **Forty of the 120 boo |
 | [[wiki/interests/film-canon]] | interests | — |
 | [[wiki/interests/gore-vidal]] | interests | — |
 | [[wiki/interests/opie-and-anthony]] | interests | — |
@@ -454,20 +463,4 @@ simply listed.
 | [[wiki/people/marty-jackson]] | people | — |
 | [[wiki/people/renae-holland]] | people | — |
 | [[wiki/work/creative-license]] | work | _(carries a CORRECTED)_ |
-
-## 2026-08-09 — 6 pages
-
-- **Session log:** ingest | self/timeline/people/interests | extreme-sports era expanded with visual documentation
-- **Session log:** ingest | self/extreme-sports, people, places, interests | childhood extreme-sports era captured
-- **Session log:** ingest | people, timeline, mind | canonical Jerel Coles page + August 8–9 unmasking night + read-receipt forensics (external content pack incorporated)
-- **Session log:** edit | people, mind | operator correction — Tuquick and the unnamed man confirmed as one person
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/people/matt-kraus]] | people | — |
-| [[wiki/people/nathan-king]] | people | — |
-| [[wiki/people/the-unnamed-man]] | people | **REVISED** — On 2026-08-08 Dan ran a FOREWARN background lookup that identified Tuquick — the man Annie left Dan for in May/June 2026 — as **Jerel Wayne Coles**, 36, of 106 Nassau S |
-| [[wiki/people/tom-wallisch]] | people | — |
-| [[wiki/places/seven-springs]] | places | — |
-| [[wiki/timeline/events/annie-alexis-reunion-november-2018]] | timeline | — |
 

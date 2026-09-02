@@ -16,6 +16,9 @@ connections:
   - page: wiki/mind/synthesis/closing-the-set
     type: contradicts
     claim: "The 98-authors-across-120-books figure is read here as range and is the opposite: 60 of the 120 are two subjects carried by 44 different authors with no overlap, so the author-level spread is the residue of exhaustive coverage of two events rather than evidence of breadth."
+  - page: wiki/interests/favorites/eclecticism
+    type: instantiates
+    claim: "Half the shelf is two subjects through forty-four hands, which is the concrete case that retired this page's co-authored 'range' reading: 98 authors was the method of covering Trump/Jan-6 and the Roman collapse, not a temperament."
 ---
 
 # Book Favorites
@@ -23,6 +26,8 @@ connections:
 **120 books**, overwhelmingly non-fiction with heavy emphasis on politics, history, recent events, and power structures.
 
 This reading list is a direct window into political and intellectual dimensions of the self model.
+
+The author-level spread is not range. [[wiki/interests/favorites/eclecticism]] originally co-authored that reading; the 2026-09-01 rewrite retires it. Forty of 120 books are tagged `trump` or `jan-6` (thirty authors); twenty are tagged `roman-republic`, `ancient-history` or `caesar` (fourteen authors); the two sets do not overlap. One account per witness is all exhaustive coverage of a single event requires, which is why 85 of 98 authors appear once.
 
 ## Dimensions
 
@@ -166,7 +171,7 @@ Cross-referenced: [[wiki/self/facebook]], [[wiki/self/context-core]], [[wiki/int
 **Want to read:** [[wiki/interests/favorites/books/want-to-read]] — 149 unread titles, same obsessions (Rome, Trump-era politics, intelligence/conspiracy history) plus a distinct NYC-history thread.
 
 > **CONTRADICTION [2026-08-19] — "98 unique authors" is not evidence of range.**
-> This page, and [[wiki/interests/favorites/eclecticism]] alongside it, read 120
+> This page, and the 2026-06-23 form of [[wiki/interests/favorites/eclecticism]] alongside it, read 120
 > books across 98 authors as breadth. Counted by subject rather than by author,
 > the shelf is the opposite. **Forty of the 120 books are tagged `trump` or
 > `jan-6`, carried by thirty different authors. Twenty are tagged
@@ -182,3 +187,8 @@ Cross-referenced: [[wiki/self/facebook]], [[wiki/self/context-core]], [[wiki/int
 > have 25 different creators. Full argument, distributions and Gini coefficients
 > at [[wiki/mind/synthesis/closing-the-set]]. Nothing in the tables above is
 > withdrawn; what changes is what they are evidence of.
+>
+> The 2026-09-01 rewrite of [[wiki/interests/favorites/eclecticism]] retires the
+> co-authored range claim rather than leaving this page as one half of an error
+> the other half still asserts. The contradiction is with the 2026-06-23 reading,
+> not with the live page.
