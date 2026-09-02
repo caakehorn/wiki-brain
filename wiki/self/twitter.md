@@ -118,6 +118,9 @@ connections:
   - page: wiki/interests/music/aliases/sloppp
     type: evidences
     claim: '2014 read in full documents an operating production practice — ten releases the Facebook reconstruction missed, two recurring mix series, a Beatport contest entry and a public collab address — and dates Heatwave Vol. 1 and Week in Trap Episode 3, two items that page listed as unaccounted for.'
+  - page: wiki/work/tech/index
+    type: evidences
+    claim: 'Two Codecademy badges auto-posted on 19 February 2013, then no reference to code in 2,525 originals across the next thirteen years until the 2026 Grok CLI and Claude building — the only record of a pre-AI attempt at the skill.'
 ---
 
 # Twitter / X Activity (@danfrank)

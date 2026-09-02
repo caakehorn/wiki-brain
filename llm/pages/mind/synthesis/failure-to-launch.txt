@@ -36,6 +36,13 @@ synthesizes:
   - wiki/work/creative-license
   - wiki/interests/music/overview
 connections:
+  - page: wiki/work/tech/index
+    type: instance-of
+    claim: "One documented day of Codecademy in February 2013 and thirteen silent years, then a burst of shipped tooling once AI agents removed the need for the skill, is this page's shipping-bottleneck thesis with an unusual ending: the constraint was removed rather than overcome."
+  - page: wiki/interests/music/aliases/sloppp
+    type: evidenced-by
+    claim: "2014 read in full shows a year of competitive outward shipping — monthly releases, two mix series, a Beatport contest entry, a public collab address — which sharpens rather than softens this page's thesis: the bottleneck survived being directly attacked for twelve months."
+
   - page: wiki/mind/synthesis/the-embedded-objective
     type: instantiates
     claim: "The payload rule is the mechanical explanation for the work record: every tenure over a year was sustained by a self-set objective embedded in somebody else's structure, and a payload is by definition non-transferable, so 84 months of sustained employment produced no accruing claim."
@@ -147,12 +154,38 @@ since 2016 and still the live brand. A confirmed involuntary sub-bass signature
 running 63–85% across all four. The March 2026 DnB remixes are described as
 the first shipped music of the new era.
 
-And there are **no release figures, no platform links and no streaming numbers
-anywhere in the corpus.** [[wiki/interests/music/overview]] names this itself:
-consumption is well documented, the production domain "requires active
-build-out." The absence is the finding. An alias active for eleven years whose
-output cannot be counted from a 217,573-message archive has not, on the
-evidence available, reached an audience large enough to leave a trace in it.
+There are **no release figures and no streaming numbers anywhere in the
+corpus.** [[wiki/interests/music/overview]] names this itself: consumption is
+well documented, the production domain "requires active build-out." The
+absence is the finding. An alias active for eleven years whose output cannot
+be counted from a 217,573-message archive has not, on the evidence available,
+reached an audience large enough to leave a trace in it.
+
+> **CORRECTED [2026-09-02] — "no platform links" was wrong.** This paragraph
+> read *"no release figures, no platform links and no streaming numbers."*
+> The middle term is false: the [[wiki/self/twitter|tweet archive]] carries a
+> SoundCloud link for essentially every 2014 release, and
+> [[wiki/interests/music/aliases/sloppp]] now dates ten of them that the
+> Facebook-derived discography had missed. Play counts and revenue are still
+> absent, so the two outer terms and the conclusion stand.
+>
+> **The conclusion needs a harder version, though.** 2014 read in full is not
+> a year of private noodling. SLOPPP released roughly monthly, ran two
+> recurring mix series, entered the Major Lazer "Aerosol Can" flip into
+> **Beatport contest voting** and canvassed for votes, published a
+> collaboration address (*"Lets collab! danfr4nk@icloud.com for stems and
+> patch trades"*), emailed tracks to other DJs, joined Splice, streamed live
+> mixes, and was thanked by name by two producers whose support he
+> acknowledged publicly. That is shipping — the exact thing this page names as
+> the bottleneck — sustained for about twelve months.
+>
+> So the finding is not that he never shipped. **He shipped, competitively and
+> outwardly, for a year, and then stopped**, and the absence of audience is
+> what the shipping bought him. That is a worse result than never trying and a
+> more precise one: the constraint this page identifies survived a year of
+> being directly attacked. Dan's own line from inside it, 25 April 2014, is
+> the fairest summary anyone has offered: *"as a 'nobody' DJ, the aoki scandal
+> is extra annoying."*
 
 ---
 

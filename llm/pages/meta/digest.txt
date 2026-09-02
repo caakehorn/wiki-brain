@@ -22,7 +22,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 493 |
-| Pages touched in the last 14 days | 204 |
+| Pages touched in the last 14 days | 205 |
 | Pages reasoning from other pages (`synthesizes:`) | 78 |
 | Live contradictions | 43 |
 | Open gaps | 503 |
@@ -55,7 +55,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-02** — 40 pages
+**2026-09-02** — 41 pages
   - ingest | self | @danfrank twitter archive as yearly pages
   - build | plain | two writing lanes, a floor that had to be measured, and a campaign page
   - translate | interests | favorites/eclecticism
@@ -68,6 +68,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | mind | the digital-witness noticing is fourteen years older than the theory
   - lint | mind | withdrawing the "two steps" politics finding published four hours earlier
   - ingest | people | the social graph, pass 2 — and an edge that was never actually written
+  - ingest | interests/music | 2014 read in full — SLOPPP was an operating practice, and two named gaps close
+  - ingest | work/tech | one day of Codecademy in 2013, then thirteen years of nothing
 
 **2026-09-01** — 2 pages
 

@@ -7906,3 +7906,94 @@ see a *practice*, only a *subject*. The difference between hobby and operation
 is in what the sentences do — announce, solicit, compete, thank — not in their
 vocabulary. `vocabulary-drift` says a count under-reports; this says a count
 can be perfectly accurate and still miss the finding entirely.
+
+## [2026-09-02] ingest | work/tech | one day of Codecademy in 2013, then thirteen years of nothing
+
+**The wiki had zero coverage of Dan ever attempting to program before 2026.**
+The archive has exactly one trace: Codecademy auto-posted twice to his account
+on **19 February 2013** — *"50 points earned in one day"* at 19:17 UTC and
+*"75 points earned in one day"* at 23:33 — four hours apart, escalating, on a
+single day.
+
+**Then nothing.** No further Codecademy post and no reference to writing,
+running or debugging code anywhere in 2,525 originals across the next thirteen
+years, until **31 May 2026**: *"the app i built with the new Grok CLI coding
+agent to auto-respond on iMessage… had just spent about 5 hours mass-spam
+texting garbled unicode to my ex girlfriend. so it actually outperformed what i
+had asked it to build."*
+
+Stated on the page: this documents **one day of Codecademy**, not one day of
+study followed by quitting. The badges are auto-posts, and a feature switched
+off looks identical to a habit that stops. What can be said is that an account
+which carried his production, politics and friendships in detail across the
+same span carried nothing about code between those two dates.
+
+Filed at the top of `wiki/work/tech/index` — a 288-word stub with empty
+`sources:` — because it is the prehistory of every project listed below it.
+February 2013 sits four months before the Uniontown return, in the same
+stretch as the O&A internship application and the SLOPPP genesis: a period of
+trying several doors. **The door that opened in 2026 opened because the skill
+stopped being a prerequisite.** Every project on that index was built by
+directing a model rather than by acquiring the capability attempted in 2013 —
+the one case in the corpus where the constraint was removed rather than
+overcome.
+
+**`failure-to-launch` corrected.** It stated *"no release figures, no platform
+links and no streaming numbers anywhere in the corpus."* The middle term is
+false — the archive carries a SoundCloud link for essentially every 2014
+release. Play counts and revenue are still absent, so the outer terms and the
+conclusion stand.
+
+But the conclusion needed a **harder** version, not a softer one. 2014 was a
+year of competitive outward shipping — monthly releases, two mix series, a
+Beatport contest entry with vote canvassing, a public collaboration address,
+tracks emailed to other DJs, live streams, named producer support. Shipping is
+the exact bottleneck that page identifies. So the finding is not that he never
+shipped: **he shipped for a year, and the absence of audience is what the
+shipping bought him.** The constraint survived being directly attacked for
+twelve months, which is a worse result than never trying and a more precise
+one.
+
+## [2026-09-02] ingest | people | 2009 read in full — an operator testimony corroborated, and my own error corrected
+
+2009 (165 originals, 20 October – 31 December) read tweet by tweet.
+
+**The operator capture of 2026-08-27 checks out against a contemporaneous
+record it was never tested against.** That capture — integrated 2026-08-28,
+before the tweet archive existed here — dated the Alexis meeting to a
+**Thanksgiving 2009** trip home, two nights together, and *"a week or two
+after that he buys her a one-way ticket to Orlando."* It is T0 testimony given
+seventeen years after the events. The tweets confirm every load-bearing
+element and date the sequence to the day:
+
+- **25–30 Nov 2009** — in PA; *"cookies, water, beer, wine, and her."* (29th),
+  *"watching the game with someone special"* / *"I miss her already"* /
+  *"going home...but things are different now"* (30th). "Her", unnamed.
+- **14 Dec 2009** — the **first `@alexisarmel` tweet ever**, *"you amaze me.
+  can't believe you're real"*, alongside *"dan in love."* In Orlando, about
+  two and a half weeks later — exactly the shape of "a week or two after."
+- **16 Dec** — *"i have the most amaaaazing girlfriend"*, first use of the word.
+- **20 Dec** — the drive to PA. **25 Dec** — *"d&a's first christmas."*
+- **30 Dec** — *"our trip was saved entirely by @alexisarmel"*: she returned to
+  Florida with him, answering the Christmas nervousness the capture describes.
+
+The account carried the relationship publicly for a fortnight before it
+carried her name. **What the tweets do not corroborate is stated too:** the
+Roxicet, Spetch, the ticket as a purchase and the Clingan accusation appear
+nowhere in them, and that half still rests on testimony alone.
+
+**A correction to this session's own work.** Earlier today I wrote on
+`wiki/self/tattoos` and `wiki/people/alexis-armel` that the "A" tattoo of 23
+January 2010 came *"four months into the relationship."* Wrong. They met at
+Thanksgiving — **26 November 2009** — so it is **eight weeks**. Both pages
+corrected. The error understated the finding: the initial is permanent before
+they have known each other two months, and he leaves the state for her five
+weeks after that.
+
+**Also in 2009, unmined and not yet written up:** the account opens 20 October
+2009 (*"packing/getting house in order"*); a documented Orlando↔Pennsylvania
+commute of at least three round trips in ten weeks; *"retire by 25"* and
+*"country club status. bloated sense of self worth."* on the same day at age
+20 (22 October); Seven Springs with Alexis on 22 and 27 December; and the
+Full Sail rooms named directly — *"I'm in the control24 rooms right now. PT1
+bitch"* (24 November).

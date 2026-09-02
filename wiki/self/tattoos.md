@@ -20,7 +20,7 @@ connections:
     claim: "The tweet 'my first tattoo! I have her on me forever now' dates the first piece to the night of 23 January 2010 and identifies it as a lover's initial — the one documented tattoo that is not a cultural reference, and the counterexample this page's thesis has to survive."
   - page: wiki/people/alexis-armel
     type: evidences
-    claim: "Dan had Alexis's initial tattooed roughly four months into the relationship, in January 2010, six weeks before moving to Brooklyn to be with her — the earliest hard evidence of the all-in commitment speed that the relationship history describes."
+    claim: "Dan had Alexis's initial tattooed eight weeks after meeting her at Thanksgiving 2009, and five weeks before leaving Florida for the city she was in — the earliest hard evidence of the all-in commitment speed that the relationship history describes."
   - page: wiki/interests/food-and-diet
     type: evidences
     claim: "The one food image permanently on his body is a Misfits tattoo: the pizza slice was chosen because it was the unconventional alternative to the Crimson Ghost-in-a-coffin variant, which is a cool-metric operation executed through a food image without the food being the point."
@@ -92,10 +92,17 @@ a band, a record or an artist. This one points at a person, and Dan says
 so in the same breath: *I have her on me forever now*. The "A" is
 [[wiki/people/alexis-armel|Alexis Armel]].
 
-**It is fast.** The relationship began in 2009, during the Full Sail tail.
-By late January 2010 he is putting her initial on his body permanently,
-and five weeks later he is loading a U-Haul to move to the city she is in
-([[wiki/timeline/periods/2010s]]). The tattoo and the relocation are the
+**It is fast — faster than this page first said.** They met at
+**Thanksgiving 2009**, on a trip home to Pennsylvania
+([[wiki/people/alexis-armel]], where the meeting is dated from an operator
+capture and corroborated by the tweets themselves). The tattoo is **eight
+weeks later**. Five weeks after that he is loading a U-Haul to move to the
+city she is in ([[wiki/timeline/periods/2010s]]).
+
+> **CORRECTED [2026-09-02]:** an earlier version of this section, written
+> the same day, said the relationship "began in 2009" and left the interval
+> vague at "four months." Eight weeks is the figure, and it makes the point
+> harder rather than softer. The tattoo and the relocation are the
 same decision at two scales, six weeks apart, and both are executed
 within days of being announced — "scratch that going to get it NOW!" is
 the whole pattern in six words.
