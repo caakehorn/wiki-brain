@@ -14,8 +14,8 @@ chart:
   series:
     - name: "Entries"
       points:
-        "Translated": 26
-        "Major lane": 19
+        "Translated": 27
+        "Major lane": 18
         "Free lane": 42
         "Held (people)": 93
         "Too thin": 50
@@ -43,10 +43,10 @@ This page is the campaign to write one for every entry.
 
 | | |
 |---|---|
-| Entries with a plain-English edition | **26** |
+| Entries with a plain-English edition | **27** |
 | Entries eligible for one | 256 |
 | Withheld under the standing directive | 216 |
-| Coverage | 10.2% |
+| Coverage | 10.5% |
 
 ## The two lanes
 
@@ -56,7 +56,7 @@ is arithmetic in `bin/wiki-plain`: 900 words is the boundary.
 
 | Lane | What is in it | Outstanding |
 |---|---|---|
-| `major` | entries of 900 words or more — the dense findings | 19 |
+| `major` | entries of 900 words or more — the dense findings | 18 |
 | `free` | entries under 900 words, worked smallest first | 42 |
 
 A further **93** eligible entries about other people are in
@@ -98,6 +98,7 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 - [[wiki/mind/synthesis/millennial-digital-witness|Millennial Digital Witness]]
 - [[wiki/mind/synthesis/political-psyops|Political Psyops & Hybrid Events]]
 - [[wiki/mind/synthesis/the-cato-seat|The Cato Seat]]
+- [[wiki/mind/synthesis/the-embedded-objective|The Embedded Objective]]
 - [[wiki/mind/synthesis/vertical-authority-skepticism|Vertical Authority Skepticism]]
 - [[wiki/timeline/events/franki-fireworks-day-2013|The Franki Fireworks Day (early July 2013)]]
 - [[wiki/timeline/events/teen-concert-years|Concert Record (2001–2019)]]
@@ -106,13 +107,13 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 
 ## Next up
 
-**major** — 19 outstanding
+**major** — 18 outstanding
 
-- [[wiki/mind/synthesis/the-embedded-objective]] (4068 words)
 - [[wiki/self/youtube-watch-history]] (3226 words)
 - [[wiki/self/lineage/family-tree]] (3197 words)
 - [[wiki/self/concepts/ally-and-dan-love-as-destiny]] (2941 words)
 - [[wiki/self/lineage/23andme-genomics]] (2794 words)
+- [[wiki/interests/language/vocabulary-lexicon]] (2762 words)
 
 **free** — 42 outstanding
 
