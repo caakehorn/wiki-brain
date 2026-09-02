@@ -7906,3 +7906,50 @@ see a *practice*, only a *subject*. The difference between hobby and operation
 is in what the sentences do — announce, solicit, compete, thank — not in their
 vocabulary. `vocabulary-drift` says a count under-reports; this says a count
 can be perfectly accurate and still miss the finding entirely.
+
+## [2026-09-02] ingest | work/tech | one day of Codecademy in 2013, then thirteen years of nothing
+
+**The wiki had zero coverage of Dan ever attempting to program before 2026.**
+The archive has exactly one trace: Codecademy auto-posted twice to his account
+on **19 February 2013** — *"50 points earned in one day"* at 19:17 UTC and
+*"75 points earned in one day"* at 23:33 — four hours apart, escalating, on a
+single day.
+
+**Then nothing.** No further Codecademy post and no reference to writing,
+running or debugging code anywhere in 2,525 originals across the next thirteen
+years, until **31 May 2026**: *"the app i built with the new Grok CLI coding
+agent to auto-respond on iMessage… had just spent about 5 hours mass-spam
+texting garbled unicode to my ex girlfriend. so it actually outperformed what i
+had asked it to build."*
+
+Stated on the page: this documents **one day of Codecademy**, not one day of
+study followed by quitting. The badges are auto-posts, and a feature switched
+off looks identical to a habit that stops. What can be said is that an account
+which carried his production, politics and friendships in detail across the
+same span carried nothing about code between those two dates.
+
+Filed at the top of `wiki/work/tech/index` — a 288-word stub with empty
+`sources:` — because it is the prehistory of every project listed below it.
+February 2013 sits four months before the Uniontown return, in the same
+stretch as the O&A internship application and the SLOPPP genesis: a period of
+trying several doors. **The door that opened in 2026 opened because the skill
+stopped being a prerequisite.** Every project on that index was built by
+directing a model rather than by acquiring the capability attempted in 2013 —
+the one case in the corpus where the constraint was removed rather than
+overcome.
+
+**`failure-to-launch` corrected.** It stated *"no release figures, no platform
+links and no streaming numbers anywhere in the corpus."* The middle term is
+false — the archive carries a SoundCloud link for essentially every 2014
+release. Play counts and revenue are still absent, so the outer terms and the
+conclusion stand.
+
+But the conclusion needed a **harder** version, not a softer one. 2014 was a
+year of competitive outward shipping — monthly releases, two mix series, a
+Beatport contest entry with vote canvassing, a public collaboration address,
+tracks emailed to other DJs, live streams, named producer support. Shipping is
+the exact bottleneck that page identifies. So the finding is not that he never
+shipped: **he shipped for a year, and the absence of audience is what the
+shipping bought him.** The constraint survived being directly attacked for
+twelve months, which is a worse result than never trying and a more precise
+one.

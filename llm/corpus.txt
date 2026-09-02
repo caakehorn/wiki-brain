@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-02
-493 pages, ~1,719,567 tokens.
+493 pages, ~1,721,009 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10044,7 +10044,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 493 |
-| Pages touched in the last 14 days | 204 |
+| Pages touched in the last 14 days | 205 |
 | Pages reasoning from other pages (`synthesizes:`) | 78 |
 | Live contradictions | 43 |
 | Open gaps | 503 |
@@ -10077,7 +10077,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-02** — 40 pages
+**2026-09-02** — 41 pages
   - ingest | self | @danfrank twitter archive as yearly pages
   - build | plain | two writing lanes, a floor that had to be measured, and a campaign page
   - translate | interests | favorites/eclecticism
@@ -10090,6 +10090,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | mind | the digital-witness noticing is fourteen years older than the theory
   - lint | mind | withdrawing the "two steps" politics finding published four hours earlier
   - ingest | people | the social graph, pass 2 — and an edge that was never actually written
+  - ingest | interests/music | 2014 read in full — SLOPPP was an operating practice, and two named gaps close
 
 **2026-09-01** — 2 pages
 
@@ -11380,9 +11381,9 @@ chart:
       points:
         "Translated": 28
         "Major lane": 36
-        "Free lane": 41
+        "Free lane": 42
         "Held (people)": 94
-        "Too thin": 50
+        "Too thin": 49
         "Withheld": 217
 sources: []
 ---
@@ -11421,13 +11422,13 @@ is arithmetic in `bin/wiki-plain`: 900 words is the boundary.
 | Lane | What is in it | Outstanding |
 |---|---|---|
 | `major` | entries of 900 words or more — the dense findings | 36 |
-| `free` | entries under 900 words, worked smallest first | 41 |
+| `free` | entries under 900 words, worked smallest first | 42 |
 
 A further **94** eligible entries about other people are in
 neither lane. They are held back deliberately, pending a decision about
 who writes plain-English prose about living people for a public site.
 
-**50** more are under 300 words — stubs, and
+**49** more are under 300 words — stubs, and
 records like a concert date with its lineup. A table is already plain
 and a one-sentence entry translated is the same sentence, so these get
 no plain edition until the entry itself has an argument in it. They are
@@ -11480,7 +11481,7 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 - [[wiki/self/twitter/2022]] (6584 words)
 - [[wiki/self/twitter/2023]] (6529 words)
 
-**free** — 41 outstanding
+**free** — 42 outstanding
 
 - [[wiki/work/caviar-courier]] (301 words)
 - [[wiki/interests/favorites/books/authors/adrian-goldsworthy]] (315 words)
@@ -11522,7 +11523,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-02 — 40 pages
+## 2026-09-02 — 41 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11532,7 +11533,7 @@ simply listed.
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/readers-digest]] | meta | — |
-| [[wiki/meta/recent-activity]] | meta | _(carries a CORRECTED)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | **CORRECTED** — An earlier version of this section claimed the archive showed **two steps, not one** — a first step in 2017 (4.0% → 11.1%, "nearly tripling") separating *political engagement* from *socialist identity |
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
 | [[wiki/people/alexis-armel]] | people | _(carries a GAP CLOSED from 2026-08-28)_ |
@@ -11566,6 +11567,7 @@ simply listed.
 | [[wiki/self/twitter/2026]] | self | — |
 | [[wiki/timeline/periods/2010s]] | timeline | **GAP CLOSED** — the gap, as this page stated it — *"the exact 2010 move date is unresolved (context-core's residence table starts Brooklyn in April 2010, while an earlier note claimed a January 3 move — the Florida t |
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | _(carries a GAP CLOSED from 2026-08-28)_ |
+| [[wiki/work/tech/index]] | work | — |
 
 ## 2026-09-01 — 2 pages
 
@@ -11605,7 +11607,7 @@ simply listed.
 | [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a March 2014 Alexis-era eviction/concealment episode — housing and family-drama, no capital event, no figure this page draws on. **No clai |
-| [[wiki/mind/synthesis/failure-to-launch]] | mind | **RE-CHECKED** — flagged stale against estate-money-spine (2026-08-28), which gained a RE-CHECKED note confirming a March 2014 Alexis-era eviction on suzanne-frank touches no capital event or figure this page |
+| [[wiki/mind/synthesis/failure-to-launch]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/mind/synthesis/fayette-return]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] | mind | **RE-CHECKED** — flagged stale against august-grievance-verdict (2026-08-28), which gained a re-check note tracing back to a pre-Annie, 2013–2014 Alexis-era eviction/concealment episode on suzanne-frank. It touc |
@@ -26133,6 +26135,13 @@ synthesizes:
   - wiki/work/creative-license
   - wiki/interests/music/overview
 connections:
+  - page: wiki/work/tech/index
+    type: instance-of
+    claim: "One documented day of Codecademy in February 2013 and thirteen silent years, then a burst of shipped tooling once AI agents removed the need for the skill, is this page's shipping-bottleneck thesis with an unusual ending: the constraint was removed rather than overcome."
+  - page: wiki/interests/music/aliases/sloppp
+    type: evidenced-by
+    claim: "2014 read in full shows a year of competitive outward shipping — monthly releases, two mix series, a Beatport contest entry, a public collab address — which sharpens rather than softens this page's thesis: the bottleneck survived being directly attacked for twelve months."
+
   - page: wiki/mind/synthesis/the-embedded-objective
     type: instantiates
     claim: "The payload rule is the mechanical explanation for the work record: every tenure over a year was sustained by a self-set objective embedded in somebody else's structure, and a payload is by definition non-transferable, so 84 months of sustained employment produced no accruing claim."
@@ -26244,12 +26253,38 @@ since 2016 and still the live brand. A confirmed involuntary sub-bass signature
 running 63–85% across all four. The March 2026 DnB remixes are described as
 the first shipped music of the new era.
 
-And there are **no release figures, no platform links and no streaming numbers
-anywhere in the corpus.** [[wiki/interests/music/overview]] names this itself:
-consumption is well documented, the production domain "requires active
-build-out." The absence is the finding. An alias active for eleven years whose
-output cannot be counted from a 217,573-message archive has not, on the
-evidence available, reached an audience large enough to leave a trace in it.
+There are **no release figures and no streaming numbers anywhere in the
+corpus.** [[wiki/interests/music/overview]] names this itself: consumption is
+well documented, the production domain "requires active build-out." The
+absence is the finding. An alias active for eleven years whose output cannot
+be counted from a 217,573-message archive has not, on the evidence available,
+reached an audience large enough to leave a trace in it.
+
+> **CORRECTED [2026-09-02] — "no platform links" was wrong.** This paragraph
+> read *"no release figures, no platform links and no streaming numbers."*
+> The middle term is false: the [[wiki/self/twitter|tweet archive]] carries a
+> SoundCloud link for essentially every 2014 release, and
+> [[wiki/interests/music/aliases/sloppp]] now dates ten of them that the
+> Facebook-derived discography had missed. Play counts and revenue are still
+> absent, so the two outer terms and the conclusion stand.
+>
+> **The conclusion needs a harder version, though.** 2014 read in full is not
+> a year of private noodling. SLOPPP released roughly monthly, ran two
+> recurring mix series, entered the Major Lazer "Aerosol Can" flip into
+> **Beatport contest voting** and canvassed for votes, published a
+> collaboration address (*"Lets collab! danfr4nk@icloud.com for stems and
+> patch trades"*), emailed tracks to other DJs, joined Splice, streamed live
+> mixes, and was thanked by name by two producers whose support he
+> acknowledged publicly. That is shipping — the exact thing this page names as
+> the bottleneck — sustained for about twelve months.
+>
+> So the finding is not that he never shipped. **He shipped, competitively and
+> outwardly, for a year, and then stopped**, and the absence of audience is
+> what the shipping bought him. That is a worse result than never trying and a
+> more precise one: the constraint this page identifies survived a year of
+> being directly attacked. Dan's own line from inside it, 25 April 2014, is
+> the fairest summary anyone has offered: *"as a 'nobody' DJ, the aoki scandal
+> is extra annoying."*
 
 ---
 
@@ -87165,6 +87200,9 @@ connections:
   - page: wiki/interests/music/aliases/sloppp
     type: evidences
     claim: '2014 read in full documents an operating production practice — ten releases the Facebook reconstruction missed, two recurring mix series, a Beatport contest entry and a public collab address — and dates Heatwave Vol. 1 and Week in Trap Episode 3, two items that page listed as unaccounted for.'
+  - page: wiki/work/tech/index
+    type: evidences
+    claim: 'Two Codecademy badges auto-posted on 19 February 2013, then no reference to code in 2,525 originals across the next thirteen years until the 2026 Grok CLI and Claude building — the only record of a pre-AI attempt at the skill.'
 ---
 
 # Twitter / X Activity (@danfrank)
@@ -95288,7 +95326,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,381 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 682 · Tier 2 409 · Tier 3 2,290.
+**3,382 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 682 · Tier 2 409 · Tier 3 2,291.
 
 ## What counts as an event here
 
@@ -96870,6 +96908,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/uniontown-return-2013-2015]] · SLOPPP: the recording-arts ambition, migrated
 - · **2014-05-07** — Drake x Cashmere Cat – No Lie ft. 2 Chainz (SLOPPP Bootleg) — Bootleg  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
+- · **2014-05-13** — sloppp — interests  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
 - · **2014-05-14** — Heatwave Vol. 1** — "1 hour of tweriffik plurntastic tracks" — **Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
 - · **2014-05-22** — SLOPPP Trap Micromix — Mix  
@@ -106055,14 +106095,63 @@ domain: work
 page_type: summary
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-20
-sources: []
+date_modified: 2026-09-02
+sources:
+  - raw/self/twitter/archive.jsonl
 related: []
+connections:
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "The archive holds the only record of an attempt to learn to program before the AI era — two Codecademy badges auto-posted on 19 February 2013 — and then nothing for thirteen years, until the 2026 tweets about building with Grok CLI and Claude."
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: instantiates
+    claim: "A single documented day of Codecademy in 2013 followed by thirteen silent years, and then a burst of shipped tooling once AI agents removed the need to learn the skill, is the shipping-bottleneck thesis in its cleanest form: the capability gap was never the obstacle it looked like."
 ---
 
 # Tech Index
 
 Personal technology projects: agent tooling, message-forensics pipelines, and reasoning frameworks.
+
+## Prehistory: one day in February 2013
+
+Everything on this page is 2026 work, built with AI agents. The obvious
+question about it — whether Dan had ever tried to learn to program before the
+tools arrived that meant he did not have to — has an answer in the tweet
+archive, and it is a narrow one.
+
+On **19 February 2013**, Codecademy auto-posted twice to his account:
+
+> *"I just unlocked the 50 points earned in one day badge on @codecademy!"* (19:17 UTC)
+> *"I just unlocked the 75 points earned in one day badge on @codecademy!"* (23:33 UTC)
+
+Four hours apart, escalating, on a single day. **And then nothing.** No
+further Codecademy post, and no reference to writing, running or debugging
+code anywhere in 2,525 originals across the following thirteen years — until
+**31 May 2026**: *"the app i built with the new Grok CLI coding agent to
+auto-respond on iMessage for specific numbers had just spent about 5 hours
+mass-spam texting garbled unicode to my ex girlfriend. so it actually
+outperformed what i had asked it to build. sick."*
+
+**What this does and does not establish.** It documents one day of Codecademy
+in February 2013 and no *public* trace of programming for thirteen years
+after. It does **not** establish that he studied for one day and quit: the
+badges are auto-posts, and an auto-post feature that gets switched off looks
+identical to a habit that stops. What can be said is that the account, which
+carried his music production, his politics and his friendships in detail
+across the same span, carried nothing about code between those two dates.
+
+**Why it belongs at the top of this index.** February 2013 is four months
+before the return to Uniontown and inside the same stretch as the O&A
+internship application and the SLOPPP genesis — a period of trying several
+doors. The door that eventually opened was not the one he knocked on: it
+opened in 2026, and it opened because the skill stopped being a prerequisite.
+Every project listed below was built by directing a model, not by acquiring
+the capability attempted here.
+
+That is the same shape [[wiki/mind/synthesis/failure-to-launch]] documents
+elsewhere, with an unusual ending — the constraint that page identifies is
+shipping rather than capability, and this is the one case in the corpus where
+something removed the constraint instead of Dan overcoming it.
 
 ## Projects
 - [[wiki/work/tech/grok-build/overview]] (Grok subagents, iMessage responder, portal TUI, export scripts; subagent mode for wiki tasks; OpenRouter routing)

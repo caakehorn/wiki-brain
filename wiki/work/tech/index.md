@@ -3,14 +3,63 @@ domain: work
 page_type: summary
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-20
-sources: []
+date_modified: 2026-09-02
+sources:
+  - raw/self/twitter/archive.jsonl
 related: []
+connections:
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "The archive holds the only record of an attempt to learn to program before the AI era — two Codecademy badges auto-posted on 19 February 2013 — and then nothing for thirteen years, until the 2026 tweets about building with Grok CLI and Claude."
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: instantiates
+    claim: "A single documented day of Codecademy in 2013 followed by thirteen silent years, and then a burst of shipped tooling once AI agents removed the need to learn the skill, is the shipping-bottleneck thesis in its cleanest form: the capability gap was never the obstacle it looked like."
 ---
 
 # Tech Index
 
 Personal technology projects: agent tooling, message-forensics pipelines, and reasoning frameworks.
+
+## Prehistory: one day in February 2013
+
+Everything on this page is 2026 work, built with AI agents. The obvious
+question about it — whether Dan had ever tried to learn to program before the
+tools arrived that meant he did not have to — has an answer in the tweet
+archive, and it is a narrow one.
+
+On **19 February 2013**, Codecademy auto-posted twice to his account:
+
+> *"I just unlocked the 50 points earned in one day badge on @codecademy!"* (19:17 UTC)
+> *"I just unlocked the 75 points earned in one day badge on @codecademy!"* (23:33 UTC)
+
+Four hours apart, escalating, on a single day. **And then nothing.** No
+further Codecademy post, and no reference to writing, running or debugging
+code anywhere in 2,525 originals across the following thirteen years — until
+**31 May 2026**: *"the app i built with the new Grok CLI coding agent to
+auto-respond on iMessage for specific numbers had just spent about 5 hours
+mass-spam texting garbled unicode to my ex girlfriend. so it actually
+outperformed what i had asked it to build. sick."*
+
+**What this does and does not establish.** It documents one day of Codecademy
+in February 2013 and no *public* trace of programming for thirteen years
+after. It does **not** establish that he studied for one day and quit: the
+badges are auto-posts, and an auto-post feature that gets switched off looks
+identical to a habit that stops. What can be said is that the account, which
+carried his music production, his politics and his friendships in detail
+across the same span, carried nothing about code between those two dates.
+
+**Why it belongs at the top of this index.** February 2013 is four months
+before the return to Uniontown and inside the same stretch as the O&A
+internship application and the SLOPPP genesis — a period of trying several
+doors. The door that eventually opened was not the one he knocked on: it
+opened in 2026, and it opened because the skill stopped being a prerequisite.
+Every project listed below was built by directing a model, not by acquiring
+the capability attempted here.
+
+That is the same shape [[wiki/mind/synthesis/failure-to-launch]] documents
+elsewhere, with an unusual ending — the constraint that page identifies is
+shipping rather than capability, and this is the one case in the corpus where
+something removed the constraint instead of Dan overcoming it.
 
 ## Projects
 - [[wiki/work/tech/grok-build/overview]] (Grok subagents, iMessage responder, portal TUI, export scripts; subagent mode for wiki tasks; OpenRouter routing)

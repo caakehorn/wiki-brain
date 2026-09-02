@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,381 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 682 · Tier 2 409 · Tier 3 2,290.
+**3,382 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 682 · Tier 2 409 · Tier 3 2,291.
 
 ## What counts as an event here
 
@@ -1601,6 +1601,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/uniontown-return-2013-2015]] · SLOPPP: the recording-arts ambition, migrated
 - · **2014-05-07** — Drake x Cashmere Cat – No Lie ft. 2 Chainz (SLOPPP Bootleg) — Bootleg  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
+- · **2014-05-13** — sloppp — interests  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
 - · **2014-05-14** — Heatwave Vol. 1** — "1 hour of tweriffik plurntastic tracks" — **Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
 - · **2014-05-22** — SLOPPP Trap Micromix — Mix  
