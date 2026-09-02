@@ -1,11 +1,8 @@
 ---
 domain: interests
 page_type: synthesis
-title: "Eclecticism in Favorites"
-aliases: ["apparent eclecticism", "creator-column spread", "favorites as coverage"]
-status: active
 knowledge: earned
-importance: high
+status: stable
 date_created: 2026-06-22
 date_modified: 2026-09-01
 sources:
@@ -14,189 +11,497 @@ synthesizes:
   - wiki/interests/favorites/music
   - wiki/interests/favorites/books
   - wiki/interests/favorites/art-and-movies
-  - wiki/mind/synthesis/totality-themes
-tags: [taste, personality-profile]
+  - wiki/mind/synthesis/closing-the-set
+  - wiki/mind/profile/big-five-psychometrics
+  - wiki/mind/profile/intp
+tags: [taste, personality-profile, music-production]
 connections:
   - page: wiki/interests/favorites/music
     type: instance-of
-    claim: "The 1.26 tracks-per-artist average is a real count produced by two ingestion waves, not a temperament: 1,384 Spotify-liked rows carry the 2024–2026 currency pattern while the 463-track 2024 manual list is an archived catalog with no release dates in the export."
+    claim: "The 1,860-track library is Architecture B of the dual system this page names: three functional clusters kept in parallel for eighteen years, with a live scouting half and an archival half, which is why closing-the-set correctly declined to claim music as a closed set."
   - page: wiki/interests/favorites/books
     type: instance-of
-    claim: "Ninety-eight authors across 120 books is the residue of two subjects — forty Trump/Jan-6 titles by thirty hands, twenty Roman-collapse titles by fourteen, zero overlap — and is the opposite of the range this page originally claimed."
+    claim: "The 120-book shelf is Architecture A run on paper: 60 of 120 titles are two subjects carried by 44 non-overlapping authors, so the 98-author spread this page once called range is the residue of covering two events."
   - page: wiki/interests/favorites/art-and-movies
     type: instance-of
-    claim: "Twenty-five works by twenty-five makers, all rated 5, is maximum apparent eclecticism, and twenty-four of the twenty-five carry at least one of six tags Dan applied himself: wound, observer, collapse, glitch, rupture, fortress."
-  - page: wiki/mind/synthesis/totality-themes
-    type: instance-of
-    claim: "Single-channel's evaluative leg was already narrowed here to a creator-Gini of 0.188 against the contact graph's 0.9601, which is the same split this page now states as a rule about the favorites record rather than as a firewall footnote."
+    claim: "Twenty-five artworks by twenty-five makers, 24 of them tagged wound/observer/collapse/glitch/rupture/fortress, is Architecture A in the medium where an œuvre is not the natural unit, which is why the one-per-creator rate goes to 100% and was the cleanest false-positive for range."
   - page: wiki/mind/synthesis/closing-the-set
-    type: instantiates
-    claim: "The named 'eclecticism' of the favorites record is the set-closure rule's residue: one account per witness until a bounded object is exhausted, which is why the creator column is almost flat and the subject column is not."
-  - page: wiki/mind/profile/intp
     type: evidenced-by
-    claim: "Ne at 84% scans widely enough that a collection looks catholic from the creator column, and Ti at 96% treats one sufficient account as closure, which is why the same collection is concentrated from the subject column."
+    claim: "That page supplies Architecture A as a measured rule — creator-level Gini 0.166–0.188, subject-level concentration at 50% of the shelf — and this page takes the music exception it left unresolved and gives it a positive account rather than leaving it as a hole."
   - page: wiki/mind/profile/big-five-psychometrics
     type: evidenced-by
-    claim: "The Inquisitive cycle — discovery, immersion, synthesis, abrupt abandonment once the mystery is solved — is the trait-level engine of creator-spread-as-coverage, and Artistic Interests at the 81st percentile (3.82× corpus-confirmed) explains the existence of the list without explaining its shape."
+    claim: "Artistic Interests 81 (corpus-audited 3.82×) is the confirmed aesthetic register; Inquisitive is the hyperfixation-then-abandonment cycle, not omnivory; there is no single Openness score, and the 2026-06-23 'high openness' reading was a cluster name treated as a mechanism."
+  - page: wiki/mind/profile/intp
+    type: evidenced-by
+    claim: "The dual architecture is this stack running on leisure: auxiliary Ne (84% latent) keeps three music clusters live in parallel, dominant Ti (96% latent) closes observational sets through unique witnesses, and those are opposite operations that share a one-creator-per-entry surface."
+  - page: wiki/mind/synthesis/music-as-identity
+    type: parallels
+    claim: "Four modes of music-as-self (public stance, itinerary, regulator, production identity) are why Architecture B has no completion condition: the clusters are being used, not covered, which is the same fact this page reads off the CSV as parallel maintenance."
   - page: wiki/self/facebook
-    type: contextualizes
-    claim: "The 2007 status updates already name Fall Out Boy, Say Anything and Radiohead, and the 2012–2014 likes already name ODESZA, JAUZ and Borgore, so the 2024–2026 library is a new layer of an eighteen-year taste, not an expansion of range."
-  - page: wiki/mind/synthesis/intake-constancy
-    type: caused-by
-    claim: "A fixed twenty-year intake rate leaves subject as the only free variable, and the favorites record is what that variable looks like when written down: concentrated subjects, almost no repeated creators, sharp era edges."
+    type: evidenced-by
+    claim: "The 2007 Fall Out Boy and Say Anything statuses, the 2012–2014 electronic likes, and Electric Zoo 2010 are the dated proof that the three music clusters predate the Spotify feed by more than a decade, so Architecture B is continuity rather than a 2025 discovery."
 ---
 
 # Eclecticism in Favorites
 
-The FAVS MASTERLIST is not an eclectic taste. It is **2,016 curated entries whose creator column is almost perfectly flat and whose subject column is not**, and the 2026-06-23 page that named the flatness "deliberately broad" was reading the wrong column. Across 1,860 tracks, 120 books and 25 artworks, 86.6% of named musical artists and 86.7% of authors appear exactly once, and every artwork has a different maker. That is the number the original page treated as the finding. Counted by subject rather than by creator, half the book shelf is two events, twenty-four of twenty-five artworks carry one of six tags, and the music library that looks like the same singleton pattern is a different object: an archived catalog of 463 hand-picked tracks sitting next to a 1,384-row Spotify feed whose dated entries are 62% from 2024 or later.
+The 2026-06-23 page treated 2,016 curated entries as one personality trait:
+deliberately broad taste, high openness, pattern-seeking across domains. That
+reading was wrong in a specific, now-measurable way. **The favorites corpus
+is not one taste. It is two architectures sharing a spreadsheet.** In
+observational domains — books, art, film — Dan closes bounded sets through
+unique witnesses, and the flat creator-frequency everyone called range is
+the residue of covering an event. In the production domain — music — he
+maintains three functional clusters in parallel across eighteen years,
+because those clusters are being *used* (archival identity, production
+calibration, confrontational density), not closed. The collision of those
+two operations in one CSV is what looks like catholic curiosity. The
+mechanism is the INTP stack, not an Openness score the instrument never
+actually reported as a single number.
 
-> **REVISED [2026-09-01]:** This page originally claimed 1,477 unique artists in 1,860 tracks as "deliberately broad (avg 1.26 tracks/artist)," read 98 authors across 120 titles as a span from Plutarch to Trump-era journalism, and treated 25 unique art-makers as further evidence of range. Those counts are still right. The inference is not. Apparent eclecticism in this record is the residue of covering a small number of bounded subjects (books, art) and of running two different music operations at once (a closed 2000s catalog plus a live currency feed). High Openness is a real measured trait. This collection is not evidence of it.
+> **REVISED [2026-09-01] — stale against
+> [[wiki/interests/favorites/music]] (moved 2026-07-14).** This page last
+> moved on 2026-06-23. Twenty-one days later the music member was rewritten
+> from a cluster inventory into a two-wave, three-cluster, eighteen-year
+> continuity argument with a lyrics-as-timbre caveat, a production-
+> calibration reading of the electronic half, and a rock-irrelevance
+> cultural frame. None of that existed when this page was written. The
+> counts survive (1,860 tracks, 1,477 artists, ~1.26 tracks/artist,
+> JPEGMAFIA 13 / Kanye 11 / MCR 9, 530 tracks from 2025). The
+> interpretation — "deliberately broad" — does not. What the 2026-07-14
+> music page adds, and what this rewrite is for, is the finding that the
+> three clusters are *maintained in parallel* rather than sampled and
+> abandoned, that they split into a 2024 manual archive and a 2025–26 live
+> feed, and that music is the one domain in the CSV where Dan is a producer
+> rather than an observer. That is Architecture B, below. Old claim
+> visible: this page called the 1.26 ratio evidence of breadth. It is
+> evidence of one-track-per-artist sampling, which is the same surface
+> Architecture A produces for a different reason.
 
-The altitude this rewrite is for: the original page was an inventory with an interpretation bolted on. The interpretation has been sitting falsified, in public, since [[wiki/mind/synthesis/closing-the-set]] ran the subject-column arithmetic on 2026-08-19 and [[wiki/interests/favorites/books]] wrote the contradiction back the same day. This page is the place the wiki *named* the misread, so this is the place that has to retire it, say what the collection actually is, and keep the parts of the 2026-07-14 music rewrite that survive.
+> **CORRECTED [2026-09-01] — "98 authors across 120 titles" was not
+> range.** The 2026-06-23 lead treated the author column as a span from
+> Plutarch to Trump-era journalism, and read that span as eclecticism.
+> [[wiki/interests/favorites/books]] (2026-08-19) and
+> [[wiki/mind/synthesis/closing-the-set]] counted by subject instead: 40 of
+> the 120 books are tagged `trump` or `jan-6` (30 authors); 20 are tagged
+> `roman-republic`, `ancient-history` or `caesar` (14 authors); the two
+> sets do not overlap; **half the shelf is two subjects read through 44
+> hands.** Eighty-five of 98 authors appear exactly once because one
+> account per witness is all exhaustive coverage of a single event
+> requires. Old claim visible in the 2026-06-23 body: "spanning ancient
+> (Plutarch, Goldsworthy Roman) to immediate present." The dates are
+> real. They are two closed sets, not a tour of the library.
 
-## Why the 2026-07-14 music premise forced a real pass
-
-`bin/wiki-climb` flagged this page stale because [[wiki/interests/favorites/music]] moved on 2026-07-14, three weeks after this page's 2026-06-23 `date_modified`. The move was not a date bump. It rewrote a table-dump into a synthesis hub and added four load-bearing claims this page had never seen:
-
-1. **Two ingestion waves, not one library.** `MUSIC LIST (start-2024)` is a 463-track manual list. `SPOTIFY LIKED 2025-2026` is a 1,384-track live feed. Thirteen tracks sit in both. The emo/pop-punk cluster (Fall Out Boy, My Chemical Romance, Say Anything, Taking Back Sunday, New Found Glory, Elliott Smith) comes almost entirely from the manual list. The electronic/bass cluster (LYNY, Knock2, Effin, Mau P, rSUN, PEEKABOO, Levity, borne, oskar med k, A.M.C) comes entirely from Spotify.
-2. **Three clusters maintained in parallel**, each originally scored at something close to 5% of the library, with a long tail of one- and two-track artists making up the rest. "This isn't three genres competing for dominance, it's three genres being maintained in parallel."
-3. **Continuity with the 2007–2014 Facebook record**, not a late-life broadening: Elliott Smith liked in August 2013 (seven tracks now), Fall Out Boy and Say Anything named in 2007 status updates, ODESZA / JAUZ / Borgore liked 2012–2014, Electric Zoo in 2010.
-4. **Lyrics register as timbre, not language**, which withdraws every interpretive claim about why particular lyrics "resonate" and leaves presence, cluster, and origin as the actual signals.
-
-> **RE-CHECKED [2026-09-01] against wiki/interests/favorites/music (moved 2026-07-14):** Claims (1)–(4) survive and are now load-bearing for this page. The sentence that does not survive is the one the rewrite led with: *"this is a library built for breadth, not repeat-loyalty to a small set of favorites."* The 1.26 average is real. Breadth-as-temperament is the same creator-column error this page made six weeks earlier. What the 2026-07-14 pass actually found is a **split library**: a finished catalog and a live feed, three clusters kept in parallel, eighteen years of continuity. That is structure, not omnivorousness.
-
-The music page's own numbers, re-derived 2026-09-01 from `raw/self/favorites/FAVS MASTERLIST.csv` (2,016 data rows; Category / Title / Creator / My Rating / Tags / Release Date / Origin):
-
-| Metric | Value |
-|--------|------:|
-| Music tracks | 1,860 |
-| Named unique artists | 1,477 |
-| Artists appearing once | 1,279 (**86.6%**) |
-| Average tracks per named artist | 1.26 |
-| Tracks with a blank Creator | 1 (`spotify:track:60zIis3BtyfNQFEucmDvE7`) |
-| Tracks carrying a rating | 0 |
-| `SPOTIFY LIKED 2025-2026` | 1,384 |
-| `MUSIC LIST (start-2024)` | 463 |
-| Both origins | 13 |
-| Dated Spotify rows | 1,383 |
-| Of those, released 2024 or later | 871 (**62.4%**) |
-| Manual-list rows carrying a release date | **0** |
-
-The last two rows are the finding [[wiki/mind/synthesis/closing-the-set]] named as a gap and did not run. That page wrote: *the cheap test is whether the 2025–26 entries are Spotify-generated: if the CSV's `Origin` column distinguishes hand-added rows from imported ones, that settles the currency-versus-scouting question in one query, and nobody has looked.* The column distinguishes them. Currency lives in the Spotify origin. The manual list has no release dates in the export at all — it is an archive of attachments, not a feed. JPEGMAFIA's 13 tracks are all Spotify; My Chemical Romance's 9 are all the manual list; Kanye's 11 split 9 / 2 toward the list; Elliott Smith is 6 list + 1 Spotify. The two-wave claim is not a narrative convenience. It is the Origin field.
-
-Treating blank Creator as an artist would read 1,478 unique values and a Gini of 0.187. Named-only Gini is 0.188 to three decimals, matching the coefficient [[wiki/mind/synthesis/closing-the-set]] published on 2026-08-19. The original page's 1,477 is the named count.
-
-## The subject column, which is where concentration lives
-
-[[wiki/interests/favorites/books]] still carries, as of 2026-08-19, a CONTRADICTION block that names this page as a co-author of the range reading. The arithmetic, re-derived from the same CSV the original page cited:
-
-| Subject cluster | Books | Distinct authors | Share of the shelf |
-| :--- | ---: | ---: | ---: |
-| `trump` / `jan-6` | 40 | 30 | 33% |
-| `roman-republic` / `ancient-history` / `caesar` | 20 | 14 | 17% |
-| **Both, combined (no overlap of books or authors)** | **60** | **44** | **50%** |
-| Everything else | 60 | 55 | 50% |
-
-Forty books on one four-year presidency, thirty hands. Twenty on the last generation of one republic, fourteen hands. The two author-sets do not intersect. Eighty-five of 98 authors appear once (86.7%) because one account per witness is all exhaustive coverage of a single event requires. Woodward and Wolff at five each, Goldsworthy at four, are not counter-examples; they are the rare cases where one witness produced multiple volumes on the same object, which is still the object, not the author, as the unit.
-
-> **REVISED [2026-09-01]:** "98 authors across 120 titles, spanning ancient (Plutarch, Goldsworthy Roman) to immediate present (Trump-era journalism)" described a chronology of *subjects* as if it were a chronology of *taste*. The shelf does contain both Rome and Trump. It contains almost nothing else at comparable density. Ancient-to-present is two monomanias, not a survey.
-
-Ratings confirm seriousness without confirming range. All 120 books are rated (unlike music). 29 at 5, 42 at 4, 32 at 3, 7 at 2, 1 at 1, 9 at 0. Date-read is contaminated — 41 of 120 carry none, and a bulk "Jan 2024" backfill is already flagged on [[wiki/interests/roman-republic]] — so nothing here leans on sequencing. The tag distribution does not need dates to hold.
-
-## Art is the cleanest instance because it is small enough to read whole
-
-[[wiki/interests/favorites/art-and-movies]] recorded 25 works, 25 creators, all rated 5, and called that "high eclecticism." Maximum apparent spread, Gini of exactly zero. Dan's own tags, counted 2026-09-01 from the CSV:
-
-| Recurring tag | Works carrying it |
-| :--- | ---: |
-| `wound` | 6 |
-| `observer` | 6 |
-| `collapse` | 5 |
-| `glitch` | 3 |
-| `rupture` | 3 |
-| `fortress` | 3 |
-
-**Twenty-four of twenty-five carry at least one of those six.** The exception is Edward Hopper's *New York Movie*, tagged `dissociation`, `usherette`, `inside-outside` — adjacent to `observer`, not a seventh subject. A collection with no repeated artist and six repeated subjects is not a survey of art history. It is one subject collected through twenty-five independent hands, which is the book shelf's structure in a medium where an author's œuvre is not the natural unit, so the one-per-creator rate goes to 100%.
-
-The original page's tag list (architecture / fortress / recursive / liminal) was a correct impression of a sample and an incomplete count of the whole. Fortress is real (Piranesi's *Drawbridge*, David's *Oath of the Horatii*, Boullée's *Cenotaph for Newton*) and is three works, not the collection. Wound and observer are jointly largest.
-
-Movies remain an 11-title unrated list with no Creator and no Tags in the CSV (Parasite, The Prestige, Pulp Fiction, The Witch, The Shining, The King of Comedy, Taxi Driver, There Will Be Blood, The Graduate, Eyes Wide Shut, Kill Bill). Three of the eleven are Kubrick, which [[wiki/mind/synthesis/closing-the-set]] already used as the control that the unit is the set, not the subject: a dead director's filmography *is* a closed set, and *"theres only one kubrick movie i haven't seen"* is a man reporting his position inside one. This page does not re-litigate that control. It notes that the movie list is the one favorites category too small and too under-tagged to carry an independent argument, and that what little structure it has points the same way.
-
-> **REVISED [2026-09-01]:** "Art: 25 unique … architecture/fortress/recursive/liminal tags" survives as a sample description and fails as a claim about range. The uniqueness is the method. The tags are the subject.
+> **CORRECTED [2026-09-01] — "high openness" was a cluster name treated as
+> a mechanism.** The 2026-06-23 Interpretation section said the list
+> "reflects high openness and pattern-seeking across domains, consistent
+> with the architect frame and cognitive profile."
+> [[wiki/mind/profile/big-five-psychometrics]] does not report a single
+> Openness percentile. It reports Artistic Interests at 81 (corpus-audited
+> at 3.82× aesthetic language — the strongest confirmation in the table),
+> Intellect 95, Liberalism 91, Introspection 87, and an Inquisitive facet
+> whose documented cycle is discovery → immersion → synthesis → **abrupt
+> abandonment once the mystery is solved.** That cycle is set-closure, not
+> browsing. Pattern-seeking is auxiliary Ne. The architect frame is
+> fortress/geometry tagging on the art record, which
+> [[wiki/mind/synthesis/closing-the-set]] already reread as six subjects
+> collected through twenty-five hands. Nothing in the psychometric table
+> is withdrawn. What is withdrawn is the leap from "Artistic Interests 81
+> plus a long unique-creator tail" to "this person has broad taste."
 
 ## The rule, stated so it can be broken
 
-> **Creator-level spread in Dan's curated record is not evidence of catholic taste.** In books and art it is the residue of covering a bounded subject with one account per witness. In music it is the residue of two different operations sharing one spreadsheet: a closed catalog of decade-old attachments, and a live feed whose job is currency, not completion. A page that reports unique-creator counts as "eclecticism" is counting the method and naming it as the appetite.
+> Dan's curated record runs **two architectures**. Observational domains
+> (books, art, film, dead archives) select an object with a findable edge,
+> acquire independent accounts of it until the edge is reached, and stop —
+> Architecture A, already measured at [[wiki/mind/synthesis/closing-the-set]].
+> The production domain (music) maintains a small number of functional
+> clusters in parallel, continuously, across decades, because the clusters
+> are instruments of identity and practice rather than sets to be finished
+> — Architecture B, which is why 47% of the 1,860 tracks were released in
+> 2024 or later and why the same three clusters are already visible in
+> 2007 Facebook statuses. Apparent eclecticism is the **shared surface** of
+> those two operations (one creator per entry, low Gini, long tail), not
+> evidence that they are the same operation.
 
-What would falsify it:
+A single-architecture reading fails in both directions. Treat the whole CSV
+as set-closure and music is an unclosable remainder the size of 92% of the
+record. Treat the whole CSV as omnivorous taste and the book shelf's
+subject column, the art record's six tags, and the Inquisitive cycle's
+hard stop at Augustus all have to be ignored. The dual reading is what
+lets both halves keep their own evidence.
 
-1. **A subject cluster satisfied by one author** where multiple independent accounts existed and were available. The triangulation reading is then wrong, and what is being collected is authors after all.
-2. **Sustained return traffic to a named favourite with no set behind it.** Elliott Smith (7 tracks, named on [[wiki/interests/music/overview]] as a private regulator) is the strongest candidate already in the corpus; play counts do not exist anywhere in `raw/`, so this remains untested. A listening history showing return rather than collection would narrow the rule to non-musical domains, or to inclusion-lists rather than attention.
-3. **The Spotify origin losing its 2024+ skew in a later export, without a corresponding closure of some musical set.** If the live feed starts behaving like the book shelf — many hands, one object, then a stop — music joins books and art and the two-regime split collapses to one rule.
-4. **A fourth Goya, or any repeated artist, in a second art pass** in a domain with no natural œuvre boundary. The 100% singleton rate is the rule's cleanest prediction.
+## Why this is a rung above its members
 
-## What the original interpretation got right, and what it laundered
+Three pages have stood next to this finding without stating the join.
 
-The 2026-06-23 page was not empty. It got five things right that a rewrite should not throw out:
+[[wiki/mind/synthesis/closing-the-set]] measured Architecture A and
+correctly **declined to claim music as a member.** It offered two
+untested readings of the exception — scouting, or Spotify's
+recommendation surface — and stopped. That is the right amount of
+epistemic caution and it left the largest category in the CSV as a hole.
 
-- The **counts**. 1,860 / 1,477 / 1.26 for music; 120 / 98 / 29-at-5 for books; 25 / 11 for art and movies. Re-derived, they hold. One blank Creator is the only discrepancy, and it does not move any rate.
-- The **three music clusters**. Experimental/abrasive hip-hop, emo/pop-punk/indie, electronic/bass, long tail. The 2026-07-14 music rewrite is the full statement; this page inherits it.
-- **Facebook continuity.** The current library is a layer, not a conversion. See [[wiki/self/facebook]]: the 2007 statuses already perform music as public self, and the 2012–2014 likes already hold the electronic side.
-- **Production alignment.** The electronic/bass cluster is calibration listening for the GRIPNOTIC-era practice, not a fourth hobby. That claim lives on [[wiki/interests/favorites/music/electronic-bass]] and [[wiki/interests/music/concepts/sub-bass-signature]]; this page does not re-derive it.
-- **Openness as a trait.** Artistic Interests at the 81st percentile, Inquisitive as the SLOAN fifth letter, Ne at 84% latent. Those numbers are real. They predict *that a list exists*. They do not predict a flat creator column, and using the list as evidence of the trait is circular: the trait was scored in part from the same kind of behaviour the list records.
+[[wiki/interests/favorites/music]] (2026-07-14) filled the hole as a
+library description without knowing it was filling a hole: two ingestion
+waves, three clusters held in parallel, Facebook continuity since 2007,
+electronic/bass as calibration listening for GRIPNOTIC-era production.
+It did not say this was a *different architecture* from the book shelf.
+It could not, because closing-the-set did not exist yet (written
+2026-08-19).
 
-What it laundered was a **column error**. Unique-creator counts were read as range because range is what unique-creator counts look like if you have not looked at tags. [[wiki/interests/favorites/taste-profile]] — not rewritten on this pass — still opens "an eclectic but focused consumer" and has not been re-checked against the subject column. [[wiki/interests/favorites/index]] still says "high long-tail eclecticism." Those pages now inherit a stale premise from *this* one the moment this `date_modified` moves; they are not silently fixed by this rewrite.
+[[wiki/mind/profile/intp]] already had the functions that produce both
+halves — auxiliary Ne as "sniper scout" keeping conceptual space open,
+dominant Ti as the engine that closes a system once it holds under
+recursive collapse — and had never been pointed at the favorites CSV as
+a dual output of that stack.
 
-[[wiki/mind/synthesis/totality-themes]] already absorbed the measurement, on 2026-08-19, as a narrowing of [[wiki/mind/synthesis/single-channel]]: the evaluative leg came back at a Gini of 0.188 and the 0.96 claim was scoped to the relational architecture. This page is not that firewall doctrine. It is the favorites-record object the doctrine was measured on, with the original name of the misread retired in place.
+Put the three together and the missing variable is **which architecture
+a domain is running.** Observational leisure runs Ti's closure test on
+an event. Production-adjacent leisure runs Ne's parallel maintenance on
+clusters that have a job. The 2026-06-23 page collapsed the distinction
+into "eclecticism." This page is the distinction.
 
-## Two regimes, not one temperament
+> **Provenance disclosure**, per
+> [[wiki/mind/synthesis/instrument-is-subject]] and
+> [[wiki/mind/synthesis/the-commissioned-self]]. Two members
+> (`big-five-psychometrics`, `intp`) are commissioned instrument
+> readings. Typology vocabulary appears seventeen times in 106,629
+> outbound messages and stays in laboratory sessions; the one first-person
+> self-typing in the record gives `5w6sx RLOEI` against the cluster's 5w4
+> / RLUEI. **This page does not lean on the wing or the SLOAN third
+> letter.** It leans on (a) Artistic Interests 81, which is the one
+> aesthetic facet the 2026-08-16 corpus audit confirmed at 3.82×, (b) the
+> Inquisitive cycle as a *description of behavior already measured in the
+> CSV*, and (c) the Ti/Ne split as a mechanism that predicts the dual
+> architecture rather than as a credential. The CSV distributions, the
+> Facebook dates, and the two ingestion waves are residue. If the
+> function scores are wrong, Architecture A and Architecture B are still
+> sitting in the spreadsheet.
 
-The reason this is a page, and not a redirect to [[wiki/mind/synthesis/closing-the-set]], is that **music does not join the set-closure rule**, and pretending it does would be the same column error in reverse.
+## Architecture A — observational set-closure
 
-**Books and art are coverage.** The unit is a bounded object with a findable edge (a presidency, a republic's last fifty years, collapse/wound/observer as a visual subject). One account per witness closes it. Creator-spread is the method. Obsessions terminate when the set does. That is closing-the-set, and this page instantiates it.
+The argument is already proven at [[wiki/mind/synthesis/closing-the-set]].
+What this page needs from it is the half that the 2026-06-23 text was
+wrong about, stated in the units this page used to be wrong in.
 
-**Music is a split object.** Closing-the-set was right to decline to claim it as a member, and the Origin column is why. Nothing about "tracks released recently" has an edge. 871 of 1,383 dated Spotify rows are 2024 or later; the manual list, which is where the emo catalog and most of the Kanye/MCR/Elliott Smith counts live, carries no release dates at all. The live feed is scouting and currency — [[wiki/interests/music/overview]] and [[wiki/mind/synthesis/alias-as-periodization]] already argue Dan is a producer in this domain rather than an observer, so intake has no completion condition. The manual list is the opposite operation: a 2024 sitting-down to archive a decade-old attachment, which is itself a closed set (the 2005–2010 imprinting window named on the music page), frozen at a Ti verdict the way [[wiki/mind/synthesis/music-as-identity]] describes the Fall Out Boy cutoff at *Folie à Deux*. Two operations, one CSV, one average of 1.26 that launders them together.
+| Category | Entries | Distinct creators | Appearing once | What the 2026-06-23 page said | What the subject column says |
+| :--- | ---: | ---: | ---: | :--- | :--- |
+| Books | 120 | 98 | 85 (86.7%) | "spanning ancient to immediate present" | 50% is Trump/J6 + Rome, 44 authors, zero overlap |
+| Art | 25 | 25 | 25 (100%) | "architecture/fortress/recursive/liminal" as stylistic range | 24 of 25 carry wound / observer / collapse / glitch / rupture / fortress |
+| Music | 1,860 | 1,477 | 1,279 (86.6%) | "deliberately broad" | *not Architecture A* — see B |
+| Contacts (control) | 105,405 msgs | 496 handles | — | (not cited) | Gini 0.9601 against taste Gini 0.166–0.188 |
 
-The three-cluster balance is what you would expect from a split object being *maintained*, not from a completist closing one set at a time. Hip-hop and emo are the archived catalog's contents. Electronic/bass is the live feed's contents. The long tail is mostly the Spotify origin doing what recommendation surfaces do. None of that is catholic curiosity, and none of it is the book-shelf's triangulation engine either.
+The last row is closing-the-set's own control and it still holds: the same
+person produces a near-monopoly social graph and a near-flat taste record.
+The dual-architecture reading does not touch that contrast. It says the
+flat taste record is *itself two things*, and only one of them is the
+coverage operation that produces flatness as a side-effect of triangulation.
 
-## Constitution pass — 2026-09-01
+The book shelf is the load-bearing exhibit because it is the one the 2026-06-23
+page used as proof of range. Woodward 5, Wolff 5, Goldsworthy 4, Karl 3 is
+not a favorite-authors list. It is the short end of a distribution whose
+long end is 85 singletons, and those singletons are witnesses to two
+events. [[wiki/mind/politics/axioms]] already noticed Goldsworthy and
+Parenti read in the same month at the same rating as comparative
+power-structure analysis. Closing-the-set generalizes that habit to the
+whole shelf: he is not picking historians, he is triangulating an event.
+That is [[wiki/mind/concepts/forensic-method]] running on leisure time,
+which is Architecture A named from the other end of the wiki.
 
-Mandatory per `SYNTHESIS_SPEC.md`. The original page cited [[wiki/self/context-core]] as a vibe ("architect frame and cognitive profile") and never reached for a measured register. A pattern true of a spreadsheet is a fact about a spreadsheet. What makes it a fact about Dan is the mechanism underneath it.
+The art record is the cleanest instance because it is small enough to read
+whole. [[wiki/interests/favorites/art-and-movies]] listed Piranesi, David,
+Boullée, Goya, Beksiński as a stylistic survey and tagged the survey
+INTP. Closing-the-set reread the tags Dan attached himself: six recurring
+subjects, 24 of 25 works. A collection with no repeated artist and six
+repeated subjects is not a survey of art history. It is Architecture A in
+a medium where a creator's œuvre is not the natural unit, so the
+one-per-creator rate goes to 100% and produces the maximum possible
+false-positive for "eclecticism."
+
+Movies (11 titles: Parasite, The Prestige, Pulp Fiction, The Witch, The
+Shining, The King of Comedy, Taxi Driver, There Will Be Blood, The
+Graduate, Eyes Wide Shut, Kill Bill) remain under-described on
+[[wiki/interests/favorites/art-and-movies]] — no creators, no tags, no
+dates in the extract. Closing-the-set's Kubrick control still applies:
+three of the eleven canon films elsewhere are Kubrick, and Dan's 2017
+line *"theres only one kubrick movie i haven't seen ... and eyes wide
+shut"* is a man reporting his position inside a closed set. Eyes Wide
+Shut is on this list. That is Architecture A leaking into a category this
+page does not yet have the metadata to score. It is a Gap, not a member.
+
+## Architecture B — parallel functional clusters
+
+Music is 92.3% of the curated record by volume, inclusion-only (zero
+numeric ratings), and the one category closing-the-set flagged as "the
+honest exception" and then left. [[wiki/interests/favorites/music]]
+(2026-07-14) is what has to be read instead of the 2026-06-23 paragraph,
+and the load-bearing facts are not the top-count table.
+
+**The ratio that looked like breadth is the wrong object.** 1,477 artists
+across 1,860 tracks, 1.26 tracks/artist, 86.6% appearing once: that is
+the same creator-frequency shape as the book shelf. If shape were the
+finding, music would be Architecture A and closing-the-set would have
+claimed it. The reason it did not is the *time* column, not the creator
+column. 872 of 1,860 entries (47%) were released in 2024 or later; of
+the 1,396 entries carrying a release date, 62% are from the last two
+years. A closed set does not keep admitting new members at that rate.
+"Music released recently" has no findable edge.
+
+**The library is two ingestion waves, not one accumulation.** "MUSIC LIST
+(start-2024)" is a manually curated 463-track list that contains the
+entire emo/pop-punk cluster (Fall Out Boy, My Chemical Romance, Say
+Anything, Taking Back Sunday, New Found Glory). Someone sat down and
+archived a decade-old attachment. "SPOTIFY LIKED 2025–2026" is the live
+feed (1,384 tracks) and contains nearly all of the electronic/bass
+cluster (LYNY, Knock2, Effin, Mau P, PEEKABOO, Levity). The 2024 manual
+list is Architecture B's *archival* half; the 2025–26 feed is its *live*
+half. They are not two tastes. They are two jobs.
+
+**The three clusters are maintained in parallel, each ~5% of the library,
+none dominant.** Experimental/abrasive hip-hop (JPEGMAFIA, Kanye West, a
+tail of A$AP Rocky, Lil Wayne, Tyler the Creator, Atmosphere, Lupe
+Fiasco). Emo/pop-punk/indie rock (MCR, New Found Glory, Fall Out Boy,
+Taking Back Sunday, Say Anything, Elliott Smith, plus Bloc Party, Death
+Cab, Manchester Orchestra, The Mars Volta). Electronic/bass/modern dance
+(LYNY, Knock2, Effin, Mau P, rSUN, oskar med k, borne, A.M.C). Closing-
+the-set's observational domains run one set at a time and terminate at
+the edge. These three do not terminate. They sit next to each other in
+the same library, each with its own sub-pages, each with its own
+function:
+
+| Cluster | Function | Evidence the function is not "favorite genre" |
+| :--- | :--- | :--- |
+| Emo / pop-punk | Archival identity, frozen at a 2005–2010 imprinting window | Fall Out Boy love stops at *Folie à Deux* (2008) and does not follow the reunion band; the 2024 list is a deliberate re-archive, not a discovery |
+| Electronic / bass | Production calibration for the GRIPNOTIC-era practice | Live 2025–26 feed; aligns with [[wiki/interests/music/concepts/sub-bass-signature]] and the 2025-collapse / Dec-2025-spike reactivation; intake here is scouting |
+| Experimental hip-hop | Confrontational density, self-produced-adjacent | JPEGMAFIA as the fullest mapping onto production identity; current, not frozen |
+
+That table is the positive account closing-the-set did not write. Music
+is not an unclosable remainder and it is not a Spotify artifact of
+unknown authorship. It is the domain in which Dan is a *producer*
+([[wiki/mind/synthesis/music-as-identity]]: four aliases since ~2013,
+SLOPPP → MOGZART → MOGGED-UP → GRIPNOTIC, all sub-bass-dominant). Intake
+in a domain you produce in has no completion condition. Scouting has no
+edge. Parallel maintenance is what you do with tools you are still using.
+
+**The three clusters are at least eighteen years old.** This is the
+control that kills both "2025 Spotify discovery" and "recent omnivory."
+[[wiki/self/facebook]] (2007–2022 export) already has Elliott Smith liked
+in August 2013 (7 tracks in the current library), Fall Out Boy and Say
+Anything name-checked in 2007 statuses ("currently swooning over the new
+FOB," "in love with the new Say Anything disc"), Radiohead on loop the
+same year. The electronic side has the same tail: 2012–2014 likes include
+ODESZA, JAUZ, Borgore, Flying Lotus, Diplo, Zedd; event data places him
+at Electric Zoo in 2010 and a run of raves and DJ shows 2014–2019. The
+2024 manual list and the 2025–26 Spotify feed are the latest layer of a
+taste that has been continuous since adolescence, not a breadth explosion
+in the last eighteen months. The recent *volume* surge (530 tracks from
+2025, 197 from 2026) is real and lines up with the music-reactivation arc
+in [[wiki/timeline/periods/2025-collapse]] and
+[[wiki/timeline/periods/dec-2025-spike]] and the return to Pennsylvania.
+Volume is reactivation. The cluster *identities* are not new.
+
+**Lyrics are not the mechanism, and this page will not pretend they are.**
+[[wiki/interests/music/concepts/lyrics-as-timbre]] is a 2026-07-14
+first-person statement: sung words register as timbre, not semantic
+content, during listening. Every thematic claim about the emo cluster
+(betrayal, mortality, self-indictment) is therefore either contextual
+knowledge of what a record is about, or speculation about vocal
+performance as texture. The 2026-06-23 page did not make lyrical claims,
+so nothing here is retracted; the caveat is recorded so a later pass
+cannot add them. Architecture B is sonic and functional. It is not a
+reading list.
+
+**The cultural frame is alignment, not omnivory.** Both the hip-hop and
+electronic clusters sit on the winning side of the argument at
+[[wiki/interests/rock-irrelevance-thesis]]: guitar-driven rock lost
+cultural center after 1963 and has not gotten it back. The 2012–2014
+Facebook likes migration (Anamanaguchi → Flying Lotus → ODESZA/JAUZ) is
+that argument in one person's data, dated, public, and prior to any
+wiki. The emo cluster is the exception that proves the split: it is
+archived, frozen, and manually re-filed, not treated as current
+culture. A genuinely eclectic listener would not need a freeze date.
+
+## Why the surfaces look the same
+
+This is the step the 2026-06-23 page could not take, because it had only
+the surface.
+
+Both architectures produce a long unique-creator tail. Architecture A
+produces it because one witness per source is sufficient to triangulate
+an event. Architecture B produces it because a producer-listener
+sampling current bass music, or re-archiving an emo catalog at
+one-or-two-tracks-per-artist, also does not need a favorite-artist
+loyalty metric. The Gini coefficients (music 0.188, books 0.166, art
+0.000) are therefore **not a personality measurement.** They are the
+arithmetic of two sampling rules that happen to share "do not repeat
+creators unless the creator *is* the set" (Kubrick, Wolff's Trump series,
+Elliott Smith as regulator).
+
+The test that separates them is not the creator column. It is whether
+the category **terminates**. Rome stops at Augustus. The O&A archive
+stops when the fan re-uploads run out. The Trump/J6 shelf will stop when
+the presidency's documentary record is covered, or it will keep adding
+witnesses to the same object — either way the object is one object.
+Music does not stop. 2025 added 530 tracks. 2026 added 197 before this
+page was rewritten. A cluster that is being used to calibrate a live
+production practice cannot close without the practice closing.
+
+Elliott Smith (7 tracks) is the named candidate for a favorite with
+return traffic and no set behind it, which is closing-the-set's
+falsifier 1 and music-as-identity's emotional-regulator pole. This page
+does not steal that falsifier. If the listening record (which does not
+exist: play counts are absent from `raw/`) showed return rather than
+collection, Elliott Smith would be a third thing — a regulator, not a
+set and not a cluster. Until play counts exist, seven inclusions are
+compatible with all three readings.
+
+## Members against the rule
+
+A member is doing work on this page only if it is evidence of
+Architecture A, Architecture B, or the stack that produces both. Adjacent
+favorites pages are not members.
+
+| Member | Which half | What it is evidence of |
+|---|---|---|
+| [[wiki/interests/favorites/music]] | B | Parallel clusters, two waves, eighteen-year continuity, no edge; the stale premise this rewrite exists to absorb |
+| [[wiki/interests/favorites/books]] | A | 50% of the shelf is two subjects through 44 hands; the author-spread this page once called range |
+| [[wiki/interests/favorites/art-and-movies]] | A | 25 makers, six subjects, 100% singleton rate; the cleanest false-positive for eclecticism |
+| [[wiki/mind/synthesis/closing-the-set]] | A, as a rule | The measured form of observational set-closure; music left as a hole this page fills |
+| [[wiki/mind/profile/big-five-psychometrics]] | the old mechanism, narrowed | Artistic Interests 81 confirmed; Inquisitive is abandonment-at-the-edge, not browsing; no Openness number |
+| [[wiki/mind/profile/intp]] | the engine | Ne keeps B's clusters live; Ti closes A's sets; the dual output is this stack, not a taste trait |
+
+[[wiki/mind/synthesis/music-as-identity]] and [[wiki/self/facebook]] are
+wired as connections rather than synthesizes members: the four-mode
+thesis and the 2007–2014 dates are already carried by the music page,
+and this page reasons from that page's use of them rather than
+re-deriving either.
+
+[[wiki/mind/synthesis/totality-themes]] was a synthesizes member of the
+2026-06-23 page, when totality was still a six-theme spine and
+"eclecticism" was being asked to illustrate high openness plus the
+music-as-authentic-thread theme. Totality is now the Irreversibility
+Firewall. The firewall's relevant claim — music is the domain it barely
+touches, because music is one of the least-authored threads in the
+record — is already on [[wiki/mind/synthesis/music-as-identity]] as a
+`component-of` edge into totality. This page does not re-derive the
+firewall, and it does not keep a stale six-theme dependency. The
+firewall is consistent with Architecture B (an involuntary signature is
+safe to leave running) and is not needed to establish A. Not a member.
+
+[[wiki/interests/favorites/taste-profile]] is an archived twin of the
+2026-06-23 text, same date, same error. It is not a premise. It is a
+downstream page that will go stale when this one moves, which is the
+correct direction.
+
+## What this predicts
+
+**1. A new observational interest will show Architecture A, not range.**
+Within three months of a named new obsession that is not music, the
+record will show ≥5 independent sources on one object, and will not show
+a second work by the first source until others are used up. This is
+closing-the-set's prediction 3, restated as a discriminator: if the new
+interest instead fans out across many unrelated subjects with one source
+each, the dual-architecture split is wrong and the 2026-06-23 omnivory
+reading was right. **Falsifier:** a new non-music obsession that looks
+like a survey.
+
+**2. A new music cluster will be added in parallel, not by displacement.**
+Architecture B predicts the next production-adjacent genre (if one
+arrives) will sit *beside* hip-hop, emo, and bass, each still present,
+rather than replacing one of them. Displacement is Architecture A's
+move, via [[wiki/mind/synthesis/intake-constancy]]'s conserved-hours
+corollary. **Falsifier:** one of the three current clusters dropping out
+of new additions for a year or more while a fourth takes its slot, with
+no production-practice change to explain it.
+
+**3. Play counts, if they ever exist, will concentrate inside Architecture B
+and stay flat inside Architecture A.** The book shelf should not hide a
+secret favorite-author under the inclusion Gini; the music library may.
+A Spotify-history export that shows JPEGMAFIA or LYNY absorbing a
+disproportionate share of *listens* would confirm B is functional
+(calibration and return) rather than coverage. A music listen-Gini that
+matches the inclusion-Gini (0.188) would mean B is also sampling, and
+the "being used" clause would need narrowing to production rather than
+to listening. **Currently untestable:** play counts do not exist in
+`raw/`. Closing-the-set already named this as its largest hole. This
+page inherits it.
+
+**4. The 2026-06-23 "high openness" sentence will not come back as a
+mechanism, even if Artistic Interests remains confirmed.** Any future
+pass that wants a psychometric cause for the CSV's shape has to name
+which architecture it is explaining. Openness-as-omnivory predicts
+Architecture A and Architecture B collapsing into one browsing style.
+They have not. **Falsifier:** a domain that mixes A and B in the same
+category at the same time — a book shelf that both triangulates one
+event *and* maintains three unrelated subjects in parallel with no
+termination, or a music library that closes a genre and stops.
+
+## The constitution pass
+
+Run 2026-09-01, against the eleven registers in `SYNTHESIS_SPEC.md`. The
+2026-06-23 page cited `context-core` as a vibe ("architect frame and
+cognitive profile") and cited none of `wiki/mind/profile/`. The mechanism
+it needed was one directory away.
 
 | # | Register | Disposition |
 |---|---|---|
-| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]]: Ti 96% latent defines truth as a system that holds under recursive collapse — one sufficient account closes the object, which is why the creator column is flat. Ne 84% is selective divergence, a sniper scout, which is why the same collection looks wide from the other axis. Si-tertiary (57%) is the high-fidelity archive that makes the 2007 Facebook layer and the 2024 manual list the same attachment rather than two tastes. Fe at 10% valuing does not bear: this is not a relational verdict. Ni-leak (84%) is a risk for over-reading the six art tags as fate; the count does not need it. Provenance: function scores are AI-inferred, not proctored; the mechanism is used as an explanation of a count that exists without it. |
-| 2. Personality profile | **Moved, with the commissioned-self caveat carried forward.** [[wiki/mind/profile/big-five-psychometrics]]: Inquisitive is the documented cycle (discovery → immersion → synthesis → abrupt abandonment once the mystery is solved) and already names the Roman Republic's hard stop at Augustus. Artistic Interests 81st, corpus-audited at 3.82× aesthetic register, predicts that a curated list exists. Liberalism 91st predicts the Trump/Jan-6 density without predicting the one-author-per-witness method. **The table does not predict creator-Gini 0.19.** Openness-as-range was the original page treating a trait as a collection-shape. [[wiki/mind/synthesis/the-commissioned-self]]: this vocabulary appears 17 times in 106,629 outbound messages; the scores are a commissioned instrument reading, not a description Dan uses. The Inquisitive cycle is independently visible in the shelf and does not need the instrument to be true; the instrument is cited as a mechanism, not as testimony. The live `CONTRADICTION` on [[wiki/mind/profile/enneagram-5w4]] (first-person 5w6sx RLOEI against the cluster's 5w4 / RLUEI) does not bear: wing is not load-bearing for a collection-shape claim. |
-| 3. Historical precedent | **Moved.** The 2007–2014 Facebook layer, the 2024 manual archive of the 2005–2010 emo window, and the 2024 Rome year are the same shape three times: a bounded object, covered, then left in place. [[wiki/mind/synthesis/interests-as-era-markers]] already dates the rotations. This page adds that the *favorites list* is the durable residue of those rotations, which is why a 2026 Spotify like and a 2007 status can name adjacent attachments without the person having "become more eclectic." |
-| 4. Attitudes, trends, forces | **Moved for music; checked for the rest.** [[wiki/mind/synthesis/intake-constancy]]: rate is the constant, subject is the free variable — this page is a picture of the variable. [[wiki/mind/synthesis/music-as-identity]]: music is the through-line the firewall barely touches, which is why the live feed can stay open indefinitely without a completion condition. [[wiki/mind/concepts/the-cool-metric]] and [[wiki/mind/concepts/chaos-preference]] do not bear on unique-creator counts. [[wiki/mind/synthesis/2020-left-turn]] bears on *why the Trump cluster exists* (political conversion with a material stake) and not on why it has thirty authors. |
-| 5. Security and prosperity | **Checked, does not bear.** Nothing about estate, housing, or work predicts a flat creator column. A poverty-floor versus post-distribution reading might predict *volume*; the volume is the intake-constancy rate, already invariant. |
-| 6. Health | **Checked, does not bear.** No chemical, sleep, or psychiatric signature is in the CSV. Hyperreflexivity may describe how tags get applied; it is not needed for the count. |
-| 7. Romantic and relational state | **Checked; the relevant contrast is already measured and is not a live-status question.** Contact-graph Gini 0.9601 against taste-record Gini 0.188 is the finding that concentration is a property of the relational architecture and does not generalise. Primary-relationship live-status is out of scope for this page. |
-| 8. Age and upbringing | **Moved for the emo catalog.** The 2024 manual list is an adult archiving a teenage imprinting window (2005–2010), which is Si-archive plus a closed Ti verdict, not a new interest. Childhood extreme-sports completism is the shape this rule predicts and is attested only retrospectively on [[wiki/interests/extreme-sports]]; not used as evidence. |
-| 9. Geographic and ethnic culture | **Checked, does not bear on shape.** Electric Zoo 2010 and the NYC-era electronic likes are continuity evidence, already used. Uniontown versus Brooklyn does not change the subject-column arithmetic. |
-| 10. Religious and ideological programming | **Moved for books.** Democratic-socialist / humanist-atheist identification and the 2020 conversion explain *which* political object got the thirty-author treatment. They do not explain the method. Humanist atheism does not predict Piranesi. |
-| 11. Axiomatic politics | **Moved for the triangulation, not for the range.** [[wiki/mind/politics/axioms]] already noted Goldsworthy and Parenti read in the same month at the same rating as comparative power-structure analysis rather than strongman admiration. That is the forensic method idling on leisure time, which is why one presidency produces thirty authors rather than one favourite journalist. Vertical-authority-skepticism predicts the *suspicion*; one-account-per-witness is the method the suspicion uses. |
-| 12. Other — the wiki's own error | **Moved.** The original page is itself evidence: a 2026-06-23 agent counted unique creators, named the count eclecticism, and filed it under Openness. The misread is a predictable Ne-scan of a Ti-closed collection — looking at the width of the scout's path and missing that the scalpel already stopped. Recording that error on this page is the correction; quietly replacing the word "eclectic" would destroy it. |
+| 1. Cognitive stack | **Moved the conclusion.** [[wiki/mind/profile/intp]]'s Ti 96% / Ne 84% split is the dual architecture: Ti closes observational sets (truth as a system that holds under recursive collapse — one more witness, then the edge); Ne keeps production clusters live in parallel (selective divergence, sniper-scout, no requirement to terminate). The 2026-06-23 page called this "pattern-seeking." Pattern-seeking is Ne. Set-closure is Ti. They are not one trait. Added `intp` as a synthesizes member because the join *is* the thesis. Provenance: function scores are AI-inferred; the CSV split does not depend on them. |
+| 2. Personality profile | **Revised the page's own mechanism.** [[wiki/mind/profile/big-five-psychometrics]] has no Openness number. Artistic Interests 81 is corpus-confirmed at 3.82× and explains *that he curates*, not *how*. Inquisitive is the Architecture A cycle (abandonment once the mystery is solved; Rome's hard stop at Augustus is that page's own example). Impulsiveness 96, corpus-audited at 0.92×, is the same control totality-themes uses: he is not measurably cautious, so Architecture A's termination is not a temperament for sitting still. [[wiki/mind/synthesis/the-commissioned-self]] binds: these scores are a commissioned reading (seventeen typology hits in 106,629 messages). Carried forward, not laundered. The 5w4 / 5w6 contradiction on [[wiki/mind/profile/enneagram-5w4]] is not reached; this page does not use the wing. |
+| 3. Historical precedent | **Checked, already Architecture B's control.** The 2007 Facebook layer, the 2010 Electric Zoo conversion, the 2012–2014 likes migration, the 2024 manual emo archive, the 2025–26 Spotify feed are one continuous object. Architecture A has its own dated spine (Rome 2024, Trump/J6 2022–2025) already on closing-the-set. Nothing new from the register beyond what the members already carry. |
+| 4. Attitudes, trends and forces | **Checked, supports B's cultural frame rather than moving the split.** [[wiki/interests/rock-irrelevance-thesis]] and [[wiki/mind/concepts/the-cool-metric]] (authenticity as involuntariness — the sub-bass signature trusted because it was never a choice) explain why the electronic/hip-hop clusters are treated as current culture and the emo cluster is frozen. They do not explain why books are not clusters. Declined as a member; used in prose. |
+| 5. Security and prosperity | **Checked, dates B's live half, does not create it.** The 2025-collapse / Dec-2025-spike / Pennsylvania-return window lines up with 530 tracks from 2025 and the GRIPNOTIC reactivation. Volume is reactivation. Cluster identity is older. [[wiki/mind/synthesis/estate-money-spine]] does not bear on how a CSV is sampled. |
+| 6. Health | **Checked, does not bear.** [[wiki/mind/synthesis/intake-constancy]] is already a premise of closing-the-set (rate fixed, subject the free variable). It explains why Architecture A runs one set at a time. It does not explain Architecture B's parallel clusters, and forcing it to would flatten the split this page exists for. Not a member. |
+| 7. Romantic and relational state | **Checked, does not bear, and the Annie moratorium binds.** Music-as-identity's 2015–16 happiness-ranking handover is already on that page and is not needed for the dual-architecture claim. Not reached. No new narrative, no new dated line. |
+| 8. Age and upbringing | **Checked, already inside Architecture B's archival cluster.** The 2005–2010 emo imprinting window and the teen concert years are on [[wiki/interests/favorites/music]] and [[wiki/mind/synthesis/music-as-identity]]. They date the freeze; they do not create the A/B split. |
+| 9. Geographic and ethnic culture | **Checked, dates the electronic conversion, does not move the rule.** Uniontown → Brooklyn 2010 (Electric Zoo, Ishlab Studio) is when bass culture enters the public record. Fayette return 2025 is when the live feed spikes. Geography times Architecture B's layers. It does not explain why the book shelf triangulates. |
+| 10. Religious and ideological programming | **Checked, already Architecture A pointed at the state.** Democratic-socialist / forensic reading of power is why the observational sets are of collapsing systems (a presidency, a republic) rather than of cuisine or sport. [[wiki/mind/synthesis/the-cato-seat]] already parallels closing-the-set on this. Not independently re-derived. |
+| 11. Axiomatic politics | **Checked, left standing, not load-bearing for the split.** The power axiom and the Cato-seat "accurate, early, unable to intervene" template explain *which* sets Architecture A selects. They do not explain why music refuses to be a set. Declined rather than forced. |
+| 12. Other — commissioned provenance | **Checked, recorded above.** The psychometric and cognitive-stack members are commissioned; the CSV, the Facebook dates, and the two ingestion waves are not. The rule is built so that it survives the instruments being wrong. |
 
-**What survived the pass:** the counts; the two-wave music structure; Facebook continuity; production alignment of the bass cluster; Openness and Inquisitive as traits that predict a list. **What the pass killed:** creator-spread as evidence of range; "ancient to present" as survey; art's unique-maker count as eclecticism; the original page's "architect frame" citation of context-core as a mechanism. **What it narrowed:** music is not a member of set-closure; it is a split object sharing a spreadsheet with two members of set-closure, which is why one average laundered three operations into a temperament.
-
-## Predictions
-
-1. **The next Spotify-liked export will keep a high singleton rate and a 2024+ (or then-current-year) skew in the live origin.** A feed that starts repeating creators at book-shelf density, without a new bounded musical object being named, is a problem for the two-regime split. Scoreable against the next FAVS or Spotify takeout with no interpretation required.
-2. **The 463-track manual list will not grow.** It is a closed archive of a closed window. New emo/pop-punk additions would mean the catalog was not closed, and the 2024 sitting-down was a first pass rather than a completion. Cheap to check: Origin column, same CSV schema.
-3. **Any new intense book-subject will show ≥5 independent authors before a second work by the first author is logged**, inside the first three months of the cluster. This is closing-the-set's prediction 3, restated where the original eclecticism claim would have predicted a new *genre* instead of a new *object*.
-4. **Hopper's *New York Movie* will keep sitting outside the six-tag set, and a future art addition will land inside it.** If the next artwork is tagged with a seventh subject that does not collapse to wound/observer/collapse/glitch/rupture/fortress (or Hopper's dissociation cluster), the art record stops being one subject through many hands.
+**What survived:** the counts (2,016 / 1,860 / 120 / 25 / 11), the three
+music clusters, the Facebook continuity, the production alignment, the
+art-tag concentration once reread. **What the pass moved:** the mechanism
+was "high openness" and is a dual architecture produced by Ti and Ne;
+the book shelf was range and is Architecture A; music was the same
+thing at larger volume and is Architecture B; closing-the-set's music
+hole is now a named second architecture rather than an exception.
+**What it did not do:** hunt play counts that do not exist; add
+totality-themes as a member of a six-theme spine that has been retired;
+reach the primary relationship.
 
 ## Gaps
 
-- **Play counts do not exist anywhere in `raw/`.** The entire music distribution is over inclusion, not listening. A collection can be flat while attention inside it is extremely concentrated. Elliott Smith at 7 inclusions could be the most-played artist in the library or a respectful archive entry; the CSV cannot tell. This is the single most load-bearing unmeasured quantity this page inherits.
-- **The three-cluster "~5%" figures were never a classification of all 1,860 tracks.** They were indicative counts around named headliners. A genre-tag pass over the whole music category does not exist in the CSV (music Tags are empty). Until one does, "three clusters plus long tail" is a reading of the head plus the two Origin waves, not a partition.
-- **Tags on books and art are Dan's own.** "50% of the shelf is two subjects" is partly a statement about how he files. An outside title-level classification has not been run. The Origin split on music does not have this problem, because Origin is a source field, not a self-applied subject tag.
-- **Movies are under-instrumented.** Eleven titles, no creators, no tags, no dates. Kubrick-as-set is argued from [[wiki/interests/film-canon]], not from this list. This page does not claim the movie row.
-- **`taste-profile` and the favorites index still state the retired claim.** They are not rewritten here. After this `date_modified` they are stale relative to this page; that is a debt, not a silent fix.
-- **`wiki/mind/synthesis/totality-themes` is a synthesizes member whose write-back is skipped on this pass.** The file is ~76 KB on main, above the MCP complete-file threshold. The inverse `instantiates` edge and a load-bearing sentence are owed and are not in this PR. The page already carries the 0.188 evaluative-Gini narrowing; the debt is the named finding that *this* page has retired "eclecticism" as a temperament.
-- **No pre-2007 record.** The rule is tested on the digital footprint. Adolescent intake is the predicted shape and is not used as evidence.
+- **Play counts do not exist anywhere in `raw/`.** Inherited from
+  closing-the-set, still the single most load-bearing unmeasured
+  quantity. Architecture B's "being used" clause is currently evidenced
+  by production practice, Facebook continuity, and the live-feed
+  composition of the electronic cluster — not by listens. Answerable
+  by one Spotify-history export.
 
-## What would prove this page wrong in a way that matters
+- **The movies category is still a stub sitting inside a member.**
+  Eleven titles, no creators, no tags, no dates on
+  [[wiki/interests/favorites/art-and-movies]]. Eyes Wide Shut is on the
+  list and on the Kubrick-control quote, which is a hint, not a score.
+  One pass over `FAVS MASTERLIST.csv` filtered to Movie would settle
+  whether this is Architecture A (director-sets) or a third thing
+  (canon as identity, closer to B). Answerable from the CSV in one
+  sitting.
 
-A later export in which the **subject column flattens** (many subjects, few hands each) while the creator column stays flat. That would be actual eclecticism: one-per-creator because taste is wide, not because each object was covered. The current shelf is the opposite. The original 2026-06-23 claim is still sitting there as a prediction, and the 2026-08-19 measurement is the first time it was checked. It failed. The failure stays on the page.
+- **Whether the 2025–26 Spotify rows are hand-liked or algorithm-dumped
+  is still untested.** Closing-the-set named this as the cheap test for
+  the music exception (`Origin` column). Music.md treats SPOTIFY LIKED
+  as the live feed without resolving the hand-versus-platform question.
+  If the electronic cluster is mostly recommendation-surface, Architecture
+  B's "production calibration" reading narrows to the subset that is
+  hand-selected, and the rest is a platform. Answerable by grouping the
+  CSV on `Origin`.
+
+- **Taste-profile still carries the 2026-06-23 error.** It is archived,
+  thin, and not a member. It will flag stale against this page once this
+  page moves. Clearing it is a separate rewrite, not this one.
+
+- **No pre-2007 record.** Architecture B's continuity claim starts at
+  the Facebook registration date (2007-01-09). The extreme-sports years
+  [[wiki/interests/extreme-sports]] describes as total-obsession and
+  scene-complete are exactly Architecture A predicted on a bodily domain,
+  attested only by retrospective capture. They would not change the split.
+  They would extend A's jurisdiction off the CSV.
