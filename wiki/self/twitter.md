@@ -34,6 +34,45 @@ connections:
   - page: wiki/self/twitter/2026
     type: contains
     claim: '2026 is the still-moving AI-tooling and quote-tweet politics year, complete for spreadsheet originals plus the live scrape from June onward.'
+  - page: wiki/self/twitter/2010
+    type: contains
+    claim: '2010 is the move year — the Pro Tools pass, the Brooklyn decision eleven minutes later, the Florida departure and fifteen Foursquare check-ins that are the only street-address location data the corpus holds before 2014.'
+  - page: wiki/self/twitter/2011
+    type: contains
+    claim: '2011 is the settled Williamsburg year, the middle of the first Brooklyn tenancy and the densest stretch of the account before the Manhattan move.'
+  - page: wiki/self/twitter/2012
+    type: contains
+    claim: '2012 carries the Brooklyn-to-Manhattan move on consecutive days in March, Hurricane Sandy from the Upper East Side, and the November internship pitch that is the last tweet placing Dan in New York.'
+  - page: wiki/self/twitter/2014
+    type: contains
+    claim: '2014 is the first full Uniontown year after the return, and the SLOPPP output peak.'
+  - page: wiki/self/twitter/2015
+    type: contains
+    claim: '2015 is the volume floor of the Uniontown years — 62 originals in the year the Annie relationship begins, the account thinning exactly as the private corpora thicken.'
+  - page: wiki/self/twitter/2016
+    type: contains
+    claim: '2016 is a low-volume year whose only sustained thread is the @ulmdub address, the account carrying the Ulmer connection in public.'
+  - page: wiki/self/twitter/2017
+    type: contains
+    claim: '2017 is the Sessions-era political re-engagement, the first year the account is mostly commentary.'
+  - page: wiki/self/twitter/2019
+    type: contains
+    claim: '2019 is the second NYC chapter beginning, and the account thins to 57 originals as the life moves back into messages.'
+  - page: wiki/self/twitter/2021
+    type: contains
+    claim: '2021 is the post-insurrection quiet — 34 originals, the second-lowest year on the account.'
+  - page: wiki/self/twitter/2022
+    type: contains
+    claim: '2022 is the re-acceleration year: J6 hearings, the Project Veritas exchange, and a return to volume after two years near the floor.'
+  - page: wiki/self/twitter/2023
+    type: contains
+    claim: '2023 is the account’s only year with real reach — the Nashville and OceanGate threads carry 114 and 83 likes against a career mean under 0.2.'
+  - page: wiki/self/twitter/2025
+    type: contains
+    claim: '2025 is the collapse-year silence: 13 originals, the lowest count in the archive.'
+  - page: wiki/timeline/periods/2010s
+    type: evidences
+    claim: 'The 764 originals dated inside NYC-1 are the only contemporaneous first-party record that period has; they closed its move-date gap and moved both apartment dates a month earlier.'
   - page: wiki/self/facebook
     type: parallels
     claim: 'Facebook is the 2007-registered public fossil; Twitter is the 2009-origin parallel public valve, same person, different platform rules.'
