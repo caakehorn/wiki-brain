@@ -10,6 +10,10 @@ sources:
   - "raw/self/facebook/facebook-ihatedanfrank/pages_and_profiles/pages_you_ve_liked.html"
 tags: [personality-profile, digital-footprint, nyc-era]
 connections:
+  - page: wiki/mind/synthesis/2020-left-turn
+    type: causes
+    claim: "The fanbase's rightward drift after Cumia's firing is a cause of Dan's leftward turn in his own words — 'we were radicalized to leftist politics' — supplying the departure half that the 2020 conversion story, built on media he sought out, does not have."
+
   - page: wiki/mind/synthesis/interests-as-era-markers
     type: instantiates
     claim: "The loudest era-marker in the whole intake record: the two peak YouTube years of a two-decade log, 2012–13, are substantially this one subject."
@@ -93,6 +97,51 @@ Facebook comedy-club interest cluster (Comedy Cellar, The Stand, Gotham)
 → the 2019 live New York stand-up run. He didn't discover the alt-comedy
 scene in New York; he'd been steeped in its radio precursor for most of a
 decade first.
+
+## The fanbase split, and which side Dan took
+
+The show's afterlife has a politics, and Dan gave his own account of it on
+**18 July 2022**, writing to Opie directly:
+
+> *"something to consider - while many O&A fans followed Anthony down the
+> reactionary rabbit hole of white-grievance politics…a lot of the online
+> community were so repulsed by the racism and fascistic overtones that we
+> were radicalized to leftist politics (1/3)"*
+
+Two things in one sentence. He names the fanbase's rightward drift after
+Anthony Cumia's 2014 firing as a **reactionary rabbit hole of white-grievance
+politics** — not a euphemism, and written to the co-host rather than about
+him. And he places himself in the counter-current: *"we were radicalized to
+leftist politics."*
+
+That makes this page load-bearing for
+[[wiki/mind/synthesis/2020-left-turn]], which dates his socialist conversion
+to August 2020 and attributes it to Chapo, Hasan, ContraPoints and lockdown
+reading. This tweet supplies a cause that page does not have — repulsion from
+a community he was already inside. Both can be true, and the combination is
+more explanatory than either: the show he had listened to for years turned
+into something he could not follow, and the vacancy was filled by the
+dirtbag-left media that shares its register.
+
+He was inside the community deeply enough for the split to be personal —
+*"I was a regular in the storied opieandanthony subreddit before it was
+banned"* (18 November 2022) — and he kept engaging the hosts publicly
+throughout: sixteen tweets to `@OpieRadio`, ten to `@AnthonyCumia`, nine each
+to `@JimNorton` and `@notsam`, spanning 2012 to 2022.
+
+**One documented consequence.** On **28 March 2022**, during the Chris
+Rock/Will Smith argument, he stated a position that the show's own ethic would
+not recognise: *"I've moved away from belief in comedy's absolutist defense of
+free speech ('it's just a joke') and have a more sympathetic view of how the
+abstract qualities of stand up as an art form can be abused to spread bigotry
+(usually transphobia) disguised as profound truth."* It is a genuine shift and
+not a conversion — in the same thread he defends the Rock joke as *"not
+particularly malicious"* and warns against *"wokescoldery"* — but "it's just a
+joke" is the exact doctrine the show ran on, and he says he has left it.
+
+**Gap:** the 18 July 2022 tweet is marked **(1/3)** and parts 2 and 3 are not
+in the archive. His fullest public statement about what the show's collapse
+did to him politically survives only as its opening third.
 
 ## Why it matters
 

@@ -7997,3 +7997,157 @@ commute of at least three round trips in ten weeks; *"retire by 25"* and
 20 (22 October); Seven Springs with Alexis on 22 and 27 December; and the
 Full Sail rooms named directly — *"I'm in the control24 rooms right now. PT1
 bitch"* (24 November).
+
+## [2026-09-02] ingest | self/mind/interests | 2022 read in full — a stated gap closed, an account older than its record, and a second radicalization mechanism
+
+156 originals read tweet by tweet.
+
+**`wiki/self/concepts/chatgpt` closed its own stated gap.** It carried the
+operator's account that he *"used the very first public release of chatGPT,"*
+having got a beta code for the first DALL-E release, and said flatly: *"The
+DALL-E provenance is testimony alone and is not checkable in this corpus."*
+It is checkable now. On **8 September 2022** — three months before ChatGPT
+launched — four tweets in fourteen minutes: *"I ran the image of what is
+supposed to be a historically accurate Jesus through #dalle2 for 3
+variations…"*, then a direct `@openai` query about whether the result was
+mechanism or coincidence, then *"Full screen recording of the process."*
+Hands-on use of the **image-variations** operation, which is DALL-E 2 and not
+the free DALL-E mini.
+
+Bounded on the page: this corroborates the DALL-E half, not the *beta code*
+or the claim that the same code produced GPT access — nothing in the tweets
+says how he got in, and the fourth tweet's hashtags mix two products. The
+behaviour is the better find than the provenance: **the first thing he did
+with a generative model was run an adversarial test on it**, feeding it a
+historically-grounded image to see whether it would collapse to the culturally
+standard one. That is `instrument-is-subject` performed on day one, years
+before the vocabulary existed here.
+
+**The account is thirteen months older than its record.** 24 September 2022,
+under Twitter's own generated tag: *"14 years of pointless nothingness but at
+least I got the @danfrank handle #MyTwitterAnniversary."* Fourteen years back
+is **September 2008**, against an archive that starts 2009-10-20. The hub's
+"2009-origin" framing describes the record, not the account. `date_range_start`
+stays at the first tweet held; the year before it is unrepresented, and whether
+that is silence or unrecovered scrape is open. Third reason to want the
+official X export.
+
+**A second causal account of the 2020 left turn, in his own words.**
+`2020-left-turn` attributes the conversion to Chapo/Hasan/ContraPoints plus
+lockdown reading. On 18 July 2022, to Opie directly: *"while many O&A fans
+followed Anthony down the reactionary rabbit hole of white-grievance
+politics…a lot of the online community were so repulsed by the racism and
+fascistic overtones that we were radicalized to leftist politics (1/3)."*
+Same verb, different cause — not media sought out but a community he belonged
+to turning right, with repulsion doing the work. The two are compatible and
+both are now held: the 2020 narration says what he moved *to*, this says what
+he moved *from*. It reframes the conversion as partly a **departure from a
+prior tribe**, which has different stability predictions.
+
+**Gap:** the tweet is marked **(1/3)** and parts 2 and 3 are not in the
+archive. His fullest public statement about his own radicalization survives as
+its first third.
+
+Also written to `opie-and-anthony`: the fanbase split, his side of it, the
+subreddit membership, and a dated move away from comedy's free-speech
+absolutism on 28 March 2022 — *"I've moved away from belief in comedy's
+absolutist defense of free speech ('it's just a joke')"* — which is the exact
+doctrine that show ran on, though he defends the Rock joke in the same thread
+and warns against "wokescoldery", so it is a shift and not a conversion.
+
+## [2026-09-02] ingest | mind | "conspiracy crank" is a label his own behaviour contradicts
+
+159 originals from 2023 read tweet by tweet.
+
+**Dan calls himself a "conspiracy crank"** (10 February 2023) and spends
+leisure time on the material — *"I finally spent some time learning about the
+MLK assassination conspiracy"* (6 March). On a skepticism page that reads as a
+confirming detail. **The behaviour does not match the label.**
+
+In every documented case where he works a live conspiracy in public, he works
+it to a **resolution** and publishes the negative result. Nashville, 29 March
+2023, four tweets in one day: *"Dumb conspiracy. Shooter does not have Puma's
+on."* → *"Disappointed to announce that the 'Audrey Hale shoes' conspiracy is
+a bust."* → the camo-pattern claim rated *"only slightly more questionable"* →
+*"the pattern looks slightly different but not enough to rule out"*. He
+checked, reached a negative, published it, and hedged the residual rather than
+resolving it his own way. *Disappointed* is the operative word.
+
+**That is his most-read tweet in seventeen years — 114 likes against a career
+mean under 0.2**, roughly thirty times anything else. The second-widest (83)
+is the OceanGate line about Stockton Rush pitching the submersible for *"deep
+water fossil fuel extraction"* — class critique of a dead billionaire. Neither
+of the two tweets that actually reached anyone is conspiracy-spreading.
+
+**The costly case is Paul Pelosi, Oct–Nov 2022**, and it shows the skepticism
+is not partisan: he disbelieved the official account for a week while naming
+what it cost — *"It super sucks being (as far as I can tell) the only person
+not buying the Paul pelosi story who isn't a groyper maga shitlord"*, *"I'm
+just disgusted that sides have been drawn"* — and refused to convert doubt into
+a counter-narrative: *"What actually happened? I have absolutely zero idea."*
+
+Written to `vertical-authority-skepticism`: the disposition it documents toward
+*verticals* also runs on **official accounts of events**, and it is
+**falsifiable to him** — he states a suspicion, tests it, and publishes either
+way, including against his own side. The gap between the label and the
+behaviour is itself the finding; he uses "conspiracy crank" the way he uses
+*"as someone with no qualifications… I'm probably wrong"* (31 Jan 2022), as a
+pre-emptive discount on his own credibility. Falsifier stated: a documented
+case of him pushing a claim after his own check failed. The archive has none,
+and the private corpora have not been searched for it.
+
+**`wiki/mind/politics/axioms` gains a named decision procedure.** 10 October
+2023: *"Political positions are best formulated and checked with one test:
+what would Michael Brooks do?"* Brooks — Majority Report / TMBS, died July 2020,
+three weeks before the conversion narration — was internationalist,
+anti-imperialist and hostile to left sectarianism. It is the one documented
+authority a systematically anti-authority mind admits, and it is a dead man,
+which is the only form an authority can take without becoming a vertical. It
+also predicts the two positions that most separate Dan from his own tribe: the
+repeated criticism of Hasan Piker on foreign policy, and the refusal of a side
+in Israel–Gaza (*"shades of bad"*). Gap: nothing dates his exposure to Brooks
+before 2020, so whether Brooks shaped the conversion or supplied its
+articulation afterwards is open — `youtube-watch-history` could settle it.
+
+## [2026-09-02] ingest | interests/self | 2024 read in full — the Roman interest starts on YouTube, and the account's peak is one evening
+
+258 originals read. The archive is now **fully mined year by year**: 2009
+through 2026, every year read rather than counted.
+
+**`wiki/interests/roman-republic` calls 2024 a reading binge. Dan says the
+reading came second, and rates it lower.** 8 April 2024:
+
+> *"After I finished the @HistoriaCivilis Caesar/Octavian series, I started
+> devouring the 'essential' books about the late Roman Republic. The books are
+> wonderful, but none of them has come close to compiling the story in a way
+> that has pulled me in like videos with squares."*
+
+HistoriaCivilis animates Roman politics as coloured squares. The sequence is
+**video essay → books**, and the standard syllabus that page identifies
+(Holland → Goldsworthy → Parenti → Plutarch, nine titles, all rated 4 or 5)
+was assembled *after* the interest existed. Having read all of it he says none
+of it came close to the animation. That is a statement about his learning
+modality, not about the books.
+
+He also corroborates this page's own Parenti reading from an independent
+direction: *"Carlin does a wonderful job of presenting the proto-Marxian
+narrative that underlies the whole era"* (9 April) — he was tracking the class
+analysis under the Republic's collapse before Parenti made it the thesis.
+
+**That preference is the motivating fact behind
+`wiki/work/tech/ai-video-essays`**, and it is now written there. A YouTube
+channel beat nine books on a subject he cared enough about to read nine books
+on; eleven days earlier he praised a `@beatmastermatt` Iraq-war essay in the
+exact vocabulary that project's template uses. So the project is not admiration
+for a format in the abstract — it is an attempt to make the thing he learns
+best from. Which sharpens the absence: motivation documented, dated and
+strong, and still no script or video.
+
+**The account's densest day in seventeen years is 28 June 2024 — 23 originals,
+the Biden debate, live.** *"This is not SOTU Joe"* → *"It's joever"* → *"This
+is catastrophic"*, interleaved with a betting-market check and a pre-debate
+prediction he watched fail in real time. The top six days contain no birthday,
+no move and no relationship event; the only personal entry is the 2009
+Thanksgiving travel day on which he met Alexis. **The peak of a seventeen-year
+personal account is reactive** — a live event he was watching — and in the one
+mode this archive has ever rewarded.
