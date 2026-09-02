@@ -77,6 +77,9 @@ connections:
   - page: wiki/mind/synthesis/read-receipt-forensics
     type: causes
     claim: "Trust at the 9th percentile, corpus-confirmed at 1.96x, is the one hop that page's own reassurance-architecture citation left implicit: a confirmation that doesn't carry forward as a prior is why a device-level read-receipt query gets run in the first place."
+  - page: wiki/interests/favorites/eclecticism
+    type: evidences
+    claim: "Artistic Interests 81 (corpus-audited 3.82×) is the confirmed aesthetic register behind the CSV, not an Openness score the table never reported; Inquisitive is Architecture A's abandonment-at-the-edge cycle, which is why the 2026-06-23 'high openness' reading of the favorites list does not survive this page."
 ---
 
 
@@ -205,7 +208,10 @@ vertical claims at any scale (Trust 9, Submissiveness 1 →
 [[wiki/work/bfs-foods]]); market-era risk appetite and the 2015 impulse
 theft (Impulsiveness 96 → [[wiki/legal/2015-retail-theft-arrest]]);
 encyclopedic curated taste (Artistic Interests 81, Inquisitive →
-[[wiki/interests/favorites/index]]); and the hard-left politics (Liberalism
+[[wiki/interests/favorites/index]]), which [[wiki/interests/favorites/eclecticism]]
+now reads as two architectures rather than as Openness — the table has no
+Openness number, and Inquisitive is the abandonment-at-the-edge cycle, not
+omnivory; and the hard-left politics (Liberalism
 91 → [[wiki/mind/synthesis/political-psyops]]). The profile's value to the
 wiki is exactly this predictive compression: one table that most of the
 behavioral corpus instantiates.
