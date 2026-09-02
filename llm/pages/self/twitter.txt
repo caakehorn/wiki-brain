@@ -115,6 +115,9 @@ connections:
   - page: wiki/people/josh-brannan
     type: evidences
     claim: 'Ten tweets 2009-2012 place Josh in the Pennsylvania half of the social graph alongside Jerad Friedline, and in the 23 February 2012 cohort list.'
+  - page: wiki/interests/music/aliases/sloppp
+    type: evidences
+    claim: '2014 read in full documents an operating production practice — ten releases the Facebook reconstruction missed, two recurring mix series, a Beatport contest entry and a public collab address — and dates Heatwave Vol. 1 and Week in Trap Episode 3, two items that page listed as unaccounted for.'
 ---
 
 # Twitter / X Activity (@danfrank)

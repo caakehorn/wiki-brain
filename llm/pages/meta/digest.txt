@@ -67,6 +67,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | mind | the politics arc has two steps, not one — and the instrument nearly hid one
   - ingest | mind | the digital-witness noticing is fourteen years older than the theory
   - lint | mind | withdrawing the "two steps" politics finding published four hours earlier
+  - ingest | people | the social graph, pass 2 — and an edge that was never actually written
 
 **2026-09-01** — 2 pages
 

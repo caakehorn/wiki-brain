@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,368 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 682 · Tier 2 407 · Tier 3 2,279.
+**3,381 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 682 · Tier 2 409 · Tier 3 2,290.
 
 ## What counts as an event here
 
@@ -988,9 +988,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2010-01-03** — one is timestamped by the platform and one was typed into a profile  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **2010-01-03** — facebook — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 38 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
 - · **2010-01-03** — location history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 38 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
 - · **2010-01-03** — Places lived  
   ↳ [[wiki/self/facebook]] · Identity & Profile Data (2022 snapshot, self-reported)
 - ★ **2010-01-23** — On the evening of **23 January 2010**, five weeks before the move north, Dan got his first tattoo: the letter **A**.  
@@ -1545,6 +1545,16 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/music/aliases/sloppp]] · History
 - · **January 2014** — Gaps:** whether the Timmie Sawyers/Pittsburgh rave booking ever happened is undocumented past the January 2014 pitch; the January 1, 2015 mention of "Dustin DiCenzo" dying is unelaborated (no page exists for that name); Zach's current occupation and location are unknown; whether any contact…  
   ↳ [[wiki/people/zachariah-harshman]] · Corpus record
+- ◆ **2014-01-02** — RNDM VADER – #FWTB (SLOPPP's Absolute Zero Festival Trap Remix) — Remix  
+  ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
+- · **2014-01-06** — SAYMYNAME – Pew Pew Pew (SLOPPP Frostbite Me Refix), Master 2 — Refix  
+  ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
+- · **2014-01-25** — heRobust – Get Busted (SLOPPP Remix) — Remix  
+  ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
+- · **2014-01-27** — Katy Perry ft. Juicy J – Dark Horse (SLOPPP Remix) [preview] — Remix  
+  ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
+- ◆ **2014-02-21** — SLOPPP's Week in Trap — Episode 3** — **Mix series  
+  ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
 - · **March 2014** — In **March 2014**, after Alexis took the household's washing machine apart in an incident Dan says he still does not understand, Suz "had enough" and threw her out of the house.  
   ↳ [[wiki/people/suzanne-frank]] · The washing-machine eviction, March 2014
 - · **2014-03-09** — Tuff – Your Parents Hate Trvping — Edit  
@@ -1569,6 +1579,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/zach-clingan]] · 2014: "drug people"
 - · **2014-04-22** — Buffalo — Original  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
+- · **2014-04-25** — And he knew exactly where he stood.** On 25 April 2014, on the Aoki pre-recorded-set scandal: *"as a 'nobody' DJ, the aoki scandal is extra annoying. this is the kind nonsense that allows for EDM to be disregarded"*, followed by an argument that playing a pre-recorded set is *"vile if the only…  
+  ↳ [[wiki/interests/music/aliases/sloppp]] · 2014 was an operating practice, not just an identity
+- · **2014-04-25** — He also placed himself accurately: *"as a 'nobody' DJ, the aoki scandal is extra annoying"* (25 April 2014).  
+  ↳ [[wiki/interests/music/overview]] · 2014, where the two corpora disagree
+- · **2014-04-27** — Wax, Stacks and Racks (April 2014 bass/trap/twerk wrap-up) — Mix  
+  ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
 - · **2014-04-29** — Lazarus (Original Mix) — Original  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **May 2014** — Migration burst, old account abandoned — None at the time — Held 8 years  
@@ -1585,6 +1601,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/uniontown-return-2013-2015]] · SLOPPP: the recording-arts ambition, migrated
 - · **2014-05-07** — Drake x Cashmere Cat – No Lie ft. 2 Chainz (SLOPPP Bootleg) — Bootleg  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
+- · **2014-05-14** — Heatwave Vol. 1** — "1 hour of tweriffik plurntastic tracks" — **Mix  
+  ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
+- · **2014-05-22** — SLOPPP Trap Micromix — Mix  
+  ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
 - · **2014-07-26** — Heatwave Vol. 2 (Mixed by SLOPPP) — Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - ◆ **2014-07-30** — Caked Up – Bang Your Head (SLOPPP Festival Trap Remix) — Remix  
@@ -1593,6 +1613,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/facebook/interests]] · Groups (2007–2020)
 - · **September 2014** — In August–September 2014 Tom ran the same owe-and-silence sequence: Dan on Aug 20, 2014 — "Do you have any fucking clue how shitty I feel?  
   ↳ [[wiki/people/tom]] · The pattern is twelve years old, not new (2014 precedent)
+- · **2014-09-26** — $øΩR DRøP$ ∆N∂ LøLLIPøPZ (Sour Drops and Lollipops) — Original  
+  ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
 - · **October 2014** — Cross: FB likes ODESZA Oct 2014 + electronic (JAUZ, DIM MAK etc) during loc PA base + early YT radio era. Comedy club likes align entertainment patterns.  
   ↳ [[wiki/self/location-history]] · Ties to Facebook Events / Security / Profile (2010+)
 - · **October 2014** — Coincides with FB likes for ODESZA (Oct 2014 close), electronic music pages (JAUZ, Borgore, Spinnin' Records, Flying Lotus), comedy clubs (Gotham, Comedy Cellar, The Stand).  
@@ -1603,6 +1625,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **2014-10-25** — Zeds Dead – Collapse (SLOPPP Reflip) — Reflip  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
+- · **2014-11-15** — TRAP TV 1 — live mix, streamed on Ustream, posted to YouTube — Live video  
+  ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
 - ★ **December 2014** — Despite this, the relationship apparently survived in some form: in December 2014, by then leaving the company herself (`kpalakovich@gmail.com`), Katherine bcc'd Dan on a mass "Ex-Creative License Happy Hour" invitation — "Its my great pleasure to let you guys know that I QUIT Creative License this…  
   ↳ [[wiki/people/katherine-palakovich]] · Katherine Palakovich ("Kittie")
 - · **December 2014** — kevin mckiernan** — Nothing is documented about McKiernan's life beyond this one-year employment window and its aftermath — no age, no other ventures, no account of the company's ultimate fate (it was still operating as of Katherine's December 2014 email). What specifically motiv  
@@ -2883,7 +2907,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **May 2017** — Twice Dan evidently weighed what he'd bought and found it light, and twice Vaughn retreated to the same defense: "What did it weight because he said it was 3.5… that's my best friend I got it from and I know he wouldn't do it on purpose" (May 2017), and "I swear I watched him weigh it" against a…  
   ↳ [[wiki/people/vaughn]] · The yard and the hustle, one channel
 - · **May 2017** — eric jester — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 38 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
 - · **May 2017** — Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two Nemacolin caddying seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a fellow caddie in 2017 who came back for 2018 as **assistant caddie master** — "I'm actually gonna be assistant caddie…  
   ↳ [[wiki/people/davey-fitzpatrick]] · Davey Fitzpatrick
 - · **May 2017** — Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose message thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — sparse check-ins that resurface every year or two, each one picking back up exactly where the last left…  
@@ -6225,6 +6249,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/work/au-zaatar]] · Why the page matters
 - · **2026-07-14** — Dan does not hear or process sung lyrics as language in real time — he stated this directly (2026-07-14): words in a song register to him essentially as **timbre**, another textural element of the vocal performance, not as semantic content to be parsed and understood the way lyrics function for…  
   ↳ [[wiki/interests/music/concepts/lyrics-as-timbre]] · Lyrics as Timbre
+- · **2026-07-14** — vanessa frank — people  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
 - · **2026-07-14** — au zaatar — work  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-07-14** — Gaps:** surname — per Dan (2026-07-14), a Greek name starting with "A," not more precisely recalled; what became of him after the shed shutdown; no contact after December 2024 in this export.  
@@ -6288,7 +6314,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 38 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -6888,7 +6914,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
 - · **2026-08-23** — overview — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 38 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
 - · **2026-08-23** — closing the set — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-23** — annie ulmer personality assessment — people  
@@ -6958,9 +6984,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 38 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
 - · **2026-08-28** — full sail 2008 2010 — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 38 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
 - · **2026-08-28** — chemical architecture — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 5 pages
 - · **2026-08-28** — cocaine — health  
@@ -7059,4 +7085,4 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 366 wiki pages. 996 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 366 wiki pages. 997 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*

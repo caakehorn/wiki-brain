@@ -7859,3 +7859,50 @@ pair had no edge back. Now fixed, along with that page's
 `date_range_start`/`first_contact`, which said **2017-05-08** — the first
 message — against a friendship the tweets document from **2009-10-24**.
 Observation filed to `skills/INBOX.md`.
+
+## [2026-09-02] ingest | interests/music | 2014 read in full — SLOPPP was an operating practice, and two named gaps close
+
+2014 (171 originals) was **read tweet by tweet** rather than pattern-matched,
+following `skills/corpus/vocabulary-drift.md`. A count would have returned a
+high production share and said nothing about what the activity *was*.
+
+**Two gaps `sloppp` listed as unaccounted for are now dated.** *"episodes 1–7
+of 'Week in Trap' and any 'Heatwave Vol. 1' are unaccounted for."* **Heatwave
+Vol. 1** released **14 May 2014** (announced the 13th, *"First hour of my
+summer mix series"*; live the next day, *"1 hour of tweriffik plurntastic
+tracks"*). **Week in Trap Episode 3** is **21 February 2014**. Episodes 1, 2
+and 4–7 remain open, so the gap narrows rather than closes.
+
+**Ten releases the Facebook-derived discography missed** are added as a
+separate Twitter-dated table — RNDM VADER, SAYMYNAME, heRobust, Katy Perry ×
+Juicy J, Wax Stacks and Racks, the Trap Micromix, Sour Drops and Lollipops,
+TRAP TV 1. Where a release appears in both tables the dates differ by days;
+that is **two platforms posted on different days, not a contradiction**, and
+neither is the SoundCloud upload date, which `raw/` does not hold.
+
+**The finding that matters.** `wiki/interests/music/overview` concluded from
+the message corpus that the production identity is *"self-concept rather than
+enterprise."* For 2014 that is wrong. In twelve months SLOPPP released roughly
+monthly, ran two recurring series plus a monthly wrap-up, entered the Major
+Lazer "Aerosol Can" flip into **Beatport contest voting** and canvassed twice,
+published a business address (*"Lets collab! danfr4nk@icloud.com for stems and
+patch trades"*), emailed tracks to other DJs, joined Splice, requested stems
+from @weareGTA, streamed live on Ustream and YouTube, and thanked two named
+producers for support. He also placed himself accurately: *"as a 'nobody' DJ,
+the aoki scandal is extra annoying."*
+
+**The message-corpus finding is untouched** — he genuinely never mentions
+making music in his texts, including through 2014. What narrows is the
+inference: silence in one channel is evidence about that channel. That the
+practice was real, sustained and outward-facing *while he told no one
+privately* makes the private silence more interesting, not less.
+
+The corrected reading is harder, not softer: **he did run it as an
+enterprise, for about a year, and then stopped.** "He never really did it" was
+the comfortable version, and `failure-to-launch` should carry the sharper one.
+
+**Method note, and it is a real limit on the promoted skill.** Counting cannot
+see a *practice*, only a *subject*. The difference between hobby and operation
+is in what the sentences do — announce, solicit, compete, thank — not in their
+vocabulary. `vocabulary-drift` says a count under-reports; this says a count
+can be perfectly accurate and still miss the finding entirely.

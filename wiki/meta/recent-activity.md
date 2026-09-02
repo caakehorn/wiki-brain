@@ -27,7 +27,7 @@ simply listed.
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/interests/music/aliases/sloppp]] | interests | — |
+| [[wiki/interests/music/aliases/sloppp]] | interests | **GAP CLOSED** — the gap, as this page stated it — *"episodes 1–7 of 'Week in Trap' and any 'Heatwave Vol. 1' are unaccounted for."* **Heatwave Vol. 1** is dated: announced 13 May 2014 (*"First hour of my summer mix s |
 | [[wiki/interests/music/overview]] | interests | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/interests/video-games]] | interests | — |
 | [[wiki/meta/digest]] | meta | — |

@@ -21,10 +21,11 @@ simply listed.
 - **Session log:** ingest | mind | the politics arc has two steps, not one — and the instrument nearly hid one
 - **Session log:** ingest | mind | the digital-witness noticing is fourteen years older than the theory
 - **Session log:** lint | mind | withdrawing the "two steps" politics finding published four hours earlier
+- **Session log:** ingest | people | the social graph, pass 2 — and an edge that was never actually written
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/interests/music/aliases/sloppp]] | interests | — |
+| [[wiki/interests/music/aliases/sloppp]] | interests | **GAP CLOSED** — the gap, as this page stated it — *"episodes 1–7 of 'Week in Trap' and any 'Heatwave Vol. 1' are unaccounted for."* **Heatwave Vol. 1** is dated: announced 13 May 2014 (*"First hour of my summer mix s |
 | [[wiki/interests/music/overview]] | interests | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/interests/video-games]] | interests | — |
 | [[wiki/meta/digest]] | meta | — |
