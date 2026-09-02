@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-07-20
+date_modified: 2026-09-02
 sources:
   - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/joshbrannan_vej5dzscpa/message_1.html
   - raw/self/dox-md/operating_manual.md
@@ -13,6 +13,9 @@ infobox:
   relationship_to_dan: unknown
   known_for: "Uniontown-era friend; a warm 2017 reconnection thread and the subject of a running private joke Dan carries into later friendships"
 connections:
+  - page: wiki/people/shane-brannan
+    type: co-occurs
+    claim: "Shane and Josh share a surname and are addressed together in a single tweet on 6 November 2012, placing them in one household or family; the exact relation is undocumented."
   - page: wiki/people/jerad-friedline
     type: parallels
     claim: "Josh Brannan is a shared Uniontown reference point in the Jerad thread — the 'josh brannan is innocent.wav' TTS artifact Jerad and Dan traded in 2025 draws on an eighth-grade memory involving Josh, told in full on [[wiki/people/jerad-friedline]]."

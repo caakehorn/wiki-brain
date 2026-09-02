@@ -94,6 +94,12 @@ connections:
   - page: wiki/interests/music/overview
     type: evidences
     claim: 'The archive dates the production identity''s public arc — a 2013-14 peak, then no post about his own music between 7 March 2016 and 4 March 2026, ten years across 908 originals.'
+  - page: wiki/people/shane-brannan
+    type: evidences
+    claim: 'Nineteen tweets are the only record of this friendship anywhere in the corpus — he appears in no message export, no Facebook exchange and on no other page.'
+  - page: wiki/people/eric-jester
+    type: evidences
+    claim: '22 tweets across 2009-2013 hold the dense phase of the Jester friendship, which had already decayed to its every-year-or-two rhythm before the message thread opens in May 2017.'
 ---
 
 # Twitter / X Activity (@danfrank)

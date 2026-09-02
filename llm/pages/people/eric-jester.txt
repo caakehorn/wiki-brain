@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-07-19
+date_modified: 2026-09-02
 date_range_start: 2017-05-08
 date_range_end: 2025-08-15
 sources:
@@ -43,7 +43,53 @@ connections:
 
 # Eric Jester
 
-Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose sparse but genuinely warm thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — check-ins that resurface every year or two, each one picking back up exactly where the last left off, alongside shared friends [[wiki/people/jason-bermejo|Jason Bermejo]], [[wiki/people/matt-dunn|Matt Dunn]], and [[wiki/people/jamie-mohler|Jamie Mohler]] from the same Orlando/Full Sail cohort. Eric's own thread independently names Dunn (see below); Jamie appears only in Jason's thread, not Eric's.
+Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose message thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — sparse check-ins that resurface every year or two, each one picking back up exactly where the last left off, alongside shared friends [[wiki/people/jason-bermejo|Jason Bermejo]], [[wiki/people/matt-dunn|Matt Dunn]], and [[wiki/people/jamie-mohler|Jamie Mohler]] from the same Orlando/Full Sail cohort. Eric's own thread independently names Dunn (see below); Jamie appears only in Jason's thread, not Eric's.
+
+## The dense years the message record cannot see
+
+> **CORRECTED [2026-09-02]:** this page described the friendship itself as
+> "sparse but genuinely warm." That is an accurate reading of the *message
+> thread*, which begins **May 2017**. It is not an accurate description of
+> the friendship, because the eight years before that are not in any message
+> export — and the [[wiki/self/twitter|@danfrank archive]] holds them.
+
+Eric is the **second-most-addressed handle in the entire tweet archive** —
+22 tweets, 20 of them opening with his name, across five consecutive years:
+
+| Year | Tweets to/about him |
+|---|---:|
+| 2009 | 7 |
+| 2010 | 9 |
+| 2011 | 2 |
+| 2012 | 2 |
+| 2013 | 1 |
+
+That is not a check-in pattern. It is daily banter — Steelers trash talk
+(*"alice doesn't like when you trash talk teh stillerz"*, 22 Nov 2009), a
+Pro Tools lab boast from inside the Full Sail rooms (*"I'm in the control24
+rooms right now. PT1 bitch"*, 24 Nov 2009), *Flight of the Conchords*
+(*"slapa da bass mon!"*), *The Office*, an aborted potato-famine joke
+because *"I wouldn't be able to stand the grim reply i'd get from
+@ericjester"* (31 Aug 2010), and the needling that dates his own life
+events — *"got a girlfriend and forgot how 2 twitter"* (30 Nov 2010).
+
+**The shape is the finding.** The friendship did not start sparse and stay
+sparse; it started dense and *decayed* — 7, 9, 2, 2, 1 — reaching the
+every-year-or-two rhythm before the message record opens, and then holding
+that rhythm without further decay for another twelve years. The page's
+original claim, that "a Full Sail friendship never needed active
+maintenance to survive," survives this and is in fact better supported:
+what the tweets show is the maintenance being *paid down* in the Orlando
+and early-NYC years, after which the friendship coasted on it.
+
+**Dated to the day, the cohort exists as a named set.** On **23 February
+2012**, from Manhattan, Dan posts a list: *"People who need to come visit
+me: @danpolyak @EricJester @JoshBrannan @Woodguts."* Four names, no others
+— [[wiki/people/dan-polyak|Dan Polyak]],
+Eric, [[wiki/people/josh-brannan|Josh Brannan]], and an unidentified
+@Woodguts. It is the only place in the corpus where Dan enumerates his
+core friend group himself rather than the wiki inferring it, and Eric is
+in it two years into NYC-1 and five years before his message thread begins.
 
 ## The relationship
 

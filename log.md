@@ -7633,3 +7633,53 @@ so the zero in it is a real zero rather than a retrieval gap.
 distinction written on the page — the March 2016 link promotes existing
 catalogue rather than adding to it, so the discography does not move, but the
 alias's public life does.
+
+## [2026-09-02] ingest | people/interests | the twitter social graph, pass 1 — and a counter-example to yesterday's music claim
+
+**A correction first.** `wiki/interests/music/overview` published a ten-year
+public silence about Dan's own music (7 Mar 2016 → 4 Mar 2026). `raw/self/
+dox-scan/FULL TWITTER ANALYSIS.txt` quotes a 2016 tweet that would break the
+window's front edge — *"Had lit times playing @ulmdub birthday party last
+night at OSU"* — and **that tweet is not in the archive**: 2016 holds 75
+originals and none matches "OSU", "birthday party" or "lit times". Either the
+analysis file invented it (it is AI-generated, works from a demonstrably
+smaller corpus — it puts 2009 at "65–70 tweets" where the archive has 165 —
+and appends a spurious `@danfrank` to nearly every quote) or the archive's
+2016 is not "complete for originals" as the coverage table states. The page
+now holds the discrepancy as its own strongest counter-evidence rather than
+choosing the flattering reading. The official X export would settle it.
+
+**@Lo_weez is Annie Ulmer** (already established on her page). Seventeen
+tweets, 2015–2020. **Not mined, nothing written** — the standing moratorium
+forbids new dated lines or quotes about her, and it outranks this pass.
+
+**`wiki/people/eric-jester` called the friendship "sparse."** That was a
+reading of the *message thread*, which begins May 2017. The tweets hold the
+eight years before it: 22 tweets, 20 addressed, 2009–2013, decaying 7→9→2→2→1.
+The friendship did not start sparse — it started dense and decayed to the
+every-year-or-two rhythm *before* the message record opens, then held it for
+twelve more years. The page's original claim, that it "never needed active
+maintenance," survives and is better supported: the maintenance was paid down
+in Orlando and early NYC.
+
+**New entity: `wiki/people/shane-brannan`.** Nineteen tweets 2011–2016,
+eighteen of them direct address, almost entirely about video games. Confirmed
+in `contacts.csv` (724 number, `twitter.com/shane_brannan`). He appears in no
+message export, no Facebook exchange, and on no other page — this
+relationship existed only in the tweet archive.
+
+**`wiki/interests/video-games` had a hole from 2007 to 2016** and drew "a
+long-running low-grade presence, not a passion" from a record missing five
+years. The Shane tweets fill it: StarCraft II played seriously ("star2 is mad
+gosu"), horror-game craft criticism, and a six-year-old Xbox 360 replaced
+within 48 hours for Halo 4 in November 2012. The revision is narrower than a
+reversal — one documented high-intensity window inside a low-grade arc — and
+the counter-evidence is Dan's own words in the same thread: *"I dedicate the
+little bit of gaming time I do have strictly to star2."* Both are on the page.
+
+**Dated cohort.** 23 February 2012, from Manhattan: *"People who need to come
+visit me: @danpolyak @EricJester @JoshBrannan @Woodguts."* The only place in
+the corpus where Dan enumerates his core friend group himself.
+
+**Open lead:** @Woodguts — 17 tweets across 2009–2013, *"When I grow up I want
+to be @Woodguts"* — is unidentified in `contacts.csv` and everywhere else.

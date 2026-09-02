@@ -166,6 +166,37 @@ reconstructions whose counts are floors — but the 2017–2025 window is
 spreadsheet-complete, so the zero in it is a real zero and not a gap in
 retrieval.
 
+> **The start boundary is contested, and this is the finding's strongest
+> counter-evidence [2026-09-02].** `raw/self/dox-scan/FULL TWITTER
+> ANALYSIS.txt`, in its 2016 section, quotes a tweet that would break the
+> window open at its front edge: *"Had lit times playing @ulmdub birthday
+> party last night at OSU."* That is Dan playing a live set, and if it is
+> real and postdates 7 March 2016, the ten-year run starts later than this
+> page says.
+>
+> **The tweet is not in the archive.** 2016 holds 75 originals and none of
+> them is this one; no tweet in any year matches "OSU", "birthday party" or
+> "lit times". So one of two things is true, and the corpus cannot yet say
+> which. Either the analysis file invented or heavily paraphrased the line —
+> it is an AI-generated secondary source, it demonstrably works from a
+> **smaller** corpus than the archive (it puts 2009 at "approximately 65–70
+> tweets" where the archive holds 165), and it appends a spurious
+> `@danfrank` tag after nearly every quotation, all of which argue for low
+> confidence — or the archive's 2016 is not as complete as
+> [[wiki/self/twitter]]'s coverage table states, in which case the table is
+> wrong and so is the "spreadsheet-complete" assurance above it.
+>
+> Note which way this cuts even if the line is genuine: a DJ set at a
+> friend's college birthday party is a *gig*, not a release, and the claim
+> here is about **posting about his own music**. It would move the boundary
+> by up to ten months. It would not touch the 2017–2025 zero, which is where
+> the weight of the finding sits.
+>
+> **What would settle it:** the official X Settings/archive export, already
+> listed as welcome in `queue.md` as a completeness check. Until then this
+> page holds the discrepancy rather than choosing the reading that flatters
+> its own conclusion.
+
 ## Related
 - [[wiki/interests/music/concepts/sub-bass-signature]]
 - [[wiki/interests/favorites/index]]

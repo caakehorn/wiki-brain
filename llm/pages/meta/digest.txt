@@ -21,18 +21,18 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | | |
 |---|---|
-| Pages | 492 |
-| Pages touched in the last 14 days | 197 |
+| Pages | 493 |
+| Pages touched in the last 14 days | 201 |
 | Pages reasoning from other pages (`synthesizes:`) | 78 |
 | Live contradictions | 43 |
-| Open gaps | 502 |
+| Open gaps | 503 |
 | Standing predictions | 65 |
 
 ## By domain
 
 | Domain | Pages |
 |---|---|
-| people | 174 |
+| people | 175 |
 | interests | 96 |
 | mind | 77 |
 | self | 58 |
@@ -47,7 +47,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | Status | Pages |
 |---|---|
-| active | 187 |
+| active | 188 |
 | stable | 164 |
 | closed | 100 |
 | archived | 29 |
@@ -55,7 +55,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-02** — 32 pages
+**2026-09-02** — 36 pages
   - ingest | self | @danfrank twitter archive as yearly pages
   - build | plain | two writing lanes, a floor that had to be measured, and a campaign page
   - translate | interests | favorites/eclecticism

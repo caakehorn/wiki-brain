@@ -17,7 +17,7 @@ chart:
         "Translated": 28
         "Major lane": 36
         "Free lane": 41
-        "Held (people)": 93
+        "Held (people)": 94
         "Too thin": 50
         "Withheld": 217
 sources: []
@@ -44,9 +44,9 @@ This page is the campaign to write one for every entry.
 | | |
 |---|---|
 | Entries with a plain-English edition | **28** |
-| Entries eligible for one | 273 |
+| Entries eligible for one | 274 |
 | Withheld under the standing directive | 217 |
-| Coverage | 10.3% |
+| Coverage | 10.2% |
 
 ## The two lanes
 
@@ -59,7 +59,7 @@ is arithmetic in `bin/wiki-plain`: 900 words is the boundary.
 | `major` | entries of 900 words or more — the dense findings | 36 |
 | `free` | entries under 900 words, worked smallest first | 41 |
 
-A further **93** eligible entries about other people are in
+A further **94** eligible entries about other people are in
 neither lane. They are held back deliberately, pending a decision about
 who writes plain-English prose about living people for a public site.
 

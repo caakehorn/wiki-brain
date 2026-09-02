@@ -15,7 +15,7 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (101)
+## Obligations (102)
 
 Somebody or something is waiting on each of these. Drain from the top.
 
@@ -114,6 +114,7 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/people/alexis-armel.md moved 2026-09-02, after this page's 2026-08-26 | `wiki/mind/synthesis/bond-switch-2015.md` | 2026-09-02 |
 | 3 | stale | premise wiki/people/alexis-armel.md moved 2026-09-02, after this page's 2026-08-28 | `wiki/mind/synthesis/dormancy-not-exit.md` | 2026-09-02 |
 | 3 | stale | premise wiki/people/alexis-armel.md moved 2026-09-02, after this page's 2026-08-28 | `wiki/mind/synthesis/the-unbroken-bond.md` | 2026-09-02 |
+| 3 | stale | premise wiki/people/josh-brannan.md moved 2026-09-02, after this page's 2026-08-26 | `wiki/people/jerad-friedline.md` | 2026-09-02 |
 | 3 | stale | premise wiki/self/facebook.md moved 2026-09-02, after this page's 2026-08-11 | `wiki/mind/synthesis/millennial-digital-witness.md` | 2026-09-02 |
 | 3 | stale | premise wiki/self/location-history.md moved 2026-09-02, after this page's 2026-07-20 | `wiki/mind/synthesis/spatial-behavior.md` | 2026-09-02 |
 | 3 | stale | premise wiki/self/tattoos.md moved 2026-09-02, after this page's 2026-08-28 | `wiki/interests/food-and-diet.md` | 2026-09-02 |
