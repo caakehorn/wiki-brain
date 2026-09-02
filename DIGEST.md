@@ -13,11 +13,11 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 474 |
-| Pages touched in the last 14 days | 172 |
-| Pages reasoning from other pages (`synthesizes:`) | 79 |
+| Pages | 492 |
+| Pages touched in the last 14 days | 192 |
+| Pages reasoning from other pages (`synthesizes:`) | 78 |
 | Live contradictions | 41 |
-| Open gaps | 489 |
+| Open gaps | 502 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -27,8 +27,8 @@ this is the state of the thing.
 | people | 174 |
 | interests | 96 |
 | mind | 77 |
+| self | 58 |
 | timeline | 42 |
-| self | 40 |
 | work | 15 |
 | places | 10 |
 | meta | 10 |
@@ -39,16 +39,20 @@ this is the state of the thing.
 
 | Status | Pages |
 |---|---|
-| active | 185 |
-| stable | 147 |
+| active | 187 |
+| stable | 164 |
 | closed | 100 |
-| archived | 30 |
+| archived | 29 |
 | stub | 12 |
 
 ## The last few days
 
-**2026-09-02** — 4 pages
+**2026-09-02** — 24 pages
+  - ingest | self | @danfrank twitter archive as yearly pages
   - build | plain | two writing lanes, a floor that had to be measured, and a campaign page
+  - translate | interests | favorites/eclecticism
+  - translate | mind | synthesis/the-embedded-objective
+  - translate | self | youtube-watch-history
 
 **2026-09-01** — 2 pages
 
@@ -176,7 +180,6 @@ have moved since.
 - [[wiki/self/favorites]] — 3 premises
 - [[wiki/self/lineage/hybrid-analysis]] — 4 premises
 - [[wiki/self/location-history]] — 6 premises
-- [[wiki/self/twitter]] — 3 premises
 - [[wiki/self/youtube-watch-history]] — 10 premises
 - [[wiki/timeline/periods/2020-2021-market-era]] — 1 premise
 - [[wiki/work/fastly-fsly]] — 2 premises

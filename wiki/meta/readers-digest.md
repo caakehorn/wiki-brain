@@ -15,8 +15,8 @@ chart:
     - name: "Entries"
       points:
         "Translated": 28
-        "Major lane": 17
-        "Free lane": 42
+        "Major lane": 34
+        "Free lane": 44
         "Held (people)": 93
         "Too thin": 50
         "Withheld": 216
@@ -44,9 +44,9 @@ This page is the campaign to write one for every entry.
 | | |
 |---|---|
 | Entries with a plain-English edition | **28** |
-| Entries eligible for one | 256 |
+| Entries eligible for one | 274 |
 | Withheld under the standing directive | 216 |
-| Coverage | 10.9% |
+| Coverage | 10.2% |
 
 ## The two lanes
 
@@ -56,8 +56,8 @@ is arithmetic in `bin/wiki-plain`: 900 words is the boundary.
 
 | Lane | What is in it | Outstanding |
 |---|---|---|
-| `major` | entries of 900 words or more — the dense findings | 17 |
-| `free` | entries under 900 words, worked smallest first | 42 |
+| `major` | entries of 900 words or more — the dense findings | 34 |
+| `free` | entries under 900 words, worked smallest first | 44 |
 
 A further **93** eligible entries about other people are in
 neither lane. They are held back deliberately, pending a decision about
@@ -108,15 +108,15 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 
 ## Next up
 
-**major** — 17 outstanding
+**major** — 34 outstanding
 
-- [[wiki/self/lineage/family-tree]] (3197 words)
-- [[wiki/self/concepts/ally-and-dan-love-as-destiny]] (2941 words)
-- [[wiki/self/lineage/23andme-genomics]] (2794 words)
-- [[wiki/interests/language/vocabulary-lexicon]] (2762 words)
-- [[wiki/mind/profile/big-five-psychometrics]] (2350 words)
+- [[wiki/self/twitter/2024]] (10344 words)
+- [[wiki/self/twitter/2013]] (8992 words)
+- [[wiki/self/twitter/2010]] (8727 words)
+- [[wiki/self/twitter/2022]] (6584 words)
+- [[wiki/self/twitter/2023]] (6529 words)
 
-**free** — 42 outstanding
+**free** — 44 outstanding
 
 - [[wiki/work/caviar-courier]] (301 words)
 - [[wiki/interests/favorites/books/authors/adrian-goldsworthy]] (315 words)

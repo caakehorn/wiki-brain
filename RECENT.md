@@ -8,9 +8,13 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-02 — 4 pages
+## 2026-09-02 — 24 pages
 
+- **Session log:** ingest | self | @danfrank twitter archive as yearly pages
 - **Session log:** build | plain | two writing lanes, a floor that had to be measured, and a campaign page
+- **Session log:** translate | interests | favorites/eclecticism
+- **Session log:** translate | mind | synthesis/the-embedded-objective
+- **Session log:** translate | self | youtube-watch-history
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -18,6 +22,26 @@ simply listed.
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/readers-digest]] | meta | — |
 | [[wiki/meta/recent-activity]] | meta | _(carries a REVISED)_ |
+| [[wiki/self/index]] | self | — |
+| [[wiki/self/twitter]] | self | — |
+| [[wiki/self/twitter/2009]] | self | — |
+| [[wiki/self/twitter/2010]] | self | — |
+| [[wiki/self/twitter/2011]] | self | — |
+| [[wiki/self/twitter/2012]] | self | — |
+| [[wiki/self/twitter/2013]] | self | — |
+| [[wiki/self/twitter/2014]] | self | — |
+| [[wiki/self/twitter/2015]] | self | — |
+| [[wiki/self/twitter/2016]] | self | — |
+| [[wiki/self/twitter/2017]] | self | — |
+| [[wiki/self/twitter/2018]] | self | — |
+| [[wiki/self/twitter/2019]] | self | — |
+| [[wiki/self/twitter/2020]] | self | — |
+| [[wiki/self/twitter/2021]] | self | — |
+| [[wiki/self/twitter/2022]] | self | — |
+| [[wiki/self/twitter/2023]] | self | — |
+| [[wiki/self/twitter/2024]] | self | — |
+| [[wiki/self/twitter/2025]] | self | — |
+| [[wiki/self/twitter/2026]] | self | — |
 
 ## 2026-09-01 — 2 pages
 

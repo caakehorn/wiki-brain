@@ -15,7 +15,7 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (96)
+## Obligations (93)
 
 Somebody or something is waiting on each of these. Drain from the top.
 
@@ -53,10 +53,8 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/mind/concepts/contact-gini.md moved 2026-08-20, after this page's 2026-07-20 | `wiki/mind/synthesis/spatial-behavior.md` | 2026-08-20 |
 | 3 | stale | premise wiki/work/au-zaatar.md moved 2026-08-21, after this page's 2026-08-19 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-21 |
 | 3 | stale | premise wiki/interests/music/overview.md moved 2026-08-23, after this page's 2026-07-14 | `wiki/interests/favorites/music.md` | 2026-08-23 |
-| 3 | stale | premise wiki/mind/concepts/attachment-model.md moved 2026-08-23, after this page's 2026-06-… | `wiki/self/twitter.md` | 2026-08-23 |
 | 3 | stale | premise wiki/mind/concepts/attachment-model.md moved 2026-08-23, after this page's 2026-08-… | `wiki/mind/synthesis/ancestral-dialectic.md` | 2026-08-23 |
 | 3 | stale | premise wiki/people/rick-frank.md moved 2026-08-23, after this page's 2026-08-19 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-23 |
-| 3 | stale | premise wiki/mind/concepts/conflict-architecture.md moved 2026-08-26, after this page's 202… | `wiki/self/twitter.md` | 2026-08-26 |
 | 3 | stale | premise wiki/mind/concepts/conflict-architecture.md moved 2026-08-26, after this page's 202… | `wiki/self/youtube-watch-history.md` | 2026-08-26 |
 | 3 | stale | premise wiki/mind/politics/axioms.md moved 2026-08-26, after this page's 2026-08-19 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-26 |
 | 3 | stale | premise wiki/mind/profile/index.md moved 2026-08-26, after this page's 2026-06-23 | `wiki/interests/favorites/art-and-movies.md` | 2026-08-26 |
@@ -81,7 +79,6 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/self/context-core.md moved 2026-08-26, after this page's 2026-07-14 | `wiki/interests/favorites/books/want-to-read.md` | 2026-08-26 |
 | 3 | stale | premise wiki/self/context-core.md moved 2026-08-26, after this page's 2026-07-26 | `wiki/self/location-history.md` | 2026-08-26 |
 | 3 | stale | premise wiki/self/context-core.md moved 2026-08-26, after this page's 2026-08-19 | `wiki/self/youtube-watch-history.md` | 2026-08-26 |
-| 3 | stale | premise wiki/self/overview.md moved 2026-08-26, after this page's 2026-06-22 | `wiki/self/twitter.md` | 2026-08-26 |
 | 3 | stale | premise wiki/self/overview.md moved 2026-08-26, after this page's 2026-07-26 | `wiki/self/location-history.md` | 2026-08-26 |
 | 3 | stale | premise wiki/self/overview.md moved 2026-08-26, after this page's 2026-08-19 | `wiki/self/youtube-watch-history.md` | 2026-08-26 |
 | 3 | stale | premise wiki/work/bfs-foods.md moved 2026-08-26, after this page's 2026-08-19 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-26 |

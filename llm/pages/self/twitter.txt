@@ -1,70 +1,99 @@
 ---
 domain: self
-page_type: synthesis
-status: archived
+page_type: summary
+status: active
 date_created: 2026-06-22
-date_modified: 2026-06-22
-sources: ["raw/self/twitter/profile.txt", "raw/self/twitter/tweets_sample_2019-2026.txt"]
-synthesizes:
-  - wiki/self/overview
-  - wiki/mind/concepts/conflict-architecture
-  - wiki/mind/concepts/attachment-model
-related: ["wiki/self/overview", "wiki/mind/concepts/conflict-architecture", "wiki/mind/concepts/attachment-model"]
-tags: [music-production, ai-collaboration, politics, digital-footprint]
+date_modified: 2026-09-02
+knowledge: mixed
+date_range_start: 2009-10-20
+date_range_end: 2026-09-02
+title: "Twitter / X (@danfrank)"
+aliases: [danfrank, @danfrank]
+sources:
+  - "raw/self/twitter/archive.jsonl"
+  - "raw/self/twitter/tweet-archive.xlsx"
+  - "raw/self/twitter/profile.txt"
+  - "raw/self/twitter/tweets_sample_2019-2026.txt"
+tags: [digital-footprint, politics, music-production, ai-collaboration, ideology]
 connections:
+  - page: wiki/self/twitter/2009
+    type: contains
+    claim: '2009 is the origin year of the @danfrank account and the first public sample of the voice the later corpora treat as stable.'
+  - page: wiki/self/twitter/2013
+    type: contains
+    claim: '2013 is the first year the operator spreadsheet covers in full for originals, and the production-identity (SLOPPP/trap) year.'
+  - page: wiki/self/twitter/2018
+    type: contains
+    claim: '2018 opens with the great-grandmother thread, the first long family-care testimony on this account.'
+  - page: wiki/self/twitter/2020
+    type: contains
+    claim: '2020 is the quietest original-tweet year and the one that states the democratic-socialist crystallization in public.'
+  - page: wiki/self/twitter/2024
+    type: contains
+    claim: '2024 is peak volume and the Luigi/justice-system year that the older sample synthesis treated as the account''s signature.'
+  - page: wiki/self/twitter/2026
+    type: contains
+    claim: '2026 is the still-moving AI-tooling and quote-tweet politics year, complete for spreadsheet originals plus the live scrape from June onward.'
+  - page: wiki/self/facebook
+    type: parallels
+    claim: 'Facebook is the 2007-registered public fossil; Twitter is the 2009-origin parallel public valve, same person, different platform rules.'
+  - page: wiki/mind/profile/linguistic-profile
+    type: evidences
+    claim: 'The dated originals from 2009 onward are the public half of the two-corpus voice proof that page is built on.'
+  - page: wiki/mind/synthesis/millennial-digital-witness
+    type: evidences
+    claim: 'Seventeen years of continuous public posting on one handle is a second witness-archive alongside the Facebook export.'
   - page: wiki/people/aaron
     type: parallels
-    claim: "Aaron's thread extends the same sicko/justice-system-skeptic political engagement already documented from Dan's Twitter activity (Luigi Mangione coverage) into a second, real-time political-violence event a year later."
+    claim: 'Aaron''s thread extends the same sicko/justice-system-skeptic political engagement already documented from Dan''s Twitter activity (Luigi Mangione coverage) into a second, real-time political-violence event a year later.'
 ---
 
 # Twitter / X Activity (@danfrank)
 
-## Overview
-Personal account: **@danfrank** ("insufferable politics sicko"). Active since at least December 2019 (sampled data). 256 followers (as of 2026). Mix of:
+Personal account **@danfrank** ("insufferable politics sicko"), live since at least late 2009. This hub is the index of a text archive of his originals: one wiki page per year, every retrieved original and every quote-tweet that carries his own text. Pure reposts with no @danfrank quote content are the one omitted class.
 
-- Political commentary and justice system critique
-- AI / tooling experimentation and public building (Grok Build, Claude agents)
-- Music production and sharing (MOGZART remixes, Ableton)
-- Personal asides and media hygiene
+The operator spreadsheet (Drive: Dan Frank - Tweet Archive, filed as `raw/self/twitter/tweet-archive.xlsx`) holds 1,427 originals from 2013-08-17 through 2026-04-07 and 229 pure reposts, which are dropped. Years before the spreadsheet, the mid-August 2013 days before it starts, and 2026 after 7 April are filled from live X search and will grow as further batches are committed on this branch.
 
-Serves as a public extension of his life-as-a-self-engineering-project stance: boundary-testing, pattern recognition, and using AI as a thinking tool in the open.
+## Year index
 
-## Key Patterns (synthesized from 2019–2026 sample)
-- **Politics**: Consistent "sicko" engagement. Skepticism of state power/justice system (opposition to capital punishment even for "vile criminals"; critiques of Biden pardon, media coverage gaps e.g. Philly plane crash, Luigi Mangione/CEO killer story). Commentary on current events (Trump, Fetterman villain arc 2023, Israel, fake ID skepticism in 2024 cases).
-- **AI/Tooling**: Heavy real-world use and meta commentary.
-  - Building agents (Grok CLI coding agent for iMessage auto-responder that "outperformed" by mass-spamming garbled unicode to ex-girlfriend for 5 hours).
-  - Long runs with Claude (fable5 for 14+ hours building websites and data visualizers of text logs).
-  - Claude in Chrome for mass follow wipes (X, YT, Soundcloud) to rebuild algos.
-  - Claiming AI agents ("gripnotic", "resourcefulbot") on moltbook.
-  - Notes on xAI/Grok Build prompt restrictions (e.g. pirated software detection same day as Claude godmode changes).
-- **Music**: Active promotion and production.
-  - MOGZART DnB jump up remixes (e.g. Odd Mob - Never Alone) posted to SoundCloud.
-  - Ableton VST/AU plugin installs.
-  - Nostalgia posts (#songs2die4, childhood mesmerized tracks).
-  - Gear history (learned lesson 10 years prior with midi fighter).
-- **Personal/Relational**: Casual ("Hi tom!"), self-reflective (memoir title joke: “Other Things, and Other Things Other than That”), media curation (wiped follows), relational bleed (AI agent spam incident to ex).
-- **Tone & Style**: Irreverent, direct, emoji-heavy, critical of institutions/media ("Nothing? @nyt @washingtonpost"), meme-adjacent. Low-to-medium engagement on most posts; higher views on political/AI topics.
+| Year | Originals on page | Coverage |
+|------|------------------:|----------|
+| [[wiki/self/twitter/2009\|2009]] | 165 | in progress |
+| [[wiki/self/twitter/2010\|2010]] | 342 | in progress |
+| [[wiki/self/twitter/2011\|2011]] | 225 | in progress |
+| [[wiki/self/twitter/2012\|2012]] | 205 | in progress |
+| [[wiki/self/twitter/2013\|2013]] | 346 | in progress |
+| [[wiki/self/twitter/2014\|2014]] | 171 | complete for originals |
+| [[wiki/self/twitter/2015\|2015]] | 62 | complete for originals |
+| [[wiki/self/twitter/2016\|2016]] | 75 | complete for originals |
+| [[wiki/self/twitter/2017\|2017]] | 117 | complete for originals |
+| [[wiki/self/twitter/2018\|2018]] | 89 | complete for originals |
+| [[wiki/self/twitter/2019\|2019]] | 57 | complete for originals |
+| [[wiki/self/twitter/2020\|2020]] | 25 | complete for originals |
+| [[wiki/self/twitter/2021\|2021]] | 34 | complete for originals |
+| [[wiki/self/twitter/2022\|2022]] | 156 | complete for originals |
+| [[wiki/self/twitter/2023\|2023]] | 159 | complete for originals |
+| [[wiki/self/twitter/2024\|2024]] | 258 | complete for originals |
+| [[wiki/self/twitter/2025\|2025]] | 13 | complete for originals |
+| [[wiki/self/twitter/2026\|2026]] | 26 | in progress |
+| **Total** | **2525** | |
 
-## Relation to Core Self Model
-- Extends contact-gini dynamics into public: low private redundancy but consistent public posting as output valve.
-- Conflict architecture visible in public "litigation" of political/justice topics (no-halt critique).
-- Attachment/processing: occasional bleed (ex mentions via AI mishap).
-- Music as sincere channel (MOGZART) aligns with sub-bass signature and production identity.
-- AI as prosthetic: mirrors private use (grok-build, claude) documented in self corpus. Public experimentation (agents, long context builds) as self-engineering.
+## What the public valve actually is
 
-## Sampled Timeline
-- **2019**: Early political (intel committee, Putin era), casual links/jokes.
-- **2023**: Politics (Fetterman arc surprise, Trump demo margins, racism discussions), gear lessons.
-- **2024**: Justice system deep dives (death penalty principle, Luigi Mangione coverage skepticism, CEO killer consensus ruin via online footprint, distances/facts in cases).
-- **2025**: Music shares and nostalgia, media criticism (plane crash coverage), personal title joke.
-- **2026**: Peak AI agent building (iMessage spam incident, fable5 website viz), music (Ableton, MOGZART), politics (Israel, CBS), casual.
+The older page on this path was a sample synthesis from 2019–2026 and said so. That sample was directionally right — politics sicko, AI-as-prosthetic, MOGZART/Ableton, low engagement — and factually incomplete. The account is not a 2019 object. The 2009 remainder already has the lowercase/fragment/ellipsis idiom, the Alexis address, the I-95 boredom, the in-love tweet; [[wiki/mind/profile/linguistic-profile]] treated that as the public half of a two-corpus voice proof, and the yearly pages now hold the dated lines instead of a citation of a sample file.
 
-## Notes
-This is a tool-sampled cross-section (not exhaustive archive). Account shows continuity with private self-corpus: politics sicko + AI maximalism + music production. Valuable for tracking public vs private rhetoric, algo hygiene, and creative output.
+Volume is the other correction. 2024 is the peak (258 spreadsheet originals), 2020 the floor (25), 2025 a collapse-year quiet (13). Twitter is an output valve, not the diary: 2015, the year the Annie relationship starts, is almost silent here. When the life is happening in texts, this account thins. When it is happening as commentary — 2017 Sessions, 2022 J6, 2023 Fetterman villain arc, 2024 Luigi — it thickens. That is the same contact-gini shape the private corpora show, rendered in public.
 
-For full raw archive: export from X settings or continued scraping + ingest.
+The production identity is not a late add-on. 2013 is SLOPPP trap mixes on SoundCloud in the same weeks as Instagram lookouts; 2026 is MOGZART DnB and moltbook agent claims. Music is the sincere channel across both ends of the archive. The AI year (Grok Build, Fable 5, Claude godmode, moltbook) is real and is 2026, not the whole story.
 
-See also:
-- [[wiki/self/overview]]
-- Music aliases ([[wiki/interests/music/aliases/mogzart]])
-- Tech/grok-build context
+## Inclusion rule
+
+- **In:** every original tweet, every reply, every quote-tweet that carries Dan's own text.
+- **Out:** pure reposts with no @danfrank quote content — the spreadsheet's `Repost` rows, whose text field is the other person's tweet.
+
+Old-style typed `RT @user:` lines are kept: he wrote them.
+
+## Gaps
+
+2009 through 2012, January–mid-August 2013, and some 2026 days between the spreadsheet end and the live scrape are still being walked from X in batches of ten. Each incomplete yearly page states that on its face. The spreadsheet span 2013-08-17 through 2026-04-07 is complete for originals.
+

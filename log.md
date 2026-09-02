@@ -7422,6 +7422,18 @@ is deterministic across runs, that a hand-edit is a red gate, that a missing
 page warns rather than fails, and that no per-day *value* ever reaches it.
 Gates: `bin/wiki-check` all clean, 473 pages.
 
+## [2026-09-02] ingest | self | @danfrank twitter archive as yearly pages
+
+Operator asked for a wiki section of every @danfrank tweet, one page per year, nothing omitted except pure reposts with no quote text.
+
+**What landed.** `wiki/self/twitter.md` rewritten as the hub. Yearly pages `wiki/self/twitter/2009.md`–`wiki/self/twitter/2026.md`. Canonical raw at `raw/self/twitter/archive.jsonl` plus the operator spreadsheet `raw/self/twitter/tweet-archive.xlsx` (Drive: Dan Frank - Tweet Archive).
+
+**Inclusion rule, applied.** Spreadsheet `Original` rows kept (1316 after merge math is in the jsonl). Spreadsheet `Repost` rows dropped (229): their text field is the other person's tweet. Quote-tweets with Dan's own text kept, including 2026 live scrape. Typed old-style `RT @user:` lines kept.
+
+**Coverage.** Spreadsheet originals are complete 2013-08-17 through 2026-04-07. 2009–2012, pre-2013-08-17, and 2026 after 7 April are live X batches of ten, committed incomplete on purpose so the complete span is not waiting on the scrape. Each incomplete yearly page states the gap.
+
+**Years on disk:** 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
+
 ## [2026-09-02] build | plain | two writing lanes, a floor that had to be measured, and a campaign page
 
 **The Reader's Digest layer had one queue and two writers.** `bin/wiki-plain
@@ -7488,3 +7500,64 @@ update-index --chmod=+x`.
 18 tests added (340 in the suite). Gates: `bin/wiki-check` all clean, 474 pages.
 Coverage unchanged at 25 — this pass moved no content, only the machinery that
 decides who writes what next.
+
+
+## [2026-09-02] translate | interests | favorites/eclecticism
+
+4,920 -> 2,453 words (50%), grade 7.7, referee PASS first run. The densest entry
+in the corpus and the top of the major lane, translated the day after #236
+rewrote it, so the twin is written against a page that will not move under it.
+
+Both architectures had to survive with their own evidence — the subject-column
+recount (40 Trump/J6 by 30 authors, 20 Rome by 14, no overlap, half the shelf
+through 44 hands) and the time column that separates music from the book shelf
+(872 of 1,860 released 2024 or later). Two pieces of jargon rewritten rather
+than dropped: the Ti/Ne split becomes "one habit closes things, the other keeps
+things open", and the Gini coefficient becomes "a standard statistic for how
+concentrated a collection is", keeping 0.188 / 0.166 / 0.000 and the 0.9601
+contact control that gives them their contrast.
+
+**The provenance disclosure was kept, against the general rule that apparatus
+goes.** The page leans on Artistic Interests 81 and the Ti/Ne split in prose, so
+the twin says plainly that those came from commissioned AI assessments and that
+the argument is built to survive them being wrong. A reader handed the scores
+without their provenance gets a stronger claim than the page makes.
+
+## [2026-09-02] translate | mind | synthesis/the-embedded-objective
+
+4,068 -> 2,851 words (70%), grade 8.5, referee PASS first run.
+
+**The first worked instance of the moratorium's incidental case.** The page
+names the protected person once, against a threshold of two, which is the only
+reason rule 1 lets it through; rule 2 forbids the twin from naming her whatever
+the page says. The twin carries the finding that mention sits inside — that two
+competing accounts of why the BFS job ended are now on the record, so that
+control is not as sharp as the page first claimed — and does not carry who he
+told it to. The sentence goes, the finding stays. Dropping the finding to be
+safe would have handed the reader a cleaner control than the page itself says
+exists.
+
+The honest half that had to survive: the inherited Impulsiveness-96 dispute.
+The same behaviour reads as a working engine on `acquisition-drive` and as a
+brake failure on the instrument; this page's own evidence cannot decide between
+them, and its prose had been taking a side. A plain edition that dropped that
+would be more confident than the entry it translates.
+
+## [2026-09-02] translate | self | youtube-watch-history
+
+3,226 -> 1,376 words (43%), grade 9.1, referee PASS first run.
+
+A record page rather than an argument, and the translation is shaped by that.
+The twin leads on the two caveats that make every table unreadable at face
+value, because a reader who takes one figure away from this entry must not take
+away a wrong one: 14.1% of the old export's 15,149 "Watched" entries are ads, so
+real viewing is nearer 13,011; and every count is one account of several, which
+makes the figures floors rather than a census — including the daily averages
+other pages quote from here.
+
+The 100-day near-zero window keeps its whole arc rather than just its
+conclusion: it reads as a behavioural collapse, it sits on top of a documented
+high-intensity stretch, and it is an export artifact because the watching
+happened on another account. That sequence is the most useful thing on the page
+for teaching a reader how to read the rest of it. Second incidental-mention
+case; the twin names nobody.

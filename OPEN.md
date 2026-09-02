@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 41 |
-| Open gaps | 489 |
+| Open gaps | 502 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
 
@@ -519,7 +519,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/places/the-unpapered-address]]** — **The pre-2010 record is empty.** Full Sail housing (2008–2010) and everything before it are undocumented, so the rule is tested on sixteen years and not on a life. If the Florida period shows a conventional student lease, the pattern has a start date and the 
 - **[[wiki/places/the-unpapered-address]]** — **This page does not establish intent.** Whether the unpapered arrangements were preferred, accepted, or simply the only ones available at a $11,000–14,000 household income is not decidable from this material, and the three readings have very different implica
 
-### self (45)
+### self (58)
 
 - **[[wiki/self/ancestry]]** — 1. **The Harris paternal line.** Sadie Harris's father ("Harris" from Czechoslovakia) is the single biggest data gap. He contributed ~12.5% of Dan's DNA but is completely undocumented beyond a single datum. Research into Czech immigration records, census data,
 - **[[wiki/self/ancestry]]** — 2. **The maternal R0 haplogroup.** The origin of the R0 mitochondrial haplogroup on the maternal line is unexplained. It may indicate a distant Jewish, Middle Eastern, or Central Asian ancestor entering through the Van Voorhis, Conwell, or Thomas lines. Resear
@@ -566,6 +566,19 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/message-corpora/source-coverage-index]]** — Timezone is recorded from documented convention rather than measured, except for the two 2026-08-13 exports, which were validated against a local-time source on 42,895 text-matched pairs. Every other row in the Timezone column is an assumption inherited from t
 - **[[wiki/self/message-corpora/source-coverage-index]]** — Row counts are physical records, not unique messages; the same message appears in many files and this index deliberately does not deduplicate.
 - **[[wiki/self/tattoos]]** — The gravestone piece now has an artist and location (Ian Weidrick, Allied Tattoo, Brooklyn) but still no date or corroborating message-corpus trace. Body placement is unknown for every piece on this list; the corpus documents *what* and often *when* and *who d
+- **[[wiki/self/twitter]]** — 2009 through 2012, January–mid-August 2013, and some 2026 days between the spreadsheet end and the live scrape are still being walked from X in batches of ten. Each incomplete yearly page states that on its face. The spreadsheet span 2013-08-17 through 2026-04
+- **[[wiki/self/twitter/2009]]** — The operator spreadsheet begins 2013-08-17. 2009 is being walked from live X search in batches of ten; this page currently holds 165 originals and will be appended as further batches land. Do not treat the present count as the year's total.
+- **[[wiki/self/twitter/2009]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
+- **[[wiki/self/twitter/2010]]** — The operator spreadsheet begins 2013-08-17. 2010 is being walked from live X search in batches of ten; this page currently holds 342 originals and will be appended as further batches land. Do not treat the present count as the year's total.
+- **[[wiki/self/twitter/2010]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
+- **[[wiki/self/twitter/2011]]** — The operator spreadsheet begins 2013-08-17. 2011 is being walked from live X search in batches of ten; this page currently holds 225 originals and will be appended as further batches land. Do not treat the present count as the year's total.
+- **[[wiki/self/twitter/2011]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
+- **[[wiki/self/twitter/2012]]** — The operator spreadsheet begins 2013-08-17. 2012 is being walked from live X search in batches of ten; this page currently holds 205 originals and will be appended as further batches land. Do not treat the present count as the year's total.
+- **[[wiki/self/twitter/2012]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
+- **[[wiki/self/twitter/2013]]** — Spreadsheet originals are complete from 2013-08-17 through year-end. January through 2013-08-13 is still being scraped and appended in live batches of ten.
+- **[[wiki/self/twitter/2013]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
+- **[[wiki/self/twitter/2026]]** — Spreadsheet originals run through 2026-04-07. Later originals from the live scrape are on this page; days between scrape batches may still be missing and will be filled on later commits to this same branch.
+- **[[wiki/self/twitter/2026]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
 ### timeline (81)
 

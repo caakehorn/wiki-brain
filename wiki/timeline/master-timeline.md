@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,264 events** across **80 years** (1796–2027), drawn from **362 pages**. Tier 1 666 · Tier 2 399 · Tier 3 2,199.
+**3,266 events** across **80 years** (1796–2027), drawn from **364 pages**. Tier 1 665 · Tier 2 399 · Tier 3 2,202.
 
 ## What counts as an event here
 
@@ -1306,10 +1306,18 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/favorites/music]] · Continuity with the 2007–2014 Facebook record
 - · **August 2013** — The three clusters are at least eighteen years old.** This is the control that kills both "2025 Spotify discovery" and "recent omnivory." facebook (2007–2022 export) already has Elliott Smith liked in August 2013 (7 tracks in the current library), Fall Out Boy and Say Anything name-checked in 2007…  
   ↳ [[wiki/interests/favorites/eclecticism]] · Architecture B — parallel functional clusters
+- · **August 2013** — twitter** — 2009 through 2012, January–mid-August 2013, and some 2026 days between the spreadsheet end and the live scrape are still being walked from X in batches of ten. Each incomplete yearly page states that on its face. The spreadsheet span 2013-08-17 through 2026-04  
+  ↳ [[wiki/meta/open-questions]] · self (58)
 - · **August 2013** — Comedy / other — Scattered  
   ↳ [[wiki/self/facebook/interests]] · Event Responses (2008–2020)
+- · **August 2013** — Years before the spreadsheet, the mid-August 2013 days before it starts, and 2026 after 7 April are filled from live X search and will grow as further batches are committed on this branch.  
+  ↳ [[wiki/self/twitter]] · Twitter / X Activity (@danfrank)
+- · **August 2013** — 2009 through 2012, January–mid-August 2013, and some 2026 days between the spreadsheet end and the live scrape are still being walked from X in batches of ten.  
+  ↳ [[wiki/self/twitter]] · Gaps
 - · **2013-08-11** — The Talk It Out Mix — Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
+- · **2013-08-13** — January through 2013-08-13 is still being scraped and appended in live batches of ten.  
+  ↳ [[wiki/self/twitter/2013]] · Gaps
 - ◆ **2013-08-14** — The clearest primary anchor for the whole episode is an August 14, 2013 email in which Dan performs a point-by-point post-mortem of the previous two months and admits: "I really didn't have the romantic feelings for franki that i said i did at the time...  
   ↳ [[wiki/people/franki-faris]] · The five days (summer 2013)
 - · **2013-08-14** — franki fireworks day 2013** — **Nothing here is contemporaneous.** The whole page rests on one 2026 capture. The July 9–31 2013 self-typology emails and the August 14 2013 post-mortem already in the corpus are the nearest dated material and they corroborate the window, not the day.  
@@ -1318,6 +1326,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/franki-fireworks-day-2013]] · Gaps
 - · **2013-08-15** — The Fish in the Sea Mix (trap) — Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
+- · **2013-08-17** — 2013** — Spreadsheet originals are complete from 2013-08-17 through year-end. January through 2013-08-13 is still being scraped and appended in live batches of ten.  
+  ↳ [[wiki/meta/open-questions]] · self (58)
+- · **2013-08-17** — The spreadsheet span 2013-08-17 through 2026-04-07 is complete for originals.  
+  ↳ [[wiki/self/twitter]] · Gaps
+- · **2013-08-17** — Spreadsheet originals are complete from 2013-08-17 through year-end.  
+  ↳ [[wiki/self/twitter/2013]] · Gaps
 - · **2013-08-19** — Lemon Molly Melancholy — Original  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - ◆ **2013-08-30** — 35 — Oddball Comedy & Curiosity Festival — Post-Gazette Pavilion (First Niagara Pavilion) — Burgettstown, PA — Confirmed.  
@@ -3470,8 +3484,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/message-circadian-latency]] · Yearly volume arc, 2015–2026 — the dormant years quantified
 - · **2019** — 809 — NYC transition  
   ↳ [[wiki/self/location-history]] · Visits by Year (from semantic db)
-- · **2019** — Early political (intel committee, Putin era), casual links/jokes.  
-  ↳ [[wiki/self/twitter]] · Sampled Timeline
 - ★ **January 2019** — emaly minerd** — The fate of her book ("stamp notes"), her relationship with Derek, and her son are unknown past January 2019.  
   ↳ [[wiki/meta/open-questions]] · people (168)
 - ★ **January 2019** — The thread goes quiet after a January 2019 message asking Dan to call her back, with no indication the relationship continued past that point.  
@@ -3954,8 +3966,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/trevor]] · Friendship, money, and later contact
 - · **December 2019** — The December 2019 booking inquiry's outcome is undocumented.  
   ↳ [[wiki/people/trinity-st-clair]] · Gaps
-- · **December 2019** — Active since at least December 2019 (sampled data). 256 followers (as of 2026).  
-  ↳ [[wiki/self/twitter]] · Overview
 - · **2019-12-13** — 2019-12-13:** "if bernie isn't the nominee we're all capital f  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · Bernie 2020 as the bridge
 - ◆ **2019-12-24** — The only other contact is a single-day cluster on December 24, 2019: Trinity opens with "Merry Christmas," then immediately pivots to business — "1300 per hr" — and asks for verification.  
@@ -4420,8 +4430,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2023** — Transition, per operator  
   ↳ [[wiki/people/jamie-mohler]] · Corpus record
-- · **2023** — Politics (Fetterman arc surprise, Trump demo margins, racism discussions), gear lessons.  
-  ↳ [[wiki/self/twitter]] · Sampled Timeline
 - · **2023** — 2,622 (high) — Peak modern: Vaush 177, Mr. Beat 98, Majority Report heavy; YT Music 390  
   ↳ [[wiki/self/youtube-watch-history]] · Activity by Year (Watched events, from date parses + broad counts)
 - · **2023-01-06** — Family of Secrets: The Bush Dynasty... — Baker, Russ — ★★☆☆☆ — american-history, conservative, conspiracy, history, journalism, non-fiction, politics, president, top-shelf  
@@ -4499,8 +4507,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ### 2024
 
-- ★ **2024** — Justice system deep dives (death penalty principle, Luigi Mangione coverage skepticism, CEO killer consensus ruin via online footprint, distances/facts in cases).  
-  ↳ [[wiki/self/twitter]] · Sampled Timeline
 - ◆ **2024** — the Roman Republic.** The cleanest single-year detonation:  
   ↳ [[wiki/mind/synthesis/interests-as-era-markers]] · The marker series
 - · **2024** — Documented end of gambling  
@@ -4818,8 +4824,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/tom]] · Timeline
 - · **2025** — recurring silence patterns  
   ↳ [[wiki/people/tom]] · Timeline
-- · **2025** — Music shares and nostalgia, media criticism (plane crash coverage), personal title joke.  
-  ↳ [[wiki/self/twitter]] · Sampled Timeline
 - · **2025** — 1,871 (through July) — High; YT Music 987; Breaking Points 38; continued politics  
   ↳ [[wiki/self/youtube-watch-history]] · Activity by Year (Watched events, from date parses + broad counts)
 - · **2025** — 1,871 (through July)  
@@ -5147,7 +5151,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **July 2025** — Minor discrepancy, not a data-integrity concern:** 240 URLs present in the old export near its July 2025 cutoff don't appear in the new one — spot-checked, every sampled example is an ad impression from the same July 23–25, 2025 boundary window (KAYAK, Arby's, Harbor Freight, insurance/pharma…  
   ↳ [[wiki/self/youtube-watch-history]] · Extended coverage: August 2025 – July 2026 (new, 2026-07-20)
 - ◆ **2025-07-01** — chatgpt** — **The post-GPT-5 record does not exist in this corpus.** This is the binding gap and the top action on the page: the archived export was generated 2025-07-01 and GPT-5 shipped 2025-08-07, so every claim about what the release did is untested. **A ChatGPT expor  
-  ↳ [[wiki/meta/open-questions]] · self (45)
+  ↳ [[wiki/meta/open-questions]] · self (58)
 - ◆ **2025-07-01** — And the pre/post framing is untestable on this corpus.** The 375-thread ChatGPT export ends 2025-07-01 — its own generation date — while GPT-5 shipped 2025-08-07, so no substantial primary record of post-release use exists here.  
   ↳ [[wiki/self/concepts/llm]] · The guardrail problem
 - · **2025-07-01** — And the register survives to the last day: the 2025-07-01 finale is as unhedged as anything in 2023.  
@@ -5439,8 +5443,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/john-carney]] · Timeline Snippets
 - · **2026** — "bfs foods — BFS Foods ... April 2026" + "Bunker Core" + Gumroad "iMessage Analysis Toolkit ... February 2026". Property ops Uniontown/Leith-Hatfield w/ Suzanne.  
   ↳ [[wiki/self/chats/gemini-18]] · _18 Stats + Full Bio Timeline Table (2026-06-23 analysis)
-- · **2026** — Peak AI agent building (iMessage spam incident, fable5 website viz), music (Ableton, MOGZART), politics (Israel, CBS), casual.  
-  ↳ [[wiki/self/twitter]] · Sampled Timeline
 - ★ **January 2026** — The primary number (+17249987341) runs the day-to-day logistics and politics: quick supply coordination ("Do you need some tomorrow?"), running political commentary (a January 2026 riff imagining Trump announcing a move "for the people of Isr—Venezuela"), and the low-grade owe-and-silence…  
   ↳ [[wiki/people/tom]] · Texture from the corpus
 - ★ **January 2026** — Base rate:** node locking locks *blackout patterns post-confront* into the Signals node; forensic method models the January 2026 ten-day blackout as a Grim Trigger.  
@@ -5705,6 +5707,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/music/aliases/gripnotic]] · Platform Presence
 - · **2026-04-07** — It holds the invariants through the 2015–2019 basement years and into the present, and then on **April 7, 2026** the name is claimed for an AI agent.  
   ↳ [[wiki/mind/synthesis/alias-as-periodization]] · What the clock reads
+- · **2026-04-07** — Spreadsheet originals run through 2026-04-07.  
+  ↳ [[wiki/self/twitter/2026]] · Gaps
 - ★ **2026-04-12** — Hope your family over there is safe and well." Tarik: "Yes pretty bad." The relationship's most recent documented contact, April 12, 2026 — a year and eight months after termination — is the thread's longest and most substantive message: Dan telling Tarik that recent events had made him newly…  
   ↳ [[wiki/people/tarik-fallous]] · Direct Correspondence (Aug 2023 – Apr 2026)
 - · **2026-04-12** — Most recent contact — extended Lebanon solidarity message  
@@ -6088,7 +6092,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 4 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 24 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -6851,4 +6855,4 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 362 wiki pages. 962 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 364 wiki pages. 972 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
