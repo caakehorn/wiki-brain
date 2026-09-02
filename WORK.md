@@ -15,7 +15,7 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (102)
+## Obligations (105)
 
 Somebody or something is waiting on each of these. Drain from the top.
 
@@ -45,7 +45,6 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/interests/favorites/books.md moved 2026-08-19, after this page's 2026-07-14 | `wiki/interests/favorites/books/want-to-read.md` | 2026-08-19 |
 | 3 | stale | premise wiki/interests/roman-republic.md moved 2026-08-19, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/politics.md` | 2026-08-19 |
 | 3 | stale | premise wiki/mind/profile/big-five-psychometrics.md moved 2026-08-19, after this page's 202… | `wiki/mind/synthesis/millennial-digital-witness.md` | 2026-08-19 |
-| 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-08-19, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/politics.md` | 2026-08-19 |
 | 3 | stale | premise wiki/mind/concepts/contact-gini.md moved 2026-08-20, after this page's 2026-07-20 | `wiki/mind/synthesis/spatial-behavior.md` | 2026-08-20 |
 | 3 | stale | premise wiki/work/au-zaatar.md moved 2026-08-21, after this page's 2026-08-19 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-21 |
 | 3 | stale | premise wiki/mind/concepts/attachment-model.md moved 2026-08-23, after this page's 2026-08-… | `wiki/mind/synthesis/ancestral-dialectic.md` | 2026-08-23 |
@@ -58,7 +57,6 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/mind/synthesis/closing-the-set.md moved 2026-08-26, after this page's 2026-08-… | `wiki/mind/synthesis/intake-constancy.md` | 2026-08-26 |
 | 3 | stale | premise wiki/mind/synthesis/closing-the-set.md moved 2026-08-26, after this page's 2026-08-… | `wiki/mind/synthesis/interests-as-era-markers.md` | 2026-08-26 |
 | 3 | stale | premise wiki/mind/synthesis/political-psyops.md moved 2026-08-26, after this page's 2026-08… | `wiki/mind/synthesis/millennial-digital-witness.md` | 2026-08-26 |
-| 3 | stale | premise wiki/mind/synthesis/political-psyops.md moved 2026-08-26, after this page's 2026-08… | `wiki/mind/synthesis/2020-left-turn.md` | 2026-08-26 |
 | 3 | stale | premise wiki/mind/synthesis/political-psyops.md moved 2026-08-26, after this page's 2026-08… | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-26 |
 | 3 | stale | premise wiki/mind/synthesis/political-psyops.md moved 2026-08-26, after this page's 2026-08… | `wiki/self/youtube-watch-history.md` | 2026-08-26 |
 | 3 | stale | premise wiki/mind/synthesis/the-cato-seat.md moved 2026-08-26, after this page's 2026-08-19 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-08-26 |
@@ -99,7 +97,6 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/people/suzanne-frank.md moved 2026-08-28, after this page's 2026-08-26 | `wiki/self/context-core.md` | 2026-08-28 |
 | 3 | stale | premise wiki/places/155-virginia-ave.md moved 2026-08-28, after this page's 2026-08-26 | `wiki/mind/synthesis/bond-switch-2015.md` | 2026-08-28 |
 | 3 | stale | premise wiki/health/chemical-architecture.md moved 2026-08-31, after this page's 2026-08-02 | `wiki/mind/synthesis/ancestral-dialectic.md` | 2026-08-31 |
-| 3 | stale | premise wiki/health/the-configured-body.md moved 2026-08-31, after this page's 2026-08-19 | `wiki/mind/synthesis/2020-left-turn.md` | 2026-08-31 |
 | 3 | stale | premise wiki/interests/favorites/eclecticism.md moved 2026-09-01, after this page's 2026-06… | `wiki/interests/favorites/art-and-movies.md` | 2026-09-01 |
 | 3 | stale | premise wiki/interests/favorites/eclecticism.md moved 2026-09-01, after this page's 2026-06… | `wiki/interests/favorites/taste-profile.md` | 2026-09-01 |
 | 3 | stale | premise wiki/interests/favorites/eclecticism.md moved 2026-09-01, after this page's 2026-07… | `wiki/interests/favorites/music.md` | 2026-09-01 |
@@ -111,6 +108,12 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/interests/music/overview.md moved 2026-09-02, after this page's 2026-08-28 | `wiki/mind/synthesis/alias-as-periodization.md` | 2026-09-02 |
 | 3 | stale | premise wiki/interests/music/overview.md moved 2026-09-02, after this page's 2026-08-28 | `wiki/mind/synthesis/failure-to-launch.md` | 2026-09-02 |
 | 3 | stale | premise wiki/interests/music/overview.md moved 2026-09-02, after this page's 2026-08-28 | `wiki/mind/synthesis/music-as-identity.md` | 2026-09-02 |
+| 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-09-02, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/politics.md` | 2026-09-02 |
+| 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-09-02, after this page's 2026-08-19 | `wiki/mind/synthesis/interests-as-era-markers.md` | 2026-09-02 |
+| 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-09-02, after this page's 2026-08-19 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-09-02 |
+| 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-09-02, after this page's 2026-08-26 | `wiki/mind/politics/axioms.md` | 2026-09-02 |
+| 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-09-02, after this page's 2026-08-26 | `wiki/mind/synthesis/political-psyops.md` | 2026-09-02 |
+| 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-09-02, after this page's 2026-08-26 | `wiki/self/context-core.md` | 2026-09-02 |
 | 3 | stale | premise wiki/people/alexis-armel.md moved 2026-09-02, after this page's 2026-08-26 | `wiki/mind/synthesis/bond-switch-2015.md` | 2026-09-02 |
 | 3 | stale | premise wiki/people/alexis-armel.md moved 2026-09-02, after this page's 2026-08-28 | `wiki/mind/synthesis/dormancy-not-exit.md` | 2026-09-02 |
 | 3 | stale | premise wiki/people/alexis-armel.md moved 2026-09-02, after this page's 2026-08-28 | `wiki/mind/synthesis/the-unbroken-bond.md` | 2026-09-02 |

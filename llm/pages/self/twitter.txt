@@ -100,6 +100,9 @@ connections:
   - page: wiki/people/eric-jester
     type: evidences
     claim: '22 tweets across 2009-2013 hold the dense phase of the Jester friendship, which had already decayed to its every-year-or-two rhythm before the message thread opens in May 2017.'
+  - page: wiki/mind/synthesis/2020-left-turn
+    type: evidences
+    claim: 'Per-year political share of originals — 12.3%, 24.0%, 44.1% across 2019-21 — corroborates the 2020 conversion date from an independent record, and separates a 2017 engagement step from the 2020 identity change.'
 ---
 
 # Twitter / X Activity (@danfrank)

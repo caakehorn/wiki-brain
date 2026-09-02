@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-02
-493 pages, ~1,710,911 tokens.
+493 pages, ~1,712,213 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -9932,7 +9932,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-02** — 36 pages
+**2026-09-02** — 37 pages
   - ingest | self | @danfrank twitter archive as yearly pages
   - build | plain | two writing lanes, a floor that had to be measured, and a campaign page
   - translate | interests | favorites/eclecticism
@@ -9940,6 +9940,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - translate | self | youtube-watch-history
   - ingest | self/timeline/people | @danfrank twitter archive — mined across the wiki
   - ingest | interests/music | the production identity has a public arc, and it stops for ten years
+  - ingest | people/interests | the twitter social graph, pass 1 — and a counter-example to yesterday's music claim
 
 **2026-09-01** — 2 pages
 
@@ -11372,7 +11373,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-02 — 36 pages
+## 2026-09-02 — 37 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11383,6 +11384,7 @@ simply listed.
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/readers-digest]] | meta | — |
 | [[wiki/meta/recent-activity]] | meta | _(carries a CORRECTED)_ |
+| [[wiki/mind/synthesis/2020-left-turn]] | mind | — |
 | [[wiki/people/alexis-armel]] | people | _(carries a GAP CLOSED from 2026-08-28)_ |
 | [[wiki/people/eric-jester]] | people | **CORRECTED** — this page described the friendship itself as "sparse but genuinely warm." That is an accurate reading of the *message thread*, which begins **May 2017**. It is not an accurate description of the frien |
 | [[wiki/people/josh-brannan]] | people | — |
@@ -11606,7 +11608,7 @@ simply listed.
 | [[wiki/timeline/events/august-2026-morgantown-call-source-amendment]] | timeline | — |
 | [[wiki/timeline/events/august-2026-unmasking]] | timeline | — |
 
-## 2026-08-19 — 22 pages
+## 2026-08-19 — 21 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11621,7 +11623,6 @@ simply listed.
 | [[wiki/mind/concepts/the-handed-mirror]] | mind | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/mind/profile/big-five-psychometrics]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/mind/profile/socionics-and-attitudinal]] | mind | — |
-| [[wiki/mind/synthesis/2020-left-turn]] | mind | — |
 | [[wiki/mind/synthesis/intake-constancy]] | mind | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/mind/synthesis/interests-as-era-markers]] | mind | — |
 | [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
@@ -20191,7 +20192,7 @@ page_type: synthesis
 status: stable
 knowledge: earned
 date_created: 2026-07-16
-date_modified: 2026-08-19
+date_modified: 2026-09-02
 sources:
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/dox-scan/Dan Profile.txt"
@@ -20209,6 +20210,9 @@ synthesizes:
   - wiki/health/the-configured-body
 tags: [ideology, politics, nyc-era, digital-footprint]
 connections:
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "The share of original tweets touching politics runs 12.3% in 2019, 24.0% in 2020 and 44.1% in 2021, bracketing the August 2020 self-narration from an independent contemporaneous record — and exposing a first, smaller step in 2017 that separates political engagement from the socialist label."
   - page: wiki/timeline/periods/covid-era-2020
     type: caused-by
     claim: "The lockdown is the documented condition of the conversion — the 2020-08-22 self-narration dates the Marx/Kropotkin reading and the Chapo/Hasan/ContraPoints binge to 'since i've been stuck inside'."
@@ -20252,6 +20256,83 @@ books he read to cement it. The wiki already treats his adult ideology as
 a settled fact ([[wiki/mind/synthesis/political-psyops]],
 [[wiki/mind/synthesis/vertical-authority-skepticism]]); this page pins
 down *when and how the radicalization actually happened*.
+
+## An independent witness: seventeen years of public posting
+
+The conversion above is self-narrated — Dan describing his own change on
+2020-08-22. That is strong testimony and it is one source. The
+[[wiki/self/twitter|@danfrank archive]] supplies a second, made
+contemporaneously, by a different mechanism, and never intended to answer
+this question: the share of each year's original tweets that touch politics
+at all.
+
+| Year | Originals | Political share |
+|---|---:|---:|
+| 2009–2011 | 732 | ~1% |
+| 2012 | 205 | 5.4% |
+| 2013–2016 | 654 | 1.2–4.0% |
+| **2017** | 117 | **11.1%** |
+| 2018 | 89 | 6.7% |
+| 2019 | 57 | 12.3% |
+| **2020** | 25 | **24.0%** |
+| **2021** | 34 | **44.1%** |
+| 2022 | 156 | 42.3% |
+| 2023 | 159 | 36.5% |
+| **2024** | 258 | **44.6%** |
+| 2026 | 26 | 23.1% |
+
+**It corroborates the date.** 2019 → 2020 → 2021 runs 12.3% → 24.0% →
+44.1%: a doubling, and then a doubling again, bracketing the August 2020
+self-narration exactly. Nothing in the archive was written to support this
+page's thesis, and it lands on the same year.
+
+**It also refines the thesis, and the refinement matters.** This page opens
+"Dan's politics did not arrive gradually." Against the public record that is
+too strong, because there are **two** steps, not one:
+
+- **2017 is the first.** 4.0% in 2016 → 11.1% in 2017, nearly tripling off a
+  decade-long baseline near 1%. That is three years *before* the conversion,
+  and it tracks the first Trump administration rather than the lockdown.
+- **2020–21 is the second, and much larger** — 12.3% to 44.1% across two
+  years.
+
+The distinction the two steps draw is between **engagement** and
+**identity**, and this page's own framing already contains it: a
+*"Bernie-curious liberal"* became *"a self-identified socialist."* The
+tweets date the two halves separately. Becoming politically engaged at all
+happens in 2017, under Trump. Acquiring the *label* happens in 2020, under
+lockdown, and it is the label — not the attention — that arrives abruptly.
+The conversion was not gradual; the runway to it was.
+
+**And it plateaus rather than climbing.** 2021 through 2024 sit at 44.1,
+42.3, 36.5 and 44.6 percent. Whatever happened in 2020 saturated within a
+year and has held for four, which is what a settled ideology looks like from
+outside rather than an ongoing radicalization.
+
+**The 2013–2016 dormancy is worth naming too.** Politics runs 1.2–4.0% for
+four years — the [[wiki/timeline/periods/uniontown-return-2013-2015|Uniontown
+return]] and the start of the Annie relationship. The "insufferable politics
+sicko" of the current bio has a documented off period in his early
+twenties-to-thirties, and it ends with an election rather than with anything
+in his own life.
+
+**Two limits, and the first is serious.** 2020 and 2021 are **25 and 34
+originals** — so 24.0% is six tweets and 44.1% is fifteen. Those two rows,
+the ones carrying the most weight above, rest on the smallest denominators in
+the table; 2022–2024 (156, 159, 258) are solid and the plateau is safe. And
+these are shares of *originals*, so a year spent reposting other people's
+politics without comment reads here as a quiet year.
+
+> **A caution about how this table was made.** The first pattern used to
+> build it returned **0.0% for 2026** — and 2026 is not apolitical. It
+> contains "EVERYBODY🙏HATES🙏ISRAEL🙏", a read on Curtis Sliwa's
+> "antizionist credentials and… the new Tucker lane of nat con populism",
+> and "It's Irish Zionism". The pattern had been built from 2012–2024
+> vocabulary and none of those words are in it. **A political vocabulary
+> drifts across seventeen years, and a fixed keyword list silently reports
+> the drift as absence.** The figures above use an era-aware pattern and
+> were checked by reading the years with the smallest counts. Anyone
+> re-deriving this table should do the same rather than trusting the regex.
 
 ## The self-narrated conversion, 2020-08-22
 
@@ -86721,6 +86802,9 @@ connections:
   - page: wiki/people/eric-jester
     type: evidences
     claim: '22 tweets across 2009-2013 hold the dense phase of the Jester friendship, which had already decayed to its every-year-or-two rhythm before the message thread opens in May 2017.'
+  - page: wiki/mind/synthesis/2020-left-turn
+    type: evidences
+    claim: 'Per-year political share of originals — 12.3%, 24.0%, 44.1% across 2019-21 — corroborates the 2020 conversion date from an independent record, and separates a 2017 engagement step from the 2020 identity change.'
 ---
 
 # Twitter / X Activity (@danfrank)
@@ -94844,7 +94928,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,349 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 678 · Tier 2 405 · Tier 3 2,266.
+**3,351 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 678 · Tier 2 405 · Tier 3 2,268.
 
 ## What counts as an event here
 
@@ -95809,9 +95893,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2010-01-03** — one is timestamped by the platform and one was typed into a profile  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **2010-01-03** — facebook — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 37 pages
 - · **2010-01-03** — location history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 37 pages
 - · **2010-01-03** — Places lived  
   ↳ [[wiki/self/facebook]] · Identity & Profile Data (2022 snapshot, self-reported)
 - ★ **2010-01-23** — On the evening of **23 January 2010**, five weeks before the move north, Dan got his first tattoo: the letter **A**.  
@@ -97672,7 +97756,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **May 2017** — Twice Dan evidently weighed what he'd bought and found it light, and twice Vaughn retreated to the same defense: "What did it weight because he said it was 3.5… that's my best friend I got it from and I know he wouldn't do it on purpose" (May 2017), and "I swear I watched him weigh it" against a…  
   ↳ [[wiki/people/vaughn]] · The yard and the hustle, one channel
 - · **May 2017** — eric jester — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 37 pages
 - · **May 2017** — Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two Nemacolin caddying seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a fellow caddie in 2017 who came back for 2018 as **assistant caddie master** — "I'm actually gonna be assistant caddie…  
   ↳ [[wiki/people/davey-fitzpatrick]] · Davey Fitzpatrick
 - · **May 2017** — Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose message thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — sparse check-ins that resurface every year or two, each one picking back up exactly where the last left…  
@@ -99090,6 +99174,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **August 2020** — every fact here comes from Dan's narration or from the estate attorney's calls, and the estate attorney reached in August 2020 (`+17245706170`) is not established to be Adams or his office. His full name,  
   ↳ [[wiki/meta/open-questions]] · people (169)
+- · **August 2020** — It corroborates the date.** 2019 → 2020 → 2021 runs 12.3% → 24.0% → 44.1%: a doubling, and then a doubling again, bracketing the August 2020 self-narration exactly.  
+  ↳ [[wiki/mind/synthesis/2020-left-turn]] · An independent witness: seventeen years of public posting
 - · **August 2020** — The objector had a name and did not object.** Dan's August 2020 question to the estate attorney — what were the odds his grandmother would contest the distribution — has been carried here as an open identity and an open outcome.  
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The contest that never came, and the asset that left before it
 - · **August 2020** — In August 2020, negotiating his $144,069.31 estate distribution, Dan asked the estate attorney what the odds were that his grandmother would contest it.  
@@ -99110,6 +99196,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/failure-to-launch]] · Capital
 - ◆ **2020-08-22** — In a single long message thread on 2020-08-22, Dan describes the shift without prompting:  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · The self-narrated conversion, 2020-08-22
+- · **2020-08-22** — The conversion above is self-narrated — Dan describing his own change on 2020-08-22.  
+  ↳ [[wiki/mind/synthesis/2020-left-turn]] · An independent witness: seventeen years of public posting
 - · **2020-08-22** — On **August 22, 2020** he wrote the family-thread message pairing his new politics with both source-lines at once: "it feels super gross knowing that dad fought to keep frank's auto employees from unionizing and that we have such kushy lives because of it," alongside discomfort that the Fran…  
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The two source-lines and their trustee
 - · **2020-08-22** — 10. Religious and ideological programming  
@@ -99553,7 +99641,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **May 2024** — 2021–May 2024 on at least one other number (and *"Menore #1?"* implies more than one), but **no export exists for any handle but 3476070497**.  
   ↳ [[wiki/people/menore]] · Gaps & Uncertainties
 - · **2024-05-02** — 307 e 76th st — places  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 22 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 21 pages
 - · **2024-05-08** — She was doing it **on top of another job**: *"Now I'll be here 6 days a week and then Libby in mornings…: I don't want to get worked again and pass out like last time"* (2024-05-08).  
   ↳ [[wiki/people/annie-ulmer]] · 2024, and the year she was not unemployed
 - ★ **2024-05-09** — His father died on or around 2024-05-09** (*"Garrett's dad died"*).  
@@ -100929,7 +101017,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-06-23** — eclecticism — interests  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-01 — 2 pages
 - · **2026-06-23** — books — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 22 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 21 pages
 - · **2026-06-23** — 337 Saratoga closes at $465,000  
   ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **2026-06-23** — 337 saratoga drive — three separate eras — suzanne frank\ — Suz — she owns it — Deed and, eventually, a Chapter 13 docket — **all hers  
@@ -101075,15 +101163,15 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 37 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
   ↳ [[wiki/people/mike-cordaro]] · Texture
 - · **2026-07-20** — intake constancy — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 22 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 21 pages
 - · **2026-07-20** — youtube watch history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 22 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 21 pages
 - · **2026-07-20** — master timeline — timeline  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-15 — 3 pages
 - · **2026-07-20** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an  
@@ -101123,7 +101211,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-26** — jerel coles** — 3. **Does the "video proof / unconscious" accusation originate with him (2026-07-26, from her phone) or with her (2026-05-31, 23:54)?** Now answerable from logs already held — not yet run.  
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **2026-07-26** — hyperreflexivity — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 22 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 21 pages
 - · **2026-07-26** — The three known ones are 2026-07-26 05:39–05:57, 2026-08-16 23:42–23:53 and 2026-08-18 21:46–21:50.  
   ↳ [[wiki/mind/synthesis/read-receipt-forensics]] · RE-CHECKED [2026-08-20] — M4 gains its best real-world case, and the flagship example's scope was an artifact
 - · **2026-07-26** — Rape allegation, refused supply request, mutual suicidal statements, "whatever goodbye annie" (05:04)  
@@ -101243,7 +101331,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-02** — fran coldren — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-02** — big five psychometrics — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 22 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 21 pages
 - · **2026-08-02** — ~~**No audit has been run.**~~ **CLOSED 2026-08-02** — see the enumeration  
   ↳ [[wiki/mind/synthesis/instrument-is-subject]] · Gaps
 - · **2026-08-02** — What survived:** the propagation rule, the residue/testimony distinction, and the 2026-08-02 enumeration finding (ten pages reason from `mixed` premises without stating what they added).  
@@ -101327,7 +101415,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-08-10** — Jim's death is now dated.** A 2026-08-10 pass found the specific date: **October 2, 2019**, per a Dan message to a client explaining a possible booking conflict.  
   ↳ [[wiki/people/ellen-ulmer]] · The relationship
 - · **2026-08-10** — 90th st manhattan — places  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 22 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 21 pages
 - · **2026-08-10** — john paci — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-13 — 1 page
 - · **2026-08-10** — Its *status* is open — and, per an operator capture filed 2026-08-10, sexual contact resumed "the other night," breaking a stated six-month gap.  
@@ -101525,7 +101613,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-18** — 463 morgantown — legal  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 16 pages
 - · **2026-08-18** — the handed mirror — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 22 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 21 pages
 - · **2026-08-18** — 267 — 120 — 6.3 — the false send  
   ↳ [[wiki/mind/concepts/reassurance-architecture]] · The character ratio is a crisis thermometer, and it is the best one found
 - · **2026-08-18** — 4 — **Manufactured stimulus** — fabricate an event to force a reading  
@@ -101675,7 +101763,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
 - · **2026-08-23** — overview — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 37 pages
 - · **2026-08-23** — closing the set — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-23** — annie ulmer personality assessment — people  
@@ -101745,9 +101833,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 37 pages
 - · **2026-08-28** — full sail 2008 2010 — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 36 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 37 pages
 - · **2026-08-28** — chemical architecture — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 5 pages
 - · **2026-08-28** — cocaine — health  
@@ -101846,7 +101934,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 366 wiki pages. 992 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 366 wiki pages. 1,002 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================

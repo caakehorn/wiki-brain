@@ -47,7 +47,7 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-09-02** — 36 pages
+**2026-09-02** — 37 pages
   - ingest | self | @danfrank twitter archive as yearly pages
   - build | plain | two writing lanes, a floor that had to be measured, and a campaign page
   - translate | interests | favorites/eclecticism
@@ -55,6 +55,7 @@ this is the state of the thing.
   - translate | self | youtube-watch-history
   - ingest | self/timeline/people | @danfrank twitter archive — mined across the wiki
   - ingest | interests/music | the production identity has a public arc, and it stops for ten years
+  - ingest | people/interests | the twitter social graph, pass 1 — and a counter-example to yesterday's music claim
 
 **2026-09-01** — 2 pages
 

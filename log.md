@@ -7683,3 +7683,51 @@ the corpus where Dan enumerates his core friend group himself.
 
 **Open lead:** @Woodguts — 17 tweets across 2009–2013, *"When I grow up I want
 to be @Woodguts"* — is unidentified in `contacts.csv` and everywhere else.
+
+## [2026-09-02] ingest | mind | the politics arc has two steps, not one — and the instrument nearly hid one
+
+`wiki/mind/synthesis/2020-left-turn` dates the socialist conversion to a
+self-narration on 2026-08-22 [sic: 2020-08-22] and opens "Dan's politics did
+not arrive gradually." The tweet archive is an independent, contemporaneous
+witness to the same question, and it both **corroborates the date and
+qualifies the thesis**.
+
+Political share of originals: ~1% across 2009–2011, 5.4% in 2012, 1.2–4.0%
+across 2013–2016, then **11.1% (2017), 12.3% (2019), 24.0% (2020), 44.1%
+(2021)**, plateauing at 42.3 / 36.5 / 44.6 through 2024.
+
+**The date holds.** 12.3 → 24.0 → 44.1 brackets the August 2020 narration
+exactly, from a record written for other reasons.
+
+**The thesis needs one word changed.** There are two steps. The first is 2017
+— 4.0% to 11.1%, nearly tripling off a decade near 1%, three years before the
+conversion and tracking the first Trump administration. The second is 2020–21.
+The distinction is between **engagement** and **identity**, and the page's own
+phrasing already contains it: a "Bernie-curious liberal" became "a
+self-identified socialist." Becoming politically engaged happens in 2017.
+Acquiring the label happens in 2020. The label arrived abruptly; the runway
+did not.
+
+**It plateaus rather than climbing** — four years at 36–45% is a settled
+ideology from outside, not an ongoing radicalization. And **2013–2016 is a
+documented off period**: 1.2–4.0% across the Uniontown return, ended by an
+election rather than by anything in his own life.
+
+**The instrument nearly produced a false headline.** The first pattern
+returned **0.0% for 2026** and I was one edit from writing "the politics sicko
+went silent." 2026 is 23.1%: it contains "EVERYBODY🙏HATES🙏ISRAEL🙏", a read
+on Curtis Sliwa's "antizionist credentials and… the new Tucker lane of nat con
+populism", and "It's Irish Zionism" — none of whose vocabulary was in a
+pattern built from 2012–2024. **A political vocabulary drifts across
+seventeen years and a fixed keyword list reports the drift as absence**, worst
+exactly where a corpus is most interesting. This is the second instance in one
+session of the failure already parked in `skills/INBOX.md`; the entry now
+carries both and the stronger rule, and is still not promoted because both
+occurrences are one author on one corpus.
+
+Caveat on the page: 2020 and 2021 are 25 and 34 originals, so those two rows
+are six and fifteen tweets. The plateau years (156/159/258) are solid.
+
+`plain/mind/synthesis/2020-left-turn` re-translated against the new page —
+not date-bumped. `bin/wiki-plain audit` caught rounded figures ("36%", "45%")
+that appear nowhere in the source; corrected to the page's own numbers.
