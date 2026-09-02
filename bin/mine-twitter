@@ -1,0 +1,391 @@
+#!/usr/bin/env python3
+"""mine-twitter — corpus mining over the @danfrank archive.
+
+Pure stdlib. The instrument for integrating seventeen years of public posting
+into the wiki: 2,525 originals, 2009-10-20 through 2026-09-01, in
+`raw/self/twitter/archive.jsonl`.
+
+Why this file exists rather than ad-hoc greps
+---------------------------------------------
+The yearly pages under `wiki/self/twitter/` are a rendering, not the data —
+grepping them counts markdown. And three properties of the archive itself make
+naive counting quietly wrong. Every one was found by trying to use the file.
+
+1. **Two sources of different completeness live in one file, and the boundary
+   is invisible from a row.** 1,427 rows come from the operator's spreadsheet
+   and are a CENSUS of originals for 2013-08-17 through 2026-04-07. The other
+   1,098 come from live X scraping — 2009 through mid-2013, and 2026 after
+   April 7 — and are batched, incomplete, and still growing. A per-year series
+   over the whole file therefore compares a census to a sample without saying
+   so, which is the same defect `wiki/self/youtube-watch-history` carries as
+   its largest caveat. Every count this tool prints is labelled with its
+   coverage class, and `stats` refuses to draw a trend across the boundary.
+
+2. **Engagement is null in ~120 rows, and null is not zero.** `likes` is null
+   in 122 rows, `replies` in 118, `reposts` in 120 — 118 of the 122 are
+   live-scrape rows where the number was never captured. Treating null as zero
+   understates reach; leaving it in place crashes any comparison. Both are
+   silent. Engagement figures here are computed over rows that HAVE the number
+   and print that denominator, the same discipline `bin/intake` applies to
+   quantities.
+
+3. **Only 194 of 2,525 rows carry any engagement at all.** A mean over the
+   whole archive is a statement about an audience that mostly was not there.
+   This is a low-engagement personal feed, and any figure that reads as reach
+   has to say what it was computed from.
+
+One thing this file is NOT evidence of: what his timeline contained. 229 pure
+reposts were dropped at ingest, so the archive is what Dan *wrote*, not what he
+posted. A claim about what he was reading or amplifying is not supported here.
+
+Subcommands
+-----------
+  stats                       shape: per-year volume with coverage, engagement
+  year YYYY [--month MM]      walk one year in date order
+  grep PATTERN                dated matches, --from/--to/--year/--limit
+  timeline PATTERN            per-year match counts against that year's total
+  entities [--kind]           @-handles, hashtags and domains, with wiki cross-check
+
+Every subcommand takes --archive PATH (default: the canonical archive).
+"""
+import argparse
+import json
+import os
+import re
+import sys
+from collections import Counter, defaultdict
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+ARCHIVE = os.path.join(ROOT, "raw", "self", "twitter", "archive.jsonl")
+WIKI = os.path.join(ROOT, "wiki")
+
+# The spreadsheet's span, and the reason coverage has to be printed beside every
+# count. Inside it the archive is a census of originals; outside it the archive
+# is whatever the live scrape has reached so far. Read off the data rather than
+# hardcoded belief: `min`/`max` of the operator-spreadsheet rows.
+CENSUS_FROM = "2013-08-17"
+CENSUS_TO = "2026-04-07"
+
+SPREADSHEET = "operator-spreadsheet"
+
+
+def load(path):
+    rows = []
+    with open(path, encoding="utf-8") as fh:
+        for n, line in enumerate(fh, 1):
+            line = line.strip()
+            if not line:
+                continue
+            try:
+                rows.append(json.loads(line))
+            except json.JSONDecodeError as e:
+                print(f"{path}:{n}: {e}", file=sys.stderr)
+    rows.sort(key=lambda r: r.get("created_at") or "")
+    return rows
+
+
+def day(r):
+    return (r.get("created_at") or "")[:10]
+
+
+def year(r):
+    return (r.get("created_at") or "")[:4]
+
+
+def in_census(r):
+    """Is this row inside the span the spreadsheet covers completely?"""
+    return CENSUS_FROM <= day(r) <= CENSUS_TO
+
+
+def coverage_of(rows):
+    """`census` | `partial` | `mixed` — never guessed, always derived."""
+    if not rows:
+        return "empty"
+    inside = sum(1 for r in rows if in_census(r))
+    if inside == len(rows):
+        return "census"
+    if inside == 0:
+        return "partial"
+    return "mixed"
+
+
+COVERAGE_NOTE = {
+    "census": "complete for originals",
+    "partial": "live scrape, still growing — a floor, not a total",
+    "mixed": "SPANS THE COVERAGE BOUNDARY — part census, part floor",
+    "empty": "",
+}
+
+
+def norm(text):
+    """Lowercase, straight quotes. Patterns are written against this form."""
+    return (text or "").replace("’", "'").replace("“", '"').replace(
+        "”", '"').replace("‘", "'").lower()
+
+
+def engagement(rows, field):
+    """(total, n_with_the_number, n_missing) — never a bare mean.
+
+    Null means the scrape never captured it, which is not the same as zero and
+    must not be summed as zero. See trap 2 in the module docstring.
+    """
+    have = [r[field] for r in rows if r.get(field) is not None]
+    return sum(have), len(have), len(rows) - len(have)
+
+
+# ---------------------------------------------------------------------------
+
+
+def cmd_stats(args):
+    rows = load(args.archive)
+    if not rows:
+        print("archive is empty", file=sys.stderr)
+        return 2
+
+    by_year = defaultdict(list)
+    for r in rows:
+        by_year[year(r)].append(r)
+
+    print("@danfrank ARCHIVE\n")
+    print(f"  originals            {len(rows)}")
+    print(f"  span                 {day(rows[0])} -> {day(rows[-1])}")
+    print(f"  census span          {CENSUS_FROM} -> {CENSUS_TO} "
+          f"({sum(1 for r in rows if in_census(r))} rows)")
+    print(f"  outside the census   {sum(1 for r in rows if not in_census(r))} rows "
+          f"(live scrape, still growing)")
+
+    print("\n  BY YEAR")
+    print(f"    {'year':<6}{'originals':>10}  {'coverage':<12} source")
+    for y in sorted(by_year):
+        rs = by_year[y]
+        cov = coverage_of(rs)
+        srcs = Counter(r.get("source", "?") for r in rs)
+        mix = " + ".join(f"{k.split('-')[0]} {v}" for k, v in sorted(srcs.items()))
+        print(f"    {y:<6}{len(rs):>10}  {cov:<12} {mix}")
+
+    # Deliberately no year-over-year trend line. 2014 against 2013 is a census
+    # against a sample, and a delta between them measures the scrape's progress
+    # rather than anything Dan did. The boundary is printed instead.
+    print(f"\n    NOTE  2009-2013 and 2026-04-07 onward are live-scrape years. A")
+    print(f"          change across {CENSUS_FROM} or {CENSUS_TO} may be the scrape's")
+    print(f"          coverage moving, not the posting rate. Compare inside a class.")
+
+    print("\n  ENGAGEMENT")
+    any_eng = [r for r in rows
+               if (r.get("likes") or 0) or (r.get("replies") or 0) or (r.get("reposts") or 0)]
+    print(f"    rows with any engagement   {len(any_eng)} of {len(rows)} "
+          f"({100 * len(any_eng) / len(rows):.1f}%)")
+    for field in ("likes", "replies", "reposts"):
+        total, have, missing = engagement(rows, field)
+        mean = f"{total / have:.2f}" if have else "—"
+        print(f"    {field:<10} total {total:>6}   mean {mean:>6} over {have} rows"
+              f"   ({missing} rows have no figure)")
+    if any_eng:
+        top = max(any_eng, key=lambda r: r.get("likes") or 0)
+        print(f"\n    most-liked  {day(top)}  {top.get('likes')} likes")
+        print(f"      {norm(top['text'])[:100]}")
+    return 0
+
+
+def cmd_year(args):
+    rows = [r for r in load(args.archive) if year(r) == str(args.year)]
+    if args.month:
+        rows = [r for r in rows if (r.get("created_at") or "")[5:7] == f"{int(args.month):02d}"]
+    if not rows:
+        print(f"nothing in {args.year}" + (f"-{int(args.month):02d}" if args.month else ""))
+        return 0
+    cov = coverage_of(rows)
+    print(f"{args.year} — {len(rows)} originals · {COVERAGE_NOTE[cov]}\n")
+    last = None
+    for r in rows:
+        d = day(r)
+        if d != last:
+            print(f"\n  {d}")
+            last = d
+        eng = []
+        for f, label in (("likes", "L"), ("replies", "R"), ("reposts", "RT")):
+            v = r.get(f)
+            if v:
+                eng.append(f"{label}{v}")
+        tag = f"   [{' '.join(eng)}]" if eng else ""
+        for i, chunk in enumerate(wrap(r["text"], 74)):
+            print(("    " if i == 0 else "      ") + chunk)
+        if tag:
+            print("     " + tag.strip())
+    return 0
+
+
+def wrap(text, width):
+    out, line = [], ""
+    for word in (text or "").split():
+        if len(line) + len(word) + 1 > width:
+            out.append(line)
+            line = word
+        else:
+            line = f"{line} {word}".strip()
+    if line:
+        out.append(line)
+    return out or [""]
+
+
+def cmd_grep(args):
+    rows = load(args.archive)
+    try:
+        pat = re.compile(norm(args.pattern))
+    except re.error as e:
+        print(f"bad pattern: {e}", file=sys.stderr)
+        return 2
+
+    hits = [r for r in rows if pat.search(norm(r["text"]))]
+    if args.year:
+        hits = [r for r in hits if year(r) == str(args.year)]
+    if args.since:
+        hits = [r for r in hits if day(r) >= args.since]
+    if args.until:
+        hits = [r for r in hits if day(r) <= args.until]
+
+    if not hits:
+        print(f"no match for /{args.pattern}/")
+        return 0
+
+    cov = coverage_of(hits)
+    print(f"/{args.pattern}/ — {len(hits)} of {len(rows)} originals · "
+          f"{COVERAGE_NOTE[cov]}\n")
+    shown = hits[: args.limit] if args.limit else hits
+    for r in shown:
+        print(f"  {day(r)}  {r['url']}")
+        for chunk in wrap(r["text"], 74):
+            print(f"    {chunk}")
+        print()
+    if args.limit and len(hits) > args.limit:
+        print(f"  … {len(hits) - args.limit} more (raise --limit)")
+    return 0
+
+
+def cmd_timeline(args):
+    rows = load(args.archive)
+    try:
+        pat = re.compile(norm(args.pattern))
+    except re.error as e:
+        print(f"bad pattern: {e}", file=sys.stderr)
+        return 2
+
+    by_year = defaultdict(list)
+    for r in rows:
+        by_year[year(r)].append(r)
+
+    print(f"/{args.pattern}/ by year — matches against that year's own total\n")
+    print(f"  {'year':<6}{'hits':>6}{'of':>7}   {'share':>7}  coverage")
+    for y in sorted(by_year):
+        rs = by_year[y]
+        n = sum(1 for r in rs if pat.search(norm(r["text"])))
+        if not n and not args.all:
+            continue
+        share = f"{100 * n / len(rs):.1f}%"
+        print(f"  {y:<6}{n:>6}{len(rs):>7}   {share:>7}  {coverage_of(rs)}")
+    print("\n  A share is only comparable to another share of the same coverage")
+    print("  class. See the note in `stats`.")
+    return 0
+
+
+HANDLE = re.compile(r"@([A-Za-z0-9_]{2,15})")
+HASHTAG = re.compile(r"#([A-Za-z][A-Za-z0-9_]+)")
+DOMAIN = re.compile(r"https?://([A-Za-z0-9.-]+)")
+
+
+def flatten(name):
+    """`alexis-armel` and `alexisarmel` are the same person.
+
+    A handle has no separators and a slug does, so comparing them literally
+    marks every hyphenated page as missing — which on the first run flagged
+    @alexisarmel, 84 mentions across five years, as having no page when
+    `wiki/people/alexis-armel` has existed throughout. A `*` that fires on
+    somebody who is already written up is a lead list nobody will trust twice.
+    """
+    return re.sub(r"[^a-z0-9]", "", (name or "").lower())
+
+
+def wiki_slugs():
+    """Every page slug, flattened, so entities can say which already have one."""
+    out = set()
+    for dirpath, dirs, files in os.walk(WIKI):
+        dirs[:] = [d for d in dirs if not d.startswith(".")]
+        for f in files:
+            if f.endswith(".md"):
+                out.add(flatten(os.path.splitext(f)[0]))
+    return out
+
+
+def cmd_entities(args):
+    rows = load(args.archive)
+    slugs = wiki_slugs()
+    pats = {"handle": HANDLE, "hashtag": HASHTAG, "domain": DOMAIN}
+    kinds = [args.kind] if args.kind else list(pats)
+
+    for kind in kinds:
+        counts = Counter()
+        first, last = {}, {}
+        for r in rows:
+            for m in pats[kind].findall(r["text"] or ""):
+                key = m.lower()
+                counts[key] += 1
+                first.setdefault(key, day(r))
+                last[key] = day(r)
+        print(f"\n{kind.upper()} — {len(counts)} distinct\n")
+        print(f"  {'n':>5}  {'first':<11}{'last':<11}{'':2}{kind}")
+        for key, n in counts.most_common(args.limit or 40):
+            if n < args.min:
+                break
+            mark = "  " if kind != "handle" or flatten(key) in slugs else " *"
+            print(f"  {n:>5}  {first[key]:<11}{last[key]:<11}{mark}{key}")
+        if kind == "handle":
+            print("\n  * = no wiki page with that slug. Not every handle deserves")
+            print("    one; a recurring handle with no page is a lead, not a defect.")
+    return 0
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__.split("\n")[0])
+    ap.add_argument("--archive", default=ARCHIVE)
+    sub = ap.add_subparsers(dest="cmd")
+
+    sub.add_parser("stats", help="shape, per-year volume with coverage, engagement")
+
+    y = sub.add_parser("year", help="walk one year in date order")
+    y.add_argument("year", type=int)
+    y.add_argument("--month", type=int)
+
+    g = sub.add_parser("grep", help="dated matches")
+    g.add_argument("pattern")
+    g.add_argument("--year", type=int)
+    g.add_argument("--since")
+    g.add_argument("--until")
+    g.add_argument("--limit", type=int, default=40)
+
+    t = sub.add_parser("timeline", help="per-year match counts against year totals")
+    t.add_argument("pattern")
+    t.add_argument("--all", action="store_true", help="include years with no match")
+
+    e = sub.add_parser("entities", help="handles, hashtags, domains")
+    e.add_argument("--kind", choices=["handle", "hashtag", "domain"])
+    e.add_argument("--limit", type=int, default=40)
+    e.add_argument("--min", type=int, default=2)
+
+    args = ap.parse_args()
+    if not args.cmd:
+        args.cmd = "stats"
+    return {
+        "stats": cmd_stats,
+        "year": cmd_year,
+        "grep": cmd_grep,
+        "timeline": cmd_timeline,
+        "entities": cmd_entities,
+    }[args.cmd](args)
+
+
+if __name__ == "__main__":
+    try:
+        sys.exit(main())
+    except BrokenPipeError:
+        os.dup2(os.open(os.devnull, os.O_WRONLY), sys.stdout.fileno())
+        sys.exit(0)
