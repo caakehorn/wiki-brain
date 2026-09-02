@@ -67,6 +67,9 @@ connections:
   - page: wiki/timeline/events/fran-death-vigil
     type: instance-of
     claim: "The vigil is a set-closure object like the cultural record — self-set, bounded by a death, finished — and Dan's own verdict on it ('got good closure') is the only documented case where this appetite is pointed at a life event rather than a catalogue."
+  - page: wiki/interests/favorites/eclecticism
+    type: evidences
+    claim: "The music exception this page left unresolved is now a named second architecture: three functional clusters maintained in parallel because they are used, not closed, which is why 47% of tracks have no findable edge and why this page was right not to claim the category."
 ---
 
 # Closing the Set
@@ -257,8 +260,16 @@ rather than a finding, is that music is the one domain where Dan is a
 rather than evidence-gathering, and scouting has no completion condition. A
 better competitor is that Spotify's own recommendation surface generated most
 of those 727 recent-release entries, in which case that column is measuring a
-platform and not a person. **Neither has been tested and the page does not
-claim music as a member.**
+platform and not a person. 
+**Neither has been tested and the page does not
+claim music as a member.** The positive account of what the exception *is*
+now lives at [[wiki/interests/favorites/eclecticism]] (rewritten 2026-09-01):
+Architecture B — three functional clusters kept in parallel for eighteen
+years, archival emo beside live bass calibration beside current hip-hop —
+because music is produced, not covered. This page's two untested readings
+(scouting vs. Spotify) are not withdrawn; they are the hole that page fills.
+The Origin-column test named in Gaps below is still unrun.
+
 
 ## What this explains that its members do not
 
