@@ -33,8 +33,8 @@ connections:
     type: contradicts
     claim: "The facet table has no persistence dimension and reads the corpus's execution failures as Impulsiveness at 96; the operator claims a 95th-percentile completion drive is running in the same behaviour, which would mean this instrument is scoring an engine as a brake failure."
   - page: wiki/mind/synthesis/millennial-digital-witness
-    type: evidences
-    claim: "Sociability 3 (corpus-audited at 0.73×) is the confirmed specimen-fit; the old 'archival memory, high pattern recognition' reading was Si and Ti, not this table, and the table's commissioned provenance is why the identity-project charge survives the audit."
+    type: instantiates
+    claim: "Sociability 3 is the confirmed specimen-fit for the millennial-witness role; archival memory and pattern recognition were Si and Ti, not this table."
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: evidences
     claim: "The Trust/Altruism/Submissiveness/Assertiveness scores are the skepticism architecture as measurement."
