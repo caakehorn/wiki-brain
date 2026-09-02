@@ -9,12 +9,13 @@ Read this before non-trivial repository work. Load skills by trigger, not by
 curiosity — `bin/wiki-lessons route "<what you are about to do>"` does the
 matching for you.
 
-## Routed (7)
+## Routed (8)
 
 | Skill | Trigger | Status | Validated |
 |---|---|---|---|
 | `agents/registry-push.md` | told to update the skills in the wiki; told to push skills, MCP servers or tools into the wiki-brain; starting substantial work as a model that has not pushed before; a skill, MCP server, hook or subagent was added, changed or removed | active | 2026-08-30 |
 | `corpus/message-mining.md` | counting messages or searching the iMessage dump; a claim about how often or how much Dan writes; measuring message length, cadence, or response time; reaching for grep over raw/ message exports | active | 2026-08-30 |
+| `corpus/vocabulary-drift.md` | a per-year or per-era table built by keyword matching; a claim that a subject is absent from a corpus, or went quiet; a step change or inflection dated from counts over a long corpus; building a regex to measure a topic across more than a few years | active | 2026-09-02 |
 | `repo/change-safety.md` | editing commands; editing workflows; editing build logic; repository-wide behavior changes | active | 2026-08-30 |
 | `repo/derived-surfaces.md` | editing a wiki page that the portal renders; working in caakehorn/home or public/wiki; a merged change that disappeared; editing generated files, llm/, DIGEST.md, RECENT.md, OPEN.md, WORK.md, INDEX.md | active | 2026-08-30 |
 | `repo/publication-surface.md` | adding data files to the repository; changing .gitignore; deciding whether something is private; writing to the repository from a browser or the contents API | active | 2026-08-30 |

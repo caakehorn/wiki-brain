@@ -15,7 +15,7 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (102)
+## Obligations (101)
 
 Somebody or something is waiting on each of these. Drain from the top.
 
@@ -123,7 +123,6 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 4 | skill | unvalidated skill candidate — A secret's absence must fail whatever the secret was for | `skills/INBOX.md` | 2026-08-31 |
 | 4 | skill | unvalidated skill candidate — A tie-break that is arbitrary is a tie-break that will be wro… | `skills/INBOX.md` | 2026-08-31 |
 | 4 | skill | unvalidated skill candidate — A write path that skips the tool skips everything the tool al… | `skills/INBOX.md` | 2026-08-31 |
-| 4 | skill | unvalidated skill candidate — A claim of absence needs a deliberately over-broad pattern fi… | `skills/INBOX.md` | 2026-09-02 |
 | 4 | skill | unvalidated skill candidate — A self-entered profile field is testimony; the timestamp besi… | `skills/INBOX.md` | 2026-09-02 |
 | 4 | skill | unvalidated skill candidate — A transcribed source is not a mined source, and the tree make… | `skills/INBOX.md` | 2026-09-02 |
 

@@ -24,7 +24,7 @@ tags: [ideology, politics, nyc-era, digital-footprint]
 connections:
   - page: wiki/self/twitter
     type: evidenced-by
-    claim: "The share of original tweets touching politics runs 12.3% in 2019, 24.0% in 2020 and 44.1% in 2021, bracketing the August 2020 self-narration from an independent contemporaneous record — and exposing a first, smaller step in 2017 that separates political engagement from the socialist label."
+    claim: "The share of original tweets touching politics roughly doubles into 2020 and again into 2021 under every pattern tried, bracketing the August 2020 self-narration from an independent record — while finer per-year claims proved unmeasurable by keyword matching and were withdrawn the day they were published."
   - page: wiki/timeline/periods/covid-era-2020
     type: caused-by
     claim: "The lockdown is the documented condition of the conversion — the 2020-08-22 self-narration dates the Marx/Kropotkin reading and the Chapo/Hasan/ContraPoints binge to 'since i've been stuck inside'."
@@ -69,82 +69,89 @@ a settled fact ([[wiki/mind/synthesis/political-psyops]],
 [[wiki/mind/synthesis/vertical-authority-skepticism]]); this page pins
 down *when and how the radicalization actually happened*.
 
-## An independent witness: seventeen years of public posting
+## An independent witness, and what it can and cannot measure
 
 The conversion above is self-narrated — Dan describing his own change on
 2020-08-22. That is strong testimony and it is one source. The
-[[wiki/self/twitter|@danfrank archive]] supplies a second, made
+[[wiki/self/twitter|@danfrank archive]] is a second, written
 contemporaneously, by a different mechanism, and never intended to answer
-this question: the share of each year's original tweets that touch politics
-at all.
+this question.
 
-| Year | Originals | Political share |
-|---|---:|---:|
-| 2009–2011 | 732 | ~1% |
-| 2012 | 205 | 5.4% |
-| 2013–2016 | 654 | 1.2–4.0% |
-| **2017** | 117 | **11.1%** |
-| 2018 | 89 | 6.7% |
-| 2019 | 57 | 12.3% |
-| **2020** | 25 | **24.0%** |
-| **2021** | 34 | **44.1%** |
-| 2022 | 156 | 42.3% |
-| 2023 | 159 | 36.5% |
-| **2024** | 258 | **44.6%** |
-| 2026 | 26 | 23.1% |
+**One result from it is robust, and one attempt at a finer reading failed.**
+Both are recorded here, because the failure is the more useful of the two.
 
-**It corroborates the date.** 2019 → 2020 → 2021 runs 12.3% → 24.0% →
-44.1%: a doubling, and then a doubling again, bracketing the August 2020
-self-narration exactly. Nothing in the archive was written to support this
-page's thesis, and it lands on the same year.
+### What holds: the 2020–21 rise and the plateau after it
 
-**It also refines the thesis, and the refinement matters.** This page opens
-"Dan's politics did not arrive gradually." Against the public record that is
-too strong, because there are **two** steps, not one:
+| Years | Political share of originals |
+|---|---|
+| 2019 | 12.3% |
+| **2020** | **24–28%** |
+| **2021** | **44.1%** |
+| 2022–2024 | 37–47%, flat |
 
-- **2017 is the first.** 4.0% in 2016 → 11.1% in 2017, nearly tripling off a
-  decade-long baseline near 1%. That is three years *before* the conversion,
-  and it tracks the first Trump administration rather than the lockdown.
-- **2020–21 is the second, and much larger** — 12.3% to 44.1% across two
-  years.
+Every pattern tried returns this shape. The share roughly doubles into 2020
+and doubles again into 2021, bracketing the August 2020 self-narration, and
+then **stops climbing** — four years at 37–47% is what a settled ideology
+looks like from outside rather than a continuing radicalization. The
+pre-2020 baseline is clearly lower than the post-2020 plateau under every
+measurement.
 
-The distinction the two steps draw is between **engagement** and
-**identity**, and this page's own framing already contains it: a
-*"Bernie-curious liberal"* became *"a self-identified socialist."* The
-tweets date the two halves separately. Becoming politically engaged at all
-happens in 2017, under Trump. Acquiring the *label* happens in 2020, under
-lockdown, and it is the label — not the attention — that arrives abruptly.
-The conversion was not gradual; the runway to it was.
+That is the corroboration, and it is worth having: nothing in the archive
+was written to support this page's thesis, and it lands on the same year.
 
-**And it plateaus rather than climbing.** 2021 through 2024 sit at 44.1,
-42.3, 36.5 and 44.6 percent. Whatever happened in 2020 saturated within a
-year and has held for four, which is what a settled ideology looks like from
-outside rather than an ongoing radicalization.
+### What failed: any finer claim about the pre-2020 years
 
-**The 2013–2016 dormancy is worth naming too.** Politics runs 1.2–4.0% for
-four years — the [[wiki/timeline/periods/uniontown-return-2013-2015|Uniontown
-return]] and the start of the Annie relationship. The "insufferable politics
-sicko" of the current bio has a documented off period in his early
-twenties-to-thirties, and it ends with an election rather than with anything
-in his own life.
+> **CORRECTED [2026-09-02], same day as first published.** An earlier
+> version of this section claimed the archive showed **two steps, not one** —
+> a first step in 2017 (4.0% → 11.1%, "nearly tripling") separating
+> *political engagement* from *socialist identity*, plus a "documented off
+> period" at 1.2–4.0% across 2013–2016. **Both were artifacts of the keyword
+> pattern, and both are withdrawn.**
+>
+> Re-measured with a pattern that includes the political vocabulary Dan
+> actually used in those years — Troy Davis, capital punishment, Paterno, the
+> Catholic Church, Occupy, Santorum, Romney — 2016 is **9.3%**, not 4.0%. The
+> 2017 "step" is 9.3% → 11.1%, which is no step at all. And 2013 is **7.8%**,
+> not 1.4%, so the "off period" was mostly the pattern failing to see what
+> was there.
+>
+> **The tell was in the archive the whole time.** On the night of **21
+> September 2011** Dan posted four tweets across the Troy Davis execution:
+> *"10 reasons why executing Troy Davis is a bad idea"* (18:41 EDT), *"this is
+> awful to watch. first-world country? yeah right."* to his sister half an
+> hour before it happened, *"I have no idea whether Troy Davis was guilty or
+> not, but he deserved the chance to live another day to fight in court"* six
+> minutes after it did, and a call for *"a serious debate"* on capital
+> punishment. That is a fully formed position, held and argued in public, in
+> a year the first table scored at 1.3%.
 
-**Two limits, and the first is serious.** 2020 and 2021 are **25 and 34
-originals** — so 24.0% is six tweets and 44.1% is fifteen. Those two rows,
-the ones carrying the most weight above, rest on the smallest denominators in
-the table; 2022–2024 (156, 159, 258) are solid and the plateau is safe. And
-these are shares of *originals*, so a year spent reposting other people's
-politics without comment reads here as a quiet year.
+**The methodological conclusion, which now governs this section.** A
+political vocabulary drifts across seventeen years. A keyword list built from
+any one part of that span reports the rest as quieter than it was, and the
+error is not random — it is largest exactly where the subject matter is
+least like the years the pattern came from. **Per-year political share is
+therefore not reliably measurable by keyword matching on this corpus**, and
+no third table is offered here to replace the two that failed.
 
-> **A caution about how this table was made.** The first pattern used to
-> build it returned **0.0% for 2026** — and 2026 is not apolitical. It
-> contains "EVERYBODY🙏HATES🙏ISRAEL🙏", a read on Curtis Sliwa's
-> "antizionist credentials and… the new Tucker lane of nat con populism",
-> and "It's Irish Zionism". The pattern had been built from 2012–2024
-> vocabulary and none of those words are in it. **A political vocabulary
-> drifts across seventeen years, and a fixed keyword list silently reports
-> the drift as absence.** The figures above use an era-aware pattern and
-> were checked by reading the years with the smallest counts. Anyone
-> re-deriving this table should do the same rather than trusting the regex.
+What survives measurement is the coarse shape: a lower and variable
+pre-2020 baseline, a sharp rise across 2020–21, a flat plateau after. That
+is enough to corroborate the conversion date. It is not enough to date a
+second, earlier inflection, and this page no longer claims one.
+
+**A standing caution for anyone re-deriving this.** Read the years with the
+smallest counts rather than trusting the regex — that is how the 2011 Troy
+Davis night surfaced, and how the 2026 row was caught reading 0.0% when it
+is 23.1% (*"EVERYBODY🙏HATES🙏ISRAEL🙏"*, Curtis Sliwa's *"antizionist
+credentials"*, *"It's Irish Zionism"* — none of that vocabulary was in the
+pattern either). And note the denominators: 2020 and 2021 are **25 and 34
+originals**, so even the robust rows are six and fifteen tweets. The
+plateau years (156, 159, 258) are the solid ones.
+
+**One thing the Troy Davis night does establish**, independent of any
+counting: Dan's justice-system skepticism is on the public record in **2011**,
+thirteen years before the 2024 Luigi Mangione material that
+[[wiki/people/aaron]] treats as its documented instance. Whatever the 2020
+conversion changed, it did not introduce that.
 
 ## The self-narrated conversion, 2020-08-22
 

@@ -34,7 +34,7 @@ simply listed.
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/readers-digest]] | meta | — |
 | [[wiki/meta/recent-activity]] | meta | _(carries a CORRECTED)_ |
-| [[wiki/mind/synthesis/2020-left-turn]] | mind | — |
+| [[wiki/mind/synthesis/2020-left-turn]] | mind | **CORRECTED** — An earlier version of this section claimed the archive showed **two steps, not one** — a first step in 2017 (4.0% → 11.1%, "nearly tripling") separating *political engagement* from *socialist identity |
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
 | [[wiki/people/alexis-armel]] | people | _(carries a GAP CLOSED from 2026-08-28)_ |
 | [[wiki/people/eric-jester]] | people | **CORRECTED** — this page described the friendship itself as "sparse but genuinely warm." That is an accurate reading of the *message thread*, which begins **May 2017**. It is not an accurate description of the frien |

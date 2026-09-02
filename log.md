@@ -7765,3 +7765,48 @@ in them.
 Twin re-translated against the moved page, including its "still don't know"
 bullet, which this finding partly answers and which would otherwise have gone
 on telling readers no earlier statement exists.
+
+## [2026-09-02] lint | mind | withdrawing the "two steps" politics finding published four hours earlier
+
+**The claim was wrong and it is retracted on the page.** Earlier today
+`wiki/mind/synthesis/2020-left-turn` was given a table asserting the archive
+showed **two steps, not one** — a 2017 political step (4.0% → 11.1%, "nearly
+tripling") separating *engagement* from *identity*, plus a "documented off
+period" of 1.2–4.0% across 2013–2016.
+
+Both were artifacts of the keyword pattern. Re-measured with the vocabulary
+Dan actually used in those years — Troy Davis, capital punishment, Paterno,
+the Catholic Church, Occupy, Santorum, Romney — **2016 is 9.3%, not 4.0%**, so
+the 2017 "step" is 9.3% → 11.1% and is not a step; **2013 is 7.8%, not 1.4%**,
+so the off period was mostly the pattern failing to see what was there.
+
+**The tell was in the archive the whole time.** On the night of **21 September
+2011** — a year the first pattern scored at 1.3% — Dan posted four times across
+the Troy Davis execution: the case against it at 18:41 EDT, *"this is awful to
+watch. first-world country? yeah right."* to his sister half an hour before it
+happened, *"he deserved the chance to live another day to fight in court"* six
+minutes after, and a call for *"a serious debate"* on capital punishment. A
+fully argued public position, in a year scored as near-empty.
+
+**What survives, and it is the part that mattered:** the 2020–21 rise (12.3%
+→ 24–28% → 44.1%) and the 37–47% plateau through 2024 appear under every
+pattern tried. The conversion date is still corroborated from an independent
+record. What is withdrawn is any finer per-year claim; **per-year political
+share is not reliably measurable by keyword matching on this corpus**, and no
+third table was published to replace the two that failed.
+
+**One durable finding survives the retraction:** Dan's justice-system
+skepticism is on the public record in **2011**, thirteen years before the 2024
+Luigi Mangione material `wiki/people/aaron` treats as its instance. The 2020
+conversion did not introduce it.
+
+**Promoted `skills/corpus/vocabulary-drift.md`** — third occurrence in one
+session and the first to reach a page. The two earlier were near-misses held
+in `INBOX.md` on the ground that one author on one corpus is not independent
+confirmation; a defect that reached a synthesis page is different evidence.
+The skill is bounded rather than triumphant: even the broad pattern is a
+keyword list, which is why its rule 5 is *withdraw the fine claim* rather than
+*publish a better table*.
+
+Twin re-translated to carry the retraction; `bin/wiki-plain audit` caught two
+figures in it that appear nowhere on the page.

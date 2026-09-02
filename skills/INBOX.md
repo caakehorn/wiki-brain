@@ -69,7 +69,7 @@ Unvalidated observations and candidate instructions. This is deliberately append
 - **Status:** inbox
 
 
-### 2026-09-02 — A claim of absence needs a deliberately over-broad pattern first
+### 2026-09-02 — A claim of absence needs a deliberately over-broad pattern first — **PROMOTED to `corpus/vocabulary-drift.md`, 2026-09-02**
 
 - **Observed during:** mining the @danfrank twitter archive for the production identity's public arc
 - **Surface:** `bin/mine-tweets timeline`, `bin/mine-messages grep`, `bin/text-metrics` — any instrument used to establish that something is *not* in a corpus
@@ -79,7 +79,8 @@ Unvalidated observations and candidate instructions. This is deliberately append
 - **Second instance, same day, and it generalises the rule:** mining the politics arc a few hours later, a pattern built from 2012–2024 political vocabulary (`trump|biden|obama|democrat|…`) returned **0.0% for 2026**. 2026 is not apolitical — it contains "EVERYBODY🙏HATES🙏ISRAEL🙏", a read on Curtis Sliwa's "antizionist credentials and… the new Tucker lane of nat con populism", and "It's Irish Zionism". None of those words were in the pattern. The corrected figure is **23.1%**. I was one edit from publishing "the politics sicko went silent in 2026", which is false and would have been the most quotable claim in the pass.
 - **The stronger rule this implies:** the first instance looked like *a pattern too narrow*. This one is not narrowness — it is **drift**. A vocabulary changes across a seventeen-year corpus, and a keyword list built from the middle of that span reports the ends as empty. The failure is worst precisely where the corpus is most interesting: a year whose subject matter is *new* is the year a fixed pattern is least able to see. Any per-year table over a long corpus is exposed to this, not just absence claims.
 - **Validation:** reproducible in both directions — `bin/mine-tweets timeline '<narrow>'` vs `'<broad>'` disagree about 2017/2022/2024 for music, and about 2026 for politics. Two instances now, and both PROTOCOL §3 tests pass. **Still not promoted, deliberately:** both occurrences are the same author, in the same session, on the same corpus, which is not the independent confirmation §3 is asking for. Promote when it catches someone else, or a different corpus — `bin/mine-messages` over the 196,399-message dump is the obvious next place, and `wiki/interests/music/overview` already carries several absence claims drawn from it that were never checked this way.
-- **Status:** inbox
+- **Third instance, and the one that promoted it:** the politics table built from the second instance was **published** on `wiki/mind/synthesis/2020-left-turn` claiming "two steps, not one" — a 2017 engagement step and a 2013–2016 off period. Both were withdrawn the same day: with era-appropriate vocabulary 2016 is 9.3% not 4.0% (so the "step" vanishes) and 2013 is 7.8% not 1.4%. A defect that reached a synthesis page is different evidence from a near-miss, and it is what moved this out of the inbox.
+- **Status:** promoted → `skills/corpus/vocabulary-drift.md` (see `CHANGELOG.md`, 2026-09-02)
 
 ### 2026-09-02 — A self-entered profile field is testimony; the timestamp beside it is a record
 

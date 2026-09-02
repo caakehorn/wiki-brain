@@ -70,3 +70,17 @@ repository's record:
 - Promoted `agents/registry-push.md` to active — the instruction for a model
   told to update the skills in the wiki. Seeded with 51 capabilities from one
   model; the diff view is worth nothing until a second model pushes.
+- **2026-09-02 — promoted `corpus/vocabulary-drift.md` to active.** A keyword
+  count over a long corpus measures the pattern's vocabulary, not the corpus.
+  Promoted on the third occurrence in one session, and the first that reached a
+  page: `wiki/mind/synthesis/2020-left-turn` was published with a "two steps,
+  not one" finding — a 2017 political step separating engagement from identity,
+  and a 2013–2016 off period — and both were withdrawn the same day when
+  re-measurement with era-appropriate vocabulary moved 2016 from 4.0% to 9.3%
+  and 2013 from 1.4% to 7.8%. The two earlier occurrences were near-misses
+  (a music silence off by a year and a start date; 2026 politics reported as
+  0.0% when it is 23.1%) and were held in `INBOX.md` on the ground that one
+  author on one corpus is not independent confirmation. A defect that reached a
+  synthesis page is different evidence from a near-miss, which is what moved it.
+  Still bounded rather than solved — see the skill's Known limits, and the
+  untested `bin/mine-messages` absence claims it names.
