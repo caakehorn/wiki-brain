@@ -19,6 +19,7 @@ simply listed.
 - **Session log:** ingest | interests/music | the production identity has a public arc, and it stops for ten years
 - **Session log:** ingest | people/interests | the twitter social graph, pass 1 — and a counter-example to yesterday's music claim
 - **Session log:** ingest | mind | the politics arc has two steps, not one — and the instrument nearly hid one
+- **Session log:** ingest | mind | the digital-witness noticing is fourteen years older than the theory
 
 | Page | Domain | What moved |
 |---|---|---|

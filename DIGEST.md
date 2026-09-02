@@ -57,6 +57,7 @@ this is the state of the thing.
   - ingest | interests/music | the production identity has a public arc, and it stops for ten years
   - ingest | people/interests | the twitter social graph, pass 1 — and a counter-example to yesterday's music claim
   - ingest | mind | the politics arc has two steps, not one — and the instrument nearly hid one
+  - ingest | mind | the digital-witness noticing is fourteen years older than the theory
 
 **2026-09-01** — 2 pages
 
