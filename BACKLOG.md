@@ -470,3 +470,17 @@ Highest-value first, by content weight: `self/tattoos` (8 entries),
 `timeline/events/shelbie-annie-threesome-april-2019` (3). The
 `interests/favorites/music/artists/*` cluster is the long tail and the least
 urgent — those pages are deliberately index-reachable leaves.
+
+## Open lead — @Woodguts (added 2026-09-02)
+
+Seventeen tweets across 2009–2013, fourteen of them direct address, including
+*"When I grow up I want to be @Woodguts"* (2 Dec 2011) and a place in the
+four-name cohort Dan lists on 23 Feb 2012 alongside Polyak, Jester and Josh
+Brannan. Music-adjacent — *"ew Cubase"* (20 Jun 2010) is a DAW opinion, which
+puts him in the production orbit rather than the Uniontown one.
+
+**Unidentified.** No match in `contacts.csv`, no appearance in any message
+export, no mention on any wiki page. Resolving the handle to a name would give
+the NYC-era social graph its fourth member; until then there is no page,
+because a page keyed to a handle with no identity would assert less than this
+entry does. `bin/mine-tweets handle woodguts` is the whole evidence base.

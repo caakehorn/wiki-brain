@@ -22,7 +22,7 @@ tags: [music-production, family]
 connections:
   - page: wiki/mind/synthesis/failure-to-launch
     type: evidences
-    claim: "One message in fifteen years about making a track and zero about a studio, against 179 mentions of golf in the same corpus — and, in the independent public archive, no post about his own music between 7 March 2016 and 4 March 2026 — establishes the production identity as self-concept rather than enterprise across two corpora that were not collected to answer the question."
+    claim: "One message in fifteen years about making a track, and no public post about his own music between 7 March 2016 and 4 March 2026 — but 2014 read in full shows a real operating practice with releases, a Beatport entry and a public collab address, so the failure is not that he never ran it as an enterprise; it is that he ran it for about a year and stopped."
   - page: wiki/mind/synthesis/failure-to-launch
     type: contextualizes
     claim: "GRIPNOTIC is the only container in the biography that Dan has owned continuously - eleven years, longer than any job - and the absence of any countable output for it is the largest single gap in the capability audit."
@@ -112,6 +112,53 @@ strongly supported as self-concept and unsupported as enterprise.** Whether
 finished tracks exist off-record — a distributor account, an unreleased folder —
 is the open question, and it is answerable by the operator in one sentence.
 
+## 2014, where the two corpora disagree
+
+Everything below and above is built on **absence** — one message in 98,056
+about making a beat, a ten-year gap in public posting. Absence evidence is
+strong until a single year is read properly, and 2014 was.
+
+`bin/mine-tweets` was pointed at 2014 and the year was **read**, not counted.
+It is not a quiet year and it is not a self-concept year. In twelve months
+[[wiki/interests/music/aliases/sloppp|SLOPPP]] released roughly monthly,
+ran two recurring mix series and a monthly wrap-up format, entered the Major
+Lazer "Aerosol Can" flip into **Beatport contest voting** and canvassed for
+votes, published a business address for collaboration (*"Lets collab!
+danfr4nk@icloud.com for stems and patch trades"*, 8 May), emailed tracks to
+other DJs, signed up to Splice, requested stems from @weareGTA, streamed live
+mixes on Ustream and YouTube, and thanked two named producers for supporting
+his releases.
+
+He also placed himself accurately: *"as a 'nobody' DJ, the aoki scandal is
+extra annoying"* (25 April 2014).
+
+> **QUALIFIED [2026-09-02]:** this page concludes that the production
+> identity is **"self-concept rather than enterprise."** For 2014 that is
+> wrong, and the year is not an outlier chosen to break the rule — it is the
+> alias's peak, and the wiki already knew it was.
+>
+> The **message-corpus** finding is untouched: Dan genuinely does not talk
+> about making music in his texts, at any point, including 2014. The
+> **inference** drawn from it is what needs narrowing. Silence in one channel
+> is evidence about that channel. What 2014 shows is that the activity was
+> real, sustained, outward-facing and competitive *while he was not
+> mentioning it to anyone privately* — which makes the private silence a
+> more interesting fact, not a less interesting one.
+>
+> The corrected reading is harder rather than softer: **he did run it as an
+> enterprise, for about a year, and then stopped.** "He never really did it"
+> is the comfortable version. `failure-to-launch` should carry the sharper
+> one.
+
+**How this was found, and the general point.** 2014 was read tweet by tweet.
+A keyword count over it would have returned a high production share and told
+nobody whether the activity was a hobby or an operation — the difference this
+section turns on is not in the vocabulary, it is in what the sentences are
+*doing* (announcing, soliciting, competing, thanking). See
+`skills/corpus/vocabulary-drift.md` for why counting was already distrusted
+here, and treat this as its companion: **counting cannot see a practice, only
+a subject.**
+
 ## And what the public record says — the same answer, a second corpus
 
 `bin/mine-tweets` puts the same question to the 2,525-tweet public archive
@@ -165,6 +212,37 @@ someone else's track is not counted, and 2010–2012 are live-scrape
 reconstructions whose counts are floors — but the 2017–2025 window is
 spreadsheet-complete, so the zero in it is a real zero and not a gap in
 retrieval.
+
+> **The start boundary is contested, and this is the finding's strongest
+> counter-evidence [2026-09-02].** `raw/self/dox-scan/FULL TWITTER
+> ANALYSIS.txt`, in its 2016 section, quotes a tweet that would break the
+> window open at its front edge: *"Had lit times playing @ulmdub birthday
+> party last night at OSU."* That is Dan playing a live set, and if it is
+> real and postdates 7 March 2016, the ten-year run starts later than this
+> page says.
+>
+> **The tweet is not in the archive.** 2016 holds 75 originals and none of
+> them is this one; no tweet in any year matches "OSU", "birthday party" or
+> "lit times". So one of two things is true, and the corpus cannot yet say
+> which. Either the analysis file invented or heavily paraphrased the line —
+> it is an AI-generated secondary source, it demonstrably works from a
+> **smaller** corpus than the archive (it puts 2009 at "approximately 65–70
+> tweets" where the archive holds 165), and it appends a spurious
+> `@danfrank` tag after nearly every quotation, all of which argue for low
+> confidence — or the archive's 2016 is not as complete as
+> [[wiki/self/twitter]]'s coverage table states, in which case the table is
+> wrong and so is the "spreadsheet-complete" assurance above it.
+>
+> Note which way this cuts even if the line is genuine: a DJ set at a
+> friend's college birthday party is a *gig*, not a release, and the claim
+> here is about **posting about his own music**. It would move the boundary
+> by up to ten months. It would not touch the 2017–2025 zero, which is where
+> the weight of the finding sits.
+>
+> **What would settle it:** the official X Settings/archive export, already
+> listed as welcome in `queue.md` as a completeness check. Until then this
+> page holds the discrepancy rather than choosing the reading that flatters
+> its own conclusion.
 
 ## Related
 - [[wiki/interests/music/concepts/sub-bass-signature]]

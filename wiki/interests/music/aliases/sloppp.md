@@ -8,6 +8,7 @@ date_modified: 2026-09-02
 date_range_start: 2013-01-01
 date_range_end: 2016-03-07
 sources:
+  - raw/self/twitter/archive.jsonl
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/operating_manual.md
   - raw/self/facebook/facebook-ihatedanfrank/posts/your_posts_1.html
@@ -25,6 +26,10 @@ related:
   - wiki/self/twitter
 tags: [music-production, nyc-era, personality-profile]
 connections:
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "The 2014 tweets are the record of this alias as an operating practice — release cadence, Beatport entry, public collab address, live streams and named peer support — and they date two items this page's Gaps section listed as unaccounted for."
+
   - page: wiki/timeline/periods/uniontown-return-2013-2015
     type: component-of
     claim: "SLOPPP is the Uniontown-return period's signature project — the recording-arts ambition surviving the NYC-career failure by migrating to a Uniontown SoundCloud in 2013."
@@ -105,6 +110,98 @@ Conflict Mix," "SLOPPP's Groovy Spring Trap," "Big Bob's Beepers
 Search," and a "TRAP TV 1" video series entry promoted on Twitter with
 #twerk #trap #edm tags.
 
+## The 2014 release run, from Twitter
+
+The table above is reconstructed from **Facebook share dates**. Twitter is a
+second, independent posting record for the same alias, and it carries ten
+releases the Facebook reconstruction missed — plus the two items this page's
+Gaps section listed as unaccounted for.
+
+| Date (Twitter) | Release | Type |
+|---|---|---|
+| Jan 2, 2014 | RNDM VADER – #FWTB (SLOPPP's Absolute Zero Festival Trap Remix) | Remix |
+| Jan 6, 2014 | SAYMYNAME – Pew Pew Pew (SLOPPP Frostbite Me Refix), Master 2 | Refix |
+| Jan 25, 2014 | heRobust – Get Busted (SLOPPP Remix) | Remix |
+| Jan 27, 2014 | Katy Perry ft. Juicy J – Dark Horse (SLOPPP Remix) [preview] | Remix |
+| **Feb 21, 2014** | **SLOPPP's Week in Trap — Episode 3** | **Mix series** |
+| Apr 27, 2014 | Wax, Stacks and Racks (April 2014 bass/trap/twerk wrap-up) | Mix |
+| **May 14, 2014** | **Heatwave Vol. 1** — "1 hour of tweriffik plurntastic tracks" | **Mix** |
+| May 22, 2014 | SLOPPP Trap Micromix | Mix |
+| Sep 26, 2014 | $øΩR DRøP$ ∆N∂ LøLLIPøPZ (Sour Drops and Lollipops) | Original |
+| Nov 15, 2014 | TRAP TV 1 — live mix, streamed on Ustream, posted to YouTube | Live video |
+
+> **GAP CLOSED [2026-09-02]:** the gap, as this page stated it — *"episodes
+> 1–7 of 'Week in Trap' and any 'Heatwave Vol. 1' are unaccounted for."*
+> **Heatwave Vol. 1** is dated: announced 13 May 2014 (*"First hour of my
+> summer mix series will release tonight"*) and live the next day (*"Heatwave
+> Vol 1 is live streaming and downloadable on my #soundcloud now! 1 hour"*).
+> **Week in Trap Episode 3** is 21 February 2014. Episodes 1, 2 and 4–7
+> remain unaccounted for, so the gap narrows rather than closes entirely.
+
+**On the date discrepancies, which are not errors.** Where a release appears
+in both tables the days differ — Buffalo is Apr 22 on Facebook and announced
+27 April on Twitter; Aerosol Can is Apr 15 there and in Beatport contest
+voting on the 22nd here; Caked Up is Jul 30 against Aug 3. These are two
+platforms posted on different days, not a contradiction to resolve. Neither
+is the SoundCloud upload date, which nothing in `raw/` holds.
+
+## 2014 was an operating practice, not just an identity
+
+The significance section below reads the alias through context-core's
+"shipping / public exposure, not taste or capacity" bottleneck, and
+[[wiki/interests/music/overview]] concludes from the message corpus that the
+production identity is "self-concept rather than enterprise." **The 2014
+tweets are the strongest counter-evidence in the corpus to the second half of
+that**, and they should be read before it is repeated.
+
+In that one year SLOPPP was:
+
+- **Releasing roughly monthly** — eleven dated items above and in the
+  Facebook table combined, remixes, originals and mixes.
+- **Running two recurring series** — *Week in Trap* and the *Heatwave*
+  summer mixes — plus a monthly wrap-up format (*Wax, Stacks and Racks*).
+- **Competing.** The Major Lazer "Aerosol Can" flip went into **Beatport
+  contest voting**, and he canvassed for votes twice (22 and 29 April).
+- **Soliciting collaboration in public, with a business address**: *"Lets
+  collab! danfr4nk@icloud.com for stems and patch trades"* (8 May 2014). He
+  emailed tracks to @SirCalvinSwish twice and offered them to
+  [[wiki/people/shane-brannan|other]] DJs — *"lets collab soon, I have tracks
+  for you to scoop"* to @Yamez1 (26 April).
+- **Signed up to Splice** for collaborative production (5 August).
+- **Requesting stems from other artists** — @weareGTA, *"super needz for
+  'cake' stems"* (29 August).
+- **Broadcasting live**: Ustream sessions in November and December (*"Turn up
+  is live. 4am twerk life"*, 8 December) and the TRAP TV video mix.
+- **Receiving support from named producers** — thanking @cobrakrames (29
+  April) and @whatdirt (31 October) for it, and a shout-out from Lil Debbie
+  (17 May).
+- **Physically invested**: *"So many hours DJing that I need daily inversion
+  table therapy"* (17 May) and a hand-painted MIDI controller (1 December).
+
+**And he knew exactly where he stood.** On 25 April 2014, on the Aoki
+pre-recorded-set scandal: *"as a 'nobody' DJ, the aoki scandal is extra
+annoying. this is the kind nonsense that allows for EDM to be disregarded"*,
+followed by an argument that playing a pre-recorded set is *"vile if the only
+other performance you're offering is spraying drinks on the hornswaggled."*
+That is a working practitioner's complaint about professional standards,
+made by someone placing himself at the bottom of the field without
+pretending he is anywhere else.
+
+**What this does and does not change.** It does not make SLOPPP a career —
+nothing here shows income, bookings beyond the [[wiki/people/shane-brannan|
+undated]] gigs, or an audience of any size, and the alias stops within
+eighteen months. What it removes is the reading that the production identity
+was *only* a self-concept. For at least one year it was a practice with
+output, distribution, a release cadence, competitive entry, outward
+solicitation and named peer recognition. The failure it illustrates is
+sharper than "he never really did it," and less flattering: **he did do it,
+for about a year, and then stopped.**
+
+One methodological note. This section exists because 2014 was **read** rather
+than pattern-matched — see `skills/corpus/vocabulary-drift.md`. A keyword
+count over this year would have returned a production share and no sense at
+all of whether the activity was a hobby or an operation.
+
 ## History
 
 The alias emerges in mid-2013, after the first NYC period (2010–2013, the
@@ -177,8 +274,9 @@ context-core as the career's actual bottleneck ("shipping / public
 exposure, not taste or capacity").
 
 **Gaps:** no audio files or SoundCloud metadata (play counts, upload dates)
-in raw/ — the discography is reconstructed from share links; episodes 1–7 of
-"Week in Trap" and any "Heatwave Vol. 1" are unaccounted for; whether the
+in raw/ — the discography is reconstructed from share links; **Heatwave Vol. 1
+and Week in Trap Episode 3 are now dated** from Twitter (above), leaving
+episodes 1, 2 and 4–7 of "Week in Trap" unaccounted for; whether the
 SoundCloud page is still live is unverified. Why the March 2015 Frank
 Swaney management deal never materialized (or whether it quietly did, off
 the message record) is undocumented; "Joby," the third party who was to

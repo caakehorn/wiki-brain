@@ -2,15 +2,19 @@
 plain_of: wiki/mind/synthesis/2020-left-turn
 title: "The 2020 Left Turn"
 reading_level: general
-date_modified: 2026-08-26
-source_modified: 2026-08-19
+date_modified: 2026-09-02
+source_modified: 2026-09-02
 ---
 
 # The 2020 Left Turn
 
-**The short version.** Dan's politics did not arrive gradually. There is a
-documented turning point: the COVID lockdown of 2020. Before it he was a
-Bernie-curious liberal. After it he called himself a socialist.
+**The short version.** There is a documented turning point in Dan's
+politics: the COVID lockdown of 2020. Before it he was a Bernie-curious
+liberal. After it he called himself a socialist.
+
+The label arrived suddenly. What is underneath it did not — he had already
+started paying much closer attention three years earlier, in 2017. Those are
+two different changes, and it helps to keep them apart.
 
 He narrates the change himself, as it happens. He names the media that did it and
 the books he read to lock it in. This is the story of when and how the shift
@@ -39,6 +43,71 @@ walls of a cramped apartment. The endless scroll of political content. The dread
 of a world shut down. All of it compressed into one flashpoint.
 
 The conversion was not presented as tentative or exploratory. Dan did not say "I'm thinking about" or "I'm curious about." He said "I took a HARD turn left" — past tense, definite, complete. The framework had already landed; he was reporting the fact of it, not soliciting input on whether it was correct.
+
+## A second source, and a lesson in getting it wrong
+
+Everything above comes from Dan describing his own change. That is good
+evidence, but it is him talking about himself. His public tweets are a
+second record — written at the time, for other reasons, and never meant to
+answer this question.
+
+**One thing they show clearly.** Counting what share of each year's tweets
+touch politics:
+
+| Year | Share about politics |
+|---|---|
+| 2019 | 12.3% |
+| 2020 | 24–28% |
+| 2021 | 44.1% |
+| 2022–2024 | 37–47%, flat |
+
+The share roughly doubles going into 2020, doubles again into 2021, and
+then **stops rising**. It sits at 37–47% for four straight years.
+That backs up the August 2020 date, and it also suggests the change
+finished: four flat years look like settled beliefs, not someone still
+moving.
+
+**And one thing they do not show, which was published here by mistake and
+is now withdrawn.**
+
+An earlier version of this page said the tweets revealed *two* jumps rather
+than one — a first, smaller jump in 2017, which would have meant Dan started
+caring about politics three years before he adopted the socialist label.
+
+That was wrong, and it was wrong for an interesting reason. The count was
+done by searching for political words. The word list was built from how
+people talked about politics in the later years of the archive. Dan's politics in the
+earlier years used different words — Troy Davis, capital punishment, the
+Catholic Church, Occupy Wall Street — and the search simply did not look for
+those. Once it did, 2016 went from 4.0% to **9.3%**, and the "jump" to 11.1%
+in 2017 stopped being a jump at all. 2013 went from 1.4% to **7.8%**, so a
+claimed "quiet period" was mostly the search failing.
+
+**The clearest example.** On the night of **21 September 2011** — a year the
+first count scored at 1.3% — Dan posted four times about the execution of
+Troy Davis: an article on why executing him was a bad idea, a message to his
+sister half an hour beforehand ("this is awful to watch. first-world
+country? yeah right."), a reaction six minutes after it happened ("he
+deserved the chance to live another day to fight in court"), and a call for a
+serious public debate about the death penalty. That is a fully formed
+political position, argued in public, in a year the count called almost
+empty.
+
+**So what can honestly be said?** The big rise across 2020 and 2021 is real
+and shows up no matter how the counting is done. The flat years after it are
+real. Before 2020 the level was lower and it moved around, but exactly how
+much cannot be pinned down this way, and no third attempt is offered here.
+
+**Two warnings for anyone checking this.** Read the actual tweets from the
+quietest-looking years rather than trusting a word search — that is how the
+2011 night came to light. And mind the small numbers: 2020 and 2021 are only
+25 and 34 tweets in total, so those percentages are six tweets and fifteen.
+The later years, with 156, 159 and 258 tweets, are the solid ones.
+
+**One thing that night settles regardless of counting.** Dan's distrust of
+the justice system is on the public record in 2011 — thirteen years before
+the 2024 material the wiki usually treats as where it shows up. Whatever
+changed in 2020, it did not introduce that.
 
 ## The media pipeline
 
@@ -108,7 +177,7 @@ The pipeline this story documents — Bernie, then Chapo and Hasan under lockdow
 - The exact reading dates for the *Communist Manifesto*, *Das Kapital*, and *Conquest of Bread* are only "since I've been stuck inside" (mid-2020) — no precise dates in the record.
 - Pre-2016 political self-identification is thin in the available data; whether Dan was liberal-by-default or apolitical before Bernie is not established.
 - Whether the conversion's emotional engine — the family union-busting guilt — was the cause of the turn or the first thing the new framework attached to once it is adopted.
-- Whether the turn has continued to evolve since 2020 or has remained stable at the point it reached in August of that year.
+- Whether the turn kept evolving after 2020 is now partly answered: from 2021 through 2024 his tweets hold at 37–47% political and stop rising, which suggests it settled rather than kept moving. What a steady share cannot tell us is whether his actual *views* stopped changing, or only how often he posts about them.
 - Whether the health grievance — the doctor thing — was a constant that merely found a new ideological home, or whether it intensified as a result of the conversion itself.
 
 ---

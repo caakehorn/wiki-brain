@@ -4,7 +4,7 @@ page_type: entity
 status: active
 knowledge: mixed
 date_created: 2026-07-19
-date_modified: 2026-07-19
+date_modified: 2026-09-02
 date_range_start: 2013-06-16
 date_range_end: 2020-02-06
 sources:
@@ -17,6 +17,13 @@ infobox:
   relationship_to_dan: friend
   known_for: "Longtime friend and the person who reintroduced Dan to Ally Lubin; documented the April 2019 phone-number impersonation that Dan used to reach her, and received the same-morning account of the October 2019 Bryan encounter"
 connections:
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "Twenty-one tweets across 2009-2013 predate the Facebook thread by four years and record an in-person New York friendship — meeting in Manhattan in Dan's first month there — rather than the defensive banter the later thread holds."
+  - page: wiki/people/eric-jester
+    type: co-occurs
+    claim: "Both are named in the 23 February 2012 cohort list, the only place in the corpus where Dan enumerates his core friend group himself."
+
   - page: wiki/people/ally-lubin
     type: evidences
     claim: "Ally Lubin is the contact Polyak reintroduced to Dan in December 2018 — the first conversation in a decade of one-sided idolization, documented by a $25 Facebook payment with the memo 'For introducing me to Ally Lubin,' and four months later by Polyak's threatened lawsuit over Dan spoofing Polyak's phone number to reach her."
@@ -31,6 +38,38 @@ Dan Polyak is a longtime friend — a shared-first-name running joke
 ("bitchdan," "clandan") dating to at least 2013 — whose Facebook
 Messenger thread (2013–2020) is defensive-toned banter for most of its
 length but carries two genuinely consequential exchanges.
+
+## Four years before the Facebook thread
+
+The Messenger thread this page is built on runs **2013–2020**. Twenty-one
+tweets run **2009–2013**, sixteen of them direct address, and they hold a
+different kind of friendship from the "defensive-toned banter" the later
+thread records: an in-person one, in New York.
+
+> *"going to meet @danpolyak in manhattan. sunny sundayz."* (21 March 2010)
+> *"was just molested at coyote ugly with @danpolyak"* (22 March 2010)
+
+Both land in Dan's first month living in Brooklyn
+([[wiki/timeline/periods/2010s]]), which makes Polyak one of the people
+already in New York when he arrived rather than someone met there. The
+register is warm and unguarded in a way the Facebook thread is not — *"i like
+your state of mind brobro"* (23 January 2010), *"yayayayaya can't wait to see
+you duder"* (19 March 2010), *"too early to call for induction into the meme
+hall of fame? also-- MISS U"* (20 July 2010).
+
+He is also the only friend in the archive Dan talks shop with about design
+tools: *"hey! Bridge is great for making PDF's!"* (25 June 2011) — Adobe
+Bridge, i.e. a production workflow conversation, not a joke.
+
+**The cohort list names him first.** On **23 February 2012**, from Manhattan,
+Dan posts the only enumeration of his core friend group anywhere in the
+corpus: *"People who need to come visit me: @danpolyak @EricJester
+@JoshBrannan @Woodguts."* Four names, and Polyak leads. See
+[[wiki/people/eric-jester]] for the same list read from the other side.
+
+The last tweet is 19 August 2013 — a Timehop link, which is to say a
+nostalgia artifact — and the Facebook thread takes over from there.
+
 
 ## The Ally Lubin impersonation
 

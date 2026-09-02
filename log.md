@@ -7633,3 +7633,276 @@ so the zero in it is a real zero rather than a retrieval gap.
 distinction written on the page — the March 2016 link promotes existing
 catalogue rather than adding to it, so the discography does not move, but the
 alias's public life does.
+
+## [2026-09-02] ingest | people/interests | the twitter social graph, pass 1 — and a counter-example to yesterday's music claim
+
+**A correction first.** `wiki/interests/music/overview` published a ten-year
+public silence about Dan's own music (7 Mar 2016 → 4 Mar 2026). `raw/self/
+dox-scan/FULL TWITTER ANALYSIS.txt` quotes a 2016 tweet that would break the
+window's front edge — *"Had lit times playing @ulmdub birthday party last
+night at OSU"* — and **that tweet is not in the archive**: 2016 holds 75
+originals and none matches "OSU", "birthday party" or "lit times". Either the
+analysis file invented it (it is AI-generated, works from a demonstrably
+smaller corpus — it puts 2009 at "65–70 tweets" where the archive has 165 —
+and appends a spurious `@danfrank` to nearly every quote) or the archive's
+2016 is not "complete for originals" as the coverage table states. The page
+now holds the discrepancy as its own strongest counter-evidence rather than
+choosing the flattering reading. The official X export would settle it.
+
+**@Lo_weez is Annie Ulmer** (already established on her page). Seventeen
+tweets, 2015–2020. **Not mined, nothing written** — the standing moratorium
+forbids new dated lines or quotes about her, and it outranks this pass.
+
+**`wiki/people/eric-jester` called the friendship "sparse."** That was a
+reading of the *message thread*, which begins May 2017. The tweets hold the
+eight years before it: 22 tweets, 20 addressed, 2009–2013, decaying 7→9→2→2→1.
+The friendship did not start sparse — it started dense and decayed to the
+every-year-or-two rhythm *before* the message record opens, then held it for
+twelve more years. The page's original claim, that it "never needed active
+maintenance," survives and is better supported: the maintenance was paid down
+in Orlando and early NYC.
+
+**New entity: `wiki/people/shane-brannan`.** Nineteen tweets 2011–2016,
+eighteen of them direct address, almost entirely about video games. Confirmed
+in `contacts.csv` (724 number, `twitter.com/shane_brannan`). He appears in no
+message export, no Facebook exchange, and on no other page — this
+relationship existed only in the tweet archive.
+
+**`wiki/interests/video-games` had a hole from 2007 to 2016** and drew "a
+long-running low-grade presence, not a passion" from a record missing five
+years. The Shane tweets fill it: StarCraft II played seriously ("star2 is mad
+gosu"), horror-game craft criticism, and a six-year-old Xbox 360 replaced
+within 48 hours for Halo 4 in November 2012. The revision is narrower than a
+reversal — one documented high-intensity window inside a low-grade arc — and
+the counter-evidence is Dan's own words in the same thread: *"I dedicate the
+little bit of gaming time I do have strictly to star2."* Both are on the page.
+
+**Dated cohort.** 23 February 2012, from Manhattan: *"People who need to come
+visit me: @danpolyak @EricJester @JoshBrannan @Woodguts."* The only place in
+the corpus where Dan enumerates his core friend group himself.
+
+**Open lead:** @Woodguts — 17 tweets across 2009–2013, *"When I grow up I want
+to be @Woodguts"* — is unidentified in `contacts.csv` and everywhere else.
+
+## [2026-09-02] ingest | mind | the politics arc has two steps, not one — and the instrument nearly hid one
+
+`wiki/mind/synthesis/2020-left-turn` dates the socialist conversion to a
+self-narration on 2026-08-22 [sic: 2020-08-22] and opens "Dan's politics did
+not arrive gradually." The tweet archive is an independent, contemporaneous
+witness to the same question, and it both **corroborates the date and
+qualifies the thesis**.
+
+Political share of originals: ~1% across 2009–2011, 5.4% in 2012, 1.2–4.0%
+across 2013–2016, then **11.1% (2017), 12.3% (2019), 24.0% (2020), 44.1%
+(2021)**, plateauing at 42.3 / 36.5 / 44.6 through 2024.
+
+**The date holds.** 12.3 → 24.0 → 44.1 brackets the August 2020 narration
+exactly, from a record written for other reasons.
+
+**The thesis needs one word changed.** There are two steps. The first is 2017
+— 4.0% to 11.1%, nearly tripling off a decade near 1%, three years before the
+conversion and tracking the first Trump administration. The second is 2020–21.
+The distinction is between **engagement** and **identity**, and the page's own
+phrasing already contains it: a "Bernie-curious liberal" became "a
+self-identified socialist." Becoming politically engaged happens in 2017.
+Acquiring the label happens in 2020. The label arrived abruptly; the runway
+did not.
+
+**It plateaus rather than climbing** — four years at 36–45% is a settled
+ideology from outside, not an ongoing radicalization. And **2013–2016 is a
+documented off period**: 1.2–4.0% across the Uniontown return, ended by an
+election rather than by anything in his own life.
+
+**The instrument nearly produced a false headline.** The first pattern
+returned **0.0% for 2026** and I was one edit from writing "the politics sicko
+went silent." 2026 is 23.1%: it contains "EVERYBODY🙏HATES🙏ISRAEL🙏", a read
+on Curtis Sliwa's "antizionist credentials and… the new Tucker lane of nat con
+populism", and "It's Irish Zionism" — none of whose vocabulary was in a
+pattern built from 2012–2024. **A political vocabulary drifts across
+seventeen years and a fixed keyword list reports the drift as absence**, worst
+exactly where a corpus is most interesting. This is the second instance in one
+session of the failure already parked in `skills/INBOX.md`; the entry now
+carries both and the stronger rule, and is still not promoted because both
+occurrences are one author on one corpus.
+
+Caveat on the page: 2020 and 2021 are 25 and 34 originals, so those two rows
+are six and fifteen tweets. The plateau years (156/159/258) are solid.
+
+`plain/mind/synthesis/2020-left-turn` re-translated against the new page —
+not date-bumped. `bin/wiki-plain audit` caught rounded figures ("36%", "45%")
+that appear nowhere in the source; corrected to the page's own numbers.
+
+## [2026-09-02] ingest | mind | the digital-witness noticing is fourteen years older than the theory
+
+`wiki/mind/synthesis/millennial-digital-witness` rests on Node 6 of the pinned
+Gemini corpus — a late, AI-assisted articulation — and its own twin named the
+resulting weakness: *"No earlier statement of it exists in the record, so
+whether it is a long-held frame or a recent LLM-era construction is
+undetermined."*
+
+The archive supplies an earlier statement of the **noticing**, though not of
+the theory. On **30 October 2012**, aged 23, from an Upper East Side apartment,
+having been *"up all night on upper east following the storm"* and having run
+his own Sandy liveblog for two days: *"Sandy is like first true 'digital
+disaster'. Can't remember so much user generated content from a storm."* Made
+from inside the phenomenon he is naming, unprompted, with no model in the loop.
+
+**The split, stated on the page rather than blurred:** the disposition —
+treating the medium through which a shared event is experienced as the notable
+fact, rather than the event — is documented in 2012 and is first-party. The
+generational thesis is not. The 2012 line makes no claim about millennials, no
+before/after-the-internet comparison and no assertion of advantage, which are
+the three things that make Node 6 a thesis. *The noticing is old; the theory
+built on it is recent and AI-assisted.* That rules out the strongest
+deflationary reading while leaving intact the possibility that the
+articulation, vocabulary and confidence are substantially the model's.
+
+A falsifier was added with it: any pre-AI-era statement of the *generational*
+claim would collapse the split and make the thesis simply old. 2,525 originals
+across seventeen years were searched and the Sandy line is the closest thing
+in them.
+
+Twin re-translated against the moved page, including its "still don't know"
+bullet, which this finding partly answers and which would otherwise have gone
+on telling readers no earlier statement exists.
+
+## [2026-09-02] lint | mind | withdrawing the "two steps" politics finding published four hours earlier
+
+**The claim was wrong and it is retracted on the page.** Earlier today
+`wiki/mind/synthesis/2020-left-turn` was given a table asserting the archive
+showed **two steps, not one** — a 2017 political step (4.0% → 11.1%, "nearly
+tripling") separating *engagement* from *identity*, plus a "documented off
+period" of 1.2–4.0% across 2013–2016.
+
+Both were artifacts of the keyword pattern. Re-measured with the vocabulary
+Dan actually used in those years — Troy Davis, capital punishment, Paterno,
+the Catholic Church, Occupy, Santorum, Romney — **2016 is 9.3%, not 4.0%**, so
+the 2017 "step" is 9.3% → 11.1% and is not a step; **2013 is 7.8%, not 1.4%**,
+so the off period was mostly the pattern failing to see what was there.
+
+**The tell was in the archive the whole time.** On the night of **21 September
+2011** — a year the first pattern scored at 1.3% — Dan posted four times across
+the Troy Davis execution: the case against it at 18:41 EDT, *"this is awful to
+watch. first-world country? yeah right."* to his sister half an hour before it
+happened, *"he deserved the chance to live another day to fight in court"* six
+minutes after, and a call for *"a serious debate"* on capital punishment. A
+fully argued public position, in a year scored as near-empty.
+
+**What survives, and it is the part that mattered:** the 2020–21 rise (12.3%
+→ 24–28% → 44.1%) and the 37–47% plateau through 2024 appear under every
+pattern tried. The conversion date is still corroborated from an independent
+record. What is withdrawn is any finer per-year claim; **per-year political
+share is not reliably measurable by keyword matching on this corpus**, and no
+third table was published to replace the two that failed.
+
+**One durable finding survives the retraction:** Dan's justice-system
+skepticism is on the public record in **2011**, thirteen years before the 2024
+Luigi Mangione material `wiki/people/aaron` treats as its instance. The 2020
+conversion did not introduce it.
+
+**Promoted `skills/corpus/vocabulary-drift.md`** — third occurrence in one
+session and the first to reach a page. The two earlier were near-misses held
+in `INBOX.md` on the ground that one author on one corpus is not independent
+confirmation; a defect that reached a synthesis page is different evidence.
+The skill is bounded rather than triumphant: even the broad pattern is a
+keyword list, which is why its rule 5 is *withdraw the fine claim* rather than
+*publish a better table*.
+
+Twin re-translated to carry the retraction; `bin/wiki-plain audit` caught two
+figures in it that appear nowhere on the page.
+
+## [2026-09-02] ingest | people | the social graph, pass 2 — and an edge that was never actually written
+
+Three more people pages, all showing the same shape as `eric-jester`: the
+record the page was built on starts years after the friendship does, and the
+tweets hold the missing front end.
+
+**`vanessa-frank`** — the message thread starts **2015-12-01** and the page's
+"Political kinship" section dated its earliest evidence to 2016. Eleven tweets
+across two handles (**@veefrank** 2011–12, **@VanessaFrankzz** 2013) reach four
+and a half years further back, and the political kinship is already there: on
+the night of the **Troy Davis execution, 21 September 2011**, half an hour
+before it was carried out, Dan wrote to his 17-year-old sister *"this is awful
+to watch. first-world country? yeah right."* She is who he says it to while it
+is happening — the same shape the 2016 and 2020 material shows, nine years
+before the 2020 conversion. Also: high-school teasing (*"I set the bar oh so
+high for high school performance"*, 23 Feb 2012, against what
+`dark-era-2007-2008` records his own were), an Aubrey Plaza comparison, and the
+sibling channel already working as the place to complain about the family
+channel (*"wtf just got a text from mom about this I hate you all"*). Handle
+change between March 2012 and April 2013 is undated.
+
+**`dan-polyak`** — the Facebook thread runs 2013–2020 and the page reads him as
+"defensive-toned banter." Twenty-one tweets 2009–2013 hold an in-person New
+York friendship instead: *"going to meet @danpolyak in manhattan"* and *"was
+just molested at coyote ugly with @danpolyak"*, both in Dan's **first month**
+in Brooklyn, which makes Polyak someone already in New York rather than met
+there. Also the only design-tool shop talk in the archive (*"Bridge is great
+for making PDF's!"*).
+
+**`josh-brannan`** — ten tweets place him in the **Pennsylvania** half of the
+graph, paired three times with `jerad-friedline`. Election night 2012, written
+to Josh and Shane: *"I'm in haytrobe miss you fux"* — Latrobe, PA.
+
+**The 23 February 2012 cohort list** — *"People who need to come visit me:
+@danpolyak @EricJester @JoshBrannan @Woodguts"* — is now written into all
+three pages that have one. It is the only place in the corpus where Dan
+enumerates his core friend group himself rather than the wiki inferring it.
+
+**A defect in this session's own work.** The `eric-jester` typed edges
+committed this morning **were never actually written**. The script anchored on
+a connection type that page does not use, `str.replace` found nothing, wrote
+the file back unchanged, printed success, and the commit message described
+edges that did not exist. `bin/wiki-lint` and `bin/wiki-check` both passed.
+It surfaced only when `bin/wiki-connect check` warned that the far end of the
+pair had no edge back. Now fixed, along with that page's
+`date_range_start`/`first_contact`, which said **2017-05-08** — the first
+message — against a friendship the tweets document from **2009-10-24**.
+Observation filed to `skills/INBOX.md`.
+
+## [2026-09-02] ingest | interests/music | 2014 read in full — SLOPPP was an operating practice, and two named gaps close
+
+2014 (171 originals) was **read tweet by tweet** rather than pattern-matched,
+following `skills/corpus/vocabulary-drift.md`. A count would have returned a
+high production share and said nothing about what the activity *was*.
+
+**Two gaps `sloppp` listed as unaccounted for are now dated.** *"episodes 1–7
+of 'Week in Trap' and any 'Heatwave Vol. 1' are unaccounted for."* **Heatwave
+Vol. 1** released **14 May 2014** (announced the 13th, *"First hour of my
+summer mix series"*; live the next day, *"1 hour of tweriffik plurntastic
+tracks"*). **Week in Trap Episode 3** is **21 February 2014**. Episodes 1, 2
+and 4–7 remain open, so the gap narrows rather than closes.
+
+**Ten releases the Facebook-derived discography missed** are added as a
+separate Twitter-dated table — RNDM VADER, SAYMYNAME, heRobust, Katy Perry ×
+Juicy J, Wax Stacks and Racks, the Trap Micromix, Sour Drops and Lollipops,
+TRAP TV 1. Where a release appears in both tables the dates differ by days;
+that is **two platforms posted on different days, not a contradiction**, and
+neither is the SoundCloud upload date, which `raw/` does not hold.
+
+**The finding that matters.** `wiki/interests/music/overview` concluded from
+the message corpus that the production identity is *"self-concept rather than
+enterprise."* For 2014 that is wrong. In twelve months SLOPPP released roughly
+monthly, ran two recurring series plus a monthly wrap-up, entered the Major
+Lazer "Aerosol Can" flip into **Beatport contest voting** and canvassed twice,
+published a business address (*"Lets collab! danfr4nk@icloud.com for stems and
+patch trades"*), emailed tracks to other DJs, joined Splice, requested stems
+from @weareGTA, streamed live on Ustream and YouTube, and thanked two named
+producers for support. He also placed himself accurately: *"as a 'nobody' DJ,
+the aoki scandal is extra annoying."*
+
+**The message-corpus finding is untouched** — he genuinely never mentions
+making music in his texts, including through 2014. What narrows is the
+inference: silence in one channel is evidence about that channel. That the
+practice was real, sustained and outward-facing *while he told no one
+privately* makes the private silence more interesting, not less.
+
+The corrected reading is harder, not softer: **he did run it as an
+enterprise, for about a year, and then stopped.** "He never really did it" was
+the comfortable version, and `failure-to-launch` should carry the sharper one.
+
+**Method note, and it is a real limit on the promoted skill.** Counting cannot
+see a *practice*, only a *subject*. The difference between hobby and operation
+is in what the sentences do — announce, solicit, compete, thank — not in their
+vocabulary. `vocabulary-drift` says a count under-reports; this says a count
+can be perfectly accurate and still miss the finding entirely.

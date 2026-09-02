@@ -13,18 +13,18 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 492 |
-| Pages touched in the last 14 days | 197 |
+| Pages | 493 |
+| Pages touched in the last 14 days | 204 |
 | Pages reasoning from other pages (`synthesizes:`) | 78 |
 | Live contradictions | 43 |
-| Open gaps | 502 |
+| Open gaps | 503 |
 | Standing predictions | 65 |
 
 ## By domain
 
 | Domain | Pages |
 |---|---|
-| people | 174 |
+| people | 175 |
 | interests | 96 |
 | mind | 77 |
 | self | 58 |
@@ -39,7 +39,7 @@ this is the state of the thing.
 
 | Status | Pages |
 |---|---|
-| active | 187 |
+| active | 188 |
 | stable | 164 |
 | closed | 100 |
 | archived | 29 |
@@ -47,7 +47,7 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-09-02** — 32 pages
+**2026-09-02** — 40 pages
   - ingest | self | @danfrank twitter archive as yearly pages
   - build | plain | two writing lanes, a floor that had to be measured, and a campaign page
   - translate | interests | favorites/eclecticism
@@ -55,6 +55,11 @@ this is the state of the thing.
   - translate | self | youtube-watch-history
   - ingest | self/timeline/people | @danfrank twitter archive — mined across the wiki
   - ingest | interests/music | the production identity has a public arc, and it stops for ten years
+  - ingest | people/interests | the twitter social graph, pass 1 — and a counter-example to yesterday's music claim
+  - ingest | mind | the politics arc has two steps, not one — and the instrument nearly hid one
+  - ingest | mind | the digital-witness noticing is fourteen years older than the theory
+  - lint | mind | withdrawing the "two steps" politics finding published four hours earlier
+  - ingest | people | the social graph, pass 2 — and an edge that was never actually written
 
 **2026-09-01** — 2 pages
 

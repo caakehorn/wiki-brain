@@ -3,8 +3,9 @@ domain: interests
 page_type: entity
 status: active
 date_created: 2026-07-16
-date_modified: 2026-07-16
+date_modified: 2026-09-02
 sources:
+  - "raw/self/twitter/archive.jsonl"
   - "raw/self/facebook/facebook-ihatedanfrank/posts/your_posts_1.html"
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/message-csv/imessage_3307038747.csv"
@@ -12,6 +13,9 @@ sources:
   - "raw/self/gemini-activity/Gemini Activity.html"
 tags: [digital-footprint, nyc-era, personality-profile]
 connections:
+  - page: wiki/people/shane-brannan
+    type: evidenced-by
+    claim: "Nineteen tweets to Shane between 2011 and 2016 are the densest gaming evidence in the corpus and sit inside this page's 2008-2015 hole, documenting an intensity the 'low-grade presence' reading was drawn without."
   - page: wiki/mind/synthesis/interests-as-era-markers
     type: instantiates
     claim: "The longest-wavelength era-marker: a 2007 teen-identity coordinate that goes quiet for years and resurfaces only as datable events — the 2016 PlayStation winter, the 2025 forced liquidation."
@@ -39,6 +43,52 @@ pre-armor self-presentation: posts reference "slaying on halo" and
 "Super Mario Galaxy" in the same breath as "swooning over the new FOB" and
 "in New York City to see Fall Out Boy at TRL." Gaming was one coordinate
 of the teenage identity cluster, not a separate hobby.
+
+## The PC and Xbox years (2011–2014) — the hole in the middle
+
+Until 2026-09-02 this page went **2007 → 2016** with nothing between, and
+concluded from that record that gaming is "a long-running low-grade
+presence, not a passion." The [[wiki/self/twitter|tweet archive]] fills the
+hole, and what is in it is not low-grade.
+
+Nineteen tweets to [[wiki/people/shane-brannan|Shane Brannan]] between 2011
+and 2016 are almost entirely about games, and they document:
+
+- **StarCraft II, played seriously.** *"star2 is mad gosu"* (27 June 2011)
+  — *gosu*, from the Korean competitive scene, meaning highly skilled. He
+  has a spare trial code to hand out, and he is dismissive of the
+  alternative on offer: *"Let me know when you get sick of farming leather
+  to for auction house copper."*
+- **Horror games as craft, not just consumption.** Slender against Amnesia,
+  compared on design: *"the character model is so bad…but it's still scary
+  as fuck when you turn and it's there"* (20 July 2012). Then a retreat —
+  *"fuck EVERYTHING about/in that game. I'm going back to playing dayZ."*
+- **Hardware investment, narrated live.** Halo 4 bought on release, the
+  six-year-old Xbox 360 failing with an "open tray" error, and a **new
+  console bought within two days** rather than waiting — five tweets across
+  four days in November 2012, to one person.
+- Also DayZ, Call of Duty: Black Ops II, and IGN reviews consulted before
+  buying.
+
+**What this does to the page's thesis.** "Low-grade presence" was a
+reasonable reading of a record with a five-year hole in it. It is not a
+reasonable reading of November 2012, when Dan replaced a console inside 48
+hours for one game. The honest revision is narrower than a reversal: gaming
+has at least one documented **high-intensity window**, 2011–2012, and the
+long arc around it is still low-grade.
+
+**The counter-evidence is in the same tweets, and it is Dan's own framing.**
+On 27 June 2011 he writes: *"I dedicate the little bit of gaming time I do
+have strictly to star2."* That is a man describing a constrained hobby, not
+a passion — he is explaining that he specialises *because* there is so
+little time. Both readings are in the record, eleven months apart, and the
+page holds both rather than picking.
+
+One limit: this window is visible only because Shane was on Twitter. Gaming
+in 2013–2015 could have continued at the same intensity with nobody to tweet
+at about it, and the archive would look exactly as it does. Absence of the
+subject here is absence of a correspondent, not proof of absence of the
+hobby.
 
 ## The PlayStation years (2016–2018)
 

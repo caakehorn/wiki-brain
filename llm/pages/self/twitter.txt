@@ -94,6 +94,30 @@ connections:
   - page: wiki/interests/music/overview
     type: evidences
     claim: 'The archive dates the production identity''s public arc — a 2013-14 peak, then no post about his own music between 7 March 2016 and 4 March 2026, ten years across 908 originals.'
+  - page: wiki/people/shane-brannan
+    type: evidences
+    claim: 'Nineteen tweets are the only record of this friendship anywhere in the corpus — he appears in no message export, no Facebook exchange and on no other page.'
+  - page: wiki/people/eric-jester
+    type: evidences
+    claim: '22 tweets across 2009-2013 hold the dense phase of the Jester friendship, which had already decayed to its every-year-or-two rhythm before the message thread opens in May 2017.'
+  - page: wiki/mind/synthesis/2020-left-turn
+    type: evidences
+    claim: 'Per-year political share roughly doubles into 2020 and again into 2021 under every pattern tried, corroborating the conversion date from an independent record — while finer per-year claims drawn from it proved unmeasurable by keyword matching and were withdrawn the day they were published.'
+  - page: wiki/mind/synthesis/millennial-digital-witness
+    type: evidences
+    claim: 'The 30 October 2012 Sandy tweet — "first true digital disaster… so much user generated content" — is the earliest first-party instance of the media-over-event noticing that page''s thesis is built on, fourteen years before the AI-assisted articulation.'
+  - page: wiki/people/vanessa-frank
+    type: evidences
+    claim: 'Eleven tweets across two handles are the only record of the sibling relationship before the message thread opens in December 2015, and they date the shared political register to the Troy Davis execution night of 21 September 2011.'
+  - page: wiki/people/dan-polyak
+    type: evidences
+    claim: 'Twenty-one tweets 2009-2013 predate his Facebook thread by four years and record an in-person New York friendship rather than the defensive banter the later thread holds.'
+  - page: wiki/people/josh-brannan
+    type: evidences
+    claim: 'Ten tweets 2009-2012 place Josh in the Pennsylvania half of the social graph alongside Jerad Friedline, and in the 23 February 2012 cohort list.'
+  - page: wiki/interests/music/aliases/sloppp
+    type: evidences
+    claim: '2014 read in full documents an operating production practice — ten releases the Facebook reconstruction missed, two recurring mix series, a Beatport contest entry and a public collab address — and dates Heatwave Vol. 1 and Week in Trap Episode 3, two items that page listed as unaccounted for.'
 ---
 
 # Twitter / X Activity (@danfrank)

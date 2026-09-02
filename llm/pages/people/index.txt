@@ -98,6 +98,7 @@ related: []
 - [[wiki/people/johnny-dealer]] — Johnny functions as reliable but transactional dealer node during 2018 crisis (peak 40k+ messages year,…
 - [[wiki/people/joe-oshnack]] — High school bandmate; fullest first-person account of Dan's pre-2020 conservative identity and its reversal.
 - [[wiki/people/josh-brannan]] — Uniontown-era friend; a warm 2017 reconnection thread and the subject of a running joke with Jerad.
+- [[wiki/people/shane-brannan]] — the gaming channel; nineteen tweets 2011–2016 about StarCraft II, DayZ and Halo, and nothing else.
 - [[wiki/people/josh-coccagna]] — Golf pro mentor turned DMT-cart supplier, 2017-2019.
 - [[wiki/people/katherine-palakovich]] — Director of Business Affairs at [[wiki/work/creative-license|Creative License]]; sent Dan his 2011 non-compete, then notarized the false statements used against him in 2012.
 - [[wiki/people/katie-fletcher]] — the 2013 interim girlfriend: the Oddball/Chappelle night, the "Vase" incident.

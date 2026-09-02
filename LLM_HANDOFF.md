@@ -4,6 +4,54 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-02] - Session: tweet mining pass 2 — social graph, politics, digital witness (Claude Opus 5)
+
+* **Branch:** `claude/mine-tweets-wiki-brain-zi6nue` (restarted from main after #239 merged) · **PR:** #240 · gates green at each of three commits.
+* **Trigger:** operator — "keep mining."
+
+**A correction to pass 1 opened this one.** `wiki/interests/music/overview`'s
+ten-year music silence (7 Mar 2016 → 4 Mar 2026) has a counter-example:
+`raw/self/dox-scan/FULL TWITTER ANALYSIS.txt` quotes *"Had lit times playing
+@ulmdub birthday party last night at OSU"* in its 2016 section, and **that
+tweet is not in the archive**. Either the AI-generated analysis invented it,
+or 2016 is not "complete for originals" as the coverage table says. The page
+holds the discrepancy as its own strongest counter-evidence. **The official X
+Settings export would settle it — that is now the single highest-value thing
+anyone could add to `raw/`.**
+
+**@Lo_weez = Annie Ulmer.** 17 tweets, 2015–2020. **Not mined, nothing
+written**, under the standing moratorium. Recorded so the next session does
+not rediscover the handle and read it as an unexploited seam.
+
+**What moved**
+
+| Page | Finding |
+|---|---|
+| `people/eric-jester` | "Sparse" was a reading of a thread starting May 2017. Tweets hold 2009–2013: 22 tweets, 20 addressed, decaying 7→9→2→2→1. Started **dense**, decayed *before* the message record opens |
+| `people/shane-brannan` | **New entity.** 19 tweets 2011–2016, almost all video games, confirmed in `contacts.csv`. In no message export, no Facebook, no other page |
+| `interests/video-games` | Ran 2007→2016 with a hole. Filled: StarCraft II played seriously, horror-game craft criticism, a 6-year-old Xbox replaced in 48h for Halo 4 |
+| `mind/synthesis/2020-left-turn` | Political share of originals corroborates the 2020 date (12.3→24.0→44.1%) **and finds a second, earlier step in 2017** (4.0→11.1%). Separates *engagement* (2017, Trump) from *identity* (2020, lockdown). Plateaus 36–45% 2021–24 |
+| `mind/synthesis/millennial-digital-witness` | The 30 Oct 2012 Sandy tweet documents the **noticing** 14 years before the AI-assisted **theory**. Split stated explicitly; a falsifier added |
+| `plain/` twins for both syntheses | Re-translated, not date-bumped. `audit` caught rounded figures in one |
+
+**The methodological finding, and it is the important one.** A pattern built
+from 2012–2024 political vocabulary reported **2026 as 0.0% political**. It is
+23.1% — "EVERYBODY🙏HATES🙏ISRAEL🙏", Curtis Sliwa's "antizionist credentials",
+"Irish Zionism". **A vocabulary drifts across seventeen years and a fixed
+keyword list reports drift as absence**, worst exactly where a corpus is most
+novel. Second instance in one session; `skills/INBOX.md` carries both and the
+stronger rule. Deliberately **not promoted** — both are one author on one
+corpus. **Promote it when someone else hits it, or when it is run against
+`bin/mine-messages`, where `wiki/interests/music/overview` already carries
+several unchecked absence claims.**
+
+**Next, in value order:**
+1. **The people pass is still only started.** Done: Jester, Shane Brannan. Untouched with pages: `@danpolyak` (21, NYC-era, Adobe/design), `@joshbrannan` (10, PA cohort), `@jfriedline` (7), `@veefrank` (9, sister — 2011–12). Untouched without pages: `@yamez1` (13), `@iamcoreybrown` (10), `@woodguts` (17, filed to `BACKLOG.md` as unidentified), `@alexarandolph`, `@tbichris`, `@katie_efff`, `@filthysilver`, `@phloxenheim`.
+2. **The 23 Feb 2012 cohort tweet** — *"People who need to come visit me: @danpolyak @EricJester @JoshBrannan @Woodguts"* — is the only place Dan enumerates his core friend group himself. Written into Jester only; the other three should carry it.
+3. **2013–2014 is unmined** (517 originals, the SLOPPP/trap peak) and **2022–2024 is unmined** (573 originals, peak politics). Together 43% of the archive.
+4. **Feb 2013 Codecademy badges** — dated self-taught programming, 13 years before the AI work. Nothing on the wiki.
+5. **2009 unmined** (165 originals).
+
 ### [2026-09-02] - Session: mining the twitter archive across the wiki (Claude Opus 5)
 
 * **Branch:** `claude/mine-tweets-wiki-brain-zi6nue` · **PR:** #239 · all gates green at each of five commits.
