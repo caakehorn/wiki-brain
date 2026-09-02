@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-09-01
+date_modified: 2026-08-26
 sources:
   - raw/self/favorites/FAVS MASTERLIST.csv
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
