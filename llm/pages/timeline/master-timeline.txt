@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,351 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 678 · Tier 2 405 · Tier 3 2,268.
+**3,352 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 678 · Tier 2 405 · Tier 3 2,269.
 
 ## What counts as an event here
 
@@ -1305,6 +1305,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/zachariah-harshman]] · High school, remembered
 - · **October 2012** — Hurricane Sandy's October 2012 flooding of the Seaport district closed the Bridge Cafe, ending Alexis's employment there — a real economic shock to the household roughly six months before the couple's return to Uniontown, and worth noting as landing during this address's occupancy rather than the…  
   ↳ [[wiki/places/90th-st-manhattan]] · Hurricane Sandy and the Bridge Cafe (October 2012)
+- · **2012-10-30** — On **30 October 2012**, from an Upper East Side apartment during Hurricane Sandy, Dan tweeted:  
+  ↳ [[wiki/mind/synthesis/millennial-digital-witness]] · The noticing is fourteen years older than the theory
 - ◆ **November 2012** — StarCraft II, World of Warcraft's auction-house economy, Slender, Amnesia, DayZ, Halo 4, Call of Duty: Black Ops II — and a console that was "6 years old" in November 2012, dating an Xbox 360 purchase to roughly 2006, which is the same teenage window video games documents from Facebook ("slaying on…  
   ↳ [[wiki/people/shane-brannan]] · What they talked about
 - · **November 2012** — It is not a reasonable reading of November 2012, when Dan replaced a console inside 48 hours for one game.  

@@ -7731,3 +7731,37 @@ are six and fifteen tweets. The plateau years (156/159/258) are solid.
 `plain/mind/synthesis/2020-left-turn` re-translated against the new page —
 not date-bumped. `bin/wiki-plain audit` caught rounded figures ("36%", "45%")
 that appear nowhere in the source; corrected to the page's own numbers.
+
+## [2026-09-02] ingest | mind | the digital-witness noticing is fourteen years older than the theory
+
+`wiki/mind/synthesis/millennial-digital-witness` rests on Node 6 of the pinned
+Gemini corpus — a late, AI-assisted articulation — and its own twin named the
+resulting weakness: *"No earlier statement of it exists in the record, so
+whether it is a long-held frame or a recent LLM-era construction is
+undetermined."*
+
+The archive supplies an earlier statement of the **noticing**, though not of
+the theory. On **30 October 2012**, aged 23, from an Upper East Side apartment,
+having been *"up all night on upper east following the storm"* and having run
+his own Sandy liveblog for two days: *"Sandy is like first true 'digital
+disaster'. Can't remember so much user generated content from a storm."* Made
+from inside the phenomenon he is naming, unprompted, with no model in the loop.
+
+**The split, stated on the page rather than blurred:** the disposition —
+treating the medium through which a shared event is experienced as the notable
+fact, rather than the event — is documented in 2012 and is first-party. The
+generational thesis is not. The 2012 line makes no claim about millennials, no
+before/after-the-internet comparison and no assertion of advantage, which are
+the three things that make Node 6 a thesis. *The noticing is old; the theory
+built on it is recent and AI-assisted.* That rules out the strongest
+deflationary reading while leaving intact the possibility that the
+articulation, vocabulary and confidence are substantially the model's.
+
+A falsifier was added with it: any pre-AI-era statement of the *generational*
+claim would collapse the split and make the thesis simply old. 2,525 originals
+across seventeen years were searched and the Sandy line is the closest thing
+in them.
+
+Twin re-translated against the moved page, including its "still don't know"
+bullet, which this finding partly answers and which would otherwise have gone
+on telling readers no earlier statement exists.

@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-02
-493 pages, ~1,712,213 tokens.
+493 pages, ~1,713,157 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -9899,7 +9899,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 493 |
-| Pages touched in the last 14 days | 201 |
+| Pages touched in the last 14 days | 202 |
 | Pages reasoning from other pages (`synthesizes:`) | 78 |
 | Live contradictions | 43 |
 | Open gaps | 503 |
@@ -9932,7 +9932,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-02** — 37 pages
+**2026-09-02** — 38 pages
   - ingest | self | @danfrank twitter archive as yearly pages
   - build | plain | two writing lanes, a floor that had to be measured, and a campaign page
   - translate | interests | favorites/eclecticism
@@ -9941,6 +9941,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | self/timeline/people | @danfrank twitter archive — mined across the wiki
   - ingest | interests/music | the production identity has a public arc, and it stops for ten years
   - ingest | people/interests | the twitter social graph, pass 1 — and a counter-example to yesterday's music claim
+  - ingest | mind | the politics arc has two steps, not one — and the instrument nearly hid one
 
 **2026-09-01** — 2 pages
 
@@ -11373,7 +11374,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-02 — 37 pages
+## 2026-09-02 — 38 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11385,6 +11386,7 @@ simply listed.
 | [[wiki/meta/readers-digest]] | meta | — |
 | [[wiki/meta/recent-activity]] | meta | _(carries a CORRECTED)_ |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | — |
+| [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
 | [[wiki/people/alexis-armel]] | people | _(carries a GAP CLOSED from 2026-08-28)_ |
 | [[wiki/people/eric-jester]] | people | **CORRECTED** — this page described the friendship itself as "sparse but genuinely warm." That is an accurate reading of the *message thread*, which begins **May 2017**. It is not an accurate description of the frien |
 | [[wiki/people/josh-brannan]] | people | — |
@@ -11693,14 +11695,13 @@ simply listed.
 |---|---|---|
 | [[wiki/people/john-paci]] | people | **REVISED** — the version of this page written on 2026-08-10 described a warm, long-suffering landlord and an eviction that simply happened to him and to his tenants. The eviction was staged at Dan's request. The r |
 
-## 2026-08-11 — 6 pages
+## 2026-08-11 — 5 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/mind/concepts/institutional-out]] | mind | — |
 | [[wiki/mind/concepts/node-locking]] | mind | — |
 | [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | mind | — |
-| [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
 | [[wiki/people/lisa-frank]] | people | — |
 | [[wiki/people/tan-calabrese]] | people | _(carries a REVISED from 2026-08-09)_ |
 
@@ -28085,7 +28086,7 @@ knowledge: earned
 title: "Millennial Digital Witness"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-11
+date_modified: 2026-09-02
 sources:
   - raw/self/chats/_✧✧ 𝔻𝔸ℕ𝔽ℝ𝔸ℕ𝕂-𝕀𝕊𝕄'𝕊 ✧✧ Pinned chat.md
   - raw/self/gemini-activity/Gemini Activity.html
@@ -28099,6 +28100,10 @@ synthesizes:
   - wiki/mind/synthesis/ai-collaborative-analysis
 tags: [ai-collaboration, personality-profile]
 connections:
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "A 2012 tweet from inside Hurricane Sandy — 'first true digital disaster… so much user generated content' — documents the underlying noticing fourteen years before the Gemini-era articulation, ruling out the reading that the whole self-theory is an artifact of talking to models."
+
   - page: wiki/self/facebook
     type: evidenced-by
     claim: "The 2007-2022 ihatedanfrank archive is the theory instantiated in one person's data: the full arc from pre-smartphone early adoption to repossessing the commodified record."
@@ -28130,6 +28135,58 @@ holds direct reference experience of both the pre-digital world's rules and
 the LLM-integrated present — the "biological bridge," in the corpus's term —
 and that dual fluency is what powers cross-domain anomaly detection that
 neither analog-native elders nor digital-native juniors can run.
+
+## The noticing is fourteen years older than the theory
+
+This page's thesis comes from Node 6 of the pinned Gemini corpus — a
+late, AI-assisted articulation, and the obvious objection to it is that a
+self-theory produced in collaboration with a language model in 2025–26
+may be a construction rather than a description. The corpus can now answer
+that objection, though not completely.
+
+On **30 October 2012**, from an Upper East Side apartment during Hurricane
+Sandy, Dan tweeted:
+
+> *"Sandy is like first true 'digital disaster'. Can't remember so much
+> user generated content from a storm."*
+
+He was twenty-three, had been *"up all night on upper east following the
+storm"*, and had spent the previous two days running his own liveblog of
+it — *"#Sandy pics from NYC on the liveblog gogo"*, *"#sandy liveblog
+updated. pics/gifs/nyc news"* (29 October). The observation is made from
+inside the event he is describing, while participating in the exact
+phenomenon he is naming.
+
+**What this establishes, precisely.** The *disposition* — noticing that a
+shared event is being experienced through user-generated media, and
+treating that as the notable fact rather than the weather — is documented
+in 2012, unprompted, with no AI in the loop and no theory to serve. It is
+the same move the Node 6 thesis makes, applied to one storm instead of one
+generation.
+
+**What it does not establish, and the difference matters.** A remark about
+a hurricane's media coverage is not a generational epistemic argument. The
+2012 line contains no claim about millennials, no before-and-after-the-
+internet comparison, and no assertion of advantage — the three things that
+make Node 6 a thesis rather than an observation. Anyone reading this
+section as "he had the theory in 2012" is reading it wrong. What he had in
+2012 was the habit of looking at the medium instead of the event.
+
+So the honest statement is a split one: **the noticing is old and
+first-party; the theory built on it is recent and AI-assisted.** That is a
+better position for this page than either extreme. It rules out the
+strongest deflationary reading — that the whole self-theory is a
+2026 artifact of talking to models — while leaving intact the real
+possibility that the articulation, its vocabulary and its confidence are
+substantially the model's contribution rather than Dan's.
+
+**A falsifier this section supplies.** If earlier tweets or messages show
+Dan making the *generational* claim — millennials as a uniquely positioned
+cohort — before the AI-collaboration era begins, the split above collapses
+and the thesis is simply old. The tweet archive as it stands does not
+contain that: 2,525 originals across seventeen years, and this is the
+closest thing in it.
+
 
 ## The theory
 
@@ -86805,6 +86862,9 @@ connections:
   - page: wiki/mind/synthesis/2020-left-turn
     type: evidences
     claim: 'Per-year political share of originals — 12.3%, 24.0%, 44.1% across 2019-21 — corroborates the 2020 conversion date from an independent record, and separates a 2017 engagement step from the 2020 identity change.'
+  - page: wiki/mind/synthesis/millennial-digital-witness
+    type: evidences
+    claim: 'The 30 October 2012 Sandy tweet — "first true digital disaster… so much user generated content" — is the earliest first-party instance of the media-over-event noticing that page''s thesis is built on, fourteen years before the AI-assisted articulation.'
 ---
 
 # Twitter / X Activity (@danfrank)
@@ -94928,7 +94988,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,351 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 678 · Tier 2 405 · Tier 3 2,268.
+**3,352 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 678 · Tier 2 405 · Tier 3 2,269.
 
 ## What counts as an event here
 
@@ -96214,6 +96274,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/zachariah-harshman]] · High school, remembered
 - · **October 2012** — Hurricane Sandy's October 2012 flooding of the Seaport district closed the Bridge Cafe, ending Alexis's employment there — a real economic shock to the household roughly six months before the couple's return to Uniontown, and worth noting as landing during this address's occupancy rather than the…  
   ↳ [[wiki/places/90th-st-manhattan]] · Hurricane Sandy and the Bridge Cafe (October 2012)
+- · **2012-10-30** — On **30 October 2012**, from an Upper East Side apartment during Hurricane Sandy, Dan tweeted:  
+  ↳ [[wiki/mind/synthesis/millennial-digital-witness]] · The noticing is fourteen years older than the theory
 - ◆ **November 2012** — StarCraft II, World of Warcraft's auction-house economy, Slender, Amnesia, DayZ, Halo 4, Call of Duty: Black Ops II — and a console that was "6 years old" in November 2012, dating an Xbox 360 purchase to roughly 2006, which is the same teenage window video games documents from Facebook ("slaying on…  
   ↳ [[wiki/people/shane-brannan]] · What they talked about
 - · **November 2012** — It is not a reasonable reading of November 2012, when Dan replaced a console inside 48 hours for one game.  

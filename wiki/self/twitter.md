@@ -103,6 +103,9 @@ connections:
   - page: wiki/mind/synthesis/2020-left-turn
     type: evidences
     claim: 'Per-year political share of originals — 12.3%, 24.0%, 44.1% across 2019-21 — corroborates the 2020 conversion date from an independent record, and separates a 2017 engagement step from the 2020 identity change.'
+  - page: wiki/mind/synthesis/millennial-digital-witness
+    type: evidences
+    claim: 'The 30 October 2012 Sandy tweet — "first true digital disaster… so much user generated content" — is the earliest first-party instance of the media-over-event noticing that page''s thesis is built on, fourteen years before the AI-assisted articulation.'
 ---
 
 # Twitter / X Activity (@danfrank)

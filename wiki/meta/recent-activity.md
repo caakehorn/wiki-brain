@@ -23,7 +23,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-02 — 37 pages
+## 2026-09-02 — 38 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -35,6 +35,7 @@ simply listed.
 | [[wiki/meta/readers-digest]] | meta | — |
 | [[wiki/meta/recent-activity]] | meta | _(carries a CORRECTED)_ |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | — |
+| [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
 | [[wiki/people/alexis-armel]] | people | _(carries a GAP CLOSED from 2026-08-28)_ |
 | [[wiki/people/eric-jester]] | people | **CORRECTED** — this page described the friendship itself as "sparse but genuinely warm." That is an accurate reading of the *message thread*, which begins **May 2017**. It is not an accurate description of the frien |
 | [[wiki/people/josh-brannan]] | people | — |
@@ -343,14 +344,13 @@ simply listed.
 |---|---|---|
 | [[wiki/people/john-paci]] | people | **REVISED** — the version of this page written on 2026-08-10 described a warm, long-suffering landlord and an eviction that simply happened to him and to his tenants. The eviction was staged at Dan's request. The r |
 
-## 2026-08-11 — 6 pages
+## 2026-08-11 — 5 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/mind/concepts/institutional-out]] | mind | — |
 | [[wiki/mind/concepts/node-locking]] | mind | — |
 | [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | mind | — |
-| [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
 | [[wiki/people/lisa-frank]] | people | — |
 | [[wiki/people/tan-calabrese]] | people | _(carries a REVISED from 2026-08-09)_ |
 
