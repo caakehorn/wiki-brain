@@ -44,7 +44,7 @@ This page is the campaign to write one for every entry.
 | | |
 |---|---|
 | Entries with a plain-English edition | **28** |
-| Entries eligible for one | 276 |
+| Entries eligible for one | 277 |
 | Withheld under the standing directive | 217 |
 | Coverage | 10.1% |
 
@@ -72,39 +72,44 @@ and an entry nobody has got to should not look the same from outside.
 
 ## Who wrote them
 
-_Not available: this is a shallow clone, so the log does not reach the
-commits that wrote these files. `git fetch --unshallow` for an answer._
+By the last commit to touch each file.
+
+| Writer | Editions |
+|---|---|
+| Claude | 25 |
+| caakehorn | 7 |
+| Dan Frank | 1 |
 
 ## What has an edition
 
-- [[wiki/health/the-configured-body|The Configured Body]]
-- [[wiki/interests/concert-record/index|Concert Record (2001-2019)]]
-- [[wiki/interests/extreme-sports|Extreme Sports]]
-- [[wiki/interests/favorites/books|Book Favorites]]
-- [[wiki/interests/favorites/eclecticism|Eclecticism in Favorites]]
-- [[wiki/interests/favorites/music/artists/fall-out-boy|Fall Out Boy]]
-- [[wiki/interests/food-and-diet|Food and Diet]]
-- [[wiki/interests/music/concepts/lyrics-as-timbre|Lyrics as Timbre]]
-- [[wiki/interests/music/concepts/sub-bass-signature|Sub-Bass Signature]]
-- [[wiki/mind/concepts/acquisition-drive|The Acquisition Drive]]
-- [[wiki/mind/concepts/bunker-core|Bunker Core]]
-- [[wiki/mind/concepts/chaos-preference|The Chaos Preference]]
-- [[wiki/mind/concepts/dans-law|Dan's Law]]
-- [[wiki/mind/concepts/institutional-out|The Institutional Out]]
-- [[wiki/mind/concepts/the-cool-metric|The Cool Metric]]
-- [[wiki/mind/politics/axioms|The Power Axiom: What Resolves the Leftist/Authoritarian 'Paradox]]
-- [[wiki/mind/synthesis/2020-left-turn|The 2020 Left Turn]]
-- [[wiki/mind/synthesis/fayette-return|The Fayette Return]]
-- [[wiki/mind/synthesis/millennial-digital-witness|Millennial Digital Witness]]
-- [[wiki/mind/synthesis/political-psyops|Political Psyops & Hybrid Events]]
-- [[wiki/mind/synthesis/the-cato-seat|The Cato Seat]]
-- [[wiki/mind/synthesis/the-embedded-objective|The Embedded Objective]]
-- [[wiki/mind/synthesis/vertical-authority-skepticism|Vertical Authority Skepticism]]
-- [[wiki/self/youtube-watch-history|YouTube Watch History (2007–2026)]]
-- [[wiki/timeline/events/franki-fireworks-day-2013|The Franki Fireworks Day (early July 2013)]]
-- [[wiki/timeline/events/teen-concert-years|Concert Record (2001–2019)]]
-- [[wiki/work/creative-license|Creative License (NYC, 2011–2012)]]
-- [[wiki/work/fastly-fsly|Fastly (FSLY)]]
+- [[wiki/health/the-configured-body|The Configured Body]] — 2026-08-31, Claude
+- [[wiki/interests/concert-record/index|Concert Record (2001-2019)]] — 2026-08-30, Claude
+- [[wiki/interests/extreme-sports|Extreme Sports]] — 2026-08-29, caakehorn
+- [[wiki/interests/favorites/books|Book Favorites]] — 2026-08-29, caakehorn
+- [[wiki/interests/favorites/eclecticism|Eclecticism in Favorites]] — 2026-09-02, Claude
+- [[wiki/interests/favorites/music/artists/fall-out-boy|Fall Out Boy]] — 2026-08-30, Claude
+- [[wiki/interests/food-and-diet|Food and Diet]] — 2026-08-30, Claude
+- [[wiki/interests/music/concepts/lyrics-as-timbre|Lyrics as Timbre]] — 2026-08-30, Claude
+- [[wiki/interests/music/concepts/sub-bass-signature|Sub-Bass Signature]] — 2026-08-30, Claude
+- [[wiki/mind/concepts/acquisition-drive|The Acquisition Drive]] — 2026-08-30, Claude
+- [[wiki/mind/concepts/bunker-core|Bunker Core]] — 2026-08-30, Claude
+- [[wiki/mind/concepts/chaos-preference|The Chaos Preference]] — 2026-08-30, Claude
+- [[wiki/mind/concepts/dans-law|Dan's Law]] — 2026-08-29, caakehorn
+- [[wiki/mind/concepts/institutional-out|The Institutional Out]] — 2026-08-30, Claude
+- [[wiki/mind/concepts/the-cool-metric|The Cool Metric]] — 2026-08-30, Claude
+- [[wiki/mind/politics/axioms|The Power Axiom: What Resolves the Leftist/Authoritarian 'Paradox]] — 2026-08-30, Claude
+- [[wiki/mind/synthesis/2020-left-turn|The 2020 Left Turn]] — 2026-09-02, Claude
+- [[wiki/mind/synthesis/fayette-return|The Fayette Return]] — 2026-08-29, caakehorn
+- [[wiki/mind/synthesis/millennial-digital-witness|Millennial Digital Witness]] — 2026-09-02, Claude
+- [[wiki/mind/synthesis/political-psyops|Political Psyops & Hybrid Events]] — 2026-08-30, Claude
+- [[wiki/mind/synthesis/the-cato-seat|The Cato Seat]] — 2026-08-29, caakehorn
+- [[wiki/mind/synthesis/the-embedded-objective|The Embedded Objective]] — 2026-09-02, Claude
+- [[wiki/mind/synthesis/vertical-authority-skepticism|Vertical Authority Skepticism]] — 2026-08-29, caakehorn
+- [[wiki/self/youtube-watch-history|YouTube Watch History (2007–2026)]] — 2026-09-02, Claude
+- [[wiki/timeline/events/franki-fireworks-day-2013|The Franki Fireworks Day (early July 2013)]] — 2026-08-30, Claude
+- [[wiki/timeline/events/teen-concert-years|Concert Record (2001–2019)]] — 2026-08-30, Claude
+- [[wiki/work/creative-license|Creative License (NYC, 2011–2012)]] — 2026-08-30, Claude
+- [[wiki/work/fastly-fsly|Fastly (FSLY)]] — 2026-08-30, Claude
 
 ## Next up
 

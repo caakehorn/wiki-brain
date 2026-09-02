@@ -21,8 +21,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | | |
 |---|---|
-| Pages | 495 |
-| Pages touched in the last 14 days | 207 |
+| Pages | 496 |
+| Pages touched in the last 14 days | 208 |
 | Pages reasoning from other pages (`synthesizes:`) | 78 |
 | Live contradictions | 43 |
 | Open gaps | 507 |
@@ -38,7 +38,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | self | 59 |
 | timeline | 42 |
 | work | 15 |
-| meta | 11 |
+| meta | 12 |
 | places | 10 |
 | health | 6 |
 | legal | 4 |
@@ -47,7 +47,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | Status | Pages |
 |---|---|
-| active | 189 |
+| active | 190 |
 | stable | 165 |
 | closed | 100 |
 | archived | 29 |
@@ -55,7 +55,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-02** — 44 pages
+**2026-09-02** — 45 pages
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result
   - ingest | self | @danfrank twitter archive as yearly pages

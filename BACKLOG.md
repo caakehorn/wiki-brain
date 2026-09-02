@@ -484,3 +484,48 @@ export, no mention on any wiki page. Resolving the handle to a name would give
 the NYC-era social graph its fourth member; until then there is no page,
 because a page keyed to a handle with no identity would assert less than this
 entry does. `bin/mine-tweets handle woodguts` is the whole evidence base.
+
+## Blocked — the portal has not published since 2026-09-02 04:47 UTC (added 2026-09-02)
+
+**Symptom.** Nothing merged to `wiki-brain` after 04:47 has reached the live
+site. Five merges since then (#237, #239–#244 and #243) are not on the portal;
+`public/wiki` in `caakehorn/home` does not contain
+`wiki/meta/testimony-veracity` at all.
+
+**Not the wiki-brain half.** `.github/workflows/notify-portal.yml` is working:
+`PORTAL_DISPATCH_TOKEN` **is** set — CLAUDE.md's claim that "nobody has added
+it yet" is stale and should be corrected — and run 77 at 17:58:41 logged
+`Dispatched wiki-updated (sage: 0, pages: 6, plain: 0, words: 0)` on an HTTP
+204. The dispatch is being sent and accepted.
+
+**The failure is in `caakehorn/home`'s `sync-wiki.yml`, at `npm run
+history:check`.** Reproduced locally against a full-depth `wiki-brain` checkout
+at `e56d8f0`: every other step of the derivation passes — `sync-wiki.mjs` (496
+pages), `build-wiki-history.mjs` (3,832 revisions, 3,832 reconstructions
+verified), `leviathan`, `wiki-instruments`, `core`, `docket` — and then:
+
+```
+✗ people/jerad-friedline @ e3c02f3b6b: git says +9/−2, this dataset says +8/−1
+✗ self/concepts/astrology-star-signs @ 03425a4d53: git says +7/−1, this dataset says +0/−0
+```
+
+`check-history.mjs` exits 1, and the workflow is **all-or-nothing by design** —
+"every step above runs before anything is staged, so a build that fails leaves
+the whole snapshot at its previous state." So one unreproducible revision
+freezes publication of the entire corpus.
+
+**Both failing revisions are from 2026-08-26** and neither page has been
+touched since, so this is not caused by any recent pass. `03425a4d` is a
+non-merge commit where git reports +7/−1 for the astrology page and the built
+dataset reports no change at all — a defect in `build-wiki-history.mjs`, which
+`check-history.mjs` is correctly refusing to publish over.
+
+**The architectural finding, which outlives the bug.** A hard gate on a derived
+sub-feature is a hard gate on everything shipped beside it. The history dataset
+is one panel on a page; its correctness check currently has the authority to
+stop the wiki from publishing. Whatever fixes the two revisions, that coupling
+is worth revisiting: a history panel that cannot be reproduced should degrade
+to absent, not take the snapshot down with it.
+
+**Cannot be fixed from wiki-brain.** The bug and the fix are both in
+`caakehorn/home`. This session has read-only access to that repository.

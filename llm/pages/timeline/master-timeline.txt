@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,428 events** across **80 years** (1796–2027), drawn from **368 pages**. Tier 1 685 · Tier 2 417 · Tier 3 2,326.
+**3,458 events** across **80 years** (1796–2027), drawn from **369 pages**. Tier 1 686 · Tier 2 418 · Tier 3 2,354.
 
 ## What counts as an event here
 
@@ -889,6 +889,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
 - ◆ **2008-09-24** — It is written to nobody.** The account has no followers on 24 September 2008 — it is being started that day.  
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The period's exit, in his own words, on the day it happened
+- · **2008-09-24** — The public record. Carries its own coverage share on every engagement figure, and excludes 125 truncated rows from length figures  
+  ↳ [[wiki/meta/instruments/index]] · The measures
 - · **2008-09-24** — 2008** — The account's creation datetime was **not** retrievable — the backend user lookup returned an id (`16430736`) but no `created_at`. Creation on 24 September 2008 is an inference from three consistent facts: the earliest tweet retrieved, two queries before it re  
   ↳ [[wiki/meta/open-questions]] · self (62)
 - · **2008-09-24** — The record now begins **24 September 2008** — the day Dan arrived in Winter Park for Full Sail — after a backend fetch on 2026-09-02 recovered 213 tweets the archive had never reached.  
@@ -1014,9 +1016,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2010-01-03** — one is timestamped by the platform and one was typed into a profile  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **2010-01-03** — facebook — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 44 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 45 pages
 - · **2010-01-03** — location history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 44 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 45 pages
 - · **2010-01-03** — t002 — date, location — certain — refuted — The tweet archive has him in Florida for another eight weeks: 'moving to brooklyn in 9 days' (20 Feb 2010), 'last day in errrlando' (27th), 'peace out, florida. it's been real.' (28th)  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2010-01-03** — Places lived  
@@ -1458,7 +1460,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/journeys/the-type-machine]] · The control case: typed, then found untyped
 - · **July 2013** — franki fireworks day 2013** — **The date is not fixed.** "Early July 2013" plus a fireworks display is as close as the record gets. A dated ATM withdrawal on Suz's account, or a Uniontown fireworks schedule for 2013, would close it.  
   ↳ [[wiki/meta/open-questions]] · timeline (81)
-- · **July 2013** — The Franki Fireworks Day (early July 2013)  
+- · **July 2013** — The Franki Fireworks Day (early July 2013) — 2026-08-30, Claude  
   ↳ [[wiki/meta/readers-digest]] · What has an edition
 - · **Summer 2013** — She occupied the primary slot for **five days** in the summer of 2013, during a brief split from Alexis.  
   ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · The control, and where the rule stops
@@ -1634,7 +1636,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2014-05-07** — Drake x Cashmere Cat – No Lie ft. 2 Chainz (SLOPPP Bootleg) — Bootleg  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **2014-05-13** — sloppp — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 44 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 45 pages
 - · **2014-05-14** — Heatwave Vol. 1** — "1 hour of tweriffik plurntastic tracks" — **Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
 - · **2014-05-22** — SLOPPP Trap Micromix — Mix  
@@ -2943,7 +2945,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **May 2017** — Twice Dan evidently weighed what he'd bought and found it light, and twice Vaughn retreated to the same defense: "What did it weight because he said it was 3.5… that's my best friend I got it from and I know he wouldn't do it on purpose" (May 2017), and "I swear I watched him weigh it" against a…  
   ↳ [[wiki/people/vaughn]] · The yard and the hustle, one channel
 - · **May 2017** — eric jester — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 44 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 45 pages
 - · **May 2017** — Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two Nemacolin caddying seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a fellow caddie in 2017 who came back for 2018 as **assistant caddie master** — "I'm actually gonna be assistant caddie…  
   ↳ [[wiki/people/davey-fitzpatrick]] · Davey Fitzpatrick
 - · **May 2017** — Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose message thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — sparse check-ins that resurface every year or two, each one picking back up exactly where the last left…  
@@ -6338,7 +6340,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-14** — Dan does not hear or process sung lyrics as language in real time — he stated this directly (2026-07-14): words in a song register to him essentially as **timbre**, another textural element of the vocal performance, not as semantic content to be parsed and understood the way lyrics function for…  
   ↳ [[wiki/interests/music/concepts/lyrics-as-timbre]] · Lyrics as Timbre
 - · **2026-07-14** — vanessa frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 44 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 45 pages
 - · **2026-07-14** — au zaatar — work  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-07-14** — t009 — enumeration — hedged — partial — The tweet archive holds two pieces the list did not: the letter 'A' for Alexis, tattooed 23 January 2010 and eight years earlier than anything on the list, and a Morrissey piece dated by 24 October 2019.  
@@ -6404,7 +6406,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 44 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 45 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -6565,6 +6567,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/health/the-configured-body]] · Mode one: specification
 - · **2026-08-02** — ~~**No current dietary record exists at all.**~~ **CLOSED 2026-08-02** by the  
   ↳ [[wiki/interests/food-and-diet]] · Gaps
+- · **2026-08-02** — The 2026-08-02 axiom test is the cleanest demonstration and it is worth reading before trusting any of these: four load-bearing unconscious axioms were tested lexically against all 106,629 outbound messages with 110,944 inbound as a control, and on every explicit urgency construction but one he…  
+  ↳ [[wiki/meta/instruments/index]] · What the instrument layer cannot see, as a layer
 - · **2026-08-02** — jerel coles** — 4. **What load broke a thirteen-day-held off-switch?** Test the hypothesis above against the 2026-08-02 → 08-08 logs.  
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **2026-08-02** — acquisition drive — mind  
@@ -7002,7 +7006,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
 - · **2026-08-23** — overview — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 44 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 45 pages
 - · **2026-08-23** — closing the set — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-23** — annie ulmer personality assessment — people  
@@ -7062,7 +7066,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-27** — ally lubin cognitive profile** — **Did she report the result herself, or was it forwarded?** The visible page is the results email, which implies she had the account. The 2026-08-27 operator answer confirms the result is hers but says nothing about how the screenshot reached Dan, so this stay  
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **2026-08-27** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 44 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 45 pages
 - · **2026-08-27** — The 2026-08-27 operator answer confirms the result is hers but says nothing about how the screenshot reached Dan, so this stays open.  
   ↳ [[wiki/people/ally-lubin-cognitive-profile]] · Gaps
 - · **2026-08-27** — That pending status held — the sale closed in **summer 2019 for $250,000** (operator testimony, 2026-08-27; uncorroborated in the message record, which never returns to the subject after Danny's July 11 line).  
@@ -7074,7 +7078,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — full sail 2008 2010 — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 44 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 45 pages
 - · **2026-08-28** — chemical architecture — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 5 pages
 - · **2026-08-28** — cocaine — health  
@@ -7113,8 +7117,24 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/franki-fireworks-day-2013]] · Gaps
 - ◆ **2026-08-29** — Not every performer has a page, and the master table below — not the page list — is the complete record.** On 2026-08-29 the operator removed 47 single-appearance artist stubs as unnecessary; each held nothing the master event list and the festival lineups do not already state.  
   ↳ [[wiki/interests/concert-record/index]] · Concert Record (2001-2019)
+- · **2026-08-29** — Extreme Sports — 2026-08-29, caakehorn  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
+- · **2026-08-29** — Book Favorites — 2026-08-29, caakehorn  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
+- · **2026-08-29** — Dan's Law — 2026-08-29, caakehorn  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
+- · **2026-08-29** — The Fayette Return — 2026-08-29, caakehorn  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
+- · **2026-08-29** — The Cato Seat — 2026-08-29, caakehorn  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
+- · **2026-08-29** — Vertical Authority Skepticism — 2026-08-29, caakehorn  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
+- ★ **2026-08-30** — The Cool Metric — 2026-08-30, Claude  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
 - ◆ **2026-08-30** — The intake ledger began recording on 2026-08-30 and supplies the first night where two rows of it were written down as they happened: one **0.75 g cocaine unit** worked over 9h 31m in six doses, and **three separate 0.05 g cannabis units** at 22:06, 00:37 and 02:36, each opened and closed in a…  
   ↳ [[wiki/health/chemical-architecture]] · The stack, measured rather than described — 2026-08-30/31
+- ◆ **2026-08-30** — Concert Record (2001-2019) — 2026-08-30, Claude  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
 - · **2026-08-30** — Cannabis — Creative lubricant  
   ↳ [[wiki/health/chemical-architecture]] · The stack
 - · **2026-08-30** — Its silence before 2026-08-30 is the absence of a ledger, not the absence of use.  
@@ -7131,6 +7151,32 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/health/intake-ledger]] · Every event
 - · **2026-08-30** — #2 — Cannabis — 0.05 g — estimated (medium) — —  
   ↳ [[wiki/health/intake-ledger]] · Every event
+- · **2026-08-30** — Two of these publish to a public repository**, knowingly, by an operator decision on 2026-08-30: `intake/` and `testimony/` are tracked and readable by anyone, permanently, and git history cannot be un-published.  
+  ↳ [[wiki/meta/instruments/index]] · What the instrument layer cannot see, as a layer
+- · **2026-08-30** — Fall Out Boy — 2026-08-30, Claude  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
+- · **2026-08-30** — Food and Diet — 2026-08-30, Claude  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
+- · **2026-08-30** — Lyrics as Timbre — 2026-08-30, Claude  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
+- · **2026-08-30** — Sub-Bass Signature — 2026-08-30, Claude  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
+- · **2026-08-30** — The Acquisition Drive — 2026-08-30, Claude  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
+- · **2026-08-30** — Bunker Core — 2026-08-30, Claude  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
+- · **2026-08-30** — The Chaos Preference — 2026-08-30, Claude  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
+- · **2026-08-30** — The Institutional Out — 2026-08-30, Claude  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
+- · **2026-08-30** — The Power Axiom: What Resolves the Leftist/Authoritarian 'Paradox — 2026-08-30, Claude  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
+- · **2026-08-30** — Political Psyops & Hybrid Events — 2026-08-30, Claude  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
+- · **2026-08-30** — Creative License (NYC, 2011–2012) — 2026-08-30, Claude  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
+- · **2026-08-30** — Fastly (FSLY) — 2026-08-30, Claude  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
 - · **2026-08-30** — the configured body — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 5 pages
 - · **2026-08-30** — Anthropic — cli · web · desktop · ide — 53 — 2026-08-30  
@@ -7147,12 +7193,26 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/health/intake-ledger]] · Every event
 - · **2026-08-31** — #1 — cocaine — 0.25 g — estimated (medium) — —  
   ↳ [[wiki/health/intake-ledger]] · Every event
+- · **2026-08-31** — The Configured Body — 2026-08-31, Claude  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
 - · **2026-09-01** — Run 2026-09-01, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/favorites/eclecticism]] · The constitution pass
 - · **2026-09-01** — Neither has been tested and the page does not claim music as a member.** The positive account of what the exception *is* now lives at eclecticism (rewritten 2026-09-01): Architecture B — three functional clusters kept in parallel for eighteen years, archival emo beside live bass calibration beside…  
   ↳ [[wiki/mind/synthesis/closing-the-set]] · The controls
 - ★ **2026-09-02** — What changed on 2026-09-02 is that it is no longer the same thing as having no primary source: 764 dated public originals cover these three years, and the page now rests on them for the move, the two apartments, the Williamsburg geography and the ishlab start.  
   ↳ [[wiki/timeline/periods/2010s]] · Transition
+- · **2026-09-02** — The git log read as a record of *operations* rather than saves  
+  ↳ [[wiki/meta/instruments/index]] · The measures
+- · **2026-09-02** — Eclecticism in Favorites — 2026-09-02, Claude  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
+- · **2026-09-02** — The 2020 Left Turn — 2026-09-02, Claude  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
+- · **2026-09-02** — Millennial Digital Witness — 2026-09-02, Claude  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
+- · **2026-09-02** — The Embedded Objective — 2026-09-02, Claude  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
+- · **2026-09-02** — YouTube Watch History (2007–2026) — 2026-09-02, Claude  
+  ↳ [[wiki/meta/readers-digest]] · What has an edition
 - · **2026-09-02** — failure to launch — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-09-02** — chatgpt — self  
@@ -7179,4 +7239,4 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 368 wiki pages. 1,005 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 369 wiki pages. 1,005 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
