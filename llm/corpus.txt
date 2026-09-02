@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-02
-493 pages, ~1,721,009 tokens.
+493 pages, ~1,721,781 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10091,6 +10091,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - lint | mind | withdrawing the "two steps" politics finding published four hours earlier
   - ingest | people | the social graph, pass 2 — and an edge that was never actually written
   - ingest | interests/music | 2014 read in full — SLOPPP was an operating practice, and two named gaps close
+  - ingest | work/tech | one day of Codecademy in 2013, then thirteen years of nothing
 
 **2026-09-01** — 2 pages
 
@@ -11536,7 +11537,7 @@ simply listed.
 | [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | **CORRECTED** — An earlier version of this section claimed the archive showed **two steps, not one** — a first step in 2017 (4.0% → 11.1%, "nearly tripling") separating *political engagement* from *socialist identity |
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
-| [[wiki/people/alexis-armel]] | people | _(carries a GAP CLOSED from 2026-08-28)_ |
+| [[wiki/people/alexis-armel]] | people | **CORRECTED** — this paragraph first read *"four months in."* That was wrong and it understated the finding. The operator capture of 2026-08-27 dates the meeting to **Thanksgiving 2009** (26 November); the tattoo is  |
 | [[wiki/people/dan-polyak]] | people | — |
 | [[wiki/people/eric-jester]] | people | **CORRECTED** — this page described the friendship itself as "sparse but genuinely warm." That is an accurate reading of the *message thread*, which begins **May 2017**. It is not an accurate description of the frien |
 | [[wiki/people/josh-brannan]] | people | — |
@@ -37257,7 +37258,7 @@ connections:
     claim: "A December 13, 2017 message on Jamie's thread is the earliest of three tellings of the Zac Shumar arrest and independently places the Alexis/Annie cam encounter inside her Feb–Oct 2017 bail window rather than during her incarceration."
   - page: wiki/self/tattoos
     type: evidenced-by
-    claim: "Dan's first tattoo, dated to 23 January 2010, is Alexis's initial — permanent commitment four months into the relationship and five weeks before he left Florida for the city she was in."
+    claim: "Dan's first tattoo, dated to 23 January 2010, is Alexis's initial — permanent commitment eight weeks after they met at Thanksgiving 2009, and five weeks before he left Florida for the city she was in."
   - page: wiki/timeline/periods/2010s
     type: component-of
     claim: "Alexis is present for the whole of NYC-1 — Brooklyn through the Upper East Side, the Bridge Cafe job through Hurricane Sandy — and is the only continuous personal thread the decade's first half has."
@@ -37375,6 +37376,38 @@ on Dan's own Facebook profile under "Previous relationships," in that order.
 > written up on [[wiki/timeline/periods/full-sail-2008-2010]] and
 > [[wiki/health/chemical-architecture]] rather than duplicated here.
 >
+> **CORROBORATED [2026-09-02] from a contemporaneous first-party record.**
+> The capture above is operator testimony given in 2026 about events of 2009 —
+> the strongest source class the corpus has, and still one source, recalled
+> seventeen years later. The [[wiki/self/twitter|tweet archive]] was not
+> available when it was integrated on 2026-08-28. It is now, and it independently
+> confirms the sequence and dates it to the day:
+>
+> | Date | Tweet | What it confirms |
+> |---|---|---|
+> | 2009-11-25 | *"pennsylvania, what's a stoner to do?!"* | He is in PA for Thanksgiving |
+> | 2009-11-28 | *"i had the absolute best day. heart is full from seeing true friends today. you're all amazing"* | The Thanksgiving trip |
+> | 2009-11-29 | *"cookies, water, beer, wine, and her."* | "Her" appears — unnamed |
+> | 2009-11-30 | *"watching the game with someone special"* / *"I miss her already."* / *"going home...but things are different now"* | Leaving PA, something has changed |
+> | **2009-12-14** | **first-ever `@alexisarmel` tweet: *"you amaze me. can't believe you're real"*, and separately *"dan in love."*** | **Named, in Orlando, ~2.5 weeks later** |
+> | 2009-12-16 | *"i have the most amaaaazing girlfriend"* | First use of "girlfriend" |
+> | 2009-12-20 | *"home again with much help from my amazing girlfriend"* | The drive to PA for Christmas |
+> | 2009-12-25 | *"d&a's first christmas"* | Christmas together, as a unit |
+> | 2009-12-30 | *"our trip was saved entirely by @alexisarmel"* | The drive back to Florida — she returned with him |
+>
+> Every load-bearing element of the testimony holds. The unnamed "her" of 29–30
+> November precedes the first named tweet by a fortnight, which is exactly the
+> shape of *"a week or two after that he buys her a one-way ticket to Orlando"*
+> — and it means the account was carrying the relationship publicly before it
+> carried her name. The Christmas nervousness the capture describes — *"whether
+> she would return with him"* — is answered on 30 December by a tweet crediting
+> her with saving the drive.
+>
+> **What the tweets do not corroborate:** the Roxicet, Spetch, the one-way
+> ticket as a purchase, and the Clingan accusation appear nowhere in them. The
+> archive confirms the relationship's shape and pace, not the drug chain, and
+> that half still rests on testimony alone.
+
 > **Christmas 2009: the trip home that ends a friendship and nearly extends
 > itself past Orlando.** Dan and Alexis drive back to Pennsylvania for
 > Christmas, and Dan records being nervous about whether she would return
@@ -37432,9 +37465,14 @@ execution within sixteen minutes of each other — *"getting my 'a' tattoo
 on monday =]"*, then *"scratch that going to get it NOW!"*, then, two
 hours later, *"my first tattoo! I have her on me forever now <3"*.
 
-The relationship had begun the previous autumn. Four months in, her
-initial is permanent, and six weeks after that he has left the state he
-was living in to be where she is. It is the earliest hard evidence in the
+They had met **eight weeks earlier**, at Thanksgiving. Her initial is
+permanent before they have known each other two months, and five weeks
+after that he has left the state he was living in to be where she is.
+
+> **CORRECTED [2026-09-02]:** this paragraph first read *"four months in."*
+> That was wrong and it understated the finding. The operator capture of
+> 2026-08-27 dates the meeting to **Thanksgiving 2009** (26 November); the
+> tattoo is **23 January 2010**. Eight weeks. It is the earliest hard evidence in the
 corpus of the commitment speed the rest of this page documents at longer
 range, and it is dated to the hour rather than recalled — see
 [[wiki/self/tattoos]] for the piece itself and for what the archive does
@@ -70549,7 +70587,7 @@ connections:
     claim: "The tweet 'my first tattoo! I have her on me forever now' dates the first piece to the night of 23 January 2010 and identifies it as a lover's initial — the one documented tattoo that is not a cultural reference, and the counterexample this page's thesis has to survive."
   - page: wiki/people/alexis-armel
     type: evidences
-    claim: "Dan had Alexis's initial tattooed roughly four months into the relationship, in January 2010, six weeks before moving to Brooklyn to be with her — the earliest hard evidence of the all-in commitment speed that the relationship history describes."
+    claim: "Dan had Alexis's initial tattooed eight weeks after meeting her at Thanksgiving 2009, and five weeks before leaving Florida for the city she was in — the earliest hard evidence of the all-in commitment speed that the relationship history describes."
   - page: wiki/interests/food-and-diet
     type: evidences
     claim: "The one food image permanently on his body is a Misfits tattoo: the pizza slice was chosen because it was the unconventional alternative to the Crimson Ghost-in-a-coffin variant, which is a cool-metric operation executed through a food image without the food being the point."
@@ -70621,10 +70659,17 @@ a band, a record or an artist. This one points at a person, and Dan says
 so in the same breath: *I have her on me forever now*. The "A" is
 [[wiki/people/alexis-armel|Alexis Armel]].
 
-**It is fast.** The relationship began in 2009, during the Full Sail tail.
-By late January 2010 he is putting her initial on his body permanently,
-and five weeks later he is loading a U-Haul to move to the city she is in
-([[wiki/timeline/periods/2010s]]). The tattoo and the relocation are the
+**It is fast — faster than this page first said.** They met at
+**Thanksgiving 2009**, on a trip home to Pennsylvania
+([[wiki/people/alexis-armel]], where the meeting is dated from an operator
+capture and corroborated by the tweets themselves). The tattoo is **eight
+weeks later**. Five weeks after that he is loading a U-Haul to move to the
+city she is in ([[wiki/timeline/periods/2010s]]).
+
+> **CORRECTED [2026-09-02]:** an earlier version of this section, written
+> the same day, said the relationship "began in 2009" and left the interval
+> vague at "four months." Eight weeks is the figure, and it makes the point
+> harder rather than softer. The tattoo and the relocation are the
 same decision at two scales, six weeks apart, and both are executed
 within days of being announced — "scratch that going to get it NOW!" is
 the whole pattern in six words.
@@ -95326,7 +95371,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,382 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 682 · Tier 2 409 · Tier 3 2,291.
+**3,381 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 681 · Tier 2 409 · Tier 3 2,291.
 
 ## What counts as an event here
 
@@ -96280,8 +96325,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/danielle-onesi]] · Relationship Summary
 - ★ **January 2010** — The same year initialises two other things that run underneath the whole relationship: **Suboxone, from around January 2010**, and an aggressive atheism that turns out to be shared rather than tolerated.  
   ↳ [[wiki/people/alexis-armel]] · Full Sail, and the beginning
-- ★ **January 2010** — By late January 2010 he is putting her initial on his body permanently, and five weeks later he is loading a U-Haul to move to the city she is in (2010s).  
-  ↳ [[wiki/self/tattoos]] · The first one: "A", January 2010
 - ◆ **January 2010** — The opiate arc that began in 2007 reaches its resolution at the tail end of this period: Suboxone initiated around January 2010, with day-zero later pinned to February 17, 2010 in the fuller chemical-history record (chemical architecture) — meaning the single most durable fact of Dan's adult…  
   ↳ [[wiki/timeline/periods/full-sail-2008-2010]] · Chemical stabilization
 - · **January 2010** — Early rock era — 2008–2010  
@@ -96295,9 +96338,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2010-01-03** — one is timestamped by the platform and one was typed into a profile  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **2010-01-03** — facebook — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 41 pages
 - · **2010-01-03** — location history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 41 pages
 - · **2010-01-03** — Places lived  
   ↳ [[wiki/self/facebook]] · Identity & Profile Data (2022 snapshot, self-reported)
 - ★ **2010-01-23** — On the evening of **23 January 2010**, five weeks before the move north, Dan got his first tattoo: the letter **A**.  
@@ -96909,7 +96952,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2014-05-07** — Drake x Cashmere Cat – No Lie ft. 2 Chainz (SLOPPP Bootleg) — Bootleg  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **2014-05-13** — sloppp — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 41 pages
 - · **2014-05-14** — Heatwave Vol. 1** — "1 hour of tweriffik plurntastic tracks" — **Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
 - · **2014-05-22** — SLOPPP Trap Micromix — Mix  
@@ -98216,7 +98259,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **May 2017** — Twice Dan evidently weighed what he'd bought and found it light, and twice Vaughn retreated to the same defense: "What did it weight because he said it was 3.5… that's my best friend I got it from and I know he wouldn't do it on purpose" (May 2017), and "I swear I watched him weigh it" against a…  
   ↳ [[wiki/people/vaughn]] · The yard and the hustle, one channel
 - · **May 2017** — eric jester — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 41 pages
 - · **May 2017** — Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two Nemacolin caddying seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a fellow caddie in 2017 who came back for 2018 as **assistant caddie master** — "I'm actually gonna be assistant caddie…  
   ↳ [[wiki/people/davey-fitzpatrick]] · Davey Fitzpatrick
 - · **May 2017** — Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose message thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — sparse check-ins that resurface every year or two, each one picking back up exactly where the last left…  
@@ -101559,7 +101602,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-14** — Dan does not hear or process sung lyrics as language in real time — he stated this directly (2026-07-14): words in a song register to him essentially as **timbre**, another textural element of the vocal performance, not as semantic content to be parsed and understood the way lyrics function for…  
   ↳ [[wiki/interests/music/concepts/lyrics-as-timbre]] · Lyrics as Timbre
 - · **2026-07-14** — vanessa frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 41 pages
 - · **2026-07-14** — au zaatar — work  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-07-14** — Gaps:** surname — per Dan (2026-07-14), a Greek name starting with "A," not more precisely recalled; what became of him after the shed shutdown; no contact after December 2024 in this export.  
@@ -101623,7 +101666,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 41 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -102223,7 +102266,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
 - · **2026-08-23** — overview — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 41 pages
 - · **2026-08-23** — closing the set — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-23** — annie ulmer personality assessment — people  
@@ -102293,9 +102336,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 41 pages
 - · **2026-08-28** — full sail 2008 2010 — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 40 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 41 pages
 - · **2026-08-28** — chemical architecture — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 5 pages
 - · **2026-08-28** — cocaine — health  
@@ -102309,8 +102352,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — august grievance verdict — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-28** — estate money spine — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
-- · **2026-08-28** — failure to launch — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-28** — morgantown call three participant ethical analysis — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
@@ -102376,6 +102417,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/closing-the-set]] · The controls
 - ★ **2026-09-02** — What changed on 2026-09-02 is that it is no longer the same thing as having no primary source: 764 dated public originals cover these three years, and the page now rests on them for the move, the two apartments, the Williamsburg geography and the ishlab start.  
   ↳ [[wiki/timeline/periods/2010s]] · Transition
+- · **2026-09-02** — failure to launch — mind  
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-09-02** — He had no page here until 2026-09-02, and he is not named anywhere else in the corpus: no message thread, no Facebook exchange, no appearance on another person's page.  
   ↳ [[wiki/people/shane-brannan]] · Shane Brannan
 - · **2026-09-02** — Pre / Origin (Twitter + FB) — ~2010-2013 — **15 check-ins** (Google loc starts 2014)  

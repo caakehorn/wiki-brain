@@ -61,6 +61,7 @@ this is the state of the thing.
   - lint | mind | withdrawing the "two steps" politics finding published four hours earlier
   - ingest | people | the social graph, pass 2 — and an edge that was never actually written
   - ingest | interests/music | 2014 read in full — SLOPPP was an operating practice, and two named gaps close
+  - ingest | work/tech | one day of Codecademy in 2013, then thirteen years of nothing
 
 **2026-09-01** — 2 pages
 

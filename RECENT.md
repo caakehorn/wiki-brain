@@ -23,6 +23,7 @@ simply listed.
 - **Session log:** lint | mind | withdrawing the "two steps" politics finding published four hours earlier
 - **Session log:** ingest | people | the social graph, pass 2 — and an edge that was never actually written
 - **Session log:** ingest | interests/music | 2014 read in full — SLOPPP was an operating practice, and two named gaps close
+- **Session log:** ingest | work/tech | one day of Codecademy in 2013, then thirteen years of nothing
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -35,7 +36,7 @@ simply listed.
 | [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | **CORRECTED** — An earlier version of this section claimed the archive showed **two steps, not one** — a first step in 2017 (4.0% → 11.1%, "nearly tripling") separating *political engagement* from *socialist identity |
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
-| [[wiki/people/alexis-armel]] | people | _(carries a GAP CLOSED from 2026-08-28)_ |
+| [[wiki/people/alexis-armel]] | people | **CORRECTED** — this paragraph first read *"four months in."* That was wrong and it understated the finding. The operator capture of 2026-08-27 dates the meeting to **Thanksgiving 2009** (26 November); the tattoo is  |
 | [[wiki/people/dan-polyak]] | people | — |
 | [[wiki/people/eric-jester]] | people | **CORRECTED** — this page described the friendship itself as "sparse but genuinely warm." That is an accurate reading of the *message thread*, which begins **May 2017**. It is not an accurate description of the frien |
 | [[wiki/people/josh-brannan]] | people | — |
