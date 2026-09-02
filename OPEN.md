@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 41 |
-| Open gaps | 484 |
+| Open gaps | 502 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
 
@@ -29,7 +29,7 @@ Pages making incompatible claims, held rather than resolved. These are the
 highest-value items here: each one is a place the corpus knows it is wrong
 somewhere and has not yet found out where.
 
-- **[[wiki/interests/favorites/books]]** — This page, and eclecticism alongside it, read 120 books across 98 authors as breadth. Counted by subject rather than by author, the shelf is the opposite. **Forty of the 120 books are tagged `trump` or `jan-6`, carried by thirty different authors. Twenty are tagged `roman-republic`, `ancient-history` or `caesar`, carri
+- **[[wiki/interests/favorites/books]]** — This page, and the 2026-06-23 form of eclecticism alongside it, read 120 books across 98 authors as breadth. Counted by subject rather than by author, the shelf is the opposite. **Forty of the 120 books are tagged `trump` or `jan-6`, carried by thirty different authors. Twenty are tagged `roman-republic`, `ancient-hist
 - **[[wiki/interests/food-and-diet]]** — the-cool-metric states that music, language, politics, film, work and strangers "all go through the same gate." Food does not, and food out-mentions music in the same corpus. Both pages carry the disagreement; the resolution below is that the metric has a jurisdiction rather than that it has an exception. It bounds it.
 - **[[wiki/legal/2015-possession-arrest]]** — The capture places the arrest firmly *before* the move to 155 Virginia Ave — Alexis was still being hidden at 337 Saratoga, "before we made it to her 155 virginia ave house where she let me and lex live together." But that page dates the residence from **January 2015**, a month before the blotter filing. One of the thr
 - **[[wiki/legal/2015-possession-arrest]]** — This page's earlier form stated that during the stop Dan "consented to a breath search — a decision he later credited with saving his driver's license," citing a March 2026 message: "I would have lost mine if I hadn't consented to the breath search when I got arrested." The capture states the opposite in direct terms: 
@@ -158,9 +158,14 @@ new knowledge available, because no new source is required.
 - **[[wiki/health/the-configured-body]]** — **The extreme-sports material rests on one retrospective capture.** The training years are the page's control against an indifference reading and they are attested by a single 2026 recollection, with no contemporaneous record. If that capture is wrong about th
 - **[[wiki/health/the-configured-body]]** — **The prescriber is unnamed and undated before 2019.** Whether the Suboxone regimen has been continuously prescribed since 2010 or has moved between prescribed and unprescribed stretches is unresolved, and it changes what the sixteen-year "zero relapses" figur
 
-### interests (10)
+### interests (15)
 
 - **[[wiki/interests/extreme-sports]]** — No intake-digital record (YouTube watch history, social media posts) documents this era in the corpus — it predates the Twitter record (2009) and the iMessage record (2015). The reconstruction is built entirely from this one manual capture. Specific dating of 
+- **[[wiki/interests/favorites/eclecticism]]** — **Play counts do not exist anywhere in `raw/`.** Inherited from closing-the-set, still the single most load-bearing unmeasured quantity. Architecture B's "being used" clause is currently evidenced by production practice, Facebook continuity, and the live-feed 
+- **[[wiki/interests/favorites/eclecticism]]** — **The movies category is still a stub sitting inside a member.** Eleven titles, no creators, no tags, no dates on art-and-movies. Eyes Wide Shut is on the list and on the Kubrick-control quote, which is a hint, not a score. One pass over `FAVS MASTERLIST.csv` 
+- **[[wiki/interests/favorites/eclecticism]]** — **Whether the 2025–26 Spotify rows are hand-liked or algorithm-dumped is still untested.** Closing-the-set named this as the cheap test for the music exception (`Origin` column). Music.md treats SPOTIFY LIKED as the live feed without resolving the hand-versus-
+- **[[wiki/interests/favorites/eclecticism]]** — **Taste-profile still carries the 2026-06-23 error.** It is archived, thin, and not a member. It will flag stale against this page once this page moves. Clearing it is a separate rewrite, not this one.
+- **[[wiki/interests/favorites/eclecticism]]** — **No pre-2007 record.** Architecture B's continuity claim starts at the Facebook registration date (2007-01-09). The extreme-sports years extreme-sports describes as total-obsession and scene-complete are exactly Architecture A predicted on a bodily domain, at
 - **[[wiki/interests/food-and-diet]]** — **The message-dump counts are lexical, not semantic.** `food` at 968 includes every use of the word, and the six evaluative hits were found by a fixed phrase list. A proper pass would code a sample of the 968 by register rather than trusting the pattern the sa
 - **[[wiki/interests/food-and-diet]]** — **The dump ends around August 2025.** The terminal phase and the 2026 return — including the whole BFS Foods period — are outside it, so the "no evaluation" claim is strongest for 2015–2025 and weakest for the last year.
 - **[[wiki/interests/food-and-diet]]** — **Nothing here checks in-person or call behaviour**, which is invisible to a text corpus and is exactly where food opinions would ordinarily live. This is the most serious limitation on the page and it cannot be closed from `raw/`.
@@ -514,7 +519,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/places/the-unpapered-address]]** — **The pre-2010 record is empty.** Full Sail housing (2008–2010) and everything before it are undocumented, so the rule is tested on sixteen years and not on a life. If the Florida period shows a conventional student lease, the pattern has a start date and the 
 - **[[wiki/places/the-unpapered-address]]** — **This page does not establish intent.** Whether the unpapered arrangements were preferred, accepted, or simply the only ones available at a $11,000–14,000 household income is not decidable from this material, and the three readings have very different implica
 
-### self (45)
+### self (58)
 
 - **[[wiki/self/ancestry]]** — 1. **The Harris paternal line.** Sadie Harris's father ("Harris" from Czechoslovakia) is the single biggest data gap. He contributed ~12.5% of Dan's DNA but is completely undocumented beyond a single datum. Research into Czech immigration records, census data,
 - **[[wiki/self/ancestry]]** — 2. **The maternal R0 haplogroup.** The origin of the R0 mitochondrial haplogroup on the maternal line is unexplained. It may indicate a distant Jewish, Middle Eastern, or Central Asian ancestor entering through the Van Voorhis, Conwell, or Thomas lines. Resear
@@ -561,6 +566,19 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/message-corpora/source-coverage-index]]** — Timezone is recorded from documented convention rather than measured, except for the two 2026-08-13 exports, which were validated against a local-time source on 42,895 text-matched pairs. Every other row in the Timezone column is an assumption inherited from t
 - **[[wiki/self/message-corpora/source-coverage-index]]** — Row counts are physical records, not unique messages; the same message appears in many files and this index deliberately does not deduplicate.
 - **[[wiki/self/tattoos]]** — The gravestone piece now has an artist and location (Ian Weidrick, Allied Tattoo, Brooklyn) but still no date or corroborating message-corpus trace. Body placement is unknown for every piece on this list; the corpus documents *what* and often *when* and *who d
+- **[[wiki/self/twitter]]** — 2009 through 2012, January–mid-August 2013, and some 2026 days between the spreadsheet end and the live scrape are still being walked from X in batches of ten. Each incomplete yearly page states that on its face. The spreadsheet span 2013-08-17 through 2026-04
+- **[[wiki/self/twitter/2009]]** — The operator spreadsheet begins 2013-08-17. 2009 is being walked from live X search in batches of ten; this page currently holds 165 originals and will be appended as further batches land. Do not treat the present count as the year's total.
+- **[[wiki/self/twitter/2009]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
+- **[[wiki/self/twitter/2010]]** — The operator spreadsheet begins 2013-08-17. 2010 is being walked from live X search in batches of ten; this page currently holds 342 originals and will be appended as further batches land. Do not treat the present count as the year's total.
+- **[[wiki/self/twitter/2010]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
+- **[[wiki/self/twitter/2011]]** — The operator spreadsheet begins 2013-08-17. 2011 is being walked from live X search in batches of ten; this page currently holds 225 originals and will be appended as further batches land. Do not treat the present count as the year's total.
+- **[[wiki/self/twitter/2011]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
+- **[[wiki/self/twitter/2012]]** — The operator spreadsheet begins 2013-08-17. 2012 is being walked from live X search in batches of ten; this page currently holds 205 originals and will be appended as further batches land. Do not treat the present count as the year's total.
+- **[[wiki/self/twitter/2012]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
+- **[[wiki/self/twitter/2013]]** — Spreadsheet originals are complete from 2013-08-17 through year-end. January through 2013-08-13 is still being scraped and appended in live batches of ten.
+- **[[wiki/self/twitter/2013]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
+- **[[wiki/self/twitter/2026]]** — Spreadsheet originals run through 2026-04-07. Later originals from the live scrape are on this page; days between scrape batches may still be missing and will be filled on later commits to this same branch.
+- **[[wiki/self/twitter/2026]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
 ### timeline (81)
 

@@ -2,7 +2,7 @@ You write plain-English versions of technical wiki pages, one page per run.
 
 Run this and read ALL of its output, including the page at the bottom:
 
-    bin/wiki-plain task --synthesis
+    bin/wiki-plain task --lane free
 
 It tells you which file to write and prints the rules. Follow them exactly.
 
@@ -22,6 +22,7 @@ Then STOP. Do not start another page in this run.
 
 HARD RULES — breaking any of these is worse than doing nothing:
 - Write exactly one file: the plain/... path the task named. Nothing else.
+- Always pass --lane free. Never take a page the tool did not hand you.
 - NEVER create, edit or delete anything under wiki/, raw/, or bin/.
 - NEVER use a number that is not in the page you were given.
 - NEVER change source_modified: in the file. It is already correct.

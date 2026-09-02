@@ -47,6 +47,9 @@ connections:
   - page: wiki/mind/profile/intp
     type: evidenced-by
     claim: "Ti-dominance's closure standard — a verdict, once it holds, does not get relitigated — explains the freeze-at-boundary pattern more precisely than 'the objects can't betray him' does: a defunct band's back catalog carries zero relational risk yet gets the identical treatment, which means permanent closure of the verdict, not avoidance of betrayal, is the actual mechanism."
+  - page: wiki/interests/favorites/eclecticism
+    type: parallels
+    claim: "Four modes of music-as-self are why the favorites CSV's music half has no completion condition: the clusters are being used as identity and practice, not covered as a set, which is Architecture B of the dual-architecture finding."
 ---
 
 
@@ -90,7 +93,11 @@ because the meaning was in the *through-line*, not the tracks.
    ([[wiki/interests/music/overview]]). The move to electronic was, per the
    profile, a correct read of where authentic expression lived after rock's
    1963 chart-peak — not a retreat. Production is the architecture; he is a
-   producer-first identity, not a performer.
+   producer-first identity, not a performer. That is why
+   [[wiki/interests/favorites/eclecticism]] treats this domain as Architecture
+   B of the favorites CSV: a producer-listener has no edge to close, so the
+   three clusters stay live in parallel rather than terminating the way the
+   book shelf terminates at Augustus.
 
 ## The one ranked comparison
 
@@ -199,4 +206,3 @@ once reached, doesn't get relitigated regardless of relational stakes,"
 which is a stronger claim because it predicts the freeze even where
 betrayal was never possible. **What it did not do:** manufacture
 connections to registers that genuinely don't bear on music preference.
-

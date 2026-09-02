@@ -410,3 +410,240 @@ class TestWiredIntoTheChain(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main(verbosity=2)
+
+
+# ---------------------------------------------------------------------------
+# THE TWO LANES
+#
+# Two writers work this backlog at once — a strong model on the dense findings,
+# a weak free one on the short pages — and `next` ranked by word count with no
+# filter, so both were handed the same page. The split is arithmetic in the tool
+# rather than a convention each writer is trusted to remember, which means it is
+# a thing that can be wrong, which means it gets tests.
+#
+# The floor under the free lane is the part that had to be measured rather than
+# chosen. Ordering that lane smallest-first walked it straight into a 16-word
+# archived stub and then a run of concert records that are a date and a lineup
+# table. Neither has a finding to restate and neither carries falsifiers, so the
+# referee's honest-half rule fails every attempt: the agent burns its three
+# tries and gives up, on a page nobody wanted translated.
+# ---------------------------------------------------------------------------
+
+
+LANE_PAGE = """---
+title: "A Page"
+page_type: {page_type}
+status: {status}
+date_modified: 2026-08-28
+---
+
+# A Page
+
+{body}
+"""
+
+
+class LaneCase(unittest.TestCase):
+    def setUp(self):
+        self.t = Tree()
+        self.addCleanup(self.t.close)
+
+    def page(self, slug, n_words, page_type="synthesis", status="stable"):
+        """A page whose measured length is exactly `n_words`.
+
+        `words()` counts the whole body, and the body starts with the `# A Page`
+        heading — three tokens the caller did not ask for. Padding is trimmed by
+        that much and the result asserted, because a fixture that misses the
+        boundary by three words tests the wrong side of it and still passes.
+        """
+        heading = len("# A Page".split())
+        write(
+            os.path.join(wp.WIKI, f"{slug}.md"),
+            LANE_PAGE.format(
+                page_type=page_type,
+                status=status,
+                body=" ".join(["word"] * (n_words - heading)),
+            ),
+        )
+        measured = wp.Page(slug).words
+        assert measured == n_words, f"fixture is {measured} words, wanted {n_words}"
+
+    def lanes(self):
+        pages = wp.load()
+        return (
+            [p.slug for p in wp.lane_queue(pages, "major")],
+            [p.slug for p in wp.lane_queue(pages, "free")],
+        )
+
+
+class TestLaneBoundaries(LaneCase):
+    def test_the_boundary_is_inclusive_at_the_bottom_of_major(self):
+        self.page("mind/big", wp.MAJOR_MIN_WORDS)
+        self.page("mind/small", wp.MAJOR_MIN_WORDS - 1)
+        major, free = self.lanes()
+        self.assertEqual(major, ["mind/big"])
+        self.assertEqual(free, ["mind/small"])
+
+    def test_the_floor_is_inclusive_at_the_bottom_of_free(self):
+        self.page("mind/at", wp.FREE_MIN_WORDS)
+        self.page("mind/under", wp.FREE_MIN_WORDS - 1)
+        major, free = self.lanes()
+        self.assertEqual(free, ["mind/at"])
+        self.assertEqual(major, [])
+        self.assertEqual([p.slug for p in wp.below_floor(wp.load())], ["mind/under"])
+
+    def test_the_lanes_are_disjoint(self):
+        for i, n in enumerate((320, 700, 1200, 5000)):
+            self.page(f"mind/p{i}", n)
+        major, free = self.lanes()
+        self.assertEqual(set(major) & set(free), set())
+        self.assertEqual(len(major) + len(free), 4)
+
+
+class TestLaneHoldouts(LaneCase):
+    def test_people_are_in_neither_lane(self):
+        self.page("people/somebody", 1200)
+        self.page("people/somebody-else", 400)
+        self.assertEqual(self.lanes(), ([], []))
+
+    def test_generated_dataset_pages_are_in_neither_lane(self):
+        """A twin of a generated page is stale the next time its generator runs."""
+        self.page("meta/skills", 1200, page_type="dataset")
+        self.assertEqual(self.lanes(), ([], []))
+
+    def test_index_pages_are_in_neither_lane(self):
+        """Navigation carries no falsifiers, so the referee fails every attempt."""
+        self.page("self/index", 1200, page_type="index")
+        self.assertEqual(self.lanes(), ([], []))
+
+    def test_archived_pages_are_in_neither_lane(self):
+        self.page("mind/pinned", 1200, status="archived")
+        self.assertEqual(self.lanes(), ([], []))
+
+    def test_a_twin_already_written_leaves_the_queue(self):
+        self.page("mind/done", 1200)
+        self.t.twin("mind/done")
+        self.assertEqual(self.lanes(), ([], []))
+
+
+class TestLaneOrder(LaneCase):
+    def test_major_is_densest_first(self):
+        for slug, n in (("mind/a", 1000), ("mind/b", 3000), ("mind/c", 2000)):
+            self.page(slug, n)
+        self.assertEqual(self.lanes()[0], ["mind/b", "mind/c", "mind/a"])
+
+    def test_free_is_smallest_first(self):
+        """The free lane's writer is weak; keep it on pages it can finish."""
+        for slug, n in (("mind/a", 800), ("mind/b", 320), ("mind/c", 500)):
+            self.page(slug, n)
+        self.assertEqual(self.lanes()[1], ["mind/b", "mind/c", "mind/a"])
+
+
+class TestLaneRefusal(LaneCase):
+    """`task --lane` refuses out of lane, for the reason the moratorium refuses.
+
+    An agent told to work the free lane and handed a 4,900-word synthesis will
+    attempt it. Checking the caller's word rather than the page is how a lane
+    becomes advisory, and an advisory lane is not a lane.
+    """
+
+    def task(self, slug, lane):
+        import argparse
+        import contextlib
+        import io
+
+        args = argparse.Namespace(slug=slug, lane=lane, synthesis=False)
+        out, err = io.StringIO(), io.StringIO()
+        with contextlib.redirect_stdout(out), contextlib.redirect_stderr(err):
+            code = wp.cmd_task(args)
+        return code, err.getvalue()
+
+    def test_out_of_lane_is_refused(self):
+        self.page("mind/huge", 4000)
+        code, err = self.task("mind/huge", "free")
+        self.assertEqual(code, 2)
+        self.assertIn("not in the free lane", err)
+
+    def test_in_lane_is_handed_over(self):
+        self.page("mind/small", 400)
+        code, _ = self.task("mind/small", "free")
+        self.assertEqual(code, 0)
+
+    def test_the_moratorium_refuses_before_the_lane_does(self):
+        """Both refuse it; the reason the writer is given must be the directive."""
+        write(
+            os.path.join(wp.WIKI, "mind/hers.md"),
+            LANE_PAGE.format(page_type="synthesis", status="stable",
+                             body="Annie " * 40 + " ".join(["word"] * 4000)),
+        )
+        code, err = self.task("mind/hers", "free")
+        self.assertEqual(code, 2)
+        self.assertIn("moratorium", err)
+        self.assertNotIn("not in the free lane", err)
+
+
+class TestReport(LaneCase):
+    """The generated campaign page.
+
+    Two properties, and the first is the one that bites. The report is a page in
+    `wiki/` like any other, so counting itself puts the render in a loop: writing
+    the file changes the page count, which changes what the file should say,
+    which fails the drift check on the very next run.
+    """
+
+    def render(self):
+        return wp.render_report(wp.load())
+
+    def write_report(self):
+        import argparse
+        import contextlib
+        import io
+
+        with contextlib.redirect_stdout(io.StringIO()):
+            wp.cmd_report(argparse.Namespace(check_only=False))
+
+    def test_the_report_path_follows_the_roots(self):
+        """Frozen at import, it would point at the real corpus from a temp tree."""
+        self.assertTrue(wp.report_page().startswith(wp.WIKI))
+
+    def test_the_report_is_a_fixpoint(self):
+        self.page("mind/a", 1200)
+        self.write_report()
+        first = read_text(wp.report_page())
+        self.write_report()
+        self.assertEqual(first, read_text(wp.report_page()))
+
+    def test_the_report_excludes_itself_from_its_own_figures(self):
+        self.page("mind/a", 1200)
+        before = self.render()
+        self.write_report()
+        self.assertEqual(before, self.render())
+
+    def test_a_hand_edited_report_fails_the_gate(self):
+        self.page("mind/a", 1200)
+        self.write_report()
+        with open(wp.report_page(), "a", encoding="utf-8") as fh:
+            fh.write("\nCoverage is 100%.\n")
+        code, out = self.errors()
+        self.assertEqual(code, 1)
+        self.assertIn("readers-digest.md is behind the tree", out)
+
+    def test_a_tree_with_no_report_is_not_an_error(self):
+        """The page is campaign bookkeeping, not something every tree must carry."""
+        self.page("mind/a", 1200)
+        code, _ = self.errors()
+        self.assertEqual(code, 0)
+
+    def errors(self):
+        import contextlib
+        import io
+
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            code = wp.cmd_check(None)
+        return code, buf.getvalue()
+
+
+def read_text(path):
+    with open(path, encoding="utf-8") as fh:
+        return fh.read()

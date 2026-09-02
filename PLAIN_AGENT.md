@@ -15,15 +15,48 @@ Humans and strong models writing twins should read the TRANSLATE operation in
 
 ---
 
+## Two lanes, and this file is the free one
+
+Two writers work this backlog at once and they are not interchangeable. The
+split is arithmetic in `bin/wiki-plain` rather than a convention either is
+trusted to remember, because the failure mode of a convention here is both of
+them translating the same page and neither noticing.
+
+| Lane | What is in it | Who |
+|---|---|---|
+| `major` | 900 words and up — the dense findings | a strong model, following `CLAUDE.md`'s TRANSLATE operation |
+| `free` | 300 to 899 words, **worked smallest first** | a weak unattended agent, following this file |
+
+**Everything below is the free lane.** Pass `--lane free` and the tool will not
+hand out anything else — including if you name a page yourself, which it
+refuses with the lane and the page's length in the message.
+
+Three things are in neither lane and no agent should go looking for them:
+entries about other people, generated pages (`page_type: dataset`), and entries
+under 300 words. The reasoning for each is in `plain/DECLINED.md`. The counts
+are on `wiki/meta/readers-digest`, so work held back is visible as held back
+rather than looking like work nobody got to.
+
+The ordering is the part worth understanding. The free lane runs
+**smallest first** on purpose: a weak model's failure on a long page is silent.
+It returns a fluent, confident summary of the first three paragraphs, which
+reads fine, passes every arithmetic rule the referee has, and is the one defect
+`audit` structurally cannot see. Keeping the lane on pages that fit in one
+context is what stops that happening, and it is why the lane is not simply "the
+rest of the backlog".
+
+---
+
 ## The one-command loop
 
 Everything the agent needs for one page comes out of one command, including the
 rules and the full text of the page:
 
 ```bash
-bin/wiki-plain task --synthesis     # densest untranslated synthesis page
-bin/wiki-plain task                 # densest untranslated page of any kind
+bin/wiki-plain task --lane free     # the free lane's next page — smallest first
+bin/wiki-plain task --lane major    # the major lane's next page — densest first
 bin/wiki-plain task <slug>          # a specific page
+bin/wiki-plain next --lane free 10  # look at the queue without claiming anything
 ```
 
 `task` picks the page, scaffolds `plain/<slug>.md` with the frontmatter already
@@ -58,7 +91,7 @@ You write plain-English versions of technical wiki pages, one page per run.
 
 Run this and read ALL of its output, including the page at the bottom:
 
-    bin/wiki-plain task --synthesis
+    bin/wiki-plain task --lane free
 
 It tells you which file to write and prints the rules. Follow them exactly.
 
@@ -141,15 +174,56 @@ done
 
 **Before scheduling anything, satisfy these three:**
 
-1. `bin/wiki-plain status` shows work outstanding. When coverage reaches the
-   eligible count the loop has nothing to do and `task` says so.
+1. `bin/wiki-plain report` shows work outstanding in the free lane. When the
+   lane empties, `task --lane free` says so and the loop has nothing to do.
 2. The agent runs on a branch, not `main`, and a human merges. The gate stops
    slop; it does not stop a plausible-but-wrong reading, and nothing mechanical
    can.
+
+   ```bash
+   git checkout -B plain/free-lane origin/main
+   ```
+
+   One branch for the campaign, one PR, commits appended as they land. Not a
+   branch per page: twenty branches is twenty merges, and the point of the lane
+   is that the work is uniform enough to review in batches.
 3. You have read the first three twins it produces, in full, yourself. The
    audit tells you the twin carries the page's numbers. It cannot tell you the
    twin carries the page's *argument*. That check is yours and there is no
    substitute for it.
+
+---
+
+## Reporting
+
+There is nothing for the agent to report and nothing for it to update. Progress
+is **derived**, not filed:
+
+```bash
+bin/wiki-plain report      # coverage, both lanes, and who wrote what
+```
+
+It reads the tree for coverage and the git log for attribution — by the author
+of the last commit to touch each twin — and regenerates
+`wiki/meta/readers-digest`, which the portal serves like any other entry. So
+the campaign is legible from a phone without anybody maintaining a ledger, and
+an agent that forgets to report has still reported, because its commits are the
+report.
+
+Two consequences worth knowing:
+
+- **The page is generated.** A hand-edit fails `bin/wiki-plain check`, which
+  gates in `bin/wiki-check`. The fix is to rerun the tool, never to edit the page.
+- **Attribution needs a full clone.** A shallow clone's log does not reach the
+  commits that wrote most twins; the tool says so rather than publishing a wrong
+  number. `git fetch --unshallow` if the writer column is missing.
+
+The commit message is the one thing the agent must get right, because it is what
+the report and `bin/wiki-history` both read:
+
+```
+translate: <slug>
+```
 
 ---
 
