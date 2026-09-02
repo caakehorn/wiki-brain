@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-02
-493 pages, ~1,729,746 tokens.
+493 pages, ~1,729,778 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10201,6 +10201,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | people | 2009 read in full — an operator testimony corroborated, and my own error corrected
   - ingest | self/mind/interests | 2022 read in full — a stated gap closed, an account older than its record, and a second radicalization mechanism
   - ingest | mind | "conspiracy crank" is a label his own behaviour contradicts
+  - ingest | interests/self | 2024 read in full — the Roman interest starts on YouTube, and the account's peak is one evening
 
 **2026-09-01** — 2 pages
 

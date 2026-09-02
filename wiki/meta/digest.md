@@ -73,6 +73,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | people | 2009 read in full — an operator testimony corroborated, and my own error corrected
   - ingest | self/mind/interests | 2022 read in full — a stated gap closed, an account older than its record, and a second radicalization mechanism
   - ingest | mind | "conspiracy crank" is a label his own behaviour contradicts
+  - ingest | interests/self | 2024 read in full — the Roman interest starts on YouTube, and the account's peak is one evening
 
 **2026-09-01** — 2 pages
 

@@ -27,6 +27,7 @@ simply listed.
 - **Session log:** ingest | people | 2009 read in full — an operator testimony corroborated, and my own error corrected
 - **Session log:** ingest | self/mind/interests | 2022 read in full — a stated gap closed, an account older than its record, and a second radicalization mechanism
 - **Session log:** ingest | mind | "conspiracy crank" is a label his own behaviour contradicts
+- **Session log:** ingest | interests/self | 2024 read in full — the Roman interest starts on YouTube, and the account's peak is one evening
 
 | Page | Domain | What moved |
 |---|---|---|
