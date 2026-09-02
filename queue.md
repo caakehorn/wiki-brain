@@ -87,7 +87,7 @@ frontmatter), forensic-methodology (20 KB), context-core (14 KB), youtube-watch-
 
 ## External acquisitions
 
-- Twitter @danfrank: only sampled — full archive via X Settings → Download archive → drop in inbox/
+- Twitter @danfrank: yearly wiki pages up at wiki/self/twitter/ (originals + quote-tweets). Spreadsheet 2013-08-17–2026-04-07 complete. 2009–mid-2013 and late 2026 still being scraped live onto the same pages. Official X Settings zip still welcome as a completeness check.
 - iMessage chat.db: bin/export-imessage-template.sh existed in old repo but never ran (needs Full Disk Access)
 
 ## Completed

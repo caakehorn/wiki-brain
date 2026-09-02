@@ -3,7 +3,7 @@ domain: self
 page_type: index
 status: stable
 date_created: 2026-07-11
-date_modified: 2026-07-25
+date_modified: 2026-09-02
 sources: []
 related: []
 ---
@@ -27,7 +27,7 @@ The self domain contains files and data detailing identity, core biographical fa
 - [[wiki/self/favorites]] — This page is the original synthesis. For expanded version with dozens of sub-pages, see the new structure.
 - [[wiki/self/location-history]] — Peak mobility 2017-2018 (2,827 visits). NYC chapter 2019 onward accounts for majority of non-PA. 2020-21…
 - [[wiki/self/overview]] — Daniel A. Frank (Dan Frank). A high-intellect systems-builder (95th percentile),…
-- [[wiki/self/twitter]] — Personal account: @danfrank ("insufferable politics sicko"). Active since at least December 2019 (sampled…
+- [[wiki/self/twitter]] — @danfrank text archive, one page per year, originals and quote-tweets only. Spreadsheet-complete 2013-08-17–2026-04-07; earlier years and 2026 after April still being scraped.
 - [[wiki/self/youtube-watch-history]] — Extensive personal YouTube activity log spanning nearly two decades. 17,302 "Watched" events + 248…
 
 ## concepts
@@ -80,3 +80,24 @@ The self domain contains files and data detailing identity, core biographical fa
 - [[wiki/self/lineage/23andme-genomics]] — 23andMe DNA composition, chromosome painting, Neanderthal data.
 - [[wiki/self/lineage/hybrid-analysis]] — Cross-referenced analysis (speculative).
 - [[wiki/self/concepts/astrology-star-signs]] — zodiac signs of the highest-velocity contacts, derived only from primary testimony; two known of the top twenty, and the Scorpio–Cancer reading of the Ally attachment.
+
+## twitter
+
+- [[wiki/self/twitter/2009]] — original @danfrank tweets for 2009
+- [[wiki/self/twitter/2010]] — original @danfrank tweets for 2010
+- [[wiki/self/twitter/2011]] — original @danfrank tweets for 2011
+- [[wiki/self/twitter/2012]] — original @danfrank tweets for 2012
+- [[wiki/self/twitter/2013]] — original @danfrank tweets for 2013
+- [[wiki/self/twitter/2014]] — original @danfrank tweets for 2014
+- [[wiki/self/twitter/2015]] — original @danfrank tweets for 2015
+- [[wiki/self/twitter/2016]] — original @danfrank tweets for 2016
+- [[wiki/self/twitter/2017]] — original @danfrank tweets for 2017
+- [[wiki/self/twitter/2018]] — original @danfrank tweets for 2018
+- [[wiki/self/twitter/2019]] — original @danfrank tweets for 2019
+- [[wiki/self/twitter/2020]] — original @danfrank tweets for 2020
+- [[wiki/self/twitter/2021]] — original @danfrank tweets for 2021
+- [[wiki/self/twitter/2022]] — original @danfrank tweets for 2022
+- [[wiki/self/twitter/2023]] — original @danfrank tweets for 2023
+- [[wiki/self/twitter/2024]] — original @danfrank tweets for 2024
+- [[wiki/self/twitter/2025]] — original @danfrank tweets for 2025
+- [[wiki/self/twitter/2026]] — original @danfrank tweets for 2026

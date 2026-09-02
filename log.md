@@ -7421,3 +7421,15 @@ pages behind on 2026-08-20, arriving from a new direction.
 is deterministic across runs, that a hand-edit is a red gate, that a missing
 page warns rather than fails, and that no per-day *value* ever reaches it.
 Gates: `bin/wiki-check` all clean, 473 pages.
+
+## [2026-09-02] ingest | self | @danfrank twitter archive as yearly pages
+
+Operator asked for a wiki section of every @danfrank tweet, one page per year, nothing omitted except pure reposts with no quote text.
+
+**What landed.** `wiki/self/twitter.md` rewritten as the hub. Yearly pages `wiki/self/twitter/2009.md`–`wiki/self/twitter/2026.md`. Canonical raw at `raw/self/twitter/archive.jsonl` plus the operator spreadsheet `raw/self/twitter/tweet-archive.xlsx` (Drive: Dan Frank - Tweet Archive).
+
+**Inclusion rule, applied.** Spreadsheet `Original` rows kept (1316 after merge math is in the jsonl). Spreadsheet `Repost` rows dropped (229): their text field is the other person's tweet. Quote-tweets with Dan's own text kept, including 2026 live scrape. Typed old-style `RT @user:` lines kept.
+
+**Coverage.** Spreadsheet originals are complete 2013-08-17 through 2026-04-07. 2009–2012, pre-2013-08-17, and 2026 after 7 April are live X batches of ten, committed incomplete on purpose so the complete span is not waiting on the scrape. Each incomplete yearly page states the gap.
+
+**Years on disk:** 2009, 2010, 2011, 2012, 2013, 2014, 2015, 2016, 2017, 2018, 2019, 2020, 2021, 2022, 2023, 2024, 2025, 2026.
