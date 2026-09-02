@@ -4,6 +4,71 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-02] - Session: mining the twitter archive across the wiki (Claude Opus 5)
+
+* **Branch:** `claude/mine-tweets-wiki-brain-zi6nue` · **PR:** #239 · all gates green at each of five commits.
+* **Trigger:** operator — "start a project of mining the tweets that were just added to the wiki-brain for data that gets included and linked across the entire wiki."
+
+**The premise.** The archive was *transcribed*, not mined. 2,525 originals in
+`raw/` and eighteen yearly pages under `wiki/self/twitter/`, all gates green —
+and no page outside that tree reasoned from it. See the third observation added
+to `skills/INBOX.md` for why that state is invisible from the tree.
+
+**Built:** `bin/mine-tweets` (`stats`, `years`, `grep`, `handle`, `entities`,
+`timeline`, `hours`, `top`). Encodes five traps: two sources of different
+fidelity (122 rows have null engagement, concentrated in the live scrape, so
+every engagement figure carries its coverage share); an @handle is three
+different acts (address / mention / RT-quote — @diplo is 10 mentions but 4
+addresses); 114 truncated rows excluded from length figures; the 19-copy "2024
+year of the dragon" refrain named rather than silently deduplicated; 6
+empty-text rows.
+
+**What moved, all cited to dated tweets with URLs:**
+
+| Page | What changed |
+|---|---|
+| `timeline/periods/2010s` | Its **declared gap closed**. Move date is 28 Feb 2010 (not April, not Jan 3); Brooklyn→Manhattan is 29–30 Mar 2012 (not May); 764 first-party originals inside the period, so it no longer "rests on reconstruction" |
+| `timeline/periods/full-sail-2008-2010` | Pro Tools cert pinned to 19:40 UTC 26 Jan 2010, failed once the day before; "Brooklyn here we come!!" 11 minutes later — a test score is the period's causal hinge |
+| `self/tattoos` | **Thesis falsified.** First tattoo is 23 Jan 2010, the letter "A" for Alexis — not a cultural reference, which the page said all pieces were. Morrissey piece added; Chris Brown "tattoo" recorded as a joke so a grep can't file it |
+| `self/location-history` | 2010–2013 was "N/A (loc starts 2014)". 15 Foursquare check-ins with street addresses, Mar 2010–Jan 2011, south Williamsburg. "No contradiction" corrected to a CONTRADICTION |
+| `self/facebook` | "Every field cross-checks" was false. `places lived` wrong by 8 weeks while `work history` is right — same export, contradicting itself |
+| `interests/music/overview` | No post about his own music **7 Mar 2016 → 4 Mar 2026**, ten years across 908 originals, nine of them not quiet (2024 is the archive's peak at 258). Second witness for `failure-to-launch` |
+| `interests/music/aliases/sloppp` | `date_range_end` 2015-12-26 → 2016-03-07 |
+| `self/twitter` (hub) | Ledger of what the archive settled and what it did not; 12 year pages the hub had never claimed with a `contains` edge |
+
+**What the archive could NOT settle, and is not claimed:** the May 2013
+departure from NYC. NY references run 8.8/8.9/10.2% across 2010–12 then 0.3% in
+2013 — the right shape for a spring exit, not a date. Still rests on
+context-core.
+
+**Next, in value order:**
+1. **The people pass is not done.** `bin/mine-tweets handle` splits 40+ handles
+   by address/mention/year-span. `@alexisarmel` (84, 56 addressed, 2009–2014)
+   got the tattoo finding only; `@ericjester` (22), `@danpolyak` (21),
+   `@shane_brannan` (19), `@woodguts` (17), `@lo_weez` (17, 2015–2020),
+   `@ulmdub` (6, 2015–16 — the Ulmer connection in public) all have pages and
+   none has been mined. `@iamcoreybrown`, `@yamez1`, `@jfriedline`,
+   `@joshbrannan` recur and are worth checking for missing entities.
+2. **The politics arc.** 2012 Obama liveblogging → 2013 atheism/Dorner → 2017
+   Sessions → 2020 DSA → 2022 J6 → 2024 Luigi is a dated ideological
+   trajectory, and `wiki/mind/synthesis/political-psyops` and
+   `wiki/mind/politics/axioms` should be read against it.
+3. **Hurricane Sandy, Oct 2012** — he ran a liveblog from the Upper East Side.
+   Nothing on the wiki covers it as an event.
+4. **Codecademy badges, Feb 2013** — dated evidence of a self-teaching
+   programming attempt, thirteen years before the 2026 AI-tooling work.
+5. **2009 is unmined entirely** (165 originals, the Full Sail year).
+
+**Also done:** three observations in `skills/INBOX.md` (absence claims need an
+over-broad pattern; entered-vs-generated fields inside one export; a
+transcribed source is not a mined one). None promoted — each needs a second
+instance, and the named candidates are written into each entry.
+
+**Not touched:** the 88 standing stale-premise warnings in `WORK.md`. They
+predate this session, none was created by it (nothing reasons from the pages I
+bumped via `synthesizes:`), and draining them is a `wiki-housekeeping` pass
+rather than an ingest.
+
 ### [2026-09-02] - Session: @danfrank yearly twitter archive (in progress)
 
 * **Model:** Grok Build · **Branch:** `ingest/twitter-archive`.

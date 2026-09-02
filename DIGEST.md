@@ -54,6 +54,7 @@ this is the state of the thing.
   - translate | mind | synthesis/the-embedded-objective
   - translate | self | youtube-watch-history
   - ingest | self/timeline/people | @danfrank twitter archive — mined across the wiki
+  - ingest | interests/music | the production identity has a public arc, and it stops for ten years
 
 **2026-09-01** — 2 pages
 

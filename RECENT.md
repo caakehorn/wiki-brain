@@ -16,6 +16,7 @@ simply listed.
 - **Session log:** translate | mind | synthesis/the-embedded-objective
 - **Session log:** translate | self | youtube-watch-history
 - **Session log:** ingest | self/timeline/people | @danfrank twitter archive — mined across the wiki
+- **Session log:** ingest | interests/music | the production identity has a public arc, and it stops for ten years
 
 | Page | Domain | What moved |
 |---|---|---|
