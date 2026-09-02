@@ -13,6 +13,9 @@ infobox:
   relationship_to_dan: unknown
   known_for: "Uniontown-era friend; a warm 2017 reconnection thread and the subject of a running private joke Dan carries into later friendships"
 connections:
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "Ten tweets across 2009-2012 place Josh in the Pennsylvania half of the social graph alongside Jerad Friedline, and include him in the 23 February 2012 cohort list — the only enumeration of Dan's core friend group in the corpus."
   - page: wiki/people/shane-brannan
     type: co-occurs
     claim: "Shane and Josh share a surname and are addressed together in a single tweet on 6 November 2012, placing them in one household or family; the exact relation is undocumented."
@@ -30,6 +33,29 @@ reference point in Dan's friendship with
 [[wiki/people/jerad-friedline|Jerad Friedline]], where a private joke
 about Josh eventually gets crystallized into an AI-generated audio file
 years later.
+
+## The tweet record, 2009–2012
+
+Ten tweets place Josh in the **Pennsylvania** half of Dan's social world,
+distinct from the Orlando/Full Sail cohort. He appears paired with
+[[wiki/people/jerad-friedline|Jerad Friedline]] three times — *"i'm thankful
+for my family/friend, sour diesel, tropical lifesaver gummies, and
+@joshbrannan / @jfriedline for their sign stealing abilities"* (26 November
+2009), *"seeing my boyzzzz @jfriedline @joshbrannan tonight"* (21 December
+2009), and a Pitt–WVU game the day after Thanksgiving 2009 (*"pitt x wvu with
+@joshbrannan , my true love"*).
+
+**He is in the cohort list.** On **23 February 2012** Dan posts, from
+Manhattan, *"People who need to come visit me: @danpolyak @EricJester
+@JoshBrannan @Woodguts"* — the only enumeration of his core friend group in
+the corpus, and the one place the Orlando and Pennsylvania halves of it are
+named together.
+
+On **6 November 2012**, election night, he writes to Josh,
+[[wiki/people/shane-brannan|Shane]] and a third handle: *"I'm in haytrobe
+miss you fux"* — Latrobe, PA, so he was back in Pennsylvania that night, and
+homesick enough to say so.
+
 
 ## The 2017 reconnection
 

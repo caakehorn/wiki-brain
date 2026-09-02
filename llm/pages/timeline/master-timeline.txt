@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,351 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 678 · Tier 2 405 · Tier 3 2,268.
+**3,368 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 682 · Tier 2 407 · Tier 3 2,279.
 
 ## What counts as an event here
 
@@ -495,6 +495,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ### 1994
 
+- ★ **January 1994** — He teases her about school while she is finishing high school (she was born January 1994): *"get it together!  
+  ↳ [[wiki/people/vanessa-frank]] · The sibling register, 2011–2013
 - ★ **1994-01-16** — Vanessa born, Greensburg  
   ↳ [[wiki/people/suzanne-frank]] · Timeline
 - ★ **1994-01-16** — Dan's younger sister, born January 16, 1994, in Greensburg, Pennsylvania — the fourth member of the nuclear family with parents rick frank and suzanne frank.  
@@ -960,6 +962,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/eric-jester]] · The dense years the message record cannot see
 - ◆ **2009-11-24** — PT1 bitch"*, 24 Nov 2009), *Flight of the Conchords* (*"slapa da bass mon!"*), *The Office*, an aborted potato-famine joke because *"I wouldn't be able to stand the grim reply i'd get from @ericjester"* (31 Aug 2010), and the needling that dates his own life events — *"got a girlfriend and forgot…  
   ↳ [[wiki/people/eric-jester]] · The dense years the message record cannot see
+- ★ **2009-11-26** — He appears paired with Jerad Friedline three times — *"i'm thankful for my family/friend, sour diesel, tropical lifesaver gummies, and @joshbrannan / @jfriedline for their sign stealing abilities"* (26 November 2009), *"seeing my boyzzzz @jfriedline @joshbrannan tonight"* (21 December 2009), and a…  
+  ↳ [[wiki/people/josh-brannan]] · The tweet record, 2009–2012
 
 ## 2010s
 
@@ -993,6 +997,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/alexis-armel]] · He tattooed her initial four months in
 - ★ **2010-01-23** — On the evening of **Saturday 23 January 2010** — he was still in Florida, five weeks from the move to Brooklyn — he posted:  
   ↳ [[wiki/self/tattoos]] · The first one: "A", January 2010
+- · **2010-01-23** — The register is warm and unguarded in a way the Facebook thread is not — *"i like your state of mind brobro"* (23 January 2010), *"yayayayaya can't wait to see you duder"* (19 March 2010), *"too early to call for induction into the meme hall of fame? also-- MISS U"* (20 July 2010).  
+  ↳ [[wiki/people/dan-polyak]] · Four years before the Facebook thread
 - · **2010-01-23** — "A"** — Alexis Armel's initial — not a cultural reference — Unknown — Unknown, Florida  
   ↳ [[wiki/self/tattoos]] · The list
 - · **2010-01-23** — tattoos, alexis armel  
@@ -1190,6 +1196,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The arithmetic of not stopping
 - ★ **June 2011** — Nineteen tweets between June 2011 and March 2016 — eighteen of them opening with his handle, which makes this a direct-address relationship rather than a name Dan drops in passing — and the subject matter barely varies.  
   ↳ [[wiki/people/shane-brannan]] · Shane Brannan
+- · **2011-06-25** — Bridge is great for making PDF's!"* (25 June 2011) — Adobe Bridge, i.e. a production workflow conversation, not a joke.  
+  ↳ [[wiki/people/dan-polyak]] · Four years before the Facebook thread
 - ◆ **2011-06-27** — StarCraft II, played seriously.** *"star2 is mad gosu"* (27 June 2011)  
   ↳ [[wiki/interests/video-games]] · The PC and Xbox years (2011–2014) — the hole in the middle
 - · **2011-06-27** — The counter-evidence is in the same tweets, and it is Dan's own framing.** On 27 June 2011 he writes: *"I dedicate the little bit of gaming time I do have strictly to star2."* That is a man describing a constrained hobby, not a passion — he is explaining that he specialises *because* there is so…  
@@ -1198,6 +1206,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/shane-brannan]] · What they talked about
 - · **2011-06-27** — "no tbh I dedicate the little bit of gaming time I do have strictly to star2. You play?"  
   ↳ [[wiki/people/shane-brannan]] · What they talked about
+- · **2011-07-28** — He wishes her luck before something on 28 July 2011.  
+  ↳ [[wiki/people/vanessa-frank]] · The sibling register, 2011–2013
 - ◆ **August 2011** — The apartment was also a genuine social hub for the wider Full Sail/Uniontown-diaspora circle documented elsewhere: Jamie Mohler was a routine visitor closely tracked enough that Alexis asked after a missed visit due to a knee injury (Aug 2011), and the address anchors two dated group events — the…  
   ↳ [[wiki/places/424-bedford-ave]] · The household
 - · **August 2011** — Oscar's own Facebook thread independently confirms the two men knew each other from the Full Sail years (an August 2011 exchange places them coordinating around Hurricane Irene), closing the loop on how Dan and Oscar were connected in the first place.  
@@ -1210,6 +1220,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/jamie-mohler]] · Corpus record
 - · **2011-08-26** — On August 26, 2011, Dan writes: "mohler and i are heading out of town tonight because of the hurricane" — Jamie Mohler, evacuating together ahead of Hurricane Irene, which struck the New York area two days later.  
   ↳ [[wiki/people/oscar-lindquist]] · Hurricane Irene, dated
+- · **2011-09-21** — 21 September 2011, the Troy Davis execution.** Dan is 22 and Vanessa is 17.  
+  ↳ [[wiki/people/vanessa-frank]] · Political kinship
 - · **October 2011** — Ej Rags is a Williamsburg, Brooklyn contact — "a block from the bridge" as of an October 2011 hello — whose one substantive exchange, July 12, 2013, is really about one thing: Dan's own account of why he destroys his creative work.  
   ↳ [[wiki/people/ej-rags]] · Ej Rags
 - · **October 2011** — The Google Talk log itself carries no exact date (internal evidence — Occupy Wall Street, approaching Jewish fall holidays — narrows it to roughly October 2011, though the Hurricane Irene message independently pins the friendship's presence two weeks earlier); the specific day and circumstance of…  
@@ -1226,6 +1238,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/oscar-lindquist]] · Hurricane Irene, dated
 - ★ **November 2011** — Day-to-day, the recovered emails show a normal office job: covering for migraines and doctor's appointments (a recurring pattern — July, September, October, November 2011, January 2012), coordinating client relationships with **Walmart** (Simona Rabsatt) and **Molson Coors** (Lori Estabrooks)…  
   ↳ [[wiki/work/creative-license]] · What the job actually was
+- · **2011-11-24** — He tells her she and Aubrey Plaza *"are the same person"* (24 November 2011).  
+  ↳ [[wiki/people/vanessa-frank]] · The sibling register, 2011–2013
 - ★ **December 2011** — The relationship's real substance is in what Dan told a former coworker, Renae Holland, three months after leaving: that in December 2011, while Dan was still employed, McKiernan had used Dan's own email and LinkedIn account to send recommendation-removal requests to former employees — Renae among…  
   ↳ [[wiki/people/kevin-mckiernan]] · The whistleblower disclosure (May 2012)
 - ★ **December 2011** — airfare fraud as quit ground  
@@ -1242,6 +1256,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/chats/gemini-58]] · Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)
 - · **December 2011** — W-2 "in the mail" hostage w/ Marty.  
   ↳ [[wiki/self/chats/gemini-58]] · Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)
+- · **2011-12-07** — And on 7 December 2011: *"wtf just got a text from mom about this I hate you all"* — the sibling channel operating as the place to complain about the family channel, which is the same function it serves in the 2020s thread.  
+  ↳ [[wiki/people/vanessa-frank]] · The sibling register, 2011–2013
 
 ### 2012
 
@@ -1257,10 +1273,18 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/matt-dunn]] · The Oscar Lindquist coincidence, dated
 - · **2012-02-01** — Date range, all sources  
   ↳ [[wiki/people/matt-dunn]] · Corpus record
+- ◆ **2012-02-23** — The cohort list names him first.** On **23 February 2012**, from Manhattan, Dan posts the only enumeration of his core friend group anywhere in the corpus: *"People who need to come visit me: @danpolyak @EricJester @JoshBrannan @Woodguts."* Four names, and Polyak leads.  
+  ↳ [[wiki/people/dan-polyak]] · Four years before the Facebook thread
 - ◆ **2012-02-23** — Dated to the day, the cohort exists as a named set.** On **23 February 2012**, from Manhattan, Dan posts a list: *"People who need to come visit me: @danpolyak @EricJester @JoshBrannan @Woodguts."* Four names, no others — Dan Polyak, Eric, Josh Brannan, and an unidentified @Woodguts.  
   ↳ [[wiki/people/eric-jester]] · The dense years the message record cannot see
+- ◆ **2012-02-23** — He is in the cohort list.** On **23 February 2012** Dan posts, from Manhattan, *"People who need to come visit me: @danpolyak @EricJester @JoshBrannan @Woodguts"* — the only enumeration of his core friend group in the corpus, and the one place the Orlando and Pennsylvania halves of it are named…  
+  ↳ [[wiki/people/josh-brannan]] · The tweet record, 2009–2012
+- · **2012-02-23** — I set the bar oh so high for high school performance, I'm sure it's hard to live up to :)"* and, minutes later, *"aww that's okay/ you didn't have a chance, given my flawless HS career"* — both on 23 February 2012, and both funnier against what his own high school years actually were.  
+  ↳ [[wiki/people/vanessa-frank]] · The sibling register, 2011–2013
 - ◆ **2012-02-27** — He authored the single most-quoted line in the entire Creative License record — a February 27, 2012 email that reads, in full: "It's a trust issue.  
   ↳ [[wiki/people/marty-jackson]] · Martin O. Jackson ("Marty")
+- · **March 2012** — Gap:** the handle change from @veefrank to @VanessaFrankzz falls between March 2012 and April 2013 and is undated; nothing in the corpus explains it.  
+  ↳ [[wiki/people/vanessa-frank]] · The sibling register, 2011–2013
 - · **March 2012** — Escalation filed by Dan  
   ↳ [[wiki/work/creative-license]] · Corpus record
 - ★ **2012-03-01** — They moved March 1, 2012 and returned to Uniontown (337 Saratoga Drive) exactly thirteen months later, on April 1, 2013.  
@@ -1313,6 +1337,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/video-games]] · The PC and Xbox years (2011–2014) — the hole in the middle
 - · **2012-11-06** — shane brannan** — Who he is to Josh is undocumented — the shared surname and the joint address of 6 November 2012 establish that they are connected, and nothing establishes how. Whether the friendship continued past March 2016 is unknown: he does not appear in any message expor  
   ↳ [[wiki/meta/open-questions]] · people (169)
+- · **2012-11-06** — On **6 November 2012**, election night, he writes to Josh, Shane and a third handle: *"I'm in haytrobe miss you fux"* — Latrobe, PA, so he was back in Pennsylvania that night, and homesick enough to say so.  
+  ↳ [[wiki/people/josh-brannan]] · The tweet record, 2009–2012
 - · **2012-11-06** — "I just saw the IGN review. Had NO idea that it would be anything more than mediocre."  
   ↳ [[wiki/people/shane-brannan]] · What they talked about
 - · **2012-11-06** — The two tweets outside the pattern are the 6 November 2012 group address (*"@JoshBrannan @Shane_Brannan @jebskis I'm in haytrobe miss you fux"* — written from New York, missing home) and the last one, 17 March 2016, which is a joke video about walking.  
@@ -1352,6 +1378,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · The measurement: dormancy involves no decay
 - · **April 2013** — Name likely variant of "Menor" or placeholder; re-entry contact after Dan left NYC (April 2013–Nov 2018, 5.5-year gap).  
   ↳ [[wiki/people/menore]] · Identity & Role
+- · **April 2013** — In April 2013 he is listening to her broadcasting something live — *"@VanessaFrankzz you still on? just loaded stream"*, then twelve minutes later *"i listened until i heard 'swag james brown swag swag'"*.  
+  ↳ [[wiki/people/vanessa-frank]] · The sibling register, 2011–2013
 - · **April 2013** — 90th st manhattan — 2012–2013 — Alexis, jointly; a sublet — **None  
   ↳ [[wiki/places/the-unpapered-address]] · Seven addresses, one structure
 - · **Spring 2013** — New York references run 8.8%, 8.9% and 10.2% of originals in 2010, 2011 and 2012 and fall to 0.3% in 2013 — the right shape for a spring 2013 exit, and not a date.  
@@ -1468,6 +1496,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/2010s]] · Transition
 - · **2013-08-19** — Lemon Molly Melancholy — Original  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
+- · **2013-08-19** — The last tweet is 19 August 2013 — a Timehop link, which is to say a nostalgia artifact — and the Facebook thread takes over from there.  
+  ↳ [[wiki/people/dan-polyak]] · Four years before the Facebook thread
 - ◆ **2013-08-30** — 35 — Oddball Comedy & Curiosity Festival — Post-Gazette Pavilion (First Niagara Pavilion) — Burgettstown, PA — Confirmed.  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
 - ◆ **2013-08-30** — Dave Chappelle is a comedian Dan Frank saw perform live at the Oddball Comedy & Curiosity Festival on Aug 30, 2013, at Post-Gazette Pavilion, Burgettstown, PA.  
@@ -1898,6 +1928,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
 - ★ **December 2015** — The relationship is steady and low-conflict across the corpus (709 messages, December 2015 – March 2026), and its defining quality is political alignment: she is Dan's ideological peer inside the family, arriving at the same materialist-left positions from her own direction, and she doubles as a…  
   ↳ [[wiki/people/vanessa-frank]] · Vanessa C. Frank
+- ★ **December 2015** — Eleven tweets across two handles — **@veefrank** (2011–2012) and **@VanessaFrankzz** (2013) — are the only record of the relationship before the message thread opens in December 2015.  
+  ↳ [[wiki/people/vanessa-frank]] · The sibling register, 2011–2013
+- ★ **December 2015** — Everything else here is from the iMessage thread except the 2011–2013 section above, which is from the tweet archive and is the only evidence of the relationship before December 2015.  
+  ↳ [[wiki/people/vanessa-frank]] · Notes and gaps
 - ★ **December 2015** — What the archive does not say:** where on his body it is, who did it, whether it is still there, and whether it was ever covered or reworked after the relationship ended in December 2015.  
   ↳ [[wiki/self/tattoos]] · The first one: "A", January 2010
 - ★ **December 2015** — Multiple: Breakup with Lex ("Call him and be like. Listen I broke up with lex, I'm in love with Annie Ulmer"); First Date notes; Moved; Got Hired; Panic Attack; Arrest refs in context of prior. 39 events in Dec alone. (See 2015-2016 period)  

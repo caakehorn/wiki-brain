@@ -7810,3 +7810,52 @@ keyword list, which is why its rule 5 is *withdraw the fine claim* rather than
 
 Twin re-translated to carry the retraction; `bin/wiki-plain audit` caught two
 figures in it that appear nowhere on the page.
+
+## [2026-09-02] ingest | people | the social graph, pass 2 — and an edge that was never actually written
+
+Three more people pages, all showing the same shape as `eric-jester`: the
+record the page was built on starts years after the friendship does, and the
+tweets hold the missing front end.
+
+**`vanessa-frank`** — the message thread starts **2015-12-01** and the page's
+"Political kinship" section dated its earliest evidence to 2016. Eleven tweets
+across two handles (**@veefrank** 2011–12, **@VanessaFrankzz** 2013) reach four
+and a half years further back, and the political kinship is already there: on
+the night of the **Troy Davis execution, 21 September 2011**, half an hour
+before it was carried out, Dan wrote to his 17-year-old sister *"this is awful
+to watch. first-world country? yeah right."* She is who he says it to while it
+is happening — the same shape the 2016 and 2020 material shows, nine years
+before the 2020 conversion. Also: high-school teasing (*"I set the bar oh so
+high for high school performance"*, 23 Feb 2012, against what
+`dark-era-2007-2008` records his own were), an Aubrey Plaza comparison, and the
+sibling channel already working as the place to complain about the family
+channel (*"wtf just got a text from mom about this I hate you all"*). Handle
+change between March 2012 and April 2013 is undated.
+
+**`dan-polyak`** — the Facebook thread runs 2013–2020 and the page reads him as
+"defensive-toned banter." Twenty-one tweets 2009–2013 hold an in-person New
+York friendship instead: *"going to meet @danpolyak in manhattan"* and *"was
+just molested at coyote ugly with @danpolyak"*, both in Dan's **first month**
+in Brooklyn, which makes Polyak someone already in New York rather than met
+there. Also the only design-tool shop talk in the archive (*"Bridge is great
+for making PDF's!"*).
+
+**`josh-brannan`** — ten tweets place him in the **Pennsylvania** half of the
+graph, paired three times with `jerad-friedline`. Election night 2012, written
+to Josh and Shane: *"I'm in haytrobe miss you fux"* — Latrobe, PA.
+
+**The 23 February 2012 cohort list** — *"People who need to come visit me:
+@danpolyak @EricJester @JoshBrannan @Woodguts"* — is now written into all
+three pages that have one. It is the only place in the corpus where Dan
+enumerates his core friend group himself rather than the wiki inferring it.
+
+**A defect in this session's own work.** The `eric-jester` typed edges
+committed this morning **were never actually written**. The script anchored on
+a connection type that page does not use, `str.replace` found nothing, wrote
+the file back unchanged, printed success, and the commit message described
+edges that did not exist. `bin/wiki-lint` and `bin/wiki-check` both passed.
+It surfaced only when `bin/wiki-connect check` warned that the far end of the
+pair had no edge back. Now fixed, along with that page's
+`date_range_start`/`first_contact`, which said **2017-05-08** — the first
+message — against a friendship the tweets document from **2009-10-24**.
+Observation filed to `skills/INBOX.md`.

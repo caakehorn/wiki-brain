@@ -4,9 +4,10 @@ page_type: entity
 status: active
 date_created: 2026-06-23
 date_modified: 2026-09-02
-date_range_start: 2017-05-08
+date_range_start: 2009-10-24
 date_range_end: 2025-08-15
 sources:
+  - "raw/self/twitter/archive.jsonl"
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/message-csv/interspersed_messages.csv"
 tags: [relationships, uniontown-era]
@@ -17,10 +18,16 @@ infobox:
   location: remote
   relationship_to_dan: friend
   role: "Film/TV industry crew"
-  first_contact: 2017-05-08
-  handles: ["+14137703708"]
-  known_for: "Full Sail film-school friend; decade-spanning check-ins that resume exactly where they left off; independent corroboration of the Trinity St. Clair booking and Fran's death"
+  first_contact: 2009-10-24
+  handles: ["+14137703708", "@ericjester"]
+  known_for: "Full Sail film-school friend; dense 2009-13 tweet banter that decays into the decade-spanning check-ins the message thread records; independent corroboration of the Trinity St. Clair booking and Fran's death"
 connections:
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "22 tweets across 2009-2013, 20 of them addressed to him, hold the dense phase of this friendship that no message export reaches — the thread begins May 2017, by which time the decay from 7 tweets a year to 1 had already happened."
+  - page: wiki/people/dan-polyak
+    type: co-occurs
+    claim: "Both are named in the 23 February 2012 cohort list, the only place in the corpus where Dan enumerates his core friend group himself."
   - page: wiki/people/jason-bermejo
     type: co-occurs
     claim: "Eric and Jason are both named in Dan's own 2025 'Florida head' rundown of the Full Sail cohort — the two threads independently corroborate the same four-person friend group."

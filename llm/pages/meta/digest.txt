@@ -22,7 +22,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 493 |
-| Pages touched in the last 14 days | 202 |
+| Pages touched in the last 14 days | 204 |
 | Pages reasoning from other pages (`synthesizes:`) | 78 |
 | Live contradictions | 43 |
 | Open gaps | 503 |
@@ -55,7 +55,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-02** — 38 pages
+**2026-09-02** — 40 pages
   - ingest | self | @danfrank twitter archive as yearly pages
   - build | plain | two writing lanes, a floor that had to be measured, and a campaign page
   - translate | interests | favorites/eclecticism
@@ -66,6 +66,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | people/interests | the twitter social graph, pass 1 — and a counter-example to yesterday's music claim
   - ingest | mind | the politics arc has two steps, not one — and the instrument nearly hid one
   - ingest | mind | the digital-witness noticing is fourteen years older than the theory
+  - lint | mind | withdrawing the "two steps" politics finding published four hours earlier
 
 **2026-09-01** — 2 pages
 

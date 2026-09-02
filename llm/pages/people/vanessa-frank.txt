@@ -5,17 +5,20 @@ title: "Vanessa C. Frank"
 aliases: ["Vanessa", "Vanessa Frank"]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-08-02
-sources: ["raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md", "raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
+date_modified: 2026-09-02
+sources: ["raw/self/twitter/archive.jsonl", "raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md", "raw/self/ancestry/23andme-ancestry-family-tree-20260623.zip", "raw/self/context-core/CONTEXT_CORE_EXPANDED.md", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-md/Gemini-_18.md", "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"]
 related: ["wiki/people/suzanne-frank", "wiki/people/rick-frank", "wiki/self/ancestry", "wiki/self/overview", "wiki/people/annie-ulmer"]
 tags: [ai-collaboration]
 infobox:
   name: "Vanessa C. Frank"
-  relationship_to_dan: unknown
+  relationship_to_dan: sister
   sex: female
   location: nyc
   known_for: "Dan's younger sister, born January 16, 1994, in Greensburg, Pennsylvania —"
 connections:
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "Eleven tweets across two handles (@veefrank 2011-12, @VanessaFrankzz 2013) push the documented sibling relationship four years earlier than the message thread reaches, and carry the earliest shared political moment on record — the Troy Davis execution night of 21 September 2011."
   - page: wiki/mind/concepts/acquisition-drive
     type: co-occurs
     claim: "The undated episode in which Dan used his sister's ATM card while she was away at college, under a pretext he flags in his own telling as a pretext, is the operator's chosen illustration of the drive running with no consequence-modelling attached."
@@ -33,6 +36,32 @@ her own direction, and she doubles as a cross-check on family matters
 involving their mother and father.
 
 ## Political kinship
+
+> **EXTENDED [2026-09-02]:** this section's earliest evidence was 2016,
+> because the message thread starts 2015-12-01. The tweet archive reaches
+> four and a half years further back, and the political kinship is already
+> there.
+
+**21 September 2011, the Troy Davis execution.** Dan is 22 and Vanessa is
+17. He spends the evening on it — posting the case against the execution at
+18:41 EDT, then, roughly half an hour before it was carried out, writing to
+his sister:
+
+> *"@veefrank this is awful to watch. first-world country? yeah right."*
+
+Six minutes after it happened: *"I have no idea whether Troy Davis was guilty
+or not, but he deserved the chance to live another day to fight in court."*
+An hour later he is recommending Penn & Teller on capital punishment and
+calling it *"a much overlooked issue and one we need to have a serious debate
+about."*
+
+She is the person he says it to while it is happening. That is the same
+shape the 2016 and 2020 material shows — two siblings on the same side,
+checking each other's position — five years earlier than this page could
+previously date it, and nine years before the
+[[wiki/mind/synthesis/2020-left-turn|2020 conversion]].
+
+
 
 The thread reads, more than anything, as two siblings on the same side. In
 2016 Vanessa is already an engaged activist — circulating a Carnegie Mellon
@@ -66,6 +95,34 @@ Her humor is self-aware and of-the-left —
 "I'm a corporate schill," "the locomotive to transphobia pipeline is real" —
 the same register Dan uses, which makes her one of the few family contacts who
 never triggers his forensic mode.
+
+## The sibling register, 2011–2013
+
+Eleven tweets across two handles — **@veefrank** (2011–2012) and
+**@VanessaFrankzz** (2013) — are the only record of the relationship before
+the message thread opens in December 2015. Eight of the eleven open with her
+name, so this is direct address rather than mentions.
+
+What they hold is ordinary and worth keeping for that reason. He teases her
+about school while she is finishing high school (she was born January 1994):
+*"get it together! I set the bar oh so high for high school performance, I'm
+sure it's hard to live up to :)"* and, minutes later, *"aww that's okay/ you
+didn't have a chance, given my flawless HS career"* — both on 23 February
+2012, and both funnier against
+[[wiki/timeline/periods/dark-era-2007-2008|what his own high school years
+actually were]]. He tells her she and Aubrey Plaza *"are the same person"*
+(24 November 2011). He wishes her luck before something on 28 July 2011. And
+on 7 December 2011: *"wtf just got a text from mom about this I hate you
+all"* — the sibling channel operating as the place to complain about the
+family channel, which is the same function it serves in the 2020s thread.
+
+In April 2013 he is listening to her broadcasting something live —
+*"@VanessaFrankzz you still on? just loaded stream"*, then twelve minutes
+later *"i listened until i heard 'swag james brown swag swag'"*. What she was
+streaming is not recorded.
+
+**Gap:** the handle change from @veefrank to @VanessaFrankzz falls between
+March 2012 and April 2013 and is undated; nothing in the corpus explains it.
 
 ## Family cross-channel
 
@@ -111,5 +168,7 @@ silence is itself worth noting rather than explaining away.
 The behavioral spine lists her as "Vail, ski-school," which the message
 corpus neither confirms nor contradicts — the thread is about politics and
 family, not her location or work, so the Colorado detail is carried forward as
-unverified. Her birth record is from the ancestry GEDCOM; everything else here
-is from the iMessage thread.
+unverified. Her birth record is from the ancestry GEDCOM. Everything else here is from
+the iMessage thread except the 2011–2013 section above, which is from the
+tweet archive and is the only evidence of the relationship before December
+2015.
