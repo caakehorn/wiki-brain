@@ -4,6 +4,19 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-02] - Session: @danfrank yearly twitter archive (in progress)
+
+* **Model:** Grok Build · **Branch:** `ingest/twitter-archive`.
+* **Trigger:** operator asked for a wiki/mind (filed under wiki/self/twitter to match the existing twitter page and facebook yearly-style split) text archive of ALL @danfrank tweets, one page per year, nothing omitted except pure reposts with no quote text. Then: commit to PR now, keep scraping.
+
+**What is on the branch.** Hub `wiki/self/twitter.md`. Yearly pages 2009–2026. Raw `raw/self/twitter/archive.jsonl` + `tweet-archive.xlsx`. 1545 originals currently filed.
+
+**Still to scrape, on this same branch, do not open a second PR.** Walk `from:danfrank max_id:<oldest-id-on-the-year-page>` for 2009, 2010, 2011, 2012, and 2013-01-01..2013-08-16. Fill 2026-04-08..2026-06-01 the same way. Append to `archive.jsonl` and regenerate the year page. Do not drop any original. Do not add pure reposts.
+
+**Do not rewrite the hub's earned prose from scratch.** Add counts. The inclusion rule stays.
+
+---
+
 ### [2026-08-31] - Session: the ledger becomes a visible entry
 
 * **Model:** Claude Code (remote) · **Branch:** `claude/ingest-intake-ledger-cbfbsf`.
