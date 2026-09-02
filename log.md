@@ -8248,3 +8248,68 @@ no move and no relationship event; the only personal entry is the 2009
 Thanksgiving travel day on which he met Alexis. **The peak of a seventeen-year
 personal account is reactive** — a live event he was watching — and in the one
 mode this archive has ever rewarded.
+
+## [2026-09-02] ingest | self | the backend backfill — a first year recovered, and a published lean corrected
+
+A grok-backend session delivered to `inbox/twitter-backfill/`; filed to
+`raw/self/twitter/grok-backfill-2026-09-02/` and merged. **Archive 2,525 →
+2,741 originals; span 2009-10-20 → now 2008-09-24.**
+
+**The account's first year existed and this wiki did not have it.** 213 tweets
+before 2009-10-20, 95 of them in 2008. It opens **2008-09-24T04:52:36**: *"i
+fucking looove winter park. this town is unreal."* Winter Park is Full Sail.
+The account **begins at the arrival** — new page `wiki/self/twitter/2008`.
+
+**The 2016 discrepancy resolved against the wiki.** `interests/music/overview`
+held it open and leaned toward the AI-generated analysis file having invented
+the *"@ulmdub birthday party at OSU"* line. **The tweet is real** — id
+`696416822011289601`, 2016-02-07, one video — and **the archive's 2016 is not
+complete for originals** despite the coverage table. Two corrections stated on
+the page: a source unreliable in aggregate is not wrong about any given line,
+and "the archive does not contain it" was a statement about the archive. The
+ten-year boundary does not move (the gig is February; the last own-music post
+was already 7 March 2016) but the *"spreadsheet-complete"* support for the
+2017–2025 zero rests on the same table and no longer stands alone.
+
+**`dark-era-2007-2008` gets the contemporaneous exit marker it never had.**
+Its whole reconstruction was built from oblique later references. Forty-five
+minutes after the first tweet: *"Really feels like life has started over now.
+It's weird enjoying life again. So stoked."* — "again" presupposing the period,
+the exit tied to a change of place, and written to an account with **no
+followers**, which is the standard objection to reading posts as testimony and
+does not apply to the first hour of an empty account. It touches neither
+opiates nor the eating disorder; those gaps stay open and the page says so.
+
+**`interests/video-games` qualified from the other end.** 31 December 2008:
+*"in the past 24 hours, i've played 14 hours of world of warcraft"*, plus patch
+vocabulary and an October level-70 joke. Largest gaming figure in the corpus,
+four months into Full Sail. With the 2011–12 window already written, the shape
+is now **two high-intensity windows inside a low-grade arc, concentrated in
+exactly the years the record was thinnest**.
+
+**My instrument had a bug and the backfill caught it.** `truncated()` matched
+only U+2026, missing 15 rows ending in three ASCII periods — **129, not 114**.
+Fixed, with the reason in the docstring. The six "empty text" rows are not
+empty either: two emoji-only, three t.co-plus-photos, one a quote of his own
+tweet. Empty count now 0.
+
+**New tool: `bin/build-tweet-year`.** The yearly pages were hand-transcribed,
+which was fine while the archive only grew at the end and stopped being fine
+when 216 rows landed scattered across 2008–2024. It regenerates the transcript
+from `raw/` and **copies every hand-written sentence through untouched** —
+everything above the first `###` is preserved, only the three Coverage counts
+are recomputed. All nineteen year pages regenerated.
+
+**Not merged, deliberately:** `raw/self/twitter/reposts.jsonl` (5 rows) stays
+out of `archive.jsonl` — originals-only is the inclusion rule the yearly pages
+are built on.
+
+**Filed as a lead, not a fact:** `@clandan`, twice in October 2008, is one of
+the two names in the shared-first-name joke `dan-polyak` dates to 2013. Two
+tweets are its entire footprint; it never co-occurs with `@danpolyak`. Recorded
+on that page as unresolved with what would settle it.
+
+**Still open, and only a complete X export closes it:** the account creation
+datetime (the backend returned an id but no `created_at`), the true total tweet
+count, the 2008–09 months truncated at the ten-result search cap, 121 of the
+129 still-truncated rows, and seventeen years of reposts.

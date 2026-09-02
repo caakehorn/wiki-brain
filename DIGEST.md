@@ -13,11 +13,11 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 494 |
-| Pages touched in the last 14 days | 206 |
+| Pages | 495 |
+| Pages touched in the last 14 days | 207 |
 | Pages reasoning from other pages (`synthesizes:`) | 78 |
 | Live contradictions | 43 |
-| Open gaps | 503 |
+| Open gaps | 507 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -27,7 +27,7 @@ this is the state of the thing.
 | people | 175 |
 | interests | 96 |
 | mind | 77 |
-| self | 58 |
+| self | 59 |
 | timeline | 42 |
 | work | 15 |
 | meta | 11 |
@@ -40,14 +40,14 @@ this is the state of the thing.
 | Status | Pages |
 |---|---|
 | active | 189 |
-| stable | 164 |
+| stable | 165 |
 | closed | 100 |
 | archived | 29 |
 | stub | 12 |
 
 ## The last few days
 
-**2026-09-02** — 43 pages
+**2026-09-02** — 44 pages
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result
   - ingest | self | @danfrank twitter archive as yearly pages
@@ -68,6 +68,7 @@ this is the state of the thing.
   - ingest | self/mind/interests | 2022 read in full — a stated gap closed, an account older than its record, and a second radicalization mechanism
   - ingest | mind | "conspiracy crank" is a label his own behaviour contradicts
   - ingest | interests/self | 2024 read in full — the Roman interest starts on YouTube, and the account's peak is one evening
+  - ingest | self | the backend backfill — a first year recovered, and a published lean corrected
 
 **2026-09-01** — 2 pages
 

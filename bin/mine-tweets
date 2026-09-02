@@ -22,17 +22,21 @@ five properties of it make a naive grep silently wrong:
     turns "who does he talk to" into "whose name appears", which are different
     questions with different answers — @diplo is 10 mentions but only 4
     addresses, @ericjester is 22 and 20. `handle` separates them.
-3.  **114 rows are truncated** with a trailing ellipsis where a t.co link was
-    cut. Any word count, last-word or sentence-final analysis is wrong on those
-    rows, so `stats` reports them and excludes them from length figures.
+3.  **129 rows are truncated** where a t.co link was cut — 114 ending in the
+    ellipsis glyph and 15 in three ASCII periods, which are different
+    characters and were counted as 114 until a backend export caught it. Any
+    word count, last-word or sentence-final analysis is wrong on those rows, so
+    `stats` reports them and excludes them from length figures.
 4.  **A refrain repeats.** "2024 year of the dragon" appears 19 times across
     eight months of 2024 — 7.4% of that year's originals. It is a real
     recurring post, not an export artifact, so it is never dropped silently;
     `stats` names any text posted 3+ times and `--distinct` collapses them when
     the question is "how many distinct things did he say".
-5.  **Six rows have empty text** (image- or link-only posts whose media the
-    spreadsheet did not carry). They are originals and they count as volume,
-    but they carry nothing to read.
+5.  **Six rows have empty text** where the spreadsheet dropped the content. A
+    2026-09-02 backend fetch showed none of the six is actually empty live:
+    two are emoji-only, three are a bare t.co plus photos, and one is a quote
+    of Dan's own earlier tweet. They count as volume and carry nothing to read
+    *here*, which is a property of this export rather than of the posts.
 
 Two further limits are properties of the archive rather than of this tool, and
 no flag fixes them. Pure reposts carrying no text of Dan's are excluded by the
@@ -89,7 +93,15 @@ def year(r):
 
 
 def truncated(r):
-    return r["text"].rstrip().endswith("…")
+    """A row whose text was cut where a link used to be.
+
+    Both endings occur and they are different characters: 114 rows end in the
+    ellipsis glyph U+2026 and 15 end in three ASCII periods. Matching only the
+    glyph — as this function did until 2026-09-02 — silently undercounts by 15
+    and lets those rows into the length figures.
+    """
+    t = r["text"].rstrip()
+    return t.endswith("\u2026") or t.endswith("...")
 
 
 def refrains(rows, minimum=REFRAIN_MIN):

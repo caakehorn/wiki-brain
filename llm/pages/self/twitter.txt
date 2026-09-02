@@ -16,6 +16,9 @@ sources:
   - "raw/self/twitter/tweets_sample_2019-2026.txt"
 tags: [digital-footprint, politics, music-production, ai-collaboration, ideology]
 connections:
+  - page: wiki/self/twitter/2008
+    type: contains
+    claim: '2008 is the account''s first year, recovered on 2026-09-02 and absent from this wiki until then; it opens on the day Dan reached Winter Park for Full Sail.'
   - page: wiki/self/twitter/2009
     type: contains
     claim: '2009 is the origin year of the surviving record — the account itself dates to September 2008 by its own anniversary tag — and the first public sample of the voice the later corpora treat as stable.'
@@ -134,7 +137,7 @@ connections:
 
 # Twitter / X Activity (@danfrank)
 
-Personal account **@danfrank** ("insufferable politics sicko"), registered **September 2008** by its own anniversary tag, with a recovered record beginning October 2009. This hub is the index of a text archive of his originals: one wiki page per year, every retrieved original and every quote-tweet that carries his own text. Pure reposts with no @danfrank quote content are the one omitted class.
+Personal account **@danfrank** ("insufferable politics sicko"). The record now begins **24 September 2008** — the day Dan arrived in Winter Park for Full Sail — after a backend fetch on 2026-09-02 recovered 213 tweets the archive had never reached. This hub is the index of a text archive of his originals: one wiki page per year, every retrieved original and every quote-tweet that carries his own text. Pure reposts with no @danfrank quote content are the one omitted class.
 
 The operator spreadsheet (Drive: Dan Frank - Tweet Archive, filed as `raw/self/twitter/tweet-archive.xlsx`) holds 1,427 originals from 2013-08-17 through 2026-04-07 and 229 pure reposts, which are dropped. Years before the spreadsheet, the mid-August 2013 days before it starts, and 2026 after 7 April are filled from live X search and will grow as further batches are committed on this branch.
 
@@ -142,25 +145,26 @@ The operator spreadsheet (Drive: Dan Frank - Tweet Archive, filed as `raw/self/t
 
 | Year | Originals on page | Coverage |
 |------|------------------:|----------|
-| [[wiki/self/twitter/2009\|2009]] | 165 | in progress |
+| [[wiki/self/twitter/2008\|2008]] | 95 | in progress (10-result search cap) |
+| [[wiki/self/twitter/2009\|2009]] | 283 | in progress |
 | [[wiki/self/twitter/2010\|2010]] | 342 | in progress |
 | [[wiki/self/twitter/2011\|2011]] | 225 | in progress |
 | [[wiki/self/twitter/2012\|2012]] | 205 | in progress |
 | [[wiki/self/twitter/2013\|2013]] | 346 | in progress |
 | [[wiki/self/twitter/2014\|2014]] | 171 | complete for originals |
 | [[wiki/self/twitter/2015\|2015]] | 62 | complete for originals |
-| [[wiki/self/twitter/2016\|2016]] | 75 | complete for originals |
+| [[wiki/self/twitter/2016\|2016]] | 76 | **NOT complete** — see below |
 | [[wiki/self/twitter/2017\|2017]] | 117 | complete for originals |
 | [[wiki/self/twitter/2018\|2018]] | 89 | complete for originals |
 | [[wiki/self/twitter/2019\|2019]] | 57 | complete for originals |
 | [[wiki/self/twitter/2020\|2020]] | 25 | complete for originals |
 | [[wiki/self/twitter/2021\|2021]] | 34 | complete for originals |
-| [[wiki/self/twitter/2022\|2022]] | 156 | complete for originals |
+| [[wiki/self/twitter/2022\|2022]] | 158 | complete for originals |
 | [[wiki/self/twitter/2023\|2023]] | 159 | complete for originals |
 | [[wiki/self/twitter/2024\|2024]] | 258 | complete for originals |
 | [[wiki/self/twitter/2025\|2025]] | 13 | complete for originals |
 | [[wiki/self/twitter/2026\|2026]] | 26 | in progress |
-| **Total** | **2525** | |
+| **Total** | **2741** | |
 
 ## What the public valve actually is
 
@@ -201,39 +205,55 @@ and 10.2% of originals in 2010, 2011 and 2012 and fall to 0.3% in 2013 —
 the right shape for a spring 2013 exit, and not a date. It continues to
 rest on context-core.
 
-## The account is older than the archive
+## The backfill of 2026-09-02, and what it settled
 
-On **24 September 2022** Dan posted, under Twitter's own generated
-`#MyTwitterAnniversary` tag: *"14 years of pointless nothingness but at least
-I got the @danfrank handle."*
+The archive began at 2009-10-20 and was believed complete for originals from
+2013-08-17 on. A backend fetch on **2026-09-02** — search-based, capped at ten
+results per query, written to `raw/self/twitter/grok-backfill-2026-09-02/` —
+changed both claims.
 
-Fourteen years back from September 2022 is **September 2008** — thirteen
-months before this archive's earliest tweet, 20 October 2009. The anniversary
-tag fires on the account's join date rather than on its first post, so the
-account existed through the whole of the 2008–09 Full Sail year and no tweet
-from that period has been recovered.
+**What it settled**
 
-**What this changes.** The hub's framing of 2009 as "the origin year" is the
-origin of the *record*, not of the account, and the two are not the same
-thing. `date_range_start` stays 2009-10-20 because that is the first tweet
-held; the account's own start is a year earlier and is unrepresented. Whether
-he simply did not post for thirteen months, or whether those tweets exist and
-the live scrape has not reached them, is unresolved — and the second is more
-likely than it looks, since every year before 2013 here is a scrape
-reconstruction rather than a complete export.
+| Question | Answer |
+|---|---|
+| Is there a first year before 2009-10-20? | **Yes — 213 tweets**, earliest 2008-09-24T04:52:36, *"i fucking looove winter park. this town is unreal."* |
+| Does the 2016 "@ulmdub birthday party at OSU" tweet exist? | **Yes.** id `696416822011289601`, 2016-02-07, one video. It was **not** in the archive |
+| Parts 2/3 of the 18 July 2022 radicalization thread? | **Recovered**, both |
+| Are the six "empty text" rows really empty? | **No.** Two are emoji-only, three are a t.co plus photos, one is a quote of his own earlier tweet |
 
-**The single thing that would settle it** is the official X Settings archive,
-which carries the exact account-creation timestamp and every tweet. It is
-already listed in `queue.md` as welcome; this is a second reason to want it,
-alongside the 2016 discrepancy noted on
-[[wiki/interests/music/overview]].
+**What it could not settle, and this is the important half.** The backend user
+lookup returned an account id (`16430736`) but **no `created_at` and no
+`statuses_count`**. So the account's creation datetime is still not a recorded
+fact, and there is still no figure for how many tweets 2,741 is out of. The
+24 September 2008 date is an inference from three consistent facts — the
+earliest tweet retrieved, two queries before it returning nothing, and the
+`#MyTwitterAnniversary` post of 2022-09-24 — and it should be cited as an
+inference.
 
-He also states, in the same tweet, what the account was for: **the handle.**
-`@danfrank` on a service he joined in 2008 is a first-name-plus-surname
-handle acquired before that was hard, and he says so again two months later —
-*"I'm fucking bummed because Twitter is the only place I got in early enough
-to secure the @danfrank handle"* (18 November 2022), written while
-considering leaving over the Musk acquisition.
+> **CORRECTION [2026-09-02] — 2016 is not complete for originals.** The
+> coverage table above said it was, on the strength of the operator
+> spreadsheet. The gig tweet of 7 February 2016 was live the whole time and
+> absent from both the spreadsheet and the scrape. The table now says so.
+>
+> The cost is wider than one row. `wiki/interests/music/overview` leaned on
+> "the 2017–2025 window is spreadsheet-complete, so the zero in it is a real
+> zero." That assurance and the 2016 claim rest on the same table. The zero may
+> still hold — the fetch found no counter-example in those years — but it can
+> no longer be asserted from completeness, and that page now says so.
+>
+> A second lesson, cheaper to state than it was to learn: this wiki discounted
+> the quoted line partly because `raw/self/dox-scan/FULL TWITTER ANALYSIS.txt`
+> is AI-generated and demonstrably unreliable in aggregate. It was right about
+> this specific quotation. **Unreliable in aggregate is not wrong about any
+> given line**, and "the archive does not contain it" was a statement about the
+> archive.
+
+**Still open, and only a complete X account export closes it:** the creation
+datetime, the true total, the months of 2008–09 truncated at ten results, 121
+of the 129 rows still truncated mid-text, and seventeen years of reposts —
+`raw/self/twitter/reposts.jsonl` holds five, kept out of `archive.jsonl`
+because the originals-only inclusion rule is what the yearly pages are built
+on.
 
 ## The densest day in seventeen years
 

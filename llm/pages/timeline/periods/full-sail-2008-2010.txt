@@ -31,6 +31,9 @@ connections:
   - page: wiki/timeline/periods/2010s
     type: precedes
     claim: "Full Sail hands directly into NYC-1 — the February-2010 move from Winter Park to Brooklyn carries the audio ambition and the just-begun Alexis relationship north, and the same friend cohort (Bermejo, Jester, Dunn, Mohler) follows into that period."
+  - page: wiki/self/twitter/2008
+    type: evidenced-by
+    claim: "The account opens on 24 September 2008, the day Dan reached Winter Park, and its first three months are this period's student life in real time — orientation, 7am labs, twenty-hour class days, the algebra requirement and the December math final."
   - page: wiki/self/twitter/2010
     type: evidenced-by
     claim: "The January 2010 tweets date the Pro Tools certification to a failed exam on the 25th and a pass at 19:40 UTC on the 26th, with the decision to move to Brooklyn posted eleven minutes later — the period's causal hinge is a test score, and it is timestamped."

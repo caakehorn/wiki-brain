@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-02 — 43 pages
+## 2026-09-02 — 44 pages
 
 - **Session log:** adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
 - **Session log:** build | meta | the wiki has been checking his testimony for months and throwing away every result
@@ -30,6 +30,7 @@ simply listed.
 - **Session log:** ingest | self/mind/interests | 2022 read in full — a stated gap closed, an account older than its record, and a second radicalization mechanism
 - **Session log:** ingest | mind | "conspiracy crank" is a label his own behaviour contradicts
 - **Session log:** ingest | interests/self | 2024 read in full — the Roman interest starts on YouTube, and the account's peak is one evening
+- **Session log:** ingest | self | the backend backfill — a first year recovered, and a published lean corrected
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -55,6 +56,7 @@ simply listed.
 | [[wiki/self/location-history]] | self | **CONTRADICTION** — this bullet used to end "No contradiction." There is one, and it is in the Facebook profile itself. `places lived` says **Brooklyn from 3 January 2010**; the tweet archive has Dan in Florida through 2 |
 | [[wiki/self/tattoos]] | self | **CORRECTED** — this page previously read "**entirely** cultural reference … *every* known piece points at a specific record, band, or artist rather than a generic symbol," and dated the earliest well-documented piec |
 | [[wiki/self/twitter]] | self | _(carries a CONTRADICTION)_ |
+| [[wiki/self/twitter/2008]] | self | — |
 | [[wiki/self/twitter/2009]] | self | — |
 | [[wiki/self/twitter/2010]] | self | — |
 | [[wiki/self/twitter/2011]] | self | — |
