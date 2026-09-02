@@ -1,3 +1,45 @@
+## [2026-09-02] build | meta | the instrument layer gets a section, and the reason it needs one
+
+**What the section is for.** Every other page in this wiki argues — it reads
+sources, reasons, and states something somebody could disagree with. A handful
+do not: they *measure*, from first-party dated data, and publish what the
+measurement says and nothing else. Those had no shared address, so the two
+event-sourced ledgers built a fortnight apart (`bin/intake` 2026-08-30,
+`bin/wiki-testimony` 2026-09-02) read as unrelated one-offs rather than as two
+instances of one design.
+
+**Built `wiki/meta/instruments/index`** — the catalogue, and the three rules
+every instrument here obeys: *evidence, not claim* (it states no finding, and a
+finding drawn from it reaches an ordinary page through the normal operations);
+*generated, never hand-edited* (a hand-edit fails `bin/wiki-check`); and *it
+states its own limits in a section that cannot be dropped*.
+
+**The pages stay in their domains.** An intake ledger belongs to `health` and a
+testimony ledger to `meta`; the section is the index over them, the way
+`wiki/meta/journeys/` curates across domains without owning what it cites.
+Moving them would have bought tidiness at the cost of the domain structure and
+of every inbound link.
+
+**Split into ledgers and measures**, because they are different objects. A
+ledger is event-sourced — append-only log, regenerable projection, corrections
+that supersede rather than edit — and accumulates: intake (4 units, 9 events),
+testimony (12 claims, 6 settled). A measure computes over a corpus on demand
+and lands its findings on ordinary pages: `bin/mine-messages` (217,573
+records), `bin/text-metrics` (the same corpus cut by turn rather than message),
+`bin/mine-tweets` (2,741 originals from three sources of different fidelity),
+`bin/psychometrics`, `bin/wiki-history` (3,832 revisions).
+
+**The two ledgers are one idea pointed at different unreliability.** Intake
+sets a dated first-party dataset against *"I barely used anything that
+weekend."* Testimony sets an adjudication record against *"it was definitely
+2014."* Neither calls him a liar; both make the question answerable instead of
+rhetorical. Naming that on one page is most of what the section is for.
+
+**What the layer cannot see, as a layer**, is on the page and is the half worth
+reading: it measures what was written down, in media that survived, and the
+2026-08-02 axiom test is the standing demonstration that the message corpus has
+a jurisdiction which the psychological layer sits outside of.
+
 ## [2026-09-02] adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
 
 **First record made by the ADJUDICATE operation rather than reconstructed from

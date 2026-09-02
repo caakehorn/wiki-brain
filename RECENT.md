@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-02 — 44 pages
+## 2026-09-02 — 45 pages
 
 - **Session log:** adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
 - **Session log:** build | meta | the wiki has been checking his testimony for months and throwing away every result
@@ -39,6 +39,7 @@ simply listed.
 | [[wiki/interests/video-games]] | interests | — |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/index]] | meta | — |
+| [[wiki/meta/instruments/index]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/readers-digest]] | meta | — |
 | [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
