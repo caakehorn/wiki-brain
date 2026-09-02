@@ -14,6 +14,10 @@ synthesizes:
   - wiki/mind/synthesis/totality-themes
 related: ["wiki/interests/favorites/index", "wiki/self/context-core", "wiki/interests/music/index", "wiki/interests/music/concepts/sub-bass-signature", "wiki/interests/music/concepts/lyrics-as-timbre", "wiki/self/facebook", "wiki/interests/favorites/eclecticism", "wiki/interests/favorites/taste-profile", "wiki/mind/synthesis/totality-themes", "wiki/timeline/periods/2025-collapse", "wiki/timeline/periods/dec-2025-spike"]
 tags: [music-production]
+connections:
+  - page: wiki/interests/favorites/eclecticism
+    type: instantiates
+    claim: "The 1.26 tracks-per-artist average this page led with as 'a library built for breadth' is the count; the temperament is not — 86.6% singletons here match the book shelf, while the Origin column splits this library into a 463-track archived catalog and a 1,384-row live feed that is 62% 2024-or-later."
 ---
 
 # Music Favorites
@@ -26,6 +30,8 @@ rating (music entries are inclusion-only, mostly pulled from Spotify
 likes, unlike the rated books and art elsewhere in the favorites domain),
 so the signal here is presence, not preference intensity — what made the
 list at all, not how many stars it got.
+
+The 1.26 figure is a count, not a temperament. [[wiki/interests/favorites/eclecticism]] (rewritten 2026-09-01) keeps the average and retires the inference this opening draws. The same singleton rate — 86.6% of named artists appearing once — is the book shelf's rate too, and there it is produced by two subjects read through forty-four hands, not by catholic taste. What survives on this page is the two-wave structure and the three-cluster maintenance. What does not is "built for breadth" as a claim about how attention works. The CSV `Origin` column splits the difference: 1,384 Spotify-liked rows carry the 2024–2026 currency pattern (871 of 1,383 dated Spotify rows are 2024 or later), while the 463-track `MUSIC LIST (start-2024)` is an archived catalog with no release dates in the export at all.
 
 **Before reading anything below as "why these lyrics resonate":** Dan
 does not process sung lyrics as language while listening — words register

@@ -103,6 +103,9 @@ connections:
   - page: wiki/mind/synthesis/fayette-return
     type: causes
     claim: "Core Axiom 1's binary self-worth verdict, running on Ti-dominance with no Fe-mediated grading function, is why that page's 'personal failure' misfiling of a family return is consequential rather than loose: with no graded middle available, the misfiling resolves straight to the worthless pole rather than to a discounted setback."
+  - page: wiki/interests/favorites/eclecticism
+    type: evidences
+    claim: "The dual architecture of the favorites CSV is this stack on leisure: auxiliary Ne keeps three music clusters live in parallel, dominant Ti closes observational sets through unique witnesses, and those opposite operations share a one-creator-per-entry surface that was misread as range."
 ---
 
 # INTP — The Cognitive Function Stack
@@ -150,7 +153,11 @@ implications ahead and generating edge-condition hypotheses that Ti then
 weaves into arguments. It powers the cross-domain synthesis visible
 everywhere in the corpus — politics read with the same tools as music trends,
 geology-with-mythology-style combinations, the anomaly clustering behind
-Dan's Law. Under stress it inverts into a paranoia generator, feeding the
+Dan's Law. Pointed at the favorites CSV, the same split is the dual
+architecture at [[wiki/interests/favorites/eclecticism]]: Ne keeps three
+music clusters running in parallel with no completion condition; Ti closes
+observational sets (books, art, film) through unique witnesses and stops
+at the edge. Under stress it inverts into a paranoia generator, feeding the
 5-core's fear with endless what-if scenarios and producing the documented
 analysis paralysis: "conceptualize everything before acting."
 
@@ -236,4 +243,3 @@ history and cinema.
 proctored instrument; the Ni measurement in particular has no independent
 confirmation; no data on how the stack presents post-closure (all sources
 pre-date June 2026).
-

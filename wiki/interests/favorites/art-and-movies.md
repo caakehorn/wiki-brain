@@ -12,11 +12,17 @@ synthesizes:
   - wiki/mind/profile/index
 related: ["wiki/interests/favorites/index", "wiki/self/context-core", "wiki/self/facebook", "wiki/interests/favorites/eclecticism", "wiki/interests/favorites/taste-profile", "wiki/mind/synthesis/totality-themes", "wiki/mind/profile/index"]
 tags: [personality-profile]
+connections:
+  - page: wiki/interests/favorites/eclecticism
+    type: instantiates
+    claim: "Twenty-five works by twenty-five makers, all rated 5, is maximum apparent eclecticism, and twenty-four of the twenty-five carry at least one of six self-applied tags — wound, observer, collapse, glitch, rupture, fortress — so uniqueness of creator is the method of covering one subject."
 ---
 
 # Art and Movies Favorites
 
 Minor categories in the masterlist (Art 25, Movies 11). All Art entries rated 5; movies unrated with minimal metadata.
+
+One maker per work is not range. [[wiki/interests/favorites/eclecticism]] (rewritten 2026-09-01) reads the 25-unique-creator count as the same one-account-per-witness method as the book shelf: twenty-four of twenty-five works carry at least one of `wound`, `observer`, `collapse`, `glitch`, `rupture`, or `fortress`. The exception is Edward Hopper's *New York Movie* (`dissociation`, `usherette`, `inside-outside`), adjacent to observer rather than a seventh subject.
 
 ## Art
 25 items from ART MATRIX source. One per creator (high eclecticism). All rated 5.
