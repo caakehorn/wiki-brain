@@ -13,11 +13,11 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 493 |
-| Pages touched in the last 14 days | 205 |
+| Pages | 494 |
+| Pages touched in the last 14 days | 206 |
 | Pages reasoning from other pages (`synthesizes:`) | 78 |
 | Live contradictions | 43 |
-| Open gaps | 503 |
+| Open gaps | 507 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -27,7 +27,7 @@ this is the state of the thing.
 | people | 175 |
 | interests | 96 |
 | mind | 77 |
-| self | 58 |
+| self | 59 |
 | timeline | 42 |
 | work | 15 |
 | places | 10 |
@@ -40,14 +40,14 @@ this is the state of the thing.
 | Status | Pages |
 |---|---|
 | active | 188 |
-| stable | 164 |
+| stable | 165 |
 | closed | 100 |
 | archived | 29 |
 | stub | 12 |
 
 ## The last few days
 
-**2026-09-02** — 41 pages
+**2026-09-02** — 42 pages
   - ingest | self | @danfrank twitter archive as yearly pages
   - build | plain | two writing lanes, a floor that had to be measured, and a campaign page
   - translate | interests | favorites/eclecticism

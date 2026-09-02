@@ -13,6 +13,10 @@ sources:
   - "raw/self/gemini-activity/Gemini Activity.html"
 tags: [digital-footprint, nyc-era, personality-profile]
 connections:
+  - page: wiki/self/twitter/2008
+    type: evidenced-by
+    claim: "The largest gaming figure in the corpus — fourteen hours of World of Warcraft in twenty-four, on 31 December 2008 — comes from the account's recovered first year and predates this page's earliest previous evidence by three years."
+
   - page: wiki/people/shane-brannan
     type: evidenced-by
     claim: "Nineteen tweets to Shane between 2011 and 2016 are the densest gaming evidence in the corpus and sit inside this page's 2008-2015 hole, documenting an intensity the 'low-grade presence' reading was drawn without."
@@ -43,6 +47,39 @@ pre-armor self-presentation: posts reference "slaying on halo" and
 "Super Mario Galaxy" in the same breath as "swooning over the new FOB" and
 "in New York City to see Fall Out Boy at TRL." Gaming was one coordinate
 of the teenage identity cluster, not a separate hobby.
+
+## 2008: fourteen hours in twenty-four
+
+The earliest gaming evidence in the corpus is now **31 December 2008**, from
+the account's recovered first year ([[wiki/self/twitter/2008]]):
+
+> *"in the past 24 hours, i've played 14 hours of world of warcraft."*
+
+And, the same day, on a class rebalance patch: *"in response to my class being
+nerfed in WOW…"* — the vocabulary of someone reading patch notes, not someone
+who installed it that week. Two months earlier the same account had made the
+cat a WoW joke: *"my new kitten and your new puppy shall duel. be forewarned
+that my kitten is a level 70 mage"* (26 October 2008), and level 70 was the
+cap in that expansion.
+
+**Fourteen hours in a day, during a Full Sail term**, is the single largest
+gaming figure anywhere in the corpus, and it sits four months into the
+programme this wiki treats as the serious credential
+([[wiki/timeline/periods/full-sail-2008-2010]]).
+
+> **This page's thesis is now qualified twice, from opposite ends.** It
+> originally read gaming as "a long-running low-grade presence, not a passion"
+> — drawn from a record that ran 2007 → 2016 with nothing between. The
+> 2011–2012 Shane Brannan window filled the middle. This fills the front, and
+> earlier than the "teen signal (2007)" section suggests: 2008 is not a teenage
+> coordinate, it is a twenty-year-old at trade school putting in a
+> fourteen-hour session.
+>
+> The honest shape is no longer "low-grade throughout." It is **two documented
+> high-intensity windows (2008, 2011–12) inside a long low-grade arc**, with
+> the intensity concentrated in exactly the years the record was thinnest. That
+> is a warning about the arc as much as a finding about the games: the periods
+> this page could see least were the periods where the most was happening.
 
 ## The PC and Xbox years (2011–2014) — the hole in the middle
 

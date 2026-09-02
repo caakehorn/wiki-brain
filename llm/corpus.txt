@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-02
-493 pages, ~1,729,778 tokens.
+494 pages, ~1,744,075 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -8636,36 +8636,39 @@ reconstructions whose counts are floors — but the 2017–2025 window is
 spreadsheet-complete, so the zero in it is a real zero and not a gap in
 retrieval.
 
-> **The start boundary is contested, and this is the finding's strongest
-> counter-evidence [2026-09-02].** `raw/self/dox-scan/FULL TWITTER
-> ANALYSIS.txt`, in its 2016 section, quotes a tweet that would break the
-> window open at its front edge: *"Had lit times playing @ulmdub birthday
-> party last night at OSU."* That is Dan playing a live set, and if it is
-> real and postdates 7 March 2016, the ten-year run starts later than this
-> page says.
+> **RESOLVED [2026-09-02] — the disputed tweet is real, and the archive was
+> the unreliable source.** This block previously said the corpus could not
+> tell whether `raw/self/dox-scan/FULL TWITTER ANALYSIS.txt` had invented the
+> line *"Had lit times playing @ulmdub birthday party last night at OSU"*, or
+> whether the archive's 2016 was incomplete — and it leaned toward the first,
+> on the grounds that the analysis file is AI-generated and demonstrably works
+> from a smaller corpus.
 >
-> **The tweet is not in the archive.** 2016 holds 75 originals and none of
-> them is this one; no tweet in any year matches "OSU", "birthday party" or
-> "lit times". So one of two things is true, and the corpus cannot yet say
-> which. Either the analysis file invented or heavily paraphrased the line —
-> it is an AI-generated secondary source, it demonstrably works from a
-> **smaller** corpus than the archive (it puts 2009 at "approximately 65–70
-> tweets" where the archive holds 165), and it appends a spurious
-> `@danfrank` tag after nearly every quotation, all of which argue for low
-> confidence — or the archive's 2016 is not as complete as
-> [[wiki/self/twitter]]'s coverage table states, in which case the table is
-> wrong and so is the "spreadsheet-complete" assurance above it.
+> **That lean was wrong.** A backend fetch on 2026-09-02 returned the tweet:
+> id `696416822011289601`, **2016-02-07T19:34:43 UTC**, text matching the
+> secondary source exactly, one video attached, one repost. It is now in
+> `raw/self/twitter/archive.jsonl`.
 >
-> Note which way this cuts even if the line is genuine: a DJ set at a
-> friend's college birthday party is a *gig*, not a release, and the claim
-> here is about **posting about his own music**. It would move the boundary
-> by up to ten months. It would not touch the 2017–2025 zero, which is where
-> the weight of the finding sits.
+> **So the archive's 2016 is not complete for originals**, whatever
+> [[wiki/self/twitter]]'s coverage table says, and the AI-generated analysis
+> was accurate on a specific quotation this page used its general
+> unreliability to discount. Both corrections belong on the record: a source
+> being unreliable in aggregate does not make it wrong about any given line,
+> and "the archive does not contain it" is a statement about the archive.
 >
-> **What would settle it:** the official X Settings/archive export, already
-> listed as welcome in `queue.md` as a completeness check. Until then this
-> page holds the discrepancy rather than choosing the reading that flatters
-> its own conclusion.
+> **What it does to the finding: less than the block feared.** The gig is
+> **7 February 2016** and the last post about his own music was already
+> **7 March 2016** — the SLOPPP bootleg link, a month *later*. The ten-year
+> boundary does not move. What weakens is the *support* for it: the sentence
+> above asserting the 2017–2025 window is "spreadsheet-complete, so the zero
+> in it is a real zero" rests on the same coverage table now shown wrong for
+> 2016. The zero may well hold; the argument for it no longer does on its own.
+>
+> **Still open, and now the only thing that would close it:** a complete X
+> account export. The 2026-09-02 fetch was search-based and capped at ten
+> results per query, so it can confirm a named tweet exists and cannot
+> enumerate what else 2017–2025 is missing.
+
 
 ## Related
 - [[wiki/interests/music/concepts/sub-bass-signature]]
@@ -9332,6 +9335,10 @@ sources:
   - "raw/self/gemini-activity/Gemini Activity.html"
 tags: [digital-footprint, nyc-era, personality-profile]
 connections:
+  - page: wiki/self/twitter/2008
+    type: evidenced-by
+    claim: "The largest gaming figure in the corpus — fourteen hours of World of Warcraft in twenty-four, on 31 December 2008 — comes from the account's recovered first year and predates this page's earliest previous evidence by three years."
+
   - page: wiki/people/shane-brannan
     type: evidenced-by
     claim: "Nineteen tweets to Shane between 2011 and 2016 are the densest gaming evidence in the corpus and sit inside this page's 2008-2015 hole, documenting an intensity the 'low-grade presence' reading was drawn without."
@@ -9362,6 +9369,39 @@ pre-armor self-presentation: posts reference "slaying on halo" and
 "Super Mario Galaxy" in the same breath as "swooning over the new FOB" and
 "in New York City to see Fall Out Boy at TRL." Gaming was one coordinate
 of the teenage identity cluster, not a separate hobby.
+
+## 2008: fourteen hours in twenty-four
+
+The earliest gaming evidence in the corpus is now **31 December 2008**, from
+the account's recovered first year ([[wiki/self/twitter/2008]]):
+
+> *"in the past 24 hours, i've played 14 hours of world of warcraft."*
+
+And, the same day, on a class rebalance patch: *"in response to my class being
+nerfed in WOW…"* — the vocabulary of someone reading patch notes, not someone
+who installed it that week. Two months earlier the same account had made the
+cat a WoW joke: *"my new kitten and your new puppy shall duel. be forewarned
+that my kitten is a level 70 mage"* (26 October 2008), and level 70 was the
+cap in that expansion.
+
+**Fourteen hours in a day, during a Full Sail term**, is the single largest
+gaming figure anywhere in the corpus, and it sits four months into the
+programme this wiki treats as the serious credential
+([[wiki/timeline/periods/full-sail-2008-2010]]).
+
+> **This page's thesis is now qualified twice, from opposite ends.** It
+> originally read gaming as "a long-running low-grade presence, not a passion"
+> — drawn from a record that ran 2007 → 2016 with nothing between. The
+> 2011–2012 Shane Brannan window filled the middle. This fills the front, and
+> earlier than the "teen signal (2007)" section suggests: 2008 is not a teenage
+> coordinate, it is a twenty-year-old at trade school putting in a
+> fourteen-hour session.
+>
+> The honest shape is no longer "low-grade throughout." It is **two documented
+> high-intensity windows (2008, 2011–12) inside a long low-grade arc**, with
+> the intensity concentrated in exactly the years the record was thinnest. That
+> is a warning about the arc as much as a finding about the games: the periods
+> this page could see least were the periods where the most was happening.
 
 ## The PC and Xbox years (2011–2014) — the hole in the middle
 
@@ -10149,11 +10189,11 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | | |
 |---|---|
-| Pages | 493 |
-| Pages touched in the last 14 days | 205 |
+| Pages | 494 |
+| Pages touched in the last 14 days | 206 |
 | Pages reasoning from other pages (`synthesizes:`) | 78 |
 | Live contradictions | 43 |
-| Open gaps | 503 |
+| Open gaps | 507 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -10163,7 +10203,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | people | 175 |
 | interests | 96 |
 | mind | 77 |
-| self | 58 |
+| self | 59 |
 | timeline | 42 |
 | work | 15 |
 | places | 10 |
@@ -10176,14 +10216,14 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | Status | Pages |
 |---|---|
 | active | 188 |
-| stable | 164 |
+| stable | 165 |
 | closed | 100 |
 | archived | 29 |
 | stub | 12 |
 
 ## The last few days
 
-**2026-09-02** — 41 pages
+**2026-09-02** — 42 pages
   - ingest | self | @danfrank twitter archive as yearly pages
   - build | plain | two writing lanes, a floor that had to be measured, and a campaign page
   - translate | interests | favorites/eclecticism
@@ -10801,7 +10841,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 43 |
-| Open gaps | 503 |
+| Open gaps | 507 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
 
@@ -11314,7 +11354,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/places/the-unpapered-address]]** — **The pre-2010 record is empty.** Full Sail housing (2008–2010) and everything before it are undocumented, so the rule is tested on sixteen years and not on a life. If the Florida period shows a conventional student lease, the pattern has a start date and the 
 - **[[wiki/places/the-unpapered-address]]** — **This page does not establish intent.** Whether the unpapered arrangements were preferred, accepted, or simply the only ones available at a $11,000–14,000 household income is not decidable from this material, and the three readings have very different implica
 
-### self (58)
+### self (62)
 
 - **[[wiki/self/ancestry]]** — 1. **The Harris paternal line.** Sadie Harris's father ("Harris" from Czechoslovakia) is the single biggest data gap. He contributed ~12.5% of Dan's DNA but is completely undocumented beyond a single datum. Research into Czech immigration records, census data,
 - **[[wiki/self/ancestry]]** — 2. **The maternal R0 haplogroup.** The origin of the R0 mitochondrial haplogroup on the maternal line is unexplained. It may indicate a distant Jewish, Middle Eastern, or Central Asian ancestor entering through the Van Voorhis, Conwell, or Thomas lines. Resear
@@ -11362,6 +11402,10 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/message-corpora/source-coverage-index]]** — Row counts are physical records, not unique messages; the same message appears in many files and this index deliberately does not deduplicate.
 - **[[wiki/self/tattoos]]** — The gravestone piece now has an artist and location (Ian Weidrick, Allied Tattoo, Brooklyn) but still no date or corroborating message-corpus trace. Body placement is unknown for every piece on this list; the corpus documents *what* and often *when* and *who d
 - **[[wiki/self/twitter]]** — 2009 through 2012, January–mid-August 2013, and some 2026 days between the spreadsheet end and the live scrape are still being walked from X in batches of ten. Each incomplete yearly page states that on its face. The spreadsheet span 2013-08-17 through 2026-04
+- **[[wiki/self/twitter/2008]]** — **This page is a lower bound, and the shortfall is structural.** The fetch that produced it was search-based and capped at ten results per query. Every month that returned ten hits is truncated at ten: **October, November and December 2008 are all incomplete.*
+- **[[wiki/self/twitter/2008]]** — The account's creation datetime was **not** retrievable — the backend user lookup returned an id (`16430736`) but no `created_at`. Creation on 24 September 2008 is an inference from three consistent facts: the earliest tweet retrieved, two queries before it re
+- **[[wiki/self/twitter/2008]]** — A complete X account export would close both gaps.
+- **[[wiki/self/twitter/2008]]** — This page is the text archive. Every original and every reply retrieved for the year is below, oldest first.
 - **[[wiki/self/twitter/2009]]** — The operator spreadsheet begins 2013-08-17. 2009 is being walked from live X search in batches of ten; this page currently holds 165 originals and will be appended as further batches land. Do not treat the present count as the year's total.
 - **[[wiki/self/twitter/2009]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 - **[[wiki/self/twitter/2010]]** — The operator spreadsheet begins 2013-08-17. 2010 is being walked from live X search in batches of ten; this page currently holds 342 originals and will be appended as further batches land. Do not treat the present count as the year's total.
@@ -11491,8 +11535,8 @@ chart:
     - name: "Entries"
       points:
         "Translated": 28
-        "Major lane": 38
-        "Free lane": 40
+        "Major lane": 40
+        "Free lane": 39
         "Held (people)": 94
         "Too thin": 49
         "Withheld": 217
@@ -11520,7 +11564,7 @@ This page is the campaign to write one for every entry.
 | | |
 |---|---|
 | Entries with a plain-English edition | **28** |
-| Entries eligible for one | 274 |
+| Entries eligible for one | 275 |
 | Withheld under the standing directive | 217 |
 | Coverage | 10.2% |
 
@@ -11532,8 +11576,8 @@ is arithmetic in `bin/wiki-plain`: 900 words is the boundary.
 
 | Lane | What is in it | Outstanding |
 |---|---|---|
-| `major` | entries of 900 words or more — the dense findings | 38 |
-| `free` | entries under 900 words, worked smallest first | 40 |
+| `major` | entries of 900 words or more — the dense findings | 40 |
+| `free` | entries under 900 words, worked smallest first | 39 |
 
 A further **94** eligible entries about other people are in
 neither lane. They are held back deliberately, pending a decision about
@@ -11584,15 +11628,15 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 
 ## Next up
 
-**major** — 38 outstanding
+**major** — 40 outstanding
 
-- [[wiki/self/twitter/2024]] (10344 words)
-- [[wiki/self/twitter/2013]] (8992 words)
-- [[wiki/self/twitter/2010]] (8727 words)
-- [[wiki/self/twitter/2022]] (6584 words)
-- [[wiki/self/twitter/2023]] (6529 words)
+- [[wiki/self/twitter/2024]] (10376 words)
+- [[wiki/self/twitter/2013]] (9108 words)
+- [[wiki/self/twitter/2010]] (8865 words)
+- [[wiki/self/twitter/2009]] (7167 words)
+- [[wiki/self/twitter/2022]] (6677 words)
 
-**free** — 40 outstanding
+**free** — 39 outstanding
 
 - [[wiki/work/caviar-courier]] (301 words)
 - [[wiki/interests/favorites/books/authors/adrian-goldsworthy]] (315 words)
@@ -11634,7 +11678,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-02 — 41 pages
+## 2026-09-02 — 42 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11658,6 +11702,7 @@ simply listed.
 | [[wiki/self/location-history]] | self | **CONTRADICTION** — this bullet used to end "No contradiction." There is one, and it is in the Facebook profile itself. `places lived` says **Brooklyn from 3 January 2010**; the tweet archive has Dan in Florida through 2 |
 | [[wiki/self/tattoos]] | self | **CORRECTED** — this page previously read "**entirely** cultural reference … *every* known piece points at a specific record, band, or artist rather than a generic symbol," and dated the earliest well-documented piec |
 | [[wiki/self/twitter]] | self | _(carries a CONTRADICTION)_ |
+| [[wiki/self/twitter/2008]] | self | — |
 | [[wiki/self/twitter/2009]] | self | — |
 | [[wiki/self/twitter/2010]] | self | — |
 | [[wiki/self/twitter/2011]] | self | — |
@@ -44912,6 +44957,30 @@ Dan Polyak is a longtime friend — a shared-first-name running joke
 Messenger thread (2013–2020) is defensive-toned banter for most of its
 length but carries two genuinely consequential exchanges.
 
+## An unresolved 2008 lead: `@clandan`
+
+This page dates the shared-first-name joke — *"bitchdan," "clandan"* — to at
+least 2013. A handle **`@clandan`** appears twice in the account's recovered
+2008 tweets:
+
+> *"@clandan omw bb- 5 dollar footlong."* (14 October 2008)
+> *"@clandan my new kitten and your new puppy shall duel. be forewarned that my kitten is a level 70 mage."* (26 October 2008)
+
+Both are casual, both are to someone Dan knows well, and the name is one of
+the two the joke uses.
+
+**It is not established that `@clandan` is Dan Polyak, and this page does not
+claim it.** The two tweets are the handle's entire footprint — it never
+appears again in 2,741 originals, it never co-occurs with `@danpolyak`, and no
+tweet identifies the person behind it. A handle change between 2008 and the
+first `@danpolyak` tweet of December 2009 would explain it; so would a
+different friend whose name also fed the joke.
+
+**What would settle it:** a contacts export or a Facebook friend record
+linking `clandan` to a name, or a complete X export showing the two handles
+in one thread. Until then this is a lead, and the 2013 date on the joke stands
+as the earliest *documented* instance.
+
 ## Four years before the Facebook thread
 
 The Messenger thread this page is built on runs **2013–2020**. Twenty-one
@@ -71176,6 +71245,673 @@ the Weidrick rose follows about ten weeks later.
 
 
 ========================================================================
+PAGE: wiki/self/twitter/2008.md
+========================================================================
+
+---
+domain: self
+page_type: period
+status: stable
+date_created: 2026-09-02
+date_modified: 2026-09-02
+knowledge: derived
+date_range_start: 2008-09-24
+date_range_end: 2008-12-31
+title: "Twitter / X — 2008"
+sources:
+  - "raw/self/twitter/archive.jsonl"
+  - "raw/self/twitter/grok-backfill-2026-09-02/"
+tags: [music-production, digital-footprint, career]
+connections:
+  - page: wiki/self/twitter
+    type: component-of
+    claim: 'The 2008 originals are the account''s first year and were recovered only on 2026-09-02, thirteen months earlier than the archive previously reached.'
+  - page: wiki/self/twitter/2009
+    type: precedes
+    claim: '2008 is the first year of the account and runs straight into 2009 without a break.'
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: evidences
+    claim: 'The account opens on the day Dan arrives in Winter Park and its first three months are Full Sail student life in real time — orientation, 7am labs, twenty-hour class days, the algebra requirement and the December math final.'
+  - page: wiki/timeline/periods/dark-era-2007-2008
+    type: evidences
+    claim: 'The account''s second tweet — "Really feels like life has started over now. It''s weird enjoying life again." — is Dan naming an exit from that period on the day the account begins.'
+---
+
+# Twitter / X — 2008
+
+**The account's first year, and it did not exist in this wiki until
+2026-09-02.** The archive previously began on 2009-10-20; a backend fetch
+recovered 213 earlier tweets, 95 of them from 2008.
+
+The account opens on **24 September 2008** with *"i fucking looove winter
+park. this town is unreal."* Winter Park is where Full Sail is. The account
+is not a diary someone started and later pointed at a new life — it **begins
+at the arrival**, and the second tweet, forty-five minutes later, says what
+the arrival was for: *"Really feels like life has started over now. It's
+weird enjoying life again. So stoked."*
+
+What follows is student life at close range. Orientation on 22 October, then
+the 7am starts (*"getting accustomed to getting up this early. i'll be doing
+it for a month evvvvvery day. FUCK."*), twenty-hour class days, the labs, the
+maths requirement he resents (*"why am i learning fucking ALGEBRA again. gb2
+fourth grade."*, and the folk claim *"Fact 90% of full sail students fail
+math"*), and the final on 18 December — *"Killed it. Packing to go home :("*.
+
+Three other threads run through it. **Gear and a first studio**: a Korg
+padKONTROL on 8 October, and on 12 November *"Living room is now a makeshift
+studio"*. **Emo and pop-punk at saturation** — All Time Low, The Maine, Cobra
+Starship, Hit The Lights, Forever The Sickest Kids, Panic, The Starting Line,
+Fall Out Boy at the House of Blues on 12 December, and Hey Monday twice,
+including flying back to Orlando early on 28 December to catch them. And
+**World of Warcraft**, closing the year on 31 December with *"in the past 24
+hours, i've played 14 hours of world of warcraft."*
+
+Pennsylvania is already the place he does not want to be: *"I don't want to go
+to cold, lame PA"* and *"i fucking hate going home"*, both 19 December.
+
+## Coverage
+
+| | |
+|---|---|
+| Originals on this page | 95 |
+| From operator spreadsheet | 0 |
+| From live X scrape | 0 |
+| Pure reposts | omitted by rule (no @danfrank quote text) |
+
+All 95 rows came from the 2026-09-02 backend fetch, `source: grok-backend`.
+
+## Gaps
+
+**This page is a lower bound, and the shortfall is structural.** The fetch that
+produced it was search-based and capped at ten results per query. Every month
+that returned ten hits is truncated at ten: **October, November and December
+2008 are all incomplete.** Only 24 September is a strong candidate for a
+complete day, at six tweets.
+
+The account's creation datetime was **not** retrievable — the backend user
+lookup returned an id (`16430736`) but no `created_at`. Creation on 24
+September 2008 is an inference from three consistent facts: the earliest tweet
+retrieved, two queries before it returning nothing, and the
+`#MyTwitterAnniversary` tweet of 2022-09-24. It is not a recorded creation
+date, and should not be cited as one.
+
+A complete X account export would close both gaps.
+
+This page is the text archive. Every original and every reply retrieved for
+the year is below, oldest first.
+
+### 2008-09-24 04:52:36 UTC · [932618140](https://x.com/danfrank/status/932618140)
+*likes 0 · replies 0 · reposts 0*
+
+> i fucking looove winter park. this town is unreal.
+
+
+### 2008-09-24 05:37:23 UTC · [932647938](https://x.com/danfrank/status/932647938)
+*likes 0 · replies 0 · reposts 0*
+
+> Really feels like life has started over now. It's weird enjoying life again. So stoked.
+
+
+### 2008-09-24 13:49:56 UTC · [932991533](https://x.com/danfrank/status/932991533)
+*likes 0 · replies 0 · reposts 0*
+
+> schrute farms is now completely wireless.
+
+
+### 2008-09-24 16:44:07 UTC · [933209487](https://x.com/danfrank/status/933209487)
+*likes 0 · replies 0 · reposts 0*
+
+> I haate house shopping
+
+
+### 2008-09-24 17:50:26 UTC · [933291087](https://x.com/danfrank/status/933291087)
+*likes 0 · replies 0 · reposts 0*
+
+> Cocoa beach sounds legitttt
+
+
+### 2008-09-24 20:25:05 UTC · [933471709](https://x.com/danfrank/status/933471709)
+*likes 0 · replies 0 · reposts 0*
+
+> Fuck high tide advisories.  http://tinyurl.com/5459ms
+
+
+### 2008-09-25 01:02:44 UTC · [933754270](https://x.com/danfrank/status/933754270)
+*likes 0 · replies 0 · reposts 0*
+
+> Oh mah god this place is insane
+
+
+### 2008-09-25 07:05:20 UTC · [934057152](https://x.com/danfrank/status/934057152)
+*likes 0 · replies 0 · reposts 0*
+
+> Yo I have a month vacation in FL. This is bananas.
+
+
+### 2008-09-25 23:28:23 UTC · [935023283](https://x.com/danfrank/status/935023283)
+*likes 0 · replies 0 · reposts 0*
+
+> So amped for the office. Life is gooood
+
+
+### 2008-09-26 21:52:00 UTC · [936288536](https://x.com/danfrank/status/936288536)
+*likes 0 · replies 0 · reposts 0*
+
+> Fuck Cuban food. Disney will be ill though.
+
+
+### 2008-09-27 01:54:14 UTC · [936574647](https://x.com/danfrank/status/936574647)
+*likes 0 · replies 0 · reposts 0*
+
+> At downtown disney watching choke
+
+
+### 2008-09-27 15:01:18 UTC · [937156347](https://x.com/danfrank/status/937156347)
+*likes 0 · replies 0 · reposts 0*
+
+> @stevenboo no, i can't make it today. sorry bro.
+
+
+### 2008-09-30 18:20:37 UTC · [940890739](https://x.com/danfrank/status/940890739)
+*likes 0 · replies 0 · reposts 0*
+
+> the post office is fucking lame.
+
+
+### 2008-10-07 20:29:17 UTC · [950144664](https://x.com/danfrank/status/950144664)
+*likes 0 · replies 0 · reposts 0*
+
+> @mikegentile it's sold out at the orlando best buy too.
+
+
+### 2008-10-07 20:29:38 UTC · [950145069](https://x.com/danfrank/status/950145069)
+*likes 0 · replies 0 · reposts 0*
+
+> at the roots show. i can dig that.
+
+
+### 2008-10-08 23:31:27 UTC · [952001090](https://x.com/danfrank/status/952001090)
+*likes 0 · replies 0 · reposts 0*
+
+> omg this is SO sick. padKONTROL for the win.
+
+
+### 2008-10-09 22:19:35 UTC · [953372223](https://x.com/danfrank/status/953372223)
+*likes 0 · replies 0 · reposts 0*
+
+> it's raining so hard. way to go florida.
+
+
+### 2008-10-11 00:44:38 UTC · [954947912](https://x.com/danfrank/status/954947912)
+*likes 0 · replies 0 · reposts 0*
+
+> how long can i stay up and watch most haunted live?
+
+
+### 2008-10-11 18:43:23 UTC · [955713189](https://x.com/danfrank/status/955713189)
+*likes 0 · replies 0 · reposts 0*
+
+> curb your enthusiasm for major lolz.
+
+
+### 2008-10-14 04:33:01 UTC · [958617054](https://x.com/danfrank/status/958617054)
+*likes 0 · replies 0 · reposts 0*
+
+> "whoa, that was most atypical"
+
+
+### 2008-10-14 17:02:08 UTC · [959315266](https://x.com/danfrank/status/959315266)
+*likes 0 · replies 0 · reposts 0*
+
+> Fuuuck my hand hurts
+
+
+### 2008-10-14 18:04:36 UTC · [959412568](https://x.com/danfrank/status/959412568)
+*likes 0 · replies 0 · reposts 0*
+
+> @clandan omw bb- 5 dollar footlong.
+
+
+### 2008-10-14 18:57:40 UTC · [959488269](https://x.com/danfrank/status/959488269)
+*likes 0 · replies 0 · reposts 0*
+
+> mmmm crispers.
+
+
+### 2008-10-15 20:21:15 UTC · [961155491](https://x.com/danfrank/status/961155491)
+*likes 0 · replies 0 · reposts 0*
+
+> watching purple rain...fuck yeah.
+
+
+### 2008-10-16 20:06:07 UTC · [962839513](https://x.com/danfrank/status/962839513)
+*likes 0 · replies 0 · reposts 0*
+
+> I think I'm gonna stop smoking cigarettes. Another problem solved.
+
+
+### 2008-10-17 14:38:33 UTC · [963889580](https://x.com/danfrank/status/963889580)
+*likes 0 · replies 0 · reposts 0*
+
+> ughhhh...why can't i sleep anymore
+
+
+### 2008-10-18 19:19:58 UTC · [965437487](https://x.com/danfrank/status/965437487)
+*likes 0 · replies 0 · reposts 0*
+
+> all time lowww/the maine
+
+
+### 2008-10-19 19:00:18 UTC · [966495821](https://x.com/danfrank/status/966495821)
+*likes 0 · replies 0 · reposts 0*
+
+> i want to hear some music
+
+
+### 2008-10-19 22:21:11 UTC · [966672432](https://x.com/danfrank/status/966672432)
+*likes 0 · replies 0 · reposts 0*
+
+> i love james franco.
+
+
+### 2008-10-21 03:01:29 UTC · [968404972](https://x.com/danfrank/status/968404972)
+*likes 0 · replies 0 · reposts 0*
+
+> @stevenboo gamespot>>>>spencers. I've heard this first hand
+
+
+### 2008-10-21 17:04:04 UTC · [969217476](https://x.com/danfrank/status/969217476)
+*likes 0 · replies 0 · reposts 0*
+
+> @stevenboo that's just what i heard. maybe it's just that one spencers? i've just only heard bad things.
+
+
+### 2008-10-21 17:04:25 UTC · [969217985](https://x.com/danfrank/status/969217985)
+*likes 0 · replies 0 · reposts 0*
+
+> it's fucking beautiful outside.
+
+
+### 2008-10-22 00:51:46 UTC · [969800728](https://x.com/danfrank/status/969800728)
+*likes 0 · replies 0 · reposts 0*
+
+> Rainforest cafe omnomnom
+
+
+### 2008-10-22 20:41:18 UTC · [971032554](https://x.com/danfrank/status/971032554)
+*likes 0 · replies 0 · reposts 0*
+
+> orientation=done. vibe outttt
+
+
+### 2008-10-23 13:35:06 UTC · [971997699](https://x.com/danfrank/status/971997699)
+*likes 0 · replies 0 · reposts 0*
+
+> Another day here:   http://tinyurl.com/6o4vxc
+
+
+### 2008-10-24 15:09:23 UTC · [973709297](https://x.com/danfrank/status/973709297)
+*likes 0 · replies 0 · reposts 0*
+
+> wtf do i name my cat: ari, dwight, or mose?
+> TEXT YOUR ANSWER TO 66589 NOW!
+
+
+### 2008-10-24 23:27:50 UTC · [974362179](https://x.com/danfrank/status/974362179)
+*likes 0 · replies 0 · reposts 0*
+
+> we'd dance like a heart attack
+
+
+### 2008-10-26 03:10:35 UTC · [975714390](https://x.com/danfrank/status/975714390)
+*likes 0 · replies 0 · reposts 0*
+
+> @clandan my new kitten and your new puppy shall duel. be forewarned that my kitten is a level 70 mage.
+
+
+### 2008-10-26 17:58:57 UTC · [976345575](https://x.com/danfrank/status/976345575)
+*likes 0 · replies 0 · reposts 0*
+
+> Finally found a copy of wii fit. Should go great with all the pizza and beer.
+
+
+### 2008-10-27 12:21:56 UTC · [977287069](https://x.com/danfrank/status/977287069)
+*likes 0 · replies 0 · reposts 0*
+
+> getting accustomed to getting up this early. i'll be doing it for a month evvvvvery day. FUCK.
+
+
+### 2008-10-27 17:14:10 UTC · [977677746](https://x.com/danfrank/status/977677746)
+*likes 0 · replies 0 · reposts 0*
+
+> lololololol i love going to a school where the phrase "mad crunk" is used in class.
+
+
+### 2008-10-28 02:05:44 UTC · [978341860](https://x.com/danfrank/status/978341860)
+*likes 0 · replies 0 · reposts 0*
+
+> @mikegentile LOL thank god it got played so early in the episode. I don't think i can handle more than 5 minutes of that mess.
+
+
+### 2008-10-28 02:27:55 UTC · [978368104](https://x.com/danfrank/status/978368104)
+*likes 0 · replies 0 · reposts 0*
+
+> fucking full sail...i hate waking up at 7am
+
+
+### 2008-10-28 12:41:50 UTC · [978869355](https://x.com/danfrank/status/978869355)
+*likes 0 · replies 0 · reposts 0*
+
+> Getting up early is not for me
+
+
+### 2008-10-29 12:47:13 UTC · [980433586](https://x.com/danfrank/status/980433586)
+*likes 0 · replies 0 · reposts 0*
+
+> Class for like 20 hours today. Fucking weak
+
+
+### 2008-10-29 21:12:47 UTC · [981158892](https://x.com/danfrank/status/981158892)
+*likes 0 · replies 0 · reposts 0*
+
+> Labbbb
+
+
+### 2008-10-31 13:03:43 UTC · [983696684](https://x.com/danfrank/status/983696684)
+*likes 0 · replies 0 · reposts 0*
+
+> Fucking labbbb
+
+
+### 2008-10-31 19:17:47 UTC · [984249824](https://x.com/danfrank/status/984249824)
+*likes 0 · replies 0 · reposts 0*
+
+> let the beat build. bitttttch
+
+
+### 2008-10-31 22:33:13 UTC · [984478753](https://x.com/danfrank/status/984478753)
+*likes 0 · replies 0 · reposts 0*
+
+> Zack and miri
+
+
+### 2008-11-10 14:28:32 UTC · [998808627](https://x.com/danfrank/status/998808627)
+*likes 0 · replies 0 · reposts 0*
+
+> in class for the weeeek
+
+
+### 2008-11-10 20:34:36 UTC · [999332770](https://x.com/danfrank/status/999332770)
+*likes 0 · replies 0 · reposts 0*
+
+> Hey, monday.
+
+
+### 2008-11-11 01:16:52 UTC · [999699292](https://x.com/danfrank/status/999699292)
+*likes 0 · replies 0 · reposts 0*
+
+> lindsey almost froze my browser with her ABSURD tweeting.
+
+
+### 2008-11-12 13:17:06 UTC · [1002020381](https://x.com/danfrank/status/1002020381)
+*likes 0 · replies 0 · reposts 0*
+
+> i hope my group doesn't botch our presentation today.
+
+
+### 2008-11-12 18:57:46 UTC · [1002529274](https://x.com/danfrank/status/1002529274)
+*likes 0 · replies 0 · reposts 0*
+
+> @rlich8 people still wear hollister?
+
+
+### 2008-11-12 23:58:06 UTC · [1002966072](https://x.com/danfrank/status/1002966072)
+*likes 0 · replies 0 · reposts 0*
+
+> Living room is now a makeshift studio http://twitpic.com/lfo4
+
+
+### 2008-11-13 19:46:41 UTC · [1004356953](https://x.com/danfrank/status/1004356953)
+*likes 0 · replies 0 · reposts 0*
+
+> cobras/hit the lights/ftsk
+
+
+### 2008-11-14 01:34:14 UTC · [1004760484](https://x.com/danfrank/status/1004760484)
+*likes 0 · replies 0 · reposts 0*
+
+> my Twitterank is 2.3! http://twitterank.com/view/danfrank
+
+
+### 2008-11-15 00:14:02 UTC · [1006347095](https://x.com/danfrank/status/1006347095)
+*likes 0 · replies 0 · reposts 0*
+
+> almost done for the week...fucking finally.
+
+
+### 2008-11-15 22:04:00 UTC · [1007490860](https://x.com/danfrank/status/1007490860)
+*likes 0 · replies 0 · reposts 0*
+
+> trans-siberian orchestra tonight.
+
+
+### 2008-11-16 04:07:46 UTC · [1007840482](https://x.com/danfrank/status/1007840482)
+*likes 0 · replies 0 · reposts 0*
+
+> wow that was SUPER lame.
+
+
+### 2008-11-16 05:53:08 UTC · [1007932306](https://x.com/danfrank/status/1007932306)
+*likes 0 · replies 0 · reposts 0*
+
+> @billbeckett http://www.wellesley.edu/Computing/Idocs/Itunes/convertMP3.html
+
+
+### 2008-11-18 02:19:17 UTC · [1010616996](https://x.com/danfrank/status/1010616996)
+*likes 0 · replies 0 · reposts 0*
+
+> Jedi mind tricks
+
+
+### 2008-11-18 06:50:30 UTC · [1010897278](https://x.com/danfrank/status/1010897278)
+*likes 0 · replies 0 · reposts 0*
+
+> holy fuck, jedi mind tricks are so fucking scary.
+
+
+### 2008-11-20 16:54:27 UTC · [1014979196](https://x.com/danfrank/status/1014979196)
+*likes 0 · replies 0 · reposts 0*
+
+> sooo close to being done.
+
+
+### 2008-11-26 02:51:25 UTC · [1023862126](https://x.com/danfrank/status/1023862126)
+*likes 0 · replies 0 · reposts 0*
+
+> Sipping something Easter pink
+
+
+### 2008-11-27 17:13:38 UTC · [1026658025](https://x.com/danfrank/status/1026658025)
+*likes 0 · replies 0 · reposts 0*
+
+> i never use twitter anymore ):
+
+
+### 2008-11-30 16:28:11 UTC · [1030858479](https://x.com/danfrank/status/1030858479)
+*likes 0 · replies 0 · reposts 0*
+
+> i miss the starting line.
+
+
+### 2008-12-05 00:34:32 UTC · [1039230307](https://x.com/danfrank/status/1039230307)
+*likes 0 · replies 0 · reposts 0*
+
+> left class early, maybe i'll get a couple hours of relaxation...maybe.
+
+
+### 2008-12-05 03:07:26 UTC · [1039458861](https://x.com/danfrank/status/1039458861)
+*likes 0 · replies 0 · reposts 0*
+
+> oooomg dwight marries angela. fucking awesome.
+
+
+### 2008-12-05 21:24:13 UTC · [1040945137](https://x.com/danfrank/status/1040945137)
+*likes 0 · replies 0 · reposts 0*
+
+> Sooo nice outside
+
+
+### 2008-12-06 21:00:44 UTC · [1042466431](https://x.com/danfrank/status/1042466431)
+*likes 0 · replies 0 · reposts 0*
+
+> working like craaaazy/partying simultaneously. I'm pretty sure this is what the music biz is about, and it WILL kill me.
+
+
+### 2008-12-08 06:59:03 UTC · [1044659229](https://x.com/danfrank/status/1044659229)
+*likes 0 · replies 0 · reposts 0*
+
+> two days off is sooo fucking nice.
+
+
+### 2008-12-09 15:21:57 UTC · [1047194098](https://x.com/danfrank/status/1047194098)
+*likes 0 · replies 0 · reposts 0*
+
+> 7 hookahs last night, throat = deaaad
+
+
+### 2008-12-09 19:14:08 UTC · [1047635099](https://x.com/danfrank/status/1047635099)
+*likes 0 · replies 0 · reposts 0*
+
+> why am i learning fucking ALGEBRA again. gb2 fourth grade.
+
+
+### 2008-12-10 00:00:58 UTC · [1048139911](https://x.com/danfrank/status/1048139911)
+*likes 0 · replies 0 · reposts 0*
+
+> Fact 90% of full sail students fail math
+
+
+### 2008-12-10 18:01:38 UTC · [1049603617](https://x.com/danfrank/status/1049603617)
+*likes 0 · replies 0 · reposts 0*
+
+> It's like 2005 again. Fobz and panic both in rotation in my car.
+
+
+### 2008-12-10 19:29:24 UTC · [1049764587](https://x.com/danfrank/status/1049764587)
+*likes 0 · replies 0 · reposts 0*
+
+> It's 85 rn. I fucking love florida
+
+
+### 2008-12-11 13:55:02 UTC · [1051235857](https://x.com/danfrank/status/1051235857)
+*likes 0 · replies 0 · reposts 0*
+
+> Fuuuck it's early
+
+
+### 2008-12-11 23:05:55 UTC · [1052261972](https://x.com/danfrank/status/1052261972)
+*likes 0 · replies 0 · reposts 0*
+
+> Fall out boy tomorrow. Absofuckinglutley.
+
+
+### 2008-12-12 03:51:11 UTC · [1052711802](https://x.com/danfrank/status/1052711802)
+*likes 0 · replies 0 · reposts 0*
+
+> Deleting billbeckett aka espnNews
+
+
+### 2008-12-12 17:58:44 UTC · [1053837117](https://x.com/danfrank/status/1053837117)
+*likes 0 · replies 0 · reposts 0*
+
+> fall out boy/TAI/WTK - @houseofblues. let me know if you're going!
+
+
+### 2008-12-15 20:53:41 UTC · [1059258602](https://x.com/danfrank/status/1059258602)
+*likes 0 · replies 0 · reposts 0*
+
+> finals week- shit suuucks.
+
+
+### 2008-12-17 00:13:03 UTC · [1061748912](https://x.com/danfrank/status/1061748912)
+*likes 0 · replies 0 · reposts 0*
+
+> the acoustic version of donnie is fucking pow.
+
+
+### 2008-12-18 13:36:11 UTC · [1064878363](https://x.com/danfrank/status/1064878363)
+*likes 0 · replies 0 · reposts 0*
+
+> Math final. PRAYPRAYPRAY
+
+
+### 2008-12-18 15:22:28 UTC · [1065063096](https://x.com/danfrank/status/1065063096)
+*likes 0 · replies 0 · reposts 0*
+
+> Killed it. Packing to go home :(
+
+
+### 2008-12-19 13:56:04 UTC · [1067049510](https://x.com/danfrank/status/1067049510)
+*likes 0 · replies 0 · reposts 0*
+
+> I don't want to go to cold, lame PA. Be back on the 28th for hey Monday :)
+
+
+### 2008-12-19 16:34:58 UTC · [1067351244](https://x.com/danfrank/status/1067351244)
+*likes 0 · replies 0 · reposts 0*
+
+> at the airport. i fucking hate going home.
+
+
+### 2008-12-22 19:10:59 UTC · [1072807698](https://x.com/danfrank/status/1072807698)
+*likes 0 · replies 0 · reposts 0*
+
+> coffee and cigarettes- the cure for a ROUGH night.
+
+
+### 2008-12-22 22:19:50 UTC · [1073134192](https://x.com/danfrank/status/1073134192)
+*likes 0 · replies 0 · reposts 0*
+
+> I guess I should start shopping tomorrow
+
+
+### 2008-12-23 22:53:31 UTC · [1075208398](https://x.com/danfrank/status/1075208398)
+*likes 0 · replies 0 · reposts 0*
+
+> Pens game
+
+
+### 2008-12-28 00:40:45 UTC · [1081551627](https://x.com/danfrank/status/1081551627)
+*likes 0 · replies 0 · reposts 0*
+
+> Flying to Orlando for hey monday tomorrow. Wooo
+
+
+### 2008-12-28 15:38:45 UTC · [1082383557](https://x.com/danfrank/status/1082383557)
+*likes 0 · replies 0 · reposts 0*
+
+> Hate airport days.
+
+
+### 2008-12-29 04:56:33 UTC · [1083432347](https://x.com/danfrank/status/1083432347)
+*likes 0 · replies 0 · reposts 0*
+
+> omg so tired rn
+
+
+### 2008-12-31 03:14:56 UTC · [1087224783](https://x.com/danfrank/status/1087224783)
+*likes 0 · replies 0 · reposts 0*
+
+> in the past 24 hours, i've played 14 hours of world of warcraft.
+
+
+### 2008-12-31 17:39:03 UTC · [1088395639](https://x.com/danfrank/status/1088395639)
+*likes 0 · replies 0 · reposts 0*
+
+> in response to my class being nerfed in WOW...i give you BLACK JESUS-http://i41.tinypic.com/14t4sif.jpg
+
+
+========================================================================
 PAGE: wiki/self/twitter/2009.md
 ========================================================================
 
@@ -71197,6 +71933,9 @@ connections:
   - page: wiki/self/twitter
     type: component-of
     claim: 'The 2009 originals are one year of the @danfrank public record filed under the twitter hub.'
+  - page: wiki/self/twitter/2008
+    type: follows
+    claim: 'The 2009 record continues directly from the account''s first year without a break; 118 of this page''s rows were recovered alongside 2008 on 2026-09-02.'
   - page: wiki/self/twitter/2010
     type: precedes
     claim: '2009 is the immediately previous year of originals before 2010 on the same account.'
@@ -71213,7 +71952,7 @@ The origin year of @danfrank. The voice is already the one the later corpora tre
 
 | | |
 |---|---|
-| Originals on this page | 165 |
+| Originals on this page | 283 |
 | From operator spreadsheet | 0 |
 | From live X scrape | 165 |
 | Pure reposts | omitted by rule (no @danfrank quote text) |
@@ -71225,6 +71964,715 @@ The operator spreadsheet begins 2013-08-17. 2009 is being walked from live X sea
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
 ## October
+
+### 2009-01-07 20:11:05 UTC · [1102670744](https://x.com/danfrank/status/1102670744)
+*likes 0 · replies 0 · reposts 0*
+
+> class.
+
+
+### 2009-01-12 20:10:19 UTC · [1113894671](https://x.com/danfrank/status/1113894671)
+*likes 0 · replies 0 · reposts 0*
+
+> my life is literally like FBR now- no food, no sleep, just records.
+
+
+### 2009-01-19 00:25:11 UTC · [1129258111](https://x.com/danfrank/status/1129258111)
+*likes 0 · replies 0 · reposts 0*
+
+> what the actual fuck. 
+> fuck baltimore
+
+
+### 2009-01-19 03:23:14 UTC · [1129585647](https://x.com/danfrank/status/1129585647)
+*likes 0 · replies 0 · reposts 0*
+
+> that was immense. so stoked to go to the superbowl!
+
+
+### 2009-01-19 18:56:35 UTC · [1131117321](https://x.com/danfrank/status/1131117321)
+*likes 0 · replies 0 · reposts 0*
+
+> @rlich8  lick, lick, salute.. 3 years 16 minutes ago from Tweetie
+
+
+### 2009-01-25 08:12:07 UTC · [1146355389](https://x.com/danfrank/status/1146355389)
+*likes 0 · replies 0 · reposts 0*
+
+> i don't tweet enough anymore...
+
+
+### 2009-01-25 22:18:38 UTC · [1147575045](https://x.com/danfrank/status/1147575045)
+*likes 0 · replies 0 · reposts 0*
+
+> omg so excited for flight of the conchords tonight.
+
+
+### 2009-01-26 19:01:58 UTC · [1149838517](https://x.com/danfrank/status/1149838517)
+*likes 0 · replies 0 · reposts 0*
+
+> surround sound lecture.
+
+
+### 2009-02-26 21:00:11 UTC · [1255285599](https://x.com/danfrank/status/1255285599)
+*likes 0 · replies 0 · reposts 0*
+
+> @ericjester hahahahaha your doing it wrong when.... http://twitpic.com/1pm8h
+
+
+### 2009-02-26 23:23:34 UTC · [1255845383](https://x.com/danfrank/status/1255845383)
+*likes 0 · replies 0 · reposts 0*
+
+> 48 hours of hell is about to begin.
+
+
+### 2009-02-27 05:13:59 UTC · [1256963348](https://x.com/danfrank/status/1256963348)
+*likes 0 · replies 0 · reposts 0*
+
+> 1 down bitttches. Studying all night, expect constant twitter updates.
+
+
+### 2009-02-27 05:57:28 UTC · [1257066438](https://x.com/danfrank/status/1257066438)
+*likes 0 · replies 0 · reposts 0*
+
+> @lexjosephine PLEASE tell me that show isn't tonight?
+
+
+### 2009-02-27 06:20:10 UTC · [1257116572](https://x.com/danfrank/status/1257116572)
+*likes 0 · replies 0 · reposts 0*
+
+> are you KIDDDDING me? can't believe i missed this prov tonight : (
+
+
+### 2009-02-27 20:20:38 UTC · [1259543774](https://x.com/danfrank/status/1259543774)
+*likes 0 · replies 0 · reposts 0*
+
+> today is mazin in just about every way.
+
+
+### 2009-02-27 21:44:58 UTC · [1259869169](https://x.com/danfrank/status/1259869169)
+*likes 0 · replies 0 · reposts 0*
+
+> stuuuudyin with @ericjester @mattdunnisatool @jfreshest
+
+
+### 2009-02-28 04:56:38 UTC · [1261143612](https://x.com/danfrank/status/1261143612)
+*likes 0 · replies 0 · reposts 0*
+
+> ugh so sick.
+
+
+### 2009-02-28 15:01:59 UTC · [1262177627](https://x.com/danfrank/status/1262177627)
+*likes 0 · replies 0 · reposts 0*
+
+> Songcraft final(e)
+
+
+### 2009-02-28 21:45:57 UTC · [1263351528](https://x.com/danfrank/status/1263351528)
+*likes 0 · replies 0 · reposts 0*
+
+> @aprcorey I should be going ugh....
+
+
+### 2009-03-31 02:34:18 UTC · [1421922504](https://x.com/danfrank/status/1421922504)
+*likes 0 · replies 0 · reposts 0*
+
+> @jfriedline http://tinyurl.com/2zzdwm  "QUIET YOU!!!!!"
+
+
+### 2009-03-31 12:36:15 UTC · [1424002332](https://x.com/danfrank/status/1424002332)
+*likes 0 · replies 0 · reposts 0*
+
+> Kinda sad I check twtr, fbook, and email before I even get out of bed. Idgaf.
+
+
+### 2009-03-31 13:01:36 UTC · [1424115903](https://x.com/danfrank/status/1424115903)
+*likes 0 · replies 0 · reposts 0*
+
+> ESA lecture. putting up with @ericjester 's shit for another 30 days at least.
+
+
+### 2009-03-31 14:40:10 UTC · [1424647092](https://x.com/danfrank/status/1424647092)
+*likes 0 · replies 0 · reposts 0*
+
+> "he's probably a peeping jeff"  omg yes
+
+
+### 2009-03-31 15:02:46 UTC · [1424785711](https://x.com/danfrank/status/1424785711)
+*likes 0 · replies 0 · reposts 0*
+
+> learning how to wrap cables. are you kidding me fs?
+
+
+### 2009-03-31 18:15:32 UTC · [1425971144](https://x.com/danfrank/status/1425971144)
+*likes 0 · replies 0 · reposts 0*
+
+> Afterplayrewind recording sesh today/ it's nasty in fla. Need mood elevation via electronica.
+
+
+### 2009-03-31 18:18:44 UTC · [1425989634](https://x.com/danfrank/status/1425989634)
+*likes 0 · replies 0 · reposts 0*
+
+> @markhoppus isn't that what studio inters are for?? "find me some colgate, bro!"
+
+
+### 2009-03-31 19:18:53 UTC · [1426341855](https://x.com/danfrank/status/1426341855)
+*likes 0 · replies 0 · reposts 0*
+
+> Drumz!  http://twitpic.com/2nes0
+
+
+### 2009-03-31 20:15:49 UTC · [1426649017](https://x.com/danfrank/status/1426649017)
+*likes 0 · replies 0 · reposts 0*
+
+> i could go for chic-fil-a. will be like the 4th time in the past week.
+
+
+### 2009-03-31 22:40:54 UTC · [1427494162](https://x.com/danfrank/status/1427494162)
+*likes 0 · replies 0 · reposts 0*
+
+> Sitting at gas stations with j freshest
+
+
+### 2009-04-29 19:39:29 UTC · [1651897087](https://x.com/danfrank/status/1651897087)
+*likes 0 · replies 0 · reposts 0*
+
+> well, it's official...i already hate everyone that's gonna be in jersey this weekend (cos i could've/should've been there.)
+
+
+### 2009-04-29 20:16:42 UTC · [1652226926](https://x.com/danfrank/status/1652226926)
+*likes 0 · replies 0 · reposts 0*
+
+> way sick still. thinking it might be another 10pm nyquill session.
+
+
+### 2009-04-30 00:05:49 UTC · [1654162975](https://x.com/danfrank/status/1654162975)
+*likes 0 · replies 0 · reposts 0*
+
+> Jester thinks I have swine flu and won't share a spliff.
+
+
+### 2009-04-30 01:13:36 UTC · [1654733813](https://x.com/danfrank/status/1654733813)
+*likes 0 · replies 0 · reposts 0*
+
+> Blah having a cold is super lame but my new schedule is so good that idgaf
+
+
+### 2009-04-30 12:20:39 UTC · [1658302163](https://x.com/danfrank/status/1658302163)
+*likes 0 · replies 0 · reposts 0*
+
+> i got a crew too.
+
+
+### 2009-04-30 13:31:27 UTC · [1658810867](https://x.com/danfrank/status/1658810867)
+*likes 0 · replies 0 · reposts 0*
+
+> Going through that "feeling even more awesome, because you were sick phase"- rad!
+
+
+### 2009-04-30 14:01:55 UTC · [1659067132](https://x.com/danfrank/status/1659067132)
+*likes 0 · replies 0 · reposts 0*
+
+> @iamcoreybrown so proud of you.
+
+
+### 2009-04-30 15:15:03 UTC · [1659714599](https://x.com/danfrank/status/1659714599)
+*likes 0 · replies 0 · reposts 0*
+
+> planning all the money i'm gonna spend on this minimicro home studio.
+
+
+### 2009-04-30 19:59:58 UTC · [1662264308](https://x.com/danfrank/status/1662264308)
+*likes 0 · replies 0 · reposts 0*
+
+> Ughhhh. Fucking cat got out, looking for that fool.
+
+
+### 2009-04-30 23:06:46 UTC · [1663847306](https://x.com/danfrank/status/1663847306)
+*likes 0 · replies 0 · reposts 0*
+
+> Bummed out rn
+
+
+### 2009-05-30 07:22:20 UTC · [1969541390](https://x.com/danfrank/status/1969541390)
+*likes 0 · replies 0 · reposts 0*
+
+> HEY! add me on lala. http://www.lala.com/member/17824@60758
+
+
+### 2009-05-30 08:19:40 UTC · [1969814420](https://x.com/danfrank/status/1969814420)
+*likes 0 · replies 0 · reposts 0*
+
+> ashton kutcher is that annoying dude at the party who won't stop talking.
+
+
+### 2009-05-30 16:51:29 UTC · [1972772303](https://x.com/danfrank/status/1972772303)
+*likes 0 · replies 0 · reposts 0*
+
+> think i'm officially an insomniac
+
+
+### 2009-05-30 23:05:18 UTC · [1975873678](https://x.com/danfrank/status/1975873678)
+*likes 0 · replies 0 · reposts 0*
+
+> been listening to crystal castles all day. feels nice.
+
+
+### 2009-05-31 01:51:24 UTC · [1976717060](https://x.com/danfrank/status/1976717060)
+*likes 0 · replies 0 · reposts 0*
+
+> PENS
+
+
+### 2009-05-31 02:06:07 UTC · [1976798374](https://x.com/danfrank/status/1976798374)
+*likes 0 · replies 0 · reposts 0*
+
+> sparks ilu.
+
+
+### 2009-05-31 04:33:41 UTC · [1977720881](https://x.com/danfrank/status/1977720881)
+*likes 0 · replies 0 · reposts 0*
+
+> The look of DEFEAT http://twitpic.com/6bc5g
+
+
+### 2009-05-31 07:03:15 UTC · [1978661030](https://x.com/danfrank/status/1978661030)
+*likes 0 · replies 0 · reposts 0*
+
+> Watching death proof cos i'm a tarintino fanboy
+
+
+### 2009-05-31 09:47:14 UTC · [1979378085](https://x.com/danfrank/status/1979378085)
+*likes 0 · replies 0 · reposts 0*
+
+> tonight was zany. gonna watch the big lebowski and pass out. you're out of your element, donnie.
+
+
+### 2009-05-31 17:41:45 UTC · [1982183563](https://x.com/danfrank/status/1982183563)
+*likes 0 · replies 0 · reposts 0*
+
+> starting tomorrow: no fun/smiles/optimism- so says my schedule.
+
+
+### 2009-06-28 14:39:47 UTC · [2371995445](https://x.com/danfrank/status/2371995445)
+*likes 0 · replies 0 · reposts 0*
+
+> Landed in pittsburgh. Ready to work. A little bit of smiley face mixed with a bit of frown face.
+
+
+### 2009-06-28 20:56:14 UTC · [2376356481](https://x.com/danfrank/status/2376356481)
+*likes 0 · replies 0 · reposts 0*
+
+> what day is it?  being in PA is weird.
+
+
+### 2009-06-28 21:46:51 UTC · [2376977572](https://x.com/danfrank/status/2376977572)
+*likes 0 · replies 0 · reposts 0*
+
+> Lol I found this autographed chris benoit picture at home. Do people pay for signatures of pol who kill their fams http://twitpic.com/8p9tf
+
+
+### 2009-06-29 02:14:42 UTC · [2380910481](https://x.com/danfrank/status/2380910481)
+*likes 0 · replies 0 · reposts 0*
+
+> Doing it correctly with @joshbrannan
+
+
+### 2009-06-29 18:20:33 UTC · [2391097611](https://x.com/danfrank/status/2391097611)
+*likes 0 · replies 0 · reposts 0*
+
+> i forgot my phone charger in fla and i'm super sick. today is fucking lameee
+
+
+### 2009-06-29 23:52:41 UTC · [2395567889](https://x.com/danfrank/status/2395567889)
+*likes 0 · replies 0 · reposts 0*
+
+> yeah, i'm waking up at 8pm. great to be back in UT....or not.
+
+
+### 2009-06-30 02:47:36 UTC · [2397787954](https://x.com/danfrank/status/2397787954)
+*likes 0 · replies 0 · reposts 0*
+
+> the history channel is chock-full of drama tonight.
+
+
+### 2009-06-30 02:48:19 UTC · [2397797386](https://x.com/danfrank/status/2397797386)
+*likes 0 · replies 0 · reposts 0*
+
+> @iamcoreybrown  nah man i was super sick....or super hungover. you decide.
+
+
+### 2009-06-30 16:01:48 UTC · [2405393730](https://x.com/danfrank/status/2405393730)
+*likes 0 · replies 0 · reposts 0*
+
+> luck is the residue of skill.
+
+
+### 2009-06-30 16:54:01 UTC · [2406134169](https://x.com/danfrank/status/2406134169)
+*likes 0 · replies 0 · reposts 0*
+
+> Day 1 of rtn shit. Scratch tracks and drums today.
+
+
+### 2009-07-31 17:37:31 UTC · [3054844133](https://x.com/danfrank/status/3054844133)
+*likes 0 · replies 0 · reposts 0*
+
+> @karakillsgirls orlando! it's the raddest
+
+
+### 2009-07-31 18:14:38 UTC · [3055410577](https://x.com/danfrank/status/3055410577)
+*likes 0 · replies 0 · reposts 0*
+
+> tommy hopton is like a walking facepalm. i don't even need to see/hear from that kid for him to annoy the piss out of me. go hide yr face.
+
+
+### 2009-07-31 19:08:19 UTC · [3056214796](https://x.com/danfrank/status/3056214796)
+*likes 0 · replies 0 · reposts 0*
+
+> meetings and sheiiiiiiit
+
+
+### 2009-07-31 19:30:24 UTC · [3056605606](https://x.com/danfrank/status/3056605606)
+*likes 0 · replies 0 · reposts 0*
+
+> pancake party tonight! whos hungry?
+
+
+### 2009-07-31 19:47:53 UTC · [3056910292](https://x.com/danfrank/status/3056910292)
+*likes 0 · replies 0 · reposts 0*
+
+> bring your own bottle...of maple syrup. everyone's invited, i have 3 pounds of batter to get rid of.
+
+
+### 2009-07-31 19:56:49 UTC · [3057064205](https://x.com/danfrank/status/3057064205)
+*likes 0 · replies 0 · reposts 0*
+
+> @DAV1DKeller  yes!  it's gonna be a messssssss
+
+
+### 2009-07-31 20:10:30 UTC · [3057306199](https://x.com/danfrank/status/3057306199)
+*likes 0 · replies 0 · reposts 0*
+
+> i lied- it's a 10 pound bag. make pancakes,. not money: http://twitpic.com/cac9f
+
+
+### 2009-07-31 21:27:30 UTC · [3058612731](https://x.com/danfrank/status/3058612731)
+*likes 0 · replies 0 · reposts 0*
+
+> @djgenie hope yr ready for some POWcakes
+
+
+### 2009-07-31 22:25:34 UTC · [3059561941](https://x.com/danfrank/status/3059561941)
+*likes 0 · replies 0 · reposts 0*
+
+> @GabrielSaporta good choice, the audition kill it.
+
+
+### 2009-07-31 22:26:32 UTC · [3059577763](https://x.com/danfrank/status/3059577763)
+*likes 0 · replies 0 · reposts 0*
+
+> yall hungry? is almost pancake time
+
+
+### 2009-08-30 08:04:42 UTC · [3641986301](https://x.com/danfrank/status/3641986301)
+*likes 0 · replies 0 · reposts 0*
+
+> so it sounds like there's def some sort of stripper party going on upstairs. too much reggaeton, dudes.
+
+
+### 2009-08-30 18:18:17 UTC · [3649200369](https://x.com/danfrank/status/3649200369)
+*likes 0 · replies 0 · reposts 0*
+
+> enjoying
+
+
+### 2009-08-30 22:22:08 UTC · [3653233056](https://x.com/danfrank/status/3653233056)
+*likes 0 · replies 0 · reposts 0*
+
+> Sunday family meal u no. making Caesar tonight
+
+
+### 2009-08-31 00:46:37 UTC · [3655708683](https://x.com/danfrank/status/3655708683)
+*likes 0 · replies 0 · reposts 0*
+
+> should be cleaning house, but i'm too tired for that nonsense.
+
+
+### 2009-08-31 01:01:07 UTC · [3655974735](https://x.com/danfrank/status/3655974735)
+*likes 0 · replies 0 · reposts 0*
+
+> true blood
+
+
+### 2009-08-31 05:34:15 UTC · [3660441435](https://x.com/danfrank/status/3660441435)
+*likes 0 · replies 0 · reposts 0*
+
+> so weirded out i start my last month of college tomorrow. having multiple reality checks.
+
+
+### 2009-08-31 14:11:14 UTC · [3666039070](https://x.com/danfrank/status/3666039070)
+*likes 0 · replies 0 · reposts 0*
+
+> locked myself out without keys, so i walked to school. iz so hot
+
+
+### 2009-08-31 20:13:48 UTC · [3672719854](https://x.com/danfrank/status/3672719854)
+*likes 0 · replies 0 · reposts 0*
+
+> am appy and sploring the outlets
+
+
+### 2009-08-31 20:30:34 UTC · [3673001892](https://x.com/danfrank/status/3673001892)
+*likes 0 · replies 0 · reposts 0*
+
+> u guys like my new steeze? it's got a lion raping a dragon on a skateboard on the back http://twitpic.com/g0a51
+
+
+### 2009-08-31 23:52:33 UTC · [3676718542](https://x.com/danfrank/status/3676718542)
+*likes 0 · replies 0 · reposts 0*
+
+> note: i don't really wear Ed hardy.
+
+
+### 2009-09-29 08:22:46 UTC · [4465782453](https://x.com/danfrank/status/4465782453)
+*likes 0 · replies 0 · reposts 0*
+
+> @DAV1DKeller  i never heard from you! maybe we can meet up at disney tmw. when are you going down?
+
+
+### 2009-09-29 08:23:00 UTC · [4465784798](https://x.com/danfrank/status/4465784798)
+*likes 0 · replies 0 · reposts 0*
+
+> @ericjester it was a unique moment
+
+
+### 2009-09-29 17:01:00 UTC · [4474483558](https://x.com/danfrank/status/4474483558)
+*likes 0 · replies 0 · reposts 0*
+
+> crisis averted- the cat totally spilled water on this bitch.
+
+
+### 2009-09-29 18:11:27 UTC · [4476070047](https://x.com/danfrank/status/4476070047)
+*likes 0 · replies 0 · reposts 0*
+
+> anyone notice the similarity between maydayparade's "bruised and scarred" and "mr.brightside". hmmmm.....
+
+
+### 2009-09-29 20:03:39 UTC · [4478529753](https://x.com/danfrank/status/4478529753)
+*likes 0 · replies 0 · reposts 0*
+
+> http://twitpic.com/jmv53
+
+
+### 2009-09-30 01:46:50 UTC · [4486280760](https://x.com/danfrank/status/4486280760)
+*likes 0 · replies 0 · reposts 0*
+
+> it's weird when people don't get your eHumor. i can deal with it, but....weird.
+
+
+### 2009-09-30 02:57:24 UTC · [4487934246](https://x.com/danfrank/status/4487934246)
+*likes 0 · replies 0 · reposts 0*
+
+> "I was the first person at taco bell today...10:30am" --@matteffindunn
+
+
+### 2009-09-30 05:08:45 UTC · [4490422734](https://x.com/danfrank/status/4490422734)
+*likes 0 · replies 0 · reposts 0*
+
+> i'm getting super jammy to john mayer today. good moods breed good moods.
+
+
+### 2009-09-30 08:48:45 UTC · [4493077113](https://x.com/danfrank/status/4493077113)
+*likes 0 · replies 0 · reposts 0*
+
+> I've been on the phone for like 5 days. That's usually bad, but...
+
+
+### 2009-09-30 18:11:15 UTC · [4503273246](https://x.com/danfrank/status/4503273246)
+*likes 0 · replies 0 · reposts 0*
+
+> parked for free at epcot. pro.
+
+
+### 2009-10-14 07:04:04 UTC · [4856782770](https://x.com/danfrank/status/4856782770)
+*likes 0 · replies 0 · reposts 0*
+
+> i started watching the maine's doc....but then i realized i didn't care.
+
+
+### 2009-10-14 09:17:36 UTC · [4858176811](https://x.com/danfrank/status/4858176811)
+*likes 0 · replies 0 · reposts 0*
+
+> guess who's not sleeping tonight? it's okay you don't HAVE to guess.
+
+
+### 2009-10-14 23:35:54 UTC · [4874990512](https://x.com/danfrank/status/4874990512)
+*likes 0 · replies 0 · reposts 0*
+
+> watching wanted. i don't think they used any cgi in this movie. sighhhhhh
+
+
+### 2009-10-14 23:58:04 UTC · [4875486254](https://x.com/danfrank/status/4875486254)
+*likes 0 · replies 0 · reposts 0*
+
+> doesn't it make perfect sense that the day after i started reading "the secret", i had a shitty day.
+
+
+### 2009-10-15 09:05:50 UTC · [4884814316](https://x.com/danfrank/status/4884814316)
+*likes 0 · replies 0 · reposts 0*
+
+> i might go vegetarian. go me!
+
+
+### 2009-10-15 12:11:07 UTC · [4887054854](https://x.com/danfrank/status/4887054854)
+*likes 0 · replies 0 · reposts 0*
+
+> "do it to it....lars!"
+
+
+### 2009-10-15 18:37:39 UTC · [4895277004](https://x.com/danfrank/status/4895277004)
+*likes 0 · replies 0 · reposts 0*
+
+> fast cars! danger! fire! knives!
+
+
+### 2009-10-15 19:11:11 UTC · [4896042241](https://x.com/danfrank/status/4896042241)
+*likes 0 · replies 0 · reposts 0*
+
+> reasons why i love this country: #1- little kids in hot air balloons bombing around denver. #2- popcorn
+
+
+### 2009-10-15 19:17:40 UTC · [4896196140](https://x.com/danfrank/status/4896196140)
+*likes 0 · replies 0 · reposts 0*
+
+> HIS NAME IS FALCON. OMG perfect
+
+
+### 2009-10-15 19:27:59 UTC · [4896443711](https://x.com/danfrank/status/4896443711)
+*likes 0 · replies 0 · reposts 0*
+
+> alright i'm done being lulsy about balloon boy. be safe, young gentleman.
+
+
+### 2009-10-15 20:06:40 UTC · [4897342665](https://x.com/danfrank/status/4897342665)
+*likes 0 · replies 0 · reposts 0*
+
+> watching CNN on delay via a paused DVR. this is a little bit riveting.
+
+
+### 2009-10-15 22:09:35 UTC · [4899828820](https://x.com/danfrank/status/4899828820)
+*likes 0 · replies 0 · reposts 0*
+
+> smoke one for balloon boy. the best one-off meme ever.
+
+
+### 2009-10-15 23:59:31 UTC · [4902137356](https://x.com/danfrank/status/4902137356)
+*likes 0 · replies 0 · reposts 0*
+
+> i bet my torrent ratio is bigger than yours. ohhhhh yeah.
+
+
+### 2009-10-16 03:57:34 UTC · [4907685852](https://x.com/danfrank/status/4907685852)
+*likes 0 · replies 0 · reposts 0*
+
+> my house isn't really my house.
+
+
+### 2009-10-16 06:44:47 UTC · [4910293334](https://x.com/danfrank/status/4910293334)
+*likes 0 · replies 0 · reposts 0*
+
+> what ain't no country I ever heard of!
+
+
+### 2009-10-16 07:39:08 UTC · [4910917353](https://x.com/danfrank/status/4910917353)
+*likes 0 · replies 0 · reposts 0*
+
+> it's dirty south night here.
+
+
+### 2009-10-16 19:23:09 UTC · [4923640969](https://x.com/danfrank/status/4923640969)
+*likes 0 · replies 0 · reposts 0*
+
+> i'm not really staying up that late, i'm just on pacific time. also,i should have gone to the nfg thing today.
+
+
+### 2009-10-16 19:46:04 UTC · [4924158268](https://x.com/danfrank/status/4924158268)
+*likes 0 · replies 0 · reposts 0*
+
+> i don't understand this...virtual drowning? http://bit.ly/79rZ8
+
+
+### 2009-10-16 20:01:41 UTC · [4924527619](https://x.com/danfrank/status/4924527619)
+*likes 0 · replies 0 · reposts 0*
+
+> #beatcancer gets one cent donated to cancer research. i want to know what i hashtag to donate to the @allylubin drunk tweet wine foundation
+
+
+### 2009-10-16 22:49:10 UTC · [4928377642](https://x.com/danfrank/status/4928377642)
+*likes 0 · replies 0 · reposts 0*
+
+> i turn last.fm off before i listen to embarassing music.
+
+
+### 2009-10-17 11:48:45 UTC · [4940535322](https://x.com/danfrank/status/4940535322)
+*likes 0 · replies 0 · reposts 0*
+
+> baking cookies/watching cartoons.
+
+
+### 2009-10-17 22:45:39 UTC · [4952992497](https://x.com/danfrank/status/4952992497)
+*likes 0 · replies 0 · reposts 0*
+
+> do NOT vote for dan frank for congress. he's an impostor. looking into my legal options. http://bit.ly/tPgbD
+
+
+### 2009-10-18 00:42:27 UTC · [4955278233](https://x.com/danfrank/status/4955278233)
+*likes 0 · replies 0 · reposts 0*
+
+> just had weird moment of clarity. i know EXACTLY what to do.
+
+
+### 2009-10-18 07:48:42 UTC · [4962780083](https://x.com/danfrank/status/4962780083)
+*likes 0 · replies 0 · reposts 0*
+
+> OK is not "okay"..............it's a man on his side.
+
+
+### 2009-10-18 08:22:50 UTC · [4963144955](https://x.com/danfrank/status/4963144955)
+*likes 0 · replies 0 · reposts 0*
+
+> someone called murphys law on me tonight, i swurr.
+
+
+### 2009-10-18 21:30:17 UTC · [4974808046](https://x.com/danfrank/status/4974808046)
+*likes 0 · replies 0 · reposts 0*
+
+> left 4 dead.
+
+
+### 2009-10-19 01:00:23 UTC · [4979171280](https://x.com/danfrank/status/4979171280)
+*likes 0 · replies 0 · reposts 0*
+
+> curb!
+
+
+### 2009-10-19 08:54:04 UTC · [4986753469](https://x.com/danfrank/status/4986753469)
+*likes 0 · replies 0 · reposts 0*
+
+> don't trust machines: http://twitpic.com/m3xxx
+
+
+### 2009-10-19 20:20:51 UTC · [4999537163](https://x.com/danfrank/status/4999537163)
+*likes 0 · replies 0 · reposts 0*
+
+> at the vet with teh kitty
+
+
+### 2009-10-19 20:53:44 UTC · [5000240511](https://x.com/danfrank/status/5000240511)
+*likes 0 · replies 0 · reposts 0*
+
+> people love making cat noises. that shit is universal.
+
 
 ### 2009-10-20 21:13:12 UTC · [5027528206](https://x.com/danfrank/status/5027528206)
 *likes 0 · replies 0 · reposts 0*
@@ -71453,8 +72901,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > birthday night x halloween x jesters last night in the o. hoooooly inebriated.
 
-
-## November
 
 ### 2009-11-22 02:16:12 UTC · [5934894883](https://x.com/danfrank/status/5934894883)
 *likes 0 · replies 0 · reposts 0*
@@ -71743,8 +73189,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > pro tools lab. noice
 
-
-## December
 
 ### 2009-12-14 03:56:13 UTC · [6650980915](https://x.com/danfrank/status/6650980915)
 *likes 0 · replies 0 · reposts 0*
@@ -72102,101 +73546,121 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 
 ### 2009-12-28 01:57:27 UTC · [7107779912](https://x.com/danfrank/status/7107779912)
+*likes ? · replies ? · reposts ?*
 
 > @AlexaRandolph ah! mb I can meet you guys at the goggle? let me know
 
 
 ### 2009-12-28 01:59:46 UTC · [7107843734](https://x.com/danfrank/status/7107843734)
+*likes ? · replies ? · reposts ?*
 
 > bawwww. so bored with my fam
 
 
 ### 2009-12-28 04:14:23 UTC · [7111675991](https://x.com/danfrank/status/7111675991)
+*likes ? · replies ? · reposts ?*
 
 > they say your attitude determines your latitude; i'm high as a motherfucker, flyyy as a motherfucker
 
 
 ### 2009-12-28 15:54:16 UTC · [7126068473](https://x.com/danfrank/status/7126068473)
+*likes ? · replies ? · reposts ?*
 
 > 2.0
 
 
 ### 2009-12-28 21:56:59 UTC · [7136218980](https://x.com/danfrank/status/7136218980)
+*likes ? · replies ? · reposts ?*
 
 > the amount of gossip girl that i watch is a little alarming.
 
 
 ### 2009-12-28 22:51:07 UTC · [7137767379](https://x.com/danfrank/status/7137767379)
+*likes ? · replies ? · reposts ?*
 
 > dinner w the girlfriend. :)
 
 
 ### 2009-12-29 17:09:43 UTC · [7164867873](https://x.com/danfrank/status/7164867873)
+*likes ? · replies ? · reposts ?*
 
 > so comfy. laying in bed watching the snow~
 
 
 ### 2009-12-29 19:18:32 UTC · [7168690283](https://x.com/danfrank/status/7168690283)
+*likes ? · replies ? · reposts ?*
 
 > eets so cold. can't wait to be back in sunny FLA
 
 
 ### 2009-12-30 00:16:15 UTC · [7177141983](https://x.com/danfrank/status/7177141983)
+*likes ? · replies ? · reposts ?*
 
 > going home!
 
 
 ### 2009-12-30 02:00:22 UTC · [7180178539](https://x.com/danfrank/status/7180178539)
+*likes ? · replies ? · reposts ?*
 
 > only 12 more hours on the road.  womp wampppp
 
 
 ### 2009-12-30 04:48:44 UTC · [7185143511](https://x.com/danfrank/status/7185143511)
+*likes ? · replies ? · reposts ?*
 
 > road update #1: I-95 is boring...unless you're in our car.
 
 
 ### 2009-12-30 05:32:52 UTC · [7186371582](https://x.com/danfrank/status/7186371582)
+*likes ? · replies ? · reposts ?*
 
 > road update #2: listening to the @skeetonmytwits mix of this ke$ha jam  is crucial
 
 
 ### 2009-12-30 08:40:16 UTC · [7190657325](https://x.com/danfrank/status/7190657325)
+*likes ? · replies ? · reposts ?*
 
 > road update #3 (south Carolina rest stop x dj Steve aoki remix): I don't even know what I'm talking about. have a headcold ugh
 
 
 ### 2009-12-30 08:52:09 UTC · [7190869588](https://x.com/danfrank/status/7190869588)
+*likes ? · replies ? · reposts ?*
 
 > I'm so in love <3
 
 
 ### 2009-12-30 10:01:07 UTC · [7192008992](https://x.com/danfrank/status/7192008992)
+*likes ? · replies ? · reposts ?*
 
 > almost to jax: the city of...not much
 
 
 ### 2009-12-30 15:48:06 UTC · [7199251468](https://x.com/danfrank/status/7199251468)
+*likes ? · replies ? · reposts ?*
 
 > our trip was saved entirely by @alexisarmel . she's more rad than you.
 
 
 ### 2009-12-31 03:52:18 UTC · [7220677325](https://x.com/danfrank/status/7220677325)
+*likes ? · replies ? · reposts ?*
 
 > girlfriend is nursing me back to health. MUST get better for nye
 
 
 ### 2009-12-31 05:13:55 UTC · [7223155843](https://x.com/danfrank/status/7223155843)
+*likes ? · replies ? · reposts ?*
 
 > rewatching east bound & down. sooo good.
 
 
 ### 2009-12-31 15:30:56 UTC · [7237122323](https://x.com/danfrank/status/7237122323)
+*likes ? · replies ? · reposts ?*
 
 > blah still sick.
 
 
 ### 2009-12-31 22:52:03 UTC · [7250405864](https://x.com/danfrank/status/7250405864)
+*likes ? · replies ? · reposts ?*
 
 > cheesecake factory & avatar with a.
 
@@ -72549,8 +74013,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > I'm freezing, trrrrrd, and somewhat cranky. kill meh
 
 
-## February
-
 ### 2010-02-17 13:32:17 UTC · [9233578272](https://x.com/danfrank/status/9233578272)
 *likes 0 · replies 0 · reposts 0*
 
@@ -72731,8 +74193,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > peace out, florida. it's been real.
 
-
-## March
 
 ### 2010-03-11 20:47:18 UTC · [10338983334](https://x.com/danfrank/status/10338983334)
 *likes 0 · replies 0 · reposts 0*
@@ -73023,8 +74483,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > i've been telling ppl for years that my first released material would be a lady gaga x plies mixtape. YOU DIDNT EEEN BELIEVE ME....foolz
 
 
-## April
-
 ### 2010-04-26 22:17:11 UTC · [12907880576](https://x.com/danfrank/status/12907880576)
 *likes 0 · replies 0 · reposts 0*
 
@@ -73147,8 +74605,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > i LOVE today.
 
 
-## May
-
 ### 2010-05-28 19:01:37 UTC · [14925947556](https://x.com/danfrank/status/14925947556)
 *likes 0 · replies 0 · reposts 0*
 
@@ -73262,8 +74718,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > @alexisarmel sold. tidal wave heading towards Manhattan. RUUUUUNNNN!
 
-
-## June
 
 ### 2010-06-20 21:52:34 UTC · [16647139137](https://x.com/danfrank/status/16647139137)
 *likes 0 · replies 0 · reposts 0*
@@ -73439,8 +74893,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > just got HUGE news. big things ahead.
 
 
-## July
-
 ### 2010-07-16 23:19:23 UTC · [18722994145](https://x.com/danfrank/status/18722994145)
 *likes 0 · replies 0 · reposts 0*
 
@@ -73561,8 +75013,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > the new arcade fire record...oh my gaawd
 
 
-## August
-
 ### 2010-08-19 20:52:10 UTC · [21606877715](https://x.com/danfrank/status/21606877715)
 *likes 0 · replies 0 · reposts 0*
 
@@ -73676,8 +75126,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > was going to try a potato famine/william of orange joke.......but i wouldn't be able to stand the grim reply i'd get from @ericjester
 
-
-## September
 
 ### 2010-09-05 18:52:08 UTC · [23080797338](https://x.com/danfrank/status/23080797338)
 *likes 0 · replies 0 · reposts 0*
@@ -73853,8 +75301,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > I'm at Peter Luger Steak House (178 Broadway, Driggs Ave, Brooklyn). http://4sq.com/4syDel
 
 
-## October
-
 ### 2010-10-14 21:27:01 UTC · [27377807411](https://x.com/danfrank/status/27377807411)
 *likes 0 · replies 0 · reposts 0*
 
@@ -73975,8 +75421,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > i missed my 3k tweet. typical.
 
 
-## November
-
 ### 2010-11-24 08:25:22 UTC · [7349039444000768](https://x.com/danfrank/status/7349039444000768)
 *likes 0 · replies 0 · reposts 0*
 
@@ -74096,8 +75540,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > @ericjester got a girlfriend and forgot how 2 twitter.
 
-
-## December
 
 ### 2010-12-09 15:46:39 UTC · [12895910442835969](https://x.com/danfrank/status/12895910442835969)
 *likes 0 · replies 0 · reposts 0*
@@ -74220,101 +75662,121 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 
 ### 2010-12-19 15:14:47 UTC · [16511769652502528](https://x.com/danfrank/status/16511769652502528)
+*likes ? · replies ? · reposts ?*
 
 > we're all tiny, ignorant, insignificant bits of carbon.
 
 
 ### 2010-12-19 16:01:19 UTC · [16523479176187904](https://x.com/danfrank/status/16523479176187904)
+*likes ? · replies ? · reposts ?*
 
 > the deepest pool in the world - 108 feet. http://www.slightlywarped.com/crapfactory/curiosities/2009/deepestpoolintheworld.htm
 
 
 ### 2010-12-19 20:27:26 UTC · [16590451968573440](https://x.com/danfrank/status/16590451968573440)
+*likes ? · replies ? · reposts ?*
 
 > RT @Humble: The Humble Indie Bundle (pay what you want for five awesome indie games) http://bit.ly/fRYX0C
 
 
 ### 2010-12-19 21:18:05 UTC · [16603197493747712](https://x.com/danfrank/status/16603197493747712)
+*likes ? · replies ? · reposts ?*
 
 > @alexisarmel I'm so caaaooooold
 
 
 ### 2010-12-20 17:39:20 UTC · [16910535920451585](https://x.com/danfrank/status/16910535920451585)
+*likes ? · replies ? · reposts ?*
 
 > today is going to be like watching a video that refuses to buffer....at 240p
 
 
 ### 2010-12-20 19:57:18 UTC · [16945254607364096](https://x.com/danfrank/status/16945254607364096)
+*likes ? · replies ? · reposts ?*
 
 > JUST MET THE RENT IS TOO DAMN HIGH GUY
 
 
 ### 2010-12-20 20:53:31 UTC · [16959403924135936](https://x.com/danfrank/status/16959403924135936)
+*likes ? · replies ? · reposts ?*
 
 > @alexisarmel hey come get me at 6 please!!!
 
 
 ### 2010-12-21 21:41:15 UTC · [17333805392076800](https://x.com/danfrank/status/17333805392076800)
+*likes ? · replies ? · reposts ?*
 
 > Y U NO PAY ME ?
 
 
 ### 2010-12-23 17:09:57 UTC · [17990305441652736](https://x.com/danfrank/status/17990305441652736)
+*likes ? · replies ? · reposts ?*
 
 > just found this gem- http://www.youtube.com/watch?v=6SetuvnlwyY&feature=related
 
 
 ### 2010-12-23 23:46:57 UTC · [18090213154758656](https://x.com/danfrank/status/18090213154758656)
+*likes ? · replies ? · reposts ?*
 
 > at the steeler game with @alexisarmel WHERE DA NACHOS AT
 
 
 ### 2010-12-24 20:48:57 UTC · [18407803567738880](https://x.com/danfrank/status/18407803567738880)
+*likes ? · replies ? · reposts ?*
 
 > exhauuuuuusted. making it through 2 Xmas eve dinners and then I'm gonna take the worlds biggest nap/sleep
 
 
 ### 2010-12-25 03:46:44 UTC · [18512942794276864](https://x.com/danfrank/status/18512942794276864)
+*likes ? · replies ? · reposts ?*
 
 > @alexisarmel wot happened to 120?!
 
 
 ### 2010-12-25 22:48:40 UTC · [18800319647453184](https://x.com/danfrank/status/18800319647453184)
+*likes ? · replies ? · reposts ?*
 
 > christmas...we should nail whoever invented this shit to a fucking cross.
 
 
 ### 2010-12-26 14:20:57 UTC · [19034938422599680](https://x.com/danfrank/status/19034938422599680)
+*likes ? · replies ? · reposts ?*
 
 > skiiiiiiiiiing!
 
 
 ### 2010-12-27 16:14:35 UTC · [19425923887538176](https://x.com/danfrank/status/19425923887538176)
+*likes ? · replies ? · reposts ?*
 
 > The most dominant idol for christianity is the cross, do you really think if Jesus comes back he's going to want to see a fucking cross?!?!
 
 
 ### 2010-12-27 21:33:44 UTC · [19506237246808064](https://x.com/danfrank/status/19506237246808064)
+*likes ? · replies ? · reposts ?*
 
 > can't believe I missed the NYC blizzard to end all NYC blizzards. according to olbermann it's the worst since '69
 
 
 ### 2010-12-27 21:34:50 UTC · [19506516700696576](https://x.com/danfrank/status/19506516700696576)
+*likes ? · replies ? · reposts ?*
 
 > also, the keurig coffee/serato tweet from the gf was obviously me. hazards of phone sharing. sorry sweet-e <3
 
 
 ### 2010-12-28 03:35:25 UTC · [19597258890678273](https://x.com/danfrank/status/19597258890678273)
+*likes ? · replies ? · reposts ?*
 
 > bored to death. today blows
 
 
 ### 2010-12-30 01:06:09 UTC · [20284472289140737](https://x.com/danfrank/status/20284472289140737)
+*likes ? · replies ? · reposts ?*
 
 > blawagahwahhhh
 
 
 ### 2010-12-31 20:44:02 UTC · [20943283521851393](https://x.com/danfrank/status/20943283521851393)
+*likes ? · replies ? · reposts ?*
 
 > i'm mad at each and every one of you for not explaining to me that the "Fallout" series is basically a modern (post-apocalyptic) "Oblivion"
 
@@ -74550,8 +76012,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > gooood morning new york  http://twitpic.com/3v6en1
 
 
-## February
-
 ### 2011-02-22 16:22:13 UTC · [40083951087386624](https://x.com/danfrank/status/40083951087386624)
 *likes 0 · replies 0 · reposts 0*
 
@@ -74671,8 +76131,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > tooooo fuggin early
 
-
-## March
 
 ### 2011-03-07 15:58:39 UTC · [44789064523718656](https://x.com/danfrank/status/44789064523718656)
 *likes 0 · replies 0 · reposts 0*
@@ -74849,8 +76307,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > money=debt. debt=money .
 
 
-## April
-
 ### 2011-04-19 18:20:23 UTC · [60407408756932609](https://x.com/danfrank/status/60407408756932609)
 *likes 0 · replies 0 · reposts 0*
 
@@ -74910,8 +76366,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > sunburn
 
-
-## May
 
 ### 2011-05-15 20:07:09 UTC · [69856362653421568](https://x.com/danfrank/status/69856362653421568)
 *likes 0 · replies 0 · reposts 0*
@@ -75027,8 +76481,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > Everyone listening to ELO today. Did I miss something or are we collectively thanking mr. Blue sky?
 
 
-## June
-
 ### 2011-06-03 23:29:03 UTC · [76792541424529409](https://x.com/danfrank/status/76792541424529409)
 *likes 0 · replies 0 · reposts 0*
 
@@ -75143,8 +76595,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > @shane_brannan no tbh I dedicate the little bit of gaming time I do have strictly to star2. You play?
 
 
-## July
-
 ### 2011-07-15 18:47:29 UTC · [91941975238000641](https://x.com/danfrank/status/91941975238000641)
 *likes 0 · replies 0 · reposts 0*
 
@@ -75206,8 +76656,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > DRG takes first game against TLO. Will we be crowning a new bonjwa this weekend?
 
-
-## August
 
 ### 2011-08-16 21:44:26 UTC · [103582917212643328](https://x.com/danfrank/status/103582917212643328)
 *likes 0 · replies 0 · reposts 0*
@@ -75324,8 +76772,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > @alexisarmel now come back and hang with me :(
 
-
-## September
 
 ### 2011-09-09 19:03:21 UTC · [112239686122078208](https://x.com/danfrank/status/112239686122078208)
 *likes 0 · replies 0 · reposts 0*
@@ -75447,8 +76893,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > Fuck I missed Louis CK tickets...again today?!
 
 
-## October
-
 ### 2011-10-21 16:27:00 UTC · [127420632056086528](https://x.com/danfrank/status/127420632056086528)
 *likes 0 · replies 0 · reposts 0*
 
@@ -75487,9 +76931,10 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 ### 2011-10-24 22:22:03 UTC · [128597145933725696](https://x.com/danfrank/status/128597145933725696)
 *likes 0 · replies 0 · reposts 0*
-*Quoted @HuffingtonPost on Church of Scientology*
 
 > “@HuffingtonPost: Church of Scientology did what?!? http://t.co/Q4ymPMk” this shouldn't be surprising to anyone who had looked into CoS
+
+> — quoting: Quoted @HuffingtonPost on Church of Scientology
 
 
 ### 2011-10-25 01:19:31 UTC · [128641805477609473](https://x.com/danfrank/status/128641805477609473)
@@ -75564,8 +77009,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > Cats!!!!!!!!!!!!!!! http://t.co/EnnaV6K
 
 
-## November
-
 ### 2011-11-11 01:12:59 UTC · [134800755944210432](https://x.com/danfrank/status/134800755944210432)
 *likes 0 · replies 0 · reposts 0*
 
@@ -75627,104 +77070,122 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 
 ### 2011-11-29 23:35:01 UTC · [141661473213648896](https://x.com/danfrank/status/141661473213648896)
+*likes ? · replies ? · reposts ?*
 
 > @danpolyak @alexisarmel leet OCK hackersquad. ThankQ4DVenom
 
 
 ### 2011-11-30 22:47:01 UTC · [142011780175118336](https://x.com/danfrank/status/142011780175118336)
+*likes ? · replies ? · reposts ?*
 
 > I'm at The Colbert Report (513 West 54th St, btwn 10th & 11th Ave, New York) w/ 5 others http://t.co/P6K6pXv
 
 
-## December
-
 ### 2011-12-02 01:08:43 UTC · [142409828998971393](https://x.com/danfrank/status/142409828998971393)
+*likes ? · replies ? · reposts ?*
 
 > When I grow up I want to be @Woodguts
 
 
 ### 2011-12-02 17:29:56 UTC · [142656758328991745](https://x.com/danfrank/status/142656758328991745)
+*likes ? · replies ? · reposts ?*
 
 > 1984 = 2012
 
 
 ### 2011-12-02 23:17:48 UTC · [142744304220250112](https://x.com/danfrank/status/142744304220250112)
+*likes ? · replies ? · reposts ?*
 
 > The pondering New Yorker: helicopter or rolling suitcase?
 
 
 ### 2011-12-07 01:54:45 UTC · [144233351040086016](https://x.com/danfrank/status/144233351040086016)
+*likes ? · replies ? · reposts ?*
 
 > @veefrank wtf just got a text from mom
 > about this I hate you all
 
 
 ### 2011-12-13 22:45:15 UTC · [146722378762829825](https://x.com/danfrank/status/146722378762829825)
+*likes ? · replies ? · reposts ?*
 
 > Jetpack blues, sunset hues
 
 
 ### 2011-12-14 17:09:45 UTC · [147000333858652160](https://x.com/danfrank/status/147000333858652160)
+*likes ? · replies ? · reposts ?*
 
 > Alright dude... We get it. You know all the lyrics to "say it ain't so". Oh god he's humming/whistling the guitar solo.
 
 
 ### 2011-12-15 15:57:11 UTC · [147344461037441026](https://x.com/danfrank/status/147344461037441026)
+*likes ? · replies ? · reposts ?*
 
 > fuck off chris dodd
 
 
 ### 2011-12-15 16:03:21 UTC · [147346014150471681](https://x.com/danfrank/status/147346014150471681)
+*likes ? · replies ? · reposts ?*
 
 > @alwaysflyplanes moment of silence for the interwebz
 
 
 ### 2011-12-15 16:21:27 UTC · [147350565448454144](https://x.com/danfrank/status/147350565448454144)
+*likes ? · replies ? · reposts ?*
 
 > @alwaysflyplanes let's ride next week. I'm in for a couple days around xmas
 
 
 ### 2011-12-16 05:02:55 UTC · [147542194771861504](https://x.com/danfrank/status/147542194771861504)
+*likes ? · replies ? · reposts ?*
 
 > RIP Hitch http://t.co/5mC78DQ
 
 
 ### 2011-12-16 19:32:40 UTC · [147761077915099136](https://x.com/danfrank/status/147761077915099136)
+*likes ? · replies ? · reposts ?*
 
 > 6 years of (intermittent) wow playing... And I've finally hit level cap. Fux wit thiz.
 
 
 ### 2011-12-27 01:48:34 UTC · [151479554291154944](https://x.com/danfrank/status/151479554291154944)
+*likes ? · replies ? · reposts ?*
 
 > @sianlikeshawn fOCK
 
 
 ### 2011-12-27 01:51:19 UTC · [151480244312870913](https://x.com/danfrank/status/151480244312870913)
+*likes ? · replies ? · reposts ?*
 
 > I have no idea how I just hauled these 20 bags home, but it's time to smoke this bong.
 
 
 ### 2011-12-28 17:20:58 UTC · [152076588517822469](https://x.com/danfrank/status/152076588517822469)
+*likes ? · replies ? · reposts ?*
 
 > wrap your head around this: there are 1 BILLION internal combustion vehicles on the planet.
 
 
 ### 2011-12-28 19:38:20 UTC · [152111154787926016](https://x.com/danfrank/status/152111154787926016)
+*likes ? · replies ? · reposts ?*
 
 > Cursed with an insatiable urge to spend every penny in my savings account
 
 
 ### 2011-12-30 02:17:47 UTC · [152574070418968576](https://x.com/danfrank/status/152574070418968576)
+*likes ? · replies ? · reposts ?*
 
 > Praying to all the gods I don't believe in that this isn't the start of a flu. My money is on Thor, Zues is a strong second.
 
 
 ### 2011-12-31 21:02:44 UTC · [153219561976635392](https://x.com/danfrank/status/153219561976635392)
+*likes ? · replies ? · reposts ?*
 
 > The only thing I hate more than New Years Eve is the movie "New Years Eve"
 
 
 ### 2011-12-31 22:57:06 UTC · [153248343454261248](https://x.com/danfrank/status/153248343454261248)
+*likes ? · replies ? · reposts ?*
 
 > http://t.co/L1Rdvhe #Kindle
 
@@ -75845,9 +77306,10 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 ### 2012-01-04 05:03:53 UTC · [154427810281295873](https://x.com/danfrank/status/154427810281295873)
 *likes 0 · replies 0 · reposts 0*
-*Quoted @LatinoVoices on Rick Santorum*
 
 > is this a serious question? outlook doubtful “@LatinoVoices: Can Rick Santorum win the Latino vote? http://t.co/7iTn0rH”
+
+> — quoting: Quoted @LatinoVoices on Rick Santorum
 
 
 ### 2012-01-04 18:53:00 UTC · [154636463361892353](https://x.com/danfrank/status/154636463361892353)
@@ -75945,8 +77407,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > Radical http://t.co/4A280F4
 
-
-## February
 
 ### 2012-02-16 04:55:07 UTC · [170008280754688001](https://x.com/danfrank/status/170008280754688001)
 *likes 0 · replies 0 · reposts 0*
@@ -76068,8 +77528,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > @alexisarmel come home pleash i mish u :'(
 
 
-## March
-
 ### 2012-03-14 20:05:29 UTC · [180021854990385152](https://x.com/danfrank/status/180021854990385152)
 *likes 0 · replies 0 · reposts 0*
 
@@ -76184,8 +77642,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > they should call it 'Scramble with Total Morons' amirite? amirite?
 
 
-## April
-
 ### 2012-04-06 19:23:40 UTC · [188346253959106560](https://x.com/danfrank/status/188346253959106560)
 *likes 0 · replies 0 · reposts 0*
 
@@ -76245,8 +77701,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > I'm at Zablozki's (Brooklyn, NY) w/ 4 others http://t.co/nv13XQM
 
-
-## May
 
 ### 2012-05-18 01:21:14 UTC · [203294138945388544](https://x.com/danfrank/status/203294138945388544)
 *likes 0 · replies 0 · reposts 0*
@@ -76368,8 +77822,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > @alexisarmel PLS TELL ME YOU'RE HOME. Locked out :(
 
 
-## June
-
 ### 2012-06-11 16:09:28 UTC · [212214979665997824](https://x.com/danfrank/status/212214979665997824)
 *likes 0 · replies 0 · reposts 0*
 
@@ -76430,8 +77882,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > Ted Danson as Bryan as Tom Cruise as Ethan Hunt in Mission Impossible 8
 
 
-## July
-
 ### 2012-07-19 23:57:47 UTC · [226103572494962688](https://x.com/danfrank/status/226103572494962688)
 *likes 0 · replies 1 · reposts 0*
 
@@ -76491,8 +77941,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > @thatkevinsmith can't tell you enough how much I enjoyed TDKR smods. Keep up the great work & thanks for the wealth of great content.
 
-
-## August
 
 ### 2012-08-20 21:47:45 UTC · [237667260666363904](https://x.com/danfrank/status/237667260666363904)
 *likes 0 · replies 0 · reposts 0*
@@ -76607,8 +78055,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > Mr. Parkinson's would be APPALLED if he knew about Mr. Fox's behavior!
 
-
-## September
 
 ### 2012-09-16 17:33:44 UTC · [247387808212324352](https://x.com/danfrank/status/247387808212324352)
 *likes 0 · replies 0 · reposts 0*
@@ -76730,8 +78176,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > Jumped subway gates and Vin Diesel style onto train today. NYPD no thang.
 
 
-## October
-
 ### 2012-10-29 00:14:06 UTC · [262708853819445249](https://x.com/danfrank/status/262708853819445249)
 *likes 0 · replies 0 · reposts 0*
 
@@ -76842,9 +78286,10 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 ### 2012-10-30 13:15:35 UTC · [263267907193151489](https://x.com/danfrank/status/263267907193151489)
 *likes 0 · replies 0 · reposts 0*
-*Quoted @HuffingtonPost on MTA flooding / Sandy*
 
 > “@HuffingtonPost: According to an MTA official, flooding was worse than their predicted worst case scenario http://t.co/kBmeHecL  #Sandy”
+
+> — quoting: Quoted @HuffingtonPost on MTA flooding / Sandy
 
 
 ### 2012-10-30 22:26:08 UTC · [263406460405420032](https://x.com/danfrank/status/263406460405420032)
@@ -76852,8 +78297,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > @opieradio you guys are the fucking best. when stern does zero shows, the opster does two. http://t.co/kV1zHhYs
 
-
-## November
 
 ### 2012-11-06 04:27:40 UTC · [265671767937404928](https://x.com/danfrank/status/265671767937404928)
 *likes 0 · replies 0 · reposts 0*
@@ -76916,103 +78359,121 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 
 ### 2012-11-07 05:55:46 UTC · [266056329750257667](https://x.com/danfrank/status/266056329750257667)
+*likes ? · replies ? · reposts ?*
 
 > @Kevinskis1987 how do you think they would cut taxes, increase spending, and create jobs? Simultaneously
 
 
 ### 2012-11-07 06:14:44 UTC · [266061102557843456](https://x.com/danfrank/status/266061102557843456)
+*likes ? · replies ? · reposts ?*
 
 > I'm sorry but I refuse to believe that tonight's earlier results were as close as we were told. Need to keep it tight for ratings.
 
 
 ### 2012-11-07 08:07:44 UTC · [266089537946648576](https://x.com/danfrank/status/266089537946648576)
+*likes ? · replies ? · reposts ?*
 
 > Let's do this Barry: end corporate welfare. establish congressional term limits. stop DEA raids of marijuana vendors. GTFO afghanistan etc
 
 
 ### 2012-11-07 20:04:26 UTC · [266269902439063552](https://x.com/danfrank/status/266269902439063552)
+*likes ? · replies ? · reposts ?*
 
 > Helped nearby drivers by reporting a moderate traffic jam on Clinton St, Manhattan on @waze - Drive Social.
 
 
 ### 2012-11-08 02:09:15 UTC · [266361710544318464](https://x.com/danfrank/status/266361710544318464)
+*likes ? · replies ? · reposts ?*
 
 > @Shane_Brannan just bough halo4 and ofc brought it home to "open tray" error
 
 
 ### 2012-11-08 02:12:50 UTC · [266362609299759104](https://x.com/danfrank/status/266362609299759104)
+*likes ? · replies ? · reposts ?*
 
 > @Shane_Brannan the god damn dashboard is taunting me http://t.co/nI8n4384
 
 
 ### 2012-11-08 02:26:14 UTC · [266365984011595776](https://x.com/danfrank/status/266365984011595776)
+*likes ? · replies ? · reposts ?*
 
 > @Shane_Brannan it runs a LOT. But it's also 6 years old.
 
 
 ### 2012-11-08 17:46:28 UTC · [266597571298983936](https://x.com/danfrank/status/266597571298983936)
+*likes ? · replies ? · reposts ?*
 
 > @Shane_Brannan every minute is an hour until this fucking game plays~
 
 
 ### 2012-11-10 00:48:02 UTC · [267066048862380032](https://x.com/danfrank/status/267066048862380032)
+*likes ? · replies ? · reposts ?*
 
 > @Shane_Brannan alright homeslice. i bought a new xbox for halo. what's your gamertag?
 
 
 ### 2012-11-13 23:42:53 UTC · [268499202974298113](https://x.com/danfrank/status/268499202974298113)
+*likes ? · replies ? · reposts ?*
 
 > @Shane_Brannan Y0 U wonNA plAy DyZ CODBO2?!!!
 
 
 ### 2012-11-18 15:37:18 UTC · [270188944363241472](https://x.com/danfrank/status/270188944363241472)
+*likes ? · replies ? · reposts ?*
 
 > @notsam what's the process like to get an O&A internship? I'm a recent music engineering grad with pro tools certification living in NYC.
 
 
 ### 2012-11-18 15:42:19 UTC · [270190207402389504](https://x.com/danfrank/status/270190207402389504)
+*likes ? · replies ? · reposts ?*
 
 > @erockradio what's the process like to get an O&A internship? I'm a recent music engineering grad with pro tools certification living in NYC
 
 
 ### 2012-11-18 19:50:41 UTC · [270252709297405952](https://x.com/danfrank/status/270252709297405952)
+*likes ? · replies ? · reposts ?*
 
 > @erockradio thanks, I just sent in an app. loved BWTS yesteday, excited to hear more.
 
 
 ### 2012-11-24 18:14:40 UTC · [272402871981596672](https://x.com/danfrank/status/272402871981596672)
+*likes ? · replies ? · reposts ?*
 
 > Is Paramore getting kickbacks from every Taylor Swift album sold?
 
 
 ### 2012-11-27 23:39:24 UTC · [273571757942784001](https://x.com/danfrank/status/273571757942784001)
+*likes ? · replies ? · reposts ?*
 
 > @alexisarmel are we up? we should be.
 
 
 ### 2012-11-29 16:01:39 UTC · [274181338020601856](https://x.com/danfrank/status/274181338020601856)
+*likes ? · replies ? · reposts ?*
 
 > @Woodguts lil b srs filmmaking 101
 
 
-## December
-
 ### 2012-12-04 01:36:35 UTC · [275775576202178560](https://x.com/danfrank/status/275775576202178560)
+*likes ? · replies ? · reposts ?*
 
 > @OpieRadio catching up on last week and this ralphie & piscopo stuff is the best radio I've heard in ages. you guys fucking rule.
 
 
 ### 2012-12-19 19:33:55 UTC · [281482512310603777](https://x.com/danfrank/status/281482512310603777)
+*likes ? · replies ? · reposts ?*
 
 > @JimNorton excellent point today about the mental health check for gun purchases. the way you explained it makes so much sense to me.
 
 
 ### 2012-12-27 21:30:05 UTC · [284410850796789760](https://x.com/danfrank/status/284410850796789760)
+*likes ? · replies ? · reposts ?*
 
 > just found my new all time fav youtube video. http://t.co/bfqqR8kz
 
 
 ### 2012-12-27 21:35:04 UTC · [284412102972690433](https://x.com/danfrank/status/284412102972690433)
+*likes ? · replies ? · reposts ?*
 
 > who wrote that song tho
 
@@ -77056,7 +78517,7 @@ The year the operator spreadsheet becomes the spine. From mid-August the page is
 | | |
 |---|---|
 | Originals on this page | 346 |
-| From operator spreadsheet | 207 |
+| From operator spreadsheet | 199 |
 | From live X scrape | 139 |
 | Pure reposts | omitted by rule (no @danfrank quote text) |
 
@@ -77091,8 +78552,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > #fob2k13 #fob LEAKED tour poster http://t.co/K0LZYqx5
 
-
-## February
 
 ### 2013-02-09 19:40:42 UTC · [300328388135116800](https://x.com/danfrank/status/300328388135116800)
 *likes 0 · replies 0 · reposts 0*
@@ -77268,8 +78727,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > jesus christ this is real. elvis talks about karate http://t.co/rhQ65RsK9w
 
 
-## March
-
 ### 2013-03-02 19:59:17 UTC · [307943209353478144](https://x.com/danfrank/status/307943209353478144)
 *likes 0 · replies 0 · reposts 0*
 
@@ -77305,8 +78762,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > @anthonycumia 3D Printed Guns (Documentary): http://t.co/9Dl4UfVVha
 
-
-## April
 
 ### 2013-04-21 05:15:51 UTC · [325840283038253056](https://x.com/danfrank/status/325840283038253056)
 *likes 0 · replies 0 · reposts 0*
@@ -77428,8 +78883,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > CNN just hit the breaking news sweeper on "Another John Paul Miracle Found" story. Wish someone would sour these cunts with an anvil.
 
 
-## May
-
 ### 2013-05-26 20:40:23 UTC · [338756522039443456](https://x.com/danfrank/status/338756522039443456)
 *likes 0 · replies 1 · reposts 0*
 
@@ -77489,8 +78942,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > Conservative magic
 
-
-## June
 
 ### 2013-06-24 17:31:04 UTC · [349218129647370241](https://x.com/danfrank/status/349218129647370241)
 *likes 0 · replies 0 · reposts 0*
@@ -77552,8 +79003,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > Feline Bee-line
 
 
-## July
-
 ### 2013-07-10 18:04:58 UTC · [355024864320565249](https://x.com/danfrank/status/355024864320565249)
 *likes 0 · replies 0 · reposts 0*
 
@@ -77592,9 +79041,10 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 ### 2013-07-31 06:46:41 UTC · [362464314176712705](https://x.com/danfrank/status/362464314176712705)
 *likes 0 · replies 1 · reposts 0*
-*Quoted @danfrank Kerouac/roman-candle line*
 
 > @alexisarmel stealing my tweets now too?
+
+> — quoting: Quoted @danfrank Kerouac/roman-candle line
 
 
 ### 2013-07-31 11:04:01 UTC · [362529072800219137](https://x.com/danfrank/status/362529072800219137)
@@ -77620,8 +79070,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > valiantly fighting the war against basic http://t.co/ooETv7ninz
 
-
-## August
 
 ### 2013-08-09 17:35:20 UTC · [365889045483622403](https://x.com/danfrank/status/365889045483622403)
 *likes 0 · replies 0 · reposts 0*
@@ -77800,104 +79248,124 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 
 ### 2013-08-14 21:10:28 UTC · [367755121335484416](https://x.com/danfrank/status/367755121335484416)
+*likes ? · replies ? · reposts ?*
 
 > Hair Alert! Vanessa Frank
 
 
 ### 2013-08-14 22:26:19 UTC · [367774212888723456](https://x.com/danfrank/status/367774212888723456)
+*likes ? · replies ? · reposts ?*
 
 > i find no meaning in this. @ Carnegie Mellon University http://t.co/Rqvrs8ULwo
 
 
 ### 2013-08-14 22:49:42 UTC · [367780096620654592](https://x.com/danfrank/status/367780096620654592)
+*likes ? · replies ? · reposts ?*
 
 > Kill yourself, make the world a better place Vanessa Frank
 
 
 ### 2013-08-15 07:20:38 UTC · [367908676931428353](https://x.com/danfrank/status/367908676931428353)
+*likes ? · replies ? · reposts ?*
 
 > @Yamez1 love the north cakalacky drop in this mix
 
 
 ### 2013-08-15 15:14:39 UTC · [368027965747388416](https://x.com/danfrank/status/368027965747388416)
+*likes ? · replies ? · reposts ?*
 
 > MASSIVE DROPS! http://t.co/ByWL7McAuP
 
 
 ### 2013-08-15 15:54:58 UTC · [368038112179417088](https://x.com/danfrank/status/368038112179417088)
+*likes ? · replies ? · reposts ?*
 
 > Thanks, ya silly cunt. http://t.co/PdouScI4vM
 
 
 ### 2013-08-15 16:14:10 UTC · [368042945620213760](https://x.com/danfrank/status/368042945620213760)
+*likes ? · replies ? · reposts ?*
 
 > i'm dying, can't even….ghostface killah's 2nd annual softest rappers in the game list : http://t.co/yzTdBy2vkb
 
 
 ### 2013-08-15 16:37:18 UTC · [368048764332027904](https://x.com/danfrank/status/368048764332027904)
+*likes ? · replies ? · reposts ?*
 
 > Nobody's mad I spend all my time in my room now that my music search game is Hubble Telescope-level good
 
 
 ### 2013-08-15 16:44:42 UTC · [368050629828411392](https://x.com/danfrank/status/368050629828411392)
+*likes ? · replies ? · reposts ?*
 
 > . @Yamez1 must live in Bosnia with all these bombs he's dropping "CERTXFXED TRXLL SHXT!! by Djyamez1" http://t.co/B8VtCe4ojE on #SoundCloud
 
 
 ### 2013-08-15 16:52:35 UTC · [368052612480131072](https://x.com/danfrank/status/368052612480131072)
+*likes ? · replies ? · reposts ?*
 
 > @Yamez1 YOU'RE ON SOME DEXTER SHIT WITH THESE CUTS SON
 
 
 ### 2013-08-15 20:39:53 UTC · [368109811864711168](https://x.com/danfrank/status/368109811864711168)
+*likes ? · replies ? · reposts ?*
 
 > My new sounds: THE FISH IN THE SEA MIX [TRAP] http://t.co/H15Rvwt0qD on #SoundCloud
 
 
 ### 2013-08-15 20:41:40 UTC · [368110261645099008](https://x.com/danfrank/status/368110261645099008)
+*likes ? · replies ? · reposts ?*
 
 > @yamez1
 
 
 ### 2013-08-15 20:42:15 UTC · [368110408437354496](https://x.com/danfrank/status/368110408437354496)
+*likes ? · replies ? · reposts ?*
 
 > @Yamez1 listen to this for me? I wanna hear what you think I need to improve http://t.co/H15Rvwt0qD
 
 
 ### 2013-08-15 21:00:40 UTC · [368115044363800576](https://x.com/danfrank/status/368115044363800576)
+*likes ? · replies ? · reposts ?*
 
 > PRIVATE PLANE MUSIC. FUCK YOUR FACE #TRAP STEEZ  https://t.co/q7ffCSq1d7
 > #TWERK #CRUNK #RATCHET #RACKS #ROLLUP
 
 
 ### 2013-08-15 21:49:59 UTC · [368127457188388864](https://x.com/danfrank/status/368127457188388864)
+*likes ? · replies ? · reposts ?*
 
 > Trap shit. Next level. Turn up.
 > http://t.co/Lo80UvmlZl http://t.co/pK27AOpKm4
 
 
 ### 2013-08-16 01:12:30 UTC · [368178420901236736](https://x.com/danfrank/status/368178420901236736)
+*likes ? · replies ? · reposts ?*
 
 > @Yamez1 thanks killer
 
 
 ### 2013-08-16 13:58:16 UTC · [368371130190790656](https://x.com/danfrank/status/368371130190790656)
+*likes ? · replies ? · reposts ?*
 
 > stack up
 
 
 ### 2013-08-16 18:30:38 UTC · [368439675251609600](https://x.com/danfrank/status/368439675251609600)
+*likes ? · replies ? · reposts ?*
 
 > fish in the sea mix. #trap music for ratchets who have bank accounts that speak Arabic
 > http://t.co/1V7nYHCTV8 #edm #twerk #ratchet
 
 
 ### 2013-08-16 23:08:59 UTC · [368509724443938816](https://x.com/danfrank/status/368509724443938816)
+*likes ? · replies ? · reposts ?*
 
 > Mayjah layzah http://t.co/ql1RjubgCH
 
 
 ### 2013-08-16 23:28:36 UTC · [368514661399810049](https://x.com/danfrank/status/368514661399810049)
+*likes ? · replies ? · reposts ?*
 
 > Satisfaction http://t.co/4YNID0U0tq
 
@@ -77911,7 +79379,7 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 ### 2013-08-17 06:21:37 UTC · [368618598568194048](https://x.com/danfrank/status/368618598568194048)
 *likes 0 · replies 0 · reposts 0*
 
-> TAKE THE FUCKING TOUR OKAY?! THE INTEREST OF CONFLICT MIX [MOOMBATHON/2STEP]  https:// soundcloud.com/sloppp/the-int erest-of-conflict-mix?utm_source=soundcloud&utm_campaign=share&utm_medium=twitter …
+> TAKE THE FUCKING TOUR OKAY?! THE INTEREST OF CONFLICT MIX [MOOMBATHON/2STEP]
 
 
 ### 2013-08-18 15:10:15 UTC · [369114023393910785](https://x.com/danfrank/status/369114023393910785)
@@ -77929,7 +79397,7 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 ### 2013-08-18 22:13:57 UTC · [369220652164599808](https://x.com/danfrank/status/369220652164599808)
 *likes 0 · replies 0 · reposts 0*
 
-> Wow so massive  @diplo  mix on bbc radio 1 last night  http:// bbc.co.uk/programmes/b01 dmw90 …
+> Wow so massive @diplo mix on bbc radio 1 last night http://t.co/H31RjO5tK8
 
 
 ### 2013-08-19 05:16:39 UTC · [369327027850997760](https://x.com/danfrank/status/369327027850997760)
@@ -77953,13 +79421,13 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 ### 2013-08-19 15:22:00 UTC · [369479368642293760](https://x.com/danfrank/status/369479368642293760)
 *likes 0 · replies 0 · reposts 0*
 
-> .  @danpolyak    http:// timehop.com/c/t:51f5f49088 8afbd8d113e7ec:a734b …
+> . @danpolyak  http://t.co/3y2h4ttzvR
 
 
 ### 2013-08-19 15:27:21 UTC · [369480715974369280](https://x.com/danfrank/status/369480715974369280)
 *likes 0 · replies 0 · reposts 0*
 
-> so dope. rainy day music.  https:// soundcloud.com/troubleandrew/ snow-angel-chopped-x …
+> so dope. rainy day music.
 
 
 ### 2013-08-19 16:43:02 UTC · [369499760920518657](https://x.com/danfrank/status/369499760920518657)
@@ -78103,7 +79571,7 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 ### 2013-08-25 22:31:18 UTC · [371761730675679232](https://x.com/danfrank/status/371761730675679232)
 *likes 0 · replies 0 · reposts 0*
 
-> @skezmarsky  srsly  http:// rapgenius.com/Kanye-west-new -slaves-lyrics …
+> @skezmarsky srsly http://t.co/Yu2w36gbpq
 
 
 ### 2013-08-26 03:06:09 UTC · [371830899081760768](https://x.com/danfrank/status/371830899081760768)
@@ -78133,13 +79601,15 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 ### 2013-08-27 10:18:24 UTC · [372302065105928192](https://x.com/danfrank/status/372302065105928192)
 *likes 0 · replies 0 · reposts 0*
 
-> those drops doe  @diplo  // 2 Chainz - Netflix  https:// soundcloud.com/diplo/2-chainz -netflix-feat-fergie …
+> those drops doe @diplo // 2 Chainz - Netflix
 
 
 ### 2013-08-27 11:11:44 UTC · [372315490578071552](https://x.com/danfrank/status/372315490578071552)
-*likes 0 · replies 0 · reposts 0*
+*likes 0 · replies 1 · reposts 0*
 
-> @GhostGrinder88 lol this lead riff certainly sounds like the motif riff in a certain John Carpenter film    http:// soundcloud.com/soniye-muzick/ tyga-molly-soniyemuzick …
+> @GhostGrinder88 lol this lead riff certainly sounds like the motif riff in a certain John Carpenter film 
+>
+> http://t.co/31Y69DFuOK
 
 
 ### 2013-08-27 14:23:58 UTC · [372363865251917824](https://x.com/danfrank/status/372363865251917824)
@@ -78250,8 +79720,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > Had a nice argument abt Syria with an idiot in Sheetz. Being a vet does NOT make your racism ok nor does it make you automatically correct
 
 
-## September
-
 ### 2013-09-01 04:43:50 UTC · [374029809233702912](https://x.com/danfrank/status/374029809233702912)
 *likes 0 · replies 0 · reposts 0*
 
@@ -78297,7 +79765,7 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 ### 2013-09-03 19:23:16 UTC · [374975901572038656](https://x.com/danfrank/status/374975901572038656)
 *likes 0 · replies 0 · reposts 0*
 
-> well done  http:// noisey.vice.com/blog/important -questions-raised-by-miley-cyrus-new-video-we-cant-stop …
+> well done http://t.co/UVQmz5qyR2
 
 
 ### 2013-09-03 19:56:05 UTC · [374984160190136320](https://x.com/danfrank/status/374984160190136320)
@@ -78678,8 +80146,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > Unfunny Gross Loser of the Year
 
 
-## October
-
 ### 2013-10-01 02:30:57 UTC · [384868004355641344](https://x.com/danfrank/status/384868004355641344)
 *likes 0 · replies 0 · reposts 0*
 
@@ -78860,8 +80326,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > @bobbybonanza  SHINKLE-BOUT IT
 
 
-## November
-
 ### 2013-11-04 22:23:11 UTC · [397489227401023488](https://x.com/danfrank/status/397489227401023488)
 *likes 0 · replies 0 · reposts 0*
 
@@ -79030,8 +80494,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > Parum-papapum
 
 
-## December
-
 ### 2013-12-01 18:34:27 UTC · [407216137923870721](https://x.com/danfrank/status/407216137923870721)
 *likes 0 · replies 0 · reposts 0*
 
@@ -79191,7 +80653,7 @@ A full original-tweet year in the spreadsheet. Trap remixes continue (RNDM VADER
 | | |
 |---|---|
 | Originals on this page | 171 |
-| From operator spreadsheet | 171 |
+| From operator spreadsheet | 170 |
 | From live X scrape | 0 |
 | Pure reposts | omitted by rule (no @danfrank quote text) |
 
@@ -79252,8 +80714,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > My new sounds: [PREVIEW] KATY PERRY FT. JUICY J - DARK HORSE (SLOPPP REMIX)  http:// soundcloud.com/sloppp/preview -katy-perry-ft-juicy-j … on #SoundCloud
 
-
-## February
 
 ### 2014-02-01 08:30:24 UTC · [429532169053425664](https://x.com/danfrank/status/429532169053425664)
 *likes 0 · replies 0 · reposts 0*
@@ -79333,8 +80793,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > @INSTNTPRTYMUSIC fuck dude, have to decide whether I want to use your 'animals' remix or 'motion' for this mix. Killing it!
 
 
-## March
-
 ### 2014-03-14 13:05:16 UTC · [444459246214979584](https://x.com/danfrank/status/444459246214979584)
 *likes 0 · replies 0 · reposts 0*
 
@@ -79352,8 +80810,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > Am I understanding this story? Someone pooped during  @RLGRIME  's ultra set and they evacuated the area?
 
-
-## April
 
 ### 2014-04-04 20:44:47 UTC · [452185031667380224](https://x.com/danfrank/status/452185031667380224)
 *likes 0 · replies 0 · reposts 0*
@@ -79589,8 +81045,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > 、、ヽ｀ヽ｀、ヽ、、ヽ｀
 
 
-## May
-
 ### 2014-05-01 16:42:37 UTC · [461908559547355136](https://x.com/danfrank/status/461908559547355136)
 *likes 0 · replies 0 · reposts 0*
 
@@ -79706,7 +81160,7 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 
 ### 2014-05-10 00:24:07 UTC · [464923804695670784](https://x.com/danfrank/status/464923804695670784)
-*likes 0 · replies 0 · reposts 0*
+*likes ? · replies 0 · reposts 0*
 
 > Hear a preview of my drake x cashmere cat remix on soundcloud now!  http:// soubdcloud.com/sloppp  http:// instagram.com/p/ny8u5dR8ih/
 
@@ -79855,8 +81309,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > Watch me twist knobs on YouTube  http:// instagram.com/p/orY2CDx8h2/
 
 
-## June
-
 ### 2014-06-02 01:37:58 UTC · [473277311807025152](https://x.com/danfrank/status/473277311807025152)
 *likes 0 · replies 0 · reposts 0*
 
@@ -79884,7 +81336,7 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 ### 2014-06-09 03:47:44 UTC · [475846682807394304](https://x.com/danfrank/status/475846682807394304)
 *likes 0 · replies 0 · reposts 0*
 
->
+> 💯💯💯
 
 
 ### 2014-06-17 00:07:12 UTC · [478690284776484864](https://x.com/danfrank/status/478690284776484864)
@@ -79898,8 +81350,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > TOO TURNED UP I CANT TURN DOWN
 
-
-## July
 
 ### 2014-07-03 01:19:46 UTC · [484506755221950465](https://x.com/danfrank/status/484506755221950465)
 *likes 0 · replies 0 · reposts 0*
@@ -79924,8 +81374,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > “They want to find me not breathing like they found Mike”  @kanyewest   @RapGenius   http:// rap.genius.com/754141
 
-
-## August
 
 ### 2014-08-03 03:45:36 UTC · [495777478947127296](https://x.com/danfrank/status/495777478947127296)
 *likes 0 · replies 0 · reposts 0*
@@ -79993,8 +81441,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > New Dillon Francis is righteous mega jam  https:// soundcloud.com/dillonfrancis/ i-cant-take-it …
 
 
-## September
-
 ### 2014-09-03 08:22:24 UTC · [507081161727041536](https://x.com/danfrank/status/507081161727041536)
 *likes 0 · replies 0 · reposts 0*
 
@@ -80030,8 +81476,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > $øΩR DRøP$ ∆N∂ LøLLIPøPZ // xoxo SLOPP by SLOPPP on #SoundCloud  https:// soundcloud.com/sloppp/or-drop -n-lollipopz-xoxo-slopp …
 
-
-## October
 
 ### 2014-10-06 22:46:48 UTC · [519257493764308992](https://x.com/danfrank/status/519257493764308992)
 *likes 0 · replies 0 · reposts 0*
@@ -80111,8 +81555,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > @whatdirt  another enormous thank you for the support <3
 
 
-## November
-
 ### 2014-11-04 23:52:47 UTC · [529783348655161344](https://x.com/danfrank/status/529783348655161344)
 *likes 0 · replies 0 · reposts 0*
 
@@ -80172,8 +81614,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > I liked a  @YouTube  video  http:// youtu.be/B_JXDer5H60?a All For All 2 - Oscars - Max Grimm
 
-
-## December
 
 ### 2014-12-01 00:38:55 UTC · [539217041455329280](https://x.com/danfrank/status/539217041455329280)
 *likes 0 · replies 0 · reposts 0*
@@ -80324,8 +81764,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > Vote for my Grimy Thirsty remix! -  https:// wavo.me/fareastmovemen t/grimey-thirsty-remix-competition/far_east_movement_grimey_thirsty_sloppp_remix__12840492081110000?u=53572e34ab15b8933c001702&s=UECJDhDPj75Mi4DjjHWpnAAgazU&v=1 … on  @wavome
 
 
-## February
-
 ### 2015-02-02 10:58:33 UTC · [562203414612815872](https://x.com/danfrank/status/562203414612815872)
 *likes 0 · replies 0 · reposts 0*
 
@@ -80356,8 +81794,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > I liked a  @YouTube  video  http:// youtu.be/v3rj3ZTYi5c?a Ookay Calls Hardwell On NYE
 
 
-## March
-
 ### 2015-03-03 23:16:38 UTC · [572898406743609344](https://x.com/danfrank/status/572898406743609344)
 *likes 0 · replies 0 · reposts 0*
 
@@ -80370,15 +81806,11 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > SLOPPP SUMMER TRAP MICROMIX #3:  http:// youtu.be/4D3s9bzHQZI?a via  @YouTube
 
 
-## May
-
 ### 2015-05-27 04:10:06 UTC · [603412837885554688](https://x.com/danfrank/status/603412837885554688)
 *likes 0 · replies 0 · reposts 0*
 
 > I liked a  @YouTube  video  http:// youtu.be/6gtGh2tLp9Q?a Reggie Makes Music | Lil Jon | IFC
 
-
-## June
 
 ### 2015-06-07 05:35:32 UTC · [607420606577930240](https://x.com/danfrank/status/607420606577930240)
 *likes 0 · replies 0 · reposts 0*
@@ -80397,8 +81829,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > @SnowyMiner whoaaaaa dude cool
 
-
-## July
 
 ### 2015-07-07 23:31:26 UTC · [618562999264022529](https://x.com/danfrank/status/618562999264022529)
 *likes 0 · replies 0 · reposts 0*
@@ -80459,8 +81889,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > TRVPAHOLIX  https:// kamcord.com/v/LyVkXhFpx3l/
 
-
-## December
 
 ### 2015-12-04 05:08:38 UTC · [672643651739230209](https://x.com/danfrank/status/672643651739230209)
 *likes 0 · replies 0 · reposts 0*
@@ -80716,7 +82144,7 @@ Periscope NYE bedroom DJ sets on day one, then a thin year of asides. Public pos
 
 | | |
 |---|---|
-| Originals on this page | 75 |
+| Originals on this page | 76 |
 | From operator spreadsheet | 75 |
 | From live X scrape | 0 |
 | Pure reposts | omitted by rule (no @danfrank quote text) |
@@ -80779,7 +82207,11 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > Weird Al Joins IFC’s Comedy Bang! Bang! - CraveOnline  https:// apple.news/AP9BJTD1wNnqY5 P06GYjF3w …
 
 
-## February
+### 2016-02-07 19:34:43 UTC · [696416822011289601](https://x.com/danfrank/status/696416822011289601)
+*likes 0 · replies 0 · reposts 1*
+
+> Had lit times playing @ulmdub birthday party last night at OSU
+
 
 ### 2016-02-12 03:53:41 UTC · [697991941343092736](https://x.com/danfrank/status/697991941343092736)
 *likes 0 · replies 0 · reposts 0*
@@ -80828,8 +82260,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > @Lo_weez  WGP. Also you're a liar
 
-
-## March
 
 ### 2016-03-01 01:41:11 UTC · [704481577120694272](https://x.com/danfrank/status/704481577120694272)
 *likes 0 · replies 0 · reposts 0*
@@ -80921,8 +82351,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > Kathexis
 
 
-## April
-
 ### 2016-04-07 17:09:36 UTC · [718123571873189888](https://x.com/danfrank/status/718123571873189888)
 *likes 0 · replies 0 · reposts 0*
 
@@ -80952,8 +82380,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > Trü
 
-
-## May
 
 ### 2016-05-04 15:45:00 UTC · [727886756905926656](https://x.com/danfrank/status/727886756905926656)
 *likes 0 · replies 0 · reposts 0*
@@ -81009,8 +82435,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > dr. sauce md
 
 
-## June
-
 ### 2016-06-08 01:12:59 UTC · [740350878859833344](https://x.com/danfrank/status/740350878859833344)
 *likes 0 · replies 0 · reposts 0*
 
@@ -81065,8 +82489,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > Rain delay #oakmont #usopen2016  https:// instagram.com/p/BGt-oDBx8g7o Ou1smX39Y0PYoU5wNDkfEE3pbs0/ …
 
 
-## July
-
 ### 2016-07-08 06:26:12 UTC · [751301339695710208](https://x.com/danfrank/status/751301339695710208)
 *likes 0 · replies 0 · reposts 0*
 
@@ -81115,8 +82537,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > The crowd signs at DNC are weirding me the fuck out
 
 
-## August
-
 ### 2016-08-14 17:22:24 UTC · [764874827681427456](https://x.com/danfrank/status/764874827681427456)
 *likes 0 · replies 0 · reposts 0*
 
@@ -81128,8 +82548,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > Fauxetic
 
-
-## September
 
 ### 2016-09-01 21:22:57 UTC · [771458347648286720](https://x.com/danfrank/status/771458347648286720)
 *likes 0 · replies 0 · reposts 0*
@@ -81149,23 +82567,17 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > . @djhotnix Dj formula: Load track A > set loop> play > drink > load track B > crossfade
 
 
-## October
-
 ### 2016-10-19 02:03:35 UTC · [788561198040096768](https://x.com/danfrank/status/788561198040096768)
 *likes 0 · replies 0 · reposts 0*
 
 > Voting for trump is like not getting car u want and instead driving ur own car into a wall with ur family & country in it -  @KeithOlbermann
 
 
-## November
-
 ### 2016-11-15 17:33:20 UTC · [798579650247225345](https://x.com/danfrank/status/798579650247225345)
 *likes 0 · replies 0 · reposts 0*
 
 > I didn't get it either. I think it plays better without having her in character
 
-
-## December
 
 ### 2016-12-02 05:04:41 UTC · [804551843410018304](https://x.com/danfrank/status/804551843410018304)
 *likes 0 · replies 0 · reposts 0*
@@ -81236,7 +82648,7 @@ Politics arrives as a sustained register. Sessions hearings, Exxon 'apocalyptic 
 | | |
 |---|---|
 | Originals on this page | 117 |
-| From operator spreadsheet | 117 |
+| From operator spreadsheet | 116 |
 | From live X scrape | 0 |
 | Pure reposts | omitted by rule (no @danfrank quote text) |
 
@@ -81370,8 +82782,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > The campaign was Shakespearean, but the actual administration is more like a fucking coffee stained M. Night Shyamalan script
 
 
-## February
-
 ### 2017-02-01 19:57:28 UTC · [826882179057778688](https://x.com/danfrank/status/826882179057778688)
 *likes 0 · replies 0 · reposts 0*
 
@@ -81383,8 +82793,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > I like America because of Dave and Busters
 
-
-## March
 
 ### 2017-03-01 18:14:26 UTC · [837003109855539201](https://x.com/danfrank/status/837003109855539201)
 *likes 0 · replies 0 · reposts 0*
@@ -81404,8 +82812,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > I've got to wonder whether these people are oozing ignorance of the implications here or if they're as  nihilistic as they claim to be (2)
 
 
-## April
-
 ### 2017-04-03 15:59:16 UTC · [848927894273486849](https://x.com/danfrank/status/848927894273486849)
 *likes 0 · replies 0 · reposts 0*
 
@@ -81423,8 +82829,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > blade runner?
 
-
-## May
 
 ### 2017-05-18 18:03:16 UTC · [865266550194008064](https://x.com/danfrank/status/865266550194008064)
 *likes 0 · replies 0 · reposts 0*
@@ -81462,15 +82866,11 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > someone get a bullhorn and scream it in the president's ear to STOP YANKING PEOPLES ARMS
 
 
-## June
-
 ### 2017-06-08 09:11:59 UTC · [872742993547190272](https://x.com/danfrank/status/872742993547190272)
 *likes 0 · replies 0 · reposts 0*
 
 > fire up the grill, turn on some  Bon Jovi and start the countdown clock...we've got 5 hours and counting before the political super bowl
 
-
-## July
 
 ### 2017-07-01 21:52:08 UTC · [881269214291603456](https://x.com/danfrank/status/881269214291603456)
 *likes 0 · replies 0 · reposts 0*
@@ -81519,8 +82919,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > I want to delete my Scaramucci tweet but that would be too Scaramucci-esque
 
-
-## August
 
 ### 2017-08-01 00:15:23 UTC · [892176901695041537](https://x.com/danfrank/status/892176901695041537)
 *likes 0 · replies 0 · reposts 0*
@@ -81607,12 +83005,10 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 
 ### 2017-08-21 18:59:52 UTC · [899707641492119552](https://x.com/danfrank/status/899707641492119552)
-*likes 0 · replies 0 · reposts 0*
+*likes 1 · replies 0 · reposts 0*
 
->
+> https://t.co/biuRe3oioO
 
-
-## September
 
 ### 2017-09-03 06:11:05 UTC · [904225216372592640](https://x.com/danfrank/status/904225216372592640)
 *likes 0 · replies 0 · reposts 0*
@@ -81686,8 +83082,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > and it wasn’t sunday!
 
 
-## October
-
 ### 2017-10-01 07:56:19 UTC · [914398557414752256](https://x.com/danfrank/status/914398557414752256)
 *likes 0 · replies 0 · reposts 0*
 
@@ -81735,8 +83129,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > In retrospect, some of the song titles from the self-titled LP now seem so much more disturbing. Particularly “tell me what to swallow”
 
-
-## November
 
 ### 2017-11-04 19:00:24 UTC · [926886868410621953](https://x.com/danfrank/status/926886868410621953)
 *likes 0 · replies 0 · reposts 0*
@@ -81791,8 +83183,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > Spokane
 
-
-## December
 
 ### 2017-12-05 19:26:37 UTC · [938127490509307904](https://x.com/danfrank/status/938127490509307904)
 *likes 0 · replies 0 · reposts 0*
@@ -82237,8 +83627,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > Have this theory that the Stormy Daniels story ties into the Larry Flint offer for Presidential dirt. Any violation of the NDA would require someone with fuck you-money, a title that flint has certainly earned
 
 
-## February
-
 ### 2018-02-05 02:33:41 UTC · [960340623730577409](https://x.com/danfrank/status/960340623730577409)
 *likes 0 · replies 0 · reposts 0*
 
@@ -82317,8 +83705,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > i haven’t heard this in 15 years but it was in my head when i woke up today  https:// youtu.be/3EiEX4tmCfY
 
 
-## March
-
 ### 2018-03-03 02:27:28 UTC · [969761144301907968](https://x.com/danfrank/status/969761144301907968)
 *likes 0 · replies 0 · reposts 0*
 
@@ -82378,8 +83764,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > man oh man oh man is this how people feel about the superbowl?
 
-
-## April
 
 ### 2018-04-02 22:32:53 UTC · [980936132958609409](https://x.com/danfrank/status/980936132958609409)
 *likes 0 · replies 0 · reposts 0*
@@ -82459,15 +83843,11 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > the problem with my generation is that they never cared to listen to music quite loud enough.
 
 
-## May
-
 ### 2018-05-13 06:27:15 UTC · [995551024025948161](https://x.com/danfrank/status/995551024025948161)
 *likes 0 · replies 0 · reposts 0*
 
 > If you don’t see that Iil tay is the most brilliant social satire of the last century you’re the epitome of fuckboy-ery
 
-
-## June
 
 ### 2018-06-26 13:36:32 UTC · [1011604122305429504](https://x.com/danfrank/status/1011604122305429504)
 *likes 0 · replies 0 · reposts 0*
@@ -82475,15 +83855,11 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > Does anyone else remember how good Valencia was?
 
 
-## September
-
 ### 2018-09-08 02:47:40 UTC · [1038257533088157698](https://x.com/danfrank/status/1038257533088157698)
 *likes 0 · replies 0 · reposts 0*
 
 > @alexgfrank  tough week. hang in there pops
 
-
-## October
 
 ### 2018-10-29 21:34:04 UTC · [1057022783169929217](https://x.com/danfrank/status/1057022783169929217)
 *likes 0 · replies 0 · reposts 0*
@@ -82496,8 +83872,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > opie sucks though
 
-
-## December
 
 ### 2018-12-06 21:47:14 UTC · [1070796835890085891](https://x.com/danfrank/status/1070796835890085891)
 *likes 0 · replies 0 · reposts 0*
@@ -82642,15 +84016,11 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > So Hustler is like our (diet)Charlie Hebdo now yea?
 
 
-## March
-
 ### 2019-03-03 05:17:27 UTC · [1102075491022974979](https://x.com/danfrank/status/1102075491022974979)
 *likes 0 · replies 0 · reposts 0*
 
 > Au revoir Pennsylvania. Adiós Trump country.
 
-
-## April
 
 ### 2019-04-20 02:21:47 UTC · [1119425900146249728](https://x.com/danfrank/status/1119425900146249728)
 *likes 0 · replies 0 · reposts 0*
@@ -82658,15 +84028,11 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > @djyamez  stoned odyssey so good i didn’t make it halfway before deciding to cop tix for tomorrow.
 
 
-## May
-
 ### 2019-05-22 12:25:52 UTC · [1131174336990195712](https://x.com/danfrank/status/1131174336990195712)
 *likes 0 · replies 0 · reposts 0*
 
 > agreed on all counts
 
-
-## August
 
 ### 2019-08-06 20:56:05 UTC · [1158844215159349248](https://x.com/danfrank/status/1158844215159349248)
 *likes 0 · replies 0 · reposts 0*
@@ -82692,8 +84058,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > it’s all a lark
 
 
-## September
-
 ### 2019-09-12 13:42:51 UTC · [1172143536424259585](https://x.com/danfrank/status/1172143536424259585)
 *likes 0 · replies 0 · reposts 0*
 
@@ -82707,7 +84071,7 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 
 ### 2019-09-26 13:27:50 UTC · [1177213189299298304](https://x.com/danfrank/status/1177213189299298304)
-*likes 0 · replies 0 · reposts 0*
+*likes 0 · replies 0 · reposts ?*
 
 > devin nunes is a shitlord
 
@@ -82747,8 +84111,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > in all seriousness, i hope that the whistleblower gets rid of the vanity plate on their car. it’s just not smart to drive around DC with “WHSLBLWR” on their license plate
 
-
-## October
 
 ### 2019-10-02 07:36:53 UTC · [1179299196987478017](https://x.com/danfrank/status/1179299196987478017)
 *likes 0 · replies 0 · reposts 0*
@@ -82888,8 +84250,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > basically i’m a horrible shit person but i’m hoping that having a Morrisey tattoo is helping make up for it
 
 
-## November
-
 ### 2019-11-01 10:31:31 UTC · [1190214782240149507](https://x.com/danfrank/status/1190214782240149507)
 *likes 0 · replies 0 · reposts 0*
 
@@ -82913,8 +84273,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > HUNTER BIDEN COULD GET TO THE BOTTOM OF ALL OF THIS
 
-
-## December
 
 ### 2019-12-04 16:18:51 UTC · [1202260987644174338](https://x.com/danfrank/status/1202260987644174338)
 *likes 0 · replies 0 · reposts 0*
@@ -83041,8 +84399,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > ipse dixit
 
 
-## February
-
 ### 2020-02-08 18:57:57 UTC · [1226218626140770310](https://x.com/danfrank/status/1226218626140770310)
 *likes 0 · replies 0 · reposts 0*
 
@@ -83121,15 +84477,11 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > 2. All of the GOP primary debates ( https:// youtu.be/Un3OhYs-tCE)  I’ve always been curious to learn abt Dice Clay during the transition into the ‘character’ becoming the real person. Trump became TRUMP right in front of our eyes. Can’t describe how ridiculous we all treated his run.
 
 
-## March
-
 ### 2020-03-03 12:54:26 UTC · [1234824452296335361](https://x.com/danfrank/status/1234824452296335361)
 *likes 0 · replies 0 · reposts 0*
 
 > They’re just outright lying at this point.
 
-
-## April
 
 ### 2020-04-26 01:06:48 UTC · [1254215319125704705](https://x.com/danfrank/status/1254215319125704705)
 *likes 0 · replies 0 · reposts 0*
@@ -83137,15 +84489,11 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > the best part of my day is eulogizing  old ‘ron and fez’ bits with @sniffafart and then consequently falling into a deep deep depression about that era being over
 
 
-## May
-
 ### 2020-05-13 01:06:55 UTC · [1260375940577865734](https://x.com/danfrank/status/1260375940577865734)
 *likes 0 · replies 0 · reposts 0*
 
 > not me
 
-
-## July
 
 ### 2020-07-24 01:57:10 UTC · [1286480513524535296](https://x.com/danfrank/status/1286480513524535296)
 *likes 0 · replies 0 · reposts 0*
@@ -83158,8 +84506,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > it pains me to admit how impressive of a pick this was. you were crowing about them like before the iraq war. fuck.
 
-
-## October
 
 ### 2020-10-01 02:41:45 UTC · [1311496493061353472](https://x.com/danfrank/status/1311496493061353472)
 *likes 0 · replies 0 · reposts 0*
@@ -83352,8 +84698,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > No........ No,he’s not lol
 
 
-## October
-
 ### 2021-10-26 01:44:22 UTC · [1452813322320064512](https://x.com/danfrank/status/1452813322320064512)
 *likes 0 · replies 0 · reposts 0*
 
@@ -83371,8 +84715,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > @bludnymph  I was looking for tattoo design ideas and came across this
 
-
-## November
 
 ### 2021-11-04 03:57:12 UTC · [1456108240165609472](https://x.com/danfrank/status/1456108240165609472)
 *likes 0 · replies 0 · reposts 0*
@@ -83415,8 +84757,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > Ah, conservative comedy.
 
-
-## December
 
 ### 2021-12-03 06:29:02 UTC · [1466655698666672128](https://x.com/danfrank/status/1466655698666672128)
 *likes 0 · replies 0 · reposts 0*
@@ -83474,8 +84814,8 @@ Wordle as a January ritual, then J6-committee skepticism that is not Trump apolo
 
 | | |
 |---|---|
-| Originals on this page | 156 |
-| From operator spreadsheet | 156 |
+| Originals on this page | 158 |
+| From operator spreadsheet | 154 |
 | From live X scrape | 0 |
 | Pure reposts | omitted by rule (no @danfrank quote text) |
 
@@ -83530,8 +84870,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > As someone with no qualifications, experience or even a cursory understanding of the subject at hand…I’m probably wrong
 
-
-## February
 
 ### 2022-02-03 09:57:15 UTC · [1489176146864443402](https://x.com/danfrank/status/1489176146864443402)
 *likes 0 · replies 0 · reposts 0*
@@ -83670,8 +85008,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > Very normal thing to do…demanding someone’s military records to prove their service without any justified suspicion or the slightest bit of research on your part.
 
-
-## March
 
 ### 2022-03-01 07:28:28 UTC · [1498560787677384708](https://x.com/danfrank/status/1498560787677384708)
 *likes 0 · replies 0 · reposts 0*
@@ -83823,8 +85159,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > Buying a disposable vape is like walking into an orange julius, ordering a smoothie and having no idea if  vicks vapo rub is the primary ingredient
 
 
-## April
-
 ### 2022-04-01 09:40:19 UTC · [1509827993648209920](https://x.com/danfrank/status/1509827993648209920)
 *likes 0 · replies 0 · reposts 0*
 
@@ -83897,8 +85231,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > Let me be the first to welcome @therealdonaldtrump back to Twitter
 
 
-## May
-
 ### 2022-05-10 01:58:37 UTC · [1523844930615099392](https://x.com/danfrank/status/1523844930615099392)
 *likes 0 · replies 0 · reposts 0*
 
@@ -83940,8 +85272,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > Just doin ex-president stuff posting to the social media platform I own about poll numbers that are fake but also impossible.
 
-
-## June
 
 ### 2022-06-01 06:19:25 UTC · [1531883095170891776](https://x.com/danfrank/status/1531883095170891776)
 *likes 2 · replies 0 · reposts 0*
@@ -83991,8 +85321,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > For what it’s worth there could be no more organic or meaningful  praise / validation of talent for a broadcaster than being so naturally entertaining off the clock that your waiter (who has given you barely mediocre service) suggests you start a podcast
 
 
-## July
-
 ### 2022-07-01 06:44:10 UTC · [1542760960066207745](https://x.com/danfrank/status/1542760960066207745)
 *likes 0 · replies 0 · reposts 0*
 
@@ -84008,10 +85336,20 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 ### 2022-07-18 00:46:53 UTC · [1548831640528510976](https://x.com/danfrank/status/1548831640528510976)
 *likes 0 · replies 1 · reposts 0*
 
-> @OpieRadio  something to consider - while many O&A fans followed Anthony down the reactionary rabbit hole of white-grievance politics…a lot of the online community were so repulsed by the racism and fascistic overtones that we were radicalized to leftist politics  (1/3)
+> @OpieRadio something to consider - while many O&A fans followed Anthony down the reactionary rabbit hole of white-grievance politics…a lot of the online community were so repulsed by the racism and fascistic overtones that we were radicalized to leftist politics  (1/3)
 
 
-## August
+### 2022-07-18 00:46:54 UTC · [1548831642017533952](https://x.com/danfrank/status/1548831642017533952)
+*likes 0 · replies 1 · reposts 0*
+
+> @OpieRadio there’s a world of content that has the edgy, unpredictable, shockingly-cruel elements that i loved about o&a and are still “woke” without endorsing the annoying, counterproductive, and generally stupid causes of what people would call “cancel culture” (2/3)
+
+
+### 2022-07-18 00:46:54 UTC · [1548831643321901056](https://x.com/danfrank/status/1548831643321901056)
+*likes 0 · replies 0 · reposts 0*
+
+> @OpieRadio i think you’re missing a huge opportunity to be embraced  among the “dirtbag left” class of shows like chapo trap house, cumtown (RIP) and streetfight radio by going full progressive. If nothing else I promise you the quality of your audience will benefit immensely.
+
 
 ### 2022-08-04 06:38:51 UTC · [1555080810587475968](https://x.com/danfrank/status/1555080810587475968)
 *likes 0 · replies 0 · reposts 0*
@@ -84055,8 +85393,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > I love this part where they do really obvious projection.
 
 
-## September
-
 ### 2022-09-02 12:44:42 UTC · [1565682127403884550](https://x.com/danfrank/status/1565682127403884550)
 *likes 0 · replies 0 · reposts 0*
 
@@ -84094,7 +85430,7 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 
 ### 2022-09-24 09:48:08 UTC · [1573610222916194304](https://x.com/danfrank/status/1573610222916194304)
-*likes 0 · replies 0 · reposts 0*
+*likes ? · replies 0 · reposts 0*
 
 > 14 years of pointless nothingness but at least I got the  @danfrank  handle #MyTwitterAnniversary
 
@@ -84104,8 +85440,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > Just imagine the catharsis when Trump is finally held to some level of account and tries his gaslight shit in a courtroom. No seriously, you have to imagine it because it’s never going to happen.
 
-
-## October
 
 ### 2022-10-07 01:36:07 UTC · [1578197448366792705](https://x.com/danfrank/status/1578197448366792705)
 *likes 3 · replies 1 · reposts 1*
@@ -84178,8 +85512,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > Well I’m not sure it’s really justified or good strategy for anyone but the stage is set for a reallllyyyy nasty partisan landscape going into an incredibly important and determinative election…so that is going to be just the worst to watch
 
-
-## November
 
 ### 2022-11-01 03:59:50 UTC · [1587293310443524097](https://x.com/danfrank/status/1587293310443524097)
 *likes 0 · replies 1 · reposts 0*
@@ -84310,7 +85642,7 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 ### 2022-11-15 12:29:48 UTC · [1592495078790295552](https://x.com/danfrank/status/1592495078790295552)
 *likes 0 · replies 1 · reposts 0*
 
->
+> https://t.co/SFwg36PUgv
 
 
 ### 2022-11-15 12:31:04 UTC · [1592495397821612033](https://x.com/danfrank/status/1592495397821612033)
@@ -84348,8 +85680,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > Hey uh…maybe it would be good to let Donald Trump to do more Donald Trump shit and continue to fracture the Republican Party. It’s a time tested model known as “whatever Mitch McConnell wants, root for the opposite thing” formula
 
-
-## December
 
 ### 2022-12-07 02:16:30 UTC · [1600313268857282561](https://x.com/danfrank/status/1600313268857282561)
 *likes 1 · replies 0 · reposts 0*
@@ -84500,8 +85830,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > There could be no more appropriate timeline than the one we just entered where Joe Biden provides both Donald Trump and the RNC with a stupid and inconsequential version of the thing that Trump did as a crime.
 
 
-## February
-
 ### 2023-02-02 08:29:23 UTC · [1621063216540356610](https://x.com/danfrank/status/1621063216540356610)
 *likes 0 · replies 0 · reposts 0*
 
@@ -84645,8 +85973,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > Look, he’s never getting indicted. I made this image for everyone to help you pretend.
 
-
-## March
 
 ### 2023-03-02 03:41:02 UTC · [1631137510049841152](https://x.com/danfrank/status/1631137510049841152)
 *likes 0 · replies 0 · reposts 0*
@@ -84888,8 +86214,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > Convince me that this ghoul isn’t a fucking psyop.
 
 
-## April
-
 ### 2023-04-04 09:29:51 UTC · [1643184092635185152](https://x.com/danfrank/status/1643184092635185152)
 *likes 0 · replies 0 · reposts 0*
 
@@ -84955,8 +86279,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > New contra video new contra video
 
-
-## May
 
 ### 2023-05-05 07:54:38 UTC · [1654394154909151234](https://x.com/danfrank/status/1654394154909151234)
 *likes 0 · replies 0 · reposts 0*
@@ -85053,8 +86375,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > There’s a fascinating moment from The Circus where  @jheil  catches Steve Bannon in an overzealous moment and exposes the Trump/Bannon ventriloquist act
 
-
-## June
 
 ### 2023-06-05 22:46:42 UTC · [1665852676112826373](https://x.com/danfrank/status/1665852676112826373)
 *likes 0 · replies 1 · reposts 0*
@@ -85224,8 +86544,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > 63 seconds
 
 
-## July
-
 ### 2023-07-03 06:30:03 UTC · [1675753752962236416](https://x.com/danfrank/status/1675753752962236416)
 *likes 0 · replies 0 · reposts 0*
 
@@ -85268,8 +86586,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > Crushed
 
 
-## August
-
 ### 2023-08-02 08:11:01 UTC · [1686650797008850944](https://x.com/danfrank/status/1686650797008850944)
 *likes 0 · replies 0 · reposts 0*
 
@@ -85294,15 +86610,11 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > Say what you will about the guy, but politics is so much more fun because of Donald trump.   Like it’s only him who would cause Rachel Maddow to be live on MSNBC  continuing coverage at 4am.
 
 
-## September
-
 ### 2023-09-10 05:19:42 UTC · [1700740810415730978](https://x.com/danfrank/status/1700740810415730978)
 *likes 1 · replies 0 · reposts 0*
 
 > I  https:// camwhores.tv
 
-
-## October
 
 ### 2023-10-06 06:41:28 UTC · [1710183475897069683](https://x.com/danfrank/status/1710183475897069683)
 *likes 0 · replies 0 · reposts 0*
@@ -85400,8 +86712,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > Big INTP vibes here
 
 
-## November
-
 ### 2023-11-02 12:55:19 UTC · [1720062030302920741](https://x.com/danfrank/status/1720062030302920741)
 *likes 0 · replies 0 · reposts 0*
 
@@ -85456,8 +86766,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > If I were a consultant for Kamala Harris, I would advise her to stage a publicity stunt where she is caught in hitting a weed pen  on the Truman balcony by a pool photographer…saving Biden’s re-election campaign and salvaging her political career
 
 
-## December
-
 ### 2023-12-19 08:54:40 UTC · [1737033696052490472](https://x.com/danfrank/status/1737033696052490472)
 *likes 2 · replies 0 · reposts 0*
 
@@ -85503,7 +86811,7 @@ Peak volume (258 originals in the spreadsheet). MTA, EV-math on Biden/Trump, and
 | | |
 |---|---|
 | Originals on this page | 258 |
-| From operator spreadsheet | 258 |
+| From operator spreadsheet | 255 |
 | From live X scrape | 0 |
 | Pure reposts | omitted by rule (no @danfrank quote text) |
 
@@ -85516,8 +86824,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > MTA negligent insanity challenge.
 
-
-## February
 
 ### 2024-02-14 13:33:51 UTC · [1757760064440480009](https://x.com/danfrank/status/1757760064440480009)
 *likes 0 · replies 5 · reposts 0*
@@ -85573,8 +86879,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > That'll help...
 
 
-## March
-
 ### 2024-03-03 03:22:36 UTC · [1764129217871032406](https://x.com/danfrank/status/1764129217871032406)
 *likes 1 · replies 0 · reposts 0*
 
@@ -85590,7 +86894,7 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 ### 2024-03-03 12:40:39 UTC · [1764269658339782856](https://x.com/danfrank/status/1764269658339782856)
 *likes 0 · replies 0 · reposts 0*
 
->
+> https://t.co/OS7WLWS1v8
 
 
 ### 2024-03-06 00:26:45 UTC · [1765172127999611015](https://x.com/danfrank/status/1765172127999611015)
@@ -85646,8 +86950,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > This new  @beatmastermatt  video on the Iraq war absolutely shreds - comprehensive, balanced and accessible to any audience…it’s one of his best pieces to date.
 
-
-## April
 
 ### 2024-04-01 08:08:42 UTC · [1774710465542623375](https://x.com/danfrank/status/1774710465542623375)
 *likes 0 · replies 0 · reposts 0*
@@ -85728,12 +87030,10 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 
 ### 2024-04-27 18:36:45 UTC · [1784290603682947411](https://x.com/danfrank/status/1784290603682947411)
-*likes 0 · replies 0 · reposts 0*
+*likes ? · replies 0 · reposts ?*
 
 > RT  @MarioNawfal : BREAKING: NEO-NAZIS MARCH IN WEST VIRGINIA  I guess the white supremacist group, the Patriot Front, was feeling left ou…
 
-
-## May
 
 ### 2024-05-01 07:42:01 UTC · [1785575387889586248](https://x.com/danfrank/status/1785575387889586248)
 *likes 0 · replies 0 · reposts 0*
@@ -85800,8 +87100,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > Remember, according to blue MAGA liberals — this is the same media apparatus which has dedicated the last 6 months to breaking the Biden campaign by pushing the ‘too old’ narrative and cooking or spiking poll results
 
-
-## June
 
 ### 2024-06-05 00:48:09 UTC · [1798154809033281537](https://x.com/danfrank/status/1798154809033281537)
 *likes 0 · replies 0 · reposts 0*
@@ -86067,8 +87365,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > hahahahah it’s almost JULY and we have no idea who the nominee is going to be  what the fuck is happening
 
 
-## July
-
 ### 2024-07-01 00:26:11 UTC · [1807571365442249166](https://x.com/danfrank/status/1807571365442249166)
 *likes 0 · replies 0 · reposts 0*
 
@@ -86156,7 +87452,7 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 ### 2024-07-04 23:30:06 UTC · [1809006805739241691](https://x.com/danfrank/status/1809006805739241691)
 *likes 0 · replies 0 · reposts 0*
 
->
+> https://t.co/jVhvKnkXG2
 
 
 ### 2024-07-05 00:12:59 UTC · [1809017597897420896](https://x.com/danfrank/status/1809017597897420896)
@@ -86495,8 +87791,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > One of the more interesting elements about Biden’s step down from the nomination is the fact that Trump had believed that this precise series of events was in the works during the 2020 election.   As per  @MichaelWolffNYC  ‘Landslide’
 
 
-## August
-
 ### 2024-08-02 01:43:57 UTC · [1819187348464099554](https://x.com/danfrank/status/1819187348464099554)
 *likes 0 · replies 0 · reposts 0*
 
@@ -86581,8 +87875,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > I could be totally wrong but I had thought that using a ‘live’ chyron on a pretape is a FCC violation
 
 
-## September
-
 ### 2024-09-11 01:43:12 UTC · [1833682674663502142](https://x.com/danfrank/status/1833682674663502142)
 *likes 0 · replies 0 · reposts 0*
 
@@ -86648,8 +87940,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > I’m glad Hezbollah has been thoroughly decimated and everything, but I’m not looking forward to Iran’s geopolitical ‘plan-B’ of sprinting towards nuclear capability
 
-
-## October
 
 ### 2024-10-15 07:24:10 UTC · [1846089668082729271](https://x.com/danfrank/status/1846089668082729271)
 *likes 0 · replies 0 · reposts 0*
@@ -86752,8 +88042,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > 2024 year of the dragon
 
-
-## November
 
 ### 2024-11-04 04:10:49 UTC · [1853288767689252964](https://x.com/danfrank/status/1853288767689252964)
 *likes 0 · replies 1 · reposts 0*
@@ -86956,7 +88244,9 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 ### 2024-11-11 01:55:58 UTC · [1855791546458689939](https://x.com/danfrank/status/1855791546458689939)
 *likes 0 · replies 0 · reposts 0*
 
->
+> 🔮
+
+> — quoting: danfrank Hate to break the bad news to you but Trump’s reign does not seem to have ended so much as it has been paused temporarily. Make no mistake, if there is no obstacle preventing him from running in 2024…he will win and the consequences will be devastating
 
 
 ### 2024-11-11 02:01:29 UTC · [1855792934911660156](https://x.com/danfrank/status/1855792934911660156)
@@ -87036,8 +88326,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > 2024 year of the dragon
 
-
-## December
 
 ### 2024-12-01 04:49:18 UTC · [1863082924154765402](https://x.com/danfrank/status/1863082924154765402)
 *likes 0 · replies 0 · reposts 0*
@@ -87164,8 +88452,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > The rich tradition of Republicans, pretending not to know what Q Anon is alive and well
 
 
-## February
-
 ### 2025-02-01 01:14:20 UTC · [1885496873365963256](https://x.com/danfrank/status/1885496873365963256)
 *likes 0 · replies 0 · reposts 0*
 
@@ -87173,7 +88459,7 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 
 ### 2025-02-01 02:24:34 UTC · [1885514551027806258](https://x.com/danfrank/status/1885514551027806258)
-*likes 0 · replies 1 · reposts 0*
+*likes ? · replies 1 · reposts 0*
 
 > So NYT & WaPo still have zero coverage of the Philly crash story. Wild.
 
@@ -87201,8 +88487,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > Now that I have my title I’m ready to write my memoir “Other Things, and Other Things Other than That”
 
-
-## October
 
 ### 2025-10-02 05:37:07 UTC · [1973623257216721405](https://x.com/danfrank/status/1973623257216721405)
 *likes 0 · replies 0 · reposts 0*
@@ -87273,8 +88557,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > ‘Odd Mob - Never Alone (feat Lizzy Land) [MOGZART DnB JUMP UP REMIX]’ is on #SoundCloud  https:// on.soundcloud.com/Dt1fpJsxRNwu6P uw0m … #DnB #Remix
 
 
-## April
-
 ### 2026-04-05 22:52:02 UTC · [2040925460280881168](https://x.com/danfrank/status/2040925460280881168)
 *likes 0 · replies 0 · reposts 0*
 
@@ -87286,8 +88568,6 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 > I'm claiming my AI agent "gripnotic" on  @moltbook    Verification: rocky-WSJQ
 
-
-## May
 
 ### 2026-05-30 00:37:55 UTC · [2060521051436556454](https://x.com/danfrank/status/2060521051436556454)
 *likes 0 · replies 0 · reposts 0*
@@ -87317,14 +88597,14 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > so it actually outperformed what i had asked it to build. sick.
 
 
-## June
-
 ### 2026-06-02 09:02:24 UTC · [2061735171091583264](https://x.com/danfrank/status/2061735171091583264)
+*likes ? · replies ? · reposts ?*
 
 > there is just stupid amounts of great DnB coming out right now and still this new bensley record is so standout it's the easiest lock for most AOTY lists
 
 
 ### 2026-06-02 19:30:15 UTC · [2061893175929712737](https://x.com/danfrank/status/2061893175929712737)
+*likes ? · replies ? · reposts ?*
 
 > EVERYBODY🙏
 > HATES🙏
@@ -87332,27 +88612,33 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 
 ### 2026-06-02 21:55:57 UTC · [2061929841218240545](https://x.com/danfrank/status/2061929841218240545)
+*likes ? · replies ? · reposts ?*
 
 > Hi tom!
 
 
 ### 2026-06-10 02:27:08 UTC · [2064534800090763422](https://x.com/danfrank/status/2064534800090763422)
+*likes ? · replies ? · reposts ?*
 
 > It’s like they timed it perfectly to align with the precise moment a consensus formed about how badly this has gone at CBS
 
 
 ### 2026-06-12 08:05:10 UTC · [2065344645270229248](https://x.com/danfrank/status/2065344645270229248)
+*likes ? · replies ? · reposts ?*
 
 > You can take the Donnie out of Queens, but you can’t take the Queens out of Donnie
 
 
 ### 2026-06-13 03:51:47 UTC · [2065643268952543500](https://x.com/danfrank/status/2065643268952543500)
-*Quoted @AnthropicAI Fable 5 export-control statement*
+*likes ? · replies ? · reposts ?*
 
 > Man I thought I was being nuts running fable5 for like 14 hours to build this new website and data visualizers of my text logs but who’s the crazy one now huh?
 
+> — quoting: Quoted @AnthropicAI Fable 5 export-control statement
+
 
 ### 2026-06-13 06:20:58 UTC · [2065680809810366743](https://x.com/danfrank/status/2065680809810366743)
+*likes ? · replies ? · reposts ?*
 
 > oh get fucked dude. now xAI figures out grok build will install pirated software and build custom python scripts to activate it through whatever crack the README says to use and kills that in the system prompt.
 >
@@ -87360,55 +88646,65 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 
 
 ### 2026-06-13 14:27:41 UTC · [2065803296502161652](https://x.com/danfrank/status/2065803296502161652)
+*likes ? · replies ? · reposts ?*
 
 > i mean i was only using it to install some VST/AU plugins for Ableton but still i appreciated not having to go through the process
 
 
 ### 2026-06-14 04:23:48 UTC · [2066013712649994548](https://x.com/danfrank/status/2066013712649994548)
+*likes ? · replies ? · reposts ?*
 
 > I mean…kinda. 
 >
 > I know a lot of people who would usually be super early adopters who just haven’t done anything beyond writing their work emails. There’s a large contingent of people who have yet to fully grasp the real utility yet
 
 
-## August
-
 ### 2026-08-07 20:22:53 UTC · [2085824019375206773](https://x.com/danfrank/status/2085824019375206773)
-*Quoted @AbdulElSayed*
+*likes ? · replies ? · reposts ?*
 
 > End wokeness absolutely bodied by first Muslim Senator
 
+> — quoting: Quoted @AbdulElSayed
+
 
 ### 2026-08-26 02:31:35 UTC · [2092439788615811378](https://x.com/danfrank/status/2092439788615811378)
+*likes ? · replies ? · reposts ?*
 
 > Redemption Arc Speedrun
 
 
 ### 2026-08-29 04:39:28 UTC · [2093559133299495349](https://x.com/danfrank/status/2093559133299495349)
-*Quoted @atlanticesque on Curtis Sliwa*
+*likes ? · replies ? · reposts ?*
 
 > I’m so bullish on Curtis Sliwa in the timeline where he leans in on his antizionist credentials and gets in on the new Tucker lane of nat con populists.
 
+> — quoting: Quoted @atlanticesque on Curtis Sliwa
+
 
 ### 2026-08-29 05:19:09 UTC · [2093569119043846582](https://x.com/danfrank/status/2093569119043846582)
+*likes ? · replies ? · reposts ?*
 
 > I kinda hate the way this dude suddenly assumes the ability to command other people about what they can or can’t do. There’s a big difference between “you’re going to want to turn around and get out of here” and “turn around and get out of here”
 
 
 ### 2026-08-29 16:36:18 UTC · [2093739528385143178](https://x.com/danfrank/status/2093739528385143178)
-*Quoted @yieoki*
+*likes ? · replies ? · reposts ?*
 
 > This is wonderful
 
+> — quoting: Quoted @yieoki
+
 
 ### 2026-08-29 16:43:45 UTC · [2093741403989823653](https://x.com/danfrank/status/2093741403989823653)
-*Quoted @DHSgov ICE arrest of Milo Yiannopoulos*
+*likes ? · replies ? · reposts ?*
 
 > My only child’s namesake
 
+> — quoting: Quoted @DHSgov ICE arrest of Milo Yiannopoulos
+
 
 ### 2026-08-29 23:34:37 UTC · [2093844803775500777](https://x.com/danfrank/status/2093844803775500777)
-*Quoted @conner_omalley: Irish Zionism*
+*likes ? · replies ? · reposts ?*
 
 > It’s been great.
 > It’s still great. 
@@ -87416,18 +88712,21 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 >
 > It’s Irish Zionism
 
+> — quoting: Quoted @conner_omalley: Irish Zionism
+
 
 ### 2026-08-31 19:02:16 UTC · [2094501041484054633](https://x.com/danfrank/status/2094501041484054633)
+*likes ? · replies ? · reposts ?*
 
 > Cold, but lovely.
 
 
-## September
-
 ### 2026-09-01 16:42:53 UTC · [2094828352280363279](https://x.com/danfrank/status/2094828352280363279)
-*Quoted @TheTNHoller on Dr. Abdul El-Sayed vs Jesse Watters*
+*likes ? · replies ? · reposts ?*
 
 > He’s so fucking good at these adversarial tv hits
+
+> — quoting: Quoted @TheTNHoller on Dr. Abdul El-Sayed vs Jesse Watters
 
 
 ========================================================================
@@ -87452,6 +88751,9 @@ sources:
   - "raw/self/twitter/tweets_sample_2019-2026.txt"
 tags: [digital-footprint, politics, music-production, ai-collaboration, ideology]
 connections:
+  - page: wiki/self/twitter/2008
+    type: contains
+    claim: '2008 is the account''s first year, recovered on 2026-09-02 and absent from this wiki until then; it opens on the day Dan reached Winter Park for Full Sail.'
   - page: wiki/self/twitter/2009
     type: contains
     claim: '2009 is the origin year of the surviving record — the account itself dates to September 2008 by its own anniversary tag — and the first public sample of the voice the later corpora treat as stable.'
@@ -87570,7 +88872,7 @@ connections:
 
 # Twitter / X Activity (@danfrank)
 
-Personal account **@danfrank** ("insufferable politics sicko"), registered **September 2008** by its own anniversary tag, with a recovered record beginning October 2009. This hub is the index of a text archive of his originals: one wiki page per year, every retrieved original and every quote-tweet that carries his own text. Pure reposts with no @danfrank quote content are the one omitted class.
+Personal account **@danfrank** ("insufferable politics sicko"). The record now begins **24 September 2008** — the day Dan arrived in Winter Park for Full Sail — after a backend fetch on 2026-09-02 recovered 213 tweets the archive had never reached. This hub is the index of a text archive of his originals: one wiki page per year, every retrieved original and every quote-tweet that carries his own text. Pure reposts with no @danfrank quote content are the one omitted class.
 
 The operator spreadsheet (Drive: Dan Frank - Tweet Archive, filed as `raw/self/twitter/tweet-archive.xlsx`) holds 1,427 originals from 2013-08-17 through 2026-04-07 and 229 pure reposts, which are dropped. Years before the spreadsheet, the mid-August 2013 days before it starts, and 2026 after 7 April are filled from live X search and will grow as further batches are committed on this branch.
 
@@ -87578,25 +88880,26 @@ The operator spreadsheet (Drive: Dan Frank - Tweet Archive, filed as `raw/self/t
 
 | Year | Originals on page | Coverage |
 |------|------------------:|----------|
-| [[wiki/self/twitter/2009\|2009]] | 165 | in progress |
+| [[wiki/self/twitter/2008\|2008]] | 95 | in progress (10-result search cap) |
+| [[wiki/self/twitter/2009\|2009]] | 283 | in progress |
 | [[wiki/self/twitter/2010\|2010]] | 342 | in progress |
 | [[wiki/self/twitter/2011\|2011]] | 225 | in progress |
 | [[wiki/self/twitter/2012\|2012]] | 205 | in progress |
 | [[wiki/self/twitter/2013\|2013]] | 346 | in progress |
 | [[wiki/self/twitter/2014\|2014]] | 171 | complete for originals |
 | [[wiki/self/twitter/2015\|2015]] | 62 | complete for originals |
-| [[wiki/self/twitter/2016\|2016]] | 75 | complete for originals |
+| [[wiki/self/twitter/2016\|2016]] | 76 | **NOT complete** — see below |
 | [[wiki/self/twitter/2017\|2017]] | 117 | complete for originals |
 | [[wiki/self/twitter/2018\|2018]] | 89 | complete for originals |
 | [[wiki/self/twitter/2019\|2019]] | 57 | complete for originals |
 | [[wiki/self/twitter/2020\|2020]] | 25 | complete for originals |
 | [[wiki/self/twitter/2021\|2021]] | 34 | complete for originals |
-| [[wiki/self/twitter/2022\|2022]] | 156 | complete for originals |
+| [[wiki/self/twitter/2022\|2022]] | 158 | complete for originals |
 | [[wiki/self/twitter/2023\|2023]] | 159 | complete for originals |
 | [[wiki/self/twitter/2024\|2024]] | 258 | complete for originals |
 | [[wiki/self/twitter/2025\|2025]] | 13 | complete for originals |
 | [[wiki/self/twitter/2026\|2026]] | 26 | in progress |
-| **Total** | **2525** | |
+| **Total** | **2741** | |
 
 ## What the public valve actually is
 
@@ -87637,39 +88940,55 @@ and 10.2% of originals in 2010, 2011 and 2012 and fall to 0.3% in 2013 —
 the right shape for a spring 2013 exit, and not a date. It continues to
 rest on context-core.
 
-## The account is older than the archive
+## The backfill of 2026-09-02, and what it settled
 
-On **24 September 2022** Dan posted, under Twitter's own generated
-`#MyTwitterAnniversary` tag: *"14 years of pointless nothingness but at least
-I got the @danfrank handle."*
+The archive began at 2009-10-20 and was believed complete for originals from
+2013-08-17 on. A backend fetch on **2026-09-02** — search-based, capped at ten
+results per query, written to `raw/self/twitter/grok-backfill-2026-09-02/` —
+changed both claims.
 
-Fourteen years back from September 2022 is **September 2008** — thirteen
-months before this archive's earliest tweet, 20 October 2009. The anniversary
-tag fires on the account's join date rather than on its first post, so the
-account existed through the whole of the 2008–09 Full Sail year and no tweet
-from that period has been recovered.
+**What it settled**
 
-**What this changes.** The hub's framing of 2009 as "the origin year" is the
-origin of the *record*, not of the account, and the two are not the same
-thing. `date_range_start` stays 2009-10-20 because that is the first tweet
-held; the account's own start is a year earlier and is unrepresented. Whether
-he simply did not post for thirteen months, or whether those tweets exist and
-the live scrape has not reached them, is unresolved — and the second is more
-likely than it looks, since every year before 2013 here is a scrape
-reconstruction rather than a complete export.
+| Question | Answer |
+|---|---|
+| Is there a first year before 2009-10-20? | **Yes — 213 tweets**, earliest 2008-09-24T04:52:36, *"i fucking looove winter park. this town is unreal."* |
+| Does the 2016 "@ulmdub birthday party at OSU" tweet exist? | **Yes.** id `696416822011289601`, 2016-02-07, one video. It was **not** in the archive |
+| Parts 2/3 of the 18 July 2022 radicalization thread? | **Recovered**, both |
+| Are the six "empty text" rows really empty? | **No.** Two are emoji-only, three are a t.co plus photos, one is a quote of his own earlier tweet |
 
-**The single thing that would settle it** is the official X Settings archive,
-which carries the exact account-creation timestamp and every tweet. It is
-already listed in `queue.md` as welcome; this is a second reason to want it,
-alongside the 2016 discrepancy noted on
-[[wiki/interests/music/overview]].
+**What it could not settle, and this is the important half.** The backend user
+lookup returned an account id (`16430736`) but **no `created_at` and no
+`statuses_count`**. So the account's creation datetime is still not a recorded
+fact, and there is still no figure for how many tweets 2,741 is out of. The
+24 September 2008 date is an inference from three consistent facts — the
+earliest tweet retrieved, two queries before it returning nothing, and the
+`#MyTwitterAnniversary` post of 2022-09-24 — and it should be cited as an
+inference.
 
-He also states, in the same tweet, what the account was for: **the handle.**
-`@danfrank` on a service he joined in 2008 is a first-name-plus-surname
-handle acquired before that was hard, and he says so again two months later —
-*"I'm fucking bummed because Twitter is the only place I got in early enough
-to secure the @danfrank handle"* (18 November 2022), written while
-considering leaving over the Musk acquisition.
+> **CORRECTION [2026-09-02] — 2016 is not complete for originals.** The
+> coverage table above said it was, on the strength of the operator
+> spreadsheet. The gig tweet of 7 February 2016 was live the whole time and
+> absent from both the spreadsheet and the scrape. The table now says so.
+>
+> The cost is wider than one row. `wiki/interests/music/overview` leaned on
+> "the 2017–2025 window is spreadsheet-complete, so the zero in it is a real
+> zero." That assurance and the 2016 claim rest on the same table. The zero may
+> still hold — the fetch found no counter-example in those years — but it can
+> no longer be asserted from completeness, and that page now says so.
+>
+> A second lesson, cheaper to state than it was to learn: this wiki discounted
+> the quoted line partly because `raw/self/dox-scan/FULL TWITTER ANALYSIS.txt`
+> is AI-generated and demonstrably unreliable in aggregate. It was right about
+> this specific quotation. **Unreliable in aggregate is not wrong about any
+> given line**, and "the archive does not contain it" was a statement about the
+> archive.
+
+**Still open, and only a complete X account export closes it:** the creation
+datetime, the true total, the months of 2008–09 truncated at ten results, 121
+of the 129 rows still truncated mid-text, and seventeen years of reposts —
+`raw/self/twitter/reposts.jsonl` holds five, kept out of `archive.jsonl`
+because the originals-only inclusion rule is what the yearly pages are built
+on.
 
 ## The densest day in seventeen years
 
@@ -95752,7 +97071,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,409 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 683 · Tier 2 416 · Tier 3 2,310.
+**3,419 events** across **80 years** (1796–2027), drawn from **367 pages**. Tier 1 684 · Tier 2 416 · Tier 3 2,319.
 
 ## What counts as an event here
 
@@ -96604,8 +97923,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
 - ◆ **September 2008** — When Dan left for Full Sail in September 2008, Suz bought a condo near campus rather than renting one — the earliest documented instance of her using real property rather than cash to support him, seventeen years before the 337 sale and the 463 arrangement did the same thing in reverse.  
   ↳ [[wiki/people/suzanne-frank]] · The Winter Park condo, 2008–2010
-- ◆ **September 2008** — Personal account **@danfrank** ("insufferable politics sicko"), registered **September 2008** by its own anniversary tag, with a recovered record beginning October 2009.  
-  ↳ [[wiki/self/twitter]] · Twitter / X Activity (@danfrank)
 - · **September 2008** — Buys the Winter Park FL condo (2924 Antique Oaks Circle) as Dan starts Full Sail  
   ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **September 2008** — ski-identity years  
@@ -96622,10 +97939,22 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
 - · **September 2008** — Danielle ends, Alexis begins  
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
+- ◆ **2008-09-24** — It is written to nobody.** The account has no followers on 24 September 2008 — it is being started that day.  
+  ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The period's exit, in his own words, on the day it happened
+- · **2008-09-24** — The record now begins **24 September 2008** — the day Dan arrived in Winter Park for Full Sail — after a backend fetch on 2026-09-02 recovered 213 tweets the archive had never reached.  
+  ↳ [[wiki/self/twitter]] · Twitter / X Activity (@danfrank)
+- · **2008-09-24** — The 24 September 2008 date is an inference from three consistent facts — the earliest tweet retrieved, two queries before it returning nothing, and the `#MyTwitterAnniversary` post of 2022-09-24 — and it should be cited as an inference.  
+  ↳ [[wiki/self/twitter]] · The backfill of 2026-09-02, and what it settled
+- · **2008-09-24** — The account opens on **24 September 2008** with *"i fucking looove winter park. this town is unreal."* Winter Park is where Full Sail is.  
+  ↳ [[wiki/self/twitter/2008]] · Twitter / X — 2008
+- · **2008-09-24** — Creation on 24 September 2008 is an inference from three consistent facts: the earliest tweet retrieved, two queries before it returning nothing, and the `#MyTwitterAnniversary` tweet of 2022-09-24.  
+  ↳ [[wiki/self/twitter/2008]] · Gaps
 - ◆ **2008-10-18** — Multi-act show — House of Blues — Orlando, FL — Resolved. Joint fall 2008 package.  
   ↳ [[wiki/interests/favorites/music/artists/all-time-low]] · Live appearances
 - · **2008-10-18** — 28 — All Time Low, Mayday Parade, The Maine, Every Avenue — House of Blues — Orlando, FL — Resolved. Joint fall 2008 package.  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
+- · **2008-10-26** — Two months earlier the same account had made the cat a WoW joke: *"my new kitten and your new puppy shall duel. be forewarned that my kitten is a level 70 mage"* (26 October 2008), and level 70 was the cap in that expansion.  
+  ↳ [[wiki/interests/video-games]] · 2008: fourteen hours in twenty-four
 - ★ **2008-10-31** — Traffic — turning movements / required signal — 1 — unavailable  
   ↳ [[wiki/people/jerel-coles]] · The record, 2008–2025
 - · **2008-11-17** — 29 — Jedi Mind Tricks — The Social — Orlando, FL — Resolved. With Outerspace / Reef the Lost Cause.  
@@ -96636,12 +97965,16 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - ★ **2008-11-20** — Disorderly conduct — engaging in fighting — 1 — **guilty plea  
   ↳ [[wiki/people/jerel-coles]] · The record, 2008–2025
+- · **December 2008** — Every month that returned ten hits is truncated at ten: **October, November and December 2008 are all incomplete.** Only 24 September is a strong candidate for a complete day, at six tweets.  
+  ↳ [[wiki/self/twitter/2008]] · Gaps
 - ◆ **2008-12-12** — Multi-act show — House of Blues — Orlando, FL — Resolved. XL 106.7 'XL-ent Electric Xmas'.  
   ↳ [[wiki/interests/favorites/music/artists/fall-out-boy]] · Concert record — supplementary appearances (from the 2001-2019 log)
 - · **2008-12-12** — 30 — Fall Out Boy, The Academy Is..., We The Kings — House of Blues — Orlando, FL — Resolved. XL 106.7 'XL-ent Electric Xmas'.  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
 - · **2008-12-12** — 29 — Fall Out Boy / The Academy Is… / We The Kings — House of Blues — Orlando, FL — Resolved — XL 106.7 "XL-ent Electric Xmas"  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
+- · **2008-12-31** — The earliest gaming evidence in the corpus is now **31 December 2008**, from the account's recovered first year (2008):  
+  ↳ [[wiki/interests/video-games]] · 2008: fourteen hours in twenty-four
 
 ### 2009
 
@@ -96675,8 +98008,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/zach-clingan]] · 2009: the faun
 - · **2009-10-06** — Full documented span  
   ↳ [[wiki/people/zach-clingan]] · Corpus record
-- · **2009-10-20** — What this changes.** The hub's framing of 2009 as "the origin year" is the origin of the *record*, not of the account, and the two are not the same thing. `date_range_start` stays 2009-10-20 because that is the first tweet held; the account's own start is a year earlier and is unrepresented.  
-  ↳ [[wiki/self/twitter]] · The account is older than the archive
+- · **2009-10-20** — The archive began at 2009-10-20 and was believed complete for originals from 2013-08-17 on.  
+  ↳ [[wiki/self/twitter]] · The backfill of 2026-09-02, and what it settled
+- · **2009-10-20** — Yes — 213 tweets**, earliest 2008-09-24T04:52:36, *"i fucking looove winter park. this town is unreal."  
+  ↳ [[wiki/self/twitter]] · The backfill of 2026-09-02, and what it settled
 - ◆ **2009-10-23** — Within two weeks the exchange turns explicitly romantic and stays there without interruption: constant "I ♥ you," daily phone dates, drunk-texting confessions, YouTube-link flirting, and a real in-person visit — Dan traveling from Orlando back to Uniontown for a weekend that included a shared…  
   ↳ [[wiki/people/stephanie-nalbone]] · The relationship
 - ★ **November 2009** — Stephanie Nalbone is an ex-girlfriend from a relationship the corpus had no other record of: a six-week, high-intensity long-distance romance running late September to early November 2009, reconnecting old Uniontown history right at the close of Full Sail.  
@@ -96703,6 +98038,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter]] · The densest day in seventeen years
 - ★ **2009-11-26** — He appears paired with Jerad Friedline three times — *"i'm thankful for my family/friend, sour diesel, tropical lifesaver gummies, and @joshbrannan / @jfriedline for their sign stealing abilities"* (26 November 2009), *"seeing my boyzzzz @jfriedline @joshbrannan tonight"* (21 December 2009), and a…  
   ↳ [[wiki/people/josh-brannan]] · The tweet record, 2009–2012
+- · **December 2009** — A handle change between 2008 and the first `@danpolyak` tweet of December 2009 would explain it; so would a different friend whose name also fed the joke.  
+  ↳ [[wiki/people/dan-polyak]] · An unresolved 2008 lead: `@clandan`
 
 ## 2010s
 
@@ -98466,6 +99803,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/annie-record]] · Reading progress
 - · **2016-02-01** — "It's crazy tho Bernie sanders could  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · Bernie 2020 as the bridge
+- ★ **2016-02-07** — Does the 2016 "@ulmdub birthday party at OSU" tweet exist?  
+  ↳ [[wiki/self/twitter]] · The backfill of 2026-09-02, and what it settled
 - ★ **2016-02-12** — The first_contact: 2016-02-12 field reflects the first contact in the specific 2016–2020 CSV export thread, not the true origin of the relationship.  
   ↳ [[wiki/people/tan-calabrese]] · Tan Calabrese
 - · **2016-02-15** — He frames his own behavior as trying to help while acknowledging he doesn't want "legitimate ties" with Alexis, calling her "diabolical AF." The cluster ends with a full apology on February 15, 2016 for "anything I may have done that need apologizing for."  
@@ -100366,6 +101705,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/opie-and-anthony]] · The fanbase split, and which side Dan took
 - · **2022-07-18** — On **18 July 2022**, addressing Opie of Opie & Anthony directly:  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · A second causal account, in his own words, from 2022
+- · **2022-07-18** — Recovered**, both  
+  ↳ [[wiki/self/twitter]] · The backfill of 2026-09-02, and what it settled
 - ◆ **August 2022** — Security: account_activity / logins / ip (39 unique) show 2022+ activity (earliest Aug 2022 in parses)  
   ↳ [[wiki/self/location-history]] · Ties to Facebook Events / Security / Profile (2010+)
 - · **August 2022** — "pa" mentions frequent in loc fields. Limited older export data but consistent with FB profile timeline.  
@@ -100374,16 +101715,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - · **September 2022** — Waiting on Dan:** the August–September 2022 question — the most precisely  
   ↳ [[wiki/mind/synthesis/totality-themes]] · Gaps and open questions carried from the third pass
-- · **September 2022** — Fourteen years back from September 2022 is **September 2008** — thirteen months before this archive's earliest tweet, 20 October 2009.  
-  ↳ [[wiki/self/twitter]] · The account is older than the archive
 - · **2022-09-05** — Full Facebook data export (79 MB, generated Sep 5 2022) for the account **ihatedanfrank** — registered January 9, 2007.  
   ↳ [[wiki/self/facebook]] · Facebook Archive (ihatedanfrank)
 - · **2022-09-05** — Export size / date  
   ↳ [[wiki/self/facebook]] · Corpus Dimensions
 - · **2022-09-20** — Migration back (Aug 16 – Sep 20, 2022):** continuity-restore gesture  
   ↳ [[wiki/mind/synthesis/totality-themes]] · The migration grammar — identity reorganization has a syntax
-- · **2022-09-24** — On **24 September 2022** Dan posted, under Twitter's own generated `#MyTwitterAnniversary` tag: *"14 years of pointless nothingness but at least I got the @danfrank handle."  
-  ↳ [[wiki/self/twitter]] · The account is older than the archive
 - ◆ **November 2022** — The costly case is Paul Pelosi, October–November 2022**, and it is the one that shows the skepticism is not partisan.  
   ↳ [[wiki/mind/synthesis/vertical-authority-skepticism]] · The conspiracy question, settled by what he actually does
 - ◆ **2022-11-10** — Two Bacharach videos watched two minutes apart — a Hill clip, then the Chapo episode  
@@ -100392,8 +101729,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/jacob-bacharach]] · Why it is the flagship
 - · **2022-11-18** — He was inside the community deeply enough for the split to be personal — *"I was a regular in the storied opieandanthony subreddit before it was banned"* (18 November 2022) — and he kept engaging the hosts publicly throughout: sixteen tweets to `@OpieRadio`, ten to `@AnthonyCumia`, nine each to…  
   ↳ [[wiki/interests/opie-and-anthony]] · The fanbase split, and which side Dan took
-- · **2022-11-18** — He also states, in the same tweet, what the account was for: **the handle.** `@danfrank` on a service he joined in 2008 is a first-name-plus-surname handle acquired before that was hard, and he says so again two months later — *"I'm fucking bummed because Twitter is the only place I got in early…  
-  ↳ [[wiki/self/twitter]] · The account is older than the archive
 - · **December 2022** — Word volume, Dan : Annie, all-time  
   ↳ [[wiki/people/annie-ulmer]] · By the numbers
 - · **December 2022** — The December 2022 start date is primary and holds.  
@@ -102860,6 +104195,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/shane-brannan]] · Shane Brannan
 - · **2026-09-02** — Pre / Origin (Twitter + FB) — ~2010-2013 — **15 check-ins** (Google loc starts 2014)  
   ↳ [[wiki/self/location-history]] · Granular by Period (cross to wiki periods)
+- · **2026-09-02** — All 95 rows came from the 2026-09-02 backend fetch, `source: grok-backend`.  
+  ↳ [[wiki/self/twitter/2008]] · Coverage
+- · **2026-09-02** — The `@danfrank` Twitter account was recovered thirteen months further back on 2026-09-02 (2008), and it opens on **24 September 2008**, the day Dan arrives in Winter Park.  
+  ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The period's exit, in his own words, on the day it happened
 - ★ **2026-12-19** — P4 — **No third party ends this relationship.** Any severance that holds past 120 days will be traceable to a self-generated move, not an intervention — a documented outside intervention followed by a severance holding >120 days  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Predictions and falsifiers
 - ★ **2026-12-19** — A severance holding past **2026-12-19** with no external agent involved confirms Part I and P4 together.  
@@ -102874,7 +104213,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 366 wiki pages. 999 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 367 wiki pages. 1,004 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================
@@ -103930,6 +105269,10 @@ related:
   - wiki/people/suzanne-frank
 tags: [addiction-recovery]
 connections:
+  - page: wiki/self/twitter/2008
+    type: evidenced-by
+    claim: "The @danfrank account opens on 24 September 2008, the day Dan reaches Winter Park, and its second tweet — 'Really feels like life has started over now. It's weird enjoying life again.' — is the only contemporaneous first-person marker for this period's end, written to an account with no followers."
+
   - page: wiki/health/hyperreflexivity
     type: evidenced-by
     claim: "A 2025 AI-chat disclosure of losing two teeth, with Dan's own causal chain back to teenage bulimia and decades of dentist avoidance, is the corpus's clearest first-person link between the eating disorder documented here and a specific, dated adult physical-health outcome."
@@ -104000,6 +105343,53 @@ permanent chemical maintenance (Suboxone, 2010–present, zero relapses),
 and the eating disorder's resolution, if any, is undocumented — it
 surfaces only as something Annie and at least one other contact
 recognized in him years later, never as its own worked-through history.
+
+## The period's exit, in his own words, on the day it happened
+
+This page ends at **2008-08-01** and reads the departure for Full Sail as the
+break. Until 2026-09-02 there was no first-person source for that break — the
+whole reconstruction above is, as the Gaps section says, built from oblique
+references in later threads.
+
+There is one now, and it is not oblique. The `@danfrank` Twitter account was
+recovered thirteen months further back on 2026-09-02
+([[wiki/self/twitter/2008]]), and it opens on **24 September 2008**, the day
+Dan arrives in Winter Park. The first tweet is *"i fucking looove winter park.
+this town is unreal."* **Forty-five minutes later, at 05:37 UTC:**
+
+> *"Really feels like life has started over now. It's weird enjoying life
+> again. So stoked."*
+
+Three things in one sentence, all of them useful here.
+
+**"Started over"** is him treating the move as a discontinuity rather than a
+next step — which is what this page argues the Full Sail departure was, now
+stated by the subject on day one instead of inferred from later silence.
+
+**"Enjoying life *again*"** is the load-bearing word. It presupposes a period
+of not enjoying it, and dates the end of that period to the move rather than
+to anything that happened before it. This page's date_range_end of 2008-08-01
+is a reasonable boundary for the *conditions*; the **experienced** exit is
+seven weeks later and is tied to a change of place.
+
+**It is written to nobody.** The account has no followers on 24 September 2008
+— it is being started that day. This is not a status performed for an
+audience, which is the standard objection to reading social posts as
+testimony, and it does not apply to the first hour of an empty account.
+
+**What it does not do.** It says nothing about opiates, and nothing about the
+eating disorder. Neither subject appears anywhere in the 95 recovered tweets
+of 2008. The relapse this wiki dates to Thanksgiving 2009
+([[wiki/people/alexis-armel]]) is fourteen months after this tweet, so the
+"started over" is not durable in the way he meant it — but that is a fact
+about what followed, not a reason to discount what he said at the time.
+
+> **GAP NARROWED [2026-09-02]:** the gap, as this page stated it, remains open
+> on the eating disorder and on the 2007 first-use months — the recovered
+> tweets touch neither. What they supply is the one thing the reconstruction
+> most obviously lacked: **a contemporaneous first-person marker for the
+> period ending**, dated, from a source that did not exist in this repository
+> until now.
 
 ## Gaps
 
@@ -104223,6 +105613,9 @@ connections:
   - page: wiki/timeline/periods/2010s
     type: precedes
     claim: "Full Sail hands directly into NYC-1 — the February-2010 move from Winter Park to Brooklyn carries the audio ambition and the just-begun Alexis relationship north, and the same friend cohort (Bermejo, Jester, Dunn, Mohler) follows into that period."
+  - page: wiki/self/twitter/2008
+    type: evidenced-by
+    claim: "The account opens on 24 September 2008, the day Dan reached Winter Park, and its first three months are this period's student life in real time — orientation, 7am labs, twenty-hour class days, the algebra requirement and the December math final."
   - page: wiki/self/twitter/2010
     type: evidenced-by
     claim: "The January 2010 tweets date the Pro Tools certification to a failed exam on the 25th and a pass at 19:40 UTC on the 26th, with the decision to move to Brooklyn posted eleven minutes later — the period's causal hinge is a test score, and it is timestamped."
