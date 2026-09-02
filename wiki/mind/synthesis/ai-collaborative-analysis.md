@@ -6,7 +6,7 @@ title: "AI Collaborative Analysis"
 tags: [ai-collaboration, forensic-analysis, personality-profile]
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-26
+date_modified: 2026-09-01
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini_00.md
@@ -16,7 +16,7 @@ sources:
   - raw/self/dox-md/Gemini_18.md
   - raw/self/dox-md/Gemini_21.md
   - raw/self/dox-md/Gemini_21 copy.md
-  - raw/self/chats/_✧✧ 𝔻𝔸𝔻𝔽𝔾𝔼𝔺𝔻-𝕋𝕀𝕊𝕄'𝕊 ✧✧ Pinned chat.md
+  - raw/self/chats/_✧✧ 𝔻𝔸𝔽𝔽𝔿𝔾𝕆𝔻-𝕊𝕀𝕊𝕄'𝕊 ✧✧ Pinned chat.md
   - raw/self/chats/j6-chat.md
   - raw/self/chats/Analyzing manipulation and ethical intent in data.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -64,8 +64,8 @@ connections:
     type: parallels
     claim: "The venue is shaped like the hole: the LLM channel supplies the explicit resolution conditions the conflict engine cannot obtain from humans — the join argued in this page's final section."
   - page: wiki/mind/synthesis/millennial-digital-witness
-    type: instance-of
-    claim: "The AI stance — adopt the instrument completely, audit it with standards formed before it existed — is the witness thesis applied to the newest instrument."
+    type: instantiates
+    claim: "The ChatGPT first thread of 2022-12-10 — ten days after launch — is the early-adopter-with-memory stance as residue rather than testimony: the witness thesis applied to its newest instrument, two years before Node 6 existed to narrate it."
   - page: wiki/self/gemini-activity/gemini-activity
     type: evidenced-by
     claim: "The 20.8 MB Gemini archive — 26,348 occurrences of 'ai', daily-instrument interaction density — is the primary corpus this synthesis reads."
@@ -308,6 +308,11 @@ explicitly bounded by not having watched raw footage at Dan's granularity.
 AI is treated, in the corpus's own framing, as a high-fidelity but fallible
 junior analyst that must be prompted into forensic mode — used to scale
 anomaly detection, never for comfort.
+The ChatGPT first thread of 2022-12-10 — ten days after launch — is that
+early-adopter-with-memory stance as residue, which
+[[wiki/mind/synthesis/millennial-digital-witness]] reads as the witness
+thesis applied to its newest instrument rather than as a 2025–26
+self-description.
 
 ## The venue is shaped like the hole — the conflict-architecture join
 
