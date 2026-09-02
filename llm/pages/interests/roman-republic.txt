@@ -9,6 +9,13 @@ sources:
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
 tags: [personality-profile, ideology]
 connections:
+  - page: wiki/work/tech/ai-video-essays
+    type: causes
+    claim: "Dan's stated 2024 preference — the HistoriaCivilis animated series pulled him in as nine books on the same subject did not — is the documented motivating fact behind planning a long-form video-essay project of his own."
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "The 8-9 April 2024 tweets date the Roman interest's trigger to a YouTube channel rather than a book, and record him rating the animated series above the entire modern syllabus he then read."
+
   - page: wiki/mind/synthesis/interests-as-era-markers
     type: instantiates
     claim: "The 2024 reading detonation is the cleanest single-year era-marker in the intake ledger — the standard Roman-Republic syllabus read back-to-back and evangelized outward, concurrent with the return to Pennsylvania."
@@ -75,6 +82,56 @@ against a populist reformer. Dan rated it identically to the
 establishment account read the same month, which
 [[wiki/mind/politics/axioms]] reads as comparative power-structure
 analysis rather than admiration for the man himself.
+
+## The entry point was a YouTube channel, and he rates it above the books
+
+The table above is a reading list, and this page frames 2024 as a reading
+binge. Dan's own account of how it started puts the reading **second**, and
+rates it **lower**. On 8 April 2024:
+
+> *"After I finished the @HistoriaCivilis Caesar/Octavian series, I started
+> devouring the 'essential' books about the late Roman Republic. The books are
+> wonderful, but none of them has come close to compiling the story in a way
+> that has pulled me in like videos with squares."*
+
+**HistoriaCivilis** is a YouTube channel that animates Roman politics as
+coloured squares moving on a map — hence "videos with squares." It is the
+trigger, and it precedes Holland, Goldsworthy, Parenti and Plutarch. The
+sequence is **video essay → books**, not the reverse, and the standard
+syllabus this page identifies was assembled *after* the interest already
+existed.
+
+**The verdict is the more interesting half.** Having read the canonical
+modern account (Holland), four Goldsworthy volumes, a Marxist counter-account
+(Parenti) and Plutarch in the original, he says none of them "has come close"
+to the animated squares. That is a statement about his own learning modality,
+not about the books — which he rated 4s and 5s in the same window.
+
+The next day he is more specific about what the audio did that the books did
+not:
+
+> *"'Death Throes' helped clear up some of the events which weren't totally
+> clear to me. For example - I wasn't sure why Pompey became the de facto
+> leader of the anti-Caesarian faction, but Carlin lays out the amazing scope
+> of his military achievements in a way I hadn't understood"* (9 April 2024)
+
+> *"Carlin does a wonderful job of presenting the proto-Marxian narrative that
+> underlies the whole era in a way that's both fair and fascinating."*
+> (9 April 2024)
+
+The second line corroborates this page's own reading of the Parenti rating
+from an independent source: he was tracking the **class analysis** running
+under the Republic's collapse, and noticed it in Carlin before Parenti made it
+the thesis.
+
+**Why this belongs beyond this page.** A documented preference for long-form
+video essay over book, stated by someone who then went and read nine books
+anyway, is the motivating fact behind
+[[wiki/work/tech/ai-video-essays|the video-essay project he later planned]] —
+a format he is on record as learning better from than any other. Eleven days
+before this, on 27 March 2024, he praised a `@beatmastermatt` Iraq-war video in
+exactly the terms that project's own template uses: *"comprehensive, balanced
+and accessible to any audience."*
 
 ## It became something he pushed on people
 

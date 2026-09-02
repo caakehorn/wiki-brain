@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,401 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 683 · Tier 2 414 · Tier 3 2,304.
+**3,409 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 683 · Tier 2 416 · Tier 3 2,310.
 
 ## What counts as an event here
 
@@ -966,6 +966,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/eric-jester]] · The dense years the message record cannot see
 - ◆ **2009-11-24** — PT1 bitch"*, 24 Nov 2009), *Flight of the Conchords* (*"slapa da bass mon!"*), *The Office*, an aborted potato-famine joke because *"I wouldn't be able to stand the grim reply i'd get from @ericjester"* (31 Aug 2010), and the needling that dates his own life events — *"got a girlfriend and forgot…  
   ↳ [[wiki/people/eric-jester]] · The dense years the message record cannot see
+- ◆ **2009-11-25** — 10 — Thanksgiving travel, the trip he meets Alexis on  
+  ↳ [[wiki/self/twitter]] · The densest day in seventeen years
 - ★ **2009-11-26** — He appears paired with Jerad Friedline three times — *"i'm thankful for my family/friend, sour diesel, tropical lifesaver gummies, and @joshbrannan / @jfriedline for their sign stealing abilities"* (26 November 2009), *"seeing my boyzzzz @jfriedline @joshbrannan tonight"* (21 December 2009), and a…  
   ↳ [[wiki/people/josh-brannan]] · The tweet record, 2009–2012
 
@@ -1488,6 +1490,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/franki-fireworks-day-2013]] · Gaps
 - · **2013-08-15** — The Fish in the Sea Mix (trap) — Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
+- · **2013-08-15** — 12 — SLOPPP launch week  
+  ↳ [[wiki/self/twitter]] · The densest day in seventeen years
 - · **2013-08-17** — 2013** — Spreadsheet originals are complete from 2013-08-17 through year-end. January through 2013-08-13 is still being scraped and appended in live batches of ten.  
   ↳ [[wiki/meta/open-questions]] · self (58)
 - · **2013-08-17** — The spreadsheet span 2013-08-17 through 2026-04-07 is complete for originals.  
@@ -1500,6 +1504,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **2013-08-19** — The last tweet is 19 August 2013 — a Timehop link, which is to say a nostalgia artifact — and the Facebook thread takes over from there.  
   ↳ [[wiki/people/dan-polyak]] · Four years before the Facebook thread
+- · **2013-08-19** — 12 — SLOPPP launch week  
+  ↳ [[wiki/self/twitter]] · The densest day in seventeen years
 - ◆ **2013-08-30** — 35 — Oddball Comedy & Curiosity Festival — Post-Gazette Pavilion (First Niagara Pavilion) — Burgettstown, PA — Confirmed.  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
 - ◆ **2013-08-30** — Dave Chappelle is a comedian Dan Frank saw perform live at the Oddball Comedy & Curiosity Festival on Aug 30, 2013, at Post-Gazette Pavilion, Burgettstown, PA.  
@@ -4803,6 +4809,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/libby]] · The arc, February to October 2024
 - · **2024-03-17** — libby — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
+- · **2024-03-27** — Eleven days before this, on 27 March 2024, he praised a `@beatmastermatt` Iraq-war video in exactly the terms that project's own template uses: *"comprehensive, balanced and accessible to any audience."  
+  ↳ [[wiki/interests/roman-republic]] · The entry point was a YouTube channel, and he rates it above the books
 - · **2024-03-27** — 2024-03-27:** "You might like this. It's a series of videos  
   ↳ [[wiki/interests/roman-republic]] · It became something he pushed on people
 - · **Spring 2024** — In spring 2024 he is actively proselytizing it:  
@@ -4861,6 +4869,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/the-office]] · The Michael Scott register
 - · **2024-06-27** — The highest-volume day in this thread's eleven-year record — 224 messages on 27 June 2024 — is the night of the first Biden–Trump debate**, watched separately and narrated to each other in real time.  
   ↳ [[wiki/people/suzanne-frank]] · Politics
+- ◆ **2024-06-28** — 28 June 2024 is the account's peak, and it is a single evening.** Twenty-three originals as the debate ran and immediately after: *"This is not SOTU Joe"* → *"Oh my god his voice"* → *"It's joever"* → *"This is catastrophic"* → *"It's hard to overstate just how devastating this is for the Biden…  
+  ↳ [[wiki/self/twitter]] · The densest day in seventeen years
+- · **2024-06-28** — 23** — The Biden–Trump debate, live  
+  ↳ [[wiki/self/twitter]] · The densest day in seventeen years
 - ★ **2024-06-29** — DUI #2** — general impairment + 4 traffic — 5 — **guilty pleas, all five  
   ↳ [[wiki/people/jerel-coles]] · The record, 2008–2025
 - ◆ **Summer 2024** — Mike Cordaro is a childhood-era friend — the two attended the "Rolling Rock Town Fair" together as kids, a concert series Mike calculates they'd seen Def Leppard at "21 years and 1 day" before reaching back out — who resurfaces with a single warm, substantive two-week exchange in summer 2024…  
@@ -4871,6 +4883,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/otto]] · Otto
 - · **July 2024** — Her GPS had already been disabled "for weeks" by late July 2024, by her own confirmation — six-plus months before the formal 2025 GPS demand that earlier pages treated as the removal's start.  
   ↳ [[wiki/timeline/events/eli-incident]] · What happened
+- · **2024-07-05** — 14 — The week after it  
+  ↳ [[wiki/self/twitter]] · The densest day in seventeen years
 - · **2024-07-11** — A third child, Waylon, appears exactly twice**, both on 2024-07-11 and both Thursday: *"Otto Alice and waylon"*, and Dan's reply, *"Waylon Jennings?"* Two mentions in a 217,573-message corpus is not enough to establish whether Waylon is a third sibling, a cousin or a friend, so no page is created…  
   ↳ [[wiki/people/otto]] · Otto
 - ◆ **2024-07-13** — The street's one moment of self-awareness is Dan's, writing to a third party on **2024-07-13**:  
@@ -5045,6 +5059,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - · **2024-11-04** — "i just said 'vanessa is an xNFP 4w5 and Dan is an INTP 5w6sx RLOEI - compare them'"* — the prompt itself, quoted  
   ↳ [[wiki/mind/synthesis/the-commissioned-self]] · The census, and what the seventeen instances actually say
+- · **2024-11-06** — 14 — The morning after the election  
+  ↳ [[wiki/self/twitter]] · The densest day in seventeen years
 - · **2024-11-15** — That's it" (November 15, 2024) is a real complaint about that specific year, generalized past what the decade as a whole would support.  
   ↳ [[wiki/people/annie-ulmer]] · What the money did
 - ◆ **December 2024** — I'm furious"), and exterminator visits recur as late as December 2024 ("Exterminator will be at 307 on Monday morning.  
@@ -7125,4 +7141,4 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 366 wiki pages. 998 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 366 wiki pages. 999 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*

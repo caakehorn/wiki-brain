@@ -124,6 +124,12 @@ connections:
   - page: wiki/self/concepts/chatgpt
     type: evidences
     claim: 'Four tweets on 8 September 2022 document hands-on DALL-E image-variation use three months before ChatGPT launched, closing that page''s stated gap that the DALL-E half of the origin account was not checkable in this corpus.'
+  - page: wiki/interests/roman-republic
+    type: evidences
+    claim: 'The 8-9 April 2024 tweets date the Roman interest to a YouTube series rather than a book, and record Dan rating the animated series above the entire modern syllabus he then read.'
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: evidences
+    claim: 'The Nashville debunking of 29 March 2023 and the Paul Pelosi sequence of late 2022 show the skepticism running as investigation with published negative results, including against his own political side.'
 ---
 
 # Twitter / X Activity (@danfrank)
@@ -228,6 +234,35 @@ handle acquired before that was hard, and he says so again two months later —
 *"I'm fucking bummed because Twitter is the only place I got in early enough
 to secure the @danfrank handle"* (18 November 2022), written while
 considering leaving over the Musk acquisition.
+
+## The densest day in seventeen years
+
+| Day | Originals | What |
+|---|---:|---|
+| **2024-06-28** | **23** | The Biden–Trump debate, live |
+| 2024-07-05 | 14 | The week after it |
+| 2024-11-06 | 14 | The morning after the election |
+| 2013-08-15 | 12 | SLOPPP launch week |
+| 2013-08-19 | 12 | SLOPPP launch week |
+| 2009-11-25 | 10 | Thanksgiving travel, the trip he meets Alexis on |
+
+**28 June 2024 is the account's peak, and it is a single evening.** Twenty-three
+originals as the debate ran and immediately after: *"This is not SOTU Joe"* →
+*"Oh my god his voice"* → *"It's joever"* → *"This is catastrophic"* → *"It's
+hard to overstate just how devastating this is for the Biden campaign."*
+Interleaved with it: a check of the betting markets (*"Oh my GOD look at the
+betting markets"*), a prediction posted **before** the debate that he then
+watched fail (*"Biden is going to outperform the [expectations]"*), and a
+named litmus test for how the commentariat would move (*"what's @jheil going
+to say"*).
+
+Two things worth noting about the shape rather than the content. The peak is
+**reactive** — the account's heaviest day is a live event he is watching, not
+anything from his own life; the top six days include no birthday, no move, no
+relationship event, and the only personal entry is a travel day. And the mode
+is the one this archive rewards: [[wiki/mind/synthesis/vertical-authority-skepticism|
+live-event forensics]], the same mode that produced the only two tweets in
+seventeen years to reach an audience.
 
 ## Inclusion rule
 

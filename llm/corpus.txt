@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-02
-493 pages, ~1,727,545 tokens.
+493 pages, ~1,729,746 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -8936,6 +8936,13 @@ sources:
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
 tags: [personality-profile, ideology]
 connections:
+  - page: wiki/work/tech/ai-video-essays
+    type: causes
+    claim: "Dan's stated 2024 preference — the HistoriaCivilis animated series pulled him in as nine books on the same subject did not — is the documented motivating fact behind planning a long-form video-essay project of his own."
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "The 8-9 April 2024 tweets date the Roman interest's trigger to a YouTube channel rather than a book, and record him rating the animated series above the entire modern syllabus he then read."
+
   - page: wiki/mind/synthesis/interests-as-era-markers
     type: instantiates
     claim: "The 2024 reading detonation is the cleanest single-year era-marker in the intake ledger — the standard Roman-Republic syllabus read back-to-back and evangelized outward, concurrent with the return to Pennsylvania."
@@ -9002,6 +9009,56 @@ against a populist reformer. Dan rated it identically to the
 establishment account read the same month, which
 [[wiki/mind/politics/axioms]] reads as comparative power-structure
 analysis rather than admiration for the man himself.
+
+## The entry point was a YouTube channel, and he rates it above the books
+
+The table above is a reading list, and this page frames 2024 as a reading
+binge. Dan's own account of how it started puts the reading **second**, and
+rates it **lower**. On 8 April 2024:
+
+> *"After I finished the @HistoriaCivilis Caesar/Octavian series, I started
+> devouring the 'essential' books about the late Roman Republic. The books are
+> wonderful, but none of them has come close to compiling the story in a way
+> that has pulled me in like videos with squares."*
+
+**HistoriaCivilis** is a YouTube channel that animates Roman politics as
+coloured squares moving on a map — hence "videos with squares." It is the
+trigger, and it precedes Holland, Goldsworthy, Parenti and Plutarch. The
+sequence is **video essay → books**, not the reverse, and the standard
+syllabus this page identifies was assembled *after* the interest already
+existed.
+
+**The verdict is the more interesting half.** Having read the canonical
+modern account (Holland), four Goldsworthy volumes, a Marxist counter-account
+(Parenti) and Plutarch in the original, he says none of them "has come close"
+to the animated squares. That is a statement about his own learning modality,
+not about the books — which he rated 4s and 5s in the same window.
+
+The next day he is more specific about what the audio did that the books did
+not:
+
+> *"'Death Throes' helped clear up some of the events which weren't totally
+> clear to me. For example - I wasn't sure why Pompey became the de facto
+> leader of the anti-Caesarian faction, but Carlin lays out the amazing scope
+> of his military achievements in a way I hadn't understood"* (9 April 2024)
+
+> *"Carlin does a wonderful job of presenting the proto-Marxian narrative that
+> underlies the whole era in a way that's both fair and fascinating."*
+> (9 April 2024)
+
+The second line corroborates this page's own reading of the Parenti rating
+from an independent source: he was tracking the **class analysis** running
+under the Republic's collapse, and noticed it in Carlin before Parenti made it
+the thesis.
+
+**Why this belongs beyond this page.** A documented preference for long-form
+video essay over book, stated by someone who then went and read nine books
+anyway, is the motivating fact behind
+[[wiki/work/tech/ai-video-essays|the video-essay project he later planned]] —
+a format he is on record as learning better from than any other. Eleven days
+before this, on 27 March 2024, he praised a `@beatmastermatt` Iraq-war video in
+exactly the terms that project's own template uses: *"comprehensive, balanced
+and accessible to any audience."*
 
 ## It became something he pushed on people
 
@@ -10143,6 +10200,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | work/tech | one day of Codecademy in 2013, then thirteen years of nothing
   - ingest | people | 2009 read in full — an operator testimony corroborated, and my own error corrected
   - ingest | self/mind/interests | 2022 read in full — a stated gap closed, an account older than its record, and a second radicalization mechanism
+  - ingest | mind | "conspiracy crank" is a label his own behaviour contradicts
 
 **2026-09-01** — 2 pages
 
@@ -11432,8 +11490,8 @@ chart:
     - name: "Entries"
       points:
         "Translated": 28
-        "Major lane": 37
-        "Free lane": 41
+        "Major lane": 38
+        "Free lane": 40
         "Held (people)": 94
         "Too thin": 49
         "Withheld": 217
@@ -11473,8 +11531,8 @@ is arithmetic in `bin/wiki-plain`: 900 words is the boundary.
 
 | Lane | What is in it | Outstanding |
 |---|---|---|
-| `major` | entries of 900 words or more — the dense findings | 37 |
-| `free` | entries under 900 words, worked smallest first | 41 |
+| `major` | entries of 900 words or more — the dense findings | 38 |
+| `free` | entries under 900 words, worked smallest first | 40 |
 
 A further **94** eligible entries about other people are in
 neither lane. They are held back deliberately, pending a decision about
@@ -11525,7 +11583,7 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 
 ## Next up
 
-**major** — 37 outstanding
+**major** — 38 outstanding
 
 - [[wiki/self/twitter/2024]] (10344 words)
 - [[wiki/self/twitter/2013]] (8992 words)
@@ -11533,7 +11591,7 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 - [[wiki/self/twitter/2022]] (6584 words)
 - [[wiki/self/twitter/2023]] (6529 words)
 
-**free** — 41 outstanding
+**free** — 40 outstanding
 
 - [[wiki/work/caviar-courier]] (301 words)
 - [[wiki/interests/favorites/books/authors/adrian-goldsworthy]] (315 words)
@@ -87501,6 +87559,12 @@ connections:
   - page: wiki/self/concepts/chatgpt
     type: evidences
     claim: 'Four tweets on 8 September 2022 document hands-on DALL-E image-variation use three months before ChatGPT launched, closing that page''s stated gap that the DALL-E half of the origin account was not checkable in this corpus.'
+  - page: wiki/interests/roman-republic
+    type: evidences
+    claim: 'The 8-9 April 2024 tweets date the Roman interest to a YouTube series rather than a book, and record Dan rating the animated series above the entire modern syllabus he then read.'
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: evidences
+    claim: 'The Nashville debunking of 29 March 2023 and the Paul Pelosi sequence of late 2022 show the skepticism running as investigation with published negative results, including against his own political side.'
 ---
 
 # Twitter / X Activity (@danfrank)
@@ -87605,6 +87669,35 @@ handle acquired before that was hard, and he says so again two months later —
 *"I'm fucking bummed because Twitter is the only place I got in early enough
 to secure the @danfrank handle"* (18 November 2022), written while
 considering leaving over the Musk acquisition.
+
+## The densest day in seventeen years
+
+| Day | Originals | What |
+|---|---:|---|
+| **2024-06-28** | **23** | The Biden–Trump debate, live |
+| 2024-07-05 | 14 | The week after it |
+| 2024-11-06 | 14 | The morning after the election |
+| 2013-08-15 | 12 | SLOPPP launch week |
+| 2013-08-19 | 12 | SLOPPP launch week |
+| 2009-11-25 | 10 | Thanksgiving travel, the trip he meets Alexis on |
+
+**28 June 2024 is the account's peak, and it is a single evening.** Twenty-three
+originals as the debate ran and immediately after: *"This is not SOTU Joe"* →
+*"Oh my god his voice"* → *"It's joever"* → *"This is catastrophic"* → *"It's
+hard to overstate just how devastating this is for the Biden campaign."*
+Interleaved with it: a check of the betting markets (*"Oh my GOD look at the
+betting markets"*), a prediction posted **before** the debate that he then
+watched fail (*"Biden is going to outperform the [expectations]"*), and a
+named litmus test for how the commentariat would move (*"what's @jheil going
+to say"*).
+
+Two things worth noting about the shape rather than the content. The peak is
+**reactive** — the account's heaviest day is a live event he is watching, not
+anything from his own life; the top six days include no birthday, no move, no
+relationship event, and the only personal entry is a travel day. And the mode
+is the one this archive rewards: [[wiki/mind/synthesis/vertical-authority-skepticism|
+live-event forensics]], the same mode that produced the only two tweets in
+seventeen years to reach an audience.
 
 ## Inclusion rule
 
@@ -95658,7 +95751,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,401 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 683 · Tier 2 414 · Tier 3 2,304.
+**3,409 events** across **80 years** (1796–2027), drawn from **366 pages**. Tier 1 683 · Tier 2 416 · Tier 3 2,310.
 
 ## What counts as an event here
 
@@ -96605,6 +96698,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/eric-jester]] · The dense years the message record cannot see
 - ◆ **2009-11-24** — PT1 bitch"*, 24 Nov 2009), *Flight of the Conchords* (*"slapa da bass mon!"*), *The Office*, an aborted potato-famine joke because *"I wouldn't be able to stand the grim reply i'd get from @ericjester"* (31 Aug 2010), and the needling that dates his own life events — *"got a girlfriend and forgot…  
   ↳ [[wiki/people/eric-jester]] · The dense years the message record cannot see
+- ◆ **2009-11-25** — 10 — Thanksgiving travel, the trip he meets Alexis on  
+  ↳ [[wiki/self/twitter]] · The densest day in seventeen years
 - ★ **2009-11-26** — He appears paired with Jerad Friedline three times — *"i'm thankful for my family/friend, sour diesel, tropical lifesaver gummies, and @joshbrannan / @jfriedline for their sign stealing abilities"* (26 November 2009), *"seeing my boyzzzz @jfriedline @joshbrannan tonight"* (21 December 2009), and a…  
   ↳ [[wiki/people/josh-brannan]] · The tweet record, 2009–2012
 
@@ -97127,6 +97222,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/franki-fireworks-day-2013]] · Gaps
 - · **2013-08-15** — The Fish in the Sea Mix (trap) — Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
+- · **2013-08-15** — 12 — SLOPPP launch week  
+  ↳ [[wiki/self/twitter]] · The densest day in seventeen years
 - · **2013-08-17** — 2013** — Spreadsheet originals are complete from 2013-08-17 through year-end. January through 2013-08-13 is still being scraped and appended in live batches of ten.  
   ↳ [[wiki/meta/open-questions]] · self (58)
 - · **2013-08-17** — The spreadsheet span 2013-08-17 through 2026-04-07 is complete for originals.  
@@ -97139,6 +97236,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **2013-08-19** — The last tweet is 19 August 2013 — a Timehop link, which is to say a nostalgia artifact — and the Facebook thread takes over from there.  
   ↳ [[wiki/people/dan-polyak]] · Four years before the Facebook thread
+- · **2013-08-19** — 12 — SLOPPP launch week  
+  ↳ [[wiki/self/twitter]] · The densest day in seventeen years
 - ◆ **2013-08-30** — 35 — Oddball Comedy & Curiosity Festival — Post-Gazette Pavilion (First Niagara Pavilion) — Burgettstown, PA — Confirmed.  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
 - ◆ **2013-08-30** — Dave Chappelle is a comedian Dan Frank saw perform live at the Oddball Comedy & Curiosity Festival on Aug 30, 2013, at Post-Gazette Pavilion, Burgettstown, PA.  
@@ -100442,6 +100541,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/libby]] · The arc, February to October 2024
 - · **2024-03-17** — libby — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
+- · **2024-03-27** — Eleven days before this, on 27 March 2024, he praised a `@beatmastermatt` Iraq-war video in exactly the terms that project's own template uses: *"comprehensive, balanced and accessible to any audience."  
+  ↳ [[wiki/interests/roman-republic]] · The entry point was a YouTube channel, and he rates it above the books
 - · **2024-03-27** — 2024-03-27:** "You might like this. It's a series of videos  
   ↳ [[wiki/interests/roman-republic]] · It became something he pushed on people
 - · **Spring 2024** — In spring 2024 he is actively proselytizing it:  
@@ -100500,6 +100601,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/the-office]] · The Michael Scott register
 - · **2024-06-27** — The highest-volume day in this thread's eleven-year record — 224 messages on 27 June 2024 — is the night of the first Biden–Trump debate**, watched separately and narrated to each other in real time.  
   ↳ [[wiki/people/suzanne-frank]] · Politics
+- ◆ **2024-06-28** — 28 June 2024 is the account's peak, and it is a single evening.** Twenty-three originals as the debate ran and immediately after: *"This is not SOTU Joe"* → *"Oh my god his voice"* → *"It's joever"* → *"This is catastrophic"* → *"It's hard to overstate just how devastating this is for the Biden…  
+  ↳ [[wiki/self/twitter]] · The densest day in seventeen years
+- · **2024-06-28** — 23** — The Biden–Trump debate, live  
+  ↳ [[wiki/self/twitter]] · The densest day in seventeen years
 - ★ **2024-06-29** — DUI #2** — general impairment + 4 traffic — 5 — **guilty pleas, all five  
   ↳ [[wiki/people/jerel-coles]] · The record, 2008–2025
 - ◆ **Summer 2024** — Mike Cordaro is a childhood-era friend — the two attended the "Rolling Rock Town Fair" together as kids, a concert series Mike calculates they'd seen Def Leppard at "21 years and 1 day" before reaching back out — who resurfaces with a single warm, substantive two-week exchange in summer 2024…  
@@ -100510,6 +100615,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/otto]] · Otto
 - · **July 2024** — Her GPS had already been disabled "for weeks" by late July 2024, by her own confirmation — six-plus months before the formal 2025 GPS demand that earlier pages treated as the removal's start.  
   ↳ [[wiki/timeline/events/eli-incident]] · What happened
+- · **2024-07-05** — 14 — The week after it  
+  ↳ [[wiki/self/twitter]] · The densest day in seventeen years
 - · **2024-07-11** — A third child, Waylon, appears exactly twice**, both on 2024-07-11 and both Thursday: *"Otto Alice and waylon"*, and Dan's reply, *"Waylon Jennings?"* Two mentions in a 217,573-message corpus is not enough to establish whether Waylon is a third sibling, a cousin or a friend, so no page is created…  
   ↳ [[wiki/people/otto]] · Otto
 - ◆ **2024-07-13** — The street's one moment of self-awareness is Dan's, writing to a third party on **2024-07-13**:  
@@ -100684,6 +100791,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - · **2024-11-04** — "i just said 'vanessa is an xNFP 4w5 and Dan is an INTP 5w6sx RLOEI - compare them'"* — the prompt itself, quoted  
   ↳ [[wiki/mind/synthesis/the-commissioned-self]] · The census, and what the seventeen instances actually say
+- · **2024-11-06** — 14 — The morning after the election  
+  ↳ [[wiki/self/twitter]] · The densest day in seventeen years
 - · **2024-11-15** — That's it" (November 15, 2024) is a real complaint about that specific year, generalized past what the decade as a whole would support.  
   ↳ [[wiki/people/annie-ulmer]] · What the money did
 - ◆ **December 2024** — I'm furious"), and exterminator visits recur as late as December 2024 ("Exterminator will be at 307 on Monday morning.  
@@ -102764,7 +102873,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 366 wiki pages. 998 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 366 wiki pages. 999 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================
@@ -106046,6 +106155,10 @@ sources:
   - "raw/self/dox-md/Creating robust video essays from scripts.md"
 tags: [ai-collaboration, music-production, ideology]
 connections:
+  - page: wiki/interests/roman-republic
+    type: caused-by
+    claim: "The 2024 Roman binge is where Dan states the preference this project runs on — an animated YouTube series pulled him in as nine books on the same subject did not."
+
   - page: wiki/mind/synthesis/ai-collaborative-analysis
     type: instance-of
     claim: "Using an AI to stress-test his own hypothesis with real adoption data — and accepting the result flatly contradicted his premise — is a documented instance of the honesty-enforcement pattern applied to his own creative project, not just forensic or political material."
@@ -106067,6 +106180,37 @@ out on a technology they could easily be using. No script or published
 video is recorded anywhere in the corpus; this page documents the
 planning process itself, which is substantive enough to be worth
 tracking.
+
+## The preference this project runs on is documented, and it is not new
+
+This page describes a 2026 plan to make long-form video essays. The reason
+the format appeals has a dated first-party statement two years earlier, and it
+is unusually strong evidence because it comes at the *expense* of the medium
+Dan is otherwise most invested in.
+
+On **8 April 2024**, having just read the standard modern syllabus on the fall
+of the Roman Republic — Tom Holland, four Adrian Goldsworthy volumes, Michael
+Parenti, Plutarch, all rated 4 or 5
+([[wiki/interests/roman-republic]]) — he wrote:
+
+> *"After I finished the @HistoriaCivilis Caesar/Octavian series, I started
+> devouring the 'essential' books about the late Roman Republic. The books are
+> wonderful, but none of them has come close to compiling the story in a way
+> that has pulled me in like videos with squares."*
+
+A YouTube channel that animates Roman politics as coloured squares beat nine
+books, by his own account, on a subject he cared enough about to read nine
+books on. Eleven days earlier he had praised a `@beatmastermatt` essay on the
+Iraq war in the vocabulary this project's own template uses — *"comprehensive,
+balanced and accessible to any audience"* (27 March 2024).
+
+So the project is not a 2026 idea about a format he admires abstractly. It is
+an attempt to produce the thing he is on record as **learning from better than
+anything else**, aimed at an audience he identifies with, in a format he has
+been consuming and rating for years. That makes the absence of any script or
+published video a sharper fact than this page's opening treats it as: the
+motivation is documented, dated and strong, and there is still no artifact.
+
 
 ## The structural template: Some More News
 

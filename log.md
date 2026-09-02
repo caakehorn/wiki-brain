@@ -8108,3 +8108,46 @@ repeated criticism of Hasan Piker on foreign policy, and the refusal of a side
 in Israel–Gaza (*"shades of bad"*). Gap: nothing dates his exposure to Brooks
 before 2020, so whether Brooks shaped the conversion or supplied its
 articulation afterwards is open — `youtube-watch-history` could settle it.
+
+## [2026-09-02] ingest | interests/self | 2024 read in full — the Roman interest starts on YouTube, and the account's peak is one evening
+
+258 originals read. The archive is now **fully mined year by year**: 2009
+through 2026, every year read rather than counted.
+
+**`wiki/interests/roman-republic` calls 2024 a reading binge. Dan says the
+reading came second, and rates it lower.** 8 April 2024:
+
+> *"After I finished the @HistoriaCivilis Caesar/Octavian series, I started
+> devouring the 'essential' books about the late Roman Republic. The books are
+> wonderful, but none of them has come close to compiling the story in a way
+> that has pulled me in like videos with squares."*
+
+HistoriaCivilis animates Roman politics as coloured squares. The sequence is
+**video essay → books**, and the standard syllabus that page identifies
+(Holland → Goldsworthy → Parenti → Plutarch, nine titles, all rated 4 or 5)
+was assembled *after* the interest existed. Having read all of it he says none
+of it came close to the animation. That is a statement about his learning
+modality, not about the books.
+
+He also corroborates this page's own Parenti reading from an independent
+direction: *"Carlin does a wonderful job of presenting the proto-Marxian
+narrative that underlies the whole era"* (9 April) — he was tracking the class
+analysis under the Republic's collapse before Parenti made it the thesis.
+
+**That preference is the motivating fact behind
+`wiki/work/tech/ai-video-essays`**, and it is now written there. A YouTube
+channel beat nine books on a subject he cared enough about to read nine books
+on; eleven days earlier he praised a `@beatmastermatt` Iraq-war essay in the
+exact vocabulary that project's template uses. So the project is not admiration
+for a format in the abstract — it is an attempt to make the thing he learns
+best from. Which sharpens the absence: motivation documented, dated and
+strong, and still no script or video.
+
+**The account's densest day in seventeen years is 28 June 2024 — 23 originals,
+the Biden debate, live.** *"This is not SOTU Joe"* → *"It's joever"* → *"This
+is catastrophic"*, interleaved with a betting-market check and a pre-debate
+prediction he watched fail in real time. The top six days contain no birthday,
+no move and no relationship event; the only personal entry is the 2009
+Thanksgiving travel day on which he met Alexis. **The peak of a seventeen-year
+personal account is reactive** — a live event he was watching — and in the one
+mode this archive has ever rewarded.

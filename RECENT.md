@@ -26,6 +26,7 @@ simply listed.
 - **Session log:** ingest | work/tech | one day of Codecademy in 2013, then thirteen years of nothing
 - **Session log:** ingest | people | 2009 read in full — an operator testimony corroborated, and my own error corrected
 - **Session log:** ingest | self/mind/interests | 2022 read in full — a stated gap closed, an account older than its record, and a second radicalization mechanism
+- **Session log:** ingest | mind | "conspiracy crank" is a label his own behaviour contradicts
 
 | Page | Domain | What moved |
 |---|---|---|
