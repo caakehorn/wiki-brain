@@ -6,7 +6,7 @@ aliases: ["RLUEI", "Big30", "psychometrics", "personality disorder scores"]
 status: stable
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-08-19
+date_modified: 2026-09-01
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
@@ -34,7 +34,7 @@ connections:
     claim: "The facet table has no persistence dimension and reads the corpus's execution failures as Impulsiveness at 96; the operator claims a 95th-percentile completion drive is running in the same behaviour, which would mean this instrument is scoring an engine as a brake failure."
   - page: wiki/mind/synthesis/millennial-digital-witness
     type: evidences
-    claim: "The psychometric fit underwrites — and flags as self-serving — the witness self-theory."
+    claim: "Sociability 3 (corpus-audited at 0.73×) is the confirmed specimen-fit; the old 'archival memory, high pattern recognition' reading was Si and Ti, not this table, and the table's commissioned provenance is why the identity-project charge survives the audit."
   - page: wiki/mind/synthesis/vertical-authority-skepticism
     type: evidences
     claim: "The Trust/Altruism/Submissiveness/Assertiveness scores are the skepticism architecture as measurement."
@@ -209,6 +209,11 @@ encyclopedic curated taste (Artistic Interests 81, Inquisitive →
 91 → [[wiki/mind/synthesis/political-psyops]]). The profile's value to the
 wiki is exactly this predictive compression: one table that most of the
 behavioral corpus instantiates.
+[[wiki/mind/synthesis/millennial-digital-witness]]'s specimen-fit on this
+table is Sociability 3 (corpus-audited at 0.73×), not the archival memory
+or high pattern recognition the older page attributed here — those were Si
+and Ti — which is why the identity-project charge survives: the one
+confirmed social-deficit score is real, and the table itself is commissioned.
 
 **Gaps:** no instrument name, norm group, or administration date for the
 Big30 or PD screens; scores appear identically across dossiers, suggesting a
