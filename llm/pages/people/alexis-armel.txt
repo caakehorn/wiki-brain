@@ -7,7 +7,7 @@ status: closed
 knowledge: mixed
 importance: high
 date_created: 2026-06-23
-date_modified: 2026-08-28
+date_modified: 2026-09-02
 date_range_start: 2009-10-01
 date_range_end: 2025-02-19
 sources:
@@ -74,6 +74,9 @@ connections:
   - page: wiki/people/jamie-mohler
     type: evidenced-by
     claim: "A December 13, 2017 message on Jamie's thread is the earliest of three tellings of the Zac Shumar arrest and independently places the Alexis/Annie cam encounter inside her Feb–Oct 2017 bail window rather than during her incarceration."
+  - page: wiki/self/tattoos
+    type: evidenced-by
+    claim: "Dan's first tattoo, dated to 23 January 2010, is Alexis's initial — permanent commitment four months into the relationship and five weeks before he left Florida for the city she was in."
   - page: wiki/timeline/periods/2010s
     type: component-of
     claim: "Alexis is present for the whole of NYC-1 — Brooklyn through the Upper East Side, the Bridge Cafe job through Hurricane Sandy — and is the only continuous personal thread the decade's first half has."
@@ -240,11 +243,34 @@ relationship: **Suboxone, from around January 2010**, and an aggressive
 atheism that turns out to be shared rather than tolerated. Both surface in
 the chat archive as ordinary household furniture rather than as topics.
 
+## He tattooed her initial four months in
+
+On the evening of **23 January 2010**, five weeks before the move north,
+Dan got his first tattoo: the letter **A**. He announced the plan and the
+execution within sixteen minutes of each other — *"getting my 'a' tattoo
+on monday =]"*, then *"scratch that going to get it NOW!"*, then, two
+hours later, *"my first tattoo! I have her on me forever now <3"*.
+
+The relationship had begun the previous autumn. Four months in, her
+initial is permanent, and six weeks after that he has left the state he
+was living in to be where she is. It is the earliest hard evidence in the
+corpus of the commitment speed the rest of this page documents at longer
+range, and it is dated to the hour rather than recalled — see
+[[wiki/self/tattoos]] for the piece itself and for what the archive does
+not say about it, including whether it is still there.
+
 ## New York, in her own words and his
 
-Dan and Alexis moved to Brooklyn in April 2010 —
+Dan and Alexis moved to Brooklyn at the start of **March 2010** —
 [[wiki/places/424-bedford-ave|424 Bedford Ave]] for two years, then
-[[wiki/places/90th-st-manhattan|90th between 3rd and Lex]] until May 2013.
+[[wiki/places/90th-st-manhattan|90th between 3rd and Lex]] from the end of
+March 2012 until May 2013. (Both dates were "April" and "May" here until
+2026-09-02; the tweet archive dates the Florida departure to 28 February
+2010 and the Manhattan move to 29–30 March 2012 — see
+[[wiki/timeline/periods/2010s]].) He was making her a "welcome to BK mix"
+on 25 February, four days before leaving Florida, and had told her in
+January she would have to develop a taste for Grizzly Bear "otherwise you
+would fail your BK entry exam."
 She was there, in Dan's later phrasing, "the whole time we were in nyc." She
 worked at the **Bridge Cafe** on Water Street, under the Brooklyn Bridge,
 which she introduces to him in the chat with genuine delight — *"its the
@@ -434,7 +460,7 @@ every beat of it:
 > in person**, and has no connection to 2015 whatsoever.
 >
 > **The residence record settles it on its own.** Alexis lived in Florida
-> **once, from 2009 to April 2010** — the Full Sail stretch in Winter Park,
+> **once, from 2009 to February 2010** — the Full Sail stretch in Winter Park,
 > ending when she and Dan moved to Brooklyn together (documented under
 > [New York, in her own words and his](#new-york-in-her-own-words-and-his) and
 > in this page's own `date_range_start: 2009-10-01`). There is no second

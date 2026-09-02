@@ -4,9 +4,9 @@ page_type: entity
 title: "SLOPPP"
 status: closed
 date_created: 2026-06-22
-date_modified: 2026-07-19
+date_modified: 2026-09-02
 date_range_start: 2013-01-01
-date_range_end: 2015-12-26
+date_range_end: 2016-03-07
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/operating_manual.md
@@ -53,6 +53,19 @@ involuntary sub-bass signature (63–85%) is already present in this era —
 the earliest confirmation that it is architectural, not a later style
 choice. Browser history corroborates the arc: production-related search
 peaks in exactly 2014 (113 hits), the SLOPPP high-water mark.
+
+> **The close date is a release date, not a retirement date [2026-09-02].**
+> `date_range_end` was 2015-12-26 — the last SLOPPP release. The tweet
+> archive carries the alias three months further as a *promotion*: on
+> **7 March 2016** Dan posted
+> `soundcloud.com/sloppp/juicy-j-hella-bandz-sloppp-bootleg` to a
+> correspondent, and on **16 March 2015** "SLOPPP SUMMER TRAP MICROMIX #3".
+> The March 2016 link points at existing catalogue rather than new output,
+> so it does not extend the discography — but it is the last time the name
+> appears in public under Dan's own hand, and it is the **last public post
+> of his own music of any kind until the MOGZART revival of 4 March 2026**,
+> ten years later. See [[wiki/interests/music/overview]] for that gap
+> measured across the whole archive.
 
 ## Discography and mixes (reconstructed from posted links)
 

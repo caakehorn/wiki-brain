@@ -22,6 +22,9 @@ connections:
   - page: wiki/self/twitter/2013
     type: precedes
     claim: '2012 is the immediately previous year of originals before 2013 on the same account.'
+  - page: wiki/timeline/periods/2010s
+    type: evidences
+    claim: '"Goodbye, Brooklyn!" (29 March) and "Hello, Manhattan." (30 March) date NYC-1''s second move a month earlier than the residence table had it, and the 18 November internship pitch is the last tweet placing Dan in the city.'
 ---
 
 # Twitter / X — 2012

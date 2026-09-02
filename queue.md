@@ -88,6 +88,8 @@ frontmatter), forensic-methodology (20 KB), context-core (14 KB), youtube-watch-
 ## External acquisitions
 
 - Twitter @danfrank: yearly wiki pages up at wiki/self/twitter/ (originals + quote-tweets). Spreadsheet 2013-08-17–2026-04-07 complete. 2009–mid-2013 and late 2026 still being scraped live onto the same pages. Official X Settings zip still welcome as a completeness check.
+  - **MINING PASS 1 DONE 2026-09-02** (PR #239). `bin/mine-tweets` built; eight pages outside the twitter tree now reason from the archive — the 2010 move dated, the tattoos thesis falsified, the pre-2014 location window filled, the ten-year production silence measured. Details and the ranked next steps are in `LLM_HANDOFF.md`.
+  - **MINING PASS 2 PENDING — the people pass is the highest-value remainder.** `bin/mine-tweets handle` splits 40+ handles into address/mention/RT-quote with year spans. Six handles with 6+ tweets have wiki pages and have not been mined: @ericjester (22), @danpolyak (21), @shane_brannan (19), @woodguts (17), @lo_weez (17, 2015–2020), @ulmdub (6). @alexisarmel (84) is mined only for the January 2010 tattoo. Then: the 2012→2024 politics arc, the October 2012 Sandy liveblog (no event page exists), the February 2013 Codecademy badges, and 2009 (165 originals, unmined).
 - iMessage chat.db: bin/export-imessage-template.sh existed in old repo but never ran (needs Full Disk Access)
 
 ## Completed
