@@ -53,6 +53,20 @@ How to give models and agents the **current compiled wiki** from GitHub.
 > generated at deploy time, so they stayed reachable throughout and are the
 > safest entrypoint if you are unsure which build is live.
 
+## Mandatory agent activity logging
+
+`AGENT_ACTIVITY_LOG.md` is the canonical, append-only record of substantive work performed by LLMs and agents.
+
+### PR rule — mandatory
+
+**Every new PR created by an agent for `wiki-brain` must contain a model-authored activity entry.** The agent must append that entry to `AGENT_ACTIVITY_LOG.md` on the PR branch and also make the same entry visible in the PR itself (PR body or a top-level PR comment).
+
+The entry must say what the agent **actually did**: task, concrete work performed, important reasoning/decisions, files or areas touched, validation performed or skipped, result, and unresolved follow-up. Never fabricate provenance.
+
+If work materially changes after the first entry, append a follow-up entry rather than overwriting the original. **Do not consider the agent workflow complete without the activity entry.**
+
+See `AGENT_ACTIVITY_LOG.md` for the full schema and template.
+
 ## What you already have
 
 | Layer | URL | Notes |
@@ -88,6 +102,7 @@ Domains: `self` · `timeline` · `people` · `mind` · `work` · `interests` · 
    - **Medium:** one or more `agent/domains/*.md` (people is large; mind/self first for identity)
    - **Large:** `agent/corpus.md` (~300k+ tokens — often multi-pass)
 4. Deep-dive individual `wiki/…/*.md` URLs from the manifest.
+5. For any repository change that will become a PR, follow the **Mandatory agent activity logging** rule above before declaring the work complete.
 
 ### Prompt snippet you can paste into any agent
 
@@ -103,6 +118,7 @@ Rules:
 - Start with critical.md or domain corpora; fetch individual pages as needed.
 - Honor CONTRADICTION / REVISED blockquotes on pages.
 - Cite page paths (e.g. wiki/people/annie-ulmer.md) in answers.
+- For every new PR: append a truthful model-authored entry to AGENT_ACTIVITY_LOG.md and include the same entry in the PR body or a top-level PR comment. If the work changes materially, append a follow-up entry; do not overwrite provenance.
 ```
 
 ## Keep the feed current
