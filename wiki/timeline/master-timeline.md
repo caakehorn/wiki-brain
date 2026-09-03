@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,452 events** across **80 years** (1796–2027), drawn from **372 pages**. Tier 1 685 · Tier 2 418 · Tier 3 2,349.
+**3,461 events** across **80 years** (1796–2027), drawn from **373 pages**. Tier 1 685 · Tier 2 420 · Tier 3 2,356.
 
 ## What counts as an event here
 
@@ -957,7 +957,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **August 2009** — full sail 2008 2010** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomorrow"*, which puts the final month in September. And across November and…  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **August 2009** — full sail 2008 2010 — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 13 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 17 pages
 - · **August 2009** — t013 — date — certain — refuted  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2009-08-31** — On **31 August 2009** he writes *"so weirded out i start my last month of college tomorrow. having multiple reality checks."* — which places the final month in **September**, not August.  
@@ -1034,9 +1034,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2010-01-03** — one is timestamped by the platform and one was typed into a profile  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **2010-01-03** — facebook — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 32 pages
 - · **2010-01-03** — location history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 32 pages
 - · **2010-01-03** — t002 — date, location — certain — refuted — The tweet archive has him in Florida for another eight weeks: 'moving to brooklyn in 9 days' (20 Feb 2010), 'last day in errrlando' (27th), 'peace out, florida. it's been real.' (28th)  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2010-01-03** — Places lived  
@@ -1212,12 +1212,18 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/totality-themes]] · Where the firewall runs on the body, not just the mind
 - · **2011-01-02** — Hibernia — 401 W 50th St, near 9th Ave, New York  
   ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
+- · **2011-01-10** — On **10 January 2011** he posts *"1 week smoke free!"* — which dates a fresh start to roughly **3 January**, and therefore means the December attempt lasted at most three weeks before a relapse he never mentioned.  
+  ↳ [[wiki/self/twitter/2011]] · The tobacco quit did not hold, and that matters
 - · **2011-01-18** — Shared drive "refused to mount"  
   ↳ [[wiki/self/chats/gemini-58]] · Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)
 - · **2011-01-18** — Jamin "copy and paste the line over the 'a' in his name on Bandcamp" (same day).  
   ↳ [[wiki/self/chats/gemini-58]] · Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)
 - · **2011-01-24** — Freezepocalypse — "All over NY" — a joke check-in during a storm  
   ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
+- · **2011-02-26** — Glenn Beck — *"DANGEROUS"* — media demagoguery  
+  ↳ [[wiki/self/twitter/2011]] · The 2011 politics are anti-authority, not yet left — and that is the finding
+- ◆ **2011-03-31** — "money=debt. debt=money"* — monetary system  
+  ↳ [[wiki/self/twitter/2011]] · The 2011 politics are anti-authority, not yet left — and that is the finding
 - ★ **April 2011** — Just before the move, Dan left his position at Creative License — the West Village talent/licensed-music brokering company at 71 8th Ave he'd worked for under Kevin McKiernan since April 2011 — after a six-week dispute over a missing W-2, a wrong final paycheck, and a disputed $104 MetroCard…  
   ↳ [[wiki/places/90th-st-manhattan]] · The Creative License exit
 - · **April 2011** — creative license\ — Creative License (West Village) — 10 months — Payroll dispute and a whistleblower disclosure  
@@ -1254,6 +1260,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/ally-lubin]] · The eighteen-year approach
 - · **2011-05-20** — First documented contact  
   ↳ [[wiki/self/concepts/ally-and-dan-love-as-destiny]] · The arithmetic of not stopping
+- · **2011-05-26** — "WHY DO WE NEED MOUNTED POLICE. ITS 2011"* — policing  
+  ↳ [[wiki/self/twitter/2011]] · The 2011 politics are anti-authority, not yet left — and that is the finding
 - ★ **June 2011** — Nineteen tweets between June 2011 and March 2016 — eighteen of them opening with his handle, which makes this a direct-address relationship rather than a name Dan drops in passing — and the subject matter barely varies.  
   ↳ [[wiki/people/shane-brannan]] · Shane Brannan
 - · **2011-06-25** — Bridge is great for making PDF's!"* (25 June 2011) — Adobe Bridge, i.e. a production workflow conversation, not a joke.  
@@ -1274,6 +1282,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/matt-dunn]] · The Oscar Lindquist coincidence, dated
 - · **2011-08-12** — Alexis's side of the household comes first, chronologically: in an August 12, 2011 Gchat with Dan, she asks "is Mohler supposed to come over? or is he house bound bc of his knee?" and Dan answers "no he's home-bound… probz for the best… i gets [Alexis] to myself" — a small, affectionate detail (a…  
   ↳ [[wiki/people/jamie-mohler]] · Jamie Mohler
+- ◆ **2011-08-19** — West Memphis 3 released after 17 years — wrongful conviction  
+  ↳ [[wiki/self/twitter/2011]] · The 2011 politics are anti-authority, not yet left — and that is the finding
 - · **2011-08-26** — Two weeks later, Oscar Lindquist's own Facebook thread pins a precise date to the friendship: on August 26, 2011, Dan writes "mohler and i are heading out of town tonight because of the hurricane" — the two of them evacuating together ahead of Hurricane Irene, which struck the New York area two…  
   ↳ [[wiki/people/jamie-mohler]] · Jamie Mohler
 - · **2011-08-26** — Pinned date  
@@ -1282,6 +1292,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/oscar-lindquist]] · Hurricane Irene, dated
 - · **2011-09-21** — 21 September 2011, the Troy Davis execution.** Dan is 22 and Vanessa is 17.  
   ↳ [[wiki/people/vanessa-frank]] · Political kinship
+- · **2011-09-21** — Troy Davis execution, three posts — capital punishment  
+  ↳ [[wiki/self/twitter/2011]] · The 2011 politics are anti-authority, not yet left — and that is the finding
 - · **October 2011** — Ej Rags is a Williamsburg, Brooklyn contact — "a block from the bridge" as of an October 2011 hello — whose one substantive exchange, July 12, 2013, is really about one thing: Dan's own account of why he destroys his creative work.  
   ↳ [[wiki/people/ej-rags]] · Ej Rags
 - · **October 2011** — The Google Talk log itself carries no exact date (internal evidence — Occupy Wall Street, approaching Jewish fall holidays — narrows it to roughly October 2011, though the Hurricane Irene message independently pins the friendship's presence two weeks earlier); the specific day and circumstance of…  
@@ -1318,6 +1330,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/chats/gemini-58]] · Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)
 - · **2011-12-07** — And on 7 December 2011: *"wtf just got a text from mom about this I hate you all"* — the sibling channel operating as the place to complain about the family channel, which is the same function it serves in the 2020s thread.  
   ↳ [[wiki/people/vanessa-frank]] · The sibling register, 2011–2013
+- · **2011-12-15** — "fuck off chris dodd"* — SOPA / internet regulation  
+  ↳ [[wiki/self/twitter/2011]] · The 2011 politics are anti-authority, not yet left — and that is the finding
 
 ### 2012
 
@@ -1672,7 +1686,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2014-05-07** — Drake x Cashmere Cat – No Lie ft. 2 Chainz (SLOPPP Bootleg) — Bootleg  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **2014-05-13** — sloppp — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 32 pages
 - · **2014-05-14** — Heatwave Vol. 1** — "1 hour of tweriffik plurntastic tracks" — **Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
 - · **2014-05-22** — SLOPPP Trap Micromix — Mix  
@@ -2981,7 +2995,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **May 2017** — Twice Dan evidently weighed what he'd bought and found it light, and twice Vaughn retreated to the same defense: "What did it weight because he said it was 3.5… that's my best friend I got it from and I know he wouldn't do it on purpose" (May 2017), and "I swear I watched him weigh it" against a…  
   ↳ [[wiki/people/vaughn]] · The yard and the hustle, one channel
 - · **May 2017** — eric jester — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 32 pages
 - · **May 2017** — Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two Nemacolin caddying seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a fellow caddie in 2017 who came back for 2018 as **assistant caddie master** — "I'm actually gonna be assistant caddie…  
   ↳ [[wiki/people/davey-fitzpatrick]] · Davey Fitzpatrick
 - · **May 2017** — Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose message thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — sparse check-ins that resurface every year or two, each one picking back up exactly where the last left…  
@@ -4409,6 +4423,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **August 2020** — every fact here comes from Dan's narration or from the estate attorney's calls, and the estate attorney reached in August 2020 (`+17245706170`) is not established to be Adams or his office. His full name,  
   ↳ [[wiki/meta/open-questions]] · people (169)
+- · **August 2020** — So the honest statement of what happened in August 2020 gets narrower and more useful.  
+  ↳ [[wiki/mind/synthesis/2020-left-turn]] · 2011: eleven years of anti-authority with no economics in it
 - · **August 2020** — The objector had a name and did not object.** Dan's August 2020 question to the estate attorney — what were the odds his grandmother would contest the distribution — has been carried here as an open identity and an open outcome.  
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The contest that never came, and the asset that left before it
 - · **August 2020** — In August 2020, negotiating his $144,069.31 estate distribution, Dan asked the estate attorney what the odds were that his grandmother would contest it.  
@@ -4419,6 +4435,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/suzanne-frank]] · What she actually earned
 - · **August 2020** — Five closings in one month — the strongest documented month of her career  
   ↳ [[wiki/people/suzanne-frank]] · Timeline
+- · **August 2020** — What August 2020 supplied was not an anti-authority instinct — he had that at twenty-two — but an economic analysis to attach it to, and a name for the result.  
+  ↳ [[wiki/self/twitter/2011]] · The 2011 politics are anti-authority, not yet left — and that is the finding
 - · **August 2020** — The period's most durable ideological product is the documented socialist conversion of August 2020: a self-narrated, media-driven radicalization (Chapo, Hasan Piker, ContraPoints) cemented by lockdown reading of the primary texts — argued in full at 2020 left turn.  
   ↳ [[wiki/timeline/periods/covid-era-2020]] · Reading during isolation
 - ★ **2020-08-21** — On **August 21, 2020** the court signed the order distributing **$144,069.31** of the Fran estate to Dan.  
@@ -4906,7 +4924,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **May 2024** — 2021–May 2024 on at least one other number (and *"Menore #1?"* implies more than one), but **no export exists for any handle but 3476070497**.  
   ↳ [[wiki/people/menore]] · Gaps & Uncertainties
 - · **2024-05-02** — 307 e 76th st — places  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 20 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 19 pages
 - · **2024-05-08** — She was doing it **on top of another job**: *"Now I'll be here 6 days a week and then Libby in mornings…: I don't want to get worked again and pass out like last time"* (2024-05-08).  
   ↳ [[wiki/people/annie-ulmer]] · 2024, and the year she was not unemployed
 - ★ **2024-05-09** — His father died on or around 2024-05-09** (*"Garrett's dad died"*).  
@@ -6294,7 +6312,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-06-23** — eclecticism — interests  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-01 — 2 pages
 - · **2026-06-23** — books — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 20 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 19 pages
 - · **2026-06-23** — 337 Saratoga closes at $465,000  
   ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **2026-06-23** — 337 saratoga drive — three separate eras — suzanne frank\ — Suz — she owns it — Deed and, eventually, a Chapter 13 docket — **all hers  
@@ -6378,7 +6396,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-14** — Dan does not hear or process sung lyrics as language in real time — he stated this directly (2026-07-14): words in a song register to him essentially as **timbre**, another textural element of the vocal performance, not as semantic content to be parsed and understood the way lyrics function for…  
   ↳ [[wiki/interests/music/concepts/lyrics-as-timbre]] · Lyrics as Timbre
 - · **2026-07-14** — vanessa frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 32 pages
 - · **2026-07-14** — au zaatar — work  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-07-14** — t009 — enumeration — hedged — partial — The tweet archive holds two pieces the list did not: the letter 'A' for Alexis, tattooed 23 January 2010 and eight years earlier than anything on the list, and a Morrissey piece dated by 24 October 2019.  
@@ -6444,15 +6462,15 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 13 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 17 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
   ↳ [[wiki/people/mike-cordaro]] · Texture
 - · **2026-07-20** — intake constancy — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 20 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 19 pages
 - · **2026-07-20** — youtube watch history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 20 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 19 pages
 - · **2026-07-20** — master timeline — timeline  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-15 — 3 pages
 - · **2026-07-20** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an  
@@ -6492,7 +6510,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-26** — jerel coles** — 3. **Does the "video proof / unconscious" accusation originate with him (2026-07-26, from her phone) or with her (2026-05-31, 23:54)?** Now answerable from logs already held — not yet run.  
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **2026-07-26** — hyperreflexivity — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 20 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 19 pages
 - · **2026-07-26** — The three known ones are 2026-07-26 05:39–05:57, 2026-08-16 23:42–23:53 and 2026-08-18 21:46–21:50.  
   ↳ [[wiki/mind/synthesis/read-receipt-forensics]] · RE-CHECKED [2026-08-20] — M4 gains its best real-world case, and the flagship example's scope was an artifact
 - · **2026-07-26** — Rape allegation, refused supply request, mutual suicidal statements, "whatever goodbye annie" (05:04)  
@@ -6614,7 +6632,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-02** — fran coldren — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-02** — big five psychometrics — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 20 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 19 pages
 - · **2026-08-02** — ~~**No audit has been run.**~~ **CLOSED 2026-08-02** — see the enumeration  
   ↳ [[wiki/mind/synthesis/instrument-is-subject]] · Gaps
 - · **2026-08-02** — What survived:** the propagation rule, the residue/testimony distinction, and the 2026-08-02 enumeration finding (ten pages reason from `mixed` premises without stating what they added).  
@@ -6698,7 +6716,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-08-10** — Jim's death is now dated.** A 2026-08-10 pass found the specific date: **October 2, 2019**, per a Dan message to a client explaining a possible booking conflict.  
   ↳ [[wiki/people/ellen-ulmer]] · The relationship
 - · **2026-08-10** — 90th st manhattan — places  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 20 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 19 pages
 - · **2026-08-10** — john paci — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-13 — 1 page
 - · **2026-08-10** — Its *status* is open — and, per an operator capture filed 2026-08-10, sexual contact resumed "the other night," breaking a stated six-month gap.  
@@ -6896,7 +6914,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-18** — 463 morgantown — legal  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 16 pages
 - · **2026-08-18** — the handed mirror — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 20 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 19 pages
 - · **2026-08-18** — 267 — 120 — 6.3 — the false send  
   ↳ [[wiki/mind/concepts/reassurance-architecture]] · The character ratio is a crisis thermometer, and it is the best one found
 - · **2026-08-18** — 4 — **Manufactured stimulus** — fabricate an event to force a reading  
@@ -7044,7 +7062,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
 - · **2026-08-23** — overview — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 32 pages
 - · **2026-08-23** — closing the set — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-23** — annie ulmer personality assessment — people  
@@ -7114,7 +7132,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — chemical architecture — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 13 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 17 pages
 - · **2026-08-28** — cocaine — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 4 pages
 - · **2026-08-28** — alias as periodization — mind  
@@ -7196,9 +7214,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-09-02** — The git log read as a record of *operations* rather than saves  
   ↳ [[wiki/meta/instruments/index]] · The measures
 - · **2026-09-02** — 2020 left turn — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 13 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 17 pages
 - · **2026-09-02** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 13 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 17 pages
 - · **2026-09-02** — failure to launch — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-09-02** — chatgpt — self  
@@ -7227,4 +7245,4 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 372 wiki pages. 1,015 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 373 wiki pages. 1,019 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*

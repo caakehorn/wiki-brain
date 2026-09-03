@@ -14,7 +14,7 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 497 |
-| Pages touched in the last 14 days | 189 |
+| Pages touched in the last 14 days | 190 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 46 |
 | Open gaps | 510 |
@@ -47,11 +47,12 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-09-03** — 13 pages
+**2026-09-03** — 17 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
   - ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
+  - ingest | self | 2010 read in full — the corpus's most-cited date was computed from a train going the wrong way, and it survives anyway
 
-**2026-09-02** — 35 pages
+**2026-09-02** — 32 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result

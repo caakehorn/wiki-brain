@@ -114,7 +114,7 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 - [[wiki/self/twitter/2024]] (10376 words)
 - [[wiki/self/twitter/2009]] (9344 words)
 - [[wiki/self/twitter/2013]] (9108 words)
-- [[wiki/self/twitter/2022]] (6677 words)
+- [[wiki/self/twitter/2011]] (8098 words)
 
 **free** — 39 outstanding
 

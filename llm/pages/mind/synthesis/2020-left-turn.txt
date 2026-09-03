@@ -258,6 +258,31 @@ own radicalization survives as its first third. The official X export would
 recover the rest; see [[wiki/self/twitter]] for the two other reasons that
 export is now wanted.
 
+## 2011: eleven years of anti-authority with no economics in it
+
+The section above dates the exit to 2009. `wiki/self/twitter/2011` fills in
+what stood in the gap, and it is not a slow drift leftward.
+
+2011's eight political posts are Glenn Beck, the Iraq war budget against
+science funding, *"money=debt. debt=money"*, mounted police, the West Memphis
+3, Troy Davis, *"1984 = 2012"* and SOPA. **Every one targets a vertical
+authority; none is redistributive.** No wages, no labour, no housing, no
+healthcare, no class. In 2011 that combination was as available to a
+libertarian as to a socialist, and *"money=debt"* in particular was then the
+house vocabulary of the former.
+
+So the honest statement of what happened in August 2020 gets narrower and more
+useful. The anti-authority instinct was complete at twenty-two and needed
+nothing from the pandemic, the lockdown or the media pipeline. **What 2020
+supplied was an economic analysis to attach that instinct to, and a name for
+the result.** The conversion was not from right to left; it was from an
+objection without a programme to an objection with one.
+
+That also explains a thing this page previously had to treat as coincidence:
+why the conversion took so completely and so fast, in a matter of weeks. It was
+not building a position from nothing. It was filling a vacancy that had been
+open for eleven years.
+
 ## The media pipeline (dirtbag left / BreadTube)
 
 The names he credits are a specific ecosystem, and the corpus corroborates

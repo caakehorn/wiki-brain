@@ -143,6 +143,34 @@ with their parents' party and mean very little by it. What it does show is
 that the Republican label was gone long before anything replaced it — which
 the media-pipeline story below never had to explain, and now does.
 
+## Eleven years of being against people in charge, with no economics in it
+
+The section above dates his exit from the Republicans to 2009. What filled the
+eleven years in between was not a slow slide leftward.
+
+Take 2011. He posted about politics eight times all year: Glenn Beck, the Iraq
+war budget versus science funding, a line about money being debt, mounted
+police, the West Memphis 3, the Troy Davis execution, surveillance, and an
+internet censorship bill.
+
+**Every one is aimed at somebody in charge. None is about money being shared
+out differently.** No wages, no jobs, no rent, no healthcare, no class. In 2011
+that mix was just as available to a libertarian as to a socialist — and the
+"money is debt" line in particular was mostly a libertarian talking point back
+then.
+
+So what actually happened in August 2020 gets smaller and more precise. The
+instinct — distrust anyone above you — was finished by the time he was
+twenty-two. It did not need the pandemic or the lockdown or the YouTube
+channels. **What 2020 gave him was an economic argument to hang that instinct
+on, and a name for the result.** He did not switch from right to left. He went
+from an objection with no plan attached to an objection with one.
+
+That also explains something this page could otherwise only call a
+coincidence: why the change stuck so hard and so fast, inside a few weeks. He
+was not building a position from scratch. He was filling a hole that had been
+open for eleven years.
+
 ## The media pipeline
 
 The names Dan credits are a specific ecosystem, often called the "dirtbag left" or "BreadTube." This is a loose network of left-wing podcasts, YouTube channels and streamers.

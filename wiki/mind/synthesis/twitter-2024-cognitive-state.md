@@ -3,7 +3,7 @@ domain: mind
 page_type: synthesis
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 date_range_start: 2024-01-01
 date_range_end: 2024-12-31
 title: "2024 Twitter / X Cognitive State — Adversarial Historian"
@@ -24,6 +24,9 @@ connections:
   - page: wiki/self/timeline
     type: contextualizes
     claim: "The public corpus is read alongside the user's documented personal chronology and the historical events surrounding it."
+  - page: wiki/self/twitter/2011
+    type: evidenced-by
+    claim: 'The reasoning sequence this page names for 2024 is dated thirteen years earlier by the 21 May 2011 rapture posts and the 26 February 2011 exchange with a pastor: adopt the opponent\'s own authority, isolate where it breaks, publish the break. The subject in 2011 is religion rather than politics; the operation is identical.'
 ---
 
 # 2024 Twitter / X Cognitive State — Adversarial Historian

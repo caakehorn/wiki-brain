@@ -8507,3 +8507,61 @@ currently rests on the opioid case alone.
 Same fetch artefact as 2009, stated in Gaps: February, April, May and June
 survive mainly as end-of-month clusters. 17 February sits inside a sparse
 stretch — three tweets survived that day and there may have been more.
+
+## [2026-09-03] ingest | self | 2011 read in full — the reasoning style is finished at twenty-two, and the politics are empty
+
+225 rows. Two findings, one of which narrows a synthesis this wiki has been
+building for months.
+
+**The "adversarial historian" move is thirteen years older than the page that
+named it.** `wiki/mind/synthesis/twitter-2024-cognitive-state` describes a
+sequence — model, stress-test, isolate the contradiction, compress, provoke.
+The 21 May 2011 rapture posts run it exactly: *"the only difference between the
+5/21 rapture followers and moderate christians is that the former are willing
+to put a date on the end."* He takes the fringe case everyone is laughing at,
+finds that the only structural difference from the respectable case is
+**falsifiability**, and turns the laughter around. Same operation against a
+working pastor on 26 February, using the pastor's own scripture (1 Timothy
+2:12). The subject in 2011 is religion; the machine is identical.
+
+**The 2011 politics are anti-authority and contain no economics at all, and
+that changes the shape of the 2020 left turn.** Eight political posts across
+the year: Glenn Beck, the Iraq war budget against science funding,
+*"money=debt. debt=money"*, mounted police, the West Memphis 3, Troy Davis
+(three posts), *"1984 = 2012"*, and *"fuck off chris dodd"*. **Every one
+targets a vertical. None is redistributive.** No wages, no labour, no housing,
+no healthcare, no class — and *"money=debt"* was, in 2011, at least as much
+libertarian vocabulary as left. On content alone the profile could have gone
+either way.
+
+So `2020-left-turn` gets a smaller and more useful claim: the anti-authority
+instinct was complete at twenty-two and needed nothing from the lockdown. **2020
+supplied an economic analysis to attach it to, and a name for the result.** It
+also explains something that page could previously only call fast: the
+conversion was not building a position, it was filling an eleven-year vacancy.
+The Troy Davis posts show the axis working rather than merely present — he
+argues the *procedural* case, not the innocence case, which is the harder one:
+*"I have no idea whether Troy Davis was guilty or not, but he deserved the
+chance to live another day to fight in court."*
+
+**The digital-witness thread now has a curve, not a point.** Balloon Boy 2009
+(the coverage as the subject) → Irene 2011 (the storm consumed remotely, the
+NYC evacuation map redistributed to followers, *"glued to TV"*) → Sandy 2012
+(the observation finally stated as a claim about the medium). The escalation
+runs toward articulation.
+
+**A correction to yesterday's page.** 2010's cheerful 13 December tobacco quit
+did not hold: *"1 week smoke free!"* on 2011-01-10 dates a fresh start to about
+3 January, so the e-cigarette attempt lasted at most three weeks before a
+relapse he never posted. Legible only as an arithmetic mismatch between two
+happy posts, which is the useful thing about it.
+
+**Also on the page:** the career runs backwards in public all year — studio job
+gone by 3 January, *"the never ending job hunt"* on the 23rd, an unpaid
+marketing internship on the 28th, and *"Correction: I am a dog walker"* from
+the office in October. StarCraft II goes from *"~5min"* on 20 March to a
+GeForce pro/am first round on 23 June, with ladder placement, a named build
+order and pros by handle. And on 27 February he publicly audits an acquaintance
+from her own geotag and a two-year-old photograph, proves she lied about a
+concert, and signs off *"hey no hostility!"* — the anomaly-detection
+orientation deployed socially at cost, on a named living person, dated.
