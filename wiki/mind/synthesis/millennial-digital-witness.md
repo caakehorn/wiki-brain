@@ -86,6 +86,24 @@ in 2012, unprompted, with no AI in the loop and no theory to serve. It is
 the same move the Node 6 thesis makes, applied to one storm instead of one
 generation.
 
+**He was not watching. He was publishing.** The 2012 line reads as an
+observer's aside and it was not one. `wiki/self/twitter/2012` shows the
+forty-eight hours around it as a continuous operation: a public-service notice
+to download podcasts before the power went (29 October), Grand Central's
+closure, the NYSE's first weather closure in twenty-seven years, a triage post
+on *"the worst of #sandy novelty twitter accounts"*, two updates driving
+traffic to his own liveblog, *"Manhattan is straight empty. No cabs. No stores.
+No people."*, and a stream of original material fed to `@OpieRadio` — the
+Breezy Point six-alarm fire video, the HMS *Bounty* sinking, the NYPD's 911
+queue figures at 05:30.
+
+So the sentence about user-generated content was written by one of the
+generators, mid-generation, having just spent two days doing at small scale
+exactly what he was describing at large scale. **That strengthens the claim
+this section makes rather than weakening it**, and it explains why the
+articulation lands in 2012 rather than at Balloon Boy in 2009 or Irene in 2011:
+those he consumed, and this one he worked.
+
 **What it does not establish, and the difference matters.** A remark about
 a hurricane's media coverage is not a generational epistemic argument. The
 2012 line contains no claim about millennials, no before-and-after-the-

@@ -111,6 +111,22 @@ shared event and finding the interesting part to be **how people are
 experiencing it through media**, rather than the event itself, is on the
 record in 2012, with no AI anywhere near it.
 
+**He was not watching the storm. He was reporting it.** That 2012 line sounds
+like a bystander's remark, and it was not one. Over the two days around it he
+posted a public warning to download podcasts before the power went out, the
+closure of Grand Central, the New York Stock Exchange shutting for weather for
+the first time in twenty-seven years, a post sorting the real storm accounts
+from the joke ones, two updates pushing people to his own live blog, and
+*"Manhattan is straight empty. No cabs. No stores. No people."* He also sent a
+national radio show original material: video of a six-alarm fire that destroyed
+more than fifty houses in Queens, a tall ship sinking off the coast, and the
+NYPD's emergency-call backlog at half past five in the morning.
+
+So the sentence about user-generated content was written by one of the people
+generating it, in the middle of doing so. **That makes the point stronger, not
+weaker** — and it explains why he finally said it out loud in 2012 rather than
+in 2009 or 2011. Those two he only watched. This one he worked.
+
 **What it does not prove.** A remark about one hurricane is not a theory
 about a whole generation. The 2012 line says nothing about millennials,
 nothing about growing up before and after the internet, and nothing about

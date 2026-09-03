@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,461 events** across **80 years** (1796–2027), drawn from **373 pages**. Tier 1 685 · Tier 2 420 · Tier 3 2,356.
+**3,469 events** across **80 years** (1796–2027), drawn from **374 pages**. Tier 1 685 · Tier 2 421 · Tier 3 2,363.
 
 ## What counts as an event here
 
@@ -1025,6 +1025,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/full-sail-2008-2010]] · Chemical stabilization
 - · **January 2010** — Early rock era — 2008–2010  
   ↳ [[wiki/self/facebook/interests]] · Event Responses (2008–2020)
+- · **January 2010** — And *"recent music engineering grad"* is doing considerable work: the certification is from January 2010 and the degree from 2009 at the latest, so he is presenting a three-year-old credential as current, to an organisation he had spent the year telling his followers he loved.  
+  ↳ [[wiki/self/twitter/2012]] · He applied to work there
 - · **January 2010** — The **Suboxone regimen** begins at its front edge (~January 2010, with a one-year discrepancy against legacy docs that context-core flags as resolvable from the first strips reference) — the fifteen-year daily chassis documented in chemical architecture starts here.  
   ↳ [[wiki/timeline/periods/2010s]] · The two things that started here and did not stop
 - ★ **2010-01-03** — twitter** — the archive and facebook disagree about when Dan moved to Brooklyn. Facebook's `places lived` field says 3 January 2010. On 20 February 2010 he tweeted *"moving to brooklyn in 9 days"*, and on the 28th *"peace out, florida."* Both records are his own  
@@ -1355,6 +1357,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/josh-brannan]] · The tweet record, 2009–2012
 - · **2012-02-23** — I set the bar oh so high for high school performance, I'm sure it's hard to live up to :)"* and, minutes later, *"aww that's okay/ you didn't have a chance, given my flawless HS career"* — both on 23 February 2012, and both funnier against what his own high school years actually were.  
   ↳ [[wiki/people/vanessa-frank]] · The sibling register, 2011–2013
+- · **2012-02-26** — on Opie & Anthony (below)  
+  ↳ [[wiki/self/twitter/2012]] · The prior pipeline, named — and the ideological distance flagged from the start
+- · **2012-02-26** — And he flags the ideological distance immediately, on 26 February 2012:  
+  ↳ [[wiki/self/twitter/2012]] · The prior pipeline, named — and the ideological distance flagged from the start
 - ◆ **2012-02-27** — He authored the single most-quoted line in the entire Creative License record — a February 27, 2012 email that reads, in full: "It's a trust issue.  
   ↳ [[wiki/people/marty-jackson]] · Martin O. Jackson ("Marty")
 - · **March 2012** — Gap:** the handle change from @veefrank to @VanessaFrankzz falls between March 2012 and April 2013 and is undated; nothing in the corpus explains it.  
@@ -1363,6 +1369,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/work/creative-license]] · Corpus record
 - ★ **2012-03-01** — They moved March 1, 2012 and returned to Uniontown (337 Saratoga Drive) exactly thirteen months later, on April 1, 2013.  
   ↳ [[wiki/places/90th-st-manhattan]] · 90th St, Manhattan (NYC-1's third year)
+- · **2012-03-23** — "@joerogan still planning to have Sam Harris on the podcast? Super excited for that."  
+  ↳ [[wiki/self/twitter/2012]] · The prior pipeline, named — and the ideological distance flagged from the start
 - ★ **April 2012** — Marty Jackson worked in the Accounting Department at Creative License and is the primary correspondent in the six-week dispute (February–April 2012) over Dan's final paycheck, a missing W-2, and a disputed $104 MetroCard charge that followed Kevin McKiernan's company.  
   ↳ [[wiki/people/marty-jackson]] · Martin O. Jackson ("Marty")
 - ★ **April 2012** — Act one — the payroll dispute (Feb–Apr 2012).** Dan's last day was on or before **February 15, 2012** — the date of his first email flagging that his final paycheck had a **$104 charge for a MetroCard he says he never requested or received.** The check also arrived unsigned.  
@@ -1395,6 +1403,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/shane-brannan]] · What they talked about
 - ◆ **2012-08-07** — 23 — Bloc Party — Terminal 5 — New York, NY — Three-night sold-out *Four* run (recalled as "Terminal 9")  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
+- ◆ **2012-08-21** — "last week's episode with Duncan is, in my opinion, the new high water mark for JRE."  
+  ↳ [[wiki/self/twitter/2012]] · The prior pipeline, named — and the ideological distance flagged from the start
+- · **2012-08-27** — "The Duncan Trussell Family Hour killed my extended family"  
+  ↳ [[wiki/self/twitter/2012]] · The prior pipeline, named — and the ideological distance flagged from the start
 - ◆ **October 2012** — Hurricane Sandy flooded the Seaport in October 2012 and the job went with it; Dan's later accounts treat that as a structural shock to the period, and the archive shows them following the storm coverage together the day it hit.  
   ↳ [[wiki/people/alexis-armel]] · New York, in her own words and his
 - ◆ **October 2012** — Alexis lived with him for the address's full run — "with me the whole time we were in nyc" — and started work at the historic Bridge Cafe (279 Water St, the city's oldest tavern) during this period; the job outlasted the address, ending when Hurricane Sandy closed the restaurant in October 2012…  
@@ -1427,10 +1439,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/shane-brannan]] · What they talked about
 - · **2012-11-13** — "Y0 U wonNA plAy DyZ CODBO2?!!!"  
   ↳ [[wiki/people/shane-brannan]] · What they talked about
+- · **2012-11-18** — On **18 November 2012**, to two O&A staffers:  
+  ↳ [[wiki/self/twitter/2012]] · He applied to work there
 - · **2012-11-18** — The departure is the one date the tweets do not fix.** They corroborate it without pinning it: New York references run 8.8%, 8.9% and 10.2% of originals across 2010, 2011 and 2012 and then fall to 0.3% in 2013, the last tweet placing him in the city being the 18 November 2012 internship pitch…  
   ↳ [[wiki/timeline/periods/2010s]] · Transition
 - · **December 2012** — Call me ASAP!" (Dec 2012), "You think I'm fucking kidding about sending me that information about the landlord?  
   ↳ [[wiki/people/rick-frank]] · The relationship, corrected: warm, high-volume, and asymmetric rather than silent
+- · **2012-12-04** — praising O&A and Jim Norton by name, including on gun policy  
+  ↳ [[wiki/self/twitter/2012]] · The prior pipeline, named — and the ideological distance flagged from the start
 
 ### 2013
 
@@ -7245,4 +7261,4 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 373 wiki pages. 1,019 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 374 wiki pages. 1,021 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*

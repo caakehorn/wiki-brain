@@ -4,7 +4,7 @@ page_type: entity
 status: active
 knowledge: mixed
 date_created: 2026-07-19
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 date_range_start: 2013-06-16
 date_range_end: 2020-02-06
 sources:
@@ -30,6 +30,9 @@ connections:
   - page: wiki/people/bryan-5088682461
     type: evidences
     claim: "A same-morning (Oct 21, 2019) disclosure supplies Dan's own real-time reaction to the encounter, and an Oct 25 follow-up reveals a previously undocumented repeat visit."
+  - page: wiki/self/twitter/2012
+    type: evidenced-by
+    claim: 'The 2012-02-23 tweet "People who need to come visit me: @danpolyak @EricJester @JoshBrannan @Woodguts" is the only place in the corpus Dan enumerates his own core friend group unprompted — four handles, three years into New York, named as the people who ought to be visiting and are not.'
 ---
 
 # Dan Polyak

@@ -8565,3 +8565,72 @@ order and pros by handle. And on 27 February he publicly audits an acquaintance
 from her own geotag and a two-year-old photograph, proves she lied about a
 concert, and signs off *"hey no hostility!"* — the anomaly-detection
 orientation deployed socially at cost, on a named living person, dated.
+
+## [2026-09-03] ingest | self | 2012 read in full — the "digital disaster" line was written by one of the generators, mid-generation
+
+205 rows. The year the ambitions close, the career bottoms out, and the media
+diet that the 2020 turn is a departure *from* is documented by name.
+
+**The corpus's most-cited tweet gets its context, and the thesis gets
+stronger.** `millennial-digital-witness` rests on *"Sandy is like first true
+'digital disaster'. Can't remember so much user generated content from a
+storm."* — read, until now, as an observer's aside. The forty-eight hours
+around it are a continuous operation: a podcast-download PSA before the power
+went, Grand Central's closure, the NYSE's first weather closure in 27 years, a
+triage post on *"the worst of #sandy novelty twitter accounts"*, two updates
+driving traffic to **his own liveblog**, and a stream of original material fed
+to `@OpieRadio` — the Breezy Point six-alarm fire video, the HMS *Bounty*
+sinking, the NYPD's 911 queue at 05:30. **He was one of the generators, and he
+wrote the line mid-generation.** That is why the articulation lands in 2012 and
+not at Balloon Boy (2009) or Irene (2011): those he consumed, this one he
+worked.
+
+**The pipeline before the pipeline.** 2012's media diet is Joe Rogan, Sam
+Harris, Duncan Trussell and Opie & Anthony — the audience the 2020 conversion
+departs from. And the ideological separation is **explicit from the start**:
+*"I don't get down with o&a right-wing ideology, but after hearing the Rumsfeld
+'lizard' bit, I'll be spending the rest of my day listening"* (2012-02-26), ten
+years before the 2022 retrospective. It coexists with friendly direct
+engagement with Cumia on the Trayvon Martin case a month later, and that
+tension is kept on the page rather than resolved.
+
+**A dated job application, the only one in the 2010–2012 record.** 2012-11-18,
+to two O&A staffers: *"I'm a recent music engineering grad with pro tools
+certification living in NYC"*, then *"I just sent in an app."* Unpaid, three
+years after the degree, presenting a January-2010 certification as recent. No
+recorded outcome.
+
+**The career floor.** September: retail with fitting rooms — *"Sometimes I
+write my own stories about the cartoons on the fitting room walls at work"* —
+mentioned only as an aside about customers, alongside *"neither is in my
+current budget."* He never names it as a problem all year, and the tone is the
+finding.
+
+**Politics: still no redistribution.** An Obama voter with a caveat (*"LOVE
+THIS GUY (except those pesky drone strikes)"*) whose programme is *"end
+corporate welfare. establish congressional term limits. stop DEA raids of
+marijuana vendors. GTFO afghanistan"* — every item a limit on an authority,
+none a transfer, which continues 2011 exactly. The first economic reasoning in
+the corpus appears the same day as a fiscal-arithmetic objection. And
+2012-11-07 prefigures 2024 directly: *"I refuse to believe that tonight's
+earlier results were as close as we were told. Need to keep it tight for
+ratings."*
+
+**Also:** the Starcraft arc opens and closes inside the year — *"considering a
+pro career playing Starcraft"* (4 January) to *"damn you Korean SCII pros with
+15+ hour days of ladder exp"* (27 August), with hours rather than talent named
+as the reason; the Brooklyn tenancy ends 29–30 March, corroborating
+`424-bedford-ave`'s two-year run to the month; and the Halo 4 console
+replacement is dated to 8–10 November.
+
+**The register is recorded without softening.** 2012 is the loudest year for
+the O&A vocabulary in his own writing, homophobic slurs as punchlines included.
+It stays because it is the concrete content of the ideology he had already
+disavowed and was still speaking — and because a corpus that quietly omits it
+cannot then claim the 2020 turn as real movement, having deleted the distance.
+
+**One obligation drained.** `LLM_HANDOFF.md` recorded that the 2012-02-23
+cohort tweet — *"People who need to come visit me: @danpolyak @EricJester
+@JoshBrannan @Woodguts"* — was written into Jester only and the other three
+should carry it. Polyak and Josh Brannan now do. Woodguts still has no page
+and remains unidentified in `BACKLOG.md`.

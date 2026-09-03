@@ -53,6 +53,9 @@ connections:
   - page: wiki/self/twitter/2010
     type: evidenced-by
     claim: 'The 2010 Foursquare check-ins are a self-published location trail around this address — the deli at 313 Bedford, the Marcy Ave J/M/Z platform, the C-Town at South 1st and Havemeyer — corroborating the tenancy from outside the message record.'
+  - page: wiki/self/twitter/2012
+    type: evidenced-by
+    claim: 'The tenancy ends on 29-30 March 2012 — "Goodbye, Brooklyn!" then "Hello, Manhattan." — after which the Foursquare check-ins move to the Upper East and West Sides.'
 ---
 
 # 424 Bedford Ave (NYC-1)

@@ -3,7 +3,7 @@ domain: interests
 page_type: entity
 status: stable
 date_created: 2026-07-16
-date_modified: 2026-08-19
+date_modified: 2026-09-03
 sources:
   - "raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html"
   - "raw/self/dox-scan/Dan Profile.txt"
@@ -41,6 +41,9 @@ connections:
   - page: wiki/work/tech/ai-video-essays
     type: parallels
     claim: "A decade of shock-radio/long-form comedy immersion is the structural template Dan reaches for when designing his own long-form video format — Some More News is explicitly named as the model to reverse-engineer."
+  - page: wiki/self/twitter/2012
+    type: evidenced-by
+    claim: 'Dan disavows the show\'s politics while committing to its comedy on 2012-02-26, ten years before the retrospective account, and applies for an O&A internship on 2012-11-18 — the only job application anywhere in the 2010-2012 record.'
 ---
 
 # Opie & Anthony / Shock Radio
