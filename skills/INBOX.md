@@ -132,3 +132,57 @@ Unvalidated observations and candidate instructions. This is deliberately append
 - **The second-order finding, and it may be the more useful one:** a `git checkout` attempted mid-merge is refused with *"you need to resolve your current index first"* — which is a safety feature, not an error. Nothing is lost. Do not react to it by stashing or resetting.
 - **Validation:** reproducible on demand — open any branch that touches `wiki/`, let one content pass land on `main`, merge. Two instances in one session. **Not promoted:** both are the same branch and the same operator, which is not the independent confirmation `PROTOCOL.md` §3 wants. Promote when a second branch hits it, which will not take long.
 - **Status:** inbox
+
+## An archive seam looks exactly like a change in behaviour (2026-09-03)
+
+**Observed while writing narrative runs for `wiki/self/twitter/2009`–`2014`.**
+
+`skills/corpus/vocabulary-drift.md` covers one way a corpus lies about absence:
+a keyword pattern built from the wrong era under-reports. This is a second,
+independent mechanism with the same signature, and it bit three times in one
+session.
+
+**What happened.** The twitter year pages are assembled from two sources — a
+live X scrape and an operator spreadsheet — and both have hard boundaries:
+
+- Both scrape methods were **capped at ten results per month-bounded query**.
+  The visible consequence is that January–September 2009, and much of
+  2010–2012, survives almost entirely as clusters on the **last one to three
+  days of each month**, while the months walked more thoroughly run day to day.
+  Read naively, that says he posted in bursts at month-ends for three quarters
+  and then started posting daily. He did not. The cap did that.
+- The operator spreadsheet begins **2013-08-17**. On the 2013 page, the
+  apparent explosion of SLOPPP music activity begins in mid-August. **The
+  source boundary and the apparent behavioural boundary are within a week of
+  each other**, and the honest conclusion is that the page cannot date the
+  project's start at all — the earliest surviving trace, 31 July, already says
+  *"checking latest mix"*.
+
+**Why it is worth a rule of its own.** Vocabulary drift is a defect in the
+*instrument* you build. This is a defect in the *corpus boundary*, and it is
+more dangerous for two reasons: it produces a sharp, dateable-looking
+transition rather than a vague under-count, and the date it produces is a real
+date — the date the archive changed — so it survives a sanity check. A model
+looking for inflection points will find one, and it will be spurious.
+
+**The candidate rule.** Before writing any claim about when something started,
+stopped, intensified or went quiet on a page assembled from more than one
+source, plot the *source* of each row against time and check whether the
+claimed transition coincides with a source boundary. Where it does, the claim
+is unsupportable and the page should say so where a reader will hit it before
+the narrative — not in a footnote.
+
+**The inverse matters just as much and is the useful half.** 2014 onward is
+spreadsheet-complete (170 of 171 rows), and **absence there is real evidence**.
+That is what made this session's strongest finding usable: the claim that Dan
+was repulsed by the 2014 Cumia firing fails partly because a complete year
+contains no post expressing discomfort. A rule that only says "distrust
+absence" would have thrown that away. The rule has to be **"establish coverage,
+then absence is evidence exactly as far as coverage extends."**
+
+**Not promoted.** One corpus, one author, one archive, discovered by one
+session. It needs a second instance in a different corpus — `bin/mine-messages`
+over the iMessage dump is the obvious place, since that record has its own
+source boundaries and `wiki/interests/music/overview` already carries several
+unchecked absence claims drawn from it. Promote when someone hits it there, or
+when the coverage-plotting step is mechanised.

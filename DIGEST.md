@@ -54,6 +54,7 @@ this is the state of the thing.
   - ingest | self | 2011 read in full — the reasoning style is finished at twenty-two, and the politics are empty
   - ingest | self | 2012 read in full — the "digital disaster" line was written by one of the generators, mid-generation
   - ingest | self | 2013 read in full — SLOPPP as an operation, a six-week gap in the six years, and a shape that is mostly the archive
+  - ingest | self | 2014 read in full — he backed Cumia the day after the firing, and the correction makes the left turn larger
 
 **2026-09-02** — 25 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one

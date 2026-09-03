@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-03
-497 pages, ~1,788,196 tokens.
+497 pages, ~1,788,228 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10302,6 +10302,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | self | 2011 read in full — the reasoning style is finished at twenty-two, and the politics are empty
   - ingest | self | 2012 read in full — the "digital disaster" line was written by one of the generators, mid-generation
   - ingest | self | 2013 read in full — SLOPPP as an operation, a six-week gap in the six years, and a shape that is mostly the archive
+  - ingest | self | 2014 read in full — he backed Cumia the day after the firing, and the correction makes the left turn larger
 
 **2026-09-02** — 25 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one

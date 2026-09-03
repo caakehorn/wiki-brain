@@ -16,6 +16,7 @@ simply listed.
 - **Session log:** ingest | self | 2011 read in full — the reasoning style is finished at twenty-two, and the politics are empty
 - **Session log:** ingest | self | 2012 read in full — the "digital disaster" line was written by one of the generators, mid-generation
 - **Session log:** ingest | self | 2013 read in full — SLOPPP as an operation, a six-week gap in the six years, and a shape that is mostly the archive
+- **Session log:** ingest | self | 2014 read in full — he backed Cumia the day after the firing, and the correction makes the left turn larger
 
 | Page | Domain | What moved |
 |---|---|---|
