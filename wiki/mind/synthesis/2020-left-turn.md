@@ -317,6 +317,28 @@ which no keyword pattern can see.
 | **Anti-Trump liberal resistance** | 2017–2019 | Sustained and specific. Agreeing with Mitt Romney under `#ImpeachTrump`; weighing a full Pence term as *"gotta b better"*; *Fire and Fury* and Comey's *A Higher Loyalty* read in public; Trump conceived as a wasted vehicle for gun control; impeachment consumed as procedural drama; and in October 2019, a joke about voting Cory Booker. Nothing about class, labour, healthcare or capitalism in three years. |
 | **Democratic socialist** | 2020-08-22 → | This page. |
 
+**Where the fourth stage actually begins.** The stage boundary is not August
+2020. `wiki/self/twitter/2020` shows the *analysis* arriving first, in the
+Democratic primary: on **15 February 2020**, four months after the Booker joke
+and a month before any lockdown, he runs four posts reading Bloomberg's
+candidacy as a party-splitting instrument bought with money, cites the stop-and-
+frisk ruling, and argues it with a left commentator. That is not liberal
+material. The sequence is therefore:
+
+| When | What |
+|---|---|
+| Oct 2019 | liberal — impeachment as procedural drama, a Cory Booker joke |
+| **Feb 2020** | left analysis, fluent, during the primary — before the lockdown |
+| Aug 2020 | the label adopted, in the self-narration this page is built on |
+| **Oct 2020** | declared in public: *"if 2020 hasn't made you a marxist ... you're either frighteningly uninformed or just a fucking ghoul"* |
+
+**The lockdown is real and it is not the origin.** The reading this page
+documents happened to a man whose analysis had already moved, and who then
+found himself indoors with time. And the 3 October declaration is what this
+page has never had — **public, dated corroboration with no AI in the loop** —
+arriving six weeks after the private narration and already issuing ultimatums,
+which is the boundary-policing that follows every affiliation he adopts.
+
 **Two things follow, and both make this page's claim more precise.**
 
 **The conversion is from liberalism, not from apathy.** That is a shorter

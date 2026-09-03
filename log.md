@@ -8857,3 +8857,55 @@ shape of the 2009 Republican exit and the 2013 neo-atheism exit.
 - **The 1 January 2018 great-grandmother thread** — 97, advanced dementia, two days of full lucidity, videoed, then *"I've since read a bunch about terminal lucidity"*. Carer (70 hours in one week), observer of his own observation (the decline hid itself by resetting the baseline daily), documenter, and refuser of the consoling reading in the same sentence he offers it.
 - **One word at Charlottesville**: *"L'chaim"*, 2017-08-12 — the account's only religious-identity marker in seventeen years, on the day of the torchlit march.
 - **2018-03-20**: a running spreadsheet of vocabulary to adopt from Desus & Mero. The earliest documented instance of the systematising instinct this wiki is a product of.
+
+## [2026-09-03] ingest | self | 2020 and 2021 read in full — the public declaration, an analysis that precedes the label, and a date corrected by five months
+
+59 rows across two years, and three of them move settled pages.
+
+**The conversion has a public half the corpus never had.** `2020-left-turn` is
+built on a private self-narration of 2020-08-22. Six weeks later, on
+**2020-10-03**, addressed to strangers with no AI in the loop:
+
+> *"okay so if 2020 hasn't made you a marxist who is unapologetically claiming
+> democratic socialism / social democracy as your political ideology...you're
+> either frighteningly uninformed or just a fucking ghoul"*
+
+The first public political self-identification in seventeen years of the
+account. Its register is the finding as much as its content: six weeks in, he is
+already **policing the boundary**, allowing only ignorance or moral defect as
+grounds for disagreement — the no-middle-setting verdict pointed outward.
+
+**And the analysis precedes the label by six months.** On **2020-02-15**, four
+months after the Cory Booker joke and a month before any lockdown, he runs four
+posts reading Bloomberg's candidacy as a party-splitting instrument bought with
+money, cites the stop-and-frisk ruling, and argues it with a left commentator.
+That is not liberal material. So the fourth stage begins **in the Democratic
+primary, not in the lockdown**: liberal (Oct 2019) → left analysis (Feb 2020) →
+label adopted privately (Aug 2020) → declared publicly (Oct 2020). The lockdown
+reading that page documents is real and is not the origin — it happened to a man
+whose analysis had already moved.
+
+**A date corrected by five months.** `opie-and-anthony` dated the move away from
+comedy free-speech absolutism to 2022-03-28. **2021-10-26**, during the
+Chappelle row: *"Lenny Bruce was arrested...not by 'the public', but by the
+state. Dave Chappelle is facing criticism which is, I'm told, different."* Same
+position, argued rather than declared, aimed at the martyrdom analogy the
+absolutist defence depends on. Bounded from the other side by 2019-01-16 (*"The
+recent joke shaming of Louis CK is so fucking disturbing"*), so the move happens
+inside those thirty-three months and the 2022 thread is where he **states** it
+about himself, not where he arrives.
+
+**January 6th is the cleanest specimen of the conspiracy distinction.** He forms
+a police-collusion hypothesis at high confidence, **prices it in the same
+tweet** (*"but what was the endgame? is that being too generous"*), and rejects
+the antifa-infiltration mirror on the ground that it requires its actors to work
+against their own interests. Not "that's a conspiracy theory" — a structural
+refutation, applied to his own hypothesis first.
+
+**Also:** 2020-02-23 describes this wiki's own method six years early — go back
+to primary sources, watch them unedited and at full length, compare early to
+late, report the divergence — applied to the 2016 campaign, and reaching the
+same Dice Clay comparison he had made in 2012, now checked against the footage.
+2021's vocabulary is a settled leftist's rather than a convert's (*material
+conditions*, *neoliberal*, *corpo donors*), and the primary opponent is the
+Democratic Party, which is the tell.

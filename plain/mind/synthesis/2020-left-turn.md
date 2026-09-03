@@ -219,6 +219,30 @@ nothing about class, wages, healthcare or capitalism.
 
 **August 2020 — democratic socialist.** This page.
 
+**Where the change actually starts.** Not August 2020. His posts show the
+*thinking* arriving first, during the Democratic primary. On **February 15,
+2020** — four months after the Cory Booker joke, and a month before any
+lockdown — he posted four times about Michael Bloomberg: that his candidacy was
+designed to split the party, that he was trying to buy enough delegates to
+force a brokered convention, and that his record on stop and frisk disqualified
+him. He was arguing it with a left-wing commentator. That is not how a liberal
+talks.
+
+So the order is: liberal in October 2019 → thinking like a leftist by February
+2020 → calling himself one in August → **saying it in public on October 3,
+2020**:
+
+> *"if 2020 hasn't made you a marxist who is unapologetically claiming
+> democratic socialism / social democracy as your political ideology...you're
+> either frighteningly uninformed or just a fucking ghoul"*
+
+**The lockdown was real, but it was not the cause.** The reading he did indoors
+happened to someone whose mind had already moved. And that October post is
+something this page never had before: him saying it publicly, on a date, with
+no AI involved — six weeks after saying it privately, and already telling other
+people they are ignorant or evil if they disagree. He polices the border of
+every group he joins, almost as soon as he joins it.
+
 **So he did not convert from not caring. He converted from being a liberal** —
 a shorter trip, and one he had only been on for three years.
 

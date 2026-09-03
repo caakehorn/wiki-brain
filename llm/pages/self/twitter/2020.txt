@@ -3,8 +3,8 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
-knowledge: derived
+date_modified: 2026-09-03
+knowledge: mixed
 date_range_start: 2020-01-01
 date_range_end: 2020-10-03
 title: "Twitter / X — 2020"
@@ -22,11 +22,125 @@ connections:
   - page: wiki/self/twitter/2021
     type: precedes
     claim: '2020 is the immediately previous year of originals before 2021 on the same account.'
+  - page: wiki/mind/synthesis/2020-left-turn
+    type: evidences
+    claim: 'The public declaration is 2020-10-03 — "if 2020 hasn\'t made you a marxist ... you\'re either frighteningly uninformed or just a fucking ghoul" — six weeks after the private self-narration this page dates, already policing the boundary. And the analysis precedes the label: 15 February 2020 runs the Democratic primary as a class conflict, four months after a Cory Booker joke and before any lockdown, so the occasion is the primary rather than the lockdown.'
 ---
 
 # Twitter / X — 2020
 
-The quietest original-tweet year in the spreadsheet (25). NYC NYE hustle, then the October line that 2020 should have made you a Marxist 'unapologetically claiming democratic socialism.' Volume collapse plus ideological crystallization — the same year the iMessage corpus and the rest of the wiki treat as a left turn.
+**Twenty-five posts, and two of them move the corpus.** 2020 is the thinnest
+year on the account since 2008, and it is the year
+`wiki/mind/synthesis/2020-left-turn` is named after. What it contains is the
+conversion happening in public, at two separate moments, neither of which is
+the one that page dates.
+
+## 3 October 2020: the declaration
+
+> *"okay so if 2020 hasn't made you a marxist who is unapologetically claiming
+> democratic socialism / social democracy as your political ideology...you're
+> either frighteningly uninformed or just a fucking ghoul"*
+
+That is the first public political self-identification in seventeen years of
+this account, and it is **independent corroboration of the conversion the
+synthesis dates to a private self-narration of 2020-08-22** — same year, six
+weeks later, no AI in the loop, addressed to strangers.
+
+Its register matters as much as its content. It does not describe a position;
+it issues an **ultimatum**, and the only two categories it allows for
+disagreement are ignorance and moral defect. Six weeks after adopting an
+ideology he is already policing its boundary. `wiki/mind/profile/index`
+describes a self-verdict with no middle setting, and this is that mechanism
+pointed outward at everyone else.
+
+## 15 and 23 February 2020: the analysis arrives six months before the label
+
+The 2019 page establishes that in October 2019 Dan was joking about voting for
+Cory Booker and addressing *"moderate conservatives"* as a fellow traveller.
+Four months later:
+
+> *"you know who loves the idea of mike running? the guy who was/is working to
+> influence the election for trump. he was floating the idea to him before the
+> last election to further splinter the party by diving moderates away from
+> their implied front runner."*
+> *"super tuesday is going to be a fucking trip. bloomberg talked openly in
+> 2016 about a strategy of spend stupid amounts of money to get enough
+> delegates for a brokered convention. i fear he's going to try to pick up
+> buttigieg as VP, knowing boomers will see it as party 'unity' lol"*
+> *"@BenjaminPDixon old bloomberg footage after losing stop and frisk court
+> ruling on why body cameras were totally unnecessary and counterproductive"*
+
+This is not liberal-resistance material. It is **primary-season left analysis**
+— the billionaire as a party-splitting instrument, the brokered convention as a
+purchase, stop and frisk as the disqualifying record, and the interlocutor is
+Benjamin Dixon, a left commentator. On 8 February he had already posted a
+*"Prioritized Budget"* joke; on 15 February he is running the Democratic
+primary as a class conflict.
+
+**So the transition sits between October 2019 and February 2020, and its
+occasion is the Democratic primary rather than the lockdown.** The refinement
+to `2020-left-turn` is a sequence rather than a date:
+
+| When | What |
+|---|---|
+| Oct 2019 | liberal — impeachment as procedural drama, a Booker joke |
+| **Feb 2020** | **left analysis, fluent, in the primary** — before any lockdown |
+| Aug 2020 | the label adopted, privately, in the self-narration that page quotes |
+| **Oct 2020** | **the label declared in public, as an ultimatum** |
+
+The lockdown reading that page documents is real and it is not the origin. It
+is what happened to a man who had already changed his analysis and then found
+himself indoors with time.
+
+## The method, applied to the 2016 campaign
+
+On **23 February** he opens a thread describing an archival project:
+
+> *"i've been pouring through a ton notable press conferences, debates, town
+> halls and other important moments of the 2016 election in their original
+> long-form versions. They are full of sound bytes that you know well, but i
+> really suggest you rewatch the full events"*
+> *"There's pretty convincing evidence that the whole campaign was a visibility
+> 'stunt' and the tone is markedly different than 2020 trump. Interestingly, it
+> lacks the narcissistic confidence and is much closer to real populism"*
+> *"I've always been curious to learn abt Dice Clay during the transition into
+> the 'character' becoming the real person. Trump became TRUMP right in front
+> of our eyes."*
+
+Go back to primary sources, watch them **unedited and at full length**, compare
+early to late, and report where the two diverge. That is this wiki's own method
+described by its subject six years before he built the wiki — and the specific
+observation, that the character consumed the man, is the one he had already
+reached for in 2012 when he called the GOP *"the Andrew Dice Clay of
+politics."* Eight years later he goes back and checks it against the footage.
+
+## Texture
+
+The year opens in New York — *"the hustle and bustle of nyc on nye"*
+(1 January) — which is the only location signal after the 2019 departure from
+Pennsylvania, and it is thin. Two posts on 8 February debunk a viral video
+(*"spoiler alert: it's fake. as if the 'tik tok' watermark wasn't enough of
+giveaway"*). Pop Smoke's death is noted on 19 February. And on **26 April**, a
+sentence that is the whole of the year's emotional record:
+
+> *"the best part of my day is eulogizing old 'ron and fez' bits with
+> @sniffafart and then consequently falling into a deep deep depression about
+> that era being over"*
+
+Twenty-five posts in a pandemic year, from an account that had produced 346 in
+2013. Whatever 2020 was for Dan, `wiki/mind/synthesis/2020-left-turn` reads it
+from a self-narration and a YouTube history rather than from here, and this
+page is the reason why: the feed had already stopped being where he lived.
+
+## What would change this reading
+
+The February material is four posts and a thread. Reading them as "the analysis
+arrived by February" is an inference from register and vocabulary, not from a
+statement — he does not say he has changed his mind, and a person can make an
+anti-Bloomberg argument without being a socialist. What makes it hold is the
+contrast with October 2019 rather than the content alone, and if 2019 turns out
+to be missing posts, the contrast weakens. The 3 October declaration needs no
+such hedging: it says what it says.
 
 ## Coverage
 
@@ -39,7 +153,7 @@ The quietest original-tweet year in the spreadsheet (25). NYC NYE hustle, then t
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
-## January
+## The record
 
 ### 2020-01-01 03:12:42 UTC · [1212210008580067328](https://x.com/danfrank/status/1212210008580067328)
 *likes 0 · replies 0 · reposts 0*

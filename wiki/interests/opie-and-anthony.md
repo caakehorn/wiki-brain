@@ -175,6 +175,22 @@ not a conversion — in the same thread he defends the Rock joke as *"not
 particularly malicious"* and warns against *"wokescoldery"* — but "it's just a
 joke" is the exact doctrine the show ran on, and he says he has left it.
 
+> **CORRECTED [2026-09-03] — March 2022 is not the earliest instance.** The
+> shift is dated five months earlier by `wiki/self/twitter/2021`. On
+> **26 October 2021**, during the Chappelle row, he wrote:
+>
+> > *"Lenny Bruce was arrested...not by 'the public', but by the state. Dave
+> > Chappelle is facing criticism which is, I'm told, different."*
+>
+> That is the same position, argued rather than declared, and aimed precisely
+> at the martyrdom analogy the absolutist defence depends on. Bounding it from
+> the other side: on **16 January 2019** he was still fully inside the old
+> position — *"The recent joke shaming of Louis CK is so fucking disturbing.
+> You don't have to agree with the material to appreciate the essence of what a
+> joke is."* So the move happens somewhere in the thirty-three months between
+> those two dates, and the March 2022 thread is the moment he **states** it
+> about himself, not the moment he arrives at it.
+
 **Gap:** the 18 July 2022 tweet is marked **(1/3)** and parts 2 and 3 are not
 in the archive. His fullest public statement about what the show's collapse
 did to him politically survives only as its opening third.

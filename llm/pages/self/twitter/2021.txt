@@ -3,8 +3,8 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
-knowledge: derived
+date_modified: 2026-09-03
+knowledge: mixed
 date_range_start: 2021-01-05
 date_range_end: 2021-12-04
 title: "Twitter / X — 2021"
@@ -22,11 +22,116 @@ connections:
   - page: wiki/self/twitter/2022
     type: precedes
     claim: '2021 is the immediately previous year of originals before 2022 on the same account.'
+  - page: wiki/interests/opie-and-anthony
+    type: contradicts
+    claim: 'The move away from comedy free-speech absolutism is dated five months earlier than that page states: "Lenny Bruce was arrested...not by \'the public\', but by the state. Dave Chappelle is facing criticism which is, I\'m told, different." (2021-10-26), against the Louis CK defence of 2019-01-16.'
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: evidences
+    claim: 'January 6th is the cleanest demonstration of the distinction: he forms a police-collusion hypothesis at high confidence, prices it in the same tweet ("but what was the endgame? is that being too generous"), and rejects the antifa-infiltration mirror on the ground that it requires its actors to work against their own interests.'
 ---
 
 # Twitter / X — 2021
 
-Fetterman primary as a recurring object. GOP 'radical Democrat' talk, a restraining-chair bit, fundraising numbers. Political fandom with a handicapping instinct, not slogans.
+**The first full year of the converted position, and it is fluent.** 2021 has
+only 34 posts, but the vocabulary, the targets and the internal disagreements
+are all a settled leftist's rather than a recent convert's — and one of them
+corrects a date this corpus currently carries.
+
+## The position, a year on
+
+The 2020 declaration was an ultimatum. 2021 is the working version:
+
+- **5 January**, on GOP rhetoric: *"just wait until they are running against a principled and unapologetic dem soc... they will probz regret using up all their effective 'socialism bad because venezuala' talking points"*
+- **6 January**, refusing an anti-Comey op-ed's framing: *"Comey is not 'what got us into this mess'. The Democratic party and their corporate ring-kissing deserve blame; also - racism."*
+- **6 November**, on the infrastructure bill: *"None of the remaining entitlements will substantially improve material conditions and nothing will be implemented before the midterm election anyway"*
+- **3–4 December**, on the Fetterman/Lamb primary: *"the neoliberal forces who run the party and their corpo donors see it as a worthy investment to block fetterman"*, and *"I hope that his potential for the left isn't the catalyst for the same playbook that worked to outperform both Sanders campaigns"*
+- **15 November**: *"Honestly I would sooner forgive someone for viciously insulting my mom than I would for taking a swipe at Bernie Sanders."*
+
+*Material conditions*, *neoliberal*, *corpo donors*, *dem soc* — the terms are
+used correctly and the primary opponent is the Democratic Party rather than the
+Republicans, which is the tell that distinguishes a leftist from a liberal.
+`@hasanthehun` — Hasan Piker, one of the four channels
+`wiki/mind/synthesis/2020-left-turn` names as the pipeline — is addressed
+directly on 9 January.
+
+And on **15 November**, a disappointment stated as one: *"Had been (foolishly)
+holding out hope that @elonmusk would eventually turn face and experience some
+kind of leftist epiphany. Officially filing that fantasy as a 'no shot' and
+also get fucked, Elon."* The admission that he had been hoping is the
+interesting half.
+
+## 26 October 2021 corrects a date
+
+`wiki/interests/opie-and-anthony` dates Dan's move away from comedy free-speech
+absolutism to **28 March 2022**, during the Chris Rock slap. This page has it
+five months earlier, during the Chappelle row:
+
+> *"Lenny Bruce was arrested...not by 'the public', but by the state. Dave
+> Chappelle is facing criticism which is, I'm told, different."*
+
+That is the whole argument in two sentences, and it is aimed precisely at the
+martyrdom analogy the position depends on. Set against **16 January 2019** —
+*"The recent joke shaming of Louis CK is so fucking disturbing"* — the move
+happens somewhere in the thirty-three months between, and the earliest dated
+instance of the new position is **2021-10-26**, not March 2022.
+
+The O&A page's 2022 example is not wrong; it is just not first. Corrected
+there rather than left for the next reader to trip over.
+
+## January 6th: a conspiracy entertained, priced, and one rejected
+
+The Capitol riot produces the year's densest cluster, and it is the best
+available demonstration of what
+`wiki/mind/synthesis/vertical-authority-skepticism` means when it says the
+"conspiracy crank" label is contradicted by his behaviour.
+
+**He forms one.** On 7 January: *"i'm as sure as i could possibly be that the
+capitol police had arranged to allow the chuds into the building while they
+LARPed the violence they would usually be committing"* — a serious accusation
+of collusion by a police force, stated at high confidence.
+
+**Then he immediately prices it, in the same tweet:** *"but what was the
+endgame? is that being too generous"*. The hypothesis is published with its own
+weakest point attached, and the weakest point is that it credits the actors
+with more coherence than the evidence supports.
+
+**And he rejects the mirror-image conspiracy on structural grounds.** On
+17 January, to somebody arguing antifa infiltration: *"Sooooooo...are you saying
+that the radical leftists were agitating to keep the far-right president in
+power rather than the democratic candidate? Do you seriously think that antifa
+is working against their own ideological values to sling mud on Trump
+supporters?"* The refutation is not "that's a conspiracy theory" — it is that
+the theory requires its actors to work against their own interests.
+
+That is the distinction the whole vertical-authority page rests on: he is not
+credulous about institutions and he is not credulous about the stories told
+against them either. The test he applies is whether the actors' behaviour makes
+sense from inside their own position, and he applies it to his own hypothesis
+first.
+
+## Texture
+
+*"gonna exec produce a new primetime series that is just conservatives in a
+restraining chair (like the theater scene from a clockwork orange) and make
+them define terms they constantly use incorrectly such as: socialism,
+globalism, obamagate, liberty/freedom"* (5 January) — the definitional-precision
+instinct as a revenge fantasy. Matt Gaetz *"is a lot more tolerable if you just
+pretend he is actually a 4th grader who switched bodies with an Arizona State
+undergrad"* (15 January). And on 12 November, a small perfect one: he
+misreads a tweet in somebody's likes, believes for twelve hours that his old
+coach is coaching in the NFL, **telephones his mother about it**, and then
+posts the correction himself.
+
+## What would change this reading
+
+The Chappelle correction is solid — it is a dated post making the argument, and
+the O&A page's own example is later. The Jan 6 reading interprets a
+self-qualification as method rather than as hedging, which is a real
+alternative; the reason to prefer method is the 17 January rejection, which
+applies the same test to the opposite conspiracy at cost to his own side's
+narrative. And 34 posts is a small year to characterise a position from — the
+vocabulary is unambiguous, but the absence of any internal *doubt* about the
+position may be an artefact of how little he posted.
 
 ## Coverage
 
@@ -39,7 +144,7 @@ Fetterman primary as a recurring object. GOP 'radical Democrat' talk, a restrain
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
-## January
+## The record
 
 ### 2021-01-05 06:28:43 UTC · [1346342849357508609](https://x.com/danfrank/status/1346342849357508609)
 *likes 0 · replies 0 · reposts 0*

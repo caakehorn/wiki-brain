@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-03
-497 pages, ~1,801,272 tokens.
+497 pages, ~1,805,919 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -8896,6 +8896,22 @@ not a conversion — in the same thread he defends the Rock joke as *"not
 particularly malicious"* and warns against *"wokescoldery"* — but "it's just a
 joke" is the exact doctrine the show ran on, and he says he has left it.
 
+> **CORRECTED [2026-09-03] — March 2022 is not the earliest instance.** The
+> shift is dated five months earlier by `wiki/self/twitter/2021`. On
+> **26 October 2021**, during the Chappelle row, he wrote:
+>
+> > *"Lenny Bruce was arrested...not by 'the public', but by the state. Dave
+> > Chappelle is facing criticism which is, I'm told, different."*
+>
+> That is the same position, argued rather than declared, and aimed precisely
+> at the martyrdom analogy the absolutist defence depends on. Bounding it from
+> the other side: on **16 January 2019** he was still fully inside the old
+> position — *"The recent joke shaming of Louis CK is so fucking disturbing.
+> You don't have to agree with the material to appreciate the essence of what a
+> joke is."* So the move happens somewhere in the thirty-three months between
+> those two dates, and the March 2022 thread is the moment he **states** it
+> about himself, not the moment he arrives at it.
+
 **Gap:** the 18 July 2022 tweet is marked **(1/3)** and parts 2 and 3 are not
 in the archive. His fullest public statement about what the show's collapse
 did to him politically survives only as its opening third.
@@ -10301,7 +10317,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-03** — 33 pages
+**2026-09-03** — 35 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
   - ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
   - ingest | self | 2010 read in full — the corpus's most-cited date was computed from a train going the wrong way, and it survives anyway
@@ -10310,8 +10326,9 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | self | 2013 read in full — SLOPPP as an operation, a six-week gap in the six years, and a shape that is mostly the archive
   - ingest | self | 2014 read in full — he backed Cumia the day after the firing, and the correction makes the left turn larger
   - ingest | self | 2015 and 2016 read in full — the music operation stops, the account goes dark for five months, and 2016 is a step away from the left turn
+  - ingest | self | 2017-2019 read in full — the left turn is a conversion from liberalism, and the pipeline starts in 2017 as comedy
 
-**2026-09-02** — 20 pages
+**2026-09-02** — 18 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result
@@ -11916,7 +11933,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-03 — 33 pages
+## 2026-09-03 — 35 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11951,10 +11968,12 @@ simply listed.
 | [[wiki/self/twitter/2017]] | self | — |
 | [[wiki/self/twitter/2018]] | self | — |
 | [[wiki/self/twitter/2019]] | self | — |
+| [[wiki/self/twitter/2020]] | self | — |
+| [[wiki/self/twitter/2021]] | self | — |
 | [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | **CONTRADICTION** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomo |
 
-## 2026-09-02 — 20 pages
+## 2026-09-02 — 18 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11969,8 +11988,6 @@ simply listed.
 | [[wiki/self/index]] | self | — |
 | [[wiki/self/tattoos]] | self | **CORRECTED** — this page previously read "**entirely** cultural reference … *every* known piece points at a specific record, band, or artist rather than a generic symbol," and dated the earliest well-documented piec |
 | [[wiki/self/twitter]] | self | _(carries a CONTRADICTION)_ |
-| [[wiki/self/twitter/2020]] | self | — |
-| [[wiki/self/twitter/2021]] | self | — |
 | [[wiki/self/twitter/2022]] | self | — |
 | [[wiki/self/twitter/2023]] | self | — |
 | [[wiki/self/twitter/2024]] | self | — |
@@ -21224,6 +21241,28 @@ which no keyword pattern can see.
 | **Disengaged** | 2013–2016 | Almost nothing. **No post on or after the 2016 election**, and on 2016-12-08, *"I don't know much about politics but Obama is NOT a fascist"* — a disclaimer of expertise from the man who argued eight positions sharply at twenty-two. |
 | **Anti-Trump liberal resistance** | 2017–2019 | Sustained and specific. Agreeing with Mitt Romney under `#ImpeachTrump`; weighing a full Pence term as *"gotta b better"*; *Fire and Fury* and Comey's *A Higher Loyalty* read in public; Trump conceived as a wasted vehicle for gun control; impeachment consumed as procedural drama; and in October 2019, a joke about voting Cory Booker. Nothing about class, labour, healthcare or capitalism in three years. |
 | **Democratic socialist** | 2020-08-22 → | This page. |
+
+**Where the fourth stage actually begins.** The stage boundary is not August
+2020. `wiki/self/twitter/2020` shows the *analysis* arriving first, in the
+Democratic primary: on **15 February 2020**, four months after the Booker joke
+and a month before any lockdown, he runs four posts reading Bloomberg's
+candidacy as a party-splitting instrument bought with money, cites the stop-and-
+frisk ruling, and argues it with a left commentator. That is not liberal
+material. The sequence is therefore:
+
+| When | What |
+|---|---|
+| Oct 2019 | liberal — impeachment as procedural drama, a Cory Booker joke |
+| **Feb 2020** | left analysis, fluent, during the primary — before the lockdown |
+| Aug 2020 | the label adopted, in the self-narration this page is built on |
+| **Oct 2020** | declared in public: *"if 2020 hasn't made you a marxist ... you're either frighteningly uninformed or just a fucking ghoul"* |
+
+**The lockdown is real and it is not the origin.** The reading this page
+documents happened to a man whose analysis had already moved, and who then
+found himself indoors with time. And the 3 October declaration is what this
+page has never had — **public, dated corroboration with no AI in the loop** —
+arriving six weeks after the private narration and already issuing ultimatums,
+which is the boundary-policing that follows every affiliation he adopts.
 
 **Two things follow, and both make this page's claim more precise.**
 
@@ -87604,8 +87643,8 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
-knowledge: derived
+date_modified: 2026-09-03
+knowledge: mixed
 date_range_start: 2020-01-01
 date_range_end: 2020-10-03
 title: "Twitter / X — 2020"
@@ -87623,11 +87662,125 @@ connections:
   - page: wiki/self/twitter/2021
     type: precedes
     claim: '2020 is the immediately previous year of originals before 2021 on the same account.'
+  - page: wiki/mind/synthesis/2020-left-turn
+    type: evidences
+    claim: 'The public declaration is 2020-10-03 — "if 2020 hasn\'t made you a marxist ... you\'re either frighteningly uninformed or just a fucking ghoul" — six weeks after the private self-narration this page dates, already policing the boundary. And the analysis precedes the label: 15 February 2020 runs the Democratic primary as a class conflict, four months after a Cory Booker joke and before any lockdown, so the occasion is the primary rather than the lockdown.'
 ---
 
 # Twitter / X — 2020
 
-The quietest original-tweet year in the spreadsheet (25). NYC NYE hustle, then the October line that 2020 should have made you a Marxist 'unapologetically claiming democratic socialism.' Volume collapse plus ideological crystallization — the same year the iMessage corpus and the rest of the wiki treat as a left turn.
+**Twenty-five posts, and two of them move the corpus.** 2020 is the thinnest
+year on the account since 2008, and it is the year
+`wiki/mind/synthesis/2020-left-turn` is named after. What it contains is the
+conversion happening in public, at two separate moments, neither of which is
+the one that page dates.
+
+## 3 October 2020: the declaration
+
+> *"okay so if 2020 hasn't made you a marxist who is unapologetically claiming
+> democratic socialism / social democracy as your political ideology...you're
+> either frighteningly uninformed or just a fucking ghoul"*
+
+That is the first public political self-identification in seventeen years of
+this account, and it is **independent corroboration of the conversion the
+synthesis dates to a private self-narration of 2020-08-22** — same year, six
+weeks later, no AI in the loop, addressed to strangers.
+
+Its register matters as much as its content. It does not describe a position;
+it issues an **ultimatum**, and the only two categories it allows for
+disagreement are ignorance and moral defect. Six weeks after adopting an
+ideology he is already policing its boundary. `wiki/mind/profile/index`
+describes a self-verdict with no middle setting, and this is that mechanism
+pointed outward at everyone else.
+
+## 15 and 23 February 2020: the analysis arrives six months before the label
+
+The 2019 page establishes that in October 2019 Dan was joking about voting for
+Cory Booker and addressing *"moderate conservatives"* as a fellow traveller.
+Four months later:
+
+> *"you know who loves the idea of mike running? the guy who was/is working to
+> influence the election for trump. he was floating the idea to him before the
+> last election to further splinter the party by diving moderates away from
+> their implied front runner."*
+> *"super tuesday is going to be a fucking trip. bloomberg talked openly in
+> 2016 about a strategy of spend stupid amounts of money to get enough
+> delegates for a brokered convention. i fear he's going to try to pick up
+> buttigieg as VP, knowing boomers will see it as party 'unity' lol"*
+> *"@BenjaminPDixon old bloomberg footage after losing stop and frisk court
+> ruling on why body cameras were totally unnecessary and counterproductive"*
+
+This is not liberal-resistance material. It is **primary-season left analysis**
+— the billionaire as a party-splitting instrument, the brokered convention as a
+purchase, stop and frisk as the disqualifying record, and the interlocutor is
+Benjamin Dixon, a left commentator. On 8 February he had already posted a
+*"Prioritized Budget"* joke; on 15 February he is running the Democratic
+primary as a class conflict.
+
+**So the transition sits between October 2019 and February 2020, and its
+occasion is the Democratic primary rather than the lockdown.** The refinement
+to `2020-left-turn` is a sequence rather than a date:
+
+| When | What |
+|---|---|
+| Oct 2019 | liberal — impeachment as procedural drama, a Booker joke |
+| **Feb 2020** | **left analysis, fluent, in the primary** — before any lockdown |
+| Aug 2020 | the label adopted, privately, in the self-narration that page quotes |
+| **Oct 2020** | **the label declared in public, as an ultimatum** |
+
+The lockdown reading that page documents is real and it is not the origin. It
+is what happened to a man who had already changed his analysis and then found
+himself indoors with time.
+
+## The method, applied to the 2016 campaign
+
+On **23 February** he opens a thread describing an archival project:
+
+> *"i've been pouring through a ton notable press conferences, debates, town
+> halls and other important moments of the 2016 election in their original
+> long-form versions. They are full of sound bytes that you know well, but i
+> really suggest you rewatch the full events"*
+> *"There's pretty convincing evidence that the whole campaign was a visibility
+> 'stunt' and the tone is markedly different than 2020 trump. Interestingly, it
+> lacks the narcissistic confidence and is much closer to real populism"*
+> *"I've always been curious to learn abt Dice Clay during the transition into
+> the 'character' becoming the real person. Trump became TRUMP right in front
+> of our eyes."*
+
+Go back to primary sources, watch them **unedited and at full length**, compare
+early to late, and report where the two diverge. That is this wiki's own method
+described by its subject six years before he built the wiki — and the specific
+observation, that the character consumed the man, is the one he had already
+reached for in 2012 when he called the GOP *"the Andrew Dice Clay of
+politics."* Eight years later he goes back and checks it against the footage.
+
+## Texture
+
+The year opens in New York — *"the hustle and bustle of nyc on nye"*
+(1 January) — which is the only location signal after the 2019 departure from
+Pennsylvania, and it is thin. Two posts on 8 February debunk a viral video
+(*"spoiler alert: it's fake. as if the 'tik tok' watermark wasn't enough of
+giveaway"*). Pop Smoke's death is noted on 19 February. And on **26 April**, a
+sentence that is the whole of the year's emotional record:
+
+> *"the best part of my day is eulogizing old 'ron and fez' bits with
+> @sniffafart and then consequently falling into a deep deep depression about
+> that era being over"*
+
+Twenty-five posts in a pandemic year, from an account that had produced 346 in
+2013. Whatever 2020 was for Dan, `wiki/mind/synthesis/2020-left-turn` reads it
+from a self-narration and a YouTube history rather than from here, and this
+page is the reason why: the feed had already stopped being where he lived.
+
+## What would change this reading
+
+The February material is four posts and a thread. Reading them as "the analysis
+arrived by February" is an inference from register and vocabulary, not from a
+statement — he does not say he has changed his mind, and a person can make an
+anti-Bloomberg argument without being a socialist. What makes it hold is the
+contrast with October 2019 rather than the content alone, and if 2019 turns out
+to be missing posts, the contrast weakens. The 3 October declaration needs no
+such hedging: it says what it says.
 
 ## Coverage
 
@@ -87640,7 +87793,7 @@ The quietest original-tweet year in the spreadsheet (25). NYC NYE hustle, then t
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
-## January
+## The record
 
 ### 2020-01-01 03:12:42 UTC · [1212210008580067328](https://x.com/danfrank/status/1212210008580067328)
 *likes 0 · replies 0 · reposts 0*
@@ -87801,8 +87954,8 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
-knowledge: derived
+date_modified: 2026-09-03
+knowledge: mixed
 date_range_start: 2021-01-05
 date_range_end: 2021-12-04
 title: "Twitter / X — 2021"
@@ -87820,11 +87973,116 @@ connections:
   - page: wiki/self/twitter/2022
     type: precedes
     claim: '2021 is the immediately previous year of originals before 2022 on the same account.'
+  - page: wiki/interests/opie-and-anthony
+    type: contradicts
+    claim: 'The move away from comedy free-speech absolutism is dated five months earlier than that page states: "Lenny Bruce was arrested...not by \'the public\', but by the state. Dave Chappelle is facing criticism which is, I\'m told, different." (2021-10-26), against the Louis CK defence of 2019-01-16.'
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: evidences
+    claim: 'January 6th is the cleanest demonstration of the distinction: he forms a police-collusion hypothesis at high confidence, prices it in the same tweet ("but what was the endgame? is that being too generous"), and rejects the antifa-infiltration mirror on the ground that it requires its actors to work against their own interests.'
 ---
 
 # Twitter / X — 2021
 
-Fetterman primary as a recurring object. GOP 'radical Democrat' talk, a restraining-chair bit, fundraising numbers. Political fandom with a handicapping instinct, not slogans.
+**The first full year of the converted position, and it is fluent.** 2021 has
+only 34 posts, but the vocabulary, the targets and the internal disagreements
+are all a settled leftist's rather than a recent convert's — and one of them
+corrects a date this corpus currently carries.
+
+## The position, a year on
+
+The 2020 declaration was an ultimatum. 2021 is the working version:
+
+- **5 January**, on GOP rhetoric: *"just wait until they are running against a principled and unapologetic dem soc... they will probz regret using up all their effective 'socialism bad because venezuala' talking points"*
+- **6 January**, refusing an anti-Comey op-ed's framing: *"Comey is not 'what got us into this mess'. The Democratic party and their corporate ring-kissing deserve blame; also - racism."*
+- **6 November**, on the infrastructure bill: *"None of the remaining entitlements will substantially improve material conditions and nothing will be implemented before the midterm election anyway"*
+- **3–4 December**, on the Fetterman/Lamb primary: *"the neoliberal forces who run the party and their corpo donors see it as a worthy investment to block fetterman"*, and *"I hope that his potential for the left isn't the catalyst for the same playbook that worked to outperform both Sanders campaigns"*
+- **15 November**: *"Honestly I would sooner forgive someone for viciously insulting my mom than I would for taking a swipe at Bernie Sanders."*
+
+*Material conditions*, *neoliberal*, *corpo donors*, *dem soc* — the terms are
+used correctly and the primary opponent is the Democratic Party rather than the
+Republicans, which is the tell that distinguishes a leftist from a liberal.
+`@hasanthehun` — Hasan Piker, one of the four channels
+`wiki/mind/synthesis/2020-left-turn` names as the pipeline — is addressed
+directly on 9 January.
+
+And on **15 November**, a disappointment stated as one: *"Had been (foolishly)
+holding out hope that @elonmusk would eventually turn face and experience some
+kind of leftist epiphany. Officially filing that fantasy as a 'no shot' and
+also get fucked, Elon."* The admission that he had been hoping is the
+interesting half.
+
+## 26 October 2021 corrects a date
+
+`wiki/interests/opie-and-anthony` dates Dan's move away from comedy free-speech
+absolutism to **28 March 2022**, during the Chris Rock slap. This page has it
+five months earlier, during the Chappelle row:
+
+> *"Lenny Bruce was arrested...not by 'the public', but by the state. Dave
+> Chappelle is facing criticism which is, I'm told, different."*
+
+That is the whole argument in two sentences, and it is aimed precisely at the
+martyrdom analogy the position depends on. Set against **16 January 2019** —
+*"The recent joke shaming of Louis CK is so fucking disturbing"* — the move
+happens somewhere in the thirty-three months between, and the earliest dated
+instance of the new position is **2021-10-26**, not March 2022.
+
+The O&A page's 2022 example is not wrong; it is just not first. Corrected
+there rather than left for the next reader to trip over.
+
+## January 6th: a conspiracy entertained, priced, and one rejected
+
+The Capitol riot produces the year's densest cluster, and it is the best
+available demonstration of what
+`wiki/mind/synthesis/vertical-authority-skepticism` means when it says the
+"conspiracy crank" label is contradicted by his behaviour.
+
+**He forms one.** On 7 January: *"i'm as sure as i could possibly be that the
+capitol police had arranged to allow the chuds into the building while they
+LARPed the violence they would usually be committing"* — a serious accusation
+of collusion by a police force, stated at high confidence.
+
+**Then he immediately prices it, in the same tweet:** *"but what was the
+endgame? is that being too generous"*. The hypothesis is published with its own
+weakest point attached, and the weakest point is that it credits the actors
+with more coherence than the evidence supports.
+
+**And he rejects the mirror-image conspiracy on structural grounds.** On
+17 January, to somebody arguing antifa infiltration: *"Sooooooo...are you saying
+that the radical leftists were agitating to keep the far-right president in
+power rather than the democratic candidate? Do you seriously think that antifa
+is working against their own ideological values to sling mud on Trump
+supporters?"* The refutation is not "that's a conspiracy theory" — it is that
+the theory requires its actors to work against their own interests.
+
+That is the distinction the whole vertical-authority page rests on: he is not
+credulous about institutions and he is not credulous about the stories told
+against them either. The test he applies is whether the actors' behaviour makes
+sense from inside their own position, and he applies it to his own hypothesis
+first.
+
+## Texture
+
+*"gonna exec produce a new primetime series that is just conservatives in a
+restraining chair (like the theater scene from a clockwork orange) and make
+them define terms they constantly use incorrectly such as: socialism,
+globalism, obamagate, liberty/freedom"* (5 January) — the definitional-precision
+instinct as a revenge fantasy. Matt Gaetz *"is a lot more tolerable if you just
+pretend he is actually a 4th grader who switched bodies with an Arizona State
+undergrad"* (15 January). And on 12 November, a small perfect one: he
+misreads a tweet in somebody's likes, believes for twelve hours that his old
+coach is coaching in the NFL, **telephones his mother about it**, and then
+posts the correction himself.
+
+## What would change this reading
+
+The Chappelle correction is solid — it is a dated post making the argument, and
+the O&A page's own example is later. The Jan 6 reading interprets a
+self-qualification as method rather than as hedging, which is a real
+alternative; the reason to prefer method is the 17 January rejection, which
+applies the same test to the opposite conspiracy at cost to his own side's
+narrative. And 34 posts is a small year to characterise a position from — the
+vocabulary is unambiguous, but the absence of any internal *doubt* about the
+position may be an artefact of how little he posted.
 
 ## Coverage
 
@@ -87837,7 +88095,7 @@ Fetterman primary as a recurring object. GOP 'radical Democrat' talk, a restrain
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
-## January
+## The record
 
 ### 2021-01-05 06:28:43 UTC · [1346342849357508609](https://x.com/danfrank/status/1346342849357508609)
 *likes 0 · replies 0 · reposts 0*
@@ -100370,7 +100628,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,516 events** across **80 years** (1796–2027), drawn from **380 pages**. Tier 1 693 · Tier 2 427 · Tier 3 2,396.
+**3,528 events** across **80 years** (1796–2027), drawn from **382 pages**. Tier 1 694 · Tier 2 427 · Tier 3 2,407.
 
 ## What counts as an event here
 
@@ -101308,7 +101566,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **August 2009** — full sail 2008 2010** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomorrow"*, which puts the final month in September. And across November and…  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **August 2009** — full sail 2008 2010 — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 33 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
 - · **August 2009** — t013 — date — certain — refuted  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2009-08-31** — On **31 August 2009** he writes *"so weirded out i start my last month of college tomorrow. having multiple reality checks."* — which places the final month in **September**, not August.  
@@ -101389,7 +101647,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2010-01-03** — one is timestamped by the platform and one was typed into a profile  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **2010-01-03** — facebook — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 20 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 18 pages
 - · **2010-01-03** — t002 — date, location — certain — refuted — The tweet archive has him in Florida for another eight weeks: 'moving to brooklyn in 9 days' (20 Feb 2010), 'last day in errrlando' (27th), 'peace out, florida. it's been real.' (28th)  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2010-01-03** — Places lived  
@@ -102087,7 +102345,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2014-05-07** — Drake x Cashmere Cat – No Lie ft. 2 Chainz (SLOPPP Bootleg) — Bootleg  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **2014-05-13** — sloppp — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 20 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 18 pages
 - · **2014-05-14** — Heatwave Vol. 1** — "1 hour of tweriffik plurntastic tracks" — **Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
 - · **2014-05-22** — SLOPPP Trap Micromix — Mix  
@@ -102099,7 +102357,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2014-07-03** — Anthony Cumia was fired by SiriusXM on **3 July 2014**, after posting a series of racist messages about a Black woman who had struck him in Times Square.  
   ↳ [[wiki/self/twitter/2014]] · 4 July 2014, and a correction to the corpus's own account
 - · **2014-07-03** — opie and anthony — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 33 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
 - ★ **2014-07-04** — The contemporaneous record shows he was not among the repulsed at the time: on **4 July 2014**, one day after Cumia was fired over racist posts, Dan tweeted at him *"nothing but love and respect ant.  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · The O&A cause is real but its date is not 2014
 - · **2014-07-04** — t015 — Dan was among the O&A fans repulsed by the racism at the time of the 2014 split, and that repulsion radicalized him to leftist politics. — self_state, sequence — confident — partial  
@@ -103424,7 +103682,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **May 2017** — Twice Dan evidently weighed what he'd bought and found it light, and twice Vaughn retreated to the same defense: "What did it weight because he said it was 3.5… that's my best friend I got it from and I know he wouldn't do it on purpose" (May 2017), and "I swear I watched him weigh it" against a…  
   ↳ [[wiki/people/vaughn]] · The yard and the hustle, one channel
 - · **May 2017** — eric jester — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 20 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 18 pages
 - · **May 2017** — Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two Nemacolin caddying seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a fellow caddie in 2017 who came back for 2018 as **assistant caddie master** — "I'm actually gonna be assistant caddie…  
   ↳ [[wiki/people/davey-fitzpatrick]] · Davey Fitzpatrick
 - · **May 2017** — Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose message thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — sparse check-ins that resurface every year or two, each one picking back up exactly where the last left…  
@@ -104259,6 +104517,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/ally-lubin]] · The measurements
 - · **2019-01-09** — Ally's *"I want to be on your payroll tho / But you scare me"* (2019) and her *"When you want to be a power couple LMK"* (2019-01-09) are the water-sign currents running underneath the text.  
   ↳ [[wiki/self/concepts/astrology-star-signs]] · The Scorpio-Cancer Pairing
+- ★ **2019-01-16** — Set against **16 January 2019** — *"The recent joke shaming of Louis CK is so fucking disturbing"* — the move happens somewhere in the thirty-three months between, and the earliest dated instance of the new position is **2021-10-26**, not March 2022.  
+  ↳ [[wiki/self/twitter/2021]] · 26 October 2021 corrects a date
 - · **2019-01-27** — On **2019-01-27** a confidant who had earlier received the *"$3000 plaything"* disclosure writes to Dan:  
   ↳ [[wiki/mind/psychosexual/arrangement-history]] · Limb 3: no encounter in the corpus has drugs as its consideration
 - · **2019-01-27** — 1 — The fight: "stamp notes" book insult  
@@ -104637,6 +104897,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/psychosexual/index]] · The cluster at a glance
 - · **October 2019** — Anti-Trump liberal resistance** — 2017–2019  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · The four stages, and what 2020 actually converted him from
+- · **October 2019** — liberal — impeachment as procedural drama, a Cory Booker joke  
+  ↳ [[wiki/mind/synthesis/2020-left-turn]] · The four stages, and what 2020 actually converted him from
 - · **October 2019** — After October 2019 the volume collapses and the direction of neglect inverts.  
   ↳ [[wiki/people/ally-lubin]] · The reversal (2020–2025)
 - · **October 2019** — The October 2019 coordination itself is not in the iMessage corpus under this handle; it presumably ran through another channel or app.  
@@ -104651,6 +104913,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **October 2019** — The "still a liberal in October 2019" claim rests on absence — nothing about class, labour or socialism in 57 posts — in a year that is spreadsheet-backed but not proven exhaustive.  
   ↳ [[wiki/self/twitter/2019]] · What would change this reading
+- · **October 2019** — The 2019 page establishes that in October 2019 Dan was joking about voting for Cory Booker and addressing *"moderate conservatives"* as a fellow traveller.  
+  ↳ [[wiki/self/twitter/2020]] · 15 and 23 February 2020: the analysis arrives six months before the label
+- · **October 2019** — So the transition sits between October 2019 and February 2020, and its occasion is the Democratic primary rather than the lockdown.** The refinement to `2020-left-turn` is a sequence rather than a date:  
+  ↳ [[wiki/self/twitter/2020]] · 15 and 23 February 2020: the analysis arrives six months before the label
+- · **October 2019** — liberal — impeachment as procedural drama, a Booker joke  
+  ↳ [[wiki/self/twitter/2020]] · 15 and 23 February 2020: the analysis arrives six months before the label
+- · **October 2019** — What makes it hold is the contrast with October 2019 rather than the content alone, and if 2019 turns out to be missing posts, the contrast weakens.  
+  ↳ [[wiki/self/twitter/2020]] · What would change this reading
 - ★ **2019-10-02** — Grandfather Jim dies  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2019-10-02** — origin point of the Sugie caregiving era  
@@ -104754,6 +105024,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/matthew-palermo]] · Corpus record
 - ★ **February 2020** — The relationship was purely commercial, and its defining event is commercial too: in February 2020, after Dan left him standing outside the building twice in one day without answering, **Sam fired him as a customer** — "Ok I'm leaving don't never hit this number" — and then quietly un-fired him…  
   ↳ [[wiki/people/sam]] · Sam
+- · **February 2020** — left analysis, fluent, during the primary — before the lockdown  
+  ↳ [[wiki/mind/synthesis/2020-left-turn]] · The four stages, and what 2020 actually converted him from
 - · **February 2020** — Chapo Trap House  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · The media pipeline (dirtbag left / BreadTube)
 - · **February 2020** — Jan–Feb 2020:** a flood of Bernie 2020 FEC-deadline donation-ask  
@@ -104764,6 +105036,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/facebook/friends]] · Sample Friends (from export list + activity stamps)
 - · **February 2020** — Politics / philosophy — 2017–2020  
   ↳ [[wiki/self/facebook/interests]] · Pages Liked (~229–234 unique, spanning ~2012–2022)
+- · **February 2020** — left analysis, fluent, in the primary** — before any lockdown  
+  ↳ [[wiki/self/twitter/2020]] · 15 and 23 February 2020: the analysis arrives six months before the label
 - · **2020-02-03** — 2020-02-03:** working a friend live during Iowa — "are you ready to  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · Bernie 2020 as the bridge
 - · **2020-02-05** — 2020-02-05:** *"there's no reason that amazon should pay no tax while you can't go to the doctor AND have to pay taxes."* **2020-02-07:** *"imagine being able to just go to the doctor or dentist when you need,"* and, seven minutes later, *"the doctor thing is a really big thing for me...like…  
@@ -104892,6 +105166,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter/2014]] · 4 July 2014, and a correction to the corpus's own account
 - · **August 2020** — The August 2020 self-narration is ten months away.  
   ↳ [[wiki/self/twitter/2019]] · Still a liberal, in October 2019
+- · **August 2020** — the label adopted, privately, in the self-narration that page quotes  
+  ↳ [[wiki/self/twitter/2020]] · 15 and 23 February 2020: the analysis arrives six months before the label
 - · **August 2020** — The period's most durable ideological product is the documented socialist conversion of August 2020: a self-narrated, media-driven radicalization (Chapo, Hasan Piker, ContraPoints) cemented by lockdown reading of the primary texts — argued in full at 2020 left turn.  
   ↳ [[wiki/timeline/periods/covid-era-2020]] · Reading during isolation
 - ★ **2020-08-21** — On **August 21, 2020** the court signed the order distributing **$144,069.31** of the Fran estate to Dan.  
@@ -104910,6 +105186,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The two source-lines and their trustee
 - · **2020-08-22** — 10. Religious and ideological programming  
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The constitution pass
+- · **2020-08-22** — That is the first public political self-identification in seventeen years of this account, and it is **independent corroboration of the conversion the synthesis dates to a private self-narration of 2020-08-22** — same year, six weeks later, no AI in the loop, addressed to strangers.  
+  ↳ [[wiki/self/twitter/2020]] · 3 October 2020: the declaration
 - ★ **September 2020** — All four moved by typed-edge addition only**, and the diffs are worth naming precisely so the next pass does not re-open them: `tom` and `july-2026-recontact` gained edges into the new James Dee arc; `attachment-model` gained a `parallels` edge to the handed mirror; `annie-ulmer` gained one…  
   ↳ [[wiki/mind/synthesis/block-unblock-loop]] · RE-CHECKED [2026-08-18]
 - ★ **September 2020** — He helps with small favors (offering to fix a cousin's washing machine, cigarette runs), references his mother's health and household routines constantly, and the relationship persists in occasional pings through a long 2019–2020 gap, closing with a September 2020 "Hey I just got home from bowling…  
@@ -105004,6 +105282,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/open-questions]] · timeline (81)
 - · **Autumn 2020** — worth checking whether other exports hold more of it.  
   ↳ [[wiki/meta/open-questions]] · timeline (81)
+- · **October 2020** — declared in public: *"if 2020 hasn't made you a marxist ... you're either frighteningly uninformed or just a fucking ghoul"  
+  ↳ [[wiki/mind/synthesis/2020-left-turn]] · The four stages, and what 2020 actually converted him from
+- · **October 2020** — the label declared in public, as an ultimatum  
+  ↳ [[wiki/self/twitter/2020]] · 15 and 23 February 2020: the analysis arrives six months before the label
 - · **Autumn 2020** — Does the email handle `alulmer28@gmail.com` carry anything outside 2020-07→10?** It is the only source for autumn 2020; worth checking whether other exports hold more of it. 8.  
   ↳ [[wiki/timeline/annie-read-notes]] · 2. Open leads
 - ◆ **2020-10-06** — By October 6, 2020, Dan reported "dude i made $600 just from FSLY today." Later messages show Jerad advising Dan on the position through October 2020, with both monitoring the vertical tail.  
@@ -106851,7 +107133,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-14** — Dan does not hear or process sung lyrics as language in real time — he stated this directly (2026-07-14): words in a song register to him essentially as **timbre**, another textural element of the vocal performance, not as semantic content to be parsed and understood the way lyrics function for…  
   ↳ [[wiki/interests/music/concepts/lyrics-as-timbre]] · Lyrics as Timbre
 - · **2026-07-14** — vanessa frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 20 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 18 pages
 - · **2026-07-14** — au zaatar — work  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-07-14** — t009 — enumeration — hedged — partial — The tweet archive holds two pieces the list did not: the letter 'A' for Alexis, tattooed 23 January 2010 and eight years earlier than anything on the list, and a Morrissey piece dated by 24 October 2019.  
@@ -106917,7 +107199,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 33 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -107111,7 +107393,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-02** — For context injection:** July 26 – August 2, 2026. 1,880 messages, 969 from Dan, 911 from Annie.  
   ↳ [[wiki/timeline/events/july-august-2026-reentanglement]] · LLM Quick Brief
 - ★ **2026-08-03** — 2015 possession arrest — legal  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 33 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
 - ★ **2026-08-03** — 2015 retail theft arrest — legal  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-22 — 4 pages
 - · **2026-08-07** — Sexual contact resumes, per operator testimony  
@@ -107517,7 +107799,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
 - · **2026-08-23** — overview — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 33 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
 - · **2026-08-23** — closing the set — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-23** — annie ulmer personality assessment — people  
@@ -107589,7 +107871,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — chemical architecture — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 33 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
 - · **2026-08-28** — cocaine — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 4 pages
 - · **2026-08-28** — alias as periodization — mind  
@@ -107671,13 +107953,13 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-09-02** — The git log read as a record of *operations* rather than saves  
   ↳ [[wiki/meta/instruments/index]] · The measures
 - · **2026-09-02** — 2020 left turn — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 33 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
 - · **2026-09-02** — failure to launch — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 33 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
 - · **2026-09-02** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 33 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
 - · **2026-09-02** — location history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 33 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
 - · **2026-09-02** — chatgpt — self  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-09-02** — He had no page here until 2026-09-02, and he is not named anywhere else in the corpus: no message thread, no Facebook exchange, no appearance on another person's page.  
@@ -107706,7 +107988,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 380 wiki pages. 1,039 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 382 wiki pages. 1,042 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================
