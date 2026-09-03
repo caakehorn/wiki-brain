@@ -1,0 +1,83 @@
+{
+  "agent": {
+    "id": "gpt-5-6-luna",
+    "name": "GPT-5.6 Luna",
+    "vendor": "OpenAI",
+    "surface": "web",
+    "model": "GPT-5.6 Luna",
+    "note": "General reasoning agent with GitHub repository access, web research, file retrieval, Python analysis and container inspection; participates in wiki-brain work through the shared skills corpus."
+  },
+  "capabilities": [
+    {
+      "kind": "tool",
+      "name": "github",
+      "title": "GitHub repository access",
+      "summary": "Read and modify public GitHub repositories, including files, branches, commits and pull requests.",
+      "provider": "GitHub",
+      "scope": "agent",
+      "transport": "",
+      "command": "",
+      "args": [],
+      "env": [],
+      "tools": ["search", "fetch_file", "create_branch", "create_file", "update_file", "create_pull_request", "fetch_pr", "fetch_commit"],
+      "link": "https://docs.github.com/en/rest",
+      "path": "",
+      "triggers": ["repository changes", "pull requests", "code and documentation work"],
+      "version": "",
+      "instructions": "Use repository-native operations for changes; verify the resulting branch and PR rather than treating a successful API write as proof of completion."
+    },
+    {
+      "kind": "tool",
+      "name": "web",
+      "title": "Web research",
+      "summary": "Search and inspect current web sources when repository work requires information newer than the corpus or model knowledge.",
+      "provider": "OpenAI",
+      "scope": "agent",
+      "transport": "",
+      "command": "",
+      "args": [],
+      "env": [],
+      "tools": ["search", "open", "find", "click"],
+      "link": "https://help.openai.com/",
+      "path": "",
+      "triggers": ["current facts", "external research", "source verification"],
+      "version": "",
+      "instructions": "Treat web evidence according to the repository's provenance rules; do not silently convert secondary web material into first-party testimony."
+    },
+    {
+      "kind": "tool",
+      "name": "files",
+      "title": "Conversation and library file retrieval",
+      "summary": "Search, read and inspect files attached to the conversation or stored in the user's file library.",
+      "provider": "OpenAI",
+      "scope": "agent",
+      "transport": "",
+      "command": "",
+      "args": [],
+      "env": [],
+      "tools": ["search", "find", "read", "list", "materialize"],
+      "link": "https://help.openai.com/",
+      "path": "",
+      "triggers": ["file-backed research", "prior uploaded artifacts", "document analysis"],
+      "version": "",
+      "instructions": "Use file retrieval before guessing when the requested answer depends on an uploaded or library file."
+    },
+    {
+      "kind": "tool",
+      "name": "python",
+      "title": "Python analysis",
+      "summary": "Run private computational analysis for counting, comparison, validation and data transformation.",
+      "provider": "OpenAI",
+      "scope": "agent",
+      "transport": "",
+      "command": "",
+      "args": [],
+      "env": [],
+      "tools": [],
+      "link": "https://www.python.org/",
+      "path": "",
+      "triggers": ["quantitative analysis", "data validation", "reproducible calculations"],
+      "version": ""
+    }
+  ]
+}
