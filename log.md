@@ -8355,3 +8355,54 @@ on that page as unresolved with what would settle it.
 datetime (the backend returned an id but no `created_at`), the true total tweet
 count, the 2008–09 months truncated at the ten-result search cap, 121 of the
 129 still-truncated rows, and seventeen years of reposts.
+
+## [2026-09-03] review | meta | architectural review of the Wiki Brain Rebuild Proposal
+
+Operator asked whether to rebuild the wiki brain on a new architecture (GPT-5.6
+Luna's proposal) or continue on this one. Reviewed the proposal against the
+repository rather than against the concept. Verdict: **do not rebuild.**
+
+**The finding that decides it.** `main` is red on five of eight gates and has
+been since 2026-09-02. Every failure traces to one file added by PR #247
+(`c15b6ed`), `wiki/synthesis/twitter-2024-cognitive-state.md`. One of those
+errors is `bin/wiki-climb check` reporting *"sources a wiki page
+(wiki/self/twitter/2024.md) — wiki belongs in synthesizes:"* — which is the
+proposal's own central thesis (§2, source/evidence/synthesis collapse) detected
+and located by existing tooling in 6.1 seconds. The same author promoted
+`skills/corpus/source-chain.md` the same day, whose instruction #1 forbids
+exactly that move. Rule existed, gate existed, gate fired, nobody ran it, merged.
+
+**Why that is architectural, not incidental.** No workflow in `.github/` has a
+`pull_request:` trigger and none runs `bin/wiki-check`. The gates are advisory
+in practice. The binding constraint is enforcement, not architecture.
+
+**Measured against the proposal's 19 features:** six already exist (typed-edge
+graph = 2,465 edges on 385 pages; contradiction handling = 53 pages plus the
+gated `RETRACTED.md`; derived-surface dependency graph = `bin/wiki-climb check`;
+skill lifecycle = `skills/` + `bin/wiki-lessons`; self-registration =
+`skills/registry`, 70 events; provenance = `sources:`/`synthesizes:` on 485/79
+pages). One diagnosis is correct and unaddressed: the instruction surface is
+~87,000 words mandatory at session start, of which `LLM_HANDOFF.md` alone is
+58,873 — fixable by rotation and routing, not by a new repository.
+
+**Migration hazards the proposal misses.** The standing Annie moratorium is not
+mentioned once, though it is a safety directive enforced as code in three tools
+and pinned by tests — and Phase 5's "regenerate synthesis from the migrated
+substrate" is precisely the operation it forbids. Also: 324,950 words across 80
+`knowledge: earned` pages where the prose *is* the artifact and `CLAUDE.md`
+already forbids regeneration; the three existing structured layers cost 50–120
+LOC per event held (`intake` 2,363 LOC / 20 events), which is the real
+machinery-to-data ratio for the proposed substrate; 685 MB of immutable `raw/`;
+the portal's `wiki/**` read contract and git-log-derived page history; and
+`wiki.locks.json`'s sealed pages.
+
+Written up as `REBUILD_REVIEW.md`, answering §28 A–J directly. Recommendation is
+enforcement over architecture: fix the five red gates, add a `pull_request:` CI
+check running `bin/wiki-check --check-only`, gate or delete
+`AGENT_ACTIVITY_LOG.md` (currently an ungated MUST that nothing reads), rotate
+the handoff file, split `CLAUDE.md` into bootstrap plus routed operations,
+promote contradictions to a gated ledger, and re-measure in 90 days.
+
+Not fixed in this pass: the five red gates. The repair requires deleting or
+substantially rewriting another agent's merged page, which is an operator call
+and outside the review question. It is recommendation #1 in the document.
