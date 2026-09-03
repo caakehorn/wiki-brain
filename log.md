@@ -9061,3 +9061,67 @@ casing.
 
 Scoped to `wiki/self/twitter/*.md` only. The hub page has no tweet headings and
 is untouched, as is every other page in the wiki.
+
+## [2026-09-03] adjudicate | meta | the prediction seam, scored — and his certainty turns out to be the signal to discount hardest
+
+The tweet archive holds a body of claims Dan built to be **falsifiable**: dated
+public predictions with reasoning attached and public outcomes. `LLM_HANDOFF.md`
+named this as the best unmined calibration material in the corpus. Five were
+scored. **n goes from 9 settled claims to 15**, which is the first point at
+which the confidence bands say anything.
+
+| id | claim | said | outcome |
+|---|---|---|---|
+| t017 | any Biden replacement is 25% at best and will not win (2024-07-06) | confident | **confirmed** |
+| t018 | Biden will outperform low expectations at the debate (2024-06-28) | hedged | refuted |
+| t019 | Trump walks on all charges after a hung-jury mistrial (2023-06-13) | confident | refuted |
+| t020 | the election will be decided by inevitable legal challenges (2024-09-24) | confident | refuted |
+| t021 | Trump will never be held to account in a courtroom (2022-09-26) | certain | partial |
+
+**t017 is the strongest record in the ledger.** Posted at 3:15am on 6 July
+2024 — fifteen days before Biden withdrew, when the replacement was not yet
+known — with an explicit numeric ceiling on three named candidates, against a
+consensus that had the race at roughly even once Harris entered. It held.
+
+**The finding is the gradient, not the score.** Veracity is 46/100 and that
+number is close to useless. The calibration table is not:
+
+| he says | it is worth | gap | n |
+|---|---|---|---|
+| certain | 0.30 | **−0.65** | 5 |
+| confident | 0.54 | −0.26 | 7 |
+| hedged | 0.50 | −0.10 | 3 |
+
+**The overconfidence scales with the confidence expressed.** His hedges are
+nearly honest; his certainties are worth less than a coin flip. The usable
+correction — **when Dan says he is certain, discount hardest** — is the inverse
+of how a confidence marker is normally read, and it is exactly the kind of
+subtractable bias `testimony/README.md` says the ledger exists to produce.
+
+**`overreach` is now the dominant failure mode**, five of ten misses: a real
+observation generalised past what it supports. Not ignorance, not
+confabulation — a correct perception extended one step too far, which is the
+error an anomaly-detection orientation should be expected to produce. Written
+into `wiki/mind/profile/index` beside the self-reported ~82nd-percentile
+metacognition figure, which it complicates rather than refutes: the two are not
+straightforwardly commensurable and are held side by side.
+
+**A bias I introduced, and disclosed in the generator rather than the log.**
+Mining tweets specifically for falsifiable predictions loaded
+`platform_self_report` with hard claims — election forecasts are far harder to
+get right than a claim about where he lived — and that channel now reads 0.25.
+`bin/wiki-testimony`'s "What this ledger cannot see" section gains a permanent
+paragraph saying so, because the number is on a public page and the caveat has
+to travel with it.
+
+**Two candidates deliberately not recorded.** The 2022-08-24 midterm post
+references *"my forecast for house control"* without ever stating it, and the
+2022-03-16 messaging-ceiling claim never names its subject. Both would have
+required inventing the claim's content. They are seams a scrape of his replies
+might close.
+
+**One regression fixed on the way through.** `tests/test_lint_gates.py`'s
+index-drift test was failing on `main`: moving the 2024 twitter synthesis into
+`wiki/mind/synthesis/` in PR #251 took that domain to 74 pages and the master
+index still said 73. `bin/wiki-lint` does not catch domain-count drift; only
+the test does. Corrected — 367 tests pass.

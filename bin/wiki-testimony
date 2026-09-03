@@ -1121,6 +1121,16 @@ def render_page(state):
           "doubted. Expect the settled set to over-represent both the "
           "spectacular confirmations and the spectacular failures.",
           "",
+          "**The channel column is confounded by what each channel was mined "
+          "for.** A channel's outcome value measures the claims somebody chose "
+          "to pull from it, not the channel's reliability. "
+          "`platform_self_report` is the clearest case: it is loaded with "
+          "dated public predictions, deliberately harvested because they are "
+          "falsifiable and publicly settled, and a prediction about an election "
+          "is a far harder thing to get right than a claim about where he "
+          "lived. Read that row as *these claims went this way*, never as "
+          "*this is how reliable he is on that surface*.",
+          "",
           "**Nothing here measures honesty.** Every outcome in this ledger is "
           "consistent with a person reporting in good faith and misremembering. "
           "The failure-mode column exists precisely so the two can be told apart "
