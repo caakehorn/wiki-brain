@@ -3,8 +3,8 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
-knowledge: derived
+date_modified: 2026-09-03
+knowledge: mixed
 date_range_start: 2019-01-02
 date_range_end: 2019-12-17
 title: "Twitter / X — 2019"
@@ -22,11 +22,178 @@ connections:
   - page: wiki/self/twitter/2020
     type: precedes
     claim: '2019 is the immediately previous year of originals before 2020 on the same account.'
+  - page: wiki/self/location-history
+    type: evidences
+    claim: 'Closes the far end of the address-level blind window: "Au revoir Pennsylvania. Adiós Trump country." (2019-03-03) is the only dated departure from Fayette County in the archive, and by October the state is a weekend destination rather than a home.'
+  - page: wiki/health/chemical-architecture
+    type: evidences
+    claim: 'The nicotine regulator is preserved through every attempt to remove it, and in 2019 he states the logic himself — "i could replace the constant taste of burnt tobacco with strawberry" (9 October), nine years after the same move with an e-cigarette, followed within a day by a can of Skoal.'
+  - page: wiki/mind/synthesis/2020-left-turn
+    type: evidences
+    claim: 'Ten months before the conversion he is watching impeachment as procedural drama, addressing "moderate conservatives who elected this guy as a symbolic ultimatum", and joking that he is voting Cory Booker. Nothing in 57 posts mentions class, labour, healthcare or capitalism — so the state immediately prior to the turn was not a partly-converted one.'
+  - page: wiki/mind/psychosexual/arrangement-history
+    type: evidences
+    claim: 'A 2019 retrospective on the 2010 move lists four reasons and then inverts the ordering — "^sort by( importance: low to high)" — which places "availability of sex workers" first. Told nine years after the fact, by somebody who chose to tell it.'
 ---
 
 # Twitter / X — 2019
 
-Thin, then impeachment-era links and Putin asides. 'its called a gavel.' The sampled 2019–2026 synthesis that used to stand in for the whole archive was really a window starting here; the earlier years on either side of it are now first-class pages.
+**The year he leaves Pennsylvania, quits smoking for the third recorded time,
+reads his own archive, and is still voting for Cory Booker ten months before
+becoming a socialist.**
+
+2019 is thin — 57 posts — and almost every one of them is load-bearing for
+something else in the corpus.
+
+## 3 March: "Au revoir Pennsylvania. Adiós Trump country."
+
+One line, no elaboration, and it is the only dated departure from Fayette
+County anywhere in the archive.
+
+`wiki/self/location-history` records an address-level blind window that the
+2013, 2014 and 2016 pages have now filled with presence in Western PA. This
+closes the other end of it: he was there, and on **3 March 2019** he left, and
+he framed the leaving politically — *"Trump country"* — rather than
+practically. Later in the year the state is a destination rather than a home:
+**10 October**, *"today i bought a can of skoal to prepare me for a weekend in
+Pennsylvania."*
+
+Where he went is not stated here. *"Miss u nyc"* (2017-08-15) and *"reasons i
+moved to nyc"* (below) are the only nearby evidence and neither is a current
+address. This is a gap the page names rather than fills.
+
+## The nicotine pattern, now stated by him, at n=3
+
+`wiki/self/twitter/2010` records a tobacco quit via e-cigarette on 13 December
+2010; `wiki/self/twitter/2011` shows it lasted at most three weeks. On
+**9 October 2019** he does it again, and this time explains the logic himself:
+
+> *"one reason i started vaping is because i felt like a piece of shit for
+> exposing my animals to smoke. the other is because i could replace the
+> constant taste of burnt tobacco with strawberry or other flavors that aren't
+> terrible"*
+>
+> *"it's anecdotal af but the health benefits of switching were immediately
+> obvious. my lungs don't feel like they're full of fluid anymore and the
+> 'wheezing' thing doesn't plague me like it did for 5 years while smoking"*
+
+**Replace the delivery system, keep the molecule, and report the health
+benefit** — stated in his own words, nine years after doing exactly the same
+thing with the same substance, and nine years after the corpus's other instance
+of the same structure. `wiki/health/chemical-architecture` catalogues nicotine
+as a ritual regulator; this is the mechanism by which the regulator is
+preserved through every attempt to remove it.
+
+He defends the arrangement politically too, on **12 September**, against the
+flavour ban: *"i'm sure there's some super good reason to wait until paragraph
+8 before bringing up that the #flavorban is a response to a completely
+unrelated issue."*
+
+And on **10 October**, immediately after: *"today i bought a can of skoal"* and
+*"apparently one dose of skoal is equivalent to smoking 327 cigarettes because
+i feel like i'm about to black tf our."* A fourth delivery system, tried within
+a day of the third being praised.
+
+## 9 October: he read his own archive
+
+> *"reading through my old tweets from like 2009 and the only thing i can
+> relate to or recognize is all the pot talk."*
+
+Seven years before this wiki existed, Dan ran the same operation on the same
+corpus and reported the result: **continuity of one habit, discontinuity of
+everything else.** It is worth setting beside what these nineteen pages
+actually found, because he is close to right and wrong in an interesting place
+— the *vocabulary* and *affiliations* change completely, and the *method*
+(anomaly detection, the on/off self-verdict, the announced-then-unshipped
+project) does not change at all. He could see the surface change and not the
+structural constancy, which is the ordinary condition of looking at yourself
+from inside.
+
+The same day, 24 September: *"i've been on twitter for 11 years, which is more
+than the number of interesting or insightful tweets i've produced."*
+
+## Still a liberal, in October 2019
+
+The August 2020 self-narration is ten months away. The politics here are
+impeachment politics, consumed as procedural drama and produced as comedy.
+
+The **27 September whistleblower thread** is six consecutive posts imagining
+the whistleblower's domestic life — *"what did the whistleblower have for
+dinner tonight? did they order in? i bet they had leftovers because they ate
+lunch late and haven't had an appetite"*, and a closing note that they should
+get rid of *"WHSLBLWR"* vanity plates. On **4 December**, watching the
+Judiciary Committee: *"Prof Karlan is a fucking OG loc GANGSTER"*, *"Matt Gaetz
+is a shitlord"*, *"okay so this is just a filibuster"*, *"i miss the intel
+committee."*
+
+And on **18 October**: *"i'm voting cory booker because i have a $6 bet that if
+he runs against trump in the general election he will be called 'googly eye
+cory' a bunch of times."*
+
+It is a joke, and jokes are still made out of the available material. Nothing
+in 2019 mentions Sanders, socialism, class, labour, healthcare or capitalism.
+On **2 October** he addresses *"moderate conservatives who elected this guy as
+a symbolic ultimatum"* — a person still arguing across the aisle rather than
+outside the room.
+
+**Ten months later he is a democratic socialist.** That is the single most
+useful thing this page establishes: `wiki/mind/synthesis/2020-left-turn` dates
+the conversion to a specific day, and 2019 shows the state immediately prior
+was not a partly-converted one. The turn is as abrupt as that page says, and it
+follows three years of liberalism rather than a slow leftward drift.
+
+He is also, on **16 January**, still a comedy free-speech absolutist: *"The
+recent joke shaming of Louis CK is so fucking disturbing. You don't have to
+agree with the material to appreciate the essence of what a joke is."*
+`wiki/interests/opie-and-anthony` dates his move away from that position to
+28 March 2022; this is the last dated instance of the old one.
+
+## The record collection is gone
+
+On **12 October**, six posts:
+
+> *"the best thing about my record collection which included first press brand
+> new, signed tttyg clear blue vinyl, is/was a real boy, first press rise or
+> die trying, first press mf doom etc etc is that i don't have it anymore i
+> guess"*
+> *"fun fact i bought two of those deja entendu records and sold one for $900
+> in 2014."*
+> *"i had a pre release version of late registration for def jam a&r 7 of 20"*
+> *"but the resale value and the incredible cost is not nearly the biggest loss
+> i feel about these treasures getting sold as $1 bin throwaway vinyl"*
+
+**Somebody else sold them, and sold them as junk.** He does not say who, when,
+or under what circumstances, and the sarcasm (*"i can't stop winning"*) is
+carrying the whole weight. A collection with a documented $900 single sale and
+a numbered promotional pressing went out at a dollar a record.
+
+This is a real loss event with no date, no agent and no context anywhere in the
+corpus, and it is filed here as an **open gap** rather than a finding. It sits
+in the same period as the Pennsylvania departure, seven months earlier, which
+is a proximity worth checking against any household or storage record that
+turns up.
+
+## One retrospective worth keeping
+
+**13 October**, on the 2010 move:
+
+> *"reasons i moved to nyc  1 punk as fuck 2 no driving 3 nobody wants small
+> talk while checking out 4 availability of sex workers"*
+> *"^sort by( importance: low to high)"*
+
+The second post inverts the first, which makes the fourth item the first
+reason. It is a joke, told nine years later, by somebody who chose to tell it —
+and `wiki/mind/psychosexual/arrangement-history` is the page it belongs to.
+Whether it is true is not settleable here; that he said it is.
+
+## What would change this reading
+
+The "still a liberal in October 2019" claim rests on absence — nothing about
+class, labour or socialism in 57 posts — in a year that is spreadsheet-backed
+but not proven exhaustive. The record-collection loss has no date and no
+agent, and any of the three could turn out to be him. And the Pennsylvania
+departure is one line: it says he left, not where he went or for how long, and
+he is back in the state for a weekend seven months later.
 
 ## Coverage
 
@@ -39,7 +206,7 @@ Thin, then impeachment-era links and Putin asides. 'its called a gavel.' The sam
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
-## January
+## The record
 
 ### 2019-01-02 00:36:19 UTC · [1080261471832031232](https://x.com/danfrank/status/1080261471832031232)
 *likes 0 · replies 0 · reposts 0*

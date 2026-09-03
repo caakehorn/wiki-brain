@@ -195,6 +195,51 @@ respect" in 2014 to calling himself a democratic socialist in 2020 is the whole
 size of what changed in him. Someone who walks out the moment they are offended
 has not changed at all.
 
+## Four stages, and what he actually converted from
+
+Reading all nineteen years of his Twitter archive replaces the simple
+before-and-after picture with four distinct stages.
+
+**2009 to 2012 — against people in charge, with no economics.** He drops the
+Republican label in 2009 and names nothing in its place. In 2011 he posts about
+politics eight times and every one is aimed at somebody in authority; none is
+about money being shared out differently.
+
+**2013 to 2016 — checked out.** Almost nothing. He does not post at all about
+the 2016 election, and in December 2016 writes *"I don't know much about
+politics but Obama is NOT a fascist"* — a man disclaiming expertise, five years
+after arguing eight positions sharply.
+
+**2017 to 2019 — anti-Trump, but as a liberal.** Constant and specific. He
+agrees with Mitt Romney and uses the hashtag #ImpeachTrump. He wonders aloud
+whether a full Pence presidency would be better. He reads *Fire and Fury* and
+Comey's memoir in public. He watches impeachment hearings like a sport. In
+October 2019 he jokes that he is voting for Cory Booker. In three years he says
+nothing about class, wages, healthcare or capitalism.
+
+**August 2020 — democratic socialist.** This page.
+
+**So he did not convert from not caring. He converted from being a liberal** —
+a shorter trip, and one he had only been on for three years.
+
+**And the suddenness is real.** Ten months before he called himself a
+socialist, he was joking about Cory Booker and arguing with *"moderate
+conservatives"* as though he were still on their side of the table. There is no
+halfway state in the record.
+
+**But the media trail starts in 2017, and it starts as comedy.** The first
+left-leaning channel anywhere in his archive is Cody Johnston — then at
+*Cracked*, later making *Some More News*. Dan posted about him five times in
+2017, and explained why: *"'some news' might be a comedy show, but I think
+you're making an impact. Ppl (dummies, americans) need aggressive simplicity."*
+That December he stopped following *Cracked* because those people had left.
+
+So the media part of this story is not something he found in 2020. It is a
+comedy audience he joined in 2017 that took three years to turn into politics —
+**the same way he ended up in the Opie & Anthony audience, pointed somewhere
+else.** He does not find political media by being argued into it. He finds it
+by following funny people he already liked.
+
 ## The media pipeline
 
 The names Dan credits are a specific ecosystem, often called the "dirtbag left" or "BreadTube." This is a loose network of left-wing podcasts, YouTube channels and streamers.

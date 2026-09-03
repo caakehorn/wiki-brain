@@ -302,6 +302,48 @@ ant"* to a democratic-socialist self-description is the size of the change
 being documented. A conversion that begins at the moment of the offence would
 be a much smaller claim.
 
+## The four stages, and what 2020 actually converted him from
+
+Reading all nineteen twitter year pages in full (2026-09-03) replaces this
+page's implicit two-state model — before and after — with a four-stage sequence.
+It is qualitative rather than counted, deliberately: the counting failed here
+once already, and what changes across these years is the *kind* of politics,
+which no keyword pattern can see.
+
+| Stage | Years | What it looks like |
+|---|---|---|
+| **Anti-authority, no economics** | 2009–2012 | Republican identity abandoned 2009-11-28 with no replacement named. Eight political posts in 2011, every one aimed at a vertical — church, broadcaster, police, court, executioner, monetary authority, censor — and none redistributive. In 2012 an Obama vote with a programme of limits, not transfers. |
+| **Disengaged** | 2013–2016 | Almost nothing. **No post on or after the 2016 election**, and on 2016-12-08, *"I don't know much about politics but Obama is NOT a fascist"* — a disclaimer of expertise from the man who argued eight positions sharply at twenty-two. |
+| **Anti-Trump liberal resistance** | 2017–2019 | Sustained and specific. Agreeing with Mitt Romney under `#ImpeachTrump`; weighing a full Pence term as *"gotta b better"*; *Fire and Fury* and Comey's *A Higher Loyalty* read in public; Trump conceived as a wasted vehicle for gun control; impeachment consumed as procedural drama; and in October 2019, a joke about voting Cory Booker. Nothing about class, labour, healthcare or capitalism in three years. |
+| **Democratic socialist** | 2020-08-22 → | This page. |
+
+**Two things follow, and both make this page's claim more precise.**
+
+**The conversion is from liberalism, not from apathy.** That is a shorter
+distance and a more specific one — and the thing left behind in 2020 had itself
+only been adopted in 2017. He was a Resistance liberal for three years, which
+is not long enough for it to have been load-bearing.
+
+**And the abruptness this page dates is real.** Ten months before the
+self-narration he is joking about Cory Booker and addressing *"moderate
+conservatives who elected this guy as a symbolic ultimatum"* — arguing across
+the aisle rather than from outside the room. There is no partial state. The
+2019 record shows liberalism intact right up to the edge.
+
+**The pipeline, though, starts three years early — and through comedy.** The
+first channel of that ecosystem in the archive is `@drmistercody` — Cody
+Johnston, then of *Cracked*, later *Some More News* — posted about five times
+across 2017, with Dan's own account of why on 2017-08-20: *"'some news' might
+be a comedy show, but I think you're making an impact. Ppl (dummies, americans)
+need aggressive simplicity."* On 2017-12-05 he unfollowed *Cracked* over staff
+departures, following the people out of the institution.
+
+So the media half of this page's story is not a 2020 discovery. It is a
+2017 comedy-audience migration that took three years to become politics —
+**the same mechanism that carried him into Opie & Anthony, running toward a
+different destination.** He does not arrive at left media through argument. He
+arrives by following funny people he already liked.
+
 ## The media pipeline (dirtbag left / BreadTube)
 
 The names he credits are a specific ecosystem, and the corpus corroborates

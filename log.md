@@ -8807,3 +8807,53 @@ year's only description of the job — a posture stable across five years and
 four jobs. And on 6 March he forecasts his own outcome with the inherited
 instruments: *"The amount of time I'm gonna spend becoming mediocre at them
 will be crzy."*
+
+## [2026-09-03] ingest | self | 2017-2019 read in full — the left turn is a conversion from liberalism, and the pipeline starts in 2017 as comedy
+
+263 rows across three years. The main finding replaces this corpus's implicit
+two-state model of Dan's politics with a **four-stage sequence**, written into
+`2020-left-turn` and both editions.
+
+| Stage | Years | Character |
+|---|---|---|
+| anti-authority, no economics | 2009–2012 | eight political posts in 2011, every one aimed at a vertical, none redistributive |
+| disengaged | 2013–2016 | no post on or after the 2016 election; *"I don't know much about politics"* (2016-12-08) |
+| **anti-Trump liberal resistance** | 2017–2019 | Romney agreed with under `#ImpeachTrump`; a Pence term weighed as *"gotta b better"*; *Fire and Fury* and Comey read in public; Trump as a wasted vehicle for gun control; Cory Booker joked about in October 2019 |
+| democratic socialist | 2020-08-22 → | |
+
+**Two consequences.** The conversion is **from liberalism, not from apathy** —
+a shorter and more specific distance, and the thing abandoned in 2020 had only
+been adopted in 2017. And **the abruptness that page dates is real**: ten months
+prior he is addressing *"moderate conservatives who elected this guy as a
+symbolic ultimatum"*, arguing across the aisle rather than from outside the
+room. No partial state exists in the record.
+
+This is deliberately a **qualitative** finding. The counting failed here on
+2026-09-02 and was withdrawn; what changes across these years is the *kind* of
+politics, which no keyword pattern can see.
+
+**The media pipeline starts three years early and arrives through comedy.**
+`@drmistercody` — Cody Johnston, then of *Cracked*, later *Some More News* —
+appears five times across 2017, with Dan's own account of why: *"'some news'
+might be a comedy show, but I think you're making an impact. Ppl (dummies,
+americans) need aggressive simplicity."* On 2017-12-05 he unfollowed *Cracked*
+over staff departures — following the people out of the institution. **The same
+mechanism that carried him into Opie & Anthony, aimed elsewhere.** He does not
+arrive at left media through argument; he follows funny people he already
+liked.
+
+**The O&A sequence gets its middle term.** *"opie sucks though"* (2018-10-29) is
+the first negative word about either host in the archive: supportive in 2014,
+dismissive in 2018, narrated as radicalisation in 2022. No argument attached —
+the affiliation drops before any reason for dropping it is stated, which is the
+shape of the 2009 Republican exit and the 2013 neo-atheism exit.
+
+**Other findings written back:**
+
+- **The Pennsylvania departure is dated.** *"Au revoir Pennsylvania. Adiós Trump country."* (2019-03-03) — the only dated exit from Fayette County in the archive, closing the far end of `location-history`'s blind window. By October the state is a weekend destination.
+- **The nicotine pattern reaches n=3, stated by him.** 2019-10-09: *"i could replace the constant taste of burnt tobacco with strawberry"* — replace the delivery, keep the molecule, report the health benefit — nine years after doing it with an e-cigarette, and followed within a day by a can of Skoal.
+- **He read his own archive in 2019**: *"reading through my old tweets from like 2009 and the only thing i can relate to or recognize is all the pot talk."* Close to right and wrong interestingly: the vocabulary and affiliations change completely; the method does not change at all.
+- **The record collection was sold as $1-bin junk by somebody else** (2019-10-12, six posts, including a copy he had sold for $900 in 2014 and a numbered promo pressing). No date, no agent, no context anywhere in the corpus. Filed as an open gap seven months after the PA departure.
+- **The 1 January 2018 great-grandmother thread** — 97, advanced dementia, two days of full lucidity, videoed, then *"I've since read a bunch about terminal lucidity"*. Carer (70 hours in one week), observer of his own observation (the decline hid itself by resetting the baseline daily), documenter, and refuser of the consoling reading in the same sentence he offers it.
+- **One word at Charlottesville**: *"L'chaim"*, 2017-08-12 — the account's only religious-identity marker in seventeen years, on the day of the torchlit march.
+- **2018-03-20**: a running spreadsheet of vocabulary to adopt from Desus & Mero. The earliest documented instance of the systematising instinct this wiki is a product of.

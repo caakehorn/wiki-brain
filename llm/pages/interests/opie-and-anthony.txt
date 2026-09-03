@@ -47,6 +47,9 @@ connections:
   - page: wiki/self/twitter/2014
     type: contradicts
     claim: 'Dan backed Cumia the day after the firing — "nothing but love and respect ant" (2014-07-04) — and endorsed his anti-political-correctness framing as "brilliant" three months earlier. The 2022 radicalization account\'s timing does not survive it; its direction of travel does.'
+  - page: wiki/self/twitter/2018
+    type: evidenced-by
+    claim: 'The middle term of the sequence: "opie sucks though" (2018-10-29), three words with no argument attached, four years after the firing and four before the retrospective.'
 ---
 
 # Opie & Anthony / Shock Radio
