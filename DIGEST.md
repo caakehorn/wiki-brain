@@ -60,6 +60,7 @@ this is the state of the thing.
   - ingest | self | 2020 and 2021 read in full — the public declaration, an analysis that precedes the label, and a date corrected by five months
   - ingest | self | 2022 and 2023 read in full — he names Balloon Boy himself, and the method's bill comes due in public
   - ingest | self | 2024, 2025 and 2026 read in full — all nineteen year pages now carry narrative runs
+  - lint | self | the twitter year pages were generating a 2,741-entry table of contents
 
 **2026-09-02** — 12 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one
