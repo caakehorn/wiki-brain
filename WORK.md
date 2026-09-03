@@ -15,7 +15,7 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (104)
+## Obligations (105)
 
 Somebody or something is waiting on each of these. Drain from the top.
 
@@ -104,20 +104,21 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/interests/music/overview.md moved 2026-09-02, after this page's 2026-08-28 | `wiki/mind/synthesis/alias-as-periodization.md` | 2026-09-02 |
 | 3 | stale | premise wiki/interests/music/overview.md moved 2026-09-02, after this page's 2026-08-28 | `wiki/mind/synthesis/failure-to-launch.md` | 2026-09-02 |
 | 3 | stale | premise wiki/interests/music/overview.md moved 2026-09-02, after this page's 2026-08-28 | `wiki/mind/synthesis/music-as-identity.md` | 2026-09-02 |
-| 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-09-02, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/politics.md` | 2026-09-02 |
-| 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-09-02, after this page's 2026-08-19 | `wiki/mind/synthesis/interests-as-era-markers.md` | 2026-09-02 |
-| 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-09-02, after this page's 2026-08-19 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-09-02 |
-| 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-09-02, after this page's 2026-08-26 | `wiki/mind/politics/axioms.md` | 2026-09-02 |
-| 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-09-02, after this page's 2026-08-26 | `wiki/mind/synthesis/political-psyops.md` | 2026-09-02 |
-| 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-09-02, after this page's 2026-08-26 | `wiki/self/context-core.md` | 2026-09-02 |
-| 3 | stale | premise wiki/mind/synthesis/millennial-digital-witness.md moved 2026-09-02, after this page… | `wiki/self/youtube-watch-history.md` | 2026-09-02 |
-| 3 | stale | premise wiki/mind/synthesis/millennial-digital-witness.md moved 2026-09-02, after this page… | `wiki/mind/synthesis/ai-collaborative-analysis.md` | 2026-09-02 |
-| 3 | stale | premise wiki/people/alexis-armel.md moved 2026-09-02, after this page's 2026-08-26 | `wiki/mind/synthesis/bond-switch-2015.md` | 2026-09-02 |
-| 3 | stale | premise wiki/people/alexis-armel.md moved 2026-09-02, after this page's 2026-08-28 | `wiki/mind/synthesis/dormancy-not-exit.md` | 2026-09-02 |
-| 3 | stale | premise wiki/people/alexis-armel.md moved 2026-09-02, after this page's 2026-08-28 | `wiki/mind/synthesis/the-unbroken-bond.md` | 2026-09-02 |
 | 3 | stale | premise wiki/people/josh-brannan.md moved 2026-09-02, after this page's 2026-08-26 | `wiki/people/jerad-friedline.md` | 2026-09-02 |
 | 3 | stale | premise wiki/self/location-history.md moved 2026-09-02, after this page's 2026-07-20 | `wiki/mind/synthesis/spatial-behavior.md` | 2026-09-02 |
 | 3 | stale | premise wiki/self/tattoos.md moved 2026-09-02, after this page's 2026-08-28 | `wiki/interests/food-and-diet.md` | 2026-09-02 |
+| 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-09-03, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/politics.md` | 2026-09-03 |
+| 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-09-03, after this page's 2026-08-19 | `wiki/mind/synthesis/interests-as-era-markers.md` | 2026-09-03 |
+| 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-09-03, after this page's 2026-08-19 | `wiki/mind/synthesis/vertical-authority-skepticism.md` | 2026-09-03 |
+| 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-09-03, after this page's 2026-08-26 | `wiki/mind/politics/axioms.md` | 2026-09-03 |
+| 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-09-03, after this page's 2026-08-26 | `wiki/mind/synthesis/political-psyops.md` | 2026-09-03 |
+| 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-09-03, after this page's 2026-08-26 | `wiki/self/context-core.md` | 2026-09-03 |
+| 3 | stale | premise wiki/mind/synthesis/millennial-digital-witness.md moved 2026-09-03, after this page… | `wiki/self/youtube-watch-history.md` | 2026-09-03 |
+| 3 | stale | premise wiki/mind/synthesis/millennial-digital-witness.md moved 2026-09-03, after this page… | `wiki/mind/synthesis/ai-collaborative-analysis.md` | 2026-09-03 |
+| 3 | stale | premise wiki/mind/synthesis/millennial-digital-witness.md moved 2026-09-03, after this page… | `wiki/self/location-history.md` | 2026-09-03 |
+| 3 | stale | premise wiki/people/alexis-armel.md moved 2026-09-03, after this page's 2026-08-26 | `wiki/mind/synthesis/bond-switch-2015.md` | 2026-09-03 |
+| 3 | stale | premise wiki/people/alexis-armel.md moved 2026-09-03, after this page's 2026-08-28 | `wiki/mind/synthesis/dormancy-not-exit.md` | 2026-09-03 |
+| 3 | stale | premise wiki/people/alexis-armel.md moved 2026-09-03, after this page's 2026-08-28 | `wiki/mind/synthesis/the-unbroken-bond.md` | 2026-09-03 |
 | 4 | skill | unvalidated skill candidate — A generator's own output is not the published object | `skills/INBOX.md` | 2026-08-30 |
 | 4 | skill | unvalidated skill candidate — Persistent cross-agent learning loop | `skills/INBOX.md` | 2026-08-30 |
 | 4 | skill | unvalidated skill candidate — A secret's absence must fail whatever the secret was for | `skills/INBOX.md` | 2026-08-31 |

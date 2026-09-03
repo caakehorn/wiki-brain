@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-03
-497 pages, ~1,755,556 tokens.
+497 pages, ~1,761,999 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10192,8 +10192,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | Pages | 497 |
 | Pages touched in the last 14 days | 188 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
-| Live contradictions | 43 |
-| Open gaps | 507 |
+| Live contradictions | 45 |
+| Open gaps | 509 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -10223,9 +10223,10 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-03** — 4 pages
+**2026-09-03** — 9 pages
+  - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
 
-**2026-09-02** — 42 pages
+**2026-09-02** — 37 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result
@@ -10984,8 +10985,8 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 43 |
-| Open gaps | 507 |
+| Live contradictions | 45 |
+| Open gaps | 509 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
 
@@ -11044,10 +11045,12 @@ somewhere and has not yet found out where.
 - **[[wiki/self/concepts/chatgpt]]** — This page and claude-code make incompatible claims about where an LLM's value sits. This page treats it as residing in the model's *willingness* — a register it will speak in, a class of question it will engage — which is why a guardrail change reads here as a capability loss and why the honesty standard is encoded as 
 - **[[wiki/self/facebook]]** — This paragraph used to say *every* field cross-checks. One does not. `places lived` gives **Brooklyn NYC from January 3, 2010**. The tweet archive has Dan in Florida for another eight weeks: *"moving to brooklyn in 9 days"* on 20 February 2010, *"last day in errrlando…hangin in a u-haul store"* on the 27th, *"peace out
 - **[[wiki/self/twitter]]** — the archive and facebook disagree about when Dan moved to Brooklyn. Facebook's `places lived` field says 3 January 2010. On 20 February 2010 he tweeted *"moving to brooklyn in 9 days"*, and on the 28th *"peace out, florida."* Both records are his own; one is timestamped by the platform and one was typed into a profile 
+- **[[wiki/self/twitter/2009]]** — `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and `wiki/timeline/periods/full-sail-2008-2010` and `wiki/people/alexis-armel` both build on that date. The contemporaneous public record contradicts it in two independent places: a "last month of college" beginn
 - **[[wiki/timeline/events/august-2026-morgantown-call]]** — Dan states he sent the audio to Annie's parents (three times, Aug 19 01:04–01:48) and states that he did not (twice, Aug 19 11:25 and 15:12), and the corpus contains a proven false claim of exactly this kind from the day before. No email, no bounce, no reply, and no third-party reaction appears anywhere in `raw/`. **Th
 - **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — the operator's account says Annie *"contacted her independently without me knowing and invited her back over."* The 22:56 `Shelbie Breakiron.vcf` attachment, sent by Dan to Annie, is hard to reconcile with that. The likeliest reading is that the memory compresses a night in which he supplied the means and did not expec
 - **[[wiki/timeline/events/teen-concert-years]]** — The Facebook "Concerts I've gone to" note dates HIM to **2005-11-09 at Mr. Small's**; the researched list places the Love Metal Tour at **2004-04-21, The Rock Club at Station Square**, with a separate November 2004 return. The note dates Taking Back Sunday / Angels & Airwaves to **2006-07-04 in Columbus**; the research
 - **[[wiki/timeline/events/uniontown-hospital-vape-alarm]]** — fran-death-vigil, written from the Photo Thread session, has Dan blowing enormous clouds from a 110-watt SMOK **in the room** while Suz puffed her 10-watt device **in the hospital bathroom**. Both captures behind this page invert that: **Suz in the room, Dan in the bathroom.** The positions are not decorative — a bathr
+- **[[wiki/timeline/periods/full-sail-2008-2010]]** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomorrow"*, which puts the final month in September. And across November and December 2009 he is plainly still enrolled — *"
 
 ## Standing predictions
 
@@ -11498,7 +11501,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/places/the-unpapered-address]]** — **The pre-2010 record is empty.** Full Sail housing (2008–2010) and everything before it are undocumented, so the rule is tested on sixteen years and not on a life. If the Florida period shows a conventional student lease, the pattern has a start date and the 
 - **[[wiki/places/the-unpapered-address]]** — **This page does not establish intent.** Whether the unpapered arrangements were preferred, accepted, or simply the only ones available at a $11,000–14,000 household income is not decidable from this material, and the three readings have very different implica
 
-### self (62)
+### self (64)
 
 - **[[wiki/self/ancestry]]** — 1. **The Harris paternal line.** Sadie Harris's father ("Harris" from Czechoslovakia) is the single biggest data gap. He contributed ~12.5% of Dan's DNA but is completely undocumented beyond a single datum. Research into Czech immigration records, census data,
 - **[[wiki/self/ancestry]]** — 2. **The maternal R0 haplogroup.** The origin of the R0 mitochondrial haplogroup on the maternal line is unexplained. It may indicate a distant Jewish, Middle Eastern, or Central Asian ancestor entering through the Van Voorhis, Conwell, or Thomas lines. Resear
@@ -11550,7 +11553,9 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/twitter/2008]]** — The account's creation datetime was **not** retrievable — the backend user lookup returned an id (`16430736`) but no `created_at`. Creation on 24 September 2008 is an inference from three consistent facts: the earliest tweet retrieved, two queries before it re
 - **[[wiki/self/twitter/2008]]** — A complete X account export would close both gaps.
 - **[[wiki/self/twitter/2008]]** — This page is the text archive. Every original and every reply retrieved for the year is below, oldest first.
-- **[[wiki/self/twitter/2009]]** — The operator spreadsheet begins 2013-08-17. 2009 is being walked from live X search in batches of ten; this page currently holds 165 originals and will be appended as further batches land. Do not treat the present count as the year's total.
+- **[[wiki/self/twitter/2009]]** — The operator spreadsheet begins 2013-08-17, so none of this year comes from it. The 283 rows here have two origins: 165 walked from live X search in batches of ten, and 118 recovered by the 2026-09-02 backend fetch that also produced the 2008 page. Do not trea
+- **[[wiki/self/twitter/2009]]** — **The distribution of this page is an artefact of how it was fetched, and it will mislead anyone who reads it as behaviour.** Both retrieval methods were capped at ten results per query, and the queries were month-bounded. The consequence is visible on the pag
+- **[[wiki/self/twitter/2009]]** — **What follows for anyone using this page:** no claim about posting frequency, volume, cadence, or a subject going quiet is supportable for January–September 2009, and none should be made. Presence is evidence here; absence is not. A complete X account export 
 - **[[wiki/self/twitter/2009]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 - **[[wiki/self/twitter/2010]]** — The operator spreadsheet begins 2013-08-17. 2010 is being walked from live X search in batches of ten; this page currently holds 342 originals and will be appended as further batches land. Do not treat the present count as the year's total.
 - **[[wiki/self/twitter/2010]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
@@ -11775,9 +11780,9 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 **major** — 41 outstanding
 
 - [[wiki/self/twitter/2024]] (10376 words)
+- [[wiki/self/twitter/2009]] (9344 words)
 - [[wiki/self/twitter/2013]] (9108 words)
 - [[wiki/self/twitter/2010]] (8865 words)
-- [[wiki/self/twitter/2009]] (7167 words)
 - [[wiki/self/twitter/2022]] (6677 words)
 
 **free** — 39 outstanding
@@ -11822,16 +11827,21 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-03 — 4 pages
+## 2026-09-03 — 9 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a CONTRADICTION)_ |
 | [[wiki/meta/testimony-veracity]] | meta | — |
+| [[wiki/mind/synthesis/2020-left-turn]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
+| [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
+| [[wiki/people/alexis-armel]] | people | _(carries a CORRECTED from 2026-09-02)_ |
+| [[wiki/self/twitter/2009]] | self | **CONTRADICTION** — `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and `wiki/timeline/periods/full-sail-2008-2010` and `wiki/people/alexis-armel` both build on |
+| [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | **CONTRADICTION** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomo |
 
-## 2026-09-02 — 42 pages
+## 2026-09-02 — 37 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11841,10 +11851,7 @@ simply listed.
 | [[wiki/meta/index]] | meta | — |
 | [[wiki/meta/instruments/index]] | meta | — |
 | [[wiki/meta/readers-digest]] | meta | — |
-| [[wiki/mind/synthesis/2020-left-turn]] | mind | **CORRECTED** — An earlier version of this section claimed the archive showed **two steps, not one** — a first step in 2017 (4.0% → 11.1%, "nearly tripling") separating *political engagement* from *socialist identity |
-| [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
 | [[wiki/mind/synthesis/twitter-2024-cognitive-state]] | mind | — |
-| [[wiki/people/alexis-armel]] | people | **CORRECTED** — this paragraph first read *"four months in."* That was wrong and it understated the finding. The operator capture of 2026-08-27 dates the meeting to **Thanksgiving 2009** (26 November); the tattoo is  |
 | [[wiki/people/dan-polyak]] | people | — |
 | [[wiki/people/eric-jester]] | people | **CORRECTED** — this page described the friendship itself as "sparse but genuinely warm." That is an accurate reading of the *message thread*, which begins **May 2017**. It is not an accurate description of the frien |
 | [[wiki/people/josh-brannan]] | people | — |
@@ -11856,7 +11863,6 @@ simply listed.
 | [[wiki/self/tattoos]] | self | **CORRECTED** — this page previously read "**entirely** cultural reference … *every* known piece points at a specific record, band, or artist rather than a generic symbol," and dated the earliest well-documented piec |
 | [[wiki/self/twitter]] | self | _(carries a CONTRADICTION)_ |
 | [[wiki/self/twitter/2008]] | self | — |
-| [[wiki/self/twitter/2009]] | self | — |
 | [[wiki/self/twitter/2010]] | self | — |
 | [[wiki/self/twitter/2011]] | self | — |
 | [[wiki/self/twitter/2012]] | self | — |
@@ -11875,7 +11881,6 @@ simply listed.
 | [[wiki/self/twitter/2025]] | self | — |
 | [[wiki/self/twitter/2026]] | self | — |
 | [[wiki/timeline/periods/2010s]] | timeline | **GAP CLOSED** — the gap, as this page stated it — *"the exact 2010 move date is unresolved (context-core's residence table starts Brooklyn in April 2010, while an earlier note claimed a January 3 move — the Florida t |
-| [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | _(carries a GAP CLOSED from 2026-08-28)_ |
 | [[wiki/work/tech/index]] | work | — |
 
 ## 2026-09-01 — 2 pages
@@ -12456,17 +12461,17 @@ A single trust score would collapse two facts that behave differently. **Veracit
 
 | | value | n |
 |---|---|---:|
-| **Veracity** | **57 / 100** — +2.5 points on 17.5 weight | 6 |
-| **Calibration** | Brier 0.243, skill +0.03 vs a coin flip | 6 |
-| **Stated vs actual** | -0.13 | 6 |
+| **Veracity** | **49 / 100** — -0.5 points on 20.5 weight | 7 |
+| **Calibration** | Brier 0.337, skill -0.35 vs a coin flip | 7 |
+| **Stated vs actual** | -0.25 | 7 |
 
-Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 6 settled claims, not thousands.
+Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 7 settled claims, not thousands.
 
 ## What his confidence is actually worth
 
 | band | he states | it is worth | gap | n |
 |---|---:|---:|---:|---:|
-| certain | 0.95 | 0.00 | -0.95 | 1 |
+| certain | 0.95 | 0.00 | -0.95 | 2 |
 | confident | 0.80 | 0.75 | -0.05 | 3 |
 | hedged | 0.60 | 0.75 | +0.15 | 2 |
 
@@ -12477,22 +12482,22 @@ Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refut
 | confirmed | 3 | independent evidence bears it out |
 | partial | 1 | the core holds, a material detail does not |
 | self_contradicted | 1 | he has given two accounts that cannot both be true |
-| refuted | 1 | independent evidence contradicts it |
+| refuted | 2 | independent evidence contradicts it |
 | unfalsifiable | 6 | checked, and the corpus cannot settle it — **scores zero, never negative** |
 
 ## By claim class
 
-Rates are shrunk toward the global 0.62 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
+Rates are shrunk toward the global 0.54 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
 
 | class | n | raw | shrunk | 95% CI on clean confirmations | dominant failure |
 |---|---:|---:|---:|---|---|
-| date | 2 | 0.50 | 0.57 | 9%–91% | displacement, rounding |
-| location | 2 | 0.12 | 0.42 | 0%–66% | displacement, rounding |
-| duration | 1 | 1.00 | 0.72 | 21%–100% | — |
-| enumeration | 1 | 0.50 | 0.59 | 0%–79% | omission |
-| existence | 1 | 1.00 | 0.72 | 21%–100% | — |
-| quantity | 1 | 1.00 | 0.72 | 21%–100% | — |
-| sequence | 1 | 1.00 | 0.72 | 21%–100% | — |
+| date | 3 | 0.33 | 0.43 | 6%–79% | displacement, rounding |
+| location | 2 | 0.12 | 0.37 | 0%–66% | displacement, rounding |
+| duration | 1 | 1.00 | 0.65 | 21%–100% | — |
+| enumeration | 1 | 0.50 | 0.53 | 0%–79% | omission |
+| existence | 1 | 1.00 | 0.65 | 21%–100% | — |
+| quantity | 1 | 1.00 | 0.65 | 21%–100% | — |
+| sequence | 1 | 1.00 | 0.65 | 21%–100% | — |
 
 ## Which way the errors run
 
@@ -12500,7 +12505,7 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 
 | slant | n |
 |---|---:|
-| neutral — the error carries no credit or discredit either way | 3 |
+| neutral — the error carries no credit or discredit either way | 4 |
 
 ## The record
 
@@ -12518,6 +12523,7 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 | t010 | A named individual was the building's superintendent and real estate agent at 307 E 76th St | identity, attribution | confident | unfalsifiable | The only independent corpus trace is a single November 2019 message placing him in the apartment, which does not establish the role. |
 | t011 | Four unconscious axioms are load-bearing in his cognition: not exceptional = worthless, not vigilant = annihilated, love that does not cost everything is not real, and time = countdown | self_state | certain | unfalsifiable | Tested lexically against all 106,629 outbound messages 2015-2025 with 110,944 inbound from 503 handles as a within-medium control. On every explicit urgency construction but one he writes LESS than his controls. This does not falsify the axiom — SMS is a near-zero-introspection medium for everybody in it — but it establishes that the message corpus cannot corroborate it. |
 | t012 | He met Alexis Armel on a Thanksgiving 2009 trip home, spent two nights with her, and about a week or two later she came to Orlando on a one-way ticket he bought | date, sequence, duration | confident | confirmed | The tweet archive puts him in PA 25-30 Nov 2009 ('cookies, water, beer, wine, and her.' on the 29th; 'watching the game with someone special' and 'I miss her already' on the 30th, 'her' unnamed), then the first @alexisarmel tweet on 14 Dec from Orlando -- 'you amaze me. can't believe you're real' alongside 'dan in love' -- about two and a half weeks later. 'i have the most amaaaazing girlfriend' on 16 Dec. The account carried the relationship publicly for a fortnight before it carried her name. |
+| t013 | Dan graduated Full Sail (AS Recording Arts) in August 2009. | date | certain | refuted | wiki/self/twitter/2009 — 2009-08-31 'so weirded out i start my last month of college tomorrow'; 2009-11-30 'pro tools lab'; 2009-12-14 'aced my practical without headphones'; 2009-12-15 'in class....'; 2009-12-19 'taking aws final with it' |
 
 ## What this ledger cannot see
 
@@ -20813,7 +20819,7 @@ page_type: synthesis
 status: stable
 knowledge: earned
 date_created: 2026-07-16
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 sources:
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/dox-scan/Dan Profile.txt"
@@ -20867,6 +20873,9 @@ connections:
   - page: wiki/health/the-configured-body
     type: caused-by
     claim: "The material grievance under the ideology is on the record six months before this page's 2020-08-22 conversion date and is never quoted here: 'imagine being able to just go to the doctor or dentist when you need' and 'the doctor thing is a really big thing for me...there's no reason that 50,000 people die a year because they don't have insurance' (2020-02-07)."
+  - page: wiki/self/twitter/2009
+    type: evidenced-by
+    claim: 'The corpus\'s earliest dated political self-description is a departure, not an arrival: "i no longer consider myself a republican" (2009-11-28), triggered by a link to people behaving badly and naming no replacement. Eleven years before the arrival this page dates, and the same mechanism as the 2022 O&A account — leaving a tribe rather than joining one.'
 ---
 
 
@@ -20991,6 +21000,41 @@ pose: the new framework immediately turned back on his own inherited
 comfort. This is the "since I've been stuck inside" of lockdown
 ([[wiki/timeline/periods/covid-era-2020]]) doing the classic
 micro-radius-siege radicalization.
+
+## The exit is eleven years older than the arrival
+
+The corpus's earliest dated political self-description is not the 2020 arrival.
+It is **2009-11-28**, on Twitter, at twenty-one, from Pennsylvania over
+Thanksgiving weekend:
+
+> *"people like this are why i no longer consider myself a republican...wowwwwwwwww"*
+
+Three features of that sentence matter more than its date. It is a
+**departure** — it says what he has stopped being and names nothing he has
+become. It is triggered by **people**, by a link to somebody behaving badly,
+rather than by a policy or an argument. And it is aimed at the tribe he was
+raised inside: `CONTEXT_CORE_EXPANDED` records the Uniontown household as
+*"Republican household + talk-radio diet (Limbaugh/Beck/Hannity on the
+auto-parts delivery job)"*.
+
+That is the same mechanism as the 2022 account in the section below — the O&A
+fanbase following Cumia rightward and repelling him leftward, *"radicalized
+[us] to leftist politics"* — running eleven years earlier and against a
+different tribe. **The pattern is not that Dan arrives somewhere; it is that
+he leaves, repeatedly, when the people carrying a position become the argument
+against it.** The 2020 date this page establishes remains the date the
+*destination* was named. What moves is the claim that the departure was part
+of it: the departure had already happened, twice, and 2020 is when something
+finally occupied the vacancy.
+
+**The counter-evidence, and it is real.** One tweet is one tweet. Nothing else
+on `wiki/self/twitter/2009` is political, the page's first nine months are a
+fetch artefact rather than a sample (so an absence there proves nothing), and
+eleven years of no recorded political identity separate the two events. A
+disavowal at twenty-one is a common thing for a twenty-one-year-old to say and
+is not evidence of an early left turn. What it is evidence of is that the
+Republican identity was already gone long before anything replaced it, which
+the media-pipeline story below never had to account for and now does.
 
 ## A second causal account, in his own words, from 2022
 
@@ -28786,7 +28830,7 @@ knowledge: earned
 title: "Millennial Digital Witness"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 sources:
   - raw/self/chats/_✧✧ 𝔻𝔸ℕ𝔽ℝ𝔸ℕ𝕂-𝕀𝕊𝕄'𝕊 ✧✧ Pinned chat.md
   - raw/self/gemini-activity/Gemini Activity.html
@@ -28819,6 +28863,9 @@ connections:
   - page: wiki/mind/synthesis/ai-collaborative-analysis
     type: instantiates
     claim: "The early-adopter-with-memory AI stance is the witness thesis applied to its newest instrument."
+  - page: wiki/self/twitter/2009
+    type: evidenced-by
+    claim: 'The Balloon Boy day (2009-10-15) runs the habit three years before the Sandy tweet — "watching CNN on delay via a paused DVR", "the best one-off meme ever" — but never states it, so it moves the habit to at least seventeen years old while leaving the articulation where this page put it.'
 ---
 
 
@@ -28836,7 +28883,7 @@ the LLM-integrated present — the "biological bridge," in the corpus's term —
 and that dual fluency is what powers cross-domain anomaly detection that
 neither analog-native elders nor digital-native juniors can run.
 
-## The noticing is fourteen years older than the theory
+## The noticing is at least seventeen years older than the theory
 
 This page's thesis comes from Node 6 of the pinned Gemini corpus — a
 late, AI-assisted articulation, and the obvious objection to it is that a
@@ -28871,6 +28918,29 @@ internet comparison, and no assertion of advantage — the three things that
 make Node 6 a thesis rather than an observation. Anyone reading this
 section as "he had the theory in 2012" is reading it wrong. What he had in
 2012 was the habit of looking at the medium instead of the event.
+
+### Three years earlier still: Balloon Boy, 15 October 2009
+
+The 2009 twitter record pushes the habit back another three years, though it
+is a **weaker instance than Sandy and is filed as one deliberately.** On
+15 October 2009, during the day a six-year-old was believed to be aboard a
+runaway balloon over Colorado, almost nothing Dan posted was about the child:
+
+> *"HIS NAME IS FALCON. OMG perfect"*
+> *"watching CNN on delay via a paused DVR. this is a little bit riveting."*
+> *"smoke one for balloon boy. the best one-off meme ever."*
+
+The subject throughout is the coverage — the naming, the time-shifted news
+consumption, and the event's status as a **meme**, a word applied to a live
+news story on the day it broke. He was twenty.
+
+**Why it is weaker, stated so nobody upgrades it later.** The Sandy line names
+its own category — *"first true 'digital disaster'"*, *"so much user generated
+content"* — and is therefore a claim *about* the medium. The Balloon Boy day
+only demonstrates the habit; he watches the watching and never says that he is
+doing it. So the correction to the dating above is one-sided: **the habit is at
+least seventeen years old, the articulation stays in 2012, and the theory stays
+where this page put it.** `wiki/self/twitter/2009`.
 
 So the honest statement is a split one: **the noticing is old and
 first-party; the theory built on it is recent and AI-assisted.** That is a
@@ -38250,7 +38320,7 @@ status: closed
 knowledge: mixed
 importance: high
 date_created: 2026-06-23
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 date_range_start: 2009-10-01
 date_range_end: 2025-02-19
 sources:
@@ -38359,6 +38429,9 @@ connections:
   - page: wiki/people/suzanne-frank
     type: causes
     claim: "A March 2014 washing-machine incident Dan says he still does not understand is Suz's stated reason for throwing Alexis out of the house — the second of at least two Suz-driven evictions this page now documents for Alexis, five months of concealment following this one."
+  - page: wiki/self/twitter/2009
+    type: evidenced-by
+    claim: 'The relationship\'s first six weeks are recorded in real time on the 2009 twitter page, and its surrounding weather is too: he is ill for most of December, shuttling between two states, and sitting Full Sail finals across the same days he is posting "dan in love." The speed is not the speed of a man with nothing else happening.'
 ---
 
 # Alexis Armel
@@ -72670,9 +72743,9 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
-knowledge: derived
-date_range_start: 2009-10-20
+date_modified: 2026-09-03
+knowledge: mixed
+date_range_start: 2009-01-07
 date_range_end: 2009-12-31
 title: "Twitter / X — 2009"
 sources:
@@ -72692,11 +72765,239 @@ connections:
   - page: wiki/timeline/periods/full-sail-2008-2010
     type: contextualizes
     claim: 'The 2009 tweets are public-side weather for the life period already documented at that page.'
+  - page: wiki/mind/synthesis/2020-left-turn
+    type: evidences
+    claim: 'The earliest dated political self-description in the corpus — "i no longer consider myself a republican" (2009-11-28) — is a departure with no named destination, eleven years before the 2020 arrival, and it runs the same leaving-a-tribe mechanism that page''s 2022 O&A account describes.'
+  - page: wiki/mind/synthesis/millennial-digital-witness
+    type: evidences
+    claim: 'The Balloon Boy day (2009-10-15) shows the habit of watching the coverage rather than the event — "watching CNN on delay via a paused DVR", "the best one-off meme ever" — three years before the Sandy tweet that page dates the noticing to. It demonstrates the disposition without stating it, so it moves the habit earlier without moving the articulation.'
+  - page: wiki/people/alexis-armel
+    type: evidences
+    claim: 'The relationship''s first six weeks are on this page in real time: the unnamed "her" of 29-30 November in PA, the first @alexisarmel tweet on 14 December, and "d&a''s first christmas" eleven days later — with the surrounding weather (illness, finals, two states) that the relationship tables cannot carry.'
+  - page: wiki/timeline/periods/full-sail-2008-2010
+    type: contradicts
+    claim: 'Two contemporaneous dates contradict the August 2009 graduation that page carries: a "last month of college" beginning 1 September 2009, and coursework with a Pro Tools lab, a practical and an AWS final running to 19 December 2009.'
 ---
 
 # Twitter / X — 2009
 
-The origin year of @danfrank. The voice is already the one the later corpora treat as architectural: lowercase, fragment, ellipsis, in-love-and-bored in the same hour. The scraped remainder of the year is still landing; what is on this page so far runs from late October (packing for PA, airport businessmen-talk, Saw VI / Steelers / home to the O, then birthday/Halloween/Jesters, "maybe I'll one day be a hip hop producer") through Thanksgiving travel (Pitt/WVU, "no longer consider myself a republican") into the late-December Full Sail / Alexis / I-95 home-for-the-holidays cluster.
+**The last full year before the life the rest of this wiki is about.** 2009
+opens on a twenty-year-old finishing an audio degree in Winter Park and closes
+on a twenty-one-year-old in love, driving I-95 north with a girlfriend the
+corpus will still be documenting sixteen years later. Between those two points
+the account records the end of school, the first sustained studio practice, a
+dated departure from the Republican party, and — in its last six weeks — the
+beginning of the relationship that becomes the control case for every
+attachment question the wiki asks. What it does **not** record is the thing
+that arrives seven weeks after the final tweet: Suboxone, 17 February 2010.
+2009 is the year immediately upstream of that, written from inside it by
+somebody who did not know it was coming.
+
+**Read the Gaps section before believing any pattern on this page.** The first
+nine months are not a sample of 2009. They are a sample of the last two days
+of each month, and the distinction is the difference between a finding and an
+artifact.
+
+## School ends, and the record says it ends later than the wiki does
+
+The Full Sail material runs the whole year and it is unglamorous: *"surround
+sound lecture"* (26 January), *"48 hours of hell is about to begin"* into
+*"1 down bitttches. Studying all night"* (26–27 February), the Songcraft
+final, an ESA lecture, and the flat indignity of *"learning how to wrap
+cables. are you kidding me fs?"* (31 March) — a paying student annoyed at
+being taught the trade's most menial physical skill.
+
+Two dates on this page contradict the graduation date the rest of the wiki
+carries. On **31 August 2009** he writes *"so weirded out i start my last
+month of college tomorrow. having multiple reality checks."* — which places
+the final month in **September**, not August. And in December he is plainly
+still enrolled: *"pro tools lab. noice"* (30 November), *"aced my practical
+without headphones"* (14 December), *"in class...."* (15 December), *"long
+day of class tomorrow"* (17 December), and on **19 December** *"taking aws
+final with it."*
+
+> **CONTRADICTION [2026-09-03]:** `raw/self/context-core/CONTEXT_CORE_EXPANDED.md`
+> states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and
+> `wiki/timeline/periods/full-sail-2008-2010` and `wiki/people/alexis-armel`
+> both build on that date. The contemporaneous public record contradicts it in
+> two independent places: a "last month of college" beginning 1 September, and
+> coursework with a final examination running to 19 December. The two cannot
+> both be true. The record here is dated, first-person and contemporaneous;
+> the August date is first-person testimony given years later. **Neither is
+> corrected on the strength of the other** — the disagreement is held, and the
+> only artefact that would settle it is a Full Sail transcript, which the
+> corpus does not have. The narrow claim this page will support is that Dan
+> was still taking classes and sitting finals in December 2009.
+
+Note what is *not* in dispute: the top-5% class standing, which nothing here
+touches either way.
+
+## The studio year
+
+This is the year music production stops being a subject and becomes a
+practice. It opens with the comparison already made in the language of the
+industry he wants into — *"my life is literally like FBR now- no food, no
+sleep, just records"* (12 January, Fueled By Ramen) — and proceeds through an
+Afterplayrewind recording session (31 March), *"planning all the money i'm
+gonna spend on this minimicro home studio"* (30 April), *"Day 1 of rtn shit.
+Scratch tracks and drums today"* (30 June), and *"8am i'm still awake working
+on a song"* (30 October). On **31 October**, the night before his
+twenty-first birthday, he states the ambition outright and hedges it in the
+same breath: *"maybe I'll one day be a hip hop producer. maybe I'll one day be
+pow enough for @djgenie."*
+
+He also talks *to* the musicians he listens to rather than only about them —
+`@markhoppus` of Blink-182 gets a joke about studio interns (31 March),
+`@GabrielSaporta` of Cobra Starship gets an album endorsement (31 July). The
+distance between fan and participant is already something he does not
+observe.
+
+## Politics: a dated exit, eleven years before the arrival
+
+On **28 November 2009**, linking out twice in succession, he writes:
+
+> *"people like this are why i no longer consider myself a republican...wowwwwwwwww"*
+
+This is the earliest dated political self-description in the corpus, and its
+shape matters more than its date. It is a **departure, not an arrival** — he
+says what he has stopped being, names no replacement, and the sentence is
+triggered by *people*, by a link to somebody behaving badly, rather than by an
+argument or a policy. `wiki/mind/synthesis/2020-left-turn` dates the arrival
+of the democratic-socialist identity to 22 August 2020 and has since found a
+second causal account in 2022 — the O&A fanbase splitting rightward and
+repelling him leftward, also a departure from a tribe. The 2009 line is the
+same mechanism, running eleven years earlier against the tribe he was raised
+in: `CONTEXT_CORE_EXPANDED` records a *"Republican household + talk-radio diet
+(Limbaugh/Beck/Hannity)"*. **The exit is old; only the destination is new.**
+
+The caution is that one tweet is one tweet. It is not evidence of a 2009
+left turn, nothing else on this page is political, and the eleven-year gap
+between leaving and arriving is itself the finding rather than a problem with
+it.
+
+## Balloon Boy, and watching the coverage instead of the event
+
+On **15 October 2009** a six-year-old was believed to be aboard a runaway
+helium balloon over Colorado. Dan posted through the whole day, and almost
+nothing he wrote is about the child:
+
+> *"reasons why i love this country: #1- little kids in hot air balloons
+> bombing around denver. #2- popcorn"*
+> *"HIS NAME IS FALCON. OMG perfect"*
+> *"watching CNN on delay via a paused DVR. this is a little bit riveting."*
+> *"smoke one for balloon boy. the best one-off meme ever."*
+
+The subject is the coverage, the naming, the DVR, and the object's status as a
+**meme** — a word he applies to a live news event on the day it happens.
+`wiki/mind/synthesis/millennial-digital-witness` dates the underlying
+disposition to a Hurricane Sandy tweet of 30 October 2012 and calls it
+*"fourteen years older than the theory"*. This is the same disposition three
+years earlier still.
+
+It is a **weaker instance than Sandy and must not be filed as an equal one.**
+The 2012 line names the category — *"first true 'digital disaster'"*, *"so
+much user generated content"* — and is a claim about the medium. The 2009 day
+demonstrates the habit without ever stating it: he watches the watching, and
+does not say that he is doing so. The precise correction to the synthesis is
+that the *habit* is at least seventeen years old rather than fourteen, while
+the *articulation* stays where that page put it.
+
+## The last six weeks: "her", then a name
+
+The year's final act is a relationship starting in real time, and it is
+already fully mined on `wiki/people/alexis-armel` — the unnamed *"her"* of
+29–30 November in Pennsylvania, the first `@alexisarmel` tweet on 14 December
+(*"you amaze me. can't believe you're real"*, and separately *"dan in
+love."*), *"i have the most amaaaazing girlfriend"* two days later, Seven
+Springs on 22 December, and *"d&a's first christmas"* on the 25th. Eleven days
+from the first use of her name to a shared Christmas presented as an
+established unit.
+
+What this page adds is the **surrounding weather**, which the relationship
+tables cannot carry: he is sick for most of December, driving between two
+states, sitting finals, and writing *"i'm so blessed"* on Christmas Day. The
+speed is not the speed of a man with nothing else going on. It is the speed of
+a man doing everything at once and putting the relationship at the front of
+it.
+
+## Pennsylvania, and the shuttle
+
+The account moves physically all year and hates one end of the trip. October:
+*"packing/getting house in order"*, the airport bit about *"businessmen
+things: expense reduction! bottom line! coffee!"*, then home for Saw VI, a
+Steelers game and Halloween. November: back for Thanksgiving, Pitt–WVU with
+`@joshbrannan` (*"my true love"*), *"pennsylvania, what's a stoner to do?!"*.
+December: the drive north on the 19th *"in the most hyped storm evar"*, then
+the I-95 run back south on the 30th, narrated in numbered *"road update"*
+posts. He is at home in Pennsylvania and unwilling to be there, which is the
+same posture 2008 recorded in cruder words (*"i fucking hate going home"*).
+
+The Western Pennsylvania identity is intact underneath the complaint —
+Steelers throughout, *"PENS"*, *"yeaaaaah malkin"*, Big Ben called *"a mark
+ass bitch"* mid-game, the Backyard Brawl. Leaving the place did not touch the
+allegiances.
+
+## Two lines on the same day, at twenty
+
+On **22 October 2009**, nine days before turning twenty-one, he posts *"retire
+by 25"* and, hours later, *"country club status. bloated sense of self
+worth."* Both are jokes. Neither is only a joke: the first is a timeline with
+a deadline on it and the second is a diagnosis of the person holding the
+timeline, and the corpus's later account of how Dan measures himself — an
+on/off verdict with no middle setting, a countdown running underneath it — is
+recognisable in both at twenty years old, sixteen years before anybody wrote
+it down as a finding.
+
+## Cannabis is everywhere here, and opiates are nowhere
+
+Cannabis is continuous and casual across the year: *"Jester thinks I have
+swine flu and won't share a spliff"* (30 April), *"smoke one for balloon boy"*
+(15 October), *"pennsylvania, what's a stoner to do?!"* (25 November),
+*"sour diesel"* among the things he is thankful for (26 November), *"can't
+wait to get home and smoke this kush"* (30 November), *"i'm high as a
+motherfucker, flyyy as a motherfucker"* (28 December).
+
+**There is not one opiate reference on this page.** That is a negative result
+worth stating plainly rather than an absence worth passing over, because
+`CONTEXT_CORE_EXPANDED` dates the first opiate — Roxicet, then Oxy — to
+**2007**, two years before this record, and Suboxone begins on **17 February
+2010**, seven weeks after it ends. So the public account of the years bracketing
+the onset of opioid dependence contains cannabis, alcohol and no opiates at
+all. The honest reading is not that it was not happening; it is that **this
+account was never where that was written**, and the same silence should be
+expected of every later year here. A public feed is evidence of what a person
+was willing to publish.
+
+## The texture, which is the point of keeping all of it
+
+Under the findings the page is mostly a twenty-year-old's day: Chipotle as flu
+medicine, Chick-fil-A four times in a week, a pancake party advertised with a
+ten-pound bag of batter, an Ed Hardy shirt bought as a joke and immediately
+disclaimed (*"note: i don't really wear Ed hardy"*), fourteen hours of *Left 4
+Dead* and *World of Warcraft*, *The Big Lebowski* quoted at three separate
+people, *"i turn last.fm off before i listen to embarassing music"*, and — on
+17 October — *"do NOT vote for dan frank for congress. he's an impostor.
+looking into my legal options"*, which is the first recorded instance of him
+noticing that his own name belongs to other people on the internet.
+
+Two small ones with long shadows. On **31 March** he writes *"Kinda sad I
+check twtr, fbook, and email before I even get out of bed. Idgaf."* — the
+saturation named and dismissed in the same sentence, at twenty. And on
+**14 October**, *"doesn't it make perfect sense that the day after i started
+reading 'the secret', i had a shitty day."* He read the self-help book and
+made a falsification joke out of it within twenty-four hours.
+
+## What would change this reading
+
+If the missing 2009 months arrive from a complete X export and January
+through September turn out to be as dense as the last quarter, the "quiet
+first three quarters" impression this page currently gives is void — it was
+never a claim about his posting, only about the fetch. If a Full Sail
+transcript surfaces with an August 2009 conferral date, the contradiction
+above resolves against this page's reading and in favour of the testimony,
+and the December coursework needs a different explanation. And if any 2009
+material anywhere mentions opiates, the negative result above is withdrawn
+rather than qualified.
 
 ## Coverage
 
@@ -72705,15 +73006,34 @@ The origin year of @danfrank. The voice is already the one the later corpora tre
 | Originals on this page | 283 |
 | From operator spreadsheet | 0 |
 | From live X scrape | 165 |
+| From the 2026-09-02 backend fetch | 118 |
 | Pure reposts | omitted by rule (no @danfrank quote text) |
 
 ## Gaps
 
-The operator spreadsheet begins 2013-08-17. 2009 is being walked from live X search in batches of ten; this page currently holds 165 originals and will be appended as further batches land. Do not treat the present count as the year's total.
+The operator spreadsheet begins 2013-08-17, so none of this year comes from it.
+The 283 rows here have two origins: 165 walked from live X search in batches of
+ten, and 118 recovered by the 2026-09-02 backend fetch that also produced the
+2008 page. Do not treat the present count as the year's total.
+
+**The distribution of this page is an artefact of how it was fetched, and it
+will mislead anyone who reads it as behaviour.** Both retrieval methods were
+capped at ten results per query, and the queries were month-bounded. The
+consequence is visible on the page: January through September survive almost
+entirely as clusters on the last one to three days of each month — 26–28
+February, 31 March, 29–30 April, 30–31 May, 28–30 June, 31 July, 30–31 August,
+29–30 September — while October through December run continuously, day after
+day. Dan did not post only at month-ends for three quarters and then start
+posting daily in October. The cap did that.
+
+**What follows for anyone using this page:** no claim about posting frequency,
+volume, cadence, or a subject going quiet is supportable for January–September
+2009, and none should be made. Presence is evidence here; absence is not. A
+complete X account export is the only thing that fixes it.
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
-## October
+## The record
 
 ### 2009-01-07 20:11:05 UTC · [1102670744](https://x.com/danfrank/status/1102670744)
 *likes 0 · replies 0 · reposts 0*
@@ -97824,7 +98144,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,433 events** across **80 years** (1796–2027), drawn from **370 pages**. Tier 1 685 · Tier 2 417 · Tier 3 2,331.
+**3,446 events** across **80 years** (1796–2027), drawn from **371 pages**. Tier 1 685 · Tier 2 418 · Tier 3 2,343.
 
 ## What counts as an event here
 
@@ -98697,7 +99017,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2008-09-24** — The public record. Carries its own coverage share on every engagement figure, and excludes 125 truncated rows from length figures  
   ↳ [[wiki/meta/instruments/index]] · The measures
 - · **2008-09-24** — 2008** — The account's creation datetime was **not** retrievable — the backend user lookup returned an id (`16430736`) but no `created_at`. Creation on 24 September 2008 is an inference from three consistent facts: the earliest tweet retrieved, two queries before it re  
-  ↳ [[wiki/meta/open-questions]] · self (62)
+  ↳ [[wiki/meta/open-questions]] · self (64)
 - · **2008-09-24** — The record now begins **24 September 2008** — the day Dan arrived in Winter Park for Full Sail — after a backend fetch on 2026-09-02 recovered 213 tweets the archive had never reached.  
   ↳ [[wiki/self/twitter]] · Twitter / X Activity (@danfrank)
 - · **2008-09-24** — The 24 September 2008 date is an inference from three consistent facts — the earliest tweet retrieved, two queries before it returning nothing, and the `#MyTwitterAnniversary` post of 2022-09-24 — and it should be cited as an inference.  
@@ -98759,16 +99079,30 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/chats/gemini-13]] · External Verification (done in-thread)
 - ★ **August 2009** — An.S. in Recording Arts, graduated August 2009, top 5% of the class — the formal credential behind the music-production identity that runs through overview (SLOPPP, MOGZART, and eventually GRIPNOTIC all trace back to skills built here).  
   ↳ [[wiki/timeline/periods/full-sail-2008-2010]] · The degree
+- · **August 2009** — full sail 2008 2010** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomorrow"*, which puts the final month in September. And across November and…  
+  ↳ [[wiki/meta/open-questions]] · Live contradictions
+- · **August 2009** — full sail 2008 2010 — timeline  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 9 pages
+- · **August 2009** — t013 — date — certain — refuted  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
+- · **2009-08-31** — On **31 August 2009** he writes *"so weirded out i start my last month of college tomorrow. having multiple reality checks."* — which places the final month in **September**, not August.  
+  ↳ [[wiki/self/twitter/2009]] · School ends, and the record says it ends later than the wiki does
 - · **October 2009** — Defining event  
   ↳ [[wiki/people/stephanie-nalbone]] · Corpus record
 - · **2009-10-06** — On **October 6, 2009**, writing to Stephanie Nalbone from Florida at eleven in the morning, Dan is watching *Pan's Labyrinth* instead of mixing tracks and reports that he is "trying to not imagine zach clingan as the creepy faun. they both lie about shit, so there's a literal connection too heh?…  
   ↳ [[wiki/people/zach-clingan]] · 2009: the faun
 - · **2009-10-06** — Full documented span  
   ↳ [[wiki/people/zach-clingan]] · Corpus record
+- · **2009-10-15** — The 2009 twitter record pushes the habit back another three years, though it is a **weaker instance than Sandy and is filed as one deliberately.** On 15 October 2009, during the day a six-year-old was believed to be aboard a runaway balloon over Colorado, almost nothing Dan posted was about the…  
+  ↳ [[wiki/mind/synthesis/millennial-digital-witness]] · Three years earlier still: Balloon Boy, 15 October 2009
+- · **2009-10-15** — On **15 October 2009** a six-year-old was believed to be aboard a runaway helium balloon over Colorado.  
+  ↳ [[wiki/self/twitter/2009]] · Balloon Boy, and watching the coverage instead of the event
 - · **2009-10-20** — The archive began at 2009-10-20 and was believed complete for originals from 2013-08-17 on.  
   ↳ [[wiki/self/twitter]] · The backfill of 2026-09-02, and what it settled
 - · **2009-10-20** — Yes — 213 tweets**, earliest 2008-09-24T04:52:36, *"i fucking looove winter park. this town is unreal."  
   ↳ [[wiki/self/twitter]] · The backfill of 2026-09-02, and what it settled
+- · **2009-10-22** — On **22 October 2009**, nine days before turning twenty-one, he posts *"retire by 25"* and, hours later, *"country club status. bloated sense of self worth."* Both are jokes.  
+  ↳ [[wiki/self/twitter/2009]] · Two lines on the same day, at twenty
 - ◆ **2009-10-23** — Within two weeks the exchange turns explicitly romantic and stays there without interruption: constant "I ♥ you," daily phone dates, drunk-texting confessions, YouTube-link flirting, and a real in-person visit — Dan traveling from Orlando back to Uniontown for a weekend that included a shared…  
   ↳ [[wiki/people/stephanie-nalbone]] · The relationship
 - ★ **November 2009** — Stephanie Nalbone is an ex-girlfriend from a relationship the corpus had no other record of: a six-week, high-intensity long-distance romance running late September to early November 2009, reconnecting old Uniontown history right at the close of Full Sail.  
@@ -98795,6 +99129,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter]] · The densest day in seventeen years
 - ★ **2009-11-26** — He appears paired with Jerad Friedline three times — *"i'm thankful for my family/friend, sour diesel, tropical lifesaver gummies, and @joshbrannan / @jfriedline for their sign stealing abilities"* (26 November 2009), *"seeing my boyzzzz @jfriedline @joshbrannan tonight"* (21 December 2009), and a…  
   ↳ [[wiki/people/josh-brannan]] · The tweet record, 2009–2012
+- ◆ **2009-11-28** — It is **2009-11-28**, on Twitter, at twenty-one, from Pennsylvania over Thanksgiving weekend:  
+  ↳ [[wiki/mind/synthesis/2020-left-turn]] · The exit is eleven years older than the arrival
+- · **2009-11-28** — On **28 November 2009**, linking out twice in succession, he writes:  
+  ↳ [[wiki/self/twitter/2009]] · Politics: a dated exit, eleven years before the arrival
 - ★ **2009-11-30** — t012 — He met Alexis Armel on a Thanksgiving 2009 trip home, spent two nights with her, and about a week or two later she came to Orlando on a one-way ticket he bought — date, sequence, duration — confident — confirmed  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **December 2009** — A handle change between 2008 and the first `@danpolyak` tweet of December 2009 would explain it; so would a different friend whose name also fed the joke.  
@@ -98821,9 +99159,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2010-01-03** — one is timestamped by the platform and one was typed into a profile  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **2010-01-03** — facebook — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 37 pages
 - · **2010-01-03** — location history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 37 pages
 - · **2010-01-03** — t002 — date, location — certain — refuted — The tweet archive has him in Florida for another eight weeks: 'moving to brooklyn in 9 days' (20 Feb 2010), 'last day in errrlando' (27th), 'peace out, florida. it's been real.' (28th)  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2010-01-03** — Places lived  
@@ -98872,6 +99210,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/overview]] · LLM Quick Brief
 - · **2010-02-17** — The same window contains the opiate arc's beginning and stabilization: five months from first opiate to addiction in 2007, then Suboxone day-zero on February 17, 2010 — daily ever since, zero relapses, framed not as recovery but as engineered architecture (context core).  
   ↳ [[wiki/self/overview]] · The arc
+- · **2010-02-17** — What it does **not** record is the thing that arrives seven weeks after the final tweet: Suboxone, 17 February 2010. 2009 is the year immediately upstream of that, written from inside it by somebody who did not know it was coming.  
+  ↳ [[wiki/self/twitter/2009]] · Twitter / X — 2009
 - · **2010-02-17** — "this is the most stressful day/decision of my life" — Same day, seven hours on  
   ↳ [[wiki/timeline/periods/2010s]] · The move, dated to the day
 - · **2010-02-17** — The stabilization did not arrive until Suboxone day-zero, February 17, 2010, at the tail end of the Full Sail window (full sail 2008 2010, chemical architecture).  
@@ -99165,7 +99505,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **October 2012** — Hurricane Sandy's October 2012 flooding of the Seaport district closed the Bridge Cafe, ending Alexis's employment there — a real economic shock to the household roughly six months before the couple's return to Uniontown, and worth noting as landing during this address's occupancy rather than the…  
   ↳ [[wiki/places/90th-st-manhattan]] · Hurricane Sandy and the Bridge Cafe (October 2012)
 - · **2012-10-30** — On **30 October 2012**, from an Upper East Side apartment during Hurricane Sandy, Dan tweeted:  
-  ↳ [[wiki/mind/synthesis/millennial-digital-witness]] · The noticing is fourteen years older than the theory
+  ↳ [[wiki/mind/synthesis/millennial-digital-witness]] · The noticing is at least seventeen years older than the theory
 - ◆ **November 2012** — StarCraft II, World of Warcraft's auction-house economy, Slender, Amnesia, DayZ, Halo 4, Call of Duty: Black Ops II — and a console that was "6 years old" in November 2012, dating an Xbox 360 purchase to roughly 2006, which is the same teenage window video games documents from Facebook ("slaying on…  
   ↳ [[wiki/people/shane-brannan]] · What they talked about
 - · **November 2012** — It is not a reasonable reading of November 2012, when Dan replaced a console inside 48 hours for one game.  
@@ -99302,7 +99642,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **August 2013** — The three clusters are at least eighteen years old.** This is the control that kills both "2025 Spotify discovery" and "recent omnivory." facebook (2007–2022 export) already has Elliott Smith liked in August 2013 (7 tracks in the current library), Fall Out Boy and Say Anything name-checked in 2007…  
   ↳ [[wiki/interests/favorites/eclecticism]] · Architecture B — parallel functional clusters
 - · **August 2013** — twitter** — 2009 through 2012, January–mid-August 2013, and some 2026 days between the spreadsheet end and the live scrape are still being walked from X in batches of ten. Each incomplete yearly page states that on its face. The spreadsheet span 2013-08-17 through 2026-04  
-  ↳ [[wiki/meta/open-questions]] · self (62)
+  ↳ [[wiki/meta/open-questions]] · self (64)
 - · **August 2013** — Comedy / other — Scattered  
   ↳ [[wiki/self/facebook/interests]] · Event Responses (2008–2020)
 - · **August 2013** — Years before the spreadsheet, the mid-August 2013 days before it starts, and 2026 after 7 April are filled from live X search and will grow as further batches are committed on this branch.  
@@ -99323,10 +99663,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **2013-08-15** — 12 — SLOPPP launch week  
   ↳ [[wiki/self/twitter]] · The densest day in seventeen years
+- · **2013-08-17** — 2009** — The operator spreadsheet begins 2013-08-17, so none of this year comes from it. The 283 rows here have two origins: 165 walked from live X search in batches of ten, and 118 recovered by the 2026-09-02 backend fetch that also produced the 2008 page. Do not trea  
+  ↳ [[wiki/meta/open-questions]] · self (64)
 - · **2013-08-17** — 2013** — Spreadsheet originals are complete from 2013-08-17 through year-end. January through 2013-08-13 is still being scraped and appended in live batches of ten.  
-  ↳ [[wiki/meta/open-questions]] · self (62)
+  ↳ [[wiki/meta/open-questions]] · self (64)
 - · **2013-08-17** — The spreadsheet span 2013-08-17 through 2026-04-07 is complete for originals.  
   ↳ [[wiki/self/twitter]] · Gaps
+- · **2013-08-17** — The operator spreadsheet begins 2013-08-17, so none of this year comes from it.  
+  ↳ [[wiki/self/twitter/2009]] · Gaps
 - · **2013-08-17** — Spreadsheet originals are complete from 2013-08-17 through year-end.  
   ↳ [[wiki/self/twitter/2013]] · Gaps
 - · **2013-08-17** — 2010 through 2012 are live-scrape reconstructions, not a complete export** — the operator spreadsheet does not begin until 2013-08-17, so the 265/225/205 yearly counts are what has been recovered from X search, and are floors rather than totals.  
@@ -99441,7 +99785,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2014-05-07** — Drake x Cashmere Cat – No Lie ft. 2 Chainz (SLOPPP Bootleg) — Bootleg  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **2014-05-13** — sloppp — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 37 pages
 - · **2014-05-14** — Heatwave Vol. 1** — "1 hour of tweriffik plurntastic tracks" — **Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
 - · **2014-05-22** — SLOPPP Trap Micromix — Mix  
@@ -100750,7 +101094,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **May 2017** — Twice Dan evidently weighed what he'd bought and found it light, and twice Vaughn retreated to the same defense: "What did it weight because he said it was 3.5… that's my best friend I got it from and I know he wouldn't do it on purpose" (May 2017), and "I swear I watched him weigh it" against a…  
   ↳ [[wiki/people/vaughn]] · The yard and the hustle, one channel
 - · **May 2017** — eric jester — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 37 pages
 - · **May 2017** — Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two Nemacolin caddying seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a fellow caddie in 2017 who came back for 2018 as **assistant caddie master** — "I'm actually gonna be assistant caddie…  
   ↳ [[wiki/people/davey-fitzpatrick]] · Davey Fitzpatrick
 - · **May 2017** — Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose message thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — sparse check-ins that resurface every year or two, each one picking back up exactly where the last left…  
@@ -103260,7 +103604,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **July 2025** — Minor discrepancy, not a data-integrity concern:** 240 URLs present in the old export near its July 2025 cutoff don't appear in the new one — spot-checked, every sampled example is an ad impression from the same July 23–25, 2025 boundary window (KAYAK, Arby's, Harbor Freight, insurance/pharma…  
   ↳ [[wiki/self/youtube-watch-history]] · Extended coverage: August 2025 – July 2026 (new, 2026-07-20)
 - ◆ **2025-07-01** — chatgpt** — **The post-GPT-5 record does not exist in this corpus.** This is the binding gap and the top action on the page: the archived export was generated 2025-07-01 and GPT-5 shipped 2025-08-07, so every claim about what the release did is untested. **A ChatGPT expor  
-  ↳ [[wiki/meta/open-questions]] · self (62)
+  ↳ [[wiki/meta/open-questions]] · self (64)
 - ◆ **2025-07-01** — And the pre/post framing is untestable on this corpus.** The 375-thread ChatGPT export ends 2025-07-01 — its own generation date — while GPT-5 shipped 2025-08-07, so no substantial primary record of post-release use exists here.  
   ↳ [[wiki/self/concepts/llm]] · The guardrail problem
 - · **2025-07-01** — And the register survives to the last day: the 2025-07-01 finale is as unhedged as anything in 2023.  
@@ -104147,7 +104491,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-14** — Dan does not hear or process sung lyrics as language in real time — he stated this directly (2026-07-14): words in a song register to him essentially as **timbre**, another textural element of the vocal performance, not as semantic content to be parsed and understood the way lyrics function for…  
   ↳ [[wiki/interests/music/concepts/lyrics-as-timbre]] · Lyrics as Timbre
 - · **2026-07-14** — vanessa frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 37 pages
 - · **2026-07-14** — au zaatar — work  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-07-14** — t009 — enumeration — hedged — partial — The tweet archive holds two pieces the list did not: the letter 'A' for Alexis, tattooed 23 January 2010 and eight years earlier than anything on the list, and a Morrissey piece dated by 24 October 2019.  
@@ -104213,7 +104557,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 4 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 9 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -104813,7 +105157,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
 - · **2026-08-23** — overview — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 37 pages
 - · **2026-08-23** — closing the set — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-23** — annie ulmer personality assessment — people  
@@ -104872,8 +105216,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/franki-faris]] · The five days (summer 2013)
 - · **2026-08-27** — ally lubin cognitive profile** — **Did she report the result herself, or was it forwarded?** The visible page is the results email, which implies she had the account. The 2026-08-27 operator answer confirms the result is hers but says nothing about how the screenshot reached Dan, so this stay  
   ↳ [[wiki/meta/open-questions]] · people (169)
-- · **2026-08-27** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
 - · **2026-08-27** — The 2026-08-27 operator answer confirms the result is hers but says nothing about how the screenshot reached Dan, so this stays open.  
   ↳ [[wiki/people/ally-lubin-cognitive-profile]] · Gaps
 - · **2026-08-27** — That pending status held — the sale closed in **summer 2019 for $250,000** (operator testimony, 2026-08-27; uncorroborated in the message record, which never returns to the subject after Danny's July 11 line).  
@@ -104884,8 +105226,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
-- · **2026-08-28** — full sail 2008 2010 — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
 - · **2026-08-28** — chemical architecture — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 5 pages
 - · **2026-08-28** — cocaine — health  
@@ -104968,6 +105308,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/2010s]] · Transition
 - · **2026-09-02** — The git log read as a record of *operations* rather than saves  
   ↳ [[wiki/meta/instruments/index]] · The measures
+- · **2026-09-02** — 2020 left turn — mind  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 9 pages
+- · **2026-09-02** — alexis armel — people  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 9 pages
 - · **2026-09-02** — failure to launch — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-09-02** — chatgpt — self  
@@ -104978,6 +105322,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/location-history]] · Granular by Period (cross to wiki periods)
 - · **2026-09-02** — All 95 rows came from the 2026-09-02 backend fetch, `source: grok-backend`.  
   ↳ [[wiki/self/twitter/2008]] · Coverage
+- · **2026-09-02** — The 283 rows here have two origins: 165 walked from live X search in batches of ten, and 118 recovered by the 2026-09-02 backend fetch that also produced the 2008 page.  
+  ↳ [[wiki/self/twitter/2009]] · Gaps
 - · **2026-09-02** — The `@danfrank` Twitter account was recovered thirteen months further back on 2026-09-02 (2008), and it opens on **24 September 2008**, the day Dan arrives in Winter Park.  
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The period's exit, in his own words, on the day it happened
 - ★ **2026-12-19** — P4 — **No third party ends this relationship.** Any severance that holds past 120 days will be traceable to a self-generated move, not an intervention — a documented outside intervention followed by a severance holding >120 days  
@@ -104994,7 +105340,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 370 wiki pages. 1,005 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 371 wiki pages. 1,012 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================
@@ -106367,7 +106713,7 @@ page_type: period
 title: "Full Sail (Sep 2008 – Mar 2010)"
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 date_range_start: 2008-09-01
 date_range_end: 2010-02-28
 sources:
@@ -106436,6 +106782,9 @@ connections:
   - page: wiki/health/chemical-architecture
     type: causes
     claim: "The Alexis-supplied Roxicet relapse over Thanksgiving 2009 is the previously unnamed final active-use episode immediately preceding the February 17, 2010 Suboxone stabilization this page already dates to the same window."
+  - page: wiki/self/twitter/2009
+    type: contradicts
+    claim: 'The contemporaneous public record contradicts this page\'s August 2009 graduation date twice over: "i start my last month of college tomorrow" on 2009-08-31 places the final month in September, and a Pro Tools lab, a practical and an AWS final run to 2009-12-19. The class standing is untouched by either.'
 ---
 
 # Full Sail (Sep 2008 – Mar 2010)
@@ -106449,6 +106798,24 @@ public voice (Twitter) begins, and where the relationship line pivots
 from Danielle to Alexis, the pairing that would eventually lead to [[wiki/people/annie-ulmer|Annie]].
 
 ## The degree
+
+> **CONTRADICTION [2026-09-03]:** the August 2009 graduation date is
+> contradicted by Dan's own contemporaneous public record, in two independent
+> places. On **2009-08-31** he wrote *"so weirded out i start my last month of
+> college tomorrow"*, which puts the final month in September. And across
+> November and December 2009 he is plainly still enrolled — *"pro tools lab.
+> noice"* (30 Nov), *"aced my practical without headphones"* (14 Dec), *"in
+> class...."* (15 Dec), *"long day of class tomorrow"* (17 Dec), *"taking aws
+> final with it"* (19 Dec). See `wiki/self/twitter/2009`.
+>
+> The August date comes from `raw/self/context-core/CONTEXT_CORE_EXPANDED.md`
+> — first-person testimony recorded years later. The tweets are first-person
+> and same-day. **The disagreement is held rather than resolved**: a Full Sail
+> transcript would settle it and the corpus does not have one. The five-month
+> Florida tail described below is measured from the disputed date and is
+> therefore disputed with it; if graduation was in fact late 2009, there was
+> no five-month tail, only a short one. **The top-5% class standing is not in
+> dispute** — nothing in the tweets touches it.
 
 An.S. in Recording Arts, graduated August 2009, top 5% of the class — the
 formal credential behind the music-production identity that runs through

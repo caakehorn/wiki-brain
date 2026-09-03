@@ -4,7 +4,7 @@ page_type: period
 title: "Full Sail (Sep 2008 – Mar 2010)"
 status: stable
 date_created: 2026-07-13
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 date_range_start: 2008-09-01
 date_range_end: 2010-02-28
 sources:
@@ -73,6 +73,9 @@ connections:
   - page: wiki/health/chemical-architecture
     type: causes
     claim: "The Alexis-supplied Roxicet relapse over Thanksgiving 2009 is the previously unnamed final active-use episode immediately preceding the February 17, 2010 Suboxone stabilization this page already dates to the same window."
+  - page: wiki/self/twitter/2009
+    type: contradicts
+    claim: 'The contemporaneous public record contradicts this page\'s August 2009 graduation date twice over: "i start my last month of college tomorrow" on 2009-08-31 places the final month in September, and a Pro Tools lab, a practical and an AWS final run to 2009-12-19. The class standing is untouched by either.'
 ---
 
 # Full Sail (Sep 2008 – Mar 2010)
@@ -86,6 +89,24 @@ public voice (Twitter) begins, and where the relationship line pivots
 from Danielle to Alexis, the pairing that would eventually lead to [[wiki/people/annie-ulmer|Annie]].
 
 ## The degree
+
+> **CONTRADICTION [2026-09-03]:** the August 2009 graduation date is
+> contradicted by Dan's own contemporaneous public record, in two independent
+> places. On **2009-08-31** he wrote *"so weirded out i start my last month of
+> college tomorrow"*, which puts the final month in September. And across
+> November and December 2009 he is plainly still enrolled — *"pro tools lab.
+> noice"* (30 Nov), *"aced my practical without headphones"* (14 Dec), *"in
+> class...."* (15 Dec), *"long day of class tomorrow"* (17 Dec), *"taking aws
+> final with it"* (19 Dec). See `wiki/self/twitter/2009`.
+>
+> The August date comes from `raw/self/context-core/CONTEXT_CORE_EXPANDED.md`
+> — first-person testimony recorded years later. The tweets are first-person
+> and same-day. **The disagreement is held rather than resolved**: a Full Sail
+> transcript would settle it and the corpus does not have one. The five-month
+> Florida tail described below is measured from the disputed date and is
+> therefore disputed with it; if graduation was in fact late 2009, there was
+> no five-month tail, only a short one. **The top-5% class standing is not in
+> dispute** — nothing in the tweets touches it.
 
 An.S. in Recording Arts, graduated August 2009, top 5% of the class — the
 formal credential behind the music-production identity that runs through

@@ -3,7 +3,7 @@ plain_of: wiki/mind/synthesis/millennial-digital-witness
 title: "Millennial Digital Witness"
 reading_level: general
 date_modified: 2026-09-02
-source_modified: 2026-09-02
+source_modified: 2026-09-03
 ---
 
 # Millennial Digital Witness
@@ -118,6 +118,24 @@ that giving anyone an advantage — and those three things are what make the
 full theory a theory. Reading this as "he had the idea in 2012" would be
 wrong. What he had in 2012 was the habit of watching the medium instead of
 the event.
+
+**And there is an older example still — a weaker one.** On 15 October 2009,
+when a six-year-old boy was thought to be inside a runaway balloon drifting
+over Colorado, Dan posted through the whole day at the age of twenty. Almost
+nothing he wrote was about the boy:
+
+> *"HIS NAME IS FALCON. OMG perfect"*
+> *"watching CNN on delay via a paused DVR. this is a little bit riveting."*
+> *"smoke one for balloon boy. the best one-off meme ever."*
+
+He was watching the news coverage, not the emergency. He called a live news
+story a *meme* on the day it happened.
+
+This is deliberately treated as weaker evidence than the 2012 hurricane post,
+and the difference is worth understanding. In 2012 he named what he was
+noticing out loud. In 2009 he only did it — he watched people watching, and
+never said that was what he was doing. So the habit is three years older than
+we thought, but the moment he first put words to it stays in 2012.
 
 So the honest answer is split in two. **The habit is old and it is his. The
 theory built on top of it is recent, and was built with a machine's help.**

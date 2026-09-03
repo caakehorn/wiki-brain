@@ -4,7 +4,7 @@ page_type: synthesis
 status: stable
 knowledge: earned
 date_created: 2026-07-16
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 sources:
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/dox-scan/Dan Profile.txt"
@@ -58,6 +58,9 @@ connections:
   - page: wiki/health/the-configured-body
     type: caused-by
     claim: "The material grievance under the ideology is on the record six months before this page's 2020-08-22 conversion date and is never quoted here: 'imagine being able to just go to the doctor or dentist when you need' and 'the doctor thing is a really big thing for me...there's no reason that 50,000 people die a year because they don't have insurance' (2020-02-07)."
+  - page: wiki/self/twitter/2009
+    type: evidenced-by
+    claim: 'The corpus\'s earliest dated political self-description is a departure, not an arrival: "i no longer consider myself a republican" (2009-11-28), triggered by a link to people behaving badly and naming no replacement. Eleven years before the arrival this page dates, and the same mechanism as the 2022 O&A account — leaving a tribe rather than joining one.'
 ---
 
 
@@ -182,6 +185,41 @@ pose: the new framework immediately turned back on his own inherited
 comfort. This is the "since I've been stuck inside" of lockdown
 ([[wiki/timeline/periods/covid-era-2020]]) doing the classic
 micro-radius-siege radicalization.
+
+## The exit is eleven years older than the arrival
+
+The corpus's earliest dated political self-description is not the 2020 arrival.
+It is **2009-11-28**, on Twitter, at twenty-one, from Pennsylvania over
+Thanksgiving weekend:
+
+> *"people like this are why i no longer consider myself a republican...wowwwwwwwww"*
+
+Three features of that sentence matter more than its date. It is a
+**departure** — it says what he has stopped being and names nothing he has
+become. It is triggered by **people**, by a link to somebody behaving badly,
+rather than by a policy or an argument. And it is aimed at the tribe he was
+raised inside: `CONTEXT_CORE_EXPANDED` records the Uniontown household as
+*"Republican household + talk-radio diet (Limbaugh/Beck/Hannity on the
+auto-parts delivery job)"*.
+
+That is the same mechanism as the 2022 account in the section below — the O&A
+fanbase following Cumia rightward and repelling him leftward, *"radicalized
+[us] to leftist politics"* — running eleven years earlier and against a
+different tribe. **The pattern is not that Dan arrives somewhere; it is that
+he leaves, repeatedly, when the people carrying a position become the argument
+against it.** The 2020 date this page establishes remains the date the
+*destination* was named. What moves is the claim that the departure was part
+of it: the departure had already happened, twice, and 2020 is when something
+finally occupied the vacancy.
+
+**The counter-evidence, and it is real.** One tweet is one tweet. Nothing else
+on `wiki/self/twitter/2009` is political, the page's first nine months are a
+fetch artefact rather than a sample (so an absence there proves nothing), and
+eleven years of no recorded political identity separate the two events. A
+disavowal at twenty-one is a common thing for a twenty-one-year-old to say and
+is not evidence of an early left turn. What it is evidence of is that the
+Republican identity was already gone long before anything replaced it, which
+the media-pipeline story below never had to account for and now does.
 
 ## A second causal account, in his own words, from 2022
 

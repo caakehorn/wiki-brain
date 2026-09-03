@@ -8,16 +8,23 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-03 — 4 pages
+## 2026-09-03 — 9 pages
+
+- **Session log:** lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a CONTRADICTION)_ |
 | [[wiki/meta/testimony-veracity]] | meta | — |
+| [[wiki/mind/synthesis/2020-left-turn]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
+| [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
+| [[wiki/people/alexis-armel]] | people | _(carries a CORRECTED from 2026-09-02)_ |
+| [[wiki/self/twitter/2009]] | self | **CONTRADICTION** — `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and `wiki/timeline/periods/full-sail-2008-2010` and `wiki/people/alexis-armel` both build on |
+| [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | **CONTRADICTION** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomo |
 
-## 2026-09-02 — 42 pages
+## 2026-09-02 — 37 pages
 
 - **Session log:** build | meta | the instrument layer gets a section, and the reason it needs one
 - **Session log:** adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
@@ -50,10 +57,7 @@ simply listed.
 | [[wiki/meta/index]] | meta | — |
 | [[wiki/meta/instruments/index]] | meta | — |
 | [[wiki/meta/readers-digest]] | meta | — |
-| [[wiki/mind/synthesis/2020-left-turn]] | mind | **CORRECTED** — An earlier version of this section claimed the archive showed **two steps, not one** — a first step in 2017 (4.0% → 11.1%, "nearly tripling") separating *political engagement* from *socialist identity |
-| [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
 | [[wiki/mind/synthesis/twitter-2024-cognitive-state]] | mind | — |
-| [[wiki/people/alexis-armel]] | people | **CORRECTED** — this paragraph first read *"four months in."* That was wrong and it understated the finding. The operator capture of 2026-08-27 dates the meeting to **Thanksgiving 2009** (26 November); the tattoo is  |
 | [[wiki/people/dan-polyak]] | people | — |
 | [[wiki/people/eric-jester]] | people | **CORRECTED** — this page described the friendship itself as "sparse but genuinely warm." That is an accurate reading of the *message thread*, which begins **May 2017**. It is not an accurate description of the frien |
 | [[wiki/people/josh-brannan]] | people | — |
@@ -65,7 +69,6 @@ simply listed.
 | [[wiki/self/tattoos]] | self | **CORRECTED** — this page previously read "**entirely** cultural reference … *every* known piece points at a specific record, band, or artist rather than a generic symbol," and dated the earliest well-documented piec |
 | [[wiki/self/twitter]] | self | _(carries a CONTRADICTION)_ |
 | [[wiki/self/twitter/2008]] | self | — |
-| [[wiki/self/twitter/2009]] | self | — |
 | [[wiki/self/twitter/2010]] | self | — |
 | [[wiki/self/twitter/2011]] | self | — |
 | [[wiki/self/twitter/2012]] | self | — |
@@ -84,7 +87,6 @@ simply listed.
 | [[wiki/self/twitter/2025]] | self | — |
 | [[wiki/self/twitter/2026]] | self | — |
 | [[wiki/timeline/periods/2010s]] | timeline | **GAP CLOSED** — the gap, as this page stated it — *"the exact 2010 move date is unresolved (context-core's residence table starts Brooklyn in April 2010, while an earlier note claimed a January 3 move — the Florida t |
-| [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | _(carries a GAP CLOSED from 2026-08-28)_ |
 | [[wiki/work/tech/index]] | work | — |
 
 ## 2026-09-01 — 2 pages

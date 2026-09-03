@@ -3,7 +3,7 @@ plain_of: wiki/mind/synthesis/2020-left-turn
 title: "The 2020 Left Turn"
 reading_level: general
 date_modified: 2026-09-02
-source_modified: 2026-09-02
+source_modified: 2026-09-03
 ---
 
 # The 2020 Left Turn
@@ -108,6 +108,40 @@ The later years, with 156, 159 and 258 tweets, are the solid ones.
 the justice system is on the public record in 2011 — thirteen years before
 the 2024 material the wiki usually treats as where it shows up. Whatever
 changed in 2020, it did not introduce that.
+
+## He left the Republicans eleven years before he joined anything
+
+The earliest political thing Dan ever said in public is not the 2020 arrival.
+It is a single line from **November 28, 2009**, posted at twenty-one while he
+was home in Pennsylvania for Thanksgiving, after linking to something somebody
+had done:
+
+> *"people like this are why i no longer consider myself a republican"*
+
+Three things about that sentence matter more than the date.
+
+It says what he **stopped** being and names nothing he became. It was set off
+by **people**, not by a policy or an argument — somebody behaved badly and he
+left. And the group he left was the one he was raised in: his household was
+Republican, with talk radio on all day at the auto-parts delivery job.
+
+That is the same thing that happens in 2022, described further down this page:
+the Opie & Anthony fanbase follows Anthony Cumia to the right, and Dan is
+pushed left by watching it. Same move, eleven years earlier, different group.
+
+**So the pattern is not that Dan arrives somewhere. It is that he leaves.** He
+walks out when the people carrying a position become the argument against it.
+August 2020 is still the date he named where he had ended up. What changes is
+the story of how he got there: the leaving was already done, twice over, and
+2020 is when something finally moved into the empty space.
+
+**Why to be careful with this.** One tweet is one tweet. Nothing else he
+posted in 2009 is political. Most of that year's record is missing for
+technical reasons, so the fact that we see nothing else proves nothing. And
+eleven years is a long gap. Plenty of twenty-one-year-olds say they are done
+with their parents' party and mean very little by it. What it does show is
+that the Republican label was gone long before anything replaced it — which
+the media-pipeline story below never had to explain, and now does.
 
 ## The media pipeline
 

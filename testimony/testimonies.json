@@ -1,7 +1,7 @@
 {
   "counts": {
-    "adjudicated": 12,
-    "testimonies": 12,
+    "adjudicated": 13,
+    "testimonies": 13,
     "voided": 0
   },
   "generated": "bin/wiki-testimony — do not hand-edit; the log is the record",
@@ -406,6 +406,41 @@
       ],
       "recorded_at": "2026-09-02",
       "source": "raw/people/captures/2026-08-27_222932_gap-alexis-armel.md",
+      "speaker": "operator",
+      "specificity": 2,
+      "subject": "self"
+    },
+    "t013": {
+      "about": "2009-08",
+      "adjudication": {
+        "at": "2026-09-03",
+        "direction": "early",
+        "evidence": "wiki/self/twitter/2009 — 2009-08-31 'so weirded out i start my last month of college tomorrow'; 2009-11-30 'pro tools lab'; 2009-12-14 'aced my practical without headphones'; 2009-12-15 'in class....'; 2009-12-19 'taking aws final with it'",
+        "failure": [
+          "displacement"
+        ],
+        "magnitude": "at least 1 month, plausibly 4-5",
+        "outcome": "refuted",
+        "slant": "neutral",
+        "tier": "first_party_record"
+      },
+      "asserted": "2026-09-03",
+      "channel": "session",
+      "claim": "Dan graduated Full Sail (AS Recording Arts) in August 2009.",
+      "classes": [
+        "date"
+      ],
+      "confidence": "certain",
+      "history": [],
+      "id": "t013",
+      "load_bearing": true,
+      "note": "Stated flatly and tagged [DOC] in CONTEXT_CORE — i.e. presented as verified against a behavioral corpus that explicitly includes Twitter. The Twitter corpus contradicts it, so the [DOC] tag is itself part of the finding. Settled by contemporaneous first-person tweets: 2009-08-31 'i start my last month of college tomorrow' puts the final month in September, and coursework runs to an AWS final on 2009-12-19. A Full Sail transcript would settle it outright and the corpus has none.",
+      "pages": [
+        "wiki/timeline/periods/full-sail-2008-2010",
+        "wiki/people/alexis-armel"
+      ],
+      "recorded_at": "2026-09-03",
+      "source": "raw/self/context-core/CONTEXT_CORE_EXPANDED.md",
       "speaker": "operator",
       "specificity": 2,
       "subject": "self"

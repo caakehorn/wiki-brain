@@ -8380,3 +8380,69 @@ requires and the original never wrote. Inbound links in `master-timeline` and
 
 **Nothing about the page's argument was touched.** The frontmatter was wrong;
 the reading is the author's and stands as written.
+
+## [2026-09-03] ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
+
+The twitter year pages carried one paragraph each where 2008 carried a
+narrative. This is 2009 brought up to that standard by reading all 283 rows,
+and three of its findings leave the page.
+
+**The graduation date is contradicted twice by Dan's own contemporaneous
+posting.** `CONTEXT_CORE_EXPANDED` says *"AS Recording Arts; graduated Aug 2009
+(top 5%)"* and tags it `[DOC]` — the file's own legend for *verified from a
+behavioral corpus (iMessage / Twitter / GPS / test)*. The Twitter corpus is
+named in that legend and it disagrees: **2009-08-31**, *"so weirded out i start
+my last month of college tomorrow"*, which puts the last month in September;
+and coursework running to **2009-12-19**, *"taking aws final with it"*, with a
+Pro Tools lab, a practical and two class references in between. Held as a
+`CONTRADICTION` on `wiki/timeline/periods/full-sail-2008-2010` rather than
+resolved — a transcript would settle it and the corpus has none. The five-month
+Florida tail that page describes is measured from the disputed date and is
+disputed with it. The top-5% standing is untouched.
+
+Recorded and adjudicated as **t013, refuted, displacement, early** —
+`bin/wiki-testimony`. **Both settled `date` claims now run early**, which is the
+direction the ledger was built to find. It is n=2, far under `MIN_N`, and is
+recorded as a direction to watch rather than a bias to subtract.
+
+**The political exit is eleven years older than the arrival.**
+*"people like this are why i no longer consider myself a republican"*
+(2009-11-28) is the corpus's earliest dated political self-description, and its
+shape is the finding rather than its date: a departure naming no destination,
+triggered by *people* rather than by an argument, aimed at the household
+`CONTEXT_CORE` records as Republican-with-talk-radio. That is the mechanism of
+the 2022 O&A account in `mind/synthesis/2020-left-turn`, running eleven years
+earlier against a different tribe. **The pattern is leaving, repeatedly; 2020
+is when something finally occupied the vacancy.** Written into that page with
+its own counter-evidence: one tweet is one tweet, and 2009's first nine months
+are a fetch artefact, so the surrounding silence proves nothing.
+
+**Balloon Boy moves the digital-witness habit back three years, and is filed as
+weaker evidence on purpose.** 2009-10-15: *"watching CNN on delay via a paused
+DVR"*, *"the best one-off meme ever"* — the coverage as the subject, the word
+*meme* applied to a live news story on the day. Sandy (2012) names its own
+category and is a claim about the medium; this only demonstrates the habit
+without stating it. So `millennial-digital-witness` now reads *at least
+seventeen years* for the habit and keeps 2012 for the articulation. Both plain
+twins re-translated against what moved, not date-bumped.
+
+**A defect in the page's own numbers, and a worse one in its shape.** The
+coverage table said 283 originals from 165 scraped and 0 spreadsheet rows; the
+missing 118 are the 2026-09-02 backend fetch and are now a row. More seriously,
+**January–September 2009 survives almost entirely as clusters on the last one
+to three days of each month** — 26–28 February, 31 March, 29–30 April, 30–31
+May, and so on — because both retrieval methods were capped at ten results per
+month-bounded query. October–December run continuously because that is where
+the live walk went. Anyone reading this page for cadence, volume or a subject
+going quiet would be reading the fetch. Stated at the top of Gaps: presence is
+evidence here, absence is not.
+
+**A negative result kept rather than passed over.** There is no opiate
+reference anywhere in 2009, though `CONTEXT_CORE` dates the first opiate to
+2007 and Suboxone begins seven weeks after the last tweet on the page. The
+reading is not that it was not happening — it is that this account was never
+where that was written, and the same silence should be assumed of every later
+year here.
+
+`date_range_start` was also wrong: 2009-10-20 on a page whose first row is
+2009-01-07.

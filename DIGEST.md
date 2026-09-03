@@ -16,8 +16,8 @@ this is the state of the thing.
 | Pages | 497 |
 | Pages touched in the last 14 days | 188 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
-| Live contradictions | 43 |
-| Open gaps | 507 |
+| Live contradictions | 45 |
+| Open gaps | 509 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -47,9 +47,10 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-09-03** — 4 pages
+**2026-09-03** — 9 pages
+  - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
 
-**2026-09-02** — 42 pages
+**2026-09-02** — 37 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result

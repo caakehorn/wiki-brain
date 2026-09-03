@@ -43,17 +43,17 @@ A single trust score would collapse two facts that behave differently. **Veracit
 
 | | value | n |
 |---|---|---:|
-| **Veracity** | **57 / 100** — +2.5 points on 17.5 weight | 6 |
-| **Calibration** | Brier 0.243, skill +0.03 vs a coin flip | 6 |
-| **Stated vs actual** | -0.13 | 6 |
+| **Veracity** | **49 / 100** — -0.5 points on 20.5 weight | 7 |
+| **Calibration** | Brier 0.337, skill -0.35 vs a coin flip | 7 |
+| **Stated vs actual** | -0.25 | 7 |
 
-Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 6 settled claims, not thousands.
+Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 7 settled claims, not thousands.
 
 ## What his confidence is actually worth
 
 | band | he states | it is worth | gap | n |
 |---|---:|---:|---:|---:|
-| certain | 0.95 | 0.00 | -0.95 | 1 |
+| certain | 0.95 | 0.00 | -0.95 | 2 |
 | confident | 0.80 | 0.75 | -0.05 | 3 |
 | hedged | 0.60 | 0.75 | +0.15 | 2 |
 
@@ -64,22 +64,22 @@ Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refut
 | confirmed | 3 | independent evidence bears it out |
 | partial | 1 | the core holds, a material detail does not |
 | self_contradicted | 1 | he has given two accounts that cannot both be true |
-| refuted | 1 | independent evidence contradicts it |
+| refuted | 2 | independent evidence contradicts it |
 | unfalsifiable | 6 | checked, and the corpus cannot settle it — **scores zero, never negative** |
 
 ## By claim class
 
-Rates are shrunk toward the global 0.62 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
+Rates are shrunk toward the global 0.54 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
 
 | class | n | raw | shrunk | 95% CI on clean confirmations | dominant failure |
 |---|---:|---:|---:|---|---|
-| date | 2 | 0.50 | 0.57 | 9%–91% | displacement, rounding |
-| location | 2 | 0.12 | 0.42 | 0%–66% | displacement, rounding |
-| duration | 1 | 1.00 | 0.72 | 21%–100% | — |
-| enumeration | 1 | 0.50 | 0.59 | 0%–79% | omission |
-| existence | 1 | 1.00 | 0.72 | 21%–100% | — |
-| quantity | 1 | 1.00 | 0.72 | 21%–100% | — |
-| sequence | 1 | 1.00 | 0.72 | 21%–100% | — |
+| date | 3 | 0.33 | 0.43 | 6%–79% | displacement, rounding |
+| location | 2 | 0.12 | 0.37 | 0%–66% | displacement, rounding |
+| duration | 1 | 1.00 | 0.65 | 21%–100% | — |
+| enumeration | 1 | 0.50 | 0.53 | 0%–79% | omission |
+| existence | 1 | 1.00 | 0.65 | 21%–100% | — |
+| quantity | 1 | 1.00 | 0.65 | 21%–100% | — |
+| sequence | 1 | 1.00 | 0.65 | 21%–100% | — |
 
 ## Which way the errors run
 
@@ -87,7 +87,7 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 
 | slant | n |
 |---|---:|
-| neutral — the error carries no credit or discredit either way | 3 |
+| neutral — the error carries no credit or discredit either way | 4 |
 
 ## The record
 
@@ -105,6 +105,7 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 | t010 | A named individual was the building's superintendent and real estate agent at 307 E 76th St | identity, attribution | confident | unfalsifiable | The only independent corpus trace is a single November 2019 message placing him in the apartment, which does not establish the role. |
 | t011 | Four unconscious axioms are load-bearing in his cognition: not exceptional = worthless, not vigilant = annihilated, love that does not cost everything is not real, and time = countdown | self_state | certain | unfalsifiable | Tested lexically against all 106,629 outbound messages 2015-2025 with 110,944 inbound from 503 handles as a within-medium control. On every explicit urgency construction but one he writes LESS than his controls. This does not falsify the axiom — SMS is a near-zero-introspection medium for everybody in it — but it establishes that the message corpus cannot corroborate it. |
 | t012 | He met Alexis Armel on a Thanksgiving 2009 trip home, spent two nights with her, and about a week or two later she came to Orlando on a one-way ticket he bought | date, sequence, duration | confident | confirmed | The tweet archive puts him in PA 25-30 Nov 2009 ('cookies, water, beer, wine, and her.' on the 29th; 'watching the game with someone special' and 'I miss her already' on the 30th, 'her' unnamed), then the first @alexisarmel tweet on 14 Dec from Orlando -- 'you amaze me. can't believe you're real' alongside 'dan in love' -- about two and a half weeks later. 'i have the most amaaaazing girlfriend' on 16 Dec. The account carried the relationship publicly for a fortnight before it carried her name. |
+| t013 | Dan graduated Full Sail (AS Recording Arts) in August 2009. | date | certain | refuted | wiki/self/twitter/2009 — 2009-08-31 'so weirded out i start my last month of college tomorrow'; 2009-11-30 'pro tools lab'; 2009-12-14 'aced my practical without headphones'; 2009-12-15 'in class....'; 2009-12-19 'taking aws final with it' |
 
 ## What this ledger cannot see
 
