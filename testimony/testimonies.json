@@ -1,7 +1,7 @@
 {
   "counts": {
-    "adjudicated": 14,
-    "testimonies": 14,
+    "adjudicated": 15,
+    "testimonies": 15,
     "voided": 0
   },
   "generated": "bin/wiki-testimony — do not hand-edit; the log is the record",
@@ -476,6 +476,42 @@
       "source": "raw/self/dox-scan/Gemini-_58.txt",
       "speaker": "operator",
       "specificity": 3,
+      "subject": "self"
+    },
+    "t015": {
+      "about": "2014-07",
+      "adjudication": {
+        "at": "2026-09-03",
+        "direction": "early",
+        "evidence": "wiki/self/twitter/2014 — 2014-07-04, one day after the firing: '@AnthonyCumia nothing but love and respect ant. Thanks for not selling your soul through this whole mess.' And 2014-03-25: '@AnthonyCumia brilliant point re \"tranny\" outrage.' 2014 is spreadsheet-complete (170 of 171 rows) and contains no post expressing discomfort. PARTIAL rather than refuted because 'we were radicalized' describes a process that can begin later than its cause; what is contradicted is the implied timing, not the eventual direction of travel, which the 2020 turn independently corroborates.",
+        "failure": [
+          "compression"
+        ],
+        "magnitude": "the repulsion is placed at July 2014; the record puts it no earlier than years later",
+        "outcome": "partial",
+        "slant": "flattering",
+        "tier": "first_party_record"
+      },
+      "asserted": "2022-11-18",
+      "channel": "platform_self_report",
+      "claim": "Dan was among the O&A fans repulsed by the racism at the time of the 2014 split, and that repulsion radicalized him to leftist politics.",
+      "classes": [
+        "self_state",
+        "sequence"
+      ],
+      "confidence": "confident",
+      "history": [],
+      "id": "t015",
+      "load_bearing": true,
+      "note": "Stated on Twitter in 2022 about his own contemporaneous reaction to Anthony Cumia's July 2014 firing. 2014 is a spreadsheet-complete year, so an absence of contrary posts would have been meaningful — but the record is not merely silent, it runs the other way.",
+      "pages": [
+        "wiki/interests/opie-and-anthony",
+        "wiki/mind/synthesis/2020-left-turn"
+      ],
+      "recorded_at": "2026-09-03",
+      "source": "raw/self/twitter/archive.jsonl",
+      "speaker": "operator",
+      "specificity": 2,
       "subject": "self"
     }
   }

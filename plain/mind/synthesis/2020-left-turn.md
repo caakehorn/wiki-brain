@@ -171,6 +171,30 @@ coincidence: why the change stuck so hard and so fast, inside a few weeks. He
 was not building a position from scratch. He was filling a hole that had been
 open for eleven years.
 
+## He did not walk away in 2014 — he stayed for six more years
+
+Further down, this page uses something Dan said in 2022: that when the Opie &
+Anthony fanbase went right after Anthony Cumia was fired in 2014, people like
+him were so disgusted that they went left instead.
+
+His posts from 2014 say otherwise. Cumia was fired on July 3, 2014, for a
+string of racist messages about a Black woman who had hit him in the street.
+On **July 4, 2014**, Dan tweeted at him:
+
+> *"nothing but love and respect ant. Thanks for not selling your soul through
+> this whole mess."*
+
+We have essentially all of his 2014 posts, and not one of them shows any
+discomfort about it.
+
+So the cause is probably real, but the date is wrong. He did not turn away in
+2014. **And that makes the change bigger, not smaller.** The six years between
+the firing and his 2020 conversion used to be an awkward gap this page had to
+talk around. It is actually the point: the distance from "nothing but love and
+respect" in 2014 to calling himself a democratic socialist in 2020 is the whole
+size of what changed in him. Someone who walks out the moment they are offended
+has not changed at all.
+
 ## The media pipeline
 
 The names Dan credits are a specific ecosystem, often called the "dirtbag left" or "BreadTube." This is a loose network of left-wing podcasts, YouTube channels and streamers.

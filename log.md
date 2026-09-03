@@ -8694,3 +8694,59 @@ shock-slur register peaks this year and is kept unsoftened, beside sustained
 non-ironic engagement with *Yeezus* and its racial argument in the same months;
 the page says plainly that this is one person, not two. And *"panic tax"*,
 posted alone on 20 January and again on 13 September, has no known referent.
+
+## [2026-09-03] ingest | self | 2014 read in full — he backed Cumia the day after the firing, and the correction makes the left turn larger
+
+171 rows, 170 of them from the operator export. **A spreadsheet-complete year,
+so absence is evidence here** — which is what makes the finding usable.
+
+**The corpus's account of the O&A split does not survive its own record.**
+`wiki/interests/opie-and-anthony` and `wiki/mind/synthesis/2020-left-turn` both
+rest on Dan's 2022 statement that fans like him were *"so repulsed by the
+racism and fascistic overtones that we were radicalized to leftist politics."*
+Anthony Cumia was fired on 2014-07-03 over racist posts about a Black woman who
+had struck him in Times Square. On **2014-07-04**:
+
+> *"@AnthonyCumia nothing but love and respect ant. Thanks for not selling your
+> soul through this whole mess."*
+
+And on 2014-03-25, *"brilliant point re 'tranny' outrage."* The year is
+complete and contains no post expressing discomfort — the record is not silent,
+it is opposed.
+
+**What survives is the cause; what fails is the timing.** *"We were
+radicalized"* describes a process that may begin long after its trigger, and
+the 2020 turn corroborates the direction. Recorded as **t015** — `partial`,
+failure `compression`, direction `early`, slant **`flattering`**. That is the
+**first non-neutral slant in the testimony ledger**, which until now read 4/4
+neutral. `CLAUDE.md` says the absence of self-serving error is only evidence if
+somebody looked for it; somebody looked, and there is one.
+
+**The correction makes both pages stronger.** The six-year lag between the
+split and the August 2020 self-narration was an awkward gap those pages routed
+around. It is the actual finding: the distance from *"nothing but love and
+respect ant"* to a democratic-socialist self-description is the size of the
+change. A conversion beginning at the moment of the offence would be a much
+smaller claim about a person.
+
+**SLOPPP at full extension, the same year.** An official Beatport remix contest
+entry with vote canvassing; flips for heRobust, Katy Perry × Juicy J, gLAdiator,
+Drake × Cashmere Cat, Caked Up and Zeds Dead; *Week in TRAP* to episode 8, *Wax
+Stacks and Racks* monthly, *Heatwave Vol 1*, and a live-streamed video show
+(*TRAP TV*, Ustream and YouTube, November–December); unsolicited tracks sent to
+another DJ twice; a public collaboration address (*"danfr4nk@icloud.com for
+stems and patch trades"*); thanks from `@cobrakrames`, `@whatdirt` and a shout
+from Lil Debbie; a hand-painted MIDI controller. And the cost, twice:
+*"So many hours DJing that I need daily inversion table therapy."*
+
+**Two things that recur.** The Aoki objection (25 April) applies
+vertical-authority-skepticism to his own field — a famous performer taking
+money for work he is not doing — while classifying himself as *"a 'nobody'
+DJ"* in the same month he was entering a label contest. And 14–16 October is
+seven tweets pitching unpaid, competent O&A audio production to six people at
+the show, two years after the unanswered internship application.
+
+**One more unshipped ambition, dated.** 19 December: *"i think my reference,
+pun, and pop culture games are heavy and could probably be some 2015 rap star
+kick."* Nothing follows it. The self-assessment is accurate, which is what
+makes the pattern worth naming.

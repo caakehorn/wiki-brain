@@ -283,6 +283,25 @@ why the conversion took so completely and so fast, in a matter of weeks. It was
 not building a position from nothing. It was filling a vacancy that had been
 open for eleven years.
 
+## The O&A cause is real but its date is not 2014
+
+The section below cites Dan's 2022 account that the fanbase's rightward drift
+after Cumia's 2014 firing *"radicalized [us] to leftist politics"*. The
+contemporaneous record shows he was not among the repulsed at the time: on
+**4 July 2014**, one day after Cumia was fired over racist posts, Dan tweeted
+at him *"nothing but love and respect ant. Thanks for not selling your soul
+through this whole mess."* 2014 is spreadsheet-complete and contains nothing to
+the contrary (`wiki/self/twitter/2014`; ledger record **t015**).
+
+The cause survives; the timing does not. **And the correction is in this
+page's favour.** The six-year gap between the split and the August 2020
+self-narration was previously an awkward silence this page had to route
+around. It is now the actual shape of the thing: he stayed in that audience for
+years after the offence, and the distance from *"nothing but love and respect
+ant"* to a democratic-socialist self-description is the size of the change
+being documented. A conversion that begins at the moment of the offence would
+be a much smaller claim.
+
 ## The media pipeline (dirtbag left / BreadTube)
 
 The names he credits are a specific ecosystem, and the corpus corroborates

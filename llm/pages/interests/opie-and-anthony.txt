@@ -44,6 +44,9 @@ connections:
   - page: wiki/self/twitter/2012
     type: evidenced-by
     claim: 'Dan disavows the show\'s politics while committing to its comedy on 2012-02-26, ten years before the retrospective account, and applies for an O&A internship on 2012-11-18 — the only job application anywhere in the 2010-2012 record.'
+  - page: wiki/self/twitter/2014
+    type: contradicts
+    claim: 'Dan backed Cumia the day after the firing — "nothing but love and respect ant" (2014-07-04) — and endorsed his anti-political-correctness framing as "brilliant" three months earlier. The 2022 radicalization account\'s timing does not survive it; its direction of travel does.'
 ---
 
 # Opie & Anthony / Shock Radio
@@ -116,6 +119,33 @@ Anthony Cumia's 2014 firing as a **reactionary rabbit hole of white-grievance
 politics** — not a euphemism, and written to the co-host rather than about
 him. And he places himself in the counter-current: *"we were radicalized to
 leftist politics."*
+
+> **CONTRADICTION [2026-09-03] — he was not repulsed in 2014.** The
+> contemporaneous record runs the other way. Anthony Cumia was fired on
+> **3 July 2014** over racist posts about a Black woman who had hit him in
+> Times Square. On **4 July 2014** Dan tweeted at him:
+>
+> > *"nothing but love and respect ant. Thanks for not selling your soul
+> > through this whole mess."*
+>
+> And on **25 March 2014**: *"brilliant point re 'tranny' outrage. Minority
+> groups feel entitled to have at least 1 term ruled a slur."* 2014 is a
+> **spreadsheet-complete year** on `wiki/self/twitter/2014` — 170 of 171 rows
+> from the operator export — so the absence of any post expressing discomfort
+> is itself evidence, and the record is not merely silent but opposed.
+>
+> **What survives and what does not.** *"We were radicalized"* describes a
+> process, and a process may begin well after its cause; the 2020 turn
+> independently corroborates the eventual direction. What does not survive is
+> the **timing** the sentence implies. Recorded as **t015** in the testimony
+> ledger — `partial`, failure mode `compression`, direction `early`, slant
+> **`flattering`**, the first self-favouring error that ledger holds.
+>
+> **This makes the page's argument bigger, not smaller.** A man repelled at the
+> moment of the offence has changed nothing about himself. A man who
+> congratulated Cumia on his integrity in July 2014 and arrived at democratic
+> socialism by August 2020 has moved a real distance, and the six-year lag —
+> previously an awkward gap — is the measure of it.
 
 That makes this page load-bearing for
 [[wiki/mind/synthesis/2020-left-turn]], which dates his socialist conversion
