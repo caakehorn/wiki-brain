@@ -8,8 +8,15 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-02 — 45 pages
+## 2026-09-03 — 1 page
 
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/meta/testimony-veracity]] | meta | — |
+
+## 2026-09-02 — 44 pages
+
+- **Session log:** build | meta | the instrument layer gets a section, and the reason it needs one
 - **Session log:** adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
 - **Session log:** build | meta | the wiki has been checking his testimony for months and throwing away every result
 - **Session log:** ingest | self | @danfrank twitter archive as yearly pages
@@ -43,7 +50,6 @@ simply listed.
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/readers-digest]] | meta | — |
 | [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
-| [[wiki/meta/testimony-veracity]] | meta | — |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | **CORRECTED** — An earlier version of this section claimed the archive showed **two steps, not one** — a first step in 2017 (4.0% → 11.1%, "nearly tripling") separating *political engagement* from *socialist identity |
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
 | [[wiki/people/alexis-armel]] | people | **CORRECTED** — this paragraph first read *"four months in."* That was wrong and it understated the finding. The operator capture of 2026-08-27 dates the meeting to **Thanksgiving 2009** (26 November); the tattoo is  |
@@ -499,23 +505,4 @@ simply listed.
 | [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | mind | — |
 | [[wiki/people/lisa-frank]] | people | — |
 | [[wiki/people/tan-calabrese]] | people | _(carries a REVISED from 2026-08-09)_ |
-
-## 2026-08-10 — 8 pages
-
-- **Session log:** rewrite | mind | wiki-rewrite pass — taboo-and-boundary-testing, attachment-model, two new pages, new politics/ cluster
-- **Session log:** ingest | people, work, mind | live Gmail sweep corrects Creative License/Kevin McKiernan — twice, in one afternoon
-- **Session log:** rewrite | people, places | annie-ulmer.md wiki-rewrite pass + 3 manual captures — sex resumption, the 307 E 76th St cast, Suz's Winter Park condo
-- **Session log:** rewrite | people | annie-ulmer.md deep-mining pass — new events from previously unread raw/ sources
-- **Session log:** edit | people | Winter Park condo address confirmed — 2924 Antique Oaks Circle
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/mind/politics/index]] | mind | — |
-| [[wiki/mind/psychosexual/taboo-and-boundary-testing]] | mind | **CORRECTED** — This page previously said the orientation- violation claim had "no independent primary-source example... in the corpus searched for this page" and called it "the thinnest-supported claim in this entir |
-| [[wiki/people/jim-blanchard]] | people | — |
-| [[wiki/people/katherine-palakovich]] | people | — |
-| [[wiki/people/kevin-mckiernan]] | people | _(carries a CORRECTED)_ |
-| [[wiki/people/marty-jackson]] | people | — |
-| [[wiki/people/renae-holland]] | people | — |
-| [[wiki/work/creative-license]] | work | _(carries a CORRECTED)_ |
 

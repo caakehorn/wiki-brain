@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,458 events** across **80 years** (1796–2027), drawn from **369 pages**. Tier 1 686 · Tier 2 418 · Tier 3 2,354.
+**3,432 events** across **80 years** (1796–2027), drawn from **369 pages**. Tier 1 685 · Tier 2 417 · Tier 3 2,330.
 
 ## What counts as an event here
 
@@ -1460,7 +1460,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/journeys/the-type-machine]] · The control case: typed, then found untyped
 - · **July 2013** — franki fireworks day 2013** — **The date is not fixed.** "Early July 2013" plus a fireworks display is as close as the record gets. A dated ATM withdrawal on Suz's account, or a Uniontown fireworks schedule for 2013, would close it.  
   ↳ [[wiki/meta/open-questions]] · timeline (81)
-- · **July 2013** — The Franki Fireworks Day (early July 2013) — 2026-08-30, Claude  
+- · **July 2013** — The Franki Fireworks Day (early July 2013)  
   ↳ [[wiki/meta/readers-digest]] · What has an edition
 - · **Summer 2013** — She occupied the primary slot for **five days** in the summer of 2013, during a brief split from Alexis.  
   ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · The control, and where the rule stops
@@ -7117,24 +7117,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/franki-fireworks-day-2013]] · Gaps
 - ◆ **2026-08-29** — Not every performer has a page, and the master table below — not the page list — is the complete record.** On 2026-08-29 the operator removed 47 single-appearance artist stubs as unnecessary; each held nothing the master event list and the festival lineups do not already state.  
   ↳ [[wiki/interests/concert-record/index]] · Concert Record (2001-2019)
-- · **2026-08-29** — Extreme Sports — 2026-08-29, caakehorn  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-29** — Book Favorites — 2026-08-29, caakehorn  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-29** — Dan's Law — 2026-08-29, caakehorn  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-29** — The Fayette Return — 2026-08-29, caakehorn  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-29** — The Cato Seat — 2026-08-29, caakehorn  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-29** — Vertical Authority Skepticism — 2026-08-29, caakehorn  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- ★ **2026-08-30** — The Cool Metric — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
 - ◆ **2026-08-30** — The intake ledger began recording on 2026-08-30 and supplies the first night where two rows of it were written down as they happened: one **0.75 g cocaine unit** worked over 9h 31m in six doses, and **three separate 0.05 g cannabis units** at 22:06, 00:37 and 02:36, each opened and closed in a…  
   ↳ [[wiki/health/chemical-architecture]] · The stack, measured rather than described — 2026-08-30/31
-- ◆ **2026-08-30** — Concert Record (2001-2019) — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
 - · **2026-08-30** — Cannabis — Creative lubricant  
   ↳ [[wiki/health/chemical-architecture]] · The stack
 - · **2026-08-30** — Its silence before 2026-08-30 is the absence of a ledger, not the absence of use.  
@@ -7153,30 +7137,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/health/intake-ledger]] · Every event
 - · **2026-08-30** — Two of these publish to a public repository**, knowingly, by an operator decision on 2026-08-30: `intake/` and `testimony/` are tracked and readable by anyone, permanently, and git history cannot be un-published.  
   ↳ [[wiki/meta/instruments/index]] · What the instrument layer cannot see, as a layer
-- · **2026-08-30** — Fall Out Boy — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-30** — Food and Diet — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-30** — Lyrics as Timbre — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-30** — Sub-Bass Signature — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-30** — The Acquisition Drive — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-30** — Bunker Core — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-30** — The Chaos Preference — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-30** — The Institutional Out — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-30** — The Power Axiom: What Resolves the Leftist/Authoritarian 'Paradox — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-30** — Political Psyops & Hybrid Events — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-30** — Creative License (NYC, 2011–2012) — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-30** — Fastly (FSLY) — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
 - · **2026-08-30** — the configured body — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 5 pages
 - · **2026-08-30** — Anthropic — cli · web · desktop · ide — 53 — 2026-08-30  
@@ -7193,8 +7153,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/health/intake-ledger]] · Every event
 - · **2026-08-31** — #1 — cocaine — 0.25 g — estimated (medium) — —  
   ↳ [[wiki/health/intake-ledger]] · Every event
-- · **2026-08-31** — The Configured Body — 2026-08-31, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
 - · **2026-09-01** — Run 2026-09-01, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/favorites/eclecticism]] · The constitution pass
 - · **2026-09-01** — Neither has been tested and the page does not claim music as a member.** The positive account of what the exception *is* now lives at eclecticism (rewritten 2026-09-01): Architecture B — three functional clusters kept in parallel for eighteen years, archival emo beside live bass calibration beside…  
@@ -7203,16 +7161,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/2010s]] · Transition
 - · **2026-09-02** — The git log read as a record of *operations* rather than saves  
   ↳ [[wiki/meta/instruments/index]] · The measures
-- · **2026-09-02** — Eclecticism in Favorites — 2026-09-02, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-09-02** — The 2020 Left Turn — 2026-09-02, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-09-02** — Millennial Digital Witness — 2026-09-02, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-09-02** — The Embedded Objective — 2026-09-02, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-09-02** — YouTube Watch History (2007–2026) — 2026-09-02, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
 - · **2026-09-02** — failure to launch — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-09-02** — chatgpt — self  
