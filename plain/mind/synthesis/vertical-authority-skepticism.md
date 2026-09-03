@@ -2,8 +2,8 @@
 plain_of: wiki/mind/synthesis/vertical-authority-skepticism
 title: "Vertical Authority Skepticism"
 reading_level: general
-date_modified: 2026-08-28
-source_modified: 2026-08-19
+date_modified: 2026-09-03
+source_modified: 2026-09-03
 ---
 
 # Vertical Authority Skepticism
@@ -136,6 +136,62 @@ Music is the one area with no authority in it at all: self-released,
 self-owned, no manager, no label. The records connect that directly to its being
 the one channel where he is sincere.
 
+## Three earlier examples, and what the habit costs
+
+Reading his whole Twitter archive year by year added three cases to the full
+entry, and one number that the page did not have before.
+
+**2011 — the method, on something that did not matter.** A stranger claimed
+online to have been at a concert. He checked the location tag attached to her post
+against where the concert actually was, then checked her photograph against a
+detail of her own appearance — a lip ring she used to wear and did not have in the
+picture, which meant the picture was two years old. When she objected he did not
+repeat the accusation; he explained why the location tag was reliable. That is the
+same procedure he would later use on national news stories, twelve years earlier,
+applied to nothing of consequence.
+
+**2021 — checking himself in the same breath.** Working through footage of the
+attack on the US Capitol, he arrived at a suspicion that the police had let the
+crowd in on purpose, and said he was as sure of it as he could be. Then, in the
+same message, he turned the question on himself: what would the point have been,
+and was he being too generous? Later the same evening he softened it to
+"seemingly." Ten days after that he took apart the opposite theory — that
+left-wing activists had staged the whole thing — by pointing out it made no sense
+on its own terms.
+
+That order matters: consider it, state it strongly, check yourself, soften it, then
+refuse the version that would have flattered your own side.
+
+**2024 — arithmetic, against his own team.** After the attempt on Donald Trump's
+life, people on his side of politics claimed a famous photograph had to be staged.
+He worked out the numbers — the frame rate of the camera, the shutter speed, the
+speed of the bullet — and concluded the shot could not have been timed even by
+someone who knew what was coming. Then he wrote out, as a joke, the three things
+he would have to be wrong about for the conspiracy to be true: that there is no
+God, that Donald Trump is a bad man, and that opposing dictatorship is right.
+
+### What it costs
+
+The wiki now keeps a running score of how often his first-hand claims turn out to
+be true, and how well his confidence matches. The result is uncomfortable and
+belongs here.
+
+**Every claim he has stated with total certainty has turned out to be wrong** —
+three of three so far. His hedged claims, the ones he flags as guesses, come out
+better than he says they will. The most common way he goes wrong is taking a real
+observation and stretching it further than it will hold.
+
+That is the same ability failing. Refusing to take an institution's word for
+anything is what produces the good work above. It is also what produced "Trump is
+never getting indicted" a month before the indictment, and "DeSantis will
+absolutely not run" a hundred days before he ran. Sometimes institutions and
+people do the thing they said they would.
+
+**The pattern is worth stating plainly.** He is accurate when he *checks* —
+footage, timestamps, shutter speeds, dead web pages. He is unreliable when he
+*predicts*. The three certainty failures are a small sample and should be read as
+a warning rather than a law.
+
 ## What we still don't know
 
 - **There is no case anywhere in the record of an institution earning trust
@@ -145,6 +201,9 @@ the one channel where he is sincere.
 - **There's a gap in the records for 2021–23**, so the relationship with the
   restaurant employer during those years is reconstructed only from how Dan
   described it later, not from anything written at the time.
+- **Whether the certainty pattern holds up.** It rests on three claims. If he
+  makes ten more flat, checkable assertions and most of them come true, the
+  section above is a coincidence rather than a finding.
 
 ---
 

@@ -24,7 +24,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 43 |
-| Open gaps | 507 |
+| Open gaps | 512 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
 
@@ -537,7 +537,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/places/the-unpapered-address]]** — **The pre-2010 record is empty.** Full Sail housing (2008–2010) and everything before it are undocumented, so the rule is tested on sixteen years and not on a life. If the Florida period shows a conventional student lease, the pattern has a start date and the 
 - **[[wiki/places/the-unpapered-address]]** — **This page does not establish intent.** Whether the unpapered arrangements were preferred, accepted, or simply the only ones available at a $11,000–14,000 household income is not decidable from this material, and the three readings have very different implica
 
-### self (62)
+### self (67)
 
 - **[[wiki/self/ancestry]]** — 1. **The Harris paternal line.** Sadie Harris's father ("Harris" from Czechoslovakia) is the single biggest data gap. He contributed ~12.5% of Dan's DNA but is completely undocumented beyond a single datum. Research into Czech immigration records, census data,
 - **[[wiki/self/ancestry]]** — 2. **The maternal R0 haplogroup.** The origin of the R0 mitochondrial haplogroup on the maternal line is unexplained. It may indicate a distant Jewish, Middle Eastern, or Central Asian ancestor entering through the Van Voorhis, Conwell, or Thomas lines. Resear
@@ -588,19 +588,24 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/twitter/2008]]** — **This page is a lower bound, and the shortfall is structural.** The fetch that produced it was search-based and capped at ten results per query. Every month that returned ten hits is truncated at ten: **October, November and December 2008 are all incomplete.*
 - **[[wiki/self/twitter/2008]]** — The account's creation datetime was **not** retrievable — the backend user lookup returned an id (`16430736`) but no `created_at`. Creation on 24 September 2008 is an inference from three consistent facts: the earliest tweet retrieved, two queries before it re
 - **[[wiki/self/twitter/2008]]** — A complete X account export would close both gaps.
-- **[[wiki/self/twitter/2008]]** — This page is the text archive. Every original and every reply retrieved for the year is below, oldest first.
-- **[[wiki/self/twitter/2009]]** — The operator spreadsheet begins 2013-08-17. 2009 is being walked from live X search in batches of ten; this page currently holds 165 originals and will be appended as further batches land. Do not treat the present count as the year's total.
-- **[[wiki/self/twitter/2009]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
-- **[[wiki/self/twitter/2010]]** — The operator spreadsheet begins 2013-08-17. 2010 is being walked from live X search in batches of ten; this page currently holds 342 originals and will be appended as further batches land. Do not treat the present count as the year's total.
-- **[[wiki/self/twitter/2010]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
-- **[[wiki/self/twitter/2011]]** — The operator spreadsheet begins 2013-08-17. 2011 is being walked from live X search in batches of ten; this page currently holds 225 originals and will be appended as further batches land. Do not treat the present count as the year's total.
-- **[[wiki/self/twitter/2011]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
-- **[[wiki/self/twitter/2012]]** — The operator spreadsheet begins 2013-08-17. 2012 is being walked from live X search in batches of ten; this page currently holds 205 originals and will be appended as further batches land. Do not treat the present count as the year's total.
-- **[[wiki/self/twitter/2012]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
-- **[[wiki/self/twitter/2013]]** — Spreadsheet originals are complete from 2013-08-17 through year-end. January through 2013-08-13 is still being scraped and appended in live batches of ten.
-- **[[wiki/self/twitter/2013]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
+- **[[wiki/self/twitter/2009]]** — **The count on this page is 283 and the year's true total is unknown and higher.** The operator spreadsheet does not begin until 2013-08-17, so every row here came from a capped search backend.
+- **[[wiki/self/twitter/2009]]** — January through September hold **8, 10, 10, 10, 10, 10, 10, 10, 10** rows — the cap, nine times over — and they are not spread across those months. February covers three days, March covers one (the 31st), April two, May two, June three, July one (the 31st), Au
+- **[[wiki/self/twitter/2010]]** — **The count on this page is 342 and the year's true total is unknown and higher.** Every row is `live-x-scrape`; the operator spreadsheet does not begin until 2013-08-17.
+- **[[wiki/self/twitter/2010]]** — The monthly counts are 48, 30, 48, 20, 19, 29, 20, 19, 29, 20, 20, 40 — near-exact multiples of the ten-result query cap, because that is what they measure. No month of 2010 should be described as busier or quieter than another from this page.
+- **[[wiki/self/twitter/2011]]** — **The count on this page is 225 and the year's true total is unknown and higher.** Every row is `live-x-scrape`; the operator spreadsheet does not begin until 2013-08-17.
+- **[[wiki/self/twitter/2011]]** — Monthly counts: 30, 20, 29, 10, 19, 19, 10, 19, 20, 19, 12, 18. April and July sit at exactly the cap and are the thinnest-covered months, not the quietest ones.
+- **[[wiki/self/twitter/2012]]** — **The count on this page is 205 and the year's true total is unknown and higher.** Every row is `live-x-scrape`; the operator spreadsheet does not begin until 2013-08-17.
+- **[[wiki/self/twitter/2012]]** — Monthly counts: 27, 20, 19, 10, 20, 10, 10, 19, 20, 20, 26, 4. **December 2012 holds four rows and is the worst-covered month of the year** — the Sandy material in October survives only because he posted through it in volume.
+- **[[wiki/self/twitter/2013]]** — **This year is half scrape and half spreadsheet, and the halves are not comparable.** Operator-spreadsheet originals begin **2013-08-17** and are complete from there through year-end. Everything before 13 August came from capped search.
+- **[[wiki/self/twitter/2013]]** — Monthly counts: 4, 29, 6, 20, 10, 10, 11, 107, 71, 30, 28, 20. The August jump from 11 to 107 is the source changing over, not a change in behaviour, and January (4) and March (6) are the thinnest-covered months in the archive between 2009 and 2014.
+- **[[wiki/self/twitter/2015]]** — **Five months hold no rows at all: April, and August through November.** That is a 141-day hole from mid-July to early December. The spreadsheet is otherwise the sole source for the year and its rows are evenly distributed within the months it does cover, so t
+- **[[wiki/self/twitter/2018]]** — **July, August and November hold no rows.** June, September and October hold one or two each. The January figure (37) is inflated by two multi-post threads and is not a measure of a busy month.
+- **[[wiki/self/twitter/2019]]** — **February, June and July hold no rows**, and March, April and May hold one each. The year's 57 originals are concentrated in September–December (45 of them), which is impeachment-hearing season and is probably real, but the spring is under-sampled rather than
+- **[[wiki/self/twitter/2020]]** — **Five of twelve months hold no rows: June, August, September, November and December** — including the entire post-election period. The 25-original figure is the lowest in the archive and is quoted elsewhere in the wiki as evidence of a collapse in posting; it
+- **[[wiki/self/twitter/2021]]** — **A 273-day hole runs from 2021-01-25 to 2021-10-26** — February through September inclusive hold no rows at all. Twenty-one of the year's 34 originals are from January. **No claim of the form "he went quiet after January 6th" can be made from this page**; wha
+- **[[wiki/self/twitter/2025]]** — **Nine of twelve months hold no rows**, and the whole second half of the year is represented by a single post on 2 October. Thirteen originals is what the export contains, not what the account posted.
+- **[[wiki/self/twitter/2025]]** — Other pages in this wiki describe 2025 as a collapse-year silence and reason from the count. **Treat it as a lower bound.** The true 2025 total is the single most valuable number an official X Settings export could return, and until one exists the silence is u
 - **[[wiki/self/twitter/2026]]** — Spreadsheet originals run through 2026-04-07. Later originals from the live scrape are on this page; days between scrape batches may still be missing and will be filled on later commits to this same branch.
-- **[[wiki/self/twitter/2026]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
 ### timeline (81)
 

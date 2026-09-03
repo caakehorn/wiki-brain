@@ -1,7 +1,7 @@
 {
   "counts": {
-    "adjudicated": 12,
-    "testimonies": 12,
+    "adjudicated": 22,
+    "testimonies": 22,
     "voided": 0
   },
   "generated": "bin/wiki-testimony — do not hand-edit; the log is the record",
@@ -406,6 +406,339 @@
       ],
       "recorded_at": "2026-09-02",
       "source": "raw/people/captures/2026-08-27_222932_gap-alexis-armel.md",
+      "speaker": "operator",
+      "specificity": 2,
+      "subject": "self"
+    },
+    "t013": {
+      "about": "2011-12-31",
+      "adjudication": {
+        "at": "2026-09-03",
+        "direction": "none",
+        "evidence": "Glenn Beck's departure from Fox News was announced 6 April 2011 and his final show aired 30 June 2011 — six months inside the window he gave.",
+        "failure": [],
+        "magnitude": "",
+        "outcome": "confirmed",
+        "slant": "neutral",
+        "tier": "primary_document"
+      },
+      "asserted": "2011-02-26",
+      "channel": "post",
+      "claim": "Glenn Beck will not still be on Fox News at the end of 2011.",
+      "classes": [
+        "forecast"
+      ],
+      "confidence": "hedged",
+      "history": [],
+      "id": "t013",
+      "load_bearing": false,
+      "note": "Posted as 'enough is enough- glenn beck is DANGEROUS. i'll be surprised if he makes it to the end of the year, even on FOXN.' Hedged form ('I'll be surprised if') is the stated confidence. Settled by public record.",
+      "pages": [
+        "wiki/self/twitter/2011"
+      ],
+      "recorded_at": "2026-09-03",
+      "source": "raw/self/twitter/archive.jsonl",
+      "speaker": "operator",
+      "specificity": 2,
+      "subject": "self"
+    },
+    "t014": {
+      "about": "2013-03-13",
+      "adjudication": {
+        "at": "2026-09-03",
+        "direction": "none",
+        "evidence": "Francis was elected 13 March 2013, 29 days after the post, and the reception — 'the people's pope', the Fiat, the refused apartment — was precisely the relatability rebrand described.",
+        "failure": [],
+        "magnitude": "",
+        "outcome": "confirmed",
+        "slant": "neutral",
+        "tier": "primary_document"
+      },
+      "asserted": "2013-02-12",
+      "channel": "post",
+      "claim": "The Catholic church will respond to Benedict XVI's resignation by rebranding with a younger, more relatable pope.",
+      "classes": [
+        "forecast",
+        "other_state"
+      ],
+      "confidence": "confident",
+      "history": [],
+      "id": "t014",
+      "load_bearing": false,
+      "note": "Posted the day after the resignation announcement and explicitly labelled 'PREDICTION:'. Twenty-nine days to resolution.",
+      "pages": [
+        "wiki/self/twitter/2013"
+      ],
+      "recorded_at": "2026-09-03",
+      "source": "raw/self/twitter/archive.jsonl",
+      "speaker": "operator",
+      "specificity": 2,
+      "subject": "self"
+    },
+    "t015": {
+      "about": "2017-12-12",
+      "adjudication": {
+        "at": "2026-09-03",
+        "direction": "none",
+        "evidence": "Doug Jones won the Alabama special election on 12 December 2017, the day of the post. Dan announced the miss himself 26 hours later: 'I love being wrong.'",
+        "failure": [
+          "overreach"
+        ],
+        "magnitude": "wrong on the outcome of a race decided that evening",
+        "outcome": "refuted",
+        "slant": "neutral",
+        "tier": "primary_document"
+      },
+      "asserted": "2017-12-12",
+      "channel": "post",
+      "claim": "Doug Jones is not in contention in the 2017 Alabama special Senate election.",
+      "classes": [
+        "forecast"
+      ],
+      "confidence": "confident",
+      "history": [],
+      "id": "t015",
+      "load_bearing": false,
+      "note": "Posted as 'Let's all just stop pretending Doug Jones is in contention today.' He announced the miss himself 26 hours later: 'I love being wrong.'",
+      "pages": [
+        "wiki/self/twitter/2017"
+      ],
+      "recorded_at": "2026-09-03",
+      "source": "raw/self/twitter/archive.jsonl",
+      "speaker": "operator",
+      "specificity": 2,
+      "subject": "self"
+    },
+    "t016": {
+      "about": "2022-11-08",
+      "adjudication": {
+        "at": "2026-09-03",
+        "direction": "none",
+        "evidence": "Republicans took the House in the 2022 midterms, 222-213, despite the Kansas result and post-Dobbs polling he named as the things that would have to change his mind.",
+        "failure": [],
+        "magnitude": "",
+        "outcome": "confirmed",
+        "slant": "neutral",
+        "tier": "primary_document"
+      },
+      "asserted": "2022-08-24",
+      "channel": "post",
+      "claim": "Republicans will take control of the House in the 2022 midterms, and neither the Kansas ballot initiative nor post-Dobbs polling momentum changes that.",
+      "classes": [
+        "forecast"
+      ],
+      "confidence": "hedged",
+      "history": [],
+      "id": "t016",
+      "load_bearing": false,
+      "note": "Self-hedged as 'I seriously hope I'm just being a cynical grouch'. Aggregate-level call, no personal-authority claim attached.",
+      "pages": [
+        "wiki/self/twitter/2022"
+      ],
+      "recorded_at": "2026-09-03",
+      "source": "raw/self/twitter/archive.jsonl",
+      "speaker": "operator",
+      "specificity": 2,
+      "subject": "self"
+    },
+    "t017": {
+      "about": "2022-11-08",
+      "adjudication": {
+        "at": "2026-09-03",
+        "direction": "none",
+        "evidence": "Fetterman defeated Oz by 4.9 points on 8 November 2022. Dan conceded the next morning: 'PITTSBURGH PROUD OF YOU'.",
+        "failure": [
+          "overreach"
+        ],
+        "magnitude": "predicted a loss; actual margin +4.9 to the candidate he expected to lose",
+        "outcome": "refuted",
+        "slant": "neutral",
+        "tier": "primary_document"
+      },
+      "asserted": "2022-10-26",
+      "channel": "post",
+      "claim": "Pennsylvania voters will not extend empathy to Fetterman over his stroke, and the 'unfit' narrative will cost him the 2022 Senate race.",
+      "classes": [
+        "forecast",
+        "other_state"
+      ],
+      "confidence": "confident",
+      "history": [],
+      "id": "t017",
+      "load_bearing": true,
+      "note": "Asserted on personal authority — 'I know PA voters...and let me tell you'. The matched pair to the midterms call ten weeks earlier: same pessimism, one hedged and aggregate, this one confident and local.",
+      "pages": [
+        "wiki/self/twitter/2022"
+      ],
+      "recorded_at": "2026-09-03",
+      "source": "raw/self/twitter/archive.jsonl",
+      "speaker": "operator",
+      "specificity": 2,
+      "subject": "self"
+    },
+    "t018": {
+      "about": "2023-05-24",
+      "adjudication": {
+        "at": "2026-09-03",
+        "direction": "none",
+        "evidence": "DeSantis announced his primary campaign on 24 May 2023, 100 days after 'will absolutely NOT'. The consequence half of his argument — that Trump would destroy him for it — was borne out by the January 2024 withdrawal.",
+        "failure": [
+          "overreach"
+        ],
+        "magnitude": "the event happened; the modelled consequence was right",
+        "outcome": "refuted",
+        "slant": "neutral",
+        "tier": "primary_document"
+      },
+      "asserted": "2023-02-13",
+      "channel": "post",
+      "claim": "Ron DeSantis will not challenge Donald Trump in the 2024 Republican primary.",
+      "classes": [
+        "forecast",
+        "other_state"
+      ],
+      "confidence": "certain",
+      "history": [],
+      "id": "t018",
+      "load_bearing": true,
+      "note": "Stated as 'will absolutely NOT'. Three-tweet thread reasoning from what would be rational for DeSantis. On 24 May, the day of the announcement, he posted a four-tweet consequence argument that turned out correct without acknowledging the event miss.",
+      "pages": [
+        "wiki/self/twitter/2023"
+      ],
+      "recorded_at": "2026-09-03",
+      "source": "raw/self/twitter/archive.jsonl",
+      "speaker": "operator",
+      "specificity": 3,
+      "subject": "self"
+    },
+    "t019": {
+      "about": "2023-03-30",
+      "adjudication": {
+        "at": "2026-09-03",
+        "direction": "none",
+        "evidence": "A Manhattan grand jury voted to indict on 30 March 2023, 30 days after 'he's never getting indicted' and the same day as 'Fooled AGAIN by the fucking liberal mirage'.",
+        "failure": [
+          "overreach"
+        ],
+        "magnitude": "30 days from 'never' to the indictment",
+        "outcome": "refuted",
+        "slant": "neutral",
+        "tier": "primary_document"
+      },
+      "asserted": "2023-02-28",
+      "channel": "post",
+      "claim": "Donald Trump is never going to be indicted.",
+      "classes": [
+        "forecast"
+      ],
+      "confidence": "certain",
+      "history": [],
+      "id": "t019",
+      "load_bearing": false,
+      "note": "'Look, he's never getting indicted. I made this image for everyone to help you pretend.' Restated on 30 March, hours before the indictment: 'I'm deeply embarrassed that I got tricked once again into believing that Donald Trump would be indicted. Fooled AGAIN by the fucking liberal mirage.'",
+      "pages": [
+        "wiki/self/twitter/2023"
+      ],
+      "recorded_at": "2026-09-03",
+      "source": "raw/self/twitter/archive.jsonl",
+      "speaker": "operator",
+      "specificity": 2,
+      "subject": "self"
+    },
+    "t020": {
+      "about": "2024-11-05",
+      "adjudication": {
+        "at": "2026-09-03",
+        "direction": "none",
+        "evidence": "Trump carried Arizona and Georgia on 5 November 2024, and Harris did not sweep the remaining swing states. Called 265 days ahead with the mechanism stated.",
+        "failure": [],
+        "magnitude": "",
+        "outcome": "confirmed",
+        "slant": "neutral",
+        "tier": "primary_document"
+      },
+      "asserted": "2024-02-14",
+      "channel": "post",
+      "claim": "Biden will lose Arizona and Georgia in 2024, leaving him only a clean sweep of the remaining swing states as a path to 270.",
+      "classes": [
+        "forecast"
+      ],
+      "confidence": "confident",
+      "history": [],
+      "id": "t020",
+      "load_bearing": true,
+      "note": "Seven-post thread with polling aggregates and historical-vote charts attached; mechanism added 20 June (expired vote-by-mail expansions, 2020 margins under 15,000 in both states). Eight and a half months before the election.",
+      "pages": [
+        "wiki/self/twitter/2024"
+      ],
+      "recorded_at": "2026-09-03",
+      "source": "raw/self/twitter/archive.jsonl",
+      "speaker": "operator",
+      "specificity": 3,
+      "subject": "self"
+    },
+    "t021": {
+      "about": "2024-06-28",
+      "adjudication": {
+        "at": "2026-09-03",
+        "direction": "none",
+        "evidence": "His own timeline disconfirms it in sixteen minutes: 00:54 'Biden is going to outperform', 01:10 'It's joever', 01:22 'This is catastrophic'.",
+        "failure": [
+          "overreach"
+        ],
+        "magnitude": "sixteen minutes",
+        "outcome": "refuted",
+        "slant": "neutral",
+        "tier": "first_party_record"
+      },
+      "asserted": "2024-06-28",
+      "channel": "post",
+      "claim": "Biden will outperform the low expectations set for him at the 27 June 2024 debate.",
+      "classes": [
+        "forecast"
+      ],
+      "confidence": "hedged",
+      "history": [],
+      "id": "t021",
+      "load_bearing": false,
+      "note": "Prefaced 'Against my better judgement'. Sixteen minutes to disconfirmation ('It's joever').",
+      "pages": [
+        "wiki/self/twitter/2024"
+      ],
+      "recorded_at": "2026-09-03",
+      "source": "raw/self/twitter/archive.jsonl",
+      "speaker": "operator",
+      "specificity": 2,
+      "subject": "self"
+    },
+    "t022": {
+      "about": "2024-11-05",
+      "adjudication": {
+        "at": "2026-09-03",
+        "direction": "none",
+        "evidence": "Trump won the 2024 presidential election, called 129 days after the post. His own post-hoc audit on 7 November records that his June map still gave Biden the blue wall, i.e. the call was right and the underlying model was not yet pessimistic enough.",
+        "failure": [],
+        "magnitude": "",
+        "outcome": "confirmed",
+        "slant": "neutral",
+        "tier": "primary_document"
+      },
+      "asserted": "2024-06-29",
+      "channel": "post",
+      "claim": "Donald Trump will win the 2024 presidential election.",
+      "classes": [
+        "forecast"
+      ],
+      "confidence": "confident",
+      "history": [],
+      "id": "t022",
+      "load_bearing": true,
+      "note": "'Buy the dip! To be clear the dip is my nickname for convicted felon and soon to be President-elect Donald Trump.' Restated 29 October and 6 July with a 25%-at-best ceiling for any Democratic replacement.",
+      "pages": [
+        "wiki/self/twitter/2024"
+      ],
+      "recorded_at": "2026-09-03",
+      "source": "raw/self/twitter/archive.jsonl",
       "speaker": "operator",
       "specificity": 2,
       "subject": "self"

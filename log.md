@@ -1,3 +1,89 @@
+## [2026-09-03] ingest | self | the tweet archive read year by year — a narrative per year, and the sampling defect underneath it
+
+**What the operator asked for:** continue the tweet mining, put a narrative
+section at the top of each year's Twitter page, and remove the quick-link box
+from those pages only.
+
+**The archive was read in full, in date order, 2008 through 2026 — 2,741
+originals.** Every yearly page under `wiki/self/twitter/` now opens with a
+`## Narrative` section: the year read as a year rather than as a transcript.
+Roughly 12,000 words of new prose across nineteen pages.
+
+**The methodological finding, and it is the one that changes other pages.** The
+yearly pages all warned "in progress — 10-result search cap", which reads as
+*thin sample*. It is not a sample. Expressing each row's date as its position
+within its own month gives **0.838 for the 2009 backfill** and **0.681 for the
+2010–2013 scrape**, against **0.500** uniform and **0.492** for the operator
+spreadsheet's own 2014–2024 rows. February–September 2009 hold exactly ten rows
+each across one to three days, and every one of those days is the 28th–31st: nine
+consecutive months represented by their final forty-eight hours. **A capped query
+returns the window's end, not a random draw from it**, so no count, cadence,
+seasonality or topic share before August 2013 generalises. The Gaps section of
+every affected page now carries its own monthly numbers; the full account is on
+`wiki/self/twitter`.
+
+**Findings written back to other pages.**
+
+- **`wiki/mind/synthesis/2020-left-turn`** — the Republican identity was renounced
+  on **28 November 2009**, eleven years before the conversion and as an *exit*
+  ("people like this are why i no longer consider myself a republican"), and a
+  four-clause platform of 7 November 2012 shows the substrate was populist rather
+  than liberal. The conversion is the last step of a long sequence, not the whole
+  of it.
+- **`wiki/interests/opie-and-anthony`** — the counter-evidence the 2022
+  "we were radicalized" account needed: on **4 July 2014**, one day after Cumia's
+  firing, Dan thanked him for "not selling your soul", and in March 2014 endorsed
+  his anti-slur-policing argument. He left from the inside, over eight years.
+- **`wiki/mind/synthesis/vertical-authority-skepticism`** — three earlier and
+  sharper instances than Nashville 2023: the 2011 geotag/lip-ring verification of
+  a stranger's claim, the January 2021 J6 sequence where he audits his own
+  hypothesis in the same tweet as he states it, and the **14 July 2024 shutter-
+  speed arithmetic** refuting a staged-photograph claim on his own side — plus
+  his own written falsifiers, the same day.
+- **`wiki/mind/synthesis/millennial-digital-witness`** — Sandy 2012 was not a
+  noticing but an *operation*: a liveblog posted six times and sourced material
+  fed to the O&A hosts by name. Four more instances, 2016 to 2025. He noticed the
+  disaster was being lived through user-generated media because he was generating
+  some of it.
+- **`wiki/self/twitter`** — the account creation date moves from one inference to
+  a convergence of four independent statements (two third-party day-counters in
+  2010, a round-number recollection in 2019, the 2022 anniversary tag) landing on
+  23–24 September 2008.
+
+**The testimony ledger got its first class above MIN_N, and the result is the
+interesting part.** Ten dated public forecasts with public resolutions were
+recorded and adjudicated (`forecast`, a new claim class; `post`, a new channel).
+Across all 16 settled claims: **`certain` 0.95 stated / 0.00 actual (n=3);
+`confident` 0.80 / 0.66 (n=8); `hedged` 0.60 / 0.70 (n=5)**. His stated
+confidence runs backwards. `assess --class forecast --confidence certain` now
+returns **0.04**. Dominant failure mode: `overreach`, five of five — he predicts
+what a rational actor should do and what a captured institution always has, and
+both priors fail against actors who are neither. Written up on `wiki/self/twitter`
+and, as cost, on the skepticism synthesis; three claims is a warning, not a law,
+and the pages say so.
+
+**Two red gates drained.** `bin/wiki-connect check` and `bin/wiki-climb check`
+were both failing on `main` on `wiki/synthesis/twitter-2024-cognitive-state.md` —
+a page filed under a directory that is not a declared domain, with an invalid
+`page_type`, `status` and tag set, an unresolvable connection target and a wiki
+page in `sources:`. Moved to `wiki/mind/synthesis/`, frontmatter rebuilt,
+`synthesizes:` populated, indexed, and linked so it is no longer an orphan.
+`bin/wiki-lint` had been red on it too and **`bin/wiki-work check` does not report
+`wiki-lint`** — see `skills/INBOX.md`.
+
+**The quick-link box.** On a yearly tweet page every post is its own `h3`, so the
+contents box was several hundred timestamps deep. The pages now declare
+`toc: false`; `app.py` honours it (verified against the real frontmatter with the
+app's own parser); `bin/build-site` honours it too but its render path is dead —
+it emits only redirects to the portal. **The box on the public site is rendered by
+`caakehorn/home`, which this session was not authorised to reach**, so one line is
+still owed there.
+
+Also: the vestigial single month heading above each transcript (2009's said
+"October" over a transcript starting in January) is replaced by `## Transcript`.
+Three Reader's Digest twins re-translated rather than date-bumped; `audit` passes
+all three.
+
 ## [2026-09-02] build | meta | the instrument layer gets a section, and the reason it needs one
 
 **What the section is for.** Every other page in this wiki argues — it reads

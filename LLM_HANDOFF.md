@@ -4,6 +4,84 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-03] - Session: the tweet archive read year by year (Claude Opus 5)
+
+* **Branch:** `claude/twitter-scraping-narrative-yearly-tlv2fp` · all gates green · 367 tests pass.
+* **Trigger:** operator — *"Let's continue the tweet scraping for data/insight and we should also be adding in a narrative section. At the top of each year's twitter activity page. Also we need to get rid of the quick link box on just the yearly twitter pages."*
+
+**All 2,741 originals read in date order, 2008–2026.** Every page under
+`wiki/self/twitter/` now opens with a `## Narrative` section — the year read as a
+year, ~12,000 words across nineteen pages. The transcript below it is untouched
+and `bin/build-tweet-year --check` is clean on all nineteen.
+
+**The finding that reaches furthest is about the archive, not about Dan.** The
+pre-August-2013 rows are **query-shaped**: mean position-in-month **0.838** (2009
+backfill) and **0.681** (2010–13 scrape) against **0.500** uniform and **0.492**
+for the operator spreadsheet. Feb–Sep 2009 is nine months represented by their
+last forty-eight hours. Every count before August 2013 is a count of queries. The
+per-year Gaps sections now carry their own monthly numbers and `wiki/self/twitter`
+carries the table.
+
+**Write-backs, all cited to dated tweets:** the **28 Nov 2009** Republican
+renunciation and the **7 Nov 2012** four-clause platform into
+`mind/synthesis/2020-left-turn`; the **4 July 2014** defence of Cumia into
+`interests/opie-and-anthony` as the counter-evidence its 2022 account needed;
+2011/2021/2024 instances into `mind/synthesis/vertical-authority-skepticism`;
+Sandy-as-operation plus four later instances into
+`mind/synthesis/millennial-digital-witness`; four independent statements of the
+account creation date into the hub.
+
+**The testimony ledger now has a usable class.** Ten dated forecasts recorded and
+adjudicated; `forecast` (new class) at n=10, ledger at 16 settled. **`certain`
+says 0.95 and is worth 0.00 (n=3); `hedged` says 0.60 and is worth 0.70 (n=5).**
+`assess --class forecast --confidence certain` returns 0.04. Failure mode
+`overreach`, five of five.
+
+**Two red gates on `main` drained** — both were
+`wiki/synthesis/twitter-2024-cognitive-state.md`, filed under a directory that is
+not a declared domain. Moved to `wiki/mind/synthesis/`, frontmatter rebuilt,
+indexed, de-orphaned. `bin/wiki-lint` was red on it too and **`bin/wiki-work
+check` never reports `wiki-lint`** (deliberate, to avoid recursion; undocumented
+in its output).
+
+**Next, in value order:**
+
+1. **The quick-link box is not finished.** The pages declare `toc: false` and
+   `app.py` honours it. `bin/build-site`'s render path is dead — it emits only
+   redirects — so **the box the operator sees is rendered by `caakehorn/home`**,
+   which this session could not reach (`add_repo` denied). One line is owed there:
+   honour `toc: false` from the page frontmatter, which the portal's sync already
+   carries.
+2. **Keep filling the `forecast` class.** Every prediction in the archive with a
+   public resolution is a free adjudication, and the archive holds many more than
+   the ten taken. At n≈30 the calibration table stops being a warning and becomes
+   a usable prior. **Record confidence from the wording**, never from hindsight.
+3. **Run the position-in-window check on the other capped collections** before
+   quoting any rate from them — `raw/self/youtube/`, the Facebook export, and
+   most importantly `bin/mine-messages`'s dump, where several pages already carry
+   absence claims. `skills/INBOX.md` has the method.
+4. **Leads found and not written up**: `@katie_efff` is Katie Fletcher (Vine
+   caption, 24 Aug 2013); `@franknarcissist` is a cousin with a Nov 2013 Fader
+   cover story and no page; `@yamez1` is the only person Dan asks for craft
+   criticism (15 Aug 2013) and has no page; **a record collection was disposed of**
+   (12 Oct 2019, first-press Brand New, a Def Jam A&R promo, one *Deja Entendu*
+   sold for $900 in 2014) and he does not say by whom; a **Project Veritas**
+   mention on 9 Dec 2022 that nothing in the corpus explains; a 29 Oct 2024
+   six-post ketamine/psilocybin account with no quantities, testimony rather than
+   an intake entry.
+5. **A first-person duration claim that does not reconcile** (9 Oct 2019: "5 years
+   while smoking", against a first pack in 2007 and the e-cig switch documented in
+   Dec 2010). Recorded on the 2019 page, not adjudicated — relapse is the likelier
+   reading and nothing settles it.
+
+**Not done, deliberately:** the 94 stale premises in `WORK.md`. Untouched at
+session start; this pass added several more by moving three syntheses, and the
+cascade is a reading job that deserves its own housekeeping pass.
+
+**Under the standing directive:** 2015 and 2016 both carry a strand this pass did
+not narrate, and both pages say so in place rather than passing over it silently.
+Nothing was added to `raw/`, nothing quoted, nothing dated.
+
 ### [2026-09-02] - Session: the operator testimony veracity ledger (Claude Opus 5)
 
 * **Branch:** `claude/operator-testimony-trust-score-55viga` · gates green · 367 tests pass.

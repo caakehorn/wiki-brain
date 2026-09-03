@@ -23,27 +23,31 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-03 — 1 page
+## 2026-09-03 — 11 pages
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/interests/opie-and-anthony]] | interests | — |
+| [[wiki/meta/digest]] | meta | — |
+| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
+| [[wiki/meta/readers-digest]] | meta | — |
+| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
 | [[wiki/meta/testimony-veracity]] | meta | — |
+| [[wiki/mind/synthesis/2020-left-turn]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
+| [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
+| [[wiki/mind/synthesis/twitter-2024-cognitive-state]] | mind | — |
+| [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
+| [[wiki/self/twitter]] | self | _(carries a CONTRADICTION)_ |
 
-## 2026-09-02 — 44 pages
+## 2026-09-02 — 37 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/interests/music/aliases/sloppp]] | interests | **GAP CLOSED** — the gap, as this page stated it — *"episodes 1–7 of 'Week in Trap' and any 'Heatwave Vol. 1' are unaccounted for."* **Heatwave Vol. 1** is dated: announced 13 May 2014 (*"First hour of my summer mix s |
 | [[wiki/interests/music/overview]] | interests | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/interests/video-games]] | interests | — |
-| [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/index]] | meta | — |
 | [[wiki/meta/instruments/index]] | meta | — |
-| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/readers-digest]] | meta | — |
-| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
-| [[wiki/mind/synthesis/2020-left-turn]] | mind | **CORRECTED** — An earlier version of this section claimed the archive showed **two steps, not one** — a first step in 2017 (4.0% → 11.1%, "nearly tripling") separating *political engagement* from *socialist identity |
-| [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
 | [[wiki/people/alexis-armel]] | people | **CORRECTED** — this paragraph first read *"four months in."* That was wrong and it understated the finding. The operator capture of 2026-08-27 dates the meeting to **Thanksgiving 2009** (26 November); the tattoo is  |
 | [[wiki/people/dan-polyak]] | people | — |
 | [[wiki/people/eric-jester]] | people | **CORRECTED** — this page described the friendship itself as "sparse but genuinely warm." That is an accurate reading of the *message thread*, which begins **May 2017**. It is not an accurate description of the frien |
@@ -54,7 +58,6 @@ simply listed.
 | [[wiki/self/index]] | self | — |
 | [[wiki/self/location-history]] | self | **CONTRADICTION** — this bullet used to end "No contradiction." There is one, and it is in the Facebook profile itself. `places lived` says **Brooklyn from 3 January 2010**; the tweet archive has Dan in Florida through 2 |
 | [[wiki/self/tattoos]] | self | **CORRECTED** — this page previously read "**entirely** cultural reference … *every* known piece points at a specific record, band, or artist rather than a generic symbol," and dated the earliest well-documented piec |
-| [[wiki/self/twitter]] | self | _(carries a CONTRADICTION)_ |
 | [[wiki/self/twitter/2008]] | self | — |
 | [[wiki/self/twitter/2009]] | self | — |
 | [[wiki/self/twitter/2010]] | self | — |
@@ -270,7 +273,7 @@ simply listed.
 | [[wiki/timeline/events/august-2026-morgantown-call-source-amendment]] | timeline | — |
 | [[wiki/timeline/events/august-2026-unmasking]] | timeline | — |
 
-## 2026-08-19 — 21 pages
+## 2026-08-19 — 19 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -279,7 +282,6 @@ simply listed.
 | [[wiki/interests/favorites/books]] | interests | **CONTRADICTION** — This page, and the 2026-06-23 form of eclecticism alongside it, read 120 books across 98 authors as breadth. Counted by subject rather than by author, the shelf is the opposite. **Forty of the 120 boo |
 | [[wiki/interests/film-canon]] | interests | — |
 | [[wiki/interests/gore-vidal]] | interests | — |
-| [[wiki/interests/opie-and-anthony]] | interests | — |
 | [[wiki/interests/roman-republic]] | interests | — |
 | [[wiki/mind/concepts/dans-law]] | mind | **CONTRADICTION** — Its signature move is to treat a missing paper trail as the operative feature of an arrangement rather than an oversight: at BFS the absence of documentation on a $50 cash demand *is* the demand's mec |
 | [[wiki/mind/concepts/the-handed-mirror]] | mind | _(carries a CORRECTED from 2026-08-18)_ |
@@ -287,7 +289,6 @@ simply listed.
 | [[wiki/mind/profile/socionics-and-attitudinal]] | mind | — |
 | [[wiki/mind/synthesis/intake-constancy]] | mind | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/mind/synthesis/interests-as-era-markers]] | mind | — |
-| [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
 | [[wiki/places/307-e-76th-st]] | places | **GAP CLOSED** — the Gaps note above records the monthly rent as not recovered. It is in the message dump twice, from Dan's own outbound. **2024-05-02:** *"I mean that's fine but the last lease we signed was 2450."* * |
 | [[wiki/places/424-bedford-ave]] | places | — |
 | [[wiki/places/90th-st-manhattan]] | places | _(carries a CORRECTED from 2026-08-10)_ |

@@ -1,6 +1,7 @@
 ---
 domain: self
 page_type: period
+toc: false
 status: stable
 date_created: 2026-09-02
 date_modified: 2026-09-02
@@ -29,35 +30,53 @@ connections:
 
 # Twitter / X — 2008
 
-**The account's first year, and it did not exist in this wiki until
-2026-09-02.** The archive previously began on 2009-10-20; a backend fetch
-recovered 213 earlier tweets, 95 of them from 2008.
+The account's first year, recovered only on 2026-09-02 and thirteen months earlier than the archive previously reached. Full Sail student life at close range — orientation, 7am labs, the algebra requirement, the December final — plus a first makeshift studio, emo and pop-punk at saturation, and fourteen hours of World of Warcraft to close the year.
 
-The account opens on **24 September 2008** with *"i fucking looove winter
-park. this town is unreal."* Winter Park is where Full Sail is. The account
-is not a diary someone started and later pointed at a new life — it **begins
-at the arrival**, and the second tweet, forty-five minutes later, says what
-the arrival was for: *"Really feels like life has started over now. It's
-weird enjoying life again. So stoked."*
+## Narrative
 
-What follows is student life at close range. Orientation on 22 October, then
-the 7am starts (*"getting accustomed to getting up this early. i'll be doing
-it for a month evvvvvery day. FUCK."*), twenty-hour class days, the labs, the
-maths requirement he resents (*"why am i learning fucking ALGEBRA again. gb2
-fourth grade."*, and the folk claim *"Fact 90% of full sail students fail
-math"*), and the final on 18 December — *"Killed it. Packing to go home :("*.
+**The account's first year, and it did not exist in this wiki until 2026-09-02.**
+The archive previously began on 2009-10-20; a backend fetch recovered 213 earlier
+tweets, 95 of them from 2008.
+
+The account opens on **24 September 2008** with *"i fucking looove winter park.
+this town is unreal."* Winter Park is where Full Sail is. The account is not a
+diary someone started and later pointed at a new life — it **begins at the
+arrival**, and the second tweet, forty-five minutes later, says what the arrival
+was for: *"Really feels like life has started over now. It's weird enjoying life
+again. So stoked."* Read against [[wiki/timeline/periods/dark-era-2007-2008]],
+that is Dan naming an exit from a period on the day the public record starts.
+
+What follows is student life at close range. Orientation on 22 October, then the
+7am starts (*"getting accustomed to getting up this early. i'll be doing it for a
+month evvvvvery day. FUCK."*), twenty-hour class days, the labs, the maths
+requirement he resents (*"why am i learning fucking ALGEBRA again. gb2 fourth
+grade."*, and the folk claim *"Fact 90% of full sail students fail math"*), and
+the final on 18 December — *"Killed it. Packing to go home :("*.
 
 Three other threads run through it. **Gear and a first studio**: a Korg
 padKONTROL on 8 October, and on 12 November *"Living room is now a makeshift
 studio"*. **Emo and pop-punk at saturation** — All Time Low, The Maine, Cobra
 Starship, Hit The Lights, Forever The Sickest Kids, Panic, The Starting Line,
 Fall Out Boy at the House of Blues on 12 December, and Hey Monday twice,
-including flying back to Orlando early on 28 December to catch them. And
-**World of Warcraft**, closing the year on 31 December with *"in the past 24
-hours, i've played 14 hours of world of warcraft."*
+including flying back to Orlando early on 28 December to catch them. And **World
+of Warcraft**, closing the year on 31 December with *"in the past 24 hours, i've
+played 14 hours of world of warcraft."* The WoW habit is dated from both ends:
+on 2011-12-16 he reports hitting level cap after *"6 years of (intermittent) wow
+playing"*, which puts the start around 2005–06, three years before this page
+opens.
 
-Pennsylvania is already the place he does not want to be: *"I don't want to go
-to cold, lame PA"* and *"i fucking hate going home"*, both 19 December.
+Pennsylvania is already the place he does not want to be: *"I don't want to go to
+cold, lame PA"* and *"i fucking hate going home"*, both 19 December. That
+polarity — Florida and later New York as escape, Pennsylvania as gravity — is set
+in the account's first ninety days and holds for a decade, until
+*"Au revoir Pennsylvania. Adiós Trump country."* on 2019-03-03.
+
+**One thing this year is evidence of that no page could see before 2026-09-02:**
+the voice arrives finished. Lowercase, fragment, profane, self-mocking,
+enthusiasm and contempt in the same sentence. There is no juvenile period in the
+record that later matures — the register on 24 September 2008 is recognisably the
+register of 2026. What changes over seventeen years is the subject matter and the
+sentence length, not the person doing the talking.
 
 ## Coverage
 
@@ -86,6 +105,8 @@ retrieved, two queries before it returning nothing, and the
 date, and should not be cited as one.
 
 A complete X account export would close both gaps.
+
+## Transcript
 
 This page is the text archive. Every original and every reply retrieved for
 the year is below, oldest first.

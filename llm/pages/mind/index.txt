@@ -87,6 +87,7 @@ authoritative factual spine remains [[wiki/self/context-core]].
 - [[wiki/mind/synthesis/spatial-behavior]] — GPS-analysis reading of location history: extreme home-anchoring, the Friday release valve, and four sharply bounded life phases (Forge/Binary System/Collapse/Siege) rather than gradual drift.
 - [[wiki/mind/synthesis/ai-collaborative-analysis]] — how LLMs are actually used: node logging, steelman, injection lab, capability contests.
 - [[wiki/mind/synthesis/millennial-digital-witness]] — the generational bridge self-theory and its uses.
+- [[wiki/mind/synthesis/twitter-2024-cognitive-state]] — the 2024 public corpus read as one repeated operation (model, stress-test, find the contradiction, historicise, compress, provoke, revise) rather than a set of positions. Moved here from a `wiki/synthesis/` directory that was not a domain, 2026-09-03.
 - [[wiki/mind/synthesis/totality-themes]] — the capstone: recurring structural themes across the entire corpus, extended with cross-corpus [JOIN] findings.
 - [[wiki/mind/synthesis/intake-constancy]] — the fixed-rate intake metabolism: ~11.6 YouTube watches/active day + ~20 search actions/active day, era- and city-invariant.
 - [[wiki/mind/synthesis/ancestral-dialectic]] — the Ashkenazi/Appalachian ancestral binary engine, the collapse-cycle model, the Neanderthal-ancestry data point.

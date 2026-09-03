@@ -1,6 +1,7 @@
 ---
 domain: self
 page_type: period
+toc: false
 status: stable
 date_created: 2026-09-02
 date_modified: 2026-09-02
@@ -28,6 +29,89 @@ connections:
 
 Peak volume (258 originals in the spreadsheet). MTA, EV-math on Biden/Trump, and the December Luigi Mangione / CEO-killer coverage skepticism that the older sample-synthesis treated as the year's signature. Justice-system critique as a principle: the online footprint will 'ruin the nonpartisan consensus' once the shooter is ID'd. This is the year the account earns the bio.
 
+## Narrative
+
+**Peak volume — 258 originals — and the year the account is at its most useful as
+evidence, because he makes a large number of dated, checkable calls and then audits
+them himself.**
+
+**The forecast that was right, made eight and a half months out.** On **14 February**,
+seven posts with polling aggregates and historical-vote charts attached: *"If Biden
+loses AZ & GA, Trump only needs 8 EV to hit 270"*; *"AZ & GA are not (yet) safe blue
+and have long histories of voting red"*; *"Biden winning AZ & GA in 2020 happened in
+extraordinary conditions"*; and the conclusion, *"Without these two states, Biden has
+only one path to victory: a clean sweep of the remaining swing states."* On 20 June
+he added the mechanism — the 2020 margins in both states were under 15,000 votes and
+the vote-by-mail expansions that produced them had expired. Trump took Arizona and
+Georgia. On **29 June**, four months out: *"Buy the dip! To be clear 'the dip' is my
+nickname for convicted felon and soon to be President-elect Donald Trump."*
+
+**The forecast that was wrong lasted twenty minutes.** At 00:54 on 28 June, before
+the debate: *"Against my better judgement, here are predictions for tonight's
+#Debates2024 1. Biden is going to outperform the comically low expectations."* At
+01:10: *"It's joever."* At 01:22: *"It's hard to overstate just how devastating this
+is."* **That day is the densest of the seventeen years — twenty-three originals** —
+and it is a live-thread in the form he first used on Hurricane Sandy in 2012.
+
+**Then, in November, he does something the corpus should not take for granted: he
+grades his own book.** 6 November: *"I really thought I was overstating the case for
+a poor Kamala performance, the actual totals are sososososo much worse than I was
+expecting."* 7 November: *"Pretty crazy that even I, someone who was really
+pessimistic about the probability of a Biden re-elect, was still giving him blue wall
+states in June."* 11 November: *"The only thing I got wrong was thinking that there
+would be some kind of satisfaction or catharsis."* **His error in 2024 was
+insufficient pessimism**, which is the opposite direction from 2022 and 2023, and it
+means the simple story — *he is a cynic and cynics under-predict good news* — does not
+survive contact with the record. See [[wiki/meta/testimony-veracity]].
+
+**On 22 July he deliberately manufactures a testimony record.** *"I've only bought in
+on smaller channels with massive potential a handful of times, but my track record on
+those predictions is impeccable. This tweet is going to be evidence to facilitate an
+'I told you so'."* Whatever the channel turns out to have done, the act itself is
+notable: he is timestamping a claim so it can be adjudicated later, which is the
+mechanism this wiki's testimony ledger exists to run.
+
+> **The purest instance of the skepticism thesis in the archive is 14 July.** After
+> the assassination attempt, with a staged-photograph conspiracy running on his own
+> side of the timeline, he did the arithmetic and published the negative: *"30fps
+> 1/8000 shutter speed / Bullet traveling at 3200 feet per second / This would be
+> essentially impossible to do if you knew it was going to happen and had a countdown
+> to time the shot."* And in the same hours, an explicit statement of his own
+> falsifiers, written as a joke and functioning as a real one: *"To be clear - this
+> would mean that i am wrong about the reality of our world in almost every possible
+> way. If it's true i'm wrong about: •God not existing •Donald Trump being not
+> fundamentally terrible •opposing Totalitarianism."* A man naming, unprompted, the
+> three propositions whose failure would overturn his worldview.
+> [[wiki/mind/synthesis/vertical-authority-skepticism]].
+
+**Rome, and where it came from.** 8 April: *"After I finished the @HistoriaCivilis
+Caesar/Octavian series, I started devouring the 'essential' books about the late Roman
+Republic. The books are wonderful, but none of them has come close to compiling the
+story in a way that has pulled me in like videos with squares."* By 5 June he is
+correcting a major publication on the difference between Ilerda and Munda. The video
+essay beating nine books is the motivating fact behind
+[[wiki/work/tech/ai-video-essays]], and [[wiki/interests/roman-republic]] is its
+subject.
+
+**Two facts about the life, both dropped in passing.** *"I've spent a lot of time on
+golf courses with all sorts of golfers during my time as a caddie"* (28 June) — a
+retrospective, and the first time the caddying documented on
+[[wiki/work/nemacolin-caddying]] is claimed as expertise on this account rather than
+recorded as a job. And a six-post thread on 29 October describing a heavy
+ketamine and psilocybin episode (*"Climbing out of the worlds deepest k hole after a
+week long aura flush"*, *"the heroic dose of mushrooms that I survived"*), first-party
+and dated but with no quantity attached, which is why it belongs on the record as
+testimony rather than as an entry in [[wiki/health/intake-ledger]].
+
+And the most characteristic sentence of the year, on 5 November, after conceding an
+argument about 24-hour time: *"If you're ever looking for the most solid, empirical
+evidence that i am a stupid, dumb person who is desperately trying to fake being smart
+and interesting - bookmark this tweet."*
+
+> **A refrain, not an artefact.** *"2024 year of the dragon"* appears nineteen times
+> between 25 March and 23 November. It is a real recurring post and is not
+> deduplicated in any count on this page.
+
 ## Coverage
 
 | | |
@@ -37,9 +121,9 @@ Peak volume (258 originals in the spreadsheet). MTA, EV-math on Biden/Trump, and
 | From live X scrape | 0 |
 | Pure reposts | omitted by rule (no @danfrank quote text) |
 
-This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
+## Transcript
 
-## January
+This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
 ### 2024-01-31 02:09:22 UTC · [1752514379319296418](https://x.com/danfrank/status/1752514379319296418)
 *likes 0 · replies 0 · reposts 0*

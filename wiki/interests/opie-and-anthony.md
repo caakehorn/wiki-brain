@@ -3,13 +3,16 @@ domain: interests
 page_type: entity
 status: stable
 date_created: 2026-07-16
-date_modified: 2026-08-19
+date_modified: 2026-09-03
 sources:
   - "raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html"
   - "raw/self/dox-scan/Dan Profile.txt"
   - "raw/self/facebook/facebook-ihatedanfrank/pages_and_profiles/pages_you_ve_liked.html"
 tags: [personality-profile, digital-footprint, nyc-era]
 connections:
+  - page: wiki/self/twitter/2014
+    type: contradicts
+    claim: "One day after Cumia's firing Dan publicly thanked him for 'not selling your soul through this whole mess', and in March 2014 endorsed his anti-slur-policing argument — so the 2022 'we were radicalized' account describes a departure he made from inside the tribe rather than from its edge."
   - page: wiki/mind/synthesis/2020-left-turn
     type: causes
     claim: "The fanbase's rightward drift after Cumia's firing is a cause of Dan's leftward turn in his own words — 'we were radicalized to leftist politics' — supplying the departure half that the 2020 conversion story, built on media he sought out, does not have."
@@ -138,6 +141,37 @@ abstract qualities of stand up as an art form can be abused to spread bigotry
 not a conversion — in the same thread he defends the Rock joke as *"not
 particularly malicious"* and warns against *"wokescoldery"* — but "it's just a
 joke" is the exact doctrine the show ran on, and he says he has left it.
+
+> **Where he was standing in 2014, and this page has to carry it (added
+> 2026-09-03).** The 2022 account is retrospective and it is the only account this
+> page had. Reading the Twitter archive year by year supplies the contemporaneous
+> record, and it does not support a reading in which Dan watched the drift from the
+> counter-current.
+>
+> Anthony Cumia was fired by SiriusXM on **3 July 2014** over a series of racist
+> tweets. On **4 July 2014**, Dan posted:
+>
+> > *"@AnthonyCumia nothing but love and respect ant. Thanks for not selling your
+> > soul through this whole mess"*
+>
+> Three months earlier, on **25 March 2014**, he had endorsed Cumia's argument
+> against slur-policing outright: *"brilliant point re 'tranny' outrage. Minority
+> groups feel entitled to have at least 1 term ruled a slur, offensive or
+> otherwise."*
+>
+> **The repulsion is real and it is slower than the tweet implies.** The dated
+> sequence on his own account runs: defend Cumia on the day (4 July 2014) → *"opie
+> sucks though"* (29 October 2018) → the free-speech-absolutism repudiation (26
+> October 2021, five months earlier than the 28 March 2022 statement above, in the
+> Lenny Bruce/Chappelle post) → pitch Opie on going *"full progressive"* (18 July
+> 2022). **Eight years and three positions.**
+>
+> This makes the 2022 statement a better piece of evidence, not a worse one. A man
+> reporting that a community radicalised him leftward, who was in that community
+> arguing its case on the day of its defining scandal, has described a **conversion
+> he paid for** rather than a drift he observed. What it rules out is the reading
+> [[wiki/mind/synthesis/2020-left-turn]] was drifting toward — that he was an
+> uncomfortable bystander from the start.
 
 **Gap:** the 18 July 2022 tweet is marked **(1/3)** and parts 2 and 3 are not
 in the archive. His fullest public statement about what the show's collapse

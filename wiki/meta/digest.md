@@ -21,11 +21,11 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | | |
 |---|---|
-| Pages | 496 |
-| Pages touched in the last 14 days | 187 |
+| Pages | 497 |
+| Pages touched in the last 14 days | 190 |
 | Pages reasoning from other pages (`synthesizes:`) | 78 |
 | Live contradictions | 43 |
-| Open gaps | 507 |
+| Open gaps | 512 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -34,7 +34,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 |---|---|
 | people | 175 |
 | interests | 96 |
-| mind | 77 |
+| mind | 78 |
 | self | 59 |
 | timeline | 42 |
 | work | 15 |
@@ -47,7 +47,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | Status | Pages |
 |---|---|
-| active | 190 |
+| active | 191 |
 | stable | 165 |
 | closed | 100 |
 | archived | 29 |
@@ -55,9 +55,9 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-03** — 1 page
+**2026-09-03** — 11 pages
 
-**2026-09-02** — 44 pages
+**2026-09-02** — 37 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result

@@ -1,28 +1,31 @@
 ---
-domain: synthesis
-page_type: analysis
-status: draft
+domain: mind
+page_type: synthesis
+status: active
 date_created: 2026-09-02
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 date_range_start: 2024-01-01
 date_range_end: 2024-12-31
 title: "2024 Twitter / X Cognitive State — Adversarial Historian"
+knowledge: earned
+synthesizes:
+  - "wiki/self/twitter/2024"
+  - "wiki/mind/profile/index"
+  - "wiki/mind/profile/intp"
 sources:
-  - "wiki/self/twitter/2024.md"
   - "raw/self/twitter/archive.jsonl"
   - "raw/self/twitter/tweet-archive.xlsx"
-knowledge: derived
-tags: [twitter, cognition, personality, politics, historical-context, synthesis, forensic-analysis]
+tags: [digital-footprint, personality-profile, politics, forensic-analysis]
 connections:
   - page: wiki/self/twitter/2024
-    type: analyzes
-    claim: "This synthesis interprets the 2024 original-tweet corpus as behavioral evidence rather than merely a list of opinions."
-  - page: wiki/self/personality
+    type: evidenced-by
+    claim: 'The 2024 original-tweet transcript is the evidence base for this reading; the rule here is that the year is one repeated operation — model, stress-test, find the contradiction, historicise, compress, provoke, revise — rather than a set of positions.'
+  - page: wiki/mind/profile/index
     type: contextualizes
-    claim: "Observed reasoning patterns are compared against the recorded personality and cognitive profile."
-  - page: wiki/self/timeline
-    type: contextualizes
-    claim: "The public corpus is read alongside the user's documented personal chronology and the historical events surrounding it."
+    claim: 'The public 2024 behaviour is read against the measured profile rather than treated as a free-standing personality reading.'
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: parallels
+    claim: 'The 2024 corpus supplies this reading''s sharpest instance — the 14 July shutter-speed arithmetic debunking a staged-photograph claim running on his own side.'
 ---
 
 # 2024 Twitter / X Cognitive State — Adversarial Historian

@@ -1553,8 +1553,13 @@ function articleHtml(content, path, opts){
   if(fm.aliases.length)
     parts.push(`<div class="hatnote">Also known as: ${fm.aliases.map(esc).join(" · ")}</div>`);
   parts.push(infoboxHtml(fm,title));
-  // TOC goes right before the first h2
-  const toc=tocHtml(r.toc);
+  // TOC goes right before the first h2.
+  // `toc: false` in frontmatter suppresses it. A yearly tweet page renders every
+  // post as its own h3, so the contents box there is a list of several hundred
+  // timestamps sitting above the page — a quick-link box that links to nothing a
+  // reader was looking for. The pages declare the suppression themselves so every
+  // renderer over wiki/** can honour the same key.
+  const toc=(String(fm.meta.toc).toLowerCase()==="false")?"":tocHtml(r.toc);
   const firstH=r.out.findIndex(x=>/^<h2/.test(x));
   if(toc&&firstH>=0) r.out.splice(firstH,0,toc);
   parts=parts.concat(r.out);

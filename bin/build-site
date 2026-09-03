@@ -735,6 +735,15 @@ def collect_pages():
 
 
 def extract_toc(md: str) -> list[tuple[int, str, str]]:
+    """Headings for the "On this page" box.
+
+    A page may opt out entirely with ``toc: false`` in its frontmatter; the
+    caller checks that key rather than this function, because opting out is a
+    property of the page and not of its headings. The yearly tweet pages under
+    wiki/self/twitter/ use it: every post there is its own h3, so the box would
+    be several hundred timestamps deep and link to nothing anyone was looking
+    for.
+    """
     toc = []
     for line in md.splitlines():
         m = re.match(r"^(#{2,3})\s+(.*)$", line)
@@ -919,7 +928,13 @@ def build(out: Path, base_url: str) -> dict:
         page_rel = p.relative_to(ROOT).with_suffix(".html").as_posix()
         wikilink_fn = make_wikilink(known, page_rel, title_map)
         body_html = md_to_html(body, page_rel, wikilink_fn)
-        toc = extract_toc(body)
+        # NOTE 2026-09-03: render_page() is currently unreachable — every page is
+        # emitted as a redirect to the portal (see redirect_html below), so this
+        # line has no effect on anything published today. It is kept correct
+        # against the day rendering comes back here, and the live suppression is
+        # the `toc: false` frontmatter key, which app.py honours and the portal
+        # would need one line to honour too.
+        toc = [] if str(meta.get("toc", "")).lower() == "false" else extract_toc(body)
         title = title_map.get(page_rel, p.stem)
         domain = meta.get("domain") or (p.relative_to(ROOT / "wiki").parts[0]
                                         if p.is_relative_to(ROOT / "wiki") else "")

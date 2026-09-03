@@ -5,7 +5,7 @@ knowledge: earned
 title: "Vertical Authority Skepticism"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-19
+date_modified: 2026-09-03
 sources:
   - raw/people/captures/2026-08-11_051311_rick-childhood-control-and-humiliation.md
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
@@ -128,6 +128,15 @@ connections:
   - page: wiki/self/context-core
     type: evidenced-by
     claim: "Context-core is the source of this page's own name and organizing formula — 'vertical-authority-skeptic, lateral-solidarity-privileging' appears there verbatim, in the political-trajectory line, quoted in this page's own prose as 'the spine's own formula' without ever being linked to its source until this pass."
+  - page: wiki/self/twitter/2021
+    type: evidenced-by
+    claim: "The J6 sequence of 7-17 January 2021 is the mechanism in its most legible form: he states a Capitol-police-collusion hypothesis at full strength, audits it in the same tweet ('but what was the endgame? is that being too generous'), hedges it, and then demolishes the mirror-image antifa claim on internal consistency."
+  - page: wiki/self/twitter/2024
+    type: evidenced-by
+    claim: "On 14 July 2024 he refuted a staged-photograph conspiracy running on his own side by arithmetic — 30fps, 1/8000 shutter, a bullet at 3,200 ft/s — and in the same hours named the three propositions whose failure would overturn his worldview."
+  - page: wiki/self/twitter/2011
+    type: evidenced-by
+    claim: "The method is documented in 2011 on a subject of no consequence: he checked a stranger's concert claim against her tweet's geotag and a missing lip ring in a two-year-old photograph, then stated the epistemics rather than the conclusion."
   - page: wiki/places/the-unpapered-address
     type: instantiates
     claim: "Every housing provider across sixteen years and seven addresses — mother, maternal grandmother, a live-in partner, a great-grandmother — is a lateral by this page's own definition, never a vertical, which is what scopes Trust 9's corpus-confirmed low-trust default away from housing entirely: laterals get the trusted-now, audited-later default this page already documents, and none of these seven relationships was ever audited while it held."
@@ -323,6 +332,67 @@ been shown was false, or continuing to push one after his own check failed,
 would break this. The archive as it stands contains none — but it contains
 2,525 originals and no private material, and the private corpora have not been
 searched for this specific pattern.
+
+## Three earlier instances, and the one that is purest (added 2026-09-03)
+
+The Twitter archive was read year by year on 2026-09-03. Nashville 2023 and Paul
+Pelosi 2022 are not the earliest cases and not the sharpest.
+
+**2011-02-27 — the method, on something trivial.** A stranger claimed to have been
+at a concert; Dan checked her tweet's geotag against the venue and her photograph
+against a detail of her own appearance (*"this pic is two years old- which is
+painfully obvious because you don't have your 'signature' lip ring"*), and when she
+objected he answered with the epistemics rather than the verdict: *"twitter loc may
+be off by a few blocks, it's never that wrong."* Open-source verification from
+metadata and image detail, twelve years before Nashville, applied to nothing at all.
+The instinct predates any of the subjects this page reads it through.
+
+**2021-01-07 — the audit, in the same tweet as the hypothesis.** Working the
+January 6th footage he arrives at a collusion hypothesis and states it at full
+strength — *"i'm as sure as i could possibly be that the capitol police had arranged
+to allow the chuds into the building while they LARPed the violence they would
+usually be committing"* — and then, without a break, turns the instrument on
+himself: ***"but what was the endgame? is that being too generous"***. The same
+evening the claim is restated hedged (*"seemingly collaborated"*). Ten days later he
+demolishes the antifa false-flag version on internal consistency: *"are you saying
+that the radical leftists were agitating to keep the far-right president in power
+rather than the democratic candidate?"*
+
+That sequence — entertain, state at strength, self-audit, hedge, then refuse the
+symmetrical claim on principle — is this page's thesis with every step visible, and
+it is two years earlier and considerably more legible than the Nashville case.
+
+**2024-07-14 — the arithmetic, against his own side, at the highest stakes.** With
+a staged-photograph conspiracy about the assassination attempt running on his own
+timeline, he did the sums and published the negative:
+
+> *"30fps 1/8000 shutter speed / Bullet traveling at 3200 feet per second / This
+> would be essentially impossible to do if you knew it was going to happen and had a
+> countdown to time the shot"*
+
+And in the same hours, unprompted, he wrote out his own falsifiers — *"this would
+mean that i am wrong about the reality of our world in almost every possible way. If
+it's true i'm wrong about: •God not existing •Donald Trump being not fundamentally
+terrible •opposing Totalitarianism"* — which is a man naming the three propositions
+whose failure would overturn his worldview, in a joke, on the day.
+
+> **The cost, quantified (added 2026-09-03).** This page argues the skepticism is a
+> working method rather than a disposition. The testimony ledger now supplies the
+> price of running it: across sixteen settled first-person claims, **his `certain`
+> band has a hit rate of 0.00 (n=3) against a stated 0.95, while his `hedged` band
+> runs 0.70 against a stated 0.60** — [[wiki/meta/testimony-veracity]], and the
+> evidence table is on [[wiki/self/twitter]]. The dominant failure mode on the
+> refuted forecasts is `overreach`, five of five.
+>
+> **That is the same faculty failing.** Refusing a vertical's account of itself is
+> what produces the Nashville negative and the July 2024 arithmetic; it is also what
+> produces *"Trump is never getting indicted"* thirty days before the indictment and
+> *"DeSantis will absolutely NOT challenge"* a hundred days before he did. The
+> instrument that will not take an institution's word for anything also will not
+> take an institution's stated intention for anything, and institutions sometimes do
+> what they say. **The page should not read the skepticism as costless.** Its
+> accuracy is concentrated in the cases where he *checks* — footage, metadata,
+> shutter speeds — and its errors are concentrated in the cases where he *models*.
 
 ## Function and cost
 

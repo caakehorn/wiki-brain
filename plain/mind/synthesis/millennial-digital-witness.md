@@ -2,8 +2,8 @@
 plain_of: wiki/mind/synthesis/millennial-digital-witness
 title: "Millennial Digital Witness"
 reading_level: general
-date_modified: 2026-09-02
-source_modified: 2026-09-02
+date_modified: 2026-09-03
+source_modified: 2026-09-03
 ---
 
 # Millennial Digital Witness
@@ -126,6 +126,39 @@ harshest version of the worry — that the whole thing is a 2026 invention —
 while leaving open that the words, the confidence and the framing may be
 mostly the machine's.
 
+## It is something he does, not something he noticed
+
+The full entry gained a section built from reading his whole Twitter archive year
+by year. It changes what the Hurricane Sandy tweet is evidence *of*.
+
+The tweet is not a passing remark from someone watching a storm on television. He
+had spent the previous two days running his own live blog of it and posting the
+link. He was also feeding material to a radio show by name: a six-alarm fire that
+destroyed dozens of houses in Queens, a tall ship that sank off the coast, the
+number of emergency calls waiting in the queue, a transport official admitting the
+flooding was worse than their own worst case. And he filed what he could see
+himself — no cabs, no shops, no people.
+
+So he noticed that a disaster was being lived through user-made media **because he
+was one of the people making it.**
+
+And he keeps doing it. The same behaviour turns up at four more points:
+
+- **April 2016** — a police car chase went through his yard, and he sent the
+  footage to a named television reporter.
+- **March 2023** — he compared security-camera footage with police body-camera
+  footage, found the claim did not hold up, and published that it did not.
+- **June 2023** — he dug out an old interview and a company website that had gone
+  offline three years earlier, and posted what he found.
+- **February 2025** — a plane crashed into a Philadelphia neighbourhood, and he
+  timed how long two major newspapers took to cover it.
+
+**Why this makes the page's position stronger and narrower.** The honest split
+stays the same: the habit is old and his own, the theory is recent and built with
+a machine. But the habit is more specific than "he pays attention to media."
+It is: **take part in the coverage, then report on the taking part.** That can be
+checked at five separate dates instead of one.
+
 ## What would prove this wrong
 
 1. **A pre-digital-native cohort running the same analysis.** If Gen Z analysts are shown producing the same anomaly-detection output without the "before" reference, the bridge claim weakens.
@@ -139,6 +172,10 @@ mostly the machine's.
    before the AI-collaboration years shows Dan arguing that millennials are a
    uniquely placed generation, then the split above is wrong and the theory is
    simply old. Nothing found so far does this.
+5. **The 2012 live blog turning out to be somebody else's.** If the link he kept
+   posting during the storm went to another person's blog rather than his own, the
+   Sandy entry drops to a re-share and the pattern above starts in 2016 instead.
+   The link is dead and cannot be checked directly.
 
 ## What we still don't know
 

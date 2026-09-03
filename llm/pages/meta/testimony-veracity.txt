@@ -22,8 +22,8 @@ chart:
     - name: "What it turned out to be worth"
       points:
         "certain": 0.00
-        "confident": 0.75
-        "hedged": 0.75
+        "confident": 0.66
+        "hedged": 0.70
 sources:
   - testimony/events.jsonl
 connections: []
@@ -43,43 +43,45 @@ A single trust score would collapse two facts that behave differently. **Veracit
 
 | | value | n |
 |---|---|---:|
-| **Veracity** | **57 / 100** — +2.5 points on 17.5 weight | 6 |
-| **Calibration** | Brier 0.243, skill +0.03 vs a coin flip | 6 |
-| **Stated vs actual** | -0.13 | 6 |
+| **Veracity** | **53 / 100** — +2.5 points on 44.5 weight | 16 |
+| **Calibration** | Brier 0.334, skill -0.34 vs a coin flip | 16 |
+| **Stated vs actual** | -0.22 | 16 |
 
-Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 6 settled claims, not thousands.
+Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 16 settled claims, not thousands.
 
 ## What his confidence is actually worth
 
 | band | he states | it is worth | gap | n |
 |---|---:|---:|---:|---:|
-| certain | 0.95 | 0.00 | -0.95 | 1 |
-| confident | 0.80 | 0.75 | -0.05 | 3 |
-| hedged | 0.60 | 0.75 | +0.15 | 2 |
+| certain | 0.95 | 0.00 | -0.95 | 3 |
+| confident | 0.80 | 0.66 | -0.14 | 8 |
+| hedged | 0.60 | 0.70 | +0.10 | 5 |
 
 ## Outcomes
 
 | outcome | n | meaning |
 |---|---:|---|
-| confirmed | 3 | independent evidence bears it out |
+| confirmed | 8 | independent evidence bears it out |
 | partial | 1 | the core holds, a material detail does not |
 | self_contradicted | 1 | he has given two accounts that cannot both be true |
-| refuted | 1 | independent evidence contradicts it |
+| refuted | 6 | independent evidence contradicts it |
 | unfalsifiable | 6 | checked, and the corpus cannot settle it — **scores zero, never negative** |
 
 ## By claim class
 
-Rates are shrunk toward the global 0.62 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
+Rates are shrunk toward the global 0.55 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
 
 | class | n | raw | shrunk | 95% CI on clean confirmations | dominant failure |
 |---|---:|---:|---:|---|---|
-| date | 2 | 0.50 | 0.57 | 9%–91% | displacement, rounding |
-| location | 2 | 0.12 | 0.42 | 0%–66% | displacement, rounding |
-| duration | 1 | 1.00 | 0.72 | 21%–100% | — |
-| enumeration | 1 | 0.50 | 0.59 | 0%–79% | omission |
-| existence | 1 | 1.00 | 0.72 | 21%–100% | — |
-| quantity | 1 | 1.00 | 0.72 | 21%–100% | — |
-| sequence | 1 | 1.00 | 0.72 | 21%–100% | — |
+| forecast | 10 | 0.50 | 0.51 | 24%–76% | overreach |
+| other_state | 3 | 0.33 | 0.44 | 6%–79% | overreach |
+| date | 2 | 0.50 | 0.53 | 9%–91% | displacement, rounding |
+| location | 2 | 0.12 | 0.38 | 0%–66% | displacement, rounding |
+| duration | 1 | 1.00 | 0.66 | 21%–100% | — |
+| enumeration | 1 | 0.50 | 0.54 | 0%–79% | omission |
+| existence | 1 | 1.00 | 0.66 | 21%–100% | — |
+| quantity | 1 | 1.00 | 0.66 | 21%–100% | — |
+| sequence | 1 | 1.00 | 0.66 | 21%–100% | — |
 
 ## Which way the errors run
 
@@ -87,7 +89,7 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 
 | slant | n |
 |---|---:|
-| neutral — the error carries no credit or discredit either way | 3 |
+| neutral — the error carries no credit or discredit either way | 13 |
 
 ## The record
 
@@ -105,6 +107,16 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 | t010 | A named individual was the building's superintendent and real estate agent at 307 E 76th St | identity, attribution | confident | unfalsifiable | The only independent corpus trace is a single November 2019 message placing him in the apartment, which does not establish the role. |
 | t011 | Four unconscious axioms are load-bearing in his cognition: not exceptional = worthless, not vigilant = annihilated, love that does not cost everything is not real, and time = countdown | self_state | certain | unfalsifiable | Tested lexically against all 106,629 outbound messages 2015-2025 with 110,944 inbound from 503 handles as a within-medium control. On every explicit urgency construction but one he writes LESS than his controls. This does not falsify the axiom — SMS is a near-zero-introspection medium for everybody in it — but it establishes that the message corpus cannot corroborate it. |
 | t012 | He met Alexis Armel on a Thanksgiving 2009 trip home, spent two nights with her, and about a week or two later she came to Orlando on a one-way ticket he bought | date, sequence, duration | confident | confirmed | The tweet archive puts him in PA 25-30 Nov 2009 ('cookies, water, beer, wine, and her.' on the 29th; 'watching the game with someone special' and 'I miss her already' on the 30th, 'her' unnamed), then the first @alexisarmel tweet on 14 Dec from Orlando -- 'you amaze me. can't believe you're real' alongside 'dan in love' -- about two and a half weeks later. 'i have the most amaaaazing girlfriend' on 16 Dec. The account carried the relationship publicly for a fortnight before it carried her name. |
+| t013 | Glenn Beck will not still be on Fox News at the end of 2011. | forecast | hedged | confirmed | Glenn Beck's departure from Fox News was announced 6 April 2011 and his final show aired 30 June 2011 — six months inside the window he gave. |
+| t014 | The Catholic church will respond to Benedict XVI's resignation by rebranding with a younger, more relatable pope. | forecast, other_state | confident | confirmed | Francis was elected 13 March 2013, 29 days after the post, and the reception — 'the people's pope', the Fiat, the refused apartment — was precisely the relatability rebrand described. |
+| t015 | Doug Jones is not in contention in the 2017 Alabama special Senate election. | forecast | confident | refuted | Doug Jones won the Alabama special election on 12 December 2017, the day of the post. Dan announced the miss himself 26 hours later: 'I love being wrong.' |
+| t016 | Republicans will take control of the House in the 2022 midterms, and neither the Kansas ballot initiative nor post-Dobbs polling momentum changes that. | forecast | hedged | confirmed | Republicans took the House in the 2022 midterms, 222-213, despite the Kansas result and post-Dobbs polling he named as the things that would have to change his mind. |
+| t017 | Pennsylvania voters will not extend empathy to Fetterman over his stroke, and the 'unfit' narrative will cost him the 2022 Senate race. | forecast, other_state | confident | refuted | Fetterman defeated Oz by 4.9 points on 8 November 2022. Dan conceded the next morning: 'PITTSBURGH PROUD OF YOU'. |
+| t018 | Ron DeSantis will not challenge Donald Trump in the 2024 Republican primary. | forecast, other_state | certain | refuted | DeSantis announced his primary campaign on 24 May 2023, 100 days after 'will absolutely NOT'. The consequence half of his argument — that Trump would destroy him for it — was borne out by the January 2024 withdrawal. |
+| t019 | Donald Trump is never going to be indicted. | forecast | certain | refuted | A Manhattan grand jury voted to indict on 30 March 2023, 30 days after 'he's never getting indicted' and the same day as 'Fooled AGAIN by the fucking liberal mirage'. |
+| t020 | Biden will lose Arizona and Georgia in 2024, leaving him only a clean sweep of the remaining swing states as a path to 270. | forecast | confident | confirmed | Trump carried Arizona and Georgia on 5 November 2024, and Harris did not sweep the remaining swing states. Called 265 days ahead with the mechanism stated. |
+| t021 | Biden will outperform the low expectations set for him at the 27 June 2024 debate. | forecast | hedged | refuted | His own timeline disconfirms it in sixteen minutes: 00:54 'Biden is going to outperform', 01:10 'It's joever', 01:22 'This is catastrophic'. |
+| t022 | Donald Trump will win the 2024 presidential election. | forecast | confident | confirmed | Trump won the 2024 presidential election, called 129 days after the post. His own post-hoc audit on 7 November records that his June map still gave Biden the blue wall, i.e. the call was right and the underlying model was not yet pessimistic enough. |
 
 ## What this ledger cannot see
 

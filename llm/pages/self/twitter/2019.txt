@@ -1,6 +1,7 @@
 ---
 domain: self
 page_type: period
+toc: false
 status: stable
 date_created: 2026-09-02
 date_modified: 2026-09-02
@@ -28,6 +29,65 @@ connections:
 
 Thin, then impeachment-era links and Putin asides. 'its called a gavel.' The sampled 2019–2026 synthesis that used to stand in for the whole archive was really a window starting here; the earlier years on either side of it are now first-class pages.
 
+## Narrative
+
+**A thin year with three hard facts in it, and one long joke that is the best
+demonstration in the archive of how he actually thinks.**
+
+**He leaves Pennsylvania, and the record has the day.** 3 March 2019: ***"Au
+revoir Pennsylvania. Adiós Trump country."*** Five months later, *"almost seven
+west virginia"* (6 August). [[wiki/self/location-history]] should carry the
+departure as a dated event rather than an inference — and it is the closing of a
+polarity the account opened in December 2008 with *"i fucking hate going home"*.
+
+**The account's age is confirmed to the day.** 24 September 2019: *"i've been on
+twitter for 11 years, which is more than the number of interesting or insightful
+tweets i've produced."* Counting back from 24 September 2019 gives 24 September
+2008 — the fourth independent statement of that date, after the two 2010 day-count
+widgets and before the 2022 anniversary post.
+
+**A collection is gone, and he prices it.** On 12 October, six tweets: *"the best
+thing about my record collection which included first press brand new, signed tttyg
+clear blue vinyl, is/was a real boy, first press rise or die trying, first press mf
+doom etc etc is that i don't have it anymore i guess"*; *"i bought two of those deja
+entendu records and sold one for $900 in 2014"*; *"i had a pre release version of
+late registration for def jam a&r 7 of 20"*; and the part that is not about money:
+*"the resale value and the incredible cost is not nearly the biggest loss i feel
+about these treasures getting sold as $1 bin throwaway vinyl"*. He uses the passive
+voice for the disposal — *getting sold* — and does not say who sold them. That is a
+gap worth stating rather than guessing at.
+
+**The whistleblower thread (27 September) is the cognitive exhibit.** Six posts in
+forty-four minutes, all of them imagining a stranger's evening in mundane detail:
+what did they have for dinner, which board game is in the flat, are they cracking
+jokes to their fiancée, are they exploiting the situation to get out of a party.
+Then, at 01:25, it lands somewhere real: *"in all seriousness, i hope that the
+whistleblower gets rid of the vanity plate on their car. it's just not smart to
+drive around DC with 'WHSLBLWR' on their license plate"*. The comedy is the
+vehicle; the destination is an operational-security concern for a person he will
+never meet. That construction — joke his way into someone's interior state, arrive
+at a practical conclusion — recurs constantly and is easy to mistake for pure
+snark.
+
+**A health claim that does not reconcile with his own archive.** On 9 October:
+*"one reason i started vaping is because i felt like a piece of shit for exposing my
+animals to smoke"*, and *"the health benefits of switching were immediately
+obvious... the 'wheezing' thing doesn't plague me like it did for 5 years while
+smoking"*. But 2017-12-28 dates his first pack to 2007, and December 2010 already
+records the switch — *"3 days after moving to an e cig, i'm (un) hooked"*, *"25 hours
+tobacco free"*. Either the smoking period was longer than 2007–2010 because he
+relapsed, or the five-year figure is wrong. The day after this thread he buys
+smokeless tobacco for a trip home (*"today i bought a can of skoal to prepare me for
+a weekend in Pennsylvania"*), which makes relapse the likelier reading. Recorded
+here rather than resolved: it is a checkable first-person duration claim and belongs
+in [[wiki/meta/testimony-veracity]].
+
+**And a bracket for a position he later abandons.** 16 January: *"The recent joke
+shaming of Louis CK is so fucking disturbing. You don't have to agree with the
+material to appreciate the essence of what a joke is."* Comedy free-speech
+absolutism is still fully intact in January 2019. It is explicitly gone by 26
+October 2021. That is the window.
+
 ## Coverage
 
 | | |
@@ -37,9 +97,16 @@ Thin, then impeachment-era links and Putin asides. 'its called a gavel.' The sam
 | From live X scrape | 0 |
 | Pure reposts | omitted by rule (no @danfrank quote text) |
 
-This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
+## Gaps
 
-## January
+**February, June and July hold no rows**, and March, April and May hold one each.
+The year's 57 originals are concentrated in September–December (45 of them), which
+is impeachment-hearing season and is probably real, but the spring is under-sampled
+rather than demonstrably silent.
+
+## Transcript
+
+This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
 ### 2019-01-02 00:36:19 UTC · [1080261471832031232](https://x.com/danfrank/status/1080261471832031232)
 *likes 0 · replies 0 · reposts 0*

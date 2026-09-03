@@ -1,6 +1,7 @@
 ---
 domain: self
 page_type: period
+toc: false
 status: stable
 date_created: 2026-09-02
 date_modified: 2026-09-02
@@ -28,6 +29,71 @@ connections:
 
 A full original-tweet year in the spreadsheet. Trap remixes continue (RNDM VADER), O&A still in the mentions, YouTube likes as a diary, and the self-assessment that the 'reference, pun, and pop culture games are heavy.' Production identity and joke-density running in parallel.
 
+## Narrative
+
+**The year the music is an operation rather than a hobby, and the year the
+record shows him inside a tribe he later says radicalised him out of it.**
+
+**The operation, in its own words.** He produces and releases (RNDM VADER,
+heRobust, Katy Perry, Caked Up, Zeds Dead, Drake x Cashmere Cat, gLAdiator,
+*Buffalo*). He **solicits collaborators** — *"Lets collab! danfr4nk@icloud.com
+for stems and patch trades"* (8 May). He **pitches DJs directly** — *"i have a
+few tracks for you. dm me your email"* (17 April), then *"I just emailed you some
+tracks and new mix stuff"* (26 April). He **enters competitions** — a Major Lazer
+*Aerosol Can* flip on Beatport, canvassing votes twice (22 and 29 April). He
+**runs series with schedules**: *Week in TRAP*, the monthly *Wax, Stacks and
+Racks*, the *Heatwave* summer series. He **broadcasts live** on Ustream and
+YouTube as *TRAP TV* (15 November, 8 December). He **builds the instrument** —
+*"Finished paint on my MIDI control"* (1 December). And he **thanks the people
+who amplify him** by name. Announce, solicit, compete, broadcast, thank: that is
+not a list of subjects, it is a list of *acts*, and it is the difference a
+keyword count over this year cannot see.
+
+**It costs him his back.** 8 May: *"Early morning inversion table sesh like
+yea"*. 17 May, nine days later: *"So many hours DJing that I need daily inversion
+table therapy fuck"*. A dated, first-person, causal injury account, and the
+earliest one in the corpus.
+
+**He also states a craft ethic, under provocation.** On 25 April, on the Steve
+Aoki pre-recorded-set scandal: *"as a 'nobody' DJ, the aoki scandal is extra
+annoying. this is the kind nonsense that allows for EDM to be disregarded as
+mindless"*, and then the principle: *"playing prerecorded mix is vile if the only
+other performance you're offering is spraying drinks on the hornswaggled (paying)
+audience/fans"*. The self-placement — *a 'nobody' DJ* — is his own.
+
+**And the fan labour becomes a second, unpaid job.** Over 14–16 October he cuts a
+children's-music bit out of the O&A broadcast, uploads it to SoundCloud and
+YouTube, and then pushes it at six accounts in the show's orbit in forty-eight
+hours — @OpieRadio, @JimNorton, @OpieandJimmy, @mondo270, @steveyknight,
+@iamcolinquinn. It is the same act as the 2012 internship applications: produce
+something unasked-for and hand it to the people you want to be near.
+
+> **The finding this page carries that the rest of the wiki needs.** On **4 July
+> 2014**, one day after Anthony Cumia was fired by SiriusXM over a series of
+> racist tweets, Dan wrote: ***"@AnthonyCumia nothing but love and respect ant.
+> Thanks for not selling your soul through this whole mess"***. Three months
+> earlier, on 25 March: *"@AnthonyCumia brilliant point re 'tranny' outrage.
+> Minority groups feel entitled to have at least 1 term ruled a slur, offensive
+> or otherwise"*.
+>
+> [[wiki/mind/synthesis/2020-left-turn]] carries his own 2022 account of the
+> split — that the fanbase following Cumia right *"radicalized [us] to leftist
+> politics"* — as a second causal story for the conversion. This year is that
+> story's other half, in real time, and it does not flatter it. He was in the
+> tribe. He defended it on the day. The departure narrative is true as a
+> departure and false as a description of where he was standing beforehand, and
+> the page should hold both. By 29 October 2018 the same account reads *"opie
+> sucks though"*; by 18 July 2022 he is pitching Opie on going *"full
+> progressive"*. Eight years, three positions, all first-party.
+
+Smaller, worth keeping. On **22 August**: *"Did I see the Uniontown bank robbery
+suspects today? Or am I a self-absorbed, paranoid zilch? You decide."* — the live
+-event instinct with the self-doubt already attached, nine years before the
+Nashville debunk. On 15 August, a seven-year search for a lost Human Giant
+special. And on 19 December, the self-assessment the older lede quotes: *"i think
+my reference, pun, and pop culture games are heavy and could probably be some
+2015 rap star kick"* — written three months before the music stops.
+
 ## Coverage
 
 | | |
@@ -37,9 +103,9 @@ A full original-tweet year in the spreadsheet. Trap remixes continue (RNDM VADER
 | From live X scrape | 0 |
 | Pure reposts | omitted by rule (no @danfrank quote text) |
 
-This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
+## Transcript
 
-## January
+This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
 ### 2014-01-01 05:33:55 UTC · [418253731562799104](https://x.com/danfrank/status/418253731562799104)
 *likes 0 · replies 0 · reposts 0*

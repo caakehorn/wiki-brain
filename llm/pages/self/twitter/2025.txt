@@ -1,6 +1,7 @@
 ---
 domain: self
 page_type: period
+toc: false
 status: stable
 date_created: 2026-09-02
 date_modified: 2026-09-02
@@ -28,6 +29,52 @@ connections:
 
 Collapse-year quiet. Piano self-teaching, #songs2die4, the memoir-title joke 'Other Things, and Other Things Other than That.' Thirteen originals in the spreadsheet; the life is happening in texts, not tweets.
 
+## Narrative
+
+**Thirteen originals, the lowest count in the archive, and the year the account
+stops being where his life is recorded.** The iMessage corpus and the rest of the
+wiki carry 2025; this page carries a residue.
+
+What is in the residue is worth naming, because it is unusually consistent. **Six of
+the thirteen are political and five of those are about competence rather than
+ideology** — the Hegseth confirmation hearing (*"Democratic Senators offered few, if
+any questions of substance. Republicans used their time to grandstand"*, 14 January),
+a geography question a defence nominee could not answer, foreign-aid conditionality
+as a position he genuinely cannot model (*"one of the only takes that exists across
+the spectrum as a legitimate, 'reasonable' policy position that I truly can't
+understand how or why anyone could possibly think this is a good idea"*, 5 January).
+The 2020–2023 register — ideology, faction, definitional discipline — has narrowed to
+*is anyone in this room doing their job*.
+
+**And one of the thirteen is the digital-witness reflex, still firing.** On 1
+February, after the Philadelphia medevac crash, three posts in five hours checking
+whether the national press had covered it: *"So NYT & WaPo still have zero coverage of
+the Philly crash story. Wild."* → *"Update: 3 hours later and still nothing. A plane
+fell out of the sky onto a residential neighborhood in a major city and…noting?"* →
+*"Nothing? @nyt @washingtonpost"*. Monitoring coverage and timing the gap is the same
+act as the Sandy liveblog of 2012 and the WTAE tip of 2016, reduced to its smallest
+possible form.
+
+**Music returns, in the least professional way available.** 7 January: *"My
+self-teaching piano lesson tonight is figuring out a bunch songs from criminally
+under-appreciated national treasure @NickLutsko."* Ten years after the SLOPPP
+operation ended and nine years after he inherited a box of instruments and predicted
+he would become mediocre at them, the practice is a man teaching himself somebody
+else's songs at night — nine likes, the highest of the year. In October the
+`#songs2die4` tag appears, which is what carries forward into 2026.
+
+The one line people quote is 27 February: *"Now that I have my title I'm ready to
+write my memoir 'Other Things, and Other Things Other than That'"* — his third
+memoir-title joke on this account, after the two of 29 December 2017 and *"GO READ A
+BOOK OR SOMETHING"* of 5 December 2014. Three titles, no memoir, eleven years.
+
+> **This page is almost certainly wrong about 2025, and the wiki reasons from it.**
+> Eleven of the twelve months are empty here and a single row sits in October. Other
+> pages describe 2025 as a *"collapse-year silence"* on the strength of that. Thirteen
+> originals is what the export contains, not necessarily what he posted, and the true
+> count is the single most valuable number an X Settings export could return. Until it
+> does, treat the volume as a lower bound and the silence as unverified.
+
 ## Coverage
 
 | | |
@@ -37,9 +84,20 @@ Collapse-year quiet. Piano self-teaching, #songs2die4, the memoir-title joke 'Ot
 | From live X scrape | 0 |
 | Pure reposts | omitted by rule (no @danfrank quote text) |
 
-This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
+## Gaps
 
-## January
+**Nine of twelve months hold no rows**, and the whole second half of the year is
+represented by a single post on 2 October. Thirteen originals is what the export
+contains, not what the account posted.
+
+Other pages in this wiki describe 2025 as a collapse-year silence and reason from the
+count. **Treat it as a lower bound.** The true 2025 total is the single most valuable
+number an official X Settings export could return, and until one exists the silence
+is unverified rather than established.
+
+## Transcript
+
+This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
 ### 2025-01-05 09:02:09 UTC · [1875830132516245561](https://x.com/danfrank/status/1875830132516245561)
 *likes 0 · replies 0 · reposts 0*

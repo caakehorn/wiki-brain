@@ -1,6 +1,7 @@
 ---
 domain: self
 page_type: period
+toc: false
 status: stable
 date_created: 2026-09-02
 date_modified: 2026-09-02
@@ -28,6 +29,49 @@ connections:
 
 Volume drops. YouTube playlist adds, O&A residue, and the flat New Year's 'another year. woo yay other exciting things' — the year the Annie relationship starts in November is almost silent on this account, which is itself a finding: Twitter is not where that year was lived.
 
+## Narrative
+
+**The year the music operation stops, and the account records the stop without
+ever mentioning it.**
+
+The last acts of SLOPPP are in the first quarter. On **26 January** he enters a
+remix competition — a Far East Movement *Grimey Thirsty* remix on wavo.me — and
+campaigns for votes the next day, exactly as he did for the Beatport contest nine
+months earlier. On **16 March** he re-shares an old micromix. After that: nothing.
+No release, no mix, no set, no collaboration, no thank-you to a supporter, for the
+remaining nine months of the year and, in this archive, for the next eleven.
+[[wiki/interests/music/aliases/sloppp]] is the page that has to absorb this: the
+project does not fail loudly or get abandoned in an announcement. It simply has a
+last day, and the last day is a competition entry.
+
+**What replaces it is consumption.** The 2015 originals are largely YouTube likes
+and playlist adds logged automatically — Jack Ü at MSG, Ookay at TomorrowWorld,
+an Opie & Anthony clip of Alex Jones at Dealey Plaza, *Reggie Makes Music* — plus
+eight *True Skate* mobile-game clips posted through Kamcord over two days in
+mid-July. In January 2014 he was mastering remixes and emailing stems to DJs; by
+July 2015 the public output is skateboarding-game replays. The transition takes
+about six months and the account narrates none of it.
+
+**Volume tells the same story.** Sixty-two originals for the year against 171 in
+2014 and 346 in 2013 — and unlike 2009–2013, this figure is trustworthy: from
+August 2013 the operator spreadsheet is the source, its rows are distributed
+evenly across each month, and there is no query cap shaping it. The collapse in
+posting is a fact about him, not about the scrape.
+
+Two other things are in the record. Golf appears for the first time — *"sick
+Canadian tuxedo on the golf course"* (12 December) — nine months before it
+becomes a real thread ([[wiki/interests/golf]]). And vaping continues without
+interruption from the December 2010 switch: *"Vape shops all closed on Sunday.
+Gross Juiceman until tomorrow"* (13 December).
+
+> **A strand of this year is not narrated here.** Part of the December 2015
+> record concerns a person covered by the standing directive in `CLAUDE.md`, and
+> under that directive this page adds no new account of it, quotes nothing from
+> it, and dates nothing from it. The transcript below is unchanged — the
+> directive is a stop, not a redaction — but the narrative above deliberately
+> does not use it, which is why the December material is under-represented in
+> what you have just read.
+
 ## Coverage
 
 | | |
@@ -37,9 +81,17 @@ Volume drops. YouTube playlist adds, O&A residue, and the flat New Year's 'anoth
 | From live X scrape | 0 |
 | Pure reposts | omitted by rule (no @danfrank quote text) |
 
-This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
+## Gaps
 
-## January
+**Five months hold no rows at all: April, and August through November.** That is a
+141-day hole from mid-July to early December. The spreadsheet is otherwise the sole
+source for the year and its rows are evenly distributed within the months it does
+cover, so the low counts elsewhere (5, 5, 2, —, 1, 3, 10) are behaviour rather than
+sampling. The hole is not.
+
+## Transcript
+
+This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
 ### 2015-01-01 05:01:15 UTC · [550517084174942210](https://x.com/danfrank/status/550517084174942210)
 *likes 0 · replies 0 · reposts 0*

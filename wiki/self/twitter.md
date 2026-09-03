@@ -3,7 +3,7 @@ domain: self
 page_type: summary
 status: active
 date_created: 2026-06-22
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 knowledge: mixed
 date_range_start: 2009-10-20
 date_range_end: 2026-09-02
@@ -166,6 +166,48 @@ The operator spreadsheet (Drive: Dan Frank - Tweet Archive, filed as `raw/self/t
 | [[wiki/self/twitter/2026\|2026]] | 26 | in progress |
 | **Total** | **2741** | |
 
+## The pre-2014 rows are query-shaped, and this is the number
+
+Every yearly page before August 2013 says "in progress". That is true and it is
+not the useful statement. The useful statement is that **the retrieval method
+biased *which* tweets survive, not merely how many**, and the bias is measurable.
+
+A search backend capped at ten results per query does not sample a month — it
+returns the month's *end*. Expressing every row's date as its position within its
+own month (0.0 = the 1st, 1.0 = the last day):
+
+| Source | Rows | Mean position-in-month | Distinct days per month |
+|---|---:|---:|---:|
+| `grok-backend`, 2009 | 118 | **0.838** | 2.7 |
+| `grok-backend`, 2008 | 95 | 0.605 | 13.0 |
+| `live-x-scrape`, 2010–2013 | 911 | **0.681** | 8.8 |
+| `operator-spreadsheet`, 2014–2024 | 1,196 | **0.492** | 6.0 |
+| *uniform draw* | — | *0.500* | — |
+
+**The spreadsheet is unbiased and the scrape is not.** February through September
+2009 hold exactly ten rows each and cover one to three days each, and every one of
+those days is the 28th, 29th, 30th or 31st: nine consecutive months represented by
+their last forty-eight hours. The 2010–2012 monthly counts are near-multiples of
+ten (48, 30, 48, 20, 19, 29, … ) because they record how many capped queries were
+run against each month.
+
+**Three consequences, and the third is the one that has already misled a page.**
+
+1. **No monthly or per-year volume comparison before August 2013 means anything.**
+   2010 showing 342 originals and 2011 showing 225 is a fact about the scrape.
+2. **No seasonality, cadence or hour-of-day claim survives either**, because
+   month-end days are not a random draw of weekdays.
+3. **A topic share can be distorted too**, wherever a topic is seasonal — and
+   month-end clustering is exactly when travel, paydays, rent, deadlines and
+   holidays fall. [[wiki/mind/synthesis/2020-left-turn]]'s political-share series
+   is safe for 2017 onward, where the spreadsheet is the source; its early-year
+   figures are not, and should not be cited as a baseline the later years rose
+   from.
+
+Content is not affected. A tweet that exists says what it says whatever query
+found it. **Counts are affected, and every count on the pre-2014 pages is a lower
+bound of unknown tightness.**
+
 ## What the public valve actually is
 
 The older page on this path was a sample synthesis from 2019–2026 and said so. That sample was directionally right — politics sicko, AI-as-prosthetic, MOGZART/Ableton, low engagement — and factually incomplete. The account is not a 2019 object. The 2009 remainder already has the lowercase/fragment/ellipsis idiom, the Alexis address, the I-95 boredom, the in-love tweet; [[wiki/mind/profile/linguistic-profile]] treated that as the public half of a two-corpus voice proof, and the yearly pages now hold the dated lines instead of a citation of a sample file.
@@ -223,12 +265,28 @@ changed both claims.
 
 **What it could not settle, and this is the important half.** The backend user
 lookup returned an account id (`16430736`) but **no `created_at` and no
-`statuses_count`**. So the account's creation datetime is still not a recorded
-fact, and there is still no figure for how many tweets 2,741 is out of. The
-24 September 2008 date is an inference from three consistent facts — the
-earliest tweet retrieved, two queries before it returning nothing, and the
-`#MyTwitterAnniversary` post of 2022-09-24 — and it should be cited as an
-inference.
+`statuses_count`**, so there is still no figure for how many tweets 2,741 is out
+of.
+
+**The creation date, though, is no longer a single inference.** Reading the
+archive year by year turned up three further statements of it, two of them
+machine-computed and posted by Dan without comment:
+
+| Date posted | What he posted | Implies |
+|---|---|---|
+| 2010-08-24 | *"I joined twitter 699 days ago"* (whendidyoujointwitter.com) | 2008-09-24 |
+| 2010-12-09 | *"I joined Twitter on the 23rd of September 2008, making my account 807 days old"* (twuration.com) | 2008-09-23 |
+| 2019-09-24 | *"i've been on twitter for 11 years"* | 2008-09-24 |
+| 2022-09-24 | `#MyTwitterAnniversary`, *"14 years"* | 2008-09-24 |
+
+Four statements across twelve years, from two independent third-party day-counters
+and two round-number recollections, landing on **23–24 September 2008** — a
+one-day spread of exactly the size a UTC-versus-US-local boundary produces, and
+consistent with the earliest surviving tweet at 2008-09-24T04:52:36 UTC (which is
+23 September in every US time zone). This is still not a recorded `created_at`
+and should still not be cited as one; it is now a convergence of four
+independent estimates rather than a lean on one anniversary post, and the
+remaining uncertainty is one calendar day, not one year.
 
 > **CORRECTION [2026-09-02] — 2016 is not complete for originals.** The
 > coverage table above said it was, on the strength of the operator
@@ -254,6 +312,35 @@ of the 129 rows still truncated mid-text, and seventeen years of reposts —
 `raw/self/twitter/reposts.jsonl` holds five, kept out of `archive.jsonl`
 because the originals-only inclusion rule is what the yearly pages are built
 on.
+
+## What the year-by-year read settled (2026-09-03)
+
+Every yearly page now carries a **Narrative** section at the top: the year read as
+a year rather than as a transcript. Writing them turned up findings the transcript
+had held for months without anyone reading them in order.
+
+| Finding | Where it lands |
+|---|---|
+| **He renounced the Republican party on 28 November 2009** — *"people like this are why i no longer consider myself a republican"* — eleven years before the conversion date, and as an exit rather than an arrival | [[wiki/mind/synthesis/2020-left-turn]], [[wiki/self/twitter/2009]] |
+| A **four-item platform in his own words, 7 November 2012**: end corporate welfare, congressional term limits, stop DEA raids, leave Afghanistan. Populist, not progressive — the substrate 2020 arrived on | [[wiki/mind/politics/axioms]], [[wiki/self/twitter/2012]] |
+| **On 4 July 2014, the day after Anthony Cumia's firing, Dan thanked him** *"for not selling your soul through this whole mess"*. The 2022 account of being radicalised *away* from that fanbase is true as a departure and silent about where he was standing | [[wiki/interests/opie-and-anthony]], [[wiki/self/twitter/2014]] |
+| The **justice-system principle dates to 2011, not 2024**: *"I have no idea whether Troy Davis was guilty or not, but he deserved the chance to live another day to fight in court"* (22 Sept 2011) | [[wiki/mind/politics/axioms]], [[wiki/self/twitter/2011]] |
+| **A movement-atheist year, 2011** — the Out Campaign link, the pastor thread, "sky daddy", Hitchens — **publicly repudiated on 30 July 2013** with *"a great critique of neo-atheism"* | [[wiki/self/twitter/2011]] |
+| The **early employment ladder, none of it elsewhere on the wiki**: `dan@ishlab.com` studio job (Mar 2010) → unpaid marketing internship (28 Jan 2011) → The Gap (autumn 2012). The later rungs corroborate pages that exist — [[wiki/work/au-zaatar]] (2022–23) and [[wiki/work/nemacolin-caddying]], claimed as expertise in 2024 | [[wiki/self/twitter/2010]], [[wiki/self/twitter/2012]] |
+| **Hurricane Sandy was an operation, not a noticing**: a liveblog posted six times and sourced material fed to O&A hosts by name, alongside the "first true digital disaster" line the wiki already cites | [[wiki/mind/synthesis/millennial-digital-witness]], [[wiki/self/twitter/2012]] |
+| The same reflex recurs at three scales: a **first-hand tip with footage to a WTAE reporter** (21 Apr 2016), the **Nashville debunk** (2023), the **shutter-speed arithmetic** (14 July 2024) | [[wiki/mind/synthesis/vertical-authority-skepticism]] |
+| **The reading-with-running-commentary practice starts January 2018** (*Fire and Fury*, then Comey with a public self-correction), not December 2022. On 11 Apr 2018: *"my goal in life is to one day be described as a 'voracious reader'"* | [[wiki/self/twitter/2018]] |
+| **He left Pennsylvania on 3 March 2019** — *"Au revoir Pennsylvania. Adiós Trump country."* | [[wiki/self/location-history]], [[wiki/self/twitter/2019]] |
+| **A Misfits tattoo, last week of November 2018**, dated by *"I'm 30 years old, got a Misfits tattoo last week"* | [[wiki/self/tattoos]] |
+| **DJing cost him his back in 2014**: *"So many hours DJing that I need daily inversion table therapy"* (17 May 2014) | [[wiki/self/twitter/2014]] |
+| **SLOPPP has an audience number**: 7,000 SoundCloud plays on 10 Nov 2013, ~10,000 by 8 Dec — the only quantified reach the project ever reports | [[wiki/interests/music/aliases/sloppp]] |
+| **Born 1 November 1988**, from *"My last minute being 33"* posted 2022-11-01T03:59 UTC, corroborated by the Spotify handle `dfrank88` and *"I'm 30 years old"* in Dec 2018 | [[wiki/self/twitter/2022]] |
+| **@katie_efff is Katie Fletcher** (Vine caption, 24 Aug 2013); **@franknarcissist is a cousin** with a Nov 2013 cover story in The Fader | [[wiki/self/twitter/2013]] |
+| **A record collection was disposed of** — first-press Brand New, a signed *tttyg*, a Def Jam A&R promo of *Late Registration*, one *Deja Entendu* sold for $900 in 2014 — and sold on as dollar-bin vinyl by someone he does not name (12 Oct 2019) | [[wiki/self/twitter/2019]] |
+| **Eight dated predictions with outcomes**, spanning 2011 to 2024, enough to give the testimony ledger its first real sample of a single claim class | [[wiki/meta/testimony-veracity]] |
+
+The 2024 corpus also has a standing reading of its own:
+[[wiki/mind/synthesis/twitter-2024-cognitive-state]].
 
 ## The densest day in seventeen years
 
@@ -283,6 +370,61 @@ relationship event, and the only personal entry is a travel day. And the mode
 is the one this archive rewards: [[wiki/mind/synthesis/vertical-authority-skepticism|
 live-event forensics]], the same mode that produced the only two tweets in
 seventeen years to reach an audience.
+
+## The archive is the corpus's best source of checkable predictions
+
+The testimony ledger existed before this pass with **n=6 settled claims and no
+class above its minimum**, which meant `bin/wiki-testimony assess` had nothing to
+offer but the global rate. Reading the archive year by year turned up dated,
+public, resolvable forecasts — the one class of first-person claim this corpus can
+settle without asking anyone. **Ten were recorded and adjudicated on 2026-09-03**,
+taking `forecast` to n=10 and the ledger overall to 16 settled.
+
+| Asserted | Claim | Stated as | Outcome |
+|---|---|---|---|
+| 2011-02-26 | Glenn Beck gone from Fox by year end | hedged | **confirmed** (left June 2011) |
+| 2013-02-12 | The church will rebrand with a younger, relatable pope | confident | **confirmed** (Francis, 29 days) |
+| 2017-12-12 | Doug Jones is not in contention | confident | **refuted** that evening |
+| 2022-08-24 | Republicans take the House regardless of Kansas and Dobbs | hedged | **confirmed** |
+| 2022-10-26 | PA voters will not extend Fetterman empathy; he loses | confident | **refuted** (+4.9) |
+| 2023-02-13 | DeSantis will *absolutely NOT* challenge Trump | certain | **refuted** (100 days) |
+| 2023-02-28 | Trump is *never* getting indicted | certain | **refuted** (30 days) |
+| 2024-02-14 | Biden loses AZ and GA; only a clean sweep gets him to 270 | confident | **confirmed** (265 days ahead) |
+| 2024-06-28 | Biden outperforms expectations at the debate | hedged | **refuted** in 16 minutes |
+| 2024-06-29 | Trump wins in November | confident | **confirmed** (129 days ahead) |
+
+**The result is not the hit rate; it is the calibration table.** Across all 16
+settled claims in the ledger:
+
+| Band | He says | It is worth | n |
+|---|---:|---:|---:|
+| certain | 0.95 | **0.00** | 3 |
+| confident | 0.80 | 0.66 | 8 |
+| hedged | 0.60 | **0.70** | 5 |
+
+**His stated confidence runs backwards.** Every claim he has stated at maximum
+confidence has failed, and his hedged claims beat their own stated probability.
+`bin/wiki-testimony assess --class forecast --confidence certain` now returns
+**0.04**; the same call for a hedged forecast returns **0.56**. The dominant
+failure mode across the refuted forecasts is `overreach` — five of five — and it
+has a recognisable shape: **he predicts what a rational actor should do and what a
+captured institution has always done, and both priors fail against actors who are
+neither.** The DeSantis pair is the cleanest instance, because on 24 May 2023 he
+wrote a four-post argument for why the challenge was suicidal that turned out
+right, having been certain a hundred days earlier that it would not happen at all.
+He is reliably good on consequences and unreliable on whether the thing happens.
+
+Two honesty notes, because the number is easy to over-read. **n=3 in the `certain`
+band is three claims, not a law**, and the Wilson interval on the class rate is
+24%–76%. And **the sample is his public account**, where a flat assertion is a
+rhetorical register as much as an epistemic one; nothing here shows he privately
+believed "absolutely NOT" at 0.95. What it does show is that a reader of this
+archive should discount his most emphatic sentences and take his hedged ones more
+seriously than he does — which is roughly the opposite of how emphasis normally
+works.
+
+Every record is in [[wiki/meta/testimony-veracity]] with its evidence and
+adjudication; that page is generated and must not be hand-edited.
 
 ## Inclusion rule
 

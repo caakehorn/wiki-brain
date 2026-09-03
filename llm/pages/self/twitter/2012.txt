@@ -1,6 +1,7 @@
 ---
 domain: self
 page_type: period
+toc: false
 status: stable
 date_created: 2026-09-02
 date_modified: 2026-09-02
@@ -31,6 +32,76 @@ connections:
 
 O&A internship applications (@erockradio, @notsam), Halo 4 tray errors, election-night skepticism, and the Pro Tools-cert-in-NYC self-pitch. The public record of wanting into that radio world is here in two near-identical tweets sent four minutes apart. Live-scrape; incomplete.
 
+## Narrative
+
+**The year the public record shows him trying to get in, and the year it shows
+what he does when a disaster is happening in front of him.**
+
+**Hurricane Sandy is not a tweet on this page; it is an operation.** Across 29
+and 30 October he posts a liveblog URL six times — *"#Sandy pics from NYC on the
+liveblog gogo"*, *"#sandy liveblog updated. pics/gifs/nyc news"*, *"Deteriorating
+conditions and all kinds of bad shit"* — while feeding sourced material to the
+Opie & Anthony hosts by name: the 50-house six-alarm fire in Breezy Point to
+@OpieRadio, the submerged HMS Bounty, the NYPD 911 call volumes (*"Total calls
+for the day since midnight: 8,362, Total jobs in the queue as of 5:30am:
+4,807"*), the MTA official conceding flooding *"worse than their predicted worst
+case scenario"*. He also files first-hand observation: *"Manhattan is straight
+empty. No cabs. No stores. No people."* And then, at 12:25 on 30 October, he
+names what he has been doing: ***"Sandy is like first true 'digital disaster'.
+Can't remember so much user generated content from a storm."***
+[[wiki/mind/synthesis/millennial-digital-witness]] cites that last line as the
+moment of noticing. It is better than that — he noticed it because he was one of
+the people generating it, and the aggregating, sourcing and publishing are all in
+the same forty-eight hours.
+
+**The bid for the radio world is on the record twice, four minutes apart.** On 18
+November, to @notsam and then to @erockradio: *"what's the process like to get an
+O&A internship? I'm a recent music engineering grad with pro tools certification
+living in NYC."* Two hours later: *"I just sent in an app."* Nothing came of it.
+See [[wiki/interests/opie-and-anthony]].
+
+**And there is a second, quieter ambition that also goes nowhere.** On 27 August:
+*"@adamlucidi let's talk soon, been tossing around some ideas for a podcast and i
+want to see if I can't get you involved."* The day after, *"I blogged about a
+world without internet"* — there was a blog. Fourteen years before the AI
+video-essay project of [[wiki/work/tech/ai-video-essays]], the shape of the
+ambition is already podcast-and-blog, and the outcome is already no artifact.
+
+**The 2012 politics are not liberal, and they are not yet left.** On 3 January,
+of the Obama administration: *"The one thing I've taken away from the last 3
+years: no we can't."* On election night, love with a knife in it: *"obama going
+off the cuff in Iowa tonight. LOVE THIS GUY (except those pesky drone strikes)"*.
+And the next morning, a four-item platform in his own words: ***"Let's do this
+Barry: end corporate welfare. establish congressional term limits. stop DEA raids
+of marijuana vendors. GTFO afghanistan etc"*** (7 November). Anti-corporate,
+anti-war, anti-drug-war, anti-incumbency. [[wiki/mind/synthesis/2020-left-turn]]
+treats 2020 as the arrival of an ideology; this is the substrate it arrived on,
+and it is populist rather than progressive. He also refuses the ratings
+narrative on the night — *"I refuse to believe that tonight's earlier results
+were as close as we were told. Need to keep it tight for ratings."*
+
+**The media diet that the pipeline arguments depend on is documented here.** On
+23 March: *"@joerogan still planning to have Sam Harris on the podcast? Super
+excited for that."* In August, two posts about Duncan Trussell on the Joe Rogan
+Experience, one calling an episode *"the new high water mark for JRE"*. Alongside
+the daily O&A intake and a *"I don't get down with o&a right-wing ideology,
+but..."* on 26 February. The 2020 conversion story and the 2022 account of being
+*radicalized away* from that tribe both need this year to be true, and it is.
+
+**Two moves in the physical record.** *"Goodbye, Brooklyn!"* on 29 March,
+*"Hello, Manhattan."* on 30 March — the Brooklyn-to-Manhattan move dated to the
+day, against a wiki that had it in May. And by autumn he is working retail:
+*"every South American I meet at The Gap"* (29 September), *"Sometimes I write my
+own stories about the cartoons on the fitting room walls at work"* (30
+September).
+
+**Finally, the cohort.** On 23 February: *"People who need to come visit me:
+@danpolyak @EricJester @JoshBrannan @Woodguts"*. It is the only place in the
+corpus where Dan enumerates his own core friend group, and four names is the
+whole list. Three have pages — [[wiki/people/dan-polyak]],
+[[wiki/people/eric-jester]], [[wiki/people/josh-brannan]] — and the fourth,
+@Woodguts, is still unidentified after 17 posts spanning 2009 to 2013.
+
 ## Coverage
 
 | | |
@@ -42,11 +113,25 @@ O&A internship applications (@erockradio, @notsam), Halo 4 tray errors, election
 
 ## Gaps
 
-The operator spreadsheet begins 2013-08-17. 2012 is being walked from live X search in batches of ten; this page currently holds 205 originals and will be appended as further batches land. Do not treat the present count as the year's total.
+**The count on this page is 205 and the year's true total is unknown and higher.**
+Every row is `live-x-scrape`; the operator spreadsheet does not begin until
+2013-08-17.
+
+Monthly counts: 27, 20, 19, 10, 20, 10, 10, 19, 20, 20, 26, 4. **December 2012 holds
+four rows and is the worst-covered month of the year** — the Sandy material in
+October survives only because he posted through it in volume.
+
+> **The shape of this defect, stated once and referenced from every affected
+> page.** The pre-August-2013 rows were retrieved by search backends capped at ten
+> results per query, and a capped query does not sample a month — it returns the
+> month's *end*. Mean position-in-month is **0.838** for the 2009 backfill and
+> **0.681** for the 2010–2013 scrape, against **0.500** for a uniform draw and
+> **0.492** for the operator spreadsheet's own 2014–2024 rows. Monthly counts here
+> are therefore near-multiples of ten because they record how many queries were
+> run. Full account on [[wiki/self/twitter]].
+## Transcript
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
-
-## January
 
 ### 2012-01-01 04:16:19 UTC · [153328674333138944](https://x.com/danfrank/status/153328674333138944)
 *likes 0 · replies 0 · reposts 0*

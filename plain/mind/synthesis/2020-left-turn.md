@@ -2,8 +2,8 @@
 plain_of: wiki/mind/synthesis/2020-left-turn
 title: "The 2020 Left Turn"
 reading_level: general
-date_modified: 2026-09-02
-source_modified: 2026-09-02
+date_modified: 2026-09-03
+source_modified: 2026-09-03
 ---
 
 # The 2020 Left Turn
@@ -109,6 +109,59 @@ the justice system is on the public record in 2011 — thirteen years before
 the 2024 material the wiki usually treats as where it shows up. Whatever
 changed in 2020, it did not introduce that.
 
+## He stopped being a Republican in 2009
+
+The full entry gained a third piece of evidence, and it moves the start of the
+story back a long way.
+
+On **28 November 2009**, aged 21, Dan posted two messages one after the other on
+Twitter. The first said that certain people were the reason he *"no longer
+considered himself a republican."* The second said he did not know what to say
+about a second link.
+
+That matters for two reasons.
+
+**The old label was already gone.** This page treats 2020 as the moment he stopped
+being one thing and became another. He had stopped being the first thing eleven
+years earlier. So 2020 is not the moment he left the right. It is the moment he
+found a name for where he had ended up.
+
+**He leaves things the same way twice.** In 2009 he does not announce a new
+belief. He announces a membership he is giving up, and blames the people in it.
+That is the same shape as the 2022 story on this page, where a comedy fanbase
+turns unpleasant and he is pushed out of it. Being repelled out of a group is not
+something that happened to him once in 2020. It is how he moves.
+
+**What filled the gap in between?** On **7 November 2012**, the morning after the
+election, he wrote out four things he wanted: stop giving public money to
+corporations, limit how long politicians can serve, stop drug raids on marijuana
+sellers, and leave Afghanistan. That is anti-big-business, anti-war and
+anti-establishment — but it is not left-wing in the way the 2020 label is. So the
+books and podcasts of 2020 did not turn a conservative into a socialist. They gave
+a name and a reading list to opinions he had already held for years without one.
+
+### The part that does not flatter him
+
+The 2022 story on this page says the comedy fanbase went right and that people
+like him were pushed left by disgust. The record from the time is less
+comfortable.
+
+Anthony Cumia was fired from his radio job on **3 July 2014** over a series of
+racist posts. **The next day**, Dan publicly thanked him and told him he had not
+sold out. Three months before that, on **25 March 2014**, he had agreed with
+Cumia's argument that minority groups were too quick to have words declared
+slurs.
+
+He was inside that group, and he defended it out loud on its worst day. The break
+took years: by **29 October 2018** he was writing that one of the hosts was
+terrible, and by **18 July 2022** he was telling that host to go fully
+progressive. Eight years, three different positions.
+
+This makes his own account better evidence, not worse. Someone who says a
+community pushed him left, and who was arguing that community's case at the time,
+is describing a change that cost him something. What it rules out is any version
+where he was uneasy about it from the start.
+
 ## The media pipeline
 
 The names Dan credits are a specific ecosystem, often called the "dirtbag left" or "BreadTube." This is a loose network of left-wing podcasts, YouTube channels and streamers.
@@ -169,13 +222,18 @@ The pipeline this story documents — Bernie, then Chapo and Hasan under lockdow
 ## What would prove this wrong
 
 1. **A pre-Bernie socialist statement.** Any documented self-identification as socialist, anti-capitalist, or communist before the 2016 Bernie campaign would mean the "turn" is actually a return.
-2. **A post-conversion reversion.** Evidence that Dan repudiated the left turn after August 22, 2020 — not just frustration with the label, but a genuine ideological reversal.
-3. **Dating the reading list to a different period.** If the Marx/Kropotkin/Communist Manifesto reading is shown to have happened before 2020, the conversion narrative shifts from "COVID lockdown caused it" to "the reading came first."
+2. **Him calling himself a Republican after November 2009.** If any source shows him
+   describing himself that way in the present tense after that date, the 2009 break was
+   a mood and not a break, and the section above is wrong.
+3. **A post-conversion reversion.** Evidence that Dan repudiated the left turn after August 22, 2020 — not just frustration with the label, but a genuine ideological reversal.
+4. **Dating the reading list to a different period.** If the Marx/Kropotkin/Communist Manifesto reading is shown to have happened before 2020, the conversion narrative shifts from "COVID lockdown caused it" to "the reading came first."
 
 ## What we still don't know
 
 - The exact reading dates for the *Communist Manifesto*, *Das Kapital*, and *Conquest of Bread* are only "since I've been stuck inside" (mid-2020) — no precise dates in the record.
-- Pre-2016 political self-identification is thin in the available data; whether Dan was liberal-by-default or apolitical before Bernie is not established.
+- What he actually called himself between 2009 and 2016 is still not known. We now
+  know what he stopped calling himself, and roughly what he wanted in 2012, but not
+  what label — if any — he would have used for himself in those years.
 - Whether the conversion's emotional engine — the family union-busting guilt — was the cause of the turn or the first thing the new framework attached to once it is adopted.
 - Whether the turn kept evolving after 2020 is now partly answered: from 2021 through 2024 his tweets hold at 37–47% political and stop rising, which suggests it settled rather than kept moving. What a steady share cannot tell us is whether his actual *views* stopped changing, or only how often he posts about them.
 - Whether the health grievance — the doctor thing — was a constant that merely found a new ideological home, or whether it intensified as a result of the conversion itself.

@@ -5,7 +5,7 @@ knowledge: earned
 title: "Millennial Digital Witness"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 sources:
   - raw/self/chats/_✧✧ 𝔻𝔸ℕ𝔽ℝ𝔸ℕ𝕂-𝕀𝕊𝕄'𝕊 ✧✧ Pinned chat.md
   - raw/self/gemini-activity/Gemini Activity.html
@@ -35,6 +35,12 @@ connections:
   - page: wiki/mind/profile/big-five-psychometrics
     type: evidenced-by
     claim: "The psychometric fit — archival memory, low social participation, high pattern recognition — is what makes the witness role both persuasive and self-serving."
+  - page: wiki/self/twitter/2016
+    type: evidenced-by
+    claim: "On 21 April 2016 he sent a WTAE reporter first-hand footage of a car chase that went through his yard — the Sandy stringer practice at local scale, four years on and unprompted."
+  - page: wiki/self/twitter/2023
+    type: evidenced-by
+    claim: "The June 2023 OceanGate run is the practice at its most developed: he retrieved an archived 2017 interview and the company's own pre-2020 site to source a story he had no stake in, and it is his second-widest-read cluster ever."
   - page: wiki/mind/synthesis/ai-collaborative-analysis
     type: instantiates
     claim: "The early-adopter-with-memory AI stance is the witness thesis applied to its newest instrument."
@@ -105,6 +111,45 @@ cohort — before the AI-collaboration era begins, the split above collapses
 and the thesis is simply old. The tweet archive as it stands does not
 contain that: 2,525 originals across seventeen years, and this is the
 closest thing in it.
+
+
+## It is a practice, not a noticing (added 2026-09-03)
+
+The section above reads the 2012 Sandy line as a *disposition* — looking at the
+medium instead of the event — and is careful to say it is not yet a theory. Reading
+the Twitter archive year by year on 2026-09-03 shows something the single tweet
+could not: **the behaviour it comes out of is a repeated, unpaid practice with a
+consistent shape, running from 2012 to 2025 at four different scales.**
+
+| Date | What he did | Scale |
+|---|---|---|
+| 29–30 Oct 2012 | Ran a liveblog and posted its URL six times; fed sourced material to the O&A hosts *by name* — the Breezy Point six-alarm fire, the submerged HMS Bounty, NYPD 911 volumes (*"8,362… 4,807 in the queue"*), an MTA official conceding flooding *"worse than their predicted worst case scenario"*; filed first-hand observation (*"Manhattan is straight empty. No cabs. No stores. No people."*) | national event, from inside |
+| 21 Apr 2016 | *"@DKaplanWTAE car chase in uniontown went through my yard. Here's the hill where he went airborne"* — a tip with footage, to a named television reporter | local event, first-hand |
+| 29 Mar 2023 | Compared CCTV against bodycam footage and published a negative with its error bars — his most-read tweet ever | national event, remote, evidentiary |
+| 21 Jun 2023 | Retrieved an archived 2017 interview and OceanGate's own site as it stood before going offline in 2020, and published the receipts | national event, remote, archival |
+| 1 Feb 2025 | Timed the gap in national coverage of the Philadelphia medevac crash across three posts in five hours — *"Update: 3 hours later and still nothing"* | media-behaviour monitoring, the practice at its smallest |
+
+**What this adds to the split the section above makes.** The honest statement was
+*the noticing is old and first-party; the theory is recent and AI-assisted*. That
+still holds. But the noticing is not a remark he happened to make in 2012 — it is a
+sentence written by someone who had spent two days doing amateur newsgathering and
+was describing his own activity. **He noticed that a disaster was being experienced
+through user-generated content because he was one of the people generating it.**
+
+That strengthens the page's position against the deflationary reading and narrows it
+at the same time. The disposition is not *observing* media saturation from outside;
+it is **participating in it and then reporting on the participation** — which is a
+more specific and more testable claim than the Node 6 thesis makes, and one this
+corpus can check at five dated points rather than one.
+
+> **A falsifier for this section specifically.** If the 2012 liveblog turns out to
+> have been a link to somebody else's blog rather than his own, the Sandy row
+> collapses to a re-share and the practice starts in 2016 instead. The URL is
+> shortened and dead in the archive; the surrounding language (*"#sandy liveblog
+> updated. pics/gifs/nyc news"*, *"Deteriorating conditions and all kinds of bad
+> shit"*, posted as status updates rather than recommendations) reads as his own,
+> and *"I blogged about a world without internet"* on 28 August 2012 establishes he
+> had a blog that year — but neither is proof.
 
 
 ## The theory

@@ -1,6 +1,7 @@
 ---
 domain: self
 page_type: period
+toc: false
 status: stable
 date_created: 2026-09-02
 date_modified: 2026-09-02
@@ -28,6 +29,70 @@ connections:
 
 Periscope NYE bedroom DJ sets on day one, then a thin year of asides. Public posting is a valve, not a diary; the real record of 2016 is elsewhere in the corpus.
 
+## Narrative
+
+**A thin year on the account and a busy one in life — which is itself the
+finding.** Seventy-six originals, and almost none of them about the things the
+rest of the corpus says were happening. Public posting in 2016 is a valve, not a
+diary.
+
+**The tweet this page exists to hold is 7 February.** ***"Had lit times playing
+@ulmdub birthday party last night at OSU"*** (19:34 UTC). For months
+[[wiki/interests/music/overview]] could not tell whether
+`raw/self/dox-scan/FULL TWITTER ANALYSIS.txt` had invented that line or whether
+the archive's 2016 was incomplete, and leaned — wrongly — toward the first. The
+backend fetch of 2026-09-02 returned the tweet and that page has since recorded
+the correction in full. What this page adds is a second, independent reason to
+believe the diagnosis: **the operator spreadsheet's 2014–2024 rows sit at a mean
+position-in-month of 0.492 against 0.500 for a uniform draw**, so the spreadsheet
+is not query-shaped the way the pre-2014 scrape is. Its failure on this row was
+not systematic under-sampling; it simply does not have every row. That is a
+weaker and more awkward defect than a measurable bias, because there is no
+statistic that will tell you where the next missing one is.
+
+**The year opens and closes on broadcast.** Two Periscope streams at 00:45 and
+00:49 UTC on 1 January — *"NYE bedroom DJ set"* — then a third on 20 January from
+a Pittsburgh snowstorm. After the DJ streams stop, the same instinct reappears
+pointed at news: on **21 April**, *"@DKaplanWTAE car chase in uniontown went
+through my yard. Here's the hill where he went airborne"* — a first-hand tip,
+with footage, to a television reporter. That is the Sandy 2012 behaviour at local
+scale, and it recurs at national scale in 2023.
+[[wiki/mind/synthesis/millennial-digital-witness]] should carry all three.
+
+**Golf becomes real.** *"Nine iron"* (1 March), a WGT Golf clip from a virtual
+Congressional (10 June), and then the actual thing: **he attended the 2016 U.S.
+Open at Oakmont**, posting from the course across 13–16 June including the rain
+delay — *"Oakmont rough like backyard of a foreclosure house"*, *"Oakmont greens
+on some god-mode shit"*, *"We out here @ 2016 U.S. Open Golf Championship"*. See
+[[wiki/interests/golf]] and [[wiki/interests/concert-record/index]] for the
+attended-event record.
+
+**Instruments arrive by inheritance, not purchase.** On 6 March: *"I just
+found/inherited an alto sax, clarinet and mandolin. The amount of time I'm gonna
+spend becoming mediocre at them will be crzy"*, and the next day *"Got a small
+fortune in poorly maintained instruments here"*. Ten years later the 2025 record
+has him teaching himself piano. The pattern is consistent and worth naming: he
+acquires instruments and teaches himself, and he says in advance that he expects
+to be mediocre.
+
+**And 2016 is not apolitical, which matters for the counts.** He is against
+Trump (*"Voting for trump is like not getting car u want and instead driving ur
+own car into a wall with ur family & country in it"*, 19 October), against the
+Democratic convention's staging (*"The crowd signs at DNC are weirding me the
+fuck out"*, 26 July), and against the general condition (*"Disgusting that
+compromised values are the norm"*). Any political-share figure for 2016 computed
+from a fixed keyword list will under-report this year badly, because none of
+those four posts uses a term a 2020s political vocabulary would look for.
+
+Employment leaves one trace: *"I think the people at my job training are hired
+actors carrying out an elaborate and gloriously stupid performance art piece"*
+(24 February).
+
+> **A strand of this year is not narrated here**, for the same reason as 2015 and
+> on the same terms: the standing directive in `CLAUDE.md`. The transcript is
+> unchanged and nothing has been removed; the narrative simply does not build on
+> it.
+
 ## Coverage
 
 | | |
@@ -37,9 +102,9 @@ Periscope NYE bedroom DJ sets on day one, then a thin year of asides. Public pos
 | From live X scrape | 0 |
 | Pure reposts | omitted by rule (no @danfrank quote text) |
 
-This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
+## Transcript
 
-## January
+This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
 ### 2016-01-01 00:45:30 UTC · [682724294359695361](https://x.com/danfrank/status/682724294359695361)
 *likes 0 · replies 0 · reposts 0*

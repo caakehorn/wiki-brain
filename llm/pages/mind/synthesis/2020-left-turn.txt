@@ -4,7 +4,7 @@ page_type: synthesis
 status: stable
 knowledge: earned
 date_created: 2026-07-16
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 sources:
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/dox-scan/Dan Profile.txt"
@@ -55,6 +55,15 @@ connections:
   - page: wiki/people/ryan-scherich
     type: co-occurs
     claim: "A Feb 8, 2020 political flame war — five days after the documented Iowa-caucus Bernie evangelism — is a real, contemporaneous conflict from inside the pre-COVID window, not just Dan's own outward messaging."
+  - page: wiki/self/twitter/2009
+    type: caused-by
+    claim: "The Republican identity this page treats as the pre-conversion baseline was already renounced on 28 November 2009 — 'people like this are why i no longer consider myself a republican' — eleven years before the conversion date, and as an exit from a tribe rather than an arrival at one."
+  - page: wiki/self/twitter/2012
+    type: evidenced-by
+    claim: "A four-item platform posted 7 November 2012 — end corporate welfare, congressional term limits, stop DEA raids on marijuana vendors, leave Afghanistan — shows the substrate the 2020 conversion landed on was populist and anti-institutional rather than liberal."
+  - page: wiki/self/twitter/2014
+    type: contradicts
+    claim: "On 4 July 2014, one day after Anthony Cumia's firing, Dan publicly thanked him for 'not selling your soul through this whole mess'; the 2022 repulsion account is true as a departure and silent about the fact that he was inside the tribe defending it."
   - page: wiki/health/the-configured-body
     type: caused-by
     claim: "The material grievance under the ideology is on the record six months before this page's 2020-08-22 conversion date and is never quoted here: 'imagine being able to just go to the doctor or dentist when you need' and 'the doctor thing is a really big thing for me...there's no reason that 50,000 people die a year because they don't have insurance' (2020-02-07)."
@@ -219,6 +228,87 @@ originals. The most causally explicit thing Dan ever said in public about his
 own radicalization survives as its first third. The official X export would
 recover the rest; see [[wiki/self/twitter]] for the two other reasons that
 export is now wanted.
+
+## A third account, from the account itself: the exit is 2009
+
+The Twitter archive was read year by year on 2026-09-03, and it puts a date on
+the *first* half of the story eleven years before this page's conversion and five
+before the tribe it describes turned right.
+
+On **28 November 2009**, from Pennsylvania over Thanksgiving weekend, aged 21, he
+posted two links back to back:
+
+> *"people like this are why i no longer consider myself a republican...
+> wowwwwwwwww"* — 2009-11-28 05:23 UTC
+>
+> *"...oh and then there's this. i'm just not even sure what to say..."* —
+> 2009-11-28 05:27 UTC
+
+**This is not a small correction to the page's chronology; it changes what kind of
+event the conversion was.** Two things follow.
+
+**1. The pre-conversion identity was already gone, and it went the same way the
+2022 account describes.** [[wiki/people/joe-oshnack]] supplies Dan's own
+retrospective of himself as *"an annoying little conservative fuckcunt"*; this
+page treats that as the baseline the 2020 turn moved him off. It was not the
+baseline in 2020 — it had lapsed in 2009. And the *form* of the 2009 exit is the
+form of the 2022 one: he does not announce a new position, he announces a
+membership he is giving up, and the cause he names is other people (*"people like
+this"*) rather than an argument. **Repulsion-driven exit is not the mechanism of
+2020; it is his standing mechanism, running twice, eleven years apart.**
+
+**2. The vacancy was open for a decade and the 2012 record shows what was in it.**
+On the morning after the 2012 election, he wrote a platform in four clauses:
+
+> *"Let's do this Barry: end corporate welfare. establish congressional term
+> limits. stop DEA raids of marijuana vendors. GTFO afghanistan etc"* —
+> 2012-11-07 08:07 UTC
+
+Anti-corporate, anti-incumbency, anti-drug-war, anti-war — and the day before,
+affection for Obama with the knife left in: *"LOVE THIS GUY (except those pesky
+drone strikes)"*. That is **populist, not liberal and not yet left**, and it is
+the substrate the 2020 ideology was applied to. The lockdown reading did not
+convert a conservative; it gave a name and a canon to a set of anti-institutional
+commitments that had been held without one since at least 2012.
+
+> **The counter-evidence, and this page should carry it rather than route around
+> it.** The 2022 account above says the fanbase followed Cumia right and *"we were
+> radicalized to leftist politics"*. On **4 July 2014**, one day after Cumia was
+> fired by SiriusXM over a series of racist tweets, Dan posted:
+>
+> > *"@AnthonyCumia nothing but love and respect ant. Thanks for not selling your
+> > soul through this whole mess"*
+>
+> And on **25 March 2014**: *"@AnthonyCumia brilliant point re 'tranny' outrage.
+> Minority groups feel entitled to have at least 1 term ruled a slur, offensive or
+> otherwise"*.
+>
+> **He was in the tribe, and he defended it on the day.** The repulsion is real —
+> by 29 October 2018 the account reads *"opie sucks though"*, and by July 2022 he
+> is pitching Opie on going *"full progressive"* — but it took four years and it
+> started from the inside. Any version of the 2022 story in which he was an
+> uncomfortable bystander watching the fanbase go right is contradicted by his own
+> timestamps. The honest form of the claim is that **he left a tribe he had
+> belonged to and argued for**, which is a costlier and more interesting event
+> than the one the tweet describes.
+
+**What this does to the page's thesis: sharpens it, does not overturn it.** The
+2020-08-22 date still marks when an ideology with a name, a canon and a
+self-description arrived. What it no longer marks is when he stopped being a
+Republican (2009), when he acquired anti-corporate and anti-war commitments
+(2012 at the latest), or when he began leaving the media tribe he came up in
+(between 2014 and 2018). **The conversion is the last step of a twenty-year
+sequence, not the whole of it**, and the political-share series this page reads
+from the archive measures the arrival of a *vocabulary* at least as much as the
+arrival of a politics — which is exactly the failure mode
+`skills/corpus/vocabulary-drift.md` warns about, running in the direction that
+flatters the thesis.
+
+> **A falsifier.** If a pre-2020 source shows Dan describing himself as a
+> Republican, a conservative or a Trump-curious moderate *after* 28 November 2009
+> in his own present tense, the 2009 exit is a mood rather than a break and this
+> section is wrong. The Oshnack retrospective is not that source: it is a 2021
+> account of an earlier self with no date attached.
 
 ## The media pipeline (dirtbag left / BreadTube)
 

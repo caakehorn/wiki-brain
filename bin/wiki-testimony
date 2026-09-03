@@ -151,6 +151,14 @@ CLAIM_CLASSES = {
     "enumeration": "a list presented as covering some set",
     "location":    "where somebody or something physically was",
     "behavior":    "his own habitual or aggregate conduct — 'I always', 'I never'",
+    # Added 2026-09-03. A forecast is not a memory claim and does not fail like
+    # one: nothing is being recalled, so compression, conflation and
+    # transposition cannot apply, and the error is in the model rather than in
+    # the recall. It is kept as its own class for the reason the comment above
+    # gives — the error profile follows the proposition — and because the
+    # Twitter archive supplies dozens of them with public, dated resolutions,
+    # which makes it the first class here with any prospect of reaching MIN_N.
+    "forecast":    "what will happen — a claim about a future state of the world",
 }
 
 # FAILURE MODES are the "how". Recorded only on a claim that did not come back
@@ -206,6 +214,12 @@ CHANNELS = {
     "platform_self_report": "a field he filled in on a platform — profile, bio, form",
     "inline":               "quoted on a wiki page as his account, sourced to raw/",
     "message":              "asserted in a message to somebody at the time",
+    # Added 2026-09-03. A public post is not a message and not a profile field:
+    # it was written for an audience, timestamped by the platform, and cannot be
+    # revised after the fact without leaving a trace. That makes it the strongest
+    # channel here for a claim's *stated confidence*, which is the one field no
+    # later archaeology can recover.
+    "post":                 "published on a public platform under his own handle at the time",
 }
 
 OUTCOMES = {

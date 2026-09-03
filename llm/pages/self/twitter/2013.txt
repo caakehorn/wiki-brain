@@ -1,6 +1,7 @@
 ---
 domain: self
 page_type: period
+toc: false
 status: stable
 date_created: 2026-09-02
 date_modified: 2026-09-02
@@ -28,6 +29,71 @@ connections:
 
 The year the operator spreadsheet becomes the spine. From mid-August the page is complete for originals: SLOPPP/MOGZART trap and moombahon mixes on SoundCloud, Instagram lookouts, 8tracks, and the Vanessa Frank needling that is already family voice. Pre-August 17 is still being scraped and is only a few mid-August days so far.
 
+## Narrative
+
+**The year SLOPPP happens, and the year the archive stops being a scrape and
+becomes a record.** From 17 August the operator spreadsheet takes over and the
+page is complete for originals; everything before 13 August is capped scrape and
+must not be read as volume.
+
+**The music is the year.** Between August and December he posts roughly forty
+distinct mixes and original tracks under the alias `sloppp` — THE TALK IT OUT
+MIX, THE FISH IN THE SEA MIX, FULL RATCHET JACKET, THE CHURCH OF MANNIE FRESH,
+JESSE PINKMAN'S ROADTRIP YO, SOUNDTRACK TO A STRUGGLE, THE LOW-END MIX, RACK TO
+THE FUTURE, A BRIEF HISTORY OF TIME AND BASS, the two-part YEARMIX 2013, and
+originals including *All Done*, *Blazin*, *Swisher*, *Snailed It*, *Backwards*
+and *Betty Draper*. See [[wiki/interests/music/aliases/sloppp]].
+
+**And it has an audience number, which the wiki has never had.** On 10 November:
+*"just topped 7k plays on soundcloud"*, with the immediate self-deprecation
+*"thanks to @alexisarmel for something like 6,000 of those"*. On 8 December:
+*"almost to 10k plays. big thanks to the amazing producers & remixers who made
+this year so dope."* Roughly 3,000 plays in twenty-eight days at the peak. That
+is small, and it is real, and it is the only quantified reach the project ever
+reports.
+
+**The one place he asks to be corrected.** On 15 August, to @Yamez1, a DJ peer:
+*"listen to this for me? I wanna hear what you think I need to improve"*. Across
+seventeen years of this account, soliciting craft criticism happens here and
+almost nowhere else. On 10 November he reports the gear upgrade to the same
+person — *"grabbed this new ns7 with motor platters and I'm f00kin amazed I ever
+lived on cheap plastic"*.
+
+**A relationship interruption, datable to the fortnight.** On 9 August: *"I guess
+I tweet more when I'm single?"* On 7 September: *"All smilez with a mysteriously
+amazing young girl"*, *"My better 1/2."*, and *"Mystery girl and everything's
+okay now"*; on 8 September her name is in a caption. So the record shows a
+separation in place by 9 August and a reconciliation by 7 September — about four
+weeks — inside a relationship [[wiki/people/alexis-armel]] otherwise treats as
+continuous.
+
+**Two thirteen-year-old seeds.** On **19 February** he posts two Codecademy
+badges four hours apart — *"50 points earned in one day"*, then *"75 points
+earned in one day"*. That is the first dated evidence in the corpus of him
+teaching himself to program, and it sits thirteen years before the AI tooling
+work of 2026. And on **12 February**, the day after Benedict XVI's resignation
+was announced: ***"PREDICTION: expect the church to use popegate as marketing
+opportunity and rebrand catholicism with younger, more relatable pope"***.
+Francis was elected on 13 March and was received almost exactly that way. Twenty-
+nine days, explicitly labelled a prediction, and correct.
+
+**The Boston bombing shows the witness instinct becoming self-aware.** He shares
+a piece on *"social media coverage during Boston bombing and the new role of
+journalists"* (21 April), mocks the day's conspiracy (*"conspiracy du jour:
+americans under attack from vicious stoners"*), and reads the Tsarnaev coverage
+critically. Then in August he does the same for something he saw himself: he was
+at the Chappelle Hartford show on 29 August (*"I was at last night's show and he
+had incredible material on it"*), and on 2 September checks his read against the
+press — *"The Post-Gazette called the Chappelle performance 'fascinating'.
+Validated."* Forming a view, then going to find out whether it held, is the
+habit this whole wiki tries to institutionalise.
+
+**Two identifications this page can now make.** A 24 August Vine caption gives
+@katie_efff a name — Katie Fletcher. And on 19 November: *"Super excited for my
+disgustingly hip cousin @franknarcissist writing his first cover story for
+@thefader this month"* — a first-degree relative with a music-journalism byline,
+who appears nowhere else in the corpus.
+
 ## Coverage
 
 | | |
@@ -39,11 +105,25 @@ The year the operator spreadsheet becomes the spine. From mid-August the page is
 
 ## Gaps
 
-Spreadsheet originals are complete from 2013-08-17 through year-end. January through 2013-08-13 is still being scraped and appended in live batches of ten.
+**This year is half scrape and half spreadsheet, and the halves are not comparable.**
+Operator-spreadsheet originals begin **2013-08-17** and are complete from there
+through year-end. Everything before 13 August came from capped search.
+
+Monthly counts: 4, 29, 6, 20, 10, 10, 11, 107, 71, 30, 28, 20. The August jump from
+11 to 107 is the source changing over, not a change in behaviour, and January (4)
+and March (6) are the thinnest-covered months in the archive between 2009 and 2014.
+
+> **The shape of this defect, stated once and referenced from every affected
+> page.** The pre-August-2013 rows were retrieved by search backends capped at ten
+> results per query, and a capped query does not sample a month — it returns the
+> month's *end*. Mean position-in-month is **0.838** for the 2009 backfill and
+> **0.681** for the 2010–2013 scrape, against **0.500** for a uniform draw and
+> **0.492** for the operator spreadsheet's own 2014–2024 rows. Monthly counts here
+> are therefore near-multiples of ten because they record how many queries were
+> run. Full account on [[wiki/self/twitter]].
+## Transcript
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
-
-## January
 
 ### 2013-01-15 05:10:36 UTC · [291049725283676160](https://x.com/danfrank/status/291049725283676160)
 *likes 0 · replies 0 · reposts 0*
