@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,534 events** across **80 years** (1796–2027), drawn from **384 pages**. Tier 1 694 · Tier 2 428 · Tier 3 2,412.
+**3,538 events** across **80 years** (1796–2027), drawn from **384 pages**. Tier 1 695 · Tier 2 429 · Tier 3 2,414.
 
 ## What counts as an event here
 
@@ -959,11 +959,13 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **August 2009** — full sail 2008 2010** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomorrow"*, which puts the final month in September. And across November and…  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **August 2009** — full sail 2008 2010 — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
 - · **August 2009** — t013 — date — certain — refuted  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2009-08-31** — On **31 August 2009** he writes *"so weirded out i start my last month of college tomorrow. having multiple reality checks."* — which places the final month in **September**, not August.  
   ↳ [[wiki/self/twitter/2009]] · School ends, and the record says it ends later than the wiki does
+- · **September 2009** — And the shape of the early years is the archive, not the man.** 2009 through 2013 were assembled from a live scrape capped at ten results per month-bounded query, so January–September 2009 and much of 2010–2012 survive as clusters on the last days of each month; 2013's apparent mid-August explosion…  
+  ↳ [[wiki/self/twitter]] · The blackouts, and why the volume curve cannot be read as a life curve
 - · **October 2009** — Defining event  
   ↳ [[wiki/people/stephanie-nalbone]] · Corpus record
 - · **2009-10-06** — On **October 6, 2009**, writing to Stephanie Nalbone from Florida at eleven in the morning, Dan is watching *Pan's Labyrinth* instead of mixing tracks and reports that he is "trying to not imagine zach clingan as the creepy faun. they both lie about shit, so there's a literal connection too heh?…  
@@ -1040,7 +1042,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2010-01-03** — one is timestamped by the platform and one was typed into a profile  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **2010-01-03** — facebook — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 12 pages
 - · **2010-01-03** — t002 — date, location — certain — refuted — The tweet archive has him in Florida for another eight weeks: 'moving to brooklyn in 9 days' (20 Feb 2010), 'last day in errrlando' (27th), 'peace out, florida. it's been real.' (28th)  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2010-01-03** — Places lived  
@@ -1738,7 +1740,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2014-05-07** — Drake x Cashmere Cat – No Lie ft. 2 Chainz (SLOPPP Bootleg) — Bootleg  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **2014-05-13** — sloppp — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 12 pages
 - · **2014-05-14** — Heatwave Vol. 1** — "1 hour of tweriffik plurntastic tracks" — **Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
 - · **2014-05-22** — SLOPPP Trap Micromix — Mix  
@@ -1750,7 +1752,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2014-07-03** — Anthony Cumia was fired by SiriusXM on **3 July 2014**, after posting a series of racist messages about a Black woman who had struck him in Times Square.  
   ↳ [[wiki/self/twitter/2014]] · 4 July 2014, and a correction to the corpus's own account
 - · **2014-07-03** — opie and anthony — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
 - ★ **2014-07-04** — The contemporaneous record shows he was not among the repulsed at the time: on **4 July 2014**, one day after Cumia was fired over racist posts, Dan tweeted at him *"nothing but love and respect ant.  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · The O&A cause is real but its date is not 2014
 - · **2014-07-04** — t015 — Dan was among the O&A fans repulsed by the racism at the time of the 2014 split, and that repulsion radicalized him to leftist politics. — self_state, sequence — confident — partial  
@@ -1840,6 +1842,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **Spring 2015** — On March 15–16, 2015, **Frank Swaney** — a Pittsburgh-scene promoter who says he'd run a nine-DJ roster for his own production company and taught at "Spawn Academy in Portland Oregon" — hears the *Spring 2015 Demo* (shared via SoundCloud, initially broken because Dan had left it set to private) and…  
   ↳ [[wiki/interests/music/aliases/sloppp]] · The near-management deal (March 2015)
+- ★ **2015-07-16** — five months** — the possession arrest, the four-month secret housing arrangement, and the year's central rupture  
+  ↳ [[wiki/self/twitter]] · The blackouts, and why the volume curve cannot be read as a life curve
 - · **August 2015** — Lukyan Mraz is a Uniontown friend, connected to the same household as Zach Harshman, whose short Facebook Messenger thread (36 messages, August 2015 – March 2016) documents a brief cannabis-cultivation collaboration that ends, seven months later, in a tense dispute over borrowed equipment.  
   ↳ [[wiki/people/lukyan-mraz]] · Lukyan Mraz
 - · **August 2015** — In August 2015 Lukyan lends Dan what the two describe, half in code, as "a book... on lap quilting" — a growing guide, given the context: Dan calls it "super helpful" and "all you need to know in one place," Lukyan jokes it's "been in my family for generations... groovy," and the exchange turns…  
@@ -3075,7 +3079,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **May 2017** — Twice Dan evidently weighed what he'd bought and found it light, and twice Vaughn retreated to the same defense: "What did it weight because he said it was 3.5… that's my best friend I got it from and I know he wouldn't do it on purpose" (May 2017), and "I swear I watched him weigh it" against a…  
   ↳ [[wiki/people/vaughn]] · The yard and the hustle, one channel
 - · **May 2017** — eric jester — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 12 pages
 - · **May 2017** — Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two Nemacolin caddying seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a fellow caddie in 2017 who came back for 2018 as **assistant caddie master** — "I'm actually gonna be assistant caddie…  
   ↳ [[wiki/people/davey-fitzpatrick]] · Davey Fitzpatrick
 - · **May 2017** — Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose message thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — sparse check-ins that resurface every year or two, each one picking back up exactly where the last left…  
@@ -6536,7 +6540,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-14** — Dan does not hear or process sung lyrics as language in real time — he stated this directly (2026-07-14): words in a song register to him essentially as **timbre**, another textural element of the vocal performance, not as semantic content to be parsed and understood the way lyrics function for…  
   ↳ [[wiki/interests/music/concepts/lyrics-as-timbre]] · Lyrics as Timbre
 - · **2026-07-14** — vanessa frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 12 pages
 - · **2026-07-14** — au zaatar — work  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-07-14** — t009 — enumeration — hedged — partial — The tweet archive holds two pieces the list did not: the letter 'A' for Alexis, tattooed 23 January 2010 and eight years earlier than anything on the list, and a Morrissey piece dated by 24 October 2019.  
@@ -6602,7 +6606,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -6796,7 +6800,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-02** — For context injection:** July 26 – August 2, 2026. 1,880 messages, 969 from Dan, 911 from Annie.  
   ↳ [[wiki/timeline/events/july-august-2026-reentanglement]] · LLM Quick Brief
 - ★ **2026-08-03** — 2015 possession arrest — legal  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
 - ★ **2026-08-03** — 2015 retail theft arrest — legal  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-22 — 4 pages
 - · **2026-08-07** — Sexual contact resumes, per operator testimony  
@@ -7202,7 +7206,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
 - · **2026-08-23** — overview — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
 - · **2026-08-23** — closing the set — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-23** — annie ulmer personality assessment — people  
@@ -7274,7 +7278,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — chemical architecture — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
 - · **2026-08-28** — cocaine — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 4 pages
 - · **2026-08-28** — alias as periodization — mind  
@@ -7353,16 +7357,18 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/closing-the-set]] · The controls
 - ★ **2026-09-02** — What changed on 2026-09-02 is that it is no longer the same thing as having no primary source: 764 dated public originals cover these three years, and the page now rests on them for the move, the two apartments, the Williamsburg geography and the ishlab start.  
   ↳ [[wiki/timeline/periods/2010s]] · Transition
+- ◆ **2026-09-02** — From 2014 the export is the backbone and absence is good evidence — but not conclusive, because the export demonstrably dropped at least one 2016 row (the OSU gig tweet, recovered 2026-09-02).  
+  ↳ [[wiki/self/twitter]] · The blackouts, and why the volume curve cannot be read as a life curve
 - · **2026-09-02** — The git log read as a record of *operations* rather than saves  
   ↳ [[wiki/meta/instruments/index]] · The measures
 - · **2026-09-02** — 2020 left turn — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
 - · **2026-09-02** — failure to launch — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
 - · **2026-09-02** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
 - · **2026-09-02** — location history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
 - · **2026-09-02** — chatgpt — self  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-09-02** — He had no page here until 2026-09-02, and he is not named anywhere else in the corpus: no message thread, no Facebook exchange, no appearance on another person's page.  
@@ -7377,6 +7383,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter/2016]] · The gig that was thought to be invented
 - · **2026-09-02** — The `@danfrank` Twitter account was recovered thirteen months further back on 2026-09-02 (2008), and it opens on **24 September 2008**, the day Dan arrives in Winter Park.  
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The period's exit, in his own words, on the day it happened
+- · **2026-09-03** — Reading all nineteen years in full (2026-09-03) sharpens that into something a reader must know before using any of these pages, because the naive reading of the volume curve is not merely imprecise — it is **inverted**.  
+  ↳ [[wiki/self/twitter]] · The blackouts, and why the volume curve cannot be read as a life curve
 - ★ **2026-12-19** — P4 — **No third party ends this relationship.** Any severance that holds past 120 days will be traceable to a self-generated move, not an intervention — a documented outside intervention followed by a severance holding >120 days  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Predictions and falsifiers
 - ★ **2026-12-19** — A severance holding past **2026-12-19** with no external agent involved confirms Part I and P4 together.  
@@ -7391,4 +7399,4 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 384 wiki pages. 1,045 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 384 wiki pages. 1,049 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*

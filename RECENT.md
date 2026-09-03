@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-03 — 37 pages
+## 2026-09-03 — 41 pages
 
 - **Session log:** lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
 - **Session log:** ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
@@ -20,6 +20,7 @@ simply listed.
 - **Session log:** ingest | self | 2015 and 2016 read in full — the music operation stops, the account goes dark for five months, and 2016 is a step away from the left turn
 - **Session log:** ingest | self | 2017-2019 read in full — the left turn is a conversion from liberalism, and the pipeline starts in 2017 as comedy
 - **Session log:** ingest | self | 2020 and 2021 read in full — the public declaration, an analysis that precedes the label, and a date corrected by five months
+- **Session log:** ingest | self | 2022 and 2023 read in full — he names Balloon Boy himself, and the method's bill comes due in public
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -42,6 +43,7 @@ simply listed.
 | [[wiki/people/josh-brannan]] | people | — |
 | [[wiki/places/424-bedford-ave]] | places | — |
 | [[wiki/self/location-history]] | self | _(carries a CONTRADICTION from 2026-09-02)_ |
+| [[wiki/self/twitter]] | self | _(carries a CONTRADICTION)_ |
 | [[wiki/self/twitter/2008]] | self | **GAP CLOSED** — this section previously read *"the account's creation datetime was not retrievable"*, and gave 24 September 2008 as an inference from the earliest surviving tweet. Dan settled it himself in 2010, twic |
 | [[wiki/self/twitter/2009]] | self | **CONTRADICTION** — `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and `wiki/timeline/periods/full-sail-2008-2010` and `wiki/people/alexis-armel` both build on |
 | [[wiki/self/twitter/2010]] | self | **CONTRADICTION** — the anchor is misread. The 18 February train was the **return** leg, not the outbound one. On 17 February Dan is already in New York (*"off to Williamsburg"*), and on the 18th he is *"On the train bac |
@@ -58,10 +60,13 @@ simply listed.
 | [[wiki/self/twitter/2021]] | self | — |
 | [[wiki/self/twitter/2022]] | self | — |
 | [[wiki/self/twitter/2023]] | self | — |
+| [[wiki/self/twitter/2024]] | self | — |
+| [[wiki/self/twitter/2025]] | self | — |
+| [[wiki/self/twitter/2026]] | self | — |
 | [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | **CONTRADICTION** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomo |
 
-## 2026-09-02 — 16 pages
+## 2026-09-02 — 12 pages
 
 - **Session log:** build | meta | the instrument layer gets a section, and the reason it needs one
 - **Session log:** adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
@@ -98,10 +103,6 @@ simply listed.
 | [[wiki/self/facebook]] | self | **CONTRADICTION** — This paragraph used to say *every* field cross-checks. One does not. `places lived` gives **Brooklyn NYC from January 3, 2010**. The tweet archive has Dan in Florida for another eight weeks: *"moving  |
 | [[wiki/self/index]] | self | — |
 | [[wiki/self/tattoos]] | self | **CORRECTED** — this page previously read "**entirely** cultural reference … *every* known piece points at a specific record, band, or artist rather than a generic symbol," and dated the earliest well-documented piec |
-| [[wiki/self/twitter]] | self | _(carries a CONTRADICTION)_ |
-| [[wiki/self/twitter/2024]] | self | — |
-| [[wiki/self/twitter/2025]] | self | — |
-| [[wiki/self/twitter/2026]] | self | — |
 | [[wiki/timeline/periods/2010s]] | timeline | **GAP CLOSED** — the gap, as this page stated it — *"the exact 2010 move date is unresolved (context-core's residence table starts Brooklyn in April 2010, while an earlier note claimed a January 3 move — the Florida t |
 | [[wiki/work/tech/index]] | work | — |
 

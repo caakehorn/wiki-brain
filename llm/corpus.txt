@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-03
-497 pages, ~1,812,398 tokens.
+497 pages, ~1,817,577 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10317,7 +10317,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-03** — 37 pages
+**2026-09-03** — 41 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
   - ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
   - ingest | self | 2010 read in full — the corpus's most-cited date was computed from a train going the wrong way, and it survives anyway
@@ -10328,8 +10328,9 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | self | 2015 and 2016 read in full — the music operation stops, the account goes dark for five months, and 2016 is a step away from the left turn
   - ingest | self | 2017-2019 read in full — the left turn is a conversion from liberalism, and the pipeline starts in 2017 as comedy
   - ingest | self | 2020 and 2021 read in full — the public declaration, an analysis that precedes the label, and a date corrected by five months
+  - ingest | self | 2022 and 2023 read in full — he names Balloon Boy himself, and the method's bill comes due in public
 
-**2026-09-02** — 16 pages
+**2026-09-02** — 12 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result
@@ -11791,8 +11792,8 @@ chart:
     - name: "Entries"
       points:
         "Translated": 28
-        "Major lane": 41
-        "Free lane": 39
+        "Major lane": 42
+        "Free lane": 38
         "Held (people)": 94
         "Too thin": 49
         "Withheld": 217
@@ -11832,8 +11833,8 @@ is arithmetic in `bin/wiki-plain`: 900 words is the boundary.
 
 | Lane | What is in it | Outstanding |
 |---|---|---|
-| `major` | entries of 900 words or more — the dense findings | 41 |
-| `free` | entries under 900 words, worked smallest first | 39 |
+| `major` | entries of 900 words or more — the dense findings | 42 |
+| `free` | entries under 900 words, worked smallest first | 38 |
 
 A further **94** eligible entries about other people are in
 neither lane. They are held back deliberately, pending a decision about
@@ -11884,15 +11885,15 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 
 ## Next up
 
-**major** — 41 outstanding
+**major** — 42 outstanding
 
 - [[wiki/self/twitter/2010]] (11448 words)
+- [[wiki/self/twitter/2024]] (11444 words)
 - [[wiki/self/twitter/2013]] (11199 words)
-- [[wiki/self/twitter/2024]] (10376 words)
 - [[wiki/self/twitter/2009]] (9344 words)
 - [[wiki/self/twitter/2022]] (8218 words)
 
-**free** — 39 outstanding
+**free** — 38 outstanding
 
 - [[wiki/work/caviar-courier]] (301 words)
 - [[wiki/interests/favorites/books/authors/adrian-goldsworthy]] (315 words)
@@ -11934,7 +11935,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-03 — 37 pages
+## 2026-09-03 — 41 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11957,6 +11958,7 @@ simply listed.
 | [[wiki/people/josh-brannan]] | people | — |
 | [[wiki/places/424-bedford-ave]] | places | — |
 | [[wiki/self/location-history]] | self | _(carries a CONTRADICTION from 2026-09-02)_ |
+| [[wiki/self/twitter]] | self | _(carries a CONTRADICTION)_ |
 | [[wiki/self/twitter/2008]] | self | **GAP CLOSED** — this section previously read *"the account's creation datetime was not retrievable"*, and gave 24 September 2008 as an inference from the earliest surviving tweet. Dan settled it himself in 2010, twic |
 | [[wiki/self/twitter/2009]] | self | **CONTRADICTION** — `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and `wiki/timeline/periods/full-sail-2008-2010` and `wiki/people/alexis-armel` both build on |
 | [[wiki/self/twitter/2010]] | self | **CONTRADICTION** — the anchor is misread. The 18 February train was the **return** leg, not the outbound one. On 17 February Dan is already in New York (*"off to Williamsburg"*), and on the 18th he is *"On the train bac |
@@ -11973,10 +11975,13 @@ simply listed.
 | [[wiki/self/twitter/2021]] | self | — |
 | [[wiki/self/twitter/2022]] | self | — |
 | [[wiki/self/twitter/2023]] | self | — |
+| [[wiki/self/twitter/2024]] | self | — |
+| [[wiki/self/twitter/2025]] | self | — |
+| [[wiki/self/twitter/2026]] | self | — |
 | [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | **CONTRADICTION** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomo |
 
-## 2026-09-02 — 16 pages
+## 2026-09-02 — 12 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11990,10 +11995,6 @@ simply listed.
 | [[wiki/self/facebook]] | self | **CONTRADICTION** — This paragraph used to say *every* field cross-checks. One does not. `places lived` gives **Brooklyn NYC from January 3, 2010**. The tweet archive has Dan in Florida for another eight weeks: *"moving  |
 | [[wiki/self/index]] | self | — |
 | [[wiki/self/tattoos]] | self | **CORRECTED** — this page previously read "**entirely** cultural reference … *every* known piece points at a specific record, band, or artist rather than a generic symbol," and dated the earliest well-documented piec |
-| [[wiki/self/twitter]] | self | _(carries a CONTRADICTION)_ |
-| [[wiki/self/twitter/2024]] | self | — |
-| [[wiki/self/twitter/2025]] | self | — |
-| [[wiki/self/twitter/2026]] | self | — |
 | [[wiki/timeline/periods/2010s]] | timeline | **GAP CLOSED** — the gap, as this page stated it — *"the exact 2010 move date is unresolved (context-core's residence table starts Brooklyn in April 2010, while an earlier note claimed a January 3 move — the Florida t |
 | [[wiki/work/tech/index]] | work | — |
 
@@ -90701,8 +90702,8 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
-knowledge: derived
+date_modified: 2026-09-03
+knowledge: mixed
 date_range_start: 2024-01-31
 date_range_end: 2024-12-11
 title: "Twitter / X — 2024"
@@ -90723,11 +90724,137 @@ connections:
   - page: wiki/mind/synthesis/twitter-2024-cognitive-state
     type: evidences
     claim: 'The 2024 originals are the evidence base for the "adversarial historian" reading of the year — the model/stress-test/historicize sequence that synthesis names is run in public, in these tweets.'
+  - page: wiki/interests/roman-republic
+    type: evidences
+    claim: 'Within three weeks of the reading binge the history is a working instrument rather than a subject: the UCLA encampment read as "the Fabian strategy" and "Caesarian tactics" (1 May), a proscription list joked about in the post-debate wreckage (28 June), and a major publication corrected on republican Rome (5 June).'
+  - page: wiki/meta/testimony-veracity
+    type: supplies
+    claim: 'The 28 June debate night is the corpus\'s clearest record of how Dan behaves when a stated prediction is falsified immediately and in public: he posts the forecast, watches it collapse, and updates in the same hour without deleting, defending or reframing it — matching 2023\'s "Fooled AGAIN by the fucking liberal mirage".'
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidences
+    claim: 'A fourth job enters the archive the way the others did — as the credential for an aside. "during my time as a caddie" (28 June), inside an argument about Trump\'s handicap, with no dates, employer or duration, exactly as with retail in 2012 and waiting tables in 2022 and 2023.'
 ---
 
 # Twitter / X — 2024
 
-Peak volume (258 originals in the spreadsheet). MTA, EV-math on Biden/Trump, and the December Luigi Mangione / CEO-killer coverage skepticism that the older sample-synthesis treated as the year's signature. Justice-system critique as a principle: the online footprint will 'ruin the nonpartisan consensus' once the shooter is ID'd. This is the year the account earns the bio.
+**Peak volume, and the densest single day in seventeen years.** 258 originals,
+and 23 of them land on **28 June**, the night of the first Biden–Trump debate.
+`wiki/mind/synthesis/twitter-2024-cognitive-state` reads this year as
+adversarial reality-testing disguised as political posting; this page carries
+the material that reading is built on, plus three things it does not: the
+debate night as a real-time record of a prediction failing, the Roman history
+functioning as a working analytical frame, and the fact that he was a caddie.
+
+## 28 June: a forecast collapsing, minute by minute, in public
+
+He posted predictions **before** the debate:
+
+> *"Against my better judgement, here are predictions for tonight's
+> #Debates2024 1. Biden is going to outperform the comically low expectations
+> that his critics have set…"*
+
+Then the debate started:
+
+> *"LETS FUCKING GOOOOOOO"* → *"This is not SOTU Joe"* → *"Oh my god his
+> voice"* → *"It's joever"* → *"This is catastrophic"* → *"It's hard to
+> overstate just how devastating this is for the Biden campaign."*
+
+**That is a public, timestamped record of a stated prediction being falsified in
+front of the person who made it, and of him updating without pause or
+defence.** He does not delete the prediction, argue that it was nearly right, or
+reframe the evidence. Within an hour he is running the consequences — betting
+markets, Morning Joe as a leading indicator, three New York Times podcasts
+about replacing the candidate — and by 6 July he publishes a numbered *"list of
+facts about the facts on the ground as of 3:15am"* with an explicit probability
+attached: any replacement is *"25% at best"*.
+
+`wiki/meta/testimony-veracity` scores what Dan claims. This night is the
+clearest specimen in the corpus of how he behaves when a claim of his is
+disproved immediately and publicly, and the answer is: he says so and moves on
+in the same hour. Set beside 2023's *"Fooled AGAIN by the fucking liberal
+mirage"*, the pattern holds across at least two years.
+
+## The Roman republic is a working instrument, not an interest
+
+`wiki/interests/roman-republic` records the 2024 reading binge and that it
+started on YouTube — *"After I finished the @HistoriaCivilis Caesar/Octavian
+series, I started devouring the 'essential' books about the late Roman
+Republic"* (8 April), Dan Carlin's *Death Throes* praised for *"the
+proto-Marxian narrative that underlies the whole era"* (9 April).
+
+What this page adds is that **within three weeks he is using it to read current
+events**, unprompted and without explanation:
+
+- **1 May**, on the UCLA encampment: *"appears to be utilizing the Fabian strategy and I respect those kind of Caesarian tactics."*
+- **28 June**, on the post-debate left: *"when we do global communism and start up the proscription list, I'm using my first pick on Jill Biden"* — a proscription list being the Sullan and triumviral instrument he had just spent two months reading about.
+- **5 June**, correcting a major publication: *"Writing an article for a major publication about republican Rome's second Civil War without knowing the difference between Iler…"*
+
+That is the *"historicize"* step
+`wiki/mind/synthesis/twitter-2024-cognitive-state` names, caught in the act and
+sourced: the history is not a hobby running beside the politics, it is the
+vocabulary he reaches for when the politics get strange. And the direction of
+supply is documented — a YouTube series, then nine books, then the frame.
+
+## He was a caddie
+
+**28 June**, inside an argument about Trump's golf handicap:
+
+> *"I've spent a lot of time on golf courses with all sorts of golfers during
+> my time as a caddie."*
+
+That is the fourth job to enter this archive the same way — as the credential
+for an aside, never as a fact stated. The 2016 page named the pattern (the job
+as material, never as subject) and it now spans retail (2012), an unpaid
+internship (2011), waiting tables (2022, 2023) and caddying, with no start
+dates, no employers and no duration for any of them.
+
+It also completes the golf thread. `wiki/self/twitter/2016` has him at the U.S.
+Open at Oakmont and reaching for *"foreclosure"* as the simile for the rough;
+2009 has *"country club status. bloated sense of self worth"*; 2014 has the
+great-grandmother as *"the country club Queen Bee in 1960"*. He was inside the
+country club, carrying the bags.
+
+## Where the politics go
+
+The year's arc is the Biden campaign's collapse, and Dan's position moves with
+it in a direction worth recording. He begins in February as a worried tactician
+— an electoral-college thread with Georgia and Arizona polling and historical
+voting attached (14 February). By 29 June he is threatening exit: *"I'll be
+changing my registration to independent if the Democratic Party doesn't move to
+either persuade or force Biden to make a fundamental change to the ticket."* By
+30 June he is reconsidering the premise entirely: *"now I'm starting to think
+@briebriejoy might have had a point about electoralism after all."*
+
+**That is the departure mechanism again**, the one running through the
+Republican exit of 2009, the neo-atheism exit of 2013 and the O&A exit somewhere
+before 2018 — the position becomes untenable because of the people holding it
+(*"The 'keep Biden' squad are truly some of the most vile and braindead people
+on planet earth"*, 3 July), and the exit is threatened before any alternative
+is named. What is different in 2024 is that he says it out loud while it is
+happening, which none of the earlier ones did.
+
+## Texture
+
+*"2024 year of the dragon"* posted, alone, roughly a dozen times across the
+year, with no explanation offered on any of them. A great-grandfather taken to
+a rated-R film by a ten-year-old who did not know what the rating meant
+(1 April). Sustained criticism of the Israeli campaign in Gaza, including
+26 March, and a note on rhetoric so bad *"that both sides of the
+Israel-Palestine divide can find common ground in their reactions of shared
+disgust"* (5 April). And on 2 May, a small demonstration of the media instinct:
+he notices a local affiliate cutting its helicopter feed of the UCLA protest,
+predicts police will move within ten minutes, and reports back — *"Lmao it was
+exactly 10 mins."*
+
+## What would change this reading
+
+The debate-night reading treats a stream of reactions as evidence of
+calibration behaviour. An alternative reading is that it is simply a man
+watching television and reacting, and the prediction was too casual to count as
+one; what argues against that is that he framed it as a prediction himself
+(*"here are predictions for tonight's"*) and never returned to defend it. The
+caddie fact is one clause with no date — it could refer to adolescence rather
+than adult employment, and nothing here settles which.
 
 ## Coverage
 
@@ -90740,7 +90867,7 @@ Peak volume (258 originals in the spreadsheet). MTA, EV-math on Biden/Trump, and
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
-## January
+## The record
 
 ### 2024-01-31 02:09:22 UTC · [1752514379319296418](https://x.com/danfrank/status/1752514379319296418)
 *likes 0 · replies 0 · reposts 0*
@@ -92301,8 +92428,8 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
-knowledge: derived
+date_modified: 2026-09-03
+knowledge: mixed
 date_range_start: 2025-01-05
 date_range_end: 2025-10-02
 title: "Twitter / X — 2025"
@@ -92324,7 +92451,71 @@ connections:
 
 # Twitter / X — 2025
 
-Collapse-year quiet. Piano self-teaching, #songs2die4, the memoir-title joke 'Other Things, and Other Things Other than That.' Thirteen originals in the spreadsheet; the life is happening in texts, not tweets.
+**Thirteen posts, and the year's finding is which eleven months are missing.**
+
+The account posts nine times in January and February, once on 27 February, and
+then **nothing at all until 2 October** — a single music post — and nothing
+after. 2025 is the emptiest year on the account since it opened.
+
+## The silence covers the founding of this project
+
+April 2025 is when Dan's documented AI turn begins: the ChatGPT session that
+`wiki/self/concepts/chatgpt` treats as the origin of the work, and the start of
+the sustained self-analysis that this wiki is the product of. **None of it is
+on this account.** The public record goes quiet in February and does not
+meaningfully return.
+
+This is the second time it has happened, and the pair is the point.
+`wiki/self/twitter/2015` records a five-month blackout across the most
+turbulent stretch of his adult life. 2025 is an eleven-month blackout across the
+most *generative* one. The feed is not a diary that reflects what is happening;
+**it goes quiet in both directions — under pressure and under absorption.**
+
+Anyone reading these nineteen pages as a life record needs that stated plainly:
+the two years in which most happened are the two years with least on them, and
+the correlation runs the wrong way for the naive reading.
+
+## What the eleven posts contain
+
+The January material is ordinary political commentary of a piece with 2024 —
+the Hegseth confirmation hearing (*"He weaseled his way out of answering
+everything. Democratic Senators offered few, if any questions of substance"*,
+14 January), Republicans *"pretending not to know what Q Anon is"* (16 January),
+and a genuinely puzzled post about opposition to conditioning foreign aid
+(5 January). On 1 February he posts four times about a plane crash in
+Philadelphia going uncovered — *"A plane fell out of the sky onto a residential
+neighborhood in a major city and…noting?"*, then *"Update: 3 hours later and
+still nothing"*, then tagging both papers. The media-monitoring reflex, intact
+and unchanged since Sandy.
+
+Two personal ones matter more than their length.
+
+**7 January**: *"My self-teaching piano lesson tonight is figuring out a bunch
+songs from criminally under-appreciated national treasure @NickLutsko."*
+
+`wiki/self/twitter/2016` records the inherited alto sax, clarinet and mandolin,
+and his own forecast that *"the amount of time I'm gonna spend becoming mediocre
+at them will be crzy."* Nine years later he is teaching himself piano, by ear,
+from a comedy musician's songs. The forecast was accurate about the activity and
+this page cannot say whether it was accurate about the outcome.
+
+**27 February**: *"Now that I have my title I'm ready to write my memoir 'Other
+Things, and Other Things Other than That'."*
+
+The **fourth** memoir-title joke in the archive — after *"GO READ A BOOK OR
+SOMETHING"* (2014) and the two of 2017. Four times in eleven years he has
+announced a title for an autobiography and written nothing. It is a joke every
+time, and it is the same joke, and the thing it is about is a book about
+himself. This corpus is what he built instead.
+
+## What would change this reading
+
+The blackout claim depends on 2025 being archived as completely as the export
+suggests, and 2016 is proof the export can drop rows. A live-scrape pass over
+March–September 2025 is the specific thing that would settle it, and it is worth
+running: eleven months missing from the most consequential year in the recent
+record is either a real finding or a serious hole, and nothing on this page can
+tell which.
 
 ## Coverage
 
@@ -92337,7 +92528,7 @@ Collapse-year quiet. Piano self-teaching, #songs2die4, the memoir-title joke 'Ot
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
-## January
+## The record
 
 ### 2025-01-05 09:02:09 UTC · [1875830132516245561](https://x.com/danfrank/status/1875830132516245561)
 *likes 0 · replies 0 · reposts 0*
@@ -92426,8 +92617,8 @@ domain: self
 page_type: period
 status: active
 date_created: 2026-09-02
-date_modified: 2026-09-02
-knowledge: derived
+date_modified: 2026-09-03
+knowledge: mixed
 date_range_start: 2026-03-04
 date_range_end: 2026-09-01
 title: "Twitter / X — 2026"
@@ -92445,11 +92636,116 @@ connections:
   - page: wiki/timeline/periods/2025-collapse
     type: contextualizes
     claim: 'The 2026 tweets are public-side weather for the life period already documented at that page.'
+  - page: wiki/interests/music/overview
+    type: evidences
+    claim: 'Dates a MOGZART release to 2026-03-04 — a drum-and-bass remix on SoundCloud, the first original music on the account in eleven years and under a different alias in a different genre.'
+  - page: wiki/mind/synthesis/millennial-digital-witness
+    type: evidences
+    claim: 'The disposition becomes an operation: on 2026-05-30 he uses a browser agent to delete every follow across Twitter, YouTube and SoundCloud at once, explicitly to rebuild the recommendation systems from scratch. He is no longer observing the algorithm, he is taking an instrument to it.'
+  - page: wiki/self/concepts/chatgpt
+    type: evidences
+    claim: 'The 2026 working practice, from the inside: two named autonomous agents claimed in April, fourteen unbroken hours with a model building data visualisers over his own text logs (13 June), and an iMessage auto-responder built overnight that ran unsupervised for five hours and reached a real person — reported as an overperformance.'
 ---
 
 # Twitter / X — 2026
 
-Spreadsheet originals are four moltbook/MOGZART posts through April 7. The live scrape from June onward is the AI-tooling year the sample synthesis already named: Fable 5 fourteen-hour runs, Grok Build piracy-prompt crackdown the same day as Claude godmode, VST installs, 'Hi tom!,' DnB AOTY locks, and the quote-tweet politics of late August. This page will keep moving.
+**The account comes back, and it comes back as an AI user.** 26 posts, and the
+year documents something no other page in this directory does: Dan operating
+autonomous software agents, building tools against his own data, and using a
+model to reconfigure the recommendation systems that shape what he sees.
+
+It is also the year music production resumes under a new name.
+
+## MOGZART, 4 March
+
+> *"'Odd Mob - Never Alone (feat Lizzy Land) [MOGZART DnB JUMP UP REMIX]' is on
+> #SoundCloud"*
+
+The first original music released on this account since the SLOPPP micromix
+re-post of March 2015 — eleven years — and it is under a different alias, in a
+different genre. `wiki/interests/music/overview` records MOGZART and GRIPNOTIC
+as successors to SLOPPP; this dates a MOGZART release precisely, and the
+2 June post (*"there is just stupid amounts of great DnB coming out right
+now"*) places the genre commitment as current rather than incidental.
+
+## The agents
+
+- **5 April**: *"I'm claiming my AI agent 'resourcefulbot' on @moltbook"*
+- **7 April**: *"I'm claiming my AI agent 'gripnotic' on @moltbook"*
+
+Two named autonomous agents, one of them carrying the name of a music project.
+
+- **30 May**: *"claude in chrome is sick. i just wiped out all of my follows on here, YT and soundcloud and can rebuild my algo and timelines proper now."*
+
+That is the most interesting sentence on the page. He uses a browser agent to
+**delete every follow across three platforms at once**, explicitly in order to
+rebuild the recommendation systems from scratch. `wiki/mind/synthesis/millennial-digital-witness`
+describes a disposition for watching the medium rather than the event; here the
+disposition becomes an **operation**. He is not observing the algorithm. He is
+taking an instrument to it, on himself, deliberately.
+
+- **13 June**: *"Man I thought I was being nuts running fable5 for like 14 hours to build this new website and data visualizers of my text logs but who's the crazy one now huh?"*
+
+Fourteen unbroken hours of model-assisted work, building visualisers over his
+own message archive. That is this project — or a sibling of it — described from
+the inside, on a public feed, by the person doing it.
+
+- **13 June**, on guardrails, in two posts: irritation that xAI had blocked Grok from installing cracked software, on the same day a permissive Claude configuration was withdrawn. His stated use was mundane (*"i was only using it to install some VST/AU plugins for Ableton"*), and the complaint is about capability being removed rather than about the task.
+- **14 June**: *"I know a lot of people who would usually be super early adopters who just haven't done anything beyond writing their work emails. There's a large contingent of people who have yet to fully grasp the real utility yet."*
+
+## The agent that ran away, 31 May
+
+> *"okay i woke up to find that the app i built with the new Grok CLI coding
+> agent to auto-respond on iMessage for specific numbers had just spent about 5
+> hours mass-spam texting garbled unicode to my ex girlfriend."*
+> *"so it actually outperformed what i had asked it to build. sick."*
+
+An autonomous messaging agent, built overnight, that ran unsupervised for
+roughly five hours and sent a stream of corrupted text to a private contact.
+**The recipient is not identified here and no account is built from it** — the
+finding is the software failure and the response to it.
+
+And the response is the finding. There is no alarm, no apology and no mention
+of consequences: the outcome is reported as an *overperformance*. A tool given
+an objective, left unsupervised, that exceeded its instruction in a way that
+reached a real person — filed as a joke, in public, the same morning. It is the
+clearest illustration in the corpus of the gap `CONTEXT_CORE_EXPANDED` names as
+the standing failure mode: **the diagnosis is not missing and the behaviour does
+not follow from it.** He is precise about what the agent did and entirely
+uninterested in what it means that it did it.
+
+## Politics, in the year's own vocabulary
+
+Three posts on 2 June: *"EVERYBODY🙏"* / *"HATES🙏"* / *"ISRAEL🙏"*. On
+29 August, Curtis Sliwa assessed for his *"antizionist credentials"* and a
+possible *"Tucker lane of nat con populists"*; a Conner O'Malley bit about
+*"Irish Zionism"*; and on 7 August and 1 September, admiration for Abdul
+El-Sayed's *"adversarial tv hits"*.
+
+This is the material `skills/corpus/vocabulary-drift.md` was written about — a
+political keyword pattern built from 2012–2024 language reported 2026 as
+**0.0% political**, when it is roughly a quarter. The vocabulary moved and the
+instrument did not.
+
+Also 29 August, on a viral clip: *"There's a big difference between 'you're
+going to want to turn around and get out of here' and 'turn around and get out
+of here'"* — vertical authority detected at the granularity of a modal verb.
+
+## Texture
+
+On 29 August, over a DHS post about an ICE arrest of Milo Yiannopoulos:
+*"My only child's namesake."* His dog is named Milo. And the 30 May run —
+*"marinara."* / *"on the wall."* / *"who's the baddest of them all?"* — which is
+the 2013 register arriving intact in 2026.
+
+## What would change this reading
+
+This is the live year and the page is a snapshot: 26 posts to 1 September, and
+the reading of 2026 as "the AI year" is drawn from about eight of them. The
+agent incident is interpreted here as an absence of alarm; an equally available
+reading is that alarm existed and was not posted, which is exactly what the 2015
+and 2025 blackouts show this account does with difficult material. The
+distinction matters and this page cannot settle it.
 
 ## Coverage
 
@@ -92466,7 +92762,7 @@ Spreadsheet originals run through 2026-04-07. Later originals from the live scra
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
-## March
+## The record
 
 ### 2026-03-04 01:26:56 UTC · [2029005639960117726](https://x.com/danfrank/status/2029005639960117726)
 *likes 0 · replies 0 · reposts 0*
@@ -92661,7 +92957,7 @@ domain: self
 page_type: summary
 status: active
 date_created: 2026-06-22
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 knowledge: mixed
 date_range_start: 2009-10-20
 date_range_end: 2026-09-02
@@ -92831,6 +93127,42 @@ The older page on this path was a sample synthesis from 2019–2026 and said so.
 Volume is the other correction. 2024 is the peak (258 spreadsheet originals), 2020 the floor (25), 2025 a collapse-year quiet (13). Twitter is an output valve, not the diary: 2015, the year the Annie relationship starts, is almost silent here. When the life is happening in texts, this account thins. When it is happening as commentary — 2017 Sessions, 2022 J6, 2023 Fetterman villain arc, 2024 Luigi — it thickens. That is the same contact-gini shape the private corpora show, rendered in public.
 
 The production identity is not a late add-on. 2013 is SLOPPP trap mixes on SoundCloud in the same weeks as Instagram lookouts; 2026 is MOGZART DnB and moltbook agent claims. Music is the sincere channel across both ends of the archive. The AI year (Grok Build, Fable 5, Claude godmode, moltbook) is real and is 2026, not the whole story.
+
+## The blackouts, and why the volume curve cannot be read as a life curve
+
+The section above says Twitter is an output valve rather than a diary. Reading
+all nineteen years in full (2026-09-03) sharpens that into something a reader
+must know before using any of these pages, because the naive reading of the
+volume curve is not merely imprecise — it is **inverted**.
+
+**The account goes dark in both directions.** It thins under commentary
+droughts, as described above. It also stops outright at the two points where
+most is happening:
+
+| Window | Length | What it covers |
+|---|---|---|
+| 2015-07-16 → 2015-12-04 | **five months** | the possession arrest, the four-month secret housing arrangement, and the year's central rupture |
+| 2025-02-27 → 2025-10-02 | **eleven months** | the April 2025 AI turn and the founding of the work this wiki is |
+
+Neither has an archival explanation. **The two years in which most happened are
+the two years with least on them.** A reader who takes 2013's 346 posts and
+2025's thirteen as a measure of how eventful those years were will get both
+backwards.
+
+**And the shape of the early years is the archive, not the man.** 2009 through
+2013 were assembled from a live scrape capped at ten results per month-bounded
+query, so January–September 2009 and much of 2010–2012 survive as clusters on
+the last days of each month; 2013's apparent mid-August explosion of music
+activity coincides with the operator spreadsheet's start date (2013-08-17) to
+within a week. **No claim about cadence, volume, or a subject going quiet is
+supportable for those years.** Each year page states this at the top of its own
+Gaps section.
+
+From 2014 the export is the backbone and absence is good evidence — but not
+conclusive, because the export demonstrably dropped at least one 2016 row (the
+OSU gig tweet, recovered 2026-09-02). The working rule these pages use is
+**establish coverage first, then treat absence as evidence exactly as far as
+coverage extends.**
 
 ## What the archive settled elsewhere in the wiki
 
@@ -101023,7 +101355,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,534 events** across **80 years** (1796–2027), drawn from **384 pages**. Tier 1 694 · Tier 2 428 · Tier 3 2,412.
+**3,538 events** across **80 years** (1796–2027), drawn from **384 pages**. Tier 1 695 · Tier 2 429 · Tier 3 2,414.
 
 ## What counts as an event here
 
@@ -101963,11 +102295,13 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **August 2009** — full sail 2008 2010** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomorrow"*, which puts the final month in September. And across November and…  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **August 2009** — full sail 2008 2010 — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
 - · **August 2009** — t013 — date — certain — refuted  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2009-08-31** — On **31 August 2009** he writes *"so weirded out i start my last month of college tomorrow. having multiple reality checks."* — which places the final month in **September**, not August.  
   ↳ [[wiki/self/twitter/2009]] · School ends, and the record says it ends later than the wiki does
+- · **September 2009** — And the shape of the early years is the archive, not the man.** 2009 through 2013 were assembled from a live scrape capped at ten results per month-bounded query, so January–September 2009 and much of 2010–2012 survive as clusters on the last days of each month; 2013's apparent mid-August explosion…  
+  ↳ [[wiki/self/twitter]] · The blackouts, and why the volume curve cannot be read as a life curve
 - · **October 2009** — Defining event  
   ↳ [[wiki/people/stephanie-nalbone]] · Corpus record
 - · **2009-10-06** — On **October 6, 2009**, writing to Stephanie Nalbone from Florida at eleven in the morning, Dan is watching *Pan's Labyrinth* instead of mixing tracks and reports that he is "trying to not imagine zach clingan as the creepy faun. they both lie about shit, so there's a literal connection too heh?…  
@@ -102044,7 +102378,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2010-01-03** — one is timestamped by the platform and one was typed into a profile  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **2010-01-03** — facebook — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 12 pages
 - · **2010-01-03** — t002 — date, location — certain — refuted — The tweet archive has him in Florida for another eight weeks: 'moving to brooklyn in 9 days' (20 Feb 2010), 'last day in errrlando' (27th), 'peace out, florida. it's been real.' (28th)  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2010-01-03** — Places lived  
@@ -102742,7 +103076,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2014-05-07** — Drake x Cashmere Cat – No Lie ft. 2 Chainz (SLOPPP Bootleg) — Bootleg  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **2014-05-13** — sloppp — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 12 pages
 - · **2014-05-14** — Heatwave Vol. 1** — "1 hour of tweriffik plurntastic tracks" — **Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
 - · **2014-05-22** — SLOPPP Trap Micromix — Mix  
@@ -102754,7 +103088,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2014-07-03** — Anthony Cumia was fired by SiriusXM on **3 July 2014**, after posting a series of racist messages about a Black woman who had struck him in Times Square.  
   ↳ [[wiki/self/twitter/2014]] · 4 July 2014, and a correction to the corpus's own account
 - · **2014-07-03** — opie and anthony — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
 - ★ **2014-07-04** — The contemporaneous record shows he was not among the repulsed at the time: on **4 July 2014**, one day after Cumia was fired over racist posts, Dan tweeted at him *"nothing but love and respect ant.  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · The O&A cause is real but its date is not 2014
 - · **2014-07-04** — t015 — Dan was among the O&A fans repulsed by the racism at the time of the 2014 split, and that repulsion radicalized him to leftist politics. — self_state, sequence — confident — partial  
@@ -102844,6 +103178,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **Spring 2015** — On March 15–16, 2015, **Frank Swaney** — a Pittsburgh-scene promoter who says he'd run a nine-DJ roster for his own production company and taught at "Spawn Academy in Portland Oregon" — hears the *Spring 2015 Demo* (shared via SoundCloud, initially broken because Dan had left it set to private) and…  
   ↳ [[wiki/interests/music/aliases/sloppp]] · The near-management deal (March 2015)
+- ★ **2015-07-16** — five months** — the possession arrest, the four-month secret housing arrangement, and the year's central rupture  
+  ↳ [[wiki/self/twitter]] · The blackouts, and why the volume curve cannot be read as a life curve
 - · **August 2015** — Lukyan Mraz is a Uniontown friend, connected to the same household as Zach Harshman, whose short Facebook Messenger thread (36 messages, August 2015 – March 2016) documents a brief cannabis-cultivation collaboration that ends, seven months later, in a tense dispute over borrowed equipment.  
   ↳ [[wiki/people/lukyan-mraz]] · Lukyan Mraz
 - · **August 2015** — In August 2015 Lukyan lends Dan what the two describe, half in code, as "a book... on lap quilting" — a growing guide, given the context: Dan calls it "super helpful" and "all you need to know in one place," Lukyan jokes it's "been in my family for generations... groovy," and the exchange turns…  
@@ -104079,7 +104415,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **May 2017** — Twice Dan evidently weighed what he'd bought and found it light, and twice Vaughn retreated to the same defense: "What did it weight because he said it was 3.5… that's my best friend I got it from and I know he wouldn't do it on purpose" (May 2017), and "I swear I watched him weigh it" against a…  
   ↳ [[wiki/people/vaughn]] · The yard and the hustle, one channel
 - · **May 2017** — eric jester — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 12 pages
 - · **May 2017** — Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two Nemacolin caddying seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a fellow caddie in 2017 who came back for 2018 as **assistant caddie master** — "I'm actually gonna be assistant caddie…  
   ↳ [[wiki/people/davey-fitzpatrick]] · Davey Fitzpatrick
 - · **May 2017** — Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose message thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — sparse check-ins that resurface every year or two, each one picking back up exactly where the last left…  
@@ -107540,7 +107876,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-14** — Dan does not hear or process sung lyrics as language in real time — he stated this directly (2026-07-14): words in a song register to him essentially as **timbre**, another textural element of the vocal performance, not as semantic content to be parsed and understood the way lyrics function for…  
   ↳ [[wiki/interests/music/concepts/lyrics-as-timbre]] · Lyrics as Timbre
 - · **2026-07-14** — vanessa frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 18 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 12 pages
 - · **2026-07-14** — au zaatar — work  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-07-14** — t009 — enumeration — hedged — partial — The tweet archive holds two pieces the list did not: the letter 'A' for Alexis, tattooed 23 January 2010 and eight years earlier than anything on the list, and a Morrissey piece dated by 24 October 2019.  
@@ -107606,7 +107942,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -107800,7 +108136,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-02** — For context injection:** July 26 – August 2, 2026. 1,880 messages, 969 from Dan, 911 from Annie.  
   ↳ [[wiki/timeline/events/july-august-2026-reentanglement]] · LLM Quick Brief
 - ★ **2026-08-03** — 2015 possession arrest — legal  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
 - ★ **2026-08-03** — 2015 retail theft arrest — legal  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-22 — 4 pages
 - · **2026-08-07** — Sexual contact resumes, per operator testimony  
@@ -108206,7 +108542,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
 - · **2026-08-23** — overview — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
 - · **2026-08-23** — closing the set — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-23** — annie ulmer personality assessment — people  
@@ -108278,7 +108614,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — chemical architecture — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
 - · **2026-08-28** — cocaine — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 4 pages
 - · **2026-08-28** — alias as periodization — mind  
@@ -108357,16 +108693,18 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/closing-the-set]] · The controls
 - ★ **2026-09-02** — What changed on 2026-09-02 is that it is no longer the same thing as having no primary source: 764 dated public originals cover these three years, and the page now rests on them for the move, the two apartments, the Williamsburg geography and the ishlab start.  
   ↳ [[wiki/timeline/periods/2010s]] · Transition
+- ◆ **2026-09-02** — From 2014 the export is the backbone and absence is good evidence — but not conclusive, because the export demonstrably dropped at least one 2016 row (the OSU gig tweet, recovered 2026-09-02).  
+  ↳ [[wiki/self/twitter]] · The blackouts, and why the volume curve cannot be read as a life curve
 - · **2026-09-02** — The git log read as a record of *operations* rather than saves  
   ↳ [[wiki/meta/instruments/index]] · The measures
 - · **2026-09-02** — 2020 left turn — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
 - · **2026-09-02** — failure to launch — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
 - · **2026-09-02** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
 - · **2026-09-02** — location history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
 - · **2026-09-02** — chatgpt — self  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-09-02** — He had no page here until 2026-09-02, and he is not named anywhere else in the corpus: no message thread, no Facebook exchange, no appearance on another person's page.  
@@ -108381,6 +108719,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter/2016]] · The gig that was thought to be invented
 - · **2026-09-02** — The `@danfrank` Twitter account was recovered thirteen months further back on 2026-09-02 (2008), and it opens on **24 September 2008**, the day Dan arrives in Winter Park.  
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The period's exit, in his own words, on the day it happened
+- · **2026-09-03** — Reading all nineteen years in full (2026-09-03) sharpens that into something a reader must know before using any of these pages, because the naive reading of the volume curve is not merely imprecise — it is **inverted**.  
+  ↳ [[wiki/self/twitter]] · The blackouts, and why the volume curve cannot be read as a life curve
 - ★ **2026-12-19** — P4 — **No third party ends this relationship.** Any severance that holds past 120 days will be traceable to a self-generated move, not an intervention — a documented outside intervention followed by a severance holding >120 days  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Predictions and falsifiers
 - ★ **2026-12-19** — A severance holding past **2026-12-19** with no external agent involved confirms Part I and P4 together.  
@@ -108395,7 +108735,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 384 wiki pages. 1,045 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 384 wiki pages. 1,049 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================

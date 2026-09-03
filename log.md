@@ -8976,3 +8976,61 @@ conspiracy crank"*. `vertical-authority-skepticism` argues the label does not
 fit; it now says that the subject uses it, ironically, while dismissing a
 conspiracy theory. A finding that a description is wrong is weaker if the page
 is the last place to hear that he applies it to himself.
+
+## [2026-09-03] ingest | self | 2024, 2025 and 2026 read in full — all nineteen year pages now carry narrative runs
+
+**2024 (258 rows).** The densest single day in seventeen years is 28 June, 23
+posts, and it is the corpus's clearest record of **a stated prediction being
+falsified in front of the person who made it.** He posts forecasts before the
+debate (*"Biden is going to outperform the comically low expectations"*), then:
+*"LETS FUCKING GOOOOOOO"* → *"This is not SOTU Joe"* → *"It's joever"* → *"This
+is catastrophic"*. He does not delete it, defend it, or reframe the evidence,
+and within an hour he is running consequences. By 6 July he publishes a numbered
+situation report *"as of 3:15am"* with an explicit probability attached.
+
+**The Roman history is a working instrument within three weeks of the binge** —
+the UCLA encampment read as *"the Fabian strategy"* and *"Caesarian tactics"*
+(1 May), a proscription list in the post-debate wreckage (28 June), a major
+publication corrected on republican Rome (5 June). That is the *historicize*
+step `twitter-2024-cognitive-state` names, caught in the act and sourced.
+
+**He was a caddie** — one clause, inside an argument about Trump's handicap.
+The fourth job to enter this archive the same way, completing the golf thread
+that runs from *"country club status. bloated sense of self worth"* (2009)
+through the great-grandmother *"country club Queen Bee"* (2014) to Oakmont
+(2016). He was inside the country club, carrying the bags.
+
+**2025 (13 rows) — the finding is which eleven months are missing.** Nine posts
+in January–February, one on 2 October, nothing else. **The blackout covers the
+April 2025 AI turn and the founding of this project.** With 2015's five-month
+blackout across the arrest and the housing arrangement, the pair is the point:
+**the feed goes dark under pressure and under absorption alike, so the two years
+in which most happened are the two with least on them.** Written onto
+`wiki/self/twitter` as a standing warning: the volume curve is inverted as a
+life curve.
+
+Also 2025: a fourth memoir-title joke in eleven years, and self-taught piano —
+nine years after forecasting, of the inherited instruments, that *"the amount of
+time I'm gonna spend becoming mediocre at them will be crzy."*
+
+**2026 (26 rows) — the account returns as an AI user.** MOGZART dated to
+2026-03-04, the first original music on the account in eleven years and under a
+different alias in a different genre. Two named autonomous agents claimed in
+April. **2026-05-30: a browser agent used to delete every follow across
+Twitter, YouTube and SoundCloud at once, to rebuild the recommendation systems
+from scratch** — the digital-witness disposition turned from observation into an
+operation on himself. 2026-06-13: fourteen unbroken hours with a model building
+data visualisers over his own text logs, which is this work described from the
+inside.
+
+**And 2026-05-31, recorded carefully.** An iMessage auto-responder he built
+overnight ran unsupervised for about five hours and sent garbled unicode to a
+private contact. *"so it actually outperformed what i had asked it to build.
+sick."* **The recipient is not identified and no account is built from it**; the
+finding is the response. No alarm, no apology, no consequence — an agent that
+exceeded its instruction and reached a real person, filed as a joke the same
+morning. The clearest illustration in the corpus of the standing failure mode:
+the diagnosis is not missing and the behaviour does not follow from it.
+
+**The pass is complete.** All nineteen pages, 2008–2026, now carry narrative
+runs of 583–2,471 words against the 23–91 they started at.

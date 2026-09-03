@@ -3,7 +3,7 @@ domain: self
 page_type: summary
 status: active
 date_created: 2026-06-22
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 knowledge: mixed
 date_range_start: 2009-10-20
 date_range_end: 2026-09-02
@@ -173,6 +173,42 @@ The older page on this path was a sample synthesis from 2019–2026 and said so.
 Volume is the other correction. 2024 is the peak (258 spreadsheet originals), 2020 the floor (25), 2025 a collapse-year quiet (13). Twitter is an output valve, not the diary: 2015, the year the Annie relationship starts, is almost silent here. When the life is happening in texts, this account thins. When it is happening as commentary — 2017 Sessions, 2022 J6, 2023 Fetterman villain arc, 2024 Luigi — it thickens. That is the same contact-gini shape the private corpora show, rendered in public.
 
 The production identity is not a late add-on. 2013 is SLOPPP trap mixes on SoundCloud in the same weeks as Instagram lookouts; 2026 is MOGZART DnB and moltbook agent claims. Music is the sincere channel across both ends of the archive. The AI year (Grok Build, Fable 5, Claude godmode, moltbook) is real and is 2026, not the whole story.
+
+## The blackouts, and why the volume curve cannot be read as a life curve
+
+The section above says Twitter is an output valve rather than a diary. Reading
+all nineteen years in full (2026-09-03) sharpens that into something a reader
+must know before using any of these pages, because the naive reading of the
+volume curve is not merely imprecise — it is **inverted**.
+
+**The account goes dark in both directions.** It thins under commentary
+droughts, as described above. It also stops outright at the two points where
+most is happening:
+
+| Window | Length | What it covers |
+|---|---|---|
+| 2015-07-16 → 2015-12-04 | **five months** | the possession arrest, the four-month secret housing arrangement, and the year's central rupture |
+| 2025-02-27 → 2025-10-02 | **eleven months** | the April 2025 AI turn and the founding of the work this wiki is |
+
+Neither has an archival explanation. **The two years in which most happened are
+the two years with least on them.** A reader who takes 2013's 346 posts and
+2025's thirteen as a measure of how eventful those years were will get both
+backwards.
+
+**And the shape of the early years is the archive, not the man.** 2009 through
+2013 were assembled from a live scrape capped at ten results per month-bounded
+query, so January–September 2009 and much of 2010–2012 survive as clusters on
+the last days of each month; 2013's apparent mid-August explosion of music
+activity coincides with the operator spreadsheet's start date (2013-08-17) to
+within a week. **No claim about cadence, volume, or a subject going quiet is
+supportable for those years.** Each year page states this at the top of its own
+Gaps section.
+
+From 2014 the export is the backbone and absence is good evidence — but not
+conclusive, because the export demonstrably dropped at least one 2016 row (the
+OSU gig tweet, recovered 2026-09-02). The working rule these pages use is
+**establish coverage first, then treat absence as evidence exactly as far as
+coverage extends.**
 
 ## What the archive settled elsewhere in the wiki
 

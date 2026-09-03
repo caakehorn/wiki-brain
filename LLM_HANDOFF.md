@@ -16,9 +16,9 @@ narration was thinnest exactly where the material was densest.** Each year gets
 a real narrative run, written by reading the year in full, with findings wired
 back as typed edges and prose.
 
-**Done: 2009, 2010, 2011, 2012, 2013, 2014.** Remaining: **2015–2026** (13
-pages). 2015 (62 rows), 2016 (76) and 2025 (13) are small; 2022 (158), 2023
-(159) and 2024 (258) are not.
+**Done: all nineteen year pages, 2008–2026.** 2008 already had one; the other
+eighteen were written this session by reading each year in full. Narrative
+lengths now run 583–2,471 words against the 23–91 they started at.
 
 **Main was carrying three red gates on arrival.**
 `wiki/synthesis/twitter-2024-cognitive-state.md` (PR #247) merged failing
@@ -77,21 +77,65 @@ supportable for those years.** Each page now says so at the top of its Gaps.
 precisely what made finding 2 usable. This is `skills/corpus/vocabulary-drift`
 arriving through a second mechanism; a candidate is in `skills/INBOX.md`.
 
+**Later findings, added as the pass went on:**
+
+9. **The politics are a four-stage sequence, not a two-state one**, written into
+   `2020-left-turn` and both editions: anti-authority with no economics
+   (2009–2012) → disengaged, silent through the 2016 election (2013–2016) →
+   **anti-Trump liberal resistance** (2017–2019) → democratic socialist (2020).
+   **The conversion is from liberalism, not apathy.** And the stage boundary is
+   the **Democratic primary, not the lockdown**: 2020-02-15 runs Bloomberg as a
+   class conflict, four months after a Cory Booker joke. The public declaration
+   is 2020-10-03 and it is an ultimatum.
+10. **The media pipeline starts in 2017 and arrives through comedy** —
+    `@drmistercody` five times that year, then unfollowing *Cracked* over staff
+    departures. The same mechanism that carried him into Opie & Anthony.
+11. **He names Balloon Boy himself** during OceanGate, 2023-06-21: *"This is so
+    much better than balloon boy."* Independent confirmation of the 2009 reading
+    from the only person who could give it.
+12. **`opie-and-anthony`'s free-speech date corrected by five months** —
+    2021-10-26 (Chappelle/Lenny Bruce), not 2022-03-28.
+13. **Two blackouts, both written onto `wiki/self/twitter`**: five months in
+    2015 (arrest, housing arrangement) and **eleven months in 2025** covering
+    the April 2025 AI turn and the founding of this project. **The two years in
+    which most happened are the two with least on them** — the volume curve is
+    inverted as a life curve.
+14. **Employment enters this archive only ever as material** — retail (2012),
+    unpaid internship (2011), waiting tables (2022, 2023), caddie (2024). No
+    employers, no dates, no durations, four jobs, one posture.
+15. **t015 and t016** added to the testimony ledger. t015 (the Cumia claim) is
+    its **first non-neutral slant** — `flattering`. t016 (the DeSantis
+    prediction) is the first real entry under **`--subject other`**, the class
+    `CLAUDE.md` records as nearly empty.
+
 **Next, in order:**
-1. **2015–2026.** Same method: read the year in full, write the run, wire the
-   findings back, re-translate any twin that moves. **2015 and 2016 need care
-   under the standing moratorium** — Annie enters November 2015 and nothing new
-   about her may be written.
-2. **`@Yamez1` has no page and should.** 2013–2014 show him as the one peer Dan
-   submits work to for critique (*"listen to this for me? I wanna hear what you
-   think I need to improve"*) and proposes collaborations with.
-3. **`@katie_efff` (Katie Fletcher) has no page** and is the documented other
-   person in the 2013 break.
-4. **`@franknarcissist`** — a cousin, writing a *Fader* cover story in November
-   2013. No page, no mention anywhere.
-5. The 94 stale premises in `WORK.md` are still untouched, and this session
-   added a few more by moving five synthesis pages. That remains a dedicated
-   housekeeping pass.
+1. **The prediction seam is unmined and it is the best calibration material in
+   the corpus.** 2022–2024 carry dated, reasoned, publicly-settled forecasts —
+   yapms maps, PredictIt prices, seven numbered theories published before an
+   event, and the 28 June 2024 debate night where a stated prediction collapses
+   in real time and he updates within the hour without defending it. Only t016
+   is in `wiki/meta/testimony-veracity`. Scoring the rest would move that ledger
+   from n=9 toward the n≈30 it needs.
+2. **Four people with no page and clear warrant.** `@Yamez1` (the one peer Dan
+   submits work to for critique, 2013–2014); `@katie_efff` / Katie Fletcher (the
+   documented other person in the 2013 break); `@franknarcissist` (a cousin,
+   *Fader* cover story, November 2013); `@drmistercody` is not a person page but
+   the 2017 pipeline entry belongs somewhere.
+3. **A live-scrape pass over March–September 2025 and November 2016.** Both are
+   named on their pages as the specific thing that would settle a load-bearing
+   absence claim — the 2025 blackout and the missing 2016 election posts. The
+   2016 OSU recovery proves the export drops rows, so neither is a formality.
+4. **The record collection loss has no date and no agent.** 2019-10-12, six
+   posts: a collection including a copy he sold for $900 in 2014 and a numbered
+   promo pressing, disposed of *"as $1 bin throwaway vinyl"* by somebody else.
+   Nothing else in the corpus touches it.
+5. **The 94 stale premises in `WORK.md` remain untouched**, and this session
+   added more by moving seven synthesis pages. That is a dedicated housekeeping
+   pass and it is now overdue.
+6. **`skills/INBOX.md` carries one new candidate** — *an archive seam looks
+   exactly like a change in behaviour*. Deliberately not promoted: one corpus,
+   one session. Promote when someone hits it over `bin/mine-messages`, where
+   `wiki/interests/music/overview` already carries unchecked absence claims.
 
 ### [2026-09-02] - Session: the operator testimony veracity ledger (Claude Opus 5)
 
