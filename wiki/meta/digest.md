@@ -25,7 +25,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | Pages touched in the last 14 days | 191 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 48 |
-| Open gaps | 510 |
+| Open gaps | 605 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -67,6 +67,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | self | 2017-2019 read in full — the left turn is a conversion from liberalism, and the pipeline starts in 2017 as comedy
   - ingest | self | 2020 and 2021 read in full — the public declaration, an analysis that precedes the label, and a date corrected by five months
   - ingest | self | 2022 and 2023 read in full — he names Balloon Boy himself, and the method's bill comes due in public
+  - ingest | self | 2024, 2025 and 2026 read in full — all nineteen year pages now carry narrative runs
+  - lint | self | the twitter year pages were generating a 2,741-entry table of contents
 
 **2026-09-02** — 12 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one

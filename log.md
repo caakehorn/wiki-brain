@@ -9034,3 +9034,30 @@ the diagnosis is not missing and the behaviour does not follow from it.
 
 **The pass is complete.** All nineteen pages, 2008–2026, now carry narrative
 runs of 583–2,471 words against the 23–91 they started at.
+
+## [2026-09-03] lint | self | the twitter year pages were generating a 2,741-entry table of contents
+
+Every tweet on every year page was an `###` heading, and the portal builds its
+on-page contents box from headings — so 2024 rendered a jump list of **258
+tweet timestamps**, 2013 one of 346, and 2,741 across the nineteen pages. The
+box was longer than most entries in the wiki.
+
+**Fixed at the source rather than in the renderer.** The per-tweet line is now
+bold text instead of a heading:
+
+    ### 2020-10-03 07:01:09 UTC · [1312286550949089282](https://x.com/...)
+    →
+    **2020-10-03 07:01:09 UTC** · [1312286550949089282](https://x.com/...)
+
+Nothing else changes: the timestamp, the permalink and the engagement line all
+render exactly as before, and no tool in `bin/` parses these headings —
+`wiki-lint`'s only heading logic is for correction markers.
+
+**What it leaves is the useful version of the box.** The narrative sections,
+`Coverage`, `Gaps` and `The record` are still `##`, so 2024's contents now runs
+to **eight real section names** instead of 267 entries — which is the "jump to
+the narrative or jump to the tweets" outcome, arrived at without any special
+casing.
+
+Scoped to `wiki/self/twitter/*.md` only. The hub page has no tweet headings and
+is untouched, as is every other page in the wiki.

@@ -110,11 +110,11 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 
 **major** — 42 outstanding
 
-- [[wiki/self/twitter/2010]] (11448 words)
-- [[wiki/self/twitter/2024]] (11444 words)
-- [[wiki/self/twitter/2013]] (11199 words)
-- [[wiki/self/twitter/2009]] (9344 words)
-- [[wiki/self/twitter/2022]] (8218 words)
+- [[wiki/self/twitter/2024]] (11186 words)
+- [[wiki/self/twitter/2010]] (11106 words)
+- [[wiki/self/twitter/2013]] (10853 words)
+- [[wiki/self/twitter/2009]] (9061 words)
+- [[wiki/self/twitter/2022]] (8060 words)
 
 **free** — 38 outstanding
 

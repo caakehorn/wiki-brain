@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 48 |
-| Open gaps | 510 |
+| Open gaps | 605 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
 
@@ -527,7 +527,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/places/the-unpapered-address]]** — **The pre-2010 record is empty.** Full Sail housing (2008–2010) and everything before it are undocumented, so the rule is tested on sixteen years and not on a life. If the Florida period shows a conventional student lease, the pattern has a start date and the 
 - **[[wiki/places/the-unpapered-address]]** — **This page does not establish intent.** Whether the unpapered arrangements were preferred, accepted, or simply the only ones available at a $11,000–14,000 household income is not decidable from this material, and the three readings have very different implica
 
-### self (65)
+### self (160)
 
 - **[[wiki/self/ancestry]]** — 1. **The Harris paternal line.** Sadie Harris's father ("Harris" from Czechoslovakia) is the single biggest data gap. He contributed ~12.5% of Dan's DNA but is completely undocumented beyond a single datum. Research into Czech immigration records, census data,
 - **[[wiki/self/ancestry]]** — 2. **The maternal R0 haplogroup.** The origin of the R0 mitochondrial haplogroup on the maternal line is unexplained. It may indicate a distant Jewish, Middle Eastern, or Central Asian ancestor entering through the Van Voorhis, Conwell, or Thomas lines. Resear
@@ -578,6 +578,101 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/twitter/2008]]** — **This page is a lower bound, and the shortfall is structural.** The fetch that produced it was search-based and capped at ten results per query. Every month that returned ten hits is truncated at ten: **October, November and December 2008 are all incomplete.*
 - **[[wiki/self/twitter/2008]]** — **The month-level shortfall is unchanged.** A complete X account export is still the only thing that would fill in the truncated October, November and December.
 - **[[wiki/self/twitter/2008]]** — This page is the text archive. Every original and every reply retrieved for the year is below, oldest first.
+- **[[wiki/self/twitter/2008]]** — **2008-09-24 04:52:36 UTC** · [932618140](https://x.com/danfrank/status/932618140) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-09-24 05:37:23 UTC** · [932647938](https://x.com/danfrank/status/932647938) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-09-24 13:49:56 UTC** · [932991533](https://x.com/danfrank/status/932991533) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-09-24 16:44:07 UTC** · [933209487](https://x.com/danfrank/status/933209487) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-09-24 17:50:26 UTC** · [933291087](https://x.com/danfrank/status/933291087) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-09-24 20:25:05 UTC** · [933471709](https://x.com/danfrank/status/933471709) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-09-25 01:02:44 UTC** · [933754270](https://x.com/danfrank/status/933754270) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-09-25 07:05:20 UTC** · [934057152](https://x.com/danfrank/status/934057152) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-09-25 23:28:23 UTC** · [935023283](https://x.com/danfrank/status/935023283) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-09-26 21:52:00 UTC** · [936288536](https://x.com/danfrank/status/936288536) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-09-27 01:54:14 UTC** · [936574647](https://x.com/danfrank/status/936574647) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-09-27 15:01:18 UTC** · [937156347](https://x.com/danfrank/status/937156347) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-09-30 18:20:37 UTC** · [940890739](https://x.com/danfrank/status/940890739) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-07 20:29:17 UTC** · [950144664](https://x.com/danfrank/status/950144664) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-07 20:29:38 UTC** · [950145069](https://x.com/danfrank/status/950145069) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-08 23:31:27 UTC** · [952001090](https://x.com/danfrank/status/952001090) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-09 22:19:35 UTC** · [953372223](https://x.com/danfrank/status/953372223) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-11 00:44:38 UTC** · [954947912](https://x.com/danfrank/status/954947912) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-11 18:43:23 UTC** · [955713189](https://x.com/danfrank/status/955713189) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-14 04:33:01 UTC** · [958617054](https://x.com/danfrank/status/958617054) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-14 17:02:08 UTC** · [959315266](https://x.com/danfrank/status/959315266) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-14 18:04:36 UTC** · [959412568](https://x.com/danfrank/status/959412568) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-14 18:57:40 UTC** · [959488269](https://x.com/danfrank/status/959488269) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-15 20:21:15 UTC** · [961155491](https://x.com/danfrank/status/961155491) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-16 20:06:07 UTC** · [962839513](https://x.com/danfrank/status/962839513) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-17 14:38:33 UTC** · [963889580](https://x.com/danfrank/status/963889580) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-18 19:19:58 UTC** · [965437487](https://x.com/danfrank/status/965437487) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-19 19:00:18 UTC** · [966495821](https://x.com/danfrank/status/966495821) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-19 22:21:11 UTC** · [966672432](https://x.com/danfrank/status/966672432) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-21 03:01:29 UTC** · [968404972](https://x.com/danfrank/status/968404972) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-21 17:04:04 UTC** · [969217476](https://x.com/danfrank/status/969217476) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-21 17:04:25 UTC** · [969217985](https://x.com/danfrank/status/969217985) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-22 00:51:46 UTC** · [969800728](https://x.com/danfrank/status/969800728) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-22 20:41:18 UTC** · [971032554](https://x.com/danfrank/status/971032554) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-23 13:35:06 UTC** · [971997699](https://x.com/danfrank/status/971997699) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-24 15:09:23 UTC** · [973709297](https://x.com/danfrank/status/973709297) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-24 23:27:50 UTC** · [974362179](https://x.com/danfrank/status/974362179) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-26 03:10:35 UTC** · [975714390](https://x.com/danfrank/status/975714390) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-26 17:58:57 UTC** · [976345575](https://x.com/danfrank/status/976345575) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-27 12:21:56 UTC** · [977287069](https://x.com/danfrank/status/977287069) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-27 17:14:10 UTC** · [977677746](https://x.com/danfrank/status/977677746) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-28 02:05:44 UTC** · [978341860](https://x.com/danfrank/status/978341860) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-28 02:27:55 UTC** · [978368104](https://x.com/danfrank/status/978368104) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-28 12:41:50 UTC** · [978869355](https://x.com/danfrank/status/978869355) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-29 12:47:13 UTC** · [980433586](https://x.com/danfrank/status/980433586) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-29 21:12:47 UTC** · [981158892](https://x.com/danfrank/status/981158892) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-31 13:03:43 UTC** · [983696684](https://x.com/danfrank/status/983696684) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-31 19:17:47 UTC** · [984249824](https://x.com/danfrank/status/984249824) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-10-31 22:33:13 UTC** · [984478753](https://x.com/danfrank/status/984478753) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-11-10 14:28:32 UTC** · [998808627](https://x.com/danfrank/status/998808627) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-11-10 20:34:36 UTC** · [999332770](https://x.com/danfrank/status/999332770) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-11-11 01:16:52 UTC** · [999699292](https://x.com/danfrank/status/999699292) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-11-12 13:17:06 UTC** · [1002020381](https://x.com/danfrank/status/1002020381) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-11-12 18:57:46 UTC** · [1002529274](https://x.com/danfrank/status/1002529274) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-11-12 23:58:06 UTC** · [1002966072](https://x.com/danfrank/status/1002966072) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-11-13 19:46:41 UTC** · [1004356953](https://x.com/danfrank/status/1004356953) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-11-14 01:34:14 UTC** · [1004760484](https://x.com/danfrank/status/1004760484) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-11-15 00:14:02 UTC** · [1006347095](https://x.com/danfrank/status/1006347095) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-11-15 22:04:00 UTC** · [1007490860](https://x.com/danfrank/status/1007490860) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-11-16 04:07:46 UTC** · [1007840482](https://x.com/danfrank/status/1007840482) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-11-16 05:53:08 UTC** · [1007932306](https://x.com/danfrank/status/1007932306) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-11-18 02:19:17 UTC** · [1010616996](https://x.com/danfrank/status/1010616996) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-11-18 06:50:30 UTC** · [1010897278](https://x.com/danfrank/status/1010897278) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-11-20 16:54:27 UTC** · [1014979196](https://x.com/danfrank/status/1014979196) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-11-26 02:51:25 UTC** · [1023862126](https://x.com/danfrank/status/1023862126) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-11-27 17:13:38 UTC** · [1026658025](https://x.com/danfrank/status/1026658025) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-11-30 16:28:11 UTC** · [1030858479](https://x.com/danfrank/status/1030858479) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-05 00:34:32 UTC** · [1039230307](https://x.com/danfrank/status/1039230307) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-05 03:07:26 UTC** · [1039458861](https://x.com/danfrank/status/1039458861) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-05 21:24:13 UTC** · [1040945137](https://x.com/danfrank/status/1040945137) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-06 21:00:44 UTC** · [1042466431](https://x.com/danfrank/status/1042466431) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-08 06:59:03 UTC** · [1044659229](https://x.com/danfrank/status/1044659229) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-09 15:21:57 UTC** · [1047194098](https://x.com/danfrank/status/1047194098) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-09 19:14:08 UTC** · [1047635099](https://x.com/danfrank/status/1047635099) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-10 00:00:58 UTC** · [1048139911](https://x.com/danfrank/status/1048139911) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-10 18:01:38 UTC** · [1049603617](https://x.com/danfrank/status/1049603617) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-10 19:29:24 UTC** · [1049764587](https://x.com/danfrank/status/1049764587) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-11 13:55:02 UTC** · [1051235857](https://x.com/danfrank/status/1051235857) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-11 23:05:55 UTC** · [1052261972](https://x.com/danfrank/status/1052261972) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-12 03:51:11 UTC** · [1052711802](https://x.com/danfrank/status/1052711802) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-12 17:58:44 UTC** · [1053837117](https://x.com/danfrank/status/1053837117) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-15 20:53:41 UTC** · [1059258602](https://x.com/danfrank/status/1059258602) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-17 00:13:03 UTC** · [1061748912](https://x.com/danfrank/status/1061748912) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-18 13:36:11 UTC** · [1064878363](https://x.com/danfrank/status/1064878363) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-18 15:22:28 UTC** · [1065063096](https://x.com/danfrank/status/1065063096) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-19 13:56:04 UTC** · [1067049510](https://x.com/danfrank/status/1067049510) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-19 16:34:58 UTC** · [1067351244](https://x.com/danfrank/status/1067351244) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-22 19:10:59 UTC** · [1072807698](https://x.com/danfrank/status/1072807698) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-22 22:19:50 UTC** · [1073134192](https://x.com/danfrank/status/1073134192) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-23 22:53:31 UTC** · [1075208398](https://x.com/danfrank/status/1075208398) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-28 00:40:45 UTC** · [1081551627](https://x.com/danfrank/status/1081551627) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-28 15:38:45 UTC** · [1082383557](https://x.com/danfrank/status/1082383557) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-29 04:56:33 UTC** · [1083432347](https://x.com/danfrank/status/1083432347) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-31 03:14:56 UTC** · [1087224783](https://x.com/danfrank/status/1087224783) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **2008-12-31 17:39:03 UTC** · [1088395639](https://x.com/danfrank/status/1088395639) *likes 0 · replies 0 · reposts 0*
 - **[[wiki/self/twitter/2009]]** — The operator spreadsheet begins 2013-08-17, so none of this year comes from it. The 283 rows here have two origins: 165 walked from live X search in batches of ten, and 118 recovered by the 2026-09-02 backend fetch that also produced the 2008 page. Do not trea
 - **[[wiki/self/twitter/2009]]** — **The distribution of this page is an artefact of how it was fetched, and it will mislead anyone who reads it as behaviour.** Both retrieval methods were capped at ten results per query, and the queries were month-bounded. The consequence is visible on the pag
 - **[[wiki/self/twitter/2009]]** — **What follows for anyone using this page:** no claim about posting frequency, volume, cadence, or a subject going quiet is supportable for January–September 2009, and none should be made. Presence is evidence here; absence is not. A complete X account export 
