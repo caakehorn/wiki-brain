@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,538 events** across **80 years** (1796–2027), drawn from **384 pages**. Tier 1 695 · Tier 2 429 · Tier 3 2,414.
+**3,544 events** across **80 years** (1796–2027), drawn from **384 pages**. Tier 1 696 · Tier 2 430 · Tier 3 2,418.
 
 ## What counts as an event here
 
@@ -5075,6 +5075,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/garrett]] · What is known
 - · **2024-05-24** — Phase 5: The 2024–25 resurgence (May 24, 2024 – Feb 20, 2025)  
   ↳ [[wiki/people/menore]] · Timeline & Phases
+- ★ **2024-05-30** — t021 — Trump will never be held to any level of account in a courtroom. — other_state — certain — partial  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
+- · **2024-05-30** — t019 — Trump will eventually walk on all charges after a hung-jury mistrial, and jury nullification will become a widely used strategy for legally vulnerable conservatives. — other_state, sequence — confident — refuted  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
 - ★ **June 2024** — He is Muslim (references Allah and Islam directly) and appears to be Bangladeshi or closely tied to Bangladeshi politics: a June 2024 message congratulates Dan on his "boss" getting married, and by August 2024 the conversation turns to real news, discussing the 2024 Bangladesh political unrest in…  
   ↳ [[wiki/people/md]] · MD
 - ★ **June 2024** — The occasion for the June 2024 Arabic wedding congratulations is unidentified.  
@@ -5097,6 +5101,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/roman-republic]] · The 2024 reading binge — dated, not vague
 - ◆ **2024-06-27** — More tellingly, the corpus shows him reaching for Michael Scott as a behavioral comparator: in the 2019 Twitter analysis he analogizes EU ambassador Gordon Sondland's testimony to having "a total Michael Scott vibe," and during the 2024 presidential race he texted "Next pres was Dwight d…  
   ↳ [[wiki/interests/the-office]] · The Michael Scott register
+- ◆ **2024-06-27** — t018 — other_state — hedged — refuted — Biden's 27 June 2024 debate performance was universally read as far BELOW even the low expectations set — it triggered three weeks of party pressure and his withdrawal on 21 July. Dan recorded the collapse himself in real time within the hour ('This is not…  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2024-06-27** — The highest-volume day in this thread's eleven-year record — 224 messages on 27 June 2024 — is the night of the first Biden–Trump debate**, watched separately and narrated to each other in real time.  
   ↳ [[wiki/people/suzanne-frank]] · Politics
 - ◆ **2024-06-28** — 28 June 2024 is the account's peak, and it is a single evening.** Twenty-three originals as the debate ran and immediately after: *"This is not SOTU Joe"* → *"Oh my god his voice"* → *"It's joever"* → *"This is catastrophic"* → *"It's hard to overstate just how devastating this is for the Biden…  
@@ -5121,6 +5127,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/places/derrick-avenue]] · "The derrick ave gang"
 - · **2024-07-15** — A later message (Jul 15 2024, from a different contact) has someone recognizing the same pattern in Dan directly: "She's like you had an eating disorder didn't you?  
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The eating disorder
+- · **2024-07-21** — t017 — Whoever replaces Biden on the 2024 Democratic ticket will not win in November  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
+- · **2024-07-21** — their chances are 25% at best. — other_state, quantity — confident — confirmed  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2024-07-30** — Philip and Alexander — Adrian Goldsworthy — 4  
   ↳ [[wiki/interests/roman-republic]] · The 2024 reading binge — dated, not vague
 - · **2024-07-31** — Caesar: Life of a Colossus — Goldsworthy, Adrian — ★★★★★ — ancient-history, biography, caesar, great-man-theory, history, non-fiction, philosophy, roman-republic, top-shelf  
@@ -5289,6 +5299,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - · **2024-11-04** — "i just said 'vanessa is an xNFP 4w5 and Dan is an INTP 5w6sx RLOEI - compare them'"* — the prompt itself, quoted  
   ↳ [[wiki/mind/synthesis/the-commissioned-self]] · The census, and what the seventeen instances actually say
+- · **2024-11-06** — t020 — The 2024 election will be so close that the outcome will be decided by the inevitable post-election legal challenges rather than by the vote. — other_state, sequence — confident — refuted  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2024-11-06** — 14 — The morning after the election  
   ↳ [[wiki/self/twitter]] · The densest day in seventeen years
 - · **2024-11-15** — That's it" (November 15, 2024) is a real complaint about that specific year, generalized past what the decade as a whole would support.  
@@ -6300,7 +6312,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **June 2026** — Gaps:** the baseline model is a sketch, not a normed population; scores are single-model judgments with no inter-rater check; the audit predates the June 2026 closure and the 2026 work/housing shocks, all of which bear directly on the "relationships" and "values" rows.  
   ↳ [[wiki/mind/profile/deviance-mapping]] · Reading the audit
 - ★ **June 2026** — Gaps:** no clinical or third-party-administered assessment; no test dates or instrument versions for the Big30/PD numbers; no re-test after the June 2026 closure event, so the entire profile is calibrated on pre-closure data.  
-  ↳ [[wiki/mind/profile/index]] · Core axioms and personal myth
+  ↳ [[wiki/mind/profile/index]] · The metacognition figure now has a measured counterpart, and they disagree
 - ★ **June 2026** — Gaps:** function scores are AI-inferred from corpus behavior, not from a proctored instrument; the Ni measurement in particular has no independent confirmation; no data on how the stack presents post-closure (all sources pre-date June 2026).  
   ↳ [[wiki/mind/profile/intp]] · The stack as one machine
 - ★ **June 2026** — It also reframes the June 2026 severance. `the-unbroken-bond` records that the break held fifty-two days and then failed.  

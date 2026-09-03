@@ -8,7 +8,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-03 — 41 pages
+## 2026-09-03 — 42 pages
 
 - **Session log:** lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
 - **Session log:** ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
@@ -35,6 +35,7 @@ simply listed.
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/recent-activity]] | meta | _(carries a CONTRADICTION)_ |
 | [[wiki/meta/testimony-veracity]] | meta | — |
+| [[wiki/mind/profile/index]] | mind | — |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/mind/synthesis/failure-to-launch]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
@@ -219,7 +220,7 @@ simply listed.
 | [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 
-## 2026-08-26 — 52 pages
+## 2026-08-26 — 51 pages
 
 - **Session log:** climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
 - **Session log:** ingest | mind | the ideal-face specification — a mystery queue item resolved
@@ -259,7 +260,6 @@ simply listed.
 | [[wiki/mind/politics/axioms]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
 | [[wiki/mind/profile/deviance-mapping]] | mind | _(carries a GAP CLOSED from 2026-08-22)_ |
 | [[wiki/mind/profile/enneagram-5w4]] | mind | _(carries a CONTRADICTION from 2026-08-19)_ |
-| [[wiki/mind/profile/index]] | mind | — |
 | [[wiki/mind/profile/intp]] | mind | — |
 | [[wiki/mind/profile/lexicon]] | mind | — |
 | [[wiki/mind/profile/neurodivergence]] | mind | — |
