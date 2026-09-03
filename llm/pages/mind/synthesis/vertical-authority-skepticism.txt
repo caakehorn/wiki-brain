@@ -291,6 +291,22 @@ are treated as junior analysts requiring explicit anti-softening constraints
 suspicion as a manager's unverified demand
 ([[wiki/mind/concepts/exocortex]]).
 
+## He uses the label himself, and it does not change the finding
+
+Before the section below is read: on **2023-02-10**, laughing at a theory he
+found too stupid to entertain, Dan wrote *"Anytime you find a narrative that a
+conspiracy crank like myself finds bird brained enough to actually laugh
+at…it's something special."*
+
+**He applies the label to himself, ironically, while doing the opposite of what
+it describes.** That is worth stating on a page whose argument is that the
+label does not fit — a finding that a description is wrong is weaker if it
+turns out the subject uses it and the page never said so. It does not overturn
+anything below: the behaviour the section documents is unchanged, and the
+sentence is a joke made in the course of dismissing a conspiracy theory. But
+the self-description is on the record, and this page should not be the last
+place to hear about it.
+
 ## The conspiracy question, settled by what he actually does
 
 Dan calls himself a **"conspiracy crank"** in public — 10 February 2023, in

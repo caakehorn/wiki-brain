@@ -23,7 +23,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-03 — 35 pages
+## 2026-09-03 — 37 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -60,10 +60,12 @@ simply listed.
 | [[wiki/self/twitter/2019]] | self | — |
 | [[wiki/self/twitter/2020]] | self | — |
 | [[wiki/self/twitter/2021]] | self | — |
+| [[wiki/self/twitter/2022]] | self | — |
+| [[wiki/self/twitter/2023]] | self | — |
 | [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | **CONTRADICTION** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomo |
 
-## 2026-09-02 — 18 pages
+## 2026-09-02 — 16 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -78,8 +80,6 @@ simply listed.
 | [[wiki/self/index]] | self | — |
 | [[wiki/self/tattoos]] | self | **CORRECTED** — this page previously read "**entirely** cultural reference … *every* known piece points at a specific record, band, or artist rather than a generic symbol," and dated the earliest well-documented piec |
 | [[wiki/self/twitter]] | self | _(carries a CONTRADICTION)_ |
-| [[wiki/self/twitter/2022]] | self | — |
-| [[wiki/self/twitter/2023]] | self | — |
 | [[wiki/self/twitter/2024]] | self | — |
 | [[wiki/self/twitter/2025]] | self | — |
 | [[wiki/self/twitter/2026]] | self | — |

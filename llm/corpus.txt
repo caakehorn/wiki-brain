@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-03
-497 pages, ~1,805,919 tokens.
+497 pages, ~1,812,398 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10317,7 +10317,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-03** — 35 pages
+**2026-09-03** — 37 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
   - ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
   - ingest | self | 2010 read in full — the corpus's most-cited date was computed from a train going the wrong way, and it survives anyway
@@ -10327,8 +10327,9 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | self | 2014 read in full — he backed Cumia the day after the firing, and the correction makes the left turn larger
   - ingest | self | 2015 and 2016 read in full — the music operation stops, the account goes dark for five months, and 2016 is a step away from the left turn
   - ingest | self | 2017-2019 read in full — the left turn is a conversion from liberalism, and the pipeline starts in 2017 as comedy
+  - ingest | self | 2020 and 2021 read in full — the public declaration, an analysis that precedes the label, and a date corrected by five months
 
-**2026-09-02** — 18 pages
+**2026-09-02** — 16 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result
@@ -11889,7 +11890,7 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 - [[wiki/self/twitter/2013]] (11199 words)
 - [[wiki/self/twitter/2024]] (10376 words)
 - [[wiki/self/twitter/2009]] (9344 words)
-- [[wiki/self/twitter/2011]] (8098 words)
+- [[wiki/self/twitter/2022]] (8218 words)
 
 **free** — 39 outstanding
 
@@ -11933,7 +11934,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-03 — 35 pages
+## 2026-09-03 — 37 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11970,10 +11971,12 @@ simply listed.
 | [[wiki/self/twitter/2019]] | self | — |
 | [[wiki/self/twitter/2020]] | self | — |
 | [[wiki/self/twitter/2021]] | self | — |
+| [[wiki/self/twitter/2022]] | self | — |
+| [[wiki/self/twitter/2023]] | self | — |
 | [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | **CONTRADICTION** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomo |
 
-## 2026-09-02 — 18 pages
+## 2026-09-02 — 16 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11988,8 +11991,6 @@ simply listed.
 | [[wiki/self/index]] | self | — |
 | [[wiki/self/tattoos]] | self | **CORRECTED** — this page previously read "**entirely** cultural reference … *every* known piece points at a specific record, band, or artist rather than a generic symbol," and dated the earliest well-documented piec |
 | [[wiki/self/twitter]] | self | _(carries a CONTRADICTION)_ |
-| [[wiki/self/twitter/2022]] | self | — |
-| [[wiki/self/twitter/2023]] | self | — |
 | [[wiki/self/twitter/2024]] | self | — |
 | [[wiki/self/twitter/2025]] | self | — |
 | [[wiki/self/twitter/2026]] | self | — |
@@ -12545,7 +12546,7 @@ chart:
         "hedged": 0.60
     - name: "What it turned out to be worth"
       points:
-        "certain": 0.33
+        "certain": 0.25
         "confident": 0.69
         "hedged": 0.75
 sources:
@@ -12567,17 +12568,17 @@ A single trust score would collapse two facts that behave differently. **Veracit
 
 | | value | n |
 |---|---|---:|
-| **Veracity** | **57 / 100** — +4.0 points on 28.0 weight | 9 |
-| **Calibration** | Brier 0.272, skill -0.09 vs a coin flip | 9 |
-| **Stated vs actual** | -0.22 | 9 |
+| **Veracity** | **52 / 100** — +1.0 points on 31.0 weight | 10 |
+| **Calibration** | Brier 0.335, skill -0.34 vs a coin flip | 10 |
+| **Stated vs actual** | -0.30 | 10 |
 
-Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 9 settled claims, not thousands.
+Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 10 settled claims, not thousands.
 
 ## What his confidence is actually worth
 
 | band | he states | it is worth | gap | n |
 |---|---:|---:|---:|---:|
-| certain | 0.95 | 0.33 | -0.62 | 3 |
+| certain | 0.95 | 0.25 | -0.70 | 4 |
 | confident | 0.80 | 0.69 | -0.11 | 4 |
 | hedged | 0.60 | 0.75 | +0.15 | 2 |
 
@@ -12588,23 +12589,24 @@ Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refut
 | confirmed | 4 | independent evidence bears it out |
 | partial | 2 | the core holds, a material detail does not |
 | self_contradicted | 1 | he has given two accounts that cannot both be true |
-| refuted | 2 | independent evidence contradicts it |
+| refuted | 3 | independent evidence contradicts it |
 | unfalsifiable | 6 | checked, and the corpus cannot settle it — **scores zero, never negative** |
 
 ## By claim class
 
-Rates are shrunk toward the global 0.58 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
+Rates are shrunk toward the global 0.53 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
 
 | class | n | raw | shrunk | 95% CI on clean confirmations | dominant failure |
 |---|---:|---:|---:|---|---|
-| date | 4 | 0.50 | 0.54 | 15%–85% | displacement, rounding |
-| location | 2 | 0.12 | 0.40 | 0%–66% | displacement, rounding |
-| sequence | 2 | 0.75 | 0.65 | 9%–91% | compression |
-| duration | 1 | 1.00 | 0.69 | 21%–100% | — |
-| enumeration | 1 | 0.50 | 0.56 | 0%–79% | omission |
-| existence | 1 | 1.00 | 0.69 | 21%–100% | — |
-| quantity | 1 | 1.00 | 0.69 | 21%–100% | — |
-| self_state | 1 | 0.50 | 0.56 | 0%–79% | compression |
+| date | 4 | 0.50 | 0.51 | 15%–85% | displacement, rounding |
+| sequence | 3 | 0.50 | 0.51 | 6%–79% | compression, overreach |
+| location | 2 | 0.12 | 0.37 | 0%–66% | displacement, rounding |
+| duration | 1 | 1.00 | 0.64 | 21%–100% | — |
+| enumeration | 1 | 0.50 | 0.52 | 0%–79% | omission |
+| existence | 1 | 1.00 | 0.64 | 21%–100% | — |
+| other_state | 1 | 0.00 | 0.39 | 0%–79% | overreach |
+| quantity | 1 | 1.00 | 0.64 | 21%–100% | — |
+| self_state | 1 | 0.50 | 0.52 | 0%–79% | compression |
 
 ## Which way the errors run
 
@@ -12612,7 +12614,7 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 
 | slant | n |
 |---|---:|
-| neutral — the error carries no credit or discredit either way | 5 |
+| neutral — the error carries no credit or discredit either way | 6 |
 | flattering — the error, had it stood, would have reflected better on him | 1 |
 
 ## The record
@@ -12634,6 +12636,7 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 | t013 | Dan graduated Full Sail (AS Recording Arts) in August 2009. | date | certain | refuted | wiki/self/twitter/2009 — 2009-08-31 'so weirded out i start my last month of college tomorrow'; 2009-11-30 'pro tools lab'; 2009-12-14 'aced my practical without headphones'; 2009-12-15 'in class....'; 2009-12-19 'taking aws final with it' |
 | t014 | Dan's continuous Suboxone regimen began on 17 February 2010. | date | certain | confirmed | wiki/self/twitter/2010 — 2010-02-17 20:07 UTC (15:07 New York): 'this is the most stressful day/decision of my life. nothing is making it easier.' Followed by 'planning the next 3 years of my life all day in muh head' (2010-02-18) and 'put my life on a treadmill. shape up or bust.' (2010-02-20). The obvious alternative referent is excluded: the Brooklyn move was decided on 2010-01-26 and described as good news either side of this day. LIMIT: he never names the decision, so this is a dated alignment on an independent same-day artifact rather than a clinical record. It is recorded as confirmed because the date he gave held up against evidence he did not write for the record and could not have been shaping. |
 | t015 | Dan was among the O&A fans repulsed by the racism at the time of the 2014 split, and that repulsion radicalized him to leftist politics. | self_state, sequence | confident | partial | wiki/self/twitter/2014 — 2014-07-04, one day after the firing: '@AnthonyCumia nothing but love and respect ant. Thanks for not selling your soul through this whole mess.' And 2014-03-25: '@AnthonyCumia brilliant point re "tranny" outrage.' 2014 is spreadsheet-complete (170 of 171 rows) and contains no post expressing discomfort. PARTIAL rather than refuted because 'we were radicalized' describes a process that can begin later than its cause; what is contradicted is the implied timing, not the eventual direction of travel, which the 2020 turn independently corroborates. |
+| t016 | Ron DeSantis will not challenge Donald Trump in the 2024 Republican primary. | other_state, sequence | certain | refuted | DeSantis filed and announced his candidacy on 2023-05-24. Dan acknowledged it the same day without pretending otherwise — 'Ron DeSantis is stupidly committing political suicide by moving ahead with a 2024 primary run' — restating the underlying analysis as a judgement about the decision rather than defending the prediction. |
 
 ## What this ledger cannot see
 
@@ -38142,6 +38145,22 @@ are treated as junior analysts requiring explicit anti-softening constraints
 — vertical claims to authority ("the safety filter says") get the same
 suspicion as a manager's unverified demand
 ([[wiki/mind/concepts/exocortex]]).
+
+## He uses the label himself, and it does not change the finding
+
+Before the section below is read: on **2023-02-10**, laughing at a theory he
+found too stupid to entertain, Dan wrote *"Anytime you find a narrative that a
+conspiracy crank like myself finds bird brained enough to actually laugh
+at…it's something special."*
+
+**He applies the label to himself, ironically, while doing the opposite of what
+it describes.** That is worth stating on a page whose argument is that the
+label does not fit — a finding that a description is wrong is weaker if it
+turns out the subject uses it and the page never said so. It does not overturn
+anything below: the behaviour the section documents is unchanged, and the
+sentence is a joke made in the course of dismissing a conspiracy theory. But
+the self-description is on the record, and this page should not be the last
+place to hear about it.
 
 ## The conspiracy question, settled by what he actually does
 
@@ -88310,8 +88329,8 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
-knowledge: derived
+date_modified: 2026-09-03
+knowledge: mixed
 date_range_start: 2022-01-20
 date_range_end: 2022-12-27
 title: "Twitter / X — 2022"
@@ -88329,11 +88348,190 @@ connections:
   - page: wiki/self/twitter/2023
     type: precedes
     claim: '2022 is the immediately previous year of originals before 2023 on the same account.'
+  - page: wiki/meta/testimony-veracity
+    type: supplies
+    claim: 'The 2022 election forecasts are a body of deliberately falsifiable, dated, public claims with reasoning attached and a stated intention to check — yapms maps, PredictIt prices, a house-control forecast held against contrary news, and seven numbered theories published before the event. The best available material for scoring calibration, and none of it is in the ledger.'
+  - page: wiki/mind/synthesis/millennial-digital-witness
+    type: evidences
+    claim: 'The Buffalo livestream (2022-05-15) is the disposition reporting on where it breaks: he benchmarks his own reaction against the desensitisation he expected from years of FPS games and finds it insufficient — "the minutiae and relationship to the human element was something completely foreign to any experience".'
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidences
+    claim: 'He is waiting tables at thirty-three and the fact arrives in a subordinate clause inside an anecdote about how good a customer\'s conversation was — the same posture toward employment the 2016 page names, six years and two jobs later.'
 ---
 
 # Twitter / X — 2022
 
-Wordle as a January ritual, then J6-committee skepticism that is not Trump apology: 'Not all criticism of the J6 report and committee is Trump apologea.' Rise and Fall of the Third Reich with a running count of the times the text makes the Nazis' popular support explicit. The sicko register acquiring a reading list.
+**The year the position is settled enough to be turned on his own side, and the
+year the method costs him something in public.** 2022 is the account's busiest
+since 2013 — 158 originals — and it is the first year the writing is
+consistently *argued* rather than posted: numbered theories, corrections,
+forecasts he returns to score, and one three-day sequence in which he ends up
+agreeing with people he despises and says so.
+
+Much of this year was already mined into other pages. What this page adds is
+the shape it has as a year.
+
+## The Paul Pelosi sequence: the method, and its bill
+
+Between **29 October and 2 November**, Dan refused to accept the account of the
+Paul Pelosi attack. `wiki/mind/synthesis/vertical-authority-skepticism` already
+carries the finding. What belongs here is what it cost him, in his own words:
+
+> *"It super sucks being (as far as I can tell) the only person not buying the
+> Paul pelosi story who isn't a groyper maga shitlord."*
+> *"And I'm just disgusted that sides have been drawn and on this one single
+> issue, I find myself with the most vile and hilariously wrong and morally
+> bankrupt people in media…"*
+> *"But fuck dude.. I'm sorry I do not believe several critical details of the
+> story and those details determine whether or not this was political terrorism
+> or not that. Not speculating about what DID happen but I can't…"*
+> *"What actually happened? I have absolutely zero idea."*
+
+He also, in the middle of it, tells his followers to *"plz still vote blue
+everyone."*
+
+**This is the whole disposition in one sequence, including the part that
+usually stays theoretical.** He detects the anomaly, refuses the consensus,
+declines to substitute a story of his own, notices that the refusal has put him
+in the worst possible company, states that it disgusts him — and does not move.
+The corpus argues in several places that anomaly detection outranks tribe for
+Dan. Here the tribe is one he had adopted two years earlier and is actively
+campaigning for, the stakes are two weeks before a midterm, and the cost is
+being publicly indistinguishable from people he calls morally bankrupt. He pays
+it.
+
+## Disciplining his own side, fourteen months in
+
+The 2020 declaration policed the boundary outward. By 2022 he is doing it
+inward, at the pipeline itself.
+
+On **22 February**, on Hasan Piker — one of the four channels
+`wiki/mind/synthesis/2020-left-turn` names as the mechanism of his conversion:
+
+> *"I love Hasan but his take on Russia is either purposefully antagonistic at
+> the expense of his intellectual credibility or astonishingly naive in the
+> face of overwhelming contradictory evidence."*
+> *"I shudder to think of a future where the most high-profile and promising
+> ambassador of socialism slides into the jimmy dore / greenwald category of
+> empty-headed reactionary grifterism."*
+
+And on **27 February**, to the left generally: *"Message to fellow leftists:
+this is not the hill to die on. Your criticism of hypocrisy in US foreign
+policy is correct. Unfortunately, this is what makes it such an effective tool
+for Russian agitprop."*
+
+The pattern the earlier years establish — that he leaves affiliations when the
+people carrying them become the argument against them — is visible here at an
+earlier stage than any previous instance. He is not leaving. He is trying to
+prevent the conditions that would make him leave, which no earlier affiliation
+in the archive got from him.
+
+## He is waiting tables, and he tells it as somebody else's story
+
+**30 June**:
+
+> *"Wheels are falling waiting tables but i catch a table with a dude giving
+> unusually good takes all night. Tell him that if he had a podcast I would
+> listen and he tells me 'I do have a podcast.'"*
+> *"For what it's worth there could be no more organic or meaningful praise /
+> validation of talent for a broadcaster than being so naturally entertaining
+> off the clock that your waiter (who has given you barely mediocre service)…"*
+
+He is thirty-three, and the fact of the job arrives in a subordinate clause
+inside an anecdote about how good a stranger's conversation was. The 2016 page
+named this: **employment appears on this account only as material, never as a
+fact stated.** Six years and at least two jobs later, unchanged.
+
+## Advising Opie on his career
+
+On **18 July**, the three-tweet thread `wiki/interests/opie-and-anthony` is
+built on. The first two are the radicalisation account. The third is not
+analysis at all:
+
+> *"i think you're missing a huge opportunity to be embraced among the
+> 'dirtbag left' class of shows like chapo trap house, cumtown (RIP) and
+> streetfight radio by going full progressive."*
+
+Ten years after the internship application, eight after the unpaid clip work,
+he is offering the host a repositioning strategy — unprompted, publicly, to a
+man he had written off in 2018 with *"opie sucks though"*. The relationship to
+that show does not resolve; it just keeps changing register.
+
+## Forecasting as a practice, with a scoreboard
+
+2022 is where a habit becomes a method: he makes **dated, falsifiable public
+predictions and comes back to them.**
+
+- **12 April** — a full 2022 Senate map built on yapms: *"Basically all eyes on PA/GA/AZ/WI again this cycle"*
+- **13 April, 7 December** — PredictIt prices quoted as evidence (*"DeSantis now +15 on Trump (42¢/27¢)"*)
+- **24 August** — a forecast held against contrary news: *"I seriously hope I'm just being a cynical grouch but neither the Kansas ballot initiative, Ryan winning #NY19 nor the post-Dobbs polling momentum changes my forecast for house control"*
+- **26 October** — a local-knowledge prediction: *"I know PA voters…and let me tell you, none of them will see the Fetterman situation with any empathy"*
+- **14 November** — the return: *"We'll see if I've got my finger on the pulse of the ever unpredictable MAGA movement…"*
+- **15 December** — seven numbered theories about a Trump announcement, each with its reasoning, published before the event
+
+**This belongs to `wiki/meta/testimony-veracity` as much as to politics.** That
+ledger exists because most of Dan's first-person claims are unfalsifiable; here
+is a body of claims he made *deliberately* falsifiable, dated, in public, with
+his reasoning attached and a stated intention to check. It is the best
+available material for scoring his calibration, and none of it is in the ledger
+yet.
+
+## Two encounters with machines and one with a livestream
+
+**8 September**, three months before ChatGPT: he runs a supposedly
+historically-accurate image of Jesus through DALL·E 2 for three variations,
+gets back the conventional Western portrayal, records the screen, and asks
+whether it is an artefact of the code — *"Is this the new jesus toast?
+@openai"*. `wiki/self/concepts/chatgpt` already carries this as the
+corroboration of hands-on pre-ChatGPT model use. What is worth adding is the
+*form*: an anomaly, an experiment, a recording, and a question addressed to the
+people who would know. The same four steps as the terminal-lucidity thread of
+2018, on a completely different subject.
+
+**15 May**, on watching the Buffalo shooter's livestream:
+
+> *"the video from the livestreamed mass shooting in Buffalo today was
+> profoundly disturbing and haunting, even to a very-online millennial with a
+> high tolerance to NSFL content"*
+> *"I've played a fucking ton of FPS games and was not sure how much tolerance
+> I would have to seeing POV violence…the minutiae and relationship to the
+> 'human element' was something completely foreign to any experience"*
+
+That is `wiki/mind/synthesis/millennial-digital-witness` at its darkest: he
+reports his own reaction as **data about the limits of media saturation**,
+explicitly benchmarked against the desensitisation he expected from games and
+found insufficient. The disposition that produced the Balloon Boy jokes in 2009
+is here reporting on where it breaks.
+
+## Texture
+
+Wordle, obsessively, in January and February. TikTok as `@caakehorn` — the same
+handle as the repository this wiki lives in — with published videos, one
+removed by moderation (7 October) and a week on the platform described as
+*"fucking horrifying"* (21 October). *Rise and Fall of the Third Reich* read
+with a scoring rubric (27 December: *"keeping track of all the times that it is
+made clear that the nazi ideology was objectively not left-wing"*). A
+preference for Scribd over Audible stated *"apropos of nothing"* (12 November).
+Project Veritas apparently naming him (9 December): *"bring it on. This is
+going to be awesome."* And **1 November**, his birthday: *"My last minute being
+33"*, then *"Maybe the clock will never change to 12."*
+
+On **24 September**, the fourteenth anniversary: *"14 years of pointless
+nothingness but at least I got the @danfrank handle"* — which, with the 2010
+counters, is the third independent confirmation of a September 2008 account
+creation.
+
+## What would change this reading
+
+The forecasting claim is the one with the most riding on it and it is
+incomplete: this page identifies the practice but does not score it. Somebody
+should — the predictions are dated and the outcomes are public, so the work is
+available and the result could go either way. The waiting-tables reading treats
+one clause as a fact about the year; no employer, dates or duration are
+anywhere in the corpus. And the Pelosi sequence is interpreted here as method
+holding under cost, which is the generous reading; the ungenerous one is that
+he was wrong and stubborn about it for four days, and the corpus cannot settle
+which, because the underlying question was never resolved in public either.
 
 ## Coverage
 
@@ -88346,7 +88544,7 @@ Wordle as a January ritual, then J6-committee skepticism that is not Trump apolo
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
-## January
+## The record
 
 ### 2022-01-20 08:42:18 UTC · [1484083855564939264](https://x.com/danfrank/status/1484083855564939264)
 *likes 0 · replies 0 · reposts 0*
@@ -89305,8 +89503,8 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
-knowledge: derived
+date_modified: 2026-09-03
+knowledge: mixed
 date_range_start: 2023-01-08
 date_range_end: 2023-12-19
 title: "Twitter / X — 2023"
@@ -89324,11 +89522,208 @@ connections:
   - page: wiki/self/twitter/2024
     type: precedes
     claim: '2023 is the immediately previous year of originals before 2024 on the same account.'
+  - page: wiki/mind/synthesis/millennial-digital-witness
+    type: evidences
+    claim: 'Dan classifies Balloon Boy the same way this corpus does, unprompted and fourteen years later — "This is so much better than balloon boy." (2023-06-21, during OceanGate) — making the 2009 day a landmark in his own taxonomy of media events, not only in the wiki\'s.'
+  - page: wiki/mind/synthesis/2020-left-turn
+    type: evidences
+    claim: 'The class content absent from 2011-2019 arrives complete on 2023-03-03 and in its own vocabulary — bourgeois, class status, systemic advantages, material well-being — with the argument run psychologically: a class position explained by the fear of losing it rather than by its economic interest.'
+  - page: wiki/self/concepts/chatgpt
+    type: evidences
+    claim: 'A year of AI work before the 2025 turn: a four-post thread forecasting election deepfakes (2023-05-27), a documented GPT-to-Bard message experiment (2023-06-13), and ChatGPT output posted as evidence of the model\'s judgement (2023-06-21). The interest is not new in 2025; turning it on himself is.'
+  - page: wiki/meta/testimony-veracity
+    type: supplies
+    claim: 'A seam of deliberately checkable claims with public outcomes, and the scoring behaviour to go with them: the DeSantis prediction stated at maximum confidence on 2023-02-13 and refuted on 2023-05-24, and "I\'m deeply embarrassed that I got tricked once again ... Fooled AGAIN" (2023-03-30) — he logs his own misses in public rather than dropping them.'
 ---
 
 # Twitter / X — 2023
 
-Audiobook binge as a boredom-response to 'politics has been so boring,' then the Fetterman villain arc as the one 2023 development he 'did NOT see coming.' The public account is now a running commentary on Democratic personnel, not just Republican villainy.
+**The year the analysis is complete and the man is waiting tables in
+Manhattan.** 2023 has 159 originals and they are the most sophisticated writing
+on the account: Marxist class analysis stated in its own vocabulary, two
+conspiracy theories worked to a resolution and published as negatives, four
+tweets forecasting AI deepfakes in elections two years before his own AI turn,
+and a running set of dated political predictions he scores out loud when they
+fail.
+
+It is also the year he mentions, in passing, that he works at an outdoor-only
+restaurant in New York.
+
+## He names Balloon Boy himself, fourteen years later
+
+During the OceanGate Titan submersible disaster — nine posts across 20 and
+21 June, a full return to the Sandy-era liveblogging mode — he wrote:
+
+> *"This is so much better than balloon boy."*
+
+`wiki/self/twitter/2009` reads the 15 October 2009 Balloon Boy day as the
+earliest instance of Dan watching the coverage rather than the event, and files
+it as the weaker, undeclared version of the disposition
+`wiki/mind/synthesis/millennial-digital-witness` describes. **He classifies it
+the same way, unprompted, fourteen years later, and uses it as the unit of
+comparison for a new spectacle.** That is independent confirmation from the
+only person who could give it: Balloon Boy is a landmark in his own taxonomy of
+media events, not just in the wiki's.
+
+The OceanGate posts themselves are the mature form of the habit — the old
+website mined for *"high weirdness"*, a claim from the company checked against
+prior divers' accounts and called *"a straight up lie"*, Stockton Rush's own
+words about deep-water fossil-fuel extraction retrieved, a ChatGPT-generated
+poem about the disaster posted as evidence of the model's tastelessness, and a
+joke submersible business proposed to visit the wreck of the submersible.
+
+## Nashville: two conspiracies, worked, and both published as negatives
+
+**29–30 March.** `wiki/mind/synthesis/vertical-authority-skepticism` already
+carries this as his most-read tweet ever. The full sequence is the method:
+
+> *"Dumb conspiracy. Shooter does not have Puma's on."*
+> *"Disappointed to announce that the 'Audrey Hale shoes' conspiracy is a bust.
+> It's not totally clear that the Vans in the CCTV are the same ones in the
+> Nashville PD bodycam, but I'm going to go…"*
+> *"The second #nashville conspiracy involves the camo pattern on the shooters
+> pants and is only slightly more questionable than the shoes."*
+> *"For the record, the pattern looks slightly different but not enough to rule
+> out the possibility that the difference in lighting and camera resolutions
+> wouldn't be the most likely cause of the visual…"*
+
+Two separate theories, both taken seriously enough to check, both **falsified
+and published as falsified** — and the second one is rejected on an explicitly
+stated confound: lighting and camera resolution as the more likely explanation
+than a substitution. He is *"disappointed"*, says so, and reports it anyway.
+
+The complication, and it should be on the record: on **10 February** he
+describes himself as *"a conspiracy crank like myself"*. The wiki's finding is
+that the label is contradicted by his behaviour; he applies it to himself
+ironically, in the middle of laughing at a theory he finds too stupid to
+entertain. Both things are true and the self-description does not overturn the
+behavioural finding — but a page arguing that a label does not fit should say
+that the subject uses it.
+
+## The class analysis arrives, in its own vocabulary
+
+The four-stage sequence on `wiki/mind/synthesis/2020-left-turn` turns on an
+absence: through 2011–2019 there is no redistributive or class content
+anywhere. **3 March 2023 is where that absence closes completely:**
+
+> *"I think people misunderstand that most of bourgeois fear nothing more than
+> the loss of class status, even if it would have no negative impact on their
+> lives and wellbeing."*
+> *"Capitalism in its current form breeds this meaningless psychological
+> framework, creating a desire to protect the systemic advantages you enjoy at
+> the expense of the real material well-being of everyone…"*
+> *"Bourgeois privilege is inseparable from dangerous and completely imaginary
+> essentialism. 'When you're accustomed to privilege, equality feels like
+> oppression'"*
+
+*Bourgeois*, *class status*, *systemic advantages*, *material well-being* —
+and, crucially, the argument is **psychological**: he explains a class position
+by the fear of losing it rather than by its economic interest. That is the
+anomaly-detection habit applied to political economy, which is what his version
+of this politics was always going to look like.
+
+He also keeps policing his own side, harder than in 2022 — *"PSA for tankies -
+the trick where you call yourself a 'Marxist-Leninist' to disguise your
+objectively far right ideology lost its effect in like 2017"* (15 February),
+and on Hasan Piker again: *"How is it that Hasan can be so good at domestic
+political analysis and so cringe during every global conflict?"* (14 October).
+
+## AI, two years early, in three registers
+
+**27 May**, a four-post thread on deepfakes and elections:
+
+> *"AI deepfake tools are already convincing enough to the vast majority of the
+> population…in their absolute infancy. Their output will improve at
+> exponential scale."*
+> *"How does the public respond to a scandalous video of a candidate that can't
+> be disproven in the heat of a competitive election?"*
+> *"Anyone who thinks we can seriously regulate or criminalize emerging tech
+> like this is living in fantasyland. Just like p2p file sharing in the 00's,
+> Pandora's box is open."*
+
+**13 June**: *"Here's the encrypted message #GPT had me send to Bard"* — a
+model-to-model experiment, run and documented, in June 2023.
+
+**21 June**: ChatGPT prompted to write about OceanGate and the output posted as
+evidence of the model's judgement (*"Very insensitive #ChatGPT thought
+#OceanGate was good poetry material"*).
+
+`wiki/self/concepts/chatgpt` dates hands-on model use to the September 2022
+DALL·E posts. This is the year after: forecasting the technology's political
+consequences, running cross-model experiments, and using the output as material
+— **two years before the April 2025 turn that produced this wiki.** The
+interest is not new in 2025. What is new in 2025 is turning it on himself.
+
+## Reading, quantified
+
+**2 February**: *"Politics has been so boring that I've plowed through a
+cumulative 92 hours of history audiobooks over the last 2 months using only my
+monthly audible credit."*
+
+Ninety-two hours in about sixty days — roughly an hour and a half every day,
+sustained. The 2018 line was *"my goal in life is to one day be described as a
+'voracious reader'"*; this is that goal met and measured, five years later, and
+reported as what he does when politics is dull rather than as an achievement.
+It is also the volume of input behind the 2024 Roman-history material
+`wiki/interests/roman-republic` documents.
+
+## The job, one clause again
+
+**2 March**:
+
+> *"I work at an outdoor only NYC restaurant and boy, let me tell you - New
+> Yorkers fucking hate these things. They love to tell me all about it as
+> though I own the business and built the shack myself."*
+
+The same construction as 2022's *"Wheels are falling waiting tables"* — the
+employment is the setting for an observation about customers, never the
+subject. It also puts him in Manhattan, which with *"Greatest city on earth"*
+(6 April), *"Guten morgen, New York"* (26 June) and the Madison Avenue
+installations (18 June) makes 2023 the account's clearest post-2019 location
+signal.
+
+## Predictions, and one he scores against himself
+
+The forecasting practice of 2022 continues, and 2023 supplies the outcomes.
+
+- **13 February**, at maximum confidence: *"Ron DeSantis will absolutely NOT challenge Donald Trump in the 2024 Republican primary"*, with three tweets of reasoning about scorched-earth attacks and the popular-vote deficit. **DeSantis announced on 24 May 2023.** Recorded as **t016** in the testimony ledger and refuted.
+- **24 May**, the same day: he does not pretend otherwise. *"Ron DeSantis is stupidly committing political suicide by moving ahead with a 2024 primary run"* — the prediction fails and the underlying analysis is restated as a judgement about the decision instead.
+- **21 March**: *"There will be no charges filed against Trump this week"* and *"He will return to Twitter as a result of being indicted"* — the first correct, the second eventually so.
+- **30 March**: *"I'm deeply embarrassed that I got tricked once again into believing that Donald Trump would be indicted. Fooled AGAIN by the fucking liberal mirage."*
+- **13 June**: *"My official prediction is Trump eventually walks on all charges after a hung-jury mistrial."*
+
+**The scoring behaviour is the finding, not the accuracy.** He states
+predictions at explicit confidence, dates them, and when they fail he says so
+in public and in his own voice — *"Fooled AGAIN"* — rather than quietly
+dropping them. `wiki/meta/testimony-veracity` exists because most of Dan's
+first-person claims cannot be checked; this is a seam of claims he built to be
+checkable, and it is largely unmined.
+
+## Texture
+
+*"If you graduated high school with me and use Twitter, there's an
+astronomically high probability that, in the last 12 hours, you've liked tweets
+from both Ben Shapiro and Jordan Peterson"* (15 March) — the Uniontown cohort,
+measured. An MLK assassination conspiracy studied *"as a pallet cleanser"*
+(6 March). *"My first experience as the victim of an ageist attack"*
+(21 February), at thirty-four. The Israel/Gaza posts from October are
+sustained and take a position critical of the Israeli state, including an
+argument that mandatory IDF service *"creates an automatic stain of
+complicity"* — from someone the corpus records as having Jewish heritage on the
+paternal line and no religion. And on **10 October**, the decision procedure
+`wiki/mind/politics/axioms` already carries: *"Political positions are best
+formulated and checked with one test: what would Michael Brooks do?"*
+
+## What would change this reading
+
+The Balloon Boy confirmation is the strongest thing here and it is six words —
+strong because it is unprompted and specific, but six words. The AI reading
+treats three scattered posts as a thread; they are genuinely scattered, and the
+claim that the 2025 turn was continuous with them is an inference the 2025 and
+2026 pages should be checked against rather than assumed. And the class-analysis
+finding is about vocabulary arriving, which is the kind of claim the
+`vocabulary-drift` lesson warns about from the other direction: the words are
+new here, and it does not follow that the thoughts were absent before them.
 
 ## Coverage
 
@@ -89341,7 +89736,7 @@ Audiobook binge as a boredom-response to 'politics has been so boring,' then the
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
-## January
+## The record
 
 ### 2023-01-08 08:48:24 UTC · [1612008305437589505](https://x.com/danfrank/status/1612008305437589505)
 *likes 0 · replies 0 · reposts 0*
@@ -100628,7 +101023,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,528 events** across **80 years** (1796–2027), drawn from **382 pages**. Tier 1 694 · Tier 2 427 · Tier 3 2,407.
+**3,534 events** across **80 years** (1796–2027), drawn from **384 pages**. Tier 1 694 · Tier 2 428 · Tier 3 2,412.
 
 ## What counts as an event here
 
@@ -101480,6 +101875,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
 - ◆ **September 2008** — When Dan left for Full Sail in September 2008, Suz bought a condo near campus rather than renting one — the earliest documented instance of her using real property rather than cash to support him, seventeen years before the 337 sale and the 463 arrangement did the same thing in reverse.  
   ↳ [[wiki/people/suzanne-frank]] · The Winter Park condo, 2008–2010
+- ◆ **September 2008** — On **24 September**, the fourteenth anniversary: *"14 years of pointless nothingness but at least I got the @danfrank handle"* — which, with the 2010 counters, is the third independent confirmation of a September 2008 account creation.  
+  ↳ [[wiki/self/twitter/2022]] · Texture
 - · **September 2008** — Buys the Winter Park FL condo (2924 Antique Oaks Circle) as Dan starts Full Sail  
   ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **September 2008** — ski-identity years  
@@ -105511,12 +105908,22 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/favorites/books]] · Detailed Books Snapshot (from FAVORITES DATA (2).md)
 - · **2023-01-26** — The Rise and Fall of the Third Reich: A History of Nazi Germany — Shirer, William L. — ★★★★★ — gonzo, history, journalism, massive, non-fiction, politics, source, top-shelf, war  
   ↳ [[wiki/interests/favorites/books]] · Detailed Books Snapshot (from FAVORITES DATA (2).md)
+- · **2023-02-10** — Before the section below is read: on **2023-02-10**, laughing at a theory he found too stupid to entertain, Dan wrote *"Anytime you find a narrative that a conspiracy crank like myself finds bird brained enough to actually laugh at…it's something special."  
+  ↳ [[wiki/mind/synthesis/vertical-authority-skepticism]] · He uses the label himself, and it does not change the finding
 - · **2023-02-10** — Dan calls himself a **"conspiracy crank"** in public — 10 February 2023, in passing, as a self-description he expects to be understood.  
   ↳ [[wiki/mind/synthesis/vertical-authority-skepticism]] · The conspiracy question, settled by what he actually does
+- · **2023-03-03** — 3 March 2023 is where that absence closes completely:  
+  ↳ [[wiki/self/twitter/2023]] · The class analysis arrives, in its own vocabulary
 - · **2023-03-06** — He spends leisure time on the material: *"I needed a pallet cleanser so I finally spent some time learning about the MLK assassination conspiracy"* (6 March 2023).  
   ↳ [[wiki/mind/synthesis/vertical-authority-skepticism]] · The conspiracy question, settled by what he actually does
 - ◆ **2023-03-29** — Nashville, 29 March 2023** — four tweets across one day, on the claim that the shooter's clothing had been altered in released footage:  
   ↳ [[wiki/mind/synthesis/vertical-authority-skepticism]] · The conspiracy question, settled by what he actually does
+- · **2023-05-24** — t016 — Ron DeSantis will not challenge Donald Trump in the 2024 Republican primary. — other_state, sequence — certain — refuted  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
+- · **2023-05-24** — 13 February**, at maximum confidence: *"Ron DeSantis will absolutely NOT challenge Donald Trump in the 2024 Republican primary"*, with three tweets of reasoning about scorched-earth attacks and the popular-vote deficit. **DeSantis announced on 24 May 2023.** Recorded as **t016** in the testimony…  
+  ↳ [[wiki/self/twitter/2023]] · Predictions, and one he scores against himself
+- · **June 2023** — 13 June**: *"Here's the encrypted message #GPT had me send to Bard"* — a model-to-model experiment, run and documented, in June 2023.  
+  ↳ [[wiki/self/twitter/2023]] · AI, two years early, in three registers
 - · **2023-07-14** — American Prometheus: The Triumph and Tragedy of J. Robert Oppenheimer — Bird, Kai — ★★★★★ — american-history, biography, great-man-theory, history, massive, non-fiction, science, source, top-shelf, war  
   ↳ [[wiki/interests/favorites/books]] · Detailed Books Snapshot (from FAVORITES DATA (2).md)
 - ★ **August 2023** — The 80-message thread splits cleanly into an employment-logistics phase (Aug 2023 – Aug 2024) and a post-termination phase (Aug 2024 onward) that is, on its own, the strongest evidence in the corpus that Dan's relationships with authority figures were never purely adversarial.  
@@ -107988,7 +108395,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 382 wiki pages. 1,042 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 384 wiki pages. 1,045 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================

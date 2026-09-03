@@ -125,6 +125,21 @@ twenty-two-year-old about a stranger — and it is the same move he made that
 same year against a pastor and against people predicting the end of the world.
 **He never attacks what people believe. He attacks their right to be so sure.**
 
+## He calls himself a conspiracy crank, and it changes nothing
+
+This page argues that "conspiracy crank" is the wrong label for Dan. He uses it
+about himself.
+
+On **February 10, 2023**, while laughing at a theory he thought was too silly
+to take seriously, he wrote: *"Anytime you find a narrative that a conspiracy
+crank like myself finds bird brained enough to actually laugh at…it's something
+special."*
+
+It is a joke, made in the middle of dismissing a conspiracy theory — which is
+close to the opposite of what the label describes. It does not change what he
+actually does, which is the rest of this page. But a page saying a description
+is wrong should not leave out the fact that the person uses it, so here it is.
+
 ## The exception, and what it really is
 
 Trust does get extended sideways, to very few people. Two are named in the

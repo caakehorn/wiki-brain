@@ -8909,3 +8909,70 @@ same Dice Clay comparison he had made in 2012, now checked against the footage.
 2021's vocabulary is a settled leftist's rather than a convert's (*material
 conditions*, *neoliberal*, *corpo donors*), and the primary opponent is the
 Democratic Party, which is the tell.
+
+## [2026-09-03] ingest | self | 2022 and 2023 read in full — he names Balloon Boy himself, and the method's bill comes due in public
+
+317 rows across the account's two densest recent years.
+
+**He confirms the 2009 reading in his own words, fourteen years later.** During
+OceanGate, 2023-06-21: *"This is so much better than balloon boy."* The 2009
+page reads the Balloon Boy day as the earliest instance of him watching the
+coverage rather than the event; **he classifies it the same way, unprompted, and
+uses it as the unit of comparison for a new spectacle.** Independent
+confirmation from the only person who could supply it.
+
+**The Paul Pelosi sequence is the method with its bill attached.** Already on
+`vertical-authority-skepticism` as a finding; what 2022 adds is the cost stated
+aloud: *"It super sucks being (as far as I can tell) the only person not buying
+the Paul pelosi story who isn't a groyper maga shitlord"*, *"I find myself with
+the most vile and hilariously wrong and morally bankrupt people in media"*, and
+still *"What actually happened? I have absolutely zero idea."* Two weeks before
+a midterm he was campaigning in, against a tribe he had adopted two years
+earlier, he detects the anomaly, refuses the consensus, declines to substitute a
+story, names the company it puts him in, says it disgusts him — and does not
+move.
+
+**He now disciplines his own side, which no earlier affiliation ever got.** On
+Hasan Piker, one of the four channels `2020-left-turn` names as his conversion
+mechanism: *"I shudder to think of a future where the most high-profile and
+promising ambassador of socialism slides into the jimmy dore / greenwald
+category"* (2022-02-22). The prior pattern was leaving when the carriers became
+the argument; here he tries to prevent the conditions that would make him leave.
+
+**The class content arrives complete on 2023-03-03**, in its own vocabulary —
+*bourgeois*, *class status*, *systemic advantages*, *material well-being* — and
+argued **psychologically**: a class position explained by the fear of losing it
+rather than by its economic interest. That closes the absence the four-stage
+sequence turns on.
+
+**AI is two years early and in three registers**: a four-post thread forecasting
+election deepfakes (2023-05-27, *"Pandora's box is open"*), a documented
+GPT-to-Bard message experiment (2023-06-13), and ChatGPT output posted as
+evidence of the model's judgement (2023-06-21). With the September 2022 DALL·E
+work already on `self/concepts/chatgpt`, the interest is plainly not new in
+2025. What is new in 2025 is turning it on himself.
+
+**A prediction seam the testimony ledger did not have.** t016: *"Ron DeSantis
+will absolutely NOT challenge Donald Trump in the 2024 Republican primary"*
+(2023-02-13, three tweets of reasoning) — refuted 100 days later, `overreach`,
+and **`--subject other`, the class `CLAUDE.md` records as nearly empty**. The
+scoring behaviour is the real finding: he logs his own misses in public
+(*"Fooled AGAIN by the fucking liberal mirage"*, 2023-03-30) rather than
+dropping them. The 2022 and 2023 forecasts are dated, reasoned and publicly
+settled, and are the best unmined material for calibration in the corpus.
+
+**Also:** he is waiting tables in 2022 and at *"an outdoor only NYC
+restaurant"* in 2023, and both times the job arrives in a subordinate clause
+inside an anecdote about customers — the posture the 2016 page named, unchanged
+across seven years. The 92-hour audiobook figure (2023-02-02) is the 2018
+*"voracious reader"* goal met and measured. The Buffalo livestream
+(2022-05-15) is the digital-witness disposition reporting on where it breaks,
+benchmarked explicitly against years of FPS games. And on 2022-07-18 he pitches
+Opie a repositioning strategy toward the dirtbag left — ten years after the
+internship application, four after *"opie sucks though"*.
+
+**One complication written back.** On 2023-02-10 Dan calls himself *"a
+conspiracy crank"*. `vertical-authority-skepticism` argues the label does not
+fit; it now says that the subject uses it, ironically, while dismissing a
+conspiracy theory. A finding that a description is wrong is weaker if the page
+is the last place to hear that he applies it to himself.

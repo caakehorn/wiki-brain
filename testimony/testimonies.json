@@ -1,7 +1,7 @@
 {
   "counts": {
-    "adjudicated": 15,
-    "testimonies": 15,
+    "adjudicated": 16,
+    "testimonies": 16,
     "voided": 0
   },
   "generated": "bin/wiki-testimony — do not hand-edit; the log is the record",
@@ -513,6 +513,41 @@
       "speaker": "operator",
       "specificity": 2,
       "subject": "self"
+    },
+    "t016": {
+      "about": "2024",
+      "adjudication": {
+        "at": "2026-09-03",
+        "direction": "none",
+        "evidence": "DeSantis filed and announced his candidacy on 2023-05-24. Dan acknowledged it the same day without pretending otherwise — 'Ron DeSantis is stupidly committing political suicide by moving ahead with a 2024 primary run' — restating the underlying analysis as a judgement about the decision rather than defending the prediction.",
+        "failure": [
+          "overreach"
+        ],
+        "magnitude": "the event he ruled out entirely occurred 100 days later",
+        "outcome": "refuted",
+        "slant": "neutral",
+        "tier": "primary_document"
+      },
+      "asserted": "2023-02-13",
+      "channel": "platform_self_report",
+      "claim": "Ron DeSantis will not challenge Donald Trump in the 2024 Republican primary.",
+      "classes": [
+        "other_state",
+        "sequence"
+      ],
+      "confidence": "certain",
+      "history": [],
+      "id": "t016",
+      "load_bearing": false,
+      "note": "Stated as 'absolutely NOT' with three tweets of supporting reasoning about scorched-earth attacks, MAGA/DeSantis voter crossover and the GOP popular-vote deficit. A deliberately falsifiable public prediction with a public outcome — the class CLAUDE.md notes is nearly empty in this ledger.",
+      "pages": [
+        "wiki/self/twitter/2023"
+      ],
+      "recorded_at": "2026-09-03",
+      "source": "raw/self/twitter/archive.jsonl",
+      "speaker": "operator",
+      "specificity": 3,
+      "subject": "other"
     }
   }
 }
