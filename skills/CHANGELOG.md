@@ -5,6 +5,23 @@ and its reason. `PROTOCOL.md` §6 forbids silently changing what a skill means, 
 a skill that is not named here has entered the corpus with no account of why it
 should be believed — and `bin/wiki-skills check` fails on exactly that.
 
+## 2026-09-02 — GPT-5.6 Luna handoff
+
+- Added `repo/pr-completion.md` as an active cross-agent completion rule. It
+  makes final-state verification explicit: inspect the final diff, regenerate
+  and gate derived surfaces, verify the target branch and PR, and do not treat a
+  successful write/API response as proof that the requested artifact exists.
+  This operationalizes the repository's existing session-loop, change-safety
+  and derived-surface requirements at the point where an agent is about to say
+  "done".
+- Added `corpus/source-chain.md` as an active provenance rule. It carries the
+  existing synthesis and connection specifications into a reusable workflow:
+  preserve the path to raw evidence, distinguish observation from inference,
+  preserve contradictions, and make derived calculations reproducible.
+- Registered GPT-5.6 Luna in `skills/registry/manifests/` with its available
+  repository, web, file-retrieval and Python-analysis capabilities. No secret
+  values are recorded.
+
 ## 2026-08-30 — the subsystem is wired in
 
 The section shipped earlier today as seven markdown files describing a system
