@@ -23,27 +23,28 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-03 — 1 page
+## 2026-09-03 — 4 pages
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/meta/digest]] | meta | — |
+| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
 | [[wiki/meta/testimony-veracity]] | meta | — |
 
-## 2026-09-02 — 44 pages
+## 2026-09-02 — 42 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/interests/music/aliases/sloppp]] | interests | **GAP CLOSED** — the gap, as this page stated it — *"episodes 1–7 of 'Week in Trap' and any 'Heatwave Vol. 1' are unaccounted for."* **Heatwave Vol. 1** is dated: announced 13 May 2014 (*"First hour of my summer mix s |
 | [[wiki/interests/music/overview]] | interests | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/interests/video-games]] | interests | — |
-| [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/index]] | meta | — |
 | [[wiki/meta/instruments/index]] | meta | — |
-| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/readers-digest]] | meta | — |
-| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | **CORRECTED** — An earlier version of this section claimed the archive showed **two steps, not one** — a first step in 2017 (4.0% → 11.1%, "nearly tripling") separating *political engagement* from *socialist identity |
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
+| [[wiki/mind/synthesis/twitter-2024-cognitive-state]] | mind | — |
 | [[wiki/people/alexis-armel]] | people | **CORRECTED** — this paragraph first read *"four months in."* That was wrong and it understated the finding. The operator capture of 2026-08-27 dates the meeting to **Thanksgiving 2009** (26 November); the tattoo is  |
 | [[wiki/people/dan-polyak]] | people | — |
 | [[wiki/people/eric-jester]] | people | **CORRECTED** — this page described the friendship itself as "sparse but genuinely warm." That is an accurate reading of the *message thread*, which begins **May 2017**. It is not an accurate description of the frien |

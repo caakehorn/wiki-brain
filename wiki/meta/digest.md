@@ -21,9 +21,9 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | | |
 |---|---|
-| Pages | 496 |
-| Pages touched in the last 14 days | 187 |
-| Pages reasoning from other pages (`synthesizes:`) | 78 |
+| Pages | 497 |
+| Pages touched in the last 14 days | 188 |
+| Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 43 |
 | Open gaps | 507 |
 | Standing predictions | 65 |
@@ -34,7 +34,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 |---|---|
 | people | 175 |
 | interests | 96 |
-| mind | 77 |
+| mind | 78 |
 | self | 59 |
 | timeline | 42 |
 | work | 15 |
@@ -48,16 +48,16 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | Status | Pages |
 |---|---|
 | active | 190 |
-| stable | 165 |
+| stable | 166 |
 | closed | 100 |
 | archived | 29 |
 | stub | 12 |
 
 ## The last few days
 
-**2026-09-03** — 1 page
+**2026-09-03** — 4 pages
 
-**2026-09-02** — 44 pages
+**2026-09-02** — 42 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result
@@ -157,6 +157,7 @@ have moved since.
 - [[wiki/mind/synthesis/the-serial-monogamist]] — 8 premises
 - [[wiki/mind/synthesis/the-unbroken-bond]] — 5 premises
 - [[wiki/mind/synthesis/totality-themes]] — 28 premises
+- [[wiki/mind/synthesis/twitter-2024-cognitive-state]] — 1 premise
 - [[wiki/mind/synthesis/vertical-authority-skepticism]] — 19 premises
 - [[wiki/people/alexander-jackson]] — 1 premise
 - [[wiki/people/ally-lubin-cognitive-profile]] — 4 premises

@@ -1,5 +1,5 @@
 WIKI-BRAIN — LLM ACCESS POINT
-generated 2026-09-03 · 496 pages · full corpus ~1,749,234 tokens
+generated 2026-09-03 · 497 pages · full corpus ~1,755,556 tokens
 
 WHAT THIS IS
 A machine-readable export of a personal wiki (a 'second brain') that
@@ -230,6 +230,7 @@ The Rescue Premise — What Is Actually Different About the August 2026 Rupture 
 The Serial Monogamist | https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-serial-monogamist.txt | Dan has been continuously inside a long-term relationship for roughly seventeen of the last seventeen years, with the total time unattached measurable in wee...
 The Unbroken Bond | https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/the-unbroken-bond.txt | Since leaving high school, Dan has been continuously inside a long-term monogamous relationship for approximately **seventeen years**, with an unattached tot...
 Totality Themes | https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/totality-themes.txt | **The single generative rule this page derives, stated in one sentence:** an action, object, or relationship is trusted, left alone, and allowed to run indef...
+2024 Twitter / X Cognitive State — Adversarial Historian | https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/twitter-2024-cognitive-state.txt | The 2024 @danfrank corpus is best understood as **adversarial reality-testing disguised as political posting**.
 Vertical Authority Skepticism | https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/vertical-authority-skepticism.txt | Dan treats the vertical axis — fathers, managers, owners, institutions, the state — as structurally suspect, and the horizontal axis — the vetted few peers —...
 
 --- PEOPLE ---

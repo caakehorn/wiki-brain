@@ -8355,3 +8355,28 @@ on that page as unresolved with what would settle it.
 datetime (the backend returned an id but no `created_at`), the true total tweet
 count, the 2008–09 months truncated at the ten-result search cap, 121 of the
 129 still-truncated rows, and seventeen years of reposts.
+
+## [2026-09-03] lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
+
+`wiki/synthesis/twitter-2024-cognitive-state.md` (PR #247, 2026-09-02) landed on
+`main` failing all three content gates simultaneously, which is what a merge
+without `bin/wiki-check` looks like from the next session's side.
+
+- **`bin/wiki-lint`**: `domain: synthesis` is not one of the ten domains, and
+  `wiki/synthesis/` was a directory nobody created on purpose. `status: draft`
+  is not a status. Five of its seven tags were invented.
+- **`bin/wiki-connect`**: edge type `analyzes` does not exist, and
+  `wiki/self/personality` does not resolve to a page.
+- **`bin/wiki-climb`**: it cited `wiki/self/twitter/2024.md` in `sources:`. A
+  wiki page reasoned *from* belongs in `synthesizes:` — that is the difference
+  between a synthesis and a page that read another page.
+
+Moved to `wiki/mind/synthesis/`, `page_type: synthesis`, `knowledge: earned`
+(it is a reading, not a derivation), `synthesizes: wiki/self/twitter/2024`,
+`evidenced-by` for `analyzes`, `wiki/mind/profile/index` for the dead target,
+and the `evidences` back-edge written onto the 2024 page that CLIMB step 6
+requires and the original never wrote. Inbound links in `master-timeline` and
+`2024.md` repointed.
+
+**Nothing about the page's argument was touched.** The frontmatter was wrong;
+the reading is the author's and stands as written.

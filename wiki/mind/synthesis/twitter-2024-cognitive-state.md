@@ -1,23 +1,24 @@
 ---
-domain: synthesis
-page_type: analysis
-status: draft
+domain: mind
+page_type: synthesis
+status: stable
 date_created: 2026-09-02
 date_modified: 2026-09-02
 date_range_start: 2024-01-01
 date_range_end: 2024-12-31
 title: "2024 Twitter / X Cognitive State — Adversarial Historian"
 sources:
-  - "wiki/self/twitter/2024.md"
   - "raw/self/twitter/archive.jsonl"
   - "raw/self/twitter/tweet-archive.xlsx"
-knowledge: derived
-tags: [twitter, cognition, personality, politics, historical-context, synthesis, forensic-analysis]
+knowledge: earned
+synthesizes:
+  - wiki/self/twitter/2024
+tags: [digital-footprint, personality-profile, politics, ideology, forensic-analysis]
 connections:
   - page: wiki/self/twitter/2024
-    type: analyzes
+    type: evidenced-by
     claim: "This synthesis interprets the 2024 original-tweet corpus as behavioral evidence rather than merely a list of opinions."
-  - page: wiki/self/personality
+  - page: wiki/mind/profile/index
     type: contextualizes
     claim: "Observed reasoning patterns are compared against the recorded personality and cognitive profile."
   - page: wiki/self/timeline

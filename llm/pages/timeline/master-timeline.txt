@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,432 events** across **80 years** (1796–2027), drawn from **369 pages**. Tier 1 685 · Tier 2 417 · Tier 3 2,330.
+**3,433 events** across **80 years** (1796–2027), drawn from **370 pages**. Tier 1 685 · Tier 2 417 · Tier 3 2,331.
 
 ## What counts as an event here
 
@@ -1016,9 +1016,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2010-01-03** — one is timestamped by the platform and one was typed into a profile  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **2010-01-03** — facebook — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 45 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
 - · **2010-01-03** — location history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 45 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
 - · **2010-01-03** — t002 — date, location — certain — refuted — The tweet archive has him in Florida for another eight weeks: 'moving to brooklyn in 9 days' (20 Feb 2010), 'last day in errrlando' (27th), 'peace out, florida. it's been real.' (28th)  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2010-01-03** — Places lived  
@@ -1636,7 +1636,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2014-05-07** — Drake x Cashmere Cat – No Lie ft. 2 Chainz (SLOPPP Bootleg) — Bootleg  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **2014-05-13** — sloppp — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 45 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
 - · **2014-05-14** — Heatwave Vol. 1** — "1 hour of tweriffik plurntastic tracks" — **Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
 - · **2014-05-22** — SLOPPP Trap Micromix — Mix  
@@ -2945,7 +2945,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **May 2017** — Twice Dan evidently weighed what he'd bought and found it light, and twice Vaughn retreated to the same defense: "What did it weight because he said it was 3.5… that's my best friend I got it from and I know he wouldn't do it on purpose" (May 2017), and "I swear I watched him weigh it" against a…  
   ↳ [[wiki/people/vaughn]] · The yard and the hustle, one channel
 - · **May 2017** — eric jester — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 45 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
 - · **May 2017** — Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two Nemacolin caddying seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a fellow caddie in 2017 who came back for 2018 as **assistant caddie master** — "I'm actually gonna be assistant caddie…  
   ↳ [[wiki/people/davey-fitzpatrick]] · Davey Fitzpatrick
 - · **May 2017** — Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose message thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — sparse check-ins that resurface every year or two, each one picking back up exactly where the last left…  
@@ -5109,6 +5109,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/rick-frank]] · The register: golf, Steelers, and the shape of the overlap
 - · **2024-12-08** — John PACI," 2024-12-08 15:19 ET, from `+16312588085`) .  
   ↳ [[wiki/people/john-paci]] · John Paci
+- · **2024-12-11** — The year page records 258 originals in the spreadsheet, spanning 31 January through 11 December 2024.  
+  ↳ [[wiki/mind/synthesis/twitter-2024-cognitive-state]] · Corpus and method
 - · **2024-12-21** — Cicero: The Life and Times of Rome's Greatest Politician — Everitt, Anthony — ★★★★☆ — ancient-history, biography, history, non-fiction, politics, roman-republic, top-shelf  
   ↳ [[wiki/interests/favorites/books]] · Detailed Books Snapshot (from FAVORITES DATA (2).md)
 
@@ -6340,7 +6342,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-14** — Dan does not hear or process sung lyrics as language in real time — he stated this directly (2026-07-14): words in a song register to him essentially as **timbre**, another textural element of the vocal performance, not as semantic content to be parsed and understood the way lyrics function for…  
   ↳ [[wiki/interests/music/concepts/lyrics-as-timbre]] · Lyrics as Timbre
 - · **2026-07-14** — vanessa frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 45 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
 - · **2026-07-14** — au zaatar — work  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-07-14** — t009 — enumeration — hedged — partial — The tweet archive holds two pieces the list did not: the letter 'A' for Alexis, tattooed 23 January 2010 and eight years earlier than anything on the list, and a Morrissey piece dated by 24 October 2019.  
@@ -6406,7 +6408,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 45 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 4 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -7006,7 +7008,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
 - · **2026-08-23** — overview — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 45 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
 - · **2026-08-23** — closing the set — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-23** — annie ulmer personality assessment — people  
@@ -7066,7 +7068,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-27** — ally lubin cognitive profile** — **Did she report the result herself, or was it forwarded?** The visible page is the results email, which implies she had the account. The 2026-08-27 operator answer confirms the result is hers but says nothing about how the screenshot reached Dan, so this stay  
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **2026-08-27** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 45 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
 - · **2026-08-27** — The 2026-08-27 operator answer confirms the result is hers but says nothing about how the screenshot reached Dan, so this stays open.  
   ↳ [[wiki/people/ally-lubin-cognitive-profile]] · Gaps
 - · **2026-08-27** — That pending status held — the sale closed in **summer 2019 for $250,000** (operator testimony, 2026-08-27; uncorroborated in the message record, which never returns to the subject after Danny's July 11 line).  
@@ -7078,7 +7080,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — full sail 2008 2010 — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 45 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 42 pages
 - · **2026-08-28** — chemical architecture — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 5 pages
 - · **2026-08-28** — cocaine — health  
@@ -7187,4 +7189,4 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 369 wiki pages. 1,005 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 370 wiki pages. 1,005 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
