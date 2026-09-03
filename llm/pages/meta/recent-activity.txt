@@ -5,7 +5,7 @@ title: "Recent Activity"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 sources: []
 ---
 
@@ -23,7 +23,13 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-02 — 45 pages
+## 2026-09-03 — 1 page
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/meta/testimony-veracity]] | meta | — |
+
+## 2026-09-02 — 44 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -36,7 +42,6 @@ simply listed.
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/readers-digest]] | meta | — |
 | [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
-| [[wiki/meta/testimony-veracity]] | meta | — |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | **CORRECTED** — An earlier version of this section claimed the archive showed **two steps, not one** — a first step in 2017 (4.0% → 11.1%, "nearly tripling") separating *political engagement* from *socialist identity |
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
 | [[wiki/people/alexis-armel]] | people | **CORRECTED** — this paragraph first read *"four months in."* That was wrong and it understated the finding. The operator capture of 2026-08-27 dates the meeting to **Thanksgiving 2009** (26 November); the tattoo is  |
@@ -359,17 +364,4 @@ simply listed.
 | [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | mind | — |
 | [[wiki/people/lisa-frank]] | people | — |
 | [[wiki/people/tan-calabrese]] | people | _(carries a REVISED from 2026-08-09)_ |
-
-## 2026-08-10 — 8 pages
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/mind/politics/index]] | mind | — |
-| [[wiki/mind/psychosexual/taboo-and-boundary-testing]] | mind | **CORRECTED** — This page previously said the orientation- violation claim had "no independent primary-source example... in the corpus searched for this page" and called it "the thinnest-supported claim in this entir |
-| [[wiki/people/jim-blanchard]] | people | — |
-| [[wiki/people/katherine-palakovich]] | people | — |
-| [[wiki/people/kevin-mckiernan]] | people | _(carries a CORRECTED)_ |
-| [[wiki/people/marty-jackson]] | people | — |
-| [[wiki/people/renae-holland]] | people | — |
-| [[wiki/work/creative-license]] | work | _(carries a CORRECTED)_ |
 

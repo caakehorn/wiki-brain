@@ -1,5 +1,5 @@
-WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-02
-496 pages, ~1,750,965 tokens.
+WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-03
+496 pages, ~1,749,234 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10173,7 +10173,7 @@ title: "Wiki Digest"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 sources: []
 ---
 
@@ -10190,7 +10190,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 496 |
-| Pages touched in the last 14 days | 208 |
+| Pages touched in the last 14 days | 187 |
 | Pages reasoning from other pages (`synthesizes:`) | 78 |
 | Live contradictions | 43 |
 | Open gaps | 507 |
@@ -10223,7 +10223,10 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-02** — 45 pages
+**2026-09-03** — 1 page
+
+**2026-09-02** — 44 pages
+  - build | meta | the instrument layer gets a section, and the reason it needs one
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result
   - ingest | self | @danfrank twitter archive as yearly pages
@@ -10258,38 +10261,6 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - infra | intake | the portal as a third interface, and the guard that actually guards
   - declare | meta | the skills section becomes a cross-model database
   - tool | meta | page history — every version of every page, on the site and behind a gate
-
-**2026-08-28** — 34 pages
-  - feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch
-  - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
-  - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
-  - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
-  - climb | mind | the-binary-verdict (9 synthesized, 0 rejected)
-  - constitution-pass | mind | wiki/mind/synthesis/the-binary-verdict
-  - constitution-pass | mind | wiki/mind/synthesis/single-channel
-  - connect | mind, people | connection-queue.md (2 pairs: 1 typed, 1 rejected)
-  - constitution-pass | mind | wiki/mind/synthesis/the-deferred-audit
-  - constitution-pass | mind | wiki/mind/synthesis/totality-themes
-  - constitution-pass | mind | wiki/mind/synthesis/the-embedded-objective
-  - connect | mind, self | connection-queue.md (totality-themes <-> context-core)
-  - constitution-pass | mind | wiki/mind/synthesis/dormancy-not-exit
-  - constitution-pass | mind | wiki/mind/synthesis/estate-money-spine
-  - close | people | wiki/people/alexis-armel — two operator-volunteered captures fully ingested
-  - constitution-pass | mind | wiki/mind/synthesis/supply-network
-  - connect | self, timeline | connection-queue.md (context-core <-> timeline.md)
-  - constitution-pass | mind | wiki/mind/synthesis/alias-as-periodization
-  - constitution-pass | mind | wiki/mind/synthesis/music-as-identity
-  - constitution-pass | mind | wiki/mind/synthesis/instrument-is-subject
-  - constitution-pass | mind | wiki/interests/food-and-diet
-  - constitution-pass | places | wiki/places/the-unpapered-address
-  - connect | mind/self | node-locking.md <-> gemini-activity.md
-  - constitution-pass | mind | wiki/mind/synthesis/attachment-trauma-bond
-  - constitution-pass | mind | wiki/mind/synthesis/dan-annie-fallout-verdict
-  - constitution-pass | mind | wiki/mind/synthesis/block-unblock-loop
-  - constitution-pass | mind | wiki/mind/synthesis/august-grievance-verdict
-  - constitution-pass | mind | wiki/mind/synthesis/the-rescue-premise
-  - constitution-pass | mind | wiki/mind/synthesis/read-receipt-forensics
-  - constitution-pass | mind | wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis + wiki/mind/synthesis/fayette-return
 
 ## Pages that reason from other pages
 
@@ -10994,7 +10965,7 @@ title: "Open Questions"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 sources: []
 ---
 
@@ -11764,44 +11735,39 @@ and an entry nobody has got to should not look the same from outside.
 
 ## Who wrote them
 
-By the last commit to touch each file.
-
-| Writer | Editions |
-|---|---|
-| Claude | 25 |
-| caakehorn | 7 |
-| Dan Frank | 1 |
+_Not available: this is a shallow clone, so the log does not reach the
+commits that wrote these files. `git fetch --unshallow` for an answer._
 
 ## What has an edition
 
-- [[wiki/health/the-configured-body|The Configured Body]] — 2026-08-31, Claude
-- [[wiki/interests/concert-record/index|Concert Record (2001-2019)]] — 2026-08-30, Claude
-- [[wiki/interests/extreme-sports|Extreme Sports]] — 2026-08-29, caakehorn
-- [[wiki/interests/favorites/books|Book Favorites]] — 2026-08-29, caakehorn
-- [[wiki/interests/favorites/eclecticism|Eclecticism in Favorites]] — 2026-09-02, Claude
-- [[wiki/interests/favorites/music/artists/fall-out-boy|Fall Out Boy]] — 2026-08-30, Claude
-- [[wiki/interests/food-and-diet|Food and Diet]] — 2026-08-30, Claude
-- [[wiki/interests/music/concepts/lyrics-as-timbre|Lyrics as Timbre]] — 2026-08-30, Claude
-- [[wiki/interests/music/concepts/sub-bass-signature|Sub-Bass Signature]] — 2026-08-30, Claude
-- [[wiki/mind/concepts/acquisition-drive|The Acquisition Drive]] — 2026-08-30, Claude
-- [[wiki/mind/concepts/bunker-core|Bunker Core]] — 2026-08-30, Claude
-- [[wiki/mind/concepts/chaos-preference|The Chaos Preference]] — 2026-08-30, Claude
-- [[wiki/mind/concepts/dans-law|Dan's Law]] — 2026-08-29, caakehorn
-- [[wiki/mind/concepts/institutional-out|The Institutional Out]] — 2026-08-30, Claude
-- [[wiki/mind/concepts/the-cool-metric|The Cool Metric]] — 2026-08-30, Claude
-- [[wiki/mind/politics/axioms|The Power Axiom: What Resolves the Leftist/Authoritarian 'Paradox]] — 2026-08-30, Claude
-- [[wiki/mind/synthesis/2020-left-turn|The 2020 Left Turn]] — 2026-09-02, Claude
-- [[wiki/mind/synthesis/fayette-return|The Fayette Return]] — 2026-08-29, caakehorn
-- [[wiki/mind/synthesis/millennial-digital-witness|Millennial Digital Witness]] — 2026-09-02, Claude
-- [[wiki/mind/synthesis/political-psyops|Political Psyops & Hybrid Events]] — 2026-08-30, Claude
-- [[wiki/mind/synthesis/the-cato-seat|The Cato Seat]] — 2026-08-29, caakehorn
-- [[wiki/mind/synthesis/the-embedded-objective|The Embedded Objective]] — 2026-09-02, Claude
-- [[wiki/mind/synthesis/vertical-authority-skepticism|Vertical Authority Skepticism]] — 2026-08-29, caakehorn
-- [[wiki/self/youtube-watch-history|YouTube Watch History (2007–2026)]] — 2026-09-02, Claude
-- [[wiki/timeline/events/franki-fireworks-day-2013|The Franki Fireworks Day (early July 2013)]] — 2026-08-30, Claude
-- [[wiki/timeline/events/teen-concert-years|Concert Record (2001–2019)]] — 2026-08-30, Claude
-- [[wiki/work/creative-license|Creative License (NYC, 2011–2012)]] — 2026-08-30, Claude
-- [[wiki/work/fastly-fsly|Fastly (FSLY)]] — 2026-08-30, Claude
+- [[wiki/health/the-configured-body|The Configured Body]]
+- [[wiki/interests/concert-record/index|Concert Record (2001-2019)]]
+- [[wiki/interests/extreme-sports|Extreme Sports]]
+- [[wiki/interests/favorites/books|Book Favorites]]
+- [[wiki/interests/favorites/eclecticism|Eclecticism in Favorites]]
+- [[wiki/interests/favorites/music/artists/fall-out-boy|Fall Out Boy]]
+- [[wiki/interests/food-and-diet|Food and Diet]]
+- [[wiki/interests/music/concepts/lyrics-as-timbre|Lyrics as Timbre]]
+- [[wiki/interests/music/concepts/sub-bass-signature|Sub-Bass Signature]]
+- [[wiki/mind/concepts/acquisition-drive|The Acquisition Drive]]
+- [[wiki/mind/concepts/bunker-core|Bunker Core]]
+- [[wiki/mind/concepts/chaos-preference|The Chaos Preference]]
+- [[wiki/mind/concepts/dans-law|Dan's Law]]
+- [[wiki/mind/concepts/institutional-out|The Institutional Out]]
+- [[wiki/mind/concepts/the-cool-metric|The Cool Metric]]
+- [[wiki/mind/politics/axioms|The Power Axiom: What Resolves the Leftist/Authoritarian 'Paradox]]
+- [[wiki/mind/synthesis/2020-left-turn|The 2020 Left Turn]]
+- [[wiki/mind/synthesis/fayette-return|The Fayette Return]]
+- [[wiki/mind/synthesis/millennial-digital-witness|Millennial Digital Witness]]
+- [[wiki/mind/synthesis/political-psyops|Political Psyops & Hybrid Events]]
+- [[wiki/mind/synthesis/the-cato-seat|The Cato Seat]]
+- [[wiki/mind/synthesis/the-embedded-objective|The Embedded Objective]]
+- [[wiki/mind/synthesis/vertical-authority-skepticism|Vertical Authority Skepticism]]
+- [[wiki/self/youtube-watch-history|YouTube Watch History (2007–2026)]]
+- [[wiki/timeline/events/franki-fireworks-day-2013|The Franki Fireworks Day (early July 2013)]]
+- [[wiki/timeline/events/teen-concert-years|Concert Record (2001–2019)]]
+- [[wiki/work/creative-license|Creative License (NYC, 2011–2012)]]
+- [[wiki/work/fastly-fsly|Fastly (FSLY)]]
 
 ## Next up
 
@@ -11837,7 +11803,7 @@ title: "Recent Activity"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 sources: []
 ---
 
@@ -11855,7 +11821,13 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-02 — 45 pages
+## 2026-09-03 — 1 page
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/meta/testimony-veracity]] | meta | — |
+
+## 2026-09-02 — 44 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11868,7 +11840,6 @@ simply listed.
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/readers-digest]] | meta | — |
 | [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
-| [[wiki/meta/testimony-veracity]] | meta | — |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | **CORRECTED** — An earlier version of this section claimed the archive showed **two steps, not one** — a first step in 2017 (4.0% → 11.1%, "nearly tripling") separating *political engagement* from *socialist identity |
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
 | [[wiki/people/alexis-armel]] | people | **CORRECTED** — this paragraph first read *"four months in."* That was wrong and it understated the finding. The operator capture of 2026-08-27 dates the meeting to **Thanksgiving 2009** (26 November); the tattoo is  |
@@ -12192,19 +12163,6 @@ simply listed.
 | [[wiki/people/lisa-frank]] | people | — |
 | [[wiki/people/tan-calabrese]] | people | _(carries a REVISED from 2026-08-09)_ |
 
-## 2026-08-10 — 8 pages
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/mind/politics/index]] | mind | — |
-| [[wiki/mind/psychosexual/taboo-and-boundary-testing]] | mind | **CORRECTED** — This page previously said the orientation- violation claim had "no independent primary-source example... in the corpus searched for this page" and called it "the thinnest-supported claim in this entir |
-| [[wiki/people/jim-blanchard]] | people | — |
-| [[wiki/people/katherine-palakovich]] | people | — |
-| [[wiki/people/kevin-mckiernan]] | people | _(carries a CORRECTED)_ |
-| [[wiki/people/marty-jackson]] | people | — |
-| [[wiki/people/renae-holland]] | people | — |
-| [[wiki/work/creative-license]] | work | _(carries a CORRECTED)_ |
-
 
 
 ========================================================================
@@ -12460,7 +12418,7 @@ status: active
 importance: high
 knowledge: derived
 date_created: 2026-09-02
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 chart:
   kind: grouped-bar
   title: "Stated confidence against measured outcome, by confidence band"
@@ -97377,7 +97335,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,458 events** across **80 years** (1796–2027), drawn from **369 pages**. Tier 1 686 · Tier 2 418 · Tier 3 2,354.
+**3,432 events** across **80 years** (1796–2027), drawn from **369 pages**. Tier 1 685 · Tier 2 417 · Tier 3 2,330.
 
 ## What counts as an event here
 
@@ -98818,7 +98776,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/journeys/the-type-machine]] · The control case: typed, then found untyped
 - · **July 2013** — franki fireworks day 2013** — **The date is not fixed.** "Early July 2013" plus a fireworks display is as close as the record gets. A dated ATM withdrawal on Suz's account, or a Uniontown fireworks schedule for 2013, would close it.  
   ↳ [[wiki/meta/open-questions]] · timeline (81)
-- · **July 2013** — The Franki Fireworks Day (early July 2013) — 2026-08-30, Claude  
+- · **July 2013** — The Franki Fireworks Day (early July 2013)  
   ↳ [[wiki/meta/readers-digest]] · What has an edition
 - · **Summer 2013** — She occupied the primary slot for **five days** in the summer of 2013, during a brief split from Alexis.  
   ↳ [[wiki/mind/synthesis/dormancy-not-exit]] · The control, and where the rule stops
@@ -104475,24 +104433,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/franki-fireworks-day-2013]] · Gaps
 - ◆ **2026-08-29** — Not every performer has a page, and the master table below — not the page list — is the complete record.** On 2026-08-29 the operator removed 47 single-appearance artist stubs as unnecessary; each held nothing the master event list and the festival lineups do not already state.  
   ↳ [[wiki/interests/concert-record/index]] · Concert Record (2001-2019)
-- · **2026-08-29** — Extreme Sports — 2026-08-29, caakehorn  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-29** — Book Favorites — 2026-08-29, caakehorn  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-29** — Dan's Law — 2026-08-29, caakehorn  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-29** — The Fayette Return — 2026-08-29, caakehorn  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-29** — The Cato Seat — 2026-08-29, caakehorn  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-29** — Vertical Authority Skepticism — 2026-08-29, caakehorn  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- ★ **2026-08-30** — The Cool Metric — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
 - ◆ **2026-08-30** — The intake ledger began recording on 2026-08-30 and supplies the first night where two rows of it were written down as they happened: one **0.75 g cocaine unit** worked over 9h 31m in six doses, and **three separate 0.05 g cannabis units** at 22:06, 00:37 and 02:36, each opened and closed in a…  
   ↳ [[wiki/health/chemical-architecture]] · The stack, measured rather than described — 2026-08-30/31
-- ◆ **2026-08-30** — Concert Record (2001-2019) — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
 - · **2026-08-30** — Cannabis — Creative lubricant  
   ↳ [[wiki/health/chemical-architecture]] · The stack
 - · **2026-08-30** — Its silence before 2026-08-30 is the absence of a ledger, not the absence of use.  
@@ -104511,30 +104453,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/health/intake-ledger]] · Every event
 - · **2026-08-30** — Two of these publish to a public repository**, knowingly, by an operator decision on 2026-08-30: `intake/` and `testimony/` are tracked and readable by anyone, permanently, and git history cannot be un-published.  
   ↳ [[wiki/meta/instruments/index]] · What the instrument layer cannot see, as a layer
-- · **2026-08-30** — Fall Out Boy — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-30** — Food and Diet — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-30** — Lyrics as Timbre — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-30** — Sub-Bass Signature — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-30** — The Acquisition Drive — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-30** — Bunker Core — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-30** — The Chaos Preference — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-30** — The Institutional Out — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-30** — The Power Axiom: What Resolves the Leftist/Authoritarian 'Paradox — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-30** — Political Psyops & Hybrid Events — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-30** — Creative License (NYC, 2011–2012) — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-08-30** — Fastly (FSLY) — 2026-08-30, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
 - · **2026-08-30** — the configured body — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 5 pages
 - · **2026-08-30** — Anthropic — cli · web · desktop · ide — 53 — 2026-08-30  
@@ -104551,8 +104469,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/health/intake-ledger]] · Every event
 - · **2026-08-31** — #1 — cocaine — 0.25 g — estimated (medium) — —  
   ↳ [[wiki/health/intake-ledger]] · Every event
-- · **2026-08-31** — The Configured Body — 2026-08-31, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
 - · **2026-09-01** — Run 2026-09-01, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/favorites/eclecticism]] · The constitution pass
 - · **2026-09-01** — Neither has been tested and the page does not claim music as a member.** The positive account of what the exception *is* now lives at eclecticism (rewritten 2026-09-01): Architecture B — three functional clusters kept in parallel for eighteen years, archival emo beside live bass calibration beside…  
@@ -104561,16 +104477,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/2010s]] · Transition
 - · **2026-09-02** — The git log read as a record of *operations* rather than saves  
   ↳ [[wiki/meta/instruments/index]] · The measures
-- · **2026-09-02** — Eclecticism in Favorites — 2026-09-02, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-09-02** — The 2020 Left Turn — 2026-09-02, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-09-02** — Millennial Digital Witness — 2026-09-02, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-09-02** — The Embedded Objective — 2026-09-02, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
-- · **2026-09-02** — YouTube Watch History (2007–2026) — 2026-09-02, Claude  
-  ↳ [[wiki/meta/readers-digest]] · What has an edition
 - · **2026-09-02** — failure to launch — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-09-02** — chatgpt — self  

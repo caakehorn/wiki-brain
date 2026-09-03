@@ -5,7 +5,7 @@ title: "Wiki Digest"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 sources: []
 ---
 
@@ -22,7 +22,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 496 |
-| Pages touched in the last 14 days | 208 |
+| Pages touched in the last 14 days | 187 |
 | Pages reasoning from other pages (`synthesizes:`) | 78 |
 | Live contradictions | 43 |
 | Open gaps | 507 |
@@ -55,7 +55,10 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-02** — 45 pages
+**2026-09-03** — 1 page
+
+**2026-09-02** — 44 pages
+  - build | meta | the instrument layer gets a section, and the reason it needs one
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result
   - ingest | self | @danfrank twitter archive as yearly pages
@@ -90,38 +93,6 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - infra | intake | the portal as a third interface, and the guard that actually guards
   - declare | meta | the skills section becomes a cross-model database
   - tool | meta | page history — every version of every page, on the site and behind a gate
-
-**2026-08-28** — 34 pages
-  - feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch
-  - spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
-  - climb | mind | the-serial-monogamist (8 synthesized, 0 rejected)
-  - climb | mind | no-platonic-channel (9 synthesized, 0 rejected)
-  - climb | mind | the-binary-verdict (9 synthesized, 0 rejected)
-  - constitution-pass | mind | wiki/mind/synthesis/the-binary-verdict
-  - constitution-pass | mind | wiki/mind/synthesis/single-channel
-  - connect | mind, people | connection-queue.md (2 pairs: 1 typed, 1 rejected)
-  - constitution-pass | mind | wiki/mind/synthesis/the-deferred-audit
-  - constitution-pass | mind | wiki/mind/synthesis/totality-themes
-  - constitution-pass | mind | wiki/mind/synthesis/the-embedded-objective
-  - connect | mind, self | connection-queue.md (totality-themes <-> context-core)
-  - constitution-pass | mind | wiki/mind/synthesis/dormancy-not-exit
-  - constitution-pass | mind | wiki/mind/synthesis/estate-money-spine
-  - close | people | wiki/people/alexis-armel — two operator-volunteered captures fully ingested
-  - constitution-pass | mind | wiki/mind/synthesis/supply-network
-  - connect | self, timeline | connection-queue.md (context-core <-> timeline.md)
-  - constitution-pass | mind | wiki/mind/synthesis/alias-as-periodization
-  - constitution-pass | mind | wiki/mind/synthesis/music-as-identity
-  - constitution-pass | mind | wiki/mind/synthesis/instrument-is-subject
-  - constitution-pass | mind | wiki/interests/food-and-diet
-  - constitution-pass | places | wiki/places/the-unpapered-address
-  - connect | mind/self | node-locking.md <-> gemini-activity.md
-  - constitution-pass | mind | wiki/mind/synthesis/attachment-trauma-bond
-  - constitution-pass | mind | wiki/mind/synthesis/dan-annie-fallout-verdict
-  - constitution-pass | mind | wiki/mind/synthesis/block-unblock-loop
-  - constitution-pass | mind | wiki/mind/synthesis/august-grievance-verdict
-  - constitution-pass | mind | wiki/mind/synthesis/the-rescue-premise
-  - constitution-pass | mind | wiki/mind/synthesis/read-receipt-forensics
-  - constitution-pass | mind | wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis + wiki/mind/synthesis/fayette-return
 
 ## Pages that reason from other pages
 
