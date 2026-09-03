@@ -7,7 +7,7 @@ status: closed
 knowledge: mixed
 importance: high
 date_created: 2026-06-23
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 date_range_start: 2009-10-01
 date_range_end: 2025-02-19
 sources:
@@ -116,6 +116,9 @@ connections:
   - page: wiki/people/suzanne-frank
     type: causes
     claim: "A March 2014 washing-machine incident Dan says he still does not understand is Suz's stated reason for throwing Alexis out of the house — the second of at least two Suz-driven evictions this page now documents for Alexis, five months of concealment following this one."
+  - page: wiki/self/twitter/2009
+    type: evidenced-by
+    claim: 'The relationship\'s first six weeks are recorded in real time on the 2009 twitter page, and its surrounding weather is too: he is ill for most of December, shuttling between two states, and sitting Full Sail finals across the same days he is posting "dan in love." The speed is not the speed of a man with nothing else happening.'
 ---
 
 # Alexis Armel

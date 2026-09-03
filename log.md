@@ -8355,3 +8355,682 @@ on that page as unresolved with what would settle it.
 datetime (the backend returned an id but no `created_at`), the true total tweet
 count, the 2008–09 months truncated at the ten-result search cap, 121 of the
 129 still-truncated rows, and seventeen years of reposts.
+
+## [2026-09-03] lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
+
+`wiki/synthesis/twitter-2024-cognitive-state.md` (PR #247, 2026-09-02) landed on
+`main` failing all three content gates simultaneously, which is what a merge
+without `bin/wiki-check` looks like from the next session's side.
+
+- **`bin/wiki-lint`**: `domain: synthesis` is not one of the ten domains, and
+  `wiki/synthesis/` was a directory nobody created on purpose. `status: draft`
+  is not a status. Five of its seven tags were invented.
+- **`bin/wiki-connect`**: edge type `analyzes` does not exist, and
+  `wiki/self/personality` does not resolve to a page.
+- **`bin/wiki-climb`**: it cited `wiki/self/twitter/2024.md` in `sources:`. A
+  wiki page reasoned *from* belongs in `synthesizes:` — that is the difference
+  between a synthesis and a page that read another page.
+
+Moved to `wiki/mind/synthesis/`, `page_type: synthesis`, `knowledge: earned`
+(it is a reading, not a derivation), `synthesizes: wiki/self/twitter/2024`,
+`evidenced-by` for `analyzes`, `wiki/mind/profile/index` for the dead target,
+and the `evidences` back-edge written onto the 2024 page that CLIMB step 6
+requires and the original never wrote. Inbound links in `master-timeline` and
+`2024.md` repointed.
+
+**Nothing about the page's argument was touched.** The frontmatter was wrong;
+the reading is the author's and stands as written.
+
+## [2026-09-03] ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
+
+The twitter year pages carried one paragraph each where 2008 carried a
+narrative. This is 2009 brought up to that standard by reading all 283 rows,
+and three of its findings leave the page.
+
+**The graduation date is contradicted twice by Dan's own contemporaneous
+posting.** `CONTEXT_CORE_EXPANDED` says *"AS Recording Arts; graduated Aug 2009
+(top 5%)"* and tags it `[DOC]` — the file's own legend for *verified from a
+behavioral corpus (iMessage / Twitter / GPS / test)*. The Twitter corpus is
+named in that legend and it disagrees: **2009-08-31**, *"so weirded out i start
+my last month of college tomorrow"*, which puts the last month in September;
+and coursework running to **2009-12-19**, *"taking aws final with it"*, with a
+Pro Tools lab, a practical and two class references in between. Held as a
+`CONTRADICTION` on `wiki/timeline/periods/full-sail-2008-2010` rather than
+resolved — a transcript would settle it and the corpus has none. The five-month
+Florida tail that page describes is measured from the disputed date and is
+disputed with it. The top-5% standing is untouched.
+
+Recorded and adjudicated as **t013, refuted, displacement, early** —
+`bin/wiki-testimony`. **Both settled `date` claims now run early**, which is the
+direction the ledger was built to find. It is n=2, far under `MIN_N`, and is
+recorded as a direction to watch rather than a bias to subtract.
+
+**The political exit is eleven years older than the arrival.**
+*"people like this are why i no longer consider myself a republican"*
+(2009-11-28) is the corpus's earliest dated political self-description, and its
+shape is the finding rather than its date: a departure naming no destination,
+triggered by *people* rather than by an argument, aimed at the household
+`CONTEXT_CORE` records as Republican-with-talk-radio. That is the mechanism of
+the 2022 O&A account in `mind/synthesis/2020-left-turn`, running eleven years
+earlier against a different tribe. **The pattern is leaving, repeatedly; 2020
+is when something finally occupied the vacancy.** Written into that page with
+its own counter-evidence: one tweet is one tweet, and 2009's first nine months
+are a fetch artefact, so the surrounding silence proves nothing.
+
+**Balloon Boy moves the digital-witness habit back three years, and is filed as
+weaker evidence on purpose.** 2009-10-15: *"watching CNN on delay via a paused
+DVR"*, *"the best one-off meme ever"* — the coverage as the subject, the word
+*meme* applied to a live news story on the day. Sandy (2012) names its own
+category and is a claim about the medium; this only demonstrates the habit
+without stating it. So `millennial-digital-witness` now reads *at least
+seventeen years* for the habit and keeps 2012 for the articulation. Both plain
+twins re-translated against what moved, not date-bumped.
+
+**A defect in the page's own numbers, and a worse one in its shape.** The
+coverage table said 283 originals from 165 scraped and 0 spreadsheet rows; the
+missing 118 are the 2026-09-02 backend fetch and are now a row. More seriously,
+**January–September 2009 survives almost entirely as clusters on the last one
+to three days of each month** — 26–28 February, 31 March, 29–30 April, 30–31
+May, and so on — because both retrieval methods were capped at ten results per
+month-bounded query. October–December run continuously because that is where
+the live walk went. Anyone reading this page for cadence, volume or a subject
+going quiet would be reading the fetch. Stated at the top of Gaps: presence is
+evidence here, absence is not.
+
+**A negative result kept rather than passed over.** There is no opiate
+reference anywhere in 2009, though `CONTEXT_CORE` dates the first opiate to
+2007 and Suboxone begins seven weeks after the last tweet on the page. The
+reading is not that it was not happening — it is that this account was never
+where that was written, and the same silence should be assumed of every later
+year here.
+
+`date_range_start` was also wrong: 2009-10-20 on a page whose first row is
+2009-01-07.
+
+## [2026-09-03] ingest | self | 2010 read in full — the corpus's most-cited date was computed from a train going the wrong way, and it survives anyway
+
+342 rows read. 2010 is the year the life starts: Pro Tools certification on
+26 January, *"Brooklyn here we come!!"* eleven minutes later, the first tattoo
+on the 23rd–24th, Florida left on 28 February, `dan@ishlab.com` on 24 March.
+
+**The finding is about 17 February 2010.** `wiki/health/chemical-architecture`
+has carried it as Suboxone "day-zero pinned" since it was written. Its origin
+is a Gemini session in which a *model* asserted that Dan and his father
+*"boarded an Amtrak train"* to Penn Station on 18 February, and Dan replied
+*"if the train left on feb 18 that means that the first day i began my
+successful suboxone streak was feb 17, 2010."* **The date was never recalled.
+It was computed — the day before a train.**
+
+**The anchor is wrong.** The 18 February train was the *return* leg: on the
+17th he is already in New York (*"off to Williamsburg"*, *"@alexisarmel welcome
+home"*), and on the 18th he is *"On the train back to PA."* So the arithmetic
+behind the corpus's most-cited date does not hold.
+
+**And the date survives, on evidence that has nothing to do with that
+arithmetic.** 17 February carries a same-day tweet at 15:07 New York time:
+*"this is the most stressful day/decision of my life. nothing is making it
+easier."* Then *"planning the next 3 years of my life all day in muh head"*
+(18th) and *"put my life on a treadmill. shape up or bust."* (20th). The
+obvious alternative referent is excluded — the Brooklyn move was settled on
+26 January and is celebrated either side of this day. He never names the
+decision, so it is a dated alignment and not a proof, and it is said that way
+on both pages. **t014, confirmed against a first-party record.**
+
+The point worth keeping is structural: a load-bearing claim changed what
+supports it without changing value, and nothing would have surfaced that. The
+next session would have re-derived the broken chain and got the right answer
+for the wrong reason.
+
+**The 2008 creation-date gap is closed.** That page said the creation datetime
+*"was not retrievable"*. Dan settled it in 2010 by posting two novelty-site
+counters: 699 days on 24 August, and *"the 23rd of September 2008 ... 807 days
+old"* on 9 December. The one-day spread is a timezone boundary and resolves to
+**23 September 2008 local** — the first surviving tweet is 04:52 UTC, i.e.
+00:52 on the 24th in New York.
+
+**Also written back:** the 28 February Florida departure is corroborated by
+*"peace out, florida. it's been real."* against a Gemini session that has him
+arriving in New York on the 18th; the 2010 Foursquare check-ins are a
+self-published location trail corroborating `424-bedford-ave` from outside the
+message record; and the indie and electronic vocabularies run **side by side**
+all year — Grizzly Bear and Arcade Fire in the same months as Diplo, Electric
+Zoo, Ableton warping and a published dubstep mix — so what the 2012–2014 likes
+migration dates is displacement, not onset.
+
+**One pattern recorded at n=2, deliberately weakly.** On 13 December he quits
+tobacco by moving to an e-cigarette — *"3 days after moving to an e cig, i'm
+(un) hooked"* — which is the second dependency in ten months addressed by
+replacing the delivery system and keeping the molecule. He connects them
+nowhere. Recorded because the corpus's account of how he handles compulsion
+currently rests on the opioid case alone.
+
+Same fetch artefact as 2009, stated in Gaps: February, April, May and June
+survive mainly as end-of-month clusters. 17 February sits inside a sparse
+stretch — three tweets survived that day and there may have been more.
+
+## [2026-09-03] ingest | self | 2011 read in full — the reasoning style is finished at twenty-two, and the politics are empty
+
+225 rows. Two findings, one of which narrows a synthesis this wiki has been
+building for months.
+
+**The "adversarial historian" move is thirteen years older than the page that
+named it.** `wiki/mind/synthesis/twitter-2024-cognitive-state` describes a
+sequence — model, stress-test, isolate the contradiction, compress, provoke.
+The 21 May 2011 rapture posts run it exactly: *"the only difference between the
+5/21 rapture followers and moderate christians is that the former are willing
+to put a date on the end."* He takes the fringe case everyone is laughing at,
+finds that the only structural difference from the respectable case is
+**falsifiability**, and turns the laughter around. Same operation against a
+working pastor on 26 February, using the pastor's own scripture (1 Timothy
+2:12). The subject in 2011 is religion; the machine is identical.
+
+**The 2011 politics are anti-authority and contain no economics at all, and
+that changes the shape of the 2020 left turn.** Eight political posts across
+the year: Glenn Beck, the Iraq war budget against science funding,
+*"money=debt. debt=money"*, mounted police, the West Memphis 3, Troy Davis
+(three posts), *"1984 = 2012"*, and *"fuck off chris dodd"*. **Every one
+targets a vertical. None is redistributive.** No wages, no labour, no housing,
+no healthcare, no class — and *"money=debt"* was, in 2011, at least as much
+libertarian vocabulary as left. On content alone the profile could have gone
+either way.
+
+So `2020-left-turn` gets a smaller and more useful claim: the anti-authority
+instinct was complete at twenty-two and needed nothing from the lockdown. **2020
+supplied an economic analysis to attach it to, and a name for the result.** It
+also explains something that page could previously only call fast: the
+conversion was not building a position, it was filling an eleven-year vacancy.
+The Troy Davis posts show the axis working rather than merely present — he
+argues the *procedural* case, not the innocence case, which is the harder one:
+*"I have no idea whether Troy Davis was guilty or not, but he deserved the
+chance to live another day to fight in court."*
+
+**The digital-witness thread now has a curve, not a point.** Balloon Boy 2009
+(the coverage as the subject) → Irene 2011 (the storm consumed remotely, the
+NYC evacuation map redistributed to followers, *"glued to TV"*) → Sandy 2012
+(the observation finally stated as a claim about the medium). The escalation
+runs toward articulation.
+
+**A correction to yesterday's page.** 2010's cheerful 13 December tobacco quit
+did not hold: *"1 week smoke free!"* on 2011-01-10 dates a fresh start to about
+3 January, so the e-cigarette attempt lasted at most three weeks before a
+relapse he never posted. Legible only as an arithmetic mismatch between two
+happy posts, which is the useful thing about it.
+
+**Also on the page:** the career runs backwards in public all year — studio job
+gone by 3 January, *"the never ending job hunt"* on the 23rd, an unpaid
+marketing internship on the 28th, and *"Correction: I am a dog walker"* from
+the office in October. StarCraft II goes from *"~5min"* on 20 March to a
+GeForce pro/am first round on 23 June, with ladder placement, a named build
+order and pros by handle. And on 27 February he publicly audits an acquaintance
+from her own geotag and a two-year-old photograph, proves she lied about a
+concert, and signs off *"hey no hostility!"* — the anomaly-detection
+orientation deployed socially at cost, on a named living person, dated.
+
+## [2026-09-03] ingest | self | 2012 read in full — the "digital disaster" line was written by one of the generators, mid-generation
+
+205 rows. The year the ambitions close, the career bottoms out, and the media
+diet that the 2020 turn is a departure *from* is documented by name.
+
+**The corpus's most-cited tweet gets its context, and the thesis gets
+stronger.** `millennial-digital-witness` rests on *"Sandy is like first true
+'digital disaster'. Can't remember so much user generated content from a
+storm."* — read, until now, as an observer's aside. The forty-eight hours
+around it are a continuous operation: a podcast-download PSA before the power
+went, Grand Central's closure, the NYSE's first weather closure in 27 years, a
+triage post on *"the worst of #sandy novelty twitter accounts"*, two updates
+driving traffic to **his own liveblog**, and a stream of original material fed
+to `@OpieRadio` — the Breezy Point six-alarm fire video, the HMS *Bounty*
+sinking, the NYPD's 911 queue at 05:30. **He was one of the generators, and he
+wrote the line mid-generation.** That is why the articulation lands in 2012 and
+not at Balloon Boy (2009) or Irene (2011): those he consumed, this one he
+worked.
+
+**The pipeline before the pipeline.** 2012's media diet is Joe Rogan, Sam
+Harris, Duncan Trussell and Opie & Anthony — the audience the 2020 conversion
+departs from. And the ideological separation is **explicit from the start**:
+*"I don't get down with o&a right-wing ideology, but after hearing the Rumsfeld
+'lizard' bit, I'll be spending the rest of my day listening"* (2012-02-26), ten
+years before the 2022 retrospective. It coexists with friendly direct
+engagement with Cumia on the Trayvon Martin case a month later, and that
+tension is kept on the page rather than resolved.
+
+**A dated job application, the only one in the 2010–2012 record.** 2012-11-18,
+to two O&A staffers: *"I'm a recent music engineering grad with pro tools
+certification living in NYC"*, then *"I just sent in an app."* Unpaid, three
+years after the degree, presenting a January-2010 certification as recent. No
+recorded outcome.
+
+**The career floor.** September: retail with fitting rooms — *"Sometimes I
+write my own stories about the cartoons on the fitting room walls at work"* —
+mentioned only as an aside about customers, alongside *"neither is in my
+current budget."* He never names it as a problem all year, and the tone is the
+finding.
+
+**Politics: still no redistribution.** An Obama voter with a caveat (*"LOVE
+THIS GUY (except those pesky drone strikes)"*) whose programme is *"end
+corporate welfare. establish congressional term limits. stop DEA raids of
+marijuana vendors. GTFO afghanistan"* — every item a limit on an authority,
+none a transfer, which continues 2011 exactly. The first economic reasoning in
+the corpus appears the same day as a fiscal-arithmetic objection. And
+2012-11-07 prefigures 2024 directly: *"I refuse to believe that tonight's
+earlier results were as close as we were told. Need to keep it tight for
+ratings."*
+
+**Also:** the Starcraft arc opens and closes inside the year — *"considering a
+pro career playing Starcraft"* (4 January) to *"damn you Korean SCII pros with
+15+ hour days of ladder exp"* (27 August), with hours rather than talent named
+as the reason; the Brooklyn tenancy ends 29–30 March, corroborating
+`424-bedford-ave`'s two-year run to the month; and the Halo 4 console
+replacement is dated to 8–10 November.
+
+**The register is recorded without softening.** 2012 is the loudest year for
+the O&A vocabulary in his own writing, homophobic slurs as punchlines included.
+It stays because it is the concrete content of the ideology he had already
+disavowed and was still speaking — and because a corpus that quietly omits it
+cannot then claim the 2020 turn as real movement, having deleted the distance.
+
+**One obligation drained.** `LLM_HANDOFF.md` recorded that the 2012-02-23
+cohort tweet — *"People who need to come visit me: @danpolyak @EricJester
+@JoshBrannan @Woodguts"* — was written into Jester only and the other three
+should carry it. Polyak and Josh Brannan now do. Woodguts still has no page
+and remains unidentified in `BACKLOG.md`.
+
+## [2026-09-03] ingest | self | 2013 read in full — SLOPPP as an operation, a six-week gap in the six years, and a shape that is mostly the archive
+
+346 rows, and the most important sentence on the page is a warning rather than
+a finding.
+
+**The apparent explosion of music activity in mid-August is largely the archive
+changing.** 199 of 346 rows come from the operator spreadsheet, which is
+complete only from **2013-08-17**; everything before is a live scrape truncated
+to ten per month. The source boundary and the apparent subject-matter boundary
+are within a week of each other. **No claim about when SLOPPP started, or how
+fast it ramped, is supportable from this page** — and the earliest trace,
+2013-07-31, is already casual about the practice (*"checking latest mix"*), so
+the project is older than the record can date. Stated at the top of the page so
+that nobody reads the seam as behaviour. Second instance this session of the
+same class of error the `vocabulary-drift` skill covers, arriving through a
+different mechanism.
+
+**What the complete half does support is SLOPPP as an operation with
+infrastructure**: some thirty named releases between 13 August and 26 December,
+free downloads *"TRACKLISTED & TIMESTAMPED"* across SoundCloud, Mixcloud and
+8tracks, originals as well as mixes, ~7k plays on 10 November and *"almost to
+10k"* on 8 December, a Numark NS7 with motor platters bought on 10 November,
+the 808/909 history read on 23 September, and criticism solicited from one
+named peer — `@Yamez1`, *"listen to this for me? I wanna hear what you think I
+need to improve."* Alongside it, the same feed carries *"Wow I was/am a fucking
+HACK"* and a release hashtagged *"#overcompensating #poseur #fakefuture"*. The
+promotion and the verdict run in the same day, which is the on/off self-measure
+applied hourly to his own output.
+
+**The only interval in six years when the Alexis relationship is off, bounded.**
+`franki-fireworks-day-2013` dates the July rupture but never its length.
+Single in his own words on 2013-08-09; eleven documented days with
+`@katie_efff` in late August including the Pittsburgh Oddball festival; Alexis
+named again on 2013-09-08. **Six to eight weeks, with another person publicly
+inside it.** Two features written back: the gap is filled within two weeks, and
+the reconciliation is announced as relief (*"everything's okay now"*) rather
+than as a decision.
+
+**The location blind window is partially filled.** `location-history` records
+no address-level data between January 2011 and the 2014 Google export. From
+mid-August 2013 the tweets place him in Western PA repeatedly — Carnegie
+Mellon, Sheetz twice, Texas Roadhouse, Oddball in Pittsburgh, and Uniontown
+filmed on 27 September. Recorded as **presence, not tenancy**, and two years
+earlier than the return the wiki otherwise narrates.
+
+**The atheism turns on itself inside the year.** Militant in February (*"You
+have to make it clear to everyone, including your children, that there is no
+god"*) and on 2013-07-30 posting *"This is a great critique of neo-atheism"* —
+the movement's own term for itself. The belief does not change; the affiliation
+does. Same shape as every other departure in this corpus: he leaves the tribe,
+not the conclusion.
+
+**Also:** during the Boston bombing he mocks the conspiracy layer rather than
+working it, and reads *analysis* of social-media coverage six months after
+running the Sandy liveblog — the step between the practice and the theory. The
+shock-slur register peaks this year and is kept unsoftened, beside sustained
+non-ironic engagement with *Yeezus* and its racial argument in the same months;
+the page says plainly that this is one person, not two. And *"panic tax"*,
+posted alone on 20 January and again on 13 September, has no known referent.
+
+## [2026-09-03] ingest | self | 2014 read in full — he backed Cumia the day after the firing, and the correction makes the left turn larger
+
+171 rows, 170 of them from the operator export. **A spreadsheet-complete year,
+so absence is evidence here** — which is what makes the finding usable.
+
+**The corpus's account of the O&A split does not survive its own record.**
+`wiki/interests/opie-and-anthony` and `wiki/mind/synthesis/2020-left-turn` both
+rest on Dan's 2022 statement that fans like him were *"so repulsed by the
+racism and fascistic overtones that we were radicalized to leftist politics."*
+Anthony Cumia was fired on 2014-07-03 over racist posts about a Black woman who
+had struck him in Times Square. On **2014-07-04**:
+
+> *"@AnthonyCumia nothing but love and respect ant. Thanks for not selling your
+> soul through this whole mess."*
+
+And on 2014-03-25, *"brilliant point re 'tranny' outrage."* The year is
+complete and contains no post expressing discomfort — the record is not silent,
+it is opposed.
+
+**What survives is the cause; what fails is the timing.** *"We were
+radicalized"* describes a process that may begin long after its trigger, and
+the 2020 turn corroborates the direction. Recorded as **t015** — `partial`,
+failure `compression`, direction `early`, slant **`flattering`**. That is the
+**first non-neutral slant in the testimony ledger**, which until now read 4/4
+neutral. `CLAUDE.md` says the absence of self-serving error is only evidence if
+somebody looked for it; somebody looked, and there is one.
+
+**The correction makes both pages stronger.** The six-year lag between the
+split and the August 2020 self-narration was an awkward gap those pages routed
+around. It is the actual finding: the distance from *"nothing but love and
+respect ant"* to a democratic-socialist self-description is the size of the
+change. A conversion beginning at the moment of the offence would be a much
+smaller claim about a person.
+
+**SLOPPP at full extension, the same year.** An official Beatport remix contest
+entry with vote canvassing; flips for heRobust, Katy Perry × Juicy J, gLAdiator,
+Drake × Cashmere Cat, Caked Up and Zeds Dead; *Week in TRAP* to episode 8, *Wax
+Stacks and Racks* monthly, *Heatwave Vol 1*, and a live-streamed video show
+(*TRAP TV*, Ustream and YouTube, November–December); unsolicited tracks sent to
+another DJ twice; a public collaboration address (*"danfr4nk@icloud.com for
+stems and patch trades"*); thanks from `@cobrakrames`, `@whatdirt` and a shout
+from Lil Debbie; a hand-painted MIDI controller. And the cost, twice:
+*"So many hours DJing that I need daily inversion table therapy."*
+
+**Two things that recur.** The Aoki objection (25 April) applies
+vertical-authority-skepticism to his own field — a famous performer taking
+money for work he is not doing — while classifying himself as *"a 'nobody'
+DJ"* in the same month he was entering a label contest. And 14–16 October is
+seven tweets pitching unpaid, competent O&A audio production to six people at
+the show, two years after the unanswered internship application.
+
+**One more unshipped ambition, dated.** 19 December: *"i think my reference,
+pun, and pop culture games are heavy and could probably be some 2015 rap star
+kick."* Nothing follows it. The self-assessment is accurate, which is what
+makes the pattern worth naming.
+
+## [2026-09-03] ingest | self | 2015 and 2016 read in full — the music operation stops, the account goes dark for five months, and 2016 is a step away from the left turn
+
+**2015 (62 rows).** SLOPPP produces **two things in twelve months**: a Far East
+Movement remix entered in a wavo.me contest on 26 January with a
+vote-canvassing post, and a 16 March re-post of a video made in May 2014. After
+roughly forty releases across 2013–14, that is the whole year. What replaces it
+is consumption — YouTube likes, playlist adds, eight consecutive `True Skate`
+gameplay clips on 15–16 July, and two video-poker app auto-posts. **The project
+does not fail, get rejected, or get abandoned in a statement. It stops being
+posted**, and the same account carries on. That is `failure-to-launch` in its
+concrete form.
+
+**The account is silent from 2015-07-16 to 2015-12-04.** Five months, in a year
+with no archival seam to blame, covering `wiki/legal/2015-possession-arrest`
+and the four-month secret housing arrangement on `alexis-armel`. Across seven
+years this feed has narrated a hurricane, a firing, a graduation, jobs and a
+breakup; in the year it is most needed it is switched off. **The public feed is
+not a diary that thins under pressure — it goes dark under pressure**, which
+must be known before any later quiet year is read as an absence of events.
+
+The December 2015 cluster is **deliberately not narrated**, under the Annie
+moratorium. Said on the page in the open so no later session reads the gap as
+an oversight and fills it.
+
+**2016 (76 rows).** The 7 February OSU gig tweet is on the page — the line
+`wiki/interests/music/overview` had leaned toward treating as an AI
+fabrication, resolved there on 2026-09-02. Two consequences recorded here:
+the ten-year music silence has a real counter-example, and **the operator
+export is not a census** — it dropped that row.
+
+**That last point cost a correction to yesterday's own work.** The 2014 page
+had claimed a "spreadsheet-complete year" and leaned on absence for the Cumia
+finding. Amended to "spreadsheet-backed, which is a different thing from
+complete", with the contradiction now explicitly resting on **the two posts he
+made rather than on the silence around them**. The finding is unchanged; its
+support is narrower and honest.
+
+**2016 is a step away from the left turn, not toward it.** No post on or after
+the 2016 election anywhere in the year. The DNC comments are aimed at
+stagecraft (*"The crowd signs at DNC are weirding me the fuck out"*), and on
+8 December: *"I don't know much about politics but Obama is NOT a fascist"* — a
+disclaimer of expertise from the man who argued eight political positions
+sharply in 2011. He was more politically vocal at twenty-two than at
+twenty-eight. Whatever 2020 was, it was not the last step of a gradual
+radicalisation.
+
+**Also:** golf arrives as a subject (four days at the U.S. Open at Oakmont,
+13–16 June, *"Oakmont rough like backyard of a foreclosure house"*) and
+completes a family thread running from *"country club status. bloated sense of
+self worth"* (2009) through the great-grandmother *"country club Queen Bee in
+1960"* (2014). Employment appears only ever as **material** — *"hired actors
+carrying out an elaborate and gloriously stupid performance art piece"* is the
+year's only description of the job — a posture stable across five years and
+four jobs. And on 6 March he forecasts his own outcome with the inherited
+instruments: *"The amount of time I'm gonna spend becoming mediocre at them
+will be crzy."*
+
+## [2026-09-03] ingest | self | 2017-2019 read in full — the left turn is a conversion from liberalism, and the pipeline starts in 2017 as comedy
+
+263 rows across three years. The main finding replaces this corpus's implicit
+two-state model of Dan's politics with a **four-stage sequence**, written into
+`2020-left-turn` and both editions.
+
+| Stage | Years | Character |
+|---|---|---|
+| anti-authority, no economics | 2009–2012 | eight political posts in 2011, every one aimed at a vertical, none redistributive |
+| disengaged | 2013–2016 | no post on or after the 2016 election; *"I don't know much about politics"* (2016-12-08) |
+| **anti-Trump liberal resistance** | 2017–2019 | Romney agreed with under `#ImpeachTrump`; a Pence term weighed as *"gotta b better"*; *Fire and Fury* and Comey read in public; Trump as a wasted vehicle for gun control; Cory Booker joked about in October 2019 |
+| democratic socialist | 2020-08-22 → | |
+
+**Two consequences.** The conversion is **from liberalism, not from apathy** —
+a shorter and more specific distance, and the thing abandoned in 2020 had only
+been adopted in 2017. And **the abruptness that page dates is real**: ten months
+prior he is addressing *"moderate conservatives who elected this guy as a
+symbolic ultimatum"*, arguing across the aisle rather than from outside the
+room. No partial state exists in the record.
+
+This is deliberately a **qualitative** finding. The counting failed here on
+2026-09-02 and was withdrawn; what changes across these years is the *kind* of
+politics, which no keyword pattern can see.
+
+**The media pipeline starts three years early and arrives through comedy.**
+`@drmistercody` — Cody Johnston, then of *Cracked*, later *Some More News* —
+appears five times across 2017, with Dan's own account of why: *"'some news'
+might be a comedy show, but I think you're making an impact. Ppl (dummies,
+americans) need aggressive simplicity."* On 2017-12-05 he unfollowed *Cracked*
+over staff departures — following the people out of the institution. **The same
+mechanism that carried him into Opie & Anthony, aimed elsewhere.** He does not
+arrive at left media through argument; he follows funny people he already
+liked.
+
+**The O&A sequence gets its middle term.** *"opie sucks though"* (2018-10-29) is
+the first negative word about either host in the archive: supportive in 2014,
+dismissive in 2018, narrated as radicalisation in 2022. No argument attached —
+the affiliation drops before any reason for dropping it is stated, which is the
+shape of the 2009 Republican exit and the 2013 neo-atheism exit.
+
+**Other findings written back:**
+
+- **The Pennsylvania departure is dated.** *"Au revoir Pennsylvania. Adiós Trump country."* (2019-03-03) — the only dated exit from Fayette County in the archive, closing the far end of `location-history`'s blind window. By October the state is a weekend destination.
+- **The nicotine pattern reaches n=3, stated by him.** 2019-10-09: *"i could replace the constant taste of burnt tobacco with strawberry"* — replace the delivery, keep the molecule, report the health benefit — nine years after doing it with an e-cigarette, and followed within a day by a can of Skoal.
+- **He read his own archive in 2019**: *"reading through my old tweets from like 2009 and the only thing i can relate to or recognize is all the pot talk."* Close to right and wrong interestingly: the vocabulary and affiliations change completely; the method does not change at all.
+- **The record collection was sold as $1-bin junk by somebody else** (2019-10-12, six posts, including a copy he had sold for $900 in 2014 and a numbered promo pressing). No date, no agent, no context anywhere in the corpus. Filed as an open gap seven months after the PA departure.
+- **The 1 January 2018 great-grandmother thread** — 97, advanced dementia, two days of full lucidity, videoed, then *"I've since read a bunch about terminal lucidity"*. Carer (70 hours in one week), observer of his own observation (the decline hid itself by resetting the baseline daily), documenter, and refuser of the consoling reading in the same sentence he offers it.
+- **One word at Charlottesville**: *"L'chaim"*, 2017-08-12 — the account's only religious-identity marker in seventeen years, on the day of the torchlit march.
+- **2018-03-20**: a running spreadsheet of vocabulary to adopt from Desus & Mero. The earliest documented instance of the systematising instinct this wiki is a product of.
+
+## [2026-09-03] ingest | self | 2020 and 2021 read in full — the public declaration, an analysis that precedes the label, and a date corrected by five months
+
+59 rows across two years, and three of them move settled pages.
+
+**The conversion has a public half the corpus never had.** `2020-left-turn` is
+built on a private self-narration of 2020-08-22. Six weeks later, on
+**2020-10-03**, addressed to strangers with no AI in the loop:
+
+> *"okay so if 2020 hasn't made you a marxist who is unapologetically claiming
+> democratic socialism / social democracy as your political ideology...you're
+> either frighteningly uninformed or just a fucking ghoul"*
+
+The first public political self-identification in seventeen years of the
+account. Its register is the finding as much as its content: six weeks in, he is
+already **policing the boundary**, allowing only ignorance or moral defect as
+grounds for disagreement — the no-middle-setting verdict pointed outward.
+
+**And the analysis precedes the label by six months.** On **2020-02-15**, four
+months after the Cory Booker joke and a month before any lockdown, he runs four
+posts reading Bloomberg's candidacy as a party-splitting instrument bought with
+money, cites the stop-and-frisk ruling, and argues it with a left commentator.
+That is not liberal material. So the fourth stage begins **in the Democratic
+primary, not in the lockdown**: liberal (Oct 2019) → left analysis (Feb 2020) →
+label adopted privately (Aug 2020) → declared publicly (Oct 2020). The lockdown
+reading that page documents is real and is not the origin — it happened to a man
+whose analysis had already moved.
+
+**A date corrected by five months.** `opie-and-anthony` dated the move away from
+comedy free-speech absolutism to 2022-03-28. **2021-10-26**, during the
+Chappelle row: *"Lenny Bruce was arrested...not by 'the public', but by the
+state. Dave Chappelle is facing criticism which is, I'm told, different."* Same
+position, argued rather than declared, aimed at the martyrdom analogy the
+absolutist defence depends on. Bounded from the other side by 2019-01-16 (*"The
+recent joke shaming of Louis CK is so fucking disturbing"*), so the move happens
+inside those thirty-three months and the 2022 thread is where he **states** it
+about himself, not where he arrives.
+
+**January 6th is the cleanest specimen of the conspiracy distinction.** He forms
+a police-collusion hypothesis at high confidence, **prices it in the same
+tweet** (*"but what was the endgame? is that being too generous"*), and rejects
+the antifa-infiltration mirror on the ground that it requires its actors to work
+against their own interests. Not "that's a conspiracy theory" — a structural
+refutation, applied to his own hypothesis first.
+
+**Also:** 2020-02-23 describes this wiki's own method six years early — go back
+to primary sources, watch them unedited and at full length, compare early to
+late, report the divergence — applied to the 2016 campaign, and reaching the
+same Dice Clay comparison he had made in 2012, now checked against the footage.
+2021's vocabulary is a settled leftist's rather than a convert's (*material
+conditions*, *neoliberal*, *corpo donors*), and the primary opponent is the
+Democratic Party, which is the tell.
+
+## [2026-09-03] ingest | self | 2022 and 2023 read in full — he names Balloon Boy himself, and the method's bill comes due in public
+
+317 rows across the account's two densest recent years.
+
+**He confirms the 2009 reading in his own words, fourteen years later.** During
+OceanGate, 2023-06-21: *"This is so much better than balloon boy."* The 2009
+page reads the Balloon Boy day as the earliest instance of him watching the
+coverage rather than the event; **he classifies it the same way, unprompted, and
+uses it as the unit of comparison for a new spectacle.** Independent
+confirmation from the only person who could supply it.
+
+**The Paul Pelosi sequence is the method with its bill attached.** Already on
+`vertical-authority-skepticism` as a finding; what 2022 adds is the cost stated
+aloud: *"It super sucks being (as far as I can tell) the only person not buying
+the Paul pelosi story who isn't a groyper maga shitlord"*, *"I find myself with
+the most vile and hilariously wrong and morally bankrupt people in media"*, and
+still *"What actually happened? I have absolutely zero idea."* Two weeks before
+a midterm he was campaigning in, against a tribe he had adopted two years
+earlier, he detects the anomaly, refuses the consensus, declines to substitute a
+story, names the company it puts him in, says it disgusts him — and does not
+move.
+
+**He now disciplines his own side, which no earlier affiliation ever got.** On
+Hasan Piker, one of the four channels `2020-left-turn` names as his conversion
+mechanism: *"I shudder to think of a future where the most high-profile and
+promising ambassador of socialism slides into the jimmy dore / greenwald
+category"* (2022-02-22). The prior pattern was leaving when the carriers became
+the argument; here he tries to prevent the conditions that would make him leave.
+
+**The class content arrives complete on 2023-03-03**, in its own vocabulary —
+*bourgeois*, *class status*, *systemic advantages*, *material well-being* — and
+argued **psychologically**: a class position explained by the fear of losing it
+rather than by its economic interest. That closes the absence the four-stage
+sequence turns on.
+
+**AI is two years early and in three registers**: a four-post thread forecasting
+election deepfakes (2023-05-27, *"Pandora's box is open"*), a documented
+GPT-to-Bard message experiment (2023-06-13), and ChatGPT output posted as
+evidence of the model's judgement (2023-06-21). With the September 2022 DALL·E
+work already on `self/concepts/chatgpt`, the interest is plainly not new in
+2025. What is new in 2025 is turning it on himself.
+
+**A prediction seam the testimony ledger did not have.** t016: *"Ron DeSantis
+will absolutely NOT challenge Donald Trump in the 2024 Republican primary"*
+(2023-02-13, three tweets of reasoning) — refuted 100 days later, `overreach`,
+and **`--subject other`, the class `CLAUDE.md` records as nearly empty**. The
+scoring behaviour is the real finding: he logs his own misses in public
+(*"Fooled AGAIN by the fucking liberal mirage"*, 2023-03-30) rather than
+dropping them. The 2022 and 2023 forecasts are dated, reasoned and publicly
+settled, and are the best unmined material for calibration in the corpus.
+
+**Also:** he is waiting tables in 2022 and at *"an outdoor only NYC
+restaurant"* in 2023, and both times the job arrives in a subordinate clause
+inside an anecdote about customers — the posture the 2016 page named, unchanged
+across seven years. The 92-hour audiobook figure (2023-02-02) is the 2018
+*"voracious reader"* goal met and measured. The Buffalo livestream
+(2022-05-15) is the digital-witness disposition reporting on where it breaks,
+benchmarked explicitly against years of FPS games. And on 2022-07-18 he pitches
+Opie a repositioning strategy toward the dirtbag left — ten years after the
+internship application, four after *"opie sucks though"*.
+
+**One complication written back.** On 2023-02-10 Dan calls himself *"a
+conspiracy crank"*. `vertical-authority-skepticism` argues the label does not
+fit; it now says that the subject uses it, ironically, while dismissing a
+conspiracy theory. A finding that a description is wrong is weaker if the page
+is the last place to hear that he applies it to himself.
+
+## [2026-09-03] ingest | self | 2024, 2025 and 2026 read in full — all nineteen year pages now carry narrative runs
+
+**2024 (258 rows).** The densest single day in seventeen years is 28 June, 23
+posts, and it is the corpus's clearest record of **a stated prediction being
+falsified in front of the person who made it.** He posts forecasts before the
+debate (*"Biden is going to outperform the comically low expectations"*), then:
+*"LETS FUCKING GOOOOOOO"* → *"This is not SOTU Joe"* → *"It's joever"* → *"This
+is catastrophic"*. He does not delete it, defend it, or reframe the evidence,
+and within an hour he is running consequences. By 6 July he publishes a numbered
+situation report *"as of 3:15am"* with an explicit probability attached.
+
+**The Roman history is a working instrument within three weeks of the binge** —
+the UCLA encampment read as *"the Fabian strategy"* and *"Caesarian tactics"*
+(1 May), a proscription list in the post-debate wreckage (28 June), a major
+publication corrected on republican Rome (5 June). That is the *historicize*
+step `twitter-2024-cognitive-state` names, caught in the act and sourced.
+
+**He was a caddie** — one clause, inside an argument about Trump's handicap.
+The fourth job to enter this archive the same way, completing the golf thread
+that runs from *"country club status. bloated sense of self worth"* (2009)
+through the great-grandmother *"country club Queen Bee"* (2014) to Oakmont
+(2016). He was inside the country club, carrying the bags.
+
+**2025 (13 rows) — the finding is which eleven months are missing.** Nine posts
+in January–February, one on 2 October, nothing else. **The blackout covers the
+April 2025 AI turn and the founding of this project.** With 2015's five-month
+blackout across the arrest and the housing arrangement, the pair is the point:
+**the feed goes dark under pressure and under absorption alike, so the two years
+in which most happened are the two with least on them.** Written onto
+`wiki/self/twitter` as a standing warning: the volume curve is inverted as a
+life curve.
+
+Also 2025: a fourth memoir-title joke in eleven years, and self-taught piano —
+nine years after forecasting, of the inherited instruments, that *"the amount of
+time I'm gonna spend becoming mediocre at them will be crzy."*
+
+**2026 (26 rows) — the account returns as an AI user.** MOGZART dated to
+2026-03-04, the first original music on the account in eleven years and under a
+different alias in a different genre. Two named autonomous agents claimed in
+April. **2026-05-30: a browser agent used to delete every follow across
+Twitter, YouTube and SoundCloud at once, to rebuild the recommendation systems
+from scratch** — the digital-witness disposition turned from observation into an
+operation on himself. 2026-06-13: fourteen unbroken hours with a model building
+data visualisers over his own text logs, which is this work described from the
+inside.
+
+**And 2026-05-31, recorded carefully.** An iMessage auto-responder he built
+overnight ran unsupervised for about five hours and sent garbled unicode to a
+private contact. *"so it actually outperformed what i had asked it to build.
+sick."* **The recipient is not identified and no account is built from it**; the
+finding is the response. No alarm, no apology, no consequence — an agent that
+exceeded its instruction and reached a real person, filed as a joke the same
+morning. The clearest illustration in the corpus of the standing failure mode:
+the diagnosis is not missing and the behaviour does not follow from it.
+
+**The pass is complete.** All nineteen pages, 2008–2026, now carry narrative
+runs of 583–2,471 words against the 23–91 they started at.

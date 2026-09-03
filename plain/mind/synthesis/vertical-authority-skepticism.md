@@ -3,7 +3,7 @@ plain_of: wiki/mind/synthesis/vertical-authority-skepticism
 title: "Vertical Authority Skepticism"
 reading_level: general
 date_modified: 2026-08-28
-source_modified: 2026-08-19
+source_modified: 2026-09-03
 ---
 
 # Vertical Authority Skepticism
@@ -95,6 +95,50 @@ is some sort of scam. there is NO way i got this wrong"), a "patron saint of
 liars and fakes" persona, and tracked interests in Elections, Congress, the
 Constitution and Law. The detective instinct came first. The ideology found it
 later.
+
+## 2011: the instinct was already finished, and it had no politics in it
+
+The strongest evidence that this pattern came *before* Dan's politics, rather
+than out of them, is the year 2011 — six years before he got politically
+engaged and nine before he called himself anything.
+
+He posted about politics eight times that whole year. The list: Glenn Beck
+("DANGEROUS"), the cost of the Iraq war compared to what science funding could
+have bought, a line about money being debt, mounted police ("WHY DO WE NEED
+MOUNTED POLICE. ITS 2011"), the West Memphis 3, the execution of Troy Davis,
+government surveillance ("1984 = 2012"), and an internet censorship bill.
+
+**Every single one is aimed at somebody in charge. Not one is about money
+being shared out differently.** Nothing about wages, jobs, rent, healthcare or
+class. If you read that list without knowing how the story ends, you could
+easily guess he was about to become a libertarian.
+
+The Troy Davis posts show the pattern actually working. He would not take the
+easy version of his own argument:
+
+> *"I have no idea whether Troy Davis was guilty or not, but he deserved the
+> chance to live another day to fight in court."*
+
+He is not saying the man was innocent. He is saying nobody should be certain
+enough to kill him. That is this whole page in one sentence, said by a
+twenty-two-year-old about a stranger — and it is the same move he made that
+same year against a pastor and against people predicting the end of the world.
+**He never attacks what people believe. He attacks their right to be so sure.**
+
+## He calls himself a conspiracy crank, and it changes nothing
+
+This page argues that "conspiracy crank" is the wrong label for Dan. He uses it
+about himself.
+
+On **February 10, 2023**, while laughing at a theory he thought was too silly
+to take seriously, he wrote: *"Anytime you find a narrative that a conspiracy
+crank like myself finds bird brained enough to actually laugh at…it's something
+special."*
+
+It is a joke, made in the middle of dismissing a conspiracy theory — which is
+close to the opposite of what the label describes. It does not change what he
+actually does, which is the rest of this page. But a page saying a description
+is wrong should not leave out the fact that the person uses it, so here it is.
 
 ## The exception, and what it really is
 

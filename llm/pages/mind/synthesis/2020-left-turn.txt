@@ -4,7 +4,7 @@ page_type: synthesis
 status: stable
 knowledge: earned
 date_created: 2026-07-16
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 sources:
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/dox-scan/Dan Profile.txt"
@@ -58,6 +58,9 @@ connections:
   - page: wiki/health/the-configured-body
     type: caused-by
     claim: "The material grievance under the ideology is on the record six months before this page's 2020-08-22 conversion date and is never quoted here: 'imagine being able to just go to the doctor or dentist when you need' and 'the doctor thing is a really big thing for me...there's no reason that 50,000 people die a year because they don't have insurance' (2020-02-07)."
+  - page: wiki/self/twitter/2009
+    type: evidenced-by
+    claim: 'The corpus\'s earliest dated political self-description is a departure, not an arrival: "i no longer consider myself a republican" (2009-11-28), triggered by a link to people behaving badly and naming no replacement. Eleven years before the arrival this page dates, and the same mechanism as the 2022 O&A account — leaving a tribe rather than joining one.'
 ---
 
 
@@ -183,6 +186,41 @@ comfort. This is the "since I've been stuck inside" of lockdown
 ([[wiki/timeline/periods/covid-era-2020]]) doing the classic
 micro-radius-siege radicalization.
 
+## The exit is eleven years older than the arrival
+
+The corpus's earliest dated political self-description is not the 2020 arrival.
+It is **2009-11-28**, on Twitter, at twenty-one, from Pennsylvania over
+Thanksgiving weekend:
+
+> *"people like this are why i no longer consider myself a republican...wowwwwwwwww"*
+
+Three features of that sentence matter more than its date. It is a
+**departure** — it says what he has stopped being and names nothing he has
+become. It is triggered by **people**, by a link to somebody behaving badly,
+rather than by a policy or an argument. And it is aimed at the tribe he was
+raised inside: `CONTEXT_CORE_EXPANDED` records the Uniontown household as
+*"Republican household + talk-radio diet (Limbaugh/Beck/Hannity on the
+auto-parts delivery job)"*.
+
+That is the same mechanism as the 2022 account in the section below — the O&A
+fanbase following Cumia rightward and repelling him leftward, *"radicalized
+[us] to leftist politics"* — running eleven years earlier and against a
+different tribe. **The pattern is not that Dan arrives somewhere; it is that
+he leaves, repeatedly, when the people carrying a position become the argument
+against it.** The 2020 date this page establishes remains the date the
+*destination* was named. What moves is the claim that the departure was part
+of it: the departure had already happened, twice, and 2020 is when something
+finally occupied the vacancy.
+
+**The counter-evidence, and it is real.** One tweet is one tweet. Nothing else
+on `wiki/self/twitter/2009` is political, the page's first nine months are a
+fetch artefact rather than a sample (so an absence there proves nothing), and
+eleven years of no recorded political identity separate the two events. A
+disavowal at twenty-one is a common thing for a twenty-one-year-old to say and
+is not evidence of an early left turn. What it is evidence of is that the
+Republican identity was already gone long before anything replaced it, which
+the media-pipeline story below never had to account for and now does.
+
 ## A second causal account, in his own words, from 2022
 
 This page's mechanism is media plus reading under lockdown: Chapo, Hasan,
@@ -219,6 +257,114 @@ originals. The most causally explicit thing Dan ever said in public about his
 own radicalization survives as its first third. The official X export would
 recover the rest; see [[wiki/self/twitter]] for the two other reasons that
 export is now wanted.
+
+## 2011: eleven years of anti-authority with no economics in it
+
+The section above dates the exit to 2009. `wiki/self/twitter/2011` fills in
+what stood in the gap, and it is not a slow drift leftward.
+
+2011's eight political posts are Glenn Beck, the Iraq war budget against
+science funding, *"money=debt. debt=money"*, mounted police, the West Memphis
+3, Troy Davis, *"1984 = 2012"* and SOPA. **Every one targets a vertical
+authority; none is redistributive.** No wages, no labour, no housing, no
+healthcare, no class. In 2011 that combination was as available to a
+libertarian as to a socialist, and *"money=debt"* in particular was then the
+house vocabulary of the former.
+
+So the honest statement of what happened in August 2020 gets narrower and more
+useful. The anti-authority instinct was complete at twenty-two and needed
+nothing from the pandemic, the lockdown or the media pipeline. **What 2020
+supplied was an economic analysis to attach that instinct to, and a name for
+the result.** The conversion was not from right to left; it was from an
+objection without a programme to an objection with one.
+
+That also explains a thing this page previously had to treat as coincidence:
+why the conversion took so completely and so fast, in a matter of weeks. It was
+not building a position from nothing. It was filling a vacancy that had been
+open for eleven years.
+
+## The O&A cause is real but its date is not 2014
+
+The section below cites Dan's 2022 account that the fanbase's rightward drift
+after Cumia's 2014 firing *"radicalized [us] to leftist politics"*. The
+contemporaneous record shows he was not among the repulsed at the time: on
+**4 July 2014**, one day after Cumia was fired over racist posts, Dan tweeted
+at him *"nothing but love and respect ant. Thanks for not selling your soul
+through this whole mess."* 2014 is spreadsheet-complete and contains nothing to
+the contrary (`wiki/self/twitter/2014`; ledger record **t015**).
+
+The cause survives; the timing does not. **And the correction is in this
+page's favour.** The six-year gap between the split and the August 2020
+self-narration was previously an awkward silence this page had to route
+around. It is now the actual shape of the thing: he stayed in that audience for
+years after the offence, and the distance from *"nothing but love and respect
+ant"* to a democratic-socialist self-description is the size of the change
+being documented. A conversion that begins at the moment of the offence would
+be a much smaller claim.
+
+## The four stages, and what 2020 actually converted him from
+
+Reading all nineteen twitter year pages in full (2026-09-03) replaces this
+page's implicit two-state model — before and after — with a four-stage sequence.
+It is qualitative rather than counted, deliberately: the counting failed here
+once already, and what changes across these years is the *kind* of politics,
+which no keyword pattern can see.
+
+| Stage | Years | What it looks like |
+|---|---|---|
+| **Anti-authority, no economics** | 2009–2012 | Republican identity abandoned 2009-11-28 with no replacement named. Eight political posts in 2011, every one aimed at a vertical — church, broadcaster, police, court, executioner, monetary authority, censor — and none redistributive. In 2012 an Obama vote with a programme of limits, not transfers. |
+| **Disengaged** | 2013–2016 | Almost nothing. **No post on or after the 2016 election**, and on 2016-12-08, *"I don't know much about politics but Obama is NOT a fascist"* — a disclaimer of expertise from the man who argued eight positions sharply at twenty-two. |
+| **Anti-Trump liberal resistance** | 2017–2019 | Sustained and specific. Agreeing with Mitt Romney under `#ImpeachTrump`; weighing a full Pence term as *"gotta b better"*; *Fire and Fury* and Comey's *A Higher Loyalty* read in public; Trump conceived as a wasted vehicle for gun control; impeachment consumed as procedural drama; and in October 2019, a joke about voting Cory Booker. Nothing about class, labour, healthcare or capitalism in three years. |
+| **Democratic socialist** | 2020-08-22 → | This page. |
+
+**Where the fourth stage actually begins.** The stage boundary is not August
+2020. `wiki/self/twitter/2020` shows the *analysis* arriving first, in the
+Democratic primary: on **15 February 2020**, four months after the Booker joke
+and a month before any lockdown, he runs four posts reading Bloomberg's
+candidacy as a party-splitting instrument bought with money, cites the stop-and-
+frisk ruling, and argues it with a left commentator. That is not liberal
+material. The sequence is therefore:
+
+| When | What |
+|---|---|
+| Oct 2019 | liberal — impeachment as procedural drama, a Cory Booker joke |
+| **Feb 2020** | left analysis, fluent, during the primary — before the lockdown |
+| Aug 2020 | the label adopted, in the self-narration this page is built on |
+| **Oct 2020** | declared in public: *"if 2020 hasn't made you a marxist ... you're either frighteningly uninformed or just a fucking ghoul"* |
+
+**The lockdown is real and it is not the origin.** The reading this page
+documents happened to a man whose analysis had already moved, and who then
+found himself indoors with time. And the 3 October declaration is what this
+page has never had — **public, dated corroboration with no AI in the loop** —
+arriving six weeks after the private narration and already issuing ultimatums,
+which is the boundary-policing that follows every affiliation he adopts.
+
+**Two things follow, and both make this page's claim more precise.**
+
+**The conversion is from liberalism, not from apathy.** That is a shorter
+distance and a more specific one — and the thing left behind in 2020 had itself
+only been adopted in 2017. He was a Resistance liberal for three years, which
+is not long enough for it to have been load-bearing.
+
+**And the abruptness this page dates is real.** Ten months before the
+self-narration he is joking about Cory Booker and addressing *"moderate
+conservatives who elected this guy as a symbolic ultimatum"* — arguing across
+the aisle rather than from outside the room. There is no partial state. The
+2019 record shows liberalism intact right up to the edge.
+
+**The pipeline, though, starts three years early — and through comedy.** The
+first channel of that ecosystem in the archive is `@drmistercody` — Cody
+Johnston, then of *Cracked*, later *Some More News* — posted about five times
+across 2017, with Dan's own account of why on 2017-08-20: *"'some news' might
+be a comedy show, but I think you're making an impact. Ppl (dummies, americans)
+need aggressive simplicity."* On 2017-12-05 he unfollowed *Cracked* over staff
+departures, following the people out of the institution.
+
+So the media half of this page's story is not a 2020 discovery. It is a
+2017 comedy-audience migration that took three years to become politics —
+**the same mechanism that carried him into Opie & Anthony, running toward a
+different destination.** He does not arrive at left media through argument. He
+arrives by following funny people he already liked.
 
 ## The media pipeline (dirtbag left / BreadTube)
 

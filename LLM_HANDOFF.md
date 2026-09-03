@@ -4,6 +4,139 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-03] - Session: narrative runs for the twitter year pages (Claude Opus 5)
+
+* **Branch:** `claude/narrative-runs-twitter-pages-4r3wf9` · **PR #251** · gates green at every commit.
+* **Trigger:** operator — the previous night's session on this ran out of quota and **saved nothing**; the branch was byte-identical to `main`. Restarted from scratch.
+
+**The task, as the operator confirmed it.** The 19 twitter year pages were
+frontmatter + one paragraph + a tweet dump, except 2008, which carried 313
+words of narrative for 95 tweets. 2010 carried 62 words for 342. **The
+narration was thinnest exactly where the material was densest.** Each year gets
+a real narrative run, written by reading the year in full, with findings wired
+back as typed edges and prose.
+
+**Done: all nineteen year pages, 2008–2026.** 2008 already had one; the other
+eighteen were written this session by reading each year in full. Narrative
+lengths now run 583–2,471 words against the 23–91 they started at.
+
+**Main was carrying three red gates on arrival.**
+`wiki/synthesis/twitter-2024-cognitive-state.md` (PR #247) merged failing
+`wiki-lint`, `wiki-connect` and `wiki-climb` at once, in a domain that does not
+exist. Moved to `wiki/mind/synthesis/`, frontmatter corrected, argument
+untouched.
+
+**The findings that left the pages, in value order:**
+
+1. **The Suboxone day-zero was computed from a train going the wrong way.**
+   `chemical-architecture` carried 2010-02-17 as "day-zero pinned". Its origin
+   is a Gemini session where a model asserted an 18 February Amtrak to Penn
+   Station and Dan replied *"if the train left on feb 18 that means that the
+   first day i began my successful suboxone streak was feb 17, 2010."* The
+   date was **computed, not recalled**, and the anchor is wrong — the 18th was
+   the *return* leg. **It survives on independent evidence**: a same-day tweet
+   at 15:07 NY time, *"this is the most stressful day/decision of my life"*,
+   with the Brooklyn move excluded as referent. t014, confirmed.
+2. **He backed Anthony Cumia the day after the 2014 firing.** The corpus's
+   whole O&A→left-turn account rests on his 2022 claim to have been *"repulsed
+   by the racism"* at the split. 2014-07-04: *"nothing but love and respect
+   ant."* Spreadsheet-complete year, no contrary post. t015 — `partial`,
+   `compression`, `early`, slant **`flattering`**, the ledger's first
+   non-neutral slant. **The correction makes the left turn larger**, because
+   the six-year lag is the measure of the change.
+3. **The 2011 politics are anti-authority with zero economic content**, so
+   2020 supplied the economics and the name, not the instinct — which also
+   explains the conversion's speed. Written into `2020-left-turn` and
+   `vertical-authority-skepticism`.
+4. **The Full Sail graduation date is contradicted** by *"i start my last month
+   of college tomorrow"* (2009-08-31) and an AWS final (2009-12-19). Held, not
+   resolved. t013 refuted/displacement/early. **Both settled date claims now
+   run early** — n=2, under `MIN_N`, a direction to watch.
+5. **The digital-witness thread is a curve, not a point**: Balloon Boy 2009
+   (coverage as subject) → Irene 2011 (consumed remotely, evacuation map
+   redistributed) → Sandy 2012 (stated as a claim about the medium) → Boston
+   2013 (reading *analysis* of it). And the Sandy line was written by one of
+   the generators mid-generation — he ran a liveblog and fed footage to a
+   national radio show.
+6. **The 2008 account-creation gap is closed** — two novelty-site counters he
+   posted in 2010 give 23 September 2008 local.
+7. **The only interval in six years when the Alexis relationship is off** is
+   bounded to six-to-eight weeks, with `@katie_efff` documented inside it.
+8. `location-history`'s 2011–2014 blind window is **partially filled**: he is
+   substantially in Fayette County from August 2013, two years earlier than the
+   return the wiki narrates. Presence, not tenancy.
+
+**The methodological warning that must not be lost.** 2009–2013 are **fetch
+artefacts, not samples.** Both retrieval methods were capped at ten results per
+month-bounded query, so January–September 2009 and much of 2010–2012 survive as
+end-of-month clusters, and 2013's apparent mid-August explosion of music
+activity coincides with the operator spreadsheet's start date (2013-08-17) to
+within a week. **No claim about cadence, volume, or a subject going quiet is
+supportable for those years.** Each page now says so at the top of its Gaps.
+2014 onward is spreadsheet-complete and absence *is* evidence there — which is
+precisely what made finding 2 usable. This is `skills/corpus/vocabulary-drift`
+arriving through a second mechanism; a candidate is in `skills/INBOX.md`.
+
+**Later findings, added as the pass went on:**
+
+9. **The politics are a four-stage sequence, not a two-state one**, written into
+   `2020-left-turn` and both editions: anti-authority with no economics
+   (2009–2012) → disengaged, silent through the 2016 election (2013–2016) →
+   **anti-Trump liberal resistance** (2017–2019) → democratic socialist (2020).
+   **The conversion is from liberalism, not apathy.** And the stage boundary is
+   the **Democratic primary, not the lockdown**: 2020-02-15 runs Bloomberg as a
+   class conflict, four months after a Cory Booker joke. The public declaration
+   is 2020-10-03 and it is an ultimatum.
+10. **The media pipeline starts in 2017 and arrives through comedy** —
+    `@drmistercody` five times that year, then unfollowing *Cracked* over staff
+    departures. The same mechanism that carried him into Opie & Anthony.
+11. **He names Balloon Boy himself** during OceanGate, 2023-06-21: *"This is so
+    much better than balloon boy."* Independent confirmation of the 2009 reading
+    from the only person who could give it.
+12. **`opie-and-anthony`'s free-speech date corrected by five months** —
+    2021-10-26 (Chappelle/Lenny Bruce), not 2022-03-28.
+13. **Two blackouts, both written onto `wiki/self/twitter`**: five months in
+    2015 (arrest, housing arrangement) and **eleven months in 2025** covering
+    the April 2025 AI turn and the founding of this project. **The two years in
+    which most happened are the two with least on them** — the volume curve is
+    inverted as a life curve.
+14. **Employment enters this archive only ever as material** — retail (2012),
+    unpaid internship (2011), waiting tables (2022, 2023), caddie (2024). No
+    employers, no dates, no durations, four jobs, one posture.
+15. **t015 and t016** added to the testimony ledger. t015 (the Cumia claim) is
+    its **first non-neutral slant** — `flattering`. t016 (the DeSantis
+    prediction) is the first real entry under **`--subject other`**, the class
+    `CLAUDE.md` records as nearly empty.
+
+**Next, in order:**
+1. **The prediction seam is unmined and it is the best calibration material in
+   the corpus.** 2022–2024 carry dated, reasoned, publicly-settled forecasts —
+   yapms maps, PredictIt prices, seven numbered theories published before an
+   event, and the 28 June 2024 debate night where a stated prediction collapses
+   in real time and he updates within the hour without defending it. Only t016
+   is in `wiki/meta/testimony-veracity`. Scoring the rest would move that ledger
+   from n=9 toward the n≈30 it needs.
+2. **Four people with no page and clear warrant.** `@Yamez1` (the one peer Dan
+   submits work to for critique, 2013–2014); `@katie_efff` / Katie Fletcher (the
+   documented other person in the 2013 break); `@franknarcissist` (a cousin,
+   *Fader* cover story, November 2013); `@drmistercody` is not a person page but
+   the 2017 pipeline entry belongs somewhere.
+3. **A live-scrape pass over March–September 2025 and November 2016.** Both are
+   named on their pages as the specific thing that would settle a load-bearing
+   absence claim — the 2025 blackout and the missing 2016 election posts. The
+   2016 OSU recovery proves the export drops rows, so neither is a formality.
+4. **The record collection loss has no date and no agent.** 2019-10-12, six
+   posts: a collection including a copy he sold for $900 in 2014 and a numbered
+   promo pressing, disposed of *"as $1 bin throwaway vinyl"* by somebody else.
+   Nothing else in the corpus touches it.
+5. **The 94 stale premises in `WORK.md` remain untouched**, and this session
+   added more by moving seven synthesis pages. That is a dedicated housekeeping
+   pass and it is now overdue.
+6. **`skills/INBOX.md` carries one new candidate** — *an archive seam looks
+   exactly like a change in behaviour*. Deliberately not promoted: one corpus,
+   one session. Promote when someone hits it over `bin/mine-messages`, where
+   `wiki/interests/music/overview` already carries unchecked absence claims.
+
 ### [2026-09-02] - Session: the operator testimony veracity ledger (Claude Opus 5)
 
 * **Branch:** `claude/operator-testimony-trust-score-55viga` · gates green · 367 tests pass.

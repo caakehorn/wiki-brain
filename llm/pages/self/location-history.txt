@@ -3,7 +3,7 @@ domain: self
 page_type: synthesis
 status: archived
 date_created: 2026-06-22
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 sources: ["raw/self/twitter/archive.jsonl", "raw/self/location/2026-06-22-ingest/Location History (Timeline)-20260622T225253Z-3-001.zip", "raw/self/location/2026-06-22-ingest/Location History (Timeline)/semantic_location.db", "raw/self/location/2026-06-22-ingest/Location History (Timeline)/Records.json", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/archives/google-data-export-index-20260623.html"]
 synthesizes:
   - wiki/self/context-core
@@ -43,6 +43,9 @@ connections:
   - page: wiki/self/lineage/family-tree
     type: parallels
     claim: "The genealogical record's multi-generational concentration in Fayette County reproduces, across four generations, the same geographic gravity the location export shows in Dan's own movement."
+  - page: wiki/self/twitter/2013
+    type: evidenced-by
+    claim: 'From mid-August 2013 the tweets place Dan in Fayette County and Pittsburgh repeatedly — Sheetz, Texas Roadhouse, Carnegie Mellon, the Oddball festival, and Uniontown filmed on 27 September — inside the window this page records as having no address-level data at all.'
 ---
 
 # Location History (Google Timeline)

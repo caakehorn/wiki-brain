@@ -3,8 +3,8 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
-knowledge: derived
+date_modified: 2026-09-03
+knowledge: mixed
 date_range_start: 2017-01-07
 date_range_end: 2017-12-31
 title: "Twitter / X — 2017"
@@ -22,11 +22,128 @@ connections:
   - page: wiki/self/twitter/2018
     type: precedes
     claim: '2017 is the immediately previous year of originals before 2018 on the same account.'
+  - page: wiki/mind/synthesis/2020-left-turn
+    type: evidences
+    claim: 'The 2017-2019 politics are anti-Trump liberal resistance, not the left: agreeing with Mitt Romney under #ImpeachTrump, weighing a Pence term as preferable, and treating Trump as a wasted vehicle. So the 2020 turn is a conversion from liberalism rather than from apathy — and the pipeline\'s entry point is 2017 and comedic, via @drmistercody, followed out of Cracked in December.'
 ---
 
 # Twitter / X — 2017
 
-Politics arrives as a sustained register. Sessions hearings, Exxon 'apocalyptic performance art,' and the closing line 'I didn’t like 2017.' The sicko voice is no longer a costume — it is the default public mode.
+**The year politics returns, and it returns as liberal resistance rather than
+as the left.** After a 2016 that contained no election post at all, 2017 opens
+with Dan live-tweeting the Sessions confirmation hearings on 11 January and the
+inauguration concert on the 19th, and does not really stop. But the register is
+specific and it is not the one the corpus arrives at three years later.
+
+This matters because `wiki/mind/synthesis/2020-left-turn` withdrew its claim of
+a "2017 step" on 2026-09-02 — the keyword counting that produced it was
+measuring the pattern rather than the corpus. **The counting was wrong and
+something real is still there**; it is just not a change in *volume*. It is a
+change in *kind*, and only reading the posts shows it.
+
+## What the 2017 politics actually are
+
+| Date | Post | What it rules out |
+|---|---|---|
+| 2017-01-11 | *"on a scale of 1-10 how much better would a full term of Pence make u feel? On surface it feels just as fucked but gotta b better"* | nobody on the left prefers Pence |
+| 2017-08-16 | *"Never thought I'd be RTing in agreement with @MittRomney trump is truly the great uniter #ImpeachTrump"* | agreeing with Romney, and the hashtag is the Resistance's |
+| 2017-09-05 | *"Maybe... instead of getting involved in launching a new boutique media outlet, @HillaryClinton could stay far away from politics"* | anti-Clinton, but as a competence complaint, not a class one |
+| 2017-01-11 | *"it's like Shakespeare. It's apocalyptic performance art sponsored by Exxon"* | corporate capture named — the closest thing to a structural critique all year |
+
+The dominant mode is **spectatorship of a disaster**, done well. The
+inauguration thread on 19 January is a comic register applied in real time —
+*"When you think 'great American rock band', you think 3 doors down"*,
+*"Shakespeare, Renoir, Bach, Toby Keith, Warhol"*, and then, without warning,
+*"One day historians will pull this footage from the ash of what was once the
+library of congress & wonder what caused this collective insanity."* On
+30 January: *"post truth is the math rock of global reality"* and *"The
+campaign was Shakespearean, but the actual administration is more like a
+fucking coffee stained M. Night Shyamalan script."*
+
+The one place he goes past commentary is the environment. **28 March**, in a
+numbered pair: *"The environmental legacy of @realDonaldTrump will be something
+we'll have to answer for in the not-too-distant future"* / *"I've got to wonder
+whether these people are oozing ignorance of the implications here or if
+they're as nihilistic as they claim to be."*
+
+**So the corrected sequence across the whole archive is four stages, not two:**
+anti-authority with no economic content (2011) → disengaged, silent through an
+election (2016) → **anti-Trump liberal resistance (2017–2019)** → democratic
+socialist (August 2020). The 2020 turn is not a conversion from apathy. It is a
+conversion from *liberalism*, which is a shorter distance and a more specific
+one, and it means the thing being left behind in 2020 had itself only been
+adopted three years earlier.
+
+## Charlottesville, and one word
+
+**12 August 2017**: *"Take that stupid fucking statue down"*, *"This guy is
+just the worst"*, and — alone, the same day — ***"L'chaim."***
+
+Four days later: *"The most depressing note of summer 2017 should be the return
+of Reggaetón not the president siding with Nazis."*
+
+That single Hebrew toast is the account's only religious-identity marker in
+seventeen years, and it appears on the day of a torchlit march chanting *"Jews
+will not replace us."* `CONTEXT_CORE_EXPANDED` records Jewish heritage on the
+paternal line and atheism from 2007; this is what a heritage nobody practises
+looks like when something reaches for it. It is one word and it is not built
+into anything here — but it is dated, and it belongs on the record.
+
+## The pipeline starts three years early, through comedy
+
+`wiki/mind/synthesis/2020-left-turn` locates the media pipeline in 2020: Chapo,
+Hasan, ContraPoints, Seder. The first channel of that ecosystem appears here,
+in 2017, and Dan finds it as **comedy** rather than as politics.
+
+`@drmistercody` is Cody Johnston, then of *Cracked*, whose *Some News* segments
+became *Some More News*. Dan posts about him on 1 July, 20 August, 23 September
+(*"What Sean Spicer's Emmys Appearance Says About How We Consume The News"*),
+1 October (*"another master-class in covering the dick tornado that used to be
+called reality"*) and 4 November. On **20 August** he says what he thinks it is
+for: *"'some news' might be a comedy show, but I think you're making an impact.
+Ppl (dummies, americans) need aggressive simplicity."*
+
+Then, on **5 December**: *"@cracked sorry but no longer supporting/following
+due to the recent staff changes."* He follows the people out of the
+institution.
+
+**That is the pipeline's actual entry point, and it is a comedy-audience
+migration rather than a political conversion** — the same mechanism as
+Opie & Anthony, running toward a different destination. He does not arrive at
+left media through argument. He arrives at it by following funny people he
+already liked, which is how he arrived at everything else on this account.
+
+## Texture
+
+Bitcoin appears three times in December, at the top of the bubble — *"All I
+want for Christmas is.....like some bitcoin"* (9th), *"Looks like $btc could
+crack 20k today"* (16th), and a joke giveaway of one ten-trillionth of a coin
+(28th). A family coat of arms discovered on 15 October. A Spotify playlist on
+20 November, which is what music curation has been reduced to. A memoir title
+joke for the third time in the archive, now two of them: *"Exhuming The Corpse
+of Robin Williams"* or *"Super Edgy Tweets and How I Write Them"* (29 December).
+
+Two dated facts worth extracting. **28 December**: *"Smoked my first pack of
+cigarettes when I went to this promotional fall out boy show in 2007"* — which
+puts the start of smoking in the same year `CONTEXT_CORE_EXPANDED` dates the
+first opiate and the locking-in of atheism. And **27 December**: *"I quantify
+everything in life on a spectrum of 'ok computer' to blink 182 'self titled'"*
+— taste stated outright as a measuring instrument rather than a preference,
+which is the thesis of `wiki/interests/favorites/taste-profile` in his own
+words.
+
+The year closes on **31 December** with *"I didn't like 2017."*
+
+## What would change this reading
+
+The four-stage sequence is the load-bearing claim and it is qualitative — it
+reads the *kind* of politics rather than counting it, deliberately, because the
+counting has already failed here once. That makes it harder to falsify and
+easier to argue with, which is a real weakness. The specific thing that would
+break it is any 2017–2019 post making a redistributive or class argument; none
+has been found across three years of reading, but three years of reading is not
+a proof. The Cody Johnston thread is dated and solid; the claim that it is *the*
+entry point is not, since nothing rules out an untweeted one.
 
 ## Coverage
 
@@ -39,7 +156,7 @@ Politics arrives as a sustained register. Sessions hearings, Exxon 'apocalyptic 
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
-## January
+## The record
 
 ### 2017-01-07 17:54:38 UTC · [817791568585310208](https://x.com/danfrank/status/817791568585310208)
 *likes 0 · replies 0 · reposts 0*

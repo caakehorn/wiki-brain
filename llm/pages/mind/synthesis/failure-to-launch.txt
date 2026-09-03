@@ -7,7 +7,7 @@ status: stable
 knowledge: earned
 importance: high
 date_created: 2026-08-22
-date_modified: 2026-08-28
+date_modified: 2026-09-03
 tags: [career, personality-profile, financial-stress, music-production, ai-collaboration]
 sources:
   - raw/self/dox-md/Honest assessment and value judgment analysis.md
@@ -67,6 +67,9 @@ connections:
   - page: wiki/mind/concepts/exocortex
     type: evidences
     claim: "The bootloader and agent-framework artifacts are the strongest evidence for a capacity with a currently liquid market, and the corpus contains no client, invoice or externally shipped product anywhere against them."
+  - page: wiki/self/twitter/2012
+    type: evidenced-by
+    claim: 'Retail work with fitting rooms in September 2012, four years after Full Sail and two after the Ishlab job, recorded only as an aside about customers — and an unpaid internship application in November presenting a three-year-old certification as recent. The tone is the finding: it is never named as a problem.'
 ---
 
 # Failure to Launch — The Capability Audit

@@ -8,13 +8,65 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-03 — 1 page
+## 2026-09-03 — 41 pages
+
+- **Session log:** lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
+- **Session log:** ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
+- **Session log:** ingest | self | 2010 read in full — the corpus's most-cited date was computed from a train going the wrong way, and it survives anyway
+- **Session log:** ingest | self | 2011 read in full — the reasoning style is finished at twenty-two, and the politics are empty
+- **Session log:** ingest | self | 2012 read in full — the "digital disaster" line was written by one of the generators, mid-generation
+- **Session log:** ingest | self | 2013 read in full — SLOPPP as an operation, a six-week gap in the six years, and a shape that is mostly the archive
+- **Session log:** ingest | self | 2014 read in full — he backed Cumia the day after the firing, and the correction makes the left turn larger
+- **Session log:** ingest | self | 2015 and 2016 read in full — the music operation stops, the account goes dark for five months, and 2016 is a step away from the left turn
+- **Session log:** ingest | self | 2017-2019 read in full — the left turn is a conversion from liberalism, and the pipeline starts in 2017 as comedy
+- **Session log:** ingest | self | 2020 and 2021 read in full — the public declaration, an analysis that precedes the label, and a date corrected by five months
+- **Session log:** ingest | self | 2022 and 2023 read in full — he names Balloon Boy himself, and the method's bill comes due in public
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/health/chemical-architecture]] | health | _(carries a GAP CLOSED from 2026-08-28)_ |
+| [[wiki/interests/music/overview]] | interests | _(carries a CORRECTED from 2026-08-23)_ |
+| [[wiki/interests/opie-and-anthony]] | interests | **CONTRADICTION** — The contemporaneous record runs the other way. Anthony Cumia was fired on **3 July 2014** over racist posts about a Black woman who had hit him in Times Square. On **4 July 2014** Dan tweeted at him:  |
+| [[wiki/interests/video-games]] | interests | — |
+| [[wiki/legal/2015-possession-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
+| [[wiki/meta/digest]] | meta | — |
+| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a CONTRADICTION)_ |
 | [[wiki/meta/testimony-veracity]] | meta | — |
+| [[wiki/mind/synthesis/2020-left-turn]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
+| [[wiki/mind/synthesis/failure-to-launch]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
+| [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
+| [[wiki/mind/synthesis/twitter-2024-cognitive-state]] | mind | — |
+| [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
+| [[wiki/people/alexis-armel]] | people | _(carries a CORRECTED from 2026-09-02)_ |
+| [[wiki/people/dan-polyak]] | people | — |
+| [[wiki/people/josh-brannan]] | people | — |
+| [[wiki/places/424-bedford-ave]] | places | — |
+| [[wiki/self/location-history]] | self | _(carries a CONTRADICTION from 2026-09-02)_ |
+| [[wiki/self/twitter]] | self | _(carries a CONTRADICTION)_ |
+| [[wiki/self/twitter/2008]] | self | **GAP CLOSED** — this section previously read *"the account's creation datetime was not retrievable"*, and gave 24 September 2008 as an inference from the earliest surviving tweet. Dan settled it himself in 2010, twic |
+| [[wiki/self/twitter/2009]] | self | **CONTRADICTION** — `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and `wiki/timeline/periods/full-sail-2008-2010` and `wiki/people/alexis-armel` both build on |
+| [[wiki/self/twitter/2010]] | self | **CONTRADICTION** — the anchor is misread. The 18 February train was the **return** leg, not the outbound one. On 17 February Dan is already in New York (*"off to Williamsburg"*), and on the 18th he is *"On the train bac |
+| [[wiki/self/twitter/2011]] | self | — |
+| [[wiki/self/twitter/2012]] | self | — |
+| [[wiki/self/twitter/2013]] | self | — |
+| [[wiki/self/twitter/2014]] | self | **CONTRADICTION** — the 2022 account places Dan among those *"repulsed by the racism"* at the split. The contemporaneous record places him on the other side of it — congratulating Cumia on his integrity within twenty-fou |
+| [[wiki/self/twitter/2015]] | self | — |
+| [[wiki/self/twitter/2016]] | self | — |
+| [[wiki/self/twitter/2017]] | self | — |
+| [[wiki/self/twitter/2018]] | self | — |
+| [[wiki/self/twitter/2019]] | self | — |
+| [[wiki/self/twitter/2020]] | self | — |
+| [[wiki/self/twitter/2021]] | self | — |
+| [[wiki/self/twitter/2022]] | self | — |
+| [[wiki/self/twitter/2023]] | self | — |
+| [[wiki/self/twitter/2024]] | self | — |
+| [[wiki/self/twitter/2025]] | self | — |
+| [[wiki/self/twitter/2026]] | self | — |
+| [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
+| [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | **CONTRADICTION** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomo |
 
-## 2026-09-02 — 44 pages
+## 2026-09-02 — 12 pages
 
 - **Session log:** build | meta | the instrument layer gets a section, and the reason it needs one
 - **Session log:** adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
@@ -42,48 +94,16 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/interests/music/aliases/sloppp]] | interests | **GAP CLOSED** — the gap, as this page stated it — *"episodes 1–7 of 'Week in Trap' and any 'Heatwave Vol. 1' are unaccounted for."* **Heatwave Vol. 1** is dated: announced 13 May 2014 (*"First hour of my summer mix s |
-| [[wiki/interests/music/overview]] | interests | _(carries a CORRECTED from 2026-08-23)_ |
-| [[wiki/interests/video-games]] | interests | — |
-| [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/index]] | meta | — |
 | [[wiki/meta/instruments/index]] | meta | — |
-| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/readers-digest]] | meta | — |
-| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
-| [[wiki/mind/synthesis/2020-left-turn]] | mind | **CORRECTED** — An earlier version of this section claimed the archive showed **two steps, not one** — a first step in 2017 (4.0% → 11.1%, "nearly tripling") separating *political engagement* from *socialist identity |
-| [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
-| [[wiki/people/alexis-armel]] | people | **CORRECTED** — this paragraph first read *"four months in."* That was wrong and it understated the finding. The operator capture of 2026-08-27 dates the meeting to **Thanksgiving 2009** (26 November); the tattoo is  |
-| [[wiki/people/dan-polyak]] | people | — |
 | [[wiki/people/eric-jester]] | people | **CORRECTED** — this page described the friendship itself as "sparse but genuinely warm." That is an accurate reading of the *message thread*, which begins **May 2017**. It is not an accurate description of the frien |
-| [[wiki/people/josh-brannan]] | people | — |
 | [[wiki/people/shane-brannan]] | people | — |
 | [[wiki/people/vanessa-frank]] | people | _(carries a REVISED from 2026-07-14)_ |
 | [[wiki/self/facebook]] | self | **CONTRADICTION** — This paragraph used to say *every* field cross-checks. One does not. `places lived` gives **Brooklyn NYC from January 3, 2010**. The tweet archive has Dan in Florida for another eight weeks: *"moving  |
 | [[wiki/self/index]] | self | — |
-| [[wiki/self/location-history]] | self | **CONTRADICTION** — this bullet used to end "No contradiction." There is one, and it is in the Facebook profile itself. `places lived` says **Brooklyn from 3 January 2010**; the tweet archive has Dan in Florida through 2 |
 | [[wiki/self/tattoos]] | self | **CORRECTED** — this page previously read "**entirely** cultural reference … *every* known piece points at a specific record, band, or artist rather than a generic symbol," and dated the earliest well-documented piec |
-| [[wiki/self/twitter]] | self | _(carries a CONTRADICTION)_ |
-| [[wiki/self/twitter/2008]] | self | — |
-| [[wiki/self/twitter/2009]] | self | — |
-| [[wiki/self/twitter/2010]] | self | — |
-| [[wiki/self/twitter/2011]] | self | — |
-| [[wiki/self/twitter/2012]] | self | — |
-| [[wiki/self/twitter/2013]] | self | — |
-| [[wiki/self/twitter/2014]] | self | — |
-| [[wiki/self/twitter/2015]] | self | — |
-| [[wiki/self/twitter/2016]] | self | — |
-| [[wiki/self/twitter/2017]] | self | — |
-| [[wiki/self/twitter/2018]] | self | — |
-| [[wiki/self/twitter/2019]] | self | — |
-| [[wiki/self/twitter/2020]] | self | — |
-| [[wiki/self/twitter/2021]] | self | — |
-| [[wiki/self/twitter/2022]] | self | — |
-| [[wiki/self/twitter/2023]] | self | — |
-| [[wiki/self/twitter/2024]] | self | — |
-| [[wiki/self/twitter/2025]] | self | — |
-| [[wiki/self/twitter/2026]] | self | — |
 | [[wiki/timeline/periods/2010s]] | timeline | **GAP CLOSED** — the gap, as this page stated it — *"the exact 2010 move date is unresolved (context-core's residence table starts Brooklyn in April 2010, while an earlier note claimed a January 3 move — the Florida t |
-| [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | _(carries a GAP CLOSED from 2026-08-28)_ |
 | [[wiki/work/tech/index]] | work | — |
 
 ## 2026-09-01 — 2 pages
@@ -93,14 +113,13 @@ simply listed.
 | [[wiki/interests/favorites/eclecticism]] | interests | **REVISED** — This page last moved on 2026-06-23. Twenty-one days later the music member was rewritten from a cluster inventory into a two-wave, three-cluster, eighteen-year continuity argument with a lyrics-as-tim |
 | [[wiki/timeline/index]] | timeline | — |
 
-## 2026-08-31 — 5 pages
+## 2026-08-31 — 4 pages
 
 - **Session log:** ingest | health | the intake ledger's first export (2026-08-30/31)
 - **Session log:** ingest | health | the ledger gets an entry page
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/health/chemical-architecture]] | health | _(carries a GAP CLOSED from 2026-08-28)_ |
 | [[wiki/health/cocaine]] | health | _(carries a RE-CHECKED from 2026-08-28)_ |
 | [[wiki/health/index]] | health | — |
 | [[wiki/health/intake-ledger]] | health | — |
@@ -118,7 +137,7 @@ simply listed.
 |---|---|---|
 | [[wiki/meta/skills]] | meta | — |
 
-## 2026-08-28 — 34 pages
+## 2026-08-28 — 31 pages
 
 - **Session log:** feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch
 - **Session log:** spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
@@ -154,7 +173,6 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/interests/food-and-diet]] | interests | _(carries a RE-CHECKED from 2026-08-26)_ |
-| [[wiki/legal/2015-possession-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
 | [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — totality-themes gained two RE-CHECKED notes (2026-08-28) confirming a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris to Alexis Armel) touches neither page. **N |
 | [[wiki/mind/synthesis/annual-volume-suz]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a new 2013–2014 eviction/concealment episode (Alexis Armel, the washing machine). No message-volume figure this page draws on is touched.  |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a pre-Annie, Alexis-era eviction/concealment episode (2013–2014, Uniontown). It touches neither the Annie-era material nor any figure this |
@@ -163,7 +181,6 @@ simply listed.
 | [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a March 2014 Alexis-era eviction/concealment episode — housing and family-drama, no capital event, no figure this page draws on. **No clai |
-| [[wiki/mind/synthesis/failure-to-launch]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/mind/synthesis/fayette-return]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] | mind | **RE-CHECKED** — flagged stale against august-grievance-verdict (2026-08-28), which gained a re-check note tracing back to a pre-Annie, 2013–2014 Alexis-era eviction/concealment episode on suzanne-frank. It touc |
@@ -186,7 +203,6 @@ simply listed.
 | [[wiki/people/zach-clingan]] | people | **GAP CLOSED** — The 2014 "drug people" taxonomy and the December 2015 "my arch rival" outburst (below) both assume a rupture the corpus had never actually recorded. A 2026-08-27 operator capture (`raw/people/captures |
 | [[wiki/places/155-virginia-ave]] | places | _(carries a GAP CLOSED from 2026-08-22)_ |
 | [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — estate-money-spine gained a constitution-pass mechanism section (the Altruism-1 inversion explaining the $14,000 family loan) and a full register table. Nothing in it touches tenancy, paper, or any of |
-| [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
 
 ## 2026-08-27 — 5 pages
 
@@ -376,7 +392,7 @@ simply listed.
 | [[wiki/timeline/events/august-2026-morgantown-call-source-amendment]] | timeline | — |
 | [[wiki/timeline/events/august-2026-unmasking]] | timeline | — |
 
-## 2026-08-19 — 21 pages
+## 2026-08-19 — 18 pages
 
 - **Session log:** audit | self | the last three days of edits — three pages had the attribution backwards, and the corpus settled all three
 - **Session log:** synthesis | health | cocaine — new substance profile page
@@ -389,7 +405,6 @@ simply listed.
 | [[wiki/interests/favorites/books]] | interests | **CONTRADICTION** — This page, and the 2026-06-23 form of eclecticism alongside it, read 120 books across 98 authors as breadth. Counted by subject rather than by author, the shelf is the opposite. **Forty of the 120 boo |
 | [[wiki/interests/film-canon]] | interests | — |
 | [[wiki/interests/gore-vidal]] | interests | — |
-| [[wiki/interests/opie-and-anthony]] | interests | — |
 | [[wiki/interests/roman-republic]] | interests | — |
 | [[wiki/mind/concepts/dans-law]] | mind | **CONTRADICTION** — Its signature move is to treat a missing paper trail as the operative feature of an arrangement rather than an oversight: at BFS the absence of documentation on a $50 cash demand *is* the demand's mec |
 | [[wiki/mind/concepts/the-handed-mirror]] | mind | _(carries a CORRECTED from 2026-08-18)_ |
@@ -397,9 +412,7 @@ simply listed.
 | [[wiki/mind/profile/socionics-and-attitudinal]] | mind | — |
 | [[wiki/mind/synthesis/intake-constancy]] | mind | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/mind/synthesis/interests-as-era-markers]] | mind | — |
-| [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
 | [[wiki/places/307-e-76th-st]] | places | **GAP CLOSED** — the Gaps note above records the monthly rent as not recovered. It is in the message dump twice, from Dan's own outbound. **2024-05-02:** *"I mean that's fine but the last lease we signed was 2450."* * |
-| [[wiki/places/424-bedford-ave]] | places | — |
 | [[wiki/places/90th-st-manhattan]] | places | _(carries a CORRECTED from 2026-08-10)_ |
 | [[wiki/self/concepts/claude]] | self | **CORRECTED** — An earlier version of this page reversed both attributions — it credited "Claude = to analyze stuff" to Tom and "It did really well with the Kristin chat logs. Better than GPT" to Dan, and dated the e |
 | [[wiki/self/concepts/claude-code]] | self | _(carries a RE-CHECKED)_ |

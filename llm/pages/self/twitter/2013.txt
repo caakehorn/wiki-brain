@@ -3,8 +3,8 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
-knowledge: derived
+date_modified: 2026-09-03
+knowledge: mixed
 date_range_start: 2013-01-15
 date_range_end: 2013-12-27
 title: "Twitter / X — 2013"
@@ -22,11 +22,252 @@ connections:
   - page: wiki/self/twitter/2014
     type: precedes
     claim: '2013 is the immediately previous year of originals before 2014 on the same account.'
+  - page: wiki/interests/music/overview
+    type: evidences
+    claim: 'SLOPPP is an operation with infrastructure by late 2013 — some thirty named releases in four months, tracklisted-and-timestamped free downloads across SoundCloud, Mixcloud and 8tracks, ~10k self-reported plays, an NS7 controller, and one named peer (@Yamez1) he submits work to for critique. Its start date is NOT datable from this page: the archive source changes on 2013-08-17 and the earliest trace, 31 July, already says "checking latest mix".'
+  - page: wiki/timeline/events/franki-fireworks-day-2013
+    type: evidences
+    claim: 'The rupture\'s duration is bounded from the public side: "I guess I tweet more when I\'m single?" (2013-08-09), eleven days with @katie_efff across late August including the Pittsburgh Oddball festival, and Alexis named again on 2013-09-08 — six to eight weeks off, with another person documented inside it.'
+  - page: wiki/self/location-history
+    type: evidences
+    claim: 'Partially fills the 2011-2014 address-level blind window: from mid-August 2013 the geography is Western Pennsylvania — Carnegie Mellon, Sheetz twice, Texas Roadhouse, the Pittsburgh Oddball festival, and Uniontown filmed on 27 September. Presence, not tenancy, and two years earlier than the return the wiki otherwise narrates.'
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: evidences
+    claim: 'During the Boston Marathon bombing — the decade\'s most conspiracy-productive American event — he mocks the conspiracy layer rather than working it ("conspiracy du jour: americans under attack from vicious stoners"), and separately rejects veteran status as a warrant: "Being a vet does NOT make your racism ok nor does it make you automatically correct."'
+  - page: wiki/mind/synthesis/millennial-digital-witness
+    type: evidences
+    claim: 'Six months after running the Sandy liveblog he is reading analysis of the phenomenon rather than performing or noticing it — "Great article about social media coverage during Boston bombing and the new role of journalists" (2013-04-21) — which is the step between the practice and the theory.'
 ---
 
 # Twitter / X — 2013
 
-The year the operator spreadsheet becomes the spine. From mid-August the page is complete for originals: SLOPPP/MOGZART trap and moombahon mixes on SoundCloud, Instagram lookouts, 8tracks, and the Vanessa Frank needling that is already family voice. Pre-August 17 is still being scraped and is only a few mid-August days so far.
+**The year the account becomes a music project's feed, and the year the record
+itself changes underneath that.** From mid-August onward the page is a
+continuous stream of releases under the name **SLOPPP** — roughly thirty mixes
+and original tracks between 13 August and 26 December, better than one every
+four days — plus SoundCloud play counts, gear, hashtags and requests for
+critique.
+
+It is also the year the six-year Alexis relationship breaks and reassembles
+inside about six weeks, with another person documented in the gap; the year he
+appears to relocate from Manhattan to Western Pennsylvania; and the year he
+posts approvingly of a **critique of the New Atheism** he was evangelising two
+years earlier.
+
+## First, the thing that will mislead everyone who reads this page
+
+**The apparent explosion of music activity in mid-August is, in large part, the
+archive changing.** The Coverage table below is the whole warning: 199 of this
+page's 346 rows come from the operator spreadsheet, which is complete only
+**from 2013-08-17**, and everything before that date is a live scrape truncated
+to ten results per month-bounded query.
+
+So the page shows a sparse, jokey, non-musical January-to-July and a dense,
+musical August-to-December, and **that shape is at least partly manufactured by
+where one source stops and the other starts.** The transition date in the data
+(17 August) and the apparent transition in the subject matter are within a week
+of each other, which is exactly the coincidence that should stop a reader
+concluding anything.
+
+**What can honestly be said about when SLOPPP starts:** the earliest trace on
+this page is **31 July 2013**, inside a truncated month-end sample, and it is
+already casual about the practice — *"twice now i've had some (unintentionally)
+played background music while checking latest mix"*. A person "checking latest
+mix" in July is not a person who began in August. The project is therefore
+**older than this page can date**, and no claim about its start, ramp or
+intensity should be drawn from the shape here. A complete export would settle
+it; nothing else will.
+
+## SLOPPP, as an operation rather than a hobby
+
+With that caveat, what the complete second half of the year does support is
+detailed and worth having in full, because it shows a **practice with
+infrastructure**, not a person posting tracks.
+
+**Output.** Named releases include *THE TALK IT OUT MIX*, *THE INTEREST OF
+CONFLICT MIX [MOOMBATHON/2STEP]*, *THE CHURCH OF MANNIE FRESH*, *FULL RATCHET
+JACKET*, *JESSE PINKMAN'S ROADTRIP, YO*, *SOUNDTRACK TO A STRUGGLE: BACK TO
+SCHOOL EDITION*, *helterskelter: race riot music*, *THE KEEPSAKE FOR PETE'S
+SAKE MIX*, *THE GREENER GRASS MIX*, *SLOPPPED AND SCREWED: HOODIE WEATHER MIX*,
+*TUNE IN, DROP OUT, TURN UP*, *RACK TO THE FUTURE: SEPTEMBER 2013 TRAP MIX
+[TRACKLISTED & TIMESTAMPED]*, *THE LOW-END MIX*, *THINK ABOUT IT! THURSDAYS*,
+*CUFFED AND CRUISED*, *BULLET SVNDWICH*, *A BRIEF HISTORY OF TIME AND BASS*,
+*STARS AND BARS: FLAG OR SWAG?*, *TRICK OR TRAP — MOLLOWEEN 2013*, *TOO TURNT
+TO TWERK*, and a two-part *YEARMIX 2013*. Alongside the mixes are **original
+tracks** — *All Done*, *Blazin*, *Swisher*, *Snailed It*, *Backwards*, *Betty
+Draper* — and official-style reworks of Baauer and 2 Chainz.
+
+**Distribution.** SoundCloud primarily, but also Mixcloud (`thedanfrank`) and
+8tracks, with Instagram and Vine used as promotional surfaces. Mixes are
+released *"TRACKLISTED & TIMESTAMPED"* and *"FREE DL"* — the conventions of the
+scene, correctly observed.
+
+**Audience, self-reported and self-deflated.** On **10 November**: *"just
+topped 7k plays on soundcloud. thanks to @alexisarmel for something like 6,000
+of those"*. On **8 December**: *"almost to 10k plays."* Roughly ten thousand
+plays across some thirty releases in four months, and the first number arrives
+with the joke that undercuts it already attached.
+
+**Craft, and a named teacher.** He asks for criticism, from one person, by
+name — **15 August**, to `@Yamez1`: *"listen to this for me? I wanna hear what
+you think I need to improve"*. `@Yamez1` gets more of his attention than anyone
+in the scene (*"must live in Bosnia with all these bombs he's dropping"*,
+*"YOU'RE ON SOME DEXTER SHIT WITH THESE CUTS SON"*), and on **10 November** the
+gear moves up: *"grabbed this new ns7 with motor platters and I'm f00kin amazed
+I ever lived on cheap plastic."* On **23 September** he reads the history:
+*"The dense and illustrious history of the 808 sample (and 909)."*
+
+**And he is his own harshest reader, in public.** On 23 September a release
+goes out hashtagged *"#overcompensating #poseur #fakefuture"*; on 11 August,
+looking at old work, *"Wow I was/am a fucking HACK."* The self-assessment runs
+alongside the promotion in the same feed on the same days, which is the shape
+`wiki/mind/profile/index` describes as an on/off verdict with no middle
+setting — here it is, applied to his own output, hourly.
+
+## Six weeks single, and somebody else in the gap
+
+`wiki/timeline/events/franki-fireworks-day-2013` dates the six-year
+relationship's only mid-course rupture to July 2013 and to Alexis's detection
+of it. This page supplies the duration and what happened inside it.
+
+| Date | Post | What it fixes |
+|---|---|---|
+| 2013-08-09 | *"I guess I tweet more when I'm single?"* | he is single, in his own words, in August |
+| 2013-08-21 → 08-31 | `@katie_efff` — Blue Star Point Lookout, *"Mountain things"*, a pedicure, Oddball Comedy Fest in Pittsburgh, *"Frogs and Katie Fletcher"* | a named other person, repeatedly, over eleven days |
+| 2013-09-07 | *"All smilez with a mysteriously amazing young girl"* / *"My better 1/2."* / *"Mystery girl and everything's okay now"* | something has resolved |
+| 2013-09-08 | *"Alexis Armel and a doppelgänger mosquito"* | Alexis is back, named |
+| 2013-09-17 onward | *"Noone does 'contemplative' (or perfect) quite like @alexisarmel"*, *"If having a bad bitch was a crime I'd be arrested"* | fully reconciled |
+
+So the break runs from **July to the first week of September** — call it six to
+eight weeks — and Katie Fletcher is in it, publicly, in photographs, at a
+comedy festival. **This is the only documented interval in the six years where
+the relationship is off**, and it is worth holding beside the corpus's account
+of Dan's attachment behaviour: the gap is short, it is filled immediately, and
+the reconciliation is announced in the language of relief (*"everything's okay
+now"*) rather than of decision.
+
+The one thing this page cannot settle is whether the 7 September *"mystery
+girl"* is Katie or Alexis. Both readings fit and the next day names Alexis;
+neither is asserted here.
+
+## He is in Pennsylvania
+
+From mid-August the geography changes and the page stops being a New York
+document: Carnegie Mellon (14 August), Sheetz twice (20 August, 3 September),
+Texas Roadhouse (29 August), the Oddball Comedy Festival in Pittsburgh
+(31 August), an argument about Syria *"with an idiot in Sheetz"*, and on
+**27 September** *"For those curious what the hooplah in uniontown is about
+today"* with *"Fucking helicopters and shit"* — filmed, in his hometown.
+
+`wiki/self/location-history` records that address-level data runs out after
+January 2011 and does not resume until the 2014 Google export, and names that
+window as the corpus's location blind spot. **This page partially fills it**:
+whatever his formal address was, Dan was substantially in Fayette County from
+August 2013, which is two years earlier than the return the wiki otherwise
+narrates. It is presence, not tenancy — the tweets place him there and do not
+say he lived there — and that distinction is left open deliberately.
+
+## The atheism turns on itself
+
+2011 was militant movement atheism at full volume. February 2013 still is:
+*"You have to make it clear to everyone, including your children, that there is
+no god"* (20 February), plus a prediction on the papal succession (*"expect the
+church to use popegate as marketing opportunity and rebrand catholicism with
+younger, more relatable pope"* — 12 February, which is what happened) and CNN's
+*"Another John Paul Miracle Found"* treated as cause for violence.
+
+Then, on **30 July 2013**:
+
+> *"This is a great critique of neo-atheism. 'The Enormity of the Mystery That
+> Surrounds Us @ TEDx'"*
+
+*Neo-atheism* is the movement's own term for itself. Five months after telling
+people to make sure their children know there is no god, he is publicly
+endorsing an argument against the position's style. **The belief does not
+change and the affiliation does** — which is the same shape as every other
+departure in this corpus: he leaves the tribe, not the conclusion.
+
+## Boston, and reading the theory of the thing he did
+
+On **21 April 2013**, six months after Sandy:
+
+> *"Great article about social media coverage during Boston bombing and the new
+> role of journalists"*
+
+He is no longer doing it or noticing it — he is reading analysis of it. Beside
+that, he treats the bombing's conspiracy layer with contempt rather than
+appetite: *"conspiracy du jour: americans under attack from vicious stoners"*,
+and to `@OpieRadio`, *"is this the 'marbles in ass' part of the boston
+conspiracy?"* He also flags Limbaugh comparing the suspect to Trayvon Martin.
+
+That is a third data point for
+`wiki/mind/synthesis/vertical-authority-skepticism`'s finding that the
+"conspiracy crank" label is contradicted by his own behaviour — during the
+American event most productive of live conspiracy theorising in the decade, he
+mocks them.
+
+## The register at its worst, and one thing that complicates it
+
+2013 is the peak year for the shock vocabulary: *"fuck gender roles, everyone
+walks like a faggot in the snow"* (9 February), *"Spooks and gooks"*
+(24 October), *"Kill yourself, make the world a better place"* at his own
+sister (14 August), a Hitler/Eva Braun joke at Alexis (22 November), and
+*"SUPER USEFUL"* sarcasm at an article about talking to wheelchair users
+(25 November).
+
+It is kept for the same reason 2012's is: it is the measurable distance the
+2020 turn later covers, and a corpus that deletes it cannot claim the
+movement.
+
+**What complicates it** — and this is not a defence, it is a fact on the same
+page — is that the same months contain sustained, non-ironic engagement with
+Kanye West's *Yeezus* and its racial argument. He builds a mix titled
+*helterskelter: race riot music*, tags it `#NewSlaves`, and on **2 September**
+writes: *"My new fav thing to do is drive around looking for REALLY white
+people and play them the acapella version of 'new slaves' from my car stereo."*
+On **31 August**, in Pennsylvania: *"Being a vet does NOT make your racism ok
+nor does it make you automatically correct."* And on **25 August**, revisiting
+his own past judgement: *"I remembr a 2005 conversation wherein we determined
+Kanye to be the most racist person/rapper on earth. We didn't have any idea."*
+
+A man using racial slurs as punchlines in October and driving around
+provoking white people with *New Slaves* in September is not two people. He is
+one person inside the O&A comedy register whose actual sympathies are
+already elsewhere, six years before he has a vocabulary for them.
+
+## Texture, and one small durable thing
+
+The Codecademy badges on **19 February** — *"I just unlocked the 50 points
+earned in one day badge"*, then the 75-point badge the same day — are already
+carried by `wiki/mind/synthesis/failure-to-launch` and `wiki/work/tech/index`,
+and belong here as their source: dated, self-taught programming, thirteen years
+before the AI work.
+
+Elsewhere: *Arrested Development* season four watched as a reference-spotting
+exercise with a written list (26–27 May); *"the only people for me are the mad
+ones"* quoted from Kerouac on 10 July and then quoted back at him by Alexis
+three weeks later; a cousin, `@franknarcissist`, writing his first cover story
+for *The Fader* on 19 November; *"I'm the opposite of apathetic….i'm
+pathetic"* (23 March); *"I'm looking for plot holes. I'm looking for terrible
+art. I'm looking for the bland, the bizarre, the lazy, the insipid, the
+surreal!"* (31 August), which is the corpus's anomaly-detection orientation
+stated as an aesthetic; and the unexplained phrase **"panic tax"**, posted
+alone on 20 January and again on 13 September, referent unknown.
+
+## What would change this reading
+
+Almost everything above about *timing* is hostage to the source boundary at
+17 August. If the pre-August months arrive in full and contain the same volume
+of music, the "year the account becomes a music feed" framing is wrong and
+SLOPPP simply predates the record. If they arrive and contain none, the framing
+is confirmed. This page cannot tell, and says so rather than choosing.
+
+The Pennsylvania relocation is inferred from presence, not from any statement
+of address; a lease or a dated message would settle whether he moved or was
+visiting for six weeks. And the relationship reconstruction depends on
+*"I guess I tweet more when I'm single?"* being literal rather than a joke —
+if it is a joke, the only hard facts left are Katie Fletcher's eleven days in
+late August and Alexis's reappearance on 8 September.
 
 ## Coverage
 
@@ -43,7 +284,7 @@ Spreadsheet originals are complete from 2013-08-17 through year-end. January thr
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
-## January
+## The record
 
 ### 2013-01-15 05:10:36 UTC · [291049725283676160](https://x.com/danfrank/status/291049725283676160)
 *likes 0 · replies 0 · reposts 0*

@@ -3,8 +3,8 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
-knowledge: derived
+date_modified: 2026-09-03
+knowledge: mixed
 date_range_start: 2014-01-01
 date_range_end: 2014-12-25
 title: "Twitter / X — 2014"
@@ -22,11 +22,212 @@ connections:
   - page: wiki/self/twitter/2015
     type: precedes
     claim: '2014 is the immediately previous year of originals before 2015 on the same account.'
+  - page: wiki/interests/opie-and-anthony
+    type: contradicts
+    claim: 'The 2022 account places Dan among those repulsed by the racism at the 2014 split. One day after Cumia\'s firing for racist posts he tweeted "nothing but love and respect ant. Thanks for not selling your soul through this whole mess" — and three months earlier called Cumia\'s anti-political-correctness framing "brilliant". A spreadsheet-complete year contains no post expressing discomfort.'
+  - page: wiki/interests/music/overview
+    type: evidences
+    claim: 'SLOPPP\'s peak: a Beatport remix contest entry, official-style flips for heRobust, Katy Perry, gLAdiator, Drake x Cashmere Cat, Caked Up and Zeds Dead, two running mix series plus a live-streamed video show, a public stem-trade address, thanks from other producers, and daily inversion-table therapy from the hours.'
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: evidences
+    claim: 'The Aoki objection applies the axis to his own field: a famous performer taking money from a paying audience for work he is not doing. He classifies himself out loud in the same breath — "as a \'nobody\' DJ" — in the month he was entering a Beatport contest.'
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidences
+    claim: 'Seven tweets across 14-16 October 2014 pitch unpaid, competently produced O&A audio work to six people at the show, two years after the unanswered internship application — and 19 December announces a rap career on an accurate self-assessment that nothing in the corpus follows.'
 ---
 
 # Twitter / X — 2014
 
-A full original-tweet year in the spreadsheet. Trap remixes continue (RNDM VADER), O&A still in the mentions, YouTube likes as a diary, and the self-assessment that the 'reference, pun, and pop culture games are heavy.' Production identity and joke-density running in parallel.
+**The peak of SLOPPP, and the year Dan sided with Anthony Cumia.**
+
+Two things run through 2014 and they sit badly together. The music project
+reaches full professional shape — a Beatport remix contest, official-style
+flips for named artists, two running mix series, a live-streamed video show,
+stem trades, a public collaboration address, and thanks from other producers.
+And in July, at the exact moment the corpus's account of his politics says he
+was being repelled, he publicly backed Anthony Cumia over the firing that
+started it.
+
+**This year is spreadsheet-backed, which is a different thing from complete.**
+Unlike 2009–2013 there is no month-end fetch artefact here — 170 of 171 rows
+come from the operator export, and the shape of the page is the shape of the
+year. But the export is **not a proven census**: a backend fetch on 2026-09-02
+recovered a February 2016 tweet the export had missed
+(`wiki/interests/music/overview`), so it can drop rows. Absence on this page is
+**good evidence and not conclusive evidence**, and the finding below is built to
+survive that: it rests on what he did post, not on what he did not.
+
+## 4 July 2014, and a correction to the corpus's own account
+
+`wiki/interests/opie-and-anthony` and `wiki/mind/synthesis/2020-left-turn` both
+rest on a claim Dan made in **2022**:
+
+> *"while many O&A fans followed Anthony down the reactionary rabbit hole of
+> white-grievance politics…a lot of the online community were so repulsed by
+> the racism and fascistic overtones that we were radicalized to leftist
+> politics"*
+
+Anthony Cumia was fired by SiriusXM on **3 July 2014**, after posting a series
+of racist messages about a Black woman who had struck him in Times Square. The
+next day, Dan tweeted at him:
+
+> *"@AnthonyCumia nothing but love and respect ant. Thanks for not selling your
+> soul through this whole mess."* — **4 July 2014**
+
+Three months earlier, on **25 March 2014**:
+
+> *"@AnthonyCumia brilliant point re 'tranny' outrage. Minority groups feel
+> entitled to have at least 1 term ruled a slur, offensive or otherwise"*
+
+> **CONTRADICTION [2026-09-03]:** the 2022 account places Dan among those
+> *"repulsed by the racism"* at the split. The contemporaneous record places
+> him on the other side of it — congratulating Cumia on his integrity within
+> twenty-four hours of a firing for racist posts, and endorsing his
+> anti-political-correctness framing three months before. The year is
+> spreadsheet-backed and contains no post expressing discomfort — supporting
+> evidence, though the export is known to drop the occasional row, so **the
+> contradiction rests on the two posts he made, not on the silence around
+> them.**
+>
+> What this does **not** do is refute the 2022 claim outright. *"We were
+> radicalized"* describes a process, and a process can start later than the
+> event that eventually causes it. The precise correction is to the
+> **timing**: whatever repulsion produced the 2020 turn, it had not begun by
+> July 2014, and Dan's later account compresses a change of several years into
+> a reaction to a single event. Recorded as **t015** in the testimony ledger,
+> `partial`, failure mode `compression`, direction `early`, slant
+> **`flattering`** — the first non-neutral slant in that ledger, and it is
+> non-neutral in his own favour.
+>
+> The corpus is better with this in it. A conversion narrative that begins at
+> the moment of the offence is a much smaller thing than one that begins with
+> six more years of sitting inside the offence, and only the second one
+> describes a person actually changing his mind.
+
+**And it makes 2020 look more like the real date, not less.** If the split had
+radicalised him in 2014, the six-year lag to the August 2020 self-narration
+would need explaining. It does not: he was still in the audience.
+
+## SLOPPP at full extension
+
+2014 is where the project stops looking like a hobby with a good year and
+starts looking like a small operation being run properly.
+
+**Releases, and who they are for.** Official-style flips and remixes of named
+artists throughout: RNDM VADER (2 January), SAYMYNAME (6 January), heRobust
+(25 January), Katy Perry featuring Juicy J (27 January), gLAdiator's *Assembly
+Line* (16 April), Drake × Cashmere Cat (9–12 May), Caked Up (3 August), Zeds
+Dead's *Collapse* (24–30 October).
+
+**Series, not one-offs.** *Week in TRAP* runs to at least episode 8 by
+10 April. *Wax, Stacks and Racks* is a monthly wrap-up (*"the complete guide to
+April 2014"*). *Heatwave Vol 1* opens a summer series on 14 May. And in
+November a **video** show: *TRAP TV — sloppp live mix*, streamed on Ustream and
+posted to YouTube (15–17 November), with a 4am broadcast on 8 December.
+
+**Industry contact, in both directions.** He enters an official Beatport remix
+contest with a Major Lazer flip and canvasses votes (22, 29 April). He sends
+unsolicited tracks to another DJ twice (*"dm me your email and see what you
+think"*, 17 April; *"I just emailed you some tracks"*, 26 April). He posts a
+working collaboration address — **8 May**, *"Lets collab! danfr4nk@icloud.com
+for stems and patch trades"*. He signs up to Splice (5 August). And he is
+thanked *by* others: `@cobrakrames` (*"insane. thanks for the support!!"*),
+`@whatdirt` (*"another enormous thank you for the support"*), a shout from Lil
+Debbie (17 May). He also proposes a collaboration to `@Yamez1` and asks him for
+a tracklist (26 April).
+
+**Gear and cost.** A custom-painted MIDI controller finished on 1 December
+(*"for max swaggery or some such shit"*). And a physical price twice recorded:
+*"Early morning inversion table sesh"* (8 May) and, on **17 May**, *"So many
+hours DJing that I need daily inversion table therapy fuck."*
+
+**And the same self-cancelling reflex as 2013.** On 7 May: *"I only make deep
+house now. EZ EZ"* — a genre pivot announced in four words, after which he goes
+on making trap. On 18 November: *"Might change DJ alias to p4ssè for max
+meta."*
+
+## The Aoki objection, and what it says about him
+
+On **25 April**, during the row about Steve Aoki's live shows:
+
+> *"as a 'nobody' DJ, the aoki scandal is extra annoying. this is the kind
+> nonsense that allows for EDM to be disregarded as mindless"*
+> *"playing prerecorded mix is vile if the only other performance you're
+> offering is spraying drinks on the hornswaggled (paying) audience/fans"*
+
+Two things worth keeping. He classifies himself out loud — **"a 'nobody' DJ"**,
+in the same month he was entering a Beatport contest and being thanked by other
+producers, which is the on/off self-verdict again. And the objection is not
+envy: it is that a famous performer is taking money from an audience for work
+he is not doing. That is the same structure as every other target on
+`wiki/mind/synthesis/vertical-authority-skepticism` — an authority whose claim
+exceeds what it is delivering — applied here to his own field.
+
+## Speculative unpaid work for a show he wanted into
+
+Over **14–16 October**, Dan cut up the Chip kids-music segment from Opie &
+Anthony into a reusable clip set, uploaded it to his own SoundCloud, and then
+pitched it — in seven tweets across two days — to Jim Norton, Opie, Colin
+Quinn, `@OpieandJimmy`, `@mondo270` and `@steveyknight`:
+
+> *"i cut up the clips from the kids music break with chip today. it's a
+> re-purposable goldmine"*
+> *"Lets get Chip & his atrocious kid songs stuck in the head of children
+> everywhere."*
+
+Two years after the internship application of November 2012, and with no
+recorded response to that either, he is doing production work for the show for
+free and trying to get it noticed. It is a real skill, competently applied, at
+an organisation that had not hired him.
+
+## The next ambition, announced 19 December
+
+> *"rap monument so fucking good that i want to start rapping"*
+> *"srsly though i think my reference, pun, and pop culture games are heavy and
+> could probably be some 2015 rap star kick"*
+
+Nothing in the corpus follows it. It belongs beside the 2012 podcast proposed
+to `@adamlucidi`, the 2012 blog, and the later video-essay project that still
+has no artifact: a specific, plausible, self-assessed plan, stated publicly,
+with no second post. The self-assessment inside it is accurate — the reference
+and pun density on this page is genuinely high — which is what makes the
+pattern worth naming rather than dismissing.
+
+## He is still in Pennsylvania
+
+**22 August**: *"Did I see the Uniontown bank robbery suspects today? Or am I a
+self-absorbed, paranoid zilch? You decide."* — with a photograph. This
+continues the presence 2013 establishes and pushes it a year further, inside
+the window `wiki/self/location-history` records as having no address-level
+data.
+
+## Texture
+
+Alexis is still here and the register is domestic (*"Keep filming me in my
+sleep and I'll have to buy this"*, 28 April; *"so deep bro"*, 17 June). An hour
+spent making *"Picasso style distortion edits on pictures of lil wayne"*
+(30 April, hashtagged `#weezyfpicasso`). A great-grandmother identified as
+*"the country club Queen Bee in 1960"* (27 May) — the second appearance of
+"country club" as a family self-image, after the 2009 line. *"Starting a post
+hardcore / Christian metalxcore band called 'Verb the Noun'"* (18 May).
+*"Solipsism doesn't even seem that nutty anymore am I right?"* and *"My memoirs
+are going to be called 'GO READ A BOOK OR SOMETHING'"*, both 5 December. And
+several posts written entirely in decorative Unicode, which is the year's house
+style.
+
+## What would change this reading
+
+If a live-scrape batch later adds 2014 posts expressing discomfort at the
+firing, the Cumia contradiction softens from "he was on the other side" to "he
+was on both sides", which is a different and more ordinary thing. That is a
+live possibility rather than a formality: the export demonstrably missed at
+least one tweet in 2016. It would not erase the 4 July post, but it would
+change what the post means. The SLOPPP peak claim depends on 2015 and 2016
+being genuinely quieter rather than differently archived; both are
+spreadsheet-backed on the same basis as this year, so the comparison is sound
+to the same degree and no further. And the ambition pattern
+depends on absence — if a 2015 rap recording exists anywhere, the December
+entry stops being an instance of it.
 
 ## Coverage
 
@@ -39,7 +240,7 @@ A full original-tweet year in the spreadsheet. Trap remixes continue (RNDM VADER
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
-## January
+## The record
 
 ### 2014-01-01 05:33:55 UTC · [418253731562799104](https://x.com/danfrank/status/418253731562799104)
 *likes 0 · replies 0 · reposts 0*

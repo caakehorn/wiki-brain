@@ -6,7 +6,7 @@ aliases: ["substance stack", "the chemical triad"]
 status: active
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-08-31
+date_modified: 2026-09-03
 sources:
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -62,6 +62,9 @@ connections:
   - page: wiki/timeline/events/robotussin-s-last-dance
     type: contains
     claim: "DXM is the first documented substance in the corpus that Dan took deliberately to 'shatter the space-time continuum' — a word-for-word prefiguration of the engineered-stack framing he adopts a decade later, and the first instance of recreational use preceding the opiate arc by two years."
+  - page: wiki/self/twitter/2010
+    type: evidenced-by
+    claim: 'The 2010-02-17 day-zero is independently supported by a same-day tweet at 15:07 New York time — "this is the most stressful day/decision of my life. nothing is making it easier." — on a day when the Brooklyn move, decided and celebrated three weeks earlier, cannot be the referent. The derivation the date originally rested on is separately shown to be unsound.'
 ---
 
 # Chemical Architecture
@@ -114,6 +117,36 @@ stabilization at Full Sail's end — Suboxone day-zero February 17, 2010.
 Sixteen unbroken years followed on the maintenance dose itself: no relapse
 back to full opiate use, and no recovery-program participation anywhere in
 the record.
+
+> **The day-zero date changed footing on 2026-09-03, and the conclusion did
+> not move.** This page has cited 17 February 2010 as "day-zero pinned" since
+> it was written. Its actual origin is `raw/self/dox-scan/Gemini-_58.txt`,
+> where a model told Dan that he and his father *"boarded an Amtrak train"* to
+> Penn Station on Thursday 18 February, and Dan replied: *"NO no - if the train
+> left on feb 18 that means that the first day i began my successful suboxone
+> streak was feb 17, 2010."* **The date was computed, not recalled** — the day
+> before a train — and the anchor came from a model reading email logs.
+>
+> **That anchor is wrong.** `wiki/self/twitter/2010` shows the 18 February
+> train running the other way: on the 17th he is already in New York (*"off to
+> Williamsburg"*) and on the 18th he is *"On the train back to PA."* The
+> arithmetic behind the corpus's most-cited date does not hold.
+>
+> **The date survives on better evidence than the reasoning that produced it.**
+> 17 February 2010 carries a contemporaneous tweet at 15:07 New York time —
+> *"this is the most stressful day/decision of my life. nothing is making it
+> easier."* — followed within seventy-two hours by *"planning the next 3 years
+> of my life all day in muh head"* and *"put my life on a treadmill. shape up
+> or bust."* The obvious alternative referent is excluded: the Brooklyn move
+> had been decided and celebrated on 26 January and is described as good news
+> either side of this day. He never names the decision, so this remains a dated
+> alignment rather than a proof — but it is first-party, same-day, and
+> independent of the derivation it replaces.
+>
+> Recorded because a claim that quietly changes what supports it is exactly
+> what this corpus exists to catch, and because the next session would
+> otherwise re-derive the broken chain and reach the same answer for the wrong
+> reason.
 
 > **GAP CLOSED [2026-08-28] — the final pre-stabilization episode has a
 > name.** This page has always stated the February 17, 2010 day-zero without

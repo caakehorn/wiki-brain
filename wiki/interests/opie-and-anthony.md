@@ -3,7 +3,7 @@ domain: interests
 page_type: entity
 status: stable
 date_created: 2026-07-16
-date_modified: 2026-08-19
+date_modified: 2026-09-03
 sources:
   - "raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html"
   - "raw/self/dox-scan/Dan Profile.txt"
@@ -41,6 +41,15 @@ connections:
   - page: wiki/work/tech/ai-video-essays
     type: parallels
     claim: "A decade of shock-radio/long-form comedy immersion is the structural template Dan reaches for when designing his own long-form video format — Some More News is explicitly named as the model to reverse-engineer."
+  - page: wiki/self/twitter/2012
+    type: evidenced-by
+    claim: 'Dan disavows the show\'s politics while committing to its comedy on 2012-02-26, ten years before the retrospective account, and applies for an O&A internship on 2012-11-18 — the only job application anywhere in the 2010-2012 record.'
+  - page: wiki/self/twitter/2014
+    type: contradicts
+    claim: 'Dan backed Cumia the day after the firing — "nothing but love and respect ant" (2014-07-04) — and endorsed his anti-political-correctness framing as "brilliant" three months earlier. The 2022 radicalization account\'s timing does not survive it; its direction of travel does.'
+  - page: wiki/self/twitter/2018
+    type: evidenced-by
+    claim: 'The middle term of the sequence: "opie sucks though" (2018-10-29), three words with no argument attached, four years after the firing and four before the retrospective.'
 ---
 
 # Opie & Anthony / Shock Radio
@@ -114,6 +123,33 @@ politics** — not a euphemism, and written to the co-host rather than about
 him. And he places himself in the counter-current: *"we were radicalized to
 leftist politics."*
 
+> **CONTRADICTION [2026-09-03] — he was not repulsed in 2014.** The
+> contemporaneous record runs the other way. Anthony Cumia was fired on
+> **3 July 2014** over racist posts about a Black woman who had hit him in
+> Times Square. On **4 July 2014** Dan tweeted at him:
+>
+> > *"nothing but love and respect ant. Thanks for not selling your soul
+> > through this whole mess."*
+>
+> And on **25 March 2014**: *"brilliant point re 'tranny' outrage. Minority
+> groups feel entitled to have at least 1 term ruled a slur."* 2014 is a
+> **spreadsheet-complete year** on `wiki/self/twitter/2014` — 170 of 171 rows
+> from the operator export — so the absence of any post expressing discomfort
+> is itself evidence, and the record is not merely silent but opposed.
+>
+> **What survives and what does not.** *"We were radicalized"* describes a
+> process, and a process may begin well after its cause; the 2020 turn
+> independently corroborates the eventual direction. What does not survive is
+> the **timing** the sentence implies. Recorded as **t015** in the testimony
+> ledger — `partial`, failure mode `compression`, direction `early`, slant
+> **`flattering`**, the first self-favouring error that ledger holds.
+>
+> **This makes the page's argument bigger, not smaller.** A man repelled at the
+> moment of the offence has changed nothing about himself. A man who
+> congratulated Cumia on his integrity in July 2014 and arrived at democratic
+> socialism by August 2020 has moved a real distance, and the six-year lag —
+> previously an awkward gap — is the measure of it.
+
 That makes this page load-bearing for
 [[wiki/mind/synthesis/2020-left-turn]], which dates his socialist conversion
 to August 2020 and attributes it to Chapo, Hasan, ContraPoints and lockdown
@@ -138,6 +174,22 @@ abstract qualities of stand up as an art form can be abused to spread bigotry
 not a conversion — in the same thread he defends the Rock joke as *"not
 particularly malicious"* and warns against *"wokescoldery"* — but "it's just a
 joke" is the exact doctrine the show ran on, and he says he has left it.
+
+> **CORRECTED [2026-09-03] — March 2022 is not the earliest instance.** The
+> shift is dated five months earlier by `wiki/self/twitter/2021`. On
+> **26 October 2021**, during the Chappelle row, he wrote:
+>
+> > *"Lenny Bruce was arrested...not by 'the public', but by the state. Dave
+> > Chappelle is facing criticism which is, I'm told, different."*
+>
+> That is the same position, argued rather than declared, and aimed precisely
+> at the martyrdom analogy the absolutist defence depends on. Bounding it from
+> the other side: on **16 January 2019** he was still fully inside the old
+> position — *"The recent joke shaming of Louis CK is so fucking disturbing.
+> You don't have to agree with the material to appreciate the essence of what a
+> joke is."* So the move happens somewhere in the thirty-three months between
+> those two dates, and the March 2022 thread is the moment he **states** it
+> about himself, not the moment he arrives at it.
 
 **Gap:** the 18 July 2022 tweet is marked **(1/3)** and parts 2 and 3 are not
 in the archive. His fullest public statement about what the show's collapse

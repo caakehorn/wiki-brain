@@ -5,7 +5,7 @@ knowledge: earned
 title: "Vertical Authority Skepticism"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-08-19
+date_modified: 2026-09-03
 sources:
   - raw/people/captures/2026-08-11_051311_rick-childhood-control-and-humiliation.md
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
@@ -131,6 +131,9 @@ connections:
   - page: wiki/places/the-unpapered-address
     type: instantiates
     claim: "Every housing provider across sixteen years and seven addresses — mother, maternal grandmother, a live-in partner, a great-grandmother — is a lateral by this page's own definition, never a vertical, which is what scopes Trust 9's corpus-confirmed low-trust default away from housing entirely: laterals get the trusted-now, audited-later default this page already documents, and none of these seven relationships was ever audited while it held."
+  - page: wiki/self/twitter/2011
+    type: evidenced-by
+    claim: '2011 is the disposition without any economic content: eight political posts across the year, every one aimed at a vertical, none redistributive. The Troy Davis posts argue the procedural case rather than the innocence case — "I have no idea whether Troy Davis was guilty or not, but he deserved the chance to live another day" — which is an objection to an authority\'s claim to certainty rather than to its verdict.'
 ---
 
 
@@ -246,6 +249,36 @@ Constitution, Law) that read as standing institutional scrutiny
 ([[wiki/self/facebook]]). The forensic instinct came first; the ideology
 found it later.
 
+## 2011: the disposition complete, the politics empty
+
+The clearest single-year demonstration that this axis is prior to Dan's
+politics rather than downstream of them is 2011, six years before he engaged
+politically and nine before he adopted a label. `wiki/self/twitter/2011`
+records eight political posts across the year, and every one is aimed at a
+vertical: Glenn Beck (*"DANGEROUS"*), the Iraq war budget measured against
+science funding, the monetary system (*"money=debt. debt=money"*), mounted
+police (*"WHY DO WE NEED MOUNTED POLICE. ITS 2011"*), the West Memphis 3, the
+execution of Troy Davis, surveillance (*"1984 = 2012"*), and SOPA (*"fuck off
+chris dodd"*).
+
+**Not one of them is redistributive.** There is nothing on wages, labour,
+housing, healthcare or class anywhere in the year — and *"money=debt"* is the
+vocabulary of the 2011 libertarian internet at least as much as the left one.
+On content alone, this profile could have gone either way.
+
+The Troy Davis posts show the axis operating rather than merely present. He
+declines the easy version of his own position:
+
+> *"I have no idea whether Troy Davis was guilty or not, but he deserved the
+> chance to live another day to fight in court."*
+
+The objection is procedural, not factual — to the authority's claim to be
+certain enough to kill, not to its verdict. That is this page's thesis stated
+by a twenty-two-year-old about a stranger, and it is the same move he makes on
+the same page of the same year against a pastor and against Harold Camping's
+followers: **the target is never the belief, it is the entitlement to
+certainty.**
+
 ## The lateral exception
 
 Trust is extended horizontally, sparingly, and conditionally:
@@ -257,6 +290,22 @@ are treated as junior analysts requiring explicit anti-softening constraints
 — vertical claims to authority ("the safety filter says") get the same
 suspicion as a manager's unverified demand
 ([[wiki/mind/concepts/exocortex]]).
+
+## He uses the label himself, and it does not change the finding
+
+Before the section below is read: on **2023-02-10**, laughing at a theory he
+found too stupid to entertain, Dan wrote *"Anytime you find a narrative that a
+conspiracy crank like myself finds bird brained enough to actually laugh
+at…it's something special."*
+
+**He applies the label to himself, ironically, while doing the opposite of what
+it describes.** That is worth stating on a page whose argument is that the
+label does not fit — a finding that a description is wrong is weaker if it
+turns out the subject uses it and the page never said so. It does not overturn
+anything below: the behaviour the section documents is unchanged, and the
+sentence is a joke made in the course of dismissing a conspiracy theory. But
+the self-description is on the record, and this page should not be the last
+place to hear about it.
 
 ## The conspiracy question, settled by what he actually does
 

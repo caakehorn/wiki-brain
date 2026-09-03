@@ -13,11 +13,11 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 496 |
-| Pages touched in the last 14 days | 187 |
-| Pages reasoning from other pages (`synthesizes:`) | 78 |
-| Live contradictions | 43 |
-| Open gaps | 507 |
+| Pages | 497 |
+| Pages touched in the last 14 days | 191 |
+| Pages reasoning from other pages (`synthesizes:`) | 79 |
+| Live contradictions | 48 |
+| Open gaps | 510 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -26,7 +26,7 @@ this is the state of the thing.
 |---|---|
 | people | 175 |
 | interests | 96 |
-| mind | 77 |
+| mind | 78 |
 | self | 59 |
 | timeline | 42 |
 | work | 15 |
@@ -40,16 +40,27 @@ this is the state of the thing.
 | Status | Pages |
 |---|---|
 | active | 190 |
-| stable | 165 |
+| stable | 166 |
 | closed | 100 |
 | archived | 29 |
 | stub | 12 |
 
 ## The last few days
 
-**2026-09-03** — 1 page
+**2026-09-03** — 41 pages
+  - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
+  - ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
+  - ingest | self | 2010 read in full — the corpus's most-cited date was computed from a train going the wrong way, and it survives anyway
+  - ingest | self | 2011 read in full — the reasoning style is finished at twenty-two, and the politics are empty
+  - ingest | self | 2012 read in full — the "digital disaster" line was written by one of the generators, mid-generation
+  - ingest | self | 2013 read in full — SLOPPP as an operation, a six-week gap in the six years, and a shape that is mostly the archive
+  - ingest | self | 2014 read in full — he backed Cumia the day after the firing, and the correction makes the left turn larger
+  - ingest | self | 2015 and 2016 read in full — the music operation stops, the account goes dark for five months, and 2016 is a step away from the left turn
+  - ingest | self | 2017-2019 read in full — the left turn is a conversion from liberalism, and the pipeline starts in 2017 as comedy
+  - ingest | self | 2020 and 2021 read in full — the public declaration, an analysis that precedes the label, and a date corrected by five months
+  - ingest | self | 2022 and 2023 read in full — he names Balloon Boy himself, and the method's bill comes due in public
 
-**2026-09-02** — 44 pages
+**2026-09-02** — 12 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result
@@ -75,7 +86,7 @@ this is the state of the thing.
 
 **2026-09-01** — 2 pages
 
-**2026-08-31** — 5 pages
+**2026-08-31** — 4 pages
   - ingest | health | the intake ledger's first export (2026-08-30/31)
   - ingest | health | the ledger gets an entry page
 
@@ -149,6 +160,7 @@ have moved since.
 - [[wiki/mind/synthesis/the-serial-monogamist]] — 8 premises
 - [[wiki/mind/synthesis/the-unbroken-bond]] — 5 premises
 - [[wiki/mind/synthesis/totality-themes]] — 28 premises
+- [[wiki/mind/synthesis/twitter-2024-cognitive-state]] — 1 premise
 - [[wiki/mind/synthesis/vertical-authority-skepticism]] — 19 premises
 - [[wiki/people/alexander-jackson]] — 1 premise
 - [[wiki/people/ally-lubin-cognitive-profile]] — 4 premises

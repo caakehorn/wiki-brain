@@ -3,7 +3,7 @@ domain: interests
 page_type: entity
 status: active
 date_created: 2026-07-16
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 sources:
   - "raw/self/twitter/archive.jsonl"
   - "raw/self/facebook/facebook-ihatedanfrank/posts/your_posts_1.html"
@@ -29,6 +29,9 @@ connections:
   - page: wiki/interests/favorites/music/artists/fall-out-boy
     type: co-occurs
     claim: "The 2007 status layer names gaming and 'swooning over the new FOB' in the same breath; the two interests are contemporaneous coordinates of the pre-armor self-presentation."
+  - page: wiki/self/twitter/2011
+    type: evidenced-by
+    claim: 'The StarCraft II involvement is competitive rather than casual and is dated: dismissed as a five-minute game on 20 March 2011, a GeForce pro/am first round on 23 June, with ladder reclassification, a named build order and pros discussed by handle in between.'
 ---
 
 # Video Games

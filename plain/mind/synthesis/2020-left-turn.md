@@ -3,7 +3,7 @@ plain_of: wiki/mind/synthesis/2020-left-turn
 title: "The 2020 Left Turn"
 reading_level: general
 date_modified: 2026-09-02
-source_modified: 2026-09-02
+source_modified: 2026-09-03
 ---
 
 # The 2020 Left Turn
@@ -108,6 +108,161 @@ The later years, with 156, 159 and 258 tweets, are the solid ones.
 the justice system is on the public record in 2011 — thirteen years before
 the 2024 material the wiki usually treats as where it shows up. Whatever
 changed in 2020, it did not introduce that.
+
+## He left the Republicans eleven years before he joined anything
+
+The earliest political thing Dan ever said in public is not the 2020 arrival.
+It is a single line from **November 28, 2009**, posted at twenty-one while he
+was home in Pennsylvania for Thanksgiving, after linking to something somebody
+had done:
+
+> *"people like this are why i no longer consider myself a republican"*
+
+Three things about that sentence matter more than the date.
+
+It says what he **stopped** being and names nothing he became. It was set off
+by **people**, not by a policy or an argument — somebody behaved badly and he
+left. And the group he left was the one he was raised in: his household was
+Republican, with talk radio on all day at the auto-parts delivery job.
+
+That is the same thing that happens in 2022, described further down this page:
+the Opie & Anthony fanbase follows Anthony Cumia to the right, and Dan is
+pushed left by watching it. Same move, eleven years earlier, different group.
+
+**So the pattern is not that Dan arrives somewhere. It is that he leaves.** He
+walks out when the people carrying a position become the argument against it.
+August 2020 is still the date he named where he had ended up. What changes is
+the story of how he got there: the leaving was already done, twice over, and
+2020 is when something finally moved into the empty space.
+
+**Why to be careful with this.** One tweet is one tweet. Nothing else he
+posted in 2009 is political. Most of that year's record is missing for
+technical reasons, so the fact that we see nothing else proves nothing. And
+eleven years is a long gap. Plenty of twenty-one-year-olds say they are done
+with their parents' party and mean very little by it. What it does show is
+that the Republican label was gone long before anything replaced it — which
+the media-pipeline story below never had to explain, and now does.
+
+## Eleven years of being against people in charge, with no economics in it
+
+The section above dates his exit from the Republicans to 2009. What filled the
+eleven years in between was not a slow slide leftward.
+
+Take 2011. He posted about politics eight times all year: Glenn Beck, the Iraq
+war budget versus science funding, a line about money being debt, mounted
+police, the West Memphis 3, the Troy Davis execution, surveillance, and an
+internet censorship bill.
+
+**Every one is aimed at somebody in charge. None is about money being shared
+out differently.** No wages, no jobs, no rent, no healthcare, no class. In 2011
+that mix was just as available to a libertarian as to a socialist — and the
+"money is debt" line in particular was mostly a libertarian talking point back
+then.
+
+So what actually happened in August 2020 gets smaller and more precise. The
+instinct — distrust anyone above you — was finished by the time he was
+twenty-two. It did not need the pandemic or the lockdown or the YouTube
+channels. **What 2020 gave him was an economic argument to hang that instinct
+on, and a name for the result.** He did not switch from right to left. He went
+from an objection with no plan attached to an objection with one.
+
+That also explains something this page could otherwise only call a
+coincidence: why the change stuck so hard and so fast, inside a few weeks. He
+was not building a position from scratch. He was filling a hole that had been
+open for eleven years.
+
+## He did not walk away in 2014 — he stayed for six more years
+
+Further down, this page uses something Dan said in 2022: that when the Opie &
+Anthony fanbase went right after Anthony Cumia was fired in 2014, people like
+him were so disgusted that they went left instead.
+
+His posts from 2014 say otherwise. Cumia was fired on July 3, 2014, for a
+string of racist messages about a Black woman who had hit him in the street.
+On **July 4, 2014**, Dan tweeted at him:
+
+> *"nothing but love and respect ant. Thanks for not selling your soul through
+> this whole mess."*
+
+We have essentially all of his 2014 posts, and not one of them shows any
+discomfort about it.
+
+So the cause is probably real, but the date is wrong. He did not turn away in
+2014. **And that makes the change bigger, not smaller.** The six years between
+the firing and his 2020 conversion used to be an awkward gap this page had to
+talk around. It is actually the point: the distance from "nothing but love and
+respect" in 2014 to calling himself a democratic socialist in 2020 is the whole
+size of what changed in him. Someone who walks out the moment they are offended
+has not changed at all.
+
+## Four stages, and what he actually converted from
+
+Reading all nineteen years of his Twitter archive replaces the simple
+before-and-after picture with four distinct stages.
+
+**2009 to 2012 — against people in charge, with no economics.** He drops the
+Republican label in 2009 and names nothing in its place. In 2011 he posts about
+politics eight times and every one is aimed at somebody in authority; none is
+about money being shared out differently.
+
+**2013 to 2016 — checked out.** Almost nothing. He does not post at all about
+the 2016 election, and in December 2016 writes *"I don't know much about
+politics but Obama is NOT a fascist"* — a man disclaiming expertise, five years
+after arguing eight positions sharply.
+
+**2017 to 2019 — anti-Trump, but as a liberal.** Constant and specific. He
+agrees with Mitt Romney and uses the hashtag #ImpeachTrump. He wonders aloud
+whether a full Pence presidency would be better. He reads *Fire and Fury* and
+Comey's memoir in public. He watches impeachment hearings like a sport. In
+October 2019 he jokes that he is voting for Cory Booker. In three years he says
+nothing about class, wages, healthcare or capitalism.
+
+**August 2020 — democratic socialist.** This page.
+
+**Where the change actually starts.** Not August 2020. His posts show the
+*thinking* arriving first, during the Democratic primary. On **February 15,
+2020** — four months after the Cory Booker joke, and a month before any
+lockdown — he posted four times about Michael Bloomberg: that his candidacy was
+designed to split the party, that he was trying to buy enough delegates to
+force a brokered convention, and that his record on stop and frisk disqualified
+him. He was arguing it with a left-wing commentator. That is not how a liberal
+talks.
+
+So the order is: liberal in October 2019 → thinking like a leftist by February
+2020 → calling himself one in August → **saying it in public on October 3,
+2020**:
+
+> *"if 2020 hasn't made you a marxist who is unapologetically claiming
+> democratic socialism / social democracy as your political ideology...you're
+> either frighteningly uninformed or just a fucking ghoul"*
+
+**The lockdown was real, but it was not the cause.** The reading he did indoors
+happened to someone whose mind had already moved. And that October post is
+something this page never had before: him saying it publicly, on a date, with
+no AI involved — six weeks after saying it privately, and already telling other
+people they are ignorant or evil if they disagree. He polices the border of
+every group he joins, almost as soon as he joins it.
+
+**So he did not convert from not caring. He converted from being a liberal** —
+a shorter trip, and one he had only been on for three years.
+
+**And the suddenness is real.** Ten months before he called himself a
+socialist, he was joking about Cory Booker and arguing with *"moderate
+conservatives"* as though he were still on their side of the table. There is no
+halfway state in the record.
+
+**But the media trail starts in 2017, and it starts as comedy.** The first
+left-leaning channel anywhere in his archive is Cody Johnston — then at
+*Cracked*, later making *Some More News*. Dan posted about him five times in
+2017, and explained why: *"'some news' might be a comedy show, but I think
+you're making an impact. Ppl (dummies, americans) need aggressive simplicity."*
+That December he stopped following *Cracked* because those people had left.
+
+So the media part of this story is not something he found in 2020. It is a
+comedy audience he joined in 2017 that took three years to turn into politics —
+**the same way he ended up in the Opie & Anthony audience, pointed somewhere
+else.** He does not find political media by being argued into it. He finds it
+by following funny people he already liked.
 
 ## The media pipeline
 

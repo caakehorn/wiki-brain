@@ -21,8 +21,8 @@ chart:
         "hedged": 0.60
     - name: "What it turned out to be worth"
       points:
-        "certain": 0.00
-        "confident": 0.75
+        "certain": 0.25
+        "confident": 0.69
         "hedged": 0.75
 sources:
   - testimony/events.jsonl
@@ -43,43 +43,45 @@ A single trust score would collapse two facts that behave differently. **Veracit
 
 | | value | n |
 |---|---|---:|
-| **Veracity** | **57 / 100** — +2.5 points on 17.5 weight | 6 |
-| **Calibration** | Brier 0.243, skill +0.03 vs a coin flip | 6 |
-| **Stated vs actual** | -0.13 | 6 |
+| **Veracity** | **52 / 100** — +1.0 points on 31.0 weight | 10 |
+| **Calibration** | Brier 0.335, skill -0.34 vs a coin flip | 10 |
+| **Stated vs actual** | -0.30 | 10 |
 
-Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 6 settled claims, not thousands.
+Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 10 settled claims, not thousands.
 
 ## What his confidence is actually worth
 
 | band | he states | it is worth | gap | n |
 |---|---:|---:|---:|---:|
-| certain | 0.95 | 0.00 | -0.95 | 1 |
-| confident | 0.80 | 0.75 | -0.05 | 3 |
+| certain | 0.95 | 0.25 | -0.70 | 4 |
+| confident | 0.80 | 0.69 | -0.11 | 4 |
 | hedged | 0.60 | 0.75 | +0.15 | 2 |
 
 ## Outcomes
 
 | outcome | n | meaning |
 |---|---:|---|
-| confirmed | 3 | independent evidence bears it out |
-| partial | 1 | the core holds, a material detail does not |
+| confirmed | 4 | independent evidence bears it out |
+| partial | 2 | the core holds, a material detail does not |
 | self_contradicted | 1 | he has given two accounts that cannot both be true |
-| refuted | 1 | independent evidence contradicts it |
+| refuted | 3 | independent evidence contradicts it |
 | unfalsifiable | 6 | checked, and the corpus cannot settle it — **scores zero, never negative** |
 
 ## By claim class
 
-Rates are shrunk toward the global 0.62 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
+Rates are shrunk toward the global 0.53 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
 
 | class | n | raw | shrunk | 95% CI on clean confirmations | dominant failure |
 |---|---:|---:|---:|---|---|
-| date | 2 | 0.50 | 0.57 | 9%–91% | displacement, rounding |
-| location | 2 | 0.12 | 0.42 | 0%–66% | displacement, rounding |
-| duration | 1 | 1.00 | 0.72 | 21%–100% | — |
-| enumeration | 1 | 0.50 | 0.59 | 0%–79% | omission |
-| existence | 1 | 1.00 | 0.72 | 21%–100% | — |
-| quantity | 1 | 1.00 | 0.72 | 21%–100% | — |
-| sequence | 1 | 1.00 | 0.72 | 21%–100% | — |
+| date | 4 | 0.50 | 0.51 | 15%–85% | displacement, rounding |
+| sequence | 3 | 0.50 | 0.51 | 6%–79% | compression, overreach |
+| location | 2 | 0.12 | 0.37 | 0%–66% | displacement, rounding |
+| duration | 1 | 1.00 | 0.64 | 21%–100% | — |
+| enumeration | 1 | 0.50 | 0.52 | 0%–79% | omission |
+| existence | 1 | 1.00 | 0.64 | 21%–100% | — |
+| other_state | 1 | 0.00 | 0.39 | 0%–79% | overreach |
+| quantity | 1 | 1.00 | 0.64 | 21%–100% | — |
+| self_state | 1 | 0.50 | 0.52 | 0%–79% | compression |
 
 ## Which way the errors run
 
@@ -87,7 +89,8 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 
 | slant | n |
 |---|---:|
-| neutral — the error carries no credit or discredit either way | 3 |
+| neutral — the error carries no credit or discredit either way | 6 |
+| flattering — the error, had it stood, would have reflected better on him | 1 |
 
 ## The record
 
@@ -105,6 +108,10 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 | t010 | A named individual was the building's superintendent and real estate agent at 307 E 76th St | identity, attribution | confident | unfalsifiable | The only independent corpus trace is a single November 2019 message placing him in the apartment, which does not establish the role. |
 | t011 | Four unconscious axioms are load-bearing in his cognition: not exceptional = worthless, not vigilant = annihilated, love that does not cost everything is not real, and time = countdown | self_state | certain | unfalsifiable | Tested lexically against all 106,629 outbound messages 2015-2025 with 110,944 inbound from 503 handles as a within-medium control. On every explicit urgency construction but one he writes LESS than his controls. This does not falsify the axiom — SMS is a near-zero-introspection medium for everybody in it — but it establishes that the message corpus cannot corroborate it. |
 | t012 | He met Alexis Armel on a Thanksgiving 2009 trip home, spent two nights with her, and about a week or two later she came to Orlando on a one-way ticket he bought | date, sequence, duration | confident | confirmed | The tweet archive puts him in PA 25-30 Nov 2009 ('cookies, water, beer, wine, and her.' on the 29th; 'watching the game with someone special' and 'I miss her already' on the 30th, 'her' unnamed), then the first @alexisarmel tweet on 14 Dec from Orlando -- 'you amaze me. can't believe you're real' alongside 'dan in love' -- about two and a half weeks later. 'i have the most amaaaazing girlfriend' on 16 Dec. The account carried the relationship publicly for a fortnight before it carried her name. |
+| t013 | Dan graduated Full Sail (AS Recording Arts) in August 2009. | date | certain | refuted | wiki/self/twitter/2009 — 2009-08-31 'so weirded out i start my last month of college tomorrow'; 2009-11-30 'pro tools lab'; 2009-12-14 'aced my practical without headphones'; 2009-12-15 'in class....'; 2009-12-19 'taking aws final with it' |
+| t014 | Dan's continuous Suboxone regimen began on 17 February 2010. | date | certain | confirmed | wiki/self/twitter/2010 — 2010-02-17 20:07 UTC (15:07 New York): 'this is the most stressful day/decision of my life. nothing is making it easier.' Followed by 'planning the next 3 years of my life all day in muh head' (2010-02-18) and 'put my life on a treadmill. shape up or bust.' (2010-02-20). The obvious alternative referent is excluded: the Brooklyn move was decided on 2010-01-26 and described as good news either side of this day. LIMIT: he never names the decision, so this is a dated alignment on an independent same-day artifact rather than a clinical record. It is recorded as confirmed because the date he gave held up against evidence he did not write for the record and could not have been shaping. |
+| t015 | Dan was among the O&A fans repulsed by the racism at the time of the 2014 split, and that repulsion radicalized him to leftist politics. | self_state, sequence | confident | partial | wiki/self/twitter/2014 — 2014-07-04, one day after the firing: '@AnthonyCumia nothing but love and respect ant. Thanks for not selling your soul through this whole mess.' And 2014-03-25: '@AnthonyCumia brilliant point re "tranny" outrage.' 2014 is spreadsheet-complete (170 of 171 rows) and contains no post expressing discomfort. PARTIAL rather than refuted because 'we were radicalized' describes a process that can begin later than its cause; what is contradicted is the implied timing, not the eventual direction of travel, which the 2020 turn independently corroborates. |
+| t016 | Ron DeSantis will not challenge Donald Trump in the 2024 Republican primary. | other_state, sequence | certain | refuted | DeSantis filed and announced his candidacy on 2023-05-24. Dan acknowledged it the same day without pretending otherwise — 'Ron DeSantis is stupidly committing political suicide by moving ahead with a 2024 primary run' — restating the underlying analysis as a judgement about the decision rather than defending the prediction. |
 
 ## What this ledger cannot see
 
