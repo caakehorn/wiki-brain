@@ -47,13 +47,14 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-09-03** — 22 pages
+**2026-09-03** — 26 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
   - ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
   - ingest | self | 2010 read in full — the corpus's most-cited date was computed from a train going the wrong way, and it survives anyway
   - ingest | self | 2011 read in full — the reasoning style is finished at twenty-two, and the politics are empty
+  - ingest | self | 2012 read in full — the "digital disaster" line was written by one of the generators, mid-generation
 
-**2026-09-02** — 29 pages
+**2026-09-02** — 26 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result

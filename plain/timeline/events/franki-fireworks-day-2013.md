@@ -3,7 +3,7 @@ plain_of: wiki/timeline/events/franki-fireworks-day-2013
 title: "The Franki Fireworks Day (early July 2013)"
 reading_level: general
 date_modified: 2026-08-26
-source_modified: 2026-08-28
+source_modified: 2026-09-03
 ---
 
 # The Franki Fireworks Day (early July 2013)
@@ -36,6 +36,30 @@ The page for Franki has carried a standing note that the "July 4" framing used e
 **Alexis was displaced to a property the archive did not know was in play.** She moved to "suz's other place at 155 virginia avenue," stayed five days, and then returned to her parents in Carmichaels. The page for 155 Virginia Avenue dates its own story from a January 2015 lease. This puts the address under Dan's mother's control eighteen months earlier, and already performing the function the later page calls lair-continuity: housing a partner who has been displaced from the primary residence. The lair predates the tenancy. The second 2026 account also carries her onward: from Virginia Avenue to her mother's house, then a new boyfriend, a brief move to New York City, and a reconciliation with Dan in October 2013 — which is why this entry's span now runs to the end of October rather than stopping in July.
 
 **Dan's mother then engineered the aftermath.** Per the account, she thought it a good idea to have Alexis and Danielle Onesi — Dan's first girlfriend and Alexis's "former enemy" — spend time together and bond over their shared grievance, "and this caused a huge thing." That is the maternal switchboard operating on the relational graph rather than the financial one, and it is the earliest documented instance of it.
+
+## How long the break actually lasted
+
+Until now this page could not say how long they were apart. Dan's public posts
+settle it.
+
+On **August 9, 2013** he wrote *"I guess I tweet more when I'm single?"* From
+**August 21 to 31** he posted repeatedly with a woman named Katie Fletcher —
+a lookout point, a trip to the mountains, the Oddball Comedy Festival in
+Pittsburgh. On **September 7** he posted *"My better 1/2"* and *"Mystery girl
+and everything's okay now."* On **September 8**, Alexis is named again. By
+September 25 he is posting about her the way he always did.
+
+So they were apart for roughly **six to eight weeks**, from July to the first
+week of September — and someone else was in that gap, publicly, in photographs.
+
+That makes this the only stretch in six years when the relationship was
+actually off. Two things about it matter. He filled the gap almost at once:
+Katie appears within two weeks of him saying he was single. And when it ended,
+he did not announce a decision — he announced relief. *"Everything's okay
+now."* Nothing was said about anything being fixed.
+
+We cannot tell whether the "mystery girl" on September 7 is Katie or Alexis.
+Both fit, and the next day he names Alexis.
 
 ## The other two things that started that summer
 

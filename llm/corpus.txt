@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-03
-497 pages, ~1,778,434 tokens.
+497 pages, ~1,783,544 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -8459,7 +8459,7 @@ domain: interests
 page_type: summary
 status: active
 date_created: 2026-06-22
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -8500,6 +8500,9 @@ connections:
   - page: wiki/self/twitter
     type: evidenced-by
     claim: "The public archive dates the production identity's public life exactly: 23.4% and 31.6% of originals in 2013-14, then nothing about his own music from 7 March 2016 to 4 March 2026 across 908 originals."
+  - page: wiki/self/twitter/2013
+    type: evidenced-by
+    claim: 'The SLOPPP operation in full: some thirty named releases between 13 August and 26 December 2013, free downloads tracklisted and timestamped, ~10k self-reported SoundCloud plays, a Numark NS7 bought on 10 November, and criticism solicited from one named peer. The project\'s start date is not datable from the twitter record because the archive source changes on 2013-08-17.'
 ---
 
 
@@ -10262,13 +10265,14 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-03** — 22 pages
+**2026-09-03** — 26 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
   - ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
   - ingest | self | 2010 read in full — the corpus's most-cited date was computed from a train going the wrong way, and it survives anyway
   - ingest | self | 2011 read in full — the reasoning style is finished at twenty-two, and the politics are empty
+  - ingest | self | 2012 read in full — the "digital disaster" line was written by one of the generators, mid-generation
 
-**2026-09-02** — 29 pages
+**2026-09-02** — 26 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result
@@ -11824,9 +11828,9 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 **major** — 41 outstanding
 
 - [[wiki/self/twitter/2010]] (11448 words)
+- [[wiki/self/twitter/2013]] (11199 words)
 - [[wiki/self/twitter/2024]] (10376 words)
 - [[wiki/self/twitter/2009]] (9344 words)
-- [[wiki/self/twitter/2013]] (9108 words)
 - [[wiki/self/twitter/2011]] (8098 words)
 
 **free** — 39 outstanding
@@ -11871,11 +11875,12 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-03 — 22 pages
+## 2026-09-03 — 26 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/chemical-architecture]] | health | _(carries a GAP CLOSED from 2026-08-28)_ |
+| [[wiki/interests/music/overview]] | interests | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/interests/opie-and-anthony]] | interests | — |
 | [[wiki/interests/video-games]] | interests | — |
 | [[wiki/meta/digest]] | meta | — |
@@ -11891,19 +11896,21 @@ simply listed.
 | [[wiki/people/dan-polyak]] | people | — |
 | [[wiki/people/josh-brannan]] | people | — |
 | [[wiki/places/424-bedford-ave]] | places | — |
+| [[wiki/self/location-history]] | self | _(carries a CONTRADICTION from 2026-09-02)_ |
 | [[wiki/self/twitter/2008]] | self | **GAP CLOSED** — this section previously read *"the account's creation datetime was not retrievable"*, and gave 24 September 2008 as an inference from the earliest surviving tweet. Dan settled it himself in 2010, twic |
 | [[wiki/self/twitter/2009]] | self | **CONTRADICTION** — `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and `wiki/timeline/periods/full-sail-2008-2010` and `wiki/people/alexis-armel` both build on |
 | [[wiki/self/twitter/2010]] | self | **CONTRADICTION** — the anchor is misread. The 18 February train was the **return** leg, not the outbound one. On 17 February Dan is already in New York (*"off to Williamsburg"*), and on the 18th he is *"On the train bac |
 | [[wiki/self/twitter/2011]] | self | — |
 | [[wiki/self/twitter/2012]] | self | — |
+| [[wiki/self/twitter/2013]] | self | — |
+| [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | **CONTRADICTION** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomo |
 
-## 2026-09-02 — 29 pages
+## 2026-09-02 — 26 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/interests/music/aliases/sloppp]] | interests | **GAP CLOSED** — the gap, as this page stated it — *"episodes 1–7 of 'Week in Trap' and any 'Heatwave Vol. 1' are unaccounted for."* **Heatwave Vol. 1** is dated: announced 13 May 2014 (*"First hour of my summer mix s |
-| [[wiki/interests/music/overview]] | interests | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/meta/index]] | meta | — |
 | [[wiki/meta/instruments/index]] | meta | — |
 | [[wiki/meta/readers-digest]] | meta | — |
@@ -11912,10 +11919,8 @@ simply listed.
 | [[wiki/people/vanessa-frank]] | people | _(carries a REVISED from 2026-07-14)_ |
 | [[wiki/self/facebook]] | self | **CONTRADICTION** — This paragraph used to say *every* field cross-checks. One does not. `places lived` gives **Brooklyn NYC from January 3, 2010**. The tweet archive has Dan in Florida for another eight weeks: *"moving  |
 | [[wiki/self/index]] | self | — |
-| [[wiki/self/location-history]] | self | **CONTRADICTION** — this bullet used to end "No contradiction." There is one, and it is in the Facebook profile itself. `places lived` says **Brooklyn from 3 January 2010**; the tweet archive has Dan in Florida through 2 |
 | [[wiki/self/tattoos]] | self | **CORRECTED** — this page previously read "**entirely** cultural reference … *every* known piece points at a specific record, band, or artist rather than a generic symbol," and dated the earliest well-documented piec |
 | [[wiki/self/twitter]] | self | _(carries a CONTRADICTION)_ |
-| [[wiki/self/twitter/2013]] | self | — |
 | [[wiki/self/twitter/2014]] | self | — |
 | [[wiki/self/twitter/2015]] | self | — |
 | [[wiki/self/twitter/2016]] | self | — |
@@ -11954,7 +11959,7 @@ simply listed.
 |---|---|---|
 | [[wiki/meta/skills]] | meta | — |
 
-## 2026-08-28 — 33 pages
+## 2026-08-28 — 32 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11990,7 +11995,6 @@ simply listed.
 | [[wiki/people/zach-clingan]] | people | **GAP CLOSED** — The 2014 "drug people" taxonomy and the December 2015 "my arch rival" outburst (below) both assume a rupture the corpus had never actually recorded. A 2026-08-27 operator capture (`raw/people/captures |
 | [[wiki/places/155-virginia-ave]] | places | _(carries a GAP CLOSED from 2026-08-22)_ |
 | [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — estate-money-spine gained a constitution-pass mechanism section (the Altruism-1 inversion explaining the $14,000 family loan) and a full register table. Nothing in it touches tenancy, paper, or any of |
-| [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
 
 ## 2026-08-27 — 5 pages
 
@@ -71043,7 +71047,7 @@ domain: self
 page_type: synthesis
 status: archived
 date_created: 2026-06-22
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 sources: ["raw/self/twitter/archive.jsonl", "raw/self/location/2026-06-22-ingest/Location History (Timeline)-20260622T225253Z-3-001.zip", "raw/self/location/2026-06-22-ingest/Location History (Timeline)/semantic_location.db", "raw/self/location/2026-06-22-ingest/Location History (Timeline)/Records.json", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/archives/google-data-export-index-20260623.html"]
 synthesizes:
   - wiki/self/context-core
@@ -71083,6 +71087,9 @@ connections:
   - page: wiki/self/lineage/family-tree
     type: parallels
     claim: "The genealogical record's multi-generational concentration in Fayette County reproduces, across four generations, the same geographic gravity the location export shows in Dan's own movement."
+  - page: wiki/self/twitter/2013
+    type: evidenced-by
+    claim: 'From mid-August 2013 the tweets place Dan in Fayette County and Pittsburgh repeatedly — Sheetz, Texas Roadhouse, Carnegie Mellon, the Oddball festival, and Uniontown filmed on 27 September — inside the window this page records as having no address-level data at all.'
 ---
 
 # Location History (Google Timeline)
@@ -80515,8 +80522,8 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
-knowledge: derived
+date_modified: 2026-09-03
+knowledge: mixed
 date_range_start: 2013-01-15
 date_range_end: 2013-12-27
 title: "Twitter / X — 2013"
@@ -80534,11 +80541,252 @@ connections:
   - page: wiki/self/twitter/2014
     type: precedes
     claim: '2013 is the immediately previous year of originals before 2014 on the same account.'
+  - page: wiki/interests/music/overview
+    type: evidences
+    claim: 'SLOPPP is an operation with infrastructure by late 2013 — some thirty named releases in four months, tracklisted-and-timestamped free downloads across SoundCloud, Mixcloud and 8tracks, ~10k self-reported plays, an NS7 controller, and one named peer (@Yamez1) he submits work to for critique. Its start date is NOT datable from this page: the archive source changes on 2013-08-17 and the earliest trace, 31 July, already says "checking latest mix".'
+  - page: wiki/timeline/events/franki-fireworks-day-2013
+    type: evidences
+    claim: 'The rupture\'s duration is bounded from the public side: "I guess I tweet more when I\'m single?" (2013-08-09), eleven days with @katie_efff across late August including the Pittsburgh Oddball festival, and Alexis named again on 2013-09-08 — six to eight weeks off, with another person documented inside it.'
+  - page: wiki/self/location-history
+    type: evidences
+    claim: 'Partially fills the 2011-2014 address-level blind window: from mid-August 2013 the geography is Western Pennsylvania — Carnegie Mellon, Sheetz twice, Texas Roadhouse, the Pittsburgh Oddball festival, and Uniontown filmed on 27 September. Presence, not tenancy, and two years earlier than the return the wiki otherwise narrates.'
+  - page: wiki/mind/synthesis/vertical-authority-skepticism
+    type: evidences
+    claim: 'During the Boston Marathon bombing — the decade\'s most conspiracy-productive American event — he mocks the conspiracy layer rather than working it ("conspiracy du jour: americans under attack from vicious stoners"), and separately rejects veteran status as a warrant: "Being a vet does NOT make your racism ok nor does it make you automatically correct."'
+  - page: wiki/mind/synthesis/millennial-digital-witness
+    type: evidences
+    claim: 'Six months after running the Sandy liveblog he is reading analysis of the phenomenon rather than performing or noticing it — "Great article about social media coverage during Boston bombing and the new role of journalists" (2013-04-21) — which is the step between the practice and the theory.'
 ---
 
 # Twitter / X — 2013
 
-The year the operator spreadsheet becomes the spine. From mid-August the page is complete for originals: SLOPPP/MOGZART trap and moombahon mixes on SoundCloud, Instagram lookouts, 8tracks, and the Vanessa Frank needling that is already family voice. Pre-August 17 is still being scraped and is only a few mid-August days so far.
+**The year the account becomes a music project's feed, and the year the record
+itself changes underneath that.** From mid-August onward the page is a
+continuous stream of releases under the name **SLOPPP** — roughly thirty mixes
+and original tracks between 13 August and 26 December, better than one every
+four days — plus SoundCloud play counts, gear, hashtags and requests for
+critique.
+
+It is also the year the six-year Alexis relationship breaks and reassembles
+inside about six weeks, with another person documented in the gap; the year he
+appears to relocate from Manhattan to Western Pennsylvania; and the year he
+posts approvingly of a **critique of the New Atheism** he was evangelising two
+years earlier.
+
+## First, the thing that will mislead everyone who reads this page
+
+**The apparent explosion of music activity in mid-August is, in large part, the
+archive changing.** The Coverage table below is the whole warning: 199 of this
+page's 346 rows come from the operator spreadsheet, which is complete only
+**from 2013-08-17**, and everything before that date is a live scrape truncated
+to ten results per month-bounded query.
+
+So the page shows a sparse, jokey, non-musical January-to-July and a dense,
+musical August-to-December, and **that shape is at least partly manufactured by
+where one source stops and the other starts.** The transition date in the data
+(17 August) and the apparent transition in the subject matter are within a week
+of each other, which is exactly the coincidence that should stop a reader
+concluding anything.
+
+**What can honestly be said about when SLOPPP starts:** the earliest trace on
+this page is **31 July 2013**, inside a truncated month-end sample, and it is
+already casual about the practice — *"twice now i've had some (unintentionally)
+played background music while checking latest mix"*. A person "checking latest
+mix" in July is not a person who began in August. The project is therefore
+**older than this page can date**, and no claim about its start, ramp or
+intensity should be drawn from the shape here. A complete export would settle
+it; nothing else will.
+
+## SLOPPP, as an operation rather than a hobby
+
+With that caveat, what the complete second half of the year does support is
+detailed and worth having in full, because it shows a **practice with
+infrastructure**, not a person posting tracks.
+
+**Output.** Named releases include *THE TALK IT OUT MIX*, *THE INTEREST OF
+CONFLICT MIX [MOOMBATHON/2STEP]*, *THE CHURCH OF MANNIE FRESH*, *FULL RATCHET
+JACKET*, *JESSE PINKMAN'S ROADTRIP, YO*, *SOUNDTRACK TO A STRUGGLE: BACK TO
+SCHOOL EDITION*, *helterskelter: race riot music*, *THE KEEPSAKE FOR PETE'S
+SAKE MIX*, *THE GREENER GRASS MIX*, *SLOPPPED AND SCREWED: HOODIE WEATHER MIX*,
+*TUNE IN, DROP OUT, TURN UP*, *RACK TO THE FUTURE: SEPTEMBER 2013 TRAP MIX
+[TRACKLISTED & TIMESTAMPED]*, *THE LOW-END MIX*, *THINK ABOUT IT! THURSDAYS*,
+*CUFFED AND CRUISED*, *BULLET SVNDWICH*, *A BRIEF HISTORY OF TIME AND BASS*,
+*STARS AND BARS: FLAG OR SWAG?*, *TRICK OR TRAP — MOLLOWEEN 2013*, *TOO TURNT
+TO TWERK*, and a two-part *YEARMIX 2013*. Alongside the mixes are **original
+tracks** — *All Done*, *Blazin*, *Swisher*, *Snailed It*, *Backwards*, *Betty
+Draper* — and official-style reworks of Baauer and 2 Chainz.
+
+**Distribution.** SoundCloud primarily, but also Mixcloud (`thedanfrank`) and
+8tracks, with Instagram and Vine used as promotional surfaces. Mixes are
+released *"TRACKLISTED & TIMESTAMPED"* and *"FREE DL"* — the conventions of the
+scene, correctly observed.
+
+**Audience, self-reported and self-deflated.** On **10 November**: *"just
+topped 7k plays on soundcloud. thanks to @alexisarmel for something like 6,000
+of those"*. On **8 December**: *"almost to 10k plays."* Roughly ten thousand
+plays across some thirty releases in four months, and the first number arrives
+with the joke that undercuts it already attached.
+
+**Craft, and a named teacher.** He asks for criticism, from one person, by
+name — **15 August**, to `@Yamez1`: *"listen to this for me? I wanna hear what
+you think I need to improve"*. `@Yamez1` gets more of his attention than anyone
+in the scene (*"must live in Bosnia with all these bombs he's dropping"*,
+*"YOU'RE ON SOME DEXTER SHIT WITH THESE CUTS SON"*), and on **10 November** the
+gear moves up: *"grabbed this new ns7 with motor platters and I'm f00kin amazed
+I ever lived on cheap plastic."* On **23 September** he reads the history:
+*"The dense and illustrious history of the 808 sample (and 909)."*
+
+**And he is his own harshest reader, in public.** On 23 September a release
+goes out hashtagged *"#overcompensating #poseur #fakefuture"*; on 11 August,
+looking at old work, *"Wow I was/am a fucking HACK."* The self-assessment runs
+alongside the promotion in the same feed on the same days, which is the shape
+`wiki/mind/profile/index` describes as an on/off verdict with no middle
+setting — here it is, applied to his own output, hourly.
+
+## Six weeks single, and somebody else in the gap
+
+`wiki/timeline/events/franki-fireworks-day-2013` dates the six-year
+relationship's only mid-course rupture to July 2013 and to Alexis's detection
+of it. This page supplies the duration and what happened inside it.
+
+| Date | Post | What it fixes |
+|---|---|---|
+| 2013-08-09 | *"I guess I tweet more when I'm single?"* | he is single, in his own words, in August |
+| 2013-08-21 → 08-31 | `@katie_efff` — Blue Star Point Lookout, *"Mountain things"*, a pedicure, Oddball Comedy Fest in Pittsburgh, *"Frogs and Katie Fletcher"* | a named other person, repeatedly, over eleven days |
+| 2013-09-07 | *"All smilez with a mysteriously amazing young girl"* / *"My better 1/2."* / *"Mystery girl and everything's okay now"* | something has resolved |
+| 2013-09-08 | *"Alexis Armel and a doppelgänger mosquito"* | Alexis is back, named |
+| 2013-09-17 onward | *"Noone does 'contemplative' (or perfect) quite like @alexisarmel"*, *"If having a bad bitch was a crime I'd be arrested"* | fully reconciled |
+
+So the break runs from **July to the first week of September** — call it six to
+eight weeks — and Katie Fletcher is in it, publicly, in photographs, at a
+comedy festival. **This is the only documented interval in the six years where
+the relationship is off**, and it is worth holding beside the corpus's account
+of Dan's attachment behaviour: the gap is short, it is filled immediately, and
+the reconciliation is announced in the language of relief (*"everything's okay
+now"*) rather than of decision.
+
+The one thing this page cannot settle is whether the 7 September *"mystery
+girl"* is Katie or Alexis. Both readings fit and the next day names Alexis;
+neither is asserted here.
+
+## He is in Pennsylvania
+
+From mid-August the geography changes and the page stops being a New York
+document: Carnegie Mellon (14 August), Sheetz twice (20 August, 3 September),
+Texas Roadhouse (29 August), the Oddball Comedy Festival in Pittsburgh
+(31 August), an argument about Syria *"with an idiot in Sheetz"*, and on
+**27 September** *"For those curious what the hooplah in uniontown is about
+today"* with *"Fucking helicopters and shit"* — filmed, in his hometown.
+
+`wiki/self/location-history` records that address-level data runs out after
+January 2011 and does not resume until the 2014 Google export, and names that
+window as the corpus's location blind spot. **This page partially fills it**:
+whatever his formal address was, Dan was substantially in Fayette County from
+August 2013, which is two years earlier than the return the wiki otherwise
+narrates. It is presence, not tenancy — the tweets place him there and do not
+say he lived there — and that distinction is left open deliberately.
+
+## The atheism turns on itself
+
+2011 was militant movement atheism at full volume. February 2013 still is:
+*"You have to make it clear to everyone, including your children, that there is
+no god"* (20 February), plus a prediction on the papal succession (*"expect the
+church to use popegate as marketing opportunity and rebrand catholicism with
+younger, more relatable pope"* — 12 February, which is what happened) and CNN's
+*"Another John Paul Miracle Found"* treated as cause for violence.
+
+Then, on **30 July 2013**:
+
+> *"This is a great critique of neo-atheism. 'The Enormity of the Mystery That
+> Surrounds Us @ TEDx'"*
+
+*Neo-atheism* is the movement's own term for itself. Five months after telling
+people to make sure their children know there is no god, he is publicly
+endorsing an argument against the position's style. **The belief does not
+change and the affiliation does** — which is the same shape as every other
+departure in this corpus: he leaves the tribe, not the conclusion.
+
+## Boston, and reading the theory of the thing he did
+
+On **21 April 2013**, six months after Sandy:
+
+> *"Great article about social media coverage during Boston bombing and the new
+> role of journalists"*
+
+He is no longer doing it or noticing it — he is reading analysis of it. Beside
+that, he treats the bombing's conspiracy layer with contempt rather than
+appetite: *"conspiracy du jour: americans under attack from vicious stoners"*,
+and to `@OpieRadio`, *"is this the 'marbles in ass' part of the boston
+conspiracy?"* He also flags Limbaugh comparing the suspect to Trayvon Martin.
+
+That is a third data point for
+`wiki/mind/synthesis/vertical-authority-skepticism`'s finding that the
+"conspiracy crank" label is contradicted by his own behaviour — during the
+American event most productive of live conspiracy theorising in the decade, he
+mocks them.
+
+## The register at its worst, and one thing that complicates it
+
+2013 is the peak year for the shock vocabulary: *"fuck gender roles, everyone
+walks like a faggot in the snow"* (9 February), *"Spooks and gooks"*
+(24 October), *"Kill yourself, make the world a better place"* at his own
+sister (14 August), a Hitler/Eva Braun joke at Alexis (22 November), and
+*"SUPER USEFUL"* sarcasm at an article about talking to wheelchair users
+(25 November).
+
+It is kept for the same reason 2012's is: it is the measurable distance the
+2020 turn later covers, and a corpus that deletes it cannot claim the
+movement.
+
+**What complicates it** — and this is not a defence, it is a fact on the same
+page — is that the same months contain sustained, non-ironic engagement with
+Kanye West's *Yeezus* and its racial argument. He builds a mix titled
+*helterskelter: race riot music*, tags it `#NewSlaves`, and on **2 September**
+writes: *"My new fav thing to do is drive around looking for REALLY white
+people and play them the acapella version of 'new slaves' from my car stereo."*
+On **31 August**, in Pennsylvania: *"Being a vet does NOT make your racism ok
+nor does it make you automatically correct."* And on **25 August**, revisiting
+his own past judgement: *"I remembr a 2005 conversation wherein we determined
+Kanye to be the most racist person/rapper on earth. We didn't have any idea."*
+
+A man using racial slurs as punchlines in October and driving around
+provoking white people with *New Slaves* in September is not two people. He is
+one person inside the O&A comedy register whose actual sympathies are
+already elsewhere, six years before he has a vocabulary for them.
+
+## Texture, and one small durable thing
+
+The Codecademy badges on **19 February** — *"I just unlocked the 50 points
+earned in one day badge"*, then the 75-point badge the same day — are already
+carried by `wiki/mind/synthesis/failure-to-launch` and `wiki/work/tech/index`,
+and belong here as their source: dated, self-taught programming, thirteen years
+before the AI work.
+
+Elsewhere: *Arrested Development* season four watched as a reference-spotting
+exercise with a written list (26–27 May); *"the only people for me are the mad
+ones"* quoted from Kerouac on 10 July and then quoted back at him by Alexis
+three weeks later; a cousin, `@franknarcissist`, writing his first cover story
+for *The Fader* on 19 November; *"I'm the opposite of apathetic….i'm
+pathetic"* (23 March); *"I'm looking for plot holes. I'm looking for terrible
+art. I'm looking for the bland, the bizarre, the lazy, the insipid, the
+surreal!"* (31 August), which is the corpus's anomaly-detection orientation
+stated as an aesthetic; and the unexplained phrase **"panic tax"**, posted
+alone on 20 January and again on 13 September, referent unknown.
+
+## What would change this reading
+
+Almost everything above about *timing* is hostage to the source boundary at
+17 August. If the pre-August months arrive in full and contain the same volume
+of music, the "year the account becomes a music feed" framing is wrong and
+SLOPPP simply predates the record. If they arrive and contain none, the framing
+is confirmed. This page cannot tell, and says so rather than choosing.
+
+The Pennsylvania relocation is inferred from presence, not from any statement
+of address; a lease or a dated message would settle whether he moved or was
+visiting for six weeks. And the relationship reconstruction depends on
+*"I guess I tweet more when I'm single?"* being literal rather than a joke —
+if it is a joke, the only hard facts left are Katie Fletcher's eleven days in
+late August and Alexis's reappearance on 8 September.
 
 ## Coverage
 
@@ -80555,7 +80803,7 @@ Spreadsheet originals are complete from 2013-08-17 through year-end. January thr
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
-## January
+## The record
 
 ### 2013-01-15 05:10:36 UTC · [291049725283676160](https://x.com/danfrank/status/291049725283676160)
 *likes 0 · replies 0 · reposts 0*
@@ -96310,7 +96558,7 @@ aliases: ["the franki fandango", "the fireworks day"]
 status: stable
 knowledge: mixed
 date_created: 2026-08-02
-date_modified: 2026-08-28
+date_modified: 2026-09-03
 date_range_start: 2013-07-01
 date_range_end: 2013-10-31
 sources:
@@ -96348,6 +96596,9 @@ connections:
   - page: wiki/timeline/periods/uniontown-return-2013-2015
     type: component-of
     claim: "This is the day the return period stops being a depressive interval and starts producing consequences: the Alexis relationship breaks, the DJ controller becomes an occupation, and the pattern Dan later calls 'Franki Faris 2.0' is established."
+  - page: wiki/self/twitter/2013
+    type: evidenced-by
+    claim: 'The public record bounds the break this event opens: single in his own words on 2013-08-09, eleven documented days with @katie_efff in late August, and Alexis named again on 2013-09-08 — the only interval in six years where the relationship is off, and it is filled immediately.'
 ---
 
 # The Franki Fireworks Day (early July 2013)
@@ -96425,6 +96676,32 @@ first girlfriend, and Alexis's *"former enemy"* — spend time together and bond
 over their shared grievance, *"and this caused a huge thing."* That is the
 maternal switchboard operating on the relational graph rather than the financial
 one, and it is the earliest documented instance of it.
+
+## How long the break actually lasted
+
+This page has never been able to say how long the rupture ran. The public
+record bounds it. `wiki/self/twitter/2013`:
+
+| Date | Post |
+|---|---|
+| 2013-08-09 | *"I guess I tweet more when I'm single?"* |
+| 2013-08-21 → 08-31 | eleven days of posts with `@katie_efff` — Blue Star Point Lookout, *"Mountain things"*, the Oddball Comedy Festival in Pittsburgh |
+| 2013-09-07 | *"My better 1/2."* / *"Mystery girl and everything's okay now"* |
+| 2013-09-08 | *"Alexis Armel and a doppelgänger mosquito"* — named again |
+| 2013-09-25 | *"If having a bad bitch was a crime I'd be arrested @alexisarmel"* |
+
+So: **six to eight weeks off, from the July detonation to the first week of
+September, with another person publicly documented inside it.** That makes this
+the only interval in the six years where the relationship is not running.
+
+Two features of it bear on what this page argues. The gap was **filled almost
+immediately** — Katie Fletcher appears within two weeks of the earliest
+single-status post. And the reconciliation is announced in the vocabulary of
+**relief rather than decision**: *"everything's okay now"*, not a statement
+that anything was resolved.
+
+The 7 September *"mystery girl"* is not identified. Both readings fit and the
+following day names Alexis; neither is asserted.
 
 ## The other two things that started that summer
 
@@ -99102,7 +99379,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,469 events** across **80 years** (1796–2027), drawn from **374 pages**. Tier 1 685 · Tier 2 421 · Tier 3 2,363.
+**3,482 events** across **80 years** (1796–2027), drawn from **374 pages**. Tier 1 687 · Tier 2 425 · Tier 3 2,370.
 
 ## What counts as an event here
 
@@ -100040,7 +100317,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **August 2009** — full sail 2008 2010** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomorrow"*, which puts the final month in September. And across November and…  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **August 2009** — full sail 2008 2010 — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 17 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 26 pages
 - · **August 2009** — t013 — date — certain — refuted  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2009-08-31** — On **31 August 2009** he writes *"so weirded out i start my last month of college tomorrow. having multiple reality checks."* — which places the final month in **September**, not August.  
@@ -100119,9 +100396,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2010-01-03** — one is timestamped by the platform and one was typed into a profile  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **2010-01-03** — facebook — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 32 pages
-- · **2010-01-03** — location history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 32 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 26 pages
 - · **2010-01-03** — t002 — date, location — certain — refuted — The tweet archive has him in Florida for another eight weeks: 'moving to brooklyn in 9 days' (20 Feb 2010), 'last day in errrlando' (27th), 'peace out, florida. it's been real.' (28th)  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2010-01-03** — Places lived  
@@ -100541,6 +100816,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/youtube-watch-history]] · Activity by Year (Watched events, from date parses + broad counts)
 - · **February 2013** — I want it ASAP" (Feb 2013) — texture, not resolved events.  
   ↳ [[wiki/people/rick-frank]] · The relationship, corrected: warm, high-volume, and asymmetric rather than silent
+- · **February 2013** — "You have to make it clear to everyone, including your children, that there is no god"* (20 February), plus a prediction on the papal succession (*"expect the church to use popegate as marketing opportunity and rebrand catholicism with younger, more relatable pope"* — 12 February, which is what…  
+  ↳ [[wiki/self/twitter/2013]] · The atheism turns on itself
 - ★ **April 2013** — Gaps:** rent, lease terms, and any physical description of the unit; what prompted the specific choice of the Upper East Side over staying in Brooklyn; the immediate circumstances of the April 2013 decision to leave New York entirely rather than relocate again within the city.  
   ↳ [[wiki/places/90th-st-manhattan]] · Corpus record
 - · **April 2013** — menore — Dormant, then reactivated Nov 2018  
@@ -100559,6 +100836,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter]] · What the archive settled elsewhere in the wiki
 - · **Spring 2013** — That is the right shape for a spring 2013 departure and it is not a date.  
   ↳ [[wiki/timeline/periods/2010s]] · Transition
+- · **2013-04-21** — On **21 April 2013**, six months after Sandy:  
+  ↳ [[wiki/self/twitter/2013]] · Boston, and reading the theory of the thing he did
 - ★ **May 2013** — The "new number, save this one" framing is itself evidence of a prior relationship rather than a cold introduction — consistent with the operator's account that the original meeting happened years earlier, during the NYC-1 window (2010–May 2013), with Jamie Mohler present.  
   ↳ [[wiki/people/menore]] · Identity & Role
 - ★ **May 2013** — First return from NYC; SLOPPP era; moved out to 155 Virginia Ave  
@@ -100647,6 +100926,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter]] · Twitter / X Activity (@danfrank)
 - · **August 2013** — 2009 through 2012, January–mid-August 2013, and some 2026 days between the spreadsheet end and the live scrape are still being walked from X in batches of ten.  
   ↳ [[wiki/self/twitter]] · Gaps
+- ◆ **2013-08-09** — "I guess I tweet more when I'm single?"* — he is single, in his own words, in August  
+  ↳ [[wiki/self/twitter/2013]] · Six weeks single, and somebody else in the gap
+- ◆ **2013-08-09** — "I guess I tweet more when I'm single?"  
+  ↳ [[wiki/timeline/events/franki-fireworks-day-2013]] · How long the break actually lasted
 - · **2013-08-11** — The Talk It Out Mix — Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **2013-08-13** — January through 2013-08-13 is still being scraped and appended in live batches of ten.  
@@ -100681,6 +100964,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/dan-polyak]] · Four years before the Facebook thread
 - · **2013-08-19** — 12 — SLOPPP launch week  
   ↳ [[wiki/self/twitter]] · The densest day in seventeen years
+- ◆ **2013-08-21** — eleven days of posts with `@katie_efff` — Blue Star Point Lookout, *"Mountain things"*, the Oddball Comedy Festival in Pittsburgh  
+  ↳ [[wiki/timeline/events/franki-fireworks-day-2013]] · How long the break actually lasted
+- · **2013-08-21** — a named other person, repeatedly, over eleven days  
+  ↳ [[wiki/self/twitter/2013]] · Six weeks single, and somebody else in the gap
 - ◆ **2013-08-30** — 35 — Oddball Comedy & Curiosity Festival — Post-Gazette Pavilion (First Niagara Pavilion) — Burgettstown, PA — Confirmed.  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
 - ◆ **2013-08-30** — Dave Chappelle is a comedian Dan Frank saw perform live at the Oddball Comedy & Curiosity Festival on Aug 30, 2013, at Post-Gazette Pavilion, Burgettstown, PA.  
@@ -100697,8 +100984,22 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - · **2013-08-30** — Post-Gazette Pavilion (First Niagara Pavilion) — Burgettstown, PA — Confirmed.  
   ↳ [[wiki/interests/concert-record/festivals/oddball-comedy-curiosity-festival]] · Editions
+- ◆ **September 2013** — Output.** Named releases include *THE TALK IT OUT MIX*, *THE INTEREST OF CONFLICT MIX [MOOMBATHON/2STEP]*, *THE CHURCH OF MANNIE FRESH*, *FULL RATCHET JACKET*, *JESSE PINKMAN'S ROADTRIP, YO*, *SOUNDTRACK TO A STRUGGLE: BACK TO SCHOOL EDITION*, *helterskelter: race riot music*, *THE KEEPSAKE FOR…  
+  ↳ [[wiki/self/twitter/2013]] · SLOPPP, as an operation rather than a hobby
+- · **2013-09-07** — "All smilez with a mysteriously amazing young girl"* / *"My better 1/2."* / *"Mystery girl and everything's okay now"* — something has resolved  
+  ↳ [[wiki/self/twitter/2013]] · Six weeks single, and somebody else in the gap
+- · **2013-09-07** — "My better 1/2."* / *"Mystery girl and everything's okay now"  
+  ↳ [[wiki/timeline/events/franki-fireworks-day-2013]] · How long the break actually lasted
+- · **2013-09-08** — "Alexis Armel and a doppelgänger mosquito"* — Alexis is back, named  
+  ↳ [[wiki/self/twitter/2013]] · Six weeks single, and somebody else in the gap
+- · **2013-09-08** — "Alexis Armel and a doppelgänger mosquito"* — named again  
+  ↳ [[wiki/timeline/events/franki-fireworks-day-2013]] · How long the break actually lasted
 - · **2013-09-16** — Bluntz (Original Mix) — Original  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
+- ★ **2013-09-17** — "Noone does 'contemplative' (or perfect) quite like @alexisarmel"*, *"If having a bad bitch was a crime I'd be arrested"* — fully reconciled  
+  ↳ [[wiki/self/twitter/2013]] · Six weeks single, and somebody else in the gap
+- ★ **2013-09-25** — "If having a bad bitch was a crime I'd be arrested @alexisarmel"  
+  ↳ [[wiki/timeline/events/franki-fireworks-day-2013]] · How long the break actually lasted
 - ★ **October 2013** — the unbroken bond** — **The Jul–Oct 2013 Alexis separation is unquantified.** It is recorded as a separation within the relationship, but whether the slot was genuinely vacant for those months — which would be a ~3-month gap — has not been checked against the message record. It is  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - · **October 2013** — Trick or Trap: Molloween 2013 — Mix (undated share)  
@@ -100785,7 +101086,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2014-05-07** — Drake x Cashmere Cat – No Lie ft. 2 Chainz (SLOPPP Bootleg) — Bootleg  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **2014-05-13** — sloppp — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 32 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 26 pages
 - · **2014-05-14** — Heatwave Vol. 1** — "1 hour of tweriffik plurntastic tracks" — **Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
 - · **2014-05-22** — SLOPPP Trap Micromix — Mix  
@@ -101162,7 +101463,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **December 2015** — Vanessa's own 709-message thread, which begins in December 2015, never mentions it, which places the episode either before that date or outside the record entirely; no amount, duration, date, or resolution is recorded, and there is no indication anywhere of whether she knew, whether she was repaid…  
   ↳ [[wiki/people/vanessa-frank]] · The ATM card
 - · **December 2015** — zach clingan — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **December 2015** — Whatever it was delivering in December 2015, it had stopped delivering it before the third year, and the model kept running anyway.  
   ↳ [[wiki/mind/concepts/attachment-model]] · Model Narrative
 - · **December 2015** — SLOPPP's run to December 2015.  
@@ -102094,7 +102395,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **May 2017** — Twice Dan evidently weighed what he'd bought and found it light, and twice Vaughn retreated to the same defense: "What did it weight because he said it was 3.5… that's my best friend I got it from and I know he wouldn't do it on purpose" (May 2017), and "I swear I watched him weigh it" against a…  
   ↳ [[wiki/people/vaughn]] · The yard and the hustle, one channel
 - · **May 2017** — eric jester — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 32 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 26 pages
 - · **May 2017** — Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two Nemacolin caddying seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a fellow caddie in 2017 who came back for 2018 as **assistant caddie master** — "I'm actually gonna be assistant caddie…  
   ↳ [[wiki/people/davey-fitzpatrick]] · Davey Fitzpatrick
 - · **May 2017** — Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose message thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — sparse check-ins that resurface every year or two, each one picking back up exactly where the last left…  
@@ -104023,7 +104324,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **May 2024** — 2021–May 2024 on at least one other number (and *"Menore #1?"* implies more than one), but **no export exists for any handle but 3476070497**.  
   ↳ [[wiki/people/menore]] · Gaps & Uncertainties
 - · **2024-05-02** — 307 e 76th st — places  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 19 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 18 pages
 - · **2024-05-08** — She was doing it **on top of another job**: *"Now I'll be here 6 days a week and then Libby in mornings…: I don't want to get worked again and pass out like last time"* (2024-05-08).  
   ↳ [[wiki/people/annie-ulmer]] · 2024, and the year she was not unemployed
 - ★ **2024-05-09** — His father died on or around 2024-05-09** (*"Garrett's dad died"*).  
@@ -105411,7 +105712,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-06-23** — eclecticism — interests  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-01 — 2 pages
 - · **2026-06-23** — books — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 19 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 18 pages
 - · **2026-06-23** — 337 Saratoga closes at $465,000  
   ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **2026-06-23** — 337 saratoga drive — three separate eras — suzanne frank\ — Suz — she owns it — Deed and, eventually, a Chapter 13 docket — **all hers  
@@ -105477,7 +105778,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-07-13** — Whether Target G is the same person as Tuquick is explicitly unresolved — an operator correction on file (2026-07-13) confirms only that Tuquick is the person Annie left Dan for and the person the June closure happened with, and states plainly "we do not know" whether he is also Target G.  
   ↳ [[wiki/people/annie-ulmer]] · A separate thread: Target G
 - · **2026-07-13** — franki faris — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-07-13** — The page for Franki has carried a standing note since 2026-07-13 that the "July 4" framing used elsewhere in the corpus **had no source anywhere in the archive** and was flagged rather than adopted.  
   ↳ [[wiki/timeline/events/franki-fireworks-day-2013]] · The fireworks date the day, almost
 - · **2026-07-13** — Financial substrate (final dossiers, added 2026-07-13):** the terminal-phase dependency structure — Dan controlling the drug supply while Annie was unemployed and dependent — was the latest of three rotations, per the accepted amendments: Dan funded the early NYC years; Dan worked through the 2023…  
@@ -105495,7 +105796,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-14** — Dan does not hear or process sung lyrics as language in real time — he stated this directly (2026-07-14): words in a song register to him essentially as **timbre**, another textural element of the vocal performance, not as semantic content to be parsed and understood the way lyrics function for…  
   ↳ [[wiki/interests/music/concepts/lyrics-as-timbre]] · Lyrics as Timbre
 - · **2026-07-14** — vanessa frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 32 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 26 pages
 - · **2026-07-14** — au zaatar — work  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-07-14** — t009 — enumeration — hedged — partial — The tweet archive holds two pieces the list did not: the letter 'A' for Alexis, tattooed 23 January 2010 and eight years earlier than anything on the list, and a Morrissey piece dated by 24 October 2019.  
@@ -105561,15 +105862,15 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 17 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 26 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
   ↳ [[wiki/people/mike-cordaro]] · Texture
 - · **2026-07-20** — intake constancy — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 19 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 18 pages
 - · **2026-07-20** — youtube watch history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 19 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 18 pages
 - · **2026-07-20** — master timeline — timeline  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-15 — 3 pages
 - · **2026-07-20** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an  
@@ -105609,7 +105910,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-26** — jerel coles** — 3. **Does the "video proof / unconscious" accusation originate with him (2026-07-26, from her phone) or with her (2026-05-31, 23:54)?** Now answerable from logs already held — not yet run.  
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **2026-07-26** — hyperreflexivity — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 19 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 18 pages
 - · **2026-07-26** — The three known ones are 2026-07-26 05:39–05:57, 2026-08-16 23:42–23:53 and 2026-08-18 21:46–21:50.  
   ↳ [[wiki/mind/synthesis/read-receipt-forensics]] · RE-CHECKED [2026-08-20] — M4 gains its best real-world case, and the flagship example's scope was an artifact
 - · **2026-07-26** — Rape allegation, refused supply request, mutual suicidal statements, "whatever goodbye annie" (05:04)  
@@ -105731,7 +106032,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-02** — fran coldren — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-02** — big five psychometrics — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 19 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 18 pages
 - · **2026-08-02** — ~~**No audit has been run.**~~ **CLOSED 2026-08-02** — see the enumeration  
   ↳ [[wiki/mind/synthesis/instrument-is-subject]] · Gaps
 - · **2026-08-02** — What survived:** the propagation rule, the residue/testimony distinction, and the 2026-08-02 enumeration finding (ten pages reason from `mixed` premises without stating what they added).  
@@ -105755,7 +106056,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-02** — For context injection:** July 26 – August 2, 2026. 1,880 messages, 969 from Dan, 911 from Annie.  
   ↳ [[wiki/timeline/events/july-august-2026-reentanglement]] · LLM Quick Brief
 - ★ **2026-08-03** — 2015 possession arrest — legal  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - ★ **2026-08-03** — 2015 retail theft arrest — legal  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-22 — 4 pages
 - · **2026-08-07** — Sexual contact resumes, per operator testimony  
@@ -105815,7 +106116,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-08-10** — Jim's death is now dated.** A 2026-08-10 pass found the specific date: **October 2, 2019**, per a Dan message to a client explaining a possible booking conflict.  
   ↳ [[wiki/people/ellen-ulmer]] · The relationship
 - · **2026-08-10** — 90th st manhattan — places  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 19 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 18 pages
 - · **2026-08-10** — john paci — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-13 — 1 page
 - · **2026-08-10** — Its *status* is open — and, per an operator capture filed 2026-08-10, sexual contact resumed "the other night," breaking a stated six-month gap.  
@@ -106013,7 +106314,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-18** — 463 morgantown — legal  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 16 pages
 - · **2026-08-18** — the handed mirror — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 19 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 18 pages
 - · **2026-08-18** — 267 — 120 — 6.3 — the false send  
   ↳ [[wiki/mind/concepts/reassurance-architecture]] · The character ratio is a crisis thermometer, and it is the best one found
 - · **2026-08-18** — 4 — **Manufactured stimulus** — fabricate an event to force a reading  
@@ -106145,7 +106446,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-08-22** — The charging documents were real.** The summons surfaced 2026-08-22: a Fayette County summary non-traffic case, docket MJ-14101-NT-0000082-2018, **filed April 5, 2018 — the day after Fran died** — before Magisterial District Judge Michael M.  
   ↳ [[wiki/timeline/events/fran-death-vigil]] · Sequence
 - · **2026-08-22** — 155 virginia ave — places  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-22** — deviance mapping — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-22** — ally lubin — people  
@@ -106161,7 +106462,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
 - · **2026-08-23** — overview — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 32 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 26 pages
 - · **2026-08-23** — closing the set — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-23** — annie ulmer personality assessment — people  
@@ -106179,23 +106480,23 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-26** — Read against the two curated batches above (Axis A "pretty," Axis B "stupid"), the analyst profile, and the Battery, three structures repeat across all of them and are the actual finding of the 2026-08-26 session:  
   ↳ [[wiki/interests/language/vocabulary-lexicon]] · Full cross-cutting analysis
 - · **2026-08-26** — food and diet — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-26** — block unblock loop — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-26** — dan annie fallout verdict — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-26** — dormancy not exit — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-26** — fayette return — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-26** — instrument is subject — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-26** — read receipt forensics — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-26** — supply network — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-26** — suzanne frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-26** — chaos preference — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-26** — axioms — mind  
@@ -106227,39 +106528,39 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-08-28** — ~~No message corpus or dated record narrows the "Danielle ends, Alexis begins" sequence to specific weeks within the eighteen-month window; both transitions are established only at the level of "during Full Sail."~~ **CLOSED 2026-08-28** — see the GAP CLOSED block under [The relationship…  
   ↳ [[wiki/timeline/periods/full-sail-2008-2010]] · Gaps
 - ◆ **2026-08-28** — single channel — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — chemical architecture — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 17 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 26 pages
 - · **2026-08-28** — cocaine — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 4 pages
 - · **2026-08-28** — alias as periodization — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-28** — annual volume suz — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-28** — attachment trauma bond — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-28** — august grievance verdict — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-28** — estate money spine — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-28** — morgantown call three participant ethical analysis — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-28** — the commissioned self — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-28** — the deferred audit — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-28** — the embedded objective — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-28** — the rescue premise — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-28** — the unbroken bond — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-28** — totality themes — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-28** — suzanne frank personality assessment — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 32 pages
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`, and **bound by the standing Annie moratorium** (see `CLAUDE.md`).  
   ↳ [[wiki/mind/synthesis/august-grievance-verdict]] · The constitution pass
 - · **2026-08-28** — GAP CLOSED [2026-08-28] — the page had documented that Clingan became an enemy, but never why.** The 2014 "drug people" taxonomy and the December 2015 "my arch rival" outburst (below) both assume a rupture the corpus had never actually recorded.  
@@ -106313,11 +106614,13 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-09-02** — The git log read as a record of *operations* rather than saves  
   ↳ [[wiki/meta/instruments/index]] · The measures
 - · **2026-09-02** — 2020 left turn — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 17 pages
-- · **2026-09-02** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 17 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 26 pages
 - · **2026-09-02** — failure to launch — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 26 pages
+- · **2026-09-02** — alexis armel — people  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 26 pages
+- · **2026-09-02** — location history — self  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 26 pages
 - · **2026-09-02** — chatgpt — self  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-09-02** — He had no page here until 2026-09-02, and he is not named anywhere else in the corpus: no message thread, no Facebook exchange, no appearance on another person's page.  
@@ -106344,7 +106647,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 374 wiki pages. 1,021 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 374 wiki pages. 1,027 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================

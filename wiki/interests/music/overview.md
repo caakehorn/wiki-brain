@@ -3,7 +3,7 @@ domain: interests
 page_type: summary
 status: active
 date_created: 2026-06-22
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -44,6 +44,9 @@ connections:
   - page: wiki/self/twitter
     type: evidenced-by
     claim: "The public archive dates the production identity's public life exactly: 23.4% and 31.6% of originals in 2013-14, then nothing about his own music from 7 March 2016 to 4 March 2026 across 908 originals."
+  - page: wiki/self/twitter/2013
+    type: evidenced-by
+    claim: 'The SLOPPP operation in full: some thirty named releases between 13 August and 26 December 2013, free downloads tracklisted and timestamped, ~10k self-reported SoundCloud plays, a Numark NS7 bought on 10 November, and criticism solicited from one named peer. The project\'s start date is not datable from the twitter record because the archive source changes on 2013-08-17.'
 ---
 
 

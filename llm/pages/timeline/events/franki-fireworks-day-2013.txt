@@ -6,7 +6,7 @@ aliases: ["the franki fandango", "the fireworks day"]
 status: stable
 knowledge: mixed
 date_created: 2026-08-02
-date_modified: 2026-08-28
+date_modified: 2026-09-03
 date_range_start: 2013-07-01
 date_range_end: 2013-10-31
 sources:
@@ -44,6 +44,9 @@ connections:
   - page: wiki/timeline/periods/uniontown-return-2013-2015
     type: component-of
     claim: "This is the day the return period stops being a depressive interval and starts producing consequences: the Alexis relationship breaks, the DJ controller becomes an occupation, and the pattern Dan later calls 'Franki Faris 2.0' is established."
+  - page: wiki/self/twitter/2013
+    type: evidenced-by
+    claim: 'The public record bounds the break this event opens: single in his own words on 2013-08-09, eleven documented days with @katie_efff in late August, and Alexis named again on 2013-09-08 — the only interval in six years where the relationship is off, and it is filled immediately.'
 ---
 
 # The Franki Fireworks Day (early July 2013)
@@ -121,6 +124,32 @@ first girlfriend, and Alexis's *"former enemy"* — spend time together and bond
 over their shared grievance, *"and this caused a huge thing."* That is the
 maternal switchboard operating on the relational graph rather than the financial
 one, and it is the earliest documented instance of it.
+
+## How long the break actually lasted
+
+This page has never been able to say how long the rupture ran. The public
+record bounds it. `wiki/self/twitter/2013`:
+
+| Date | Post |
+|---|---|
+| 2013-08-09 | *"I guess I tweet more when I'm single?"* |
+| 2013-08-21 → 08-31 | eleven days of posts with `@katie_efff` — Blue Star Point Lookout, *"Mountain things"*, the Oddball Comedy Festival in Pittsburgh |
+| 2013-09-07 | *"My better 1/2."* / *"Mystery girl and everything's okay now"* |
+| 2013-09-08 | *"Alexis Armel and a doppelgänger mosquito"* — named again |
+| 2013-09-25 | *"If having a bad bitch was a crime I'd be arrested @alexisarmel"* |
+
+So: **six to eight weeks off, from the July detonation to the first week of
+September, with another person publicly documented inside it.** That makes this
+the only interval in the six years where the relationship is not running.
+
+Two features of it bear on what this page argues. The gap was **filled almost
+immediately** — Katie Fletcher appears within two weeks of the earliest
+single-status post. And the reconciliation is announced in the vocabulary of
+**relief rather than decision**: *"everything's okay now"*, not a statement
+that anything was resolved.
+
+The 7 September *"mystery girl"* is not identified. Both readings fit and the
+following day names Alexis; neither is asserted.
 
 ## The other two things that started that summer
 

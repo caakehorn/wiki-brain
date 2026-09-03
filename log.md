@@ -8634,3 +8634,63 @@ cohort tweet — *"People who need to come visit me: @danpolyak @EricJester
 @JoshBrannan @Woodguts"* — was written into Jester only and the other three
 should carry it. Polyak and Josh Brannan now do. Woodguts still has no page
 and remains unidentified in `BACKLOG.md`.
+
+## [2026-09-03] ingest | self | 2013 read in full — SLOPPP as an operation, a six-week gap in the six years, and a shape that is mostly the archive
+
+346 rows, and the most important sentence on the page is a warning rather than
+a finding.
+
+**The apparent explosion of music activity in mid-August is largely the archive
+changing.** 199 of 346 rows come from the operator spreadsheet, which is
+complete only from **2013-08-17**; everything before is a live scrape truncated
+to ten per month. The source boundary and the apparent subject-matter boundary
+are within a week of each other. **No claim about when SLOPPP started, or how
+fast it ramped, is supportable from this page** — and the earliest trace,
+2013-07-31, is already casual about the practice (*"checking latest mix"*), so
+the project is older than the record can date. Stated at the top of the page so
+that nobody reads the seam as behaviour. Second instance this session of the
+same class of error the `vocabulary-drift` skill covers, arriving through a
+different mechanism.
+
+**What the complete half does support is SLOPPP as an operation with
+infrastructure**: some thirty named releases between 13 August and 26 December,
+free downloads *"TRACKLISTED & TIMESTAMPED"* across SoundCloud, Mixcloud and
+8tracks, originals as well as mixes, ~7k plays on 10 November and *"almost to
+10k"* on 8 December, a Numark NS7 with motor platters bought on 10 November,
+the 808/909 history read on 23 September, and criticism solicited from one
+named peer — `@Yamez1`, *"listen to this for me? I wanna hear what you think I
+need to improve."* Alongside it, the same feed carries *"Wow I was/am a fucking
+HACK"* and a release hashtagged *"#overcompensating #poseur #fakefuture"*. The
+promotion and the verdict run in the same day, which is the on/off self-measure
+applied hourly to his own output.
+
+**The only interval in six years when the Alexis relationship is off, bounded.**
+`franki-fireworks-day-2013` dates the July rupture but never its length.
+Single in his own words on 2013-08-09; eleven documented days with
+`@katie_efff` in late August including the Pittsburgh Oddball festival; Alexis
+named again on 2013-09-08. **Six to eight weeks, with another person publicly
+inside it.** Two features written back: the gap is filled within two weeks, and
+the reconciliation is announced as relief (*"everything's okay now"*) rather
+than as a decision.
+
+**The location blind window is partially filled.** `location-history` records
+no address-level data between January 2011 and the 2014 Google export. From
+mid-August 2013 the tweets place him in Western PA repeatedly — Carnegie
+Mellon, Sheetz twice, Texas Roadhouse, Oddball in Pittsburgh, and Uniontown
+filmed on 27 September. Recorded as **presence, not tenancy**, and two years
+earlier than the return the wiki otherwise narrates.
+
+**The atheism turns on itself inside the year.** Militant in February (*"You
+have to make it clear to everyone, including your children, that there is no
+god"*) and on 2013-07-30 posting *"This is a great critique of neo-atheism"* —
+the movement's own term for itself. The belief does not change; the affiliation
+does. Same shape as every other departure in this corpus: he leaves the tribe,
+not the conclusion.
+
+**Also:** during the Boston bombing he mocks the conspiracy layer rather than
+working it, and reads *analysis* of social-media coverage six months after
+running the Sandy liveblog — the step between the practice and the theory. The
+shock-slur register peaks this year and is kept unsoftened, beside sustained
+non-ironic engagement with *Yeezus* and its racial argument in the same months;
+the page says plainly that this is one person, not two. And *"panic tax"*,
+posted alone on 20 January and again on 13 September, has no known referent.
