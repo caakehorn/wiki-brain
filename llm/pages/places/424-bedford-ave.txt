@@ -5,7 +5,7 @@ title: "424 Bedford Ave (NYC-1)"
 status: closed
 knowledge: mixed
 date_created: 2026-07-20
-date_modified: 2026-08-19
+date_modified: 2026-09-03
 date_range_start: 2010-04-01
 date_range_end: 2013-05-01
 sources:
@@ -50,6 +50,9 @@ connections:
   - page: wiki/people/alexis-armel
     type: contains
     claim: "She lived with Dan for the full two-year run of his first NYC apartment — the relationship's first sustained cohabitation and the setting of the 495-block chat archive that is the only daily record either of them left."
+  - page: wiki/self/twitter/2010
+    type: evidenced-by
+    claim: 'The 2010 Foursquare check-ins are a self-published location trail around this address — the deli at 313 Bedford, the Marcy Ave J/M/Z platform, the C-Town at South 1st and Havemeyer — corroborating the tenancy from outside the message record.'
 ---
 
 # 424 Bedford Ave (NYC-1)

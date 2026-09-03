@@ -22,10 +22,10 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 497 |
-| Pages touched in the last 14 days | 188 |
+| Pages touched in the last 14 days | 189 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
-| Live contradictions | 45 |
-| Open gaps | 509 |
+| Live contradictions | 46 |
+| Open gaps | 510 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -55,10 +55,11 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-03** — 9 pages
+**2026-09-03** — 13 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
+  - ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
 
-**2026-09-02** — 37 pages
+**2026-09-02** — 35 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result
@@ -84,7 +85,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 **2026-09-01** — 2 pages
 
-**2026-08-31** — 5 pages
+**2026-08-31** — 4 pages
   - ingest | health | the intake ledger's first export (2026-08-30/31)
   - ingest | health | the ledger gets an entry page
 

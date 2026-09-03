@@ -23,21 +23,25 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-03 — 9 pages
+## 2026-09-03 — 13 pages
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/health/chemical-architecture]] | health | _(carries a GAP CLOSED from 2026-08-28)_ |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a CONTRADICTION)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
 | [[wiki/meta/testimony-veracity]] | meta | — |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
 | [[wiki/people/alexis-armel]] | people | _(carries a CORRECTED from 2026-09-02)_ |
+| [[wiki/places/424-bedford-ave]] | places | — |
+| [[wiki/self/twitter/2008]] | self | **GAP CLOSED** — this section previously read *"the account's creation datetime was not retrievable"*, and gave 24 September 2008 as an inference from the earliest surviving tweet. Dan settled it himself in 2010, twic |
 | [[wiki/self/twitter/2009]] | self | **CONTRADICTION** — `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and `wiki/timeline/periods/full-sail-2008-2010` and `wiki/people/alexis-armel` both build on |
+| [[wiki/self/twitter/2010]] | self | **CONTRADICTION** — the anchor is misread. The 18 February train was the **return** leg, not the outbound one. On 17 February Dan is already in New York (*"off to Williamsburg"*), and on the 18th he is *"On the train bac |
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | **CONTRADICTION** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomo |
 
-## 2026-09-02 — 37 pages
+## 2026-09-02 — 35 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -58,8 +62,6 @@ simply listed.
 | [[wiki/self/location-history]] | self | **CONTRADICTION** — this bullet used to end "No contradiction." There is one, and it is in the Facebook profile itself. `places lived` says **Brooklyn from 3 January 2010**; the tweet archive has Dan in Florida through 2 |
 | [[wiki/self/tattoos]] | self | **CORRECTED** — this page previously read "**entirely** cultural reference … *every* known piece points at a specific record, band, or artist rather than a generic symbol," and dated the earliest well-documented piec |
 | [[wiki/self/twitter]] | self | _(carries a CONTRADICTION)_ |
-| [[wiki/self/twitter/2008]] | self | — |
-| [[wiki/self/twitter/2010]] | self | — |
 | [[wiki/self/twitter/2011]] | self | — |
 | [[wiki/self/twitter/2012]] | self | — |
 | [[wiki/self/twitter/2013]] | self | — |
@@ -86,11 +88,10 @@ simply listed.
 | [[wiki/interests/favorites/eclecticism]] | interests | **REVISED** — This page last moved on 2026-06-23. Twenty-one days later the music member was rewritten from a cluster inventory into a two-wave, three-cluster, eighteen-year continuity argument with a lyrics-as-tim |
 | [[wiki/timeline/index]] | timeline | — |
 
-## 2026-08-31 — 5 pages
+## 2026-08-31 — 4 pages
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/health/chemical-architecture]] | health | _(carries a GAP CLOSED from 2026-08-28)_ |
 | [[wiki/health/cocaine]] | health | _(carries a RE-CHECKED from 2026-08-28)_ |
 | [[wiki/health/index]] | health | — |
 | [[wiki/health/intake-ledger]] | health | — |
@@ -271,7 +272,7 @@ simply listed.
 | [[wiki/timeline/events/august-2026-morgantown-call-source-amendment]] | timeline | — |
 | [[wiki/timeline/events/august-2026-unmasking]] | timeline | — |
 
-## 2026-08-19 — 21 pages
+## 2026-08-19 — 20 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -290,7 +291,6 @@ simply listed.
 | [[wiki/mind/synthesis/interests-as-era-markers]] | mind | — |
 | [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
 | [[wiki/places/307-e-76th-st]] | places | **GAP CLOSED** — the Gaps note above records the monthly rent as not recovered. It is in the message dump twice, from Dan's own outbound. **2024-05-02:** *"I mean that's fine but the last lease we signed was 2450."* * |
-| [[wiki/places/424-bedford-ave]] | places | — |
 | [[wiki/places/90th-st-manhattan]] | places | _(carries a CORRECTED from 2026-08-10)_ |
 | [[wiki/self/concepts/claude]] | self | **CORRECTED** — An earlier version of this page reversed both attributions — it credited "Claude = to analyze stuff" to Tom and "It did really well with the Kristin chat logs. Better than GPT" to Dan, and dated the e |
 | [[wiki/self/concepts/claude-code]] | self | _(carries a RE-CHECKED)_ |

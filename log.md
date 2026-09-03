@@ -8446,3 +8446,64 @@ year here.
 
 `date_range_start` was also wrong: 2009-10-20 on a page whose first row is
 2009-01-07.
+
+## [2026-09-03] ingest | self | 2010 read in full — the corpus's most-cited date was computed from a train going the wrong way, and it survives anyway
+
+342 rows read. 2010 is the year the life starts: Pro Tools certification on
+26 January, *"Brooklyn here we come!!"* eleven minutes later, the first tattoo
+on the 23rd–24th, Florida left on 28 February, `dan@ishlab.com` on 24 March.
+
+**The finding is about 17 February 2010.** `wiki/health/chemical-architecture`
+has carried it as Suboxone "day-zero pinned" since it was written. Its origin
+is a Gemini session in which a *model* asserted that Dan and his father
+*"boarded an Amtrak train"* to Penn Station on 18 February, and Dan replied
+*"if the train left on feb 18 that means that the first day i began my
+successful suboxone streak was feb 17, 2010."* **The date was never recalled.
+It was computed — the day before a train.**
+
+**The anchor is wrong.** The 18 February train was the *return* leg: on the
+17th he is already in New York (*"off to Williamsburg"*, *"@alexisarmel welcome
+home"*), and on the 18th he is *"On the train back to PA."* So the arithmetic
+behind the corpus's most-cited date does not hold.
+
+**And the date survives, on evidence that has nothing to do with that
+arithmetic.** 17 February carries a same-day tweet at 15:07 New York time:
+*"this is the most stressful day/decision of my life. nothing is making it
+easier."* Then *"planning the next 3 years of my life all day in muh head"*
+(18th) and *"put my life on a treadmill. shape up or bust."* (20th). The
+obvious alternative referent is excluded — the Brooklyn move was settled on
+26 January and is celebrated either side of this day. He never names the
+decision, so it is a dated alignment and not a proof, and it is said that way
+on both pages. **t014, confirmed against a first-party record.**
+
+The point worth keeping is structural: a load-bearing claim changed what
+supports it without changing value, and nothing would have surfaced that. The
+next session would have re-derived the broken chain and got the right answer
+for the wrong reason.
+
+**The 2008 creation-date gap is closed.** That page said the creation datetime
+*"was not retrievable"*. Dan settled it in 2010 by posting two novelty-site
+counters: 699 days on 24 August, and *"the 23rd of September 2008 ... 807 days
+old"* on 9 December. The one-day spread is a timezone boundary and resolves to
+**23 September 2008 local** — the first surviving tweet is 04:52 UTC, i.e.
+00:52 on the 24th in New York.
+
+**Also written back:** the 28 February Florida departure is corroborated by
+*"peace out, florida. it's been real."* against a Gemini session that has him
+arriving in New York on the 18th; the 2010 Foursquare check-ins are a
+self-published location trail corroborating `424-bedford-ave` from outside the
+message record; and the indie and electronic vocabularies run **side by side**
+all year — Grizzly Bear and Arcade Fire in the same months as Diplo, Electric
+Zoo, Ableton warping and a published dubstep mix — so what the 2012–2014 likes
+migration dates is displacement, not onset.
+
+**One pattern recorded at n=2, deliberately weakly.** On 13 December he quits
+tobacco by moving to an e-cigarette — *"3 days after moving to an e cig, i'm
+(un) hooked"* — which is the second dependency in ten months addressed by
+replacing the delivery system and keeping the molecule. He connects them
+nowhere. Recorded because the corpus's account of how he handles compulsion
+currently rests on the opioid case alone.
+
+Same fetch artefact as 2009, stated in Gaps: February, April, May and June
+survive mainly as end-of-month clusters. 17 February sits inside a sparse
+stretch — three tweets survived that day and there may have been more.

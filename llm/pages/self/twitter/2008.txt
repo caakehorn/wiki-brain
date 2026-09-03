@@ -3,7 +3,7 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 knowledge: derived
 date_range_start: 2008-09-24
 date_range_end: 2008-12-31
@@ -25,6 +25,9 @@ connections:
   - page: wiki/timeline/periods/dark-era-2007-2008
     type: evidences
     claim: 'The account''s second tweet — "Really feels like life has started over now. It''s weird enjoying life again." — is Dan naming an exit from that period on the day the account begins.'
+  - page: wiki/self/twitter/2010
+    type: evidenced-by
+    claim: 'This page\'s stated gap — that the account creation date was not retrievable — is closed by two account-age counters Dan posted in 2010, the second naming 23 September 2008 outright.'
 ---
 
 # Twitter / X — 2008
@@ -78,14 +81,30 @@ that returned ten hits is truncated at ten: **October, November and December
 2008 are all incomplete.** Only 24 September is a strong candidate for a
 complete day, at six tweets.
 
-The account's creation datetime was **not** retrievable — the backend user
-lookup returned an id (`16430736`) but no `created_at`. Creation on 24
-September 2008 is an inference from three consistent facts: the earliest tweet
-retrieved, two queries before it returning nothing, and the
-`#MyTwitterAnniversary` tweet of 2022-09-24. It is not a recorded creation
-date, and should not be cited as one.
+> **GAP CLOSED [2026-09-03]:** this section previously read *"the account's
+> creation datetime was not retrievable"*, and gave 24 September 2008 as an
+> inference from the earliest surviving tweet. Dan settled it himself in 2010,
+> twice, by posting the output of two account-age novelty sites:
+>
+> | Date | Tweet | Implied creation |
+> |---|---|---|
+> | 2010-08-24 | *"I joined twitter 699 days ago"* | 2008-09-24 |
+> | 2010-12-09 | *"I joined Twitter on the 23rd of September 2008, making my account 807 days old"* | 2008-09-23 |
+>
+> The one-day spread is a timezone boundary, and it resolves in favour of the
+> **23rd, local time**: the earliest surviving tweet is 2008-09-24 04:52 UTC,
+> which is 00:52 on the 24th in New York — so an account opened on the evening
+> of the 23rd produces a first tweet dated the 24th in UTC, and the 2022
+> `#MyTwitterAnniversary` post on 24 September is consistent with either.
+> *"proud member of the 'twitter since 08 club'"* (2010-08-24) independently
+> rules out a later year. `wiki/self/twitter/2010`.
+>
+> The backend user lookup did return an id (`16430736`) and no `created_at`;
+> that is still true and is why the date had to come from elsewhere.
 
-A complete X account export would close both gaps.
+**The month-level shortfall is unchanged.** A complete X account export is
+still the only thing that would fill in the truncated October, November and
+December.
 
 This page is the text archive. Every original and every reply retrieved for
 the year is below, oldest first.

@@ -3,7 +3,7 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 knowledge: derived
 date_range_start: 2010-01-18
 date_range_end: 2010-12-31
@@ -31,11 +31,279 @@ connections:
   - page: wiki/self/tattoos
     type: evidences
     claim: 'Three tweets on the night of 23 January 2010 date Dan''s first tattoo, identify it as Alexis''s initial, and catch the plan moving from "monday" to "NOW!" in sixteen minutes.'
+  - page: wiki/health/chemical-architecture
+    type: evidences
+    claim: 'The Suboxone day-zero of 2010-02-17 carries a same-day tweet — "this is the most stressful day/decision of my life" — which is stronger evidence for the date than the derivation that produced it, and that derivation is broken: it computes the day from an 18 February train that the record shows running the other way.'
+  - page: wiki/self/twitter/2008
+    type: evidences
+    claim: 'Two contemporaneous account-age counters Dan posted himself — 699 days on 2010-08-24 and "the 23rd of September 2008 ... 807 days old" on 2010-12-09 — close that page''s stated gap about the creation date, and the one-day spread between them is a timezone artefact.'
+  - page: wiki/places/424-bedford-ave
+    type: evidences
+    claim: 'From March 2010 the feed publishes a first-party location trail — Foursquare check-ins at 313 Bedford Ave, Marcy Ave J/M/Z, the C-Town at South 1st and Havemeyer, Ako, Grimaldi\'s — clustering on the blocks around the apartment, which is rare in a corpus otherwise reconstructed from other people\'s messages.'
+  - page: wiki/interests/music/overview
+    type: evidences
+    claim: 'The indie and electronic vocabularies run side by side through 2010 rather than in sequence — Grizzly Bear and Arcade Fire in the same months as Diplo, Electric Zoo, Ableton warping and a published dubstep mix — so what the 2012-2014 likes migration dates is displacement, not onset.'
 ---
 
 # Twitter / X — 2010
 
-First full NYC winter after Full Sail. Alexis is in the replies (@alexisarmel), Steelers, skiing, Olbermann's blizzard, and the first theological one-liners ('do you really think if Jesus comes back he's going to want to see a fucking cross'). The spreadsheet does not cover this year; every tweet here is from the live scrape and the year is still being walked backward.
+**The year the life the rest of this wiki describes actually starts.** In
+fifty-three days Dan passes a Pro Tools certification exam, announces Brooklyn
+eleven minutes later, gets his first tattoo, leaves Florida for good, and moves
+into Williamsburg with Alexis. By March he has a New York studio job and a work
+email address. By December he is quitting tobacco, posting Galileo at his
+family, and complaining about the rent.
+
+It also contains — unlabelled, and almost certainly without meaning to — the
+single most consequential date in the corpus. The wiki records **17 February
+2010** as day zero of a Suboxone regimen that has run without a break ever
+since. There are three tweets on that date. The third one is *"this is the most
+stressful day/decision of my life."*
+
+## 17 February 2010, and a date that survives its own reasoning
+
+The day has three entries. At 13:32 UTC, *"off to Williamsburg."* At 16:44,
+*"@alexisarmel welcome home"* with a photo. Then at **20:07 UTC — 15:07 New
+York time**:
+
+> *"this is the most stressful day/decision of my life. nothing is making it
+> easier. ugh laying down for a little bit."*
+
+The next morning he is *"On the train back to PA... can't wait to get home and
+see babygirl"*, and posts *"smart has plans, stupid has stories."* Two days
+later: *"planning the next 3 years of my life all day in muh head"*, *"laying
+down because thats the only thing i cant mess up"*, and *"put my life on a
+treadmill. shape up or bust."*
+
+**What that decision was, he never says.** The obvious candidate is ruled out
+by the record: the Brooklyn move had been settled twenty-two days earlier, on
+26 January, and every mention of it before and after this day is unambiguously
+good news — *"Brooklyn here we come!!"*, *"moving to brooklyn in 9 days.
+out-fucking-standing."* Nobody calls a decision already made and celebrated the
+most stressful of their life three weeks later. What remains is a decision he
+was unwilling to name in public, taken on the exact day the wiki dates the
+start of sixteen years of opioid maintenance, in the same week his own account
+describes as the last of active use.
+
+**This is stated as a dated alignment, not as a proof, and the reason to be
+strict about that is that the date's existing provenance turns out to be
+unsound.** `wiki/health/chemical-architecture` carries 17 February 2010 as
+"day-zero pinned". Its origin is `raw/self/dox-scan/Gemini-_58.txt`: a model,
+reading email logs, told Dan that *"on Thursday, February 18, you and your dad
+boarded an Amtrak train... bound for Penn Station"*, and Dan replied:
+
+> *"NO no - if the train left on feb 18 that means that the first day i began
+> my successful suboxone streak was feb 17, 2010."*
+
+So the date is not remembered. It is **computed** — the day before a train —
+and the anchor is a model's reconstruction rather than his own recall.
+
+> **CONTRADICTION [2026-09-03]:** the anchor is misread. The 18 February train
+> was the **return** leg, not the outbound one. On 17 February Dan is already
+> in New York (*"off to Williamsburg"*), and on the 18th he is *"On the train
+> back to PA."* The apartment hunt the Gemini session places on that trip
+> matches 17 February, not the 18th. The derivation "the train left on the
+> 18th, so day zero was the 17th" therefore rests on a leg pointing the wrong
+> way, and **the arithmetic that produced the wiki's most-cited date does not
+> hold.**
+>
+> The date itself survives anyway, on better evidence than the reasoning that
+> produced it: 17 February is the day carrying *"the most stressful
+> day/decision of my life"*, contemporaneously, in his own words, at a moment
+> when nothing else in his life was going badly. **The conclusion is unchanged
+> and its support is now different, which is worth recording precisely because
+> a claim that changes footing without anybody noticing is the kind this
+> corpus is built to catch.**
+
+Two smaller corrections fall out of the same passage. The Gemini session states
+that the February trip *"coincided with your graduation from Full Sail"* —
+a third date for an event the wiki elsewhere puts in August 2009 and this
+corpus puts no earlier than late December 2009 (`wiki/self/twitter/2009`). And
+it has him arriving in New York to stay on 18 February, when the record has him
+leaving Orlando on **28 February** (*"peace out, florida. it's been real."*),
+which is the date `wiki/timeline/periods/full-sail-2008-2010` already gives.
+That page's Florida-departure date is now corroborated by a same-day tweet.
+
+## Fifty-three days: certification to Brooklyn
+
+The move is documented to the hour and its trigger is a credential, not a plan.
+On **25 January**: *"ughhhhhhhhhhh missed my 210m by 3 questions."* On the
+**26th**, *"oh me oh my, going to take my 210m"*, then *"EAT UR HEART OUT BITCH
+IM PRO TOOLS CERTIFIED"*, and eleven minutes after that, *"Brooklyn here we
+come!!"* He had been saying *"can't wait to get to NYC ughhhhhhh"* since the
+23rd; the exam is what converted the wish into a plan, and he undercuts it the
+same day — *"it's sort of ironic how i finish my pro tools certifications and
+go directly to Logic."*
+
+Then: 20 February, *"moving to brooklyn in 9 days"*; 25 February, a *"welcome
+to BK mix"* made for Alexis, *"ft. ODB, GZA, BIG, jigga, vampy wknd, grizbear
+& TVotr"*; 27 February, *"last day in errrlando...spending it how I always
+imagined: hangin in a u-haul store"*; 28 February, *"peace out, florida."*
+
+## The first job, and the first work email
+
+On **24 March**: *"has a broken foot and a new work email address. big day.
+update your contacts: dan@ishlab.com."* That is the corpus's dated start for
+the Ishlab period, and the year fills in what the job actually was — *"at
+work/////"* on a weekday, *"2 more hours and my weekend begins"*, a colleague's
+freestyle he could not return (*"i might have made it 2 bars in. urbanfail"*,
+19 October), three days of *"tag analysis"* that he hated (*"all i want is to
+listen to a whole song. instead, i get a million 10 sec clips"*, 15 October),
+*"reggaeton monday @ ishlab"*, *"boss leaves for tour tomorrow"*, and
+*"watching 'the week in rap' filming at the studio. i hate everything"*
+(9 December).
+
+The tone is worth keeping: this is the music-industry job he moved to a city
+for, and within nine months he is describing it as tagging ten-second clips
+and hating everything. On **21 December** — *"Y U NO PAY ME ?"*
+
+## The account publishes its own geography
+
+From late March the feed fills with Foursquare check-ins, and they amount to a
+**first-party, self-published location record** for a period the corpus
+otherwise reconstructs: Brooklyn Gourmet Deli at 313 Bedford Ave, the Marcy Ave
+J/M/Z platform, the J train at Flushing St, Brooklyn Bridge Park, Walgreens at
+Union and Meserole, the C-Town at South 1st and Havemeyer, Grimaldi's, Ako on
+Bedford, Peter Luger, and Electric Zoo on Randall's Island. He unlocked the
+Foursquare "Adventurer" and "Swarm" badges in the same year.
+
+This is a rare thing in the corpus and should be treated as such: a dated,
+addressed, voluntarily published trail, from someone whose later record is
+mostly reconstructed from other people's messages. It corroborates
+`wiki/places/424-bedford-ave` from the outside — the check-ins cluster on the
+blocks around it — and it is the reason the 2010 geography is better evidenced
+than the 2013 geography, despite 2013 having more tweets.
+
+## Two musical migrations, running at the same time
+
+The year is usually read as the indie year, and it is: Grizzly Bear, Vampire
+Weekend (*"vampy weekend did 124k?! hooooly shit"*), TV on the Radio, Yeasayer,
+Animal Collective, Beach House, Titus Andronicus, Arcade Fire's *The Suburbs*
+(*"oh my gaawd"*, 31 July), Radiohead (*"i cant decide between OKC or KIDA"*).
+
+But the electronic material is already running beside it, not after it: Diplo
+at R Bar in March and again at Electric Zoo in September (*"@diplo slayed
+electric zoo. what was the track you finished with?"*), Die Antwoord's Ninja
+spotted in the street, HARD NYC, A-Trak, Duck Sauce, Crystal Castles, Steve
+Aoki, and on **27 March** *"learning to warp in ableton"* — a specific
+production technique, named. By **14 September** he is publishing output:
+*"here's a super quick dubstep mix I did the other day."*
+
+So the guitar-to-bass migration that `wiki/mind/synthesis/millennial-digital-witness`
+locates in the 2012–2014 likes data is **already underway in 2010**, with both
+vocabularies live in the same months. What the likes data may be dating is when
+one displaced the other, not when the second one started.
+
+## The atheism goes public, and it goes public in Pennsylvania
+
+`CONTEXT_CORE_EXPANDED` dates aggressive atheism to 2007. 2010 is where it
+first appears in his public writing, and the timing is not random — it clusters
+on trips home. **26 November**, from Carmichaels the day after Thanksgiving
+dinner, he posts a Galileo quotation about a God who *"endowed us with sense,
+reason, and intellect"* and cannot have *"intended us to forgo their use."* On
+**25 December**: *"christmas...we should nail whoever invented this shit to a
+fucking cross."* On **27 December**: *"The most dominant idol for christianity
+is the cross, do you really think if Jesus comes back he's going to want to see
+a fucking cross?!?!"*
+
+Underneath it the same year runs a quieter intellectual diet in the same
+direction — the *Skeptics' Guide to the Universe* podcast (26 October), Dan
+Gilbert on synthetic happiness (27 September), and on **19 December**,
+unprompted, *"we're all tiny, ignorant, insignificant bits of carbon."*
+
+The pattern is worth naming because it recurs: the ideological statements are
+made **at** the household, from inside it, during obligatory visits. On
+24 November, arriving: *"objective for the week- avoid any/all hometowners."*
+
+## 13 December: a dependency solved by changing the delivery system
+
+> *"3 days after moving to an e cig, i'm (un) hooked. today is day 1 with no
+> tobacco. technology is fuggin ~crazy~"*
+
+Then *"25 hours tobacco free. i should have done this years ago :("* on the
+14th, and on the 15th *"man, so I can like...taste stuff now. crazy life
+stuff."*
+
+Taken alone this is a dated smoking-cessation event, and `ADDICTION_PROFILE`
+lists nicotine as one of the three standing chemical dependencies. Taken
+alongside the rest of the year it is the **second** dependency in ten months
+addressed the same way: not by stopping the molecule but by **replacing the
+delivery system with a controlled one and keeping the molecule**. That is what
+a maintenance dose is, and it is what an e-cigarette is.
+
+The honest limit on that observation: he says nothing connecting the two, the
+February decision is unnamed, and one structural rhyme between two events is a
+pattern with n=2. It is recorded here because the corpus's account of how Dan
+handles compulsion is currently built on the opioid case alone, and a second
+instance — trivial, cheerful, ten months later, in an entirely different
+substance — is the sort of thing that either replicates later or does not.
+
+## The body takes damage twice
+
+**24 March**: *"has a broken foot."* **27 October**: *"broken wrist AND
+hiccups?! I'd say today was a smashing success"*, with the cause given the next
+day as a *"vintage 12 speed."* Two fractures in seven months, both apparently
+from riding a bicycle across Brooklyn in all weather — *"tried to be hardcore
+and bike through the rain. now i get 8 hours in soaked jeans"* (25 August). The
+broken foot and the new job land on the same day and he files them as one item.
+
+## The account's own age, settled
+
+`wiki/self/twitter/2008` says the creation date *"was not retrievable"* and
+that 24 September 2008 is an inference from the earliest surviving tweet. 2010
+closes that gap with two contemporaneous third-party counters he posted
+himself:
+
+| Date | Tweet | Implied creation |
+|---|---|---|
+| 2010-08-24 | *"I joined twitter 699 days ago"* (`whendidyoujointwitter.com`) | 2008-09-24 |
+| 2010-12-09 | *"I joined Twitter on the 23rd of September 2008, making my account 807 days old"* (`twuration.com`) | 2008-09-23 |
+
+The second names the date outright. The one-day gap between them is what a
+timezone boundary looks like, and it resolves cleanly: the first surviving
+tweet is 2008-09-24 04:52 UTC, which is **00:52 on 24 September in New York** —
+so an account created on the evening of the 23rd local time produces a first
+tweet dated the 24th in UTC, and 2022's `#MyTwitterAnniversary` post on
+24 September is consistent with either. **The best-supported reading is
+23 September 2008, local time**, with 24 September being the UTC-side artefact.
+He also posted *"proud member of the 'twitter since 08 club'"* on 24 August
+2010, which independently rules out any later year.
+
+## The relationship, in public and under attack
+
+Alexis is in the replies constantly and the register is unguarded — *"u make me
+feel like luckiest dude evar. i love youuu (from 2 feet away on the couch)"*
+(22 January), *"i only feel okay when you're around"* (23 January), *"things
+are perfect<3 i've never really meant that before"* (30 January), *"amazing
+what a difference one person can make in your life. i've never felt this happy
+and motivated before. it's always been you"* (26 February), and by late April
+the hashtag *#marriedlife*. The tattoo — her initial, his first — is on
+23–24 January, sixteen minutes from *"getting my 'a' tattoo on monday"* to
+*"scratch that going to get it NOW!"*
+
+On **22 March** something breaks the surface:
+
+> *"i think it's pathetic how badly everyone wants to see us react. just
+> because your life is miserable, doesn't mean we can't be happy."*
+> *"also- this life is full of the fucking win, if you found what i have...you
+> wouldn't give it up either."*
+
+He does not say who "everyone" is. It is the year's only defensive post about
+the relationship and it is addressed to an audience that was evidently
+watching. Worth carrying forward: the relationship is contested from outside
+within four months of the move, five years before it ends.
+
+## What would change this reading
+
+If a pharmacy or clinic record surfaces with a Suboxone induction date other
+than 17 February 2010, the alignment above collapses into a coincidence and the
+February decision needs a different referent — the record would then contain a
+"most stressful decision of my life" with nothing attached to it, which is
+itself worth knowing. If Ishlab employment records give a start date before
+24 March, the work-email tweet is a change of address rather than a first day.
+And if the missing months of 2010 arrive from a complete export, everything
+here about *when* in the year something clusters is provisional: this page,
+like 2009, is a fetch and not a census.
 
 ## Coverage
 
@@ -48,11 +316,27 @@ First full NYC winter after Full Sail. Alexis is in the replies (@alexisarmel), 
 
 ## Gaps
 
-The operator spreadsheet begins 2013-08-17. 2010 is being walked from live X search in batches of ten; this page currently holds 342 originals and will be appended as further batches land. Do not treat the present count as the year's total.
+The operator spreadsheet begins 2013-08-17, so none of this year comes from it.
+All 342 rows are from the live X walk, taken in batches of ten, and the page
+will be appended as further batches land. Do not treat the present count as the
+year's total.
+
+**The same cap that distorts 2009 distorts the first half of this year, and
+less visibly.** The walk was month-bounded and capped at ten results per query,
+so February, April, May and June survive mainly as end-of-month clusters —
+26 February to 28 February, 26 to 30 April, 28 to 31 May, 20 to 30 June — while
+March, September, October and December run day to day. **No claim about posting
+volume, cadence, or a subject going quiet is supportable from the shape of this
+page.** Presence is evidence; absence is not.
+
+One consequence worth stating plainly: the year's most important date,
+17 February, sits inside a sparse stretch. Three tweets survive from that day
+and there may have been more. Nothing on this page should be read as "he said
+little about it" — only as "little of what he said was retrieved."
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
-## January
+## The record
 
 ### 2010-01-18 19:44:43 UTC · [7915729976](https://x.com/danfrank/status/7915729976)
 *likes 0 · replies 0 · reposts 0*

@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-03
-497 pages, ~1,761,999 tokens.
+497 pages, ~1,768,121 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -18,7 +18,7 @@ aliases: ["substance stack", "the chemical triad"]
 status: active
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-08-31
+date_modified: 2026-09-03
 sources:
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -74,6 +74,9 @@ connections:
   - page: wiki/timeline/events/robotussin-s-last-dance
     type: contains
     claim: "DXM is the first documented substance in the corpus that Dan took deliberately to 'shatter the space-time continuum' — a word-for-word prefiguration of the engineered-stack framing he adopts a decade later, and the first instance of recreational use preceding the opiate arc by two years."
+  - page: wiki/self/twitter/2010
+    type: evidenced-by
+    claim: 'The 2010-02-17 day-zero is independently supported by a same-day tweet at 15:07 New York time — "this is the most stressful day/decision of my life. nothing is making it easier." — on a day when the Brooklyn move, decided and celebrated three weeks earlier, cannot be the referent. The derivation the date originally rested on is separately shown to be unsound.'
 ---
 
 # Chemical Architecture
@@ -126,6 +129,36 @@ stabilization at Full Sail's end — Suboxone day-zero February 17, 2010.
 Sixteen unbroken years followed on the maintenance dose itself: no relapse
 back to full opiate use, and no recovery-program participation anywhere in
 the record.
+
+> **The day-zero date changed footing on 2026-09-03, and the conclusion did
+> not move.** This page has cited 17 February 2010 as "day-zero pinned" since
+> it was written. Its actual origin is `raw/self/dox-scan/Gemini-_58.txt`,
+> where a model told Dan that he and his father *"boarded an Amtrak train"* to
+> Penn Station on Thursday 18 February, and Dan replied: *"NO no - if the train
+> left on feb 18 that means that the first day i began my successful suboxone
+> streak was feb 17, 2010."* **The date was computed, not recalled** — the day
+> before a train — and the anchor came from a model reading email logs.
+>
+> **That anchor is wrong.** `wiki/self/twitter/2010` shows the 18 February
+> train running the other way: on the 17th he is already in New York (*"off to
+> Williamsburg"*) and on the 18th he is *"On the train back to PA."* The
+> arithmetic behind the corpus's most-cited date does not hold.
+>
+> **The date survives on better evidence than the reasoning that produced it.**
+> 17 February 2010 carries a contemporaneous tweet at 15:07 New York time —
+> *"this is the most stressful day/decision of my life. nothing is making it
+> easier."* — followed within seventy-two hours by *"planning the next 3 years
+> of my life all day in muh head"* and *"put my life on a treadmill. shape up
+> or bust."* The obvious alternative referent is excluded: the Brooklyn move
+> had been decided and celebrated on 26 January and is described as good news
+> either side of this day. He never names the decision, so this remains a dated
+> alignment rather than a proof — but it is first-party, same-day, and
+> independent of the derivation it replaces.
+>
+> Recorded because a claim that quietly changes what supports it is exactly
+> what this corpus exists to catch, and because the next session would
+> otherwise re-derive the broken chain and reach the same answer for the wrong
+> reason.
 
 > **GAP CLOSED [2026-08-28] — the final pre-stabilization episode has a
 > name.** This page has always stated the February 17, 2010 day-zero without
@@ -10190,10 +10223,10 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 497 |
-| Pages touched in the last 14 days | 188 |
+| Pages touched in the last 14 days | 189 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
-| Live contradictions | 45 |
-| Open gaps | 509 |
+| Live contradictions | 46 |
+| Open gaps | 510 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -10223,10 +10256,11 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-03** — 9 pages
+**2026-09-03** — 13 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
+  - ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
 
-**2026-09-02** — 37 pages
+**2026-09-02** — 35 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result
@@ -10252,7 +10286,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 **2026-09-01** — 2 pages
 
-**2026-08-31** — 5 pages
+**2026-08-31** — 4 pages
   - ingest | health | the intake ledger's first export (2026-08-30/31)
   - ingest | health | the ledger gets an entry page
 
@@ -10985,8 +11019,8 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 45 |
-| Open gaps | 509 |
+| Live contradictions | 46 |
+| Open gaps | 510 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
 
@@ -11046,6 +11080,7 @@ somewhere and has not yet found out where.
 - **[[wiki/self/facebook]]** — This paragraph used to say *every* field cross-checks. One does not. `places lived` gives **Brooklyn NYC from January 3, 2010**. The tweet archive has Dan in Florida for another eight weeks: *"moving to brooklyn in 9 days"* on 20 February 2010, *"last day in errrlando…hangin in a u-haul store"* on the 27th, *"peace out
 - **[[wiki/self/twitter]]** — the archive and facebook disagree about when Dan moved to Brooklyn. Facebook's `places lived` field says 3 January 2010. On 20 February 2010 he tweeted *"moving to brooklyn in 9 days"*, and on the 28th *"peace out, florida."* Both records are his own; one is timestamped by the platform and one was typed into a profile 
 - **[[wiki/self/twitter/2009]]** — `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and `wiki/timeline/periods/full-sail-2008-2010` and `wiki/people/alexis-armel` both build on that date. The contemporaneous public record contradicts it in two independent places: a "last month of college" beginn
+- **[[wiki/self/twitter/2010]]** — the anchor is misread. The 18 February train was the **return** leg, not the outbound one. On 17 February Dan is already in New York (*"off to Williamsburg"*), and on the 18th he is *"On the train back to PA."* The apartment hunt the Gemini session places on that trip matches 17 February, not the 18th. The derivation "
 - **[[wiki/timeline/events/august-2026-morgantown-call]]** — Dan states he sent the audio to Annie's parents (three times, Aug 19 01:04–01:48) and states that he did not (twice, Aug 19 11:25 and 15:12), and the corpus contains a proven false claim of exactly this kind from the day before. No email, no bounce, no reply, and no third-party reaction appears anywhere in `raw/`. **Th
 - **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — the operator's account says Annie *"contacted her independently without me knowing and invited her back over."* The 22:56 `Shelbie Breakiron.vcf` attachment, sent by Dan to Annie, is hard to reconcile with that. The likeliest reading is that the memory compresses a night in which he supplied the means and did not expec
 - **[[wiki/timeline/events/teen-concert-years]]** — The Facebook "Concerts I've gone to" note dates HIM to **2005-11-09 at Mr. Small's**; the researched list places the Love Metal Tour at **2004-04-21, The Rock Club at Station Square**, with a separate November 2004 return. The note dates Taking Back Sunday / Angels & Airwaves to **2006-07-04 in Columbus**; the research
@@ -11501,7 +11536,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/places/the-unpapered-address]]** — **The pre-2010 record is empty.** Full Sail housing (2008–2010) and everything before it are undocumented, so the rule is tested on sixteen years and not on a life. If the Florida period shows a conventional student lease, the pattern has a start date and the 
 - **[[wiki/places/the-unpapered-address]]** — **This page does not establish intent.** Whether the unpapered arrangements were preferred, accepted, or simply the only ones available at a $11,000–14,000 household income is not decidable from this material, and the three readings have very different implica
 
-### self (64)
+### self (65)
 
 - **[[wiki/self/ancestry]]** — 1. **The Harris paternal line.** Sadie Harris's father ("Harris" from Czechoslovakia) is the single biggest data gap. He contributed ~12.5% of Dan's DNA but is completely undocumented beyond a single datum. Research into Czech immigration records, census data,
 - **[[wiki/self/ancestry]]** — 2. **The maternal R0 haplogroup.** The origin of the R0 mitochondrial haplogroup on the maternal line is unexplained. It may indicate a distant Jewish, Middle Eastern, or Central Asian ancestor entering through the Van Voorhis, Conwell, or Thomas lines. Resear
@@ -11550,14 +11585,15 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/tattoos]]** — The gravestone piece now has an artist and location (Ian Weidrick, Allied Tattoo, Brooklyn) but still no date or corroborating message-corpus trace. Body placement is unknown for every piece on this list; the corpus documents *what* and often *when* and *who d
 - **[[wiki/self/twitter]]** — 2009 through 2012, January–mid-August 2013, and some 2026 days between the spreadsheet end and the live scrape are still being walked from X in batches of ten. Each incomplete yearly page states that on its face. The spreadsheet span 2013-08-17 through 2026-04
 - **[[wiki/self/twitter/2008]]** — **This page is a lower bound, and the shortfall is structural.** The fetch that produced it was search-based and capped at ten results per query. Every month that returned ten hits is truncated at ten: **October, November and December 2008 are all incomplete.*
-- **[[wiki/self/twitter/2008]]** — The account's creation datetime was **not** retrievable — the backend user lookup returned an id (`16430736`) but no `created_at`. Creation on 24 September 2008 is an inference from three consistent facts: the earliest tweet retrieved, two queries before it re
-- **[[wiki/self/twitter/2008]]** — A complete X account export would close both gaps.
+- **[[wiki/self/twitter/2008]]** — **The month-level shortfall is unchanged.** A complete X account export is still the only thing that would fill in the truncated October, November and December.
 - **[[wiki/self/twitter/2008]]** — This page is the text archive. Every original and every reply retrieved for the year is below, oldest first.
 - **[[wiki/self/twitter/2009]]** — The operator spreadsheet begins 2013-08-17, so none of this year comes from it. The 283 rows here have two origins: 165 walked from live X search in batches of ten, and 118 recovered by the 2026-09-02 backend fetch that also produced the 2008 page. Do not trea
 - **[[wiki/self/twitter/2009]]** — **The distribution of this page is an artefact of how it was fetched, and it will mislead anyone who reads it as behaviour.** Both retrieval methods were capped at ten results per query, and the queries were month-bounded. The consequence is visible on the pag
 - **[[wiki/self/twitter/2009]]** — **What follows for anyone using this page:** no claim about posting frequency, volume, cadence, or a subject going quiet is supportable for January–September 2009, and none should be made. Presence is evidence here; absence is not. A complete X account export 
 - **[[wiki/self/twitter/2009]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
-- **[[wiki/self/twitter/2010]]** — The operator spreadsheet begins 2013-08-17. 2010 is being walked from live X search in batches of ten; this page currently holds 342 originals and will be appended as further batches land. Do not treat the present count as the year's total.
+- **[[wiki/self/twitter/2010]]** — The operator spreadsheet begins 2013-08-17, so none of this year comes from it. All 342 rows are from the live X walk, taken in batches of ten, and the page will be appended as further batches land. Do not treat the present count as the year's total.
+- **[[wiki/self/twitter/2010]]** — **The same cap that distorts 2009 distorts the first half of this year, and less visibly.** The walk was month-bounded and capped at ten results per query, so February, April, May and June survive mainly as end-of-month clusters — 26 February to 28 February, 2
+- **[[wiki/self/twitter/2010]]** — One consequence worth stating plainly: the year's most important date, 17 February, sits inside a sparse stretch. Three tweets survive from that day and there may have been more. Nothing on this page should be read as "he said little about it" — only as "littl
 - **[[wiki/self/twitter/2010]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 - **[[wiki/self/twitter/2011]]** — The operator spreadsheet begins 2013-08-17. 2011 is being walked from live X search in batches of ten; this page currently holds 225 originals and will be appended as further batches land. Do not treat the present count as the year's total.
 - **[[wiki/self/twitter/2011]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
@@ -11779,10 +11815,10 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 
 **major** — 41 outstanding
 
+- [[wiki/self/twitter/2010]] (11448 words)
 - [[wiki/self/twitter/2024]] (10376 words)
 - [[wiki/self/twitter/2009]] (9344 words)
 - [[wiki/self/twitter/2013]] (9108 words)
-- [[wiki/self/twitter/2010]] (8865 words)
 - [[wiki/self/twitter/2022]] (6677 words)
 
 **free** — 39 outstanding
@@ -11827,21 +11863,25 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-03 — 9 pages
+## 2026-09-03 — 13 pages
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/health/chemical-architecture]] | health | _(carries a GAP CLOSED from 2026-08-28)_ |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a CONTRADICTION)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
 | [[wiki/meta/testimony-veracity]] | meta | — |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
 | [[wiki/people/alexis-armel]] | people | _(carries a CORRECTED from 2026-09-02)_ |
+| [[wiki/places/424-bedford-ave]] | places | — |
+| [[wiki/self/twitter/2008]] | self | **GAP CLOSED** — this section previously read *"the account's creation datetime was not retrievable"*, and gave 24 September 2008 as an inference from the earliest surviving tweet. Dan settled it himself in 2010, twic |
 | [[wiki/self/twitter/2009]] | self | **CONTRADICTION** — `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and `wiki/timeline/periods/full-sail-2008-2010` and `wiki/people/alexis-armel` both build on |
+| [[wiki/self/twitter/2010]] | self | **CONTRADICTION** — the anchor is misread. The 18 February train was the **return** leg, not the outbound one. On 17 February Dan is already in New York (*"off to Williamsburg"*), and on the 18th he is *"On the train bac |
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | **CONTRADICTION** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomo |
 
-## 2026-09-02 — 37 pages
+## 2026-09-02 — 35 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11862,8 +11902,6 @@ simply listed.
 | [[wiki/self/location-history]] | self | **CONTRADICTION** — this bullet used to end "No contradiction." There is one, and it is in the Facebook profile itself. `places lived` says **Brooklyn from 3 January 2010**; the tweet archive has Dan in Florida through 2 |
 | [[wiki/self/tattoos]] | self | **CORRECTED** — this page previously read "**entirely** cultural reference … *every* known piece points at a specific record, band, or artist rather than a generic symbol," and dated the earliest well-documented piec |
 | [[wiki/self/twitter]] | self | _(carries a CONTRADICTION)_ |
-| [[wiki/self/twitter/2008]] | self | — |
-| [[wiki/self/twitter/2010]] | self | — |
 | [[wiki/self/twitter/2011]] | self | — |
 | [[wiki/self/twitter/2012]] | self | — |
 | [[wiki/self/twitter/2013]] | self | — |
@@ -11890,11 +11928,10 @@ simply listed.
 | [[wiki/interests/favorites/eclecticism]] | interests | **REVISED** — This page last moved on 2026-06-23. Twenty-one days later the music member was rewritten from a cluster inventory into a two-wave, three-cluster, eighteen-year continuity argument with a lyrics-as-tim |
 | [[wiki/timeline/index]] | timeline | — |
 
-## 2026-08-31 — 5 pages
+## 2026-08-31 — 4 pages
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/health/chemical-architecture]] | health | _(carries a GAP CLOSED from 2026-08-28)_ |
 | [[wiki/health/cocaine]] | health | _(carries a RE-CHECKED from 2026-08-28)_ |
 | [[wiki/health/index]] | health | — |
 | [[wiki/health/intake-ledger]] | health | — |
@@ -12075,7 +12112,7 @@ simply listed.
 | [[wiki/timeline/events/august-2026-morgantown-call-source-amendment]] | timeline | — |
 | [[wiki/timeline/events/august-2026-unmasking]] | timeline | — |
 
-## 2026-08-19 — 21 pages
+## 2026-08-19 — 20 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -12094,7 +12131,6 @@ simply listed.
 | [[wiki/mind/synthesis/interests-as-era-markers]] | mind | — |
 | [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
 | [[wiki/places/307-e-76th-st]] | places | **GAP CLOSED** — the Gaps note above records the monthly rent as not recovered. It is in the message dump twice, from Dan's own outbound. **2024-05-02:** *"I mean that's fine but the last lease we signed was 2450."* * |
-| [[wiki/places/424-bedford-ave]] | places | — |
 | [[wiki/places/90th-st-manhattan]] | places | _(carries a CORRECTED from 2026-08-10)_ |
 | [[wiki/self/concepts/claude]] | self | **CORRECTED** — An earlier version of this page reversed both attributions — it credited "Claude = to analyze stuff" to Tom and "It did really well with the Kristin chat logs. Better than GPT" to Dan, and dated the e |
 | [[wiki/self/concepts/claude-code]] | self | _(carries a RE-CHECKED)_ |
@@ -12439,7 +12475,7 @@ chart:
         "hedged": 0.60
     - name: "What it turned out to be worth"
       points:
-        "certain": 0.00
+        "certain": 0.33
         "confident": 0.75
         "hedged": 0.75
 sources:
@@ -12461,17 +12497,17 @@ A single trust score would collapse two facts that behave differently. **Veracit
 
 | | value | n |
 |---|---|---:|
-| **Veracity** | **49 / 100** — -0.5 points on 20.5 weight | 7 |
-| **Calibration** | Brier 0.337, skill -0.35 vs a coin flip | 7 |
-| **Stated vs actual** | -0.25 | 7 |
+| **Veracity** | **58 / 100** — +4.0 points on 25.0 weight | 8 |
+| **Calibration** | Brier 0.295, skill -0.18 vs a coin flip | 8 |
+| **Stated vs actual** | -0.21 | 8 |
 
-Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 7 settled claims, not thousands.
+Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 8 settled claims, not thousands.
 
 ## What his confidence is actually worth
 
 | band | he states | it is worth | gap | n |
 |---|---:|---:|---:|---:|
-| certain | 0.95 | 0.00 | -0.95 | 2 |
+| certain | 0.95 | 0.33 | -0.62 | 3 |
 | confident | 0.80 | 0.75 | -0.05 | 3 |
 | hedged | 0.60 | 0.75 | +0.15 | 2 |
 
@@ -12479,7 +12515,7 @@ Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refut
 
 | outcome | n | meaning |
 |---|---:|---|
-| confirmed | 3 | independent evidence bears it out |
+| confirmed | 4 | independent evidence bears it out |
 | partial | 1 | the core holds, a material detail does not |
 | self_contradicted | 1 | he has given two accounts that cannot both be true |
 | refuted | 2 | independent evidence contradicts it |
@@ -12487,17 +12523,17 @@ Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refut
 
 ## By claim class
 
-Rates are shrunk toward the global 0.54 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
+Rates are shrunk toward the global 0.59 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
 
 | class | n | raw | shrunk | 95% CI on clean confirmations | dominant failure |
 |---|---:|---:|---:|---|---|
-| date | 3 | 0.33 | 0.43 | 6%–79% | displacement, rounding |
-| location | 2 | 0.12 | 0.37 | 0%–66% | displacement, rounding |
-| duration | 1 | 1.00 | 0.65 | 21%–100% | — |
-| enumeration | 1 | 0.50 | 0.53 | 0%–79% | omission |
-| existence | 1 | 1.00 | 0.65 | 21%–100% | — |
-| quantity | 1 | 1.00 | 0.65 | 21%–100% | — |
-| sequence | 1 | 1.00 | 0.65 | 21%–100% | — |
+| date | 4 | 0.50 | 0.54 | 15%–85% | displacement, rounding |
+| location | 2 | 0.12 | 0.41 | 0%–66% | displacement, rounding |
+| duration | 1 | 1.00 | 0.70 | 21%–100% | — |
+| enumeration | 1 | 0.50 | 0.57 | 0%–79% | omission |
+| existence | 1 | 1.00 | 0.70 | 21%–100% | — |
+| quantity | 1 | 1.00 | 0.70 | 21%–100% | — |
+| sequence | 1 | 1.00 | 0.70 | 21%–100% | — |
 
 ## Which way the errors run
 
@@ -12505,7 +12541,7 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 
 | slant | n |
 |---|---:|
-| neutral — the error carries no credit or discredit either way | 4 |
+| neutral — the error carries no credit or discredit either way | 5 |
 
 ## The record
 
@@ -12524,6 +12560,7 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 | t011 | Four unconscious axioms are load-bearing in his cognition: not exceptional = worthless, not vigilant = annihilated, love that does not cost everything is not real, and time = countdown | self_state | certain | unfalsifiable | Tested lexically against all 106,629 outbound messages 2015-2025 with 110,944 inbound from 503 handles as a within-medium control. On every explicit urgency construction but one he writes LESS than his controls. This does not falsify the axiom — SMS is a near-zero-introspection medium for everybody in it — but it establishes that the message corpus cannot corroborate it. |
 | t012 | He met Alexis Armel on a Thanksgiving 2009 trip home, spent two nights with her, and about a week or two later she came to Orlando on a one-way ticket he bought | date, sequence, duration | confident | confirmed | The tweet archive puts him in PA 25-30 Nov 2009 ('cookies, water, beer, wine, and her.' on the 29th; 'watching the game with someone special' and 'I miss her already' on the 30th, 'her' unnamed), then the first @alexisarmel tweet on 14 Dec from Orlando -- 'you amaze me. can't believe you're real' alongside 'dan in love' -- about two and a half weeks later. 'i have the most amaaaazing girlfriend' on 16 Dec. The account carried the relationship publicly for a fortnight before it carried her name. |
 | t013 | Dan graduated Full Sail (AS Recording Arts) in August 2009. | date | certain | refuted | wiki/self/twitter/2009 — 2009-08-31 'so weirded out i start my last month of college tomorrow'; 2009-11-30 'pro tools lab'; 2009-12-14 'aced my practical without headphones'; 2009-12-15 'in class....'; 2009-12-19 'taking aws final with it' |
+| t014 | Dan's continuous Suboxone regimen began on 17 February 2010. | date | certain | confirmed | wiki/self/twitter/2010 — 2010-02-17 20:07 UTC (15:07 New York): 'this is the most stressful day/decision of my life. nothing is making it easier.' Followed by 'planning the next 3 years of my life all day in muh head' (2010-02-18) and 'put my life on a treadmill. shape up or bust.' (2010-02-20). The obvious alternative referent is excluded: the Brooklyn move was decided on 2010-01-26 and described as good news either side of this day. LIMIT: he never names the decision, so this is a dated alignment on an independent same-day artifact rather than a clinical record. It is recorded as confirmed because the date he gave held up against evidence he did not write for the record and could not have been shaping. |
 
 ## What this ledger cannot see
 
@@ -64473,7 +64510,7 @@ title: "424 Bedford Ave (NYC-1)"
 status: closed
 knowledge: mixed
 date_created: 2026-07-20
-date_modified: 2026-08-19
+date_modified: 2026-09-03
 date_range_start: 2010-04-01
 date_range_end: 2013-05-01
 sources:
@@ -64518,6 +64555,9 @@ connections:
   - page: wiki/people/alexis-armel
     type: contains
     claim: "She lived with Dan for the full two-year run of his first NYC apartment — the relationship's first sustained cohabitation and the setting of the 495-block chat archive that is the only daily record either of them left."
+  - page: wiki/self/twitter/2010
+    type: evidenced-by
+    claim: 'The 2010 Foursquare check-ins are a self-published location trail around this address — the deli at 313 Bedford, the Marcy Ave J/M/Z platform, the C-Town at South 1st and Havemeyer — corroborating the tenancy from outside the message record.'
 ---
 
 # 424 Bedford Ave (NYC-1)
@@ -72076,7 +72116,7 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 knowledge: derived
 date_range_start: 2008-09-24
 date_range_end: 2008-12-31
@@ -72098,6 +72138,9 @@ connections:
   - page: wiki/timeline/periods/dark-era-2007-2008
     type: evidences
     claim: 'The account''s second tweet — "Really feels like life has started over now. It''s weird enjoying life again." — is Dan naming an exit from that period on the day the account begins.'
+  - page: wiki/self/twitter/2010
+    type: evidenced-by
+    claim: 'This page\'s stated gap — that the account creation date was not retrievable — is closed by two account-age counters Dan posted in 2010, the second naming 23 September 2008 outright.'
 ---
 
 # Twitter / X — 2008
@@ -72151,14 +72194,30 @@ that returned ten hits is truncated at ten: **October, November and December
 2008 are all incomplete.** Only 24 September is a strong candidate for a
 complete day, at six tweets.
 
-The account's creation datetime was **not** retrievable — the backend user
-lookup returned an id (`16430736`) but no `created_at`. Creation on 24
-September 2008 is an inference from three consistent facts: the earliest tweet
-retrieved, two queries before it returning nothing, and the
-`#MyTwitterAnniversary` tweet of 2022-09-24. It is not a recorded creation
-date, and should not be cited as one.
+> **GAP CLOSED [2026-09-03]:** this section previously read *"the account's
+> creation datetime was not retrievable"*, and gave 24 September 2008 as an
+> inference from the earliest surviving tweet. Dan settled it himself in 2010,
+> twice, by posting the output of two account-age novelty sites:
+>
+> | Date | Tweet | Implied creation |
+> |---|---|---|
+> | 2010-08-24 | *"I joined twitter 699 days ago"* | 2008-09-24 |
+> | 2010-12-09 | *"I joined Twitter on the 23rd of September 2008, making my account 807 days old"* | 2008-09-23 |
+>
+> The one-day spread is a timezone boundary, and it resolves in favour of the
+> **23rd, local time**: the earliest surviving tweet is 2008-09-24 04:52 UTC,
+> which is 00:52 on the 24th in New York — so an account opened on the evening
+> of the 23rd produces a first tweet dated the 24th in UTC, and the 2022
+> `#MyTwitterAnniversary` post on 24 September is consistent with either.
+> *"proud member of the 'twitter since 08 club'"* (2010-08-24) independently
+> rules out a later year. `wiki/self/twitter/2010`.
+>
+> The backend user lookup did return an id (`16430736`) and no `created_at`;
+> that is still true and is why the date had to come from elsewhere.
 
-A complete X account export would close both gaps.
+**The month-level shortfall is unchanged.** A complete X account export is
+still the only thing that would fill in the truncated October, November and
+December.
 
 This page is the text archive. Every original and every reply retrieved for
 the year is below, oldest first.
@@ -74744,7 +74803,7 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
+date_modified: 2026-09-03
 knowledge: derived
 date_range_start: 2010-01-18
 date_range_end: 2010-12-31
@@ -74772,11 +74831,279 @@ connections:
   - page: wiki/self/tattoos
     type: evidences
     claim: 'Three tweets on the night of 23 January 2010 date Dan''s first tattoo, identify it as Alexis''s initial, and catch the plan moving from "monday" to "NOW!" in sixteen minutes.'
+  - page: wiki/health/chemical-architecture
+    type: evidences
+    claim: 'The Suboxone day-zero of 2010-02-17 carries a same-day tweet — "this is the most stressful day/decision of my life" — which is stronger evidence for the date than the derivation that produced it, and that derivation is broken: it computes the day from an 18 February train that the record shows running the other way.'
+  - page: wiki/self/twitter/2008
+    type: evidences
+    claim: 'Two contemporaneous account-age counters Dan posted himself — 699 days on 2010-08-24 and "the 23rd of September 2008 ... 807 days old" on 2010-12-09 — close that page''s stated gap about the creation date, and the one-day spread between them is a timezone artefact.'
+  - page: wiki/places/424-bedford-ave
+    type: evidences
+    claim: 'From March 2010 the feed publishes a first-party location trail — Foursquare check-ins at 313 Bedford Ave, Marcy Ave J/M/Z, the C-Town at South 1st and Havemeyer, Ako, Grimaldi\'s — clustering on the blocks around the apartment, which is rare in a corpus otherwise reconstructed from other people\'s messages.'
+  - page: wiki/interests/music/overview
+    type: evidences
+    claim: 'The indie and electronic vocabularies run side by side through 2010 rather than in sequence — Grizzly Bear and Arcade Fire in the same months as Diplo, Electric Zoo, Ableton warping and a published dubstep mix — so what the 2012-2014 likes migration dates is displacement, not onset.'
 ---
 
 # Twitter / X — 2010
 
-First full NYC winter after Full Sail. Alexis is in the replies (@alexisarmel), Steelers, skiing, Olbermann's blizzard, and the first theological one-liners ('do you really think if Jesus comes back he's going to want to see a fucking cross'). The spreadsheet does not cover this year; every tweet here is from the live scrape and the year is still being walked backward.
+**The year the life the rest of this wiki describes actually starts.** In
+fifty-three days Dan passes a Pro Tools certification exam, announces Brooklyn
+eleven minutes later, gets his first tattoo, leaves Florida for good, and moves
+into Williamsburg with Alexis. By March he has a New York studio job and a work
+email address. By December he is quitting tobacco, posting Galileo at his
+family, and complaining about the rent.
+
+It also contains — unlabelled, and almost certainly without meaning to — the
+single most consequential date in the corpus. The wiki records **17 February
+2010** as day zero of a Suboxone regimen that has run without a break ever
+since. There are three tweets on that date. The third one is *"this is the most
+stressful day/decision of my life."*
+
+## 17 February 2010, and a date that survives its own reasoning
+
+The day has three entries. At 13:32 UTC, *"off to Williamsburg."* At 16:44,
+*"@alexisarmel welcome home"* with a photo. Then at **20:07 UTC — 15:07 New
+York time**:
+
+> *"this is the most stressful day/decision of my life. nothing is making it
+> easier. ugh laying down for a little bit."*
+
+The next morning he is *"On the train back to PA... can't wait to get home and
+see babygirl"*, and posts *"smart has plans, stupid has stories."* Two days
+later: *"planning the next 3 years of my life all day in muh head"*, *"laying
+down because thats the only thing i cant mess up"*, and *"put my life on a
+treadmill. shape up or bust."*
+
+**What that decision was, he never says.** The obvious candidate is ruled out
+by the record: the Brooklyn move had been settled twenty-two days earlier, on
+26 January, and every mention of it before and after this day is unambiguously
+good news — *"Brooklyn here we come!!"*, *"moving to brooklyn in 9 days.
+out-fucking-standing."* Nobody calls a decision already made and celebrated the
+most stressful of their life three weeks later. What remains is a decision he
+was unwilling to name in public, taken on the exact day the wiki dates the
+start of sixteen years of opioid maintenance, in the same week his own account
+describes as the last of active use.
+
+**This is stated as a dated alignment, not as a proof, and the reason to be
+strict about that is that the date's existing provenance turns out to be
+unsound.** `wiki/health/chemical-architecture` carries 17 February 2010 as
+"day-zero pinned". Its origin is `raw/self/dox-scan/Gemini-_58.txt`: a model,
+reading email logs, told Dan that *"on Thursday, February 18, you and your dad
+boarded an Amtrak train... bound for Penn Station"*, and Dan replied:
+
+> *"NO no - if the train left on feb 18 that means that the first day i began
+> my successful suboxone streak was feb 17, 2010."*
+
+So the date is not remembered. It is **computed** — the day before a train —
+and the anchor is a model's reconstruction rather than his own recall.
+
+> **CONTRADICTION [2026-09-03]:** the anchor is misread. The 18 February train
+> was the **return** leg, not the outbound one. On 17 February Dan is already
+> in New York (*"off to Williamsburg"*), and on the 18th he is *"On the train
+> back to PA."* The apartment hunt the Gemini session places on that trip
+> matches 17 February, not the 18th. The derivation "the train left on the
+> 18th, so day zero was the 17th" therefore rests on a leg pointing the wrong
+> way, and **the arithmetic that produced the wiki's most-cited date does not
+> hold.**
+>
+> The date itself survives anyway, on better evidence than the reasoning that
+> produced it: 17 February is the day carrying *"the most stressful
+> day/decision of my life"*, contemporaneously, in his own words, at a moment
+> when nothing else in his life was going badly. **The conclusion is unchanged
+> and its support is now different, which is worth recording precisely because
+> a claim that changes footing without anybody noticing is the kind this
+> corpus is built to catch.**
+
+Two smaller corrections fall out of the same passage. The Gemini session states
+that the February trip *"coincided with your graduation from Full Sail"* —
+a third date for an event the wiki elsewhere puts in August 2009 and this
+corpus puts no earlier than late December 2009 (`wiki/self/twitter/2009`). And
+it has him arriving in New York to stay on 18 February, when the record has him
+leaving Orlando on **28 February** (*"peace out, florida. it's been real."*),
+which is the date `wiki/timeline/periods/full-sail-2008-2010` already gives.
+That page's Florida-departure date is now corroborated by a same-day tweet.
+
+## Fifty-three days: certification to Brooklyn
+
+The move is documented to the hour and its trigger is a credential, not a plan.
+On **25 January**: *"ughhhhhhhhhhh missed my 210m by 3 questions."* On the
+**26th**, *"oh me oh my, going to take my 210m"*, then *"EAT UR HEART OUT BITCH
+IM PRO TOOLS CERTIFIED"*, and eleven minutes after that, *"Brooklyn here we
+come!!"* He had been saying *"can't wait to get to NYC ughhhhhhh"* since the
+23rd; the exam is what converted the wish into a plan, and he undercuts it the
+same day — *"it's sort of ironic how i finish my pro tools certifications and
+go directly to Logic."*
+
+Then: 20 February, *"moving to brooklyn in 9 days"*; 25 February, a *"welcome
+to BK mix"* made for Alexis, *"ft. ODB, GZA, BIG, jigga, vampy wknd, grizbear
+& TVotr"*; 27 February, *"last day in errrlando...spending it how I always
+imagined: hangin in a u-haul store"*; 28 February, *"peace out, florida."*
+
+## The first job, and the first work email
+
+On **24 March**: *"has a broken foot and a new work email address. big day.
+update your contacts: dan@ishlab.com."* That is the corpus's dated start for
+the Ishlab period, and the year fills in what the job actually was — *"at
+work/////"* on a weekday, *"2 more hours and my weekend begins"*, a colleague's
+freestyle he could not return (*"i might have made it 2 bars in. urbanfail"*,
+19 October), three days of *"tag analysis"* that he hated (*"all i want is to
+listen to a whole song. instead, i get a million 10 sec clips"*, 15 October),
+*"reggaeton monday @ ishlab"*, *"boss leaves for tour tomorrow"*, and
+*"watching 'the week in rap' filming at the studio. i hate everything"*
+(9 December).
+
+The tone is worth keeping: this is the music-industry job he moved to a city
+for, and within nine months he is describing it as tagging ten-second clips
+and hating everything. On **21 December** — *"Y U NO PAY ME ?"*
+
+## The account publishes its own geography
+
+From late March the feed fills with Foursquare check-ins, and they amount to a
+**first-party, self-published location record** for a period the corpus
+otherwise reconstructs: Brooklyn Gourmet Deli at 313 Bedford Ave, the Marcy Ave
+J/M/Z platform, the J train at Flushing St, Brooklyn Bridge Park, Walgreens at
+Union and Meserole, the C-Town at South 1st and Havemeyer, Grimaldi's, Ako on
+Bedford, Peter Luger, and Electric Zoo on Randall's Island. He unlocked the
+Foursquare "Adventurer" and "Swarm" badges in the same year.
+
+This is a rare thing in the corpus and should be treated as such: a dated,
+addressed, voluntarily published trail, from someone whose later record is
+mostly reconstructed from other people's messages. It corroborates
+`wiki/places/424-bedford-ave` from the outside — the check-ins cluster on the
+blocks around it — and it is the reason the 2010 geography is better evidenced
+than the 2013 geography, despite 2013 having more tweets.
+
+## Two musical migrations, running at the same time
+
+The year is usually read as the indie year, and it is: Grizzly Bear, Vampire
+Weekend (*"vampy weekend did 124k?! hooooly shit"*), TV on the Radio, Yeasayer,
+Animal Collective, Beach House, Titus Andronicus, Arcade Fire's *The Suburbs*
+(*"oh my gaawd"*, 31 July), Radiohead (*"i cant decide between OKC or KIDA"*).
+
+But the electronic material is already running beside it, not after it: Diplo
+at R Bar in March and again at Electric Zoo in September (*"@diplo slayed
+electric zoo. what was the track you finished with?"*), Die Antwoord's Ninja
+spotted in the street, HARD NYC, A-Trak, Duck Sauce, Crystal Castles, Steve
+Aoki, and on **27 March** *"learning to warp in ableton"* — a specific
+production technique, named. By **14 September** he is publishing output:
+*"here's a super quick dubstep mix I did the other day."*
+
+So the guitar-to-bass migration that `wiki/mind/synthesis/millennial-digital-witness`
+locates in the 2012–2014 likes data is **already underway in 2010**, with both
+vocabularies live in the same months. What the likes data may be dating is when
+one displaced the other, not when the second one started.
+
+## The atheism goes public, and it goes public in Pennsylvania
+
+`CONTEXT_CORE_EXPANDED` dates aggressive atheism to 2007. 2010 is where it
+first appears in his public writing, and the timing is not random — it clusters
+on trips home. **26 November**, from Carmichaels the day after Thanksgiving
+dinner, he posts a Galileo quotation about a God who *"endowed us with sense,
+reason, and intellect"* and cannot have *"intended us to forgo their use."* On
+**25 December**: *"christmas...we should nail whoever invented this shit to a
+fucking cross."* On **27 December**: *"The most dominant idol for christianity
+is the cross, do you really think if Jesus comes back he's going to want to see
+a fucking cross?!?!"*
+
+Underneath it the same year runs a quieter intellectual diet in the same
+direction — the *Skeptics' Guide to the Universe* podcast (26 October), Dan
+Gilbert on synthetic happiness (27 September), and on **19 December**,
+unprompted, *"we're all tiny, ignorant, insignificant bits of carbon."*
+
+The pattern is worth naming because it recurs: the ideological statements are
+made **at** the household, from inside it, during obligatory visits. On
+24 November, arriving: *"objective for the week- avoid any/all hometowners."*
+
+## 13 December: a dependency solved by changing the delivery system
+
+> *"3 days after moving to an e cig, i'm (un) hooked. today is day 1 with no
+> tobacco. technology is fuggin ~crazy~"*
+
+Then *"25 hours tobacco free. i should have done this years ago :("* on the
+14th, and on the 15th *"man, so I can like...taste stuff now. crazy life
+stuff."*
+
+Taken alone this is a dated smoking-cessation event, and `ADDICTION_PROFILE`
+lists nicotine as one of the three standing chemical dependencies. Taken
+alongside the rest of the year it is the **second** dependency in ten months
+addressed the same way: not by stopping the molecule but by **replacing the
+delivery system with a controlled one and keeping the molecule**. That is what
+a maintenance dose is, and it is what an e-cigarette is.
+
+The honest limit on that observation: he says nothing connecting the two, the
+February decision is unnamed, and one structural rhyme between two events is a
+pattern with n=2. It is recorded here because the corpus's account of how Dan
+handles compulsion is currently built on the opioid case alone, and a second
+instance — trivial, cheerful, ten months later, in an entirely different
+substance — is the sort of thing that either replicates later or does not.
+
+## The body takes damage twice
+
+**24 March**: *"has a broken foot."* **27 October**: *"broken wrist AND
+hiccups?! I'd say today was a smashing success"*, with the cause given the next
+day as a *"vintage 12 speed."* Two fractures in seven months, both apparently
+from riding a bicycle across Brooklyn in all weather — *"tried to be hardcore
+and bike through the rain. now i get 8 hours in soaked jeans"* (25 August). The
+broken foot and the new job land on the same day and he files them as one item.
+
+## The account's own age, settled
+
+`wiki/self/twitter/2008` says the creation date *"was not retrievable"* and
+that 24 September 2008 is an inference from the earliest surviving tweet. 2010
+closes that gap with two contemporaneous third-party counters he posted
+himself:
+
+| Date | Tweet | Implied creation |
+|---|---|---|
+| 2010-08-24 | *"I joined twitter 699 days ago"* (`whendidyoujointwitter.com`) | 2008-09-24 |
+| 2010-12-09 | *"I joined Twitter on the 23rd of September 2008, making my account 807 days old"* (`twuration.com`) | 2008-09-23 |
+
+The second names the date outright. The one-day gap between them is what a
+timezone boundary looks like, and it resolves cleanly: the first surviving
+tweet is 2008-09-24 04:52 UTC, which is **00:52 on 24 September in New York** —
+so an account created on the evening of the 23rd local time produces a first
+tweet dated the 24th in UTC, and 2022's `#MyTwitterAnniversary` post on
+24 September is consistent with either. **The best-supported reading is
+23 September 2008, local time**, with 24 September being the UTC-side artefact.
+He also posted *"proud member of the 'twitter since 08 club'"* on 24 August
+2010, which independently rules out any later year.
+
+## The relationship, in public and under attack
+
+Alexis is in the replies constantly and the register is unguarded — *"u make me
+feel like luckiest dude evar. i love youuu (from 2 feet away on the couch)"*
+(22 January), *"i only feel okay when you're around"* (23 January), *"things
+are perfect<3 i've never really meant that before"* (30 January), *"amazing
+what a difference one person can make in your life. i've never felt this happy
+and motivated before. it's always been you"* (26 February), and by late April
+the hashtag *#marriedlife*. The tattoo — her initial, his first — is on
+23–24 January, sixteen minutes from *"getting my 'a' tattoo on monday"* to
+*"scratch that going to get it NOW!"*
+
+On **22 March** something breaks the surface:
+
+> *"i think it's pathetic how badly everyone wants to see us react. just
+> because your life is miserable, doesn't mean we can't be happy."*
+> *"also- this life is full of the fucking win, if you found what i have...you
+> wouldn't give it up either."*
+
+He does not say who "everyone" is. It is the year's only defensive post about
+the relationship and it is addressed to an audience that was evidently
+watching. Worth carrying forward: the relationship is contested from outside
+within four months of the move, five years before it ends.
+
+## What would change this reading
+
+If a pharmacy or clinic record surfaces with a Suboxone induction date other
+than 17 February 2010, the alignment above collapses into a coincidence and the
+February decision needs a different referent — the record would then contain a
+"most stressful decision of my life" with nothing attached to it, which is
+itself worth knowing. If Ishlab employment records give a start date before
+24 March, the work-email tweet is a change of address rather than a first day.
+And if the missing months of 2010 arrive from a complete export, everything
+here about *when* in the year something clusters is provisional: this page,
+like 2009, is a fetch and not a census.
 
 ## Coverage
 
@@ -74789,11 +75116,27 @@ First full NYC winter after Full Sail. Alexis is in the replies (@alexisarmel), 
 
 ## Gaps
 
-The operator spreadsheet begins 2013-08-17. 2010 is being walked from live X search in batches of ten; this page currently holds 342 originals and will be appended as further batches land. Do not treat the present count as the year's total.
+The operator spreadsheet begins 2013-08-17, so none of this year comes from it.
+All 342 rows are from the live X walk, taken in batches of ten, and the page
+will be appended as further batches land. Do not treat the present count as the
+year's total.
+
+**The same cap that distorts 2009 distorts the first half of this year, and
+less visibly.** The walk was month-bounded and capped at ten results per query,
+so February, April, May and June survive mainly as end-of-month clusters —
+26 February to 28 February, 26 to 30 April, 28 to 31 May, 20 to 30 June — while
+March, September, October and December run day to day. **No claim about posting
+volume, cadence, or a subject going quiet is supportable from the shape of this
+page.** Presence is evidence; absence is not.
+
+One consequence worth stating plainly: the year's most important date,
+17 February, sits inside a sparse stretch. Three tweets survive from that day
+and there may have been more. Nothing on this page should be read as "he said
+little about it" — only as "little of what he said was retrieved."
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
-## January
+## The record
 
 ### 2010-01-18 19:44:43 UTC · [7915729976](https://x.com/danfrank/status/7915729976)
 *likes 0 · replies 0 · reposts 0*
@@ -98144,7 +98487,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,446 events** across **80 years** (1796–2027), drawn from **371 pages**. Tier 1 685 · Tier 2 418 · Tier 3 2,343.
+**3,452 events** across **80 years** (1796–2027), drawn from **372 pages**. Tier 1 685 · Tier 2 418 · Tier 3 2,349.
 
 ## What counts as an event here
 
@@ -99012,20 +99355,20 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
 - · **September 2008** — Danielle ends, Alexis begins  
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
+- · **2008-09-23** — The best-supported reading is 23 September 2008, local time**, with 24 September being the UTC-side artefact.  
+  ↳ [[wiki/self/twitter/2010]] · The account's own age, settled
 - ◆ **2008-09-24** — It is written to nobody.** The account has no followers on 24 September 2008 — it is being started that day.  
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The period's exit, in his own words, on the day it happened
 - · **2008-09-24** — The public record. Carries its own coverage share on every engagement figure, and excludes 125 truncated rows from length figures  
   ↳ [[wiki/meta/instruments/index]] · The measures
-- · **2008-09-24** — 2008** — The account's creation datetime was **not** retrievable — the backend user lookup returned an id (`16430736`) but no `created_at`. Creation on 24 September 2008 is an inference from three consistent facts: the earliest tweet retrieved, two queries before it re  
-  ↳ [[wiki/meta/open-questions]] · self (64)
 - · **2008-09-24** — The record now begins **24 September 2008** — the day Dan arrived in Winter Park for Full Sail — after a backend fetch on 2026-09-02 recovered 213 tweets the archive had never reached.  
   ↳ [[wiki/self/twitter]] · Twitter / X Activity (@danfrank)
 - · **2008-09-24** — The 24 September 2008 date is an inference from three consistent facts — the earliest tweet retrieved, two queries before it returning nothing, and the `#MyTwitterAnniversary` post of 2022-09-24 — and it should be cited as an inference.  
   ↳ [[wiki/self/twitter]] · The backfill of 2026-09-02, and what it settled
 - · **2008-09-24** — The account opens on **24 September 2008** with *"i fucking looove winter park. this town is unreal."* Winter Park is where Full Sail is.  
   ↳ [[wiki/self/twitter/2008]] · Twitter / X — 2008
-- · **2008-09-24** — Creation on 24 September 2008 is an inference from three consistent facts: the earliest tweet retrieved, two queries before it returning nothing, and the `#MyTwitterAnniversary` tweet of 2022-09-24.  
-  ↳ [[wiki/self/twitter/2008]] · Gaps
+- · **2008-09-24** — The one-day gap between them is what a timezone boundary looks like, and it resolves cleanly: the first surviving tweet is 2008-09-24 04:52 UTC, which is **00:52 on 24 September in New York** — so an account created on the evening of the 23rd local time produces a first tweet dated the 24th in UTC…  
+  ↳ [[wiki/self/twitter/2010]] · The account's own age, settled
 - ◆ **2008-10-18** — Multi-act show — House of Blues — Orlando, FL — Resolved. Joint fall 2008 package.  
   ↳ [[wiki/interests/favorites/music/artists/all-time-low]] · Live appearances
 - · **2008-10-18** — 28 — All Time Low, Mayday Parade, The Maine, Every Avenue — House of Blues — Orlando, FL — Resolved. Joint fall 2008 package.  
@@ -99082,7 +99425,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **August 2009** — full sail 2008 2010** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomorrow"*, which puts the final month in September. And across November and…  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **August 2009** — full sail 2008 2010 — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 9 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 13 pages
 - · **August 2009** — t013 — date — certain — refuted  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2009-08-31** — On **31 August 2009** he writes *"so weirded out i start my last month of college tomorrow. having multiple reality checks."* — which places the final month in **September**, not August.  
@@ -99159,9 +99502,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2010-01-03** — one is timestamped by the platform and one was typed into a profile  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **2010-01-03** — facebook — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 37 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 35 pages
 - · **2010-01-03** — location history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 37 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 35 pages
 - · **2010-01-03** — t002 — date, location — certain — refuted — The tweet archive has him in Florida for another eight weeks: 'moving to brooklyn in 9 days' (20 Feb 2010), 'last day in errrlando' (27th), 'peace out, florida. it's been real.' (28th)  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2010-01-03** — Places lived  
@@ -99204,6 +99547,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/health/the-configured-body]] · Mode one: specification
 - · **2010-02-17** — the one regime never interrupted  
   ↳ [[wiki/health/the-configured-body]] · Mode one: specification
+- · **2010-02-17** — t014 — date — certain — confirmed  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2010-02-17** — Suboxone streak "MOMENT" start.  
   ↳ [[wiki/self/chats/gemini-58]] · Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)
 - · **2010-02-17** — Suboxone daily since Feb 17 2010, zero relapse; no alcohol 13–15 yrs.  
@@ -99212,6 +99557,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/overview]] · The arc
 - · **2010-02-17** — What it does **not** record is the thing that arrives seven weeks after the final tweet: Suboxone, 17 February 2010. 2009 is the year immediately upstream of that, written from inside it by somebody who did not know it was coming.  
   ↳ [[wiki/self/twitter/2009]] · Twitter / X — 2009
+- · **2010-02-17** — If a pharmacy or clinic record surfaces with a Suboxone induction date other than 17 February 2010, the alignment above collapses into a coincidence and the February decision needs a different referent — the record would then contain a "most stressful decision of my life" with nothing attached to…  
+  ↳ [[wiki/self/twitter/2010]] · What would change this reading
 - · **2010-02-17** — "this is the most stressful day/decision of my life" — Same day, seven hours on  
   ↳ [[wiki/timeline/periods/2010s]] · The move, dated to the day
 - · **2010-02-17** — The stabilization did not arrive until Suboxone day-zero, February 17, 2010, at the tail end of the Full Sail window (full sail 2008 2010, chemical architecture).  
@@ -99296,6 +99643,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/jerel-coles]] · The record, 2008–2025
 - · **2010-07-17** — Grimaldi's Pizza — 19 Old Fulton St, btw Front & Water Sts, Brooklyn  
   ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
+- · **2010-08-24** — "I joined twitter 699 days ago"* (`whendidyoujointwitter.com`) — 2008-09-24  
+  ↳ [[wiki/self/twitter/2010]] · The account's own age, settled
+- · **2010-08-24** — He also posted *"proud member of the 'twitter since 08 club'"* on 24 August 2010, which independently rules out any later year.  
+  ↳ [[wiki/self/twitter/2010]] · The account's own age, settled
 - ◆ **2010-09-05** — The outliers are recreational and legible as such: DUMBO for Grimaldi's, Randall's Island for Electric Zoo (5 September 2010, "w/ 115 others" — a dated attendance anchor for the festival strand in music), Manhattan for a W 50th St bar on 2 January 2011.  
   ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
 - · **2010-09-05** — Electric Zoo — 1 Randalls Is Road, Randall's Island Park, NY  
@@ -99308,6 +99659,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
 - ★ **December 2010** — Charles Davenport is a thin, early Facebook contact whose entire documented relationship with Dan is a four-message thread spanning January to December 2010 — the same window Dan relocated to Brooklyn and started at Ishlab.  
   ↳ [[wiki/people/charles-davenport]] · Charles Davenport
+- · **2010-12-09** — "I joined Twitter on the 23rd of September 2008, making my account 807 days old"* (`twuration.com`) — 2008-09-23  
+  ↳ [[wiki/self/twitter/2010]] · The account's own age, settled
 
 ### 2011
 
@@ -99642,7 +99995,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **August 2013** — The three clusters are at least eighteen years old.** This is the control that kills both "2025 Spotify discovery" and "recent omnivory." facebook (2007–2022 export) already has Elliott Smith liked in August 2013 (7 tracks in the current library), Fall Out Boy and Say Anything name-checked in 2007…  
   ↳ [[wiki/interests/favorites/eclecticism]] · Architecture B — parallel functional clusters
 - · **August 2013** — twitter** — 2009 through 2012, January–mid-August 2013, and some 2026 days between the spreadsheet end and the live scrape are still being walked from X in batches of ten. Each incomplete yearly page states that on its face. The spreadsheet span 2013-08-17 through 2026-04  
-  ↳ [[wiki/meta/open-questions]] · self (64)
+  ↳ [[wiki/meta/open-questions]] · self (65)
 - · **August 2013** — Comedy / other — Scattered  
   ↳ [[wiki/self/facebook/interests]] · Event Responses (2008–2020)
 - · **August 2013** — Years before the spreadsheet, the mid-August 2013 days before it starts, and 2026 after 7 April are filled from live X search and will grow as further batches are committed on this branch.  
@@ -99664,9 +100017,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2013-08-15** — 12 — SLOPPP launch week  
   ↳ [[wiki/self/twitter]] · The densest day in seventeen years
 - · **2013-08-17** — 2009** — The operator spreadsheet begins 2013-08-17, so none of this year comes from it. The 283 rows here have two origins: 165 walked from live X search in batches of ten, and 118 recovered by the 2026-09-02 backend fetch that also produced the 2008 page. Do not trea  
-  ↳ [[wiki/meta/open-questions]] · self (64)
+  ↳ [[wiki/meta/open-questions]] · self (65)
+- · **2013-08-17** — 2010** — The operator spreadsheet begins 2013-08-17, so none of this year comes from it. All 342 rows are from the live X walk, taken in batches of ten, and the page will be appended as further batches land. Do not treat the present count as the year's total.  
+  ↳ [[wiki/meta/open-questions]] · self (65)
 - · **2013-08-17** — 2013** — Spreadsheet originals are complete from 2013-08-17 through year-end. January through 2013-08-13 is still being scraped and appended in live batches of ten.  
-  ↳ [[wiki/meta/open-questions]] · self (64)
+  ↳ [[wiki/meta/open-questions]] · self (65)
 - · **2013-08-17** — The spreadsheet span 2013-08-17 through 2026-04-07 is complete for originals.  
   ↳ [[wiki/self/twitter]] · Gaps
 - · **2013-08-17** — The operator spreadsheet begins 2013-08-17, so none of this year comes from it.  
@@ -99785,7 +100140,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2014-05-07** — Drake x Cashmere Cat – No Lie ft. 2 Chainz (SLOPPP Bootleg) — Bootleg  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **2014-05-13** — sloppp — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 37 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 35 pages
 - · **2014-05-14** — Heatwave Vol. 1** — "1 hour of tweriffik plurntastic tracks" — **Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · The 2014 release run, from Twitter
 - · **2014-05-22** — SLOPPP Trap Micromix — Mix  
@@ -101094,7 +101449,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **May 2017** — Twice Dan evidently weighed what he'd bought and found it light, and twice Vaughn retreated to the same defense: "What did it weight because he said it was 3.5… that's my best friend I got it from and I know he wouldn't do it on purpose" (May 2017), and "I swear I watched him weigh it" against a…  
   ↳ [[wiki/people/vaughn]] · The yard and the hustle, one channel
 - · **May 2017** — eric jester — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 37 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 35 pages
 - · **May 2017** — Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two Nemacolin caddying seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a fellow caddie in 2017 who came back for 2018 as **assistant caddie master** — "I'm actually gonna be assistant caddie…  
   ↳ [[wiki/people/davey-fitzpatrick]] · Davey Fitzpatrick
 - · **May 2017** — Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose message thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — sparse check-ins that resurface every year or two, each one picking back up exactly where the last left…  
@@ -103019,7 +103374,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **May 2024** — 2021–May 2024 on at least one other number (and *"Menore #1?"* implies more than one), but **no export exists for any handle but 3476070497**.  
   ↳ [[wiki/people/menore]] · Gaps & Uncertainties
 - · **2024-05-02** — 307 e 76th st — places  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 21 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 20 pages
 - · **2024-05-08** — She was doing it **on top of another job**: *"Now I'll be here 6 days a week and then Libby in mornings…: I don't want to get worked again and pass out like last time"* (2024-05-08).  
   ↳ [[wiki/people/annie-ulmer]] · 2024, and the year she was not unemployed
 - ★ **2024-05-09** — His father died on or around 2024-05-09** (*"Garrett's dad died"*).  
@@ -103604,7 +103959,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **July 2025** — Minor discrepancy, not a data-integrity concern:** 240 URLs present in the old export near its July 2025 cutoff don't appear in the new one — spot-checked, every sampled example is an ad impression from the same July 23–25, 2025 boundary window (KAYAK, Arby's, Harbor Freight, insurance/pharma…  
   ↳ [[wiki/self/youtube-watch-history]] · Extended coverage: August 2025 – July 2026 (new, 2026-07-20)
 - ◆ **2025-07-01** — chatgpt** — **The post-GPT-5 record does not exist in this corpus.** This is the binding gap and the top action on the page: the archived export was generated 2025-07-01 and GPT-5 shipped 2025-08-07, so every claim about what the release did is untested. **A ChatGPT expor  
-  ↳ [[wiki/meta/open-questions]] · self (64)
+  ↳ [[wiki/meta/open-questions]] · self (65)
 - ◆ **2025-07-01** — And the pre/post framing is untestable on this corpus.** The 375-thread ChatGPT export ends 2025-07-01 — its own generation date — while GPT-5 shipped 2025-08-07, so no substantial primary record of post-release use exists here.  
   ↳ [[wiki/self/concepts/llm]] · The guardrail problem
 - · **2025-07-01** — And the register survives to the last day: the 2025-07-01 finale is as unhedged as anything in 2023.  
@@ -104407,7 +104762,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-06-23** — eclecticism — interests  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-01 — 2 pages
 - · **2026-06-23** — books — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 21 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 20 pages
 - · **2026-06-23** — 337 Saratoga closes at $465,000  
   ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **2026-06-23** — 337 saratoga drive — three separate eras — suzanne frank\ — Suz — she owns it — Deed and, eventually, a Chapter 13 docket — **all hers  
@@ -104491,7 +104846,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-14** — Dan does not hear or process sung lyrics as language in real time — he stated this directly (2026-07-14): words in a song register to him essentially as **timbre**, another textural element of the vocal performance, not as semantic content to be parsed and understood the way lyrics function for…  
   ↳ [[wiki/interests/music/concepts/lyrics-as-timbre]] · Lyrics as Timbre
 - · **2026-07-14** — vanessa frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 37 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 35 pages
 - · **2026-07-14** — au zaatar — work  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-07-14** — t009 — enumeration — hedged — partial — The tweet archive holds two pieces the list did not: the letter 'A' for Alexis, tattooed 23 January 2010 and eight years earlier than anything on the list, and a Morrissey piece dated by 24 October 2019.  
@@ -104557,15 +104912,15 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 9 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 13 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
   ↳ [[wiki/people/mike-cordaro]] · Texture
 - · **2026-07-20** — intake constancy — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 21 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 20 pages
 - · **2026-07-20** — youtube watch history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 21 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 20 pages
 - · **2026-07-20** — master timeline — timeline  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-15 — 3 pages
 - · **2026-07-20** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an  
@@ -104605,7 +104960,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-26** — jerel coles** — 3. **Does the "video proof / unconscious" accusation originate with him (2026-07-26, from her phone) or with her (2026-05-31, 23:54)?** Now answerable from logs already held — not yet run.  
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **2026-07-26** — hyperreflexivity — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 21 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 20 pages
 - · **2026-07-26** — The three known ones are 2026-07-26 05:39–05:57, 2026-08-16 23:42–23:53 and 2026-08-18 21:46–21:50.  
   ↳ [[wiki/mind/synthesis/read-receipt-forensics]] · RE-CHECKED [2026-08-20] — M4 gains its best real-world case, and the flagship example's scope was an artifact
 - · **2026-07-26** — Rape allegation, refused supply request, mutual suicidal statements, "whatever goodbye annie" (05:04)  
@@ -104727,7 +105082,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-02** — fran coldren — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-02** — big five psychometrics — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 21 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 20 pages
 - · **2026-08-02** — ~~**No audit has been run.**~~ **CLOSED 2026-08-02** — see the enumeration  
   ↳ [[wiki/mind/synthesis/instrument-is-subject]] · Gaps
 - · **2026-08-02** — What survived:** the propagation rule, the residue/testimony distinction, and the 2026-08-02 enumeration finding (ten pages reason from `mixed` premises without stating what they added).  
@@ -104811,7 +105166,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-08-10** — Jim's death is now dated.** A 2026-08-10 pass found the specific date: **October 2, 2019**, per a Dan message to a client explaining a possible booking conflict.  
   ↳ [[wiki/people/ellen-ulmer]] · The relationship
 - · **2026-08-10** — 90th st manhattan — places  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 21 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 20 pages
 - · **2026-08-10** — john paci — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-13 — 1 page
 - · **2026-08-10** — Its *status* is open — and, per an operator capture filed 2026-08-10, sexual contact resumed "the other night," breaking a stated six-month gap.  
@@ -105009,7 +105364,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-18** — 463 morgantown — legal  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 16 pages
 - · **2026-08-18** — the handed mirror — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 21 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 20 pages
 - · **2026-08-18** — 267 — 120 — 6.3 — the false send  
   ↳ [[wiki/mind/concepts/reassurance-architecture]] · The character ratio is a crisis thermometer, and it is the best one found
 - · **2026-08-18** — 4 — **Manufactured stimulus** — fabricate an event to force a reading  
@@ -105157,7 +105512,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
 - · **2026-08-23** — overview — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 37 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 35 pages
 - · **2026-08-23** — closing the set — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
 - · **2026-08-23** — annie ulmer personality assessment — people  
@@ -105227,9 +105582,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — chemical architecture — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 5 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 13 pages
 - · **2026-08-28** — cocaine — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 5 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 4 pages
 - · **2026-08-28** — alias as periodization — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-08-28** — annual volume suz — mind  
@@ -105285,7 +105640,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-30** — Two of these publish to a public repository**, knowingly, by an operator decision on 2026-08-30: `intake/` and `testimony/` are tracked and readable by anyone, permanently, and git history cannot be un-published.  
   ↳ [[wiki/meta/instruments/index]] · What the instrument layer cannot see, as a layer
 - · **2026-08-30** — the configured body — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 5 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 4 pages
 - · **2026-08-30** — Anthropic — cli · web · desktop · ide — 53 — 2026-08-30  
   ↳ [[wiki/meta/skills]] · The models on the record
 - · **2026-08-30** — Nous Research — telegram · cli · web — 15 — 2026-08-30  
@@ -105309,9 +105664,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-09-02** — The git log read as a record of *operations* rather than saves  
   ↳ [[wiki/meta/instruments/index]] · The measures
 - · **2026-09-02** — 2020 left turn — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 9 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 13 pages
 - · **2026-09-02** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 9 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 13 pages
 - · **2026-09-02** — failure to launch — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 34 pages
 - · **2026-09-02** — chatgpt — self  
@@ -105340,7 +105695,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 371 wiki pages. 1,012 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 372 wiki pages. 1,015 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================
@@ -106785,6 +107140,9 @@ connections:
   - page: wiki/self/twitter/2009
     type: contradicts
     claim: 'The contemporaneous public record contradicts this page\'s August 2009 graduation date twice over: "i start my last month of college tomorrow" on 2009-08-31 places the final month in September, and a Pro Tools lab, a practical and an AWS final run to 2009-12-19. The class standing is untouched by either.'
+  - page: wiki/self/twitter/2010
+    type: evidenced-by
+    claim: 'The 28 February 2010 Florida departure this page gives is corroborated by a same-day tweet, "peace out, florida. it\'s been real." — against a Gemini session that has him arriving in New York to stay on 18 February.'
 ---
 
 # Full Sail (Sep 2008 – Mar 2010)

@@ -76,6 +76,9 @@ connections:
   - page: wiki/self/twitter/2009
     type: contradicts
     claim: 'The contemporaneous public record contradicts this page\'s August 2009 graduation date twice over: "i start my last month of college tomorrow" on 2009-08-31 places the final month in September, and a Pro Tools lab, a practical and an AWS final run to 2009-12-19. The class standing is untouched by either.'
+  - page: wiki/self/twitter/2010
+    type: evidenced-by
+    claim: 'The 28 February 2010 Florida departure this page gives is corroborated by a same-day tweet, "peace out, florida. it\'s been real." — against a Gemini session that has him arriving in New York to stay on 18 February.'
 ---
 
 # Full Sail (Sep 2008 – Mar 2010)
