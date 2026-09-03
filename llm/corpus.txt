@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-03
-497 pages, ~1,788,228 tokens.
+497 pages, ~1,793,028 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -9572,7 +9572,7 @@ status: closed
 knowledge: mixed
 importance: high
 date_created: 2026-08-03
-date_modified: 2026-08-28
+date_modified: 2026-09-03
 date_range_start: 2015-02-17
 date_range_end: 2016-02-17
 sources:
@@ -9625,6 +9625,9 @@ connections:
   - page: wiki/people/fran-coldren
     type: co-occurs
     claim: "The car Dan was driving was Fran's — uninspected, expired registration, bald tires, unused since she stopped driving — and its condition is what gave the troopers the impound that produced the inventory search."
+  - page: wiki/self/twitter/2015
+    type: co-occurs
+    claim: 'The public account goes dark from 2015-07-16 to 2015-12-04, five months spanning this arrest and the concurrent housing arrangement, in a year with no archival gap to explain it.'
 ---
 
 # The 2015 Possession Arrest
@@ -10295,7 +10298,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-03** — 27 pages
+**2026-09-03** — 30 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
   - ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
   - ingest | self | 2010 read in full — the corpus's most-cited date was computed from a train going the wrong way, and it survives anyway
@@ -10304,7 +10307,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | self | 2013 read in full — SLOPPP as an operation, a six-week gap in the six years, and a shape that is mostly the archive
   - ingest | self | 2014 read in full — he backed Cumia the day after the firing, and the correction makes the left turn larger
 
-**2026-09-02** — 25 pages
+**2026-09-02** — 23 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result
@@ -11126,7 +11129,7 @@ somewhere and has not yet found out where.
 - **[[wiki/self/twitter]]** — the archive and facebook disagree about when Dan moved to Brooklyn. Facebook's `places lived` field says 3 January 2010. On 20 February 2010 he tweeted *"moving to brooklyn in 9 days"*, and on the 28th *"peace out, florida."* Both records are his own; one is timestamped by the platform and one was typed into a profile 
 - **[[wiki/self/twitter/2009]]** — `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and `wiki/timeline/periods/full-sail-2008-2010` and `wiki/people/alexis-armel` both build on that date. The contemporaneous public record contradicts it in two independent places: a "last month of college" beginn
 - **[[wiki/self/twitter/2010]]** — the anchor is misread. The 18 February train was the **return** leg, not the outbound one. On 17 February Dan is already in New York (*"off to Williamsburg"*), and on the 18th he is *"On the train back to PA."* The apartment hunt the Gemini session places on that trip matches 17 February, not the 18th. The derivation "
-- **[[wiki/self/twitter/2014]]** — the 2022 account places Dan among those *"repulsed by the racism"* at the split. The contemporaneous record places him on the other side of it — congratulating Cumia on his integrity within twenty-four hours of a firing for racist posts, and endorsing his anti-political-correctness framing three months before. This is 
+- **[[wiki/self/twitter/2014]]** — the 2022 account places Dan among those *"repulsed by the racism"* at the split. The contemporaneous record places him on the other side of it — congratulating Cumia on his integrity within twenty-four hours of a firing for racist posts, and endorsing his anti-political-correctness framing three months before. The year
 - **[[wiki/timeline/events/august-2026-morgantown-call]]** — Dan states he sent the audio to Annie's parents (three times, Aug 19 01:04–01:48) and states that he did not (twice, Aug 19 11:25 and 15:12), and the corpus contains a proven false claim of exactly this kind from the day before. No email, no bounce, no reply, and no third-party reaction appears anywhere in `raw/`. **Th
 - **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — the operator's account says Annie *"contacted her independently without me knowing and invited her back over."* The 22:56 `Shelbie Breakiron.vcf` attachment, sent by Dan to Annie, is hard to reconcile with that. The likeliest reading is that the memory compresses a night in which he supplied the means and did not expec
 - **[[wiki/timeline/events/teen-concert-years]]** — The Facebook "Concerts I've gone to" note dates HIM to **2005-11-09 at Mr. Small's**; the researched list places the Love Metal Tour at **2004-04-21, The Rock Club at Station Square**, with a separate November 2004 return. The note dates Taking Back Sunday / Angels & Airwaves to **2006-07-04 in Columbus**; the research
@@ -11909,7 +11912,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-03 — 27 pages
+## 2026-09-03 — 30 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11917,6 +11920,7 @@ simply listed.
 | [[wiki/interests/music/overview]] | interests | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/interests/opie-and-anthony]] | interests | **CONTRADICTION** — The contemporaneous record runs the other way. Anthony Cumia was fired on **3 July 2014** over racist posts about a Black woman who had hit him in Times Square. On **4 July 2014** Dan tweeted at him:  |
 | [[wiki/interests/video-games]] | interests | — |
+| [[wiki/legal/2015-possession-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/recent-activity]] | meta | _(carries a CONTRADICTION)_ |
@@ -11938,10 +11942,12 @@ simply listed.
 | [[wiki/self/twitter/2012]] | self | — |
 | [[wiki/self/twitter/2013]] | self | — |
 | [[wiki/self/twitter/2014]] | self | **CONTRADICTION** — the 2022 account places Dan among those *"repulsed by the racism"* at the split. The contemporaneous record places him on the other side of it — congratulating Cumia on his integrity within twenty-fou |
+| [[wiki/self/twitter/2015]] | self | — |
+| [[wiki/self/twitter/2016]] | self | — |
 | [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | **CONTRADICTION** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomo |
 
-## 2026-09-02 — 25 pages
+## 2026-09-02 — 23 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -11956,8 +11962,6 @@ simply listed.
 | [[wiki/self/index]] | self | — |
 | [[wiki/self/tattoos]] | self | **CORRECTED** — this page previously read "**entirely** cultural reference … *every* known piece points at a specific record, band, or artist rather than a generic symbol," and dated the earliest well-documented piec |
 | [[wiki/self/twitter]] | self | _(carries a CONTRADICTION)_ |
-| [[wiki/self/twitter/2015]] | self | — |
-| [[wiki/self/twitter/2016]] | self | — |
 | [[wiki/self/twitter/2017]] | self | — |
 | [[wiki/self/twitter/2018]] | self | — |
 | [[wiki/self/twitter/2019]] | self | — |
@@ -11993,12 +11997,11 @@ simply listed.
 |---|---|---|
 | [[wiki/meta/skills]] | meta | — |
 
-## 2026-08-28 — 32 pages
+## 2026-08-28 — 31 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/interests/food-and-diet]] | interests | _(carries a RE-CHECKED from 2026-08-26)_ |
-| [[wiki/legal/2015-possession-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
 | [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — totality-themes gained two RE-CHECKED notes (2026-08-28) confirming a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris to Alexis Armel) touches neither page. **N |
 | [[wiki/mind/synthesis/annual-volume-suz]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a new 2013–2014 eviction/concealment episode (Alexis Armel, the washing machine). No message-volume figure this page draws on is touched.  |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a pre-Annie, Alexis-era eviction/concealment episode (2013–2014, Uniontown). It touches neither the Annie-era material nor any figure this |
@@ -83000,9 +83003,14 @@ And in July, at the exact moment the corpus's account of his politics says he
 was being repelled, he publicly backed Anthony Cumia over the firing that
 started it.
 
-**This is a spreadsheet-complete year.** Unlike 2009–2013, there is no fetch
-artefact here: 170 of 171 rows come from the operator export. **Absence is
-evidence on this page**, which is what makes the second finding usable.
+**This year is spreadsheet-backed, which is a different thing from complete.**
+Unlike 2009–2013 there is no month-end fetch artefact here — 170 of 171 rows
+come from the operator export, and the shape of the page is the shape of the
+year. But the export is **not a proven census**: a backend fetch on 2026-09-02
+recovered a February 2016 tweet the export had missed
+(`wiki/interests/music/overview`), so it can drop rows. Absence on this page is
+**good evidence and not conclusive evidence**, and the finding below is built to
+survive that: it rests on what he did post, not on what he did not.
 
 ## 4 July 2014, and a correction to the corpus's own account
 
@@ -83030,9 +83038,11 @@ Three months earlier, on **25 March 2014**:
 > *"repulsed by the racism"* at the split. The contemporaneous record places
 > him on the other side of it — congratulating Cumia on his integrity within
 > twenty-four hours of a firing for racist posts, and endorsing his
-> anti-political-correctness framing three months before. This is a
-> **spreadsheet-complete year**, so this is not a gap in the record: there is
-> no 2014 post anywhere expressing discomfort.
+> anti-political-correctness framing three months before. The year is
+> spreadsheet-backed and contains no post expressing discomfort — supporting
+> evidence, though the export is known to drop the occasional row, so **the
+> contradiction rests on the two posts he made, not on the silence around
+> them.**
 >
 > What this does **not** do is refute the 2022 claim outright. *"We were
 > radicalized"* describes a process, and a process can start later than the
@@ -83162,13 +83172,15 @@ style.
 
 ## What would change this reading
 
-The Cumia finding is the load-bearing one and it depends on the year being
-complete. It is — 170 of 171 rows from the export — but if a live-scrape batch
-later adds 2014 posts expressing discomfort at the firing, the contradiction
-softens from "he was on the other side" to "he was on both sides", which is a
-different and more ordinary thing. The SLOPPP peak claim depends on 2015 and
-2016 being genuinely quieter rather than differently archived; both are
-spreadsheet-complete, so that comparison is sound. And the ambition pattern
+If a live-scrape batch later adds 2014 posts expressing discomfort at the
+firing, the Cumia contradiction softens from "he was on the other side" to "he
+was on both sides", which is a different and more ordinary thing. That is a
+live possibility rather than a formality: the export demonstrably missed at
+least one tweet in 2016. It would not erase the 4 July post, but it would
+change what the post means. The SLOPPP peak claim depends on 2015 and 2016
+being genuinely quieter rather than differently archived; both are
+spreadsheet-backed on the same basis as this year, so the comparison is sound
+to the same degree and no further. And the ambition pattern
 depends on absence — if a 2015 rap recording exists anywhere, the December
 entry stops being an instance of it.
 
@@ -84220,8 +84232,8 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
-knowledge: derived
+date_modified: 2026-09-03
+knowledge: mixed
 date_range_start: 2015-01-01
 date_range_end: 2015-12-28
 title: "Twitter / X — 2015"
@@ -84239,11 +84251,112 @@ connections:
   - page: wiki/self/twitter/2016
     type: precedes
     claim: '2015 is the immediately previous year of originals before 2016 on the same account.'
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidences
+    claim: 'SLOPPP does not fail, get rejected or get abandoned in a statement — it stops being posted. Two pieces of output in twelve months (a contest entry on 26 January, a re-post of a 2014 video on 16 March) after roughly forty releases across 2013-14, and the same account carries on as a viewer\'s feed.'
+  - page: wiki/legal/2015-possession-arrest
+    type: co-occurs
+    claim: 'The account is silent from 2015-07-16 to 2015-12-04 — five months, in a year with no archival gap to blame — across the period this page and the Alexis housing arrangement document. The public feed is switched off under pressure rather than thinned by it.'
 ---
 
 # Twitter / X — 2015
 
-Volume drops. YouTube playlist adds, O&A residue, and the flat New Year's 'another year. woo yay other exciting things' — the year the Annie relationship starts in November is almost silent on this account, which is itself a finding: Twitter is not where that year was lived.
+**The year SLOPPP stops.** 2014 ran a Beatport contest entry, six named-artist
+remixes, three mix series and a live video show. 2015 has **two** pieces of
+music output in twelve months: a Far East Movement remix entered into a
+contest on 26 January, and a re-post on 16 March of a micromix video made the
+previous May. That is the whole of it.
+
+The year is also the quietest on the account since 2008 — 62 originals, against
+171 the year before and 346 in 2013 — and it contains a **five-month silence**
+that lands on the most documented period of upheaval in Dan's adult life.
+
+## The collapse of the music operation, and why it can be believed
+
+The 2013 and 2014 pages both had to be hedged, because their shapes were partly
+the archive's. **This one does not, or not in the same way.** All 62 rows come
+from the operator export; there is no month-end truncation and no source seam
+inside the year. The export is not a proven census — it is known to have
+dropped at least one 2016 tweet — but nothing here suggests a systematic hole,
+and a project that released roughly forty things in 2013–14 does not go missing
+from a feed by accident.
+
+What survives of it:
+
+| Date | Output |
+|---|---|
+| 2015-01-26 | *Far East Movement — Grimey Thirsty (sloppp remix)*, entered in an official remix contest on wavo.me, with a vote-canvassing post |
+| 2015-03-16 | *SLOPPP SUMMER TRAP MICROMIX #3* — a link to a YouTube video dated 22 May 2014 |
+
+The January entry is the last competitive submission in the corpus, and it is
+the same behaviour as the April 2014 Beatport entry: enter, ask for votes, then
+nothing. After 16 March there is no music of his own on the account for the
+rest of the year.
+
+**What replaces it is consumption.** The year's other posts are largely YouTube
+likes and playlist adds — an Ookay tour clip, Jack Ü's Madison Square Garden
+New Year set, an Opie & Anthony segment, Alex Jones at Dealey Plaza — plus, on
+15–16 July, **eight consecutive posts of `True Skate` mobile gameplay clips**
+through Kamcord, and two auto-posts for a video poker app on 17 February. The
+producer's feed has become a viewer's feed.
+
+This is the concrete shape of a thing `wiki/mind/synthesis/failure-to-launch`
+argues in the abstract: the project does not fail, get rejected, or get
+abandoned in a statement. It simply stops being posted, and the same account
+carries on.
+
+## The five months the account is not there
+
+Between **16 July and 4 December 2015 there is nothing on this page.** Not a
+thinning — a stop, in a year with no archival gap to blame.
+
+That window covers what the corpus documents as the most turbulent stretch of
+Dan's adult life: `wiki/legal/2015-possession-arrest`, and the housing
+arrangement `wiki/people/alexis-armel` describes as roughly four months of
+secretly keeping a former partner at 337 Saratoga after she was thrown out.
+
+**The finding is the silence itself, and it is a real one.** Across seven years
+this account has been where Dan narrates a hurricane, a firing, a graduation, a
+job, an internship and a breakup. In the year it is most needed as a record, it
+is empty. The public feed is not a diary that thins under pressure; it is
+switched off under pressure, which is worth knowing before any later year's
+quietness is read as an absence of events.
+
+## The December cluster is not narrated here
+
+The account restarts on 4 December and the last four weeks of the year are
+dense and personal.
+
+**That material is deliberately not written up.** It falls under the standing
+directive in `CLAUDE.md` — the Annie moratorium of 2026-08-23 — which forbids
+any new narrative, event, timeline entry or dated line about her, and the
+December 2015 posts are substantially that. The tweets themselves remain below,
+where they already were; nothing is deleted and nothing is redacted. What does
+not happen is this page turning them into an account.
+
+Recorded openly rather than passed over in silence, so that no later session
+reads the gap in this narrative as an oversight and fills it.
+
+## What is left, and it is thin
+
+*"another year. woo yay other exciting things"* on 1 January is the year's
+opening line and a fair summary of its register. There is a Kanye playlist add
+on the 4th, one joke about Duran Duran in March, and *"Skeert"* in June.
+
+The thinness is the content. `wiki/self/twitter`'s own framing — that public
+posting is a valve rather than a diary — is at its clearest in 2015: a
+spreadsheet-backed year with a working music project at the start of it, a
+five-month blackout in the middle, and sixty-two posts in total.
+
+## What would change this reading
+
+Everything above rests on the export being reasonably complete for 2015. It is
+not proven to be, and the demonstrated 2016 miss means a live-scrape pass over
+this year is genuinely worth running rather than a formality. If it returns a
+substantial July-to-December body of posts, the blackout is an artefact and the
+central finding of this page is void. If it returns music releases, the
+collapse is too. Nothing else here would survive that either — which is why the
+page says it plainly rather than in a footnote.
 
 ## Coverage
 
@@ -84256,7 +84369,7 @@ Volume drops. YouTube playlist adds, O&A residue, and the flat New Year's 'anoth
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
-## January
+## The record
 
 ### 2015-01-01 05:01:15 UTC · [550517084174942210](https://x.com/danfrank/status/550517084174942210)
 *likes 0 · replies 0 · reposts 0*
@@ -84639,8 +84752,8 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
-knowledge: derived
+date_modified: 2026-09-03
+knowledge: mixed
 date_range_start: 2016-01-01
 date_range_end: 2016-12-27
 title: "Twitter / X — 2016"
@@ -84658,11 +84771,172 @@ connections:
   - page: wiki/self/twitter/2017
     type: precedes
     claim: '2016 is the immediately previous year of originals before 2017 on the same account.'
+  - page: wiki/interests/music/overview
+    type: evidences
+    claim: 'The disputed OSU gig tweet is on this page — 2016-02-07, "Had lit times playing @ulmdub birthday party last night at OSU" — confirming the live set that page had leaned toward treating as fabricated, and proving the operator export drops rows.'
+  - page: wiki/mind/synthesis/2020-left-turn
+    type: evidences
+    claim: '2016 is a step backwards, not a step toward the turn: no post on or after the 2016 election at all, DNC comments aimed at stagecraft rather than candidates, and "I don\'t know much about politics but Obama is NOT a fascist" (8 December) — a disclaimer of expertise from a man who argued eight political positions sharply in 2011.'
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidences
+    claim: 'Employment appears on this account only as material — "I think the people at my job training are hired actors carrying out an elaborate and gloriously stupid performance art piece" is the year\'s only description of the work — a posture stable across five years and four jobs. And the inherited instruments post forecasts its own outcome: "The amount of time I\'m gonna spend becoming mediocre at them will be crzy."'
+  - page: wiki/self/location-history
+    type: evidences
+    claim: 'A car chase through his Uniontown yard reported to a Pittsburgh news reporter on 2016-04-21, plus a Pittsburgh snowstorm Periscope and Kennywood in July — a third year placing him in Fayette County inside the address-level blind window.'
 ---
 
 # Twitter / X — 2016
 
-Periscope NYE bedroom DJ sets on day one, then a thin year of asides. Public posting is a valve, not a diary; the real record of 2016 is elsewhere in the corpus.
+**The year the music becomes a hobby and golf becomes a subject.** SLOPPP is
+not gone — there is a Periscope bedroom DJ set on New Year's Day, a Juicy J
+bootleg sent to a blog in March, and one paid-sounding live booking in
+February — but the account's centre of gravity has moved. What 2016 actually
+documents is a man in Fayette County with a new job he finds absurd, a
+girlfriend, a set of inherited instruments, and the U.S. Open in his backyard.
+
+It is also the year that settles a dispute the wiki was carrying about its own
+sources.
+
+## The gig that was thought to be invented
+
+On **7 February 2016**: *"Had lit times playing @ulmdub birthday party last
+night at OSU"*, with a video attached and one repost.
+
+`wiki/interests/music/overview` spent weeks holding this line as a
+**contradiction against itself**: an AI-generated secondary source quoted it,
+the archive did not contain it, and the page leaned toward the reading that the
+analysis had fabricated the quote. A backend fetch on 2026-09-02 recovered the
+tweet — id `696416822011289601`, 2016-02-07T19:34:43 UTC, text matching
+exactly — and that page now records the resolution in full.
+
+Two consequences belong here rather than there. **The ten-year music silence
+that page reported has a real counter-example** — he played a live set, in
+2016, at Ohio State. And **the operator export is not a census**: it missed
+this row. Every claim on every page in this directory that rests on an absence
+is weakened by exactly that much, and the 2014 page has been amended to say so.
+
+## Music as something he still does, occasionally
+
+- **1 January** — two Periscope broadcasts, the first titled *"NYE bedroom DJ set"*. The venue is a bedroom and the audience is whoever is on Periscope at midnight.
+- **7 February** — the OSU set above, the only live booking in the year.
+- **7 March** — a Juicy J bootleg sent directly to `@whatdirt`, the blog that had thanked him for support in 2014. Still working the same contacts, at a much lower rate.
+- **5 March** — *"god save the 808"*, a callback to the *"god save the village green"* of 2011.
+- **6–7 March** — *"I just found/inherited an alto sax, clarinet and mandolin. The amount of time I'm gonna spend becoming mediocre at them will be crzy"*, then *"Got a small fortune in poorly maintained instruments here."*
+
+That inheritance post is worth keeping for the self-knowledge in it. He
+forecasts, accurately and in advance, that he will put substantial time into
+three instruments and arrive at mediocre — and does it in the tone of someone
+describing a known personal weather pattern rather than making a resolution.
+It is the diagnosis-to-behaviour gap stated by the person it describes,
+cheerfully, with no suggestion that naming it changes anything.
+
+## A job, and the register he holds it in
+
+On **24 February**: *"I think the people at my job training are hired actors
+carrying out an elaborate and gloriously stupid performance art piece."*
+
+That is the only description of the work he gives all year. On **12 February**
+he tweets `@creativelicense` — *"having trouble contacting your Mumbai
+offices"* — which is the company a Gemini session elsewhere in the corpus
+describes as a salaried job that turned out to be a fraudulent trap; the joke
+places him still trying to reach them in early 2016.
+
+The pattern across 2011, 2012, 2014 and now 2016 is consistent enough to name:
+**employment appears on this account only as material.** Never as a fact
+stated, never as a complaint, never as a plan — as a bit, delivered to
+followers, about the absurdity of the situation he is inside. `wiki/mind/synthesis/failure-to-launch`
+has the fact of the career; this is the posture toward it, and the posture is
+stable across five years and four jobs.
+
+## Golf arrives, and it is inherited
+
+2016 is the first year golf is a subject rather than a joke, and it arrives all
+at once: *"Nine iron"* (1 March), a WGT Golf mobile clip from Congressional
+(10 June), *"sick Canadian tuxedo on the golf course"* (12 December 2015,
+immediately prior), Harambe jokes about *"these prestigious golf tournaments"*
+(1 September), and four days at the **2016 U.S. Open at Oakmont** (13–16 June),
+attended in person and photographed — *"Oakmont rough like backyard of a
+foreclosure house"*, *"Oakmont greens on some god-mode shit"*, a rain delay.
+
+The Oakmont simile is the interesting one. He is at a major championship in
+Western Pennsylvania and reaches for **foreclosure** as the comparison for deep
+rough — the local landscape used to describe the elite event sitting inside it.
+
+Golf also completes a thread the earlier pages started without knowing it was
+one: *"country club status. bloated sense of self worth"* (2009, as a joke at
+twenty), *"My ratchet great grandma was the country club Queen Bee in 1960"*
+(2014), and now the game itself. `CONTEXT_CORE_EXPANDED` records the family as
+a Republican household with an auto-parts business; the country club is a
+recurring family self-image in his writing, held at an ironic distance and
+never quite dropped.
+
+## Politics: engaged enough to be sour, not engaged enough to show up
+
+The 2020 turn is four years away and 2016 is consistent with that, in a way
+worth stating precisely because it is an absence claim on a year we know is
+imperfectly archived.
+
+What is here: *"The crowd signs at DNC are weirding me the fuck out"* and
+*"agreed. Disgusting that compromised values are the norm"* (both 26 July,
+during the convention); a retweet-in-substance of Keith Olbermann's anti-Trump
+line on 19 October; and, on 8 December, *"I don't know much about politics but
+Obama is NOT a fascist."*
+
+**What is not here is the election.** There is no post on 8 November 2016, none
+in the week after, and nothing about the result at all. The DNC posts are
+directed at the *convention's stagecraft* rather than at either candidate, and
+the December line opens by disclaiming expertise — *"I don't know much about
+politics"* — which is not a sentence the 2020 or 2024 corpus could produce.
+
+Read against 2011's eight sharply argued political posts, this is not a
+progression. It is a man who was more politically vocal at twenty-two than at
+twenty-eight, and who sat out the most consequential American election of his
+adult life in public silence. That is a real data point for
+`wiki/mind/synthesis/2020-left-turn`: whatever 2020 was, it was not the last
+step of a gradual radicalisation, because 2016 is a step backwards.
+
+## Fayette County, confirmed again
+
+**21 April**, to a Pittsburgh news reporter: *"@DKaplanWTAE car chase in
+uniontown went through my yard. Here's the hill where he went airborne."* Also
+a Periscope broadcast of a Pittsburgh snowstorm (20 January), *"FEET of snow"*,
+Kennywood in July, and the Hard Rock Cafe Pittsburgh in June.
+
+Three consecutive years — 2013, 2014, 2016 — now place him in Fayette County
+inside the window `wiki/self/location-history` records as having no
+address-level data.
+
+## Texture
+
+A black-tie event in late February with a tuxedo he objects to on engineering
+grounds (*"I feel like the designers of this tuxedo set out to create the least
+practical piece of formalwear known to man"*), and the next day a note about
+explaining his own *"snarky-ness and 'too cool for the room' attitude"* to a
+date by pointing at a man at the valet stand. Two DJ-technique critiques of
+`@djhotnix` on 4 September, one of which is a numbered breakdown of the
+offending method — the Aoki objection of 2014 in miniature, aimed at a local.
+*"THE GENIUS IS THE ONE WHO IS MOST LIKE HIMSELF"*, attributed to Thelonious
+Monk (7 May). And two self-descriptions filed a year apart in tone: *"master of
+abstraction"* (15 February) and *"Problem causer, feeling feeler, nothing
+accomplisher"* (8 July).
+
+## Under the standing directive
+
+`@Lo_weez` appears throughout the year and `@ulmdub` several times. Beyond the
+7 February gig — which is a music finding and is treated as one — **none of
+that material is narrated on this page**, under the Annie moratorium in
+`CLAUDE.md`. The tweets stay where they are; no account is built from them.
+
+## What would change this reading
+
+The election silence is the load-bearing absence here, and this is the one year
+in the directory **proven** to be missing at least one row. A live-scrape pass
+over November 2016 is the specific thing that would settle it, and until that
+runs the claim should be read as "no election post has been recovered", not "he
+posted nothing". The golf-as-inherited reading is an interpretation stacked on
+three posts across seven years and is offered as a thread to watch rather than
+a finding. And the employment posture claim would break if a single
+straightforward post about a job turns up in any year.
 
 ## Coverage
 
@@ -84675,7 +84949,7 @@ Periscope NYE bedroom DJ sets on day one, then a thin year of asides. Public pos
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
-## January
+## The record
 
 ### 2016-01-01 00:45:30 UTC · [682724294359695361](https://x.com/danfrank/status/682724294359695361)
 *likes 0 · replies 0 · reposts 0*
@@ -99627,7 +99901,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,491 events** across **80 years** (1796–2027), drawn from **375 pages**. Tier 1 690 · Tier 2 426 · Tier 3 2,375.
+**3,500 events** across **80 years** (1796–2027), drawn from **377 pages**. Tier 1 692 · Tier 2 426 · Tier 3 2,382.
 
 ## What counts as an event here
 
@@ -101301,6 +101575,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/lauryn-ashly]] · Corpus record
 - · **April 2014** — Wax, Stacks and Racks* is a monthly wrap-up (*"the complete guide to April 2014"*).  
   ↳ [[wiki/self/twitter/2014]] · SLOPPP at full extension
+- · **April 2014** — The January entry is the last competitive submission in the corpus, and it is the same behaviour as the April 2014 Beatport entry: enter, ask for votes, then nothing.  
+  ↳ [[wiki/self/twitter/2015]] · The collapse of the music operation, and why it can be believed
 - ◆ **2014-04-08** — SLOPPP's Week in Trap — Episode 8 — Mix series  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **2014-04-10** — Gladiator – Assembly Line (SLOPPP Snazzy Bounce Edit) — Edit  
@@ -101412,6 +101688,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/jacob-bacharach]] · The house, and the corrections that built the finding
 - · **January 2015** — Her life or career after leaving Creative License in January 2015 is undocumented.  
   ↳ [[wiki/people/katherine-palakovich]] · Katherine Palakovich ("Kittie")
+- ★ **2015-01-26** — Far East Movement — Grimey Thirsty (sloppp remix)*, entered in an official remix contest on wavo.me, with a vote-canvassing post  
+  ↳ [[wiki/self/twitter/2015]] · The collapse of the music operation, and why it can be believed
 - ★ **February 2015** — Dan's only real arrest happened in **February 2015**, in downtown Uniontown at roughly 3am, and it was for drug possession — not for stealing snacks.  
   ↳ [[wiki/legal/2015-possession-arrest]] · The 2015 Possession Arrest
 - ★ **February 2015** — Both were filed in the same magisterial district, before the same judge, three years apart: 2015 possession arrest records Michael Metros from the February 2015 court blotter and states that he "appears once ... and has no other trace in the corpus." He appears twice.  
@@ -101432,6 +101710,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/open-questions]] · legal (3)
 - ◆ **March 2015** — Why the March 2015 Frank Swaney management deal never materialized (or whether it quietly did, off the message record) is undocumented; "Joby," the third party who was to finalize terms with Dan's parents, is otherwise unidentified in the corpus.  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Significance
+- · **2015-03-16** — SLOPPP SUMMER TRAP MICROMIX #3* — a link to a YouTube video dated 22 May 2014  
+  ↳ [[wiki/self/twitter/2015]] · The collapse of the music operation, and why it can be believed
 - · **Spring 2015** — Spring 2015 Demo — Demo  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **Spring 2015** — On March 15–16, 2015, **Frank Swaney** — a Pittsburgh-scene promoter who says he'd run a nine-DJ roster for his own production company and taught at "Spawn Academy in Portland Oregon" — hears the *Spring 2015 Demo* (shared via SoundCloud, initially broken because Dan had left it set to private) and…  
@@ -101942,6 +102222,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/annie-record]] · December
 - · **2015-12-11** — Louis CK.** Dan: *"Do you know who Louis CK is?"* (11:43).  
   ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-12** — 2016 is the first year golf is a subject rather than a joke, and it arrives all at once: *"Nine iron"* (1 March), a WGT Golf mobile clip from Congressional (10 June), *"sick Canadian tuxedo on the golf course"* (12 December 2015, immediately prior), Harambe jokes about *"these prestigious golf…  
+  ↳ [[wiki/self/twitter/2016]] · Golf arrives, and it is inherited
 - · **2015-12-12** — Annie comes over.** Annie: *"Awe b I'm so excited / Sorry i passed out / I guess I a wittle sleepy!"* (16:13–16:15).  
   ↳ [[wiki/timeline/annie-record]] · December
 - · **2015-12-12** — Betty is in trouble.** Annie: *"Heck no / She's in trouble / She bit me twice today and my mom / For no reason"* (16:17–16:18).  
@@ -102475,6 +102757,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · Bernie 2020 as the bridge
 - ★ **2016-02-07** — Does the 2016 "@ulmdub birthday party at OSU" tweet exist?  
   ↳ [[wiki/self/twitter]] · The backfill of 2026-09-02, and what it settled
+- ★ **2016-02-07** — On **7 February 2016**: *"Had lit times playing @ulmdub birthday party last night at OSU"*, with a video attached and one repost.  
+  ↳ [[wiki/self/twitter/2016]] · The gig that was thought to be invented
 - ★ **2016-02-12** — The first_contact: 2016-02-12 field reflects the first contact in the specific 2016–2020 CSV export thread, not the true origin of the relationship.  
   ↳ [[wiki/people/tan-calabrese]] · Tan Calabrese
 - · **2016-02-15** — He frames his own behavior as trying to help while acknowledging he doesn't want "legitimate ties" with Alexis, calling her "diabolical AF." The cluster ends with a full apology on February 15, 2016 for "anything I may have done that need apologizing for."  
@@ -102537,6 +102821,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/legal/2015-possession-arrest]] · Case timeline
 - ★ **2016-08-13** — "Diane and Dave went ALL out this year on a very creative and not the same thing they got last year birthday gift for gram"* — sarcasm, and the only record of either of them marking Fran's birthday  
   ↳ [[wiki/people/dave-moore]] · What the record has him doing
+- · **November 2016** — A live-scrape pass over November 2016 is the specific thing that would settle it, and until that runs the claim should be read as "no election post has been recovered", not "he posted nothing".  
+  ↳ [[wiki/self/twitter/2016]] · What would change this reading
+- · **2016-11-08** — What is not here is the election.** There is no post on 8 November 2016, none in the week after, and nothing about the result at all.  
+  ↳ [[wiki/self/twitter/2016]] · Politics: engaged enough to be sour, not engaged enough to show up
 - · **2016-11-17** — Starting November 17, 2016, Jason works up a detailed colored-pencil portrait of a dog, "Betty," walking Dan through composition choices (color palettes, ink versus pencil, realistic versus abstract treatment) with genuine craft and care, quoting $85 for a 9"x12" piece.  
   ↳ [[wiki/people/jason-cole]] · The commission
 - · **2016-11-30** — "My PlayStation came" (2016-11-30) and "Is the PlayStation working?"  
@@ -106739,6 +107027,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/failure-to-launch]] · Gaps
 - · **2026-08-23** — Stylometrics — linguistic profile — —  
   ↳ [[wiki/mind/synthesis/the-commissioned-self]] · The apparatus
+- · **2026-08-23** — That material is deliberately not written up.** It falls under the standing directive in `CLAUDE.md` — the Annie moratorium of 2026-08-23 — which forbids any new narrative, event, timeline entry or dated line about her, and the December 2015 posts are substantially that.  
+  ↳ [[wiki/self/twitter/2015]] · The December cluster is not narrated here
 - ◆ **2026-08-26** — Two curated vocabularies, generated in a single session on 2026-08-26 from a standing instruction to produce compact terms "tuned toward demonstrated taste: elevated, slightly archaic, ethereal, dangerous, excessive, weirdly formal — not just 'beautiful ×100.'" The output was not a flat list but…  
   ↳ [[wiki/interests/language/vocabulary-lexicon]] · The Vocabulary Lexicon
 - · **2026-08-26** — The same 2026-08-26 session that produced the two vocab batches also generated a second-order reading of the curator's *positive* slang taste — not the curated lists above, but the analyst's inference about the aesthetic hiding inside the curator's word-picks.  
@@ -106897,6 +107187,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter/2008]] · Coverage
 - · **2026-09-02** — The 283 rows here have two origins: 165 walked from live X search in batches of ten, and 118 recovered by the 2026-09-02 backend fetch that also produced the 2008 page.  
   ↳ [[wiki/self/twitter/2009]] · Gaps
+- · **2026-09-02** — A backend fetch on 2026-09-02 recovered the tweet — id `696416822011289601`, 2016-02-07T19:34:43 UTC, text matching exactly — and that page now records the resolution in full.  
+  ↳ [[wiki/self/twitter/2016]] · The gig that was thought to be invented
 - · **2026-09-02** — The `@danfrank` Twitter account was recovered thirteen months further back on 2026-09-02 (2008), and it opens on **24 September 2008**, the day Dan arrives in Winter Park.  
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The period's exit, in his own words, on the day it happened
 - ★ **2026-12-19** — P4 — **No third party ends this relationship.** Any severance that holds past 120 days will be traceable to a self-generated move, not an intervention — a documented outside intervention followed by a severance holding >120 days  
@@ -106913,7 +107205,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 375 wiki pages. 1,028 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 377 wiki pages. 1,030 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================

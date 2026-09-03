@@ -8750,3 +8750,60 @@ the show, two years after the unanswered internship application.
 pun, and pop culture games are heavy and could probably be some 2015 rap star
 kick."* Nothing follows it. The self-assessment is accurate, which is what
 makes the pattern worth naming.
+
+## [2026-09-03] ingest | self | 2015 and 2016 read in full — the music operation stops, the account goes dark for five months, and 2016 is a step away from the left turn
+
+**2015 (62 rows).** SLOPPP produces **two things in twelve months**: a Far East
+Movement remix entered in a wavo.me contest on 26 January with a
+vote-canvassing post, and a 16 March re-post of a video made in May 2014. After
+roughly forty releases across 2013–14, that is the whole year. What replaces it
+is consumption — YouTube likes, playlist adds, eight consecutive `True Skate`
+gameplay clips on 15–16 July, and two video-poker app auto-posts. **The project
+does not fail, get rejected, or get abandoned in a statement. It stops being
+posted**, and the same account carries on. That is `failure-to-launch` in its
+concrete form.
+
+**The account is silent from 2015-07-16 to 2015-12-04.** Five months, in a year
+with no archival seam to blame, covering `wiki/legal/2015-possession-arrest`
+and the four-month secret housing arrangement on `alexis-armel`. Across seven
+years this feed has narrated a hurricane, a firing, a graduation, jobs and a
+breakup; in the year it is most needed it is switched off. **The public feed is
+not a diary that thins under pressure — it goes dark under pressure**, which
+must be known before any later quiet year is read as an absence of events.
+
+The December 2015 cluster is **deliberately not narrated**, under the Annie
+moratorium. Said on the page in the open so no later session reads the gap as
+an oversight and fills it.
+
+**2016 (76 rows).** The 7 February OSU gig tweet is on the page — the line
+`wiki/interests/music/overview` had leaned toward treating as an AI
+fabrication, resolved there on 2026-09-02. Two consequences recorded here:
+the ten-year music silence has a real counter-example, and **the operator
+export is not a census** — it dropped that row.
+
+**That last point cost a correction to yesterday's own work.** The 2014 page
+had claimed a "spreadsheet-complete year" and leaned on absence for the Cumia
+finding. Amended to "spreadsheet-backed, which is a different thing from
+complete", with the contradiction now explicitly resting on **the two posts he
+made rather than on the silence around them**. The finding is unchanged; its
+support is narrower and honest.
+
+**2016 is a step away from the left turn, not toward it.** No post on or after
+the 2016 election anywhere in the year. The DNC comments are aimed at
+stagecraft (*"The crowd signs at DNC are weirding me the fuck out"*), and on
+8 December: *"I don't know much about politics but Obama is NOT a fascist"* — a
+disclaimer of expertise from the man who argued eight political positions
+sharply in 2011. He was more politically vocal at twenty-two than at
+twenty-eight. Whatever 2020 was, it was not the last step of a gradual
+radicalisation.
+
+**Also:** golf arrives as a subject (four days at the U.S. Open at Oakmont,
+13–16 June, *"Oakmont rough like backyard of a foreclosure house"*) and
+completes a family thread running from *"country club status. bloated sense of
+self worth"* (2009) through the great-grandmother *"country club Queen Bee in
+1960"* (2014). Employment appears only ever as **material** — *"hired actors
+carrying out an elaborate and gloriously stupid performance art piece"* is the
+year's only description of the job — a posture stable across five years and
+four jobs. And on 6 March he forecasts his own outcome with the inherited
+instruments: *"The amount of time I'm gonna spend becoming mediocre at them
+will be crzy."*

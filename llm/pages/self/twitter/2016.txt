@@ -3,8 +3,8 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
-knowledge: derived
+date_modified: 2026-09-03
+knowledge: mixed
 date_range_start: 2016-01-01
 date_range_end: 2016-12-27
 title: "Twitter / X — 2016"
@@ -22,11 +22,172 @@ connections:
   - page: wiki/self/twitter/2017
     type: precedes
     claim: '2016 is the immediately previous year of originals before 2017 on the same account.'
+  - page: wiki/interests/music/overview
+    type: evidences
+    claim: 'The disputed OSU gig tweet is on this page — 2016-02-07, "Had lit times playing @ulmdub birthday party last night at OSU" — confirming the live set that page had leaned toward treating as fabricated, and proving the operator export drops rows.'
+  - page: wiki/mind/synthesis/2020-left-turn
+    type: evidences
+    claim: '2016 is a step backwards, not a step toward the turn: no post on or after the 2016 election at all, DNC comments aimed at stagecraft rather than candidates, and "I don\'t know much about politics but Obama is NOT a fascist" (8 December) — a disclaimer of expertise from a man who argued eight political positions sharply in 2011.'
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidences
+    claim: 'Employment appears on this account only as material — "I think the people at my job training are hired actors carrying out an elaborate and gloriously stupid performance art piece" is the year\'s only description of the work — a posture stable across five years and four jobs. And the inherited instruments post forecasts its own outcome: "The amount of time I\'m gonna spend becoming mediocre at them will be crzy."'
+  - page: wiki/self/location-history
+    type: evidences
+    claim: 'A car chase through his Uniontown yard reported to a Pittsburgh news reporter on 2016-04-21, plus a Pittsburgh snowstorm Periscope and Kennywood in July — a third year placing him in Fayette County inside the address-level blind window.'
 ---
 
 # Twitter / X — 2016
 
-Periscope NYE bedroom DJ sets on day one, then a thin year of asides. Public posting is a valve, not a diary; the real record of 2016 is elsewhere in the corpus.
+**The year the music becomes a hobby and golf becomes a subject.** SLOPPP is
+not gone — there is a Periscope bedroom DJ set on New Year's Day, a Juicy J
+bootleg sent to a blog in March, and one paid-sounding live booking in
+February — but the account's centre of gravity has moved. What 2016 actually
+documents is a man in Fayette County with a new job he finds absurd, a
+girlfriend, a set of inherited instruments, and the U.S. Open in his backyard.
+
+It is also the year that settles a dispute the wiki was carrying about its own
+sources.
+
+## The gig that was thought to be invented
+
+On **7 February 2016**: *"Had lit times playing @ulmdub birthday party last
+night at OSU"*, with a video attached and one repost.
+
+`wiki/interests/music/overview` spent weeks holding this line as a
+**contradiction against itself**: an AI-generated secondary source quoted it,
+the archive did not contain it, and the page leaned toward the reading that the
+analysis had fabricated the quote. A backend fetch on 2026-09-02 recovered the
+tweet — id `696416822011289601`, 2016-02-07T19:34:43 UTC, text matching
+exactly — and that page now records the resolution in full.
+
+Two consequences belong here rather than there. **The ten-year music silence
+that page reported has a real counter-example** — he played a live set, in
+2016, at Ohio State. And **the operator export is not a census**: it missed
+this row. Every claim on every page in this directory that rests on an absence
+is weakened by exactly that much, and the 2014 page has been amended to say so.
+
+## Music as something he still does, occasionally
+
+- **1 January** — two Periscope broadcasts, the first titled *"NYE bedroom DJ set"*. The venue is a bedroom and the audience is whoever is on Periscope at midnight.
+- **7 February** — the OSU set above, the only live booking in the year.
+- **7 March** — a Juicy J bootleg sent directly to `@whatdirt`, the blog that had thanked him for support in 2014. Still working the same contacts, at a much lower rate.
+- **5 March** — *"god save the 808"*, a callback to the *"god save the village green"* of 2011.
+- **6–7 March** — *"I just found/inherited an alto sax, clarinet and mandolin. The amount of time I'm gonna spend becoming mediocre at them will be crzy"*, then *"Got a small fortune in poorly maintained instruments here."*
+
+That inheritance post is worth keeping for the self-knowledge in it. He
+forecasts, accurately and in advance, that he will put substantial time into
+three instruments and arrive at mediocre — and does it in the tone of someone
+describing a known personal weather pattern rather than making a resolution.
+It is the diagnosis-to-behaviour gap stated by the person it describes,
+cheerfully, with no suggestion that naming it changes anything.
+
+## A job, and the register he holds it in
+
+On **24 February**: *"I think the people at my job training are hired actors
+carrying out an elaborate and gloriously stupid performance art piece."*
+
+That is the only description of the work he gives all year. On **12 February**
+he tweets `@creativelicense` — *"having trouble contacting your Mumbai
+offices"* — which is the company a Gemini session elsewhere in the corpus
+describes as a salaried job that turned out to be a fraudulent trap; the joke
+places him still trying to reach them in early 2016.
+
+The pattern across 2011, 2012, 2014 and now 2016 is consistent enough to name:
+**employment appears on this account only as material.** Never as a fact
+stated, never as a complaint, never as a plan — as a bit, delivered to
+followers, about the absurdity of the situation he is inside. `wiki/mind/synthesis/failure-to-launch`
+has the fact of the career; this is the posture toward it, and the posture is
+stable across five years and four jobs.
+
+## Golf arrives, and it is inherited
+
+2016 is the first year golf is a subject rather than a joke, and it arrives all
+at once: *"Nine iron"* (1 March), a WGT Golf mobile clip from Congressional
+(10 June), *"sick Canadian tuxedo on the golf course"* (12 December 2015,
+immediately prior), Harambe jokes about *"these prestigious golf tournaments"*
+(1 September), and four days at the **2016 U.S. Open at Oakmont** (13–16 June),
+attended in person and photographed — *"Oakmont rough like backyard of a
+foreclosure house"*, *"Oakmont greens on some god-mode shit"*, a rain delay.
+
+The Oakmont simile is the interesting one. He is at a major championship in
+Western Pennsylvania and reaches for **foreclosure** as the comparison for deep
+rough — the local landscape used to describe the elite event sitting inside it.
+
+Golf also completes a thread the earlier pages started without knowing it was
+one: *"country club status. bloated sense of self worth"* (2009, as a joke at
+twenty), *"My ratchet great grandma was the country club Queen Bee in 1960"*
+(2014), and now the game itself. `CONTEXT_CORE_EXPANDED` records the family as
+a Republican household with an auto-parts business; the country club is a
+recurring family self-image in his writing, held at an ironic distance and
+never quite dropped.
+
+## Politics: engaged enough to be sour, not engaged enough to show up
+
+The 2020 turn is four years away and 2016 is consistent with that, in a way
+worth stating precisely because it is an absence claim on a year we know is
+imperfectly archived.
+
+What is here: *"The crowd signs at DNC are weirding me the fuck out"* and
+*"agreed. Disgusting that compromised values are the norm"* (both 26 July,
+during the convention); a retweet-in-substance of Keith Olbermann's anti-Trump
+line on 19 October; and, on 8 December, *"I don't know much about politics but
+Obama is NOT a fascist."*
+
+**What is not here is the election.** There is no post on 8 November 2016, none
+in the week after, and nothing about the result at all. The DNC posts are
+directed at the *convention's stagecraft* rather than at either candidate, and
+the December line opens by disclaiming expertise — *"I don't know much about
+politics"* — which is not a sentence the 2020 or 2024 corpus could produce.
+
+Read against 2011's eight sharply argued political posts, this is not a
+progression. It is a man who was more politically vocal at twenty-two than at
+twenty-eight, and who sat out the most consequential American election of his
+adult life in public silence. That is a real data point for
+`wiki/mind/synthesis/2020-left-turn`: whatever 2020 was, it was not the last
+step of a gradual radicalisation, because 2016 is a step backwards.
+
+## Fayette County, confirmed again
+
+**21 April**, to a Pittsburgh news reporter: *"@DKaplanWTAE car chase in
+uniontown went through my yard. Here's the hill where he went airborne."* Also
+a Periscope broadcast of a Pittsburgh snowstorm (20 January), *"FEET of snow"*,
+Kennywood in July, and the Hard Rock Cafe Pittsburgh in June.
+
+Three consecutive years — 2013, 2014, 2016 — now place him in Fayette County
+inside the window `wiki/self/location-history` records as having no
+address-level data.
+
+## Texture
+
+A black-tie event in late February with a tuxedo he objects to on engineering
+grounds (*"I feel like the designers of this tuxedo set out to create the least
+practical piece of formalwear known to man"*), and the next day a note about
+explaining his own *"snarky-ness and 'too cool for the room' attitude"* to a
+date by pointing at a man at the valet stand. Two DJ-technique critiques of
+`@djhotnix` on 4 September, one of which is a numbered breakdown of the
+offending method — the Aoki objection of 2014 in miniature, aimed at a local.
+*"THE GENIUS IS THE ONE WHO IS MOST LIKE HIMSELF"*, attributed to Thelonious
+Monk (7 May). And two self-descriptions filed a year apart in tone: *"master of
+abstraction"* (15 February) and *"Problem causer, feeling feeler, nothing
+accomplisher"* (8 July).
+
+## Under the standing directive
+
+`@Lo_weez` appears throughout the year and `@ulmdub` several times. Beyond the
+7 February gig — which is a music finding and is treated as one — **none of
+that material is narrated on this page**, under the Annie moratorium in
+`CLAUDE.md`. The tweets stay where they are; no account is built from them.
+
+## What would change this reading
+
+The election silence is the load-bearing absence here, and this is the one year
+in the directory **proven** to be missing at least one row. A live-scrape pass
+over November 2016 is the specific thing that would settle it, and until that
+runs the claim should be read as "no election post has been recovered", not "he
+posted nothing". The golf-as-inherited reading is an interpretation stacked on
+three posts across seven years and is offered as a thread to watch rather than
+a finding. And the employment posture claim would break if a single
+straightforward post about a job turns up in any year.
 
 ## Coverage
 
@@ -39,7 +200,7 @@ Periscope NYE bedroom DJ sets on day one, then a thin year of asides. Public pos
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
-## January
+## The record
 
 ### 2016-01-01 00:45:30 UTC · [682724294359695361](https://x.com/danfrank/status/682724294359695361)
 *likes 0 · replies 0 · reposts 0*

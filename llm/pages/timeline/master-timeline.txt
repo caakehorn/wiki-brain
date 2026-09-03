@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,491 events** across **80 years** (1796–2027), drawn from **375 pages**. Tier 1 690 · Tier 2 426 · Tier 3 2,375.
+**3,500 events** across **80 years** (1796–2027), drawn from **377 pages**. Tier 1 692 · Tier 2 426 · Tier 3 2,382.
 
 ## What counts as an event here
 
@@ -1693,6 +1693,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/lauryn-ashly]] · Corpus record
 - · **April 2014** — Wax, Stacks and Racks* is a monthly wrap-up (*"the complete guide to April 2014"*).  
   ↳ [[wiki/self/twitter/2014]] · SLOPPP at full extension
+- · **April 2014** — The January entry is the last competitive submission in the corpus, and it is the same behaviour as the April 2014 Beatport entry: enter, ask for votes, then nothing.  
+  ↳ [[wiki/self/twitter/2015]] · The collapse of the music operation, and why it can be believed
 - ◆ **2014-04-08** — SLOPPP's Week in Trap — Episode 8 — Mix series  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **2014-04-10** — Gladiator – Assembly Line (SLOPPP Snazzy Bounce Edit) — Edit  
@@ -1804,6 +1806,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/jacob-bacharach]] · The house, and the corrections that built the finding
 - · **January 2015** — Her life or career after leaving Creative License in January 2015 is undocumented.  
   ↳ [[wiki/people/katherine-palakovich]] · Katherine Palakovich ("Kittie")
+- ★ **2015-01-26** — Far East Movement — Grimey Thirsty (sloppp remix)*, entered in an official remix contest on wavo.me, with a vote-canvassing post  
+  ↳ [[wiki/self/twitter/2015]] · The collapse of the music operation, and why it can be believed
 - ★ **February 2015** — Dan's only real arrest happened in **February 2015**, in downtown Uniontown at roughly 3am, and it was for drug possession — not for stealing snacks.  
   ↳ [[wiki/legal/2015-possession-arrest]] · The 2015 Possession Arrest
 - ★ **February 2015** — Both were filed in the same magisterial district, before the same judge, three years apart: 2015 possession arrest records Michael Metros from the February 2015 court blotter and states that he "appears once ... and has no other trace in the corpus." He appears twice.  
@@ -1824,6 +1828,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/open-questions]] · legal (3)
 - ◆ **March 2015** — Why the March 2015 Frank Swaney management deal never materialized (or whether it quietly did, off the message record) is undocumented; "Joby," the third party who was to finalize terms with Dan's parents, is otherwise unidentified in the corpus.  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Significance
+- · **2015-03-16** — SLOPPP SUMMER TRAP MICROMIX #3* — a link to a YouTube video dated 22 May 2014  
+  ↳ [[wiki/self/twitter/2015]] · The collapse of the music operation, and why it can be believed
 - · **Spring 2015** — Spring 2015 Demo — Demo  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **Spring 2015** — On March 15–16, 2015, **Frank Swaney** — a Pittsburgh-scene promoter who says he'd run a nine-DJ roster for his own production company and taught at "Spawn Academy in Portland Oregon" — hears the *Spring 2015 Demo* (shared via SoundCloud, initially broken because Dan had left it set to private) and…  
@@ -2334,6 +2340,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/annie-record]] · December
 - · **2015-12-11** — Louis CK.** Dan: *"Do you know who Louis CK is?"* (11:43).  
   ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-12** — 2016 is the first year golf is a subject rather than a joke, and it arrives all at once: *"Nine iron"* (1 March), a WGT Golf mobile clip from Congressional (10 June), *"sick Canadian tuxedo on the golf course"* (12 December 2015, immediately prior), Harambe jokes about *"these prestigious golf…  
+  ↳ [[wiki/self/twitter/2016]] · Golf arrives, and it is inherited
 - · **2015-12-12** — Annie comes over.** Annie: *"Awe b I'm so excited / Sorry i passed out / I guess I a wittle sleepy!"* (16:13–16:15).  
   ↳ [[wiki/timeline/annie-record]] · December
 - · **2015-12-12** — Betty is in trouble.** Annie: *"Heck no / She's in trouble / She bit me twice today and my mom / For no reason"* (16:17–16:18).  
@@ -2867,6 +2875,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · Bernie 2020 as the bridge
 - ★ **2016-02-07** — Does the 2016 "@ulmdub birthday party at OSU" tweet exist?  
   ↳ [[wiki/self/twitter]] · The backfill of 2026-09-02, and what it settled
+- ★ **2016-02-07** — On **7 February 2016**: *"Had lit times playing @ulmdub birthday party last night at OSU"*, with a video attached and one repost.  
+  ↳ [[wiki/self/twitter/2016]] · The gig that was thought to be invented
 - ★ **2016-02-12** — The first_contact: 2016-02-12 field reflects the first contact in the specific 2016–2020 CSV export thread, not the true origin of the relationship.  
   ↳ [[wiki/people/tan-calabrese]] · Tan Calabrese
 - · **2016-02-15** — He frames his own behavior as trying to help while acknowledging he doesn't want "legitimate ties" with Alexis, calling her "diabolical AF." The cluster ends with a full apology on February 15, 2016 for "anything I may have done that need apologizing for."  
@@ -2929,6 +2939,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/legal/2015-possession-arrest]] · Case timeline
 - ★ **2016-08-13** — "Diane and Dave went ALL out this year on a very creative and not the same thing they got last year birthday gift for gram"* — sarcasm, and the only record of either of them marking Fran's birthday  
   ↳ [[wiki/people/dave-moore]] · What the record has him doing
+- · **November 2016** — A live-scrape pass over November 2016 is the specific thing that would settle it, and until that runs the claim should be read as "no election post has been recovered", not "he posted nothing".  
+  ↳ [[wiki/self/twitter/2016]] · What would change this reading
+- · **2016-11-08** — What is not here is the election.** There is no post on 8 November 2016, none in the week after, and nothing about the result at all.  
+  ↳ [[wiki/self/twitter/2016]] · Politics: engaged enough to be sour, not engaged enough to show up
 - · **2016-11-17** — Starting November 17, 2016, Jason works up a detailed colored-pencil portrait of a dog, "Betty," walking Dan through composition choices (color palettes, ink versus pencil, realistic versus abstract treatment) with genuine craft and care, quoting $85 for a 9"x12" piece.  
   ↳ [[wiki/people/jason-cole]] · The commission
 - · **2016-11-30** — "My PlayStation came" (2016-11-30) and "Is the PlayStation working?"  
@@ -7131,6 +7145,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/failure-to-launch]] · Gaps
 - · **2026-08-23** — Stylometrics — linguistic profile — —  
   ↳ [[wiki/mind/synthesis/the-commissioned-self]] · The apparatus
+- · **2026-08-23** — That material is deliberately not written up.** It falls under the standing directive in `CLAUDE.md` — the Annie moratorium of 2026-08-23 — which forbids any new narrative, event, timeline entry or dated line about her, and the December 2015 posts are substantially that.  
+  ↳ [[wiki/self/twitter/2015]] · The December cluster is not narrated here
 - ◆ **2026-08-26** — Two curated vocabularies, generated in a single session on 2026-08-26 from a standing instruction to produce compact terms "tuned toward demonstrated taste: elevated, slightly archaic, ethereal, dangerous, excessive, weirdly formal — not just 'beautiful ×100.'" The output was not a flat list but…  
   ↳ [[wiki/interests/language/vocabulary-lexicon]] · The Vocabulary Lexicon
 - · **2026-08-26** — The same 2026-08-26 session that produced the two vocab batches also generated a second-order reading of the curator's *positive* slang taste — not the curated lists above, but the analyst's inference about the aesthetic hiding inside the curator's word-picks.  
@@ -7289,6 +7305,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter/2008]] · Coverage
 - · **2026-09-02** — The 283 rows here have two origins: 165 walked from live X search in batches of ten, and 118 recovered by the 2026-09-02 backend fetch that also produced the 2008 page.  
   ↳ [[wiki/self/twitter/2009]] · Gaps
+- · **2026-09-02** — A backend fetch on 2026-09-02 recovered the tweet — id `696416822011289601`, 2016-02-07T19:34:43 UTC, text matching exactly — and that page now records the resolution in full.  
+  ↳ [[wiki/self/twitter/2016]] · The gig that was thought to be invented
 - · **2026-09-02** — The `@danfrank` Twitter account was recovered thirteen months further back on 2026-09-02 (2008), and it opens on **24 September 2008**, the day Dan arrives in Winter Park.  
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The period's exit, in his own words, on the day it happened
 - ★ **2026-12-19** — P4 — **No third party ends this relationship.** Any severance that holds past 120 days will be traceable to a self-generated move, not an intervention — a documented outside intervention followed by a severance holding >120 days  
@@ -7305,4 +7323,4 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 375 wiki pages. 1,028 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 377 wiki pages. 1,030 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*

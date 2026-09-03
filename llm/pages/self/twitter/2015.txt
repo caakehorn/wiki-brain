@@ -3,8 +3,8 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-02
-knowledge: derived
+date_modified: 2026-09-03
+knowledge: mixed
 date_range_start: 2015-01-01
 date_range_end: 2015-12-28
 title: "Twitter / X — 2015"
@@ -22,11 +22,112 @@ connections:
   - page: wiki/self/twitter/2016
     type: precedes
     claim: '2015 is the immediately previous year of originals before 2016 on the same account.'
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidences
+    claim: 'SLOPPP does not fail, get rejected or get abandoned in a statement — it stops being posted. Two pieces of output in twelve months (a contest entry on 26 January, a re-post of a 2014 video on 16 March) after roughly forty releases across 2013-14, and the same account carries on as a viewer\'s feed.'
+  - page: wiki/legal/2015-possession-arrest
+    type: co-occurs
+    claim: 'The account is silent from 2015-07-16 to 2015-12-04 — five months, in a year with no archival gap to blame — across the period this page and the Alexis housing arrangement document. The public feed is switched off under pressure rather than thinned by it.'
 ---
 
 # Twitter / X — 2015
 
-Volume drops. YouTube playlist adds, O&A residue, and the flat New Year's 'another year. woo yay other exciting things' — the year the Annie relationship starts in November is almost silent on this account, which is itself a finding: Twitter is not where that year was lived.
+**The year SLOPPP stops.** 2014 ran a Beatport contest entry, six named-artist
+remixes, three mix series and a live video show. 2015 has **two** pieces of
+music output in twelve months: a Far East Movement remix entered into a
+contest on 26 January, and a re-post on 16 March of a micromix video made the
+previous May. That is the whole of it.
+
+The year is also the quietest on the account since 2008 — 62 originals, against
+171 the year before and 346 in 2013 — and it contains a **five-month silence**
+that lands on the most documented period of upheaval in Dan's adult life.
+
+## The collapse of the music operation, and why it can be believed
+
+The 2013 and 2014 pages both had to be hedged, because their shapes were partly
+the archive's. **This one does not, or not in the same way.** All 62 rows come
+from the operator export; there is no month-end truncation and no source seam
+inside the year. The export is not a proven census — it is known to have
+dropped at least one 2016 tweet — but nothing here suggests a systematic hole,
+and a project that released roughly forty things in 2013–14 does not go missing
+from a feed by accident.
+
+What survives of it:
+
+| Date | Output |
+|---|---|
+| 2015-01-26 | *Far East Movement — Grimey Thirsty (sloppp remix)*, entered in an official remix contest on wavo.me, with a vote-canvassing post |
+| 2015-03-16 | *SLOPPP SUMMER TRAP MICROMIX #3* — a link to a YouTube video dated 22 May 2014 |
+
+The January entry is the last competitive submission in the corpus, and it is
+the same behaviour as the April 2014 Beatport entry: enter, ask for votes, then
+nothing. After 16 March there is no music of his own on the account for the
+rest of the year.
+
+**What replaces it is consumption.** The year's other posts are largely YouTube
+likes and playlist adds — an Ookay tour clip, Jack Ü's Madison Square Garden
+New Year set, an Opie & Anthony segment, Alex Jones at Dealey Plaza — plus, on
+15–16 July, **eight consecutive posts of `True Skate` mobile gameplay clips**
+through Kamcord, and two auto-posts for a video poker app on 17 February. The
+producer's feed has become a viewer's feed.
+
+This is the concrete shape of a thing `wiki/mind/synthesis/failure-to-launch`
+argues in the abstract: the project does not fail, get rejected, or get
+abandoned in a statement. It simply stops being posted, and the same account
+carries on.
+
+## The five months the account is not there
+
+Between **16 July and 4 December 2015 there is nothing on this page.** Not a
+thinning — a stop, in a year with no archival gap to blame.
+
+That window covers what the corpus documents as the most turbulent stretch of
+Dan's adult life: `wiki/legal/2015-possession-arrest`, and the housing
+arrangement `wiki/people/alexis-armel` describes as roughly four months of
+secretly keeping a former partner at 337 Saratoga after she was thrown out.
+
+**The finding is the silence itself, and it is a real one.** Across seven years
+this account has been where Dan narrates a hurricane, a firing, a graduation, a
+job, an internship and a breakup. In the year it is most needed as a record, it
+is empty. The public feed is not a diary that thins under pressure; it is
+switched off under pressure, which is worth knowing before any later year's
+quietness is read as an absence of events.
+
+## The December cluster is not narrated here
+
+The account restarts on 4 December and the last four weeks of the year are
+dense and personal.
+
+**That material is deliberately not written up.** It falls under the standing
+directive in `CLAUDE.md` — the Annie moratorium of 2026-08-23 — which forbids
+any new narrative, event, timeline entry or dated line about her, and the
+December 2015 posts are substantially that. The tweets themselves remain below,
+where they already were; nothing is deleted and nothing is redacted. What does
+not happen is this page turning them into an account.
+
+Recorded openly rather than passed over in silence, so that no later session
+reads the gap in this narrative as an oversight and fills it.
+
+## What is left, and it is thin
+
+*"another year. woo yay other exciting things"* on 1 January is the year's
+opening line and a fair summary of its register. There is a Kanye playlist add
+on the 4th, one joke about Duran Duran in March, and *"Skeert"* in June.
+
+The thinness is the content. `wiki/self/twitter`'s own framing — that public
+posting is a valve rather than a diary — is at its clearest in 2015: a
+spreadsheet-backed year with a working music project at the start of it, a
+five-month blackout in the middle, and sixty-two posts in total.
+
+## What would change this reading
+
+Everything above rests on the export being reasonably complete for 2015. It is
+not proven to be, and the demonstrated 2016 miss means a live-scrape pass over
+this year is genuinely worth running rather than a formality. If it returns a
+substantial July-to-December body of posts, the blackout is an artefact and the
+central finding of this page is void. If it returns music releases, the
+collapse is too. Nothing else here would survive that either — which is why the
+page says it plainly rather than in a footnote.
 
 ## Coverage
 
@@ -39,7 +140,7 @@ Volume drops. YouTube playlist adds, O&A residue, and the flat New Year's 'anoth
 
 This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 
-## January
+## The record
 
 ### 2015-01-01 05:01:15 UTC · [550517084174942210](https://x.com/danfrank/status/550517084174942210)
 *likes 0 · replies 0 · reposts 0*
