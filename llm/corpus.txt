@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-04
-497 pages, ~1,841,049 tokens.
+497 pages, ~1,843,775 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -4398,6 +4398,9 @@ connections:
   - page: wiki/mind/synthesis/music-as-identity
     type: component-of
     claim: "Smith's quiet-pole role is the emotional-regulator facet of the four-mode music-as-identity thesis."
+  - page: wiki/self/twitter/2018
+    type: evidenced-by
+    claim: "'Gonna crowdfund an Elliott Smith tattoo for myself. I deserve it' (24 January 2018) is the only evidence that the attachment was ever meant to be permanent — nine months before the October 2018 Misfits sequence, and no later source records it being done."
 ---
 
 
@@ -4709,11 +4712,16 @@ domain: interests
 page_type: entity
 status: stable
 date_created: 2026-08-01
-date_modified: 2026-08-01
+date_modified: 2026-09-04
 sources:
   - "raw/self/concerts/table.csv"
+  - "raw/self/twitter/archive.jsonl"
 related: []
 tags: [music-production, digital-footprint]
+connections:
+  - page: wiki/self/twitter/2009
+    type: evidenced-by
+    claim: "The order of operations behind the ticket: 'omg so excited for flight of the conchords tonight.' on Sunday 25 January 2009 is the HBO series airing, ten weeks before the 8 April UCF Arena show — so the concert was bought by somebody already watching, which a ticket stub cannot show."
 ---
 
 # Flight of the Conchords
@@ -4731,6 +4739,18 @@ All dates, venues, cities, and notes below are taken from the source table and p
 ## Notes per appearance
 
 - **Apr 8, 2009** — Flight of the Conchords, UCF Arena, Orlando, FL. Confirmed.
+
+## Before the ticket
+
+**2009-01-25, 17:18 EST:** *"omg so excited for flight of the conchords tonight."*
+
+The concert is 8 April 2009 at the UCF Arena. This is ten weeks earlier, on a
+Sunday, during the run of the HBO series' second season — so it is the show on
+television, not the show on stage. Small, and it establishes the sequence the
+concert log cannot: **he was already watching, and the ticket followed.** For
+an entry otherwise built from one row of a ticket table, that is the difference
+between a night out and an interest. `wiki/self/twitter/2009`.
+
 
 
 ========================================================================
@@ -5089,11 +5109,16 @@ domain: interests
 page_type: entity
 status: stable
 date_created: 2026-08-01
-date_modified: 2026-08-01
+date_modified: 2026-09-04
 sources:
   - "raw/self/concerts/table.csv"
+  - "raw/self/twitter/archive.jsonl"
 related: []
 tags: [music-production, digital-footprint]
+connections:
+  - page: wiki/self/twitter/2009
+    type: evidenced-by
+    claim: "Thirteen months after the confirmed Burgettstown show he is still playing the records unprompted — 'i'm getting super jammy to john mayer today. good moods breed good moods.' (30 September 2009) — and in November he is bantering with a fan account, @JMayerFan216, which is a level of engagement no ticket record reaches."
 ---
 
 # John Mayer
@@ -5111,6 +5136,23 @@ All dates, venues, cities, and notes below are taken from the source table and p
 ## Notes per appearance
 
 - **Aug 14, 2003 (or Aug 11, 2004, or Aug 20, 2008)** — John Mayer, Post-Gazette Pavilion, Burgettstown, PA. Three viable matches; none on a Coldplay bill.
+
+## After the ticket
+
+The concert table's ambiguity — three viable dates, resolved to 20 August 2008
+by an order number — records that he went. The twitter archive records that it
+stuck.
+
+- **2009-09-30:** *"i'm getting super jammy to john mayer today. good moods breed good moods."*
+- **2009-11-28:** *"@JMayerFan216 LUVZ JOHN MAYER!"*
+
+Thirteen and fifteen months after the show, unprompted, from Orlando. The
+second is addressed to a dedicated John Mayer fan account, which places him
+inside that fandom's social layer rather than adjacent to it — and it sits in
+the same autumn as the emo, pop-punk and Jedi Mind Tricks material on
+`wiki/self/twitter/2009`, which is a wider taste at twenty than either page
+suggests alone.
+
 
 
 ========================================================================
@@ -5174,6 +5216,10 @@ related:
 changelog:
   - 2026-07-11: Full rewrite from stub. Added producer-lineage framing, post-2016 complexity, wiki links.
 tags: [music-production, grief]
+connections:
+  - page: wiki/self/twitter/2013
+    type: evidenced-by
+    claim: "A dated reassessment in his own words: 'I remembr a 2005 conversation wherein we determined Kanye to be the most racist person/rapper on earth. We didn't have any idea' (25 August 2013) — a 2005 teenage judgement recalled and retracted in public eight years later, on a figure this page says no uncomplicated engagement is now possible with."
 ---
 
 # Kanye West
@@ -5206,15 +5252,19 @@ domain: interests
 page_type: entity
 status: stable
 date_created: 2026-08-01
-date_modified: 2026-08-01
+date_modified: 2026-09-04
 sources:
   - "raw/self/concerts/table.csv"
+  - "raw/self/twitter/archive.jsonl"
 related: []
 tags: [music-production, digital-footprint]
 connections:
   - page: wiki/interests/concert-record/festivals/the-bamboozle-2011
     type: component-of
     claim: "Lil Wayne performed at The Bamboozle 2011 on Apr 29 - May 1, 2011 (New Meadowlands Stadium, East Rutherford, NJ)."
+  - page: wiki/self/twitter/2011
+    type: evidenced-by
+    claim: "He publicly called the artist stupid three months before seeing him: 'the stupid just keeps oozing out of this guy' (19 January 2011) against a Bamboozle bill Lil Wayne headlined on 29 April - 1 May — which is the concert record's own stated principle in action, that the unit of attendance is the event and you get whoever is on it."
 ---
 
 # Lil Wayne
@@ -5232,6 +5282,26 @@ All dates, venues, cities, and notes below are taken from the source table and p
 ## Notes per appearance
 
 - **Apr 29 - May 1, 2011** — The Bamboozle 2011, New Meadowlands Stadium, East Rutherford, NJ. Festival edition. Lineup included Lil Wayne, Motley Crue, Taking Back Sunday, A Day to Remember.
+
+## He had gone on record against him three months earlier
+
+**2011-01-19**, quoting a Pitchfork item: *"the stupid just keeps oozing out of
+this guy @pitchforkmedia: Lil Wayne says he enjoyed reading the Bible in jail:
+'It was deep!'"*
+
+The Bamboozle 2011 festival ran **29 April – 1 May**, Lil Wayne on the bill.
+Fourteen weeks separate the two, and nothing in the archive marks a change of
+mind.
+
+This is worth keeping because it is the clearest small illustration of what
+`wiki/interests/concert-record/index` states as a principle: **the unit of
+attendance is the event, not the artist.** A festival ticket is a claim about a
+weekend, not an endorsement of everyone on the poster, and reading an artist
+page as a favorites list will get this backwards. A later, gentler mention on
+Halloween 2011 — a stranger's *"Barry Bonds / Freddy Kreuger / Lil Wayne hybrid
+costume"* — and a 2014 hour spent making distorted images of him suggest an
+ongoing amused attention rather than either fandom or contempt.
+
 
 
 ========================================================================
@@ -9727,6 +9797,9 @@ connections:
   - page: wiki/self/twitter/2010
     type: evidenced-by
     claim: "'remember when he stole \'shut up Oscar!\' from us in s5 of the office?' to Eric Jester (12 March 2010) is the idiom operating as shared private property between two friends rather than as a reference either is explaining."
+  - page: wiki/self/twitter/2011
+    type: evidenced-by
+    claim: "Three years after the Winter Park apartment was named 'schrute farms', the phrase is still load-bearing enough to carry a pun with no setup — 'there's 100 dogs at the office, and no I'm not employed as a dog walker' — in a year with no television content in it at all."
 ---
 
 # The Office (TV)
@@ -10693,7 +10766,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 497 |
-| Pages touched in the last 14 days | 180 |
+| Pages touched in the last 14 days | 183 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 48 |
 | Open gaps | 605 |
@@ -10726,8 +10799,9 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-04** — 16 pages
+**2026-09-04** — 19 pages
   - site | meta | the Wikipedia-style reader is served again
+  - connect | self, interests, health, mind, people | the twitter archive read back onto the pages it was always about
 
 **2026-09-03** — 35 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
@@ -12295,9 +12369,9 @@ chart:
       points:
         "Translated": 28
         "Major lane": 42
-        "Free lane": 39
+        "Free lane": 40
         "Held (people)": 94
-        "Too thin": 48
+        "Too thin": 47
         "Withheld": 217
 sources: []
 ---
@@ -12336,13 +12410,13 @@ is arithmetic in `bin/wiki-plain`: 900 words is the boundary.
 | Lane | What is in it | Outstanding |
 |---|---|---|
 | `major` | entries of 900 words or more — the dense findings | 42 |
-| `free` | entries under 900 words, worked smallest first | 39 |
+| `free` | entries under 900 words, worked smallest first | 40 |
 
 A further **94** eligible entries about other people are in
 neither lane. They are held back deliberately, pending a decision about
 who writes plain-English prose about living people for a public site.
 
-**48** more are under 300 words — stubs, and
+**47** more are under 300 words — stubs, and
 records like a concert date with its lineup. A table is already plain
 and a one-sentence entry translated is the same sentence, so these get
 no plain edition until the entry itself has an argument in it. They are
@@ -12395,13 +12469,13 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 - [[wiki/self/twitter/2009]] (9061 words)
 - [[wiki/self/twitter/2022]] (8060 words)
 
-**free** — 39 outstanding
+**free** — 40 outstanding
 
 - [[wiki/work/caviar-courier]] (301 words)
 - [[wiki/interests/favorites/books/authors/adrian-goldsworthy]] (315 words)
+- [[wiki/interests/favorites/music/artists/lil-wayne]] (320 words)
 - [[wiki/interests/rock-irrelevance-thesis]] (320 words)
 - [[wiki/interests/favorites/books/authors/jonathan-karl]] (328 words)
-- [[wiki/interests/favorites/books/authors/bob-woodward]] (342 words)
 
 Entries considered and deliberately given no plain edition are recorded
 in `plain/DECLINED.md`, with the reasoning, rather than left looking
@@ -12437,14 +12511,17 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-04 — 16 pages
+## 2026-09-04 — 19 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/chemical-architecture]] | health | _(carries a GAP CLOSED from 2026-08-28)_ |
 | [[wiki/interests/concert-record/index]] | interests | — |
+| [[wiki/interests/favorites/music/artists/flight-of-the-conchords]] | interests | — |
 | [[wiki/interests/favorites/music/artists/hey-monday]] | interests | **GAP CLOSED** — The source table read *"2008 · Unknown · Orlando, FL · Still open — band formed 2008 in West Palm Beach; exact Orlando show unresolved."* Two tweets settle it, and they are worth reading together beca |
 | [[wiki/interests/favorites/music/artists/jedi-mind-tricks]] | interests | — |
+| [[wiki/interests/favorites/music/artists/john-mayer]] | interests | — |
+| [[wiki/interests/favorites/music/artists/lil-wayne]] | interests | — |
 | [[wiki/interests/favorites/music/artists/the-starting-line]] | interests | — |
 | [[wiki/interests/music/aliases/sloppp]] | interests | _(carries a GAP CLOSED from 2026-09-02)_ |
 | [[wiki/interests/the-office]] | interests | — |
@@ -39437,6 +39514,9 @@ connections:
   - page: wiki/self/twitter/2009
     type: evidenced-by
     claim: 'The relationship\'s first six weeks are recorded in real time on the 2009 twitter page, and its surrounding weather is too: he is ill for most of December, shuttling between two states, and sitting Full Sail finals across the same days he is posting "dan in love." The speed is not the speed of a man with nothing else happening.'
+  - page: wiki/self/twitter/2013
+    type: evidenced-by
+    claim: "The public record closes the only documented interval in six years when this relationship is off: 'Alexis Armel and a doppelgangar mosquito' (8 September 2013) is the first naming after eleven days of @katie_efff in late August, which bounds the break to roughly six to eight weeks with another person documented inside it."
 ---
 
 # Alexis Armel
@@ -49234,6 +49314,9 @@ connections:
   - page: wiki/timeline/periods/full-sail-2008-2010
     type: component-of
     claim: "Eric is the cohort member whose sparse, decade-spanning check-ins pick up exactly where they left off — the era's clearest evidence that a Full Sail friendship never needed active maintenance to survive."
+  - page: wiki/self/twitter/2010
+    type: evidenced-by
+    claim: "The banter is running at full volume in 2010, seven years before the message thread opens — '@EricJester 8 year old Eric Jester loves drinking in church....' (19 August) and, in March, 'remember when he stole shut up Oscar! from us in s5 of the office?' — a shared private idiom neither of them explains."
 ---
 
 # Eric Jester
@@ -63619,6 +63702,9 @@ connections:
   - page: wiki/mind/concepts/acquisition-drive
     type: co-occurs
     claim: "The undated episode in which Dan used his sister's ATM card while she was away at college, under a pretext he flags in his own telling as a pretext, is the operator's chosen illustration of the drive running with no consequence-modelling attached."
+  - page: wiki/self/twitter/2013
+    type: evidenced-by
+    claim: "The five 2013 posts under @VanessaFrankzz are the only contemporaneous record of the sibling relationship before the message thread opens in December 2015, and every one of them is a joke made at her expense in public — 'Hair Alert!', 'Kill yourself, make the world a better place', 'has geriatric comedy on lock' — which is a register the low-conflict message thread never shows."
 ---
 
 # Vanessa C. Frank
@@ -74001,6 +74087,12 @@ connections:
   - page: wiki/timeline/periods/full-sail-2008-2010
     type: contradicts
     claim: 'Two contemporaneous dates contradict the August 2009 graduation that page carries: a "last month of college" beginning 1 September 2009, and coursework with a Pro Tools lab, a practical and an AWS final running to 19 December 2009.'
+  - page: wiki/interests/favorites/music/artists/flight-of-the-conchords
+    type: evidences
+    claim: "Dates the fandom ten weeks before the ticket: 'omg so excited for flight of the conchords tonight.' on Sunday 25 January 2009 is the HBO series, and the UCF Arena show is 8 April — so the concert followed the watching rather than starting it."
+  - page: wiki/interests/favorites/music/artists/john-mayer
+    type: evidences
+    claim: "Thirteen months after the confirmed 2008 show the records are still in rotation ('good moods breed good moods') and by November he is bantering with a dedicated fan account, @JMayerFan216 — engagement no ticket table reaches."
 ---
 
 # Twitter / X — 2009
@@ -76017,6 +76109,9 @@ connections:
   - page: wiki/health/chemical-architecture
     type: evidences
     claim: "The clearest single instance of the nicotine row's substitution pattern: 'today is day 1 with no tobacco' (13 December) is a switch to an e-cigarette, announced as a quit, with '(un) hooked' corrected mid-sentence by the man writing it."
+  - page: wiki/people/eric-jester
+    type: evidences
+    claim: "Two 2010 posts hold the friendship at full volume seven years before the message thread begins — a church joke at his expense in August, and a shared Office in-joke in March that neither man explains because neither has to."
 ---
 
 # Twitter / X — 2010
@@ -78417,6 +78512,12 @@ connections:
   - page: wiki/health/chemical-architecture
     type: evidences
     claim: "Supplies the only relapse in the eighteen-year nicotine record that is nowhere stated: '1 week smoke free!' on 10 January restarts a counter begun on 13 December 2010, so the e-cigarette quit broke inside three weeks and survives only as arithmetic."
+  - page: wiki/interests/favorites/music/artists/lil-wayne
+    type: evidences
+    claim: "He called the artist stupid in public on 19 January and was at a Bamboozle bill he headlined fourteen weeks later — the concert record's own principle in action, that a festival ticket is a claim about a weekend and not an endorsement of the poster."
+  - page: wiki/interests/the-office
+    type: evidences
+    claim: "'What the fuck there's 100 dogs at the office, and no I'm not employed as a dog walker.' (21 October 2011) is a pun that only lands because the phrase was already doing double duty — the register surviving three years past the 2008 apartment that was named out of it."
 ---
 
 # Twitter / X — 2011
@@ -81639,6 +81740,12 @@ connections:
   - page: wiki/interests/music/aliases/sloppp
     type: evidences
     claim: "29 distinct SLOPPP titles across 48 posts, 16 of them in September alone, against a discography table that records nine for the whole year — and the same month carries '#overcompensating #poseur #fakefuture' attached to a release announcement."
+  - page: wiki/interests/favorites/music/artists/kanye-west
+    type: evidences
+    claim: "'I remembr a 2005 conversation wherein we determined Kanye to be the most racist person/rapper on earth. We didn't have any idea' (25 August 2013) dates both a 2005 teenage judgement and its public retraction, on the artist whose catalogue is second-largest in his favorites."
+  - page: wiki/people/alexis-armel
+    type: evidences
+    claim: "Bounds the only off-interval in six years from the public side and names who was in it: 'I guess I tweet more when I'm single?' (9 August), eleven days with @katie_efff in late August, and Alexis named again on 8 September."
 ---
 
 # Twitter / X — 2013
@@ -84016,6 +84123,9 @@ connections:
   - page: wiki/interests/music/aliases/sloppp
     type: evidences
     claim: "The alias's second and last full year in public, 31 posts: a Beatport contest entry, official-style flips for six named acts, two running mix series, and 'as a nobody DJ' written in the same month he entered the contest."
+  - page: wiki/interests/favorites/music/artists/lil-wayne
+    type: evidences
+    claim: "An hour spent making Picasso-style distortion edits of the artist's photographs (30 April 2014) — three years after calling him stupid and seeing him at Bamboozle, which reads as sustained amused attention rather than as fandom or contempt."
 ---
 
 # Twitter / X — 2014
@@ -87340,6 +87450,9 @@ connections:
   - page: wiki/mind/synthesis/2020-left-turn
     type: evidences
     claim: 'The 2018 reading is Resistance-liberal — Fire and Fury on publication weekend, Comey\'s A Higher Loyalty pre-ordered and chased — and 15 February conceives Trump as a wasted vehicle for gun control, a thought available only to somebody who still believes the vehicle matters more than the direction.'
+  - page: wiki/interests/favorites/music/artists/elliott-smith
+    type: evidences
+    claim: "Records an intended Elliott Smith tattoo on 24 January 2018 — 'I deserve it' — which places a tattoo year opening nine months before the Misfits work that wiki/self/tattoos treats as its start, and which nothing later shows was carried out."
 ---
 
 # Twitter / X — 2018
@@ -94021,6 +94134,9 @@ connections:
   - page: wiki/mind/concepts/calibrated-confidence
     type: evidences
     claim: "Public posts grade the world rather than his own certainty — '25% at best for Kamala', 'a 0% chance that he would not', 'an astronomically high probability' — and add two behaviours the message corpus does not hold: he polices other people's calibration ('That's a level of certainty I'm not sure how you've arrived at') and audits his own past estimates against himself after the fact."
+  - page: wiki/people/katie-fletcher
+    type: evidences
+    claim: "The archive is the only contemporaneous record of that relationship in the corpus — six posts across 21-31 August 2013, a handle (@katie_efff), a geotagged afternoon and a Vine from inside the Oddball show — against a page that said everything known about her came from Dan's later AI narration."
 ---
 
 # Twitter / X Activity (@danfrank)
@@ -102289,7 +102405,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,599 events** across **80 years** (1796–2027), drawn from **385 pages**. Tier 1 699 · Tier 2 445 · Tier 3 2,455.
+**3,605 events** across **80 years** (1796–2027), drawn from **386 pages**. Tier 1 700 · Tier 2 448 · Tier 3 2,457.
 
 ## What counts as an event here
 
@@ -103135,6 +103251,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/danielle-onesi]] · Gabe (Cat Debt)
 - · **August 2008** — Danielle picks out Gabe at shelter, day after Dan arrives at Full Sail — context-core; CATO  
   ↳ [[wiki/people/danielle-onesi]] · Timeline
+- ◆ **2008-08-20** — The concert table's ambiguity — three viable dates, resolved to 20 August 2008 by an order number — records that he went.  
+  ↳ [[wiki/interests/favorites/music/artists/john-mayer]] · After the ticket
 - ★ **September 2008** — Childhood/adolescence (moved from 12 Bryer Ave)  
   ↳ [[wiki/places/337-saratoga-drive]] · Occupancy history
 - ★ **September 2008** — Uniontown PA · 337 Saratoga Dr — Ski identity; Republican household. **Hinge Nov 2005:** parental rupture (father rehab + mother affair)  
@@ -103256,6 +103374,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/danielle-onesi]] · Timeline
 - · **2009** — Dan cheats (Baltimore girl, Jack/ATL connection)  
   ↳ [[wiki/people/danielle-onesi]] · Timeline
+- ◆ **2009-01-25** — 2009-01-25, 17:18 EST:** *"omg so excited for flight of the conchords tonight."  
+  ↳ [[wiki/interests/favorites/music/artists/flight-of-the-conchords]] · Before the ticket
 - · **April 2009** — Date range: Apr 2009 - Sep 2022 (from "added you as friend on" patterns)  
   ↳ [[wiki/self/facebook/friends]] · Stats
 - · **April 2009** — Date range proxies Apr 2009 - Sep 2022 (interaction/activity stamps + known posts; actual "added on" text sparse in clean export).  
@@ -103264,6 +103384,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/concert-record/index]] · Master event list
 - ◆ **2009-04-08** — Flight of the Conchords — UCF Arena — Orlando, FL — Confirmed.  
   ↳ [[wiki/interests/favorites/music/artists/flight-of-the-conchords]] · Live appearances
+- ◆ **2009-04-08** — The concert is 8 April 2009 at the UCF Arena.  
+  ↳ [[wiki/interests/favorites/music/artists/flight-of-the-conchords]] · Before the ticket
 - ◆ **2009-04-08** — 30 — Flight of the Conchords — UCF Arena — Orlando, FL — Confirmed  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - ★ **2009-06-13** — Vehicle equipment — render inoperative — 1 — **guilty plea  
@@ -103284,6 +103406,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter/2009]] · School ends, and the record says it ends later than the wiki does
 - · **September 2009** — And the shape of the early years is the archive, not the man.** 2009 through 2013 were assembled from a live scrape capped at ten results per month-bounded query, so January–September 2009 and much of 2010–2012 survive as clusters on the last days of each month; 2013's apparent mid-August explosion…  
   ↳ [[wiki/self/twitter]] · The blackouts, and why the volume curve cannot be read as a life curve
+- · **2009-09-30** — 2009-09-30:** *"i'm getting super jammy to john mayer today. good moods breed good moods."  
+  ↳ [[wiki/interests/favorites/music/artists/john-mayer]] · After the ticket
 - · **October 2009** — Defining event  
   ↳ [[wiki/people/stephanie-nalbone]] · Corpus record
 - · **2009-10-06** — On **October 6, 2009**, writing to Stephanie Nalbone from Florida at eleven in the morning, Dan is watching *Pan's Labyrinth* instead of mixing tracks and reports that he is "trying to not imagine zach clingan as the creepy faun. they both lie about shit, so there's a literal connection too heh?…  
@@ -103328,6 +103452,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/josh-brannan]] · The tweet record, 2009–2012
 - ◆ **2009-11-28** — It is **2009-11-28**, on Twitter, at twenty-one, from Pennsylvania over Thanksgiving weekend:  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · The exit is eleven years older than the arrival
+- · **2009-11-28** — 2009-11-28:** *"@JMayerFan216 LUVZ JOHN MAYER!"  
+  ↳ [[wiki/interests/favorites/music/artists/john-mayer]] · After the ticket
 - · **2009-11-28** — Anti-authority, no economics** — 2009–2012  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · The four stages, and what 2020 actually converted him from
 - · **2009-11-28** — On **28 November 2009**, linking out twice in succession, he writes:  
@@ -103554,6 +103680,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/chats/gemini-58]] · Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)
 - · **2011-01-18** — Jamin "copy and paste the line over the 'a' in his name on Bandcamp" (same day).  
   ↳ [[wiki/self/chats/gemini-58]] · Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)
+- ★ **2011-01-19** — 2011-01-19**, quoting a Pitchfork item: *"the stupid just keeps oozing out of this guy @pitchforkmedia: Lil Wayne says he enjoyed reading the Bible in jail: 'It was deep!'"  
+  ↳ [[wiki/interests/favorites/music/artists/lil-wayne]] · He had gone on record against him three months earlier
 - · **2011-01-24** — Freezepocalypse — "All over NY" — a joke check-in during a storm  
   ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
 - · **2011-02-26** — Glenn Beck — *"DANGEROUS"* — media demagoguery  
@@ -108990,7 +109118,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 16 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 19 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -109156,7 +109284,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-02** — jerel coles** — 4. **What load broke a thirteen-day-held off-switch?** Test the hypothesis above against the 2026-08-02 → 08-08 logs.  
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **2026-08-02** — acquisition drive — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 16 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 19 pages
 - · **2026-08-02** — fran coldren — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 50 pages
 - · **2026-08-02** — big five psychometrics — mind  
@@ -109588,7 +109716,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
 - · **2026-08-23** — calibrated confidence — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 16 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 19 pages
 - · **2026-08-23** — overview — interests  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
 - · **2026-08-23** — closing the set — mind  
@@ -109662,7 +109790,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — chemical architecture — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 16 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 19 pages
 - · **2026-08-28** — cocaine — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 4 pages
 - · **2026-08-28** — alias as periodization — mind  
@@ -109746,7 +109874,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-09-02** — The git log read as a record of *operations* rather than saves  
   ↳ [[wiki/meta/instruments/index]] · The measures
 - · **2026-09-02** — sloppp — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 16 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 19 pages
 - · **2026-09-02** — 2020 left turn — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
 - · **2026-09-02** — failure to launch — mind  
@@ -109791,7 +109919,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 385 wiki pages. 3,897 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 386 wiki pages. 3,897 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================

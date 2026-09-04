@@ -13,6 +13,10 @@ related:
 changelog:
   - 2026-07-11: Full rewrite from stub. Added producer-lineage framing, post-2016 complexity, wiki links.
 tags: [music-production, grief]
+connections:
+  - page: wiki/self/twitter/2013
+    type: evidenced-by
+    claim: "A dated reassessment in his own words: 'I remembr a 2005 conversation wherein we determined Kanye to be the most racist person/rapper on earth. We didn't have any idea' (25 August 2013) — a 2005 teenage judgement recalled and retracted in public eight years later, on a figure this page says no uncomplicated engagement is now possible with."
 ---
 
 # Kanye West

@@ -20,6 +20,9 @@ connections:
   - page: wiki/mind/synthesis/music-as-identity
     type: component-of
     claim: "Smith's quiet-pole role is the emotional-regulator facet of the four-mode music-as-identity thesis."
+  - page: wiki/self/twitter/2018
+    type: evidenced-by
+    claim: "'Gonna crowdfund an Elliott Smith tattoo for myself. I deserve it' (24 January 2018) is the only evidence that the attachment was ever meant to be permanent — nine months before the October 2018 Misfits sequence, and no later source records it being done."
 ---
 
 

@@ -136,6 +136,9 @@ connections:
   - page: wiki/mind/concepts/calibrated-confidence
     type: evidences
     claim: "Public posts grade the world rather than his own certainty — '25% at best for Kamala', 'a 0% chance that he would not', 'an astronomically high probability' — and add two behaviours the message corpus does not hold: he polices other people's calibration ('That's a level of certainty I'm not sure how you've arrived at') and audits his own past estimates against himself after the fact."
+  - page: wiki/people/katie-fletcher
+    type: evidences
+    claim: "The archive is the only contemporaneous record of that relationship in the corpus — six posts across 21-31 August 2013, a handle (@katie_efff), a geotagged afternoon and a Vine from inside the Oddball show — against a page that said everything known about her came from Dan's later AI narration."
 ---
 
 # Twitter / X Activity (@danfrank)

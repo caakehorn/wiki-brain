@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,599 events** across **80 years** (1796–2027), drawn from **385 pages**. Tier 1 699 · Tier 2 445 · Tier 3 2,455.
+**3,605 events** across **80 years** (1796–2027), drawn from **386 pages**. Tier 1 700 · Tier 2 448 · Tier 3 2,457.
 
 ## What counts as an event here
 
@@ -865,6 +865,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/danielle-onesi]] · Gabe (Cat Debt)
 - · **August 2008** — Danielle picks out Gabe at shelter, day after Dan arrives at Full Sail — context-core; CATO  
   ↳ [[wiki/people/danielle-onesi]] · Timeline
+- ◆ **2008-08-20** — The concert table's ambiguity — three viable dates, resolved to 20 August 2008 by an order number — records that he went.  
+  ↳ [[wiki/interests/favorites/music/artists/john-mayer]] · After the ticket
 - ★ **September 2008** — Childhood/adolescence (moved from 12 Bryer Ave)  
   ↳ [[wiki/places/337-saratoga-drive]] · Occupancy history
 - ★ **September 2008** — Uniontown PA · 337 Saratoga Dr — Ski identity; Republican household. **Hinge Nov 2005:** parental rupture (father rehab + mother affair)  
@@ -986,6 +988,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/danielle-onesi]] · Timeline
 - · **2009** — Dan cheats (Baltimore girl, Jack/ATL connection)  
   ↳ [[wiki/people/danielle-onesi]] · Timeline
+- ◆ **2009-01-25** — 2009-01-25, 17:18 EST:** *"omg so excited for flight of the conchords tonight."  
+  ↳ [[wiki/interests/favorites/music/artists/flight-of-the-conchords]] · Before the ticket
 - · **April 2009** — Date range: Apr 2009 - Sep 2022 (from "added you as friend on" patterns)  
   ↳ [[wiki/self/facebook/friends]] · Stats
 - · **April 2009** — Date range proxies Apr 2009 - Sep 2022 (interaction/activity stamps + known posts; actual "added on" text sparse in clean export).  
@@ -994,6 +998,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/concert-record/index]] · Master event list
 - ◆ **2009-04-08** — Flight of the Conchords — UCF Arena — Orlando, FL — Confirmed.  
   ↳ [[wiki/interests/favorites/music/artists/flight-of-the-conchords]] · Live appearances
+- ◆ **2009-04-08** — The concert is 8 April 2009 at the UCF Arena.  
+  ↳ [[wiki/interests/favorites/music/artists/flight-of-the-conchords]] · Before the ticket
 - ◆ **2009-04-08** — 30 — Flight of the Conchords — UCF Arena — Orlando, FL — Confirmed  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
 - ★ **2009-06-13** — Vehicle equipment — render inoperative — 1 — **guilty plea  
@@ -1014,6 +1020,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter/2009]] · School ends, and the record says it ends later than the wiki does
 - · **September 2009** — And the shape of the early years is the archive, not the man.** 2009 through 2013 were assembled from a live scrape capped at ten results per month-bounded query, so January–September 2009 and much of 2010–2012 survive as clusters on the last days of each month; 2013's apparent mid-August explosion…  
   ↳ [[wiki/self/twitter]] · The blackouts, and why the volume curve cannot be read as a life curve
+- · **2009-09-30** — 2009-09-30:** *"i'm getting super jammy to john mayer today. good moods breed good moods."  
+  ↳ [[wiki/interests/favorites/music/artists/john-mayer]] · After the ticket
 - · **October 2009** — Defining event  
   ↳ [[wiki/people/stephanie-nalbone]] · Corpus record
 - · **2009-10-06** — On **October 6, 2009**, writing to Stephanie Nalbone from Florida at eleven in the morning, Dan is watching *Pan's Labyrinth* instead of mixing tracks and reports that he is "trying to not imagine zach clingan as the creepy faun. they both lie about shit, so there's a literal connection too heh?…  
@@ -1058,6 +1066,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/josh-brannan]] · The tweet record, 2009–2012
 - ◆ **2009-11-28** — It is **2009-11-28**, on Twitter, at twenty-one, from Pennsylvania over Thanksgiving weekend:  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · The exit is eleven years older than the arrival
+- · **2009-11-28** — 2009-11-28:** *"@JMayerFan216 LUVZ JOHN MAYER!"  
+  ↳ [[wiki/interests/favorites/music/artists/john-mayer]] · After the ticket
 - · **2009-11-28** — Anti-authority, no economics** — 2009–2012  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · The four stages, and what 2020 actually converted him from
 - · **2009-11-28** — On **28 November 2009**, linking out twice in succession, he writes:  
@@ -1284,6 +1294,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/chats/gemini-58]] · Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)
 - · **2011-01-18** — Jamin "copy and paste the line over the 'a' in his name on Bandcamp" (same day).  
   ↳ [[wiki/self/chats/gemini-58]] · Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)
+- ★ **2011-01-19** — 2011-01-19**, quoting a Pitchfork item: *"the stupid just keeps oozing out of this guy @pitchforkmedia: Lil Wayne says he enjoyed reading the Bible in jail: 'It was deep!'"  
+  ↳ [[wiki/interests/favorites/music/artists/lil-wayne]] · He had gone on record against him three months earlier
 - · **2011-01-24** — Freezepocalypse — "All over NY" — a joke check-in during a storm  
   ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
 - · **2011-02-26** — Glenn Beck — *"DANGEROUS"* — media demagoguery  
@@ -6720,7 +6732,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 16 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 19 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -6886,7 +6898,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-02** — jerel coles** — 4. **What load broke a thirteen-day-held off-switch?** Test the hypothesis above against the 2026-08-02 → 08-08 logs.  
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **2026-08-02** — acquisition drive — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 16 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 19 pages
 - · **2026-08-02** — fran coldren — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 50 pages
 - · **2026-08-02** — big five psychometrics — mind  
@@ -7318,7 +7330,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
 - · **2026-08-23** — calibrated confidence — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 16 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 19 pages
 - · **2026-08-23** — overview — interests  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
 - · **2026-08-23** — closing the set — mind  
@@ -7392,7 +7404,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — chemical architecture — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 16 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 19 pages
 - · **2026-08-28** — cocaine — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 4 pages
 - · **2026-08-28** — alias as periodization — mind  
@@ -7476,7 +7488,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-09-02** — The git log read as a record of *operations* rather than saves  
   ↳ [[wiki/meta/instruments/index]] · The measures
 - · **2026-09-02** — sloppp — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 16 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 19 pages
 - · **2026-09-02** — 2020 left turn — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 35 pages
 - · **2026-09-02** — failure to launch — mind  
@@ -7521,4 +7533,4 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 385 wiki pages. 3,897 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 386 wiki pages. 3,897 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*

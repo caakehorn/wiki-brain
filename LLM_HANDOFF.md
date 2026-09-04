@@ -4,6 +4,92 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-04] - Session: the twitter archive read back onto the pages it was about (Claude Opus 5)
+
+* **Branch:** `claude/twitter-entries-cross-linking-qbkm2c` · `bin/wiki-check` clean at every commit.
+* **Trigger:** operator — *"go through all of the twitter entries and connect their narrative AND the raw tweet content to the other entries ... not only linking people mentioned back to their own entries but also to find the less obvious, more conceptual chunks ... Additionally we need to bake this philosophy in to the front loading markdown documents."*
+
+**The defect had no symptom, which is why it survived two thorough sessions.**
+The nineteen year pages were written by reading every tweet in every year and
+carry 130 typed edges. The archive is *about* other pages and almost none of
+them had been told. Nothing goes red for this. Nothing enters `WORK.md`. A
+source that named forty things and got linked to three looks exactly like one
+that named three.
+
+**Built `bin/wiki-crosslink`** — `scan` (entities in a page's own cited corpus,
+inside its own date range, that have pages it does not link, with the dated rows
+behind each), `reciprocal` (the inverse-edge debt `CONNECTIONS_SPEC.md` has
+required since July and nothing ever counted), `entities`, `orphaned`, `check`.
+It writes no edges and must not be made to.
+
+**Findings, in value order:**
+
+1. **The concert record's "complete record" claim is false.** Seven Orlando
+   shows in autumn 2008; the table holds four. The Roots, the Cobra Starship
+   package and Trans-Siberian Orchestra are absent — and *why* is the finding:
+   a stub-built table records purchases, and TSO was announced at 17:04 and
+   dismissed at 23:07 as *"SUPER lame."*
+2. **Hey Monday dated to 28 December 2008**, and rows 36 and 40 of the same
+   table are probably one night filed under two band names. Date settled by
+   tweets; the join marked as inference.
+3. **Nicotine: an eighteen-year arc, five delivery systems, no gap.** Onset
+   2007 (same year as the first opiate), quit announced 2008-10-16 and failed
+   by 2008-12-22, e-cig 2010-12-13 **failed inside three weeks and visible only
+   as a restarted counter**, vape, Skoal, disposable. Every quit is a
+   substitution; in 2019 he names the two reasons and neither is nicotine.
+4. **SLOPPP's 2013 is 29 releases, not 9** — 16 in September against the
+   table's one — with *"#overcompensating #poseur #fakefuture"* posted on an
+   announcement at the peak. Flips `failure-to-launch` on this era.
+5. **Katie Fletcher had six contemporaneous posts** against a page saying
+   everything known came from AI narration. Handle: `@katie_efff`.
+6. **`calibrated-confidence`'s own Prediction, partly run.** Strict pattern: 0
+   in 2,718 posts where the rate predicts ~1 — **underpowered, not refuted**.
+   The 22× inbound asymmetry **can never be run on a broadcast archive**. And
+   the habit is there in a form the pattern cannot see: **private grades his own
+   mental state, public grades the world.** Plus he polices others' calibration
+   and audits his own past estimates.
+7. **`acquisition-drive`** gets a dated young-form instance with nothing at
+   stake.
+
+**Reciprocal debt on the twitter tree: 39 → 0.**
+
+**Doctrine, which was the second half of the ask.** `STRATEGY.md` core loop +1
+step (old 3–6 renumber to 4–7; two cross-references followed);
+`EXTRACTION_SPEC.md` move 9; `CONNECTIONS_SPEC.md` source-mention obligation;
+`CLAUDE.md` CROSSLINK operation, tool row, and rule 2 of the four things
+extended to mentions; `skills/corpus/source-mention-debt.md` promoted active
+with its limits stated.
+
+**Two things that did not survive, both written onto the pages rather than
+dropped:** a Facebook→Twitter release lag that looked like a clean five days
+across six matched pairs ran −1 to +28 across twelve; and nearly every
+single-token name match was a false positive (Rick Santorum, Tom Cruise, Jack Ü,
+slim jims). Also corrected two ages of my own — his twentieth birthday falls
+between the October and December 2008 events.
+
+**Next, in order:**
+
+1. **`CORPORA` in `bin/wiki-crosslink` holds one entry.** The message dump, the
+   Facebook export, the YouTube history and the Gemini activity are all
+   unreadable by it. The message dump is the obvious next reader and the one
+   with the most pages depending on it — and `wiki/interests/music/overview`
+   carries absence claims derived from it that have never been checked either
+   way.
+2. **The repository-wide reciprocal debt is 76** after the twitter tree went to
+   zero. Nobody has looked at the other 76. `bin/wiki-crosslink reciprocal`
+   lists them.
+3. **The prediction seam is still unmined** and is still the best calibration
+   material in the corpus — see the 2026-09-03 entry, unchanged. This session
+   added instances to `calibrated-confidence` but recorded **no** new testimony
+   ledger entries; the 2024-07-06 Biden forecast and the 2024-11-07 self-audit
+   are both scoreable and neither is in `wiki/meta/testimony-veracity`.
+4. **The 98 stale premises in `WORK.md` remain untouched**, as they were at the
+   2026-09-02 and 2026-09-03 handoffs. This session added none. It is overdue
+   and it is a dedicated housekeeping pass.
+5. **`plain/` coverage is 28/279.** Two twins were re-translated here
+   (concert-record index, acquisition-drive) because pages under them moved;
+   neither was written from scratch.
+
 ### [2026-09-04] - Session: the Pages deployment serves the reader again (Claude Opus 5)
 
 * **Branch:** `claude/wiki-brain-github-pages-4mnsvd` · **PR #254** · `bin/wiki-check` clean.

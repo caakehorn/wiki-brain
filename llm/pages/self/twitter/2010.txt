@@ -52,6 +52,9 @@ connections:
   - page: wiki/health/chemical-architecture
     type: evidences
     claim: "The clearest single instance of the nicotine row's substitution pattern: 'today is day 1 with no tobacco' (13 December) is a switch to an e-cigarette, announced as a quit, with '(un) hooked' corrected mid-sentence by the man writing it."
+  - page: wiki/people/eric-jester
+    type: evidences
+    claim: "Two 2010 posts hold the friendship at full volume seven years before the message thread begins — a church joke at his expense in August, and a shared Office in-joke in March that neither man explains because neither has to."
 ---
 
 # Twitter / X — 2010

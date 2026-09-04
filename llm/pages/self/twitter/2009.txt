@@ -37,6 +37,12 @@ connections:
   - page: wiki/timeline/periods/full-sail-2008-2010
     type: contradicts
     claim: 'Two contemporaneous dates contradict the August 2009 graduation that page carries: a "last month of college" beginning 1 September 2009, and coursework with a Pro Tools lab, a practical and an AWS final running to 19 December 2009.'
+  - page: wiki/interests/favorites/music/artists/flight-of-the-conchords
+    type: evidences
+    claim: "Dates the fandom ten weeks before the ticket: 'omg so excited for flight of the conchords tonight.' on Sunday 25 January 2009 is the HBO series, and the UCF Arena show is 8 April — so the concert followed the watching rather than starting it."
+  - page: wiki/interests/favorites/music/artists/john-mayer
+    type: evidences
+    claim: "Thirteen months after the confirmed 2008 show the records are still in rotation ('good moods breed good moods') and by November he is bantering with a dedicated fan account, @JMayerFan216 — engagement no ticket table reaches."
 ---
 
 # Twitter / X — 2009

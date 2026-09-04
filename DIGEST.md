@@ -14,7 +14,7 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 497 |
-| Pages touched in the last 14 days | 180 |
+| Pages touched in the last 14 days | 183 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 48 |
 | Open gaps | 605 |
@@ -47,8 +47,9 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-09-04** — 16 pages
+**2026-09-04** — 19 pages
   - site | meta | the Wikipedia-style reader is served again
+  - connect | self, interests, health, mind, people | the twitter archive read back onto the pages it was always about
 
 **2026-09-03** — 35 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist

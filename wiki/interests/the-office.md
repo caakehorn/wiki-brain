@@ -33,6 +33,9 @@ connections:
   - page: wiki/self/twitter/2010
     type: evidenced-by
     claim: "'remember when he stole \'shut up Oscar!\' from us in s5 of the office?' to Eric Jester (12 March 2010) is the idiom operating as shared private property between two friends rather than as a reference either is explaining."
+  - page: wiki/self/twitter/2011
+    type: evidenced-by
+    claim: "Three years after the Winter Park apartment was named 'schrute farms', the phrase is still load-bearing enough to carry a pun with no setup — 'there's 100 dogs at the office, and no I'm not employed as a dog walker' — in a year with no television content in it at all."
 ---
 
 # The Office (TV)

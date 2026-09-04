@@ -23,14 +23,17 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-04 — 16 pages
+## 2026-09-04 — 19 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/chemical-architecture]] | health | _(carries a GAP CLOSED from 2026-08-28)_ |
 | [[wiki/interests/concert-record/index]] | interests | — |
+| [[wiki/interests/favorites/music/artists/flight-of-the-conchords]] | interests | — |
 | [[wiki/interests/favorites/music/artists/hey-monday]] | interests | **GAP CLOSED** — The source table read *"2008 · Unknown · Orlando, FL · Still open — band formed 2008 in West Palm Beach; exact Orlando show unresolved."* Two tweets settle it, and they are worth reading together beca |
 | [[wiki/interests/favorites/music/artists/jedi-mind-tricks]] | interests | — |
+| [[wiki/interests/favorites/music/artists/john-mayer]] | interests | — |
+| [[wiki/interests/favorites/music/artists/lil-wayne]] | interests | — |
 | [[wiki/interests/favorites/music/artists/the-starting-line]] | interests | — |
 | [[wiki/interests/music/aliases/sloppp]] | interests | _(carries a GAP CLOSED from 2026-09-02)_ |
 | [[wiki/interests/the-office]] | interests | — |

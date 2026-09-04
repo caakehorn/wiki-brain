@@ -119,6 +119,9 @@ connections:
   - page: wiki/self/twitter/2009
     type: evidenced-by
     claim: 'The relationship\'s first six weeks are recorded in real time on the 2009 twitter page, and its surrounding weather is too: he is ill for most of December, shuttling between two states, and sitting Full Sail finals across the same days he is posting "dan in love." The speed is not the speed of a man with nothing else happening.'
+  - page: wiki/self/twitter/2013
+    type: evidenced-by
+    claim: "The public record closes the only documented interval in six years when this relationship is off: 'Alexis Armel and a doppelgangar mosquito' (8 September 2013) is the first naming after eleven days of @katie_efff in late August, which bounds the break to roughly six to eight weeks with another person documented inside it."
 ---
 
 # Alexis Armel
