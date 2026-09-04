@@ -18,6 +18,7 @@ simply listed.
 - **Session log:** connect | self, interests, health, mind, people | the twitter archive read back onto the pages it was always about
 - **Session log:** connect | people | vaughn — the re-derivation, and a cocaine channel nine pages did not have
 - **Session log:** lint | mind | the first layer of the Vaughn pass — and a defect in the staleness gate
+- **Session log:** connect | people | the reciprocal debt the Vaughn pass created, paid
 
 | Page | Domain | What moved |
 |---|---|---|

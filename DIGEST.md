@@ -56,6 +56,7 @@ this is the state of the thing.
   - connect | self, interests, health, mind, people | the twitter archive read back onto the pages it was always about
   - connect | people | vaughn — the re-derivation, and a cocaine channel nine pages did not have
   - lint | mind | the first layer of the Vaughn pass — and a defect in the staleness gate
+  - connect | people | the reciprocal debt the Vaughn pass created, paid
 
 **2026-09-03** — 30 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist

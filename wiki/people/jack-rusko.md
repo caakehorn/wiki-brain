@@ -11,6 +11,9 @@ related: ["wiki/work/nemacolin-caddying", "wiki/timeline/periods/2017-poverty-fl
 tags: [career, uniontown-era]
 knowledge: mixed
 connections:
+  - page: wiki/work/nemacolin-caddying
+    type: component-of
+    claim: "Jack is a member of the caddie-yard cohort and the donor in its testing-evasion arrangement — the clean urine Dan carried against a possible early test came from him, which places him inside the yard's informal economy as well as its social graph."
   - page: wiki/people/vaughn
     type: evidenced-by
     claim: "Jack supplied the clean urine Dan carried against a possible early Nemacolin drug test — 'i had jack rusko piss for me lol' (2018-03-19, in the Vaughn thread) — the only documented instance of him doing anything for Dan, on a page otherwise built entirely on what Dan owed him."
