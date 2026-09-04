@@ -47,7 +47,6 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/mind/concepts/contact-gini.md moved 2026-08-20, after this page's 2026-07-20 | `wiki/mind/synthesis/spatial-behavior.md` | 2026-08-20 |
 | 3 | stale | premise wiki/mind/concepts/attachment-model.md moved 2026-08-23, after this page's 2026-08-… | `wiki/mind/synthesis/ancestral-dialectic.md` | 2026-08-23 |
 | 3 | stale | premise wiki/mind/concepts/conflict-architecture.md moved 2026-08-26, after this page's 202… | `wiki/self/youtube-watch-history.md` | 2026-08-26 |
-| 3 | stale | premise wiki/mind/profile/index.md moved 2026-08-26, after this page's 2026-06-23 | `wiki/interests/favorites/art-and-movies.md` | 2026-08-26 |
 | 3 | stale | premise wiki/mind/synthesis/closing-the-set.md moved 2026-08-26, after this page's 2026-08-… | `wiki/interests/favorites/books.md` | 2026-08-26 |
 | 3 | stale | premise wiki/mind/synthesis/closing-the-set.md moved 2026-08-26, after this page's 2026-08-… | `wiki/mind/synthesis/intake-constancy.md` | 2026-08-26 |
 | 3 | stale | premise wiki/mind/synthesis/closing-the-set.md moved 2026-08-26, after this page's 2026-08-… | `wiki/mind/synthesis/interests-as-era-markers.md` | 2026-08-26 |
@@ -98,6 +97,7 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/interests/opie-and-anthony.md moved 2026-09-03, after this page's 2026-08-26 | `wiki/mind/synthesis/closing-the-set.md` | 2026-09-03 |
 | 3 | stale | premise wiki/legal/2015-possession-arrest.md moved 2026-09-03, after this page's 2026-08-28 | `wiki/mind/synthesis/the-embedded-objective.md` | 2026-09-03 |
 | 3 | stale | premise wiki/legal/2015-possession-arrest.md moved 2026-09-03, after this page's 2026-08-31 | `wiki/health/cocaine.md` | 2026-09-03 |
+| 3 | stale | premise wiki/mind/profile/index.md moved 2026-09-03, after this page's 2026-06-23 | `wiki/interests/favorites/art-and-movies.md` | 2026-09-03 |
 | 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-09-03, after this page's 2026-06-22 | `wiki/interests/favorites/books/topics/politics.md` | 2026-09-03 |
 | 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-09-03, after this page's 2026-08-19 | `wiki/mind/synthesis/interests-as-era-markers.md` | 2026-09-03 |
 | 3 | stale | premise wiki/mind/synthesis/2020-left-turn.md moved 2026-09-03, after this page's 2026-08-26 | `wiki/mind/politics/axioms.md` | 2026-09-03 |

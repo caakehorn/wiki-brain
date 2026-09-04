@@ -7,7 +7,7 @@ status: active
 importance: high
 knowledge: derived
 date_created: 2026-09-02
-date_modified: 2026-09-03
+date_modified: 2026-09-04
 chart:
   kind: grouped-bar
   title: "Stated confidence against measured outcome, by confidence band"
@@ -21,9 +21,9 @@ chart:
         "hedged": 0.60
     - name: "What it turned out to be worth"
       points:
-        "certain": 0.25
-        "confident": 0.69
-        "hedged": 0.75
+        "certain": 0.30
+        "confident": 0.54
+        "hedged": 0.50
 sources:
   - testimony/events.jsonl
 connections: []
@@ -43,45 +43,45 @@ A single trust score would collapse two facts that behave differently. **Veracit
 
 | | value | n |
 |---|---|---:|
-| **Veracity** | **52 / 100** — +1.0 points on 31.0 weight | 10 |
-| **Calibration** | Brier 0.335, skill -0.34 vs a coin flip | 10 |
-| **Stated vs actual** | -0.30 | 10 |
+| **Veracity** | **46 / 100** — -3.0 points on 42.0 weight | 15 |
+| **Calibration** | Brier 0.349, skill -0.40 vs a coin flip | 15 |
+| **Stated vs actual** | -0.36 | 15 |
 
-Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 10 settled claims, not thousands.
+Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 15 settled claims, not thousands.
 
 ## What his confidence is actually worth
 
 | band | he states | it is worth | gap | n |
 |---|---:|---:|---:|---:|
-| certain | 0.95 | 0.25 | -0.70 | 4 |
-| confident | 0.80 | 0.69 | -0.11 | 4 |
-| hedged | 0.60 | 0.75 | +0.15 | 2 |
+| certain | 0.95 | 0.30 | -0.65 | 5 |
+| confident | 0.80 | 0.54 | -0.26 | 7 |
+| hedged | 0.60 | 0.50 | -0.10 | 3 |
 
 ## Outcomes
 
 | outcome | n | meaning |
 |---|---:|---|
-| confirmed | 4 | independent evidence bears it out |
-| partial | 2 | the core holds, a material detail does not |
+| confirmed | 5 | independent evidence bears it out |
+| partial | 3 | the core holds, a material detail does not |
 | self_contradicted | 1 | he has given two accounts that cannot both be true |
-| refuted | 3 | independent evidence contradicts it |
+| refuted | 6 | independent evidence contradicts it |
 | unfalsifiable | 6 | checked, and the corpus cannot settle it — **scores zero, never negative** |
 
 ## By claim class
 
-Rates are shrunk toward the global 0.53 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
+Rates are shrunk toward the global 0.45 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
 
 | class | n | raw | shrunk | 95% CI on clean confirmations | dominant failure |
 |---|---:|---:|---:|---|---|
-| date | 4 | 0.50 | 0.51 | 15%–85% | displacement, rounding |
-| sequence | 3 | 0.50 | 0.51 | 6%–79% | compression, overreach |
-| location | 2 | 0.12 | 0.37 | 0%–66% | displacement, rounding |
-| duration | 1 | 1.00 | 0.64 | 21%–100% | — |
-| enumeration | 1 | 0.50 | 0.52 | 0%–79% | omission |
-| existence | 1 | 1.00 | 0.64 | 21%–100% | — |
-| other_state | 1 | 0.00 | 0.39 | 0%–79% | overreach |
-| quantity | 1 | 1.00 | 0.64 | 21%–100% | — |
-| self_state | 1 | 0.50 | 0.52 | 0%–79% | compression |
+| other_state | 6 | 0.25 | 0.32 | 3%–56% | overreach |
+| sequence | 5 | 0.30 | 0.36 | 4%–62% | overreach, compression |
+| date | 4 | 0.50 | 0.48 | 15%–85% | displacement, rounding |
+| location | 2 | 0.12 | 0.32 | 0%–66% | displacement, rounding |
+| quantity | 2 | 1.00 | 0.67 | 34%–100% | — |
+| duration | 1 | 1.00 | 0.59 | 21%–100% | — |
+| enumeration | 1 | 0.50 | 0.46 | 0%–79% | omission |
+| existence | 1 | 1.00 | 0.59 | 21%–100% | — |
+| self_state | 1 | 0.50 | 0.46 | 0%–79% | compression |
 
 ## Which way the errors run
 
@@ -89,7 +89,7 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 
 | slant | n |
 |---|---:|
-| neutral — the error carries no credit or discredit either way | 6 |
+| neutral — the error carries no credit or discredit either way | 11 |
 | flattering — the error, had it stood, would have reflected better on him | 1 |
 
 ## The record
@@ -112,12 +112,19 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 | t014 | Dan's continuous Suboxone regimen began on 17 February 2010. | date | certain | confirmed | wiki/self/twitter/2010 — 2010-02-17 20:07 UTC (15:07 New York): 'this is the most stressful day/decision of my life. nothing is making it easier.' Followed by 'planning the next 3 years of my life all day in muh head' (2010-02-18) and 'put my life on a treadmill. shape up or bust.' (2010-02-20). The obvious alternative referent is excluded: the Brooklyn move was decided on 2010-01-26 and described as good news either side of this day. LIMIT: he never names the decision, so this is a dated alignment on an independent same-day artifact rather than a clinical record. It is recorded as confirmed because the date he gave held up against evidence he did not write for the record and could not have been shaping. |
 | t015 | Dan was among the O&A fans repulsed by the racism at the time of the 2014 split, and that repulsion radicalized him to leftist politics. | self_state, sequence | confident | partial | wiki/self/twitter/2014 — 2014-07-04, one day after the firing: '@AnthonyCumia nothing but love and respect ant. Thanks for not selling your soul through this whole mess.' And 2014-03-25: '@AnthonyCumia brilliant point re "tranny" outrage.' 2014 is spreadsheet-complete (170 of 171 rows) and contains no post expressing discomfort. PARTIAL rather than refuted because 'we were radicalized' describes a process that can begin later than its cause; what is contradicted is the implied timing, not the eventual direction of travel, which the 2020 turn independently corroborates. |
 | t016 | Ron DeSantis will not challenge Donald Trump in the 2024 Republican primary. | other_state, sequence | certain | refuted | DeSantis filed and announced his candidacy on 2023-05-24. Dan acknowledged it the same day without pretending otherwise — 'Ron DeSantis is stupidly committing political suicide by moving ahead with a 2024 primary run' — restating the underlying analysis as a judgement about the decision rather than defending the prediction. |
+| t017 | Whoever replaces Biden on the 2024 Democratic ticket will not win in November; their chances are 25% at best. | other_state, quantity | confident | confirmed | Biden withdrew 2024-07-21 and endorsed Harris, who became the nominee. Harris lost the 2024 general election: Trump won all seven swing states, the electoral college 312-226, and the national popular vote. The prediction's content — that the replacement would not win — held, and the 25% ceiling was stated two weeks before the replacement was even known and against a consensus that had the race at roughly even after Harris entered. |
+| t018 | Biden will outperform the low expectations his critics have set at the 27 June 2024 debate. | other_state | hedged | refuted | Biden's 27 June 2024 debate performance was universally read as far BELOW even the low expectations set — it triggered three weeks of party pressure and his withdrawal on 21 July. Dan recorded the collapse himself in real time within the hour ('This is not SOTU Joe', 'It's joever', 'This is catastrophic'). Clause 2, that Trump would mount a charm offensive and appear thoughtful, was closer to what happened but is not the load-bearing clause and is not scored here. |
+| t019 | Trump will eventually walk on all charges after a hung-jury mistrial, and jury nullification will become a widely used strategy for legally vulnerable conservatives. | other_state, sequence | confident | refuted | New York v. Trump reached verdict 2024-05-30: convicted on all 34 felony counts by a unanimous jury. No hung jury, no mistrial, and he did not walk. The federal cases were later dropped on Department of Justice policy after the 2024 election, which is a different mechanism from the one predicted. The second clause also failed: jury nullification did not become a widely used conservative legal strategy. |
+| t020 | The 2024 election will be so close that the outcome will be decided by the inevitable post-election legal challenges rather than by the vote. | other_state, sequence | confident | refuted | The 2024 result was not close and was not litigated. Trump won all seven swing states, 312-226 in the electoral college, plus the national popular vote; Harris conceded on 2024-11-06, the day after the election. There were no significant post-election legal challenges — the scenario the claim said would decide the outcome did not occur at all. |
+| t021 | Trump will never be held to any level of account in a courtroom. | other_state | certain | partial | CUTS BOTH WAYS, and is scored partial for that reason. Against the claim: Trump was tried and convicted in a courtroom on 34 felony counts (New York, 2024-05-30), and testified in the New York civil fraud trial in November 2023, which produced a judgment against him exceeding $450m. The courtroom event the claim said would never happen, happened. For the claim: the conviction produced an unconditional discharge at sentencing in January 2025 — no penalty of any kind — and he was inaugurated days later, so 'held to account' in the sense of consequence substantially did not occur. The vague wording ('some level of account') is what makes this unresolvable either way, and is why specificity was recorded as 1. |
 
 ## What this ledger cannot see
 
 **The sample is filtered, and not at random.** `CLAUDE.md` carries a standing directive stopping new writing about one living person. `bin/wiki-testimony` enforces it mechanically rather than leaving it to a session to remember, and refuses such a record outright. At least one cleanly adjudicated confirmation is excluded by that rule. The exclusion is correct and it is still a bias: this score is drawn from what the directive permits, not from everything the corpus knows.
 
 **Adjudicated claims are not a random sample of claims.** A claim gets checked when somebody had a reason to check it, and the reasons correlate with the claim being surprising, load-bearing, or already doubted. Expect the settled set to over-represent both the spectacular confirmations and the spectacular failures.
+
+**The channel column is confounded by what each channel was mined for.** A channel's outcome value measures the claims somebody chose to pull from it, not the channel's reliability. `platform_self_report` is the clearest case: it is loaded with dated public predictions, deliberately harvested because they are falsifiable and publicly settled, and a prediction about an election is a far harder thing to get right than a claim about where he lived. Read that row as *these claims went this way*, never as *this is how reliable he is on that surface*.
 
 **Nothing here measures honesty.** Every outcome in this ledger is consistent with a person reporting in good faith and misremembering. The failure-mode column exists precisely so the two can be told apart in principle — a distribution dominated by `compression` and `rounding` is a memory, one dominated by `confabulation` running `flattering` would be something else — and at this n it can be told apart in principle only.
 

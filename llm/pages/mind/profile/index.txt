@@ -6,7 +6,7 @@ aliases: ["Abyssal Architect", "typology stack", "psychological profile"]
 status: stable
 importance: critical
 date_created: 2026-07-13
-date_modified: 2026-08-26
+date_modified: 2026-09-03
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-scan/Dan Profile.txt
@@ -20,6 +20,9 @@ related:
   - wiki/mind/synthesis/ancestral-dialectic
   - wiki/mind/concepts/erotic-architecture
   - wiki/mind/psychosexual/index
+  - page: wiki/meta/testimony-veracity
+    type: evidenced-by
+    claim: 'The self-reported ~82nd-percentile metacognitive accuracy has an independent counterpart that points the other way: across 15 settled claims his stated confidence carries no usable information (Brier skill -0.40), and the overconfidence scales with the confidence expressed — certain -0.65, confident -0.26, hedged -0.10. The correction is that his certainty is the signal to discount hardest.'
 ---
 
 # Personality Profile
@@ -112,6 +115,50 @@ mediocrity registered as existential threat); radical skepticism; emotional
 metabolization through logic. The failure mode, per context-core, is never
 ignorance — it is the diagnosis-to-behavior gap: metacognitive accuracy ~82nd
 percentile, with insight feeding the loops instead of stopping them.
+
+## The metacognition figure now has a measured counterpart, and they disagree
+
+The `~82nd percentile` metacognitive accuracy above is **self-reported**, via
+`CONTEXT_CORE_EXPANDED`. `wiki/meta/testimony-veracity` supplies the first
+independent measurement of the same faculty, and it points the other way.
+
+Across **15 settled claims**, his stated confidence does not track his
+accuracy — Brier skill **−0.40 against a coin flip**, which means the
+confidence label carries no usable information at present. What it does show is
+a clean monotonic gradient:
+
+| he says | it is worth | gap | n |
+|---|---|---|---|
+| certain | 0.30 | **−0.65** | 5 |
+| confident | 0.54 | −0.26 | 7 |
+| hedged | 0.50 | −0.10 | 3 |
+
+**The overconfidence scales with the confidence.** His hedges are close to
+honest; his certainties are worth less than a coin flip. The practical
+correction is the useful part: **when Dan says he is certain, that is the
+signal to discount hardest** — the inverse of how a confidence marker is
+normally read.
+
+This is consistent with the diagnosis-to-behavior gap rather than contradicting
+it, and sharpens it. Insight that feeds the loops instead of stopping them is
+exactly what an accurate self-model paired with an uncalibrated confidence
+signal looks like: he can describe the mechanism correctly and still cannot use
+his own certainty as a guide to when he is right.
+
+**The dominant failure mode is `overreach`** — five of ten misses, "a real
+observation generalised past what it supports." That is not ignorance and it is
+not confabulation. It is a correct perception extended one step too far, which
+is the specific error an anomaly-detection orientation would be expected to
+produce, and the corpus now measures it rather than asserting it.
+
+**What this is not.** n=15 is a reading, not a result; the ledger needs roughly
+30 settled claims to be load-bearing. The `certain` band is at n=5, the minimum
+worth quoting. The sample is filtered by the standing directive and is not
+random — claims get checked when somebody had a reason to check them. And the
+82nd-percentile figure and this measurement are not straightforwardly
+commensurable: the first is about insight into his own states, the second about
+predictions concerning the outside world. They are held side by side here
+rather than resolved.
 
 **Gaps:** no clinical or third-party-administered assessment; no test dates
 or instrument versions for the Big30/PD numbers; no re-test after the June

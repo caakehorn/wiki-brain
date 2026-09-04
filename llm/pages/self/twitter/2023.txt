@@ -34,6 +34,9 @@ connections:
   - page: wiki/meta/testimony-veracity
     type: supplies
     claim: 'A seam of deliberately checkable claims with public outcomes, and the scoring behaviour to go with them: the DeSantis prediction stated at maximum confidence on 2023-02-13 and refuted on 2023-05-24, and "I\'m deeply embarrassed that I got tricked once again ... Fooled AGAIN" (2023-03-30) — he logs his own misses in public rather than dropping them.'
+  - page: wiki/meta/testimony-veracity
+    type: supplies
+    claim: 'Two scored predictions from 2023: the DeSantis primary claim (t016) and "My official prediction is Trump eventually walks on all charges after a hung-jury mistrial" (t019) — refuted by a unanimous conviction on all 34 counts, with the jury-nullification consequence it forecast also failing to appear.'
 ---
 
 # Twitter / X — 2023

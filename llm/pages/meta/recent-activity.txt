@@ -5,7 +5,7 @@ title: "Recent Activity"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-09-03
+date_modified: 2026-09-04
 sources: []
 ---
 
@@ -23,6 +23,12 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
+## 2026-09-04 — 1 page
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/meta/testimony-veracity]] | meta | — |
+
 ## 2026-09-03 — 41 pages
 
 | Page | Domain | What moved |
@@ -35,7 +41,7 @@ simply listed.
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/recent-activity]] | meta | _(carries a CONTRADICTION)_ |
-| [[wiki/meta/testimony-veracity]] | meta | — |
+| [[wiki/mind/profile/index]] | mind | — |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/mind/synthesis/failure-to-launch]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
@@ -154,7 +160,7 @@ simply listed.
 | [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 
-## 2026-08-26 — 52 pages
+## 2026-08-26 — 51 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -177,7 +183,6 @@ simply listed.
 | [[wiki/mind/politics/axioms]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
 | [[wiki/mind/profile/deviance-mapping]] | mind | _(carries a GAP CLOSED from 2026-08-22)_ |
 | [[wiki/mind/profile/enneagram-5w4]] | mind | _(carries a CONTRADICTION from 2026-08-19)_ |
-| [[wiki/mind/profile/index]] | mind | — |
 | [[wiki/mind/profile/intp]] | mind | — |
 | [[wiki/mind/profile/lexicon]] | mind | — |
 | [[wiki/mind/profile/neurodivergence]] | mind | — |
@@ -355,14 +360,4 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/people/john-paci]] | people | **REVISED** — the version of this page written on 2026-08-10 described a warm, long-suffering landlord and an eviction that simply happened to him and to his tenants. The eviction was staged at Dan's request. The r |
-
-## 2026-08-11 — 5 pages
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/mind/concepts/institutional-out]] | mind | — |
-| [[wiki/mind/concepts/node-locking]] | mind | — |
-| [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | mind | — |
-| [[wiki/people/lisa-frank]] | people | — |
-| [[wiki/people/tan-calabrese]] | people | _(carries a REVISED from 2026-08-09)_ |
 

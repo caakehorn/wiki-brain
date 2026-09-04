@@ -34,6 +34,9 @@ connections:
   - page: wiki/mind/synthesis/failure-to-launch
     type: evidences
     claim: 'A fourth job enters the archive the way the others did — as the credential for an aside. "during my time as a caddie" (28 June), inside an argument about Trump\'s handicap, with no dates, employer or duration, exactly as with retail in 2012 and waiting tables in 2022 and 2023.'
+  - page: wiki/meta/testimony-veracity
+    type: supplies
+    claim: 'Three scored predictions: the 25% ceiling on any Biden replacement (t017, confirmed, stated 2024-07-06 against a consensus that had the race even), the hedged debate forecast (t018, refuted within the hour), and the too-close-to-call-plus-legal-challenges reading of the election (t020, refuted by a seven-state sweep conceded in a day).'
 ---
 
 # Twitter / X — 2024

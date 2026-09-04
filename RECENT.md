@@ -8,6 +8,14 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
+## 2026-09-04 — 1 page
+
+- **Session log:** site | meta | the Wikipedia-style reader is served again
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/meta/testimony-veracity]] | meta | — |
+
 ## 2026-09-03 — 41 pages
 
 - **Session log:** lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
@@ -23,6 +31,7 @@ simply listed.
 - **Session log:** ingest | self | 2022 and 2023 read in full — he names Balloon Boy himself, and the method's bill comes due in public
 - **Session log:** ingest | self | 2024, 2025 and 2026 read in full — all nineteen year pages now carry narrative runs
 - **Session log:** lint | self | the twitter year pages were generating a 2,741-entry table of contents
+- **Session log:** adjudicate | meta | the prediction seam, scored — and his certainty turns out to be the signal to discount hardest
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -34,7 +43,7 @@ simply listed.
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/recent-activity]] | meta | _(carries a CONTRADICTION)_ |
-| [[wiki/meta/testimony-veracity]] | meta | — |
+| [[wiki/mind/profile/index]] | mind | — |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/mind/synthesis/failure-to-launch]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
@@ -219,7 +228,7 @@ simply listed.
 | [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 
-## 2026-08-26 — 52 pages
+## 2026-08-26 — 51 pages
 
 - **Session log:** climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
 - **Session log:** ingest | mind | the ideal-face specification — a mystery queue item resolved
@@ -259,7 +268,6 @@ simply listed.
 | [[wiki/mind/politics/axioms]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
 | [[wiki/mind/profile/deviance-mapping]] | mind | _(carries a GAP CLOSED from 2026-08-22)_ |
 | [[wiki/mind/profile/enneagram-5w4]] | mind | _(carries a CONTRADICTION from 2026-08-19)_ |
-| [[wiki/mind/profile/index]] | mind | — |
 | [[wiki/mind/profile/intp]] | mind | — |
 | [[wiki/mind/profile/lexicon]] | mind | — |
 | [[wiki/mind/profile/neurodivergence]] | mind | — |
@@ -504,20 +512,4 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/people/john-paci]] | people | **REVISED** — the version of this page written on 2026-08-10 described a warm, long-suffering landlord and an eviction that simply happened to him and to his tenants. The eviction was staged at Dan's request. The r |
-
-## 2026-08-11 — 5 pages
-
-- **Session log:** climb | mind | totality-themes.md re-derived from the wiki's own T2/T3 layer — "The Irreversibility Firewall"
-- **Session log:** correction | people | the "decade of silence" with Rick was wrong — full record recovered, childhood testimony captured, worldview mismatch documented
-- **Session log:** process | EXTRACTION_SPEC.md | two new moves, generalized from the Rick pass — per-contact CSVs, dangling-citation chasing
-- **Session log:** ingest | people | the December 2015 Rick rupture, recovered two-sided and verbatim — mechanism behind the present-day estrangement
-- **Session log:** ingest | people | rick-frank.md correspondence review — two unmined sources, findings written back from three pages that already had them
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/mind/concepts/institutional-out]] | mind | — |
-| [[wiki/mind/concepts/node-locking]] | mind | — |
-| [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | mind | — |
-| [[wiki/people/lisa-frank]] | people | — |
-| [[wiki/people/tan-calabrese]] | people | _(carries a REVISED from 2026-08-09)_ |
 

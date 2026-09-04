@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,538 events** across **80 years** (1796–2027), drawn from **384 pages**. Tier 1 695 · Tier 2 429 · Tier 3 2,414.
+**3,544 events** across **80 years** (1796–2027), drawn from **384 pages**. Tier 1 696 · Tier 2 430 · Tier 3 2,418.
 
 ## What counts as an event here
 
@@ -959,7 +959,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **August 2009** — full sail 2008 2010** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomorrow"*, which puts the final month in September. And across November and…  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **August 2009** — full sail 2008 2010 — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 42 pages
 - · **August 2009** — t013 — date — certain — refuted  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2009-08-31** — On **31 August 2009** he writes *"so weirded out i start my last month of college tomorrow. having multiple reality checks."* — which places the final month in **September**, not August.  
@@ -1752,7 +1752,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2014-07-03** — Anthony Cumia was fired by SiriusXM on **3 July 2014**, after posting a series of racist messages about a Black woman who had struck him in Times Square.  
   ↳ [[wiki/self/twitter/2014]] · 4 July 2014, and a correction to the corpus's own account
 - · **2014-07-03** — opie and anthony — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 42 pages
 - ★ **2014-07-04** — The contemporaneous record shows he was not among the repulsed at the time: on **4 July 2014**, one day after Cumia was fired over racist posts, Dan tweeted at him *"nothing but love and respect ant.  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · The O&A cause is real but its date is not 2014
 - · **2014-07-04** — t015 — Dan was among the O&A fans repulsed by the racism at the time of the 2014 split, and that repulsion radicalized him to leftist politics. — self_state, sequence — confident — partial  
@@ -5075,6 +5075,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/garrett]] · What is known
 - · **2024-05-24** — Phase 5: The 2024–25 resurgence (May 24, 2024 – Feb 20, 2025)  
   ↳ [[wiki/people/menore]] · Timeline & Phases
+- ★ **2024-05-30** — t021 — Trump will never be held to any level of account in a courtroom. — other_state — certain — partial  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
+- · **2024-05-30** — t019 — Trump will eventually walk on all charges after a hung-jury mistrial, and jury nullification will become a widely used strategy for legally vulnerable conservatives. — other_state, sequence — confident — refuted  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
 - ★ **June 2024** — He is Muslim (references Allah and Islam directly) and appears to be Bangladeshi or closely tied to Bangladeshi politics: a June 2024 message congratulates Dan on his "boss" getting married, and by August 2024 the conversation turns to real news, discussing the 2024 Bangladesh political unrest in…  
   ↳ [[wiki/people/md]] · MD
 - ★ **June 2024** — The occasion for the June 2024 Arabic wedding congratulations is unidentified.  
@@ -5097,6 +5101,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/roman-republic]] · The 2024 reading binge — dated, not vague
 - ◆ **2024-06-27** — More tellingly, the corpus shows him reaching for Michael Scott as a behavioral comparator: in the 2019 Twitter analysis he analogizes EU ambassador Gordon Sondland's testimony to having "a total Michael Scott vibe," and during the 2024 presidential race he texted "Next pres was Dwight d…  
   ↳ [[wiki/interests/the-office]] · The Michael Scott register
+- ◆ **2024-06-27** — t018 — other_state — hedged — refuted — Biden's 27 June 2024 debate performance was universally read as far BELOW even the low expectations set — it triggered three weeks of party pressure and his withdrawal on 21 July. Dan recorded the collapse himself in real time within the hour ('This is not…  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2024-06-27** — The highest-volume day in this thread's eleven-year record — 224 messages on 27 June 2024 — is the night of the first Biden–Trump debate**, watched separately and narrated to each other in real time.  
   ↳ [[wiki/people/suzanne-frank]] · Politics
 - ◆ **2024-06-28** — 28 June 2024 is the account's peak, and it is a single evening.** Twenty-three originals as the debate ran and immediately after: *"This is not SOTU Joe"* → *"Oh my god his voice"* → *"It's joever"* → *"This is catastrophic"* → *"It's hard to overstate just how devastating this is for the Biden…  
@@ -5121,6 +5127,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/places/derrick-avenue]] · "The derrick ave gang"
 - · **2024-07-15** — A later message (Jul 15 2024, from a different contact) has someone recognizing the same pattern in Dan directly: "She's like you had an eating disorder didn't you?  
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The eating disorder
+- · **2024-07-21** — t017 — Whoever replaces Biden on the 2024 Democratic ticket will not win in November  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
+- · **2024-07-21** — their chances are 25% at best. — other_state, quantity — confident — confirmed  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2024-07-30** — Philip and Alexander — Adrian Goldsworthy — 4  
   ↳ [[wiki/interests/roman-republic]] · The 2024 reading binge — dated, not vague
 - · **2024-07-31** — Caesar: Life of a Colossus — Goldsworthy, Adrian — ★★★★★ — ancient-history, biography, caesar, great-man-theory, history, non-fiction, philosophy, roman-republic, top-shelf  
@@ -5289,6 +5299,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - · **2024-11-04** — "i just said 'vanessa is an xNFP 4w5 and Dan is an INTP 5w6sx RLOEI - compare them'"* — the prompt itself, quoted  
   ↳ [[wiki/mind/synthesis/the-commissioned-self]] · The census, and what the seventeen instances actually say
+- · **2024-11-06** — t020 — The 2024 election will be so close that the outcome will be decided by the inevitable post-election legal challenges rather than by the vote. — other_state, sequence — confident — refuted  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2024-11-06** — 14 — The morning after the election  
   ↳ [[wiki/self/twitter]] · The densest day in seventeen years
 - · **2024-11-15** — That's it" (November 15, 2024) is a real complaint about that specific year, generalized past what the decade as a whole would support.  
@@ -6300,7 +6312,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **June 2026** — Gaps:** the baseline model is a sketch, not a normed population; scores are single-model judgments with no inter-rater check; the audit predates the June 2026 closure and the 2026 work/housing shocks, all of which bear directly on the "relationships" and "values" rows.  
   ↳ [[wiki/mind/profile/deviance-mapping]] · Reading the audit
 - ★ **June 2026** — Gaps:** no clinical or third-party-administered assessment; no test dates or instrument versions for the Big30/PD numbers; no re-test after the June 2026 closure event, so the entire profile is calibrated on pre-closure data.  
-  ↳ [[wiki/mind/profile/index]] · Core axioms and personal myth
+  ↳ [[wiki/mind/profile/index]] · The metacognition figure now has a measured counterpart, and they disagree
 - ★ **June 2026** — Gaps:** function scores are AI-inferred from corpus behavior, not from a proctored instrument; the Ni measurement in particular has no independent confirmation; no data on how the stack presents post-closure (all sources pre-date June 2026).  
   ↳ [[wiki/mind/profile/intp]] · The stack as one machine
 - ★ **June 2026** — It also reframes the June 2026 severance. `the-unbroken-bond` records that the break held fifty-two days and then failed.  
@@ -6592,7 +6604,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-07-18** — Intervention by her parents and sister; rehab placement refused; car taken  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2026-07-18** — conflict architecture — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-07-18** — Love affirmations from Annie to Dan — 299  
   ↳ [[wiki/mind/concepts/attachment-model]] · Quantitative Corpus Indicators
 - · **2026-07-18** — "Worthless" instances — 11  
@@ -6606,7 +6618,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 42 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -6760,7 +6772,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-08-02** — A first-person operator capture written on 2026-08-02 supplies the day this relationship consists of, documented in full at franki fireworks day 2013.  
   ↳ [[wiki/people/franki-faris]] · The day itself, and what a 2026 capture settled
 - ◆ **2026-08-02** — teen concert years — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - ◆ **2026-08-02** — As of 2026-08-02 it is also known to have a jurisdiction: food and diet shows the axis is never applied to food, which out-mentions music in the message corpus and holds zero of the 2,016 entries in the curated favorites record.  
   ↳ [[wiki/mind/synthesis/single-channel]] · Gaps
 - · **2026-08-02** — Its correction of 2026-08-02 is the hinge: the earlier reading held that food was simply never evaluated, and what replaced it was that food is not *ranked* but is *specified*, totally, with the refusal list consisting precisely of the three items that cannot be picked off afterwards.  
@@ -6772,9 +6784,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-02** — jerel coles** — 4. **What load broke a thirteen-day-held off-switch?** Test the hypothesis above against the 2026-08-02 → 08-08 logs.  
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **2026-08-02** — acquisition drive — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-02** — fran coldren — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-02** — big five psychometrics — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 18 pages
 - · **2026-08-02** — ~~**No audit has been run.**~~ **CLOSED 2026-08-02** — see the enumeration  
@@ -6800,7 +6812,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-02** — For context injection:** July 26 – August 2, 2026. 1,880 messages, 969 from Dan, 911 from Annie.  
   ↳ [[wiki/timeline/events/july-august-2026-reentanglement]] · LLM Quick Brief
 - ★ **2026-08-03** — 2015 possession arrest — legal  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 42 pages
 - ★ **2026-08-03** — 2015 retail theft arrest — legal  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-22 — 4 pages
 - · **2026-08-07** — Sexual contact resumes, per operator testimony  
@@ -6986,11 +6998,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-17** — jerel coles** — 6. **What is *"stuff to ruin you and your mom"* (2026-08-17 12:48)?** The only threat aimed at Suz in the corpus that has no named content. Bluster is the parsimonious reading and there is nothing in `raw/` either way.  
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **2026-08-17** — bond switch 2015 — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-17** — kristin — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-17** — milo — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-17** — ellen ulmer — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 16 pages
 - · **2026-08-17** — 374 — 210 — 4.9 — the seventy-hour campaign opens  
@@ -7032,9 +7044,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-17** — The operator (2026-08-17) places it *"in the text logs on 26 July 2026 at around 7am"*, along with the threatening messages sent from Annie's number in the hours before.  
   ↳ [[wiki/timeline/events/july-august-2026-reentanglement]] · Gaps
 - ★ **2026-08-18** — forensic method — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - ★ **2026-08-18** — fran death vigil — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - ★ **2026-08-18** — On August 18, 2026, 21:07:43–21:09:11, in the Ally channel: she challenges (*"You just love bomb"*), he runs the redefinition move (*"But love bomb is like a malicious tactic and there very little malice"*), she narrows rather than escalates (*"I didn't say malicious"*), and he concedes in six…  
   ↳ [[wiki/mind/concepts/conflict-architecture]] · The one completed refusal, and how it ends
 - ◆ **2026-08-18** — Clause 3 — "complicit in the length and depth" — gets its clearest single instance, and it is worse than anything previously on the ledger.** On 2026-08-18 at 19:35 Dan told Annie he had sent the recording to her parents; three minutes later he told her he had not, and why: *"it wasn't actually…  
@@ -7124,7 +7136,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-19** — august 2026 morgantown call** — **Did the block hold?** The export ends 2026-08-19 15:15:33, eight minutes after it. Every previous block in this record has a documented reversal.  
   ↳ [[wiki/meta/open-questions]] · timeline (81)
 - · **2026-08-19** — enneagram 5w4 — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-19** — The strongest is the **asymmetric clearing** — on 2026-08-19 at 06:33 Annie publicly cleared Coles of rape in a group chat, having agreed by phone to do the same for Dan, and did not.  
   ↳ [[wiki/mind/synthesis/august-grievance-verdict]] · LLM Quick Brief
 - · **2026-08-19** — The strongest — Annie publicly clearing Coles of rape in a group chat on 2026-08-19 at 06:33 having agreed by phone to clear Dan and not doing so — is the cleanest documented wrong in the corpus, because it required no interpretation: one act was performed and its promised counterpart was not.  
@@ -7152,7 +7164,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-20** — iMessage triple-handle archive on disk  
   ↳ [[wiki/people/annie-ulmer]] · By the numbers
 - · **2026-08-20** — arrangement history — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-20** — alexander jackson — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 16 pages
 - · **2026-08-20** — arnu — people  
@@ -7174,7 +7186,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-21** — Her own page carries the correction: two independent 2026-08-21 passes concluded she has no type at all, a finding that could only be made once the datum stopped living only on a five-day rebound's page and was carried on her own page as well.  
   ↳ [[wiki/meta/journeys/the-type-machine]] · The control case: typed, then found untyped
 - · **2026-08-21** — fastly fsly — work  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-21** — wiki brain — self  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-08-21** — The trend-detection lead is the same function seen from outside, and Dan prices it precisely in the love letter of 2026-08-21 — the only document in the corpus where he states what the attraction actually is:  
@@ -7192,25 +7204,25 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-22** — 155 virginia ave — places  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 31 pages
 - · **2026-08-22** — deviance mapping — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-22** — ally lubin — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-22** — attachment model — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
 - · **2026-08-22** — It does not settle *when* beyond "recent," and it does not answer the transmission question the gap also asked: whether Ally sent the screenshot to Dan directly, or he obtained it some other way, is still undocumented. "Recent" against a 2026-08-22 capture puts the test somewhere in mid-2026 and no…  
   ↳ [[wiki/people/ally-lubin-cognitive-profile]] · The instrument, and what it is worth
 - ★ **2026-08-23** — the cool metric — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - ◆ **2026-08-23** — The replacement gap is narrower and answerable by a decision rather than a query: *will such a log be kept, starting when?* 2. ~~**No release catalogue, no platform links, no streaming figures** for any of the four music aliases.~~ **CLOSED [2026-08-23], and it changed Part VI as predicted — in the…  
   ↳ [[wiki/mind/synthesis/failure-to-launch]] · Gaps
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
 - · **2026-08-23** — overview — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 42 pages
 - · **2026-08-23** — closing the set — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-23** — annie ulmer personality assessment — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-23** — johnny dealer — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
 - · **2026-08-23** — 1. ~~**No calibration test has been run**, though the data for it exists.~~ **CLOSED [2026-08-23], as a negative result.** The data does not exist: of 24 strict graded credences across eleven years, one is resolvable and it resolved false.  
@@ -7244,19 +7256,19 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-26** — suzanne frank — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 31 pages
 - · **2026-08-26** — chaos preference — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-26** — axioms — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-26** — the cato seat — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-26** — jerad friedline — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-26** — ally and dan love as destiny — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-26** — astrology star signs — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-26** — 2020 2021 market era — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-26** — On 2026-08-26 he ran a session generating graded insult and praise batches and then selected from the pool, and the selections are recorded in full at vocabulary lexicon.  
   ↳ [[wiki/mind/profile/linguistic-profile]] · The insult register is built, not reached for
 - · **2026-08-26** — The August 26, 2026 update introduces a potentially important counterexample.  
@@ -7278,7 +7290,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — chemical architecture — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 42 pages
 - · **2026-08-28** — cocaine — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 4 pages
 - · **2026-08-28** — alias as periodization — mind  
@@ -7362,13 +7374,13 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-09-02** — The git log read as a record of *operations* rather than saves  
   ↳ [[wiki/meta/instruments/index]] · The measures
 - · **2026-09-02** — 2020 left turn — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 42 pages
 - · **2026-09-02** — failure to launch — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 42 pages
 - · **2026-09-02** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 42 pages
 - · **2026-09-02** — location history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 42 pages
 - · **2026-09-02** — chatgpt — self  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-09-02** — He had no page here until 2026-09-02, and he is not named anywhere else in the corpus: no message thread, no Facebook exchange, no appearance on another person's page.  

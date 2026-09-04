@@ -1,5 +1,5 @@
-WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-03
-497 pages, ~1,821,377 tokens.
+WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-04
+497 pages, ~1,823,550 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10267,7 +10267,7 @@ title: "Wiki Digest"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-09-03
+date_modified: 2026-09-04
 sources: []
 ---
 
@@ -10284,7 +10284,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 497 |
-| Pages touched in the last 14 days | 191 |
+| Pages touched in the last 14 days | 175 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 48 |
 | Open gaps | 605 |
@@ -10317,6 +10317,9 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
+**2026-09-04** — 1 page
+  - site | meta | the Wikipedia-style reader is served again
+
 **2026-09-03** — 41 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
   - ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
@@ -10331,6 +10334,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | self | 2022 and 2023 read in full — he names Balloon Boy himself, and the method's bill comes due in public
   - ingest | self | 2024, 2025 and 2026 read in full — all nineteen year pages now carry narrative runs
   - lint | self | the twitter year pages were generating a 2,741-entry table of contents
+  - adjudicate | meta | the prediction seam, scored — and his certainty turns out to be the signal to discount hardest
 
 **2026-09-02** — 12 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one
@@ -10361,13 +10365,6 @@ between regenerations. Do not hand-edit here — rerun the tool._
 **2026-08-31** — 4 pages
   - ingest | health | the intake ledger's first export (2026-08-30/31)
   - ingest | health | the ledger gets an entry page
-
-**2026-08-30** — 1 page
-  - build | meta | the skills section was a contract with no counterparty
-  - tool | health | the intake ledger — `bin/intake`, `intake/`, Special:Intake
-  - infra | intake | the portal as a third interface, and the guard that actually guards
-  - declare | meta | the skills section becomes a cross-model database
-  - tool | meta | page history — every version of every page, on the site and behind a gate
 
 ## Pages that reason from other pages
 
@@ -11073,7 +11070,7 @@ title: "Open Questions"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-09-03
+date_modified: 2026-09-04
 sources: []
 ---
 
@@ -12014,7 +12011,7 @@ title: "Recent Activity"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-09-03
+date_modified: 2026-09-04
 sources: []
 ---
 
@@ -12032,6 +12029,12 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
+## 2026-09-04 — 1 page
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/meta/testimony-veracity]] | meta | — |
+
 ## 2026-09-03 — 41 pages
 
 | Page | Domain | What moved |
@@ -12044,7 +12047,7 @@ simply listed.
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/recent-activity]] | meta | _(carries a CONTRADICTION)_ |
-| [[wiki/meta/testimony-veracity]] | meta | — |
+| [[wiki/mind/profile/index]] | mind | — |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/mind/synthesis/failure-to-launch]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
@@ -12163,7 +12166,7 @@ simply listed.
 | [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 
-## 2026-08-26 — 52 pages
+## 2026-08-26 — 51 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -12186,7 +12189,6 @@ simply listed.
 | [[wiki/mind/politics/axioms]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
 | [[wiki/mind/profile/deviance-mapping]] | mind | _(carries a GAP CLOSED from 2026-08-22)_ |
 | [[wiki/mind/profile/enneagram-5w4]] | mind | _(carries a CONTRADICTION from 2026-08-19)_ |
-| [[wiki/mind/profile/index]] | mind | — |
 | [[wiki/mind/profile/intp]] | mind | — |
 | [[wiki/mind/profile/lexicon]] | mind | — |
 | [[wiki/mind/profile/neurodivergence]] | mind | — |
@@ -12364,16 +12366,6 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/people/john-paci]] | people | **REVISED** — the version of this page written on 2026-08-10 described a warm, long-suffering landlord and an eviction that simply happened to him and to his tenants. The eviction was staged at Dan's request. The r |
-
-## 2026-08-11 — 5 pages
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/mind/concepts/institutional-out]] | mind | — |
-| [[wiki/mind/concepts/node-locking]] | mind | — |
-| [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | mind | — |
-| [[wiki/people/lisa-frank]] | people | — |
-| [[wiki/people/tan-calabrese]] | people | _(carries a REVISED from 2026-08-09)_ |
 
 
 
@@ -12630,7 +12622,7 @@ status: active
 importance: high
 knowledge: derived
 date_created: 2026-09-02
-date_modified: 2026-09-03
+date_modified: 2026-09-04
 chart:
   kind: grouped-bar
   title: "Stated confidence against measured outcome, by confidence band"
@@ -12644,9 +12636,9 @@ chart:
         "hedged": 0.60
     - name: "What it turned out to be worth"
       points:
-        "certain": 0.25
-        "confident": 0.69
-        "hedged": 0.75
+        "certain": 0.30
+        "confident": 0.54
+        "hedged": 0.50
 sources:
   - testimony/events.jsonl
 connections: []
@@ -12666,45 +12658,45 @@ A single trust score would collapse two facts that behave differently. **Veracit
 
 | | value | n |
 |---|---|---:|
-| **Veracity** | **52 / 100** — +1.0 points on 31.0 weight | 10 |
-| **Calibration** | Brier 0.335, skill -0.34 vs a coin flip | 10 |
-| **Stated vs actual** | -0.30 | 10 |
+| **Veracity** | **46 / 100** — -3.0 points on 42.0 weight | 15 |
+| **Calibration** | Brier 0.349, skill -0.40 vs a coin flip | 15 |
+| **Stated vs actual** | -0.36 | 15 |
 
-Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 10 settled claims, not thousands.
+Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 15 settled claims, not thousands.
 
 ## What his confidence is actually worth
 
 | band | he states | it is worth | gap | n |
 |---|---:|---:|---:|---:|
-| certain | 0.95 | 0.25 | -0.70 | 4 |
-| confident | 0.80 | 0.69 | -0.11 | 4 |
-| hedged | 0.60 | 0.75 | +0.15 | 2 |
+| certain | 0.95 | 0.30 | -0.65 | 5 |
+| confident | 0.80 | 0.54 | -0.26 | 7 |
+| hedged | 0.60 | 0.50 | -0.10 | 3 |
 
 ## Outcomes
 
 | outcome | n | meaning |
 |---|---:|---|
-| confirmed | 4 | independent evidence bears it out |
-| partial | 2 | the core holds, a material detail does not |
+| confirmed | 5 | independent evidence bears it out |
+| partial | 3 | the core holds, a material detail does not |
 | self_contradicted | 1 | he has given two accounts that cannot both be true |
-| refuted | 3 | independent evidence contradicts it |
+| refuted | 6 | independent evidence contradicts it |
 | unfalsifiable | 6 | checked, and the corpus cannot settle it — **scores zero, never negative** |
 
 ## By claim class
 
-Rates are shrunk toward the global 0.53 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
+Rates are shrunk toward the global 0.45 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
 
 | class | n | raw | shrunk | 95% CI on clean confirmations | dominant failure |
 |---|---:|---:|---:|---|---|
-| date | 4 | 0.50 | 0.51 | 15%–85% | displacement, rounding |
-| sequence | 3 | 0.50 | 0.51 | 6%–79% | compression, overreach |
-| location | 2 | 0.12 | 0.37 | 0%–66% | displacement, rounding |
-| duration | 1 | 1.00 | 0.64 | 21%–100% | — |
-| enumeration | 1 | 0.50 | 0.52 | 0%–79% | omission |
-| existence | 1 | 1.00 | 0.64 | 21%–100% | — |
-| other_state | 1 | 0.00 | 0.39 | 0%–79% | overreach |
-| quantity | 1 | 1.00 | 0.64 | 21%–100% | — |
-| self_state | 1 | 0.50 | 0.52 | 0%–79% | compression |
+| other_state | 6 | 0.25 | 0.32 | 3%–56% | overreach |
+| sequence | 5 | 0.30 | 0.36 | 4%–62% | overreach, compression |
+| date | 4 | 0.50 | 0.48 | 15%–85% | displacement, rounding |
+| location | 2 | 0.12 | 0.32 | 0%–66% | displacement, rounding |
+| quantity | 2 | 1.00 | 0.67 | 34%–100% | — |
+| duration | 1 | 1.00 | 0.59 | 21%–100% | — |
+| enumeration | 1 | 0.50 | 0.46 | 0%–79% | omission |
+| existence | 1 | 1.00 | 0.59 | 21%–100% | — |
+| self_state | 1 | 0.50 | 0.46 | 0%–79% | compression |
 
 ## Which way the errors run
 
@@ -12712,7 +12704,7 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 
 | slant | n |
 |---|---:|
-| neutral — the error carries no credit or discredit either way | 6 |
+| neutral — the error carries no credit or discredit either way | 11 |
 | flattering — the error, had it stood, would have reflected better on him | 1 |
 
 ## The record
@@ -12735,12 +12727,19 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 | t014 | Dan's continuous Suboxone regimen began on 17 February 2010. | date | certain | confirmed | wiki/self/twitter/2010 — 2010-02-17 20:07 UTC (15:07 New York): 'this is the most stressful day/decision of my life. nothing is making it easier.' Followed by 'planning the next 3 years of my life all day in muh head' (2010-02-18) and 'put my life on a treadmill. shape up or bust.' (2010-02-20). The obvious alternative referent is excluded: the Brooklyn move was decided on 2010-01-26 and described as good news either side of this day. LIMIT: he never names the decision, so this is a dated alignment on an independent same-day artifact rather than a clinical record. It is recorded as confirmed because the date he gave held up against evidence he did not write for the record and could not have been shaping. |
 | t015 | Dan was among the O&A fans repulsed by the racism at the time of the 2014 split, and that repulsion radicalized him to leftist politics. | self_state, sequence | confident | partial | wiki/self/twitter/2014 — 2014-07-04, one day after the firing: '@AnthonyCumia nothing but love and respect ant. Thanks for not selling your soul through this whole mess.' And 2014-03-25: '@AnthonyCumia brilliant point re "tranny" outrage.' 2014 is spreadsheet-complete (170 of 171 rows) and contains no post expressing discomfort. PARTIAL rather than refuted because 'we were radicalized' describes a process that can begin later than its cause; what is contradicted is the implied timing, not the eventual direction of travel, which the 2020 turn independently corroborates. |
 | t016 | Ron DeSantis will not challenge Donald Trump in the 2024 Republican primary. | other_state, sequence | certain | refuted | DeSantis filed and announced his candidacy on 2023-05-24. Dan acknowledged it the same day without pretending otherwise — 'Ron DeSantis is stupidly committing political suicide by moving ahead with a 2024 primary run' — restating the underlying analysis as a judgement about the decision rather than defending the prediction. |
+| t017 | Whoever replaces Biden on the 2024 Democratic ticket will not win in November; their chances are 25% at best. | other_state, quantity | confident | confirmed | Biden withdrew 2024-07-21 and endorsed Harris, who became the nominee. Harris lost the 2024 general election: Trump won all seven swing states, the electoral college 312-226, and the national popular vote. The prediction's content — that the replacement would not win — held, and the 25% ceiling was stated two weeks before the replacement was even known and against a consensus that had the race at roughly even after Harris entered. |
+| t018 | Biden will outperform the low expectations his critics have set at the 27 June 2024 debate. | other_state | hedged | refuted | Biden's 27 June 2024 debate performance was universally read as far BELOW even the low expectations set — it triggered three weeks of party pressure and his withdrawal on 21 July. Dan recorded the collapse himself in real time within the hour ('This is not SOTU Joe', 'It's joever', 'This is catastrophic'). Clause 2, that Trump would mount a charm offensive and appear thoughtful, was closer to what happened but is not the load-bearing clause and is not scored here. |
+| t019 | Trump will eventually walk on all charges after a hung-jury mistrial, and jury nullification will become a widely used strategy for legally vulnerable conservatives. | other_state, sequence | confident | refuted | New York v. Trump reached verdict 2024-05-30: convicted on all 34 felony counts by a unanimous jury. No hung jury, no mistrial, and he did not walk. The federal cases were later dropped on Department of Justice policy after the 2024 election, which is a different mechanism from the one predicted. The second clause also failed: jury nullification did not become a widely used conservative legal strategy. |
+| t020 | The 2024 election will be so close that the outcome will be decided by the inevitable post-election legal challenges rather than by the vote. | other_state, sequence | confident | refuted | The 2024 result was not close and was not litigated. Trump won all seven swing states, 312-226 in the electoral college, plus the national popular vote; Harris conceded on 2024-11-06, the day after the election. There were no significant post-election legal challenges — the scenario the claim said would decide the outcome did not occur at all. |
+| t021 | Trump will never be held to any level of account in a courtroom. | other_state | certain | partial | CUTS BOTH WAYS, and is scored partial for that reason. Against the claim: Trump was tried and convicted in a courtroom on 34 felony counts (New York, 2024-05-30), and testified in the New York civil fraud trial in November 2023, which produced a judgment against him exceeding $450m. The courtroom event the claim said would never happen, happened. For the claim: the conviction produced an unconditional discharge at sentencing in January 2025 — no penalty of any kind — and he was inaugurated days later, so 'held to account' in the sense of consequence substantially did not occur. The vague wording ('some level of account') is what makes this unresolvable either way, and is why specificity was recorded as 1. |
 
 ## What this ledger cannot see
 
 **The sample is filtered, and not at random.** `CLAUDE.md` carries a standing directive stopping new writing about one living person. `bin/wiki-testimony` enforces it mechanically rather than leaving it to a session to remember, and refuses such a record outright. At least one cleanly adjudicated confirmation is excluded by that rule. The exclusion is correct and it is still a bias: this score is drawn from what the directive permits, not from everything the corpus knows.
 
 **Adjudicated claims are not a random sample of claims.** A claim gets checked when somebody had a reason to check it, and the reasons correlate with the claim being surprising, load-bearing, or already doubted. Expect the settled set to over-represent both the spectacular confirmations and the spectacular failures.
+
+**The channel column is confounded by what each channel was mined for.** A channel's outcome value measures the claims somebody chose to pull from it, not the channel's reliability. `platform_self_report` is the clearest case: it is loaded with dated public predictions, deliberately harvested because they are falsifiable and publicly settled, and a prediction about an election is a far harder thing to get right than a claim about where he lived. Read that row as *these claims went this way*, never as *this is how reliable he is on that surface*.
 
 **Nothing here measures honesty.** Every outcome in this ledger is consistent with a person reporting in good faith and misremembering. The failure-mode column exists precisely so the two can be told apart in principle — a distribution dominated by `compression` and `rounding` is a memory, one dominated by `confabulation` running `flattering` would be something else — and at this n it can be told apart in principle only.
 
@@ -18379,7 +18378,7 @@ aliases: ["Abyssal Architect", "typology stack", "psychological profile"]
 status: stable
 importance: critical
 date_created: 2026-07-13
-date_modified: 2026-08-26
+date_modified: 2026-09-03
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-scan/Dan Profile.txt
@@ -18393,6 +18392,9 @@ related:
   - wiki/mind/synthesis/ancestral-dialectic
   - wiki/mind/concepts/erotic-architecture
   - wiki/mind/psychosexual/index
+  - page: wiki/meta/testimony-veracity
+    type: evidenced-by
+    claim: 'The self-reported ~82nd-percentile metacognitive accuracy has an independent counterpart that points the other way: across 15 settled claims his stated confidence carries no usable information (Brier skill -0.40), and the overconfidence scales with the confidence expressed — certain -0.65, confident -0.26, hedged -0.10. The correction is that his certainty is the signal to discount hardest.'
 ---
 
 # Personality Profile
@@ -18485,6 +18487,50 @@ mediocrity registered as existential threat); radical skepticism; emotional
 metabolization through logic. The failure mode, per context-core, is never
 ignorance — it is the diagnosis-to-behavior gap: metacognitive accuracy ~82nd
 percentile, with insight feeding the loops instead of stopping them.
+
+## The metacognition figure now has a measured counterpart, and they disagree
+
+The `~82nd percentile` metacognitive accuracy above is **self-reported**, via
+`CONTEXT_CORE_EXPANDED`. `wiki/meta/testimony-veracity` supplies the first
+independent measurement of the same faculty, and it points the other way.
+
+Across **15 settled claims**, his stated confidence does not track his
+accuracy — Brier skill **−0.40 against a coin flip**, which means the
+confidence label carries no usable information at present. What it does show is
+a clean monotonic gradient:
+
+| he says | it is worth | gap | n |
+|---|---|---|---|
+| certain | 0.30 | **−0.65** | 5 |
+| confident | 0.54 | −0.26 | 7 |
+| hedged | 0.50 | −0.10 | 3 |
+
+**The overconfidence scales with the confidence.** His hedges are close to
+honest; his certainties are worth less than a coin flip. The practical
+correction is the useful part: **when Dan says he is certain, that is the
+signal to discount hardest** — the inverse of how a confidence marker is
+normally read.
+
+This is consistent with the diagnosis-to-behavior gap rather than contradicting
+it, and sharpens it. Insight that feeds the loops instead of stopping them is
+exactly what an accurate self-model paired with an uncalibrated confidence
+signal looks like: he can describe the mechanism correctly and still cannot use
+his own certainty as a guide to when he is right.
+
+**The dominant failure mode is `overreach`** — five of ten misses, "a real
+observation generalised past what it supports." That is not ignorance and it is
+not confabulation. It is a correct perception extended one step too far, which
+is the specific error an anomaly-detection orientation would be expected to
+produce, and the corpus now measures it rather than asserting it.
+
+**What this is not.** n=15 is a reading, not a result; the ledger needs roughly
+30 settled claims to be load-bearing. The `certain` band is at n=5, the minimum
+worth quoting. The sample is filtered by the standing directive and is not
+random — claims get checked when somebody had a reason to check them. And the
+82nd-percentile figure and this measurement are not straightforwardly
+commensurable: the first is about insight into his own states, the second about
+predictions concerning the outside world. They are held side by side here
+rather than resolved.
 
 **Gaps:** no clinical or third-party-administered assessment; no test dates
 or instrument versions for the Big30/PD numbers; no re-test after the June
@@ -88455,6 +88501,9 @@ connections:
   - page: wiki/mind/synthesis/failure-to-launch
     type: evidences
     claim: 'He is waiting tables at thirty-three and the fact arrives in a subordinate clause inside an anecdote about how good a customer\'s conversation was — the same posture toward employment the 2016 page names, six years and two jobs later.'
+  - page: wiki/meta/testimony-veracity
+    type: supplies
+    claim: 'The courtroom-accountability claim of 2022-09-26 (t021, partial): he was tried and convicted on 34 counts, which the claim said would never happen, and the sentencing was an unconditional discharge, which is close to what the claim assumed.'
 ---
 
 # Twitter / X — 2022
@@ -89632,6 +89681,9 @@ connections:
   - page: wiki/meta/testimony-veracity
     type: supplies
     claim: 'A seam of deliberately checkable claims with public outcomes, and the scoring behaviour to go with them: the DeSantis prediction stated at maximum confidence on 2023-02-13 and refuted on 2023-05-24, and "I\'m deeply embarrassed that I got tricked once again ... Fooled AGAIN" (2023-03-30) — he logs his own misses in public rather than dropping them.'
+  - page: wiki/meta/testimony-veracity
+    type: supplies
+    claim: 'Two scored predictions from 2023: the DeSantis primary claim (t016) and "My official prediction is Trump eventually walks on all charges after a hung-jury mistrial" (t019) — refuted by a unanimous conviction on all 34 counts, with the jury-nullification consequence it forecast also failing to appear.'
 ---
 
 # Twitter / X — 2023
@@ -90830,6 +90882,9 @@ connections:
   - page: wiki/mind/synthesis/failure-to-launch
     type: evidences
     claim: 'A fourth job enters the archive the way the others did — as the credential for an aside. "during my time as a caddie" (28 June), inside an argument about Trump\'s handicap, with no dates, employer or duration, exactly as with retail in 2012 and waiting tables in 2022 and 2023.'
+  - page: wiki/meta/testimony-veracity
+    type: supplies
+    claim: 'Three scored predictions: the 25% ceiling on any Biden replacement (t017, confirmed, stated 2024-07-06 against a consensus that had the race even), the hedged debate forecast (t018, refuted within the hour), and the too-close-to-call-plus-legal-challenges reading of the election (t020, refuted by a seven-state sweep conceded in a day).'
 ---
 
 # Twitter / X — 2024
@@ -101452,7 +101507,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,538 events** across **80 years** (1796–2027), drawn from **384 pages**. Tier 1 695 · Tier 2 429 · Tier 3 2,414.
+**3,544 events** across **80 years** (1796–2027), drawn from **384 pages**. Tier 1 696 · Tier 2 430 · Tier 3 2,418.
 
 ## What counts as an event here
 
@@ -102392,7 +102447,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **August 2009** — full sail 2008 2010** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomorrow"*, which puts the final month in September. And across November and…  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **August 2009** — full sail 2008 2010 — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 42 pages
 - · **August 2009** — t013 — date — certain — refuted  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2009-08-31** — On **31 August 2009** he writes *"so weirded out i start my last month of college tomorrow. having multiple reality checks."* — which places the final month in **September**, not August.  
@@ -103185,7 +103240,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2014-07-03** — Anthony Cumia was fired by SiriusXM on **3 July 2014**, after posting a series of racist messages about a Black woman who had struck him in Times Square.  
   ↳ [[wiki/self/twitter/2014]] · 4 July 2014, and a correction to the corpus's own account
 - · **2014-07-03** — opie and anthony — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 42 pages
 - ★ **2014-07-04** — The contemporaneous record shows he was not among the repulsed at the time: on **4 July 2014**, one day after Cumia was fired over racist posts, Dan tweeted at him *"nothing but love and respect ant.  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · The O&A cause is real but its date is not 2014
 - · **2014-07-04** — t015 — Dan was among the O&A fans repulsed by the racism at the time of the 2014 split, and that repulsion radicalized him to leftist politics. — self_state, sequence — confident — partial  
@@ -106508,6 +106563,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/garrett]] · What is known
 - · **2024-05-24** — Phase 5: The 2024–25 resurgence (May 24, 2024 – Feb 20, 2025)  
   ↳ [[wiki/people/menore]] · Timeline & Phases
+- ★ **2024-05-30** — t021 — Trump will never be held to any level of account in a courtroom. — other_state — certain — partial  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
+- · **2024-05-30** — t019 — Trump will eventually walk on all charges after a hung-jury mistrial, and jury nullification will become a widely used strategy for legally vulnerable conservatives. — other_state, sequence — confident — refuted  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
 - ★ **June 2024** — He is Muslim (references Allah and Islam directly) and appears to be Bangladeshi or closely tied to Bangladeshi politics: a June 2024 message congratulates Dan on his "boss" getting married, and by August 2024 the conversation turns to real news, discussing the 2024 Bangladesh political unrest in…  
   ↳ [[wiki/people/md]] · MD
 - ★ **June 2024** — The occasion for the June 2024 Arabic wedding congratulations is unidentified.  
@@ -106530,6 +106589,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/roman-republic]] · The 2024 reading binge — dated, not vague
 - ◆ **2024-06-27** — More tellingly, the corpus shows him reaching for Michael Scott as a behavioral comparator: in the 2019 Twitter analysis he analogizes EU ambassador Gordon Sondland's testimony to having "a total Michael Scott vibe," and during the 2024 presidential race he texted "Next pres was Dwight d…  
   ↳ [[wiki/interests/the-office]] · The Michael Scott register
+- ◆ **2024-06-27** — t018 — other_state — hedged — refuted — Biden's 27 June 2024 debate performance was universally read as far BELOW even the low expectations set — it triggered three weeks of party pressure and his withdrawal on 21 July. Dan recorded the collapse himself in real time within the hour ('This is not…  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2024-06-27** — The highest-volume day in this thread's eleven-year record — 224 messages on 27 June 2024 — is the night of the first Biden–Trump debate**, watched separately and narrated to each other in real time.  
   ↳ [[wiki/people/suzanne-frank]] · Politics
 - ◆ **2024-06-28** — 28 June 2024 is the account's peak, and it is a single evening.** Twenty-three originals as the debate ran and immediately after: *"This is not SOTU Joe"* → *"Oh my god his voice"* → *"It's joever"* → *"This is catastrophic"* → *"It's hard to overstate just how devastating this is for the Biden…  
@@ -106554,6 +106615,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/places/derrick-avenue]] · "The derrick ave gang"
 - · **2024-07-15** — A later message (Jul 15 2024, from a different contact) has someone recognizing the same pattern in Dan directly: "She's like you had an eating disorder didn't you?  
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The eating disorder
+- · **2024-07-21** — t017 — Whoever replaces Biden on the 2024 Democratic ticket will not win in November  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
+- · **2024-07-21** — their chances are 25% at best. — other_state, quantity — confident — confirmed  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2024-07-30** — Philip and Alexander — Adrian Goldsworthy — 4  
   ↳ [[wiki/interests/roman-republic]] · The 2024 reading binge — dated, not vague
 - · **2024-07-31** — Caesar: Life of a Colossus — Goldsworthy, Adrian — ★★★★★ — ancient-history, biography, caesar, great-man-theory, history, non-fiction, philosophy, roman-republic, top-shelf  
@@ -106722,6 +106787,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - · **2024-11-04** — "i just said 'vanessa is an xNFP 4w5 and Dan is an INTP 5w6sx RLOEI - compare them'"* — the prompt itself, quoted  
   ↳ [[wiki/mind/synthesis/the-commissioned-self]] · The census, and what the seventeen instances actually say
+- · **2024-11-06** — t020 — The 2024 election will be so close that the outcome will be decided by the inevitable post-election legal challenges rather than by the vote. — other_state, sequence — confident — refuted  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2024-11-06** — 14 — The morning after the election  
   ↳ [[wiki/self/twitter]] · The densest day in seventeen years
 - · **2024-11-15** — That's it" (November 15, 2024) is a real complaint about that specific year, generalized past what the decade as a whole would support.  
@@ -107733,7 +107800,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **June 2026** — Gaps:** the baseline model is a sketch, not a normed population; scores are single-model judgments with no inter-rater check; the audit predates the June 2026 closure and the 2026 work/housing shocks, all of which bear directly on the "relationships" and "values" rows.  
   ↳ [[wiki/mind/profile/deviance-mapping]] · Reading the audit
 - ★ **June 2026** — Gaps:** no clinical or third-party-administered assessment; no test dates or instrument versions for the Big30/PD numbers; no re-test after the June 2026 closure event, so the entire profile is calibrated on pre-closure data.  
-  ↳ [[wiki/mind/profile/index]] · Core axioms and personal myth
+  ↳ [[wiki/mind/profile/index]] · The metacognition figure now has a measured counterpart, and they disagree
 - ★ **June 2026** — Gaps:** function scores are AI-inferred from corpus behavior, not from a proctored instrument; the Ni measurement in particular has no independent confirmation; no data on how the stack presents post-closure (all sources pre-date June 2026).  
   ↳ [[wiki/mind/profile/intp]] · The stack as one machine
 - ★ **June 2026** — It also reframes the June 2026 severance. `the-unbroken-bond` records that the break held fifty-two days and then failed.  
@@ -108025,7 +108092,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-07-18** — Intervention by her parents and sister; rehab placement refused; car taken  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2026-07-18** — conflict architecture — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-07-18** — Love affirmations from Annie to Dan — 299  
   ↳ [[wiki/mind/concepts/attachment-model]] · Quantitative Corpus Indicators
 - · **2026-07-18** — "Worthless" instances — 11  
@@ -108039,7 +108106,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 42 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -108193,7 +108260,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-08-02** — A first-person operator capture written on 2026-08-02 supplies the day this relationship consists of, documented in full at franki fireworks day 2013.  
   ↳ [[wiki/people/franki-faris]] · The day itself, and what a 2026 capture settled
 - ◆ **2026-08-02** — teen concert years — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - ◆ **2026-08-02** — As of 2026-08-02 it is also known to have a jurisdiction: food and diet shows the axis is never applied to food, which out-mentions music in the message corpus and holds zero of the 2,016 entries in the curated favorites record.  
   ↳ [[wiki/mind/synthesis/single-channel]] · Gaps
 - · **2026-08-02** — Its correction of 2026-08-02 is the hinge: the earlier reading held that food was simply never evaluated, and what replaced it was that food is not *ranked* but is *specified*, totally, with the refusal list consisting precisely of the three items that cannot be picked off afterwards.  
@@ -108205,9 +108272,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-02** — jerel coles** — 4. **What load broke a thirteen-day-held off-switch?** Test the hypothesis above against the 2026-08-02 → 08-08 logs.  
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **2026-08-02** — acquisition drive — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-02** — fran coldren — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-02** — big five psychometrics — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 18 pages
 - · **2026-08-02** — ~~**No audit has been run.**~~ **CLOSED 2026-08-02** — see the enumeration  
@@ -108233,7 +108300,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-02** — For context injection:** July 26 – August 2, 2026. 1,880 messages, 969 from Dan, 911 from Annie.  
   ↳ [[wiki/timeline/events/july-august-2026-reentanglement]] · LLM Quick Brief
 - ★ **2026-08-03** — 2015 possession arrest — legal  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 42 pages
 - ★ **2026-08-03** — 2015 retail theft arrest — legal  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-22 — 4 pages
 - · **2026-08-07** — Sexual contact resumes, per operator testimony  
@@ -108419,11 +108486,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-17** — jerel coles** — 6. **What is *"stuff to ruin you and your mom"* (2026-08-17 12:48)?** The only threat aimed at Suz in the corpus that has no named content. Bluster is the parsimonious reading and there is nothing in `raw/` either way.  
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **2026-08-17** — bond switch 2015 — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-17** — kristin — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-17** — milo — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-17** — ellen ulmer — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 16 pages
 - · **2026-08-17** — 374 — 210 — 4.9 — the seventy-hour campaign opens  
@@ -108465,9 +108532,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-17** — The operator (2026-08-17) places it *"in the text logs on 26 July 2026 at around 7am"*, along with the threatening messages sent from Annie's number in the hours before.  
   ↳ [[wiki/timeline/events/july-august-2026-reentanglement]] · Gaps
 - ★ **2026-08-18** — forensic method — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - ★ **2026-08-18** — fran death vigil — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - ★ **2026-08-18** — On August 18, 2026, 21:07:43–21:09:11, in the Ally channel: she challenges (*"You just love bomb"*), he runs the redefinition move (*"But love bomb is like a malicious tactic and there very little malice"*), she narrows rather than escalates (*"I didn't say malicious"*), and he concedes in six…  
   ↳ [[wiki/mind/concepts/conflict-architecture]] · The one completed refusal, and how it ends
 - ◆ **2026-08-18** — Clause 3 — "complicit in the length and depth" — gets its clearest single instance, and it is worse than anything previously on the ledger.** On 2026-08-18 at 19:35 Dan told Annie he had sent the recording to her parents; three minutes later he told her he had not, and why: *"it wasn't actually…  
@@ -108557,7 +108624,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-19** — august 2026 morgantown call** — **Did the block hold?** The export ends 2026-08-19 15:15:33, eight minutes after it. Every previous block in this record has a documented reversal.  
   ↳ [[wiki/meta/open-questions]] · timeline (81)
 - · **2026-08-19** — enneagram 5w4 — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-19** — The strongest is the **asymmetric clearing** — on 2026-08-19 at 06:33 Annie publicly cleared Coles of rape in a group chat, having agreed by phone to do the same for Dan, and did not.  
   ↳ [[wiki/mind/synthesis/august-grievance-verdict]] · LLM Quick Brief
 - · **2026-08-19** — The strongest — Annie publicly clearing Coles of rape in a group chat on 2026-08-19 at 06:33 having agreed by phone to clear Dan and not doing so — is the cleanest documented wrong in the corpus, because it required no interpretation: one act was performed and its promised counterpart was not.  
@@ -108585,7 +108652,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-20** — iMessage triple-handle archive on disk  
   ↳ [[wiki/people/annie-ulmer]] · By the numbers
 - · **2026-08-20** — arrangement history — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-20** — alexander jackson — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 16 pages
 - · **2026-08-20** — arnu — people  
@@ -108607,7 +108674,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-21** — Her own page carries the correction: two independent 2026-08-21 passes concluded she has no type at all, a finding that could only be made once the datum stopped living only on a five-day rebound's page and was carried on her own page as well.  
   ↳ [[wiki/meta/journeys/the-type-machine]] · The control case: typed, then found untyped
 - · **2026-08-21** — fastly fsly — work  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-21** — wiki brain — self  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-08-21** — The trend-detection lead is the same function seen from outside, and Dan prices it precisely in the love letter of 2026-08-21 — the only document in the corpus where he states what the attraction actually is:  
@@ -108625,25 +108692,25 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-22** — 155 virginia ave — places  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 31 pages
 - · **2026-08-22** — deviance mapping — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-22** — ally lubin — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-22** — attachment model — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
 - · **2026-08-22** — It does not settle *when* beyond "recent," and it does not answer the transmission question the gap also asked: whether Ally sent the screenshot to Dan directly, or he obtained it some other way, is still undocumented. "Recent" against a 2026-08-22 capture puts the test somewhere in mid-2026 and no…  
   ↳ [[wiki/people/ally-lubin-cognitive-profile]] · The instrument, and what it is worth
 - ★ **2026-08-23** — the cool metric — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - ◆ **2026-08-23** — The replacement gap is narrower and answerable by a decision rather than a query: *will such a log be kept, starting when?* 2. ~~**No release catalogue, no platform links, no streaming figures** for any of the four music aliases.~~ **CLOSED [2026-08-23], and it changed Part VI as predicted — in the…  
   ↳ [[wiki/mind/synthesis/failure-to-launch]] · Gaps
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
 - · **2026-08-23** — overview — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 42 pages
 - · **2026-08-23** — closing the set — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-23** — annie ulmer personality assessment — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-23** — johnny dealer — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
 - · **2026-08-23** — 1. ~~**No calibration test has been run**, though the data for it exists.~~ **CLOSED [2026-08-23], as a negative result.** The data does not exist: of 24 strict graded credences across eleven years, one is resolvable and it resolved false.  
@@ -108677,19 +108744,19 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-26** — suzanne frank — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 31 pages
 - · **2026-08-26** — chaos preference — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-26** — axioms — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-26** — the cato seat — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-26** — jerad friedline — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-26** — ally and dan love as destiny — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-26** — astrology star signs — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-26** — 2020 2021 market era — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-26** — On 2026-08-26 he ran a session generating graded insult and praise batches and then selected from the pool, and the selections are recorded in full at vocabulary lexicon.  
   ↳ [[wiki/mind/profile/linguistic-profile]] · The insult register is built, not reached for
 - · **2026-08-26** — The August 26, 2026 update introduces a potentially important counterexample.  
@@ -108711,7 +108778,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — chemical architecture — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 42 pages
 - · **2026-08-28** — cocaine — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 4 pages
 - · **2026-08-28** — alias as periodization — mind  
@@ -108795,13 +108862,13 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-09-02** — The git log read as a record of *operations* rather than saves  
   ↳ [[wiki/meta/instruments/index]] · The measures
 - · **2026-09-02** — 2020 left turn — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 42 pages
 - · **2026-09-02** — failure to launch — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 42 pages
 - · **2026-09-02** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 42 pages
 - · **2026-09-02** — location history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 42 pages
 - · **2026-09-02** — chatgpt — self  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-09-02** — He had no page here until 2026-09-02, and he is not named anywhere else in the corpus: no message thread, no Facebook exchange, no appearance on another person's page.  
