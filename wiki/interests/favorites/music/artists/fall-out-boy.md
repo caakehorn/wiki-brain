@@ -48,6 +48,12 @@ connections:
   - page: wiki/interests/the-office
     type: co-occurs
     claim: "The Nov 19 2007 Buffalo secret show was billed under the fake name 'Schrute Farms' — a sitcom in-joke carried into the band's own concert record and remembered by name twelve years later."
+  - page: wiki/self/twitter/2008
+    type: evidenced-by
+    claim: "The 12 December 2008 House of Blues bill is corroborated day-of and act-for-act from his own feed — 'fall out boy/TAI/WTK - @houseofblues. let me know if you're going!' — and ten days earlier he dates his own nostalgia out loud: 'It's like 2005 again. Fobz and panic both in rotation in my car.'"
+  - page: wiki/self/twitter/2017
+    type: evidenced-by
+    claim: "A 2007 promotional Fall Out Boy show is where he smoked his first pack of cigarettes, which makes this band the setting for the corpus's only dated nicotine onset — a health fact reached through a fandom page."
 ---
 
 # Fall Out Boy

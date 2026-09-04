@@ -3,8 +3,9 @@ domain: interests
 page_type: entity
 status: active
 date_created: 2026-07-16
-date_modified: 2026-08-26
+date_modified: 2026-09-04
 sources:
+  - "raw/self/twitter/archive.jsonl"
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/dox-scan/FULL TWITTER ANALYSIS.txt"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
@@ -26,6 +27,12 @@ connections:
   - page: wiki/mind/synthesis/music-as-identity
     type: component-of
     claim: "The Schrute Farms alias is the itinerary/devotion mode's clearest proof of insider status: a fan who clocks and carries an in-joke for twelve years was let into the scene's own sense of humor, not just watching from outside it."
+  - page: wiki/self/twitter/2008
+    type: evidenced-by
+    claim: "The show is naming infrastructure, not a watched programme: the Winter Park apartment is 'schrute farms' in the account's third tweet, the new kitten is shortlisted as Ari, Dwight or Mose, and the register survives into years with no television content in them."
+  - page: wiki/self/twitter/2010
+    type: evidenced-by
+    claim: "'remember when he stole \'shut up Oscar!\' from us in s5 of the office?' to Eric Jester (12 March 2010) is the idiom operating as shared private property between two friends rather than as a reference either is explaining."
 ---
 
 # The Office (TV)
@@ -46,6 +53,47 @@ remembered it that way ("one time i went to a secret show in buffalo where
 fall out boy performed as 'schrute farms'" — 2019-09-01). For a teenager
 to clock the fake name and carry it for twelve years is a sign the show's
 joke-register was native to him, not incidental.
+
+### He gave the name to his own apartment ten months later
+
+Added 2026-09-04 from [[wiki/self/twitter/2008]].
+
+The section above reads the alias as a joke Dan *clocked* — evidence he was
+inside the register rather than watching it. The twitter archive shows him
+doing something stronger. **The third tweet of his entire account, on
+24 September 2008, is:**
+
+> *"schrute farms is now completely wireless."*
+
+He had moved to Winter Park that day to start Full Sail. The apartment is
+called Schrute Farms. Ten months after standing in a Buffalo room where a band
+he loved used the name, **he has taken it for his own address** — and he
+writes it as an established fact for an audience assumed to already know,
+not as a joke being made.
+
+The rest of that autumn runs the same way. On **24 October** the new kitten's
+shortlist is *"ari, dwight, or mose?"* — two *Office* characters and one
+*Entourage* agent, put to a vote by SMS shortcode. On **5 December**:
+*"oooomg dwight marries angela. fucking awesome."* On **25 September**, the day
+after arriving in Florida: *"So amped for the office. Life is gooood."*
+
+**The distinction this makes is the page's actual finding.** Everything above
+treats *The Office* as a source of idiom — a joke-register, a reflex, a
+rhetorical habit. 2008 shows it operating one layer down as **naming
+infrastructure**: the home, the pet and the week are all labelled out of it.
+That is why the show keeps appearing in years with no television content in
+them at all — *"remember when he stole 'shut up Oscar!' from us in s5"* to
+[[wiki/people/eric-jester|Eric Jester]] in March 2010, and *"What the fuck
+there's 100 dogs at the office"* in October 2011, a pun that only works
+because the phrase was already doing double duty.
+
+**The falsifier, stated because it is live.** Nothing dates the apartment's
+name relative to the November 2007 show, so "he took it from the gig" is a
+reading, not a record — a nineteen-year-old fan of the sitcom could arrive at
+*Schrute Farms* for a house without any band in between, and the Buffalo show
+would then be a coincidence of two people reaching for the same obvious joke.
+What the tweet establishes independently of that question is the register's
+depth: it is where he keeps the names of things he lives in.
 
 ## The Michael Scott register
 

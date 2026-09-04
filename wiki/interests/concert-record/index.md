@@ -3,10 +3,21 @@ domain: interests
 page_type: index
 status: stable
 date_created: 2026-08-01
-date_modified: 2026-08-01
+date_modified: 2026-09-04
 sources:
   - "raw/self/concerts/table.csv"
+  - "raw/self/twitter/archive.jsonl"
 tags: [music-production, digital-footprint]
+connections:
+  - page: wiki/self/twitter/2008
+    type: evidenced-by
+    claim: "The ticket table is not the complete record it claims to be: one autumn of the twitter archive names three Orlando shows it does not contain — The Roots (7 October), Cobra Starship / Hit The Lights / Forever The Sickest Kids (13 November) and Trans-Siberian Orchestra (15 November) — while corroborating four it does, to the day, from inside the venue."
+  - page: wiki/interests/favorites/music/artists/hey-monday
+    type: contains
+    claim: "The table's one unresolved 2008 Orlando entry is dated to 28 December 2008 by two tweets nineteen days apart, and joins to the BACKBOOTH ticket the table files ten rows earlier under the opener's name."
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "A concert log kept from ticket stubs records what was bought; the twitter archive records what was attended and what he thought of it — which is why a show he rated 'SUPER lame' ninety minutes after it ended is absent from the table entirely."
 ---
 
 # Concert Record (2001-2019)
@@ -57,6 +68,68 @@ Per the repository's ingest philosophy, the unit of entry is the **artist**, not
 | 34 | Aug 7-9, 2012 | Bloc Party | Terminal 5 | New York, NY | Three-night sold-out 'Four' run (recalled as 'Terminal 9'). |
 | 35 | Aug 30, 2013 | Oddball Comedy & Curiosity Festival | Post-Gazette Pavilion (First Niagara Pavilion) | Burgettstown, PA | Confirmed. |
 | 36 | Apr 20, 2019 | High Tide 4 | Hornblower Infinity Yacht | New York, NY | Boarded at 353 West St. |
+
+## The twitter cross-check — the table is a purchase record, not an attendance record
+
+Added 2026-09-04, from [[wiki/self/twitter/2008]].
+
+**The claim above that "the master table below is the complete record" is
+false, and one autumn of one archive is enough to show it.** Ninety-eight days
+of the twitter account — 24 September to 31 December 2008, the account's first
+year — name **seven** Orlando shows. The table holds four of them.
+
+| Date | Show | In the table? | What the tweet adds |
+|---|---|---|---|
+| 7 Oct 2008 | The Roots | **No** | *"at the roots show. i can dig that."* — posted 16:29 EDT, from inside it |
+| 18 Oct 2008 | All Time Low / The Maine | Yes, row 28 | *"all time lowww/the maine"* — same-day, exact-date corroboration |
+| 13 Nov 2008 | Cobra Starship / Hit The Lights / Forever The Sickest Kids | **No** | *"cobras/hit the lights/ftsk"* — the full bill, in his own abbreviations |
+| 15 Nov 2008 | Trans-Siberian Orchestra | **No** | *"trans-siberian orchestra tonight."* at 17:04, then *"wow that was SUPER lame."* at 23:07 |
+| 17 Nov 2008 | Jedi Mind Tricks | Yes, row 26 | *"holy fuck, jedi mind tricks are so fucking scary."* — 01:50, walking out |
+| 12 Dec 2008 | Fall Out Boy / TAI / We The Kings | Yes, row 29 | *"fall out boy/TAI/WTK - @houseofblues"* — the three-act bill, day-of |
+| 28 Dec 2008 | Hey Monday (BACKBOOTH) | Row 36 undated; row 40 under another name | see below |
+
+**The three misses are not random, and the reason they are missing is the
+point.** This table was assembled from ticket stubs, order confirmations and
+recollection — every "Resolved" note in the source cites an order number or a
+routing check. A record built that way preserves what was *bought*. It cannot
+preserve a show somebody else bought the ticket for, a show walked into, or a
+show remembered as not worth remembering — and **Trans-Siberian Orchestra is
+the cleanest case in the corpus of the last kind.** He announced it at 17:04
+and dismissed it at 23:07, and it left no trace in the record he later
+compiled. A concert log is a record of intentions; a contemporaneous feed is a
+record of evenings.
+
+> **GAP NARROWED [2026-09-04]:** row 36 read *"Hey Monday · 2008 · Unknown ·
+> Orlando, FL · Still open — band formed 2008 in West Palm Beach; exact Orlando
+> show unresolved."* Two tweets date it without touching the billing question:
+> **2008-12-19** *"I don't want to go to cold, lame PA. Be back on the 28th for
+> hey Monday :)"* — posted from Orlando the day he flew home for Christmas —
+> and **2008-12-27 19:40 EST** *"Flying to Orlando for hey monday tomorrow.
+> Wooo"*, followed by *"Hate airport days."* at 10:38 on the 28th. He flew back
+> to Florida early, mid-holiday, for this one show. **The date is 28 December
+> 2008.**
+>
+> **And the table already held the ticket, ten rows later, under a different
+> band.** Row 40 is *"There for Tomorrow · Dec 28, 2008 · BACKBOOTH · Orlando,
+> FL · 1 General Admission ticket; Order #M7WKYAHQW"* — same city, same night,
+> a 250-capacity room, and There For Tomorrow were an Orlando act sharing the
+> Florida pop-punk circuit Hey Monday had just formed on. **The most economical
+> reading is that rows 36 and 40 are one night**, filed twice: once under the
+> band on the ticket and once under the band he went for.
+>
+> The date is settled by the tweets alone and does not depend on that join. The
+> join itself is inference — nothing in the corpus states the BACKBOOTH bill —
+> and it is the residual open question, now a specific and checkable one rather
+> than an open year.
+
+**What this implies for every other "Still open" row**, and it is not a
+suggestion to go and close them by guessing: the twitter archive runs from
+September 2008 to 2026, the concert table stops in 2019, and the two have never
+been read against each other except for these ninety-eight days. Rows 6, 16,
+17, 27 and 32 are all undated or unidentified, and four of them fall inside
+years the archive covers. `bin/wiki-crosslink scan wiki/self/twitter/<year>`
+names the artist pages a year mentions; the shows with no artist page — which
+is most of them — are found by reading the year.
 
 ## Festivals & tours
 

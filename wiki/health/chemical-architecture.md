@@ -6,7 +6,7 @@ aliases: ["substance stack", "the chemical triad"]
 status: active
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-09-03
+date_modified: 2026-09-04
 sources:
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -65,6 +65,12 @@ connections:
   - page: wiki/self/twitter/2010
     type: evidenced-by
     claim: 'The 2010-02-17 day-zero is independently supported by a same-day tweet at 15:07 New York time — "this is the most stressful day/decision of my life. nothing is making it easier." — on a day when the Brooklyn move, decided and celebrated three weeks earlier, cannot be the referent. The derivation the date originally rested on is separately shown to be unsound.'
+  - page: wiki/self/twitter/2008
+    type: evidenced-by
+    claim: "The nicotine row is dated for the first time here: already a smoker at nineteen, a quit announced on 16 October 2008 as 'Another problem solved' and failed by 22 December — the earliest dated instance in the corpus of a decision being treated as the outcome."
+  - page: wiki/self/twitter/2017
+    type: evidenced-by
+    claim: "Nicotine onset is 2007, at a promotional Fall Out Boy show — which puts it in the same year as the first opiate, making 2007 the year the stack starts rather than the year one substance arrived."
 ---
 
 # Chemical Architecture
@@ -175,6 +181,57 @@ the same substance patterns continuing, and the exchange reads as an
 early, idealistic pact rather than a sustained recovery effort. Alcohol
 was excluded early and permanently — the one substance the family history
 made radioactive.
+
+## The nicotine row gets a date, and it lands on 2007
+
+Added 2026-09-04 from [[wiki/self/twitter/2008]] and
+[[wiki/self/twitter/2017]].
+
+The stack table above has carried nicotine as *"ritualistic regulator —
+thermal paste"* since this page was written, and the measurement section says
+plainly that the Suboxone and nicotine rows "have no ledger entries at all and
+remain description." **The twitter archive breaks that for nicotine, in four
+tweets across nine years, and the finding is not the habit — it is the date.**
+
+| Date | Tweet | What it establishes |
+|---|---|---|
+| 2017-12-28 | *"Smoked my first pack of cigarettes when I went to this promotional fall out boy show in 2007."* | Onset year: **2007** |
+| 2008-10-16 | *"I think I'm gonna stop smoking cigarettes. Another problem solved."* | Already a smoker at 19; first documented quit attempt in the corpus |
+| 2008-12-22 | *"coffee and cigarettes- the cure for a ROUGH night."* | The attempt failed within 67 days |
+| 2008-12-09 | *"7 hookahs last night, throat = deaaad"* | Same register, same autumn |
+
+**Nicotine and the first opiate enter in the same year.** The History section
+above dates the first opiate — Roxicet, then Oxy — to *"2007, age 18–19,
+during the post-rupture years"*, and [[wiki/timeline/periods/dark-era-2007-2008]]
+runs from January 2007. The stack's most trivial component and its most
+destructive one begin inside the same twelve months, in the same life
+conditions, and the corpus had a date for only one of them. That is not a
+claim that one caused the other; it is a claim that **2007 is the year the
+architecture starts**, and until now the page's own account made it look like
+one substance arriving alone.
+
+**The 2007 show is very probably datable further.** The concert table holds two
+2007 Fall Out Boy dates: 6 February, *"Infinity on High release-day free show
+(TRL), Times Square"*, and 19 November, the Buffalo "Schrute Farms" secret
+show. Only the first is *promotional* in the sense the tweet uses. That points
+at **6 February 2007, Times Square, age 18** — stated as the likeliest match
+rather than as settled, because he does not name the venue.
+
+**What the quit attempt shows, and it is the more useful half.** *"Another
+problem solved"* is a complete decision-procedure in three words: the
+resolution is treated as the outcome, and no mechanism, substitute or check
+follows it. Sixty-seven days later the cigarettes are back and are being
+described as a *cure*. This is the earliest dated instance in the corpus of
+the gap this wiki's mind pages describe at much greater length elsewhere —
+between an accurate diagnosis and any change in behaviour — and it is running
+on a nineteen-year-old, on the most trivial possible stake, eighteen years
+before the intake ledger existed to measure anything.
+
+**Still description, not measurement.** None of this is a dose, a frequency or
+a rate; `intake/` holds no nicotine unit and the ledger cannot be back-filled
+from a tweet. The row is now dated at both ends and unmeasured in between,
+which is a strictly better position than undated and unmeasured, and worse
+than the cocaine and cannabis rows.
 
 ## System genesis: a phased history
 
