@@ -4,6 +4,109 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-04c] - Session: the weed middleman was selling cocaine (Claude Opus 5)
+
+* **Branch:** `claude/crosslink-campaign-review-v3s88f`, from `main` after
+  **PR #258 merged** · `bin/wiki-check` clean at every commit · 404 tests green.
+* **Trigger:** operator — *"Continue the CROSSLINK campaign. Another Claude
+  model was working on it since your last pass so check its work first."*
+
+## The previous pass verified before anything was added to it
+
+`bin/wiki-crosslink counts` now returns **0 understating pages** where it
+returned 37 — the corrections landed and hold. 404 tests green, every gate at 0
+errors, `bin/mine-messages` and the crosslink reader agree independently that
+the Vaughn thread is 582 rows, 354/228. Nothing in that pass needed correcting.
+Its handoff named the debt it had deliberately left, and this session paid the
+first item of it.
+
+## Item 2 of that list, worked: the re-derivation is a change of subject
+
+Thirty-seven pages carry a correction block saying their prose was written
+against the one-sided thread and **has not been re-derived**.
+`wiki/people/vaughn` was named the best of them and it was: the page described
+a *"small-time weed middleman"*, and the 354 messages it had never read are
+where the second product lives.
+
+**The thread is a two-product channel and the second product is cocaine** —
+*powder*, *pow*, *that girl*, *a cut*, *Versace* — almost entirely in Dan's
+half. Vaughn disambiguates it himself on 2018-02-01: **"The smoke or that
+girl"**.
+
+Three findings the wider record did not have:
+
+1. **A dollar figure for the cocaine peak.** `wiki/health/cocaine`'s Gaps said
+   the financial cost of the 3.5–7 g/day peak was undocumented. *"I spend well
+   over $100 a day on it"* (2017-05-04, 21:20), said to a new supplier to be
+   relayed to **his** source. Against the $100/gram price Dan enforces by weight
+   in the same thread that is **~1 g/day — the arc's pre-inheritance baseline,
+   in the arc's first peak year.** Both cannot be right. Recorded as `t017`,
+   unadjudicated, expected error direction **over** (it is a sales pitch).
+2. **The succession's missing 2017 node.** `supply-network` ran Zach Harshman
+   (2014–15) straight to Johnny (2018–19). This thread opens **twenty-three days
+   after Jay Lauer's overdose** and goes first-contact-to-transaction with a
+   stranger in **seven and a half hours**.
+3. **The mother is downstream by 2018.** `suzanne-frank` has her as his cocaine
+   source in 2015–16; here he procures and she consumes (*"my mom wants the
+   whole thing"*) and drives him to the pickup. Supply ledger and money ledger
+   running opposite directions at once.
+
+Written back to nine pages, including `orchestration-and-voyeurism`, where the
+February 2018 "night" turns out to be a five-day sequence in which access is
+offered as **consideration in a drug transaction** — a motive that page's
+satisfaction-driven reading does not cover.
+
+## Two aliases that matched 126 rows and meant none of them
+
+`wiki/health/cocaine` carried `balls` and `flake`. Across 265,180 deduplicated
+message rows `balls` returns **112 and none are cocaine** (eye balls, golf
+balls, busting balls); `flake` returns **14, also none**. Deleted. `pow` (9,
+8 real), `powder` (30, ~22) and `Versace` — a **purity grade**, *"the Versace
+stuff"* against *"the Forever21 stuff"* — added, each verified by reading rows.
+This is Phase 0.5's wrong-alias class: the first automated scan of this thread
+reported four cocaine mentions and all four were golf balls.
+
+## The gate defect this pass measured
+
+The ten edited pages made eleven dependents stale; all eleven were worked to
+rule 3, two producing real results. **But those ten pages carried 38 stale flags
+between them, not ten** — `context-core` six, `the-unpapered-address` five,
+`the-configured-body` five. Staleness is a property of a *pair*;
+`date_modified` is one scalar. **One honest re-check clears every other
+premise's claim on the page: 28 flags cleared unread.** Gate stashed and
+unstashed: **125 pairs before, 99 after.**
+
+That is the other half of the previous pass's net-zero finding, and it cuts the
+other way — **part of what looks like drainage is not drainage, and the queue
+understates the debt most on the pages that get worked most.** Every affected
+page now names what its bump cleared. Filed to `skills/INBOX.md`; the real fix
+is a pair-level `rechecked:` map in frontmatter and it needs the unshallow
+measurement first.
+
+## Next, in order
+
+1. **Thirty-six re-derivations still owed.** Every one of the remaining
+   corrected pages says on its own face that its prose is un-re-derived. This
+   pass took roughly one session per page and returned a change of subject on
+   the first one; do not assume the rest are cosmetic. `vaughn` was picked as
+   the best; the next-best by the same reasoning are the ones whose correction
+   block says they *built a method on the absence* — `davey-fitzpatrick`
+   (reconstructed Dan's voice from tapbacks) and `new-jim-shaffer` (894 → 1,778).
+2. **`bin/wiki-crosslink entities --audit` on the substance and interest pages
+   generally.** This pass found two dead aliases on one page by reading rows,
+   and the audit already flags the class. Nobody has swept it.
+3. **97 people pages still have no handle** — unchanged, still a reading job,
+   still no contacts export in `raw/`.
+4. **`shelbie-breakiron` states 685 against 475** — teaching `counts` the ~30
+   per-contact CSVs under `raw/self/message-csv/` closes the last gap. Note the
+   Annie exports there are out of scope under the standing directive and any
+   such change must exclude them mechanically, not by convention.
+5. **Jason Adams still has no page.**
+6. **The twitter UTC dating skew** — 687 of 2,741 posts a day early. `BACKLOG.md`.
+7. **The 99 stale premises**, with two independent diagnoses now attached and a
+   tool fix specified. Breadth-first, in a pass that writes no content, after
+   `git fetch --unshallow`.
+
 ### [2026-09-04b] - Session: 39 pages that counted half a conversation, and a guard blind to nine (Claude Opus 5)
 
 * **Branch:** `claude/crosslink-campaign-q9auor`, restarted from `main` after

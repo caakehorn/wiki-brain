@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-04
-497 pages, ~1,881,614 tokens.
+497 pages, ~1,881,637 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10910,6 +10910,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - site | meta | the Wikipedia-style reader is served again
   - connect | self, interests, health, mind, people | the twitter archive read back onto the pages it was always about
   - connect | people | vaughn — the re-derivation, and a cocaine channel nine pages did not have
+  - lint | mind | the first layer of the Vaughn pass — and a defect in the staleness gate
 
 **2026-09-03** — 30 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist

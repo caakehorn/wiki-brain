@@ -17,6 +17,7 @@ simply listed.
 - **Session log:** site | meta | the Wikipedia-style reader is served again
 - **Session log:** connect | self, interests, health, mind, people | the twitter archive read back onto the pages it was always about
 - **Session log:** connect | people | vaughn — the re-derivation, and a cocaine channel nine pages did not have
+- **Session log:** lint | mind | the first layer of the Vaughn pass — and a defect in the staleness gate
 
 | Page | Domain | What moved |
 |---|---|---|
