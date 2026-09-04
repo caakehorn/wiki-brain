@@ -108,7 +108,7 @@ handling of the next one too.
 ## The four things that matter most
 
 1. **Depth is the binding constraint.** There are 438 pages; there are not enough *details on them*. A pattern can only be found among details that were written down, and synthesis reasons from `wiki/`, not `raw/` — so anything dropped at extraction is a connection nobody can ever make. Read sources to exhaustion, write long, keep the mundane. `EXTRACTION_SPEC.md`.
-2. **Findings get written back.** A conclusion that spans several pages is written into *each* of them as a typed edge whose claim states the finding — not left on one page for the others to rediscover. This is `STRATEGY.md`'s core loop, step 5, and the step most often done partially.
+2. **Findings get written back — and so do mentions.** A conclusion that spans several pages is written into *each* of them as a typed edge whose claim states the finding, not left on one page for the others to rediscover: `STRATEGY.md`'s core loop, step 6, and the step most often done partially. **The mention is the half nobody notices is missing.** When a source names a person, work, place or concept that already has a page, that page is owed the evidence *before any finding exists* — core loop step 3, `EXTRACTION_SPEC.md` move 9, the CROSSLINK operation below. It has no symptom when skipped: the page you wrote reads as complete, and the page you did not touch cannot discover that a source is talking about it. Nineteen twitter year pages were written by reading every tweet in every year and still left the concert record, a health row, an alias's discography and a person's whole page untouched by what those tweets said about them.
 3. **Never clear a stale warning by bumping a date.** Re-read the premise that moved, decide whether the conclusion survives, record the decision. This is the one move that corrupts the system quietly.
 4. **Every conclusion is checked against the person before it is written.** A pattern found across N pages is a fact about those N pages until it has been read against Dan's cognitive stack, measured personality profile, historical precedent, attitudes and the forces acting on him, his current security and prosperity, health, romantic state, age and upbringing, geographic and ethnic culture, religious or ideological programming, and axiomatic politics. This is **the constitution pass**, it is mandatory and deterministic rather than a matter of judgment, and its eleven registers and worked failure case are in `SYNTHESIS_SPEC.md`. A rule that survives it is stronger; a rule that only survives by not looking is not a finding.
 
@@ -273,6 +273,67 @@ The only operation that runs on `wiki/` rather than `raw/`. Where INGEST adds gr
 7. All three gates at 0 errors; log `climb | <domain> | <page>`; commit.
 
 Climb when a cluster has survived two or more ingests, or immediately when an ingest makes you think "this is the third time I've seen this shape." Do not climb to raise a number: three thin pages stacked make one thin page.
+
+### CROSSLINK — pay a source's debt to the pages it already touches
+
+INGEST reads a source and writes the page it is *for*. This operation writes
+what the same source owes to every **other** page it named. It is the third
+step of `STRATEGY.md`'s core loop, `EXTRACTION_SPEC.md` move 9 in practice, and
+until 2026-09-04 it was the only step of the loop with no operation, no tool
+and no way to tell it had been skipped.
+
+**It is the one obligation in this repository with no symptom.** A red gate
+announces itself. A parked question sits at priority 1. A stale premise fires a
+warning. A source that named forty things and got linked to three looks
+*exactly* like a source that named three — from the page, from the queue, from
+`WORK.md`, and from `bin/wiki-lint`. The page you wrote reads as finished,
+because it is finished; what is unfinished is somewhere else, on pages nobody
+is looking at, and those pages cannot report a gap they have no way to detect.
+
+Run it after a substantial ingest, when picking up a corpus somebody else
+mined, and whenever `bin/wiki-crosslink scan` is what you would have to run to
+answer "has anything been done with this source since?"
+
+1. **`bin/wiki-crosslink scan <page>`** — reads the corpora the page's own
+   `sources:` name, inside the page's own `date_range_*`, and lists entities
+   with pages the page does not link, with the dated rows that produced each.
+   `--all` sweeps the twitter year pages.
+2. **Read the rows. Every one.** The tool emits candidates and nothing else.
+   Roughly every single-token name match is a false positive — Rick Santorum
+   under "Rick", Tom Cruise under "Tom", slim jims under "slim" — and a
+   two-token match still needs the row to establish what it is. **A mention is
+   not a relationship**: a tweet naming Diplo is a music-consumption datapoint,
+   not a Diplo relationship, and it may belong on a third page entirely.
+3. **Go at the target page's own claims first.** The value concentrates where
+   a source contradicts what a page asserts about its own completeness or its
+   own limits. Three such claims fell in one pass: a "complete record" that was
+   missing three concerts, a person's page saying "everything known arrives
+   through Dan's later AI-session narration" against six contemporaneous posts,
+   and a substance row saying it "has no ledger entries at all and remains
+   description" against eighteen years of dated first-party evidence. **A page
+   that states its own limits is telling you where to point the next source.**
+4. **Write both ends**, per `CONNECTIONS_SPEC.md`'s source-mention obligation:
+   a typed edge whose claim says what the target page did not have, and the
+   material itself in prose wherever it changes what a page says. Keep the
+   mundane — `EXTRACTION_SPEC.md` move 7 governs here too, and the value of a
+   detail is the surface area it gives the next climb, not its own
+   significance.
+5. **`bin/wiki-crosslink reciprocal`** — the inverse-edge debt. An edge into a
+   generated page is not debt and the tool knows the list; anything else owes
+   an inverse that carries the finding rather than pointing at it.
+6. **State what did not survive.** A pattern that dissolves on the wider match
+   is a result and goes on the page — this pass had a Facebook-to-Twitter
+   release lag that looked like a clean five days across six matched pairs and
+   ran from −1 to +28 across twelve. The tidy version is the one the next
+   session will reach for unless the page says it failed.
+7. Three gates at 0 errors; log `connect | <domain> | <source> → <N pages>`;
+   commit.
+
+**What this operation is not.** It is not `bin/wiki-connect candidates`, which
+scores *page-pairs* on shared sources, tag overlap and co-citation — that mines
+the graph for pairs that look related. This reads the **source text** for what
+a page's own evidence base is missing, which is a different question with a
+different answer, and the two queues do not overlap.
 
 ### REWRITE — wipe and re-derive an existing page
 
@@ -526,6 +587,7 @@ Sweep for: broken links, orphan pages, contradictions between pages, claims supe
 | `bin/wiki-lint` | frontmatter, links, orphans, sizes, duplicate frontmatter keys, retracted claims (`RETRACTED.md`), empty cited sources, **unresolved merge markers, assistant citation artifacts, malformed frontmatter blocks and master-index count drift**. Must be 0 errors before commit |
 | `bin/wiki-freshness` | is the generated corpus (`llm/`) in sync with `wiki/`? Exact set difference against `llm/manifest.json`; never writes. Exit 1 on drift |
 | `bin/wiki-connect` | `check` (typed-edge lint), `audit` (graph health), `candidates` (writes `connection-queue.md`) |
+| `bin/wiki-crosslink` | **the source-mention obligation, computed.** `scan <page>\|--all` reads the corpora a page's own `sources:` name, inside its own date range, and names every entity with a page the page does not link — with the dated rows behind each, because the output is candidates and a candidate is a reason to read. `reciprocal [prefix]` is the inverse-edge debt `CONNECTIONS_SPEC.md` requires and nothing measured; `entities` is the index of strings a scan can look for; `orphaned` names corpus-backed pages by edge count; `check` prints the debt and **always exits 0** — a one-way edge still carries its claim, and a gate that blocked unrelated commits on it would acquire an escape hatch. It knows the generated surfaces and never asks for an inverse on one. It writes no edges and must not be made to |
 | `bin/wiki-climb` | `check` (validates `synthesizes:`, reports stale premises), `audit` (tier distribution), `candidates` (writes `synthesis-queue.md`) |
 | `bin/wiki-digest` | regenerates `DIGEST.md`, `RECENT.md`, `OPEN.md`, and their `wiki/meta/` on-site mirrors — committed, safe to rerun any time |
 | `bin/llm-publish` | builds `llm/`, the public LLM access point — **generated but COMMITTED**; rerun after any content pass |

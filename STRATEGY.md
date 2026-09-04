@@ -27,14 +27,15 @@ Beyond archiving, the wiki is an analytical instrument in its own right: it exis
 
 The system runs on one repeating cycle:
 
-**Story → Entry → Analysis → Synthesized finding → Saved back to every entry it touches → Repeat.**
+**Story → Entry → Every entry the source touches → Analysis → Synthesized finding → Saved back to every entry it draws from → Repeat.**
 
 1. A memory, fact, or document is captured once and filed immutably into `raw/`.
 2. It's read from `raw/` **to exhaustion**, and that understanding is written into a durable `wiki/` page — this is a ground-floor entry.
-3. Once enough ground entries exist, they're read *across* each other — not one at a time — looking for a pattern that no single entry states but that several together prove.
-4. That pattern becomes its own finding: a synthesis, stated as a falsifiable claim, not a vague observation.
-5. The finding is written back into **every ground entry it draws from**, via a typed connection with an argued claim — so the insight doesn't have to be re-derived the next time someone lands on that entry.
-6. The finding itself becomes a premise for the *next* round: junctions can be read across each other to find doctrine, the same way ground entries were read across each other to find junctions.
+3. **Every other page that source touches gets the touch written into it** — every person, work, place, event and concept it names that already has an entry, whether or not a conclusion came out of it. This step is not the write-back in step 6: that one moves a *finding* you reached, this one moves *evidence* the source contains, and it is owed the moment the source names something. It is also the step with no symptom when it is skipped — the entry you wrote reads as complete, the entries you did not touch have no way to learn a source is talking about them, and the corpus quietly ends up holding less than `raw/` does at the one layer synthesis reads from. `EXTRACTION_SPEC.md` move 9; `bin/wiki-crosslink` measures it.
+4. Once enough ground entries exist, they're read *across* each other — not one at a time — looking for a pattern that no single entry states but that several together prove.
+5. That pattern becomes its own finding: a synthesis, stated as a falsifiable claim, not a vague observation.
+6. The finding is written back into **every ground entry it draws from**, via a typed connection with an argued claim — so the insight doesn't have to be re-derived the next time someone lands on that entry.
+7. The finding itself becomes a premise for the *next* round: junctions can be read across each other to find doctrine, the same way ground entries were read across each other to find junctions.
 
 This is **amortized insight**. Analysis is expensive to do well, so it's done once, saved at every point it's relevant, and each future pass starts from a higher floor instead of re-deriving what's already known. Nothing above this line is optional flavor text — it's the actual mechanism the rest of the spec files exist to support.
 

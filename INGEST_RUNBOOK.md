@@ -305,7 +305,7 @@ clusters).
 - The handoff log gets a real, useful entry so the NEXT model doesn't re-derive
   settled work.
 - **Every finding is written back into the entries it came from** (STRATEGY.md
-  core loop, step 5). A [JOIN] finding that appears only in the synthesis and not
+  core loop, step 6). A [JOIN] finding that appears only in the synthesis and not
   on its members has been discovered once rather than permanently — the next
   model to land on the member page will re-derive it from less evidence. This is
   the quality bar item most often missed.

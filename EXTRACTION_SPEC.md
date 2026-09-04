@@ -214,6 +214,63 @@ every dated-but-unexplained quote on any page as an open lead, not a finished
 fact — and when reading any channel to exhaustion, watch specifically for
 lines that date-match a gap already flagged elsewhere in the wiki.
 
+### 9. Close the loop back onto every page the source already touches
+
+Added 2026-09-04, after a pass over the twitter archive found what happens when
+this move is skipped for a year.
+
+Move 3 chases a proper noun **outward** — into the rest of the corpus, looking
+for a page that does not exist yet. This move runs the same read **inward**:
+for every entity, place, work, event and concept in the source that *already
+has a page*, that page is owed something, and the page you are writing is
+owed an edge to it.
+
+**The two are not the same job and the second one is the one that gets
+skipped.** Chasing a name outward produces a new page and feels like progress.
+Closing the loop inward produces an edge on a page you were not working on,
+and nothing on your own page looks worse for its absence — which is exactly
+why nineteen twitter year pages could be written by reading every tweet in
+every year, carry 130 typed edges between them, and still leave the concert
+record, the nicotine row, the SLOPPP discography and a person's entire page
+untouched by what those tweets said about them.
+
+**The obligation is triggered by the mention, not by a finding.** This is the
+part that distinguishes it from the write-back rule below. A finding is a
+conclusion you reached; a mention is just the source naming something. Both
+create work:
+
+- **A mention** means the target page's evidence base is incomplete and it does
+  not know. *"i miss the starting line."* is not a finding about anything. It
+  is the only trace in the corpus that a band on a 2005 tour bill meant
+  something to him, and the band's page could not have known it existed.
+- **A finding** means the target page's *argument* is affected, and it is
+  governed by the write-back rule.
+
+**Run it against the target's own claims, not only its topic.** The value is
+concentrated where the source contradicts something the page asserts about its
+own completeness. A concert log that calls itself "a complete record" and a
+person's page that says "everything known arrives through Dan's later AI
+narration" are both making checkable claims, and one autumn of one archive
+falsified both. **A page that states its own limits is a page telling you what
+to point the next source at.**
+
+**Do it while the source is open.** The reading pass is the only moment the
+material is in front of somebody who has read it in context; six months later
+it is a grep. `bin/wiki-crosslink scan <page>` names the entities a source
+mentions that already have pages the page does not link, and
+`bin/wiki-crosslink reciprocal` names the edges whose targets never got told —
+but both produce candidates, and a candidate is a reason to go and read the
+rows, never a reason to write an edge.
+
+**Two failure modes to expect, both of which this pass hit.** A string match
+over a long corpus finds Rick Santorum under "Rick", Tom Cruise under "Tom" and
+slim jims under "slim" — nearly every single-token name match was a false
+positive, so a match is where reading starts. And a tidy pattern found across
+six matched pairs may not survive the twelfth: a Facebook-to-Twitter release lag
+that looked like a clean five days ran from −1 to +28 days once the match was
+extended, and the tidy version is the one a later pass will reach for unless the
+page says it failed.
+
 ## Source tiers — and the laundering failure
 
 `raw/` mixes two kinds of evidence and conflating them is how false claims get
@@ -339,6 +396,11 @@ longer, denser, consequence-ordered, with tables holding the numbers.
   edge whose claim states the finding (`CONNECTIONS_SPEC.md`). A finding that
   lives only where it was discovered will be re-derived from less evidence next
   time.
+- **Every page the source *mentions* gets the mention**, whether or not a
+  finding came out of it (move 9). The write-back rule above covers conclusions;
+  this covers evidence. A page whose subject appears in a source it has never
+  been shown is a page reasoning from a smaller record than the corpus holds,
+  and it has no way to discover that from where it sits.
 - **Every contradiction gets flagged, not resolved by preference.** Table the
   evidence, say which governs and why.
 - **Every negative result gets stated.** "Checked X, it is not there" is a page
