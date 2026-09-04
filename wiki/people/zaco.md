@@ -1,12 +1,12 @@
 ---
 domain: people
 page_type: entity
-title: "Zaco"
-aliases: ["zaco"]
+title: "Zach Hendricks (\"Zaco\")"
+aliases: ["zaco", "Zach Hendricks", "Zack Hendricks"]
 status: closed
 knowledge: mixed
 date_created: 2026-08-20
-date_modified: 2026-08-20
+date_modified: 2026-09-04
 date_range_start: 2018-03-12
 date_range_end: 2018-11-26
 tags: [addiction-recovery, uniontown-era, digital-footprint]
@@ -14,14 +14,17 @@ sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
 infobox:
-  name: "Zaco"
-  sex: unknown
+  name: "Zach Hendricks"
+  sex: male
   location: uniontown
   relationship_to_dan: dealer
-  handles: ["+17249123381"]
+  handles: ["+17249123381", "+17247102745"]
   first_contact: 2018-03-12
   known_for: "The supply network's only push-marketing node — 58 of 65 messages are his, almost all unsolicited inventory advertisements"
 connections:
+  - page: wiki/people/zach-hendricks
+    type: contradicts
+    claim: "Two pages for one man, and the wiki did not know: identical date range (2018-03-12 to 2018-11-26), the same handle +17249123381, and that page listing 'Zaco' as an alias of its own subject. It also reported 58 messages against this thread's 65, because 58 is the Received-only count. Found 2026-09-04 by bin/wiki-crosslink handles, which flags a handle claimed by two pages. This page is canonical; that one is retained as a pointer."
   - page: wiki/mind/synthesis/supply-network
     type: component-of
     claim: "Zaco is the network's 2018 Suboxone-strip secondary and its only inbound-marketing node: he advertises inventory unprompted rather than being asked, which is the inverse of every other supplier relationship in the corpus."
@@ -34,6 +37,21 @@ connections:
 ---
 
 # Zaco
+
+> **IDENTIFIED AND MERGED [2026-09-04].** This page was titled only "Zaco," the
+> name he opens with — *"Yo it's zaco"* (2018-03-12). His name is **Zach
+> Hendricks**, carried since 2026-06-23 on a separate stub at
+> [[wiki/people/zach-hendricks]] that described the same 2018-03-12 → 2018-11-26
+> window, the same handle, and listed "Zaco" as an alias of its own subject.
+> Neither page knew about the other. `bin/wiki-crosslink handles` found it by
+> flagging a handle two pages both claim.
+>
+> **This page is canonical** — it holds the research, the typed edges and eight
+> inbound links — and it now carries the real name and the second Google
+> Contacts number, `+17247102745`, which has **zero rows in the message
+> corpus**. That page is retained as a pointer rather than deleted, on the
+> pattern [[wiki/people/jerel-coles]] and [[wiki/people/the-unnamed-man]]
+> already set.
 
 Zaco is a 2018 Uniontown-area supplier known to the corpus only by the name he
 gives himself in his first message — *"Yo it's zaco"* — and by the handle

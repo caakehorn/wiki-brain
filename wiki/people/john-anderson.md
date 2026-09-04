@@ -11,6 +11,7 @@ related: ["wiki/timeline/periods/2018-deep-cycle", "wiki/self/message-corpora/ma
 tags: [addiction-recovery, uniontown-era]
 knowledge: derived
 infobox:
+  handles: ["+17245696861"]
   name: "John Anderson"
   relationship_to_dan: unknown
   first_contact: 2019-05-06

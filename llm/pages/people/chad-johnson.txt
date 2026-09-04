@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-09-04
 date_range_start: 2017-05-29
 date_range_end: 2018-06-03
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -11,6 +11,7 @@ related: ["wiki/work/nemacolin-caddying", "wiki/people/brad-hubeaut", "wiki/self
 tags: [career, uniontown-era]
 knowledge: mixed
 infobox:
+  handles: ["+13042165438"]
   name: "Chad Johnson"
   relationship_to_dan: unknown
   first_contact: 2017-05-29
@@ -18,6 +19,15 @@ infobox:
 ---
 
 # Chad Johnson
+
+> **COUNT CORRECTED [2026-09-04] — 82, not 42.** This page reported the
+> Received-only figure. Dan's 39 messages to this contact are in
+> `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page did not
+> read. Its handle was not declared in `infobox.handles:` either — it was
+> sitting in the page's own Corpus Dimensions table where no tool could use it —
+> so `bin/wiki-crosslink counts` could not see this page until the handle was
+> promoted the same day. **The prose below was written against the one-sided
+> thread and has not been re-derived.**
 
 Chad Johnson was a fellow caddy at [[wiki/work/nemacolin-caddying|Nemacolin Woodlands]] and a college student (references 8am classes, being "out of school in a few weeks") who overlapped with Dan through the 2017–2018 seasons (`+13042165438`, 42 messages). Much of the thread runs through shift coordination relayed via caddy manager [[wiki/people/brad-hubeaut|Brad]] — "Did brad text you yet?", "Chad Johnson F2 both rounds" — and casual course hangouts.
 
@@ -29,9 +39,9 @@ Early messages (May–June 2017) are mid-round check-ins on the course itself. A
 
 | Metric | Value |
 |--------|-------|
-| Messages | 42 |
+| Messages | **82** — 39 sent (Dan), 43 received (was: 42) |
 | Date range | 2017-05-29 to 2018-06-03 |
-| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Chad to Dan) |
+| Direction | **39 Sent / 43 Received** — corrected 2026-09-04 |
 | Handle | +13042165438 |
 
 ## Related

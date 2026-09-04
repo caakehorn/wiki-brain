@@ -22,7 +22,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 497 |
-| Pages touched in the last 14 days | 185 |
+| Pages touched in the last 14 days | 224 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 49 |
 | Open gaps | 605 |
@@ -49,13 +49,15 @@ between regenerations. Do not hand-edit here — rerun the tool._
 |---|---|
 | active | 191 |
 | stable | 166 |
-| closed | 100 |
+| closed | 101 |
 | archived | 29 |
-| stub | 11 |
+| stub | 10 |
 
 ## The last few days
 
-**2026-09-04** — 41 pages
+**2026-09-04** — 84 pages
+  - connect | people | the handles were on the pages all along, and the guard could not see nine of them
+  - connect | people | thirteen pages that counted half a conversation
   - connect | people | the estate's two hands, found by reading a conversation instead of a name
   - connect | people | the twitter archive, read directly onto the page it was about
   - site | meta | the Wikipedia-style reader is served again
@@ -76,7 +78,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | self | 2024, 2025 and 2026 read in full — all nineteen year pages now carry narrative runs
   - lint | self | the twitter year pages were generating a 2,741-entry table of contents
 
-**2026-09-02** — 10 pages
+**2026-09-02** — 9 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result

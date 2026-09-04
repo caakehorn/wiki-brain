@@ -4,6 +4,92 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-04b] - Session: 39 pages that counted half a conversation, and a guard blind to nine (Claude Opus 5)
+
+* **Branch:** `claude/crosslink-campaign-q9auor`, restarted from `main` after
+  **PR #257 merged** · `bin/wiki-check` clean at every commit · 404 tests green.
+* **Trigger:** operator — *"Continue work on the CROSSLINK CAMPAIGN."*
+
+## The count defect, found by a tool for the first time
+
+A page states `| Messages | 41 |` and often `| Direction | All received (export
+artifact) |`. **The second line is the tell: Dan's half is not missing from the
+record, it is in the corpus the page did not read.** `bruce-burish` and
+`zach-clingan` already carried hand-written corrections saying the stated number
+"is exactly the received count"; `rod-banks` and `zach-hendricks` made it four.
+
+**`bin/wiki-crosslink counts` found 37 more.** Thirteen straight away; then, once
+handles were declared (below), **24 more**. `new-jim-shaffer` 894 → **1,778**.
+`mohammed-bin-salman` 281 → **639**. `davey-fitzpatrick` 382 → **775**.
+`danny-matthews` 349 → **770**. `vaughn` 228 → **582**.
+
+**Three had built a method on the absence.** `vaughn` said *"Dan's messages
+survive nowhere in it, so every exchange below is reconstructed from Vaughn's
+half"* — 354 survive, and they are the half that page most needed, because
+Vaughn is documented as a supply node and Dan's side is the demand side in his
+own words and quantities. `davey-fitzpatrick` reconstructed Dan's voice from
+tapbacks. **Every correction states that the prose has not been re-derived** —
+none of these pages is now current, only correctly numbered.
+
+## Phase 0.5's handle half was mostly already done and unreadable
+
+138 people pages carried no `infobox.handles:` — but **43 had the number in
+their own Corpus Dimensions table**, where the page asserts it and no tool can
+use it. Promoting the row asserts nothing new.
+
+**Handle coverage: 30 pages / 41,349 rows → 71 / 68,588.** No-handle: 138 → 97.
+
+## The moratorium guard was blind to nine pages
+
+`under_moratorium()` read `scalar(fm, "title")` and the aliases. **288 of 497
+pages carry no `title:` field at all** — their name is in `infobox.name` or the
+slug, both of which `title_of()` already resolves. Nine pages were invisible,
+among them `wiki/timeline/annie-record`, `wiki/people/ellen-ulmer` and
+`wiki/timeline/events/shelbie-annie-threesome-april-2019`. `scan` would have
+accepted every one as a subject and offered them as targets to write edges onto.
+
+**Refuses 14 now where it refused 5**, pinned by five tests including a
+regression naming all nine. **Promoted `skills/repo/silent-permission.md`** —
+the promotion test is "explained the same class of failure more than once", and
+this is the second instance after `bin/wiki-plain`'s word-boundary hole. Both
+found by accident; both looked correct.
+
+## Two pages were one man
+
+`handles` flags a handle two pages claim. `+17249123381` was on `people/zaco` and
+`people/zach-hendricks` — identical window, and the second already listed "Zaco"
+as its own subject's alias. Six weeks, neither knowing. `zaco` canonical,
+`zach-hendricks` retained as a pointer on the `jerel-coles` pattern.
+
+## The alias headline it would be wrong to write
+
+`entities --audit`: **233 of 326 aliases appear zero times in any corpus** — and
+that is not a defect. `aliases:` does two jobs: what the record calls a thing,
+and what a reader might call a page. A coinage matches nothing and costs
+nothing. **Six were doing neither and four are deleted** — `the case` matched 96
+rows without once meaning its page, `the drive` 48, `the Dude` 18, `this person`
+20, all at **high** confidence. The two survivors were kept by reading:
+`Anne Ulmer` is her name, `Google AI` really is how he writes about Gemini.
+
+**Phase 0.5 rescoped: 281 pages a corpus could name, not 389** — 208 entity
+pages. The rest are coinages no source will ever contain.
+
+## Next, in order
+
+1. **97 people pages still have no handle**, and there is **no contacts export
+   in `raw/`** — so the remaining ones need identity resolution from context,
+   not data entry. That is a reading job and it is the real Phase 0.5 floor.
+2. **The 37 corrected pages have not had their prose re-derived.** Each says so.
+   `vaughn` is the best of them: Dan's 354 messages are the demand side of a
+   supply-network node and belong on `wiki/mind/synthesis/supply-network`.
+3. **`shelbie-breakiron` states 685 against 475** in the two readable corpora —
+   `raw/self/message-csv/` holds ~30 per-contact exports this tool does not
+   read, and teaching it those would close the last gap in `counts`.
+4. **Jason Adams still has no page** (from the previous session).
+5. **The twitter UTC dating skew** — 687 of 2,741 posts a day early. `BACKLOG.md`.
+6. **The 104 stale premises**, unchanged, with the net-zero diagnosis attached.
+   Breadth-first in a pass that writes no content, or it moves rather than shrinks.
+
 ### [2026-09-04] - Session: the message corpus becomes readable, and three pages that told us they were complete (Claude Opus 5)
 
 * **Branch:** `claude/crosslink-campaign-q9auor` · `bin/wiki-check` clean at every commit · 392 tests green.

@@ -11,6 +11,7 @@ sources: ["raw/self/message-csv/imessage_3307038747_both_all_now.csv", "raw/self
 related: ["wiki/people/tom", "wiki/people/annie-ulmer", "wiki/mind/concepts/contact-gini", "wiki/mind/synthesis/dormancy-not-exit", "wiki/timeline/periods/2025-collapse", "wiki/timeline/periods/dec-2025-spike", "wiki/self/message-corpora/master-message-dump", "wiki/self/message-corpora/source-coverage-index", "wiki/mind/synthesis/attachment-trauma-bond", "wiki/mind/psychosexual/arrangement-history", "wiki/mind/synthesis/ai-collaborative-analysis", "wiki/mind/concepts/conflict-architecture"]
 tags: [relationships, trauma-bond, digital-footprint, legal, ai-collaboration]
 infobox:
+  handles: ["+13307038747"]
   name: "Kristin Prentiss"
   relationship_to_dan: "girlfriend (Aug-Nov 2025), closed hostile"
   sex: female

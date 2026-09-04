@@ -11,6 +11,7 @@ related: ["wiki/people/brian", "wiki/people/kelly-johansson", "wiki/people/trini
 tags: [relationships, nyc-era]
 knowledge: earned
 infobox:
+  handles: ["+16178710640"]
   name: "Jaredtricia"
   relationship_to_dan: unknown
   first_contact: 2019-06-01

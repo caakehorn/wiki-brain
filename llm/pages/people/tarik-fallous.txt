@@ -10,6 +10,7 @@ sources: ["raw/self/dox-md/Gemini-_00.md", "raw/self/dox-md/Gemini-_02.md", "raw
 tags: [ai-collaboration, career, nyc-era]
 knowledge: mixed
 infobox:
+  handles: ["+19178259183"]
   name: "Tarik Fallous"
   relationship_to_dan: unknown
   location: nyc

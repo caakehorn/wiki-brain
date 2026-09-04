@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-09-04
 date_range_start: 2017-07-11
 date_range_end: 2018-06-09
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -11,6 +11,7 @@ related: ["wiki/work/nemacolin-caddying", "wiki/timeline/periods/2017-poverty-fl
 tags: [career, uniontown-era]
 knowledge: mixed
 infobox:
+  handles: ["+14129950042"]
   name: "Christian Hanson"
   relationship_to_dan: unknown
   first_contact: 2017-07-11
@@ -23,6 +24,15 @@ connections:
 
 # Christian Hanson
 
+> **COUNT CORRECTED [2026-09-04] — 126, not 66.** This page reported the
+> Received-only figure. Dan's 60 messages to this contact are in
+> `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page did not
+> read. Its handle was not declared in `infobox.handles:` either — it was
+> sitting in the page's own Corpus Dimensions table where no tool could use it —
+> so `bin/wiki-crosslink counts` could not see this page until the handle was
+> promoted the same day. **The prose below was written against the one-sided
+> thread and has not been re-derived.**
+
 Christian Hanson — the retired NHL forward (Toronto Maple Leafs, son of Dave "Hanson Brothers" Hanson) — was a golf regular Dan caddied and played with around Nemacolin during 2017–2018 (`+14129950042`, 66 messages, July 2017 – June 2018). The relationship is friendly and easy, addressed as "Danny" and "boss," organized almost entirely around arranging rounds at the Mystic course.
 
 ## The relationship
@@ -33,9 +43,9 @@ Most of the thread is tee-time logistics: Christian and his group (referenced fr
 
 | Metric | Value |
 |--------|-------|
-| Messages | 66 |
+| Messages | **126** — 60 sent (Dan), 66 received (was: 66) |
 | Date range | 2017-07-11 to 2018-06-09 |
-| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Christian to Dan) |
+| Direction | **60 Sent / 66 Received** — corrected 2026-09-04 |
 | Handle | +14129950042 |
 
 ## Related

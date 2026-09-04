@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-09-02
+date_modified: 2026-09-04
 date_range_start: 2009-10-24
 date_range_end: 2025-08-15
 sources:
@@ -52,6 +52,16 @@ connections:
 ---
 
 # Eric Jester
+
+> **COUNT CORRECTED [2026-09-04] — 235, not 103.** This page reported the
+> Received-only figure as the whole thread. Dan's 132 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
 
 Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose message thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — sparse check-ins that resurface every year or two, each one picking back up exactly where the last left off, alongside shared friends [[wiki/people/jason-bermejo|Jason Bermejo]], [[wiki/people/matt-dunn|Matt Dunn]], and [[wiki/people/jamie-mohler|Jamie Mohler]] from the same Orlando/Full Sail cohort. Eric's own thread independently names Dunn (see below); Jamie appears only in Jason's thread, not Eric's.
 
@@ -120,7 +130,7 @@ own attendance window.
 
 | Metric | Value |
 |--------|-------|
-| Messages | 103 |
+| Messages | **235** — 132 sent (Dan), 103 received (was: 103) |
 | Date range | 2017-05-08 to 2025-08-15 |
-| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Eric to Dan) |
+| Direction | **132 Sent / 103 Received** — corrected 2026-09-04 |
 | Handle | +14137703708 |

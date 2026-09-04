@@ -11,6 +11,7 @@ related: ["wiki/people/menore", "wiki/self/message-corpora/master-message-dump",
 tags: [addiction-recovery, nyc-era, digital-footprint]
 knowledge: mixed
 infobox:
+  handles: ["+19177251279"]
   name: "Del"
   relationship_to_dan: unknown
   location: nyc

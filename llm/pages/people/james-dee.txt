@@ -2,11 +2,11 @@
 domain: people
 page_type: entity
 title: "James (\"Jimi Pop\")"
-aliases: ["James Spiker", "James Dee", "Jimi Pop", "Jimmy Pop", "Jimmy Pop and the Steel City Rollers", "Max (Danielle's boyfriend)", "the Dude"]
+aliases: ["James Spiker", "James Dee", "Jimi Pop", "Jimmy Pop", "Jimmy Pop and the Steel City Rollers", "Max (Danielle's boyfriend)"]
 status: stable
 knowledge: mixed
 date_created: 2026-08-18
-date_modified: 2026-08-20
+date_modified: 2026-09-04
 date_range_start: 2025-05-27
 date_range_end: 2025-07-21
 sources:
@@ -58,6 +58,12 @@ connections:
 ---
 
 # James ("Jimi Pop")
+
+> **ALIAS REMOVED [2026-09-04] — `the Dude` matched 18 rows and none was
+> him.** "The dude at the bakery", "the dude side of the equation", "their
+> program is run by the dude". It was reported at high confidence because it is
+> two tokens. If he is in fact called that, the record does not show it, and an
+> alias has to be what the record uses rather than what a page believes.
 
 James Spiker — historically represented in the corpus as **James Dee**, **Jimi Pop**, **Jimmy Pop**, "the Dude," and the erroneous "Max (Danielle's boyfriend)" — is [[wiki/people/danielle-onesi|Danielle Onesi's]] live-in boyfriend, a Pittsburgh-area musician roughly Dan's own age, and, for eight weeks in summer 2025, the closest thing to a new friend the corpus records Dan making in years.
 

@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-19
+date_modified: 2026-09-04
 date_range_start: 2017-10-16
 date_range_end: 2018-08-09
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -15,6 +15,7 @@ connections:
     type: co-occurs
     claim: "Jack is the two threads' shared running character — the 6:10am rides because he 'doesn't like rushing,' the 'neurotic, whiny, incredible calamity' — placing Davey and Jack in one caddie-yard social graph with Dan."
 infobox:
+  handles: ["+17249636436"]
   name: "Jack Rusko"
   relationship_to_dan: unknown
   first_contact: 2017-10-16
@@ -22,6 +23,15 @@ infobox:
 ---
 
 # Jack Rusko
+
+> **COUNT CORRECTED [2026-09-04] — 400, not 202.** This page reported the
+> Received-only figure. Dan's 184 messages to this contact are in
+> `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page did not
+> read. Its handle was not declared in `infobox.handles:` either — it was
+> sitting in the page's own Corpus Dimensions table where no tool could use it —
+> so `bin/wiki-crosslink counts` could not see this page until the handle was
+> promoted the same day. **The prose below was written against the one-sided
+> thread and has not been re-derived.**
 
 Jack Rusko was a fellow [[wiki/work/nemacolin-caddying|Nemacolin]] caddy and genuine friend through the 2017–2018 season (`+17249636436`, 202 messages) — an older-sounding, dictation-error-riddled thread ("U get a Tex's," "R U ALIVE?") full of report-time coordination, party invitations, and a running loan of Dan's laptop that Jack chases for over two months.
 
@@ -33,9 +43,9 @@ The laptop loan is the thread's most persistent bit: Jack asks for it back repea
 
 | Metric | Value |
 |--------|-------|
-| Messages | 202 |
+| Messages | **400** — 184 sent (Dan), 216 received (was: 202) |
 | Date range | 2017-10-16 to 2018-08-09 |
-| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Jack to Dan) |
+| Direction | **184 Sent / 216 Received** — corrected 2026-09-04 |
 | Handle | +17249636436 |
 
 ## Related

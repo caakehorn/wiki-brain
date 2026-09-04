@@ -11,6 +11,7 @@ related: ["wiki/people/jaredtricia", "wiki/people/kelly-johansson", "wiki/people
 tags: [relationships, nyc-era, digital-footprint]
 knowledge: mixed
 infobox:
+  handles: ["+13137181574"]
   name: "Brian"
   relationship_to_dan: unknown
   location: nyc

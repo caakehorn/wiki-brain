@@ -10,6 +10,7 @@ sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/message-
 tags: [relationships, politics, uniontown-era]
 knowledge: mixed
 infobox:
+  handles: ["+17243226739"]
   name: "Mike Cordaro"
   relationship_to_dan: unknown
   first_contact: 2024-07-28

@@ -4,7 +4,7 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-07-19
+date_modified: 2026-09-04
 date_range_start: 2017-09-28
 date_range_end: 2017-10-11
 sources:
@@ -29,6 +29,16 @@ connections:
 ---
 
 # Contact urpaaa@yahoo.com
+
+> **COUNT CORRECTED [2026-09-04] — 57, not 23.** This page reported the
+> Received-only figure as the whole thread. Dan's 34 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
 
 The owner of `urpaaa@yahoo.com` is one of the corpus's genuinely
 unresolved close relationships: a **teacher** in a **parental register**
@@ -96,7 +106,7 @@ discipline: do not speculate past the evidence.
 
 | Metric | Value |
 |---|---|
-| Messages | 23 received (+ Dan's sent side in the complete dump) |
+| Messages | **57** — 34 sent (Dan), 23 received (was: 23) |
 | Date range | 2017-09-28 – 2017-10-11 (stray fragments to 2018-03-17) |
 | Defining event | Accompanying Dan to the Oct 6, 2017 tooth extraction |
 

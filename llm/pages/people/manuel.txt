@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-07-18
+date_modified: 2026-09-04
 date_range_start: 2023-08-13
 date_range_end: 2026-02-25
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -11,6 +11,7 @@ related: ["wiki/work/au-zaatar", "wiki/people/tarik-fallous", "wiki/people/valer
 tags: [career, relationships, nyc-era]
 knowledge: mixed
 infobox:
+  handles: ["+13472828140"]
   name: "Manuel"
   relationship_to_dan: unknown
   first_contact: 2023-08-13
@@ -18,6 +19,15 @@ infobox:
 ---
 
 # Manuel
+
+> **COUNT CORRECTED [2026-09-04] — 93, not 45.** This page reported the
+> Received-only figure. Dan's 59 messages to this contact are in
+> `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page did not
+> read. Its handle was not declared in `infobox.handles:` either — it was
+> sitting in the page's own Corpus Dimensions table where no tool could use it —
+> so `bin/wiki-crosslink counts` could not see this page until the handle was
+> promoted the same day. **The prose below was written against the one-sided
+> thread and has not been re-derived.**
 
 Manuel was a coworker at [[wiki/work/au-zaatar|Au Za'atar]] — the thread opens with an October 2023 message referencing [[wiki/people/tarik-fallous|Tarik]] telling him to stay and work — who became a genuine, ongoing friendship that outlasted the job itself, running from August 2023 into 2026 (`+13472828140`, 45 messages; unlike most contacts in this corpus, direction is reliably recorded here: 11 sent, 34 received). The relationship is conducted mostly in Spanish, register loose and joking throughout — nicknames ("puto," "michi"), birthday teasing, and running banter about "perico" (cocaine).
 
@@ -29,7 +39,7 @@ Early messages are workplace-adjacent (spinach sourcing, an October 2023 birthda
 
 | Metric | Value |
 |--------|-------|
-| Messages | 45 (11 sent, 34 received) |
+| Messages | **93** — 59 sent (Dan), 34 received (was: 45) |
 | Date range | 2023-08-13 to 2026-02-25 |
 | Handle | +13472828140 |
 

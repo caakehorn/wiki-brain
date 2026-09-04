@@ -2,12 +2,11 @@
 domain: self
 page_type: concept
 title: "Ally and Dan: Love as Destiny"
-aliases: ["destiny", "the love story", "ally-dan timeline", "the courtship", "the case"]
 status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-19
-date_modified: 2026-08-26
+date_modified: 2026-09-04
 date_range_start: 2011-05-20
 date_range_end: 2026-08-20
 tags: [relationships, attachment, future]
@@ -41,6 +40,19 @@ connections:
 ---
 
 # Ally and Dan: Love as Destiny
+
+> **ALIASES REMOVED [2026-09-04] — all five, and every one was an invention.**
+> This page carried `destiny`, `the love story`, `ally-dan timeline`, `the
+> courtship` and `the case`. Checked against both readable corpora: the middle
+> three appear **zero times anywhere**, `destiny` appears three times and every
+> one is the streamer or Destiny's Child, and **`the case` appears 96 times and
+> not one of them is this page** — "if that's the case", the case against Trump,
+> the Chisholm Larsson Gallery. Because `the case` is two tokens it was reported
+> at **high** confidence, and it produced a false candidate on the first
+> conversation scan that ran. The test for an alias is *what the record actually
+> calls this thing*, and the record calls it nothing: it is a name this wiki
+> coined. A page whose subject the corpus has no word for is better with no
+> aliases than with five that match other people's sentences.
 
 > **What this page is.** It is an argument, made on purpose, by one of the two
 > people in it. Everything quoted from a message is real and can be checked

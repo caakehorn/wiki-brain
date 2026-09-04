@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-09-04
 date_range_start: 2018-09-04
 date_range_end: 2018-09-20
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -11,6 +11,7 @@ related: ["wiki/timeline/periods/2018-deep-cycle", "wiki/self/message-corpora/ma
 tags: [addiction-recovery, uniontown-era, digital-footprint]
 knowledge: mixed
 infobox:
+  handles: ["+17244157026"]
   name: "Bill"
   relationship_to_dan: unknown
   first_contact: 2018-09-04
@@ -18,6 +19,15 @@ infobox:
 ---
 
 # Bill (golf/pharma customer)
+
+> **COUNT CORRECTED [2026-09-04] — 38, not 21.** This page reported the
+> Received-only figure. Dan's 17 messages to this contact are in
+> `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page did not
+> read. Its handle was not declared in `infobox.handles:` either — it was
+> sitting in the page's own Corpus Dimensions table where no tool could use it —
+> so `bin/wiki-crosslink counts` could not see this page until the handle was
+> promoted the same day. **The prose below was written against the one-sided
+> thread and has not been re-derived.**
 
 A different Bill from [[wiki/people/bill-ulmer|Bill Ulmer]] — this one is a golf-caddying peer (references playing "Lakeview" with his dad, "broski"/"bro bro" register) who buys pharmaceuticals from Dan over a brief two-and-a-half-week window in September 2018 (`+17244157026`, 21 messages, saved under the same jokey "Socialist" contacts label Dan used for a handful of other supply-adjacent contacts). He works midnight shifts and negotiates pickups around them.
 
@@ -29,9 +39,9 @@ Bill's requests are for "liquid" (unspecified, likely a codeine/promethazine-typ
 
 | Metric | Value |
 |--------|-------|
-| Messages | 21 |
+| Messages | **38** — 17 sent (Dan), 21 received (was: 21) |
 | Date range | 2018-09-04 to 2018-09-20 |
-| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Bill to Dan) |
+| Direction | **17 Sent / 21 Received** — corrected 2026-09-04 |
 | Handle | +17244157026 |
 
 ## Gaps

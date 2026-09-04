@@ -11,6 +11,7 @@ related: ["wiki/people/annie-ulmer", "wiki/timeline/events/shelbie-annie-threeso
 tags: [relationships, digital-footprint]
 knowledge: mixed
 infobox:
+  handles: ["+18186510883"]
   name: "Trinity St Clair"
   relationship_to_dan: unknown
   location: nyc

@@ -11,6 +11,7 @@ related: ["wiki/people/annie-ulmer", "wiki/people/ellen-ulmer", "wiki/timeline/e
 tags: [relationships, family]
 knowledge: mixed
 infobox:
+  handles: ["+17249840793"]
   name: "Bill Ulmer"
   relationship_to_dan: unknown
   location: nyc

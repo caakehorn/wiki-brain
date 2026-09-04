@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-08-18
+date_modified: 2026-09-04
 date_range_start: 2016-02-12
 date_range_end: 2016-06-01
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -11,6 +11,7 @@ related: ["wiki/people/suzanne-frank", "wiki/self/message-corpora/master-message
 tags: [family, uniontown-era]
 knowledge: mixed
 infobox:
+  handles: ["+17249636738"]
   name: "John Felix"
   relationship_to_dan: unknown
   first_contact: 2016-02-12
@@ -19,15 +20,24 @@ infobox:
 
 # John Felix
 
+> **COUNT CORRECTED [2026-09-04] — 156, not 59.** This page reported the
+> Received-only figure. Dan's 97 messages to this contact are in
+> `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page did not
+> read. Its handle was not declared in `infobox.handles:` either — it was
+> sitting in the page's own Corpus Dimensions table where no tool could use it —
+> so `bin/wiki-crosslink counts` could not see this page until the handle was
+> promoted the same day. **The prose below was written against the one-sided
+> thread and has not been re-derived.**
+
 John Felix's thread (`+17249636738`, 59 messages, February–June 2016) is almost entirely logistics — arrival times, "K," "Come on," golf plans — but its domestic details point to a closer household connection than a typical caddy or dealer contact. He reports "ur mom left her phone here," mentions "feeding Elijah" and telling Dan's mother about it, references painting work, and coordinates comings and goings in a way consistent with someone spending regular time at or near Suz's household during this window. **Speculative, not confirmed:** the pattern is consistent with John Felix being a partner or close companion of [[wiki/people/suzanne-frank|Suz]] during early 2016, though nothing in the thread states this directly.
 
 ## Corpus Dimensions
 
 | Metric | Value |
 |--------|-------|
-| Messages | 59 |
+| Messages | **156** — 97 sent (Dan), 59 received (was: 59) |
 | Date range | 2016-02-12 to 2016-06-01 |
-| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (John to Dan) |
+| Direction | **97 Sent / 59 Received** — corrected 2026-09-04 |
 | Handle | +17249636738 |
 
 > **REVISED [2026-08-18]:** The partner reading above is **not supported** by

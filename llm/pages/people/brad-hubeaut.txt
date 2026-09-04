@@ -11,6 +11,7 @@ related: ["wiki/work/nemacolin-caddying", "wiki/timeline/periods/2017-poverty-fl
 tags: [career, uniontown-era]
 knowledge: mixed
 infobox:
+  handles: ["+13042162954"]
   name: "Brad Hubeaut"
   relationship_to_dan: unknown
   location: uniontown
