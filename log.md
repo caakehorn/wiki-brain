@@ -9061,3 +9061,40 @@ casing.
 
 Scoped to `wiki/self/twitter/*.md` only. The hub page has no tweet headings and
 is untouched, as is every other page in the wiki.
+
+## [2026-09-04] site | meta | the Wikipedia-style reader is served again
+
+`bin/build-site` had been writing a meta-refresh to `https://caakehorn.github.io/home`
+at every human-facing path since 2026-08-27 (PR #202). The reader was never
+removed — `render_page`, the infobox, navbox, breadcrumb, table-of-contents and
+sidebar all still ran on every build and their output was discarded at four
+write sites. Restoring the site was therefore four calls, not a rewrite:
+the article pages, the generated directory indexes, the root reading aids
+(DIGEST/RECENT/OPEN/log/queue/AGENT_ACCESS) and `index.html`, which now renders
+the master index `index.md` rather than a "Moved" stub.
+
+Two defects surfaced the moment the reader was browsable again, both invisible
+while every page was a redirect:
+
+- **Search worked only from the front page.** `search.json` was fetched at a
+  bare relative path and the hit URLs are stored relative to `index.html`, so
+  the box 404'd its index on every subpage and, had it loaded, would have
+  linked wrong. The input now carries `data-search` and `data-root` resolved
+  per page.
+- **A wikilink inside a table cell resolved to a 404.** A pipe in a table cell
+  must be escaped (`[[wiki/self/twitter/2008\|2008]]`) or the row loses a
+  column; `split_row` split on every pipe regardless, so the row *did* lose a
+  column and the target kept its trailing backslash —
+  `wiki/self/twitter/2008\.html`. Splitting on unescaped pipes only fixed both
+  at once. Dead internal links across the built site: 67 → 32.
+
+The 32 that remain are content, not rendering: wikilinks pointing into `raw/`,
+which is deliberately not published, plus `wiki/mind/concepts/supply-network`
+and `knock2`, which are cited and do not exist. Queued, not fixed here.
+
+Nothing about the agent feed changed. `llms.txt`, `agent/*` and the raw `.md`
+copies were served throughout the redirect period and are byte-identical after
+it — the 2026-08 decision was about human surface area and never touched data.
+
+Also regenerated `wiki/meta/testimony-veracity.md`, which was behind its ledger
+on `main` and held the gate red.
