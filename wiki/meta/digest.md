@@ -55,7 +55,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-04** — 14 pages
+**2026-09-04** — 16 pages
   - site | meta | the Wikipedia-style reader is served again
 
 **2026-09-03** — 35 pages

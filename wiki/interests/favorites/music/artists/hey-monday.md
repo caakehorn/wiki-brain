@@ -16,6 +16,9 @@ connections:
   - page: wiki/interests/concert-record/index
     type: component-of
     claim: "This is the concert table's row 36, and the tweets that date it also join it to row 40 — the same night, the same city, filed twice under two band names."
+  - page: wiki/mind/concepts/acquisition-drive
+    type: instance-of
+    claim: "The mid-holiday flight for this show is the corpus's earliest dated case of a want becoming a decided outcome and the calendar rearranging around it — stated as settled on 19 December, executed on the 28th."
 ---
 
 # Hey Monday
@@ -46,7 +49,8 @@ All dates, venues, cities, and notes below are taken from the source table and p
 > | 2008-12-27, 19:40 EST | *"Flying to Orlando for hey monday tomorrow. Wooo"* |
 > | 2008-12-28, 10:38 EST | *"Hate airport days."* |
 >
-> He is nineteen, home in Pennsylvania for his first Christmas since moving to
+> He had turned twenty eight weeks earlier, was home in Pennsylvania for his
+> first Christmas since moving to
 > Florida, and **he books the return flight around this show and says so before
 > he has even left.** The band had existed for less than a year. This is the
 > earliest dated instance in the corpus of a pattern the interest pages

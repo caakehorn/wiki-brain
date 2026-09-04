@@ -2,8 +2,8 @@
 plain_of: wiki/mind/concepts/acquisition-drive
 title: "The Acquisition Drive"
 reading_level: general
-date_modified: 2026-08-26
-source_modified: 2026-08-26
+date_modified: 2026-09-04
+source_modified: 2026-09-04
 ---
 
 # The Acquisition Drive
@@ -82,6 +82,42 @@ The record supports that without being asked to. The same engine, aimed at
 something constructive, produced the social-network inequality measurement, the
 DANMODEL extraction project, the forensic-method dashboards, and this wiki. None
 of them were assigned to him.
+
+### One time we can date, from the harmless end
+
+The ATM-card story is the only example this section has, and — as the last
+section of this page admits — it has no date, no amount, and nothing to check it
+against. Dan's public posts from December 2008 supply one that has all three.
+
+He is twenty, three months into film school in Florida, and flying home to
+Pennsylvania for Christmas. Before he has even left, the return trip is already
+booked around a concert.
+
+| Date and time | What he posted |
+|---|---|
+| Dec 19, 2008, 9:56am | *"I don't want to go to cold, lame PA. Be back on the 28th for hey Monday :)"* |
+| Dec 19, 2008, 12:34pm | *"at the airport. i fucking hate going home."* |
+| Dec 27, 2008, 7:40pm | *"Flying to Orlando for hey monday tomorrow. Wooo"* |
+| Dec 28, 2008, 10:38am | *"Hate airport days."* |
+
+He cut a family Christmas short and flew from Pennsylvania back to Florida for
+one show, in a small club, by a band that had existed for less than a year. His
+concert log has the ticket.
+
+**The reason this small story is useful is that nothing was at stake.** The
+ATM-card example mixes three things together: the drive, the recklessness, and
+the fact that his family could absorb the consequences. Here nobody was cheated,
+no risk was taken, and the plane ticket was almost certainly his parents'. What
+is left is just the mechanism: a want turned into a settled decision — *"Be back
+on the 28th"*, said as a fact, nine days ahead — and then everything else moved
+around it.
+
+It also pushes the trait back to 2008, written down at the time by the person
+doing it, rather than remembered years later.
+
+**It does not prove much on its own.** One example is not a pattern, and a
+concert ticket says nothing about how the drive behaves when the cost is real.
+It shows the mechanism existed early. It says nothing about how strong it was.
 
 ## The consequence nobody had drawn: altruism was never the variable
 
@@ -223,7 +259,9 @@ page in miniature.
 - **The ATM-card episode has no date, no amount, no duration, and no
   corroboration** anywhere in the message record — it exists only in Dan's
   own telling, and Vanessa's own message thread never mentions it, which
-  places it before December 2015 or entirely outside the record.
+  places it before December 2015 or entirely outside the record. The December
+  2008 concert trip added above does not fix this. It is a second example from
+  the same era, not evidence about the first one.
 
 - **The 95th-percentile figure is a self-estimate** offered against a
   population baseline that is not specified; it is recorded as testimony, not

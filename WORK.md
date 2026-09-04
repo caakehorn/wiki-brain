@@ -15,7 +15,7 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (108)
+## Obligations (114)
 
 Somebody or something is waiting on each of these. Drain from the top.
 
@@ -122,6 +122,12 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/health/chemical-architecture.md moved 2026-09-04, after this page's 2026-08-31 | `wiki/health/cocaine.md` | 2026-09-04 |
 | 3 | stale | premise wiki/health/chemical-architecture.md moved 2026-09-04, after this page's 2026-08-31 | `wiki/health/the-configured-body.md` | 2026-09-04 |
 | 3 | stale | premise wiki/interests/music/aliases/sloppp.md moved 2026-09-04, after this page's 2026-08-… | `wiki/mind/synthesis/alias-as-periodization.md` | 2026-09-04 |
+| 3 | stale | premise wiki/mind/concepts/acquisition-drive.md moved 2026-09-04, after this page's 2026-08… | `wiki/mind/synthesis/the-embedded-objective.md` | 2026-09-04 |
+| 3 | stale | premise wiki/mind/concepts/acquisition-drive.md moved 2026-09-04, after this page's 2026-08… | `wiki/mind/synthesis/totality-themes.md` | 2026-09-04 |
+| 3 | stale | premise wiki/mind/concepts/acquisition-drive.md moved 2026-09-04, after this page's 2026-08… | `wiki/health/cocaine.md` | 2026-09-04 |
+| 3 | stale | premise wiki/mind/concepts/acquisition-drive.md moved 2026-09-04, after this page's 2026-09… | `wiki/mind/synthesis/failure-to-launch.md` | 2026-09-04 |
+| 3 | stale | premise wiki/mind/concepts/calibrated-confidence.md moved 2026-09-04, after this page's 202… | `wiki/mind/synthesis/the-binary-verdict.md` | 2026-09-04 |
+| 3 | stale | premise wiki/mind/concepts/calibrated-confidence.md moved 2026-09-04, after this page's 202… | `wiki/mind/synthesis/failure-to-launch.md` | 2026-09-04 |
 | 4 | skill | unvalidated skill candidate — A generator's own output is not the published object | `skills/INBOX.md` | 2026-08-30 |
 | 4 | skill | unvalidated skill candidate — Persistent cross-agent learning loop | `skills/INBOX.md` | 2026-08-30 |
 | 4 | skill | unvalidated skill candidate — A secret's absence must fail whatever the secret was for | `skills/INBOX.md` | 2026-08-31 |

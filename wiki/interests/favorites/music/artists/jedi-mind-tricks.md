@@ -44,5 +44,5 @@ The four-hour gap is the set. **"Scary" is the reaction and it is not a
 complaint** — this is an Orlando audio student two months into Full Sail,
 already deep in the emo and pop-punk circuit that fills the rest of autumn
 2008 ([[wiki/self/twitter/2008]]), walking out of a Philadelphia
-horrorcore show having enjoyed it. The taste is wider at nineteen than the
+horrorcore show having enjoyed it. The taste is wider at twenty than the
 concert table's overwhelmingly pop-punk 2008 rows suggest on their own.

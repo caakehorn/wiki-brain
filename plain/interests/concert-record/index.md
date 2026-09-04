@@ -114,7 +114,8 @@ it:
 - **December 27, 2008**, at 7:40 in the evening: *"Flying to Orlando for hey monday tomorrow. Wooo"*
 - **December 28, 2008**, at 10:38 in the morning: *"Hate airport days."*
 
-He was nineteen, home for his first Christmas since moving to Florida, and he
+He had just turned twenty, was home for his first Christmas since moving to
+Florida, and he
 booked his flight back around a single show by a band that had existed for less
 than a year — and said so before he had even left. **The show was December 28,
 2008.**
