@@ -11,6 +11,7 @@ related: ["wiki/timeline/periods/2018-deep-cycle", "wiki/self/message-corpora/ma
 tags: [addiction-recovery, digital-footprint, uniontown-era]
 knowledge: mixed
 infobox:
+  handles: ["+17249632572"]
   name: "Al"
   relationship_to_dan: unknown
   first_contact: 2018-05-13

@@ -11,6 +11,7 @@ related: ["wiki/people/vanessa-frank", "wiki/self/message-corpora/master-message
 tags: [family]
 knowledge: mixed
 infobox:
+  handles: ["+17242088411"]
   name: "Lisa Durbin"
   relationship_to_dan: unknown
   first_contact: 2017-04-14

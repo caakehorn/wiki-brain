@@ -168,7 +168,7 @@ CORPORA = {
 MORATORIUM = re.compile(r"\b(annie|ulmer)", re.I)
 
 
-def under_moratorium(txt):
+def under_moratorium(txt, path=None):
     """True for a page that IS about her — not for one that mentions her.
 
     **This threshold is deliberately narrower than `bin/wiki-plain`'s and the
@@ -190,7 +190,25 @@ def under_moratorium(txt):
     it may look at, and `scan` prints the reminder on any page that names her.
     """
     fm, _ = split_fm(txt)
-    head = (scalar(fm, "title") or "") + " " + " ".join(inline_list(fm, "aliases"))
+    # The name has to be resolved the way the rest of this file resolves it.
+    # This read `scalar(fm, "title")` alone until 2026-09-04, and **288 of 497
+    # pages carry no `title:` field at all** — their name lives in
+    # `infobox.name` or in the slug, which `title_of()` already knows and the
+    # guard did not. Nine pages were invisible to it in consequence, among them
+    # `wiki/timeline/annie-record`, `wiki/people/ellen-ulmer` and
+    # `wiki/timeline/events/shelbie-annie-threesome-april-2019` — pages squarely
+    # about her, which `scan` would have accepted as subjects and offered as
+    # targets. Same shape as the hole `bin/wiki-plain`'s guard shipped with: a
+    # safety check whose failure mode is silent permission.
+    #
+    # `path` is optional so the existing call sites keep working; without it the
+    # slug fallback is unavailable and only the frontmatter is read.
+    head = " ".join([
+        title_of(path or "", fm),
+        scalar(fm, "title") or "",
+        " ".join(inline_list(fm, "aliases")),
+        os.path.basename(path)[:-3].replace("-", " ") if path else "",
+    ])
     return bool(MORATORIUM.search(head))
 
 
@@ -203,7 +221,7 @@ MORATORIUM_TARGETS = set()
 def note_moratorium_targets(pages):
     MORATORIUM_TARGETS.clear()
     for path, txt in pages.items():
-        if under_moratorium(txt):
+        if under_moratorium(txt, path):
             MORATORIUM_TARGETS.add(path[:-3])
     return MORATORIUM_TARGETS
 
@@ -1118,7 +1136,7 @@ def cmd_scan(argv):
         for slug, meta in idx.items():
             if not meta.get("limit"):
                 continue
-            if under_moratorium(pages[slug + ".md"]):
+            if under_moratorium(pages[slug + ".md"], slug + ".md"):
                 continue
             fm, _ = split_fm(pages[slug + ".md"])
             if against[0] in inline_list(fm, "sources"):
@@ -1141,7 +1159,7 @@ def cmd_scan(argv):
 
     total, skipped, refused = 0, 0, 0
     for slug in targets:
-        if under_moratorium(pages[slug + ".md"]):
+        if under_moratorium(pages[slug + ".md"], slug + ".md"):
             print("== %s — REFUSED: standing directive in CLAUDE.md. This tool "
                   "hands out pages to write edges onto; that record does not "
                   "advance." % slug)
@@ -1240,7 +1258,7 @@ def cmd_coverage(argv):
         if not slug.startswith(prefix.rstrip("/")):
             continue
         txt = pages[slug + ".md"]
-        if under_moratorium(txt):
+        if under_moratorium(txt, slug + ".md"):
             continue
         fm, _ = split_fm(txt)
         if not [n for n, c in idx[slug]["names"] if c == "high"]:
@@ -1332,7 +1350,7 @@ def cmd_handles(argv):
         hits, amb = resolve_handles(fm, known)
         if hits:
             resolved.append((sum(known[h] for h in hits), slug, hits,
-                             under_moratorium(txt)))
+                             under_moratorium(txt, slug + ".md")))
         elif declared or amb:
             unresolved.append((slug, declared, amb))
         else:
@@ -1412,7 +1430,7 @@ def cmd_counts(argv):
                 per_handle[p[1]][p[0]] += 1
     only = [a for a in argv if not a.startswith("-")]
     prefix = only[0] if only else "wiki/people/"
-    rows, skipped = [], 0
+    rows, over, skipped = [], [], 0
     for path, txt in sorted(pages.items()):
         slug = path[:-3]
         if not slug.startswith(prefix.rstrip("/")):
@@ -1437,22 +1455,37 @@ def cmd_counts(argv):
         note = ""
         if stated == recv and sent:
             note = "STATED = RECEIVED-ONLY, %d sent uncounted" % sent
-        elif abs(stated - total) > max(3, 0.15 * total):
-            note = "off by %+d" % (stated - total)
+        elif stated < total - max(3, 0.15 * total):
+            note = "understates by %d" % (total - stated)
         if note:
             rows.append((total - stated, slug, stated, total, sent, recv, dirn, note))
+        elif stated > total + max(3, 0.15 * total):
+            over.append((stated - total, slug, stated, total))
     rows.sort(reverse=True)
+    over.sort(reverse=True)
     print("%-40s %7s %7s %6s %6s  %s"
           % ("page", "stated", "actual", "sent", "recv", "what is wrong"))
     for _d, slug, stated, total, sent, recv, dirn, note in rows:
         tag = "  [%s]" % dirn[:34] if dirn else ""
         print("%-40s %7d %7d %6d %6d  %s%s"
               % (slug[:40], stated, total, sent, recv, note, tag))
-    print("\n%d page(s) disagree with the corpus; %d skipped for naming a corpus "
-          "this tool cannot read" % (len(rows), skipped))
+    print("\n%d page(s) UNDERSTATE against the corpus; %d skipped for naming a "
+          "corpus this tool cannot read" % (len(rows), skipped))
     print("A page saying 'all received (export artifact)' is the tell: his half "
           "is not\nmissing from the record, it is in the corpus the page did not "
           "read.")
+    if over:
+        # An overstatement is usually NOT an error and must not be reported as
+        # one. This tool reads two corpora; `raw/self/message-csv/` also holds
+        # ~30 per-contact exports it does not, and 50,396 rows exist only in the
+        # CSV side of the family. A page that counted a per-contact export will
+        # legitimately state more than these two hold.
+        print("\n%d page(s) state MORE than these two corpora hold. That is "
+              "usually not an\nerror: ~30 per-contact exports under "
+              "raw/self/message-csv/ are unread here." % len(over))
+        for d, slug, stated, total in over:
+            print("  %-40s stated %6d, these corpora hold %6d  (+%d)"
+                  % (slug[:40], stated, total, d))
     return 0
 
 

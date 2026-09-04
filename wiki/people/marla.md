@@ -18,6 +18,7 @@ connections:
 tags: [family, grief, physical-health, uniontown-era]
 knowledge: mixed
 infobox:
+  handles: ["+17245626515"]
   name: "Marla"
   relationship_to_dan: unknown
   sex: female

@@ -16,6 +16,7 @@ related:
   - wiki/people/ismaila-barry
   - wiki/people/tarik-fallous
 infobox:
+  handles: ["+19172925212"]
   name: "Dimitri"
   relationship_to_dan: unknown
   sex: male

@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-09-04
 date_range_start: 2017-04-12
 date_range_end: 2019-02-01
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -11,6 +11,7 @@ related: ["wiki/work/nemacolin-caddying", "wiki/self/message-corpora/master-mess
 tags: [career, addiction-recovery, uniontown-era]
 knowledge: mixed
 infobox:
+  handles: ["+14124450765"]
   name: "Josh Coccagna"
   relationship_to_dan: unknown
   first_contact: 2017-04-12
@@ -19,15 +20,24 @@ infobox:
 
 # Josh Coccagna
 
+> **COUNT CORRECTED [2026-09-04] — 77, not 32.** This page reported the
+> Received-only figure. Dan's 45 messages to this contact are in
+> `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page did not
+> read. Its handle was not declared in `infobox.handles:` either — it was
+> sitting in the page's own Corpus Dimensions table where no tool could use it —
+> so `bin/wiki-crosslink counts` could not see this page until the handle was
+> promoted the same day. **The prose below was written against the one-sided
+> thread and has not been re-derived.**
+
 Josh Coccagna's relationship with Dan shifts registers entirely over its two-year span (`+14124450765`, 32 messages, April 2017 – February 2019): it opens as a golf-professional mentor relationship — swing tips ("keep your weight on the inside sole of your foot"), updates on a new Mountain Course and clubhouse renovation at what reads as a competing high-end resort to Nemacolin (one hole "hosted a Ryder Cup"), and a November 2017 reference-check call about a golf-staff intern applicant — and ends, by February 2019, as a psychedelics supply contact: Josh describing $80 DMT carts ordered by mail, having sent one to a mutual friend "Jerad," and offering to keep Dan in mind for the next batch.
 
 ## Corpus Dimensions
 
 | Metric | Value |
 |--------|-------|
-| Messages | 32 |
+| Messages | **77** — 45 sent (Dan), 32 received (was: 32) |
 | Date range | 2017-04-12 to 2019-02-01 |
-| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Josh to Dan) |
+| Direction | **45 Sent / 32 Received** — corrected 2026-09-04 |
 | Handle | +14124450765 |
 
 ## Related

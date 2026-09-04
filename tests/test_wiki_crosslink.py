@@ -419,3 +419,61 @@ class AliasAudit(unittest.TestCase):
             self.assertNotIn(dead, names,
                              "%s got %r back — it matches ordinary English and "
                              "none of the hits are the subject" % (slug, dead))
+
+
+class MoratoriumNameResolution(unittest.TestCase):
+    """The guard has to resolve a page's name the way the rest of the file does.
+
+    It read `scalar(fm, "title")` and the aliases, and **288 of 497 pages carry
+    no `title:` field at all** — their name is in `infobox.name` or in the slug.
+    Nine pages were invisible to it in consequence, among them
+    `wiki/timeline/annie-record`, `wiki/people/ellen-ulmer` and
+    `wiki/timeline/events/shelbie-annie-threesome-april-2019`: pages squarely
+    about her, which `scan` would have accepted as subjects and offered as
+    targets. Found 2026-09-04 when a frontmatter sweep touched `bill-ulmer` and
+    the guard did not fire. Same shape as the hole `bin/wiki-plain`'s guard
+    shipped with — a safety check whose failure mode is silent permission.
+    """
+
+    def setUp(self):
+        self.m = load_module()
+
+    def _page(self, fm_lines, body="Body."):
+        return "---\n" + "\n".join(fm_lines) + "\n---\n\n" + body + "\n"
+
+    def test_name_only_in_the_infobox_is_caught(self):
+        txt = self._page(["domain: people", "page_type: entity",
+                          "infobox:", '  name: "Ellen Ulmer"'])
+        self.assertTrue(self.m.under_moratorium(txt, "wiki/people/ellen-ulmer.md"))
+
+    def test_name_only_in_the_slug_is_caught(self):
+        txt = self._page(["domain: timeline", "page_type: report"])
+        self.assertTrue(
+            self.m.under_moratorium(txt, "wiki/timeline/annie-record.md"))
+
+    def test_the_old_title_and_alias_paths_still_work(self):
+        self.assertTrue(self.m.under_moratorium(
+            self._page(['title: "Annie (Anne Louise Ulmer)"']), "wiki/x.md"))
+        self.assertTrue(self.m.under_moratorium(
+            self._page(['title: "Someone"', 'aliases: ["Annie"]']), "wiki/x.md"))
+
+    def test_an_unrelated_page_is_still_not_refused(self):
+        txt = self._page(['title: "Golf"'], body="He played with Annie in 2019.")
+        self.assertFalse(self.m.under_moratorium(txt, "wiki/interests/golf.md"))
+
+    def test_the_guard_covers_the_pages_it_missed(self):
+        """Regression on the real corpus: these nine were exposed."""
+        pages = self.m.load_pages()
+        for slug in ("wiki/timeline/annie-record",
+                     "wiki/people/ellen-ulmer",
+                     "wiki/people/bill-ulmer",
+                     "wiki/timeline/annie-read-notes",
+                     "wiki/mind/synthesis/dan-annie-fallout-verdict",
+                     "wiki/timeline/events/shelbie-annie-threesome-april-2019",
+                     "wiki/timeline/events/annie-alexis-reunion-november-2018",
+                     "wiki/timeline/periods/2015-2016-annie-relationship-start",
+                     "wiki/timeline/2015-annie-read-wiki-impact-analysis"):
+            path = slug + ".md"
+            self.assertIn(path, pages, slug)
+            self.assertTrue(self.m.under_moratorium(pages[path], path),
+                            "%s is not refused by the guard" % slug)

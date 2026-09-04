@@ -11,6 +11,7 @@ sources:
 tags: [mental-health, financial-stress, digital-footprint]
 knowledge: mixed
 infobox:
+  handles: ["+17245629389"]
   name: "Bekah Fullem"
   relationship_to_dan: unknown
   sex: female

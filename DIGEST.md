@@ -14,7 +14,7 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 497 |
-| Pages touched in the last 14 days | 200 |
+| Pages touched in the last 14 days | 224 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 49 |
 | Open gaps | 605 |
@@ -47,7 +47,8 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-09-04** — 60 pages
+**2026-09-04** — 84 pages
+  - connect | people | the handles were on the pages all along, and the guard could not see nine of them
   - connect | people | thirteen pages that counted half a conversation
   - connect | people | the estate's two hands, found by reading a conversation instead of a name
   - connect | people | the twitter archive, read directly onto the page it was about

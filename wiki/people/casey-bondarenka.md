@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-08-17
+date_modified: 2026-09-04
 date_range_start: 2015-11-29
 date_range_end: 2018-10-24
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "exports/annie-corpus.csv (built by bin/annie-corpus)"]
@@ -29,6 +29,7 @@ connections:
     type: instantiates
     claim: "The 2015-11-29 outbound \"Things are collapsing with lex\" has no contact_handle in the export and is attributed to Casey by timing and content — a worked instance of the contested-attribution problem."
 infobox:
+  handles: ["+17245626199"]
   name: "Casey Bondarenka"
   relationship_to_dan: "short-term friend, late 2015"
   first_contact: 2015-11-29
@@ -36,6 +37,15 @@ infobox:
 ---
 
 # Casey Bondarenka
+
+> **COUNT CORRECTED [2026-09-04] — 50, not 36.** This page reported the
+> Received-only figure. Dan's 14 messages to this contact are in
+> `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page did not
+> read. Its handle was not declared in `infobox.handles:` either — it was
+> sitting in the page's own Corpus Dimensions table where no tool could use it —
+> so `bin/wiki-crosslink counts` could not see this page until the handle was
+> promoted the same day. **The prose below was written against the one-sided
+> thread and has not been re-derived.**
 
 Casey Bondarenka was a friend who overstayed his welcome during a chaotic late-2015 stretch involving [[wiki/people/alexis-armel|Alexis]] and Vanessa, then resurfaced sporadically through 2018 (`+17245626199`, 36 messages, Nov 2015 – Oct 2018).
 
@@ -87,9 +97,9 @@ Sporadic, low-effort check-ins follow ("You working today dude?", "You duckin me
 
 | Metric | Value |
 |--------|-------|
-| Messages | 36 |
+| Messages | **50** — 14 sent (Dan), 36 received (was: 36) |
 | Date range | 2015-11-29 to 2018-10-24 |
-| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Casey to Dan) |
+| Direction | **14 Sent / 36 Received** — corrected 2026-09-04 |
 | Handle | +17245626199 |
 
 ## Gaps

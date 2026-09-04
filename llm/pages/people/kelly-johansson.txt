@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-19
+date_modified: 2026-09-04
 date_range_start: 2019-09-27
 date_range_end: 2019-10-23
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -11,6 +11,7 @@ related: ["wiki/people/annie-ulmer", "wiki/timeline/events/shelbie-annie-threeso
 tags: [relationships, digital-footprint, nyc-era]
 knowledge: mixed
 infobox:
+  handles: ["+13108018083"]
   name: "Kelly Johansson"
   relationship_to_dan: unknown
   sex: female
@@ -25,6 +26,15 @@ connections:
 
 # Kelly Johansson
 
+> **COUNT CORRECTED [2026-09-04] — 131, not 64.** This page reported the
+> Received-only figure. Dan's 65 messages to this contact are in
+> `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page did not
+> read. Its handle was not declared in `infobox.handles:` either — it was
+> sitting in the page's own Corpus Dimensions table where no tool could use it —
+> so `bin/wiki-crosslink counts` could not see this page until the handle was
+> promoted the same day. **The prose below was written against the one-sided
+> thread and has not been re-derived.**
+
 Kelly Johansson was a New York escort (Upper East Side, 152 East 65th Street) Dan and Annie booked for paid sessions together over a five-week stretch in fall 2019 (`+13108018083`, 64 messages, 2019-09-27 to 2019-10-23; CashApp `$kellyjohansson`, Venmo `@Andrianna_Cole`). It's the most professionalized instance of the couple's non-monogamous arrangement documented in the corpus — not a friend or a one-off booking but a repeat working relationship with an escort who was, in turn, trying to bring Dan and Annie in as co-providers for one of her own paying clients.
 
 ## The arrangement
@@ -37,9 +47,9 @@ Kelly treats Annie as a professional peer more than a customer's girlfriend: she
 
 | Metric | Value |
 |--------|-------|
-| Messages | 64 |
+| Messages | **131** — 65 sent (Dan), 66 received (was: 64) |
 | Date range | 2019-09-27 to 2019-10-23 |
-| Direction | Unreliable in this export (marked "Received" throughout) — read as two-way |
+| Direction | **65 Sent / 66 Received** — corrected 2026-09-04 |
 | Handle | +13108018083 |
 
 ## Gaps

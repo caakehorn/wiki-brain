@@ -3,13 +3,14 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-19
+date_modified: 2026-09-04
 date_range_start: 2018-04-22
 date_range_end: 2019-10-20
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/laurynashly_4_5jbvoqow/message_1.html"]
 tags: [relationships, career, financial-stress]
 knowledge: mixed
 infobox:
+  handles: ["+14125139408"]
   name: "New Jim Shaffer"
   relationship_to_dan: unknown
   sex: male
@@ -32,6 +33,15 @@ connections:
 ---
 
 # "New Jim Shaffer" (Jim Shaffer)
+
+> **COUNT CORRECTED [2026-09-04] — 1778, not 894.** This page reported the
+> Received-only figure. Dan's 877 messages to this contact are in
+> `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page did not
+> read. Its handle was not declared in `infobox.handles:` either — it was
+> sitting in the page's own Corpus Dimensions table where no tool could use it —
+> so `bin/wiki-crosslink counts` could not see this page until the handle was
+> promoted the same day. **The prose below was written against the one-sided
+> thread and has not been re-derived.**
 
 Jim Shaffer — "not the only Jim Shaffer" in Dan's life, hence the "new" contacts-card label — is a wealthy childhood friend from the same Fayette County high-school cohort, self-described as Dan's "longest standing friend on the planet" (`+14125139408`, 894 messages, April 2018 – October 2019). He splits time between a Florida golf community (Bay Hill) and Pennsylvania, collects high-end tour-issued golf equipment through a Titleist tour-van contact, and had just resolved a serious embezzlement accusation when the thread opens.
 
@@ -63,7 +73,7 @@ The friendship's emotional core surfaces around [[wiki/people/fran-coldren|Fran]
 
 | Metric | Value |
 |--------|-------|
-| Messages | 894 |
+| Messages | **1778** — 877 sent (Dan), 901 received (was: 894) |
 | Date range | 2018-04-22 to 2019-10-20 |
-| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Jim to Dan) |
+| Direction | **877 Sent / 901 Received** — corrected 2026-09-04 |
 | Handle | +14125139408 |

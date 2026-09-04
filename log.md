@@ -1,3 +1,59 @@
+## [2026-09-04] connect | people | the handles were on the pages all along, and the guard could not see nine of them
+
+**Phase 0.5's handle half turned out to be mostly already done and unreadable.**
+138 people pages carried no `infobox.handles:`. But **43 of them had the number
+written in their own Corpus Dimensions table** — `| Handle | +17243660816 |` —
+where the page asserts it and no tool can use it. Promoting that row into
+frontmatter asserts nothing new; it makes an existing claim machine-readable.
+
+**Handle coverage: 30 pages / 41,349 rows → 71 pages / 68,588 rows.** Pages with
+no handle at all: 138 → 97.
+
+**And the promotion immediately paid for itself.** With those handles declared,
+`bin/wiki-crosslink counts` could finally see the pages, and found **24 more**
+understating their own threads — on top of the 13 fixed earlier the same day.
+`new-jim-shaffer` 894 → **1,778**. `mohammed-bin-salman` 281 → **639**.
+`jim-vrabel` 313 → **588**. `jack-rusko` 202 → **400**. `bub` 86 → **240**. All
+24 corrected, all saying the prose has not been re-derived. **Thirty-nine pages
+in one day had counted one side of a conversation.**
+
+**`counts` had to learn the difference between understating and overstating.**
+The first version reported five pages as errors for stating *more* than the
+corpora hold — `shelbie-breakiron` 685 against 475. That is usually not an
+error: this tool reads two corpora, and `raw/self/message-csv/` holds about
+thirty per-contact exports it does not. Overstatements are now reported apart,
+as information rather than as a defect. **Understating by exactly the
+Received-only figure is the reliable signal; a bigger number is just a corpus
+this tool cannot see.**
+
+## The moratorium guard was blind to nine pages
+
+Promoting handles touched `wiki/people/bill-ulmer` and the guard did not fire.
+It should have.
+
+**`under_moratorium()` read `scalar(fm, "title")` and the aliases — and 288 of
+497 pages carry no `title:` field at all.** Their name lives in `infobox.name`
+or in the slug, both of which `title_of()` already resolves and the guard did
+not use. Nine pages were invisible to it:
+
+- `wiki/timeline/annie-record`
+- `wiki/people/ellen-ulmer`
+- `wiki/people/bill-ulmer`
+- `wiki/timeline/annie-read-notes`
+- `wiki/mind/synthesis/dan-annie-fallout-verdict`
+- `wiki/timeline/events/shelbie-annie-threesome-april-2019`
+- `wiki/timeline/events/annie-alexis-reunion-november-2018`
+- `wiki/timeline/periods/2015-2016-annie-relationship-start`
+- `wiki/timeline/2015-annie-read-wiki-impact-analysis`
+
+`scan` would have accepted every one as a subject and offered them as targets.
+**The guard now refuses 14 pages where it refused 5**, resolves the name the way
+the rest of the file does, and is pinned by five tests including a regression on
+all nine. This is the same shape as the hole `bin/wiki-plain`'s guard shipped
+with and which its own test file was written for: **a safety check whose failure
+mode is silent permission.** Two enforcement points, two holes, both found by
+accident rather than by looking.
+
 ## [2026-09-04] connect | people | thirteen pages that counted half a conversation
 
 **The defect had been found by hand four times and never by a tool.** A page

@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-09-04
 date_range_start: 2017-04-20
 date_range_end: 2017-07-02
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -11,6 +11,7 @@ related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/c
 tags: [relationships, digital-footprint]
 knowledge: mixed
 infobox:
+  handles: ["+13042793075"]
   name: "Jess"
   relationship_to_dan: unknown
   first_contact: 2017-04-20
@@ -19,15 +20,24 @@ infobox:
 
 # Jess (from "Fem")
 
+> **COUNT CORRECTED [2026-09-04] — 74, not 36.** This page reported the
+> Received-only figure. Dan's 38 messages to this contact are in
+> `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page did not
+> read. Its handle was not declared in `infobox.handles:` either — it was
+> sitting in the page's own Corpus Dimensions table where no tool could use it —
+> so `bin/wiki-crosslink counts` could not see this page until the handle was
+> promoted the same day. **The prose below was written against the one-sided
+> thread and has not been re-derived.**
+
 Jess introduces herself April 20, 2017 as part of a swinging couple recruiting through a group or platform called "Fem" (`+13042793075`, 36 messages, April–July 2017), opening with photos and an explicit vetting conversation about her partner Mike — his size, whether he's "a problem," and whether Dan and any partner would want to meet the couple, who describe themselves as usually bringing in a woman rather than another man. The opening exchange is dense (April 20 alone) but the interest doesn't convert: after one intensive day of messaging, contact drops to occasional "hey" check-ins with no further logistics discussed, tapering out by early July.
 
 ## Corpus Dimensions
 
 | Metric | Value |
 |--------|-------|
-| Messages | 36 |
+| Messages | **74** — 38 sent (Dan), 36 received (was: 36) |
 | Date range | 2017-04-20 to 2017-07-02 |
-| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Jess to Dan) |
+| Direction | **38 Sent / 36 Received** — corrected 2026-09-04 |
 | Handle | +13042793075 |
 
 ## Gaps

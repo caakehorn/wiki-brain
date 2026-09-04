@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-09-04
 date_range_start: 2017-04-22
 date_range_end: 2020-10-07
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -11,6 +11,7 @@ related: ["wiki/self/message-corpora/master-message-dump", "wiki/mind/concepts/c
 tags: [relationships, digital-footprint]
 knowledge: mixed
 infobox:
+  handles: ["+17249635394"]
   name: "Bub"
   relationship_to_dan: unknown
   first_contact: 2017-04-22
@@ -18,6 +19,15 @@ infobox:
 ---
 
 # Bub
+
+> **COUNT CORRECTED [2026-09-04] — 240, not 86.** This page reported the
+> Received-only figure. Dan's 154 messages to this contact are in
+> `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page did not
+> read. Its handle was not declared in `infobox.handles:` either — it was
+> sitting in the page's own Corpus Dimensions table where no tool could use it —
+> so `bin/wiki-crosslink counts` could not see this page until the handle was
+> promoted the same day. **The prose below was written against the one-sided
+> thread and has not been re-derived.**
 
 "Bub" (contacts label, real name undocumented) is a low-intensity but long-running college-friend-register contact spanning three and a half years (`+17249635394`, 86 messages, April 2017 – October 2020). The relationship is casual and evenly reciprocal, organized around music/DJ logistics, tech troubleshooting, and gaming — with none of the transactional or crisis texture common to many other stub contacts in this corpus.
 
@@ -29,9 +39,9 @@ Early messages (April 2017) coordinate a party where Dan is DJing, at an address
 
 | Metric | Value |
 |--------|-------|
-| Messages | 86 |
+| Messages | **240** — 154 sent (Dan), 86 received (was: 86) |
 | Date range | 2017-04-22 to 2020-10-07 |
-| Direction | Unreliable in this export (marked "Received" throughout) — read as two-way |
+| Direction | **154 Sent / 86 Received** — corrected 2026-09-04 |
 | Handle | +17249635394 |
 
 ## Gaps

@@ -15,7 +15,7 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (138)
+## Obligations (139)
 
 Somebody or something is waiting on each of these. Drain from the top.
 
@@ -141,6 +141,7 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/people/ally-lubin-cognitive-profile.md moved 2026-09-04, after this page's 202… | `wiki/mind/synthesis/the-rescue-premise.md` | 2026-09-04 |
 | 3 | stale | premise wiki/people/ally-lubin-cognitive-profile.md moved 2026-09-04, after this page's 202… | `wiki/mind/synthesis/the-serial-monogamist.md` | 2026-09-04 |
 | 3 | stale | premise wiki/people/jay-lauer.md moved 2026-09-04, after this page's 2026-08-31 | `wiki/health/cocaine.md` | 2026-09-04 |
+| 3 | stale | premise wiki/people/lindsay-carolla.md moved 2026-09-04, after this page's 2026-08-31 | `wiki/health/cocaine.md` | 2026-09-04 |
 | 3 | stale | premise wiki/people/rick-frank.md moved 2026-09-04, after this page's 2026-08-26 | `wiki/self/context-core.md` | 2026-09-04 |
 | 3 | stale | premise wiki/people/rick-frank.md moved 2026-09-04, after this page's 2026-08-28 | `wiki/mind/synthesis/attachment-trauma-bond.md` | 2026-09-04 |
 | 3 | stale | premise wiki/people/rick-frank.md moved 2026-09-04, after this page's 2026-08-28 | `wiki/mind/synthesis/fayette-return.md` | 2026-09-04 |

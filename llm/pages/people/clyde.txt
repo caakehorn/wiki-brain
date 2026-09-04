@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-09-04
 date_range_start: 2019-03-27
 date_range_end: 2020-01-12
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -11,6 +11,7 @@ related: ["wiki/people/del", "wiki/people/menore", "wiki/self/message-corpora/ma
 tags: [addiction-recovery, nyc-era, digital-footprint]
 knowledge: mixed
 infobox:
+  handles: ["+16469534978"]
   name: "Clyde"
   relationship_to_dan: unknown
   location: nyc
@@ -19,6 +20,15 @@ infobox:
 ---
 
 # Clyde
+
+> **COUNT CORRECTED [2026-09-04] — 204, not 125.** This page reported the
+> Received-only figure. Dan's 75 messages to this contact are in
+> `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page did not
+> read. Its handle was not declared in `infobox.handles:` either — it was
+> sitting in the page's own Corpus Dimensions table where no tool could use it —
+> so `bin/wiki-crosslink counts` could not see this page until the handle was
+> promoted the same day. **The prose below was written against the one-sided
+> thread and has not been re-derived.**
 
 Clyde was a NYC psychedelics dealer — LSD (150–275ug tabs), DMT (crystal and vape carts), mushrooms, and occasional xanax — who delivered directly to Dan's apartment (307 E 76th Street, apartment 17) over roughly ten months spanning 2019 (`+16469534978`, 125 messages, March 2019 – January 2020, saved under the joke "Socialist" contacts label). The relationship is warm and quality-conscious rather than purely transactional: Clyde asks Dan's age and jokes about vetting him as "not a police officer" at their first meeting, apologizes and offers a discount when a batch of mushrooms gave shakes, and promises "free squares" after a leaky cart.
 
@@ -30,9 +40,9 @@ Pricing is explicit and varies by product: LSD tabs at $15 singles / $10 for 5+,
 
 | Metric | Value |
 |--------|-------|
-| Messages | 125 |
+| Messages | **204** — 75 sent (Dan), 129 received (was: 125) |
 | Date range | 2019-03-27 to 2020-01-12 |
-| Direction | Unreliable in this export (marked "Received" throughout) — read as two-way |
+| Direction | **75 Sent / 129 Received** — corrected 2026-09-04 |
 | Handle | +16469534978 |
 
 ## Related

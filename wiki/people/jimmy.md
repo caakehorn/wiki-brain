@@ -11,6 +11,7 @@ related: ["wiki/work/nemacolin-caddying", "wiki/people/brad-hubeaut", "wiki/self
 tags: [career, uniontown-era]
 knowledge: mixed
 infobox:
+  handles: ["+17244667401"]
   name: "Jimmy"
   relationship_to_dan: unknown
   first_contact: 2018-04-14

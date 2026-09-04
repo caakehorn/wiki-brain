@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-09-04
 date_range_start: 2018-03-27
 date_range_end: 2020-09-14
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -11,6 +11,7 @@ related: ["wiki/timeline/periods/2018-deep-cycle", "wiki/self/message-corpora/ma
 tags: [addiction-recovery, uniontown-era]
 knowledge: mixed
 infobox:
+  handles: ["+17247074184"]
   name: "Jim Vrabel"
   relationship_to_dan: unknown
   first_contact: 2018-03-27
@@ -18,6 +19,15 @@ infobox:
 ---
 
 # Jim Vrabel
+
+> **COUNT CORRECTED [2026-09-04] — 588, not 313.** This page reported the
+> Received-only figure. Dan's 272 messages to this contact are in
+> `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page did not
+> read. Its handle was not declared in `infobox.handles:` either — it was
+> sitting in the page's own Corpus Dimensions table where no tool could use it —
+> so `bin/wiki-crosslink counts` could not see this page until the handle was
+> promoted the same day. **The prose below was written against the one-sided
+> thread and has not been re-derived.**
 
 Jim Vrabel was a marijuana dealer and, over two and a half years, something closer to a regular late-night hangout than a pure transaction (`+17247074184`, 313 messages, March 2018 – September 2020). He lives with his mother, works nights (mountain/resort-adjacent shift work, likely Seven Springs), bowls in a league, and coordinates near-nightly visits around her sleep schedule — "my mom is still up so I'll meet up in the alley."
 
@@ -29,9 +39,9 @@ Pricing surfaces occasionally ($110 for 3, $75 for 2, $40 for 1) alongside strai
 
 | Metric | Value |
 |--------|-------|
-| Messages | 313 |
+| Messages | **588** — 272 sent (Dan), 316 received (was: 313) |
 | Date range | 2018-03-27 to 2020-09-14 |
-| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Jim to Dan) |
+| Direction | **272 Sent / 316 Received** — corrected 2026-09-04 |
 | Handle | +17247074184 |
 
 ## Related

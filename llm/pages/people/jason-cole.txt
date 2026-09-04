@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-09-04
 date_range_start: 2015-12-10
 date_range_end: 2016-12-14
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -11,6 +11,7 @@ related: ["wiki/people/annie-ulmer", "wiki/self/message-corpora/master-message-d
 tags: [relationships, financial-stress, uniontown-era]
 knowledge: mixed
 infobox:
+  handles: ["+17249846036"]
   name: "Jason Cole"
   relationship_to_dan: unknown
   first_contact: 2015-12-10
@@ -18,6 +19,15 @@ infobox:
 ---
 
 # Jason Cole
+
+> **COUNT CORRECTED [2026-09-04] — 189, not 75.** This page reported the
+> Received-only figure. Dan's 114 messages to this contact are in
+> `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page did not
+> read. Its handle was not declared in `infobox.handles:` either — it was
+> sitting in the page's own Corpus Dimensions table where no tool could use it —
+> so `bin/wiki-crosslink counts` could not see this page until the handle was
+> promoted the same day. **The prose below was written against the one-sided
+> thread and has not been re-derived.**
 
 Jason Cole was a friend and working artist who did a custom pet portrait commission for Dan in late 2016 — a relationship that curdled from warm creative collaboration into one of the corpus's clearest documented instances of Dan stonewalling someone who was owed money (`+17249846036`, 75 messages, December 2015 – December 2016).
 
@@ -33,9 +43,9 @@ From December 5, 2016 onward, Jason cannot get Dan to respond about picking up a
 
 | Metric | Value |
 |--------|-------|
-| Messages | 75 |
+| Messages | **189** — 114 sent (Dan), 75 received (was: 75) |
 | Date range | 2015-12-10 to 2016-12-14 |
-| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Jason to Dan) |
+| Direction | **114 Sent / 75 Received** — corrected 2026-09-04 |
 | Handle | +17249846036 |
 
 ## Gaps

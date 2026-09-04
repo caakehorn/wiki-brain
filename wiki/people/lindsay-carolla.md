@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-09-04
 date_range_start: 2016-11-24
 date_range_end: 2017-04-11
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -11,6 +11,7 @@ related: ["wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora
 tags: [addiction-recovery, financial-stress, uniontown-era]
 knowledge: mixed
 infobox:
+  handles: ["+17245506589"]
   name: "Lindsay Carolla"
   relationship_to_dan: unknown
   first_contact: 2016-11-24
@@ -18,6 +19,15 @@ infobox:
 ---
 
 # Lindsay Carolla
+
+> **COUNT CORRECTED [2026-09-04] — 85, not 41.** This page reported the
+> Received-only figure. Dan's 44 messages to this contact are in
+> `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page did not
+> read. Its handle was not declared in `infobox.handles:` either — it was
+> sitting in the page's own Corpus Dimensions table where no tool could use it —
+> so `bin/wiki-crosslink counts` could not see this page until the handle was
+> promoted the same day. **The prose below was written against the one-sided
+> thread and has not been re-derived.**
 
 A warm, affectionate small-scale cocaine relationship over Thanksgiving weekend 2016 ("Hi honey," "yes my love"), with a single late follow-up in April 2017 (`+17245506589`, 41 messages). The Thanksgiving cluster (Nov 24–25) is dense: Lindsay coordinating a purchase without a car of her own, relying on a friend named Marc for partial cash, and repeatedly reassuring Dan she's good for the full amount ("God knows I'm giving you full $$, trust"). A friend "Claire" recurs as a mutual connection.
 
@@ -27,9 +37,9 @@ The thread goes quiet for over four months before a strange, unexplained final e
 
 | Metric | Value |
 |--------|-------|
-| Messages | 41 |
+| Messages | **85** — 44 sent (Dan), 41 received (was: 41) |
 | Date range | 2016-11-24 to 2017-04-11 |
-| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Lindsay to Dan) |
+| Direction | **44 Sent / 41 Received** — corrected 2026-09-04 |
 | Handle | +17245506589 |
 
 ## Gaps

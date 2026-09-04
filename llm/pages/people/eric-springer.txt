@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-14
+date_modified: 2026-09-04
 date_range_start: 2016-04-12
 date_range_end: 2016-05-06
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -11,6 +11,7 @@ related: ["wiki/people/annie-ulmer", "wiki/self/message-corpora/master-message-d
 tags: [addiction-recovery, financial-stress, uniontown-era]
 knowledge: mixed
 infobox:
+  handles: ["+17243172393"]
   name: "Eric Springer"
   relationship_to_dan: unknown
   first_contact: 2016-04-12
@@ -18,6 +19,15 @@ infobox:
 ---
 
 # Eric Springer
+
+> **COUNT CORRECTED [2026-09-04] — 93, not 44.** This page reported the
+> Received-only figure. Dan's 49 messages to this contact are in
+> `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page did not
+> read. Its handle was not declared in `infobox.handles:` either — it was
+> sitting in the page's own Corpus Dimensions table where no tool could use it —
+> so `bin/wiki-crosslink counts` could not see this page until the handle was
+> promoted the same day. **The prose below was written against the one-sided
+> thread and has not been re-derived.**
 
 A month-long 2016 supply contact (`+17243172393`, 44 messages, April 12 – May 6) whose thread mixes drug logistics with candid financial and legal texture. Eric was wearing an ankle monitor at the time ("I still got this bracelet on so I can't leave") and describes real income strain: manual labor at $8/hour, catching strep throat twice in a stretch, wiring his mother $300 after she lost her wallet, and still scraping together $670 in rent despite a five-day-per-$5-late-fee lease penalty he says he'd never previously incurred.
 
@@ -27,9 +37,9 @@ Beyond the transactional core, the relationship has a personal register: Eric as
 
 | Metric | Value |
 |--------|-------|
-| Messages | 44 |
+| Messages | **93** — 49 sent (Dan), 44 received (was: 44) |
 | Date range | 2016-04-12 to 2016-05-06 |
-| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Eric to Dan) |
+| Direction | **49 Sent / 44 Received** — corrected 2026-09-04 |
 | Handle | +17243172393 |
 
 ## Related
