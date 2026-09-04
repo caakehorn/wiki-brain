@@ -7,10 +7,17 @@ Subcommands:
   entities [filter]   The entity index: every wiki page's page-name, aliases and
                       infobox handles, i.e. every string that can be looked for
                       in a source.
-  scan <page>         For one page that cites a raw corpus, scan that corpus
-                      inside the page's own date range and name every entity
-                      that appears in it and has a wiki page the page does not
-                      link. `--all` over the twitter year pages.
+  coverage [prefix]   Which readable corpora actually name a page, and how
+                      often. The triage step — run it before scanning, because
+                      most page/corpus pairs are silent and finding that out
+                      costs 1.7s for the whole wiki.
+  scan <page>         Unlinked entities in the corpora a page's `sources:` cite.
+                      `--against <corpus>` scans a corpus the page does NOT
+                      cite, filtered to rows that name the page itself.
+                      `--queue [n] --against <c>` is the campaign queue, pages
+                      that state a limit about their own evidence first.
+                      `--low` includes single-token name matches (mostly noise).
+                      `--all` over the twitter year pages.
   reciprocal [page]   Outbound typed edges whose target does not link back. The
                       inverse-edge obligation of CONNECTIONS_SPEC.md, computed
                       rather than remembered.
@@ -56,6 +63,15 @@ read:
 3.  **Absence here is not absence in the corpus.** The index can only look for
     names somebody already wrote a page for. Entities with no page are exactly
     the ones a scan cannot see, and finding them is a reading job.
+4.  **The index is only as good as `aliases:`, and 395 of 497 pages have none.**
+    Matching is exact-phrase on a page's title, and a title is almost never how
+    a thing is written in a source. `wiki/interests/opie-and-anthony` is the
+    worked case: the archive names it 61 times — "o&a" 8, "opie" 25, "cumia"
+    10, "@OpieRadio" 18 — and the exact string "opie and anthony" appears
+    **zero** times, so `coverage` reports the corpus silent on it. This is not
+    a tuning problem, it is missing frontmatter, and populating `aliases:` is
+    worth more to this campaign than any further work on the matcher.
+    `entities --missing` is the list.
 
 Why `check` never fails
 -----------------------
@@ -76,6 +92,51 @@ WIKI = os.path.join(ROOT, "wiki")
 CORPORA = {
     "raw/self/twitter/archive.jsonl": ("jsonl", "created_at", "text"),
 }
+
+# ---- THE MORATORIUM IS ENFORCED HERE, NOT REMEMBERED -----------------------
+#
+# CLAUDE.md's standing directive stops the record on Annie advancing: no new
+# narrative, event, synthesis or typed-edge claim about her. A tool whose whole
+# job is to hand a session pages to write edges onto must not put hers in the
+# queue, and must not answer a scan of one — a scan output *is* a worklist, and
+# the pilot's queue surfaced her page at position five.
+#
+# Same shape as `bin/wiki-plain` in being a refusal rather than a warning, and
+# deliberately NARROWER in what it refuses — see under_moratorium() for the
+# measurement behind that. Only the operator changes it.
+MORATORIUM = re.compile(r"\b(annie|ulmer)", re.I)
+
+
+def under_moratorium(txt):
+    """True for a page that IS about her — not for one that mentions her.
+
+    **This threshold is deliberately narrower than `bin/wiki-plain`'s and the
+    difference is not an oversight.** That tool forbids her name appearing in
+    any file under `plain/` at all, so a page naming her three times cannot get
+    a twin without either naming her or distorting the page; its INCIDENTAL=2
+    body-mention rule follows from that and is correct there.
+
+    Here the risk is different. The directive forbids writing new claims *about
+    Annie*. Crosslinking `wiki/self/tattoos` to a Misfits tweet does not do
+    that. Measured 2026-09-04: porting wiki-plain's rule across would refuse
+    **197 of 497 pages** — including `interests/golf`, `self/tattoos` and
+    `music/aliases/sloppp` — because she is a decade-long presence who gets
+    mentioned in passing everywhere. That is 40% of the wiki withheld from the
+    campaign for no safety gained, since none of those edges would be about her.
+
+    So the refusal is scoped to her own pages, by title and aliases. The rest
+    of the directive is a constraint on **what a session writes**, not on what
+    it may look at, and `scan` prints the reminder on any page that names her.
+    """
+    fm, _ = split_fm(txt)
+    head = (scalar(fm, "title") or "") + " " + " ".join(inline_list(fm, "aliases"))
+    return bool(MORATORIUM.search(head))
+
+
+def mentions_moratorium(txt):
+    _fm, body = split_fm(txt)
+    return len(MORATORIUM.findall(body))
+
 
 # Pages written by a generator, where a hand-added inverse edge is destroyed on
 # the next run and fails that generator's own check. An edge INTO one of these
@@ -139,8 +200,14 @@ def inline_list(fm, key):
     out = []
     m = re.search(r'^\s*%s:\s*\[(.*?)\]\s*$' % re.escape(key), fm, re.M | re.S)
     if m:
-        for part in re.findall(r'"([^"]*)"|\'([^\']*)\'|([^,\[\]]+)', m.group(1)):
-            v = (part[0] or part[1] or part[2]).strip()
+        # Split on commas and strip quotes per item. An earlier alternation-based
+        # regex left the quotes on every entry after the first — the third branch
+        # matched ` "Lexie"` whole — which silently demoted every quoted @handle
+        # to a low-confidence single token, because the `startswith("@")` test
+        # was looking at `"@alexisarmel"`. It cost 83 of 84 matching rows on one
+        # page before anybody noticed, so this stays boring on purpose.
+        for part in m.group(1).split(","):
+            v = part.strip().strip('"\'').strip()
             if v:
                 out.append(v)
         return out
@@ -231,6 +298,7 @@ def build_index(pages):
             "names": list(names.values()),
             "domain": scalar(fm, "domain") or "?",
             "title": title,
+            "limit": self_limit_score(txt),
         }
     return idx
 
@@ -285,6 +353,8 @@ def page_range(fm):
 def cmd_entities(argv):
     pages = load_pages()
     idx = build_index(pages)
+    if argv and argv[0] == "--missing":
+        return cmd_entities_missing(idx, pages)
     filt = argv[0].lower() if argv else None
     n = 0
     for slug in sorted(idx):
@@ -298,28 +368,89 @@ def cmd_entities(argv):
     return 0
 
 
-def scan_page(slug, pages, idx, compiled, owner, limit=3):
+SELF_LIMIT = re.compile(
+    r"\b(complete record|the complete|only (?:source|evidence|record|trace)|"
+    r"everything known|rests (?:entirely )?on|remains description|"
+    r"no (?:ledger entries|corroboration|primary source|dated evidence|message corpus)|"
+    r"blind window|testimony alone|his own telling|nothing else in the corpus|"
+    r"not (?:datable|checkable|dated)|has never been checked|unmeasured)\b", re.I)
+
+
+def self_limit_score(txt):
+    """How loudly a page states a checkable limit about its own evidence.
+
+    Measured 2026-09-04: 157 of 497 pages say something of this kind, and every
+    finding of the pilot pass landed on one — four of them falsifying the claim
+    outright. It is the difference between a queue and a pile, so it is computed
+    rather than left to a session to notice.
+    """
+    return len(SELF_LIMIT.findall(txt))
+
+
+def scan_page(slug, pages, idx, compiled, owner, limit=3, against=None):
+    """Candidates for one page. Two modes, and they ask different questions.
+
+    **Cited mode** (no `against`) reads the corpora the page's own `sources:`
+    name. The page was assembled *from* this corpus, so every row in its date
+    range is arguably its business, and the question is "what did the writer
+    not carry across?"
+
+    **Against mode** reads a corpus the page does NOT cite, and the date range
+    alone is not enough to scope it: a person's page spanning 2009-2025 would
+    match every entity in seventeen years of archive, which is the same answer
+    for every such page and therefore no answer at all. So it first finds the
+    rows that name **this page** — its own title, aliases and handles, at high
+    confidence — and looks only inside those. The question becomes "in what
+    this corpus says about X, what else does it name?", which is the question
+    the source-mention obligation is actually about.
+
+    A page whose names never appear is a fast, real negative: the corpus is
+    silent on it, and that is worth knowing before anybody reads further.
+    """
     path = slug + ".md"
-    fm, _ = split_fm(pages[path])
+    txt = pages[path]
+    fm, _ = split_fm(txt)
     srcs = inline_list(fm, "sources")
-    corpora = [s for s in srcs if s in CORPORA]
+    if against:
+        corpora = list(against)
+    else:
+        corpora = [s for s in srcs if s in CORPORA]
     if not corpora:
         return None
     start, end = page_range(fm)
+    # A missing date range used to refuse an --against scan. That was written
+    # before the name filter below existed, when the range was the only thing
+    # scoping the read; with the filter doing the scoping it blocked 246 pages
+    # for nothing, and the rows it excluded — a page's subject named outside
+    # the era the page covers — are among the more interesting results.
+    # Unbounded now, and the output says so.
+
     linked = {p for p, _ in edges(fm)}
     linked.add(slug)
-    # anything the body already wikilinks counts as linked
-    body = pages[path]
-    for m in re.finditer(r'(wiki/[a-z0-9\-/]+)', body):
+    for m in re.finditer(r'(wiki/[a-z0-9\-/]+)', txt):
         linked.add(m.group(1))
 
+    # In against mode, the page's own high-confidence names are the filter.
+    own = None
+    if against:
+        pats = [n for n, c in idx[slug]["names"] if c == "high"]
+        if not pats:
+            return "NONAMES"
+        own = re.compile("|".join(
+            (re.escape(n.lower()) + r"\b") if n.startswith("@")
+            else (r"\b" + re.escape(n.lower()) + r"\b") for n in pats), re.I)
+
     hits = collections.defaultdict(list)
+    matched_rows = 0
     for rel in corpora:
         for date, text, url in load_corpus(rel):
             if start and date[:10] < start:
                 continue
             if end and date[:10] > end:
                 continue
+            if own is not None and not own.search(text):
+                continue
+            matched_rows += 1
             seen = set()
             for conf, rx in compiled.items():
                 for m in rx.finditer(text):
@@ -329,17 +460,52 @@ def scan_page(slug, pages, idx, compiled, owner, limit=3):
                             continue
                         seen.add((key, tgt))
                         hits[tgt].append((date[:10], m.group(0), conf, text))
+    if against:
+        hits["__rows__"] = matched_rows
     return hits
 
 
-def render_hits(slug, hits, idx, limit=3):
+def render_hits(slug, hits, idx, limit=3, show_low=False):
+    """Candidates, ranked by how much the TARGET page needs them.
+
+    Two orderings were tried. By mention count the head of the list is whatever
+    string happens to recur — 48 SLOPPP shares, 18 hits on the word "music" —
+    and the page whose own stated limit the source falsifies sits below the
+    fold. By self-limit score first, the pages that told you what they do not
+    know come first, which is where every finding of the pilot pass landed.
+    """
     if not hits:
         print("  (nothing unlinked found)")
         return 0
-    ranked = sorted(hits.items(), key=lambda kv: (-len(kv[1]), kv[0]))
+    rows_matched = hits.pop("__rows__", None)
+    if rows_matched is not None:
+        print("  %d row(s) in this corpus name this page" % rows_matched)
+        if rows_matched == 0:
+            print("  (the corpus is silent on it — a real negative, worth recording)")
+            return 0
+    shown = {}
+    suppressed = 0
+    for tgt, rows in hits.items():
+        keep = rows if show_low else [r for r in rows if r[2] == "high"]
+        if keep:
+            shown[tgt] = keep
+        else:
+            suppressed += 1
+    if not shown:
+        print("  (nothing unlinked found%s)" % ("" if show_low else " above low confidence"))
+        if suppressed:
+            print("  %d low-confidence target(s) suppressed — --low to see them" % suppressed)
+        return 0
+    ranked = sorted(
+        shown.items(),
+        key=lambda kv: (-idx[kv[0]].get("limit", 0), -len(kv[1]), kv[0]),
+    )
     for tgt, rows in ranked:
         conf = "high" if any(r[2] == "high" for r in rows) else "low"
-        print("  [%s] %-46s %d mention(s)  <%s>" % (conf, tgt, len(rows), idx[tgt]["domain"]))
+        lim = idx[tgt].get("limit", 0)
+        flag = ("  ** states %d limit(s) about its own evidence **" % lim) if lim else ""
+        print("  [%s] %-46s %d mention(s)  <%s>%s"
+              % (conf, tgt, len(rows), idx[tgt]["domain"], flag))
         for date, tok, _c, text in rows[:limit]:
             snip = re.sub(r'\s+', ' ', text).strip()
             if len(snip) > 150:
@@ -347,16 +513,89 @@ def render_hits(slug, hits, idx, limit=3):
             print("        %s  %-18s %s" % (date, tok, snip))
         if len(rows) > limit:
             print("        ... %d more" % (len(rows) - limit))
+    if suppressed:
+        print("  (%d low-confidence target(s) suppressed — --low to see them)" % suppressed)
     return len(ranked)
+
+
+def cmd_entities_missing(idx, pages):
+    """Pages carrying no alias, so the index can only find them by exact title.
+
+    Ranked by how likely that is to cost something: a page whose title is a
+    single token is invisible anyway (it scores `low` and is suppressed), and a
+    page whose title is a multi-word proper noun is exactly the kind a source
+    abbreviates. 395 of 497 pages are in here as of 2026-09-04.
+    """
+    rows = []
+    for slug in sorted(idx):
+        fm, _ = split_fm(pages[slug + ".md"])
+        if inline_list(fm, "aliases"):
+            continue
+        title = idx[slug]["title"]
+        toks = len(title.split())
+        # A multi-word title is abbreviated in sources; a one-word title is
+        # already unfindable for a different reason. Both need aliases, and the
+        # first kind is where a scan is silently returning a false negative.
+        rows.append((0 if toks > 1 else 1, -idx[slug].get("limit", 0), slug, title, toks))
+    rows.sort()
+    for kind, neglim, slug, title, toks in rows:
+        tag = "multi-word title, likely abbreviated in sources" if kind == 0 else "single token"
+        lim = -neglim
+        print("  %-52s %-34s %s%s" % (slug[:52], title[:34], tag,
+                                      ("  ** %d self-limit claim(s) **" % lim) if lim else ""))
+    print("\n%d page(s) carry no aliases: — the index can only match their exact title"
+          % len(rows))
+    return 0
 
 
 def cmd_scan(argv):
     pages = load_pages()
     idx = build_index(pages)
     compiled, owner = compile_matcher(idx)
+
+    show_low = "--low" in argv
+    argv = [a for a in argv if a != "--low"]
+    against = None
+    if "--against" in argv:
+        i = argv.index("--against")
+        if i + 1 >= len(argv):
+            print("scan: --against needs a corpus path", file=sys.stderr)
+            return 1
+        corpus = argv[i + 1]
+        if corpus not in CORPORA:
+            print("scan: no reader for %s\n  readable: %s"
+                  % (corpus, ", ".join(sorted(CORPORA))), file=sys.stderr)
+            return 1
+        against = [corpus]
+        argv = argv[:i] + argv[i + 2:]
+
     targets = []
     if argv and argv[0] == "--all":
         targets = [s for s in sorted(idx) if s.startswith("wiki/self/twitter")]
+    elif argv and argv[0] == "--queue":
+        # The campaign queue: pages that state a limit about their own evidence,
+        # loudest first. Requires --against, because the point of the queue is
+        # to check a page against a corpus it does NOT already cite.
+        if not against:
+            print("scan --queue: needs --against <corpus> — the queue exists to "
+                  "check a page against a corpus it does not already cite",
+                  file=sys.stderr)
+            return 1
+        n = int(argv[1]) if len(argv) > 1 and argv[1].isdigit() else 25
+        scored = []
+        for slug, meta in idx.items():
+            if not meta.get("limit"):
+                continue
+            if under_moratorium(pages[slug + ".md"]):
+                continue
+            fm, _ = split_fm(pages[slug + ".md"])
+            if against[0] in inline_list(fm, "sources"):
+                continue          # already cites it; ordinary scan covers that
+            scored.append((-meta["limit"], slug))
+        targets = [s for _, s in sorted(scored)][:n]
+        if not targets:
+            print("scan --queue: nothing eligible for %s" % against[0])
+            return 0
     elif argv:
         for a in argv:
             s = a[:-3] if a.endswith(".md") else a
@@ -365,18 +604,106 @@ def cmd_scan(argv):
                 return 1
             targets.append(s)
     else:
-        print(__doc__.split("Why this exists")[0])
+        print(USAGE)
         return 1
-    total = 0
+
+    total, skipped, refused = 0, 0, 0
     for slug in targets:
-        hits = scan_page(slug, pages, idx, compiled, owner)
+        if under_moratorium(pages[slug + ".md"]):
+            print("== %s — REFUSED: standing directive in CLAUDE.md. This tool "
+                  "hands out pages to write edges onto; that record does not "
+                  "advance." % slug)
+            refused += 1
+            continue
+        _m = mentions_moratorium(pages[slug + ".md"])
+        if _m:
+            print("   ! this page names her %d time(s). Scanning it is fine; the "
+                  "directive governs what you WRITE — no new claim about her, "
+                  "on this page or any other." % _m)
+        hits = scan_page(slug, pages, idx, compiled, owner, against=against)
         if hits is None:
             print("== %s — cites no corpus this tool can read" % slug)
             continue
-        print("== %s" % slug)
-        total += render_hits(slug, hits, idx)
-    print("\n%d candidate edge(s) across %d page(s) — verify each by reading the rows above"
-          % (total, len(targets)))
+        if hits == "NONAMES":
+            print("== %s — SKIPPED: no unambiguous name to search for (a bare "
+                  "first name would match anybody)" % slug)
+            skipped += 1
+            continue
+        _fm2, _ = split_fm(pages[slug + ".md"])
+        _s2, _e2 = page_range(_fm2)
+        _scope = ""
+        if against:
+            _scope = ("  [against %s%s]"
+                      % (os.path.basename(against[0]),
+                         "" if (_s2 and _e2) else ", UNBOUNDED — page has no date range"))
+        print("== %s%s" % (slug, _scope))
+        total += render_hits(slug, hits, idx, show_low=show_low)
+    bits = []
+    if skipped:
+        bits.append("%d unscannable (no date range, or no unambiguous name)" % skipped)
+    if refused:
+        bits.append("%d refused under the standing directive" % refused)
+    tail = (", " + ", ".join(bits)) if bits else ""
+    print("\n%d candidate edge(s) across %d page(s)%s — verify each by reading "
+          "the rows above" % (total, len(targets) - skipped - refused, tail))
+    return 0
+
+
+def cmd_coverage(argv):
+    """Which readable corpora actually name a page, and how loudly.
+
+    Built after the first queue run, where ten of twelve pages came back with
+    the corpus silent on them. That is a correct and cheap answer, but paying
+    a full scan to get it is the wrong order of operations: matching a page to
+    the corpus that has something to say about it is the triage step, and this
+    is it. Rows, not candidates — cheap enough to run over the whole wiki.
+    """
+    pages = load_pages()
+    idx = build_index(pages)
+    only = [a for a in argv if not a.startswith("-")]
+    prefix = only[0] if only else "wiki/"
+    corpora = {rel: load_corpus(rel) for rel in sorted(CORPORA)}
+    rows = []
+    for slug in sorted(idx):
+        if not slug.startswith(prefix.rstrip("/")):
+            continue
+        txt = pages[slug + ".md"]
+        if under_moratorium(txt):
+            continue
+        fm, _ = split_fm(txt)
+        pats = [n for n, c in idx[slug]["names"] if c == "high"]
+        if not pats:
+            continue
+        start, end = page_range(fm)
+        rx = re.compile("|".join(
+            (re.escape(n.lower()) + r"\b") if n.startswith("@")
+            else (r"\b" + re.escape(n.lower()) + r"\b") for n in pats), re.I)
+        per = {}
+        for rel, data in corpora.items():
+            n = 0
+            for date, text, _u in data:
+                if start and date[:10] < start:
+                    continue
+                if end and date[:10] > end:
+                    continue
+                if rx.search(text):
+                    n += 1
+            cites = rel in inline_list(fm, "sources")
+            per[rel] = (n, cites)
+        best = max((v[0] for v in per.values()), default=0)
+        if best:
+            rows.append((best, slug, per, idx[slug].get("limit", 0)))
+    rows.sort(key=lambda r: (-r[3], -r[0]))
+    print("%-52s %6s %6s  %s" % ("page", "rows", "limits", "corpus (* = already cited)"))
+    for best, slug, per, lim in rows:
+        for rel, (n, cites) in sorted(per.items(), key=lambda kv: -kv[1][0]):
+            if n:
+                print("%-52s %6d %6d  %s%s"
+                      % (slug[:52], n, lim, os.path.basename(rel), "*" if cites else ""))
+    print("\n%d page(s) named by at least one readable corpus, "
+          "self-limit claims first" % len(rows))
+    print("An unstarred row is a page a corpus talks about and that does not "
+          "cite it — the crosslink queue proper.")
     return 0
 
 
@@ -455,13 +782,21 @@ def cmd_check(argv):
     return 0
 
 
-USAGE = """usage: wiki-crosslink <entities|scan|reciprocal|orphaned|check> [args]
+USAGE = """usage: wiki-crosslink <entities|coverage|scan|reciprocal|orphaned|check> [args]
 
-  entities [filter]     the strings a scan can look for
-  scan <page>|--all     unlinked entities inside a page's own date range
-  reciprocal [prefix]   typed edges whose target does not link back
-  orphaned              corpus-backed pages and their edge counts
-  check                 the reciprocal-debt banner (always exits 0)
+  entities [filter]          the strings a scan can look for
+  entities --missing         pages with no aliases: — the index's blind spot
+  scan <page>|--all          unlinked entities in a page's own cited corpora
+  scan --against <corpus>    ...against a corpus the page does NOT cite,
+                             filtered to rows that name the page itself
+  scan --queue [n] --against the campaign queue: pages that state a limit
+                             about their own evidence, loudest first
+       [--low]               include single-token name matches (mostly noise)
+  coverage [prefix]          which readable corpora name a page, and how often
+                             — the triage step, run this before scanning
+  reciprocal [prefix]        typed edges whose target does not link back
+  orphaned                   corpus-backed pages and their edge counts
+  check                      the reciprocal-debt banner (always exits 0)
 """
 
 
@@ -471,7 +806,7 @@ def main(argv):
         return 1
     cmd, rest = argv[0], argv[1:]
     fns = {"entities": cmd_entities, "scan": cmd_scan, "reciprocal": cmd_reciprocal,
-           "orphaned": cmd_orphaned, "check": cmd_check}
+           "orphaned": cmd_orphaned, "check": cmd_check, "coverage": cmd_coverage}
     if cmd not in fns:
         print(USAGE)
         return 1
