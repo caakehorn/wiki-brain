@@ -9450,3 +9450,58 @@ the four things now covers mentions as well as findings;
 is the only obligation in the repository with **no symptom** — a source that
 named forty things and got linked to three is indistinguishable from one that
 named three, from every surface that reports work.
+
+## [2026-09-04] ingest | self | @danfrank reply corpus (operator video transcription)
+
+**What was wrong:** the corpus held 2,718 originals against **22 replies**. That
+ratio is the archive's originals-only inclusion rule, not a usage pattern —
+`TWITTER_PULL.prompt` names it as the Tier 3 hole, *"the corpus has my monologue
+and none of my dialogue"* — and `wiki/self/twitter` stated the exclusion in its
+own words without ever stating its size.
+
+**The evidence:** an operator-supplied video of the @danfrank profile being
+scrolled. 288 blocks transcribed after directive exclusions: **255 replies, 33
+originals**. Dedup against `archive.jsonl` on normalised text: 89 already held
+(31%), **199 new (69%)**, of which 186 are replies. **The reply record goes
+22 → 208.** Filed to `raw/self/twitter/replies-video-2026-09-04/`.
+
+**The dating problem, and the reason it is a finding rather than an
+inconvenience.** The video has relative-age labels and no timestamps, so every
+row carries a band and `created_at: null`. The 89 overlaps make the label model
+testable against a source that has true dates: **81/89 = 91% land in band**, six
+miss by ≤7 days — and **two miss by over 400 days**. `@JimNorton "yuckamundo"`
+is labelled 8y and is truly 2014-10-16; `@whatdirt "another enormous thank you"`
+is labelled 13y and is truly 2014-10-31. **Two posts eleven days apart carry
+labels four and a half years apart.** That is label-to-post misalignment in the
+scroll, not rounding. So no row is dated by its label; a row reaches a year page
+only on a content anchor to a dated public event.
+
+**The 2025 question, answered in the negative.** The 1y band straddles the
+"collapse-year silence: 13 originals" that the wiki reasons from elsewhere.
+Every anchorable row in that band anchors to **November or December 2024** — the
+commutations, the pardons, the Huckabee appointment, the Mangione shooting.
+**Not one row anchors to any month of 2025.** The finding survives contact with
+199 new rows, which is a better reason to believe it than its absence was.
+
+**What changed:** new page `wiki/self/twitter/replies` — the reply is a
+different instrument from the original, and its modal move is the correction of
+a specific factual or definitional error, delivered without checking which side
+made it. That removes the standing sampling objection to
+`wiki/mind/synthesis/vertical-authority-skepticism`, which rested on posts he
+chose to broadcast. **The counter-evidence is on the page**: a large quantity of
+flat dismissal with no correction in it, distributed by no rule this source can
+measure, so the claim was narrowed to *when he engages the substance he corrects
+it symmetrically; he does not always engage the substance.*
+
+Written back to `wiki/self/twitter` (the omitted class, sized), `vertical-
+authority-skepticism` (new section + re-translated Reader's Digest twin),
+`calibrated-confidence`, `failure-to-launch` (the November 2012 O&A application
+was actually **submitted** — *"thanks, i just sent in an app"* — narrowing what
+went unanswered from the approach to the application), `twitter/2024`,
+`opie-and-anthony` (the Sandy week is a reply relationship, not fandom at a
+distance), and `people/alex-frank` (an open lead: `@alexgfrank` addressed as
+"pops", 2018-09-08, on a page whose `relationship_to_dan` is `unknown` and whose
+sources never included the archive).
+
+`excluded_under_directive: 5` — @Lo_weez rows, dropped at transcription, not
+summarised or counted into any band.

@@ -21,11 +21,11 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | | |
 |---|---|
-| Pages | 497 |
-| Pages touched in the last 14 days | 224 |
+| Pages | 498 |
+| Pages touched in the last 14 days | 226 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 49 |
-| Open gaps | 605 |
+| Open gaps | 610 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -35,7 +35,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | people | 175 |
 | interests | 96 |
 | mind | 78 |
-| self | 59 |
+| self | 60 |
 | timeline | 42 |
 | work | 15 |
 | meta | 12 |
@@ -47,7 +47,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | Status | Pages |
 |---|---|
-| active | 191 |
+| active | 192 |
 | stable | 166 |
 | closed | 101 |
 | archived | 29 |
@@ -55,7 +55,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-04** — 84 pages
+**2026-09-04** — 91 pages
   - connect | people | the handles were on the pages all along, and the guard could not see nine of them
   - connect | people | thirteen pages that counted half a conversation
   - connect | people | the estate's two hands, found by reading a conversation instead of a name
@@ -63,7 +63,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - site | meta | the Wikipedia-style reader is served again
   - connect | self, interests, health, mind, people | the twitter archive read back onto the pages it was always about
 
-**2026-09-03** — 33 pages
+**2026-09-03** — 28 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
   - ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
   - ingest | self | 2010 read in full — the corpus's most-cited date was computed from a train going the wrong way, and it survives anyway

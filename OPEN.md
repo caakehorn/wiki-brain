@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 49 |
-| Open gaps | 605 |
+| Open gaps | 610 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
 
@@ -528,7 +528,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/places/the-unpapered-address]]** — **The pre-2010 record is empty.** Full Sail housing (2008–2010) and everything before it are undocumented, so the rule is tested on sixteen years and not on a life. If the Florida period shows a conventional student lease, the pattern has a start date and the 
 - **[[wiki/places/the-unpapered-address]]** — **This page does not establish intent.** Whether the unpapered arrangements were preferred, accepted, or simply the only ones available at a $11,000–14,000 household income is not decidable from this material, and the three readings have very different implica
 
-### self (160)
+### self (165)
 
 - **[[wiki/self/ancestry]]** — 1. **The Harris paternal line.** Sadie Harris's father ("Harris" from Czechoslovakia) is the single biggest data gap. He contributed ~12.5% of Dan's DNA but is completely undocumented beyond a single datum. Research into Czech immigration records, census data,
 - **[[wiki/self/ancestry]]** — 2. **The maternal R0 haplogroup.** The origin of the R0 mitochondrial haplogroup on the maternal line is unexplained. It may indicate a distant Jewish, Middle Eastern, or Central Asian ancestor entering through the Van Voorhis, Conwell, or Thomas lines. Resear
@@ -690,6 +690,11 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/twitter/2013]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 - **[[wiki/self/twitter/2026]]** — Spreadsheet originals run through 2026-04-07. Later originals from the live scrape are on this page; days between scrape batches may still be missing and will be filled on later commits to this same branch.
 - **[[wiki/self/twitter/2026]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
+- **[[wiki/self/twitter/replies]]** — **No parent tweets.** Every reply here is one side of an exchange. Several rows are close to unreadable without the thing they answer, and are kept anyway. Tier 3 of `TWITTER_PULL.prompt` is the fix and remains unfilled.
+- **[[wiki/self/twitter/replies]]** — **No ids, no metrics, no URLs.** Nothing here can be merged into `archive.jsonl` by its dedup key. The 89 overlaps were matched on normalised text and the match method is recorded per row.
+- **[[wiki/self/twitter/replies]]** — **The selection rule of the video is unknown**, so the reply corpus's *shape* — which years, which interlocutors, how often — is not measurable from it. A per-year reply count remains a thing the corpus cannot state.
+- **[[wiki/self/twitter/replies]]** — **Four transcribed blocks merge several consecutive posts** and are kept unsplit rather than divided on a guess.
+- **[[wiki/self/twitter/replies]]** — **Five rows were excluded under the standing directive** and are recorded nowhere but as a count.
 
 ### timeline (81)
 

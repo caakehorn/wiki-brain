@@ -7,7 +7,7 @@ status: stable
 knowledge: earned
 importance: high
 date_created: 2026-08-22
-date_modified: 2026-09-03
+date_modified: 2026-09-04
 tags: [career, personality-profile, financial-stress, music-production, ai-collaboration]
 sources:
   - raw/self/dox-md/Honest assessment and value judgment analysis.md
@@ -88,6 +88,9 @@ connections:
   - page: wiki/interests/music/aliases/sloppp
     type: contradicts
     claim: "The one documented project that did not fail to launch: 29 releases in the last four months of 2013, 16 in September alone, sustained through 2014. What is missing is not output or follow-through but any external result — and the verdict against it was posted by its author in the hashtags of its own announcements."
+  - page: wiki/self/twitter/replies
+    type: evidenced-by
+    claim: "The November 2012 O&A internship approach was answered and the application actually submitted — 'thanks, i just sent in an app' follows the inquiry within days — narrowing what went unanswered from the approach to the application itself."
 ---
 
 # Failure to Launch — The Capability Audit
