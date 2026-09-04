@@ -54,7 +54,7 @@ tags: [ai-collaboration, nyc-era, financial-stress, relationships, addiction-rec
 
 **Data profile:** 254 events (highest in sample years). High relationship, financial, addiction/recovery subcats. Master CSV + operating confirm.
 
-**Key events (expanded):** Multiple dealers (Johnny +17243223678 etc), financial velocity (Cash App, ATM 1am runs); Annie shifts "I made it b"; per operating Dec 2018 deep cycle; Ally Lubin; mom "around when need money".
+**Key events (expanded):** Multiple dealers (Johnny +17243223678 etc), financial velocity (Cash App, ATM 1am runs); Annie shifts "I made it b"; per operating Dec 2018 deep cycle; [[wiki/people/ally-lubin|Ally Lubin]]; mom "around when need money".
 
 > **CORRECTED [2026-08-18]:** the clause above read *"mom borrow $750/wk."* The
 > rate does not exist and its direction is inverted. The corpus holds one $750

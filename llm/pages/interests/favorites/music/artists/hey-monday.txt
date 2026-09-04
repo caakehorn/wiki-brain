@@ -63,4 +63,4 @@ All dates, venues, cities, and notes below are taken from the source table and p
 > small room, and a band on the same Florida circuit. One night filed twice
 > under two names is the most economical reading of the two rows, but nothing
 > in the corpus states the BACKBOOTH bill, so the venue stays marked probable.
-> `wiki/self/twitter/2008` and `wiki/interests/concert-record/index`.
+> [[wiki/self/twitter/2008]] and [[wiki/interests/concert-record/index]].

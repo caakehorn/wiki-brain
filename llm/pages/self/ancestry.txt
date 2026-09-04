@@ -50,7 +50,7 @@ connections:
 
 # Ancestry (Hub)
 
-Dan Frank's ancestry is a multi-generational blend of Eastern European Jewish (Frank/Harris line from Russia and Austria), Anglo-American Protestant (Gillingham/Lewellen/Van Voorhis), and Appalachian-rooted families centered in southwestern Pennsylvania (Uniontown, Brownsville, Hopwood) and Pittsburgh. Several lines trace back to early 20th-century immigrants — notably David J. Frank from Russia and Sadie Harris from Austria — while others reflect long-standing Pennsylvania residents and professionals (e.g., Dr. George Dale Gillingham, DDS).
+Dan Frank's ancestry is a multi-generational blend of Eastern European Jewish (Frank/Harris line from Russia and Austria), Anglo-American Protestant (Gillingham/Lewellen/Van Voorhis), and Appalachian-rooted families centered in southwestern Pennsylvania (Uniontown, Brownsville, Hopwood) and Pittsburgh. Several lines trace back to early 20th-century immigrants — notably [[wiki/people/david-j-frank|David J. Frank]] from Russia and Sadie Harris from Austria — while others reflect long-standing Pennsylvania residents and professionals (e.g., Dr. George Dale Gillingham, DDS).
 
 This hub integrates two independent evidentiary streams:
 
@@ -66,7 +66,7 @@ Please see the following pages for detailed records and analysis:
 
 ## Summary of Findings
 
-The 23andMe data and the documentary record confirm each other at the population level. Dan is 99.7% European, with 21.4% Ashkenazi Jewish ancestry matching the known paternal Jewish immigrant line (David J. Frank from Russia, Sadie Harris from Austria) and 78.3% Northwestern European matching the known maternal lines (Gillingham, Lewellen, Shrum, Van Voorhis, Coldren, Thomas, Conwell) that have been rooted in Pennsylvania and West Virginia since the 1700s.
+The 23andMe data and the documentary record confirm each other at the population level. Dan is 99.7% European, with 21.4% Ashkenazi Jewish ancestry matching the known paternal Jewish immigrant line (David J. Frank from Russia, [[wiki/people/sadie-harris|Sadie Harris]] from Austria) and 78.3% Northwestern European matching the known maternal lines (Gillingham, Lewellen, Shrum, Van Voorhis, Coldren, Thomas, Conwell) that have been rooted in Pennsylvania and West Virginia since the 1700s.
 
 Within that broad confirmation, the genomic data introduces anomalies the paper trail cannot explain: a maternal mitochondrial haplogroup (R0) that is unusual for an ostensibly purely Appalachian Protestant line, a paternal Y-DNA haplogroup (R-Z93) more common in Central/South Asia than typical Ashkenazi populations, and a 0.2% Sub-Saharan African trace that has no documentary counterpart. The genomic data also refines what the paper trail suggests: the 21.4% Ashkenazi figure is slightly below the ~25% expected from one fully-Jewish grandparent, a variance that is within normal DNA recombination range but that could also indicate mixed ancestry in the Frank line or a non-paternity event.
 

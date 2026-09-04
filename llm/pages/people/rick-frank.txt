@@ -312,7 +312,7 @@ alone), roughly balanced in direction. It includes:
   2018).** When Dan asked for help navigating health insurance paperwork,
   Rick's reply carried genuine hurt: *"I don't feel that u respect or
   value my opinion... I would rather u let me be father than protector,
-  but u don't. I'm tired of u treating me... like Rod Banks or Fred Adams
+  but u don't. I'm tired of u treating me... like Rod Banks or [[wiki/people/fred-adams|Fred Adams]]
   [family financial/legal advisors]. U make it a point to keep me out of
   ur life."* Dan's later self-description of the same dynamic — being in
   the "advisor zone rather than the dad zone" — is Rick's own phrase,

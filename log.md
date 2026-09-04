@@ -1,3 +1,87 @@
+## [2026-09-04] lint | meta | the crosslink campaign had been counting a link that isn't one
+
+**The operator clicked `wiki/self/twitter/2026`, saw SLOPPP at the top of the
+page with no link, and asked what we were doing.** The answer is that two
+crosslink passes ran over that tree, reported it clean, and were wrong about
+what a link is.
+
+**All nineteen twitter year pages had zero body wikilinks. Between them they
+carry 161 typed edges.**
+
+**The mechanism.** `bin/build-site` linkifies `[[...]]` and nothing else. A page
+path written in backticks — `` `wiki/interests/music/overview` `` — renders as
+inert grey code: it looks like a reference, it sits where a reference goes, and
+it cannot be clicked. **161 such paths across 49 pages pointed at real
+entries.**
+
+**Why the instrument said the tree was clean.** `scan_page` built its
+already-linked set with `re.finditer(r'(wiki/[a-z0-9\-/]+)', txt)` over the
+whole page. That matches a backticked path, a `sources:` entry, a typed edge's
+own `page:` field, and a path named in passing — all counted as links. So every
+page that mentioned a path anywhere was reported as already linking it, and the
+scan returned *"nothing unlinked found"* for pages containing no link at all.
+Fixed: only a typed edge or a real `[[wikilink]]` counts now.
+
+**Typed edges are not links, and the campaign had been conflating them.** An
+edge is frontmatter — `CONNECTIONS_SPEC.md` machinery for synthesis, invisible
+on the rendered page. A wikilink is what a reader clicks. The twitter tree had
+161 of the first and none of the second, which is precisely a wiki that is
+navigable by the graph and not by a person.
+
+**Fixed:**
+
+- **153 backticked paths linkified** across 47 pages. Two generated pages
+  (`meta/open-questions`, `meta/recent-activity`) were skipped — their
+  generators emit the backticks and that is a generator fix, not a page fix.
+- **Seven alias links added** on the twitter tree — SLOPPP on 2013, 2014, 2015,
+  2016 and 2026, MOGZART and GRIPNOTIC on 2026. First narrative occurrence per
+  page only, never inside a quoted tweet, which is the ordinary wiki
+  convention. Single-token names score `low` in the matcher and are suppressed,
+  which is why SLOPPP was invisible to every automated pass.
+- **Twitter tree wikilinks: 0 → 104.** Every page now has between 2 and 8.
+
+**Two gates so it cannot come back**, in `bin/wiki-lint`:
+
+1. **A backticked path that resolves to a real page is an ERROR.** The fix is
+   mechanical, there is no case where such a path is better as code than as a
+   link, and a warning is exactly what let this stand. Generated pages exempt.
+   Verified by reintroducing the defect: 0 errors → 1, restored → 0.
+2. **A page over 4KB with typed edges and no wikilink is a WARNING** — the same
+   defect in its other form. Six pages currently, including
+   `synthesis/twitter-2024-cognitive-state`, `places/seven-springs` and
+   `self/concepts/claude-code`.
+
+**A second pass, from a better signal.** The backticked-path fix covered one
+class. It left the wider question: how many pages *name* something that has an
+entry and do not link it? The name-matcher is the wrong instrument for that —
+it knows titles and aliases, and 389 pages have no aliases, so it found almost
+nothing on the worst pages.
+
+**The high-precision signal is each page's own typed edges.** An edge is a
+curated, already-verified relationship. Where a page has an edge to X, names X
+in its prose, and does not link it, the link is owed and no judgement is
+needed: **87 such cases across 53 pages.**
+
+**58 links added across 36 pages**, first prose occurrence only, skipping
+blockquotes (verbatim quotes), headings, and any name that is ordinary English
+or a single token. 32 edge targets were left alone for having no linkable
+multi-word name — a page called `tom` cannot be linked from the word "tom"
+without linking every other Tom.
+
+**Substantial pages (>1.5KB) with zero wikilinks: 18 → 13.** The remainder are
+mostly pages whose edge targets are single-token names.
+
+**No `date_modified` bumped anywhere in this pass.** Adding a link moves no
+claim, and the staleness cascade this repository measured twice on 2026-09-04
+is a reason not to bump rather than an oversight — the same reasoning PR #261
+used for typed-edge direction fixes. Stale pairs unchanged.
+
+**What this says about the campaign.** Four sessions of crosslink work measured
+typed edges and never once asked whether a reader could click anything. The
+tool's own definition of "linked" was wide enough to include text that renders
+as code, and nothing else in the repository checked. `bin/wiki-lint` counts
+broken links and orphan pages; it had no notion of a page that links nothing.
+
 ## [2026-09-04] connect | people | 79 lines had been written about a 1,789-message thread
 
 **The second of the thirty-seven re-derivations.** `wiki/people/new-jim-shaffer`

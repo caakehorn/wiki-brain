@@ -189,7 +189,7 @@ a period ended, the alias record was not written to persuade anyone.
 
 ## Gaps
 
-- **The fourth name is not examined here.** `wiki/interests/music/aliases/mogged-up`
+- **The fourth name is not examined here.** [[wiki/interests/music/aliases/mogged-up]]
   is outside this page's `synthesizes:` list and its dates were not checked
   against the rule. If it breaks the pattern, this page is wrong and should be
   revised, not deleted.

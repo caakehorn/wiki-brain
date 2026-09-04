@@ -105,7 +105,7 @@ the same move the Node 6 thesis makes, applied to one storm instead of one
 generation.
 
 **He was not watching. He was publishing.** The 2012 line reads as an
-observer's aside and it was not one. `wiki/self/twitter/2012` shows the
+observer's aside and it was not one. [[wiki/self/twitter/2012]] shows the
 forty-eight hours around it as a continuous operation: a public-service notice
 to download podcasts before the power went (29 October), Grand Central's
 closure, the NYSE's first weather closure in twenty-seven years, a triage post
@@ -151,7 +151,7 @@ content"* — and is therefore a claim *about* the medium. The Balloon Boy day
 only demonstrates the habit; he watches the watching and never says that he is
 doing it. So the correction to the dating above is one-sided: **the habit is at
 least seventeen years old, the articulation stays in 2012, and the theory stays
-where this page put it.** `wiki/self/twitter/2009`.
+where this page put it.** [[wiki/self/twitter/2009]].
 
 So the honest statement is a split one: **the noticing is old and
 first-party; the theory built on it is recent and AI-assisted.** That is a

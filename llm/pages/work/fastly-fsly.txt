@@ -149,7 +149,7 @@ message corpus rather than through the period page. Nothing rederived.
 > which renders `wiki/**` into `public/wiki/`, parses this frontmatter for real.
 > A sweep found the same defect on two other pages
 > ([[wiki/people/jerad-friedline]], which was dropping `context-core`, and
-> `wiki/mind/psychosexual/developmental-origins`, which had an empty duplicate
+> [[wiki/mind/psychosexual/developmental-origins]], which had an empty duplicate
 > `connections:`); all three are fixed, and a lint rule is queued in
 > `BACKLOG.md`.
 

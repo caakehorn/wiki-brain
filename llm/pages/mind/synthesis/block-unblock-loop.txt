@@ -765,7 +765,7 @@ Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`, and
 below sources a claim this page already made about Dan's own cognitive
 architecture — the page's own "machine proof" section already named "an
 exhaustible Fe function" without sourcing it — using material already
-stated on this page and on `wiki/mind/profile/intp`. No new narrative,
+stated on this page and on [[wiki/mind/profile/intp]]. No new narrative,
 date, quote, or figure about Annie is introduced.
 
 | # | Register | Disposition |

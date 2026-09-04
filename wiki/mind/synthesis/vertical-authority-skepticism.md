@@ -279,7 +279,7 @@ found it later.
 
 The clearest single-year demonstration that this axis is prior to Dan's
 politics rather than downstream of them is 2011, six years before he engaged
-politically and nine before he adopted a label. `wiki/self/twitter/2011`
+politically and nine before he adopted a label. [[wiki/self/twitter/2011]]
 records eight political posts across the year, and every one is aimed at a
 vertical: Glenn Beck (*"DANGEROUS"*), the Iraq war budget measured against
 science funding, the monetary system (*"money=debt. debt=money"*), mounted

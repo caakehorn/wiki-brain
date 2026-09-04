@@ -188,7 +188,7 @@ The bootloader's reconstructed chronology, cross-checked against the message rec
 > living with Dan in Uniontown throughout the window the old chronology placed
 > her in Florida — "Alexis is sloshed" (Nov 30), "Helping lex leave" (Dec 1),
 > "Alexis only left yesterday" (Dec 2) — and stayed in Pennsylvania after moving
-> out. `wiki/people/alexis-armel` had additionally invented a "~mid-Nov 2015 Dan
+> out. [[wiki/people/alexis-armel]] had additionally invented a "~mid-Nov 2015 Dan
 > moves her to Florida" row by back-computing "2 weeks" from the message
 > timestamp; no source ever asserted it.
 >

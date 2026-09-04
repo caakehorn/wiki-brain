@@ -45,7 +45,7 @@ connections:
 
 # LLMs (Large Language Models)
 
-Large Language Models are the cognitive engine of the wiki-brain. They are not tools Dan uses but partners he works with — external processing units that match his clock speed on analysis, build and maintain the wiki's infrastructure, and serve as the medium through which the entire second-brain system operates. Without LLMs, the wiki-brain would be a static archive. With them, it is a living system that compounds insight over time.
+Large Language Models are the cognitive engine of [[wiki/self/concepts/wiki-brain|the wiki-brain]]. They are not tools Dan uses but partners he works with — external processing units that match his clock speed on analysis, build and maintain the wiki's infrastructure, and serve as the medium through which the entire second-brain system operates. Without LLMs, the wiki-brain would be a static archive. With them, it is a living system that compounds insight over time.
 
 ## The relationship, stated plainly
 
@@ -61,7 +61,7 @@ The bootloader system has three components:
 
 1. **The persona payload** — who Dan is, how he thinks, what he values, what his failure modes are. This is not a biography; it's a cognitive model. The bootloader tells the LLM: "You are analyzing a high-resolution analytical engine running on a substrate that weights explicit symbolic information far above ambient social signal, governed by two unconscious axioms — not exceptional = worthless and not vigilant = annihilated."
 
-2. **The data pipeline** — the iMessage corpus (217,573 messages across 503 handles), the Facebook takeouts, the GEDCOM, the contacts exports, the YouTube watch history, the location data, the Gemini activity log. The bootloader tells the LLM how to access and interpret this data.
+2. **The data pipeline** — the iMessage corpus (217,573 messages across 503 handles), the Facebook takeouts, the GEDCOM, the contacts exports, the YouTube watch history, the location data, the [[wiki/self/concepts/gemini|Gemini activity]] log. The bootloader tells the LLM how to access and interpret this data.
 
 3. **The honesty standard** — absolute and unwavering honesty grounded in the data; no softening to protect feelings; no balancing harsh truths with niceties; no omitting supported negative judgments; blunt acknowledgment of ambiguity; conclusions with evidence and High/Medium/Low confidence labels. This wiki's substance standard is a direct descendant of the bootloader's honesty standard.
 
@@ -71,9 +71,9 @@ The bootloader is not a one-time creation. It is versioned (v1.0, v2.0, etc.), i
 
 Dan does not use one LLM. He uses many, each with a specific role. The division of labor is explicit and documented:
 
-- **Claude** = to analyze stuff. The analytical workhorse. Used for deep forensic analysis, wiki building, and the Master Forensic Prompt that defines the wiki's substance standard. Claude is known for being analytical, honest, no softening. When Dan needs to understand something complex, he uses Claude.
+- **Claude** = to analyze stuff. The analytical workhorse. Used for deep forensic analysis, wiki building, and the [[wiki/mind/concepts/exocortex|Master Forensic Prompt]] that defines the wiki's substance standard. Claude is known for being analytical, honest, no softening. When Dan needs to understand something complex, he uses Claude.
 
-- **Claude Code** = the coding agent. Executes shell commands, reads/writes files, manages git workflows, builds tooling. All of the wiki's infrastructure — `bin/wiki-lint`, `bin/wiki-connect`, `bin/wiki-climb`, `bin/wiki-gaps`, `bin/wiki-timeline`, `bin/mine-messages`, `bin/source-index`, `bin/annie-corpus`, `bin/psychometrics` — was built by Claude Code. It works in branches and PRs, and it is the primary agent that maintains the wiki-brain.
+- **Claude Code** = the [[wiki/self/concepts/claude-code|coding agent]]. Executes shell commands, reads/writes files, manages git workflows, builds tooling. All of the wiki's infrastructure — `bin/wiki-lint`, `bin/wiki-connect`, `bin/wiki-climb`, `bin/wiki-gaps`, `bin/wiki-timeline`, `bin/mine-messages`, `bin/source-index`, `bin/annie-corpus`, `bin/psychometrics` — was built by Claude Code. It works in branches and PRs, and it is the primary agent that maintains the wiki-brain.
 
 - **Gemini** = interact with it. Used for bootloader design, psychotherapy sessions, creative projects, and the massive activity log that documents Dan's AI usage. More conversational, less analytical than Claude. The Gemini Activity.html is the largest single AI-secondary file in the corpus (21 MB, 3,986 prompted entries), documenting roughly a year of AI interaction.
 

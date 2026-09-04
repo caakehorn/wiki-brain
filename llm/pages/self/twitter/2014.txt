@@ -47,7 +47,7 @@ connections:
 
 # Twitter / X — 2014
 
-**The peak of SLOPPP, and the year Dan sided with Anthony Cumia.**
+**The peak of [[wiki/interests/music/aliases/sloppp|SLOPPP]], and the year Dan sided with Anthony Cumia.**
 
 Two things run through 2014 and they sit badly together. The music project
 reaches full professional shape — a Beatport remix contest, official-style
@@ -62,13 +62,13 @@ Unlike 2009–2013 there is no month-end fetch artefact here — 170 of 171 rows
 come from the operator export, and the shape of the page is the shape of the
 year. But the export is **not a proven census**: a backend fetch on 2026-09-02
 recovered a February 2016 tweet the export had missed
-(`wiki/interests/music/overview`), so it can drop rows. Absence on this page is
+([[wiki/interests/music/overview]]), so it can drop rows. Absence on this page is
 **good evidence and not conclusive evidence**, and the finding below is built to
 survive that: it rests on what he did post, not on what he did not.
 
 ## 4 July 2014, and a correction to the corpus's own account
 
-`wiki/interests/opie-and-anthony` and `wiki/mind/synthesis/2020-left-turn` both
+[[wiki/interests/opie-and-anthony]] and [[wiki/mind/synthesis/2020-left-turn]] both
 rest on a claim Dan made in **2022**:
 
 > *"while many O&A fans followed Anthony down the reactionary rabbit hole of
@@ -169,7 +169,7 @@ in the same month he was entering a Beatport contest and being thanked by other
 producers, which is the on/off self-verdict again. And the objection is not
 envy: it is that a famous performer is taking money from an audience for work
 he is not doing. That is the same structure as every other target on
-`wiki/mind/synthesis/vertical-authority-skepticism` — an authority whose claim
+[[wiki/mind/synthesis/vertical-authority-skepticism]] — an authority whose claim
 exceeds what it is delivering — applied here to his own field.
 
 ## Speculative unpaid work for a show he wanted into
@@ -207,7 +207,7 @@ pattern worth naming rather than dismissing.
 **22 August**: *"Did I see the Uniontown bank robbery suspects today? Or am I a
 self-absorbed, paranoid zilch? You decide."* — with a photograph. This
 continues the presence 2013 establishes and pushes it a year further, inside
-the window `wiki/self/location-history` records as having no address-level
+the window [[wiki/self/location-history]] records as having no address-level
 data.
 
 ## Texture
@@ -231,7 +231,7 @@ sleep and I'll have to buy this"*, 28 April; *"so deep bro"*, 17 June).
 > [[wiki/people/alexis-armel]], "The public register, and where it stops".
 
 An hour
-spent making *"Picasso style distortion edits on pictures of lil wayne"*
+spent making *"Picasso style distortion edits on pictures of [[wiki/interests/favorites/music/artists/lil-wayne|lil wayne]]"*
 (30 April, hashtagged `#weezyfpicasso`). A great-grandmother identified as
 *"the country club Queen Bee in 1960"* (27 May) — the second appearance of
 "country club" as a family self-image, after the 2009 line. *"Starting a post

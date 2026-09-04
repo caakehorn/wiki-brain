@@ -62,7 +62,7 @@ October he reports, from the office, *"Correction: I am a dog walker."*
 Against that, the thinking is at its most confident and most public. 2011 is
 where the argumentative move the corpus later calls the **adversarial
 historian** is running at full volume — thirteen years before the year
-`wiki/mind/synthesis/twitter-2024-cognitive-state` names it — and it is running
+[[wiki/mind/synthesis/twitter-2024-cognitive-state]] names it — and it is running
 almost entirely on religion and on vertical authority, not yet on economics.
 
 ## The move, in its purest specimen: 21 May 2011
@@ -123,8 +123,8 @@ seventy miles from where he grew up, four days after it broke.
 
 ## The 2011 politics are anti-authority, not yet left — and that is the finding
 
-`wiki/mind/synthesis/2020-left-turn` dates the democratic-socialist identity to
-August 2020, and `wiki/self/twitter/2009` establishes that the Republican
+[[wiki/mind/synthesis/2020-left-turn]] dates the democratic-socialist identity to
+August 2020, and [[wiki/self/twitter/2009]] establishes that the Republican
 identity was gone by November 2009. 2011 fills the middle, and what it shows is
 **not** an eleven-year drift leftward. It shows a fully-formed suspicion of
 vertical authority with no economic content whatsoever.
@@ -155,7 +155,7 @@ the easy version of his own position:
 > chance to live another day to fight in court."*
 
 He argues the procedural case rather than the innocence case, which is the
-harder and less satisfying one. This is `wiki/mind/synthesis/vertical-authority-skepticism`
+harder and less satisfying one. This is [[wiki/mind/synthesis/vertical-authority-skepticism]]
 at twenty-two: the objection is to the authority's claim to be certain, not to
 the outcome.
 
@@ -180,7 +180,7 @@ He is twenty-two, credentialed, in New York, and working for free. The joke on
 28 January — accepting a free record in place of money and finding it a fair
 trade for one afternoon — and the correction to it eight weeks later are the
 same person arriving at the obvious conclusion slowly and out loud, which is
-the shape `wiki/mind/synthesis/failure-to-launch` describes.
+the shape [[wiki/mind/synthesis/failure-to-launch]] describes.
 
 ## Irene: the middle instance of a three-point sequence
 
@@ -199,7 +199,7 @@ That gives the digital-witness thread three dated points rather than one:
 **Balloon Boy (2009) — the coverage as the subject; Irene (2011) — the storm
 consumed remotely and redistributed; Sandy (2012) — the observation finally
 stated as a claim about the medium.** The escalation is toward articulation,
-and `wiki/mind/synthesis/millennial-digital-witness` now has a curve instead of
+and [[wiki/mind/synthesis/millennial-digital-witness]] now has a curve instead of
 a single data point.
 
 ## The public forensic audit of a stranger, 27 February
@@ -245,7 +245,7 @@ playing... And I've finally hit level cap."*
 
 ## The tobacco quit did not hold, and that matters
 
-`wiki/self/twitter/2010` records 13 December 2010 as day one without tobacco,
+[[wiki/self/twitter/2010]] records 13 December 2010 as day one without tobacco,
 via an e-cigarette. On **10 January 2011** he posts *"1 week smoke free!"* —
 which dates a fresh start to roughly **3 January**, and therefore means the
 December attempt lasted at most three weeks before a relapse he never

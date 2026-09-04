@@ -43,7 +43,7 @@ connections:
 
 **Peak volume, and the densest single day in seventeen years.** 258 originals,
 and 23 of them land on **28 June**, the night of the first Biden–Trump debate.
-`wiki/mind/synthesis/twitter-2024-cognitive-state` reads this year as
+[[wiki/mind/synthesis/twitter-2024-cognitive-state]] reads this year as
 adversarial reality-testing disguised as political posting; this page carries
 the material that reading is built on, plus three things it does not: the
 debate night as a real-time record of a prediction failing, the Roman history
@@ -72,7 +72,7 @@ about replacing the candidate — and by 6 July he publishes a numbered *"list o
 facts about the facts on the ground as of 3:15am"* with an explicit probability
 attached: any replacement is *"25% at best"*.
 
-`wiki/meta/testimony-veracity` scores what Dan claims. This night is the
+[[wiki/meta/testimony-veracity]] scores what Dan claims. This night is the
 clearest specimen in the corpus of how he behaves when a claim of his is
 disproved immediately and publicly, and the answer is: he says so and moves on
 in the same hour. Set beside 2023's *"Fooled AGAIN by the fucking liberal
@@ -80,7 +80,7 @@ mirage"*, the pattern holds across at least two years.
 
 ## The Roman republic is a working instrument, not an interest
 
-`wiki/interests/roman-republic` records the 2024 reading binge and that it
+[[wiki/interests/roman-republic]] records the 2024 reading binge and that it
 started on YouTube — *"After I finished the @HistoriaCivilis Caesar/Octavian
 series, I started devouring the 'essential' books about the late Roman
 Republic"* (8 April), Dan Carlin's *Death Throes* praised for *"the
@@ -94,7 +94,7 @@ events**, unprompted and without explanation:
 - **5 June**, correcting a major publication: *"Writing an article for a major publication about republican Rome's second Civil War without knowing the difference between Iler…"*
 
 That is the *"historicize"* step
-`wiki/mind/synthesis/twitter-2024-cognitive-state` names, caught in the act and
+[[wiki/mind/synthesis/twitter-2024-cognitive-state]] names, caught in the act and
 sourced: the history is not a hobby running beside the politics, it is the
 vocabulary he reaches for when the politics get strange. And the direction of
 supply is documented — a YouTube series, then nine books, then the frame.
@@ -112,7 +112,7 @@ as material, never as subject) and it now spans retail (2012), an unpaid
 internship (2011), waiting tables (2022, 2023) and caddying, with no start
 dates, no employers and no duration for any of them.
 
-It also completes the golf thread. `wiki/self/twitter/2016` has him at the U.S.
+It also completes the golf thread. [[wiki/self/twitter/2016]] has him at the U.S.
 Open at Oakmont and reaching for *"foreclosure"* as the simile for the rough;
 2009 has *"country club status. bloated sense of self worth"*; 2014 has the
 great-grandmother as *"the country club Queen Bee in 1960"*. He was inside the

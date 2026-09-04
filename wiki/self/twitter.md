@@ -291,7 +291,7 @@ inference.
 > spreadsheet. The gig tweet of 7 February 2016 was live the whole time and
 > absent from both the spreadsheet and the scrape. The table now says so.
 >
-> The cost is wider than one row. `wiki/interests/music/overview` leaned on
+> The cost is wider than one row. [[wiki/interests/music/overview]] leaned on
 > "the 2017–2025 window is spreadsheet-complete, so the zero in it is a real
 > zero." That assurance and the 2016 claim rest on the same table. The zero may
 > still hold — the fetch found no counter-example in those years — but it can

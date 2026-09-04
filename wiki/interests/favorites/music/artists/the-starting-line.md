@@ -32,7 +32,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 
 ## Notes per appearance
 
-- **Sep 28 - Nov 23, 2005** — Nintendo Fusion Tour, Various (tour), Multiple cities. Confirmed tour window.
+- **Sep 28 - Nov 23, 2005** — [[wiki/interests/concert-record/festivals/nintendo-fusion-tour|Nintendo Fusion Tour]], Various (tour), Multiple cities. Confirmed tour window.
 
 ## Outside the tour bill
 

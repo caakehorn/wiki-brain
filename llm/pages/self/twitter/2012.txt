@@ -61,7 +61,7 @@ means.
 
 ## Sandy: not a remark about a storm, three days of running a wire service
 
-`wiki/mind/synthesis/millennial-digital-witness` rests on one line from
+[[wiki/mind/synthesis/millennial-digital-witness]] rests on one line from
 30 October 2012. The line is real and it is quoted correctly:
 
 > *"Sandy is like first true 'digital disaster'. Can't remember so much user
@@ -94,7 +94,7 @@ to voice support for the Romney-Ryan ticket."*
 
 ## The prior pipeline, named — and the ideological distance flagged from the start
 
-`wiki/mind/synthesis/2020-left-turn` documents the media pipeline that carried
+[[wiki/mind/synthesis/2020-left-turn]] documents the media pipeline that carried
 Dan leftward from 2020: the dirtbag left, BreadTube, Chapo, Seder. 2012
 documents **the pipeline he was on before it**, and the two are not adjacent:
 
@@ -117,7 +117,7 @@ departure *from*.
 > Rumsfeld 'lizard' bit, I'll be spending the rest of my day listening"*
 
 That sentence is ten years earlier than the 2022 account already on
-`wiki/interests/opie-and-anthony`, in which the fanbase following Anthony Cumia
+[[wiki/interests/opie-and-anthony]], in which the fanbase following Anthony Cumia
 rightward *"radicalized [us] to leftist politics"*. It establishes that the
 separation of the comedy from the politics was **explicit and conscious from
 the beginning**, not a retrospective tidy-up. He was never inside the ideology;
@@ -168,7 +168,7 @@ subscriptions he cannot afford) and moves his actual playing to Halo 4, DayZ,
 Slender and League of Legends.
 
 The Halo 4 sequence corroborates a finding already on
-`wiki/interests/video-games` from the other direction: *"just bough halo4 and
+[[wiki/interests/video-games]] from the other direction: *"just bough halo4 and
 ofc brought it home to 'open tray' error"* (8 November), *"it runs a LOT. But
 it's also 6 years old"*, and on the 10th *"alright homeslice. i bought a new
 xbox for halo."* A six-year-old console replaced inside 48 hours for one game.
@@ -191,7 +191,7 @@ in my current budget."*
 Four years after *"Really feels like life has started over now"* in Winter
 Park, the record shows a Pro Tools-certified audio engineer on a shop floor in
 Manhattan, and it shows it in an aside about customers rather than as a
-complaint. This is the material `wiki/mind/synthesis/failure-to-launch` is
+complaint. This is the material [[wiki/mind/synthesis/failure-to-launch]] is
 about, at its lowest documented point, and the tone is the finding: he does not
 mention it as a problem once all year.
 
@@ -202,8 +202,8 @@ mention it as a problem once all year.
 Then the check-ins move with him — Osso Buco on the Upper East Side, Josie's
 West, Le Pain Quotidien, New York Sports Club, the 9/11 Memorial — and by
 October he is *"up all night on upper east."* This dates the end of the
-424 Bedford Ave tenancy to the last days of March 2012 and corroborates
-`wiki/people/alexis-armel`'s description of it as a two-year run, to the month.
+[[wiki/places/424-bedford-ave|424 Bedford Ave]] tenancy to the last days of March 2012 and corroborates
+[[wiki/people/alexis-armel]]'s description of it as a two-year run, to the month.
 
 ## Politics: an Obama voter with a left-libertarian list, and no redistribution yet
 

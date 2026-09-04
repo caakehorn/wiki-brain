@@ -43,7 +43,7 @@ connections:
 **The corpus had his monologue and none of his dialogue, and the ratio was an
 artifact of the archive rather than a fact about the man.**
 `raw/self/twitter/archive.jsonl` holds **2,718 originals against 22 replies** —
-originals-only by its own inclusion rule, which `wiki/self/twitter` states in
+originals-only by its own inclusion rule, which [[wiki/self/twitter]] states in
 its own words: *"one wiki page per year, every retrieved original."* An
 operator-supplied video of his profile being scrolled, transcribed on
 2026-09-04, is **255 replies and 33 originals**. After dedup against the
@@ -122,11 +122,11 @@ And on Trump's golf, to an anti-Trump account:
 
 > *"Look I'm no trump fan and his record of lying about club tournament wins and general golf cheating is well established...but... he's broadly accepted to be an exceptionally good golfer for his age. Anyone can hit a bad shot"*
 
-`wiki/mind/synthesis/vertical-authority-skepticism` derives this from originals
+[[wiki/mind/synthesis/vertical-authority-skepticism]] derives this from originals
 and published negative results. The reply corpus is the same disposition with a
 target in front of it, and it settles a question the originals leave open: the
 skepticism is **not** aimed at a political direction. It fires on argument
-quality. `wiki/mind/concepts/calibrated-confidence` already records that he
+quality. [[wiki/mind/concepts/calibrated-confidence]] already records that he
 polices other people's calibration; here that is not a behaviour the corpus
 holds a few instances of, it is the dominant register of 186 rows.
 
@@ -175,7 +175,7 @@ against an audience that was there for the schadenfreude.
 
 ## What the new rows put on other pages
 
-- **The O&A internship was submitted.** `wiki/mind/synthesis/failure-to-launch`
+- **The O&A internship was submitted.** [[wiki/mind/synthesis/failure-to-launch]]
   cites the November 2012 approach as *"an unpaid internship application... 
   unanswered"*. The archive holds the two inquiry tweets of 2012-11-18; the new
   row holds the sequel — *"thanks, i just sent in an app. loved BWTS yesterday,
@@ -186,13 +186,13 @@ against an audience that was there for the schadenfreude.
   It's about 235 miles from Altoona to Manhattan. I'm sitting 25 blocks from
   where it happened"* — the UnitedHealthcare shooting of 4 December 2024, whose
   suspect was arrested in Altoona on 9 December. It is a first-person location
-  statement with a radius, and it is the kind of row `wiki/self/location-history`
+  statement with a radius, and it is the kind of row [[wiki/self/location-history]]
   is built from. It is **not** filed as an address here: "25 blocks" from a
   midtown site is a claim about distance, not a coordinate, and the direction is
   not stated.
 - **`@alexgfrank` is addressed as "pops".** *"tough week. hang in there pops"*,
   2018-09-08, already in the archive and cited on no page.
-  `wiki/people/alex-frank` carries `relationship_to_dan: unknown` and sources
+  [[wiki/people/alex-frank]] carries `relationship_to_dan: unknown` and sources
   that do not include the twitter archive. This is a lead, not a settlement —
   "pops" is used loosely — and it is recorded as one.
 - **The Scott Baio bit.** A four-row run in which he claims to hold *"the rights

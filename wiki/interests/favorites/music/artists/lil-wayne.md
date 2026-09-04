@@ -32,7 +32,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 
 ## Notes per appearance
 
-- **Apr 29 - May 1, 2011** — The Bamboozle 2011, New Meadowlands Stadium, East Rutherford, NJ. Festival edition. Lineup included Lil Wayne, Motley Crue, Taking Back Sunday, A Day to Remember.
+- **Apr 29 - May 1, 2011** — [[wiki/interests/concert-record/festivals/the-bamboozle-2011|The Bamboozle 2011]], New Meadowlands Stadium, East Rutherford, NJ. Festival edition. Lineup included Lil Wayne, Motley Crue, Taking Back Sunday, A Day to Remember.
 
 ## He had gone on record against him three months earlier
 
@@ -45,7 +45,7 @@ Fourteen weeks separate the two, and nothing in the archive marks a change of
 mind.
 
 This is worth keeping because it is the clearest small illustration of what
-`wiki/interests/concert-record/index` states as a principle: **the unit of
+[[wiki/interests/concert-record/index]] states as a principle: **the unit of
 attendance is the event, not the artist.** A festival ticket is a claim about a
 weekend, not an endorsement of everyone on the poster, and reading an artist
 page as a favorites list will get this backwards. A later, gentler mention on

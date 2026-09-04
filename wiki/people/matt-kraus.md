@@ -27,7 +27,7 @@ connections:
 
 # Matt Kraus
 
-Matt Kraus is Dan's closest documented childhood friend from the Seven Springs era. His family owned a condo a couple hundred feet from Dan's unit K2 in the Villages, and the two boys shared extreme-sports interests — aggressive inline skating and terrain-park skiing — throughout adolescence. Kraus appears across every major adolescent extreme-sports ritual the capture records: the Vans Skatepark birthday trips (2001–2003), the overlapping Seven Springs ski years, and four summers at Camp Woodward.
+Matt Kraus is Dan's closest documented childhood friend from the [[wiki/places/seven-springs|Seven Springs]] era. His family owned a condo a couple hundred feet from Dan's unit K2 in the Villages, and the two boys shared extreme-sports interests — aggressive inline skating and terrain-park skiing — throughout adolescence. Kraus appears across every major adolescent extreme-sports ritual the capture records: the Vans Skatepark birthday trips (2001–2003), the overlapping Seven Springs ski years, and four summers at Camp Woodward.
 
 ## The Vans Skatepark birthday trips
 
@@ -37,7 +37,7 @@ One year Dan literally insisted on buying the biggest LoveSac circular cushion t
 
 ## Camp Woodward
 
-Four summers of Dan's adolescence were spent at Camp Woodward in Pennsylvania. Matt Kraus and Nathan King attended for rollerblading the first three years; Dan attended all four. The first three years ran as rollerblading camp; the fourth year, a new ski camp was created at the same facility, which Dan attended instead. Woodward began and still operates as a gymnastics camp — massive rec-trampoline buildings — and the trampoline training was already Dan's primary summer ski training before the formal ski camp existed.
+Four summers of Dan's adolescence were spent at Camp Woodward in Pennsylvania. Matt Kraus and [[wiki/people/nathan-king|Nathan King]] attended for rollerblading the first three years; Dan attended all four. The first three years ran as rollerblading camp; the fourth year, a new ski camp was created at the same facility, which Dan attended instead. Woodward began and still operates as a gymnastics camp — massive rec-trampoline buildings — and the trampoline training was already Dan's primary summer ski training before the formal ski camp existed.
 
 On year three, Matt Kraus broke his arm trying a front flip on the outdoor concrete near the Cloud 9 park.
 

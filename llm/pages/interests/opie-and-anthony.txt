@@ -139,7 +139,7 @@ leftist politics."*
 >
 > And on **25 March 2014**: *"brilliant point re 'tranny' outrage. Minority
 > groups feel entitled to have at least 1 term ruled a slur."* 2014 is a
-> **spreadsheet-complete year** on `wiki/self/twitter/2014` — 170 of 171 rows
+> **spreadsheet-complete year** on [[wiki/self/twitter/2014]] — 170 of 171 rows
 > from the operator export — so the absence of any post expressing discomfort
 > is itself evidence, and the record is not merely silent but opposed.
 >
@@ -182,7 +182,7 @@ particularly malicious"* and warns against *"wokescoldery"* — but "it's just a
 joke" is the exact doctrine the show ran on, and he says he has left it.
 
 > **CORRECTED [2026-09-03] — March 2022 is not the earliest instance.** The
-> shift is dated five months earlier by `wiki/self/twitter/2021`. On
+> shift is dated five months earlier by [[wiki/self/twitter/2021]]. On
 > **26 October 2021**, during the Chappelle row, he wrote:
 >
 > > *"Lenny Bruce was arrested...not by 'the public', but by the state. Dave

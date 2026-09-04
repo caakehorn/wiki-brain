@@ -240,7 +240,7 @@ target — the loop may be signal, not noise.
 ## Gaps
 
 **The 127/110 exit-declaration figure used elsewhere in the wiki
-(`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`)
+([[wiki/mind/synthesis/block-unblock-loop]], [[wiki/mind/synthesis/attachment-trauma-bond]])
 does not fully reconcile with this page's own source material.**
 `MasterRecord_March16` and `CompleteAnalysis_Final` both describe "127
 false exits" but characterize the re-engagement rate as effectively
