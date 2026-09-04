@@ -3,7 +3,7 @@ domain: mind
 page_type: concept
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-20
+date_modified: 2026-09-04
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
@@ -29,6 +29,9 @@ related:
   - wiki/mind/synthesis/intake-constancy
 tags: [relationships, music-production, trauma-bond]
 connections:
+  - page: wiki/people/new-jim-shaffer
+    type: evidenced-by
+    claim: "The coefficient's first first-person instance, and its first statement of composition: 'you are 1 of 3 people that i actually would enjoy seeing / the other 2 people are my coke dealer and a hooker' (2019-10-20). Every other figure on this page is a computation over volume, which cannot distinguish a friendship from a transaction; his own census names three and classes two as paid."
   - page: wiki/mind/concepts/reassurance-architecture
     type: evidences
     claim: "Concentration tightening under load - 2025 is simultaneously the highest-volume year at 33,214 messages and the highest-concentration full year at 0.9576 - is why the verification load lands entirely on the one node the stakes concern rather than spreading across a network."
@@ -111,6 +114,38 @@ the same concentration appears in the creative, cognitive and evaluative
 domains, and the architecture it describes has no failover.
 
 The "Contact Gini" concept refers to the application of the Gini coefficient to measure the concentration of Dan's relational load. It quantifies the degree to which his relational and emotional inputs are routed through a statistically single external communication node, rather than being distributed across a broader social network.
+
+## SAID OUT LOUD 2026-09-04 — the coefficient's first first-person instance
+
+Everything below this line is computation. The 0.9601 is recomputed from
+105,405 handle-carrying rows; the 0.9576 is a per-year cut; DANMODEL reproduces
+the shape in reaction pairs. **The page's own summary of that work is *"this
+metric is no longer testimony; it is residue"*** — and it was right, and it left
+the concept with no instance of Dan describing the architecture himself.
+
+There is one. **2019-10-20, unprompted, closing the last exchange of a
+eighteen-month thread** ([[wiki/people/new-jim-shaffer]]):
+
+> *"you are 1 of 3 people that i actually would enjoy seeing"*
+>
+> *"the other 2 people are my coke dealer and a hooker"*
+
+**What this adds that no coefficient can.** A Gini says the distribution is
+concentrated. It cannot say what survives the concentration, because volume does
+not distinguish a friendship from a transaction — a dealer thread and a
+confidant thread are the same shape on the axis this page measures. Dan's own
+census names three people and classes two of them as paid. The residue gives the
+*degree*; this gives the *composition*, and the composition is worse than the
+number reads.
+
+**It is testimony and is treated as such.** One line, in a register aimed at a
+friend he is inviting to visit, on a night he is also selling New York to him —
+so it is exposed to performance in both directions, self-pity and bravado. What
+makes it worth the space is not that it is reliable but that it is *independent*:
+it was written in 2019 by somebody not measuring anything, and it lands on the
+same architecture a 2026 computation over 496 handles found.
+
+**It does not move the coefficient and nothing here is recomputed.**
 
 ## RECOMPUTED 2026-08-01 — the figure holds, the constancy does not
 

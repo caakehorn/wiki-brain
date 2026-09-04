@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-04
-497 pages, ~1,881,637 tokens.
+497 pages, ~1,888,525 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -472,6 +472,9 @@ synthesizes:
   - wiki/mind/concepts/acquisition-drive
 tags: [addiction-recovery, family, relationships, forensic-analysis, legal]
 connections:
+  - page: wiki/people/new-jim-shaffer
+    type: evidenced-by
+    claim: "A second dated cost figure, two years after the first and to an audience buying nothing: 'spent thousands on drugs' over 'a couple weeks' (2019-04-12) is >=~$143/day, consistent with the 2017 'well over $100 a day' and with ~1 g/day at his enforced $100/gram. Both figures have an upward incentive, so they narrow the band rather than settle it — but the arc's 3.5-7 g/day now has two independent points on the low side and none on the high. The same hour carries the only statement of the New York move as a chemical intervention: 'if i didnt move here when i did, rehab would have been in my future.'"
   - page: wiki/health/chemical-architecture
     type: component-of
     claim: "Cocaine is the stimulant layer of Dan's engineered substance stack — the 'CPU & RAM' atop a Suboxone 'chassis' — framed as a daily cognitive accelerant rather than a recreational drug."
@@ -694,6 +697,48 @@ batch into *"the Versace stuff"* and *"the Forever21 stuff"* and asking
 missing one: it makes every automated pass over this substance confidently
 wrong, which is exactly what happened — the first scan of the Vaughn thread
 reported four cocaine "mentions", all four of them golf balls and one idiom.
+
+### A second figure, two years later, to a different audience
+
+The section above rests on one number and names its own weakness: the audience
+was a prospective supplier and the error direction is upward. A second
+contemporaneous figure now exists, from a thread the same 2026-09-04 sweep
+opened ([[wiki/people/new-jim-shaffer]]), and it is not addressed to anybody
+selling anything.
+
+On **2019-04-12**, reciting a stand-up set he is writing to a childhood friend,
+the opening bit is:
+
+> *"i donated money to a friend (latie molchan) with cancer and spent a couple
+> weeks regretting it even though i **spent thousands on drugs** in that time"*
+
+**Arithmetic, stated so it can be argued with.** "A couple weeks" is ~14 days
+and "thousands" is ≥$2,000, which is **≥ ~$143/day** — consistent with the 2017
+*"well over $100 a day"* and still roughly **one gram a day** at the $100/gram
+price he enforced. Two independent figures, two years apart, two different
+audiences, landing in the same band.
+
+**They do not corroborate each other cleanly and the reason is worth stating.**
+The 2017 figure inflates to win a supplier; a self-incriminating comedy bit
+inflates because a bigger number is a better joke. **Both have an upward
+incentive, so agreement between them narrows the range without settling it.**
+What survives is that on two dated occasions two years apart, unprompted and to
+unrelated people, he put his own consumption at about a gram a day — against the
+3.5–7 g/day this page's arc asserts for the same period. The tension the section
+above declined to resolve is now the same tension with **two** points on the low
+side and none on the high.
+
+### And one line about the whole thing, from the same hour
+
+> *"no joke and between us if i didnt move here when i did, rehab would have
+> been in my future"* (2019-04-12)
+
+That is Dan treating the **New York move as an intervention** — not a career
+step or a relationship move but a chemical one, stated privately, in the middle
+of a conversation about money and comedy rather than about drugs. The corpus has
+no other statement of the move as a substance decision. In the same minutes he
+also states the rule he does keep: *"if you dont drink, and i mean like NEVER
+EVER drink, you avoid most problems. not drinking is the key."*
 
 ## The first measured night — 2026-08-30/31
 
@@ -9735,7 +9780,7 @@ domain: interests
 page_type: entity
 status: stable
 date_created: 2026-07-16
-date_modified: 2026-07-19
+date_modified: 2026-09-04
 sources:
   - "raw/self/dox-scan/Dan Profile.txt"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
@@ -9748,6 +9793,9 @@ related:
   - wiki/mind/profile/linguistic-profile
 tags: [nyc-era, personality-profile, digital-footprint]
 connections:
+  - page: wiki/people/new-jim-shaffer
+    type: evidenced-by
+    claim: "The written set, which this page had recorded only as an ambition: 'heres my comedy set so far' (2019-04-12) and three bits — the cancer-donation regret against 'thousands on drugs', millennials and call spoofing, and the bald-eagle story. Complete material, a stage name, and no stage."
   - page: wiki/mind/synthesis/interests-as-era-markers
     type: instantiates
     claim: "The dated 2019 NYC club run and the open-mic ambition are the New-York-era marker in the intake ledger — an obsession the earlier radio era spent a decade preparing."
@@ -9813,8 +9861,38 @@ The ambition to perform, not just watch, is documented across years:
   you doing stand up and using that story in a bit I swear I did."
 - **2019-04-02**, the same friend hands him a stage name: "Dude I came
   up with your comedy name for when u do standup/YouTube. It's **'Nad
-  Knarf'**" — "Dan Frank" reversed. Whether or not a set ever happened,
-  the persona got as far as a name.
+  Knarf'**" — "Dan Frank" reversed. The persona got as far as a name.
+
+> **THE SET EXISTED, AND HERE IS WHAT WAS IN IT [2026-09-04].** This section
+> closed on *"whether or not a set ever happened"*. Ten minutes after the
+> five-minute line quoted above, in the same 2019-04-12 exchange
+> ([[wiki/people/new-jim-shaffer]]), he types **"heres my comedy set so far"**
+> and lists three bits in order:
+>
+> 1. **The opener** — the money he donated to a friend with cancer, named as
+>    *"latie molchan"*, *"and spent a couple weeks regretting it even though i
+>    spent thousands on drugs in that time."*
+> 2. *"how millenials are awful and have too much tech power for how little
+>    humanity we have"*, worked through **call spoofing** as the example.
+> 3. *"the story about when i got my dick sucked before i hit puberty and earned
+>    the nickname bald eagle for 2 years"* —
+>    [[wiki/timeline/events/bald-eagle-cummings]].
+>
+> **What the material says about the ambition.** All three bits are
+> self-incriminating, and the opener is the most so: it puts his own drug
+> spending against a dying friend's fundraiser and invites an audience to judge
+> it. The third takes an adolescent sexual humiliation this wiki files as an
+> injury and makes it the closer. This is not somebody writing jokes about
+> airline food — the set is built entirely from the same self-auditing move
+> [[wiki/mind/synthesis/the-deferred-audit]] documents, and the audit is the
+> act.
+>
+> **What is still unknown is whether he ever performed it.** The corpus records
+> the resolution (2017-12-28), the plan (2018-03-09), the craft goal and the
+> written material (2019-04-12) and the stage name (2019-04-02) — and no stage.
+> That progression, complete up to the last step, is
+> [[wiki/mind/synthesis/failure-to-launch]]'s shape exactly, and this is the
+> best-documented instance of it in a creative domain.
 
 This fits the broader self-model: the same recursive, hyper-verbal,
 gallows-humor instinct that shows up as "black irony as a psychic
@@ -10869,7 +10947,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 497 |
-| Pages touched in the last 14 days | 229 |
+| Pages touched in the last 14 days | 232 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 49 |
 | Open gaps | 604 |
@@ -10902,7 +10980,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-04** — 100 pages
+**2026-09-04** — 103 pages
+  - connect | people | 79 lines had been written about a 1,789-message thread
   - connect | people | the handles were on the pages all along, and the guard could not see nine of them
   - connect | people | thirteen pages that counted half a conversation
   - connect | people | the estate's two hands, found by reading a conversation instead of a name
@@ -12477,8 +12556,8 @@ chart:
     - name: "Entries"
       points:
         "Translated": 28
-        "Major lane": 42
-        "Free lane": 40
+        "Major lane": 43
+        "Free lane": 39
         "Held (people)": 94
         "Too thin": 47
         "Withheld": 217
@@ -12518,8 +12597,8 @@ is arithmetic in `bin/wiki-plain`: 900 words is the boundary.
 
 | Lane | What is in it | Outstanding |
 |---|---|---|
-| `major` | entries of 900 words or more — the dense findings | 42 |
-| `free` | entries under 900 words, worked smallest first | 40 |
+| `major` | entries of 900 words or more — the dense findings | 43 |
+| `free` | entries under 900 words, worked smallest first | 39 |
 
 A further **94** eligible entries about other people are in
 neither lane. They are held back deliberately, pending a decision about
@@ -12570,7 +12649,7 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 
 ## Next up
 
-**major** — 42 outstanding
+**major** — 43 outstanding
 
 - [[wiki/self/twitter/2024]] (11186 words)
 - [[wiki/self/twitter/2010]] (11106 words)
@@ -12578,7 +12657,7 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 - [[wiki/self/twitter/2009]] (9061 words)
 - [[wiki/self/twitter/2022]] (8060 words)
 
-**free** — 40 outstanding
+**free** — 39 outstanding
 
 - [[wiki/work/caviar-courier]] (301 words)
 - [[wiki/interests/favorites/books/authors/adrian-goldsworthy]] (315 words)
@@ -12620,7 +12699,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-04 — 100 pages
+## 2026-09-04 — 103 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -12636,6 +12715,7 @@ simply listed.
 | [[wiki/interests/favorites/music/artists/the-starting-line]] | interests | — |
 | [[wiki/interests/food-and-diet]] | interests | **RE-CHECKED** — the-cool-metric gained a substantive section: the twitter archive shows the sorting metric run on a six-year live-in partner, with affection in the public register falling from 12 of 32 mentions in 20 |
 | [[wiki/interests/music/aliases/sloppp]] | interests | _(carries a GAP CLOSED from 2026-09-02)_ |
+| [[wiki/interests/stand-up-comedy]] | interests | — |
 | [[wiki/interests/the-office]] | interests | — |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
@@ -12645,6 +12725,7 @@ simply listed.
 | [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/mind/concepts/calibrated-confidence]] | mind | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/mind/concepts/chaos-preference]] | mind | **RE-CHECKED** — the-cool-metric gained a section showing the received-versus-sought sort aimed at an already-admitted person: a six-year partner whose public register goes ironic and then silent. This page's axis is  |
+| [[wiki/mind/concepts/contact-gini]] | mind | _(carries a REVISED from 2026-08-20)_ |
 | [[wiki/mind/concepts/the-cool-metric]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
 | [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | mind | — |
 | [[wiki/mind/synthesis/annual-volume-suz]] | mind | **RE-CHECKED** — suzanne-frank gained a section on six dated messages naming Judge Fred Adams, including her report of his death (2020-05-24). **No volume figure on this page is affected** — the messages were always i |
@@ -12702,6 +12783,7 @@ simply listed.
 | [[wiki/people/new-jim-shaffer]] | people | _(carries a REVISED from 2026-07-19)_ |
 | [[wiki/people/nick-mattie]] | people | — |
 | [[wiki/people/rick-frank]] | people | _(carries a CORRECTED from 2026-08-11)_ |
+| [[wiki/people/rob-orange]] | people | — |
 | [[wiki/people/rod-banks]] | people | **CORRECTED** — This page was written from 41 messages in the CSV export and attributed their one-sidedness to the export. The dox-scan dump holds the same thread at **92 messages — 51 Sent, 41 Received.** Dan's half |
 | [[wiki/people/sam]] | people | — |
 | [[wiki/people/shannon]] | people | — |
@@ -12909,12 +12991,11 @@ simply listed.
 | [[wiki/self/concepts/wiki-brain]] | self | **RE-CHECKED** — llm moved on 2026-08-21: Gemini's 'chicken nugget' passage was corrected off Dan's ledger, and the post-GPT-5 causation of ChatGPT's decline was marked untested. This page carries an edge claiming Cha |
 | [[wiki/work/au-zaatar]] | work | _(carries a REVISED from 2026-07-14)_ |
 
-## 2026-08-20 — 14 pages
+## 2026-08-20 — 13 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/legal/463-morgantown]] | legal | _(carries a CORRECTED from 2026-08-18)_ |
-| [[wiki/mind/concepts/contact-gini]] | mind | **REVISED** — This section says the June 2026 closure was comprehensive *"because no redundant support infrastructure was prepared."* The August 2026 exports show that is not quite true. Across August 18–19, 2026 — |
 | [[wiki/mind/concepts/document-fabrication]] | mind | — |
 | [[wiki/people/alexander-jackson]] | people | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address becoming a threat vector — Coles sending it to Dan unprompted on 2026-08-17 — and one typed edge. Re-read a |
 | [[wiki/people/arnu]] | people | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address as a threat vector and one typed edge. Re-read against the change; **no claim on this page is affected** an |
@@ -13277,7 +13358,7 @@ chart:
       points:
         "certain": 0.25
         "confident": 0.69
-        "hedged": 0.75
+        "hedged": 0.62
 sources:
   - testimony/events.jsonl
 connections: []
@@ -13297,11 +13378,11 @@ A single trust score would collapse two facts that behave differently. **Veracit
 
 | | value | n |
 |---|---|---:|
-| **Veracity** | **52 / 100** — +1.0 points on 31.0 weight | 10 |
-| **Calibration** | Brier 0.335, skill -0.34 vs a coin flip | 10 |
-| **Stated vs actual** | -0.30 | 10 |
+| **Veracity** | **51 / 100** — +1.0 points on 35.0 weight | 12 |
+| **Calibration** | Brier 0.323, skill -0.29 vs a coin flip | 12 |
+| **Stated vs actual** | -0.26 | 12 |
 
-Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 10 settled claims, not thousands.
+Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 12 settled claims, not thousands.
 
 ## What his confidence is actually worth
 
@@ -13309,32 +13390,32 @@ Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refut
 |---|---:|---:|---:|---:|
 | certain | 0.95 | 0.25 | -0.70 | 4 |
 | confident | 0.80 | 0.69 | -0.11 | 4 |
-| hedged | 0.60 | 0.75 | +0.15 | 2 |
+| hedged | 0.60 | 0.62 | +0.03 | 4 |
 
 ## Outcomes
 
 | outcome | n | meaning |
 |---|---:|---|
-| confirmed | 4 | independent evidence bears it out |
+| confirmed | 5 | independent evidence bears it out |
 | partial | 2 | the core holds, a material detail does not |
 | self_contradicted | 1 | he has given two accounts that cannot both be true |
-| refuted | 3 | independent evidence contradicts it |
+| refuted | 4 | independent evidence contradicts it |
 | unfalsifiable | 6 | checked, and the corpus cannot settle it — **scores zero, never negative** |
 
 ## By claim class
 
-Rates are shrunk toward the global 0.53 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
+Rates are shrunk toward the global 0.52 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
 
 | class | n | raw | shrunk | 95% CI on clean confirmations | dominant failure |
 |---|---:|---:|---:|---|---|
-| date | 4 | 0.50 | 0.51 | 15%–85% | displacement, rounding |
+| date | 5 | 0.40 | 0.45 | 12%–77% | displacement, rounding |
 | sequence | 3 | 0.50 | 0.51 | 6%–79% | compression, overreach |
-| location | 2 | 0.12 | 0.37 | 0%–66% | displacement, rounding |
+| location | 2 | 0.12 | 0.36 | 0%–66% | displacement, rounding |
+| quantity | 2 | 1.00 | 0.71 | 34%–100% | — |
 | duration | 1 | 1.00 | 0.64 | 21%–100% | — |
 | enumeration | 1 | 0.50 | 0.52 | 0%–79% | omission |
 | existence | 1 | 1.00 | 0.64 | 21%–100% | — |
 | other_state | 1 | 0.00 | 0.39 | 0%–79% | overreach |
-| quantity | 1 | 1.00 | 0.64 | 21%–100% | — |
 | self_state | 1 | 0.50 | 0.52 | 0%–79% | compression |
 
 ## Which way the errors run
@@ -13343,7 +13424,7 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 
 | slant | n |
 |---|---:|
-| neutral — the error carries no credit or discredit either way | 6 |
+| neutral — the error carries no credit or discredit either way | 8 |
 | flattering — the error, had it stood, would have reflected better on him | 1 |
 
 ## The record
@@ -13366,6 +13447,8 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 | t014 | Dan's continuous Suboxone regimen began on 17 February 2010. | date | certain | confirmed | wiki/self/twitter/2010 — 2010-02-17 20:07 UTC (15:07 New York): 'this is the most stressful day/decision of my life. nothing is making it easier.' Followed by 'planning the next 3 years of my life all day in muh head' (2010-02-18) and 'put my life on a treadmill. shape up or bust.' (2010-02-20). The obvious alternative referent is excluded: the Brooklyn move was decided on 2010-01-26 and described as good news either side of this day. LIMIT: he never names the decision, so this is a dated alignment on an independent same-day artifact rather than a clinical record. It is recorded as confirmed because the date he gave held up against evidence he did not write for the record and could not have been shaping. |
 | t015 | Dan was among the O&A fans repulsed by the racism at the time of the 2014 split, and that repulsion radicalized him to leftist politics. | self_state, sequence | confident | partial | wiki/self/twitter/2014 — 2014-07-04, one day after the firing: '@AnthonyCumia nothing but love and respect ant. Thanks for not selling your soul through this whole mess.' And 2014-03-25: '@AnthonyCumia brilliant point re "tranny" outrage.' 2014 is spreadsheet-complete (170 of 171 rows) and contains no post expressing discomfort. PARTIAL rather than refuted because 'we were radicalized' describes a process that can begin later than its cause; what is contradicted is the implied timing, not the eventual direction of travel, which the 2020 turn independently corroborates. |
 | t016 | Ron DeSantis will not challenge Donald Trump in the 2024 Republican primary. | other_state, sequence | certain | refuted | DeSantis filed and announced his candidacy on 2023-05-24. Dan acknowledged it the same day without pretending otherwise — 'Ron DeSantis is stupidly committing political suicide by moving ahead with a 2024 primary run' — restating the underlying analysis as a judgement about the decision rather than defending the prediction. |
+| t018 | Rob Orange died in 2013 | date | hedged | refuted | wiki/people/rob-orange — Lauryn's same-day reaction to the news, 2014-04-11, the corpus's only contemporaneous account of the death |
+| t019 | Fran's house, listed at 350000 dollars, will sell for between 250000 and 300000 | quantity | hedged | confirmed | Sale closed summer 2019 at $250,000 (operator testimony 2026-08-27, carried on wiki/people/danny-matthews) — the bottom of his stated range and $100,000 under the list price he was reacting to |
 
 ## What this ledger cannot see
 
@@ -14203,6 +14286,9 @@ sources:
   - raw/self/twitter/archive.jsonl
 tags: [personality-profile, forensic-analysis, digital-footprint]
 connections:
+  - page: wiki/people/new-jim-shaffer
+    type: evidenced-by
+    claim: "Supplies t018, the fourth 'early' date error and the one that makes the direction 4-0: asked when Rob Orange died he answers '2013?' against a contemporaneous 2014-04-11 anchor. Also t019, a confirmed forecast — 'i bet it goes between 250-3' on a house listed at 350, which sold at 250."
   - page: wiki/mind/synthesis/failure-to-launch
     type: supplies
     claim: "The strict re-derivation both rescues and bounds that page's strongest capability claim: 24 graded credences against 1 from 503 people survives a filter built to break it, while the calibration test it recommended turns out to have a resolvable sample size of one, which resolved false."
@@ -14483,6 +14569,61 @@ than it was — for this channel, on this behaviour, and not for the asymmetry.
 **What would settle it.** The Facebook Messenger and email exports, which are
 addressed to individuals and therefore *do* have an inbound half. Those remain
 the real test, exactly as the Prediction section says.
+
+## Accuracy is no longer untested — but read what was tested
+
+This page's own typed edge carries the caveat *"expression is measured while
+accuracy remains untested."* That has been true since the page was written and
+it stopped being true on **2026-09-02**, when
+[[wiki/meta/testimony-veracity|the testimony ledger]] began recording
+first-person claims with **the confidence he expressed** and adjudicating them
+against evidence. As of 2026-09-04 it holds **12 settled claims on 35.0 weight**:
+
+| | |
+|---|---|
+| Veracity | **51 / 100** — outcome value 0.52 |
+| Clean-confirmation rate | 19%–68% (95% Wilson) |
+| **Brier** | **0.323** |
+| **Skill vs a coin flip** | **−0.29** |
+| Stated-vs-actual gap | **−0.26, over-confident** |
+| The `certain` band | says 0.95, **is 0.25** (n=4) |
+| The `confident` band | says 0.80, is 0.69 (n=4) |
+
+**The headline is that his confidence is not currently informative** — a Brier
+worse than chance means a reader who inverted his certainty would have done
+better than one who trusted it — **and that the failure is concentrated in the
+`certain` band**, which is exactly backwards from what a well-calibrated
+grader looks like.
+
+### The population is not the same one, and the difference is the whole caveat
+
+**This page is about a specific verbal habit**: 43 instances of a *numeric*
+probability attached to an assertion in a text message, against 2 in 110,944
+inbound. **The ledger scores a different set**: first-person claims of any kind,
+with confidence recorded on a four-band ordinal scale (`certain`/`confident`/
+`hedged`/`unsure`) assigned at record time. The two overlap — both are him
+signalling how sure he is — and they are not the same population, so **the
+ledger does not settle this page's claim.** What it does is remove the excuse
+that no measurement is possible, and supply the first one that exists.
+
+**And n is small.** Twelve settled claims, four in the `certain` band. A Brier
+on n=12 is a direction, not a verdict, and the ledger says so itself by
+refusing any class under its own minimum as a prior. **Nothing on this page is
+withdrawn.** The expression claim — that he does this and almost nobody else
+does — is residue and is untouched.
+
+### One directional finding is firm enough to subtract
+
+Across every settled claim the ledger holds, errors of placement run **one
+way**: **4× `early`, 0× `late`.** Where he misdates something he puts it
+*before* the truth, and there is not yet a single counterexample. The newest is
+`t018` — asked in December 2018 when [[wiki/people/rob-orange]] died, he
+answers *"2013?"* against a contemporaneous 2014-04-11 anchor.
+
+That is the useful kind of error, and this page is the right place to say so:
+**a bias with a direction is subtractable in a way an error rate is not.** A
+reader of this corpus who moves his undated recollections slightly later will be
+right more often than one who takes them as given.
 
 ## Gaps
 
@@ -14957,7 +15098,7 @@ domain: mind
 page_type: concept
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-20
+date_modified: 2026-09-04
 sources:
   - raw/self/dox-scan/Dan Profile.txt
   - raw/self/dox-scan/DanAnnie_MasterRecord_March16.docx
@@ -14983,6 +15124,9 @@ related:
   - wiki/mind/synthesis/intake-constancy
 tags: [relationships, music-production, trauma-bond]
 connections:
+  - page: wiki/people/new-jim-shaffer
+    type: evidenced-by
+    claim: "The coefficient's first first-person instance, and its first statement of composition: 'you are 1 of 3 people that i actually would enjoy seeing / the other 2 people are my coke dealer and a hooker' (2019-10-20). Every other figure on this page is a computation over volume, which cannot distinguish a friendship from a transaction; his own census names three and classes two as paid."
   - page: wiki/mind/concepts/reassurance-architecture
     type: evidences
     claim: "Concentration tightening under load - 2025 is simultaneously the highest-volume year at 33,214 messages and the highest-concentration full year at 0.9576 - is why the verification load lands entirely on the one node the stakes concern rather than spreading across a network."
@@ -15065,6 +15209,38 @@ the same concentration appears in the creative, cognitive and evaluative
 domains, and the architecture it describes has no failover.
 
 The "Contact Gini" concept refers to the application of the Gini coefficient to measure the concentration of Dan's relational load. It quantifies the degree to which his relational and emotional inputs are routed through a statistically single external communication node, rather than being distributed across a broader social network.
+
+## SAID OUT LOUD 2026-09-04 — the coefficient's first first-person instance
+
+Everything below this line is computation. The 0.9601 is recomputed from
+105,405 handle-carrying rows; the 0.9576 is a per-year cut; DANMODEL reproduces
+the shape in reaction pairs. **The page's own summary of that work is *"this
+metric is no longer testimony; it is residue"*** — and it was right, and it left
+the concept with no instance of Dan describing the architecture himself.
+
+There is one. **2019-10-20, unprompted, closing the last exchange of a
+eighteen-month thread** ([[wiki/people/new-jim-shaffer]]):
+
+> *"you are 1 of 3 people that i actually would enjoy seeing"*
+>
+> *"the other 2 people are my coke dealer and a hooker"*
+
+**What this adds that no coefficient can.** A Gini says the distribution is
+concentrated. It cannot say what survives the concentration, because volume does
+not distinguish a friendship from a transaction — a dealer thread and a
+confidant thread are the same shape on the axis this page measures. Dan's own
+census names three people and classes two of them as paid. The residue gives the
+*degree*; this gives the *composition*, and the composition is worse than the
+number reads.
+
+**It is testimony and is treated as such.** One line, in a register aimed at a
+friend he is inviting to visit, on a night he is also selling New York to him —
+so it is exposed to performance in both directions, self-pity and bravado. What
+makes it worth the space is not that it is reliable but that it is *independent*:
+it was written in 2019 by somebody not measuring anything, and it lands on the
+same architecture a 2026 computation over 496 handles found.
+
+**It does not move the coefficient and nothing here is recomputed.**
 
 ## RECOMPUTED 2026-08-01 — the figure holds, the constancy does not
 
@@ -27435,6 +27611,9 @@ synthesizes:
   - wiki/mind/profile/big-five-psychometrics
 tags: [financial-stress, forensic-analysis, family]
 connections:
+  - page: wiki/people/new-jim-shaffer
+    type: evidenced-by
+    claim: "Dates the expectation the eighteen-month wait was measured against: 'just found out they're cutting big distribution checks for us soon' (2018-04-24, twenty days after the death) against a first documented advance of 2019-10-12 — plus the position it was served from ('still have no access to my accounts via rick', 'will be the first real money i've ever had') and a self-named 'HIGH BURN RATE' running a year before the distribution."
   - page: wiki/people/rod-banks
     type: evidenced-by
     claim: "The pre-distribution flow is itemised in a thread this page had never read: five advances between 2019-10-12 and 2020-04-17 totalling $32,500, each authorised by Jason Adams and written by Rod Banks, against the single '2020-06-23, $10,000' line this page carried for the period. The spine's picture of the 2020 arrival as one event has $32,500 of dated flow in front of it."
@@ -27577,6 +27756,26 @@ as gifts and distributions: Fran's "$100/year" protocol and the NS7
 gift, summer wages driving parts deliveries, and ultimately the estate.
 
 The one moment the two lines cross in a single document is dated to the
+> **ADDED [2026-09-04] — the advances were promised three weeks after the
+> death and the first one arrived eighteen months later.** On **2018-04-24**,
+> two days into the [[wiki/people/new-jim-shaffer]] thread and twenty days after
+> Fran died, Dan writes: *"just found out they're cutting big distribution
+> checks for us soon so we have money while they settle the estate."* The first
+> advance the corpus documents is **2019-10-12** ([[wiki/people/rod-banks]]).
+> **Eighteen months separate the expectation from the money**, and this page's
+> account of the delay — "a function of the structure Adams sat at the centre
+> of" — now has a start date rather than only an end one.
+>
+> The same night he states the position the wait was served from:
+> *"still have no access to my accounts via rick"*, *"will be the first real
+> money i've ever had"*, *"never even seen a statement"* (2018-04-22). And in
+> **April 2019**, still before any documented advance, he names his own rate:
+> *"see right now i think the term for what im doing is 'HIGH BURN RATE'"*
+> alongside *"i spent 1500 on a pornstar escort last week"* — **spending at that
+> description a year before the distribution this page treats as the arrival.**
+> Whether the burn was funded by an undocumented advance, by Nemacolin income or
+> by debt is not established here and is the obvious next question.
+
 > **ADDED [2026-09-04] — five advances the spine did not have, and a
 > contradiction it must carry.** The [[wiki/people/rod-banks]] thread itemises
 > **$32,500** of estate advances between 2019-10-12 and 2020-04-17, each one
@@ -59455,7 +59654,7 @@ date_created: 2026-06-23
 date_modified: 2026-09-04
 date_range_start: 2018-04-22
 date_range_end: 2019-10-20
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/laurynashly_4_5jbvoqow/message_1.html"]
+sources: ["raw/self/dox-scan/all_imessages_complete_dump.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/laurynashly_4_5jbvoqow/message_1.html"]
 tags: [relationships, career, financial-stress]
 knowledge: mixed
 infobox:
@@ -59467,6 +59666,24 @@ infobox:
   first_contact: 2018-04-22
   known_for: "Jim Shaffer — 'not the only Jim Shaffer' in Dan's life, hence the 'new' contacts-card label — is a wealthy childhood fri"
 connections:
+  - page: wiki/mind/concepts/contact-gini
+    type: evidences
+    claim: "This thread supplies that concept's first first-person instance and its only statement of composition: 'you are 1 of 3 people that i actually would enjoy seeing / the other 2 people are my coke dealer and a hooker' (2019-10-20). Every other figure there is a computation over volume, which cannot tell a friendship from a transaction."
+  - page: wiki/interests/stand-up-comedy
+    type: evidences
+    claim: "That page recorded the ambition across four years and closed on 'whether or not a set ever happened'. This thread has the set: 'heres my comedy set so far' (2019-04-12) and three bits — the cancer-donation regret against 'thousands on drugs', millennials and call spoofing, and the bald-eagle story as the closer."
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: evidences
+    claim: "Dates the expectation the eighteen-month wait is measured against — 'they're cutting big distribution checks for us soon' (2018-04-24, twenty days after Fran's death) against a first documented advance of 2019-10-12 — and states the position it was served from: 'still have no access to my accounts via rick', 'never even seen a statement'."
+  - page: wiki/health/cocaine
+    type: evidences
+    claim: "The second dated cost figure and the only one addressed to somebody selling nothing: 'spent thousands on drugs' over 'a couple weeks' (2019-04-12), >=~$143/day, consistent with the 2017 figure and with ~1 g/day against an arc asserting 3.5-7. Also the corpus's only statement of the New York move as a chemical intervention."
+  - page: wiki/mind/concepts/calibrated-confidence
+    type: evidences
+    claim: "Supplies t018 and t019 to the testimony ledger, which between them make that page's 'accuracy remains untested' caveat obsolete: the fourth 'early' date error against zero 'late', and a confirmed market forecast made against his own mother's list price."
+  - page: wiki/people/rob-orange
+    type: evidences
+    claim: "Dan's own side of the December 2018 grief exchange, which the page had only from Jim's: 'rob is the only one that I get sad about', 'I honestly don't give a fuck about any of them other than him', against 'Half of our friends died lol'. He also misdates the death to 2013 — one year early, the third settled date claim in the corpus to run early."
   - page: wiki/people/annie-ulmer
     type: co-occurs
     claim: "Jim's enthusiastic, judgment-free reaction to learning about the Dan/Annie arrangement — disclosing his own interest in swinging and negotiating toward joining an encounter — is a friend-group data point on how normalized the arrangement was among Dan's peers."
@@ -59489,8 +59706,7 @@ connections:
 > read. Its handle was not declared in `infobox.handles:` either — it was
 > sitting in the page's own Corpus Dimensions table where no tool could use it —
 > so `bin/wiki-crosslink counts` could not see this page until the handle was
-> promoted the same day. **The prose below was written against the one-sided
-> thread and has not been re-derived.**
+> promoted the same day. **Re-derived 2026-09-04** — see "Dan's half" below.
 
 Jim Shaffer — "not the only Jim Shaffer" in Dan's life, hence the "new" contacts-card label — is a wealthy childhood friend from the same Fayette County high-school cohort, self-described as Dan's "longest standing friend on the planet" (`+14125139408`, 894 messages, April 2018 – October 2019). He splits time between a Florida golf community (Bay Hill) and Pennsylvania, collects high-end tour-issued golf equipment through a Titleist tour-van contact, and had just resolved a serious embezzlement accusation when the thread opens.
 
@@ -59517,6 +59733,131 @@ The friendship's emotional core surfaces around [[wiki/people/fran-coldren|Fran]
 > explicitly correcting Jim's "Wait... he's dead?" in the next message.
 
 **A note on tone:** the thread's humor throughout is dense with racial slurs, ethnic jokes, and shock-value dark comedy in the register of edgy 2010s internet humor. That register is described here rather than reproduced.
+
+
+## Dan's half — the re-derivation
+
+> **RE-DERIVED [2026-09-04].** The correction block above said the prose was
+> written against the one-sided thread. This section is the other side: **885
+> messages from Dan**, read in full. The account above is not wrong and is left
+> standing — it is a good account *of Jim*. It is also, almost entirely, a
+> record of what Jim said, which is what happens when a page is written from the
+> received half of a balanced conversation. Dan sent 885 and received 904. The
+> friendship was not a monologue.
+
+**What the thread turns out to be.** Jim is the person Dan tells things to. Not
+a golf friend who also hears about his life — the ratio is the finding: two
+bursts, **417 messages in April 2018 and 436 in May**, opening three weeks after
+[[wiki/people/fran-coldren|Fran]]'s death, and inside the first night Dan
+delivers a sequential, bullet-pointed narration of the entire Alexis–Shumar
+collapse, the estate, and his own household. He is not being drawn out. He is
+briefing somebody.
+
+### The four things this half contains that the page did not
+
+**1. A first-person statement of the concentration the corpus measures.**
+On **2019-10-20**, unprompted, at the end of the thread's last exchange:
+
+> *"you are 1 of 3 people that i actually would enjoy seeing"*
+>
+> *"the other 2 people are my coke dealer and a hooker"*
+
+[[wiki/mind/concepts/contact-gini]] measures Dan's contact distribution at a
+two-sided Gini of **0.9576–0.9601** and reproduces it in three independent
+units. Every one of those is a computation over volume. **None of them is Dan
+saying it**, and a coefficient cannot say what the surviving nodes *are*. This
+line does both: three people, and two of the three are transactional. It is
+the concept's first first-person instance and its first statement of
+composition.
+
+**2. A written stand-up set, and what was in it.**
+[[wiki/interests/stand-up-comedy]] documents the ambition across four years and
+closes it with *"Whether or not a set ever happened, the persona got as far as a
+name."* On **2019-04-12** he types *"heres my comedy set so far"* and lists
+three bits:
+
+- the money he donated to a friend with cancer — named, *"latie molchan"* —
+  *"and spent a couple weeks regretting it even though i spent thousands on
+  drugs in that time"*;
+- *"how millenials are awful and have too much tech power for how little
+  humanity we have"*, worked through call spoofing;
+- *"the story about when i got my dick sucked before i hit puberty and earned
+  the nickname bald eagle for 2 years"* —
+  [[wiki/timeline/events/bald-eagle-cummings]], which the wiki holds as an
+  adolescent humiliation and which he had made into an opener.
+
+A set existed. **Its first bit is a joke at his own expense about drug spending
+against a friend's cancer**, which is the same self-auditing instinct
+[[wiki/mind/synthesis/the-deferred-audit]] documents, pointed at himself and
+written for an audience.
+
+**3. The estate money was promised within three weeks of the death and arrived
+eighteen months later.**
+**2018-04-24**, two days into the thread:
+
+> *"just found out they're cutting big distribution checks for us soon so we
+> have money while they settle the estate"*
+
+The first advance [[wiki/people/rod-banks]] documents is **2019-10-12**. Between
+that expectation and that check are eighteen months, and the same night he
+states the position it was set against:
+
+> *"still have no access to my accounts via rick"* · *"will be the first real
+> money i've ever had"* · *"never even seen a statement"* (2018-04-22)
+
+**4. He names his own spending rate, and the drug figure is independent of the
+one already on the record.**
+On **2019-04-12**: *"see right now i think the term for what im doing is 'HIGH
+BURN RATE'"*, *"its why i spent 1500 on a pornstar escort last week"*, and the
+comedy bit's *"thousands on drugs"* over a couple of weeks. Then, in the same
+hour, the sentence the health pages did not have:
+
+> *"no joke and between us if i didnt move here when i did, rehab would have
+> been in my future"*
+
+and a stated rule that survives everything around it: *"if you dont drink, and i
+mean like NEVER EVER drink, you avoid most problems. not drinking is the key."*
+
+### The grief exchange is his, not only Jim's
+
+The page credits Jim with the December 2018 register drop. Dan's half of the
+same conversation is where the differential sits:
+
+> *"But really...rob is the only one that I get sad about"*
+> *"I honestly don't give a fuck about any of them other than him"*
+> *"Half of our friends died lol"* · *"Doesn't it feel like...all of this should
+> have been a bigger deal"*
+
+And the DXM years in his own account — *"we ALL ate a bottle of roburussin,
+each"*, *"our vision was SO FUCKED you literally couldn't see it in the air"*,
+*"We would TRIPLE the speed limit driving to Tom petty concerts which we had no
+tickets to, nor would we attend"* — closing on **"I honestly look back on those
+years as like / The most fun I ever had in my life"** (2018-12-09). That is a
+dated evaluative verdict on the era
+[[wiki/timeline/events/robotussin-s-last-dance]] records, delivered at 33.
+
+> **He gets the year wrong, and the direction is the one to watch.** Asked when
+> Rob died he answers *"What year did he die / 2013?"*.
+> [[wiki/people/rob-orange]] dates it to **April 2014**. One year early, in a
+> thread where he is otherwise recalling the period in fine detail — and the
+> third settled date claim in the corpus to run **early** rather than late.
+> Recorded as testimony rather than corrected in passing.
+
+### What Dan's half does *not* change
+
+The embezzlement account, the golf-equipment expertise, the Bay Hill and
+tour-van material and the wealth signals are Jim's and are unaffected — Dan's
+side of those is mostly listening, agreeing and asking. **The page's account of
+Jim stands.** What it lacked was any account of the person on the other end,
+and the omission was structural rather than editorial: 79 lines had been written
+about a 1,789-message thread because only 904 of those messages had been read.
+
+> **Held out under the standing directive in `CLAUDE.md`.** A large share of
+> Dan's half in April 2018 is narration about Annie — the household, the
+> arrangement, the camming. None of it is written here, extended, or quoted
+> beyond what the wiki already holds. That is a stop on the record advancing,
+> not a judgement that the material is uninteresting, and it is the reason this
+> section is shorter than the thread would otherwise support.
 
 ## Corpus Dimensions
 
@@ -60532,7 +60873,7 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-07-19
-date_modified: 2026-07-19
+date_modified: 2026-09-04
 date_range_start: 2013-03-26
 date_range_end: 2018-12-09
 sources:
@@ -60546,6 +60887,9 @@ infobox:
   relationship_to_dan: friend
   known_for: "High-school-era Uniontown friend; died April 2014, suspected opioid overdose, cause never confirmed in the corpus; mourned years later by both Dan and Jim Shaffer as the one loss among the cohort that actually hurt"
 connections:
+  - page: wiki/people/new-jim-shaffer
+    type: evidenced-by
+    claim: "Dan's half of the December 2018 exchange, which this page had only from Jim's side: 'rob is the only one that I get sad about', 'I honestly don't give a fuck about any of them other than him', set against 'Half of our friends died lol'. The grief is explicitly differential rather than general. In the same exchange he misdates the death to 2013, a year early against the contemporaneous 2014-04-11 anchor."
   - page: wiki/people/new-jim-shaffer
     type: co-occurs
     claim: "Jim's Dec 2018 remembrance — 'Rob and I would talk on the phone and laugh till we cried for 2 hours at a time, 5 days a week' — and the Tom Petty minivan story are the corpus's second independent account of the friendship, four years after his death."
@@ -60561,6 +60905,22 @@ connections:
 ---
 
 # Rob Orange
+
+> **ADDED [2026-09-04] — the grief is differential, and Dan says so.** This
+> page had Jim's side of the December 2018 remembrance. Dan's half was in the
+> unread half of the same thread ([[wiki/people/new-jim-shaffer]]) and it is
+> more specific than mourning: *"But really...rob is the only one that I get sad
+> about"*, *"I honestly don't give a fuck about any of them other than him"* —
+> said in a conversation whose surrounding line is *"Half of our friends died
+> lol"*. Among a cohort with multiple deaths, he names exactly one as costing
+> him anything, and dismisses the rest in the same breath.
+>
+> **He also gets the year wrong.** Asked when it happened he answers *"What year
+> did he die / 2013?"* — one year early against the 2014-04-11 anchor this page
+> holds from Lauryn's same-day reaction. Recorded in
+> [[wiki/meta/testimony-veracity|the testimony ledger]] rather than corrected in
+> passing, because the direction matters: it is the third settled date claim in
+> the corpus to run **early**.
 
 Rob Orange was a Uniontown high-school-era friend who died on or
 around April 11, 2014 — the one loss in Dan's cohort that, years
@@ -104231,7 +104591,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,702 events** across **80 years** (1796–2027), drawn from **387 pages**. Tier 1 717 · Tier 2 453 · Tier 3 2,532.
+**3,717 events** across **80 years** (1796–2027), drawn from **387 pages**. Tier 1 721 · Tier 2 455 · Tier 3 2,541.
 
 ## What counts as an event here
 
@@ -105973,7 +106333,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2013-11-29** — The silence begins on 29 November 2013, roughly three months *before* the March 2014 eviction of the first account and more than nine before the window of the second.  
   ↳ [[wiki/people/alexis-armel]] · What this does not establish, stated because it is the tempting move
 - · **2013-11-29** — bond switch 2015 — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **December 2013** — The Diary of Dan Frank* is an autobiographical claim attached to a trap mix; *Betty Draper* and *A BRIEF HISTORY OF TIME AND BASS* are the same pun-on-a-cultural-object habit the office documents running on television; *helterskelter: race riot music* is a nineteen-sixties reference nobody in that…  
   ↳ [[wiki/interests/music/aliases/sloppp]] · The titles are a source in their own right
 - · **December 2013** — 2 Chainz – Netflix ft. Fergie (SLOPPPED N SCREWED Rework) — Rework (Twitter)  
@@ -106029,6 +106389,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - · **2014-04-10** — Gladiator – Assembly Line (SLOPPP Snazzy Bounce Edit) — Edit  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
+- ★ **2014-04-11** — t018 — Rob Orange died in 2013 — date — hedged — refuted  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
 - ★ **2014-04-11** — The thread opens on April 11, 2014, the day news broke that Rob Orange had died.  
   ↳ [[wiki/people/lauryn-ashly]] · Rob Orange's death, in real time
 - ★ **2014-04-11** — Rob Orange was a Uniontown high-school-era friend who died on or around April 11, 2014 — the one loss in Dan's cohort that, years later, both he and Jim Shaffer independently describe as the one that actually hurt, in a friend group otherwise known for treating its own losses as dark-comedy…  
@@ -107417,9 +107779,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **May 2017** — What can be said is narrower and firmer than the arc: **on one dated evening in May 2017 the man himself put the number at roughly a gram a day, and he priced grams at $100 in the same channel nine months later.  
   ↳ [[wiki/health/cocaine]] · The one dollar figure, and it disagrees with the arc
 - · **May 2017** — spatial behavior — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **May 2017** — location history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **May 2017** — Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two Nemacolin caddying seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a fellow caddie in 2017 who came back for 2018 as **assistant caddie master** — "I'm actually gonna be assistant caddie…  
   ↳ [[wiki/people/davey-fitzpatrick]] · Davey Fitzpatrick
 - · **May 2017** — Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose message thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — sparse check-ins that resurface every year or two, each one picking back up exactly where the last left…  
@@ -107628,7 +107990,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **January 2018** — The first is **0% confident** (January 2018) — the scale runs downward as well as upward, which an intensifier cannot do.  
   ↳ [[wiki/mind/concepts/calibrated-confidence]] · What it means
 - · **2018-01-06** — block unblock loop — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2018-01-06** — ← Rick — *"I'm tired of u treating me or thinking about me like Rod Banks or Fred Adams"  
   ↳ [[wiki/people/fred-adams]] · The contemporaneous record — sixteen dated rows nobody had read
 - · **2018-01-06** — And Rick put him in a category.** 2018-01-06, from Rick: *"I'm tired of u treating me or thinking about me like Rod Banks or Fred Adams.  
@@ -107805,6 +108167,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/jack-rusko]] · Texture
 - ★ **April 2018** — Annie and i really appreciate all you've done." Her April 2018 messages independently corroborate and sharpen the death date on fran death vigil, which flagged a contradiction between an April 1 and an April 4 death date — now resolved (April 1 = admission, April 4 = death), with her thread as…  
   ↳ [[wiki/people/marla]] · The final days
+- ★ **April 2018** — Not a golf friend who also hears about his life — the ratio is the finding: two bursts, **417 messages in April 2018 and 436 in May**, opening three weeks after Fran's death, and inside the first night Dan delivers a sequential, bullet-pointed narration of the entire Alexis–Shumar collapse, the…  
+  ↳ [[wiki/people/new-jim-shaffer]] · Dan's half — the re-derivation
 - ★ **April 2018** — Fran's death vigil, April 2018, told to  
   ↳ [[wiki/people/rick-frank]] · The relationship, corrected: warm, high-volume, and asymmetric rather than silent
 - ★ **April 2018** — Fran dies; handles the estate, memorial and house clearance alone  
@@ -107927,6 +108291,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/new-jim-shaffer]] · The embezzlement case
 - · **2018-04-22** — On learning about the Dan/Annie arrangement (April 22, 2018), Jim reacts with detailed, enthusiastic curiosity rather than judgment, disclosing his own interest in swinging (a dedicated "red room" at his townhouse, a wife he hasn't been able to persuade) and negotiating in explicit detail toward…  
   ↳ [[wiki/people/new-jim-shaffer]] · The non-monogamy proposition
+- ★ **2018-04-24** — The estate money was promised within three weeks of the death and arrived eighteen months later.** **2018-04-24**, two days into the thread:  
+  ↳ [[wiki/people/new-jim-shaffer]] · The four things this half contains that the page did not
 - · **2018-04-27** — First inheritance cheque — Dan: *"i got my inheritance check from grandma today"  
   ↳ [[wiki/people/fran-coldren]] · What is now established, and from what
 - · **2018-04-27** — a Nemacolin caddie coworker — somewhere to sleep instead of paying for a hotel  
@@ -108196,7 +108562,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2018-11-05** — Photo: November 5, 2018 birthday-night scene** (taken from vlcsnap-2026-08-09-16h22m50s481.png)  
   ↳ [[wiki/timeline/events/annie-alexis-reunion-november-2018]] · Visual Atmosphere
 - · **2018-11-05** — suzanne frank personality assessment — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2018-11-05** — ← Suz — *"I'm going to have to go see judge Adams tomorrow because I'm not going to make it until my next closing"  
   ↳ [[wiki/people/fred-adams]] · The contemporaneous record — sixteen dated rows nobody had read
 - · **2018-11-05** — On **2018-11-05** she goes to him for money to cover an overdraft — *"I'm going to have to go see judge Adams tomorrow because I'm not going to make it until my next closing.  
@@ -108229,6 +108595,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/emaly-minerd]] · Master timeline
 - · **2018-11-30** — On November 30, 2018 he sends Chris a **traditional rose** reference image, wanting it placed near the existing forearm work; by December 20 Chris confirms it's "always do-able," and the thread ends there without a completed-session message.  
   ↳ [[wiki/self/tattoos]] · The sleeve ambition starts in Uniontown, not Brooklyn
+- ★ **December 2018** — The newest is `t018` — asked in December 2018 when rob orange died, he answers *"2013?"* against a contemporaneous 2014-04-11 anchor.  
+  ↳ [[wiki/mind/concepts/calibrated-confidence]] · One directional finding is firm enough to subtract
 - ★ **December 2018** — Annie/Alexis reunion.** A six-week recurring arrangement between Annie and Dan's ex, alexis armel — Alexis, days after Alexis's release from a year in prison. Opens with a skeptical, explicitly transactional framing (Dan describes Alexis as "a really useful tool"), escalates through a…  
   ↳ [[wiki/mind/psychosexual/arrangement-history]] · Timeline
 - ★ **December 2018** — He found her as an internet-famous figure in the mid-2000s emo-scene internet, spent a decade watching her from a distance (*"i've spent 10 years idolizing this girl i've never met as the epitome of whatever 'cool' is"*), paid a mutual friend $25 to introduce them in December 2018, and in the…  
@@ -108261,6 +108629,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/ally-lubin]] · The operating manual (AI-secondary)
 - · **December 2018** — Geography**: Primary service zone is Manhattan Upper East Side (76th St between 1st and 2nd Ave; also 55th St between 5th & 6th Ave; Brooklyn locations Nov-Dec 2018).  
   ↳ [[wiki/people/menore]] · Service Model & Operating Characteristics
+- · **December 2018** — The page credits Jim with the December 2018 register drop.  
+  ↳ [[wiki/people/new-jim-shaffer]] · The grief exchange is his, not only Jim's
 - · **December 2018** — Retrospective mourning  
   ↳ [[wiki/people/rob-orange]] · Corpus record
 - · **December 2018** — Due to the fact that I must have won more than I spent last month"* (Dec 2018).  
@@ -108293,6 +108663,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/emaly-minerd]] · Master timeline
 - · **2018-12-06** — offers friendship only  
   ↳ [[wiki/people/emaly-minerd]] · Master timeline
+- ◆ **2018-12-09** — And the DXM years in his own account — *"we ALL ate a bottle of roburussin, each"*, *"our vision was SO FUCKED you literally couldn't see it in the air"*, *"We would TRIPLE the speed limit driving to Tom petty concerts which we had no tickets to, nor would we attend"* — closing on **"I honestly…  
+  ↳ [[wiki/people/new-jim-shaffer]] · The grief exchange is his, not only Jim's
 - · **2018-12-09** — He's fucked." By December 9, 2018 the sentence expectation is life imprisonment.  
   ↳ [[wiki/people/steve-kezmarsky]] · The father's fall
 - · **2018-12-09** — Status at last mention  
@@ -108506,8 +108878,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/fred-adams]] · The contemporaneous record — sixteen dated rows nobody had read
 - ◆ **2019-04-12** — ← Suz — *"a 'Baker bought the bar' party at Adams new place and he's having a band"  
   ↳ [[wiki/people/fred-adams]] · The contemporaneous record — sixteen dated rows nobody had read
+- · **2019-04-12** — On **2019-04-12**, reciting a stand-up set he is writing to a childhood friend, the opening bit is:  
+  ↳ [[wiki/health/cocaine]] · A second figure, two years later, to a different audience
 - · **2019-04-12** — 2019-04-12:** "im just trying to develop a solid 5 minutes because  
   ↳ [[wiki/interests/stand-up-comedy]] · He tried to do it himself
+- · **2019-04-12** — A written stand-up set, and what was in it.** stand up comedy documents the ambition across four years and closes it with *"Whether or not a set ever happened, the persona got as far as a name."* On **2019-04-12** he types *"heres my comedy set so far"* and lists three bits:  
+  ↳ [[wiki/people/new-jim-shaffer]] · The four things this half contains that the page did not
+- · **2019-04-12** — He names his own spending rate, and the drug figure is independent of the one already on the record.** On **2019-04-12**: *"see right now i think the term for what im doing is 'HIGH BURN RATE'"*, *"its why i spent 1500 on a pornstar escort last week"*, and the comedy bit's *"thousands on drugs"*…  
+  ↳ [[wiki/people/new-jim-shaffer]] · The four things this half contains that the page did not
 - ◆ **2019-04-14** — shelbie breakiron — *$31 + $700* by Cash App, later *"$3700 and one amazon prime'd laptop"* — Dan → third party  
   ↳ [[wiki/mind/psychosexual/arrangement-history]] · Limb 2 first: the money runs the other way, in every instance
 - · **2019-04-14** — Two three-way sexual encounters between Dan, Annie, and Shelbie Breakiron, on the nights of **14 April 2019** (9pm–4am) and **17 April 2019** (2am–7am).  
@@ -108798,18 +109176,24 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
 - · **2019-10-12** — Estate advance, authorised by Jason Adams, written by rod banks — Rod Banks — $5,000  
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The chain, event by event
+- · **2019-10-12** — The first advance rod banks documents is **2019-10-12**.  
+  ↳ [[wiki/people/new-jim-shaffer]] · The four things this half contains that the page did not
 - · **2019-10-12** — $5,000** — *"I got in touch with Jason. I will write a check payable to you for $5000."  
   ↳ [[wiki/people/rod-banks]] · The estate advances, itemised — five checks nobody had counted
 - ★ **2019-10-14** — One substantive response exists in the whole record, and it is not sympathy.** On 2019-10-14, told the Pittsburgh funeral story in full, Ally answers: *"I'm just confused how neither of you had money because you always send me cash app statements with like thousands of dollars."* The disclosure was…  
   ↳ [[wiki/mind/concepts/reassurance-architecture]] · Where the record cuts the other way
 - ◆ **2019-10-20** — What the report stated as theory now has its documented instance: the **October 20, 2019 filmed MMF** with Bryan — a gay man whose first encounter with a woman was that night, and Dan's one and only bisexual act (oral), both category-crossings authored into a single scene (arrangement history…  
   ↳ [[wiki/mind/concepts/erotic-architecture]] · The three named mechanisms
+- · **2019-10-20** — 2019-10-20, unprompted, closing the last exchange of a eighteen-month thread** (new jim shaffer):  
+  ↳ [[wiki/mind/concepts/contact-gini]] · SAID OUT LOUD 2026-09-04 — the coefficient's first first-person instance
 - · **2019-10-20** — The October 20, 2019 encounter with Bryan matches the theory's specific prediction with unusual precision: Bryan, "a fully gay man," has his first sexual contact with a woman that night; Dan, who does not otherwise report same-sex contact anywhere in the corpus, has his only documented bisexual act…  
   ↳ [[wiki/mind/psychosexual/taboo-and-boundary-testing]] · The primary-source instance
 - · **2019-10-20** — The October 20, 2019 MMF with Bryan**,  
   ↳ [[wiki/people/ally-lubin]] · What he told her that he told no one else
 - · **2019-10-20** — Defining event  
   ↳ [[wiki/people/bryan-5088682461]] · Corpus record
+- · **2019-10-20** — A first-person statement of the concentration the corpus measures.** On **2019-10-20**, unprompted, at the end of the thread's last exchange:  
+  ↳ [[wiki/people/new-jim-shaffer]] · The four things this half contains that the page did not
 - · **2019-10-21** — A same-morning reaction, not previously documented, survives in a Facebook Messenger thread with Dan Polyak: at 2:52 AM on October 21, 2019, Dan calls Polyak specifically to share the news ("i thought you would be SO proud to know that i had my first experience with another guy"), and gives his own…  
   ↳ [[wiki/people/bryan-5088682461]] · Bryan (+15088682461)
 - · **2019-10-21** — At 2:52 AM on October 21, 2019, Dan calls Polyak specifically to share news of the previous night's encounter: "i thought you would be SO proud to know that i had my first experience with another guy." His own real-time assessment follows: "it was like...alright i guess. honestly i've never felt…  
@@ -108994,7 +109378,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2020-05-24** — And on **2020-05-24** at 07:24 she is the one who reports his death: *"I don't know if you will read this or not but Jsyk I found out last night, quite by coincidence, that judge Adams died several days ago."* The corpus has no other record of it.  
   ↳ [[wiki/people/suzanne-frank]] · Her channel is the only record of the man who held the money
 - · **2020-05-24** — annual volume suz — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2020-05-26** — Last exchange on **this handle** May 26, 2020 ("text Annie when ready");  
   ↳ [[wiki/people/menore]] · Timeline & Phases
 - ★ **June 2020** — whether contact continued past that point, and whether it survived the eventual end of the Dan/Annie relationship, is undocumented.  
@@ -110865,8 +111249,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/legal/463-morgantown]] · Timeline
 - · **June 2026** — 7-day vacate clause  
   ↳ [[wiki/legal/463-morgantown]] · Timeline
-- · **June 2026** — contact gini — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 14 pages
 - · **June 2026** — danielle onesi — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-18 — 13 pages
 - · **June 2026** — 337 Saratoga sale ($465k, Suz's transaction)  
@@ -111056,7 +111438,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-07-13** — Whether Target G is the same person as Tuquick is explicitly unresolved — an operator correction on file (2026-07-13) confirms only that Tuquick is the person Annie left Dan for and the person the June closure happened with, and states plainly "we do not know" whether he is also Target G.  
   ↳ [[wiki/people/annie-ulmer]] · A separate thread: Target G
 - · **2026-07-13** — franki faris — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-07-13** — The page for Franki has carried a standing note since 2026-07-13 that the "July 4" framing used elsewhere in the corpus **had no source anywhere in the archive** and was flagged rather than adopted.  
   ↳ [[wiki/timeline/events/franki-fireworks-day-2013]] · The fireworks date the day, almost
 - · **2026-07-13** — Financial substrate (final dossiers, added 2026-07-13):** the terminal-phase dependency structure — Dan controlling the drug supply while Annie was unemployed and dependent — was the latest of three rotations, per the accepted amendments: Dan funded the early NYC years; Dan worked through the 2023…  
@@ -111138,13 +111520,13 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-18** — 02 — Au Za'atar Volume I: Tarik, dimitri — Dimitri, DJ, valeria iglesias cid — Valeria, shed build  
   ↳ [[wiki/self/gemini-activity/gemini-activity]] · Session Index
 - · **2026-07-19** — new jim shaffer — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-07-19** — steve kezmarsky — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -111308,7 +111690,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-02** — jerel coles** — 4. **What load broke a thirteen-day-held off-switch?** Test the hypothesis above against the 2026-08-02 → 08-08 logs.  
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **2026-08-02** — acquisition drive — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-08-02** — fran coldren — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 44 pages
 - · **2026-08-02** — big five psychometrics — mind  
@@ -111366,11 +111748,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-09** — The childhood-friend layer is documented in the 2026-08-09 extreme-sports capture: Tancredi Calabrese was one of the friends who planned summer ski-camp trips to Windell's in Whistler BC — the month-long destination camp that represented a step up from the regional Seven Springs terrain parks.  
   ↳ [[wiki/people/tan-calabrese]] · Childhood context
 - · **2026-08-09** — tan calabrese — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-08-09** — the unnamed man — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-08-09** — tuquick 17248123683 — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 14 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 13 pages
 - · **2026-08-09** — 113 — 105 — 5.2 — the read-receipt night  
   ↳ [[wiki/mind/concepts/reassurance-architecture]] · The character ratio is a crisis thermometer, and it is the best one found
 - · **2026-08-09** — That argument was built and then withdrawn during the 2026-08-09 session.  
@@ -111422,7 +111804,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-11** — Suz to Dan: *"It's time for you to go."* — the newest datapoint on his housing, from the person who controls it (suzanne frank)  
   ↳ [[wiki/legal/463-morgantown]] · Timeline
 - · **2026-08-11** — rick frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-08-11** — What the qualification is.** The right distinction is between *volume* and *dependability*, and the mother channel fails the second test on its own record: it alternates rescue with an itemised bill, it produced a $14,000 dispute that ran unresolved for seven years, and on 11 August 2026 it…  
   ↳ [[wiki/mind/synthesis/single-channel]] · RE-CHECKED [2026-08-18]
 - · **2026-08-11** — Confirmation, downgraded 2026-08-11 — the amputation operation.** The  
@@ -111524,13 +111906,13 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-17** — jerel coles** — 6. **What is *"stuff to ruin you and your mom"* (2026-08-17 12:48)?** The only threat aimed at Suz in the corpus that has no named content. Bluster is the parsimonious reading and there is nothing in `raw/` either way.  
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **2026-08-17** — casey bondarenka — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-08-17** — kristin — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 44 pages
 - · **2026-08-17** — milo — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 44 pages
 - · **2026-08-17** — ellen ulmer — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 14 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 13 pages
 - · **2026-08-17** — 374 — 210 — 4.9 — the seventy-hour campaign opens  
   ↳ [[wiki/mind/concepts/reassurance-architecture]] · The character ratio is a crisis thermometer, and it is the best one found
 - · **2026-08-17** — He contacted her **family**, and the family's objection then ran on Ellen's own material — Dan's reputation, *"he has a bad past do you know what he's done to his family"* — which is why the crisis reads as parental rather than romantic and why no account of it before 2026-08-17 had an agent.  
@@ -111592,11 +111974,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-18** — nothing in the message record speaks to the supply side after 2025-02-20. **How Dan knows is itself unrecorded** — the answer implies some awareness channel (co  
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **2026-08-18** — john felix — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-08-18** — 337 saratoga drive — places  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-22 — 4 pages
 - · **2026-08-18** — 463 morgantown — legal  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 14 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 13 pages
 - · **2026-08-18** — the handed mirror — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 17 pages
 - · **2026-08-18** — 267 — 120 — 6.3 — the false send  
@@ -111691,16 +112073,18 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/read-receipt-forensics]] · RE-CHECKED [2026-08-20] — M4 gains its best real-world case, and the flagship example's scope was an artifact
 - ◆ **2026-08-20** — iMessage triple-handle archive on disk  
   ↳ [[wiki/people/annie-ulmer]] · By the numbers
+- · **2026-08-20** — contact gini — mind  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-08-20** — james dee — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-08-20** — arrangement history — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 44 pages
 - · **2026-08-20** — alexander jackson — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 14 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 13 pages
 - · **2026-08-20** — arnu — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 14 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 13 pages
 - · **2026-08-20** — john carney — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 14 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 13 pages
 - · **2026-08-20** — Operator interpretation added [2026-08-20]:** The manual note says the *"I just want to be alone"* / *"by myself"* formulation is a recurring theme and, in the operator's interpretation, functions as a way to avoid accepting responsibility for the resulting situation while still obtaining the…  
   ↳ [[wiki/mind/synthesis/august-grievance-verdict]] · What this says about Annie
 - · **2026-08-20** — Filed 2026-08-20.** This amendment exists because the original event page was written while the audio had not yet been directly transcribed in the corpus.  
@@ -111732,7 +112116,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-08-22** — The charging documents were real.** The summons surfaced 2026-08-22: a Fayette County summary non-traffic case, docket MJ-14101-NT-0000082-2018, **filed April 5, 2018 — the day after Fran died** — before Magisterial District Judge Michael M.  
   ↳ [[wiki/timeline/events/fran-death-vigil]] · Sequence
 - · **2026-08-22** — 155 virginia ave — places  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-08-22** — deviance mapping — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 44 pages
 - · **2026-08-22** — ally lubin — people  
@@ -111742,13 +112126,13 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-22** — It does not settle *when* beyond "recent," and it does not answer the transmission question the gap also asked: whether Ally sent the screenshot to Dan directly, or he obtained it some other way, is still undocumented. "Recent" against a 2026-08-22 capture puts the test somewhere in mid-2026 and no…  
   ↳ [[wiki/people/ally-lubin-cognitive-profile]] · The instrument, and what it is worth
 - ★ **2026-08-23** — the cool metric — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - ◆ **2026-08-23** — The replacement gap is narrower and answerable by a decision rather than a query: *will such a log be kept, starting when?* 2. ~~**No release catalogue, no platform links, no streaming figures** for any of the four music aliases.~~ **CLOSED [2026-08-23], and it changed Part VI as predicted — in the…  
   ↳ [[wiki/mind/synthesis/failure-to-launch]] · Gaps
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
 - · **2026-08-23** — calibrated confidence — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-08-23** — overview — interests  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 30 pages
 - · **2026-08-23** — closing the set — mind  
@@ -111770,11 +112154,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-26** — Read against the two curated batches above (Axis A "pretty," Axis B "stupid"), the analyst profile, and the Battery, three structures repeat across all of them and are the actual finding of the 2026-08-26 session:  
   ↳ [[wiki/interests/language/vocabulary-lexicon]] · Full cross-cutting analysis
 - · **2026-08-26** — supply network — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-08-26** — suzanne frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-08-26** — ally and dan love as destiny — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-08-26** — dan annie fallout verdict — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 13 pages
 - · **2026-08-26** — fayette return — mind  
@@ -111803,6 +112187,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/franki-faris]] · The five days (summer 2013)
 - · **2026-08-27** — ally lubin cognitive profile** — **Did she report the result herself, or was it forwarded?** The visible page is the results email, which implies she had the account. The 2026-08-27 operator answer confirms the result is hers but says nothing about how the screenshot reached Dan, so this stay  
   ↳ [[wiki/meta/open-questions]] · people (169)
+- · **2026-08-27** — t019 — Fran's house, listed at 350000 dollars, will sell for between 250000 and 300000 — quantity — hedged — confirmed  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2026-08-27** — The 2026-08-27 operator answer confirms the result is hers but says nothing about how the screenshot reached Dan, so this stays open.  
   ↳ [[wiki/people/ally-lubin-cognitive-profile]] · Gaps
 - · **2026-08-27** — That pending status held — the sale closed in **summer 2019 for $250,000** (operator testimony, 2026-08-27; uncorroborated in the message record, which never returns to the subject after Danny's July 11 line).  
@@ -111812,13 +112198,13 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — chemical architecture — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-08-28** — cocaine — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-08-28** — estate money spine — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-08-28** — the unbroken bond — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-08-28** — alias as periodization — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 13 pages
 - · **2026-08-28** — august grievance verdict — mind  
@@ -111882,11 +112268,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-09-02** — The git log read as a record of *operations* rather than saves  
   ↳ [[wiki/meta/instruments/index]] · The measures
 - · **2026-09-02** — sloppp — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-09-02** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-09-02** — eric jester — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-09-02** — 2020 left turn — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 30 pages
 - · **2026-09-02** — chatgpt — self  
@@ -111905,6 +112291,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The period's exit, in his own words, on the day it happened
 - · **2026-09-03** — Reading all nineteen years in full (2026-09-03) sharpens that into something a reader must know before using any of these pages, because the naive reading of the volume curve is not merely imprecise — it is **inverted**.  
   ↳ [[wiki/self/twitter]] · The blackouts, and why the volume curve cannot be read as a life curve
+- ◆ **2026-09-04** — A second contemporaneous figure now exists, from a thread the same 2026-09-04 sweep opened (new jim shaffer), and it is not addressed to anybody selling anything.  
+  ↳ [[wiki/health/cocaine]] · A second figure, two years later, to a different audience
 - ◆ **2026-09-04** — Corroborated from inside the room [2026-09-04].** The concert table's date was established by routing checks.  
   ↳ [[wiki/interests/favorites/music/artists/jedi-mind-tricks]] · Notes per appearance
 - ◆ **2026-09-04** — Added 2026-09-04, from the vaughn re-derivation — the thread's other half had never been read, and reading it turns a single night into a five-day sequence with a different structure.  
@@ -111912,9 +112300,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-09-04** — Assembled 2026-09-04 from the twitter archive.  
   ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
 - · **2026-09-04** — intensity is no longer the only mode — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
 - · **2026-09-04** — the deferred audit — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 100 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 103 pages
+- · **2026-09-04** — As of 2026-09-04 it holds **12 settled claims on 35.0 weight**:  
+  ↳ [[wiki/mind/concepts/calibrated-confidence]] · Accuracy is no longer untested — but read what was tested
 - · **2026-09-04** — Added 2026-09-04, from the vaughn re-derivation.  
   ↳ [[wiki/mind/synthesis/supply-network]] · And it cost the network nothing measurable
 - · **2026-09-04** — an AI reading of the above  
@@ -111939,7 +112329,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 387 wiki pages. 3,948 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 387 wiki pages. 3,949 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================
