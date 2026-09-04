@@ -49,6 +49,9 @@ connections:
   - page: wiki/self/twitter
     type: evidenced-by
     claim: "Partly runs this page's own Prediction on a fifth channel and reports it underpowered: the strict pattern returns 0 in 2,718 public posts where the message rate predicts ~1, the 22x inbound asymmetry can never be run on a broadcast archive at all — and the habit is there in a form the pattern cannot see, graded at the world ('it's 25% at best for Kamala') rather than at his own mental state."
+  - page: wiki/self/twitter/replies
+    type: evidenced-by
+    claim: "Policing other people's calibration is not a behaviour the corpus holds a few instances of — across 186 new replies it is the dominant register: 'that's just polling averages, not a forecast model', 'that....not socialism', 'I don't like the way this data is being presented'."
 ---
 
 # Calibrated Confidence

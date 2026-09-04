@@ -4,7 +4,7 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
-### [2026-09-04c] - Session: the second re-derivation, and the coefficient gets a voice (Claude Opus 5)
+### [2026-09-04e] - Session: the second re-derivation, and the coefficient gets a voice (Claude Opus 5)
 
 * **Branch:** `claude/crosslink-campaign-q9auor`, restarted from `main` after
   **#258 merged** and **#259** (the parallel session's Vaughn pass) landed ·
@@ -74,6 +74,43 @@ not a verdict.**
    per-contact CSVs; **Jason Adams has no page**; **the twitter UTC skew**. All
    unchanged.
 
+### [2026-09-04d] - Session: the corpus had his monologue and none of his dialogue (Claude Opus 5)
+
+* **Branch:** `claude/dan-frank-tweets-wiki-fkp4im` · `bin/wiki-check` clean · gates green at commit.
+* **Trigger:** operator — *"New tweets to enter into the wiki"* + a transcription of a profile-scroll video.
+
+## What landed
+
+`raw/self/twitter/replies-video-2026-09-04/` (SOURCE.md verbatim, replies.jsonl
+derived, MANIFEST.md) and a new page `wiki/self/twitter/replies`.
+
+**The reply record went 22 → 208.** The archive is 2,718 originals / 22 replies
+by its own inclusion rule; this batch is 255 replies / 33 originals, 199 new.
+
+## The thing the next session should not re-derive
+
+**The video's relative-age labels are 91% reliable and ~2% catastrophically
+wrong, and the 89 rows already in `archive.jsonl` are what proved it.** Two
+posts eleven days apart carry labels 8y and 13y. So: bands, never dates; a row
+reaches a year page only on a content anchor. If another scroll video arrives,
+run the same dedup-then-calibrate step first — it is ~20 lines of Python and it
+is the difference between a dated corpus and a confidently wrong one.
+
+**2025 was checked and survived.** The 1y band straddles the "collapse-year
+silence"; every anchorable row in it is Nov–Dec 2024. Nothing anchors to 2025.
+Do not re-open this without a new source.
+
+## Next, in order
+
+1. **Tier 3 of `TWITTER_PULL.prompt` is now the highest-value pull** and the
+   reason is sharper than before: the reply page makes a symmetry claim
+   (he corrects both sides) that **only hydrated parents can test**, because
+   this source has no parents and no sampling frame. That is a named,
+   falsifiable question waiting on one endpoint.
+2. `wiki/people/alex-frank` carries an open lead, not a settlement —
+   `@alexgfrank` addressed as "pops" (2018-09-08). Needs the Ancestry tree or a
+   contacts export, neither of which is in `raw/` today.
+3. The 97-people-no-handle work from [2026-09-04b] is untouched by this session.
 ### [2026-09-04c] - Session: the weed middleman was selling cocaine (Claude Opus 5)
 
 * **Branch:** `claude/crosslink-campaign-review-v3s88f`, from `main` after

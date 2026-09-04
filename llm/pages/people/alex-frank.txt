@@ -4,7 +4,7 @@ page_type: entity
 title: "Alex Frank"
 status: active
 date_created: 2026-07-14
-date_modified: 2026-07-15
+date_modified: 2026-09-04
 sources:
   - raw/self/dox-scan/browser_history_analysis.txt
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
@@ -93,3 +93,22 @@ shared privately within the family; any direct relationship or contact
 between Dan and Alex beyond reading his work. (The family branch is
 confirmed paternal via the Frank surname — both Alex's account above and
 the ancestry tree place Uncle Morley and Sis squarely in the Frank line.)
+
+## Open lead — "pops", 2018 (added 2026-09-04)
+
+`infobox.relationship_to_dan` on this page is `unknown`, and this page's
+`sources:` do not include the twitter archive. The archive holds one address to
+`@alexgfrank`:
+
+> *"@alexgfrank tough week. hang in there pops"* — 2018-09-08T02:47:40
+
+Surfaced while ingesting [[wiki/self/twitter/replies]], which is where the
+crosslink debt was found rather than the finding. **This is a lead and not a
+settlement:** "pops" is used loosely enough in Dan's register that it cannot
+carry a relationship on its own, and one tweet with no thread around it fixes
+neither generation nor household. What it does establish is that the two
+accounts were in contact in September 2018 and that something was wrong that
+week — which is more than this page held before.
+
+**What would settle it:** the Ancestry tree already cited here naming an Alex,
+or a contacts export resolving `@alexgfrank`. Neither is in `raw/` today.

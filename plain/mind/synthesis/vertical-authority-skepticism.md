@@ -145,6 +145,34 @@ close to the opposite of what the label describes. It does not change what he
 actually does, which is the rest of this page. But a page saying a description
 is wrong should not leave out the fact that the person uses it, so here it is.
 
+## He corrects both sides, and that took new evidence to show
+
+Until 2026 this page rested on posts Dan chose to broadcast. That left an
+obvious hole: a person can broadcast fairness he does not practise. What was
+missing was his replies — the arguments he has with named strangers.
+
+In September 2026 a batch of 186 of those replies was added to the records. They
+show him correcting people on his own side as readily as people on the other:
+
+- To an account whose overall point he agreed with, about a chart: *"Even though
+  I agree with your thesis, I don't like the way this data is being presented."*
+  The chart started counting right-wing violence in 1994, one year before the
+  Oklahoma City bombing, and Islamist violence in 2010, after 9/11.
+- After the shooting at the Trump rally in Butler, Pennsylvania on **13 July
+  2024**, people on his own side claimed news sites had published stories about
+  it in advance. He shot that down: *"These are probably landing pages where
+  multiple updates about a subject are posted."*
+- To an anti-Trump account mocking Trump's golf swing: *"Look I'm no trump fan…
+  but he's broadly accepted to be an exceptionally good golfer for his age.
+  Anyone can hit a bad shot."*
+
+**The honest limit, which matters.** The same batch is full of flat insults with
+no correction in them at all — *"Braindead take."*, *"You are not a smart
+person."*, *"Get fucked"* — and there is no way to tell from this source who
+gets an argument and who gets a brush-off. So the safe version of the claim is
+narrower than the flattering one: **when he engages with the substance, he
+corrects it evenly. He does not always engage with the substance.**
+
 ## The exception, and what it really is
 
 Trust does get extended sideways, to very few people. Two are named in the
