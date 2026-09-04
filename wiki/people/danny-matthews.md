@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-08-27
+date_modified: 2026-09-04
 date_range_start: 2018-02-16
 date_range_end: 2024-12-26
 sources:
@@ -41,11 +41,38 @@ connections:
 
 # Danny Matthews
 
+> **COUNT CORRECTED [2026-09-04] — 770, not 349.** This page reported the
+> Received-only figure as the whole thread. Dan's 421 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
+
 Danny Matthews plays two roles in Dan's life that the wiki long treated as unrelated and which turn out to converge on a single house: he's the local realtor who handled the sale of [[wiki/people/fran-coldren|Fran]]'s house at [[wiki/places/117-belmont-circle|117 Belmont Circle]] after her death, and — running the whole time alongside that professional thread — he's one half of a swinger couple (with his girlfriend Nicole) that Dan and [[wiki/people/annie-ulmer|Annie]] played with periodically from February 2018 through at least 2024. The two threads are interleaved in the same 349-message conversation with no apparent awkwardness on either side; Danny moves from confirming a real-estate closing to explicit sexual logistics in consecutive texts.
 
 He is also, on the evidence of his own thread, **the first person outside the relationship that Dan and Annie's non-monogamy arrangement was ever executed with** — inside 117 Belmont Circle, on the night Fran fell and lost the house ([[wiki/timeline/events/the-fall-of-fran]]). Fifteen months later he was the agent who listed it.
 
 **A note on the data:** the CSV export's direction field marks every row "Received," which is not literally true — read this as a two-way conversation.
+
+> **CORRECTED [2026-09-04] — this page was right about the direction field and
+> still counted only one side.** It says above that the 349 figure is a
+> two-way conversation misreported by the export, which is correct as far as it
+> goes. The two-way thread is **770 messages: 421 from Dan, 349 from Danny**,
+> and his 421 are sitting in `raw/self/dox-scan/all_imessages_complete_dump.txt`
+> in plain form rather than needing to be inferred. Knowing the field was
+> unreliable was not the same as going to get the other half.
+>
+> **The thread also runs later than this page's own window implies** — Dan's
+> last message on the handle is dated **2020-09-10**. Notable dated lines from
+> his side, neither previously on the page: *"Oh and Annie and I have discussed
+> the possibility"* (2018-05-20) and *"We're moving to nyc in April and already
+> started applying to different swinger clubs there"* (2018-11-09), which puts a
+> planned New York date on the record five months before the move.
+>
+> **The prose below is unchanged and was written from one side.**
 
 ## The realtor thread
 
@@ -90,9 +117,9 @@ Recurring elements:
 
 | Metric | Value |
 |--------|-------|
-| Messages | 349 |
+| Messages | **770** — 421 sent (Dan), 349 received (was: 349) |
 | Date range | 2018-02-16 to 2024-12-26 |
-| Direction | Unreliable in this export (see note above) — read as two-way |
+| Direction | **421 Sent / 349 Received** — corrected 2026-09-04 |
 | Handle | +17248803413 |
 
 ## Gaps

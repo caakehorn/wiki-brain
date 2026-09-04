@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: stub
 date_created: 2026-06-23
-date_modified: 2026-07-25
+date_modified: 2026-09-04
 date_range_start: 2017-06-19
 date_range_end: 2017-11-05
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -23,17 +23,27 @@ connections:
 
 # Zach Clabaugh
 
+> **COUNT CORRECTED [2026-09-04] — 68, not 26.** This page reported the
+> Received-only figure as the whole thread. Dan's 41 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
+
 Zach Clabaugh is a contact (717 area code — central Pennsylvania, not the usual 724 Fayette County cluster) who appears in the iMessage corpus with 26 messages across a five-month window, June–November 2017. Google Contacts associates the name with a professional email address (Zach.Clabaugh@nwlr.com), suggesting a workplace or professional connection. The sample message — "Yeah that would be great but you could defiantly simplify that" — has a collaborative, project-oriented register.
 
 ## Corpus Dimensions
 
 | Metric | Value |
 |--------|-------|
-| Messages | 26 |
+| Messages | **68** — 41 sent (Dan), 27 received (was: 26) |
 | Date range | 2017-06-19 – 2017-11-05 |
 | Handle | +17173246668 |
 | Email | Zach.Clabaugh@nwlr.com |
-| Direction | All received (export artifact) |
+| Direction | **41 Sent / 27 Received** — corrected 2026-09-04 |
 
 ## Gaps
 

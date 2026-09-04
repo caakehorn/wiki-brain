@@ -6,7 +6,7 @@ aliases: ["Jay"]
 status: closed
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-08-02
+date_modified: 2026-09-04
 date_range_start: 2016-12-23
 date_range_end: 2017-04-11
 sources:
@@ -48,6 +48,16 @@ connections:
 
 # Jay Lauer
 
+> **COUNT CORRECTED [2026-09-04] — 212, not 116.** This page reported the
+> Received-only figure as the whole thread. Dan's 96 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
+
 Jay Lauer was a friend of Dan's from the Uniontown-area circle around
 [[wiki/people/annie-ulmer|Annie's]] family — engaged to Annie's cousin
 [[wiki/people/betherin-mechling|Betherin Mechling]] — and a mutual
@@ -81,7 +91,7 @@ February 11, 2017 with an unanswered "Yo."
 
 | Metric | Value |
 |--------|-------|
-| Messages | 116 |
+| Messages | **212** — 96 sent (Dan), 116 received (was: 116) |
 | Thread range | 2016-12-23 → 2017-02-11 |
 | Gap between last message and death | ~8 weeks |
 | Direction field | Marked "Received" throughout; unreliable — read as two-way |

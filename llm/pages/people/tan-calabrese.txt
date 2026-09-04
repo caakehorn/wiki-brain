@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: stub
 date_created: 2026-06-23
-date_modified: 2026-08-11
+date_modified: 2026-09-04
 date_range_start: 2000-01-01
 date_range_end: 2020-05-09
 sources:
@@ -30,6 +30,16 @@ connections:
 
 # Tan Calabrese
 
+> **COUNT CORRECTED [2026-09-04] — 123, not 57.** This page reported the
+> Received-only figure as the whole thread. Dan's 65 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
+
 **REVISED [2026-08-09]:** The identity split hypothesis is wrong. Dan's own message corpus contains a direct childhood reference: "tan calabrese told me that our parents did tons of blow when i was 11 years old" (2000-12-31), which names Tan Calabrese as a childhood friend whose parents overlapped with the drug culture of the same era. The first_contact: 2016-02-12 field reflects the first contact in the specific 2016–2020 CSV export thread, not the true origin of the relationship. Tan Calabrese and Tancredi Calabrese are the same person.
 
 Tan Calabrese is a Fayette County area contact (724 area code, confirmed via Google Contacts) who appears in the iMessage corpus across a four-year window, February 2016 to May 2020 — spanning the start of the Annie relationship period through the early COVID lockdown. The 57-message thread shows a casual, familiar register consistent with a personal friendship or acquaintance from the Uniontown social circle, and the relationship's origin is dated much earlier than the message corpus, from two independent directions.
@@ -50,10 +60,10 @@ Per Dan's own account, dictated 2026-08-11 while discussing [[wiki/people/rick-f
 
 | Metric | Value |
 |--------|-------|
-| Messages | 57 |
+| Messages | **123** — 65 sent (Dan), 58 received (was: 57) |
 | Date range | 2016-02-12 – 2020-05-09 (childhood friendship documented from ~2000) |
 | Handle | +172****6086 |
-| Direction | All received (export artifact) |
+| Direction | **65 Sent / 58 Received** — corrected 2026-09-04 |
 
 ## Gaps
 

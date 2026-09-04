@@ -6,7 +6,8 @@ Pure stdlib, no dependencies, per repo convention.
 Subcommands:
   entities [filter]   The entity index: every wiki page's page-name, aliases and
                       infobox handles, i.e. every string that can be looked for
-                      in a source.
+                      in a source. `--missing` is the pages with none;
+                      `--audit` grades the ones that exist.
   coverage [prefix]   Which readable corpora actually name a page, and how
                       often. The triage step — run it before scanning, because
                       most page/corpus pairs are silent and finding that out
@@ -26,6 +27,10 @@ Subcommands:
                       that state a limit about their own evidence first.
                       `--low` includes single-token name matches (mostly noise).
                       `--all` over the twitter year pages.
+  counts [prefix]     Pages whose stated `| Messages |` count disagrees with
+                      the corpus their handle resolves into. Usually the page
+                      counted one direction and called the other half an
+                      "export artifact".
   reciprocal [page]   Outbound typed edges whose target does not link back. The
                       inverse-edge obligation of CONNECTIONS_SPEC.md, computed
                       rather than remembered.
@@ -751,6 +756,8 @@ def cmd_entities(argv):
     idx = build_index(pages)
     if argv and argv[0] == "--missing":
         return cmd_entities_missing(idx, pages)
+    if argv and argv[0] == "--audit":
+        return cmd_entities_audit(idx, pages)
     filt = argv[0].lower() if argv else None
     n = 0
     for slug in sorted(idx):
@@ -941,6 +948,101 @@ def render_hits(slug, hits, idx, limit=3, show_low=False):
         print("  (%d target(s) withheld under the standing directive in CLAUDE.md)"
               % refused)
     return len(ranked)
+
+
+# Page types whose NAME a source could plausibly contain. A concept or
+# synthesis page is named by a phrase this wiki coined — "the input clamp",
+# "rooting for the fire" — and no corpus will ever hold it. Counting those
+# against alias coverage is how Phase 0.5 got estimated at 389 pages when the
+# real target is 281.
+CORPUS_NAMEABLE = {"entity", "event", "place", "period", "report", "profile",
+                   "summary", "dataset"}
+
+
+def cmd_entities_audit(idx, pages):
+    """Are the aliases we already have any good?
+
+    `entities --missing` asks which pages have no aliases. This asks the other
+    question, and it turns out to matter more, because a wrong alias is worse
+    than a missing one: a missing alias makes the index blind, and an alias that
+    is also ordinary English makes it **confidently wrong**.
+
+    Measured 2026-09-04 over 108 pages and 326 declared aliases:
+
+        233  appear ZERO times in any readable corpus
+          6  are ordinary English and therefore match constantly
+         87  work
+
+    **The 233 is not a defect and reporting it as one would be the mistake.**
+    `aliases:` does two different jobs here. One is *what the record calls this
+    thing* — `o&a`, `@OpieRadio`, `Lex` — which is what a corpus scan needs. The
+    other is *what a reader might call this page* — `the input clamp`, `the
+    unevaluated domain` — which is navigation, and which no corpus can contain
+    by construction. A zero-hit alias is doing the second job, matches nothing,
+    and costs nothing. Leave it alone.
+
+    The six in the middle bucket are the whole problem. `the case` on a concept
+    page returned 96 rows and **not one of them was the concept**; `the drive`
+    returned 48; `the Dude` returned 18 and every one was generic English. They
+    are reported at HIGH confidence because they are multi-token, which is the
+    confidence rule failing exactly where it is trusted most.
+    """
+    rels = sorted(CORPORA)
+    matcher = Matcher(idx)
+    mark_common_phrases(idx, [r for r in rels
+                              if CORPORA[r].get("family") == "messages"])
+    declared = {}
+    for path, txt in pages.items():
+        fm, _ = split_fm(txt)
+        al = inline_list(fm, "aliases")
+        if al:
+            declared[path[:-3]] = (al, scalar(fm, "page_type") or "?")
+    names = {a.lower() for al, _pt in declared.values() for a in al}
+    trig = collections.defaultdict(list)
+    for a in names:
+        toks = [t for t in TOKEN_RE.findall(a) if t]
+        if toks:
+            trig[max(toks, key=len)].append(a)
+    counts = collections.Counter()
+    for rel in rels:
+        for _ts, text, _m in load_corpus(rel):
+            low = text.lower()
+            for k in set(TOKEN_RE.findall(low)) & trig.keys():
+                for a in trig[k]:
+                    if a in low:
+                        counts[a] += 1
+    harmful, inert, working = [], [], []
+    for slug, (al, pt) in sorted(declared.items()):
+        for a in al:
+            k = a.lower()
+            n = counts[k]
+            if k in COMMON_PHRASE and n:
+                harmful.append((n, slug, a, pt))
+            elif not n:
+                inert.append((slug, a, pt))
+            else:
+                working.append((n, slug, a, pt))
+    harmful.sort(reverse=True)
+    print("HARMFUL — ordinary English, matches constantly, none of it evidence")
+    print("  %-46s %-24s %8s" % ("page", "alias", "hits"))
+    for n, slug, a, _pt in harmful:
+        print("  %-46s %-24s %8d" % (slug[:46], a[:24], n))
+    print("  Read the rows before deleting: one of these was correct on the "
+          "last pass\n  (`Google AI` really is how he writes about Gemini).")
+    entity_inert = [r for r in inert if r[2] in CORPUS_NAMEABLE]
+    print("\nINERT — zero hits anywhere: %d, of which %d sit on a page type a "
+          "corpus could name" % (len(inert), len(entity_inert)))
+    print("  On a concept or synthesis page this is CORRECT — the alias is "
+          "navigation, not a\n  corpus name, and it costs nothing. On an entity "
+          "page it is worth a look:")
+    for slug, a, pt in entity_inert[:20]:
+        print("  %-46s %-24s <%s>" % (slug[:46], a[:24], pt))
+    if len(entity_inert) > 20:
+        print("  ... %d more" % (len(entity_inert) - 20))
+    print("\nWORKING — %d alias(es) matching real rows" % len(working))
+    print("\n%d page(s) declare %d alias(es): %d harmful, %d inert, %d working"
+          % (len(declared), len(names), len(harmful), len(inert), len(working)))
+    return 0
 
 
 def cmd_entities_missing(idx, pages):
@@ -1265,6 +1367,95 @@ def cmd_handles(argv):
     return 0
 
 
+MSG_COUNT_RE = re.compile(r'^\|\s*Messages\s*\|\s*\**~?([\d,]+)(.*)$', re.M)
+MSG_DIR_RE = re.compile(r'^\|\s*Direction\s*\|\s*(.+?)\s*\|', re.M)
+# A count line naming a different corpus is not comparable to the iMessage
+# figure and must not be reported as wrong. christo-coan's "~50 (Facebook
+# Messenger, both directions)" is correct and the first version of this check
+# called it a 44-message error.
+OTHER_CORPUS = re.compile(r'facebook|messenger|instagram|gmail|google chat|email', re.I)
+
+
+def cmd_counts(argv):
+    """Does a page's stated message count match the corpus it is drawn from?
+
+    **The defect this exists for has been found four times by hand and never by
+    a tool.** A page states `| Messages | 41 |` and, often, `| Direction | All
+    received (export artifact) |` — and the second line is the tell. Dan's half
+    of the thread is not missing from the record; it is in the corpus the page
+    did not read. `wiki/people/bruce-burish` carries a correction saying "181 is
+    exactly the received count", `wiki/people/zach-clingan` says "22 is exactly"
+    the same thing, and on 2026-09-04 `rod-banks` (41 stated, 92 actual) and
+    `zach-hendricks` (58 stated, 65 actual) made it four.
+
+    Measured the same day: **14 pages disagree with the corpus, 9 of them by
+    exactly the Received-only figure.** `wiki/people/vaughn` states 228 against
+    582 — 354 of Dan's own messages uncounted.
+
+    This is not a gate. The count on a page can legitimately be a subset, a
+    different corpus, or a figure from a source this tool cannot read, so it
+    prints and exits 0 like every other reading job here.
+    """
+    pages = load_pages()
+    rels = [r for r in sorted(CORPORA) if CORPORA[r].get("family") == "messages"]
+    known = corpus_handles(rels)
+    per_handle = collections.defaultdict(collections.Counter)
+    seen = set()
+    for rel in rels:
+        for ts, text, meta in load_corpus(rel):
+            k = dedupe_key(ts, text)
+            if k in seen:
+                continue
+            seen.add(k)
+            p = (meta or "").split(" ", 1)
+            if len(p) == 2 and p[1] and p[1] != "-":
+                per_handle[p[1]][p[0]] += 1
+    only = [a for a in argv if not a.startswith("-")]
+    prefix = only[0] if only else "wiki/people/"
+    rows, skipped = [], 0
+    for path, txt in sorted(pages.items()):
+        slug = path[:-3]
+        if not slug.startswith(prefix.rstrip("/")):
+            continue
+        fm, _ = split_fm(txt)
+        hits, _amb = resolve_handles(fm, known)
+        if not hits:
+            continue
+        m = MSG_COUNT_RE.search(txt)
+        if not m:
+            continue
+        if OTHER_CORPUS.search(m.group(2) or ""):
+            skipped += 1
+            continue
+        stated = int(m.group(1).replace(",", ""))
+        c = collections.Counter()
+        for h in hits:
+            c.update(per_handle[h])
+        total, sent, recv = sum(c.values()), c["Sent"], c["Received"]
+        d = MSG_DIR_RE.search(txt)
+        dirn = d.group(1).strip() if d else ""
+        note = ""
+        if stated == recv and sent:
+            note = "STATED = RECEIVED-ONLY, %d sent uncounted" % sent
+        elif abs(stated - total) > max(3, 0.15 * total):
+            note = "off by %+d" % (stated - total)
+        if note:
+            rows.append((total - stated, slug, stated, total, sent, recv, dirn, note))
+    rows.sort(reverse=True)
+    print("%-40s %7s %7s %6s %6s  %s"
+          % ("page", "stated", "actual", "sent", "recv", "what is wrong"))
+    for _d, slug, stated, total, sent, recv, dirn, note in rows:
+        tag = "  [%s]" % dirn[:34] if dirn else ""
+        print("%-40s %7d %7d %6d %6d  %s%s"
+              % (slug[:40], stated, total, sent, recv, note, tag))
+    print("\n%d page(s) disagree with the corpus; %d skipped for naming a corpus "
+          "this tool cannot read" % (len(rows), skipped))
+    print("A page saying 'all received (export artifact)' is the tell: his half "
+          "is not\nmissing from the record, it is in the corpus the page did not "
+          "read.")
+    return 0
+
+
 def cmd_reciprocal(argv):
     pages = load_pages()
     filt = argv[0] if argv else None
@@ -1340,10 +1531,13 @@ def cmd_check(argv):
     return 0
 
 
-USAGE = """usage: wiki-crosslink <entities|coverage|handles|scan|reciprocal|orphaned|check> [args]
+USAGE = """usage: wiki-crosslink <entities|coverage|handles|counts|scan|reciprocal|orphaned|check> [args]
 
   entities [filter]          the strings a scan can look for
   entities --missing         pages with no aliases: — the index's blind spot
+  entities --audit           are the aliases we HAVE any good? harmful (ordinary
+                             English, matches constantly) / inert (zero hits,
+                             fine on a concept page) / working
   handles [prefix]           which pages join to a message corpus by
                              counterparty, and which cannot — the message
                              corpus's own blind spot
@@ -1360,6 +1554,8 @@ USAGE = """usage: wiki-crosslink <entities|coverage|handles|scan|reciprocal|orph
                              — the triage step, run this before scanning
        [--silent]            invert it: pages no corpus names, and which of
                              them cite one anyway
+  counts [prefix]            pages whose stated message count disagrees with
+                             the corpus — usually a Received-only figure
   reciprocal [prefix]        typed edges whose target does not link back
   orphaned                   corpus-backed pages and their edge counts
   check                      the reciprocal-debt banner (always exits 0)
@@ -1373,7 +1569,7 @@ def main(argv):
     cmd, rest = argv[0], argv[1:]
     fns = {"entities": cmd_entities, "scan": cmd_scan, "reciprocal": cmd_reciprocal,
            "orphaned": cmd_orphaned, "check": cmd_check, "coverage": cmd_coverage,
-           "handles": cmd_handles}
+           "handles": cmd_handles, "counts": cmd_counts}
     if cmd not in fns:
         print(USAGE)
         return 1

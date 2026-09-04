@@ -4,7 +4,7 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-07-19
+date_modified: 2026-09-04
 date_range_start: 2019-05-24
 date_range_end: 2020-09-10
 sources:
@@ -33,6 +33,16 @@ connections:
 ---
 
 # Sam
+
+> **COUNT CORRECTED [2026-09-04] — 568, not 374.** This page reported the
+> Received-only figure as the whole thread. Dan's 174 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
 
 Sam was Dan's New York cannabis delivery dealer for roughly the first
 sixteen months at [[wiki/places/307-e-76th-st|307 E 76th St]] — a Lower
@@ -121,7 +131,7 @@ relationship just stops being needed.
 
 | Metric | Value |
 |---|---|
-| Messages | 374 (all marked Received; Sam's side, with Dan's voice in reaction-quotes) |
+| Messages | **568** — 174 sent (Dan), 394 received (was: 374) |
 | Date range | 2019-05-24 – 2020-09-10 |
 | Product | Cannabis: flower, oil carts, edibles |
 | Typical order | Quarter flower $100; carts $60–80 |

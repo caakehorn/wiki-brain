@@ -6,7 +6,7 @@ status: active
 knowledge: mixed
 importance: critical
 date_created: 2026-08-26
-date_modified: 2026-08-26
+date_modified: 2026-09-04
 tags: [behavioral-change, intensity, boundaries, relationships]
 synthesizes:
   - wiki/people/ally-lubin
@@ -21,6 +21,15 @@ related:
 ---
 
 # Intensity Is No Longer the Only Mode
+
+> **RE-CHECKED [2026-09-04] — the premise lost five aliases and no content.**
+> [[wiki/self/concepts/ally-and-dan-love-as-destiny]] moved on 2026-09-04 solely
+> by having `destiny`, `the love story`, `ally-dan timeline`, `the courtship` and
+> `the case` removed from its frontmatter. All five were inventions: three appear
+> **zero times** in any readable corpus, `destiny` appears three times and every
+> one is the streamer or Destiny's Child, and `the case` appears 96 times without
+> once meaning that page. **Not one sentence of that page's argument changed**,
+> and this page reasons from the argument. No claim here is withdrawn.
 
 ## The hypothesis
 

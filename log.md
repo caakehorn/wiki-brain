@@ -1,3 +1,78 @@
+## [2026-09-04] connect | people | thirteen pages that counted half a conversation
+
+**The defect had been found by hand four times and never by a tool.** A page
+states `| Messages | 41 |` and often `| Direction | All received (export
+artifact) |`, and the second line is the tell: **Dan's half is not missing from
+the record, it is in the corpus the page did not read.**
+`wiki/people/bruce-burish` already carried a correction saying *"181 is exactly
+the received count"*; `wiki/people/zach-clingan` says *"22 is exactly"* the same
+thing; `rod-banks` (41 → 92) and `zach-hendricks` (58 → 65) made it four earlier
+the same day.
+
+**Built `bin/wiki-crosslink counts` and swept. Thirteen more, nine of them
+understating by exactly the Received-only figure:**
+
+| Page | Stated | Actual | Of which Dan's |
+|---|---|---|---|
+| `davey-fitzpatrick` | 382 | **775** | 393 |
+| `danny-matthews` | 349 | **770** | 421 |
+| `vaughn` | 228 | **582** | 354 |
+| `sam` | 374 | **568** | 174 |
+| `nick-mattie` | 170 | **324** | 154 |
+| `eric-jester` | 103 | **235** | 132 |
+| `steve-kezmarsky` | 66 | **162** | 96 |
+| `jay-lauer` | 116 | **212** | 96 |
+| `tan-calabrese` | 57 | **123** | 65 |
+| `zach-clabaugh` | 26 | **68** | 41 |
+| `urpaaa-at-yahoo-com` | 23 | **57** | 34 |
+| `shannon` | 23 | **43** | 15 |
+| `mike-hinkle` | 21 | **24** | 3 |
+
+**Three of them had built a method on the absence.** `vaughn` said *"Dan's
+messages survive nowhere in it, so every exchange below is reconstructed from
+Vaughn's half"* — 354 survive, and they are the half that page most needed,
+because Vaughn is documented as a supply node and Dan's side is the demand side
+in his own words and quantities: *"Can I grab another g tonight"*, *"I'm rdy
+with the paper but no wheels"*. `davey-fitzpatrick` reconstructed Dan's voice
+from tapback quotes Davey reacted to — ingenious, and answering a question with
+a direct answer. `danny-matthews` knew the direction field was unreliable and
+still counted one side; his thread also runs to **2020-09-10**, later than the
+page implies.
+
+**The prose on all thirteen was written against the smaller thread and has not
+been re-derived.** Each correction says so rather than implying the page is now
+current.
+
+**Two pages turned out to be one man.** `bin/wiki-crosslink handles` flags a
+handle claimed by two pages, and `+17249123381` was on both `people/zaco` and
+`people/zach-hendricks` — identical window (2018-03-12 → 2018-11-26), and the
+second already listed *"Zaco"* as its own subject's alias. Neither knew about
+the other for six weeks. `zaco` is canonical (the research, the typed edges,
+eight inbound links) and now carries the real name; `zach-hendricks` is retained
+as a pointer on the pattern `jerel-coles` / `the-unnamed-man` already set. Its
+second Google Contacts number has **zero rows** in the corpus.
+
+**The alias audit, and the headline it would be wrong to write.**
+`bin/wiki-crosslink entities --audit` grades what already exists: of 326
+declared aliases, **233 appear zero times in any readable corpus**. That is not
+a defect. `aliases:` does two jobs — *what the record calls this thing*
+(corpus-matchable) and *what a reader might call this page* (a coinage no corpus
+can contain). A zero-hit alias is doing the second job and costs nothing.
+
+**Six were doing neither, and four are now deleted.** `the case` on a concept
+page matched **96 rows without once meaning that page**; `the drive` matched 48;
+`the Dude` on a person's page matched 18 and every one was generic English;
+`this person` matched 20. All four were reported at **high** confidence because
+they are multi-token. Of the two survivors, `Anne Ulmer` is her real name and
+`Google AI` really is how he writes about Gemini — checked by reading, which is
+the point of a flag that advises rather than deletes.
+
+**Phase 0.5 is smaller than the campaign says.** 389 pages carry no aliases, but
+only **281** are page types a corpus could name at all, and 208 of those are
+entity pages. The rest are concepts and syntheses whose names this wiki coined.
+
+**Cascade contained:** one page newly stale, worked; 44 before, 44 after.
+
 ## [2026-09-04] connect | people | the estate's two hands, found by reading a conversation instead of a name
 
 **Three pages, one corpus, and all three had told us where to point it.**

@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-04
-497 pages, ~1,860,215 tokens.
+497 pages, ~1,865,101 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10779,7 +10779,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 497 |
-| Pages touched in the last 14 days | 185 |
+| Pages touched in the last 14 days | 200 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 49 |
 | Open gaps | 605 |
@@ -10806,13 +10806,14 @@ between regenerations. Do not hand-edit here — rerun the tool._
 |---|---|
 | active | 191 |
 | stable | 166 |
-| closed | 100 |
+| closed | 101 |
 | archived | 29 |
-| stub | 11 |
+| stub | 10 |
 
 ## The last few days
 
-**2026-09-04** — 41 pages
+**2026-09-04** — 60 pages
+  - connect | people | thirteen pages that counted half a conversation
   - connect | people | the estate's two hands, found by reading a conversation instead of a name
   - connect | people | the twitter archive, read directly onto the page it was about
   - site | meta | the Wikipedia-style reader is served again
@@ -10833,7 +10834,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | self | 2024, 2025 and 2026 read in full — all nineteen year pages now carry narrative runs
   - lint | self | the twitter year pages were generating a 2,741-entry table of contents
 
-**2026-09-02** — 10 pages
+**2026-09-02** — 9 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result
@@ -12527,7 +12528,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-04 — 41 pages
+## 2026-09-04 — 60 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -12556,6 +12557,7 @@ simply listed.
 | [[wiki/mind/synthesis/bond-switch-2015]] | mind | **RE-CHECKED** — alexis-armel gained a measurement of the relationship's public register: it stops on **29 November 2013** and holds at zero for the last **twenty-four months**, across 1,132 posts, in years when his d |
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — alexis-armel gained a measurement of the relationship's public register — zero mentions across the last twenty-four months and 1,132 posts, in years when his distinct-handle count peaked at 57 — and |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a RE-CHECKED from 2026-08-28)_ |
+| [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] | mind | **RE-CHECKED** — ally-and-dan-love-as-destiny moved on 2026-09-04 solely by having `destiny`, `the love story`, `ally-dan timeline`, `the courtship` and `the case` removed from its frontmatter. All five were invention |
 | [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — the-cool-metric gained a section measuring the public register on the six-year partner: affection at 12 of 32 mentions in 2010, 3 of 47 across 2011-2014, then zero for the relationship's last twenty-f |
 | [[wiki/mind/synthesis/the-binary-verdict]] | mind | **RE-CHECKED** — the-cool-metric gained a section showing the sorting metric run on a six-year live-in partner: affection in the public register falls from 12 of 32 mentions in 2010 to 3 of 47 across 2011-2014, the la |
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — the-cool-metric moved on 2026-09-04 by gaining a substantive section, not a re-check note: the twitter archive shows *splitting via irony* aimed at a six-year live-in partner rather than at strangers, |
@@ -12563,13 +12565,31 @@ simply listed.
 | [[wiki/mind/synthesis/totality-themes]] | mind | **RE-CHECKED** — the-cool-metric, a member, gained a section extending the sorting metric's demonstrated range to an intimate partner. This page's thesis is about totality as a mode across domains, and a member gainin |
 | [[wiki/people/alexis-armel]] | people | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/people/ally-lubin-cognitive-profile]] | people | **RE-CHECKED** — the-cool-metric gained a section showing the metric run on a six-year live-in partner, with the warm public register collapsing to zero. That page already carries this profile's own contribution at th |
+| [[wiki/people/danny-matthews]] | people | **CORRECTED** — It says above that the 349 figure is a two-way conversation misreported by the export, which is correct as far as it goes. The two-way thread is **770 messages: 421 from Dan, 349 from Danny**, and his |
+| [[wiki/people/davey-fitzpatrick]] | people | **CORRECTED** — This paragraph said the record was *"his side only (every row marked Received)"* and that Dan's voice survived only in the tapback quotes Davey reacted to. **393 messages from Dan are in the corpus th |
+| [[wiki/people/eric-jester]] | people | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/people/franki-faris]] | people | _(carries a REVISED from 2026-07-13)_ |
 | [[wiki/people/fred-adams]] | people | **CORRECTED** — This section read: *"Adams sends and receives nothing in the message corpus; every fact here comes from Dan's narration or from the estate attorney's calls, and the estate attorney reached in August 2 |
+| [[wiki/people/james-dee]] | people | _(carries a GAP CLOSED from 2026-08-20)_ |
+| [[wiki/people/jay-lauer]] | people | — |
 | [[wiki/people/katie-fletcher]] | people | **CORRECTED** — this paragraph ended *"There is no message corpus for her — everything known arrives through Dan's later AI-session narration."* There is still no message corpus. But "everything known" was wrong: the |
+| [[wiki/people/mike-hinkle]] | people | — |
+| [[wiki/people/nick-mattie]] | people | — |
 | [[wiki/people/rick-frank]] | people | _(carries a CORRECTED from 2026-08-11)_ |
 | [[wiki/people/rod-banks]] | people | **CORRECTED** — This page was written from 41 messages in the CSV export and attributed their one-sidedness to the export. The dox-scan dump holds the same thread at **92 messages — 51 Sent, 41 Received.** Dan's half |
+| [[wiki/people/sam]] | people | — |
+| [[wiki/people/shannon]] | people | — |
+| [[wiki/people/steve-kezmarsky]] | people | _(carries a REVISED from 2026-07-19)_ |
 | [[wiki/people/suzanne-frank]] | people | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/people/suzanne-frank-personality-assessment]] | people | **RE-CHECKED** — suzanne-frank gained a section on her six messages naming Judge Fred Adams. **No scored dimension here is affected.** Worth recording for a later pass: the 2018-11-05 message asks a sitting judge and  |
+| [[wiki/people/tan-calabrese]] | people | _(carries a REVISED from 2026-08-09)_ |
+| [[wiki/people/the-unnamed-man]] | people | _(carries a REVISED from 2026-08-09)_ |
+| [[wiki/people/urpaaa-at-yahoo-com]] | people | — |
+| [[wiki/people/vaughn]] | people | **CORRECTED** — This paragraph read: *"The record is his side only (all rows marked Received); Dan's messages survive nowhere in it, so every exchange below is reconstructed from Vaughn's half."* **Dan's 354 messages |
+| [[wiki/people/zach-clabaugh]] | people | — |
+| [[wiki/people/zach-hendricks]] | people | — |
+| [[wiki/people/zaco]] | people | — |
+| [[wiki/self/concepts/ally-and-dan-love-as-destiny]] | self | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/self/twitter/2008]] | self | _(carries a GAP CLOSED from 2026-09-03)_ |
 | [[wiki/self/twitter/2014]] | self | **CORRECTED** — She is barely here. Those two are the whole year against **23 in 2013**, and the collapse is specific to her rather than to the account: 2014's @-mention *rate* is the second highest of the era at 374 |
 
@@ -12611,13 +12631,12 @@ simply listed.
 | [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | **CONTRADICTION** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomo |
 
-## 2026-09-02 — 10 pages
+## 2026-09-02 — 9 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/meta/index]] | meta | — |
 | [[wiki/meta/instruments/index]] | meta | — |
-| [[wiki/people/eric-jester]] | people | **CORRECTED** — this page described the friendship itself as "sparse but genuinely warm." That is an accurate reading of the *message thread*, which begins **May 2017**. It is not an accurate description of the frien |
 | [[wiki/people/shane-brannan]] | people | — |
 | [[wiki/people/vanessa-frank]] | people | _(carries a REVISED from 2026-07-14)_ |
 | [[wiki/self/facebook]] | self | **CONTRADICTION** — This paragraph used to say *every* field cross-checks. One does not. `places lived` gives **Brooklyn NYC from January 3, 2010**. The tweet archive has Dan in Florida for another eight weeks: *"moving  |
@@ -12671,16 +12690,15 @@ simply listed.
 | [[wiki/places/155-virginia-ave]] | places | _(carries a GAP CLOSED from 2026-08-22)_ |
 | [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — estate-money-spine gained a constitution-pass mechanism section (the Altruism-1 inversion explaining the $14,000 family loan) and a full register table. Nothing in it touches tenancy, paper, or any of |
 
-## 2026-08-27 — 4 pages
+## 2026-08-27 — 3 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/interests/language/vocabulary-lexicon]] | interests | — |
 | [[wiki/mind/profile/linguistic-profile]] | mind | **GAP CLOSED** — the operator volunteered the full "words for stupid" list against this page. It was not a gap this page had stated — unprompted material, staged here for the ingest to place. Placed here, in Lexical f |
-| [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 
-## 2026-08-26 — 47 pages
+## 2026-08-26 — 45 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -12707,7 +12725,6 @@ simply listed.
 | [[wiki/mind/psychosexual/arrangement-history]] | mind | _(carries a CORRECTED from 2026-08-20)_ |
 | [[wiki/mind/synthesis/ai-collaborative-analysis]] | mind | — |
 | [[wiki/mind/synthesis/closing-the-set]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
-| [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] | mind | — |
 | [[wiki/mind/synthesis/political-psyops]] | mind | — |
 | [[wiki/mind/synthesis/the-cato-seat]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
 | [[wiki/people/ally-lubin]] | people | _(carries a CORRECTED from 2026-08-22)_ |
@@ -12721,7 +12738,6 @@ simply listed.
 | [[wiki/people/shelbie-breakiron]] | people | — |
 | [[wiki/people/tom]] | people | — |
 | [[wiki/self/ancestry]] | self | — |
-| [[wiki/self/concepts/ally-and-dan-love-as-destiny]] | self | **RE-CHECKED** — flagged stale against ally-lubin (2026-08-26), which integrated a full unprompted love letter sent August 21, 2026 (*"I've spent 10 years… I just never got over it"* / *"still haven't lost interest… # |
 | [[wiki/self/concepts/astrology-star-signs]] | self | **RE-CHECKED** — flagged stale again against ally-lubin (2026-08-26), which integrated a staged love letter and a sage finding about a mutual-correction sequence and a joke line ("I'm a SINGLE MOTHER"). None of the th |
 | [[wiki/self/context-core]] | self | _(carries a CORRECTED)_ |
 | [[wiki/self/overview]] | self | — |
@@ -12772,7 +12788,7 @@ simply listed.
 | [[wiki/self/concepts/wiki-brain]] | self | **RE-CHECKED** — llm moved on 2026-08-21: Gemini's 'chicken nugget' passage was corrected off Dan's ledger, and the post-GPT-5 causation of ChatGPT's decline was marked untested. This page carries an edge claiming Cha |
 | [[wiki/work/au-zaatar]] | work | _(carries a REVISED from 2026-07-14)_ |
 
-## 2026-08-20 — 16 pages
+## 2026-08-20 — 14 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -12783,11 +12799,9 @@ simply listed.
 | [[wiki/people/arnu]] | people | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address as a threat vector and one typed edge. Re-read against the change; **no claim on this page is affected** an |
 | [[wiki/people/bruce-burish]] | people | **CORRECTED** — both versions of this page reported the thread as **181 messages**, and the stub added that they were *"all received (export artifact — Dan's outbound not captured)."* **181 is exactly the received co |
 | [[wiki/people/ellen-ulmer]] | people | _(carries a GAP CLOSED from 2026-08-17)_ |
-| [[wiki/people/james-dee]] | people | **GAP CLOSED** — The operator supplied the answer directly: **"Last name is Spiker."** Filed verbatim as T0 evidence in `raw/people/captures/2026-08-20_015525_gap-james-dee.md`. The page now records **Spiker** as the  |
 | [[wiki/people/jerel-coles]] | people | — |
 | [[wiki/people/john-carney]] | people | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address as a threat vector and one typed edge. Re-read against the change; **no claim on this page is affected** an |
 | [[wiki/people/tuquick-17248123683]] | people | _(carries a REVISED from 2026-08-09)_ |
-| [[wiki/people/zaco]] | people | — |
 | [[wiki/self/message-corpora/source-coverage-index]] | self | — |
 | [[wiki/timeline/events/august-2026-morgantown-call]] | timeline | **CORRECTED** — *"fourteen separate times between 06:30 and 12:31"* → **twenty times, 06:31 to 14:17.** Undercounted by six, and the window was cut short by nearly two minutes; he is still saying it ninety seconds be |
 | [[wiki/timeline/events/august-2026-morgantown-call-source-amendment]] | timeline | — |
@@ -13258,7 +13272,7 @@ PAGE: wiki/mind/concepts/acquisition-drive.md
 domain: mind
 page_type: concept
 title: "The Acquisition Drive"
-aliases: ["the drive", "complete objective", "resilience for the goal"]
+aliases: ["complete objective", "resilience for the goal"]
 status: active
 importance: high
 knowledge: earned
@@ -13325,6 +13339,12 @@ connections:
 ---
 
 # The Acquisition Drive
+
+> **ALIAS REMOVED [2026-09-04] — `the drive` matched 48 rows and none was this
+> concept.** Car journeys, hard drives, "I think the drive throughs are". Two
+> tokens, so it was reported at high confidence and surfaced as a candidate on
+> the Suz conversation scan. The concept's name is this wiki's coinage; the
+> record has no phrase for it.
 
 Once Dan Frank converts a want into a decided outcome, the pursuit of it runs
 to completion more or less independently of cost, risk, proportion or
@@ -29397,7 +29417,7 @@ status: active
 knowledge: mixed
 importance: critical
 date_created: 2026-08-26
-date_modified: 2026-08-26
+date_modified: 2026-09-04
 tags: [behavioral-change, intensity, boundaries, relationships]
 synthesizes:
   - wiki/people/ally-lubin
@@ -29412,6 +29432,15 @@ related:
 ---
 
 # Intensity Is No Longer the Only Mode
+
+> **RE-CHECKED [2026-09-04] — the premise lost five aliases and no content.**
+> [[wiki/self/concepts/ally-and-dan-love-as-destiny]] moved on 2026-09-04 solely
+> by having `destiny`, `the love story`, `ally-dan timeline`, `the courtship` and
+> `the case` removed from its frontmatter. All five were inventions: three appear
+> **zero times** in any readable corpus, `destiny` appears three times and every
+> one is the streamer or Destiny's Child, and `the case` appears 96 times without
+> once meaning that page. **Not one sentence of that page's argument changed**,
+> and this page reasons from the argument. No claim here is withdrawn.
 
 ## The hypothesis
 
@@ -47534,7 +47563,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-08-27
+date_modified: 2026-09-04
 date_range_start: 2018-02-16
 date_range_end: 2024-12-26
 sources:
@@ -47572,11 +47601,38 @@ connections:
 
 # Danny Matthews
 
+> **COUNT CORRECTED [2026-09-04] — 770, not 349.** This page reported the
+> Received-only figure as the whole thread. Dan's 421 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
+
 Danny Matthews plays two roles in Dan's life that the wiki long treated as unrelated and which turn out to converge on a single house: he's the local realtor who handled the sale of [[wiki/people/fran-coldren|Fran]]'s house at [[wiki/places/117-belmont-circle|117 Belmont Circle]] after her death, and — running the whole time alongside that professional thread — he's one half of a swinger couple (with his girlfriend Nicole) that Dan and [[wiki/people/annie-ulmer|Annie]] played with periodically from February 2018 through at least 2024. The two threads are interleaved in the same 349-message conversation with no apparent awkwardness on either side; Danny moves from confirming a real-estate closing to explicit sexual logistics in consecutive texts.
 
 He is also, on the evidence of his own thread, **the first person outside the relationship that Dan and Annie's non-monogamy arrangement was ever executed with** — inside 117 Belmont Circle, on the night Fran fell and lost the house ([[wiki/timeline/events/the-fall-of-fran]]). Fifteen months later he was the agent who listed it.
 
 **A note on the data:** the CSV export's direction field marks every row "Received," which is not literally true — read this as a two-way conversation.
+
+> **CORRECTED [2026-09-04] — this page was right about the direction field and
+> still counted only one side.** It says above that the 349 figure is a
+> two-way conversation misreported by the export, which is correct as far as it
+> goes. The two-way thread is **770 messages: 421 from Dan, 349 from Danny**,
+> and his 421 are sitting in `raw/self/dox-scan/all_imessages_complete_dump.txt`
+> in plain form rather than needing to be inferred. Knowing the field was
+> unreliable was not the same as going to get the other half.
+>
+> **The thread also runs later than this page's own window implies** — Dan's
+> last message on the handle is dated **2020-09-10**. Notable dated lines from
+> his side, neither previously on the page: *"Oh and Annie and I have discussed
+> the possibility"* (2018-05-20) and *"We're moving to nyc in April and already
+> started applying to different swinger clubs there"* (2018-11-09), which puts a
+> planned New York date on the record five months before the move.
+>
+> **The prose below is unchanged and was written from one side.**
 
 ## The realtor thread
 
@@ -47621,9 +47677,9 @@ Recurring elements:
 
 | Metric | Value |
 |--------|-------|
-| Messages | 349 |
+| Messages | **770** — 421 sent (Dan), 349 received (was: 349) |
 | Date range | 2018-02-16 to 2024-12-26 |
-| Direction | Unreliable in this export (see note above) — read as two-way |
+| Direction | **421 Sent / 349 Received** — corrected 2026-09-04 |
 | Handle | +17248803413 |
 
 ## Gaps
@@ -47775,7 +47831,7 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-07-19
+date_modified: 2026-09-04
 date_range_start: 2017-05-21
 date_range_end: 2018-11-02
 sources:
@@ -47807,6 +47863,16 @@ connections:
 
 # Davey Fitzpatrick
 
+> **COUNT CORRECTED [2026-09-04] — 775, not 382.** This page reported the
+> Received-only figure as the whole thread. Dan's 393 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
+
 Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine
 friend across the two [[wiki/work/nemacolin-caddying|Nemacolin caddying]]
 seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a
@@ -47824,7 +47890,20 @@ living will be lol … Are you selling your place?" — and signing off with
 "Well good luck dude, I wish you guys the best." Dan was in the city
 within the week, and the thread never resumes.
 
-The record is his side only (every row marked Received); Dan's voice
+> **CORRECTED [2026-09-04].** This paragraph said the record was *"his side
+> only (every row marked Received)"* and that Dan's voice survived only in the
+> tapback quotes Davey reacted to. **393 messages from Dan are in the corpus
+> this page did not read** — *"Yo loc, u ever loop for teig boyle?"*
+> (2017-05-21), *"I have 9 report"* (2017-07-24), *"you know i'm back fam.
+> ready for a wavy summer"* (2018-03-19), *"Bro what a no brainer"*
+> (2018-08-04). The tapback-reconstruction method was ingenious and was
+> answering a question that had a direct answer.
+>
+> **The prose below is unchanged and was written from one side.** The
+> reconstructed quotes are still correct; they are simply no longer the only
+> thing available.
+
+The tapbacks below remain as originally written — Dan's voice
 survives in the messages Davey reacted to — Likes, Laughs, and Emphasis
 quotes — which happen to preserve some of the corpus's better caddie-era
 Dan lines ("He's the Pablo Picasso of Mid-Atlantic Polynesian caddies";
@@ -47892,7 +47971,7 @@ consistent feature — every missed shift answered with some version of
 
 | Metric | Value |
 |---|---|
-| Messages | 382 (all marked Received; his side, Dan's voice in reaction-quotes) |
+| Messages | **775** — 393 sent (Dan), 382 received (was: 382) |
 | Date range | 2017-05-21 – 2018-11-02 |
 | Role | Fellow caddie (2017) → assistant caddie master (2018) |
 | Report-time messages | ~20, March–October 2018 |
@@ -49680,7 +49759,7 @@ domain: people
 page_type: entity
 status: active
 date_created: 2026-06-23
-date_modified: 2026-09-02
+date_modified: 2026-09-04
 date_range_start: 2009-10-24
 date_range_end: 2025-08-15
 sources:
@@ -49729,6 +49808,16 @@ connections:
 ---
 
 # Eric Jester
+
+> **COUNT CORRECTED [2026-09-04] — 235, not 103.** This page reported the
+> Received-only figure as the whole thread. Dan's 132 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
 
 Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose message thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — sparse check-ins that resurface every year or two, each one picking back up exactly where the last left off, alongside shared friends [[wiki/people/jason-bermejo|Jason Bermejo]], [[wiki/people/matt-dunn|Matt Dunn]], and [[wiki/people/jamie-mohler|Jamie Mohler]] from the same Orlando/Full Sail cohort. Eric's own thread independently names Dunn (see below); Jamie appears only in Jason's thread, not Eric's.
 
@@ -49797,9 +49886,9 @@ own attendance window.
 
 | Metric | Value |
 |--------|-------|
-| Messages | 103 |
+| Messages | **235** — 132 sent (Dan), 103 received (was: 103) |
 | Date range | 2017-05-08 to 2025-08-15 |
-| Direction | Unreliable in this export (marked "Received" throughout) — read as one-way (Eric to Dan) |
+| Direction | **132 Sent / 103 Received** — corrected 2026-09-04 |
 | Handle | +14137703708 |
 
 
@@ -51751,11 +51840,11 @@ PAGE: wiki/people/james-dee.md
 domain: people
 page_type: entity
 title: "James (\"Jimi Pop\")"
-aliases: ["James Spiker", "James Dee", "Jimi Pop", "Jimmy Pop", "Jimmy Pop and the Steel City Rollers", "Max (Danielle's boyfriend)", "the Dude"]
+aliases: ["James Spiker", "James Dee", "Jimi Pop", "Jimmy Pop", "Jimmy Pop and the Steel City Rollers", "Max (Danielle's boyfriend)"]
 status: stable
 knowledge: mixed
 date_created: 2026-08-18
-date_modified: 2026-08-20
+date_modified: 2026-09-04
 date_range_start: 2025-05-27
 date_range_end: 2025-07-21
 sources:
@@ -51807,6 +51896,12 @@ connections:
 ---
 
 # James ("Jimi Pop")
+
+> **ALIAS REMOVED [2026-09-04] — `the Dude` matched 18 rows and none was
+> him.** "The dude at the bakery", "the dude side of the equation", "their
+> program is run by the dude". It was reported at high confidence because it is
+> two tokens. If he is in fact called that, the record does not show it, and an
+> alias has to be what the record uses rather than what a page believes.
 
 James Spiker — historically represented in the corpus as **James Dee**, **Jimi Pop**, **Jimmy Pop**, "the Dude," and the erroneous "Max (Danielle's boyfriend)" — is [[wiki/people/danielle-onesi|Danielle Onesi's]] live-in boyfriend, a Pittsburgh-area musician roughly Dan's own age, and, for eight weeks in summer 2025, the closest thing to a new friend the corpus records Dan making in years.
 
@@ -52669,7 +52764,7 @@ aliases: ["Jay"]
 status: closed
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-08-02
+date_modified: 2026-09-04
 date_range_start: 2016-12-23
 date_range_end: 2017-04-11
 sources:
@@ -52711,6 +52806,16 @@ connections:
 
 # Jay Lauer
 
+> **COUNT CORRECTED [2026-09-04] — 212, not 116.** This page reported the
+> Received-only figure as the whole thread. Dan's 96 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
+
 Jay Lauer was a friend of Dan's from the Uniontown-area circle around
 [[wiki/people/annie-ulmer|Annie's]] family — engaged to Annie's cousin
 [[wiki/people/betherin-mechling|Betherin Mechling]] — and a mutual
@@ -52744,7 +52849,7 @@ February 11, 2017 with an unanswered "Yo."
 
 | Metric | Value |
 |--------|-------|
-| Messages | 116 |
+| Messages | **212** — 96 sent (Dan), 116 received (was: 116) |
 | Thread range | 2016-12-23 → 2017-02-11 |
 | Gap between last message and death | ~8 weeks |
 | Direction field | Marked "Received" throughout; unreliable — read as two-way |
@@ -58146,7 +58251,7 @@ domain: people
 page_type: entity
 status: stub
 date_created: 2026-06-23
-date_modified: 2026-07-25
+date_modified: 2026-09-04
 date_range_start: 2018-03-08
 date_range_end: 2019-07-03
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -58170,16 +58275,26 @@ connections:
 
 # Mike Hinkle
 
+> **COUNT CORRECTED [2026-09-04] — 24, not 21.** This page reported the
+> Received-only figure as the whole thread. Dan's 3 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
+
 Mike Hinkle is a contact based in the Jacksonville, Florida area (904 area code, confirmed via Google Contacts with two phone entries) who appears in the iMessage corpus across a 16-month window, March 2018 to July 2019. The preserved sample — "What? Are you a pimp now or something? Hope Fran is ok" — is notable for its casual familiarity and for placing Hinkle in Dan's social circle during [[wiki/people/fran-coldren|Fran Coldren]]'s final decline and death (April 4, 2018). He knew Fran by first name, suggesting either a family connection or a close enough friendship to be aware of the caregiving situation.
 
 ## Corpus Dimensions
 
 | Metric | Value |
 |--------|-------|
-| Messages | 21 |
+| Messages | **24** — 3 sent (Dan), 21 received (was: 21) |
 | Date range | 2018-03-08 – 2019-07-03 |
 | Handle | +19043124149 |
-| Direction | All received (export artifact) |
+| Direction | **3 Sent / 21 Received** — corrected 2026-09-04 |
 
 ## Gaps
 
@@ -58840,7 +58955,7 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-07-19
+date_modified: 2026-09-04
 date_range_start: 2017-04-20
 date_range_end: 2017-07-12
 sources:
@@ -58867,6 +58982,16 @@ connections:
 ---
 
 # Nick Mattie
+
+> **COUNT CORRECTED [2026-09-04] — 324, not 170.** This page reported the
+> Received-only figure as the whole thread. Dan's 154 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
 
 Nick Mattie was an eleven-week fixture of Dan's spring 2017
 (`+17242526986`, 170 messages, April 20 – July 12, 2017) — a Uniontown
@@ -58940,7 +59065,7 @@ relationships in the corpus run hot and vanish.
 
 | Metric | Value |
 |---|---|
-| Messages | 170 (all marked Received; his side only) |
+| Messages | **324** — 154 sent (Dan), 170 received (was: 170) |
 | Date range | 2017-04-20 – 2017-07-12 |
 | Peak density | ~160 messages, Apr 29 – May 12 |
 | Ledger snapshot | "$25 + $50 − $15" (May 11, 2017) |
@@ -60333,7 +60458,7 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-07-19
+date_modified: 2026-09-04
 date_range_start: 2019-05-24
 date_range_end: 2020-09-10
 sources:
@@ -60362,6 +60487,16 @@ connections:
 ---
 
 # Sam
+
+> **COUNT CORRECTED [2026-09-04] — 568, not 374.** This page reported the
+> Received-only figure as the whole thread. Dan's 174 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
 
 Sam was Dan's New York cannabis delivery dealer for roughly the first
 sixteen months at [[wiki/places/307-e-76th-st|307 E 76th St]] — a Lower
@@ -60450,7 +60585,7 @@ relationship just stops being needed.
 
 | Metric | Value |
 |---|---|
-| Messages | 374 (all marked Received; Sam's side, with Dan's voice in reaction-quotes) |
+| Messages | **568** — 174 sent (Dan), 394 received (was: 374) |
 | Date range | 2019-05-24 – 2020-09-10 |
 | Product | Cannabis: flower, oil carts, edibles |
 | Typical order | Quarter flower $100; carts $60–80 |
@@ -60710,7 +60845,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-20
+date_modified: 2026-09-04
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
 tags: [career, digital-footprint]
@@ -60726,6 +60861,16 @@ connections:
 ---
 
 # Shannon
+
+> **COUNT CORRECTED [2026-09-04] — 43, not 23.** This page reported the
+> Received-only figure as the whole thread. Dan's 15 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
 
 Shannon is a real estate agent who hired Dan for drone photography and
 videography work over a roughly two-month window, November 2018 to
@@ -60747,7 +60892,7 @@ continued past that point.
 
 | Metric | Value |
 |---|---|
-| Messages | 23 (iMessage, Shannon's side only) |
+| Messages | **43** — 15 sent (Dan), 28 received (was: 23) |
 | Date range | 2018-11-10 – 2019-01-11 |
 | Defining content | Drone photo/video delivery for real estate listings |
 
@@ -61059,7 +61204,7 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-07-19
+date_modified: 2026-09-04
 date_range_start: 2017-01-20
 date_range_end: 2018-01-31
 sources:
@@ -61092,6 +61237,16 @@ connections:
 ---
 
 # Steve Kezmarsky
+
+> **COUNT CORRECTED [2026-09-04] — 162, not 66.** This page reported the
+> Received-only figure as the whole thread. Dan's 96 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
 
 Steve Kezmarsky is a high-school-era Uniontown friend whose 66-message
 thread (handle `+17244157286`, January 2017 – January 2018) documents
@@ -61171,7 +61326,7 @@ of Steve crossing that line, held in the register of a running joke.
 
 | Metric | Value |
 |---|---|
-| Messages | 66 (all marked Received; his side of the exchange) |
+| Messages | **162** — 96 sent (Dan), 66 received (was: 66) |
 | Date range | 2017-01-20 – 2018-01-31 |
 | Status at last mention | Alive, sober, two kids (2018-12-09, Jim Shaffer thread) |
 | Father | Arrested 2018-01-22; expected life sentence per Dec 2018 |
@@ -62696,7 +62851,7 @@ domain: people
 page_type: entity
 status: stub
 date_created: 2026-06-23
-date_modified: 2026-08-11
+date_modified: 2026-09-04
 date_range_start: 2000-01-01
 date_range_end: 2020-05-09
 sources:
@@ -62723,6 +62878,16 @@ connections:
 
 # Tan Calabrese
 
+> **COUNT CORRECTED [2026-09-04] — 123, not 57.** This page reported the
+> Received-only figure as the whole thread. Dan's 65 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
+
 **REVISED [2026-08-09]:** The identity split hypothesis is wrong. Dan's own message corpus contains a direct childhood reference: "tan calabrese told me that our parents did tons of blow when i was 11 years old" (2000-12-31), which names Tan Calabrese as a childhood friend whose parents overlapped with the drug culture of the same era. The first_contact: 2016-02-12 field reflects the first contact in the specific 2016–2020 CSV export thread, not the true origin of the relationship. Tan Calabrese and Tancredi Calabrese are the same person.
 
 Tan Calabrese is a Fayette County area contact (724 area code, confirmed via Google Contacts) who appears in the iMessage corpus across a four-year window, February 2016 to May 2020 — spanning the start of the Annie relationship period through the early COVID lockdown. The 57-message thread shows a casual, familiar register consistent with a personal friendship or acquaintance from the Uniontown social circle, and the relationship's origin is dated much earlier than the message corpus, from two independent directions.
@@ -62743,10 +62908,10 @@ Per Dan's own account, dictated 2026-08-11 while discussing [[wiki/people/rick-f
 
 | Metric | Value |
 |--------|-------|
-| Messages | 57 |
+| Messages | **123** — 65 sent (Dan), 58 received (was: 57) |
 | Date range | 2016-02-12 – 2020-05-09 (childhood friendship documented from ~2000) |
 | Handle | +172****6086 |
-| Direction | All received (export artifact) |
+| Direction | **65 Sent / 58 Received** — corrected 2026-09-04 |
 
 ## Gaps
 
@@ -62986,12 +63151,12 @@ PAGE: wiki/people/the-unnamed-man.md
 domain: people
 page_type: entity
 title: "The Unnamed Man"
-aliases: ["the third party", "him", "this person"]
+aliases: ["the third party", "him"]
 status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-09
+date_modified: 2026-09-04
 date_range_start: 2026-07-25
 date_range_end: 2026-08-02
 tags: [relationships, trauma-bond, mental-health, forensic-analysis]
@@ -63035,6 +63200,12 @@ connections:
 ---
 
 # The Unnamed Man
+
+> **ALIAS REMOVED [2026-09-04] — `this person` matched 20 rows of ordinary
+> English.** It was this page's only alias, so removing it makes the page
+> unmatchable by name — which is correct rather than a loss. A page about a man
+> the corpus never names cannot be found by name, and an alias that pretends
+> otherwise does not find him; it finds everybody else.
 
 > **REVISED [2026-08-09] — SUPERSEDED, confirmed.** On 2026-08-08 Dan ran a
 > FOREWARN background lookup that identified
@@ -64118,7 +64289,7 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-07-19
+date_modified: 2026-09-04
 date_range_start: 2017-09-28
 date_range_end: 2017-10-11
 sources:
@@ -64143,6 +64314,16 @@ connections:
 ---
 
 # Contact urpaaa@yahoo.com
+
+> **COUNT CORRECTED [2026-09-04] — 57, not 23.** This page reported the
+> Received-only figure as the whole thread. Dan's 34 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
 
 The owner of `urpaaa@yahoo.com` is one of the corpus's genuinely
 unresolved close relationships: a **teacher** in a **parental register**
@@ -64210,7 +64391,7 @@ discipline: do not speculate past the evidence.
 
 | Metric | Value |
 |---|---|
-| Messages | 23 received (+ Dan's sent side in the complete dump) |
+| Messages | **57** — 34 sent (Dan), 23 received (was: 23) |
 | Date range | 2017-09-28 – 2017-10-11 (stray fragments to 2018-03-17) |
 | Defining event | Accompanying Dan to the Oct 6, 2017 tooth extraction |
 
@@ -64599,7 +64780,7 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-07-19
+date_modified: 2026-09-04
 date_range_start: 2017-05-04
 date_range_end: 2018-05-27
 sources:
@@ -64631,6 +64812,16 @@ connections:
 
 # Vaughn
 
+> **COUNT CORRECTED [2026-09-04] — 582, not 228.** This page reported the
+> Received-only figure as the whole thread. Dan's 354 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
+
 Vaughn was a fellow [[wiki/work/nemacolin-caddying|Nemacolin caddie]]
 (`+17245578229`, 228 messages, May 2017 – May 2018) who doubled as one
 of the smallest documented nodes of the Uniontown
@@ -64647,9 +64838,27 @@ He was a father — deliveries scheduled around "gettin the kids food"
 and getting "the kids off the bus at 3" — and an experienced manual
 worker who found the caddie yard almost restful: "This is the easiest
 job I ever had I'm used to working 12 14 hr days so this a cake walk."
-The record is his side only (all rows marked Received); Dan's messages
-survive nowhere in it, so every exchange below is reconstructed from
-Vaughn's half.
+> **CORRECTED [2026-09-04].** This paragraph read: *"The record is his side
+> only (all rows marked Received); Dan's messages survive nowhere in it, so
+> every exchange below is reconstructed from Vaughn's half."* **Dan's 354
+> messages survive perfectly well**, in the corpus this page did not read. The
+> reconstruction was a workaround for a problem that did not exist.
+>
+> **And his half is the half this page most needed**, because Vaughn is
+> documented here as a supply node and Dan's side is the demand side, dated and
+> quantified in his own words: *"Can I grab another g tonight"* (2018-01-20),
+> *"I'm grabbing some green crack now"* (2018-01-14), *"Is it available now?
+> I'm rdy with the paper but no wheels"* (2018-02-05), *"can i stop over for a
+> g"* (2018-03-18), *"Can I grab a cut"* (2018-02-07). The thread also opens
+> earlier than the page's window and in a different register entirely — *"Yo if
+> u wanna borrow my vape for a few holes lmk"* (2017-05-04), *"Not a fucking
+> chance I get out there today"* (2017-05-11) — which is two caddies before it
+> is anything else.
+>
+> **The prose below is unchanged and was written from one side.** Re-deriving it
+> against the full thread, and carrying the purchase cadence into
+> [[wiki/mind/synthesis/supply-network]], is a pass this correction does not
+> attempt.
 
 ## The yard and the hustle, one channel
 
@@ -64701,7 +64910,7 @@ evidence, not a confirmed instance.
 
 | Metric | Value |
 |---|---|
-| Messages | 228 (all marked Received; his side only) |
+| Messages | **582** — 354 sent (Dan), 228 received (was: 228) |
 | Date range | 2017-05-04 – 2018-05-27 |
 | Product scale | $20–50 quantities; grams and eighths |
 | Exit | Railroad job starting ~2018-05-16 |
@@ -64823,7 +65032,7 @@ domain: people
 page_type: entity
 status: stub
 date_created: 2026-06-23
-date_modified: 2026-07-25
+date_modified: 2026-09-04
 date_range_start: 2017-06-19
 date_range_end: 2017-11-05
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -64843,17 +65052,27 @@ connections:
 
 # Zach Clabaugh
 
+> **COUNT CORRECTED [2026-09-04] — 68, not 26.** This page reported the
+> Received-only figure as the whole thread. Dan's 41 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
+
 Zach Clabaugh is a contact (717 area code — central Pennsylvania, not the usual 724 Fayette County cluster) who appears in the iMessage corpus with 26 messages across a five-month window, June–November 2017. Google Contacts associates the name with a professional email address (Zach.Clabaugh@nwlr.com), suggesting a workplace or professional connection. The sample message — "Yeah that would be great but you could defiantly simplify that" — has a collaborative, project-oriented register.
 
 ## Corpus Dimensions
 
 | Metric | Value |
 |--------|-------|
-| Messages | 26 |
+| Messages | **68** — 41 sent (Dan), 27 received (was: 26) |
 | Date range | 2017-06-19 – 2017-11-05 |
 | Handle | +17173246668 |
 | Email | Zach.Clabaugh@nwlr.com |
-| Direction | All received (export artifact) |
+| Direction | **41 Sent / 27 Received** — corrected 2026-09-04 |
 
 ## Gaps
 
@@ -65167,9 +65386,9 @@ PAGE: wiki/people/zach-hendricks.md
 ---
 domain: people
 page_type: entity
-status: stub
+status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-25
+date_modified: 2026-09-04
 date_range_start: 2018-03-12
 date_range_end: 2018-11-26
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
@@ -65179,17 +65398,40 @@ infobox:
   name: "Zach Hendricks"
   aliases: ["Zaco", "Zack Hendricks"]
   relationship_to_dan: unknown
-  handles: ["+17249123381", "+17247102745"]
+  handles: []   # both now carried on wiki/people/zaco, the canonical page
   location: Fayette County, PA (724 area code)
   first_contact: 2018-03-12
   known_for: "Fayette County contact known as 'Zaco,' active during the 2018 Fran vigil and Annie relationship period"
 connections:
+  - page: wiki/people/zaco
+    type: contradicts
+    claim: "The same man on two pages, unnoticed from 2026-08-20 until 2026-09-04: identical window, identical handle, and this page already listing 'Zaco' as its subject's alias. This page also reported 58 messages where the thread holds 65 — 58 is the Received-only figure, the same one-direction defect that made wiki/people/rod-banks read as 'all received (export artifact)'. wiki/people/zaco is canonical."
   - page: wiki/mind/concepts/contact-gini
     type: instance-of
     claim: "A mid-volume Fayette County contact concentrated in a single 2018 window."
 ---
 
 # Zach Hendricks
+
+> **SUPERSEDED [2026-09-04] — this is [[wiki/people/zaco]], and the wiki carried
+> him twice for six weeks.** Same handle `+17249123381`, same window
+> (2018-03-12 → 2018-11-26), and this page already named "Zaco" as its
+> subject's own alias — nothing connected the two until
+> `bin/wiki-crosslink handles` reported a handle claimed by two pages.
+>
+> **[[wiki/people/zaco]] is now the canonical entity page.** It holds the
+> research this page never had: he is the supply network's only
+> push-marketing node, 58 of 65 messages his, almost all unsolicited inventory
+> advertisements. This page is retained rather than deleted because three pages
+> link to it, on the pattern [[wiki/people/jerel-coles]] and
+> [[wiki/people/the-unnamed-man]] already set.
+>
+> **Two corrections to what is below.** The message count is **65, not 58** —
+> 58 is the Received-only figure, the same one-direction defect that had
+> [[wiki/people/rod-banks]] reading as "all received (export artifact)" until
+> the same day. And of the two Google Contacts numbers, **only
+> `+17249123381` appears in the message corpus at all**; `+17247102745` has
+> zero rows.
 
 Zach Hendricks (self-styled "Zaco") is a Fayette County contact (724 area code, two phone numbers in Google Contacts — one under "Zach," one under "Zack") who appears in the iMessage corpus with 58 messages across an eight-month window, March–November 2018. The timing places the contact squarely in the Fran caregiving and post-death period, and in the middle of the Annie relationship.
 
@@ -65435,12 +65677,12 @@ PAGE: wiki/people/zaco.md
 ---
 domain: people
 page_type: entity
-title: "Zaco"
-aliases: ["zaco"]
+title: "Zach Hendricks (\"Zaco\")"
+aliases: ["zaco", "Zach Hendricks", "Zack Hendricks"]
 status: closed
 knowledge: mixed
 date_created: 2026-08-20
-date_modified: 2026-08-20
+date_modified: 2026-09-04
 date_range_start: 2018-03-12
 date_range_end: 2018-11-26
 tags: [addiction-recovery, uniontown-era, digital-footprint]
@@ -65448,14 +65690,17 @@ sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
 infobox:
-  name: "Zaco"
-  sex: unknown
+  name: "Zach Hendricks"
+  sex: male
   location: uniontown
   relationship_to_dan: dealer
-  handles: ["+17249123381"]
+  handles: ["+17249123381", "+17247102745"]
   first_contact: 2018-03-12
   known_for: "The supply network's only push-marketing node — 58 of 65 messages are his, almost all unsolicited inventory advertisements"
 connections:
+  - page: wiki/people/zach-hendricks
+    type: contradicts
+    claim: "Two pages for one man, and the wiki did not know: identical date range (2018-03-12 to 2018-11-26), the same handle +17249123381, and that page listing 'Zaco' as an alias of its own subject. It also reported 58 messages against this thread's 65, because 58 is the Received-only count. Found 2026-09-04 by bin/wiki-crosslink handles, which flags a handle claimed by two pages. This page is canonical; that one is retained as a pointer."
   - page: wiki/mind/synthesis/supply-network
     type: component-of
     claim: "Zaco is the network's 2018 Suboxone-strip secondary and its only inbound-marketing node: he advertises inventory unprompted rather than being asked, which is the inverse of every other supplier relationship in the corpus."
@@ -65468,6 +65713,21 @@ connections:
 ---
 
 # Zaco
+
+> **IDENTIFIED AND MERGED [2026-09-04].** This page was titled only "Zaco," the
+> name he opens with — *"Yo it's zaco"* (2018-03-12). His name is **Zach
+> Hendricks**, carried since 2026-06-23 on a separate stub at
+> [[wiki/people/zach-hendricks]] that described the same 2018-03-12 → 2018-11-26
+> window, the same handle, and listed "Zaco" as an alias of its own subject.
+> Neither page knew about the other. `bin/wiki-crosslink handles` found it by
+> flagging a handle two pages both claim.
+>
+> **This page is canonical** — it holds the research, the typed edges and eight
+> inbound links — and it now carries the real name and the second Google
+> Contacts number, `+17247102745`, which has **zero rows in the message
+> corpus**. That page is retained as a pointer rather than deleted, on the
+> pattern [[wiki/people/jerel-coles]] and [[wiki/people/the-unnamed-man]]
+> already set.
 
 Zaco is a 2018 Uniontown-area supplier known to the corpus only by the name he
 gives himself in his first message — *"Yo it's zaco"* — and by the handle
@@ -68607,12 +68867,11 @@ PAGE: wiki/self/concepts/ally-and-dan-love-as-destiny.md
 domain: self
 page_type: concept
 title: "Ally and Dan: Love as Destiny"
-aliases: ["destiny", "the love story", "ally-dan timeline", "the courtship", "the case"]
 status: active
 knowledge: earned
 importance: critical
 date_created: 2026-08-19
-date_modified: 2026-08-26
+date_modified: 2026-09-04
 date_range_start: 2011-05-20
 date_range_end: 2026-08-20
 tags: [relationships, attachment, future]
@@ -68646,6 +68905,19 @@ connections:
 ---
 
 # Ally and Dan: Love as Destiny
+
+> **ALIASES REMOVED [2026-09-04] — all five, and every one was an invention.**
+> This page carried `destiny`, `the love story`, `ally-dan timeline`, `the
+> courtship` and `the case`. Checked against both readable corpora: the middle
+> three appear **zero times anywhere**, `destiny` appears three times and every
+> one is the streamer or Destiny's Child, and **`the case` appears 96 times and
+> not one of them is this page** — "if that's the case", the case against Trump,
+> the Chisholm Larsson Gallery. Because `the case` is two tokens it was reported
+> at **high** confidence, and it produced a false candidate on the first
+> conversation scan that ran. The test for an alias is *what the record actually
+> calls this thing*, and the record calls it nothing: it is a name this wiki
+> coined. A page whose subject the corpus has no word for is better with no
+> aliases than with five that match other people's sentences.
 
 > **What this page is.** It is an argument, made on purpose, by one of the two
 > people in it. Everything quoted from a message is real and can be checked
@@ -103157,7 +103429,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,661 events** across **80 years** (1796–2027), drawn from **386 pages**. Tier 1 713 · Tier 2 450 · Tier 3 2,498.
+**3,666 events** across **80 years** (1796–2027), drawn from **386 pages**. Tier 1 713 · Tier 2 450 · Tier 3 2,503.
 
 ## What counts as an event here
 
@@ -104238,7 +104510,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2010-01-03** — one is timestamped by the platform and one was typed into a profile  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **2010-01-03** — facebook — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 10 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 9 pages
 - · **2010-01-03** — t002 — date, location — certain — refuted — The tweet archive has him in Florida for another eight weeks: 'moving to brooklyn in 9 days' (20 Feb 2010), 'last day in errrlando' (27th), 'peace out, florida. it's been real.' (28th)  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2010-01-03** — Places lived  
@@ -104899,7 +105171,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2013-11-29** — The silence begins on 29 November 2013, roughly three months *before* the March 2014 eviction of the first account and more than nine before the window of the second.  
   ↳ [[wiki/people/alexis-armel]] · What this does not establish, stated because it is the tempting move
 - · **2013-11-29** — bond switch 2015 — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
 - · **December 2013** — The Diary of Dan Frank* is an autobiographical claim attached to a trap mix; *Betty Draper* and *A BRIEF HISTORY OF TIME AND BASS* are the same pun-on-a-cultural-object habit the office documents running on television; *helterskelter: race riot music* is a nineteen-sixties reference nobody in that…  
   ↳ [[wiki/interests/music/aliases/sloppp]] · The titles are a source in their own right
 - · **December 2013** — 2 Chainz – Netflix ft. Fergie (SLOPPPED N SCREWED Rework) — Rework (Twitter)  
@@ -106340,8 +106612,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/fred-adams]] · Two smaller results
 - ◆ **May 2017** — Twice Dan evidently weighed what he'd bought and found it light, and twice Vaughn retreated to the same defense: "What did it weight because he said it was 3.5… that's my best friend I got it from and I know he wouldn't do it on purpose" (May 2017), and "I swear I watched him weigh it" against a…  
   ↳ [[wiki/people/vaughn]] · The yard and the hustle, one channel
-- · **May 2017** — eric jester — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 10 pages
 - · **May 2017** — Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two Nemacolin caddying seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a fellow caddie in 2017 who came back for 2018 as **assistant caddie master** — "I'm actually gonna be assistant caddie…  
   ↳ [[wiki/people/davey-fitzpatrick]] · Davey Fitzpatrick
 - · **May 2017** — Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose message thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — sparse check-ins that resurface every year or two, each one picking back up exactly where the last left…  
@@ -106528,7 +106798,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **January 2018** — Yard logistics: "Do u loop tomorrow," "Do you have a report time tomorrow," "Brad said ok" (the caddie master, Brad Hubeaut), "I'm going up now to get my check," and the standing carpool problem — "I'll go up wit you, 1 would be better for me." Supply logistics, same phone, same days: "Once my…  
   ↳ [[wiki/people/vaughn]] · The yard and the hustle, one channel
 - · **2018-01-06** — block unblock loop — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
 - · **2018-01-06** — ← Rick — *"I'm tired of u treating me or thinking about me like Rod Banks or Fred Adams"  
   ↳ [[wiki/people/fred-adams]] · The contemporaneous record — sixteen dated rows nobody had read
 - · **2018-01-06** — And Rick put him in a category.** 2018-01-06, from Rick: *"I'm tired of u treating me or thinking about me like Rod Banks or Fred Adams.  
@@ -107052,7 +107322,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2018-11-05** — Photo: November 5, 2018 birthday-night scene** (taken from vlcsnap-2026-08-09-16h22m50s481.png)  
   ↳ [[wiki/timeline/events/annie-alexis-reunion-november-2018]] · Visual Atmosphere
 - · **2018-11-05** — suzanne frank personality assessment — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
 - · **2018-11-05** — ← Suz — *"I'm going to have to go see judge Adams tomorrow because I'm not going to make it until my next closing"  
   ↳ [[wiki/people/fred-adams]] · The contemporaneous record — sixteen dated rows nobody had read
 - · **2018-11-05** — On **2018-11-05** she goes to him for money to cover an overdraft — *"I'm going to have to go see judge Adams tomorrow because I'm not going to make it until my next closing.  
@@ -107457,7 +107727,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **July 2019** — suzanne frank** — **What happened to the $14,000?** Was any of the remaining ~$10,000 ever repaid, in cash or in kind, after July 2019?  
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **Summer 2019** — 117 belmont circle — places  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-27 — 4 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-27 — 3 pages
 - · **Summer 2019** — t005 — date, quantity — confident — unfalsifiable — Uncorroborated in the message record, which never returns to the subject after Danny's 11 July line. Buyer unknown. A deed search would settle it.  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **July 2019** — The engagement shape is exactly what the rule predicts for an unhostable assignment: dense April–July 2019, near-silent August through November, scattered orders in March 2020, one final burst in April 2020.  
@@ -107850,7 +108120,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2020-05-24** — And on **2020-05-24** at 07:24 she is the one who reports his death: *"I don't know if you will read this or not but Jsyk I found out last night, quite by coincidence, that judge Adams died several days ago."* The corpus has no other record of it.  
   ↳ [[wiki/people/suzanne-frank]] · Her channel is the only record of the man who held the money
 - · **2020-05-24** — annual volume suz — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
 - · **2020-05-26** — Last exchange on **this handle** May 26, 2020 ("text Annie when ready");  
   ↳ [[wiki/people/menore]] · Timeline & Phases
 - ★ **June 2020** — whether contact continued past that point, and whether it survived the eventual end of the Dan/Annie relationship, is undocumented.  
@@ -109722,7 +109992,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **June 2026** — 7-day vacate clause  
   ↳ [[wiki/legal/463-morgantown]] · Timeline
 - · **June 2026** — contact gini — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 16 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 14 pages
 - · **June 2026** — danielle onesi — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-18 — 14 pages
 - · **June 2026** — 337 Saratoga sale ($465k, Suz's transaction)  
@@ -109912,7 +110182,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-07-13** — Whether Target G is the same person as Tuquick is explicitly unresolved — an operator correction on file (2026-07-13) confirms only that Tuquick is the person Annie left Dan for and the person the June closure happened with, and states plainly "we do not know" whether he is also Target G.  
   ↳ [[wiki/people/annie-ulmer]] · A separate thread: Target G
 - · **2026-07-13** — franki faris — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
 - · **2026-07-13** — The page for Franki has carried a standing note since 2026-07-13 that the "July 4" framing used elsewhere in the corpus **had no source anywhere in the archive** and was flagged rather than adopted.  
   ↳ [[wiki/timeline/events/franki-fireworks-day-2013]] · The fireworks date the day, almost
 - · **2026-07-13** — Financial substrate (final dossiers, added 2026-07-13):** the terminal-phase dependency structure — Dan controlling the drug supply while Annie was unemployed and dependent — was the latest of three rotations, per the accepted amendments: Dan funded the early NYC years; Dan worked through the 2023…  
@@ -109930,7 +110200,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-14** — Dan does not hear or process sung lyrics as language in real time — he stated this directly (2026-07-14): words in a song register to him essentially as **timbre**, another textural element of the vocal performance, not as semantic content to be parsed and understood the way lyrics function for…  
   ↳ [[wiki/interests/music/concepts/lyrics-as-timbre]] · Lyrics as Timbre
 - · **2026-07-14** — vanessa frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 10 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-02 — 9 pages
 - · **2026-07-14** — au zaatar — work  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-07-14** — t009 — enumeration — hedged — partial — The tweet archive holds two pieces the list did not: the letter 'A' for Alexis, tattooed 23 January 2010 and eight years earlier than anything on the list, and a Morrissey piece dated by 24 October 2019.  
@@ -109982,7 +110252,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-07-18** — Intervention by her parents and sister; rehab placement refused; car taken  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2026-07-18** — conflict architecture — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 47 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 45 pages
 - · **2026-07-18** — Love affirmations from Annie to Dan — 299  
   ↳ [[wiki/mind/concepts/attachment-model]] · Quantitative Corpus Indicators
 - · **2026-07-18** — "Worthless" instances — 11  
@@ -109993,10 +110263,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/gemini-activity/gemini-activity]] · Session Index
 - · **2026-07-18** — 02 — Au Za'atar Volume I: Tarik, dimitri — Dimitri, DJ, valeria iglesias cid — Valeria, shed build  
   ↳ [[wiki/self/gemini-activity/gemini-activity]] · Session Index
+- · **2026-07-19** — steve kezmarsky — people  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -110150,7 +110422,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-08-02** — A first-person operator capture written on 2026-08-02 supplies the day this relationship consists of, documented in full at franki fireworks day 2013.  
   ↳ [[wiki/people/franki-faris]] · The day itself, and what a 2026 capture settled
 - ◆ **2026-08-02** — teen concert years — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 47 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 45 pages
 - ◆ **2026-08-02** — As of 2026-08-02 it is also known to have a jurisdiction: food and diet shows the axis is never applied to food, which out-mentions music in the message corpus and holds zero of the 2,016 entries in the curated favorites record.  
   ↳ [[wiki/mind/synthesis/single-channel]] · Gaps
 - · **2026-08-02** — Its correction of 2026-08-02 is the hinge: the earlier reading held that food was simply never evaluated, and what replaced it was that food is not *ranked* but is *specified*, totally, with the refusal list consisting precisely of the three items that cannot be picked off afterwards.  
@@ -110162,9 +110434,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-02** — jerel coles** — 4. **What load broke a thirteen-day-held off-switch?** Test the hypothesis above against the 2026-08-02 → 08-08 logs.  
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **2026-08-02** — acquisition drive — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
 - · **2026-08-02** — fran coldren — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 47 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 45 pages
 - · **2026-08-02** — big five psychometrics — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 18 pages
 - · **2026-08-02** — ~~**No audit has been run.**~~ **CLOSED 2026-08-02** — see the enumeration  
@@ -110219,8 +110491,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/concepts/reassurance-architecture]] · The escalation ladder
 - ◆ **2026-08-09** — The childhood-friend layer is documented in the 2026-08-09 extreme-sports capture: Tancredi Calabrese was one of the friends who planned summer ski-camp trips to Windell's in Whistler BC — the month-long destination camp that represented a step up from the regional Seven Springs terrain parks.  
   ↳ [[wiki/people/tan-calabrese]] · Childhood context
+- · **2026-08-09** — tan calabrese — people  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
+- · **2026-08-09** — the unnamed man — people  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
 - · **2026-08-09** — tuquick 17248123683 — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 16 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 14 pages
 - · **2026-08-09** — 113 — 105 — 5.2 — the read-receipt night  
   ↳ [[wiki/mind/concepts/reassurance-architecture]] · The character ratio is a crisis thermometer, and it is the best one found
 - · **2026-08-09** — That argument was built and then withdrawn during the 2026-08-09 session.  
@@ -110272,7 +110548,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-11** — Suz to Dan: *"It's time for you to go."* — the newest datapoint on his housing, from the person who controls it (suzanne frank)  
   ↳ [[wiki/legal/463-morgantown]] · Timeline
 - · **2026-08-11** — rick frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
 - · **2026-08-11** — What the qualification is.** The right distinction is between *volume* and *dependability*, and the mother channel fails the second test on its own record: it alternates rescue with an itemised bill, it produced a $14,000 dispute that ran unresolved for seven years, and on 11 August 2026 it…  
   ↳ [[wiki/mind/synthesis/single-channel]] · RE-CHECKED [2026-08-18]
 - · **2026-08-11** — Confirmation, downgraded 2026-08-11 — the amputation operation.** The  
@@ -110374,11 +110650,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-17** — jerel coles** — 6. **What is *"stuff to ruin you and your mom"* (2026-08-17 12:48)?** The only threat aimed at Suz in the corpus that has no named content. Bluster is the parsimonious reading and there is nothing in `raw/` either way.  
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **2026-08-17** — kristin — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 47 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 45 pages
 - · **2026-08-17** — milo — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 47 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 45 pages
 - · **2026-08-17** — ellen ulmer — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 16 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 14 pages
 - · **2026-08-17** — 374 — 210 — 4.9 — the seventy-hour campaign opens  
   ↳ [[wiki/mind/concepts/reassurance-architecture]] · The character ratio is a crisis thermometer, and it is the best one found
 - · **2026-08-17** — He contacted her **family**, and the family's objection then ran on Ellen's own material — Dan's reputation, *"he has a bad past do you know what he's done to his family"* — which is why the crisis reads as parental rather than romantic and why no account of it before 2026-08-17 had an agent.  
@@ -110418,9 +110694,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-17** — The operator (2026-08-17) places it *"in the text logs on 26 July 2026 at around 7am"*, along with the threatening messages sent from Annie's number in the hours before.  
   ↳ [[wiki/timeline/events/july-august-2026-reentanglement]] · Gaps
 - ★ **2026-08-18** — forensic method — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 47 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 45 pages
 - ★ **2026-08-18** — fran death vigil — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 47 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 45 pages
 - ★ **2026-08-18** — On August 18, 2026, 21:07:43–21:09:11, in the Ally channel: she challenges (*"You just love bomb"*), he runs the redefinition move (*"But love bomb is like a malicious tactic and there very little malice"*), she narrows rather than escalates (*"I didn't say malicious"*), and he concedes in six…  
   ↳ [[wiki/mind/concepts/conflict-architecture]] · The one completed refusal, and how it ends
 - ◆ **2026-08-18** — Clause 3 — "complicit in the length and depth" — gets its clearest single instance, and it is worse than anything previously on the ledger.** On 2026-08-18 at 19:35 Dan told Annie he had sent the recording to her parents; three minutes later he told her he had not, and why: *"it wasn't actually…  
@@ -110442,7 +110718,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-18** — 337 saratoga drive — places  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-22 — 4 pages
 - · **2026-08-18** — 463 morgantown — legal  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 16 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 14 pages
 - · **2026-08-18** — the handed mirror — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 18 pages
 - · **2026-08-18** — 267 — 120 — 6.3 — the false send  
@@ -110510,7 +110786,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-19** — august 2026 morgantown call** — **Did the block hold?** The export ends 2026-08-19 15:15:33, eight minutes after it. Every previous block in this record has a documented reversal.  
   ↳ [[wiki/meta/open-questions]] · timeline (81)
 - · **2026-08-19** — enneagram 5w4 — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 47 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 45 pages
 - · **2026-08-19** — The strongest is the **asymmetric clearing** — on 2026-08-19 at 06:33 Annie publicly cleared Coles of rape in a group chat, having agreed by phone to do the same for Dan, and did not.  
   ↳ [[wiki/mind/synthesis/august-grievance-verdict]] · LLM Quick Brief
 - · **2026-08-19** — The strongest — Annie publicly clearing Coles of rape in a group chat on 2026-08-19 at 06:33 having agreed by phone to clear Dan and not doing so — is the cleanest documented wrong in the corpus, because it required no interpretation: one act was performed and its promised counterpart was not.  
@@ -110537,14 +110813,16 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/read-receipt-forensics]] · RE-CHECKED [2026-08-20] — M4 gains its best real-world case, and the flagship example's scope was an artifact
 - ◆ **2026-08-20** — iMessage triple-handle archive on disk  
   ↳ [[wiki/people/annie-ulmer]] · By the numbers
+- · **2026-08-20** — james dee — people  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
 - · **2026-08-20** — arrangement history — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 47 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 45 pages
 - · **2026-08-20** — alexander jackson — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 16 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 14 pages
 - · **2026-08-20** — arnu — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 16 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 14 pages
 - · **2026-08-20** — john carney — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 16 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 14 pages
 - · **2026-08-20** — Operator interpretation added [2026-08-20]:** The manual note says the *"I just want to be alone"* / *"by myself"* formulation is a recurring theme and, in the operator's interpretation, functions as a way to avoid accepting responsibility for the resulting situation while still obtaining the…  
   ↳ [[wiki/mind/synthesis/august-grievance-verdict]] · What this says about Annie
 - · **2026-08-20** — Filed 2026-08-20.** This amendment exists because the original event page was written while the audio had not yet been directly transcribed in the corpus.  
@@ -110560,7 +110838,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-21** — Her own page carries the correction: two independent 2026-08-21 passes concluded she has no type at all, a finding that could only be made once the datum stopped living only on a five-day rebound's page and was carried on her own page as well.  
   ↳ [[wiki/meta/journeys/the-type-machine]] · The control case: typed, then found untyped
 - · **2026-08-21** — fastly fsly — work  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 47 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 45 pages
 - · **2026-08-21** — wiki brain — self  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-08-21** — The trend-detection lead is the same function seen from outside, and Dan prices it precisely in the love letter of 2026-08-21 — the only document in the corpus where he states what the attraction actually is:  
@@ -110578,27 +110856,27 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-22** — 155 virginia ave — places  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 18 pages
 - · **2026-08-22** — deviance mapping — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 47 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 45 pages
 - · **2026-08-22** — ally lubin — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 47 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 45 pages
 - · **2026-08-22** — attachment model — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 15 pages
 - · **2026-08-22** — It does not settle *when* beyond "recent," and it does not answer the transmission question the gap also asked: whether Ally sent the screenshot to Dan directly, or he obtained it some other way, is still undocumented. "Recent" against a 2026-08-22 capture puts the test somewhere in mid-2026 and no…  
   ↳ [[wiki/people/ally-lubin-cognitive-profile]] · The instrument, and what it is worth
 - ★ **2026-08-23** — the cool metric — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
 - ◆ **2026-08-23** — The replacement gap is narrower and answerable by a decision rather than a query: *will such a log be kept, starting when?* 2. ~~**No release catalogue, no platform links, no streaming figures** for any of the four music aliases.~~ **CLOSED [2026-08-23], and it changed Part VI as predicted — in the…  
   ↳ [[wiki/mind/synthesis/failure-to-launch]] · Gaps
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
 - · **2026-08-23** — calibrated confidence — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
 - · **2026-08-23** — overview — interests  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 33 pages
 - · **2026-08-23** — closing the set — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 47 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 45 pages
 - · **2026-08-23** — annie ulmer personality assessment — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 47 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 45 pages
 - · **2026-08-23** — johnny dealer — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 15 pages
 - · **2026-08-23** — 1. ~~**No calibration test has been run**, though the data for it exists.~~ **CLOSED [2026-08-23], as a negative result.** The data does not exist: of 24 strict graded credences across eleven years, one is resolvable and it resolved false.  
@@ -110614,7 +110892,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-26** — Read against the two curated batches above (Axis A "pretty," Axis B "stupid"), the analyst profile, and the Battery, three structures repeat across all of them and are the actual finding of the 2026-08-26 session:  
   ↳ [[wiki/interests/language/vocabulary-lexicon]] · Full cross-cutting analysis
 - · **2026-08-26** — suzanne frank — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
+- · **2026-08-26** — ally and dan love as destiny — self  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
 - · **2026-08-26** — dan annie fallout verdict — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 18 pages
 - · **2026-08-26** — fayette return — mind  
@@ -110626,17 +110906,15 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-26** — supply network — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 18 pages
 - · **2026-08-26** — axioms — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 47 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 45 pages
 - · **2026-08-26** — the cato seat — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 47 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 45 pages
 - · **2026-08-26** — jerad friedline — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 47 pages
-- · **2026-08-26** — ally and dan love as destiny — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 47 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 45 pages
 - · **2026-08-26** — astrology star signs — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 47 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 45 pages
 - · **2026-08-26** — 2020 2021 market era — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 47 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 45 pages
 - · **2026-08-26** — On 2026-08-26 he ran a session generating graded insult and praise batches and then selected from the pool, and the selections are recorded in full at vocabulary lexicon.  
   ↳ [[wiki/mind/profile/linguistic-profile]] · The insult register is built, not reached for
 - · **2026-08-26** — The August 26, 2026 update introduces a potentially important counterexample.  
@@ -110656,11 +110934,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — chemical architecture — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
 - · **2026-08-28** — estate money spine — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
 - · **2026-08-28** — the unbroken bond — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
 - · **2026-08-28** — cocaine — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 4 pages
 - · **2026-08-28** — alias as periodization — mind  
@@ -110732,9 +111010,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-09-02** — The git log read as a record of *operations* rather than saves  
   ↳ [[wiki/meta/instruments/index]] · The measures
 - · **2026-09-02** — sloppp — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
 - · **2026-09-02** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
+- · **2026-09-02** — eric jester — people  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
 - · **2026-09-02** — 2020 left turn — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 33 pages
 - · **2026-09-02** — failure to launch — mind  
@@ -110761,8 +111041,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/favorites/music/artists/jedi-mind-tricks]] · Notes per appearance
 - · **2026-09-04** — Assembled 2026-09-04 from the twitter archive.  
   ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
+- · **2026-09-04** — intensity is no longer the only mode — mind  
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
 - · **2026-09-04** — the deferred audit — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 60 pages
 - · **2026-09-04** — an AI reading of the above  
   ↳ [[wiki/people/alexis-armel]] · The record
 - · **2026-09-04** — Six dated messages from her name Judge Fred Adams — the trustee of the Coldren accounts and, until 2026-09-04, a figure whose page said every fact about him came from Dan's narration.  
@@ -110783,7 +111065,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 386 wiki pages. 3,910 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 386 wiki pages. 3,915 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================

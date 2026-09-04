@@ -4,7 +4,7 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-07-19
+date_modified: 2026-09-04
 date_range_start: 2017-05-21
 date_range_end: 2018-11-02
 sources:
@@ -36,6 +36,16 @@ connections:
 
 # Davey Fitzpatrick
 
+> **COUNT CORRECTED [2026-09-04] — 775, not 382.** This page reported the
+> Received-only figure as the whole thread. Dan's 393 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
+
 Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine
 friend across the two [[wiki/work/nemacolin-caddying|Nemacolin caddying]]
 seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a
@@ -53,7 +63,20 @@ living will be lol … Are you selling your place?" — and signing off with
 "Well good luck dude, I wish you guys the best." Dan was in the city
 within the week, and the thread never resumes.
 
-The record is his side only (every row marked Received); Dan's voice
+> **CORRECTED [2026-09-04].** This paragraph said the record was *"his side
+> only (every row marked Received)"* and that Dan's voice survived only in the
+> tapback quotes Davey reacted to. **393 messages from Dan are in the corpus
+> this page did not read** — *"Yo loc, u ever loop for teig boyle?"*
+> (2017-05-21), *"I have 9 report"* (2017-07-24), *"you know i'm back fam.
+> ready for a wavy summer"* (2018-03-19), *"Bro what a no brainer"*
+> (2018-08-04). The tapback-reconstruction method was ingenious and was
+> answering a question that had a direct answer.
+>
+> **The prose below is unchanged and was written from one side.** The
+> reconstructed quotes are still correct; they are simply no longer the only
+> thing available.
+
+The tapbacks below remain as originally written — Dan's voice
 survives in the messages Davey reacted to — Likes, Laughs, and Emphasis
 quotes — which happen to preserve some of the corpus's better caddie-era
 Dan lines ("He's the Pablo Picasso of Mid-Atlantic Polynesian caddies";
@@ -121,7 +144,7 @@ consistent feature — every missed shift answered with some version of
 
 | Metric | Value |
 |---|---|
-| Messages | 382 (all marked Received; his side, Dan's voice in reaction-quotes) |
+| Messages | **775** — 393 sent (Dan), 382 received (was: 382) |
 | Date range | 2017-05-21 – 2018-11-02 |
 | Role | Fellow caddie (2017) → assistant caddie master (2018) |
 | Report-time messages | ~20, March–October 2018 |

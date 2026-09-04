@@ -4,7 +4,7 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-07-19
+date_modified: 2026-09-04
 date_range_start: 2017-05-04
 date_range_end: 2018-05-27
 sources:
@@ -36,6 +36,16 @@ connections:
 
 # Vaughn
 
+> **COUNT CORRECTED [2026-09-04] — 582, not 228.** This page reported the
+> Received-only figure as the whole thread. Dan's 354 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
+
 Vaughn was a fellow [[wiki/work/nemacolin-caddying|Nemacolin caddie]]
 (`+17245578229`, 228 messages, May 2017 – May 2018) who doubled as one
 of the smallest documented nodes of the Uniontown
@@ -52,9 +62,27 @@ He was a father — deliveries scheduled around "gettin the kids food"
 and getting "the kids off the bus at 3" — and an experienced manual
 worker who found the caddie yard almost restful: "This is the easiest
 job I ever had I'm used to working 12 14 hr days so this a cake walk."
-The record is his side only (all rows marked Received); Dan's messages
-survive nowhere in it, so every exchange below is reconstructed from
-Vaughn's half.
+> **CORRECTED [2026-09-04].** This paragraph read: *"The record is his side
+> only (all rows marked Received); Dan's messages survive nowhere in it, so
+> every exchange below is reconstructed from Vaughn's half."* **Dan's 354
+> messages survive perfectly well**, in the corpus this page did not read. The
+> reconstruction was a workaround for a problem that did not exist.
+>
+> **And his half is the half this page most needed**, because Vaughn is
+> documented here as a supply node and Dan's side is the demand side, dated and
+> quantified in his own words: *"Can I grab another g tonight"* (2018-01-20),
+> *"I'm grabbing some green crack now"* (2018-01-14), *"Is it available now?
+> I'm rdy with the paper but no wheels"* (2018-02-05), *"can i stop over for a
+> g"* (2018-03-18), *"Can I grab a cut"* (2018-02-07). The thread also opens
+> earlier than the page's window and in a different register entirely — *"Yo if
+> u wanna borrow my vape for a few holes lmk"* (2017-05-04), *"Not a fucking
+> chance I get out there today"* (2017-05-11) — which is two caddies before it
+> is anything else.
+>
+> **The prose below is unchanged and was written from one side.** Re-deriving it
+> against the full thread, and carrying the purchase cadence into
+> [[wiki/mind/synthesis/supply-network]], is a pass this correction does not
+> attempt.
 
 ## The yard and the hustle, one channel
 
@@ -106,7 +134,7 @@ evidence, not a confirmed instance.
 
 | Metric | Value |
 |---|---|
-| Messages | 228 (all marked Received; his side only) |
+| Messages | **582** — 354 sent (Dan), 228 received (was: 228) |
 | Date range | 2017-05-04 – 2018-05-27 |
 | Product scale | $20–50 quantities; grams and eighths |
 | Exit | Railroad job starting ~2018-05-16 |

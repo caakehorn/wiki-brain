@@ -307,7 +307,69 @@ most-messaged person in the corpus is genuinely frequent in it. Dispersion was
 tried as a fix and abandoned: 504 handles, most of them a handful of messages,
 so even `say` reaches only 14.7% of conversations and nothing separates.
 
-## Phase 0.5 — populate `aliases:` — **the first content task**
+## Phase 0.5, rescoped and half-done — **2026-09-04**
+
+Two measurements changed what this phase is.
+
+### It is 281 pages, not 389
+
+389 pages carry no `aliases:`, and that number was the estimate. But
+**concept and synthesis page names are wiki coinages a corpus cannot contain**
+— "the input clamp", "rooting for the fire" — so an alias on one of those is
+navigation, not a corpus name, and no amount of writing them will make a scan
+find anything. Excluding the page types no source could ever name:
+
+| page type | no aliases | has aliases |
+|---|---|---|
+| **entity** | **208** | 36 |
+| period | 32 | 0 |
+| event | 27 | 10 |
+| summary | 20 | 1 |
+| report | 14 | 1 |
+| *concept* | *18* | *20* |
+| *synthesis* | *40* | *21* |
+| *(index, journey, chat, note)* | *27* | *3* |
+
+**281 pages a corpus could plausibly name, 208 of them entity pages.** That is
+where the phase's value is, and it is where the second half lives too.
+
+### The other half is `handles:`, and it buys more per entry
+
+An alias buys a name match. A **handle** buys the entire conversation with that
+person — `scan --conversation`, above. `bin/wiki-crosslink handles` is the
+coverage view:
+
+| | |
+|---|---|
+| people pages whose handle resolves into a message corpus | **30** (41,349 rows) |
+| pages declaring a handle the corpus does not have | 7 |
+| **people pages carrying no `handles:` at all** | **138** |
+
+### And the aliases that already exist needed grading, not counting
+
+`entities --audit`. Of 326 declared aliases, **233 appear zero times in any
+readable corpus** — and reporting that as a defect would be the mistake, for the
+same reason as above: they are coinages doing the navigation job, they match
+nothing, and they cost nothing.
+
+**Six were doing neither job, and four are now deleted.**
+
+| Alias | Page | Rows matched | How many were the subject |
+|---|---|---|---|
+| `the case` | `ally-and-dan-love-as-destiny` | 96 | **0** |
+| `the drive` | `acquisition-drive` | 48 | **0** |
+| `the Dude` | `people/james-dee` | 18 | **0** |
+| `this person` | `people/the-unnamed-man` | 20 | **0** |
+| `Anne Ulmer` | `people/annie-ulmer` | 415 | correct — her name |
+| `Google AI` | `self/concepts/gemini` | 4 | **correct** — how he writes about it |
+
+Every one of the four was reported at **high** confidence, because the
+confidence rule is "more than one token". **A wrong alias is worse than a
+missing one**: a missing alias makes the index blind, an ordinary-English alias
+makes it confidently wrong. The two survivors were kept by *reading the rows*,
+which is why the audit flags rather than deletes.
+
+## Phase 0.5 — populate `aliases:` — **the remaining work**
 
 389 pages, none of which the index can find under any name but their exact
 title. This is the cheapest work in the campaign and it gates everything after
@@ -318,6 +380,23 @@ The test for an alias is not "what could this be called" but **"what does the
 record actually call it"** — `o&a` and `@OpieRadio` are aliases because they
 appear in the corpus; "the Opie and Anthony Show" is not, because nothing
 writes that.
+
+## The self-limit check that came out of Phase 3 — **`counts`, 2026-09-04**
+
+A page's stated `| Messages |` figure against the corpus its handle resolves
+into. **The defect had been found by hand four times and never by a tool** —
+`bruce-burish` and `zach-clingan` carry corrections saying the stated number "is
+exactly the received count", and `rod-banks` and `zach-hendricks` made it four.
+
+`bin/wiki-crosslink counts` found **thirteen more**, nine understating by exactly
+the Received-only figure. `wiki/people/vaughn`: **228 stated, 582 actual, 354 of
+Dan's own messages uncounted** — on a page that said they "survive nowhere in
+it". All thirteen are corrected; none has had its prose re-derived, and each
+says so.
+
+**The generalisable shape**: a page that explains an absence in its evidence
+("export artifact", "his side only") is making a checkable claim about a corpus,
+and the explanation is more often the artefact than the absence is.
 
 ## Phase 1 — drain the 77 one-way edges
 

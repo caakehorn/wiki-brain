@@ -2,7 +2,7 @@
 domain: mind
 page_type: concept
 title: "The Acquisition Drive"
-aliases: ["the drive", "complete objective", "resilience for the goal"]
+aliases: ["complete objective", "resilience for the goal"]
 status: active
 importance: high
 knowledge: earned
@@ -69,6 +69,12 @@ connections:
 ---
 
 # The Acquisition Drive
+
+> **ALIAS REMOVED [2026-09-04] — `the drive` matched 48 rows and none was this
+> concept.** Car journeys, hard drives, "I think the drive throughs are". Two
+> tokens, so it was reported at high confidence and surfaced as a candidate on
+> the Suz conversation scan. The concept's name is this wiki's coinage; the
+> record has no phrase for it.
 
 Once Dan Frank converts a want into a decided outcome, the pursuit of it runs
 to completion more or less independently of cost, risk, proportion or

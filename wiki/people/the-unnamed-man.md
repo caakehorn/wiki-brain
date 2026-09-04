@@ -2,12 +2,12 @@
 domain: people
 page_type: entity
 title: "The Unnamed Man"
-aliases: ["the third party", "him", "this person"]
+aliases: ["the third party", "him"]
 status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-09
+date_modified: 2026-09-04
 date_range_start: 2026-07-25
 date_range_end: 2026-08-02
 tags: [relationships, trauma-bond, mental-health, forensic-analysis]
@@ -51,6 +51,12 @@ connections:
 ---
 
 # The Unnamed Man
+
+> **ALIAS REMOVED [2026-09-04] — `this person` matched 20 rows of ordinary
+> English.** It was this page's only alias, so removing it makes the page
+> unmatchable by name — which is correct rather than a loss. A page about a man
+> the corpus never names cannot be found by name, and an alias that pretends
+> otherwise does not find him; it finds everybody else.
 
 > **REVISED [2026-08-09] — SUPERSEDED, confirmed.** On 2026-08-08 Dan ran a
 > FOREWARN background lookup that identified

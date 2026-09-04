@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-07-20
+date_modified: 2026-09-04
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
 tags: [career, digital-footprint]
@@ -19,6 +19,16 @@ connections:
 ---
 
 # Shannon
+
+> **COUNT CORRECTED [2026-09-04] — 43, not 23.** This page reported the
+> Received-only figure as the whole thread. Dan's 15 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
 
 Shannon is a real estate agent who hired Dan for drone photography and
 videography work over a roughly two-month window, November 2018 to
@@ -40,7 +50,7 @@ continued past that point.
 
 | Metric | Value |
 |---|---|
-| Messages | 23 (iMessage, Shannon's side only) |
+| Messages | **43** — 15 sent (Dan), 28 received (was: 23) |
 | Date range | 2018-11-10 – 2019-01-11 |
 | Defining content | Drone photo/video delivery for real estate listings |
 

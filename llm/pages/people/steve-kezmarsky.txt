@@ -4,7 +4,7 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-07-19
+date_modified: 2026-09-04
 date_range_start: 2017-01-20
 date_range_end: 2018-01-31
 sources:
@@ -37,6 +37,16 @@ connections:
 ---
 
 # Steve Kezmarsky
+
+> **COUNT CORRECTED [2026-09-04] — 162, not 66.** This page reported the
+> Received-only figure as the whole thread. Dan's 96 messages to this contact
+> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
+> did not read; they were never missing from the record. Found by
+> `bin/wiki-crosslink counts`, built the same day after the same defect was
+> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
+> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
+> hours earlier. **Thirteen pages were wrong the same way.** The prose below
+> was written against the smaller, one-sided thread and has not been re-derived.
 
 Steve Kezmarsky is a high-school-era Uniontown friend whose 66-message
 thread (handle `+17244157286`, January 2017 – January 2018) documents
@@ -116,7 +126,7 @@ of Steve crossing that line, held in the register of a running joke.
 
 | Metric | Value |
 |---|---|
-| Messages | 66 (all marked Received; his side of the exchange) |
+| Messages | **162** — 96 sent (Dan), 66 received (was: 66) |
 | Date range | 2017-01-20 – 2018-01-31 |
 | Status at last mention | Alive, sober, two kids (2018-12-09, Jim Shaffer thread) |
 | Father | Arrested 2018-01-22; expected life sentence per Dec 2018 |

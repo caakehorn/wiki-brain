@@ -338,3 +338,84 @@ class CommonPhraseFlag(unittest.TestCase):
             n = self.m.render_hits("wiki/x", hits, idx)
         self.assertEqual(n, 1)
         self.assertIn("fall-out-boy", buf.getvalue())
+
+
+class MessageCountCheck(unittest.TestCase):
+    """A page's stated message count against the corpus its handle resolves into.
+
+    The defect had been found by hand four times before anything checked for it:
+    `bruce-burish` ("181 is exactly the received count"), `zach-clingan` ("22 is
+    exactly"), then `rod-banks` (41 stated, 92 actual) and `zach-hendricks` (58,
+    65) on 2026-09-04. The sweep that followed found **13 more**, nine of them
+    understating by exactly the Received-only figure — `wiki/people/vaughn`
+    stated 228 against 582, with 354 of Dan's own messages uncounted while the
+    page said they "survive nowhere".
+    """
+
+    def setUp(self):
+        self.m = load_module()
+
+    def test_the_count_and_direction_patterns_match_the_house_table(self):
+        txt = "| Messages | **348** — 167 sent (Dan), 181 received |\n"
+        m = self.m.MSG_COUNT_RE.search(txt)
+        self.assertIsNotNone(m)
+        self.assertEqual(m.group(1), "348")
+
+    def test_a_plain_count_matches(self):
+        m = self.m.MSG_COUNT_RE.search("| Messages | 41 |\n")
+        self.assertEqual(m.group(1), "41")
+
+    def test_a_thousands_separator_survives(self):
+        m = self.m.MSG_COUNT_RE.search("| Messages | 1,253 |\n")
+        self.assertEqual(m.group(1).replace(",", ""), "1253")
+
+    def test_a_count_naming_another_corpus_is_excluded(self):
+        """christo-coan's '~50 (Facebook Messenger, both directions)' is correct.
+
+        The first version of this check called it a 44-message error, because it
+        compared a Facebook figure against an iMessage thread.
+        """
+        m = self.m.MSG_COUNT_RE.search("| Messages | ~50 (Facebook Messenger, both directions) |\n")
+        self.assertTrue(self.m.OTHER_CORPUS.search(m.group(2)))
+        m2 = self.m.MSG_COUNT_RE.search("| Messages | 228 |\n")
+        self.assertFalse(self.m.OTHER_CORPUS.search(m2.group(2) or ""))
+
+    def test_direction_line_is_found(self):
+        d = self.m.MSG_DIR_RE.search("| Direction | All received (export artifact) |\n")
+        self.assertEqual(d.group(1), "All received (export artifact)")
+
+
+class AliasAudit(unittest.TestCase):
+    """Are the aliases we already have any good?
+
+    233 of 326 declared aliases appear zero times in any readable corpus, and
+    reporting that as a defect would be the mistake: `aliases:` does two jobs
+    here — what the record calls a thing (corpus-matchable) and what a reader
+    might call a page (a coinage, which no corpus can contain). A zero-hit alias
+    is doing the second job and costs nothing. The six ordinary-English ones
+    were the whole problem: `the case` matched 96 rows and none was the concept.
+    """
+
+    def setUp(self):
+        self.m = load_module()
+
+    def test_concept_and_synthesis_are_not_corpus_nameable(self):
+        self.assertNotIn("concept", self.m.CORPUS_NAMEABLE)
+        self.assertNotIn("synthesis", self.m.CORPUS_NAMEABLE)
+        self.assertIn("entity", self.m.CORPUS_NAMEABLE)
+        self.assertIn("event", self.m.CORPUS_NAMEABLE)
+
+    def test_the_deleted_aliases_are_gone_from_the_corpus_index(self):
+        """The four removed on 2026-09-04, pinned so they cannot come back."""
+        pages = self.m.load_pages()
+        idx = self.m.build_index(pages)
+        for slug, dead in (
+            ("wiki/self/concepts/ally-and-dan-love-as-destiny", "the case"),
+            ("wiki/mind/concepts/acquisition-drive", "the drive"),
+            ("wiki/people/james-dee", "the dude"),
+            ("wiki/people/the-unnamed-man", "this person"),
+        ):
+            names = [n.lower() for n, _c in idx[slug]["names"]]
+            self.assertNotIn(dead, names,
+                             "%s got %r back — it matches ordinary English and "
+                             "none of the hits are the subject" % (slug, dead))
