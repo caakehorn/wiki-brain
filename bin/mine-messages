@@ -18,9 +18,16 @@ them has already produced a false measurement during development:
    text.** A pattern written `i'm` misses the majority of its own matches. All
    text is normalised through `norm()` before matching, and patterns should be
    written against the normalised (straight-quote, lowercase) form.
-3. **Direction is reliable here and nowhere else.** `MASTER_MESSAGES_DB_DUMP.csv`
-   marks nearly everything `Received`; this dump splits 106,629 Sent /
-   110,944 Received. Any claim about what *Dan* said must come from this file.
+3. **Direction is reliable here; the counterparty is reliable ONLY here.** This
+   dump splits 106,629 Sent / 110,944 Received. An earlier version of this note
+   said `MASTER_MESSAGES_DB_DUMP.csv` "marks nearly everything Received" — as
+   that file stands it splits 88,988 / 86,370, so direction is fine there too.
+   What is not fine is *who*: 69,869 of its Sent rows carry no
+   `contact_handle` at all. The CSV can say what Dan wrote and, four times in
+   five, not to whom, which makes it sound for a corpus-wide claim and unsound
+   for a per-relationship one. Note also that the two files are not two exports
+   of one thing — 50,396 rows exist only in the CSV, including **all of 2026**,
+   which this dump does not reach at all (see CROSSLINK_CAMPAIGN.md).
 
 Subcommands
 -----------

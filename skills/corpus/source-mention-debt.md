@@ -12,6 +12,7 @@ sources:
   - wiki/health/chemical-architecture.md — "Nicotine: eighteen years, five delivery systems"
   - wiki/interests/music/aliases/sloppp.md — "The twitter archive roughly triples the documented 2013 output"
   - bin/wiki-crosslink
+  - tests/test_wiki_crosslink.py
 validated: 2026-09-04
 supersedes: []
 ---
@@ -98,7 +99,19 @@ original ask was explicitly for those. This skill covers the mechanical half
 only; the conceptual half is a reading job and always will be.
 
 **It only reads corpora it has a reader for.** `CORPORA` in `bin/wiki-crosslink`
-currently holds one entry, the twitter archive. The message dump, the Facebook
-export and the YouTube history are all unread by it, and
-`wiki/interests/music/overview` carries absence claims derived from the first of
-those that have never been checked either way.
+holds three entries as of 2026-09-04 — the twitter archive and both message
+exports, the latter two by importing `bin/mine-messages`' reader rather than
+writing a second one, which is the only way to inherit that file's three traps
+instead of its interface. The Facebook export, the YouTube history, the Gemini
+activity, the concert table and the favorites list are all still unread, and
+`wiki/interests/music/overview` carries absence claims derived from the message
+corpus that have never been checked either way.
+
+**A string two pages both claim is evidence for neither.** `@alexisarmel` is in
+one person's `aliases:` and in another's infobox `handles:`; 85 rows about the
+first came back as 101 mentions of the second. `scan` now marks such candidates
+`contested`, and a contested candidate is not a candidate until the row is read.
+
+**The moratorium binds the candidate column too.** It was enforced on the page
+being scanned and not on the pages being offered as targets, which is the same
+worklist. Fixed and pinned in `tests/test_wiki_crosslink.py`.
