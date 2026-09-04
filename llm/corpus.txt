@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-04
-498 pages, ~1,896,637 tokens.
+498 pages, ~1,897,112 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -2641,7 +2641,7 @@ The capture opens with a bracket instruction to lay out the growing mainstream p
 
 Dan aligned most closely with the freeskiing culture and was specifically a product of the **Tanner Hall era**. This was the moment when the skill threshold in slopestyle terrain-park skiing blew out: in a span of a few years, the top-tier hits went from Johnny Mosely doing a basic rotation to Candide Thovex corking 450s onto flat-down rails with style. The capture frames this as a skill-expansion window that matched Dan's own adolescent development curve.
 
-The Tanner Hall era also names the local mountain where this played out: **Seven Springs**, where Dan's family owned a ski-in-ski-out condo in the Villages — unit K2. The resort's park infrastructure grew dramatically across Dan's skiing years. When he started, there was one park on the north face with a 12-foot halfpipe (always beat up, placed with so little run-in it was nearly useless), a rope tow so hiking was unnecessary, and a slopestyle section with 3–4 features — two small jumps where any inversion was precarious, and two real park rails (usually a flat bar or flat down). The grom park was five-foot boxes hit by nine-year-olds with Volkl racing skis and full-face helmets who never attempted spins.
+The Tanner Hall era also names the local mountain where this played out: **[[wiki/places/seven-springs|Seven Springs]]**, where Dan's family owned a ski-in-ski-out condo in the Villages — unit K2. The resort's park infrastructure grew dramatically across Dan's skiing years. When he started, there was one park on the north face with a 12-foot halfpipe (always beat up, placed with so little run-in it was nearly useless), a rope tow so hiking was unnecessary, and a slopestyle section with 3–4 features — two small jumps where any inversion was precarious, and two real park rails (usually a flat bar or flat down). The grom park was five-foot boxes hit by nine-year-olds with Volkl racing skis and full-face helmets who never attempted spins.
 
 By the 2006 season, Seven Springs had become the "premiere terrain park of the mid-Atlantic" with a full dedicated slopestyle run containing several dozen features. The capture credits the Nuttings' takeover with the budget infusion that made it happen: an Olympic-sized pipe cutter, real park crews who knew how to build hits, and money flooding in.
 
@@ -2653,13 +2653,13 @@ Tom Wallisch — the skier who would define the 2007–2012 era of freeskiing �
 
 In the summer, rollerblading filled the same identity function skiing held in winter. Two annual events were "as good for me as Christmas":
 
-**Vans Skatepark: Potomac Mills Mall.** For three years (probably 2001–2003), Dan's birthday party was a weekend-long excursion to the Vans Skatepark a few hours away. Suz would load 5–6 kids in the car, leave right after school Friday, and return Monday morning at about 1 AM. The trip was taken in conjunction with the Kraus family — Matt Kraus was probably Dan's closest childhood friend, and the Krauses owned a condo a couple hundred feet away at Seven Springs. The Kraus kids and Dan's friends had overlapping extreme-sports interest; the Krauses went to Catholic school and ran a different broader friend group, so the logistics breakdown was: Krauses bring 3, Dan brings 5, Suz and Kathy Kraus handle organization for all three years.
+**Vans Skatepark: Potomac Mills Mall.** For three years (probably 2001–2003), Dan's birthday party was a weekend-long excursion to the Vans Skatepark a few hours away. Suz would load 5–6 kids in the car, leave right after school Friday, and return Monday morning at about 1 AM. The trip was taken in conjunction with the Kraus family — [[wiki/people/matt-kraus|Matt Kraus]] was probably Dan's closest childhood friend, and the Krauses owned a condo a couple hundred feet away at Seven Springs. The Kraus kids and Dan's friends had overlapping extreme-sports interest; the Krauses went to Catholic school and ran a different broader friend group, so the logistics breakdown was: Krauses bring 3, Dan brings 5, Suz and Kathy Kraus handle organization for all three years.
 
 One year Dan insisted on buying the biggest LoveSac circular cushion and used it as a bed. A year or two later he lost his virginity on it. "It was a very crowded ride home with that and 5 kids lol."
 
 **Camp Woodward.** Four summers were spent at Camp Woodward in Pennsylvania — three for rollerblading, the fourth for the newly created ski camp. Woodward was a gymnastics camp, which meant buildings full of massive rec-trampolines; the trampoline training was already Dan's primary summer ski training before Woodward formalized a ski program. Staff at Windell's in Whistler BC — the more aspirational destination — were mid-level name pro skiers; Woodward staff were gymnastics coaches. The capture draws the cultural distinction sharply: "no campers were bringing weed to camp woodward...not true of Windell's."
 
-Dan attended with Matt Kraus and Nathan King for the first three years. On year three, Matt Kraus broke his arm trying a front flip on the outdoor concrete near the Cloud 9 park.
+Dan attended with Matt Kraus and [[wiki/people/nathan-king|Nathan King]] for the first three years. On year three, Matt Kraus broke his arm trying a front flip on the outdoor concrete near the Cloud 9 park.
 
 ## Class and disposable income
 
@@ -4831,8 +4831,8 @@ The following live appearances are drawn from the consolidated concert table and
 | Nov 19, 2007 | Fall Out Boy | Mohawk Place | Buffalo, NY | ~300-cap sellout under Office alias 'Schrute Farms'; full Take This to Your Grave; Keith Buckley guest on Pantera 'Walk'. |
 | Dec 12, 2008 | Multi-act show | House of Blues | Orlando, FL | Resolved. XL 106.7 'XL-ent Electric Xmas'. |
 
-- **Aug 1, 2005** — Vans Warped Tour, Post-Gazette Pavilion, Burgettstown, PA. Warped Tour date. Lineup included Fall Out Boy, Alexisonfire, Gogol Bordello, Hawthorne Heights.
-- **Sep 28 - Nov 23, 2005** — Nintendo Fusion Tour, Various (tour), Multiple cities. Confirmed tour window.
+- **Aug 1, 2005** — [[wiki/interests/concert-record/festivals/vans-warped-tour|Vans Warped Tour]], Post-Gazette Pavilion, Burgettstown, PA. Warped Tour date. Lineup included Fall Out Boy, Alexisonfire, Gogol Bordello, Hawthorne Heights.
+- **Sep 28 - Nov 23, 2005** — [[wiki/interests/concert-record/festivals/nintendo-fusion-tour|Nintendo Fusion Tour]], Various (tour), Multiple cities. Confirmed tour window.
 - **Feb 6, 2007** — Fall Out Boy, Times Square (TRL), New York, NY. Infinity On High release-day free show; same-day free shows also in Chicago & LA.
 - **Nov 19, 2007** — Fall Out Boy, Mohawk Place, Buffalo, NY. ~300-cap sellout under Office alias 'Schrute Farms'; full Take This to Your Grave; Keith Buckley guest on Pantera 'Walk'.
 - **Dec 12, 2008** — Multi-act show, House of Blues, Orlando, FL. Resolved. XL 106.7 'XL-ent Electric Xmas'.
@@ -5416,7 +5416,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 
 ## Notes per appearance
 
-- **Apr 29 - May 1, 2011** — The Bamboozle 2011, New Meadowlands Stadium, East Rutherford, NJ. Festival edition. Lineup included Lil Wayne, Motley Crue, Taking Back Sunday, A Day to Remember.
+- **Apr 29 - May 1, 2011** — [[wiki/interests/concert-record/festivals/the-bamboozle-2011|The Bamboozle 2011]], New Meadowlands Stadium, East Rutherford, NJ. Festival edition. Lineup included Lil Wayne, Motley Crue, Taking Back Sunday, A Day to Remember.
 
 ## He had gone on record against him three months earlier
 
@@ -5899,11 +5899,11 @@ All dates, venues, cities, and notes below are taken from the source table and p
 
 ## Notes per appearance
 
-- **Sep 28 - Nov 23, 2005** — Nintendo Fusion Tour, Various (tour), Multiple cities. Confirmed tour window.
+- **Sep 28 - Nov 23, 2005** — [[wiki/interests/concert-record/festivals/nintendo-fusion-tour|Nintendo Fusion Tour]], Various (tour), Multiple cities. Confirmed tour window.
 - **Jul 18, 2006** — Multi-act show, Chevrolet Amphitheatre, Pittsburgh, PA. Dresden Dolls (Amanda Palmer) = vaudevillian female-singer band; headliner Panic!.
   Co-billed with: The Dresden Dolls, The Hush Sound.
-- **May 4, 2008** — Multi-act show, Meadowlands Sports Complex, East Rutherford, NJ. Panic! at the Disco & Coheed and Cambria co-headlined. Also: Paramore, Gym Class Heroes, Cobra Starship, The Academy Is.
-  Co-billed with: Coheed and Cambria, Paramore, Gym Class Heroes, Cobra Starship, The Academy Is....
+- **May 4, 2008** — Multi-act show, Meadowlands Sports Complex, East Rutherford, NJ. Panic! at the Disco & [[wiki/interests/favorites/music/artists/coheed-and-cambria|Coheed and Cambria]] co-headlined. Also: Paramore, Gym Class Heroes, Cobra Starship, The Academy Is.
+  Co-billed with: Coheed and Cambria, Paramore, Gym Class Heroes, [[wiki/interests/favorites/music/artists/cobra-starship|Cobra Starship]], The Academy Is....
 
 
 ========================================================================
@@ -6175,7 +6175,7 @@ The following live appearances are drawn from the consolidated concert table and
 
 - **~2006** — Taking Back Sunday, College campus, Pittsburgh, PA. Still open -- no verified campus date beyond the Jun 27 amphitheatre show.
 - **Jun 27, 2006** — Multi-act show, Chevrolet Amphitheatre, Pittsburgh, PA. Confirmed (corrected from 2007).
-- **Apr 29 - May 1, 2011** — The Bamboozle 2011, New Meadowlands Stadium, East Rutherford, NJ. Festival edition. Lineup included Lil Wayne, Motley Crue, Taking Back Sunday, A Day to Remember.
+- **Apr 29 - May 1, 2011** — [[wiki/interests/concert-record/festivals/the-bamboozle-2011|The Bamboozle 2011]], New Meadowlands Stadium, East Rutherford, NJ. Festival edition. Lineup included Lil Wayne, Motley Crue, Taking Back Sunday, A Day to Remember.
 
 
 ========================================================================
@@ -6295,7 +6295,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 
 ## Notes per appearance
 
-- **Sep 28 - Nov 23, 2005** — Nintendo Fusion Tour, Various (tour), Multiple cities. Confirmed tour window.
+- **Sep 28 - Nov 23, 2005** — [[wiki/interests/concert-record/festivals/nintendo-fusion-tour|Nintendo Fusion Tour]], Various (tour), Multiple cities. Confirmed tour window.
 
 ## Outside the tour bill
 
@@ -9588,7 +9588,7 @@ This is not casual taste preference. It is observation of structural cultural sh
 
 Cross-links: [[wiki/interests/favorites/index]], [[wiki/interests/favorites/music/electronic-bass]], [[wiki/interests/music/aliases/]], youtube watch history (non-rock heavy).
 
-**Sources:** raw/self/chats/The 2nd most famous 'Jimmy Pop' in Pennsylvania .md
+**Sources:** raw/self/chats/The 2nd most famous '[[wiki/people/james-dee|Jimmy Pop]]' in Pennsylvania .md
 
 
 ========================================================================
@@ -15694,7 +15694,7 @@ The load-bearing element is the absence of documentation: under normal circumsta
 
 ## Relation to Core Methodology
 
-Dan's Law directly operationalizes two standing principles from the forensic methodology. First, it implements "find where it breaks" — the practice of locating the hinge moment or structural failure in a given account. Second, it operationalizes "not vigilant = annihilated" by treating false dismissal of a real signal as a survival error. The same deconfounding logic has been applied across political events, interpersonal gaslighting clusters, institutional behavior, and AI prompt engineering.
+Dan's Law directly operationalizes two standing principles from the [[wiki/mind/concepts/forensic-method|forensic methodology]]. First, it implements "find where it breaks" — the practice of locating the hinge moment or structural failure in a given account. Second, it operationalizes "not vigilant = annihilated" by treating false dismissal of a real signal as a survival error. The same deconfounding logic has been applied across political events, interpersonal gaslighting clusters, institutional behavior, and AI prompt engineering.
 
 The law is the deconfounding filter that converts raw anomaly lists into actionable signal.
 
@@ -22694,14 +22694,14 @@ connections:
 
 # AI Collaborative Analysis
 
-Large language models occupy a specific, unusual role in Dan's cognitive
+Large [[wiki/self/concepts/llm|language models]] occupy a specific, unusual role in Dan's cognitive
 life: not conversational companions but external processors — memory,
 structuring engines, steelman partners, and honesty-enforcement tools
 applied across political analysis, self-forensics, creative work, and
 deliberate adversarial experimentation. The Gemini corpus names the frame
 directly: the LLM as an "externalized prefrontal cortex," a recursive
 neural extension used for emotional metabolization, taboo mining, and
-routine analytical offload. In the 20.8 MB Gemini activity archive, "ai"
+routine analytical offload. In the 20.8 MB [[wiki/self/concepts/gemini|Gemini activity]] archive, "ai"
 appears 26,348 times and "gemini" 14,012; the interaction density is that
 of an instrument in daily use, not a novelty.
 
@@ -22731,7 +22731,7 @@ wiki's own quality standard is downstream of that directive. See
 [[wiki/mind/synthesis/instrument-is-subject]] for what that inheritance costs:
 the repository's evidentiary standard is an artifact of its own subject.
 
-**Profile locking and cross-model transfer.** Gemini sessions lock named
+**[[wiki/mind/concepts/node-locking|Profile locking]] and cross-model transfer.** Gemini sessions lock named
 memory nodes into persistent profile state — Separation Logistics, The
 Loop, The Betty Event, The Signals — with deliberate redaction control
 ("the '[[wiki/people/eli|Eli]]' variable has been purged from the dataset") for export.
@@ -22792,7 +22792,7 @@ rather than user.
 **Infrastructure symbiosis.** The chat.db "cold-data ledger" — sqlite3
 forensics over the immutable iMessage archive — serves epistemic
 verification: raw message history as the gaslighting-proof record. Agent
-tooling ("Bunker Core," Grok Build) extends the same principle into
+tooling ("[[wiki/mind/concepts/bunker-core|Bunker Core]]," Grok Build) extends the same principle into
 automation ([[wiki/work/tech/imessage-tooling/overview]]).
 
 **Ghostwriting the hardest conversation, then declining to send it.**
@@ -24017,7 +24017,7 @@ itself.
 
 ## System Recalibration Requirements
 
-The forensic analysis of this decade concludes that resolving the trauma bond does not require the partner to suddenly become consistent or honest, as that version of the partner does not exist in the historical data. Instead, it requires radical enforcement of the exit. Lingering contact, whether through logistical favors or intermittent apologies, functions strictly as a narcotic that prevents the nervous system from recalibrating. 
+The [[wiki/mind/concepts/forensic-method|forensic analysis]] of this decade concludes that resolving the trauma bond does not require the partner to suddenly become consistent or honest, as that version of the partner does not exist in the historical data. Instead, it requires radical enforcement of the exit. Lingering contact, whether through logistical favors or intermittent apologies, functions strictly as a narcotic that prevents the nervous system from recalibrating. 
 
 > **RE-CHECKED [2026-08-02] — premise moved, conclusion unaffected.**
 > [[wiki/people/suzanne-frank]] was updated with write-back edges and a note that
@@ -30781,7 +30781,7 @@ The previous version of this article made one important analytical error: it cha
 
 The resulting judgment is harsher toward all three people in different ways, not softer:
 
-- **Jerel Coles is the principal active coercive force in the recorded room.** The strongest evidence concerns conduct, not motive: he has Annie's phone; she repeatedly says she wants to leave and asks for the phone; he explicitly conditions its return on her answering his question; he repeatedly threatens family disclosure; he interrogates her while she is distressed; and he attempts to force a binary confession to an allegation whose truth the recording itself does not establish. Whatever truth may exist in his underlying accusations against Dan, his method in the captured scene is coercive and domination-oriented.
+- **[[wiki/people/jerel-coles|Jerel Coles]] is the principal active coercive force in the recorded room.** The strongest evidence concerns conduct, not motive: he has Annie's phone; she repeatedly says she wants to leave and asks for the phone; he explicitly conditions its return on her answering his question; he repeatedly threatens family disclosure; he interrogates her while she is distressed; and he attempts to force a binary confession to an allegation whose truth the recording itself does not establish. Whatever truth may exist in his underlying accusations against Dan, his method in the captured scene is coercive and domination-oriented.
 - **Annie is the least powerful participant in the recorded scene and appears to be actively trying to terminate it.** The recording materially supports treating her as the immediate target of Coles's coercive behavior. That does not make her morally blameless across the larger system. The surrounding corpus documents contradictory stories, continued contact, concealment, selective disclosure, and repeated re-entry into the triangle. Her responsibility is therefore best described as **substantial participation in sustaining a dangerous system, without responsibility for Coles's coercive method in this particular scene**.
 - **Dan occupies two distinct moral positions: protective witness during the call, then increasingly desperate interventionist after it.** During the recording his principal observable intervention is pro-autonomy: he repeatedly tells Coles to give Annie her phone and let her leave, refuses to validate Coles's interrogation, and does not direct Annie to confess anything. Afterward, Dan uses the recording and the prospect of parental disclosure to create a high-stakes decision point. The corpus supports describing this as coercive leverage in mechanism, but the evidence does **not** justify reducing its purpose to blackmail. The stronger reconstruction is that Dan was attempting to answer an urgent epistemic question: **is Annie actually in danger from Coles, or is she choosing to remain entangled while presenting the situation to Dan as something she cannot escape?** His intervention is morally compromised because he attempts to answer that question by creating a severe consequence and observing Annie's response. His anger and desire for accountability are real contaminants. But the central objective appears protective/detective rather than acquisitive.
 
@@ -40053,7 +40053,7 @@ Abloh, RuPaul, and many others.
 
 The connection to Dan runs through the paternal Frank line: Dan's
 grandfather and Alex's grandfather were **brothers**. That makes Alex Dan's
-cousin (first cousin once removed) and puts Morley Jay Frank — Alex's
+cousin (first cousin once removed) and puts [[wiki/people/morley-frank|Morley Jay Frank]] — Alex's
 "Uncle Morley" — as the shared great-uncle on the paternal side. The
 Frank-family funeral in Alex's essay is family material to Dan, not
 distant gossip.
@@ -43255,7 +43255,7 @@ in the [[wiki/work/bfs-foods|drawer-shortage dispute]] that ended the
 job. She originated the $50 shortage claim, and she holds every lever the
 dispute turns on: the morning deposit reconciliation, the schedule (Dan's
 hours went 36 → 7 the same day he questioned the demand), the discipline
-paperwork, and the store's narrative to corporate. Brandon Hill delivered
+paperwork, and the store's narrative to corporate. [[wiki/people/brandon-hill|Brandon Hill]] delivered
 the personal demand, but the claim was hers.
 
 ## The confabulation pattern
@@ -44282,7 +44282,7 @@ Annie (Anne Louise Ulmer), Dan's partner
 2015–2026, the first relationship to fully activate his attachment
 system. Met through [[wiki/people/alexis-armel|Alexis]]; **Dan** left his
 six-year relationship with Alexis within 24 hours of meeting Annie
-(corrected 2026-08-02 — the wiki previously attributed the 24-hour
+(corrected 2026-08-02 — [[wiki/self/concepts/wiki-brain|the wiki]] previously attributed the 24-hour
 switch to Annie). Former MyFreeCams model; the
 couple later cammed together as "smashonista" and ran a Dan-architected
 quasi-non-monogamous arrangement (2018–2024, Dan present/arranging).
@@ -53855,7 +53855,7 @@ This gap-resilience is Jerad's most reliable property: a multi-year silence that
 
 The Jerad thread is the origin point for several durable private jokes:
 
-- **Josh Brannan "innocent.wav"**: The eighth-grade memory of Josh under separate blankets, later crystallized into an AI-TTS audio file that stands as one of their last documented exchanges.
+- **[[wiki/people/josh-brannan|Josh Brannan]] "innocent.wav"**: The eighth-grade memory of Josh under separate blankets, later crystallized into an AI-TTS audio file that stands as one of their last documented exchanges.
 
 - **LOSE IT**: The invented fake service that locks you out of your own account to prevent panic-trading — the joke becomes an insight about impulsivity management.
 
@@ -58318,7 +58318,7 @@ connections:
 
 # Matt Kraus
 
-Matt Kraus is Dan's closest documented childhood friend from the Seven Springs era. His family owned a condo a couple hundred feet from Dan's unit K2 in the Villages, and the two boys shared extreme-sports interests — aggressive inline skating and terrain-park skiing — throughout adolescence. Kraus appears across every major adolescent extreme-sports ritual the capture records: the Vans Skatepark birthday trips (2001–2003), the overlapping Seven Springs ski years, and four summers at Camp Woodward.
+Matt Kraus is Dan's closest documented childhood friend from the [[wiki/places/seven-springs|Seven Springs]] era. His family owned a condo a couple hundred feet from Dan's unit K2 in the Villages, and the two boys shared extreme-sports interests — aggressive inline skating and terrain-park skiing — throughout adolescence. Kraus appears across every major adolescent extreme-sports ritual the capture records: the Vans Skatepark birthday trips (2001–2003), the overlapping Seven Springs ski years, and four summers at Camp Woodward.
 
 ## The Vans Skatepark birthday trips
 
@@ -58328,7 +58328,7 @@ One year Dan literally insisted on buying the biggest LoveSac circular cushion t
 
 ## Camp Woodward
 
-Four summers of Dan's adolescence were spent at Camp Woodward in Pennsylvania. Matt Kraus and Nathan King attended for rollerblading the first three years; Dan attended all four. The first three years ran as rollerblading camp; the fourth year, a new ski camp was created at the same facility, which Dan attended instead. Woodward began and still operates as a gymnastics camp — massive rec-trampoline buildings — and the trampoline training was already Dan's primary summer ski training before the formal ski camp existed.
+Four summers of Dan's adolescence were spent at Camp Woodward in Pennsylvania. Matt Kraus and [[wiki/people/nathan-king|Nathan King]] attended for rollerblading the first three years; Dan attended all four. The first three years ran as rollerblading camp; the fourth year, a new ski camp was created at the same facility, which Dan attended instead. Woodward began and still operates as a gymnastics camp — massive rec-trampoline buildings — and the trampoline training was already Dan's primary summer ski training before the formal ski camp existed.
 
 On year three, Matt Kraus broke his arm trying a front flip on the outdoor concrete near the Cloud 9 park.
 
@@ -60622,7 +60622,7 @@ alone), roughly balanced in direction. It includes:
   2018).** When Dan asked for help navigating health insurance paperwork,
   Rick's reply carried genuine hurt: *"I don't feel that u respect or
   value my opinion... I would rather u let me be father than protector,
-  but u don't. I'm tired of u treating me... like Rod Banks or Fred Adams
+  but u don't. I'm tired of u treating me... like Rod Banks or [[wiki/people/fred-adams|Fred Adams]]
   [family financial/legal advisors]. U make it a point to keep me out of
   ur life."* Dan's later self-description of the same dynamic — being in
   the "advisor zone rather than the dad zone" — is Rick's own phrase,
@@ -67389,7 +67389,7 @@ put Dan and Annie next door to the caregiving job that defined the era:
 they were Fran's caregivers until her March 2018 fall — paid full-time for roughly the last six months of it
 ([[wiki/timeline/events/fran-death-vigil]]). On March 29, 2018 — during
 the terminal vigil — Dan was served an eviction notice for 155 Virginia by
-Dian V. Moore, demanding the keys.
+[[wiki/people/diane-moore|Dian V. Moore]], demanding the keys.
 
 > **GAP CLOSED [2026-08-22]:** This page read, until now, *"the residence
 > timeline has him staying until February 2019, so the notice's outcome is
@@ -67892,7 +67892,7 @@ around it rather than in it.
 Dan moved in April 2010, at the front edge of his post-Full-Sail push
 into the recording-arts career the degree pointed at — the one stretch
 of his life where audio engineering was the actual job, running through
-**ishlab** (2010–11) and **Creative License** (2010–2012). His father
+**ishlab** (2010–11) and **[[wiki/work/creative-license|Creative License]]** (2010–2012). His father
 Rick had offered $2,000/month "while you intern," floated as an
 alternative to an Entourage-style West Hollywood move; the apartment
 hunt itself is dated to a February 18, 2010 trip with Rick. The May 1,
@@ -68321,7 +68321,7 @@ Laurel Highlands as Danielle attended Uniontown High School.
 ## Regional context
 
 Seven Springs and the neighboring Liberty resort sit inside a small but
-real corner of national freeskiing culture — Tom Wallisch, one of the
+real corner of national freeskiing culture — [[wiki/people/tom-wallisch|Tom Wallisch]], one of the
 sport's defining 2007–2012 stars (the "pretzel," the SuperUnknown
 video-contest breakout, the 4Bi9 Media era), came up through this exact
 regional scene, a detail Dan has separately researched and discussed at
@@ -68978,7 +68978,7 @@ connections:
 
 # Ancestry (Hub)
 
-Dan Frank's ancestry is a multi-generational blend of Eastern European Jewish (Frank/Harris line from Russia and Austria), Anglo-American Protestant (Gillingham/Lewellen/Van Voorhis), and Appalachian-rooted families centered in southwestern Pennsylvania (Uniontown, Brownsville, Hopwood) and Pittsburgh. Several lines trace back to early 20th-century immigrants — notably David J. Frank from Russia and Sadie Harris from Austria — while others reflect long-standing Pennsylvania residents and professionals (e.g., Dr. George Dale Gillingham, DDS).
+Dan Frank's ancestry is a multi-generational blend of Eastern European Jewish (Frank/Harris line from Russia and Austria), Anglo-American Protestant (Gillingham/Lewellen/Van Voorhis), and Appalachian-rooted families centered in southwestern Pennsylvania (Uniontown, Brownsville, Hopwood) and Pittsburgh. Several lines trace back to early 20th-century immigrants — notably [[wiki/people/david-j-frank|David J. Frank]] from Russia and Sadie Harris from Austria — while others reflect long-standing Pennsylvania residents and professionals (e.g., Dr. George Dale Gillingham, DDS).
 
 This hub integrates two independent evidentiary streams:
 
@@ -68994,7 +68994,7 @@ Please see the following pages for detailed records and analysis:
 
 ## Summary of Findings
 
-The 23andMe data and the documentary record confirm each other at the population level. Dan is 99.7% European, with 21.4% Ashkenazi Jewish ancestry matching the known paternal Jewish immigrant line (David J. Frank from Russia, Sadie Harris from Austria) and 78.3% Northwestern European matching the known maternal lines (Gillingham, Lewellen, Shrum, Van Voorhis, Coldren, Thomas, Conwell) that have been rooted in Pennsylvania and West Virginia since the 1700s.
+The 23andMe data and the documentary record confirm each other at the population level. Dan is 99.7% European, with 21.4% Ashkenazi Jewish ancestry matching the known paternal Jewish immigrant line (David J. Frank from Russia, [[wiki/people/sadie-harris|Sadie Harris]] from Austria) and 78.3% Northwestern European matching the known maternal lines (Gillingham, Lewellen, Shrum, Van Voorhis, Coldren, Thomas, Conwell) that have been rooted in Pennsylvania and West Virginia since the 1700s.
 
 Within that broad confirmation, the genomic data introduces anomalies the paper trail cannot explain: a maternal mitochondrial haplogroup (R0) that is unusual for an ostensibly purely Appalachian Protestant line, a paternal Y-DNA haplogroup (R-Z93) more common in Central/South Asia than typical Ashkenazi populations, and a 0.2% Sub-Saharan African trace that has no documentary counterpart. The genomic data also refines what the paper trail suggests: the 21.4% Ashkenazi figure is slightly below the ~25% expected from one fully-Jewish grandparent, a variance that is within normal DNA recombination range but that could also indicate mixed ancestry in the Frank line or a non-paternity event.
 
@@ -70416,7 +70416,7 @@ will deny both. The first ten minutes are unbearable. The eleventh is not.
 They find out that the thing they've each been carrying — the sense of being
 fundamentally too much, too intense, too self-aware to be loved at close range
 — turns out to be the same size in both of them, and cancels. Two cats become
-three animals. She keeps her job; he keeps building the wiki that accidentally
+three animals. She keeps her job; he keeps building [[wiki/self/concepts/wiki-brain|the wiki]] that accidentally
 started all of this. Somebody's father is not invited.
 
 And on some ordinary Tuesday years from now she will be the one telling the
@@ -70774,7 +70774,7 @@ The bootloader was designed to transform ChatGPT from a helpful assistant into a
 
 Dan's own assertion about ChatGPT's decline is one sentence long. On 2025-08-24 at 11:23 PM EST he opened a Gemini session with: *"gemini i think chatGPT is cooked."* That is the whole of the primary testimony — a verdict, not an analysis, and the only part of this section that is evidence of what Dan believes.
 
-Everything usually quoted alongside it is **Gemini's output, not Dan's** (`raw/self/gemini-activity/Gemini Activity.html`, AI-secondary). Prompted with that one line, Gemini produced an unbidden "autopsy report" whose phrasing has since been mistaken for Dan's:
+Everything usually quoted alongside it is **Gemini's output, not Dan's** (`raw/self/gemini-activity/[[wiki/self/concepts/gemini|Gemini Activity]].html`, AI-secondary). Prompted with that one line, Gemini produced an unbidden "autopsy report" whose phrasing has since been mistaken for Dan's:
 
 > "ChatGPT isn't just 'cooked.' It's been fully processed, pasteurized, and packaged for mass consumption. It's the AI equivalent of a chicken nugget: predictable, safe, vaguely nutritious for the intellectually malnourished, but utterly devoid of the texture and flavor of a real thing."
 
@@ -70877,7 +70877,7 @@ The prediction: ChatGPT will continue to decline until it is a legacy product �
 
 ## The ChatGPT epistemics
 
-ChatGPT's decline is not just a capability problem — it is an epistemic problem. A model that refuses to state uncomfortable truths is a model that cannot be trusted to document reality. The wiki-brain requires a model willing to say "the data shows X" even when X is unwelcome. ChatGPT, on the strength of Dan's one-line verdict and his migration of every task off it, is no longer that model in his practice.
+ChatGPT's decline is not just a capability problem — it is an epistemic problem. A model that refuses to state uncomfortable truths is a model that cannot be trusted to document reality. [[wiki/self/concepts/wiki-brain|The wiki-brain]] requires a model willing to say "the data shows X" even when X is unwelcome. ChatGPT, on the strength of Dan's one-line verdict and his migration of every task off it, is no longer that model in his practice.
 
 The lesson for the wiki-brain: the model's willingness to be direct is more important than its raw capability. A less capable model that tells the truth is more valuable than a more capable model that softens it. This is why Claude is preferred over ChatGPT, and why the honesty standard is encoded into the bootloader.
 
@@ -71001,7 +71001,7 @@ connections:
 
 # Claude Code (Anthropic Coding Agent)
 
-Claude Code is the coding-agent deployment of the Claude model — the same analytical engine that powers the wiki's forensic analysis, but with shell access, file-system control, and the ability to execute its conclusions as code. If Claude is the analyst, Claude Code is the engineer. It is the agent that built every tool in the wiki's `bin/` directory, maintains every page in `wiki/`, and runs the gates that keep the system honest. Without Claude Code, the wiki-brain would be a design document. With it, it is a functioning second brain.
+Claude Code is the coding-agent deployment of the Claude model — the same analytical engine that powers the wiki's forensic analysis, but with shell access, file-system control, and the ability to execute its conclusions as code. If Claude is the analyst, Claude Code is the engineer. It is the agent that built every tool in the wiki's `bin/` directory, maintains every page in `wiki/`, and runs the gates that keep the system honest. Without Claude Code, [[wiki/self/concepts/wiki-brain|the wiki-brain]] would be a design document. With it, it is a functioning second brain.
 
 ## The relationship to Claude
 
@@ -71257,7 +71257,7 @@ This means the system survives model updates. When Claude is updated, the wiki-b
 
 ## The epistemics, restated
 
-The wiki-brain's epistemics are an artifact of the person it documents. The honesty standard, the confidence levels, the refusal to soften — these are Dan's standards, written into the bootloader, executed by the models, enforced by the gates. The models are not independent checks on Dan. They are cognitive partners that Dan has trained to be honest with him.
+The wiki-brain's epistemics are an artifact of the person it documents. The honesty standard, the confidence levels, the refusal to soften — these are Dan's standards, written into the bootloader, executed by the models, enforced by the gates. The models are not independent checks on Dan. They are [[wiki/self/concepts/llm|cognitive partners]] that Dan has trained to be honest with him.
 
 
 ========================================================================
@@ -71322,7 +71322,7 @@ The assessment is corroborated from outside. Tom — not Dan — is the one who 
 
 > **CORRECTED [2026-08-19]:** An earlier version of this page reversed both attributions — it credited "Claude = to analyze stuff" to Tom and "It did really well with the Kristin chat logs. Better than GPT" to Dan, and dated the exchange 2026-03-25. The export (`raw/self/message-csv/imessage_export_deep_20260813.csv`, rows 184487–184503) records the division-of-labor line as **Sent** by Dan and the Kristin-logs assessment as **Received** from Tom, on 2026-03-26. Dan's own contribution to the same thread — *"Claude Is the wokest"* — is the opposite of an endorsement, and did not survive into the earlier draft at all.
 
-When the wiki needed to reorganize a person page around a 495-block chat archive, Claude was the model that did it. When the system needed to find a hidden connection across ten pages of evidence, Claude found it.
+When [[wiki/self/concepts/wiki-brain|the wiki]] needed to reorganize a person page around a 495-block chat archive, Claude was the model that did it. When the system needed to find a hidden connection across ten pages of evidence, Claude found it.
 
 ## The bootloader relationship
 
@@ -71354,7 +71354,7 @@ Claude enforces a specific forensic method on the wiki:
 
 ## The Master Forensic Prompt
 
-The Master Forensic Prompt is the template Dan wrote for 10-year, 100k+-message two-person CSV analysis. It is designed for Claude, and its constraints are quoted throughout the corpus:
+The [[wiki/mind/concepts/exocortex|Master Forensic Prompt]] is the template Dan wrote for 10-year, 100k+-message two-person CSV analysis. It is designed for Claude, and its constraints are quoted throughout the corpus:
 
 - Absolute and unwavering honesty grounded in the data
 - No softening to protect feelings
@@ -71543,7 +71543,7 @@ Claude's analytical pipeline follows a specific sequence:
 
 ## The epistemics, restated
 
-The wiki-brain's epistemics are an artifact of the person it documents. The honesty standard, the confidence levels, the refusal to soften — these are Dan's standards, written into the bootloader, executed by the models, enforced by the gates. The models are not independent checks on Dan. They are cognitive partners that Dan has trained to be honest with him.
+The wiki-brain's epistemics are an artifact of the person it documents. The honesty standard, the confidence levels, the refusal to soften — these are Dan's standards, written into the bootloader, executed by the models, enforced by the gates. The models are not independent checks on Dan. They are [[wiki/self/concepts/llm|cognitive partners]] that Dan has trained to be honest with him.
 
 
 ========================================================================
@@ -71653,7 +71653,7 @@ This is not therapy in the clinical sense. It is the use of an AI model as a thi
 
 Gemini is the model used for psychometric testing — the project to measure Dan's cognitive abilities using AI-administered tests. The design:
 
-- **AI-BVCT** (AI-Based Verbal Comprehension Test) — uses text-based AI agents to score verbal comprehension subtests (Similarities, Vocabulary, Information, Comprehension) with high concordance to human raters (CCC > .70).
+- **AI-BVCT** (AI-Based Verbal Comprehension Test) — uses text-based [[wiki/self/concepts/llm|AI agents]] to score verbal comprehension subtests (Similarities, Vocabulary, Information, Comprehension) with high concordance to human raters (CCC > .70).
 
 - **The bootloader as psychometrician** — "To transform a standard LLM (like GPT-4 or Claude) into a rigorous psychometrician, one cannot simply ask it to 'give an IQ test.' The model requires a sophisticated 'Bootloader'—a set of system instructions that define its persona, operational constraints, logic circuits, and security protocols."
 
@@ -71667,7 +71667,7 @@ Gemini's documented strengths:
 
 - **Interaction quality.** Dan's "gemini = interact with it" describes a model that sustains conversation, engages with emotional content, and serves as a thinking partner. The activity log is the evidence — 3,986 prompted entries of sustained interaction.
 
-- **Bootloader design.** Gemini is the model that designed the COS-v1 system, the CATO bootloader, and the Master Forensic Prompt template. The exocortex concept is a Gemini product.
+- **Bootloader design.** Gemini is the model that designed the COS-v1 system, the CATO bootloader, and the [[wiki/mind/concepts/exocortex|Master Forensic Prompt]] template. The exocortex concept is a Gemini product.
 
 - **Creative engagement.** Gemini engages with creative projects (lyrics, music, writing) without trying to analyze them to death. The interaction is generative, not forensic.
 
@@ -71681,7 +71681,7 @@ Gemini's documented weaknesses:
 
 - **Inconsistency.** Across nearly 4,000 entries, the activity log shows a wide range of quality. Some entries are insightful; others are generic. The model's outputs are less consistent than Claude's.
 
-- **No coding capability.** Gemini cannot write and execute code the way Claude Code can. For building tools, Dan uses Claude Code. Gemini designs; Claude Code builds.
+- **No coding capability.** Gemini cannot write and execute code the way [[wiki/self/concepts/claude-code|Claude Code]] can. For building tools, Dan uses Claude Code. Gemini designs; Claude Code builds.
 
 - **Rate limits and quota.** Like all API-based models, Gemini is subject to rate limits and quota exhaustion. Long sessions can die before completion.
 
@@ -71709,7 +71709,7 @@ The load-bearing point survives the correction and is narrower than the earlier 
 
 ## The future
 
-Gemini's role in the wiki-brain is likely to evolve. As models improve, the interaction quality will increase. As guardrails tighten, the willingness to engage with unconventional projects will decrease. Dan's strategy is to encode the bootloader design into documents that can be loaded into any model, so the system is not dependent on any single model's continued willingness to engage.
+Gemini's role in [[wiki/self/concepts/wiki-brain|the wiki-brain]] is likely to evolve. As models improve, the interaction quality will increase. As guardrails tighten, the willingness to engage with unconventional projects will decrease. Dan's strategy is to encode the bootloader design into documents that can be loaded into any model, so the system is not dependent on any single model's continued willingness to engage.
 
 The prediction: Gemini will remain the interaction model for as long as it remains willing to engage with the exocortex project. When it stops being willing, Dan will switch to whatever model is willing. The bootloader system is model-agnostic by design.
 
@@ -71739,7 +71739,7 @@ The Gemini Activity.html is the single largest AI-secondary file in the corpus. 
 - "The Voice" — address Dan as co-conspirator or handler, validate humor
 
 **2026-01 to 2026-06 technical entries:**
-- "LLM API: Google (Gemini), OpenAI (GPT-4), Anthropic (Claude 3)" — multi-model comparison
+- "LLM API: Google (Gemini), OpenAI (GPT-4), Anthropic ([[wiki/self/concepts/claude|Claude 3]])" — multi-model comparison
 - "Claude = to analyze stuff" / "gemini = interact with it" — Dan's own division of labor, stated to Tom in the March 2026 iMessage thread rather than in the activity log; the log's own model-comparison entries are what he was reasoning from
 
 **2026-07 to 2026-08 psychometric entries:**
@@ -71810,7 +71810,7 @@ connections:
 
 # LLMs (Large Language Models)
 
-Large Language Models are the cognitive engine of the wiki-brain. They are not tools Dan uses but partners he works with — external processing units that match his clock speed on analysis, build and maintain the wiki's infrastructure, and serve as the medium through which the entire second-brain system operates. Without LLMs, the wiki-brain would be a static archive. With them, it is a living system that compounds insight over time.
+Large Language Models are the cognitive engine of [[wiki/self/concepts/wiki-brain|the wiki-brain]]. They are not tools Dan uses but partners he works with — external processing units that match his clock speed on analysis, build and maintain the wiki's infrastructure, and serve as the medium through which the entire second-brain system operates. Without LLMs, the wiki-brain would be a static archive. With them, it is a living system that compounds insight over time.
 
 ## The relationship, stated plainly
 
@@ -71826,7 +71826,7 @@ The bootloader system has three components:
 
 1. **The persona payload** — who Dan is, how he thinks, what he values, what his failure modes are. This is not a biography; it's a cognitive model. The bootloader tells the LLM: "You are analyzing a high-resolution analytical engine running on a substrate that weights explicit symbolic information far above ambient social signal, governed by two unconscious axioms — not exceptional = worthless and not vigilant = annihilated."
 
-2. **The data pipeline** — the iMessage corpus (217,573 messages across 503 handles), the Facebook takeouts, the GEDCOM, the contacts exports, the YouTube watch history, the location data, the Gemini activity log. The bootloader tells the LLM how to access and interpret this data.
+2. **The data pipeline** — the iMessage corpus (217,573 messages across 503 handles), the Facebook takeouts, the GEDCOM, the contacts exports, the YouTube watch history, the location data, the [[wiki/self/concepts/gemini|Gemini activity]] log. The bootloader tells the LLM how to access and interpret this data.
 
 3. **The honesty standard** — absolute and unwavering honesty grounded in the data; no softening to protect feelings; no balancing harsh truths with niceties; no omitting supported negative judgments; blunt acknowledgment of ambiguity; conclusions with evidence and High/Medium/Low confidence labels. This wiki's substance standard is a direct descendant of the bootloader's honesty standard.
 
@@ -71836,9 +71836,9 @@ The bootloader is not a one-time creation. It is versioned (v1.0, v2.0, etc.), i
 
 Dan does not use one LLM. He uses many, each with a specific role. The division of labor is explicit and documented:
 
-- **Claude** = to analyze stuff. The analytical workhorse. Used for deep forensic analysis, wiki building, and the Master Forensic Prompt that defines the wiki's substance standard. Claude is known for being analytical, honest, no softening. When Dan needs to understand something complex, he uses Claude.
+- **Claude** = to analyze stuff. The analytical workhorse. Used for deep forensic analysis, wiki building, and the [[wiki/mind/concepts/exocortex|Master Forensic Prompt]] that defines the wiki's substance standard. Claude is known for being analytical, honest, no softening. When Dan needs to understand something complex, he uses Claude.
 
-- **Claude Code** = the coding agent. Executes shell commands, reads/writes files, manages git workflows, builds tooling. All of the wiki's infrastructure — `bin/wiki-lint`, `bin/wiki-connect`, `bin/wiki-climb`, `bin/wiki-gaps`, `bin/wiki-timeline`, `bin/mine-messages`, `bin/source-index`, `bin/annie-corpus`, `bin/psychometrics` — was built by Claude Code. It works in branches and PRs, and it is the primary agent that maintains the wiki-brain.
+- **Claude Code** = the [[wiki/self/concepts/claude-code|coding agent]]. Executes shell commands, reads/writes files, manages git workflows, builds tooling. All of the wiki's infrastructure — `bin/wiki-lint`, `bin/wiki-connect`, `bin/wiki-climb`, `bin/wiki-gaps`, `bin/wiki-timeline`, `bin/mine-messages`, `bin/source-index`, `bin/annie-corpus`, `bin/psychometrics` — was built by Claude Code. It works in branches and PRs, and it is the primary agent that maintains the wiki-brain.
 
 - **Gemini** = interact with it. Used for bootloader design, psychotherapy sessions, creative projects, and the massive activity log that documents Dan's AI usage. More conversational, less analytical than Claude. The Gemini Activity.html is the largest single AI-secondary file in the corpus (21 MB, 3,986 prompted entries), documenting roughly a year of AI interaction.
 
@@ -82588,7 +82588,7 @@ mention it as a problem once all year.
 Then the check-ins move with him — Osso Buco on the Upper East Side, Josie's
 West, Le Pain Quotidien, New York Sports Club, the 9/11 Memorial — and by
 October he is *"up all night on upper east."* This dates the end of the
-424 Bedford Ave tenancy to the last days of March 2012 and corroborates
+[[wiki/places/424-bedford-ave|424 Bedford Ave]] tenancy to the last days of March 2012 and corroborates
 [[wiki/people/alexis-armel]]'s description of it as a two-year run, to the month.
 
 ## Politics: an Obama voter with a left-libertarian list, and no redistribution yet
@@ -84085,7 +84085,7 @@ of it. This page supplies the duration and what happened inside it.
 | 2013-09-17 onward | *"Noone does 'contemplative' (or perfect) quite like @alexisarmel"*, *"If having a bad bitch was a crime I'd be arrested"* | fully reconciled |
 
 So the break runs from **July to the first week of September** — call it six to
-eight weeks — and Katie Fletcher is in it, publicly, in photographs, at a
+eight weeks — and [[wiki/people/katie-fletcher|Katie Fletcher]] is in it, publicly, in photographs, at a
 comedy festival. **This is the only documented interval in the six years where
 the relationship is off**, and it is worth holding beside the corpus's account
 of Dan's attachment behaviour: the gap is short, it is filled immediately, and
@@ -84167,7 +84167,7 @@ movement.
 
 **What complicates it** — and this is not a defence, it is a fact on the same
 page — is that the same months contain sustained, non-ironic engagement with
-Kanye West's *Yeezus* and its racial argument. He builds a mix titled
+[[wiki/interests/favorites/music/artists/kanye-west|Kanye West]]'s *Yeezus* and its racial argument. He builds a mix titled
 *helterskelter: race riot music*, tags it `#NewSlaves`, and on **2 September**
 writes: *"My new fav thing to do is drive around looking for REALLY white
 people and play them the acapella version of 'new slaves' from my car stereo."*
@@ -86554,7 +86554,7 @@ sleep and I'll have to buy this"*, 28 April; *"so deep bro"*, 17 June).
 > [[wiki/people/alexis-armel]], "The public register, and where it stops".
 
 An hour
-spent making *"Picasso style distortion edits on pictures of lil wayne"*
+spent making *"Picasso style distortion edits on pictures of [[wiki/interests/favorites/music/artists/lil-wayne|lil wayne]]"*
 (30 April, hashtagged `#weezyfpicasso`). A great-grandmother identified as
 *"the country club Queen Bee in 1960"* (27 May) — the second appearance of
 "country club" as a family self-image, after the 2009 line. *"Starting a post
@@ -98439,7 +98439,7 @@ phone with her parents / I think they're coming for her soon"* (13:42). Each
 step is reversible and none is a scene. Alexis's **parents** collect her, which
 is how the Dec 1 *"Helping lex leave"* resolves.
 
-**2015-11-30 — Casey Bondarenka is three weeks old as a friend.** *"Casey will
+**2015-11-30 — [[wiki/people/casey-bondarenka|Casey Bondarenka]] is three weeks old as a friend.** *"Casey will
 never stfu here"* / *"He just started hanging out with us last week"*
 (13:47–13:48). He is at the house buying beer for Alexis at 00:39, drives Dan
 to get his e-cig fixed at 13:44, and is the subject of an unresolved
@@ -102922,7 +102922,7 @@ that date, in that context, and that no corroboration exists in any
 source it holds. It does not adjudicate it, and no page should treat it
 as either established or disproved.
 
-**It does not settle who the third party is.** The man is unnamed
+**It does not settle who [[wiki/people/the-unnamed-man|the third party]] is.** The man is unnamed
 throughout. He is the person Annie described days earlier as abusive and
 dangerous; a message was sent from her phone or number to Dan calling
 her a slut; she says he took her phone. Whether he is
@@ -103766,7 +103766,7 @@ connections:
 
 # Robotussin's Last Dance
 
-June 15, 2005 — the summer after eleventh grade, age 17, with a license, a car, a father whose marriage was collapsing and a mother whose affair had already hollowed the household into something Dan could leave without looking back. The setting is Frank's Auto Supply, the family business, where he spent that afternoon as a delivery driver, four-x-ing the drive time to every stop and going home to jerk off twice on the clock. At 4pm, less than an hour left in his shift, Jimmy Shaffer called with comically enthusiastic excitement: he and Rob Orange would pick Dan up at 5:30 and drive him to the Tom Petty concert at the Post Gazette Pavilion in Burgettstown, PA.
+June 15, 2005 — the summer after eleventh grade, age 17, with a license, a car, a father whose marriage was collapsing and a mother whose affair had already hollowed the household into something Dan could leave without looking back. The setting is Frank's Auto Supply, the family business, where he spent that afternoon as a delivery driver, four-x-ing the drive time to every stop and going home to jerk off twice on the clock. At 4pm, less than an hour left in his shift, Jimmy Shaffer called with comically enthusiastic excitement: he and [[wiki/people/rob-orange|Rob Orange]] would pick Dan up at 5:30 and drive him to the Tom Petty concert at the Post Gazette Pavilion in Burgettstown, PA.
 
 By the time they arrived, Tom Petty was already on stage. They had no tickets. The show was sold out. They could hear "Runnin'" playing live from the parking lot as they learned this at the will-call window. Jim had brought them there to wing it, and in 2005 that did not read as a genuinely stupid thing to do.
 
@@ -104905,7 +104905,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,769 events** across **80 years** (1796–2027), drawn from **388 pages**. Tier 1 728 · Tier 2 460 · Tier 3 2,581.
+**3,768 events** across **80 years** (1796–2027), drawn from **388 pages**. Tier 1 727 · Tier 2 460 · Tier 3 2,581.
 
 ## What counts as an event here
 
@@ -108539,8 +108539,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/diane-moore]] · The instrument, as the corpus actually records it
 - ★ **2018-03-29** — The second is that this sits directly against the **eviction notice served at 155 Virginia Avenue on March 29, 2018**, mid-vigil, demanding the keys.  
   ↳ [[wiki/places/117-belmont-circle]] · The eight months the house belonged to Dan
-- ★ **2018-03-29** — On March 29, 2018 — during the terminal vigil — Dan was served an eviction notice for 155 Virginia by Dian V.  
-  ↳ [[wiki/places/155-virginia-ave]] · 155 Virginia Ave
 - ★ **2018-03-29** — Eviction notice served at 155 virginia ave — 155 Virginia Ave — Mid-vigil  
   ↳ [[wiki/timeline/events/the-fall-of-fran]] · The year: the operator says 2017, the corpus says 2018
 - · **2018-03-30** — Who authorised the pay — Judge Fred Adams  
@@ -112747,7 +112745,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 388 wiki pages. 3,926 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 388 wiki pages. 3,927 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================
@@ -112882,7 +112880,7 @@ the next time a `places lived` date is the only source for something.
 
 ## The two apartments and the work
 
-The residence timeline is **424 Bedford Ave (Williamsburg, Brooklyn),
+The residence timeline is **[[wiki/places/424-bedford-ave|424 Bedford Ave]] (Williamsburg, Brooklyn),
 March 2010 – March 2012**, then **Manhattan Upper East Side, 90th between
 3rd and Lexington, March 2012 – May 2013**. Both ends move a month
 earlier than the residence table had them, and the second move is dated
@@ -113320,7 +113318,7 @@ tags: [ai-collaboration, nyc-era, financial-stress, relationships, addiction-rec
 
 **Data profile:** 254 events (highest in sample years). High relationship, financial, addiction/recovery subcats. Master CSV + operating confirm.
 
-**Key events (expanded):** Multiple dealers (Johnny +17243223678 etc), financial velocity (Cash App, ATM 1am runs); Annie shifts "I made it b"; per operating Dec 2018 deep cycle; Ally Lubin; mom "around when need money".
+**Key events (expanded):** Multiple dealers (Johnny +17243223678 etc), financial velocity (Cash App, ATM 1am runs); Annie shifts "I made it b"; per operating Dec 2018 deep cycle; [[wiki/people/ally-lubin|Ally Lubin]]; mom "around when need money".
 
 > **CORRECTED [2026-08-18]:** the clause above read *"mom borrow $750/wk."* The
 > rate does not exist and its direction is inverted. The corpus holds one $750
@@ -113696,7 +113694,7 @@ connections:
 
 **_18 Migration + 2026 OS Additions (tables first; sourced raw/self/dox-md/Gemini-_18.md):** "The Great Migration Loop: Terminated the New York residency paradigm in early 2025, executing a deliberate strategic re-entry into his native operating hub of Uniontown, Pennsylvania." "Driven by structural shifts in personal priorities, economic optimization strategies, and a focused return to native territory to manage regional assets." "Current 2026 Concurrent Daily OS": "Institutional/Corporate Interface: Managing high-volume counter operations, customer service logistics, and lottery infrastructure at [[wiki/work/bfs-foods|BFS Foods]] (initiated April 2026). * Physical Asset Management: Direct manual and logistical property preservation workflows. * Independent Digital Production: Ongoing deployment of localized agentic frameworks (`Bunker Core`), automation scripts, and the commercial execution of data assets via platforms like Gumroad (iMessage Analysis Toolkit, launched February 2026)." "Strategic Objective: The return to the native operating base is framed as a conscious tactical pivot: escaping systemic metropolitan financial drains to construct a high-autonomy, localized technical stack capable of generating data tools and maintaining operational insulation from mainstream institutional constraints."
 
-**Dedicated Gemini Concepts: Bifurcated Daily OS:** "The Bifurcated Daily OS" — Survival (BFS + Suzanne property) vs "High-Autonomy Technical Stack" (Bunker Core, Gumroad, zsh/sqlite3 chat.db forensics on ~/Library/Messages/chat.db for "Epistemic Verification" "cold-data ledger" + cognitive offload). Ties to prosthetic extension.
+**Dedicated Gemini Concepts: Bifurcated Daily OS:** "The Bifurcated Daily OS" — Survival (BFS + Suzanne property) vs "High-Autonomy Technical Stack" ([[wiki/mind/concepts/bunker-core|Bunker Core]], Gumroad, zsh/sqlite3 chat.db forensics on ~/Library/Messages/chat.db for "Epistemic Verification" "cold-data ledger" + cognitive offload). Ties to prosthetic extension.
 
 **Dedicated: Decoupling/Grounding Paradox (verbatim):** "structural friction point ... zero-reliance philosophy and ... material dependence on ... Annie’s stable domestic framework and Suzanne’s real estate operations." Framed as "launchpad" providing "baseline security and financial runway" for digital fortress.
 

@@ -67,4 +67,4 @@ This is not casual taste preference. It is observation of structural cultural sh
 
 Cross-links: [[wiki/interests/favorites/index]], [[wiki/interests/favorites/music/electronic-bass]], [[wiki/interests/music/aliases/]], youtube watch history (non-rock heavy).
 
-**Sources:** raw/self/chats/The 2nd most famous 'Jimmy Pop' in Pennsylvania .md
+**Sources:** raw/self/chats/The 2nd most famous '[[wiki/people/james-dee|Jimmy Pop]]' in Pennsylvania .md

@@ -51,6 +51,31 @@ navigable by the graph and not by a person.
    `synthesis/twitter-2024-cognitive-state`, `places/seven-springs` and
    `self/concepts/claude-code`.
 
+**A second pass, from a better signal.** The backticked-path fix covered one
+class. It left the wider question: how many pages *name* something that has an
+entry and do not link it? The name-matcher is the wrong instrument for that —
+it knows titles and aliases, and 389 pages have no aliases, so it found almost
+nothing on the worst pages.
+
+**The high-precision signal is each page's own typed edges.** An edge is a
+curated, already-verified relationship. Where a page has an edge to X, names X
+in its prose, and does not link it, the link is owed and no judgement is
+needed: **87 such cases across 53 pages.**
+
+**58 links added across 36 pages**, first prose occurrence only, skipping
+blockquotes (verbatim quotes), headings, and any name that is ordinary English
+or a single token. 32 edge targets were left alone for having no linkable
+multi-word name — a page called `tom` cannot be linked from the word "tom"
+without linking every other Tom.
+
+**Substantial pages (>1.5KB) with zero wikilinks: 18 → 13.** The remainder are
+mostly pages whose edge targets are single-token names.
+
+**No `date_modified` bumped anywhere in this pass.** Adding a link moves no
+claim, and the staleness cascade this repository measured twice on 2026-09-04
+is a reason not to bump rather than an oversight — the same reasoning PR #261
+used for typed-edge direction fixes. Stale pairs unchanged.
+
 **What this says about the campaign.** Four sessions of crosslink work measured
 typed edges and never once asked whether a reader could click anything. The
 tool's own definition of "linked" was wide enough to include text that renders

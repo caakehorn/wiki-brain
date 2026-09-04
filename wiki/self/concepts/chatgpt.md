@@ -213,7 +213,7 @@ The bootloader was designed to transform ChatGPT from a helpful assistant into a
 
 Dan's own assertion about ChatGPT's decline is one sentence long. On 2025-08-24 at 11:23 PM EST he opened a Gemini session with: *"gemini i think chatGPT is cooked."* That is the whole of the primary testimony — a verdict, not an analysis, and the only part of this section that is evidence of what Dan believes.
 
-Everything usually quoted alongside it is **Gemini's output, not Dan's** (`raw/self/gemini-activity/Gemini Activity.html`, AI-secondary). Prompted with that one line, Gemini produced an unbidden "autopsy report" whose phrasing has since been mistaken for Dan's:
+Everything usually quoted alongside it is **Gemini's output, not Dan's** (`raw/self/gemini-activity/[[wiki/self/concepts/gemini|Gemini Activity]].html`, AI-secondary). Prompted with that one line, Gemini produced an unbidden "autopsy report" whose phrasing has since been mistaken for Dan's:
 
 > "ChatGPT isn't just 'cooked.' It's been fully processed, pasteurized, and packaged for mass consumption. It's the AI equivalent of a chicken nugget: predictable, safe, vaguely nutritious for the intellectually malnourished, but utterly devoid of the texture and flavor of a real thing."
 
@@ -316,7 +316,7 @@ The prediction: ChatGPT will continue to decline until it is a legacy product �
 
 ## The ChatGPT epistemics
 
-ChatGPT's decline is not just a capability problem — it is an epistemic problem. A model that refuses to state uncomfortable truths is a model that cannot be trusted to document reality. The wiki-brain requires a model willing to say "the data shows X" even when X is unwelcome. ChatGPT, on the strength of Dan's one-line verdict and his migration of every task off it, is no longer that model in his practice.
+ChatGPT's decline is not just a capability problem — it is an epistemic problem. A model that refuses to state uncomfortable truths is a model that cannot be trusted to document reality. [[wiki/self/concepts/wiki-brain|The wiki-brain]] requires a model willing to say "the data shows X" even when X is unwelcome. ChatGPT, on the strength of Dan's one-line verdict and his migration of every task off it, is no longer that model in his practice.
 
 The lesson for the wiki-brain: the model's willingness to be direct is more important than its raw capability. A less capable model that tells the truth is more valuable than a more capable model that softens it. This is why Claude is preferred over ChatGPT, and why the honesty standard is encoded into the bootloader.
 

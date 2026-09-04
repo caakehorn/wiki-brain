@@ -76,7 +76,7 @@ around it rather than in it.
 Dan moved in April 2010, at the front edge of his post-Full-Sail push
 into the recording-arts career the degree pointed at — the one stretch
 of his life where audio engineering was the actual job, running through
-**ishlab** (2010–11) and **Creative License** (2010–2012). His father
+**ishlab** (2010–11) and **[[wiki/work/creative-license|Creative License]]** (2010–2012). His father
 Rick had offered $2,000/month "while you intern," floated as an
 alternative to an Entourage-style West Hollywood move; the apartment
 hunt itself is dated to a February 18, 2010 trip with Rick. The May 1,

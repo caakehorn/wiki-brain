@@ -56,7 +56,7 @@ The assessment is corroborated from outside. Tom — not Dan — is the one who 
 
 > **CORRECTED [2026-08-19]:** An earlier version of this page reversed both attributions — it credited "Claude = to analyze stuff" to Tom and "It did really well with the Kristin chat logs. Better than GPT" to Dan, and dated the exchange 2026-03-25. The export (`raw/self/message-csv/imessage_export_deep_20260813.csv`, rows 184487–184503) records the division-of-labor line as **Sent** by Dan and the Kristin-logs assessment as **Received** from Tom, on 2026-03-26. Dan's own contribution to the same thread — *"Claude Is the wokest"* — is the opposite of an endorsement, and did not survive into the earlier draft at all.
 
-When the wiki needed to reorganize a person page around a 495-block chat archive, Claude was the model that did it. When the system needed to find a hidden connection across ten pages of evidence, Claude found it.
+When [[wiki/self/concepts/wiki-brain|the wiki]] needed to reorganize a person page around a 495-block chat archive, Claude was the model that did it. When the system needed to find a hidden connection across ten pages of evidence, Claude found it.
 
 ## The bootloader relationship
 
@@ -88,7 +88,7 @@ Claude enforces a specific forensic method on the wiki:
 
 ## The Master Forensic Prompt
 
-The Master Forensic Prompt is the template Dan wrote for 10-year, 100k+-message two-person CSV analysis. It is designed for Claude, and its constraints are quoted throughout the corpus:
+The [[wiki/mind/concepts/exocortex|Master Forensic Prompt]] is the template Dan wrote for 10-year, 100k+-message two-person CSV analysis. It is designed for Claude, and its constraints are quoted throughout the corpus:
 
 - Absolute and unwavering honesty grounded in the data
 - No softening to protect feelings
@@ -277,4 +277,4 @@ Claude's analytical pipeline follows a specific sequence:
 
 ## The epistemics, restated
 
-The wiki-brain's epistemics are an artifact of the person it documents. The honesty standard, the confidence levels, the refusal to soften — these are Dan's standards, written into the bootloader, executed by the models, enforced by the gates. The models are not independent checks on Dan. They are cognitive partners that Dan has trained to be honest with him.
+The wiki-brain's epistemics are an artifact of the person it documents. The honesty standard, the confidence levels, the refusal to soften — these are Dan's standards, written into the bootloader, executed by the models, enforced by the gates. The models are not independent checks on Dan. They are [[wiki/self/concepts/llm|cognitive partners]] that Dan has trained to be honest with him.

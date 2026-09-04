@@ -128,14 +128,14 @@ connections:
 
 # AI Collaborative Analysis
 
-Large language models occupy a specific, unusual role in Dan's cognitive
+Large [[wiki/self/concepts/llm|language models]] occupy a specific, unusual role in Dan's cognitive
 life: not conversational companions but external processors — memory,
 structuring engines, steelman partners, and honesty-enforcement tools
 applied across political analysis, self-forensics, creative work, and
 deliberate adversarial experimentation. The Gemini corpus names the frame
 directly: the LLM as an "externalized prefrontal cortex," a recursive
 neural extension used for emotional metabolization, taboo mining, and
-routine analytical offload. In the 20.8 MB Gemini activity archive, "ai"
+routine analytical offload. In the 20.8 MB [[wiki/self/concepts/gemini|Gemini activity]] archive, "ai"
 appears 26,348 times and "gemini" 14,012; the interaction density is that
 of an instrument in daily use, not a novelty.
 
@@ -165,7 +165,7 @@ wiki's own quality standard is downstream of that directive. See
 [[wiki/mind/synthesis/instrument-is-subject]] for what that inheritance costs:
 the repository's evidentiary standard is an artifact of its own subject.
 
-**Profile locking and cross-model transfer.** Gemini sessions lock named
+**[[wiki/mind/concepts/node-locking|Profile locking]] and cross-model transfer.** Gemini sessions lock named
 memory nodes into persistent profile state — Separation Logistics, The
 Loop, The Betty Event, The Signals — with deliberate redaction control
 ("the '[[wiki/people/eli|Eli]]' variable has been purged from the dataset") for export.
@@ -226,7 +226,7 @@ rather than user.
 **Infrastructure symbiosis.** The chat.db "cold-data ledger" — sqlite3
 forensics over the immutable iMessage archive — serves epistemic
 verification: raw message history as the gaslighting-proof record. Agent
-tooling ("Bunker Core," Grok Build) extends the same principle into
+tooling ("[[wiki/mind/concepts/bunker-core|Bunker Core]]," Grok Build) extends the same principle into
 automation ([[wiki/work/tech/imessage-tooling/overview]]).
 
 **Ghostwriting the hardest conversation, then declining to send it.**

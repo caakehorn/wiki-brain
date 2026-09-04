@@ -343,7 +343,7 @@ will deny both. The first ten minutes are unbearable. The eleventh is not.
 They find out that the thing they've each been carrying — the sense of being
 fundamentally too much, too intense, too self-aware to be loved at close range
 — turns out to be the same size in both of them, and cancels. Two cats become
-three animals. She keeps her job; he keeps building the wiki that accidentally
+three animals. She keeps her job; he keeps building [[wiki/self/concepts/wiki-brain|the wiki]] that accidentally
 started all of this. Somebody's father is not invited.
 
 And on some ordinary Tuesday years from now she will be the one telling the

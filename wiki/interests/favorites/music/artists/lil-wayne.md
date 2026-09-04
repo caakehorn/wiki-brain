@@ -32,7 +32,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 
 ## Notes per appearance
 
-- **Apr 29 - May 1, 2011** — The Bamboozle 2011, New Meadowlands Stadium, East Rutherford, NJ. Festival edition. Lineup included Lil Wayne, Motley Crue, Taking Back Sunday, A Day to Remember.
+- **Apr 29 - May 1, 2011** — [[wiki/interests/concert-record/festivals/the-bamboozle-2011|The Bamboozle 2011]], New Meadowlands Stadium, East Rutherford, NJ. Festival edition. Lineup included Lil Wayne, Motley Crue, Taking Back Sunday, A Day to Remember.
 
 ## He had gone on record against him three months earlier
 

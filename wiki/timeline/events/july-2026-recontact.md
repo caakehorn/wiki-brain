@@ -265,7 +265,7 @@ that date, in that context, and that no corroboration exists in any
 source it holds. It does not adjudicate it, and no page should treat it
 as either established or disproved.
 
-**It does not settle who the third party is.** The man is unnamed
+**It does not settle who [[wiki/people/the-unnamed-man|the third party]] is.** The man is unnamed
 throughout. He is the person Annie described days earlier as abusive and
 dangerous; a message was sent from her phone or number to Dan calling
 her a slut; she says he took her phone. Whether he is

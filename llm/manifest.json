@@ -136,7 +136,7 @@
    "title": "Extreme Sports",
    "summary": "From roughly age 11 through age 17 (approximately 2000\u20132006), Dan's primary identity and aspirational focus was in two extreme sports: (street-style) aggress...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/extreme-sports.txt",
-   "bytes": 10249
+   "bytes": 10334
   },
   {
    "page": "wiki/interests/favorites/art-and-movies.md",
@@ -332,7 +332,7 @@
    "title": "Fall Out Boy",
    "summary": "Chicago pop-punk band, formed 2001, the commercial flagship of the mid-2000s emo-adjacent scene alongside My Chemical Romance and Panic! at the Disco. Bassis...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/fall-out-boy.txt",
-   "bytes": 12961
+   "bytes": 13087
   },
   {
    "page": "wiki/interests/favorites/music/artists/flight-of-the-conchords.md",
@@ -423,7 +423,7 @@
    "title": "Lil Wayne",
    "summary": "Lil Wayne is an act Dan Frank saw live 1 time between 2011, per the concert log he kept (preserved in the corpus). This page records those appearances and th...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/lil-wayne.txt",
-   "bytes": 2781
+   "bytes": 2844
   },
   {
    "page": "wiki/interests/favorites/music/artists/lyny.md",
@@ -479,7 +479,7 @@
    "title": "Panic! at the Disco",
    "summary": "Panic! at the Disco is an act Dan Frank saw live 3 times between 2005-2008, per the concert log he kept (preserved in the corpus). This page records those ap...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/panic-at-the-disco.txt",
-   "bytes": 3185
+   "bytes": 3370
   },
   {
    "page": "wiki/interests/favorites/music/artists/paramore.md",
@@ -507,7 +507,7 @@
    "title": "Taking Back Sunday",
    "summary": "Long Island band whose 2002 debut, *Tell All Your Friends*, is one of the genre's most famous real-life betrayal records: original guitarist John Nolan began...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/taking-back-sunday.txt",
-   "bytes": 5064
+   "bytes": 5127
   },
   {
    "page": "wiki/interests/favorites/music/artists/the-academy-is.md",
@@ -528,7 +528,7 @@
    "title": "The Starting Line",
    "summary": "The Starting Line is an act Dan Frank saw live 1 time between 2005, per the concert log he kept (preserved in the corpus). This page records those appearance...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/favorites/music/artists/the-starting-line.txt",
-   "bytes": 2338
+   "bytes": 2403
   },
   {
    "page": "wiki/interests/favorites/music/artists/vertical-horizon.md",
@@ -689,7 +689,7 @@
    "title": "The 2nd Most Famous 'Jimmy Pop' in Pennsylvania",
    "summary": "**Source:** ChatGPT conversation on music/cultural trends (chatgpt.com/c/68717208-4930-8002-a5de-8f79fe2dddee)",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/interests/rock-irrelevance-thesis.txt",
-   "bytes": 3736
+   "bytes": 3762
   },
   {
    "page": "wiki/interests/roman-republic.md",
@@ -885,7 +885,7 @@
    "title": "Dan's Law",
    "summary": "Dan's Law is the deconfounding heuristic formalized in [[wiki/self/context-core]] \u00a76. It holds that when a coincidence cluster requires every element to be s...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/concepts/dans-law.txt",
-   "bytes": 7461
+   "bytes": 7500
   },
   {
    "page": "wiki/mind/concepts/document-fabrication.md",
@@ -1107,9 +1107,9 @@
   {
    "page": "wiki/mind/synthesis/ai-collaborative-analysis.md",
    "title": "AI Collaborative Analysis",
-   "summary": "Large language models occupy a specific, unusual role in Dan's cognitive life: not conversational companions but external processors \u2014 memory, structuring en...",
+   "summary": "Large [[wiki/self/concepts/llm|language models]] occupy a specific, unusual role in Dan's cognitive life: not conversational companions but external processo...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/ai-collaborative-analysis.txt",
-   "bytes": 26518
+   "bytes": 26646
   },
   {
    "page": "wiki/mind/synthesis/alias-as-periodization.md",
@@ -1137,7 +1137,7 @@
    "title": "Attachment Trauma Bond and Aura Illness",
    "summary": "The ten-year relationship between Dan and [[wiki/people/annie-ulmer|Annie]], spanning from their initial meeting on Thanksgiving weekend in November 2015 to ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/attachment-trauma-bond.txt",
-   "bytes": 37857
+   "bytes": 37896
   },
   {
    "page": "wiki/mind/synthesis/august-grievance-verdict.md",
@@ -1249,7 +1249,7 @@
    "title": "The Morgantown Call: Ethical Roles of Dan, Annie, and Jerel Coles",
    "summary": "The August 16 Morgantown recording is the strongest primary artifact in the corpus for evaluating the three-person conflict because it places all three parti...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/mind/synthesis/morgantown-call-three-participant-ethical-analysis.txt",
-   "bytes": 43698
+   "bytes": 43726
   },
   {
    "page": "wiki/mind/synthesis/music-as-identity.md",
@@ -1396,7 +1396,7 @@
    "title": "Alex Frank",
    "summary": "Dan's cousin \u2014 described by Dan as \"semi-famous\" \u2014 and, per public sources, a real working journalist and editor based in Brooklyn covering music, fashion, a...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/alex-frank.txt",
-   "bytes": 6982
+   "bytes": 7011
   },
   {
    "page": "wiki/people/alexander-jackson.md",
@@ -1452,7 +1452,7 @@
    "title": "Anita (BFS Foods GM)",
    "summary": "Anita was the general manager of the BFS Foods gas-station side \u2014 the Bruceton Farm Service convenience store paired with a company-owned Little Caesars in t...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/anita.txt",
-   "bytes": 6050
+   "bytes": 6079
   },
   {
    "page": "wiki/people/annie-ulmer-2026-08-26-update.md",
@@ -1480,7 +1480,7 @@
    "title": "Annie (Anne Louise Ulmer)",
    "summary": "Annie Ulmer was Dan's partner for ten years and seven months \u2014 November 28, 2015 to June 1, 2026 \u2014 and is the only relationship in his documented history to ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/annie-ulmer.txt",
-   "bytes": 153672
+   "bytes": 153706
   },
   {
    "page": "wiki/people/annoying.md",
@@ -1928,7 +1928,7 @@
    "title": "Jerad Friedline",
    "summary": "Dan's oldest friend and the primary high-signal, low-frequency contact: a childhood friend from Uniontown now in Sacramento, married to Rachel (Jewish) with ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/jerad-friedline.txt",
-   "bytes": 7867
+   "bytes": 7896
   },
   {
    "page": "wiki/people/jerel-coles.md",
@@ -2213,9 +2213,9 @@
   {
    "page": "wiki/people/matt-kraus.md",
    "title": "Matt Kraus",
-   "summary": "Matt Kraus is Dan's closest documented childhood friend from the Seven Springs era. His family owned a condo a couple hundred feet from Dan's unit K2 in the ...",
+   "summary": "Matt Kraus is Dan's closest documented childhood friend from the [[wiki/places/seven-springs|Seven Springs]] era. His family owned a condo a couple hundred f...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/matt-kraus.txt",
-   "bytes": 4215
+   "bytes": 4273
   },
   {
    "page": "wiki/people/matthew-palermo.md",
@@ -2341,7 +2341,7 @@
    "title": "Richard Harrison \"Rick\" Frank",
    "summary": "Rick Frank (b. May 22, 1959, Uniontown PA) is Dan's father: owner of **Frank's Auto Supermarket**, a chain of auto-parts stores (anti-union, per the househol...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/people/rick-frank.txt",
-   "bytes": 35165
+   "bytes": 35192
   },
   {
    "page": "wiki/people/rj-ritchey.md",
@@ -2614,7 +2614,7 @@
    "title": "155 Virginia Ave",
    "summary": "155 Virginia Ave, Uniontown PA was Dan's residence from January 2015 to February 2019 \u2014 the address where the two defining relationships of his adult life ha...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/155-virginia-ave.txt",
-   "bytes": 11722
+   "bytes": 11750
   },
   {
    "page": "wiki/places/307-e-76th-st.md",
@@ -2635,7 +2635,7 @@
    "title": "424 Bedford Ave (NYC-1)",
    "summary": "424 Bedford Ave, Apartment 6C, in Williamsburg, Brooklyn was Dan's first New York apartment \u2014 the home base of the **NYC-1** period (April 2010 \u2013 May 2013) a...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/424-bedford-ave.txt",
-   "bytes": 7847
+   "bytes": 7878
   },
   {
    "page": "wiki/places/90th-st-manhattan.md",
@@ -2663,7 +2663,7 @@
    "title": "Seven Springs",
    "summary": "Seven Springs is a ski resort about 25 miles from Uniontown that functioned as Dan's principal social world every weekend throughout his adolescence \u2014 not a ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/places/seven-springs.txt",
-   "bytes": 6691
+   "bytes": 6720
   },
   {
    "page": "wiki/places/the-unpapered-address.md",
@@ -2677,7 +2677,7 @@
    "title": "Ancestry (Hub)",
    "summary": "Dan Frank's ancestry is a multi-generational blend of Eastern European Jewish (Frank/Harris line from Russia and Austria), Anglo-American Protestant (Gilling...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/ancestry.txt",
-   "bytes": 30781
+   "bytes": 30840
   },
   {
    "page": "wiki/self/chats/9-11-chat.md",
@@ -2754,7 +2754,7 @@
    "title": "Ally and Dan: Love as Destiny",
    "summary": "Alexandra Lubin and Daniel Frank have been circling each other for eighteen years, and in all that time neither of them has managed to stop. Not through her ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/concepts/ally-and-dan-love-as-destiny.txt",
-   "bytes": 20054
+   "bytes": 20088
   },
   {
    "page": "wiki/self/concepts/astrology-star-signs.md",
@@ -2768,35 +2768,35 @@
    "title": "ChatGPT (OpenAI)",
    "summary": "ChatGPT is the early-adopter model \u2014 the first AI system Dan used for sustained cognitive work, and the one he now believes has declined most sharply. It is ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/concepts/chatgpt.txt",
-   "bytes": 29404
+   "bytes": 29468
   },
   {
    "page": "wiki/self/concepts/claude-code.md",
    "title": "Claude Code (Anthropic Coding Agent)",
    "summary": "Claude Code is the coding-agent deployment of the Claude model \u2014 the same analytical engine that powers the wiki's forensic analysis, but with shell access, ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/concepts/claude-code.txt",
-   "bytes": 23055
+   "bytes": 23116
   },
   {
    "page": "wiki/self/concepts/claude.md",
    "title": "Claude (Anthropic)",
    "summary": "Claude is the analytical workhorse of the wiki-brain. When Dan needs to understand something complex \u2014 a relationship, a financial thread, a psychological pa...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/concepts/claude.txt",
-   "bytes": 24146
+   "bytes": 24240
   },
   {
    "page": "wiki/self/concepts/gemini.md",
    "title": "Gemini (Google)",
    "summary": "Gemini is the interaction model in Dan's AI ecosystem. If Claude is the analyst and Claude Code is the engineer, Gemini is the interlocutor \u2014 the model Dan t...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/concepts/gemini.txt",
-   "bytes": 16890
+   "bytes": 17049
   },
   {
    "page": "wiki/self/concepts/llm.md",
    "title": "LLMs (Large Language Models)",
-   "summary": "Large Language Models are the cognitive engine of the wiki-brain. They are not tools Dan uses but partners he works with \u2014 external processing units that mat...",
+   "summary": "Large Language Models are the cognitive engine of [[wiki/self/concepts/wiki-brain|the wiki-brain]]. They are not tools Dan uses but partners he works with \u2014 ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/concepts/llm.txt",
-   "bytes": 26769
+   "bytes": 26901
   },
   {
    "page": "wiki/self/concepts/wiki-brain.md",
@@ -2971,21 +2971,21 @@
    "title": "Twitter / X \u2014 2012",
    "summary": "**The year the ambitions close and the media diet that produces 2020 begins.** In January Dan is *\"considering a pro career playing Starcraft\"*; by August he...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/twitter/2012.txt",
-   "bytes": 61978
+   "bytes": 62010
   },
   {
    "page": "wiki/self/twitter/2013.md",
    "title": "Twitter / X \u2014 2013",
    "summary": "**The year the account becomes a music project's feed, and the year the record itself changes underneath that.** From mid-August onward the page is a continu...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/twitter/2013.txt",
-   "bytes": 96266
+   "bytes": 96351
   },
   {
    "page": "wiki/self/twitter/2014.md",
    "title": "Twitter / X \u2014 2014",
    "summary": "**The peak of [[wiki/interests/music/aliases/sloppp|SLOPPP]], and the year Dan sided with Anthony Cumia.**",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/self/twitter/2014.txt",
-   "bytes": 55544
+   "bytes": 55597
   },
   {
    "page": "wiki/self/twitter/2015.md",
@@ -3111,7 +3111,7 @@
    "title": "The Annie Record \u2014 a read chronology",
    "summary": "Every event here was found by **reading the messages**, in order, in small windows. Nothing on this page was pattern-matched or extracted by a script. That i...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/annie-record.txt",
-   "bytes": 182416
+   "bytes": 182449
   },
   {
    "page": "wiki/timeline/events/2026-08-26-dan-consistency-test.md",
@@ -3223,7 +3223,7 @@
    "title": "The July 2026 Re-contact",
    "summary": "Between the afternoon of **July 23, 2026** and just after 5:00 AM on **July 26**, Dan and [[wiki/people/annie-ulmer|Annie]] exchanged 624 messages, ending a ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/july-2026-recontact.txt",
-   "bytes": 21349
+   "bytes": 21381
   },
   {
    "page": "wiki/timeline/events/july-august-2026-reentanglement.md",
@@ -3244,7 +3244,7 @@
    "title": "Robotussin's Last Dance",
    "summary": "June 15, 2005 \u2014 the summer after eleventh grade, age 17, with a license, a car, a father whose marriage was collapsing and a mother whose affair had already ...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/events/robotussin-s-last-dance.txt",
-   "bytes": 10554
+   "bytes": 10581
   },
   {
    "page": "wiki/timeline/events/shelbie-annie-threesome-april-2019.md",
@@ -3293,14 +3293,14 @@
    "title": "Master Timeline",
    "summary": "Every dated event recorded anywhere in this wiki, in order, each linked back to the page and section that documents it.",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/master-timeline.txt",
-   "bytes": 904950
+   "bytes": 904750
   },
   {
    "page": "wiki/timeline/periods/2010s.md",
    "title": "NYC Round One (2010\u20132013)",
    "summary": "Dan's first New York City period ran **March 2010 to May 2013** \u2014 three years, two apartments, the audio-engineering career attempt, and the first long cohab...",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/2010s.txt",
-   "bytes": 14820
+   "bytes": 14852
   },
   {
    "page": "wiki/timeline/periods/2015-2016-annie-relationship-start.md",
@@ -3321,7 +3321,7 @@
    "title": "2018 Deep Cycle",
    "summary": "**Date range:** 2018",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/2018-deep-cycle.txt",
-   "bytes": 5681
+   "bytes": 5708
   },
   {
    "page": "wiki/timeline/periods/2020-2021-market-era.md",
@@ -3342,7 +3342,7 @@
    "title": "Synthesis concepts injector pass 2026-06-23: expanded _18 section + added dedicated Bifurcated Daily OS + Decoupling/Grounding Paradox verbatim (cold data ledger/chat.db epistemic cross); migration/OS/work entropy ties. Cross all Gemini sources. See /tmp/gemini-concepts-injection.md.",
    "summary": "**Date range:** 2025",
    "url": "https://caakehorn.github.io/wiki-brain/llm/pages/timeline/periods/2025-collapse.txt",
-   "bytes": 8848
+   "bytes": 8883
   },
   {
    "page": "wiki/timeline/periods/covid-era-2020.md",

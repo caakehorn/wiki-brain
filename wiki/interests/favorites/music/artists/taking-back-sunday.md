@@ -86,4 +86,4 @@ The following live appearances are drawn from the consolidated concert table and
 
 - **~2006** — Taking Back Sunday, College campus, Pittsburgh, PA. Still open -- no verified campus date beyond the Jun 27 amphitheatre show.
 - **Jun 27, 2006** — Multi-act show, Chevrolet Amphitheatre, Pittsburgh, PA. Confirmed (corrected from 2007).
-- **Apr 29 - May 1, 2011** — The Bamboozle 2011, New Meadowlands Stadium, East Rutherford, NJ. Festival edition. Lineup included Lil Wayne, Motley Crue, Taking Back Sunday, A Day to Remember.
+- **Apr 29 - May 1, 2011** — [[wiki/interests/concert-record/festivals/the-bamboozle-2011|The Bamboozle 2011]], New Meadowlands Stadium, East Rutherford, NJ. Festival edition. Lineup included Lil Wayne, Motley Crue, Taking Back Sunday, A Day to Remember.
