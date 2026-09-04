@@ -22,6 +22,9 @@ synthesizes:
   - wiki/mind/profile/big-five-psychometrics
 tags: [financial-stress, forensic-analysis, family]
 connections:
+  - page: wiki/people/new-jim-shaffer
+    type: evidenced-by
+    claim: "Dates the expectation the eighteen-month wait was measured against: 'just found out they're cutting big distribution checks for us soon' (2018-04-24, twenty days after the death) against a first documented advance of 2019-10-12 — plus the position it was served from ('still have no access to my accounts via rick', 'will be the first real money i've ever had') and a self-named 'HIGH BURN RATE' running a year before the distribution."
   - page: wiki/people/rod-banks
     type: evidenced-by
     claim: "The pre-distribution flow is itemised in a thread this page had never read: five advances between 2019-10-12 and 2020-04-17 totalling $32,500, each authorised by Jason Adams and written by Rod Banks, against the single '2020-06-23, $10,000' line this page carried for the period. The spine's picture of the 2020 arrival as one event has $32,500 of dated flow in front of it."
@@ -164,6 +167,26 @@ as gifts and distributions: Fran's "$100/year" protocol and the NS7
 gift, summer wages driving parts deliveries, and ultimately the estate.
 
 The one moment the two lines cross in a single document is dated to the
+> **ADDED [2026-09-04] — the advances were promised three weeks after the
+> death and the first one arrived eighteen months later.** On **2018-04-24**,
+> two days into the [[wiki/people/new-jim-shaffer]] thread and twenty days after
+> Fran died, Dan writes: *"just found out they're cutting big distribution
+> checks for us soon so we have money while they settle the estate."* The first
+> advance the corpus documents is **2019-10-12** ([[wiki/people/rod-banks]]).
+> **Eighteen months separate the expectation from the money**, and this page's
+> account of the delay — "a function of the structure Adams sat at the centre
+> of" — now has a start date rather than only an end one.
+>
+> The same night he states the position the wait was served from:
+> *"still have no access to my accounts via rick"*, *"will be the first real
+> money i've ever had"*, *"never even seen a statement"* (2018-04-22). And in
+> **April 2019**, still before any documented advance, he names his own rate:
+> *"see right now i think the term for what im doing is 'HIGH BURN RATE'"*
+> alongside *"i spent 1500 on a pornstar escort last week"* — **spending at that
+> description a year before the distribution this page treats as the arrival.**
+> Whether the burn was funded by an undocumented advance, by Nemacolin income or
+> by debt is not established here and is the obvious next question.
+
 > **ADDED [2026-09-04] — five advances the spine did not have, and a
 > contradiction it must carry.** The [[wiki/people/rod-banks]] thread itemises
 > **$32,500** of estate advances between 2019-10-12 and 2020-04-17, each one

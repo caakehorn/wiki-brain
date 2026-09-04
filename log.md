@@ -1,3 +1,82 @@
+## [2026-09-04] connect | people | 79 lines had been written about a 1,789-message thread
+
+**The second of the thirty-seven re-derivations.** `wiki/people/new-jim-shaffer`
+was the largest unread block in the repository — **885 messages from Dan**
+against 904 from Jim, and a page of 79 lines whose every claim came from Jim's
+half. Not a monologue: a balanced eighteen-month conversation read from one
+side.
+
+**Four findings, and the first is the one that matters.**
+
+**1. The contact-concentration coefficient has a first-person instance.**
+`wiki/mind/concepts/contact-gini` measures the distribution at a two-sided Gini
+of **0.9576–0.9601** and reproduces it in three independent units. Its own
+summary of that work is *"this metric is no longer testimony; it is residue"* —
+and it was right, and it left the concept with nothing in Dan's own voice.
+2019-10-20, unprompted, closing the thread:
+
+> *"you are 1 of 3 people that i actually would enjoy seeing"*
+> *"the other 2 people are my coke dealer and a hooker"*
+
+**A Gini says how concentrated; it cannot say what survived**, because volume
+does not distinguish a friendship from a transaction. His own census names three
+and classes two as paid. First first-person instance, first statement of
+composition.
+
+**2. The stand-up set existed and here is what was in it.**
+`wiki/interests/stand-up-comedy` tracked the ambition across four years and
+closed on *"whether or not a set ever happened, the persona got as far as a
+name."* 2019-04-12: *"heres my comedy set so far"*, then three bits — the money
+he gave a friend with cancer *"and spent a couple weeks regretting it even
+though i spent thousands on drugs in that time"*; millennials and call spoofing;
+and the bald-eagle story, which the wiki files as an adolescent humiliation and
+he had made his closer. **Complete material, a stage name, and no stage** —
+`failure-to-launch`'s shape with the last step missing.
+
+**3. A second cocaine cost figure, to somebody buying nothing.** The section
+written hours earlier on `wiki/health/cocaine` rests on one number and names its
+weakness: the audience was a prospective supplier and the slant is upward.
+*"thousands"* over *"a couple weeks"* is **≥ ~$143/day**, consistent with the
+2017 *"well over $100 a day"* and with ~1 g/day at his enforced $100/gram.
+**Both figures have an upward incentive, so they narrow the band without
+settling it** — but the arc's 3.5–7 g/day now has two independent points on the
+low side and none on the high. Same hour, the corpus's only statement of the
+New York move as a chemical decision: *"if i didnt move here when i did, rehab
+would have been in my future."*
+
+**4. The estate money was promised twenty days after the death.** 2018-04-24:
+*"just found out they're cutting big distribution checks for us soon."* First
+documented advance: **2019-10-12**. Eighteen months, and the position it was
+served from is in the same thread — *"still have no access to my accounts via
+rick"*, *"never even seen a statement"*. A self-named **"HIGH BURN RATE"** is
+running in April 2019, a year before the distribution the spine treats as the
+arrival.
+
+**Grief, and a date error worth more than the grief.** The page had Jim's side
+of the December 2018 remembrance. Dan's is differential rather than general —
+*"rob is the only one that I get sad about"*, *"I honestly don't give a fuck
+about any of them other than him"*, against *"Half of our friends died lol"*.
+And he dates the death to *"2013?"* against a contemporaneous 2014-04-11 anchor.
+
+**That makes the direction 4–0.** Recorded as **t018** (refuted, displacement,
+early) alongside **t019** (confirmed — *"i bet it goes between 250-3"* on a
+house listed at 350, sold at 250). Every placement error the ledger has settled
+runs **early**; there is not one **late**. Written onto
+`wiki/mind/concepts/calibrated-confidence`, whose own typed edge had said
+*"expression is measured while accuracy remains untested"* — no longer true, and
+the first measurement is unflattering: **Brier 0.323, skill −0.29 against a coin
+flip, the `certain` band saying 0.95 and running 0.25.** Stated with the caveat
+that matters: the ledger scores a **different population** from this page's 43
+numeric-probability utterances, so it removes the excuse rather than settling
+the claim, and n=12 is a direction not a verdict.
+
+**Held out under the standing directive.** A large share of Dan's April 2018
+half is narration about Annie — the household, the arrangement, the camming.
+None of it is written, extended or quoted beyond what the wiki already holds,
+and the page says so rather than leaving the omission to look like thinness.
+
+**No cascade:** 37 stale pages before, 37 after.
+
 ## [2026-09-04] connect | people | the handles were on the pages all along, and the guard could not see nine of them
 
 **Phase 0.5's handle half turned out to be mostly already done and unreadable.**

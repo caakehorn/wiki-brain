@@ -3,7 +3,7 @@ domain: interests
 page_type: entity
 status: stable
 date_created: 2026-07-16
-date_modified: 2026-07-19
+date_modified: 2026-09-04
 sources:
   - "raw/self/dox-scan/Dan Profile.txt"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
@@ -16,6 +16,9 @@ related:
   - wiki/mind/profile/linguistic-profile
 tags: [nyc-era, personality-profile, digital-footprint]
 connections:
+  - page: wiki/people/new-jim-shaffer
+    type: evidenced-by
+    claim: "The written set, which this page had recorded only as an ambition: 'heres my comedy set so far' (2019-04-12) and three bits — the cancer-donation regret against 'thousands on drugs', millennials and call spoofing, and the bald-eagle story. Complete material, a stage name, and no stage."
   - page: wiki/mind/synthesis/interests-as-era-markers
     type: instantiates
     claim: "The dated 2019 NYC club run and the open-mic ambition are the New-York-era marker in the intake ledger — an obsession the earlier radio era spent a decade preparing."
@@ -81,8 +84,38 @@ The ambition to perform, not just watch, is documented across years:
   you doing stand up and using that story in a bit I swear I did."
 - **2019-04-02**, the same friend hands him a stage name: "Dude I came
   up with your comedy name for when u do standup/YouTube. It's **'Nad
-  Knarf'**" — "Dan Frank" reversed. Whether or not a set ever happened,
-  the persona got as far as a name.
+  Knarf'**" — "Dan Frank" reversed. The persona got as far as a name.
+
+> **THE SET EXISTED, AND HERE IS WHAT WAS IN IT [2026-09-04].** This section
+> closed on *"whether or not a set ever happened"*. Ten minutes after the
+> five-minute line quoted above, in the same 2019-04-12 exchange
+> ([[wiki/people/new-jim-shaffer]]), he types **"heres my comedy set so far"**
+> and lists three bits in order:
+>
+> 1. **The opener** — the money he donated to a friend with cancer, named as
+>    *"latie molchan"*, *"and spent a couple weeks regretting it even though i
+>    spent thousands on drugs in that time."*
+> 2. *"how millenials are awful and have too much tech power for how little
+>    humanity we have"*, worked through **call spoofing** as the example.
+> 3. *"the story about when i got my dick sucked before i hit puberty and earned
+>    the nickname bald eagle for 2 years"* —
+>    [[wiki/timeline/events/bald-eagle-cummings]].
+>
+> **What the material says about the ambition.** All three bits are
+> self-incriminating, and the opener is the most so: it puts his own drug
+> spending against a dying friend's fundraiser and invites an audience to judge
+> it. The third takes an adolescent sexual humiliation this wiki files as an
+> injury and makes it the closer. This is not somebody writing jokes about
+> airline food — the set is built entirely from the same self-auditing move
+> [[wiki/mind/synthesis/the-deferred-audit]] documents, and the audit is the
+> act.
+>
+> **What is still unknown is whether he ever performed it.** The corpus records
+> the resolution (2017-12-28), the plan (2018-03-09), the craft goal and the
+> written material (2019-04-12) and the stage name (2019-04-02) — and no stage.
+> That progression, complete up to the last step, is
+> [[wiki/mind/synthesis/failure-to-launch]]'s shape exactly, and this is the
+> best-documented instance of it in a creative domain.
 
 This fits the broader self-model: the same recursive, hyper-verbal,
 gallows-humor instinct that shows up as "black irony as a psychic

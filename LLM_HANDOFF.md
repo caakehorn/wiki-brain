@@ -4,6 +4,76 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-04e] - Session: the second re-derivation, and the coefficient gets a voice (Claude Opus 5)
+
+* **Branch:** `claude/crosslink-campaign-q9auor`, restarted from `main` after
+  **#258 merged** and **#259** (the parallel session's Vaughn pass) landed ·
+  `bin/wiki-check` clean · 404 tests green.
+* **Trigger:** operator — *"Continue. Had another model working in parallel."*
+
+**Picked up #259's handoff item 1.** It named `davey-fitzpatrick` and
+`new-jim-shaffer` as the next-best re-derivations. Chose Jim on measurement
+rather than order: **79 lines of page for a 1,789-message thread**, 885 of them
+Dan's and unread, and almost every claim on the page attributable to Jim's half.
+
+### What Dan's half contained
+
+1. **`contact-gini` gets its first first-person instance.** That page's own
+   summary of its work is *"this metric is no longer testimony; it is residue"*,
+   and the residue is three independent computations. 2019-10-20: *"you are 1 of
+   3 people that i actually would enjoy seeing / the other 2 people are my coke
+   dealer and a hooker."* **A coefficient gives the degree and cannot give the
+   composition**, because volume does not distinguish a friendship from a
+   transaction. This does both.
+2. **`stand-up-comedy` closed on *"whether or not a set ever happened"*.** It
+   happened: *"heres my comedy set so far"* (2019-04-12) and three bits, the
+   opener being his own drug spending set against a friend's cancer fundraiser.
+   Material, stage name, no stage.
+3. **`cocaine` gets a second cost figure from a different audience** — the first
+   was an advertisement to a supplier, this one is a joke to a friend. Both slant
+   upward, so the band narrows without settling; the arc's 3.5–7 g/day now has
+   two points low and none high.
+4. **`estate-money-spine` gets the start of its own delay** — distributions
+   promised 2018-04-24, twenty days after the death; first documented advance
+   2019-10-12.
+
+### The finding that outgrew the page
+
+**Every settled placement error in the testimony ledger runs early. 4×, and not
+one late.** t018 (Rob Orange dated 2013 against a contemporaneous 2014-04-11
+anchor) made it four. Written onto `calibrated-confidence`, whose typed edge had
+carried *"expression is measured while accuracy remains untested"* since it was
+written — the ledger has been testing exactly that since 2026-09-02 and nobody
+had joined them. **Brier 0.323, skill −0.29 against a coin flip, the `certain`
+band saying 0.95 and running 0.25.**
+
+Stated with two caveats that must survive any later quoting: **the ledger scores
+a different population** from that page's 43 numeric-probability utterances, so
+it removes the excuse rather than settling the claim; and **n=12 is a direction,
+not a verdict.**
+
+### Next, in order
+
+1. **Thirty-five re-derivations still owed.** Two done, both yielding a change of
+   subject or a first-person instance of something previously only computed. The
+   assumption that the rest are cosmetic has now failed twice.
+   `davey-fitzpatrick` (393 of Dan's messages, and the page built a
+   tapback-reconstruction method on the absence) is next by the same reasoning.
+2. **The cross-page joins the ledger now enables have not been swept.** The
+   `calibrated-confidence` join existed for two days before anybody made it.
+   Other pages carrying "untested", "unmeasured" or "rests on testimony" against
+   a ledger that may now settle them are a cheap, unrun pass —
+   `bin/wiki-crosslink --queue` already ranks by exactly that score.
+3. **The two staleness diagnoses in `skills/INBOX.md` are one defect** — mine
+   (net-zero: working a premise moves the front) and #259's (pair-level: one
+   re-check clears every flag on the page unread, 28 cleared unread). Both name
+   the same missing thing, a pair-level gate, and both are blocked on the same
+   measurement, which needs `git fetch --unshallow`. **Two independent
+   observations is `PROTOCOL.md` §3's promotion test.**
+4. **97 people pages with no handle**; **`shelbie-breakiron`** and the ~30
+   per-contact CSVs; **Jason Adams has no page**; **the twitter UTC skew**. All
+   unchanged.
+
 ### [2026-09-04d] - Session: the corpus had his monologue and none of his dialogue (Claude Opus 5)
 
 * **Branch:** `claude/dan-frank-tweets-wiki-fkp4im` · `bin/wiki-check` clean · gates green at commit.

@@ -22,7 +22,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 498 |
-| Pages touched in the last 14 days | 231 |
+| Pages touched in the last 14 days | 234 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 49 |
 | Open gaps | 609 |
@@ -55,7 +55,8 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-04** — 105 pages
+**2026-09-04** — 108 pages
+  - connect | people | 79 lines had been written about a 1,789-message thread
   - connect | people | the handles were on the pages all along, and the guard could not see nine of them
   - connect | people | thirteen pages that counted half a conversation
   - connect | people | the estate's two hands, found by reading a conversation instead of a name

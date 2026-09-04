@@ -15,8 +15,8 @@ chart:
     - name: "Entries"
       points:
         "Translated": 28
-        "Major lane": 43
-        "Free lane": 40
+        "Major lane": 44
+        "Free lane": 39
         "Held (people)": 94
         "Too thin": 47
         "Withheld": 217
@@ -56,8 +56,8 @@ is arithmetic in `bin/wiki-plain`: 900 words is the boundary.
 
 | Lane | What is in it | Outstanding |
 |---|---|---|
-| `major` | entries of 900 words or more — the dense findings | 43 |
-| `free` | entries under 900 words, worked smallest first | 40 |
+| `major` | entries of 900 words or more — the dense findings | 44 |
+| `free` | entries under 900 words, worked smallest first | 39 |
 
 A further **94** eligible entries about other people are in
 neither lane. They are held back deliberately, pending a decision about
@@ -108,7 +108,7 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 
 ## Next up
 
-**major** — 43 outstanding
+**major** — 44 outstanding
 
 - [[wiki/self/twitter/2024]] (11186 words)
 - [[wiki/self/twitter/2010]] (11106 words)
@@ -116,7 +116,7 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 - [[wiki/self/twitter/2009]] (9061 words)
 - [[wiki/self/twitter/2022]] (8060 words)
 
-**free** — 40 outstanding
+**free** — 39 outstanding
 
 - [[wiki/work/caviar-courier]] (301 words)
 - [[wiki/interests/favorites/books/authors/adrian-goldsworthy]] (315 words)

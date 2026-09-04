@@ -8,8 +8,9 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-04 — 105 pages
+## 2026-09-04 — 108 pages
 
+- **Session log:** connect | people | 79 lines had been written about a 1,789-message thread
 - **Session log:** connect | people | the handles were on the pages all along, and the guard could not see nine of them
 - **Session log:** connect | people | thirteen pages that counted half a conversation
 - **Session log:** connect | people | the estate's two hands, found by reading a conversation instead of a name
@@ -35,6 +36,7 @@ simply listed.
 | [[wiki/interests/food-and-diet]] | interests | **RE-CHECKED** — the-cool-metric gained a substantive section: the twitter archive shows the sorting metric run on a six-year live-in partner, with affection in the public register falling from 12 of 32 mentions in 20 |
 | [[wiki/interests/music/aliases/sloppp]] | interests | _(carries a GAP CLOSED from 2026-09-02)_ |
 | [[wiki/interests/opie-and-anthony]] | interests | _(carries a CONTRADICTION from 2026-09-03)_ |
+| [[wiki/interests/stand-up-comedy]] | interests | — |
 | [[wiki/interests/the-office]] | interests | — |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
@@ -44,6 +46,7 @@ simply listed.
 | [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/mind/concepts/calibrated-confidence]] | mind | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/mind/concepts/chaos-preference]] | mind | **RE-CHECKED** — the-cool-metric gained a section showing the received-versus-sought sort aimed at an already-admitted person: a six-year partner whose public register goes ironic and then silent. This page's axis is  |
+| [[wiki/mind/concepts/contact-gini]] | mind | _(carries a REVISED from 2026-08-20)_ |
 | [[wiki/mind/concepts/the-cool-metric]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
 | [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | mind | — |
 | [[wiki/mind/synthesis/annual-volume-suz]] | mind | **RE-CHECKED** — suzanne-frank gained a section on six dated messages naming Judge Fred Adams, including her report of his death (2020-05-24). **No volume figure on this page is affected** — the messages were always i |
@@ -102,6 +105,7 @@ simply listed.
 | [[wiki/people/new-jim-shaffer]] | people | _(carries a REVISED from 2026-07-19)_ |
 | [[wiki/people/nick-mattie]] | people | — |
 | [[wiki/people/rick-frank]] | people | _(carries a CORRECTED from 2026-08-11)_ |
+| [[wiki/people/rob-orange]] | people | — |
 | [[wiki/people/rod-banks]] | people | **CORRECTED** — This page was written from 41 messages in the CSV export and attributed their one-sidedness to the export. The dox-scan dump holds the same thread at **92 messages — 51 Sent, 41 Received.** Dan's half |
 | [[wiki/people/sam]] | people | — |
 | [[wiki/people/shannon]] | people | — |
@@ -434,7 +438,7 @@ simply listed.
 | [[wiki/self/concepts/wiki-brain]] | self | **RE-CHECKED** — llm moved on 2026-08-21: Gemini's 'chicken nugget' passage was corrected off Dan's ledger, and the post-GPT-5 causation of ChatGPT's decline was marked untested. This page carries an edge claiming Cha |
 | [[wiki/work/au-zaatar]] | work | _(carries a REVISED from 2026-07-14)_ |
 
-## 2026-08-20 — 14 pages
+## 2026-08-20 — 13 pages
 
 - **Session log:** ingest | timeline/people/mind | two iMessage exports + a 15:27 call recording — the relationship ended, and an AI analysis had put Dan's own house at the crime scene
 - **Session log:** correct | timeline/people/mind | the close read of August 19 falsified this pass's own headline claim
@@ -449,7 +453,6 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/legal/463-morgantown]] | legal | _(carries a CORRECTED from 2026-08-18)_ |
-| [[wiki/mind/concepts/contact-gini]] | mind | **REVISED** — This section says the June 2026 closure was comprehensive *"because no redundant support infrastructure was prepared."* The August 2026 exports show that is not quite true. Across August 18–19, 2026 — |
 | [[wiki/mind/concepts/document-fabrication]] | mind | — |
 | [[wiki/people/alexander-jackson]] | people | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address becoming a threat vector — Coles sending it to Dan unprompted on 2026-08-17 — and one typed edge. Re-read a |
 | [[wiki/people/arnu]] | people | **RE-CHECKED** — flagged stale against 463-morgantown (2026-08-20). That page gained a section on the address as a threat vector and one typed edge. Re-read against the change; **no claim on this page is affected** an |
