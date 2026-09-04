@@ -19,6 +19,9 @@ connections:
   - page: wiki/interests/favorites/eclecticism
     type: evidences
     claim: "The 2007 Fall Out Boy and Say Anything statuses, the 2012–2014 electronic likes, and Electric Zoo 2010 are the dated proof that the three music clusters predate the Spotify feed by more than a decade, so Architecture B is continuity rather than a 2025 discovery."
+  - page: wiki/self/twitter
+    type: parallels
+    claim: "Two public valves for one person under different platform rules: Facebook registered 2007 and Twitter in September 2008, both running continuously, which is what makes a disagreement between them — as over the Brooklyn move date — checkable rather than a matter of which memory to trust."
 ---
 
 

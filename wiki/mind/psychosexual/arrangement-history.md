@@ -80,6 +80,9 @@ connections:
   - page: wiki/mind/synthesis/the-serial-monogamist
     type: component-of
     claim: "The 'serial monogamist... a very specific type' self-description, checked against a corpus where commitment vocabulary is nearly absent and arrangement vocabulary is abundant, does not describe sexual exclusivity — it describes the single-slot occupancy pattern; 'openness was never the requirement here — authorship was' is the finding this page's self-theory claim rests on."
+  - page: wiki/self/twitter/2019
+    type: evidenced-by
+    claim: "A 2019 retrospective on the 2010 move to New York lists four reasons and then inverts the ordering — '^sort by( importance: low to high)' — which places 'availability of sex workers' first. Told nine years after the fact, in public, by somebody who chose to tell it."
 ---
 
 # Arrangement History

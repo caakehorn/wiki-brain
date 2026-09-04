@@ -46,6 +46,12 @@ connections:
   - page: wiki/self/twitter/2013
     type: evidenced-by
     claim: 'From mid-August 2013 the tweets place Dan in Fayette County and Pittsburgh repeatedly — Sheetz, Texas Roadhouse, Carnegie Mellon, the Oddball festival, and Uniontown filmed on 27 September — inside the window this page records as having no address-level data at all.'
+  - page: wiki/self/twitter/2016
+    type: evidenced-by
+    claim: "A third year placing him in Fayette County inside the address-level blind window: a car chase through his Uniontown yard reported to a Pittsburgh news reporter (2016-04-21), a Pittsburgh snowstorm Periscope, and Kennywood in July."
+  - page: wiki/self/twitter/2019
+    type: evidenced-by
+    claim: "Closes the far end of the address-level blind window: 'Au revoir Pennsylvania. Adiós Trump country.' (2019-03-03) is the only dated departure from Fayette County in the archive, and by October the state is a weekend destination rather than a home."
 ---
 
 # Location History (Google Timeline)

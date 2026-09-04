@@ -8,7 +8,26 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-03 — 41 pages
+## 2026-09-04 — 12 pages
+
+- **Session log:** site | meta | the Wikipedia-style reader is served again
+
+| Page | Domain | What moved |
+|---|---|---|
+| [[wiki/health/chemical-architecture]] | health | _(carries a GAP CLOSED from 2026-08-28)_ |
+| [[wiki/interests/concert-record/index]] | interests | — |
+| [[wiki/interests/favorites/music/artists/hey-monday]] | interests | **GAP CLOSED** — The source table read *"2008 · Unknown · Orlando, FL · Still open — band formed 2008 in West Palm Beach; exact Orlando show unresolved."* Two tweets settle it, and they are worth reading together beca |
+| [[wiki/interests/favorites/music/artists/jedi-mind-tricks]] | interests | — |
+| [[wiki/interests/favorites/music/artists/the-starting-line]] | interests | — |
+| [[wiki/interests/the-office]] | interests | — |
+| [[wiki/meta/digest]] | meta | — |
+| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
+| [[wiki/meta/readers-digest]] | meta | — |
+| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
+| [[wiki/meta/testimony-veracity]] | meta | — |
+| [[wiki/self/twitter/2008]] | self | _(carries a GAP CLOSED from 2026-09-03)_ |
+
+## 2026-09-03 — 35 pages
 
 - **Session log:** lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
 - **Session log:** ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
@@ -26,15 +45,10 @@ simply listed.
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/health/chemical-architecture]] | health | _(carries a GAP CLOSED from 2026-08-28)_ |
 | [[wiki/interests/music/overview]] | interests | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/interests/opie-and-anthony]] | interests | **CONTRADICTION** — The contemporaneous record runs the other way. Anthony Cumia was fired on **3 July 2014** over racist posts about a Black woman who had hit him in Times Square. On **4 July 2014** Dan tweeted at him:  |
 | [[wiki/interests/video-games]] | interests | — |
 | [[wiki/legal/2015-possession-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
-| [[wiki/meta/digest]] | meta | — |
-| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a CONTRADICTION)_ |
-| [[wiki/meta/testimony-veracity]] | meta | — |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/mind/synthesis/failure-to-launch]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
@@ -46,7 +60,6 @@ simply listed.
 | [[wiki/places/424-bedford-ave]] | places | — |
 | [[wiki/self/location-history]] | self | _(carries a CONTRADICTION from 2026-09-02)_ |
 | [[wiki/self/twitter]] | self | _(carries a CONTRADICTION)_ |
-| [[wiki/self/twitter/2008]] | self | **GAP CLOSED** — this section previously read *"the account's creation datetime was not retrievable"*, and gave 24 September 2008 as an inference from the earliest surviving tweet. Dan settled it himself in 2010, twic |
 | [[wiki/self/twitter/2009]] | self | **CONTRADICTION** — `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and `wiki/timeline/periods/full-sail-2008-2010` and `wiki/people/alexis-armel` both build on |
 | [[wiki/self/twitter/2010]] | self | **CONTRADICTION** — the anchor is misread. The 18 February train was the **return** leg, not the outbound one. On 17 February Dan is already in New York (*"off to Williamsburg"*), and on the 18th he is *"On the train bac |
 | [[wiki/self/twitter/2011]] | self | — |
@@ -68,7 +81,7 @@ simply listed.
 | [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | **CONTRADICTION** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomo |
 
-## 2026-09-02 — 12 pages
+## 2026-09-02 — 11 pages
 
 - **Session log:** build | meta | the instrument layer gets a section, and the reason it needs one
 - **Session log:** adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
@@ -98,7 +111,6 @@ simply listed.
 | [[wiki/interests/music/aliases/sloppp]] | interests | **GAP CLOSED** — the gap, as this page stated it — *"episodes 1–7 of 'Week in Trap' and any 'Heatwave Vol. 1' are unaccounted for."* **Heatwave Vol. 1** is dated: announced 13 May 2014 (*"First hour of my summer mix s |
 | [[wiki/meta/index]] | meta | — |
 | [[wiki/meta/instruments/index]] | meta | — |
-| [[wiki/meta/readers-digest]] | meta | — |
 | [[wiki/people/eric-jester]] | people | **CORRECTED** — this page described the friendship itself as "sparse but genuinely warm." That is an accurate reading of the *message thread*, which begins **May 2017**. It is not an accurate description of the frien |
 | [[wiki/people/shane-brannan]] | people | — |
 | [[wiki/people/vanessa-frank]] | people | _(carries a REVISED from 2026-07-14)_ |
@@ -219,7 +231,7 @@ simply listed.
 | [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 
-## 2026-08-26 — 52 pages
+## 2026-08-26 — 51 pages
 
 - **Session log:** climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
 - **Session log:** ingest | mind | the ideal-face specification — a mystery queue item resolved
@@ -242,7 +254,6 @@ simply listed.
 |---|---|---|
 | [[wiki/interests/favorites/music/artists/fall-out-boy]] | interests | — |
 | [[wiki/interests/rock-irrelevance-thesis]] | interests | — |
-| [[wiki/interests/the-office]] | interests | — |
 | [[wiki/meta/journeys/index]] | meta | — |
 | [[wiki/meta/journeys/the-instrumented-channel]] | meta | — |
 | [[wiki/meta/journeys/the-supply-line]] | meta | — |
@@ -504,20 +515,4 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/people/john-paci]] | people | **REVISED** — the version of this page written on 2026-08-10 described a warm, long-suffering landlord and an eviction that simply happened to him and to his tenants. The eviction was staged at Dan's request. The r |
-
-## 2026-08-11 — 5 pages
-
-- **Session log:** climb | mind | totality-themes.md re-derived from the wiki's own T2/T3 layer — "The Irreversibility Firewall"
-- **Session log:** correction | people | the "decade of silence" with Rick was wrong — full record recovered, childhood testimony captured, worldview mismatch documented
-- **Session log:** process | EXTRACTION_SPEC.md | two new moves, generalized from the Rick pass — per-contact CSVs, dangling-citation chasing
-- **Session log:** ingest | people | the December 2015 Rick rupture, recovered two-sided and verbatim — mechanism behind the present-day estrangement
-- **Session log:** ingest | people | rick-frank.md correspondence review — two unmined sources, findings written back from three pages that already had them
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/mind/concepts/institutional-out]] | mind | — |
-| [[wiki/mind/concepts/node-locking]] | mind | — |
-| [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | mind | — |
-| [[wiki/people/lisa-frank]] | people | — |
-| [[wiki/people/tan-calabrese]] | people | _(carries a REVISED from 2026-08-09)_ |
 

@@ -25,6 +25,12 @@ connections:
   - page: wiki/mind/synthesis/2020-left-turn
     type: evidences
     claim: 'The 2017-2019 politics are anti-Trump liberal resistance, not the left: agreeing with Mitt Romney under #ImpeachTrump, weighing a Pence term as preferable, and treating Trump as a wasted vehicle. So the 2020 turn is a conversion from liberalism rather than from apathy — and the pipeline\'s entry point is 2017 and comedic, via @drmistercody, followed out of Cracked in December.'
+  - page: wiki/health/chemical-architecture
+    type: evidences
+    claim: "A single 28 December tweet supplies the nicotine onset the health pages never had — 'Smoked my first pack of cigarettes when I went to this promotional fall out boy show in 2007' — placing it in the same year as the first opiate."
+  - page: wiki/interests/favorites/music/artists/fall-out-boy
+    type: evidences
+    claim: "The band reappears ten years after the teen-identity era as the setting for a health fact rather than a musical one: the 2007 promotional show is where he smoked his first pack of cigarettes."
 ---
 
 # Twitter / X — 2017

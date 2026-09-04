@@ -50,6 +50,9 @@ connections:
   - page: wiki/self/twitter/2018
     type: evidenced-by
     claim: 'The middle term of the sequence: "opie sucks though" (2018-10-29), three words with no argument attached, four years after the firing and four before the retrospective.'
+  - page: wiki/self/twitter/2021
+    type: contradicts
+    claim: "The move away from comedy free-speech absolutism is dated five months earlier than this page states: 'Lenny Bruce was arrested...not by the public, but by the state. Dave Chappelle is facing criticism which is, I'm told, different.' (2021-10-26), against the Louis CK defence of 2019-01-16."
 ---
 
 # Opie & Anthony / Shock Radio

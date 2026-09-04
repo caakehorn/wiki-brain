@@ -77,6 +77,21 @@ CORPORA = {
     "raw/self/twitter/archive.jsonl": ("jsonl", "created_at", "text"),
 }
 
+# Pages written by a generator, where a hand-added inverse edge is destroyed on
+# the next run and fails that generator's own check. An edge INTO one of these
+# is legitimate and is simply not reciprocable by hand: the tool reports them
+# apart from the debt rather than counting work nobody may do. Keep in step
+# with CLAUDE.md's list of generated surfaces.
+GENERATED = {
+    "wiki/meta/testimony-veracity",
+    "wiki/meta/skills",
+    "wiki/meta/readers-digest",
+    "wiki/meta/digest",
+    "wiki/meta/recent-activity",
+    "wiki/meta/open-questions",
+    "wiki/health/intake-ledger",
+}
+
 # Name tokens too common to carry a match on their own. A page whose entire
 # name is one of these can only be found by reading.
 STOPNAMES = {
@@ -370,6 +385,7 @@ def cmd_reciprocal(argv):
     filt = argv[0] if argv else None
     fms = {p: split_fm(t)[0] for p, t in pages.items()}
     debt = []
+    generated = []
     for path, fm in sorted(fms.items()):
         slug = path[:-3]
         if filt and not slug.startswith(filt.rstrip("/")):
@@ -380,6 +396,9 @@ def cmd_reciprocal(argv):
             tf = fms.get(tgt + ".md")
             if tf is None:
                 continue  # wiki-connect check owns unresolvable targets
+            if tgt in GENERATED:
+                generated.append((slug, typ, tgt))
+                continue
             back = [t for p, t in edges(tf) if p == slug]
             if not back:
                 debt.append((slug, typ, tgt, "no edge back"))
@@ -390,6 +409,11 @@ def cmd_reciprocal(argv):
     for s, typ, t, why in debt:
         print("  %-44s --%s--> %-44s  %s" % (s, typ, t, why))
     print("\n%d edge(s) owe an inverse" % len(debt))
+    if generated:
+        print("\n%d edge(s) point at a GENERATED page and are not reciprocable by hand:" % len(generated))
+        for s, typ, t in generated:
+            print("  %-44s --%s--> %s" % (s, typ, t))
+        print("  (a hand-added inverse there is destroyed on the next generator run)")
     return 0
 
 
@@ -420,7 +444,7 @@ def cmd_check(argv):
             if typ in NO_INVERSE:
                 continue
             tf = fms.get(tgt + ".md")
-            if tf is None:
+            if tf is None or tgt in GENERATED:
                 continue
             if not any(p == slug for p, _ in edges(tf)):
                 debt += 1

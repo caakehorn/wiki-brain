@@ -1,5 +1,5 @@
-WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-03
-497 pages, ~1,821,377 tokens.
+WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-04
+497 pages, ~1,833,831 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -18,7 +18,7 @@ aliases: ["substance stack", "the chemical triad"]
 status: active
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-09-03
+date_modified: 2026-09-04
 sources:
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -77,6 +77,21 @@ connections:
   - page: wiki/self/twitter/2010
     type: evidenced-by
     claim: 'The 2010-02-17 day-zero is independently supported by a same-day tweet at 15:07 New York time — "this is the most stressful day/decision of my life. nothing is making it easier." — on a day when the Brooklyn move, decided and celebrated three weeks earlier, cannot be the referent. The derivation the date originally rested on is separately shown to be unsound.'
+  - page: wiki/self/twitter/2008
+    type: evidenced-by
+    claim: "The nicotine row is dated for the first time here: already a smoker at nineteen, a quit announced on 16 October 2008 as 'Another problem solved' and failed by 22 December — the earliest dated instance in the corpus of a decision being treated as the outcome."
+  - page: wiki/self/twitter/2017
+    type: evidenced-by
+    claim: "Nicotine onset is 2007, at a promotional Fall Out Boy show — which puts it in the same year as the first opiate, making 2007 the year the stack starts rather than the year one substance arrived."
+  - page: wiki/self/twitter/2019
+    type: evidenced-by
+    claim: "The nicotine regulator survives every attempt to remove it and in 2019 he states the logic himself — 'i could replace the constant taste of burnt tobacco with strawberry' (9 October), nine years after the same move with an e-cigarette, followed within a day by a can of Skoal."
+  - page: wiki/mind/synthesis/intake-constancy
+    type: parallels
+    claim: "Nicotine ticks for eighteen years while the delivery apparatus rotates through cigarettes, e-cigarette, vape, Skoal and disposables — the intake-constancy shape with hardware as the rotating variable rather than subject matter."
+  - page: wiki/self/twitter/2011
+    type: evidenced-by
+    claim: "The one relapse the archive preserves without ever mentioning it: '1 week smoke free!' on 10 January 2011 restarts a counter that began on 13 December 2010, so the e-cigarette quit broke inside three weeks and is visible only in the arithmetic."
 ---
 
 # Chemical Architecture
@@ -187,6 +202,88 @@ the same substance patterns continuing, and the exchange reads as an
 early, idealistic pact rather than a sustained recovery effort. Alcohol
 was excluded early and permanently — the one substance the family history
 made radioactive.
+
+## Nicotine: eighteen years, five delivery systems, and no interruption
+
+Assembled 2026-09-04 from the twitter archive. The year pages
+([[wiki/self/twitter/2008]], [[wiki/self/twitter/2010]],
+[[wiki/self/twitter/2011]], [[wiki/self/twitter/2017]],
+[[wiki/self/twitter/2019]]) each hold a piece of this; **nothing held the
+sequence**, and the sequence is the finding.
+
+The stack table above carries nicotine as *"ritualistic regulator — thermal
+paste"*, and the measurement section says plainly that the Suboxone and
+nicotine rows "have no ledger entries at all and remain description." The
+public archive does not supply a dose or a rate and cannot fill the ledger.
+It supplies something the ledger could not: **a dated, first-party,
+eighteen-year record of the row's continuity, written by the subject, in
+public, without any of it being about quitting.**
+
+| Date | Tweet | Delivery system |
+|---|---|---|
+| (2007, stated 2017-12-28) | *"Smoked my first pack of cigarettes when I went to this promotional fall out boy show in 2007."* | cigarettes — onset |
+| 2008-10-16 | *"I think I'm gonna stop smoking cigarettes. Another problem solved."* | quit #1 announced |
+| 2008-12-22 | *"coffee and cigarettes- the cure for a ROUGH night."* | quit #1 over, 67 days |
+| 2010-12-13 | *"3 days after moving to an e cig, i'm (un) hooked. today is day 1 with no tobacco. technology is fuggin ~crazy~"* | e-cigarette |
+| 2010-12-14 | *"25 hours tobacco free. i should have done this years ago :("* | day 2 |
+| 2011-01-10 | *"1 week smoke free!"* | **the counter has restarted** |
+| 2015-12-13 | *"Vape shops all closed on Sunday. Gross Juiceman until tomorrow"* | vape, and a supply problem |
+| 2019-10-09 | *"one reason i started vaping is because i felt like a piece of shit for exposing my animals to smoke. the other is because i could replace the constant taste of burnt tobacco with strawberry"* | vape, with the reasons stated |
+| 2019-10-10 | *"today i bought a can of skoal to prepare me for a weekend in Pennsylvania"* | + smokeless |
+| 2020-02-08 | *"Prioritized Budget: Dog food snacky internet girls vape juice smart light bulbs"* | a budget line item |
+| 2022-03-31 | disposable vape, complained about by flavour | disposable |
+
+**Every quit in this record is a substitution, and the substance is never the
+thing being removed.** 2010 replaces combustion with an e-cigarette and he
+says so in the same breath as *"(un) hooked"* — a word he corrects mid-sentence
+because he knows it is not true. 2019 states the two reasons outright and
+neither of them is nicotine: the animals, and the flavour. The hardware
+rotates through five forms in fifteen years; nothing in the record shows an
+interval without it.
+
+**The 2011 counter is the load-bearing detail.** Day one was 13 December 2010.
+One week from day one is 20 December. On **10 January 2011** he posts *"1 week
+smoke free!"* — which dates a fresh day one to roughly **3 January**. The
+December attempt broke somewhere in between, and **the relapse is nowhere in
+the archive**: it is visible only because a counter restarted. That is what
+makes this record worth more than the self-report the rest of this page rests
+on. He is not concealing anything; he is simply not posting the failures, and
+an eighteen-year feed still preserves them in the arithmetic.
+
+**Two conclusions, at different strengths.**
+
+*Strong.* Nicotine onset is **2007**, the same year this page's History section
+dates the first opiate — *"first opiate (Roxicet → Oxy) in 2007, age 18–19,
+during the post-rupture years"* — and the same year
+[[wiki/timeline/periods/dark-era-2007-2008]] opens. Two rows of the stack
+begin inside twelve months of each other, in one set of life conditions, and
+the corpus had a date for only one of them. That is not a causal claim; it is a
+claim about when the architecture starts, and the page's own account previously
+made it look like one substance arriving alone. The 2007 show is probably
+datable further: the concert table holds two 2007 Fall Out Boy dates and only
+one is *promotional* — **6 February 2007, Times Square, the Infinity On High
+release-day free show**, at eighteen. Stated as likeliest, not settled: he
+never names the venue.
+
+*Weaker, and it is the one worth testing.* This looks like
+[[wiki/mind/synthesis/intake-constancy]] running on a substance rather than on
+media. That page's finding is a fixed intake rate under a rotating subject —
+*output combusts, intake ticks*. Here the intake ticks for eighteen years while
+**the delivery apparatus** rotates, and each rotation is experienced and
+announced as a change. The parallel is structural rather than measured: there
+is no nicotine rate in the corpus to hold flat, so this is an argument by shape
+and it should not be cited as though a number backed it.
+
+**What would falsify the continuity claim**, and it is checkable: any dated
+stretch in the archive or the message corpus where nicotine is absent rather
+than re-housed. The longest untested gap is 2011–2015, where the archive is a
+fetch artefact and absence proves nothing.
+
+**Still description, not measurement.** No dose, no frequency, no rate;
+`intake/` holds no nicotine unit and a ledger cannot be back-filled from a
+tweet. The row is now dated at both ends, continuous in between, and unmeasured
+throughout — better than undated and unmeasured, worse than the cocaine and
+cannabis rows.
 
 ## System genesis: a phased history
 
@@ -2045,10 +2142,21 @@ domain: interests
 page_type: index
 status: stable
 date_created: 2026-08-01
-date_modified: 2026-08-01
+date_modified: 2026-09-04
 sources:
   - "raw/self/concerts/table.csv"
+  - "raw/self/twitter/archive.jsonl"
 tags: [music-production, digital-footprint]
+connections:
+  - page: wiki/self/twitter/2008
+    type: evidenced-by
+    claim: "The ticket table is not the complete record it claims to be: one autumn of the twitter archive names three Orlando shows it does not contain — The Roots (7 October), Cobra Starship / Hit The Lights / Forever The Sickest Kids (13 November) and Trans-Siberian Orchestra (15 November) — while corroborating four it does, to the day, from inside the venue."
+  - page: wiki/interests/favorites/music/artists/hey-monday
+    type: contains
+    claim: "The table's one unresolved 2008 Orlando entry is dated to 28 December 2008 by two tweets nineteen days apart, and joins to the BACKBOOTH ticket the table files ten rows earlier under the opener's name."
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "A concert log kept from ticket stubs records what was bought; the twitter archive records what was attended and what he thought of it — which is why a show he rated 'SUPER lame' ninety minutes after it ended is absent from the table entirely."
 ---
 
 # Concert Record (2001-2019)
@@ -2099,6 +2207,68 @@ Per the repository's ingest philosophy, the unit of entry is the **artist**, not
 | 34 | Aug 7-9, 2012 | Bloc Party | Terminal 5 | New York, NY | Three-night sold-out 'Four' run (recalled as 'Terminal 9'). |
 | 35 | Aug 30, 2013 | Oddball Comedy & Curiosity Festival | Post-Gazette Pavilion (First Niagara Pavilion) | Burgettstown, PA | Confirmed. |
 | 36 | Apr 20, 2019 | High Tide 4 | Hornblower Infinity Yacht | New York, NY | Boarded at 353 West St. |
+
+## The twitter cross-check — the table is a purchase record, not an attendance record
+
+Added 2026-09-04, from [[wiki/self/twitter/2008]].
+
+**The claim above that "the master table below is the complete record" is
+false, and one autumn of one archive is enough to show it.** Ninety-eight days
+of the twitter account — 24 September to 31 December 2008, the account's first
+year — name **seven** Orlando shows. The table holds four of them.
+
+| Date | Show | In the table? | What the tweet adds |
+|---|---|---|---|
+| 7 Oct 2008 | The Roots | **No** | *"at the roots show. i can dig that."* — posted 16:29 EDT, from inside it |
+| 18 Oct 2008 | All Time Low / The Maine | Yes, row 28 | *"all time lowww/the maine"* — same-day, exact-date corroboration |
+| 13 Nov 2008 | Cobra Starship / Hit The Lights / Forever The Sickest Kids | **No** | *"cobras/hit the lights/ftsk"* — the full bill, in his own abbreviations |
+| 15 Nov 2008 | Trans-Siberian Orchestra | **No** | *"trans-siberian orchestra tonight."* at 17:04, then *"wow that was SUPER lame."* at 23:07 |
+| 17 Nov 2008 | Jedi Mind Tricks | Yes, row 26 | *"holy fuck, jedi mind tricks are so fucking scary."* — 01:50, walking out |
+| 12 Dec 2008 | Fall Out Boy / TAI / We The Kings | Yes, row 29 | *"fall out boy/TAI/WTK - @houseofblues"* — the three-act bill, day-of |
+| 28 Dec 2008 | Hey Monday (BACKBOOTH) | Row 36 undated; row 40 under another name | see below |
+
+**The three misses are not random, and the reason they are missing is the
+point.** This table was assembled from ticket stubs, order confirmations and
+recollection — every "Resolved" note in the source cites an order number or a
+routing check. A record built that way preserves what was *bought*. It cannot
+preserve a show somebody else bought the ticket for, a show walked into, or a
+show remembered as not worth remembering — and **Trans-Siberian Orchestra is
+the cleanest case in the corpus of the last kind.** He announced it at 17:04
+and dismissed it at 23:07, and it left no trace in the record he later
+compiled. A concert log is a record of intentions; a contemporaneous feed is a
+record of evenings.
+
+> **GAP NARROWED [2026-09-04]:** row 36 read *"Hey Monday · 2008 · Unknown ·
+> Orlando, FL · Still open — band formed 2008 in West Palm Beach; exact Orlando
+> show unresolved."* Two tweets date it without touching the billing question:
+> **2008-12-19** *"I don't want to go to cold, lame PA. Be back on the 28th for
+> hey Monday :)"* — posted from Orlando the day he flew home for Christmas —
+> and **2008-12-27 19:40 EST** *"Flying to Orlando for hey monday tomorrow.
+> Wooo"*, followed by *"Hate airport days."* at 10:38 on the 28th. He flew back
+> to Florida early, mid-holiday, for this one show. **The date is 28 December
+> 2008.**
+>
+> **And the table already held the ticket, ten rows later, under a different
+> band.** Row 40 is *"There for Tomorrow · Dec 28, 2008 · BACKBOOTH · Orlando,
+> FL · 1 General Admission ticket; Order #M7WKYAHQW"* — same city, same night,
+> a 250-capacity room, and There For Tomorrow were an Orlando act sharing the
+> Florida pop-punk circuit Hey Monday had just formed on. **The most economical
+> reading is that rows 36 and 40 are one night**, filed twice: once under the
+> band on the ticket and once under the band he went for.
+>
+> The date is settled by the tweets alone and does not depend on that join. The
+> join itself is inference — nothing in the corpus states the BACKBOOTH bill —
+> and it is the residual open question, now a specific and checkable one rather
+> than an open year.
+
+**What this implies for every other "Still open" row**, and it is not a
+suggestion to go and close them by guessing: the twitter archive runs from
+September 2008 to 2026, the concert table stops in 2019, and the two have never
+been read against each other except for these ninety-eight days. Rows 6, 16,
+17, 27 and 32 are all undated or unidentified, and four of them fall inside
+years the archive covers. `bin/wiki-crosslink scan wiki/self/twitter/<year>`
+names the artist pages a year mentions; the shows with no artist page — which
+is most of them — are found by reading the year.
 
 ## Festivals & tours
 
@@ -4356,6 +4526,12 @@ connections:
   - page: wiki/interests/the-office
     type: co-occurs
     claim: "The Nov 19 2007 Buffalo secret show was billed under the fake name 'Schrute Farms' — a sitcom in-joke carried into the band's own concert record and remembered by name twelve years later."
+  - page: wiki/self/twitter/2008
+    type: evidenced-by
+    claim: "The 12 December 2008 House of Blues bill is corroborated day-of and act-for-act from his own feed — 'fall out boy/TAI/WTK - @houseofblues. let me know if you're going!' — and ten days earlier he dates his own nostalgia out loud: 'It's like 2005 again. Fobz and panic both in rotation in my car.'"
+  - page: wiki/self/twitter/2017
+    type: evidenced-by
+    claim: "A 2007 promotional Fall Out Boy show is where he smoked his first pack of cigarettes, which makes this band the setting for the corpus's only dated nicotine onset — a health fact reached through a fandom page."
 ---
 
 # Fall Out Boy
@@ -4672,11 +4848,19 @@ domain: interests
 page_type: entity
 status: stable
 date_created: 2026-08-01
-date_modified: 2026-08-01
+date_modified: 2026-09-04
 sources:
   - "raw/self/concerts/table.csv"
+  - "raw/self/twitter/archive.jsonl"
 related: []
 tags: [music-production, digital-footprint]
+connections:
+  - page: wiki/self/twitter/2008
+    type: evidenced-by
+    claim: "The show is 28 December 2008 and he flew back to Orlando mid-Christmas for it — 'Be back on the 28th for hey Monday :)' on the 19th, 'Flying to Orlando for hey monday tomorrow' on the 27th — which closes the concert log's open year and points at its own BACKBOOTH ticket, filed under There For Tomorrow."
+  - page: wiki/interests/concert-record/index
+    type: component-of
+    claim: "This is the concert table's row 36, and the tweets that date it also join it to row 40 — the same night, the same city, filed twice under two band names."
 ---
 
 # Hey Monday
@@ -4689,11 +4873,38 @@ All dates, venues, cities, and notes below are taken from the source table and p
 
 | Date | Show / Context | Venue | City | Note |
 |------|---------------|-------|------|------|
-| 2008 | Hey Monday | Unknown | Orlando, FL | Still open -- band formed 2008 in West Palm Beach; exact Orlando show unresolved. |
+| **28 Dec 2008** | Hey Monday | BACKBOOTH (probable) | Orlando, FL | **Date resolved 2026-09-04 from the twitter archive.** Venue is inference — see below. |
 
 ## Notes per appearance
 
-- **2008** — Hey Monday, Unknown, Orlando, FL. Still open -- band formed 2008 in West Palm Beach; exact Orlando show unresolved.
+- **28 December 2008** — Hey Monday, Orlando, FL.
+
+> **GAP CLOSED [2026-09-04] — the date.** The source table read *"2008 ·
+> Unknown · Orlando, FL · Still open — band formed 2008 in West Palm Beach;
+> exact Orlando show unresolved."* Two tweets settle it, and they are worth
+> reading together because of what they say about the trip rather than the
+> show:
+>
+> | When | Tweet |
+> |---|---|
+> | 2008-12-19, at the Orlando airport | *"I don't want to go to cold, lame PA. Be back on the 28th for hey Monday :)"* |
+> | 2008-12-27, 19:40 EST | *"Flying to Orlando for hey monday tomorrow. Wooo"* |
+> | 2008-12-28, 10:38 EST | *"Hate airport days."* |
+>
+> He is nineteen, home in Pennsylvania for his first Christmas since moving to
+> Florida, and **he books the return flight around this show and says so before
+> he has even left.** The band had existed for less than a year. This is the
+> earliest dated instance in the corpus of a pattern the interest pages
+> describe abstractly: the live event is the fixed point and the rest of the
+> calendar arranges itself around it.
+>
+> **The venue is inference, not record.** The same concert table holds, ten
+> rows later, *"There for Tomorrow · Dec 28, 2008 · BACKBOOTH · Orlando, FL ·
+> 1 General Admission ticket; Order #M7WKYAHQW"* — same night, same city, a
+> small room, and a band on the same Florida circuit. One night filed twice
+> under two names is the most economical reading of the two rows, but nothing
+> in the corpus states the BACKBOOTH bill, so the venue stays marked probable.
+> `wiki/self/twitter/2008` and `wiki/interests/concert-record/index`.
 
 
 ========================================================================
@@ -4811,11 +5022,16 @@ domain: interests
 page_type: entity
 status: stable
 date_created: 2026-08-01
-date_modified: 2026-08-01
+date_modified: 2026-09-04
 sources:
   - "raw/self/concerts/table.csv"
+  - "raw/self/twitter/archive.jsonl"
 related: []
 tags: [music-production, digital-footprint]
+connections:
+  - page: wiki/self/twitter/2008
+    type: evidenced-by
+    claim: "The log's 17 November 2008 date is independently corroborated from inside The Social that night, and the archive supplies the only reaction on record: 'holy fuck, jedi mind tricks are so fucking scary.' — posted at 01:50, walking out."
 ---
 
 # Jedi Mind Tricks
@@ -4833,6 +5049,22 @@ All dates, venues, cities, and notes below are taken from the source table and p
 ## Notes per appearance
 
 - **Nov 17, 2008** — Jedi Mind Tricks, The Social, Orlando, FL. Resolved. With Outerspace / Reef the Lost Cause.
+
+**Corroborated from inside the room [2026-09-04].** The concert table's date
+was established by routing checks. Two tweets that night establish it
+independently, and they are the only record of what he made of it:
+
+| Eastern time | Tweet |
+|---|---|
+| 2008-11-17, 21:19 | *"Jedi mind tricks"* |
+| 2008-11-18, 01:50 | *"holy fuck, jedi mind tricks are so fucking scary."* |
+
+The four-hour gap is the set. **"Scary" is the reaction and it is not a
+complaint** — this is an Orlando audio student two months into Full Sail,
+already deep in the emo and pop-punk circuit that fills the rest of autumn
+2008 ([[wiki/self/twitter/2008]]), walking out of a Philadelphia
+horrorcore show having enjoyed it. The taste is wider at nineteen than the
+concert table's overwhelmingly pop-punk 2008 rows suggest on their own.
 
 
 ========================================================================
@@ -5816,15 +6048,19 @@ domain: interests
 page_type: entity
 status: stable
 date_created: 2026-08-01
-date_modified: 2026-08-01
+date_modified: 2026-09-04
 sources:
   - "raw/self/concerts/table.csv"
+  - "raw/self/twitter/archive.jsonl"
 related: []
 tags: [music-production, digital-footprint]
 connections:
   - page: wiki/interests/concert-record/festivals/nintendo-fusion-tour
     type: component-of
     claim: "The Starting Line performed at Nintendo Fusion Tour on Sep 28 - Nov 23, 2005 (Various (tour), Multiple cities)."
+  - page: wiki/self/twitter/2008
+    type: evidenced-by
+    claim: "'i miss the starting line.' (30 November 2008) is the only evidence in the corpus that the band meant anything to him beyond the 2005 Nintendo Fusion Tour bill this page otherwise rests on — posted during their hiatus, three years after the show."
 ---
 
 # The Starting Line
@@ -5842,6 +6078,22 @@ All dates, venues, cities, and notes below are taken from the source table and p
 ## Notes per appearance
 
 - **Sep 28 - Nov 23, 2005** — Nintendo Fusion Tour, Various (tour), Multiple cities. Confirmed tour window.
+
+## Outside the tour bill
+
+**2008-11-30:** *"i miss the starting line."*
+
+Five words, and the only evidence in the corpus that this band was ever more
+to him than a name on the 2005 Nintendo Fusion Tour lineup. It is posted three
+years after that show and during the band's hiatus, from Orlando, in the middle
+of the autumn that [[wiki/self/twitter/2008]] documents as saturated with
+current pop-punk — All Time Low, Cobra Starship, Hey Monday, Fall Out Boy. He
+is nineteen and already nostalgic for a scene he is still standing in.
+
+That is the same operation as *"It's like 2005 again. Fobz and panic both in
+rotation in my car."* ten days later, and both belong to the era-marker
+reading in [[wiki/mind/synthesis/interests-as-era-markers]]: he dates himself
+by what is in rotation, out loud, at the time.
 
 
 ========================================================================
@@ -8503,6 +8755,18 @@ connections:
   - page: wiki/self/twitter/2013
     type: evidenced-by
     claim: 'The SLOPPP operation in full: some thirty named releases between 13 August and 26 December 2013, free downloads tracklisted and timestamped, ~10k self-reported SoundCloud plays, a Numark NS7 bought on 10 November, and criticism solicited from one named peer. The project\'s start date is not datable from the twitter record because the archive source changes on 2013-08-17.'
+  - page: wiki/self/twitter/2010
+    type: evidenced-by
+    claim: "The indie and electronic vocabularies run side by side through 2010 rather than in sequence — Grizzly Bear and Arcade Fire in the same months as Diplo, Electric Zoo, Ableton warping and a published dubstep mix — so what the 2012-2014 likes migration dates is displacement, not onset."
+  - page: wiki/self/twitter/2014
+    type: evidenced-by
+    claim: "SLOPPP's documented peak year: a Beatport remix contest entry, official-style flips for heRobust, Katy Perry, gLAdiator, Drake x Cashmere Cat, Caked Up and Zeds Dead, two running mix series, a live-streamed video show and a public stem-trade address."
+  - page: wiki/self/twitter/2016
+    type: evidenced-by
+    claim: "The disputed OSU gig is confirmed — 'Had lit times playing @ulmdub birthday party last night at OSU' (2016-02-07) — which settles a live set this page had leaned toward treating as fabricated and proves the operator export drops rows."
+  - page: wiki/self/twitter/2026
+    type: evidenced-by
+    claim: "The ten-year silence ends: a MOGZART drum-and-bass remix posted 2026-03-04, the first original music on the account since 7 March 2016, under a different alias in a different genre."
 ---
 
 
@@ -8771,6 +9035,9 @@ connections:
   - page: wiki/self/twitter/2018
     type: evidenced-by
     claim: 'The middle term of the sequence: "opie sucks though" (2018-10-29), three words with no argument attached, four years after the firing and four before the retrospective.'
+  - page: wiki/self/twitter/2021
+    type: contradicts
+    claim: "The move away from comedy free-speech absolutism is dated five months earlier than this page states: 'Lenny Bruce was arrested...not by the public, but by the state. Dave Chappelle is facing criticism which is, I'm told, different.' (2021-10-26), against the Louis CK defence of 2019-01-16."
 ---
 
 # Opie & Anthony / Shock Radio
@@ -9058,6 +9325,9 @@ connections:
   - page: wiki/mind/synthesis/the-cato-seat
     type: component-of
     claim: "The 2024 binge is one instance of a single curated situation: twenty books on a constitutional order failing, read alongside forty on a second one, by a man whose own AI persona is named for the senator who lost that argument and killed himself over it."
+  - page: wiki/self/twitter/2024
+    type: evidenced-by
+    claim: "Within three weeks of the reading binge the history is a working instrument rather than a subject: the UCLA encampment read as 'the Fabian strategy' and 'Caesarian tactics' (1 May), a proscription list joked about in the post-debate wreckage (28 June), and a major publication corrected on republican Rome (5 June)."
 ---
 
 # Roman Republic & Ancient History
@@ -9336,8 +9606,9 @@ domain: interests
 page_type: entity
 status: active
 date_created: 2026-07-16
-date_modified: 2026-08-26
+date_modified: 2026-09-04
 sources:
+  - "raw/self/twitter/archive.jsonl"
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/dox-scan/FULL TWITTER ANALYSIS.txt"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
@@ -9359,6 +9630,12 @@ connections:
   - page: wiki/mind/synthesis/music-as-identity
     type: component-of
     claim: "The Schrute Farms alias is the itinerary/devotion mode's clearest proof of insider status: a fan who clocks and carries an in-joke for twelve years was let into the scene's own sense of humor, not just watching from outside it."
+  - page: wiki/self/twitter/2008
+    type: evidenced-by
+    claim: "The show is naming infrastructure, not a watched programme: the Winter Park apartment is 'schrute farms' in the account's third tweet, the new kitten is shortlisted as Ari, Dwight or Mose, and the register survives into years with no television content in them."
+  - page: wiki/self/twitter/2010
+    type: evidenced-by
+    claim: "'remember when he stole \'shut up Oscar!\' from us in s5 of the office?' to Eric Jester (12 March 2010) is the idiom operating as shared private property between two friends rather than as a reference either is explaining."
 ---
 
 # The Office (TV)
@@ -9379,6 +9656,47 @@ remembered it that way ("one time i went to a secret show in buffalo where
 fall out boy performed as 'schrute farms'" — 2019-09-01). For a teenager
 to clock the fake name and carry it for twelve years is a sign the show's
 joke-register was native to him, not incidental.
+
+### He gave the name to his own apartment ten months later
+
+Added 2026-09-04 from [[wiki/self/twitter/2008]].
+
+The section above reads the alias as a joke Dan *clocked* — evidence he was
+inside the register rather than watching it. The twitter archive shows him
+doing something stronger. **The third tweet of his entire account, on
+24 September 2008, is:**
+
+> *"schrute farms is now completely wireless."*
+
+He had moved to Winter Park that day to start Full Sail. The apartment is
+called Schrute Farms. Ten months after standing in a Buffalo room where a band
+he loved used the name, **he has taken it for his own address** — and he
+writes it as an established fact for an audience assumed to already know,
+not as a joke being made.
+
+The rest of that autumn runs the same way. On **24 October** the new kitten's
+shortlist is *"ari, dwight, or mose?"* — two *Office* characters and one
+*Entourage* agent, put to a vote by SMS shortcode. On **5 December**:
+*"oooomg dwight marries angela. fucking awesome."* On **25 September**, the day
+after arriving in Florida: *"So amped for the office. Life is gooood."*
+
+**The distinction this makes is the page's actual finding.** Everything above
+treats *The Office* as a source of idiom — a joke-register, a reflex, a
+rhetorical habit. 2008 shows it operating one layer down as **naming
+infrastructure**: the home, the pet and the week are all labelled out of it.
+That is why the show keeps appearing in years with no television content in
+them at all — *"remember when he stole 'shut up Oscar!' from us in s5"* to
+[[wiki/people/eric-jester|Eric Jester]] in March 2010, and *"What the fuck
+there's 100 dogs at the office"* in October 2011, a pun that only works
+because the phrase was already doing double duty.
+
+**The falsifier, stated because it is live.** Nothing dates the apartment's
+name relative to the November 2007 show, so "he took it from the gig" is a
+reading, not a record — a nineteen-year-old fan of the sitcom could arrive at
+*Schrute Farms* for a house without any band in between, and the Buffalo show
+would then be a coincidence of two people reaching for the same obvious joke.
+What the tweet establishes independently of that question is the register's
+depth: it is where he keeps the names of things he lives in.
 
 ## The Michael Scott register
 
@@ -10267,7 +10585,7 @@ title: "Wiki Digest"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-09-03
+date_modified: 2026-09-04
 sources: []
 ---
 
@@ -10284,7 +10602,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 497 |
-| Pages touched in the last 14 days | 191 |
+| Pages touched in the last 14 days | 179 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 48 |
 | Open gaps | 605 |
@@ -10317,7 +10635,10 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-03** — 41 pages
+**2026-09-04** — 12 pages
+  - site | meta | the Wikipedia-style reader is served again
+
+**2026-09-03** — 35 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
   - ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
   - ingest | self | 2010 read in full — the corpus's most-cited date was computed from a train going the wrong way, and it survives anyway
@@ -10332,7 +10653,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | self | 2024, 2025 and 2026 read in full — all nineteen year pages now carry narrative runs
   - lint | self | the twitter year pages were generating a 2,741-entry table of contents
 
-**2026-09-02** — 12 pages
+**2026-09-02** — 11 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result
@@ -10361,13 +10682,6 @@ between regenerations. Do not hand-edit here — rerun the tool._
 **2026-08-31** — 4 pages
   - ingest | health | the intake ledger's first export (2026-08-30/31)
   - ingest | health | the ledger gets an entry page
-
-**2026-08-30** — 1 page
-  - build | meta | the skills section was a contract with no counterparty
-  - tool | health | the intake ledger — `bin/intake`, `intake/`, Special:Intake
-  - infra | intake | the portal as a third interface, and the guard that actually guards
-  - declare | meta | the skills section becomes a cross-model database
-  - tool | meta | page history — every version of every page, on the site and behind a gate
 
 ## Pages that reason from other pages
 
@@ -11073,7 +11387,7 @@ title: "Open Questions"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-09-03
+date_modified: 2026-09-04
 sources: []
 ---
 
@@ -11879,7 +12193,7 @@ title: "The Reader's Digest"
 status: active
 knowledge: derived
 date_created: 2026-09-02
-date_modified: 2026-09-02
+date_modified: 2026-09-04
 chart:
   kind: bar
   title: "Entries by plain-edition state"
@@ -11890,9 +12204,9 @@ chart:
       points:
         "Translated": 28
         "Major lane": 42
-        "Free lane": 38
+        "Free lane": 39
         "Held (people)": 94
-        "Too thin": 49
+        "Too thin": 48
         "Withheld": 217
 sources: []
 ---
@@ -11931,13 +12245,13 @@ is arithmetic in `bin/wiki-plain`: 900 words is the boundary.
 | Lane | What is in it | Outstanding |
 |---|---|---|
 | `major` | entries of 900 words or more — the dense findings | 42 |
-| `free` | entries under 900 words, worked smallest first | 38 |
+| `free` | entries under 900 words, worked smallest first | 39 |
 
 A further **94** eligible entries about other people are in
 neither lane. They are held back deliberately, pending a decision about
 who writes plain-English prose about living people for a public site.
 
-**49** more are under 300 words — stubs, and
+**48** more are under 300 words — stubs, and
 records like a concert date with its lineup. A table is already plain
 and a one-sentence entry translated is the same sentence, so these get
 no plain edition until the entry itself has an argument in it. They are
@@ -11990,7 +12304,7 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 - [[wiki/self/twitter/2009]] (9061 words)
 - [[wiki/self/twitter/2022]] (8060 words)
 
-**free** — 38 outstanding
+**free** — 39 outstanding
 
 - [[wiki/work/caviar-courier]] (301 words)
 - [[wiki/interests/favorites/books/authors/adrian-goldsworthy]] (315 words)
@@ -12014,7 +12328,7 @@ title: "Recent Activity"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-09-03
+date_modified: 2026-09-04
 sources: []
 ---
 
@@ -12032,19 +12346,31 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-03 — 41 pages
+## 2026-09-04 — 12 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/chemical-architecture]] | health | _(carries a GAP CLOSED from 2026-08-28)_ |
+| [[wiki/interests/concert-record/index]] | interests | — |
+| [[wiki/interests/favorites/music/artists/hey-monday]] | interests | **GAP CLOSED** — The source table read *"2008 · Unknown · Orlando, FL · Still open — band formed 2008 in West Palm Beach; exact Orlando show unresolved."* Two tweets settle it, and they are worth reading together beca |
+| [[wiki/interests/favorites/music/artists/jedi-mind-tricks]] | interests | — |
+| [[wiki/interests/favorites/music/artists/the-starting-line]] | interests | — |
+| [[wiki/interests/the-office]] | interests | — |
+| [[wiki/meta/digest]] | meta | — |
+| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
+| [[wiki/meta/readers-digest]] | meta | — |
+| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
+| [[wiki/meta/testimony-veracity]] | meta | — |
+| [[wiki/self/twitter/2008]] | self | _(carries a GAP CLOSED from 2026-09-03)_ |
+
+## 2026-09-03 — 35 pages
+
+| Page | Domain | What moved |
+|---|---|---|
 | [[wiki/interests/music/overview]] | interests | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/interests/opie-and-anthony]] | interests | **CONTRADICTION** — The contemporaneous record runs the other way. Anthony Cumia was fired on **3 July 2014** over racist posts about a Black woman who had hit him in Times Square. On **4 July 2014** Dan tweeted at him:  |
 | [[wiki/interests/video-games]] | interests | — |
 | [[wiki/legal/2015-possession-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
-| [[wiki/meta/digest]] | meta | — |
-| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a CONTRADICTION)_ |
-| [[wiki/meta/testimony-veracity]] | meta | — |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/mind/synthesis/failure-to-launch]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
@@ -12056,7 +12382,6 @@ simply listed.
 | [[wiki/places/424-bedford-ave]] | places | — |
 | [[wiki/self/location-history]] | self | _(carries a CONTRADICTION from 2026-09-02)_ |
 | [[wiki/self/twitter]] | self | _(carries a CONTRADICTION)_ |
-| [[wiki/self/twitter/2008]] | self | **GAP CLOSED** — this section previously read *"the account's creation datetime was not retrievable"*, and gave 24 September 2008 as an inference from the earliest surviving tweet. Dan settled it himself in 2010, twic |
 | [[wiki/self/twitter/2009]] | self | **CONTRADICTION** — `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and `wiki/timeline/periods/full-sail-2008-2010` and `wiki/people/alexis-armel` both build on |
 | [[wiki/self/twitter/2010]] | self | **CONTRADICTION** — the anchor is misread. The 18 February train was the **return** leg, not the outbound one. On 17 February Dan is already in New York (*"off to Williamsburg"*), and on the 18th he is *"On the train bac |
 | [[wiki/self/twitter/2011]] | self | — |
@@ -12078,14 +12403,13 @@ simply listed.
 | [[wiki/timeline/events/franki-fireworks-day-2013]] | timeline | — |
 | [[wiki/timeline/periods/full-sail-2008-2010]] | timeline | **CONTRADICTION** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomo |
 
-## 2026-09-02 — 12 pages
+## 2026-09-02 — 11 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/interests/music/aliases/sloppp]] | interests | **GAP CLOSED** — the gap, as this page stated it — *"episodes 1–7 of 'Week in Trap' and any 'Heatwave Vol. 1' are unaccounted for."* **Heatwave Vol. 1** is dated: announced 13 May 2014 (*"First hour of my summer mix s |
 | [[wiki/meta/index]] | meta | — |
 | [[wiki/meta/instruments/index]] | meta | — |
-| [[wiki/meta/readers-digest]] | meta | — |
 | [[wiki/people/eric-jester]] | people | **CORRECTED** — this page described the friendship itself as "sparse but genuinely warm." That is an accurate reading of the *message thread*, which begins **May 2017**. It is not an accurate description of the frien |
 | [[wiki/people/shane-brannan]] | people | — |
 | [[wiki/people/vanessa-frank]] | people | _(carries a REVISED from 2026-07-14)_ |
@@ -12163,13 +12487,12 @@ simply listed.
 | [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 
-## 2026-08-26 — 52 pages
+## 2026-08-26 — 51 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/interests/favorites/music/artists/fall-out-boy]] | interests | — |
 | [[wiki/interests/rock-irrelevance-thesis]] | interests | — |
-| [[wiki/interests/the-office]] | interests | — |
 | [[wiki/meta/journeys/index]] | meta | — |
 | [[wiki/meta/journeys/the-instrumented-channel]] | meta | — |
 | [[wiki/meta/journeys/the-supply-line]] | meta | — |
@@ -12364,16 +12687,6 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/people/john-paci]] | people | **REVISED** — the version of this page written on 2026-08-10 described a warm, long-suffering landlord and an eviction that simply happened to him and to his tenants. The eviction was staged at Dan's request. The r |
-
-## 2026-08-11 — 5 pages
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/mind/concepts/institutional-out]] | mind | — |
-| [[wiki/mind/concepts/node-locking]] | mind | — |
-| [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | mind | — |
-| [[wiki/people/lisa-frank]] | people | — |
-| [[wiki/people/tan-calabrese]] | people | _(carries a REVISED from 2026-08-09)_ |
 
 
 
@@ -12630,7 +12943,7 @@ status: active
 importance: high
 knowledge: derived
 date_created: 2026-09-02
-date_modified: 2026-09-03
+date_modified: 2026-09-04
 chart:
   kind: grouped-bar
   title: "Stated confidence against measured outcome, by confidence band"
@@ -18934,6 +19247,9 @@ connections:
   - page: wiki/interests/opie-and-anthony
     type: caused-by
     claim: "The callous, riff-driven, gallows-irony register the profile calls a 'psychic ventilator' is the native dialect of the O&A universe — this binge is where that idiom was trained."
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "The public half of the two-corpus voice proof: 2,718 dated originals written for an audience, against the private message corpus written for one person, which is what lets the profile separate a stable voice from a register chosen per reader."
 ---
 
 # Linguistic Profile — Voice, Register, Stylometrics
@@ -20048,6 +20364,9 @@ connections:
   - page: wiki/mind/synthesis/the-serial-monogamist
     type: component-of
     claim: "The 'serial monogamist... a very specific type' self-description, checked against a corpus where commitment vocabulary is nearly absent and arrangement vocabulary is abundant, does not describe sexual exclusivity — it describes the single-slot occupancy pattern; 'openness was never the requirement here — authorship was' is the finding this page's self-theory claim rests on."
+  - page: wiki/self/twitter/2019
+    type: evidenced-by
+    claim: "A 2019 retrospective on the 2010 move to New York lists four reasons and then inverts the ordering — '^sort by( importance: low to high)' — which places 'availability of sex workers' first. Told nine years after the fact, in public, by somebody who chose to tell it."
 ---
 
 # Arrangement History
@@ -21087,6 +21406,24 @@ connections:
   - page: wiki/self/twitter/2009
     type: evidenced-by
     claim: 'The corpus\'s earliest dated political self-description is a departure, not an arrival: "i no longer consider myself a republican" (2009-11-28), triggered by a link to people behaving badly and naming no replacement. Eleven years before the arrival this page dates, and the same mechanism as the 2022 O&A account — leaving a tribe rather than joining one.'
+  - page: wiki/self/twitter/2016
+    type: evidenced-by
+    claim: "2016 is a step backwards from the turn, not toward it: no post on or after the election at all, DNC comments aimed at stagecraft rather than candidates, and 'I don't know much about politics but Obama is NOT a fascist' (8 December) — a disclaimer of expertise from a man who argued eight positions sharply in 2011."
+  - page: wiki/self/twitter/2017
+    type: evidenced-by
+    claim: "The 2017-2019 politics are anti-Trump liberal resistance rather than left: agreeing with Mitt Romney under #ImpeachTrump, weighing a Pence term as preferable. So the conversion is from liberalism, not from apathy — and the media pipeline's entry point is 2017 and comedic, via @drmistercody."
+  - page: wiki/self/twitter/2018
+    type: evidenced-by
+    claim: "The 2018 reading is Resistance-liberal — Fire and Fury on publication weekend, Comey's A Higher Loyalty pre-ordered and chased — and 15 February conceives Trump as a wasted vehicle for gun control, a thought available only to somebody who still believes the vehicle matters more than the direction."
+  - page: wiki/self/twitter/2019
+    type: evidenced-by
+    claim: "Ten months before the conversion, nothing in 57 posts mentions class, labour, healthcare or capitalism: impeachment is watched as procedural drama and he jokes about voting Cory Booker. The state immediately prior to the turn was not a partly-converted one."
+  - page: wiki/self/twitter/2020
+    type: evidenced-by
+    claim: "The public declaration is 2020-10-03 and it is an ultimatum — 'if 2020 hasn't made you a marxist ... you're either frighteningly uninformed or just a fucking ghoul' — but the analysis precedes the label: 15 February 2020 runs the Democratic primary as a class conflict, before any lockdown."
+  - page: wiki/self/twitter/2023
+    type: evidenced-by
+    claim: "The class content absent from 2011-2019 arrives complete on 2023-03-03 in its own vocabulary — bourgeois, class status, systemic advantages, material well-being — with the argument run psychologically: a class position explained by the fear of losing it rather than by its economic interest."
 ---
 
 
@@ -27040,6 +27377,21 @@ connections:
   - page: wiki/self/twitter/2012
     type: evidenced-by
     claim: 'Retail work with fitting rooms in September 2012, four years after Full Sail and two after the Ishlab job, recorded only as an aside about customers — and an unpaid internship application in November presenting a three-year-old certification as recent. The tone is the finding: it is never named as a problem.'
+  - page: wiki/self/twitter/2014
+    type: evidenced-by
+    claim: "Seven tweets across 14-16 October 2014 pitch unpaid, competently produced O&A audio work to six people at the show — two years after the unanswered internship application — and 19 December announces a rap career on an accurate self-assessment that nothing in the corpus follows."
+  - page: wiki/self/twitter/2015
+    type: evidenced-by
+    claim: "SLOPPP does not fail, get rejected or get abandoned in a statement: it stops being posted. Two pieces of output in twelve months after roughly forty releases across 2013-14, and the same account carries on unchanged as a viewer's feed."
+  - page: wiki/self/twitter/2016
+    type: evidenced-by
+    claim: "Employment appears only as material — 'I think the people at my job training are hired actors carrying out an elaborate and gloriously stupid performance art piece' is the year's only description of work — and the inherited-instruments post forecasts its own outcome."
+  - page: wiki/self/twitter/2022
+    type: evidenced-by
+    claim: "He is waiting tables at thirty-three and the fact arrives in a subordinate clause inside an anecdote about a good customer conversation — the same posture toward employment, six years and two jobs after 2016."
+  - page: wiki/self/twitter/2024
+    type: evidenced-by
+    claim: "A fourth job enters the archive exactly as the others did: 'during my time as a caddie' (28 June), as the credential for an aside inside an argument about Trump's handicap, with no dates, employer or duration."
 ---
 
 # Failure to Launch — The Capability Audit
@@ -28375,6 +28727,9 @@ connections:
   - page: wiki/mind/synthesis/closing-the-set
     type: causes
     claim: "The fixed rate leaves subject as the only free variable, and the subject turns out to be a bounded set being exhausted: 86.6% of 1,477 musical artists and of 98 authors appear exactly once, because the unit of intake is an event with a findable edge and one account per witness closes it."
+  - page: wiki/health/chemical-architecture
+    type: parallels
+    claim: "The nicotine arc is this page's shape running on a substance instead of on media: eighteen years of unbroken intake under five rotating delivery systems, each rotation announced and experienced as a change. Structural rather than measured — the corpus holds no nicotine rate to hold flat — so it is an argument by shape, not a second instance of the constant."
 ---
 
 
@@ -29188,6 +29543,24 @@ connections:
   - page: wiki/self/twitter/2009
     type: evidenced-by
     claim: 'The Balloon Boy day (2009-10-15) runs the habit three years before the Sandy tweet — "watching CNN on delay via a paused DVR", "the best one-off meme ever" — but never states it, so it moves the habit to at least seventeen years old while leaving the articulation where this page put it.'
+  - page: wiki/self/twitter/2011
+    type: evidenced-by
+    claim: "Hurricane Irene (25-28 August 2011) is the middle term of a three-instance escalation toward articulation — Balloon Boy 2009 as coverage-about-coverage, Irene consumed remotely with the evacuation map redistributed, Sandy 2012 finally stated as a claim about the medium."
+  - page: wiki/self/twitter/2012
+    type: evidenced-by
+    claim: "The 'digital disaster' line this page rests on was written by one of the sources: he spent the preceding forty-eight hours running a Sandy liveblog, triaging novelty accounts, and feeding original footage and 911 queue figures to a national radio show. It is a practitioner's observation, not an observer's aside."
+  - page: wiki/self/twitter/2013
+    type: evidenced-by
+    claim: "Six months after running the Sandy liveblog he is reading analysis of the phenomenon instead of performing it — 'Great article about social media coverage during Boston bombing and the new role of journalists' (2013-04-21) — the step from practice to theory."
+  - page: wiki/self/twitter/2022
+    type: evidenced-by
+    claim: "The disposition reporting on where it breaks: after the Buffalo livestream (2022-05-15) he benchmarks his own reaction against the desensitisation he expected from years of FPS games and finds it insufficient — 'completely foreign to any experience'."
+  - page: wiki/self/twitter/2023
+    type: evidenced-by
+    claim: "He classifies Balloon Boy the same way this page does, unprompted and fourteen years later — 'This is so much better than balloon boy.' during OceanGate (2023-06-21) — making the 2009 day a landmark in his own taxonomy, not only in the wiki's."
+  - page: wiki/self/twitter/2026
+    type: evidenced-by
+    claim: "The disposition becomes an operation: on 2026-05-30 he runs a browser agent to delete every follow across Twitter, YouTube and SoundCloud at once, to rebuild the recommendation systems from scratch. No longer observing the algorithm — taking an instrument to it."
 ---
 
 
@@ -37493,6 +37866,9 @@ connections:
   - page: wiki/self/twitter/2011
     type: evidenced-by
     claim: 'The reasoning sequence this page names for 2024 is dated thirteen years earlier by the 21 May 2011 rapture posts and the 26 February 2011 exchange with a pastor: adopt the opponent\'s own authority, isolate where it breaks, publish the break. The subject in 2011 is religion rather than politics; the operation is identical.'
+  - page: wiki/self/twitter/2012
+    type: evidenced-by
+    claim: "The reading of coverage as a product managed for retention is running twelve years early: 'I refuse to believe that tonight's earlier results were as close as we were told. Need to keep it tight for ratings.' (2012-11-07), on election night, at twenty-three."
 ---
 
 # 2024 Twitter / X Cognitive State — Adversarial Historian
@@ -38087,6 +38463,15 @@ connections:
   - page: wiki/self/twitter/2011
     type: evidenced-by
     claim: '2011 is the disposition without any economic content: eight political posts across the year, every one aimed at a vertical, none redistributive. The Troy Davis posts argue the procedural case rather than the innocence case — "I have no idea whether Troy Davis was guilty or not, but he deserved the chance to live another day" — which is an objection to an authority\'s claim to certainty rather than to its verdict.'
+  - page: wiki/self/twitter/2013
+    type: evidenced-by
+    claim: "During the Boston Marathon bombing — the decade's most conspiracy-productive American event — he mocks the conspiracy layer rather than working it, and separately refuses veteran status as a warrant: 'Being a vet does NOT make your racism ok nor does it make you automatically correct.'"
+  - page: wiki/self/twitter/2014
+    type: evidenced-by
+    claim: "The axis applied to his own field and against his own interest: the Aoki objection is a famous performer taking money for work he is not doing, and he classifies himself out loud in the same breath — 'as a nobody DJ' — in the month he entered a Beatport contest."
+  - page: wiki/self/twitter/2021
+    type: evidenced-by
+    claim: "January 6th is the cleanest demonstration: he forms a police-collusion hypothesis at high confidence, prices it in the same tweet ('but what was the endgame? is that being too generous'), and rejects the antifa-infiltration mirror because it requires its actors to work against their own interests."
 ---
 
 
@@ -67628,6 +68013,12 @@ connections:
   - page: wiki/self/concepts/wiki-brain
     type: component-of
     claim: "ChatGPT is where the bootloader concept was prototyped in a custom-instructions field, which makes it the wiki-brain's origin point and the reason the system was built to be portable off any single vendor."
+  - page: wiki/self/twitter/2023
+    type: evidenced-by
+    claim: "A full year of AI work before the 2025 turn: a four-post thread forecasting election deepfakes (2023-05-27), a documented GPT-to-Bard message experiment (2023-06-13), and ChatGPT output posted as evidence of the model's judgement. The interest is not new in 2025; turning it on himself is."
+  - page: wiki/self/twitter/2026
+    type: evidenced-by
+    claim: "The 2026 working practice from the inside: two named autonomous agents claimed in April, fourteen unbroken hours with a model building data visualisers over his own text logs (13 June), and an overnight iMessage auto-responder that ran unsupervised for five hours and reached a real person."
 ---
 
 # ChatGPT (OpenAI)
@@ -69886,6 +70277,9 @@ connections:
   - page: wiki/interests/favorites/eclecticism
     type: evidences
     claim: "The 2007 Fall Out Boy and Say Anything statuses, the 2012–2014 electronic likes, and Electric Zoo 2010 are the dated proof that the three music clusters predate the Spotify feed by more than a decade, so Architecture B is continuity rather than a 2025 discovery."
+  - page: wiki/self/twitter
+    type: parallels
+    claim: "Two public valves for one person under different platform rules: Facebook registered 2007 and Twitter in September 2008, both running continuously, which is what makes a disagreement between them — as over the Brooklyn move date — checkable rather than a matter of which memory to trust."
 ---
 
 
@@ -71351,6 +71745,12 @@ connections:
   - page: wiki/self/twitter/2013
     type: evidenced-by
     claim: 'From mid-August 2013 the tweets place Dan in Fayette County and Pittsburgh repeatedly — Sheetz, Texas Roadhouse, Carnegie Mellon, the Oddball festival, and Uniontown filmed on 27 September — inside the window this page records as having no address-level data at all.'
+  - page: wiki/self/twitter/2016
+    type: evidenced-by
+    claim: "A third year placing him in Fayette County inside the address-level blind window: a car chase through his Uniontown yard reported to a Pittsburgh news reporter (2016-04-21), a Pittsburgh snowstorm Periscope, and Kennywood in July."
+  - page: wiki/self/twitter/2019
+    type: evidenced-by
+    claim: "Closes the far end of the address-level blind window: 'Au revoir Pennsylvania. Adiós Trump country.' (2019-03-03) is the only dated departure from Fayette County in the archive, and by October the state is a weekend destination rather than a home."
 ---
 
 # Location History (Google Timeline)
@@ -72483,7 +72883,7 @@ domain: self
 page_type: period
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-03
+date_modified: 2026-09-04
 knowledge: derived
 date_range_start: 2008-09-24
 date_range_end: 2008-12-31
@@ -72491,7 +72891,8 @@ title: "Twitter / X — 2008"
 sources:
   - "raw/self/twitter/archive.jsonl"
   - "raw/self/twitter/grok-backfill-2026-09-02/"
-tags: [music-production, digital-footprint, career]
+  - "raw/self/concerts/table.csv"
+tags: [music-production, digital-footprint, career, addiction-recovery]
 connections:
   - page: wiki/self/twitter
     type: component-of
@@ -72508,6 +72909,27 @@ connections:
   - page: wiki/self/twitter/2010
     type: evidenced-by
     claim: 'This page\'s stated gap — that the account creation date was not retrievable — is closed by two account-age counters Dan posted in 2010, the second naming 23 September 2008 outright.'
+  - page: wiki/interests/concert-record/index
+    type: evidences
+    claim: 'Three of the seven Orlando shows this autumn names — The Roots, the Cobra Starship package and Trans-Siberian Orchestra — are absent from the concert table entirely, because that table was built from ticket stubs and a stub is a record of a purchase rather than of an evening.'
+  - page: wiki/interests/favorites/music/artists/hey-monday
+    type: evidences
+    claim: 'The concert log\'s one open 2008 Orlando row is dated here to 28 December 2008 — he flew back to Florida mid-holiday for it — and joins to a BACKBOOTH ticket the same log files under the opener\'s name.'
+  - page: wiki/interests/favorites/music/artists/jedi-mind-tricks
+    type: evidences
+    claim: 'Two tweets ninety minutes apart on the night of 17 November 2008 corroborate the concert log\'s date from inside The Social and add the only recorded reaction: "holy fuck, jedi mind tricks are so fucking scary."'
+  - page: wiki/interests/favorites/music/artists/fall-out-boy
+    type: evidences
+    claim: 'The 12 December 2008 House of Blues bill is corroborated day-of and act-for-act — "fall out boy/TAI/WTK - @houseofblues" — and the same December places Fall Out Boy and Panic! together in his car as a self-dated return to 2005.'
+  - page: wiki/health/chemical-architecture
+    type: evidences
+    claim: 'The nicotine row\'s first dated first-party evidence, eighteen years before the ledger: he is already a smoker at nineteen, announces a quit on 16 October 2008 — "Another problem solved" — and is back on them by 22 December, nine weeks later.'
+  - page: wiki/interests/favorites/music/artists/the-starting-line
+    type: evidences
+    claim: 'Supplies the band\'s only appearance in the corpus outside the 2005 tour bill — "i miss the starting line." on 30 November 2008, posted during their hiatus.'
+  - page: wiki/interests/the-office
+    type: evidences
+    claim: 'The Office is the naming layer over the actual life in the account\'s first week — the apartment is "schrute farms", the new kitten is shortlisted as Ari, Dwight or Mose — which makes it infrastructure for describing 2008 rather than a programme watched in it.'
 ---
 
 # Twitter / X — 2008
@@ -72541,6 +72963,83 @@ hours, i've played 14 hours of world of warcraft."*
 
 Pennsylvania is already the place he does not want to be: *"I don't want to go
 to cold, lame PA"* and *"i fucking hate going home"*, both 19 December.
+
+## Seven shows in ninety-eight days, and the concert log holds four
+
+Cross-read against [[wiki/interests/concert-record/index]] on 2026-09-04.
+
+Autumn 2008 is the densest live-music stretch in the archive, and reading it
+against the concert table shows what each record is actually good for. The
+table was compiled from ticket stubs and order numbers; this feed was written
+from inside the venues.
+
+| Date | Show | Concert table | The tweet |
+|---|---|---|---|
+| 7 Oct | The Roots | absent | *"at the roots show. i can dig that."* |
+| 18 Oct | All Time Low / The Maine | row 28 | *"all time lowww/the maine"* |
+| 13 Nov | Cobra Starship / Hit The Lights / Forever The Sickest Kids | absent | *"cobras/hit the lights/ftsk"* |
+| 15 Nov | Trans-Siberian Orchestra | absent | *"trans-siberian orchestra tonight."* → *"wow that was SUPER lame."* |
+| 17 Nov | Jedi Mind Tricks | row 26 | *"holy fuck, jedi mind tricks are so fucking scary."* |
+| 12 Dec | Fall Out Boy / TAI / We The Kings | row 29 | *"fall out boy/TAI/WTK - @houseofblues"* |
+| 28 Dec | Hey Monday | row 36, undated | *"Flying to Orlando for hey monday tomorrow."* |
+
+**Trans-Siberian Orchestra is the one that matters.** It is the only show in
+the corpus with a recorded verdict and no ticket: announced at 17:04 Eastern,
+dismissed at 23:07 — *"wow that was SUPER lame."* — and never entered into the
+log he compiled later. The concert table is a record of what he decided to
+attend; a feed is a record of what the evening turned out to be, and the two
+diverge exactly where a night disappointed.
+
+**Hey Monday dates the year's last movement.** On 19 December, at the airport
+and hating it, he says *"Be back on the 28th for hey Monday :)"* — the return
+is planned before the departure. On 27 December at 19:40 Eastern, *"Flying to
+Orlando for hey monday tomorrow. Wooo"*, then *"Hate airport days."* at 10:38
+on the 28th. He cut a Pennsylvania Christmas short for one show in a small
+room. The concert table's row 40 — a single general-admission BACKBOOTH ticket
+for 28 December 2008, filed under There For Tomorrow — is very probably the
+same night under the other band's name; see the narrowed gap on the concert
+index for what that join does and does not establish.
+
+## Nicotine has an onset date, and it is not in the health pages
+
+[[wiki/health/chemical-architecture]] lists nicotine as the stack's "ritual
+regulator" and says outright that the row "has no ledger entries at all and
+remains description." **This year is the description's first dated
+contradiction, and it is eighteen years old.**
+
+- **16 October 2008**, age nineteen: *"I think I'm gonna stop smoking
+  cigarettes. Another problem solved."*
+- **22 December 2008**, sixty-seven days later: *"coffee and cigarettes- the
+  cure for a ROUGH night."*
+
+He is already a smoker before the account opens, the first documented quit
+attempt in the corpus fails inside ten weeks, and the sentence announcing it
+— *"Another problem solved"* — has the whole architecture in it: the decision
+is treated as the solution, and the behaviour is not consulted. A tweet of
+**28 December 2017** supplies the other end, dating the beginning to a
+promotional Fall Out Boy show in **2007**: *"Smoked my first pack of cigarettes
+when I went to this promotional fall out boy show in 2007."* That places
+nicotine onset in the same year the health pages already date the first opiate
+— see [[wiki/timeline/periods/dark-era-2007-2008]] — and 2008's other intake
+line, *"7 hookahs last night, throat = deaaad"* (9 December), sits in the same
+register.
+
+## The Office is not a programme here, it is the vocabulary
+
+The account's third tweet, forty-five minutes into the archive, is *"schrute
+farms is now completely wireless."* — the Winter Park apartment, named for a
+beet farm in a sitcom. On 24 October the new kitten's shortlist is *"ari,
+dwight, or mose?"*: two Office characters and one Entourage agent. On 5
+December, *"oooomg dwight marries angela. fucking awesome."* On 25 September,
+*"So amped for the office. Life is gooood."*
+
+The show is doing something none of the other 2008 interests do — it is
+supplying the words he uses for his own life rather than being a thing he
+watches. That is why [[wiki/interests/the-office]] keeps turning up in years
+where nothing about television is happening: *"remember when he stole 'shut up
+Oscar!' from us in s5"* to Eric Jester in 2010, and *"there's 100 dogs at the
+office"* in 2011, which is a pun that only lands because the phrase is already
+load-bearing.
 
 ## Coverage
 
@@ -75210,6 +75709,15 @@ connections:
   - page: wiki/interests/music/overview
     type: evidences
     claim: 'The indie and electronic vocabularies run side by side through 2010 rather than in sequence — Grizzly Bear and Arcade Fire in the same months as Diplo, Electric Zoo, Ableton warping and a published dubstep mix — so what the 2012-2014 likes migration dates is displacement, not onset.'
+  - page: wiki/interests/the-office
+    type: evidences
+    claim: "'remember when he stole \'shut up Oscar!\' from us in s5 of the office? do sumthan bout it' to Eric Jester (12 March 2010) shows the idiom running as shared private property between two friends — neither explains the reference because neither has to."
+  - page: wiki/self/twitter/2011
+    type: contradicts
+    claim: "The December e-cigarette quit narrated here did not hold: '1 week smoke free!' on 2011-01-10 dates a fresh day one to roughly 3 January, so the attempt broke inside three weeks — and the relapse appears nowhere in the archive except as a restarted counter."
+  - page: wiki/health/chemical-architecture
+    type: evidences
+    claim: "The clearest single instance of the nicotine row's substitution pattern: 'today is day 1 with no tobacco' (13 December) is a switch to an e-cigarette, announced as a quit, with '(un) hooked' corrected mid-sentence by the man writing it."
 ---
 
 # Twitter / X — 2010
@@ -77607,6 +78115,9 @@ connections:
   - page: wiki/interests/video-games
     type: evidences
     claim: 'StarCraft II goes from "the maximum amount of time that i\'m interested in playing sc2 is ~5min" (20 March 2011) to a GeForce pro/am first round (23 June 2011) in three months, with ladder placement, a named build order, casters and pros by handle — and a deliberate narrowing to one game after six years of intermittent WoW, which hits level cap on 16 December 2011.'
+  - page: wiki/health/chemical-architecture
+    type: evidences
+    claim: "Supplies the only relapse in the eighteen-year nicotine record that is nowhere stated: '1 week smoke free!' on 10 January restarts a counter begun on 13 December 2010, so the e-cigarette quit broke inside three weeks and survives only as arithmetic."
 ---
 
 # Twitter / X — 2011
@@ -85640,6 +86151,12 @@ connections:
   - page: wiki/mind/synthesis/2020-left-turn
     type: evidences
     claim: 'The 2017-2019 politics are anti-Trump liberal resistance, not the left: agreeing with Mitt Romney under #ImpeachTrump, weighing a Pence term as preferable, and treating Trump as a wasted vehicle. So the 2020 turn is a conversion from liberalism rather than from apathy — and the pipeline\'s entry point is 2017 and comedic, via @drmistercody, followed out of Cracked in December.'
+  - page: wiki/health/chemical-architecture
+    type: evidences
+    claim: "A single 28 December tweet supplies the nicotine onset the health pages never had — 'Smoked my first pack of cigarettes when I went to this promotional fall out boy show in 2007' — placing it in the same year as the first opiate."
+  - page: wiki/interests/favorites/music/artists/fall-out-boy
+    type: evidences
+    claim: "The band reappears ten years after the teen-identity era as the setting for a health fact rather than a musical one: the 2007 promotional show is where he smoked his first pack of cigarettes."
 ---
 
 # Twitter / X — 2017
@@ -101452,7 +101969,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,538 events** across **80 years** (1796–2027), drawn from **384 pages**. Tier 1 695 · Tier 2 429 · Tier 3 2,414.
+**3,572 events** across **80 years** (1796–2027), drawn from **385 pages**. Tier 1 697 · Tier 2 442 · Tier 3 2,433.
 
 ## What counts as an event here
 
@@ -102191,6 +102708,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/facebook/interests]] · Groups (2007–2020)
 - · **February 2007** — scam-detection instinct visible at 18  
   ↳ [[wiki/self/facebook/interests]] · Groups (2007–2020)
+- ◆ **2007-02-06** — The 2007 show is probably datable further: the concert table holds two 2007 Fall Out Boy dates and only one is *promotional* — **6 February 2007, Times Square, the Infinity On High release-day free show**, at eighteen.  
+  ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
 - ◆ **2007-02-06** — 21 — Fall Out Boy — Times Square (TRL) — New York, NY — Infinity On High release-day free show  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
 - ◆ **2007-02-06** — same-day free shows also in Chicago & LA.  
@@ -102258,8 +102777,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/concert-record/index]] · Master event list
 - · **2008** — 25 — Hey Monday — Unknown — Orlando, FL — Still open -- band formed 2008 in West Palm Beach  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
-- · **2008** — Hey Monday — Unknown — Orlando, FL — Still open -- band formed 2008 in West Palm Beach  
-  ↳ [[wiki/interests/favorites/music/artists/hey-monday]] · Live appearances
 - · **2008** — Jack's Mannequin — Unknown — Orlando, FL — Still open -- year/market consistent  
   ↳ [[wiki/interests/favorites/music/artists/jacks-mannequin]] · Live appearances
 - · **2008** — Greenwood Township, MI  
@@ -102302,6 +102819,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/places/337-saratoga-drive]] · Occupancy history
 - ★ **September 2008** — Uniontown PA · 337 Saratoga Dr — Ski identity; Republican household. **Hinge Nov 2005:** parental rupture (father rehab + mother affair)  
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
+- ◆ **September 2008** — What this implies for every other "Still open" row**, and it is not a suggestion to go and close them by guessing: the twitter archive runs from September 2008 to 2026, the concert table stops in 2019, and the two have never been read against each other except for these ninety-eight days.  
+  ↳ [[wiki/interests/concert-record/index]] · The twitter cross-check — the table is a purchase record, not an attendance record
 - ◆ **September 2008** — When Dan left for Full Sail in September 2008, Suz bought a condo near campus rather than renting one — the earliest documented instance of her using real property rather than cash to support him, seventeen years before the 337 sale and the 463 arrangement did the same thing in reverse.  
   ↳ [[wiki/people/suzanne-frank]] · The Winter Park condo, 2008–2010
 - ◆ **September 2008** — On **24 September**, the fourteenth anniversary: *"14 years of pointless nothingness but at least I got the @danfrank handle"* — which, with the 2010 counters, is the third independent confirmation of a September 2008 account creation.  
@@ -102326,6 +102845,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter/2010]] · The account's own age, settled
 - ◆ **2008-09-24** — It is written to nobody.** The account has no followers on 24 September 2008 — it is being started that day.  
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The period's exit, in his own words, on the day it happened
+- · **2008-09-24** — The third tweet of his entire account, on 24 September 2008, is:  
+  ↳ [[wiki/interests/the-office]] · He gave the name to his own apartment ten months later
 - · **2008-09-24** — The public record. Carries its own coverage share on every engagement figure, and excludes 125 truncated rows from length figures  
   ↳ [[wiki/meta/instruments/index]] · The measures
 - · **2008-09-24** — The record now begins **24 September 2008** — the day Dan arrived in Winter Park for Full Sail — after a backend fetch on 2026-09-02 recovered 213 tweets the archive had never reached.  
@@ -102336,30 +102857,66 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter/2008]] · Twitter / X — 2008
 - · **2008-09-24** — The one-day gap between them is what a timezone boundary looks like, and it resolves cleanly: the first surviving tweet is 2008-09-24 04:52 UTC, which is **00:52 on 24 September in New York** — so an account created on the evening of the 23rd local time produces a first tweet dated the 24th in UTC…  
   ↳ [[wiki/self/twitter/2010]] · The account's own age, settled
+- ◆ **Autumn 2008** — "Scary" is the reaction and it is not a complaint** — this is an Orlando audio student two months into Full Sail, already deep in the emo and pop-punk circuit that fills the rest of autumn 2008 (2008), walking out of a Philadelphia horrorcore show having enjoyed it.  
+  ↳ [[wiki/interests/favorites/music/artists/jedi-mind-tricks]] · Notes per appearance
+- ◆ **Autumn 2008** — Autumn 2008 is the densest live-music stretch in the archive, and reading it against the concert table shows what each record is actually good for.  
+  ↳ [[wiki/self/twitter/2008]] · Seven shows in ninety-eight days, and the concert log holds four
+- ◆ **2008-10-07** — The Roots — **No** — *"at the roots show. i can dig that."* — posted 16:29 EDT, from inside it  
+  ↳ [[wiki/interests/concert-record/index]] · The twitter cross-check — the table is a purchase record, not an attendance record
+- ★ **2008-10-16** — "I think I'm gonna stop smoking cigarettes. Another problem solved."* — quit #1 announced  
+  ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
+- · **2008-10-16** — "I think I'm gonna stop smoking  
+  ↳ [[wiki/self/twitter/2008]] · Nicotine has an onset date, and it is not in the health pages
 - ◆ **2008-10-18** — Multi-act show — House of Blues — Orlando, FL — Resolved. Joint fall 2008 package.  
   ↳ [[wiki/interests/favorites/music/artists/all-time-low]] · Live appearances
 - · **2008-10-18** — 28 — All Time Low, Mayday Parade, The Maine, Every Avenue — House of Blues — Orlando, FL — Resolved. Joint fall 2008 package.  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
+- · **2008-10-18** — All Time Low / The Maine — Yes, row 28 — *"all time lowww/the maine"* — same-day, exact-date corroboration  
+  ↳ [[wiki/interests/concert-record/index]] · The twitter cross-check — the table is a purchase record, not an attendance record
 - · **2008-10-26** — Two months earlier the same account had made the cat a WoW joke: *"my new kitten and your new puppy shall duel. be forewarned that my kitten is a level 70 mage"* (26 October 2008), and level 70 was the cap in that expansion.  
   ↳ [[wiki/interests/video-games]] · 2008: fourteen hours in twenty-four
 - ★ **2008-10-31** — Traffic — turning movements / required signal — 1 — unavailable  
   ↳ [[wiki/people/jerel-coles]] · The record, 2008–2025
+- · **2008-11-13** — Cobra Starship / Hit The Lights / Forever The Sickest Kids — **No** — *"cobras/hit the lights/ftsk"* — the full bill, in his own abbreviations  
+  ↳ [[wiki/interests/concert-record/index]] · The twitter cross-check — the table is a purchase record, not an attendance record
+- · **2008-11-15** — Trans-Siberian Orchestra — **No** — *"trans-siberian orchestra tonight."* at 17:04, then *"wow that was SUPER lame."* at 23:07  
+  ↳ [[wiki/interests/concert-record/index]] · The twitter cross-check — the table is a purchase record, not an attendance record
 - · **2008-11-17** — 29 — Jedi Mind Tricks — The Social — Orlando, FL — Resolved. With Outerspace / Reef the Lost Cause.  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
+- · **2008-11-17** — Jedi Mind Tricks — Yes, row 26 — *"holy fuck, jedi mind tricks are so fucking scary."* — 01:50, walking out  
+  ↳ [[wiki/interests/concert-record/index]] · The twitter cross-check — the table is a purchase record, not an attendance record
 - · **2008-11-17** — Jedi Mind Tricks — The Social — Orlando, FL — Resolved. With Outerspace / Reef the Lost Cause.  
   ↳ [[wiki/interests/favorites/music/artists/jedi-mind-tricks]] · Live appearances
+- · **2008-11-17** — "Jedi mind tricks"  
+  ↳ [[wiki/interests/favorites/music/artists/jedi-mind-tricks]] · Notes per appearance
 - · **2008-11-17** — 26 — Jedi Mind Tricks (w/ Outerspace, Reef the Lost Cause) — The Social — Orlando, FL — Resolved  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
+- · **2008-11-18** — "holy fuck, jedi mind tricks are so fucking scary."  
+  ↳ [[wiki/interests/favorites/music/artists/jedi-mind-tricks]] · Notes per appearance
 - ★ **2008-11-20** — Disorderly conduct — engaging in fighting — 1 — **guilty plea  
   ↳ [[wiki/people/jerel-coles]] · The record, 2008–2025
+- · **2008-11-30** — 2008-11-30:** *"i miss the starting line."  
+  ↳ [[wiki/interests/favorites/music/artists/the-starting-line]] · Outside the tour bill
 - · **December 2008** — Every month that returned ten hits is truncated at ten: **October, November and December 2008 are all incomplete.** Only 24 September is a strong candidate for a complete day, at six tweets.  
   ↳ [[wiki/self/twitter/2008]] · Gaps
 - ◆ **2008-12-12** — Multi-act show — House of Blues — Orlando, FL — Resolved. XL 106.7 'XL-ent Electric Xmas'.  
   ↳ [[wiki/interests/favorites/music/artists/fall-out-boy]] · Concert record — supplementary appearances (from the 2001-2019 log)
 - · **2008-12-12** — 30 — Fall Out Boy, The Academy Is..., We The Kings — House of Blues — Orlando, FL — Resolved. XL 106.7 'XL-ent Electric Xmas'.  
   ↳ [[wiki/interests/concert-record/index]] · Master event list
+- · **2008-12-12** — Fall Out Boy / TAI / We The Kings — Yes, row 29 — *"fall out boy/TAI/WTK - @houseofblues"* — the three-act bill, day-of  
+  ↳ [[wiki/interests/concert-record/index]] · The twitter cross-check — the table is a purchase record, not an attendance record
 - · **2008-12-12** — 29 — Fall Out Boy / The Academy Is… / We The Kings — House of Blues — Orlando, FL — Resolved — XL 106.7 "XL-ent Electric Xmas"  
   ↳ [[wiki/timeline/events/teen-concert-years]] · The researched record (36 shows, 2001–2019)
+- ★ **2008-12-22** — "coffee and cigarettes- the cure for a ROUGH night."* — quit #1 over, 67 days  
+  ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
+- · **2008-12-22** — "coffee and cigarettes- the  
+  ↳ [[wiki/self/twitter/2008]] · Nicotine has an onset date, and it is not in the health pages
+- ◆ **2008-12-28** — The concert table's row 40 — a single general-admission BACKBOOTH ticket for 28 December 2008, filed under There For Tomorrow — is very probably the same night under the other band's name; see the narrowed gap on the concert index for what that join does and does not establish.  
+  ↳ [[wiki/self/twitter/2008]] · Seven shows in ninety-eight days, and the concert log holds four
+- · **2008-12-28** — Hey Monday, Orlando, FL.  
+  ↳ [[wiki/interests/favorites/music/artists/hey-monday]] · Notes per appearance
+- ◆ **2008-12-31** — The claim above that "the master table below is the complete record" is false, and one autumn of one archive is enough to show it.** Ninety-eight days of the twitter account — 24 September to 31 December 2008, the account's first year — name **seven** Orlando shows.  
+  ↳ [[wiki/interests/concert-record/index]] · The twitter cross-check — the table is a purchase record, not an attendance record
 - · **2008-12-31** — The earliest gaming evidence in the corpus is now **31 December 2008**, from the account's recovered first year (2008):  
   ↳ [[wiki/interests/video-games]] · 2008: fourteen hours in twenty-four
 
@@ -102392,7 +102949,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **August 2009** — full sail 2008 2010** — the August 2009 graduation date is contradicted by Dan's own contemporaneous public record, in two independent places. On **2009-08-31** he wrote *"so weirded out i start my last month of college tomorrow"*, which puts the final month in September. And across November and…  
   ↳ [[wiki/meta/open-questions]] · Live contradictions
 - · **August 2009** — full sail 2008 2010 — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 38 pages
 - · **August 2009** — t013 — date — certain — refuted  
   ↳ [[wiki/meta/testimony-veracity]] · The record
 - · **2009-08-31** — On **31 August 2009** he writes *"so weirded out i start my last month of college tomorrow. having multiple reality checks."* — which places the final month in **September**, not August.  
@@ -102558,6 +103115,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/alexis-armel]] · New York, in her own words and his
 - ★ **March 2010** — Per the capture Dan lived there about a year; the canonical residence timeline has him in Winter Park through March 2010, so either Full Sail housing or a share moved him for the final months.  
   ↳ [[wiki/people/suzanne-frank]] · The Winter Park condo, 2008–2010
+- ◆ **March 2010** — That is why the show keeps appearing in years with no television content in them at all — *"remember when he stole 'shut up Oscar!' from us in s5"* to Eric Jester in March 2010, and *"What the fuck there's 100 dogs at the office"* in October 2011, a pun that only works because the phrase was…  
+  ↳ [[wiki/interests/the-office]] · He gave the name to his own apartment ten months later
 - · **March 2010** — ishlab (10 Jay St)  
   ↳ [[wiki/self/chats/gemini-58]] · Gemini Session 58 (NYC Round 1 / Ishlab + Creative License Forensics 2010-2013 + Menore)
 - · **March 2010** — indefinite unpaid internship → full-time PA in ~3mo. Bellator licensing war (Corey Humpage MSG  
@@ -102632,6 +103191,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/charles-davenport]] · Charles Davenport
 - · **2010-12-09** — "I joined Twitter on the 23rd of September 2008, making my account 807 days old"* (`twuration.com`) — 2008-09-23  
   ↳ [[wiki/self/twitter/2010]] · The account's own age, settled
+- · **2010-12-13** — "3 days after moving to an e cig, i'm (un) hooked. today is day 1 with no tobacco. technology is fuggin ~crazy~"* — e-cigarette  
+  ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
+- · **2010-12-13** — The 2011 counter is the load-bearing detail.** Day one was 13 December 2010.  
+  ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
+- · **2010-12-14** — "25 hours tobacco free. i should have done this years ago :("* — day 2  
+  ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
 
 ### 2011
 
@@ -102651,6 +103216,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/totality-themes]] · Where the firewall runs on the body, not just the mind
 - · **2011-01-02** — Hibernia — 401 W 50th St, near 9th Ave, New York  
   ↳ [[wiki/self/location-history]] · Before the export begins (2010–2012)
+- · **2011-01-10** — "1 week smoke free!"* — **the counter has restarted  
+  ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
+- · **2011-01-10** — On **10 January 2011** he posts *"1 week smoke free!"* — which dates a fresh day one to roughly **3 January**.  
+  ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
 - · **2011-01-10** — On **10 January 2011** he posts *"1 week smoke free!"* — which dates a fresh start to roughly **3 January**, and therefore means the December attempt lasted at most three weeks before a relapse he never mentioned.  
   ↳ [[wiki/self/twitter/2011]] · The tobacco quit did not hold, and that matters
 - · **2011-01-18** — Shared drive "refused to mount"  
@@ -103185,7 +103754,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2014-07-03** — Anthony Cumia was fired by SiriusXM on **3 July 2014**, after posting a series of racist messages about a Black woman who had struck him in Times Square.  
   ↳ [[wiki/self/twitter/2014]] · 4 July 2014, and a correction to the corpus's own account
 - · **2014-07-03** — opie and anthony — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 38 pages
 - ★ **2014-07-04** — The contemporaneous record shows he was not among the repulsed at the time: on **4 July 2014**, one day after Cumia was fired over racist posts, Dan tweeted at him *"nothing but love and respect ant.  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · The O&A cause is real but its date is not 2014
 - · **2014-07-04** — t015 — Dan was among the O&A fans repulsed by the racism at the time of the 2014 split, and that repulsion radicalized him to leftist politics. — self_state, sequence — confident — partial  
@@ -103795,6 +104364,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/annie-record]] · December
 - ◆ **2015-12-13** — Annie is trapped at the triathlon party.** Annie: *"WILLS HERE / he pulled in the drive"* (15:34).  
   ↳ [[wiki/timeline/annie-record]] · December
+- · **2015-12-13** — "Vape shops all closed on Sunday. Gross Juiceman until tomorrow"* — vape, and a supply problem  
+  ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
 - · **2015-12-13** — He persists: on 2015-12-13 Annie is *"gonna go off on him about throwing shit at me the other night"*, and his own message that night is *"Honestly I just miss having fun with you!"  
   ↳ [[wiki/mind/synthesis/bond-switch-2015]] · The displaced partner retaliates, within three days
 - · **2015-12-13** — He is still being used as cover on 2015-12-13, when Annie tries to pass off seeing him as an excuse to her family and is caught out by her sister.  
@@ -104647,6 +105218,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/fran-death-vigil]] · Sequence
 - ★ **2017-12-13** — I did and I have it forever as an HD recording" — which, given the Dec 13, 2017 date, falls inside Alexis's **Feb–Oct 2017 bail window** (between the Valentine's Day arrest and her end-of-October jailing per her own page), not before her arrest and not contradicting her later incarceration.  
   ↳ [[wiki/people/jamie-mohler]] · A rediscovered thread: 422 messages, 2010–2021
+- ◆ **2017-12-28** — "Smoked my first pack of cigarettes when I went to this promotional fall out boy show in 2007."* — cigarettes — onset  
+  ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
+- ◆ **2017-12-28** — A tweet of **28 December 2017** supplies the other end, dating the beginning to a promotional Fall Out Boy show in **2007**: *"Smoked my first pack of cigarettes when I went to this promotional fall out boy show in 2007."* That places nicotine onset in the same year the health pages already date…  
+  ↳ [[wiki/self/twitter/2008]] · Nicotine has an onset date, and it is not in the health pages
 - · **2017-12-28** — 2017-12-28:** "One thing I'm going to force myself to do in 2018 is  
   ↳ [[wiki/interests/stand-up-comedy]] · He tried to do it himself
 - ★ **2017-12-29** — Age at death — **97  
@@ -105759,8 +106334,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/kelly-johansson]] · The arrangement
 - · **2019-10-08** — "I'm filling every waking moment with real estate, eBay and other selling sources… Keeping my phone, lights and cable on that way"* (8 October 2019).  
   ↳ [[wiki/people/suzanne-frank]] · What she actually earned
+- ◆ **2019-10-09** — "one reason i started vaping is because i felt like a piece of shit for exposing my animals to smoke. the other is because i could replace the constant taste of burnt tobacco with strawberry"* — vape, with the reasons stated  
+  ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
 - · **2019-10-09** — On **9 October 2019** he does it again, and this time explains the logic himself:  
   ↳ [[wiki/self/twitter/2019]] · The nicotine pattern, now stated by him, at n=3
+- ◆ **2019-10-10** — "today i bought a can of skoal to prepare me for a weekend in Pennsylvania"* — + smokeless  
+  ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
 - ★ **2019-10-14** — One substantive response exists in the whole record, and it is not sympathy.** On 2019-10-14, told the Pittsburgh funeral story in full, Ally answers: *"I'm just confused how neither of you had money because you always send me cash app statements with like thousands of dollars."* The disclosure was…  
   ↳ [[wiki/mind/concepts/reassurance-architecture]] · Where the record cuts the other way
 - ◆ **2019-10-20** — What the report stated as theory now has its documented instance: the **October 20, 2019 filmed MMF** with Bryan — a gay man whose first encounter with a woman was that night, and Dan's one and only bisexual act (oral), both category-crossings authored into a single scene (arrangement history…  
@@ -106278,6 +106857,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/favorites/books]] · 2025 update (fresher Goodreads export)
 - ★ **2022-03-28** — One documented consequence.** On **28 March 2022**, during the Chris Rock/Will Smith argument, he stated a position that the show's own ethic would not recognise: *"I've moved away from belief in comedy's absolutist defense of free speech ('it's just a joke') and have a more sympathetic view of how…  
   ↳ [[wiki/interests/opie-and-anthony]] · The fanbase split, and which side Dan took
+- · **2022-03-31** — disposable vape, complained about by flavour — disposable  
+  ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
 - · **May 2022** — Gaps:** exact start (how/when the affair began before the IG thread's May 2022 first message — the winter 2021–22 peak predates it, presumably on another channel); her current status and whether contact continued past July 2025; the "Norteno server"'s identity.  
   ↳ [[wiki/people/valeria-iglesias-cid]] · Structural significance
 - ★ **June 2022** — Valeria "worthy of like CONSTANT effort," himself a "stupid fat lazy skinny gringo," the state named a "Valeria infection." He watched her Instagram stories from a logged-out browser to avoid getting her in trouble, met her mother once (and typed up a comparative analysis of their mothers — Vogue…  
@@ -108025,7 +108606,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-07-18** — Intervention by her parents and sister; rehab placement refused; car taken  
   ↳ [[wiki/people/annie-ulmer]] · Chronology
 - · **2026-07-18** — conflict architecture — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-07-18** — Love affirmations from Annie to Dan — 299  
   ↳ [[wiki/mind/concepts/attachment-model]] · Quantitative Corpus Indicators
 - · **2026-07-18** — "Worthless" instances — 11  
@@ -108039,7 +108620,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-07-19** — The vigil page has carried "fire alarm? staff incident?" as an open question since 2026-07-19.  
   ↳ [[wiki/timeline/events/uniontown-hospital-vape-alarm]] · The Uniontown Hospital Vape Alarm (early April 2018)
 - ★ **2026-07-20** — open questions — meta  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 38 pages
 - ◆ **2026-07-20** — intake constancy** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad  
   ↳ [[wiki/meta/open-questions]] · mind (150)
 - ◆ **2026-07-20** — The full per-contact export (filed 2026-07-20, superseding the earlier 28-message partial pull from the unreliable-direction master CSV) shows a real two-way conversation, not a one-sided text: Mike opens July 28 asking how Dan is feeling about Kamala's chances, then the substantive exchange runs…  
@@ -108193,7 +108774,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ★ **2026-08-02** — A first-person operator capture written on 2026-08-02 supplies the day this relationship consists of, documented in full at franki fireworks day 2013.  
   ↳ [[wiki/people/franki-faris]] · The day itself, and what a 2026 capture settled
 - ◆ **2026-08-02** — teen concert years — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - ◆ **2026-08-02** — As of 2026-08-02 it is also known to have a jurisdiction: food and diet shows the axis is never applied to food, which out-mentions music in the message corpus and holds zero of the 2,016 entries in the curated favorites record.  
   ↳ [[wiki/mind/synthesis/single-channel]] · Gaps
 - · **2026-08-02** — Its correction of 2026-08-02 is the hinge: the earlier reading held that food was simply never evaluated, and what replaced it was that food is not *ranked* but is *specified*, totally, with the refusal list consisting precisely of the three items that cannot be picked off afterwards.  
@@ -108205,9 +108786,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-02** — jerel coles** — 4. **What load broke a thirteen-day-held off-switch?** Test the hypothesis above against the 2026-08-02 → 08-08 logs.  
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **2026-08-02** — acquisition drive — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-02** — fran coldren — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-02** — big five psychometrics — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-19 — 18 pages
 - · **2026-08-02** — ~~**No audit has been run.**~~ **CLOSED 2026-08-02** — see the enumeration  
@@ -108233,7 +108814,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-02** — For context injection:** July 26 – August 2, 2026. 1,880 messages, 969 from Dan, 911 from Annie.  
   ↳ [[wiki/timeline/events/july-august-2026-reentanglement]] · LLM Quick Brief
 - ★ **2026-08-03** — 2015 possession arrest — legal  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 38 pages
 - ★ **2026-08-03** — 2015 retail theft arrest — legal  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-22 — 4 pages
 - · **2026-08-07** — Sexual contact resumes, per operator testimony  
@@ -108264,8 +108845,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/tan-calabrese]] · Childhood context
 - · **2026-08-09** — tuquick 17248123683 — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 16 pages
-- · **2026-08-09** — tan calabrese — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-11 — 5 pages
 - · **2026-08-09** — 113 — 105 — 5.2 — the read-receipt night  
   ↳ [[wiki/mind/concepts/reassurance-architecture]] · The character ratio is a crisis thermometer, and it is the best one found
 - · **2026-08-09** — That argument was built and then withdrawn during the 2026-08-09 session.  
@@ -108419,11 +108998,11 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-17** — jerel coles** — 6. **What is *"stuff to ruin you and your mom"* (2026-08-17 12:48)?** The only threat aimed at Suz in the corpus that has no named content. Bluster is the parsimonious reading and there is nothing in `raw/` either way.  
   ↳ [[wiki/meta/open-questions]] · people (169)
 - · **2026-08-17** — bond switch 2015 — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-17** — kristin — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-17** — milo — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-17** — ellen ulmer — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 16 pages
 - · **2026-08-17** — 374 — 210 — 4.9 — the seventy-hour campaign opens  
@@ -108465,9 +109044,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-17** — The operator (2026-08-17) places it *"in the text logs on 26 July 2026 at around 7am"*, along with the threatening messages sent from Annie's number in the hours before.  
   ↳ [[wiki/timeline/events/july-august-2026-reentanglement]] · Gaps
 - ★ **2026-08-18** — forensic method — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - ★ **2026-08-18** — fran death vigil — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - ★ **2026-08-18** — On August 18, 2026, 21:07:43–21:09:11, in the Ally channel: she challenges (*"You just love bomb"*), he runs the redefinition move (*"But love bomb is like a malicious tactic and there very little malice"*), she narrows rather than escalates (*"I didn't say malicious"*), and he concedes in six…  
   ↳ [[wiki/mind/concepts/conflict-architecture]] · The one completed refusal, and how it ends
 - ◆ **2026-08-18** — Clause 3 — "complicit in the length and depth" — gets its clearest single instance, and it is worse than anything previously on the ledger.** On 2026-08-18 at 19:35 Dan told Annie he had sent the recording to her parents; three minutes later he told her he had not, and why: *"it wasn't actually…  
@@ -108557,7 +109136,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-19** — august 2026 morgantown call** — **Did the block hold?** The export ends 2026-08-19 15:15:33, eight minutes after it. Every previous block in this record has a documented reversal.  
   ↳ [[wiki/meta/open-questions]] · timeline (81)
 - · **2026-08-19** — enneagram 5w4 — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-19** — The strongest is the **asymmetric clearing** — on 2026-08-19 at 06:33 Annie publicly cleared Coles of rape in a group chat, having agreed by phone to do the same for Dan, and did not.  
   ↳ [[wiki/mind/synthesis/august-grievance-verdict]] · LLM Quick Brief
 - · **2026-08-19** — The strongest — Annie publicly clearing Coles of rape in a group chat on 2026-08-19 at 06:33 having agreed by phone to clear Dan and not doing so — is the cleanest documented wrong in the corpus, because it required no interpretation: one act was performed and its promised counterpart was not.  
@@ -108585,7 +109164,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - ◆ **2026-08-20** — iMessage triple-handle archive on disk  
   ↳ [[wiki/people/annie-ulmer]] · By the numbers
 - · **2026-08-20** — arrangement history — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-20** — alexander jackson — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-20 — 16 pages
 - · **2026-08-20** — arnu — people  
@@ -108607,7 +109186,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-21** — Her own page carries the correction: two independent 2026-08-21 passes concluded she has no type at all, a finding that could only be made once the datum stopped living only on a five-day rebound's page and was carried on her own page as well.  
   ↳ [[wiki/meta/journeys/the-type-machine]] · The control case: typed, then found untyped
 - · **2026-08-21** — fastly fsly — work  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-21** — wiki brain — self  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-08-21** — The trend-detection lead is the same function seen from outside, and Dan prices it precisely in the love letter of 2026-08-21 — the only document in the corpus where he states what the attraction actually is:  
@@ -108625,25 +109204,25 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-22** — 155 virginia ave — places  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 31 pages
 - · **2026-08-22** — deviance mapping — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-22** — ally lubin — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-22** — attachment model — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
 - · **2026-08-22** — It does not settle *when* beyond "recent," and it does not answer the transmission question the gap also asked: whether Ally sent the screenshot to Dan directly, or he obtained it some other way, is still undocumented. "Recent" against a 2026-08-22 capture puts the test somewhere in mid-2026 and no…  
   ↳ [[wiki/people/ally-lubin-cognitive-profile]] · The instrument, and what it is worth
 - ★ **2026-08-23** — the cool metric — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - ◆ **2026-08-23** — The replacement gap is narrower and answerable by a decision rather than a query: *will such a log be kept, starting when?* 2. ~~**No release catalogue, no platform links, no streaming figures** for any of the four music aliases.~~ **CLOSED [2026-08-23], and it changed Part VI as predicted — in the…  
   ↳ [[wiki/mind/synthesis/failure-to-launch]] · Gaps
 - ◆ **2026-08-23** — The other is not, and no page models what happens when the remaining one carries the whole load. 6. ~~**The 127/110 exit-declaration pair is dossier arithmetic.**~~ **CLOSED [2026-08-23]** — see Part I½. 129 episodes derived independently, 128 of 128 resumed, median gap 36 seconds, all-time maximum…  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Gaps
 - · **2026-08-23** — overview — interests  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 38 pages
 - · **2026-08-23** — closing the set — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-23** — annie ulmer personality assessment — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-23** — johnny dealer — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-23 — 17 pages
 - · **2026-08-23** — 1. ~~**No calibration test has been run**, though the data for it exists.~~ **CLOSED [2026-08-23], as a negative result.** The data does not exist: of 24 strict graded credences across eleven years, one is resolvable and it resolved false.  
@@ -108677,19 +109256,19 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-26** — suzanne frank — people  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-28 — 31 pages
 - · **2026-08-26** — chaos preference — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-26** — axioms — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-26** — the cato seat — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-26** — jerad friedline — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-26** — ally and dan love as destiny — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-26** — astrology star signs — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-26** — 2020 2021 market era — timeline  
-  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 52 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-08-26 — 51 pages
 - · **2026-08-26** — On 2026-08-26 he ran a session generating graded insult and praise batches and then selected from the pool, and the selections are recorded in full at vocabulary lexicon.  
   ↳ [[wiki/mind/profile/linguistic-profile]] · The insult register is built, not reached for
 - · **2026-08-26** — The August 26, 2026 update introduces a potentially important counterexample.  
@@ -108711,7 +109290,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-08-28** — Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`.  
   ↳ [[wiki/interests/food-and-diet]] · The constitution pass
 - · **2026-08-28** — chemical architecture — health  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 8 pages
 - · **2026-08-28** — cocaine — health  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-31 — 4 pages
 - · **2026-08-28** — alias as periodization — mind  
@@ -108795,13 +109374,13 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2026-09-02** — The git log read as a record of *operations* rather than saves  
   ↳ [[wiki/meta/instruments/index]] · The measures
 - · **2026-09-02** — 2020 left turn — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 38 pages
 - · **2026-09-02** — failure to launch — mind  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 38 pages
 - · **2026-09-02** — alexis armel — people  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 38 pages
 - · **2026-09-02** — location history — self  
-  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 41 pages
+  ↳ [[wiki/meta/recent-activity]] · 2026-09-03 — 38 pages
 - · **2026-09-02** — chatgpt — self  
   ↳ [[wiki/meta/recent-activity]] · 2026-08-21 — 6 pages
 - · **2026-09-02** — He had no page here until 2026-09-02, and he is not named anywhere else in the corpus: no message thread, no Facebook exchange, no appearance on another person's page.  
@@ -108818,6 +109397,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The period's exit, in his own words, on the day it happened
 - · **2026-09-03** — Reading all nineteen years in full (2026-09-03) sharpens that into something a reader must know before using any of these pages, because the naive reading of the volume curve is not merely imprecise — it is **inverted**.  
   ↳ [[wiki/self/twitter]] · The blackouts, and why the volume curve cannot be read as a life curve
+- ◆ **2026-09-04** — Corroborated from inside the room [2026-09-04].** The concert table's date was established by routing checks.  
+  ↳ [[wiki/interests/favorites/music/artists/jedi-mind-tricks]] · Notes per appearance
+- · **2026-09-04** — Assembled 2026-09-04 from the twitter archive.  
+  ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
+- · **2026-09-04** — Cross-read against index on 2026-09-04.  
+  ↳ [[wiki/self/twitter/2008]] · Seven shows in ninety-eight days, and the concert log holds four
 - ★ **2026-12-19** — P4 — **No third party ends this relationship.** Any severance that holds past 120 days will be traceable to a self-generated move, not an intervention — a documented outside intervention followed by a severance holding >120 days  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Predictions and falsifiers
 - ★ **2026-12-19** — A severance holding past **2026-12-19** with no external agent involved confirms Part I and P4 together.  
@@ -108832,7 +109417,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 384 wiki pages. 3,885 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 385 wiki pages. 3,891 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================

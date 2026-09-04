@@ -2,8 +2,8 @@
 plain_of: wiki/interests/concert-record/index
 title: "Concert Record (2001-2019)"
 reading_level: general
-date_modified: 2026-08-26
-source_modified: 2026-08-01
+date_modified: 2026-09-04
+source_modified: 2026-09-04
 ---
 
 # Concert Record (2001-2019)
@@ -47,7 +47,7 @@ source_modified: 2026-08-01
 | 22 | Aug 8, 2007 | Vans Warped Tour | Post-Gazette Pavilion | Burgettstown, PA | Lineup included Paramore, Coheed & Cambria, All Time Low, Bad Religion. |
 | 23 | Nov 19, 2007 | Fall Out Boy | Mohawk Place | Buffalo, NY | ~300-cap sellout under Office alias 'Schrute Farms'; full Take This to Your Grave. |
 | 24 | ~2008 | Jack's Mannequin | Unknown | Orlando, FL | Still open — year/market consistent; exact night unresolved. |
-| 25 | 2008 | Hey Monday | Unknown | Orlando, FL | Still open — band formed 2008 in West Palm Beach. |
+| 25 | **Dec 28, 2008** | Hey Monday | BACKBOOTH (probably) | Orlando, FL | **Date found in 2026** from his own Twitter posts. |
 | 26 | May 4, 2008 | Panic! at the Disco, Coheed and Cambria, Paramore, Gym Class Heroes, Cobra Starship, The Academy Is... | Meadowlands Sports Complex | East Rutherford, NJ | Panic! at the Disco & Coheed and Cambria co-headlined. |
 | 27 | Jul 29, 2008 | Vans Warped Tour | Post-Gazette Pavilion | Burgettstown, PA | Lineup included Anberlin, All Time Low, Against Me!, 3OH!3. |
 | 28 | Oct 18, 2008 | All Time Low, Mayday Parade, The Maine, Every Avenue | House of Blues | Orlando, FL | Resolved. Joint fall 2008 package. |
@@ -81,6 +81,52 @@ The following music acts are documented in the concert record:
 
 Non-music performers in the record: **Dave Chappelle**, **Hannibal Buress**, **John Mulaney**.
 
+## Three concerts this list never had
+
+In September 2026 someone read this concert list against Dan's Twitter posts
+from the same months, for the first time. The three months from October to
+December 2008 turned out to name **seven** shows in Orlando. This list has
+four of them.
+
+The three that are missing:
+
+- **The Roots**, October 7, 2008. He posted from inside it: *"at the roots show. i can dig that."*
+- **Cobra Starship, Hit The Lights and Forever The Sickest Kids**, November 13, 2008.
+- **Trans-Siberian Orchestra**, November 15, 2008. He posted *"trans-siberian orchestra tonight."* at 5:04 in the afternoon, and *"wow that was SUPER lame."* at 11:07 that night.
+
+**Why they are missing is the interesting part.** This list was built from
+ticket stubs, order confirmations, and memory. That kind of record keeps what
+was *bought*. It cannot keep a show somebody else bought the ticket for, or a
+show he wandered into, or a show he decided afterwards was not worth
+remembering. Trans-Siberian Orchestra is the clearest example of the last one:
+he announced it, went, hated it, and never wrote it down again.
+
+A ticket record tells you what someone planned to do. A running diary tells you
+how the evening actually went. The two stop agreeing exactly where a night
+disappointed.
+
+## The Hey Monday show now has a date
+
+Entry 25 used to say only "2008" and "still open." Two of his own posts settle
+it:
+
+- **December 19, 2008**, at the Orlando airport, flying home to Pennsylvania for Christmas: *"I don't want to go to cold, lame PA. Be back on the 28th for hey Monday :)"*
+- **December 27, 2008**, at 7:40 in the evening: *"Flying to Orlando for hey monday tomorrow. Wooo"*
+- **December 28, 2008**, at 10:38 in the morning: *"Hate airport days."*
+
+He was nineteen, home for his first Christmas since moving to Florida, and he
+booked his flight back around a single show by a band that had existed for less
+than a year — and said so before he had even left. **The show was December 28,
+2008.**
+
+There is one more thing. Ten rows further down, this same list holds a ticket
+for *"There for Tomorrow, Dec 28, 2008, BACKBOOTH, Orlando"* — same night, same
+city, a small room, and a band from the same Florida scene. The simplest
+explanation is that entries 25 and 40 are **the same evening written down
+twice**, once under the band on the ticket and once under the band he went to
+see. That part is a guess. The date is not: it comes straight from what he
+wrote at the time.
+
 ## What this record tells us
 
 The concert log is not a complete autobiography, but it does trace several arcs with unusual precision.
@@ -95,8 +141,9 @@ The concert log is not a complete autobiography, but it does trace several arcs 
 
 ## What we still don't know
 
-- **The record's completeness.** The source is a single consolidated table. How many concerts are missing — events Dan attended but never logged — is unknowable.
-- **The "still open" entries.** Events 6, 16, 17, 24, and 25 remain unresolved. They represent undocumented concerts that the source acknowledges but cannot pin down.
+- **The record's completeness.** This used to say the number of missing concerts was unknowable. It is not — it is at least three, found in one autumn of one year by reading his posts. Nobody has done the same check for the other eighteen years the posts cover, so the real total is unknown and is certainly higher than three.
+- **The "still open" entries.** Events 6, 16, 17 and 24 remain unresolved. Event 25, Hey Monday, now has a date. Four of the five fall in years his Twitter posts cover, so the same check that dated Hey Monday might date them too.
+- **Which venue Hey Monday played.** The date is settled. Whether it was the BACKBOOTH show on the same night is a reasonable guess and nothing more — no record in the collection says who was on that bill.
 - **The 2009–2011 gap.** Whether the thinning of the record after 2009 reflects a real decline in concert attendance or simply a lapse in documentation is not clear.
 - **The Final Show (2011).** The artist identity is unrecorded in the source, despite the show being at Madison Square Garden and billed as the last ever. This is a significant gap.
 

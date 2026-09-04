@@ -70,6 +70,21 @@ connections:
   - page: wiki/self/twitter/2012
     type: evidenced-by
     claim: 'Retail work with fitting rooms in September 2012, four years after Full Sail and two after the Ishlab job, recorded only as an aside about customers — and an unpaid internship application in November presenting a three-year-old certification as recent. The tone is the finding: it is never named as a problem.'
+  - page: wiki/self/twitter/2014
+    type: evidenced-by
+    claim: "Seven tweets across 14-16 October 2014 pitch unpaid, competently produced O&A audio work to six people at the show — two years after the unanswered internship application — and 19 December announces a rap career on an accurate self-assessment that nothing in the corpus follows."
+  - page: wiki/self/twitter/2015
+    type: evidenced-by
+    claim: "SLOPPP does not fail, get rejected or get abandoned in a statement: it stops being posted. Two pieces of output in twelve months after roughly forty releases across 2013-14, and the same account carries on unchanged as a viewer's feed."
+  - page: wiki/self/twitter/2016
+    type: evidenced-by
+    claim: "Employment appears only as material — 'I think the people at my job training are hired actors carrying out an elaborate and gloriously stupid performance art piece' is the year's only description of work — and the inherited-instruments post forecasts its own outcome."
+  - page: wiki/self/twitter/2022
+    type: evidenced-by
+    claim: "He is waiting tables at thirty-three and the fact arrives in a subordinate clause inside an anecdote about a good customer conversation — the same posture toward employment, six years and two jobs after 2016."
+  - page: wiki/self/twitter/2024
+    type: evidenced-by
+    claim: "A fourth job enters the archive exactly as the others did: 'during my time as a caddie' (28 June), as the credential for an aside inside an argument about Trump's handicap, with no dates, employer or duration."
 ---
 
 # Failure to Launch — The Capability Audit

@@ -134,6 +134,15 @@ connections:
   - page: wiki/self/twitter/2011
     type: evidenced-by
     claim: '2011 is the disposition without any economic content: eight political posts across the year, every one aimed at a vertical, none redistributive. The Troy Davis posts argue the procedural case rather than the innocence case — "I have no idea whether Troy Davis was guilty or not, but he deserved the chance to live another day" — which is an objection to an authority\'s claim to certainty rather than to its verdict.'
+  - page: wiki/self/twitter/2013
+    type: evidenced-by
+    claim: "During the Boston Marathon bombing — the decade's most conspiracy-productive American event — he mocks the conspiracy layer rather than working it, and separately refuses veteran status as a warrant: 'Being a vet does NOT make your racism ok nor does it make you automatically correct.'"
+  - page: wiki/self/twitter/2014
+    type: evidenced-by
+    claim: "The axis applied to his own field and against his own interest: the Aoki objection is a famous performer taking money for work he is not doing, and he classifies himself out loud in the same breath — 'as a nobody DJ' — in the month he entered a Beatport contest."
+  - page: wiki/self/twitter/2021
+    type: evidenced-by
+    claim: "January 6th is the cleanest demonstration: he forms a police-collusion hypothesis at high confidence, prices it in the same tweet ('but what was the endgame? is that being too generous'), and rejects the antifa-infiltration mirror because it requires its actors to work against their own interests."
 ---
 
 

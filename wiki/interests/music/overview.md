@@ -47,6 +47,18 @@ connections:
   - page: wiki/self/twitter/2013
     type: evidenced-by
     claim: 'The SLOPPP operation in full: some thirty named releases between 13 August and 26 December 2013, free downloads tracklisted and timestamped, ~10k self-reported SoundCloud plays, a Numark NS7 bought on 10 November, and criticism solicited from one named peer. The project\'s start date is not datable from the twitter record because the archive source changes on 2013-08-17.'
+  - page: wiki/self/twitter/2010
+    type: evidenced-by
+    claim: "The indie and electronic vocabularies run side by side through 2010 rather than in sequence — Grizzly Bear and Arcade Fire in the same months as Diplo, Electric Zoo, Ableton warping and a published dubstep mix — so what the 2012-2014 likes migration dates is displacement, not onset."
+  - page: wiki/self/twitter/2014
+    type: evidenced-by
+    claim: "SLOPPP's documented peak year: a Beatport remix contest entry, official-style flips for heRobust, Katy Perry, gLAdiator, Drake x Cashmere Cat, Caked Up and Zeds Dead, two running mix series, a live-streamed video show and a public stem-trade address."
+  - page: wiki/self/twitter/2016
+    type: evidenced-by
+    claim: "The disputed OSU gig is confirmed — 'Had lit times playing @ulmdub birthday party last night at OSU' (2016-02-07) — which settles a live set this page had leaned toward treating as fabricated and proves the operator export drops rows."
+  - page: wiki/self/twitter/2026
+    type: evidenced-by
+    claim: "The ten-year silence ends: a MOGZART drum-and-bass remix posted 2026-03-04, the first original music on the account since 7 March 2016, under a different alias in a different genre."
 ---
 
 

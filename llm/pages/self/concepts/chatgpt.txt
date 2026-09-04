@@ -46,6 +46,12 @@ connections:
   - page: wiki/self/concepts/wiki-brain
     type: component-of
     claim: "ChatGPT is where the bootloader concept was prototyped in a custom-instructions field, which makes it the wiki-brain's origin point and the reason the system was built to be portable off any single vendor."
+  - page: wiki/self/twitter/2023
+    type: evidenced-by
+    claim: "A full year of AI work before the 2025 turn: a four-post thread forecasting election deepfakes (2023-05-27), a documented GPT-to-Bard message experiment (2023-06-13), and ChatGPT output posted as evidence of the model's judgement. The interest is not new in 2025; turning it on himself is."
+  - page: wiki/self/twitter/2026
+    type: evidenced-by
+    claim: "The 2026 working practice from the inside: two named autonomous agents claimed in April, fourteen unbroken hours with a model building data visualisers over his own text logs (13 June), and an overnight iMessage auto-responder that ran unsupervised for five hours and reached a real person."
 ---
 
 # ChatGPT (OpenAI)

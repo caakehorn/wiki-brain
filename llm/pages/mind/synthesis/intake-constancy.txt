@@ -46,6 +46,9 @@ connections:
   - page: wiki/mind/synthesis/closing-the-set
     type: causes
     claim: "The fixed rate leaves subject as the only free variable, and the subject turns out to be a bounded set being exhausted: 86.6% of 1,477 musical artists and of 98 authors appear exactly once, because the unit of intake is an event with a findable edge and one account per witness closes it."
+  - page: wiki/health/chemical-architecture
+    type: parallels
+    claim: "The nicotine arc is this page's shape running on a substance instead of on media: eighteen years of unbroken intake under five rotating delivery systems, each rotation announced and experienced as a change. Structural rather than measured — the corpus holds no nicotine rate to hold flat — so it is an argument by shape, not a second instance of the constant."
 ---
 
 
