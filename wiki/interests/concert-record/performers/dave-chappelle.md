@@ -12,6 +12,9 @@ connections:
   - page: wiki/interests/concert-record/festivals/oddball-comedy-curiosity-festival
     type: component-of
     claim: "Dave Chappelle performed at Oddball Comedy & Curiosity Festival on Aug 30, 2013 (Post-Gazette Pavilion (First Niagara Pavilion), Burgettstown, PA)."
+  - page: wiki/self/twitter/2021
+    type: evidenced-by
+    claim: "Chappelle is the occasion for the corpus's dated turn away from comedy free-speech absolutism: 'Lenny Bruce was arrested...not by the public, but by the state. Dave Chappelle is facing criticism which is, I'm told, different.' (2021-10-26) — five months earlier than the opie-and-anthony page had that shift."
 ---
 
 # Dave Chappelle

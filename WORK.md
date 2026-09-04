@@ -84,7 +84,6 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/interests/favorites/eclecticism.md moved 2026-09-01, after this page's 2026-06… | `wiki/interests/favorites/taste-profile.md` | 2026-09-01 |
 | 3 | stale | premise wiki/interests/favorites/eclecticism.md moved 2026-09-01, after this page's 2026-07… | `wiki/interests/favorites/music.md` | 2026-09-01 |
 | 3 | stale | premise wiki/interests/favorites/eclecticism.md moved 2026-09-01, after this page's 2026-08… | `wiki/interests/favorites/books.md` | 2026-09-01 |
-| 3 | stale | premise wiki/interests/music/aliases/sloppp.md moved 2026-09-02, after this page's 2026-08-… | `wiki/mind/synthesis/alias-as-periodization.md` | 2026-09-02 |
 | 3 | stale | premise wiki/self/tattoos.md moved 2026-09-02, after this page's 2026-08-28 | `wiki/interests/food-and-diet.md` | 2026-09-02 |
 | 3 | stale | premise wiki/interests/music/overview.md moved 2026-09-03, after this page's 2026-07-14 | `wiki/interests/favorites/music.md` | 2026-09-03 |
 | 3 | stale | premise wiki/interests/music/overview.md moved 2026-09-03, after this page's 2026-08-26 | `wiki/mind/concepts/chaos-preference.md` | 2026-09-03 |
@@ -122,6 +121,7 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 3 | stale | premise wiki/health/chemical-architecture.md moved 2026-09-04, after this page's 2026-08-02 | `wiki/mind/synthesis/ancestral-dialectic.md` | 2026-09-04 |
 | 3 | stale | premise wiki/health/chemical-architecture.md moved 2026-09-04, after this page's 2026-08-31 | `wiki/health/cocaine.md` | 2026-09-04 |
 | 3 | stale | premise wiki/health/chemical-architecture.md moved 2026-09-04, after this page's 2026-08-31 | `wiki/health/the-configured-body.md` | 2026-09-04 |
+| 3 | stale | premise wiki/interests/music/aliases/sloppp.md moved 2026-09-04, after this page's 2026-08-… | `wiki/mind/synthesis/alias-as-periodization.md` | 2026-09-04 |
 | 4 | skill | unvalidated skill candidate — A generator's own output is not the published object | `skills/INBOX.md` | 2026-08-30 |
 | 4 | skill | unvalidated skill candidate — Persistent cross-agent learning loop | `skills/INBOX.md` | 2026-08-30 |
 | 4 | skill | unvalidated skill candidate — A secret's absence must fail whatever the secret was for | `skills/INBOX.md` | 2026-08-31 |

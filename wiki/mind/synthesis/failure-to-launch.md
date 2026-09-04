@@ -85,6 +85,9 @@ connections:
   - page: wiki/self/twitter/2024
     type: evidenced-by
     claim: "A fourth job enters the archive exactly as the others did: 'during my time as a caddie' (28 June), as the credential for an aside inside an argument about Trump's handicap, with no dates, employer or duration."
+  - page: wiki/interests/music/aliases/sloppp
+    type: contradicts
+    claim: "The one documented project that did not fail to launch: 29 releases in the last four months of 2013, 16 in September alone, sustained through 2014. What is missing is not output or follow-through but any external result — and the verdict against it was posted by its author in the hashtags of its own announcements."
 ---
 
 # Failure to Launch — The Capability Audit

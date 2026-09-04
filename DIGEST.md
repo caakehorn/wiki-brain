@@ -14,7 +14,7 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 497 |
-| Pages touched in the last 14 days | 179 |
+| Pages touched in the last 14 days | 180 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 48 |
 | Open gaps | 605 |
@@ -47,7 +47,7 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-09-04** — 12 pages
+**2026-09-04** — 14 pages
   - site | meta | the Wikipedia-style reader is served again
 
 **2026-09-03** — 35 pages
@@ -65,7 +65,7 @@ this is the state of the thing.
   - ingest | self | 2024, 2025 and 2026 read in full — all nineteen year pages now carry narrative runs
   - lint | self | the twitter year pages were generating a 2,741-entry table of contents
 
-**2026-09-02** — 11 pages
+**2026-09-02** — 10 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result
