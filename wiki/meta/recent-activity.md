@@ -23,7 +23,7 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-04 — 19 pages
+## 2026-09-04 — 33 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -35,6 +35,7 @@ simply listed.
 | [[wiki/interests/favorites/music/artists/john-mayer]] | interests | — |
 | [[wiki/interests/favorites/music/artists/lil-wayne]] | interests | — |
 | [[wiki/interests/favorites/music/artists/the-starting-line]] | interests | — |
+| [[wiki/interests/food-and-diet]] | interests | **RE-CHECKED** — the-cool-metric gained a substantive section: the twitter archive shows the sorting metric run on a six-year live-in partner, with affection in the public register falling from 12 of 32 mentions in 20 |
 | [[wiki/interests/music/aliases/sloppp]] | interests | _(carries a GAP CLOSED from 2026-09-02)_ |
 | [[wiki/interests/the-office]] | interests | — |
 | [[wiki/meta/digest]] | meta | — |
@@ -44,10 +45,23 @@ simply listed.
 | [[wiki/meta/testimony-veracity]] | meta | — |
 | [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/mind/concepts/calibrated-confidence]] | mind | _(carries a CORRECTED from 2026-08-23)_ |
+| [[wiki/mind/concepts/chaos-preference]] | mind | **RE-CHECKED** — the-cool-metric gained a section showing the received-versus-sought sort aimed at an already-admitted person: a six-year partner whose public register goes ironic and then silent. This page's axis is  |
+| [[wiki/mind/concepts/the-cool-metric]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
+| [[wiki/mind/synthesis/bond-switch-2015]] | mind | **RE-CHECKED** — alexis-armel gained a measurement of the relationship's public register: it stops on **29 November 2013** and holds at zero for the last **twenty-four months**, across 1,132 posts, in years when his d |
+| [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — alexis-armel gained a measurement of the relationship's public register — zero mentions across the last twenty-four months and 1,132 posts, in years when his distinct-handle count peaked at 57 — and |
+| [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — the-cool-metric gained a section measuring the public register on the six-year partner: affection at 12 of 32 mentions in 2010, 3 of 47 across 2011-2014, then zero for the relationship's last twenty-f |
+| [[wiki/mind/synthesis/the-binary-verdict]] | mind | **RE-CHECKED** — the-cool-metric gained a section showing the sorting metric run on a six-year live-in partner: affection in the public register falls from 12 of 32 mentions in 2010 to 3 of 47 across 2011-2014, the la |
+| [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — the-cool-metric moved on 2026-09-04 by gaining a substantive section, not a re-check note: the twitter archive shows *splitting via irony* aimed at a six-year live-in partner rather than at strangers, |
+| [[wiki/mind/synthesis/the-unbroken-bond]] | mind | _(carries a RE-CHECKED from 2026-08-28)_ |
+| [[wiki/mind/synthesis/totality-themes]] | mind | **RE-CHECKED** — the-cool-metric, a member, gained a section extending the sorting metric's demonstrated range to an intimate partner. This page's thesis is about totality as a mode across domains, and a member gainin |
+| [[wiki/people/alexis-armel]] | people | _(carries a CORRECTED from 2026-09-02)_ |
+| [[wiki/people/ally-lubin-cognitive-profile]] | people | **RE-CHECKED** — the-cool-metric gained a section showing the metric run on a six-year live-in partner, with the warm public register collapsing to zero. That page already carries this profile's own contribution at th |
+| [[wiki/people/franki-faris]] | people | _(carries a REVISED from 2026-07-13)_ |
 | [[wiki/people/katie-fletcher]] | people | **CORRECTED** — this paragraph ended *"There is no message corpus for her — everything known arrives through Dan's later AI-session narration."* There is still no message corpus. But "everything known" was wrong: the |
 | [[wiki/self/twitter/2008]] | self | _(carries a GAP CLOSED from 2026-09-03)_ |
+| [[wiki/self/twitter/2014]] | self | **CORRECTED** — She is barely here. Those two are the whole year against **23 in 2013**, and the collapse is specific to her rather than to the account: 2014's @-mention *rate* is the second highest of the era at 374 |
 
-## 2026-09-03 — 35 pages
+## 2026-09-03 — 33 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -60,7 +74,6 @@ simply listed.
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
 | [[wiki/mind/synthesis/twitter-2024-cognitive-state]] | mind | — |
 | [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
-| [[wiki/people/alexis-armel]] | people | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/people/dan-polyak]] | people | — |
 | [[wiki/people/josh-brannan]] | people | — |
 | [[wiki/places/424-bedford-ave]] | places | — |
@@ -71,7 +84,6 @@ simply listed.
 | [[wiki/self/twitter/2011]] | self | — |
 | [[wiki/self/twitter/2012]] | self | — |
 | [[wiki/self/twitter/2013]] | self | — |
-| [[wiki/self/twitter/2014]] | self | **CONTRADICTION** — the 2022 account places Dan among those *"repulsed by the racism"* at the split. The contemporaneous record places him on the other side of it — congratulating Cumia on his integrity within twenty-fou |
 | [[wiki/self/twitter/2015]] | self | — |
 | [[wiki/self/twitter/2016]] | self | — |
 | [[wiki/self/twitter/2017]] | self | — |
@@ -124,18 +136,16 @@ simply listed.
 |---|---|---|
 | [[wiki/meta/skills]] | meta | — |
 
-## 2026-08-28 — 31 pages
+## 2026-08-28 — 23 pages
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/interests/food-and-diet]] | interests | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — totality-themes gained two RE-CHECKED notes (2026-08-28) confirming a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris to Alexis Armel) touches neither page. **N |
 | [[wiki/mind/synthesis/annual-volume-suz]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a new 2013–2014 eviction/concealment episode (Alexis Armel, the washing machine). No message-volume figure this page draws on is touched.  |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a pre-Annie, Alexis-era eviction/concealment episode (2013–2014, Uniontown). It touches neither the Annie-era material nor any figure this |
 | [[wiki/mind/synthesis/august-grievance-verdict]] | mind | **RE-CHECKED** — flagged stale against attachment-trauma-bond (2026-08-28), which gained a RE-CHECKED note tracing back to a pre-Annie, 2013–2014 Alexis-era eviction/concealment episode on suzanne-frank. It touc |
 | [[wiki/mind/synthesis/block-unblock-loop]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
-| [[wiki/mind/synthesis/dormancy-not-exit]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a March 2014 Alexis-era eviction/concealment episode — housing and family-drama, no capital event, no figure this page draws on. **No clai |
 | [[wiki/mind/synthesis/fayette-return]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
@@ -143,34 +153,27 @@ simply listed.
 | [[wiki/mind/synthesis/music-as-identity]] | mind | — |
 | [[wiki/mind/synthesis/no-platonic-channel]] | mind | — |
 | [[wiki/mind/synthesis/read-receipt-forensics]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
-| [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — flagged stale against totality-themes (2026-08-28), which gained a RE-CHECKED note of its own confirming that a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris  |
 | [[wiki/mind/synthesis/supply-network]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
-| [[wiki/mind/synthesis/the-binary-verdict]] | mind | **REVISED** — This entry previously asked whether the binary default is downstream of Core Axiom 1 specifically, or an instance of a more general Ti-dominant, forensic-verdict cognitive style, and flagged forensic- |
 | [[wiki/mind/synthesis/the-commissioned-self]] | mind | **RE-CHECKED** — flagged stale against instrument-is-subject (2026-08-28), which added a constitution-pass mechanism section: Ti-dominance explains why the exocortex prompt's evidentiary standard takes the specific sh |
-| [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — flagged stale against single-channel (2026-08-28), which gained a RE-CHECKED note of its own tracing back to a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris t |
 | [[wiki/mind/synthesis/the-embedded-objective]] | mind | **RE-CHECKED** — flagged stale against 2015-possession-arrest (2026-08-28), which added a second, differently-dated operator account of an Alexis eviction/concealment episode used only to help date that page's arrest  |
 | [[wiki/mind/synthesis/the-rescue-premise]] | mind | **RE-CHECKED** — flagged stale against dormancy-not-exit (2026-08-28), which resolved a standing contradiction over whether a five-day tenure figure belonged to Franki Faris or to Alexis Armel's 2013 displacement — a  |
 | [[wiki/mind/synthesis/the-serial-monogamist]] | mind | — |
-| [[wiki/mind/synthesis/the-unbroken-bond]] | mind | **RE-CHECKED** — alexis-armel moved 2026-08-28 for a 2026-08-27 operator capture giving the fuller sequence of the 2013 separation: five days at 155 Virginia Ave, her mother's house, a new boyfriend (Chris Tressler),  |
-| [[wiki/mind/synthesis/totality-themes]] | mind | **RE-CHECKED** — flagged stale against dormancy-not-exit (2026-08-28), which resolved a standing contradiction over whether a five-day tenure figure belonged to Franki Faris or to Alexis Armel's 2013 displacement. Thi |
-| [[wiki/people/franki-faris]] | people | _(carries a REVISED from 2026-07-13)_ |
 | [[wiki/people/suzanne-frank]] | people | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/people/suzanne-frank-personality-assessment]] | people | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a March 2014 eviction of Alexis Armel from the household over a washing-machine incident. No existing claim on this page is falsified, but |
 | [[wiki/people/zach-clingan]] | people | **GAP CLOSED** — The 2014 "drug people" taxonomy and the December 2015 "my arch rival" outburst (below) both assume a rupture the corpus had never actually recorded. A 2026-08-27 operator capture (`raw/people/captures |
 | [[wiki/places/155-virginia-ave]] | places | _(carries a GAP CLOSED from 2026-08-22)_ |
 | [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — estate-money-spine gained a constitution-pass mechanism section (the Altruism-1 inversion explaining the $14,000 family loan) and a full register table. Nothing in it touches tenancy, paper, or any of |
 
-## 2026-08-27 — 5 pages
+## 2026-08-27 — 4 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/interests/language/vocabulary-lexicon]] | interests | — |
 | [[wiki/mind/profile/linguistic-profile]] | mind | **GAP CLOSED** — the operator volunteered the full "words for stupid" list against this page. It was not a gap this page had stated — unprompted material, staged here for the ingest to place. Placed here, in Lexical f |
-| [[wiki/people/ally-lubin-cognitive-profile]] | people | **GAP CLOSED** — the page asked *"whose result is the screenshot, and when was it taken? The image carries no identifying metadata. Did Ally send it to Dan directly, and on what date? The original `IMG_2320.heic` may  |
 | [[wiki/people/danny-matthews]] | people | — |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 
-## 2026-08-26 — 50 pages
+## 2026-08-26 — 47 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -181,12 +184,10 @@ simply listed.
 | [[wiki/meta/journeys/the-supply-line]] | meta | — |
 | [[wiki/meta/journeys/the-type-machine]] | meta | — |
 | [[wiki/mind/concepts/bunker-core]] | mind | — |
-| [[wiki/mind/concepts/chaos-preference]] | mind | **RE-CHECKED** — flagged stale against the-cool-metric (2026-08-26), which added a section on the metric's one documented upper bound (the Ally Skins exchange) and removed its `sage_pending` staging. This page's mirro |
 | [[wiki/mind/concepts/conflict-architecture]] | mind | _(carries a REVISED from 2026-07-18)_ |
 | [[wiki/mind/concepts/erotic-architecture]] | mind | — |
 | [[wiki/mind/concepts/exocortex]] | mind | — |
 | [[wiki/mind/concepts/forensic-method]] | mind | _(carries a CORRECTED from 2026-08-18)_ |
-| [[wiki/mind/concepts/the-cool-metric]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
 | [[wiki/mind/index]] | mind | — |
 | [[wiki/mind/politics/axioms]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
 | [[wiki/mind/profile/deviance-mapping]] | mind | _(carries a GAP CLOSED from 2026-08-22)_ |
@@ -198,7 +199,6 @@ simply listed.
 | [[wiki/mind/profile/voice-modes]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/mind/psychosexual/arrangement-history]] | mind | _(carries a CORRECTED from 2026-08-20)_ |
 | [[wiki/mind/synthesis/ai-collaborative-analysis]] | mind | — |
-| [[wiki/mind/synthesis/bond-switch-2015]] | mind | _(carries a CORRECTED from 2026-08-17)_ |
 | [[wiki/mind/synthesis/closing-the-set]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
 | [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] | mind | — |
 | [[wiki/mind/synthesis/political-psyops]] | mind | — |

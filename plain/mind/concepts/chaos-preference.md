@@ -3,7 +3,7 @@ plain_of: wiki/mind/concepts/chaos-preference
 title: "The Chaos Preference"
 reading_level: general
 date_modified: 2026-08-26
-source_modified: 2026-08-26
+source_modified: 2026-09-04
 ---
 
 # The Chaos Preference

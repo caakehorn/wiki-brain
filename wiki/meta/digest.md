@@ -55,11 +55,12 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-04** — 19 pages
+**2026-09-04** — 33 pages
+  - connect | people | the twitter archive, read directly onto the page it was about
   - site | meta | the Wikipedia-style reader is served again
   - connect | self, interests, health, mind, people | the twitter archive read back onto the pages it was always about
 
-**2026-09-03** — 35 pages
+**2026-09-03** — 33 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
   - ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
   - ingest | self | 2010 read in full — the corpus's most-cited date was computed from a train going the wrong way, and it survives anyway

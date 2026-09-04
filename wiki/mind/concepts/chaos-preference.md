@@ -6,7 +6,7 @@ aliases: ["chaotic neutral", "the entropy appetite", "rooting for the fire"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-26
+date_modified: 2026-09-04
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -51,6 +51,18 @@ connections:
 ---
 
 # The Chaos Preference
+
+> **RE-CHECKED [2026-09-04] — adjacent, and left standing.**
+> [[wiki/mind/concepts/the-cool-metric]] gained a section showing the
+> received-versus-sought sort aimed at an already-admitted person: a six-year
+> partner whose public register goes ironic and then silent. This page's axis is
+> *imposed versus chosen*, applied to order rather than to people, and the
+> addition supplies no new instance of it. **Checked and left standing, with one
+> adjacency worth naming for a later pass:** a partner is a chosen object, and
+> if the two axes are one operation seen from different sides — which
+> [[wiki/mind/synthesis/the-deferred-audit]] argues — then a chosen person going
+> quiet is the kind of case that would test the claim. Nothing here rests on it
+> yet, and nothing is withdrawn.
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/concepts/the-cool-metric]] (2026-08-26), which added a section on

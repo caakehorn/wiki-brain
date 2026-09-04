@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-26
+date_modified: 2026-09-04
 sources:
   - raw/self/dox-md/THE_DAN_FRANK_BOOTLOADER.md
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
@@ -74,6 +74,24 @@ This event is one instance of a longer pattern; see
 sits inside.
 
 In late November 2015, Dan's primary attachment target transferred from [[wiki/people/alexis-armel|Alexis]] to [[wiki/people/annie-ulmer|Annie]] inside a single calendar month — the Alexis relationship ending and the Annie bond forming at the same moment. The bootloader corpus names this the **single-bond switch**: not a gradual disengagement followed by a new attachment, but one bond closing as the other opens, with no unattached gap between them. This page is the synthesis of that transition — its timing, its mechanics, and what the shared "lair" at 155 Virginia Avenue reveals about how the switch actually happened.
+
+> **RE-CHECKED [2026-09-04] — the premise moved, and it refines one word
+> rather than the thesis.** [[wiki/people/alexis-armel]] gained a measurement of
+> the relationship's public register: it stops on **29 November 2013** and holds
+> at zero for the last **twenty-four months**, across 1,132 posts, in years when
+> his distinct-handle count was at an all-time high.
+>
+> **The switch was still a switch.** This page's suddenness claim is about the
+> bond and the household, and it is established from the message record and the
+> operator's own account, neither of which the twitter archive touches. What the
+> archive shows is that *the public trace* of the relationship had ended two
+> years before the bond did — so "sudden" is true of the bond and false of its
+> public surface, and a later pass reaching for the archive to demonstrate the
+> abruptness would find the opposite and should know why in advance. **No claim
+> here is withdrawn.** If anything the separation supports this page's own
+> reading, since a bond that had been publicly invisible for two years closing
+> in a single day is a bond whose visible surface and actual state had come
+> apart well before the switch.
 
 ## The thesis
 

@@ -6,7 +6,7 @@ aliases: ["the occupied slot", "continuous pair-bonding", "the seventeen years"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-28
+date_modified: 2026-09-04
 date_range_start: 2009-11-01
 date_range_end:
 sources:
@@ -44,7 +44,7 @@ connections:
     claim: "The sx-dominant instinctual stack is the mechanism: it organises life around one relationship at maximum voltage rather than several at moderate voltage, which predicts singular-and-continuous rather than serial-with-gaps."
   - page: wiki/people/alexis-armel
     type: evidenced-by
-    claim: "The six-year control case: a bond long enough to prove the slot was occupied continuously, and — per the bond-switch synthesis — shallow enough to show that occupancy did not require the deep attachment system to be active."
+    claim: "The six-year control case: a bond long enough to prove the slot was occupied continuously, and — per the bond-switch synthesis — shallow enough to show that occupancy did not require the deep attachment system to be active. The twitter archive supplies the first contemporaneous, non-testimonial evidence for the second half: the public register on her stops 29 November 2013 and holds at zero for the relationship's last twenty-four months across 1,132 posts, in the year his distinct-handle count peaked at 57 — a denominator rather than an absence, which is what the coverage objection needed."
   - page: wiki/people/annie-ulmer
     type: evidenced-by
     claim: "The ten-year case in which the deep system did activate, and whose 2026 severance — issued by Dan himself, not by her, per the 2026-08-13 correction — held 52 days of zero outbound against four unanswered approaches before failing: the strongest available evidence that what is unavailable to him is not leaving but staying gone."
@@ -384,6 +384,30 @@ Everything else can be allowed to burn, because he did not pick it.
 > his slot over seventeen years, which is his and is unusual; the displacement
 > cost belongs to the switch mechanism, which is not. Recorded so a later pass
 > does not quietly annex it as more evidence for singularity.
+>
+> **[[wiki/people/alexis-armel]] (moved 2026-09-04) — occupancy-without-
+> activation gets its first contemporaneous evidence, and it is a denominator
+> rather than an absence.** Everything this page has held about the Alexis
+> occupancy came from retrospective narration or from the speed of the November
+> 2015 switch — both testimony, both after the fact. The twitter archive is
+> neither. It shows the public register on her stopping on **29 November 2013**
+> and staying at zero for the relationship's last **twenty-four months**, across
+> **1,132 further posts**, in a year (2014) when his distinct-handle count hit an
+> all-time high of **57** and his @-mention rate was the second highest of the
+> era. Her share of his @-tweets: **24.2% in 2013, 3.1% in 2014, 0% in 2015.**
+>
+> **Why this specifically answers the objection that page's Gaps section
+> raises.** The occupancy claim has always been vulnerable to *coverage*: a
+> thin record that shows no crisis-grade attachment behaviour is also what
+> under-documentation looks like. This measurement has a denominator. It is not
+> a record failing to mention her; it is a well-populated record of him
+> naming other people and not her.
+>
+> **It is bounded to one channel, and the page says so.** Attachment behaviour
+> is mostly private, the chat archive's dated samples stop at 2013-05, and
+> neither message export holds a row dated 2012, 2013 or 2014. The public
+> channel is measured; the private one is still missing for exactly the years
+> that matter. *The thesis is strengthened and not settled.*
 >
 > **[[wiki/people/alexis-armel]] (moved 2026-08-18) — the word "shallow" is
 > now doing unearned work.** That page gained a blind 2026 model scoring on

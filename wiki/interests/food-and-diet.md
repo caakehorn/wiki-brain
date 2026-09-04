@@ -6,7 +6,7 @@ aliases: ["the unevaluated domain", "food as everything but taste"]
 status: active
 knowledge: earned
 date_created: 2026-07-25
-date_modified: 2026-08-28
+date_modified: 2026-09-04
 sources:
   - raw/self/captures/2026-08-01_154556_picky-eater.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -67,6 +67,19 @@ connections:
 ---
 
 # Food and Diet
+
+> **RE-CHECKED [2026-09-04] — the premise widened, and widening it sharpens
+> this page rather than threatening it.** [[wiki/mind/concepts/the-cool-metric]]
+> gained a substantive section: the twitter archive shows the sorting metric run
+> on a six-year live-in partner, with affection in the public register falling
+> from 12 of 32 mentions in 2010 to 3 of 47 across 2011-2014 and then to zero.
+> **That extends the metric's demonstrated reach to the most intimate object in
+> the corpus, and food is still outside it.** This page's argument is a
+> jurisdictional one — one axis for everything the axis is allowed to touch —
+> and a premise that now reaches further without reaching food makes the
+> exemption harder to explain as mere lack of occasion. No claim here is
+> withdrawn; the one it strengthens is the closing question about what else is
+> protected in the same way.
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/concepts/the-cool-metric]] (2026-08-26), which added a section on

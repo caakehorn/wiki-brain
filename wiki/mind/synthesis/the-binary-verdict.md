@@ -6,7 +6,7 @@ aliases: ["zero-sum cognition", "the two-state default", "black-and-white by def
 status: active
 knowledge: earned
 date_created: 2026-08-28
-date_modified: 2026-08-28
+date_modified: 2026-09-04
 sources: []
 synthesizes:
   - wiki/mind/synthesis/totality-themes
@@ -102,6 +102,26 @@ domain sections below establish the pattern; the mechanism section further
 down establishes why the same mind runs two machines — a dominant closure
 function with almost no relational grading function beside it, sitting on
 a corpus-confirmed low-trust default.
+
+> **RE-CHECKED [2026-09-04] — a premise moved and it puts a real question to
+> one row of the table below.** [[wiki/mind/concepts/the-cool-metric]] gained a
+> section showing the sorting metric run on a six-year live-in partner:
+> affection in the public register falls from 12 of 32 mentions in 2010 to 3 of
+> 47 across 2011-2014, the last three namings are jokes at her expense, and she
+> is never publicly named again across the relationship's final twenty-four
+> months and 1,132 posts.
+>
+> **The question that raises, stated rather than answered.** The *Taste and
+> people* row asserts no documented middle value. Six years of retained
+> cohabitation with the warm register at zero could be read as one — kept, not
+> celebrated, not ejected. It could equally be read as the verdict having landed
+> on *performed* years earlier with the tie retained anyway, which is
+> [[wiki/mind/synthesis/dormancy-not-exit]]'s rule and not a middle value at all.
+> **The archive cannot distinguish those two**, and the private record that
+> might does not reach the years in question — neither message export holds a
+> row dated 2012, 2013 or 2014. The row stands as written. It now has a named
+> candidate counterexample against it, which is more than it had, and settling
+> it needs a corpus this repository does not hold.
 
 ## The rule, stated so it can be broken
 

@@ -6,7 +6,7 @@ aliases: ["Ally MBTI", "Ally ENTP", "Ally Lubin personality type", "Alexandra Lu
 status: active
 knowledge: earned
 date_created: 2026-08-22
-date_modified: 2026-08-27
+date_modified: 2026-09-04
 importance: high
 tags: [personality-profile, forensic-analysis, relationships, mental-health]
 date_range_start: 2013-07-05
@@ -65,6 +65,17 @@ connections:
 ---
 
 # Ally Lubin — Cognitive Profile
+
+> **RE-CHECKED [2026-09-04] — the premise moved, and the two additions bracket
+> each other.** [[wiki/mind/concepts/the-cool-metric]] gained a section showing
+> the metric run on a six-year live-in partner, with the warm public register
+> collapsing to zero. That page already carries this profile's own contribution
+> at the other end: the Skins exchange of 2026-08-18 is its one documented case
+> of somebody *outscoring* the person holding the yardstick. **Nothing on this
+> page changes** — the ceiling case is untouched, and the new material is about
+> the metric pointed downward at somebody already admitted rather than upward at
+> somebody who beats it. Recorded because the two together now bound the
+> instrument's range in both directions, which neither did alone.
 
 > **RE-CHECKED [2026-08-23]:** flagged stale against
 > [[wiki/mind/concepts/the-cool-metric]] (2026-08-23), which gained a re-check

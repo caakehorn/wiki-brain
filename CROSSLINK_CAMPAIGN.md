@@ -205,6 +205,50 @@ pages against all three corpora is **3.2s**.
    second. The index always knew there were two owners; the renderer did not
    say. Candidates are now marked `contested` with the competing name.
 
+## Phase 3, first page — `wiki/people/alexis-armel` — **DONE 2026-09-04**
+
+The instrument is not the deliverable. One page, worked fully, the way INGEST
+works.
+
+**What the pass found, and why the page could not have found it alone.** The
+page cites `FULL TWITTER ANALYSIS.txt`, an AI reading of the corpus, and had
+never had the primary archive in `sources:`. The archive holds 85 rows naming
+her. The derived file was not wrong about any of them — it had never been asked
+the question that needs a denominator. Her share of his @-tweets: **37.6% in
+2010, 24.2% in 2013, 3.1% in 2014, 0% in 2015.** The public record of the
+six-year relationship ends **twenty-four months before the relationship does**,
+and four confounds die on the archive's own numbers, the sharpest being that
+2014's **57 distinct @-handles is an all-time high**.
+
+**This is what a self-limit claim is worth.** The page's Gaps section said the
+occupancy-without-activation claim "rests more on absence than on a positive
+measurement," and named coverage as the alternative it could not rule out. The
+measurement it wanted is a denominator, and a broadcast archive is the one
+corpus that has one. `--queue`'s ranking put this page where it was for exactly
+that reason.
+
+**Written back:** `wiki/self/twitter/2014` (a correction — *"Alexis is still
+here"* was two tweets read without their denominator),
+`wiki/mind/concepts/the-cool-metric` (a new section: "splitting via irony" run
+on somebody already inside the filter), `wiki/mind/synthesis/the-unbroken-bond`
+(its first contemporaneous non-testimonial evidence), plus the `plain/` twin and
+ten stale-premise re-checks. Reciprocal debt on the tree touched: **0**.
+
+### The cost nobody had measured: a re-check is as expensive downstream as a claim
+
+Editing two hub pages made ten dependents stale. Working all ten honestly bumped
+nine `date_modified`s, which made nine of *their* dependents stale. Gate run
+against `main`, stashed and unstashed: **44 stale pages before, 44 after.** Nine
+cleared, nine created, **net zero** — the front moved one layer out.
+
+That is the mechanism behind 104 stale premises surviving three handoffs
+untouched, and it changes how the campaign should be sequenced: **a
+crosslink pass that touches a hub page owes its whole first layer**, and the
+standing queue is drainable only breadth-first, in a pass that writes no new
+content. Filed to `skills/INBOX.md` with the measurement that would size the
+bigger prize — how much of that queue is the gate reporting its own bookkeeping
+— and with the reason it could not be run here (a shallow clone).
+
 ## Phase 0.5 — populate `aliases:` — **the first content task**
 
 389 pages, none of which the index can find under any name but their exact

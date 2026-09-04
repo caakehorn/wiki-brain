@@ -6,7 +6,7 @@ aliases: ["anti-normie", "the normie check", "taste as sorting function"]
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-26
+date_modified: 2026-09-04
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -20,6 +20,9 @@ synthesizes:
   - wiki/interests/music/overview
 tags: [personality-profile, forensic-analysis, digital-footprint]
 connections:
+  - page: wiki/people/alexis-armel
+    type: instance-of
+    claim: "The first instance of 'splitting via irony' documented against somebody already inside the filter rather than a stranger or the audience: affection in the public register falls from 12 of 32 mentions in 2010 to 3 of 47 across 2011-2014, the last three namings are an OkCupid solicitation, a Hitler/Eva Braun joke and 'catch a slug to the fvcε', and the register never returns across the relationship's last twenty-four months."
   - page: wiki/mind/synthesis/the-deferred-audit
     type: component-of
     claim: "Received-versus-sought is one face of a single provenance sort, and this page holds its decisive inward case: the only part of his own output he fully trusts is the sub-bass band, trusted precisely because it was identified post-hoc and never chosen — his own deliberate choices fail the same test he applies to strangers."
@@ -256,6 +259,41 @@ worth.
 > claim this page should make is therefore "one axis for everything it is allowed
 > to touch," and the interesting question it raises is what else is protected in
 > the same way. Nobody has looked.
+
+## Pointed inward: irony on a six-year partner
+
+*Splitting via irony* — "a confrontational, high-intensity, anti-normie persona
+filtered through deep irony to preserve personal boundaries and weed out
+disingenuous participants" — is documented on this page against strangers and
+against the audience. The twitter archive shows it running on the person he
+lived with, and shows it displacing something else.
+
+Mentions of `@alexisarmel` that carry an affectionate token — *love you*,
+*miss u*, `<3`, *bbz*, *sweetest* — run **12 of 32 in 2010** and then **3 of 47
+across 2011–2014 combined**. The 2010 register is *"i love youuu (from 2 feet
+away on the couch)"*. The 2013 register, in the six-year relationship's last
+autumn on the public record, is *"add me on OkCupid. We can grab lunch
+sometime!"* and a Hitler/Eva Braun joke on the same night (22 November), then
+*"lets scale back the 'making fun of boyfriends who say plurnt' vibe that
+you've so generously cultivated"* and *"keep it up, catch a slug to the fvcε"*
+nineteen minutes apart on 29 November. She is never publicly named again in the
+relationship's remaining twenty-four months, across 1,132 further posts
+([[wiki/people/alexis-armel]], "The public register, and where it stops").
+
+**What this adds to the page is the direction, not the mode.** The sorting
+function is described here as something he runs on people to decide who is
+admitted. Run on someone already admitted — six years in, cohabiting — it is
+not sorting anything, and the boundary it preserves is a boundary against the
+person on the inside. Whether the irony caused the withdrawal or recorded it,
+the archive cannot say; it can say the two moved together and that the earnest
+register did not come back.
+
+The mechanism sits one layer down and is measured:
+[[wiki/mind/profile/intp]] scores **Ti-dominant at 96% latent against
+Fe-inferior at 10% valuing**, and Fe is the function that would produce
+sustained public relational warmth. A stack that does not have it will spend
+the budget in bursts and default to the mode this page describes. That predicts the 2010 spike and the flat four years after it, which
+is what the archive holds.
 
 ## The one documented upper bound
 
