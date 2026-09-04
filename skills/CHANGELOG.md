@@ -1,5 +1,23 @@
 # Skill Changelog
 
+## 2026-09-04 — promoted `repo/silent-permission.md` (active)
+
+**Why now:** the promotion test in `PROTOCOL.md` §3 is "explained the same class
+of failure more than once", and it has, in two different tools, on the same
+standing directive. `bin/wiki-plain`'s guard shipped with a word-boundary hole
+that let `annie_metadata_24h.csv` through; `bin/wiki-crosslink`'s read
+`scalar(fm, "title")` when **288 of 497 pages carry no `title:` field**, leaving
+nine pages about her invisible to it — `annie-record`, `ellen-ulmer`,
+`shelbie-annie-threesome-april-2019` among them. Neither was found by reading the
+code. Both looked correct.
+
+**Validated by** `tests/test_wiki_crosslink.py::MoratoriumNameResolution` (five
+cases, one of them a regression naming all nine real pages) and the existing
+`tests/test_wiki_plain.py`. Also carries the second-direction rule: a test that
+only asserts the refusal is satisfied by a guard that refuses everything, and
+this repository has a measured reason (197 of 497 pages) for one guard being
+deliberately narrower than the other.
+
 Append-only. Every promotion, revision, deprecation and retirement, with its date
 and its reason. `PROTOCOL.md` §6 forbids silently changing what a skill means, so
 a skill that is not named here has entered the corpus with no account of why it

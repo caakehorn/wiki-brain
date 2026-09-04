@@ -9,7 +9,7 @@ Read this before non-trivial repository work. Load skills by trigger, not by
 curiosity — `bin/wiki-lessons route "<what you are about to do>"` does the
 matching for you.
 
-## Routed (11)
+## Routed (12)
 
 | Skill | Trigger | Status | Validated |
 |---|---|---|---|
@@ -23,6 +23,7 @@ matching for you.
 | `repo/pr-completion.md` | asked to commit repository work; asked to open or update a pull request; completing a multi-file repository change; a task touches generated or derived surfaces | active | 2026-09-02 |
 | `repo/publication-surface.md` | adding data files to the repository; changing .gitignore; deciding whether something is private; writing to the repository from a browser or the contents API | active | 2026-08-30 |
 | `repo/session-loop.md` | any multi-step code or repository task | active | 2026-08-30 |
+| `repo/silent-permission.md` | writing or changing a guard that refuses, blocks, redacts or withholds; a safety check that reads a frontmatter field to decide whether a rule applies; reviewing an enforcement point for the standing directive in CLAUDE.md; a check whose failure mode is allowing rather than blocking | active | 2026-09-04 |
 | `repo/stale-premise.md` | a staleness warning; source_modified or synthesizes: is out of date; bin/wiki-climb check reports a stale premise; bin/wiki-plain check reports a stale twin | active | 2026-08-30 |
 
 ## History (0)
