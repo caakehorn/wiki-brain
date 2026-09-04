@@ -529,3 +529,28 @@ to absent, not take the snapshot down with it.
 
 **Cannot be fixed from wiki-brain.** The bug and the fix are both in
 `caakehorn/home`. This session has read-only access to that repository.
+
+
+## The twitter tree dates by UTC, and a quarter of it is a day early
+
+**Measured 2026-09-04.** `created_at` in `raw/self/twitter/archive.jsonl` is
+UTC. **687 of its 2,741 posts — 25.1% — were posted between 00:00 and 04:59
+UTC**, which is the *previous* evening in New York. All nineteen
+`wiki/self/twitter/` year pages, and every page quoting a tweet date from them,
+use the raw field. So roughly one date in four across that tree is one day
+later than the day the tweet was actually written, and it is the evening
+tweets — disproportionately the personal ones — that carry the error.
+
+Two dated examples already on pages: the two barbed `@alexisarmel` tweets filed
+as `2013-11-30` were posted at 22:12 and 22:31 EST on **29 November**; the
+Hitler/Eva Braun joke `wiki/self/twitter/2013` dates to 22 November was posted
+at 21:12 EST on **21 November**.
+
+**Not a defect in the archive and not urgent.** The convention is at least
+consistent, which is why nothing has ever gone wrong because of it. It matters
+where a date is load-bearing — a same-day join against another corpus, an
+event's date, an ordering claim inside 24 hours. The fix is a decision before
+it is an edit: either convert at read time and re-date the tree, or keep UTC and
+say so on `wiki/self/twitter`. Whoever takes it should note that a re-dating
+cascades into every page that cites a tweet date, and that `bin/mine-tweets`
+and `bin/wiki-crosslink` both surface the raw field.

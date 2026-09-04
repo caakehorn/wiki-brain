@@ -7,7 +7,7 @@ status: closed
 knowledge: mixed
 importance: high
 date_created: 2026-06-23
-date_modified: 2026-09-03
+date_modified: 2026-09-04
 date_range_start: 2009-10-01
 date_range_end: 2025-02-19
 sources:
@@ -18,6 +18,7 @@ sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-scan/FULL TWITTER ANALYSIS.txt
+  - raw/self/twitter/archive.jsonl
   - raw/self/dox-md/LIFE_EVENTS_CALENDAR.md
   - raw/self/dox-scan/dan tom 2010 2022.txt
   - raw/self/dox-scan/Gemini-_58.txt
@@ -46,7 +47,7 @@ connections:
     claim: "Six years ending inside a single day is what makes the November 2015 switch a switch rather than a transition, and the fact that the deep attachment system never fully engaged for her is what makes her the control the Annie activation is measured against."
   - page: wiki/mind/synthesis/the-unbroken-bond
     type: evidences
-    claim: "Six continuous years prove the attachment slot was occupied without being live, which is what establishes occupancy and activation as two separate variables rather than one."
+    claim: "Six continuous years prove the attachment slot was occupied without being live, which is what establishes occupancy and activation as two separate variables rather than one — and the twitter archive supplies that claim's first contemporaneous, non-testimonial evidence: the public register on her stops 29 November 2013 and stays at zero for the last twenty-four months of the relationship, across 1,132 further posts, in the years his distinct-handle count was peaking."
   - page: wiki/mind/synthesis/dormancy-not-exit
     type: instantiates
     claim: "A former primary partner paid into the operations of the bond that replaced her and then carried as warm correspondence for another seven years is the corpus's proof that retention is a policy Dan runs, not inertia that happens to him."
@@ -122,6 +123,12 @@ connections:
   - page: wiki/self/twitter/2013
     type: evidenced-by
     claim: "The public record closes the only documented interval in six years when this relationship is off: 'Alexis Armel and a doppelgangar mosquito' (8 September 2013) is the first naming after eleven days of @katie_efff in late August, which bounds the break to roughly six to eight weeks with another person documented inside it."
+  - page: wiki/self/twitter/2014
+    type: evidenced-by
+    claim: "The public record of the relationship ends two years before the relationship does, and 2014 is where the arithmetic proves it: 2 mentions against 23 the year before, 3.1% of his @-tweets against 24.2%, in the year his distinct-handle count hit an all-time high of 57. The two survivors — 'Keep filming me in my sleep' (28 April) and 'so deep bro' (17 June) — are also the only contemporaneous dated evidence in any readable corpus that she was in the room at all that year, because neither message export holds a single row dated 2014."
+  - page: wiki/mind/concepts/the-cool-metric
+    type: instantiates
+    claim: "'Splitting via irony' had only ever been documented pointed at strangers and at the audience. The public register on a six-year live-in partner runs the same mode: affection at 12 of 32 mentions in 2010 collapses to 3 of 47 across 2011-2014, and the last three tweets naming her are an OkCupid solicitation, a Hitler/Eva Braun joke and 'catch a slug to the fvcε'."
 ---
 
 # Alexis Armel
@@ -151,7 +158,8 @@ and until this pass the largest part of it had never been read.
 |---|---|---|
 | Google Chat archive (`gmail_bodies.txt`) | **495 blocks**, dated samples 2011-08 → 2013-05 | the daily NYC household — the only continuous first-person record of the relationship while it was working |
 | iMessage, two-sided export | 87 messages, 2020-09-14 → 2025-02-19 | the post-breakup friendship end to end |
-| Twitter corpus analysis | @alexisarmel across 2009–2013 | the public-facing register, and the only view of the Full Sail year |
+| Twitter archive, primary (`archive.jsonl`) | **85 rows**, 2009-12-14 → 2014-06-17, inside 2,741 posts | the public-facing register end to end, and the only view of the Full Sail year — read directly for the first time on 2026-09-04, see [The public register, and where it stops](#the-public-register-and-where-it-stops) |
+| Twitter corpus analysis (`FULL TWITTER ANALYSIS.txt`) | an AI reading of the above | how this page reached the archive before 2026-09-04; superseded as a citation wherever the primary says the same thing |
 | Facebook (Lucas Thomas, others) | Feb 2017 | the contemporaneous arrest account |
 | Retellings to Jim Shaffer, Tom, Jamie Mohler | Dec 2017 – Aug 2018 | three independent narrations of the Zac Shumar years |
 
@@ -416,6 +424,152 @@ five days and a person who occupied one for six years were both, in the
 end, held rather than released — which is the observation
 [[wiki/mind/synthesis/dormancy-not-exit]] is built on. It is now Alexis's
 five days, not Franki's, that supplies that page's tenure-floor control.
+
+## The public register, and where it stops
+
+**This section is the first on this page written from the tweet archive
+itself.** Everything above that leans on Twitter came through
+`raw/self/dox-scan/FULL TWITTER ANALYSIS.txt`, an AI reading of the corpus, and
+the source table below still described the twitter evidence as "corpus
+analysis" for that reason. `raw/self/twitter/archive.jsonl` — 2,741 posts,
+2008-09-24 to 2026-09-01 — became machine-readable to
+`bin/wiki-crosslink` on 2026-09-04 and is now cited directly. It contains
+**85 rows naming her**: 84 carrying `@alexisarmel` and one naming her in plain
+text (8 September 2013). The derived file was not wrong about any of them. It
+had never been asked the question this section asks, which is not *what does he
+say about her* but *how often, against what he was posting the rest of the
+time.*
+
+| Year | Tweets | With any @ | Distinct handles | Her mentions | Her rate /1k | Her share of @-tweets |
+|---|---|---|---|---|---|---|
+| 2009 | 283 | 53 | 30 | 5 | 17.7 | 9.4% |
+| 2010 | 342 | 85 | 23 | **32** | **93.6** | **37.6%** |
+| 2011 | 225 | 54 | 24 | 9 | 40.0 | 16.7% |
+| 2012 | 205 | 87 | 41 | 13 | 63.4 | 14.9% |
+| 2013 | 346 | 95 | 53 | 23 | 66.5 | 24.2% |
+| 2014 | 171 | 64 | **57** | **2** | **11.7** | **3.1%** |
+| 2015 | 62 | 23 | 6 | **0** | 0 | 0% |
+
+**The public record of the relationship ends on 29 November 2013, twenty-four
+months before the relationship does.** The last two mentions of that year are
+nineteen minutes apart, both barbed, and they read as one side of an argument:
+
+> *"@alexisarmel lets scale back the 'making fun of boyfriends who say
+> "plurnt"' vibe that you've so generously cultivated"* — 22:12 EST
+>
+> *"@alexisarmel keep it up, catch a slug to the fvcε"* — 22:31 EST
+
+After them the archive is silent on her for **149 days**, the longest gap in
+the relationship's public record by a margin of 57 days over the next longest.
+It breaks twice — *"Keep filming me in my sleep and I'll have to buy this"* (28
+April 2014) and *"so deep bro"* (17 June 2014) — and then never again, across
+**1,132 further posts** and the remaining twelve years of the archive.
+
+### Four things that could explain that away, and do not
+
+- **He stopped posting.** He did not. 2014 is 171 posts, and the year's own
+  @-mention *rate* is the second highest of the era at 374 per thousand.
+- **He stopped @-mentioning people.** The opposite: **57 distinct handles in
+  2014, an all-time high**, against 53 in 2013 and 23 in 2010. He was naming
+  more people than he ever had, and she was 3.1% of it against 24.2% the year
+  before.
+- **The account went quiet around then.** It did not. Across December 2013 the
+  account posts steadily — the SLOPPP 2013 yearmix in two parts, thanks to four
+  named producers, `@JimNorton`, `@alexledonne`, jokes about Bigfoot and Susan
+  Sarandon. The register is intact. She is the thing missing from it.
+- **The move home did it.** [[wiki/self/location-history]] puts him back in
+  Fayette County from mid-August 2013, and if leaving New York had ended the
+  public relationship the mentions would stop there. They **peak** there
+  instead: eighteen of the year's twenty-three fall between 8 September and 30
+  November, the densest run since 2010, immediately after the October
+  reconciliation described above. The relocation precedes the peak, not the
+  silence.
+
+### The register was already changing, and the arithmetic is small but one-sided
+
+Counting mentions that carry an affectionate token — *love you*, *miss u*,
+`<3`, *bbz*, *sweetest*, *lovely*, *stunning*:
+
+| 2010 | 2011 | 2012 | 2013 | 2014 |
+|---|---|---|---|---|
+| 12 of 32 | 1 of 9 | 2 of 13 | 2 of 23 | 0 of 2 |
+
+Twelve of thirty-two in 2010; **three of forty-seven across the four years
+after it.** The 2010 register is *"i love youuu (from 2 feet away on the
+couch)"* and *"can't wait to come home and see YOU. t-minus 3:00"*. The 2013
+register is *"add me on OkCupid. We can grab lunch sometime!"* and a Hitler/Eva
+Braun joke, both on 22 November, a week before the last two.
+
+### What this does not establish, stated because it is the tempting move
+
+It **does not date the eviction and does not adjudicate the two accounts** held
+side by side under [The hidden year (2014)](#the-hidden-year-2014). The silence
+begins on 29 November 2013, roughly three months *before* the March 2014
+eviction of the first account and more than nine before the window of the
+second. A public register that had already stopped cannot be read as a register
+that stopped because she was being concealed, and reading it that way would
+have been the neatest available finding.
+
+It also does not establish that the relationship changed. A broadcast archive
+records what he chose to put in front of an audience, and the corpus is
+explicit that the audience is a sorting instrument in its own right
+([[wiki/mind/concepts/the-cool-metric]]). The private half would settle it and
+**the private half stops first**: the Google Chat archive's dated samples run
+2011-08 to 2013-05, and **neither message export contains a single row dated
+2012, 2013 or 2014**. Every readable corpus in this repository is blind to
+2014. That is what makes the two surviving tweets worth their length here —
+*"Keep filming me in my sleep"* is the only contemporaneous dated evidence the
+corpus holds that she was in the room with him at all that year, and it places
+her there while he was asleep, repeatedly enough to be a habit worth a joke.
+
+### The mechanism, checked against the constitution
+
+- **Cognitive stack** (`wiki/mind/profile/intp`) — **moved it.** Ti-dominant at
+  96% latent against **Fe-inferior at 10% valuing**: the function whose job is
+  the public relational display is the one nearly absent. A sustained
+  affectionate broadcast register is Fe work, and this stack does not have the
+  budget for it. The measured prediction is that such a register is a burst,
+  not a baseline — which is exactly the 2010 shape, twelve of thirty-two in one
+  year and three in the four years after.
+- **Romantic and relational state** (`wiki/mind/synthesis/the-unbroken-bond`,
+  `wiki/mind/concepts/attachment-model`) — **moved it, and this is the load
+  bearer.** That page's central claim about Alexis is *occupancy without
+  activation*: the attachment slot continuously filled 2009–2015 with the deep
+  system never engaging, which is what makes her the control the Annie
+  activation is measured against. Until now that claim rested on retrospective
+  narration and on the speed of the November 2015 switch. **This is its first
+  contemporaneous, dated, non-testimonial evidence** — twenty-four months of
+  continuous cohabitation with a public register at zero, recorded as it
+  happened by a man who was that year naming more people publicly than in any
+  year of his life.
+- **Attitudes and forces** (`wiki/mind/concepts/the-cool-metric`) — **moved
+  it.** That page names *"splitting via irony"* as a standing operating mode: a
+  confrontational, high-intensity, anti-normie persona filtered through deep
+  irony. The 2013 register is that mode pointed at a live-in partner — the
+  OkCupid line, the Eva Braun joke, *"catch a slug to the fvcε"* — and the
+  corpus had only ever documented it aimed at strangers and at the audience.
+- **Health** (`wiki/health/chemical-architecture`) — checked, **cannot
+  answer**. 2014 is inside the blind window above; the ledger has no events and
+  the message corpora have no rows.
+- **Historical precedent** — checked, **left it standing.**
+  [[wiki/mind/synthesis/dormancy-not-exit]] holds that nothing leaves the graph
+  and that ties are suspended rather than deleted. A public register going to
+  zero while the tie continues is a suspension of a *channel*, not of the tie,
+  and it is consistent with that rule rather than a counterexample to it.
+- **Age and upbringing, security and prosperity, cultural markers, ideological
+  programming, axiomatic politics** — checked, none bears on which handle
+  appears in a tweet. The one that looked as though it might, the return to
+  Fayette County, is falsified above by its own dates.
+
+> **A dating convention worth knowing before quoting any date in this
+> section.** `created_at` in the archive is UTC, and **687 of its 2,741 posts —
+> 25.1% — were posted between 00:00 and 04:59 UTC**, which is the *previous*
+> evening in New York. The twitter year pages date by the raw UTC field, so
+> this section keeps that convention for the table and gives EST only where a
+> clock time is quoted. The two 29 November tweets above are `2013-11-30` in
+> the file. This is a systematic one-day skew on roughly a quarter of every
+> date the twitter tree quotes, it is not this page's to fix, and it is
+> recorded in `BACKLOG.md`.
 
 ## The hidden year (2014)
 
@@ -753,6 +907,22 @@ the 2011-08 → 2013-05 sample, and six years with a thin, unevenly dated
 message record is also consistent with under-documentation rather than
 genuine non-activation. This page has not yet supplied the measurement that
 would tell the two apart.
+
+> **GAP NARROWED [2026-09-04] — on one channel, the measurement now exists.**
+> The objection above is that absence in a thin record is not evidence of
+> absence in the world. The twitter archive answers it for the public channel
+> specifically, because it supplies a **denominator**: the last twenty-four
+> months of the relationship contain **zero** mentions of her across **1,132
+> posts**, in years when his distinct-handle count was at its all-time high of
+> 57. That is not a thin record failing to record something; it is a
+> well-populated record of him naming other people. See [The public register,
+> and where it stops](#the-public-register-and-where-it-stops).
+>
+> **It narrows the gap and does not close it.** Attachment behaviour is mostly
+> private, and the private channel is exactly what remains unmeasured: the chat
+> archive's dated samples stop at 2013-05 and neither message export holds a
+> row from 2012, 2013 or 2014. The measurement that would settle it is a dated
+> private corpus covering 2014–2015, and this repository does not have one.
 
 The length of the relationship is quoted three different ways and the corpus
 does not settle it: Gemini's profile says 2010–2015, the bootloader says

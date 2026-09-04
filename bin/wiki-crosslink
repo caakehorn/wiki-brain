@@ -10,10 +10,18 @@ Subcommands:
   coverage [prefix]   Which readable corpora actually name a page, and how
                       often. The triage step — run it before scanning, because
                       most page/corpus pairs are silent and finding that out
-                      costs 1.7s for the whole wiki.
+                      costs ~3s for the whole wiki against all three corpora.
+                      `--silent` inverts it: the pages nothing names, with the
+                      ones that cite a corpus anyway called out.
+  handles [prefix]    Which pages join to a message corpus by counterparty,
+                      and which cannot. The message corpus's own blind spot,
+                      the same shape as `entities --missing`: 30 pages resolve
+                      and reach 41,349 rows; 138 declare no handle at all.
   scan <page>         Unlinked entities in the corpora a page's `sources:` cite.
                       `--against <corpus>` scans a corpus the page does NOT
                       cite, filtered to rows that name the page itself.
+                      `--conversation` scopes by COUNTERPARTY instead, which is
+                      the question a message corpus can answer — see below.
                       `--queue [n] --against <c>` is the campaign queue, pages
                       that state a limit about their own evidence first.
                       `--low` includes single-token name matches (mostly noise).
@@ -60,10 +68,35 @@ read:
     Diplo is not a Diplo relationship; it is a music-consumption datapoint that
     may belong on a different page entirely. The type and the claim come from
     reading, per CONNECTIONS_SPEC.md.
-3.  **Absence here is not absence in the corpus.** The index can only look for
+3.  **The right scope depends on the corpus, and `--against` is wrong for
+    messages.** That mode reads the rows naming a page and asks what else they
+    name. A tweet is a self-contained utterance that often names several
+    handles, so it works. A message averages five to fifteen words and one that
+    names somebody almost never names a second — run over the campaign queue
+    against the 217,573-record dump it returned **0 candidates across 7 pages**,
+    which is a property of the mode, not a finding about the pages. A message
+    corpus knows something no broadcast archive does: **who the counterparty
+    is.** `scan --conversation` scopes by that, joining a page's infobox
+    `handles:` to the corpus's own handle field, and reaches 41,349 rows across
+    30 people pages.
+4.  **Absence here is not absence in the corpus.** The index can only look for
     names somebody already wrote a page for. Entities with no page are exactly
     the ones a scan cannot see, and finding them is a reading job.
-4.  **The index is only as good as `aliases:`, and 395 of 497 pages have none.**
+5.  **A page name that is also ordinary English produces confident garbage,
+    and this is catchable.** Confidence is "more than one token = high", which
+    a two-token name that is a phrase people just say breaks in the worst
+    direction. Measured over the message dump: `say anything` returns **134
+    rows and none is the band**; `the office` returns **77 and none is the
+    show** — every one is a real estate office. `coverage` was presenting the
+    first as the wiki's top music result. Such candidates are now **flagged
+    rather than demoted** (some really are the band), with the count marked as
+    not-evidence. `mark_common_phrases()`.
+6.  **A string two pages both claim is evidence for neither.** `@alexisarmel`
+    is in one person's `aliases:` and in another's infobox `handles:`, so 85
+    rows about the first were offered as 101 mentions of the second. Every such
+    candidate is now marked `contested` with the competing name, because the
+    index knows and the output used to not say.
+7.  **The index is only as good as `aliases:`, and 389 of 497 pages have none.**
     Matching is exact-phrase on a page's title, and a title is almost never how
     a thing is written in a source. `wiki/interests/opie-and-anthony` is the
     worked case: the archive names it 61 times — "o&a" 8, "opie" 25, "cumia"
@@ -89,8 +122,31 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 WIKI = os.path.join(ROOT, "wiki")
 
 # Corpora this tool knows how to read, keyed by the `sources:` path a page cites.
+#
+# `family` exists because the two message exports are NOT two forms of one
+# corpus, which is what CROSSLINK_CAMPAIGN.md assumed before anybody measured
+# it. Overlap on (timestamp, first 120 normalised chars), 2026-09-04:
+#
+#     dox-scan   215,057 unique rows        csv   174,775 unique rows
+#     shared     124,379                    csv-only  50,396   dox-only  90,678
+#
+# So each holds a third of the record the other does not, and reading either
+# alone loses it. They are deduped against each other when both are in play —
+# `family` is what says they may be — and the dedupe is reported rather than
+# silent, because a row count is the first thing a session reads off a scan.
 CORPORA = {
-    "raw/self/twitter/archive.jsonl": ("jsonl", "created_at", "text"),
+    "raw/self/twitter/archive.jsonl": {
+        "kind": "jsonl", "date": "created_at", "text": "text", "family": None,
+        "note": "public broadcast; no counterparty, no inbound",
+    },
+    "raw/self/dox-scan/all_imessages_complete_dump.txt": {
+        "kind": "doxdump", "family": "messages",
+        "note": "direction reliable; 2015-2025 with 2012-2014 and 2022 empty, no 2026",
+    },
+    "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv": {
+        "kind": "msgcsv", "family": "messages",
+        "note": "the only message corpus covering 2026; 79% of Sent rows carry no handle",
+    },
 }
 
 # ---- THE MORATORIUM IS ENFORCED HERE, NOT REMEMBERED -----------------------
@@ -131,6 +187,20 @@ def under_moratorium(txt):
     fm, _ = split_fm(txt)
     head = (scalar(fm, "title") or "") + " " + " ".join(inline_list(fm, "aliases"))
     return bool(MORATORIUM.search(head))
+
+
+# Pages that ARE about her, computed once at startup from the same test that
+# refuses a scan of one. Held as a module global because render_hits needs it
+# per candidate and load_pages() is not free.
+MORATORIUM_TARGETS = set()
+
+
+def note_moratorium_targets(pages):
+    MORATORIUM_TARGETS.clear()
+    for path, txt in pages.items():
+        if under_moratorium(txt):
+            MORATORIUM_TARGETS.add(path[:-3])
+    return MORATORIUM_TARGETS
 
 
 def mentions_moratorium(txt):
@@ -303,11 +373,45 @@ def build_index(pages):
     return idx
 
 
+def _mine_messages():
+    """The message-dump reader, imported rather than rewritten.
+
+    `bin/mine-messages` already carries the three properties that make naive
+    reading of that dump wrong — multi-line records reassembled, curly quotes
+    folded, direction trustworthy only in this file — and every one of them had
+    already produced a false measurement before it was written. A second reader
+    here would inherit none of that and would look identical from outside,
+    which is the failure mode CLAUDE.md's Phase 2 note warns about in advance:
+    "a reader written without them produces confident wrong candidates".
+    """
+    import importlib.machinery, importlib.util
+    p = os.path.join(ROOT, "bin", "mine-messages")
+    loader = importlib.machinery.SourceFileLoader("_mine_messages", p)
+    spec = importlib.util.spec_from_loader("_mine_messages", loader)
+    mod = importlib.util.module_from_spec(spec)
+    loader.exec_module(mod)
+    return mod
+
+
+_CORPUS_CACHE = {}
+
+
 def load_corpus(rel):
-    kind, datekey, textkey = CORPORA[rel]
+    """[(timestamp, text, meta), ...] for one corpus. Memoised.
+
+    Memoised because it stopped being cheap. The twitter archive is 1.3 MB and
+    was re-read per page without anybody noticing; the message dump is 217,573
+    records and re-reading it per page in a `--queue` run would have turned a
+    scan into a coffee break.
+    """
+    if rel in _CORPUS_CACHE:
+        return _CORPUS_CACHE[rel]
+    spec = CORPORA[rel]
+    kind = spec["kind"]
     path = os.path.join(ROOT, rel)
     rows = []
     if kind == "jsonl":
+        datekey, textkey = spec["date"], spec["text"]
         with open(path, encoding="utf-8", errors="replace") as fh:
             for line in fh:
                 line = line.strip()
@@ -317,37 +421,329 @@ def load_corpus(rel):
                     d = json.loads(line)
                 except ValueError:
                     continue
-                rows.append((d.get(datekey, ""), d.get(textkey, "") or "", d.get("url", "")))
+                rows.append((d.get(datekey, ""), d.get(textkey, "") or "",
+                             d.get("url", "")))
+    elif kind == "doxdump":
+        mm = _mine_messages()
+        for r in mm.records(path):
+            rows.append(("%s %s" % (r["date"], r["time"]),
+                         mm.norm(r["text"]),
+                         "%s %s" % (r["dir"], r["handle"] or "-")))
+    elif kind == "msgcsv":
+        # Direction is present and split nearly evenly here (88,988 Sent /
+        # 86,370 Received, 2026-09-04) — but 69,869 of those Sent rows carry no
+        # contact_handle at all, so this corpus can say WHAT Dan wrote and, four
+        # times in five, not to whom. That is the trap to carry: it is sound for
+        # a corpus-wide claim and unsound for a per-relationship one.
+        mm = _mine_messages()
+        import csv as _csv
+        _csv.field_size_limit(10 ** 9)
+        with open(path, encoding="utf-8", errors="replace", newline="") as fh:
+            for r in _csv.DictReader(fh):
+                txt = r.get("text") or ""
+                if not txt.strip():
+                    continue
+                rows.append(((r.get("timestamp") or "").strip(),
+                             mm.norm(txt),
+                             "%s %s" % (r.get("direction") or "?",
+                                        (r.get("contact_handle") or "-").strip() or "-")))
+    _CORPUS_CACHE[rel] = rows
     return rows
 
 
-def compile_matcher(idx):
-    """One regex per confidence band, alternation ordered longest-first."""
-    bands = {"high": [], "low": []}
-    owner = {}
-    for slug, meta in idx.items():
-        for name, conf in meta["names"]:
-            key = name.lower()
-            owner.setdefault(key, set()).add(slug)
-            bands[conf].append(name)
-    compiled = {}
-    for conf, names in bands.items():
-        uniq = sorted(set(n.lower() for n in names), key=len, reverse=True)
-        if not uniq:
+def dedupe_key(ts, text):
+    """Two exports of the same message must count once. See CORPORA above."""
+    return (ts.strip(), re.sub(r"\s+", " ", text).strip().lower()[:120])
+
+
+TOKEN_RE = re.compile(r"[a-z0-9@']+")
+
+# Words too common to serve as the trigger token for a name. Only used to pick
+# WHICH token of a multi-word name gets indexed — never to reject a match.
+TRIGGER_STOP = set(
+    "the a an and or of in on at to for is it my me you i we he she they them "
+    "that this with his her from as by be was were are am not no yes do did"
+    .split())
+
+
+class Matcher:
+    """Name lookup by inverted token index rather than one giant alternation.
+
+    The alternation worked at 1.3 MB and did not survive the message corpus.
+    Measured 2026-09-04 over the 217,573-record dump: a single `re.search` per
+    row against the high band (a 19,418-character alternation) took **50.1s**.
+    The same pass through a token index takes **0.6s** for the same 862 rows —
+    80x, and the difference between a tool a session runs and one it works
+    around.
+
+    The index maps one trigger token per name to the names carrying it, so a
+    row is only tested against names sharing a word with it. The trigger is the
+    longest non-stopword token, as a cheap stand-in for the rarest. Every
+    surviving candidate is then confirmed with a real word-boundary regex, so
+    the index only decides what to *test* and never what matches.
+    """
+
+    def __init__(self, idx):
+        self.owner = {}
+        self.conf = {}
+        self.trigger = collections.defaultdict(list)
+        self._rx = {}
+        for slug, meta in idx.items():
+            for name, conf in meta["names"]:
+                key = name.lower()
+                self.owner.setdefault(key, set()).add(slug)
+                if conf == "high" or key not in self.conf:
+                    self.conf[key] = conf
+        for key in self.conf:
+            toks = [t for t in TOKEN_RE.findall(key) if t not in TRIGGER_STOP]
+            if not toks:
+                toks = TOKEN_RE.findall(key)
+            if not toks:
+                continue
+            self.trigger[max(toks, key=len)].append(key)
+
+    def _boundary(self, key):
+        rx = self._rx.get(key)
+        if rx is None:
+            esc = re.escape(key)
+            pat = (esc + r"\b") if key.startswith("@") else (r"\b" + esc + r"\b")
+            rx = self._rx[key] = re.compile(pat)
+        return rx
+
+    def find(self, text):
+        """[(name, conf), ...] — every indexed name this text contains."""
+        low = text.lower()
+        toks = set(TOKEN_RE.findall(low))
+        out = []
+        for t in toks & self.trigger.keys():
+            for key in self.trigger[t]:
+                if key in low and self._boundary(key).search(low):
+                    out.append((key, self.conf[key]))
+        return out
+
+    def names_rx(self, names):
+        """A boundary regex over an explicit name list — the own-name filter."""
+        if not names:
+            return None
+        return re.compile("|".join(
+            (re.escape(n.lower()) + r"\b") if n.startswith("@")
+            else (r"\b" + re.escape(n.lower()) + r"\b") for n in names), re.I)
+
+
+_INDEX_CACHE = {}
+
+
+def corpus_index(rels, matcher):
+    """One pass over the union of `rels`. Memoised per corpus set.
+
+    Returns (rows, hits, slug_rows):
+      rows      [(timestamp, text, meta, corpus_basename), ...] deduped
+      hits      {row_index: [(name, conf, slug), ...]}
+      slug_rows {slug: [row_index, ...]}
+
+    Built as an index rather than re-scanned per page because both questions
+    the campaign asks — "which corpora name this page" (coverage) and "inside
+    the rows that name it, what else is named" (scan --against) — are lookups
+    against the same pass. Before this, `coverage` over 497 pages ran the whole
+    corpus once per page.
+    """
+    key = tuple(sorted(rels))
+    if key in _INDEX_CACHE:
+        return _INDEX_CACHE[key]
+    families = {}
+    for rel in key:
+        families.setdefault(CORPORA[rel].get("family"), []).append(rel)
+    rows, dropped = [], 0
+    for fam, rels_in in sorted(families.items(), key=lambda kv: (kv[0] or "")):
+        seen = set() if (fam and len(rels_in) > 1) else None
+        for rel in rels_in:
+            base = os.path.basename(rel)
+            for ts, text, meta in load_corpus(rel):
+                if seen is not None:
+                    k = dedupe_key(ts, text)
+                    if k in seen:
+                        dropped += 1
+                        continue
+                    seen.add(k)
+                rows.append((ts, text, meta, base))
+    hits, slug_rows = {}, collections.defaultdict(list)
+    for i, (_ts, text, _m, _b) in enumerate(rows):
+        found = matcher.find(text)
+        if not found:
             continue
-        parts = []
-        for n in uniq:
-            esc = re.escape(n)
-            if n.startswith("@"):
-                parts.append(esc + r'\b')
-            else:
-                parts.append(r'\b' + esc + r'\b')
-        compiled[conf] = re.compile("|".join(parts), re.I)
-    return compiled, owner
+        per = []
+        for name, conf in found:
+            for slug in matcher.owner.get(name, ()):
+                per.append((name, conf, slug))
+                slug_rows[slug].append(i)
+        hits[i] = per
+    out = (rows, hits, dict(slug_rows), dropped)
+    _INDEX_CACHE[key] = out
+    return out
 
 
 def page_range(fm):
     return scalar(fm, "date_range_start"), scalar(fm, "date_range_end")
+
+
+# Names that are also ordinary English. Populated by mark_common_phrases().
+COMMON_PHRASE = set()
+WORD_RE = re.compile(r"[a-z']+")
+COMMON_TOP_N = 1000
+
+
+def mark_common_phrases(idx, rels):
+    """Flag every page name that is also a phrase people just say.
+
+    **This is the one class of the campaign's "uncatchable" failure that is
+    catchable, and it was producing confident garbage at HIGH confidence.**
+    The confidence rule is `more than one token = high`, on the reasoning that a
+    bare first name matches anybody and a full name does not. A two-token name
+    that is also ordinary English breaks it, and breaks it in the worst
+    direction — the tool tells you to trust the match.
+
+    Measured 2026-09-04 over the 217,573-record dump:
+
+      "say anything" (a band with a page)   134 rows, **0 of them the band**
+      "the office"   (a show with a page)    77 rows, **0 of them the show** —
+                                             every one is Suz's real-estate office
+
+    `coverage` was presenting the first of those as the wiki's top music result.
+    An edge written from it would have been correctly cited, plausibly worded
+    and entirely false.
+
+    **Flagged, not demoted, and the difference is deliberate.** Demoting hides
+    the candidate behind `--low`, and some of these names really are the band:
+    Fall Out Boy is discussed by name in the Ally conversation. Flagging leaves
+    the candidate in front of the reader and removes the only dangerous thing
+    about it, which is the count being quoted as evidence. A false flag costs a
+    session one glance; a missing flag cost 134 phantom mentions.
+
+    Discovery is self-calibrating rather than a hand-kept list: the ordinary
+    words are the corpus's own top-N tokens, so the test tracks how the record
+    is actually written. It over-flags, on purpose — "annie ulmer" trips it,
+    because a surname belonging to the most-messaged person in the corpus is
+    genuinely frequent in it. Dispersion was tried as a fix (how many separate
+    conversations a token reaches) and abandoned: 504 handles, most of them a
+    handful of messages, so even "say" reaches only 14.7% of them and nothing
+    separates.
+    """
+    COMMON_PHRASE.clear()
+    freq = collections.Counter()
+    for rel in rels:
+        for _ts, text, _m in load_corpus(rel):
+            freq.update(WORD_RE.findall(text.lower()))
+    if not freq:
+        return COMMON_PHRASE
+    common = {w for w, _n in freq.most_common(COMMON_TOP_N)}
+    for _slug, meta in idx.items():
+        for name, conf in meta["names"]:
+            if conf != "high" or name.startswith("@"):
+                continue
+            toks = WORD_RE.findall(name.lower())
+            if len(toks) > 1 and all(t in common for t in toks):
+                COMMON_PHRASE.add(name.lower())
+    return COMMON_PHRASE
+
+
+def corpus_handles(rels):
+    """{handle: row-count} over the named corpora. Memoised via load_corpus."""
+    out = collections.Counter()
+    for rel in rels:
+        for _ts, _t, meta in load_corpus(rel):
+            h = (meta or "").split(" ", 1)
+            if len(h) == 2 and h[1] and h[1] != "-":
+                out[h[1]] += 1
+    return out
+
+
+def resolve_handles(fm, known):
+    """A page's declared handles, resolved against the ones a corpus actually has.
+
+    The join a message corpus makes possible and a broadcast archive cannot: a
+    page names a phone number or an address in its infobox, and the corpus knows
+    which rows are the conversation with that counterparty. That is a far
+    stronger scope than "rows that happen to name the page", which on a corpus
+    of five-to-fifteen-word messages is nearly always empty — a message
+    mentioning somebody rarely mentions a second person in the same breath.
+
+    Handles on people pages are written four ways and all four are handled:
+    full E.164, a bare ten digits, an email, and **partially masked**
+    (`+1724***7658`), which is how this repository redacts a live number in a
+    public file. A masked number is matched by pattern against the corpus's own
+    handle list; measured 2026-09-04, every one of them resolved to exactly one
+    handle, because a ten-digit space with three unknowns and a known area code
+    is not ambiguous inside 504 contacts. A mask that matches two is reported
+    as unresolved rather than guessed at.
+    """
+    bylast = {}
+    for h in known:
+        d = re.sub(r"\D", "", h)
+        if len(d) >= 10:
+            bylast.setdefault(d[-10:], []).append(h)
+    emails = {h.lower(): h for h in known if "@" in h}
+    hits, ambiguous = [], []
+    for raw in inline_list(fm, "handles"):
+        h = raw.split(" (")[0].strip()
+        if not h or h.startswith("@"):
+            continue                      # a social handle is not a counterparty
+        if "@" in h:
+            got = emails.get(h.lower())
+            if got:
+                hits.append(got)
+            continue
+        digits = re.sub(r"[^\d*]", "", h)
+        tail = digits[-10:] if len(digits) >= 10 else digits
+        if not tail:
+            continue
+        if "*" in tail:
+            rx = re.compile("^" + tail.replace("*", r"\d") + "$")
+            cand = [k for k in bylast if rx.match(k)]
+            if len(cand) == 1:
+                hits.append(bylast[cand[0]][0])
+            elif len(cand) > 1:
+                ambiguous.append((raw, len(cand)))
+            continue
+        if tail in bylast:
+            hits.append(bylast[tail][0])
+    return sorted(set(hits)), ambiguous
+
+
+def scan_conversation(slug, pages, idx, matcher, corpora, limit=3):
+    """Everything named inside the conversation with this page's counterparty.
+
+    The source-mention obligation asked of a message corpus. Returns the same
+    shape as scan_page so render_hits is unchanged.
+    """
+    txt = pages[slug + ".md"]
+    fm, _ = split_fm(txt)
+    known = corpus_handles(corpora)
+    resolved, ambiguous = resolve_handles(fm, known)
+    if not resolved:
+        return ("NOHANDLE", ambiguous)
+    linked = {p for p, _ in edges(fm)}
+    linked.add(slug)
+    for m in re.finditer(r'(wiki/[a-z0-9\-/]+)', txt):
+        linked.add(m.group(1))
+    rows, allhits, _slug_rows, _d = corpus_index(corpora, matcher)
+    want = set(resolved)
+    hits = collections.defaultdict(list)
+    n_rows = 0
+    for i, (ts, text, meta, base) in enumerate(rows):
+        parts = (meta or "").split(" ", 1)
+        if len(parts) != 2 or parts[1] not in want:
+            continue
+        n_rows += 1
+        seen = set()
+        for name, conf, tgt in allhits.get(i, ()):
+            if tgt in linked or (name, tgt) in seen:
+                continue
+            seen.add((name, tgt))
+            hits[tgt].append((ts[:10], name, conf, text, meta, base,
+                              len(matcher.owner.get(name, ()))))
+    hits["__rows__"] = n_rows
+    hits["__handles__"] = resolved
+    return hits
 
 
 def cmd_entities(argv):
@@ -387,7 +783,7 @@ def self_limit_score(txt):
     return len(SELF_LIMIT.findall(txt))
 
 
-def scan_page(slug, pages, idx, compiled, owner, limit=3, against=None):
+def scan_page(slug, pages, idx, matcher, limit=3, against=None):
     """Candidates for one page. Two modes, and they ask different questions.
 
     **Cited mode** (no `against`) reads the corpora the page's own `sources:`
@@ -430,36 +826,35 @@ def scan_page(slug, pages, idx, compiled, owner, limit=3, against=None):
     for m in re.finditer(r'(wiki/[a-z0-9\-/]+)', txt):
         linked.add(m.group(1))
 
-    # In against mode, the page's own high-confidence names are the filter.
-    own = None
+    rows, allhits, slug_rows, _dropped = corpus_index(corpora, matcher)
+
     if against:
-        pats = [n for n, c in idx[slug]["names"] if c == "high"]
-        if not pats:
+        if not [n for n, c in idx[slug]["names"] if c == "high"]:
             return "NONAMES"
-        own = re.compile("|".join(
-            (re.escape(n.lower()) + r"\b") if n.startswith("@")
-            else (r"\b" + re.escape(n.lower()) + r"\b") for n in pats), re.I)
+        # Only rows that name THIS page, and only on a high-confidence name of
+        # it — a bare first name would drag in every row about anybody.
+        candidate_rows = [i for i in slug_rows.get(slug, ())
+                          if any(s == slug and c == "high"
+                                 for _n, c, s in allhits.get(i, ()))]
+    else:
+        candidate_rows = sorted(allhits)
 
     hits = collections.defaultdict(list)
     matched_rows = 0
-    for rel in corpora:
-        for date, text, url in load_corpus(rel):
-            if start and date[:10] < start:
+    for i in candidate_rows:
+        ts, text, meta, base = rows[i]
+        if start and ts[:10] < start:
+            continue
+        if end and ts[:10] > end:
+            continue
+        matched_rows += 1
+        seen = set()
+        for name, conf, tgt in allhits.get(i, ()):
+            if tgt in linked or (name, tgt) in seen:
                 continue
-            if end and date[:10] > end:
-                continue
-            if own is not None and not own.search(text):
-                continue
-            matched_rows += 1
-            seen = set()
-            for conf, rx in compiled.items():
-                for m in rx.finditer(text):
-                    key = m.group(0).lower()
-                    for tgt in owner.get(key, ()):
-                        if tgt in linked or (key, tgt) in seen:
-                            continue
-                        seen.add((key, tgt))
-                        hits[tgt].append((date[:10], m.group(0), conf, text))
+            seen.add((name, tgt))
+            hits[tgt].append((ts[:10], name, conf, text, meta, base,
+                              len(matcher.owner.get(name, ()))))
     if against:
         hits["__rows__"] = matched_rows
     return hits
@@ -485,7 +880,17 @@ def render_hits(slug, hits, idx, limit=3, show_low=False):
             return 0
     shown = {}
     suppressed = 0
+    refused = 0
     for tgt, rows in hits.items():
+        # THE MORATORIUM APPLIES TO A CANDIDATE TARGET, NOT ONLY TO THE PAGE
+        # BEING SCANNED. It was enforced in two places — scanning her page, and
+        # the --queue — and in neither of the two places where her page comes
+        # back as somewhere to WRITE. A candidate list is a worklist whichever
+        # column her name lands in. Found 2026-09-04 scanning the concert
+        # record, which offered her page with 101 mentions.
+        if MORATORIUM_TARGETS and tgt in MORATORIUM_TARGETS:
+            refused += 1
+            continue
         keep = rows if show_low else [r for r in rows if r[2] == "high"]
         if keep:
             shown[tgt] = keep
@@ -504,17 +909,37 @@ def render_hits(slug, hits, idx, limit=3, show_low=False):
         conf = "high" if any(r[2] == "high" for r in rows) else "low"
         lim = idx[tgt].get("limit", 0)
         flag = ("  ** states %d limit(s) about its own evidence **" % lim) if lim else ""
+        # A string two pages both claim is not evidence for either of them. The
+        # index knows this and used to say nothing: @alexisarmel is in
+        # alexis-armel's aliases AND in annie-ulmer's infobox handles, so 85
+        # rows about one person were offered as 101 mentions of the other, with
+        # no mark on the output to read them by.
+        contested = sorted({r[1] for r in rows if r[6] > 1})
+        if contested:
+            flag += ("  !! %d name(s) contested by another page: %s"
+                     % (len(contested), ", ".join(contested[:3])))
+        phrases = sorted({r[1] for r in rows if r[1] in COMMON_PHRASE})
+        if phrases:
+            flag += ("  !! matched on ordinary English (%s) — THE COUNT IS NOT "
+                     "EVIDENCE, read the rows" % ", ".join(phrases[:3]))
         print("  [%s] %-46s %d mention(s)  <%s>%s"
               % (conf, tgt, len(rows), idx[tgt]["domain"], flag))
-        for date, tok, _c, text in rows[:limit]:
+        for date, tok, _c, text, meta, base, nown in rows[:limit]:
             snip = re.sub(r'\s+', ' ', text).strip()
-            if len(snip) > 150:
-                snip = snip[:147] + "..."
-            print("        %s  %-18s %s" % (date, tok, snip))
+            if len(snip) > 132:
+                snip = snip[:129] + "..."
+            # A truncated tweet permalink is 22 characters of "https://x.com/dan"
+            # and tells a reader nothing; a message's direction and handle is
+            # the whole point of reading it.
+            m = "" if (meta or "").startswith("http") else (meta or "")[:22]
+            print("        %s  %-16s %-22s %s" % (date, tok[:16], m, snip))
         if len(rows) > limit:
             print("        ... %d more" % (len(rows) - limit))
     if suppressed:
         print("  (%d low-confidence target(s) suppressed — --low to see them)" % suppressed)
+    if refused:
+        print("  (%d target(s) withheld under the standing directive in CLAUDE.md)"
+              % refused)
     return len(ranked)
 
 
@@ -550,11 +975,16 @@ def cmd_entities_missing(idx, pages):
 
 def cmd_scan(argv):
     pages = load_pages()
+    note_moratorium_targets(pages)
     idx = build_index(pages)
-    compiled, owner = compile_matcher(idx)
+    matcher = Matcher(idx)
+    mark_common_phrases(idx, [r for r in sorted(CORPORA)
+                              if CORPORA[r].get("family") == "messages"])
 
     show_low = "--low" in argv
     argv = [a for a in argv if a != "--low"]
+    conversation = "--conversation" in argv
+    argv = [a for a in argv if a != "--conversation"]
     against = None
     if "--against" in argv:
         i = argv.index("--against")
@@ -620,7 +1050,30 @@ def cmd_scan(argv):
             print("   ! this page names her %d time(s). Scanning it is fine; the "
                   "directive governs what you WRITE — no new claim about her, "
                   "on this page or any other." % _m)
-        hits = scan_page(slug, pages, idx, compiled, owner, against=against)
+        if conversation:
+            corpora = against or [r for r in sorted(CORPORA)
+                                  if CORPORA[r].get("family") == "messages"]
+            hits = scan_conversation(slug, pages, idx, matcher, corpora)
+            if isinstance(hits, tuple) and hits[0] == "NOHANDLE":
+                amb = hits[1]
+                print("== %s — no counterparty handle resolves into %s"
+                      % (slug, ", ".join(os.path.basename(c) for c in corpora)))
+                for raw, n in amb:
+                    print("   ! masked handle %s matches %d corpus handles — "
+                          "not guessed at" % (raw, n))
+                skipped += 1
+                continue
+            hs = hits.pop("__handles__", [])
+            nrows = hits.pop("__rows__", 0)
+            print("== %s  [conversation with %s]" % (slug, ", ".join(hs)))
+            print("  %d row(s) in the conversation" % nrows)
+            if not nrows:
+                print("  (the corpus holds no messages with this counterparty "
+                      "— a real negative, worth recording)")
+                continue
+            total += render_hits(slug, hits, idx, show_low=show_low)
+            continue
+        hits = scan_page(slug, pages, idx, matcher, against=against)
         if hits is None:
             print("== %s — cites no corpus this tool can read" % slug)
             continue
@@ -656,14 +1109,31 @@ def cmd_coverage(argv):
     the corpus silent on them. That is a correct and cheap answer, but paying
     a full scan to get it is the wrong order of operations: matching a page to
     the corpus that has something to say about it is the triage step, and this
-    is it. Rows, not candidates — cheap enough to run over the whole wiki.
+    is it. Rows, not candidates.
+
+    Each corpus is indexed once and every page reads its own rows out of that
+    index. The first version ran the whole corpus once per page, which was
+    invisible at 1.3 MB and would have been 497 passes over 217,573 records the
+    moment the message dump became readable.
+
+    `--silent` inverts it: the pages a corpus does NOT name. On a corpus a page
+    cites, that is the interesting half — the page claims a source that never
+    mentions it, which is either a missing alias or a citation doing no work.
     """
     pages = load_pages()
+    note_moratorium_targets(pages)
     idx = build_index(pages)
+    matcher = Matcher(idx)
+    mark_common_phrases(idx, [r for r in sorted(CORPORA)
+                              if CORPORA[r].get("family") == "messages"])
     only = [a for a in argv if not a.startswith("-")]
+    silent = "--silent" in argv
     prefix = only[0] if only else "wiki/"
-    corpora = {rel: load_corpus(rel) for rel in sorted(CORPORA)}
-    rows = []
+    per_corpus = {}
+    for rel in sorted(CORPORA):
+        rows, hits, slug_rows, _d = corpus_index([rel], matcher)
+        per_corpus[rel] = (rows, hits, slug_rows)
+    out, quiet = [], []
     for slug in sorted(idx):
         if not slug.startswith(prefix.rstrip("/")):
             continue
@@ -671,39 +1141,127 @@ def cmd_coverage(argv):
         if under_moratorium(txt):
             continue
         fm, _ = split_fm(txt)
-        pats = [n for n, c in idx[slug]["names"] if c == "high"]
-        if not pats:
+        if not [n for n, c in idx[slug]["names"] if c == "high"]:
             continue
         start, end = page_range(fm)
-        rx = re.compile("|".join(
-            (re.escape(n.lower()) + r"\b") if n.startswith("@")
-            else (r"\b" + re.escape(n.lower()) + r"\b") for n in pats), re.I)
+        cited = inline_list(fm, "sources")
         per = {}
-        for rel, data in corpora.items():
+        for rel, (rows, hits, slug_rows) in per_corpus.items():
             n = 0
-            for date, text, _u in data:
-                if start and date[:10] < start:
+            for i in slug_rows.get(slug, ()):
+                if not any(s == slug and c == "high" for _nm, c, s in hits.get(i, ())):
                     continue
-                if end and date[:10] > end:
+                ts = rows[i][0]
+                if start and ts[:10] < start:
                     continue
-                if rx.search(text):
-                    n += 1
-            cites = rel in inline_list(fm, "sources")
-            per[rel] = (n, cites)
+                if end and ts[:10] > end:
+                    continue
+                n += 1
+            per[rel] = (n, rel in cited)
         best = max((v[0] for v in per.values()), default=0)
         if best:
-            rows.append((best, slug, per, idx[slug].get("limit", 0)))
-    rows.sort(key=lambda r: (-r[3], -r[0]))
+            out.append((best, slug, per, idx[slug].get("limit", 0)))
+        else:
+            quiet.append((slug, [r for r in cited if r in CORPORA],
+                          idx[slug].get("limit", 0),
+                          scalar(fm, "page_type") or "?"))
+    if silent:
+        # A synthesis or concept page is named by no corpus BY CONSTRUCTION —
+        # "block unblock loop" is a finding this wiki coined, not a phrase
+        # anybody texted. Reporting those beside a person the corpus really is
+        # silent about would make the number mean two different things at once,
+        # so the type is printed and the tail counts them apart.
+        COINED = {"synthesis", "concept"}
+        quiet.sort(key=lambda r: (-r[2], r[0]))
+        n_cited = n_coined = 0
+        for slug, cites, lim, ptype in quiet:
+            tag = ("  cites %s and is not named in it"
+                   % ",".join(os.path.basename(c) for c in cites)) if cites else ""
+            if ptype in COINED:
+                n_coined += 1
+            elif cites:
+                n_cited += 1
+            print("%-52s %6d  %-10s%s" % (slug[:52], lim, ptype[:10], tag))
+        print("\n%d page(s) no readable corpus names. %d are synthesis or concept "
+              "pages, whose names the corpus cannot contain; %d of the rest cite a "
+              "corpus anyway — a missing alias, or a citation doing no work"
+              % (len(quiet), n_coined, n_cited))
+        return 0
+    out.sort(key=lambda r: (-r[3], -r[0]))
     print("%-52s %6s %6s  %s" % ("page", "rows", "limits", "corpus (* = already cited)"))
-    for best, slug, per, lim in rows:
+    for best, slug, per, lim in out:
         for rel, (n, cites) in sorted(per.items(), key=lambda kv: -kv[1][0]):
             if n:
                 print("%-52s %6d %6d  %s%s"
                       % (slug[:52], n, lim, os.path.basename(rel), "*" if cites else ""))
     print("\n%d page(s) named by at least one readable corpus, "
-          "self-limit claims first" % len(rows))
+          "self-limit claims first; %d named by none (--silent)"
+          % (len(out), len(quiet)))
     print("An unstarred row is a page a corpus talks about and that does not "
           "cite it — the crosslink queue proper.")
+    return 0
+
+
+def cmd_handles(argv):
+    """Which pages can be joined to a message corpus by counterparty.
+
+    The message-corpus analogue of `entities --missing`, and the same kind of
+    bottleneck. A page that declares a phone number or an address can have the
+    whole conversation with that person read for what it names; a page that
+    declares none can only be found by somebody writing its name in a message,
+    which on a five-word-average corpus is rare and unreliable.
+
+    Measured 2026-09-04 over `wiki/people/`: 29 pages resolve and reach 35,326
+    rows between them; **136 carry no `handles:` field at all.**
+    """
+    pages = load_pages()
+    note_moratorium_targets(pages)
+    only = [a for a in argv if not a.startswith("-")]
+    prefix = only[0] if only else "wiki/people/"
+    corpora = [r for r in sorted(CORPORA) if CORPORA[r].get("family") == "messages"]
+    known = corpus_handles(corpora)
+    resolved, unresolved, none = [], [], []
+    for path, txt in sorted(pages.items()):
+        slug = path[:-3]
+        if not slug.startswith(prefix.rstrip("/")):
+            continue
+        fm, _ = split_fm(txt)
+        declared = [h for h in inline_list(fm, "handles") if not h.startswith("@")]
+        hits, amb = resolve_handles(fm, known)
+        if hits:
+            resolved.append((sum(known[h] for h in hits), slug, hits,
+                             under_moratorium(txt)))
+        elif declared or amb:
+            unresolved.append((slug, declared, amb))
+        else:
+            none.append(slug)
+    resolved.sort(reverse=True)
+    dupes = collections.defaultdict(list)
+    for _n, slug, hits, _m in resolved:
+        for h in hits:
+            dupes[h].append(slug)
+    print("%6s  %-46s %s" % ("rows", "page", "handle(s)"))
+    for n, slug, hits, mor in resolved:
+        tag = "  [under the standing directive — scan refuses it]" if mor else ""
+        print("%6d  %-46s %s%s" % (n, slug[:46], ",".join(hits)[:38], tag))
+    shared = {h: s for h, s in dupes.items() if len(s) > 1}
+    if shared:
+        print("\n%d handle(s) claimed by more than one page — one of each pair is "
+              "wrong, or they are the same person twice:" % len(shared))
+        for h, slugs in sorted(shared.items()):
+            print("  %-18s %s" % (h, ", ".join(slugs)))
+    if unresolved:
+        print("\n%d page(s) declare a handle that is not in the corpus:" % len(unresolved))
+        for slug, declared, amb in unresolved[:20]:
+            note = ""
+            if amb:
+                note = "  (masked, matches %d — not guessed at)" % amb[0][1]
+            print("  %-46s %s%s" % (slug[:46], ",".join(declared)[:30], note))
+    print("\n%d page(s) resolve and reach %d row(s); %d declare an unmatched handle; "
+          "**%d carry no handles: at all** — the message corpus's blind spot, and "
+          "the same shape as `entities --missing`"
+          % (len(resolved), sum(n for n, _s, _h, _m in resolved),
+             len(unresolved), len(none)))
     return 0
 
 
@@ -782,11 +1340,17 @@ def cmd_check(argv):
     return 0
 
 
-USAGE = """usage: wiki-crosslink <entities|coverage|scan|reciprocal|orphaned|check> [args]
+USAGE = """usage: wiki-crosslink <entities|coverage|handles|scan|reciprocal|orphaned|check> [args]
 
   entities [filter]          the strings a scan can look for
   entities --missing         pages with no aliases: — the index's blind spot
+  handles [prefix]           which pages join to a message corpus by
+                             counterparty, and which cannot — the message
+                             corpus's own blind spot
   scan <page>|--all          unlinked entities in a page's own cited corpora
+  scan <page> --conversation everything named inside the CONVERSATION with this
+                             page's counterparty — the question a message
+                             corpus can answer and a broadcast archive cannot
   scan --against <corpus>    ...against a corpus the page does NOT cite,
                              filtered to rows that name the page itself
   scan --queue [n] --against the campaign queue: pages that state a limit
@@ -794,6 +1358,8 @@ USAGE = """usage: wiki-crosslink <entities|coverage|scan|reciprocal|orphaned|che
        [--low]               include single-token name matches (mostly noise)
   coverage [prefix]          which readable corpora name a page, and how often
                              — the triage step, run this before scanning
+       [--silent]            invert it: pages no corpus names, and which of
+                             them cite one anyway
   reciprocal [prefix]        typed edges whose target does not link back
   orphaned                   corpus-backed pages and their edge counts
   check                      the reciprocal-debt banner (always exits 0)
@@ -806,7 +1372,8 @@ def main(argv):
         return 1
     cmd, rest = argv[0], argv[1:]
     fns = {"entities": cmd_entities, "scan": cmd_scan, "reciprocal": cmd_reciprocal,
-           "orphaned": cmd_orphaned, "check": cmd_check, "coverage": cmd_coverage}
+           "orphaned": cmd_orphaned, "check": cmd_check, "coverage": cmd_coverage,
+           "handles": cmd_handles}
     if cmd not in fns:
         print(USAGE)
         return 1

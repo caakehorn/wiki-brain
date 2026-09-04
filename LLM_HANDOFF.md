@@ -4,6 +4,139 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-04] - Session: the message corpus becomes readable, and three pages that told us they were complete (Claude Opus 5)
+
+* **Branch:** `claude/crosslink-campaign-q9auor` · `bin/wiki-check` clean at every commit · 392 tests green.
+* **Trigger:** operator — *"Continue work on the CROSSLINK CAMPAIGN."*
+
+**Phase 2 reader #1, taken before Phase 0.5, because the plan's ordering was
+wrong.** `CROSSLINK_CAMPAIGN.md` put aliases before the corpus readers on the
+argument that a reader inherits the index's blindness. True and incomplete: the
+alias test is *"what does the record actually call it"*, and until a corpus is
+readable there is no record to ask. The message reader was the cheap side of
+that loop **because it already existed** — `bin/mine-messages` carries it along
+with the three traps that make naive reading of the dump wrong.
+`bin/wiki-crosslink` now **imports** it rather than writing a second one.
+
+**Pages any readable corpus names: 20 → 100.**
+
+**Four measurements that corrected the plan or the tools:**
+
+1. **The two message exports are not two forms of one corpus.** 124,379 shared,
+   **50,396 only in the CSV**, 90,678 only in the dump. Reading either alone
+   loses a third of the record, and reading only the dump loses **all of 2026**.
+   Both declared, deduped by `family`.
+2. **`bin/mine-messages`' own docstring was out of date** — it says the CSV
+   "marks nearly everything Received"; it splits 88,988/86,370. The real trap
+   survives in a different shape: **69,869 of those Sent rows carry no
+   handle**, so the CSV is sound corpus-wide and unsound per-relationship.
+   Corrected where the reader is.
+3. **The matcher did not survive the corpus.** One `re.search` per row against
+   a 19,418-char alternation: **50.1s**. An inverted token index: **0.6s** for
+   the same 862 rows. `coverage` over all 497 pages against all three corpora
+   is now 3.2s.
+4. **`--against` is the wrong question for messages** — 0 candidates across 7
+   queue pages. A five-to-fifteen-word row that names one person almost never
+   names a second. **`scan --conversation`** scopes by counterparty instead: 30
+   people pages resolve, **41,349 rows**, **51 candidates**.
+
+**Three defects the new corpus exposed, all older than it:**
+
+* **The moratorium was enforced on a scan's subject and not on its candidates.**
+  Scanning the concert record offered her page as a target with 101 mentions.
+  Fixed, and pinned by `tests/test_wiki_crosslink.py` — **the tool's first
+  tests**, 25 cases, against `bin/wiki-plain`'s guard having been pinned since
+  it shipped.
+* **A string two pages both claim was evidence for both.** `@alexisarmel` sits
+  in one person's `aliases:` and another's infobox `handles:`; 85 rows about the
+  first rendered as 101 mentions of the second. Marked `contested` now.
+* **A page name that is also ordinary English produced confident garbage at
+  HIGH confidence.** `say anything` → 134 rows, **0 the band**. `the office` →
+  77 rows, **0 the show** (all a real estate office). `coverage` was presenting
+  the first as the wiki's top music result. Flagged, not demoted — some really
+  are the band. This is the one mechanically catchable class of the failure
+  mode the campaign calls uncatchable; the rest still is not.
+
+---
+
+## The content, which is the point
+
+**`wiki/people/alexis-armel` — the public record of a six-year relationship
+ends twenty-four months before the relationship does.** The page cited an AI
+reading of the twitter corpus and had never had the archive in `sources:`. Her
+share of his @-tweets: 37.6% (2010) → 24.2% (2013) → **3.1% (2014)** → 0%. Four
+confounds die on the archive's own numbers, the sharpest being that 2014's **57
+distinct handles is an all-time high**. It gives
+`the-unbroken-bond`'s occupancy-without-activation claim its first
+contemporaneous non-testimonial evidence *and a denominator*, which its own Gaps
+named as the missing thing. **What did not survive:** the silence does not date
+the 2014 eviction — it begins three months before the earlier account — and
+saying so is on the page.
+
+**`wiki/people/fred-adams` — he was dead before the money moved.** Its Gaps said
+every fact came from Dan's narration; sixteen dated rows say otherwise. Suz,
+2020-05-24: *"judge Adams died several days ago"* → **~18–21 May 2020**, against
+a June advance and an August order. The estate attorney is **Jason Adams of
+Adams & Adams** — a person with no page.
+
+**`wiki/people/rod-banks` — a stub built on one side of a conversation.** It
+recorded *"41 messages, all received (export artifact)"*; the dump holds **92,
+51 Sent**. With Dan's half he is the estate's **disbursing agent**, and he
+itemises **$32,500 of advances** in five checks nobody had counted, each with
+its authoriser named. `estate-money-spine` carried one `2020-06-23 · $10,000`
+line for that period. Held as a contradiction on both pages; **the spine's
+downstream arithmetic has not been re-run.**
+
+---
+
+## The measurement the next session most needs
+
+**Working a stale premise honestly moves the front rather than clearing it.**
+Editing two hub pages made ten dependents stale. All ten were worked properly.
+Recording those results bumped nine `date_modified`s, which made nine of *their*
+dependents stale. Gate run against `main`, stashed and unstashed: **44 stale
+pages before, 44 after. Nine cleared, nine created, net zero.**
+
+That is the mechanism behind 104 stale premises surviving the 2026-09-02, 09-03
+and 09-04 handoffs. **It is not that nobody got to it.** Filed to
+`skills/INBOX.md`. The second batch was contained deliberately — three newly
+stale, all three worked, 44 before and after.
+
+**The measurement that would size the real prize could not be run here.** If
+most stale pairs are premises whose only change was a re-check blockquote, the
+gate is largely reporting its own bookkeeping and `bin/wiki-climb check` could
+exempt them. An attempt on 2026-09-04 came back "102 of 113 show no textual
+change" — **a shallow-clone artefact, not a result**; the log only reaches
+2026-08-17. **Run it after `git fetch --unshallow` before believing any number.**
+
+## Next, in order
+
+1. **Phase 0.5 is still the gate, and it now has two halves.** 389 pages carry
+   no `aliases:` (`entities --missing`); **138 people pages carry no `handles:`**
+   (`handles`), which is the same blind spot for the message corpus and is
+   worth more per entry — a resolved handle buys the whole conversation.
+   Evidence for both is now available, which is what the reader unlocked.
+2. **Bad aliases are worse than missing ones, and there are some.**
+   `wiki/self/concepts/ally-and-dan-love-as-destiny` carries `the case`, `the
+   courtship` and `the love story`. `the case` matched 14 rows in the Suz
+   thread, all the English phrase; the other two match **nothing anywhere**, so
+   they are not what the record calls anything. Not fixed this session.
+3. **Jason Adams has no page** and is the person Dan transacted the largest
+   capital event of his life with.
+4. **`+17249123381` is claimed by both `people/zaco` and
+   `people/zach-hendricks`** — one is wrong, or they are the same person twice.
+   `bin/wiki-crosslink handles` found it.
+5. **The twitter tree dates by UTC and a quarter of it is a day early** — 687 of
+   2,741 posts (25.1%) posted 00:00–04:59 UTC, the previous evening in New York.
+   Filed to `BACKLOG.md` with two worked examples. A re-dating cascades across
+   nineteen pages and needs a decision first.
+6. **The 104 stale premises**, unchanged in count and now with a diagnosis. If
+   it is worked, work it **breadth-first in a pass that writes no content**, or
+   it will move rather than shrink.
+7. **The remaining corpus readers**: Facebook (a directory of HTML), the
+   favorites CSV, the concert table, Gemini activity. The message dump was the
+   big one and it is done.
+
 ### [2026-09-04] - Session: the twitter archive read back onto the pages it was about (Claude Opus 5)
 
 * **Branch:** `claude/twitter-entries-cross-linking-qbkm2c` · `bin/wiki-check` clean at every commit.

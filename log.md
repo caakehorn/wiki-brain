@@ -1,3 +1,138 @@
+## [2026-09-04] connect | people | the estate's two hands, found by reading a conversation instead of a name
+
+**Three pages, one corpus, and all three had told us where to point it.**
+`bin/wiki-crosslink scan --conversation` reads the whole message thread with a
+page's counterparty rather than the rows that name the page. Run over the Suz
+thread (30,203 rows) and the Rod Banks thread (92), it produced the following.
+
+**`wiki/people/fred-adams` said no contemporaneous record of him existed. There
+are sixteen dated rows.** The Gaps section read *"every fact here comes from
+Dan's narration or from the estate attorney's calls."* Six messages from Suz,
+three involving Rick, the rest scattered. He is not a correspondent — that part
+was right — but he is named, at length, by people who were.
+
+**He was dead before the money moved.** Suz, 2020-05-24 07:24: *"I found out
+last night, quite by coincidence, that judge Adams died several days ago"* —
+placing the death around **18–21 May 2020**. The $10,000 advance came in June,
+the court order 21 August, the final check 1 September. The man this wiki calls
+the money spine's institutional valve was not alive for the arrival, and the
+page's claim that the two-and-a-half-year delay "is a function of the structure
+Adams sat at the centre of" now has a testable form the corpus cannot settle.
+Also disambiguated a phrase that had been harmless until today: *"the judge's
+order signed August 21"* is the Orphans' Court, **not Adams**.
+
+**The estate attorney has a name: Jason Adams, of Adams & Adams.** The page had
+said the August 2020 attorney "is not established to be Adams or his office."
+Three messages establish it, the last fifteen days before the order: *"i talked
+to jasón adams today and am going on saturday morning to sign for the
+inheritance in advance."* He has no page and is owed one.
+
+**`wiki/people/rod-banks` was a stub built on one side of a conversation.** It
+recorded *"Messages 41 · Direction: All received (export artifact)"* and read
+him as a man issuing directives about Fran's property, relationship unresolved.
+The dox-scan dump holds the same thread at **92 messages, 51 Sent / 41
+Received**. With Dan's half the answer is plain and it is none of the three the
+page guessed: **he is the estate's disbursing agent** — authorises a title
+transfer, cancels Fran's insurance, pays Timeslips, audits a utility notice,
+collects the mail weekly.
+
+**And he itemises $32,500 of advances nobody had counted.** Five checks,
+2019-10-12 to 2020-04-17 — $5,000 / $10,000 / $7,000 / $3,000 / $7,500 — each
+one recorded with **who authorised it**: *"Jason has approved a $3000 check for
+you."* The chain is two-step and Banks never claims the decision. Against this,
+`estate-money-spine` carried a single line for the period, *2020-06-23 ·
+$10,000*, and the $10,000 in the thread is dated **2020-02-04**. Held as a
+contradiction on both pages rather than resolved; the spine's downstream
+arithmetic has **not** been re-run and that is flagged there.
+
+**Two things deliberately withheld, both under `CLAUDE.md`'s standing
+directive.** Dan nominates a payee for each of those five checks and Banks asks
+each time; the payees are not written down, because naming them is a new dated
+line about a person that directive closes. Three Adams rows were sent to an
+alternate number on the same closed thread; the recipient is withheld and the
+message text is not. And one third-party phone number in the Banks thread is
+left in `raw/` where it already is — this repository is public.
+
+**A near-miss worth recording.** Two rows in the Adams table were first written
+up as sent to a different contact entirely, from a handle that turned out to be
+Rick's. `bin/wiki-crosslink` gained a *contested handle* warning the same day
+for exactly this class of error, and it did not fire, because the mistake was
+made by hand before the tool was consulted. Every attribution was then
+re-resolved against the pages that declare the handle. The tool catches the
+failure; using the tool is what catches it.
+
+**Cascade contained this time.** Three pages went newly stale and all three were
+worked; 44 stale pages before the batch, 44 after.
+
+## [2026-09-04] connect | people | the twitter archive, read directly onto the page it was about
+
+**The page had worked the twitter corpus and never read it.**
+`wiki/people/alexis-armel` cites `FULL TWITTER ANALYSIS.txt` — an AI reading —
+and its source table called the twitter evidence "corpus analysis". The primary
+archive was not in `sources:` at all. It holds **85 rows naming her**,
+2009-12-14 to 2014-06-17. The derived file was not wrong about any of them; it
+had never been asked the question that needed a denominator.
+
+**The finding: the public record of a six-year relationship ends twenty-four
+months before the relationship does.** Her share of his @-tweets runs 37.6%
+(2010) → 24.2% (2013) → **3.1% (2014)** → 0% (2015). The last two mentions of
+2013 are nineteen minutes apart on 29 November, both barbed, and after two
+stragglers in 2014 she is never named again across **1,132 further posts**.
+
+**Four confounds, all falsified by the archive itself.** He did not stop
+posting (171 posts in 2014). He did not stop @-mentioning people — 2014's
+**57 distinct handles is an all-time high** and its @-rate the second highest
+of the era. The account did not go quiet (December 2013 runs the SLOPPP yearmix
+in two parts and thanks four named producers). And the return to Fayette County
+from mid-August 2013 did not do it: mentions **peak** after the move, eighteen
+of the year's twenty-three falling between 8 September and 30 November.
+
+**What did not survive, written onto the page rather than dropped.** The
+tempting reading is that the silence dates the March 2014 eviction and settles
+the two competing T0 accounts the page holds side by side. It cannot: the
+silence begins on 29 November 2013, three months before the earlier account's
+date and nine before the later one's. A register that had already stopped is
+not a register that stopped because somebody was being concealed.
+
+**2014 is a hole in every readable corpus.** Neither message export holds a
+single row dated 2012, 2013 or 2014, and the Google Chat archive's dated
+samples stop at 2013-05. That is what makes the two surviving tweets worth
+their length: *"Keep filming me in my sleep"* (28 April 2014) is the only
+contemporaneous dated evidence the corpus holds that she was in the room with
+him that year.
+
+**Constitution pass — three registers moved it.** Ti-dominant 96% / Fe-inferior
+10%: the function that produces sustained public relational warmth is the
+near-absent one, which predicts a burst rather than a baseline, and 12 of 32
+mentions in 2010 against 3 of 47 across the four years after is that shape.
+`the-unbroken-bond`'s occupancy-without-activation gets its **first
+contemporaneous, non-testimonial evidence** — and, crucially, a *denominator*,
+which is what its own Gaps section said was missing. `the-cool-metric`'s
+"splitting via irony" is documented for the first time aimed at somebody
+already inside the filter rather than at strangers.
+
+**Also corrected.** `wiki/self/twitter/2014` read *"Alexis is still here and
+the register is domestic"* — two tweets read without their denominator.
+
+**And a systematic dating skew, recorded not fixed.** `created_at` in the
+archive is UTC, and **687 of 2,741 posts (25.1%) were posted between 00:00 and
+04:59 UTC** — the previous evening in New York. The twitter tree dates by the
+raw field throughout, so roughly a quarter of every date it quotes is one day
+late. Filed to `BACKLOG.md`; a nineteen-page re-dating is not this pass's
+business.
+
+**The staleness cascade, measured: nine cleared, nine created, net zero.**
+Editing `the-cool-metric` and `alexis-armel` made ten dependents stale. All ten
+were worked properly — premise re-read, decision recorded, no date bumped
+blind — and `the-binary-verdict` got a real one: six years of retained
+cohabitation with the warm register at zero is a candidate counterexample to
+its "no documented middle value" row, and the archive cannot settle it.
+Recording those results bumped nine `date_modified`s, which made nine of *their*
+dependents stale. Measured by running the gate against `main`: **44 stale pages
+before, 44 after.** The front moved one layer out and did not shrink. That is
+the mechanism behind 104 stale premises surviving three handoffs, and it is
+filed as a skill candidate rather than chased into a third layer.
+
 ## [2026-09-02] build | meta | the instrument layer gets a section, and the reason it needs one
 
 **What the section is for.** Every other page in this wiki argues — it reads

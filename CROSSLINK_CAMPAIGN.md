@@ -20,17 +20,20 @@ tooling; that one is the method, and nothing here overrides it.
 | one-way edges owing an inverse | **77** |
 | pages stating a **checkable limit about themselves** | **157** |
 | substantial `raw/` corpora cited by pages | **8** |
-| corpora `bin/wiki-crosslink` can read | **1** |
+| corpora `bin/wiki-crosslink` can read | ~~1~~ **3** (2026-09-04, Phase 2 #1) |
 | pages that cite the twitter archive | **42** |
 | pages the twitter archive **actually names** (`coverage`) | **20** |
+| pages **any** readable corpus names, after the message reader | **100** |
+| pages nothing names that **cite a corpus anyway** | **74** (plus 79 synthesis/concept, which nothing can name) |
 | pages carrying no `aliases:` at all — the index's blind spot | **389** |
 | pages with no unambiguous name at all (bare first names) | **99** (44 people) |
-| cost of a scan / of `coverage` over the whole wiki | 0.38s per page / **1.7s** |
+| cost of a scan / of `coverage` over the whole wiki | ~1.5s per page / **3.2s**, all three corpora |
 
 **Rows three to five are the whole problem.** Scanning is free — the entire
-wiki triages in under two seconds. Reading is not. And until Phase 0 the tool
-pointed the reading in the wrong direction, while the index could not see 389
-of the pages it was supposed to be finding.
+wiki triages in about three seconds against a quarter of a million source rows.
+Reading is not. And until Phase 0 the tool pointed the reading in the wrong
+direction, while the index could not see 389 of the pages it was supposed to be
+finding.
 
 ---
 
@@ -107,9 +110,8 @@ the default and `--low` opts in.
   it redundant; it was blocking 246 pages for nothing.
 - High confidence by default, `--low` to opt in.
 - Candidates ranked by the target's self-limit score; `--queue` orders the wiki.
-- `coverage` — which readable corpora actually name a page. 1.7s for all 497,
-  and it is the triage step: run it before scanning, because most page/corpus
-  pairs are silent.
+- `coverage` — which readable corpora actually name a page. The triage step:
+  run it before scanning, because most page/corpus pairs are silent.
 - `entities --missing` — the 389-page alias gap.
 - **The moratorium is a refusal, not a warning**, and deliberately narrower
   than `bin/wiki-plain`'s: scoped to her own pages by title and alias, because
@@ -130,7 +132,182 @@ police, and there is not yet; and a campaign page that reports on a campaign
 which cannot see 389 of its own pages would mostly report the blindness.
 **Aliases first.**
 
-## Phase 0.5 — populate `aliases:` — **the new first content task**
+## Phase 2 reader #1 — the message corpus — **DONE 2026-09-04**
+
+**Out of order on purpose, and the ordering this file gave was wrong.** Phase
+0.5 was placed before the readers on the argument that a reader inherits the
+index's blindness. True, and incomplete: the alias test is *"what does the
+record actually call it"*, and until a corpus is readable there is no record to
+put the question to. The dependency runs both ways, and the message reader was
+the cheap side of it — because **it already existed**.
+
+`bin/mine-messages` carries the reader for
+`raw/self/dox-scan/all_imessages_complete_dump.txt` along with the three traps
+that make naive reading of that file wrong: multi-line records reassembled,
+curly quotes folded (they outnumber straight ones 28,904 to 19,978 in his sent
+text), and direction trustworthy. `bin/wiki-crosslink` now **imports** it rather
+than reimplementing it, which is the only way to inherit the traps rather than
+the interface. Phase 2's own warning — *"a reader written without them produces
+confident wrong candidates"* — is answered by not writing one.
+
+### Correction: the two message exports are not two forms of one corpus
+
+This file said *"two forms of one corpus, so dedupe or double-count"*. Dedupe is
+required and the rest is wrong. Measured on (timestamp, first 120 normalised
+characters):
+
+| | rows |
+|---|---|
+| `dox-scan/all_imessages_complete_dump.txt`, unique | 215,057 |
+| `message-csv/MASTER_MESSAGES_DB_DUMP.csv`, unique | 174,775 |
+| in both | 124,379 |
+| **only in the CSV** | **50,396** |
+| **only in dox-scan** | **90,678** |
+
+Neither subsumes the other. Reading only the dump loses 50,396 rows, and with
+them **all of 2026** — the CSV is the only message corpus that reaches this
+year (9,896 rows) and it holds 41,278 for 2025 against the dump's 27,850. Both
+are declared readable, they share a `family`, and rows are deduped across them
+whenever both are in play.
+
+### Correction: `bin/mine-messages`' own docstring is out of date on the CSV
+
+That file says the CSV *"marks nearly everything `Received`"*, and directs any
+claim about what Dan said to the dump instead. As the file stands today it
+splits **88,988 Sent / 86,370 Received**. The real limitation is a different
+one and it survives: **69,869 of those Sent rows carry no `contact_handle` at
+all**, so the CSV can say what he wrote and, four times in five, not to whom.
+Sound for a corpus-wide claim, unsound for a per-relationship one. The docstring
+has been corrected; the trap is now recorded where the reader is.
+
+### The matcher had to be rebuilt to survive the corpus
+
+One `re.search` per row against the high-confidence band — a 19,418-character
+alternation — took **50.1s** over the 217,573-record dump, and `coverage` would
+have run it once per page. An inverted token index over the same rows finds the
+same 862 in **0.6s**. The index only decides which names to *test*; every
+surviving candidate is confirmed with a real word-boundary regex, so nothing is
+matched that the alternation would not have matched. `coverage` over all 497
+pages against all three corpora is **3.2s**.
+
+### Two defects the new corpora exposed, both older than the corpora
+
+1. **The moratorium was enforced on the scan's subject and not on its
+   candidates.** A scan of `interests/concert-record/index` offered her page as
+   a target with 101 mentions. A candidate list is a worklist whichever column
+   her name lands in. Now withheld in `render_hits`, counted rather than
+   silently dropped, and pinned by `tests/test_wiki_crosslink.py` — which is
+   also the first test this tool has had, against `bin/wiki-plain`'s guard
+   having been pinned since it shipped.
+2. **A string two pages both claim was reported as evidence for both.**
+   `@alexisarmel` is in one person's `aliases:` and in another's infobox
+   `handles:`, so 85 rows about the first were rendered as 101 mentions of the
+   second. The index always knew there were two owners; the renderer did not
+   say. Candidates are now marked `contested` with the competing name.
+
+## Phase 3, first page — `wiki/people/alexis-armel` — **DONE 2026-09-04**
+
+The instrument is not the deliverable. One page, worked fully, the way INGEST
+works.
+
+**What the pass found, and why the page could not have found it alone.** The
+page cites `FULL TWITTER ANALYSIS.txt`, an AI reading of the corpus, and had
+never had the primary archive in `sources:`. The archive holds 85 rows naming
+her. The derived file was not wrong about any of them — it had never been asked
+the question that needs a denominator. Her share of his @-tweets: **37.6% in
+2010, 24.2% in 2013, 3.1% in 2014, 0% in 2015.** The public record of the
+six-year relationship ends **twenty-four months before the relationship does**,
+and four confounds die on the archive's own numbers, the sharpest being that
+2014's **57 distinct @-handles is an all-time high**.
+
+**This is what a self-limit claim is worth.** The page's Gaps section said the
+occupancy-without-activation claim "rests more on absence than on a positive
+measurement," and named coverage as the alternative it could not rule out. The
+measurement it wanted is a denominator, and a broadcast archive is the one
+corpus that has one. `--queue`'s ranking put this page where it was for exactly
+that reason.
+
+**Written back:** `wiki/self/twitter/2014` (a correction — *"Alexis is still
+here"* was two tweets read without their denominator),
+`wiki/mind/concepts/the-cool-metric` (a new section: "splitting via irony" run
+on somebody already inside the filter), `wiki/mind/synthesis/the-unbroken-bond`
+(its first contemporaneous non-testimonial evidence), plus the `plain/` twin and
+ten stale-premise re-checks. Reciprocal debt on the tree touched: **0**.
+
+### The cost nobody had measured: a re-check is as expensive downstream as a claim
+
+Editing two hub pages made ten dependents stale. Working all ten honestly bumped
+nine `date_modified`s, which made nine of *their* dependents stale. Gate run
+against `main`, stashed and unstashed: **44 stale pages before, 44 after.** Nine
+cleared, nine created, **net zero** — the front moved one layer out.
+
+That is the mechanism behind 104 stale premises surviving three handoffs
+untouched, and it changes how the campaign should be sequenced: **a
+crosslink pass that touches a hub page owes its whole first layer**, and the
+standing queue is drainable only breadth-first, in a pass that writes no new
+content. Filed to `skills/INBOX.md` with the measurement that would size the
+bigger prize — how much of that queue is the gate reporting its own bookkeeping
+— and with the reason it could not be run here (a shallow clone).
+
+## Phase 2 reader #1, part two — the mode the corpus actually needed
+
+**`--against` is the wrong question for a message corpus, and the queue proved
+it: 0 candidates across 7 pages.** That mode reads the rows naming a page and
+asks what else they name. A tweet is a self-contained utterance that often
+names several handles. A message averages five to fifteen words, and one that
+names somebody almost never names a second — so the mode returns nothing, and
+returning nothing looks exactly like a corpus with nothing to say.
+
+**A message corpus knows something no broadcast archive does: who the
+counterparty is.** `scan --conversation` joins a page's infobox `handles:` to
+the corpus's own handle field and reads the whole conversation with that person.
+Measured: **30 people pages resolve, reaching 41,349 rows**, and the sweep
+returns **51 candidates** where `--against` returned 0.
+
+`handles [prefix]` is the coverage view and the message corpus's own version of
+`entities --missing`:
+
+| | |
+|---|---|
+| people pages whose handle resolves into a message corpus | **30** (41,349 rows) |
+| pages declaring a handle the corpus does not have | 7 |
+| **people pages carrying no `handles:` at all** | **138** |
+| masked handles (`+1724***7658`) that resolved uniquely | **all of them** |
+| handles claimed by two different pages | 1 — `+17249123381`, `people/zaco` and `people/zach-hendricks` |
+
+Masking turned out not to be an obstacle: a ten-digit space with three unknowns
+and a known area code is unambiguous inside 504 contacts. A mask that matched
+two would be reported, not guessed at; none did.
+
+### The "uncatchable" failure mode has a catchable class, and it was live
+
+The honest-limit section below says crosslinking has no cheap unattended lane
+because its judgment failure produces plausible correctly-cited prose that no
+arithmetic detects. That stands. **But one class of it is arithmetic, and it
+was running at HIGH confidence:**
+
+| Name | Rows in the message dump | How many are the thing |
+|---|---|---|
+| `say anything` — a band with a page | **134** | **0** |
+| `the office` — a show with a page | **77** | **0** (all a real estate office) |
+
+Confidence is *"more than one token = high"*, on the reasoning that a bare first
+name matches anybody and a full name does not. A two-token name that is also
+ordinary English breaks that rule in the direction that matters, because the
+tool tells you to trust the match — and `coverage` was presenting the first of
+these as the wiki's top music result.
+
+Such names are now **flagged, not demoted**, with the count marked as
+not-evidence: demoting hides the candidate behind `--low`, and some of them
+really are the band (Fall Out Boy is discussed by name in the Ally
+conversation). The word list is the corpus's own top 1,000 tokens rather than a
+hand-kept list, so it tracks how the record is actually written. It over-flags
+on purpose — `annie ulmer` trips it, because a surname belonging to the
+most-messaged person in the corpus is genuinely frequent in it. Dispersion was
+tried as a fix and abandoned: 504 handles, most of them a handful of messages,
+so even `say` reaches only 14.7% of conversations and nothing separates.
+
+## Phase 0.5 — populate `aliases:` — **the first content task**
 
 389 pages, none of which the index can find under any name but their exact
 title. This is the cheapest work in the campaign and it gates everything after
@@ -156,7 +333,7 @@ produces confident wrong candidates**, which is worse than no reader.
 
 | Order | Corpus | Pages citing | The traps it must carry |
 |---|---|---|---|
-| 1 | `message-csv/MASTER_MESSAGES_DB_DUMP.csv` + `dox-scan/all_imessages_complete_dump.txt` | **106 + 93** | the three properties in `bin/mine-messages`' docstring; two forms of one corpus, so dedupe or double-count |
+| ~~1~~ **done** | `message-csv/MASTER_MESSAGES_DB_DUMP.csv` + `dox-scan/all_imessages_complete_dump.txt` | **106 + 95** | the three properties in `bin/mine-messages`' docstring, inherited by importing its reader; **two partly-overlapping corpora, not two forms of one** — deduped by `family` |
 | 2 | `concerts/table.csv` | 48 | already joined once by hand; rows 6/16/17/24 still open |
 | 3 | `favorites/FAVS MASTERLIST.csv` | 40 | 43 artist pages downstream |
 | 4 | `gemini-activity/Gemini Activity.html` | 28 | 21.8 MB of HTML; T2 source, `skills/corpus/source-chain.md` governs |

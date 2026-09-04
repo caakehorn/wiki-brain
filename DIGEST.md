@@ -14,9 +14,9 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 497 |
-| Pages touched in the last 14 days | 183 |
+| Pages touched in the last 14 days | 185 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
-| Live contradictions | 48 |
+| Live contradictions | 49 |
 | Open gaps | 605 |
 | Standing predictions | 65 |
 
@@ -39,19 +39,21 @@ this is the state of the thing.
 
 | Status | Pages |
 |---|---|
-| active | 190 |
+| active | 191 |
 | stable | 166 |
 | closed | 100 |
 | archived | 29 |
-| stub | 12 |
+| stub | 11 |
 
 ## The last few days
 
-**2026-09-04** — 19 pages
+**2026-09-04** — 41 pages
+  - connect | people | the estate's two hands, found by reading a conversation instead of a name
+  - connect | people | the twitter archive, read directly onto the page it was about
   - site | meta | the Wikipedia-style reader is served again
   - connect | self, interests, health, mind, people | the twitter archive read back onto the pages it was always about
 
-**2026-09-03** — 35 pages
+**2026-09-03** — 33 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
   - ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
   - ingest | self | 2010 read in full — the corpus's most-cited date was computed from a train going the wrong way, and it survives anyway

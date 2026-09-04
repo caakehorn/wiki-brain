@@ -8,7 +8,7 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 48 |
+| Live contradictions | 49 |
 | Open gaps | 605 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
@@ -64,6 +64,7 @@ somewhere and has not yet found out where.
 - **[[wiki/people/jacob-bacharach]]** — Dan attributes the Virginia Avenue passage to ***The Bend of the World*** (2014) and cites pages 227–228. Bacharach's own February 2021 message names a different novel as the Uniontown book: *"it figures prominently in my Doorposts of Your House novel."* The reading record sides with Bacharach. Dan's Goodreads library 
 - **[[wiki/people/kristin]]** — an earlier version described her as "an ex-Brooklyn librarian living in Pittsburgh." The corpus supports neither. It supports pharmacy / DoorDash / courthouse work and an Akron, Ohio residence. She does say *"okay this is one of the things i miss most about living in new york"* on Facebook — so a New York period is pla
 - **[[wiki/people/libby]]** — The demand letters state **$75/hour**, set by Libby. But on 2024-05-17 Annie writes *"I was literally with Libby for just over 3 hours today.. she paid me 500"* — roughly $167/hour — and a week later invites Dan to guess the figure for four hours. Both are first-hand and neither is retracted. Possible readings: the rat
+- **[[wiki/people/rod-banks]]** — That page's timeline carries one line for this period — *"2020-06-23 · Estate advance issued · $10,000"*. The thread here holds **five** advances totalling **$32,500**, none of them dated 2020-06-23, and the $10,000 in it is dated **2020-02-04**. Either there were two $10,000 advances four months apart, or the spine's 
 - **[[wiki/people/sadie-harris]]** — earlier versions of this page and the member table on fayette-return both recorded Sadie as having *died* in Hopwood on 27 November 1997. The GEDCOM records no death place at all — only the date — and lists Hopwood as the **burial** place. Her last attested residence is Brownsville in 1993. The Hopwood association is r
 - **[[wiki/people/suzanne-frank]]** — A $200 cocaine spend on 2015-12-29 is **not** established as hers, and an earlier pass wrongly recorded it as such. The record has Annie saying *"And that $200 wasn't even your own"* (23:48) and Dan answering *"It was my money"* (23:50). The two lines conflict and the corpus does not settle them. Held open rather than 
 - **[[wiki/self/concepts/chatgpt]]** — This page and claude-code make incompatible claims about where an LLM's value sits. This page treats it as residing in the model's *willingness* — a register it will speak in, a class of question it will engage — which is why a guardrail change reads here as a capability loss and why the honesty standard is encoded as 
@@ -415,7 +416,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/emilio]]** — **When and how it actually ended between him and Annie**, and whether the December 13 contact was the last.
 - **[[wiki/people/emilio]]** — **Becca** (2015-12-29) — described as the ex's new girlfriend; not firmly attached to Emilio.
 - **[[wiki/people/fran-coldren]]** — The nursing home is still unnamed. The NS7 II gift is undated — the corpus confirms the machine in use by April 2017 but never records its arrival, and the gift-protocol figures come from operator memory alone. Thomas Whyel's exact death date within the 1970s 
-- **[[wiki/people/fred-adams]]** — Adams sends and receives nothing in the message corpus; every fact here comes from Dan's narration or from the estate attorney's calls, and the estate attorney reached in August 2020 (`+17245706170`) is not established to be Adams or his office. His full name,
+- **[[wiki/people/fred-adams]]** — Adams sends and receives nothing in the message corpus — he is named in it, at length, but never writes in it. His full name, the years he practised, when and to what bench he was appointed, **the exact date of his death in May 2020**, the relationship between
 - **[[wiki/people/garrett]]** — 1. **Surname** — the one fact that would resolve Claire, Alice and Otto at once.
 - **[[wiki/people/garrett]]** — 2. **When they married**, and whether Dan attended. Nothing in the corpus.
 - **[[wiki/people/garrett]]** — 3. **What the "show" is.** One word from the operator.
@@ -487,7 +488,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/otto]]** — 1. **Surname**, as for Alice — Claire's married name is not in the corpus.
 - **[[wiki/people/otto]]** — 2. **Birth year.** Late-October birthday established; the year is not. The nap schedule in March 2025 suggests roughly 2–4 years old, which would place his birth around 2021–2023, but that is inference from one line.
 - **[[wiki/people/otto]]** — 3. **Who Waylon is.** Two mentions, one of them a joke about a country singer. Answerable by the operator in a word.
-- **[[wiki/people/rod-banks]]** — Exact relationship to Fran (family member, estate representative, or property caretaker) is unresolved. No Facebook or other corpus cross-references found. Whether 'Banks' is connected to the Coldren/Whyel/Shrum maternal network is unknown.
+- **[[wiki/people/rod-banks]]** — Still open: whether "Banks" connects to the Coldren/Whyel/Shrum maternal network; his formal title, if he had one; and whether he was compensated. No Facebook or other corpus cross-references found. **The unresolved question is now upstream of him rather than 
 - **[[wiki/people/sadie-harris]]** — **No death place.** The GEDCOM date is firm; the place is absent. Whether she died in Brownsville, Uniontown, Hopwood or in care elsewhere is unresolved, and a death certificate would settle it.
 - **[[wiki/people/sadie-harris]]** — **Arrival date unknown.** Nothing on disk dates either her emigration from Austria or the couple's move from New York City to Fayette County; the 1915 Bronx and 1920 Brownsville records only bracket it.
 - **[[wiki/people/sadie-harris]]** — **Nothing personal survives.** This page is entirely residue — census rows, directory listings, a burial record. No letters, photographs, anecdotes or family stories about her appear anywhere in the corpus, which is itself worth recording: the line's matriarch

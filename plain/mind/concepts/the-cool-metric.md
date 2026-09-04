@@ -2,8 +2,8 @@
 plain_of: wiki/mind/concepts/the-cool-metric
 title: "The Cool Metric"
 reading_level: general
-date_modified: 2026-08-26
-source_modified: 2026-08-26
+date_modified: 2026-09-04
+source_modified: 2026-09-04
 ---
 
 # The Cool Metric
@@ -177,6 +177,47 @@ means — food is held exempt from the forensic treatment everything else
 receives. The claim this page should make is therefore "one axis for
 everything it is allowed to touch," and the interesting question it raises is
 what else is protected in the same way. Nobody has looked.
+
+## Turned on the person he lived with
+
+Everything above shows the sieve pointed at strangers, or at whoever happens
+to be listening. His Twitter account shows it pointed at his girlfriend of six
+years, Alexis Armel — and shows it taking the place of something warmer.
+
+Count the tweets that mention her and carry an affectionate word: *love you*,
+*miss u*, a heart, *sweetest*. In 2010 that is **12 out of 32**. Across the
+whole stretch from 2011 to 2014 together it is **3 out of 47**. The 2010
+voice is *"i love youuu (from 2 feet away on the couch)."* By late 2013 the
+voice is a joke telling her to add him on OkCupid and a joke about Hitler's
+girlfriend, both posted on the same night, November 22. A week later, on
+November 29, he posts two more, nineteen minutes apart: *"lets scale back the
+'making fun of boyfriends who say plurnt' vibe that you've so generously
+cultivated"* and *"keep it up, catch a slug to the fvcε."*
+
+She is never mentioned publicly again. The relationship had **twenty-four
+months left to run**, and he posted **1,132 more times** in that period and
+after it without naming her once.
+
+**What is new here is the direction, not the behaviour.** The sieve is
+described on this page as something you run on people to decide whether to let
+them in. Run on someone already let in — six years in, living in the same flat
+— it is not deciding anything. The wall it is keeping up is a wall against the
+person already inside.
+
+There is a plainer reason underneath it, and it is measured rather than
+guessed. Cognitive testing scores the part of his mind that handles warm public
+displays toward other people at **10%**, and the part that tests whether an
+argument holds together at **96%**. Somebody built that way can produce warmth
+in bursts and cannot keep it running as a background setting — which is exactly
+the shape here: one loud year, then four quiet ones.
+
+**What this does not show.** Twitter is a stage. Going quiet on a stage is not
+the same as going quiet in a marriage, and the private record that would settle
+it stops before the interesting part: the saved chat logs run out in May 2013,
+and neither of the two big text-message archives holds a single message from
+the years in between. Whether the jokes caused the coldness or simply
+recorded it, the tweets cannot say. What they can say is that the two moved
+together, and that the warm voice never came back.
 
 ## The one time he lost a round
 

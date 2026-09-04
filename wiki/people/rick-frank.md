@@ -5,7 +5,7 @@ title: "Richard Harrison \"Rick\" Frank"
 aliases: ["Rick", "Frank Sr."]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-08-23
+date_modified: 2026-09-04
 infobox:
   name: Rick Frank
   status: "Ongoing, warm-but-strained — currently one-sided (silence since Feb 2025)"
@@ -28,6 +28,9 @@ sources:
   - raw/self/message-exports/rick-frank-imessage-pdf-export-2018-thru-2018-04.txt
 tags: [addiction-recovery, relationships, forensic-analysis, legal, ai-collaboration]
 connections:
+  - page: wiki/people/fred-adams
+    type: evidences
+    claim: "His 2018-01-06 message is the only place in the corpus that says what Judge Fred Adams was to the family rather than to the estate — 'I'm tired of u treating me or thinking about me like Rod Banks or Fred Adams. U make it a point to keep me out of ur life' — and it dates that resentment to three months before Fran's death and two months before Adams decided she would not be going home."
   - page: wiki/people/suzanne-frank
     type: mirrors
     claim: "Married 31 August 1985 and separated after the November 2005 rupture, the two parents run inverted versions of one posture: Rick withdraws to low-frequency contact, Suz remains permanently available and itemises the cost — which is why the corpus holds ~2,000 messages with him and 33,698 with her."

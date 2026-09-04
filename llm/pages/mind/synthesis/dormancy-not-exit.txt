@@ -6,7 +6,7 @@ aliases: ["the graph has no delete", "role change not exit", "reactivation bandw
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-28
+date_modified: 2026-09-04
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -89,6 +89,22 @@ connections:
 ---
 
 # Dormancy, Not Exit
+
+> **RE-CHECKED [2026-09-04] — two premises moved, and one of them is
+> supporting evidence.** [[wiki/people/alexis-armel]] gained a measurement of the
+> relationship's public register — zero mentions across the last twenty-four
+> months and 1,132 posts, in years when his distinct-handle count peaked at 57 —
+> and [[wiki/people/franki-faris]] gained the inverse of an existing typed edge
+> and no new prose. **Nothing here is withdrawn.**
+>
+> The Alexis material reads *with* this page rather than against it. A public
+> channel falling silent while the tie continues for two more years, and while
+> he is publicly naming more people than in any year of his life, is a **channel
+> suspended, not a tie deleted** — which is this page's rule, observed on a
+> surface it had not previously been tested on. It is not strong evidence, since
+> a broadcast archive cannot show a tie continuing; it is the message record and
+> the operator's account that establish the relationship ran to November 2015.
+> Recorded as consistent, not as proof.
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/synthesis/the-unbroken-bond]] (2026-08-26), which added a

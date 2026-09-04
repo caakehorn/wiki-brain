@@ -4,7 +4,7 @@ page_type: entity
 title: "Franki Faris"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-28
+date_modified: 2026-09-04
 sources:
   - raw/self/dox-scan/Gemini-_58.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
@@ -31,6 +31,9 @@ connections:
   - page: wiki/mind/synthesis/dormancy-not-exit
     type: evidences
     claim: "An occupancy resolved 2026-08-28 to be effectively immediate rather than five days (the five-day figure belongs to Alexis's displacement, not to Franki's own tenure) left no corpus and no later trace regardless — the control bounding the retention rule to relationships that clear a tenure floor is, if anything, sharper now that the tenure is shorter than previously stated."
+  - page: wiki/people/alexis-armel
+    type: co-occurs
+    claim: "The same July 9-31, 2013 self-typology batch typed both women — Franki ESFP, Alexis INFP/ISFP 'Idealist' — and the Alexis reading sat only on this page until 2026-09-03, which is what let two independent 2026-08-21 passes conclude the six-year partner had no recorded type at all. A datum filed on the five-day rebound's page and not on the six-year partner's is a datum the six-year partner's page has no way to discover."
   - page: wiki/mind/synthesis/the-commissioned-self
     type: precedes
     claim: "The July 9-31, 2013 self-typology batch that typed Franki and Alexis also carries Dan's own earliest documented INTP self-identification, a decade before the AI instrumentation the commissioned-self pattern is mostly built on."

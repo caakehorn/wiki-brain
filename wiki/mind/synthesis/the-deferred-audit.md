@@ -6,7 +6,7 @@ aliases: ["provenance sorting", "selection buys delay", "the two clocks", "the a
 status: active
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-28
+date_modified: 2026-09-04
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -94,6 +94,28 @@ connections:
 > one relational object (Ally) rather than only a cost. **No claim on this
 > page is affected** — this page cites single-channel's provenance-rule
 > framing, not its relational-substitution material.
+
+> **RE-CHECKED [2026-09-04] — the premise gained real material, and the
+> deferral argument survives it unchanged.**
+> [[wiki/mind/concepts/the-cool-metric]] moved on 2026-09-04 by gaining a
+> substantive section, not a re-check note: the twitter archive shows *splitting
+> via irony* aimed at a six-year live-in partner rather than at strangers, with
+> affection in the public register falling from 12 of 32 mentions in 2010 to 3
+> of 47 across 2011–2014 and stopping entirely twenty-four months before the
+> relationship ended. **This page reasons from that page's received-versus-sought
+> axis and from its inward sub-bass case, and neither moved.** No claim here is
+> withdrawn or narrowed.
+>
+> **What the new material does raise, and this page is deliberately not
+> answering yet.** A partner is a chosen object, and this page's rule is that
+> chosen objects are audited *late*, not never. A public register that runs warm
+> for one year, ironic for four, and then to zero is the shape a deferred audit
+> would leave if one landed there — but "shape consistent with" is not evidence,
+> the archive cannot distinguish an audit from a drift, and the private record
+> that might is missing for exactly those years (neither message export holds a
+> row dated 2012, 2013 or 2014). Recorded here so the next pass starts from the
+> observation rather than rediscovering it, and so that nobody mistakes it for a
+> finding this page has made.
 
 > **RE-CHECKED [2026-08-23]:** flagged stale against
 > [[wiki/mind/concepts/chaos-preference]], [[wiki/mind/concepts/the-cool-metric]]

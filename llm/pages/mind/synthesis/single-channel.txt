@@ -6,7 +6,7 @@ aliases: ["one channel at maximum voltage", "no failover", "concentration archit
 status: active
 knowledge: earned
 date_created: 2026-08-01
-date_modified: 2026-08-28
+date_modified: 2026-09-04
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/dox-md/FULL PROFILE 2026.md
@@ -70,6 +70,20 @@ connections:
 ---
 
 # The Single Channel
+
+> **RE-CHECKED [2026-09-04] — the premise moved substantively, and it supplies
+> this page with a datapoint rather than a problem.**
+> [[wiki/mind/concepts/the-cool-metric]] gained a section measuring the public
+> register on the six-year partner: affection at 12 of 32 mentions in 2010, 3 of
+> 47 across 2011-2014, then zero for the relationship's last twenty-four months
+> across 1,132 posts, in a year when his distinct-handle count peaked at 57.
+> **Nothing on this page changes.** The Gini figure (0.959-0.964 two-sided
+> across ~496 handles) is computed from the message corpora and is untouched by
+> a broadcast archive. Worth recording forward: a primary tie whose *public*
+> channel falls to zero while the tie itself continues is what a
+> single-channel architecture looks like from outside — the traffic did not stop,
+> it stayed where it always was. That is consistent with this page and is not
+> evidence for it, because a broadcast archive cannot show where traffic went.
 
 > **RE-CHECKED [2026-08-28]:** flagged stale against
 > [[wiki/mind/synthesis/totality-themes]] (2026-08-28), which gained a

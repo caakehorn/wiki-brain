@@ -2,8 +2,8 @@
 plain_of: wiki/interests/food-and-diet
 title: "Food and Diet"
 reading_level: general
-date_modified: 2026-08-26
-source_modified: 2026-08-28
+date_modified: 2026-09-04
+source_modified: 2026-09-04
 ---
 
 # Food and Diet
@@ -186,6 +186,13 @@ jurisdiction rather than being universal. Food is the high-contact domain that
 filter has never been pointed at, by an exemption the record states explicitly.
 "One axis for everything" should be read as "one axis for everything it is
 allowed to touch."
+
+The gap is wider than it looks, because the filter reaches a long way. His
+Twitter account shows it turned on the woman he lived with for six years: the
+warm register there falls away and is replaced by jokes at her expense. A sieve
+that reaches the most intimate relationship in the record, and still does not
+reach dinner, is being held off food on purpose rather than for lack of a
+chance.
 
 ## What would prove this wrong
 

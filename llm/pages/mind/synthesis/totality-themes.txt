@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-28
+date_modified: 2026-09-04
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/favorites/FAVS MASTERLIST.csv
@@ -157,6 +157,13 @@ connections:
 
 
 # Totality Themes
+
+> **RE-CHECKED [2026-09-04] — checked, left standing.**
+> [[wiki/mind/concepts/the-cool-metric]], a member, gained a section extending
+> the sorting metric's demonstrated range to an intimate partner. This page's
+> thesis is about totality as a mode across domains, and a member gaining a new
+> *instance* of its own axis neither adds a domain nor removes one. **No theme,
+> count or conclusion here is affected and none is withdrawn.**
 
 > **RE-CHECKED [2026-08-28]:** flagged stale against
 > [[wiki/mind/synthesis/dormancy-not-exit]] (2026-08-28), which resolved a
