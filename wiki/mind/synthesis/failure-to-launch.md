@@ -95,6 +95,19 @@ connections:
 
 # Failure to Launch — The Capability Audit
 
+> **RE-CHECKED [2026-09-04] — premise moved, conclusion unaffected.**
+> [[wiki/work/nemacolin-caddying]] moved for the [[wiki/people/vaughn]]
+> re-derivation: the yard drug-tested and the crew shared clean urine, and
+> Vaughn corrected Dan's golf grip. This page cites Nemacolin for **tenure** —
+> 43 months, April 2016 to November 2019, trailing off — and neither addition
+> touches a date, a title or a duration. **No claim on this page is affected.**>
+> **What this date bump also cleared, unread.** Staleness is computed from a
+> single `date_modified` per page, so bumping it for the re-check above cleared
+> **3 other stale flags on this page that nobody re-read**: [[wiki/mind/concepts/acquisition-drive]], [[wiki/mind/concepts/calibrated-confidence]], [[wiki/mind/synthesis/estate-money-spine]]. They are
+> recorded here because the gate can no longer show them. Measured across the
+> whole 2026-09-04 crosslink pass: ten honest re-checks cleared **thirty-eight**
+> flags, twenty-eight of them unread. See `skills/INBOX.md`.
+
 > **RE-CHECKED [2026-08-28]:** flagged stale against
 > [[wiki/mind/synthesis/estate-money-spine]] (2026-08-28), which gained a
 > RE-CHECKED note confirming a March 2014 Alexis-era eviction on

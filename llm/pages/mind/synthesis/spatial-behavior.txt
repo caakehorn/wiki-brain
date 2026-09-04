@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: mixed
 status: active
 date_created: 2026-07-20
-date_modified: 2026-07-20
+date_modified: 2026-09-04
 sources:
   - raw/self/dox-md/GPS_ANALYSIS.md
 synthesizes:
@@ -29,6 +29,26 @@ connections:
 ---
 
 # Spatial Behavior — GPS Analysis of Location History
+
+> **RE-CHECKED [2026-09-04] — premise moved, conclusion unaffected.**
+> [[wiki/timeline/periods/2017-poverty-floor]] moved for the
+> [[wiki/people/vaughn]] re-derivation, gaining 156 May 2017 messages of
+> primary-record texture. The new material is almost entirely about
+> **transport as the binding constraint** — two caddies with one intermittent
+> car between them, coordinating rides to work and to each other's houses — and
+> this page's claims about spatial range and territory in the Uniontown years
+> are the same claim seen from above. Nothing in it moves a radius, a place or
+> a date here. **No claim on this page is affected.**
+>
+> **What this date bump also cleared, unread.** Staleness is computed from a
+> single `date_modified` per page, so bumping it for the re-check above cleared
+> **three other stale flags on this page that nobody re-read**:
+> [[wiki/timeline/periods/2018-deep-cycle]],
+> [[wiki/mind/concepts/contact-gini]] and [[wiki/self/location-history]]. Only
+> the 2017-poverty-floor flag is answered here; the other three are recorded
+> because the gate can no longer show them. Measured across the whole
+> 2026-09-04 crosslink pass: ten honest re-checks cleared **thirty-eight**
+> flags, twenty-eight of them unread. See `skills/INBOX.md`.
 
 A behavioral/psychographic reading of Dan's Google Location History
 data (2014–2024). This analysis is distinct from and built on top of

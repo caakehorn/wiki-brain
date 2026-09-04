@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-28
+date_modified: 2026-09-04
 sources:
   - raw/self/dox-md/Annie 10-Year Trauma Bond Aura Illness Forensic Report.md
   - raw/self/dox-scan/DanAnnie_MasterRecord_FINAL.docx
@@ -99,6 +99,24 @@ connections:
 
 
 # Attachment Trauma Bond and Aura Illness
+
+> **RE-CHECKED [2026-09-04] — premise moved, conclusion unaffected.**
+> [[wiki/people/suzanne-frank]] moved for the [[wiki/people/vaughn]]
+> re-derivation, which establishes that by 2017–18 the cocaine direction
+> between mother and son had **reversed**: she is documented on that page as
+> his source in 2015–16, and in the Vaughn thread he procures for her and she
+> drives him to the pickup. This page reasons from her as an attachment figure
+> whose care and coercion arrive in the same transaction, and the reversal is
+> that structure with the goods pointing the other way rather than a different
+> structure — the money still runs mother-to-son while the supply now runs
+> son-to-mother, which is the give-and-invoice pattern intact and doubled.
+> Nothing here needed revising.>
+> **What this date bump also cleared, unread.** Staleness is computed from a
+> single `date_modified` per page, so bumping it for the re-check above cleared
+> **2 other stale flags on this page that nobody re-read**: [[wiki/mind/synthesis/the-binary-verdict]], [[wiki/people/rick-frank]]. They are
+> recorded here because the gate can no longer show them. Measured across the
+> whole 2026-09-04 crosslink pass: ten honest re-checks cleared **thirty-eight**
+> flags, twenty-eight of them unread. See `skills/INBOX.md`.
 
 > **RE-CHECKED [2026-08-28]:** flagged stale against
 > [[wiki/people/suzanne-frank]] (2026-08-28), which added a pre-Annie,

@@ -6,7 +6,7 @@ aliases: ["spine", "behavioral spine", "CONTEXT_CORE_EXPANDED"]
 status: stable
 importance: critical
 date_created: 2026-06-22
-date_modified: 2026-08-26
+date_modified: 2026-09-04
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -83,6 +83,20 @@ changelog:
 ---
 
 # Context Core
+
+> **RE-CHECKED [2026-09-04] — premise moved, conclusion unaffected.**
+> [[wiki/people/suzanne-frank]] moved for the [[wiki/people/vaughn]]
+> re-derivation. This page carries her as a one-row summary in the relations
+> table — realtor, primary financial line, savior↔adversary oscillation — and
+> the new material is a change in the direction of drug supply between them in
+> 2017–18, which the row does not characterise in either direction. **No claim
+> on this page is affected**; the fuller account is on her own page.>
+> **What this date bump also cleared, unread.** Staleness is computed from a
+> single `date_modified` per page, so bumping it for the re-check above cleared
+> **5 other stale flags on this page that nobody re-read**: [[wiki/mind/synthesis/2020-left-turn]], [[wiki/mind/synthesis/dormancy-not-exit]], [[wiki/mind/synthesis/totality-themes]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/people/rick-frank]]. They are
+> recorded here because the gate can no longer show them. Measured across the
+> whole 2026-09-04 crosslink pass: ten honest re-checks cleared **thirty-eight**
+> flags, twenty-eight of them unread. See `skills/INBOX.md`.
 
 **The authoritative behavioral spine.** All self-knowledge in the wiki defers to this synthesis and its raw source for documented facts. Facts tagged `[DOC]` are verified from the behavioral corpus (iMessage, Twitter, GPS, residence records); `[MEM]` marks lower-certainty session memory. The raw source (`CONTEXT_CORE_EXPANDED.md`) additionally contains LLM session configuration and engagement directives, which stay in raw/ — this page carries the knowledge, not the prompt machinery. Interpretive depth (engines, kernel metaphors) lives in [[wiki/mind/concepts/phenomenology-lens]] and is loaded deliberately, never ambiently.
 

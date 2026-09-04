@@ -2,8 +2,8 @@
 plain_of: wiki/mind/synthesis/the-embedded-objective
 title: "The Embedded Objective"
 reading_level: general
-date_modified: 2026-09-02
-source_modified: 2026-08-28
+date_modified: 2026-09-04
+source_modified: 2026-09-04
 ---
 
 # The Embedded Objective
@@ -271,7 +271,13 @@ untestable is that no output figure for it exists anywhere.
 - **The caddying goal is inferred, not stated.** It comes from what he chose to
   record, not from him saying what he was after. It is the weakest of the three
   positive cases — a status ladder is exactly the kind of thing that could be a
-  story told afterwards rather than a live motive.
+  story told afterwards rather than a live motive. One message found in
+  September 2026 helps a little without settling it: on 28 May 2017 he texted a
+  fellow caddie, "the way you changed my grip has made a REAL difference… my
+  striking is better than it has been." Nobody at the club asked him to get
+  better at golf. That is him tracking his own progress at the time rather than
+  describing it afterwards — but it is still a text about a grip, not a
+  statement of what he was there for.
 
 - **The gas station is scored on absence.** Concluding there was no private goal
   because none appears in a one-month record is thin by construction. A planted

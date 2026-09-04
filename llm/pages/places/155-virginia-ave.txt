@@ -4,13 +4,14 @@ page_type: entity
 title: "155 Virginia Ave"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-28
+date_modified: 2026-09-04
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/operating_manual.md
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
   - raw/people/captures/2026-08-27_223406_gap-alexis-armel.md
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
 related:
   - wiki/people/alexis-armel
   - wiki/people/annie-ulmer
@@ -58,6 +59,9 @@ connections:
   - page: wiki/people/lukyan-mraz
     type: co-occurs
     claim: "Lukyan's visits are staged around the same household as Zach's supply handoffs ('wanted to see if Zach was there'), and a lent lap-quilting book and 'the room' with 'equipment' point to a small cannabis-grow attempt run out of the same Uniontown social circle."
+  - page: wiki/people/vaughn
+    type: co-occurs
+    claim: "The handoff geometry survives two supplier generations at the same house: Zach was directed by door in 2014-15 ('front door is open, i'm in the kitchen', 'side door to garage'), and in 2017 a brand-new supplier gets the street address seven hours into first contact and then 'Side door porch' — the same instruction, a different man, three years apart."
   - page: wiki/people/zachariah-harshman
     type: co-occurs
     claim: "Nearly every documented handoff in the 2014–15 supply relationship happens at the house — 'front door is open, i'm in the kitchen,' 'side door to garage' — placing Zach inside the same lair-continuity the bond-switch thesis tracks."

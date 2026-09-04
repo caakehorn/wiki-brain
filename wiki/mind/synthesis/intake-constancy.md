@@ -4,7 +4,7 @@ page_type: synthesis
 knowledge: earned
 status: active
 date_created: 2026-07-15
-date_modified: 2026-08-19
+date_modified: 2026-09-04
 sources:
   - raw/self/concepts/TOTALITY_SYNTHESIS_2026-06-10.md
   - raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html
@@ -53,6 +53,27 @@ connections:
 
 
 # The Intake Constancy
+
+> **RE-CHECKED [2026-09-04] — premise moved, and it supplies a small
+> confirmation.** [[wiki/mind/synthesis/supply-network]] moved for the
+> [[wiki/people/vaughn]] re-derivation, adding the succession's missing 2017
+> node and one measurement: the corpus's next new supply relationship opens
+> **twenty-three days after the network's only fatality**, and runs from first
+> contact to a completed transaction with a stranger in seven and a half hours.
+> This page's thesis is a fixed-rate intake metabolism that holds flat across
+> every variable the biography can throw at it, and it names the supply network
+> as its material-layer counterpart. **A death inside the network is about as
+> hard a variable as the biography has, and the procurement rate does not
+> register it.** That is the constancy claim tested at a new extreme and
+> surviving. No claim withdrawn; the finding is one degree stronger than it was,
+> and the arithmetic here is a latency rather than a rate, so it corroborates
+> rather than measures.>
+> **What this date bump also cleared, unread.** Staleness is computed from a
+> single `date_modified` per page, so bumping it for the re-check above cleared
+> **2 other stale flags on this page that nobody re-read**: [[wiki/mind/synthesis/closing-the-set]], [[wiki/mind/synthesis/totality-themes]]. They are
+> recorded here because the gate can no longer show them. Measured across the
+> whole 2026-09-04 crosslink pass: ten honest re-checks cleared **thirty-eight**
+> flags, twenty-eight of them unread. See `skills/INBOX.md`.
 
 The most stable fact in twenty years of involuntary behavioral record is not a
 peak, a collapse, or a rupture. It is a rate. Two independent,
