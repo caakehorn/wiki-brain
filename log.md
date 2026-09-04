@@ -9507,3 +9507,35 @@ first first-party dated evidence), and
 "night" turns out to be a five-day sequence in which access is offered as
 **consideration in a drug transaction**, a motive that page's satisfaction-
 driven reading does not cover.
+
+## [2026-09-04] lint | mind | the first layer of the Vaughn pass — and a defect in the staleness gate
+
+The re-derivation moved ten pages, which made eleven dependents stale. All were
+worked to CLAUDE.md rule 3 — premise re-read, decision recorded, no date bumped
+blind — and two produced real results rather than null ones:
+
+- **`wiki/health/the-configured-body`**: the cocaine dosage arc's *amplitude*
+  is now contested by its own corpus, but this page cites the arc for its
+  *shape* — money moves it, no health variable appears on it — and the new
+  datum is a sentence about money containing no health variable. The claim
+  survives on the half that was tested.
+- **`wiki/mind/synthesis/the-embedded-objective`**: its weakest positive case
+  (caddying, whose private goal is *inferred rather than stated*) gains one
+  contemporaneous record pointing the same way — the 2017-05-28 golf-grip
+  message. Still the weakest case; one degree better supported.
+
+**And a defect nobody had measured.** Those ten pages were carrying **38 stale
+flags between them, not ten** — `wiki/self/context-core` six,
+`the-unpapered-address` five, `the-configured-body` five. Staleness is a
+property of a *pair* and `date_modified` is one scalar on the page, so bumping
+it for one honest re-check discharges every other premise's claim at once.
+**Twenty-eight flags cleared without being read.** Gate run stashed and
+unstashed: 125 pairs before, 99 after, 38 cleared and 12 created.
+
+This is the other half of the mechanism the 2026-09-04 alexis-armel pass filed
+as net-zero drainage — and it cuts the other way: part of what looks like
+drainage is not drainage, and **the stale queue understates the real debt most
+on the pages that get worked most.** Every one of the ten pages now names, in
+its re-check block, the flags the bump cleared unread. Filed to
+`skills/INBOX.md` with the pair-level `rechecked:` map as the real fix and the
+unshallow measurement that has to precede it.

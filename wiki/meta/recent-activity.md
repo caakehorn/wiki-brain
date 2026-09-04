@@ -23,12 +23,13 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-04 — 90 pages
+## 2026-09-04 — 100 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/chemical-architecture]] | health | _(carries a GAP CLOSED from 2026-08-28)_ |
 | [[wiki/health/cocaine]] | health | _(carries a RE-CHECKED from 2026-08-28)_ |
+| [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — cocaine and supply-network both moved for the vaughn re-derivation. The cocaine page gained a contemporaneous first-person spend figure — *"I spend well over $100 a day on it"* |
 | [[wiki/interests/concert-record/index]] | interests | — |
 | [[wiki/interests/favorites/music/artists/flight-of-the-conchords]] | interests | — |
 | [[wiki/interests/favorites/music/artists/hey-monday]] | interests | **GAP CLOSED** — The source table read *"2008 · Unknown · Orlando, FL · Still open — band formed 2008 in West Palm Beach; exact Orlando show unresolved."* Two tweets settle it, and they are worth reading together beca |
@@ -42,7 +43,7 @@ simply listed.
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/readers-digest]] | meta | — |
-| [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
 | [[wiki/meta/testimony-veracity]] | meta | — |
 | [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/mind/concepts/calibrated-confidence]] | mind | _(carries a CORRECTED from 2026-08-23)_ |
@@ -50,17 +51,23 @@ simply listed.
 | [[wiki/mind/concepts/the-cool-metric]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
 | [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | mind | — |
 | [[wiki/mind/synthesis/annual-volume-suz]] | mind | **RE-CHECKED** — suzanne-frank gained a section on six dated messages naming Judge Fred Adams, including her report of his death (2020-05-24). **No volume figure on this page is affected** — the messages were always i |
+| [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — suzanne-frank moved for the vaughn re-derivation, which establishes that by 2017–18 the cocaine direction between mother and son had **reversed**: she is documented on that page as his source in 2015– |
 | [[wiki/mind/synthesis/block-unblock-loop]] | mind | **RE-CHECKED** — rick-frank gained one typed edge and no prose: his 2018-01-06 message, already quoted on that page, is now also cited on fred-adams as the corpus's only statement of what Adams was to the family. **No |
 | [[wiki/mind/synthesis/bond-switch-2015]] | mind | **RE-CHECKED** — alexis-armel gained a measurement of the relationship's public register: it stops on **29 November 2013** and holds at zero for the last **twenty-four months**, across 1,132 posts, in years when his d |
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — alexis-armel gained a measurement of the relationship's public register — zero mentions across the last twenty-four months and 1,132 posts, in years when his distinct-handle count peaked at 57 — and |
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a RE-CHECKED from 2026-08-28)_ |
+| [[wiki/mind/synthesis/failure-to-launch]] | mind | **RE-CHECKED** — nemacolin-caddying moved for the vaughn re-derivation: the yard drug-tested and the crew shared clean urine, and Vaughn corrected Dan's golf grip. This page cites Nemacolin for **tenure** — 43 months, |
+| [[wiki/mind/synthesis/intake-constancy]] | mind | **RE-CHECKED** — supply-network moved for the vaughn re-derivation, adding the succession's missing 2017 node and one measurement: the corpus's next new supply relationship opens **twenty-three days after the ne |
 | [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] | mind | **RE-CHECKED** — ally-and-dan-love-as-destiny moved on 2026-09-04 solely by having `destiny`, `the love story`, `ally-dan timeline`, `the courtship` and `the case` removed from its frontmatter. All five were invention |
 | [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — the-cool-metric gained a section measuring the public register on the six-year partner: affection at 12 of 32 mentions in 2010, 3 of 47 across 2011-2014, then zero for the relationship's last twenty-f |
+| [[wiki/mind/synthesis/spatial-behavior]] | mind | **RE-CHECKED** — 2017-poverty-floor moved for the vaughn re-derivation, gaining 156 May 2017 messages of primary-record texture. The new material is almost entirely about **transport as the binding constrain |
 | [[wiki/mind/synthesis/supply-network]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/the-binary-verdict]] | mind | **RE-CHECKED** — the-cool-metric gained a section showing the sorting metric run on a six-year live-in partner: affection in the public register falls from 12 of 32 mentions in 2010 to 3 of 47 across 2011-2014, the la |
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — the-cool-metric moved on 2026-09-04 by gaining a substantive section, not a re-check note: the twitter archive shows *splitting via irony* aimed at a six-year live-in partner rather than at strangers, |
+| [[wiki/mind/synthesis/the-embedded-objective]] | mind | **RE-CHECKED** — nemacolin-caddying moved for the vaughn re-derivation. This page treats the caddying tenure as its weakest positive instance, on the grounds that the private status ladder it credits is *inferred from |
 | [[wiki/mind/synthesis/the-unbroken-bond]] | mind | _(carries a RE-CHECKED from 2026-08-28)_ |
 | [[wiki/mind/synthesis/totality-themes]] | mind | **RE-CHECKED** — the-cool-metric, a member, gained a section extending the sorting metric's demonstrated range to an intimate partner. This page's thesis is about totality as a mode across domains, and a member gainin |
+| [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | **RE-CHECKED** — suzanne-frank moved for the vaughn re-derivation (the 2017–18 reversal of the cocaine direction between mother and son). This page cites her only through the money spine's "undischarged obligation" re |
 | [[wiki/people/alexis-armel]] | people | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/people/ally-lubin-cognitive-profile]] | people | **RE-CHECKED** — the-cool-metric gained a section showing the metric run on a six-year live-in partner, with the warm public register collapsing to zero. That page already carries this profile's own contribution at th |
 | [[wiki/people/bill]] | people | — |
@@ -112,13 +119,16 @@ simply listed.
 | [[wiki/people/zach-hendricks]] | people | — |
 | [[wiki/people/zaco]] | people | — |
 | [[wiki/places/155-virginia-ave]] | places | _(carries a GAP CLOSED from 2026-08-22)_ |
+| [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — 155-virginia-ave moved for the vaughn re-derivation, gaining one edge: the door-by-door handoff geometry at that house persists across two supplier generations (Zach Harshman 2014–15, a new supplier i |
 | [[wiki/self/concepts/ally-and-dan-love-as-destiny]] | self | _(carries a RE-CHECKED from 2026-08-26)_ |
+| [[wiki/self/context-core]] | self | **RE-CHECKED** — suzanne-frank moved for the vaughn re-derivation. This page carries her as a one-row summary in the relations table — realtor, primary financial line, savior↔adversary oscillation — and the new materi |
+| [[wiki/self/location-history]] | self | **RE-CHECKED** — 2017-poverty-floor moved for the vaughn re-derivation, gaining its first first-party dated evidence — 156 May 2017 messages of ride-coordination and check-day logistics. This page reasons fr |
 | [[wiki/self/twitter/2008]] | self | _(carries a GAP CLOSED from 2026-09-03)_ |
 | [[wiki/self/twitter/2014]] | self | **CORRECTED** — She is barely here. Those two are the whole year against **23 in 2013**, and the collapse is specific to her rather than to the account: 2014's @-mention *rate* is the second highest of the era at 374 |
 | [[wiki/timeline/periods/2017-poverty-floor]] | timeline | — |
 | [[wiki/work/nemacolin-caddying]] | work | — |
 
-## 2026-09-03 — 33 pages
+## 2026-09-03 — 30 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -127,14 +137,11 @@ simply listed.
 | [[wiki/interests/video-games]] | interests | — |
 | [[wiki/legal/2015-possession-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
-| [[wiki/mind/synthesis/failure-to-launch]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
 | [[wiki/mind/synthesis/twitter-2024-cognitive-state]] | mind | — |
-| [[wiki/mind/synthesis/vertical-authority-skepticism]] | mind | — |
 | [[wiki/people/dan-polyak]] | people | — |
 | [[wiki/people/josh-brannan]] | people | — |
 | [[wiki/places/424-bedford-ave]] | places | — |
-| [[wiki/self/location-history]] | self | _(carries a CONTRADICTION from 2026-09-02)_ |
 | [[wiki/self/twitter]] | self | _(carries a CONTRADICTION)_ |
 | [[wiki/self/twitter/2009]] | self | **CONTRADICTION** — `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and `wiki/timeline/periods/full-sail-2008-2010` and `wiki/people/alexis-armel` both build on |
 | [[wiki/self/twitter/2010]] | self | **CONTRADICTION** — the anchor is misread. The 18 February train was the **return** leg, not the outbound one. On 17 February Dan is already in New York (*"off to Williamsburg"*), and on the 18th he is *"On the train bac |
@@ -177,13 +184,12 @@ simply listed.
 | [[wiki/interests/favorites/eclecticism]] | interests | **REVISED** — This page last moved on 2026-06-23. Twenty-one days later the music member was rewritten from a cluster inventory into a two-wave, three-cluster, eighteen-year continuity argument with a lyrics-as-tim |
 | [[wiki/timeline/index]] | timeline | — |
 
-## 2026-08-31 — 3 pages
+## 2026-08-31 — 2 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/index]] | health | — |
 | [[wiki/health/intake-ledger]] | health | — |
-| [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — cocaine and chemical-architecture both gained the intake ledger's first measured night (2026-08-30/31: one 0.75 g cocaine unit over 9h 31m in six doses, three 0.05 g cannabis units; the unit reconcile |
 
 ## 2026-08-30 — 1 page
 
@@ -191,12 +197,11 @@ simply listed.
 |---|---|---|
 | [[wiki/meta/skills]] | meta | — |
 
-## 2026-08-28 — 16 pages
+## 2026-08-28 — 13 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — totality-themes gained two RE-CHECKED notes (2026-08-28) confirming a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris to Alexis Armel) touches neither page. **N |
-| [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a pre-Annie, Alexis-era eviction/concealment episode (2013–2014, Uniontown). It touches neither the Annie-era material nor any figure this |
 | [[wiki/mind/synthesis/august-grievance-verdict]] | mind | **RE-CHECKED** — flagged stale against attachment-trauma-bond (2026-08-28), which gained a RE-CHECKED note tracing back to a pre-Annie, 2013–2014 Alexis-era eviction/concealment episode on suzanne-frank. It touc |
 | [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/fayette-return]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
@@ -206,11 +211,9 @@ simply listed.
 | [[wiki/mind/synthesis/no-platonic-channel]] | mind | — |
 | [[wiki/mind/synthesis/read-receipt-forensics]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/the-commissioned-self]] | mind | **RE-CHECKED** — flagged stale against instrument-is-subject (2026-08-28), which added a constitution-pass mechanism section: Ti-dominance explains why the exocortex prompt's evidentiary standard takes the specific sh |
-| [[wiki/mind/synthesis/the-embedded-objective]] | mind | **RE-CHECKED** — flagged stale against 2015-possession-arrest (2026-08-28), which added a second, differently-dated operator account of an Alexis eviction/concealment episode used only to help date that page's arrest  |
 | [[wiki/mind/synthesis/the-rescue-premise]] | mind | **RE-CHECKED** — flagged stale against dormancy-not-exit (2026-08-28), which resolved a standing contradiction over whether a five-day tenure figure belonged to Franki Faris or to Alexis Armel's 2013 displacement — a  |
 | [[wiki/mind/synthesis/the-serial-monogamist]] | mind | — |
 | [[wiki/people/zach-clingan]] | people | **GAP CLOSED** — The 2014 "drug people" taxonomy and the December 2015 "my arch rival" outburst (below) both assume a rupture the corpus had never actually recorded. A 2026-08-27 operator capture (`raw/people/captures |
-| [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — estate-money-spine gained a constitution-pass mechanism section (the Altruism-1 inversion explaining the $14,000 family loan) and a full register table. Nothing in it touches tenancy, paper, or any of |
 
 ## 2026-08-27 — 3 pages
 
@@ -220,7 +223,7 @@ simply listed.
 | [[wiki/mind/profile/linguistic-profile]] | mind | **GAP CLOSED** — the operator volunteered the full "words for stupid" list against this page. It was not a gap this page had stated — unprompted material, staged here for the ingest to place. Placed here, in Lexical f |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 
-## 2026-08-26 — 45 pages
+## 2026-08-26 — 44 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -261,7 +264,6 @@ simply listed.
 | [[wiki/people/tom]] | people | — |
 | [[wiki/self/ancestry]] | self | — |
 | [[wiki/self/concepts/astrology-star-signs]] | self | **RE-CHECKED** — flagged stale again against ally-lubin (2026-08-26), which integrated a staged love letter and a sage finding about a mutual-correction sequence and a joke line ("I'm a SINGLE MOTHER"). None of the th |
-| [[wiki/self/context-core]] | self | _(carries a CORRECTED)_ |
 | [[wiki/self/overview]] | self | — |
 | [[wiki/timeline/events/fran-death-vigil]] | timeline | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/timeline/events/teen-concert-years]] | timeline | _(carries a CONTRADICTION from 2026-08-02)_ |
@@ -329,7 +331,7 @@ simply listed.
 | [[wiki/timeline/events/august-2026-morgantown-call-source-amendment]] | timeline | — |
 | [[wiki/timeline/events/august-2026-unmasking]] | timeline | — |
 
-## 2026-08-19 — 18 pages
+## 2026-08-19 — 17 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -343,7 +345,6 @@ simply listed.
 | [[wiki/mind/concepts/the-handed-mirror]] | mind | _(carries a CORRECTED from 2026-08-18)_ |
 | [[wiki/mind/profile/big-five-psychometrics]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/mind/profile/socionics-and-attitudinal]] | mind | — |
-| [[wiki/mind/synthesis/intake-constancy]] | mind | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/mind/synthesis/interests-as-era-markers]] | mind | — |
 | [[wiki/places/307-e-76th-st]] | places | **GAP CLOSED** — the Gaps note above records the monthly rent as not recovered. It is in the message dump twice, from Dan's own outbound. **2024-05-02:** *"I mean that's fine but the last lease we signed was 2450."* * |
 | [[wiki/places/90th-st-manhattan]] | places | _(carries a CORRECTED from 2026-08-10)_ |

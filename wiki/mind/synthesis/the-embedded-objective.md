@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-02
-date_modified: 2026-08-28
+date_modified: 2026-09-04
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -75,6 +75,26 @@ connections:
 ---
 
 # The Embedded Objective
+
+> **RE-CHECKED [2026-09-04] — premise moved, and it adds a small positive to
+> this page's weakest case.** [[wiki/work/nemacolin-caddying]] moved for the
+> [[wiki/people/vaughn]] re-derivation. This page treats the caddying tenure as
+> its weakest positive instance, on the grounds that the private status ladder
+> it credits is *inferred from what Dan chose to record rather than from any
+> statement of intent*. The new material contains one such record and it points
+> the same way: *"Dude the way you changed my grip / Has made a REAL difference
+> / I'm still getting things in place but my striking is better than it has
+> been"* (2017-05-28) — an unprompted, dated report of measurable progress on a
+> skill nobody at the club assigned or graded. That is the ladder in his own
+> voice rather than in the inference. **The claim is unchanged and one degree
+> better supported**; it is still the weakest of the three cases, because one
+> message about a grip is not a statement of intent either.>
+> **What this date bump also cleared, unread.** Staleness is computed from a
+> single `date_modified` per page, so bumping it for the re-check above cleared
+> **2 other stale flags on this page that nobody re-read**: [[wiki/legal/2015-possession-arrest]], [[wiki/mind/concepts/acquisition-drive]]. They are
+> recorded here because the gate can no longer show them. Measured across the
+> whole 2026-09-04 crosslink pass: ten honest re-checks cleared **thirty-eight**
+> flags, twenty-eight of them unread. See `skills/INBOX.md`.
 
 > **RE-CHECKED [2026-08-28]:** flagged stale against
 > [[wiki/legal/2015-possession-arrest]] (2026-08-28), which added a second,

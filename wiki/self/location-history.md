@@ -3,7 +3,7 @@ domain: self
 page_type: synthesis
 status: archived
 date_created: 2026-06-22
-date_modified: 2026-09-03
+date_modified: 2026-09-04
 sources: ["raw/self/twitter/archive.jsonl", "raw/self/location/2026-06-22-ingest/Location History (Timeline)-20260622T225253Z-3-001.zip", "raw/self/location/2026-06-22-ingest/Location History (Timeline)/semantic_location.db", "raw/self/location/2026-06-22-ingest/Location History (Timeline)/Records.json", "raw/self/facebook/facebook-ihatedanfrank/", "raw/self/archives/google-data-export-index-20260623.html"]
 synthesizes:
   - wiki/self/context-core
@@ -55,6 +55,17 @@ connections:
 ---
 
 # Location History (Google Timeline)
+
+> **RE-CHECKED [2026-09-04] — premise moved, conclusion unaffected.**
+> [[wiki/timeline/periods/2017-poverty-floor]] moved for the
+> [[wiki/people/vaughn]] re-derivation, gaining its first first-party dated
+> evidence — 156 May 2017 messages of ride-coordination and check-day
+> logistics. This page reasons from **location-history visit counts** (2,827
+> across 2017–18, Uniontown and Farmington heavy), and the new material is
+> consistent with that density without changing any figure in it: two carless
+> caddies shuttling between the same few Uniontown addresses is what a
+> local-heavy visit profile looks like from the inside. **No claim on this page
+> is affected.**
 
 ## Corpus Dimensions
 
