@@ -249,6 +249,64 @@ content. Filed to `skills/INBOX.md` with the measurement that would size the
 bigger prize — how much of that queue is the gate reporting its own bookkeeping
 — and with the reason it could not be run here (a shallow clone).
 
+## Phase 2 reader #1, part two — the mode the corpus actually needed
+
+**`--against` is the wrong question for a message corpus, and the queue proved
+it: 0 candidates across 7 pages.** That mode reads the rows naming a page and
+asks what else they name. A tweet is a self-contained utterance that often
+names several handles. A message averages five to fifteen words, and one that
+names somebody almost never names a second — so the mode returns nothing, and
+returning nothing looks exactly like a corpus with nothing to say.
+
+**A message corpus knows something no broadcast archive does: who the
+counterparty is.** `scan --conversation` joins a page's infobox `handles:` to
+the corpus's own handle field and reads the whole conversation with that person.
+Measured: **30 people pages resolve, reaching 41,349 rows**, and the sweep
+returns **51 candidates** where `--against` returned 0.
+
+`handles [prefix]` is the coverage view and the message corpus's own version of
+`entities --missing`:
+
+| | |
+|---|---|
+| people pages whose handle resolves into a message corpus | **30** (41,349 rows) |
+| pages declaring a handle the corpus does not have | 7 |
+| **people pages carrying no `handles:` at all** | **138** |
+| masked handles (`+1724***7658`) that resolved uniquely | **all of them** |
+| handles claimed by two different pages | 1 — `+17249123381`, `people/zaco` and `people/zach-hendricks` |
+
+Masking turned out not to be an obstacle: a ten-digit space with three unknowns
+and a known area code is unambiguous inside 504 contacts. A mask that matched
+two would be reported, not guessed at; none did.
+
+### The "uncatchable" failure mode has a catchable class, and it was live
+
+The honest-limit section below says crosslinking has no cheap unattended lane
+because its judgment failure produces plausible correctly-cited prose that no
+arithmetic detects. That stands. **But one class of it is arithmetic, and it
+was running at HIGH confidence:**
+
+| Name | Rows in the message dump | How many are the thing |
+|---|---|---|
+| `say anything` — a band with a page | **134** | **0** |
+| `the office` — a show with a page | **77** | **0** (all a real estate office) |
+
+Confidence is *"more than one token = high"*, on the reasoning that a bare first
+name matches anybody and a full name does not. A two-token name that is also
+ordinary English breaks that rule in the direction that matters, because the
+tool tells you to trust the match — and `coverage` was presenting the first of
+these as the wiki's top music result.
+
+Such names are now **flagged, not demoted**, with the count marked as
+not-evidence: demoting hides the candidate behind `--low`, and some of them
+really are the band (Fall Out Boy is discussed by name in the Ally
+conversation). The word list is the corpus's own top 1,000 tokens rather than a
+hand-kept list, so it tracks how the record is actually written. It over-flags
+on purpose — `annie ulmer` trips it, because a surname belonging to the
+most-messaged person in the corpus is genuinely frequent in it. Dispersion was
+tried as a fix and abandoned: 504 handles, most of them a handful of messages,
+so even `say` reaches only 14.7% of conversations and nothing separates.
+
 ## Phase 0.5 — populate `aliases:` — **the first content task**
 
 389 pages, none of which the index can find under any name but their exact

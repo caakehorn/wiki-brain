@@ -212,3 +212,129 @@ class GeneratedSurfaces(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class ConversationMode(unittest.TestCase):
+    """The join a message corpus makes possible and a broadcast archive cannot.
+
+    `--against` asks "in the rows that name this page, what else is named",
+    which works on tweets and fails on messages: a five-to-fifteen-word message
+    that names one person almost never names a second. Run over the campaign
+    queue against the message dump on 2026-09-04 it returned **0 candidates
+    across 7 pages**. The message corpus knows something the archive does not —
+    *who the counterparty is* — and scoping by that reaches 41,349 rows across
+    30 people pages.
+    """
+
+    def setUp(self):
+        self.m = load_module()
+
+    def _fm(self, handles):
+        return self.m.split_fm(page("X", handles=handles))[0]
+
+    def test_full_e164_resolves(self):
+        got, amb = self.m.resolve_handles(self._fm(["+17249707658"]),
+                                          {"+17249707658": 83})
+        self.assertEqual(got, ["+17249707658"])
+        self.assertEqual(amb, [])
+
+    def test_bare_ten_digits_resolve_against_e164(self):
+        got, _ = self.m.resolve_handles(self._fm(["510-506-3276"]),
+                                        {"+15105063276": 12})
+        self.assertEqual(got, ["+15105063276"])
+
+    def test_a_masked_handle_resolves_when_it_is_unambiguous(self):
+        """`+1724***7658` is how this repo redacts a live number in a public file."""
+        got, amb = self.m.resolve_handles(self._fm(["+1724***7658"]),
+                                          {"+17249707658": 83, "+12124702449": 9})
+        self.assertEqual(got, ["+17249707658"])
+        self.assertEqual(amb, [])
+
+    def test_a_masked_handle_that_matches_two_is_reported_not_guessed(self):
+        got, amb = self.m.resolve_handles(
+            self._fm(["+1724***7658"]),
+            {"+17249707658": 83, "+17241117658": 4})
+        self.assertEqual(got, [])
+        self.assertEqual(amb[0][1], 2)
+
+    def test_a_social_handle_is_not_a_counterparty(self):
+        got, _ = self.m.resolve_handles(self._fm(["@alexisarmel"]),
+                                        {"@alexisarmel": 5})
+        self.assertEqual(got, [])
+
+    def test_email_handles_resolve_case_insensitively(self):
+        got, _ = self.m.resolve_handles(self._fm(["AllyLubin@gmail.com"]),
+                                        {"allylubin@gmail.com": 300})
+        self.assertEqual(got, ["allylubin@gmail.com"])
+
+    def test_a_parenthetical_note_after_a_handle_is_stripped(self):
+        got, _ = self.m.resolve_handles(
+            self._fm(["+16312588085 (building notices signed 'John PACI')"]),
+            {"+16312588085": 37})
+        self.assertEqual(got, ["+16312588085"])
+
+
+class CommonPhraseFlag(unittest.TestCase):
+    """The one class of the campaign's "uncatchable" failure that is catchable.
+
+    Confidence is `more than one token = high`. A two-token page name that is
+    also ordinary English breaks that rule in the worst direction, because the
+    tool tells you to trust the match. Measured over the 217,573-record dump:
+    "say anything" returns 134 rows and none of them is the band; "the office"
+    returns 77 and none of them is the show — every one is a real estate office.
+    `coverage` was presenting the first as the wiki's top music result.
+    """
+
+    def setUp(self):
+        self.m = load_module()
+        self.m.COMMON_PHRASE.clear()
+        self.m.MORATORIUM_TARGETS.clear()
+
+    def test_a_band_named_after_a_phrase_is_flagged(self):
+        idx = self.m.build_index({
+            "wiki/interests/favorites/music/artists/say-anything.md": page("Say Anything"),
+            "wiki/people/katie-fletcher.md": page("Katie Fletcher"),
+        })
+        # A stand-in corpus whose ordinary words are exactly these.
+        self.m._CORPUS_CACHE["fake"] = [
+            ("2016-01-01", "you can say anything you want", ""),
+        ] * 5
+        self.m.CORPORA["fake"] = {"kind": "jsonl", "family": None}
+        try:
+            got = self.m.mark_common_phrases(idx, ["fake"])
+        finally:
+            del self.m.CORPORA["fake"]
+            del self.m._CORPUS_CACHE["fake"]
+        self.assertIn("say anything", got)
+        self.assertNotIn("katie fletcher", got)
+
+    def test_the_flag_reaches_the_output_and_says_the_count_is_not_evidence(self):
+        self.m.COMMON_PHRASE.add("say anything")
+        idx = {"wiki/interests/favorites/music/artists/say-anything":
+               {"domain": "interests", "limit": 1, "title": "Say Anything", "names": []}}
+        hits = {"wiki/interests/favorites/music/artists/say-anything":
+                [("2016-01-11", "say anything", "high",
+                  "dont say anything to him", "Sent +1724", "dump.txt", 1)]}
+        import io, contextlib
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            self.m.render_hits("wiki/x", hits, idx)
+        out = buf.getvalue()
+        self.assertIn("ordinary English", out)
+        self.assertIn("THE COUNT IS NOT EVIDENCE", out)
+
+    def test_flagging_does_not_hide_the_candidate(self):
+        """Demoting would bury it behind --low, and some of these are real."""
+        self.m.COMMON_PHRASE.add("fall out boy")
+        idx = {"wiki/interests/favorites/music/artists/fall-out-boy":
+               {"domain": "interests", "limit": 0, "title": "Fall Out Boy", "names": []}}
+        hits = {"wiki/interests/favorites/music/artists/fall-out-boy":
+                [("2019-09-01", "fall out boy", "high",
+                  "a secret show where fall out boy performed as schrute farms",
+                  "Sent +1561", "dump.txt", 1)]}
+        import io, contextlib
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            n = self.m.render_hits("wiki/x", hits, idx)
+        self.assertEqual(n, 1)
+        self.assertIn("fall-out-boy", buf.getvalue())

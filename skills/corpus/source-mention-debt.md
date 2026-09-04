@@ -107,6 +107,24 @@ activity, the concert table and the favorites list are all still unread, and
 `wiki/interests/music/overview` carries absence claims derived from the message
 corpus that have never been checked either way.
 
+**The right scope depends on the corpus.** `--against` reads the rows naming a
+page and asks what else they name — correct for a broadcast archive, wrong for
+messages, where a five-to-fifteen-word row that names one person almost never
+names a second. It returned **0 candidates across 7 pages** on the message dump.
+`scan --conversation` scopes by counterparty instead, joining a page's infobox
+`handles:` to the corpus's handle field: 30 people pages resolve, 41,349 rows,
+51 candidates. `bin/wiki-crosslink handles` is the coverage view — and **138
+people pages carry no `handles:` at all**, which is the message corpus's version
+of the alias gap.
+
+**A page name that is also ordinary English produces confident garbage.** `say
+anything` returns 134 rows in the message dump and **none is the band**; `the
+office` returns 77 and **none is the show**. Both are reported `high` because
+the rule is "more than one token". They are now flagged with the count marked
+not-evidence — flagged rather than demoted, because some really are the band.
+This is the one class of the judgment failure that is mechanically catchable;
+the rest still is not.
+
 **A string two pages both claim is evidence for neither.** `@alexisarmel` is in
 one person's `aliases:` and in another's infobox `handles:`; 85 rows about the
 first came back as 101 mentions of the second. `scan` now marks such candidates
