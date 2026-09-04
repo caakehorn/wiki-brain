@@ -1,3 +1,69 @@
+## [2026-09-04] connect | people | the estate's two hands, found by reading a conversation instead of a name
+
+**Three pages, one corpus, and all three had told us where to point it.**
+`bin/wiki-crosslink scan --conversation` reads the whole message thread with a
+page's counterparty rather than the rows that name the page. Run over the Suz
+thread (30,203 rows) and the Rod Banks thread (92), it produced the following.
+
+**`wiki/people/fred-adams` said no contemporaneous record of him existed. There
+are sixteen dated rows.** The Gaps section read *"every fact here comes from
+Dan's narration or from the estate attorney's calls."* Six messages from Suz,
+three involving Rick, the rest scattered. He is not a correspondent — that part
+was right — but he is named, at length, by people who were.
+
+**He was dead before the money moved.** Suz, 2020-05-24 07:24: *"I found out
+last night, quite by coincidence, that judge Adams died several days ago"* —
+placing the death around **18–21 May 2020**. The $10,000 advance came in June,
+the court order 21 August, the final check 1 September. The man this wiki calls
+the money spine's institutional valve was not alive for the arrival, and the
+page's claim that the two-and-a-half-year delay "is a function of the structure
+Adams sat at the centre of" now has a testable form the corpus cannot settle.
+Also disambiguated a phrase that had been harmless until today: *"the judge's
+order signed August 21"* is the Orphans' Court, **not Adams**.
+
+**The estate attorney has a name: Jason Adams, of Adams & Adams.** The page had
+said the August 2020 attorney "is not established to be Adams or his office."
+Three messages establish it, the last fifteen days before the order: *"i talked
+to jasón adams today and am going on saturday morning to sign for the
+inheritance in advance."* He has no page and is owed one.
+
+**`wiki/people/rod-banks` was a stub built on one side of a conversation.** It
+recorded *"Messages 41 · Direction: All received (export artifact)"* and read
+him as a man issuing directives about Fran's property, relationship unresolved.
+The dox-scan dump holds the same thread at **92 messages, 51 Sent / 41
+Received**. With Dan's half the answer is plain and it is none of the three the
+page guessed: **he is the estate's disbursing agent** — authorises a title
+transfer, cancels Fran's insurance, pays Timeslips, audits a utility notice,
+collects the mail weekly.
+
+**And he itemises $32,500 of advances nobody had counted.** Five checks,
+2019-10-12 to 2020-04-17 — $5,000 / $10,000 / $7,000 / $3,000 / $7,500 — each
+one recorded with **who authorised it**: *"Jason has approved a $3000 check for
+you."* The chain is two-step and Banks never claims the decision. Against this,
+`estate-money-spine` carried a single line for the period, *2020-06-23 ·
+$10,000*, and the $10,000 in the thread is dated **2020-02-04**. Held as a
+contradiction on both pages rather than resolved; the spine's downstream
+arithmetic has **not** been re-run and that is flagged there.
+
+**Two things deliberately withheld, both under `CLAUDE.md`'s standing
+directive.** Dan nominates a payee for each of those five checks and Banks asks
+each time; the payees are not written down, because naming them is a new dated
+line about a person that directive closes. Three Adams rows were sent to an
+alternate number on the same closed thread; the recipient is withheld and the
+message text is not. And one third-party phone number in the Banks thread is
+left in `raw/` where it already is — this repository is public.
+
+**A near-miss worth recording.** Two rows in the Adams table were first written
+up as sent to a different contact entirely, from a handle that turned out to be
+Rick's. `bin/wiki-crosslink` gained a *contested handle* warning the same day
+for exactly this class of error, and it did not fire, because the mistake was
+made by hand before the tool was consulted. Every attribution was then
+re-resolved against the pages that declare the handle. The tool catches the
+failure; using the tool is what catches it.
+
+**Cascade contained this time.** Three pages went newly stale and all three were
+worked; 44 stale pages before the batch, 44 after.
+
 ## [2026-09-04] connect | people | the twitter archive, read directly onto the page it was about
 
 **The page had worked the twitter corpus and never read it.**

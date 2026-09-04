@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-28
+date_modified: 2026-09-04
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -22,6 +22,9 @@ synthesizes:
   - wiki/mind/profile/big-five-psychometrics
 tags: [financial-stress, forensic-analysis, family]
 connections:
+  - page: wiki/people/rod-banks
+    type: evidenced-by
+    claim: "The pre-distribution flow is itemised in a thread this page had never read: five advances between 2019-10-12 and 2020-04-17 totalling $32,500, each authorised by Jason Adams and written by Rod Banks, against the single '2020-06-23, $10,000' line this page carried for the period. The spine's picture of the 2020 arrival as one event has $32,500 of dated flow in front of it."
   - page: wiki/mind/synthesis/failure-to-launch
     type: evidences
     claim: "Capital arriving in lumps and exiting through standing drains is the financial signature of an engine with no orbit: $144,069.31 dissipating inside five months against a $119K-$123K lifetime outflow to one partner, with nothing converting into an asset at any point."
@@ -161,6 +164,22 @@ as gifts and distributions: Fran's "$100/year" protocol and the NS7
 gift, summer wages driving parts deliveries, and ultimately the estate.
 
 The one moment the two lines cross in a single document is dated to the
+> **ADDED [2026-09-04] — five advances the spine did not have, and a
+> contradiction it must carry.** The [[wiki/people/rod-banks]] thread itemises
+> **$32,500** of estate advances between 2019-10-12 and 2020-04-17, each one
+> authorised by **Jason Adams** and written by Banks, quoted on that page. This
+> page's timeline carried a single `2020-06-23 · $10,000` line for the period,
+> and the $10,000 in the thread is dated **2020-02-04**. Either there were two
+> $10,000 advances four months apart or one of the two dates is wrong; the
+> corpus does not settle it and this page does not pick. **The advances are now
+> in the timeline above with their dates and the 2020-06-23 line is left
+> standing beside them.** The arithmetic downstream of this page — the
+> dissipation rate, the lifetime-outflow comparison — has *not* been re-run
+> against the larger figure and should be, in a pass that can rebuild the
+> derivation rather than annotate it. Also: [[wiki/people/fred-adams]], the man
+> this page calls the money spine's institutional valve, **died around 18–21
+> May 2020**, between the last of these advances and the order.
+
 day. On **August 21, 2020** the court signed the order distributing
 **$144,069.31** of the Fran estate to Dan. On **August 22, 2020** he
 wrote the family-thread message pairing his new politics with both
@@ -216,6 +235,11 @@ attend, and it moved first.
 | 2018 | Deep-cycle churn: irregular transfers of $20–$3,000 running both ways, entered as debts, never reconciled; 1 AM ATM runs (the "~$750/week borrowed from Suz" rate is **retracted** — see "The direction the spine had backwards" below) | churn |
 | 2018-04-04 | Fran dies; estate enters administration | — |
 | 2018-08 → 2018-10 | Dan draws ~$20,000 against the undistributed estate and transfers ~$14,000 of it to Suz; $4,000 later recovered | −$10,000 net, Dan → Suz |
+| 2019-10-12 | Estate advance, authorised by Jason Adams, written by [[wiki/people/rod-banks|Rod Banks]] | $5,000 |
+| 2020-02-04 | Estate advance, same chain | $10,000 |
+| 2020-03-06 | Estate advance, same chain | $7,000 |
+| 2020-03-27 | Estate advance, same chain | $3,000 |
+| 2020-04-17 | Estate advance, same chain | $7,500 |
 | 2020-06-23 | Estate advance issued | $10,000 |
 | 2020-08-21 | Court signs final distribution order | $144,069.31 total |
 | 2020-09-01 | Final check released, deposited via Suz | $134,069.31 |

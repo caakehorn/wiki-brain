@@ -7,7 +7,7 @@ importance: critical
 status: active
 knowledge: mixed
 date_created: 2026-06-22
-date_modified: 2026-08-28
+date_modified: 2026-09-04
 date_range_start: 1962-09-15
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
@@ -48,6 +48,9 @@ infobox:
   handles: ["+172****8715", "suzfrank@***.net", "suzfrank915@***.com"]
   known_for: "The 33,698-message thread that is the second-largest relationship record in the corpus, and the unsettled mutual ledger running through all of it"
 connections:
+  - page: wiki/people/fred-adams
+    type: evidences
+    claim: "Her channel is the only contemporaneous record the corpus holds of Judge Fred Adams: six dated messages, including her going to him for money before a closing (2018-11-05, 'I'm not going to make it until my next closing') and her reporting his death (2020-05-24, 'quite by coincidence, that judge Adams died several days ago'). She is the family's line to the man who controlled its money, and until 2026-09-04 his page said no such record existed."
   - page: wiki/people/alexis-armel
     type: caused-by
     claim: "A March 2014 washing-machine incident Dan says he still does not understand is her stated reason for throwing Alexis out of the house — the second Suz-driven eviction of Alexis this page now documents, and one her son overrode for five months by hiding her in the house in secret."
@@ -550,6 +553,37 @@ room on the strength of her and Ira's donations to the hospital — and *"really
 held herself together and made it very light spirited and happy."* Both are hers, and the wiki
 states the interval rather than the verdict, because the person who could
 supply the other half of it has never been asked.
+
+## Her channel is the only record of the man who held the money
+
+Six dated messages from her name [[wiki/people/fred-adams|Judge Fred Adams]] —
+the trustee of the Coldren accounts and, until 2026-09-04, a figure whose page
+said every fact about him came from Dan's narration. It did not: it came from
+her. She is the family's working line to him, and the six rows say what that
+looked like.
+
+Two of them are load-bearing. On **2018-11-05** she goes to him for money to
+cover an overdraft — *"I'm going to have to go see judge Adams tomorrow because
+I'm not going to make it until my next closing. If there is any way you can
+send me $200, that will fix my overdraft until I get a check"* — which puts a
+sitting judge and her son in the same request, in the same message, on the same
+day. It is the ledger that never closes and the estate's institutional valve
+appearing as two solutions to one shortfall.
+
+And on **2020-05-24** at 07:24 she is the one who reports his death: *"I don't
+know if you will read this or not but Jsyk I found out last night, quite by
+coincidence, that judge Adams died several days ago."* The corpus has no other
+record of it. *"I don't know if you will read this or not"* is the whole
+relationship in a clause.
+
+The rest are administrative and cumulatively establish the same thing — an
+appointment (*"I'm supposed to see Fred Adams at 2:00. Should I pick you up
+after?"*, 2018-09-04), unpaid utilities at Virginia Avenue to be recovered from
+him (2019-04-08), a party at his new place (2019-04-12), and his legal advice
+on a statute of limitations relayed to Dan two years earlier (2016-06-03). She
+is not adjacent to the estate machinery. She is inside it, without authority in
+it, which is the same position [[wiki/people/rod-banks]] documents from the
+disbursing end.
 
 ## The realtor
 

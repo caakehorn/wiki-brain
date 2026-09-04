@@ -8,8 +8,9 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-04 — 33 pages
+## 2026-09-04 — 41 pages
 
+- **Session log:** connect | people | the estate's two hands, found by reading a conversation instead of a name
 - **Session log:** connect | people | the twitter archive, read directly onto the page it was about
 - **Session log:** site | meta | the Wikipedia-style reader is served again
 - **Session log:** connect | self, interests, health, mind, people | the twitter archive read back onto the pages it was always about
@@ -36,8 +37,11 @@ simply listed.
 | [[wiki/mind/concepts/calibrated-confidence]] | mind | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/mind/concepts/chaos-preference]] | mind | **RE-CHECKED** — the-cool-metric gained a section showing the received-versus-sought sort aimed at an already-admitted person: a six-year partner whose public register goes ironic and then silent. This page's axis is  |
 | [[wiki/mind/concepts/the-cool-metric]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
+| [[wiki/mind/synthesis/annual-volume-suz]] | mind | **RE-CHECKED** — suzanne-frank gained a section on six dated messages naming Judge Fred Adams, including her report of his death (2020-05-24). **No volume figure on this page is affected** — the messages were always i |
+| [[wiki/mind/synthesis/block-unblock-loop]] | mind | **RE-CHECKED** — rick-frank gained one typed edge and no prose: his 2018-01-06 message, already quoted on that page, is now also cited on fred-adams as the corpus's only statement of what Adams was to the family. **No |
 | [[wiki/mind/synthesis/bond-switch-2015]] | mind | **RE-CHECKED** — alexis-armel gained a measurement of the relationship's public register: it stops on **29 November 2013** and holds at zero for the last **twenty-four months**, across 1,132 posts, in years when his d |
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — alexis-armel gained a measurement of the relationship's public register — zero mentions across the last twenty-four months and 1,132 posts, in years when his distinct-handle count peaked at 57 — and |
+| [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a RE-CHECKED from 2026-08-28)_ |
 | [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — the-cool-metric gained a section measuring the public register on the six-year partner: affection at 12 of 32 mentions in 2010, 3 of 47 across 2011-2014, then zero for the relationship's last twenty-f |
 | [[wiki/mind/synthesis/the-binary-verdict]] | mind | **RE-CHECKED** — the-cool-metric gained a section showing the sorting metric run on a six-year live-in partner: affection in the public register falls from 12 of 32 mentions in 2010 to 3 of 47 across 2011-2014, the la |
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — the-cool-metric moved on 2026-09-04 by gaining a substantive section, not a re-check note: the twitter archive shows *splitting via irony* aimed at a six-year live-in partner rather than at strangers, |
@@ -46,7 +50,12 @@ simply listed.
 | [[wiki/people/alexis-armel]] | people | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/people/ally-lubin-cognitive-profile]] | people | **RE-CHECKED** — the-cool-metric gained a section showing the metric run on a six-year live-in partner, with the warm public register collapsing to zero. That page already carries this profile's own contribution at th |
 | [[wiki/people/franki-faris]] | people | _(carries a REVISED from 2026-07-13)_ |
+| [[wiki/people/fred-adams]] | people | **CORRECTED** — This section read: *"Adams sends and receives nothing in the message corpus; every fact here comes from Dan's narration or from the estate attorney's calls, and the estate attorney reached in August 2 |
 | [[wiki/people/katie-fletcher]] | people | **CORRECTED** — this paragraph ended *"There is no message corpus for her — everything known arrives through Dan's later AI-session narration."* There is still no message corpus. But "everything known" was wrong: the |
+| [[wiki/people/rick-frank]] | people | _(carries a CORRECTED from 2026-08-11)_ |
+| [[wiki/people/rod-banks]] | people | **CORRECTED** — This page was written from 41 messages in the CSV export and attributed their one-sidedness to the export. The dox-scan dump holds the same thread at **92 messages — 51 Sent, 41 Received.** Dan's half |
+| [[wiki/people/suzanne-frank]] | people | _(carries a RE-CHECKED from 2026-08-26)_ |
+| [[wiki/people/suzanne-frank-personality-assessment]] | people | **RE-CHECKED** — suzanne-frank gained a section on her six messages naming Judge Fred Adams. **No scored dimension here is affected.** Worth recording for a later pass: the 2018-11-05 message asks a sitting judge and  |
 | [[wiki/self/twitter/2008]] | self | _(carries a GAP CLOSED from 2026-09-03)_ |
 | [[wiki/self/twitter/2014]] | self | **CORRECTED** — She is barely here. Those two are the whole year against **23 in 2013**, and the collapse is specific to her rather than to the account: 2014's @-mention *rate* is the second highest of the era at 374 |
 
@@ -171,7 +180,7 @@ simply listed.
 |---|---|---|
 | [[wiki/meta/skills]] | meta | — |
 
-## 2026-08-28 — 23 pages
+## 2026-08-28 — 18 pages
 
 - **Session log:** feature | meta | the READER'S DIGEST edition — a plain-language twin per page, behind a switch
 - **Session log:** spec | meta | the constitution pass adopted as a mandatory CLIMB step, with a lint gate
@@ -207,12 +216,9 @@ simply listed.
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/mind/synthesis/alias-as-periodization]] | mind | **RE-CHECKED** — totality-themes gained two RE-CHECKED notes (2026-08-28) confirming a `dormancy-not-exit` correction (a five-day tenure figure reattributed from Franki Faris to Alexis Armel) touches neither page. **N |
-| [[wiki/mind/synthesis/annual-volume-suz]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a new 2013–2014 eviction/concealment episode (Alexis Armel, the washing machine). No message-volume figure this page draws on is touched.  |
 | [[wiki/mind/synthesis/attachment-trauma-bond]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a pre-Annie, Alexis-era eviction/concealment episode (2013–2014, Uniontown). It touches neither the Annie-era material nor any figure this |
 | [[wiki/mind/synthesis/august-grievance-verdict]] | mind | **RE-CHECKED** — flagged stale against attachment-trauma-bond (2026-08-28), which gained a RE-CHECKED note tracing back to a pre-Annie, 2013–2014 Alexis-era eviction/concealment episode on suzanne-frank. It touc |
-| [[wiki/mind/synthesis/block-unblock-loop]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/dan-annie-fallout-verdict]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
-| [[wiki/mind/synthesis/estate-money-spine]] | mind | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a March 2014 Alexis-era eviction/concealment episode — housing and family-drama, no capital event, no figure this page draws on. **No clai |
 | [[wiki/mind/synthesis/fayette-return]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/instrument-is-subject]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/morgantown-call-three-participant-ethical-analysis]] | mind | **RE-CHECKED** — flagged stale against august-grievance-verdict (2026-08-28), which gained a re-check note tracing back to a pre-Annie, 2013–2014 Alexis-era eviction/concealment episode on suzanne-frank. It touc |
@@ -224,8 +230,6 @@ simply listed.
 | [[wiki/mind/synthesis/the-embedded-objective]] | mind | **RE-CHECKED** — flagged stale against 2015-possession-arrest (2026-08-28), which added a second, differently-dated operator account of an Alexis eviction/concealment episode used only to help date that page's arrest  |
 | [[wiki/mind/synthesis/the-rescue-premise]] | mind | **RE-CHECKED** — flagged stale against dormancy-not-exit (2026-08-28), which resolved a standing contradiction over whether a five-day tenure figure belonged to Franki Faris or to Alexis Armel's 2013 displacement — a  |
 | [[wiki/mind/synthesis/the-serial-monogamist]] | mind | — |
-| [[wiki/people/suzanne-frank]] | people | _(carries a RE-CHECKED from 2026-08-26)_ |
-| [[wiki/people/suzanne-frank-personality-assessment]] | people | **RE-CHECKED** — flagged stale against suzanne-frank (2026-08-28), which added a March 2014 eviction of Alexis Armel from the household over a washing-machine incident. No existing claim on this page is falsified, but |
 | [[wiki/people/zach-clingan]] | people | **GAP CLOSED** — The 2014 "drug people" taxonomy and the December 2015 "my arch rival" outburst (below) both assume a rupture the corpus had never actually recorded. A 2026-08-27 operator capture (`raw/people/captures |
 | [[wiki/places/155-virginia-ave]] | places | _(carries a GAP CLOSED from 2026-08-22)_ |
 | [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — estate-money-spine gained a constitution-pass mechanism section (the Altruism-1 inversion explaining the $14,000 family loan) and a full register table. Nothing in it touches tenancy, paper, or any of |
@@ -311,7 +315,7 @@ simply listed.
 | [[wiki/work/fastly-fsly]] | work | _(carries a RE-CHECKED from 2026-08-21)_ |
 | [[wiki/work/tech/max-framework/overview]] | work | — |
 
-## 2026-08-23 — 16 pages
+## 2026-08-23 — 15 pages
 
 - **Session log:** directive | people | the Annie record is closed — no further texts, no further narrative
 - **Session log:** lint | mind | the deeper pass killed the wiki's headline latency finding and settled two open counts
@@ -333,7 +337,6 @@ simply listed.
 | [[wiki/people/johnny-dealer]] | people | **RE-CHECKED** — master-message-dump moved on 2026-08-23 when its "avg ~8.36 words/message" Voice Patterns line was corrected to a per-era series (8.34 in 2015–19 rising to 15.03 in 2026). Nothing this page draws from |
 | [[wiki/people/libby]] | people | **GAP CLOSED** — The first version of this page carried the identification as **inferred**, on two supports: Dan's own contemporaneous Tumblr link (`girlfriend-muse-libby-titus-elizabeth-jurist`, sent 2024-03-17, six  |
 | [[wiki/people/otto]] | people | — |
-| [[wiki/people/rick-frank]] | people | _(carries a CORRECTED from 2026-08-11)_ |
 | [[wiki/places/derrick-avenue]] | places | — |
 | [[wiki/places/index]] | places | — |
 | [[wiki/self/message-corpora/master-message-dump]] | self | **CORRECTED** — the ~8.36 figure is a **2015-19 baseline, not a constant.** Recomputed per era from the sender-tagged deep export: 8.34 (2015-19), 9.31 (2020-24), 11.71 (2025), **15.03 (2026)**. The "3-7 discrete bur |
@@ -438,7 +441,7 @@ simply listed.
 | [[wiki/self/concepts/gemini]] | self | **CORRECTED** — An earlier version of this page quoted Gemini's ChatGPT autopsy — "access and replicate a linguistic pattern from a specific subculture without an immediate, top-down ethical override," "every system  |
 | [[wiki/self/youtube-watch-history]] | self | _(carries a REVISED from 2026-07-20)_ |
 
-## 2026-08-18 — 15 pages
+## 2026-08-18 — 14 pages
 
 - **Session log:** rewrite | people | suzanne-frank — the wiki had the family's money flowing the wrong way, and the mother's thread undercounted fourteenfold
 - **Session log:** ingest | people/mind/timeline | raw/self/chats/The 2nd most famous _Jimmy Pop_ in Pennsylvania .md + Gemini-_21.md + message corpus
@@ -454,7 +457,6 @@ simply listed.
 | [[wiki/people/danielle-onesi]] | people | **CORRECTED** — this paragraph had the identification right and the wiki did not act on it. A separate entity page, `wiki/people/max-danielle-bf`, was created in June 2026 for the same man under the name "Max" — read |
 | [[wiki/people/dave-moore]] | people | — |
 | [[wiki/people/diane-moore]] | people | **CORRECTED** — This page previously titled her *"Diane (Rebecca Diane Van Voorhis Shrum)"* and stated outright that the surname was *"given here as Shrum on the strength of the documented marriage rather than a reco |
-| [[wiki/people/fred-adams]] | people | — |
 | [[wiki/people/john-felix]] | people | **REVISED** — The partner reading above is **not supported** by the source this page never checked. The `+17249636738` thread does run only February–June 2016, but "Felix" appears in the Suz thread **continuously f |
 | [[wiki/people/max]] | people | **CORRECTED** — This page previously read: *"Separate from real person 'Max' (Danielle's BF, 'the Dude', music guy / CNA-to-producer from Gemini-_21.md)."* The only two occurrences of the name in `Gemini-_21.md` are  |
 | [[wiki/self/lineage/family-tree]] | self | **CORRECTED** — The tree previously carried her only under her birth name and the wiki's entity page under an inferred "Shrum." The message corpus names her twice on 2018-04-01 as **Diane Moore**, alongside **Dave Mo |

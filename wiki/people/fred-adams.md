@@ -6,11 +6,14 @@ aliases: ["Fred Adams", "Judge Adams"]
 status: stable
 knowledge: mixed
 date_created: 2026-08-02
-date_modified: 2026-08-18
+date_range_start: 2016-06-03
+date_range_end: 2020-08-24
+date_modified: 2026-09-04
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/dox-md/_Photo Thread PT II_ Grand Finale Calibration .md"
   - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
 tags: [family, legal, financial-stress, uniontown-era]
 infobox:
   name: "Fred Adams"
@@ -22,13 +25,22 @@ infobox:
 connections:
   - page: wiki/mind/synthesis/estate-money-spine
     type: component-of
-    claim: "Adams is the money spine's institutional valve: the capital that reaches Dan as the 2020 distribution passed through one man's discretion for the whole period Fran was alive, which is why the family's largest asset never behaved like an inheritance in waiting."
+    claim: "Adams is the money spine's institutional valve: the capital that reaches Dan as the 2020 distribution passed through one man's discretion for the whole period Fran was alive, which is why the family's largest asset never behaved like an inheritance in waiting. He died around 18-21 May 2020 — two to three weeks before the first payment and three months before the order — so the valve was not in place for the arrival itself, and the delay-attributed-to-Adams claim now has a testable form the corpus cannot settle."
   - page: wiki/timeline/events/fran-death-vigil
     type: causes
     claim: "His mandate that someone be with Fran twenty-four hours a day is what created the shift rotation, and therefore what made the family's exclusion of Dan and Annie from that rotation a formal act rather than a social one."
   - page: wiki/people/fran-coldren
     type: supplied-by
     claim: "Adams's authority derives entirely from Ira Coldren Jr. — law partner first, then trustee of the accounts Ira's estate left her — so Fran's third marriage is the reason a lawyer controlled her money for the last decades of her life."
+  - page: wiki/people/suzanne-frank
+    type: evidenced-by
+    claim: "Six dated messages from Suz are the only contemporaneous record of Adams in the corpus, and two of them are load-bearing: she goes to him for money before a closing (2018-11-05) and she reports his death (2020-05-24, 'several days ago'). The page's own Gaps section had said every fact about him came from Dan's narration."
+  - page: wiki/people/rod-banks
+    type: co-occurs
+    claim: "Rick names the two of them in one breath on 2018-01-06 — 'I'm tired of u treating me or thinking about me like Rod Banks or Fred Adams' — which makes them a category in the family rather than two unrelated contacts: the men Dan takes counsel from instead of his father. The same 2017-04-25 message about Fran's property routes through both."
+  - page: wiki/people/rick-frank
+    type: evidenced-by
+    claim: "Rick's 2018-01-06 message is the only place in the corpus that says what Adams was to the family rather than to the estate: 'I'm tired of u treating me or thinking about me like Rod Banks or Fred Adams. U make it a point to keep me out of ur life.' It dates the resentment to three months before Fran's death."
   - page: wiki/people/diane-moore
     type: co-occurs
     claim: "The two authorities over Fran's final weeks acted in the same direction from different seats: Adams set the rotation, the family's letters decided who was eligible for it, and neither instrument was held by anyone doing the caregiving."
@@ -63,22 +75,172 @@ different hands.
 
 The second is the money. The Ira-estate capital Adams administered is the
 upstream source of the **$144,069.31** court-ordered distribution Dan
-received in 2020 — a $10,000 advance in June, the judge's order signed
-August 21, and a final check of $134,069.31 released September 1, routed
+received in 2020 — a $10,000 advance in June, the Orphans' Court order signed
+August 21 (**not by Adams**; see below), and a final check of $134,069.31
+released September 1, routed
 through [[wiki/people/suzanne-frank|Suz]]. That arrival is the largest single
 capital event in Dan's documented life
 ([[wiki/mind/synthesis/estate-money-spine]]), and the fact that it took two
 and a half years to arrive after Fran's death is a function of the structure
 Adams sat at the centre of.
 
+## The contemporaneous record — sixteen dated rows nobody had read
+
+**This page said there wasn't one.** Its Gaps section read *"Adams sends and
+receives nothing in the message corpus; every fact here comes from Dan's
+narration or from the estate attorney's calls."* The first clause is true — he
+is not a correspondent and never was. The second is false. Sixteen dated
+messages name him — six received from [[wiki/people/suzanne-frank|Suz]], three
+sent to or received from [[wiki/people/rick-frank|Rick]], the rest scattered —
+and they are contemporaneous first-party evidence rather than retelling.
+
+> **Two recipients are withheld and the reason is the standing directive in
+> `CLAUDE.md`, not uncertainty.** Three of these rows were sent to a number the
+> corpus establishes as an alternate line on a thread that directive closes.
+> The rows are about Adams, naming the recipient adds nothing about Adams, and
+> a new dated line placing that person in a 2019 exchange is exactly what the
+> directive stops. The message text is unchanged and nothing is being hidden
+> from the finding.
+>
+> **A separate near-miss worth recording.** Two rows in this table were first
+> written up as sent to a different contact entirely, from a handle that turned
+> out to be Rick's. `bin/wiki-crosslink` gained a *contested handle* warning the
+> same day for exactly this failure and it did not fire here, because the
+> mistake was made by hand before the tool was consulted. Every attribution
+> below was re-resolved against the pages that declare the handle. They were found on 2026-09-04 by reading the
+conversation with Suz's handle rather than searching for rows that name this
+page, which is the only way a corpus of five-to-fifteen-word messages gives a
+non-correspondent up.
+
+| Date | Direction | What it says |
+|---|---|---|
+| 2016-06-03 | ← Suz | *"the statute of limitations has run out on Kebberley. They can only go back 2 years. As per Fred Adams"* |
+| 2017-04-25 | → Rod Banks | *"if you or judge Adams needs to confirm"* |
+| 2018-01-06 | ← Rick | *"I'm tired of u treating me or thinking about me like Rod Banks or Fred Adams"* |
+| 2018-03-14 | → Rick | *"fred adams made the decision yesterday that she won't be going home"* |
+| 2018-04-01 | → Rick | *"they're trying to get fred adams up here, which doesn't sound super promising"* |
+| 2018-06-14 | → (no handle) | *"whatever happened at Coldren Adams...it's been how long now and it effects none of us anymore"* |
+| 2018-09-04 | ← Suz | *"I'm supposed to see Fred Adams at 2:00. Should I pick you up after?"* |
+| 2018-11-05 | ← Suz | *"I'm going to have to go see judge Adams tomorrow because I'm not going to make it until my next closing"* |
+| 2019-04-08 | ← Suz | *"maybe you can tally it up and get it from judge Adams while you are here"* |
+| 2019-04-12 | ← Suz | *"a 'Baker bought the bar' party at Adams new place and he's having a band"* |
+| 2019-04-15 | → (recipient withheld) | *"i'm trying to get my head on right so i can call judge adams"* |
+| 2019-05-30 | → (recipient withheld) | *"gonna try judge adams when i get off"* |
+| **2020-05-24** | **← Suz** | ***"I found out last night, quite by coincidence, that judge Adams died several days ago"*** |
+
+Three more name **Jason Adams**, who is a different person and is dealt with
+separately below.
+
+### He was dead before the money moved
+
+**Fred Adams died in the third week of May 2020.** Suz's message is sent
+2020-05-24 at 07:24 and says she learned of it *"last night"* — 23 May — and
+that it had happened *"several days ago"*, which places the death around
+**18–21 May 2020**. It is second-hand and it is the only record of it here;
+Fayette County records would settle the day.
+
+Set that against this page's own second section:
+
+| Date | Event |
+|---|---|
+| ~2020-05-18 to 05-21 | **Fred Adams dies** |
+| June 2020 | $10,000 advance reaches Dan |
+| 2020-08-06 | Dan: *"i talked to jasón adams today and am going on saturday morning to sign for the inheritance in advance"* |
+| 2020-08-21 | Court signs the distribution order, $144,069.31 |
+| 2020-09-01 | Final check, $134,069.31 |
+
+**The man this page describes as the valve on the money was dead two to three
+weeks before any of it moved, and three months before the order.** This page
+had the capital arriving through a structure Adams sat at the centre of and did
+not know he was not alive for it.
+
+> **What that does and does not license.** It is a sequence, not a cause. The
+> estate had been in process since Fran's death in April 2018 and the corpus
+> shows Dan chasing calls to Adams through 2019 with no result; a distribution
+> can be signed by an Orphans' Court judge for reasons that have nothing to do
+> with who died in May. But this page's claim that *"the fact that it took two
+> and a half years to arrive after Fran's death is a function of the structure
+> Adams sat at the centre of"* now has a testable form it did not have — the
+> structure lost its centre, and the money moved within weeks of it. **The
+> corpus cannot settle that**, and settling it means the estate docket, which
+> is outside this repository.
+
+> **One phrase on this page must not be read the way it now reads.** The
+> second section says *"the judge's order signed August 21"*. That is the
+> Orphans' Court order, as [[wiki/mind/synthesis/estate-money-spine]] states it
+> — **not Judge Adams**, who could not have signed anything in August 2020. The
+> ambiguity was harmless while nobody knew when he died.
+
+### The estate attorney has a name, and it is not his
+
+This page's Gaps said *"the estate attorney reached in August 2020
+(`+17245706170`) is not established to be Adams or his office."* Three messages
+establish the office and a second Adams:
+
+- **2018-07-15**, from Suz: *"I told Jason Adams I would get them to him
+  Monday"* — invoices.
+- **2019-08-01**, sent: *"i just left a message with jason adams"*.
+- **2020-08-06**, sent: *"i talked to jasón adams today and am going on
+  saturday morning to sign for the inheritance in advance"* — fifteen days
+  before the order, and it is **Jason**, not Fred, who handles the signing.
+
+And the firm's later name is in the record too. Suz, 2020-08-24: *"I have not
+taken any money for what I've done. I did not receive it directly or through
+**Adams & Adams**."* The firm this page knows as **Coldren Adams** — Ira's
+partnership, and the name Dan uses in 2018 — is **Adams & Adams** by 2020.
+Whether that is a rename, a successor practice or two firms is not established.
+
+**Jason Adams has no page and is owed one.** He is the person Dan actually
+transacted the largest capital event of his life with, and until this pass the
+wiki did not contain his name.
+
+### Two smaller results
+
+**He was "Judge Adams" by April 2017, and "Fred Adams" for years after.** This
+page said only that *"he later became a judge, and the corpus refers to him
+from that point as Judge Adams"*. The earliest *judge* usage is **2017-04-25**,
+to [[wiki/people/rod-banks|Rod Banks]] in a message about Fran's property — so
+the appointment is on or before that date, twenty-two months after the
+2016-06-03 message that calls him plain *Fred Adams*. The titles then run in
+parallel: Suz writes *"Fred Adams"* on 2018-09-04 and *"judge Adams"* on
+2018-11-05. **The corpus's usage is not a clean before-and-after and should not
+be used to date anything on its own.**
+
+**The decision that Fran would not go home is dated, and it is his.** Sent
+2018-03-14: *"fred adams made the decision yesterday that she won't be going
+home"* — **13 March 2018**, eighteen days before the move to the private room
+this page opens on. The vigil mandate is the second decision he made about her
+last weeks, not the first, and the first is the larger one. On the day of the
+move itself: *"they're trying to get fred adams up here, which doesn't sound
+super promising"* (2018-04-01). This page argues from narration that the
+family's authority and the family's presence sat in different hands; that
+sentence is the argument happening in real time, written by somebody in the
+room about a man who was not.
+
+**And Rick put him in a category.** 2018-01-06, from Rick: *"I'm tired of u
+treating me or thinking about me like Rod Banks or Fred Adams. U make it a
+point to keep me out of ur life."* Rick names Adams and Rod Banks together as
+the men his son takes counsel from instead of him — which is a fact about the
+family's shape rather than about Adams, and it belongs on all three pages.
+
 ## Gaps
 
-Adams sends and receives nothing in the message corpus; every fact here comes
-from Dan's narration or from the estate attorney's calls, and the estate
-attorney reached in August 2020 (`+17245706170`) is not established to be
-Adams or his office. His full name, the years he practised, when and to what
-bench he was appointed, and whether Coldren Adams still exists are all
-unverified and answerable from Fayette County bar and court records outside
-the corpus. Whether he was the executor in the formal legal sense the
+> **CORRECTED [2026-09-04].** This section read: *"Adams sends and receives
+> nothing in the message corpus; every fact here comes from Dan's narration or
+> from the estate attorney's calls, and the estate attorney reached in August
+> 2020 (`+17245706170`) is not established to be Adams or his office."* The
+> first clause holds. The rest does not — sixteen dated contemporaneous
+> messages name him, the estate attorney is **Jason Adams** of **Adams &
+> Adams**, and Fred Adams was dead before the distribution moved. See [The
+> contemporaneous record](#the-contemporaneous-record--sixteen-dated-rows-nobody-had-read).
+
+Adams sends and receives nothing in the message corpus — he is named in it, at
+length, but never writes in it. His full name, the years he practised, when and
+to what bench he was appointed, **the exact date of his death in May 2020**, the
+relationship between Coldren Adams and Adams & Adams, and who Jason Adams is to
+him are all unverified and answerable from Fayette County bar, court and probate
+records outside the corpus. **The estate docket is now the single most valuable
+missing document for this page**: it would date the death, name the signing
+judge, and say whether the distribution's timing had anything to do with either. Whether he was the executor in the formal legal sense the
 operator uses, or the trustee of a separate instrument, is not distinguished
 anywhere — the two roles are used interchangeably in every telling.

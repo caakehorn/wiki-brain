@@ -5,7 +5,7 @@ title: "Annual Message Volume: Dan vs. Suz"
 status: active
 knowledge: mixed
 date_created: 2026-08-26
-date_modified: 2026-08-28
+date_modified: 2026-09-04
 sources: []
 synthesizes:
   - wiki/people/suzanne-frank
@@ -49,6 +49,14 @@ connections:
 ---
 
 # Annual Message Volume: Dan vs. Suz
+
+> **RE-CHECKED [2026-09-04] — the premise gained material and the arithmetic is
+> untouched.** [[wiki/people/suzanne-frank]] gained a section on six dated
+> messages naming Judge Fred Adams, including her report of his death
+> (2020-05-24). **No volume figure on this page is affected** — the messages
+> were always in the corpus and always counted; what changed is that somebody
+> read six of them. Nothing withdrawn.
+
 
 > **RE-CHECKED [2026-08-28]:** flagged stale against
 > [[wiki/people/suzanne-frank]] (2026-08-28), which added a new

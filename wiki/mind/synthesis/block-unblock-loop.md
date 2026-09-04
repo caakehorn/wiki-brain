@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-28
+date_modified: 2026-09-04
 sources:
   - raw/mind/captures/2026-08-16_195003_gap-block-unblock-loop.md
   - raw/self/message-csv/imessage_2124702449_both_all_now.csv
@@ -97,6 +97,14 @@ connections:
 ---
 
 # The Block/Unblock Loop
+
+> **RE-CHECKED [2026-09-04] — checked, left standing.**
+> [[wiki/people/rick-frank]] gained one typed edge and no prose: his 2018-01-06
+> message, already quoted on that page, is now also cited on
+> [[wiki/people/fred-adams]] as the corpus's only statement of what Adams was to
+> the family. **No block, unblock or interval on this page is affected** and no
+> claim is withdrawn.
+
 
 > **RE-CHECKED [2026-08-26]:** flagged stale against
 > [[wiki/mind/concepts/conflict-architecture]] (2026-08-26), which added a

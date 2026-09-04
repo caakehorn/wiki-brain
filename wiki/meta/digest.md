@@ -22,9 +22,9 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 497 |
-| Pages touched in the last 14 days | 183 |
+| Pages touched in the last 14 days | 185 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
-| Live contradictions | 48 |
+| Live contradictions | 49 |
 | Open gaps | 605 |
 | Standing predictions | 65 |
 
@@ -47,15 +47,16 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | Status | Pages |
 |---|---|
-| active | 190 |
+| active | 191 |
 | stable | 166 |
 | closed | 100 |
 | archived | 29 |
-| stub | 12 |
+| stub | 11 |
 
 ## The last few days
 
-**2026-09-04** — 33 pages
+**2026-09-04** — 41 pages
+  - connect | people | the estate's two hands, found by reading a conversation instead of a name
   - connect | people | the twitter archive, read directly onto the page it was about
   - site | meta | the Wikipedia-style reader is served again
   - connect | self, interests, health, mind, people | the twitter archive read back onto the pages it was always about

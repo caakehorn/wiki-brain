@@ -6,7 +6,7 @@ aliases: ["Suz MBTI", "Suz Enneagram", "Suz personality type"]
 status: active
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-28
+date_modified: 2026-09-04
 importance: high
 tags: [personality-profile, forensic-analysis, ai-collaboration]
 infobox:
@@ -28,6 +28,16 @@ connections:
 ---
 
 # Suzanne Frank — Forensic Personality Assessment
+
+> **RE-CHECKED [2026-09-04] — one new datum, and it cuts toward the
+> assessment rather than against it.** [[wiki/people/suzanne-frank]] gained a
+> section on her six messages naming Judge Fred Adams. **No scored dimension
+> here is affected.** Worth recording for a later pass: the 2018-11-05 message
+> asks a sitting judge and her son for money in the same breath, which is a
+> clean instance of whatever this page says about resource-seeking under
+> pressure — it is offered as an instance, not as a re-score, because one
+> message does not move an instrument.
+
 
 > **RE-CHECKED [2026-08-28]:** flagged stale against
 > [[wiki/people/suzanne-frank]] (2026-08-28), which added a March 2014
