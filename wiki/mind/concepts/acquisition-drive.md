@@ -7,7 +7,7 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-26
+date_modified: 2026-09-04
 sources:
   - raw/mind/captures/2026-08-02_122411_perspective-complete-objective.md
   - raw/legal/captures/2026-08-02_200741_the-arrest-the-real-one.md
@@ -60,6 +60,12 @@ connections:
   - page: wiki/mind/synthesis/closing-the-set
     type: evidences
     claim: "Dan's only documented positive self-report for something he did rather than had — the Fran vigil's 'got good closure and finally did something in my life that wasn't completely selfish' — reframes this page's payoff condition as closure rather than completion, which is the premise closing-the-set starts from."
+  - page: wiki/self/twitter/2008
+    type: evidenced-by
+    claim: "A dated, first-party instance of the young form with none of the ATM story's confounders: at twenty he books his return flight around one concert nine days out — 'Be back on the 28th for hey Monday :)' — and cuts a family Christmas short for it. Nothing at stake, no risk run, so what is left is the mechanism alone: a want stated as settled, and the calendar rearranged around it."
+  - page: wiki/interests/favorites/music/artists/hey-monday
+    type: instantiates
+    claim: "The band is the object of the corpus's earliest dated instance of a want converting to a decided outcome — a band under a year old, a small room, a mid-holiday flight from Pennsylvania to Florida."
 ---
 
 # The Acquisition Drive
@@ -147,6 +153,50 @@ same engine, pointed at something that happened to be constructive, produces
 the two-sided Gini measurement on [[wiki/mind/concepts/contact-gini]], the
 DANMODEL extraction, the dashboards of [[wiki/mind/concepts/forensic-method]],
 and this wiki. None of those were assigned to him.
+
+### A dated instance of the young form, from the trivial end
+
+Added 2026-09-04 from [[wiki/self/twitter/2008]]. The Gaps below record that
+the ATM-card episode — the only illustration this section has — **"has no date,
+no amount, no duration and no corroboration anywhere in the message corpus."**
+The public archive supplies an instance with all four, from the same era, at
+the opposite end of the stakes.
+
+December 2008. Dan is twenty, three months into Full Sail, and flies home to
+Pennsylvania for Christmas. **The return is booked around a concert before he
+has left:**
+
+| Eastern time | Post |
+|---|---|
+| 2008-12-19, 09:56 | *"I don't want to go to cold, lame PA. Be back on the 28th for hey Monday :)"* |
+| 2008-12-19, 12:34 | *"at the airport. i fucking hate going home."* |
+| 2008-12-27, 19:40 | *"Flying to Orlando for hey monday tomorrow. Wooo"* |
+| 2008-12-28, 10:38 | *"Hate airport days."* |
+
+He cut a family Christmas short and flew Pennsylvania to Florida for one show,
+in a small room, by a band that had existed for under a year
+([[wiki/interests/favorites/music/artists/hey-monday]]). The concert log holds
+the ticket.
+
+**Why the triviality is the value.** This section's existing example involves a
+sibling's bank card, a pretext, and a class buffer against consequences, which
+makes it hard to separate the drive from the impulsivity and the impunity the
+operator names alongside it. **Nothing was at stake here.** Nobody was
+defrauded, no risk was run, the money was presumably his parents'. What the
+episode isolates is the mechanism on its own: a want became a decided outcome
+— *"Be back on the 28th"*, stated as settled, nine days out — and the calendar
+rearranged around it. That is the page's thesis with the confounders removed.
+
+**And it dates the trait to 2008**, in a first-party contemporaneous record,
+which is earlier and firmer than anything else this section has. The operator's
+account of the young form is retrospective testimony; this is the trait
+executing, in public, at twenty, with the decision visible before the action.
+
+**What it does not do.** One instance is not a rate, and a concert is not the
+class of pursuit the rest of this page is about — nothing here speaks to cost,
+risk or proportion, because none of the three was engaged. It is evidence that
+the mechanism predates the record, not evidence about its amplitude. The
+ATM-card gap stands exactly as the Gaps state it.
 
 ## The consequence nobody had drawn: altruism was never the variable
 

@@ -5,7 +5,7 @@ title: "The Reader's Digest"
 status: active
 knowledge: derived
 date_created: 2026-09-02
-date_modified: 2026-09-02
+date_modified: 2026-09-04
 chart:
   kind: bar
   title: "Entries by plain-edition state"
@@ -16,9 +16,9 @@ chart:
       points:
         "Translated": 28
         "Major lane": 42
-        "Free lane": 38
+        "Free lane": 40
         "Held (people)": 94
-        "Too thin": 49
+        "Too thin": 47
         "Withheld": 217
 sources: []
 ---
@@ -57,13 +57,13 @@ is arithmetic in `bin/wiki-plain`: 900 words is the boundary.
 | Lane | What is in it | Outstanding |
 |---|---|---|
 | `major` | entries of 900 words or more — the dense findings | 42 |
-| `free` | entries under 900 words, worked smallest first | 38 |
+| `free` | entries under 900 words, worked smallest first | 40 |
 
 A further **94** eligible entries about other people are in
 neither lane. They are held back deliberately, pending a decision about
 who writes plain-English prose about living people for a public site.
 
-**49** more are under 300 words — stubs, and
+**47** more are under 300 words — stubs, and
 records like a concert date with its lineup. A table is already plain
 and a one-sentence entry translated is the same sentence, so these get
 no plain edition until the entry itself has an argument in it. They are
@@ -116,13 +116,13 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 - [[wiki/self/twitter/2009]] (9061 words)
 - [[wiki/self/twitter/2022]] (8060 words)
 
-**free** — 38 outstanding
+**free** — 40 outstanding
 
 - [[wiki/work/caviar-courier]] (301 words)
 - [[wiki/interests/favorites/books/authors/adrian-goldsworthy]] (315 words)
+- [[wiki/interests/favorites/music/artists/lil-wayne]] (320 words)
 - [[wiki/interests/rock-irrelevance-thesis]] (320 words)
 - [[wiki/interests/favorites/books/authors/jonathan-karl]] (328 words)
-- [[wiki/interests/favorites/books/authors/bob-woodward]] (342 words)
 
 Entries considered and deliberately given no plain edition are recorded
 in `plain/DECLINED.md`, with the reasoning, rather than left looking

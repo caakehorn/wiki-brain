@@ -42,6 +42,9 @@ connections:
   - page: wiki/interests/opie-and-anthony
     type: caused-by
     claim: "The callous, riff-driven, gallows-irony register the profile calls a 'psychic ventilator' is the native dialect of the O&A universe — this binge is where that idiom was trained."
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "The public half of the two-corpus voice proof: 2,718 dated originals written for an audience, against the private message corpus written for one person, which is what lets the profile separate a stable voice from a register chosen per reader."
 ---
 
 # Linguistic Profile — Voice, Register, Stylometrics

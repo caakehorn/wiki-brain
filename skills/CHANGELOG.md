@@ -101,3 +101,31 @@ repository's record:
   synthesis page is different evidence from a near-miss, which is what moved it.
   Still bounded rather than solved — see the skill's Known limits, and the
   untested `bin/mine-messages` absence claims it names.
+- **2026-09-04 — promoted `corpus/source-mention-debt.md` to active.** A
+  source's debt to the pages it did not get written onto is invisible from both
+  ends. Promoted on `PROTOCOL.md` §3's second and third tests together rather
+  than on a second occurrence: a command validates it (`bin/wiki-crosslink
+  scan` / `reciprocal`, written the same day), and `STRATEGY.md`'s core loop
+  plus `CONNECTIONS_SPEC.md`'s inverse-edge rule already implied it
+  mechanically — the loop's step 3 and the reciprocal obligation both existed
+  and neither had a tool, an operation, or any way to tell they had been
+  skipped.
+  The occurrence that produced it: nineteen `wiki/self/twitter/` year pages,
+  written across two sessions by reading every tweet in every year and carrying
+  130 typed edges, had never been read back onto the pages the tweets were
+  about. One scan found four pages whose own stated limits were wrong — a
+  concert log calling itself complete while missing three shows, a person's
+  page saying everything known about her came from AI narration against six
+  contemporaneous posts, a substance row calling itself undated against
+  eighteen years of dated evidence, and a discography short by twenty releases
+  in one year — plus 39 one-way edges, the same defect seen from the other
+  side.
+  Promoted rather than parked because the failure has no symptom: nothing goes
+  red, nothing enters `WORK.md`, and a source that named forty things and got
+  linked to three is indistinguishable from one that named three. A candidate
+  parked in `INBOX.md` would have been found by the same nobody who was
+  already not finding this.
+  Bounded, and the bounds are on the skill: it is string matching over proper
+  nouns, so it cannot see an entity with no page (that is `EXTRACTION_SPEC.md`
+  move 3) and it cannot see a conceptual link at all — which was half of what
+  the operator asked for, and remains a reading job.

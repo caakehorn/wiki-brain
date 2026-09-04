@@ -34,6 +34,12 @@ connections:
   - page: wiki/mind/synthesis/failure-to-launch
     type: evidences
     claim: 'Seven tweets across 14-16 October 2014 pitch unpaid, competently produced O&A audio work to six people at the show, two years after the unanswered internship application — and 19 December announces a rap career on an accurate self-assessment that nothing in the corpus follows.'
+  - page: wiki/interests/music/aliases/sloppp
+    type: evidences
+    claim: "The alias's second and last full year in public, 31 posts: a Beatport contest entry, official-style flips for six named acts, two running mix series, and 'as a nobody DJ' written in the same month he entered the contest."
+  - page: wiki/interests/favorites/music/artists/lil-wayne
+    type: evidences
+    claim: "An hour spent making Picasso-style distortion edits of the artist's photographs (30 April 2014) — three years after calling him stupid and seeing him at Bamboozle, which reads as sustained amused attention rather than as fandom or contempt."
 ---
 
 # Twitter / X — 2014

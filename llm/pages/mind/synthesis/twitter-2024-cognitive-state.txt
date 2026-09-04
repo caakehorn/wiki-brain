@@ -27,6 +27,9 @@ connections:
   - page: wiki/self/twitter/2011
     type: evidenced-by
     claim: 'The reasoning sequence this page names for 2024 is dated thirteen years earlier by the 21 May 2011 rapture posts and the 26 February 2011 exchange with a pastor: adopt the opponent\'s own authority, isolate where it breaks, publish the break. The subject in 2011 is religion rather than politics; the operation is identical.'
+  - page: wiki/self/twitter/2012
+    type: evidenced-by
+    claim: "The reading of coverage as a product managed for retention is running twelve years early: 'I refuse to believe that tonight's earlier results were as close as we were told. Need to keep it tight for ratings.' (2012-11-07), on election night, at twenty-three."
 ---
 
 # 2024 Twitter / X Cognitive State — Adversarial Historian

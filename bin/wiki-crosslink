@@ -1,0 +1,482 @@
+#!/usr/bin/env python3
+"""wiki-crosslink — find the edges a source-backed page owes but has not written.
+
+Pure stdlib, no dependencies, per repo convention.
+
+Subcommands:
+  entities [filter]   The entity index: every wiki page's page-name, aliases and
+                      infobox handles, i.e. every string that can be looked for
+                      in a source.
+  scan <page>         For one page that cites a raw corpus, scan that corpus
+                      inside the page's own date range and name every entity
+                      that appears in it and has a wiki page the page does not
+                      link. `--all` over the twitter year pages.
+  reciprocal [page]   Outbound typed edges whose target does not link back. The
+                      inverse-edge obligation of CONNECTIONS_SPEC.md, computed
+                      rather than remembered.
+  orphaned            Pages whose `sources:` name a corpus this tool can read
+                      and which link nothing mined from it — the pages where a
+                      scan has never been run.
+  check               Gate: reports the reciprocal debt as a warning banner and
+                      exits 0. Never blocks a commit; see below.
+
+Why this exists
+---------------
+A page assembled from a corpus records what its writer found *interesting*.
+That is not the same set as what the corpus *contains*, and the gap between
+them is invisible from the page — which is exactly the condition CLAUDE.md's
+"depth is the binding constraint" describes. Nineteen twitter year pages were
+written by reading every tweet in each year, and they carry 130 typed edges
+between them; the archive names people, places, works and concepts that have
+their own wiki pages several times that often. Every one of those is a
+connection nobody can make later, because synthesis reasons from `wiki/` and
+the mention never reached it.
+
+This tool does not write edges and must not be made to. It produces
+CANDIDATES, and a candidate is a reason to go and read the source rows it
+names. `skills/corpus/vocabulary-drift.md` is the standing warning about what a
+string match over a long corpus measures: a count is a measurement of the
+matcher's vocabulary, and it is worthless as a finding. It is not worthless as
+a pointer, which is the only thing used here — every row this prints carries the
+dated source lines that produced it, so the verification step is reading them,
+never trusting the count.
+
+Three properties of the matching, stated because they decide how a result is
+read:
+
+1.  **Confidence is a property of the string, not of the match.** An @handle or
+    a two-token full name is unambiguous; a bare first name ("Bill", "Al",
+    "Jess") matches any Bill. Single-token names are reported at `low` and are
+    never to be acted on without reading the row.
+2.  **A mention is not a relationship.** The archive naming a person is
+    evidence the page may owe an edge, and nothing more. A tweet that mentions
+    Diplo is not a Diplo relationship; it is a music-consumption datapoint that
+    may belong on a different page entirely. The type and the claim come from
+    reading, per CONNECTIONS_SPEC.md.
+3.  **Absence here is not absence in the corpus.** The index can only look for
+    names somebody already wrote a page for. Entities with no page are exactly
+    the ones a scan cannot see, and finding them is a reading job.
+
+Why `check` never fails
+-----------------------
+The reciprocal debt is real work but it is not a corruption: a one-way edge
+still carries its claim, and the target page is merely poorer for not having
+it. A gate that went red on it would block every unrelated commit until 40
+pages had been read, and CLAUDE.md is explicit about what happens to a
+mandatory step that blocks unrelated work — it acquires an escape hatch and
+stops being mandatory. `bin/wiki-connect check` already warns per-edge; this
+prints the total so the trend is visible.
+"""
+import os, re, sys, json, collections
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+WIKI = os.path.join(ROOT, "wiki")
+
+# Corpora this tool knows how to read, keyed by the `sources:` path a page cites.
+CORPORA = {
+    "raw/self/twitter/archive.jsonl": ("jsonl", "created_at", "text"),
+}
+
+# Pages written by a generator, where a hand-added inverse edge is destroyed on
+# the next run and fails that generator's own check. An edge INTO one of these
+# is legitimate and is simply not reciprocable by hand: the tool reports them
+# apart from the debt rather than counting work nobody may do. Keep in step
+# with CLAUDE.md's list of generated surfaces.
+GENERATED = {
+    "wiki/meta/testimony-veracity",
+    "wiki/meta/skills",
+    "wiki/meta/readers-digest",
+    "wiki/meta/digest",
+    "wiki/meta/recent-activity",
+    "wiki/meta/open-questions",
+    "wiki/health/intake-ledger",
+}
+
+# Name tokens too common to carry a match on their own. A page whose entire
+# name is one of these can only be found by reading.
+STOPNAMES = {
+    "dan", "frank", "mom", "dad", "mother", "father", "aunt", "uncle", "the",
+    "and", "one", "two", "new", "old", "big", "red", "man", "boy", "girl",
+    "annoying", "bub", "md", "al", "bill", "brian", "jess", "jimmy", "del",
+    "felix", "clyde", "marla", "manuel", "bud", "chip", "buddy", "junior",
+}
+
+FM_LIST_RE = re.compile(r'^\s*-\s+(.+?)\s*$')
+
+
+def split_fm(txt):
+    if txt.startswith("---"):
+        e = txt.find("\n---", 3)
+        if e > 0:
+            return txt[3:e], txt[e + 4:]
+    return "", txt
+
+
+def load_pages():
+    pages = {}
+    for root, _dirs, files in os.walk(WIKI):
+        for f in sorted(files):
+            if not f.endswith(".md"):
+                continue
+            p = os.path.relpath(os.path.join(root, f), ROOT)
+            with open(os.path.join(root, f), encoding="utf-8", errors="replace") as fh:
+                pages[p] = fh.read()
+    return pages
+
+
+def scalar(fm, key):
+    m = re.search(r'^%s:\s*(.+?)\s*$' % re.escape(key), fm, re.M)
+    if not m:
+        return None
+    v = m.group(1).strip()
+    if v.startswith(("'", '"')) and v.endswith(("'", '"')) and len(v) > 1:
+        v = v[1:-1]
+    return v or None
+
+
+def inline_list(fm, key):
+    """Read `key: ["a", "b"]` or an indented `- ` block, at any nesting."""
+    out = []
+    m = re.search(r'^\s*%s:\s*\[(.*?)\]\s*$' % re.escape(key), fm, re.M | re.S)
+    if m:
+        for part in re.findall(r'"([^"]*)"|\'([^\']*)\'|([^,\[\]]+)', m.group(1)):
+            v = (part[0] or part[1] or part[2]).strip()
+            if v:
+                out.append(v)
+        return out
+    m = re.search(r'^(\s*)%s:\s*$' % re.escape(key), fm, re.M)
+    if m:
+        indent = len(m.group(1))
+        for line in fm[m.end():].splitlines():
+            if not line.strip():
+                continue
+            cur = len(line) - len(line.lstrip())
+            if cur <= indent:
+                break
+            lm = FM_LIST_RE.match(line)
+            if lm:
+                out.append(lm.group(1).strip().strip('"\''))
+    return out
+
+
+def edges(fm):
+    """[(page, type), ...] from a `connections:` block."""
+    out, cur = [], None
+    for line in fm.splitlines():
+        m = re.match(r'^\s*-\s+page:\s*(.+?)\s*$', line)
+        if m:
+            cur = [m.group(1).strip().strip('"\''), None]
+            out.append(cur)
+            continue
+        m = re.match(r'^\s+type:\s*(.+?)\s*$', line)
+        if m and cur is not None:
+            cur[1] = m.group(1).strip().strip('"\'')
+    return [(p, t) for p, t in out]
+
+
+INVERSE = {
+    "causes": "caused-by", "caused-by": "causes",
+    "evidences": "evidenced-by", "evidenced-by": "evidences",
+    "instantiates": "instance-of", "instance-of": "instantiates",
+    "precedes": "follows", "follows": "precedes",
+    "supplies": "supplied-by", "supplied-by": "supplies",
+    "component-of": "contains", "contains": "component-of",
+}
+SYMMETRIC = {"contradicts", "parallels", "mirrors", "co-occurs"}
+NO_INVERSE = {"escalates", "resolves", "contextualizes"}
+
+
+def title_of(path, fm):
+    t = scalar(fm, "title")
+    if t:
+        return t
+    ib = re.search(r'^infobox:\s*$', fm, re.M)
+    if ib:
+        n = re.search(r'^\s+name:\s*(.+?)\s*$', fm[ib.end():], re.M)
+        if n:
+            return n.group(1).strip().strip('"\'')
+    return os.path.basename(path)[:-3].replace("-", " ")
+
+
+def build_index(pages):
+    """slug -> {names: [(string, confidence)], domain, title}"""
+    idx = {}
+    for path, txt in sorted(pages.items()):
+        fm, _ = split_fm(txt)
+        slug = path[:-3]
+        title = title_of(path, fm)
+        names = collections.OrderedDict()
+
+        def add(s, conf):
+            s = (s or "").strip()
+            if not s or len(s) < 3:
+                return
+            if s.lower() in STOPNAMES:
+                return
+            if s.lower() not in names or conf == "high":
+                names[s.lower()] = (s, conf)
+
+        # The page's own name, and the slug read as words.
+        for cand in (title, os.path.basename(slug).replace("-", " ")):
+            toks = [t for t in re.split(r'\s+', cand) if t]
+            conf = "high" if len(toks) > 1 else "low"
+            add(cand, conf)
+        for a in inline_list(fm, "aliases"):
+            toks = [t for t in re.split(r'\s+', a) if t]
+            add(a, "high" if (a.startswith("@") or len(toks) > 1) else "low")
+        for h in inline_list(fm, "handles"):
+            if h.startswith("@"):
+                add(h, "high")
+        idx[slug] = {
+            "names": list(names.values()),
+            "domain": scalar(fm, "domain") or "?",
+            "title": title,
+        }
+    return idx
+
+
+def load_corpus(rel):
+    kind, datekey, textkey = CORPORA[rel]
+    path = os.path.join(ROOT, rel)
+    rows = []
+    if kind == "jsonl":
+        with open(path, encoding="utf-8", errors="replace") as fh:
+            for line in fh:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    d = json.loads(line)
+                except ValueError:
+                    continue
+                rows.append((d.get(datekey, ""), d.get(textkey, "") or "", d.get("url", "")))
+    return rows
+
+
+def compile_matcher(idx):
+    """One regex per confidence band, alternation ordered longest-first."""
+    bands = {"high": [], "low": []}
+    owner = {}
+    for slug, meta in idx.items():
+        for name, conf in meta["names"]:
+            key = name.lower()
+            owner.setdefault(key, set()).add(slug)
+            bands[conf].append(name)
+    compiled = {}
+    for conf, names in bands.items():
+        uniq = sorted(set(n.lower() for n in names), key=len, reverse=True)
+        if not uniq:
+            continue
+        parts = []
+        for n in uniq:
+            esc = re.escape(n)
+            if n.startswith("@"):
+                parts.append(esc + r'\b')
+            else:
+                parts.append(r'\b' + esc + r'\b')
+        compiled[conf] = re.compile("|".join(parts), re.I)
+    return compiled, owner
+
+
+def page_range(fm):
+    return scalar(fm, "date_range_start"), scalar(fm, "date_range_end")
+
+
+def cmd_entities(argv):
+    pages = load_pages()
+    idx = build_index(pages)
+    filt = argv[0].lower() if argv else None
+    n = 0
+    for slug in sorted(idx):
+        meta = idx[slug]
+        if filt and filt not in slug.lower() and filt not in meta["title"].lower():
+            continue
+        names = ", ".join("%s[%s]" % (s, c[0]) for s, c in meta["names"])
+        print("%-58s %s" % (slug, names))
+        n += 1
+    print("\n%d page(s) indexed" % n)
+    return 0
+
+
+def scan_page(slug, pages, idx, compiled, owner, limit=3):
+    path = slug + ".md"
+    fm, _ = split_fm(pages[path])
+    srcs = inline_list(fm, "sources")
+    corpora = [s for s in srcs if s in CORPORA]
+    if not corpora:
+        return None
+    start, end = page_range(fm)
+    linked = {p for p, _ in edges(fm)}
+    linked.add(slug)
+    # anything the body already wikilinks counts as linked
+    body = pages[path]
+    for m in re.finditer(r'(wiki/[a-z0-9\-/]+)', body):
+        linked.add(m.group(1))
+
+    hits = collections.defaultdict(list)
+    for rel in corpora:
+        for date, text, url in load_corpus(rel):
+            if start and date[:10] < start:
+                continue
+            if end and date[:10] > end:
+                continue
+            seen = set()
+            for conf, rx in compiled.items():
+                for m in rx.finditer(text):
+                    key = m.group(0).lower()
+                    for tgt in owner.get(key, ()):
+                        if tgt in linked or (key, tgt) in seen:
+                            continue
+                        seen.add((key, tgt))
+                        hits[tgt].append((date[:10], m.group(0), conf, text))
+    return hits
+
+
+def render_hits(slug, hits, idx, limit=3):
+    if not hits:
+        print("  (nothing unlinked found)")
+        return 0
+    ranked = sorted(hits.items(), key=lambda kv: (-len(kv[1]), kv[0]))
+    for tgt, rows in ranked:
+        conf = "high" if any(r[2] == "high" for r in rows) else "low"
+        print("  [%s] %-46s %d mention(s)  <%s>" % (conf, tgt, len(rows), idx[tgt]["domain"]))
+        for date, tok, _c, text in rows[:limit]:
+            snip = re.sub(r'\s+', ' ', text).strip()
+            if len(snip) > 150:
+                snip = snip[:147] + "..."
+            print("        %s  %-18s %s" % (date, tok, snip))
+        if len(rows) > limit:
+            print("        ... %d more" % (len(rows) - limit))
+    return len(ranked)
+
+
+def cmd_scan(argv):
+    pages = load_pages()
+    idx = build_index(pages)
+    compiled, owner = compile_matcher(idx)
+    targets = []
+    if argv and argv[0] == "--all":
+        targets = [s for s in sorted(idx) if s.startswith("wiki/self/twitter")]
+    elif argv:
+        for a in argv:
+            s = a[:-3] if a.endswith(".md") else a
+            if s + ".md" not in pages:
+                print("scan: no such page: %s" % a, file=sys.stderr)
+                return 1
+            targets.append(s)
+    else:
+        print(__doc__.split("Why this exists")[0])
+        return 1
+    total = 0
+    for slug in targets:
+        hits = scan_page(slug, pages, idx, compiled, owner)
+        if hits is None:
+            print("== %s — cites no corpus this tool can read" % slug)
+            continue
+        print("== %s" % slug)
+        total += render_hits(slug, hits, idx)
+    print("\n%d candidate edge(s) across %d page(s) — verify each by reading the rows above"
+          % (total, len(targets)))
+    return 0
+
+
+def cmd_reciprocal(argv):
+    pages = load_pages()
+    filt = argv[0] if argv else None
+    fms = {p: split_fm(t)[0] for p, t in pages.items()}
+    debt = []
+    generated = []
+    for path, fm in sorted(fms.items()):
+        slug = path[:-3]
+        if filt and not slug.startswith(filt.rstrip("/")):
+            continue
+        for tgt, typ in edges(fm):
+            if typ in NO_INVERSE:
+                continue
+            tf = fms.get(tgt + ".md")
+            if tf is None:
+                continue  # wiki-connect check owns unresolvable targets
+            if tgt in GENERATED:
+                generated.append((slug, typ, tgt))
+                continue
+            back = [t for p, t in edges(tf) if p == slug]
+            if not back:
+                debt.append((slug, typ, tgt, "no edge back"))
+            else:
+                want = INVERSE.get(typ, typ if typ in SYMMETRIC else None)
+                if want and want not in back:
+                    debt.append((slug, typ, tgt, "back-edge is '%s', expected '%s'" % (back[0], want)))
+    for s, typ, t, why in debt:
+        print("  %-44s --%s--> %-44s  %s" % (s, typ, t, why))
+    print("\n%d edge(s) owe an inverse" % len(debt))
+    if generated:
+        print("\n%d edge(s) point at a GENERATED page and are not reciprocable by hand:" % len(generated))
+        for s, typ, t in generated:
+            print("  %-44s --%s--> %s" % (s, typ, t))
+        print("  (a hand-added inverse there is destroyed on the next generator run)")
+    return 0
+
+
+def cmd_orphaned(argv):
+    pages = load_pages()
+    out = []
+    for path, txt in sorted(pages.items()):
+        fm, _ = split_fm(txt)
+        srcs = [s for s in inline_list(fm, "sources") if s in CORPORA]
+        if not srcs:
+            continue
+        n = len(edges(fm))
+        out.append((n, path[:-3], srcs))
+    for n, slug, srcs in sorted(out):
+        flag = "  <-- no edges" if n == 0 else ""
+        print("  %3d edges  %-52s %s%s" % (n, slug, ",".join(os.path.basename(s) for s in srcs), flag))
+    print("\n%d page(s) cite a readable corpus" % len(out))
+    return 0
+
+
+def cmd_check(argv):
+    pages = load_pages()
+    fms = {p: split_fm(t)[0] for p, t in pages.items()}
+    debt = 0
+    for path, fm in fms.items():
+        slug = path[:-3]
+        for tgt, typ in edges(fm):
+            if typ in NO_INVERSE:
+                continue
+            tf = fms.get(tgt + ".md")
+            if tf is None or tgt in GENERATED:
+                continue
+            if not any(p == slug for p, _ in edges(tf)):
+                debt += 1
+    if debt:
+        print("crosslink: %d one-way edge(s) owe an inverse — bin/wiki-crosslink reciprocal" % debt)
+    else:
+        print("crosslink: every typed edge is reciprocated")
+    return 0
+
+
+USAGE = """usage: wiki-crosslink <entities|scan|reciprocal|orphaned|check> [args]
+
+  entities [filter]     the strings a scan can look for
+  scan <page>|--all     unlinked entities inside a page's own date range
+  reciprocal [prefix]   typed edges whose target does not link back
+  orphaned              corpus-backed pages and their edge counts
+  check                 the reciprocal-debt banner (always exits 0)
+"""
+
+
+def main(argv):
+    if not argv:
+        print(USAGE)
+        return 1
+    cmd, rest = argv[0], argv[1:]
+    fns = {"entities": cmd_entities, "scan": cmd_scan, "reciprocal": cmd_reciprocal,
+           "orphaned": cmd_orphaned, "check": cmd_check}
+    if cmd not in fns:
+        print(USAGE)
+        return 1
+    return fns[cmd](rest)
+
+
+if __name__ == "__main__":
+    sys.exit(main(sys.argv[1:]))

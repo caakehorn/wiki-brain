@@ -7,9 +7,10 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-08-23
+date_modified: 2026-09-04
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
+  - raw/self/twitter/archive.jsonl
 tags: [personality-profile, forensic-analysis, digital-footprint]
 connections:
   - page: wiki/mind/synthesis/failure-to-launch
@@ -42,6 +43,9 @@ connections:
   - page: wiki/mind/synthesis/the-binary-verdict
     type: component-of
     claim: "This page is the control for a corpus-wide binary/graded split: all 24 strict credences attach to unwitnessed facts about the world, never to a verdict about a person's worth, a taste's authenticity, or a relationship's legitimacy — the one place gradation lives is fenced off from the one place it never appears."
+  - page: wiki/self/twitter
+    type: evidenced-by
+    claim: "Partly runs this page's own Prediction on a fifth channel and reports it underpowered: the strict pattern returns 0 in 2,718 public posts where the message rate predicts ~1, the 22x inbound asymmetry can never be run on a broadcast archive at all — and the habit is there in a form the pattern cannot see, graded at the world ('it's 25% at best for Kamala') rather than at his own mental state."
 ---
 
 # Calibrated Confidence
@@ -210,6 +214,85 @@ half of every one of those corpora. If a scan of the Facebook Messenger export
 returns Dan at the inbound baseline instead, then the habit is
 iMessage-specific, this page is measuring a channel rather than a mind, and the
 claim should be narrowed to the channel.
+
+## The prediction, run against the public archive — partly, and it does not settle
+
+Added 2026-09-04 from [[wiki/self/twitter]]. **The Prediction section above
+names a test and the corpus already held a fifth channel it did not list**: the
+public twitter archive, 2,718 originals across seventeen years, written for an
+audience rather than to one person.
+
+**Result 1 — the strict pattern returns zero, and that is not a refutation.**
+This page's own pattern (a numeric percentage adjacent to *sure / certain /
+positive / confident / convinced*) finds **0 instances in 2,718 public posts**.
+At the outbound-message rate of 43 per 106,629 — 0.40 per thousand — a corpus
+this size predicts roughly **one**. Observing zero when the expectation is one
+is what the same rate looks like about a third of the time. **The test as
+specified is underpowered on this archive and cannot distinguish "the habit is
+absent in public" from "the archive is too small to show it."** Stated plainly
+because the zero is tempting to over-read in either direction.
+
+**Result 2 — he is not less numerate in public.** The bare-percentage control
+runs at **3.68 per thousand public posts against 2.94 per thousand outbound
+messages.** Whatever the strict zero means, it is not that percentages stop
+appearing when there is an audience.
+
+**Result 3 — the decisive control cannot be run here at all, ever.** The
+finding above rests on a 22× outbound-to-inbound asymmetry: Dan does this and
+his correspondents do not. **A broadcast archive has no inbound half.** No
+volume of twitter data can supply that comparison, so this channel can furnish
+instances and can never confirm or refute the asymmetry that makes them mean
+anything.
+
+### What the pattern cannot see, and it is the actual finding
+
+Graded confidence *is* in the public archive. It is pointed somewhere else.
+
+| Date | Post |
+|---|---|
+| 2021-01-07 | *"i'm as sure as i could possibly be that the capitol police had arranged to allow the chuds into the building"* |
+| 2022-02-26 | *"While still incredibly unlikely, it's clear that the post-cold war era of geopolitical order is changing"* |
+| 2022-07-01 | *"There is a 0% chance that he would not actively work [against a primary challenger]"* |
+| 2023-03-15 | *"there's an astronomically high probability that, in the last 12 hours, you've liked tweets from both Ben Shapiro and Jordan Peterson"* |
+| 2024-07-06 | *"it's 25% at best for Kamala, Gretch, Newsom"* |
+| 2024-07-20 | *"There's about a 100% chance President Brainrot thinks that he's got a real life leprechaun on staff"* |
+
+**In private he grades his own mental state; in public he grades the world.**
+*"I am 95% sure"* is a number about Dan. *"it's 25% at best for Kamala"* is a
+number about an election. Same scale, same granularity, same willingness to run
+it to the endpoints — a different object, and this page's pattern is built to
+catch the first and structurally blind to the second. That is a real
+distinction rather than an artefact: it is what the medium selects for. Nobody
+broadcasts their own certainty to an audience that did not ask; a forecast is
+the form a probability takes when it is addressed to strangers.
+
+### Two behaviours the message corpus does not contain
+
+Both are stronger evidence than another instance would be, because a scale you
+merely *use* is a habit and a scale you **enforce and audit against** is a norm.
+
+**He polices calibration in other people.** On **2022-03-30**: *"That's a level
+of certainty I'm not sure how you've arrived at."* And on **2022-02-24**, of a
+casualty figure early in the Ukraine invasion: *"This kind of specific and not
+large number seem a little sus to me, though I do appreciate the need to
+inspire confidence and galvanize a terrified nation."* The second is a
+suspiciously-precise-number objection — the failure mode of somebody who thinks
+about what a number is entitled to claim.
+
+**He audits his own past confidence, unprompted and against himself.** On
+**2024-11-07**, after the election: *"Pretty crazy that even I, someone who was
+really pessimistic about the probability of a Biden re-elect, was still giving
+him blue wall states in June."* He is not reporting the outcome; he is
+reporting that his own estimate was insufficiently pessimistic, and dating it.
+
+**The 2022 hole is partly filled.** The Gaps section below records the message
+dump as missing 2022 and 2026 entirely. The archive has **158 originals in
+2022**, three of them in the table above, so the terminal-phase gap is narrower
+than it was — for this channel, on this behaviour, and not for the asymmetry.
+
+**What would settle it.** The Facebook Messenger and email exports, which are
+addressed to individuals and therefore *do* have an inbound half. Those remain
+the real test, exactly as the Prediction section says.
 
 ## Gaps
 

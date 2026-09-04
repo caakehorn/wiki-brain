@@ -9098,3 +9098,89 @@ it — the 2026-08 decision was about human surface area and never touched data.
 
 Also regenerated `wiki/meta/testimony-veracity.md`, which was behind its ledger
 on `main` and held the gate red.
+
+## [2026-09-04] connect | self, interests, health, mind, people | the twitter archive read back onto the pages it was always about
+
+**The defect, stated as the operator did.** Nineteen `wiki/self/twitter/` year
+pages had been written across two sessions by reading every tweet in every
+year, to a high standard, carrying 130 typed edges. The archive is *about* other
+pages — people, bands, concerts, substances, an alias — and almost none of them
+had been told. Cross-linking twitter to the rest of the wiki was the ask; the
+generalisation of it into the governing set was the second half of the ask, and
+is the more valuable half.
+
+**Built `bin/wiki-crosslink`.** Reads the corpora a page's own `sources:` name,
+inside the page's own `date_range_*`, and names every entity with a wiki page
+the page does not link, printing the dated rows behind each. Plus `reciprocal`,
+which computes the inverse-edge debt `CONNECTIONS_SPEC.md` has required since
+2026-07-17 and which nothing had ever counted. It writes no edges and must not
+be made to: it emits candidates, and a candidate is a reason to read.
+
+**Findings, in value order.**
+
+1. **The concert record calls itself "a complete record" and is not.** Ninety-
+   eight days of autumn 2008 name seven Orlando shows; the ticket table holds
+   four. The Roots (7 Oct), Cobra Starship / Hit The Lights / FTSK (13 Nov) and
+   Trans-Siberian Orchestra (15 Nov) are absent. **The reason is the finding:**
+   a table built from stubs and order numbers records what was *bought*, and
+   TSO was announced at 17:04 and dismissed at 23:07 as *"SUPER lame."* A
+   concert log is a record of intentions; a feed is a record of evenings, and
+   they diverge exactly where a night disappointed.
+2. **Hey Monday's open row is dated**, and two rows of the same table turn out
+   to be one night. The tweets fix it to 28 December 2008 — he flew back to
+   Orlando mid-Christmas for it — and row 40's BACKBOOTH ticket for that date,
+   filed under There For Tomorrow, is very probably the same bill. The date is
+   settled by the tweets alone; the join is stated as inference and marked.
+3. **Nicotine gets an arc, not a date.** Eighteen years, five delivery systems,
+   no interval without it: cigarettes (2007, at a promotional Fall Out Boy
+   show) → announced quit 2008-10-16 → failed by 2008-12-22 → e-cigarette
+   2010-12-13 → **failed inside three weeks, and the relapse exists nowhere in
+   the archive except as a restarted counter on 2011-01-10** → vape by 2015 →
+   vape + Skoal 2019 → disposable 2022. Every quit is a substitution, and in
+   2019 he names the two reasons himself: the animals, and the flavour. Neither
+   is nicotine. The health page had said the row "has no ledger entries at all
+   and remains description." Onset lands in the same year as the first opiate.
+4. **SLOPPP's 2013 was roughly three times what the discography records** — 29
+   distinct titles against 9, **16 of them in September alone** against the
+   table's one. And *"#overcompensating #poseur #fakefuture"* (23 September
+   2013), posted on a release announcement at the centre of the most productive
+   month of the project's life. That flips `failure-to-launch` on this era: the
+   output was real and sustained, and the verdict against it was filed by its
+   author in his own hashtags.
+5. **Katie Fletcher's page said "everything known arrives through Dan's later
+   AI-session narration."** Six dated posts across 21–31 August 2013 say
+   otherwise, including a Vine posted at 22:54 from inside the Oddball show the
+   page narrates from a 2026 ketamine session. She has a handle: `@katie_efff`.
+6. **`calibrated-confidence` stated a falsifiable Prediction; the archive is a
+   channel it did not list.** The strict pattern returns **0 in 2,718 public
+   posts** where the message rate predicts ~1 — underpowered, not refuted, and
+   written that way. The 22× inbound asymmetry that makes the finding mean
+   anything **can never be run on a broadcast archive at all.** But the habit is
+   there in a form the pattern is built not to see: **in private he grades his
+   own mental state, in public he grades the world** — *"it's 25% at best for
+   Kamala, Gretch, Newsom"*. Plus two behaviours the message corpus lacks: he
+   polices calibration in others, and audits his own past estimates against
+   himself.
+7. **`acquisition-drive`'s young form gets a dated instance** to set against the
+   ATM-card story its own Gaps call undated and uncorroborated — a mid-Christmas
+   flight for one concert, at twenty, with nothing at stake, which isolates the
+   mechanism from the impulsivity and the class buffer.
+
+**Reciprocal debt on the twitter tree: 39 → 0.** Three of the original 39 point
+at `wiki/meta/testimony-veracity`, which is generated; a hand-added inverse
+there dies on the next run, so the tool now knows the generated surfaces and
+reports them apart from the debt.
+
+**Two things that did not survive, both written onto the pages.** A
+Facebook-to-Twitter release lag that looked like a clean five days across six
+matched pairs ran from −1 to +28 across twelve. And nearly every single-token
+name match was a false positive — Rick Santorum, Tom Cruise, Jack Ü, slim jims.
+
+**Doctrine.** `STRATEGY.md`'s core loop gains a step between entry and analysis;
+`EXTRACTION_SPEC.md` gains move 9; `CONNECTIONS_SPEC.md` gains the
+source-mention obligation; `CLAUDE.md` gains a CROSSLINK operation and rule 2 of
+the four things now covers mentions as well as findings;
+`skills/corpus/source-mention-debt.md` is promoted active. The through-line: this
+is the only obligation in the repository with **no symptom** — a source that
+named forty things and got linked to three is indistinguishable from one that
+named three, from every surface that reports work.

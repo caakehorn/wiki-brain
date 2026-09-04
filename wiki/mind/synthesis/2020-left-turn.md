@@ -61,6 +61,24 @@ connections:
   - page: wiki/self/twitter/2009
     type: evidenced-by
     claim: 'The corpus\'s earliest dated political self-description is a departure, not an arrival: "i no longer consider myself a republican" (2009-11-28), triggered by a link to people behaving badly and naming no replacement. Eleven years before the arrival this page dates, and the same mechanism as the 2022 O&A account — leaving a tribe rather than joining one.'
+  - page: wiki/self/twitter/2016
+    type: evidenced-by
+    claim: "2016 is a step backwards from the turn, not toward it: no post on or after the election at all, DNC comments aimed at stagecraft rather than candidates, and 'I don't know much about politics but Obama is NOT a fascist' (8 December) — a disclaimer of expertise from a man who argued eight positions sharply in 2011."
+  - page: wiki/self/twitter/2017
+    type: evidenced-by
+    claim: "The 2017-2019 politics are anti-Trump liberal resistance rather than left: agreeing with Mitt Romney under #ImpeachTrump, weighing a Pence term as preferable. So the conversion is from liberalism, not from apathy — and the media pipeline's entry point is 2017 and comedic, via @drmistercody."
+  - page: wiki/self/twitter/2018
+    type: evidenced-by
+    claim: "The 2018 reading is Resistance-liberal — Fire and Fury on publication weekend, Comey's A Higher Loyalty pre-ordered and chased — and 15 February conceives Trump as a wasted vehicle for gun control, a thought available only to somebody who still believes the vehicle matters more than the direction."
+  - page: wiki/self/twitter/2019
+    type: evidenced-by
+    claim: "Ten months before the conversion, nothing in 57 posts mentions class, labour, healthcare or capitalism: impeachment is watched as procedural drama and he jokes about voting Cory Booker. The state immediately prior to the turn was not a partly-converted one."
+  - page: wiki/self/twitter/2020
+    type: evidenced-by
+    claim: "The public declaration is 2020-10-03 and it is an ultimatum — 'if 2020 hasn't made you a marxist ... you're either frighteningly uninformed or just a fucking ghoul' — but the analysis precedes the label: 15 February 2020 runs the Democratic primary as a class conflict, before any lockdown."
+  - page: wiki/self/twitter/2023
+    type: evidenced-by
+    claim: "The class content absent from 2011-2019 arrives complete on 2023-03-03 in its own vocabulary — bourgeois, class status, systemic advantages, material well-being — with the argument run psychologically: a class position explained by the fear of losing it rather than by its economic interest."
 ---
 
 

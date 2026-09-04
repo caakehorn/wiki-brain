@@ -4,7 +4,7 @@ page_type: entity
 title: "SLOPPP"
 status: closed
 date_created: 2026-06-22
-date_modified: 2026-09-02
+date_modified: 2026-09-04
 date_range_start: 2013-01-01
 date_range_end: 2016-03-07
 sources:
@@ -42,6 +42,15 @@ connections:
   - page: wiki/people/zachariah-harshman
     type: co-occurs
     claim: "Zach is SLOPPP's earliest documented fan and promoter — pitching Dan to a Pittsburgh rave scene contact in January 2014, less than two years before the project's Dec 26, 2015 'Goodbye Demo' close."
+  - page: wiki/self/twitter/2013
+    type: evidenced-by
+    claim: "Roughly triples the documented 2013 output: 29 distinct titles against the Facebook-derived discography's 9, with 16 of them in September 2013 alone — a month the table records one release in — and it carries the self-undercutting that came with them, '#overcompensating #poseur #fakefuture' posted on an announcement at the peak."
+  - page: wiki/self/twitter/2014
+    type: evidenced-by
+    claim: "The 2014 half of the alias's public life, 31 posts: the Beatport contest entry, the remix run for heRobust, Katy Perry, gLAdiator, Drake x Cashmere Cat, Caked Up and Zeds Dead, and 'as a nobody DJ' written in the same month as the contest."
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: contradicts
+    claim: "The archive shows the output was real, sustained and prolific — 16 releases in September 2013 — which means this era is not an unfinished attempt but a completed one whose author had already filed the verdict against it in his own hashtags."
 ---
 
 # SLOPPP
@@ -71,6 +80,75 @@ peaks in exactly 2014 (113 hits), the SLOPPP high-water mark.
 > of his own music of any kind until the MOGZART revival of 4 March 2026**,
 > ten years later. See [[wiki/interests/music/overview]] for that gap
 > measured across the whole archive.
+
+## The twitter archive roughly triples the documented 2013 output
+
+Added 2026-09-04 from [[wiki/self/twitter/2013]] and
+[[wiki/self/twitter/2014]]. **The discography below is reconstructed from
+Facebook share dates. The twitter archive was never read against it**, and it
+carries 48 SLOPPP-tagged posts in 2013 and 31 in 2014, most of them SoundCloud
+auto-shares that name a title and date it to the minute.
+
+| | discography table | twitter archive |
+|---|---|---|
+| distinct 2013 releases | 9 | **29** |
+| distinct September 2013 releases | 1 (*Bluntz*) | **16** |
+| window covered | Aug 2013 – Dec 2015 | 17 Aug 2013 – 7 Mar 2016 |
+
+**September 2013 is the actual peak and the table shows one release in it.**
+Sixteen distinct titles in thirty days — *THE KEEPSAKE FOR PETE'S SAKE MIX*,
+*THE GREENER GRASS MIX*, *All Done*, *SLOPPPED AND SCREWED: HOODIE WEATHER
+MIX*, *TUNE IN, DROP OUT, TURN UP*, *Blazin*, *RACK TO THE FUTURE*, *Snailed
+It*, *CUFFED AND CRUISED*, *BULLET SVNDWICH*, *THE LOW-END MIX*, *'THINK ABOUT
+IT! THURSDAYS'*, *Backwards*, *The Diary of Dan Frank*, *Betty Draper* and
+*helterskelter: race riot music*. Three of them on 28 September alone. This is
+not a hobby posting cadence; it is closer to a release schedule, run by a
+twenty-four-year-old with no label, no audience to speak of and no income from
+it.
+
+**Three cautions, and the first two are load-bearing.**
+
+1. **The 2013 archive begins on 17 August** because the source changes there
+   (`wiki/self/twitter/2013`, and the same caveat governs 2009–2013 generally).
+   Everything before that date is invisible, so 29 is a floor for the year and
+   the alias's start date is *still* not datable from here.
+2. **The year-on-year drop from 29 to 4 is a change of format, not of output.**
+   *"My new sounds:"* is SoundCloud's own auto-share wording, and he stops using
+   it after January 2014 — the 2014 posts promote releases in his own words
+   instead. The count measures the share button, not the music. Comparing the
+   two years on it would be exactly the error
+   `skills/corpus/vocabulary-drift.md` describes.
+3. **The Facebook-to-Twitter interval is not a constant and must not be quoted
+   as one.** Six matched pairs suggested a tidy five-day lag; extending the
+   match to twelve dissolved it — the observed range runs from −1 to +28 days.
+   Recorded because the tidy version is the one a later pass would reach for.
+
+### The titles are a source in their own right
+
+They are not filenames. *The Diary of Dan Frank* is an autobiographical claim
+attached to a trap mix; *Betty Draper* and *A BRIEF HISTORY OF TIME AND BASS*
+are the same pun-on-a-cultural-object habit
+[[wiki/interests/the-office]] documents running on television;
+*helterskelter: race riot music* is a nineteen-sixties reference nobody in that
+scene was making; and the December 2013 year-mix is posted as
+*$ⱢØⱣⱣⱣ - ΫЄ∆ЯMỊX 2013 (Ᵽ∆Я₮ 1)* in substituted Unicode glyphs, which is a
+deliberate act of making a title harder to read and search.
+
+### He undercuts his own release in the hashtags
+
+On **23 September 2013**, announcing a mix and an original in the same post:
+
+> *"New mix is a go, another original going up tonight. #overcompensating
+> #poseur #fakefuture"*
+
+Three hashtags, all self-accusations, attached to the announcement rather than
+to anything else — at the exact centre of the most productive month in the
+project's life. It is the same move as *"as a 'nobody' DJ"* in April 2014,
+posted in the month he was entering a Beatport contest
+([[wiki/self/twitter/2014]]), and it is why
+[[wiki/mind/synthesis/failure-to-launch]] should read this era as something
+other than an unfinished attempt: **the output was real, sustained and
+prolific, and the self-assessment attached to it was already a verdict.**
 
 ## Discography and mixes (reconstructed from posted links)
 

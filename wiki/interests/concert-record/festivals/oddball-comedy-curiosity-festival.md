@@ -18,6 +18,12 @@ connections:
   - page: wiki/interests/concert-record/performers/john-mulaney
     type: contains
     claim: "John Mulaney performed at Oddball Comedy & Curiosity Festival on Aug 30, 2013 (Post-Gazette Pavilion (First Niagara Pavilion), Burgettstown, PA)."
+  - page: wiki/self/twitter/2013
+    type: evidenced-by
+    claim: "The ticket dates the night; a Vine posted at 22:54 on 30 August 2013 — 'Frogs and Katie Fletcher at #oddballcomedyfest Pittsburgh' — proves attendance and names his companion, which no ticket can."
+  - page: wiki/people/katie-fletcher
+    type: co-occurs
+    claim: "The only event in the corpus attended by both and dated by three independent records: the concert log's ticket, a contemporaneous Vine naming her, and Dan's own 2026 retelling of the night."
 ---
 
 # Oddball Comedy & Curiosity Festival

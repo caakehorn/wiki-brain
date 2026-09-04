@@ -22,6 +22,9 @@ connections:
   - page: wiki/mind/concepts/acquisition-drive
     type: co-occurs
     claim: "The undated episode in which Dan used his sister's ATM card while she was away at college, under a pretext he flags in his own telling as a pretext, is the operator's chosen illustration of the drive running with no consequence-modelling attached."
+  - page: wiki/self/twitter/2013
+    type: evidenced-by
+    claim: "The five 2013 posts under @VanessaFrankzz are the only contemporaneous record of the sibling relationship before the message thread opens in December 2015, and every one of them is a joke made at her expense in public — 'Hair Alert!', 'Kill yourself, make the world a better place', 'has geriatric comedy on lock' — which is a register the low-conflict message thread never shows."
 ---
 
 # Vanessa C. Frank

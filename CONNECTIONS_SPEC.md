@@ -98,7 +98,7 @@ frontmatter-only and may simply restate the relationship from the other side.
 Its prose pass comes later (retrofit protocol step 4).
 
 **A write-back inverse** — added because a synthesis page concluded something
-about this page — is held to `STRATEGY.md`'s core loop, step 5, and must state
+about this page — is held to `STRATEGY.md`'s core loop, step 6, and must state
 **what this page turned out to be evidence of.** The test: a reader who lands
 here and reads only the `connections:` block should come away with the
 conclusion, not with a pointer to where the conclusion is kept.
@@ -120,6 +120,71 @@ arrive at member pages far more often than at synthesis pages. A claim that
 merely points is a claim that will be skipped, and the conclusion behind it will
 be re-derived from less evidence. Full rationale: `SYNTHESIS_SPEC.md`, "The
 write-back obligation."
+
+## The source-mention obligation (added 2026-09-04)
+
+The write-back rule above covers a **finding**: a conclusion reached on one
+page, owed to the pages it was drawn from. This covers the case one layer
+below it, which is more common and has no rule of its own until now.
+
+**When a source names something that already has a page, both pages are owed
+an edge — before any finding exists.**
+
+A page assembled from a corpus records what its writer found interesting. That
+is a strict subset of what the corpus contains, and the difference is invisible
+from either end: the page reads as complete, and the target page has no way to
+learn that a source it never saw is talking about it. Nothing goes red. No
+warning fires. The wiki simply holds less than its own `raw/` does, at the one
+layer where it matters most, because synthesis reasons from `wiki/`.
+
+The measured case: nineteen `wiki/self/twitter/` year pages, each written by
+reading its year in full, carried 130 typed edges between them. The same
+archive names the concert record, four artist pages, two people pages, an alias
+page and a health row — none of them linked, and one autumn of it was enough to
+falsify claims on three of those pages.
+
+**What the claim says when there is no finding yet.** An edge is still a
+proposition, so a bare adjacency is still banned. State what the source
+*supplies*:
+
+```yaml
+# fails — an adjacency wearing a claim's clothes
+- page: wiki/self/twitter/2008
+  type: evidenced-by
+  claim: "The 2008 tweets mention this band."
+
+# passes — says what the target page did not have
+- page: wiki/self/twitter/2008
+  type: evidenced-by
+  claim: "'i miss the starting line.' (30 November 2008) is the only evidence in the corpus that the band meant anything to him beyond the 2005 tour bill this page otherwise rests on — posted during their hiatus, three years after the show."
+```
+
+The second is writable before anybody knows what it means, and it is what
+makes the mention reachable by the climb that eventually does.
+
+**Where to point first: a page's claims about itself.** The highest-value
+mentions are the ones that hit a page's own stated completeness or stated
+limits. `wiki/interests/concert-record/index` said "the master table below is
+the complete record"; `wiki/people/katie-fletcher` said "everything known
+arrives through Dan's later AI-session narration"; `wiki/health/chemical-
+architecture` said the nicotine row "has no ledger entries at all and remains
+description". All three were checkable, and all three moved.
+
+**Tooling, and its limits.** `bin/wiki-crosslink scan <page>` reads the
+corpora a page's own `sources:` name, inside the page's own date range, and
+lists entities with pages the page does not link. `bin/wiki-crosslink
+reciprocal` computes the inverse-edge debt this file requires but nothing
+measured. Both emit **candidates**. A candidate is a reason to open the source
+rows it prints; it is never a reason to write an edge, and a mention is not a
+relationship — a tweet naming Diplo is a consumption datapoint, not a Diplo
+relationship, and the type and claim can only come from reading.
+
+**An edge into a generated page cannot be reciprocated**, and that is not a
+debt. `wiki/meta/testimony-veracity`, `wiki/meta/skills`,
+`wiki/health/intake-ledger` and the rest of `CLAUDE.md`'s generated surfaces
+are overwritten on every run; a hand-added inverse there dies silently and
+fails that generator's own check. `wiki-crosslink` knows the list and reports
+them apart from the debt rather than demanding work nobody may do.
 
 ## Junction pages — where cross-domain tissue accumulates
 
@@ -217,3 +282,10 @@ mentions Tom is not a relationship between pages).
 - `bin/wiki-connect check` — lints typed edges (resolution, vocabulary,
   claim length), warns on missing inverses and surviving bare footers.
   Run alongside `bin/wiki-lint` before every commit.
+- `bin/wiki-crosslink scan <page>|--all` — the source-mention obligation
+  computed: entities named in a page's own cited corpus, inside its own date
+  range, that have pages it does not link. Candidates only.
+- `bin/wiki-crosslink reciprocal [prefix]` — the inverse-edge debt this file
+  requires, counted rather than remembered; `check` prints the total and always
+  exits 0, because a one-way edge still carries its claim and a gate that
+  blocked unrelated commits on it would acquire an escape hatch.

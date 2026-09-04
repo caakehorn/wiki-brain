@@ -41,6 +41,24 @@ connections:
   - page: wiki/self/twitter/2009
     type: evidenced-by
     claim: 'The Balloon Boy day (2009-10-15) runs the habit three years before the Sandy tweet — "watching CNN on delay via a paused DVR", "the best one-off meme ever" — but never states it, so it moves the habit to at least seventeen years old while leaving the articulation where this page put it.'
+  - page: wiki/self/twitter/2011
+    type: evidenced-by
+    claim: "Hurricane Irene (25-28 August 2011) is the middle term of a three-instance escalation toward articulation — Balloon Boy 2009 as coverage-about-coverage, Irene consumed remotely with the evacuation map redistributed, Sandy 2012 finally stated as a claim about the medium."
+  - page: wiki/self/twitter/2012
+    type: evidenced-by
+    claim: "The 'digital disaster' line this page rests on was written by one of the sources: he spent the preceding forty-eight hours running a Sandy liveblog, triaging novelty accounts, and feeding original footage and 911 queue figures to a national radio show. It is a practitioner's observation, not an observer's aside."
+  - page: wiki/self/twitter/2013
+    type: evidenced-by
+    claim: "Six months after running the Sandy liveblog he is reading analysis of the phenomenon instead of performing it — 'Great article about social media coverage during Boston bombing and the new role of journalists' (2013-04-21) — the step from practice to theory."
+  - page: wiki/self/twitter/2022
+    type: evidenced-by
+    claim: "The disposition reporting on where it breaks: after the Buffalo livestream (2022-05-15) he benchmarks his own reaction against the desensitisation he expected from years of FPS games and finds it insufficient — 'completely foreign to any experience'."
+  - page: wiki/self/twitter/2023
+    type: evidenced-by
+    claim: "He classifies Balloon Boy the same way this page does, unprompted and fourteen years later — 'This is so much better than balloon boy.' during OceanGate (2023-06-21) — making the 2009 day a landmark in his own taxonomy, not only in the wiki's."
+  - page: wiki/self/twitter/2026
+    type: evidenced-by
+    claim: "The disposition becomes an operation: on 2026-05-30 he runs a browser agent to delete every follow across Twitter, YouTube and SoundCloud at once, to rebuild the recommendation systems from scratch. No longer observing the algorithm — taking an instrument to it."
 ---
 
 

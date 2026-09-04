@@ -46,6 +46,9 @@ connections:
   - page: wiki/timeline/periods/full-sail-2008-2010
     type: component-of
     claim: "Eric is the cohort member whose sparse, decade-spanning check-ins pick up exactly where they left off — the era's clearest evidence that a Full Sail friendship never needed active maintenance to survive."
+  - page: wiki/self/twitter/2010
+    type: evidenced-by
+    claim: "The banter is running at full volume in 2010, seven years before the message thread opens — '@EricJester 8 year old Eric Jester loves drinking in church....' (19 August) and, in March, 'remember when he stole shut up Oscar! from us in s5 of the office?' — a shared private idiom neither of them explains."
 ---
 
 # Eric Jester

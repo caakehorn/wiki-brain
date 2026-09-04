@@ -40,6 +40,9 @@ connections:
   - page: wiki/mind/synthesis/the-cato-seat
     type: component-of
     claim: "The 2024 binge is one instance of a single curated situation: twenty books on a constitutional order failing, read alongside forty on a second one, by a man whose own AI persona is named for the senator who lost that argument and killed himself over it."
+  - page: wiki/self/twitter/2024
+    type: evidenced-by
+    claim: "Within three weeks of the reading binge the history is a working instrument rather than a subject: the UCLA encampment read as 'the Fabian strategy' and 'Caesarian tactics' (1 May), a proscription list joked about in the post-debate wreckage (28 June), and a major publication corrected on republican Rome (5 June)."
 ---
 
 # Roman Republic & Ancient History

@@ -5,7 +5,7 @@ title: "Wiki Digest"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-09-03
+date_modified: 2026-09-04
 sources: []
 ---
 
@@ -22,7 +22,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 497 |
-| Pages touched in the last 14 days | 191 |
+| Pages touched in the last 14 days | 183 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 48 |
 | Open gaps | 605 |
@@ -55,7 +55,11 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-03** — 41 pages
+**2026-09-04** — 19 pages
+  - site | meta | the Wikipedia-style reader is served again
+  - connect | self, interests, health, mind, people | the twitter archive read back onto the pages it was always about
+
+**2026-09-03** — 35 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
   - ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
   - ingest | self | 2010 read in full — the corpus's most-cited date was computed from a train going the wrong way, and it survives anyway
@@ -70,7 +74,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | self | 2024, 2025 and 2026 read in full — all nineteen year pages now carry narrative runs
   - lint | self | the twitter year pages were generating a 2,741-entry table of contents
 
-**2026-09-02** — 12 pages
+**2026-09-02** — 10 pages
   - build | meta | the instrument layer gets a section, and the reason it needs one
   - adjudicate | people | the Thanksgiving 2009 meeting, corroborated by a record that did not exist when it was integrated
   - build | meta | the wiki has been checking his testimony for months and throwing away every result
@@ -99,13 +103,6 @@ between regenerations. Do not hand-edit here — rerun the tool._
 **2026-08-31** — 4 pages
   - ingest | health | the intake ledger's first export (2026-08-30/31)
   - ingest | health | the ledger gets an entry page
-
-**2026-08-30** — 1 page
-  - build | meta | the skills section was a contract with no counterparty
-  - tool | health | the intake ledger — `bin/intake`, `intake/`, Special:Intake
-  - infra | intake | the portal as a third interface, and the guard that actually guards
-  - declare | meta | the skills section becomes a cross-model database
-  - tool | meta | page history — every version of every page, on the site and behind a gate
 
 ## Pages that reason from other pages
 

@@ -43,6 +43,18 @@ connections:
   - page: wiki/interests/music/overview
     type: evidences
     claim: 'The indie and electronic vocabularies run side by side through 2010 rather than in sequence — Grizzly Bear and Arcade Fire in the same months as Diplo, Electric Zoo, Ableton warping and a published dubstep mix — so what the 2012-2014 likes migration dates is displacement, not onset.'
+  - page: wiki/interests/the-office
+    type: evidences
+    claim: "'remember when he stole \'shut up Oscar!\' from us in s5 of the office? do sumthan bout it' to Eric Jester (12 March 2010) shows the idiom running as shared private property between two friends — neither explains the reference because neither has to."
+  - page: wiki/self/twitter/2011
+    type: contradicts
+    claim: "The December e-cigarette quit narrated here did not hold: '1 week smoke free!' on 2011-01-10 dates a fresh day one to roughly 3 January, so the attempt broke inside three weeks — and the relapse appears nowhere in the archive except as a restarted counter."
+  - page: wiki/health/chemical-architecture
+    type: evidences
+    claim: "The clearest single instance of the nicotine row's substitution pattern: 'today is day 1 with no tobacco' (13 December) is a switch to an e-cigarette, announced as a quit, with '(un) hooked' corrected mid-sentence by the man writing it."
+  - page: wiki/people/eric-jester
+    type: evidences
+    claim: "Two 2010 posts hold the friendship at full volume seven years before the message thread begins — a church joke at his expense in August, and a shared Office in-joke in March that neither man explains because neither has to."
 ---
 
 # Twitter / X — 2010
