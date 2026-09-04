@@ -1,7 +1,7 @@
 {
   "counts": {
     "adjudicated": 16,
-    "testimonies": 16,
+    "testimonies": 17,
     "voided": 0
   },
   "generated": "bin/wiki-testimony — do not hand-edit; the log is the record",
@@ -548,6 +548,31 @@
       "speaker": "operator",
       "specificity": 3,
       "subject": "other"
+    },
+    "t017": {
+      "about": "2017-05",
+      "adjudication": null,
+      "asserted": "2017-05-04",
+      "channel": "message",
+      "claim": "As of May 2017 Dan was spending well over $100 a day on cocaine.",
+      "classes": [
+        "quantity",
+        "behavior"
+      ],
+      "confidence": "confident",
+      "history": [],
+      "id": "t017",
+      "load_bearing": false,
+      "note": "Said at 21:20 on 2017-05-04 to a new caddie-yard supplier, to be relayed to that supplier's own source, explicitly as a pitch: 'getting me as a client on that girl is like hitting the lottery haha.' The sales context makes the expected error direction OVER. It is checkable in principle: the same thread has Dan enforcing a $100/gram price by weight ('at least be at the 100/1 Mark', 2018-01-23), so the claim implies roughly 1g/day — against wiki/health/cocaine's dosage arc, which puts 2017-2020 at 3.5-7g/day. Either figure being right makes the other wrong. What would settle it: a second contemporaneous spend or quantity figure from 2017, or a bank/ATM record from the window.",
+      "pages": [
+        "wiki/health/cocaine",
+        "wiki/people/vaughn"
+      ],
+      "recorded_at": "2026-09-04",
+      "source": "raw/self/dox-scan/all_imessages_complete_dump.txt",
+      "speaker": "dan",
+      "specificity": 2,
+      "subject": "self"
     }
   }
 }

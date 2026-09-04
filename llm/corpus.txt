@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-04
-497 pages, ~1,869,121 tokens.
+497 pages, ~1,878,183 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -435,12 +435,12 @@ PAGE: wiki/health/cocaine.md
 domain: health
 page_type: profile
 title: "Cocaine"
-aliases: ["blow", "coke", "flake", "b's", "balls", "the accelerator", "voltage"]
+aliases: ["blow", "coke", "b's", "pow", "powder", "Versace", "the accelerator", "voltage"]
 status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-31
+date_modified: 2026-09-04
 sources:
   - raw/self/dox-md/ADDICTION_PROFILE.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -450,6 +450,7 @@ sources:
   - raw/self/dox-md/operating_manual.md
   - raw/self/dox-md/MAX_PRIME.md
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/health/intake/intake_unit_01M1AJ47K2HKZ8TZZ75CPNGFJ7.md
   - intake/events.jsonl
 synthesizes:
@@ -464,6 +465,7 @@ synthesizes:
   - wiki/people/jay-lauer
   - wiki/people/tom
   - wiki/people/menore
+  - wiki/people/vaughn
   - wiki/people/annie-ulmer
   - wiki/mind/synthesis/dan-annie-fallout-verdict
   - wiki/places/seven-springs
@@ -497,6 +499,9 @@ connections:
   - page: wiki/people/tom
     type: evidenced-by
     claim: "Tom is the long-term friend-supplier whose cocaine provision ran alongside strips, mushrooms, and klonopin — and whose May 2026 no-show left Dan in withdrawal that framed the entire BFS drawer incident."
+  - page: wiki/people/vaughn
+    type: evidenced-by
+    claim: "Vaughn is the 2017 node the succession did not have, and his thread carries the only contemporaneous dollar figure the corpus holds for the cocaine peak — 'I spend well over $100 a day on it' (2017-05-04) — against a $100/gram price Dan enforces by weight, which puts the figure at roughly a gram a day in the first year this page dates to 3.5-7g."
   - page: wiki/people/menore
     type: evidenced-by
     claim: "Menore is the NYC delivery node whose product is never named in-thread — measured: zero product terms in 4,413 messages — but is called 'menore's bags' and distinguished from weed in Dan's other threads, which narrows the six-year, 99.3%-availability service record to a bagged non-cannabis product consistent with cocaine logistics."
@@ -636,6 +641,59 @@ not by any internal ceiling** — and the later reduction is framed
 explicitly as a **resource adjustment, not a step toward moderation or
 recovery**. The daily-cocaine baseline sits atop a 96th-percentile
 impulsiveness score in the deviance audit.
+
+## The one dollar figure, and it disagrees with the arc
+
+Until 2026-09-04 this page's Gaps section said the financial cost of the peak
+was undocumented. One contemporaneous figure exists, and the reason it went
+unread for two months is that it sits in the half of a message thread the page
+that held it had never opened — see [[wiki/people/vaughn]], re-derived the same
+day.
+
+On **2017-05-04 at 21:20**, six hours into first contact with a new
+caddie-yard supplier and pitching himself past him to an upstream source he had
+never met, Dan wrote:
+
+> **"Let him know that getting me as a client on that girl is like hitting the
+> lottery haha. I spend well over $100 a day on it"**
+
+Two qualifications travel with it, and the second is the one that matters:
+
+1. **It is an advertisement.** The audience is a prospective seller's seller,
+   the purpose is to be taken on as a customer, and the error direction, if
+   there is one, is upward. It is recorded in
+   [[wiki/meta/testimony-veracity|the testimony ledger]] as an unproven
+   quantitative claim with that slant attached, rather than being adopted here
+   as a fact.
+2. **It contradicts the arc above by a factor of three to seven.** In the same
+   thread Dan enforces a **$100/gram** price by weighing what he buys — *"if
+   I'm getting it I gotta at least be at the 100/1 Mark"* (2018-01-23) — so
+   "well over $100 a day" is a rate of about **one gram a day**. That is this
+   page's *pre-inheritance baseline*, stated in the first year of the window
+   the page dates at **3.5–7 g/day**.
+
+**The tension is real and this page does not resolve it.** Three readings
+survive the evidence, and the corpus currently distinguishes none of them:
+the escalation had not begun by May 2017 and the arc's start date is a year
+early; or the arc's peak figure is retrospective inflation, which is the
+failure mode a self-reported quantity is most prone to; or he was
+under-reporting to a supplier, which is the one direction the sales context
+argues against. What can be said is narrower and firmer than the arc: **on one
+dated evening in May 2017 the man himself put the number at roughly a gram a
+day, and he priced grams at $100 in the same channel nine months later.**
+
+**A vocabulary correction came with it.** This page's `aliases:` carried
+`balls` and `flake`, and neither is how the record writes about the substance:
+across 265,180 deduplicated message rows, `balls` returns **112 rows and none
+of them are cocaine** (eye balls, golf balls, busting balls) and `flake`
+returns **14, also none**. Both are deleted. What the record does use, and what
+this page did not carry, is `pow` (9 rows, 8 real), `powder` (30 rows, ~22
+real), and `Versace` as a **purity grade** — in January 2017 Dan is sorting a
+batch into *"the Versace stuff"* and *"the Forever21 stuff"* and asking
+*"What's halfway between f21 and Versace?"*. A wrong alias is worse than a
+missing one: it makes every automated pass over this substance confidently
+wrong, which is exactly what happened — the first scan of the Vaughn thread
+reported four cocaine "mentions", all four of them golf balls and one idiom.
 
 ## The first measured night — 2026-08-30/31
 
@@ -819,6 +877,7 @@ dominant unnamed product. The succession of cocaine-specific nodes:
 | [[wiki/people/suzanne-frank|Suzanne Frank]] | 2015–16 | Family-internal provision node | Explicit cocaine, routine provision |
 | [[wiki/people/lindsay-carolla|Lindsay Carolla]] | 2016 (Thanksgiving) | Small-scale peer | Explicit cocaine ("Hi honey," "yes my love") |
 | [[wiki/people/jay-lauer|Jay Lauer]] | 2016–17 | Peer trader (mutual credit) | Cocaine + suboxone trading; died of heroin overdose |
+| [[wiki/people/vaughn|Vaughn]] | 2017–18 | Caddie-yard two-product middleman | Explicit — "powder", "pow", "that girl"; $100/g enforced by weight; three short-weight disputes |
 | [[wiki/people/johnny-dealer|Johnny]] | 2018–19 | Deep-cycle primary dealer | "B's" (balls/cocaine), suboxone strips; first supply panics |
 | [[wiki/people/al|Al]] ("Socialist") | 2018 | Parallel Uniontown dealer | Explicit cocaine; ends in unpaid-debt confrontation |
 | [[wiki/people/annoying|Annoying]] (unidentified) | 2019 | Short-term NYC dealer | Explicit cocaine; $300/ball, $8ball/280 |
@@ -926,9 +985,14 @@ better living" reading a bare dosage increase might otherwise invite.
   positively identified, but the question is narrower than it was — see
   the re-check below. It is *not* weed, it is sold in **bags**, and the
   thread's silence on the point is now measured rather than impressionistic.
-- **The true scale of the 2017–2020 spend**: The dosage arc gives
+- ~~**The true scale of the 2017–2020 spend**: The dosage arc gives
   quantities but not dollar figures; the financial cost of the 3.5–7g
-  daily peak is undocumented.
+  daily peak is undocumented.~~ **PARTLY CLOSED 2026-09-04** — one
+  contemporaneous dated figure now exists, from the
+  [[wiki/people/vaughn|Vaughn]] thread, and it does not agree with the arc.
+  See "The one dollar figure" above. What is still missing is any *second*
+  figure: one sentence said to make a sale is a data point, not a spend
+  history, and nothing in the corpus yet corroborates or contradicts it.
 - **Post-overdose intervention**: Dan's attempt to move Jay Lauer onto
   Suboxone — the only documented instance of Dan trying to move somebody
   *out* of this network rather than into or around it — is recorded, but
@@ -10779,10 +10843,10 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 497 |
-| Pages touched in the last 14 days | 224 |
+| Pages touched in the last 14 days | 227 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 49 |
-| Open gaps | 605 |
+| Open gaps | 604 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -10812,7 +10876,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-04** — 84 pages
+**2026-09-04** — 90 pages
   - connect | people | the handles were on the pages all along, and the guard could not see nine of them
   - connect | people | thirteen pages that counted half a conversation
   - connect | people | the estate's two hands, found by reading a conversation instead of a name
@@ -10861,7 +10925,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 **2026-09-01** — 2 pages
 
-**2026-08-31** — 4 pages
+**2026-08-31** — 3 pages
   - ingest | health | the intake ledger's first export (2026-08-30/31)
   - ingest | health | the ledger gets an entry page
 
@@ -10871,7 +10935,7 @@ The altitude of the wiki — everything here was built on top of something
 else in it, and `bin/wiki-climb check` will flag any of them whose premises
 have moved since.
 
-- [[wiki/health/cocaine]] — 15 premises
+- [[wiki/health/cocaine]] — 16 premises
 - [[wiki/health/the-configured-body]] — 8 premises
 - [[wiki/interests/favorites/art-and-movies]] — 4 premises
 - [[wiki/interests/favorites/books]] — 4 premises
@@ -11588,7 +11652,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 49 |
-| Open gaps | 605 |
+| Open gaps | 604 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
 
@@ -11731,13 +11795,12 @@ new knowledge available, because no new source is required.
 
 ## Open gaps, by domain
 
-### health (11)
+### health (10)
 
 - **[[wiki/health/cocaine]]** — **Prescriber information and medical oversight**: No prescriber, clinic, or medical record for the cocaine use appears anywhere in the corpus — it is entirely self-directed and undocumented by any clinical source.
 - **[[wiki/health/cocaine]]** — **Post-2026 dosage state**: partially answered, and narrowed rather than closed. The dosage arc is documented through the inheritance exhaustion (~2020 onward) from self-report; the intake ledger now supplies one measured unit — 0.75 g over 9h 31m on 2026-08-3
 - **[[wiki/health/cocaine]]** — **The cocaine–bulimia link** is stated in a self-audit but never independently corroborated by any source outside Dan's own retrospective account.
 - **[[wiki/health/cocaine]]** — **Product specificity in the NYC era**: Menore's product is still not positively identified, but the question is narrower than it was — see the re-check below. It is *not* weed, it is sold in **bags**, and the thread's silence on the point is now measured rath
-- **[[wiki/health/cocaine]]** — **The true scale of the 2017–2020 spend**: The dosage arc gives quantities but not dollar figures; the financial cost of the 3.5–7g daily peak is undocumented.
 - **[[wiki/health/cocaine]]** — **Post-overdose intervention**: Dan's attempt to move Jay Lauer onto Suboxone — the only documented instance of Dan trying to move somebody *out* of this network rather than into or around it — is recorded, but whether Dan made any similar attempt with any oth
 - **[[wiki/health/the-configured-body]]** — **The census is one pass over one dump and used a fixed term list.** Adjacent vocabulary — *urgent care, clinic, X-ray, scan, specialist, therapist, meds* — was not counted, and the dump covers 2015–2025 with **2022 and 2026 missing entirely**, so nothing here
 - **[[wiki/health/the-configured-body]]** — **No medical record of any kind exists in `raw/`.** Everything above is inferred from what Dan said about care in text messages, which is a proxy for care and not a record of it. A single insurance statement or pharmacy history would outrank the entire census.
@@ -12529,11 +12592,12 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-04 — 84 pages
+## 2026-09-04 — 90 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/chemical-architecture]] | health | _(carries a GAP CLOSED from 2026-08-28)_ |
+| [[wiki/health/cocaine]] | health | _(carries a RE-CHECKED from 2026-08-28)_ |
 | [[wiki/interests/concert-record/index]] | interests | — |
 | [[wiki/interests/favorites/music/artists/flight-of-the-conchords]] | interests | — |
 | [[wiki/interests/favorites/music/artists/hey-monday]] | interests | **GAP CLOSED** — The source table read *"2008 · Unknown · Orlando, FL · Still open — band formed 2008 in West Palm Beach; exact Orlando show unresolved."* Two tweets settle it, and they are worth reading together beca |
@@ -12553,6 +12617,7 @@ simply listed.
 | [[wiki/mind/concepts/calibrated-confidence]] | mind | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/mind/concepts/chaos-preference]] | mind | **RE-CHECKED** — the-cool-metric gained a section showing the received-versus-sought sort aimed at an already-admitted person: a six-year partner whose public register goes ironic and then silent. This page's axis is  |
 | [[wiki/mind/concepts/the-cool-metric]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
+| [[wiki/mind/psychosexual/orchestration-and-voyeurism]] | mind | — |
 | [[wiki/mind/synthesis/annual-volume-suz]] | mind | **RE-CHECKED** — suzanne-frank gained a section on six dated messages naming Judge Fred Adams, including her report of his death (2020-05-24). **No volume figure on this page is affected** — the messages were always i |
 | [[wiki/mind/synthesis/block-unblock-loop]] | mind | **RE-CHECKED** — rick-frank gained one typed edge and no prose: his 2018-01-06 message, already quoted on that page, is now also cited on fred-adams as the corpus's only statement of what Adams was to the family. **No |
 | [[wiki/mind/synthesis/bond-switch-2015]] | mind | **RE-CHECKED** — alexis-armel gained a measurement of the relationship's public register: it stops on **29 November 2013** and holds at zero for the last **twenty-four months**, across 1,132 posts, in years when his d |
@@ -12560,6 +12625,7 @@ simply listed.
 | [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a RE-CHECKED from 2026-08-28)_ |
 | [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] | mind | **RE-CHECKED** — ally-and-dan-love-as-destiny moved on 2026-09-04 solely by having `destiny`, `the love story`, `ally-dan timeline`, `the courtship` and `the case` removed from its frontmatter. All five were invention |
 | [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — the-cool-metric gained a section measuring the public register on the six-year partner: affection at 12 of 32 mentions in 2010, 3 of 47 across 2011-2014, then zero for the relationship's last twenty-f |
+| [[wiki/mind/synthesis/supply-network]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/the-binary-verdict]] | mind | **RE-CHECKED** — the-cool-metric gained a section showing the sorting metric run on a six-year live-in partner: affection in the public register falls from 12 of 32 mentions in 2010 to 3 of 47 across 2011-2014, the la |
 | [[wiki/mind/synthesis/the-deferred-audit]] | mind | **RE-CHECKED** — the-cool-metric moved on 2026-09-04 by gaining a substantive section, not a re-check note: the twitter archive shows *splitting via irony* aimed at a six-year live-in partner rather than at strangers, |
 | [[wiki/mind/synthesis/the-unbroken-bond]] | mind | _(carries a RE-CHECKED from 2026-08-28)_ |
@@ -12610,13 +12676,16 @@ simply listed.
 | [[wiki/people/tan-calabrese]] | people | _(carries a REVISED from 2026-08-09)_ |
 | [[wiki/people/the-unnamed-man]] | people | _(carries a REVISED from 2026-08-09)_ |
 | [[wiki/people/urpaaa-at-yahoo-com]] | people | — |
-| [[wiki/people/vaughn]] | people | **CORRECTED** — This paragraph read: *"The record is his side only (all rows marked Received); Dan's messages survive nowhere in it, so every exchange below is reconstructed from Vaughn's half."* **Dan's 354 messages |
+| [[wiki/people/vaughn]] | people | — |
 | [[wiki/people/zach-clabaugh]] | people | — |
 | [[wiki/people/zach-hendricks]] | people | — |
 | [[wiki/people/zaco]] | people | — |
+| [[wiki/places/155-virginia-ave]] | places | _(carries a GAP CLOSED from 2026-08-22)_ |
 | [[wiki/self/concepts/ally-and-dan-love-as-destiny]] | self | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/self/twitter/2008]] | self | _(carries a GAP CLOSED from 2026-09-03)_ |
 | [[wiki/self/twitter/2014]] | self | **CORRECTED** — She is barely here. Those two are the whole year against **23 in 2013**, and the collapse is specific to her rather than to the account: 2014's @-mention *rate* is the second highest of the era at 374 |
+| [[wiki/timeline/periods/2017-poverty-floor]] | timeline | — |
+| [[wiki/work/nemacolin-caddying]] | work | — |
 
 ## 2026-09-03 — 33 pages
 
@@ -12677,11 +12746,10 @@ simply listed.
 | [[wiki/interests/favorites/eclecticism]] | interests | **REVISED** — This page last moved on 2026-06-23. Twenty-one days later the music member was rewritten from a cluster inventory into a two-wave, three-cluster, eighteen-year continuity argument with a lyrics-as-tim |
 | [[wiki/timeline/index]] | timeline | — |
 
-## 2026-08-31 — 4 pages
+## 2026-08-31 — 3 pages
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/health/cocaine]] | health | _(carries a RE-CHECKED from 2026-08-28)_ |
 | [[wiki/health/index]] | health | — |
 | [[wiki/health/intake-ledger]] | health | — |
 | [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — cocaine and chemical-architecture both gained the intake ledger's first measured night (2026-08-30/31: one 0.75 g cocaine unit over 9h 31m in six doses, three 0.05 g cannabis units; the unit reconcile |
@@ -12692,7 +12760,7 @@ simply listed.
 |---|---|---|
 | [[wiki/meta/skills]] | meta | — |
 
-## 2026-08-28 — 18 pages
+## 2026-08-28 — 16 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -12706,13 +12774,11 @@ simply listed.
 | [[wiki/mind/synthesis/music-as-identity]] | mind | — |
 | [[wiki/mind/synthesis/no-platonic-channel]] | mind | — |
 | [[wiki/mind/synthesis/read-receipt-forensics]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
-| [[wiki/mind/synthesis/supply-network]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/mind/synthesis/the-commissioned-self]] | mind | **RE-CHECKED** — flagged stale against instrument-is-subject (2026-08-28), which added a constitution-pass mechanism section: Ti-dominance explains why the exocortex prompt's evidentiary standard takes the specific sh |
 | [[wiki/mind/synthesis/the-embedded-objective]] | mind | **RE-CHECKED** — flagged stale against 2015-possession-arrest (2026-08-28), which added a second, differently-dated operator account of an Alexis eviction/concealment episode used only to help date that page's arrest  |
 | [[wiki/mind/synthesis/the-rescue-premise]] | mind | **RE-CHECKED** — flagged stale against dormancy-not-exit (2026-08-28), which resolved a standing contradiction over whether a five-day tenure figure belonged to Franki Faris or to Alexis Armel's 2013 displacement — a  |
 | [[wiki/mind/synthesis/the-serial-monogamist]] | mind | — |
 | [[wiki/people/zach-clingan]] | people | **GAP CLOSED** — The 2014 "drug people" taxonomy and the December 2015 "my arch rival" outburst (below) both assume a rupture the corpus had never actually recorded. A 2026-08-27 operator capture (`raw/people/captures |
-| [[wiki/places/155-virginia-ave]] | places | _(carries a GAP CLOSED from 2026-08-22)_ |
 | [[wiki/places/the-unpapered-address]] | places | **RE-CHECKED** — estate-money-spine gained a constitution-pass mechanism section (the Altruism-1 inversion explaining the $14,000 family loan) and a full register table. Nothing in it touches tenancy, paper, or any of |
 
 ## 2026-08-27 — 3 pages
@@ -21416,7 +21482,7 @@ page_type: concept
 title: "Orchestration and Voyeurism"
 status: stable
 date_created: 2026-07-14
-date_modified: 2026-08-11
+date_modified: 2026-09-04
 knowledge: mixed
 sources:
   - raw/self/dox-scan/Dan Profile.txt
@@ -21446,7 +21512,7 @@ connections:
     claim: "The 2019-07-18 'living some eyes wide shut shit vicariously through her' message shows Dan reaching for his canon's masked-voyeur film as the lens on his own arrangement — primary self-description of the spectator frame."
   - page: wiki/people/vaughn
     type: co-occurs
-    claim: "The February 2018 Vaughn exchange — explicit photos shared to a curated audience, an offer to film, a 1 AM visit under 'complete gentleman' terms — pattern-matches the arrangement-onset orchestration window, though identity and outcome are uncorroborated."
+    claim: "The February 2018 Vaughn sequence is not one night but five days, and it is the corpus's only instance of orchestration functioning as CURRENCY — access offered as consideration in a cocaine transaction ('You're going to want to get powder / Because tomorrow or Friday if you can hook it up she said she would blow you', 2018-02-07) — which is a motive this page's satisfaction-driven reading does not cover. Identity and outcome remain uncorroborated."
   - page: wiki/mind/synthesis/totality-themes
     type: component-of
     claim: "Director rather than participant is 'The Irreversibility Firewall's' clearest bodily instance: arrange the irreversible, exposed act, and place someone else inside the frame actually performing it."
@@ -21540,6 +21606,57 @@ bookings, spring and fall 2019), and in the "purity test" architecture of
 the [[wiki/people/kristin|Kristin]] relationship (2025), where exclusivity
 was demanded of her in a mirror-image structure to the openness practiced
 with Annie — full inventory at [[wiki/mind/psychosexual/arrangement-history]].
+
+## The one instance where it is currency
+
+Added 2026-09-04, from the [[wiki/people/vaughn]] re-derivation — the thread's
+other half had never been read, and reading it turns a single night into a
+five-day sequence with a different structure.
+
+Every instance catalogued above is **satisfaction-driven**: Dan arranges, opts
+out, and takes his return in the fact of the arrangement itself. In February
+2018, with a caddie-yard supplier, the same machinery runs for **payment**.
+
+The sequence, all of it inside five days and all of it interleaved with an
+active drug negotiation:
+
+| | |
+|---|---|
+| 02-03, 01:20 | Dan sends explicit images of an unnamed woman; the supplier's replies run from appraisal to *"I got a nice camera let me tape lol"* |
+| 02-05, 22:19 | mid-negotiation over a $100 cocaine buy requiring delivery: *"I'll give you some videos for bringing it haha"* — declined, *"Lol that don't help"* |
+| 02-06, 01:11 | during the delivery run: *"I'd let u tho… It's usually a pretty simple formula to get her in threesome mode"* |
+| 02-07, 04:15 | *"she's the only girl I've ever let loose like that. She's like…not smart enough to have tricks up her sleeve or lie / I can enjoy the taboo of sharing her and know that she's not about to catch feels"* |
+| 02-07, 18:18 | the offer stated as terms: *"You're going to want to get powder / Because tomorrow or Friday **if you can hook it up** she said she would blow you / You're welcome forever"* |
+| 02-08, 02:28 | *"Play it cool about what I mentioned earlier… I wouldn't overdo it if you do say something"* |
+
+**Three things this adds that the page did not have.**
+
+First, a **motive outside the pattern**. The dossier's frame and every other
+documented instance make orchestration its own reward. Here it is priced, and
+the price is procurement — which puts the pattern downstream of
+[[wiki/mind/synthesis/supply-network|the supply network]] rather than parallel
+to it, at least once.
+
+Second, the **selection criterion is stated out loud**, and it is not desire.
+*"Not smart enough to have tricks up her sleeve or lie"* and *"not about to
+catch feels"* describe a partner chosen for **low agency and low risk of
+attachment** — the operational requirement of an arrangement the orchestrator
+intends to control. Elsewhere the corpus documents what Dan enjoyed; this is
+the corpus documenting what he *needed to be true of the person* for the
+enjoyment to work, and it is the least flattering sentence on this subject
+anywhere in the record.
+
+Third, the **retraction**. *"Play it cool about what I mentioned earlier"* is
+Dan walking the offer back the next night, unprompted — evidence that he
+understood it as a thing that could be held against him, and the only
+documented instance of him withdrawing an orchestration proposal.
+
+**The falsifier, stated plainly.** The thread records no outcome and never
+names her. Nothing establishes that she said what he reports her saying, that
+anything followed, or that the offer was ever more than a bargaining move made
+to a supplier at 6pm. Read at its weakest this is a man lying about a woman to
+get cocaine, which is a different finding than the one above and not obviously
+a better one. What is not in doubt is that he wrote it.
 
 ## The escalation: speaking as the partner
 
@@ -32722,12 +32839,13 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-28
+date_modified: 2026-09-04
 sources:
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
   - "raw/self/dox-md/operating_manual.md"
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/message-csv/messages_3476070497_all_time.csv"
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
 synthesizes:
@@ -32800,7 +32918,7 @@ connections:
     claim: "Sam is the 2019–20 NYC cannabis line — a parallel professional delivery node whose February 2020 firing of Dan ('don't never hit this number') proves transactional discipline enforces on the buyer too, not just the supplier."
   - page: wiki/people/vaughn
     type: contains
-    claim: "Vaughn is a minor 2017–18 Uniontown node — a carless caddie-coworker middleman whose repeated short-weight disputes document the quality-control vacuum at the informal market's bottom tier."
+    claim: "Vaughn is the succession's missing 2017 node and a two-product one, not a weed middleman — the thread opens 2017-05-04, twenty-three days after Jay Lauer's overdose, asks for weed at 20:11 and cocaine at 20:13, and its three short-weight disputes document the quality-control vacuum at the informal market's bottom tier."
   - page: wiki/people/nick-mattie
     type: contains
     claim: "Nick is the spring-2017 reciprocal peer-trading node — fronts and a hand-kept ledger running in both directions — the tier where supply was mutual credit between broke men rather than vendor service."
@@ -32899,6 +33017,7 @@ transfers along the way.
 |---|---|---|---|
 | [[wiki/people/tom]] | ~2010–2026 | Uniontown/Pittsburgh | Friend-supplier; strips, mushrooms, cocaine, klonopin; sole strip source by 2025 |
 | [[wiki/people/zachariah-harshman]] | 2014–2015 | Uniontown | High-school-friend supplier; wax, dabs, flower priced by cut/quarter; earliest dated Uniontown node, predates Johnny/Teddy by 3 years |
+| [[wiki/people/vaughn]] | 2017–2018 | Uniontown / the caddie yard | Two-product middleman (weed and cocaine); $100/g; carless, borrowed Dan's scale; **the succession's only 2017 node** |
 | [[wiki/people/johnny-dealer]] | 2018–2019 | Uniontown | Primary deep-cycle dealer; strips ($15/8mg, $20/12mg), "b's"; fronts |
 | Second dealer (+17243233522) | 2018 | Uniontown | Parallel node in the deep cycle (operating manual) |
 | [[wiki/people/teddy]] | 2018–2020 | Uniontown/Fairchance | Parallel informal supplier; strips, pills; credit and holds |
@@ -33125,6 +33244,33 @@ peer-trading tier's characteristic feature — that the participants are
 substitutable for one another, one man's prescription becoming another man's
 supply — is exactly the feature that made the intervention convertible back
 into the drug it was meant to displace.
+
+### And it cost the network nothing measurable
+
+Added 2026-09-04, from the [[wiki/people/vaughn]] re-derivation.
+
+The fatality above is the network's one irreplaceable loss, and the record
+shows the network replacing it in under a month. **The next new supply
+relationship in the corpus opens on 2017-05-04 — twenty-three days after Jay
+Lauer's death** — and it opens at conversational speed: a vape offered at
+14:14, a ride home at 17:43, weed at 20:11, cocaine at 20:13, Dan's home
+address handed over at 21:17, product delivered at 21:51. Seven and a half
+hours from first contact to a completed transaction with a stranger.
+
+**State the inference narrowly, because the wide version does not survive.**
+This is not "Vaughn replaced Jay" — Vaughn was a coworker Dan met at the yard,
+not a referral, and Dan's other channels were running. What the dates support
+is smaller and still worth having: the only death this system ever produced
+sits inside a twenty-three-day gap in the documented record, and the page it
+should have interrupted is the one that shows the fastest cold-start
+acquisition in the corpus. **Procurement continuity is not merely resilient to
+node loss; it is resilient to node loss of the most consequential kind
+available.** That does not change this page's thesis — it is the structural
+dependency the page already argues for, observed at its highest possible cost
+— so it enters as evidence rather than as a new rule, and no fresh
+constitution pass is owed for it.
+
+The seven-and-a-half-hour figure is itself the [[wiki/mind/concepts/acquisition-drive|acquisition drive]] with a stopwatch on it, and it is the number to beat if a later pass wants to test whether cold-start latency moved across eras.
 
 ## The inversion at the end: Dan as the supply node
 
@@ -51590,11 +51736,14 @@ date_created: 2026-06-23
 date_modified: 2026-09-04
 date_range_start: 2017-10-16
 date_range_end: 2018-08-09
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"]
+sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-scan/all_imessages_complete_dump.txt"]
 related: ["wiki/work/nemacolin-caddying", "wiki/timeline/periods/2017-poverty-floor", "wiki/self/message-corpora/master-message-dump"]
 tags: [career, uniontown-era]
 knowledge: mixed
 connections:
+  - page: wiki/people/vaughn
+    type: evidenced-by
+    claim: "Jack supplied the clean urine Dan carried against a possible early Nemacolin drug test — 'i had jack rusko piss for me lol' (2018-03-19, in the Vaughn thread) — the only documented instance of him doing anything for Dan, on a page otherwise built entirely on what Dan owed him."
   - page: wiki/people/davey-fitzpatrick
     type: co-occurs
     claim: "Jack is the two threads' shared running character — the 6:10am rides because he 'doesn't like rushing,' the 'neurotic, whiny, incredible calamity' — placing Davey and Jack in one caddie-yard social graph with Dan."
@@ -51622,6 +51771,27 @@ Jack Rusko was a fellow [[wiki/work/nemacolin-caddying|Nemacolin]] caddy and gen
 ## Texture
 
 The laptop loan is the thread's most persistent bit: Jack asks for it back repeatedly from December 6–29, 2017 with growing (good-natured) exasperation — "Dan would u please get me my laptop," "it's been a month friend what up with U?" — before the thread goes quiet until April 2018. It resumes with genuine warmth after Fran's death: "Sorry to hear it Dan I'm glad you got to see her smile with her eyes open an at peace... she lived a hell of a life." Through spring and summer 2018 the two trade caddy-shift logistics (report times, whether Brad had texted, a mention of another caddy, Kenny, who "lost all of it" gambling/skiing money, which Jack cites as a cautionary example when Dan comes into some cash). A recurring party thread references "Brian Hudock" and general caddy-crew social life.
+
+## What a third thread says about him
+
+Added 2026-09-04. Jack's own thread is the whole of this page's evidence, and
+one line about him lives somewhere else — in the
+[[wiki/people/vaughn|Vaughn]] thread, on 2018-03-19:
+
+> *"i had **jack rusko** piss for me lol"*
+
+Dan is explaining to another caddie where the two stealth bottles of clean
+urine came from, against a possible early test at
+[[wiki/work/nemacolin-caddying|Nemacolin]]. It is a small line and it inverts
+the page's only established dynamic. Everything above has Jack chasing Dan for
+something — the laptop, for over two months, "it's been a month friend what up
+with U?" Here Jack is the one who supplied, unprompted enough that Dan can
+mention it in passing as a settled fact, and it is the corpus's only
+documented instance of him doing anything for Dan at all.
+
+**Gap:** whether Jack knew what the urine was for, whether he was paid, and
+whether this was a one-off or the standing arrangement the phrase's casualness
+suggests. His own thread never mentions it.
 
 ## Corpus Dimensions
 
@@ -62129,6 +62299,9 @@ connections:
   - page: wiki/people/dave-moore
     type: co-occurs
     claim: "Her stepfather by her mother's second marriage, with whom the corpus records not one exchanged word — only Annie's startled report that Suz ran into him and Dian in August 2018."
+  - page: wiki/people/vaughn
+    type: evidenced-by
+    claim: "By 2017-18 the cocaine direction between mother and son has reversed. The 2015-16 record has her supplying him; the Vaughn thread has him procuring for her — 'Okay my mom wants the whole thing' (2018-02-08, of a gram of powder), 'Mom is happy enough with the quality that it's cool' (2017-05-30), and 'I'll get my mom to bring me over if u can get t now' (2018-02-05), which puts her in the car on the way to the pickup."
   - page: wiki/health/cocaine
     type: evidences
     claim: "Cocaine is the substance implicated in the Frank family rupture — the mother's affair with their cocaine dealer and the father's rehab admission both sit inside a pattern of cocaine-adjacent dysfunction that Dan later adopted freely while excluding alcohol."
@@ -62683,6 +62856,29 @@ keeping whole:
 
 > Wow!!! This is not what I was brought up to handle. I'm not supposed to know
 > these people. I should write a book.
+
+> **THE DIRECTION REVERSES BY 2018 [added 2026-09-04].** The paragraph above
+> is dated 2015–16 and it does not extend. The
+> [[wiki/people/vaughn|Vaughn]] thread — 582 messages, re-derived 2026-09-04
+> after two months in which only Vaughn's half had been read — has Dan as the
+> household's procurement function and Suz as the end consumer:
+>
+> - *"It was 2.59 … **Mom is happy enough with the quality** that it's cool"* —
+>   2017-05-30, closing out a short-weight complaint on her behalf.
+> - *"**I'll get my mom to bring me over** if u can get t now"* — 2018-02-05,
+>   during a $100 cocaine negotiation. She is the transport.
+> - *"Okay **my mom wants the whole thing**, do u want me to swing by In a
+>   few"* — 2018-02-08, on a gram of powder.
+> - *"**my moms got a lil spice**, i'll roll us a jimmy john for the way up"* —
+>   2018-03-19, supplying the ride to work.
+>
+> This is a change of role rather than a new fact about either of them, and it
+> matters to the give-and-invoice reading elsewhere on this page: by the deep
+> cycle the supply flows from son to mother while the money still flows from
+> mother to son, so the two ledgers run in opposite directions at once. What
+> the record does not contain is any statement from her about it — the four
+> lines above are all Dan's, to a third party, and none is corroborated from
+> her side.
 
 > **NOTED [2026-08-18]:** [[wiki/people/john-felix]] carries "John Felix" as a
 > four-month 2016 contact who was *"speculative, not confirmed"* a partner of
@@ -65066,140 +65262,284 @@ date_range_start: 2017-05-04
 date_range_end: 2018-05-27
 sources:
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
-tags: [uniontown-era, career, financial-stress]
+  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
+tags: [uniontown-era, career, financial-stress, addiction-recovery]
 infobox:
   name: "Vaughn"
   sex: male
   location: uniontown
   relationship_to_dan: coworker
-  role: "Fellow Nemacolin caddie; small-time weed middleman"
+  role: "Fellow Nemacolin caddie; two-product middleman (weed and cocaine)"
   first_contact: 2017-05-04
   handles: ["+17245578229"]
-  known_for: "Caddie-yard coworker who doubled as a weed middleman between loops — rides up the mountain, check-day logistics, and chronic quantity disputes"
+  known_for: "Caddie-yard coworker who doubled as a middleman for both weed and cocaine between loops — rides up the mountain, check-day logistics, chronic short-weight disputes, and the 2017 gap in the supply succession"
+aliases: ["cuevo"]
 connections:
   - page: wiki/work/nemacolin-caddying
     type: component-of
-    claim: "Vaughn is the cohort's paycheck-to-paycheck edge: a fellow caddie coordinating rides to the yard and check pickups who doubled as a small-time weed middleman between loops."
+    claim: "Vaughn is the cohort's paycheck-to-paycheck edge: a fellow caddie coordinating rides to the yard and check pickups who doubled as a middleman between loops — and the thread carries the yard's drug-testing regime from the evading side, two stealth bottles of clean urine sourced from a third caddie."
   - page: wiki/mind/synthesis/supply-network
     type: component-of
-    claim: "Vaughn is a minor Uniontown node of the 2017–18 network — a middleman relaying 'my homey's' product in $20–50 quantities, whose chronic short-weight disputes show the informal market's bottom tier had no quality control at all."
+    claim: "Vaughn is the network's missing 2017 node — the succession ran Zach Harshman (2014–15) straight to Johnny (2018–19) with nothing between, and this thread opens 2017-05-04, twenty-three days after Jay Lauer's overdose, and runs to 2018-05-27."
+  - page: wiki/health/cocaine
+    type: evidenced-by
+    claim: "The thread carries the only contemporaneous dollar figure the corpus has for the cocaine peak — 'I spend well over $100 a day on it,' said to a prospective supplier on 2017-05-04 — plus a $100/gram price Dan enforces by weight and a distinct coded vocabulary ('powder', 'pow', 'that girl', 'Versace') the page's alias list did not carry."
   - page: wiki/timeline/periods/2017-poverty-floor
     type: co-occurs
-    claim: "The thread runs on poverty-floor logistics from both sides — coordinating rides to collect paychecks, $50 fronts, 'U getting ur check today' — documenting that Dan's suppliers were as broke as he was."
+    claim: "The thread runs on poverty-floor logistics from both sides — coordinating rides to collect paychecks, $50 fronts, 'U getting ur check today', 'I get paid again on Monday so I'm just trying to make it till then' — documenting that Dan's suppliers were as broke as he was."
+  - page: wiki/people/suzanne-frank
+    type: evidenced-by
+    claim: "By 2017–18 the cocaine direction between Dan and his mother has reversed: she is the end consumer of what he procures ('my mom wants the whole thing', 2018-02-08; 'Mom is happy enough with the quality', 2017-05-30) and the driver to the pickup ('I'll get my mom to bring me over if u can get t now', 2018-02-05), where the 2015–16 record has her as his source."
+  - page: wiki/people/jack-rusko
+    type: co-occurs
+    claim: "Jack Rusko supplied the clean urine Dan carried to Nemacolin against a possible early test — 'i had jack rusko piss for me lol' (2018-03-19) — placing a third caddie inside the yard's testing-evasion economy."
+  - page: wiki/places/155-virginia-ave
+    type: co-occurs
+    claim: "The address is handed to a brand-new supplier within seven hours of first contact (2017-05-04) and handoffs are staged by door — 'Side door porch' — the same geometry the 2014–15 Zach Harshman handoffs used at the same house, two supplier generations apart."
   - page: wiki/mind/psychosexual/orchestration-and-voyeurism
     type: co-occurs
-    claim: "The February 2018 late-night exchange — Dan sharing explicit photos of an unnamed woman, Vaughn offering to film, a 1 AM visit under 'complete gentleman' reassurances — pattern-matches the arrangement-onset orchestration window, though identity and outcome are uncorroborated."
+    claim: "The February 2018 exchanges are not one night but a five-day transactional sequence in which access to an unnamed woman is offered explicitly against cocaine procurement — 'You're going to want to get powder / Because tomorrow or Friday if you can hook it up she said she would blow you' (2018-02-07) — making this the corpus's clearest instance of the orchestration pattern being used as currency."
 ---
 
 # Vaughn
 
-> **COUNT CORRECTED [2026-09-04] — 582, not 228.** This page reported the
-> Received-only figure as the whole thread. Dan's 354 messages to this contact
-> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
-> did not read; they were never missing from the record. Found by
-> `bin/wiki-crosslink counts`, built the same day after the same defect was
-> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
-> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
-> hours earlier. **Thirteen pages were wrong the same way.** The prose below
-> was written against the smaller, one-sided thread and has not been re-derived.
+> **RE-DERIVED [2026-09-04] against the full 582-message thread.** This page was
+> written from the 228 received messages alone and stated that Dan's half
+> "survives nowhere in it". It survives in
+> `raw/self/dox-scan/all_imessages_complete_dump.txt`, which the page did not
+> read, and it is the demand side of a supply relationship — so the missing half
+> was the half the page most needed. The count was corrected earlier the same
+> day by `bin/wiki-crosslink counts`; this pass is the re-derivation that
+> correction said it did not attempt. **What changed is not detail but subject:
+> the thread is a two-product channel, and the second product is cocaine.**
 
-Vaughn was a fellow [[wiki/work/nemacolin-caddying|Nemacolin caddie]]
-(`+17245578229`, 228 messages, May 2017 – May 2018) who doubled as one
-of the smallest documented nodes of the Uniontown
-[[wiki/mind/synthesis/supply-network|supply network]]: a weed middleman
-without a car, relaying his "homey's" product in $20–50 quantities
-between loops. The thread is working-poor Uniontown in miniature —
-rides coordinated to collect paychecks, fronts and IOUs in both
-directions, product measured in fractions of a gram — and it ends the
-way that economy's stories end: "I don't know I start the railroad on
-Wednesday" (May 11, 2018), then one last message asking whether Dan
-knew "anyone wit a ride that wants to make sum money."
+Vaughn (`+17245578229`, saved by Dan at least once as "cuevo") was a fellow
+[[wiki/work/nemacolin-caddying|Nemacolin caddie]] who doubled as Dan's
+middleman for **both weed and cocaine** across 582 messages, 73 active days and
+thirteen months (2017-05-04 – 2018-05-27). He had children, no car and an
+upstream source he called "my homey" and "my best friend"; he relayed product in
+$20–$100 quantities between loops, could not weigh what he sold without
+borrowing Dan's scale, and left for a railroad job in May 2018.
 
-He was a father — deliveries scheduled around "gettin the kids food"
-and getting "the kids off the bus at 3" — and an experienced manual
-worker who found the caddie yard almost restful: "This is the easiest
-job I ever had I'm used to working 12 14 hr days so this a cake walk."
-> **CORRECTED [2026-09-04].** This paragraph read: *"The record is his side
-> only (all rows marked Received); Dan's messages survive nowhere in it, so
-> every exchange below is reconstructed from Vaughn's half."* **Dan's 354
-> messages survive perfectly well**, in the corpus this page did not read. The
-> reconstruction was a workaround for a problem that did not exist.
->
-> **And his half is the half this page most needed**, because Vaughn is
-> documented here as a supply node and Dan's side is the demand side, dated and
-> quantified in his own words: *"Can I grab another g tonight"* (2018-01-20),
-> *"I'm grabbing some green crack now"* (2018-01-14), *"Is it available now?
-> I'm rdy with the paper but no wheels"* (2018-02-05), *"can i stop over for a
-> g"* (2018-03-18), *"Can I grab a cut"* (2018-02-07). The thread also opens
-> earlier than the page's window and in a different register entirely — *"Yo if
-> u wanna borrow my vape for a few holes lmk"* (2017-05-04), *"Not a fucking
-> chance I get out there today"* (2017-05-11) — which is two caddies before it
-> is anything else.
->
-> **The prose below is unchanged and was written from one side.** Re-deriving it
-> against the full thread, and carrying the purchase cadence into
-> [[wiki/mind/synthesis/supply-network]], is a pass this correction does not
-> attempt.
+He is also the node the [[wiki/mind/synthesis/supply-network|supply network]]
+page did not have. That page's succession runs
+[[wiki/people/zachariah-harshman|Zach Harshman]] (2014–15) directly to
+[[wiki/people/johnny-dealer|Johnny]] (2018–19) with nothing in between. This
+thread opens on **2017-05-04, twenty-three days after
+[[wiki/people/jay-lauer|Jay Lauer]] died of a heroin overdose** on or about
+April 11, 2017, and by 20:11 that first evening Dan is asking for weed; by 20:13
+he is asking for cocaine.
 
-## The yard and the hustle, one channel
+## Two products, one channel, and the page only ever saw one
 
-The two registers interleave from the first day. Yard logistics: "Do u
-loop tomorrow," "Do you have a report time tomorrow," "Brad said ok"
-(the caddie master, [[wiki/people/brad-hubeaut|Brad Hubeaut]]),
-"I'm going up now to get my check," and the standing carpool problem —
-"I'll go up wit you, 1 would be better for me." Supply logistics, same
-phone, same days: "Once my homey stops over I'll hit you up," FaceTime
-product previews ("I forgot you have a iPhone as soon as I get it I'll
-FaceTime you so you can see it"), January 2018's upgrade to
-dispensary-sourced flower ("Fire straight from the Dispensary"), oil
-carts offered "for the pen" (February 2018), and inventory that never
-exceeded pocket scale — "Only got 3 grams left… the best I could do is
-50 for all three."
+The earlier version of this page described a "weed middleman" because weed is
+what Vaughn's own half of the thread mostly discusses. Dan's half is where the
+other product lives, and it is unambiguous — Vaughn himself disambiguates the
+two on 2018-02-01, asking simply: **"The smoke or that girl"**.
 
-The thread's signature motif is the **short-weight dispute**. Twice Dan
-evidently weighed what he'd bought and found it light, and twice Vaughn
-retreated to the same defense: "What did it weight because he said it
-was 3.5… that's my best friend I got it from and I know he wouldn't do
-it on purpose" (May 2017), and "I swear I watched him weigh it" against
-a bag holding 0.7 grams (January 2018). Dan owned a scale; Vaughn had to
-borrow it ("Whenever you want I just need a scale"). At the market's
-bottom tier the middleman couldn't verify his own product — a
+The cocaine vocabulary in this thread is *powder*, *pow*, *that girl*, *a cut*
+and — as a quality grade — *Versace*:
+
+| Date | Line | Direction |
+|---|---|---|
+| 2017-05-04 | "Also I'm always looking for powder so if u come across any keep me in mind" | Sent |
+| 2017-05-04 | "I'd get 100 of it tonight to try and if it's Versace i can get 300 or so tomorrow" | Sent |
+| 2018-01-30 | "Can u get pow" | Sent |
+| 2018-02-01 | "The smoke or that girl" | Received |
+| 2018-02-03 | "Any powder?" — "Naw he left for the weekend" | Sent / Received |
+| 2018-02-05 | "If you located the girl I can spend a benjj" | Sent |
+| 2018-02-08 | "Pow?" — "A g" | Sent / Received |
+| 2018-02-13 | "if your dude has the pow lmk" | Sent |
+
+Corpus-wide, `pow` returns 9 rows and 8 of them are this product; `Versace`
+returns 11 and is a **brand-tier metaphor for purity** Dan uses with more than
+one supplier — in January 2017 he is grading a batch as *"the Versace stuff"*
+against *"the Forever21 stuff"* and asking *"What's halfway between f21 and
+Versace?"*. None of these words were in [[wiki/health/cocaine]]'s `aliases:`
+before this pass, which is why every automated scan of this thread returned that
+page's real matches as noise and its false ones ("golf balls", "blow u up") as
+hits.
+
+**"Cut" is the one term this page will not call.** It carries the cocaine sense
+in some rows — *"Can I grab a cut" / "Yeah its 50 though"* (2018-02-07), the
+scale-borrowing (*"Whenever you want I just need a scale"*), and the
+$100/gram benchmark below — and behaves as a weed substitute in others, most
+sharply on 2018-01-14, where *"Could u get me a cut this morning?"* is withdrawn
+an hour later with *"I actually don't need it now. I'm grabbing some green crack
+now"*, naming a cannabis strain. It is left ambiguous rather than resolved by
+preference.
+
+## The dollar figure the cocaine page says the corpus does not have
+
+[[wiki/health/cocaine]] closes with an explicit gap: *"The true scale of the
+2017–2020 spend: the dosage arc gives quantities but not dollar figures; the
+financial cost of the 3.5–7g daily peak is undocumented."* On his first evening
+of contact with Vaughn, pitching himself to an upstream source he had never
+met, Dan wrote:
+
+> **"Let him know that getting me as a client on that girl is like hitting the
+> lottery haha. I spend well over $100 a day on it"** — 2017-05-04, 21:20
+
+That is a contemporaneous, dated, first-person dollar rate for cocaine, and it
+is the only one the corpus is currently known to hold. It comes with two
+qualifications that have to travel with it, and the second is the interesting
+one:
+
+1. **It was said to make a sale happen.** The audience is a prospective
+   supplier's supplier and the sentence is an advertisement for himself as a
+   customer. Its slant, if it is wrong, is upward.
+2. **It is at the *bottom* of the arc it falls inside, not the top.** The
+   cocaine page dates the 3.5–7 g/day peak to 2017–2020. Dan enforces a
+   **$100/gram** price in this same thread — *"if I'm getting it I gotta at
+   least be at the 100/1 Mark"* (2018-01-23) — so "well over $100 a day" is
+   a rate of roughly **one gram a day**, which is the arc's *pre-inheritance
+   baseline*, in the arc's first peak year. Either the escalation had not
+   started in May 2017, or the retrospective 3.5–7 g figure is inflated. The
+   thread cannot decide between those and this page does not pretend to.
+
+The largest single intent stated in the thread is **$250–275**, half a paycheck,
+and that one is for weed by the zip (2018-02-01). Cocaine intents run $50, $100
+("Gonna need 100", "I can spend a benjj"), and the one-off $300.
+
+## The short-weight dispute, three times, and what it prices
+
+The thread's signature motif is Dan weighing what he bought and finding it
+light. He owned a scale from day one (*"I got a super nice scale here so we
+should be good"*, 2017-05-04, 21:25); Vaughn had to borrow it.
+
+| Date | Bought as | Weighed | Vaughn's defence |
+|---|---|---|---|
+| 2017-05-04 | just under $50 | **0.47** | "they said they will definitely make it right for you" |
+| 2017-05-30 | 3.5 g | **2.59** | "that's my best friend I got it from and I know he wouldn't do it on purpose" |
+| 2018-01-23 | 1 g | **0.7** (0.9 in the bag) | "I swear I watched him weigh it" |
+
+The first is a cocaine buy — it is the same night as the powder conversation,
+and the herb is still outstanding three hours later (*"Also let me know about
+that herb I'm sooooooo ready to smoke"*, 22:13). The third establishes the price
+Dan considered standard: *"if I'm getting it I gotta at least be at the 100/1
+Mark."* The second is weed, and its tell is elsewhere entirely — *"Mom is happy
+enough with the quality that it's cool."*
+
+The complaints are also, consistently, **de-escalated within one message**:
+"Not your fault dude. It's all good", "Totally not your fault", "Not trying to
+make a big deal of it either". Dan documents the shortfall to the tenth of a
+gram and then absorbs it, every time, and buys again within days. At the
+market's bottom tier the middleman could not verify his own product — the
 quality-control vacuum the network's professional nodes
-([[wiki/people/menore|Menore]], [[wiki/people/sam|Sam]]) existed to
-solve.
+([[wiki/people/menore|Menore]], [[wiki/people/sam|Sam]]) existed to solve.
 
-## The February 2018 night
+## The mother is downstream by 2018, not upstream
 
-One exchange departs from commerce entirely. Late on February 3, 2018,
-Dan evidently shared explicit photos of an unnamed woman; Vaughn's
-replies escalate from appraisal ("Hell yeah nipples pierced and
-everything") through mock-anguish ("Dan you playing wit my emotions…
-I thought we were friends LOL😞😞") to an offer to film ("I got a nice
-camera let me tape lol"). Three nights later, after a stood-up supply
-run, Vaughn drove over at 1 AM asking "what's up wit me lol" and
-reassuring: "Listen you know I'm a complete gentleman / All about
-having fun nothing more / I'm here." The thread records nothing further.
-The shape — Dan curating an audience, soliciting interest, controlling
-access — matches the
-[[wiki/mind/psychosexual/orchestration-and-voyeurism|orchestration
-pattern]] documented for exactly this period (the arrangement's early
-months), but the woman's identity and whether anything occurred are
-uncorroborated; the exchange is logged here as pattern-consistent
-evidence, not a confirmed instance.
+[[wiki/people/suzanne-frank]] records Suz as a **routine cocaine source** for
+Dan in 2015–16. Two and a half years later the direction has reversed and this
+thread is where it shows:
+
+- *"Mom is happy enough with the quality that it's cool"* — 2017-05-30, on the
+  2.59 g that was sold as 3.5.
+- *"I'll get my mom to bring me over if u can get t now"* — 2018-02-05, his
+  mother driving him to a cocaine pickup.
+- *"Okay my mom wants the whole thing, do u want me to swing by In a few"* —
+  2018-02-08, on a gram of powder.
+- *"my moms got a lil spice, i'll roll us a jimmy john for the way up"* —
+  2018-03-19, supplying the ride to work.
+
+By the 2018 deep cycle Dan is the household's procurement function. That is a
+change of role rather than a new fact about either of them, and it is written
+back to her page.
+
+## The yard: rides, checks, a grip lesson and two bottles of clean urine
+
+The caddie half of the thread is [[wiki/timeline/periods/2017-poverty-floor|the
+poverty floor]] in miniature, from both sides. Ride coordination is constant and
+mutual — Vaughn has no car, Dan has one intermittently ("I won't have a ride
+anywhere until midnight when my girl gets off work", "no wheels", "I don't have
+a ride"). Check day is a joint operation run through the caddie master
+[[wiki/people/brad-hubeaut|Brad]] ("b-rad"): *"U getting ur check today"*,
+*"can you get mine? I'll message brad"*, *"Brad said ok"*. Neither man's cash
+outlasts the week — *"Just a half. I get paid again on Monday so I'm just trying
+to make it till then lol"*.
+
+Three things the one-sided version could not see:
+
+- **Vaughn taught Dan his golf grip.** *"Dude the way you changed my grip / Has
+  made a REAL difference / I'm still getting things in place but my striking is
+  better than it has been"* (2017-05-28). The supply relationship also ran
+  instruction, in the direction the page would not have predicted.
+- **The yard drug-tested, and the crew had a countermeasure.** *"i got clean
+  piss in case they test early, got u covered if you need a splash"*
+  (2018-03-19); *"i had jack rusko piss for me lol"*; *"i got 2 stealth bottles
+  of clean pee just in case"* (2018-03-20). That names
+  [[wiki/people/jack-rusko|Jack Rusko]] — an already-documented caddie with his
+  own page — as the donor, and makes the evasion a three-man arrangement rather
+  than a private one.
+- **The friendship is real and asymmetric in Dan's favour.** He invites Vaughn
+  and his girlfriend to the Halloween 2017 end-of-season and birthday party
+  (*"11:1"*), offers him a *PlayerUnknown's Battlegrounds* beta key, sends him
+  [[wiki/interests/music/aliases/sloppp|SoundCloud.com/sloppp]] on their third
+  day of contact, and returns an ASAP Ferg track Vaughn had recommended. Vaughn
+  declines the party, declines the beta key, and asks for rides.
+
+## The February 2018 sequence — barter, not a night
+
+The earlier version of this page recorded one night: February 3, 2018, explicit
+photographs of an unnamed woman, an offer to film, and a 1 AM visit three nights
+later. The full thread makes it a **five-day sequence in which access is offered
+as consideration for procurement**, and that is a different claim.
+
+- **2018-02-03, 01:20–02:38** — Dan sends images; Vaughn's replies run from
+  appraisal (*"Hell yeah nipples pierced and everything"*) through mock-anguish
+  (*"Dan you playing wit my emotions… I thought we were friends LOL😞😞"*) to
+  *"I got a nice camera let me tape lol"*. Every message in that window is
+  Vaughn's; Dan sends images and two characters.
+- **2018-02-05, 22:19** — mid-negotiation over a $100 cocaine buy Vaughn would
+  have to deliver: *"I'll give you some videos for bringing it haha"*. Vaughn:
+  *"Lol that don't help"*.
+- **2018-02-06, 01:11** — during the delivery run: *"I'd let u tho… It's
+  usually a pretty simple formula to get her in threesome mode"*. Vaughn:
+  *"Listen you know I'm a complete gentleman / All about having fun nothing
+  more / I'm here."*
+- **2018-02-07, 04:15** — *"she's the only girl I've ever let loose like that.
+  She's like…not smart enough to have tricks up her sleeve or lie / I can enjoy
+  the taboo of sharing her and know that she's not about to catch feels"*.
+- **2018-02-07, 18:18** — the barter stated outright: *"You're going to want to
+  get powder / Because tomorrow or Friday if you can hook it up she said she
+  would blow you / You're welcome forever"*.
+
+The next night Dan adds *"Play it cool about what I mentioned earlier… I
+wouldn't overdo it if you do say something"* (2018-02-08, 02:28) — a
+consciousness that the offer was his to walk back. The thread records no
+outcome. **The woman is never named in it**, and this page does not attempt an
+identification; the appraisal of her intelligence and her incapacity to "catch
+feels" is the load-bearing part of the quote for
+[[wiki/mind/psychosexual/orchestration-and-voyeurism]] whoever she was.
 
 ## Corpus record
 
 | Metric | Value |
 |---|---|
-| Messages | **582** — 354 sent (Dan), 228 received (was: 228) |
+| Messages | **582** — 354 sent (Dan), 228 received |
+| Active days | 73 across 13 months |
 | Date range | 2017-05-04 – 2018-05-27 |
-| Product scale | $20–50 quantities; grams and eighths |
+| Products | Cannabis (flower, oil carts) **and cocaine** |
+| Price benchmark | $100/gram, enforced by weight |
+| Quantities | $20–$100 typical; $250–275 stated once (weed, by the zip) |
 | Exit | Railroad job starting ~2018-05-16 |
 
-**Gaps:** surname and which yard crew he belonged to; the identity of
-the "homey"/"best friend" upstream source; the February 2018 woman and
-the visit's outcome; whether the railroad job took (the thread ends
-twelve days later and he never reappears in the corpus).
+**The thread's shape is seasonal and then it is not.** 156 messages in May
+2017, then **23 across the next seven months**, then 146 in January 2018, 178
+in February and 58 in March — 382 messages in eleven weeks. The dead stretch is
+the 2017 caddie season, when both men were working; the 2018 spike is the
+[[wiki/timeline/periods/2018-deep-cycle|deep cycle]], and it stops as abruptly
+as it started.
+
+**Gaps:** surname, and which yard crew he belonged to. The identity of the
+"homey"/"best friend" upstream source — the person the $100/day pitch was
+actually aimed at — who is never named and who this page cannot connect to any
+other node. The February 2018 woman and whether anything occurred. Whether the
+railroad job took: the thread ends twelve days after he announces it, with
+*"Yo do you know anyone wit a ride that wants to make sum money"* (2018-05-27),
+and he never reappears in the corpus. And the "cut" ambiguity above, which one
+more corroborated price or a scale reading would settle.
 
 
 ========================================================================
@@ -66394,13 +66734,14 @@ page_type: entity
 title: "155 Virginia Ave"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-28
+date_modified: 2026-09-04
 sources:
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
   - raw/self/dox-md/operating_manual.md
   - raw/self/dansynth/DANSYNTH.txt
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
   - raw/people/captures/2026-08-27_223406_gap-alexis-armel.md
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
 related:
   - wiki/people/alexis-armel
   - wiki/people/annie-ulmer
@@ -66448,6 +66789,9 @@ connections:
   - page: wiki/people/lukyan-mraz
     type: co-occurs
     claim: "Lukyan's visits are staged around the same household as Zach's supply handoffs ('wanted to see if Zach was there'), and a lent lap-quilting book and 'the room' with 'equipment' point to a small cannabis-grow attempt run out of the same Uniontown social circle."
+  - page: wiki/people/vaughn
+    type: co-occurs
+    claim: "The handoff geometry survives two supplier generations at the same house: Zach was directed by door in 2014-15 ('front door is open, i'm in the kitchen', 'side door to garage'), and in 2017 a brand-new supplier gets the street address seven hours into first contact and then 'Side door porch' — the same instruction, a different man, three years apart."
   - page: wiki/people/zachariah-harshman
     type: co-occurs
     claim: "Nearly every documented handoff in the 2014–15 supply relationship happens at the house — 'front door is open, i'm in the kitchen,' 'side door to garage' — placing Zach inside the same lair-continuity the bond-switch thesis tracks."
@@ -103710,7 +104054,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,667 events** across **80 years** (1796–2027), drawn from **386 pages**. Tier 1 713 · Tier 2 450 · Tier 3 2,504.
+**3,706 events** across **80 years** (1796–2027), drawn from **387 pages**. Tier 1 717 · Tier 2 453 · Tier 3 2,536.
 
 ## What counts as an event here
 
@@ -106797,6 +107141,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/events/timeline]] · Major Periods (cross-checked with core residence and data)
 - ★ **January 2017** — Steve Kezmarsky is a high-school-era Uniontown friend whose 66-message thread (handle `+17244157286`, January 2017 – January 2018) documents golf enthusiasm, unusually explicit self-diagnosis, and a life that collapsed at the end of the thread — not through his own death, but through his father's.  
   ↳ [[wiki/people/steve-kezmarsky]] · Steve Kezmarsky
+- ★ **January 2017** — Corpus-wide, `pow` returns 9 rows and 8 of them are this product; `Versace` returns 11 and is a **brand-tier metaphor for purity** Dan uses with more than one supplier — in January 2017 he is grading a batch as *"the Versace stuff"* against *"the Forever21 stuff"* and asking *"What's halfway…  
+  ↳ [[wiki/people/vaughn]] · Two products, one channel, and the page only ever saw one
 - ★ **January 2017** — Debt/Financial Crisis (overdrawn $600 by Annie acct refs); Flight/Airport shooter ref; Death threat message; Moved to Virginia Ave with Annie/Lex prior; First Date.  
   ↳ [[wiki/timeline/events/timeline]] · Major Periods (cross-checked with core residence and data)
 - ◆ **January 2017** — In January 2017 Suz reports *"Dian is putting the brakes on the trip to Florida"* — Fran's own trip, to her own condo.  
@@ -106887,8 +107233,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/fred-adams]] · The contemporaneous record — sixteen dated rows nobody had read
 - · **2017-04-25** — The earliest *judge* usage is **2017-04-25**, to Rod Banks in a message about Fran's property — so the appointment is on or before that date, twenty-two months after the 2016-06-03 message that calls him plain *Fred Adams*.  
   ↳ [[wiki/people/fred-adams]] · Two smaller results
-- ◆ **May 2017** — Twice Dan evidently weighed what he'd bought and found it light, and twice Vaughn retreated to the same defense: "What did it weight because he said it was 3.5… that's my best friend I got it from and I know he wouldn't do it on purpose" (May 2017), and "I swear I watched him weigh it" against a…  
-  ↳ [[wiki/people/vaughn]] · The yard and the hustle, one channel
+- ◆ **May 2017** — Either the escalation had not started in May 2017, or the retrospective 3.5–7 g figure is inflated.  
+  ↳ [[wiki/people/vaughn]] · The dollar figure the cocaine page says the corpus does not have
+- ◆ **May 2017** — Everything above this section is derived from calendar exports and AI-secondary retrospectives; this is the year in first-party dated messages, from the Vaughn thread — 156 of them in May 2017 alone, between two Nemacolin caddies who between them had one intermittent car.  
+  ↳ [[wiki/timeline/periods/2017-poverty-floor]] · The floor, in primary messages — May 2017
+- · **May 2017** — What can be said is narrower and firmer than the arc: **on one dated evening in May 2017 the man himself put the number at roughly a gram a day, and he priced grams at $100 in the same channel nine months later.  
+  ↳ [[wiki/health/cocaine]] · The one dollar figure, and it disagrees with the arc
 - · **May 2017** — Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two Nemacolin caddying seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a fellow caddie in 2017 who came back for 2018 as **assistant caddie master** — "I'm actually gonna be assistant caddie…  
   ↳ [[wiki/people/davey-fitzpatrick]] · Davey Fitzpatrick
 - · **May 2017** — Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose message thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — sparse check-ins that resurface every year or two, each one picking back up exactly where the last left…  
@@ -106897,16 +107247,40 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/steve-kezmarsky]] · The friendship on the record
 - · **May 2017** — In May 2017: *"you concocted a scheme to steal my money."* In December 2025, after a Cash App transfer and a $21.99 charge to a music-sample service appeared on her PNC account: *"I DID NOT INITIATE THOSE PAYMENTS… If you had anything to do with them, you better tell me now!!!!"* And in the last…  
   ↳ [[wiki/people/suzanne-frank]] · The ledger that never closes
-- · **May 2017** — Vaughn was a fellow Nemacolin caddie (`+17245578229`, 228 messages, May 2017 – May 2018) who doubled as one of the smallest documented nodes of the Uniontown supply network: a weed middleman without a car, relaying his "homey's" product in $20–50 quantities between loops.  
+- · **May 2017** — The thread's shape is seasonal and then it is not.** 156 messages in May 2017, then **23 across the next seven months**, then 146 in January 2018, 178 in February and 58 in March — 382 messages in eleven weeks.  
+  ↳ [[wiki/people/vaughn]] · Corpus record
+- ★ **2017-05-04** — On **2017-05-04 at 21:20**, six hours into first contact with a new caddie-yard supplier and pitching himself past him to an upstream source he had never met, Dan wrote:  
+  ↳ [[wiki/health/cocaine]] · The one dollar figure, and it disagrees with the arc
+- ★ **2017-05-04** — The next new supply relationship in the corpus opens on 2017-05-04 — twenty-three days after Jay Lauer's death** — and it opens at conversational speed: a vape offered at 14:14, a ride home at 17:43, weed at 20:11, cocaine at 20:13, Dan's home address handed over at 21:17, product delivered at…  
+  ↳ [[wiki/mind/synthesis/supply-network]] · And it cost the network nothing measurable
+- ★ **2017-05-04** — This thread opens on **2017-05-04, twenty-three days after Jay Lauer died of a heroin overdose** on or about April 11, 2017, and by 20:11 that first evening Dan is asking for weed; by 20:13 he is asking for cocaine.  
   ↳ [[wiki/people/vaughn]] · Vaughn
+- · **2017-05-04** — Vaughn (`+17245578229`, saved by Dan at least once as "cuevo") was a fellow Nemacolin caddie who doubled as Dan's middleman for **both weed and cocaine** across 582 messages, 73 active days and thirteen months (2017-05-04 – 2018-05-27).  
+  ↳ [[wiki/people/vaughn]] · Vaughn
+- · **2017-05-04** — "Also I'm always looking for powder so if u come across any keep me in mind" — Sent  
+  ↳ [[wiki/people/vaughn]] · Two products, one channel, and the page only ever saw one
+- · **2017-05-04** — "I'd get 100 of it tonight to try and if it's Versace i can get 300 or so tomorrow" — Sent  
+  ↳ [[wiki/people/vaughn]] · Two products, one channel, and the page only ever saw one
+- · **2017-05-04** — He owned a scale from day one (*"I got a super nice scale here so we should be good"*, 2017-05-04, 21:25); Vaughn had to borrow it.  
+  ↳ [[wiki/people/vaughn]] · The short-weight dispute, three times, and what it prices
+- · **2017-05-04** — just under $50 — **0.47** — "they said they will definitely make it right for you"  
+  ↳ [[wiki/people/vaughn]] · The short-weight dispute, three times, and what it prices
+- · **2017-05-04** — Transport is the binding constraint on everything, including the drug economy: *"I won't have a ride anywhere until midnight when my girl gets off work jsyk"* (2017-05-04), *"I'm rdy with the paper but no wheels"* (2018-02-05), *"Naw I don't have a ride"* (Vaughn, 2018-01-21).  
+  ↳ [[wiki/timeline/periods/2017-poverty-floor]] · The floor, in primary messages — May 2017
 - · **2017-05-11** — Ledger snapshot  
   ↳ [[wiki/people/nick-mattie]] · Corpus record
 - · **2017-05-23** — Authorises a title transfer — *"Yes, it is OK to have Fran transfer the title this afternoon"  
   ↳ [[wiki/people/rod-banks]] · The other half of the thread, and what it makes him
 - ◆ **2017-05-24** — The show's signature deadpan — "that's what she said" — appears verbatim in his own messages ("i think that's what she said," 2017-05-24), used as a reflex punchline rather than a quoted reference.  
   ↳ [[wiki/interests/the-office]] · The Michael Scott register
+- · **2017-05-28** — He also **taught** him: *"Dude the way you changed my grip / Has made a REAL difference / I'm still getting things in place but my striking is better than it has been"* (2017-05-28).  
+  ↳ [[wiki/work/nemacolin-caddying]] · The yard drug-tested, and the crew had a countermeasure
 - · **2017-05-30** — "I will be canceling Fran's Insurance."  
   ↳ [[wiki/people/rod-banks]] · The other half of the thread, and what it makes him
+- · **2017-05-30** — 3.5 g — **2.59** — "that's my best friend I got it from and I know he wouldn't do it on purpose"  
+  ↳ [[wiki/people/vaughn]] · The short-weight dispute, three times, and what it prices
+- · **2017-05-30** — "Mom is happy enough with the quality that it's cool"* — 2017-05-30, on the  
+  ↳ [[wiki/people/vaughn]] · The mother is downstream by 2018, not upstream
 - · **June 2017** — Early messages (May–June 2017) are mid-round check-ins on the course itself.  
   ↳ [[wiki/people/chad-johnson]] · Texture
 - ◆ **2017-06-12** — Routes a reimbursement and checks it against a prior payment — *"I think Amy was already reimbursed for this. Vicky can show you a copy of the check."  
@@ -107072,8 +107446,6 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/steve-kezmarsky]] · Corpus record
 - · **January 2018** — The first is **0% confident** (January 2018) — the scale runs downward as well as upward, which an intensifier cannot do.  
   ↳ [[wiki/mind/concepts/calibrated-confidence]] · What it means
-- · **January 2018** — Yard logistics: "Do u loop tomorrow," "Do you have a report time tomorrow," "Brad said ok" (the caddie master, Brad Hubeaut), "I'm going up now to get my check," and the standing carpool problem — "I'll go up wit you, 1 would be better for me." Supply logistics, same phone, same days: "Once my…  
-  ↳ [[wiki/people/vaughn]] · The yard and the hustle, one channel
 - · **2018-01-06** — block unblock loop — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 84 pages
 - · **2018-01-06** — ← Rick — *"I'm tired of u treating me or thinking about me like Rod Banks or Fred Adams"  
@@ -107082,12 +107454,20 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/fred-adams]] · Two smaller results
 - ★ **2018-01-22** — On January 22, 2018 Annie reports "They picked up mr Kezmarsky today" — an arrest.  
   ↳ [[wiki/people/steve-kezmarsky]] · The father's fall
+- · **2018-01-23** — It contradicts the arc above by a factor of three to seven.** In the same thread Dan enforces a **$100/gram** price by weighing what he buys — *"if I'm getting it I gotta at least be at the 100/1 Mark"* (2018-01-23) — so "well over $100 a day" is a rate of about **one gram a day**.  
+  ↳ [[wiki/health/cocaine]] · The one dollar figure, and it disagrees with the arc
+- · **2018-01-23** — Dan enforces a **$100/gram** price in this same thread — *"if I'm getting it I gotta at least be at the 100/1 Mark"* (2018-01-23) — so "well over $100 a day" is a rate of roughly **one gram a day**, which is the arc's *pre-inheritance baseline*, in the arc's first peak year.  
+  ↳ [[wiki/people/vaughn]] · The dollar figure the cocaine page says the corpus does not have
+- · **2018-01-23** — 1 g — **0.7** (0.9 in the bag) — "I swear I watched him weigh it"  
+  ↳ [[wiki/people/vaughn]] · The short-weight dispute, three times, and what it prices
 - · **2018-01-24** — Elliott Smith, intended.** On 24 January 2018: *"Gonna crowdfund an Elliott Smith tattoo for myself.  
   ↳ [[wiki/self/tattoos]] · Two pieces the list did not have
+- · **2018-01-30** — "Can u get pow" — Sent  
+  ↳ [[wiki/people/vaughn]] · Two products, one channel, and the page only ever saw one
 - ★ **February 2018** — Small details accumulate into a person: email self-sent for some paperwork (February 2018) as `dtfitzpatrick87@gmail.com`; a birthday one day after Dan's — he answers Dan's November 2 wish with "Thanks my guy I'm almost as old as you now," dating him a year behind Dan almost to the day; a mother…  
   ↳ [[wiki/people/davey-fitzpatrick]] · Who he was
-- ◆ **February 2018** — Gaps:** surname and which yard crew he belonged to; the identity of the "homey"/"best friend" upstream source; the February 2018 woman and the visit's outcome; whether the railroad job took (the thread ends twelve days later and he never reappears in the corpus).  
-  ↳ [[wiki/people/vaughn]] · Corpus record
+- · **February 2018** — In February 2018, with a caddie-yard supplier, the same machinery runs for **payment**.  
+  ↳ [[wiki/mind/psychosexual/orchestration-and-voyeurism]] · The one instance where it is currency
 - · **February 2018** — Suboxone / strips supply — "I can do five for four or buck for 8. If in near future fyi"  
   ↳ [[wiki/people/johnny-dealer]] · Roles, Dates, Evidence Table
 - · **February 2018** — "Fives for four buck for eight today fyi"  
@@ -107098,12 +107478,42 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/johnny-dealer]] · Roles, Dates, Evidence Table
 - · **February 2018** — operating_manual: "Suboxone as structural dependency... Tom/Johnny as supply chain"  
   ↳ [[wiki/people/johnny-dealer]] · Roles, Dates, Evidence Table
+- · **February 2018** — The February 2018 woman and whether anything occurred.  
+  ↳ [[wiki/people/vaughn]] · Corpus record
 - · **February 2018** — "The video call ended. Duration: 23 seconds" Feb 2018  
   ↳ [[wiki/self/facebook/messages]] · Ally Lubin (dark humor peripheral, 2013)
-- · **2018-02-03** — Late on February 3, 2018, Dan evidently shared explicit photos of an unnamed woman; Vaughn's replies escalate from appraisal ("Hell yeah nipples pierced and everything") through mock-anguish ("Dan you playing wit my emotions… I thought we were friends LOL😞😞") to an offer to film ("I got a nice…  
-  ↳ [[wiki/people/vaughn]] · The February 2018 night
+- ◆ **2018-02-01** — The largest single intent stated in the thread is **$250–275**, half a paycheck, and that one is for weed by the zip (2018-02-01).  
+  ↳ [[wiki/people/vaughn]] · The dollar figure the cocaine page says the corpus does not have
+- · **2018-02-01** — Dan's half is where the other product lives, and it is unambiguous — Vaughn himself disambiguates the two on 2018-02-01, asking simply: **"The smoke or that girl"**.  
+  ↳ [[wiki/people/vaughn]] · Two products, one channel, and the page only ever saw one
+- · **2018-02-01** — "The smoke or that girl" — Received  
+  ↳ [[wiki/people/vaughn]] · Two products, one channel, and the page only ever saw one
+- · **2018-02-03** — "Any powder?" — "Naw he left for the weekend" — Sent / Received  
+  ↳ [[wiki/people/vaughn]] · Two products, one channel, and the page only ever saw one
+- · **2018-02-03** — Dan sends images; Vaughn's replies run from  
+  ↳ [[wiki/people/vaughn]] · The February 2018 sequence — barter, not a night
+- · **2018-02-05** — "If you located the girl I can spend a benjj" — Sent  
+  ↳ [[wiki/people/vaughn]] · Two products, one channel, and the page only ever saw one
+- · **2018-02-05** — "I'll get my mom to bring me over if u can get t now"* — 2018-02-05, his  
+  ↳ [[wiki/people/vaughn]] · The mother is downstream by 2018, not upstream
+- · **2018-02-05** — mid-negotiation over a $100 cocaine buy Vaughn would  
+  ↳ [[wiki/people/vaughn]] · The February 2018 sequence — barter, not a night
+- · **2018-02-06** — during the delivery run: *"I'd let u tho… It's  
+  ↳ [[wiki/people/vaughn]] · The February 2018 sequence — barter, not a night
+- · **2018-02-07** — "she's the only girl I've ever let loose like that.  
+  ↳ [[wiki/people/vaughn]] · The February 2018 sequence — barter, not a night
+- · **2018-02-07** — the barter stated outright: *"You're going to want to  
+  ↳ [[wiki/people/vaughn]] · The February 2018 sequence — barter, not a night
+- · **2018-02-08** — "Pow?" — "A g" — Sent / Received  
+  ↳ [[wiki/people/vaughn]] · Two products, one channel, and the page only ever saw one
+- · **2018-02-08** — 2018-02-08, on a gram of powder.  
+  ↳ [[wiki/people/vaughn]] · The mother is downstream by 2018, not upstream
+- · **2018-02-08** — The next night Dan adds *"Play it cool about what I mentioned earlier… I wouldn't overdo it if you do say something"* (2018-02-08, 02:28) — a consciousness that the offer was his to walk back.  
+  ↳ [[wiki/people/vaughn]] · The February 2018 sequence — barter, not a night
 - · **2018-02-13** — Two independent exports agree: Google Contacts carries **Alexandra Lubin / allylubin@gmail.com / +15619061550**, and the Facebook address book — never merged, and therefore the tiebreaker — independently carries **Alexandra Lubin / allylubin@gmail.com** (uploaded Feb 13, 2018 and Oct 16, 2021).  
   ↳ [[wiki/people/ally-lubin]] · Identity
+- · **2018-02-13** — "if your dude has the pow lmk" — Sent  
+  ↳ [[wiki/people/vaughn]] · Two products, one channel, and the page only ever saw one
 - ★ **2018-02-15** — "I think I'm going to move my car into the garage because I'm afraid it's going to get repossessed"  
   ↳ [[wiki/people/suzanne-frank]] · What she actually earned
 - ◆ **2018-02-16** — The arrangement is opened.** A single twenty-minute exchange with danny matthews — Danny Matthews negotiates the first outside encounter, discloses the smashonista camming operation unprompted, and contains the sentence that fixes the chronology — "you guys would be the first couple we were with."…  
@@ -107190,6 +107600,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/fred-adams]] · The contemporaneous record — sixteen dated rows nobody had read
 - · **2018-03-14** — "Since my mother is a shit, I think it falls on me."* And, of  
   ↳ [[wiki/people/suzanne-frank]] · Identity, lineage and the generation she was pushed out of
+- · **2018-03-19** — 2018-03-19, supplying the ride to work.  
+  ↳ [[wiki/people/vaughn]] · The mother is downstream by 2018, not upstream
 - ★ **2018-03-29** — The contemporaneous record has the eviction notice served **2018-03-29**, three days before the April 1 move to the pediatric wing, and the letter being read, forwarded and lawyered on **2018-04-03**, the day before Fran died.  
   ↳ [[wiki/people/diane-moore]] · The instrument, as the corpus actually records it
 - ★ **2018-03-29** — The second is that this sits directly against the **eviction notice served at 155 Virginia Avenue on March 29, 2018**, mid-vigil, demanding the keys.  
@@ -107342,6 +107754,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/garrett]] · What is known
 - ★ **May 2018** — In May 2018, six weeks after Fran's death, Suz wrote this to a family member who had not come to the house — and forwarded the exchange to Dan, which is the only reason the corpus has it:  
   ↳ [[wiki/people/suzanne-frank]] · Fran, and what she says about being the one who stayed
+- ◆ **May 2018** — He had children, no car and an upstream source he called "my homey" and "my best friend"; he relayed product in $20–$100 quantities between loops, could not weigh what he sold without borrowing Dan's scale, and left for a railroad job in May 2018.  
+  ↳ [[wiki/people/vaughn]] · Vaughn
 - ◆ **May 2018** — Caddying at a resort of Nemacolin's caliber runs a visible status ladder — "the real loopers" get called up for off-property day trips to prestige courses, and Dan's May 2018 messages capture his first such call-up as a milestone ("first time getting called up with the real loopers to take a day…  
   ↳ [[wiki/work/nemacolin-caddying]] · The looper hierarchy and day trips
 - · **May 2018** — He also floated bringing Annie into actual play rather than just spectating — "I don't know let's take her Togo play nine holes" (May 2018) and, more bluntly, "I spend all this fucking money to try to get you excit[ed] about actually playing golf" (June 2018) — and tried to get her out on the…  
@@ -107374,6 +107788,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/work/nemacolin-caddying]] · The looper hierarchy and day trips
 - · **2018-05-24** — That would mean I'll be moving in with you, whoever you go"* (24 May 2018) — which makes the 2024 filing the end of a six-year approach rather than a shock.  
   ↳ [[wiki/people/suzanne-frank]] · The bankruptcy, and why 337 Saratoga was sold
+- · **2018-05-27** — Whether the railroad job took: the thread ends twelve days after he announces it, with *"Yo do you know anyone wit a ride that wants to make sum money"* (2018-05-27), and he never reappears in the corpus.  
+  ↳ [[wiki/people/vaughn]] · Corpus record
 - · **2018-05-28** — (2018-05-28) — the same Uniontown Country Club fairway that 117 belmont circle backs onto.  
   ↳ [[wiki/places/derrick-avenue]] · What it is, from the messages alone
 - · **2018-05-29** — "Big Lou," another caddie — staging point before a round  
@@ -111322,18 +111738,24 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter]] · The blackouts, and why the volume curve cannot be read as a life curve
 - ◆ **2026-09-04** — Corroborated from inside the room [2026-09-04].** The concert table's date was established by routing checks.  
   ↳ [[wiki/interests/favorites/music/artists/jedi-mind-tricks]] · Notes per appearance
+- ◆ **2026-09-04** — Added 2026-09-04, from the vaughn re-derivation — the thread's other half had never been read, and reading it turns a single night into a five-day sequence with a different structure.  
+  ↳ [[wiki/mind/psychosexual/orchestration-and-voyeurism]] · The one instance where it is currency
 - · **2026-09-04** — Assembled 2026-09-04 from the twitter archive.  
   ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
 - · **2026-09-04** — intensity is no longer the only mode — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 84 pages
 - · **2026-09-04** — the deferred audit — mind  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 84 pages
+- · **2026-09-04** — Added 2026-09-04, from the vaughn re-derivation.  
+  ↳ [[wiki/mind/synthesis/supply-network]] · And it cost the network nothing measurable
 - · **2026-09-04** — an AI reading of the above  
   ↳ [[wiki/people/alexis-armel]] · The record
 - · **2026-09-04** — Six dated messages from her name Judge Fred Adams — the trustee of the Coldren accounts and, until 2026-09-04, a figure whose page said every fact about him came from Dan's narration.  
   ↳ [[wiki/people/suzanne-frank]] · Her channel is the only record of the man who held the money
 - · **2026-09-04** — Cross-read against index on 2026-09-04.  
   ↳ [[wiki/self/twitter/2008]] · Seven shows in ninety-eight days, and the concert log holds four
+- · **2026-09-04** — Added 2026-09-04 from the vaughn re-derivation; the record is Dan's own half of that thread, which no page had read until then.  
+  ↳ [[wiki/work/nemacolin-caddying]] · The yard drug-tested, and the crew had a countermeasure
 - ★ **2026-12-19** — P4 — **No third party ends this relationship.** Any severance that holds past 120 days will be traceable to a self-generated move, not an intervention — a documented outside intervention followed by a severance holding >120 days  
   ↳ [[wiki/mind/synthesis/the-rescue-premise]] · Predictions and falsifiers
 - ★ **2026-12-19** — A severance holding past **2026-12-19** with no external agent involved confirms Part I and P4 together.  
@@ -111348,7 +111770,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 386 wiki pages. 3,938 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 387 wiki pages. 3,948 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================
@@ -111729,7 +112151,7 @@ page_type: period
 status: archived
 importance: high
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-09-04
 date_range_start: 2017-01-01
 date_range_end: 2017-12-31
 changelog:
@@ -111739,6 +112161,7 @@ sources:
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
   - "raw/self/dox-md/operating_manual.md"
   - "raw/self/message-csv/*"
+  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/facebook/facebook-ihatedanfrank/"
   - "raw/self/dox-md/LIFE REPORT.md"
   - "raw/self/dox-md/Gemini-_18.md"
@@ -111795,6 +112218,42 @@ His mother's verdict — *you've played your cards out* — is the kind of sente
 
 The financial subcategory for 2017 contributes to a total of 105 financial events across the corpus and 266 relationship events across the corpus, with this year weighted heavily in both. The debt subcategory registers 65 relevant events across the corpus; 2017's contribution is dense.
 
+## The floor, in primary messages — May 2017
+
+Added 2026-09-04. Everything above this section is derived from calendar
+exports and AI-secondary retrospectives; this is the year in first-party dated
+messages, from the [[wiki/people/vaughn|Vaughn]] thread — 156 of them in May
+2017 alone, between two Nemacolin caddies who between them had one intermittent
+car.
+
+The texture is not dramatic and that is the point. Check day is a joint
+operation because neither man can reliably get to his own money:
+
+> *"U getting ur check today"* — *"Just got it"* — *"Cool Ima try to get a ride
+> to get mine"* — *"Brad would probably let me bring it to u if u ask him"*
+> (2017-05-11)
+
+> *"can you get mine? I'll message brad"* … *"they should be on his desk"*
+> (2017-05-25)
+
+Transport is the binding constraint on everything, including the drug economy:
+*"I won't have a ride anywhere until midnight when my girl gets off work jsyk"*
+(2017-05-04), *"I'm rdy with the paper but no wheels"* (2018-02-05), *"Naw I
+don't have a ride"* (Vaughn, 2018-01-21). Purchases are sized to the gap until
+payday — *"Just a half. I get paid again on Monday so I'm just trying to make
+it till then lol"* — and a $50 buy that weighs 0.47 g instead of 0.5 gets
+documented to the hundredth of a gram and then forgiven, because the
+relationship is worth more than the shortfall.
+
+**What this adds to the page's argument.** The Psychological Dimension below
+says the year's action was "entirely reactive… what to hold together until
+tomorrow", and it says so from a retrospective. These messages are that claim
+in contemporaneous form, and they sharpen it in one direction the retrospective
+does not: the reactivity is *cooperative*. Two men at the same floor spend the
+year covering each other's rides, checks and shortfalls, and the arrangement
+holds for thirteen months. Poverty here is not isolating in the record; it is
+organising.
+
 ## Psychological Dimension
 
 The LIFE REPORT characterizes this period as one of analytical and emotional processing under conditions of compressed information flow and rapid fragmented cadence — the cognitive signature of managing multiple simultaneous threats with inadequate resources. Loyalty and trust were the drivers being stress-tested. The forensic mode that would later become a default cognitive tool was being trained here, under duress, on real problems with real consequences.
@@ -111821,7 +112280,7 @@ The [[wiki/people/annie-ulmer]] relationship logged 85 calendar events in this y
 
 2017 ended without resolution. The poverty floor did not lift — it tilted. 2018 would bring higher event density (254 calendar events, the highest recorded year), more dealers in the network, more financial velocity, and no structural improvement. The escalation that followed was not recovery. It was acceleration in the same channel. The deep cycle that 2017 had begun was still gathering.
 
-**Related:** [[wiki/timeline/events/timeline]], [[wiki/timeline/periods/2018-deep-cycle]], [[wiki/people/annie-ulmer]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/self/ancestry]], [[wiki/people/fran-coldren]], [[wiki/people/suzanne-frank]], [[wiki/self/gemini-activity/gemini-activity]]
+**Related:** [[wiki/people/vaughn]], [[wiki/timeline/events/timeline]], [[wiki/timeline/periods/2018-deep-cycle]], [[wiki/people/annie-ulmer]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/self/ancestry]], [[wiki/people/fran-coldren]], [[wiki/people/suzanne-frank]], [[wiki/self/gemini-activity/gemini-activity]]
 
 
 ========================================================================
@@ -114520,7 +114979,7 @@ page_type: event
 title: "Caddying — Nemacolin, Laurel Valley, Pikewood National (2016–2019)"
 status: closed
 date_created: 2026-07-14
-date_modified: 2026-08-02
+date_modified: 2026-09-04
 date_range_start: 2016-04-06
 date_range_end: 2019-11-01
 sources:
@@ -114564,7 +115023,10 @@ connections:
     claim: "Davey is the yard's management layer in the record: assistant caddie master for 2018, source of every documented report time and training assignment in Dan's season, and the coworker who picked Dan to train the new caddies."
   - page: wiki/people/vaughn
     type: contains
-    claim: "Vaughn is the cohort's paycheck-to-paycheck edge: a fellow caddie coordinating rides to the yard and check pickups who doubled as a small-time weed middleman between loops."
+    claim: "The Vaughn thread is the yard seen from the crew's side: mutual ride-coordination between two men who between them had one intermittent car, check-day pickups run through Brad, a golf grip Vaughn corrected that measurably improved Dan's striking, and the yard's drug testing carried from the evading side — two stealth bottles of clean urine, donated by a third caddie."
+  - page: wiki/people/jack-rusko
+    type: contains
+    claim: "Jack Rusko is the donor in the yard's testing-evasion arrangement — 'i had jack rusko piss for me lol' (2018-03-19) — which makes the countermeasure a three-caddie arrangement rather than a private one."
   - page: wiki/people/urpaaa-at-yahoo-com
     type: co-occurs
     claim: "The unidentified urpaaa thread runs on the yard's clock — report times, the $100 Venmo tip, and Dan looping 5.5 hours the day after a tooth extraction because the yard culture punished sick days."
@@ -114640,7 +115102,7 @@ caddie in 2017, assistant caddie master in 2018, and the channel through
 which every report time and training assignment of Dan's last season
 arrived; [[wiki/people/vaughn|Vaughn]] — a fellow caddie coordinating
 rides up the mountain and check-day logistics, who doubled as a
-small-time weed middleman between loops
+middleman for both weed and cocaine between loops
 ([[wiki/mind/synthesis/supply-network]] carries the supply side);
 [[wiki/people/trevor|Trevor Bevins]] — the "Trevor" of the May 21
 Laurel Valley trip above and the era's closest work friendship, who later
@@ -114656,6 +115118,45 @@ July 2017 but never followed through. The pattern the cohort documents:
 caddying was the last era in which work generated Dan's friendships in
 bulk — nothing after it (Au Za'atar's Triad excepted) produced a
 comparable social layer.
+
+## The yard drug-tested, and the crew had a countermeasure
+
+Added 2026-09-04 from the [[wiki/people/vaughn]] re-derivation; the record is
+Dan's own half of that thread, which no page had read until then.
+
+Nemacolin tested its caddies, or could, and Dan carried a defence:
+
+> *"yo hit me up if you wanna go up to mystic with me tomorrow. **i got clean
+> piss in case they test early, got u covered if you need a splash**"* —
+> 2018-03-19, 04:18
+>
+> *"i had **jack rusko** piss for me lol"* — same thread, minutes later
+>
+> *"i don't think we have a piss test tomorrow but **i got 2 stealth bottles of
+> clean pee** just in case"* — 2018-03-20, 01:18
+
+Three things follow. The testing was **real enough to prepare for** and
+irregular enough to prepare for *early* — the phrase is "in case they test
+early", which implies a known schedule and a fear of it moving. The
+countermeasure was **shared** rather than private ("got u covered if you need a
+splash"), which makes it a crew arrangement. And the donor is a **named,
+already-documented member of the same cohort**,
+[[wiki/people/jack-rusko|Jack Rusko]], whose own page records him as a
+friend of the 2017–18 season and knows nothing of this.
+
+The same two messages carry the yard's ordinary texture as well: the trips "up
+to mystic" ([[wiki/interests/golf|Mystic Rock]]), the carpool constraint that
+governed everything ("1 would be better for me because I have to get the kids
+off the bus at 3"), and the report-time relay through the caddie master
+("b-rad said he's not in today but said to come up tomorrow after lunch").
+
+**And one thing the page had backwards.** The cohort section below describes
+Vaughn as a fellow caddie who supplied Dan. He also **taught** him: *"Dude the
+way you changed my grip / Has made a REAL difference / I'm still getting things
+in place but my striking is better than it has been"* (2017-05-28). Instruction
+ran up the yard's informal hierarchy as well as down it, and the corpus's only
+documented instance of somebody correcting Dan's golf swing comes from the
+crew rather than from the club.
 
 ## Why the job matters
 

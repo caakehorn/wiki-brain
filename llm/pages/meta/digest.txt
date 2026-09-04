@@ -22,10 +22,10 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 497 |
-| Pages touched in the last 14 days | 224 |
+| Pages touched in the last 14 days | 227 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 49 |
-| Open gaps | 605 |
+| Open gaps | 604 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -55,7 +55,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-04** — 84 pages
+**2026-09-04** — 90 pages
   - connect | people | the handles were on the pages all along, and the guard could not see nine of them
   - connect | people | thirteen pages that counted half a conversation
   - connect | people | the estate's two hands, found by reading a conversation instead of a name
@@ -104,7 +104,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 **2026-09-01** — 2 pages
 
-**2026-08-31** — 4 pages
+**2026-08-31** — 3 pages
   - ingest | health | the intake ledger's first export (2026-08-30/31)
   - ingest | health | the ledger gets an entry page
 
@@ -114,7 +114,7 @@ The altitude of the wiki — everything here was built on top of something
 else in it, and `bin/wiki-climb check` will flag any of them whose premises
 have moved since.
 
-- [[wiki/health/cocaine]] — 15 premises
+- [[wiki/health/cocaine]] — 16 premises
 - [[wiki/health/the-configured-body]] — 8 premises
 - [[wiki/interests/favorites/art-and-movies]] — 4 premises
 - [[wiki/interests/favorites/books]] — 4 premises

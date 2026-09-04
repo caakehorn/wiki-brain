@@ -147,6 +147,9 @@ connections:
   - page: wiki/people/dave-moore
     type: co-occurs
     claim: "Her stepfather by her mother's second marriage, with whom the corpus records not one exchanged word — only Annie's startled report that Suz ran into him and Dian in August 2018."
+  - page: wiki/people/vaughn
+    type: evidenced-by
+    claim: "By 2017-18 the cocaine direction between mother and son has reversed. The 2015-16 record has her supplying him; the Vaughn thread has him procuring for her — 'Okay my mom wants the whole thing' (2018-02-08, of a gram of powder), 'Mom is happy enough with the quality that it's cool' (2017-05-30), and 'I'll get my mom to bring me over if u can get t now' (2018-02-05), which puts her in the car on the way to the pickup."
   - page: wiki/health/cocaine
     type: evidences
     claim: "Cocaine is the substance implicated in the Frank family rupture — the mother's affair with their cocaine dealer and the father's rehab admission both sit inside a pattern of cocaine-adjacent dysfunction that Dan later adopted freely while excluding alcohol."
@@ -701,6 +704,29 @@ keeping whole:
 
 > Wow!!! This is not what I was brought up to handle. I'm not supposed to know
 > these people. I should write a book.
+
+> **THE DIRECTION REVERSES BY 2018 [added 2026-09-04].** The paragraph above
+> is dated 2015–16 and it does not extend. The
+> [[wiki/people/vaughn|Vaughn]] thread — 582 messages, re-derived 2026-09-04
+> after two months in which only Vaughn's half had been read — has Dan as the
+> household's procurement function and Suz as the end consumer:
+>
+> - *"It was 2.59 … **Mom is happy enough with the quality** that it's cool"* —
+>   2017-05-30, closing out a short-weight complaint on her behalf.
+> - *"**I'll get my mom to bring me over** if u can get t now"* — 2018-02-05,
+>   during a $100 cocaine negotiation. She is the transport.
+> - *"Okay **my mom wants the whole thing**, do u want me to swing by In a
+>   few"* — 2018-02-08, on a gram of powder.
+> - *"**my moms got a lil spice**, i'll roll us a jimmy john for the way up"* —
+>   2018-03-19, supplying the ride to work.
+>
+> This is a change of role rather than a new fact about either of them, and it
+> matters to the give-and-invoice reading elsewhere on this page: by the deep
+> cycle the supply flows from son to mother while the money still flows from
+> mother to son, so the two ledgers run in opposite directions at once. What
+> the record does not contain is any statement from her about it — the four
+> lines above are all Dan's, to a third party, and none is corroborated from
+> her side.
 
 > **NOTED [2026-08-18]:** [[wiki/people/john-felix]] carries "John Felix" as a
 > four-month 2016 contact who was *"speculative, not confirmed"* a partner of
