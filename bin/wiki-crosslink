@@ -744,10 +744,7 @@ def scan_conversation(slug, pages, idx, matcher, corpora, limit=3):
     resolved, ambiguous = resolve_handles(fm, known)
     if not resolved:
         return ("NOHANDLE", ambiguous)
-    linked = {p for p, _ in edges(fm)}
-    linked.add(slug)
-    for m in re.finditer(r'(wiki/[a-z0-9\-/]+)', txt):
-        linked.add(m.group(1))
+    linked = linked_targets(slug, fm, txt)
     rows, allhits, _slug_rows, _d = corpus_index(corpora, matcher)
     want = set(resolved)
     hits = collections.defaultdict(list)
@@ -808,6 +805,37 @@ def self_limit_score(txt):
     return len(SELF_LIMIT.findall(txt))
 
 
+WIKILINK_RE = re.compile(r'\[\[(wiki/[a-z0-9\-/]+)')
+
+
+def linked_targets(slug, fm, txt):
+    """What this page actually links — a typed edge, or a real `[[wikilink]]`.
+
+    **This used to regex `wiki/[a-z0-9-/]+` over the whole page**, which counts
+    every appearance of a path-shaped string as a link: a `sources:` entry, a
+    typed edge's own `page:` field, a path named in prose, and — the one that
+    did the damage — **a path in backticks**. `bin/build-site` linkifies `[[…]]`
+    and nothing else, so a backticked path renders as inert grey code. The tool
+    was reporting "nothing unlinked found" for pages that contained no link at
+    all.
+
+    Measured 2026-09-04, after the operator clicked a page and found none:
+    **all 19 `wiki/self/twitter/` year pages carry zero body wikilinks between
+    them, against 161 typed edges.** Two crosslink passes ran over that tree and
+    both were told it was clean.
+
+    A typed edge still counts. It is a real, checked relationship and
+    `CONNECTIONS_SPEC.md` governs it — it is just not a thing a reader can
+    click, which is why the two are now counted separately and
+    `bin/wiki-lint` reports the gap.
+    """
+    linked = {p for p, _ in edges(fm)}
+    linked.add(slug)
+    for m in WIKILINK_RE.finditer(txt):
+        linked.add(m.group(1))
+    return linked
+
+
 def scan_page(slug, pages, idx, matcher, limit=3, against=None):
     """Candidates for one page. Two modes, and they ask different questions.
 
@@ -846,10 +874,7 @@ def scan_page(slug, pages, idx, matcher, limit=3, against=None):
     # the era the page covers — are among the more interesting results.
     # Unbounded now, and the output says so.
 
-    linked = {p for p, _ in edges(fm)}
-    linked.add(slug)
-    for m in re.finditer(r'(wiki/[a-z0-9\-/]+)', txt):
-        linked.add(m.group(1))
+    linked = linked_targets(slug, fm, txt)
 
     rows, allhits, slug_rows, _dropped = corpus_index(corpora, matcher)
 

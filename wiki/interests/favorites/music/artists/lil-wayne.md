@@ -45,7 +45,7 @@ Fourteen weeks separate the two, and nothing in the archive marks a change of
 mind.
 
 This is worth keeping because it is the clearest small illustration of what
-`wiki/interests/concert-record/index` states as a principle: **the unit of
+[[wiki/interests/concert-record/index]] states as a principle: **the unit of
 attendance is the event, not the artist.** A festival ticket is a claim about a
 weekend, not an endorsement of everyone on the poster, and reading an artist
 page as a favorites list will get this backwards. A later, gentler mention on

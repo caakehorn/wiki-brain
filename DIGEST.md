@@ -48,6 +48,7 @@ this is the state of the thing.
 ## The last few days
 
 **2026-09-04** — 108 pages
+  - lint | meta | the crosslink campaign had been counting a link that isn't one
   - connect | people | 79 lines had been written about a 1,789-message thread
   - connect | people | the handles were on the pages all along, and the guard could not see nine of them
   - connect | people | thirteen pages that counted half a conversation

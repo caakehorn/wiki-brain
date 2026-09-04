@@ -199,7 +199,7 @@ complete day, at six tweets.
 > of the 23rd produces a first tweet dated the 24th in UTC, and the 2022
 > `#MyTwitterAnniversary` post on 24 September is consistent with either.
 > *"proud member of the 'twitter since 08 club'"* (2010-08-24) independently
-> rules out a later year. `wiki/self/twitter/2010`.
+> rules out a later year. [[wiki/self/twitter/2010]].
 >
 > The backend user lookup did return an id (`16430736`) and no `created_at`;
 > that is still true and is why the date had to come from elsewhere.

@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-04
-498 pages, ~1,894,142 tokens.
+498 pages, ~1,896,637 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -154,7 +154,7 @@ the record.
 > streak was feb 17, 2010."* **The date was computed, not recalled** — the day
 > before a train — and the anchor came from a model reading email logs.
 >
-> **That anchor is wrong.** `wiki/self/twitter/2010` shows the 18 February
+> **That anchor is wrong.** [[wiki/self/twitter/2010]] shows the 18 February
 > train running the other way: on the 17th he is already in New York (*"off to
 > Williamsburg"*) and on the 18th he is *"On the train back to PA."* The
 > arithmetic behind the corpus's most-cited date does not hold.
@@ -4884,7 +4884,7 @@ Sunday, during the run of the HBO series' second season — so it is the show on
 television, not the show on stage. Small, and it establishes the sequence the
 concert log cannot: **he was already watching, and the ticket followed.** For
 an entry otherwise built from one row of a ticket table, that is the difference
-between a night out and an interest. `wiki/self/twitter/2009`.
+between a night out and an interest. [[wiki/self/twitter/2009]].
 
 
 
@@ -5072,7 +5072,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 > small room, and a band on the same Florida circuit. One night filed twice
 > under two names is the most economical reading of the two rows, but nothing
 > in the corpus states the BACKBOOTH bill, so the venue stays marked probable.
-> `wiki/self/twitter/2008` and `wiki/interests/concert-record/index`.
+> [[wiki/self/twitter/2008]] and [[wiki/interests/concert-record/index]].
 
 
 ========================================================================
@@ -5285,7 +5285,7 @@ Thirteen and fifteen months after the show, unprompted, from Orlando. The
 second is addressed to a dedicated John Mayer fan account, which places him
 inside that fandom's social layer rather than adjacent to it — and it sits in
 the same autumn as the emo, pop-punk and Jedi Mind Tricks material on
-`wiki/self/twitter/2009`, which is a wider taste at twenty than either page
+[[wiki/self/twitter/2009]], which is a wider taste at twenty than either page
 suggests alone.
 
 
@@ -5429,7 +5429,7 @@ Fourteen weeks separate the two, and nothing in the archive marks a change of
 mind.
 
 This is worth keeping because it is the clearest small illustration of what
-`wiki/interests/concert-record/index` states as a principle: **the unit of
+[[wiki/interests/concert-record/index]] states as a principle: **the unit of
 attendance is the event, not the artist.** A festival ticket is a claim about a
 weekend, not an endorsement of everyone on the poster, and reading an artist
 page as a favorites list will get this backwards. A later, gentler mention on
@@ -7242,7 +7242,7 @@ for everything it is allowed to touch."
 
 > **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
 > [[wiki/mind/concepts/the-cool-metric]] moved the same day, but only to add
-> a new connection to `wiki/mind/synthesis/totality-themes` (the newly
+> a new connection to [[wiki/mind/synthesis/totality-themes]] (the newly
 > derived "Irreversibility Firewall" doctrine page) — the master-filter
 > claim and the food/music jurisdiction dispute this page's CONTRADICTION
 > block tracks are both untouched. Nothing here needed revising.
@@ -8380,7 +8380,7 @@ it.
 **Three cautions, and the first two are load-bearing.**
 
 1. **The 2013 archive begins on 17 August** because the source changes there
-   (`wiki/self/twitter/2013`, and the same caveat governs 2009–2013 generally).
+   ([[wiki/self/twitter/2013]], and the same caveat governs 2009–2013 generally).
    Everything before that date is invisible, so 29 is a floor for the year and
    the alias's start date is *still* not datable from here.
 2. **The year-on-year drop from 29 to 4 is a change of format, not of output.**
@@ -9433,7 +9433,7 @@ leftist politics."*
 >
 > And on **25 March 2014**: *"brilliant point re 'tranny' outrage. Minority
 > groups feel entitled to have at least 1 term ruled a slur."* 2014 is a
-> **spreadsheet-complete year** on `wiki/self/twitter/2014` — 170 of 171 rows
+> **spreadsheet-complete year** on [[wiki/self/twitter/2014]] — 170 of 171 rows
 > from the operator export — so the absence of any post expressing discomfort
 > is itself evidence, and the record is not merely silent but opposed.
 >
@@ -9476,7 +9476,7 @@ particularly malicious"* and warns against *"wokescoldery"* — but "it's just a
 joke" is the exact doctrine the show ran on, and he says he has left it.
 
 > **CORRECTED [2026-09-03] — March 2022 is not the earliest instance.** The
-> shift is dated five months earlier by `wiki/self/twitter/2021`. On
+> shift is dated five months earlier by [[wiki/self/twitter/2021]]. On
 > **26 October 2021**, during the Chappelle row, he wrote:
 >
 > > *"Lenny Bruce was arrested...not by 'the public', but by the state. Dave
@@ -10984,6 +10984,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 ## The last few days
 
 **2026-09-04** — 108 pages
+  - lint | meta | the crosslink campaign had been counting a link that isn't one
   - connect | people | 79 lines had been written about a 1,789-message thread
   - connect | people | the handles were on the pages all along, and the guard could not see nine of them
   - connect | people | thirteen pages that counted half a conversation
@@ -11824,7 +11825,7 @@ somewhere and has not yet found out where.
 - **[[wiki/self/concepts/chatgpt]]** — This page and claude-code make incompatible claims about where an LLM's value sits. This page treats it as residing in the model's *willingness* — a register it will speak in, a class of question it will engage — which is why a guardrail change reads here as a capability loss and why the honesty standard is encoded as 
 - **[[wiki/self/facebook]]** — This paragraph used to say *every* field cross-checks. One does not. `places lived` gives **Brooklyn NYC from January 3, 2010**. The tweet archive has Dan in Florida for another eight weeks: *"moving to brooklyn in 9 days"* on 20 February 2010, *"last day in errrlando…hangin in a u-haul store"* on the 27th, *"peace out
 - **[[wiki/self/twitter]]** — the archive and facebook disagree about when Dan moved to Brooklyn. Facebook's `places lived` field says 3 January 2010. On 20 February 2010 he tweeted *"moving to brooklyn in 9 days"*, and on the 28th *"peace out, florida."* Both records are his own; one is timestamped by the platform and one was typed into a profile 
-- **[[wiki/self/twitter/2009]]** — `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and `wiki/timeline/periods/full-sail-2008-2010` and `wiki/people/alexis-armel` both build on that date. The contemporaneous public record contradicts it in two independent places: a "last month of college" beginn
+- **[[wiki/self/twitter/2009]]** — `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and full-sail-2008-2010 and alexis-armel both build on that date. The contemporaneous public record contradicts it in two independent places: a "last month of college" beginning 1 September, and coursework with a
 - **[[wiki/self/twitter/2010]]** — the anchor is misread. The 18 February train was the **return** leg, not the outbound one. On 17 February Dan is already in New York (*"off to Williamsburg"*), and on the 18th he is *"On the train back to PA."* The apartment hunt the Gemini session places on that trip matches 17 February, not the 18th. The derivation "
 - **[[wiki/self/twitter/2014]]** — the 2022 account places Dan among those *"repulsed by the racism"* at the split. The contemporaneous record places him on the other side of it — congratulating Cumia on his integrity within twenty-four hours of a firing for racist posts, and endorsing his anti-political-correctness framing three months before. The year
 - **[[wiki/timeline/events/august-2026-morgantown-call]]** — Dan states he sent the audio to Annie's parents (three times, Aug 19 01:04–01:48) and states that he did not (twice, Aug 19 11:25 and 15:12), and the corpus contains a proven false claim of exactly this kind from the day before. No email, no bounce, no reply, and no third-party reaction appears anywhere in `raw/`. **Th
@@ -11946,7 +11947,7 @@ new knowledge available, because no new source is required.
 ### mind (150)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
-- **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
+- **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (block-unblock-loop, attachment-trauma-bond) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnalysis_Final` both describe "127 false exits" b
 - **[[wiki/mind/concepts/attachment-model]]** — **The 299-affirmation / 0-severance-signal pairing remains internally asymmetric in its evidentiary weight**, and that asymmetry is worth stating plainly rather than letting the two numbers sit side by side as if equally solid: the 0 is primary-verified (a dir
 - **[[wiki/mind/concepts/attachment-model]]** — **The two "written denial" instances are unevenly sourced.** The November 2025 instance ("No and no") has a real primary-adjacent trail — dated in `THE_DAN_FRANK_BOOTLOADER.md`'s timeline and discussed at length, message-by-message, in `Breaking the anxiety av
 - **[[wiki/mind/concepts/calibrated-confidence]]** — The 43 instances are the yield of one pattern — numeric confidence adjacent to *sure / certain / positive / confident / convinced*. Adjacent constructions the pattern does not catch (*"odds are," "there's a good chance," "I'd bet," "probably"*) are unmeasured,
@@ -11986,7 +11987,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/profile/texting-deviance-audit]]** — **The complaint record is thin where it should be thick.** Nine explicit complaints across eleven years is a floor, not a measurement — most irritation never gets typed. Whether the nine are representative or the only four people who ever said it out loud is u
 - **[[wiki/mind/psychosexual/arrangement-history]]** — This table is built from what has been mined from the message corpus so far, not a claim of completeness — the 184k-row master CSV and the platform-specific message exports (Facebook Messenger threads, smashonista/Chaturbate-adjacent accounts) are not exhausti
 - **[[wiki/mind/psychosexual/taboo-and-boundary-testing]]** — The theoretical framing — taboo-seeking as deliberate category-rupture rather than transgression-for-its-own-sake — still rests on AI-dossier language (`Dan Profile.txt`, elaborated once by `DANSYNTH.txt` from the same source) rather than Dan's own explanation
-- **[[wiki/mind/synthesis/alias-as-periodization]]** — **The fourth name is not examined here.** `wiki/interests/music/aliases/mogged-up` is outside this page's `synthesizes:` list and its dates were not checked against the rule. If it breaks the pattern, this page is wrong and should be revised, not deleted.
+- **[[wiki/mind/synthesis/alias-as-periodization]]** — **The fourth name is not examined here.** mogged-up is outside this page's `synthesizes:` list and its dates were not checked against the rule. If it breaks the pattern, this page is wrong and should be revised, not deleted.
 - **[[wiki/mind/synthesis/alias-as-periodization]]** — **The handoffs are fuzzy.** MOGZART's recorded start (~2014) overlaps SLOPPP's run to December 2015. The rule claims coincidence with period boundaries, not instantaneous succession, and the overlap is unresolved.
 - **[[wiki/mind/synthesis/alias-as-periodization]]** — **The 63–85% figure is a single provenance.** It traces to the context-core measurement and is repeated by the alias pages rather than independently re-measured per alias. The invariant is asserted three times from one source, which is weaker than three measur
 - **[[wiki/mind/synthesis/annual-volume-suz]]** — No mechanism is proposed for the 2017 hinge; the message content around it has not been read specifically for this question.
@@ -12475,7 +12476,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/timeline/annie-read-notes]]** — `people/claire-ulmer` · (check) sister · **active participant in the Dec 2 confrontation** — jumps on Annie when Ellen finds out; Emilio texts her as his channel to the family
 - **[[wiki/timeline/annie-read-notes]]** — `people/rick-frank` · (check) father · **intervenes in the Dec 2 crisis** — *"Call me tomorrow. I will help you fix this"*; knows Annie's dad; positioned as the family mediator
 - **[[wiki/timeline/annie-read-notes]]** — `people/zachariah-harshman` · (check) cover story for the first night · **active threat post-breakup** — texts Annie "I have to talk to you" on Dec 9; tells her she looks like shit; the "cover story" reading is incomplete
-- **[[wiki/timeline/annie-read-notes]]** — `wiki/places/155-virginia-ave` · Dan's house · **the Annie box exists** — a box of mementos (notes, pen straws, snowflakes) from the first week, referenced on Dec 3 and Dec 10
+- **[[wiki/timeline/annie-read-notes]]** — 155-virginia-ave · Dan's house · **the Annie box exists** — a box of mementos (notes, pen straws, snowflakes) from the first week, referenced on Dec 3 and Dec 10
 - **[[wiki/timeline/annie-read-notes]]** — `people/jill` · (check) friend · **Annie's closest friend** — referenced repeatedly; her birthday is Dec 8; her boyfriend is invited to the NYE party
 - **[[wiki/timeline/annie-read-notes]]** — 1. **What did Alexis ask Dan for on Dec 13?** Annie says "I can't believe she asked you that last night" — the content is never stated. Worth a targeted read of the Alexis export around Dec 12-13.
 - **[[wiki/timeline/annie-read-notes]]** — 2. **Who is "Lukeyan"?** Dan debriefed him at 3:43am on Dec 15. Not in any existing contact list. Identity question.
@@ -12834,7 +12835,7 @@ simply listed.
 | [[wiki/people/dan-polyak]] | people | — |
 | [[wiki/people/josh-brannan]] | people | — |
 | [[wiki/places/424-bedford-ave]] | places | — |
-| [[wiki/self/twitter/2009]] | self | **CONTRADICTION** — `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and `wiki/timeline/periods/full-sail-2008-2010` and `wiki/people/alexis-armel` both build on |
+| [[wiki/self/twitter/2009]] | self | **CONTRADICTION** — `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and full-sail-2008-2010 and alexis-armel both build on that date. The contemporaneou |
 | [[wiki/self/twitter/2010]] | self | **CONTRADICTION** — the anchor is misread. The 18 February train was the **return** leg, not the outbound one. On 17 February Dan is already in New York (*"off to Williamsburg"*), and on the 18th he is *"On the train bac |
 | [[wiki/self/twitter/2011]] | self | — |
 | [[wiki/self/twitter/2012]] | self | — |
@@ -14042,7 +14043,7 @@ target — the loop may be signal, not noise.
 ## Gaps
 
 **The 127/110 exit-declaration figure used elsewhere in the wiki
-(`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`)
+([[wiki/mind/synthesis/block-unblock-loop]], [[wiki/mind/synthesis/attachment-trauma-bond]])
 does not fully reconcile with this page's own source material.**
 `MasterRecord_March16` and `CompleteAnalysis_Final` both describe "127
 false exits" but characterize the re-engagement rate as effectively
@@ -18423,7 +18424,7 @@ checks it against.
 
 **Gap:** no source in the corpus records Dan listening to Brooks *before*
 2020, so whether Brooks shaped the conversion or was adopted afterwards as its
-articulation is undetermined. `wiki/self/youtube-watch-history` is the place
+articulation is undetermined. [[wiki/self/youtube-watch-history]] is the place
 that could settle it and has not been searched for this.
 
 ## What this predicts, and what would falsify it
@@ -22324,7 +22325,7 @@ of it: the departure had already happened, twice, and 2020 is when something
 finally occupied the vacancy.
 
 **The counter-evidence, and it is real.** One tweet is one tweet. Nothing else
-on `wiki/self/twitter/2009` is political, the page's first nine months are a
+on [[wiki/self/twitter/2009]] is political, the page's first nine months are a
 fetch artefact rather than a sample (so an absence there proves nothing), and
 eleven years of no recorded political identity separate the two events. A
 disavowal at twenty-one is a common thing for a twenty-one-year-old to say and
@@ -22371,7 +22372,7 @@ export is now wanted.
 
 ## 2011: eleven years of anti-authority with no economics in it
 
-The section above dates the exit to 2009. `wiki/self/twitter/2011` fills in
+The section above dates the exit to 2009. [[wiki/self/twitter/2011]] fills in
 what stood in the gap, and it is not a slow drift leftward.
 
 2011's eight political posts are Glenn Beck, the Iraq war budget against
@@ -22402,7 +22403,7 @@ contemporaneous record shows he was not among the repulsed at the time: on
 **4 July 2014**, one day after Cumia was fired over racist posts, Dan tweeted
 at him *"nothing but love and respect ant. Thanks for not selling your soul
 through this whole mess."* 2014 is spreadsheet-complete and contains nothing to
-the contrary (`wiki/self/twitter/2014`; ledger record **t015**).
+the contrary ([[wiki/self/twitter/2014]]; ledger record **t015**).
 
 The cause survives; the timing does not. **And the correction is in this
 page's favour.** The six-year gap between the split and the August 2020
@@ -22429,7 +22430,7 @@ which no keyword pattern can see.
 | **Democratic socialist** | 2020-08-22 → | This page. |
 
 **Where the fourth stage actually begins.** The stage boundary is not August
-2020. `wiki/self/twitter/2020` shows the *analysis* arriving first, in the
+2020. [[wiki/self/twitter/2020]] shows the *analysis* arriving first, in the
 Democratic primary: on **15 February 2020**, four months after the Booker joke
 and a month before any lockdown, he runs four posts reading Bloomberg's
 candidacy as a party-splitting instrument bought with money, cites the stop-and-
@@ -23153,7 +23154,7 @@ a period ended, the alias record was not written to persuade anyone.
 
 ## Gaps
 
-- **The fourth name is not examined here.** `wiki/interests/music/aliases/mogged-up`
+- **The fourth name is not examined here.** [[wiki/interests/music/aliases/mogged-up]]
   is outside this page's `synthesizes:` list and its dates were not checked
   against the rule. If it breaks the pattern, this page is wrong and should be
   revised, not deleted.
@@ -23454,11 +23455,11 @@ already described without explaining.
 >
 > **`date_modified` is deliberately NOT bumped for this note, and that is the
 > point of the note's last paragraph.** This page carries seven other stale
-> premises that predate this pass — `wiki/self/lineage/23andme-genomics`,
-> `wiki/self/lineage/family-tree`, `wiki/self/lineage/hybrid-analysis`,
-> `wiki/self/ancestry`, `wiki/mind/concepts/attachment-model`,
-> `wiki/mind/synthesis/fayette-return` and
-> `wiki/mind/synthesis/instrument-is-subject` — and **none of them was
+> premises that predate this pass — [[wiki/self/lineage/23andme-genomics]],
+> [[wiki/self/lineage/family-tree]], [[wiki/self/lineage/hybrid-analysis]],
+> [[wiki/self/ancestry]], [[wiki/mind/concepts/attachment-model]],
+> [[wiki/mind/synthesis/fayette-return]] and
+> [[wiki/mind/synthesis/instrument-is-subject]] — and **none of them was
 > re-read here.** Bumping the date to 2026-08-31 was tried and reverted: it
 > cleared all seven from `WORK.md` in one move, without anybody having looked
 > at any of them. That is the failure `CLAUDE.md` calls the one that corrupts
@@ -25442,7 +25443,7 @@ Run 2026-08-28, against the eleven registers in `SYNTHESIS_SPEC.md`, and
 below sources a claim this page already made about Dan's own cognitive
 architecture — the page's own "machine proof" section already named "an
 exhaustible Fe function" without sourcing it — using material already
-stated on this page and on `wiki/mind/profile/intp`. No new narrative,
+stated on this page and on [[wiki/mind/profile/intp]]. No new narrative,
 date, quote, or figure about Annie is introduced.
 
 | # | Register | Disposition |
@@ -25664,7 +25665,7 @@ The bootloader's reconstructed chronology, cross-checked against the message rec
 > living with Dan in Uniontown throughout the window the old chronology placed
 > her in Florida — "Alexis is sloshed" (Nov 30), "Helping lex leave" (Dec 1),
 > "Alexis only left yesterday" (Dec 2) — and stayed in Pennsylvania after moving
-> out. `wiki/people/alexis-armel` had additionally invented a "~mid-Nov 2015 Dan
+> out. [[wiki/people/alexis-armel]] had additionally invented a "~mid-Nov 2015 Dan
 > moves her to Florida" row by back-computing "2 weeks" from the message
 > timestamp; no source ever asserted it.
 >
@@ -30519,7 +30520,7 @@ the same move the Node 6 thesis makes, applied to one storm instead of one
 generation.
 
 **He was not watching. He was publishing.** The 2012 line reads as an
-observer's aside and it was not one. `wiki/self/twitter/2012` shows the
+observer's aside and it was not one. [[wiki/self/twitter/2012]] shows the
 forty-eight hours around it as a continuous operation: a public-service notice
 to download podcasts before the power went (29 October), Grand Central's
 closure, the NYSE's first weather closure in twenty-seven years, a triage post
@@ -30565,7 +30566,7 @@ content"* — and is therefore a claim *about* the medium. The Balloon Boy day
 only demonstrates the habit; he watches the watching and never says that he is
 doing it. So the correction to the dating above is one-sided: **the habit is at
 least seventeen years old, the articulation stays in 2012, and the theory stays
-where this page put it.** `wiki/self/twitter/2009`.
+where this page put it.** [[wiki/self/twitter/2009]].
 
 So the honest statement is a split one: **the noticing is old and
 first-party; the theory built on it is recent and AI-assisted.** That is a
@@ -39676,7 +39677,7 @@ found it later.
 
 The clearest single-year demonstration that this axis is prior to Dan's
 politics rather than downstream of them is 2011, six years before he engaged
-politically and nine before he adopted a label. `wiki/self/twitter/2011`
+politically and nine before he adopted a label. [[wiki/self/twitter/2011]]
 records eight political posts across the year, and every one is aimed at a
 vertical: Glenn Beck (*"DANGEROUS"*), the Iraq war budget measured against
 science funding, the monetary system (*"money=debt. debt=money"*), mounted
@@ -40750,15 +40751,15 @@ her there while he was asleep, repeatedly enough to be a habit worth a joke.
 
 ### The mechanism, checked against the constitution
 
-- **Cognitive stack** (`wiki/mind/profile/intp`) — **moved it.** Ti-dominant at
+- **Cognitive stack** ([[wiki/mind/profile/intp]]) — **moved it.** Ti-dominant at
   96% latent against **Fe-inferior at 10% valuing**: the function whose job is
   the public relational display is the one nearly absent. A sustained
   affectionate broadcast register is Fe work, and this stack does not have the
   budget for it. The measured prediction is that such a register is a burst,
   not a baseline — which is exactly the 2010 shape, twelve of thirty-two in one
   year and three in the four years after.
-- **Romantic and relational state** (`wiki/mind/synthesis/the-unbroken-bond`,
-  `wiki/mind/concepts/attachment-model`) — **moved it, and this is the load
+- **Romantic and relational state** ([[wiki/mind/synthesis/the-unbroken-bond]],
+  [[wiki/mind/concepts/attachment-model]]) — **moved it, and this is the load
   bearer.** That page's central claim about Alexis is *occupancy without
   activation*: the attachment slot continuously filled 2009–2015 with the deep
   system never engaging, which is what makes her the control the Annie
@@ -40768,13 +40769,13 @@ her there while he was asleep, repeatedly enough to be a habit worth a joke.
   continuous cohabitation with a public register at zero, recorded as it
   happened by a man who was that year naming more people publicly than in any
   year of his life.
-- **Attitudes and forces** (`wiki/mind/concepts/the-cool-metric`) — **moved
+- **Attitudes and forces** ([[wiki/mind/concepts/the-cool-metric]]) — **moved
   it.** That page names *"splitting via irony"* as a standing operating mode: a
   confrontational, high-intensity, anti-normie persona filtered through deep
   irony. The 2013 register is that mode pointed at a live-in partner — the
   OkCupid line, the Eva Braun joke, *"catch a slug to the fvcε"* — and the
   corpus had only ever documented it aimed at strangers and at the audience.
-- **Health** (`wiki/health/chemical-architecture`) — checked, **cannot
+- **Health** ([[wiki/health/chemical-architecture]]) — checked, **cannot
   answer**. 2014 is inside the blind window above; the ledger has no events and
   the message corpora have no rows.
 - **Historical precedent** — checked, **left it standing.**
@@ -47140,7 +47141,7 @@ October 27 with no indication the November visit happened.
 
 > **MERGED [2026-08-20]:** this entity had two pages — `wiki/people/bruceburish`
 > (the fuller account, linked from
-> [[wiki/self/message-corpora/master-message-dump]]) and `wiki/people/bruce-burish`
+> [[wiki/self/message-corpora/master-message-dump]]) and [[wiki/people/bruce-burish]]
 > (a thinner stub carrying the typed edge, orphaned). Same person, same handle,
 > same five days. Merged here under the hyphenated slug that every other person
 > page uses, per STYLE_GUIDE rule 2 — one page per entity, merge never fork.
@@ -48945,8 +48946,8 @@ actor.
 > day-to-day stuff."** George Dixon Shrum Jr. is Suz's father and Diane's
 > *first* husband; she remarried [[wiki/people/dave-moore|Dave Moore]].
 >
-> The same correction merges a second entity. `wiki/places/155-virginia-ave`,
-> `wiki/timeline/events/fran-death-vigil` and `wiki/timeline/master-timeline`
+> The same correction merges a second entity. [[wiki/places/155-virginia-ave]],
+> [[wiki/timeline/events/fran-death-vigil]] and [[wiki/timeline/master-timeline]]
 > all record that on 2018-03-29 Dan was served an eviction notice for 155
 > Virginia Avenue **"by Dian V. Moore,"** and the vigil page listed *"Dian V.
 > Moore's role/relation to the estate"* as an open gap. That is this
@@ -74981,7 +74982,7 @@ crises, which is the worst possible distribution: the handle is least reliable
 exactly where the corpus's highest-stakes claims are drawn from.
 
 **What this does and does not affect.** It does **not** move any count —
-`wiki/self/context-core`'s 97,768 unique messages across Annie's four handles
+[[wiki/self/context-core]]'s 97,768 unique messages across Annie's four handles
 stands, because the rows exist and were sent from that handle. It does move
 every **attribution**. A claim of the form *"Annie said X"* sourced to the 212
 handle inside a documented Coles-present episode must have the episode checked
@@ -75697,7 +75698,7 @@ complete day, at six tweets.
 > of the 23rd produces a first tweet dated the 24th in UTC, and the 2022
 > `#MyTwitterAnniversary` post on 24 September is consistent with either.
 > *"proud member of the 'twitter since 08 club'"* (2010-08-24) independently
-> rules out a later year. `wiki/self/twitter/2010`.
+> rules out a later year. [[wiki/self/twitter/2010]].
 >
 > The backend user lookup did return an id (`16430736`) and no `created_at`;
 > that is still true and is why the date had to come from elsewhere.
@@ -76370,7 +76371,7 @@ final with it."*
 
 > **CONTRADICTION [2026-09-03]:** `raw/self/context-core/CONTEXT_CORE_EXPANDED.md`
 > states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and
-> `wiki/timeline/periods/full-sail-2008-2010` and `wiki/people/alexis-armel`
+> [[wiki/timeline/periods/full-sail-2008-2010]] and [[wiki/people/alexis-armel]]
 > both build on that date. The contemporaneous public record contradicts it in
 > two independent places: a "last month of college" beginning 1 September, and
 > coursework with a final examination running to 19 December. The two cannot
@@ -76414,7 +76415,7 @@ This is the earliest dated political self-description in the corpus, and its
 shape matters more than its date. It is a **departure, not an arrival** — he
 says what he has stopped being, names no replacement, and the sentence is
 triggered by *people*, by a link to somebody behaving badly, rather than by an
-argument or a policy. `wiki/mind/synthesis/2020-left-turn` dates the arrival
+argument or a policy. [[wiki/mind/synthesis/2020-left-turn]] dates the arrival
 of the democratic-socialist identity to 22 August 2020 and has since found a
 second causal account in 2022 — the O&A fanbase splitting rightward and
 repelling him leftward, also a departure from a tribe. The 2009 line is the
@@ -76441,7 +76442,7 @@ nothing he wrote is about the child:
 
 The subject is the coverage, the naming, the DVR, and the object's status as a
 **meme** — a word he applies to a live news event on the day it happens.
-`wiki/mind/synthesis/millennial-digital-witness` dates the underlying
+[[wiki/mind/synthesis/millennial-digital-witness]] dates the underlying
 disposition to a Hurricane Sandy tweet of 30 October 2012 and calls it
 *"fourteen years older than the theory"*. This is the same disposition three
 years earlier still.
@@ -76457,7 +76458,7 @@ the *articulation* stays where that page put it.
 ## The last six weeks: "her", then a name
 
 The year's final act is a relationship starting in real time, and it is
-already fully mined on `wiki/people/alexis-armel` — the unnamed *"her"* of
+already fully mined on [[wiki/people/alexis-armel]] — the unnamed *"her"* of
 29–30 November in Pennsylvania, the first `@alexisarmel` tweet on 14 December
 (*"you amaze me. can't believe you're real"*, and separately *"dan in
 love."*), *"i have the most amaaaazing girlfriend"* two days later, Seven
@@ -78392,7 +78393,7 @@ describes as the last of active use.
 
 **This is stated as a dated alignment, not as a proof, and the reason to be
 strict about that is that the date's existing provenance turns out to be
-unsound.** `wiki/health/chemical-architecture` carries 17 February 2010 as
+unsound.** [[wiki/health/chemical-architecture]] carries 17 February 2010 as
 "day-zero pinned". Its origin is `raw/self/dox-scan/Gemini-_58.txt`: a model,
 reading email logs, told Dan that *"on Thursday, February 18, you and your dad
 boarded an Amtrak train... bound for Penn Station"*, and Dan replied:
@@ -78423,10 +78424,10 @@ and the anchor is a model's reconstruction rather than his own recall.
 Two smaller corrections fall out of the same passage. The Gemini session states
 that the February trip *"coincided with your graduation from Full Sail"* —
 a third date for an event the wiki elsewhere puts in August 2009 and this
-corpus puts no earlier than late December 2009 (`wiki/self/twitter/2009`). And
+corpus puts no earlier than late December 2009 ([[wiki/self/twitter/2009]]). And
 it has him arriving in New York to stay on 18 February, when the record has him
 leaving Orlando on **28 February** (*"peace out, florida. it's been real."*),
-which is the date `wiki/timeline/periods/full-sail-2008-2010` already gives.
+which is the date [[wiki/timeline/periods/full-sail-2008-2010]] already gives.
 That page's Florida-departure date is now corroborated by a same-day tweet.
 
 ## Fifty-three days: certification to Brooklyn
@@ -78475,7 +78476,7 @@ Foursquare "Adventurer" and "Swarm" badges in the same year.
 This is a rare thing in the corpus and should be treated as such: a dated,
 addressed, voluntarily published trail, from someone whose later record is
 mostly reconstructed from other people's messages. It corroborates
-`wiki/places/424-bedford-ave` from the outside — the check-ins cluster on the
+[[wiki/places/424-bedford-ave]] from the outside — the check-ins cluster on the
 blocks around it — and it is the reason the 2010 geography is better evidenced
 than the 2013 geography, despite 2013 having more tweets.
 
@@ -78494,7 +78495,7 @@ Aoki, and on **27 March** *"learning to warp in ableton"* — a specific
 production technique, named. By **14 September** he is publishing output:
 *"here's a super quick dubstep mix I did the other day."*
 
-So the guitar-to-bass migration that `wiki/mind/synthesis/millennial-digital-witness`
+So the guitar-to-bass migration that [[wiki/mind/synthesis/millennial-digital-witness]]
 locates in the 2012–2014 likes data is **already underway in 2010**, with both
 vocabularies live in the same months. What the likes data may be dating is when
 one displaced the other, not when the second one started.
@@ -78554,7 +78555,7 @@ broken foot and the new job land on the same day and he files them as one item.
 
 ## The account's own age, settled
 
-`wiki/self/twitter/2008` says the creation date *"was not retrievable"* and
+[[wiki/self/twitter/2008]] says the creation date *"was not retrievable"* and
 that 24 September 2008 is an inference from the earliest surviving tweet. 2010
 closes that gap with two contemporaneous third-party counters he posted
 himself:
@@ -80767,7 +80768,7 @@ October he reports, from the office, *"Correction: I am a dog walker."*
 Against that, the thinking is at its most confident and most public. 2011 is
 where the argumentative move the corpus later calls the **adversarial
 historian** is running at full volume — thirteen years before the year
-`wiki/mind/synthesis/twitter-2024-cognitive-state` names it — and it is running
+[[wiki/mind/synthesis/twitter-2024-cognitive-state]] names it — and it is running
 almost entirely on religion and on vertical authority, not yet on economics.
 
 ## The move, in its purest specimen: 21 May 2011
@@ -80828,8 +80829,8 @@ seventy miles from where he grew up, four days after it broke.
 
 ## The 2011 politics are anti-authority, not yet left — and that is the finding
 
-`wiki/mind/synthesis/2020-left-turn` dates the democratic-socialist identity to
-August 2020, and `wiki/self/twitter/2009` establishes that the Republican
+[[wiki/mind/synthesis/2020-left-turn]] dates the democratic-socialist identity to
+August 2020, and [[wiki/self/twitter/2009]] establishes that the Republican
 identity was gone by November 2009. 2011 fills the middle, and what it shows is
 **not** an eleven-year drift leftward. It shows a fully-formed suspicion of
 vertical authority with no economic content whatsoever.
@@ -80860,7 +80861,7 @@ the easy version of his own position:
 > chance to live another day to fight in court."*
 
 He argues the procedural case rather than the innocence case, which is the
-harder and less satisfying one. This is `wiki/mind/synthesis/vertical-authority-skepticism`
+harder and less satisfying one. This is [[wiki/mind/synthesis/vertical-authority-skepticism]]
 at twenty-two: the objection is to the authority's claim to be certain, not to
 the outcome.
 
@@ -80885,7 +80886,7 @@ He is twenty-two, credentialed, in New York, and working for free. The joke on
 28 January — accepting a free record in place of money and finding it a fair
 trade for one afternoon — and the correction to it eight weeks later are the
 same person arriving at the obvious conclusion slowly and out loud, which is
-the shape `wiki/mind/synthesis/failure-to-launch` describes.
+the shape [[wiki/mind/synthesis/failure-to-launch]] describes.
 
 ## Irene: the middle instance of a three-point sequence
 
@@ -80904,7 +80905,7 @@ That gives the digital-witness thread three dated points rather than one:
 **Balloon Boy (2009) — the coverage as the subject; Irene (2011) — the storm
 consumed remotely and redistributed; Sandy (2012) — the observation finally
 stated as a claim about the medium.** The escalation is toward articulation,
-and `wiki/mind/synthesis/millennial-digital-witness` now has a curve instead of
+and [[wiki/mind/synthesis/millennial-digital-witness]] now has a curve instead of
 a single data point.
 
 ## The public forensic audit of a stranger, 27 February
@@ -80950,7 +80951,7 @@ playing... And I've finally hit level cap."*
 
 ## The tobacco quit did not hold, and that matters
 
-`wiki/self/twitter/2010` records 13 December 2010 as day one without tobacco,
+[[wiki/self/twitter/2010]] records 13 December 2010 as day one without tobacco,
 via an e-cigarette. On **10 January 2011** he posts *"1 week smoke free!"* —
 which dates a fresh start to roughly **3 January**, and therefore means the
 December attempt lasted at most three weeks before a relapse he never
@@ -82446,7 +82447,7 @@ means.
 
 ## Sandy: not a remark about a storm, three days of running a wire service
 
-`wiki/mind/synthesis/millennial-digital-witness` rests on one line from
+[[wiki/mind/synthesis/millennial-digital-witness]] rests on one line from
 30 October 2012. The line is real and it is quoted correctly:
 
 > *"Sandy is like first true 'digital disaster'. Can't remember so much user
@@ -82479,7 +82480,7 @@ to voice support for the Romney-Ryan ticket."*
 
 ## The prior pipeline, named — and the ideological distance flagged from the start
 
-`wiki/mind/synthesis/2020-left-turn` documents the media pipeline that carried
+[[wiki/mind/synthesis/2020-left-turn]] documents the media pipeline that carried
 Dan leftward from 2020: the dirtbag left, BreadTube, Chapo, Seder. 2012
 documents **the pipeline he was on before it**, and the two are not adjacent:
 
@@ -82502,7 +82503,7 @@ departure *from*.
 > Rumsfeld 'lizard' bit, I'll be spending the rest of my day listening"*
 
 That sentence is ten years earlier than the 2022 account already on
-`wiki/interests/opie-and-anthony`, in which the fanbase following Anthony Cumia
+[[wiki/interests/opie-and-anthony]], in which the fanbase following Anthony Cumia
 rightward *"radicalized [us] to leftist politics"*. It establishes that the
 separation of the comedy from the politics was **explicit and conscious from
 the beginning**, not a retrospective tidy-up. He was never inside the ideology;
@@ -82553,7 +82554,7 @@ subscriptions he cannot afford) and moves his actual playing to Halo 4, DayZ,
 Slender and League of Legends.
 
 The Halo 4 sequence corroborates a finding already on
-`wiki/interests/video-games` from the other direction: *"just bough halo4 and
+[[wiki/interests/video-games]] from the other direction: *"just bough halo4 and
 ofc brought it home to 'open tray' error"* (8 November), *"it runs a LOT. But
 it's also 6 years old"*, and on the 10th *"alright homeslice. i bought a new
 xbox for halo."* A six-year-old console replaced inside 48 hours for one game.
@@ -82576,7 +82577,7 @@ in my current budget."*
 Four years after *"Really feels like life has started over now"* in Winter
 Park, the record shows a Pro Tools-certified audio engineer on a shop floor in
 Manhattan, and it shows it in an aside about customers rather than as a
-complaint. This is the material `wiki/mind/synthesis/failure-to-launch` is
+complaint. This is the material [[wiki/mind/synthesis/failure-to-launch]] is
 about, at its lowest documented point, and the tone is the finding: he does not
 mention it as a problem once all year.
 
@@ -82588,7 +82589,7 @@ Then the check-ins move with him — Osso Buco on the Upper East Side, Josie's
 West, Le Pain Quotidien, New York Sports Club, the 9/11 Memorial — and by
 October he is *"up all night on upper east."* This dates the end of the
 424 Bedford Ave tenancy to the last days of March 2012 and corroborates
-`wiki/people/alexis-armel`'s description of it as a two-year run, to the month.
+[[wiki/people/alexis-armel]]'s description of it as a two-year run, to the month.
 
 ## Politics: an Obama voter with a left-libertarian list, and no redistribution yet
 
@@ -83988,7 +83989,7 @@ connections:
 
 **The year the account becomes a music project's feed, and the year the record
 itself changes underneath that.** From mid-August onward the page is a
-continuous stream of releases under the name **SLOPPP** — roughly thirty mixes
+continuous stream of releases under the name **[[wiki/interests/music/aliases/sloppp|SLOPPP]]** — roughly thirty mixes
 and original tracks between 13 August and 26 December, better than one every
 four days — plus SoundCloud play counts, gear, hashtags and requests for
 critique.
@@ -84066,12 +84067,12 @@ I ever lived on cheap plastic."* On **23 September** he reads the history:
 goes out hashtagged *"#overcompensating #poseur #fakefuture"*; on 11 August,
 looking at old work, *"Wow I was/am a fucking HACK."* The self-assessment runs
 alongside the promotion in the same feed on the same days, which is the shape
-`wiki/mind/profile/index` describes as an on/off verdict with no middle
+[[wiki/mind/profile/index]] describes as an on/off verdict with no middle
 setting — here it is, applied to his own output, hourly.
 
 ## Six weeks single, and somebody else in the gap
 
-`wiki/timeline/events/franki-fireworks-day-2013` dates the six-year
+[[wiki/timeline/events/franki-fireworks-day-2013]] dates the six-year
 relationship's only mid-course rupture to July 2013 and to Alexis's detection
 of it. This page supplies the duration and what happened inside it.
 
@@ -84104,7 +84105,7 @@ Texas Roadhouse (29 August), the Oddball Comedy Festival in Pittsburgh
 **27 September** *"For those curious what the hooplah in uniontown is about
 today"* with *"Fucking helicopters and shit"* — filmed, in his hometown.
 
-`wiki/self/location-history` records that address-level data runs out after
+[[wiki/self/location-history]] records that address-level data runs out after
 January 2011 and does not resume until the 2014 Google export, and names that
 window as the corpus's location blind spot. **This page partially fills it**:
 whatever his formal address was, Dan was substantially in Fayette County from
@@ -84146,7 +84147,7 @@ and to `@OpieRadio`, *"is this the 'marbles in ass' part of the boston
 conspiracy?"* He also flags Limbaugh comparing the suspect to Trayvon Martin.
 
 That is a third data point for
-`wiki/mind/synthesis/vertical-authority-skepticism`'s finding that the
+[[wiki/mind/synthesis/vertical-authority-skepticism]]'s finding that the
 "conspiracy crank" label is contradicted by his own behaviour — during the
 American event most productive of live conspiracy theorising in the decade, he
 mocks them.
@@ -84184,7 +84185,7 @@ already elsewhere, six years before he has a vocabulary for them.
 
 The Codecademy badges on **19 February** — *"I just unlocked the 50 points
 earned in one day badge"*, then the 75-point badge the same day — are already
-carried by `wiki/mind/synthesis/failure-to-launch` and `wiki/work/tech/index`,
+carried by [[wiki/mind/synthesis/failure-to-launch]] and [[wiki/work/tech/index]],
 and belong here as their source: dated, self-taught programming, thirteen years
 before the AI work.
 
@@ -86369,7 +86370,7 @@ connections:
 
 # Twitter / X — 2014
 
-**The peak of SLOPPP, and the year Dan sided with Anthony Cumia.**
+**The peak of [[wiki/interests/music/aliases/sloppp|SLOPPP]], and the year Dan sided with Anthony Cumia.**
 
 Two things run through 2014 and they sit badly together. The music project
 reaches full professional shape — a Beatport remix contest, official-style
@@ -86384,13 +86385,13 @@ Unlike 2009–2013 there is no month-end fetch artefact here — 170 of 171 rows
 come from the operator export, and the shape of the page is the shape of the
 year. But the export is **not a proven census**: a backend fetch on 2026-09-02
 recovered a February 2016 tweet the export had missed
-(`wiki/interests/music/overview`), so it can drop rows. Absence on this page is
+([[wiki/interests/music/overview]]), so it can drop rows. Absence on this page is
 **good evidence and not conclusive evidence**, and the finding below is built to
 survive that: it rests on what he did post, not on what he did not.
 
 ## 4 July 2014, and a correction to the corpus's own account
 
-`wiki/interests/opie-and-anthony` and `wiki/mind/synthesis/2020-left-turn` both
+[[wiki/interests/opie-and-anthony]] and [[wiki/mind/synthesis/2020-left-turn]] both
 rest on a claim Dan made in **2022**:
 
 > *"while many O&A fans followed Anthony down the reactionary rabbit hole of
@@ -86491,7 +86492,7 @@ in the same month he was entering a Beatport contest and being thanked by other
 producers, which is the on/off self-verdict again. And the objection is not
 envy: it is that a famous performer is taking money from an audience for work
 he is not doing. That is the same structure as every other target on
-`wiki/mind/synthesis/vertical-authority-skepticism` — an authority whose claim
+[[wiki/mind/synthesis/vertical-authority-skepticism]] — an authority whose claim
 exceeds what it is delivering — applied here to his own field.
 
 ## Speculative unpaid work for a show he wanted into
@@ -86529,7 +86530,7 @@ pattern worth naming rather than dismissing.
 **22 August**: *"Did I see the Uniontown bank robbery suspects today? Or am I a
 self-absorbed, paranoid zilch? You decide."* — with a photograph. This
 continues the presence 2013 establishes and pushes it a year further, inside
-the window `wiki/self/location-history` records as having no address-level
+the window [[wiki/self/location-history]] records as having no address-level
 data.
 
 ## Texture
@@ -87654,7 +87655,7 @@ connections:
 
 # Twitter / X — 2015
 
-**The year SLOPPP stops.** 2014 ran a Beatport contest entry, six named-artist
+**The year [[wiki/interests/music/aliases/sloppp|SLOPPP]] stops.** 2014 ran a Beatport contest entry, six named-artist
 remixes, three mix series and a live video show. 2015 has **two** pieces of
 music output in twelve months: a Far East Movement remix entered into a
 contest on 26 January, and a re-post on 16 March of a micromix video made the
@@ -87693,7 +87694,7 @@ New Year set, an Opie & Anthony segment, Alex Jones at Dealey Plaza — plus, on
 through Kamcord, and two auto-posts for a video poker app on 17 February. The
 producer's feed has become a viewer's feed.
 
-This is the concrete shape of a thing `wiki/mind/synthesis/failure-to-launch`
+This is the concrete shape of a thing [[wiki/mind/synthesis/failure-to-launch]]
 argues in the abstract: the project does not fail, get rejected, or get
 abandoned in a statement. It simply stops being posted, and the same account
 carries on.
@@ -87704,8 +87705,8 @@ Between **16 July and 4 December 2015 there is nothing on this page.** Not a
 thinning — a stop, in a year with no archival gap to blame.
 
 That window covers what the corpus documents as the most turbulent stretch of
-Dan's adult life: `wiki/legal/2015-possession-arrest`, and the housing
-arrangement `wiki/people/alexis-armel` describes as roughly four months of
+Dan's adult life: [[wiki/legal/2015-possession-arrest]], and the housing
+arrangement [[wiki/people/alexis-armel]] describes as roughly four months of
 secretly keeping a former partner at 337 Saratoga after she was thrown out.
 
 **The finding is the silence itself, and it is a real one.** Across seven years
@@ -87736,7 +87737,7 @@ reads the gap in this narrative as an oversight and fills it.
 opening line and a fair summary of its register. There is a Kanye playlist add
 on the 4th, one joke about Duran Duran in March, and *"Skeert"* in June.
 
-The thinness is the content. `wiki/self/twitter`'s own framing — that public
+The thinness is the content. [[wiki/self/twitter]]'s own framing — that public
 posting is a valve rather than a diary — is at its clearest in 2015: a
 spreadsheet-backed year with a working music project at the start of it, a
 five-month blackout in the middle, and sixty-two posts in total.
@@ -88180,7 +88181,7 @@ connections:
 
 # Twitter / X — 2016
 
-**The year the music becomes a hobby and golf becomes a subject.** SLOPPP is
+**The year the music becomes a hobby and golf becomes a subject.** [[wiki/interests/music/aliases/sloppp|SLOPPP]] is
 not gone — there is a Periscope bedroom DJ set on New Year's Day, a Juicy J
 bootleg sent to a blog in March, and one paid-sounding live booking in
 February — but the account's centre of gravity has moved. What 2016 actually
@@ -88195,7 +88196,7 @@ sources.
 On **7 February 2016**: *"Had lit times playing @ulmdub birthday party last
 night at OSU"*, with a video attached and one repost.
 
-`wiki/interests/music/overview` spent weeks holding this line as a
+[[wiki/interests/music/overview]] spent weeks holding this line as a
 **contradiction against itself**: an AI-generated secondary source quoted it,
 the archive did not contain it, and the page leaned toward the reading that the
 analysis had fabricated the quote. A backend fetch on 2026-09-02 recovered the
@@ -88237,7 +88238,7 @@ places him still trying to reach them in early 2016.
 The pattern across 2011, 2012, 2014 and now 2016 is consistent enough to name:
 **employment appears on this account only as material.** Never as a fact
 stated, never as a complaint, never as a plan — as a bit, delivered to
-followers, about the absurdity of the situation he is inside. `wiki/mind/synthesis/failure-to-launch`
+followers, about the absurdity of the situation he is inside. [[wiki/mind/synthesis/failure-to-launch]]
 has the fact of the career; this is the posture toward it, and the posture is
 stable across five years and four jobs.
 
@@ -88285,7 +88286,7 @@ Read against 2011's eight sharply argued political posts, this is not a
 progression. It is a man who was more politically vocal at twenty-two than at
 twenty-eight, and who sat out the most consequential American election of his
 adult life in public silence. That is a real data point for
-`wiki/mind/synthesis/2020-left-turn`: whatever 2020 was, it was not the last
+[[wiki/mind/synthesis/2020-left-turn]]: whatever 2020 was, it was not the last
 step of a gradual radicalisation, because 2016 is a step backwards.
 
 ## Fayette County, confirmed again
@@ -88296,7 +88297,7 @@ a Periscope broadcast of a Pittsburgh snowstorm (20 January), *"FEET of snow"*,
 Kennywood in July, and the Hard Rock Cafe Pittsburgh in June.
 
 Three consecutive years — 2013, 2014, 2016 — now place him in Fayette County
-inside the window `wiki/self/location-history` records as having no
+inside the window [[wiki/self/location-history]] records as having no
 address-level data.
 
 ## Texture
@@ -88847,7 +88848,7 @@ with Dan live-tweeting the Sessions confirmation hearings on 11 January and the
 inauguration concert on the 19th, and does not really stop. But the register is
 specific and it is not the one the corpus arrives at three years later.
 
-This matters because `wiki/mind/synthesis/2020-left-turn` withdrew its claim of
+This matters because [[wiki/mind/synthesis/2020-left-turn]] withdrew its claim of
 a "2017 step" on 2026-09-02 — the keyword counting that produced it was
 measuring the pattern rather than the corpus. **The counting was wrong and
 something real is still there**; it is just not a change in *volume*. It is a
@@ -88903,7 +88904,7 @@ into anything here — but it is dated, and it belongs on the record.
 
 ## The pipeline starts three years early, through comedy
 
-`wiki/mind/synthesis/2020-left-turn` locates the media pipeline in 2020: Chapo,
+[[wiki/mind/synthesis/2020-left-turn]] locates the media pipeline in 2020: Chapo,
 Hasan, ContraPoints, Seder. The first channel of that ecosystem appears here,
 in 2017, and Dan finds it as **comedy** rather than as politics.
 
@@ -88941,7 +88942,7 @@ puts the start of smoking in the same year `CONTEXT_CORE_EXPANDED` dates the
 first opiate and the locking-in of atheism. And **27 December**: *"I quantify
 everything in life on a spectrum of 'ok computer' to blink 182 'self titled'"*
 — taste stated outright as a measuring instrument rather than a preference,
-which is the thesis of `wiki/interests/favorites/taste-profile` in his own
+which is the thesis of [[wiki/interests/favorites/taste-profile]] in his own
 words.
 
 The year closes on **31 December** with *"I didn't like 2017."*
@@ -89809,7 +89810,7 @@ vehicle matters more than the direction.
 Three words, in a year with eighty-nine posts, and they are the first negative
 statement about Opie or Anthony Cumia anywhere in the archive.
 
-Set against `wiki/self/twitter/2014`'s *"nothing but love and respect ant"*
+Set against [[wiki/self/twitter/2014]]'s *"nothing but love and respect ant"*
 (4 July 2014) and the 2022 retrospective, this is the **middle term of the
 sequence the corpus was missing**: 2014 supportive → **2018 dismissive** → 2022
 narrating it as radicalisation. The change is real and it is gradual, and it
@@ -89835,7 +89836,7 @@ fifteen months. *Mario Kart 8 Deluxe* bought *"as a girlfriend game"* and
 enjoyed (19 March). A theory that the Stormy Daniels NDA connects to Larry
 Flynt's offer for presidential dirt (31 January), which is conspiracy-shaped
 reasoning offered with its mechanism attached and a named funding source —
-the version of the habit `wiki/mind/synthesis/vertical-authority-skepticism`
+the version of the habit [[wiki/mind/synthesis/vertical-authority-skepticism]]
 distinguishes from crankery. And on 22 January, filed without comment inside a
 joke: *"mom told me she joined tinder."*
 
@@ -90451,7 +90452,7 @@ something else in the corpus.
 One line, no elaboration, and it is the only dated departure from Fayette
 County anywhere in the archive.
 
-`wiki/self/location-history` records an address-level blind window that the
+[[wiki/self/location-history]] records an address-level blind window that the
 2013, 2014 and 2016 pages have now filled with presence in Western PA. This
 closes the other end of it: he was there, and on **3 March 2019** he left, and
 he framed the leaving politically — *"Trump country"* — rather than
@@ -90465,8 +90466,8 @@ address. This is a gap the page names rather than fills.
 
 ## The nicotine pattern, now stated by him, at n=3
 
-`wiki/self/twitter/2010` records a tobacco quit via e-cigarette on 13 December
-2010; `wiki/self/twitter/2011` shows it lasted at most three weeks. On
+[[wiki/self/twitter/2010]] records a tobacco quit via e-cigarette on 13 December
+2010; [[wiki/self/twitter/2011]] shows it lasted at most three weeks. On
 **9 October 2019** he does it again, and this time explains the logic himself:
 
 > *"one reason i started vaping is because i felt like a piece of shit for
@@ -90481,7 +90482,7 @@ address. This is a gap the page names rather than fills.
 **Replace the delivery system, keep the molecule, and report the health
 benefit** — stated in his own words, nine years after doing exactly the same
 thing with the same substance, and nine years after the corpus's other instance
-of the same structure. `wiki/health/chemical-architecture` catalogues nicotine
+of the same structure. [[wiki/health/chemical-architecture]] catalogues nicotine
 as a ritual regulator; this is the mechanism by which the regulator is
 preserved through every attempt to remove it.
 
@@ -90538,7 +90539,7 @@ a symbolic ultimatum"* — a person still arguing across the aisle rather than
 outside the room.
 
 **Ten months later he is a democratic socialist.** That is the single most
-useful thing this page establishes: `wiki/mind/synthesis/2020-left-turn` dates
+useful thing this page establishes: [[wiki/mind/synthesis/2020-left-turn]] dates
 the conversion to a specific day, and 2019 shows the state immediately prior
 was not a partly-converted one. The turn is as abrupt as that page says, and it
 follows three years of liberalism rather than a slow leftward drift.
@@ -90546,7 +90547,7 @@ follows three years of liberalism rather than a slow leftward drift.
 He is also, on **16 January**, still a comedy free-speech absolutist: *"The
 recent joke shaming of Louis CK is so fucking disturbing. You don't have to
 agree with the material to appreciate the essence of what a joke is."*
-`wiki/interests/opie-and-anthony` dates his move away from that position to
+[[wiki/interests/opie-and-anthony]] dates his move away from that position to
 28 March 2022; this is the last dated instance of the old one.
 
 ## The record collection is gone
@@ -90584,7 +90585,7 @@ turns up.
 
 The second post inverts the first, which makes the fourth item the first
 reason. It is a joke, told nine years later, by somebody who chose to tell it —
-and `wiki/mind/psychosexual/arrangement-history` is the page it belongs to.
+and [[wiki/mind/psychosexual/arrangement-history]] is the page it belongs to.
 Whether it is true is not settleable here; that he said it is.
 
 ## What would change this reading
@@ -90988,7 +90989,7 @@ connections:
 
 **Twenty-five posts, and two of them move the corpus.** 2020 is the thinnest
 year on the account since 2008, and it is the year
-`wiki/mind/synthesis/2020-left-turn` is named after. What it contains is the
+[[wiki/mind/synthesis/2020-left-turn]] is named after. What it contains is the
 conversion happening in public, at two separate moments, neither of which is
 the one that page dates.
 
@@ -91006,7 +91007,7 @@ weeks later, no AI in the loop, addressed to strangers.
 Its register matters as much as its content. It does not describe a position;
 it issues an **ultimatum**, and the only two categories it allows for
 disagreement are ignorance and moral defect. Six weeks after adopting an
-ideology he is already policing its boundary. `wiki/mind/profile/index`
+ideology he is already policing its boundary. [[wiki/mind/profile/index]]
 describes a self-verdict with no middle setting, and this is that mechanism
 pointed outward at everyone else.
 
@@ -91085,7 +91086,7 @@ sentence that is the whole of the year's emotional record:
 > that era being over"*
 
 Twenty-five posts in a pandemic year, from an account that had produced 346 in
-2013. Whatever 2020 was for Dan, `wiki/mind/synthesis/2020-left-turn` reads it
+2013. Whatever 2020 was for Dan, [[wiki/mind/synthesis/2020-left-turn]] reads it
 from a self-narration and a YouTube history rather than from here, and this
 page is the reason why: the feed had already stopped being where he lived.
 
@@ -91322,7 +91323,7 @@ The 2020 declaration was an ultimatum. 2021 is the working version:
 used correctly and the primary opponent is the Democratic Party rather than the
 Republicans, which is the tell that distinguishes a leftist from a liberal.
 `@hasanthehun` — Hasan Piker, one of the four channels
-`wiki/mind/synthesis/2020-left-turn` names as the pipeline — is addressed
+[[wiki/mind/synthesis/2020-left-turn]] names as the pipeline — is addressed
 directly on 9 January.
 
 And on **15 November**, a disappointment stated as one: *"Had been (foolishly)
@@ -91333,7 +91334,7 @@ interesting half.
 
 ## 26 October 2021 corrects a date
 
-`wiki/interests/opie-and-anthony` dates Dan's move away from comedy free-speech
+[[wiki/interests/opie-and-anthony]] dates Dan's move away from comedy free-speech
 absolutism to **28 March 2022**, during the Chris Rock slap. This page has it
 five months earlier, during the Chappelle row:
 
@@ -91353,7 +91354,7 @@ there rather than left for the next reader to trip over.
 
 The Capitol riot produces the year's densest cluster, and it is the best
 available demonstration of what
-`wiki/mind/synthesis/vertical-authority-skepticism` means when it says the
+[[wiki/mind/synthesis/vertical-authority-skepticism]] means when it says the
 "conspiracy crank" label is contradicted by his behaviour.
 
 **He forms one.** On 7 January: *"i'm as sure as i could possibly be that the
@@ -91675,7 +91676,7 @@ the shape it has as a year.
 ## The Paul Pelosi sequence: the method, and its bill
 
 Between **29 October and 2 November**, Dan refused to accept the account of the
-Paul Pelosi attack. `wiki/mind/synthesis/vertical-authority-skepticism` already
+Paul Pelosi attack. [[wiki/mind/synthesis/vertical-authority-skepticism]] already
 carries the finding. What belongs here is what it cost him, in his own words:
 
 > *"It super sucks being (as far as I can tell) the only person not buying the
@@ -91707,7 +91708,7 @@ The 2020 declaration policed the boundary outward. By 2022 he is doing it
 inward, at the pipeline itself.
 
 On **22 February**, on Hasan Piker — one of the four channels
-`wiki/mind/synthesis/2020-left-turn` names as the mechanism of his conversion:
+[[wiki/mind/synthesis/2020-left-turn]] names as the mechanism of his conversion:
 
 > *"I love Hasan but his take on Russia is either purposefully antagonistic at
 > the expense of his intellectual credibility or astonishingly naive in the
@@ -91745,7 +91746,7 @@ fact stated.** Six years and at least two jobs later, unchanged.
 
 ## Advising Opie on his career
 
-On **18 July**, the three-tweet thread `wiki/interests/opie-and-anthony` is
+On **18 July**, the three-tweet thread [[wiki/interests/opie-and-anthony]] is
 built on. The first two are the radicalisation account. The third is not
 analysis at all:
 
@@ -91770,7 +91771,7 @@ predictions and comes back to them.**
 - **14 November** — the return: *"We'll see if I've got my finger on the pulse of the ever unpredictable MAGA movement…"*
 - **15 December** — seven numbered theories about a Trump announcement, each with its reasoning, published before the event
 
-**This belongs to `wiki/meta/testimony-veracity` as much as to politics.** That
+**This belongs to [[wiki/meta/testimony-veracity]] as much as to politics.** That
 ledger exists because most of Dan's first-person claims are unfalsifiable; here
 is a body of claims he made *deliberately* falsifiable, dated, in public, with
 his reasoning attached and a stated intention to check. It is the best
@@ -91783,7 +91784,7 @@ yet.
 historically-accurate image of Jesus through DALL·E 2 for three variations,
 gets back the conventional Western portrayal, records the screen, and asks
 whether it is an artefact of the code — *"Is this the new jesus toast?
-@openai"*. `wiki/self/concepts/chatgpt` already carries this as the
+@openai"*. [[wiki/self/concepts/chatgpt]] already carries this as the
 corroboration of hands-on pre-ChatGPT model use. What is worth adding is the
 *form*: an anomaly, an experiment, a recording, and a question addressed to the
 people who would know. The same four steps as the terminal-lucidity thread of
@@ -91798,7 +91799,7 @@ people who would know. The same four steps as the terminal-lucidity thread of
 > I would have to seeing POV violence…the minutiae and relationship to the
 > 'human element' was something completely foreign to any experience"*
 
-That is `wiki/mind/synthesis/millennial-digital-witness` at its darkest: he
+That is [[wiki/mind/synthesis/millennial-digital-witness]] at its darkest: he
 reports his own reaction as **data about the limits of media saturation**,
 explicitly benchmarked against the desensitisation he expected from games and
 found insufficient. The disposition that produced the Balloon Boy jokes in 2009
@@ -92857,10 +92858,10 @@ During the OceanGate Titan submersible disaster — nine posts across 20 and
 
 > *"This is so much better than balloon boy."*
 
-`wiki/self/twitter/2009` reads the 15 October 2009 Balloon Boy day as the
+[[wiki/self/twitter/2009]] reads the 15 October 2009 Balloon Boy day as the
 earliest instance of Dan watching the coverage rather than the event, and files
 it as the weaker, undeclared version of the disposition
-`wiki/mind/synthesis/millennial-digital-witness` describes. **He classifies it
+[[wiki/mind/synthesis/millennial-digital-witness]] describes. **He classifies it
 the same way, unprompted, fourteen years later, and uses it as the unit of
 comparison for a new spectacle.** That is independent confirmation from the
 only person who could give it: Balloon Boy is a landmark in his own taxonomy of
@@ -92875,7 +92876,7 @@ joke submersible business proposed to visit the wreck of the submersible.
 
 ## Nashville: two conspiracies, worked, and both published as negatives
 
-**29–30 March.** `wiki/mind/synthesis/vertical-authority-skepticism` already
+**29–30 March.** [[wiki/mind/synthesis/vertical-authority-skepticism]] already
 carries this as his most-read tweet ever. The full sequence is the method:
 
 > *"Dumb conspiracy. Shooter does not have Puma's on."*
@@ -92903,7 +92904,7 @@ that the subject uses it.
 
 ## The class analysis arrives, in its own vocabulary
 
-The four-stage sequence on `wiki/mind/synthesis/2020-left-turn` turns on an
+The four-stage sequence on [[wiki/mind/synthesis/2020-left-turn]] turns on an
 absence: through 2011–2019 there is no redistributive or class content
 anywhere. **3 March 2023 is where that absence closes completely:**
 
@@ -92949,7 +92950,7 @@ model-to-model experiment, run and documented, in June 2023.
 evidence of the model's judgement (*"Very insensitive #ChatGPT thought
 #OceanGate was good poetry material"*).
 
-`wiki/self/concepts/chatgpt` dates hands-on model use to the September 2022
+[[wiki/self/concepts/chatgpt]] dates hands-on model use to the September 2022
 DALL·E posts. This is the year after: forecasting the technology's political
 consequences, running cross-model experiments, and using the output as material
 — **two years before the April 2025 turn that produced this wiki.** The
@@ -92966,7 +92967,7 @@ sustained. The 2018 line was *"my goal in life is to one day be described as a
 'voracious reader'"*; this is that goal met and measured, five years later, and
 reported as what he does when politics is dull rather than as an achievement.
 It is also the volume of input behind the 2024 Roman-history material
-`wiki/interests/roman-republic` documents.
+[[wiki/interests/roman-republic]] documents.
 
 ## The job, one clause again
 
@@ -92996,7 +92997,7 @@ The forecasting practice of 2022 continues, and 2023 supplies the outcomes.
 **The scoring behaviour is the finding, not the accuracy.** He states
 predictions at explicit confidence, dates them, and when they fail he says so
 in public and in his own voice — *"Fooled AGAIN"* — rather than quietly
-dropping them. `wiki/meta/testimony-veracity` exists because most of Dan's
+dropping them. [[wiki/meta/testimony-veracity]] exists because most of Dan's
 first-person claims cannot be checked; this is a seam of claims he built to be
 checkable, and it is largely unmined.
 
@@ -93012,7 +93013,7 @@ sustained and take a position critical of the Israeli state, including an
 argument that mandatory IDF service *"creates an automatic stain of
 complicity"* — from someone the corpus records as having Jewish heritage on the
 paternal line and no religion. And on **10 October**, the decision procedure
-`wiki/mind/politics/axioms` already carries: *"Political positions are best
+[[wiki/mind/politics/axioms]] already carries: *"Political positions are best
 formulated and checked with one test: what would Michael Brooks do?"*
 
 ## What would change this reading
@@ -94042,7 +94043,7 @@ connections:
 
 **Peak volume, and the densest single day in seventeen years.** 258 originals,
 and 23 of them land on **28 June**, the night of the first Biden–Trump debate.
-`wiki/mind/synthesis/twitter-2024-cognitive-state` reads this year as
+[[wiki/mind/synthesis/twitter-2024-cognitive-state]] reads this year as
 adversarial reality-testing disguised as political posting; this page carries
 the material that reading is built on, plus three things it does not: the
 debate night as a real-time record of a prediction failing, the Roman history
@@ -94071,7 +94072,7 @@ about replacing the candidate — and by 6 July he publishes a numbered *"list o
 facts about the facts on the ground as of 3:15am"* with an explicit probability
 attached: any replacement is *"25% at best"*.
 
-`wiki/meta/testimony-veracity` scores what Dan claims. This night is the
+[[wiki/meta/testimony-veracity]] scores what Dan claims. This night is the
 clearest specimen in the corpus of how he behaves when a claim of his is
 disproved immediately and publicly, and the answer is: he says so and moves on
 in the same hour. Set beside 2023's *"Fooled AGAIN by the fucking liberal
@@ -94079,7 +94080,7 @@ mirage"*, the pattern holds across at least two years.
 
 ## The Roman republic is a working instrument, not an interest
 
-`wiki/interests/roman-republic` records the 2024 reading binge and that it
+[[wiki/interests/roman-republic]] records the 2024 reading binge and that it
 started on YouTube — *"After I finished the @HistoriaCivilis Caesar/Octavian
 series, I started devouring the 'essential' books about the late Roman
 Republic"* (8 April), Dan Carlin's *Death Throes* praised for *"the
@@ -94093,7 +94094,7 @@ events**, unprompted and without explanation:
 - **5 June**, correcting a major publication: *"Writing an article for a major publication about republican Rome's second Civil War without knowing the difference between Iler…"*
 
 That is the *"historicize"* step
-`wiki/mind/synthesis/twitter-2024-cognitive-state` names, caught in the act and
+[[wiki/mind/synthesis/twitter-2024-cognitive-state]] names, caught in the act and
 sourced: the history is not a hobby running beside the politics, it is the
 vocabulary he reaches for when the politics get strange. And the direction of
 supply is documented — a YouTube series, then nine books, then the frame.
@@ -94111,7 +94112,7 @@ as material, never as subject) and it now spans retail (2012), an unpaid
 internship (2011), waiting tables (2022, 2023) and caddying, with no start
 dates, no employers and no duration for any of them.
 
-It also completes the golf thread. `wiki/self/twitter/2016` has him at the U.S.
+It also completes the golf thread. [[wiki/self/twitter/2016]] has him at the U.S.
 Open at Oakmont and reaching for *"foreclosure"* as the simile for the rough;
 2009 has *"country club status. bloated sense of self worth"*; 2014 has the
 great-grandmother as *"the country club Queen Bee in 1960"*. He was inside the
@@ -95763,13 +95764,13 @@ after. 2025 is the emptiest year on the account since it opened.
 ## The silence covers the founding of this project
 
 April 2025 is when Dan's documented AI turn begins: the ChatGPT session that
-`wiki/self/concepts/chatgpt` treats as the origin of the work, and the start of
+[[wiki/self/concepts/chatgpt]] treats as the origin of the work, and the start of
 the sustained self-analysis that this wiki is the product of. **None of it is
 on this account.** The public record goes quiet in February and does not
 meaningfully return.
 
 This is the second time it has happened, and the pair is the point.
-`wiki/self/twitter/2015` records a five-month blackout across the most
+[[wiki/self/twitter/2015]] records a five-month blackout across the most
 turbulent stretch of his adult life. 2025 is an eleven-month blackout across the
 most *generative* one. The feed is not a diary that reflects what is happening;
 **it goes quiet in both directions — under pressure and under absorption.**
@@ -95796,7 +95797,7 @@ Two personal ones matter more than their length.
 **7 January**: *"My self-teaching piano lesson tonight is figuring out a bunch
 songs from criminally under-appreciated national treasure @NickLutsko."*
 
-`wiki/self/twitter/2016` records the inherited alto sax, clarinet and mandolin,
+[[wiki/self/twitter/2016]] records the inherited alto sax, clarinet and mandolin,
 and his own forecast that *"the amount of time I'm gonna spend becoming mediocre
 at them will be crzy."* Nine years later he is teaching himself piano, by ear,
 from a comedy musician's songs. The forecast was accurate about the activity and
@@ -95959,14 +95960,14 @@ model to reconfigure the recommendation systems that shape what he sees.
 
 It is also the year music production resumes under a new name.
 
-## MOGZART, 4 March
+## [[wiki/interests/music/aliases/mogzart|MOGZART]], 4 March
 
 > *"'Odd Mob - Never Alone (feat Lizzy Land) [MOGZART DnB JUMP UP REMIX]' is on
 > #SoundCloud"*
 
-The first original music released on this account since the SLOPPP micromix
+The first original music released on this account since the [[wiki/interests/music/aliases/sloppp|SLOPPP]] micromix
 re-post of March 2015 — eleven years — and it is under a different alias, in a
-different genre. `wiki/interests/music/overview` records MOGZART and GRIPNOTIC
+different genre. [[wiki/interests/music/overview]] records MOGZART and [[wiki/interests/music/aliases/gripnotic|GRIPNOTIC]]
 as successors to SLOPPP; this dates a MOGZART release precisely, and the
 2 June post (*"there is just stupid amounts of great DnB coming out right
 now"*) places the genre commitment as current rather than incidental.
@@ -95982,7 +95983,7 @@ Two named autonomous agents, one of them carrying the name of a music project.
 
 That is the most interesting sentence on the page. He uses a browser agent to
 **delete every follow across three platforms at once**, explicitly in order to
-rebuild the recommendation systems from scratch. `wiki/mind/synthesis/millennial-digital-witness`
+rebuild the recommendation systems from scratch. [[wiki/mind/synthesis/millennial-digital-witness]]
 describes a disposition for watching the medium rather than the event; here the
 disposition becomes an **operation**. He is not observing the algorithm. He is
 taking an instrument to it, on himself, deliberately.
@@ -96300,7 +96301,7 @@ connections:
 **The corpus had his monologue and none of his dialogue, and the ratio was an
 artifact of the archive rather than a fact about the man.**
 `raw/self/twitter/archive.jsonl` holds **2,718 originals against 22 replies** —
-originals-only by its own inclusion rule, which `wiki/self/twitter` states in
+originals-only by its own inclusion rule, which [[wiki/self/twitter]] states in
 its own words: *"one wiki page per year, every retrieved original."* An
 operator-supplied video of his profile being scrolled, transcribed on
 2026-09-04, is **255 replies and 33 originals**. After dedup against the
@@ -96379,11 +96380,11 @@ And on Trump's golf, to an anti-Trump account:
 
 > *"Look I'm no trump fan and his record of lying about club tournament wins and general golf cheating is well established...but... he's broadly accepted to be an exceptionally good golfer for his age. Anyone can hit a bad shot"*
 
-`wiki/mind/synthesis/vertical-authority-skepticism` derives this from originals
+[[wiki/mind/synthesis/vertical-authority-skepticism]] derives this from originals
 and published negative results. The reply corpus is the same disposition with a
 target in front of it, and it settles a question the originals leave open: the
 skepticism is **not** aimed at a political direction. It fires on argument
-quality. `wiki/mind/concepts/calibrated-confidence` already records that he
+quality. [[wiki/mind/concepts/calibrated-confidence]] already records that he
 polices other people's calibration; here that is not a behaviour the corpus
 holds a few instances of, it is the dominant register of 186 rows.
 
@@ -96432,7 +96433,7 @@ against an audience that was there for the schadenfreude.
 
 ## What the new rows put on other pages
 
-- **The O&A internship was submitted.** `wiki/mind/synthesis/failure-to-launch`
+- **The O&A internship was submitted.** [[wiki/mind/synthesis/failure-to-launch]]
   cites the November 2012 approach as *"an unpaid internship application... 
   unanswered"*. The archive holds the two inquiry tweets of 2012-11-18; the new
   row holds the sequel — *"thanks, i just sent in an app. loved BWTS yesterday,
@@ -96443,13 +96444,13 @@ against an audience that was there for the schadenfreude.
   It's about 235 miles from Altoona to Manhattan. I'm sitting 25 blocks from
   where it happened"* — the UnitedHealthcare shooting of 4 December 2024, whose
   suspect was arrested in Altoona on 9 December. It is a first-person location
-  statement with a radius, and it is the kind of row `wiki/self/location-history`
+  statement with a radius, and it is the kind of row [[wiki/self/location-history]]
   is built from. It is **not** filed as an address here: "25 blocks" from a
   midtown site is a claim about distance, not a coordinate, and the direction is
   not stated.
 - **`@alexgfrank` is addressed as "pops".** *"tough week. hang in there pops"*,
   2018-09-08, already in the archive and cited on no page.
-  `wiki/people/alex-frank` carries `relationship_to_dan: unknown` and sources
+  [[wiki/people/alex-frank]] carries `relationship_to_dan: unknown` and sources
   that do not include the twitter archive. This is a lead, not a settlement —
   "pops" is used loosely — and it is recorded as one.
 - **The Scott Baio bit.** A four-row run in which he claims to hold *"the rights
@@ -96774,7 +96775,7 @@ inference.
 > spreadsheet. The gig tweet of 7 February 2016 was live the whole time and
 > absent from both the spreadsheet and the scrape. The table now says so.
 >
-> The cost is wider than one row. `wiki/interests/music/overview` leaned on
+> The cost is wider than one row. [[wiki/interests/music/overview]] leaned on
 > "the 2017–2025 window is spreadsheet-complete, so the zero in it is a real
 > zero." That assurance and the 2016 claim rest on the same table. The zero may
 > still hold — the fetch found no counter-example in those years — but it can
@@ -97660,26 +97661,26 @@ candidate.
 
 | First seen | Entity | What the corpus establishes | Status |
 |---|---|---|---|
-| 2015-11-28 | **Annie Ulmer** | birthday **Nov 28**; Twitter `@Lo_weez`; a pre-Dan nude leak forced the handle change | → `wiki/people/annie-ulmer` |
-| 2015-11-28 | **Alexis Armel** | living at 155 Virginia; volatile (phone-breaking feared); leaves ~Dec 1 with her parents collecting her | → `wiki/people/alexis-armel` |
-| 2015-11-28 | **Gabe** (cat) | in the household; Annie claims him immediately (*"gabes my babe"*) | → `wiki/people/gabe` |
-| 2015-11-29 | **"turd boy" / "dude" = Emilio** | **Annie's own partner at the time**, present with her family on Nov 29; she says she will *"get rid of him"*. **Identified by the operator, 2026-08-17** — the corpus never names him in this window, so the identification is T0 testimony, not a corpus derivation. Same man as the Dec 2 and Dec 13 Emilio. | → `wiki/people/emilio` |
-| 2015-11-29 | **Zachariah Harshman** | physically present through the first night; the cover story for leaving the house; later negotiates the laptop question with Alexis | → `wiki/people/zachariah-harshman` |
+| 2015-11-28 | **Annie Ulmer** | birthday **Nov 28**; Twitter `@Lo_weez`; a pre-Dan nude leak forced the handle change | → [[wiki/people/annie-ulmer]] |
+| 2015-11-28 | **Alexis Armel** | living at 155 Virginia; volatile (phone-breaking feared); leaves ~Dec 1 with her parents collecting her | → [[wiki/people/alexis-armel]] |
+| 2015-11-28 | **Gabe** (cat) | in the household; Annie claims him immediately (*"gabes my babe"*) | → [[wiki/people/gabe]] |
+| 2015-11-29 | **"turd boy" / "dude" = Emilio** | **Annie's own partner at the time**, present with her family on Nov 29; she says she will *"get rid of him"*. **Identified by the operator, 2026-08-17** — the corpus never names him in this window, so the identification is T0 testimony, not a corpus derivation. Same man as the Dec 2 and Dec 13 Emilio. | → [[wiki/people/emilio]] |
+| 2015-11-29 | **Zachariah Harshman** | physically present through the first night; the cover story for leaving the house; later negotiates the laptop question with Alexis | → [[wiki/people/zachariah-harshman]] |
 | 2015-11-29 | **Shu** | rearranged Dan's living room *"more dab friendly"*; leaves for Philadelphia Nov 29 | **no page — recurring, likely supply** |
-| 2015-11-29 | **Ellen Ulmer** | throws Annie's family birthday dinner, Nov 29 | → `wiki/people/ellen-ulmer` |
+| 2015-11-29 | **Ellen Ulmer** | throws Annie's family birthday dinner, Nov 29 | → [[wiki/people/ellen-ulmer]] |
 | 2015-11-29 | **Andre** | at the bar on Annie's birthday; later floated as Alexis's possible alternate drug source | **no page** |
-| 2015-11-29 | **Suz (Suzanne Frank)** | see motif M4 — actively promoting the switch | → `wiki/people/suzanne-frank` |
-| 2015-11-29 | **117 Belmont Circle / Fran's** | proposed affair venue in week one; key held by Suz | → `wiki/places/117-belmont-circle` |
-| 2015-11-29 | **Uniontown CC golf course, 3rd tee** | the meeting location, precisely | → `wiki/interests/golf` |
-| 2015-11-30 | **Casey Bondarenka** | *"just started hanging out with us last week"* — joins the friend group **~3rd week Nov 2015**; buys beer for Alexis; drives Dan around; subject of an unresolved *"Casey saga"* | → `wiki/people/casey-bondarenka` |
+| 2015-11-29 | **Suz (Suzanne Frank)** | see motif M4 — actively promoting the switch | → [[wiki/people/suzanne-frank]] |
+| 2015-11-29 | **117 Belmont Circle / Fran's** | proposed affair venue in week one; key held by Suz | → [[wiki/places/117-belmont-circle]] |
+| 2015-11-29 | **Uniontown CC golf course, 3rd tee** | the meeting location, precisely | → [[wiki/interests/golf]] |
+| 2015-11-30 | **Casey Bondarenka** | *"just started hanging out with us last week"* — joins the friend group **~3rd week Nov 2015**; buys beer for Alexis; drives Dan around; subject of an unresolved *"Casey saga"* | → [[wiki/people/casey-bondarenka]] |
 | 2015-11-30 | **"Morgantown homeboy"** | drug source in Morgantown WV; joint $100 buy Nov 30, with a birthday bonus for Annie | **no page — named supply node** |
 | 2015-11-30 | **Dan's laptop** | missing during Alexis's move-out; Harshman intercedes | thread, not entity |
-| 2015-11-30 | **Diane / Van** | named in Suz's family-name list (*"Anne Dan Suzanne Fran Diane Van"*) | → `wiki/people/diane-moore` |
+| 2015-11-30 | **Diane / Van** | named in Suz's family-name list (*"Anne Dan Suzanne Fran Diane Van"*) | → [[wiki/people/diane-moore]] |
 | 2015-12-01 | **Donna** | Annie's manager at the bar; knows about the Alexis situation; tells Annie "don't go to Bruce about the schedule" | **no page — recurring** |
 | 2015-12-01 | **Bruce** | Annie's employer (bar); called to ask about the schedule; connected to Annie's dad ("besties from high school") | **no page — employer** |
-| 2015-12-01 | **Rick Frank** | Dan's father; Annie reports that he *"already wikes me"*; Dan is nervous to call him | → `wiki/people/rick-frank` |
-| 2015-12-02 | **Claire Ulmer** | Annie's sister; jumps on Annie when Ellen finds out about Dan; involved in the confrontation | → `wiki/people/claire-ulmer` |
-| 2015-12-02 | **Emilio** | *(same person as the 2015-11-29 "turd boy" row above — merged 2026-08-17 on the operator's identification)* Annie's partner until ~Nov 29; texts Claire about Annie when he finds out about Dan, pulling Claire into the Dec 2 confrontation; still contacting Annie on Dec 13. | → `wiki/people/emilio` |
+| 2015-12-01 | **Rick Frank** | Dan's father; Annie reports that he *"already wikes me"*; Dan is nervous to call him | → [[wiki/people/rick-frank]] |
+| 2015-12-02 | **Claire Ulmer** | Annie's sister; jumps on Annie when Ellen finds out about Dan; involved in the confrontation | → [[wiki/people/claire-ulmer]] |
+| 2015-12-02 | **Emilio** | *(same person as the 2015-11-29 "turd boy" row above — merged 2026-08-17 on the operator's identification)* Annie's partner until ~Nov 29; texts Claire about Annie when he finds out about Dan, pulling Claire into the Dec 2 confrontation; still contacting Annie on Dec 13. | → [[wiki/people/emilio]] |
 | 2015-12-03 | **RT** | messages Dan about Alexis working at the bar; source of information about Alexis's schedule | **no page** |
 | 2015-12-03 | **Scott** | hits on Alexis at the bar the same night; friend of the family | **no page** |
 | 2015-12-03 | **Sean** | "the hallway bully" from Alexis's past; referenced in story told at the bar | **no page** |
@@ -97687,7 +97688,7 @@ candidate.
 | 2015-12-08 | **Dave** | from CT's; calls Dan looking for Alexis on Dec 8 | **no page — CT's employee** |
 | 2015-12-08 | **Chuck** | drug supplier; has $100 of cocaine for Annie on Dec 8 | **no page — supply node** |
 | 2015-12-08 | **Caribou** | Dan's friend; in the studio with Dan on Dec 8; starting a collective called "dat noise" | **no page — friend** |
-| 2015-12-08 | **Zach Clingan** | texts Annie *"I have to talk to you"* on Dec 9 and warns her off Dan; **named by Dan the same day as the origin of his drug use** (*"THAT is who introduced me to drugs"*). Not to be confused with Zachariah Harshman. | → `wiki/people/zach-clingan` |
+| 2015-12-08 | **Zach Clingan** | texts Annie *"I have to talk to you"* on Dec 9 and warns her off Dan; **named by Dan the same day as the origin of his drug use** (*"THAT is who introduced me to drugs"*). Not to be confused with Zachariah Harshman. | → [[wiki/people/zach-clingan]] |
 | 2015-12-09 | **Nguyen's** | restaurant; Annie's dad eats there; they offer Annie a job starting Jan 1 | **no page — employer** |
 | 2015-12-09 | **Dar** | Annie's friend; does her hair on Dec 9; jealous of Annie's happiness | **no page — friend** |
 | 2015-12-10 | **Lucy** | Suz's cat; Dan is taking care of her while Suz is on vacation | **no page — pet** |
@@ -97829,7 +97830,7 @@ noted.
 | `people/claire-ulmer` | (check) sister | **active participant in the Dec 2 confrontation** — jumps on Annie when Ellen finds out; Emilio texts her as his channel to the family |
 | `people/rick-frank` | (check) father | **intervenes in the Dec 2 crisis** — *"Call me tomorrow. I will help you fix this"*; knows Annie's dad; positioned as the family mediator |
 | `people/zachariah-harshman` | (check) cover story for the first night | **active threat post-breakup** — texts Annie "I have to talk to you" on Dec 9; tells her she looks like shit; the "cover story" reading is incomplete |
-| `wiki/places/155-virginia-ave` | Dan's house | **the Annie box exists** — a box of mementos (notes, pen straws, snowflakes) from the first week, referenced on Dec 3 and Dec 10 |
+| [[wiki/places/155-virginia-ave]] | Dan's house | **the Annie box exists** — a box of mementos (notes, pen straws, snowflakes) from the first week, referenced on Dec 3 and Dec 10 |
 | `people/jill` | (check) friend | **Annie's closest friend** — referenced repeatedly; her birthday is Dec 8; her boyfriend is invited to the NYE party |
 
 ## 5. Quantitative markers
@@ -100981,7 +100982,7 @@ seventy hours, on the two most consequential nights in the record**, and one
 of the six is a rape-adjacent accusation against Dan that the wiki would
 otherwise file as Annie's testimony.
 
-`wiki/self/context-core` counts **97,768 unique messages across Annie's four
+[[wiki/self/context-core]] counts **97,768 unique messages across Annie's four
 handles**. The rule that count rests on — one handle, one person — is now
 known to fail, and it fails hardest exactly where the stakes are highest,
 because the seizures happen during crises. Any claim of the form *"Annie
@@ -102205,7 +102206,7 @@ one, and it is the earliest documented instance of it.
 ## How long the break actually lasted
 
 This page has never been able to say how long the rupture ran. The public
-record bounds it. `wiki/self/twitter/2013`:
+record bounds it. [[wiki/self/twitter/2013]]:
 
 | Date | Post |
 |---|---|
@@ -104904,7 +104905,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,724 events** across **80 years** (1796–2027), drawn from **388 pages**. Tier 1 722 · Tier 2 455 · Tier 3 2,547.
+**3,769 events** across **80 years** (1796–2027), drawn from **388 pages**. Tier 1 728 · Tier 2 460 · Tier 3 2,581.
 
 ## What counts as an event here
 
@@ -105780,6 +105781,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
 - · **2008-09-23** — The best-supported reading is 23 September 2008, local time**, with 24 September being the UTC-side artefact.  
   ↳ [[wiki/self/twitter/2010]] · The account's own age, settled
+- ◆ **2008-09-24** — 2008 says the creation date *"was not retrievable"* and that 24 September 2008 is an inference from the earliest surviving tweet. 2010 closes that gap with two contemporaneous third-party counters he posted himself:  
+  ↳ [[wiki/self/twitter/2010]] · The account's own age, settled
 - ◆ **2008-09-24** — It is written to nobody.** The account has no followers on 24 September 2008 — it is being started that day.  
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The period's exit, in his own words, on the day it happened
 - · **2008-09-24** — The third tweet of his entire account, on 24 September 2008, is:  
@@ -105917,6 +105920,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/millennial-digital-witness]] · Three years earlier still: Balloon Boy, 15 October 2009
 - · **2009-10-15** — On **15 October 2009** a six-year-old was believed to be aboard a runaway helium balloon over Colorado.  
   ↳ [[wiki/self/twitter/2009]] · Balloon Boy, and watching the coverage instead of the event
+- · **2009-10-15** — 2009 reads the 15 October 2009 Balloon Boy day as the earliest instance of Dan watching the coverage rather than the event, and files it as the weaker, undeclared version of the disposition millennial digital witness describes.  
+  ↳ [[wiki/self/twitter/2023]] · He names Balloon Boy himself, fourteen years later
 - · **2009-10-20** — The archive began at 2009-10-20 and was believed complete for originals from 2013-08-17 on.  
   ↳ [[wiki/self/twitter]] · The backfill of 2026-09-02, and what it settled
 - · **2009-10-20** — Yes — 213 tweets**, earliest 2008-09-24T04:52:36, *"i fucking looove winter park. this town is unreal."  
@@ -106144,6 +106149,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/charles-davenport]] · Charles Davenport
 - · **2010-12-09** — "I joined Twitter on the 23rd of September 2008, making my account 807 days old"* (`twuration.com`) — 2008-09-23  
   ↳ [[wiki/self/twitter/2010]] · The account's own age, settled
+- ★ **2010-12-13** — 2010 records a tobacco quit via e-cigarette on 13 December 2010; 2011 shows it lasted at most three weeks.  
+  ↳ [[wiki/self/twitter/2019]] · The nicotine pattern, now stated by him, at n=3
 - · **2010-12-13** — "3 days after moving to an e cig, i'm (un) hooked. today is day 1 with no tobacco. technology is fuggin ~crazy~"* — e-cigarette  
   ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
 - · **2010-12-13** — The 2011 counter is the load-bearing detail.** Day one was 13 December 2010.  
@@ -106324,6 +106331,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter/2012]] · The prior pipeline, named — and the ideological distance flagged from the start
 - ◆ **2012-02-27** — He authored the single most-quoted line in the entire Creative License record — a February 27, 2012 email that reads, in full: "It's a trust issue.  
   ↳ [[wiki/people/marty-jackson]] · Martin O. Jackson ("Marty")
+- ★ **March 2012** — Then the check-ins move with him — Osso Buco on the Upper East Side, Josie's West, Le Pain Quotidien, New York Sports Club, the 9/11 Memorial — and by October he is *"up all night on upper east."* This dates the end of the 424 Bedford Ave tenancy to the last days of March 2012 and corroborates…  
+  ↳ [[wiki/self/twitter/2012]] · Brooklyn ends, 29 March
 - · **March 2012** — Gap:** the handle change from @veefrank to @VanessaFrankzz falls between March 2012 and April 2013 and is undated; nothing in the corpus explains it.  
   ↳ [[wiki/people/vanessa-frank]] · The sibling register, 2011–2013
 - · **March 2012** — Escalation filed by Dan  
@@ -106756,6 +106765,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · The O&A cause is real but its date is not 2014
 - · **2014-07-04** — t015 — Dan was among the O&A fans repulsed by the racism at the time of the 2014 split, and that repulsion radicalized him to leftist politics. — self_state, sequence — confident — partial  
   ↳ [[wiki/meta/testimony-veracity]] · The record
+- · **2014-07-04** — Set against 2014's *"nothing but love and respect ant"* (4 July 2014) and the 2022 retrospective, this is the **middle term of the sequence the corpus was missing**: 2014 supportive → **2018 dismissive** → 2022 narrating it as radicalisation.  
+  ↳ [[wiki/self/twitter/2018]] · 29 October: "opie sucks though"
 - · **2014-07-26** — Heatwave Vol. 2 (Mixed by SLOPPP) — Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - ◆ **2014-07-30** — Caked Up – Bang Your Head (SLOPPP Festival Trap Remix) — Remix  
@@ -106837,6 +106848,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/open-questions]] · legal (3)
 - ◆ **March 2015** — Why the March 2015 Frank Swaney management deal never materialized (or whether it quietly did, off the message record) is undocumented; "Joby," the third party who was to finalize terms with Dan's parents, is otherwise unidentified in the corpus.  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Significance
+- ◆ **March 2015** — The first original music released on this account since the SLOPPP micromix re-post of March 2015 — eleven years — and it is under a different alias, in a different genre.  
+  ↳ [[wiki/self/twitter/2026]] · [[wiki/interests/music/aliases/mogzart|MOGZART]], 4 March
 - · **2015-03-16** — SLOPPP SUMMER TRAP MICROMIX #3* — a link to a YouTube video dated 22 May 2014  
   ↳ [[wiki/self/twitter/2015]] · The collapse of the music operation, and why it can be believed
 - · **Spring 2015** — Spring 2015 Demo — Demo  
@@ -106929,6 +106942,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/facebook]] · Identity & Profile Data (2022 snapshot, self-reported)
 - ★ **2015-11-28** — Every field but one cross-checks against context core — this export is the strongest independent [DOC] confirmation of the biographical spine: birth date, Uniontown → Brooklyn 2010 move, Full Sail, the work chain, and the exact Annie relationship timestamp (Nov 28 2015, anchoring 2015 2016 annie…  
   ↳ [[wiki/self/facebook]] · Identity & Profile Data (2022 snapshot, self-reported)
+- ★ **2015-11-28** — Annie Ulmer** — birthday **Nov 28**  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - ★ **2015-11-28** — dense** — the relationship's first five years, near-daily  
   ↳ [[wiki/timeline/annie-record]] · What the record actually covers
 - ★ **2015-11-28** — Annie's birthday, and the affair is already running.** The corpus opens mid-relationship, not at a beginning.  
@@ -106947,6 +106962,20 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/alexis-armel]] · Alexis Armel
 - · **2015-11-28** — Matches profile "since Nov 28 2015".  
   ↳ [[wiki/self/facebook/messages]] · Ally Lubin (dark humor peripheral, 2013)
+- · **2015-11-28** — Twitter `@Lo_weez`  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-28** — a pre-Dan nude leak forced the handle change — → annie ulmer  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-28** — Alexis Armel** — living at 155 Virginia  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-28** — volatile (phone-breaking feared)  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-28** — leaves ~Dec 1 with her parents collecting her — → alexis armel  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-28** — Gabe** (cat) — in the household  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-28** — Annie claims him immediately (*"gabes my babe"*) — → gabe  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-11-28** — M1 — concealment framed as reassurance.** 2015-11-28 19:01 (*"Alexis  
   ↳ [[wiki/timeline/annie-read-notes]] · 3. Motif tracker
 - · **2015-11-28** — Alexis is living in the house, and the household is volatile.** Dan's plan for the evening includes going home to *"make sure she's not stealing or destroying my stuff"* (18:49); at 19:20 he is *"walking into the house now.  
@@ -106975,6 +107004,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
 - ★ **2015-11-29** — the car-for-eviction conditional  
   ↳ [[wiki/people/suzanne-frank]] · Timeline
+- ★ **2015-11-29** — Ellen Ulmer** — throws Annie's family birthday dinner, Nov 29 — → ellen ulmer  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - ★ **2015-11-29** — Andre** — at the bar on Annie's birthday  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - ★ **2015-11-29** — "I met someone that instantly changed my life"* quoted without address  
@@ -107035,11 +107066,29 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **2015-11-29** — He is physically present through the night of 2015-11-29 and is the mechanism by which Dan leaves the house undetected — *"Harshman leaving soon, so I'll have him drop me and say I'm going to his house"* (01:33).  
   ↳ [[wiki/people/zachariah-harshman]] · What the Annie corpus adds, and one thing it does not
+- · **2015-11-29** — "turd boy" / "dude" = Emilio** — **Annie's own partner at the time**, present with her family on Nov 29  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-29** — she says she will *"get rid of him"*. **Identified by the operator, 2026-08-17** — the corpus never names him in this window, so the identification is T0 testimony, not a corpus derivation. Same man as the Dec 2 and Dec 13 Emilio. — → emilio  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-29** — Zachariah Harshman** — physically present through the first night  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-29** — the cover story for leaving the house  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-29** — later negotiates the laptop question with Alexis — → zachariah harshman  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-11-29** — Shu** — rearranged Dan's living room *"more dab friendly"*  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-11-29** — leaves for Philadelphia Nov 29 — **no page — recurring, likely supply  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-11-29** — later floated as Alexis's possible alternate drug source — **no page  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-29** — Suz (Suzanne Frank)** — see motif M4 — actively promoting the switch — → suzanne frank  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-29** — 117 Belmont Circle / Fran's** — proposed affair venue in week one  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-29** — key held by Suz — → 117 belmont circle  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-29** — Uniontown CC golf course, 3rd tee** — the meeting location, precisely — → golf  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-11-29** — "YOU ARE MY EVERYTHING"* on "day two/three"  
   ↳ [[wiki/timeline/annie-read-notes]] · 4. Corrections queue
@@ -107077,6 +107126,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/annie-record]] · November
 - ◆ **2015-11-30** — A "Morgantown homeboy" node is named on 2015-11-30 in a joint $100 purchase.  
   ↳ [[wiki/mind/synthesis/supply-network]] · Supply named as the bond, in real time, in 2015
+- ◆ **2015-11-30** — Casey Bondarenka** — *"just started hanging out with us last week"* — joins the friend group **~3rd week Nov 2015**; buys beer for Alexis; drives Dan around; subject of an unresolved *"Casey saga"* — → casey bondarenka  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - ◆ **2015-11-30** — Casey Bondarenka is three weeks old as a friend.** *"Casey will never stfu here"* / *"He just started hanging out with us last week"* (13:47–13:48).  
   ↳ [[wiki/timeline/annie-record]] · November
 - · **2015-11-30** — Roughly fifteen hours later, at 05:02 on 2015-11-30: **"Suz just came to check on me, brought me a line, and told me she'd get me a car this week if I get Alexis out."  
@@ -107088,6 +107139,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2015-11-30** — "Morgantown homeboy"** — drug source in Morgantown WV  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-11-30** — Harshman intercedes — thread, not entity  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-30** — Diane / Van** — named in Suz's family-name list (*"Anne Dan Suzanne Fran Diane Van"*) — → diane moore  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-11-30** — So you don't need to worry"*); 2015-11-30 22:21 (*"I have stuck to the story 100%"*).  
   ↳ [[wiki/timeline/annie-read-notes]] · 3. Motif tracker
@@ -107187,6 +107240,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-12-01** — connected to Annie's dad ("besties from high school") — **no page — employer  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-01** — Rick Frank** — Dan's father  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-01** — Annie reports that he *"already wikes me"*  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-01** — Dan is nervous to call him — → rick frank  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-12-01** — Alexis leaves, and the laptop is recovered by force.** Dan wakes early: *"I think she's leaving really early this am I am so excitedddd."* Then, at 05:04: *"Got my head bashed against the cabinet and pretended to call the cops.  
   ↳ [[wiki/timeline/annie-record]] · December
 - · **2015-12-01** — Dan asks Annie on a first date.** *"Can we do date this week"* (09:39); *"I'm gonna plan / The best first date"* (09:40).  
@@ -107217,6 +107276,18 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/casey-bondarenka]] · Late 2015: the friend-circle friction
 - · **2015-12-02** — On December 2, 2015, four days into things with Annie, he texted a friend: "I had a Franki Faris 2.0 situation earlier today...  
   ↳ [[wiki/people/franki-faris]] · Echoes in the Annie record
+- · **2015-12-02** — Claire Ulmer** — Annie's sister  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-02** — jumps on Annie when Ellen finds out about Dan  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-02** — involved in the confrontation — → claire ulmer  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-02** — Emilio** — *(same person as the 2015-11-29 "turd boy" row above — merged 2026-08-17 on the operator's identification)* Annie's partner until ~Nov 29  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-02** — texts Claire about Annie when he finds out about Dan, pulling Claire into the Dec 2 confrontation  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-02** — still contacting Annie on Dec 13. — → emilio  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-12-02** — ellen ulmer  
   ↳ [[wiki/timeline/annie-read-notes]] · Synthesis pass — 2026-08-17 (window 2015-11-28 → 2015-12-31)
 - · **2015-12-02** — Casey is asked to stay away.** Dan drafts a message to Casey: *"Frank u.  
@@ -107286,6 +107357,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2015-12-08** — in the studio with Dan on Dec 8  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-12-08** — starting a collective called "dat noise" — **no page — friend  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-08** — Zach Clingan** — texts Annie *"I have to talk to you"* on Dec 9 and warns her off Dan  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-08** — **named by Dan the same day as the origin of his drug use** (*"THAT is who introduced me to drugs"*). Not to be confused with Zachariah Harshman. — → zach clingan  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-12-08** — Annie is sick (withdrawal).** Annie: *"Maybe three hours all together / I literally laid there in tears"* (09:14).  
   ↳ [[wiki/timeline/annie-record]] · December
@@ -108766,6 +108841,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/fred-adams]] · The contemporaneous record — sixteen dated rows nobody had read
 - · **2018-09-04** — The titles then run in parallel: Suz writes *"Fred Adams"* on 2018-09-04 and *"judge Adams"* on 2018-11-05.  
   ↳ [[wiki/people/fred-adams]] · Two smaller results
+- · **2018-09-08** — 2018-09-08, already in the archive and cited on no page.  
+  ↳ [[wiki/self/twitter/replies]] · What the new rows put on other pages
 - · **2018-09-12** — Mike Zollinger was a fellow Nemacolin caddy through the 2018 season (`+17246208130`, 51 messages, April–September) — casual shift talk, tip comparisons, weather complaints, and a running joke about buying a house to rent back to him — with an early, matter-of-fact crypto thread predating Dan's…  
   ↳ [[wiki/people/mike-zollinger]] · Mike Zollinger
 - ★ **2018-09-16** — An isolated 2018 mention predates the transition and carries no gender marker either way: a September 16, 2018 message in Jim Vrabel's unrelated thread notes "Mohler sent me a happy birthday.  
@@ -109626,6 +109703,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/matthew-palermo]] · Matthew Palermo
 - · **2020-02-13** — Defining content  
   ↳ [[wiki/people/matthew-palermo]] · Corpus record
+- ◆ **2020-02-15** — 2020 shows the *analysis* arriving first, in the Democratic primary: on **15 February 2020**, four months after the Booker joke and a month before any lockdown, he runs four posts reading Bloomberg's candidacy as a party-splitting instrument bought with money, cites the stop-and- frisk ruling, and…  
+  ↳ [[wiki/mind/synthesis/2020-left-turn]] · The four stages, and what 2020 actually converted him from
 - · **2020-02-23** — The rupture comes on February 23, 2020, and it is the one place the thread turns emotional: Sam drives to 76th Street mid-morning on a confirmed order, stands outside sending fourteen escalating messages ("I'm in front your building / Should I leave? / Damn u can't even text me back"), leaves…  
   ↳ [[wiki/people/sam]] · The arc: regular, fired, rehired, forgotten
 - · **March 2020** — Exact dates for the Reddit admin period, how the role began, and what (if anything) happened to the contact after March 2020 are all undocumented.  
@@ -109750,10 +109829,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/concepts/astrology-star-signs]] · The Unknown Signs
 - ★ **August 2020** — Bobby's own life surfaces only incidentally: a daughter he co-parents (an August 2020 aside references "the first weekend in October" as his custody weekend), a second child born around April 26, 2021 ("I'm legit in the hospital room holding my newborn"), and a girlfriend who by 2021 had grown…  
   ↳ [[wiki/people/bobby-cole]] · Politics and personal life, in passing
+- ◆ **August 2020** — 2020 left turn dates the democratic-socialist identity to August 2020, and 2009 establishes that the Republican identity was gone by November 2009. 2011 fills the middle, and what it shows is **not** an eleven-year drift leftward.  
+  ↳ [[wiki/self/twitter/2011]] · The 2011 politics are anti-authority, not yet left — and that is the finding
 - ◆ **August 2020** — The 2022+ left-commentary clusters documented here are the downstream trace of a conversion the message record dates precisely to August 2020 (2020 left turn) — the watch history shows the turn's persistence, not its origin.  
   ↳ [[wiki/self/youtube-watch-history]] · Notes
 - · **August 2020** — So the honest statement of what happened in August 2020 gets narrower and more useful.  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · 2011: eleven years of anti-authority with no economics in it
+- · **August 2020** — Where the fourth stage actually begins.** The stage boundary is not August 2020.  
+  ↳ [[wiki/mind/synthesis/2020-left-turn]] · The four stages, and what 2020 actually converted him from
 - · **August 2020** — The objector had a name and did not object.** Dan's August 2020 question to the estate attorney — what were the odds his grandmother would contest the distribution — has been carried here as an open identity and an open outcome.  
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The contest that never came, and the asset that left before it
 - · **August 2020** — In August 2020, negotiating his $144,069.31 estate distribution, Dan asked the estate attorney what the odds were that his grandmother would contest it.  
@@ -109794,6 +109877,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The two source-lines and their trustee
 - · **2020-08-22** — 10. Religious and ideological programming  
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The constitution pass
+- · **2020-08-22** — 2020 left turn dates the arrival of the democratic-socialist identity to 22 August 2020 and has since found a second causal account in 2022 — the O&A fanbase splitting rightward and repelling him leftward, also a departure from a tribe.  
+  ↳ [[wiki/self/twitter/2009]] · Politics: a dated exit, eleven years before the arrival
 - · **2020-08-22** — That is the first public political self-identification in seventeen years of this account, and it is **independent corroboration of the conversion the synthesis dates to a private self-narration of 2020-08-22** — same year, six weeks later, no AI in the loop, addressed to strangers.  
   ↳ [[wiki/self/twitter/2020]] · 3 October 2020: the declaration
 - · **2020-08-24** — Suz, 2020-08-24: *"I have not taken any money for what I've done.  
@@ -110064,6 +110149,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/favorites/books]] · 2025 update (fresher Goodreads export)
 - ★ **2022-03-28** — One documented consequence.** On **28 March 2022**, during the Chris Rock/Will Smith argument, he stated a position that the show's own ethic would not recognise: *"I've moved away from belief in comedy's absolutist defense of free speech ('it's just a joke') and have a more sympathetic view of how…  
   ↳ [[wiki/interests/opie-and-anthony]] · The fanbase split, and which side Dan took
+- ★ **2022-03-28** — You don't have to agree with the material to appreciate the essence of what a joke is."* opie and anthony dates his move away from that position to 28 March 2022; this is the last dated instance of the old one.  
+  ↳ [[wiki/self/twitter/2019]] · Still a liberal, in October 2019
 - · **2022-03-30** — He polices calibration in other people.** On **2022-03-30**: *"That's a level of certainty I'm not sure how you've arrived at."* And on **2022-02-24**, of a casualty figure early in the Ukraine invasion: *"This kind of specific and not large number seem a little sus to me, though I do appreciate…  
   ↳ [[wiki/mind/concepts/calibrated-confidence]] · Two behaviours the message corpus does not contain
 - · **2022-03-31** — disposable vape, complained about by flavour — disposable  
@@ -112586,6 +112673,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/favorites/eclecticism]] · The constitution pass
 - · **2026-09-01** — Neither has been tested and the page does not claim music as a member.** The positive account of what the exception *is* now lives at eclecticism (rewritten 2026-09-01): Architecture B — three functional clusters kept in parallel for eighteen years, archival emo beside live bass calibration beside…  
   ↳ [[wiki/mind/synthesis/closing-the-set]] · The controls
+- ★ **2026-09-02** — But the export is **not a proven census**: a backend fetch on 2026-09-02 recovered a February 2016 tweet the export had missed (overview), so it can drop rows.  
+  ↳ [[wiki/self/twitter/2014]] · Twitter / X — 2014
 - ★ **2026-09-02** — What changed on 2026-09-02 is that it is no longer the same thing as having no primary source: 764 dated public originals cover these three years, and the page now rests on them for the move, the two apartments, the Williamsburg geography and the ishlab start.  
   ↳ [[wiki/timeline/periods/2010s]] · Transition
 - ◆ **2026-09-02** — From 2014 the export is the backbone and absence is good evidence — but not conclusive, because the export demonstrably dropped at least one 2016 row (the OSU gig tweet, recovered 2026-09-02).  
@@ -112612,6 +112701,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter/2009]] · Gaps
 - · **2026-09-02** — A backend fetch on 2026-09-02 recovered the tweet — id `696416822011289601`, 2016-02-07T19:34:43 UTC, text matching exactly — and that page now records the resolution in full.  
   ↳ [[wiki/self/twitter/2016]] · The gig that was thought to be invented
+- · **2026-09-02** — This matters because 2020 left turn withdrew its claim of a "2017 step" on 2026-09-02 — the keyword counting that produced it was measuring the pattern rather than the corpus.  
+  ↳ [[wiki/self/twitter/2017]] · Twitter / X — 2017
 - · **2026-09-02** — The `@danfrank` Twitter account was recovered thirteen months further back on 2026-09-02 (2008), and it opens on **24 September 2008**, the day Dan arrives in Winter Park.  
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The period's exit, in his own words, on the day it happened
 - · **2026-09-03** — opie and anthony — interests  
@@ -112656,7 +112747,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 388 wiki pages. 3,954 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 388 wiki pages. 3,926 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================
@@ -114162,7 +114253,7 @@ from Danielle to Alexis, the pairing that would eventually lead to [[wiki/people
 > November and December 2009 he is plainly still enrolled — *"pro tools lab.
 > noice"* (30 Nov), *"aced my practical without headphones"* (14 Dec), *"in
 > class...."* (15 Dec), *"long day of class tomorrow"* (17 Dec), *"taking aws
-> final with it"* (19 Dec). See `wiki/self/twitter/2009`.
+> final with it"* (19 Dec). See [[wiki/self/twitter/2009]].
 >
 > The August date comes from `raw/self/context-core/CONTEXT_CORE_EXPANDED.md`
 > — first-person testimony recorded years later. The tweets are first-person
@@ -115804,7 +115895,7 @@ message corpus rather than through the period page. Nothing rederived.
 > which renders `wiki/**` into `public/wiki/`, parses this frontmatter for real.
 > A sweep found the same defect on two other pages
 > ([[wiki/people/jerad-friedline]], which was dropping `context-core`, and
-> `wiki/mind/psychosexual/developmental-origins`, which had an empty duplicate
+> [[wiki/mind/psychosexual/developmental-origins]], which had an empty duplicate
 > `connections:`); all three are fixed, and a lint rule is queued in
 > `BACKLOG.md`.
 

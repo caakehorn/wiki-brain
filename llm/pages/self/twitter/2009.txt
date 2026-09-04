@@ -84,7 +84,7 @@ final with it."*
 
 > **CONTRADICTION [2026-09-03]:** `raw/self/context-core/CONTEXT_CORE_EXPANDED.md`
 > states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and
-> `wiki/timeline/periods/full-sail-2008-2010` and `wiki/people/alexis-armel`
+> [[wiki/timeline/periods/full-sail-2008-2010]] and [[wiki/people/alexis-armel]]
 > both build on that date. The contemporaneous public record contradicts it in
 > two independent places: a "last month of college" beginning 1 September, and
 > coursework with a final examination running to 19 December. The two cannot
@@ -128,7 +128,7 @@ This is the earliest dated political self-description in the corpus, and its
 shape matters more than its date. It is a **departure, not an arrival** — he
 says what he has stopped being, names no replacement, and the sentence is
 triggered by *people*, by a link to somebody behaving badly, rather than by an
-argument or a policy. `wiki/mind/synthesis/2020-left-turn` dates the arrival
+argument or a policy. [[wiki/mind/synthesis/2020-left-turn]] dates the arrival
 of the democratic-socialist identity to 22 August 2020 and has since found a
 second causal account in 2022 — the O&A fanbase splitting rightward and
 repelling him leftward, also a departure from a tribe. The 2009 line is the
@@ -155,7 +155,7 @@ nothing he wrote is about the child:
 
 The subject is the coverage, the naming, the DVR, and the object's status as a
 **meme** — a word he applies to a live news event on the day it happens.
-`wiki/mind/synthesis/millennial-digital-witness` dates the underlying
+[[wiki/mind/synthesis/millennial-digital-witness]] dates the underlying
 disposition to a Hurricane Sandy tweet of 30 October 2012 and calls it
 *"fourteen years older than the theory"*. This is the same disposition three
 years earlier still.
@@ -171,7 +171,7 @@ the *articulation* stays where that page put it.
 ## The last six weeks: "her", then a name
 
 The year's final act is a relationship starting in real time, and it is
-already fully mined on `wiki/people/alexis-armel` — the unnamed *"her"* of
+already fully mined on [[wiki/people/alexis-armel]] — the unnamed *"her"* of
 29–30 November in Pennsylvania, the first `@alexisarmel` tweet on 14 December
 (*"you amaze me. can't believe you're real"*, and separately *"dan in
 love."*), *"i have the most amaaaazing girlfriend"* two days later, Seven

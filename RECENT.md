@@ -10,6 +10,7 @@ simply listed.
 
 ## 2026-09-04 — 108 pages
 
+- **Session log:** lint | meta | the crosslink campaign had been counting a link that isn't one
 - **Session log:** connect | people | 79 lines had been written about a 1,789-message thread
 - **Session log:** connect | people | the handles were on the pages all along, and the guard could not see nine of them
 - **Session log:** connect | people | thirteen pages that counted half a conversation
@@ -159,7 +160,7 @@ simply listed.
 | [[wiki/people/dan-polyak]] | people | — |
 | [[wiki/people/josh-brannan]] | people | — |
 | [[wiki/places/424-bedford-ave]] | places | — |
-| [[wiki/self/twitter/2009]] | self | **CONTRADICTION** — `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and `wiki/timeline/periods/full-sail-2008-2010` and `wiki/people/alexis-armel` both build on |
+| [[wiki/self/twitter/2009]] | self | **CONTRADICTION** — `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and full-sail-2008-2010 and alexis-armel both build on that date. The contemporaneou |
 | [[wiki/self/twitter/2010]] | self | **CONTRADICTION** — the anchor is misread. The 18 February train was the **return** leg, not the outbound one. On 17 February Dan is already in New York (*"off to Williamsburg"*), and on the 18th he is *"On the train bac |
 | [[wiki/self/twitter/2011]] | self | — |
 | [[wiki/self/twitter/2012]] | self | — |

@@ -77,8 +77,8 @@ actor.
 > day-to-day stuff."** George Dixon Shrum Jr. is Suz's father and Diane's
 > *first* husband; she remarried [[wiki/people/dave-moore|Dave Moore]].
 >
-> The same correction merges a second entity. `wiki/places/155-virginia-ave`,
-> `wiki/timeline/events/fran-death-vigil` and `wiki/timeline/master-timeline`
+> The same correction merges a second entity. [[wiki/places/155-virginia-ave]],
+> [[wiki/timeline/events/fran-death-vigil]] and [[wiki/timeline/master-timeline]]
 > all record that on 2018-03-29 Dan was served an eviction notice for 155
 > Virginia Avenue **"by Dian V. Moore,"** and the vigil page listed *"Dian V.
 > Moore's role/relation to the estate"* as an open gap. That is this

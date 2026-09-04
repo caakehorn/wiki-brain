@@ -196,7 +196,7 @@ checks it against.
 
 **Gap:** no source in the corpus records Dan listening to Brooks *before*
 2020, so whether Brooks shaped the conversion or was adopted afterwards as its
-articulation is undetermined. `wiki/self/youtube-watch-history` is the place
+articulation is undetermined. [[wiki/self/youtube-watch-history]] is the place
 that could settle it and has not been searched for this.
 
 ## What this predicts, and what would falsify it

@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,724 events** across **80 years** (1796–2027), drawn from **388 pages**. Tier 1 722 · Tier 2 455 · Tier 3 2,547.
+**3,769 events** across **80 years** (1796–2027), drawn from **388 pages**. Tier 1 728 · Tier 2 460 · Tier 3 2,581.
 
 ## What counts as an event here
 
@@ -895,6 +895,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/context-core]] · Residence timeline (canonical) [DOC/MEM]
 - · **2008-09-23** — The best-supported reading is 23 September 2008, local time**, with 24 September being the UTC-side artefact.  
   ↳ [[wiki/self/twitter/2010]] · The account's own age, settled
+- ◆ **2008-09-24** — 2008 says the creation date *"was not retrievable"* and that 24 September 2008 is an inference from the earliest surviving tweet. 2010 closes that gap with two contemporaneous third-party counters he posted himself:  
+  ↳ [[wiki/self/twitter/2010]] · The account's own age, settled
 - ◆ **2008-09-24** — It is written to nobody.** The account has no followers on 24 September 2008 — it is being started that day.  
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The period's exit, in his own words, on the day it happened
 - · **2008-09-24** — The third tweet of his entire account, on 24 September 2008, is:  
@@ -1032,6 +1034,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/millennial-digital-witness]] · Three years earlier still: Balloon Boy, 15 October 2009
 - · **2009-10-15** — On **15 October 2009** a six-year-old was believed to be aboard a runaway helium balloon over Colorado.  
   ↳ [[wiki/self/twitter/2009]] · Balloon Boy, and watching the coverage instead of the event
+- · **2009-10-15** — 2009 reads the 15 October 2009 Balloon Boy day as the earliest instance of Dan watching the coverage rather than the event, and files it as the weaker, undeclared version of the disposition millennial digital witness describes.  
+  ↳ [[wiki/self/twitter/2023]] · He names Balloon Boy himself, fourteen years later
 - · **2009-10-20** — The archive began at 2009-10-20 and was believed complete for originals from 2013-08-17 on.  
   ↳ [[wiki/self/twitter]] · The backfill of 2026-09-02, and what it settled
 - · **2009-10-20** — Yes — 213 tweets**, earliest 2008-09-24T04:52:36, *"i fucking looove winter park. this town is unreal."  
@@ -1259,6 +1263,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/charles-davenport]] · Charles Davenport
 - · **2010-12-09** — "I joined Twitter on the 23rd of September 2008, making my account 807 days old"* (`twuration.com`) — 2008-09-23  
   ↳ [[wiki/self/twitter/2010]] · The account's own age, settled
+- ★ **2010-12-13** — 2010 records a tobacco quit via e-cigarette on 13 December 2010; 2011 shows it lasted at most three weeks.  
+  ↳ [[wiki/self/twitter/2019]] · The nicotine pattern, now stated by him, at n=3
 - · **2010-12-13** — "3 days after moving to an e cig, i'm (un) hooked. today is day 1 with no tobacco. technology is fuggin ~crazy~"* — e-cigarette  
   ↳ [[wiki/health/chemical-architecture]] · Nicotine: eighteen years, five delivery systems, and no interruption
 - · **2010-12-13** — The 2011 counter is the load-bearing detail.** Day one was 13 December 2010.  
@@ -1439,6 +1445,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter/2012]] · The prior pipeline, named — and the ideological distance flagged from the start
 - ◆ **2012-02-27** — He authored the single most-quoted line in the entire Creative License record — a February 27, 2012 email that reads, in full: "It's a trust issue.  
   ↳ [[wiki/people/marty-jackson]] · Martin O. Jackson ("Marty")
+- ★ **March 2012** — Then the check-ins move with him — Osso Buco on the Upper East Side, Josie's West, Le Pain Quotidien, New York Sports Club, the 9/11 Memorial — and by October he is *"up all night on upper east."* This dates the end of the 424 Bedford Ave tenancy to the last days of March 2012 and corroborates…  
+  ↳ [[wiki/self/twitter/2012]] · Brooklyn ends, 29 March
 - · **March 2012** — Gap:** the handle change from @veefrank to @VanessaFrankzz falls between March 2012 and April 2013 and is undated; nothing in the corpus explains it.  
   ↳ [[wiki/people/vanessa-frank]] · The sibling register, 2011–2013
 - · **March 2012** — Escalation filed by Dan  
@@ -1871,6 +1879,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · The O&A cause is real but its date is not 2014
 - · **2014-07-04** — t015 — Dan was among the O&A fans repulsed by the racism at the time of the 2014 split, and that repulsion radicalized him to leftist politics. — self_state, sequence — confident — partial  
   ↳ [[wiki/meta/testimony-veracity]] · The record
+- · **2014-07-04** — Set against 2014's *"nothing but love and respect ant"* (4 July 2014) and the 2022 retrospective, this is the **middle term of the sequence the corpus was missing**: 2014 supportive → **2018 dismissive** → 2022 narrating it as radicalisation.  
+  ↳ [[wiki/self/twitter/2018]] · 29 October: "opie sucks though"
 - · **2014-07-26** — Heatwave Vol. 2 (Mixed by SLOPPP) — Mix  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Discography and mixes (reconstructed from posted links)
 - ◆ **2014-07-30** — Caked Up – Bang Your Head (SLOPPP Festival Trap Remix) — Remix  
@@ -1952,6 +1962,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/open-questions]] · legal (3)
 - ◆ **March 2015** — Why the March 2015 Frank Swaney management deal never materialized (or whether it quietly did, off the message record) is undocumented; "Joby," the third party who was to finalize terms with Dan's parents, is otherwise unidentified in the corpus.  
   ↳ [[wiki/interests/music/aliases/sloppp]] · Significance
+- ◆ **March 2015** — The first original music released on this account since the SLOPPP micromix re-post of March 2015 — eleven years — and it is under a different alias, in a different genre.  
+  ↳ [[wiki/self/twitter/2026]] · [[wiki/interests/music/aliases/mogzart|MOGZART]], 4 March
 - · **2015-03-16** — SLOPPP SUMMER TRAP MICROMIX #3* — a link to a YouTube video dated 22 May 2014  
   ↳ [[wiki/self/twitter/2015]] · The collapse of the music operation, and why it can be believed
 - · **Spring 2015** — Spring 2015 Demo — Demo  
@@ -2044,6 +2056,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/facebook]] · Identity & Profile Data (2022 snapshot, self-reported)
 - ★ **2015-11-28** — Every field but one cross-checks against context core — this export is the strongest independent [DOC] confirmation of the biographical spine: birth date, Uniontown → Brooklyn 2010 move, Full Sail, the work chain, and the exact Annie relationship timestamp (Nov 28 2015, anchoring 2015 2016 annie…  
   ↳ [[wiki/self/facebook]] · Identity & Profile Data (2022 snapshot, self-reported)
+- ★ **2015-11-28** — Annie Ulmer** — birthday **Nov 28**  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - ★ **2015-11-28** — dense** — the relationship's first five years, near-daily  
   ↳ [[wiki/timeline/annie-record]] · What the record actually covers
 - ★ **2015-11-28** — Annie's birthday, and the affair is already running.** The corpus opens mid-relationship, not at a beginning.  
@@ -2062,6 +2076,20 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/alexis-armel]] · Alexis Armel
 - · **2015-11-28** — Matches profile "since Nov 28 2015".  
   ↳ [[wiki/self/facebook/messages]] · Ally Lubin (dark humor peripheral, 2013)
+- · **2015-11-28** — Twitter `@Lo_weez`  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-28** — a pre-Dan nude leak forced the handle change — → annie ulmer  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-28** — Alexis Armel** — living at 155 Virginia  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-28** — volatile (phone-breaking feared)  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-28** — leaves ~Dec 1 with her parents collecting her — → alexis armel  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-28** — Gabe** (cat) — in the household  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-28** — Annie claims him immediately (*"gabes my babe"*) — → gabe  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-11-28** — M1 — concealment framed as reassurance.** 2015-11-28 19:01 (*"Alexis  
   ↳ [[wiki/timeline/annie-read-notes]] · 3. Motif tracker
 - · **2015-11-28** — Alexis is living in the house, and the household is volatile.** Dan's plan for the evening includes going home to *"make sure she's not stealing or destroying my stuff"* (18:49); at 19:20 he is *"walking into the house now.  
@@ -2090,6 +2118,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
 - ★ **2015-11-29** — the car-for-eviction conditional  
   ↳ [[wiki/people/suzanne-frank]] · Timeline
+- ★ **2015-11-29** — Ellen Ulmer** — throws Annie's family birthday dinner, Nov 29 — → ellen ulmer  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - ★ **2015-11-29** — Andre** — at the bar on Annie's birthday  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - ★ **2015-11-29** — "I met someone that instantly changed my life"* quoted without address  
@@ -2150,11 +2180,29 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/suzanne-frank]] · Timeline
 - · **2015-11-29** — He is physically present through the night of 2015-11-29 and is the mechanism by which Dan leaves the house undetected — *"Harshman leaving soon, so I'll have him drop me and say I'm going to his house"* (01:33).  
   ↳ [[wiki/people/zachariah-harshman]] · What the Annie corpus adds, and one thing it does not
+- · **2015-11-29** — "turd boy" / "dude" = Emilio** — **Annie's own partner at the time**, present with her family on Nov 29  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-29** — she says she will *"get rid of him"*. **Identified by the operator, 2026-08-17** — the corpus never names him in this window, so the identification is T0 testimony, not a corpus derivation. Same man as the Dec 2 and Dec 13 Emilio. — → emilio  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-29** — Zachariah Harshman** — physically present through the first night  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-29** — the cover story for leaving the house  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-29** — later negotiates the laptop question with Alexis — → zachariah harshman  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-11-29** — Shu** — rearranged Dan's living room *"more dab friendly"*  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-11-29** — leaves for Philadelphia Nov 29 — **no page — recurring, likely supply  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-11-29** — later floated as Alexis's possible alternate drug source — **no page  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-29** — Suz (Suzanne Frank)** — see motif M4 — actively promoting the switch — → suzanne frank  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-29** — 117 Belmont Circle / Fran's** — proposed affair venue in week one  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-29** — key held by Suz — → 117 belmont circle  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-29** — Uniontown CC golf course, 3rd tee** — the meeting location, precisely — → golf  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-11-29** — "YOU ARE MY EVERYTHING"* on "day two/three"  
   ↳ [[wiki/timeline/annie-read-notes]] · 4. Corrections queue
@@ -2192,6 +2240,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/annie-record]] · November
 - ◆ **2015-11-30** — A "Morgantown homeboy" node is named on 2015-11-30 in a joint $100 purchase.  
   ↳ [[wiki/mind/synthesis/supply-network]] · Supply named as the bond, in real time, in 2015
+- ◆ **2015-11-30** — Casey Bondarenka** — *"just started hanging out with us last week"* — joins the friend group **~3rd week Nov 2015**; buys beer for Alexis; drives Dan around; subject of an unresolved *"Casey saga"* — → casey bondarenka  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - ◆ **2015-11-30** — Casey Bondarenka is three weeks old as a friend.** *"Casey will never stfu here"* / *"He just started hanging out with us last week"* (13:47–13:48).  
   ↳ [[wiki/timeline/annie-record]] · November
 - · **2015-11-30** — Roughly fifteen hours later, at 05:02 on 2015-11-30: **"Suz just came to check on me, brought me a line, and told me she'd get me a car this week if I get Alexis out."  
@@ -2203,6 +2253,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2015-11-30** — "Morgantown homeboy"** — drug source in Morgantown WV  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-11-30** — Harshman intercedes — thread, not entity  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-11-30** — Diane / Van** — named in Suz's family-name list (*"Anne Dan Suzanne Fran Diane Van"*) — → diane moore  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-11-30** — So you don't need to worry"*); 2015-11-30 22:21 (*"I have stuck to the story 100%"*).  
   ↳ [[wiki/timeline/annie-read-notes]] · 3. Motif tracker
@@ -2302,6 +2354,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-12-01** — connected to Annie's dad ("besties from high school") — **no page — employer  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-01** — Rick Frank** — Dan's father  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-01** — Annie reports that he *"already wikes me"*  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-01** — Dan is nervous to call him — → rick frank  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-12-01** — Alexis leaves, and the laptop is recovered by force.** Dan wakes early: *"I think she's leaving really early this am I am so excitedddd."* Then, at 05:04: *"Got my head bashed against the cabinet and pretended to call the cops.  
   ↳ [[wiki/timeline/annie-record]] · December
 - · **2015-12-01** — Dan asks Annie on a first date.** *"Can we do date this week"* (09:39); *"I'm gonna plan / The best first date"* (09:40).  
@@ -2332,6 +2390,18 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/casey-bondarenka]] · Late 2015: the friend-circle friction
 - · **2015-12-02** — On December 2, 2015, four days into things with Annie, he texted a friend: "I had a Franki Faris 2.0 situation earlier today...  
   ↳ [[wiki/people/franki-faris]] · Echoes in the Annie record
+- · **2015-12-02** — Claire Ulmer** — Annie's sister  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-02** — jumps on Annie when Ellen finds out about Dan  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-02** — involved in the confrontation — → claire ulmer  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-02** — Emilio** — *(same person as the 2015-11-29 "turd boy" row above — merged 2026-08-17 on the operator's identification)* Annie's partner until ~Nov 29  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-02** — texts Claire about Annie when he finds out about Dan, pulling Claire into the Dec 2 confrontation  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-02** — still contacting Annie on Dec 13. — → emilio  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-12-02** — ellen ulmer  
   ↳ [[wiki/timeline/annie-read-notes]] · Synthesis pass — 2026-08-17 (window 2015-11-28 → 2015-12-31)
 - · **2015-12-02** — Casey is asked to stay away.** Dan drafts a message to Casey: *"Frank u.  
@@ -2401,6 +2471,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 - · **2015-12-08** — in the studio with Dan on Dec 8  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-12-08** — starting a collective called "dat noise" — **no page — friend  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-08** — Zach Clingan** — texts Annie *"I have to talk to you"* on Dec 9 and warns her off Dan  
+  ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
+- · **2015-12-08** — **named by Dan the same day as the origin of his drug use** (*"THAT is who introduced me to drugs"*). Not to be confused with Zachariah Harshman. — → zach clingan  
   ↳ [[wiki/timeline/annie-read-notes]] · 1. Entity ledger
 - · **2015-12-08** — Annie is sick (withdrawal).** Annie: *"Maybe three hours all together / I literally laid there in tears"* (09:14).  
   ↳ [[wiki/timeline/annie-record]] · December
@@ -3881,6 +3955,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/fred-adams]] · The contemporaneous record — sixteen dated rows nobody had read
 - · **2018-09-04** — The titles then run in parallel: Suz writes *"Fred Adams"* on 2018-09-04 and *"judge Adams"* on 2018-11-05.  
   ↳ [[wiki/people/fred-adams]] · Two smaller results
+- · **2018-09-08** — 2018-09-08, already in the archive and cited on no page.  
+  ↳ [[wiki/self/twitter/replies]] · What the new rows put on other pages
 - · **2018-09-12** — Mike Zollinger was a fellow Nemacolin caddy through the 2018 season (`+17246208130`, 51 messages, April–September) — casual shift talk, tip comparisons, weather complaints, and a running joke about buying a house to rent back to him — with an early, matter-of-fact crypto thread predating Dan's…  
   ↳ [[wiki/people/mike-zollinger]] · Mike Zollinger
 - ★ **2018-09-16** — An isolated 2018 mention predates the transition and carries no gender marker either way: a September 16, 2018 message in Jim Vrabel's unrelated thread notes "Mohler sent me a happy birthday.  
@@ -4741,6 +4817,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/matthew-palermo]] · Matthew Palermo
 - · **2020-02-13** — Defining content  
   ↳ [[wiki/people/matthew-palermo]] · Corpus record
+- ◆ **2020-02-15** — 2020 shows the *analysis* arriving first, in the Democratic primary: on **15 February 2020**, four months after the Booker joke and a month before any lockdown, he runs four posts reading Bloomberg's candidacy as a party-splitting instrument bought with money, cites the stop-and- frisk ruling, and…  
+  ↳ [[wiki/mind/synthesis/2020-left-turn]] · The four stages, and what 2020 actually converted him from
 - · **2020-02-23** — The rupture comes on February 23, 2020, and it is the one place the thread turns emotional: Sam drives to 76th Street mid-morning on a confirmed order, stands outside sending fourteen escalating messages ("I'm in front your building / Should I leave? / Damn u can't even text me back"), leaves…  
   ↳ [[wiki/people/sam]] · The arc: regular, fired, rehired, forgotten
 - · **March 2020** — Exact dates for the Reddit admin period, how the role began, and what (if anything) happened to the contact after March 2020 are all undocumented.  
@@ -4865,10 +4943,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/concepts/astrology-star-signs]] · The Unknown Signs
 - ★ **August 2020** — Bobby's own life surfaces only incidentally: a daughter he co-parents (an August 2020 aside references "the first weekend in October" as his custody weekend), a second child born around April 26, 2021 ("I'm legit in the hospital room holding my newborn"), and a girlfriend who by 2021 had grown…  
   ↳ [[wiki/people/bobby-cole]] · Politics and personal life, in passing
+- ◆ **August 2020** — 2020 left turn dates the democratic-socialist identity to August 2020, and 2009 establishes that the Republican identity was gone by November 2009. 2011 fills the middle, and what it shows is **not** an eleven-year drift leftward.  
+  ↳ [[wiki/self/twitter/2011]] · The 2011 politics are anti-authority, not yet left — and that is the finding
 - ◆ **August 2020** — The 2022+ left-commentary clusters documented here are the downstream trace of a conversion the message record dates precisely to August 2020 (2020 left turn) — the watch history shows the turn's persistence, not its origin.  
   ↳ [[wiki/self/youtube-watch-history]] · Notes
 - · **August 2020** — So the honest statement of what happened in August 2020 gets narrower and more useful.  
   ↳ [[wiki/mind/synthesis/2020-left-turn]] · 2011: eleven years of anti-authority with no economics in it
+- · **August 2020** — Where the fourth stage actually begins.** The stage boundary is not August 2020.  
+  ↳ [[wiki/mind/synthesis/2020-left-turn]] · The four stages, and what 2020 actually converted him from
 - · **August 2020** — The objector had a name and did not object.** Dan's August 2020 question to the estate attorney — what were the odds his grandmother would contest the distribution — has been carried here as an open identity and an open outcome.  
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The contest that never came, and the asset that left before it
 - · **August 2020** — In August 2020, negotiating his $144,069.31 estate distribution, Dan asked the estate attorney what the odds were that his grandmother would contest it.  
@@ -4909,6 +4991,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The two source-lines and their trustee
 - · **2020-08-22** — 10. Religious and ideological programming  
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The constitution pass
+- · **2020-08-22** — 2020 left turn dates the arrival of the democratic-socialist identity to 22 August 2020 and has since found a second causal account in 2022 — the O&A fanbase splitting rightward and repelling him leftward, also a departure from a tribe.  
+  ↳ [[wiki/self/twitter/2009]] · Politics: a dated exit, eleven years before the arrival
 - · **2020-08-22** — That is the first public political self-identification in seventeen years of this account, and it is **independent corroboration of the conversion the synthesis dates to a private self-narration of 2020-08-22** — same year, six weeks later, no AI in the loop, addressed to strangers.  
   ↳ [[wiki/self/twitter/2020]] · 3 October 2020: the declaration
 - · **2020-08-24** — Suz, 2020-08-24: *"I have not taken any money for what I've done.  
@@ -5179,6 +5263,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/favorites/books]] · 2025 update (fresher Goodreads export)
 - ★ **2022-03-28** — One documented consequence.** On **28 March 2022**, during the Chris Rock/Will Smith argument, he stated a position that the show's own ethic would not recognise: *"I've moved away from belief in comedy's absolutist defense of free speech ('it's just a joke') and have a more sympathetic view of how…  
   ↳ [[wiki/interests/opie-and-anthony]] · The fanbase split, and which side Dan took
+- ★ **2022-03-28** — You don't have to agree with the material to appreciate the essence of what a joke is."* opie and anthony dates his move away from that position to 28 March 2022; this is the last dated instance of the old one.  
+  ↳ [[wiki/self/twitter/2019]] · Still a liberal, in October 2019
 - · **2022-03-30** — He polices calibration in other people.** On **2022-03-30**: *"That's a level of certainty I'm not sure how you've arrived at."* And on **2022-02-24**, of a casualty figure early in the Ukraine invasion: *"This kind of specific and not large number seem a little sus to me, though I do appreciate…  
   ↳ [[wiki/mind/concepts/calibrated-confidence]] · Two behaviours the message corpus does not contain
 - · **2022-03-31** — disposable vape, complained about by flavour — disposable  
@@ -7701,6 +7787,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/interests/favorites/eclecticism]] · The constitution pass
 - · **2026-09-01** — Neither has been tested and the page does not claim music as a member.** The positive account of what the exception *is* now lives at eclecticism (rewritten 2026-09-01): Architecture B — three functional clusters kept in parallel for eighteen years, archival emo beside live bass calibration beside…  
   ↳ [[wiki/mind/synthesis/closing-the-set]] · The controls
+- ★ **2026-09-02** — But the export is **not a proven census**: a backend fetch on 2026-09-02 recovered a February 2016 tweet the export had missed (overview), so it can drop rows.  
+  ↳ [[wiki/self/twitter/2014]] · Twitter / X — 2014
 - ★ **2026-09-02** — What changed on 2026-09-02 is that it is no longer the same thing as having no primary source: 764 dated public originals cover these three years, and the page now rests on them for the move, the two apartments, the Williamsburg geography and the ishlab start.  
   ↳ [[wiki/timeline/periods/2010s]] · Transition
 - ◆ **2026-09-02** — From 2014 the export is the backbone and absence is good evidence — but not conclusive, because the export demonstrably dropped at least one 2016 row (the OSU gig tweet, recovered 2026-09-02).  
@@ -7727,6 +7815,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/self/twitter/2009]] · Gaps
 - · **2026-09-02** — A backend fetch on 2026-09-02 recovered the tweet — id `696416822011289601`, 2016-02-07T19:34:43 UTC, text matching exactly — and that page now records the resolution in full.  
   ↳ [[wiki/self/twitter/2016]] · The gig that was thought to be invented
+- · **2026-09-02** — This matters because 2020 left turn withdrew its claim of a "2017 step" on 2026-09-02 — the keyword counting that produced it was measuring the pattern rather than the corpus.  
+  ↳ [[wiki/self/twitter/2017]] · Twitter / X — 2017
 - · **2026-09-02** — The `@danfrank` Twitter account was recovered thirteen months further back on 2026-09-02 (2008), and it opens on **24 September 2008**, the day Dan arrives in Winter Park.  
   ↳ [[wiki/timeline/periods/dark-era-2007-2008]] · The period's exit, in his own words, on the day it happened
 - · **2026-09-03** — opie and anthony — interests  
@@ -7771,4 +7861,4 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 388 wiki pages. 3,954 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 388 wiki pages. 3,926 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*

@@ -142,7 +142,7 @@ the record.
 > streak was feb 17, 2010."* **The date was computed, not recalled** — the day
 > before a train — and the anchor came from a model reading email logs.
 >
-> **That anchor is wrong.** `wiki/self/twitter/2010` shows the 18 February
+> **That anchor is wrong.** [[wiki/self/twitter/2010]] shows the 18 February
 > train running the other way: on the 17th he is already in New York (*"off to
 > Williamsburg"*) and on the 18th he is *"On the train back to PA."* The
 > arithmetic behind the corpus's most-cited date does not hold.

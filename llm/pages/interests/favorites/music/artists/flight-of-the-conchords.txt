@@ -40,5 +40,5 @@ Sunday, during the run of the HBO series' second season — so it is the show on
 television, not the show on stage. Small, and it establishes the sequence the
 concert log cannot: **he was already watching, and the ticket followed.** For
 an entry otherwise built from one row of a ticket table, that is the difference
-between a night out and an interest. `wiki/self/twitter/2009`.
+between a night out and an interest. [[wiki/self/twitter/2009]].
 

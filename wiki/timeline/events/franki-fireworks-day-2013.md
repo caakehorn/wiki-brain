@@ -128,7 +128,7 @@ one, and it is the earliest documented instance of it.
 ## How long the break actually lasted
 
 This page has never been able to say how long the rupture ran. The public
-record bounds it. `wiki/self/twitter/2013`:
+record bounds it. [[wiki/self/twitter/2013]]:
 
 | Date | Post |
 |---|---|

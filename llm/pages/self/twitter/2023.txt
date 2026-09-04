@@ -56,10 +56,10 @@ During the OceanGate Titan submersible disaster — nine posts across 20 and
 
 > *"This is so much better than balloon boy."*
 
-`wiki/self/twitter/2009` reads the 15 October 2009 Balloon Boy day as the
+[[wiki/self/twitter/2009]] reads the 15 October 2009 Balloon Boy day as the
 earliest instance of Dan watching the coverage rather than the event, and files
 it as the weaker, undeclared version of the disposition
-`wiki/mind/synthesis/millennial-digital-witness` describes. **He classifies it
+[[wiki/mind/synthesis/millennial-digital-witness]] describes. **He classifies it
 the same way, unprompted, fourteen years later, and uses it as the unit of
 comparison for a new spectacle.** That is independent confirmation from the
 only person who could give it: Balloon Boy is a landmark in his own taxonomy of
@@ -74,7 +74,7 @@ joke submersible business proposed to visit the wreck of the submersible.
 
 ## Nashville: two conspiracies, worked, and both published as negatives
 
-**29–30 March.** `wiki/mind/synthesis/vertical-authority-skepticism` already
+**29–30 March.** [[wiki/mind/synthesis/vertical-authority-skepticism]] already
 carries this as his most-read tweet ever. The full sequence is the method:
 
 > *"Dumb conspiracy. Shooter does not have Puma's on."*
@@ -102,7 +102,7 @@ that the subject uses it.
 
 ## The class analysis arrives, in its own vocabulary
 
-The four-stage sequence on `wiki/mind/synthesis/2020-left-turn` turns on an
+The four-stage sequence on [[wiki/mind/synthesis/2020-left-turn]] turns on an
 absence: through 2011–2019 there is no redistributive or class content
 anywhere. **3 March 2023 is where that absence closes completely:**
 
@@ -148,7 +148,7 @@ model-to-model experiment, run and documented, in June 2023.
 evidence of the model's judgement (*"Very insensitive #ChatGPT thought
 #OceanGate was good poetry material"*).
 
-`wiki/self/concepts/chatgpt` dates hands-on model use to the September 2022
+[[wiki/self/concepts/chatgpt]] dates hands-on model use to the September 2022
 DALL·E posts. This is the year after: forecasting the technology's political
 consequences, running cross-model experiments, and using the output as material
 — **two years before the April 2025 turn that produced this wiki.** The
@@ -165,7 +165,7 @@ sustained. The 2018 line was *"my goal in life is to one day be described as a
 'voracious reader'"*; this is that goal met and measured, five years later, and
 reported as what he does when politics is dull rather than as an achievement.
 It is also the volume of input behind the 2024 Roman-history material
-`wiki/interests/roman-republic` documents.
+[[wiki/interests/roman-republic]] documents.
 
 ## The job, one clause again
 
@@ -195,7 +195,7 @@ The forecasting practice of 2022 continues, and 2023 supplies the outcomes.
 **The scoring behaviour is the finding, not the accuracy.** He states
 predictions at explicit confidence, dates them, and when they fail he says so
 in public and in his own voice — *"Fooled AGAIN"* — rather than quietly
-dropping them. `wiki/meta/testimony-veracity` exists because most of Dan's
+dropping them. [[wiki/meta/testimony-veracity]] exists because most of Dan's
 first-person claims cannot be checked; this is a seam of claims he built to be
 checkable, and it is largely unmined.
 
@@ -211,7 +211,7 @@ sustained and take a position critical of the Israeli state, including an
 argument that mandatory IDF service *"creates an automatic stain of
 complicity"* — from someone the corpus records as having Jewish heritage on the
 paternal line and no religion. And on **10 October**, the decision procedure
-`wiki/mind/politics/axioms` already carries: *"Political positions are best
+[[wiki/mind/politics/axioms]] already carries: *"Political positions are best
 formulated and checked with one test: what would Michael Brooks do?"*
 
 ## What would change this reading
