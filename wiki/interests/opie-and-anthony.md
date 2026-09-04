@@ -3,7 +3,7 @@ domain: interests
 page_type: entity
 status: stable
 date_created: 2026-07-16
-date_modified: 2026-09-03
+date_modified: 2026-09-04
 sources:
   - "raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html"
   - "raw/self/dox-scan/Dan Profile.txt"
@@ -53,6 +53,9 @@ connections:
   - page: wiki/self/twitter/2021
     type: contradicts
     claim: "The move away from comedy free-speech absolutism is dated five months earlier than this page states: 'Lenny Bruce was arrested...not by the public, but by the state. Dave Chappelle is facing criticism which is, I'm told, different.' (2021-10-26), against the Louis CK defence of 2019-01-16."
+  - page: wiki/self/twitter/replies
+    type: evidenced-by
+    claim: "The Sandy week of October 2012 is a reply relationship rather than fandom at a distance: he feeds the live broadcast sourced material — the Breezy Point fire video, the Atlantic's photo debunk, 911 call volume, the HMS Bounty sinking — across a single storm."
 ---
 
 # Opie & Anthony / Shock Radio
