@@ -2,12 +2,12 @@
 domain: health
 page_type: profile
 title: "Cocaine"
-aliases: ["blow", "coke", "flake", "b's", "balls", "the accelerator", "voltage"]
+aliases: ["blow", "coke", "b's", "pow", "powder", "Versace", "the accelerator", "voltage"]
 status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-19
-date_modified: 2026-08-31
+date_modified: 2026-09-04
 sources:
   - raw/self/dox-md/ADDICTION_PROFILE.md
   - raw/self/dox-md/CATO_BOOTLOADER_DANFRANK.md
@@ -17,6 +17,7 @@ sources:
   - raw/self/dox-md/operating_manual.md
   - raw/self/dox-md/MAX_PRIME.md
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
+  - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/health/intake/intake_unit_01M1AJ47K2HKZ8TZZ75CPNGFJ7.md
   - intake/events.jsonl
 synthesizes:
@@ -31,6 +32,7 @@ synthesizes:
   - wiki/people/jay-lauer
   - wiki/people/tom
   - wiki/people/menore
+  - wiki/people/vaughn
   - wiki/people/annie-ulmer
   - wiki/mind/synthesis/dan-annie-fallout-verdict
   - wiki/places/seven-springs
@@ -64,6 +66,9 @@ connections:
   - page: wiki/people/tom
     type: evidenced-by
     claim: "Tom is the long-term friend-supplier whose cocaine provision ran alongside strips, mushrooms, and klonopin — and whose May 2026 no-show left Dan in withdrawal that framed the entire BFS drawer incident."
+  - page: wiki/people/vaughn
+    type: evidenced-by
+    claim: "Vaughn is the 2017 node the succession did not have, and his thread carries the only contemporaneous dollar figure the corpus holds for the cocaine peak — 'I spend well over $100 a day on it' (2017-05-04) — against a $100/gram price Dan enforces by weight, which puts the figure at roughly a gram a day in the first year this page dates to 3.5-7g."
   - page: wiki/people/menore
     type: evidenced-by
     claim: "Menore is the NYC delivery node whose product is never named in-thread — measured: zero product terms in 4,413 messages — but is called 'menore's bags' and distinguished from weed in Dan's other threads, which narrows the six-year, 99.3%-availability service record to a bagged non-cannabis product consistent with cocaine logistics."
@@ -203,6 +208,59 @@ not by any internal ceiling** — and the later reduction is framed
 explicitly as a **resource adjustment, not a step toward moderation or
 recovery**. The daily-cocaine baseline sits atop a 96th-percentile
 impulsiveness score in the deviance audit.
+
+## The one dollar figure, and it disagrees with the arc
+
+Until 2026-09-04 this page's Gaps section said the financial cost of the peak
+was undocumented. One contemporaneous figure exists, and the reason it went
+unread for two months is that it sits in the half of a message thread the page
+that held it had never opened — see [[wiki/people/vaughn]], re-derived the same
+day.
+
+On **2017-05-04 at 21:20**, six hours into first contact with a new
+caddie-yard supplier and pitching himself past him to an upstream source he had
+never met, Dan wrote:
+
+> **"Let him know that getting me as a client on that girl is like hitting the
+> lottery haha. I spend well over $100 a day on it"**
+
+Two qualifications travel with it, and the second is the one that matters:
+
+1. **It is an advertisement.** The audience is a prospective seller's seller,
+   the purpose is to be taken on as a customer, and the error direction, if
+   there is one, is upward. It is recorded in
+   [[wiki/meta/testimony-veracity|the testimony ledger]] as an unproven
+   quantitative claim with that slant attached, rather than being adopted here
+   as a fact.
+2. **It contradicts the arc above by a factor of three to seven.** In the same
+   thread Dan enforces a **$100/gram** price by weighing what he buys — *"if
+   I'm getting it I gotta at least be at the 100/1 Mark"* (2018-01-23) — so
+   "well over $100 a day" is a rate of about **one gram a day**. That is this
+   page's *pre-inheritance baseline*, stated in the first year of the window
+   the page dates at **3.5–7 g/day**.
+
+**The tension is real and this page does not resolve it.** Three readings
+survive the evidence, and the corpus currently distinguishes none of them:
+the escalation had not begun by May 2017 and the arc's start date is a year
+early; or the arc's peak figure is retrospective inflation, which is the
+failure mode a self-reported quantity is most prone to; or he was
+under-reporting to a supplier, which is the one direction the sales context
+argues against. What can be said is narrower and firmer than the arc: **on one
+dated evening in May 2017 the man himself put the number at roughly a gram a
+day, and he priced grams at $100 in the same channel nine months later.**
+
+**A vocabulary correction came with it.** This page's `aliases:` carried
+`balls` and `flake`, and neither is how the record writes about the substance:
+across 265,180 deduplicated message rows, `balls` returns **112 rows and none
+of them are cocaine** (eye balls, golf balls, busting balls) and `flake`
+returns **14, also none**. Both are deleted. What the record does use, and what
+this page did not carry, is `pow` (9 rows, 8 real), `powder` (30 rows, ~22
+real), and `Versace` as a **purity grade** — in January 2017 Dan is sorting a
+batch into *"the Versace stuff"* and *"the Forever21 stuff"* and asking
+*"What's halfway between f21 and Versace?"*. A wrong alias is worse than a
+missing one: it makes every automated pass over this substance confidently
+wrong, which is exactly what happened — the first scan of the Vaughn thread
+reported four cocaine "mentions", all four of them golf balls and one idiom.
 
 ## The first measured night — 2026-08-30/31
 
@@ -386,6 +444,7 @@ dominant unnamed product. The succession of cocaine-specific nodes:
 | [[wiki/people/suzanne-frank|Suzanne Frank]] | 2015–16 | Family-internal provision node | Explicit cocaine, routine provision |
 | [[wiki/people/lindsay-carolla|Lindsay Carolla]] | 2016 (Thanksgiving) | Small-scale peer | Explicit cocaine ("Hi honey," "yes my love") |
 | [[wiki/people/jay-lauer|Jay Lauer]] | 2016–17 | Peer trader (mutual credit) | Cocaine + suboxone trading; died of heroin overdose |
+| [[wiki/people/vaughn|Vaughn]] | 2017–18 | Caddie-yard two-product middleman | Explicit — "powder", "pow", "that girl"; $100/g enforced by weight; three short-weight disputes |
 | [[wiki/people/johnny-dealer|Johnny]] | 2018–19 | Deep-cycle primary dealer | "B's" (balls/cocaine), suboxone strips; first supply panics |
 | [[wiki/people/al|Al]] ("Socialist") | 2018 | Parallel Uniontown dealer | Explicit cocaine; ends in unpaid-debt confrontation |
 | [[wiki/people/annoying|Annoying]] (unidentified) | 2019 | Short-term NYC dealer | Explicit cocaine; $300/ball, $8ball/280 |
@@ -493,9 +552,14 @@ better living" reading a bare dosage increase might otherwise invite.
   positively identified, but the question is narrower than it was — see
   the re-check below. It is *not* weed, it is sold in **bags**, and the
   thread's silence on the point is now measured rather than impressionistic.
-- **The true scale of the 2017–2020 spend**: The dosage arc gives
+- ~~**The true scale of the 2017–2020 spend**: The dosage arc gives
   quantities but not dollar figures; the financial cost of the 3.5–7g
-  daily peak is undocumented.
+  daily peak is undocumented.~~ **PARTLY CLOSED 2026-09-04** — one
+  contemporaneous dated figure now exists, from the
+  [[wiki/people/vaughn|Vaughn]] thread, and it does not agree with the arc.
+  See "The one dollar figure" above. What is still missing is any *second*
+  figure: one sentence said to make a sale is a data point, not a spend
+  history, and nothing in the corpus yet corroborates or contradicts it.
 - **Post-overdose intervention**: Dan's attempt to move Jay Lauer onto
   Suboxone — the only documented instance of Dan trying to move somebody
   *out* of this network rather than into or around it — is recorded, but

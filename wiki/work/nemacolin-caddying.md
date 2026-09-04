@@ -4,7 +4,7 @@ page_type: event
 title: "Caddying — Nemacolin, Laurel Valley, Pikewood National (2016–2019)"
 status: closed
 date_created: 2026-07-14
-date_modified: 2026-08-02
+date_modified: 2026-09-04
 date_range_start: 2016-04-06
 date_range_end: 2019-11-01
 sources:
@@ -48,7 +48,10 @@ connections:
     claim: "Davey is the yard's management layer in the record: assistant caddie master for 2018, source of every documented report time and training assignment in Dan's season, and the coworker who picked Dan to train the new caddies."
   - page: wiki/people/vaughn
     type: contains
-    claim: "Vaughn is the cohort's paycheck-to-paycheck edge: a fellow caddie coordinating rides to the yard and check pickups who doubled as a small-time weed middleman between loops."
+    claim: "The Vaughn thread is the yard seen from the crew's side: mutual ride-coordination between two men who between them had one intermittent car, check-day pickups run through Brad, a golf grip Vaughn corrected that measurably improved Dan's striking, and the yard's drug testing carried from the evading side — two stealth bottles of clean urine, donated by a third caddie."
+  - page: wiki/people/jack-rusko
+    type: contains
+    claim: "Jack Rusko is the donor in the yard's testing-evasion arrangement — 'i had jack rusko piss for me lol' (2018-03-19) — which makes the countermeasure a three-caddie arrangement rather than a private one."
   - page: wiki/people/urpaaa-at-yahoo-com
     type: co-occurs
     claim: "The unidentified urpaaa thread runs on the yard's clock — report times, the $100 Venmo tip, and Dan looping 5.5 hours the day after a tooth extraction because the yard culture punished sick days."
@@ -124,7 +127,7 @@ caddie in 2017, assistant caddie master in 2018, and the channel through
 which every report time and training assignment of Dan's last season
 arrived; [[wiki/people/vaughn|Vaughn]] — a fellow caddie coordinating
 rides up the mountain and check-day logistics, who doubled as a
-small-time weed middleman between loops
+middleman for both weed and cocaine between loops
 ([[wiki/mind/synthesis/supply-network]] carries the supply side);
 [[wiki/people/trevor|Trevor Bevins]] — the "Trevor" of the May 21
 Laurel Valley trip above and the era's closest work friendship, who later
@@ -140,6 +143,45 @@ July 2017 but never followed through. The pattern the cohort documents:
 caddying was the last era in which work generated Dan's friendships in
 bulk — nothing after it (Au Za'atar's Triad excepted) produced a
 comparable social layer.
+
+## The yard drug-tested, and the crew had a countermeasure
+
+Added 2026-09-04 from the [[wiki/people/vaughn]] re-derivation; the record is
+Dan's own half of that thread, which no page had read until then.
+
+Nemacolin tested its caddies, or could, and Dan carried a defence:
+
+> *"yo hit me up if you wanna go up to mystic with me tomorrow. **i got clean
+> piss in case they test early, got u covered if you need a splash**"* —
+> 2018-03-19, 04:18
+>
+> *"i had **jack rusko** piss for me lol"* — same thread, minutes later
+>
+> *"i don't think we have a piss test tomorrow but **i got 2 stealth bottles of
+> clean pee** just in case"* — 2018-03-20, 01:18
+
+Three things follow. The testing was **real enough to prepare for** and
+irregular enough to prepare for *early* — the phrase is "in case they test
+early", which implies a known schedule and a fear of it moving. The
+countermeasure was **shared** rather than private ("got u covered if you need a
+splash"), which makes it a crew arrangement. And the donor is a **named,
+already-documented member of the same cohort**,
+[[wiki/people/jack-rusko|Jack Rusko]], whose own page records him as a
+friend of the 2017–18 season and knows nothing of this.
+
+The same two messages carry the yard's ordinary texture as well: the trips "up
+to mystic" ([[wiki/interests/golf|Mystic Rock]]), the carpool constraint that
+governed everything ("1 would be better for me because I have to get the kids
+off the bus at 3"), and the report-time relay through the caddie master
+("b-rad said he's not in today but said to come up tomorrow after lunch").
+
+**And one thing the page had backwards.** The cohort section below describes
+Vaughn as a fellow caddie who supplied Dan. He also **taught** him: *"Dude the
+way you changed my grip / Has made a REAL difference / I'm still getting things
+in place but my striking is better than it has been"* (2017-05-28). Instruction
+ran up the yard's informal hierarchy as well as down it, and the corpus's only
+documented instance of somebody correcting Dan's golf swing comes from the
+crew rather than from the club.
 
 ## Why the job matters
 

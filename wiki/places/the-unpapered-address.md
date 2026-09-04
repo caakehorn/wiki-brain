@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-28
+date_modified: 2026-09-04
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -74,6 +74,23 @@ connections:
 ---
 
 # The Unpapered Address
+
+> **RE-CHECKED [2026-09-04] — premise moved, conclusion unaffected.**
+> [[wiki/places/155-virginia-ave]] moved for the [[wiki/people/vaughn]]
+> re-derivation, gaining one edge: the door-by-door handoff geometry at that
+> house persists across two supplier generations (Zach Harshman 2014–15, a new
+> supplier in 2017, the same *"side door"* instruction). This page's argument is
+> about **paper** — which residences produced a lease, a notice or a summons and
+> which produced nothing. A handoff instruction is not an instrument and the
+> address's row in the table below (Suz owns it, terms undocumented, one
+> eviction notice, left eleven months after) is untouched. **No claim on this
+> page is affected.**>
+> **What this date bump also cleared, unread.** Staleness is computed from a
+> single `date_modified` per page, so bumping it for the re-check above cleared
+> **4 other stale flags on this page that nobody re-read**: [[wiki/mind/synthesis/estate-money-spine]], [[wiki/mind/synthesis/the-deferred-audit]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/places/424-bedford-ave]]. They are
+> recorded here because the gate can no longer show them. Measured across the
+> whole 2026-09-04 crosslink pass: ten honest re-checks cleared **thirty-eight**
+> flags, twenty-eight of them unread. See `skills/INBOX.md`.
 
 > **RE-CHECKED [2026-08-28] — premise moved, conclusion unaffected.**
 > [[wiki/mind/synthesis/estate-money-spine]] gained a constitution-pass

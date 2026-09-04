@@ -7,7 +7,7 @@ status: active
 knowledge: earned
 importance: high
 date_created: 2026-08-19
-date_modified: 2026-08-31
+date_modified: 2026-09-04
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -55,6 +55,32 @@ connections:
 ---
 
 # The Configured Body
+
+> **RE-CHECKED [2026-09-04] — the dosage arc's amplitude is now contested, and
+> the half this page uses is the half that survived.**
+> [[wiki/health/cocaine]] and [[wiki/mind/synthesis/supply-network]] both moved
+> for the [[wiki/people/vaughn]] re-derivation. The cocaine page gained a
+> contemporaneous first-person spend figure — *"I spend well over $100 a day on
+> it"* (2017-05-04) — which, against the $100/gram price Dan enforces by weight
+> in the same thread, works out at roughly **1 g/day in the first year that
+> page's arc dates at 3.5–7 g/day**. The arc's amplitude is therefore in
+> question in a way it was not before.
+>
+> **This page cites the arc for its shape, not its amplitude**, and the shape is
+> what the new evidence confirms. The claim here is that the curve tracks
+> *money* and that no health variable appears anywhere in it. The new datum is a
+> sentence about money, said to a supplier, containing no health variable — so
+> it is one more point on exactly the curve this page argues for, at a different
+> height. **No claim withdrawn.** The supply-network movement (a 2017 node added
+> to the succession, and a twenty-three-day replacement latency after the
+> network's only fatality) touches supply topology, which this page engages only
+> at the Tom/Suboxone reversal below; that reversal is untouched.>
+> **What this date bump also cleared, unread.** Staleness is computed from a
+> single `date_modified` per page, so bumping it for the re-check above cleared
+> **3 other stale flags on this page that nobody re-read**: [[wiki/health/chemical-architecture]], [[wiki/interests/food-and-diet]], [[wiki/mind/synthesis/the-deferred-audit]]. They are
+> recorded here because the gate can no longer show them. Measured across the
+> whole 2026-09-04 crosslink pass: ten honest re-checks cleared **thirty-eight**
+> flags, twenty-eight of them unread. See `skills/INBOX.md`.
 
 > **RE-CHECKED [2026-08-28]:** flagged stale against
 > [[wiki/mind/synthesis/the-deferred-audit]] (2026-08-28), which gained a

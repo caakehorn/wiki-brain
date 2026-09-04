@@ -2,8 +2,8 @@
 plain_of: wiki/health/the-configured-body
 title: "The Configured Body"
 reading_level: general
-date_modified: 2026-08-31
-source_modified: 2026-08-31
+date_modified: 2026-09-04
+source_modified: 2026-09-04
 ---
 
 # The Configured Body
@@ -220,6 +220,15 @@ the rule survives narrowed.
    the inheritance and with nothing else. A documented reduction, taper or
    substitution made because of a physical effect rather than a budget would
    show a maintenance faculty operating inside the specification one.
+
+   *One caution about that arc, found in September 2026.* The amounts on it
+   come from Dan looking back years later. A text he sent on 4 May 2017 — "I
+   spend well over $100 a day on it" — works out at about **one gram a day**,
+   because in the same conversation he insists on paying no more than $100 a
+   gram. The arc says he was using **three and a half to seven grams a day** in
+   that same year. Both cannot be right, and nothing in the archive settles it.
+   What this does not change is the point being made here: the 2017 text is
+   about money too. There is still no health reason anywhere on the curve.
 3. **A recorded medical relationship that is not routing.** A conversation
    with the prescriber about a dose, a taper, or a body — rather than about
    which pharmacy will fill the script — breaks the "input supplier" reading

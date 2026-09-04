@@ -14,10 +14,10 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 497 |
-| Pages touched in the last 14 days | 224 |
+| Pages touched in the last 14 days | 229 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 49 |
-| Open gaps | 605 |
+| Open gaps | 604 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -47,15 +47,17 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-09-04** — 84 pages
+**2026-09-04** — 100 pages
   - connect | people | the handles were on the pages all along, and the guard could not see nine of them
   - connect | people | thirteen pages that counted half a conversation
   - connect | people | the estate's two hands, found by reading a conversation instead of a name
   - connect | people | the twitter archive, read directly onto the page it was about
   - site | meta | the Wikipedia-style reader is served again
   - connect | self, interests, health, mind, people | the twitter archive read back onto the pages it was always about
+  - connect | people | vaughn — the re-derivation, and a cocaine channel nine pages did not have
+  - lint | mind | the first layer of the Vaughn pass — and a defect in the staleness gate
 
-**2026-09-03** — 33 pages
+**2026-09-03** — 30 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
   - ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
   - ingest | self | 2010 read in full — the corpus's most-cited date was computed from a train going the wrong way, and it survives anyway
@@ -96,7 +98,7 @@ this is the state of the thing.
 
 **2026-09-01** — 2 pages
 
-**2026-08-31** — 4 pages
+**2026-08-31** — 2 pages
   - ingest | health | the intake ledger's first export (2026-08-30/31)
   - ingest | health | the ledger gets an entry page
 
@@ -106,7 +108,7 @@ The altitude of the wiki — everything here was built on top of something
 else in it, and `bin/wiki-climb check` will flag any of them whose premises
 have moved since.
 
-- [[wiki/health/cocaine]] — 15 premises
+- [[wiki/health/cocaine]] — 16 premises
 - [[wiki/health/the-configured-body]] — 8 premises
 - [[wiki/interests/favorites/art-and-movies]] — 4 premises
 - [[wiki/interests/favorites/books]] — 4 premises

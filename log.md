@@ -9450,3 +9450,92 @@ the four things now covers mentions as well as findings;
 is the only obligation in the repository with **no symptom** — a source that
 named forty things and got linked to three is indistinguishable from one that
 named three, from every surface that reports work.
+
+## [2026-09-04] connect | people | vaughn — the re-derivation, and a cocaine channel nine pages did not have
+
+`bin/wiki-crosslink counts` corrected thirty-seven message counts on 2026-09-04
+and every one of the corrected pages says, in its own correction block, that
+its prose was written against the smaller thread and **has not been
+re-derived**. This is the first of those re-derivations, on the page the
+previous session named as the best of them.
+
+**The finding is a change of subject, not of detail.** `wiki/people/vaughn`
+described a "small-time weed middleman". Read against all 582 messages, the
+thread is a **two-product channel and the second product is cocaine** — a
+vocabulary of *powder*, *pow*, *that girl*, *a cut* and *Versace* that lives
+almost entirely in Dan's half, which is the half the page had never opened.
+Vaughn himself disambiguates it on 2018-02-01: **"The smoke or that girl"**.
+
+**Three things the wider record did not have:**
+
+1. **A dollar figure for the cocaine peak.** `wiki/health/cocaine` closes with
+   an explicit gap — *"the financial cost of the 3.5–7g daily peak is
+   undocumented."* On 2017-05-04 at 21:20, pitching himself to a new supplier's
+   source: *"getting me as a client on that girl is like hitting the lottery
+   haha. I spend well over $100 a day on it."* Against the $100/gram price he
+   enforces by weight in the same thread, that is **~1 g/day — the arc's
+   pre-inheritance baseline, stated in the arc's first peak year.** The gap is
+   partly closed and the arc is now contested by its own corpus. Recorded as
+   `t017` in the testimony ledger, unadjudicated, with the sales context making
+   the expected error direction **over**.
+2. **The succession's missing 2017 node.** `supply-network` ran Zach Harshman
+   (2014–15) straight to Johnny (2018–19). This thread opens **twenty-three
+   days after Jay Lauer's overdose** — the network's only fatality — and goes
+   from first contact to a completed transaction with a stranger in **seven and
+   a half hours**.
+3. **The mother is downstream by 2018.** `suzanne-frank` documents her as a
+   routine cocaine source in 2015–16. Here Dan procures and she consumes
+   (*"my mom wants the whole thing"*) and drives him to the pickup — the supply
+   ledger and the money ledger running in opposite directions at once.
+
+**And a vocabulary defect older than any of it.** `wiki/health/cocaine`'s
+`aliases:` carried `balls` and `flake`. Across 265,180 deduplicated message
+rows `balls` returns **112 rows, none of them cocaine** (eye balls, golf balls,
+busting balls) and `flake` returns **14, also none**. Both deleted; `pow`,
+`powder` and `Versace` added, all three verified by reading the rows. This is
+the wrong-alias class Phase 0.5 identified — the first automated scan of this
+thread reported four cocaine "mentions" and all four were golf balls.
+
+Written back to nine pages: `wiki/health/cocaine`,
+`wiki/mind/synthesis/supply-network`, `wiki/people/suzanne-frank`,
+`wiki/work/nemacolin-caddying` (the yard drug-tested, and the crew shared two
+stealth bottles of clean urine), `wiki/people/jack-rusko` (the donor),
+`wiki/places/155-virginia-ave` (the same door-by-door handoff geometry, two
+supplier generations apart), `wiki/timeline/periods/2017-poverty-floor` (its
+first first-party dated evidence), and
+`wiki/mind/psychosexual/orchestration-and-voyeurism` — where the February 2018
+"night" turns out to be a five-day sequence in which access is offered as
+**consideration in a drug transaction**, a motive that page's satisfaction-
+driven reading does not cover.
+
+## [2026-09-04] lint | mind | the first layer of the Vaughn pass — and a defect in the staleness gate
+
+The re-derivation moved ten pages, which made eleven dependents stale. All were
+worked to CLAUDE.md rule 3 — premise re-read, decision recorded, no date bumped
+blind — and two produced real results rather than null ones:
+
+- **`wiki/health/the-configured-body`**: the cocaine dosage arc's *amplitude*
+  is now contested by its own corpus, but this page cites the arc for its
+  *shape* — money moves it, no health variable appears on it — and the new
+  datum is a sentence about money containing no health variable. The claim
+  survives on the half that was tested.
+- **`wiki/mind/synthesis/the-embedded-objective`**: its weakest positive case
+  (caddying, whose private goal is *inferred rather than stated*) gains one
+  contemporaneous record pointing the same way — the 2017-05-28 golf-grip
+  message. Still the weakest case; one degree better supported.
+
+**And a defect nobody had measured.** Those ten pages were carrying **38 stale
+flags between them, not ten** — `wiki/self/context-core` six,
+`the-unpapered-address` five, `the-configured-body` five. Staleness is a
+property of a *pair* and `date_modified` is one scalar on the page, so bumping
+it for one honest re-check discharges every other premise's claim at once.
+**Twenty-eight flags cleared without being read.** Gate run stashed and
+unstashed: 125 pairs before, 99 after, 38 cleared and 12 created.
+
+This is the other half of the mechanism the 2026-09-04 alexis-armel pass filed
+as net-zero drainage — and it cuts the other way: part of what looks like
+drainage is not drainage, and **the stale queue understates the real debt most
+on the pages that get worked most.** Every one of the ten pages now names, in
+its re-check block, the flags the bump cleared unread. Filed to
+`skills/INBOX.md` with the pair-level `rechecked:` map as the real fix and the
+unshallow measurement that has to precede it.

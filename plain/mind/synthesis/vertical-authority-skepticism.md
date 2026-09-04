@@ -2,11 +2,16 @@
 plain_of: wiki/mind/synthesis/vertical-authority-skepticism
 title: "Vertical Authority Skepticism"
 reading_level: general
-date_modified: 2026-08-28
-source_modified: 2026-09-03
+date_modified: 2026-09-04
+source_modified: 2026-09-04
 ---
 
 # Vertical Authority Skepticism
+
+*Checked against the full entry again on 4 September 2026. The full entry
+changed that day only to note that a related page about Dan's mother had moved
+and that nothing here depends on what moved. Nothing on this page needed
+rewriting.*
 
 **The short version.** Dan treats anyone *above* him — fathers, managers,
 owners, institutions, the government — as suspect by default, and gives trust

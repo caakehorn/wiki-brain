@@ -5,7 +5,7 @@ knowledge: earned
 title: "Vertical Authority Skepticism"
 status: stable
 date_created: 2026-06-22
-date_modified: 2026-09-03
+date_modified: 2026-09-04
 sources:
   - raw/people/captures/2026-08-11_051311_rick-childhood-control-and-humiliation.md
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
@@ -147,6 +147,20 @@ connections:
 
 
 # Vertical Authority Skepticism
+
+> **RE-CHECKED [2026-09-04] — premise moved, conclusion unaffected.**
+> [[wiki/people/suzanne-frank]] moved for the [[wiki/people/vaughn]]
+> re-derivation (the 2017–18 reversal of the cocaine direction between mother
+> and son). This page cites her only through the money spine's "undischarged
+> obligation" residue, which is a claim about the financial ledger; the
+> reversal is on the supply ledger and leaves the financial one exactly as it
+> was. **No claim on this page is affected.**>
+> **What this date bump also cleared, unread.** Staleness is computed from a
+> single `date_modified` per page, so bumping it for the re-check above cleared
+> **3 other stale flags on this page that nobody re-read**: [[wiki/mind/synthesis/the-deferred-audit]], [[wiki/mind/synthesis/totality-themes]], [[wiki/people/rick-frank]]. They are
+> recorded here because the gate can no longer show them. Measured across the
+> whole 2026-09-04 crosslink pass: ten honest re-checks cleared **thirty-eight**
+> flags, twenty-eight of them unread. See `skills/INBOX.md`.
 
 Dan treats the vertical axis — fathers, managers, owners, institutions, the
 state — as structurally suspect, and the horizontal axis — the vetted few

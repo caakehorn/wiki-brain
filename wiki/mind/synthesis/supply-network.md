@@ -4,12 +4,13 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-08-28
+date_modified: 2026-09-04
 sources:
   - raw/people/captures/2026-08-02_010509_jay-lauer-death.md
   - "raw/self/dox-md/MAX_PRIME.md"
   - "raw/self/dox-md/operating_manual.md"
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
+  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/message-csv/messages_3476070497_all_time.csv"
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
 synthesizes:
@@ -82,7 +83,7 @@ connections:
     claim: "Sam is the 2019–20 NYC cannabis line — a parallel professional delivery node whose February 2020 firing of Dan ('don't never hit this number') proves transactional discipline enforces on the buyer too, not just the supplier."
   - page: wiki/people/vaughn
     type: contains
-    claim: "Vaughn is a minor 2017–18 Uniontown node — a carless caddie-coworker middleman whose repeated short-weight disputes document the quality-control vacuum at the informal market's bottom tier."
+    claim: "Vaughn is the succession's missing 2017 node and a two-product one, not a weed middleman — the thread opens 2017-05-04, twenty-three days after Jay Lauer's overdose, asks for weed at 20:11 and cocaine at 20:13, and its three short-weight disputes document the quality-control vacuum at the informal market's bottom tier."
   - page: wiki/people/nick-mattie
     type: contains
     claim: "Nick is the spring-2017 reciprocal peer-trading node — fronts and a hand-kept ledger running in both directions — the tier where supply was mutual credit between broke men rather than vendor service."
@@ -181,6 +182,7 @@ transfers along the way.
 |---|---|---|---|
 | [[wiki/people/tom]] | ~2010–2026 | Uniontown/Pittsburgh | Friend-supplier; strips, mushrooms, cocaine, klonopin; sole strip source by 2025 |
 | [[wiki/people/zachariah-harshman]] | 2014–2015 | Uniontown | High-school-friend supplier; wax, dabs, flower priced by cut/quarter; earliest dated Uniontown node, predates Johnny/Teddy by 3 years |
+| [[wiki/people/vaughn]] | 2017–2018 | Uniontown / the caddie yard | Two-product middleman (weed and cocaine); $100/g; carless, borrowed Dan's scale; **the succession's only 2017 node** |
 | [[wiki/people/johnny-dealer]] | 2018–2019 | Uniontown | Primary deep-cycle dealer; strips ($15/8mg, $20/12mg), "b's"; fronts |
 | Second dealer (+17243233522) | 2018 | Uniontown | Parallel node in the deep cycle (operating manual) |
 | [[wiki/people/teddy]] | 2018–2020 | Uniontown/Fairchance | Parallel informal supplier; strips, pills; credit and holds |
@@ -407,6 +409,33 @@ peer-trading tier's characteristic feature — that the participants are
 substitutable for one another, one man's prescription becoming another man's
 supply — is exactly the feature that made the intervention convertible back
 into the drug it was meant to displace.
+
+### And it cost the network nothing measurable
+
+Added 2026-09-04, from the [[wiki/people/vaughn]] re-derivation.
+
+The fatality above is the network's one irreplaceable loss, and the record
+shows the network replacing it in under a month. **The next new supply
+relationship in the corpus opens on 2017-05-04 — twenty-three days after Jay
+Lauer's death** — and it opens at conversational speed: a vape offered at
+14:14, a ride home at 17:43, weed at 20:11, cocaine at 20:13, Dan's home
+address handed over at 21:17, product delivered at 21:51. Seven and a half
+hours from first contact to a completed transaction with a stranger.
+
+**State the inference narrowly, because the wide version does not survive.**
+This is not "Vaughn replaced Jay" — Vaughn was a coworker Dan met at the yard,
+not a referral, and Dan's other channels were running. What the dates support
+is smaller and still worth having: the only death this system ever produced
+sits inside a twenty-three-day gap in the documented record, and the page it
+should have interrupted is the one that shows the fastest cold-start
+acquisition in the corpus. **Procurement continuity is not merely resilient to
+node loss; it is resilient to node loss of the most consequential kind
+available.** That does not change this page's thesis — it is the structural
+dependency the page already argues for, observed at its highest possible cost
+— so it enters as evidence rather than as a new rule, and no fresh
+constitution pass is owed for it.
+
+The seven-and-a-half-hour figure is itself the [[wiki/mind/concepts/acquisition-drive|acquisition drive]] with a stopwatch on it, and it is the number to beat if a later pass wants to test whether cold-start latency moved across eras.
 
 ## The inversion at the end: Dan as the supply node
 

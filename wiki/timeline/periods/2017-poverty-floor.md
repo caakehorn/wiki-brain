@@ -4,7 +4,7 @@ page_type: period
 status: archived
 importance: high
 date_created: 2026-06-22
-date_modified: 2026-08-02
+date_modified: 2026-09-04
 date_range_start: 2017-01-01
 date_range_end: 2017-12-31
 changelog:
@@ -14,6 +14,7 @@ sources:
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
   - "raw/self/dox-md/operating_manual.md"
   - "raw/self/message-csv/*"
+  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
   - "raw/self/facebook/facebook-ihatedanfrank/"
   - "raw/self/dox-md/LIFE REPORT.md"
   - "raw/self/dox-md/Gemini-_18.md"
@@ -70,6 +71,42 @@ His mother's verdict — *you've played your cards out* — is the kind of sente
 
 The financial subcategory for 2017 contributes to a total of 105 financial events across the corpus and 266 relationship events across the corpus, with this year weighted heavily in both. The debt subcategory registers 65 relevant events across the corpus; 2017's contribution is dense.
 
+## The floor, in primary messages — May 2017
+
+Added 2026-09-04. Everything above this section is derived from calendar
+exports and AI-secondary retrospectives; this is the year in first-party dated
+messages, from the [[wiki/people/vaughn|Vaughn]] thread — 156 of them in May
+2017 alone, between two Nemacolin caddies who between them had one intermittent
+car.
+
+The texture is not dramatic and that is the point. Check day is a joint
+operation because neither man can reliably get to his own money:
+
+> *"U getting ur check today"* — *"Just got it"* — *"Cool Ima try to get a ride
+> to get mine"* — *"Brad would probably let me bring it to u if u ask him"*
+> (2017-05-11)
+
+> *"can you get mine? I'll message brad"* … *"they should be on his desk"*
+> (2017-05-25)
+
+Transport is the binding constraint on everything, including the drug economy:
+*"I won't have a ride anywhere until midnight when my girl gets off work jsyk"*
+(2017-05-04), *"I'm rdy with the paper but no wheels"* (2018-02-05), *"Naw I
+don't have a ride"* (Vaughn, 2018-01-21). Purchases are sized to the gap until
+payday — *"Just a half. I get paid again on Monday so I'm just trying to make
+it till then lol"* — and a $50 buy that weighs 0.47 g instead of 0.5 gets
+documented to the hundredth of a gram and then forgiven, because the
+relationship is worth more than the shortfall.
+
+**What this adds to the page's argument.** The Psychological Dimension below
+says the year's action was "entirely reactive… what to hold together until
+tomorrow", and it says so from a retrospective. These messages are that claim
+in contemporaneous form, and they sharpen it in one direction the retrospective
+does not: the reactivity is *cooperative*. Two men at the same floor spend the
+year covering each other's rides, checks and shortfalls, and the arrangement
+holds for thirteen months. Poverty here is not isolating in the record; it is
+organising.
+
 ## Psychological Dimension
 
 The LIFE REPORT characterizes this period as one of analytical and emotional processing under conditions of compressed information flow and rapid fragmented cadence — the cognitive signature of managing multiple simultaneous threats with inadequate resources. Loyalty and trust were the drivers being stress-tested. The forensic mode that would later become a default cognitive tool was being trained here, under duress, on real problems with real consequences.
@@ -96,4 +133,4 @@ The [[wiki/people/annie-ulmer]] relationship logged 85 calendar events in this y
 
 2017 ended without resolution. The poverty floor did not lift — it tilted. 2018 would bring higher event density (254 calendar events, the highest recorded year), more dealers in the network, more financial velocity, and no structural improvement. The escalation that followed was not recovery. It was acceleration in the same channel. The deep cycle that 2017 had begun was still gathering.
 
-**Related:** [[wiki/timeline/events/timeline]], [[wiki/timeline/periods/2018-deep-cycle]], [[wiki/people/annie-ulmer]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/self/ancestry]], [[wiki/people/fran-coldren]], [[wiki/people/suzanne-frank]], [[wiki/self/gemini-activity/gemini-activity]]
+**Related:** [[wiki/people/vaughn]], [[wiki/timeline/events/timeline]], [[wiki/timeline/periods/2018-deep-cycle]], [[wiki/people/annie-ulmer]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/self/ancestry]], [[wiki/people/fran-coldren]], [[wiki/people/suzanne-frank]], [[wiki/self/gemini-activity/gemini-activity]]
