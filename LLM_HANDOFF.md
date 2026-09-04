@@ -4,6 +4,60 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-04] - Session: the Pages deployment serves the reader again (Claude Opus 5)
+
+* **Branch:** `claude/wiki-brain-github-pages-4mnsvd` · **PR #254** · `bin/wiki-check` clean.
+* **Trigger:** operator — "the wiki brain used to publish to its own deployment
+  and I manually stopped it and it redirects to main now. Can I undo that."
+
+**Yes, and it was four lines.** Since 2026-08-27 (PR #202) `bin/build-site` had
+written a meta-refresh to `https://caakehorn.github.io/home` at every
+human-facing path. Nothing else about the deployment was ever broken: Pages is
+enabled and set to the workflow build, `deploy-site.yml` runs on every push to
+`main`, its smoke test passes, and the agent feed was current throughout —
+`llms.txt` on the live site was rebuilt from `3543431` the day before.
+
+**Read this before touching the site build again.** The redirect did not remove
+the reader; it discarded it. `render_page`, the infobox, the navbox, the
+breadcrumb, the table of contents and the sidebar all still ran on every build
+and their output was thrown away at four write sites — the article pages, the
+generated directory indexes, the root reading aids, and `index.html`. Restoring
+it was restoring four calls. A future "turn X off" in this file should prefer
+the same shape: stop *writing* the output, leave the machinery standing, and say
+in a comment where the join is.
+
+**Two defects that were unreachable while every path was a redirect**, and both
+of which a visitor hits first:
+
+* Search worked from the front page and nowhere else. `search.json` was fetched
+  at a bare relative path (404 on every subpage) and the hit URLs are stored
+  relative to `index.html` (wrong link even if it had loaded). The input now
+  carries `data-search` and `data-root` resolved per page.
+* `split_row` split table rows on every pipe, including the escaped pipe a
+  wikilink needs inside a cell. `[[wiki/self/twitter/2008\|2008]]` therefore
+  lost the row a column *and* kept the backslash in the target —
+  `wiki/self/twitter/2008\.html`, a 404. Now splits on unescaped pipes only.
+
+Dead internal links across the built site: **67 → 32**.
+
+**Left for the next session.** The 32 remaining dead links are content, not
+rendering: most point into `raw/`, which is deliberately not published and
+should probably stop being wikilinked from pages that are; two —
+`wiki/mind/concepts/supply-network` and `knock2` — are cited and simply do not
+exist. Neither is queued yet.
+
+**Not touched, deliberately.** `bin/wiki-work` reports 105+ stale premises and a
+long standing queue; none of it is this change's business and none of it was
+drained. Regenerated `wiki/meta/testimony-veracity.md`, which was behind its
+ledger on `main` and was holding `bin/wiki-check` red for everybody.
+
+**One decision left with the operator, in the PR.** Reopening the reader makes
+every page browsable and searchable as HTML by a human, which a raw `.md` URL
+was not. Annie pages are included — correct under the moratorium, which is a
+stop on new writing and explicitly not a redaction, and those pages were served
+as `.md` throughout anyway. If any page should be held back from the *human*
+surface specifically, that is a separate change and he has to ask for it.
+
 ### [2026-09-03] - Session: narrative runs for the twitter year pages (Claude Opus 5)
 
 * **Branch:** `claude/narrative-runs-twitter-pages-4r3wf9` · **PR #251** · gates green at every commit.

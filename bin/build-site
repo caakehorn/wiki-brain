@@ -115,25 +115,13 @@ def esc_attr(s: str) -> str:
     return html.escape(s, quote=True)
 
 
-# The Wikipedia-style reader is no longer served here; every human-facing
-# path redirects to the home portal. Data paths (raw .md, agent feed) are
-# untouched so consumers of llms.txt / manifest.json / the home sync keep
-# working. See the discussion in CLAUDE.md's "three things" — this is about
-# surface area, not the data.
-REDIRECT_TARGET = "https://caakehorn.github.io/home"
-
-
-def redirect_html(page_rel: str) -> str:
-    return f"""<!DOCTYPE html>
-<html lang="en"><head>
-<meta charset="utf-8">
-<meta http-equiv="refresh" content="0;url={REDIRECT_TARGET}">
-<title>Moved — wiki-brain</title>
-</head>
-<body style="font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,Helvetica,Arial,sans-serif;max-width:600px;margin:8rem auto;padding:0 1rem;text-align:center">
-<h1 style="font-family:Georgia,'Times New Roman',serif;font-weight:400">Moved</h1>
-<p>The wiki now lives at <a href="{REDIRECT_TARGET}">{REDIRECT_TARGET}</a>.</p>
-</body></html>"""
+# 2026-08 to 2026-09 this file wrote a meta-refresh to the home portal at
+# every human-facing path, and nothing else: the Wikipedia-style reader below
+# still computed its infoboxes, navboxes and tables of contents on every
+# build and then threw them away. That was a surface-area decision, never a
+# data one — the agent feed (llms.txt, agent/*, the raw .md copies) was served
+# throughout and is unchanged by restoring the reader. Reopened 2026-09-04 at
+# the operator's instruction; the reader is the site again.
 
 
 # --------------------------------------------------------------------------
@@ -159,6 +147,7 @@ def relative_url(src_html_rel: str, dst_html_rel: str) -> str:
 
 def make_wikilink(known: set[str], page_rel: str, title_map: dict[str, str]):
     def fn(raw: str) -> str:
+        raw = raw.replace("\\|", "|")
         if "|" in raw:
             path, label = raw.split("|", 1)
             path = path.strip()
@@ -301,9 +290,11 @@ def split_row(line: str) -> list[str]:
     line = line.strip()
     if line.startswith("|"):
         line = line[1:]
-    if line.endswith("|"):
+    if line.endswith("|") and not line.endswith("\\|"):
         line = line[:-1]
-    return [c.strip() for c in line.split("|")]
+    # Split on unescaped pipes only: [[page\|label]] is one cell, not two.
+    cells = re.split(r"(?<!\\)\|", line)
+    return [c.replace("\\|", "|").strip() for c in cells]
 
 
 def is_block_start(line: str, nxt: str) -> bool:
@@ -519,7 +510,9 @@ JS = """\
   var box=document.getElementById('q');
   if(!box)return;
   var data=null;
-  fetch('search.json').then(function(r){return r.json()}).then(function(j){data=j}).catch(function(){});
+  var src=box.getAttribute('data-search')||'search.json';
+  var root=(box.getAttribute('data-root')||'index.html').replace(/index\.html$/,'');
+  fetch(src).then(function(r){return r.json()}).then(function(j){data=j}).catch(function(){});
   box.addEventListener('input',function(){
     var q=box.value.toLowerCase().trim();
     var host=document.getElementById('search-results');
@@ -529,7 +522,7 @@ JS = """\
       return d.title.toLowerCase().indexOf(q)>=0 || d.domain.indexOf(q)>=0 || (d.snippet||'').toLowerCase().indexOf(q)>=0;
     }).slice(0,25);
     host.innerHTML=hits.map(function(d){
-      return '<a href="'+d.url+'"><strong>'+d.title+'</strong> <span style="color:#54595d">('+d.domain+')</span><br><span style="font-size:.82rem;color:#54595d">'+ (d.snippet||'') +'</span></a>';
+      return '<a href="'+root+d.url+'"><strong>'+d.title+'</strong> <span style="color:#54595d">('+d.domain+')</span><br><span style="font-size:.82rem;color:#54595d">'+ (d.snippet||'') +'</span></a>';
     }).join('') || '<p style="color:#54595d">No matches.</p>';
   });
 })();
@@ -581,7 +574,9 @@ def render_page(meta: dict, body_html: str, page_rel: str, title: str,
 <body>
 <header class="site">
   <div class="brand">wiki-brain<small>compiled second brain</small></div>
-  <input id="q" type="search" placeholder="Search the wiki… (titles, domains, snippets)" autocomplete="off">
+  <input id="q" type="search" placeholder="Search the wiki… (titles, domains, snippets)" autocomplete="off"
+         data-search="{relative_url(page_rel, 'search.json')}"
+         data-root="{relative_url(page_rel, 'index.html')}">
 </header>
 <div class="layout">
 {sidebar}
@@ -888,6 +883,7 @@ def build(out: Path, base_url: str) -> dict:
     root_docs = [n for n in ROOT_DOCS if (ROOT / f"{n}.md").exists()]
     for n in root_docs:
         known.add(f"{n}.html")
+    known.add("index.html")
     title_map = {}
     for p in pages:
         text = p.read_text(encoding="utf-8", errors="replace")
@@ -898,6 +894,11 @@ def build(out: Path, base_url: str) -> dict:
     for k in list(known):
         if k.endswith("/index.html"):
             title_map.setdefault(k, k.split("/")[-2])
+    # root reading aids and the front page, so [[DIGEST]] and [[index]] carry
+    # a label rather than resolving to a bare filename
+    for n in root_docs:
+        title_map.setdefault(f"{n}.html", n)
+    title_map.setdefault("index.html", "Wiki index")
     # available illustration assets
     known_imgs = {f"assets/img/{f.name}" for f in (ROOT / "assets" / "img").glob("*.svg")}
     # sibling pages grouped by domain (for the navbox footer)
@@ -931,7 +932,9 @@ def build(out: Path, base_url: str) -> dict:
         article_img = "" if infobox_html else (
             f'<img src="{esc_attr(img_url)}" alt="{esc_attr(title)} illustration">'
         )
-        html_page = redirect_html(page_rel)
+        html_page = render_page(meta, body_html, page_rel, title, toc, known,
+                                out, base_url, navbox_html, infobox_html,
+                                img_url, article_img)
         dst = out / page_rel
         dst.parent.mkdir(parents=True, exist_ok=True)
         dst.write_text(html_page, encoding="utf-8")
@@ -993,20 +996,46 @@ def build(out: Path, base_url: str) -> dict:
             for e in sorted(entries)
         )
         title = dkey.split("/")[-1]
-        dp = redirect_html(idx_html)
+        body_html = (crumb + f"<h1>{esc_html(DOMAIN_TITLES.get(title, title))}</h1>"
+                     + (f"<ul>{rows}</ul>" if rows
+                        else "<p>Nothing filed here yet.</p>"))
+        dp = render_page({"page_type": "index"}, body_html, idx_html,
+                         DOMAIN_TITLES.get(title, title), [], known, out, base_url)
         (out / idx_html).parent.mkdir(parents=True, exist_ok=True)
         (out / idx_html).write_text(dp, encoding="utf-8")
 
-    # root reading aids (DIGEST / RECENT / OPEN / log / queue) — raw .md
-    # preserved for the agent feed; the human HTML reader redirects home
+    # root reading aids (DIGEST / RECENT / OPEN / log / queue) — the raw .md
+    # is kept for the agent feed and the HTML is the reader's copy
     for name in root_docs:
         src = ROOT / f"{name}.md"
         doc_rel = f"{name}.html"
         shutil.copy2(src, out / f"{name}.md")
-        (out / doc_rel).write_text(redirect_html(doc_rel), encoding="utf-8")
+        dtext = src.read_text(encoding="utf-8", errors="replace")
+        dmeta, dbody = parse_frontmatter(dtext)
+        dtitle = dmeta.get("title") or first_heading(dtext) or name
+        dbody_html = md_to_html(dbody, doc_rel,
+                                make_wikilink(known, doc_rel, title_map))
+        (out / doc_rel).write_text(
+            render_page(dmeta, dbody_html, doc_rel, dtitle,
+                        extract_toc(dbody), known, out, base_url),
+            encoding="utf-8")
 
-    # root index.html -> redirect to home portal (human-facing reader gone)
-    home = redirect_html("index.html")
+    # root index.html — the master index, rendered as the site's front page
+    idx_src = ROOT / "index.md"
+    if idx_src.exists():
+        itext = idx_src.read_text(encoding="utf-8", errors="replace")
+        imeta, ibody = parse_frontmatter(itext)
+        ititle = imeta.get("title") or first_heading(itext) or "wiki-brain"
+        ibody_html = md_to_html(ibody, "index.html",
+                                make_wikilink(known, "index.html", title_map))
+        home = render_page(imeta, ibody_html, "index.html", ititle,
+                           extract_toc(ibody), known, out, base_url)
+    else:
+        rows = "".join(
+            f'<li><a href="wiki/{d}/index.html">{esc_html(DOMAIN_TITLES[d])}</a></li>'
+            for d in DOMAINS)
+        home = render_page({}, f"<h1>wiki-brain</h1><ul>{rows}</ul>",
+                           "index.html", "wiki-brain", [], known, out, base_url)
     (out / "index.html").write_text(home, encoding="utf-8")
 
     # assets
