@@ -54,7 +54,7 @@ The load-bearing element is the absence of documentation: under normal circumsta
 
 ## Relation to Core Methodology
 
-Dan's Law directly operationalizes two standing principles from the forensic methodology. First, it implements "find where it breaks" — the practice of locating the hinge moment or structural failure in a given account. Second, it operationalizes "not vigilant = annihilated" by treating false dismissal of a real signal as a survival error. The same deconfounding logic has been applied across political events, interpersonal gaslighting clusters, institutional behavior, and AI prompt engineering.
+Dan's Law directly operationalizes two standing principles from the [[wiki/mind/concepts/forensic-method|forensic methodology]]. First, it implements "find where it breaks" — the practice of locating the hinge moment or structural failure in a given account. Second, it operationalizes "not vigilant = annihilated" by treating false dismissal of a real signal as a survival error. The same deconfounding logic has been applied across political events, interpersonal gaslighting clusters, institutional behavior, and AI prompt engineering.
 
 The law is the deconfounding filter that converts raw anomaly lists into actionable signal.
 
@@ -75,3 +75,7 @@ The law is the deconfounding filter that converts raw anomaly lists into actiona
 > partner in October 2024 and never executed. Full accounting at
 > [[wiki/places/the-unpapered-address]]. This is a boundary on the law's
 > application, not a defect in the law.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

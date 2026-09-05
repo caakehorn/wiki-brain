@@ -89,7 +89,7 @@ opportunity. Verbatim (2021-02-04, Sent):
 
 He was still watching it into 2021: "FSLY earnings tomorrow" (2021-02-17). The
 takeaway — sell strength, don't marry the thesis — is the same market-era
-insight the operating manual states plainly: cultural-trend sensing had
+insight the [[wiki/mind/concepts/exocortex|operating manual]] states plainly: cultural-trend sensing had
 overtaken fundamentals, and the skill was reading the crowd, not the balance
 sheet.
 
@@ -149,7 +149,7 @@ message corpus rather than through the period page. Nothing rederived.
 > which renders `wiki/**` into `public/wiki/`, parses this frontmatter for real.
 > A sweep found the same defect on two other pages
 > ([[wiki/people/jerad-friedline]], which was dropping `context-core`, and
-> `wiki/mind/psychosexual/developmental-origins`, which had an empty duplicate
+> [[wiki/mind/psychosexual/developmental-origins]], which had an empty duplicate
 > `connections:`); all three are fixed, and a lint rule is queued in
 > `BACKLOG.md`.
 
@@ -161,3 +161,7 @@ move in substance.** The only change on that page was one new `connections:`
 entry cross-referencing the new [[wiki/mind/profile/neurodivergence]] page —
 no date, price, position size, or quote this page depends on was touched.
 Nothing rederived.
+
+---
+
+**Up:** [[wiki/work/index|Work]]

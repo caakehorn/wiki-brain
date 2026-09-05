@@ -63,3 +63,7 @@ when he gets back from his vacation" — informal chatter suggesting DJ's
 own tenure may have ended around the same window, not corroborated
 anywhere else.
 Current contact status post-2024; his own exit from Au Za'atar.
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -74,8 +74,8 @@ personality tests, but **"an unusual amount of instrumentation."** Seven
 independent frameworks have been run over him — MBTI with function
 percentages, Enneagram with wing and instinct stack, Big Five/Big30 with a
 SLOAN code, a personality-disorder vector, Socionics, Attitudinal Psyche, a
-moral alignment — plus a stylometric analysis, a deviance audit against a
-demographic baseline, and a composite voice model. The page's own governing
+moral alignment — plus a stylometric analysis, a [[wiki/mind/profile/deviance-mapping|deviance audit]] against a
+demographic baseline, and a [[wiki/mind/profile/voice-modes|composite voice model]]. The page's own governing
 line: *"Dan knows himself the way he knows a stranger: by running an
 instrument over the evidence and reading the output."* The 2013 batch is not
 an outlier next to this. It is the prototype.
@@ -105,3 +105,7 @@ explaining Dan's own conduct toward her.
 **Gaps:** this journey states no new date, figure or typology result — every
 claim above already lives on one of its five stops. What it adds is the
 sequence, which none of the five pages states end to end on its own.
+
+---
+
+**Up:** [[wiki/meta/index|Meta]] › [[wiki/meta/journeys/index|Journeys]]

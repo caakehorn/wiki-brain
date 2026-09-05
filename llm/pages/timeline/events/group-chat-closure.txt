@@ -113,3 +113,7 @@ See [[wiki/mind/concepts/attachment-model]] (no closure without explicit severan
 The analytical outputs that survive closure are the concept pages and any downstream tooling (e.g., DANMODEL trained on the reaction-pair corpus).
 
 > **REVISED [2026-07-13]:** Operator correction: the Eli affair ran from sometime in 2024 until the February 2025 NYC departure and ended there. The terminal-phase third party — the man Annie left Dan for, and the counterpart of the June 1, 2026 group chat — is Tuquick ([[wiki/people/tuquick-17248123683]]), NOT Eli. Whether Tuquick is "Target G" is unknown.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

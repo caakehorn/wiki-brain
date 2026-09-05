@@ -427,3 +427,7 @@ These are errors in the ported material that need fixing:
 ---
 
 *Generated from the Annie Read, a forensic reading of the 97,768-message corpus between Dan Frank and Annie Ulmer.*
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

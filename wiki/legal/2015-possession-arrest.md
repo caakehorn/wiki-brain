@@ -315,3 +315,7 @@ running concurrently is not determinable from the message record — the
 theft fine. The identity of the DA holding the no-ARD-for-cocaine policy is
 not named. And Dan's claim that he completed ARD "without incident" is the
 only account of the six-month probation that exists anywhere in the corpus.
+
+---
+
+**Up:** [[wiki/legal/index|Legal]]

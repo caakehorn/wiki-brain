@@ -33,7 +33,7 @@ infobox:
 
 # Trevor Bevins
 
-Trevor Bevins was one of Dan's actual peers in the 2018 Nemacolin caddying
+Trevor Bevins was one of Dan's actual peers in the 2018 [[wiki/work/nemacolin-caddying|Nemacolin caddying]]
 circle: a golf obsessive, drinking-and-gaming companion, and candid witness
 to the dysfunction around [[wiki/people/brad-hubeaut|Brad Hubeaut]]'s yard.
 The relationship was practical as well as social. They arranged reports,
@@ -121,3 +121,7 @@ the meme-stock conversation.
 | iMessage range | 2017-10-19 – 2020-06-18 |
 | Confirmed Facebook continuation | 2021-02-04 |
 | Defining shared period | Nemacolin caddying, May–July 2018 |
+
+---
+
+**Up:** [[wiki/people/index|People]]

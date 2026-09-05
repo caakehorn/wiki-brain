@@ -93,7 +93,7 @@ session bootloader, named for Cato the Younger, the Roman Stoic who refused
 to compromise under pressure. Pasted at session start, it overrides default
 assistant behavior into an evidence-first forensic peer register — no
 sycophancy, no softening — and carries the full identity payload: biographical
-timeline, social graph, voice model, chemical architecture, and behavioral
+timeline, social graph, voice model, [[wiki/health/chemical-architecture|chemical architecture]], and behavioral
 indices (Home Anchoring 0.68, Routine Index 0.85, mean radius of gyration
 15.8 km). Its companion formalization (`CATO_conflict_architecture.md`)
 specifies the five structural properties of the truth-resolution engine
@@ -107,7 +107,7 @@ than an analytical chassis. Detail at
 **The Operating Manual** (`operating_manual.md`, v9.0, "Empirical
 Stylometric Extraction") — the practical source code companion to the
 archetype profiles: granular iMessage-derived biography (the [[wiki/people/annie-ulmer|Annie]] golf-course
-genesis, the 2017 poverty floor, the 2020–21 market era, the 2024 Trump-
+genesis, the [[wiki/timeline/periods/2017-poverty-floor|2017 poverty floor]], the 2020–21 market era, the 2024 Trump-
 shooting burst), the contact graph with handles, self-designations
 ("Failson," "Autistic Truth Seeker"), named behavioral constants ("Evangelist
 Compulsion," "Brevity Guilt," the "LOSE IT" principle, "Normie Check"), and
@@ -166,3 +166,7 @@ writing, exactly how he wants to be seen and argued with.
 how often the bootloaders are actually loaded (versus maintained) is
 undocumented; MAX's full spec lives in its own raw sources and is thinner in
 the corpus than CATO's.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

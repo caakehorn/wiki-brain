@@ -6,7 +6,7 @@ date_created: 2026-06-23
 date_modified: 2026-09-04
 date_range_start: 2018-04-22
 date_range_end: 2019-10-20
-sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/laurynashly_4_5jbvoqow/message_1.html"]
+sources: ["raw/self/dox-scan/all_imessages_complete_dump.txt", "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/facebook/facebook-ihatedanfrank/messages/inbox/laurynashly_4_5jbvoqow/message_1.html"]
 tags: [relationships, career, financial-stress]
 knowledge: mixed
 infobox:
@@ -18,6 +18,24 @@ infobox:
   first_contact: 2018-04-22
   known_for: "Jim Shaffer — 'not the only Jim Shaffer' in Dan's life, hence the 'new' contacts-card label — is a wealthy childhood fri"
 connections:
+  - page: wiki/mind/concepts/contact-gini
+    type: evidences
+    claim: "This thread supplies that concept's first first-person instance and its only statement of composition: 'you are 1 of 3 people that i actually would enjoy seeing / the other 2 people are my coke dealer and a hooker' (2019-10-20). Every other figure there is a computation over volume, which cannot tell a friendship from a transaction."
+  - page: wiki/interests/stand-up-comedy
+    type: evidences
+    claim: "That page recorded the ambition across four years and closed on 'whether or not a set ever happened'. This thread has the set: 'heres my comedy set so far' (2019-04-12) and three bits — the cancer-donation regret against 'thousands on drugs', millennials and call spoofing, and the bald-eagle story as the closer."
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: evidences
+    claim: "Dates the expectation the eighteen-month wait is measured against — 'they're cutting big distribution checks for us soon' (2018-04-24, twenty days after Fran's death) against a first documented advance of 2019-10-12 — and states the position it was served from: 'still have no access to my accounts via rick', 'never even seen a statement'."
+  - page: wiki/health/cocaine
+    type: evidences
+    claim: "The second dated cost figure and the only one addressed to somebody selling nothing: 'spent thousands on drugs' over 'a couple weeks' (2019-04-12), >=~$143/day, consistent with the 2017 figure and with ~1 g/day against an arc asserting 3.5-7. Also the corpus's only statement of the New York move as a chemical intervention."
+  - page: wiki/mind/concepts/calibrated-confidence
+    type: evidences
+    claim: "Supplies t018 and t019 to the testimony ledger, which between them make that page's 'accuracy remains untested' caveat obsolete: the fourth 'early' date error against zero 'late', and a confirmed market forecast made against his own mother's list price."
+  - page: wiki/people/rob-orange
+    type: evidences
+    claim: "Dan's own side of the December 2018 grief exchange, which the page had only from Jim's: 'rob is the only one that I get sad about', 'I honestly don't give a fuck about any of them other than him', against 'Half of our friends died lol'. He also misdates the death to 2013 — one year early, the third settled date claim in the corpus to run early."
   - page: wiki/people/annie-ulmer
     type: co-occurs
     claim: "Jim's enthusiastic, judgment-free reaction to learning about the Dan/Annie arrangement — disclosing his own interest in swinging and negotiating toward joining an encounter — is a friend-group data point on how normalized the arrangement was among Dan's peers."
@@ -40,8 +58,7 @@ connections:
 > read. Its handle was not declared in `infobox.handles:` either — it was
 > sitting in the page's own Corpus Dimensions table where no tool could use it —
 > so `bin/wiki-crosslink counts` could not see this page until the handle was
-> promoted the same day. **The prose below was written against the one-sided
-> thread and has not been re-derived.**
+> promoted the same day. **Re-derived 2026-09-04** — see "Dan's half" below.
 
 Jim Shaffer — "not the only Jim Shaffer" in Dan's life, hence the "new" contacts-card label — is a wealthy childhood friend from the same Fayette County high-school cohort, self-described as Dan's "longest standing friend on the planet" (`+14125139408`, 894 messages, April 2018 – October 2019). He splits time between a Florida golf community (Bay Hill) and Pennsylvania, collects high-end tour-issued golf equipment through a Titleist tour-van contact, and had just resolved a serious embezzlement accusation when the thread opens.
 
@@ -69,6 +86,131 @@ The friendship's emotional core surfaces around [[wiki/people/fran-coldren|Fran]
 
 **A note on tone:** the thread's humor throughout is dense with racial slurs, ethnic jokes, and shock-value dark comedy in the register of edgy 2010s internet humor. That register is described here rather than reproduced.
 
+
+## Dan's half — the re-derivation
+
+> **RE-DERIVED [2026-09-04].** The correction block above said the prose was
+> written against the one-sided thread. This section is the other side: **885
+> messages from Dan**, read in full. The account above is not wrong and is left
+> standing — it is a good account *of Jim*. It is also, almost entirely, a
+> record of what Jim said, which is what happens when a page is written from the
+> received half of a balanced conversation. Dan sent 885 and received 904. The
+> friendship was not a monologue.
+
+**What the thread turns out to be.** Jim is the person Dan tells things to. Not
+a golf friend who also hears about his life — the ratio is the finding: two
+bursts, **417 messages in April 2018 and 436 in May**, opening three weeks after
+[[wiki/people/fran-coldren|Fran]]'s death, and inside the first night Dan
+delivers a sequential, bullet-pointed narration of the entire Alexis–Shumar
+collapse, the estate, and his own household. He is not being drawn out. He is
+briefing somebody.
+
+### The four things this half contains that the page did not
+
+**1. A first-person statement of the concentration the corpus measures.**
+On **2019-10-20**, unprompted, at the end of the thread's last exchange:
+
+> *"you are 1 of 3 people that i actually would enjoy seeing"*
+>
+> *"the other 2 people are my coke dealer and a hooker"*
+
+[[wiki/mind/concepts/contact-gini]] measures Dan's contact distribution at a
+two-sided Gini of **0.9576–0.9601** and reproduces it in three independent
+units. Every one of those is a computation over volume. **None of them is Dan
+saying it**, and a coefficient cannot say what the surviving nodes *are*. This
+line does both: three people, and two of the three are transactional. It is
+the concept's first first-person instance and its first statement of
+composition.
+
+**2. A written stand-up set, and what was in it.**
+[[wiki/interests/stand-up-comedy]] documents the ambition across four years and
+closes it with *"Whether or not a set ever happened, the persona got as far as a
+name."* On **2019-04-12** he types *"heres my comedy set so far"* and lists
+three bits:
+
+- the money he donated to a friend with cancer — named, *"latie molchan"* —
+  *"and spent a couple weeks regretting it even though i spent thousands on
+  drugs in that time"*;
+- *"how millenials are awful and have too much tech power for how little
+  humanity we have"*, worked through call spoofing;
+- *"the story about when i got my dick sucked before i hit puberty and earned
+  the nickname bald eagle for 2 years"* —
+  [[wiki/timeline/events/bald-eagle-cummings]], which the wiki holds as an
+  adolescent humiliation and which he had made into an opener.
+
+A set existed. **Its first bit is a joke at his own expense about drug spending
+against a friend's cancer**, which is the same self-auditing instinct
+[[wiki/mind/synthesis/the-deferred-audit]] documents, pointed at himself and
+written for an audience.
+
+**3. The estate money was promised within three weeks of the death and arrived
+eighteen months later.**
+**2018-04-24**, two days into the thread:
+
+> *"just found out they're cutting big distribution checks for us soon so we
+> have money while they settle the estate"*
+
+The first advance [[wiki/people/rod-banks]] documents is **2019-10-12**. Between
+that expectation and that check are eighteen months, and the same night he
+states the position it was set against:
+
+> *"still have no access to my accounts via rick"* · *"will be the first real
+> money i've ever had"* · *"never even seen a statement"* (2018-04-22)
+
+**4. He names his own spending rate, and the drug figure is independent of the
+one already on the record.**
+On **2019-04-12**: *"see right now i think the term for what im doing is 'HIGH
+BURN RATE'"*, *"its why i spent 1500 on a pornstar escort last week"*, and the
+comedy bit's *"thousands on drugs"* over a couple of weeks. Then, in the same
+hour, the sentence the health pages did not have:
+
+> *"no joke and between us if i didnt move here when i did, rehab would have
+> been in my future"*
+
+and a stated rule that survives everything around it: *"if you dont drink, and i
+mean like NEVER EVER drink, you avoid most problems. not drinking is the key."*
+
+### The grief exchange is his, not only Jim's
+
+The page credits Jim with the December 2018 register drop. Dan's half of the
+same conversation is where the differential sits:
+
+> *"But really...rob is the only one that I get sad about"*
+> *"I honestly don't give a fuck about any of them other than him"*
+> *"Half of our friends died lol"* · *"Doesn't it feel like...all of this should
+> have been a bigger deal"*
+
+And the DXM years in his own account — *"we ALL ate a bottle of roburussin,
+each"*, *"our vision was SO FUCKED you literally couldn't see it in the air"*,
+*"We would TRIPLE the speed limit driving to Tom petty concerts which we had no
+tickets to, nor would we attend"* — closing on **"I honestly look back on those
+years as like / The most fun I ever had in my life"** (2018-12-09). That is a
+dated evaluative verdict on the era
+[[wiki/timeline/events/robotussin-s-last-dance]] records, delivered at 33.
+
+> **He gets the year wrong, and the direction is the one to watch.** Asked when
+> Rob died he answers *"What year did he die / 2013?"*.
+> [[wiki/people/rob-orange]] dates it to **April 2014**. One year early, in a
+> thread where he is otherwise recalling the period in fine detail — and the
+> third settled date claim in the corpus to run **early** rather than late.
+> Recorded as testimony rather than corrected in passing.
+
+### What Dan's half does *not* change
+
+The embezzlement account, the golf-equipment expertise, the Bay Hill and
+tour-van material and the wealth signals are Jim's and are unaffected — Dan's
+side of those is mostly listening, agreeing and asking. **The page's account of
+Jim stands.** What it lacked was any account of the person on the other end,
+and the omission was structural rather than editorial: 79 lines had been written
+about a 1,789-message thread because only 904 of those messages had been read.
+
+> **Held out under the standing directive in `CLAUDE.md`.** A large share of
+> Dan's half in April 2018 is narration about Annie — the household, the
+> arrangement, the camming. None of it is written here, extended, or quoted
+> beyond what the wiki already holds. That is a stop on the record advancing,
+> not a judgement that the material is uninteresting, and it is the reason this
+> section is shorter than the thread would otherwise support.
+
 ## Corpus Dimensions
 
 | Metric | Value |
@@ -77,3 +219,7 @@ The friendship's emotional core surfaces around [[wiki/people/fran-coldren|Fran]
 | Date range | 2018-04-22 to 2019-10-20 |
 | Direction | **877 Sent / 901 Received** — corrected 2026-09-04 |
 | Handle | +14125139408 |
+
+---
+
+**Up:** [[wiki/people/index|People]]

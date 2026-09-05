@@ -33,7 +33,7 @@ connections:
 ## events
 
 - [[wiki/timeline/events/franki-fireworks-day-2013]] — early July 2013: the day Alexis discovered the Franki affair by text ten minutes into the drive; also dates the production identity's origin and supplies the chaos preference's first attested macro instance.
-- [[wiki/timeline/events/bald-eagle-cummings]] — seventh grade at Seven Springs: the corpus's earliest sexual event, a failure that produced a year-long school-wide nickname, and the first named girlfriend (Britney Bolen, predating Danielle by ~3 years).
+- [[wiki/timeline/events/bald-eagle-cummings]] — seventh grade at [[wiki/places/seven-springs|Seven Springs]]: the corpus's earliest sexual event, a failure that produced a year-long school-wide nickname, and the first named girlfriend (Britney Bolen, predating Danielle by ~3 years).
 - [[wiki/timeline/events/teen-concert-years]] — 2005–2008: the literal touring record (FOB×3 + TRL taping, MCR, TBS, Say Anything, Bamboozle) that the wiki had flattened into "top music artists."
 - [[wiki/timeline/events/robotussin-s-last-dance]] — June 15 2005: three 17-year-olds in a sold-out Tom Petty lot at Burgettstown, 20–40 DXM capsules each, a Ruby Tuesday's incapacitation near Pittsburgh airport, and a 95 mph drive down Rt 51 back to Uniontown — the capture that fills in the drug context the Tom Petty minivan story had always left blank.
 - [[wiki/timeline/events/end-fight]] — Extended confrontation sequence captured in dedicated "THE END FIGHT" CSV export and the…
@@ -44,10 +44,10 @@ connections:
 - [[wiki/timeline/events/james-analysis-pdf]] — 2025-07-11: a curated AI profile handed to its subject and to his partner ends a friendship in twelve minutes.
 - [[wiki/timeline/events/july-2026-recontact]] — July 23–26 2026: the 52-day severance fails; 624 messages, a rape allegation, the corpus's only refused supply request, no resolution.
 - [[wiki/timeline/events/july-august-2026-reentanglement]] — July 26 – August 2 2026: the goodbye breaks in 18 minutes; 1,880 messages, six meetings, five drug handoffs, and an apology delivered in person to Suz.
-- [[wiki/timeline/events/august-2026-unmasking]] — August 8–9 2026: the thirteen-day refusal to identify the interloper ends with a FOREWARN lookup, and a ten-hour collapse follows — a misparsed garble read as a threat, a contested sleep claim, and read-receipt coverage that ends at 02:24:54.
+- [[wiki/timeline/events/august-2026-unmasking]] — August 8–9 2026: the thirteen-day refusal to identify [[wiki/people/jerel-coles|the interloper]] ends with a FOREWARN lookup, and a ten-hour collapse follows — a misparsed garble read as a threat, a contested sleep claim, and read-receipt coverage that ends at 02:24:54.
 - [[wiki/timeline/events/august-2026-morgantown-call]] — August 16–19 2026: the end. A 15:27 recording of a call Coles placed from Annie's phone, then a three-day campaign to send it to her mother's work email, a suicide attempt disclosed, a threat Dan faked to test her, six unanswered SOS messages, and a final hour spent arguing about an act neither party ever names — ending mid-exchange, eight minutes after a block that was declared and not executed.
 - [[wiki/timeline/events/march-2026-terminal-phase]] — the record's last 16 days: laundry response, bathroom incident, confession + retraction
-- [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] — Dan, Annie, and Shelbie Breakiron; the arrangement's clearest instance with a third woman rather than a male friend.
+- [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] — Dan, Annie, and [[wiki/people/shelbie-breakiron|Shelbie Breakiron]]; the arrangement's clearest instance with a third woman rather than a male friend.
 - [[wiki/timeline/events/timeline]] — This is the master index. Full chronological + 1,104 in raw/self/dox-md/LIFE_EVENTS_CALENDAR.md. Re-mined…
 - [[wiki/timeline/events/2026-08-26-dan-consistency-test]] — operator-observed, 2026-08-26: a hard boundary held in one direction while a calm channel is sustained in the other — the corpus's first candidate counterexample to intensity-as-the-only-mode.
 - [[wiki/timeline/events/2026-08-26-visible-change]] — operator-observed, 2026-08-26: the same day's change stated as an observation rather than a conclusion.
@@ -55,7 +55,7 @@ connections:
 
 ## periods
 
-- [[wiki/timeline/periods/2010s]] — NYC Round One (Apr 2010–May 2013): the two Brooklyn/Manhattan apartments, the ishlab/Creative License audio-engineering era, the Alexis cohabitation, Suboxone onset. (Corrected: NYC-1 ended May 2013, not 2014.)
+- [[wiki/timeline/periods/2010s]] — NYC Round One (Apr 2010–May 2013): the two Brooklyn/Manhattan apartments, the ishlab/[[wiki/work/creative-license|Creative License]] audio-engineering era, the Alexis cohabitation, Suboxone onset. (Corrected: NYC-1 ended May 2013, not 2014.)
 - [[wiki/timeline/periods/uniontown-return-2013-2015]] — the most-corrected stretch: back in Uniontown, not NYC — SLOPPP→MOGZART alias development, the Alexis endgame, the Jan 2015 move to 155 Virginia, and the Nov 2015 switch to Annie.
 - [[wiki/timeline/periods/2015-2016-annie-relationship-start]]
 - [[wiki/timeline/periods/2017-poverty-floor]]

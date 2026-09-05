@@ -41,12 +41,16 @@ All dates, venues, cities, and notes below are taken from the source table and p
 |------|---------------|-------|------|------|
 | Sep 28 - Nov 23, 2005 | Nintendo Fusion Tour | Various (tour) | Multiple cities | Confirmed tour window. |
 | Jul 18, 2006 | Multi-act show | Chevrolet Amphitheatre | Pittsburgh, PA | Dresden Dolls (Amanda Palmer) = vaudevillian female-singer band; headliner Panic!. |
-| May 4, 2008 | Multi-act show | Meadowlands Sports Complex | East Rutherford, NJ | Panic! at the Disco & Coheed and Cambria co-headlined. Also: Paramore, Gym Class Heroes, Cobra Starship, The Academy Is. |
+| May 4, 2008 | Multi-act show | Meadowlands Sports Complex | East Rutherford, NJ | Panic! at the Disco & Coheed and Cambria co-headlined. Also: Paramore, [[wiki/interests/favorites/music/artists/gym-class-heroes|Gym Class Heroes]], Cobra Starship, [[wiki/interests/favorites/music/artists/the-academy-is|The Academy Is]]. |
 
 ## Notes per appearance
 
-- **Sep 28 - Nov 23, 2005** — Nintendo Fusion Tour, Various (tour), Multiple cities. Confirmed tour window.
+- **Sep 28 - Nov 23, 2005** — [[wiki/interests/concert-record/festivals/nintendo-fusion-tour|Nintendo Fusion Tour]], Various (tour), Multiple cities. Confirmed tour window.
 - **Jul 18, 2006** — Multi-act show, Chevrolet Amphitheatre, Pittsburgh, PA. Dresden Dolls (Amanda Palmer) = vaudevillian female-singer band; headliner Panic!.
   Co-billed with: The Dresden Dolls, The Hush Sound.
-- **May 4, 2008** — Multi-act show, Meadowlands Sports Complex, East Rutherford, NJ. Panic! at the Disco & Coheed and Cambria co-headlined. Also: Paramore, Gym Class Heroes, Cobra Starship, The Academy Is.
-  Co-billed with: Coheed and Cambria, Paramore, Gym Class Heroes, Cobra Starship, The Academy Is....
+- **May 4, 2008** — Multi-act show, Meadowlands Sports Complex, East Rutherford, NJ. Panic! at the Disco & [[wiki/interests/favorites/music/artists/coheed-and-cambria|Coheed and Cambria]] co-headlined. Also: Paramore, Gym Class Heroes, Cobra Starship, The Academy Is.
+  Co-billed with: Coheed and Cambria, Paramore, Gym Class Heroes, [[wiki/interests/favorites/music/artists/cobra-starship|Cobra Starship]], The Academy Is....
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

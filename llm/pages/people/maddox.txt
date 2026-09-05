@@ -50,3 +50,7 @@ Maddox outside this one encounter.
 
 **Gaps:** how Dan and Maddox know each other beyond the shared
 building; no contact before or after the May 21 recording.
+
+---
+
+**Up:** [[wiki/people/index|People]]

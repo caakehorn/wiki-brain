@@ -141,7 +141,7 @@ years have no identified marker obsession yet — either the record is thin ther
 marker (market-watching? the meme-stock thread?) hasn't been promoted
 out of its host pages. That absence is itself worth resolving.
 
-**Gaps:** The pre-2007 childhood layer has no intake record at all, so
+**Gaps:** The pre-2007 childhood layer has no [[wiki/health/intake-ledger|intake record]] at all, so
 the series starts where the digital footprint starts. The
 [[wiki/timeline/periods/2021-2023-employment-block|2021–23]] marker
 is unidentified (above). The claim "rate constant, subject rotates" is
@@ -168,3 +168,7 @@ object, the Republic, is over. Conserved intake hours explain why only one
 obsession runs at a time; set-closure explains why the previous one terminates
 instead of thinning. Full distributions at
 [[wiki/mind/synthesis/closing-the-set]].
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

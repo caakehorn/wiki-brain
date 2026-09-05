@@ -325,3 +325,7 @@ keeps images of passivity." He keeps one. It is a beheading.
 - **No pre-2007 taste record exists**, so the seat cannot be dated. The earliest
   attested instance is the 2013 self-typing and the 2012–13 archive era; the
   claim that the position predates the divorce is untested and untestable here.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

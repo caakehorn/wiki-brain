@@ -46,3 +46,7 @@ already deep in the emo and pop-punk circuit that fills the rest of autumn
 2008 ([[wiki/self/twitter/2008]]), walking out of a Philadelphia
 horrorcore show having enjoyed it. The taste is wider at twenty than the
 concert table's overwhelmingly pop-punk 2008 rows suggest on their own.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

@@ -285,7 +285,7 @@ page's strong reading — a self-set goal runs to completion "more or less
 independently of cost" — does not survive the project record. MNEME has no
 evidence in the corpus of being built past the specification; the DANMODEL
 blind evaluation has no results file anywhere and whether it was ever run is a
-standing open gap; the AI video essays stalled at planning. All three were
+standing open gap; the [[wiki/work/tech/ai-video-essays|AI video essays]] stalled at planning. All three were
 entirely self-set, none was assigned to anyone, and none completed. The engine
 requires a self-set objective to fire, and having one is not a guarantee that
 it does.
@@ -474,3 +474,7 @@ inherited Impulsiveness dispute) that was previously invisible on this
 page. **What it did not do:** resolve the dispute, or manufacture
 connections to registers (age/upbringing, geographic culture, security) that
 genuinely do not bear on employment-tenure mechanics.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

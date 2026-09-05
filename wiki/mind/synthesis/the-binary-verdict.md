@@ -228,7 +228,7 @@ still resolves to exactly one of two outcomes once it runs. The BFS drawer
 claim was reconstructed and rejected the same day. The Tom model was
 revised, not graded — "lateral ally only during mutual alignment;
 unreliable when asymmetric" is a corrected binary rule (trusted under
-condition X, not trusted otherwise), not a standing 70% trust score. The
+condition X, not trusted otherwise), not a standing 70% [[wiki/meta/testimony-veracity|trust score]]. The
 rule on this page survives the correction because the correction is about
 *when* the verdict fires, not about whether the verdict, once fired, has
 more than two possible values.
@@ -258,7 +258,7 @@ grading of *how* illegitimate begins.
 
 [[wiki/mind/synthesis/single-channel]] is the resource-allocation version of
 the same rule, and it is the one member with a real number attached: a
-two-sided contact Gini of **0.9601 across 496 handles**, reproduced
+two-sided [[wiki/mind/concepts/contact-gini|contact Gini]] of **0.9601 across 496 handles**, reproduced
 independently in the creative, cognitive, and (until 2026-08-19) evaluative
 domains. A moderately-invested distributed network would show up as a
 lower, more even coefficient. What the record shows instead is a channel
@@ -511,3 +511,7 @@ this pass.
   pass for other stated percentages tied to relationship logistics, rather
   than to belief, would settle whether the exception is a pattern or a
   single dated concession.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

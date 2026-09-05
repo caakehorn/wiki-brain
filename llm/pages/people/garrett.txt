@@ -81,3 +81,7 @@ politics section for a man who has none in this corpus.
    none of them a direct interaction, the answer looks like no — which would make
    him consistent with the pattern [[wiki/people/alice]] notes about how separate
    the two families stayed.
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -383,7 +383,7 @@ than the *contract*: the contract was never the thing being protected.
 
 **Trust at the 9th percentile predicts the opposite, and that is the
 finding worth stating rather than smoothing over.**
-[[wiki/mind/profile/big-five-psychometrics]]'s Trust score is one of the
+[[wiki/mind/profile/big-five-psychometrics]]'s [[wiki/meta/testimony-veracity|Trust score]] is one of the
 handful corpus-confirmed against a real control — 1.96x raised
 suspicion-of-motive language — and a mind running that default should want
 exactly the paper trail this page shows was never sought. Sixteen years of
@@ -571,3 +571,7 @@ Gap the vertical/lateral framing opens (register 5 above has never been
 tested against its own counter-case). **What it did not do:** manufacture
 a health, ideological, or geographic connection where none of this page's
 content actually bears.
+
+---
+
+**Up:** [[wiki/places/index|Places]]

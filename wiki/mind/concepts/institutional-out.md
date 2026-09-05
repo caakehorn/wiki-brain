@@ -93,3 +93,7 @@ himself supplied this concept, unprompted, to his own file.
 but not yet individually documented — the BFS tenure was likely too short
 for one to mature; whether the pattern extends to non-employment
 institutions (school, leases) is unexamined.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

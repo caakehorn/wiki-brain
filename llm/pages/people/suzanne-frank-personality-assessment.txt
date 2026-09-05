@@ -79,7 +79,7 @@ connections:
 
 **Confidence: MODERATE**
 
-ISTJ (Introverted, Sensing, Thinking, Judging) is the most defensible MBTI type for Suzanne Frank based on behavioral evidence from the corpus. The determination is built from analyzing cognitive functions (Si, Te, Fi, Ne), evaluating each Enneagram type independently, and contrastive testing against the strongest alternatives.
+ISTJ (Introverted, Sensing, Thinking, Judging) is the most defensible MBTI type for Suzanne Frank based on behavioral evidence from the corpus. The determination is built from analyzing [[wiki/mind/profile/intp|cognitive functions]] (Si, Te, Fi, Ne), evaluating each Enneagram type independently, and contrastive testing against the strongest alternatives.
 
 ### Cognitive Function Stack
 
@@ -243,7 +243,7 @@ While Suz is primarily past-focused, she does have some future orientation—the
 ### Why Not Other Types
 
 **Type 2 (Helper):**
-Suz provides for her children, but she's not particularly helpful or nurturing. She's transactional about relationships. The ledger is the relationship model—she keeps score.
+Suz provides for her children, but she's not particularly helpful or nurturing. She's transactional about relationships. [[wiki/health/intake-ledger|The ledger]] is the relationship model—she keeps score.
 
 **Type 8 (Challenger):**
 Suz is direct and intense, but her core motivation is security, not control. She confronts because she feels threatened, not because she seeks power for its own sake. She's reactive, not strategic.
@@ -308,7 +308,7 @@ Suz is increasingly anxious and defensive. The gambling continues. The financial
 The corpus is thin, but Suz appears to be stabilizing. She stops gambling. She continues working. She's rebuilding security.
 
 **2025-2026 (bankruptcy and eviction):**
-Suz is in crisis. The house is sold. She moves to 463 Morgantown. She's lost her primary reference point. The August 2026 message—"It's time for you to go"—is the voice of someone who has lost everything and has nothing left to lose.
+Suz is in crisis. The house is sold. She moves to [[wiki/legal/463-morgantown|463 Morgantown]]. She's lost her primary reference point. The August 2026 message—"It's time for you to go"—is the voice of someone who has lost everything and has nothing left to lose.
 
 ### Summary
 
@@ -352,3 +352,7 @@ The evidence weakly suggests a 6-2-9 trifix for Suz:
 2. **Non-crisis periods:** The corpus is heavily weighted toward financial crisis. More data from stable periods would strengthen the assessment.
 3. **Additional conversational partners:** More data from Suz's interactions with people other than Dan (her mother, her sister, her coworkers) would provide additional evidence.
 4. **Longitudinal analysis:** As new messages enter the corpus, the assessment should be re-evaluated to determine whether the type holds across time and context.
+
+---
+
+**Up:** [[wiki/people/index|People]]

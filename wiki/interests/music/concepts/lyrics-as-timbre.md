@@ -85,7 +85,7 @@ meaning.
 ## The production-practice connection
 
 This trait has a direct, previously unremarked-on echo in Dan's own
-output. Across all four production aliases — SLOPPP, MOGZART, Mogged Up,
+output. Across all four production aliases — SLOPPP, MOGZART, [[wiki/interests/music/aliases/mogged-up|Mogged Up]],
 and GRIPNOTIC, thirteen years of releases — there is no original sung
 songwriting anywhere in the documented catalog. The work is
 instrumental: bootlegs, edits, reworks, VIP remixes, mix series. GRIPNOTIC
@@ -144,3 +144,7 @@ corroborated by any message thread or earlier self-description.
 ## Related
 
 [[wiki/interests/music/concepts/sub-bass-signature]] · [[wiki/interests/favorites/music]] · [[wiki/interests/favorites/music/artists/fall-out-boy]] · [[wiki/interests/favorites/music/artists/my-chemical-romance]] · [[wiki/interests/favorites/music/artists/say-anything]] · [[wiki/interests/favorites/music/artists/taking-back-sunday]] · [[wiki/interests/favorites/music/artists/new-found-glory]]
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/music/index|Music]]

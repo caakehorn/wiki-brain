@@ -32,7 +32,7 @@ connections:
 
 # Twitter / X — 2015
 
-**The year SLOPPP stops.** 2014 ran a Beatport contest entry, six named-artist
+**The year [[wiki/interests/music/aliases/sloppp|SLOPPP]] stops.** 2014 ran a Beatport contest entry, six named-artist
 remixes, three mix series and a live video show. 2015 has **two** pieces of
 music output in twelve months: a Far East Movement remix entered into a
 contest on 26 January, and a re-post on 16 March of a micromix video made the
@@ -71,7 +71,7 @@ New Year set, an Opie & Anthony segment, Alex Jones at Dealey Plaza — plus, on
 through Kamcord, and two auto-posts for a video poker app on 17 February. The
 producer's feed has become a viewer's feed.
 
-This is the concrete shape of a thing `wiki/mind/synthesis/failure-to-launch`
+This is the concrete shape of a thing [[wiki/mind/synthesis/failure-to-launch]]
 argues in the abstract: the project does not fail, get rejected, or get
 abandoned in a statement. It simply stops being posted, and the same account
 carries on.
@@ -82,8 +82,8 @@ Between **16 July and 4 December 2015 there is nothing on this page.** Not a
 thinning — a stop, in a year with no archival gap to blame.
 
 That window covers what the corpus documents as the most turbulent stretch of
-Dan's adult life: `wiki/legal/2015-possession-arrest`, and the housing
-arrangement `wiki/people/alexis-armel` describes as roughly four months of
+Dan's adult life: [[wiki/legal/2015-possession-arrest]], and the housing
+arrangement [[wiki/people/alexis-armel]] describes as roughly four months of
 secretly keeping a former partner at 337 Saratoga after she was thrown out.
 
 **The finding is the silence itself, and it is a real one.** Across seven years
@@ -114,7 +114,7 @@ reads the gap in this narrative as an oversight and fills it.
 opening line and a fair summary of its register. There is a Kanye playlist add
 on the 4th, one joke about Duran Duran in March, and *"Skeert"* in June.
 
-The thinness is the content. `wiki/self/twitter`'s own framing — that public
+The thinness is the content. [[wiki/self/twitter]]'s own framing — that public
 posting is a valve rather than a diary — is at its clearest in 2015: a
 spreadsheet-backed year with a working music project at the start of it, a
 five-month blackout in the middle, and sixty-two posts in total.

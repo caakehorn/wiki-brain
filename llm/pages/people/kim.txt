@@ -47,4 +47,8 @@ Exemplifies [[wiki/mind/synthesis/vertical-authority-skepticism]]: Anita sole lo
 
 **Cross-references:** [[wiki/work/bfs-foods]], [[wiki/people/anita]], [[wiki/people/timmy]], [[wiki/people/brandon-hill]], [[wiki/work/bfs-foods]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/work/bfs-foods]], [[wiki/timeline/periods/2025-collapse]], [[wiki/self/facebook]] (recent), [[wiki/people/alexander-jackson]] (parallel authority themes in housing).
 
-**Notes:** LC application follow-up pending per open questions in bootloader. Same-building caveat: Anita/Brandon gossip pipeline remains. Strong contrast to Anita confabulation/reversals documented in group text + recording. Defer to raw csv for any direct Kim-Dan messages.
+**Notes:** LC application follow-up pending per [[wiki/meta/open-questions|open questions]] in bootloader. Same-building caveat: Anita/Brandon gossip pipeline remains. Strong contrast to Anita confabulation/reversals documented in group text + recording. Defer to raw csv for any direct Kim-Dan messages.
+
+---
+
+**Up:** [[wiki/people/index|People]]

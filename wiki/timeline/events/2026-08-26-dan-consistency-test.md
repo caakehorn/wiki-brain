@@ -129,3 +129,7 @@ Not the feelings.
 **The conduct.**
 
 That is the thing worth watching.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

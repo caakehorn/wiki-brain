@@ -260,3 +260,7 @@ confirming or disconfirming instance either way.
   already unresolved there: whether any contact exists post-transition. One
   sentence from the operator would convert this page's central limit case
   into either a confirming or a genuinely disconfirming instance.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

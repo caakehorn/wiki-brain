@@ -154,7 +154,7 @@ the decade is also the only major relational event in the corpus with
 zero documented turbulence: no fight, no confession, no detectable
 perturbation in the Annie thread. Compared against the years of forensic
 litigation the *authorized* arrangement produced, the Valeria episode is
-the cleanest control case for what the conflict architecture actually
+the cleanest control case for what the [[wiki/mind/concepts/conflict-architecture|conflict architecture]] actually
 runs on — discovered violations, not violations as such.
 
 > **REVISED [2026-07-13]:** The earlier "2021–2022 window" narrowing was
@@ -175,3 +175,7 @@ learned of her" gap is now **partially closed**: the Nov 3, 2024 message
 shows Dan openly telling Annie about the re-contact (and that Annie had
 trained her) — but whether Annie ever learned of the 2021–22 *affair*
 itself remains undocumented.
+
+---
+
+**Up:** [[wiki/people/index|People]]

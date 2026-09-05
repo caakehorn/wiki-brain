@@ -83,3 +83,7 @@ the $50 claim reads as pattern rather than accident.
 discrepancy (valid-scanning ID vs. Anita's "not old enough" framing); his
 status after the ban reversal; whether the vape sales to him continued or
 drew any consequence.
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -49,25 +49,25 @@ The capture opens with a bracket instruction to lay out the growing mainstream p
 
 Dan aligned most closely with the freeskiing culture and was specifically a product of the **Tanner Hall era**. This was the moment when the skill threshold in slopestyle terrain-park skiing blew out: in a span of a few years, the top-tier hits went from Johnny Mosely doing a basic rotation to Candide Thovex corking 450s onto flat-down rails with style. The capture frames this as a skill-expansion window that matched Dan's own adolescent development curve.
 
-The Tanner Hall era also names the local mountain where this played out: **Seven Springs**, where Dan's family owned a ski-in-ski-out condo in the Villages — unit K2. The resort's park infrastructure grew dramatically across Dan's skiing years. When he started, there was one park on the north face with a 12-foot halfpipe (always beat up, placed with so little run-in it was nearly useless), a rope tow so hiking was unnecessary, and a slopestyle section with 3–4 features — two small jumps where any inversion was precarious, and two real park rails (usually a flat bar or flat down). The grom park was five-foot boxes hit by nine-year-olds with Volkl racing skis and full-face helmets who never attempted spins.
+The Tanner Hall era also names the local mountain where this played out: **[[wiki/places/seven-springs|Seven Springs]]**, where Dan's family owned a ski-in-ski-out condo in the Villages — unit K2. The resort's park infrastructure grew dramatically across Dan's skiing years. When he started, there was one park on the north face with a 12-foot halfpipe (always beat up, placed with so little run-in it was nearly useless), a rope tow so hiking was unnecessary, and a slopestyle section with 3–4 features — two small jumps where any inversion was precarious, and two real park rails (usually a flat bar or flat down). The grom park was five-foot boxes hit by nine-year-olds with Volkl racing skis and full-face helmets who never attempted spins.
 
 By the 2006 season, Seven Springs had become the "premiere terrain park of the mid-Atlantic" with a full dedicated slopestyle run containing several dozen features. The capture credits the Nuttings' takeover with the budget infusion that made it happen: an Olympic-sized pipe cutter, real park crews who knew how to build hits, and money flooding in.
 
 ## The 4Bi9 thread
 
-Tom Wallisch — the skier who would define the 2007–2012 era of freeskiing — showed up at Seven Springs a few times a year and, in the capture's framing, "made a MESS of the park for a day" before deciding that the less-developed parks at Roundtop and Liberty were preferable because of their scene culture. That scene culture — the "vibrant collection of people" at Roundtop and Liberty — is what became **4Bi9 Media**, the film crew that would take the sport by storm. Wallisch himself is named as the shredder they would get to know, the person who was already showing up at Seven Springs before he was famous.
+[[wiki/people/tom-wallisch|Tom Wallisch]] — the skier who would define the 2007–2012 era of freeskiing — showed up at Seven Springs a few times a year and, in the capture's framing, "made a MESS of the park for a day" before deciding that the less-developed parks at Roundtop and Liberty were preferable because of their scene culture. That scene culture — the "vibrant collection of people" at Roundtop and Liberty — is what became **4Bi9 Media**, the film crew that would take the sport by storm. Wallisch himself is named as the shredder they would get to know, the person who was already showing up at Seven Springs before he was famous.
 
 ## Rollerblading: Vans Skatepark and Woodward
 
 In the summer, rollerblading filled the same identity function skiing held in winter. Two annual events were "as good for me as Christmas":
 
-**Vans Skatepark: Potomac Mills Mall.** For three years (probably 2001–2003), Dan's birthday party was a weekend-long excursion to the Vans Skatepark a few hours away. Suz would load 5–6 kids in the car, leave right after school Friday, and return Monday morning at about 1 AM. The trip was taken in conjunction with the Kraus family — Matt Kraus was probably Dan's closest childhood friend, and the Krauses owned a condo a couple hundred feet away at Seven Springs. The Kraus kids and Dan's friends had overlapping extreme-sports interest; the Krauses went to Catholic school and ran a different broader friend group, so the logistics breakdown was: Krauses bring 3, Dan brings 5, Suz and Kathy Kraus handle organization for all three years.
+**Vans Skatepark: Potomac Mills Mall.** For three years (probably 2001–2003), Dan's birthday party was a weekend-long excursion to the Vans Skatepark a few hours away. Suz would load 5–6 kids in the car, leave right after school Friday, and return Monday morning at about 1 AM. The trip was taken in conjunction with the Kraus family — [[wiki/people/matt-kraus|Matt Kraus]] was probably Dan's closest childhood friend, and the Krauses owned a condo a couple hundred feet away at Seven Springs. The Kraus kids and Dan's friends had overlapping extreme-sports interest; the Krauses went to Catholic school and ran a different broader friend group, so the logistics breakdown was: Krauses bring 3, Dan brings 5, Suz and Kathy Kraus handle organization for all three years.
 
 One year Dan insisted on buying the biggest LoveSac circular cushion and used it as a bed. A year or two later he lost his virginity on it. "It was a very crowded ride home with that and 5 kids lol."
 
 **Camp Woodward.** Four summers were spent at Camp Woodward in Pennsylvania — three for rollerblading, the fourth for the newly created ski camp. Woodward was a gymnastics camp, which meant buildings full of massive rec-trampolines; the trampoline training was already Dan's primary summer ski training before Woodward formalized a ski program. Staff at Windell's in Whistler BC — the more aspirational destination — were mid-level name pro skiers; Woodward staff were gymnastics coaches. The capture draws the cultural distinction sharply: "no campers were bringing weed to camp woodward...not true of Windell's."
 
-Dan attended with Matt Kraus and Nathan King for the first three years. On year three, Matt Kraus broke his arm trying a front flip on the outdoor concrete near the Cloud 9 park.
+Dan attended with Matt Kraus and [[wiki/people/nathan-king|Nathan King]] for the first three years. On year three, Matt Kraus broke his arm trying a front flip on the outdoor concrete near the Cloud 9 park.
 
 ## Class and disposable income
 
@@ -75,4 +75,8 @@ The capture explicitly flags the Vans Skatepark trip sequence as a class-signali
 
 ## Corpus gaps
 
-No intake-digital record (YouTube watch history, social media posts) documents this era in the corpus — it predates the Twitter record (2009) and the iMessage record (2015). The reconstruction is built entirely from this one manual capture. Specific dating of the 2001–2003 Vans trips, the exact years of the Woodward attendance, and the 2006 terrain-park expansion at Seven Springs are not independently confirmed outside this source.
+No intake-digital record ([[wiki/self/youtube-watch-history|YouTube watch history]], social media posts) documents this era in the corpus — it predates the Twitter record (2009) and the iMessage record (2015). The reconstruction is built entirely from this one manual capture. Specific dating of the 2001–2003 Vans trips, the exact years of the Woodward attendance, and the 2006 terrain-park expansion at Seven Springs are not independently confirmed outside this source.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]]

@@ -60,9 +60,13 @@ Ties to [[wiki/work/tech/max-framework/overview]] (MAX adversarial) and imessage
 | [[wiki/work/tech/imessage-tooling/overview]] | Core dependency | Export scripts + responder build + portal |
 | [[wiki/work/tech/max-framework/overview]] | Hybrid mode | Grok subagents blend CATO forensic + MAX adversarial |
 | [[wiki/self/context-core]] | Data source | 97k+ iMsgs; stable voice baseline for tooling |
-| [[wiki/mind/synthesis/ai-collaborative-analysis]] | Usage pattern | Prosthetic + lossless retention loops |
+| [[wiki/mind/synthesis/ai-collaborative-analysis]] | Usage pattern | Prosthetic + [[wiki/mind/concepts/forensic-method|lossless retention]] loops |
 | [[wiki/self/message-corpora/master-message-dump]] | Output consumer | CSV from exports populate corpus tables |
 | [[wiki/self/facebook]] + [[wiki/timeline/periods/2025-collapse]] | Ingest cross | FB + message data analyzed via Grok tooling |
 | [[wiki/people/max]] | Persona | MAX prime loaded alongside Grok sessions |
 
 **Notes:** Raw/tech/grok-build/ currently empty (data from dox + workspace binaries). Update post new builds. Grok routes via OpenRouter in env per home CLAUDE.md. Defer to raw for exports. Heavy use of search/grep/read for wiki tasks. Subagent schema enforcement: YAML frontmatter, tables-first, wiki-path links, raw/ deferral.
+
+---
+
+**Up:** [[wiki/work/index|Work]] › [[wiki/work/tech/index|Tech]]

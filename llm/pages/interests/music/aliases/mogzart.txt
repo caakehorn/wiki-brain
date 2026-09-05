@@ -74,3 +74,7 @@ The 2026 revival settles the earlier "archive/revival candidate" question: MOGZA
 - [[wiki/interests/music/aliases/gripnotic]] (successor)
 - [[wiki/interests/music/aliases/sloppp]] (predecessor)
 - [[wiki/interests/music/concepts/sub-bass-signature]]
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/music/index|Music]]

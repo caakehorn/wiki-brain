@@ -524,15 +524,15 @@ her there while he was asleep, repeatedly enough to be a habit worth a joke.
 
 ### The mechanism, checked against the constitution
 
-- **Cognitive stack** (`wiki/mind/profile/intp`) — **moved it.** Ti-dominant at
+- **Cognitive stack** ([[wiki/mind/profile/intp]]) — **moved it.** Ti-dominant at
   96% latent against **Fe-inferior at 10% valuing**: the function whose job is
   the public relational display is the one nearly absent. A sustained
   affectionate broadcast register is Fe work, and this stack does not have the
   budget for it. The measured prediction is that such a register is a burst,
   not a baseline — which is exactly the 2010 shape, twelve of thirty-two in one
   year and three in the four years after.
-- **Romantic and relational state** (`wiki/mind/synthesis/the-unbroken-bond`,
-  `wiki/mind/concepts/attachment-model`) — **moved it, and this is the load
+- **Romantic and relational state** ([[wiki/mind/synthesis/the-unbroken-bond]],
+  [[wiki/mind/concepts/attachment-model]]) — **moved it, and this is the load
   bearer.** That page's central claim about Alexis is *occupancy without
   activation*: the attachment slot continuously filled 2009–2015 with the deep
   system never engaging, which is what makes her the control the Annie
@@ -542,14 +542,14 @@ her there while he was asleep, repeatedly enough to be a habit worth a joke.
   continuous cohabitation with a public register at zero, recorded as it
   happened by a man who was that year naming more people publicly than in any
   year of his life.
-- **Attitudes and forces** (`wiki/mind/concepts/the-cool-metric`) — **moved
+- **Attitudes and forces** ([[wiki/mind/concepts/the-cool-metric]]) — **moved
   it.** That page names *"splitting via irony"* as a standing operating mode: a
   confrontational, high-intensity, anti-normie persona filtered through deep
   irony. The 2013 register is that mode pointed at a live-in partner — the
   OkCupid line, the Eva Braun joke, *"catch a slug to the fvcε"* — and the
   corpus had only ever documented it aimed at strangers and at the audience.
-- **Health** (`wiki/health/chemical-architecture`) — checked, **cannot
-  answer**. 2014 is inside the blind window above; the ledger has no events and
+- **Health** ([[wiki/health/chemical-architecture]]) — checked, **cannot
+  answer**. 2014 is inside the blind window above; [[wiki/health/intake-ledger|the ledger]] has no events and
   the message corpora have no rows.
 - **Historical precedent** — checked, **left it standing.**
   [[wiki/mind/synthesis/dormancy-not-exit]] holds that nothing leaves the graph
@@ -956,3 +956,7 @@ and months-long concealment (2014 here, late-2014/early-2015 on
 [[wiki/legal/2015-possession-arrest]] and [[wiki/places/155-virginia-ave]])
 is unresolved — see the note under [The hidden year
 (2014)](#the-hidden-year-2014).
+
+---
+
+**Up:** [[wiki/people/index|People]]

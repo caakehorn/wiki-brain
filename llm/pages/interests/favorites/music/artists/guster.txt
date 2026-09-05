@@ -24,9 +24,13 @@ All dates, venues, cities, and notes below are taken from the source table and p
 
 | Date | Show / Context | Venue | City | Note |
 |------|---------------|-------|------|------|
-| Jul 24, 2002 | Multi-act show | Post-Gazette Pavilion | Burgettstown, PA | Vertical Horizon credited opener that night (Guster co-billed other years). |
+| Jul 24, 2002 | Multi-act show | Post-Gazette Pavilion | Burgettstown, PA | [[wiki/interests/favorites/music/artists/vertical-horizon|Vertical Horizon]] credited opener that night (Guster co-billed other years). |
 
 ## Notes per appearance
 
 - **Jul 24, 2002** — Multi-act show, Post-Gazette Pavilion, Burgettstown, PA. Vertical Horizon credited opener that night (Guster co-billed other years).
-  Co-billed with: Barenaked Ladies, Vertical Horizon.
+  Co-billed with: [[wiki/interests/favorites/music/artists/barenaked-ladies|Barenaked Ladies]], Vertical Horizon.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

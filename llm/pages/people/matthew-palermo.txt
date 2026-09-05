@@ -77,3 +77,7 @@ around" but is "pretty much the same guy all the time finally" now —
 **Gaps:** the brother's first name and exact date of death; Matthew's
 current circumstances beyond the Feb 2020 update (house, HVAC/
 refrigeration trade, plans to relocate near the Outer Banks).
+
+---
+
+**Up:** [[wiki/people/index|People]]

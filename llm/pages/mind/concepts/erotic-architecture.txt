@@ -229,3 +229,7 @@ reason. The ninety days after August 19, 2026 are the window — the same test
 [[wiki/mind/synthesis/single-channel]] is running on its own claim, and the
 two should resolve together or the disagreement between them is itself a
 finding.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

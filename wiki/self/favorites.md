@@ -52,10 +52,10 @@ High music concentration. Books and art provide secondary intellectual/cultural 
 | Artist              | Count |
 |---------------------|-------|
 | JPEGMAFIA           | 13    |
-| Kanye West          | 11    |
-| My Chemical Romance | 9     |
-| New Found Glory     | 8     |
-| Elliott Smith       | 7     |
+| [[wiki/interests/favorites/music/artists/kanye-west|Kanye West]]          | 11    |
+| [[wiki/interests/favorites/music/artists/my-chemical-romance|My Chemical Romance]] | 9     |
+| [[wiki/interests/favorites/music/artists/new-found-glory|New Found Glory]]     | 8     |
+| [[wiki/interests/favorites/music/artists/elliott-smith|Elliott Smith]]       | 7     |
 | rSUN                | 7     |
 | LYNY                | 7     |
 | Taking Back Sunday  | 6     |
@@ -65,7 +65,7 @@ High music concentration. Books and art provide secondary intellectual/cultural 
 | Effin               | 6     |
 | Mau P               | 6     |
 | A$AP Rocky          | 5     |
-| Bloc Party          | 5     |
+| [[wiki/interests/favorites/music/artists/bloc-party|Bloc Party]]          | 5     |
 
 ### Source Breakdown
 | Origin                              | Count |
@@ -130,7 +130,7 @@ Top recurring tags across the 120 books:
 - jan-6 (inferred from titles like Cheney, Schiff, and tag patterns)
 - war, ancient-history, roman-republic (via Hardcore History, Goldsworthy, Plutarch)
 
-Heavy emphasis on American political history, recent events (Trump era, Jan 6), and institutional critique. Aligns with broader self-corpus themes of skepticism toward power, narrative construction, and forensic analysis of events.
+Heavy emphasis on American political history, recent events (Trump era, Jan 6), and institutional critique. Aligns with broader self-corpus themes of skepticism toward power, narrative construction, and [[wiki/mind/concepts/forensic-method|forensic analysis]] of events.
 
 ## Minor Categories
 
@@ -157,6 +157,10 @@ Source was provided in `ingest/FAVS MASTERLIST.csv` (new default staging locatio
 
 No individual My Ratings for music entries in this export. Music data is primarily consumption / "liked" signal rather than rated. Books have richer metadata.
 
-**2026-06-23 Re-analysis Update:** Confirmed 1,477 unique artists, 3 balanced clusters (~90+ tracks indicative each: exp hip-hop, emo/rock, bass/electronic), heavy 2025-2026 releases (aligns [[wiki/timeline/periods/2025-collapse]] reactivation), FB music likes overlaps (Elliott Smith, FOB, Say Anything, Lil Wayne + 2007-14 continuity). See [[wiki/interests/favorites/index]], [[wiki/interests/favorites/music]], [[wiki/interests/favorites/books]], [[wiki/interests/favorites/art-and-movies]] for expanded tables + [[wiki/mind/synthesis/totality-themes]].
+**2026-06-23 Re-analysis Update:** Confirmed 1,477 unique artists, 3 balanced clusters (~90+ tracks indicative each: exp hip-hop, emo/rock, bass/electronic), heavy 2025-2026 releases (aligns [[wiki/timeline/periods/2025-collapse]] reactivation), FB music likes overlaps (Elliott Smith, FOB, Say Anything, [[wiki/interests/favorites/music/artists/lil-wayne|Lil Wayne]] + 2007-14 continuity). See [[wiki/interests/favorites/index]], [[wiki/interests/favorites/music]], [[wiki/interests/favorites/books]], [[wiki/interests/favorites/art-and-movies]] for expanded tables + [[wiki/mind/synthesis/totality-themes]].
 
 This page should be updated on future masterlist exports.
+
+---
+
+**Up:** [[wiki/self/index|Self]]

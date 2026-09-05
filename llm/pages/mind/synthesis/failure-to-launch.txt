@@ -88,6 +88,9 @@ connections:
   - page: wiki/interests/music/aliases/sloppp
     type: contradicts
     claim: "The one documented project that did not fail to launch: 29 releases in the last four months of 2013, 16 in September alone, sustained through 2014. What is missing is not output or follow-through but any external result — and the verdict against it was posted by its author in the hashtags of its own announcements."
+  - page: wiki/self/twitter/replies
+    type: evidenced-by
+    claim: "The November 2012 O&A internship approach was answered and the application actually submitted — 'thanks, i just sent in an app' follows the inquiry within days — narrowing what went unanswered from the approach to the application itself."
 ---
 
 # Failure to Launch — The Capability Audit
@@ -183,7 +186,7 @@ single sentence in this section and it is a negative result, which
 STYLE_GUIDE rule 7 weights the same as a positive one.
 
 Music: four production aliases across thirteen years — SLOPPP, MOGZART,
-MOGGED UP, and [[wiki/interests/music/aliases/gripnotic|GRIPNOTIC]], active
+[[wiki/interests/music/aliases/mogged-up|MOGGED UP]], and [[wiki/interests/music/aliases/gripnotic|GRIPNOTIC]], active
 since 2016 and still the live brand. A confirmed involuntary sub-bass signature
 running 63–85% across all four. The March 2026 DnB remixes are described as
 the first shipped music of the new era.
@@ -424,7 +427,7 @@ a sketch rather than a normed population.**
 | Hyper-specific linguistic style | 97 | **Partially confirmed** — distinctiveness is measurable in the corpus; the 97 itself is a model's number |
 | Recursive self-analysis as a life project | 98 | Self-demonstrating rather than independent — the audit is an instance of the thing it scores |
 | Engineered poly-substance dependence | 99 | Testimony; the substance record is documented but the percentile is not derived from any population |
-| Psychosexual operating system | 96 | Single-model judgment at the audit's own lowest confidence (90%) |
+| [[wiki/mind/psychosexual/index|Psychosexual operating system]] | 96 | Single-model judgment at the audit's own lowest confidence (90%) |
 | Intellect/impulsivity paradox | 95 | Rests on the Big30 battery, which is self-administered |
 | Remaining four | 80–92 | Single-model judgment, no external check |
 
@@ -436,7 +439,7 @@ So the honest formulation is this. **On two dimensions the corpus can actually
 count, Dan is a genuine statistical outlier against a real comparison
 population of 503 people: relational concentration and probabilistic
 self-expression. One of those is a skill. The other is a liability** — a Gini of
-0.9601 with no failover is the structural cause of most of what
+0.9601 with [[wiki/mind/synthesis/single-channel|no failover]] is the structural cause of most of what
 [[wiki/mind/synthesis/the-rescue-premise]] and
 [[wiki/mind/concepts/reassurance-architecture]] describe. Everything else in the
 "living edge case" verdict is an instrument reasoning about material Dan
@@ -687,3 +690,7 @@ was made in. This wiki is the current candidate and it is too young to count.
    Impulsiveness-96 versus persistence-95 contradiction predicts that a
    goal-completion battery would return a very different number than the
    conscientiousness one did. Nobody has administered one.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

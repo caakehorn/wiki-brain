@@ -526,7 +526,7 @@ Having read the corpus laterally she can see the template, and the template is
 the problem: Ne-dominance is very good at spotting a repeated form, and any
 approach that has a form will be recognised as one.
 
-**Surveillance and boundary pressure.** The 2019 spoofing of Dan Polyak's
+**Surveillance and boundary pressure.** The 2019 spoofing of [[wiki/people/dan-polyak|Dan Polyak]]'s
 number, which Polyak called *"jarring and extremely creepy"* and threatened
 legal action over; the self-reported Google searches (*"modelmayhem ally
 lubin," "boca raton ally lubin"*); the protonmail incident she raises herself
@@ -663,3 +663,7 @@ Each of these is answerable by the operator in a paragraph.
   diagnosis for Ally exists anywhere in `raw/`. The suicidality material is
   self-report inside message threads, not assessment, and this page makes no
   clinical claim from it.
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -50,7 +50,7 @@ connections:
 
 # Ancestry (Hub)
 
-Dan Frank's ancestry is a multi-generational blend of Eastern European Jewish (Frank/Harris line from Russia and Austria), Anglo-American Protestant (Gillingham/Lewellen/Van Voorhis), and Appalachian-rooted families centered in southwestern Pennsylvania (Uniontown, Brownsville, Hopwood) and Pittsburgh. Several lines trace back to early 20th-century immigrants — notably David J. Frank from Russia and Sadie Harris from Austria — while others reflect long-standing Pennsylvania residents and professionals (e.g., Dr. George Dale Gillingham, DDS).
+Dan Frank's ancestry is a multi-generational blend of Eastern European Jewish (Frank/Harris line from Russia and Austria), Anglo-American Protestant (Gillingham/Lewellen/Van Voorhis), and Appalachian-rooted families centered in southwestern Pennsylvania (Uniontown, Brownsville, Hopwood) and Pittsburgh. Several lines trace back to early 20th-century immigrants — notably [[wiki/people/david-j-frank|David J. Frank]] from Russia and Sadie Harris from Austria — while others reflect long-standing Pennsylvania residents and professionals (e.g., Dr. George Dale Gillingham, DDS).
 
 This hub integrates two independent evidentiary streams:
 
@@ -66,7 +66,7 @@ Please see the following pages for detailed records and analysis:
 
 ## Summary of Findings
 
-The 23andMe data and the documentary record confirm each other at the population level. Dan is 99.7% European, with 21.4% Ashkenazi Jewish ancestry matching the known paternal Jewish immigrant line (David J. Frank from Russia, Sadie Harris from Austria) and 78.3% Northwestern European matching the known maternal lines (Gillingham, Lewellen, Shrum, Van Voorhis, Coldren, Thomas, Conwell) that have been rooted in Pennsylvania and West Virginia since the 1700s.
+The 23andMe data and the documentary record confirm each other at the population level. Dan is 99.7% European, with 21.4% Ashkenazi Jewish ancestry matching the known paternal Jewish immigrant line (David J. Frank from Russia, [[wiki/people/sadie-harris|Sadie Harris]] from Austria) and 78.3% Northwestern European matching the known maternal lines (Gillingham, Lewellen, Shrum, Van Voorhis, Coldren, Thomas, Conwell) that have been rooted in Pennsylvania and West Virginia since the 1700s.
 
 Within that broad confirmation, the genomic data introduces anomalies the paper trail cannot explain: a maternal mitochondrial haplogroup (R0) that is unusual for an ostensibly purely Appalachian Protestant line, a paternal Y-DNA haplogroup (R-Z93) more common in Central/South Asia than typical Ashkenazi populations, and a 0.2% Sub-Saharan African trace that has no documentary counterpart. The genomic data also refines what the paper trail suggests: the 21.4% Ashkenazi figure is slightly below the ~25% expected from one fully-Jewish grandparent, a variance that is within normal DNA recombination range but that could also indicate mixed ancestry in the Frank line or a non-paternity event.
 
@@ -76,7 +76,7 @@ Within that broad confirmation, the genomic data introduces anomalies the paper 
 
 The Ashkenazi Jewish immigrant line. Morley's parents — David J. Frank (b. 1892, Russia; d. 1960, Brownsville, PA) and Sadie Harris (b. 1900, Austria; d. 1997, Hopwood, PA) — represent the classic pogrom-era flight from Eastern Europe. But the family did not flee directly into the Appalachian coal patch. A direct read of the GEDCOM places David J. Frank in Manhattan in 1900, 1905, and 1910 and in the Bronx in June 1915, reaching Brownsville only by the 1920 census. The immigration terminated in New York City, and the family moved to Fayette County fifteen years later, as a second and separate decision.
 
-Morley Jay Frank was born in Brownsville, Pennsylvania, served in the military (enlisted 24 October 1945 in Pittsburgh), lived briefly in Seattle in 1957, and then collapsed back to Uniontown/Hopwood/Champion for the rest of his life. He died 13 December 1998 in Hopwood and is buried there. His migration arc — brief westward eruption followed by permanent return to the Fayette County gravity well — is the template Dan's own Full Sail → NYC → return-to-Uniontown arc repeats twice over (2013, then definitively February 2025).
+[[wiki/people/morley-frank|Morley Jay Frank]] was born in Brownsville, Pennsylvania, served in the military (enlisted 24 October 1945 in Pittsburgh), lived briefly in Seattle in 1957, and then collapsed back to Uniontown/Hopwood/Champion for the rest of his life. He died 13 December 1998 in Hopwood and is buried there. His migration arc — brief westward eruption followed by permanent return to the Fayette County gravity well — is the template Dan's own Full Sail → NYC → return-to-Uniontown arc repeats twice over (2013, then definitively February 2025).
 
 The Frank patrilineal line extends to Henry Frank (b. abt 1815, Germany; d. 1901, Manhattan) and Dorothea Christiana Charlotta Francken (b. 1781), placing the family's German roots five generations back. Henry Frank's residence history — New York City from at least 1843 through 1901 — establishes the Frank family as early Ashkenazi immigrants who arrived in the pre-Civil War wave rather than the later 1880–1920 wave.
 
@@ -96,13 +96,13 @@ The Shrum line extends through Daniel E. Shrum Jr. (abt 1846) and Reuben Shrum (
 
 Daniel E. Shrum Jr. and Ida M. Dixon married in 1875 and had at least six children, of whom G. Dixon Shrum (abt 1896–1960) is the direct line. One of his older brothers, **Daniel Shrum** (b. 11 April 1884, Pennsylvania), was still single and living at home per the 1900 census (Irwin Ward 2, Westmoreland County) and died 11 December 1918 in Greensburg, Westmoreland County, at age 34 — a death date that falls inside the second, deadliest wave of the 1918 influenza pandemic in Pennsylvania (which peaked in the state that October–December), though the GEDCOM carries no attached cause of death and this reading is inference, not documentation. He never appears elsewhere in the corpus; this is a collateral relative (a great-granduncle, 0% DNA contribution) rather than a direct ancestor, and the fact is recorded here as exactly the kind of mundane, previously-unmined GEDCOM detail `EXTRACTION_SPEC.md` argues is worth keeping even when nothing else connects to it yet.
 
-George Dixon Shrum Jr.'s own life traces a Fox Chapel → Pittsburgh trajectory, with documented residence at multiple Pittsburgh addresses from 1940 through 2020. He married Rebecca Diane Van Voorhis Jr. in 1961, linking the Pittsburgh industrial line to the Appalachian coal-country line.
+George Dixon Shrum Jr.'s own life traces a Fox Chapel → Pittsburgh trajectory, with documented residence at multiple Pittsburgh addresses from 1940 through 2020. He married [[wiki/people/diane-moore|Rebecca Diane Van Voorhis]] Jr. in 1961, linking the Pittsburgh industrial line to the Appalachian coal-country line.
 
 ### Maternal Grandmother: Rebecca Diane Van Voorhis Jr. (b. 1939)
 
 The Appalachian chaos engine. Rebecca Diane Van Voorhis Jr. ("Diane," also known as Dian Shrum) is the line's one documented departure from the Pennsylvania/West Virginia region — she lived in Farmington Hills, Michigan, from 1985 to 2010, and in Stanwood, Michigan, from 2013 to 2020. She was born in West Virginia and represents the most fragmented, chaotic, and geographically dispersed of the four grandparental lines.
 
-Her mother, Jesse Frances Thomas Whyel Coldren (1920–2018), is a nexus of genealogical complexity. Born Jesse Frances Thomas in Fort Martin, West Virginia, she married three times (Whyel, then Coldren, then back to Van Voorhis via her daughter's marriage), carrying a shifting name structure that points to a life marked by multiple marriages and likely significant hardship. Her trajectory — Adkin, McDowell County, WV → Cass, Monongalia County, WV → Smithfield, Fayette County, PA → Miami Beach, FL → Uniontown, PA — is the most geographically mobile of any ancestor in the tree.
+Her mother, [[wiki/people/fran-coldren|Jesse Frances Thomas]] Whyel Coldren (1920–2018), is a nexus of genealogical complexity. Born Jesse Frances Thomas in Fort Martin, West Virginia, she married three times (Whyel, then Coldren, then back to Van Voorhis via her daughter's marriage), carrying a shifting name structure that points to a life marked by multiple marriages and likely significant hardship. Her trajectory — Adkin, McDowell County, WV → Cass, Monongalia County, WV → Smithfield, Fayette County, PA → Miami Beach, FL → Uniontown, PA — is the most geographically mobile of any ancestor in the tree.
 
 The Thomas family (Marion Edward Thomas Sr., b. 1877; Robert M. Thomas, b. abt 1851; Hezekiah Thomas, b. abt 1807) has deep, multi-generational roots in Monongalia County, West Virginia, representing a core Appalachian identity. The Conwell line (Ida Ellen Conwell, b. 1880, WV; Thomas P. Conwell, b. abt 1844) and the Zearly line (Susan A. Zearly, b. 1845, WV) are similarly rooted in the West Virginia coal country.
 
@@ -342,3 +342,7 @@ For the full detailed records, see:
 - [[wiki/self/lineage/family-tree]] — The complete GEDCOM extraction: 515 individuals, 218 families, 90 direct ancestors, 7 generations, all documented birth/death/residence events, all migration corridors, all surname frequencies.
 - [[wiki/self/lineage/23andme-genomics]] — The complete 23andMe extraction: ancestry composition with sub-regions, haplogroups (R0 maternal, R-Z93 paternal), ancestry timeline, Neanderthal 95th percentile, 14 health predispositions, 46+ carrier status reports (ARSACS detected), 8 wellness reports, 37+ trait reports.
 - [[wiki/self/lineage/hybrid-analysis]] — The cross-referenced analysis: where the genomic and documentary records corroborate each other, where they diverge, and where the reading crosses from corroborated fact into interpretive frame.
+
+---
+
+**Up:** [[wiki/self/index|Self]]

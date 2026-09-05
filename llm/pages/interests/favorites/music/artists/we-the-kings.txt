@@ -29,4 +29,8 @@ All dates, venues, cities, and notes below are taken from the source table and p
 ## Notes per appearance
 
 - **Dec 12, 2008** — Multi-act show, House of Blues, Orlando, FL. Resolved. XL 106.7 'XL-ent Electric Xmas'.
-  Co-billed with: Fall Out Boy, The Academy Is....
+  Co-billed with: Fall Out Boy, [[wiki/interests/favorites/music/artists/the-academy-is|The Academy Is]]....
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

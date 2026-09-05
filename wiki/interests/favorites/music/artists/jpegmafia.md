@@ -34,3 +34,7 @@ The political content is inseparable from the sonic content. The confrontational
 ## The Count
 
 13 tracks from someone whose albums don't have obvious singles in the radio sense means these aren't the popular ones — they're the ones that earned repeat plays through something more specific. JPEGMAFIA rewards close listening in ways that passive consumption doesn't register. The track count is evidence of that kind of engagement.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

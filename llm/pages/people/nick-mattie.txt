@@ -104,7 +104,7 @@ Facebook."
 The ending needs no drama to explain it. Dan's side of the frequency
 simply stops after May 12; Nick's last three messages over eight weeks
 ("Wanna do me favor for something in return?", "Can you locate", "The
-hell are you doing duder") go nowhere. Given the ledger's mutual-debt
+hell are you doing duder") go nowhere. Given [[wiki/health/intake-ledger|the ledger]]'s mutual-debt
 mechanics, an unresolved balance is a plausible but undocumented cause;
 equally plausible is the ordinary churn of the
 [[wiki/timeline/periods/2017-poverty-floor|2017 floor]], where most
@@ -124,3 +124,7 @@ the final ledger state and whether debt ended the contact; Nick's
 upstream source; the "Brian Brink"/HR job thread of May 7 (one
 fragment, uninterpretable); whether "Andy" is the corpus's Andy or
 another.
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -81,7 +81,7 @@ ran through ended inside the five hours that failure opened.
 
 Named directly on its own page as "the primary product moving through the
 supply network across its entire documented history" — from the 2015
-family-internal provision through the 2018 deep cycle to the 2026 daily
+family-internal provision through the [[wiki/timeline/periods/2018-deep-cycle|2018 deep cycle]] to the 2026 daily
 calls. The cocaine page is where the demand side of the network is
 quantified; the supply-network page is where the route is named. Together
 they close the loop the estate money opened: a lump of inherited capital,
@@ -109,3 +109,7 @@ would have to absorb. None is currently on any page in this route.
 **Gaps:** the route as walked here is the wiki's own retrospective account,
 assembled entirely from pages other passes already wrote; it adds no new
 figure and settles no open question either underlying page carries.
+
+---
+
+**Up:** [[wiki/meta/index|Meta]] › [[wiki/meta/journeys/index|Journeys]]

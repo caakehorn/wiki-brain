@@ -27,7 +27,7 @@ infobox:
 > withdrawn. The contractor exposure and the unreachability since March 2026 are untouched.
 
 
-**Role:** Contractor at 463 Morgantown St. Unreachable; work ~10-20% complete. Parallel mentions of Carney's Auto Repair Services in location history (possible variant or same network).
+**Role:** Contractor at 463 Morgantown St. Unreachable; work ~10-20% complete. Parallel mentions of Carney's Auto Repair Services in [[wiki/self/location-history|location history]] (possible variant or same network).
 
 ## Roles, Dates, Evidence, Ties Table
 
@@ -81,3 +81,7 @@ contracting counterparty demonstrably does not have — an October 2024 Chapter 
 with ~$157,000 scheduled, self-reported income of $11,000–$14,000 a year, and
 the sale of her only asset absorbed by the plan. The realistic outcome is that
 the work stays unfinished rather than that it is re-let and pursued.
+
+---
+
+**Up:** [[wiki/people/index|People]]

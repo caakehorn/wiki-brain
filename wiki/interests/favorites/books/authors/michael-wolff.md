@@ -34,3 +34,7 @@ This connects to a preference visible across the favorites list for raw access o
 ## The Gonzo Principle
 
 Wolff works best understood not as a journalist but as something closer to a participant-observer who happens to have a publishing deal. The ethical objections to his method (the unacknowledged recording, the reconstructed dialogue, the soft-pedaled sourcing) are real. They're also the same objections you'd raise against any primary source. The messiness is part of what makes it valuable — cleaned-up testimony is always less revealing than the thing that slipped out before anyone could shape it.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/books|Books]]

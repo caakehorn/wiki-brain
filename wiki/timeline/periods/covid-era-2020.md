@@ -95,3 +95,7 @@ Train Plan incident and the trading record — there is no documented
 account of remote work, isolation's effect on the relationship outside
 that one crisis, or health precautions taken. The exact months of
 sharpest isolation within 2020 are not pinned beyond the GPS year-total.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

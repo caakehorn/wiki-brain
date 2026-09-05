@@ -122,7 +122,7 @@ wronged, the wrongs were serious, and he is describing them accurately rather
 than through the distortion the wiki has repeatedly caught him under in earlier
 windows — but the verdict does not stop there, because the same fifteen minutes
 of audio he holds as proof of the betrayal is also the best corroboration in the
-corpus of the defence she offered, and because the ledger of harm inside these
+corpus of the defence she offered, and because [[wiki/health/intake-ledger|the ledger]] of harm inside these
 seventy hours does not run only one way.
 
 This page exists because [[wiki/mind/synthesis/dan-annie-fallout-verdict|the
@@ -585,3 +585,7 @@ corpus-wide rule it instantiates. **What it did not do, by the moratorium's
 own terms:** add, extend, date, or quote anything new about Annie —
 grievance 6's own scoring, evidence, and language are exactly as this page
 stated them before this pass.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

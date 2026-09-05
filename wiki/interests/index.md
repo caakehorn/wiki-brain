@@ -16,7 +16,7 @@ related: []
 - [[wiki/interests/the-office]] — not a rated favorite, but its comic grammar (the "Schrute Farms" concert alias, the "that's what she said" tic, the Michael Scott political comparator) is woven into the idiom.
 - [[wiki/interests/gore-vidal]] — hero-figure litmus test, a literal shelf object, and a deadpan groomsmen-bit constant; an identity anchor with no books entry.
 - [[wiki/interests/video-games]] — from the 2007 "slaying on halo" teen signal through the 2016–2018 PlayStation ownership/ban saga to the 2025 Wii/Xbox liquidation.
-- [[wiki/interests/extreme-sports]] — The adolescent identity layer (roughly age 11–17, ~2000–2006): aggressive inline rollerblading and slopestyle skiing at Seven Springs, Camp Woodward, and the Vans Skatepark birthday trips; Tanner Hall era freeskiing culture and the 4Bi9 Media scene.
+- [[wiki/interests/extreme-sports]] — The adolescent identity layer (roughly age 11–17, ~2000–2006): aggressive inline rollerblading and slopestyle skiing at [[wiki/places/seven-springs|Seven Springs]], Camp Woodward, and the Vans Skatepark birthday trips; Tanner Hall era freeskiing culture and the 4Bi9 Media scene.
 - [[wiki/interests/stand-up-comedy]] — not a passive favorite: a dated 2019 New York club-going run, a real ambition to perform (the "Nad Knarf" stage name, the five-minute open-mic goal), and comedy specials as a family ritual.
 - [[wiki/interests/opie-and-anthony]] — the single most-watched thing in his YouTube history: the 2012–13 shock-radio archive binge (~450 watches) that trained his humor and fed the live-comedy taste.
 - [[wiki/interests/film-canon]] — the 11-title movie list read as a real canon he evangelizes and tests partners with; Kubrick completism, Eyes Wide Shut as "favorite Christmas movie," and the King of Comedy/Taxi Driver self-portrait pair.
@@ -24,7 +24,7 @@ related: []
 
 ## language
 
-- [[wiki/interests/language/vocabulary-lexicon]] — two curated word batches from a single 2026-08-26 session, both graded by mechanism rather than synonymy: the cool metric run on language itself, ending on "aesthetic felony."
+- [[wiki/interests/language/vocabulary-lexicon]] — two curated word batches from a single 2026-08-26 session, both graded by mechanism rather than synonymy: [[wiki/mind/concepts/the-cool-metric|the cool metric]] run on language itself, ending on "aesthetic felony."
 
 ## favorites
 
@@ -76,7 +76,7 @@ related: []
 
 - [[wiki/interests/music/aliases/gripnotic]] — GRIPNOTIC is the operational alias, not an archive. It is the identity Dan promotes on Twitter (@danfrank,…
 - [[wiki/interests/music/aliases/mogged-up]] — Mogged Up exists as a practical release vehicle rather than an aesthetic identity. Bootleg imprints allow…
-- [[wiki/interests/music/aliases/mogzart]] — Context Core and Twitter samples reference MOGZART in the context of music promo alongside GRIPNOTIC,…
+- [[wiki/interests/music/aliases/mogzart]] — [[wiki/self/context-core|Context Core]] and Twitter samples reference MOGZART in the context of music promo alongside GRIPNOTIC,…
 - [[wiki/interests/music/aliases/sloppp]] — SLOPPP is the earliest production alias with a confirmed name in the context-core timeline. It emerges…
 
 ## music/concepts

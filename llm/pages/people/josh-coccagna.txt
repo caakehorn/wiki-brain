@@ -43,3 +43,7 @@ Josh Coccagna's relationship with Dan shifts registers entirely over its two-yea
 ## Related
 
 [[wiki/work/nemacolin-caddying]] · [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

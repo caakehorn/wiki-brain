@@ -61,3 +61,7 @@ admission, April 4 = death), with her thread as decisive evidence. Her thread sh
 ## Related
 
 [[wiki/timeline/events/fran-death-vigil]] · [[wiki/people/fran-coldren]] · [[wiki/people/annie-ulmer]] · [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

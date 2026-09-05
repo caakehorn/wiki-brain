@@ -171,3 +171,7 @@ is the more informative of the two.
   lot more work here,"* are what rule it out. A message showing the file was
   never finished or never delivered would narrow the claim from *fabricated*
   to *attempted*.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

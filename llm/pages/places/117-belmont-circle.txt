@@ -101,7 +101,7 @@ and one month** before Fran left it.
 | Sale closed, $250,000 | summer 2019 | operator testimony (uncorroborated) |
 
 That the family's arrival at this address is a **return from Florida** is
-worth holding against the other side of the tree, where Morley Frank's
+worth holding against the other side of the tree, where [[wiki/people/morley-frank|Morley Frank]]'s
 documented move runs Seattle 1957 → Uniontown 1959. Both of Dan's
 great-grandparental lines close a long-distance absence and land back in
 Fayette County inside the same three years. Neither knew the other was doing
@@ -291,3 +291,7 @@ records what happened to the contents — Fran held this house for fifty-seven
 years, and no inventory, no photograph and no account of its clearance exists
 anywhere in the corpus. The earlier failed listing likewise still rests
 entirely on Danny's four words, with no independent trace.
+
+---
+
+**Up:** [[wiki/places/index|Places]]

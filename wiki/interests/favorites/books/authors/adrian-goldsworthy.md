@@ -17,7 +17,7 @@ changelog:
 
 # Adrian Goldsworthy
 
-British military historian, Oxford-trained, whose career has been organized around a single sustained argument: that the Roman Republic fell not because of structural rot, but because it produced men too exceptional to operate within failing institutions. His biographies of Caesar, Scipio, and Pompey are less about individual greatness than about the tragedy of competence in a collapsing system.
+British military historian, Oxford-trained, whose career has been organized around a single sustained argument: that the [[wiki/interests/roman-republic|Roman Republic]] fell not because of structural rot, but because it produced men too exceptional to operate within failing institutions. His biographies of Caesar, Scipio, and Pompey are less about individual greatness than about the tragedy of competence in a collapsing system.
 
 ## In Favorites
 
@@ -34,3 +34,7 @@ Four books at this density signals something beyond casual interest in Roman aes
 ## Note on the 5-Star
 
 Among ancient history authors, Goldsworthy is the only one at 5 stars. The Caesar biography earns it not through hagiography but through the precise, almost surgical way it separates the man from the myth — a method that maps cleanly onto Dan's default forensic mode.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/books|Books]]

@@ -273,3 +273,7 @@ twelve years and sold it in **May 2020**; that date appears nowhere else in
 the corpus and should be treated as unverified until a Fayette County
 recorder search settles it. And the two-day discrepancy on Nathan Bacharach's
 death date stands.
+
+---
+
+**Up:** [[wiki/people/index|People]]

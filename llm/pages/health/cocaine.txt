@@ -39,6 +39,9 @@ synthesizes:
   - wiki/mind/concepts/acquisition-drive
 tags: [addiction-recovery, family, relationships, forensic-analysis, legal]
 connections:
+  - page: wiki/people/new-jim-shaffer
+    type: evidenced-by
+    claim: "A second dated cost figure, two years after the first and to an audience buying nothing: 'spent thousands on drugs' over 'a couple weeks' (2019-04-12) is >=~$143/day, consistent with the 2017 'well over $100 a day' and with ~1 g/day at his enforced $100/gram. Both figures have an upward incentive, so they narrow the band rather than settle it — but the arc's 3.5-7 g/day now has two independent points on the low side and none on the high. The same hour carries the only statement of the New York move as a chemical intervention: 'if i didnt move here when i did, rehab would have been in my future.'"
   - page: wiki/health/chemical-architecture
     type: component-of
     claim: "Cocaine is the stimulant layer of Dan's engineered substance stack — the 'CPU & RAM' atop a Suboxone 'chassis' — framed as a daily cognitive accelerant rather than a recreational drug."
@@ -261,6 +264,48 @@ batch into *"the Versace stuff"* and *"the Forever21 stuff"* and asking
 missing one: it makes every automated pass over this substance confidently
 wrong, which is exactly what happened — the first scan of the Vaughn thread
 reported four cocaine "mentions", all four of them golf balls and one idiom.
+
+### A second figure, two years later, to a different audience
+
+The section above rests on one number and names its own weakness: the audience
+was a prospective supplier and the error direction is upward. A second
+contemporaneous figure now exists, from a thread the same 2026-09-04 sweep
+opened ([[wiki/people/new-jim-shaffer]]), and it is not addressed to anybody
+selling anything.
+
+On **2019-04-12**, reciting a stand-up set he is writing to a childhood friend,
+the opening bit is:
+
+> *"i donated money to a friend (latie molchan) with cancer and spent a couple
+> weeks regretting it even though i **spent thousands on drugs** in that time"*
+
+**Arithmetic, stated so it can be argued with.** "A couple weeks" is ~14 days
+and "thousands" is ≥$2,000, which is **≥ ~$143/day** — consistent with the 2017
+*"well over $100 a day"* and still roughly **one gram a day** at the $100/gram
+price he enforced. Two independent figures, two years apart, two different
+audiences, landing in the same band.
+
+**They do not corroborate each other cleanly and the reason is worth stating.**
+The 2017 figure inflates to win a supplier; a self-incriminating comedy bit
+inflates because a bigger number is a better joke. **Both have an upward
+incentive, so agreement between them narrows the range without settling it.**
+What survives is that on two dated occasions two years apart, unprompted and to
+unrelated people, he put his own consumption at about a gram a day — against the
+3.5–7 g/day this page's arc asserts for the same period. The tension the section
+above declined to resolve is now the same tension with **two** points on the low
+side and none on the high.
+
+### And one line about the whole thing, from the same hour
+
+> *"no joke and between us if i didnt move here when i did, rehab would have
+> been in my future"* (2019-04-12)
+
+That is Dan treating the **New York move as an intervention** — not a career
+step or a relationship move but a chemical one, stated privately, in the middle
+of a conversation about money and comedy rather than about drugs. The corpus has
+no other statement of the move as a substance decision. In the same minutes he
+also states the rule he does keep: *"if you dont drink, and i mean like NEVER
+EVER drink, you avoid most problems. not drinking is the key."*
 
 ## The first measured night — 2026-08-30/31
 
@@ -539,7 +584,7 @@ better living" reading a bare dosage increase might otherwise invite.
   it is entirely self-directed and undocumented by any clinical source.
 - **Post-2026 dosage state**: partially answered, and narrowed rather than
   closed. The dosage arc is documented through the inheritance exhaustion
-  (~2020 onward) from self-report; the intake ledger now supplies one measured
+  (~2020 onward) from self-report; [[wiki/health/intake-ledger|the intake ledger]] now supplies one measured
   unit — 0.75 g over 9h 31m on 2026-08-30/31 — inside the stated 0.5–1 g/day
   band. What is still missing is any *rate*: one unit cannot say how many
   nights like it there are in a week, and the ledger's silence before
@@ -565,3 +610,7 @@ better living" reading a bare dosage increase might otherwise invite.
   *out* of this network rather than into or around it — is recorded, but
   whether Dan made any similar attempt with any other node (before or
   after) is not on record.
+
+---
+
+**Up:** [[wiki/health/index|Health]]

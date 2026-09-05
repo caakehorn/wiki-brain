@@ -44,7 +44,7 @@ is unusually strong evidence because it comes at the *expense* of the medium
 Dan is otherwise most invested in.
 
 On **8 April 2024**, having just read the standard modern syllabus on the fall
-of the Roman Republic — Tom Holland, four Adrian Goldsworthy volumes, Michael
+of the Roman Republic — Tom Holland, four [[wiki/interests/favorites/books/authors/adrian-goldsworthy|Adrian Goldsworthy]] volumes, Michael
 Parenti, Plutarch, all rated 4 or 5
 ([[wiki/interests/roman-republic]]) — he wrote:
 
@@ -129,3 +129,7 @@ including when it directly contradicted what he'd proposed.
 what, if any, channel or platform this was intended for; the "specific
 millennial-in-your-life" example the AI asked for and Dan never
 answered in the retained transcript.
+
+---
+
+**Up:** [[wiki/work/index|Work]] › [[wiki/work/tech/index|Tech]]

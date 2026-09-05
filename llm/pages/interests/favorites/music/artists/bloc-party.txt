@@ -25,3 +25,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 ## Notes per appearance
 
 - **Aug 7-9, 2012** — Bloc Party, Terminal 5, New York, NY. Three-night sold-out 'Four' run (recalled as 'Terminal 9').
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

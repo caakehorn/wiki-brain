@@ -48,7 +48,7 @@ Full Facebook data export (79 MB, generated Sep 5 2022) for the account **ihated
 | Current city / hometown | New York, NY / Uniontown, PA |
 | Relationship | With Anne Ulmer since November 28, 2015; previously [[wiki/people/danielle-onesi|Danielle Onesi]], [[wiki/people/alexis-armel|Alexis]] Armel |
 | Education | Full Sail University — Recording Arts (2010); Laurel Highlands Senior HS (2006) |
-| Work history | [[wiki/work/au-zaatar|Au Za'atar]] (Apr 2021–); Nemacolin (Apr 2016–Mar 2019); caddie, Farmington PA; Creative License (2011–12, NYC); Ishlab Studio (Mar 2010–Feb 2011, Brooklyn) |
+| Work history | [[wiki/work/au-zaatar|Au Za'atar]] (Apr 2021–); Nemacolin (Apr 2016–Mar 2019); caddie, Farmington PA; [[wiki/work/creative-license|Creative License]] (2011–12, NYC); Ishlab Studio (Mar 2010–Feb 2011, Brooklyn) |
 | Politics / religion | Democratic Socialists of America (NY chapter) / Humanistic Atheism |
 | Places lived | Brooklyn NYC from Jan 3, 2010 — **wrong by eight weeks**, see below |
 | Family listed | [[wiki/people/rick-frank|Rick Frank]] (father), [[wiki/people/vanessa-frank|Vanessa Frank]] (sister), Alan Frank (cousin), Becca, Andy, Wendy Beth |
@@ -96,7 +96,7 @@ chain, and the exact Annie relationship timestamp (Nov 28 2015, anchoring
 
 ## Narrative: the "ihatedanfrank" persona
 
-The handle is a fifteen-year deliberate ironic persona, not a throwaway. Registered at 18 in 2007, the earliest posts already show the two through-lines that survive every later era: genuine music obsession (Fall Out Boy, Say Anything, Radiohead, Lil Wayne — swooning posted without irony) and reflexive scam-detection (calling out a group giveaway as fraud within weeks of joining). The first is the authentic signal that later becomes the electronic/bass production identity ([[wiki/interests/music/overview]]); the second is the earliest documented instance of the forensic disposition ([[wiki/mind/concepts/forensic-method]]). Those 2007 statuses, the 2012–2014 likes migration, and Electric Zoo 2010 are also the continuity control at [[wiki/interests/favorites/eclecticism]]: the three music clusters are eighteen years old, which is why Architecture B is parallel maintenance rather than a 2025 Spotify discovery.
+The handle is a fifteen-year deliberate ironic persona, not a throwaway. Registered at 18 in 2007, the earliest posts already show the two through-lines that survive every later era: genuine music obsession (Fall Out Boy, Say Anything, Radiohead, [[wiki/interests/favorites/music/artists/lil-wayne|Lil Wayne]] — swooning posted without irony) and reflexive scam-detection (calling out a group giveaway as fraud within weeks of joining). The first is the authentic signal that later becomes the electronic/bass production identity ([[wiki/interests/music/overview]]); the second is the earliest documented instance of the forensic disposition ([[wiki/mind/concepts/forensic-method]]). Those 2007 statuses, the 2012–2014 likes migration, and Electric Zoo 2010 are also the continuity control at [[wiki/interests/favorites/eclecticism]]: the three music clusters are eighteen years old, which is why Architecture B is parallel maintenance rather than a 2025 Spotify discovery.
 
 The network shape confirms [[wiki/mind/concepts/contact-gini]] from the public-platform side: roughly 650 friends and 400 message threads of breadth, with real depth concentrated in a handful of nodes — above all the Annie "Eggie" thread (2017–2021: nicknames, video calls, family-conflict disclosure), the deep counter-example to the wide-but-shallow surface. Volume functions as ambiguous tether; closure happens in few channels ([[wiki/people/annie-ulmer]], [[wiki/mind/concepts/attachment-model]]).
 
@@ -107,3 +107,7 @@ As a corpus object, the export is the prime [[wiki/mind/synthesis/millennial-dig
 ## Related
 
 [[wiki/self/context-core]] · [[wiki/self/twitter]] · [[wiki/self/location-history]] · [[wiki/self/youtube-watch-history]] · [[wiki/self/ancestry]] · [[wiki/people/annie-ulmer]] · [[wiki/mind/synthesis/millennial-digital-witness]] · [[wiki/mind/synthesis/attachment-trauma-bond]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/timeline/events/timeline]]
+
+---
+
+**Up:** [[wiki/self/index|Self]]

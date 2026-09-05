@@ -77,3 +77,7 @@ that night.
 between the Hurricane Irene evacuation and the restaurant coincidence
 is entirely undocumented; Oscar's current location, occupation, and
 whether the 2022 encounter led to renewed contact are unknown.
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -116,3 +116,7 @@ unfixed.
 **Gaps:** whether any of the proposed recording collaborations (2011,
 2012) ever actually happened; further detail on the band beyond the
 setlist (see [[wiki/interests/music/bands/batteries-not-included]]).
+
+---
+
+**Up:** [[wiki/people/index|People]]

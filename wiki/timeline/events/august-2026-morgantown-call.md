@@ -901,7 +901,7 @@ seventy hours, on the two most consequential nights in the record**, and one
 of the six is a rape-adjacent accusation against Dan that the wiki would
 otherwise file as Annie's testimony.
 
-`wiki/self/context-core` counts **97,768 unique messages across Annie's four
+[[wiki/self/context-core]] counts **97,768 unique messages across Annie's four
 handles**. The rule that count rests on — one handle, one person — is now
 known to fail, and it fails hardest exactly where the stakes are highest,
 because the seizures happen during crises. Any claim of the form *"Annie
@@ -969,3 +969,7 @@ an attribution is.
   tenth failed severance rather than the last. Note that the bar is *not* a
   message after the declared block at 15:07: that already happened inside the
   record, and Dan answered it.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

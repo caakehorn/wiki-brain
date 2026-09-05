@@ -235,3 +235,7 @@ ended with a screaming match, an NDA, and three unanswered letters.
 5. **The other 2024 job.** *"I'll be here 6 days a week"* names a second employer
    that appears nowhere in `wiki/work/` or on Annie's page. Still unidentified,
    and now the only part of her 2024 income the wiki cannot see at all.
+
+---
+
+**Up:** [[wiki/people/index|People]]

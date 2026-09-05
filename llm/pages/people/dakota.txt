@@ -41,3 +41,7 @@ role as the originating witness, not to re-narrate the chain.
 
 **Gaps:** how Dan and Dakota know each other beyond the shared
 building; no direct quotes or message thread.
+
+---
+
+**Up:** [[wiki/people/index|People]]

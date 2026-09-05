@@ -56,7 +56,7 @@ itself.
 The thread ranges widely: casual restaurant-industry shop talk (staffing
 churn — "they officially let me go from AZ," a running joke about a
 food-delivery robot the restaurant bought, a coworker's move to "some
-really fancy French place"), a real argument about ancient history (Dan
+really fancy French place"), a real argument about [[wiki/interests/favorites/books/topics/ancient-history|ancient history]] (Dan
 pushes that Alexander the Great and the Macedonians weren't "really"
 Greek, citing Demosthenes; Dimitri counters at length with linguistic
 and cultural evidence, unmoved), a 2024 political exchange where Dimitri
@@ -89,3 +89,7 @@ complements the dating already established on
 **Gaps:** surname — per Dan (2026-07-14), a Greek name starting with
 "A," not more precisely recalled; what became of him after the shed
 shutdown; no contact after December 2024 in this export.
+
+---
+
+**Up:** [[wiki/people/index|People]]

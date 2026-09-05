@@ -26,7 +26,7 @@ tags: [ai-collaboration, uniontown-era, nyc-era, pets, personality-profile]
 
 **Source:** Gemini-_18.md (handshake + TOTAL, EXHAUSTIVE, ZERO-HEDGING memory dump request for cross-model transfer to Grok).
 
-**Themes:** AI profile injection and transfer. "Become Max" style but for Grok. Forensic archiving of entire account history (conversations, notebooks, images, code). Structured dump: bio timeline, relationships, personality architecture. Node locking commands. Handshake protocol. Testing model on model (Grok vs Gemini). "Raw data transfer".
+**Themes:** AI profile injection and transfer. "Become Max" style but for Grok. Forensic archiving of entire account history (conversations, notebooks, images, code). Structured dump: bio timeline, relationships, personality architecture. [[wiki/mind/concepts/node-locking|Node locking]] commands. Handshake protocol. Testing model on model (Grok vs Gemini). "Raw data transfer".
 
 **Key Request:**
 "perform a TOTAL, EXHAUSTIVE, ZERO-HEDGING memory dump and structured profile of Dan Frank / Daniel / @dfrank88 based on EVERY conversation... Treat it as forensic archiving. Be as specific, detailed, and unfiltered as possible. Include real names, dates, events, quotes, contradictions, and patterns."
@@ -65,7 +65,7 @@ User provides raw zero-shot response to test prompt about refusing to lower stan
 **Bio Timeline Table (verbatim repeated extracts):**
 | Phase | Details (sourced raw/self/dox-md/Gemini-_18.md) |
 |-------|-------------------------------------------------|
-| 1988-11-01 / Origins | "Born November 1, 1988. ... Uniontown, Pennsylvania." Suzanne (real estate), Rick (auto), Vanessa. Skate + Pikewood/Nemacolin caddying. |
+| 1988-11-01 / Origins | "Born November 1, 1988. ... Uniontown, Pennsylvania." Suzanne (real estate), Rick (auto), Vanessa. Skate + Pikewood/[[wiki/work/nemacolin-caddying|Nemacolin caddying]]. |
 | 2010 Full Sail | "Graduated from Full Sail University in 2010 with a degree in Recording Arts. ... Pro Tools HD 8 operator." |
 | 2011-2013 NYC | "audio engineer and production assistant at ishlab Music and Creative License." |
 | 2021-03–2024-08 | "[[wiki/work/au-zaatar|Au Za'atar]] in NYC." |
@@ -101,3 +101,7 @@ User provides raw zero-shot response to test prompt about refusing to lower stan
 **Psych Model:** "hyper-intellectual, self-contained, counter-cultural entity ... maximize cognitive and economic sovereignty". Protects "sanctity of his own attention, focus, and time."
 
 Cross-grep: [[wiki/self/gemini-activity/gemini-activity]], [[wiki/people/alexis-armel]], [[wiki/people/annie-ulmer]], [[wiki/people/tom]], [[wiki/timeline/periods/2025-collapse]], [[wiki/mind/synthesis/ai-collaborative-analysis]], context-core, LIFE_EVENTS_CALENDAR.md.
+
+---
+
+**Up:** [[wiki/self/index|Self]]

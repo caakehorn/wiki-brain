@@ -75,3 +75,7 @@ Tooling stack for extracting, exporting, and analyzing iMessage/SMS from `~/Libr
 **Cross-references:** [[wiki/work/tech/grok-build/overview]], [[wiki/work/tech/max-framework/overview]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/self/context-core]], [[wiki/self/gemini-activity/gemini-activity.md]], [[wiki/self/facebook]], [[wiki/legal/463-morgantown]], [[wiki/work/bfs-foods]], [[wiki/people/anita]], [[wiki/people/arnu]], [[wiki/people/john-carney]], [[wiki/people/kim]] (all use csv evidence).
 
 **Notes:** Requires macOS Full Disk Access. chat.db schema: message + handle + chat_handle_join + dec for attributedBody. Update raw/tech/imessage-tooling/ on new exports. Sources include workspace binaries + extracted csvs (defer raw). Grok subagent uses these for deep review. Raw/tech/imessage-tooling/ remains placeholder dir.
+
+---
+
+**Up:** [[wiki/work/index|Work]] › [[wiki/work/tech/index|Tech]]

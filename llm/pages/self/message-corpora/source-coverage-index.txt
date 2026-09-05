@@ -174,7 +174,7 @@ crises, which is the worst possible distribution: the handle is least reliable
 exactly where the corpus's highest-stakes claims are drawn from.
 
 **What this does and does not affect.** It does **not** move any count —
-`wiki/self/context-core`'s 97,768 unique messages across Annie's four handles
+[[wiki/self/context-core]]'s 97,768 unique messages across Annie's four handles
 stands, because the rows exist and were sent from that handle. It does move
 every **attribution**. A claim of the form *"Annie said X"* sourced to the 212
 handle inside a documented Coles-present episode must have the episode checked
@@ -198,3 +198,7 @@ Row counts are physical records, not unique messages; the same message appears i
 ## Related
 
 [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/self/index|Self]]

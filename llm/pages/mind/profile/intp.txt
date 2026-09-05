@@ -243,3 +243,7 @@ history and cinema.
 proctored instrument; the Ni measurement in particular has no independent
 confirmation; no data on how the stack presents post-closure (all sources
 pre-date June 2026).
+
+---
+
+**Up:** [[wiki/mind/index|Mind]] › [[wiki/mind/profile/index|Profile]]

@@ -57,7 +57,7 @@ Trump or MAGA loyalty, he treats politics as both near-total ideological
 pursuit and aesthetic spectacle — and he deploys that non-loyalty
 deliberately as credibility weight when arguing heterodox conclusions. The
 clearest single-event crystallization of the method is January 6th, which
-the behavioral spine records as CONCLUDED: a hybrid of organic riot and
+the [[wiki/self/context-core|behavioral spine]] records as CONCLUDED: a hybrid of organic riot and
 intelligence co-opt.
 
 ## The J6 hypothesis
@@ -97,7 +97,7 @@ legitimate flags. The meta-point survives scrutiny either way: "the point
 was the imagery; the execution didn't need to be perfect," because almost
 nobody studies raw streams and fringe classification dismisses the details.
 
-In the Claude J6 chat, an initially skeptical model conceded that the
+In the Claude [[wiki/self/chats/j6-chat|J6 chat]], an initially skeptical model conceded that the
 coordination problem is overstated for a small group, called the procedural
 anomalies the strongest argument, rated it "the most internally coherent
 version of J6 revisionism," and updated to "warrants genuine forensic
@@ -263,3 +263,7 @@ stress-test material — no loyalty to any team sport, forensic default
 always on.
 
 The ideology this page treats as settled has a documented birthday: the COVID-lockdown conversion of 2020-08-22, self-narrated in the message record and argued at [[wiki/mind/synthesis/2020-left-turn]] — Bernie 2020 as the electoral on-ramp, the dirtbag-left pipeline as the vehicle, the family union-busting guilt as the clinch.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

@@ -16,7 +16,7 @@ connections:
 # Politics & Axiomatic Ideologies
 
 Dan's political material has existed in the wiki for weeks — a dated
-conversion event, a state-scale forensic method, a workplace-and-family
+conversion event, a state-scale [[wiki/mind/concepts/forensic-method|forensic method]], a workplace-and-family
 distrust architecture, two archived reading-list stubs — but it has
 never had one door in. This page is that door. It opened 2026-08-10
 with one new page, [[wiki/mind/politics/axioms]], written to answer a

@@ -57,7 +57,7 @@ connections:
 
 Uniontown in 2017 was the same Uniontown it had always been — the same Fayette County geography that had anchored the Frank family across multiple generations, documented in the ancestry tree rooted in that region. Dan had returned here from whatever wider trajectory had briefly opened after Full Sail, and the city absorbed him back without ceremony. The 2017 chapter sits between the 2015–2016 period that established the [[wiki/people/annie-ulmer]] relationship and the 2018 peak that would briefly escalate everything before the first serious attempt at escape. In 2017, there was no escape in view.
 
-There was no car. There was no reliable income. The operating manual records a specific, precise indignity: he DJed for four hours and was not paid. The math on a given day could run: gas costs more than the earnings. He sold gold. He sold clothes. He made money from camming — a lower-naked goal, whatever the going rate was, whatever the algorithm rewarded that week. Tom fronted drugs and was owed $120. [[wiki/people/suzanne-frank]] is somewhere in the peripheral record of this year, as is the broader family structure that both cushioned and judged.
+There was no car. There was no reliable income. The [[wiki/mind/concepts/exocortex|operating manual]] records a specific, precise indignity: he DJed for four hours and was not paid. The math on a given day could run: gas costs more than the earnings. He sold gold. He sold clothes. He made money from camming — a lower-naked goal, whatever the going rate was, whatever the algorithm rewarded that week. Tom fronted drugs and was owed $120. [[wiki/people/suzanne-frank]] is somewhere in the peripheral record of this year, as is the broader family structure that both cushioned and judged.
 
 ## Key Events
 
@@ -134,3 +134,7 @@ The [[wiki/people/annie-ulmer]] relationship logged 85 calendar events in this y
 2017 ended without resolution. The poverty floor did not lift — it tilted. 2018 would bring higher event density (254 calendar events, the highest recorded year), more dealers in the network, more financial velocity, and no structural improvement. The escalation that followed was not recovery. It was acceleration in the same channel. The deep cycle that 2017 had begun was still gathering.
 
 **Related:** [[wiki/people/vaughn]], [[wiki/timeline/events/timeline]], [[wiki/timeline/periods/2018-deep-cycle]], [[wiki/people/annie-ulmer]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/self/ancestry]], [[wiki/people/fran-coldren]], [[wiki/people/suzanne-frank]], [[wiki/self/gemini-activity/gemini-activity]]
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

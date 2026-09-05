@@ -555,3 +555,7 @@ by [[wiki/timeline/events/august-2026-unmasking]] and
 [[wiki/mind/synthesis/read-receipt-forensics]] but is **not yet filed to
 `raw/`**; only the derived analysis arrived in this ingest. Filing the source
 exports is the first item this page owes the next pass.
+
+---
+
+**Up:** [[wiki/people/index|People]]

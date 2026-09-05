@@ -437,6 +437,21 @@ for p in pages:
 inbound = {rel(p): 0 for p in pages}
 link_re = re.compile(r"\[\[([^\]|#]+)(?:[#|][^\]]*)?\]\]")
 
+# Pages written by a generator: their backticked paths are the generator's to
+# fix, not a page author's, and an error here would be unfixable by hand.
+GENERATED_PAGES = {
+    "wiki/meta/testimony-veracity", "wiki/meta/skills", "wiki/meta/readers-digest",
+    "wiki/meta/digest", "wiki/meta/recent-activity", "wiki/meta/open-questions",
+    "wiki/health/intake-ledger", "wiki/timeline/master-timeline",
+}
+
+
+def is_generated(r):
+    return r[:-3] in GENERATED_PAGES
+
+
+page_slugs = {rel(p)[:-3] for p in pages}
+
 # root master index is also a link source, though not a wiki/ page
 scan = list(pages)
 root_index = os.path.join(ROOT, "index.md")
@@ -455,6 +470,39 @@ for p in scan:
         warnings.append(f"{r}: index is {size//1024}KB (budget {INDEX_BUDGET//1024}KB) — likely session noise")
     elif not is_index and size > PAGE_BUDGET and not is_contact_stub:
         warnings.append(f"{r}: page is {size//1024}KB — unusually long; split ONLY if navigation genuinely improves, never to shorten")
+
+    # A LINK THAT ISN'T ONE. `bin/build-site` linkifies `[[...]]` and nothing
+    # else, so a bare page path written in backticks renders as inert grey code:
+    # it looks like a reference, sits where a reference goes, and cannot be
+    # clicked. Worse, `bin/wiki-crosslink` counted it as a link until
+    # 2026-09-04 and therefore reported such pages as fully cross-linked.
+    #
+    # Measured the day the operator clicked a page and found none: **all 19
+    # wiki/self/twitter/ year pages had zero body wikilinks between them,
+    # against 161 typed edges**, and 161 backticked paths across 49 pages
+    # pointed at real entries. ERROR rather than warning: the fix is
+    # mechanical, there is no case where a path that resolves to a real page is
+    # better as code than as a link, and a warning is what let this stand.
+    for m in re.finditer(r'`(wiki/[a-z0-9/_-]+)`', strip_code(text) if False else text):
+        tgt = m.group(1)
+        if tgt in page_slugs and not is_generated(r):
+            errors.append(
+                f"{r}: `{tgt}` is a bare path in backticks — renders as code, "
+                f"not a link. Write [[{tgt}]].")
+
+    # A page with typed edges and no wikilinks is navigable by the graph and
+    # not by a reader. Typed edges are frontmatter: `CONNECTIONS_SPEC.md`
+    # machinery for synthesis, invisible on the rendered page. WARNING, because
+    # a short stub legitimately has nothing to link and the threshold is a
+    # judgement — but a long page with edges and no links is the defect above
+    # in its other form.
+    if (not is_index and not is_contact_stub and size > 4000
+            and re.search(r"^connections:\s*$", text, re.M)
+            and not re.search(r"\[\[wiki/", text)):
+        n_edges = len(re.findall(r"^\s*- page:\s*wiki/", text, re.M))
+        warnings.append(
+            f"{r}: {n_edges} typed edge(s) and no [[wikilink]] in the body — "
+            f"navigable by the graph, not by a reader")
 
     # The constitution pass (SYNTHESIS_SPEC.md). A synthesis page that reasons
     # from no page in the profile layer has, on the evidence of its own
@@ -570,6 +618,36 @@ for p, n in sorted(inbound.items()):
     if n == 0 and os.path.basename(p) != "index.md" and "/contacts/" not in p \
        and p.count("/") > 1 and not p.endswith("lint-report.md"):
         warnings.append(f"{p}: orphan — no inbound wikilinks")
+
+# ONE-WAY DOORS. `STYLE_GUIDE.md` requires every non-index page to be reachable
+# FROM its domain index, and the orphan check above enforces exactly that
+# sentence. Nothing checked the other direction until 2026-09-05, and the corpus
+# went the way the rule was written: **453 of 497 pages never linked their own
+# index**, every one of the 168 people pages among them. A reader arriving from
+# search or from the portal's front page landed and had nowhere to go.
+#
+# WARNING rather than error: a new page is written before its footer is
+# generated, and blocking that commit would buy nothing. `bin/wiki-crosslink
+# breadcrumb --apply` is the fix and it is idempotent.
+for p in sorted(page_slugs):
+    if (os.path.basename(p) == "index" or is_generated(p + ".md")
+            or "/contacts/" in p or p.count("/") < 2):
+        continue
+    chain, d = [], os.path.dirname(p)
+    while d and d != "wiki":
+        for cand in (d + "/index", d):
+            if cand in page_slugs and cand != p:
+                chain.append(cand)
+                break
+        d = os.path.dirname(d)
+    if not chain:
+        continue
+    body = open(os.path.join(ROOT, p + ".md"), encoding="utf-8",
+                errors="replace").read()
+    if chain[0] not in set(re.findall(r"\[\[(wiki/[a-z0-9\-/]+)", body)):
+        warnings.append(
+            f"{p}.md: never links [[{chain[0]}]], the index above it — a "
+            f"one-way door. Run `bin/wiki-crosslink breadcrumb --apply`")
 
 # master index budget
 mi = os.path.join(ROOT, "index.md")

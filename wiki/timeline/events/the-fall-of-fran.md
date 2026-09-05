@@ -195,3 +195,7 @@ the second, is not stated in either capture. The nursing home is still
 unnamed. And no record anywhere establishes whether the arrangement's opening
 night was ever discussed between Dan and Annie afterward in terms other than
 its own success.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

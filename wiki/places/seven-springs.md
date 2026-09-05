@@ -91,7 +91,7 @@ Laurel Highlands as Danielle attended Uniontown High School.
 ## Regional context
 
 Seven Springs and the neighboring Liberty resort sit inside a small but
-real corner of national freeskiing culture — Tom Wallisch, one of the
+real corner of national freeskiing culture — [[wiki/people/tom-wallisch|Tom Wallisch]], one of the
 sport's defining 2007–2012 stars (the "pretzel," the SuperUnknown
 video-contest breakout, the 4Bi9 Media era), came up through this exact
 regional scene, a detail Dan has separately researched and discussed at
@@ -111,3 +111,7 @@ generic one.
 **Gaps:** how long the family kept the condo; whether skiing continued
 past adolescence; any named individuals from the Seven Springs crew
 beyond the general cohort description.
+
+---
+
+**Up:** [[wiki/places/index|Places]]

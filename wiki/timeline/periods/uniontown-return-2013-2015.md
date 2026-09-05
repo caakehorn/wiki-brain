@@ -58,7 +58,7 @@ that defines it is a small-town reorganization.
 
 Dan left Manhattan in May 2013 — the event the Twitter record's "2013
 systemic rupture" actually marks (the rupture was the leaving, not a New
-York event) — and moved back into **337 Saratoga Drive**, the family
+York event) — and moved back into **[[wiki/places/337-saratoga-drive|337 Saratoga Drive]]**, the family
 home, where he stayed through January 2015. The audio-engineering career
 the [[wiki/timeline/periods/2010s|NYC-1]] years had attempted did not
 come back with him; what came back instead was the ambition in a new
@@ -130,3 +130,7 @@ reconstruction, and the life calendar, not on primary message data. The
 155 Virginia lease terms and exact move-in are undocumented; the precise
 SLOPPP→MOGZART handoff date is bracketed to ~2014 by the account
 rotation, not pinned.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

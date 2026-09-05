@@ -85,3 +85,7 @@ group-based recovery rather than as abstract self-description.
 circumstances, surname context, and whether she and Dan knew each
 other before this exchange (the "long time no see" framing implies a
 pre-existing but undocumented relationship).
+
+---
+
+**Up:** [[wiki/people/index|People]]

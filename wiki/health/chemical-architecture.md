@@ -109,7 +109,7 @@ neurochemical engineering" ([[wiki/mind/profile/deviance-mapping]]).
 ### The stack, measured rather than described — 2026-08-30/31
 
 Every "Daily" in the table above is a description the corpus took from Dan's
-own account of his system. The intake ledger began recording on 2026-08-30 and
+own account of his system. [[wiki/health/intake-ledger|The intake ledger]] began recording on 2026-08-30 and
 supplies the first night where two rows of it were written down as they
 happened: one **0.75 g cocaine unit** worked over 9h 31m in six doses, and
 **three separate 0.05 g cannabis units** at 22:06, 00:37 and 02:36, each opened
@@ -142,7 +142,7 @@ the record.
 > streak was feb 17, 2010."* **The date was computed, not recalled** — the day
 > before a train — and the anchor came from a model reading email logs.
 >
-> **That anchor is wrong.** `wiki/self/twitter/2010` shows the 18 February
+> **That anchor is wrong.** [[wiki/self/twitter/2010]] shows the 18 February
 > train running the other way: on the 17th he is already in New York (*"off to
 > Williamsburg"*) and on the 18th he is *"On the train back to PA."* The
 > arithmetic behind the corpus's most-cited date does not hold.
@@ -413,3 +413,7 @@ body presents, with no maintenance faculty between them. Every self-directed
 medical sentence in the corpus is modal — *"I should go," "I might need to go,"
 "I'm probably going to need to"* — while every sentence about somebody else's
 body is imperative. Same speaker, same years.
+
+---
+
+**Up:** [[wiki/health/index|Health]]

@@ -68,7 +68,7 @@ connections:
 
 Dan Frank is an independent music producer and label operator based in SW Pennsylvania, operating since approximately 2013. The production output is organized under four aliases that map to distinct periods and aesthetics, all unified by an involuntary sub-bass signature confirmed across 13 years of output. [[wiki/mind/synthesis/alias-as-periodization]] disputes the second half of that sentence: reading the alias pages against each other, the aesthetics do not in fact turn over at the renames — only the periods do, which is why it argues the alias is a clock rather than a style.
 
-The core identity is electronic — sub-bass dominant, non-guitar, non-rock. This direction is not contrarian posturing: per the Jimmy Pop data, guitar-centered music lost cultural relevance in streaming charts and sales after its 1963 peak. The move to electronic production was a correct read of where authentic expression lived, not a retreat from something better. See [[wiki/interests/music/concepts/sub-bass-signature]] for the technical signature. The Numark NS7 — gifted by maternal great-grandmother [[wiki/people/fran-coldren]] — seeded the production identity.
+The core identity is electronic — sub-bass dominant, non-guitar, non-rock. This direction is not contrarian posturing: per the [[wiki/people/james-dee|Jimmy Pop]] data, guitar-centered music lost cultural relevance in streaming charts and sales after its 1963 peak. The move to electronic production was a correct read of where authentic expression lived, not a retreat from something better. See [[wiki/interests/music/concepts/sub-bass-signature]] for the technical signature. The Numark NS7 — gifted by maternal great-grandmother [[wiki/people/fran-coldren]] — seeded the production identity.
 
 ## Alias Summary
 
@@ -269,3 +269,7 @@ retrieval.
 - [[wiki/self/context-core]] (biographical spine with alias timeline)
 
 The lineage documented here is one facet — the professional mode — of a broader claim: that music is a primary, life-spanning structure of self, argued as the four-mode thesis at [[wiki/mind/synthesis/music-as-identity]].
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/music/index|Music]]

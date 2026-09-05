@@ -143,6 +143,9 @@ connections:
   - page: wiki/self/twitter/2021
     type: evidenced-by
     claim: "January 6th is the cleanest demonstration: he forms a police-collusion hypothesis at high confidence, prices it in the same tweet ('but what was the endgame? is that being too generous'), and rejects the antifa-infiltration mirror because it requires its actors to work against their own interests."
+  - page: wiki/self/twitter/replies
+    type: evidenced-by
+    claim: "The reply corpus settles what the originals leave open: the skepticism has no political direction. He debunks the Butler-rally landing-page conspiracy, corrects an anti-Trump account on Trump's golf, and tells accounts whose thesis he shares that their data presentation is bad — the correction fires on argument quality, not on whose argument it is."
 ---
 
 
@@ -276,7 +279,7 @@ found it later.
 
 The clearest single-year demonstration that this axis is prior to Dan's
 politics rather than downstream of them is 2011, six years before he engaged
-politically and nine before he adopted a label. `wiki/self/twitter/2011`
+politically and nine before he adopted a label. [[wiki/self/twitter/2011]]
 records eight political posts across the year, and every one is aimed at a
 vertical: Glenn Beck (*"DANGEROUS"*), the Iraq war budget measured against
 science funding, the monetary system (*"money=debt. debt=money"*), mounted
@@ -396,6 +399,37 @@ would break this. The archive as it stands contains none — but it contains
 2,525 originals and no private material, and the private corpora have not been
 searched for this specific pattern.
 
+## The replies remove the political-direction objection (added 2026-09-04)
+
+The section above settles the conspiracy question from originals — published
+negative results, including against his own side. The standing objection to it
+was sampling: an originals-only archive shows what he chose to broadcast, and a
+man can broadcast even-handedness he does not practise.
+
+[[wiki/self/twitter/replies]] is the dialogue half, 186 replies the archive's
+inclusion rule dropped, and it puts a target in front of the disposition. The
+corrections do not check which side made the error first:
+
+> *"Even though I agree with your thesis, I don't like the way this data is
+> being presented."* — on a chart starting right-wing extremist violence at
+> 1994, one year before Oklahoma City, and jihadist violence at 2010, after 9/11
+
+> *"How many times do we have to go through this? These are probably landing
+> pages where multiple updates about a subject (Trump, the election, etc) are
+> posted."* — debunking the pre-written-obituary conspiracy after the Butler
+> rally shooting of 13 July 2024, against his own side's interest
+
+> *"Look I'm no trump fan and his record of lying about club tournament wins and
+> general golf cheating is well established...but... he's broadly accepted to be
+> an exceptionally good golfer for his age."*
+
+**The honest limit.** The same corpus holds a large quantity of flat dismissal
+with no correction in it — *"Braindead take."*, *"You are not a smart person."*,
+*"Get fucked"* — and those are not distributed by a rule this source can
+measure. The claim that survives is narrower than the flattering one: **when he
+engages the substance he corrects it symmetrically; he does not always engage
+the substance.** A hydrated-parent pull is what would test the rest.
+
 ## Function and cost
 
 The skepticism powers the forensic default and demonstrably works — the
@@ -436,3 +470,7 @@ the delay should scale with how load-bearing the tie is.
 — the model has no rehabilitation path; the 2021–23 corpus silence means the
 Au Za'atar-era employer relationship is reconstructed only from later
 narration.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

@@ -223,3 +223,7 @@ Whether sending the `.vcf` at 22:56 was capitulation, invitation, or unthinking
 ## Related
 
 [[wiki/people/annie-ulmer]] · [[wiki/people/shelbie-breakiron]] · [[wiki/timeline/periods/2018-deep-cycle]]
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

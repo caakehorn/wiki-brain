@@ -9,7 +9,7 @@ filtered out, so this list shrinks only when something is actually settled.
 | | count |
 |---|---|
 | Live contradictions | 49 |
-| Open gaps | 604 |
+| Open gaps | 713 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
 
@@ -70,7 +70,7 @@ somewhere and has not yet found out where.
 - **[[wiki/self/concepts/chatgpt]]** — This page and claude-code make incompatible claims about where an LLM's value sits. This page treats it as residing in the model's *willingness* — a register it will speak in, a class of question it will engage — which is why a guardrail change reads here as a capability loss and why the honesty standard is encoded as 
 - **[[wiki/self/facebook]]** — This paragraph used to say *every* field cross-checks. One does not. `places lived` gives **Brooklyn NYC from January 3, 2010**. The tweet archive has Dan in Florida for another eight weeks: *"moving to brooklyn in 9 days"* on 20 February 2010, *"last day in errrlando…hangin in a u-haul store"* on the 27th, *"peace out
 - **[[wiki/self/twitter]]** — the archive and facebook disagree about when Dan moved to Brooklyn. Facebook's `places lived` field says 3 January 2010. On 20 February 2010 he tweeted *"moving to brooklyn in 9 days"*, and on the 28th *"peace out, florida."* Both records are his own; one is timestamped by the platform and one was typed into a profile 
-- **[[wiki/self/twitter/2009]]** — `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and `wiki/timeline/periods/full-sail-2008-2010` and `wiki/people/alexis-armel` both build on that date. The contemporaneous public record contradicts it in two independent places: a "last month of college" beginn
+- **[[wiki/self/twitter/2009]]** — `raw/self/context-core/CONTEXT_CORE_EXPANDED.md` states *"AS Recording Arts; graduated Aug 2009 (top 5%)"*, and full-sail-2008-2010 and alexis-armel both build on that date. The contemporaneous public record contradicts it in two independent places: a "last month of college" beginning 1 September, and coursework with a
 - **[[wiki/self/twitter/2010]]** — the anchor is misread. The 18 February train was the **return** leg, not the outbound one. On 17 February Dan is already in New York (*"off to Williamsburg"*), and on the 18th he is *"On the train back to PA."* The apartment hunt the Gemini session places on that trip matches 17 February, not the 18th. The derivation "
 - **[[wiki/self/twitter/2014]]** — the 2022 account places Dan among those *"repulsed by the racism"* at the split. The contemporaneous record places him on the other side of it — congratulating Cumia on his integrity within twenty-four hours of a firing for racist posts, and endorsing his anti-political-correctness framing three months before. The year
 - **[[wiki/timeline/events/august-2026-morgantown-call]]** — Dan states he sent the audio to Annie's parents (three times, Aug 19 01:04–01:48) and states that he did not (twice, Aug 19 11:25 and 15:12), and the corpus contains a proven false claim of exactly this kind from the day before. No email, no bounce, no reply, and no third-party reaction appears anywhere in `raw/`. **Th
@@ -152,54 +152,64 @@ new knowledge available, because no new source is required.
 
 ## Open gaps, by domain
 
-### health (10)
+### health (12)
 
 - **[[wiki/health/cocaine]]** — **Prescriber information and medical oversight**: No prescriber, clinic, or medical record for the cocaine use appears anywhere in the corpus — it is entirely self-directed and undocumented by any clinical source.
 - **[[wiki/health/cocaine]]** — **Post-2026 dosage state**: partially answered, and narrowed rather than closed. The dosage arc is documented through the inheritance exhaustion (~2020 onward) from self-report; the intake ledger now supplies one measured unit — 0.75 g over 9h 31m on 2026-08-3
 - **[[wiki/health/cocaine]]** — **The cocaine–bulimia link** is stated in a self-audit but never independently corroborated by any source outside Dan's own retrospective account.
 - **[[wiki/health/cocaine]]** — **Product specificity in the NYC era**: Menore's product is still not positively identified, but the question is narrower than it was — see the re-check below. It is *not* weed, it is sold in **bags**, and the thread's silence on the point is now measured rath
 - **[[wiki/health/cocaine]]** — **Post-overdose intervention**: Dan's attempt to move Jay Lauer onto Suboxone — the only documented instance of Dan trying to move somebody *out* of this network rather than into or around it — is recorded, but whether Dan made any similar attempt with any oth
+- **[[wiki/health/cocaine]]** — **Up:** Health
 - **[[wiki/health/the-configured-body]]** — **The census is one pass over one dump and used a fixed term list.** Adjacent vocabulary — *urgent care, clinic, X-ray, scan, specialist, therapist, meds* — was not counted, and the dump covers 2015–2025 with **2022 and 2026 missing entirely**, so nothing here
 - **[[wiki/health/the-configured-body]]** — **No medical record of any kind exists in `raw/`.** Everything above is inferred from what Dan said about care in text messages, which is a proxy for care and not a record of it. A single insurance statement or pharmacy history would outrank the entire census.
 - **[[wiki/health/the-configured-body]]** — **Nothing here dates the bulimia.** food-and-diet already flags the open question — whether the adult composition regime grew out of the adolescent eating disorder or ran alongside it — and it is the single most load-bearing unknown for this page, because it d
 - **[[wiki/health/the-configured-body]]** — **The extreme-sports material rests on one retrospective capture.** The training years are the page's control against an indifference reading and they are attested by a single 2026 recollection, with no contemporaneous record. If that capture is wrong about th
 - **[[wiki/health/the-configured-body]]** — **The prescriber is unnamed and undated before 2019.** Whether the Suboxone regimen has been continuously prescribed since 2010 or has moved between prescribed and unprescribed stretches is unresolved, and it changes what the sixteen-year "zero relapses" figur
+- **[[wiki/health/the-configured-body]]** — **Up:** Health
 
-### interests (15)
+### interests (18)
 
 - **[[wiki/interests/extreme-sports]]** — No intake-digital record (YouTube watch history, social media posts) documents this era in the corpus — it predates the Twitter record (2009) and the iMessage record (2015). The reconstruction is built entirely from this one manual capture. Specific dating of 
+- **[[wiki/interests/extreme-sports]]** — **Up:** Interests
 - **[[wiki/interests/favorites/eclecticism]]** — **Play counts do not exist anywhere in `raw/`.** Inherited from closing-the-set, still the single most load-bearing unmeasured quantity. Architecture B's "being used" clause is currently evidenced by production practice, Facebook continuity, and the live-feed 
 - **[[wiki/interests/favorites/eclecticism]]** — **The movies category is still a stub sitting inside a member.** Eleven titles, no creators, no tags, no dates on art-and-movies. Eyes Wide Shut is on the list and on the Kubrick-control quote, which is a hint, not a score. One pass over `FAVS MASTERLIST.csv` 
 - **[[wiki/interests/favorites/eclecticism]]** — **Whether the 2025–26 Spotify rows are hand-liked or algorithm-dumped is still untested.** Closing-the-set named this as the cheap test for the music exception (`Origin` column). Music.md treats SPOTIFY LIKED as the live feed without resolving the hand-versus-
 - **[[wiki/interests/favorites/eclecticism]]** — **Taste-profile still carries the 2026-06-23 error.** It is archived, thin, and not a member. It will flag stale against this page once this page moves. Clearing it is a separate rewrite, not this one.
 - **[[wiki/interests/favorites/eclecticism]]** — **No pre-2007 record.** Architecture B's continuity claim starts at the Facebook registration date (2007-01-09). The extreme-sports years extreme-sports describes as total-obsession and scene-complete are exactly Architecture A predicted on a bodily domain, at
+- **[[wiki/interests/favorites/eclecticism]]** — **Up:** Interests › Favorites
 - **[[wiki/interests/food-and-diet]]** — **The message-dump counts are lexical, not semantic.** `food` at 968 includes every use of the word, and the six evaluative hits were found by a fixed phrase list. A proper pass would code a sample of the 968 by register rather than trusting the pattern the sa
 - **[[wiki/interests/food-and-diet]]** — **The dump ends around August 2025.** The terminal phase and the 2026 return — including the whole BFS Foods period — are outside it, so the "no evaluation" claim is strongest for 2015–2025 and weakest for the last year.
 - **[[wiki/interests/food-and-diet]]** — **Nothing here checks in-person or call behaviour**, which is invisible to a text corpus and is exactly where food opinions would ordinarily live. This is the most serious limitation on the page and it cannot be closed from `raw/`.
 - **[[wiki/interests/food-and-diet]]** — **Prediction 1 was scored by this capture and it was wrong in the useful direction.** The page predicted that any surfacing food judgement would sort on region, class or provenance-authenticity rather than flavour. It sorts on **composition** — which is a prov
 - **[[wiki/interests/food-and-diet]]** — **The regime's origin is undated.** Whether it predates or follows the adolescent bulimia and candy-staple period on hyperreflexivity is unknown, and the answer decides whether this is a control behaviour that grew out of a disordered one or an independent lif
 - **[[wiki/interests/golf]]** — No childhood or junior-golf origin story is documented — the corpus picks the sport up already in progress by the time messaging begins in 2015, and it's unclear whether Dan played growing up or took it up as an adult alongside the family's country-club world.
+- **[[wiki/interests/golf]]** — **Up:** Interests
 - **[[wiki/interests/music/index]]** — Full release catalog (Spotify/SoundCloud/Bandcamp export)
 - **[[wiki/interests/music/index]]** — DAW and hardware chain details
 - **[[wiki/interests/music/index]]** — Platform profile links for GRIPNOTIC
 
-### legal (3)
+### legal (5)
 
 - **[[wiki/legal/2015-possession-arrest]]** — The exact arrest date within the days before February 17, 2015 is not known, nor is the arresting barracks, the docket number, or whether the expungement was ever completed. The blotter prints the charges without grading them; Dan's own telling calls the resid
 - **[[wiki/legal/2015-possession-arrest]]** — Whether the fines referenced in January and February 2016 belong to this case, to the Combos matter, or to both running concurrently is not determinable from the message record — the "combos are paid off" phrasing suggests at least some of that money was the t
+- **[[wiki/legal/2015-possession-arrest]]** — **Up:** Legal
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
+- **[[wiki/legal/2015-retail-theft-arrest]]** — **Up:** Legal
 
-### mind (150)
+### mind (173)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
-- **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (`wiki/mind/synthesis/block-unblock-loop`, `wiki/mind/synthesis/attachment-trauma-bond`) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnaly
+- **[[wiki/mind/concepts/acquisition-drive]]** — **Up:** Mind
+- **[[wiki/mind/concepts/attachment-model]]** — **The 127/110 exit-declaration figure used elsewhere in the wiki (block-unblock-loop, attachment-trauma-bond) does not fully reconcile with this page's own source material.** `MasterRecord_March16` and `CompleteAnalysis_Final` both describe "127 false exits" b
 - **[[wiki/mind/concepts/attachment-model]]** — **The 299-affirmation / 0-severance-signal pairing remains internally asymmetric in its evidentiary weight**, and that asymmetry is worth stating plainly rather than letting the two numbers sit side by side as if equally solid: the 0 is primary-verified (a dir
 - **[[wiki/mind/concepts/attachment-model]]** — **The two "written denial" instances are unevenly sourced.** The November 2025 instance ("No and no") has a real primary-adjacent trail — dated in `THE_DAN_FRANK_BOOTLOADER.md`'s timeline and discussed at length, message-by-message, in `Breaking the anxiety av
 - **[[wiki/mind/concepts/calibrated-confidence]]** — The 43 instances are the yield of one pattern — numeric confidence adjacent to *sure / certain / positive / confident / convinced*. Adjacent constructions the pattern does not catch (*"odds are," "there's a good chance," "I'd bet," "probably"*) are unmeasured,
+- **[[wiki/mind/concepts/calibrated-confidence]]** — **Up:** Mind
 - **[[wiki/mind/concepts/chaos-preference]]** — **The macro examples are not sourced.** The Boston-bombing coverage response used to frame the request is not attested in the searched corpus and is not cited here. The generalisation about resolution-as-disappointment is derived from the profile's ontological
 - **[[wiki/mind/concepts/chaos-preference]]** — **`accelerationist` appears 7 times and is uninspected.** Whether the political register is a genuine ideological commitment or an ironic pose is not resolved here, and it materially changes how this page should be read.
 - **[[wiki/mind/concepts/chaos-preference]]** — **Frequency counts are not normalised.** `chaos` at 98 mentions is striking but no baseline was computed against comparably abstract terms in the same files, so the density claim is directional rather than measured.
 - **[[wiki/mind/concepts/chaos-preference]]** — **The workplace mechanism is inferred.** Burst-and-collapse is documented as a work rhythm; the claim that this is *why* failing workplaces are enjoyable is a reading, not a recorded statement.
+- **[[wiki/mind/concepts/chaos-preference]]** — **Up:** Mind
 - **[[wiki/mind/concepts/contact-gini]]** — **The method assumes the `direction` column is trustworthy**, which `STRATEGY.md` explicitly warns against. There is one piece of internal support: blank handles are 99.88% `Sent`, a correlation that could not arise if the column were noise. But no content-lev
 - **[[wiki/mind/concepts/contact-gini]]** — **Pre-2015 remains unmeasurable.** Recovery cannot invent context where the export has none; the archive still effectively begins in 2015.
 - **[[wiki/mind/concepts/contact-gini]]** — **Handles, not people.** Everything above counts handles. Annie holds at least two (`+17244346811`, `+12124702449`) plus an email, so a person-level coefficient would be *higher* than any figure on this page. That collapse has not been done.
@@ -211,16 +221,20 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/concepts/reassurance-architecture]]** — 2. **The 106-ultimatum and 127-false-exit figures are dossier arithmetic**, never re-derived from `all_imessages_complete_dump.txt`, and the sources disagree with each other on the re-engagement rate (100% versus 110-of-127). Prediction 4 above is the pass tha
 - **[[wiki/mind/concepts/reassurance-architecture]]** — 3. **Does the loop predate Annie?** The Alexis and Danielle corpora have not been mined for the four registers above. If the summons and burst patterns are present at comparable rates in the 2009–2015 Alexis record, the "first full activation" framing is wrong
 - **[[wiki/mind/concepts/reassurance-architecture]]** — 4. **What actually closes a check-in?** The corpus documents thoroughly what fails. It contains no clean instance of a reassurance that demonstrably held — no case where a confirmation arrived and the loop measurably stood down for a sustained period. Either n
+- **[[wiki/mind/concepts/reassurance-architecture]]** — **Up:** Mind
 - **[[wiki/mind/concepts/the-cool-metric]]** — **The specific referents in the operator's own framing are not in `raw/`.** Sonic Youth and Family Guy are not attested in the searched corpus as taste markers; `sonic youth` and `family guy` return zero hits in the 29 MB iMessage dump, and `marvel` returns 4 
 - **[[wiki/mind/concepts/the-cool-metric]]** — **No quantitative test has been run.** The claim that the metric governs first-contact evaluation is drawn from the profile's own description of the practice, not from coding a sample of first conversations in the message record. That test is possible with `ra
 - **[[wiki/mind/concepts/the-cool-metric]]** — **`FAVS MASTERLIST.csv` and `2025_MASTER_CRATE.csv` are cited but not analysed here.** A distribution of the favorites list against contemporaneous mainstream popularity would materially strengthen or damage the legibility-inverse claim, and is the obvious nex
+- **[[wiki/mind/concepts/the-cool-metric]]** — **Up:** Mind
 - **[[wiki/mind/concepts/the-handed-mirror]]** — **Has a handed mirror ever landed well?** The corpus records two hostile receptions, one self-directed acceptance, and one undelivered draft. A single case of a recipient thanking him and using it would substantially weaken the "fails every time" clause, and D
 - **[[wiki/mind/concepts/the-handed-mirror]]** — **Does he predict the reaction in advance?** He had been told by the model, days before, that his text style *"is usually really poorly received in text"* — and proceeded. Whether he expected the rupture and sent it anyway, or genuinely did not see it coming, 
 - **[[wiki/mind/concepts/the-handed-mirror]]** — **The three-second tapbacks.** James objected to the file and to the Danielle copy essentially simultaneously. Which of the two actually did the damage is unrecoverable from the record and would sharpen the concept considerably.
+- **[[wiki/mind/concepts/the-handed-mirror]]** — **Up:** Mind
 - **[[wiki/mind/politics/axioms]]** — This page reasons from a reading list and one self-authored system prompt, not from a direct first-person statement of political theory in Dan's own words explaining *why* he built the Cato identity or chose the Parenti book specifically — the inference that t
 - **[[wiki/mind/profile/lexicon]]** — **No usage evidence yet.** A targeted search of the general message corpus for several of the lexicon's most distinctive phrases — *resplendent*, *administratively*, *the tribunal*, *aesthetic felony*, *anomalous concentration* — returned no hits at the time t
 - **[[wiki/mind/profile/lexicon]]** — **No date or model identity on the generating session.** The capture gives no timestamp beyond when it was pasted into this wiki, and the generating AI's identity is not stated in the paste itself.
 - **[[wiki/mind/profile/lexicon]]** — **Whether earlier versions exist is unknown.** The "v1.0" label implies iteration or a planned v2; nothing in the corpus currently documents a prior version.
+- **[[wiki/mind/profile/lexicon]]** — **Up:** Mind › Profile
 - **[[wiki/mind/profile/neurodivergence]]** — **No clinical or diagnostic record exists anywhere in `raw/`.** There is no date of self-identification, no account of what prompted it, and no mention of a formal evaluation ever being sought. This is answerable by Dan directly in one paragraph — when the sel
 - **[[wiki/mind/profile/neurodivergence]]** — **No sensory, motor, or childhood-developmental evidence has been located.** The typical corroborating detail for a late self-identification — sensory sensitivities, special interests with the specific intensity/narrowness signature, childhood social difficult
 - **[[wiki/mind/profile/neurodivergence]]** — **No comorbidity discussion.** ADHD, commonly co-occurring with autism in adult self-identification, is not raised anywhere in the sources reviewed for this page. Not evidenced either way.
@@ -230,13 +244,17 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/profile/texting-deviance-audit]]** — **Group chats are not separated from one-to-one threads**, and turn-taking norms differ between them.
 - **[[wiki/mind/profile/texting-deviance-audit]]** — **The audit measures text only.** Whether the same escalation appears in voice notes, email or DMs is untested, and the operator's complaint was not platform-specific.
 - **[[wiki/mind/profile/texting-deviance-audit]]** — **The complaint record is thin where it should be thick.** Nine explicit complaints across eleven years is a floor, not a measurement — most irritation never gets typed. Whether the nine are representative or the only four people who ever said it out loud is u
+- **[[wiki/mind/profile/texting-deviance-audit]]** — **Up:** Mind › Profile
 - **[[wiki/mind/psychosexual/arrangement-history]]** — This table is built from what has been mined from the message corpus so far, not a claim of completeness — the 184k-row master CSV and the platform-specific message exports (Facebook Messenger threads, smashonista/Chaturbate-adjacent accounts) are not exhausti
+- **[[wiki/mind/psychosexual/arrangement-history]]** — **Up:** Mind › Psychosexual
 - **[[wiki/mind/psychosexual/taboo-and-boundary-testing]]** — The theoretical framing — taboo-seeking as deliberate category-rupture rather than transgression-for-its-own-sake — still rests on AI-dossier language (`Dan Profile.txt`, elaborated once by `DANSYNTH.txt` from the same source) rather than Dan's own explanation
-- **[[wiki/mind/synthesis/alias-as-periodization]]** — **The fourth name is not examined here.** `wiki/interests/music/aliases/mogged-up` is outside this page's `synthesizes:` list and its dates were not checked against the rule. If it breaks the pattern, this page is wrong and should be revised, not deleted.
+- **[[wiki/mind/psychosexual/taboo-and-boundary-testing]]** — **Up:** Mind › Psychosexual
+- **[[wiki/mind/synthesis/alias-as-periodization]]** — **The fourth name is not examined here.** mogged-up is outside this page's `synthesizes:` list and its dates were not checked against the rule. If it breaks the pattern, this page is wrong and should be revised, not deleted.
 - **[[wiki/mind/synthesis/alias-as-periodization]]** — **The handoffs are fuzzy.** MOGZART's recorded start (~2014) overlaps SLOPPP's run to December 2015. The rule claims coincidence with period boundaries, not instantaneous succession, and the overlap is unresolved.
 - **[[wiki/mind/synthesis/alias-as-periodization]]** — **The 63–85% figure is a single provenance.** It traces to the context-core measurement and is repeated by the alias pages rather than independently re-measured per alias. The invariant is asserted three times from one source, which is weaker than three measur
 - **[[wiki/mind/synthesis/annual-volume-suz]]** — No mechanism is proposed for the 2017 hinge; the message content around it has not been read specifically for this question.
 - **[[wiki/mind/synthesis/annual-volume-suz]]** — 2021 and 2023 are partial years in the source table (to April; from August), which is why they sit lower than the surrounding years — this chart plots the partial-year totals as given rather than annualizing them, and a reader comparing bar heights across thos
+- **[[wiki/mind/synthesis/annual-volume-suz]]** — **Up:** Mind
 - **[[wiki/mind/synthesis/august-grievance-verdict]]** — **The record is almost entirely one-sided in construction.** 811 of the window's 1,199 messages are his, the audio is his recording, the analysis of the audio was commissioned by him, and this wiki is his. Annie's side of these seventy hours exists in 388 mess
 - **[[wiki/mind/synthesis/august-grievance-verdict]]** — **Her parents' actual beliefs are undocumented.** Grievance 4 rests on Dan's inference plus the asymmetric-clearing evidence, not on anything Ellen or Bill said.
 - **[[wiki/mind/synthesis/august-grievance-verdict]]** — **The phone call in which she agreed to clear his name** is voice and appears in no export.
@@ -252,11 +270,13 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/bond-switch-2015]]** — Whether the Alexis→Annie transfer at 155 Virginia was a clean same-month swap or had a brief overlap is not dated to the day in the on-disk record; the calendar gives Nov 28 (Alexis end) and Nov 29 (Annie start), one day apart.
 - **[[wiki/mind/synthesis/bond-switch-2015]]** — Lease holder and physical layout of 155 Virginia across the transition are undocumented (see 155-virginia-ave).
 - **[[wiki/mind/synthesis/bond-switch-2015]]** — The 768/day termination figure's source export is not on disk; the closure-day volume is therefore a known provenance gap, not a settled number.
+- **[[wiki/mind/synthesis/bond-switch-2015]]** — **Up:** Mind
 - **[[wiki/mind/synthesis/closing-the-set]]** — **The music category is unresolved and is the largest hole.** It is 92% of the curated record by volume and the page explicitly declines to claim it. The cheap test is whether the 2025–26 entries are Spotify-generated: if the CSV's `Origin` column distinguishe
 - **[[wiki/mind/synthesis/closing-the-set]]** — **Play counts do not exist anywhere in `raw/`.** The entire distribution above is over *inclusion*, not listening. A collection can be flat while attention inside it is extremely concentrated, and the corpus currently has no instrument that could tell the diff
 - **[[wiki/mind/synthesis/closing-the-set]]** — **Tags are Dan's own and are not independent of the reading.** The subject clusters rest on tags he applied himself, so "50% of the shelf is two subjects" is partly a statement about how he files. A title-level classification by an outside instrument would mak
 - **[[wiki/mind/synthesis/closing-the-set]]** — **The `Date Read` field is contaminated.** Forty-one of 120 books carry no read date and twenty-six carry the catch-all "Jan 2024," which roman-republic already flags as a probable bulk backfill. Nothing here rests on read-date sequencing, and nothing should u
 - **[[wiki/mind/synthesis/closing-the-set]]** — **No pre-2007 record.** The rule is tested on the digital footprint only. The childhood and adolescent intake — the extreme-sports years in particular, which extreme-sports describes as total-obsession and scene-complete — is exactly the shape this rule predic
+- **[[wiki/mind/synthesis/closing-the-set]]** — **Up:** Mind
 - **[[wiki/mind/synthesis/dormancy-not-exit]]** — **The tenure floor is undetermined, but the bracket has narrowed by three orders of magnitude.** Five days does not persist; fifty-six days persists *residually* (james-dee, added 2026-08-18); six years re-roles. So "sustained" is still undefined, but it is no
 - **[[wiki/mind/synthesis/dormancy-not-exit]]** — **Survivorship is a live threat to member selection.** The corpus preserves what Dan kept. A relationship that ended and vanished would leave no page, and its absence would look exactly like it never existed. Prediction 2 is the way to attack this — auditing e
 - **[[wiki/mind/synthesis/dormancy-not-exit]]** — **The 2010s reactivations cluster in one window.** Menore's reopening (Nov 2018) and the Alexis arrangement (Nov–Dec 2018) fall within weeks of each other. That could be the rule operating twice, or it could be one episode of deliberate reconnection during the
@@ -270,6 +290,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/failure-to-launch]]** — 4. **The Full Sail credential is never traced to any employment** anywhere in the record. Was it ever used — applications, sessions, paid studio work? A negative answer is as valuable as a positive one.
 - **[[wiki/mind/synthesis/failure-to-launch]]** — 5. **No external assessment exists of the AI/agent work** by anyone who is neither Dan nor a model he configured. This is the instrument-is-subject problem in its most practical form: the one capacity with a liquid market has never been shown to a buyer.
 - **[[wiki/mind/synthesis/failure-to-launch]]** — 6. **The persistence dimension is untested by any instrument.** The Impulsiveness-96 versus persistence-95 contradiction predicts that a goal-completion battery would return a very different number than the conscientiousness one did. Nobody has administered on
+- **[[wiki/mind/synthesis/failure-to-launch]]** — **Up:** Mind
 - **[[wiki/mind/synthesis/fayette-return]]** — **The maternal line is assessed as of 2026-08-18, and the answer is mixed** (see the re-check below). The Van Voorhis / Whyel / Coldren lines *are* also Fayette-anchored — the majority of all 90 direct ancestors die within twenty miles of Uniontown — and Fran 
 - **[[wiki/mind/synthesis/fayette-return]]** — **Collaterals unchecked.** The rule is asserted over the direct line of descent only. The 515-individual GEDCOM contains siblings and cousins who have not been enumerated, and falsifier 1 most likely lives there.
 - **[[wiki/mind/synthesis/fayette-return]]** — **Morley's Seattle duration is unknown — but the return is now dated.** The residence table brackets him at Brownsville 1945, Seattle 1957, Uniontown 1959: the turnaround is at most two years, and the open question has moved to the front end, the blank decade 
@@ -281,10 +302,12 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/intake-constancy]]** — The November 2023 → May 2024 177-day YouTube gap is, per the multi-account correction, a routing artifact rather than a blackout (the 2024 search volume of 9,022 is the third-highest year in twenty, which leaves no room for a six-month hole). If the per-year s
 - **[[wiki/mind/synthesis/intake-constancy]]** — > **CONTRADICTION [2026-07-20], operator-clarified same day:** an extended YouTube export (through July 2026, filed to youtube-watch-history) showed essentially zero real YouTube watches for ~100 days, Nov 8 2025 - Feb 15 2026 — one genuine video against 78 ad
 - **[[wiki/mind/synthesis/intake-constancy]]** — **Upgraded [DOC]-grade (2026-07-15):** the search-side constant is no longer [INFER]-only. The longitudinal browser-history analysis (`raw/self/browser_history_analysis.txt`, ~108,961 records, 5,391 active days) independently reproduces **20.2 actions/active d
+- **[[wiki/mind/synthesis/intake-constancy]]** — **Up:** Mind
 - **[[wiki/mind/synthesis/message-circadian-latency]]** — Annie's 2019–2024 volume is not in this file (handle/export seam); the true decade arc needs the ANNIETEXTS / combined_annie_logs exports merged in. The 2019 "2 messages" is an export boundary, not a real gap.
 - **[[wiki/mind/synthesis/message-circadian-latency]]** — Reply-latency uses the "next opposite-speaker message in the same thread" method. In high-burst threads this slightly over-states Dan's reply speed (he may send 10 then get 1 back) but the *order-of-magnitude* asymmetry is robust across every contact.
 - **[[wiki/mind/synthesis/message-circadian-latency]]** — Phone handles are masked; identity of the non-Annie contacts (+133****8747 = a 2025 figure; +121****2449 = a 2025–26 figure) is inferred from volume timing and the wiki's existing people pages, not from unmasked data.
 - **[[wiki/mind/synthesis/message-circadian-latency]]** — `LEVIATHAN_FULL_CORPUS.csv` lives in `/Volumes/MUSIC/PHASE B RAW/`, not yet filed under `raw/` — its on-disk path is cited directly above.
+- **[[wiki/mind/synthesis/message-circadian-latency]]** — **Up:** Mind
 - **[[wiki/mind/synthesis/music-as-identity]]** — The 2019–2024 message gap means the live concert habit after 2008 is under-documented; only the 2005–2008 record survives in his own hand.
 - **[[wiki/mind/synthesis/music-as-identity]]** — Whether the producer identity and the favorites pole ever consciously cross (does he hear his own sub-bass signature in what he consumes?) is not settled by the corpus.
 - **[[wiki/mind/synthesis/music-as-identity]]** — **A new question the mechanism section opens rather than closes.** If closure, not betrayal-risk, is the real driver of the Fall Out Boy freeze, the same rule predicts a canonized verdict should hold even against strong external pressure to revise it (a critic
@@ -292,6 +315,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/no-platonic-channel]]** — **Whether the mechanism is specific to women, or is a special case of a broader inability to sustain a low-intensity tie with anyone he trusts, is untested.** tom is the standing candidate for the male control case — a multi-year lateral peer bond with no roma
 - **[[wiki/mind/synthesis/no-platonic-channel]]** — **Motive is not settled.** emotional-imprinting itself flags that no primary source has Dan explaining, in his own words, why sustained closeness routes to romantic or sexual overture rather than staying platonic — every mechanism on this page is a dossier's o
 - **[[wiki/mind/synthesis/no-platonic-channel]]** — **The Jamie Mohler question is the single most answerable gap on this page** and is, per jamie-mohler's own gaps section, already unresolved there: whether any contact exists post-transition. One sentence from the operator would convert this page's central lim
+- **[[wiki/mind/synthesis/no-platonic-channel]]** — **Up:** Mind
 - **[[wiki/mind/synthesis/read-receipt-forensics]]** — The underlying `annie_metadata_24h.csv` this page's counts are drawn from has not been filed to `raw/self/message-csv/` — see the sourcing note above. Prior corpus analyses that used `reply_to_guid` as a threading signal (M2) have not yet been audited; that au
 - **[[wiki/mind/synthesis/single-channel]]** — **The two-sided figure is an upper bound, by a known amount.** Imputation inflates concentration — on held-out data the imputed Gini runs +0.0225 above the true one under the conservative rule and +0.0996 under the permissive one, because misassignment invents
 - **[[wiki/mind/synthesis/single-channel]]** — **The whole method assumes the `direction` column is honest**, which `STRATEGY.md` names as a known trap in this file. Blank handles being 99.88% `Sent` is real internal support — noise does not correlate that cleanly — but no content-level speaker reconstruct
@@ -306,16 +330,19 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/supply-network]]** — Menore's product was never named in-thread; the "8" unit remains uninterpreted.
 - **[[wiki/mind/synthesis/the-binary-verdict]]** — **Originally eight domains were checked; a ninth (food composition) was added 2026-08-28**, independently, by food-and-diet's own constitution pass rather than by a re-check run from this page. Health, money, and work-performance verdicts still have not been s
 - **[[wiki/mind/synthesis/the-binary-verdict]]** — **The 90% rule instance is n=1.** Whether Dan accepted other graded logistics compromises across the following decade of the same relationship — as opposed to re-litigating the underlying verdict question itself, which conflict-architecture documents happening
+- **[[wiki/mind/synthesis/the-binary-verdict]]** — **Up:** Mind
 - **[[wiki/mind/synthesis/the-cato-seat]]** — **The art tags are Dan's and may be circular.** He wrote `observer` and `collapse` himself, possibly with a model's help, and the ART MATRIX source behind the twenty-five entries has not been read to establish who generated them. If the tags are AI-produced, t
 - **[[wiki/mind/synthesis/the-cato-seat]]** — **The "heroic figures" list is not attested in `raw/`.** gore-vidal states that Dan lists Vidal among heroic figures he identifies with, alongside Sanders, Hunter S. Thompson, Rollins, Brown, Hampton and Debs. A search of the dossier and message material for t
 - **[[wiki/mind/synthesis/the-cato-seat]]** — **Nobody has read the eleven films against the rule.** The canon list carries no tags and no ratings, and four titles — *Pulp Fiction*, *Kill Bill*, *The Graduate*, *Parasite* — are placed here on a reading rather than on evidence. A pass over what Dan actuall
 - **[[wiki/mind/synthesis/the-cato-seat]]** — **The rule does not distinguish cause from selection.** Whether the taste was formed by the November 2005 rupture (the corpus's standard origin for the vertical distrust) or whether both are downstream of something earlier is not addressed and probably cannot 
 - **[[wiki/mind/synthesis/the-cato-seat]]** — **No pre-2007 taste record exists**, so the seat cannot be dated. The earliest attested instance is the 2013 self-typing and the 2012–13 archive era; the claim that the position predates the divorce is untested and untestable here.
+- **[[wiki/mind/synthesis/the-cato-seat]]** — **Up:** Mind
 - **[[wiki/mind/synthesis/the-commissioned-self]]** — **The census used a fixed term list over one dump.** Adjacent vocabulary — *"my type," "I'm a five," "introverted thinking,"* discussion without the jargon — was not counted, and the dump covers 2015–2025 with **2022 and 2026 missing**. A wider pass could rais
 - **[[wiki/mind/synthesis/the-commissioned-self]]** — **Facebook Messenger, email and the AI-session exports are not in the census.** The 2013 INTP line comes from Facebook, which means the count above is measuring one channel. Running the same terms across `raw/self/facebook/` and `raw/self/chats/` would establi
 - **[[wiki/mind/synthesis/the-commissioned-self]]** — **The 2024-11-04 recipient is unknown.** Both November 2024 messages carry no handle, which contact-gini establishes is the signature of the dump's 69,869 unattributed *Sent* rows. Who he was talking to would help decide whether the 5w6 line was careful or cas
 - **[[wiki/mind/synthesis/the-commissioned-self]]** — **Nobody has collected what other people say Dan is like.** Named above as the control and genuinely absent. This is the cheapest high-value operation the page identifies: a pass over inbound messages for second-person characterisation would give the psycholog
 - **[[wiki/mind/synthesis/the-commissioned-self]]** — **The order in which the instruments were run is not established.** If the Socionics and Attitudinal Psyche readings were produced in sessions holding the MBTI result, their agreement is worth nothing; if independently, it is worth something. The session expor
+- **[[wiki/mind/synthesis/the-commissioned-self]]** — **Up:** Mind
 - **[[wiki/mind/synthesis/the-deferred-audit]]** — **The lag column is assembled from dated events, not measured uniformly.** Each row is sourced, but "when the audit fired" is a judgement about what counts as an audit firing. A stricter version would define the event operationally — e.g. first message contain
 - **[[wiki/mind/synthesis/the-deferred-audit]]** — **Selection bias in the chosen column.** The chosen objects listed are the ones that *failed*, because failure is what produced a documented audit. A chosen object that never failed would show an infinite lag and be indistinguishable from the protected class. 
 - **[[wiki/mind/synthesis/the-deferred-audit]]** — **The 2005 origin is testimony and is doing real work.** Everything in the origin section rests on AI-authored dossier material and Dan's own narration. If the hinge event is misdated or misweighted, the two clocks survive unchanged but lose their cause.
@@ -333,25 +360,30 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/synthesis/the-serial-monogamist]]** — **Whether the ideal-face document names a specific person is unresolved.** erotic-architecture treats it as generic by construction and draws no line from it to anyone in the corpus; if it does encode a real person, this page's "engineered rather than organic"
 - **[[wiki/mind/synthesis/the-serial-monogamist]]** — **No primary source states, in Dan's own words, why "single" is avoided** rather than merely never occurring. Every mechanism this page cites — the sx-dominant stack, the Irreversibility Firewall's no-delete rule, the no-failover architecture — is an outside r
 - **[[wiki/mind/synthesis/the-serial-monogamist]]** — **The self-theory quote is n=1.** Whether "serial monogamist... a very specific type" was said again, in different words, at other points in the eleven-year corpus has not been checked systematically; a `bin/mine-messages` pass for self-description language ar
+- **[[wiki/mind/synthesis/the-serial-monogamist]]** — **Up:** Mind
 - **[[wiki/mind/synthesis/the-unbroken-bond]]** — **The 2007–2009 window is undocumented.** The claim of continuity *since high school* rests on the operator's own account for those years; `raw/` was not found to establish a bond before Alexis in November 2009. Until that is closed, the defensible span is **s
 - **[[wiki/mind/synthesis/the-unbroken-bond]]** — **The Jul–Oct 2013 Alexis separation is unquantified.** It is recorded as a separation within the relationship, but whether the slot was genuinely vacant for those months — which would be a ~3-month gap — has not been checked against the message record. It is 
 - **[[wiki/mind/synthesis/the-unbroken-bond]]** — **`knowledge:` inheritance.** This page synthesises `bond-switch-2015`, whose attachment-activation thesis originates partly in bootloader/AI-interpretive material. Per instrument-is-subject, the *timing* here is residue (message counts, dated events, recomput
 - **[[wiki/mind/synthesis/the-unbroken-bond]]** — **Nothing here assesses the relationships' quality or the other parties.** This page is about a structural property of Dan's life and deliberately makes no claim about whether the bonds were good, nor about the people in them.
+- **[[wiki/mind/synthesis/the-unbroken-bond]]** — **Up:** Mind
 - **[[wiki/mind/synthesis/totality-themes]]** — **Cheap (existing data, one session each):** the per-active-day search recomputation by year (settles the "New York activates you" city-effect claim, §1); the monthly 2024 search distribution against the 177-day YouTube gap (fully closes prediction four); the 
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on the sibling exports:** the six remaining YouTube predictions, unchanged — with the note that the May-2014 account-ignition prediction now carries the alias-boundary join as an additional expected correlate (the sibling account's early content shou
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on Dan:** the August–September 2022 question — the most precisely timestamped unexplained event in the record, and the only one on the list no export can answer, because the corpus has the *what* to the day and only Dan has the *why*. The 2021–22 nea
 - **[[wiki/mind/synthesis/totality-themes]]** — **Waiting on behavior, not data:** whether the freed Annie-bandwidth reroutes to output or recursion (the allocation table will answer within months); whether the 2025–26 mega-audit terminates in a migration or becomes self-sustaining; whose names enter the am
+- **[[wiki/mind/synthesis/totality-themes]]** — **Up:** Mind
 
-### people (169)
+### people (217)
 
 - **[[wiki/people/al]]** — Last name and any resolution of the November 2018 debt dispute are undocumented.
 - **[[wiki/people/alexis-armel]]** — **The `known_for` line is now quoted outside the wiki, and the page owes it a harder look.** *"The six-year relationship that occupied the attachment slot without ever activating it"* was cited in a sage answer published 2026-08-21 as evidence that stability w
 - **[[wiki/people/alexis-armel]]** — The length of the relationship is quoted three different ways and the corpus does not settle it: Gemini's profile says 2010–2015, the bootloader says November 2009 – November 2015, and Dan told Lucas Thomas in 2017 that he had "dated her for 7 years." The Twit
 - **[[wiki/people/alexis-armel]]** — Nothing in the corpus records how she learned about Annie, or whether the two women had any relationship as coworkers before the November 2018 arrangement. Her life after February 2025 is entirely undocumented, as is whether she knows any of the rest of this e
 - **[[wiki/people/alexis-armel]]** — **New gaps opened by the 2026-08-28 ingest.** The washing-machine incident that triggered the March 2014 eviction is recorded by the operator himself as not understood ("a story i still don't understand") and is not explained further here. The Leah Tedesco coh
+- **[[wiki/people/alexis-armel]]** — **Up:** People
 - **[[wiki/people/alice]]** — 1. **Surname.** Claire's married name is nowhere in the corpus, so this page is filed under a single name. One sentence from the operator resolves Alice, Otto, Waylon and Claire together.
 - **[[wiki/people/alice]]** — 2. **Exact birth date.** Inferred as ~2019–2020 from a single retrospective remark. A birthday message would fix it.
 - **[[wiki/people/alice]]** — 3. **Whether Dan ever met her.** The record has Annie showing Alice a photograph of Milo and Alice asking *"who are you talking to?"* during a call (2024-02-23), and Dan writing *"alice wouldn't be so unfamiliar with my name that she literally can't understand
+- **[[wiki/people/alice]]** — **Up:** People
 - **[[wiki/people/ally-lubin]]** — **Re-export both handles from `chat.db` in full.** This is the top action on this page. The August 19 inbound is missing (see the caveat above), and the chat.db extract already in `raw/` is missing all 120 messages of January 2019 — a window that overturned th
 - **[[wiki/people/ally-lubin]]** — **Where did the December 6, 2018 conversation happen?** It is the origin of the modern relationship and is in no message corpus here — the iMessage record starts eleven days later. Instagram DM, Twitter DM, or Facebook Messenger on an account not in the takeou
 - **[[wiki/people/ally-lubin]]** — **Where did Dan first encounter her, if not AbsolutePunk?** He retracted the venue on 2026-08-18 and named Twitter as a guess. Overcast Kids, the Chris Miller orbit and Polyak are the named leads.
@@ -363,6 +395,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/ally-lubin]]** — **What is Ally's brother's name, and does he still speak to Bob?** Dan asks both questions on August 19 at 08:12 and the answers are in the missing inbound.
 - **[[wiki/people/ally-lubin]]** — **~107 email handle messages are unaccounted for.** The wiki previously claimed 907 email messages; the corrected count is 800. The discrepancy is in the sent direction — we have 563 sent, the wiki claimed 670. The missing messages may be in an export not avai
 - **[[wiki/people/ally-lubin]]** — **Negative result, recorded:** she does not appear in `contacts.csv` with an address, in the GEDCOM, in the Twitter export, or in the Facebook search history. The Model Mayhem and "boca raton ally lubin" searches Dan describes on 2019-08-22 are from Google, wh
+- **[[wiki/people/ally-lubin]]** — **Up:** People
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **What was her state when she took it?** The 92% Turbulent is the load-bearing figure and neuroticism instruments are state-sensitive. A test taken inside a bad week and one taken inside a good month are different data.
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **Did she report the result herself, or was it forwarded?** The visible page is the results email, which implies she had the account. The 2026-08-27 operator answer confirms the result is hers but says nothing about how the screenshot reached Dan, so this stay
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **When, exactly?** "Recent" is now the whole of the answer, and no date is recoverable from the artifact — the screenshot destroyed the EXIF. It matters for the bullet above it: a Turbulent score is only interpretable against the week it was taken.
@@ -370,6 +403,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **Is the Enneagram available?** This page has an MBTI read and no Enneagram, where annie-ulmer-personality-assessment carries both. The father material and the 2008 fixation would support a determination, but the page declines to guess one from behaviour alone
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **Did she reply to the elopement pitch?** Inherited from ally-lubin and load-bearing here: prediction 1 cannot be scored without the missing 2026-08-19 inbound.
 - **[[wiki/people/ally-lubin-cognitive-profile]]** — **Negative result, recorded:** no Big Five, no clinical instrument and no diagnosis for Ally exists anywhere in `raw/`. The suicidality material is self-report inside message threads, not assessment, and this page makes no clinical claim from it.
+- **[[wiki/people/ally-lubin-cognitive-profile]]** — **Up:** People
 - **[[wiki/people/annie-ulmer]]** — The compiled full-record files the dossiers drew from (`Dan_Annie_Full_Text.txt`, `1_year_triad_logs.csv`, `7_days_212_logs.csv`, `14_day_212_logs.csv`) aren't archived in `raw/`; the underlying iMessage data exists and the dual-handle export has been directly
 - **[[wiki/people/annie-ulmer]]** — One gap opened with the 2026-08-13 pass and **closed on 2026-08-20**.
 - **[[wiki/people/annie-ulmer]]** — **And the staged eviction has a missing middle**: the operator states messages were deleted to keep the plan from Annie, and the Paci thread's 167-day hole (2024-08-18 to 2025-02-01) is consistent with that, but the deletion is inferred from an absence plus te
@@ -377,24 +411,30 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/annie-ulmer]]** — Three gaps open with the July 2026 re-contact and stay open. The identity of the man Annie describes as having raped her on July 25 is not stated anywhere in the exchange, including whether he is Tuquick; the allegation itself is recorded as made, on that date
 - **[[wiki/people/annoying]]** — Real identity is unknown — "annoying" is Dan's own contact-card label, giving no clue to a real name. No activity is recorded before or after the six-week window.
 - **[[wiki/people/betherin-mechling]]** — Her surname's spelling is taken from the operator capture and her first name from the message corpus, which uses "Betherin" consistently; no independent document confirms either. The relationship to Annie is given as "cousin" by the capture and is consistent w
+- **[[wiki/people/betherin-mechling]]** — **Up:** People
 - **[[wiki/people/bill]]** — Last name, and whether contact continued past September 2018, are undocumented.
 - **[[wiki/people/bill-ulmer]]** — No message after June 2020 appears in the corpus; whether contact continued past that point, and whether it survived the eventual end of the Dan/Annie relationship, is undocumented.
 - **[[wiki/people/brennan-meadows]]** — No contacts.csv match and no further mentions elsewhere in the corpus; identity beyond the name is unconfirmed.
 - **[[wiki/people/bruce-burish]]** — **Did the November visit or any collaboration happen?** No contact appears after October 27 in any channel. One paragraph from the operator settles it.
 - **[[wiki/people/bruce-burish]]** — **The Facebook Messenger thread is unread.** `raw/self/facebook/.../bruceburish_t6vdszljtq/` exists in the archive and has never been cross-read against this page. It is the only other channel where this friendship appears and would date its origin.
 - **[[wiki/people/bruce-burish]]** — **How the friendship actually started.** "Caddying-era" is inferred from Bruce's own nostalgia, not stated. nemacolin-caddying does not name him.
+- **[[wiki/people/bruce-burish]]** — **Up:** People
 - **[[wiki/people/bub]]** — Real name and how the friendship originated (likely college, given the roommate references) are undocumented.
 - **[[wiki/people/casey-bondarenka]]** — **The "Casey saga."** Whatever Dan called *"bombastic"* on 2015-11-30 moved to a phone call and is never restated in text. Look: Dec 1–3 for a retelling.
 - **[[wiki/people/casey-bondarenka]]** — **Who told Ellen Ulmer about the car.** Casey is blamed by both parties and never confirmed.
 - **[[wiki/people/casey-bondarenka]]** — Relationship to Vanessa Frank beyond the smoking incident is undocumented.
+- **[[wiki/people/casey-bondarenka]]** — **Up:** People
 - **[[wiki/people/danny-matthews]]** — Danny's real-estate brokerage is not otherwise documented; whether the December 2024 invitation was taken up is unknown, and no further contact appears in the corpus after that date. The largest gap is about the opening night itself: nothing in the thread — be
+- **[[wiki/people/danny-matthews]]** — **Up:** People
 - **[[wiki/people/dave-moore]]** — **Everything biographical.** No age, no occupation, no location, no surname confirmation beyond the two 2018 messages that give it. Whether he and Diane are still married, or still living, is unknown.
 - **[[wiki/people/dave-moore]]** — **Whether he actually wrote the letter.** Dan's read is the only evidence. The document itself is not in `raw/`.
 - **[[wiki/people/dave-moore]]** — **Whether he had any relationship with Fran at all** before the final weeks. The one record of him marking her birthday is a joke at his expense.
 - **[[wiki/people/dave-moore]]** — **What he is to Suz.** He is her stepfather by her mother's second marriage, and the corpus never records a single word between them.
+- **[[wiki/people/dave-moore]]** — **Up:** People
 - **[[wiki/people/david-j-frank]]** — **The immigration itself is undocumented on disk.** No passenger manifest, naturalization record or arrival date for David appears in the export as extracted; "born Russia 1892, in Manhattan by 1900" is the whole of it.
 - **[[wiki/people/david-j-frank]]** — **The reason for the move is unknown.** Nothing explains why a New York family went to a Fayette County coal town between 1915 and 1920 — work, kin, or a business opportunity are all plausible and none is attested.
 - **[[wiki/people/david-j-frank]]** — **Occupation unrecorded.** The extraction pulled no trade or employer for him, which leaves the family's economic footing in its first Fayette decades blank.
+- **[[wiki/people/david-j-frank]]** — **Up:** People
 - **[[wiki/people/del]]** — No contact appears after August 16, 2019; whether the relationship continued past the exported window, or ended with Dan's later move out of the city, is undocumented.
 - **[[wiki/people/diane-moore]]** — **Which document is which.** The corpus shows a March 29 eviction notice and an April 3 letter with a trespassing clause; the 2026 capture describes visiting rules sent "well before." Are these one instrument, two, or three? The operator held all of them.
 - **[[wiki/people/diane-moore]]** — **What Fran said about Diane** on 2017-12-30, in the one lucid conversation Dan managed to get out of her. He recorded that it happened and not what it was.
@@ -402,25 +442,33 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/diane-moore]]** — **The memorial.** Whether she attended the May 6, 2018 service at the Uniontown Country Club is still unrecorded. Dan's April 1 line — that he would love to speak but *"i don't know if anyone wants a 45 minute roasting of diane and dave"* — implies he expected
 - **[[wiki/people/diane-moore]]** — **Whether she is alive.** Born 1939-01-30; she would be 87. The corpus's last mention of her is 2020, and nothing since records a death, an illness, or contact of any kind.
 - **[[wiki/people/diane-moore]]** — **Any direct exchange.** She still sends and receives no message in the corpus, has no phone handle and no photograph. Every word about her is someone else's.
+- **[[wiki/people/diane-moore]]** — **Up:** People
 - **[[wiki/people/ellen-ulmer]]** — **Ellen's side is the only side reliably preserved.** The export marks every row "Received," so most of what Dan sent her is not recoverable except where it survives, as the April 2017 condolence does, in the full message dump. The 2026-07-26 message above is 
 - **[[wiki/people/ellen-ulmer]]** — **Her relation to Betherin is inferred** from the Mechling/Ulmer cousin framing rather than stated.
 - **[[wiki/people/ellen-ulmer]]** — **Whether there has been any contact after 2026-07-26** — the birthday note of November 2025 and the crisis message are the last two entries, and 2026's November has not happened yet. Whether the annual note survives the collapse is the cleanest live predictio
+- **[[wiki/people/ellen-ulmer]]** — **Up:** People
 - **[[wiki/people/emaly-minerd]]** — The fate of her book ("stamp notes"), her relationship with Derek, and her son are unknown past January 2019.
 - **[[wiki/people/emaly-minerd]]** — Whether the September 21, 2020 Facebook thread ever got a reply from Dan is undocumented in the captured export (the "selling some bars" line to Annie is the only same-day trace on his side).
 - **[[wiki/people/emaly-minerd]]** — No contact after September 2020 appears in the corpus.
 - **[[wiki/people/emaly-minerd]]** — The August 2019 "noods" and the blocked contact are known only from Dan's side (his message to a third party and the un-answered Cash App requests); Emaly's own words from that revival are not in the captured record.
+- **[[wiki/people/emaly-minerd]]** — **Up:** People
 - **[[wiki/people/emilio]]** — **Surname.** Unknown. He is "Emilio" in every reference.
 - **[[wiki/people/emilio]]** — **His own channel.** Nothing of his traffic is in any export. Every line here is Annie quoting or describing him.
 - **[[wiki/people/emilio]]** — **Whether he told Ellen about the car.** He is **not** currently that person — the informant on *"someone told me your car was at Dan Frank's this morning"* is never named, and both Dan and Annie blame Casey. His documented vector is Claire. Do not collapse th
 - **[[wiki/people/emilio]]** — **When and how it actually ended between him and Annie**, and whether the December 13 contact was the last.
 - **[[wiki/people/emilio]]** — **Becca** (2015-12-29) — described as the ex's new girlfriend; not firmly attached to Emilio.
+- **[[wiki/people/emilio]]** — **Up:** People
 - **[[wiki/people/fran-coldren]]** — The nursing home is still unnamed. The NS7 II gift is undated — the corpus confirms the machine in use by April 2017 but never records its arrival, and the gift-protocol figures come from operator memory alone. Thomas Whyel's exact death date within the 1970s 
+- **[[wiki/people/fran-coldren]]** — **Up:** People
 - **[[wiki/people/fred-adams]]** — Adams sends and receives nothing in the message corpus — he is named in it, at length, but never writes in it. His full name, the years he practised, when and to what bench he was appointed, **the exact date of his death in May 2020**, the relationship between
+- **[[wiki/people/fred-adams]]** — **Up:** People
 - **[[wiki/people/garrett]]** — 1. **Surname** — the one fact that would resolve Claire, Alice and Otto at once.
 - **[[wiki/people/garrett]]** — 2. **When they married**, and whether Dan attended. Nothing in the corpus.
 - **[[wiki/people/garrett]]** — 3. **What the "show" is.** One word from the operator.
 - **[[wiki/people/garrett]]** — 4. **Whether Dan has any independent relationship with him.** On this record, ten mentions across eleven years, all of them reported by Annie or Suz and none of them a direct interaction, the answer looks like no — which would make him consistent with the patt
+- **[[wiki/people/garrett]]** — **Up:** People
 - **[[wiki/people/jacob-bacharach]]** — Whether the two men remained in contact after February 11, 2021 is undocumented; Dan says "we keep in touch," and the corpus preserves exactly one exchange. Whether the HTML artifact was ever sent, and whether Bacharach ever learned that the house was in the f
+- **[[wiki/people/jacob-bacharach]]** — **Up:** People
 - **[[wiki/people/jajuan-davis]]** — No contacts.csv match; identity beyond the page's filename is unconfirmed.
 - **[[wiki/people/jaredtricia]]** — Whether further bookings occurred after the June 28, 2020 non-response is undocumented — the thread simply goes quiet. Which specific messages in the August 2019 thread beyond the photo request were Dan-as-"Hazel" versus genuinely Annie is not fully disambigua
 - **[[wiki/people/jason-bermejo]]** — Full timeline of how they met (likely Full Sail, ~2009) not explicit in corpus but strongly implied
@@ -429,10 +477,13 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/jason-bermejo]]** — Last message: 2026-03-21 (gap since February spike suggests lower contact post-winter)
 - **[[wiki/people/jason-bermejo]]** — Music output / release status: unclear if Jason has released material or remains hobbyist
 - **[[wiki/people/jason-bermejo]]** — Full Sail attendance dates: ~2009-2011 implied
+- **[[wiki/people/jason-bermejo]]** — **Up:** People
 - **[[wiki/people/jason-cole]]** — Whether Dan ever paid for the portrait, and whether the friendship survived the December 2016 rupture, are undocumented — the thread ends there.
 - **[[wiki/people/jay-lauer]]** — The manner and place of death are recorded only as "an overdose" of heroin; no obituary, coroner's finding, or news item has been sought, and Fayette or Somerset County records would settle both the exact date and whether fentanyl was involved — Dan notes Jay 
+- **[[wiki/people/jay-lauer]]** — **Up:** People
 - **[[wiki/people/jerad-friedline]]** — The thread is the closest thing in the corpus to a non-crisis baseline register, but it is sparse by nature; long stretches (notably 2021–2024) are simply absent rather than documented. Rachel and the daughter appear only by reference in the corpus.
 - **[[wiki/people/jerad-friedline]]** — The **Roe repeal prediction** attributed to Jerad in CONTEXT_CORE_EXPANDED.md (§8) lacks direct corpus documentation. The referenced claim "Predicted Roe repeal May 2020, two years early" appears in the interpretation layer but no message from +191****3615 or 
+- **[[wiki/people/jerad-friedline]]** — **Up:** People
 - **[[wiki/people/jerel-coles]]** — 1. **Is Coles = Target G?** No marital data returned. Open — unaffected by the unnamed-man confirmation, which was a separate question.
 - **[[wiki/people/jerel-coles]]** — 2. **Why two addresses, 09/2024 – 07/2026?** Uniontown and Connellsville overlap twenty-two months. Cohabitation, family property, or something else. Unexplained.
 - **[[wiki/people/jerel-coles]]** — 3. **Does the "video proof / unconscious" accusation originate with him (2026-07-26, from her phone) or with her (2026-05-31, 23:54)?** Now answerable from logs already held — not yet run.
@@ -442,16 +493,21 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/jerel-coles]]** — 7. **The group chat has never been exported.** Two of this page's findings now rest on one transcribed screenshot of it. One query recovers the thread, settles the *"Yesterday 6:33 AM"* date beyond inference, and would show whatever else ran through a channel 
 - **[[wiki/people/jerel-coles]]** — 8. **Was anyone ever contacted about the night of August 16?** Dan raised police on the call (*"it's about going to the fucking police, idiot"*) and a TRO in writing the next day. Nothing in the record says either happened.
 - **[[wiki/people/jerel-coles]]** — The message-level evidence for the 2026-08-08/09 identification night — `annie_metadata_24h.csv` and the 2026-08-09 export of the 212 thread — is cited by august-2026-unmasking and read-receipt-forensics but is **not yet filed to `raw/`**; only the derived ana
+- **[[wiki/people/jerel-coles]]** — **Up:** People
 - **[[wiki/people/jess]]** — Last name and any resolution (a meeting, or a decline) are undocumented — the thread simply cools off.
 - **[[wiki/people/jim-blanchard]]** — Everything: whether Blanchard was ever actually the super or leasing agent at 307 E 76th St, what specifically made the operator characterize him negatively, and how the November 2019 apartment visit relates (if at all) to the building. A targeted search of th
+- **[[wiki/people/jim-blanchard]]** — **Up:** People
 - **[[wiki/people/joe-croftcheck]]** — **Nothing is verified.** No message thread, no court record, and no direct corroboration of any kind exists on disk for this person. The whole page rests on one 2026 capture describing a 2013 event.
 - **[[wiki/people/joe-croftcheck]]** — **"The family plug" is unexplained.** Whether the relationship ran through Suz, through Rick, through the wider household, or was simply the local option, is unknown, and the answer would materially change what this node means for supply-network.
 - **[[wiki/people/joe-croftcheck]]** — **The date range of the relationship is unknown.** One transaction is documented; whether it was the first, the only, or one of many is not.
 - **[[wiki/people/joe-croftcheck]]** — **The news citations are unchecked.** Reading the three linked articles would establish whether he is named at all, which is the single cheapest thing that could be done to this page.
+- **[[wiki/people/joe-croftcheck]]** — **Up:** People
 - **[[wiki/people/john-felix]]** — Whether Felix is a distinct person from the 2016 handle's owner is now the open question — the identification rests on a first name in two different sources and has not been resolved through the contact exports. "Elijah" is unidentified — a child in the househ
 - **[[wiki/people/john-paci]]** — Whether any part of the final $10,000 balance was ever paid is unknown — no correspondence past 2025-07-25 was located, and neither July 25 message was answered. **Nothing in Paci's own voice confirms the arrangement**; his half of it lives entirely in telepho
+- **[[wiki/people/john-paci]]** — **Up:** People
 - **[[wiki/people/kelly-johansson]]** — Whether the scripted client session ever occurred beyond the corpus's window, and whether Annie ever took Kelly up on independent client referrals, are both undocumented — the thread simply stops in late October 2019 with ordinary scheduling still in progress.
 - **[[wiki/people/kevin-mckiernan]]** — Nothing is documented about McKiernan's life beyond this one-year employment window and its aftermath — no age, no other ventures, no account of the company's ultimate fate (it was still operating as of Katherine's December 2014 email). What specifically motiv
+- **[[wiki/people/kevin-mckiernan]]** — **Up:** People
 - **[[wiki/people/kristin]]** — **The Kayden contradiction is open**, and is the most important unresolved thing on this page. It needs either the dossier's underlying `chat_162.txt` (not in `raw/`) or a direct operator answer.
 - **[[wiki/people/kristin]]** — **Identity cannot be verified the way the protocol requires.** `EXTRACTION_SPEC.md` mandates cross-checking two independent contact exports. `contacts.csv` and the Facebook address book both **predate her entirely** — stamped 2018-02-13 and 2021-10-16, contain
 - **[[wiki/people/kristin]]** — **The Facebook thread is a screen capture, not an export.** 2,009 messages were recovered from rendered UI; anything not scrolled into view that morning is absent, so the August volume is a floor, not a total. A real Messenger export would settle the first-con
@@ -464,10 +520,12 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/libby]]** — 3. **The rate contradiction** above, unresolved.
 - **[[wiki/people/libby]]** — 4. **Was the NDA ever signed?** Raised twice in August, never mentioned again.
 - **[[wiki/people/libby]]** — 5. **The other 2024 job.** *"I'll be here 6 days a week"* names a second employer that appears nowhere in `wiki/work/` or on Annie's page. Still unidentified, and now the only part of her 2024 income the wiki cannot see at all.
+- **[[wiki/people/libby]]** — **Up:** People
 - **[[wiki/people/lindsay-carolla]]** — What Claire told Lindsay in April 2017, and whether it connects to anything else documented in the corpus around that date, is unknown.
 - **[[wiki/people/lisa-durbin]]** — Exact family relationship (aunt, cousin, family friend) is not stated in the thread itself.
 - **[[wiki/people/manuel]]** — Last name is not on file. A different, unrelated "Manuel" is referenced in passing in jack-rusko's 2017 thread — a different person from an earlier, unconnected era; not to be conflated with this contact.
 - **[[wiki/people/matt-kraus]]** — Kraus's current status, location, and relationship to Dan as an adult are undocumented. The capture gives no post-adolescence contact record.
+- **[[wiki/people/matt-kraus]]** — **Up:** People
 - **[[wiki/people/md]]** — Full name and exact role at Au Za'atar are not established from the thread.
 - **[[wiki/people/menore]]** — **The intermediate handle is the top action.** Service demonstrably ran 2021–May 2024 on at least one other number (and *"Menore #1?"* implies more than one), but **no export exists for any handle but 3476070497**. Recovering it would convert ~184 third-party 
 - **[[wiki/people/menore]]** — **Real name**: "Menor"/"el menore" is now well-supported as a Spanish diminutive rather than a transcription artifact, but his legal name is unrecorded.
@@ -477,22 +535,32 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/menore]]** — **Product type**: Corpus never names substance (context: heroin, cocaine, MDMA, or combination likely)
 - **[[wiki/people/menore]]** — **Financial scale**: Revenue/volume not visible
 - **[[wiki/people/menore]]** — **Current status rests on one source.** The operator says Menore is still operational (2026-08-18); nothing in the message record speaks to the supply side after 2025-02-20. **How Dan knows is itself unrecorded** — the answer implies some awareness channel (co
+- **[[wiki/people/menore]]** — **Up:** People
 - **[[wiki/people/mike-cordaro]]** — "Uncle Dave" and "Matt Ross" are new, unconfirmed leads — neither has any other reference elsewhere in the corpus read so far.
+- **[[wiki/people/mike-cordaro]]** — **Up:** People
 - **[[wiki/people/mike-hinkle]]** — Relationship to Dan and to Fran unresolved. The Florida area code suggests he may be a Full Sail-era (2008–2010) or later connection who relocated, but this is speculation. No Facebook or other corpus cross-references found.
+- **[[wiki/people/mike-hinkle]]** — **Up:** People
 - **[[wiki/people/mohammed-bin-salman]]** — Real name and identity are unknown — the contacts card is a joke. Whether the "md" dream reference connects to the documented md contact is unconfirmed.
 - **[[wiki/people/morley-frank]]** — **1946–1956 is blank.** No residence, employment or marriage record covers the decade between the Brownsville yearbooks and Seattle, which is precisely the window that would settle how long the departure lasted.
 - **[[wiki/people/morley-frank]]** — **The Seattle move's cause is unknown** — service posting, work, or elective relocation are all consistent with what is on disk.
 - **[[wiki/people/morley-frank]]** — **Champion's county is unverified here.** The directory gives the town only. Confirming it lies outside Fayette County would make it the line's only attested out-of-county residence in four generations, which is worth the check.
+- **[[wiki/people/morley-frank]]** — **Up:** People
 - **[[wiki/people/nathan-king]]** — No other record of Nathan King exists in the corpus beyond the Woodward attendance. Relationship to Dan outside the camp, current status, and adult contact are all undocumented.
+- **[[wiki/people/nathan-king]]** — **Up:** People
 - **[[wiki/people/otto]]** — 1. **Surname**, as for Alice — Claire's married name is not in the corpus.
 - **[[wiki/people/otto]]** — 2. **Birth year.** Late-October birthday established; the year is not. The nap schedule in March 2025 suggests roughly 2–4 years old, which would place his birth around 2021–2023, but that is inference from one line.
 - **[[wiki/people/otto]]** — 3. **Who Waylon is.** Two mentions, one of them a joke about a country singer. Answerable by the operator in a word.
+- **[[wiki/people/otto]]** — **Up:** People
 - **[[wiki/people/rod-banks]]** — Still open: whether "Banks" connects to the Coldren/Whyel/Shrum maternal network; his formal title, if he had one; and whether he was compensated. No Facebook or other corpus cross-references found. **The unresolved question is now upstream of him rather than 
+- **[[wiki/people/rod-banks]]** — **Up:** People
 - **[[wiki/people/sadie-harris]]** — **No death place.** The GEDCOM date is firm; the place is absent. Whether she died in Brownsville, Uniontown, Hopwood or in care elsewhere is unresolved, and a death certificate would settle it.
 - **[[wiki/people/sadie-harris]]** — **Arrival date unknown.** Nothing on disk dates either her emigration from Austria or the couple's move from New York City to Fayette County; the 1915 Bronx and 1920 Brownsville records only bracket it.
 - **[[wiki/people/sadie-harris]]** — **Nothing personal survives.** This page is entirely residue — census rows, directory listings, a burial record. No letters, photographs, anecdotes or family stories about her appear anywhere in the corpus, which is itself worth recording: the line's matriarch
+- **[[wiki/people/sadie-harris]]** — **Up:** People
 - **[[wiki/people/shane-brannan]]** — Who he is to Josh is undocumented — the shared surname and the joint address of 6 November 2012 establish that they are connected, and nothing establishes how. Whether the friendship continued past March 2016 is unknown: he does not appear in any message expor
+- **[[wiki/people/shane-brannan]]** — **Up:** People
 - **[[wiki/people/slim]]** — Identity entirely unresolved. The nickname and the NYC summer-2019 timing could place this in any number of social, recreational, or transactional contexts. No Facebook or other corpus cross-references found.
+- **[[wiki/people/slim]]** — **Up:** People
 - **[[wiki/people/suzanne-frank]]** — **Her account of the 2005 rupture.** Still entirely Dan-side. The contemporaneous record begins in 2015, ten years after.
 - **[[wiki/people/suzanne-frank]]** — **Did the 11 August 2026 eviction hold?** Where is Dan living now, and is the 463 Morgantown arrangement still active for either of them?
 - **[[wiki/people/suzanne-frank]]** — **What happened to the $14,000?** Was any of the remaining ~$10,000 ever repaid, in cash or in kind, after July 2019?
@@ -501,33 +569,45 @@ new knowledge available, because no new source is required.
 - **[[wiki/people/suzanne-frank]]** — **Licence RS305558.** Unsourced anywhere in `raw/`; verifiable in one lookup.
 - **[[wiki/people/suzanne-frank]]** — **The Winter Park tenant.** The address is settled and the loss is now corroborated in her own words; the trafficking arrest is not. Orange County FL court records, searchable by address, are the next step.
 - **[[wiki/people/suzanne-frank]]** — **Why the thread collapsed in July 2026** from ~300 messages a month to 14, while Dan's overall message volume stayed normal.
+- **[[wiki/people/suzanne-frank]]** — **Up:** People
 - **[[wiki/people/tan-calabrese]]** — Exact date of the Angelfire incident and its position relative to the Windell's trips. Relationship to Dan outside the 2016–2020 window, role in the social graph beyond childhood friend, and current status are all unresolved. No Facebook or other corpus cross-
+- **[[wiki/people/tan-calabrese]]** — **Up:** People
 - **[[wiki/people/the-unnamed-man]]** — His name, age, occupation, relationship history with Annie, and how they met are all unknown. The duration of the relationship is unknown; the earliest event attributed to him is the finger injury around late May 2026, which would place its start at or before 
+- **[[wiki/people/the-unnamed-man]]** — **Up:** People
 - **[[wiki/people/tom-wallisch]]** — No direct contact between Dan and Tom Wallisch is documented. The nature and extent of Wallisch's attendance at Seven Springs and Roundtop during Dan's adolescence comes from a single retrospective capture and is not independently confirmed from video archives
+- **[[wiki/people/tom-wallisch]]** — **Up:** People
 - **[[wiki/people/trinity-st-clair]]** — The December 2019 booking inquiry's outcome is undocumented. No literal OnlyFans DM export or email correspondence with Trinity herself survives in the raw corpus — the "vouch for us" reference is known only from Dan's own retelling in a text to Annie, not fro
+- **[[wiki/people/trinity-st-clair]]** — **Up:** People
 - **[[wiki/people/vanessa-frank]]** — The behavioral spine lists her as "Vail, ski-school," which the message corpus neither confirms nor contradicts — the thread is about politics and family, not her location or work, so the Colorado detail is carried forward as unverified. Her birth record is fr
+- **[[wiki/people/vanessa-frank]]** — **Up:** People
 - **[[wiki/people/zach-clabaugh]]** — Relationship and context unresolved. The professional email domain and collaborative message tone suggest a work or project connection rather than a purely social one. No Facebook or other corpus cross-references found.
+- **[[wiki/people/zach-clabaugh]]** — **Up:** People
 - **[[wiki/people/zach-clingan]]** — The surname identification rests on the contact-export chain above rather than on any message in which he is named alongside the 843 number; a single message addressing him by name would close it, and none exists. What he did outside the caddie yard is unrecor
+- **[[wiki/people/zach-clingan]]** — **Up:** People
 - **[[wiki/people/zach-hendricks]]** — Relationship to Dan unresolved. The casual nickname and Fayette County location suggest a Uniontown social-circle friend. No Facebook or other corpus cross-references found.
+- **[[wiki/people/zach-hendricks]]** — **Up:** People
 - **[[wiki/people/zaco]]** — **Who is Zaco?** The name is self-given in a single SMS and appears nowhere else in the corpus — not in contacts, the Facebook archive, or any other thread. A real name would let this page be checked against the rest of the Uniontown network.
 - **[[wiki/people/zaco]]** — **What is "Tex"?** Advertised repeatedly alongside strips and never explained.
 - **[[wiki/people/zaco]]** — **Did the November 26 purchase ever happen?** The thread ends with Dan unable to travel. Nothing later in the corpus refers to him.
 - **[[wiki/people/zaco]]** — **Was he a Johnny substitute or an independent?** Both are active in Uniontown in 2018; nothing links them, and the question is whether the push-marketing posture reflects a lower position in the same chain.
+- **[[wiki/people/zaco]]** — **Up:** People
 
-### places (10)
+### places (12)
 
 - **[[wiki/places/117-belmont-circle]]** — The sale's **buyer** is still unknown, and with them the question of whether the house left the family's orbit entirely or went to somebody in it. Four gaps this page opened remain untouched by the 2026-08-27 answer: the nursing home is still unnamed; the year
+- **[[wiki/places/117-belmont-circle]]** — **Up:** Places
 - **[[wiki/places/307-e-76th-st]]** — Jim Blanchard's actual role at this address is unconfirmed beyond the operator's own account — a targeted search by his email (`jtblanchard66@gmail.com`) or phone across the fuller export set (not just the primary dump) might surface more. Whether Dan or Annie
 - **[[wiki/places/derrick-avenue]]** — 1. **Street numbers.** Only one is recorded anywhere — 278, and only because it caught fire. Which house is the Ulmers', and whether Fran's Belmont Circle lot fronts Derrick or merely corners it, are both unresolved.
 - **[[wiki/places/derrick-avenue]]** — 2. **Whose houses.** *"I saw al coming down Derrick. Must have been at your moms"* (2018-05-11) puts Dan's mother in the same orbit, but the corpus does not fix which addresses on or off Derrick belong to whom in which years.
 - **[[wiki/places/derrick-avenue]]** — 3. **One false positive, excluded.** A 2025-06-08 message about *"my buddy in Pittsburgh Derrick"* is a person, not the street, and is not counted in the forty-five.
+- **[[wiki/places/derrick-avenue]]** — **Up:** Places
 - **[[wiki/places/the-unpapered-address]]** — **Nobody has looked outside the corpus.** Fayette County and New York City both keep public records — deeds, dockets, eviction filings, mechanics liens. Every claim on this page is drawn from what Dan and his family said in text messages, which is precisely th
 - **[[wiki/places/the-unpapered-address]]** — **The 307 lease signatory is still open**, and it decides something real: whether Dan was ever a named party to a residential lease at all, or only ever an occupant. The rent is now known; the name is not.
 - **[[wiki/places/the-unpapered-address]]** — **The 155 Virginia holder is unresolved** across the Alexis→Annie transition, and that transition is the corpus's clearest case of the container being retained while the occupant changed (dormancy-not-exit). Who was on the paper, if anyone, would settle whethe
 - **[[wiki/places/the-unpapered-address]]** — **The pre-2010 record is empty.** Full Sail housing (2008–2010) and everything before it are undocumented, so the rule is tested on sixteen years and not on a life. If the Florida period shows a conventional student lease, the pattern has a start date and the 
 - **[[wiki/places/the-unpapered-address]]** — **This page does not establish intent.** Whether the unpapered arrangements were preferred, accepted, or simply the only ones available at a $11,000–14,000 household income is not decidable from this material, and the three readings have very different implica
 
-### self (160)
+### self (171)
 
 - **[[wiki/self/ancestry]]** — 1. **The Harris paternal line.** Sadie Harris's father ("Harris" from Czechoslovakia) is the single biggest data gap. He contributed ~12.5% of Dan's DNA but is completely undocumented beyond a single datum. Research into Czech immigration records, census data,
 - **[[wiki/self/ancestry]]** — 2. **The maternal R0 haplogroup.** The origin of the R0 mitochondrial haplogroup on the maternal line is unexplained. It may indicate a distant Jewish, Middle Eastern, or Central Asian ancestor entering through the Van Voorhis, Conwell, or Thomas lines. Resear
@@ -544,6 +624,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/concepts/chatgpt]]** — **Why the 194-day dormancy (2024-09 → 2025-03)?** The record simply stops and restarts. Whether Dan moved to another model in that window, or was not doing this kind of work at all, is not established here — the Gemini and Claude pages are the place to test it
 - **[[wiki/self/concepts/chatgpt]]** — **The therapy sessions are named but not in the export.** The "ChatGPT-❤️❤️❤️❤️❤️_[THERAPY]" material is known from dox-scan filenames; no conversation in the 375 carries that title, so the therapeutic use is documented by reference rather than by transcript.
 - **[[wiki/self/concepts/chatgpt]]** — **Dan's reasons remain unrecorded.** Corroborated across two passes now: the corpus holds his verdict ("cooked") and his behaviour (migration), and no statement by him of *why*.
+- **[[wiki/self/concepts/chatgpt]]** — **Up:** Self
 - **[[wiki/self/lineage/23andme-genomics]]** — The chromosome painting PDFs contain no extractable segment-level data — the per-chromosome ancestry assignments are visual only. The full CSV download from 23andMe's Scientific Details page was not part of the export in `raw/self/ancestry/dna-reports/`.
 - **[[wiki/self/lineage/23andme-genomics]]** — Two health predisposition results (Age-Related Macular Degeneration, Hereditary Thrombophilia) appear in the summary but their specific outcomes were not captured in the text extraction.
 - **[[wiki/self/lineage/23andme-genomics]]** — The Prostate Cancer (BRCA1/BRCA2) report is locked behind an incomplete questionnaire ("Complete tasks to view result").
@@ -551,6 +632,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/lineage/23andme-genomics]]** — The maternal haplogroup R0 is unusual for a supposedly purely Appalachian Protestant line and warrants further investigation — it may indicate a distant non-European ancestor on the maternal line, or it may simply reflect the deep-time distribution of R0 acros
 - **[[wiki/self/lineage/23andme-genomics]]** — The paternal haplogroup R-Z93 is consistent with Ashkenazi heritage but is not exclusively Jewish; its presence in the Frank line could be investigated further with more detailed Y-DNA testing.
 - **[[wiki/self/lineage/23andme-genomics]]** — Inverse connections to this page from family-tree, hybrid-analysis, and ancestry need to be added to those pages' frontmatter (the `bin/wiki-connect check` lint will flag these as missing inverses).
+- **[[wiki/self/lineage/23andme-genomics]]** — **Up:** Self › Lineage
 - **[[wiki/self/lineage/family-tree]]** — George Dixon Shrum Jr's exact death date remains unknown and undocumented in the current GEDCOM export.
 - **[[wiki/self/lineage/family-tree]]** — Full accounting of collateral relatives beyond the direct lineage.
 - **[[wiki/self/lineage/family-tree]]** — The Harris paternal line is completely undocumented beyond Sadie Harris herself — research into Czech immigration records, census data, and synagogue records could resolve this.
@@ -561,6 +643,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/lineage/family-tree]]** — The 0.2% Sub-Saharan African trace in the 23andMe data has no documentary counterpart.
 - **[[wiki/self/lineage/family-tree]]** — The maternal R0 haplogroup is unusual for an Appalachian Protestant line — its origin is unexplained.
 - **[[wiki/self/lineage/family-tree]]** — The paternal R-Z93 haplogroup is more common in Central/South Asia than typical Ashkenazi populations — its origin is unexplained.
+- **[[wiki/self/lineage/family-tree]]** — **Up:** Self › Lineage
 - **[[wiki/self/lineage/hybrid-analysis]]** — Clinical validation of the speculative links between Neanderthal variants and behavioral traits like mood disorders or addiction.
 - **[[wiki/self/lineage/hybrid-analysis]]** — Further granular reconciliation of the chromosome painting segments with specific ancestors in the GEDCOM tree.
 - **[[wiki/self/lineage/hybrid-analysis]]** — The Harris paternal line is completely undocumented beyond Sadie Harris herself — research into Czech immigration records could resolve the 12.5% of Dan's DNA from this line.
@@ -570,11 +653,13 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/lineage/hybrid-analysis]]** — Two health predisposition results (Age-Related Macular Degeneration, Hereditary Thrombophilia) were not fully extracted from the PDF.
 - **[[wiki/self/lineage/hybrid-analysis]]** — The Prostate Cancer (BRCA1/BRCA2) report is locked behind an incomplete questionnaire.
 - **[[wiki/self/lineage/hybrid-analysis]]** — Inverse connections to this page from ancestry, 23andme-genomics, and family-tree need to be added to those pages' frontmatter.
+- **[[wiki/self/lineage/hybrid-analysis]]** — **Up:** Self › Lineage
 - **[[wiki/self/lineage/index]]** — Further integration of genomic health traits with known ancestral lineage.
 - **[[wiki/self/message-corpora/source-coverage-index]]** — Timezone is recorded from documented convention rather than measured, except for the two 2026-08-13 exports, which were validated against a local-time source on 42,895 text-matched pairs. Every other row in the Timezone column is an assumption inherited from t
 - **[[wiki/self/message-corpora/source-coverage-index]]** — Row counts are physical records, not unique messages; the same message appears in many files and this index deliberately does not deduplicate.
 - **[[wiki/self/tattoos]]** — The gravestone piece now has an artist and location (Ian Weidrick, Allied Tattoo, Brooklyn) but still no date or corroborating message-corpus trace. Body placement is unknown for every piece on this list; the corpus documents *what* and often *when* and *who d
 - **[[wiki/self/twitter]]** — 2009 through 2012, January–mid-August 2013, and some 2026 days between the spreadsheet end and the live scrape are still being walked from X in batches of ten. Each incomplete yearly page states that on its face. The spreadsheet span 2013-08-17 through 2026-04
+- **[[wiki/self/twitter]]** — **Up:** Self
 - **[[wiki/self/twitter/2008]]** — **This page is a lower bound, and the shortfall is structural.** The fetch that produced it was search-based and capped at ten results per query. Every month that returned ten hits is truncated at ten: **October, November and December 2008 are all incomplete.*
 - **[[wiki/self/twitter/2008]]** — **The month-level shortfall is unchanged.** A complete X account export is still the only thing that would fill in the truncated October, November and December.
 - **[[wiki/self/twitter/2008]]** — This page is the text archive. Every original and every reply retrieved for the year is below, oldest first.
@@ -673,6 +758,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/twitter/2008]]** — **2008-12-29 04:56:33 UTC** · [1083432347](https://x.com/danfrank/status/1083432347) *likes 0 · replies 0 · reposts 0*
 - **[[wiki/self/twitter/2008]]** — **2008-12-31 03:14:56 UTC** · [1087224783](https://x.com/danfrank/status/1087224783) *likes 0 · replies 0 · reposts 0*
 - **[[wiki/self/twitter/2008]]** — **2008-12-31 17:39:03 UTC** · [1088395639](https://x.com/danfrank/status/1088395639) *likes 0 · replies 0 · reposts 0*
+- **[[wiki/self/twitter/2008]]** — **Up:** Self › Twitter · **Next:** 2009
 - **[[wiki/self/twitter/2009]]** — The operator spreadsheet begins 2013-08-17, so none of this year comes from it. The 283 rows here have two origins: 165 walked from live X search in batches of ten, and 118 recovered by the 2026-09-02 backend fetch that also produced the 2008 page. Do not trea
 - **[[wiki/self/twitter/2009]]** — **The distribution of this page is an artefact of how it was fetched, and it will mislead anyone who reads it as behaviour.** Both retrieval methods were capped at ten results per query, and the queries were month-bounded. The consequence is visible on the pag
 - **[[wiki/self/twitter/2009]]** — **What follows for anyone using this page:** no claim about posting frequency, volume, cadence, or a subject going quiet is supportable for January–September 2009, and none should be made. Presence is evidence here; absence is not. A complete X account export 
@@ -689,8 +775,13 @@ new knowledge available, because no new source is required.
 - **[[wiki/self/twitter/2013]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
 - **[[wiki/self/twitter/2026]]** — Spreadsheet originals run through 2026-04-07. Later originals from the live scrape are on this page; days between scrape batches may still be missing and will be filled on later commits to this same branch.
 - **[[wiki/self/twitter/2026]]** — This page is the text archive. Every original and every quote-tweet with Dan's own text that has been retrieved for the year is below, oldest first. Pure reposts with no @danfrank quote content are omitted.
+- **[[wiki/self/twitter/replies]]** — **No parent tweets.** Every reply here is one side of an exchange. Several rows are close to unreadable without the thing they answer, and are kept anyway. Tier 3 of `TWITTER_PULL.prompt` is the fix and remains unfilled.
+- **[[wiki/self/twitter/replies]]** — **No ids, no metrics, no URLs.** Nothing here can be merged into `archive.jsonl` by its dedup key. The 89 overlaps were matched on normalised text and the match method is recorded per row.
+- **[[wiki/self/twitter/replies]]** — **The selection rule of the video is unknown**, so the reply corpus's *shape* — which years, which interlocutors, how often — is not measurable from it. A per-year reply count remains a thing the corpus cannot state.
+- **[[wiki/self/twitter/replies]]** — **Four transcribed blocks merge several consecutive posts** and are kept unsplit rather than divided on a guess.
+- **[[wiki/self/twitter/replies]]** — **Five rows were excluded under the standing directive** and are recorded nowhere but as a count.
 
-### timeline (81)
+### timeline (95)
 
 - **[[wiki/timeline/2015-annie-read-wiki-impact-analysis]]** — These are the standing wiki claims the read contradicts or sharpens. **None have been applied.**
 - **[[wiki/timeline/annie-read-notes]]** — 2. **The "Casey saga," Nov 30, 23:00** — *"the worst part of the Casey saga / It is bombastic"* — moves to a phone call and is never restated in text. Look: Dec 1–3 for a retelling, and Casey's own channel.
@@ -716,7 +807,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/timeline/annie-read-notes]]** — `people/claire-ulmer` · (check) sister · **active participant in the Dec 2 confrontation** — jumps on Annie when Ellen finds out; Emilio texts her as his channel to the family
 - **[[wiki/timeline/annie-read-notes]]** — `people/rick-frank` · (check) father · **intervenes in the Dec 2 crisis** — *"Call me tomorrow. I will help you fix this"*; knows Annie's dad; positioned as the family mediator
 - **[[wiki/timeline/annie-read-notes]]** — `people/zachariah-harshman` · (check) cover story for the first night · **active threat post-breakup** — texts Annie "I have to talk to you" on Dec 9; tells her she looks like shit; the "cover story" reading is incomplete
-- **[[wiki/timeline/annie-read-notes]]** — `wiki/places/155-virginia-ave` · Dan's house · **the Annie box exists** — a box of mementos (notes, pen straws, snowflakes) from the first week, referenced on Dec 3 and Dec 10
+- **[[wiki/timeline/annie-read-notes]]** — 155-virginia-ave · Dan's house · **the Annie box exists** — a box of mementos (notes, pen straws, snowflakes) from the first week, referenced on Dec 3 and Dec 10
 - **[[wiki/timeline/annie-read-notes]]** — `people/jill` · (check) friend · **Annie's closest friend** — referenced repeatedly; her birthday is Dec 8; her boyfriend is invited to the NYE party
 - **[[wiki/timeline/annie-read-notes]]** — 1. **What did Alexis ask Dan for on Dec 13?** Annie says "I can't believe she asked you that last night" — the content is never stated. Worth a targeted read of the Alexis export around Dec 12-13.
 - **[[wiki/timeline/annie-read-notes]]** — 2. **Who is "Lukeyan"?** Dan debriefed him at 3:43am on Dec 15. Not in any existing contact list. Identity question.
@@ -733,7 +824,9 @@ new knowledge available, because no new source is required.
 - **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — Whether any footage from the "hidden camera" request was actually taken, and if so what became of it, is undocumented
 - **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — How many total times Alexis and Annie were together beyond the specifically dated messages is unknown
 - **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — Alexis's exact release date is not independently confirmed beyond "just got out of jail" on Nov 4
+- **[[wiki/timeline/events/annie-alexis-reunion-november-2018]]** — **Up:** Timeline
 - **[[wiki/timeline/events/april-may-2026-final-weeks]]** — This page is sourced from a single chat-based analysis session, not a directly re-verified raw CSV extract the way the rest of the corpus is — the underlying message log for April 1–May 6, 2026 has not been independently located and cross-checked in raw/. The 
+- **[[wiki/timeline/events/april-may-2026-final-weeks]]** — **Up:** Timeline
 - **[[wiki/timeline/events/august-2026-morgantown-call]]** — **The audio is unheard.** Transcribe it and file the transcript beside it. Until then every quotation on this page is T2 and every speaker label is somebody else's judgement.
 - **[[wiki/timeline/events/august-2026-morgantown-call]]** — **Was the email sent?** See the contradiction above. One query.
 - **[[wiki/timeline/events/august-2026-morgantown-call]]** — **The group chat has never been exported.** It is now load-bearing on two findings — the August 13 seam and the August 19 retraction — and the wiki's only copy of either is a transcription of one screenshot. Exporting the thread settles the *"Yesterday 6:33 AM
@@ -743,43 +836,59 @@ new knowledge available, because no new source is required.
 - **[[wiki/timeline/events/august-2026-morgantown-call]]** — **Did the block hold?** The export ends 2026-08-19 15:15:33, eight minutes after it. Every previous block in this record has a documented reversal.
 - **[[wiki/timeline/events/august-2026-morgantown-call]]** — **Coles's *"I have stuff to ruin you and your mom"*** is unexplained. If it is more than bluster it is the only unquantified threat vector aimed at Suz in the corpus.
 - **[[wiki/timeline/events/august-2026-unmasking]]** — `annie_metadata_24h.csv` and `imessage_export_2124702449_20260809084846_.csv` are the primary sources for every figure above and are not yet on disk in `raw/` — see the sourcing note at the top of this page and `queue.md`. Whether receipts were toggled off or 
+- **[[wiki/timeline/events/august-2026-unmasking]]** — **Up:** Timeline
 - **[[wiki/timeline/events/bald-eagle-cummings]]** — **The date is unfixed.** Seventh grade for a student who started a year early puts it around the 2000–01 school year, but the capture says only "7th grade" and "one winter day." Nothing narrows it further.
 - **[[wiki/timeline/events/bald-eagle-cummings]]** — **Britney Bolen, Victor Fiano, Alan and Jon Allen have no other presence in the corpus.** None appears in any message export, Facebook archive or dossier located so far. Whether any of them remained in contact is unknown — which makes this cohort a direct test
 - **[[wiki/timeline/events/bald-eagle-cummings]]** — **The nickname is unattested outside this capture.** A year of school-wide use should have left traces in the 2007-era Facebook archive; nobody has looked.
 - **[[wiki/timeline/events/bald-eagle-cummings]]** — **The second-hand claim about Victor and Britney in the minivan** is reported as something Dan *"later found out"* and is not corroborated.
+- **[[wiki/timeline/events/bald-eagle-cummings]]** — **Up:** Timeline
 - **[[wiki/timeline/events/franki-fireworks-day-2013]]** — **The date is not fixed.** "Early July 2013" plus a fireworks display is as close as the record gets. A dated ATM withdrawal on Suz's account, or a Uniontown fireworks schedule for 2013, would close it.
 - **[[wiki/timeline/events/franki-fireworks-day-2013]]** — **Nothing here is contemporaneous.** The whole page rests on one 2026 capture. The July 9–31 2013 self-typology emails and the August 14 2013 post-mortem already in the corpus are the nearest dated material and they corroborate the window, not the day.
 - **[[wiki/timeline/events/franki-fireworks-day-2013]]** — **The hitchhikers, the ropes course job, and 15 Holly Lane** are single-source details with no independent confirmation anywhere in `raw/`.
+- **[[wiki/timeline/events/franki-fireworks-day-2013]]** — **Up:** Timeline
 - **[[wiki/timeline/events/james-analysis-pdf]]** — **The PDF itself is not in `raw/`.** Only the model's unredacted source text survives, in the chat log; the curated version Dan actually sent exists nowhere. The comparison this page rests on is therefore between the full chat output and Dan's two descriptions
 - **[[wiki/timeline/events/james-analysis-pdf]]** — **Whether the self-profile was ever sent to James.** Dan commissioned it explicitly to hand over; there is no record either way.
 - **[[wiki/timeline/events/james-analysis-pdf]]** — **Danielle's own reaction, unmediated.** The wiki has one line of it, quoted by Dan. What she actually thought of being sent a psychological profile of her live-in boyfriend by her ex is unrecorded.
+- **[[wiki/timeline/events/james-analysis-pdf]]** — **Up:** Timeline
 - **[[wiki/timeline/events/july-2026-recontact]]** — The email thread Dan answered on July 23 is not in `raw/` — only Annie's description of it (sent over July 4 about Milo and the fireworks, resent around July 21) and the fact that he replied. The photos, videos, and the karaoke file are attachments the CSV exp
+- **[[wiki/timeline/events/july-2026-recontact]]** — **Up:** Timeline
 - **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **The Ellen message of July 26 may be recoverable after all, and may not be an email.** This page recorded it as an email not in `raw/`. The operator (2026-08-17) places it *"in the text logs on 26 July 2026 at around 7am"*, along with the threatening messages
 - **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **The man is unidentified**, by design. Whether he is Tuquick remains unstated in any source.
 - **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **The rape allegation is unadjudicated** and this page does not weigh it, consistent with july-2026-recontact. What is new is that Annie states he "even fucking admitted he did it to me," that she will press charges "if I felt it was necessary AT ANY POINT," a
 - **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **Attachments are unrecovered.** Roughly forty photographs and videos in this window exist in the export only as markers, including the video that the July 26 accusation concerns.
 - **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **New names, undocumented**: Sugie, Laura, Courtney, Brian (relocated to California), Tanya, Lucky, Bailey, and "Bop" — a supplier described as arriving at Dan's house daily at noon, who by volume is now the corpus's most active supply contact and has no page.
+- **[[wiki/timeline/events/july-august-2026-reentanglement]]** — **Up:** Timeline
 - **[[wiki/timeline/events/robotussin-s-last-dance]]** — The exact capsule count is Dan's own retrospective estimate, not a counted inventory — "20–40" is a range, and the capture reads it as such.
 - **[[wiki/timeline/events/robotussin-s-last-dance]]** — The CVS location is named only as "the closest CVS to Burgettstown"; the Ruby Tuesday's is specified as near Pittsburgh airport but not pinned further.
 - **[[wiki/timeline/events/robotussin-s-last-dance]]** — No other participant has corroborated or contested any of the three factual claims (the capsule count, the Rt 51 speed, the cone impacts) — this is single-source testimony. The 2026-08-17 answer about intoxication at the wheel is from the same single source an
 - **[[wiki/timeline/events/robotussin-s-last-dance]]** — The Post-Gazette Pavilion's sold-out Tom Petty date of June 15 2005 has not been independently verified against tour records.
+- **[[wiki/timeline/events/robotussin-s-last-dance]]** — **Up:** Timeline
 - **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — Shelbie's own account of either night is absent — her iMessage number begins 2019-05-15, and the two encounters sit entirely inside Annie's thread and Dan's memory. Nothing records what she was told the arrangement was.
 - **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — Whether the 17 April window is the second encounter is inferred from the operator's account plus a long late-night drive; no message that night names her. The June 8, 2019 coordination remains unresolved as either a third occasion or a misdated recollection of
 - **[[wiki/timeline/events/shelbie-annie-threesome-april-2019]]** — Whether sending the `.vcf` at 22:56 was capitulation, invitation, or unthinking — see the contradiction above — is not answerable from the record.
 - **[[wiki/timeline/events/the-fall-of-fran]]** — Nobody has recorded what Danny Matthews knew. The corpus shows no message in which the medical emergency is mentioned to him before, during or after, and his thread continues afterward with no reference to the night at all — so whether he understood that a 97-
+- **[[wiki/timeline/events/the-fall-of-fran]]** — **Up:** Timeline
 - **[[wiki/timeline/events/uniontown-hospital-vape-alarm]]** — **The disposition is the live question now.** The summons closes the "was anything filed" gap and opens a sharper one: what happened to docket MJ-14101-NT-0000082-2018. Both plea lines are unsigned in the last image anyone has of the sheet. The fine and costs 
 - **[[wiki/timeline/events/uniontown-hospital-vape-alarm]]** — The **video the frames come from** is not on disk — only three screenshots of it playing in Photos. Two clips exist (4:31 PM and 4:41 PM on April 17); recovering them would likely resolve the fine and costs row and the barcode block, and the 4:31 clip may pan 
 - **[[wiki/timeline/events/uniontown-hospital-vape-alarm]]** — The reading of the charge as a **Uniontown local ordinance** rests on `LO` being the MDJS charge-type prefix for one, which is convention rather than anything printed on the sheet. The ordinance's text — what conduct no. 1639 (b)(1) actually reaches, and wheth
 - **[[wiki/timeline/events/uniontown-hospital-vape-alarm]]** — The hospital's own record — an incident report, a trespass notice — is still unsought and is now the only thing that would establish whether Dan was permitted back onto the property before Fran died, which matters because Diane's letter had already excluded hi
+- **[[wiki/timeline/events/uniontown-hospital-vape-alarm]]** — **Up:** Timeline
 - **[[wiki/timeline/periods/covid-era-2020]]** — No primary source narrates the lockdown period day-to-day beyond the Train Plan incident and the trading record — there is no documented account of remote work, isolation's effect on the relationship outside that one crisis, or health precautions taken. The ex
+- **[[wiki/timeline/periods/covid-era-2020]]** — **Up:** Timeline
 - **[[wiki/timeline/periods/dark-era-2007-2008]]** — No primary source gives an exact date for the eating disorder's onset, duration, or any point of resolution — the reconstruction above is built entirely from oblique references in later message threads, not from any direct account. The five-month first-use-to-
+- **[[wiki/timeline/periods/dark-era-2007-2008]]** — **Up:** Timeline
+- **[[wiki/timeline/periods/full-sail-2008-2010]]** — **Up:** Timeline
 
-### work (6)
+### work (10)
 
 - **[[wiki/work/caviar-courier]]** — No earnings totals or delivery-count summaries are available from this export alone. The notification text does not include dollar amounts.
+- **[[wiki/work/caviar-courier]]** — **Up:** Work
 - **[[wiki/work/creative-license]]** — The specific mechanism behind the airfare citation — what Dan actually found in the travel-expense records, and whether it involved Walmart/Molson Coors billing as the Gemini session speculates — is unverified; only the fact that he cited it is confirmed. What
+- **[[wiki/work/creative-license]]** — **Up:** Work
 - **[[wiki/work/tech/danmodel]]** — Whether `eval_harness.py`'s blind test was ever run to completion, and what it found, is unknown — the most interesting question the project raises is also the one it left unanswered on disk. The full 34,808-row `reaction_pairs_train.jsonl` (~16MB) exceeds thi
+- **[[wiki/work/tech/danmodel]]** — **Up:** Work › Tech
 - **[[wiki/work/tech/max-framework/overview]]** — **No dated version history.** `MAX_PRIME.md` is marked "v1.0," generated April 2026, with an explicit note that it should be updated as gaps are filled — no evidence in the corpus of a v1.1 or later revision.
 - **[[wiki/work/tech/max-framework/overview]]** — **The six Bunker Core projects it names remain individually unverified** — see bunker-core for the full list and the same caveat repeated there: this is Dan's own build list from inside a session, not independent evidence any of the software exists as describe
 - **[[wiki/work/tech/max-framework/overview]]** — **CATO's own bootloader document has not been mined to the same depth MAX_PRIME has been here** — `CATO_BOOTLOADER_DANFRANK.md` and `CATO_conflict_architecture.md` are cited as sources but a dedicated pass reading them to exhaustion, the way this page now does
+- **[[wiki/work/tech/max-framework/overview]]** — **Up:** Work › Tech
 

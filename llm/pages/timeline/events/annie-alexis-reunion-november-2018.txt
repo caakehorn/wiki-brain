@@ -118,3 +118,7 @@ The birthday-night camera request, the "God must exist" line, and the "several t
 - Whether any footage from the "hidden camera" request was actually taken, and if so what became of it, is undocumented
 - How many total times Alexis and Annie were together beyond the specifically dated messages is unknown
 - Alexis's exact release date is not independently confirmed beyond "just got out of jail" on Nov 4
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

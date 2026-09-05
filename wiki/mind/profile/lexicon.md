@@ -133,3 +133,7 @@ plainly, because the plain version would be the "normie" one.
 - **Whether earlier versions exist is unknown.** The "v1.0" label implies
   iteration or a planned v2; nothing in the corpus currently documents a
   prior version.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]] › [[wiki/mind/profile/index|Profile]]

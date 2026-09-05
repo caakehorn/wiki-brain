@@ -5,7 +5,7 @@ title: "Wiki Digest"
 status: active
 knowledge: derived
 date_created: 2026-08-26
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 sources: []
 ---
 
@@ -21,11 +21,11 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | | |
 |---|---|
-| Pages | 497 |
-| Pages touched in the last 14 days | 229 |
+| Pages | 498 |
+| Pages touched in the last 14 days | 228 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 49 |
-| Open gaps | 604 |
+| Open gaps | 713 |
 | Standing predictions | 65 |
 
 ## By domain
@@ -35,7 +35,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | people | 175 |
 | interests | 96 |
 | mind | 78 |
-| self | 59 |
+| self | 60 |
 | timeline | 42 |
 | work | 15 |
 | meta | 12 |
@@ -47,7 +47,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 | Status | Pages |
 |---|---|
-| active | 191 |
+| active | 192 |
 | stable | 166 |
 | closed | 101 |
 | archived | 29 |
@@ -55,7 +55,13 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-04** — 100 pages
+**2026-09-05** — 4 pages
+  - connect | meta | the wiki names 570 things it does not link — 344 of them now clickable
+  - connect | meta | 453 of 497 pages were one-way doors
+
+**2026-09-04** — 104 pages
+  - lint | meta | the crosslink campaign had been counting a link that isn't one
+  - connect | people | 79 lines had been written about a 1,789-message thread
   - connect | people | the handles were on the pages all along, and the guard could not see nine of them
   - connect | people | thirteen pages that counted half a conversation
   - connect | people | the estate's two hands, found by reading a conversation instead of a name
@@ -64,9 +70,10 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - connect | self, interests, health, mind, people | the twitter archive read back onto the pages it was always about
   - connect | people | vaughn — the re-derivation, and a cocaine channel nine pages did not have
   - lint | mind | the first layer of the Vaughn pass — and a defect in the staleness gate
+  - ingest | self | @danfrank reply corpus (operator video transcription)
   - connect | people | the reciprocal debt the Vaughn pass created, paid
 
-**2026-09-03** — 30 pages
+**2026-09-03** — 27 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
   - ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
   - ingest | self | 2010 read in full — the corpus's most-cited date was computed from a train going the wrong way, and it survives anyway
@@ -106,10 +113,6 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - ingest | self | the backend backfill — a first year recovered, and a published lean corrected
 
 **2026-09-01** — 2 pages
-
-**2026-08-31** — 2 pages
-  - ingest | health | the intake ledger's first export (2026-08-30/31)
-  - ingest | health | the ledger gets an entry page
 
 ## Pages that reason from other pages
 

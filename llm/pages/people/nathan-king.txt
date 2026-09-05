@@ -24,7 +24,7 @@ connections:
 
 # Nathan King
 
-Nathan King is a childhood friend who attended Camp Woodward with Dan Frank and Matt Kraus for three years (rollerblading track). His documented presence in the record is limited to the Woodward camp attendance, placing him inside the same adolescent extreme-sports scene that centered on Seven Springs, the Vans Skatepark trips, and the 2006 transition to a Woodward ski camp.
+Nathan King is a childhood friend who attended Camp Woodward with Dan Frank and [[wiki/people/matt-kraus|Matt Kraus]] for three years (rollerblading track). His documented presence in the record is limited to the Woodward camp attendance, placing him inside the same adolescent extreme-sports scene that centered on [[wiki/places/seven-springs|Seven Springs]], the Vans Skatepark trips, and the 2006 transition to a Woodward ski camp.
 
 ## Camp Woodward
 
@@ -33,3 +33,7 @@ Four summers of Dan's adolescence were spent at Camp Woodward in Pennsylvania. D
 ## Gaps
 
 No other record of Nathan King exists in the corpus beyond the Woodward attendance. Relationship to Dan outside the camp, current status, and adult contact are all undocumented.
+
+---
+
+**Up:** [[wiki/people/index|People]]

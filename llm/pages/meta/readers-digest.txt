@@ -15,8 +15,8 @@ chart:
     - name: "Entries"
       points:
         "Translated": 28
-        "Major lane": 42
-        "Free lane": 40
+        "Major lane": 44
+        "Free lane": 39
         "Held (people)": 94
         "Too thin": 47
         "Withheld": 217
@@ -44,9 +44,9 @@ This page is the campaign to write one for every entry.
 | | |
 |---|---|
 | Entries with a plain-English edition | **28** |
-| Entries eligible for one | 278 |
+| Entries eligible for one | 279 |
 | Withheld under the standing directive | 217 |
-| Coverage | 10.1% |
+| Coverage | 10.0% |
 
 ## The two lanes
 
@@ -56,8 +56,8 @@ is arithmetic in `bin/wiki-plain`: 900 words is the boundary.
 
 | Lane | What is in it | Outstanding |
 |---|---|---|
-| `major` | entries of 900 words or more — the dense findings | 42 |
-| `free` | entries under 900 words, worked smallest first | 40 |
+| `major` | entries of 900 words or more — the dense findings | 44 |
+| `free` | entries under 900 words, worked smallest first | 39 |
 
 A further **94** eligible entries about other people are in
 neither lane. They are held back deliberately, pending a decision about
@@ -108,21 +108,21 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 
 ## Next up
 
-**major** — 42 outstanding
+**major** — 44 outstanding
 
-- [[wiki/self/twitter/2024]] (11186 words)
-- [[wiki/self/twitter/2010]] (11106 words)
-- [[wiki/self/twitter/2013]] (10853 words)
-- [[wiki/self/twitter/2009]] (9061 words)
-- [[wiki/self/twitter/2022]] (8060 words)
+- [[wiki/self/twitter/2024]] (11197 words)
+- [[wiki/self/twitter/2010]] (11117 words)
+- [[wiki/self/twitter/2013]] (10864 words)
+- [[wiki/self/twitter/2009]] (9072 words)
+- [[wiki/self/twitter/2022]] (8071 words)
 
-**free** — 40 outstanding
+**free** — 39 outstanding
 
-- [[wiki/work/caviar-courier]] (301 words)
-- [[wiki/interests/favorites/books/authors/adrian-goldsworthy]] (315 words)
-- [[wiki/interests/favorites/music/artists/lil-wayne]] (320 words)
-- [[wiki/interests/rock-irrelevance-thesis]] (320 words)
-- [[wiki/interests/favorites/books/authors/jonathan-karl]] (328 words)
+- [[wiki/work/caviar-courier]] (304 words)
+- [[wiki/interests/favorites/books/authors/adrian-goldsworthy]] (322 words)
+- [[wiki/interests/rock-irrelevance-thesis]] (323 words)
+- [[wiki/interests/favorites/music/artists/lil-wayne]] (327 words)
+- [[wiki/interests/favorites/books/authors/jonathan-karl]] (335 words)
 
 Entries considered and deliberately given no plain edition are recorded
 in `plain/DECLINED.md`, with the reasoning, rather than left looking

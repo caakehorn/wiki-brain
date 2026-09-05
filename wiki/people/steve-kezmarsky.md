@@ -135,3 +135,7 @@ of Steve crossing that line, held in the register of a running joke.
 area, January 2018 arrest — externally checkable); Steve's age; his
 state after December 2018 — the corpus never mentions him again; the
 identity of "Becky."
+
+---
+
+**Up:** [[wiki/people/index|People]]

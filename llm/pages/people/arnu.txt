@@ -52,7 +52,7 @@ Felix named in MAX_PRIME as "supply-adjacent figure" (2026 appearance); context 
 
 **Cross-references:** [[wiki/legal/463-morgantown]], [[wiki/people/alexander-jackson]], [[wiki/people/john-carney]], [[wiki/people/suzanne-frank]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/timeline/periods/2025-collapse]], [[wiki/self/facebook]] (recent ingest), [[wiki/work/tech/max-framework/overview]] (Felix note).
 
-**Notes:** Direct data thin beyond one key Suz message + wiki timeline references (derived from operating/core). No deep personal bio. Defer to raw message-csv and future legal docs for liens/contracts. Expand on Elijah/Felix ties if surfaced. "John carney thing" suggests prior forensic analysis shared.
+**Notes:** Direct data thin beyond one key Suz message + wiki timeline references (derived from operating/core). No deep personal bio. Defer to raw message-csv and future legal docs for liens/contracts. Expand on Elijah/Felix ties if surfaced. "John carney thing" suggests prior [[wiki/mind/concepts/forensic-method|forensic analysis]] shared.
 
 > **DEADLINE ELAPSED [2026-08-02].** The ~27 July 2026 mechanics-lien date this
 > page is organised around has passed with no recorded outcome. The date was an
@@ -78,3 +78,7 @@ obvious absorber because Suz's finances were "cyclical." They are not cyclical â
 she filed Chapter 13 in October 2024 with roughly $157,000 scheduled and
 liquidated her only unencumbered asset in June 2026 to service it. If the lien
 was filed, there is no absorber at all.
+
+---
+
+**Up:** [[wiki/people/index|People]]

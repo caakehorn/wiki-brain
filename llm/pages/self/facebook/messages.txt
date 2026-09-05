@@ -63,8 +63,8 @@ Intimate, logistical, affectionate (baby talk), conflict disclosure, NYC daily. 
 - "low ball joe"
 
 ### Other real/short
-- Sean Teets: "Mushys and k", Nintendo Switch Zelda sale 200$, "looking for tax or strpz"
-- Charles Davenport 2010 (NYC move era): "how everything n the nyc?", "im here...wats your #", "i'm in need of another run down there"
+- [[wiki/people/sean-teets|Sean Teets]]: "Mushys and k", Nintendo Switch Zelda sale 200$, "looking for tax or strpz"
+- [[wiki/people/charles-davenport|Charles Davenport]] 2010 (NYC move era): "how everything n the nyc?", "im here...wats your #", "i'm in need of another run down there"
 
 ### Spam / Noise
 - Legacy 2011 (emilydeanna...): "hello, because you are also a close friend of EJ I am going to tell you exactly what I discovered. that website ... is giving away an iPhone5 ... hurry up before they close it."

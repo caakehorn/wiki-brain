@@ -592,3 +592,7 @@ leg's mechanism was disclosed as resting on a disputed self-typing rather
 than an undisputed one. **What it did not do:** resolve falsifier 3, or
 either of the two newly-acknowledged Gaps (security/prosperity, health) —
 recorded as open rather than quietly closed.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

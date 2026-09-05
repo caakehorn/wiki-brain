@@ -175,7 +175,7 @@ not know he was not alive for it.
 
 This page's Gaps said *"the estate attorney reached in August 2020
 (`+17245706170`) is not established to be Adams or his office."* Three messages
-establish the office and a second Adams:
+establish [[wiki/interests/the-office|the office]] and a second Adams:
 
 - **2018-07-15**, from Suz: *"I told Jason Adams I would get them to him
   Monday"* — invoices.
@@ -244,3 +244,7 @@ missing document for this page**: it would date the death, name the signing
 judge, and say whether the distribution's timing had anything to do with either. Whether he was the executor in the formal legal sense the
 operator uses, or the trustee of a separate instrument, is not distinguished
 anywhere — the two roles are used interchangeably in every telling.
+
+---
+
+**Up:** [[wiki/people/index|People]]

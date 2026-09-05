@@ -127,3 +127,7 @@ can't, and "so-blindness" explains a career pattern MBTI can't.
 dossiers with no test provenance; Socionics intertype relations (e.g., what
 the model predicts about the [[wiki/people/annie-ulmer|Annie]] ESFJ pairing) were never worked through
 in the sources.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]] › [[wiki/mind/profile/index|Profile]]

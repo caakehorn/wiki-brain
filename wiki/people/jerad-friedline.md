@@ -87,7 +87,7 @@ This gap-resilience is Jerad's most reliable property: a multi-year silence that
 
 The Jerad thread is the origin point for several durable private jokes:
 
-- **Josh Brannan "innocent.wav"**: The eighth-grade memory of Josh under separate blankets, later crystallized into an AI-TTS audio file that stands as one of their last documented exchanges.
+- **[[wiki/people/josh-brannan|Josh Brannan]] "innocent.wav"**: The eighth-grade memory of Josh under separate blankets, later crystallized into an AI-TTS audio file that stands as one of their last documented exchanges.
 
 - **LOSE IT**: The invented fake service that locks you out of your own account to prevent panic-trading â€” the joke becomes an insight about impulsivity management.
 
@@ -120,3 +120,7 @@ The **Roe repeal prediction** attributed to Jerad in CONTEXT_CORE_EXPANDED.md (Â
 > `connections:` entry cross-referencing the new
 > [[wiki/mind/profile/neurodivergence]] page. Nothing here is downstream of
 > it.
+
+---
+
+**Up:** [[wiki/people/index|People]]

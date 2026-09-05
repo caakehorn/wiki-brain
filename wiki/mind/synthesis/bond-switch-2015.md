@@ -188,7 +188,7 @@ The bootloader's reconstructed chronology, cross-checked against the message rec
 > living with Dan in Uniontown throughout the window the old chronology placed
 > her in Florida — "Alexis is sloshed" (Nov 30), "Helping lex leave" (Dec 1),
 > "Alexis only left yesterday" (Dec 2) — and stayed in Pennsylvania after moving
-> out. `wiki/people/alexis-armel` had additionally invented a "~mid-Nov 2015 Dan
+> out. [[wiki/people/alexis-armel]] had additionally invented a "~mid-Nov 2015 Dan
 > moves her to Florida" row by back-computing "2 weeks" from the message
 > timestamp; no source ever asserted it.
 >
@@ -276,7 +276,7 @@ The bootloader's headline onset figure — 728 / 682 / 679 messages sent on Dece
 
 The physical detail that makes the switch concrete: [[wiki/places/155-virginia-ave|155 Virginia Avenue]] — which context-core calls "the Alexis lair" — was leased during the end of the Alexis relationship, and Annie moved into that *same apartment* when the new relationship began after Thanksgiving 2015. Dan did not leave the shared space and bring Annie into a new one; the new bond occupied the physical shell of the old one. This is what the record flags as **self-preservation lair-continuity**: the sp (self-preservation) instinct's "lair" — resources, safety, the dwelling — was held constant across the attachment transfer. Only the occupant of the singular bond slot changed; the fortress did not move.
 
-The lair-continuity is why 155 Virginia is the address where "the two defining relationships of his adult life handed off." It is the spatial proof that the single-bond switch was a swap, not a relocation. The MOGZART era, the smashonista couples-camming period, the 2017 poverty floor, and the 2018 deep cycle all then played out *inside the Alexis lair*, with Annie now its co-occupant — the old furniture of the prior bond hosting the entire genesis of the next.
+The lair-continuity is why 155 Virginia is the address where "the two defining relationships of his adult life handed off." It is the spatial proof that the single-bond switch was a swap, not a relocation. The MOGZART era, the smashonista couples-camming period, the [[wiki/timeline/periods/2017-poverty-floor|2017 poverty floor]], and the [[wiki/timeline/periods/2018-deep-cycle|2018 deep cycle]] all then played out *inside the Alexis lair*, with Annie now its co-occupant — the old furniture of the prior bond hosting the entire genesis of the next.
 
 ## A provenance gap in the bootloader's termination figure
 
@@ -355,3 +355,6 @@ not Ellen. Do not collapse the two.
 - Lease holder and physical layout of 155 Virginia across the transition are undocumented (see [[wiki/places/155-virginia-ave]]).
 - The 768/day termination figure's source export is not on disk; the closure-day volume is therefore a known provenance gap, not a settled number.
 
+---
+
+**Up:** [[wiki/mind/index|Mind]]

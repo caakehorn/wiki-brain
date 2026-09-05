@@ -4,7 +4,7 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-07-19
-date_modified: 2026-07-19
+date_modified: 2026-09-04
 date_range_start: 2013-03-26
 date_range_end: 2018-12-09
 sources:
@@ -18,6 +18,9 @@ infobox:
   relationship_to_dan: friend
   known_for: "High-school-era Uniontown friend; died April 2014, suspected opioid overdose, cause never confirmed in the corpus; mourned years later by both Dan and Jim Shaffer as the one loss among the cohort that actually hurt"
 connections:
+  - page: wiki/people/new-jim-shaffer
+    type: evidenced-by
+    claim: "Dan's half of the December 2018 exchange, which this page had only from Jim's side: 'rob is the only one that I get sad about', 'I honestly don't give a fuck about any of them other than him', set against 'Half of our friends died lol'. The grief is explicitly differential rather than general. In the same exchange he misdates the death to 2013, a year early against the contemporaneous 2014-04-11 anchor."
   - page: wiki/people/new-jim-shaffer
     type: co-occurs
     claim: "Jim's Dec 2018 remembrance — 'Rob and I would talk on the phone and laugh till we cried for 2 hours at a time, 5 days a week' — and the Tom Petty minivan story are the corpus's second independent account of the friendship, four years after his death."
@@ -33,6 +36,22 @@ connections:
 ---
 
 # Rob Orange
+
+> **ADDED [2026-09-04] — the grief is differential, and Dan says so.** This
+> page had Jim's side of the December 2018 remembrance. Dan's half was in the
+> unread half of the same thread ([[wiki/people/new-jim-shaffer]]) and it is
+> more specific than mourning: *"But really...rob is the only one that I get sad
+> about"*, *"I honestly don't give a fuck about any of them other than him"* —
+> said in a conversation whose surrounding line is *"Half of our friends died
+> lol"*. Among a cohort with multiple deaths, he names exactly one as costing
+> him anything, and dismisses the rest in the same breath.
+>
+> **He also gets the year wrong.** Asked when it happened he answers *"What year
+> did he die / 2013?"* — one year early against the 2014-04-11 anchor this page
+> holds from Lauryn's same-day reaction. Recorded in
+> [[wiki/meta/testimony-veracity|the testimony ledger]] rather than corrected in
+> passing, because the direction matters: it is the third settled date claim in
+> the corpus to run **early**.
 
 Rob Orange was a Uniontown high-school-era friend who died on or
 around April 11, 2014 — the one loss in Dan's cohort that, years
@@ -90,3 +109,7 @@ drops entirely.
 **Gaps:** confirmed cause of death; the significance of "Edgewood";
 whether Dan or Lauryn ultimately attended the funeral; Rob's full name
 and any surviving family.
+
+---
+
+**Up:** [[wiki/people/index|People]]

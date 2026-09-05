@@ -205,4 +205,8 @@ This defection serves as an independent, third-party validation of the manipulat
 
 ## Notes
 
-Jerel Coles (Tuquick) is not Eli. He is the relationship Annie left for, the catalyst and counterpart of the final group chat closure on June 1, and subsequently an independent witness to Annie's behavioral architecture on June 15. He is also confirmed (2026-08-09, operator statement) to be the July 2026 unnamed interloper — see [[wiki/people/the-unnamed-man]] and the canonical page [[wiki/people/jerel-coles]].
+Jerel Coles (Tuquick) is not Eli. He is the relationship Annie left for, the catalyst and counterpart of the final [[wiki/timeline/events/group-chat-closure|group chat closure]] on June 1, and subsequently an independent witness to Annie's behavioral architecture on June 15. He is also confirmed (2026-08-09, operator statement) to be the July 2026 unnamed interloper — see [[wiki/people/the-unnamed-man]] and the canonical page [[wiki/people/jerel-coles]].
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -46,7 +46,7 @@ Dan writes; "Thanks bud. 4 years in august," Marc replies — immediately
 followed by a shared memory of using together ("I remember being so
 faded in your basement") and Dan mentioning he'd just found a CD of
 music the two had recorded together. In August, Dan follows up on a
-mutual friend, "Mike Z" (Mike Zollinger), after learning Marc is
+mutual friend, "Mike Z" ([[wiki/people/mike-zollinger|Mike Zollinger]]), after learning Marc is
 sponsoring him.
 
 ## Corpus record
@@ -59,3 +59,7 @@ sponsoring him.
 
 **Gaps:** how Dan and Marc originally met; what the recorded music
 collaboration was; no contact after September 2018.
+
+---
+
+**Up:** [[wiki/people/index|People]]

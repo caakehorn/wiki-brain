@@ -266,3 +266,7 @@ shift rotation; the two exclusions may have overlapped without either being the
 operative one. Annie's reaction, once she learned what had happened, is not
 recorded anywhere, and neither is anyone else's reaction to the envelope
 arriving during the week of the funeral.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

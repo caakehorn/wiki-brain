@@ -211,6 +211,55 @@ when the coverage-plotting step is mechanised.
 - **Validation, and what would settle it:** the thirty-eight/twenty-eight figures are solid — the gate run twice, diffed. What is not established is how far back this goes: **how many of the 99 remaining stale pairs are pairs that were already cleared once by an unrelated bump and re-accrued?** That needs the git history the shallow clone does not have, same blocker as the entry above. Do not promote (b) before someone has run it unshallow and confirmed the pair-level state is worth the frontmatter it costs.
 - **Status:** inbox
 
+---
+
+## A mechanical rewrite over prose must mask quotations over the whole file (2026-09-05)
+
+**Observed while writing `bin/wiki-crosslink unlinked --apply`,** which inserts
+`[[wikilinks]]` into the body of 186 pages in one run.
+
+**What happened.** The first cut refused to write into a quotation, a heading,
+a code span or an existing link, and computed that mask **one line at a time**.
+It then wrote a wikilink into the middle of a quoted tweet:
+
+```
+nothingness but at least I got the [[wiki/self/twitter|@danfrank]] handle"*
+```
+
+The opening `"` was two lines up. Prose in this corpus is hard-wrapped at ~78
+columns, so **a quotation of more than about ten words spans lines by default**
+and a per-line mask sees only its tail — an unbalanced closing quote, which
+looks like no quote at all. The single case the guard existed for was the single
+case it structurally could not see.
+
+**Why it nearly shipped.** Nothing catches it. `bin/wiki-lint` is happy, the
+gates are green, the diff is 432 lines of plausible-looking link insertions
+across 186 files, and the damage is a wikilink inside somebody's quoted words on
+a public site. It was found by writing a separate verifier that recomputed the
+quote parity from the *pre-change* bodies and diffed the results — not by
+reading the diff, which I had already done.
+
+**Candidate invariant.** Any pass that edits prose mechanically must compute its
+protected regions over the whole file, never per line, because this corpus's
+line breaks fall inside its sentences and therefore inside its quotations. The
+same applies to a pass that *reads* prose to decide what a page contains: a
+regex anchored with `^`/`$` and `re.M` over hard-wrapped text is measuring lines,
+not statements.
+
+**Candidate instruction.** Before a mechanical prose edit lands: write the
+verifier that checks the *result* against the *original* independently of the
+code that produced it, and run it. Over-masking is the safe direction — a missed
+link costs a click, an edited quotation costs the record.
+
+**Validation.** One occurrence, caught pre-merge. Pinned by
+`tests/test_wiki_crosslink.py::LinkPlacement::test_never_inside_a_quotation_that_spans_lines`.
+**Promote on a second occurrence in a different tool** — `bin/wiki-plain`'s
+`audit` and `bin/wiki-lint`'s own `strip_code` are the two places most likely to
+carry the same assumption, and neither has been read for it. Do not promote on
+this alone: one bug in one function is not yet an invariant about the corpus.
+
+- **Status:** inbox
+
 
 ### 2026-09-04 — `evidenced-by` is the edge type whose inverse gets written backwards
 

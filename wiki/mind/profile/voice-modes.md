@@ -150,3 +150,7 @@ in register — is itself a diagnostic marker worth cross-referencing
 against the exit-declaration and re-engagement pattern documented for the
 [[wiki/people/annie-ulmer|Annie]] relationship in [[wiki/mind/concepts/conflict-architecture]], where
 the same cooling-down shape recurs at a much larger scale.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]] › [[wiki/mind/profile/index|Profile]]

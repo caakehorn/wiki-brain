@@ -48,3 +48,7 @@ Zach Clabaugh is a contact (717 area code — central Pennsylvania, not the usua
 ## Gaps
 
 Relationship and context unresolved. The professional email domain and collaborative message tone suggest a work or project connection rather than a purely social one. No Facebook or other corpus cross-references found.
+
+---
+
+**Up:** [[wiki/people/index|People]]

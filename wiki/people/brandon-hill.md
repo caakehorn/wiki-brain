@@ -86,3 +86,7 @@ covered (his own preset error vs. a genuine recount) was never
 established; whether he was reimbursed or ate the $50 himself is
 undocumented; a "$20 short" incident he referenced from before Dan's time
 is unexplained.
+
+---
+
+**Up:** [[wiki/people/index|People]]

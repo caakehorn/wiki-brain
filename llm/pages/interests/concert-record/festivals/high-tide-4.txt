@@ -29,3 +29,6 @@ High Tide 4 is a festival / tour Dan Frank attended. This page records the editi
 ### Apr 20, 2019 — Hornblower Infinity Yacht, New York, NY
 20 Cruise · [[wiki/interests/favorites/music/artists/wiki]] · Kota the Friend
 
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/concert-record/index|Concert Record]]

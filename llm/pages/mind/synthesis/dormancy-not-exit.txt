@@ -659,7 +659,7 @@ documents across different people.
 - **The 2010s reactivations cluster in one window.** Menore's reopening (Nov
   2018) and the Alexis arrangement (Nov–Dec 2018) fall within weeks of each
   other. That could be the rule operating twice, or it could be one episode of
-  deliberate reconnection during the 2018 deep cycle producing two events. The
+  deliberate reconnection during the [[wiki/timeline/periods/2018-deep-cycle|2018 deep cycle]] producing two events. The
   page currently treats them as independent and they may not be.
 - **Danielle's persistence may be Suzanne's, not Dan's.** The tie runs through
   his mother, who is the one maintaining the friendship. If the mechanism is
@@ -759,3 +759,6 @@ merely restating it. **What it did not do:** force Trust 9 or
 Self-Consciousness onto a page that does not need them, or manufacture an
 age/upbringing or geographic origin story the corpus does not support.
 
+---
+
+**Up:** [[wiki/mind/index|Mind]]

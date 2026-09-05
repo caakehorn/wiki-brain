@@ -179,7 +179,7 @@ derived from a different evidence base, and **none of them cites another**:
 | [[wiki/mind/synthesis/vertical-authority-skepticism]] | vertical vs. lateral | Big Five (Trust 9 / Altruism 1 / Submissiveness 1 / Assertiveness 5), workplace incidents, J6, the 2007 Facebook archive |
 | [[wiki/mind/concepts/the-cool-metric]] | received vs. sought | `normie` 68 / `taste` 68 in the profile corpus; the Normie Check bootloader instruction; 2,016 favorites entries |
 | [[wiki/mind/concepts/chaos-preference]] | imposed vs. chosen | `chaos` 98 / `entropy` 57 / `chaotic` 47; FULL PROFILE §2.5 |
-| [[wiki/mind/synthesis/single-channel]] | chosen carries everything | two-sided contact Gini 0.959–0.964 across ~496 handles |
+| [[wiki/mind/synthesis/single-channel]] | chosen carries everything | two-sided [[wiki/mind/concepts/contact-gini|contact Gini]] 0.959–0.964 across ~496 handles |
 
 Four independent derivations of one sorting operation is the finding that
 earns a page. But re-describing the convergence would only be a fifth
@@ -522,7 +522,7 @@ before the fact.
 ## RE-CHECKED [2026-08-09] — a candidate counter-instance considered and set aside
 
 [[wiki/mind/concepts/forensic-method]] gained a finding this pass: the refusal
-to identify the interloper (declared 2026-07-26, terminated 2026-08-08 after
+to identify [[wiki/people/jerel-coles|the interloper]] (declared 2026-07-26, terminated 2026-08-08 after
 13 days) is a documented case of the engine running **preemptively on a
 chosen-feeling delay** — the opposite pairing from this page's imposed→fast /
 chosen→slow rule, since a live antagonist reads as the most "imposed" object
@@ -547,7 +547,7 @@ here needs to reciprocate it structurally, since the two pages are answering
 different questions that happen to share a vocabulary ("the engine," "fires").
 
 The read-receipt-forensics addition to [[wiki/mind/concepts/forensic-method]]
-(chat.db metadata defects) and the standing-constraint section added to
+([[wiki/mind/synthesis/read-receipt-forensics|chat.db metadata]] defects) and the standing-constraint section added to
 [[wiki/mind/synthesis/dan-annie-fallout-verdict]] are both orthogonal to this
 page's evidence base — neither touches the audit-lag timeline, the BFS/Annie
 comparison, or the Arnu prediction above — and are noted here only because
@@ -688,3 +688,7 @@ where before the reconciliation section stated that both costs exist
 without explaining why a mind would be built to avoid them specifically
 this way. **What it did not do:** touch the financial or health registers,
 which remain open Gaps rather than quietly resolved.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

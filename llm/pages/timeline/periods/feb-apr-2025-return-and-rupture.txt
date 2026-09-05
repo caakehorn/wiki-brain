@@ -66,7 +66,7 @@ house, the one Dan describes as "the single 'safe' place that existed in
 my life that i could crash land in" — was listed for sale the same week
 this conversation was written (a Thursday in late April 2025). This is a
 full year earlier than the sale process [[wiki/people/suzanne-frank]]'s
-existing housing-arc section documents (the 337 Saratoga Drive sale to
+existing housing-arc section documents (the [[wiki/places/337-saratoga-drive|337 Saratoga Drive]] sale to
 buyers Jennifer J. and Scott P. Delverm, contingent on *their* bankruptcy
 approval, closing around June 2026) — the same house evidently went
 through at least two separate listing attempts across 2025 and 2026
@@ -125,3 +125,7 @@ itself on disk in `raw/` — only this analysis conversation is; the
 address); Suz's 2024 bankruptcy filing itself is not independently
 corroborated by a legal-record source, only by Dan's own statement in
 this conversation.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

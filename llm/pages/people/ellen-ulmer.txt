@@ -187,3 +187,7 @@ should not be scored together.
   of November 2025 and the crisis message are the last two entries, and 2026's
   November has not happened yet. Whether the annual note survives the collapse
   is the cleanest live prediction this page carries.
+
+---
+
+**Up:** [[wiki/people/index|People]]

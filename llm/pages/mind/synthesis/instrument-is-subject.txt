@@ -85,7 +85,7 @@ connections:
 > rederived. Recorded rather than date-bumped, per `CLAUDE.md` §3.
 
 This wiki is written by a large language model, about a person for whom large
-language models are a documented daily cognitive organ, using an evidentiary
+[[wiki/self/concepts/llm|language models]] are a documented daily cognitive organ, using an evidentiary
 standard that person wrote. Those three facts are each recorded separately
 elsewhere in the repository and have never been put in the same sentence. Put
 together they produce the governing methodological constraint of the whole
@@ -288,3 +288,7 @@ a measured cognitive trait. **What it did not do:** claim the page's
 structural conclusion is "about Dan" in the way the other twenty pages in
 this backlog are — that boundary is the page's own, and this pass respects
 it rather than papering over it with a citation.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

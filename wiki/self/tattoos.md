@@ -128,7 +128,7 @@ but i'm hoping that having a Morrisey tattoo is helping make up for it"*
 2026-07-14 list. Date, placement and artist are all unknown; the upper
 bound is the tweet.
 
-**Elliott Smith, intended.** On 24 January 2018: *"Gonna crowdfund an
+**[[wiki/interests/favorites/music/artists/elliott-smith|Elliott Smith]], intended.** On 24 January 2018: *"Gonna crowdfund an
 Elliott Smith tattoo for myself. I deserve it."* No later source records
 it being done. It is worth keeping as an intention rather than a piece,
 because it lands **nine months before** the October 2018 Redmond sequence
@@ -297,3 +297,7 @@ the Weidrick rose follows about ten weeks later.
 ## Related
 
 [[wiki/self/ancestry]] · [[wiki/interests/favorites/music]] · [[wiki/interests/favorites/music/artists/kanye-west]] · [[wiki/interests/music/concepts/lyrics-as-timbre]] · [[wiki/people/annie-ulmer]] · [[wiki/people/tom]] · [[wiki/people/emaly-minerd]] · [[wiki/people/kristin]]
+
+---
+
+**Up:** [[wiki/self/index|Self]]

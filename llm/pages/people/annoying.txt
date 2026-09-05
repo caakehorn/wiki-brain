@@ -46,3 +46,7 @@ Real identity is unknown — "annoying" is Dan's own contact-card label, giving 
 ## Related
 
 [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

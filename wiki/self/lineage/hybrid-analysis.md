@@ -43,7 +43,7 @@ The intersection of genomic data and the GEDCOM family tree shows structural ali
 
 | Metric | Documentary Record | 23andMe Result | Alignment |
 |---|---|---|---|
-| Ashkenazi Jewish | One fully-Jewish grandparent (Morley Jay Frank) = ~25% expected | 21.4% | Within normal recombination variance |
+| Ashkenazi Jewish | One fully-Jewish grandparent ([[wiki/people/morley-frank|Morley Jay Frank]]) = ~25% expected | 21.4% | Within normal recombination variance |
 | British & Irish | Maternal Gillingham/Lewellen/Shrum lines (English, Scots-Irish) | 55.8% | Higher than expected |
 | French & German | Maternal Shrum/Van Voorhis/Coldren lines (German, Dutch) | 22.2% | Lower than expected |
 | Sub-Saharan African | None documented | 0.2% (trace) | Anomalous |
@@ -54,7 +54,7 @@ The intersection of genomic data and the GEDCOM family tree shows structural ali
 
 1. **Dan is overwhelmingly European** — 99.7% European composition matches the documentary record of exclusively European ancestry.
 
-2. **The Ashkenazi signal is present and significant** — 21.4% Ashkenazi Jewish matches the known paternal Jewish immigrant line (David J. Frank from Russia, Sadie Harris from Austria).
+2. **The Ashkenazi signal is present and significant** — 21.4% Ashkenazi Jewish matches the known paternal Jewish immigrant line ([[wiki/people/david-j-frank|David J. Frank]] from Russia, [[wiki/people/sadie-harris|Sadie Harris]] from Austria).
 
 3. **The maternal lines are Northwestern European** — 78.3% Northwestern European matches the known maternal lines (Gillingham, Lewellen, Shrum, Van Voorhis, Coldren, Thomas, Conwell) that have been rooted in Pennsylvania and West Virginia since the 1700s.
 
@@ -113,3 +113,7 @@ The haplogroup anomalies (maternal R0, paternal R-Z93) raise questions that neit
 - Two health predisposition results (Age-Related Macular Degeneration, Hereditary Thrombophilia) were not fully extracted from the PDF.
 - The Prostate Cancer (BRCA1/BRCA2) report is locked behind an incomplete questionnaire.
 - Inverse connections to this page from [[wiki/self/ancestry]], [[wiki/self/lineage/23andme-genomics]], and [[wiki/self/lineage/family-tree]] need to be added to those pages' frontmatter.
+
+---
+
+**Up:** [[wiki/self/index|Self]] › [[wiki/self/lineage/index|Lineage]]

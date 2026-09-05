@@ -93,7 +93,7 @@ October 27 with no indication the November visit happened.
 
 > **MERGED [2026-08-20]:** this entity had two pages — `wiki/people/bruceburish`
 > (the fuller account, linked from
-> [[wiki/self/message-corpora/master-message-dump]]) and `wiki/people/bruce-burish`
+> [[wiki/self/message-corpora/master-message-dump]]) and [[wiki/people/bruce-burish]]
 > (a thinner stub carrying the typed edge, orphaned). Same person, same handle,
 > same five days. Merged here under the hyphenated slug that every other person
 > page uses, per STYLE_GUIDE rule 2 — one page per entity, merge never fork.
@@ -109,3 +109,7 @@ October 27 with no indication the November visit happened.
 - **How the friendship actually started.** "Caddying-era" is inferred from
   Bruce's own nostalgia, not stated. [[wiki/work/nemacolin-caddying]] does not
   name him.
+
+---
+
+**Up:** [[wiki/people/index|People]]

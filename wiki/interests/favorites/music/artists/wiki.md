@@ -24,8 +24,12 @@ All dates, venues, cities, and notes below are taken from the source table and p
 
 | Date | Show / Context | Venue | City | Note |
 |------|---------------|-------|------|------|
-| Apr 20, 2019 | High Tide 4 | Hornblower Infinity Yacht | New York, NY | Boarded at 353 West St. |
+| Apr 20, 2019 | [[wiki/interests/concert-record/festivals/high-tide-4|High Tide 4]] | Hornblower Infinity Yacht | New York, NY | Boarded at 353 West St. |
 
 ## Notes per appearance
 
 - **Apr 20, 2019** — High Tide 4, Hornblower Infinity Yacht, New York, NY. Boarded at 353 West St.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

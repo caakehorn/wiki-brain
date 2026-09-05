@@ -3,7 +3,7 @@ domain: self
 page_type: summary
 status: active
 date_created: 2026-06-22
-date_modified: 2026-09-03
+date_modified: 2026-09-04
 knowledge: mixed
 date_range_start: 2009-10-20
 date_range_end: 2026-09-02
@@ -139,11 +139,25 @@ connections:
   - page: wiki/people/katie-fletcher
     type: evidences
     claim: "The archive is the only contemporaneous record of that relationship in the corpus — six posts across 21-31 August 2013, a handle (@katie_efff), a geotagged afternoon and a Vine from inside the Oddball show — against a page that said everything known about her came from Dan's later AI narration."
+  - page: wiki/self/twitter/replies
+    type: contains
+    claim: "The reply record is the half this hub excludes by construction: 2,718 originals against 22 replies in the archive is an inclusion rule, not a usage pattern, and a 2026-09-04 transcription adds 186 new replies to take it to 208."
 ---
 
 # Twitter / X Activity (@danfrank)
 
 Personal account **@danfrank** ("insufferable politics sicko"). The record now begins **24 September 2008** — the day Dan arrived in Winter Park for Full Sail — after a backend fetch on 2026-09-02 recovered 213 tweets the archive had never reached. This hub is the index of a text archive of his originals: one wiki page per year, every retrieved original and every quote-tweet that carries his own text. Pure reposts with no @danfrank quote content are the one omitted class.
+
+**The replies are the second omitted class, and they were omitted silently.**
+The archive holds **2,718 originals against 22 replies** — a ratio produced by
+that inclusion rule, not by how the account is used. A transcription of an
+operator-supplied profile scroll on 2026-09-04 is 255 replies and 33 originals,
+of which **186 replies are new**, taking the corpus's reply record from 22 to
+**208**. It is a different instrument from the originals — argument with named
+strangers rather than assertion into a room — and it is indexed at
+[[wiki/self/twitter/replies]] rather than split across the year pages, because
+the source carries relative-age labels and no timestamps. The year pages below
+remain an originals index and their counts are unchanged.
 
 The operator spreadsheet (Drive: Dan Frank - Tweet Archive, filed as `raw/self/twitter/tweet-archive.xlsx`) holds 1,427 originals from 2013-08-17 through 2026-04-07 and 229 pure reposts, which are dropped. Years before the spreadsheet, the mid-August 2013 days before it starts, and 2026 after 7 April are filled from live X search and will grow as further batches are committed on this branch.
 
@@ -277,7 +291,7 @@ inference.
 > spreadsheet. The gig tweet of 7 February 2016 was live the whole time and
 > absent from both the spreadsheet and the scrape. The table now says so.
 >
-> The cost is wider than one row. `wiki/interests/music/overview` leaned on
+> The cost is wider than one row. [[wiki/interests/music/overview]] leaned on
 > "the 2017–2025 window is spreadsheet-complete, so the zero in it is a real
 > zero." That assurance and the 2016 claim rest on the same table. The zero may
 > still hold — the fetch found no counter-example in those years — but it can
@@ -337,3 +351,6 @@ Old-style typed `RT @user:` lines are kept: he wrote them.
 
 2009 through 2012, January–mid-August 2013, and some 2026 days between the spreadsheet end and the live scrape are still being walked from X in batches of ten. Each incomplete yearly page states that on its face. The spreadsheet span 2013-08-17 through 2026-04-07 is complete for originals.
 
+---
+
+**Up:** [[wiki/self/index|Self]]

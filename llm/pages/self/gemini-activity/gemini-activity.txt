@@ -60,10 +60,10 @@ Corpus report on Dan's Gemini usage: a 21MB Google Takeout HTML activity log plu
 | _00 | absorbed into [[wiki/work/au-zaatar]] + [[wiki/timeline/periods/2021-2023-employment-block]] (chat page retired 2026-07-18) | Au Za'atar STORYTIME finale: 9PM alibi post-mortem, Sergio, cash exit Aug 2024 |
 | _02 | absorbed into [[wiki/work/au-zaatar]] + [[wiki/timeline/periods/2021-2023-employment-block]] (chat page retired 2026-07-18) | Au Za'atar Volume I: Tarik, [[wiki/people/dimitri|Dimitri]], DJ, [[wiki/people/valeria-iglesias-cid|Valeria]], shed build |
 | _07 | [[wiki/self/chats/gemini-07]] | Suzy call & 10-day blackout forensics; game-theory Grim Trigger model |
-| _13 | [[wiki/self/chats/gemini-13]] | Bacharach "neighborhood simulation glitch"; 155 Virginia Ave verification |
-| _18 | [[wiki/self/chats/gemini-18]] | Full bio dump + node locking for Grok profile transfer |
+| _13 | [[wiki/self/chats/gemini-13]] | Bacharach "neighborhood simulation glitch"; [[wiki/places/155-virginia-ave|155 Virginia Ave]] verification |
+| _18 | [[wiki/self/chats/gemini-18]] | Full bio dump + [[wiki/mind/concepts/node-locking|node locking]] for Grok profile transfer |
 | _21 (+copy) | [[wiki/self/chats/gemini-21]] | Music-industry analysis (Danielle's boyfriend Max); Character.ai jailbreak audit |
-| _58 | [[wiki/self/chats/gemini-58]] | NYC round 1: Full Sail 2010, ishlab, Creative License, Lex era |
+| _58 | [[wiki/self/chats/gemini-58]] | NYC round 1: Full Sail 2010, ishlab, [[wiki/work/creative-license|Creative License]], Lex era |
 | HTML aggregate | this page | Volume, themes, J6 cluster, profile-lock language |
 
 ## Narrative
@@ -79,3 +79,7 @@ Three cross-corpus findings worth keeping. First, relational depth inverts betwe
 - [[wiki/self/gemini-activity/archive/v1-extract]] — full v1 extraction, pinned
 - [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/mind/concepts/forensic-method]] · [[wiki/mind/synthesis/political-psyops]] · [[wiki/mind/synthesis/totality-themes]]
 - [[wiki/self/context-core]] · [[wiki/self/chats/j6-chat]]
+
+---
+
+**Up:** [[wiki/self/index|Self]]

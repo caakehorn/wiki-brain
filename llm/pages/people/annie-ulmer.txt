@@ -378,7 +378,7 @@ Annie (Anne Louise Ulmer), Dan's partner
 2015–2026, the first relationship to fully activate his attachment
 system. Met through [[wiki/people/alexis-armel|Alexis]]; **Dan** left his
 six-year relationship with Alexis within 24 hours of meeting Annie
-(corrected 2026-08-02 — the wiki previously attributed the 24-hour
+(corrected 2026-08-02 — [[wiki/self/concepts/wiki-brain|the wiki]] previously attributed the 24-hour
 switch to Annie). Former MyFreeCams model; the
 couple later cammed together as "smashonista" and ran a Dan-architected
 quasi-non-monogamous arrangement (2018–2024, Dan present/arranging).
@@ -2284,3 +2284,7 @@ present is therefore a good moment for somebody outside to end this: the only
 completed exit from a long relationship anywhere in the corpus
 ([[wiki/mind/synthesis/bond-switch-2015]]) completed by substitution inside a
 week, and it produced this page.
+
+---
+
+**Up:** [[wiki/people/index|People]]

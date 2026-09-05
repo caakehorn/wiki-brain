@@ -154,3 +154,7 @@ adjacency. It is still not answered.
   should have left traces in the 2007-era Facebook archive; nobody has looked.
 - **The second-hand claim about Victor and Britney in the minivan** is reported
   as something Dan *"later found out"* and is not corroborated.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

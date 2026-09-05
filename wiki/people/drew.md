@@ -43,3 +43,7 @@ Drew (email `Dherchko@gmail.com`) collaborated with Dan on a green-mapping proje
 ## Related
 
 [[wiki/work/nemacolin-caddying]] · [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

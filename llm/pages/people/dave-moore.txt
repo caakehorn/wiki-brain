@@ -126,3 +126,7 @@ right.
   The one record of him marking her birthday is a joke at his expense.
 - **What he is to Suz.** He is her stepfather by her mother's second marriage,
   and the corpus never records a single word between them.
+
+---
+
+**Up:** [[wiki/people/index|People]]

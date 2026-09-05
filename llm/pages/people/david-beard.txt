@@ -65,3 +65,7 @@ single 2018 summer.
 **Gaps:** what became of the Mavic Platinum and the David Beard drone
 after the Mavic 2 purchase; David's specific role at the golf course
 (coworker vs. member vs. neighbor is not disambiguated).
+
+---
+
+**Up:** [[wiki/people/index|People]]

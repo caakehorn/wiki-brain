@@ -24,9 +24,13 @@ All dates, venues, cities, and notes below are taken from the source table and p
 
 | Date | Show / Context | Venue | City | Note |
 |------|---------------|-------|------|------|
-| May 4, 2008 | Multi-act show | Meadowlands Sports Complex | East Rutherford, NJ | Panic! at the Disco & Coheed and Cambria co-headlined. Also: Paramore, Gym Class Heroes, Cobra Starship, The Academy Is. |
+| May 4, 2008 | Multi-act show | Meadowlands Sports Complex | East Rutherford, NJ | Panic! at the Disco & [[wiki/interests/favorites/music/artists/coheed-and-cambria|Coheed and Cambria]] co-headlined. Also: Paramore, [[wiki/interests/favorites/music/artists/gym-class-heroes|Gym Class Heroes]], Cobra Starship, [[wiki/interests/favorites/music/artists/the-academy-is|The Academy Is]]. |
 
 ## Notes per appearance
 
 - **May 4, 2008** — Multi-act show, Meadowlands Sports Complex, East Rutherford, NJ. Panic! at the Disco & Coheed and Cambria co-headlined. Also: Paramore, Gym Class Heroes, Cobra Starship, The Academy Is.
   Co-billed with: Panic! at the Disco, Coheed and Cambria, Paramore, Gym Class Heroes, The Academy Is....
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

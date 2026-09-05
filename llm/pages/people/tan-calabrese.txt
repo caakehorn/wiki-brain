@@ -46,7 +46,7 @@ Tan Calabrese is a Fayette County area contact (724 area code, confirmed via Goo
 
 ## Childhood context
 
-The childhood-friend layer is documented in the 2026-08-09 extreme-sports capture: Tancredi Calabrese was one of the friends who planned summer ski-camp trips to Windell's in Whistler BC — the month-long destination camp that represented a step up from the regional Seven Springs terrain parks. Dan and Matt Kraus attended for rollerblading the first three years they went; the capture names Tancredi as one of the core group planning those trips. A 2000-12-31 message in the corpus confirms the friendship predates the Windell's years: "tan calabrese told me that our parents did tons of blow when i was 11 years old," placing the relationship at age 11 and situating it inside the same parental-drug-culture context documented on [[wiki/people/rick-frank|rick-frank]] and [[wiki/people/suzanne-frank|suzanne-frank]].
+The childhood-friend layer is documented in the 2026-08-09 extreme-sports capture: Tancredi Calabrese was one of the friends who planned summer ski-camp trips to Windell's in Whistler BC — the month-long destination camp that represented a step up from the regional [[wiki/places/seven-springs|Seven Springs]] terrain parks. Dan and [[wiki/people/matt-kraus|Matt Kraus]] attended for rollerblading the first three years they went; the capture names Tancredi as one of the core group planning those trips. A 2000-12-31 message in the corpus confirms the friendship predates the Windell's years: "tan calabrese told me that our parents did tons of blow when i was 11 years old," placing the relationship at age 11 and situating it inside the same parental-drug-culture context documented on [[wiki/people/rick-frank|rick-frank]] and [[wiki/people/suzanne-frank|suzanne-frank]].
 
 The Windell's connection also means Tan Calabrese is inside the Tanner Hall era freeskiing scene that defined Dan's adolescent identity — the same scene documented on [[wiki/interests/extreme-sports]].
 
@@ -68,3 +68,7 @@ Per Dan's own account, dictated 2026-08-11 while discussing [[wiki/people/rick-f
 ## Gaps
 
 Exact date of the Angelfire incident and its position relative to the Windell's trips. Relationship to Dan outside the 2016–2020 window, role in the social graph beyond childhood friend, and current status are all unresolved. No Facebook or other corpus cross-references found.
+
+---
+
+**Up:** [[wiki/people/index|People]]

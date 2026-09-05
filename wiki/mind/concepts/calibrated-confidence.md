@@ -13,6 +13,9 @@ sources:
   - raw/self/twitter/archive.jsonl
 tags: [personality-profile, forensic-analysis, digital-footprint]
 connections:
+  - page: wiki/people/new-jim-shaffer
+    type: evidenced-by
+    claim: "Supplies t018, the fourth 'early' date error and the one that makes the direction 4-0: asked when Rob Orange died he answers '2013?' against a contemporaneous 2014-04-11 anchor. Also t019, a confirmed forecast — 'i bet it goes between 250-3' on a house listed at 350, which sold at 250."
   - page: wiki/mind/synthesis/failure-to-launch
     type: supplies
     claim: "The strict re-derivation both rescues and bounds that page's strongest capability claim: 24 graded credences against 1 from 503 people survives a filter built to break it, while the calibration test it recommended turns out to have a resolvable sample size of one, which resolved false."
@@ -46,6 +49,9 @@ connections:
   - page: wiki/self/twitter
     type: evidenced-by
     claim: "Partly runs this page's own Prediction on a fifth channel and reports it underpowered: the strict pattern returns 0 in 2,718 public posts where the message rate predicts ~1, the 22x inbound asymmetry can never be run on a broadcast archive at all — and the habit is there in a form the pattern cannot see, graded at the world ('it's 25% at best for Kamala') rather than at his own mental state."
+  - page: wiki/self/twitter/replies
+    type: evidenced-by
+    claim: "Policing other people's calibration is not a behaviour the corpus holds a few instances of — across 186 new replies it is the dominant register: 'that's just polling averages, not a forecast model', 'that....not socialism', 'I don't like the way this data is being presented'."
 ---
 
 # Calibrated Confidence
@@ -294,6 +300,61 @@ than it was — for this channel, on this behaviour, and not for the asymmetry.
 addressed to individuals and therefore *do* have an inbound half. Those remain
 the real test, exactly as the Prediction section says.
 
+## Accuracy is no longer untested — but read what was tested
+
+This page's own typed edge carries the caveat *"expression is measured while
+accuracy remains untested."* That has been true since the page was written and
+it stopped being true on **2026-09-02**, when
+[[wiki/meta/testimony-veracity|the testimony ledger]] began recording
+first-person claims with **the confidence he expressed** and adjudicating them
+against evidence. As of 2026-09-04 it holds **12 settled claims on 35.0 weight**:
+
+| | |
+|---|---|
+| Veracity | **51 / 100** — outcome value 0.52 |
+| Clean-confirmation rate | 19%–68% (95% Wilson) |
+| **Brier** | **0.323** |
+| **Skill vs a coin flip** | **−0.29** |
+| Stated-vs-actual gap | **−0.26, over-confident** |
+| The `certain` band | says 0.95, **is 0.25** (n=4) |
+| The `confident` band | says 0.80, is 0.69 (n=4) |
+
+**The headline is that his confidence is not currently informative** — a Brier
+worse than chance means a reader who inverted his certainty would have done
+better than one who trusted it — **and that the failure is concentrated in the
+`certain` band**, which is exactly backwards from what a well-calibrated
+grader looks like.
+
+### The population is not the same one, and the difference is the whole caveat
+
+**This page is about a specific verbal habit**: 43 instances of a *numeric*
+probability attached to an assertion in a text message, against 2 in 110,944
+inbound. **[[wiki/health/intake-ledger|The ledger]] scores a different set**: first-person claims of any kind,
+with confidence recorded on a four-band ordinal scale (`certain`/`confident`/
+`hedged`/`unsure`) assigned at record time. The two overlap — both are him
+signalling how sure he is — and they are not the same population, so **the
+ledger does not settle this page's claim.** What it does is remove the excuse
+that no measurement is possible, and supply the first one that exists.
+
+**And n is small.** Twelve settled claims, four in the `certain` band. A Brier
+on n=12 is a direction, not a verdict, and the ledger says so itself by
+refusing any class under its own minimum as a prior. **Nothing on this page is
+withdrawn.** The expression claim — that he does this and almost nobody else
+does — is residue and is untouched.
+
+### One directional finding is firm enough to subtract
+
+Across every settled claim the ledger holds, errors of placement run **one
+way**: **4× `early`, 0× `late`.** Where he misdates something he puts it
+*before* the truth, and there is not yet a single counterexample. The newest is
+`t018` — asked in December 2018 when [[wiki/people/rob-orange]] died, he
+answers *"2013?"* against a contemporaneous 2014-04-11 anchor.
+
+That is the useful kind of error, and this page is the right place to say so:
+**a bias with a direction is subtractable in a way an error rate is not.** A
+reader of this corpus who moves his undated recollections slightly later will be
+right more often than one who takes them as given.
+
 ## Gaps
 
 The 43 instances are the yield of one pattern — numeric confidence adjacent to
@@ -307,3 +368,7 @@ July 2026 re-contact. Whether the habit is inherited, learned, or the residue of
 something specific is not addressed anywhere in the corpus — no message explains
 where it came from, and no source in `raw/` records anyone else in the family
 doing it.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

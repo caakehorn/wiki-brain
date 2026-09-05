@@ -104,3 +104,7 @@ between the two incidents is known only as "a few weeks" from the operator,
 and their order is known only from the same source. No court record for
 either has been retrieved; both are answerable outside the corpus by a
 Fayette County docket search.
+
+---
+
+**Up:** [[wiki/legal/index|Legal]]

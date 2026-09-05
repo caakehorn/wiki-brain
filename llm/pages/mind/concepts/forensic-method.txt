@@ -352,3 +352,7 @@ The method's exposure is not to hard failures. It is to instruments that lie
 quietly, and in the direction of whatever is already suspected. Every prior
 analysis in this corpus that depended on `reply_to_guid` as a threading signal
 requires rechecking — none has been identified yet; see `BACKLOG.md`.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

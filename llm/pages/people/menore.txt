@@ -410,3 +410,7 @@ The 6-year silence (2013–2018) followed by immediate resurrection of the exact
   supply side after 2025-02-20. **How Dan knows is itself unrecorded** — the
   answer implies some awareness channel (contact, mutual acquaintance,
   reputation) that this page cannot see, and that channel is worth finding.
+
+---
+
+**Up:** [[wiki/people/index|People]]

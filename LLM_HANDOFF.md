@@ -4,6 +4,177 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-05] - Session: the wiki does not link what it says (Claude Opus 5)
+
+* **Branch:** `claude/crosslink-campaign-q9auor` from `main` after **#263
+  merged** · **PR #264 open (draft)** · `bin/wiki-check` clean · 417 tests green.
+* **Trigger:** operator — *"Just go"*, following the links complaint of
+  2026-09-04.
+
+**Read this before running any pass over the crosslink campaign.**
+
+#### What was done
+
+`bin/wiki-crosslink unlinked [--apply]` — a new subcommand and a question the
+campaign had never asked. Every other instrument here reads a **source corpus**
+and asks what a page never learned. This reads the **page's own prose** and asks
+whether a name it already wrote is something a reader can click. No corpus, 1.4s
+over 497 pages.
+
+**570 high-confidence names on 262 pages, unlinked.** 344 written across 186
+pages. Body wikilinks **10,316 → 10,660**; pages with no link at all **53 → 27**;
+`bin/wiki-lint`'s edges-and-no-links warning **2 → 0**. Full account in `log.md`
+and on #264.
+
+#### The two failed experiments before it — do not repeat these
+
+The session opened on the **alias gap** (390 pages carry no `aliases:`). Two
+mechanical routes to discovering what the record calls a thing, both near-empty,
+and the emptiness is the result:
+
+1. **Token over-representation per conversation.** For each of 518 handles, which
+   tokens are disproportionately frequent in that thread against the global rate,
+   over 265,180 deduped rows. For six people with known pages it produced
+   essentially nothing — `alexis-armel` → `alexa(4)`, the rest blank. **People do
+   not say each other's names in a 1:1 thread.** The corpus cannot tell you what
+   somebody is called by watching them be talked to.
+2. **Mining aliases out of page prose.** Regex for the shapes an alias is
+   introduced in — `— "X" —`, `known as "X"`, `self-styled "X"`, `aka X` — across
+   the first 1200 characters of all 390 alias-less pages. **Two hits total**:
+   `batteries-not-included` → "BNI", `matt-dunn` → "SHUT UP OSCAR".
+
+There is no cheap automated source for what the record calls a thing. The alias
+gap is hand work on the entity pages that earn it, or it is not work at all.
+
+#### What is next, in order
+
+1. **99 `unlinked` candidates remain**, all contested between two pages or
+   single-token. `bin/wiki-crosslink unlinked --low` is a reading job — roughly
+   every single-token match is a false positive and the year cross-references
+   (`2011`, `2014`, `2020` naming sibling twitter pages) are the real ones.
+2. **35 of 37 re-derivations still owed.** `davey-fitzpatrick` is next and has
+   proven yield — two of these have each produced a page-level finding.
+3. **The staleness cascade diagnosis in `skills/INBOX.md`** is two entries
+   describing one defect; promotion is blocked on a measurement needing
+   `git fetch --unshallow`.
+4. **97 people pages carry no handle** and no contacts export exists in `raw/`
+   to fix it.
+
+#### Flagged for the operator, not acted on
+
+`wiki/mind/synthesis/supply-network` prints a third-party mobile number in
+plain text, and `wiki/people/tuquick-17248123683` carries one in its **slug**.
+This repository is public and its history cannot be un-published, so redacting
+now buys little and would rewrite earned content unilaterally. It is the
+operator's call, and it is not mentioned anywhere else in the governing set.
+
+### [2026-09-04e] - Session: the second re-derivation, and the coefficient gets a voice (Claude Opus 5)
+
+* **Branch:** `claude/crosslink-campaign-q9auor`, restarted from `main` after
+  **#258 merged** and **#259** (the parallel session's Vaughn pass) landed ·
+  `bin/wiki-check` clean · 404 tests green.
+* **Trigger:** operator — *"Continue. Had another model working in parallel."*
+
+**Picked up #259's handoff item 1.** It named `davey-fitzpatrick` and
+`new-jim-shaffer` as the next-best re-derivations. Chose Jim on measurement
+rather than order: **79 lines of page for a 1,789-message thread**, 885 of them
+Dan's and unread, and almost every claim on the page attributable to Jim's half.
+
+### What Dan's half contained
+
+1. **`contact-gini` gets its first first-person instance.** That page's own
+   summary of its work is *"this metric is no longer testimony; it is residue"*,
+   and the residue is three independent computations. 2019-10-20: *"you are 1 of
+   3 people that i actually would enjoy seeing / the other 2 people are my coke
+   dealer and a hooker."* **A coefficient gives the degree and cannot give the
+   composition**, because volume does not distinguish a friendship from a
+   transaction. This does both.
+2. **`stand-up-comedy` closed on *"whether or not a set ever happened"*.** It
+   happened: *"heres my comedy set so far"* (2019-04-12) and three bits, the
+   opener being his own drug spending set against a friend's cancer fundraiser.
+   Material, stage name, no stage.
+3. **`cocaine` gets a second cost figure from a different audience** — the first
+   was an advertisement to a supplier, this one is a joke to a friend. Both slant
+   upward, so the band narrows without settling; the arc's 3.5–7 g/day now has
+   two points low and none high.
+4. **`estate-money-spine` gets the start of its own delay** — distributions
+   promised 2018-04-24, twenty days after the death; first documented advance
+   2019-10-12.
+
+### The finding that outgrew the page
+
+**Every settled placement error in the testimony ledger runs early. 4×, and not
+one late.** t018 (Rob Orange dated 2013 against a contemporaneous 2014-04-11
+anchor) made it four. Written onto `calibrated-confidence`, whose typed edge had
+carried *"expression is measured while accuracy remains untested"* since it was
+written — the ledger has been testing exactly that since 2026-09-02 and nobody
+had joined them. **Brier 0.323, skill −0.29 against a coin flip, the `certain`
+band saying 0.95 and running 0.25.**
+
+Stated with two caveats that must survive any later quoting: **the ledger scores
+a different population** from that page's 43 numeric-probability utterances, so
+it removes the excuse rather than settling the claim; and **n=12 is a direction,
+not a verdict.**
+
+### Next, in order
+
+1. **Thirty-five re-derivations still owed.** Two done, both yielding a change of
+   subject or a first-person instance of something previously only computed. The
+   assumption that the rest are cosmetic has now failed twice.
+   `davey-fitzpatrick` (393 of Dan's messages, and the page built a
+   tapback-reconstruction method on the absence) is next by the same reasoning.
+2. **The cross-page joins the ledger now enables have not been swept.** The
+   `calibrated-confidence` join existed for two days before anybody made it.
+   Other pages carrying "untested", "unmeasured" or "rests on testimony" against
+   a ledger that may now settle them are a cheap, unrun pass —
+   `bin/wiki-crosslink --queue` already ranks by exactly that score.
+3. **The two staleness diagnoses in `skills/INBOX.md` are one defect** — mine
+   (net-zero: working a premise moves the front) and #259's (pair-level: one
+   re-check clears every flag on the page unread, 28 cleared unread). Both name
+   the same missing thing, a pair-level gate, and both are blocked on the same
+   measurement, which needs `git fetch --unshallow`. **Two independent
+   observations is `PROTOCOL.md` §3's promotion test.**
+4. **97 people pages with no handle**; **`shelbie-breakiron`** and the ~30
+   per-contact CSVs; **Jason Adams has no page**; **the twitter UTC skew**. All
+   unchanged.
+
+### [2026-09-04d] - Session: the corpus had his monologue and none of his dialogue (Claude Opus 5)
+
+* **Branch:** `claude/dan-frank-tweets-wiki-fkp4im` · `bin/wiki-check` clean · gates green at commit.
+* **Trigger:** operator — *"New tweets to enter into the wiki"* + a transcription of a profile-scroll video.
+
+## What landed
+
+`raw/self/twitter/replies-video-2026-09-04/` (SOURCE.md verbatim, replies.jsonl
+derived, MANIFEST.md) and a new page `wiki/self/twitter/replies`.
+
+**The reply record went 22 → 208.** The archive is 2,718 originals / 22 replies
+by its own inclusion rule; this batch is 255 replies / 33 originals, 199 new.
+
+## The thing the next session should not re-derive
+
+**The video's relative-age labels are 91% reliable and ~2% catastrophically
+wrong, and the 89 rows already in `archive.jsonl` are what proved it.** Two
+posts eleven days apart carry labels 8y and 13y. So: bands, never dates; a row
+reaches a year page only on a content anchor. If another scroll video arrives,
+run the same dedup-then-calibrate step first — it is ~20 lines of Python and it
+is the difference between a dated corpus and a confidently wrong one.
+
+**2025 was checked and survived.** The 1y band straddles the "collapse-year
+silence"; every anchorable row in it is Nov–Dec 2024. Nothing anchors to 2025.
+Do not re-open this without a new source.
+
+## Next, in order
+
+1. **Tier 3 of `TWITTER_PULL.prompt` is now the highest-value pull** and the
+   reason is sharper than before: the reply page makes a symmetry claim
+   (he corrects both sides) that **only hydrated parents can test**, because
+   this source has no parents and no sampling frame. That is a named,
+   falsifiable question waiting on one endpoint.
+2. `wiki/people/alex-frank` carries an open lead, not a settlement —
+   `@alexgfrank` addressed as "pops" (2018-09-08). Needs the Ancestry tree or a
+   contacts export, neither of which is in `raw/` today.
+3. The 97-people-no-handle work from [2026-09-04b] is untouched by this session.
 ### [2026-09-04c] - Session: the weed middleman was selling cocaine (Claude Opus 5)
 
 * **Branch:** `claude/crosslink-campaign-review-v3s88f`, from `main` after

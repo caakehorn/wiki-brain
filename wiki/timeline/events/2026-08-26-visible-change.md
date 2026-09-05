@@ -66,3 +66,7 @@ If yes, then the corpus has something it has historically lacked:
 **a pattern.**
 
 Patterns are the only thing in this corpus that can eventually beat the narrator.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

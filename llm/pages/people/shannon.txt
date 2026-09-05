@@ -57,3 +57,7 @@ continued past that point.
 **Gaps:** how Dan and Shannon connected professionally; Dan's own side
 of the conversation; whether the January 2019 follow-up was ever
 answered; any other real estate drone clients beyond this one instance.
+
+---
+
+**Up:** [[wiki/people/index|People]]

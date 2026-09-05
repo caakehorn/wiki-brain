@@ -80,3 +80,7 @@ not established from the current sources.
 ## Related
 
 [[wiki/people/shelbie-breakiron]] · [[wiki/people/jerad-friedline]] · [[wiki/mind/psychosexual/arrangement-history]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

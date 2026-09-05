@@ -75,3 +75,7 @@ These are **transcript-level observations**, not legal findings. Speaker identit
 ## Operational rule going forward
 
 When a downstream wiki page says the recording is "unheard," "not transcribed," or "two removes from the audio," treat that language as stale and consult this amendment plus the new transcript. Do not rewrite the old AI analysis as though it were primary; instead, retain its provenance and explicitly distinguish its claims from the newly supplied source material.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

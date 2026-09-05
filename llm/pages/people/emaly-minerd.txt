@@ -371,7 +371,7 @@ said the quiet part out loud and survived long enough to be proven right.
 |------|---------|------------------------|
 | 2018-09-02 | 1 | First message in the thread (handle +172****5006) |
 | 2018-10-26 | 1 | First money trace: Cash App "Emaly Minerd just accepted the $50 payment" |
-| 2018-11-27 | 1 | In-person drop at 155 Virginia Ave; Emaly: "you are a nice guy, and dare I even say sweet" |
+| 2018-11-27 | 1 | In-person drop at [[wiki/places/155-virginia-ave|155 Virginia Ave]]; Emaly: "you are a nice guy, and dare I even say sweet" |
 | 2018-11-28 | 1 | Arrangement narrated in full ("$3000 to be a plaything for Annie"); Emaly reads Annie's "vibe" as off |
 | 2018-11-29 | 1 | High-school origin named: "sitting in music class with you… you were the first one out, like lightning" |
 | 2018-12-06 | 1 | Emaly draws the line: "I won't be the kinky pawn"; offers friendship only |
@@ -403,3 +403,6 @@ said the quiet part out loud and survived long enough to be proven right.
   side (his message to a third party and the un-answered Cash App requests);
   Emaly's own words from that revival are not in the captured record.
 
+---
+
+**Up:** [[wiki/people/index|People]]

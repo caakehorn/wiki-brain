@@ -62,3 +62,7 @@ Zach Hendricks (self-styled "Zaco") is a Fayette County contact (724 area code, 
 ## Gaps
 
 Relationship to Dan unresolved. The casual nickname and Fayette County location suggest a Uniontown social-circle friend. No Facebook or other corpus cross-references found.
+
+---
+
+**Up:** [[wiki/people/index|People]]

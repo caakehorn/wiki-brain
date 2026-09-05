@@ -18,7 +18,7 @@ tags: [music-production, politics, ai-collaboration, addiction-recovery]
 **Gripnotic branding:** Producer tag concept across drops. Ties to music aliases (gripnotic in wiki/interests/music/aliases/). AI voice tools for layering over music.
 
 ## Relation to Totality
-Extends music identity (sub-bass signature, electronic preference from Jimmy Pop discussion, favorites clusters). Self-deprecating humor ("autism in mom's basement") matches core voice and abyssal architect archetype. Edgy tags reflect aesthetic politics / spectacle consumer mode. Links to production tooling and Gemini/AI collaboration (voice gen, drops).
+Extends music identity (sub-bass signature, electronic preference from [[wiki/people/james-dee|Jimmy Pop]] discussion, favorites clusters). Self-deprecating humor ("autism in mom's basement") matches core voice and abyssal architect archetype. Edgy tags reflect aesthetic politics / spectacle consumer mode. Links to production tooling and Gemini/AI collaboration (voice gen, drops).
 
 **Cross-references:** [[wiki/self/chats/j6-chat]] (forensic but here applied to creative risks), [[wiki/interests/rock-irrelevance-thesis]], [[wiki/interests/favorites/music]], [[wiki/interests/music/aliases/gripnotic.md]], [[wiki/mind/profile/index]].
 
@@ -36,6 +36,10 @@ Crosses core §7 political spine (conspiracy as aesthetic object + stress-test; 
 
 **Cross-references:** [[wiki/self/chats/j6-chat]], [[wiki/mind/synthesis/political-psyops]], [[wiki/mind/concepts/dans-law]], [[wiki/mind/concepts/forensic-method]], Gemini activity and pinned isms for similar node-style political forensics.
 
-Further extraction from the MD file will populate specific anomalies table, Claude updates (if any), and ties to "Operation Wildfall" / Babbitt theory mentioned in operating manual.
+Further extraction from the MD file will populate specific anomalies table, Claude updates (if any), and ties to "Operation Wildfall" / Babbitt theory mentioned in [[wiki/mind/concepts/exocortex|operating manual]].
 
 **Sources:** raw/self/dox-md/___The 9_11 Chat*.md
+
+---
+
+**Up:** [[wiki/self/index|Self]]

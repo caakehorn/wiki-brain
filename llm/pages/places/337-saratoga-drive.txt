@@ -136,3 +136,7 @@ basement" GRIPNOTIC tagline are this specific basement.
 
 **Gaps:** whether Dan's landing is 463 Morgantown or elsewhere; the
 physical studio inventory beyond the Numark NS7.
+
+---
+
+**Up:** [[wiki/places/index|Places]]

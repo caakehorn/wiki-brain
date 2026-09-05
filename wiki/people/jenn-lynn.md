@@ -87,3 +87,7 @@ declines both times, citing work.
 occurred — the thread shows mutual readiness twice but no after-the-fact
 confirmation; Brad's surname and any relationship to Dan beyond this
 thread; Jenn's current circumstances.
+
+---
+
+**Up:** [[wiki/people/index|People]]

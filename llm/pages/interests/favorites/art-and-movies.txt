@@ -67,3 +67,7 @@ Ties to film as extension of forensic/observational lens (see [[wiki/self/contex
 raw/self/favorites/FAVS MASTERLIST.csv (ART MATRIX + MOVIES FAVS.rtf origins)
 
 Cross: [[wiki/self/facebook]] (visual arts + photography in ads interests), [[wiki/interests/favorites/eclecticism]], [[wiki/interests/favorites/taste-profile]], [[wiki/mind/synthesis/totality-themes]], [[wiki/interests/music/index]] (shared artistic thread).
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]]

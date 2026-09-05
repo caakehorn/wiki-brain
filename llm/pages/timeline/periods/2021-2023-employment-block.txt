@@ -148,7 +148,7 @@ betray, kitchen allies don't.
 
 | Measure | Value |
 |---------|-------|
-| Estimated shifts (location history) | ~690 |
+| Estimated shifts ([[wiki/self/location-history|location history]]) | ~690 |
 | Au Za'atar place visits | 445 |
 | LIFE calendar events, 2021 | 5 (vs 254 in 2018, 259 in 2025) |
 | Tenure (full) | Mar 2021 – Aug 2024 (41 months) |
@@ -170,3 +170,7 @@ years (the era-marker series' one unidentified marker); DJ's and
 Dimitri's exits; whether any 2021 marker obsession is recoverable from
 the thin 2021 message record (the iMessage dump holds only 1,465 rows
 for 2021 and none in the November birthday window).
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

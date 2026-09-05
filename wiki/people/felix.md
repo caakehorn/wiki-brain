@@ -15,7 +15,7 @@ infobox:
 # Felix (Painter / 463 Contractor)
 
 **Role:** Family Friend.
-Employee of (John Carney)[wiki/people/john-carney] Mentioned in direct message context with Suz and Arnu no-shows. Possibly supply-adjacent per MAX_PRIME notes.
+Employee of ([[wiki/people/john-carney|John Carney]])[wiki/people/john-carney] Mentioned in direct message context with Suz and Arnu no-shows. Possibly supply-adjacent per MAX_PRIME notes.
 
 ## Key Thread Evidence
 - Suz iMessage 2026-02-10: "Felix showed up but Arnu didn’t. He’s bringing Elijah over to do his homework until basketball practice and Felix is going to paint more."
@@ -33,3 +33,7 @@ Employee of (John Carney)[wiki/people/john-carney] Mentioned in direct message c
 [[wiki/people/alexander-jackson]]
 [[wiki/timeline/periods/2025-collapse]]
 [[wiki/mind/synthesis/vertical-authority-skepticism]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

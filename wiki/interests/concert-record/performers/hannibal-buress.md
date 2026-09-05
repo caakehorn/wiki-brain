@@ -29,3 +29,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 ## Notes per appearance
 
 - **Aug 30, 2013** — Oddball Comedy & Curiosity Festival, Post-Gazette Pavilion (First Niagara Pavilion), Burgettstown, PA. Confirmed.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/concert-record/index|Concert Record]]

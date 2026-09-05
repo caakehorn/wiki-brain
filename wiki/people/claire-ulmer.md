@@ -79,3 +79,7 @@ probably wrong, and the corpus never records his surname either, which is why
 four pages here are filed under single names;
 age relative to Annie; any independent relationship between Claire and
 Dan beyond the Milo story and shared family events.
+
+---
+
+**Up:** [[wiki/people/index|People]]

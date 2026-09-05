@@ -27,7 +27,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 
 | Date | Show / Context | Venue | City | Note |
 |------|---------------|-------|------|------|
-| Aug 8, 2007 | Vans Warped Tour | Post-Gazette Pavilion | Burgettstown, PA | Warped Tour date. Lineup included Paramore, Coheed & Cambria, All Time Low, Bad Religion. |
+| Aug 8, 2007 | [[wiki/interests/concert-record/festivals/vans-warped-tour|Vans Warped Tour]] | Post-Gazette Pavilion | Burgettstown, PA | Warped Tour date. Lineup included Paramore, Coheed & Cambria, All Time Low, Bad Religion. |
 | Jul 29, 2008 | Vans Warped Tour | Post-Gazette Pavilion | Burgettstown, PA | Warped Tour date. Lineup included Anberlin, All Time Low, Against Me!, 3OH!3. |
 | Oct 18, 2008 | Multi-act show | House of Blues | Orlando, FL | Resolved. Joint fall 2008 package. |
 
@@ -36,4 +36,8 @@ All dates, venues, cities, and notes below are taken from the source table and p
 - **Aug 8, 2007** — Vans Warped Tour, Post-Gazette Pavilion, Burgettstown, PA. Warped Tour date. Lineup included Paramore, Coheed & Cambria, All Time Low, Bad Religion.
 - **Jul 29, 2008** — Vans Warped Tour, Post-Gazette Pavilion, Burgettstown, PA. Warped Tour date. Lineup included Anberlin, All Time Low, Against Me!, 3OH!3.
 - **Oct 18, 2008** — Multi-act show, House of Blues, Orlando, FL. Resolved. Joint fall 2008 package.
-  Co-billed with: Mayday Parade, The Maine, Every Avenue.
+  Co-billed with: [[wiki/interests/favorites/music/artists/mayday-parade|Mayday Parade]], The Maine, Every Avenue.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

@@ -38,3 +38,7 @@ The post-2016 complexity is real and doesn't resolve into a clean position. The 
 ## The Production Lineage
 
 The relevance here is genealogical as much as aesthetic. A music producer in the 2020s who doesn't understand what Kanye built in the 2000s has a significant gap in their understanding of the field. The 11 tracks in the favorites list are at least partly a professional account of that lineage, filed under listening because the production is where the knowledge lives.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

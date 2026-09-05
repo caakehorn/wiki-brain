@@ -120,3 +120,7 @@ appear on the list but were not found discussed in the sampled message
 dump — their inclusion is asserted by the favorites list only. No
 letterboxd/rating export was located to rank the eleven against each
 other.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]]

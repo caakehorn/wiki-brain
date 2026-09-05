@@ -38,3 +38,7 @@ Exact family relationship (aunt, cousin, family friend) is not stated in the thr
 ## Related
 
 [[wiki/people/vanessa-frank]] · [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

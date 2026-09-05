@@ -55,7 +55,7 @@ The most concrete trace of what Smith meant is a 2013 Facebook username:
 self-description, lifted as an identity. It reveals the specific angle of
 the attraction — not sadness as sadness, but Smith's exactitude about
 self-deception, about the gap between the presented self and the thing
-underneath. For an INTP 5w4 whose default mode is forensic analysis, music
+underneath. For an INTP 5w4 whose default mode is [[wiki/mind/concepts/forensic-method|forensic analysis]], music
 this emotionally precise is the same mode applied to a different domain:
 Smith doesn't vague-gesture at feeling, he finds the specific image, the
 specific chord, the specific vocal break. The attraction is to the
@@ -76,7 +76,7 @@ pleasure but the standard.
 ## Why this artist fits the profile
 
 Smith is the emotional pole of a library that also includes JPEGMAFIA and
-My Chemical Romance — the quietest, most intimate presence in a collection
+[[wiki/interests/favorites/music/artists/my-chemical-romance|My Chemical Romance]] — the quietest, most intimate presence in a collection
 that elsewhere tends toward intensity. The 7 tracks aren't background
 listening; they're what you put on when the volume of everything else gets
 too high. The Gemini export frames this as the "glitch that reveals the

@@ -29,4 +29,8 @@ All dates, venues, cities, and notes below are taken from the source table and p
 ## Notes per appearance
 
 - **Oct 18, 2008** — Multi-act show, House of Blues, Orlando, FL. Resolved. Joint fall 2008 package.
-  Co-billed with: All Time Low, The Maine, Every Avenue.
+  Co-billed with: [[wiki/interests/favorites/music/artists/all-time-low|All Time Low]], The Maine, Every Avenue.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

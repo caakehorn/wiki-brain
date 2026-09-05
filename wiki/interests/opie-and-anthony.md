@@ -3,7 +3,7 @@ domain: interests
 page_type: entity
 status: stable
 date_created: 2026-07-16
-date_modified: 2026-09-03
+date_modified: 2026-09-04
 sources:
   - "raw/self/youtube-watch-history/YOUTUBE WATCH HISTORY (2010-2025).html"
   - "raw/self/dox-scan/Dan Profile.txt"
@@ -53,6 +53,9 @@ connections:
   - page: wiki/self/twitter/2021
     type: contradicts
     claim: "The move away from comedy free-speech absolutism is dated five months earlier than this page states: 'Lenny Bruce was arrested...not by the public, but by the state. Dave Chappelle is facing criticism which is, I'm told, different.' (2021-10-26), against the Louis CK defence of 2019-01-16."
+  - page: wiki/self/twitter/replies
+    type: evidenced-by
+    claim: "The Sandy week of October 2012 is a reply relationship rather than fandom at a distance: he feeds the live broadcast sourced material — the Breezy Point fire video, the Atlantic's photo debunk, 911 call volume, the HMS Bounty sinking — across a single storm."
 ---
 
 # Opie & Anthony / Shock Radio
@@ -136,7 +139,7 @@ leftist politics."*
 >
 > And on **25 March 2014**: *"brilliant point re 'tranny' outrage. Minority
 > groups feel entitled to have at least 1 term ruled a slur."* 2014 is a
-> **spreadsheet-complete year** on `wiki/self/twitter/2014` — 170 of 171 rows
+> **spreadsheet-complete year** on [[wiki/self/twitter/2014]] — 170 of 171 rows
 > from the operator export — so the absence of any post expressing discomfort
 > is itself evidence, and the record is not merely silent but opposed.
 >
@@ -179,7 +182,7 @@ particularly malicious"* and warns against *"wokescoldery"* — but "it's just a
 joke" is the exact doctrine the show ran on, and he says he has left it.
 
 > **CORRECTED [2026-09-03] — March 2022 is not the earliest instance.** The
-> shift is dated five months earlier by `wiki/self/twitter/2021`. On
+> shift is dated five months earlier by [[wiki/self/twitter/2021]]. On
 > **26 October 2021**, during the Chappelle row, he wrote:
 >
 > > *"Lenny Bruce was arrested...not by 'the public', but by the state. Dave
@@ -216,3 +219,7 @@ listening) is certainly higher than the ~450 archive watches captured.
 The many "Opie" hits in the message dump refer to a local Uniontown
 person, not the radio host, and are excluded here. Exact first-listen date
 is not established; 2011 is the earliest cluster in the watch history.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]]

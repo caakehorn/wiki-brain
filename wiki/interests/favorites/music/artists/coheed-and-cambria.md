@@ -27,11 +27,15 @@ All dates, venues, cities, and notes below are taken from the source table and p
 
 | Date | Show / Context | Venue | City | Note |
 |------|---------------|-------|------|------|
-| Aug 8, 2007 | Vans Warped Tour | Post-Gazette Pavilion | Burgettstown, PA | Warped Tour date. Lineup included Paramore, Coheed & Cambria, All Time Low, Bad Religion. |
-| May 4, 2008 | Multi-act show | Meadowlands Sports Complex | East Rutherford, NJ | Panic! at the Disco & Coheed and Cambria co-headlined. Also: Paramore, Gym Class Heroes, Cobra Starship, The Academy Is. |
+| Aug 8, 2007 | [[wiki/interests/concert-record/festivals/vans-warped-tour|Vans Warped Tour]] | Post-Gazette Pavilion | Burgettstown, PA | Warped Tour date. Lineup included Paramore, Coheed & Cambria, [[wiki/interests/favorites/music/artists/all-time-low|All Time Low]], Bad Religion. |
+| May 4, 2008 | Multi-act show | Meadowlands Sports Complex | East Rutherford, NJ | Panic! at the Disco & Coheed and Cambria co-headlined. Also: Paramore, [[wiki/interests/favorites/music/artists/gym-class-heroes|Gym Class Heroes]], [[wiki/interests/favorites/music/artists/cobra-starship|Cobra Starship]], [[wiki/interests/favorites/music/artists/the-academy-is|The Academy Is]]. |
 
 ## Notes per appearance
 
 - **Aug 8, 2007** — Vans Warped Tour, Post-Gazette Pavilion, Burgettstown, PA. Warped Tour date. Lineup included Paramore, Coheed & Cambria, All Time Low, Bad Religion.
 - **May 4, 2008** — Multi-act show, Meadowlands Sports Complex, East Rutherford, NJ. Panic! at the Disco & Coheed and Cambria co-headlined. Also: Paramore, Gym Class Heroes, Cobra Starship, The Academy Is.
   Co-billed with: Panic! at the Disco, Paramore, Gym Class Heroes, Cobra Starship, The Academy Is....
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

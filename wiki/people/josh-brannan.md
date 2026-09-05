@@ -103,3 +103,7 @@ documented on [[wiki/people/jerad-friedline]].
 **Gaps:** no contact documented before or after this single 2017
 thread; how Dan and Josh originally met beyond the general Uniontown
 friend network.
+
+---
+
+**Up:** [[wiki/people/index|People]]

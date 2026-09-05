@@ -66,3 +66,7 @@ Philadelphia life in progress at the time of the arrest, cut short by it.
 **Gaps:** no contact before or after this five-day window; Lucas's own
 relationship to Zac or the wider circle beyond this single event is
 undocumented.
+
+---
+
+**Up:** [[wiki/people/index|People]]

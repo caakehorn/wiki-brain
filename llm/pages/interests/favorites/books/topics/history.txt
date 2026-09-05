@@ -20,4 +20,8 @@ related: ["wiki/interests/favorites/books", "wiki/self/context-core"]
 Recent-history, american-history, ancient-history, war.
 
 ## Reflection
-Broad historical curiosity providing context for current politics. Roman Republic interest noted in spine.
+Broad historical curiosity providing context for current politics. [[wiki/interests/roman-republic|Roman Republic]] interest noted in spine.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/books|Books]]

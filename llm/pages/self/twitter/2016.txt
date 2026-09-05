@@ -38,7 +38,7 @@ connections:
 
 # Twitter / X — 2016
 
-**The year the music becomes a hobby and golf becomes a subject.** SLOPPP is
+**The year the music becomes a hobby and golf becomes a subject.** [[wiki/interests/music/aliases/sloppp|SLOPPP]] is
 not gone — there is a Periscope bedroom DJ set on New Year's Day, a Juicy J
 bootleg sent to a blog in March, and one paid-sounding live booking in
 February — but the account's centre of gravity has moved. What 2016 actually
@@ -53,7 +53,7 @@ sources.
 On **7 February 2016**: *"Had lit times playing @ulmdub birthday party last
 night at OSU"*, with a video attached and one repost.
 
-`wiki/interests/music/overview` spent weeks holding this line as a
+[[wiki/interests/music/overview]] spent weeks holding this line as a
 **contradiction against itself**: an AI-generated secondary source quoted it,
 the archive did not contain it, and the page leaned toward the reading that the
 analysis had fabricated the quote. A backend fetch on 2026-09-02 recovered the
@@ -95,7 +95,7 @@ places him still trying to reach them in early 2016.
 The pattern across 2011, 2012, 2014 and now 2016 is consistent enough to name:
 **employment appears on this account only as material.** Never as a fact
 stated, never as a complaint, never as a plan — as a bit, delivered to
-followers, about the absurdity of the situation he is inside. `wiki/mind/synthesis/failure-to-launch`
+followers, about the absurdity of the situation he is inside. [[wiki/mind/synthesis/failure-to-launch]]
 has the fact of the career; this is the posture toward it, and the posture is
 stable across five years and four jobs.
 
@@ -143,7 +143,7 @@ Read against 2011's eight sharply argued political posts, this is not a
 progression. It is a man who was more politically vocal at twenty-two than at
 twenty-eight, and who sat out the most consequential American election of his
 adult life in public silence. That is a real data point for
-`wiki/mind/synthesis/2020-left-turn`: whatever 2020 was, it was not the last
+[[wiki/mind/synthesis/2020-left-turn]]: whatever 2020 was, it was not the last
 step of a gradual radicalisation, because 2016 is a step backwards.
 
 ## Fayette County, confirmed again
@@ -154,7 +154,7 @@ a Periscope broadcast of a Pittsburgh snowstorm (20 January), *"FEET of snow"*,
 Kennywood in July, and the Hard Rock Cafe Pittsburgh in June.
 
 Three consecutive years — 2013, 2014, 2016 — now place him in Fayette County
-inside the window `wiki/self/location-history` records as having no
+inside the window [[wiki/self/location-history]] records as having no
 address-level data.
 
 ## Texture
@@ -656,3 +656,7 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 *likes 0 · replies 0 · reposts 0*
 
 > Oh. Noooooooooo
+
+---
+
+**Up:** [[wiki/self/index|Self]] › [[wiki/self/twitter|Twitter]] · **Previous:** [[wiki/self/twitter/2015|2015]] · **Next:** [[wiki/self/twitter/2017|2017]]

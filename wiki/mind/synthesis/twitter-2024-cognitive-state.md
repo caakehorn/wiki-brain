@@ -44,7 +44,7 @@ The surface subjects vary wildly: Electoral College arithmetic, Biden and Trump,
 
 This was not primarily a year of producing positions. It was a year of repeatedly interrogating the gap between **what institutions, factions, and individuals say they believe** and **how they behave when those beliefs become inconvenient**.
 
-The corpus therefore documents an already-developed cognitive style that later becomes explicit infrastructure in Wiki Brain. In 2024, synthesis is performed manually and episodically in public. By 2026, the project is to externalize that same process into a persistent system capable of storing evidence, preserving chronology, exposing contradictions, and checking whether remembered insight was genuine foresight or retrospective self-flattery.
+The corpus therefore documents an already-developed cognitive style that later becomes explicit infrastructure in [[wiki/self/concepts/wiki-brain|Wiki Brain]]. In 2024, synthesis is performed manually and episodically in public. By 2026, the project is to externalize that same process into a persistent system capable of storing evidence, preserving chronology, exposing contradictions, and checking whether remembered insight was genuine foresight or retrospective self-flattery.
 
 The strongest single label for the year's public cognitive posture is **The Adversarial Historian**: a person who treats the present as an unfolding historical system whose participants usually understand less about the forces governing them than they think they do.
 
@@ -482,3 +482,7 @@ This entry is a substantive first synthesis, not the final forensic pass. The fu
 7. **Error taxonomy** identifying repeated false-positive and false-negative reasoning patterns.
 8. **Longitudinal comparison with 2023 and 2025** to determine whether 2024 is genuinely a cognitive transition or merely a volume spike.
 9. **Evidence-grade annotations** distinguishing direct corpus observation, strong synthesis, plausible inference, and unresolved speculation.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

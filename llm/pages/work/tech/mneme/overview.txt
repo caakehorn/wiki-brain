@@ -79,9 +79,13 @@ thesis MNEME's problem statement states almost verbatim. It sits alongside
 [[wiki/work/tech/max-framework/overview]] and
 [[wiki/mind/concepts/exocortex]] as another instance of Dan building
 external cognitive infrastructure for himself, and is the clearest
-evidence yet that the wiki-brain project and Dan's own product instincts
+evidence yet that [[wiki/self/concepts/wiki-brain|the wiki-brain]] project and Dan's own product instincts
 are pointed at the same problem independently.
 
 **Gaps:** no evidence in the corpus of MNEME actually being built past
 the spec stage; unclear whether this predates or postdates his adoption
 of this wiki-brain project as his personal solution to the same problem.
+
+---
+
+**Up:** [[wiki/work/index|Work]] › [[wiki/work/tech/index|Tech]]

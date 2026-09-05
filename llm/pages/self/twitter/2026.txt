@@ -42,14 +42,14 @@ model to reconfigure the recommendation systems that shape what he sees.
 
 It is also the year music production resumes under a new name.
 
-## MOGZART, 4 March
+## [[wiki/interests/music/aliases/mogzart|MOGZART]], 4 March
 
 > *"'Odd Mob - Never Alone (feat Lizzy Land) [MOGZART DnB JUMP UP REMIX]' is on
 > #SoundCloud"*
 
-The first original music released on this account since the SLOPPP micromix
+The first original music released on this account since the [[wiki/interests/music/aliases/sloppp|SLOPPP]] micromix
 re-post of March 2015 — eleven years — and it is under a different alias, in a
-different genre. `wiki/interests/music/overview` records MOGZART and GRIPNOTIC
+different genre. [[wiki/interests/music/overview]] records MOGZART and [[wiki/interests/music/aliases/gripnotic|GRIPNOTIC]]
 as successors to SLOPPP; this dates a MOGZART release precisely, and the
 2 June post (*"there is just stupid amounts of great DnB coming out right
 now"*) places the genre commitment as current rather than incidental.
@@ -65,7 +65,7 @@ Two named autonomous agents, one of them carrying the name of a music project.
 
 That is the most interesting sentence on the page. He uses a browser agent to
 **delete every follow across three platforms at once**, explicitly in order to
-rebuild the recommendation systems from scratch. `wiki/mind/synthesis/millennial-digital-witness`
+rebuild the recommendation systems from scratch. [[wiki/mind/synthesis/millennial-digital-witness]]
 describes a disposition for watching the medium rather than the event; here the
 disposition becomes an **operation**. He is not observing the algorithm. He is
 taking an instrument to it, on himself, deliberately.
@@ -332,3 +332,7 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 > He’s so fucking good at these adversarial tv hits
 
 > — quoting: Quoted @TheTNHoller on Dr. Abdul El-Sayed vs Jesse Watters
+
+---
+
+**Up:** [[wiki/self/index|Self]] › [[wiki/self/twitter|Twitter]] · **Previous:** [[wiki/self/twitter/2025|2025]]

@@ -444,7 +444,7 @@ pronounced"* — and then, October 22: *"i have NEVER felt so hypnotized by
 someone i've never seen or met in my life."* The inaccessibility is not an
 obstacle to the attachment. It is the attachment's operating condition.
 
-The other half of the ledger is hers, and it should not be softened. Across
+The other half of [[wiki/health/intake-ledger|the ledger]] is hers, and it should not be softened. Across
 the same three months she reports: no income since July, no health insurance,
 a bottle of wine a night, Wellbutrin making her *"more suicidal,"* seven Xanax
 being *"saved for a rainy day,"* *"If I killed myself would you be sad,"* *"I
@@ -1017,3 +1017,7 @@ Each of these is answerable by the operator in a paragraph.
   address, in the GEDCOM, in the Twitter export, or in the Facebook search
   history. The Model Mayhem and "boca raton ally lubin" searches Dan describes
   on 2019-08-22 are from Google, whose search-history export is not in `raw/`.
+
+---
+
+**Up:** [[wiki/people/index|People]]

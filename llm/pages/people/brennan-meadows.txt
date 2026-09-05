@@ -47,3 +47,7 @@ No contacts.csv match and no further mentions elsewhere in the corpus; identity 
 ## Related
 
 [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

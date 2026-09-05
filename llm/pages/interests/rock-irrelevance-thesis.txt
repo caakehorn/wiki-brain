@@ -56,7 +56,7 @@ connections:
 
 ## Relation to Favorites & Music Identity
 
-- Strongly aligns with [[wiki/interests/favorites/music]] profile: heavy electronic/bass, hip-hop/rap, emo/post-hardcore clusters (JPEGMAFIA, Kanye, LYNY, Knock2, My Chemical Romance, Fall Out Boy, etc.).
+- Strongly aligns with [[wiki/interests/favorites/music]] profile: heavy electronic/bass, hip-hop/rap, emo/post-hardcore clusters (JPEGMAFIA, Kanye, LYNY, Knock2, [[wiki/interests/favorites/music/artists/my-chemical-romance|My Chemical Romance]], Fall Out Boy, etc.).
 - [[wiki/interests/music/concepts/sub-bass-signature]]: 63–85% across all aliases (SLOPPP → MOGZART → GRIPNOTIC) — the authentic curatorial voice.
 - Rejection of guitar rock as dominant is consistent with production focus on maximalist electronic, bass, non-guitar textures.
 - Ties to [[wiki/self/context-core]] §5: "Music — the one sincere, self-assembling thread." Shipping/public exposure is bottleneck, not taste or capacity.
@@ -65,6 +65,10 @@ connections:
 
 This is not casual taste preference. It is observation of structural cultural shift used to defend current artistic direction against "guitar is still cool" pushback.
 
-Cross-links: [[wiki/interests/favorites/index]], [[wiki/interests/favorites/music/electronic-bass]], [[wiki/interests/music/aliases/]], youtube watch history (non-rock heavy).
+Cross-links: [[wiki/interests/favorites/index]], [[wiki/interests/favorites/music/electronic-bass]], [[wiki/interests/music/aliases/]], [[wiki/self/youtube-watch-history|youtube watch history]] (non-rock heavy).
 
-**Sources:** raw/self/chats/The 2nd most famous 'Jimmy Pop' in Pennsylvania .md
+**Sources:** raw/self/chats/The 2nd most famous '[[wiki/people/james-dee|Jimmy Pop]]' in Pennsylvania .md
+
+---
+
+**Up:** [[wiki/interests/index|Interests]]

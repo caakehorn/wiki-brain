@@ -47,3 +47,7 @@ Full name and exact role at Au Za'atar are not established from the thread.
 ## Related
 
 [[wiki/work/au-zaatar]] · [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -55,7 +55,7 @@ From [[wiki/self/context-core]]: 337 sale drives move; "no post-close plan". Mix
 
 Owner communications TBD per timeline. Property separate from BFS (gas/LC building ownership).
 
-**Cross-references:** [[wiki/legal/463-morgantown]], [[wiki/people/suzanne-frank]], [[wiki/people/arnu]], [[wiki/people/john-carney]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/timeline/periods/2025-collapse]], [[wiki/self/facebook]] (recent activity/ingest), [[wiki/work/bfs-foods]] (parallel disputes).
+**Cross-references:** [[wiki/legal/463-morgantown]], [[wiki/people/suzanne-frank]], [[wiki/people/arnu]], [[wiki/people/john-carney]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/timeline/periods/2025-collapse]], [[wiki/self/facebook]] ([[wiki/meta/recent-activity|recent activity]]/ingest), [[wiki/work/bfs-foods]] (parallel disputes).
 
 **Notes:** Limited direct corpus on Jackson himself (no messages/comm details surfaced in reviewed dox); expand via owner comms or lease docs. Defer to raw legal ingest. Evidence primarily property/role references in core + message fragments.
 
@@ -87,3 +87,7 @@ is in an active federal bankruptcy, which makes any unwritten obligation running
 between them materially harder to enforce in either direction. **Open lead,
 recorded not resolved:** whether Jackson knew, or knows, that his tenant-agent
 is a Chapter 13 debtor.
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -96,7 +96,7 @@ infobox:
 | Thread notes | Direct logistics heavy ("On way", "Here", "Come to door", "Grams?"); pricing explicit |
 | Facilitation | Cross +17249204125 [[wiki/people/annie-ulmer|Annie]] thread ( "I’m at Johnny’s", "beat by johnny") |
 
-**Role:** Dealer (2018 era primary contact). Supplied "b's" (balls/cocaine reference), suboxone strips (8mg for $15, 12mg for $20); fronts, repeated in-person transactions, "French toast diplomacy" per operating manual. 3,462 messages documented in master dump.
+**Role:** Dealer (2018 era primary contact). Supplied "b's" (balls/cocaine reference), suboxone strips (8mg for $15, 12mg for $20); fronts, repeated in-person transactions, "French toast diplomacy" per [[wiki/mind/concepts/exocortex|operating manual]]. 3,462 messages documented in master dump.
 
 ## Roles, Dates, Evidence Table
 
@@ -107,7 +107,7 @@ infobox:
 | "B's"/balls (cocaine) | "b's" buys; "Got a “80” for 70. Whatever that means." (Annie report); party supplies requests | 2018-12 to 2019-08 (Annie thread refs); operating 2018 deep cycle | Cash App velocity parallel; fronts | operating_manual.md ("Buying 'b's' (balls), suboxone strips"); imessage_7249204125_both_all_now.csv (Annie mentions) |
 | Fronts & logistics | Repeated fronts; "Johnny had my card and got money out after midnight"; "Johnny is mia. “Joby is in hospital”." | 2018-04-14 "Johnny is mia"; 2019-04-15 "Remember Johnny had my card"; multiple "Johnny said 30 mins" "Johnny just asked me to call him?" "I’m waiting at my moms for Johnny to get ready" | Fronts noted ("thx again for the front"); card access incident | imessage_7249204125 (Annie thread); MASTER direct |
 | Vacation / availability | "Johnny is leaving for vacation tonight." "Johnny leaving for the beach." | 2019-08-01 "Anddddd Johnny is leaving for vacation tonight. I’m going to get 1."; "I have no other person I can get z from. Johnny leaving for the beach." | Supply interruption risk | Annie thread CSVs |
-| Birthday request | Ally Lubin via Annie? "You should put in a word with your boy Johnny for me and give me his number so I can procure party supplies for my birthday celebration this weekend" | ~2018 per LIFE | N/A | raw/self/dox-md/LIFE_EVENTS_CALENDAR.md |
+| Birthday request | [[wiki/people/ally-lubin|Ally Lubin]] via Annie? "You should put in a word with your boy Johnny for me and give me his number so I can procure party supplies for my birthday celebration this weekend" | ~2018 per LIFE | N/A | raw/self/dox-md/LIFE_EVENTS_CALENDAR.md |
 | Phone off / MIA | "johnny phone still has been off"; "No answer from Johnny" | 2019-05-30+ | N/A | Annie thread |
 | "Beat by Johnny" | "after getting completely beat by johnny" | 2019-05-03 | Financial loss | imessage_7249204125_both_all_now.csv |
 
@@ -160,3 +160,7 @@ Johnny functions as reliable but transactional dealer node during 2018 crisis (p
 > CSV and has not been recounted against
 > `all_imessages_complete_dump.txt`, where the handle `+17243223678` shows 5,089
 > records. Treat the figure here as a floor until a proper recount is run.
+
+---
+
+**Up:** [[wiki/people/index|People]]

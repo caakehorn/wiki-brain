@@ -168,10 +168,14 @@ silence is itself worth noting rather than explaining away.
 
 ## Notes and gaps
 
-The behavioral spine lists her as "Vail, ski-school," which the message
+The [[wiki/self/context-core|behavioral spine]] lists her as "Vail, ski-school," which the message
 corpus neither confirms nor contradicts — the thread is about politics and
 family, not her location or work, so the Colorado detail is carried forward as
 unverified. Her birth record is from the ancestry GEDCOM. Everything else here is from
 the iMessage thread except the 2011–2013 section above, which is from the
 tweet archive and is the only evidence of the relationship before December
 2015.
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -62,10 +62,10 @@ years; it detonates in a few months of 2024, nearly all rated 5:
 
 | Read | Title | Author | Rating |
 |------|-------|--------|--------|
-| Jan 2024 | Death Throes of the Republic (Hardcore History #34–39) | Dan Carlin | 5 |
+| Jan 2024 | Death Throes of the Republic (Hardcore History #34–39) | [[wiki/interests/favorites/books/authors/dan-carlin|Dan Carlin]] | 5 |
 | Apr 07 2024 | Rubicon: The Last Years of the Roman Republic | Tom Holland | 5 |
 | Apr 29 2024 | The Assassination of Julius Caesar | Michael Parenti | 5 |
-| Jul 31 2024 | Caesar: Life of a Colossus | Adrian Goldsworthy | 5 |
+| Jul 31 2024 | Caesar: Life of a Colossus | [[wiki/interests/favorites/books/authors/adrian-goldsworthy|Adrian Goldsworthy]] | 5 |
 | Jun 22 2024 | Augustus: First Emperor of Rome | Adrian Goldsworthy | 4 |
 | Jul 30 2024 | Philip and Alexander | Adrian Goldsworthy | 4 |
 | Jan 2024 | Complete Works of Plutarch | Plutarch | 5 |
@@ -175,3 +175,7 @@ Plutarch/Carlin entries, likely a bulk backfill rather than literal). No
 evidence in the sampled corpus of ancient history as a *childhood*
 interest — it reads as an adult, mid-30s intensification, roughly
 concurrent with the return to Pennsylvania.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]]

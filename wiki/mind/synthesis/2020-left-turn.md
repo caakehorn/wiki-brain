@@ -231,7 +231,7 @@ of it: the departure had already happened, twice, and 2020 is when something
 finally occupied the vacancy.
 
 **The counter-evidence, and it is real.** One tweet is one tweet. Nothing else
-on `wiki/self/twitter/2009` is political, the page's first nine months are a
+on [[wiki/self/twitter/2009]] is political, the page's first nine months are a
 fetch artefact rather than a sample (so an absence there proves nothing), and
 eleven years of no recorded political identity separate the two events. A
 disavowal at twenty-one is a common thing for a twenty-one-year-old to say and
@@ -278,7 +278,7 @@ export is now wanted.
 
 ## 2011: eleven years of anti-authority with no economics in it
 
-The section above dates the exit to 2009. `wiki/self/twitter/2011` fills in
+The section above dates the exit to 2009. [[wiki/self/twitter/2011]] fills in
 what stood in the gap, and it is not a slow drift leftward.
 
 2011's eight political posts are Glenn Beck, the Iraq war budget against
@@ -309,7 +309,7 @@ contemporaneous record shows he was not among the repulsed at the time: on
 **4 July 2014**, one day after Cumia was fired over racist posts, Dan tweeted
 at him *"nothing but love and respect ant. Thanks for not selling your soul
 through this whole mess."* 2014 is spreadsheet-complete and contains nothing to
-the contrary (`wiki/self/twitter/2014`; ledger record **t015**).
+the contrary ([[wiki/self/twitter/2014]]; ledger record **t015**).
 
 The cause survives; the timing does not. **And the correction is in this
 page's favour.** The six-year gap between the split and the August 2020
@@ -336,7 +336,7 @@ which no keyword pattern can see.
 | **Democratic socialist** | 2020-08-22 → | This page. |
 
 **Where the fourth stage actually begins.** The stage boundary is not August
-2020. `wiki/self/twitter/2020` shows the *analysis* arriving first, in the
+2020. [[wiki/self/twitter/2020]] shows the *analysis* arriving first, in the
 Democratic primary: on **15 February 2020**, four months after the Booker joke
 and a month before any lockdown, he runs four posts reading Bloomberg's
 candidacy as a party-splitting instrument bought with money, cites the stop-and-
@@ -464,3 +464,7 @@ constraint, since every self-directed medical sentence in the corpus is
 conditional and the recorded barrier is a copay
 ([[wiki/health/the-configured-body]]). The turn's media pipeline is not
 displaced by this; what it gains is a body under it.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

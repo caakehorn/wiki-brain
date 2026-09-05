@@ -89,3 +89,7 @@ The recurring contrast Dan draws: [[wiki/people/annie-ulmer]], "the avatar of re
 Tarik is not to be confused with the other Au Za'atar staff (DJ/Ismaila Barry, Dimitri, Sergio, Felipe), who have their own stubs or roster entries on the chat pages. Ghassan appears throughout as co-owner. The phantom-tender and alibi-construction patterns from this era rhyme with the later BFS material — see [[wiki/work/bfs-foods]].
 
 **Gaps:** "Modi," "MD," "Patricia," "Khalid," and "Hani" are all new, unresolved names surfaced by the direct thread — none has any other reference elsewhere in the corpus. The occasion for the June 2024 Arabic wedding congratulations is unidentified.
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -77,13 +77,13 @@ confidence ratings:
    alcohol, atop the 15-year Suboxone chassis: not recreation or escape but
    "self-administered neurochemical engineering."
 2. **Recursive self-analysis as a life project** (98; conf. 95%) — writing
-   his own psychological operating manual is "his primary occupation." (This
+   his own psychological [[wiki/mind/concepts/exocortex|operating manual]] is "his primary occupation." (This
    wiki is that project's current form.)
 3. **Hyper-specific linguistic style** (97; conf. 98%) — "a custom-built
    fork of English" ([[wiki/mind/profile/linguistic-profile]]).
 4. **Psychosexual operating system** (96; conf. 90%) — sex as ritualized
    meaning-engine: curated non-monogamy, architected voyeurism framed as
-   "worship through degradation," emotional imprinting; low partner count
+   "worship through degradation," [[wiki/mind/psychosexual/emotional-imprinting|emotional imprinting]]; low partner count
    with extreme intensity inside relationships. Full dedicated cluster,
    including a decade of independently-corroborated real-world instances:
    [[wiki/mind/psychosexual/index]].
@@ -194,9 +194,13 @@ a sketch rather than a normed population.
 
 That is not a refutation of the verdict and it is a hard boundary on it. Two
 dimensions of genuine statistical outlierhood are established, **one of which
-is a liability rather than a skill** — a Gini of 0.9601 with no failover is the
+is a liability rather than a skill** — a Gini of 0.9601 with [[wiki/mind/synthesis/single-channel|no failover]] is the
 structural cause of most of the relational damage the corpus documents. The
 rest of "a living edge case… pushed to the absolute limits of its design
 parameters" is an instrument reasoning about its own commissioner, which is the
 problem [[wiki/mind/synthesis/the-commissioned-self]] holds and which the
 seventeen-appearances-in-106,629-messages figure prices exactly.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]] › [[wiki/mind/profile/index|Profile]]

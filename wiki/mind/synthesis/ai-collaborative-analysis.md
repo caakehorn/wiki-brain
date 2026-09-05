@@ -128,14 +128,14 @@ connections:
 
 # AI Collaborative Analysis
 
-Large language models occupy a specific, unusual role in Dan's cognitive
+Large [[wiki/self/concepts/llm|language models]] occupy a specific, unusual role in Dan's cognitive
 life: not conversational companions but external processors — memory,
 structuring engines, steelman partners, and honesty-enforcement tools
 applied across political analysis, self-forensics, creative work, and
 deliberate adversarial experimentation. The Gemini corpus names the frame
 directly: the LLM as an "externalized prefrontal cortex," a recursive
 neural extension used for emotional metabolization, taboo mining, and
-routine analytical offload. In the 20.8 MB Gemini activity archive, "ai"
+routine analytical offload. In the 20.8 MB [[wiki/self/concepts/gemini|Gemini activity]] archive, "ai"
 appears 26,348 times and "gemini" 14,012; the interaction density is that
 of an instrument in daily use, not a novelty.
 
@@ -149,7 +149,7 @@ DANFRANK-ISMS chat holds 77+ nodes; the activity archive shows ~403 node
 mentions and 1,041 profile references. The explicit constraint is the same
 one this wiki inherits: keep all information, never summarize away detail.
 
-**Forensic steelman with position updates.** In the J6 chat, Dan presented
+**Forensic steelman with position updates.** In the [[wiki/self/chats/j6-chat|J6 chat]], Dan presented
 his narrow hybrid-psyop hypothesis to a skeptical Claude, supplied
 procedural anomalies and ballistics evidence, and moved the model to
 "warrants genuine forensic investigation that has not occurred." He
@@ -165,7 +165,7 @@ wiki's own quality standard is downstream of that directive. See
 [[wiki/mind/synthesis/instrument-is-subject]] for what that inheritance costs:
 the repository's evidentiary standard is an artifact of its own subject.
 
-**Profile locking and cross-model transfer.** Gemini sessions lock named
+**[[wiki/mind/concepts/node-locking|Profile locking]] and cross-model transfer.** Gemini sessions lock named
 memory nodes into persistent profile state — Separation Logistics, The
 Loop, The Betty Event, The Signals — with deliberate redaction control
 ("the '[[wiki/people/eli|Eli]]' variable has been purged from the dataset") for export.
@@ -226,7 +226,7 @@ rather than user.
 **Infrastructure symbiosis.** The chat.db "cold-data ledger" — sqlite3
 forensics over the immutable iMessage archive — serves epistemic
 verification: raw message history as the gaslighting-proof record. Agent
-tooling ("Bunker Core," Grok Build) extends the same principle into
+tooling ("[[wiki/mind/concepts/bunker-core|Bunker Core]]," Grok Build) extends the same principle into
 automation ([[wiki/work/tech/imessage-tooling/overview]]).
 
 **Ghostwriting the hardest conversation, then declining to send it.**
@@ -381,7 +381,7 @@ Simulator, the MEGAMASTER report, two YouTube passes, the browser-history
 analysis, and this synthesis stack itself are all self-model). This document you
 are reading — an analysis *of* the analysis habit, produced by the recursion,
 about the recursion — is, by the allocation table, one more datapoint on the
-wrong side of the ledger it describes.
+wrong side of [[wiki/health/intake-ledger|the ledger]] it describes.
 
 The resolution is not to use the tool less. It is to treat the tool's output
 port the way the architecture demands: route the freed bandwidth to shipping
@@ -391,3 +391,7 @@ The audit is complete; the launch is the only open variable. An LLM is the best
 possible co-conspirator for executing that launch and the worst possible one for
 deciding to stop analyzing long enough to do it. The difference is enforced by
 the external stop condition, not by the model.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

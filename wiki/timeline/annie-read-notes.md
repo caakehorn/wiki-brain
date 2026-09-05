@@ -42,26 +42,26 @@ candidate.
 
 | First seen | Entity | What the corpus establishes | Status |
 |---|---|---|---|
-| 2015-11-28 | **Annie Ulmer** | birthday **Nov 28**; Twitter `@Lo_weez`; a pre-Dan nude leak forced the handle change | → `wiki/people/annie-ulmer` |
-| 2015-11-28 | **Alexis Armel** | living at 155 Virginia; volatile (phone-breaking feared); leaves ~Dec 1 with her parents collecting her | → `wiki/people/alexis-armel` |
-| 2015-11-28 | **Gabe** (cat) | in the household; Annie claims him immediately (*"gabes my babe"*) | → `wiki/people/gabe` |
-| 2015-11-29 | **"turd boy" / "dude" = Emilio** | **Annie's own partner at the time**, present with her family on Nov 29; she says she will *"get rid of him"*. **Identified by the operator, 2026-08-17** — the corpus never names him in this window, so the identification is T0 testimony, not a corpus derivation. Same man as the Dec 2 and Dec 13 Emilio. | → `wiki/people/emilio` |
-| 2015-11-29 | **Zachariah Harshman** | physically present through the first night; the cover story for leaving the house; later negotiates the laptop question with Alexis | → `wiki/people/zachariah-harshman` |
+| 2015-11-28 | **Annie Ulmer** | birthday **Nov 28**; Twitter `@Lo_weez`; a pre-Dan nude leak forced the handle change | → [[wiki/people/annie-ulmer]] |
+| 2015-11-28 | **Alexis Armel** | living at 155 Virginia; volatile (phone-breaking feared); leaves ~Dec 1 with her parents collecting her | → [[wiki/people/alexis-armel]] |
+| 2015-11-28 | **Gabe** (cat) | in the household; Annie claims him immediately (*"gabes my babe"*) | → [[wiki/people/gabe]] |
+| 2015-11-29 | **"turd boy" / "dude" = Emilio** | **Annie's own partner at the time**, present with her family on Nov 29; she says she will *"get rid of him"*. **Identified by the operator, 2026-08-17** — the corpus never names him in this window, so the identification is T0 testimony, not a corpus derivation. Same man as the Dec 2 and Dec 13 Emilio. | → [[wiki/people/emilio]] |
+| 2015-11-29 | **Zachariah Harshman** | physically present through the first night; the cover story for leaving the house; later negotiates the laptop question with Alexis | → [[wiki/people/zachariah-harshman]] |
 | 2015-11-29 | **Shu** | rearranged Dan's living room *"more dab friendly"*; leaves for Philadelphia Nov 29 | **no page — recurring, likely supply** |
-| 2015-11-29 | **Ellen Ulmer** | throws Annie's family birthday dinner, Nov 29 | → `wiki/people/ellen-ulmer` |
+| 2015-11-29 | **Ellen Ulmer** | throws Annie's family birthday dinner, Nov 29 | → [[wiki/people/ellen-ulmer]] |
 | 2015-11-29 | **Andre** | at the bar on Annie's birthday; later floated as Alexis's possible alternate drug source | **no page** |
-| 2015-11-29 | **Suz (Suzanne Frank)** | see motif M4 — actively promoting the switch | → `wiki/people/suzanne-frank` |
-| 2015-11-29 | **117 Belmont Circle / Fran's** | proposed affair venue in week one; key held by Suz | → `wiki/places/117-belmont-circle` |
-| 2015-11-29 | **Uniontown CC golf course, 3rd tee** | the meeting location, precisely | → `wiki/interests/golf` |
-| 2015-11-30 | **Casey Bondarenka** | *"just started hanging out with us last week"* — joins the friend group **~3rd week Nov 2015**; buys beer for Alexis; drives Dan around; subject of an unresolved *"Casey saga"* | → `wiki/people/casey-bondarenka` |
+| 2015-11-29 | **Suz (Suzanne Frank)** | see motif M4 — actively promoting the switch | → [[wiki/people/suzanne-frank]] |
+| 2015-11-29 | **117 Belmont Circle / Fran's** | proposed affair venue in week one; key held by Suz | → [[wiki/places/117-belmont-circle]] |
+| 2015-11-29 | **Uniontown CC golf course, 3rd tee** | the meeting location, precisely | → [[wiki/interests/golf]] |
+| 2015-11-30 | **Casey Bondarenka** | *"just started hanging out with us last week"* — joins the friend group **~3rd week Nov 2015**; buys beer for Alexis; drives Dan around; subject of an unresolved *"Casey saga"* | → [[wiki/people/casey-bondarenka]] |
 | 2015-11-30 | **"Morgantown homeboy"** | drug source in Morgantown WV; joint $100 buy Nov 30, with a birthday bonus for Annie | **no page — named supply node** |
 | 2015-11-30 | **Dan's laptop** | missing during Alexis's move-out; Harshman intercedes | thread, not entity |
-| 2015-11-30 | **Diane / Van** | named in Suz's family-name list (*"Anne Dan Suzanne Fran Diane Van"*) | → `wiki/people/diane-moore` |
+| 2015-11-30 | **Diane / Van** | named in Suz's family-name list (*"Anne Dan Suzanne Fran Diane Van"*) | → [[wiki/people/diane-moore]] |
 | 2015-12-01 | **Donna** | Annie's manager at the bar; knows about the Alexis situation; tells Annie "don't go to Bruce about the schedule" | **no page — recurring** |
 | 2015-12-01 | **Bruce** | Annie's employer (bar); called to ask about the schedule; connected to Annie's dad ("besties from high school") | **no page — employer** |
-| 2015-12-01 | **Rick Frank** | Dan's father; Annie reports that he *"already wikes me"*; Dan is nervous to call him | → `wiki/people/rick-frank` |
-| 2015-12-02 | **Claire Ulmer** | Annie's sister; jumps on Annie when Ellen finds out about Dan; involved in the confrontation | → `wiki/people/claire-ulmer` |
-| 2015-12-02 | **Emilio** | *(same person as the 2015-11-29 "turd boy" row above — merged 2026-08-17 on the operator's identification)* Annie's partner until ~Nov 29; texts Claire about Annie when he finds out about Dan, pulling Claire into the Dec 2 confrontation; still contacting Annie on Dec 13. | → `wiki/people/emilio` |
+| 2015-12-01 | **Rick Frank** | Dan's father; Annie reports that he *"already wikes me"*; Dan is nervous to call him | → [[wiki/people/rick-frank]] |
+| 2015-12-02 | **Claire Ulmer** | Annie's sister; jumps on Annie when Ellen finds out about Dan; involved in the confrontation | → [[wiki/people/claire-ulmer]] |
+| 2015-12-02 | **Emilio** | *(same person as the 2015-11-29 "turd boy" row above — merged 2026-08-17 on the operator's identification)* Annie's partner until ~Nov 29; texts Claire about Annie when he finds out about Dan, pulling Claire into the Dec 2 confrontation; still contacting Annie on Dec 13. | → [[wiki/people/emilio]] |
 | 2015-12-03 | **RT** | messages Dan about Alexis working at the bar; source of information about Alexis's schedule | **no page** |
 | 2015-12-03 | **Scott** | hits on Alexis at the bar the same night; friend of the family | **no page** |
 | 2015-12-03 | **Sean** | "the hallway bully" from Alexis's past; referenced in story told at the bar | **no page** |
@@ -69,7 +69,7 @@ candidate.
 | 2015-12-08 | **Dave** | from CT's; calls Dan looking for Alexis on Dec 8 | **no page — CT's employee** |
 | 2015-12-08 | **Chuck** | drug supplier; has $100 of cocaine for Annie on Dec 8 | **no page — supply node** |
 | 2015-12-08 | **Caribou** | Dan's friend; in the studio with Dan on Dec 8; starting a collective called "dat noise" | **no page — friend** |
-| 2015-12-08 | **Zach Clingan** | texts Annie *"I have to talk to you"* on Dec 9 and warns her off Dan; **named by Dan the same day as the origin of his drug use** (*"THAT is who introduced me to drugs"*). Not to be confused with Zachariah Harshman. | → `wiki/people/zach-clingan` |
+| 2015-12-08 | **Zach Clingan** | texts Annie *"I have to talk to you"* on Dec 9 and warns her off Dan; **named by Dan the same day as the origin of his drug use** (*"THAT is who introduced me to drugs"*). Not to be confused with Zachariah Harshman. | → [[wiki/people/zach-clingan]] |
 | 2015-12-09 | **Nguyen's** | restaurant; Annie's dad eats there; they offer Annie a job starting Jan 1 | **no page — employer** |
 | 2015-12-09 | **Dar** | Annie's friend; does her hair on Dec 9; jealous of Annie's happiness | **no page — friend** |
 | 2015-12-10 | **Lucy** | Suz's cat; Dan is taking care of her while Suz is on vacation | **no page — pet** |
@@ -211,7 +211,7 @@ noted.
 | `people/claire-ulmer` | (check) sister | **active participant in the Dec 2 confrontation** — jumps on Annie when Ellen finds out; Emilio texts her as his channel to the family |
 | `people/rick-frank` | (check) father | **intervenes in the Dec 2 crisis** — *"Call me tomorrow. I will help you fix this"*; knows Annie's dad; positioned as the family mediator |
 | `people/zachariah-harshman` | (check) cover story for the first night | **active threat post-breakup** — texts Annie "I have to talk to you" on Dec 9; tells her she looks like shit; the "cover story" reading is incomplete |
-| `wiki/places/155-virginia-ave` | Dan's house | **the Annie box exists** — a box of mementos (notes, pen straws, snowflakes) from the first week, referenced on Dec 3 and Dec 10 |
+| [[wiki/places/155-virginia-ave]] | Dan's house | **the Annie box exists** — a box of mementos (notes, pen straws, snowflakes) from the first week, referenced on Dec 3 and Dec 10 |
 | `people/jill` | (check) friend | **Annie's closest friend** — referenced repeatedly; her birthday is Dec 8; her boyfriend is invited to the NYE party |
 
 ## 5. Quantitative markers
@@ -501,3 +501,7 @@ synthesis pages rather than to a new one. Queued with reasoning in
 block. Cross-linking Dec 1–31 is mechanical, high-value and not done — the page
 is described in its own frontmatter as the evidentiary floor, and an entry with
 no outbound link cannot be reached from the pages it supports.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

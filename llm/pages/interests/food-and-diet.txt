@@ -366,7 +366,7 @@ for everything it is allowed to touch."
 
 > **RE-CHECKED [2026-08-11] — premise moved, conclusion unaffected.**
 > [[wiki/mind/concepts/the-cool-metric]] moved the same day, but only to add
-> a new connection to `wiki/mind/synthesis/totality-themes` (the newly
+> a new connection to [[wiki/mind/synthesis/totality-themes]] (the newly
 > derived "Irreversibility Firewall" doctrine page) — the master-filter
 > claim and the food/music jurisdiction dispute this page's CONTRADICTION
 > block tracks are both untouched. Nothing here needed revising.
@@ -404,3 +404,7 @@ extending that page's domain table toward food — one of the three domains
 its own Gaps section named as untested. **What it did not do:** date the
 regime's origin or settle whether it predates the adolescent eating-disorder
 period; that Gap stays open.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]]

@@ -191,3 +191,7 @@ his own behalf, and it is not a property act — it is a severance declared insi
 an argument, with the lease as the instrument of the declaration and the same
 execution rate as every other declared exit
 ([[wiki/mind/synthesis/block-unblock-loop]]).
+
+---
+
+**Up:** [[wiki/places/index|Places]]

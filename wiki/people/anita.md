@@ -48,7 +48,7 @@ in the [[wiki/work/bfs-foods|drawer-shortage dispute]] that ended the
 job. She originated the $50 shortage claim, and she holds every lever the
 dispute turns on: the morning deposit reconciliation, the schedule (Dan's
 hours went 36 → 7 the same day he questioned the demand), the discipline
-paperwork, and the store's narrative to corporate. Brandon Hill delivered
+paperwork, and the store's narrative to corporate. [[wiki/people/brandon-hill|Brandon Hill]] delivered
 the personal demand, but the claim was hers.
 
 ## The confabulation pattern
@@ -108,3 +108,7 @@ is herself the corporate interface at the location) are not established;
 whether she faced any consequence for the vape sale beyond nearly being
 fired is undocumented; her account of the $50 was never reconciled
 against an actual report.
+
+---
+
+**Up:** [[wiki/people/index|People]]

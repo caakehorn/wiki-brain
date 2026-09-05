@@ -175,11 +175,11 @@ Grimaldi's are worth posting, the walk home is not.
 | Ancestry roots overlay | 1988+ | Generational | See below. |
 
 ## Family Geographic Roots (from 23andMe + Ancestry GEDCOM tree)
-Multi-generational concentration in Fayette County PA (Uniontown, Brownsville, Hopwood, Champion) + maternal WV origins (Fort Martin) directly grounds the location corpus. Tree residences match core addresses (337 Saratoga Drive family-built 1996; 12 Bryer Ave pre-1996) and repeated Uniontown chapters. 
+Multi-generational concentration in Fayette County PA (Uniontown, Brownsville, Hopwood, Champion) + maternal WV origins (Fort Martin) directly grounds the location corpus. Tree residences match core addresses ([[wiki/places/337-saratoga-drive|337 Saratoga Drive]] family-built 1996; 12 Bryer Ave pre-1996) and repeated Uniontown chapters. 
 
 - Dan born 1988-11-01 Uniontown, Fayette, PA.
 - Father Richard Harrison Frank b.1959 Uniontown; multiple RESI Uniontown 1993-2002.
-- Paternal great-grandparents: David J. Frank (1892 Russia) + [[wiki/people/sadie-harris|Sadie Harris]] (1900 Austria) — Jewish immigrants to Brownsville/Hopwood PA. Grandfather Morley Jay Frank (1927 Brownsville – 1998 Hopwood).
+- Paternal great-grandparents: David J. Frank (1892 Russia) + [[wiki/people/sadie-harris|Sadie Harris]] (1900 Austria) — Jewish immigrants to Brownsville/Hopwood PA. Grandfather [[wiki/people/morley-frank|Morley Jay Frank]] (1927 Brownsville – 1998 Hopwood).
 - Maternal: Fran Whyel (Jesse Frances Thomas Whyel /Coldren, 1920 Fort Martin WV – 2018 Uniontown); mother Suzanne.
 - Core match: 337 Saratoga (family-built), Uniontown addresses dominate loc visits + FB hometown.
 
@@ -213,7 +213,7 @@ Data is privacy-redacted (many "Unnamed" or generic). High volume of precise hom
 | 155 Virginia Avenue, Uniontown, PA            | 849    | Uniontown residence |
 | Au Za'atar (and Midtown East)                 | 445    | Frequent restaurant (NYC) |
 | 337 Saratoga Drive, Uniontown, PA             | ~415 (297+118+...) | Family home (multiple periods; built 1996) |
-| 117 Belmont Circle, Uniontown, PA             | 246    | Local address |
+| [[wiki/places/117-belmont-circle|117 Belmont Circle]], Uniontown, PA             | 246    | Local address |
 | 73 Smith School House Road, Farmington, PA    | 206    | Recurring (near roots) |
 | 1063 1st Ave., New York, NY                   | 201    | NYC location (Au Za'atar addr) |
 | 147 Virginia Ave, Uniontown, PA               | 128    | Local |
@@ -276,7 +276,7 @@ McDonald's 130, CVS 126, Walgreens 24, Walmart 23, Sheetz 22, KeyBank 66, Sunoco
   - iMessage / voice (social)
   - [[wiki/self/facebook]] full: profile bio/education/work (Au Za'atar NYC job ties loc restaurant pin 445), events, security logins, liked pages (196: ODESZA, comedy clubs, politics, electronic labels).
 
-The data shows a life with clear "home bases" (Uniontown family properties + one NYC apartment) and limited long-distance travel outside those nodes. This supports Contact Gini themes (concentrated physical world) and the high Si (archivist) + low Sociability profile. PA roots explain repeated returns and volume concentration.
+The data shows a life with clear "home bases" (Uniontown family properties + one NYC apartment) and limited long-distance travel outside those nodes. This supports [[wiki/mind/concepts/contact-gini|Contact Gini]] themes (concentrated physical world) and the high Si (archivist) + low Sociability profile. PA roots explain repeated returns and volume concentration.
 
 ## Ties to Facebook Events / Security / Profile (2010+)
 - Profile: Early digital identity (2007 reg), Brooklyn move 2010, Uniontown hometown, relationship status, work (Nemacolin PA, Au Za'atar NYC). Political views DSA.
@@ -304,3 +304,7 @@ See also:
 - [[wiki/self/facebook]] (events 2012+, profile 2010 Brooklyn, likes 2014 ODESZA)
 - [[wiki/self/ancestry]] (Fayette PA roots grounding)
 - [[wiki/mind/synthesis/totality-themes]]
+
+---
+
+**Up:** [[wiki/self/index|Self]]

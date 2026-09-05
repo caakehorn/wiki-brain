@@ -47,3 +47,7 @@ Early messages (May–June 2017) are mid-round check-ins on the course itself. A
 ## Related
 
 [[wiki/work/nemacolin-caddying]] · [[wiki/people/brad-hubeaut]] · [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

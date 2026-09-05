@@ -54,7 +54,7 @@ The 2020 declaration was an ultimatum. 2021 is the working version:
 used correctly and the primary opponent is the Democratic Party rather than the
 Republicans, which is the tell that distinguishes a leftist from a liberal.
 `@hasanthehun` — Hasan Piker, one of the four channels
-`wiki/mind/synthesis/2020-left-turn` names as the pipeline — is addressed
+[[wiki/mind/synthesis/2020-left-turn]] names as the pipeline — is addressed
 directly on 9 January.
 
 And on **15 November**, a disappointment stated as one: *"Had been (foolishly)
@@ -65,7 +65,7 @@ interesting half.
 
 ## 26 October 2021 corrects a date
 
-`wiki/interests/opie-and-anthony` dates Dan's move away from comedy free-speech
+[[wiki/interests/opie-and-anthony]] dates Dan's move away from comedy free-speech
 absolutism to **28 March 2022**, during the Chris Rock slap. This page has it
 five months earlier, during the Chappelle row:
 
@@ -85,7 +85,7 @@ there rather than left for the next reader to trip over.
 
 The Capitol riot produces the year's densest cluster, and it is the best
 available demonstration of what
-`wiki/mind/synthesis/vertical-authority-skepticism` means when it says the
+[[wiki/mind/synthesis/vertical-authority-skepticism]] means when it says the
 "conspiracy crank" label is contradicted by his behaviour.
 
 **He forms one.** On 7 January: *"i'm as sure as i could possibly be that the
@@ -351,3 +351,7 @@ This page is the text archive. Every original and every quote-tweet with Dan's o
 *likes 0 · replies 0 · reposts 0*
 
 > To your point, fetterman is uniquely positioned to do well and the fundraising numbers are super promising. I hope that his potential for the left isn’t the catalyst for the same playbook that worked to outperform both Sanders campaigns to be run.
+
+---
+
+**Up:** [[wiki/self/index|Self]] › [[wiki/self/twitter|Twitter]] · **Previous:** [[wiki/self/twitter/2020|2020]] · **Next:** [[wiki/self/twitter/2022|2022]]

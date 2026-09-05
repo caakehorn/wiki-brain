@@ -7,7 +7,7 @@ status: active
 importance: high
 knowledge: derived
 date_created: 2026-09-02
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 chart:
   kind: grouped-bar
   title: "Stated confidence against measured outcome, by confidence band"
@@ -23,7 +23,7 @@ chart:
       points:
         "certain": 0.25
         "confident": 0.69
-        "hedged": 0.75
+        "hedged": 0.62
 sources:
   - testimony/events.jsonl
 connections: []
@@ -43,11 +43,11 @@ A single trust score would collapse two facts that behave differently. **Veracit
 
 | | value | n |
 |---|---|---:|
-| **Veracity** | **52 / 100** — +1.0 points on 31.0 weight | 10 |
-| **Calibration** | Brier 0.335, skill -0.34 vs a coin flip | 10 |
-| **Stated vs actual** | -0.30 | 10 |
+| **Veracity** | **51 / 100** — +1.0 points on 35.0 weight | 12 |
+| **Calibration** | Brier 0.323, skill -0.29 vs a coin flip | 12 |
+| **Stated vs actual** | -0.26 | 12 |
 
-Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 10 settled claims, not thousands.
+Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 12 settled claims, not thousands.
 
 ## What his confidence is actually worth
 
@@ -55,32 +55,32 @@ Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refut
 |---|---:|---:|---:|---:|
 | certain | 0.95 | 0.25 | -0.70 | 4 |
 | confident | 0.80 | 0.69 | -0.11 | 4 |
-| hedged | 0.60 | 0.75 | +0.15 | 2 |
+| hedged | 0.60 | 0.62 | +0.03 | 4 |
 
 ## Outcomes
 
 | outcome | n | meaning |
 |---|---:|---|
-| confirmed | 4 | independent evidence bears it out |
+| confirmed | 5 | independent evidence bears it out |
 | partial | 2 | the core holds, a material detail does not |
 | self_contradicted | 1 | he has given two accounts that cannot both be true |
-| refuted | 3 | independent evidence contradicts it |
+| refuted | 4 | independent evidence contradicts it |
 | unfalsifiable | 6 | checked, and the corpus cannot settle it — **scores zero, never negative** |
 
 ## By claim class
 
-Rates are shrunk toward the global 0.53 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
+Rates are shrunk toward the global 0.52 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
 
 | class | n | raw | shrunk | 95% CI on clean confirmations | dominant failure |
 |---|---:|---:|---:|---|---|
-| date | 4 | 0.50 | 0.51 | 15%–85% | displacement, rounding |
+| date | 5 | 0.40 | 0.45 | 12%–77% | displacement, rounding |
 | sequence | 3 | 0.50 | 0.51 | 6%–79% | compression, overreach |
-| location | 2 | 0.12 | 0.37 | 0%–66% | displacement, rounding |
+| location | 2 | 0.12 | 0.36 | 0%–66% | displacement, rounding |
+| quantity | 2 | 1.00 | 0.71 | 34%–100% | — |
 | duration | 1 | 1.00 | 0.64 | 21%–100% | — |
 | enumeration | 1 | 0.50 | 0.52 | 0%–79% | omission |
 | existence | 1 | 1.00 | 0.64 | 21%–100% | — |
 | other_state | 1 | 0.00 | 0.39 | 0%–79% | overreach |
-| quantity | 1 | 1.00 | 0.64 | 21%–100% | — |
 | self_state | 1 | 0.50 | 0.52 | 0%–79% | compression |
 
 ## Which way the errors run
@@ -89,7 +89,7 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 
 | slant | n |
 |---|---:|
-| neutral — the error carries no credit or discredit either way | 6 |
+| neutral — the error carries no credit or discredit either way | 8 |
 | flattering — the error, had it stood, would have reflected better on him | 1 |
 
 ## The record
@@ -112,6 +112,8 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 | t014 | Dan's continuous Suboxone regimen began on 17 February 2010. | date | certain | confirmed | wiki/self/twitter/2010 — 2010-02-17 20:07 UTC (15:07 New York): 'this is the most stressful day/decision of my life. nothing is making it easier.' Followed by 'planning the next 3 years of my life all day in muh head' (2010-02-18) and 'put my life on a treadmill. shape up or bust.' (2010-02-20). The obvious alternative referent is excluded: the Brooklyn move was decided on 2010-01-26 and described as good news either side of this day. LIMIT: he never names the decision, so this is a dated alignment on an independent same-day artifact rather than a clinical record. It is recorded as confirmed because the date he gave held up against evidence he did not write for the record and could not have been shaping. |
 | t015 | Dan was among the O&A fans repulsed by the racism at the time of the 2014 split, and that repulsion radicalized him to leftist politics. | self_state, sequence | confident | partial | wiki/self/twitter/2014 — 2014-07-04, one day after the firing: '@AnthonyCumia nothing but love and respect ant. Thanks for not selling your soul through this whole mess.' And 2014-03-25: '@AnthonyCumia brilliant point re "tranny" outrage.' 2014 is spreadsheet-complete (170 of 171 rows) and contains no post expressing discomfort. PARTIAL rather than refuted because 'we were radicalized' describes a process that can begin later than its cause; what is contradicted is the implied timing, not the eventual direction of travel, which the 2020 turn independently corroborates. |
 | t016 | Ron DeSantis will not challenge Donald Trump in the 2024 Republican primary. | other_state, sequence | certain | refuted | DeSantis filed and announced his candidacy on 2023-05-24. Dan acknowledged it the same day without pretending otherwise — 'Ron DeSantis is stupidly committing political suicide by moving ahead with a 2024 primary run' — restating the underlying analysis as a judgement about the decision rather than defending the prediction. |
+| t018 | Rob Orange died in 2013 | date | hedged | refuted | wiki/people/rob-orange — Lauryn's same-day reaction to the news, 2014-04-11, the corpus's only contemporaneous account of the death |
+| t019 | Fran's house, listed at 350000 dollars, will sell for between 250000 and 300000 | quantity | hedged | confirmed | Sale closed summer 2019 at $250,000 (operator testimony 2026-08-27, carried on wiki/people/danny-matthews) — the bottom of his stated range and $100,000 under the list price he was reacting to |
 
 ## What this ledger cannot see
 

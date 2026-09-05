@@ -238,3 +238,7 @@ specific day and circumstance of the first Menore meeting remain
 operator-attested only; Jamie's current surname usage, location, and
 occupation are undocumented; nothing in the corpus records the
 transition directly, only after-the-fact peer references.
+
+---
+
+**Up:** [[wiki/people/index|People]]

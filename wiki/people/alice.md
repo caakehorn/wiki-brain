@@ -126,3 +126,7 @@ mechanism, on one specific axis, and nothing more. The
    use it"* (2025-05-02) — which reads as evidence he had **not** met her, and is
    the sharpest single line in the corpus about how separate the two families
    stayed. Not established either way.
+
+---
+
+**Up:** [[wiki/people/index|People]]

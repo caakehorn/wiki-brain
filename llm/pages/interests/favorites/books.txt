@@ -84,7 +84,7 @@ Targeted extract of high-signal books with ratings, read dates, and shelves (sub
 |-------|--------|-----------|-----------|-------------|
 | Caesar: Life of a Colossus | Goldsworthy, Adrian | ★★★★★ | Jul 31, 2024 | ancient-history, biography, caesar, great-man-theory, history, non-fiction, philosophy, roman-republic, top-shelf |
 | Cicero: The Life and Times of Rome's Greatest Politician | Everitt, Anthony | ★★★★☆ | Dec 21, 2024 | ancient-history, biography, history, non-fiction, politics, roman-republic, top-shelf |
-| Rubicon: The Last Years of the Roman Republic | Holland, Tom | ★★★★★ | Apr 07, 2024 | ancient-history, caesar, history, non-fiction, politics, roman-republic, top-shelf, war |
+| Rubicon: The Last Years of the [[wiki/interests/roman-republic|Roman Republic]] | Holland, Tom | ★★★★★ | Apr 07, 2024 | ancient-history, caesar, history, non-fiction, politics, roman-republic, top-shelf, war |
 | Manhunt: The 12-Day Chase for Lincoln's Killer | Swanson, James L. | ★★★★☆ | Jan 2024 | american-history, crime, history, non-fiction, top-shelf |
 | The Assassination of Julius Caesar: A People's History of Ancient Rome | Parenti, Michael | ★★★★☆ | Apr 29, 2024 | ancient-history, caesar, crime, history, non-fiction, roman-republic |
 | The Rise and Fall of the Third Reich: A History of Nazi Germany | Shirer, William L. | ★★★★★ | Jan 26, 2023 | gonzo, history, journalism, massive, non-fiction, politics, source, top-shelf, war |
@@ -192,3 +192,7 @@ Cross-referenced: [[wiki/self/facebook]], [[wiki/self/context-core]], [[wiki/int
 > co-authored range claim rather than leaving this page as one half of an error
 > the other half still asserts. The contradiction is with the 2026-06-23 reading,
 > not with the live page.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]]

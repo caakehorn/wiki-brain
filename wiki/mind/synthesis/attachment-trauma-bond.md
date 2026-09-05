@@ -393,7 +393,7 @@ itself.
 
 ## System Recalibration Requirements
 
-The forensic analysis of this decade concludes that resolving the trauma bond does not require the partner to suddenly become consistent or honest, as that version of the partner does not exist in the historical data. Instead, it requires radical enforcement of the exit. Lingering contact, whether through logistical favors or intermittent apologies, functions strictly as a narcotic that prevents the nervous system from recalibrating. 
+The [[wiki/mind/concepts/forensic-method|forensic analysis]] of this decade concludes that resolving the trauma bond does not require the partner to suddenly become consistent or honest, as that version of the partner does not exist in the historical data. Instead, it requires radical enforcement of the exit. Lingering contact, whether through logistical favors or intermittent apologies, functions strictly as a narcotic that prevents the nervous system from recalibrating. 
 
 > **RE-CHECKED [2026-08-02] — premise moved, conclusion unaffected.**
 > [[wiki/people/suzanne-frank]] was updated with write-back edges and a note that
@@ -453,3 +453,7 @@ declined rather than silently omitted. **What it did not do, by the
 moratorium's own terms:** add, extend, date, or quote anything new about
 Annie. Every sentence above is either about Dan's measured cognitive
 architecture or restates a fact this page already carried.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

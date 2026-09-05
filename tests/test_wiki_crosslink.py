@@ -477,3 +477,225 @@ class MoratoriumNameResolution(unittest.TestCase):
             self.assertIn(path, pages, slug)
             self.assertTrue(self.m.under_moratorium(pages[path], path),
                             "%s is not refused by the guard" % slug)
+
+
+class LinkPlacement(unittest.TestCase):
+    """`unlinked --apply` writes into 344 pages at once and nobody reads them all.
+
+    Every rule below is a refusal, and a refusal that stops working leaves no
+    trace: the pass reports more links, the gates stay green, and the damage is
+    a wikilink inside somebody's quoted words on a public site. Same shape as
+    the moratorium guard above — silent permission — so it gets the same
+    treatment.
+    """
+
+    def setUp(self):
+        self.m = load_module()
+
+    def _apply(self, body, others, refuse=frozenset()):
+        pages = {"wiki/x.md": page("X", body=body)}
+        for slug, title in others.items():
+            pages[slug + ".md"] = page(title)
+        idx = self.m.build_index(pages)
+        matcher = self.m.Matcher(idx)
+        new, applied = self.m.apply_unlinked(
+            "wiki/x", pages["wiki/x.md"], idx, matcher, refuse)
+        return new, applied
+
+    def test_links_a_name_in_plain_prose(self):
+        new, applied = self._apply(
+            "He saw Cobra Starship that summer.",
+            {"wiki/a/cobra-starship": "Cobra Starship"})
+        self.assertEqual([("cobra starship", "wiki/a/cobra-starship")], applied)
+        self.assertIn("[[wiki/a/cobra-starship|Cobra Starship]]", new)
+
+    def test_never_inside_a_quotation_that_spans_lines(self):
+        """The defect this mask exists for. Prose is hard-wrapped at ~78 columns,
+        so a per-line mask sees only a quotation's tail and writes into it."""
+        body = ('He wrote: "nothingness but at least I got\n'
+                'the Cobra Starship handle" and moved on.')
+        new, applied = self._apply(body, {"wiki/a/cobra-starship": "Cobra Starship"})
+        self.assertEqual([], applied)
+        self.assertNotIn("[[", new)
+
+    def test_never_inside_a_heading_blockquote_or_code(self):
+        for body in ("## Cobra Starship and the rest",
+                     "> He liked Cobra Starship a lot.",
+                     "Handle is `Cobra Starship` there.",
+                     "```\nCobra Starship\n```",
+                     "Already [[wiki/a/cobra-starship|Cobra Starship]] here."):
+            new, applied = self._apply(
+                body, {"wiki/a/cobra-starship": "Cobra Starship"})
+            self.assertEqual([], applied, body)
+
+    def test_first_mention_only(self):
+        new, _ = self._apply(
+            "Cobra Starship, then Cobra Starship, then Cobra Starship.",
+            {"wiki/a/cobra-starship": "Cobra Starship"})
+        self.assertEqual(1, new.count("[[wiki/a/cobra-starship|"))
+
+    def test_refuses_a_name_two_pages_claim(self):
+        _new, applied = self._apply(
+            "The third party was there.",
+            {"wiki/p/one": "The Third Party", "wiki/p/two": "The Third Party"})
+        self.assertEqual([], applied)
+
+    def test_refuses_a_single_token_name(self):
+        """`low` confidence matches anybody. The corpus has a band called HIM."""
+        _new, applied = self._apply("It gave him pause.", {"wiki/a/him": "Him"})
+        self.assertEqual([], applied)
+
+    def test_longest_name_wins_and_the_two_cannot_overlap(self):
+        new, applied = self._apply(
+            "Judge Fred Adams presided.",
+            {"wiki/p/fred-adams": "Fred Adams",
+             "wiki/p/judge-fred-adams": "Judge Fred Adams"})
+        self.assertEqual([("judge fred adams", "wiki/p/judge-fred-adams")], applied)
+        self.assertEqual(1, new.count("[["))
+
+    def test_honours_the_refusal_set(self):
+        _new, applied = self._apply(
+            "He saw Cobra Starship.", {"wiki/a/cobra-starship": "Cobra Starship"},
+            refuse={"cobra starship"})
+        self.assertEqual([], applied)
+
+    def test_a_common_phrase_is_demoted_to_its_page_s_exact_form(self):
+        """Not refused. The flag is calibrated on the message corpus, where
+        "say anything" is 134 rows and 0 of them the band; here it would throw
+        away five real bands to catch one room."""
+        self.m.COMMON_PHRASE.add("say anything")
+        try:
+            new, applied = self._apply(
+                "He did not say anything.", {"wiki/a/say-anything": "Say Anything"})
+            self.assertEqual([], applied)
+            new, applied = self._apply(
+                "He saw Say Anything live.", {"wiki/a/say-anything": "Say Anything"})
+            self.assertEqual([("say anything", "wiki/a/say-anything")], applied)
+        finally:
+            self.m.COMMON_PHRASE.discard("say anything")
+
+
+class PhraseDispersion(unittest.TestCase):
+    """`overexposed` separates a phrase from a name by how much of the wiki
+    says it — but only for an ALIAS. `Fall Out Boy` is on twenty-one pages
+    because he is a fan; `the wiki` is on a hundred and four because it means
+    "this document"."""
+
+    def setUp(self):
+        self.m = load_module()
+
+    def _run(self, name, n_pages, owner_title, aliases=None):
+        pages = {"wiki/o/target.md": page(owner_title, aliases=aliases)}
+        for i in range(n_pages):
+            pages["wiki/p/p%d.md" % i] = page("P%d" % i,
+                                              body="A line about %s here." % name)
+        idx = self.m.build_index(pages)
+        return self.m.overexposed(sorted(s[:-3] for s in pages), idx,
+                                  self.m.Matcher(idx), pages)
+
+    def test_an_alias_said_by_too_many_pages_is_refused(self):
+        self.assertIn("the wiki",
+                      self._run("the wiki", self.m.PHRASE_PAGE_CAP + 2,
+                                "The Wiki-Brain", aliases=["the wiki"]))
+
+    def test_a_page_s_own_title_is_never_refused_however_loud(self):
+        """The first cut of this killed `fall out boy` along with `the wiki`."""
+        self.assertNotIn("fall out boy",
+                         self._run("Fall Out Boy", self.m.PHRASE_PAGE_CAP + 20,
+                                   "Fall Out Boy"))
+
+    def test_a_quiet_alias_survives(self):
+        self.assertEqual(set(), self._run("the wiki", 3, "The Wiki-Brain",
+                                          aliases=["the wiki"]))
+
+
+class ReaderFacingCount(unittest.TestCase):
+    def setUp(self):
+        self.m = load_module()
+
+    def test_a_typed_edge_does_not_count_as_a_link_here(self):
+        """The opposite of `linked_targets`' rule, deliberately. An edge is
+        frontmatter; the reader never sees it. 161 of them stood in for zero
+        navigation across the twitter tree."""
+        txt = page("X", extra=(
+            'connections:\n  - page: wiki/a/cobra-starship\n'
+            '    type: contextualizes\n    claim: "c"'),
+            body="He saw Cobra Starship.")
+        pages = {"wiki/x.md": txt, "wiki/a/cobra-starship.md": page("Cobra Starship")}
+        idx = self.m.build_index(pages)
+        matcher = self.m.Matcher(idx)
+        fm, _ = self.m.split_fm(txt)
+        hits = self.m.unlinked_names("wiki/x", fm, txt, idx, matcher)
+        self.assertIn(("cobra starship", ("wiki/a/cobra-starship",)), hits)
+
+
+class Breadcrumbs(unittest.TestCase):
+    """`STYLE_GUIDE.md` said "reachable FROM its domain index" and the lint
+    enforced exactly that sentence, so 453 of 497 pages were one-way doors.
+    The footer that fixes it is generated, and a generator nobody tests is a
+    generator that silently stops generating."""
+
+    def setUp(self):
+        self.m = load_module()
+        self.slugs = {
+            "wiki/people/index", "wiki/people/jerel-coles",
+            "wiki/self/index", "wiki/self/twitter",
+            "wiki/self/twitter/2012", "wiki/self/twitter/2013",
+            "wiki/self/twitter/2014",
+            "wiki/interests/index", "wiki/interests/concert-record/index",
+            "wiki/interests/concert-record/festivals/high-tide-4",
+        }
+
+    def test_ancestry_is_nearest_last_and_accepts_both_index_shapes(self):
+        """`wiki/people/index.md` and `wiki/self/twitter.md` are both parents of
+        their directory; a reader does not care which shape the corpus used."""
+        self.assertEqual(["wiki/self/index", "wiki/self/twitter"],
+                         self.m.ancestry("wiki/self/twitter/2013", self.slugs))
+        self.assertEqual(["wiki/people/index"],
+                         self.m.ancestry("wiki/people/jerel-coles", self.slugs))
+
+    def test_label_comes_from_the_slot_not_the_page_title(self):
+        """Most indexes here are titled `index`, and the ones that are not are
+        titled for the page (`Twitter / X Activity (@danfrank)`)."""
+        self.assertEqual("People", self.m.crumb_label("wiki/people/index"))
+        self.assertEqual("Twitter", self.m.crumb_label("wiki/self/twitter"))
+        self.assertEqual("Concert Record",
+                         self.m.crumb_label("wiki/interests/concert-record/index"))
+
+    def test_previous_and_next_only_for_a_numeric_run(self):
+        self.assertEqual(("wiki/self/twitter/2012", "wiki/self/twitter/2014"),
+                         self.m.sequence_neighbours("wiki/self/twitter/2013", self.slugs))
+        self.assertEqual((None, "wiki/self/twitter/2013"),
+                         self.m.sequence_neighbours("wiki/self/twitter/2012", self.slugs))
+        self.assertEqual((None, None),
+                         self.m.sequence_neighbours("wiki/people/jerel-coles", self.slugs))
+
+    def test_alphabetical_siblings_are_not_a_sequence(self):
+        """Inventing previous/next from filename order would sell the reader a
+        reading path nobody chose."""
+        self.assertEqual(
+            (None, None),
+            self.m.sequence_neighbours(
+                "wiki/interests/concert-record/festivals/high-tide-4", self.slugs))
+
+    def test_footer_is_idempotent(self):
+        pages = {s + ".md": page(s.rsplit("/", 1)[-1]) for s in self.slugs}
+        pages["wiki/people/index.md"] = page(
+            "index", body="- [[wiki/people/jerel-coles]]")
+        once = self.m.footer_for("wiki/people/jerel-coles", self.slugs)
+        txt = pages["wiki/people/jerel-coles.md"].rstrip("\n") + once
+        self.assertFalse(
+            self.m.needs_breadcrumb("wiki/people/jerel-coles", txt, pages, self.slugs))
+        self.assertTrue(self.m.needs_breadcrumb(
+            "wiki/people/jerel-coles", pages["wiki/people/jerel-coles.md"],
+            pages, self.slugs))
+
+    def test_an_index_and_a_generated_page_are_exempt(self):
+        pages = {s + ".md": page("t") for s in self.slugs}
+        self.assertFalse(self.m.needs_breadcrumb(
+            "wiki/people/index", pages["wiki/people/index.md"], pages, self.slugs))
+        gen = sorted(self.m.GENERATED)[0]
+        slugs = self.slugs | {gen, os.path.dirname(gen) + "/index"}
+        pgs = {s + ".md": page("t") for s in slugs}
+        self.assertFalse(
+            self.m.needs_breadcrumb(gen, pgs[gen + ".md"], pgs, slugs))

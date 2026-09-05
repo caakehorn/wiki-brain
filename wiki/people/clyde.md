@@ -48,3 +48,7 @@ Pricing is explicit and varies by product: LSD tabs at $15 singles / $10 for 5+,
 ## Related
 
 [[wiki/people/del]] · [[wiki/people/menore]] · [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -76,3 +76,7 @@ whether it was returned is undocumented.
 whether it was resolved; what prompted Lukyan's Feb 17 "you alright?"
 check-in, cross-corroborated by Zach's own concern the next day but
 unexplained in either thread; Lukyan's current circumstances.
+
+---
+
+**Up:** [[wiki/people/index|People]]

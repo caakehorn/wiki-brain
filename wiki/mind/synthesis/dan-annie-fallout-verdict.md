@@ -548,3 +548,7 @@ this pass found but would need new Annie-behavior language to fix — flagged
 and deferred rather than quietly fixed or quietly ignored. **What it did
 not do:** touch any of the five other pages carrying the stale statistic,
 or say anything new about Annie anywhere in this pass.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

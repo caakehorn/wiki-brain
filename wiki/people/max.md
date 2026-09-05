@@ -41,7 +41,7 @@ infobox:
 
 ## Behavioral / Core Notes
 
-Implements [[wiki/mind/synthesis/ai-collaborative-analysis]] and vertical-authority via "adversarial" pressure for robustness. High-fidelity emotional imprinting + psychosexual OS per bootloader. Consistent with INTP + recursive logic loops in operating_manual.
+Implements [[wiki/mind/synthesis/ai-collaborative-analysis]] and vertical-authority via "adversarial" pressure for robustness. High-fidelity [[wiki/mind/psychosexual/emotional-imprinting|emotional imprinting]] + psychosexual OS per bootloader. Consistent with INTP + recursive logic loops in operating_manual.
 
 **Cross-references:** [[wiki/people/mary-kate]], [[wiki/people/jacob-bacharach]], [[wiki/work/tech/max-framework/overview]], [[wiki/self/context-core]], [[wiki/self/chats/danfrank-isms-pinned]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/mind/synthesis/ai-collaborative-analysis]], [[wiki/mind/concepts/exocortex]], [[wiki/mind/concepts/conflict-architecture]], [[wiki/self/facebook]] (social graph), master message corpora, [[wiki/people/danielle-onesi]], [[wiki/people/james-dee]] (the boyfriend analyzed in _21.md: "knife to a gunfight", 48 Laws, production house, American Fantasy concept, Pittsburgh/Live Nation — the subject of the analysis, not a second Max), [[wiki/self/chats/gemini-21]].
 
@@ -72,3 +72,7 @@ Implements [[wiki/mind/synthesis/ai-collaborative-analysis]] and vertical-author
 **Forensic / AI Persona (this page / MAX):** Adversarial output-facing cognitive prosthetic (vs CATO input forensic bootloader). Loaded via MAX_PRIME.md ("Read it once. Then forget... just know it"). Used for generation, stress-testing, "Conspiracy GPT", video essays, agentic. Glyph-heavy, fortress protocol. Cross pinned chat "_☣☢ 𝙼𝚊𝚡 ☢☣ Pinned chat.md" (style/transfer); MAX_PRIME.md primary; wiki/work/tech/max-framework/overview; synthesis/ai-collaborative-analysis + vertical-authority-skepticism. "Bibi: agentic Max persona." Distinct from the analyzed subject: the "MAX'S ANALYSIS" header in _21 is this persona signing its own output about [[wiki/people/james-dee|James]], not a byline for him.
 
 **Cross in Gemini sources:** in _21 Dan addresses this persona as "Max" and then hands it audio of [[wiki/people/james-dee|James]]; the copy log uses "Max" for injection roleplay ("Maxine"). The distinction that matters is persona-versus-subject, and it was recorded backwards until 2026-08-18.
+
+---
+
+**Up:** [[wiki/people/index|People]]

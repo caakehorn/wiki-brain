@@ -35,3 +35,7 @@ High density in late 2025: relationship crises, health, financial. Contradicts n
 
 ## Transition markers
 (End of spike period into 2026 closure 86 events + full goodbye per annie logs)
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

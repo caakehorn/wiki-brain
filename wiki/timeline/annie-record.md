@@ -311,7 +311,7 @@ phone with her parents / I think they're coming for her soon"* (13:42). Each
 step is reversible and none is a scene. Alexis's **parents** collect her, which
 is how the Dec 1 *"Helping lex leave"* resolves.
 
-**2015-11-30 — Casey Bondarenka is three weeks old as a friend.** *"Casey will
+**2015-11-30 — [[wiki/people/casey-bondarenka|Casey Bondarenka]] is three weeks old as a friend.** *"Casey will
 never stfu here"* / *"He just started hanging out with us last week"*
 (13:47–13:48). He is at the house buying beer for Alexis at 00:39, drives Dan
 to get his e-cig fixed at 13:44, and is the subject of an unresolved
@@ -1271,3 +1271,6 @@ life partner / A guy could ask for"* (16:56).
 
 *(January 2016 read in full. 4,877 messages total. Resume at 2016-02-01.)*
 
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

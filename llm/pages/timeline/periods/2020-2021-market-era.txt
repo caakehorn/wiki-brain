@@ -63,7 +63,7 @@ calling in daily gains.
 
 ## Why the period matters
 
-The operating manual preserves the era's core insight in Dan's own framing:
+The [[wiki/mind/concepts/exocortex|operating manual]] preserves the era's core insight in Dan's own framing:
 "The skill here is the ability to sense cultural trends. The technical
 trading info and fundamentals reports aren't nearly as important now that
 retail traders have complete access." Markets were a fourth domain for the
@@ -94,3 +94,7 @@ triggers reconnection across both domains.
 > `connections:` entry cross-referencing the new
 > [[wiki/mind/profile/neurodivergence]] page. Nothing here is downstream of
 > it.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

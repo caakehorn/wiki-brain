@@ -49,3 +49,7 @@ What Claire told Lindsay in April 2017, and whether it connects to anything else
 ## Related
 
 [[wiki/timeline/periods/2017-poverty-floor]] · [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

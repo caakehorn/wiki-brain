@@ -38,7 +38,7 @@ connections:
 
 # Claude Code (Anthropic Coding Agent)
 
-Claude Code is the coding-agent deployment of the Claude model — the same analytical engine that powers the wiki's forensic analysis, but with shell access, file-system control, and the ability to execute its conclusions as code. If Claude is the analyst, Claude Code is the engineer. It is the agent that built every tool in the wiki's `bin/` directory, maintains every page in `wiki/`, and runs the gates that keep the system honest. Without Claude Code, the wiki-brain would be a design document. With it, it is a functioning second brain.
+Claude Code is the coding-agent deployment of the Claude model — the same analytical engine that powers the wiki's [[wiki/mind/concepts/forensic-method|forensic analysis]], but with shell access, file-system control, and the ability to execute its conclusions as code. If Claude is the analyst, Claude Code is the engineer. It is the agent that built every tool in the wiki's `bin/` directory, maintains every page in `wiki/`, and runs the gates that keep the system honest. Without Claude Code, [[wiki/self/concepts/wiki-brain|the wiki-brain]] would be a design document. With it, it is a functioning second brain.
 
 ## The relationship to Claude
 
@@ -294,4 +294,8 @@ This means the system survives model updates. When Claude is updated, the wiki-b
 
 ## The epistemics, restated
 
-The wiki-brain's epistemics are an artifact of the person it documents. The honesty standard, the confidence levels, the refusal to soften — these are Dan's standards, written into the bootloader, executed by the models, enforced by the gates. The models are not independent checks on Dan. They are cognitive partners that Dan has trained to be honest with him.
+The wiki-brain's epistemics are an artifact of the person it documents. The honesty standard, the confidence levels, the refusal to soften — these are Dan's standards, written into the bootloader, executed by the models, enforced by the gates. The models are not independent checks on Dan. They are [[wiki/self/concepts/llm|cognitive partners]] that Dan has trained to be honest with him.
+
+---
+
+**Up:** [[wiki/self/index|Self]]

@@ -324,7 +324,7 @@ by the only person in the record with the standing to deliver one.
 
 ## What she actually earned
 
-The reason the ledger never closes is that there was never enough on either
+The reason [[wiki/health/intake-ledger|the ledger]] never closes is that there was never enough on either
 side to close it with. The old framing of Suz as the family's "primary
 financial artery" is true only in the sense that she was the conduit; it is
 badly wrong about the volume, and she says so herself. Arguing with a
@@ -363,7 +363,7 @@ against four in the preceding eight, and wrote: *"If every month was like this
 one, it would be a sustainable occupation."* Dan attributed the shift to the
 agency change; she attributed it to bought leads that were *"costing a lot."*
 Both readings survive. It did not recur — by March 2021 she was writing that
-realtor.com took 40% of a commission and the office another 10%, *"I'm going
+realtor.com took 40% of a commission and [[wiki/interests/the-office|the office]] another 10%, *"I'm going
 to make Coldwell Banker type money… I'm giving this business til end of year."*
 
 ## The bankruptcy, and why 337 Saratoga was sold
@@ -1163,3 +1163,7 @@ Each of these is answerable by one person in one paragraph.
   FL court records, searchable by address, are the next step.
 - **Why the thread collapsed in July 2026** from ~300 messages a month to 14,
   while Dan's overall message volume stayed normal.
+
+---
+
+**Up:** [[wiki/people/index|People]]

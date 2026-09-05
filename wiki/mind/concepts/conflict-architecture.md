@@ -171,3 +171,7 @@ if the mechanism is right, a completed concession should require,
 structurally, an interlocutor who narrows rather than escalates and a claim
 with no exceptionality-verdict attached — not less investment, just lower
 stakes on that specific move.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

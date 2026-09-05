@@ -34,3 +34,7 @@ A 2019 dealer contact (`+17245696861`, 26 messages, May–August), introducing h
 ## Related
 
 [[wiki/timeline/periods/2018-deep-cycle]] · [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -1,3 +1,166 @@
+## [2026-09-04] lint | meta | the crosslink campaign had been counting a link that isn't one
+
+**The operator clicked `wiki/self/twitter/2026`, saw SLOPPP at the top of the
+page with no link, and asked what we were doing.** The answer is that two
+crosslink passes ran over that tree, reported it clean, and were wrong about
+what a link is.
+
+**All nineteen twitter year pages had zero body wikilinks. Between them they
+carry 161 typed edges.**
+
+**The mechanism.** `bin/build-site` linkifies `[[...]]` and nothing else. A page
+path written in backticks — `` `wiki/interests/music/overview` `` — renders as
+inert grey code: it looks like a reference, it sits where a reference goes, and
+it cannot be clicked. **161 such paths across 49 pages pointed at real
+entries.**
+
+**Why the instrument said the tree was clean.** `scan_page` built its
+already-linked set with `re.finditer(r'(wiki/[a-z0-9\-/]+)', txt)` over the
+whole page. That matches a backticked path, a `sources:` entry, a typed edge's
+own `page:` field, and a path named in passing — all counted as links. So every
+page that mentioned a path anywhere was reported as already linking it, and the
+scan returned *"nothing unlinked found"* for pages containing no link at all.
+Fixed: only a typed edge or a real `[[wikilink]]` counts now.
+
+**Typed edges are not links, and the campaign had been conflating them.** An
+edge is frontmatter — `CONNECTIONS_SPEC.md` machinery for synthesis, invisible
+on the rendered page. A wikilink is what a reader clicks. The twitter tree had
+161 of the first and none of the second, which is precisely a wiki that is
+navigable by the graph and not by a person.
+
+**Fixed:**
+
+- **153 backticked paths linkified** across 47 pages. Two generated pages
+  (`meta/open-questions`, `meta/recent-activity`) were skipped — their
+  generators emit the backticks and that is a generator fix, not a page fix.
+- **Seven alias links added** on the twitter tree — SLOPPP on 2013, 2014, 2015,
+  2016 and 2026, MOGZART and GRIPNOTIC on 2026. First narrative occurrence per
+  page only, never inside a quoted tweet, which is the ordinary wiki
+  convention. Single-token names score `low` in the matcher and are suppressed,
+  which is why SLOPPP was invisible to every automated pass.
+- **Twitter tree wikilinks: 0 → 104.** Every page now has between 2 and 8.
+
+**Two gates so it cannot come back**, in `bin/wiki-lint`:
+
+1. **A backticked path that resolves to a real page is an ERROR.** The fix is
+   mechanical, there is no case where such a path is better as code than as a
+   link, and a warning is exactly what let this stand. Generated pages exempt.
+   Verified by reintroducing the defect: 0 errors → 1, restored → 0.
+2. **A page over 4KB with typed edges and no wikilink is a WARNING** — the same
+   defect in its other form. Six pages currently, including
+   `synthesis/twitter-2024-cognitive-state`, `places/seven-springs` and
+   `self/concepts/claude-code`.
+
+**A second pass, from a better signal.** The backticked-path fix covered one
+class. It left the wider question: how many pages *name* something that has an
+entry and do not link it? The name-matcher is the wrong instrument for that —
+it knows titles and aliases, and 389 pages have no aliases, so it found almost
+nothing on the worst pages.
+
+**The high-precision signal is each page's own typed edges.** An edge is a
+curated, already-verified relationship. Where a page has an edge to X, names X
+in its prose, and does not link it, the link is owed and no judgement is
+needed: **87 such cases across 53 pages.**
+
+**58 links added across 36 pages**, first prose occurrence only, skipping
+blockquotes (verbatim quotes), headings, and any name that is ordinary English
+or a single token. 32 edge targets were left alone for having no linkable
+multi-word name — a page called `tom` cannot be linked from the word "tom"
+without linking every other Tom.
+
+**Substantial pages (>1.5KB) with zero wikilinks: 18 → 13.** The remainder are
+mostly pages whose edge targets are single-token names.
+
+**No `date_modified` bumped anywhere in this pass.** Adding a link moves no
+claim, and the staleness cascade this repository measured twice on 2026-09-04
+is a reason not to bump rather than an oversight — the same reasoning PR #261
+used for typed-edge direction fixes. Stale pairs unchanged.
+
+**What this says about the campaign.** Four sessions of crosslink work measured
+typed edges and never once asked whether a reader could click anything. The
+tool's own definition of "linked" was wide enough to include text that renders
+as code, and nothing else in the repository checked. `bin/wiki-lint` counts
+broken links and orphan pages; it had no notion of a page that links nothing.
+
+## [2026-09-04] connect | people | 79 lines had been written about a 1,789-message thread
+
+**The second of the thirty-seven re-derivations.** `wiki/people/new-jim-shaffer`
+was the largest unread block in the repository — **885 messages from Dan**
+against 904 from Jim, and a page of 79 lines whose every claim came from Jim's
+half. Not a monologue: a balanced eighteen-month conversation read from one
+side.
+
+**Four findings, and the first is the one that matters.**
+
+**1. The contact-concentration coefficient has a first-person instance.**
+`wiki/mind/concepts/contact-gini` measures the distribution at a two-sided Gini
+of **0.9576–0.9601** and reproduces it in three independent units. Its own
+summary of that work is *"this metric is no longer testimony; it is residue"* —
+and it was right, and it left the concept with nothing in Dan's own voice.
+2019-10-20, unprompted, closing the thread:
+
+> *"you are 1 of 3 people that i actually would enjoy seeing"*
+> *"the other 2 people are my coke dealer and a hooker"*
+
+**A Gini says how concentrated; it cannot say what survived**, because volume
+does not distinguish a friendship from a transaction. His own census names three
+and classes two as paid. First first-person instance, first statement of
+composition.
+
+**2. The stand-up set existed and here is what was in it.**
+`wiki/interests/stand-up-comedy` tracked the ambition across four years and
+closed on *"whether or not a set ever happened, the persona got as far as a
+name."* 2019-04-12: *"heres my comedy set so far"*, then three bits — the money
+he gave a friend with cancer *"and spent a couple weeks regretting it even
+though i spent thousands on drugs in that time"*; millennials and call spoofing;
+and the bald-eagle story, which the wiki files as an adolescent humiliation and
+he had made his closer. **Complete material, a stage name, and no stage** —
+`failure-to-launch`'s shape with the last step missing.
+
+**3. A second cocaine cost figure, to somebody buying nothing.** The section
+written hours earlier on `wiki/health/cocaine` rests on one number and names its
+weakness: the audience was a prospective supplier and the slant is upward.
+*"thousands"* over *"a couple weeks"* is **≥ ~$143/day**, consistent with the
+2017 *"well over $100 a day"* and with ~1 g/day at his enforced $100/gram.
+**Both figures have an upward incentive, so they narrow the band without
+settling it** — but the arc's 3.5–7 g/day now has two independent points on the
+low side and none on the high. Same hour, the corpus's only statement of the
+New York move as a chemical decision: *"if i didnt move here when i did, rehab
+would have been in my future."*
+
+**4. The estate money was promised twenty days after the death.** 2018-04-24:
+*"just found out they're cutting big distribution checks for us soon."* First
+documented advance: **2019-10-12**. Eighteen months, and the position it was
+served from is in the same thread — *"still have no access to my accounts via
+rick"*, *"never even seen a statement"*. A self-named **"HIGH BURN RATE"** is
+running in April 2019, a year before the distribution the spine treats as the
+arrival.
+
+**Grief, and a date error worth more than the grief.** The page had Jim's side
+of the December 2018 remembrance. Dan's is differential rather than general —
+*"rob is the only one that I get sad about"*, *"I honestly don't give a fuck
+about any of them other than him"*, against *"Half of our friends died lol"*.
+And he dates the death to *"2013?"* against a contemporaneous 2014-04-11 anchor.
+
+**That makes the direction 4–0.** Recorded as **t018** (refuted, displacement,
+early) alongside **t019** (confirmed — *"i bet it goes between 250-3"* on a
+house listed at 350, sold at 250). Every placement error the ledger has settled
+runs **early**; there is not one **late**. Written onto
+`wiki/mind/concepts/calibrated-confidence`, whose own typed edge had said
+*"expression is measured while accuracy remains untested"* — no longer true, and
+the first measurement is unflattering: **Brier 0.323, skill −0.29 against a coin
+flip, the `certain` band saying 0.95 and running 0.25.** Stated with the caveat
+that matters: the ledger scores a **different population** from this page's 43
+numeric-probability utterances, so it removes the excuse rather than settling
+the claim, and n=12 is a direction not a verdict.
+
+**Held out under the standing directive.** A large share of Dan's April 2018
+half is narration about Annie — the household, the arrangement, the camming.
+None of it is written, extended or quoted beyond what the wiki already holds,
+and the page says so rather than leaving the omission to look like thinness.
+
+**No cascade:** 37 stale pages before, 37 after.
+
 ## [2026-09-04] connect | people | the handles were on the pages all along, and the guard could not see nine of them
 
 **Phase 0.5's handle half turned out to be mostly already done and unreadable.**
@@ -9539,6 +9702,201 @@ on the pages that get worked most.** Every one of the ten pages now names, in
 its re-check block, the flags the bump cleared unread. Filed to
 `skills/INBOX.md` with the pair-level `rechecked:` map as the real fix and the
 unshallow measurement that has to precede it.
+
+## [2026-09-04] ingest | self | @danfrank reply corpus (operator video transcription)
+
+**What was wrong:** the corpus held 2,718 originals against **22 replies**. That
+ratio is the archive's originals-only inclusion rule, not a usage pattern —
+`TWITTER_PULL.prompt` names it as the Tier 3 hole, *"the corpus has my monologue
+and none of my dialogue"* — and `wiki/self/twitter` stated the exclusion in its
+own words without ever stating its size.
+
+**The evidence:** an operator-supplied video of the @danfrank profile being
+scrolled. 288 blocks transcribed after directive exclusions: **255 replies, 33
+originals**. Dedup against `archive.jsonl` on normalised text: 89 already held
+(31%), **199 new (69%)**, of which 186 are replies. **The reply record goes
+22 → 208.** Filed to `raw/self/twitter/replies-video-2026-09-04/`.
+
+**The dating problem, and the reason it is a finding rather than an
+inconvenience.** The video has relative-age labels and no timestamps, so every
+row carries a band and `created_at: null`. The 89 overlaps make the label model
+testable against a source that has true dates: **81/89 = 91% land in band**, six
+miss by ≤7 days — and **two miss by over 400 days**. `@JimNorton "yuckamundo"`
+is labelled 8y and is truly 2014-10-16; `@whatdirt "another enormous thank you"`
+is labelled 13y and is truly 2014-10-31. **Two posts eleven days apart carry
+labels four and a half years apart.** That is label-to-post misalignment in the
+scroll, not rounding. So no row is dated by its label; a row reaches a year page
+only on a content anchor to a dated public event.
+
+**The 2025 question, answered in the negative.** The 1y band straddles the
+"collapse-year silence: 13 originals" that the wiki reasons from elsewhere.
+Every anchorable row in that band anchors to **November or December 2024** — the
+commutations, the pardons, the Huckabee appointment, the Mangione shooting.
+**Not one row anchors to any month of 2025.** The finding survives contact with
+199 new rows, which is a better reason to believe it than its absence was.
+
+**What changed:** new page `wiki/self/twitter/replies` — the reply is a
+different instrument from the original, and its modal move is the correction of
+a specific factual or definitional error, delivered without checking which side
+made it. That removes the standing sampling objection to
+`wiki/mind/synthesis/vertical-authority-skepticism`, which rested on posts he
+chose to broadcast. **The counter-evidence is on the page**: a large quantity of
+flat dismissal with no correction in it, distributed by no rule this source can
+measure, so the claim was narrowed to *when he engages the substance he corrects
+it symmetrically; he does not always engage the substance.*
+
+Written back to `wiki/self/twitter` (the omitted class, sized), `vertical-
+authority-skepticism` (new section + re-translated Reader's Digest twin),
+`calibrated-confidence`, `failure-to-launch` (the November 2012 O&A application
+was actually **submitted** — *"thanks, i just sent in an app"* — narrowing what
+went unanswered from the approach to the application), `twitter/2024`,
+`opie-and-anthony` (the Sandy week is a reply relationship, not fandom at a
+distance), and `people/alex-frank` (an open lead: `@alexgfrank` addressed as
+"pops", 2018-09-08, on a page whose `relationship_to_dan` is `unknown` and whose
+sources never included the archive).
+
+`excluded_under_directive: 5` — @Lo_weez rows, dropped at transcription, not
+summarised or counted into any band.
+
+## [2026-09-05] connect | meta | the wiki names 570 things it does not link — 344 of them now clickable
+
+**The measurement the campaign never took.** Every instrument built for the
+crosslink campaign points *outward*, at `raw/`: which entities does a source
+name that the page it fed never learned about? The operator's complaint on
+2026-09-04 — clicking the 2026 twitter page and finding SLOPPP unlinked at the
+top of it — was the inward question, and nothing here could ask it. **Does a
+page link the things it already says?**
+
+It does not. Measured across 497 pages: **570 high-confidence names written in
+the wiki's own prose, on 262 pages, with no link on them.** Not names a source
+suggested and nobody has weighed — names the wiki typed itself, deliberately,
+about entities it has pages for. `wiki/interests/favorites/music/artists/
+paramore` is 1KB naming six sibling artist pages and linking none of them.
+
+**Why this went unmeasured for the whole campaign, and it is not the same
+defect as yesterday's.** Yesterday's was a bug: `linked_targets` counted a
+backticked path as a link. This is an absence — there was no code that read a
+page against the rest of the wiki, because every question the tool knew how to
+ask needed a corpus. The two failures compound: the campaign reported the
+twitter tree fully cross-linked because it was counting the wrong thing, and
+had it counted the right thing it still would not have looked here.
+
+**`bin/wiki-crosslink unlinked [--apply]`.** Wiki against wiki, no corpus read,
+1.4s. Body `[[wikilinks]]` only — a typed edge is frontmatter and the reader
+never sees it, which is the opposite of `linked_targets`' rule and deliberately
+so. 344 links written across 186 pages; **10,660 body wikilinks now against
+10,316 before**, and pages with no link at all fall from 53 to 27.
+
+**Four refusals, each one a measured failure of the version without it:**
+
+- **Never into a quotation, and the mask is computed over the whole body.**
+  The first cut masked line by line and wrote a wikilink into the middle of a
+  quoted tweet — `at least I got the [[wiki/self/twitter|@danfrank]] handle"*`,
+  opening quote two lines up. Prose here hard-wraps at ~78 columns, so any
+  quotation of length spans lines and a per-line mask sees only its tail: the
+  one case the mask exists for is the one it could not see. Headings,
+  blockquotes, fenced and inline code, and existing links are masked the same
+  way. Audited after the run: 344 new links, **0 inside a quotation.**
+- **A phrase said by more than 20 pages is refused, but only if it is an
+  alias.** `the wiki` → `wiki/self/concepts/wiki-brain` fired **104 times**, and
+  in none of them is it a name: "the wiki records 17 February" means *this
+  document*. The first cut of the cap took `fall out boy` with it — a real band
+  on 21 pages, because he is a fan. Title versus alias separates them and
+  nothing else tried did: dispersion says how loud a string is, not whether it
+  is a name.
+- **A common phrase is demoted to its page's exact display form, not refused.**
+  `mark_common_phrases` is calibrated on the message corpus, where "say
+  anything" is 134 rows and none of them the band. Porting the refusal here
+  would discard five real bands to catch one room, so a flagged name must
+  appear exactly as its own page writes it: `Say Anything` links, `say
+  anything` does not.
+- **Dispersion is computed over the whole corpus even when one page is named on
+  the command line.** Otherwise `--apply <page>` writes links `--apply`
+  refuses — the tool disagreeing with itself by invocation.
+
+**Two aliases deleted from `wiki/self/concepts/wiki-brain`: `the wiki` and `the
+repository`.** Both are self-references in this corpus. `the repository` had
+slipped under the cap at six and produced a link that is simply wrong —
+*"...is **not in [[the repository]]**"*, in `message-circadian-latency`, means
+the git repo. An alias that names the document the reader is holding is not an
+alias.
+
+**No `date_modified` was bumped.** Adding a link is not a revision of the
+argument, and bumping 186 pages would have cleared the staleness warnings on
+every page reasoning from any of them — rule 3, at scale, by accident.
+
+`bin/wiki-lint`'s edges-and-no-links warning is at **0** (`wiki/people/teddy`
+hand-linked; `twitter-2024-cognitive-state` took two). 99 candidates remain, all
+of them contested between two pages or single-token, and they are a reading job.
+50 tests in `tests/test_wiki_crosslink.py`, 13 of them new and every one pinning
+a refusal — a refusal that stops working reports *more* links and stays green.
+
+## [2026-09-05] connect | meta | 453 of 497 pages were one-way doors
+
+**`STYLE_GUIDE.md`, on linking:** *"Every non-index page must be reachable from
+its domain index (the lint orphan check enforces this)."*
+
+That sentence has been in the style guide the whole time, `bin/wiki-lint`
+enforces it exactly, and it is only half a rule. Nothing said a page must link
+**back**, nothing checked it, and the corpus went the way the rule was written:
+**453 of 497 pages never link the index above them.** Every one of the 168
+people pages. A reader arriving from search, or from the portal's own front
+page, lands on `wiki/people/jerel-coles` and stops — the page has typed edges,
+prose, sources, and no route out of it.
+
+This is the same defect as yesterday's twitter-tree finding one level up. That
+one was *within* a page: names written and not linked. This is *between* pages
+and their own containers, and it is bigger, because it is structural rather than
+editorial — no amount of careful writing on a person's page would have produced
+a link up to `wiki/people/index`, since there is nothing to say about it.
+
+**`bin/wiki-crosslink breadcrumb --apply`** writes an `**Up:**` footer on every
+non-index, non-generated page: the full ancestor-index chain, plus previous/next
+where the siblings are a numeric run.
+
+```
+**Up:** [[wiki/self/index|Self]] › [[wiki/self/twitter|Twitter]] · **Previous:** [[…|2012]] · **Next:** [[…|2014]]
+**Up:** [[wiki/people/index|People]]
+```
+
+**Four decisions in it:**
+
+- **The label comes from the slot, not the page.** Most index pages here are
+  titled `index`, and the ones that are not are titled for the page rather than
+  the section — `wiki/self/twitter`'s title is *"Twitter / X (@danfrank)"*. A
+  breadcrumb wants "Twitter". Directory basename, title-cased.
+- **Both index shapes are parents.** `wiki/people/index.md` and
+  `wiki/self/twitter.md` each contain their directory; a reader does not care
+  which convention a branch used.
+- **Previous/next only for a numeric run.** The twitter years are a sequence a
+  reader walks; `wiki/interests/concert-record/festivals/` is alphabetical, and
+  presenting alphabetical order as previous/next invents a reading path nobody
+  chose.
+- **The test is "does this page link its nearest index", not "does that index
+  link back to this page".** The second is narrower by 53 pages and narrower in
+  the wrong direction — a page its own index does not list is *more* stranded,
+  not less.
+
+**Two rules written down, where they were missing rather than wrong.**
+`STYLE_GUIDE.md`'s reachability bullet now carries both directions, and a new
+`bin/wiki-lint` warning fires on any page that never links the index above it.
+Warning, not error: a new page is written before its footer is generated, and
+blocking that commit buys nothing when the fix is one idempotent command.
+
+**The `## Related` ban is untouched and this does not test it.** That rule
+exists because a link without a claim is noise; the `**Up:**` line makes no
+claim of relatedness, points only at the container the page already sits in, and
+that container already links down. A footer naming a *peer* is still the banned
+thing, whatever it is titled — the style guide now says so explicitly, because
+"there is a sanctioned footer now" is exactly the opening a later session would
+use.
+
+No `date_modified` bumped, for the same reason as the link pass: navigation
+furniture is not a revision of the argument, and 453 bumps would clear the
+staleness warnings on everything reasoning from any of them. 423 tests, 6 new —
+the footer is generated, and a generator nobody tests is one that can silently
+stop generating.
+
 
 ## [2026-09-04] connect | people | the reciprocal debt the Vaughn pass created, paid
 

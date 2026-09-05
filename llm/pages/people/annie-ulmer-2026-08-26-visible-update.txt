@@ -65,3 +65,7 @@ The record has plenty of turning points. What it has very little of is **boring 
 If the block holds, the Ally channel remains ordinary, and Dan continues accepting correction without needing to turn it into a grand emotional event, then the August rupture may have produced something previous severances did not: **a stable behavioral boundary that does not require emotional warfare to maintain.**
 
 That is the claim this page should test.
+
+---
+
+**Up:** [[wiki/people/index|People]]

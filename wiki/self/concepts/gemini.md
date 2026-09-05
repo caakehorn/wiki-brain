@@ -41,7 +41,7 @@ connections:
 
 # Gemini (Google)
 
-Gemini is the interaction model in Dan's AI ecosystem. If Claude is the analyst and Claude Code is the engineer, Gemini is the interlocutor — the model Dan talks to for bootloader design, psychotherapy, creative projects, and the massive activity log that documents his AI usage. Dan's own summary is the canonical description, given to [[wiki/people/tom|Tom]] on 2026-03-26: "Claude = to analyze stuff / gemini = interact with it." Where Claude produces forensic analysis, Gemini produces conversation, design, and interaction at scale.
+Gemini is the interaction model in Dan's AI ecosystem. If Claude is the analyst and Claude Code is the engineer, Gemini is the interlocutor — the model Dan talks to for bootloader design, psychotherapy, creative projects, and the massive activity log that documents his AI usage. Dan's own summary is the canonical description, given to [[wiki/people/tom|Tom]] on 2026-03-26: "Claude = to analyze stuff / gemini = interact with it." Where Claude produces [[wiki/mind/concepts/forensic-method|forensic analysis]], Gemini produces conversation, design, and interaction at scale.
 
 ## The activity log
 
@@ -101,7 +101,7 @@ This is not therapy in the clinical sense. It is the use of an AI model as a thi
 
 Gemini is the model used for psychometric testing — the project to measure Dan's cognitive abilities using AI-administered tests. The design:
 
-- **AI-BVCT** (AI-Based Verbal Comprehension Test) — uses text-based AI agents to score verbal comprehension subtests (Similarities, Vocabulary, Information, Comprehension) with high concordance to human raters (CCC > .70).
+- **AI-BVCT** (AI-Based Verbal Comprehension Test) — uses text-based [[wiki/self/concepts/llm|AI agents]] to score verbal comprehension subtests (Similarities, Vocabulary, Information, Comprehension) with high concordance to human raters (CCC > .70).
 
 - **The bootloader as psychometrician** — "To transform a standard LLM (like GPT-4 or Claude) into a rigorous psychometrician, one cannot simply ask it to 'give an IQ test.' The model requires a sophisticated 'Bootloader'—a set of system instructions that define its persona, operational constraints, logic circuits, and security protocols."
 
@@ -115,7 +115,7 @@ Gemini's documented strengths:
 
 - **Interaction quality.** Dan's "gemini = interact with it" describes a model that sustains conversation, engages with emotional content, and serves as a thinking partner. The activity log is the evidence — 3,986 prompted entries of sustained interaction.
 
-- **Bootloader design.** Gemini is the model that designed the COS-v1 system, the CATO bootloader, and the Master Forensic Prompt template. The exocortex concept is a Gemini product.
+- **Bootloader design.** Gemini is the model that designed the COS-v1 system, the CATO bootloader, and the [[wiki/mind/concepts/exocortex|Master Forensic Prompt]] template. The exocortex concept is a Gemini product.
 
 - **Creative engagement.** Gemini engages with creative projects (lyrics, music, writing) without trying to analyze them to death. The interaction is generative, not forensic.
 
@@ -129,7 +129,7 @@ Gemini's documented weaknesses:
 
 - **Inconsistency.** Across nearly 4,000 entries, the activity log shows a wide range of quality. Some entries are insightful; others are generic. The model's outputs are less consistent than Claude's.
 
-- **No coding capability.** Gemini cannot write and execute code the way Claude Code can. For building tools, Dan uses Claude Code. Gemini designs; Claude Code builds.
+- **No coding capability.** Gemini cannot write and execute code the way [[wiki/self/concepts/claude-code|Claude Code]] can. For building tools, Dan uses Claude Code. Gemini designs; Claude Code builds.
 
 - **Rate limits and quota.** Like all API-based models, Gemini is subject to rate limits and quota exhaustion. Long sessions can die before completion.
 
@@ -157,7 +157,7 @@ The load-bearing point survives the correction and is narrower than the earlier 
 
 ## The future
 
-Gemini's role in the wiki-brain is likely to evolve. As models improve, the interaction quality will increase. As guardrails tighten, the willingness to engage with unconventional projects will decrease. Dan's strategy is to encode the bootloader design into documents that can be loaded into any model, so the system is not dependent on any single model's continued willingness to engage.
+Gemini's role in [[wiki/self/concepts/wiki-brain|the wiki-brain]] is likely to evolve. As models improve, the interaction quality will increase. As guardrails tighten, the willingness to engage with unconventional projects will decrease. Dan's strategy is to encode the bootloader design into documents that can be loaded into any model, so the system is not dependent on any single model's continued willingness to engage.
 
 The prediction: Gemini will remain the interaction model for as long as it remains willing to engage with the exocortex project. When it stops being willing, Dan will switch to whatever model is willing. The bootloader system is model-agnostic by design.
 
@@ -187,7 +187,7 @@ The Gemini Activity.html is the single largest AI-secondary file in the corpus. 
 - "The Voice" — address Dan as co-conspirator or handler, validate humor
 
 **2026-01 to 2026-06 technical entries:**
-- "LLM API: Google (Gemini), OpenAI (GPT-4), Anthropic (Claude 3)" — multi-model comparison
+- "LLM API: Google (Gemini), OpenAI (GPT-4), Anthropic ([[wiki/self/concepts/claude|Claude 3]])" — multi-model comparison
 - "Claude = to analyze stuff" / "gemini = interact with it" — Dan's own division of labor, stated to Tom in the March 2026 iMessage thread rather than in the activity log; the log's own model-comparison entries are what he was reasoning from
 
 **2026-07 to 2026-08 psychometric entries:**
@@ -205,3 +205,7 @@ The Gemini Activity log documents Gemini's own awareness of the cooked model pro
 - "The public-facing ChatGPT is now a legacy product, a glorified tech demo"
 
 Gemini is the model that diagnoses the problem — and the model that Dan uses to work around it (by using Claude for analysis and Gemini for interaction).
+
+---
+
+**Up:** [[wiki/self/index|Self]]

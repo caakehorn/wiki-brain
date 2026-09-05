@@ -252,3 +252,7 @@ conclusion each adult relationship separately arrived at.
   `bin/mine-messages` pass for self-description language around
   relationships and dating would either strengthen or complicate this
   page's reading of the one instance found.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

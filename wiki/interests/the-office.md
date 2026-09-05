@@ -120,3 +120,7 @@ it supplied (a) a concert-alias identity, (b) a standing rhetorical tic,
 and (c) a frame for reading politics. The meaning is real and
 under-documented, not absent. It is logged here so the FOB secret-show
 entry and the political-psyops material have somewhere to point.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]]

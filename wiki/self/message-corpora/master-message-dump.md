@@ -138,8 +138,8 @@ These dumps enable the stylometric analysis referenced in core sources (CATO_BOO
 
 ## Forensic Value
 - Enables attachment sequences, love-to-request counts (prior 145 mentioned), burst events (94 prior), contact Gini calculations. Dual Annie handles + Tom/Suz concentration support high-inequality social graph.
-- Date granularity supports period pages (e.g. 2017 poverty floor, Dec 2025 spike, 2021-2023 employment block, 2015-2016 genesis, 2025 collapse). 2025-2026 slices (imessage_ALL_both_*, last6months) map directly to collapse/spike.
-- Overlaps with location history, YouTube political consumption, Twitter output for full behavioral picture. FB Annie thread cross provides pre-2015 digital footprint + group interactions.
+- Date granularity supports period pages (e.g. 2017 poverty floor, [[wiki/timeline/periods/dec-2025-spike|Dec 2025 spike]], 2021-2023 employment block, 2015-2016 genesis, 2025 collapse). 2025-2026 slices (imessage_ALL_both_*, last6months) map directly to collapse/spike.
+- Overlaps with [[wiki/self/location-history|location history]], YouTube political consumption, Twitter output for full behavioral picture. FB Annie thread cross provides pre-2015 digital footprint + group interactions.
 - From LIFE_EVENTS_CALENDAR (1,104 events): Relationship 266, Financial 105, Health 108 heavily represented in message volume spikes.
 
 ## FB Cross and Recent Work
@@ -182,3 +182,7 @@ A primary analytical cut of this corpus — circadian rhythm, reply latency, and
 > [[wiki/mind/concepts/contact-gini]] and to her own page, where it sat as the
 > headline corpus statistic for two months. Treat every volume figure sourced to
 > the master CSV as a floor pending recount.
+
+---
+
+**Up:** [[wiki/self/index|Self]]

@@ -104,3 +104,7 @@ met is unknown.
 ## Related
 
 [[wiki/people/brian]] · [[wiki/people/kelly-johansson]] · [[wiki/people/trinity-st-clair]] · [[wiki/people/annie-ulmer]] · [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

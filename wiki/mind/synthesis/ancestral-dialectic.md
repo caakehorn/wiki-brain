@@ -94,7 +94,7 @@ Psychogenealogical Architecture of Collapse and Recursion"* — built from
 the same underlying Pattern Mapping document behind several other
 DANSYNTH sessions, cross-referenced against published historical sources
 on pogrom-era Russia and Fayette County coal history — proposes a specific
-frame for why the psychological profile looks the way it does: two
+frame for why the [[wiki/mind/profile/index|psychological profile]] looks the way it does: two
 incompatible inherited "operating systems," one per parental line, forced
 into a single mind that never harmonized them. This page records the
 frame as **interpretive synthesis**, not fact — it is one AI report's
@@ -219,11 +219,11 @@ already described without explaining.
 >
 > **`date_modified` is deliberately NOT bumped for this note, and that is the
 > point of the note's last paragraph.** This page carries seven other stale
-> premises that predate this pass — `wiki/self/lineage/23andme-genomics`,
-> `wiki/self/lineage/family-tree`, `wiki/self/lineage/hybrid-analysis`,
-> `wiki/self/ancestry`, `wiki/mind/concepts/attachment-model`,
-> `wiki/mind/synthesis/fayette-return` and
-> `wiki/mind/synthesis/instrument-is-subject` — and **none of them was
+> premises that predate this pass — [[wiki/self/lineage/23andme-genomics]],
+> [[wiki/self/lineage/family-tree]], [[wiki/self/lineage/hybrid-analysis]],
+> [[wiki/self/ancestry]], [[wiki/mind/concepts/attachment-model]],
+> [[wiki/mind/synthesis/fayette-return]] and
+> [[wiki/mind/synthesis/instrument-is-subject]] — and **none of them was
 > re-read here.** Bumping the date to 2026-08-31 was tried and reverted: it
 > cleared all seven from `WORK.md` in one move, without anybody having looked
 > at any of them. That is the failure `CLAUDE.md` calls the one that corrupts
@@ -241,3 +241,7 @@ genealogy). The 23andMe PDFs themselves were never OCR'd for exact
 percentages beyond the Neanderthal figure; a fuller ancestry-composition
 breakdown (European sub-regions, exact Ashkenazi percentage) remains
 unextracted in `raw/self/ancestry/dna-reports/`.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

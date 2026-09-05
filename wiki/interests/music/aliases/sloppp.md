@@ -109,7 +109,7 @@ it.
 **Three cautions, and the first two are load-bearing.**
 
 1. **The 2013 archive begins on 17 August** because the source changes there
-   (`wiki/self/twitter/2013`, and the same caveat governs 2009–2013 generally).
+   ([[wiki/self/twitter/2013]], and the same caveat governs 2009–2013 generally).
    Everything before that date is invisible, so 29 is a floor for the year and
    the alias's start date is *still* not datable from here.
 2. **The year-on-year drop from 29 to 4 is a change of format, not of output.**
@@ -359,3 +359,7 @@ SoundCloud page is still live is unverified. Why the March 2015 Frank
 Swaney management deal never materialized (or whether it quietly did, off
 the message record) is undocumented; "Joby," the third party who was to
 finalize terms with Dan's parents, is otherwise unidentified in the corpus.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/music/index|Music]]

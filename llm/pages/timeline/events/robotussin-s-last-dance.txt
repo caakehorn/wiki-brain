@@ -42,7 +42,7 @@ connections:
 
 # Robotussin's Last Dance
 
-June 15, 2005 — the summer after eleventh grade, age 17, with a license, a car, a father whose marriage was collapsing and a mother whose affair had already hollowed the household into something Dan could leave without looking back. The setting is Frank's Auto Supply, the family business, where he spent that afternoon as a delivery driver, four-x-ing the drive time to every stop and going home to jerk off twice on the clock. At 4pm, less than an hour left in his shift, Jimmy Shaffer called with comically enthusiastic excitement: he and Rob Orange would pick Dan up at 5:30 and drive him to the Tom Petty concert at the Post Gazette Pavilion in Burgettstown, PA.
+June 15, 2005 — the summer after eleventh grade, age 17, with a license, a car, a father whose marriage was collapsing and a mother whose affair had already hollowed the household into something Dan could leave without looking back. The setting is Frank's Auto Supply, the family business, where he spent that afternoon as a delivery driver, four-x-ing the drive time to every stop and going home to jerk off twice on the clock. At 4pm, less than an hour left in his shift, Jimmy Shaffer called with comically enthusiastic excitement: he and [[wiki/people/rob-orange|Rob Orange]] would pick Dan up at 5:30 and drive him to the Tom Petty concert at the Post Gazette Pavilion in Burgettstown, PA.
 
 By the time they arrived, Tom Petty was already on stage. They had no tickets. The show was sold out. They could hear "Runnin'" playing live from the parking lot as they learned this at the will-call window. Jim had brought them there to wing it, and in 2005 that did not read as a genuinely stupid thing to do.
 
@@ -98,3 +98,7 @@ The Frank's Auto Supply job is a documented part of the family business record. 
 - The CVS location is named only as "the closest CVS to Burgettstown"; the Ruby Tuesday's is specified as near Pittsburgh airport but not pinned further.
 - No other participant has corroborated or contested any of the three factual claims (the capsule count, the Rt 51 speed, the cone impacts) — this is single-source testimony. The 2026-08-17 answer about intoxication at the wheel is from the same single source and inherits the same limit; it is first-person and self-incriminating, which is the strongest form single-source testimony takes, but it is still one witness.
 - The Post-Gazette Pavilion's sold-out Tom Petty date of June 15 2005 has not been independently verified against tour records.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

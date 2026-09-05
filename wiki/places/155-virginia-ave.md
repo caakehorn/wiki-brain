@@ -93,7 +93,7 @@ put Dan and Annie next door to the caregiving job that defined the era:
 they were Fran's caregivers until her March 2018 fall — paid full-time for roughly the last six months of it
 ([[wiki/timeline/events/fran-death-vigil]]). On March 29, 2018 — during
 the terminal vigil — Dan was served an eviction notice for 155 Virginia by
-Dian V. Moore, demanding the keys.
+[[wiki/people/diane-moore|Dian V. Moore]], demanding the keys.
 
 > **GAP CLOSED [2026-08-22]:** This page read, until now, *"the residence
 > timeline has him staying until February 2019, so the notice's outcome is
@@ -169,3 +169,7 @@ nowhere in the record. Whether the 2014 and late-2014/early-2015
 eviction/concealment accounts (see above) describe one event remembered at
 different resolutions or two separate episodes is now the page's most
 consequential open question.
+
+---
+
+**Up:** [[wiki/places/index|Places]]

@@ -93,3 +93,7 @@ Cross-references: [[wiki/timeline/events/group-chat-closure]] ([[wiki/people/ann
 Chat exemplifies Dan's forensic approach to "raw streams" vs. mediated narratives. Frustration with social sorting over epistemics. Claude updates but maintains limits (no full raw access). Fits self-model: high intellect/impulsiveness applied to pattern recognition in chaotic events; "autistic sickos like me" self-ref (from chat).
 
 **Sources:** raw/self/chats/j6-chat.md (full export)
+
+---
+
+**Up:** [[wiki/self/index|Self]]

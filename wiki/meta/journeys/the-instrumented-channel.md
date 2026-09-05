@@ -50,7 +50,7 @@ there was a command telling a model to remember it exactly this way.
 [[wiki/mind/synthesis/read-receipt-forensics]] is a single extraction
 session against the raw chat.db, and it documents three defects that each
 **"silently produce a confident wrong answer rather than an error"** — the
-failure mode a forensic method is least protected against. Its headline
+failure mode a [[wiki/mind/concepts/forensic-method|forensic method]] is least protected against. Its headline
 finding is that the `date_read` column is directional and asymmetric: reading
 it the wrong way produces the opposite conclusion from the right one.
 
@@ -69,7 +69,7 @@ all; it was content, measurable as message length rather than delay.
 
 [[wiki/mind/synthesis/single-channel]] takes the same underlying finding —
 that one channel carries almost all the load — and measures it properly: a
-two-sided contact Gini of 0.959–0.964 across roughly 496 handles, meaning
+two-sided [[wiki/mind/concepts/contact-gini|contact Gini]] of 0.959–0.964 across roughly 496 handles, meaning
 near-total routing of relational volume through a single node in both
 directions. The page's own governing claim is that this is not a
 relationship-specific fact. The identical concentration shows up in four
@@ -112,3 +112,7 @@ rather than an artifact of one measurement bleeding into the next.
 order these five pages already establish independently. If a future
 instrument is built and it does *not* generalize past its original target,
 that would be the sequence's first counter-instance.
+
+---
+
+**Up:** [[wiki/meta/index|Meta]] › [[wiki/meta/journeys/index|Journeys]]
