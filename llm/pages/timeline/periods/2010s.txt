@@ -243,3 +243,7 @@ pitch ("living in NYC"). That is the right shape for a spring 2013
 departure and it is not a date. May 2013 continues to rest on
 context-core, and on the July 2013 line to [[wiki/people/ej-rags]] — "i
 just moved back.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

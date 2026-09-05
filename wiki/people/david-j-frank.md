@@ -98,3 +98,7 @@ generations, only one of whom died there.
   business opportunity are all plausible and none is attested.
 - **Occupation unrecorded.** The extraction pulled no trade or employer for him,
   which leaves the family's economic footing in its first Fayette decades blank.
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -113,3 +113,7 @@ supported, but that convergence is at the level of *pattern* (rapid,
 irreversible attachment activation), not at the level of the specific
 "crush activation on contact" or "temple desecration" language, which
 remains interpretive framing rather than primary-source fact.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]] › [[wiki/mind/psychosexual/index|Psychosexual]]

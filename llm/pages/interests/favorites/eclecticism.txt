@@ -505,3 +505,7 @@ reach the primary relationship.
   scene-complete are exactly Architecture A predicted on a bodily domain,
   attested only by retrospective capture. They would not change the split.
   They would extend A's jurisdiction off the CSV.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]]

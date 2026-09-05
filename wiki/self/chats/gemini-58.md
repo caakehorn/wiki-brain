@@ -54,3 +54,7 @@ tags: [ai-collaboration, nyc-era, addiction-recovery, music-production, personal
 **Related:** [[wiki/self/gemini-activity/gemini-activity]] (early NYC/ishlab row); [[wiki/people/danielle-onesi]]; [[wiki/people/alexis-armel]]; context-core; periods.
 
 **End Gemini-58 ingest.** (Swarm; see log for agents + /tmp.)
+
+---
+
+**Up:** [[wiki/self/index|Self]]

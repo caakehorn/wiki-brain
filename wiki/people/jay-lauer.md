@@ -180,3 +180,7 @@ other overdose death is documented anywhere in the wiki, so either the corpus
 is missing them or the phrase is doing emotional rather than literal work.
 Zack Lauer appears as a separate Facebook contact and his relation to Jay is
 unestablished.
+
+---
+
+**Up:** [[wiki/people/index|People]]

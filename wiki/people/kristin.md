@@ -464,3 +464,7 @@ stores some text in **mathematical-monospace Unicode**, so a plain grep for
 `LONELY LOSER` returns nothing while the string is plainly present. Fold with
 `unicodedata.normalize('NFKC', …)` before matching. This is the same family as the
 curly-apostrophe trap in `EXTRACTION_SPEC.md` and belongs beside it.
+
+---
+
+**Up:** [[wiki/people/index|People]]

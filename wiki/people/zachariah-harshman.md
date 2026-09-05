@@ -213,3 +213,7 @@ happened is undocumented past the January 2014 pitch; the January 1,
 for that name); Zach's current occupation and location are unknown;
 whether any contact continued past October 2021 is outside this
 export's range.
+
+---
+
+**Up:** [[wiki/people/index|People]]

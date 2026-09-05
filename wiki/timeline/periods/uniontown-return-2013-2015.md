@@ -130,3 +130,7 @@ reconstruction, and the life calendar, not on primary message data. The
 155 Virginia lease terms and exact move-in are undocumented; the precise
 SLOPPP→MOGZART handoff date is bracketed to ~2014 by the account
 rotation, not pinned.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

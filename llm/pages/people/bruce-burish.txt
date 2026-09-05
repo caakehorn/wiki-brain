@@ -109,3 +109,7 @@ October 27 with no indication the November visit happened.
 - **How the friendship actually started.** "Caddying-era" is inferred from
   Bruce's own nostalgia, not stated. [[wiki/work/nemacolin-caddying]] does not
   name him.
+
+---
+
+**Up:** [[wiki/people/index|People]]

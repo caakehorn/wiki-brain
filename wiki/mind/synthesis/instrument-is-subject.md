@@ -288,3 +288,7 @@ a measured cognitive trait. **What it did not do:** claim the page's
 structural conclusion is "about Dan" in the way the other twenty pages in
 this backlog are — that boundary is the page's own, and this pass respects
 it rather than papering over it with a citation.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

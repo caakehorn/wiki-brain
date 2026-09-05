@@ -41,3 +41,7 @@ Dan's documented relationship to Wallisch is an adult retrospective research int
 ## Gaps
 
 No direct contact between Dan and Tom Wallisch is documented. The nature and extent of Wallisch's attendance at Seven Springs and Roundtop during Dan's adolescence comes from a single retrospective capture and is not independently confirmed from video archives or other sources.
+
+---
+
+**Up:** [[wiki/people/index|People]]

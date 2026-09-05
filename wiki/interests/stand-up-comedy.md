@@ -160,3 +160,7 @@ adjacent pages.
 attendance list in Dan Profile.txt; venue names are not attached to each
 date there. The full text and date of the open-mic bit's set beyond the
 one line recounted to Bobby Cole is not otherwise recorded.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]]

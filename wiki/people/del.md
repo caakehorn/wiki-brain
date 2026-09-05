@@ -43,3 +43,7 @@ No contact appears after August 16, 2019; whether the relationship continued pas
 ## Related
 
 [[wiki/people/menore]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

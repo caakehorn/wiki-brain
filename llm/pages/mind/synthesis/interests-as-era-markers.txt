@@ -168,3 +168,7 @@ object, the Republic, is over. Conserved intake hours explain why only one
 obsession runs at a time; set-closure explains why the previous one terminates
 instead of thinning. Full distributions at
 [[wiki/mind/synthesis/closing-the-set]].
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

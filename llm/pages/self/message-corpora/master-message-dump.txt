@@ -182,3 +182,7 @@ A primary analytical cut of this corpus — circadian rhythm, reply latency, and
 > [[wiki/mind/concepts/contact-gini]] and to her own page, where it sat as the
 > headline corpus statistic for two months. Treat every volume figure sourced to
 > the master CSV as a floor pending recount.
+
+---
+
+**Up:** [[wiki/self/index|Self]]

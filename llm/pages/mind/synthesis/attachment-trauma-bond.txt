@@ -453,3 +453,7 @@ declined rather than silently omitted. **What it did not do, by the
 moratorium's own terms:** add, extend, date, or quote anything new about
 Annie. Every sentence above is either about Dan's measured cognitive
 architecture or restates a fact this page already carried.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

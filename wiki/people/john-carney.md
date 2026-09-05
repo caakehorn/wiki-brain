@@ -81,3 +81,7 @@ contracting counterparty demonstrably does not have — an October 2024 Chapter 
 with ~$157,000 scheduled, self-reported income of $11,000–$14,000 a year, and
 the sale of her only asset absorbed by the plan. The realistic outcome is that
 the work stays unfinished rather than that it is re-let and pursued.
+
+---
+
+**Up:** [[wiki/people/index|People]]

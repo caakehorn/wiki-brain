@@ -59,3 +59,7 @@ sponsoring him.
 
 **Gaps:** how Dan and Marc originally met; what the recorded music
 collaboration was; no contact after September 2018.
+
+---
+
+**Up:** [[wiki/people/index|People]]

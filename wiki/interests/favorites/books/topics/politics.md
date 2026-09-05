@@ -33,3 +33,7 @@ Power structures, elections, institutions, recent history.
 Core political engagement. Democratic socialist lens applied to analysis of American politics, Trump era, and journalism.
 
 See [[wiki/self/context-core]] §7 for broader political + intellectual spine.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/books|Books]]

@@ -66,3 +66,7 @@ Ties to [[wiki/work/tech/max-framework/overview]] (MAX adversarial) and imessage
 | [[wiki/people/max]] | Persona | MAX prime loaded alongside Grok sessions |
 
 **Notes:** Raw/tech/grok-build/ currently empty (data from dox + workspace binaries). Update post new builds. Grok routes via OpenRouter in env per home CLAUDE.md. Defer to raw for exports. Heavy use of search/grep/read for wiki tasks. Subagent schema enforcement: YAML frontmatter, tables-first, wiki-path links, raw/ deferral.
+
+---
+
+**Up:** [[wiki/work/index|Work]] › [[wiki/work/tech/index|Tech]]

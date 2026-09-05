@@ -100,3 +100,7 @@ the corpus. No reunion is recorded as having happened.
 original song titles or recordings; whether the band ever played a
 real venue versus basement shows only; exact active years; whether any
 other members existed beyond the three named here.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/music/index|Music]]

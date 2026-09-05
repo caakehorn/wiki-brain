@@ -192,3 +192,7 @@ Cross-referenced: [[wiki/self/facebook]], [[wiki/self/context-core]], [[wiki/int
 > co-authored range claim rather than leaving this page as one half of an error
 > the other half still asserts. The contradiction is with the 2026-06-23 reading,
 > not with the live page.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]]

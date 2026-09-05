@@ -94,3 +94,7 @@ triggers reconnection across both domains.
 > `connections:` entry cross-referencing the new
 > [[wiki/mind/profile/neurodivergence]] page. Nothing here is downstream of
 > it.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

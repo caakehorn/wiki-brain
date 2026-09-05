@@ -484,3 +484,7 @@ The date matters for placement more than for work history. This is five days
 before [[wiki/timeline/events/august-2026-morgantown-call|the week that ended
 the Annie relationship]], and it is the only thing in the 2026 collapse that
 went the other way.
+
+---
+
+**Up:** [[wiki/work/index|Work]]

@@ -86,3 +86,6 @@ casual text rather than a real second rate.
 
 The December 2019 booking inquiry's outcome is undocumented. No literal OnlyFans DM export or email correspondence with Trinity herself survives in the raw corpus — the "vouch for us" reference is known only from Dan's own retelling in a text to Annie, not from the email itself. Whether the browser-history download of a Trinity St. Clair clip (undated, found in a late-night viewing session alongside dozens of other performers' content) predates or postdates the March 2019 booking is not established — it may represent prior familiarity with her work that led to the booking, or unrelated later viewing.
 
+---
+
+**Up:** [[wiki/people/index|People]]

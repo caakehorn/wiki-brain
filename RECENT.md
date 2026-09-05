@@ -8,13 +8,18 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-05 — 1 page
+## 2026-09-05 — 4 pages
+
+- **Session log:** connect | meta | the wiki names 570 things it does not link — 344 of them now clickable
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/meta/digest]] | meta | — |
+| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
 | [[wiki/meta/testimony-veracity]] | meta | — |
 
-## 2026-09-04 — 107 pages
+## 2026-09-04 — 104 pages
 
 - **Session log:** lint | meta | the crosslink campaign had been counting a link that isn't one
 - **Session log:** connect | people | 79 lines had been written about a 1,789-message thread
@@ -45,10 +50,7 @@ simply listed.
 | [[wiki/interests/opie-and-anthony]] | interests | _(carries a CONTRADICTION from 2026-09-03)_ |
 | [[wiki/interests/stand-up-comedy]] | interests | — |
 | [[wiki/interests/the-office]] | interests | — |
-| [[wiki/meta/digest]] | meta | — |
-| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/readers-digest]] | meta | — |
-| [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
 | [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
 | [[wiki/mind/concepts/calibrated-confidence]] | mind | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/mind/concepts/chaos-preference]] | mind | **RE-CHECKED** — the-cool-metric gained a section showing the received-versus-sought sort aimed at an already-admitted person: a six-year partner whose public register goes ironic and then silent. This page's axis is  |

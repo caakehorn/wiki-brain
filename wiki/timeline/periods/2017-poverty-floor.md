@@ -134,3 +134,7 @@ The [[wiki/people/annie-ulmer]] relationship logged 85 calendar events in this y
 2017 ended without resolution. The poverty floor did not lift — it tilted. 2018 would bring higher event density (254 calendar events, the highest recorded year), more dealers in the network, more financial velocity, and no structural improvement. The escalation that followed was not recovery. It was acceleration in the same channel. The deep cycle that 2017 had begun was still gathering.
 
 **Related:** [[wiki/people/vaughn]], [[wiki/timeline/events/timeline]], [[wiki/timeline/periods/2018-deep-cycle]], [[wiki/people/annie-ulmer]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/self/ancestry]], [[wiki/people/fran-coldren]], [[wiki/people/suzanne-frank]], [[wiki/self/gemini-activity/gemini-activity]]
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

@@ -21,3 +21,7 @@ Recent-history, american-history, ancient-history, war.
 
 ## Reflection
 Broad historical curiosity providing context for current politics. [[wiki/interests/roman-republic|Roman Republic]] interest noted in spine.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/books|Books]]

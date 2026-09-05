@@ -188,3 +188,7 @@ psychotherapy or exposure-based treatment for this specific mechanism.
 ACT/exposure-based treatment specifically; whether the Suboxone
 dose or supply arrangement has changed since; the resolution (if any)
 of the three compounding 2025 losses named in passing here.
+
+---
+
+**Up:** [[wiki/health/index|Health]]

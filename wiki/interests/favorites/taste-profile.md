@@ -32,3 +32,7 @@ The FAVS MASTERLIST reveals an eclectic but focused consumer. Deep re-parse: 2,0
 - Music as sincere channel (sub-bass signature 63-85%, production identity)
 
 See full integration in [[wiki/self/context-core]], [[wiki/interests/favorites/eclecticism]], [[wiki/mind/synthesis/totality-themes]] (Music thread; Political Intensity). Production alignment: clusters defend "current" non-guitar direction per [[wiki/people/james-dee|Jimmy Pop]] analysis.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]]

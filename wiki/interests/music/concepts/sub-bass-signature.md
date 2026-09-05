@@ -63,3 +63,7 @@ None recorded. The consistency of the signature across aliases and eras is itsel
 - [[wiki/interests/music/aliases/mogzart]] (archive alias)
 - [[wiki/people/fran-coldren]] (NS7 origin)
 - [[wiki/self/ancestry]] (heritage as production anchor)
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/music/index|Music]]

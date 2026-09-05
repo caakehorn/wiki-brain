@@ -206,3 +206,7 @@ once reached, doesn't get relitigated regardless of relational stakes,"
 which is a stronger claim because it predicts the freeze even where
 betrayal was never possible. **What it did not do:** manufacture
 connections to registers that genuinely don't bear on music preference.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

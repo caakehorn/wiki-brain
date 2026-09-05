@@ -63,3 +63,7 @@ Data record includes raw escalation from logistics/denial fragments to final myt
 **Sources note:** Dedicated fight export provides granular thread order/timestamps not fully in master dump. Complements annie logs for the 2026-06-01 closure.
 
 The moral synthesis built on this event corpus — the wronged-in-fact verdict with the diagnosis-to-behavior gap held in the same frame, every load-bearing claim provenance-tiered to raw rows — is [[wiki/mind/synthesis/dan-annie-fallout-verdict]].
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

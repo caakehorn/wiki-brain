@@ -322,3 +322,7 @@ Freezer phone (run over on Second Ave) · Wall of Despair (Tom's [[wiki/people/k
 ## Notes
 
 When in doubt, the documented counts, timelines, and primary records here override generated metaphor. The raw corpus behind this page: **217,573 message records** (106,629 sent / 110,944 received, 503 handles) in the direction-reliable dump, plus audio and listening/library data. **181,585 is not the corpus** — it is the row count of a single file, `imessage_ALL_both_all_now.csv`; see [[wiki/self/message-corpora/source-coverage-index]], which counts 52 sources and 1,786,124 rows against roughly 187,000 unique messages.
+
+---
+
+**Up:** [[wiki/self/index|Self]]

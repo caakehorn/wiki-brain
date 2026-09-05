@@ -80,3 +80,7 @@ tags: [relationships, infidelity, financial-stress, career, ai-collaboration]
 - FB events/groups cross in [[wiki/self/facebook]] (your_event_responses, group_interactions, events)
 
 This is the master index. Full chronological + 1,104 in raw/self/dox-md/LIFE_EVENTS_CALENDAR.md. Re-mined for periods expansion + FB.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

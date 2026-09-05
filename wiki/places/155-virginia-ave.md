@@ -169,3 +169,7 @@ nowhere in the record. Whether the 2014 and late-2014/early-2015
 eviction/concealment accounts (see above) describe one event remembered at
 different resolutions or two separate episodes is now the page's most
 consequential open question.
+
+---
+
+**Up:** [[wiki/places/index|Places]]

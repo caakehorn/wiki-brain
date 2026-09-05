@@ -94,3 +94,7 @@ suggests a longer history with Fran than the thread covers); whether the
 recorded 0-sent figure in the master dump is the known Sent-row
 attribution artifact (Dan's replies exist in the full dump); any contact
 after April 2018.
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -34,3 +34,7 @@ tags: [ai-collaboration, legal, politics]
 **Cross-references:** [[wiki/self/chats/j6-chat]], [[wiki/self/chats/danfrank-isms-pinned]], [[wiki/mind/synthesis/political-psyops]], [[wiki/self/gemini-activity/gemini-activity]], [[wiki/people/max]].
 
 Further nodes from this session would detail more "Ditch" architecture or photo/thread anomalies.
+
+---
+
+**Up:** [[wiki/self/index|Self]]

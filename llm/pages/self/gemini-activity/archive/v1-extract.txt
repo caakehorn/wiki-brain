@@ -115,3 +115,7 @@ The 15 named concepts the extraction surfaced across sessions, with where each i
 ## Related
 
 [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/self/chats/gemini-07]] · [[wiki/self/chats/gemini-13]] · [[wiki/self/chats/gemini-18]] · [[wiki/self/chats/gemini-21]] · [[wiki/self/chats/gemini-58]] · [[wiki/mind/concepts/node-locking]] · [[wiki/mind/concepts/forensic-method]] · [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/mind/synthesis/political-psyops]]
+
+---
+
+**Up:** [[wiki/self/index|Self]]

@@ -42,3 +42,6 @@ Story of the Year · Lostprophets · Letter Kills
 ### Sep 28 - Nov 23, 2005 — Various (tour), Multiple cities
 [[wiki/interests/favorites/music/artists/fall-out-boy]] · [[wiki/interests/favorites/music/artists/motion-city-soundtrack]] · [[wiki/interests/favorites/music/artists/panic-at-the-disco]] · [[wiki/interests/favorites/music/artists/the-starting-line]] · Boys Night Out
 
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/concert-record/index|Concert Record]]

@@ -42,3 +42,6 @@ concert log cannot: **he was already watching, and the ticket followed.** For
 an entry otherwise built from one row of a ticket table, that is the difference
 between a night out and an interest. [[wiki/self/twitter/2009]].
 
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

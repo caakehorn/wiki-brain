@@ -464,3 +464,7 @@ constraint, since every self-directed medical sentence in the corpus is
 conditional and the recorded barrier is a copay
 ([[wiki/health/the-configured-body]]). The turn's media pipeline is not
 displaced by this; what it gains is a body under it.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

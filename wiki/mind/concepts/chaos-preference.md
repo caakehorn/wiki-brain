@@ -262,3 +262,7 @@ authority over him* accounts for it exactly.
 - **The workplace mechanism is inferred.** Burst-and-collapse is documented as
   a work rhythm; the claim that this is *why* failing workplaces are enjoyable
   is a reading, not a recorded statement.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

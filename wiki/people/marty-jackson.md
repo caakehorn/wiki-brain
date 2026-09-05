@@ -60,3 +60,7 @@ window — no other role at the company, no contact before or after the
 dispute, no confirmation of his fate when Creative License eventually wound
 down (still operating as of December 2014 per
 [[wiki/people/katherine-palakovich|Katherine Palakovich]]'s later email).
+
+---
+
+**Up:** [[wiki/people/index|People]]

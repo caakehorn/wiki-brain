@@ -359,3 +359,7 @@ SoundCloud page is still live is unverified. Why the March 2015 Frank
 Swaney management deal never materialized (or whether it quietly did, off
 the message record) is undocumented; "Joby," the third party who was to
 finalize terms with Dan's parents, is otherwise unidentified in the corpus.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/music/index|Music]]

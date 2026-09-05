@@ -75,3 +75,7 @@ suggests. His own thread never mentions it.
 ## Related
 
 [[wiki/work/nemacolin-caddying]] · [[wiki/timeline/periods/2017-poverty-floor]] · [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

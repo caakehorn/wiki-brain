@@ -15,3 +15,7 @@ related: ["wiki/interests/favorites/books", "wiki/self/context-core"]
 
 ## Reflection
 Military and conflict history as part of broader analytical framework.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/books|Books]]

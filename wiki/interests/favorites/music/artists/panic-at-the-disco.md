@@ -50,3 +50,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
   Co-billed with: The Dresden Dolls, The Hush Sound.
 - **May 4, 2008** — Multi-act show, Meadowlands Sports Complex, East Rutherford, NJ. Panic! at the Disco & [[wiki/interests/favorites/music/artists/coheed-and-cambria|Coheed and Cambria]] co-headlined. Also: Paramore, Gym Class Heroes, Cobra Starship, The Academy Is.
   Co-billed with: Coheed and Cambria, Paramore, Gym Class Heroes, [[wiki/interests/favorites/music/artists/cobra-starship|Cobra Starship]], The Academy Is....
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

@@ -147,3 +147,7 @@ Gemini material records that James asked [[wiki/people/annie-ulmer|Annie]] for c
 - **Who or what "slack" is.** James credits it twice in ways that read like a person rather than the software; no other corpus appearance resolves it.
 - **The interview.** James sat for a YouTube interview (`dIj5npaZafA`) that Dan transcribed and fed to the model; the transcript itself is not in `raw/`.
 - **Whether Danielle showed James her reaction to the profile.** Danielle told Dan the profile was "not that bad" and that James skimmed it, became self-conscious, and stopped reading. Nothing else independently tests that account.
+
+---
+
+**Up:** [[wiki/people/index|People]]

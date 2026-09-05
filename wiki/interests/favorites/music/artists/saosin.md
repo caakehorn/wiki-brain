@@ -30,3 +30,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 
 - **Jul 5, 2005** — Multi-act show, Charleroi VFW, Charleroi, PA (Pittsburgh area). Resolved. All Dudes All the Time Tour. With Anberlin, Acceptance, Terminal, Codeseven.
   Co-billed with: Anberlin, Acceptance, Terminal, Codeseven.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

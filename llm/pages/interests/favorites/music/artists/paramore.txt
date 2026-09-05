@@ -35,3 +35,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 - **Aug 8, 2007** — Vans Warped Tour, Post-Gazette Pavilion, Burgettstown, PA. Warped Tour date. Lineup included Paramore, Coheed & Cambria, All Time Low, Bad Religion.
 - **May 4, 2008** — Multi-act show, Meadowlands Sports Complex, East Rutherford, NJ. Panic! at the Disco & Coheed and Cambria co-headlined. Also: Paramore, Gym Class Heroes, Cobra Starship, The Academy Is.
   Co-billed with: Panic! at the Disco, Coheed and Cambria, Gym Class Heroes, Cobra Starship, The Academy Is....
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

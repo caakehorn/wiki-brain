@@ -140,3 +140,7 @@ GPS data, not a primary quote from Dan; the "5-day smol bean magic
 pixie dream girl" 2014 anomaly it references in passing is otherwise
 undocumented anywhere in the wiki; no equivalent phase breakdown exists
 for 2021–2024 in the source material.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

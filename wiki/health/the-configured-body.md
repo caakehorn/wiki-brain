@@ -454,3 +454,7 @@ narrowed, and the narrowing is stated above rather than argued away.
   regimen has been continuously prescribed since 2010 or has moved between
   prescribed and unprescribed stretches is unresolved, and it changes what the
   sixteen-year "zero relapses" figure is a measurement of.
+
+---
+
+**Up:** [[wiki/health/index|Health]]

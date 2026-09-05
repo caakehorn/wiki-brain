@@ -126,3 +126,7 @@ Each answerable by the operator in a paragraph.
 - **Was he a Johnny substitute or an independent?** Both are active in
   Uniontown in 2018; nothing links them, and the question is whether the
   push-marketing posture reflects a lower position in the same chain.
+
+---
+
+**Up:** [[wiki/people/index|People]]

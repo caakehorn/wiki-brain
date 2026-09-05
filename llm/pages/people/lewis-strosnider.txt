@@ -94,3 +94,7 @@ later than, the wiki's broader dating of the NYC move to February 2019
 **Gaps:** whether the drone sale ever completed; whether the Part 107
 certification or the construction-drone business happened; Lewis's
 current circumstances.
+
+---
+
+**Up:** [[wiki/people/index|People]]

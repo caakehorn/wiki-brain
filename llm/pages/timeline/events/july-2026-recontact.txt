@@ -344,3 +344,7 @@ third party is unidentified.
 > account at
 > [[wiki/timeline/events/july-august-2026-reentanglement|the
 > re-entanglement]].
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

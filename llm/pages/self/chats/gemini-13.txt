@@ -46,3 +46,7 @@ Father Paul Bacharach confirmed as Uniontown Hospital president/CEO (1992–2013
 ## Related
 
 [[wiki/people/jacob-bacharach]] · [[wiki/mind/concepts/forensic-method]] · [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/self/gemini-activity/gemini-activity]] · [[wiki/timeline/periods/2015-2016-annie-relationship-start]]
+
+---
+
+**Up:** [[wiki/self/index|Self]]

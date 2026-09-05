@@ -51,3 +51,7 @@ asks his sister Vanessa if she knows Drew, and she confirms she does
 **Gaps:** how Vanessa knows him; whether contact continued past
 September 2015; last name spelling not independently verified beyond
 the Facebook display name.
+
+---
+
+**Up:** [[wiki/people/index|People]]

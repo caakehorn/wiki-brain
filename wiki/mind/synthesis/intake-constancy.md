@@ -277,3 +277,7 @@ answering: is the analysis shipping, or is it describing the instruction to ship
   analysis as a likely coverage artifact — which is the multi-account
   correction landing on the search corpus, exactly as [[wiki/mind/synthesis/totality-themes]]
   predicted. Both constants are now independently corpus-substantiated.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

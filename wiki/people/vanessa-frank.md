@@ -175,3 +175,7 @@ unverified. Her birth record is from the ancestry GEDCOM. Everything else here i
 the iMessage thread except the 2011–2013 section above, which is from the
 tweet archive and is the only evidence of the relationship before December
 2015.
+
+---
+
+**Up:** [[wiki/people/index|People]]

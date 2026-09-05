@@ -169,3 +169,7 @@ Can he tolerate an ordinary day?
 If yes, then the corpus may finally be documenting not a breakthrough, but **the beginning of a new baseline.**
 
 And a new baseline is vastly more interesting than a breakthrough.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

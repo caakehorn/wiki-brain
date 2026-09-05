@@ -663,3 +663,7 @@ Each of these is answerable by the operator in a paragraph.
   diagnosis for Ally exists anywhere in `raw/`. The suicidality material is
   self-report inside message threads, not assessment, and this page makes no
   clinical claim from it.
+
+---
+
+**Up:** [[wiki/people/index|People]]

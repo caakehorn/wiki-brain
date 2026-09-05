@@ -27,3 +27,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 
 - **Aug 11, 2005** — Multi-act show, Post-Gazette Pavilion, Burgettstown, PA. Twisted Logic Tour w/ Rilo Kiley. Only confirmed outdoor Coldplay date at venue.
   Co-billed with: Rilo Kiley.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

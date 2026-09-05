@@ -144,3 +144,7 @@ about my first experience with another guy in my set."
 **Gaps:** whether Dan responded to the impersonation confrontation
 through another channel; whether the "again this weekend" repeat visit
 with Bryan occurred; Polyak's current circumstances.
+
+---
+
+**Up:** [[wiki/people/index|People]]

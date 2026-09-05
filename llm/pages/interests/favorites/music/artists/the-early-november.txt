@@ -27,3 +27,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 
 - **~2004** — Multi-act show, Small venue, Pittsburgh, PA. Still open.
   Co-billed with: Ace Enders.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

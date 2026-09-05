@@ -48,3 +48,7 @@ Last name and any resolution of the November 2018 debt dispute are undocumented.
 ## Related
 
 [[wiki/timeline/periods/2018-deep-cycle]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

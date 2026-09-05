@@ -124,3 +124,7 @@ made about third parties.
 | Date range | 2018-02-20 – 2020-02-11 |
 | Documented role | Recurring informal pharmaceutical supplier |
 | Main setting | Uniontown/Fairchance logistics |
+
+---
+
+**Up:** [[wiki/people/index|People]]

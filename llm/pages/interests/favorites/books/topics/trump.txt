@@ -19,3 +19,7 @@ tags: [politics]
 
 ## Reflection
 Intense focus on recent political events and figures. Part of broader political and journalistic reading pattern.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/books|Books]]

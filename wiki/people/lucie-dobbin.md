@@ -94,3 +94,7 @@ is no message after April 2018.
 **Gaps:** whether Lucie and Chris attended the May 6 memorial; Lucie's
 current location and relationship to the Ulmer family beyond the
 neighbor connection; the identity and fate of "Genie"/"Jeanie."
+
+---
+
+**Up:** [[wiki/people/index|People]]

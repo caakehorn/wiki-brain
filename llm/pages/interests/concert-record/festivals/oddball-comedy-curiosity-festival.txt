@@ -41,3 +41,6 @@ Oddball Comedy & Curiosity Festival is a festival / tour Dan Frank attended. Thi
 ### Aug 30, 2013 — Post-Gazette Pavilion (First Niagara Pavilion), Burgettstown, PA
 [[wiki/interests/concert-record/performers/dave-chappelle]] · [[wiki/interests/concert-record/performers/hannibal-buress]] · [[wiki/interests/concert-record/performers/john-mulaney]]
 
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/concert-record/index|Concert Record]]

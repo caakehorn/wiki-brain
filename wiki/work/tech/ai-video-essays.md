@@ -129,3 +129,7 @@ including when it directly contradicted what he'd proposed.
 what, if any, channel or platform this was intended for; the "specific
 millennial-in-your-life" example the AI asked for and Dan never
 answered in the retained transcript.
+
+---
+
+**Up:** [[wiki/work/index|Work]] › [[wiki/work/tech/index|Tech]]

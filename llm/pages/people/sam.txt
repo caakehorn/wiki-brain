@@ -141,3 +141,7 @@ the thread ends in September 2020 (no farewell, no conflict — possible
 switch to another source, reduced use, or a channel move); whether the
 February 2020 no-show had a cause on Dan's side (the corpus is silent on
 what he was doing that day).
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -433,3 +433,7 @@ wiki producing that response.
 > nothing this page reasons from is touched. Worth noting only because the new instance
 > is the method pointed at its own operator rather than at a third party, which is a
 > shape this page tracks.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

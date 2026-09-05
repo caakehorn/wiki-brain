@@ -212,3 +212,7 @@ built, should have been aimed at him. Whether it was is not on the record.
   Danielle copy essentially simultaneously. Which of the two actually did the
   damage is unrecoverable from the record and would sharpen the concept
   considerably.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

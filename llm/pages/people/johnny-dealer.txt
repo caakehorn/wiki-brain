@@ -160,3 +160,7 @@ Johnny functions as reliable but transactional dealer node during 2018 crisis (p
 > CSV and has not been recounted against
 > `all_imessages_complete_dump.txt`, where the handle `+17243223678` shows 5,089
 > records. Treat the figure here as a floor until a proper recount is run.
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -36,3 +36,7 @@ By June 11, 2018 Jimmy has quit caddying outright, venting at length about the c
 ## Related
 
 [[wiki/work/nemacolin-caddying]] · [[wiki/people/brad-hubeaut]] · [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -116,3 +116,7 @@ genuine data point — but it is not enough record to predict a sustained
 relational dynamic from, and this page should not be read or cited as if it
 were. If either handle carries unmined material beyond this window, finding
 it is the single highest-value action on this page.
+
+---
+
+**Up:** [[wiki/people/index|People]]

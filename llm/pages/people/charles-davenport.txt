@@ -54,3 +54,7 @@ pic...cute," "no homo lol").
 
 **Gaps:** how Dan and Charles know each other; what "down there" refers
 to; no contact beyond 2010.
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -88,3 +88,7 @@ rather than treated as a confirmed standalone event.
 happened as planned; Christo's current circumstances (a June 2018
 message places him back in California, referencing an Oakland-area
 weed-club past).
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -25,3 +25,6 @@ Face2Face Tour is a festival / tour Dan Frank attended. This page records the ed
 ### Mar 7, 2003 — Mellon Arena (Civic Arena), Pittsburgh, PA
 _(lineup not itemized in source beyond the festival name)_
 
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/concert-record/index|Concert Record]]

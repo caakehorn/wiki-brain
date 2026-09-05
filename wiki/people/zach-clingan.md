@@ -292,3 +292,7 @@ relationship are connected — whether Dan was still holding the 2009 and 2014
 opinions while fronting him gummies on the yard — is exactly the question
 the record cannot answer, because the two registers never touch each other
 in a single message.
+
+---
+
+**Up:** [[wiki/people/index|People]]

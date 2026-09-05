@@ -154,3 +154,7 @@ consistent feature — every missed shift answered with some version of
 residence; the identity of "Brooke" and "Luke" from the training cohort
 (no pages; below the three-mention threshold); what became of him at
 Nemacolin after 2018.
+
+---
+
+**Up:** [[wiki/people/index|People]]

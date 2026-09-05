@@ -287,3 +287,7 @@ railroad job took: the thread ends twelve days after he announces it, with
 *"Yo do you know anyone wit a ride that wants to make sum money"* (2018-05-27),
 and he never reappears in the corpus. And the "cut" ambiguity above, which one
 more corroborated price or a scale reading would settle.
+
+---
+
+**Up:** [[wiki/people/index|People]]

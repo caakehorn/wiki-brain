@@ -175,3 +175,7 @@ Plutarch/Carlin entries, likely a bulk backfill rather than literal). No
 evidence in the sampled corpus of ancient history as a *childhood*
 interest — it reads as an adult, mid-30s intensification, roughly
 concurrent with the return to Pennsylvania.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]]

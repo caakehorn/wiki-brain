@@ -208,3 +208,7 @@ titles a recording for the street the recording device stands on, so
 where the confrontation was. An AI-secondary analysis of that file read the
 title as naming the scene and reported this address as Coles's; the correction
 is on [[wiki/timeline/events/august-2026-morgantown-call]].
+
+---
+
+**Up:** [[wiki/legal/index|Legal]]

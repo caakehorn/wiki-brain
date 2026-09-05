@@ -235,3 +235,7 @@ his own voice, not an analysis of her.
 - **Danielle's own reaction, unmediated.** The wiki has one line of it, quoted
   by Dan. What she actually thought of being sent a psychological profile of
   her live-in boyfriend by her ex is unrecorded.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

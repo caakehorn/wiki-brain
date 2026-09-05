@@ -120,3 +120,7 @@ numbness is not required to explain it.
   directory listings, a burial record. No letters, photographs, anecdotes or
   family stories about her appear anywhere in the corpus, which is itself worth
   recording: the line's matriarch is present in the wiki only as coordinates.
+
+---
+
+**Up:** [[wiki/people/index|People]]

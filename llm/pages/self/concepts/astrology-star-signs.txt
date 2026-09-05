@@ -107,3 +107,7 @@ The table above shows that 18 of the top 20 contacts have unknown signs. This is
 ## How to Contribute
 
 If you know the birthday of any contact listed above as "Unknown," capture it via the wiki-gaps tool or state it directly. Each new data point fills a cell in the table and brings the zodiac distribution into focus.
+
+---
+
+**Up:** [[wiki/self/index|Self]]

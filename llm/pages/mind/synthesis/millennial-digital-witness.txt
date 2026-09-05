@@ -231,3 +231,7 @@ scale ([[wiki/mind/synthesis/totality-themes]]).
 **Gaps:** the theory is developed entirely in AI sessions from 2025–26; no
 earlier statement of it exists in the record, so whether it is a long-held
 frame or a recent LLM-era construction is undetermined.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

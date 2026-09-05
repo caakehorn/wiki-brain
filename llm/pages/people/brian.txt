@@ -43,3 +43,7 @@ Brian proposes meeting from an apartment in Riverdale with a terrace, offers to 
 ## Related
 
 [[wiki/people/jaredtricia]] · [[wiki/people/kelly-johansson]] · [[wiki/people/trinity-st-clair]] · [[wiki/people/annie-ulmer]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

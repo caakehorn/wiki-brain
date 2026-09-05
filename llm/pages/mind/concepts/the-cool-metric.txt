@@ -345,3 +345,7 @@ needed to state, because nobody else in the corpus tested it.
   analysed here.** A distribution of the favorites list against contemporaneous
   mainstream popularity would materially strengthen or damage the
   legibility-inverse claim, and is the obvious next operation.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

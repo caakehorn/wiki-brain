@@ -470,3 +470,7 @@ the delay should scale with how load-bearing the tie is.
 — the model has no rehabilitation path; the 2021–23 corpus silence means the
 Au Za'atar-era employer relationship is reconstructed only from later
 narration.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

@@ -404,3 +404,7 @@ extending that page's domain table toward food — one of the three domains
 its own Gaps section named as untested. **What it did not do:** date the
 regime's origin or settle whether it predates the adolescent eating-disorder
 period; that Gap stays open.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]]

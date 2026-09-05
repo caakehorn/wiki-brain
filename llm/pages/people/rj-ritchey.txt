@@ -118,3 +118,7 @@ location, employment, or whether contact continued after May 2020.
 | iMessage range | 2019-02-12 – 2020-05-19 |
 | Key event | Manhattan visit, 2019-07-05 – 2019-07-08 |
 | Identity resolution | `+17249844280` = RJ Ritchey |
+
+---
+
+**Up:** [[wiki/people/index|People]]

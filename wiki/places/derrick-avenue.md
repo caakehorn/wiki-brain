@@ -120,3 +120,7 @@ route she walks [[wiki/people/alice]] and [[wiki/people/otto]] along.
 3. **One false positive, excluded.** A 2025-06-08 message about *"my buddy in
    Pittsburgh Derrick"* is a person, not the street, and is not counted in the
    forty-five.
+
+---
+
+**Up:** [[wiki/places/index|Places]]

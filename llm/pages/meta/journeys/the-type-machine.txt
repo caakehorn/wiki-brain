@@ -105,3 +105,7 @@ explaining Dan's own conduct toward her.
 **Gaps:** this journey states no new date, figure or typology result — every
 claim above already lives on one of its five stops. What it adds is the
 sequence, which none of the five pages states end to end on its own.
+
+---
+
+**Up:** [[wiki/meta/index|Meta]] › [[wiki/meta/journeys/index|Journeys]]

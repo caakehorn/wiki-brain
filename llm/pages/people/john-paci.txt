@@ -237,3 +237,7 @@ their attribution to him rests on the card alone [UNRESOLVED]. The
 `first_contact: 2019-02-01` in the infobox predates the earliest recovered
 Paci-thread row (2024-03-04) by five years and comes from the lease date,
 not from correspondence.
+
+---
+
+**Up:** [[wiki/people/index|People]]

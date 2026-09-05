@@ -41,3 +41,7 @@ The full per-contact export (filed 2026-07-20, superseding the earlier 28-messag
 ## Gaps
 
 "Uncle Dave" and "Matt Ross" are new, unconfirmed leads — neither has any other reference elsewhere in the corpus read so far.
+
+---
+
+**Up:** [[wiki/people/index|People]]

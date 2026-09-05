@@ -134,3 +134,7 @@ own attendance window.
 | Date range | 2017-05-08 to 2025-08-15 |
 | Direction | **132 Sent / 103 Received** — corrected 2026-09-04 |
 | Handle | +14137703708 |
+
+---
+
+**Up:** [[wiki/people/index|People]]

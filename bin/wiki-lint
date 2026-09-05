@@ -619,6 +619,36 @@ for p, n in sorted(inbound.items()):
        and p.count("/") > 1 and not p.endswith("lint-report.md"):
         warnings.append(f"{p}: orphan — no inbound wikilinks")
 
+# ONE-WAY DOORS. `STYLE_GUIDE.md` requires every non-index page to be reachable
+# FROM its domain index, and the orphan check above enforces exactly that
+# sentence. Nothing checked the other direction until 2026-09-05, and the corpus
+# went the way the rule was written: **453 of 497 pages never linked their own
+# index**, every one of the 168 people pages among them. A reader arriving from
+# search or from the portal's front page landed and had nowhere to go.
+#
+# WARNING rather than error: a new page is written before its footer is
+# generated, and blocking that commit would buy nothing. `bin/wiki-crosslink
+# breadcrumb --apply` is the fix and it is idempotent.
+for p in sorted(page_slugs):
+    if (os.path.basename(p) == "index" or is_generated(p + ".md")
+            or "/contacts/" in p or p.count("/") < 2):
+        continue
+    chain, d = [], os.path.dirname(p)
+    while d and d != "wiki":
+        for cand in (d + "/index", d):
+            if cand in page_slugs and cand != p:
+                chain.append(cand)
+                break
+        d = os.path.dirname(d)
+    if not chain:
+        continue
+    body = open(os.path.join(ROOT, p + ".md"), encoding="utf-8",
+                errors="replace").read()
+    if chain[0] not in set(re.findall(r"\[\[(wiki/[a-z0-9\-/]+)", body)):
+        warnings.append(
+            f"{p}.md: never links [[{chain[0]}]], the index above it — a "
+            f"one-way door. Run `bin/wiki-crosslink breadcrumb --apply`")
+
 # master index budget
 mi = os.path.join(ROOT, "index.md")
 if os.path.exists(mi) and os.path.getsize(mi) > MASTER_INDEX_BUDGET:

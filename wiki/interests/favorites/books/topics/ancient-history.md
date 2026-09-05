@@ -15,3 +15,7 @@ related: ["wiki/interests/favorites/books", "wiki/self/context-core"]
 
 ## Reflection
 Interest in foundational power dynamics, empires, and leaders (Caesar, Plutarch). Provides long-view context for modern politics.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/books|Books]]

@@ -969,3 +969,7 @@ an attribution is.
   tenth failed severance rather than the last. Note that the bar is *not* a
   message after the declared block at 15:07: that already happened inside the
   record, and Dan answered it.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

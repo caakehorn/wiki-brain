@@ -117,3 +117,7 @@ years, where it is sometimes loosely attributed.
 what prompted the specific choice of the Upper East Side over staying
 in Brooklyn; the immediate circumstances of the April 2013 decision to
 leave New York entirely rather than relocate again within the city.
+
+---
+
+**Up:** [[wiki/places/index|Places]]

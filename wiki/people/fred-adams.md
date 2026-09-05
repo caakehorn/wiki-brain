@@ -244,3 +244,7 @@ missing document for this page**: it would date the death, name the signing
 judge, and say whether the distribution's timing had anything to do with either. Whether he was the executor in the formal legal sense the
 operator uses, or the trustee of a separate instrument, is not distinguished
 anywhere — the two roles are used interchangeably in every telling.
+
+---
+
+**Up:** [[wiki/people/index|People]]

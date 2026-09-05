@@ -289,3 +289,7 @@ Locating the originals is an open collection task.
 > Her later zero-notice firing was from that separate location ("the
 > restaurants ran totally differently and with different people"), not
 > from the Midtown shed.
+
+---
+
+**Up:** [[wiki/work/index|Work]]

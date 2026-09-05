@@ -69,3 +69,7 @@ Golf's role in the Annie relationship doesn't end with how they met — it recur
 ## Gaps
 
 No childhood or junior-golf origin story is documented — the corpus picks the sport up already in progress by the time messaging begins in 2015, and it's unclear whether Dan played growing up or took it up as an adult alongside the family's country-club world. Exact handicap, if he ever calculated one formally, is not recorded. Whether he golfed at all between the 2019 end of the caddying job and the 2020 Instagram/nostalgia references, or after 2020, is not documented in detail — 2025's only golf reference (a "GOLF themed YouTube channel" he watches, and a self-deprecating story about avoiding polo shirts since being told he "dressed like a golfer's little brother") suggests the interest persisted as media consumption and self-image even without confirmed active play.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]]

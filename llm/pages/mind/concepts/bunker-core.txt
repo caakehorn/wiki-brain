@@ -133,3 +133,7 @@ the six, or for the Fortress Protocol formatting system, beyond this one
 `[MEM]`-tagged list. Any third-party involvement, collaborators, or public
 release beyond the Gumroad toolkit; whether the project is still active
 past its 2026 documentation window.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

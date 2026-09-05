@@ -297,3 +297,7 @@ the Weidrick rose follows about ten weeks later.
 ## Related
 
 [[wiki/self/ancestry]] · [[wiki/interests/favorites/music]] · [[wiki/interests/favorites/music/artists/kanye-west]] · [[wiki/interests/music/concepts/lyrics-as-timbre]] · [[wiki/people/annie-ulmer]] · [[wiki/people/tom]] · [[wiki/people/emaly-minerd]] · [[wiki/people/kristin]]
+
+---
+
+**Up:** [[wiki/self/index|Self]]

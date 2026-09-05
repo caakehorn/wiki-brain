@@ -342,3 +342,6 @@ represents a genuine shift in preference, a reaction to the [[wiki/people/eli|El
 betrayal's timing, or simply what that particular partner required is not
 established anywhere in the corpus.
 
+---
+
+**Up:** [[wiki/mind/index|Mind]] › [[wiki/mind/psychosexual/index|Psychosexual]]

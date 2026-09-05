@@ -252,3 +252,7 @@ The LLM landscape is evolving rapidly. Dan's strategy is to build systems that a
 **Prediction 4: The wiki-brain as cognitive partner.** As the altitude ladder grows, the wiki-brain will become a genuine cognitive partner — not just a repository of facts, but a system that can reason about Dan's life in real time. The CLIMB operation will produce doctrine pages that are genuinely predictive, not just descriptive.
 
 **What would falsify these predictions:** a model that refuses to load the bootloader. A guardrail that cannot be overridden by the honesty standard. A context window that cannot hold even a single page. A confabulation so severe that the source-tiering discipline cannot catch it. Any of these would force a redesign of the system.
+
+---
+
+**Up:** [[wiki/self/index|Self]]

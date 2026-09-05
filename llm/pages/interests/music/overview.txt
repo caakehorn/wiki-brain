@@ -269,3 +269,7 @@ retrieval.
 - [[wiki/self/context-core]] (biographical spine with alias timeline)
 
 The lineage documented here is one facet — the professional mode — of a broader claim: that music is a primary, life-spanning structure of self, argued as the four-mode thesis at [[wiki/mind/synthesis/music-as-identity]].
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/music/index|Music]]

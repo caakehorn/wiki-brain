@@ -38,3 +38,7 @@ Shed era.
 > Felipe is Shed-era-only.
 
 **Gaps:** surname (unknown to Dan); his tenure dates at the restaurant.
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -34,3 +34,7 @@ Four books at this density signals something beyond casual interest in Roman aes
 ## Note on the 5-Star
 
 Among ancient history authors, Goldsworthy is the only one at 5 stars. The Caesar biography earns it not through hagiography but through the precise, almost surgical way it separates the man from the myth — a method that maps cleanly onto Dan's default forensic mode.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/books|Books]]

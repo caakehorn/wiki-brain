@@ -391,3 +391,7 @@ worth-verdict, not a graded self-assessment, is what such a misfiling
 actually invokes. **What it did not do:** manufacture a mechanism for
 registers 3-11, which are either already this page's own base or
 genuinely do not bear on a claim about ancestral geography.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

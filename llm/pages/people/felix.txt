@@ -33,3 +33,7 @@ Employee of ([[wiki/people/john-carney|John Carney]])[wiki/people/john-carney] M
 [[wiki/people/alexander-jackson]]
 [[wiki/timeline/periods/2025-collapse]]
 [[wiki/mind/synthesis/vertical-authority-skepticism]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

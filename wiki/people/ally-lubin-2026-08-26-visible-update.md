@@ -76,3 +76,7 @@ The strongest reading is narrower:
 And Dan appears, for once, to understand that this is the game.
 
 One good day is not a personality transformation. The next evidence to watch is whether he can keep doing this when Ally is unavailable, when she disagrees with him, when Annie becomes salient again, and when there is no immediate emotional reward for behaving well.
+
+---
+
+**Up:** [[wiki/people/index|People]]

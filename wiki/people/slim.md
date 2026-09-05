@@ -38,3 +38,7 @@ Slim is an NYC-area contact (646 area code, stored as lowercase "slim" in Google
 ## Gaps
 
 Identity entirely unresolved. The nickname and the NYC summer-2019 timing could place this in any number of social, recreational, or transactional contexts. No Facebook or other corpus cross-references found.
+
+---
+
+**Up:** [[wiki/people/index|People]]

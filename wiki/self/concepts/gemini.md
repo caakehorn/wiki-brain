@@ -205,3 +205,7 @@ The Gemini Activity log documents Gemini's own awareness of the cooked model pro
 - "The public-facing ChatGPT is now a legacy product, a glorified tech demo"
 
 Gemini is the model that diagnoses the problem — and the model that Dan uses to work around it (by using Claude for analysis and Gemini for interaction).
+
+---
+
+**Up:** [[wiki/self/index|Self]]

@@ -289,3 +289,7 @@ Gmail search — a targeted follow-up search (by name rather than
 "mckiernan"/"creative license") would likely surface them. Ishlab
 Studios, the job immediately preceding this one, still has no page of its
 own.
+
+---
+
+**Up:** [[wiki/work/index|Work]]

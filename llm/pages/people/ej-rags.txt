@@ -70,3 +70,7 @@ the corpus.
 
 **Gaps:** no contact after July 2013; Ej's connection to the wider
 Uniontown or NYC social circle is otherwise undocumented.
+
+---
+
+**Up:** [[wiki/people/index|People]]

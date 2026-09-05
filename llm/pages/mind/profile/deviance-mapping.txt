@@ -200,3 +200,7 @@ rest of "a living edge case… pushed to the absolute limits of its design
 parameters" is an instrument reasoning about its own commissioner, which is the
 problem [[wiki/mind/synthesis/the-commissioned-self]] holds and which the
 seventeen-appearances-in-106,629-messages figure prices exactly.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]] › [[wiki/mind/profile/index|Profile]]

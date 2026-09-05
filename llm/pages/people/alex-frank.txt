@@ -112,3 +112,7 @@ week — which is more than this page held before.
 
 **What would settle it:** the Ancestry tree already cited here naming an Alex,
 or a contacts export resolving `@alexgfrank`. Neither is in `raw/` today.
+
+---
+
+**Up:** [[wiki/people/index|People]]

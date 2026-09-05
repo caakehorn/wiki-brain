@@ -50,3 +50,7 @@ says he requires ([[wiki/mind/synthesis/vertical-authority-skepticism]]).
 **Gaps:** no repository links, playable URLs, or screenshots in raw/;
 development dates per game unknown; whether any were finished or shipped
 is undocumented.
+
+---
+
+**Up:** [[wiki/work/index|Work]] › [[wiki/work/tech/index|Tech]]

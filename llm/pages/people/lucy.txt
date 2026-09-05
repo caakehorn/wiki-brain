@@ -53,3 +53,7 @@ goodbye to her in the back seat?"
 date of the Cheat Lake trip are all unrecorded. Whether the euthanasia
 decision was medical as well as logistical is not stated anywhere — the only
 account is the one-sentence explanation above.
+
+---
+
+**Up:** [[wiki/people/index|People]]

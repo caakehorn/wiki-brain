@@ -328,3 +328,7 @@ funeral, still a pair, still present tense.
 - **Any direct exchange.** She still sends and receives no message in the
   corpus, has no phone handle and no photograph. Every word about her is
   someone else's.
+
+---
+
+**Up:** [[wiki/people/index|People]]

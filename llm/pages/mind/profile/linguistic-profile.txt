@@ -242,3 +242,7 @@ See [[wiki/mind/profile/voice-modes]] for the emotional-state layer on top
 of this baseline — eight distinct modes (Neutral, Playful, Affectionate,
 Irritated, Persuasive, Storytelling, Stressed, Reflective) that each
 amplify and suppress specific mechanics documented here.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]] › [[wiki/mind/profile/index|Profile]]

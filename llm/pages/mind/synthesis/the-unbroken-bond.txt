@@ -611,3 +611,6 @@ point the corpus has supplied evidence they can diverge.
 > no date in the relationship's ~10.5-year span and no claim this page's
 > continuity argument draws on. Nothing here needed revising.
 
+---
+
+**Up:** [[wiki/mind/index|Mind]]

@@ -333,3 +333,7 @@ issued statements**, which is what Dan's last coherent messages of the
 relationship do at 15:13:45. Whether that is sufficient to generate a
 counter-rule is the open question that page states as a dated falsifier rather
 than settling.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

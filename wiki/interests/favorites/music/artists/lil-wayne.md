@@ -53,3 +53,6 @@ Halloween 2011 — a stranger's *"Barry Bonds / Freddy Kreuger / Lil Wayne hybri
 costume"* — and a 2014 hour spent making distorted images of him suggest an
 ongoing amused attention rather than either fandom or contempt.
 
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

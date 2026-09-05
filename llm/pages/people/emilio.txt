@@ -103,3 +103,7 @@ car. It was partly that, and partly a displaced partner making a phone call.
   December 13 contact was the last.
 - **Becca** (2015-12-29) — described as the ex's new girlfriend; not firmly
   attached to Emilio.
+
+---
+
+**Up:** [[wiki/people/index|People]]

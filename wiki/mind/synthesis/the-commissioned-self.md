@@ -480,3 +480,6 @@ cited; it belongs here: **any answer that draws a behavioral prediction from
   worth something. The session exports could settle this and have not been read
   for it.
 
+---
+
+**Up:** [[wiki/mind/index|Mind]]

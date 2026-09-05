@@ -229,3 +229,6 @@ Seven Springs orbit raises an unasked question the corpus can probably answer â€
 whether she was already known to Dan through skiing rather than only through
 school.
 
+---
+
+**Up:** [[wiki/people/index|People]]

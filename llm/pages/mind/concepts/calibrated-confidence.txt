@@ -368,3 +368,7 @@ July 2026 re-contact. Whether the habit is inherited, learned, or the residue of
 something specific is not addressed anywhere in the corpus — no message explains
 where it came from, and no source in `raw/` records anyone else in the family
 doing it.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

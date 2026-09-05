@@ -166,3 +166,7 @@ writing, exactly how he wants to be seen and argued with.
 how often the bootloaders are actually loaded (versus maintained) is
 undocumented; MAX's full spec lives in its own raw sources and is thinner in
 the corpus than CATO's.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

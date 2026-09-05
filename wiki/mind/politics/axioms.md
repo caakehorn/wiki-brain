@@ -272,3 +272,7 @@ two constitutional orders failing; a want-to-read queue with nine "fall"s and no
 title about anything being built; Oppenheimer, Fred Hampton, John Brown, Travis
 Bickle. **There is no figure in the corpus who was right and won and kept it.**
 See [[wiki/mind/synthesis/the-cato-seat]].
+
+---
+
+**Up:** [[wiki/mind/index|Mind]] › [[wiki/mind/politics/index|Politics]]

@@ -35,3 +35,7 @@ The draw here isn't that Carlin is the most rigorous historian — he'd be the f
 ## Format Note
 
 The Hardcore History podcast versions of these episodes predate the books and run considerably longer. The books are essentially transcripts refined for the page. The podcast is likely the more familiar format here — the books are the physical artifact of something first encountered as audio.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/books|Books]]

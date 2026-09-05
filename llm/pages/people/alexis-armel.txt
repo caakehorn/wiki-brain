@@ -956,3 +956,7 @@ and months-long concealment (2014 here, late-2014/early-2015 on
 [[wiki/legal/2015-possession-arrest]] and [[wiki/places/155-virginia-ave]])
 is unresolved — see the note under [The hidden year
 (2014)](#the-hidden-year-2014).
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -1598,7 +1598,8 @@ def cmd_check(argv):
     return 0
 
 
-USAGE = """usage: wiki-crosslink <entities|coverage|handles|counts|scan|unlinked|reciprocal|orphaned|check> [args]
+USAGE = """usage: wiki-crosslink <entities|coverage|handles|counts|scan|unlinked|breadcrumb|
+                       reciprocal|orphaned|check> [args]
 
   entities [filter]          the strings a scan can look for
   entities --missing         pages with no aliases: — the index's blind spot
@@ -1627,6 +1628,12 @@ USAGE = """usage: wiki-crosslink <entities|coverage|handles|counts|scan|unlinked
                              than one owning page, and a phrase said by more
                              than 20 pages; never writes into a quotation, a
                              heading, code, or an existing link
+  breadcrumb [page …]        pages that never link the index above them — the
+                             other half of STYLE_GUIDE's reachability rule,
+                             which only ever said "reachable FROM"
+       [--apply]             write the **Up:** footer (ancestor chain, plus
+                             previous/next where the siblings are a numeric
+                             run). Idempotent; rerun rather than hand-editing
   coverage [prefix]          which readable corpora name a page, and how often
                              — the triage step, run this before scanning
        [--silent]            invert it: pages no corpus names, and which of
@@ -1975,6 +1982,131 @@ def cmd_unlinked(argv):
     return 0
 
 
+# --------------------------------------------------------------- breadcrumb
+
+FOOTER_RE = re.compile(r"\n*\n---\n\n\*\*Up:\*\*[^\n]*\n*\Z")
+YEARISH_RE = re.compile(r"^(\d{4})$")
+
+
+def ancestry(slug, pages):
+    """The chain of index pages above a page, nearest last.
+
+    An "index" here is whichever of `<dir>/index` or `<dir>` exists as a page —
+    the corpus uses both shapes (`wiki/people/index.md` and `wiki/self/twitter.md`
+    are each the parent of their directory) and a reader does not care which.
+    """
+    out, d = [], os.path.dirname(slug)
+    while d and d != "wiki":
+        for cand in (d + "/index", d):
+            if cand in pages and cand != slug:
+                out.append(cand)
+                break
+        d = os.path.dirname(d)
+    return list(reversed(out))
+
+
+def crumb_label(idx_slug):
+    """The section's name, from its directory rather than its own title.
+
+    Most index pages here are titled `index`, and the few that are not are
+    titled for the page (`Twitter / X Activity (@danfrank)`) rather than for the
+    slot. A breadcrumb wants the slot.
+    """
+    d = os.path.dirname(idx_slug) if idx_slug.endswith("/index") else idx_slug
+    return os.path.basename(d).replace("-", " ").title()
+
+
+def sequence_neighbours(slug, pages):
+    """Previous and next, only where the siblings are a numeric run.
+
+    Deliberately narrow: `wiki/self/twitter/2013` sits in a sequence a reader
+    walks, `wiki/people/jerel-coles` does not. Alphabetical order is not a
+    sequence and pretending it is invents a reading path nobody chose.
+    """
+    base = os.path.basename(slug)
+    if not YEARISH_RE.match(base):
+        return None, None
+    d = os.path.dirname(slug)
+    sibs = sorted(int(os.path.basename(s)) for s in pages
+                  if os.path.dirname(s) == d and YEARISH_RE.match(os.path.basename(s)))
+    n = int(base)
+    i = sibs.index(n)
+    prev = "%s/%d" % (d, sibs[i - 1]) if i > 0 else None
+    nxt = "%s/%d" % (d, sibs[i + 1]) if i + 1 < len(sibs) else None
+    return prev, nxt
+
+
+def footer_for(slug, pages):
+    chain = ancestry(slug, pages)
+    if not chain:
+        return None
+    parts = ["**Up:** " + " › ".join(
+        "[[%s|%s]]" % (c, crumb_label(c)) for c in chain)]
+    prev, nxt = sequence_neighbours(slug, pages)
+    if prev:
+        parts.append("**Previous:** [[%s|%s]]" % (prev, os.path.basename(prev)))
+    if nxt:
+        parts.append("**Next:** [[%s|%s]]" % (nxt, os.path.basename(nxt)))
+    return "\n\n---\n\n" + " · ".join(parts) + "\n"
+
+
+def needs_breadcrumb(slug, txt, pages, slugs):
+    """A page a parent index links to, that offers the reader no way back.
+
+    `STYLE_GUIDE.md` requires every non-index page to be **reachable from** its
+    domain index, and `bin/wiki-lint`'s orphan check enforces exactly that.
+    Nothing states or checks the other direction, and the corpus went the way
+    the rule was written: measured 2026-09-05, **453 of 497 pages never link
+    their own index** — every one of the 168 people pages among them. A reader
+    arriving from search, or from the portal's front page, lands and stops.
+
+    The test is "does this page link the nearest index above it", not "does that
+    index link back to this page". The second is narrower by 53 pages and
+    narrower in the wrong direction: a page its own index does not list is more
+    stranded than one it does, not less.
+    """
+    if os.path.basename(slug) == "index" or is_generated_slug(slug):
+        return False
+    _fm, body = split_fm(txt)
+    if FOOTER_RE.search(body):
+        return False
+    chain = ancestry(slug, slugs)
+    if not chain:
+        return False
+    return chain[-1] not in set(WIKILINK_RE.findall(body))
+
+
+def cmd_breadcrumb(argv):
+    """Give every page linked from an index a way back to it."""
+    do_apply = "--apply" in argv
+    named = [a[:-3] if a.endswith(".md") else a
+             for a in argv if not a.startswith("-")]
+    pages = load_pages()
+    slugs = {p[:-3] for p in pages}
+    targets = named or sorted(slugs)
+
+    n = 0
+    for slug in targets:
+        if slug + ".md" not in pages:
+            print("no such page: %s" % slug, file=sys.stderr)
+            return 1
+        txt = pages[slug + ".md"]
+        if not needs_breadcrumb(slug, txt, pages, slugs):
+            continue
+        n += 1
+        foot = footer_for(slug, slugs)
+        if not do_apply:
+            print("%-58s %s" % (slug, foot.strip().replace("\n", " ")))
+            continue
+        fm, body = split_fm(txt)
+        head = txt[:len(txt) - len(body)]
+        with open(slug + ".md", "w", encoding="utf-8") as fh:
+            fh.write(head + body.rstrip("\n") + foot)
+    print("\n%d page(s) %s" % (n, "given a way back" if do_apply
+                               else "linked from an index with no way back"))
+    return 0
+
+
 def main(argv):
     if not argv:
         print(USAGE)
@@ -1983,7 +2115,8 @@ def main(argv):
     fns = {"entities": cmd_entities, "scan": cmd_scan, "reciprocal": cmd_reciprocal,
            "orphaned": cmd_orphaned, "check": cmd_check, "coverage": cmd_coverage,
            "handles": cmd_handles, "counts": cmd_counts,
-           "unlinked": cmd_unlinked}
+           "unlinked": cmd_unlinked,
+           "breadcrumb": cmd_breadcrumb}
     if cmd not in fns:
         print(USAGE)
         return 1

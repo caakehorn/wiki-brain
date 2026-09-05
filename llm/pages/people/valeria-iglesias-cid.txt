@@ -175,3 +175,7 @@ learned of her" gap is now **partially closed**: the Nov 3, 2024 message
 shows Dan openly telling Annie about the re-contact (and that Annie had
 trained her) — but whether Annie ever learned of the 2021–22 *affair*
 itself remains undocumented.
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -262,3 +262,7 @@ Across the corpus, Annie's two handles dominate. This primary cut re-confirms th
 - Reply-latency uses the "next opposite-speaker message in the same thread" method. In high-burst threads this slightly over-states Dan's reply speed (he may send 10 then get 1 back) but the *order-of-magnitude* asymmetry is robust across every contact.
 - Phone handles are masked; identity of the non-Annie contacts (+133****8747 = a 2025 figure; +121****2449 = a 2025–26 figure) is inferred from volume timing and the wiki's existing people pages, not from unmasked data.
 - `LEVIATHAN_FULL_CORPUS.csv` lives in `/Volumes/MUSIC/PHASE B RAW/`, not yet filed under `raw/` — its on-disk path is cited directly above.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

@@ -45,3 +45,7 @@ No message after June 2020 appears in the corpus; whether contact continued past
 ## Related
 
 [[wiki/people/annie-ulmer]] · [[wiki/people/ellen-ulmer]] · [[wiki/timeline/events/fran-death-vigil]] · [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

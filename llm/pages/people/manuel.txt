@@ -50,3 +50,7 @@ Last name is not on file. A different, unrelated "Manuel" is referenced in passi
 ## Related
 
 [[wiki/work/au-zaatar]] · [[wiki/people/tarik-fallous]] · [[wiki/people/valeria-iglesias-cid]] · [[wiki/people/annie-ulmer]] · [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

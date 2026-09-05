@@ -610,3 +610,7 @@ better living" reading a bare dosage increase might otherwise invite.
   *out* of this network rather than into or around it — is recorded, but
   whether Dan made any similar attempt with any other node (before or
   after) is not on record.
+
+---
+
+**Up:** [[wiki/health/index|Health]]

@@ -117,3 +117,7 @@ done" covered (transport, moral support, or payment); why the channel
 goes quiet after October 2017 despite evident closeness (most likely
 answer: the relationship continued on a phone handle this export
 doesn't tie to the email).
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -59,3 +59,7 @@ lockdown-era radicalization the other page documents in more depth.
 
 **Gaps:** how Dan and Ryan knew each other in the first place; whether
 any contact occurred before or after this single exchange.
+
+---
+
+**Up:** [[wiki/people/index|People]]

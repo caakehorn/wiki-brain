@@ -25,3 +25,7 @@ Emphasizes data logging philosophy: node-style or table output, BUFFER STATUS, n
 **Cross-references:** [[wiki/self/chats/danfrank-isms-pinned]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/mind/concepts/forensic-method]], [[wiki/mind/synthesis/ai-collaborative-analysis]], [[wiki/mind/concepts/exocortex]].
 
 Full node/table extraction from the pinned chat will yield specific counts or behavioral data for wiki pages.
+
+---
+
+**Up:** [[wiki/self/index|Self]]

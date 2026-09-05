@@ -113,3 +113,7 @@ The haplogroup anomalies (maternal R0, paternal R-Z93) raise questions that neit
 - Two health predisposition results (Age-Related Macular Degeneration, Hereditary Thrombophilia) were not fully extracted from the PDF.
 - The Prostate Cancer (BRCA1/BRCA2) report is locked behind an incomplete questionnaire.
 - Inverse connections to this page from [[wiki/self/ancestry]], [[wiki/self/lineage/23andme-genomics]], and [[wiki/self/lineage/family-tree]] need to be added to those pages' frontmatter.
+
+---
+
+**Up:** [[wiki/self/index|Self]] › [[wiki/self/lineage/index|Lineage]]

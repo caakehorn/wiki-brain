@@ -207,3 +207,7 @@ immediately.
   window, not the day.
 - **The hitchhikers, the ropes course job, and 15 Holly Lane** are single-source
   details with no independent confirmation anywhere in `raw/`.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

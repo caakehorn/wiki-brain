@@ -172,3 +172,7 @@ identity. Both lines concentrate in Fayette County. Full genealogy and DNA:
 **Gaps:** the 2021–2022 corpus near-silence remains uncharacterized; where
 he lives after the 337 sale closes is unresolved; no sustained non-crisis
 baseline register exists anywhere in the record.
+
+---
+
+**Up:** [[wiki/self/index|Self]]

@@ -43,3 +43,7 @@ vocabulary are not present anywhere in the ingested raw corpus — this
 page records what's recalled but not independently source-verified;
 the content of the tribute letter; how or when contact with Ryan
 specifically ended.
+
+---
+
+**Up:** [[wiki/people/index|People]]

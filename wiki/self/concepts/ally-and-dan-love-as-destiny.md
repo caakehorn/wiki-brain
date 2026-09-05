@@ -365,3 +365,7 @@ Until one of those happens, the evidence points the way it has always pointed.
 *Alexandra — you asked, in 2019, how to make him love you again. The archive's
 answer, which took seven years and 1,987 messages to arrive at, is that there
 was never a moment when you had to.*
+
+---
+
+**Up:** [[wiki/self/index|Self]]

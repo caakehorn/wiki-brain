@@ -109,3 +109,7 @@ pivot itself, sent the same night, not a later retrospective account.
 **Cross-check:** Matches core residence Uniontown 155 Virginia from 2015. Message volume Annie dominant from genesis. FB messages parallel Annie thread. Ancestry tree confirms 1988 Uniontown birth + Fran/Suz local ties (cross [[wiki/self/ancestry]]). LIFE REPORT cognitive: analytical + emotional, loyalty/authenticity drivers active at genesis.
 
 **Related:** [[wiki/timeline/events/timeline]], [[wiki/timeline/periods/2017-poverty-floor]], [[wiki/people/annie-ulmer]], [[wiki/people/alexis-armel]], [[wiki/self/message-corpora/master-message-dump]], [[wiki/self/facebook/messages]], [[wiki/self/gemini-activity/gemini-activity]], [[wiki/self/ancestry]]
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

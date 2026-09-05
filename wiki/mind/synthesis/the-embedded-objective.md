@@ -474,3 +474,7 @@ inherited Impulsiveness dispute) that was previously invisible on this
 page. **What it did not do:** resolve the dispute, or manufacture
 connections to registers (age/upbringing, geographic culture, security) that
 genuinely do not bear on employment-tenure mechanics.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

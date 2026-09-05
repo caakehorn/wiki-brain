@@ -29,3 +29,7 @@ indication what "something" refers to.
 
 **Gaps:** no reply from Michael anywhere in the corpus; what "i found
 us something" refers to; how Dan and Michael know each other.
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -355,3 +355,6 @@ not Ellen. Do not collapse the two.
 - Lease holder and physical layout of 155 Virginia across the transition are undocumented (see [[wiki/places/155-virginia-ave]]).
 - The 768/day termination figure's source export is not on disk; the closure-day volume is therefore a known provenance gap, not a settled number.
 
+---
+
+**Up:** [[wiki/mind/index|Mind]]

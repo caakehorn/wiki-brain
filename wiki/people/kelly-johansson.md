@@ -59,3 +59,7 @@ Whether the scripted client session ever occurred beyond the corpus's window, an
 ## Related
 
 [[wiki/people/annie-ulmer]] · [[wiki/timeline/events/shelbie-annie-threesome-april-2019]] · [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

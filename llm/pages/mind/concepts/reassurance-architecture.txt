@@ -532,3 +532,7 @@ page's last Gap.
    for a sustained period. Either none exists, or nobody has looked for the
    negative space. Worth one deliberate search, because everything practical
    depends on the answer.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

@@ -291,3 +291,7 @@ records what happened to the contents — Fran held this house for fifty-seven
 years, and no inventory, no photograph and no account of its clearance exists
 anywhere in the corpus. The earlier failed listing likewise still rests
 entirely on Danny's four words, with no independent trace.
+
+---
+
+**Up:** [[wiki/places/index|Places]]

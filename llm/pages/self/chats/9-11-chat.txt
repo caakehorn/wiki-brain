@@ -39,3 +39,7 @@ Crosses core §7 political spine (conspiracy as aesthetic object + stress-test; 
 Further extraction from the MD file will populate specific anomalies table, Claude updates (if any), and ties to "Operation Wildfall" / Babbitt theory mentioned in [[wiki/mind/concepts/exocortex|operating manual]].
 
 **Sources:** raw/self/dox-md/___The 9_11 Chat*.md
+
+---
+
+**Up:** [[wiki/self/index|Self]]

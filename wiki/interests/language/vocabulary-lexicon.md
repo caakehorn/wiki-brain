@@ -477,3 +477,7 @@ but no behavioral claim about Dan is established here. The honest gap: the
 Battery was designed and never run; the "misclassification" thesis is the
 strongest candidate for promotion to a derived finding and the obvious next
 operation.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]]

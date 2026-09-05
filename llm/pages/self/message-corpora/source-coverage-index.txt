@@ -198,3 +198,7 @@ Row counts are physical records, not unique messages; the same message appears i
 ## Related
 
 [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/self/index|Self]]

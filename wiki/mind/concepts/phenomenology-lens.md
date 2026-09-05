@@ -83,3 +83,7 @@ The lens uses a few plain readings for complex behavior. Starving for affection 
 ## Relation to the Documented Behavioral Spine
 
 This lens adds value by providing generative metaphors for patterns that are already quantified in the raw sources, and it offers a coherent narrative frame for the architecture described across the raw profile documents. However, it must explicitly yield to the spine whenever a contradiction arises. Any claim within this lens that contradicts the hard counts, timelines, or primary records must be overridden by the empirical data in [[wiki/self/context-core]].
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

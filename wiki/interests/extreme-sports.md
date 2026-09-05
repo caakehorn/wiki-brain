@@ -76,3 +76,7 @@ The capture explicitly flags the Vans Skatepark trip sequence as a class-signali
 ## Corpus gaps
 
 No intake-digital record ([[wiki/self/youtube-watch-history|YouTube watch history]], social media posts) documents this era in the corpus — it predates the Twitter record (2009) and the iMessage record (2015). The reconstruction is built entirely from this one manual capture. Specific dating of the 2001–2003 Vans trips, the exact years of the Woodward attendance, and the 2006 terrain-park expansion at Seven Springs are not independently confirmed outside this source.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]]

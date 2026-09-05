@@ -159,3 +159,7 @@ verbatim; the originals remain retrievable from the cited Google Drive
 file IDs if byte-exact source is ever needed. No date is recoverable for
 when this project was built beyond the June 10, 2026 `__pycache__`
 timestamps; it is not referenced anywhere else in the corpus mined so far.
+
+---
+
+**Up:** [[wiki/work/index|Work]] › [[wiki/work/tech/index|Tech]]

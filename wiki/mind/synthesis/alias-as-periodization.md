@@ -263,3 +263,7 @@ cluster in the same years the corrected ledger now shows both mother and son at
 the floor simultaneously, which is consistent with this page's reading of alias
 turnover as period-marking rather than career strategy. Recorded as an
 observation, not a finding.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

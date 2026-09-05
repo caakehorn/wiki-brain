@@ -32,3 +32,7 @@ Exemplifies [[wiki/mind/synthesis/vertical-authority-skepticism]] and [[wiki/min
 **Cross-references:** [[wiki/self/chats/danfrank-isms-pinned]], [[wiki/self/chats/extract-messages-pinned]], [[wiki/people/max]], [[wiki/work/tech/max-framework/overview]], [[wiki/self/context-core]], [[wiki/mind/synthesis/vertical-authority-skepticism]], [[wiki/mind/concepts/forensic-method]], master message corpora, [[wiki/self/facebook]] (social graph), [[wiki/interests/favorites/index]] (cultural taste).
 
 **Notes:** Explicit joke framing ("your sister... omg is she fucking hot"); thread deconstructs "Olsen" monolith / 90s-00s hegemony. No real-life Mary-Kate contact documented in reviewed raw. Expand only on pinned source + persona usage. Limited corpus; archived status appropriate.
+
+---
+
+**Up:** [[wiki/people/index|People]]

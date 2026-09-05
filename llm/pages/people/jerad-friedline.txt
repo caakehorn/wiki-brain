@@ -120,3 +120,7 @@ The **Roe repeal prediction** attributed to Jerad in CONTEXT_CORE_EXPANDED.md (Â
 > `connections:` entry cross-referencing the new
 > [[wiki/mind/profile/neurodivergence]] page. Nothing here is downstream of
 > it.
+
+---
+
+**Up:** [[wiki/people/index|People]]

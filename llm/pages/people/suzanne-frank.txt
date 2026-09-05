@@ -1163,3 +1163,7 @@ Each of these is answerable by one person in one paragraph.
   FL court records, searchable by address, are the next step.
 - **Why the thread collapsed in July 2026** from ~300 messages a month to 14,
   while Dan's overall message volume stayed normal.
+
+---
+
+**Up:** [[wiki/people/index|People]]

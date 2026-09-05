@@ -69,3 +69,7 @@ notarization was ever discussed between them again, is unrecorded.
 instruction from McKiernan without independent verification is unresolved
 — the corpus has Dan's accusation but not her side. Her life or career
 after leaving Creative License in January 2015 is undocumented.
+
+---
+
+**Up:** [[wiki/people/index|People]]

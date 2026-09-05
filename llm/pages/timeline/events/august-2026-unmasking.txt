@@ -276,3 +276,7 @@ receipts were toggled off or the thread simply left unopened at ~02:25 is
 explicitly undetermined (see above). A baseline read-latency profile from prior
 weeks, needed to say whether the median-0s window is itself unusual, has not
 been run.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

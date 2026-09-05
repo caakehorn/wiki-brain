@@ -352,3 +352,7 @@ The evidence weakly suggests a 6-2-9 trifix for Suz:
 2. **Non-crisis periods:** The corpus is heavily weighted toward financial crisis. More data from stable periods would strengthen the assessment.
 3. **Additional conversational partners:** More data from Suz's interactions with people other than Dan (her mother, her sister, her coworkers) would provide additional evidence.
 4. **Longitudinal analysis:** As new messages enter the corpus, the assessment should be re-evaluated to determine whether the type holds across time and context.
+
+---
+
+**Up:** [[wiki/people/index|People]]

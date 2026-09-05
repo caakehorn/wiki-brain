@@ -72,3 +72,7 @@ and Harry Potter enthusiasm — and the two discuss a trip to Morgantown.
 **Gaps:** last name and how Dan and Aaron know each other; no messages
 before August 2025 or after September 13; the final message (a bare
 "?") is unanswered in the corpus.
+
+---
+
+**Up:** [[wiki/people/index|People]]

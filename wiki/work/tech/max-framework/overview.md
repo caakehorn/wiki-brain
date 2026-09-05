@@ -172,3 +172,7 @@ the right caution to raise; the corpus has since closed it.
   `CATO_conflict_architecture.md` are cited as sources but a dedicated pass
   reading them to exhaustion, the way this page now does for MAX_PRIME,
   has not been run.
+
+---
+
+**Up:** [[wiki/work/index|Work]] › [[wiki/work/tech/index|Tech]]

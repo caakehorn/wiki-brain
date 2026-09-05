@@ -55,3 +55,7 @@ Whether Dan ever paid for the portrait, and whether the friendship survived the 
 ## Related
 
 [[wiki/people/annie-ulmer]] · [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/people/index|People]]
