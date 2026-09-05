@@ -1,0 +1,57 @@
+LANGUAGE ↔ PERSONALITY SYNTHESIS
+
+The personal-language layer should be read as an interface between the measured linguistic profile and the personality stack. The important conclusion is not simply unusual vocabulary. Language functions as semantic compression, social routing, aesthetic identity, emotional regulation, forensic analysis, and an API for the externalized cognitive system.
+
+CORE SYNTHESIS
+
+1. Semantic compression: custom handles such as `cognitive prosthetic`, `epistemic crisis`, and `Iterative Symbolic Architect` compress complex recurring models into reusable addresses. This fits Ti's preference for internally coherent systems.
+
+2. Ti / executable ontology: system, architecture, OS, firmware, forensic, ontology, psyop, ritual, daemon, and related registers are not merely decorative. They provide a native representational vocabulary for turning experiences into objects that can be named, decomposed, compared, and recursively audited.
+
+3. Ne / cross-domain recombination: the language repeatedly forces together domains that normally remain separate: forensic procedure + flirtation; institutional prestige + insult; catastrophe + praise; archaic dignity + profanity; technical ontology + confession. Semantic collision creates humor and texture.
+
+4. 5w4 / rarity as identity: obscure references, exact distinctions, unusual terms, and custom phrases can communicate information while also marking intellectual/aesthetic identity. A generic synonym can preserve denotation while destroying conceptual texture or identity signal.
+
+5. Big30 / narrow social channel, broad cognitive channel: Intellect 95, Liberalism 91, Introspection 87, Artistic Interests 81 and Self-Consciousness 91 coexist with Sociability 3, Assertiveness 5, Trust 9, Altruism 1 and Submissiveness 1. This is consistent with a language system optimized for high-bandwidth interaction within a small set of vetted channels rather than broad social lubrication.
+
+6. Self-Consciousness / audience instrumentation: the linguistic profile documents audience-based code-switching. Romantic and platonic channels use distinct vocabulary; profanity, capitalization, and commands change meaning by recipient and context. The social system is not absent; it is selective, explicit, and highly monitored.
+
+7. Fe-inferior / affection through machinery: intellectualized affection uses the machinery of science, bureaucracy, law, adjudication, or forensic analysis to deliver tenderness. Terms like `my beloved little epistemic crisis`, `my beautiful anomaly`, and `my favorite unresolved philosophical problem` demonstrate a mechanism in which analytical form carries emotional payload.
+
+8. Forensic intimacy: clinical detachment and personal confession are not separate personas. The same high-precision representational system is repurposed across analysis, conflict, affection, humor, insults, and AI interaction. The register changes less than the object.
+
+9. Positive slang and insult architecture are structurally related. Positive language often uses EXCEPTIONALITY + VIOLATION: praise by describing something as dangerous, criminal, feral, nuclear, obscene, etc. Insults often use DIGNIFIED STRUCTURE + DEVASTATING PAYLOAD. Both exploit semantic incongruity.
+
+10. Profanity is voltage, not necessarily lack of control. It often functions as an intensifier and register switch. The correct agent behavior is calibrated profanity: preserve it when it carries emotional force; do not add it mechanically for imitation.
+
+11. Exocortex API: a private phrase can become term → definition → provenance → examples → related concepts → agent instruction. The Wiki Brain therefore stores not only facts but the handles by which internal models can be addressed. Provenance prevents the system from rewriting its own linguistic history.
+
+AGENT RULES
+
+- Use established concept handles when they genuinely fit.
+- Preserve exact named terminology.
+- Recognize when a phrase carries conceptual load beyond its literal meaning.
+- Distinguish emotional mode from audience register.
+- Use technical metaphor when it increases precision rather than merely sounding clever.
+- Allow elevated diction and profanity to coexist.
+- Treat intellectualized affection as potentially sincere rather than automatically detached.
+- Preserve unusual names, invented terminology, and jargon in speech-to-text.
+- Record provenance when introducing reusable vocabulary.
+- Prefer a precise unusual word over a generic synonym when the distinction matters.
+- Do not flatten the profile into 'smart person who swears.'
+- Do not manufacture weirdness merely to imitate surface style.
+- Do not infer social confidence from verbal complexity.
+- Do not treat analytical phrasing as absence of emotion.
+- Do not attribute model-generated language to Dan without evidence.
+
+PROVENANCE BOUNDARY
+
+This is cross-page synthesis, not a new personality test. Personality instruments are self-administered or AI-inferred and have the limitations documented on the profile hub. The linguistic profile contains measured findings plus interpretive layers, and some stylometric headline claims have been corrected. The custom lexicon contains selected language that was not necessarily observed in outbound messages. Claims that language 'fits Ti,' 'resembles 5w4,' or 'explains Fe' are interpretive synthesis, not measured causal findings.
+
+STRONGEST MODEL
+
+PERSONALITY → LANGUAGE → EXOCORTEX
+
+Personality architecture generates a characteristic representational style. Repeated representation creates a linguistic fingerprint. Conscious naming turns recurring structures into concept handles. The Wiki Brain stores those handles with provenance. Future agents can then address the same conceptual machinery without reconstructing it from scratch.
+
+This is therefore best understood as a persistent, versioned interface to a particular cognitive architecture—not merely a personalized chatbot voice.
