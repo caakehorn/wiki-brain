@@ -23,14 +23,19 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-05 — 4 pages
+## 2026-09-05 — 9 pages
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/interests/language/personal-lexicon]] | interests | _(carries a CONTRADICTION)_ |
+| [[wiki/interests/language/vocabulary-lexicon]] | interests | — |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
 | [[wiki/meta/testimony-veracity]] | meta | — |
+| [[wiki/mind/profile/lexicon]] | mind | — |
+| [[wiki/mind/profile/voice-modes]] | mind | _(carries a CONTRADICTION)_ |
+| [[wiki/people/ally-lubin]] | people | _(carries a CORRECTED from 2026-08-22)_ |
 
 ## 2026-09-04 — 104 pages
 
@@ -225,15 +230,14 @@ simply listed.
 | [[wiki/mind/synthesis/the-serial-monogamist]] | mind | — |
 | [[wiki/people/zach-clingan]] | people | **GAP CLOSED** — The 2014 "drug people" taxonomy and the December 2015 "my arch rival" outburst (below) both assume a rupture the corpus had never actually recorded. A 2026-08-27 operator capture (`raw/people/captures |
 
-## 2026-08-27 — 3 pages
+## 2026-08-27 — 2 pages
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/interests/language/vocabulary-lexicon]] | interests | — |
 | [[wiki/mind/profile/linguistic-profile]] | mind | **GAP CLOSED** — the operator volunteered the full "words for stupid" list against this page. It was not a gap this page had stated — unprompted material, staged here for the ingest to place. Placed here, in Lexical f |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 
-## 2026-08-26 — 44 pages
+## 2026-08-26 — 41 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -254,15 +258,12 @@ simply listed.
 | [[wiki/mind/profile/enneagram-5w4]] | mind | _(carries a CONTRADICTION from 2026-08-19)_ |
 | [[wiki/mind/profile/index]] | mind | — |
 | [[wiki/mind/profile/intp]] | mind | — |
-| [[wiki/mind/profile/lexicon]] | mind | — |
 | [[wiki/mind/profile/neurodivergence]] | mind | — |
-| [[wiki/mind/profile/voice-modes]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/mind/psychosexual/arrangement-history]] | mind | _(carries a CORRECTED from 2026-08-20)_ |
 | [[wiki/mind/synthesis/ai-collaborative-analysis]] | mind | — |
 | [[wiki/mind/synthesis/closing-the-set]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
 | [[wiki/mind/synthesis/political-psyops]] | mind | — |
 | [[wiki/mind/synthesis/the-cato-seat]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
-| [[wiki/people/ally-lubin]] | people | _(carries a CORRECTED from 2026-08-22)_ |
 | [[wiki/people/annie-ulmer-personality-assessment]] | people | _(carries a RE-CHECKED from 2026-08-23)_ |
 | [[wiki/people/bekah-fullem]] | people | — |
 | [[wiki/people/fran-coldren]] | people | _(carries a CONTRADICTION from 2026-08-02)_ |

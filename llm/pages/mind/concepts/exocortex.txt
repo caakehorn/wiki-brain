@@ -73,6 +73,9 @@ connections:
   - page: wiki/mind/concepts/bunker-core
     type: instantiates
     claim: "Cognitive Foundry — a four-phase Claude-API app for generating 'cognitive prosthetics' — is the exocortex metaphor built as standalone software rather than deployed as a pasteable session config, the clearest case of it becoming a literal build target."
+  - page: wiki/interests/language/personal-lexicon
+    type: contains
+    claim: "The vocabulary the exocortex is named in is itself evidence about it: the corpus holds six competing names for what an AI is to Dan — recursive cognitive prosthetic, emotional metabolizer, taboo-mining, co-processor, daemon mirror, emotional debugger, ideation engine — four of them prosthetic metaphors and two diagnostic ones, and his own custom-instructions field stacks three in a single sentence, so the naming does not distinguish a tool that extends him from a tool that inspects him."
 ---
 
 

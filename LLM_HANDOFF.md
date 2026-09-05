@@ -4,6 +4,66 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
+### [2026-09-05b] - Session: the personal lexicon, and the term that was not there (Claude Opus 5)
+
+* **Branch:** `claude/wiki-personal-lexicon-t50l6y` from `main` ·
+  `bin/wiki-check` clean · 499 pages, 0 errors.
+* **Trigger:** operator — an assistant's audit of Dan's custom-language layer,
+  pasted with *"I want ALL OF this information baked into the wiki brain."*
+
+#### What was done
+
+New page **`wiki/interests/language/personal-lexicon`** (30KB, 10 typed edges,
+all reciprocated). The source is filed at
+`raw/self/captures/2026-09-05_personal-lexicon-audit.md`.
+
+**Read this before trusting any operator-pasted model self-analysis.** The
+audit's central term does not exist: it files *"Iterative Symbolic Architect"*
+(**0** in `raw/`) where the corpus says *"Recursive Symbolic Architect"* (35 in
+the Gemini export, 10 in `Dan Profile.txt`, four more files). Six other
+coinages return zero; one exists **pointed the other way** — *"human RSS feed"*
+is a model's insult aimed at Dan, not his phrase for Ally. A model recalling
+conversations it was in preserves the *shape* of a term and drifts on the
+*string*, and the drift lands in the modifier slot. Corroboration counts were
+built before any prose was written, and doing so reordered the whole entry.
+
+**The corpus half the audit missed:** six non-synonymous names for what an AI
+is to Dan (recursive cognitive prosthetic 132, emotional metabolizer 49,
+taboo-mining 42, co-processor 10, daemon mirror 6, ideation engine 5, emotional
+debugger 4) — four prosthetic, two diagnostic, used interchangeably. The
+load-bearing modifier across the entire lexicon is **`recursive`**, with no
+competitor anywhere.
+
+#### What is next, in order
+
+1. **`lexicon/words/` has no operation and `bin/wiki-work` cannot see it.**
+   It is a live portal-fed capture path named only in
+   `.github/workflows/notify-portal.yml`. Its one word sat `pending` nine days
+   (now analysed: `off-rip`, 0 corpus occurrences — a *taste* artifact). Decide
+   whether it becomes a `bin/wiki-work` source, a `bin/wiki-lexicon`, or stays
+   hand-worked. **Do not build more front door before building the room.**
+2. **`GPT:POD-MODE` is asserted and uncorroborated** — the first *invocable*
+   mode in a corpus where `voice-modes`' eight are all states he falls into. A
+   `> **CONTRADICTION:**` block now sits on that page. A `raw/` transcript
+   containing the string settles it; nothing else will.
+3. **Six new stale warnings** from four honest `date_modified` bumps
+   (`mind/profile/lexicon`, `people/ally-lubin`,
+   `interests/language/vocabulary-lexicon`, `mind/profile/voice-modes`). Five
+   further pages gained only an inverse edge and **deliberately kept their
+   dates** — bumping all nine fired 21.
+4. **Two candidates in `skills/INBOX.md`**, neither promoted, one occurrence
+   each: model-recall string drift as a source class, and a capture path with
+   no obligation behind it.
+5. The previous session's four items below are **untouched** — 99 `unlinked`
+   candidates, 35 of 37 re-derivations, the staleness-cascade diagnosis, 97
+   handle-less people pages.
+
+#### Withheld under the standing directive
+
+*"Wispr Flow"* occurs exactly once in the message corpus, in a thread this wiki
+is closed to. Not read, not quoted, not dated. The entry records the fact so a
+later session does not spend the search again.
+
 ### [2026-09-05] - Session: the wiki does not link what it says (Claude Opus 5)
 
 * **Branch:** `claude/crosslink-campaign-q9auor` from `main` after **#263

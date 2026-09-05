@@ -8,7 +8,7 @@ aliases: ["Alexandra Lubin", "ALU", "aluuuu", "Ally"]
 status: active
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-08-26
+date_modified: 2026-09-05
 date_range_start: 2011-05-20
 date_range_end: 2026-08-22
 sources:
@@ -87,6 +87,9 @@ connections:
   - page: wiki/mind/synthesis/no-platonic-channel
     type: component-of
     claim: "The $25 paid introduction followed within a year by paid photographs is the corpus's cleanest engineered case of a friendship built specifically to be converted — proof this is a documented default rather than a pattern that happens to a friendship after the fact."
+  - page: wiki/interests/language/personal-lexicon
+    type: evidenced-by
+    claim: "The 'Pre-Ironic Internet Cool Girl' archetype attributed to conversations about her is built out of her own word: her *\"I'm not a cool girl anymore I'm just sad\"* is the self-description, in the negative, and the coined archetype is Dan and a model constructing a category around vocabulary she supplied rather than an outside observer applying one to her."
 ---
 
 # Ally Lubin (Alexandra Lubin)
@@ -689,6 +692,21 @@ the evening is unrelenting: *"I'm not a cool girl anymore I'm just sad,"* *"I
 spent the best and most beautiful years of my life hating myself / And I'll
 never get them back,"* *"I'm inherently evil and unlovable / And president of
 the boy smashing factory."*
+
+The first of those — *"I'm not a cool girl anymore I'm just sad"* — is the
+seed of a piece of vocabulary that outlived the night.
+[[wiki/interests/language/personal-lexicon]] documents an archetype label
+built around her, **"the Pre-Ironic Internet Cool Girl"** (variant:
+*Pre-Algorithmic*), glossed as *"the girl who is already laughing at the joke
+the rest of the internet hasn't discovered yet."* The label does not occur
+anywhere in `raw/` and is recorded from an operator-supplied source rather
+than the archive — but the word it is built on is hers, said about herself,
+in the negative, at the bottom of the worst evening the corpus has of her.
+The added modifier is the whole argument: *pre-ironic*, *pre-algorithmic* —
+before the performance became legible as performance. It is a claim that she
+was the genuine version of something that later curdled into a pose, which
+is a defence of her constructed out of a sentence in which she was writing
+herself off.
 
 > **RESOLVED [2026-08-20]:** The phrase *"I'm inherently evil and unlovable"* was flagged on this page as
 > possibly a laundered AI paraphrase, because the only corpus occurrence was

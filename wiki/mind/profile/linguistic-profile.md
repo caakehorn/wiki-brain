@@ -45,6 +45,9 @@ connections:
   - page: wiki/self/twitter
     type: evidenced-by
     claim: "The public half of the two-corpus voice proof: 2,718 dated originals written for an audience, against the private message corpus written for one person, which is what lets the profile separate a stable voice from a register chosen per reader."
+  - page: wiki/interests/language/personal-lexicon
+    type: contains
+    claim: "This page measures how the sentences are built; that one records the nouns they reach for, and finds a single load-bearing modifier — 'recursive' attaches to the self-label, to the AI metaphor and to the working method, with no competing modifier (iterative, reflexive, nested) appearing anywhere in the corpus."
 ---
 
 # Linguistic Profile — Voice, Register, Stylometrics

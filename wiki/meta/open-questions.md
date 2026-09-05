@@ -23,8 +23,8 @@ filtered out, so this list shrinks only when something is actually settled.
 
 | | count |
 |---|---|
-| Live contradictions | 49 |
-| Open gaps | 713 |
+| Live contradictions | 51 |
+| Open gaps | 720 |
 | Answered, awaiting ingest | 0 |
 | Standing predictions | 65 |
 
@@ -46,6 +46,7 @@ somewhere and has not yet found out where.
 
 - **[[wiki/interests/favorites/books]]** — This page, and the 2026-06-23 form of eclecticism alongside it, read 120 books across 98 authors as breadth. Counted by subject rather than by author, the shelf is the opposite. **Forty of the 120 books are tagged `trump` or `jan-6`, carried by thirty different authors. Twenty are tagged `roman-republic`, `ancient-hist
 - **[[wiki/interests/food-and-diet]]** — the-cool-metric states that music, language, politics, film, work and strangers "all go through the same gate." Food does not, and food out-mentions music in the same corpus. Both pages carry the disagreement; the resolution below is that the metric has a jurisdiction rather than that it has an exception. It bounds it.
+- **[[wiki/interests/language/personal-lexicon]]** — the audit asserts "Iterative Symbolic Architect" as Dan's label for his own cognitive style. The corpus says "Recursive Symbolic Architect", 45+ times across six files, and never the other. Both claims are kept visible here because the audit is a first-party-adjacent source — it is a model reporting conversations Dan w
 - **[[wiki/interests/opie-and-anthony]]** — The contemporaneous record runs the other way. Anthony Cumia was fired on **3 July 2014** over racist posts about a Black woman who had hit him in Times Square. On **4 July 2014** Dan tweeted at him: > *"nothing but love and respect ant. Thanks for not selling your soul > through this whole mess."* And on **25 March 20
 - **[[wiki/legal/2015-possession-arrest]]** — The capture places the arrest firmly *before* the move to 155 Virginia Ave — Alexis was still being hidden at 337 Saratoga, "before we made it to her 155 virginia ave house where she let me and lex live together." But that page dates the residence from **January 2015**, a month before the blotter filing. One of the thr
 - **[[wiki/legal/2015-possession-arrest]]** — This page's earlier form stated that during the stop Dan "consented to a breath search — a decision he later credited with saving his driver's license," citing a March 2026 message: "I would have lost mine if I hadn't consented to the breath search when I got arrested." The capture states the opposite in direct terms: 
@@ -63,6 +64,7 @@ somewhere and has not yet found out where.
 - **[[wiki/mind/profile/enneagram-5w4]]** — Everything on this page descends from a commissioned instrument. The message corpus contains exactly one instance of Dan typing himself in his own words, quoting back a prompt he had written, on **2024-11-04**: *"vanessa is an xNFP 4w5 and **Dan is an INTP 5w6sx RLOEI** - compare them."* Not 5w4, and not RLUEI. The win
 - **[[wiki/mind/profile/texting-deviance-audit]]** — linguistic-profile records "Readability: post-graduate (16th grade+)" and "99th percentile for lexical diversity," both taken from the commissioned stylometric analyses. Recomputed directly from the corpus, his texting scores **Flesch-Kincaid 4.00** in 2026 (2.08 in 2015–19) and his type-token ratio in 2025–26 is **0.0
 - **[[wiki/mind/profile/voice-modes]]** — lexicon — a compliment-phrase generator built by Dan explicitly around Ally — is the opposite move. Categories I and II are sincere affection addressed directly to her, and the intellectualizing register is not suppressed to let sincerity stand; it is amplified to carry it ("she has rendered ordinary adjectives inadequ
+- **[[wiki/mind/profile/voice-modes]]** — personal-lexicon records a **ninth** mode that this taxonomy does not have and structurally cannot hold: **GPT:POD-MODE**, described by its source as a mode Dan *established* and can *invoke* by name — conversational co-host rather than assistant, exploratory rather than resolving, analysis delivered without stopping t
 - **[[wiki/mind/synthesis/ancestral-dialectic]]** — fayette-return shows the return dynamic is fully documented within the paternal line alone, across four generations, so a two-line dialectic is not required to explain it and may be over-specified. Both G1 immigrants — David from Russia, Sadie from Austria — are on the Ashkenazi side; if one line reproduces the pattern
 - **[[wiki/mind/synthesis/august-grievance-verdict]]** — The Morgantown event page previously asserted, and this page assumed, that across the interrogation *"she never says yes."* At **04:43**, answering *"Yes or no?"*, Annie says ***"Yes, save it."*** Three seconds later Coles tells Dan ***"she's looking at me saying yeah, she don't want you to hear it."*** This is held op
 - **[[wiki/mind/synthesis/dormancy-not-exit]]** — block-unblock-loop scores Menore's February 2025 farewell as *"the record's only fully clean closure"* — its strongest non-Annie control for the rule that a block holds when no dependency flows. This page reads the same relationship as the corpus's best evidence that closures of exactly that shape are dormancies. Both 
@@ -182,7 +184,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/health/the-configured-body]]** — **The prescriber is unnamed and undated before 2019.** Whether the Suboxone regimen has been continuously prescribed since 2010 or has moved between prescribed and unprescribed stretches is unresolved, and it changes what the sixteen-year "zero relapses" figur
 - **[[wiki/health/the-configured-body]]** — **Up:** Health
 
-### interests (18)
+### interests (24)
 
 - **[[wiki/interests/extreme-sports]]** — No intake-digital record (YouTube watch history, social media posts) documents this era in the corpus — it predates the Twitter record (2009) and the iMessage record (2015). The reconstruction is built entirely from this one manual capture. Specific dating of 
 - **[[wiki/interests/extreme-sports]]** — **Up:** Interests
@@ -199,6 +201,12 @@ new knowledge available, because no new source is required.
 - **[[wiki/interests/food-and-diet]]** — **The regime's origin is undated.** Whether it predates or follows the adolescent bulimia and candy-staple period on hyperreflexivity is unknown, and the answer decides whether this is a control behaviour that grew out of a disordered one or an independent lif
 - **[[wiki/interests/golf]]** — No childhood or junior-golf origin story is documented — the corpus picks the sport up already in progress by the time messaging begins in 2015, and it's unclear whether Dan played growing up or took it up as an adult alongside the family's country-club world.
 - **[[wiki/interests/golf]]** — **Up:** Interests
+- **[[wiki/interests/language/personal-lexicon]]** — **The audit's own caveat stands and is not closeable from here.** It reports what one model could recall of its conversations with Dan, and those conversations are not in `raw/`. Every zero in the corroboration table is *"absent from the archive"*, never *"nev
+- **[[wiki/interests/language/personal-lexicon]]** — **"Wispr Flow" occurs once in the entire message corpus, in a thread this wiki is closed to** under the standing directive in `CLAUDE.md`. It therefore contributes nothing here, and the two Wispr formulations are recorded from the capture alone. Noted so a lat
+- **[[wiki/interests/language/personal-lexicon]]** — **No dating for anything in Layers 3 and 4.** The cultural and endearment clusters have no timestamps, no session identity, and no way to establish order — which of the four Cool Girl formulations came first, and whether Dan or the model produced it, is unreco
+- **[[wiki/interests/language/personal-lexicon]]** — **`lexicon/words/` has no tooling and no operation.** There is no `bin/wiki-lexicon`, nothing lists a pending word as an obligation, and `bin/wiki-work` cannot see the directory. One word has waited nine days. Whether that should become a gate, a `WORK.md` row
+- **[[wiki/interests/language/personal-lexicon]]** — **The audit is a source class the corpus has no slot for.** It is not T0 first-person testimony, because Dan did not write it; it is not corpus extraction, because no corpus was queried; and it is not ordinary secondary analysis, because the analyst was a part
+- **[[wiki/interests/language/personal-lexicon]]** — **Up:** Interests › Language
 - **[[wiki/interests/music/index]]** — Full release catalog (Spotify/SoundCloud/Bandcamp export)
 - **[[wiki/interests/music/index]]** — DAW and hardware chain details
 - **[[wiki/interests/music/index]]** — Platform profile links for GRIPNOTIC
@@ -211,7 +219,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/legal/2015-retail-theft-arrest]]** — Everything specific. The store, the date, the value of the goods, the charge grading, and the disposition are all absent from the corpus, as is any statement of how the theft was resolved — whether by fine, by summary citation, or folded into the possession ca
 - **[[wiki/legal/2015-retail-theft-arrest]]** — **Up:** Legal
 
-### mind (173)
+### mind (174)
 
 - **[[wiki/mind/concepts/acquisition-drive]]** — The ATM-card episode has no date, no amount, no duration and no corroboration anywhere in the message corpus — it exists only in the operator's own telling, and Vanessa's own thread (709 messages, December 2015 onward) never mentions it, which places it before
 - **[[wiki/mind/concepts/acquisition-drive]]** — **Up:** Mind
@@ -247,6 +255,7 @@ new knowledge available, because no new source is required.
 - **[[wiki/mind/concepts/the-handed-mirror]]** — **Up:** Mind
 - **[[wiki/mind/politics/axioms]]** — This page reasons from a reading list and one self-authored system prompt, not from a direct first-person statement of political theory in Dan's own words explaining *why* he built the Cato identity or chose the Parenti book specifically — the inference that t
 - **[[wiki/mind/profile/lexicon]]** — **No usage evidence yet.** A targeted search of the general message corpus for several of the lexicon's most distinctive phrases — *resplendent*, *administratively*, *the tribunal*, *aesthetic felony*, *anomalous concentration* — returned no hits at the time t
+- **[[wiki/mind/profile/lexicon]]** — **Partly answered, 2026-09-05.** The zero holds, but it is now a *comparative* zero rather than an isolated one. personal-lexicon runs the same corpus check across Dan's other manufactured vocabulary and finds the generator's method working at volume in a diff
 - **[[wiki/mind/profile/lexicon]]** — **No date or model identity on the generating session.** The capture gives no timestamp beyond when it was pasted into this wiki, and the generating AI's identity is not stated in the paste itself.
 - **[[wiki/mind/profile/lexicon]]** — **Whether earlier versions exist is unknown.** The "v1.0" label implies iteration or a planned v2; nothing in the corpus currently documents a prior version.
 - **[[wiki/mind/profile/lexicon]]** — **Up:** Mind › Profile

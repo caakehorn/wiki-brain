@@ -9896,3 +9896,103 @@ furniture is not a revision of the argument, and 453 bumps would clear the
 staleness warnings on everything reasoning from any of them. 423 tests, 6 new —
 the footer is generated, and a generator nobody tests is one that can silently
 stop generating.
+
+## [2026-09-05] ingest | interests | personal lexicon — the custom-language layer, corpus-checked
+
+**Operator paste:** an AI assistant's audit of its own conversational history
+with Dan, searching it specifically for the custom-language layer — ~25 coined
+terms, a proposed provenance schema, and an explicit warning that
+assistant-coined language must not be flattened into Dan-coined language. Filed
+verbatim to `raw/self/captures/2026-09-05_personal-lexicon-audit.md`. Instruction:
+*"I want ALL OF this information baked into the wiki brain."*
+
+**What was wrong.** The document's central term does not exist. It files Dan's
+cognitive-style self-label as **"Iterative Symbolic Architect"** — **zero
+occurrences** in `raw/` outside the capture itself. The corpus says
+**"Recursive Symbolic Architect"**: 35 in `Gemini Activity.html`, 10 in
+`Dan Profile.txt`, hits in four further files. Six of its other coinages return
+zero, and *"human RSS feed for cultural bullshit"* exists in the corpus
+**pointed the other way** — a Gemini session's insult aimed at Dan
+(*"human RSS feed of hyperverbal chaos and psychic razorwire"*), not his phrase
+for somebody else. A document whose entire thesis is that provenance must be
+preserved could not preserve its own, which is the strongest available argument
+for the thing it was asking for and is now the spine of the entry.
+
+**What the corpus had that the audit missed.** Dan does not have one name for
+what an AI is to him; he has **six**, they are not synonyms, and each specifies
+a different job — recursive cognitive prosthetic (132), emotional metabolizer
+(49), taboo-mining (42), co-processor (10), ideation engine (5), daemon mirror
+(6), emotional debugger (4). Four are prosthetic metaphors, two are diagnostic,
+and his own custom-instructions field stacks three in one sentence:
+*"I use you as a recursive cognitive prosthetic, emotional metabolizer, and
+ideation engine."* **The vocabulary does not distinguish a tool that extends him
+from a tool that inspects him** — `instrument-is-subject` stated by the subject,
+before anyone analysed it.
+
+**The load-bearing word is `recursive`.** It attaches to the self-label, the AI
+metaphor and the working method, and no competing modifier occurs anywhere.
+*Iterative* — the audit's substitution — is the informative near-miss: iteration
+is repetition toward a target, recursion is a thing that contains itself, and
+the corpus chose the second every time.
+
+**The two provenance directions, both preserved.** *Recursive Symbolic
+Architect* is model-coined then self-adopted, and every step survives in one
+file: a Gemini session manufactures it (*"a classification we shall refer to
+as"*), the same corpus later cites *"the self-identification as"*, later models
+quote it as established profile data. *Recursive cognitive prosthetic* runs the
+opposite way — Dan's own profile text first, then the MAX persona documents
+adopt it as **self**-description (*"I am a Recursive Cognitive Prosthetic
+[cite: 2025-07-19]"*). The prosthesis took the word for itself.
+
+**Ally.** The *"Pre-Ironic Internet Cool Girl"* archetype has zero corpus
+occurrences, but the word under it is **hers** — *"I'm not a cool girl anymore
+I'm just sad"*, already on her page, said about herself on the worst evening the
+record has of her. The archetype is Dan and a model building a category around
+vocabulary she supplied, and the modifier is the whole argument: *pre-ironic*,
+*pre-algorithmic* — a defence of her assembled out of a sentence in which she
+was writing herself off. Written back into her page in prose.
+
+**A queue nobody was draining.** `lexicon/words/` is a real portal-fed capture
+path, named in `.github/workflows/notify-portal.yml` and **documented nowhere
+else** — not `CLAUDE.md`, not the operations list, not `WORK.md`, and invisible
+to `bin/wiki-work`. It held one word, `off-rip`, `status: pending` since
+2026-08-27. Analysed and closed: standard AAE idiom, *immediately / from the
+outset*, **zero occurrences** in the iMessage dump — so the dictionary's first
+entry is a *taste* artifact like the 200 curated words on `vocabulary-lexicon`,
+not a *usage* artifact like the cluster above. Worth knowing before more get
+captured.
+
+**The gap the check closed on `mind/profile/lexicon`.** That page's Gaps said the
+bespoke affection generator had no usage evidence. The zero holds, but it is now
+comparative: the same construction method returns 132/49/42 in the cognitive
+domain and 0 in the romantic one, and 0 across all 200 words on
+`vocabulary-lexicon`. **The formula is not what fails.** A term survives in this
+corpus by being load-bearing — by compressing a model he has to refer to
+repeatedly — not by being good.
+
+**Writes.** New page `wiki/interests/language/personal-lexicon` (30KB, 10 typed
+edges, all reciprocated, 0 debt). Inverse edges onto nine pages. Prose
+write-backs on four: `mind/profile/lexicon` (Gaps partly answered),
+`people/ally-lubin`, `interests/language/vocabulary-lexicon` (the third
+provenance class it has no slot for), `mind/profile/voice-modes` (a
+`> **CONTRADICTION:**` block — `GPT:POD-MODE` is asserted as an *invocable*
+mode, and all eight modes there are states he falls into; zero corpus
+occurrences, so the corpus cannot tell an incomplete taxonomy from an invented
+command, and neither reading is adopted).
+
+**`date_modified` bumped on four pages, not nine.** The five that gained only an
+inverse edge kept their dates. An added edge records a finding *about* a page;
+it does not move a premise anything downstream reasoned from, and bumping all
+nine fired **21** stale warnings where four honest bumps fire **6**. Fifteen
+re-reads that would each have found nothing is how a warning list becomes noise
+nobody reads.
+
+**Withheld under the standing directive.** *"Wispr Flow"* occurs exactly once in
+the message corpus, in a thread this wiki is closed to. Not read, not quoted,
+not dated — the two Wispr formulations are recorded from the capture alone, and
+the entry says so where a later session will look before spending the search
+again.
+
+`bin/wiki-check` clean · 499 pages, 0 errors · reciprocal debt 0 on the new page
+· two candidates to `skills/INBOX.md` (model-recall drift; the undocumented
+capture path), neither promoted — one occurrence each.
