@@ -3,7 +3,7 @@ domain: interests
 page_type: entity
 status: stable
 date_created: 2026-07-16
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 sources:
   - "raw/self/dox-scan/Dan Profile.txt"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
@@ -16,6 +16,9 @@ related:
   - wiki/mind/profile/linguistic-profile
 tags: [nyc-era, personality-profile, digital-footprint]
 connections:
+  - page: wiki/people/davey-fitzpatrick
+    type: evidenced-by
+    claim: "The moment the ambition becomes load-bearing rather than aspirational: asked what he and Annie would do in New York, 'I'm gonna do whatever for a day job and try my hand at comedy' — 'And I can get dj gigs too' (2018-11-02). Comedy named first, day job as 'whatever', and the only place the comedy plan and the DJ work appear as parallel income lines."
   - page: wiki/people/new-jim-shaffer
     type: evidenced-by
     claim: "The written set, which this page had recorded only as an ambition: 'heres my comedy set so far' (2019-04-12) and three bits — the cancer-donation regret against 'thousands on drugs', millennials and call spoofing, and the bald-eagle story. Complete material, a stage name, and no stage."
@@ -85,6 +88,27 @@ The ambition to perform, not just watch, is documented across years:
 - **2019-04-02**, the same friend hands him a stage name: "Dude I came
   up with your comedy name for when u do standup/YouTube. It's **'Nad
   Knarf'**" — "Dan Frank" reversed. The persona got as far as a name.
+
+> **ADDED [2026-09-05] — the point at which the ambition starts paying rent.**
+> The bullets above trace an intention from 2017-12-28 (*"try stand up at least
+> once"*) to 2019-04-12 (*"a solid 5 minutes"*). Between them sits the moment it
+> stops being an intention and becomes a **reason to move house.**
+>
+> **2018-11-02**, telling his caddie boss the New York plan on the day it was
+> decided ([[wiki/people/davey-fitzpatrick]]) — Davey: *"Damn, any idea what
+> you guys are gonna do?"*
+>
+> — *"I'm gonna do whatever for a day job and try my hand at comedy"*
+> — *"And I can get dj gigs too"*
+>
+> **Comedy is named first and the day job is "whatever."** Everything else in
+> this section is Dan saying he would like to do stand-up; this is Dan giving
+> stand-up as one of the two things New York is *for*, to a third party, with
+> the apartment-scouting trip already booked (*"Hotel for 3 days when we go up
+> next week…$765"*). It is also the only place in the corpus where the comedy
+> plan and the DJ work ([[wiki/interests/music/aliases/sloppp]] and its
+> successors) are named in the same breath as parallel income lines rather than
+> as separate interests.
 
 > **THE SET EXISTED, AND HERE IS WHAT WAS IN IT [2026-09-04].** This section
 > closed on *"whether or not a set ever happened"*. Ten minutes after the

@@ -3,7 +3,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 date_range_start: 2017-10-16
 date_range_end: 2018-08-09
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-scan/all_imessages_complete_dump.txt"]
@@ -11,6 +11,9 @@ related: ["wiki/work/nemacolin-caddying", "wiki/timeline/periods/2017-poverty-fl
 tags: [career, uniontown-era]
 knowledge: mixed
 connections:
+  - page: wiki/people/davey-fitzpatrick
+    type: evidenced-by
+    claim: "A fourth thread carries the urine arrangement and shows it executed rather than planned — the cup filled, carried to a company appointment and temperature-maintained — and supplies the page's only unprompted statement of Dan's regard for him: 'he's easily in my top 5 favorite humans ever' (2018-03-19)."
   - page: wiki/people/vaughn
     type: evidenced-by
     claim: "Jack supplied the clean urine Dan carried against a possible early Nemacolin drug test — 'i had jack rusko piss for me lol' (2018-03-19, in the Vaughn thread) — the only documented instance of him doing anything for Dan, on a page otherwise built entirely on what Dan owed him."
@@ -62,6 +65,36 @@ documented instance of him doing anything for Dan at all.
 **Gap:** whether Jack knew what the urine was for, whether he was paid, and
 whether this was a one-off or the standing arrangement the phrase's casualness
 suggests. His own thread never mentions it.
+
+> **ADDED [2026-09-05] — a fourth thread, and the bottle was actually
+> carried.** The same March 2018 episode appears again in
+> [[wiki/people/davey-fitzpatrick|Davey]]'s thread, told to the incoming
+> assistant caddie master rather than to a peer:
+>
+> *"i wasn't sure if i should be ready for drug test when i go up for paperwork
+> tomorrow so i had jack fill a cup for me lol"* — 2018-03-19
+>
+> *"i didn't know i wasn't being drug tested so i spent the whole time
+> maintaining the temperature of my bottle of jack rusko pee in my armpit …
+> it was not the proudest moment of my life"* — 2018-03-27
+>
+> **Jack is now named in three separate threads for this and in none of his
+> own.** The section above called it the corpus's only documented instance of
+> him doing anything for Dan; it is the same instance seen twice more, which is
+> different and weaker. What the second telling adds is that the arrangement
+> was *executed* — the cup was filled, carried to a company appointment and
+> kept at body temperature — and that Dan told his manager about it. The gap
+> stands unchanged: Jack's own thread is still silent.
+
+The same Davey thread also gives the page its warmest line about him, said
+about rather than to him. *"well you can rest assured that when you do see
+him…it's the same neurotic, whiny, incredible calamity that he was last time
+you saw him haha"* — and then, unprompted, *"he's easily in my top 5 favorite
+humans ever"* (2018-03-19). It supplies the 6:10am detail too, and Jack's own
+reason for it: a 7:00 report, picked up at 6:10, *"because he, and I quote,
+doesn't like rushing."* And a fifth Mario Kart evening — *"i took the switch
+over and wnded up spending 90 minutes watching him lose his mind whenever i
+would red shell him."*
 
 ## Corpus Dimensions
 

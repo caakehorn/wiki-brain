@@ -175,6 +175,27 @@ governed everything ("1 would be better for me because I have to get the kids
 off the bus at 3"), and the report-time relay through the caddie master
 ("b-rad said he's not in today but said to come up tomorrow after lunch").
 
+> **ADDED [2026-09-05] from the [[wiki/people/davey-fitzpatrick]]
+> re-derivation.** The same bottle turns up in a second thread eight days
+> later, and the second thread changes what the countermeasure was.
+>
+> *"i didn't know i wasn't being drug tested so i spent the whole time
+> maintaining the temperature of my bottle of jack rusko pee in my armpit …
+> it was not the proudest moment of my life"* — 2018-03-27
+>
+> *"bro i'm all-star team for passing drug tests"* — same exchange
+>
+> *"but seeing as that it was totally unnecessary, i would have preferred to
+> not have subjected myself to that lol"*
+>
+> **The audience is the assistant caddie master.** Everything above is
+> peer-to-peer; this is Dan telling the man who sets his shifts that he brought
+> somebody else's urine to a company appointment. Whatever the arrangement was,
+> it was not a secret from the yard's management layer — which is consistent
+> with Davey being a friend first and a boss second, and is the strongest
+> single indication of how little the testing was actually enforced. **The test
+> did not happen**, either time it was prepared for.
+
 **And one thing the page had backwards.** The cohort section below describes
 Vaughn as a fellow caddie who supplied Dan. He also **taught** him: *"Dude the
 way you changed my grip / Has made a REAL difference / I'm still getting things
@@ -196,6 +217,39 @@ Valley departure, the first round carrying two bags, and the Scottsdale
 transfer he raised directly with Carl. That ladder is the payload, and it is
 the weakest of the rule's three positive cases because it is inferred from
 what Dan chose to record rather than from any statement of intent.
+
+> **ADDED [2026-09-05] — the statement of intent exists.** The sentence above
+> has been the honest caveat on this case since it was written. On
+> **2017-10-01**, unprompted, in a conversation about a management rumour, Dan
+> tells [[wiki/people/davey-fitzpatrick|Davey]]: *"i'm just conflicted because
+> i like the job and culture and community of caddying so much, **first job
+> i've found that i don't end up dreading work everyday**."*
+>
+> He is twenty-eight and it is the eighth documented job. The caveat is
+> discharged — this case now rests on a direct statement rather than on
+> inference from what he chose to log — and note *what* the statement values:
+> "the job and culture and community," in that order, with no mention of the
+> money and no mention of the ladder. See
+> [[wiki/mind/synthesis/failure-to-launch]], which reads the yard as a
+> low-oversight sovereign territory; a sentence naming culture and community as
+> the draw is evidence for that reading rather than against it.
+>
+> The same thread prices the work he was not dreading: a **$550 day** on
+> 2017-10-03 — *"they all gave me hundreds and then venmo'd me another hundo
+> when we got back"* — followed immediately by *"i think i peak'd today.
+> there's no way i'll ever make more jam that haha."* Gratuity ran to **$30 a
+> man** for singles and doubles in 2018 against a flat **$60 bag fee**; Laurel
+> Valley, which he was openly scouting, ran *"150-2 tips … 90 from the club"*
+> on a two-strap, against **Chad's $70 for a whole day** on the same trip.
+>
+> And the **first spin is narrated the same night**, from the other side of the
+> May 21 2018 Laurel Valley trip this page dates from the work record: *"today
+> was my first spin and my feet are dee-stroyed"* … *"I was honestly dreading
+> it but I learned a ton and loved that course"* … *"We chopped everything. I
+> mean it wasn't required. But most guys there split it up incase you get a bad
+> day"* — the tip-splitting norm between paired caddies, which the page did not
+> have — and the verdict against his home course: *"every single hole is good.
+> Like there's no mystic 12's."*
 
 The caddying years run concurrent with the darkest financial stretch
 documented elsewhere in the wiki (the [[wiki/timeline/periods/2017-poverty-floor|2017 poverty floor]], the 2018 deep

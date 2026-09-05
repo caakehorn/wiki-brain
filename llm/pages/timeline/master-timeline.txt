@@ -19,7 +19,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,775 events** across **80 years** (1796–2027), drawn from **390 pages**. Tier 1 729 · Tier 2 466 · Tier 3 2,580.
+**3,798 events** across **80 years** (1796–2027), drawn from **390 pages**. Tier 1 730 · Tier 2 472 · Tier 3 2,596.
 
 ## What counts as an event here
 
@@ -3302,7 +3302,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
 - · **May 2017** — location history — self  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
-- · **May 2017** — Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two Nemacolin caddying seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a fellow caddie in 2017 who came back for 2018 as **assistant caddie master** — "I'm actually gonna be assistant caddie…  
+- · **May 2017** — t021 — quantity, behavior — confident — _pending_ — —  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
+- · **May 2017** — Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two Nemacolin caddying seasons (`+17249639933`, **779 messages**, May 2017 – November 2018): a fellow caddie in 2017 who came back for 2018 as **assistant caddie master** — "I'm actually gonna be assistant…  
   ↳ [[wiki/people/davey-fitzpatrick]] · Davey Fitzpatrick
 - · **May 2017** — Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose message thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — sparse check-ins that resurface every year or two, each one picking back up exactly where the last left…  
   ↳ [[wiki/people/eric-jester]] · Eric Jester
@@ -3420,6 +3422,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/places/117-belmont-circle]] · The three parcels
 - ◆ **2017-10-01** — Twenty-eight of the 41 messages fall on a single day**, October 1, 2017, and the remainder spreads across four.  
   ↳ [[wiki/people/zach-clingan]] · Corpus record
+- · **2017-10-01** — The only job he has ever said he did not dread.** 2017-10-01, unprompted, in the middle of a conversation about a management rumour: *"i'm just conflicted because i like the job and culture and community of caddying so much, first job i've found that i don't end up dreading work everyday."* He is…  
+  ↳ [[wiki/people/davey-fitzpatrick]] · What Dan's half turned out to hold
+- · **2017-10-01** — He did not — Dan brought it on 2017-10-01 with the URL, sourcing it (*"i got it from a reliable source and have been hearing gossip about a big change from several people for a few weeks now"*), and Davey's reply is *"Interesting"* followed by *"To be completely honest I don't plan on being there…  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
+- · **2017-10-03** — The peak earning day, dated and priced.** 2017-10-03: *"i had a $550 day and he was with the same group"* — *"they all gave me hundreds and then venmo'd me another hundo when we got back."* And immediately, a prediction: *"i think i peak'd today. there's no way i'll ever make more jam that haha."  
+  ↳ [[wiki/people/davey-fitzpatrick]] · What Dan's half turned out to hold
 - · **2017-10-03** — He works at **Jim Shorkey**, the regional car dealership group — *"garrett works for jim shorkey right"* (2017-10-03) — and Alice is at *"Garrett's work"* in March 2025, so that appears to hold across eight years.  
   ↳ [[wiki/people/garrett]] · What is known
 - · **2017-10-06** — Defining event  
@@ -3627,6 +3635,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/places/155-virginia-ave]] · 155 Virginia Ave
 - ◆ **March 2018** — The money came through the estate and was authorised by its trustee — in March 2018 Dan reasons that *"fred would have put the kaibosh on me being paid to watch gram if there was an ongoing issue,"* which puts Judge Adams directly in the payroll chain.  
   ↳ [[wiki/people/fran-coldren]] · The caregiving arrangement (≈October 2017 – April 2018)
+- · **March 2018** — The relevance is not the prank: **in March 2018 he expected to fail a workplace urine screen**, and said so twice, in writing, to his incoming manager.  
+  ↳ [[wiki/people/davey-fitzpatrick]] · What Dan's half turned out to hold
+- · **March 2018** — Also unresolved: the identity of the ghosting coworker Dan was sending *"daily photoshops of him in different racist scenarios"* to in March 2018 — Brad had spoken to him, Davey had texted him a month earlier, and he never came back.  
+  ↳ [[wiki/people/davey-fitzpatrick]] · Corpus record
 - · **March 2018** — In March 2018, during Fran's final decline, Ellen coordinates delivering a church flower arrangement to cheer her and mentions being "at Jim and Sugie's" — confirming that **Jim and Sugie are the names of Annie's grandparents**, resolving an open identification gap on 117 belmont circle.  
   ↳ [[wiki/people/ellen-ulmer]] · The relationship
 - · **March 2018** — Jim Vrabel was a marijuana dealer and, over two and a half years, something closer to a regular late-night hangout than a pure transaction (`+17247074184`, 313 messages, March 2018 – September 2020).  
@@ -3663,8 +3675,16 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/fred-adams]] · The contemporaneous record — sixteen dated rows nobody had read
 - · **2018-03-14** — "Since my mother is a shit, I think it falls on me."* And, of  
   ↳ [[wiki/people/suzanne-frank]] · Identity, lineage and the generation she was pushed out of
+- ◆ **2018-03-19** — The money is itemised.** Gratuity went to $30 a man for singles and doubles; Jack reported a flat $60 bag fee and *"tried telling me that the TRUMP ECONOMY is why they could do that"* (2018-03-19).  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
+- · **2018-03-19** — Two drug tests, evaded, narrated as comedy.** 2018-03-19, the night before season paperwork: *"i wasn't sure if i should be ready for drug test when i go up for paperwork tomorrow so i had jack fill a cup for me lol."* 2018-03-27, after: *"i spent the whole time maintaining the temperature of my…  
+  ↳ [[wiki/people/davey-fitzpatrick]] · What Dan's half turned out to hold
+- · **2018-03-19** — "well you can rest assured that when you do see him…it's the same neurotic, whiny, incredible calamity that he was last time you saw him haha"* — and then, unprompted, *"he's easily in my top 5 favorite humans ever"* (2018-03-19).  
+  ↳ [[wiki/people/jack-rusko]] · What a third thread says about him
 - · **2018-03-19** — 2018-03-19, supplying the ride to work.  
   ↳ [[wiki/people/vaughn]] · The mother is downstream by 2018, not upstream
+- · **2018-03-27** — He stacked income where he could: a step-counting app pitched to Davey as *"like another $20 for every loop"* (2018-03-27), and by August a private 18Birdies group, *"Nemacolin Caddies."  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
 - ★ **2018-03-29** — The contemporaneous record has the eviction notice served **2018-03-29**, three days before the April 1 move to the pediatric wing, and the letter being read, forwarded and lawyered on **2018-04-03**, the day before Fran died.  
   ↳ [[wiki/people/diane-moore]] · The instrument, as the corpus actually records it
 - ★ **2018-03-29** — The second is that this sits directly against the **eviction notice served at 155 Virginia Avenue on March 29, 2018**, mid-vigil, demanding the keys.  
@@ -3839,14 +3859,22 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/diane-moore]] · Gaps
 - ◆ **2018-05-09** — Idk how I played as well as I did...and I still probably barely broke 90" (May 9, 2018) is as good as his self-reported scores get; a June 2017 message logs a more ordinary "Got a par 4 and then par 3 to finish." He studies the game seriously rather than just playing casually: in June 2016 he…  
   ↳ [[wiki/interests/golf]] · Dan's own game
+- ◆ **2018-05-09** — I legit just went out and bought a vape that's lighter than a ball point pen because I saw how stupid it looks to run with heavy shit in pockets or bib"* — *"It's all about efficiency"* — *"And smoking kush between 8 and 9"* (2018-05-09).  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
 - · **2018-05-11** — derrick avenue** — 2. **Whose houses.** *"I saw al coming down Derrick. Must have been at your moms"* (2018-05-11) puts Dan's mother in the same orbit, but the corpus does not fix which addresses on or off Derrick belong to whom in which years.  
   ↳ [[wiki/meta/open-questions]] · places (12)
 - · **2018-05-11** — A May 11, 2018 exchange turns hostile fast — Jimmy calls Dan out over an unspecified remark he considers ignorant, tells him "the truth sucks and hurts," and closes with "fuck off" — but the two are back on ordinary terms the next day.  
   ↳ [[wiki/people/jimmy]] · Jimmy
 - · **2018-05-11** — Must have been at your moms"* (2018-05-11) puts Dan's mother in the same orbit, but the corpus does not fix which addresses on or off Derrick belong to whom in which years. 3.  
   ↳ [[wiki/places/derrick-avenue]] · Gaps
+- · **2018-05-14** — The two exports are complementary, not duplicates.** There are windows here where the dump carries Davey's side and not Dan's — 2018-05-14 20:05–20:55 is nineteen consecutive Davey messages, tapbacks included, with Dan's originals absent — and windows the other way.  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
 - ◆ **2018-05-21** — A parallel pairing for Annie and Nicole.** A May 21, 2018 message ("Nicole and Annie can do the pool party thing") shows the arrangement wasn't strictly a foursome — the women had their own separate social thread within it.  
   ↳ [[wiki/people/danny-matthews]] · The opening evening (February 16, 2018)
+- ◆ **2018-05-21** — Laurel Valley, which Dan was openly scouting as a transfer, paid *"150-2 tips and I think it's like 90 something on a 2 strap … 90 from the club that is"* — *"If we don't pick up we can always mutiny and all go there"* (2018-05-21).  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
+- ◆ **2018-05-21** — The first spin is narrated the same night it happened.** 2018-05-21 is the Laurel Valley day trip nemacolin caddying dates from the other side; here is Dan at 22:21 that evening — *"today was my first spin and my feet are dee-stroyed"*, then *"I was honestly dreading it but I learned a ton and…  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
 - ◆ **2018-05-21** — On **May 21, 2018** he made his first off-property day trip to **Laurel Valley Golf Club**, leaving Uniontown at 4:30 AM alongside named coworkers Brad (his manager there), Trevor, Brooke, "cuzzy," Will, and Chad — single-bag that day, paired two caddies to a group, $100 cash for the second loop.  
   ↳ [[wiki/work/nemacolin-caddying]] · The looper hierarchy and day trips
 - · **2018-05-23** — He rated the outing directly against his home track: "an impressive lack of golf knowledge for how long I've done the job." Two days later, on **May 23, 2018**, he was paired at Laurel Valley with **Carl** — "the head of the caddie program there and also the head of the program in Scottsdale" (TPC…  
@@ -3903,14 +3931,16 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/health/the-configured-body]] · The asymmetry that names the mechanism
 - · **2018-07-15** — "I told Jason Adams I would get them to him  
   ↳ [[wiki/people/fred-adams]] · The estate attorney has a name, and it is not his
+- · **2018-07-21** — The voice failure recurs: 2018-07-21 (*"I sounded so different with no voice"*), 2018-08-30 (*"my voice is shot again"*), and through 2018-09-02.  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
 - ◆ **2018-07-24** — On July 24, 2018, Dan tells David — in confidence, "because I will be chastised for irresponsible spending" — that he'd just bought a **DJI Mavic Platinum**.  
   ↳ [[wiki/people/david-beard]] · The middle drone
+- · **2018-07-26** — Trevor left without telling him, and Dan's response is the pattern.** 2018-07-26, learning of the exit from Davey rather than from Trevor: *"Yeah dude!  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
 - ★ **August 2018** — In August 2018 — four months after Fran's death and **two years before the distribution actually landed** — Dan drew down roughly $20,000 against the expected estate and transferred about **$14,000 of it to his mother.** Her own itemised statement of it survives, sent 3 October 2018: *"Dan to…  
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The direction the spine had backwards
 - ★ **August 2018** — Dan's verdict on it, to Tom in August 2018, is unambiguous and unusually generous: *"She honestly got a bad break… She stayed loyal to Zac,"* and Zac *"got a good lawyer and fucked her over."* His own puzzlement, delivered in real time to Jamie Mohler ten months after the arrest, is the same…  
   ↳ [[wiki/people/alexis-armel]] · The Shumar years
-- ★ **August 2018** — In August 2018 — four months after Fran died and two years before the estate actually distributed — Dan told her he was going to "take out $20k to float me until the estate is wrapped up (fingers crossed) and I'm going to add your number on top of that." He then set about reducing the frequency of…  
-  ↳ [[wiki/people/suzanne-frank]] · The ledger that never closes
 - ★ **August 2018** — Elsewhere in the corpus (an August 2018 message and a 2018 exchange with Tom) Dan self-mockingly frames the piece as evidence of being "a scumbag... immature" for getting it — "a literal misfits tattoo" is invoked more than once, by Dan and by others, as shorthand for arrested-development…  
   ↳ [[wiki/self/tattoos]] · Misfits: skull in a pizza slice, and a second Misfits piece
 - · **August 2018** — An August 2018 exchange has Dan and Joe jointly reconstructing the band's full setlist from memory, years later.  
@@ -3935,6 +3965,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/dave-moore]] · What the record has him doing
 - ★ **2018-08-01** — The 2018-08-01 line is the only documented post-funeral contact between the two halves of the family, and Annie's reaction to it — *wait wtf* — is the measure of how unexpected it was.  
   ↳ [[wiki/people/dave-moore]] · What the record has him doing
+- · **2018-08-07** — He covers, and he says why.** *"But you know me man…I'm pretty easy going about whatever happens and I need the paper so I'm gonna be cool either way"* (2018-08-07, on being double-booked to spin).  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
 - · **2018-08-08** — Exactly one instance in eleven years is resolvable from the corpus, and it resolved false.** On 2018-08-08 Dan writes *"I am 75% sure this is my last summer at Nemacolin."* nemacolin caddying dates the job **April 2016 – November 2019** per his own resume: he worked the 2019 season too.  
   ↳ [[wiki/mind/concepts/calibrated-confidence]] · The calibration test is not runnable, and that is the finding
 - · **2018-08-12** — In the same August 12, 2018 conversation where Dan explains the camming operation's blackmail-resistance logic to Joe, he adds, in passing and as already completed: "We even had a threesome with my ex (the girl I left for Annie) on cam haha" — meaning Alexis.  
@@ -3955,10 +3987,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/bill]] · Bill (golf/pharma customer)
 - · **September 2018** — Last name, and whether contact continued past September 2018, are undocumented.  
   ↳ [[wiki/people/bill]] · Gaps
+- · **September 2018** — New from the re-derivation, and unresolved:** where the $14,000 came from in September 2018 — the estate had not distributed and estate money spine documents no advance before 2019-10-12, so a lump that size in Dan's hands that month is an open source question, not an open amount one.  
+  ↳ [[wiki/people/davey-fitzpatrick]] · Corpus record
 - · **September 2018** — Defining content  
   ↳ [[wiki/people/david-beard]] · Corpus record
 - · **September 2018** — Across five documented occasions between February and September 2018 — **four of them after Fran was dead** — Dan gives out 117 Belmont Circle as the place to come and meet him:  
   ↳ [[wiki/places/117-belmont-circle]] · The eight months the house belonged to Dan
+- · **2018-09-02** — Sick with no voice at the start of September he still drives up: *"I'm def not gonna be able to caddie but if you need someone up there to wait around just in case I can do that my dude"* — *"I'm gonna be the team cheerleader"* (2018-09-02).  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
 - · **2018-09-02** — 1 — First message in the thread (handle +172****5006)  
   ↳ [[wiki/people/emaly-minerd]] · Master timeline
 - · **2018-09-02** — Chapter 1 messages  
@@ -3975,6 +4011,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/mike-zollinger]] · Mike Zollinger
 - ★ **2018-09-16** — An isolated 2018 mention predates the transition and carries no gender marker either way: a September 16, 2018 message in Jim Vrabel's unrelated thread notes "Mohler sent me a happy birthday.  
   ↳ [[wiki/people/jamie-mohler]] · The 2023 transition
+- ★ **2018-09-20** — t022 — The ~$14,000 that moved from Dan to Suzanne Frank in 2018 was a loan against the expected estate, to be repaid on distribution — not a gift, and not money he took from her — quantity, attribution, causation — certain — confirmed  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
+- ◆ **2018-09-20** — The $14,000 to his mother, on the day, with the reason.** 2018-09-20, 12:37pm: *"Gotta loan my mom $14,000 to pay her property taxes and it will cost me an extra $400 if I can't get to the bank before 4."* Then: *"I'm not even used to having that kind of money let alone loaning it out so I'm a…  
+  ↳ [[wiki/people/davey-fitzpatrick]] · What Dan's half turned out to hold
 - · **2018-09-20** — The thread ends September 20, 2018 with an unanswered "What up broski.  
   ↳ [[wiki/people/bill]] · The exchange
 - ◆ **2018-09-23** — The bulk of the 85-message thread is a single September 23, 2018 conversation about golf — equipment upgrades ("nothing worse than an aggressively competitive amateur golfer... yeah i mean as long as you're having fun then there's really no need to sweat the numbers"), scores creeping down from the…  
@@ -4071,6 +4111,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/al]] · The relationship
 - ★ **2018-11-02** — The thread ends the day Dan tells him about New York: the final conversation (November 2, 2018) is Davey absorbing the news — "you guys gonna move there for a bit? … Wow dude that's serious!  
   ↳ [[wiki/people/davey-fitzpatrick]] · Davey Fitzpatrick
+- ★ **2018-11-02** — The NYC decision, stated as a plan with two revenue lines.** 2018-11-02, his thirtieth birthday (*"I'm fucking so upset I can't call myself a '20 something' anymore"*): *"I'm gonna do whatever for a day job and try my hand at comedy"* — *"And I can get dj gigs too."* This is the earliest documented…  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
 - ◆ **2018-11-03** — The earliest identified instance predates the arrangement's "formal" 2018 start and involves someone from Dan's own history rather than a stranger: days after Alexis's release from a year at SCI Muncy, she and Annie were together at Dan and Annie's house with Dan present (Nov 3, 2018) — full…  
   ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
 - ◆ **2018-11-03** — Alexis-Annie reunion, days after Alexis's SCI Muncy release  
@@ -4456,6 +4498,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/suzanne-frank]] · Timeline
 - ◆ **June 2019** — That same June 2019, she was working as a paid provider in her own right, under the alias **"Hazel"** (also "Lily Lush," and the joint camming handles "smashonistaa"/"sofvded").  
   ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
+- ◆ **June 2019** — It now has a date, a purpose, and — the part that matters — **the word "loan" in Dan's mouth on the day, to a third party with no stake in it**, nine months before the June 2019 fight in which he writes *"I LENT YOU 14,000."  
+  ↳ [[wiki/people/davey-fitzpatrick]] · What Dan's half turned out to hold
 - · **June 2019** — By June 2019 the $14,000 had become the thing they fought about.  
   ↳ [[wiki/people/suzanne-frank]] · The ledger that never closes
 - · **June 2019** — the 3 July ledger fight  
@@ -7853,6 +7897,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/supply-network]] · And it cost the network nothing measurable
 - · **2026-09-04** — an AI reading of the above  
   ↳ [[wiki/people/alexis-armel]] · The record
+- · **2026-09-04** — The figure was **382** (Received only) until 2026-09-04 and **775** for a day after that; 779 is the count over the union of both exports, deduplicated.  
+  ↳ [[wiki/people/davey-fitzpatrick]] · Corpus record
 - · **2026-09-04** — Six dated messages from her name Judge Fred Adams — the trustee of the Coldren accounts and, until 2026-09-04, a figure whose page said every fact about him came from Dan's narration.  
   ↳ [[wiki/people/suzanne-frank]] · Her channel is the only record of the man who held the money
 - · **2026-09-04** — Cross-read against index on 2026-09-04.  
@@ -7873,4 +7919,4 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 390 wiki pages. 3,927 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 390 wiki pages. 3,928 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*

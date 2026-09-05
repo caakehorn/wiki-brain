@@ -14,7 +14,7 @@ this is the state of the thing.
 | | |
 |---|---|
 | Pages | 498 |
-| Pages touched in the last 14 days | 228 |
+| Pages touched in the last 14 days | 229 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 49 |
 | Open gaps | 713 |
@@ -47,10 +47,11 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-09-05** — 4 pages
+**2026-09-05** — 11 pages
   - connect | meta | the wiki names 570 things it does not link — 344 of them now clickable
+  - connect | meta | 453 of 497 pages were one-way doors
 
-**2026-09-04** — 104 pages
+**2026-09-04** — 98 pages
   - lint | meta | the crosslink campaign had been counting a link that isn't one
   - connect | people | 79 lines had been written about a 1,789-message thread
   - connect | people | the handles were on the pages all along, and the guard could not see nine of them

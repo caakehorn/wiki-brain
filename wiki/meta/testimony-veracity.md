@@ -21,7 +21,7 @@ chart:
         "hedged": 0.60
     - name: "What it turned out to be worth"
       points:
-        "certain": 0.25
+        "certain": 0.40
         "confident": 0.69
         "hedged": 0.62
 sources:
@@ -43,17 +43,17 @@ A single trust score would collapse two facts that behave differently. **Veracit
 
 | | value | n |
 |---|---|---:|
-| **Veracity** | **51 / 100** — +1.0 points on 35.0 weight | 12 |
-| **Calibration** | Brier 0.323, skill -0.29 vs a coin flip | 12 |
-| **Stated vs actual** | -0.26 | 12 |
+| **Veracity** | **57 / 100** — +5.5 points on 39.5 weight | 13 |
+| **Calibration** | Brier 0.298, skill -0.19 vs a coin flip | 13 |
+| **Stated vs actual** | -0.24 | 13 |
 
-Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 12 settled claims, not thousands.
+Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 13 settled claims, not thousands.
 
 ## What his confidence is actually worth
 
 | band | he states | it is worth | gap | n |
 |---|---:|---:|---:|---:|
-| certain | 0.95 | 0.25 | -0.70 | 4 |
+| certain | 0.95 | 0.40 | -0.55 | 5 |
 | confident | 0.80 | 0.69 | -0.11 | 4 |
 | hedged | 0.60 | 0.62 | +0.03 | 4 |
 
@@ -61,27 +61,30 @@ Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refut
 
 | outcome | n | meaning |
 |---|---:|---|
-| confirmed | 5 | independent evidence bears it out |
+| confirmed | 6 | independent evidence bears it out |
 | partial | 2 | the core holds, a material detail does not |
 | self_contradicted | 1 | he has given two accounts that cannot both be true |
 | refuted | 4 | independent evidence contradicts it |
 | unfalsifiable | 6 | checked, and the corpus cannot settle it — **scores zero, never negative** |
+| _unadjudicated_ | 1 | not yet checked; excluded from every statistic |
 
 ## By claim class
 
-Rates are shrunk toward the global 0.52 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
+Rates are shrunk toward the global 0.56 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
 
 | class | n | raw | shrunk | 95% CI on clean confirmations | dominant failure |
 |---|---:|---:|---:|---|---|
-| date | 5 | 0.40 | 0.45 | 12%–77% | displacement, rounding |
-| sequence | 3 | 0.50 | 0.51 | 6%–79% | compression, overreach |
-| location | 2 | 0.12 | 0.36 | 0%–66% | displacement, rounding |
-| quantity | 2 | 1.00 | 0.71 | 34%–100% | — |
-| duration | 1 | 1.00 | 0.64 | 21%–100% | — |
-| enumeration | 1 | 0.50 | 0.52 | 0%–79% | omission |
-| existence | 1 | 1.00 | 0.64 | 21%–100% | — |
-| other_state | 1 | 0.00 | 0.39 | 0%–79% | overreach |
-| self_state | 1 | 0.50 | 0.52 | 0%–79% | compression |
+| date | 5 | 0.40 | 0.46 | 12%–77% | displacement, rounding |
+| quantity | 3 | 1.00 | 0.78 | 44%–100% | — |
+| sequence | 3 | 0.50 | 0.53 | 6%–79% | compression, overreach |
+| location | 2 | 0.12 | 0.38 | 0%–66% | displacement, rounding |
+| attribution | 1 | 1.00 | 0.67 | 21%–100% | — |
+| causation | 1 | 1.00 | 0.67 | 21%–100% | — |
+| duration | 1 | 1.00 | 0.67 | 21%–100% | — |
+| enumeration | 1 | 0.50 | 0.54 | 0%–79% | omission |
+| existence | 1 | 1.00 | 0.67 | 21%–100% | — |
+| other_state | 1 | 0.00 | 0.42 | 0%–79% | overreach |
+| self_state | 1 | 0.50 | 0.54 | 0%–79% | compression |
 
 ## Which way the errors run
 
@@ -114,6 +117,8 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 | t016 | Ron DeSantis will not challenge Donald Trump in the 2024 Republican primary. | other_state, sequence | certain | refuted | DeSantis filed and announced his candidacy on 2023-05-24. Dan acknowledged it the same day without pretending otherwise — 'Ron DeSantis is stupidly committing political suicide by moving ahead with a 2024 primary run' — restating the underlying analysis as a judgement about the decision rather than defending the prediction. |
 | t018 | Rob Orange died in 2013 | date | hedged | refuted | wiki/people/rob-orange — Lauryn's same-day reaction to the news, 2014-04-11, the corpus's only contemporaneous account of the death |
 | t019 | Fran's house, listed at 350000 dollars, will sell for between 250000 and 300000 | quantity | hedged | confirmed | Sale closed summer 2019 at $250,000 (operator testimony 2026-08-27, carried on wiki/people/danny-matthews) — the bottom of his stated range and $100,000 under the list price he was reacting to |
+| t021 | As of May 2017 Dan was spending well over $100 a day on cocaine. | quantity, behavior | confident | _pending_ | — |
+| t022 | The ~$14,000 that moved from Dan to Suzanne Frank in 2018 was a loan against the expected estate, to be repaid on distribution — not a gift, and not money he took from her | quantity, attribution, causation | certain | confirmed | raw/self/dox-scan/all_imessages_complete_dump.txt — 2018-09-20 12:37, to Davey Fitzpatrick mid-shift: 'Gotta loan my mom $14,000 to pay her property taxes and it will cost me an extra $400 if I can't get to the bank before 4', then at 12:39 'I'm not even used to having that kind of money let alone loaning it out so I'm a mess'. Nine months before the June 2019 dispute, to a coworker with no stake in the framing, unprompted and in passing. The later claim is not retrospective self-justification: it is how he described the transaction on the day, before anyone contested it. |
 
 ## What this ledger cannot see
 

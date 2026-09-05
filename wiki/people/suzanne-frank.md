@@ -7,7 +7,7 @@ importance: critical
 status: active
 knowledge: mixed
 date_created: 2026-06-22
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 date_range_start: 1962-09-15
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
@@ -48,6 +48,9 @@ infobox:
   handles: ["+172****8715", "suzfrank@***.net", "suzfrank915@***.com"]
   known_for: "The 33,698-message thread that is the second-largest relationship record in the corpus, and the unsettled mutual ledger running through all of it"
 connections:
+  - page: wiki/people/davey-fitzpatrick
+    type: evidenced-by
+    claim: "The $14,000 has a date and a stated purpose from outside the mother-son thread: 'Gotta loan my mom $14,000 to pay her property taxes' (2018-09-20, to a coworker) — the exact recurring liability this page names as her structural problem, $10,000 a year in property taxes against $11,000-$14,000 a year in income."
   - page: wiki/people/fred-adams
     type: evidences
     claim: "Her channel is the only contemporaneous record the corpus holds of Judge Fred Adams: six dated messages, including her going to him for money before a closing (2018-11-05, 'I'm not going to make it until my next closing') and her reporting his death (2020-05-24, 'quite by coincidence, that judge Adams died several days ago'). She is the family's line to the man who controlled its money, and until 2026-09-04 his page said no such record existed."
@@ -247,7 +250,19 @@ October 2018. It is not prose; it is an account statement.
 
 The $14,000 is the load-bearing number in the relationship, and it moved
 **from Dan to Suz**, which is the opposite direction from the one this page
-previously implied. In August 2018 — four months after
+previously implied.
+
+> **ADDED [2026-09-05] — what it was for, and what he called it at the time.**
+> On **2018-09-20**, telling his boss why he needed to leave a shift early:
+> *"Gotta loan my mom $14,000 to pay her property taxes and it will cost me an
+> extra $400 if I can't get to the bank before 4"*
+> ([[wiki/people/davey-fitzpatrick]]). **The money went to the liability this
+> page identifies as the governing fact of her finances** — $10,000 a year in
+> property taxes against $11,000–$14,000 a year in income — which makes it a
+> payment against the structural shortfall rather than a general float. And he
+> calls it a *loan* the same hour, to somebody with no stake in the framing,
+> nine months before the June 2019 fight in which each of them claims to be the
+> creditor. In August 2018 — four months after
 [[wiki/people/fran-coldren|Fran]] died and two years before the estate
 actually distributed — Dan told her he was going to "take out $20k to float me
 until the estate is wrapped up (fingers crossed) and I'm going to add your

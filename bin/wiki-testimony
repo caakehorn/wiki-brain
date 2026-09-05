@@ -348,6 +348,27 @@ def project(events):
     }
 
 
+# The operator under any other name. `--speaker` exists so third-party
+# testimony can be recorded and kept OUT of Dan's own score — correct, and the
+# reason every statistic here filters on `speaker == "operator"`. The trap is
+# that the filter is silent, so a first-person claim filed as `--speaker dan`
+# is treated as somebody else's and disappears from the score, the profile and
+# the public page with nothing saying so.
+#
+# It had already happened twice when this was written (2026-09-05): **t017**
+# (*"As of May 2017 Dan was spending well over $100 a day on cocaine"*, filed
+# `dan`) and **t020** (the $14,000 loan framing, filed `Dan`). The headline was
+# being computed over 18 of 20 records and reporting no such thing.
+SPEAKER_ALIASES = {"dan", "dan frank", "danfrank", "d", "self", "operator",
+                   "dfrank88@gmail.com"}
+
+
+def normalise_speaker(name):
+    """`dan`, `Dan`, `Dan Frank` and `self` all mean the operator."""
+    n = (name or "operator").strip()
+    return "operator" if n.lower() in SPEAKER_ALIASES else n
+
+
 def live_records(state, speaker="operator"):
     """Adjudicable records for one speaker. Voided rows never reach a statistic."""
     return [v for v in state["testimonies"].values()
@@ -485,7 +506,7 @@ def cmd_record(args):
         "specificity": args.specificity,
         "load_bearing": bool(args.load_bearing),
         "subject": args.subject,
-        "speaker": args.speaker,
+        "speaker": normalise_speaker(args.speaker),
         "asserted": args.asserted or today(),
         "about": args.about or "",
         "source": args.source or "",
@@ -1189,6 +1210,21 @@ def cmd_check(args):
                 errors.append(f"{tid}: unknown claim class '{c}'")
         if r.get("confidence") not in CONFIDENCES:
             errors.append(f"{tid}: unknown confidence '{r.get('confidence')}'")
+        # A record filed under any speaker but the operator is excluded from
+        # every statistic and from the public page BY CONSTRUCTION — which is
+        # right for real third-party testimony and silent when it is a
+        # misfiling. Say it out loud on every run, so a deliberate third-party
+        # record reads as deliberate and an accident is caught the next time
+        # the gate runs. `record` now normalises the operator's own aliases;
+        # this catches what is already in the log and anything a hand-written
+        # event puts there.
+        sp = r.get("speaker", "operator")
+        if sp != "operator":
+            warnings.append(
+                f"{tid}: speaker '{sp}' — excluded from the score, the profile "
+                f"and the public page. Intended for third-party testimony; if "
+                f"this is Dan's own claim it is invisible and should be voided "
+                f"and re-recorded")
         a = r.get("adjudication")
         if not a:
             continue

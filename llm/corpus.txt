@@ -1,5 +1,5 @@
 WIKI-BRAIN FULL CORPUS EXPORT — generated 2026-09-05
-498 pages, ~1,910,186 tokens.
+498 pages, ~1,918,391 tokens.
 This file concatenates every page of a personal wiki about Dan Frank.
 Pages are separated by lines of = signs, each starting 'PAGE: <path>'.
 Each page begins with YAML frontmatter (metadata) then markdown prose.
@@ -10117,7 +10117,7 @@ domain: interests
 page_type: entity
 status: stable
 date_created: 2026-07-16
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 sources:
   - "raw/self/dox-scan/Dan Profile.txt"
   - "raw/self/dox-scan/all_imessages_complete_dump.txt"
@@ -10130,6 +10130,9 @@ related:
   - wiki/mind/profile/linguistic-profile
 tags: [nyc-era, personality-profile, digital-footprint]
 connections:
+  - page: wiki/people/davey-fitzpatrick
+    type: evidenced-by
+    claim: "The moment the ambition becomes load-bearing rather than aspirational: asked what he and Annie would do in New York, 'I'm gonna do whatever for a day job and try my hand at comedy' — 'And I can get dj gigs too' (2018-11-02). Comedy named first, day job as 'whatever', and the only place the comedy plan and the DJ work appear as parallel income lines."
   - page: wiki/people/new-jim-shaffer
     type: evidenced-by
     claim: "The written set, which this page had recorded only as an ambition: 'heres my comedy set so far' (2019-04-12) and three bits — the cancer-donation regret against 'thousands on drugs', millennials and call spoofing, and the bald-eagle story. Complete material, a stage name, and no stage."
@@ -10199,6 +10202,27 @@ The ambition to perform, not just watch, is documented across years:
 - **2019-04-02**, the same friend hands him a stage name: "Dude I came
   up with your comedy name for when u do standup/YouTube. It's **'Nad
   Knarf'**" — "Dan Frank" reversed. The persona got as far as a name.
+
+> **ADDED [2026-09-05] — the point at which the ambition starts paying rent.**
+> The bullets above trace an intention from 2017-12-28 (*"try stand up at least
+> once"*) to 2019-04-12 (*"a solid 5 minutes"*). Between them sits the moment it
+> stops being an intention and becomes a **reason to move house.**
+>
+> **2018-11-02**, telling his caddie boss the New York plan on the day it was
+> decided ([[wiki/people/davey-fitzpatrick]]) — Davey: *"Damn, any idea what
+> you guys are gonna do?"*
+>
+> — *"I'm gonna do whatever for a day job and try my hand at comedy"*
+> — *"And I can get dj gigs too"*
+>
+> **Comedy is named first and the day job is "whatever."** Everything else in
+> this section is Dan saying he would like to do stand-up; this is Dan giving
+> stand-up as one of the two things New York is *for*, to a third party, with
+> the apartment-scouting trip already booked (*"Hotel for 3 days when we go up
+> next week…$765"*). It is also the only place in the corpus where the comedy
+> plan and the DJ work ([[wiki/interests/music/aliases/sloppp]] and its
+> successors) are named in the same breath as parallel income lines rather than
+> as separate interests.
 
 > **THE SET EXISTED, AND HERE IS WHAT WAS IN IT [2026-09-04].** This section
 > closed on *"whether or not a set ever happened"*. Ten minutes after the
@@ -11308,7 +11332,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 498 |
-| Pages touched in the last 14 days | 228 |
+| Pages touched in the last 14 days | 229 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 49 |
 | Open gaps | 713 |
@@ -11341,10 +11365,11 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-05** — 4 pages
+**2026-09-05** — 11 pages
   - connect | meta | the wiki names 570 things it does not link — 344 of them now clickable
+  - connect | meta | 453 of 497 pages were one-way doors
 
-**2026-09-04** — 104 pages
+**2026-09-04** — 98 pages
   - lint | meta | the crosslink campaign had been counting a link that isn't one
   - connect | people | 79 lines had been written about a 1,789-message thread
   - connect | people | the handles were on the pages all along, and the guard could not see nine of them
@@ -13039,11 +13064,11 @@ chart:
     - name: "Entries"
       points:
         "Translated": 28
-        "Major lane": 44
+        "Major lane": 43
         "Free lane": 39
         "Held (people)": 94
         "Too thin": 47
-        "Withheld": 217
+        "Withheld": 218
 sources: []
 ---
 
@@ -13068,9 +13093,9 @@ This page is the campaign to write one for every entry.
 | | |
 |---|---|
 | Entries with a plain-English edition | **28** |
-| Entries eligible for one | 279 |
-| Withheld under the standing directive | 217 |
-| Coverage | 10.0% |
+| Entries eligible for one | 278 |
+| Withheld under the standing directive | 218 |
+| Coverage | 10.1% |
 
 ## The two lanes
 
@@ -13080,7 +13105,7 @@ is arithmetic in `bin/wiki-plain`: 900 words is the boundary.
 
 | Lane | What is in it | Outstanding |
 |---|---|---|
-| `major` | entries of 900 words or more — the dense findings | 44 |
+| `major` | entries of 900 words or more — the dense findings | 43 |
 | `free` | entries under 900 words, worked smallest first | 39 |
 
 A further **94** eligible entries about other people are in
@@ -13132,7 +13157,7 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 
 ## Next up
 
-**major** — 44 outstanding
+**major** — 43 outstanding
 
 - [[wiki/self/twitter/2024]] (11197 words)
 - [[wiki/self/twitter/2010]] (11117 words)
@@ -13182,16 +13207,23 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-05 — 4 pages
+## 2026-09-05 — 11 pages
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/interests/stand-up-comedy]] | interests | — |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
 | [[wiki/meta/testimony-veracity]] | meta | — |
+| [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a RE-CHECKED from 2026-08-28)_ |
+| [[wiki/mind/synthesis/failure-to-launch]] | mind | _(carries a RE-CHECKED from 2026-09-04)_ |
+| [[wiki/people/davey-fitzpatrick]] | people | — |
+| [[wiki/people/jack-rusko]] | people | — |
+| [[wiki/people/suzanne-frank]] | people | _(carries a RE-CHECKED from 2026-08-26)_ |
+| [[wiki/people/trevor]] | people | **CORRECTED** — The thank-you exchange above is real. What the paragraph does not say is that **Dan learned of the departure from somebody else, and reacted before that exchange happened.** On **2018-07-26** the assi |
 
-## 2026-09-04 — 104 pages
+## 2026-09-04 — 98 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -13208,7 +13240,6 @@ simply listed.
 | [[wiki/interests/food-and-diet]] | interests | **RE-CHECKED** — the-cool-metric gained a substantive section: the twitter archive shows the sorting metric run on a six-year live-in partner, with affection in the public register falling from 12 of 32 mentions in 20 |
 | [[wiki/interests/music/aliases/sloppp]] | interests | _(carries a GAP CLOSED from 2026-09-02)_ |
 | [[wiki/interests/opie-and-anthony]] | interests | _(carries a CONTRADICTION from 2026-09-03)_ |
-| [[wiki/interests/stand-up-comedy]] | interests | — |
 | [[wiki/interests/the-office]] | interests | — |
 | [[wiki/meta/readers-digest]] | meta | — |
 | [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
@@ -13222,8 +13253,6 @@ simply listed.
 | [[wiki/mind/synthesis/block-unblock-loop]] | mind | **RE-CHECKED** — rick-frank gained one typed edge and no prose: his 2018-01-06 message, already quoted on that page, is now also cited on fred-adams as the corpus's only statement of what Adams was to the family. **No |
 | [[wiki/mind/synthesis/bond-switch-2015]] | mind | **RE-CHECKED** — alexis-armel gained a measurement of the relationship's public register: it stops on **29 November 2013** and holds at zero for the last **twenty-four months**, across 1,132 posts, in years when his d |
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — alexis-armel gained a measurement of the relationship's public register — zero mentions across the last twenty-four months and 1,132 posts, in years when his distinct-handle count peaked at 57 — and |
-| [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a RE-CHECKED from 2026-08-28)_ |
-| [[wiki/mind/synthesis/failure-to-launch]] | mind | **RE-CHECKED** — nemacolin-caddying moved for the vaughn re-derivation: the yard drug-tested and the crew shared clean urine, and Vaughn corrected Dan's golf grip. This page cites Nemacolin for **tenure** — 43 months, |
 | [[wiki/mind/synthesis/intake-constancy]] | mind | **RE-CHECKED** — supply-network moved for the vaughn re-derivation, adding the succession's missing 2017 node and one measurement: the corpus's next new supply relationship opens **twenty-three days after the ne |
 | [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] | mind | **RE-CHECKED** — ally-and-dan-love-as-destiny moved on 2026-09-04 solely by having `destiny`, `the love story`, `ally-dan timeline`, `the courtship` and `the case` removed from its frontmatter. All five were invention |
 | [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — the-cool-metric gained a section measuring the public register on the six-year partner: affection at 12 of 32 mentions in 2010, 3 of 47 across 2011-2014, then zero for the relationship's last twenty-f |
@@ -13246,13 +13275,11 @@ simply listed.
 | [[wiki/people/christian-hanson]] | people | — |
 | [[wiki/people/clyde]] | people | — |
 | [[wiki/people/danny-matthews]] | people | **CORRECTED** — It says above that the 349 figure is a two-way conversation misreported by the export, which is correct as far as it goes. The two-way thread is **770 messages: 421 from Dan, 349 from Danny**, and his |
-| [[wiki/people/davey-fitzpatrick]] | people | **CORRECTED** — This paragraph said the record was *"his side only (every row marked Received)"* and that Dan's voice survived only in the tapback quotes Davey reacted to. **393 messages from Dan are in the corpus th |
 | [[wiki/people/drew]] | people | — |
 | [[wiki/people/eric-jester]] | people | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/people/eric-springer]] | people | — |
 | [[wiki/people/franki-faris]] | people | _(carries a REVISED from 2026-07-13)_ |
 | [[wiki/people/fred-adams]] | people | **CORRECTED** — This section read: *"Adams sends and receives nothing in the message corpus; every fact here comes from Dan's narration or from the estate attorney's calls, and the estate attorney reached in August 2 |
-| [[wiki/people/jack-rusko]] | people | — |
 | [[wiki/people/jajuan-davis]] | people | — |
 | [[wiki/people/james-dee]] | people | _(carries a GAP CLOSED from 2026-08-20)_ |
 | [[wiki/people/jason-cole]] | people | — |
@@ -13278,7 +13305,6 @@ simply listed.
 | [[wiki/people/sam]] | people | — |
 | [[wiki/people/shannon]] | people | — |
 | [[wiki/people/steve-kezmarsky]] | people | _(carries a REVISED from 2026-07-19)_ |
-| [[wiki/people/suzanne-frank]] | people | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/people/suzanne-frank-personality-assessment]] | people | **RE-CHECKED** — suzanne-frank gained a section on her six messages naming Judge Fred Adams. **No scored dimension here is affected.** Worth recording for a later pass: the 2018-11-05 message asks a sitting judge and  |
 | [[wiki/people/tan-calabrese]] | people | _(carries a REVISED from 2026-08-09)_ |
 | [[wiki/people/the-unnamed-man]] | people | _(carries a REVISED from 2026-08-09)_ |
@@ -13840,7 +13866,7 @@ chart:
         "hedged": 0.60
     - name: "What it turned out to be worth"
       points:
-        "certain": 0.25
+        "certain": 0.40
         "confident": 0.69
         "hedged": 0.62
 sources:
@@ -13862,17 +13888,17 @@ A single trust score would collapse two facts that behave differently. **Veracit
 
 | | value | n |
 |---|---|---:|
-| **Veracity** | **51 / 100** — +1.0 points on 35.0 weight | 12 |
-| **Calibration** | Brier 0.323, skill -0.29 vs a coin flip | 12 |
-| **Stated vs actual** | -0.26 | 12 |
+| **Veracity** | **57 / 100** — +5.5 points on 39.5 weight | 13 |
+| **Calibration** | Brier 0.298, skill -0.19 vs a coin flip | 13 |
+| **Stated vs actual** | -0.24 | 13 |
 
-Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 12 settled claims, not thousands.
+Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 13 settled claims, not thousands.
 
 ## What his confidence is actually worth
 
 | band | he states | it is worth | gap | n |
 |---|---:|---:|---:|---:|
-| certain | 0.95 | 0.25 | -0.70 | 4 |
+| certain | 0.95 | 0.40 | -0.55 | 5 |
 | confident | 0.80 | 0.69 | -0.11 | 4 |
 | hedged | 0.60 | 0.62 | +0.03 | 4 |
 
@@ -13880,27 +13906,30 @@ Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refut
 
 | outcome | n | meaning |
 |---|---:|---|
-| confirmed | 5 | independent evidence bears it out |
+| confirmed | 6 | independent evidence bears it out |
 | partial | 2 | the core holds, a material detail does not |
 | self_contradicted | 1 | he has given two accounts that cannot both be true |
 | refuted | 4 | independent evidence contradicts it |
 | unfalsifiable | 6 | checked, and the corpus cannot settle it — **scores zero, never negative** |
+| _unadjudicated_ | 1 | not yet checked; excluded from every statistic |
 
 ## By claim class
 
-Rates are shrunk toward the global 0.52 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
+Rates are shrunk toward the global 0.56 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
 
 | class | n | raw | shrunk | 95% CI on clean confirmations | dominant failure |
 |---|---:|---:|---:|---|---|
-| date | 5 | 0.40 | 0.45 | 12%–77% | displacement, rounding |
-| sequence | 3 | 0.50 | 0.51 | 6%–79% | compression, overreach |
-| location | 2 | 0.12 | 0.36 | 0%–66% | displacement, rounding |
-| quantity | 2 | 1.00 | 0.71 | 34%–100% | — |
-| duration | 1 | 1.00 | 0.64 | 21%–100% | — |
-| enumeration | 1 | 0.50 | 0.52 | 0%–79% | omission |
-| existence | 1 | 1.00 | 0.64 | 21%–100% | — |
-| other_state | 1 | 0.00 | 0.39 | 0%–79% | overreach |
-| self_state | 1 | 0.50 | 0.52 | 0%–79% | compression |
+| date | 5 | 0.40 | 0.46 | 12%–77% | displacement, rounding |
+| quantity | 3 | 1.00 | 0.78 | 44%–100% | — |
+| sequence | 3 | 0.50 | 0.53 | 6%–79% | compression, overreach |
+| location | 2 | 0.12 | 0.38 | 0%–66% | displacement, rounding |
+| attribution | 1 | 1.00 | 0.67 | 21%–100% | — |
+| causation | 1 | 1.00 | 0.67 | 21%–100% | — |
+| duration | 1 | 1.00 | 0.67 | 21%–100% | — |
+| enumeration | 1 | 0.50 | 0.54 | 0%–79% | omission |
+| existence | 1 | 1.00 | 0.67 | 21%–100% | — |
+| other_state | 1 | 0.00 | 0.42 | 0%–79% | overreach |
+| self_state | 1 | 0.50 | 0.54 | 0%–79% | compression |
 
 ## Which way the errors run
 
@@ -13933,6 +13962,8 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 | t016 | Ron DeSantis will not challenge Donald Trump in the 2024 Republican primary. | other_state, sequence | certain | refuted | DeSantis filed and announced his candidacy on 2023-05-24. Dan acknowledged it the same day without pretending otherwise — 'Ron DeSantis is stupidly committing political suicide by moving ahead with a 2024 primary run' — restating the underlying analysis as a judgement about the decision rather than defending the prediction. |
 | t018 | Rob Orange died in 2013 | date | hedged | refuted | wiki/people/rob-orange — Lauryn's same-day reaction to the news, 2014-04-11, the corpus's only contemporaneous account of the death |
 | t019 | Fran's house, listed at 350000 dollars, will sell for between 250000 and 300000 | quantity | hedged | confirmed | Sale closed summer 2019 at $250,000 (operator testimony 2026-08-27, carried on wiki/people/danny-matthews) — the bottom of his stated range and $100,000 under the list price he was reacting to |
+| t021 | As of May 2017 Dan was spending well over $100 a day on cocaine. | quantity, behavior | confident | _pending_ | — |
+| t022 | The ~$14,000 that moved from Dan to Suzanne Frank in 2018 was a loan against the expected estate, to be repaid on distribution — not a gift, and not money he took from her | quantity, attribution, causation | certain | confirmed | raw/self/dox-scan/all_imessages_complete_dump.txt — 2018-09-20 12:37, to Davey Fitzpatrick mid-shift: 'Gotta loan my mom $14,000 to pay her property taxes and it will cost me an extra $400 if I can't get to the bank before 4', then at 12:39 'I'm not even used to having that kind of money let alone loaning it out so I'm a mess'. Nine months before the June 2019 dispute, to a coworker with no stake in the framing, unprompted and in passing. The later claim is not retrospective self-justification: it is how he described the transaction on the day, before anyone contested it. |
 
 ## What this ledger cannot see
 
@@ -28246,7 +28277,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -28255,6 +28286,7 @@ sources:
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/message-csv/imessage_7243228715_both_all_now.csv"
   - "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"
+  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
 synthesizes:
   - wiki/people/fran-coldren
   - wiki/people/suzanne-frank
@@ -28264,6 +28296,9 @@ synthesizes:
   - wiki/mind/profile/big-five-psychometrics
 tags: [financial-stress, forensic-analysis, family]
 connections:
+  - page: wiki/people/davey-fitzpatrick
+    type: evidenced-by
+    claim: "A coworker thread this page had never read dates the $14,000 to 2018-09-20 12:37, names its purpose as Suz's property taxes, prices the deadline ('an extra $400 if I can't get to the bank before 4'), and — the part that changes an interpretation rather than a figure — has Dan calling it a loan contemporaneously, to a third party with no stake in the framing."
   - page: wiki/people/new-jim-shaffer
     type: evidenced-by
     claim: "Dates the expectation the eighteen-month wait was measured against: 'just found out they're cutting big distribution checks for us soon' (2018-04-24, twenty days after the death) against a first documented advance of 2019-10-12 — plus the position it was served from ('still have no access to my accounts via rick', 'will be the first real money i've ever had') and a self-named 'HIGH BURN RATE' running a year before the distribution."
@@ -28579,6 +28614,33 @@ $1000 / $14,000+ / Sum of transactions on app."* He recovered $4,000 of it
 before she stopped repaying, and by July 2019 the two of them were threatening
 each other with court over the same money, each claiming to be the creditor.
 
+> **ADDED [2026-09-05] — the transfer has a day, a purpose, and a
+> contemporaneous framing, from a thread this page never cited.** The band
+> above was `2018-08 → 2018-10`. On **2018-09-20 at 12:37pm** Dan tells his
+> caddie-yard boss, mid-shift, why he needs a cut: *"Gotta loan my mom $14,000
+> to pay her property taxes and it will cost me an extra $400 if I can't get to
+> the bank before 4."* Two minutes later: *"I'm not even used to having that
+> kind of money let alone loaning it out so I'm a mess."*
+> ([[wiki/people/davey-fitzpatrick]].)
+>
+> **Three things move.** The purpose is **her property taxes** — the exact
+> recurring liability this page names two paragraphs down as her structural
+> problem, $10,000 a year against $11,000–$14,000 a year of income. There was a
+> **hard deadline with a $400 penalty**, so the transfer was not discretionary
+> timing. And the money is called a **loan, by Dan, on the day, to a third
+> party with nothing at stake in the answer** — nine months before the June
+> 2019 exchange where he writes *"I LENT YOU 14,000 … which i'm supposed to be
+> paid back when the inheritance comes"* and she counters that he stole from
+> her. That later claim now has contemporaneous corroboration rather than
+> standing on his memory of his own intent.
+>
+> **What it does not settle is where the money came from.** No advance is
+> documented before 2019-10-12. Seven hours after saying he is a mess about
+> lending $14,000, he asks Davey for shifts: *"I need to work so I can pay off
+> the new Apple watch."* A man holding $14,000 and short for a watch payment
+> the same evening is either bridging against something undocumented or the
+> $20,000 draw was already largely spent. The corpus does not say which.
+
 This adds a rule the spine did not have. It is not only that lumps arrive and
 drain; it is that **a lump arriving anywhere in this family is immediately
 re-lent inside it, on no paper, at the moment of arrival** — Dan lent out 70%
@@ -28820,7 +28882,7 @@ status: stable
 knowledge: earned
 importance: high
 date_created: 2026-08-22
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 tags: [career, personality-profile, financial-stress, music-production, ai-collaboration]
 sources:
   - raw/self/dox-md/Honest assessment and value judgment analysis.md
@@ -28849,6 +28911,9 @@ synthesizes:
   - wiki/work/creative-license
   - wiki/interests/music/overview
 connections:
+  - page: wiki/people/davey-fitzpatrick
+    type: evidenced-by
+    claim: "Discharges the caddie-yard case's standing caveat with a direct statement of intent: 'i like the job and culture and community of caddying so much, first job i've found that i don't end up dreading work everyday' (2017-10-01), unprompted, at twenty-eight, in the eighth documented job — and what it names is culture and community, which is what a low-oversight sovereign territory feels like from inside."
   - page: wiki/work/tech/index
     type: instance-of
     claim: "One documented day of Codecademy in February 2013 and thirteen silent years, then a burst of shipped tooling once AI agents removed the need for the skill, is this page's shipping-bottleneck thesis with an unusual ending: the constraint was removed rather than overcome."
@@ -29208,7 +29273,27 @@ long tenures were **low-oversight sovereign territories**: the plywood COVID
 shed on 58th Street where he ran the "9pm night class" alibi for over a year and
 made himself sole custodian of the dying section and its cash tips
 ([[wiki/mind/concepts/institutional-out]]), and the caddie yard, where the
-status ladder is peer-visible rather than managerial. Where no territory existed
+status ladder is peer-visible rather than managerial.
+
+> **ADDED [2026-09-05] — the caddie-yard case gets a statement of intent.**
+> [[wiki/work/nemacolin-caddying]] has carried this case with a standing
+> caveat: the ladder there is *inferred from what Dan chose to record rather
+> than from any statement of intent*, which made it the weakest of the three
+> positive cases. On **2017-10-01**, unprompted, in the middle of a
+> conversation about a management restructure
+> ([[wiki/people/davey-fitzpatrick]]):
+>
+> *"i'm just conflicted because i like the job and culture and community of
+> caddying so much, **first job i've found that i don't end up dreading work
+> everyday**"*
+>
+> He is twenty-eight and it is the eighth documented job. **What he names is
+> the culture and the community — not the money, not the ladder, not the
+> autonomy in those words** — which is what a low-oversight sovereign territory
+> feels like from inside it, and is evidence for this page's reading rather
+> than against it. The sentence is also the cleanest statement anywhere in the
+> corpus that the aversion this page explains is **specific rather than
+> general**: there was one job he did not dread, he noticed, and he said so. Where no territory existed
 to hold and no objective could be installed — Caviar's app dispatch, BFS's
 register — tenure collapsed to weeks regardless of how ordinary the job was.
 
@@ -49393,7 +49478,7 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 date_range_start: 2017-05-21
 date_range_end: 2018-11-02
 sources:
@@ -49409,6 +49494,18 @@ infobox:
   handles: ["+17249639933", "dtfitzpatrick87@gmail.com"]
   known_for: "Dan's boss and friend in the 2018 caddying season — the 'X report' scheduling channel — and the last Uniontown coworker told about the NYC move, in the thread's final conversation"
 connections:
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: evidences
+    claim: "Dates the $14,000 to the day and gives it a purpose the spine did not have: 'Gotta loan my mom $14,000 to pay her property taxes and it will cost me an extra $400 if I can't get to the bank before 4' (2018-09-20, 12:37) — against a page carrying it as a 2018-08 to 2018-10 band. It also settles the framing: Dan calls it a loan the same hour, to a coworker with no stake in it, nine months before the June 2019 fight where he writes 'I LENT YOU 14,000'."
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidences
+    claim: "The statement of intent that page says the caddie-yard case lacks. It reads the yard as a low-oversight sovereign territory and calls it the weakest of its three positive cases because the ladder is inferred from what Dan recorded rather than from anything he said: 'i'm just conflicted because i like the job and culture and community of caddying so much, first job i've found that i don't end up dreading work everyday' (2017-10-01), unprompted, at twenty-eight, in the eighth documented job."
+  - page: wiki/interests/stand-up-comedy
+    type: evidences
+    claim: "Comedy named as a revenue line in the relocation decision rather than as an ambition: 'I'm gonna do whatever for a day job and try my hand at comedy' — 'And I can get dj gigs too' (2018-11-02), answering a coworker's 'any idea what you guys are gonna do?' on the day the NYC move was told to the yard. The page dates the ambition to 2017-12-28; this is the first time it is load-bearing in a decision."
+  - page: wiki/work/nemacolin-caddying
+    type: evidences
+    claim: "The drug-test countermeasure was not kept from management: the same March 2018 bottle of Jack Rusko's urine is narrated to the incoming assistant caddie master, carried to the paperwork appointment and temperature-maintained in an armpit, for a test that never happened."
   - page: wiki/work/nemacolin-caddying
     type: component-of
     claim: "Davey is the management layer of the caddie-yard record: promoted to assistant caddie master for 2018, he is the source of every documented report time, training assignment, and float in Dan's season, and his thread is the job's operational log."
@@ -49425,19 +49522,23 @@ connections:
 
 # Davey Fitzpatrick
 
-> **COUNT CORRECTED [2026-09-04] — 775, not 382.** This page reported the
-> Received-only figure as the whole thread. Dan's 393 messages to this contact
-> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
-> did not read; they were never missing from the record. Found by
-> `bin/wiki-crosslink counts`, built the same day after the same defect was
-> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
-> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
-> hours earlier. **Thirteen pages were wrong the same way.** The prose below
-> was written against the smaller, one-sided thread and has not been re-derived.
+> **RE-DERIVED [2026-09-05] — the 397 messages from Dan are read, and the
+> thread is 779 not 382.** This page was written from Davey's half alone and
+> then carried two correction blocks saying so. Both are now discharged. The
+> count correction (2026-09-04, `bin/wiki-crosslink counts`) found the
+> Received-only figure had been reported as the whole thread — the same defect
+> on thirteen pages. This pass reads what it found.
+>
+> **The reconstruction was accurate and the reconstruction was thin.** Every
+> tapback-derived quote below survives contact with the real text. What the
+> real text adds is not correction but *register*: Davey's half is a
+> scheduling channel, and Dan's half is where the season's money, its drug
+> tests, its purchases and the decision to leave Pennsylvania are all said out
+> loud.
 
 Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine
 friend across the two [[wiki/work/nemacolin-caddying|Nemacolin caddying]]
-seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a
+seasons (`+17249639933`, **779 messages**, May 2017 – November 2018): a
 fellow caddie in 2017 who came back for 2018 as **assistant caddie
 master** — "I'm actually gonna be assistant caddie master lol" — which
 made his thread the operational spine of Dan's last Uniontown working
@@ -49452,25 +49553,133 @@ living will be lol … Are you selling your place?" — and signing off with
 "Well good luck dude, I wish you guys the best." Dan was in the city
 within the week, and the thread never resumes.
 
-> **CORRECTED [2026-09-04].** This paragraph said the record was *"his side
-> only (every row marked Received)"* and that Dan's voice survived only in the
-> tapback quotes Davey reacted to. **393 messages from Dan are in the corpus
-> this page did not read** — *"Yo loc, u ever loop for teig boyle?"*
-> (2017-05-21), *"I have 9 report"* (2017-07-24), *"you know i'm back fam.
-> ready for a wavy summer"* (2018-03-19), *"Bro what a no brainer"*
-> (2018-08-04). The tapback-reconstruction method was ingenious and was
-> answering a question that had a direct answer.
->
-> **The prose below is unchanged and was written from one side.** The
-> reconstructed quotes are still correct; they are simply no longer the only
-> thing available.
+## What Dan's half turned out to hold
 
-The tapbacks below remain as originally written — Dan's voice
-survives in the messages Davey reacted to — Likes, Laughs, and Emphasis
-quotes — which happen to preserve some of the corpus's better caddie-era
-Dan lines ("He's the Pablo Picasso of Mid-Atlantic Polynesian caddies";
-"Maybe I'm just so prepared that I memorize the sheet every day so I can
-perform background research on my group").
+**It is the most candid work thread in the corpus, and it is candid because
+the audience is a friend who is also the boss.** Four things are said here
+that are said nowhere else:
+
+**1. The only job he has ever said he did not dread.** 2017-10-01, unprompted,
+in the middle of a conversation about a management rumour: *"i'm just
+conflicted because i like the job and culture and community of caddying so
+much, first job i've found that i don't end up dreading work everyday."* He
+is twenty-eight and it is the eighth documented job. See
+[[wiki/mind/synthesis/failure-to-launch]], which reasons about a work history
+this sentence is the one clean counterexample inside.
+
+**2. The peak earning day, dated and priced.** 2017-10-03: *"i had a $550 day
+and he was with the same group"* — *"they all gave me hundreds and then
+venmo'd me another hundo when we got back."* And immediately, a prediction:
+*"i think i peak'd today. there's no way i'll ever make more jam that haha."*
+
+**3. Two drug tests, evaded, narrated as comedy.** 2018-03-19, the night
+before season paperwork: *"i wasn't sure if i should be ready for drug test
+when i go up for paperwork tomorrow so i had jack fill a cup for me lol."*
+2018-03-27, after: *"i spent the whole time maintaining the temperature of my
+bottle of jack rusko pee in my armpit … it was not the proudest moment of my
+life"*, and then *"bro i'm all-star team for passing drug tests."* The
+substitute donor is [[wiki/people/jack-rusko|Jack]]. The relevance is not the
+prank: **in March 2018 he expected to fail a workplace urine screen**, and
+said so twice, in writing, to his incoming manager.
+
+**4. The $14,000 to his mother, on the day, with the reason.** 2018-09-20,
+12:37pm: *"Gotta loan my mom $14,000 to pay her property taxes and it will
+cost me an extra $400 if I can't get to the bank before 4."* Then: *"I'm not
+even used to having that kind of money let alone loaning it out so I'm a
+mess."* Seven hours later he is asking for shifts — *"I need to work so I can
+pay off the new Apple watch."* This is the transfer
+[[wiki/mind/synthesis/estate-money-spine]] carries as a `2018-08 → 2018-10`
+band and [[wiki/people/suzanne-frank]] as the relationship's load-bearing
+number. It now has a date, a purpose, and — the part that matters — **the word
+"loan" in Dan's mouth on the day, to a third party with no stake in it**, nine
+months before the June 2019 fight in which he writes *"I LENT YOU 14,000."*
+
+## The season, in his own voice
+
+**The money is itemised.** Gratuity went to $30 a man for singles and doubles;
+Jack reported a flat $60 bag fee and *"tried telling me that the TRUMP ECONOMY
+is why they could do that"* (2018-03-19). Laurel Valley, which Dan was openly
+scouting as a transfer, paid *"150-2 tips and I think it's like 90 something
+on a 2 strap … 90 from the club that is"* — *"If we don't pick up we can
+always mutiny and all go there"* (2018-05-21). At the other end, *"Chad made
+$70 all day"* on the same trip. He stacked income where he could: a
+step-counting app pitched to Davey as *"like another $20 for every loop"*
+(2018-03-27), and by August a private 18Birdies group, *"Nemacolin Caddies."*
+
+**The first spin is narrated the same night it happened.** 2018-05-21 is the
+Laurel Valley day trip [[wiki/work/nemacolin-caddying]] dates from the other
+side; here is Dan at 22:21 that evening — *"today was my first spin and my
+feet are dee-stroyed"*, then *"I was honestly dreading it but I learned a ton
+and loved that course … It was indeed worth the physical toll of spinning"*,
+then the detail the work page could not have: **two caddies to a group split
+everything.** *"We chopped everything. I mean it wasn't required. But most
+guys there split it up incase you get a bad day."* His verdict on the course
+against his own: *"every single hole is good. Like there's no mystic 12's."*
+
+**The training assignments are asked for, not assigned.** Davey's *"Do you
+want to help me train tomorrow?"* runs from May 8; Dan's answer is always
+"Yup," and afterwards: *"No thanks necessary I actually learned a LOT doing
+it. I legit just went out and bought a vape that's lighter than a ball point
+pen because I saw how stupid it looks to run with heavy shit in pockets or
+bib"* — *"It's all about efficiency"* — *"And smoking kush between 8 and 9"*
+(2018-05-09). The gear runs through the year: a Nintendo Switch in March
+(*"so i can clap ya'll in mariokart during our 20 hour waits"*), MD4 wedges in
+May (*"Big boy gear" / "With the swing of a toddler"*), an Apple Watch by
+September.
+
+**He covers, and he says why.** *"But you know me man…I'm pretty easy going
+about whatever happens and I need the paper so I'm gonna be cool either way"*
+(2018-08-07, on being double-booked to spin). Sick with no voice at the start
+of September he still drives up: *"I'm def not gonna be able to caddie but if
+you need someone up there to wait around just in case I can do that my dude"*
+— *"I'm gonna be the team cheerleader"* (2018-09-02). The voice failure
+recurs: 2018-07-21 (*"I sounded so different with no voice"*), 2018-08-30
+(*"my voice is shot again"*), and through 2018-09-02.
+
+**The CaddyCentral rumour came from Dan.** The page previously had Davey
+musing about it. He did not — Dan brought it on 2017-10-01 with the URL,
+sourcing it (*"i got it from a reliable source and have been hearing gossip
+about a big change from several people for a few weeks now"*), and Davey's
+reply is *"Interesting"* followed by *"To be completely honest I don't plan on
+being there next summer anyway."*
+
+**Trevor left without telling him, and Dan's response is the pattern.**
+2018-07-26, learning of the exit from Davey rather than from
+[[wiki/people/trevor|Trevor]]: *"Yeah dude! I mean luckily I'm the kind of guy
+who would do something like that myself so I don't really give a shit or
+nothing … Here's what I'm gonna do…. I'm just going to say nothing at all and
+we'll take bets on how long before he reaches out."* Davey guessed five
+months. Two weeks later the same absence is priced from the yard's side —
+*"Trev picked a bad time to leave"* — and Dan's answer is *"SUCK A DICK
+TREV / here's $35 go swallow a bullet."* The affection and the abuse are the
+same register throughout this thread and neither is the tell.
+
+**The NYC decision, stated as a plan with two revenue lines.** 2018-11-02,
+his thirtieth birthday (*"I'm fucking so upset I can't call myself a '20
+something' anymore"*): *"I'm gonna do whatever for a day job and try my hand
+at comedy"* — *"And I can get dj gigs too."* This is the earliest documented
+statement of the comedy intent, thirteen months before the material on
+[[wiki/interests/stand-up-comedy]]. The scouting trip is priced too: Tuesday
+to Thursday, *"Hotel for 3 days when we go up next week…$765"*, and the
+economics he brings from the previous stint — *"as I learned living there
+before..you make proportionally more. But that's the struggle of living there,
+you're always against the wall to make rent."*
+
+**The tapback reconstruction held.** The sections below were written by
+reading what Davey Liked, Laughed at and Emphasized and inferring the line
+underneath. Checked against the actual messages, every reconstructed quote is
+right — including the two best ones ("He's the Pablo Picasso of Mid-Atlantic
+Polynesian caddies"; "Maybe I'm just so prepared that I memorize the sheet
+every day so I can perform background research on my group"), which survive
+verbatim. **The method was sound and it was answering a question that had a
+direct answer**, which is the more useful half of that result: an ingenious
+reconstruction is still evidence that a corpus went unread.
+
+One structural note the check produced. **The two exports are complementary,
+not duplicates.** There are windows here where the dump carries Davey's side
+and not Dan's — 2018-05-14 20:05–20:55 is nineteen consecutive Davey
+messages, tapbacks included, with Dan's originals absent — and windows the
+other way. Neither file is the thread; the union is.
 
 ## 2017: peers in the yard
 
@@ -49533,16 +49742,27 @@ consistent feature — every missed shift answered with some version of
 
 | Metric | Value |
 |---|---|
-| Messages | **775** — 393 sent (Dan), 382 received (was: 382) |
+| Messages | **779** — 397 sent (Dan), 382 received |
 | Date range | 2017-05-21 – 2018-11-02 |
 | Role | Fellow caddie (2017) → assistant caddie master (2018) |
 | Report-time messages | ~20, March–October 2018 |
+
+Re-derived 2026-09-05 against `raw/self/dox-scan/all_imessages_complete_dump.txt`.
+The figure was **382** (Received only) until 2026-09-04 and **775** for a day
+after that; 779 is the count over the union of both exports, deduplicated.
 
 **Gaps:** whether the friendship survived the NYC move in any channel
 (this thread simply stops); his exact age and Morgantown/Uniontown
 residence; the identity of "Brooke" and "Luke" from the training cohort
 (no pages; below the three-mention threshold); what became of him at
-Nemacolin after 2018.
+Nemacolin after 2018. **New from the re-derivation, and unresolved:** where
+the $14,000 came from in September 2018 — the estate had not distributed and
+[[wiki/mind/synthesis/estate-money-spine]] documents no advance before
+2019-10-12, so a lump that size in Dan's hands that month is an open source
+question, not an open amount one. Also unresolved: the identity of the
+ghosting coworker Dan was sending *"daily photoshops of him in different
+racist scenarios"* to in March 2018 — Brad had spoken to him, Davey had
+texted him a month earlier, and he never came back.
 
 ---
 
@@ -53148,7 +53368,7 @@ domain: people
 page_type: entity
 status: closed
 date_created: 2026-06-23
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 date_range_start: 2017-10-16
 date_range_end: 2018-08-09
 sources: ["raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv", "raw/self/dox-scan/all_imessages_complete_dump.txt"]
@@ -53156,6 +53376,9 @@ related: ["wiki/work/nemacolin-caddying", "wiki/timeline/periods/2017-poverty-fl
 tags: [career, uniontown-era]
 knowledge: mixed
 connections:
+  - page: wiki/people/davey-fitzpatrick
+    type: evidenced-by
+    claim: "A fourth thread carries the urine arrangement and shows it executed rather than planned — the cup filled, carried to a company appointment and temperature-maintained — and supplies the page's only unprompted statement of Dan's regard for him: 'he's easily in my top 5 favorite humans ever' (2018-03-19)."
   - page: wiki/people/vaughn
     type: evidenced-by
     claim: "Jack supplied the clean urine Dan carried against a possible early Nemacolin drug test — 'i had jack rusko piss for me lol' (2018-03-19, in the Vaughn thread) — the only documented instance of him doing anything for Dan, on a page otherwise built entirely on what Dan owed him."
@@ -53207,6 +53430,36 @@ documented instance of him doing anything for Dan at all.
 **Gap:** whether Jack knew what the urine was for, whether he was paid, and
 whether this was a one-off or the standing arrangement the phrase's casualness
 suggests. His own thread never mentions it.
+
+> **ADDED [2026-09-05] — a fourth thread, and the bottle was actually
+> carried.** The same March 2018 episode appears again in
+> [[wiki/people/davey-fitzpatrick|Davey]]'s thread, told to the incoming
+> assistant caddie master rather than to a peer:
+>
+> *"i wasn't sure if i should be ready for drug test when i go up for paperwork
+> tomorrow so i had jack fill a cup for me lol"* — 2018-03-19
+>
+> *"i didn't know i wasn't being drug tested so i spent the whole time
+> maintaining the temperature of my bottle of jack rusko pee in my armpit …
+> it was not the proudest moment of my life"* — 2018-03-27
+>
+> **Jack is now named in three separate threads for this and in none of his
+> own.** The section above called it the corpus's only documented instance of
+> him doing anything for Dan; it is the same instance seen twice more, which is
+> different and weaker. What the second telling adds is that the arrangement
+> was *executed* — the cup was filled, carried to a company appointment and
+> kept at body temperature — and that Dan told his manager about it. The gap
+> stands unchanged: Jack's own thread is still silent.
+
+The same Davey thread also gives the page its warmest line about him, said
+about rather than to him. *"well you can rest assured that when you do see
+him…it's the same neurotic, whiny, incredible calamity that he was last time
+you saw him haha"* — and then, unprompted, *"he's easily in my top 5 favorite
+humans ever"* (2018-03-19). It supplies the 6:10am detail too, and Jack's own
+reason for it: a 7:00 report, picked up at 6:10, *"because he, and I quote,
+doesn't like rushing."* And a fifth Mario Kart evening — *"i took the switch
+over and wnded up spending 90 minutes watching him lose his mind whenever i
+would red shell him."*
 
 ## Corpus Dimensions
 
@@ -64084,7 +64337,7 @@ importance: critical
 status: active
 knowledge: mixed
 date_created: 2026-06-22
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 date_range_start: 1962-09-15
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
@@ -64125,6 +64378,9 @@ infobox:
   handles: ["+172****8715", "suzfrank@***.net", "suzfrank915@***.com"]
   known_for: "The 33,698-message thread that is the second-largest relationship record in the corpus, and the unsettled mutual ledger running through all of it"
 connections:
+  - page: wiki/people/davey-fitzpatrick
+    type: evidenced-by
+    claim: "The $14,000 has a date and a stated purpose from outside the mother-son thread: 'Gotta loan my mom $14,000 to pay her property taxes' (2018-09-20, to a coworker) — the exact recurring liability this page names as her structural problem, $10,000 a year in property taxes against $11,000-$14,000 a year in income."
   - page: wiki/people/fred-adams
     type: evidences
     claim: "Her channel is the only contemporaneous record the corpus holds of Judge Fred Adams: six dated messages, including her going to him for money before a closing (2018-11-05, 'I'm not going to make it until my next closing') and her reporting his death (2020-05-24, 'quite by coincidence, that judge Adams died several days ago'). She is the family's line to the man who controlled its money, and until 2026-09-04 his page said no such record existed."
@@ -64324,7 +64580,19 @@ October 2018. It is not prose; it is an account statement.
 
 The $14,000 is the load-bearing number in the relationship, and it moved
 **from Dan to Suz**, which is the opposite direction from the one this page
-previously implied. In August 2018 — four months after
+previously implied.
+
+> **ADDED [2026-09-05] — what it was for, and what he called it at the time.**
+> On **2018-09-20**, telling his boss why he needed to leave a shift early:
+> *"Gotta loan my mom $14,000 to pay her property taxes and it will cost me an
+> extra $400 if I can't get to the bank before 4"*
+> ([[wiki/people/davey-fitzpatrick]]). **The money went to the liability this
+> page identifies as the governing fact of her finances** — $10,000 a year in
+> property taxes against $11,000–$14,000 a year in income — which makes it a
+> payment against the structural shortfall rather than a general float. And he
+> calls it a *loan* the same hour, to somebody with no stake in the framing,
+> nine months before the June 2019 fight in which each of them claims to be the
+> creditor. In August 2018 — four months after
 [[wiki/people/fran-coldren|Fran]] died and two years before the estate
 actually distributed — Dan told her he was going to "take out $20k to float me
 until the estate is wrapped up (fingers crossed) and I'm going to add your
@@ -66289,12 +66557,13 @@ title: "Trevor Bevins"
 aliases: ["Trevor"]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-19
+date_modified: 2026-09-05
 date_range_start: 2017-10-19
 date_range_end: 2021-02-04
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/trevorbevins_1zi360sana/message_1.html
+  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
 related:
   - wiki/people/brad-hubeaut
   - wiki/timeline/periods/full-sail-2008-2010
@@ -66304,6 +66573,9 @@ related:
 tags: [uniontown-era, career, financial-stress, digital-footprint]
 knowledge: mixed
 connections:
+  - page: wiki/people/davey-fitzpatrick
+    type: evidenced-by
+    claim: "Dan learned of the exit from the assistant caddie master rather than from Trevor — 'He didn't say bye to you? Lol' / 'LOL no' (2018-07-26) — and the documented reaction is excuse-then-withdraw: 'luckily I'm the kind of guy who would do something like that myself so I don't really give a shit', then 'I'm just going to say nothing at all and we'll take bets on how long before he reaches out.'"
   - page: wiki/people/davey-fitzpatrick
     type: co-occurs
     claim: "Davey's thread independently dates Trevor's late-July 2018 exit and prices its cost from the yard's side — 'Trev picked a bad time to leave' — during the season's busy back half."
@@ -66357,6 +66629,38 @@ season, while explaining that early-check fees, low-paying reports, and being
 passed over for an 8 a.m. report had made him "over it." That exchange makes
 him a useful counterpoint to the more formal management record: the same
 conditions that frustrated Dan were pushing a capable peer out of the yard.
+
+> **CORRECTED [2026-09-05] — "not a rupture with Dan" is right about Trevor
+> and wrong about the sequence.** The thank-you exchange above is real. What
+> the paragraph does not say is that **Dan learned of the departure from
+> somebody else, and reacted before that exchange happened.** On **2018-07-26**
+> the assistant caddie master asks what Trevor told him
+> ([[wiki/people/davey-fitzpatrick]]):
+>
+> — *"I haven't talked to him! Sounds scandalous"*
+> — *"Don't leave me hanging on that suspense mode shit…is he going back to
+>   jax"*
+> — Davey: *"Is he caddying? I didn't talk to him brad just told me he left.
+>   He didn't say bye to you? Lol"* — *"LOL no"* — *"I don't know dude here's
+>   my last message from him"*
+>
+> **Dan's response is the page-level finding, and it is about Dan.**
+> *"Yeah dude! I mean luckily I'm the kind of guy who would do something like
+> that myself so I don't really give a shit or nothing … Here's what I'm gonna
+> do…. I'm just going to say nothing at all and we'll take bets on how long
+> before he reaches out."* Davey guessed five months.
+>
+> Two weeks later, 2018-08-07, with the yard short-handed — *"Trev picked a bad
+> time to leave"* — the register drops entirely: *"SUCK A DICK TREV / here's
+> $35 go swallow a bullet."* The next day, comparing the Texas caddies who
+> replaced him: *"Texas > trev. That's all I'm sayin."*
+>
+> None of this reaches Trevor's own thread, which is why the page read it as a
+> clean exit. **The exit was clean; the being-left was not**, and the documented
+> reaction — excuse the other person by naming the same behaviour in yourself,
+> then withdraw silently and wait to be contacted — is the move
+> [[wiki/mind/synthesis/dormancy-not-exit]] describes, arriving here in its
+> smallest and least consequential form.
 
 By autumn Trevor was building a different working life. He talked about a
 Club Champion fitting opportunity, launched or promoted a small caddy-gear
@@ -106703,7 +107007,7 @@ Every dated event recorded anywhere in this wiki, in order, each linked back to 
 
 **This page is generated. Do not hand-edit it** — run `bin/wiki-timeline generate`. To correct an entry, fix the page it came from; the fix appears here on the next run.
 
-**3,775 events** across **80 years** (1796–2027), drawn from **390 pages**. Tier 1 729 · Tier 2 466 · Tier 3 2,580.
+**3,798 events** across **80 years** (1796–2027), drawn from **390 pages**. Tier 1 730 · Tier 2 472 · Tier 3 2,596.
 
 ## What counts as an event here
 
@@ -109986,7 +110290,9 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
 - · **May 2017** — location history — self  
   ↳ [[wiki/meta/recent-activity]] · 2026-09-04 — 104 pages
-- · **May 2017** — Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two Nemacolin caddying seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a fellow caddie in 2017 who came back for 2018 as **assistant caddie master** — "I'm actually gonna be assistant caddie…  
+- · **May 2017** — t021 — quantity, behavior — confident — _pending_ — —  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
+- · **May 2017** — Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine friend across the two Nemacolin caddying seasons (`+17249639933`, **779 messages**, May 2017 – November 2018): a fellow caddie in 2017 who came back for 2018 as **assistant caddie master** — "I'm actually gonna be assistant…  
   ↳ [[wiki/people/davey-fitzpatrick]] · Davey Fitzpatrick
 - · **May 2017** — Eric Jester is a Full Sail film-school friend (contacts notes: "sandwich eater. dream killer.") whose message thread spans nearly a decade (`+14137703708`, 103 messages, May 2017 – August 2025) — sparse check-ins that resurface every year or two, each one picking back up exactly where the last left…  
   ↳ [[wiki/people/eric-jester]] · Eric Jester
@@ -110104,6 +110410,12 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/places/117-belmont-circle]] · The three parcels
 - ◆ **2017-10-01** — Twenty-eight of the 41 messages fall on a single day**, October 1, 2017, and the remainder spreads across four.  
   ↳ [[wiki/people/zach-clingan]] · Corpus record
+- · **2017-10-01** — The only job he has ever said he did not dread.** 2017-10-01, unprompted, in the middle of a conversation about a management rumour: *"i'm just conflicted because i like the job and culture and community of caddying so much, first job i've found that i don't end up dreading work everyday."* He is…  
+  ↳ [[wiki/people/davey-fitzpatrick]] · What Dan's half turned out to hold
+- · **2017-10-01** — He did not — Dan brought it on 2017-10-01 with the URL, sourcing it (*"i got it from a reliable source and have been hearing gossip about a big change from several people for a few weeks now"*), and Davey's reply is *"Interesting"* followed by *"To be completely honest I don't plan on being there…  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
+- · **2017-10-03** — The peak earning day, dated and priced.** 2017-10-03: *"i had a $550 day and he was with the same group"* — *"they all gave me hundreds and then venmo'd me another hundo when we got back."* And immediately, a prediction: *"i think i peak'd today. there's no way i'll ever make more jam that haha."  
+  ↳ [[wiki/people/davey-fitzpatrick]] · What Dan's half turned out to hold
 - · **2017-10-03** — He works at **Jim Shorkey**, the regional car dealership group — *"garrett works for jim shorkey right"* (2017-10-03) — and Alice is at *"Garrett's work"* in March 2025, so that appears to hold across eight years.  
   ↳ [[wiki/people/garrett]] · What is known
 - · **2017-10-06** — Defining event  
@@ -110311,6 +110623,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/places/155-virginia-ave]] · 155 Virginia Ave
 - ◆ **March 2018** — The money came through the estate and was authorised by its trustee — in March 2018 Dan reasons that *"fred would have put the kaibosh on me being paid to watch gram if there was an ongoing issue,"* which puts Judge Adams directly in the payroll chain.  
   ↳ [[wiki/people/fran-coldren]] · The caregiving arrangement (≈October 2017 – April 2018)
+- · **March 2018** — The relevance is not the prank: **in March 2018 he expected to fail a workplace urine screen**, and said so twice, in writing, to his incoming manager.  
+  ↳ [[wiki/people/davey-fitzpatrick]] · What Dan's half turned out to hold
+- · **March 2018** — Also unresolved: the identity of the ghosting coworker Dan was sending *"daily photoshops of him in different racist scenarios"* to in March 2018 — Brad had spoken to him, Davey had texted him a month earlier, and he never came back.  
+  ↳ [[wiki/people/davey-fitzpatrick]] · Corpus record
 - · **March 2018** — In March 2018, during Fran's final decline, Ellen coordinates delivering a church flower arrangement to cheer her and mentions being "at Jim and Sugie's" — confirming that **Jim and Sugie are the names of Annie's grandparents**, resolving an open identification gap on 117 belmont circle.  
   ↳ [[wiki/people/ellen-ulmer]] · The relationship
 - · **March 2018** — Jim Vrabel was a marijuana dealer and, over two and a half years, something closer to a regular late-night hangout than a pure transaction (`+17247074184`, 313 messages, March 2018 – September 2020).  
@@ -110347,8 +110663,16 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/fred-adams]] · The contemporaneous record — sixteen dated rows nobody had read
 - · **2018-03-14** — "Since my mother is a shit, I think it falls on me."* And, of  
   ↳ [[wiki/people/suzanne-frank]] · Identity, lineage and the generation she was pushed out of
+- ◆ **2018-03-19** — The money is itemised.** Gratuity went to $30 a man for singles and doubles; Jack reported a flat $60 bag fee and *"tried telling me that the TRUMP ECONOMY is why they could do that"* (2018-03-19).  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
+- · **2018-03-19** — Two drug tests, evaded, narrated as comedy.** 2018-03-19, the night before season paperwork: *"i wasn't sure if i should be ready for drug test when i go up for paperwork tomorrow so i had jack fill a cup for me lol."* 2018-03-27, after: *"i spent the whole time maintaining the temperature of my…  
+  ↳ [[wiki/people/davey-fitzpatrick]] · What Dan's half turned out to hold
+- · **2018-03-19** — "well you can rest assured that when you do see him…it's the same neurotic, whiny, incredible calamity that he was last time you saw him haha"* — and then, unprompted, *"he's easily in my top 5 favorite humans ever"* (2018-03-19).  
+  ↳ [[wiki/people/jack-rusko]] · What a third thread says about him
 - · **2018-03-19** — 2018-03-19, supplying the ride to work.  
   ↳ [[wiki/people/vaughn]] · The mother is downstream by 2018, not upstream
+- · **2018-03-27** — He stacked income where he could: a step-counting app pitched to Davey as *"like another $20 for every loop"* (2018-03-27), and by August a private 18Birdies group, *"Nemacolin Caddies."  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
 - ★ **2018-03-29** — The contemporaneous record has the eviction notice served **2018-03-29**, three days before the April 1 move to the pediatric wing, and the letter being read, forwarded and lawyered on **2018-04-03**, the day before Fran died.  
   ↳ [[wiki/people/diane-moore]] · The instrument, as the corpus actually records it
 - ★ **2018-03-29** — The second is that this sits directly against the **eviction notice served at 155 Virginia Avenue on March 29, 2018**, mid-vigil, demanding the keys.  
@@ -110523,14 +110847,22 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/diane-moore]] · Gaps
 - ◆ **2018-05-09** — Idk how I played as well as I did...and I still probably barely broke 90" (May 9, 2018) is as good as his self-reported scores get; a June 2017 message logs a more ordinary "Got a par 4 and then par 3 to finish." He studies the game seriously rather than just playing casually: in June 2016 he…  
   ↳ [[wiki/interests/golf]] · Dan's own game
+- ◆ **2018-05-09** — I legit just went out and bought a vape that's lighter than a ball point pen because I saw how stupid it looks to run with heavy shit in pockets or bib"* — *"It's all about efficiency"* — *"And smoking kush between 8 and 9"* (2018-05-09).  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
 - · **2018-05-11** — derrick avenue** — 2. **Whose houses.** *"I saw al coming down Derrick. Must have been at your moms"* (2018-05-11) puts Dan's mother in the same orbit, but the corpus does not fix which addresses on or off Derrick belong to whom in which years.  
   ↳ [[wiki/meta/open-questions]] · places (12)
 - · **2018-05-11** — A May 11, 2018 exchange turns hostile fast — Jimmy calls Dan out over an unspecified remark he considers ignorant, tells him "the truth sucks and hurts," and closes with "fuck off" — but the two are back on ordinary terms the next day.  
   ↳ [[wiki/people/jimmy]] · Jimmy
 - · **2018-05-11** — Must have been at your moms"* (2018-05-11) puts Dan's mother in the same orbit, but the corpus does not fix which addresses on or off Derrick belong to whom in which years. 3.  
   ↳ [[wiki/places/derrick-avenue]] · Gaps
+- · **2018-05-14** — The two exports are complementary, not duplicates.** There are windows here where the dump carries Davey's side and not Dan's — 2018-05-14 20:05–20:55 is nineteen consecutive Davey messages, tapbacks included, with Dan's originals absent — and windows the other way.  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
 - ◆ **2018-05-21** — A parallel pairing for Annie and Nicole.** A May 21, 2018 message ("Nicole and Annie can do the pool party thing") shows the arrangement wasn't strictly a foursome — the women had their own separate social thread within it.  
   ↳ [[wiki/people/danny-matthews]] · The opening evening (February 16, 2018)
+- ◆ **2018-05-21** — Laurel Valley, which Dan was openly scouting as a transfer, paid *"150-2 tips and I think it's like 90 something on a 2 strap … 90 from the club that is"* — *"If we don't pick up we can always mutiny and all go there"* (2018-05-21).  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
+- ◆ **2018-05-21** — The first spin is narrated the same night it happened.** 2018-05-21 is the Laurel Valley day trip nemacolin caddying dates from the other side; here is Dan at 22:21 that evening — *"today was my first spin and my feet are dee-stroyed"*, then *"I was honestly dreading it but I learned a ton and…  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
 - ◆ **2018-05-21** — On **May 21, 2018** he made his first off-property day trip to **Laurel Valley Golf Club**, leaving Uniontown at 4:30 AM alongside named coworkers Brad (his manager there), Trevor, Brooke, "cuzzy," Will, and Chad — single-bag that day, paired two caddies to a group, $100 cash for the second loop.  
   ↳ [[wiki/work/nemacolin-caddying]] · The looper hierarchy and day trips
 - · **2018-05-23** — He rated the outing directly against his home track: "an impressive lack of golf knowledge for how long I've done the job." Two days later, on **May 23, 2018**, he was paired at Laurel Valley with **Carl** — "the head of the caddie program there and also the head of the program in Scottsdale" (TPC…  
@@ -110587,14 +110919,16 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/health/the-configured-body]] · The asymmetry that names the mechanism
 - · **2018-07-15** — "I told Jason Adams I would get them to him  
   ↳ [[wiki/people/fred-adams]] · The estate attorney has a name, and it is not his
+- · **2018-07-21** — The voice failure recurs: 2018-07-21 (*"I sounded so different with no voice"*), 2018-08-30 (*"my voice is shot again"*), and through 2018-09-02.  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
 - ◆ **2018-07-24** — On July 24, 2018, Dan tells David — in confidence, "because I will be chastised for irresponsible spending" — that he'd just bought a **DJI Mavic Platinum**.  
   ↳ [[wiki/people/david-beard]] · The middle drone
+- · **2018-07-26** — Trevor left without telling him, and Dan's response is the pattern.** 2018-07-26, learning of the exit from Davey rather than from Trevor: *"Yeah dude!  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
 - ★ **August 2018** — In August 2018 — four months after Fran's death and **two years before the distribution actually landed** — Dan drew down roughly $20,000 against the expected estate and transferred about **$14,000 of it to his mother.** Her own itemised statement of it survives, sent 3 October 2018: *"Dan to…  
   ↳ [[wiki/mind/synthesis/estate-money-spine]] · The direction the spine had backwards
 - ★ **August 2018** — Dan's verdict on it, to Tom in August 2018, is unambiguous and unusually generous: *"She honestly got a bad break… She stayed loyal to Zac,"* and Zac *"got a good lawyer and fucked her over."* His own puzzlement, delivered in real time to Jamie Mohler ten months after the arrest, is the same…  
   ↳ [[wiki/people/alexis-armel]] · The Shumar years
-- ★ **August 2018** — In August 2018 — four months after Fran died and two years before the estate actually distributed — Dan told her he was going to "take out $20k to float me until the estate is wrapped up (fingers crossed) and I'm going to add your number on top of that." He then set about reducing the frequency of…  
-  ↳ [[wiki/people/suzanne-frank]] · The ledger that never closes
 - ★ **August 2018** — Elsewhere in the corpus (an August 2018 message and a 2018 exchange with Tom) Dan self-mockingly frames the piece as evidence of being "a scumbag... immature" for getting it — "a literal misfits tattoo" is invoked more than once, by Dan and by others, as shorthand for arrested-development…  
   ↳ [[wiki/self/tattoos]] · Misfits: skull in a pizza slice, and a second Misfits piece
 - · **August 2018** — An August 2018 exchange has Dan and Joe jointly reconstructing the band's full setlist from memory, years later.  
@@ -110619,6 +110953,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/dave-moore]] · What the record has him doing
 - ★ **2018-08-01** — The 2018-08-01 line is the only documented post-funeral contact between the two halves of the family, and Annie's reaction to it — *wait wtf* — is the measure of how unexpected it was.  
   ↳ [[wiki/people/dave-moore]] · What the record has him doing
+- · **2018-08-07** — He covers, and he says why.** *"But you know me man…I'm pretty easy going about whatever happens and I need the paper so I'm gonna be cool either way"* (2018-08-07, on being double-booked to spin).  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
 - · **2018-08-08** — Exactly one instance in eleven years is resolvable from the corpus, and it resolved false.** On 2018-08-08 Dan writes *"I am 75% sure this is my last summer at Nemacolin."* nemacolin caddying dates the job **April 2016 – November 2019** per his own resume: he worked the 2019 season too.  
   ↳ [[wiki/mind/concepts/calibrated-confidence]] · The calibration test is not runnable, and that is the finding
 - · **2018-08-12** — In the same August 12, 2018 conversation where Dan explains the camming operation's blackmail-resistance logic to Joe, he adds, in passing and as already completed: "We even had a threesome with my ex (the girl I left for Annie) on cam haha" — meaning Alexis.  
@@ -110639,10 +110975,14 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/bill]] · Bill (golf/pharma customer)
 - · **September 2018** — Last name, and whether contact continued past September 2018, are undocumented.  
   ↳ [[wiki/people/bill]] · Gaps
+- · **September 2018** — New from the re-derivation, and unresolved:** where the $14,000 came from in September 2018 — the estate had not distributed and estate money spine documents no advance before 2019-10-12, so a lump that size in Dan's hands that month is an open source question, not an open amount one.  
+  ↳ [[wiki/people/davey-fitzpatrick]] · Corpus record
 - · **September 2018** — Defining content  
   ↳ [[wiki/people/david-beard]] · Corpus record
 - · **September 2018** — Across five documented occasions between February and September 2018 — **four of them after Fran was dead** — Dan gives out 117 Belmont Circle as the place to come and meet him:  
   ↳ [[wiki/places/117-belmont-circle]] · The eight months the house belonged to Dan
+- · **2018-09-02** — Sick with no voice at the start of September he still drives up: *"I'm def not gonna be able to caddie but if you need someone up there to wait around just in case I can do that my dude"* — *"I'm gonna be the team cheerleader"* (2018-09-02).  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
 - · **2018-09-02** — 1 — First message in the thread (handle +172****5006)  
   ↳ [[wiki/people/emaly-minerd]] · Master timeline
 - · **2018-09-02** — Chapter 1 messages  
@@ -110659,6 +110999,10 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/mike-zollinger]] · Mike Zollinger
 - ★ **2018-09-16** — An isolated 2018 mention predates the transition and carries no gender marker either way: a September 16, 2018 message in Jim Vrabel's unrelated thread notes "Mohler sent me a happy birthday.  
   ↳ [[wiki/people/jamie-mohler]] · The 2023 transition
+- ★ **2018-09-20** — t022 — The ~$14,000 that moved from Dan to Suzanne Frank in 2018 was a loan against the expected estate, to be repaid on distribution — not a gift, and not money he took from her — quantity, attribution, causation — certain — confirmed  
+  ↳ [[wiki/meta/testimony-veracity]] · The record
+- ◆ **2018-09-20** — The $14,000 to his mother, on the day, with the reason.** 2018-09-20, 12:37pm: *"Gotta loan my mom $14,000 to pay her property taxes and it will cost me an extra $400 if I can't get to the bank before 4."* Then: *"I'm not even used to having that kind of money let alone loaning it out so I'm a…  
+  ↳ [[wiki/people/davey-fitzpatrick]] · What Dan's half turned out to hold
 - · **2018-09-20** — The thread ends September 20, 2018 with an unanswered "What up broski.  
   ↳ [[wiki/people/bill]] · The exchange
 - ◆ **2018-09-23** — The bulk of the 85-message thread is a single September 23, 2018 conversation about golf — equipment upgrades ("nothing worse than an aggressively competitive amateur golfer... yeah i mean as long as you're having fun then there's really no need to sweat the numbers"), scores creeping down from the…  
@@ -110755,6 +111099,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/al]] · The relationship
 - ★ **2018-11-02** — The thread ends the day Dan tells him about New York: the final conversation (November 2, 2018) is Davey absorbing the news — "you guys gonna move there for a bit? … Wow dude that's serious!  
   ↳ [[wiki/people/davey-fitzpatrick]] · Davey Fitzpatrick
+- ★ **2018-11-02** — The NYC decision, stated as a plan with two revenue lines.** 2018-11-02, his thirtieth birthday (*"I'm fucking so upset I can't call myself a '20 something' anymore"*): *"I'm gonna do whatever for a day job and try my hand at comedy"* — *"And I can get dj gigs too."* This is the earliest documented…  
+  ↳ [[wiki/people/davey-fitzpatrick]] · The season, in his own voice
 - ◆ **2018-11-03** — The earliest identified instance predates the arrangement's "formal" 2018 start and involves someone from Dan's own history rather than a stranger: days after Alexis's release from a year at SCI Muncy, she and Annie were together at Dan and Annie's house with Dan present (Nov 3, 2018) — full…  
   ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
 - ◆ **2018-11-03** — Alexis-Annie reunion, days after Alexis's SCI Muncy release  
@@ -111140,6 +111486,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/people/suzanne-frank]] · Timeline
 - ◆ **June 2019** — That same June 2019, she was working as a paid provider in her own right, under the alias **"Hazel"** (also "Lily Lush," and the joint camming handles "smashonistaa"/"sofvded").  
   ↳ [[wiki/people/annie-ulmer]] · The first weeks, and how fast they moved
+- ◆ **June 2019** — It now has a date, a purpose, and — the part that matters — **the word "loan" in Dan's mouth on the day, to a third party with no stake in it**, nine months before the June 2019 fight in which he writes *"I LENT YOU 14,000."  
+  ↳ [[wiki/people/davey-fitzpatrick]] · What Dan's half turned out to hold
 - · **June 2019** — By June 2019 the $14,000 had become the thing they fought about.  
   ↳ [[wiki/people/suzanne-frank]] · The ledger that never closes
 - · **June 2019** — the 3 July ledger fight  
@@ -114537,6 +114885,8 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
   ↳ [[wiki/mind/synthesis/supply-network]] · And it cost the network nothing measurable
 - · **2026-09-04** — an AI reading of the above  
   ↳ [[wiki/people/alexis-armel]] · The record
+- · **2026-09-04** — The figure was **382** (Received only) until 2026-09-04 and **775** for a day after that; 779 is the count over the union of both exports, deduplicated.  
+  ↳ [[wiki/people/davey-fitzpatrick]] · Corpus record
 - · **2026-09-04** — Six dated messages from her name Judge Fred Adams — the trustee of the Coldren accounts and, until 2026-09-04, a figure whose page said every fact about him came from Dan's narration.  
   ↳ [[wiki/people/suzanne-frank]] · Her channel is the only record of the man who held the money
 - · **2026-09-04** — Cross-read against index on 2026-09-04.  
@@ -114557,7 +114907,7 @@ Paragraphs are reflowed before extraction, so a description is always a whole se
 
 ---
 
-*Generated by `bin/wiki-timeline` from 390 wiki pages. 3,927 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
+*Generated by `bin/wiki-timeline` from 390 wiki pages. 3,928 dated candidates were rejected as non-events; `bin/wiki-timeline audit` breaks down why.*
 
 
 ========================================================================
@@ -118010,6 +118360,27 @@ governed everything ("1 would be better for me because I have to get the kids
 off the bus at 3"), and the report-time relay through the caddie master
 ("b-rad said he's not in today but said to come up tomorrow after lunch").
 
+> **ADDED [2026-09-05] from the [[wiki/people/davey-fitzpatrick]]
+> re-derivation.** The same bottle turns up in a second thread eight days
+> later, and the second thread changes what the countermeasure was.
+>
+> *"i didn't know i wasn't being drug tested so i spent the whole time
+> maintaining the temperature of my bottle of jack rusko pee in my armpit …
+> it was not the proudest moment of my life"* — 2018-03-27
+>
+> *"bro i'm all-star team for passing drug tests"* — same exchange
+>
+> *"but seeing as that it was totally unnecessary, i would have preferred to
+> not have subjected myself to that lol"*
+>
+> **The audience is the assistant caddie master.** Everything above is
+> peer-to-peer; this is Dan telling the man who sets his shifts that he brought
+> somebody else's urine to a company appointment. Whatever the arrangement was,
+> it was not a secret from the yard's management layer — which is consistent
+> with Davey being a friend first and a boss second, and is the strongest
+> single indication of how little the testing was actually enforced. **The test
+> did not happen**, either time it was prepared for.
+
 **And one thing the page had backwards.** The cohort section below describes
 Vaughn as a fellow caddie who supplied Dan. He also **taught** him: *"Dude the
 way you changed my grip / Has made a REAL difference / I'm still getting things
@@ -118031,6 +118402,39 @@ Valley departure, the first round carrying two bags, and the Scottsdale
 transfer he raised directly with Carl. That ladder is the payload, and it is
 the weakest of the rule's three positive cases because it is inferred from
 what Dan chose to record rather than from any statement of intent.
+
+> **ADDED [2026-09-05] — the statement of intent exists.** The sentence above
+> has been the honest caveat on this case since it was written. On
+> **2017-10-01**, unprompted, in a conversation about a management rumour, Dan
+> tells [[wiki/people/davey-fitzpatrick|Davey]]: *"i'm just conflicted because
+> i like the job and culture and community of caddying so much, **first job
+> i've found that i don't end up dreading work everyday**."*
+>
+> He is twenty-eight and it is the eighth documented job. The caveat is
+> discharged — this case now rests on a direct statement rather than on
+> inference from what he chose to log — and note *what* the statement values:
+> "the job and culture and community," in that order, with no mention of the
+> money and no mention of the ladder. See
+> [[wiki/mind/synthesis/failure-to-launch]], which reads the yard as a
+> low-oversight sovereign territory; a sentence naming culture and community as
+> the draw is evidence for that reading rather than against it.
+>
+> The same thread prices the work he was not dreading: a **$550 day** on
+> 2017-10-03 — *"they all gave me hundreds and then venmo'd me another hundo
+> when we got back"* — followed immediately by *"i think i peak'd today.
+> there's no way i'll ever make more jam that haha."* Gratuity ran to **$30 a
+> man** for singles and doubles in 2018 against a flat **$60 bag fee**; Laurel
+> Valley, which he was openly scouting, ran *"150-2 tips … 90 from the club"*
+> on a two-strap, against **Chad's $70 for a whole day** on the same trip.
+>
+> And the **first spin is narrated the same night**, from the other side of the
+> May 21 2018 Laurel Valley trip this page dates from the work record: *"today
+> was my first spin and my feet are dee-stroyed"* … *"I was honestly dreading
+> it but I learned a ton and loved that course"* … *"We chopped everything. I
+> mean it wasn't required. But most guys there split it up incase you get a bad
+> day"* — the tip-splitting norm between paired caddies, which the page did not
+> have — and the verdict against his home course: *"every single hole is good.
+> Like there's no mystic 12's."*
 
 The caddying years run concurrent with the darkest financial stretch
 documented elsewhere in the wiki (the [[wiki/timeline/periods/2017-poverty-floor|2017 poverty floor]], the 2018 deep
