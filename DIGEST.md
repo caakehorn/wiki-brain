@@ -49,6 +49,7 @@ this is the state of the thing.
 
 **2026-09-05** — 4 pages
   - connect | meta | the wiki names 570 things it does not link — 344 of them now clickable
+  - connect | meta | 453 of 497 pages were one-way doors
 
 **2026-09-04** — 104 pages
   - lint | meta | the crosslink campaign had been counting a link that isn't one
@@ -62,6 +63,7 @@ this is the state of the thing.
   - connect | people | vaughn — the re-derivation, and a cocaine channel nine pages did not have
   - lint | mind | the first layer of the Vaughn pass — and a defect in the staleness gate
   - ingest | self | @danfrank reply corpus (operator video transcription)
+  - connect | people | the reciprocal debt the Vaughn pass created, paid
 
 **2026-09-03** — 27 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist

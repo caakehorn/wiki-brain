@@ -11,6 +11,7 @@ simply listed.
 ## 2026-09-05 — 4 pages
 
 - **Session log:** connect | meta | the wiki names 570 things it does not link — 344 of them now clickable
+- **Session log:** connect | meta | 453 of 497 pages were one-way doors
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -32,6 +33,7 @@ simply listed.
 - **Session log:** connect | people | vaughn — the re-derivation, and a cocaine channel nine pages did not have
 - **Session log:** lint | mind | the first layer of the Vaughn pass — and a defect in the staleness gate
 - **Session log:** ingest | self | @danfrank reply corpus (operator video transcription)
+- **Session log:** connect | people | the reciprocal debt the Vaughn pass created, paid
 
 | Page | Domain | What moved |
 |---|---|---|

@@ -15,7 +15,7 @@ Nothing here blocks a commit. The gates print what is outstanding and pass
 anyway; a question asked on Tuesday must not stand in the way of Thursday's
 typo fix.
 
-## Obligations (114)
+## Obligations (115)
 
 Somebody or something is waiting on each of these. Drain from the top.
 
@@ -138,6 +138,7 @@ Priority: **0** failing gate · **1** parked question · **2** staged answer ·
 | 4 | skill | unvalidated skill candidate — Every merge conflict in this repository is a generated-file c… | `skills/INBOX.md` | 2026-09-02 |
 | 4 | skill | unvalidated skill candidate — One honest re-check clears every stale flag on the page, incl… | `skills/INBOX.md` | 2026-09-04 |
 | 4 | skill | unvalidated skill candidate — Working a stale premise honestly moves the front rather than… | `skills/INBOX.md` | 2026-09-04 |
+| 4 | skill | unvalidated skill candidate — evidenced-by is the edge type whose inverse gets written back… | `skills/INBOX.md` | 2026-09-04 |
 
 ## Standing work (197)
 

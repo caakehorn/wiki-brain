@@ -29,16 +29,16 @@ connections:
     type: component-of
     claim: "Vaughn is the network's missing 2017 node — the succession ran Zach Harshman (2014–15) straight to Johnny (2018–19) with nothing between, and this thread opens 2017-05-04, twenty-three days after Jay Lauer's overdose, and runs to 2018-05-27."
   - page: wiki/health/cocaine
-    type: evidenced-by
+    type: evidences
     claim: "The thread carries the only contemporaneous dollar figure the corpus has for the cocaine peak — 'I spend well over $100 a day on it,' said to a prospective supplier on 2017-05-04 — plus a $100/gram price Dan enforces by weight and a distinct coded vocabulary ('powder', 'pow', 'that girl', 'Versace') the page's alias list did not carry."
   - page: wiki/timeline/periods/2017-poverty-floor
     type: co-occurs
     claim: "The thread runs on poverty-floor logistics from both sides — coordinating rides to collect paychecks, $50 fronts, 'U getting ur check today', 'I get paid again on Monday so I'm just trying to make it till then' — documenting that Dan's suppliers were as broke as he was."
   - page: wiki/people/suzanne-frank
-    type: evidenced-by
+    type: evidences
     claim: "By 2017–18 the cocaine direction between Dan and his mother has reversed: she is the end consumer of what he procures ('my mom wants the whole thing', 2018-02-08; 'Mom is happy enough with the quality', 2017-05-30) and the driver to the pickup ('I'll get my mom to bring me over if u can get t now', 2018-02-05), where the 2015–16 record has her as his source."
   - page: wiki/people/jack-rusko
-    type: co-occurs
+    type: evidences
     claim: "Jack Rusko supplied the clean urine Dan carried to Nemacolin against a possible early test — 'i had jack rusko piss for me lol' (2018-03-19) — placing a third caddie inside the yard's testing-evasion economy."
   - page: wiki/places/155-virginia-ave
     type: co-occurs

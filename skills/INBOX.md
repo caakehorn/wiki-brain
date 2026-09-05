@@ -259,3 +259,15 @@ carry the same assumption, and neither has been read for it. Do not promote on
 this alone: one bug in one function is not yet an invariant about the corpus.
 
 - **Status:** inbox
+
+
+### 2026-09-04 — `evidenced-by` is the edge type whose inverse gets written backwards
+
+- **Observed during:** paying the reciprocal debt of the CROSSLINK pass on `wiki/people/vaughn`
+- **Surface:** `CONNECTIONS_SPEC.md`; `connections:` frontmatter; `bin/wiki-crosslink reciprocal`; `bin/wiki-connect check`
+- **Observation:** that pass wrote nine typed edges across nine pages and **six of them came back as reciprocal defects, all the same one**. Five had `evidenced-by` on both ends of a pair (`vaughn`↔`cocaine`, `vaughn`↔`suzanne-frank`); one had `co-occurs` facing an `evidenced-by`. The remaining three edges were fine.
+- **Candidate invariant:** `evidenced-by`/`evidences` is the only common pair where **the English reads true in both directions**. Writing the second page, "this thread is evidence for that claim" and "that claim is what this thread turned out to be evidence of" are both true sentences, and the schema distinguishes them. `causes`/`caused-by` and `contains`/`component-of` do not have this property — nobody writes "caused-by" on both ends, because it is obviously wrong. So the error rate is concentrated on one type and is invisible to the writer.
+- **Why nothing caught it:** `bin/wiki-connect check` validates edges per-page and passes both. `bin/wiki-crosslink reciprocal` is the only thing that sees the pair, and it **always exits 0 on purpose** — correctly, since a one-way edge still carries its claim. So an inverted pair merges green and stays.
+- **Candidate instruction:** after writing back to N pages, run `bin/wiki-crosslink reciprocal` before committing and read the rows naming pages you just touched. It is three seconds and it is the only view that exists. Longer-term: `reciprocal` could distinguish *"no edge back"* (a real, acceptable one-way edge) from *"back-edge contradicts this one"* (always a defect, never intentional) and the second class could gate without acquiring the escape hatch the exit-0 design exists to avoid.
+- **Validation, and what would settle it:** one pass, one writer, six instances — strong within itself and unreplicated. Promote when a second session's write-back shows the same concentration on `evidenced-by`, or when somebody counts the existing 106 owed inverses by type and confirms `evidenced-by` is over-represented among the *contradicting* ones rather than the merely absent ones. That count is cheap and nobody has run it.
+- **Status:** inbox

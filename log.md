@@ -9896,3 +9896,29 @@ furniture is not a revision of the argument, and 453 bumps would clear the
 staleness warnings on everything reasoning from any of them. 423 tests, 6 new —
 the footer is generated, and a generator nobody tests is one that can silently
 stop generating.
+
+
+## [2026-09-04] connect | people | the reciprocal debt the Vaughn pass created, paid
+
+`bin/wiki-crosslink reciprocal` after the merge: **113 edges owed an inverse, six
+of them mine, and all six were the same mistake.**
+
+Five were direction errors on `evidenced-by`, whose inverse is `evidences` —
+`vaughn` and `cocaine` both claimed to be evidenced *by* the other, as did
+`vaughn` and `suzanne-frank`. The sixth was a `co-occurs` written against an
+`evidenced-by`. One missing inverse: `nemacolin-caddying --contains-->
+jack-rusko` had no `component-of` back.
+
+**Worth naming because it is not a typo.** `evidenced-by` reads naturally in
+both directions when you are writing the second page — the Vaughn thread *is*
+evidence for the cocaine claim, and the cocaine page *is* what the thread turned
+out to be evidence of — so the wrong one goes in without feeling wrong.
+`bin/wiki-connect check` does not catch it; only `reciprocal` does, and that
+always exits 0 by design, so nothing blocks it. Six in one pass, from one
+writer, on the one edge type where the English is symmetric and the schema is
+not.
+
+**113 → 106.** Neither page needed a `date_modified` bump — both were already
+dated today, and a typed-edge direction fix moves no claim, which given the
+staleness-cascade defect recorded above is a reason not to bump rather than an
+oversight. No new stale flags.
