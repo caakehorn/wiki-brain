@@ -7,7 +7,7 @@ status: stable
 knowledge: earned
 importance: high
 date_created: 2026-08-22
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 tags: [career, personality-profile, financial-stress, music-production, ai-collaboration]
 sources:
   - raw/self/dox-md/Honest assessment and value judgment analysis.md
@@ -36,6 +36,9 @@ synthesizes:
   - wiki/work/creative-license
   - wiki/interests/music/overview
 connections:
+  - page: wiki/people/davey-fitzpatrick
+    type: evidenced-by
+    claim: "Discharges the caddie-yard case's standing caveat with a direct statement of intent: 'i like the job and culture and community of caddying so much, first job i've found that i don't end up dreading work everyday' (2017-10-01), unprompted, at twenty-eight, in the eighth documented job — and what it names is culture and community, which is what a low-oversight sovereign territory feels like from inside."
   - page: wiki/work/tech/index
     type: instance-of
     claim: "One documented day of Codecademy in February 2013 and thirteen silent years, then a burst of shipped tooling once AI agents removed the need for the skill, is this page's shipping-bottleneck thesis with an unusual ending: the constraint was removed rather than overcome."
@@ -395,7 +398,27 @@ long tenures were **low-oversight sovereign territories**: the plywood COVID
 shed on 58th Street where he ran the "9pm night class" alibi for over a year and
 made himself sole custodian of the dying section and its cash tips
 ([[wiki/mind/concepts/institutional-out]]), and the caddie yard, where the
-status ladder is peer-visible rather than managerial. Where no territory existed
+status ladder is peer-visible rather than managerial.
+
+> **ADDED [2026-09-05] — the caddie-yard case gets a statement of intent.**
+> [[wiki/work/nemacolin-caddying]] has carried this case with a standing
+> caveat: the ladder there is *inferred from what Dan chose to record rather
+> than from any statement of intent*, which made it the weakest of the three
+> positive cases. On **2017-10-01**, unprompted, in the middle of a
+> conversation about a management restructure
+> ([[wiki/people/davey-fitzpatrick]]):
+>
+> *"i'm just conflicted because i like the job and culture and community of
+> caddying so much, **first job i've found that i don't end up dreading work
+> everyday**"*
+>
+> He is twenty-eight and it is the eighth documented job. **What he names is
+> the culture and the community — not the money, not the ladder, not the
+> autonomy in those words** — which is what a low-oversight sovereign territory
+> feels like from inside it, and is evidence for this page's reading rather
+> than against it. The sentence is also the cleanest statement anywhere in the
+> corpus that the aversion this page explains is **specific rather than
+> general**: there was one job he did not dread, he noticed, and he said so. Where no territory existed
 to hold and no objective could be installed — Caviar's app dispatch, BFS's
 register — tenure collapsed to weeks regardless of how ordinary the job was.
 

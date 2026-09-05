@@ -22,7 +22,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
 | | |
 |---|---|
 | Pages | 498 |
-| Pages touched in the last 14 days | 228 |
+| Pages touched in the last 14 days | 230 |
 | Pages reasoning from other pages (`synthesizes:`) | 79 |
 | Live contradictions | 49 |
 | Open gaps | 713 |
@@ -55,10 +55,12 @@ between regenerations. Do not hand-edit here — rerun the tool._
 
 ## The last few days
 
-**2026-09-05** — 4 pages
+**2026-09-05** — 17 pages
   - connect | meta | the wiki names 570 things it does not link — 344 of them now clickable
+  - connect | meta | 453 of 497 pages were one-way doors
+  - rewrite | people | Davey Fitzpatrick re-derived — and the testimony ledger was scoring 18 of 20
 
-**2026-09-04** — 104 pages
+**2026-09-04** — 95 pages
   - lint | meta | the crosslink campaign had been counting a link that isn't one
   - connect | people | 79 lines had been written about a 1,789-message thread
   - connect | people | the handles were on the pages all along, and the guard could not see nine of them
@@ -71,7 +73,7 @@ between regenerations. Do not hand-edit here — rerun the tool._
   - lint | mind | the first layer of the Vaughn pass — and a defect in the staleness gate
   - ingest | self | @danfrank reply corpus (operator video transcription)
 
-**2026-09-03** — 27 pages
+**2026-09-03** — 26 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
   - ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
   - ingest | self | 2010 read in full — the corpus's most-cited date was computed from a train going the wrong way, and it survives anyway

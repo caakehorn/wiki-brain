@@ -281,3 +281,65 @@ class TestLedgerIntegrity(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class TestSpeakerIsNotSilentlyThirdParty(unittest.TestCase):
+    """`--speaker` exists so third-party testimony stays OUT of Dan's score, and
+    every statistic here filters on `speaker == "operator"`. That is correct and
+    it is silent: a first-person claim filed as `--speaker dan` vanishes from the
+    score, the profile and the public page with nothing saying so.
+
+    It had happened twice by the time anyone looked (2026-09-05) — **t017**, the
+    May 2017 cocaine spend figure, filed `dan`, and **t020**, the $14,000 loan
+    framing, filed `Dan`. The headline was being computed over 18 of 20 records
+    and reporting no such thing; repairing them moved veracity 51 → 57.
+    """
+
+    def test_the_operator_s_own_aliases_normalise_on_entry(self):
+        for name in ("dan", "Dan", "Dan Frank", "DANFRANK", "self", "operator",
+                     " dan  "):
+            self.assertEqual("operator", wt.normalise_speaker(name), name)
+
+    def test_a_real_third_party_is_left_alone(self):
+        for name in ("Suz", "Davey Fitzpatrick", "annie's mother"):
+            self.assertEqual(name, wt.normalise_speaker(name))
+
+    def test_absent_speaker_is_the_operator(self):
+        self.assertEqual("operator", wt.normalise_speaker(None))
+        self.assertEqual("operator", wt.normalise_speaker(""))
+
+    def test_a_non_operator_record_is_excluded_from_every_statistic(self):
+        """Pinning the behaviour that makes the warning necessary, not a bug."""
+        state = {"testimonies": {
+            "t1": rec(speaker="operator"),
+            "t2": rec(speaker="Suz"),
+        }}
+        self.assertEqual(1, len(wt.live_records(state)))
+        self.assertEqual(1, len(wt.live_records(state, speaker="Suz")))
+
+    def test_check_names_a_record_no_statistic_will_ever_see(self):
+        """The gate has to say it out loud — an unadjudicated one too, which is
+        where the first version of this warning was placed wrong and missed
+        t017 entirely."""
+        with tempfile.TemporaryDirectory() as td:
+            td = Path(td)
+            (td / "bin").mkdir(parents=True)
+            (td / "testimony").mkdir(parents=True)
+            (td / "wiki" / "meta").mkdir(parents=True)
+            (td / "bin" / "wiki-testimony").write_bytes(TOOL.read_bytes())
+            run = lambda *a: subprocess.run(
+                [sys.executable, str(td / "bin" / "wiki-testimony"), *a],
+                cwd=td, capture_output=True, text=True)
+            # A hand-written event can still put a foreign speaker in the log,
+            # which is why the gate checks rather than trusting the entry path.
+            run("record", "--claim", "a claim", "--class", "date",
+                "--source", "raw/x.md")
+            log = td / "testimony" / "events.jsonl"
+            ev = [json.loads(l) for l in log.read_text().splitlines() if l.strip()]
+            ev[0]["testimony"]["speaker"] = "Suz"
+            log.write_text("".join(json.dumps(e) + "\n" for e in ev))
+            run("page")   # `check` errors on a missing page before it warns
+            out = run("check")
+            self.assertIn("speaker 'Suz'", out.stdout + out.stderr)
+            self.assertIn("excluded", out.stdout + out.stderr)
+            self.assertEqual(0, out.returncode, "a warning, never a gate failure")

@@ -1634,6 +1634,9 @@ USAGE = """usage: wiki-crosslink <entities|coverage|handles|counts|scan|unlinked
        [--apply]             write the **Up:** footer (ancestor chain, plus
                              previous/next where the siblings are a numeric
                              run). Idempotent; rerun rather than hand-editing
+  rederive                   pages that admit their own prose predates half
+                             their evidence — the debt `counts` created and
+                             could not measure, biggest thread first
   coverage [prefix]          which readable corpora name a page, and how often
                              — the triage step, run this before scanning
        [--silent]            invert it: pages no corpus names, and which of
@@ -2107,6 +2110,77 @@ def cmd_breadcrumb(argv):
     return 0
 
 
+# --------------------------------------------------------------- rederive
+
+NOT_REDERIVED = re.compile(r"has not been re-derived", re.I)
+REDERIVED = re.compile(r"\bRE-DERIVED\b")
+# Reuses `counts`' MSG_COUNT_RE rather than defining a second one. The first cut
+# of this file declared its own at module scope and **silently shadowed that
+# one** — a stricter pattern requiring `**bold**`, which quietly changed what
+# `counts` matched. `bin/wiki-check` reported all gates clean; only
+# `python3 -m unittest discover -s tests` saw it, which is the reason CLAUDE.md
+# lists the two separately.
+
+
+def cmd_rederive(argv):
+    """Pages that admit their own prose predates half their evidence.
+
+    **The debt `counts` created and could not measure.** On 2026-09-04 that
+    command found thirteen pages reporting a Received-only figure as a whole
+    thread; the fix landed a correction blockquote on each, and the honest ones
+    say so in as many words — *"the prose below was written against the smaller,
+    one-sided thread and has not been re-derived."* The number was then right
+    and the page was still written from half a conversation.
+
+    Thirty-five pages carry that sentence, and until this command existed the
+    only way to find them was a grep somebody had to think of running — the
+    exact shape `bin/wiki-work` exists to end, and the exact shape that let 161
+    unlinked twitter mentions stand through two crosslink passes. Ordered by
+    thread size, because the unread half of a 770-message thread is worth more
+    than the unread half of a 24-message one.
+
+    A page leaves this list when its correction block is replaced by the
+    re-derivation, not when somebody ticks it off. Three have been done
+    (`new-jim-shaffer`, `vaughn`, `davey-fitzpatrick`) and each produced a
+    page-level finding the count correction alone did not: a first-person
+    statement of intent, a drug-test countermeasure narrated to management, and
+    a $14,000 transfer that turned out to have a date and a stated purpose.
+    """
+    pages = load_pages()
+    rows = []
+    for path, txt in pages.items():
+        if not NOT_REDERIVED.search(txt):
+            continue
+        m = MSG_COUNT_RE.search(txt)
+        n = int(m.group(1).replace(",", "")) if m else 0
+        rows.append((n, path[:-3], bool(REDERIVED.search(txt))))
+    rows.sort(reverse=True)
+    print("Pages whose prose was written from half a thread, biggest first.\n"
+          "The count is right on every one of them; the reading is not.\n")
+    constrained = 0
+    for n, slug, part in rows:
+        # **Constrained, not refused.** The standing directive forbids new
+        # narrative about one living person; it does not forbid re-deriving a
+        # page that mentions her. But on a page whose unread half is mostly
+        # about her, most of what a re-derivation would find is material that
+        # cannot be written — `wiki/people/danny-matthews` is 770 messages
+        # whose dominant subject is the arrangement she is half of. Flagged so
+        # the next session learns that before spending the hour, and counted
+        # rather than dropped, because a page nobody may finish and a page
+        # nobody has got to must not look the same from outside.
+        heavy = len(MORATORIUM.findall(pages[slug + ".md"])) >= 5
+        constrained += heavy
+        print("  %7s  %s%s%s" % (
+            n or "?", slug,
+            "   (partly re-derived)" if part else "",
+            "   ⚠ directive-constrained" if heavy else ""))
+    print("\n%d page(s) owed a re-derivation, %d of them directive-constrained."
+          % (len(rows), constrained))
+    print("`bin/wiki-crosslink scan <page> --conversation` reads the thread; "
+          "the operation is REWRITE in CLAUDE.md.")
+    return 0
+
+
 def main(argv):
     if not argv:
         print(USAGE)
@@ -2116,7 +2190,8 @@ def main(argv):
            "orphaned": cmd_orphaned, "check": cmd_check, "coverage": cmd_coverage,
            "handles": cmd_handles, "counts": cmd_counts,
            "unlinked": cmd_unlinked,
-           "breadcrumb": cmd_breadcrumb}
+           "breadcrumb": cmd_breadcrumb,
+           "rederive": cmd_rederive}
     if cmd not in fns:
         print(USAGE)
         return 1

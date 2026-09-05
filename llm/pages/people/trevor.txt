@@ -5,12 +5,13 @@ title: "Trevor Bevins"
 aliases: ["Trevor"]
 status: stable
 date_created: 2026-06-23
-date_modified: 2026-07-19
+date_modified: 2026-09-05
 date_range_start: 2017-10-19
 date_range_end: 2021-02-04
 sources:
   - raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv
   - raw/self/facebook/facebook-ihatedanfrank/messages/inbox/trevorbevins_1zi360sana/message_1.html
+  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
 related:
   - wiki/people/brad-hubeaut
   - wiki/timeline/periods/full-sail-2008-2010
@@ -20,6 +21,9 @@ related:
 tags: [uniontown-era, career, financial-stress, digital-footprint]
 knowledge: mixed
 connections:
+  - page: wiki/people/davey-fitzpatrick
+    type: evidenced-by
+    claim: "Dan learned of the exit from the assistant caddie master rather than from Trevor — 'He didn't say bye to you? Lol' / 'LOL no' (2018-07-26) — and the documented reaction is excuse-then-withdraw: 'luckily I'm the kind of guy who would do something like that myself so I don't really give a shit', then 'I'm just going to say nothing at all and we'll take bets on how long before he reaches out.'"
   - page: wiki/people/davey-fitzpatrick
     type: co-occurs
     claim: "Davey's thread independently dates Trevor's late-July 2018 exit and prices its cost from the yard's side — 'Trev picked a bad time to leave' — during the season's busy back half."
@@ -73,6 +77,38 @@ season, while explaining that early-check fees, low-paying reports, and being
 passed over for an 8 a.m. report had made him "over it." That exchange makes
 him a useful counterpoint to the more formal management record: the same
 conditions that frustrated Dan were pushing a capable peer out of the yard.
+
+> **CORRECTED [2026-09-05] — "not a rupture with Dan" is right about Trevor
+> and wrong about the sequence.** The thank-you exchange above is real. What
+> the paragraph does not say is that **Dan learned of the departure from
+> somebody else, and reacted before that exchange happened.** On **2018-07-26**
+> the assistant caddie master asks what Trevor told him
+> ([[wiki/people/davey-fitzpatrick]]):
+>
+> — *"I haven't talked to him! Sounds scandalous"*
+> — *"Don't leave me hanging on that suspense mode shit…is he going back to
+>   jax"*
+> — Davey: *"Is he caddying? I didn't talk to him brad just told me he left.
+>   He didn't say bye to you? Lol"* — *"LOL no"* — *"I don't know dude here's
+>   my last message from him"*
+>
+> **Dan's response is the page-level finding, and it is about Dan.**
+> *"Yeah dude! I mean luckily I'm the kind of guy who would do something like
+> that myself so I don't really give a shit or nothing … Here's what I'm gonna
+> do…. I'm just going to say nothing at all and we'll take bets on how long
+> before he reaches out."* Davey guessed five months.
+>
+> Two weeks later, 2018-08-07, with the yard short-handed — *"Trev picked a bad
+> time to leave"* — the register drops entirely: *"SUCK A DICK TREV / here's
+> $35 go swallow a bullet."* The next day, comparing the Texas caddies who
+> replaced him: *"Texas > trev. That's all I'm sayin."*
+>
+> None of this reaches Trevor's own thread, which is why the page read it as a
+> clean exit. **The exit was clean; the being-left was not**, and the documented
+> reaction — excuse the other person by naming the same behaviour in yourself,
+> then withdraw silently and wait to be contacted — is the move
+> [[wiki/mind/synthesis/dormancy-not-exit]] describes, arriving here in its
+> smallest and least consequential form.
 
 By autumn Trevor was building a different working life. He talked about a
 Club Champion fitting opportunity, launched or promoted a small caddy-gear

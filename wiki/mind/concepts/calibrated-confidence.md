@@ -7,12 +7,15 @@ status: active
 importance: high
 knowledge: earned
 date_created: 2026-08-02
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 sources:
   - raw/self/dox-scan/all_imessages_complete_dump.txt
   - raw/self/twitter/archive.jsonl
 tags: [personality-profile, forensic-analysis, digital-footprint]
 connections:
+  - page: wiki/people/mohammed-bin-salman
+    type: evidenced-by
+    claim: "An unprompted concession that costs the argument's strong form, in a domain with nothing at stake: told 'Ive been in the range like 1% of the time' by a friend who is better at the game, Dan answers 'Well admittedly the evidence is on your side here — because you're always way better than I am' before narrowing his claim (2023-12-10)."
   - page: wiki/people/new-jim-shaffer
     type: evidenced-by
     claim: "Supplies t018, the fourth 'early' date error and the one that makes the direction 4-0: asked when Rob Orange died he answers '2013?' against a contemporaneous 2014-04-11 anchor. Also t019, a confirmed forecast — 'i bet it goes between 250-3' on a house listed at 350, which sold at 250."
