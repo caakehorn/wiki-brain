@@ -1,7 +1,7 @@
 {
   "counts": {
-    "adjudicated": 19,
-    "testimonies": 20,
+    "adjudicated": 20,
+    "testimonies": 22,
     "voided": 2
   },
   "generated": "bin/wiki-testimony — do not hand-edit; the log is the record",
@@ -744,6 +744,65 @@
       "speaker": "operator",
       "specificity": 3,
       "subject": "self"
+    },
+    "t023": {
+      "about": "2023-12",
+      "adjudication": {
+        "at": "2026-09-05",
+        "direction": "over",
+        "evidence": "Computed over Dan's 586 sent messages in December 2023 (raw/self/dox-scan/all_imessages_complete_dump.txt). The nocturnal shape is real and strong: 190 of 586 — 32.4% — fall between midnight and 05:59. 'Everyday' is not: only 5 of 31 days carry any message between 02:00 and 05:59, and only 3 reach 04:00 or 05:00. The modal wall is 21:00-23:00 (189 messages, the day's peak). CAVEAT, and it cuts toward him: message volume measures being awake and texting, not playing, so silent play after 02:00 would not appear. Twenty-six days of the month with nothing at all after 02:00, in a month where he texts heavily, is still evidence against 'everyday'.",
+        "failure": [
+          "overreach"
+        ],
+        "magnitude": "3 of 31 days, not 31",
+        "outcome": "partial",
+        "slant": "flattering",
+        "tier": "first_party_record"
+      },
+      "asserted": "2023-12-05",
+      "channel": "message",
+      "claim": "In December 2023 Dan was playing video games until roughly 4am every day",
+      "classes": [
+        "behavior",
+        "duration"
+      ],
+      "confidence": "confident",
+      "history": [],
+      "id": "t023",
+      "load_bearing": false,
+      "note": "'I play until like 4am everyday', said to a friend he was recruiting to play with him. A behaviour claim about a specific month, checkable against the message record's own timestamps for that month.",
+      "pages": [
+        "wiki/people/mohammed-bin-salman"
+      ],
+      "recorded_at": "2026-09-05",
+      "source": "raw/self/dox-scan/all_imessages_complete_dump.txt",
+      "speaker": "operator",
+      "specificity": 2,
+      "subject": "self"
+    },
+    "t024": {
+      "about": "2023-12",
+      "adjudication": null,
+      "asserted": "2023-12-16",
+      "channel": "message",
+      "claim": "Roughly 95 percent of Xanax in circulation is counterfeit pills pressed with fentanyl",
+      "classes": [
+        "quantity"
+      ],
+      "confidence": "hedged",
+      "history": [],
+      "id": "t024",
+      "load_bearing": false,
+      "note": "'Something like 95% of Xanax is pressed fentanyl now' — hedged with 'something like', offered as the reason he stopped taking it. A claim about the world rather than about himself, so the corpus cannot settle it and nothing in raw/ ever will: it needs an external source (DEA counterfeit-pill sampling for the period). Recorded rather than repeated as fact on wiki/health/chemical-architecture, which cites it as his stated risk model and not as a figure. LEFT UNADJUDICATED DELIBERATELY: marking it unfalsifiable would score it zero and close it, when it is in fact checkable by somebody with the right source.",
+      "pages": [
+        "wiki/health/chemical-architecture",
+        "wiki/people/mohammed-bin-salman"
+      ],
+      "recorded_at": "2026-09-05",
+      "source": "raw/self/dox-scan/all_imessages_complete_dump.txt",
+      "speaker": "operator",
+      "specificity": 2,
+      "subject": "other"
     }
   }
 }

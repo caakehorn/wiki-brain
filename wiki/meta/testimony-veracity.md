@@ -22,7 +22,7 @@ chart:
     - name: "What it turned out to be worth"
       points:
         "certain": 0.40
-        "confident": 0.69
+        "confident": 0.65
         "hedged": 0.62
 sources:
   - testimony/events.jsonl
@@ -43,18 +43,18 @@ A single trust score would collapse two facts that behave differently. **Veracit
 
 | | value | n |
 |---|---|---:|
-| **Veracity** | **57 / 100** — +5.5 points on 39.5 weight | 13 |
-| **Calibration** | Brier 0.298, skill -0.19 vs a coin flip | 13 |
-| **Stated vs actual** | -0.24 | 13 |
+| **Veracity** | **57 / 100** — +5.5 points on 41.5 weight | 14 |
+| **Calibration** | Brier 0.283, skill -0.13 vs a coin flip | 14 |
+| **Stated vs actual** | -0.24 | 14 |
 
-Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 13 settled claims, not thousands.
+Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refuted one loses it, a partial is a wash. Weight is specificity (1-3) times 1.5 where other pages reason from the claim. **Read every figure with its n** — this ledger holds 14 settled claims, not thousands.
 
 ## What his confidence is actually worth
 
 | band | he states | it is worth | gap | n |
 |---|---:|---:|---:|---:|
 | certain | 0.95 | 0.40 | -0.55 | 5 |
-| confident | 0.80 | 0.69 | -0.11 | 4 |
+| confident | 0.80 | 0.65 | -0.15 | 5 |
 | hedged | 0.60 | 0.62 | +0.03 | 4 |
 
 ## Outcomes
@@ -62,25 +62,26 @@ Points are `weight x (2v - 1)`: a confirmed claim earns its full weight, a refut
 | outcome | n | meaning |
 |---|---:|---|
 | confirmed | 6 | independent evidence bears it out |
-| partial | 2 | the core holds, a material detail does not |
+| partial | 3 | the core holds, a material detail does not |
 | self_contradicted | 1 | he has given two accounts that cannot both be true |
 | refuted | 4 | independent evidence contradicts it |
 | unfalsifiable | 6 | checked, and the corpus cannot settle it — **scores zero, never negative** |
-| _unadjudicated_ | 1 | not yet checked; excluded from every statistic |
+| _unadjudicated_ | 2 | not yet checked; excluded from every statistic |
 
 ## By claim class
 
-Rates are shrunk toward the global 0.56 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
+Rates are shrunk toward the global 0.55 with a pseudocount of 3, and a class below n=5 is not treated as a prior at all.
 
 | class | n | raw | shrunk | 95% CI on clean confirmations | dominant failure |
 |---|---:|---:|---:|---|---|
 | date | 5 | 0.40 | 0.46 | 12%–77% | displacement, rounding |
 | quantity | 3 | 1.00 | 0.78 | 44%–100% | — |
 | sequence | 3 | 0.50 | 0.53 | 6%–79% | compression, overreach |
+| duration | 2 | 0.75 | 0.63 | 9%–91% | overreach |
 | location | 2 | 0.12 | 0.38 | 0%–66% | displacement, rounding |
 | attribution | 1 | 1.00 | 0.67 | 21%–100% | — |
+| behavior | 1 | 0.50 | 0.54 | 0%–79% | overreach |
 | causation | 1 | 1.00 | 0.67 | 21%–100% | — |
-| duration | 1 | 1.00 | 0.67 | 21%–100% | — |
 | enumeration | 1 | 0.50 | 0.54 | 0%–79% | omission |
 | existence | 1 | 1.00 | 0.67 | 21%–100% | — |
 | other_state | 1 | 0.00 | 0.42 | 0%–79% | overreach |
@@ -93,7 +94,7 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 | slant | n |
 |---|---:|
 | neutral — the error carries no credit or discredit either way | 8 |
-| flattering — the error, had it stood, would have reflected better on him | 1 |
+| flattering — the error, had it stood, would have reflected better on him | 2 |
 
 ## The record
 
@@ -119,6 +120,8 @@ Whether an error would have flattered him or condemned him, had it stood. This i
 | t019 | Fran's house, listed at 350000 dollars, will sell for between 250000 and 300000 | quantity | hedged | confirmed | Sale closed summer 2019 at $250,000 (operator testimony 2026-08-27, carried on wiki/people/danny-matthews) — the bottom of his stated range and $100,000 under the list price he was reacting to |
 | t021 | As of May 2017 Dan was spending well over $100 a day on cocaine. | quantity, behavior | confident | _pending_ | — |
 | t022 | The ~$14,000 that moved from Dan to Suzanne Frank in 2018 was a loan against the expected estate, to be repaid on distribution — not a gift, and not money he took from her | quantity, attribution, causation | certain | confirmed | raw/self/dox-scan/all_imessages_complete_dump.txt — 2018-09-20 12:37, to Davey Fitzpatrick mid-shift: 'Gotta loan my mom $14,000 to pay her property taxes and it will cost me an extra $400 if I can't get to the bank before 4', then at 12:39 'I'm not even used to having that kind of money let alone loaning it out so I'm a mess'. Nine months before the June 2019 dispute, to a coworker with no stake in the framing, unprompted and in passing. The later claim is not retrospective self-justification: it is how he described the transaction on the day, before anyone contested it. |
+| t023 | In December 2023 Dan was playing video games until roughly 4am every day | behavior, duration | confident | partial | Computed over Dan's 586 sent messages in December 2023 (raw/self/dox-scan/all_imessages_complete_dump.txt). The nocturnal shape is real and strong: 190 of 586 — 32.4% — fall between midnight and 05:59. 'Everyday' is not: only 5 of 31 days carry any message between 02:00 and 05:59, and only 3 reach 04:00 or 05:00. The modal wall is 21:00-23:00 (189 messages, the day's peak). CAVEAT, and it cuts toward him: message volume measures being awake and texting, not playing, so silent play after 02:00 would not appear. Twenty-six days of the month with nothing at all after 02:00, in a month where he texts heavily, is still evidence against 'everyday'. |
+| t024 | Roughly 95 percent of Xanax in circulation is counterfeit pills pressed with fentanyl | quantity | hedged | _pending_ | — |
 
 ## What this ledger cannot see
 

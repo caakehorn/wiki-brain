@@ -3,18 +3,22 @@ domain: mind
 page_type: synthesis
 status: stable
 date_created: 2026-09-02
-date_modified: 2026-09-03
+date_modified: 2026-09-05
 date_range_start: 2024-01-01
 date_range_end: 2024-12-31
 title: "2024 Twitter / X Cognitive State — Adversarial Historian"
 sources:
   - "raw/self/twitter/archive.jsonl"
   - "raw/self/twitter/tweet-archive.xlsx"
+  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
 knowledge: earned
 synthesizes:
   - wiki/self/twitter/2024
 tags: [digital-footprint, personality-profile, politics, ideology, forensic-analysis]
 connections:
+  - page: wiki/people/mohammed-bin-salman
+    type: evidenced-by
+    claim: "The adversarial-historian sequence executed with zero stakes, in a 2023-12-10 argument about video-game practice: state the rule, be handed a counterexample by somebody better at the game, concede it explicitly and by name, then narrow the claim to the domain where it survives. Nobody deploys a debate technique to win an argument about recoil patterns, which makes this the strongest evidence available that the pattern is a disposition rather than a strategy adopted for politics."
   - page: wiki/self/twitter/2024
     type: evidenced-by
     claim: "This synthesis interprets the 2024 original-tweet corpus as behavioral evidence rather than merely a list of opinions."
@@ -47,6 +51,35 @@ This was not primarily a year of producing positions. It was a year of repeatedl
 The corpus therefore documents an already-developed cognitive style that later becomes explicit infrastructure in [[wiki/self/concepts/wiki-brain|Wiki Brain]]. In 2024, synthesis is performed manually and episodically in public. By 2026, the project is to externalize that same process into a persistent system capable of storing evidence, preserving chronology, exposing contradictions, and checking whether remembered insight was genuine foresight or retrospective self-flattery.
 
 The strongest single label for the year's public cognitive posture is **The Adversarial Historian**: a person who treats the present as an unfolding historical system whose participants usually understand less about the forces governing them than they think they do.
+
+> **ADDED [2026-09-05] — the same operation, in an argument about Fortnite.**
+> This page reads the 2024 corpus as adversarial reality-testing wearing
+> political clothes, and the typed edges below date the operation to 2011
+> against religion and 2012 against media. Here it is with no subject matter at
+> all, on **2023-12-10**, arguing with a gaming friend
+> ([[wiki/people/mohammed-bin-salman]]) that skill comes from drilling:
+>
+> *"You get better by doing the stuff you absolutely hate. Spending hours in
+> practice range. Learning recoil patterns. And most importantly —"*
+>
+> He is cut off with a counterexample: *"F off with that shit … Ive been in the
+> range like 1% of the time"* — from somebody who is, in fact, better at the
+> game. The next three messages are the whole sequence:
+>
+> *"Well admittedly — the evidence is on your side here — because you're always
+> way better than I am. **But still —**"*
+>
+> *"Okay hear me out though. Battle royale is different. Because if you are
+> dying right away, you never get the chance to shoot enough rounds to learn the
+> recoil."*
+>
+> **Concede the counterexample by name, credit whose evidence it is, then narrow
+> the claim to the domain where it survives.** The stakes are zero and the
+> operation is identical, which is the strongest available evidence that it is a
+> disposition rather than a rhetorical strategy adopted for politics: **nobody
+> deploys a debate technique to win an argument about recoil patterns with a
+> friend at 10:47pm.** A pattern that runs the same way when nothing is at stake
+> is a property of the person.
 
 ## Corpus and method
 

@@ -6,7 +6,7 @@ aliases: ["substance stack", "the chemical triad"]
 status: active
 importance: high
 date_created: 2026-07-13
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 sources:
   - raw/self/captures/2026-08-02_041331_fall-of-fran-alternate-version-ignore-glyph-fo.md
   - raw/self/context-core/CONTEXT_CORE_EXPANDED.md
@@ -26,6 +26,9 @@ related:
   - wiki/work/bfs-foods
 tags: [addiction-recovery, family, relationships, trauma-bond]
 connections:
+  - page: wiki/people/mohammed-bin-salman
+    type: evidenced-by
+    claim: "Supplies the benzodiazepine arc this page did not have at all — the word Xanax appeared nowhere on it. A gaming friend's thread carries the fullest first-person account of a drug's subjective effect in the corpus, a cessation dated by supply adulteration rather than by desire, and a quantified risk model (2023-12-16)."
   - page: wiki/health/cocaine
     type: contains
     claim: "The stimulant layer of this stack has its own page: the twenty-year use history, the finance-driven dosage arc (1g → 3.5–7g → 0.5–1g), the age-13 family exposure, and the supply chain built to deliver it."
@@ -272,6 +275,61 @@ fetch artefact and absence proves nothing.
 tweet. The row is now dated at both ends, continuous in between, and unmeasured
 throughout — better than undated and unmeasured, worse than the cocaine and
 cannabis rows.
+
+## The benzodiazepine arc, which this page did not have at all
+
+**Added 2026-09-05.** Before this, the word *Xanax* did not appear on this page
+— on the map of his chemical stack, in a corpus that contains a detailed
+first-person account of using it, why he stopped, and what it did to him. The
+account is in a gaming friend's thread
+([[wiki/people/mohammed-bin-salman]], 2023-12-16), reached by re-deriving a
+page whose prose had been written from half its evidence.
+
+It arrives as a joke and immediately stops being one. Dan types *"I need to go
+take a Xanax now"*; asked *"u on xanax now / hows that compared to good ol
+snow"*, he answers **"I mean I was joking about taking it literally"** and then
+gives the fullest description of a drug's subjective effect anywhere in the
+record:
+
+> *"You melt into whatever furniture you are sitting in."*
+>
+> *"And there's a really weird thing where if you take more than you should, you
+> completely and totally lose short term memory. I can't tell you how many times
+> I repeated the same story to someone 5 minutes after I just told them when I
+> was doing Xanax. And then forgot I did THAT and did it again.,.and again."*
+
+**Three things this settles or moves.**
+
+**The use is past, and the stop has a stated cause that is not desire.** *"But
+I had stopped taking it before everyone realized you could just use a microgram
+of fentanyl and press fake 900000 Xanax bars."* The cessation is dated by
+reference to the pressed-fentanyl era rather than by a decision about himself —
+the substance became unreliable and he left it. That is the **connoisseur**
+disposition this page already documents from the 2008 heroin rejection ("felt
+dirty"), operating twelve to fifteen years later on a supply-quality
+judgement instead of an aesthetic one. **A stack curated on quality control
+will shed a drug the market ruins, and will not shed one the market keeps
+clean** — which is a testable prediction about what stays.
+
+**The self-reported harm is cognitive and specific.** Short-term memory loss on
+overshoot, narrated as a repeated social failure rather than as a risk. Set
+that against the exocortex: a man who later builds an external memory
+([[wiki/mind/concepts/exocortex]], and this repository) once took a drug whose
+named signature effect was losing the last five minutes. Nothing in the record
+connects the two and the sequence is suggestive enough to say so and stop.
+
+**His risk model is explicit and quantified**, which is rare — *"Something like
+95% of Xanax is pressed fentanyl now"*, *"Every dead rapper you've heard about
+is from that"*, and a distinction between adulteration for margin and
+adulteration that kills: *"'Stepped on' to me is like cutting something with
+isotol or baby laxative to increase the profit."* The 95% figure is a claim
+about the world rather than about him and is **recorded in the testimony ledger
+unadjudicated** ([[wiki/meta/testimony-veracity]]) rather than repeated here as
+fact; the corpus cannot settle it and this page must not launder it.
+
+**Gap:** when the benzodiazepine period ran. The account gives an end condition
+and no start, no dose, no source, and no duration, and it is the only place the
+substance appears. Nothing here dates it against the opiate arc above.
 
 ## System genesis: a phased history
 

@@ -32,6 +32,7 @@ The real corpus is never touched except where a test says so: the matcher and
 guard cases build small page trees in a temp directory.
 """
 import importlib.machinery
+import re
 import importlib.util
 import os
 import tempfile
@@ -699,3 +700,31 @@ class Breadcrumbs(unittest.TestCase):
         pgs = {s + ".md": page("t") for s in slugs}
         self.assertFalse(
             self.m.needs_breadcrumb(gen, pgs[gen + ".md"], pgs, slugs))
+
+
+class RederiveQueue(unittest.TestCase):
+    """The debt `counts` created and could not measure: a page whose number is
+    right and whose prose was written from half the thread. Thirty-three of
+    them, findable until 2026-09-05 only by a grep somebody had to think of."""
+
+    def setUp(self):
+        self.m = load_module()
+
+    def test_the_marker_is_the_page_s_own_admission(self):
+        self.assertTrue(self.m.NOT_REDERIVED.search(
+            "> was written against the smaller, one-sided thread and has not "
+            "been re-derived."))
+        self.assertTrue(self.m.NOT_REDERIVED.search(
+            "> thread and has not been re-derived.**"))
+        self.assertFalse(self.m.NOT_REDERIVED.search("re-derived 2026-09-05"))
+
+    def test_it_reuses_the_count_regex_rather_than_shadowing_it(self):
+        """A second module-level MSG_COUNT_RE silently changed what `counts`
+        matched — a stricter pattern requiring bold — and `bin/wiki-check`
+        reported all gates clean while three tests were red."""
+        src = open(SCRIPT, encoding="utf-8").read()
+        self.assertEqual(1, len(re.findall(r"^MSG_COUNT_RE\s*=", src, re.M)))
+
+    def test_the_count_regex_still_reads_a_bold_table_cell(self):
+        m = self.m.MSG_COUNT_RE.search("| Messages | **779** — 397 sent |\n")
+        self.assertEqual("779", m.group(1))

@@ -6,7 +6,7 @@ title: "AI Collaborative Analysis"
 tags: [ai-collaboration, forensic-analysis, personality-profile]
 status: active
 date_created: 2026-06-22
-date_modified: 2026-08-26
+date_modified: 2026-09-05
 sources:
   - raw/self/gemini-activity/Gemini Activity.html
   - raw/self/dox-md/Gemini_00.md
@@ -27,12 +27,16 @@ sources:
   - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
   - "raw/self/dox-md/Crisis mode briefing.md"
   - "raw/self/dox-md/Creating robust video essays from scripts.md"
+  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
 synthesizes:
   - wiki/mind/concepts/exocortex
   - wiki/mind/synthesis/millennial-digital-witness
   - wiki/mind/synthesis/instrument-is-subject
   - wiki/self/gemini-activity/gemini-activity
 connections:
+  - page: wiki/people/mohammed-bin-salman
+    type: evidenced-by
+    claim: "The practice appears as a throwaway line to a friend two years before this wiki existed: 'I trained an ai to analyze my convo with Sergio' (2024-06-25) — analysing a personal conversation with a model, mentioned in passing rather than as a project."
   - page: wiki/people/jacob-bacharach
     type: instance-of
     claim: "Not one usable sentence in the Bacharach chain came from the model unprompted; every one followed a reversal by Dan, which makes this the cleanest case that the value of the collaboration is adversarial rather than generative."

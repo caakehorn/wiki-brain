@@ -23,27 +23,32 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-05 — 11 pages
-
-| Page | Domain | What moved |
-|---|---|---|
-| [[wiki/interests/stand-up-comedy]] | interests | — |
-| [[wiki/meta/digest]] | meta | — |
-| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
-| [[wiki/meta/recent-activity]] | meta | _(carries a RE-CHECKED)_ |
-| [[wiki/meta/testimony-veracity]] | meta | — |
-| [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a RE-CHECKED from 2026-08-28)_ |
-| [[wiki/mind/synthesis/failure-to-launch]] | mind | _(carries a RE-CHECKED from 2026-09-04)_ |
-| [[wiki/people/davey-fitzpatrick]] | people | — |
-| [[wiki/people/jack-rusko]] | people | — |
-| [[wiki/people/suzanne-frank]] | people | _(carries a RE-CHECKED from 2026-08-26)_ |
-| [[wiki/people/trevor]] | people | **CORRECTED** — The thank-you exchange above is real. What the paragraph does not say is that **Dan learned of the departure from somebody else, and reacted before that exchange happened.** On **2018-07-26** the assi |
-
-## 2026-09-04 — 98 pages
+## 2026-09-05 — 17 pages
 
 | Page | Domain | What moved |
 |---|---|---|
 | [[wiki/health/chemical-architecture]] | health | _(carries a GAP CLOSED from 2026-08-28)_ |
+| [[wiki/interests/stand-up-comedy]] | interests | — |
+| [[wiki/meta/digest]] | meta | — |
+| [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
+| [[wiki/meta/recent-activity]] | meta | _(carries a CORRECTED)_ |
+| [[wiki/meta/testimony-veracity]] | meta | — |
+| [[wiki/mind/concepts/calibrated-confidence]] | mind | _(carries a CORRECTED from 2026-08-23)_ |
+| [[wiki/mind/synthesis/ai-collaborative-analysis]] | mind | — |
+| [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a RE-CHECKED from 2026-08-28)_ |
+| [[wiki/mind/synthesis/failure-to-launch]] | mind | _(carries a RE-CHECKED from 2026-09-04)_ |
+| [[wiki/mind/synthesis/twitter-2024-cognitive-state]] | mind | — |
+| [[wiki/people/davey-fitzpatrick]] | people | — |
+| [[wiki/people/jack-rusko]] | people | — |
+| [[wiki/people/mohammed-bin-salman]] | people | — |
+| [[wiki/people/suzanne-frank]] | people | _(carries a RE-CHECKED from 2026-08-26)_ |
+| [[wiki/people/trevor]] | people | **CORRECTED** — The thank-you exchange above is real. What the paragraph does not say is that **Dan learned of the departure from somebody else, and reacted before that exchange happened.** On **2018-07-26** the assi |
+| [[wiki/work/au-zaatar]] | work | _(carries a REVISED from 2026-07-14)_ |
+
+## 2026-09-04 — 95 pages
+
+| Page | Domain | What moved |
+|---|---|---|
 | [[wiki/health/cocaine]] | health | _(carries a RE-CHECKED from 2026-08-28)_ |
 | [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — cocaine and supply-network both moved for the vaughn re-derivation. The cocaine page gained a contemporaneous first-person spend figure — *"I spend well over $100 a day on it"* |
 | [[wiki/interests/concert-record/index]] | interests | — |
@@ -59,7 +64,6 @@ simply listed.
 | [[wiki/interests/the-office]] | interests | — |
 | [[wiki/meta/readers-digest]] | meta | — |
 | [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
-| [[wiki/mind/concepts/calibrated-confidence]] | mind | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/mind/concepts/chaos-preference]] | mind | **RE-CHECKED** — the-cool-metric gained a section showing the received-versus-sought sort aimed at an already-admitted person: a six-year partner whose public register goes ironic and then silent. This page's axis is  |
 | [[wiki/mind/concepts/contact-gini]] | mind | _(carries a REVISED from 2026-08-20)_ |
 | [[wiki/mind/concepts/the-cool-metric]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
@@ -112,7 +116,6 @@ simply listed.
 | [[wiki/people/md]] | people | — |
 | [[wiki/people/mike-hinkle]] | people | — |
 | [[wiki/people/mike-zollinger]] | people | — |
-| [[wiki/people/mohammed-bin-salman]] | people | — |
 | [[wiki/people/new-jim-shaffer]] | people | _(carries a REVISED from 2026-07-19)_ |
 | [[wiki/people/nick-mattie]] | people | — |
 | [[wiki/people/rick-frank]] | people | _(carries a CORRECTED from 2026-08-11)_ |
@@ -142,7 +145,7 @@ simply listed.
 | [[wiki/timeline/periods/2017-poverty-floor]] | timeline | — |
 | [[wiki/work/nemacolin-caddying]] | work | — |
 
-## 2026-09-03 — 27 pages
+## 2026-09-03 — 26 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -151,7 +154,6 @@ simply listed.
 | [[wiki/legal/2015-possession-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
-| [[wiki/mind/synthesis/twitter-2024-cognitive-state]] | mind | — |
 | [[wiki/people/dan-polyak]] | people | — |
 | [[wiki/people/josh-brannan]] | people | — |
 | [[wiki/places/424-bedford-ave]] | places | — |
@@ -234,7 +236,7 @@ simply listed.
 | [[wiki/mind/profile/linguistic-profile]] | mind | **GAP CLOSED** — the operator volunteered the full "words for stupid" list against this page. It was not a gap this page had stated — unprompted material, staged here for the ingest to place. Placed here, in Lexical f |
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 
-## 2026-08-26 — 44 pages
+## 2026-08-26 — 43 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -259,7 +261,6 @@ simply listed.
 | [[wiki/mind/profile/neurodivergence]] | mind | — |
 | [[wiki/mind/profile/voice-modes]] | mind | _(carries a CONTRADICTION)_ |
 | [[wiki/mind/psychosexual/arrangement-history]] | mind | _(carries a CORRECTED from 2026-08-20)_ |
-| [[wiki/mind/synthesis/ai-collaborative-analysis]] | mind | — |
 | [[wiki/mind/synthesis/closing-the-set]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
 | [[wiki/mind/synthesis/political-psyops]] | mind | — |
 | [[wiki/mind/synthesis/the-cato-seat]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
@@ -312,7 +313,7 @@ simply listed.
 | [[wiki/places/337-saratoga-drive]] | places | _(carries a REVISED from 2026-08-18)_ |
 | [[wiki/timeline/events/uniontown-hospital-vape-alarm]] | timeline | **GAP CLOSED** — This page asked, from its creation until now, *"Whether a summary offense was actually filed with a Fayette County magistrate, or whether the paperwork was an incident report a security guard describe |
 
-## 2026-08-21 — 6 pages
+## 2026-08-21 — 5 pages
 
 | Page | Domain | What moved |
 |---|---|---|
@@ -321,7 +322,6 @@ simply listed.
 | [[wiki/self/concepts/chatgpt]] | self | _(carries a GAP CLOSED from 2026-09-02)_ |
 | [[wiki/self/concepts/llm]] | self | **CORRECTED** — this section previously presented all three bullets below as *"his analysis."* They are **Gemini's**, generated in the 2025-08-24 session from Dan's five-word prompt *"gemini i think chatGPT is cooked |
 | [[wiki/self/concepts/wiki-brain]] | self | **RE-CHECKED** — llm moved on 2026-08-21: Gemini's 'chicken nugget' passage was corrected off Dan's ledger, and the post-GPT-5 causation of ChatGPT's decline was marked untested. This page carries an edge claiming Cha |
-| [[wiki/work/au-zaatar]] | work | _(carries a REVISED from 2026-07-14)_ |
 
 ## 2026-08-20 — 13 pages
 

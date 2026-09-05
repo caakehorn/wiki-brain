@@ -9924,3 +9924,43 @@ It had already happened. **t017** — *"As of May 2017 Dan was spending well ove
 Three changes. `record` normalises the operator's own aliases on entry. `check` **names every non-operator record on every run** — a deliberate third-party record now reads as deliberate, and a misfiling is caught the next time the gate runs; warning rather than error, because third-party testimony is legitimate. Both misfilings were voided with the reason on the log and re-recorded as **t021** and **t022**, nothing edited in place.
 
 **Veracity moved 51 → 57** on the repair, and t021 is back in the pending queue where it belongs. Five tests pin it, including the case that caught the first version of the warning being placed after `check`'s unadjudicated early-return — which would have missed t017, the one that had actually been lost.
+
+## [2026-09-05] rewrite | people | "Mohammed Bin Salman" re-derived — and the benzodiazepine arc was missing entirely
+
+**`bin/wiki-crosslink rederive`, and the debt `counts` created and could not measure.** The count audit of 2026-09-04 fixed thirteen numbers and left thirteen pages whose prose was written from half a thread, each honest enough to say so — *"the prose below was written against the one-sided thread and has not been re-derived."* **Thirty-three pages carry that sentence**, and until today the only way to find them was a grep somebody had to think of running: the exact shape `bin/wiki-work` exists to end, and the exact shape that let 161 unlinked twitter mentions stand through two crosslink passes. Ordered by thread size, because the unread half of a 770-message thread is worth more than the unread half of a 24-message one.
+
+**Eight are flagged directive-constrained, and the flag has a blind spot worth knowing.** It counts how often *the page* names her. `wiki/people/danny-matthews` (770, the arrangement's opening encounter) is correctly flagged. `wiki/people/mohammed-bin-salman` names her **zero times** and its 2024-08-11 exchange is a direct solicitation into the arrangement — read, and deliberately not written up. **A page can be directive-constrained without looking it**, because the constrained material is in the unread half by definition. An unflagged page is unverified, not safe.
+
+### The re-derivation: 650 rows, four page-level corrections
+
+**The joke name is about a real person's background, and the page had been coy about which joke.** He is Moroccan and Muslim, says so himself, lives in Brooklyn, and Dan's register with him runs to *"You can take the Muslim out of the Moroccan / But you can't take the faggot out of the Muslim"* (2024-08-11), returned with a flat *"You can."* `relationship_to_dan` was `unknown`.
+
+**The friendship is at least eighteen months older than the page's first contact.** The thread opens **2023-08-11**, seven weeks before the recorded date, and on 2023-12-05: *"I can't fucking believe you got a console and didn't tell me. **I've been begging you to do this for like a year and a half**."*
+
+**The Au Za'atar link is documented, not speculative.** *"Birthday party / With the au zaatar crew"* (2023-10-15, for November 1 — Dan's own birthday, with an outside friend invited), and *"I just left au zaatar"* seven weeks later. Written back to `wiki/work/au-zaatar`: the restaurant supplied the social calendar, and the boundary with Dan's other friendships was porous both ways.
+
+### The finding: `wiki/health/chemical-architecture` had no benzodiazepines on it
+
+**The word Xanax did not appear on the page that maps his chemical stack.** The corpus contains a detailed first-person account of using it, why he stopped, and what it did to him — in a gaming friend's thread, in the half nobody had read.
+
+The page had summarised it as *"a matter-of-fact exchange comparing Xanax to cocaine that reads as two people genuinely comparing notes."* It is not about current use. Dan jokes *"I need to go take a Xanax now"*, is asked *"u on xanax now"*, and answers **"I mean I was joking about taking it literally."** What follows is retrospective and is the fullest description of a drug's subjective effect anywhere in the record: *"You melt into whatever furniture you are sitting in"*, and the harm named as cognitive — *"if you take more than you should, you completely and totally lose short term memory. I can't tell you how many times I repeated the same story to someone 5 minutes after I just told them … And then forgot I did THAT and did it again.,.and again."*
+
+**The cessation has a stated cause that is not desire:** *"I had stopped taking it before everyone realized you could just use a microgram of fentanyl and press fake 900000 Xanax bars."* That is the connoisseur disposition the page already documents from the 2008 heroin rejection ("felt dirty"), running twelve years later on a **supply-quality** judgement rather than an aesthetic one — which yields a testable prediction: a stack curated on quality control sheds a drug the market ruins and keeps one the market keeps clean.
+
+**His risk model is quantified**, which is rare, and the 95%-pressed-fentanyl figure went to the testimony ledger unadjudicated rather than onto the page as fact. It is a claim about the world; `raw/` will never settle it, and marking it `unfalsifiable` would score it zero and close it when somebody with a DEA sampling series could actually check it.
+
+### The other find: the adversarial-historian move with nothing at stake
+
+`twitter-2024-cognitive-state` reads the 2024 corpus as adversarial reality-testing in political clothes and dates the operation to 2011 against religion. Here it is on **2023-12-10**, arguing that skill comes from drilling, cut off with *"F off with that shit … Ive been in the range like 1% of the time"* by somebody who is better at the game:
+
+> *"Well admittedly — the evidence is on your side here — because you're always way better than I am. **But still —** Okay hear me out though. Battle royale is different. Because if you are dying right away, you never get the chance to shoot enough rounds to learn the recoil."*
+
+Concede the counterexample by name, credit whose evidence it is, narrow the claim to where it survives. **Nobody deploys a debate technique to win an argument about recoil patterns with a friend at 10:47pm** — which makes this the strongest available evidence that the pattern is a disposition rather than a strategy adopted for politics.
+
+### Two testimony records, one of them measurable
+
+*"I play until like 4am everyday"* (2023-12-05) is checkable against the record's own timestamps, and comes back **partial**. The nocturnal shape is real and strong — **190 of Dan's 586 December 2023 messages, 32.4%, fall between midnight and 05:59.** "Everyday" is not: **5 of 31 days** carry anything between 02:00 and 05:59 and **3** reach 04:00. The modal wall is 21:00–23:00. Failure mode **overreach**, direction over, slant flattering — it was said while recruiting the other person to play. The caveat is on the adjudication and cuts toward him: message volume measures being awake and texting, not playing.
+
+### And a shadowed name the gates could not see
+
+The new subcommand declared `MSG_COUNT_RE` at module scope, 700 lines below an existing one serving `counts`, and **silently replaced it** with a stricter pattern requiring bold. `bin/wiki-check` reported **all gates clean**; three tests in a class for a command the diff never mentions caught it. Fixed by reusing the original, pinned by a test asserting exactly one definition, and filed to `skills/INBOX.md` — with the corpus-wide measurement, which found **zero** duplicate module-level constants across all of `bin/` and therefore argues against promoting it. Parked, not promoted.
