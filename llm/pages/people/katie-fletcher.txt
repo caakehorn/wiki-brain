@@ -146,3 +146,7 @@ the vase discovery, and her subsequent history are all absent.
 > ur next maxxinista"). The same corpus independently confirms
 > @alexisarmel "fully absent post-2013," consistent with the Franki/Katie
 > dating above.
+
+---
+
+**Up:** [[wiki/people/index|People]]

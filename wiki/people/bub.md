@@ -51,3 +51,7 @@ Real name and how the friendship originated (likely college, given the roommate 
 ## Related
 
 [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -52,3 +52,7 @@ the family knew to call him — though no source states how he was retained.
 [[wiki/legal/2015-retail-theft-arrest|the Combos matter]] as well, and any
 later contact are all unrecorded. The message placing him at the cash-claw
 drawing is undated in the extract available.
+
+---
+
+**Up:** [[wiki/people/index|People]]

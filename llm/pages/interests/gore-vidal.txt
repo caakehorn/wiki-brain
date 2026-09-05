@@ -71,3 +71,7 @@ ideology profile and was simply not logged.
 ## Related
 
 [[wiki/interests/favorites/books]] · [[wiki/mind/profile/deviance-mapping]] · [[wiki/interests/favorites/music/artists/fall-out-boy]]
+
+---
+
+**Up:** [[wiki/interests/index|Interests]]

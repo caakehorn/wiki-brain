@@ -399,3 +399,6 @@ belong to people around Dan rather than to Dan himself.
 3. **Additional conversational partners:** More data from Annie's interactions with people other than Dan (her mother, her sister, her coworkers) would provide additional evidence.
 4. **Longitudinal analysis:** As new messages enter the corpus, the assessment should be re-evaluated to determine whether the type holds across time and context.
 
+---
+
+**Up:** [[wiki/people/index|People]]

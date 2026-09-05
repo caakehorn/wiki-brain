@@ -178,3 +178,7 @@ already running the archival reflex the rest of the corpus documents.
 This record is the itinerary/devotion facet of the four-mode thesis at
 [[wiki/mind/synthesis/music-as-identity]] — fandom run as logistics, the
 mid-2000s scene followed city to city.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

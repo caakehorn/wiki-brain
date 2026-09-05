@@ -29,3 +29,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 ## Notes per appearance
 
 - **Apr 20, 2019** — High Tide 4, Hornblower Infinity Yacht, New York, NY. Boarded at 353 West St.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

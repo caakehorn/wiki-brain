@@ -84,3 +84,7 @@ Freqs cross: annie:22, suzanne:16, bunker:20, work:22, timeline:16. Cross _07 Gr
 **Related:** [[wiki/timeline/events/timeline]], [[wiki/mind/synthesis/attachment-trauma-bond]], [[wiki/timeline/periods/dec-2025-spike]]
 
 The cross-corpus structural read of this period — the housing clock, the precarity ledger, and the output-port recursion — is [[wiki/mind/synthesis/totality-themes]]; the period page holds the events, the synthesis holds the shape.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

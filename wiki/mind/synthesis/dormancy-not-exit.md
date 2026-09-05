@@ -759,3 +759,6 @@ merely restating it. **What it did not do:** force Trust 9 or
 Self-Consciousness onto a page that does not need them, or manufacture an
 age/upbringing or geographic origin story the corpus does not support.
 
+---
+
+**Up:** [[wiki/mind/index|Mind]]

@@ -47,3 +47,6 @@ the same autumn as the emo, pop-punk and [[wiki/interests/favorites/music/artist
 [[wiki/self/twitter/2009]], which is a wider taste at twenty than either page
 suggests alone.
 
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

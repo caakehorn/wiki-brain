@@ -124,3 +124,7 @@ the final ledger state and whether debt ended the contact; Nick's
 upstream source; the "Brian Brink"/HR job thread of May 7 (one
 fragment, uninterpretable); whether "Andy" is the corpus's Andy or
 another.
+
+---
+
+**Up:** [[wiki/people/index|People]]

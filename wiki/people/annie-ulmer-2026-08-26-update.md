@@ -93,3 +93,7 @@ That is the meaningful change.
 If it persists, the block stops being merely a symbol of the breakup and becomes
 one of the clearest longitudinal markers in the entire wiki that Dan's conduct
 has changed.
+
+---
+
+**Up:** [[wiki/people/index|People]]

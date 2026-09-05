@@ -1103,3 +1103,7 @@ cost:
 > of them alters a claim this page reasons from. They are listed as cheap
 > re-checks in `BACKLOG.md` rather than worked here, because the honest reason
 > to leave them is that they are cheap, not that they are done.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

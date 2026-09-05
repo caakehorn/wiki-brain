@@ -342,3 +342,7 @@ For the full detailed records, see:
 - [[wiki/self/lineage/family-tree]] — The complete GEDCOM extraction: 515 individuals, 218 families, 90 direct ancestors, 7 generations, all documented birth/death/residence events, all migration corridors, all surname frequencies.
 - [[wiki/self/lineage/23andme-genomics]] — The complete 23andMe extraction: ancestry composition with sub-regions, haplogroups (R0 maternal, R-Z93 paternal), ancestry timeline, Neanderthal 95th percentile, 14 health predispositions, 46+ carrier status reports (ARSACS detected), 8 wellness reports, 37+ trait reports.
 - [[wiki/self/lineage/hybrid-analysis]] — The cross-referenced analysis: where the genomic and documentary records corroborate each other, where they diverge, and where the reading crosses from corroborated fact into interpretive frame.
+
+---
+
+**Up:** [[wiki/self/index|Self]]

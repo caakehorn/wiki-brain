@@ -632,3 +632,7 @@ finding to a rule already established and worked out in detail on
 `the-deferred-audit`. **What it did not do:** duplicate that page's
 personality-profile citations, which the pass explicitly declined as
 decorative given this page's own argument does not need them.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

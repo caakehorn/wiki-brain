@@ -123,3 +123,7 @@ it did not.
 Dan and Alexis; any photos or physical description of the unit itself
 beyond the buzzer code; the exact circumstances of the move to the UES
 sublet a year before the NYC-1 period's 2013 close.
+
+---
+
+**Up:** [[wiki/places/index|Places]]

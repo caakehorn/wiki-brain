@@ -344,3 +344,7 @@ default for the five years to 2019.
   Whether the nine are representative or the only four people who ever said it out loud is
   unresolved, and it bears directly on how much of the answer-rate decay is annoyance
   versus simple unreadability.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]] › [[wiki/mind/profile/index|Profile]]

@@ -25,3 +25,6 @@ Final Show (2011) is a festival / tour Dan Frank attended. This page records the
 ### Apr 2, 2011 — Madison Square Garden, New York, NY
 _(lineup not itemized in source beyond the festival name)_
 
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/concert-record/index|Concert Record]]

@@ -262,3 +262,7 @@ The Neanderthal 95th-percentile result and the wellness report's sleep and caffe
 - The maternal haplogroup R0 is unusual for a supposedly purely Appalachian Protestant line and warrants further investigation — it may indicate a distant non-European ancestor on the maternal line, or it may simply reflect the deep-time distribution of R0 across Europe.
 - The paternal haplogroup R-Z93 is consistent with Ashkenazi heritage but is not exclusively Jewish; its presence in the Frank line could be investigated further with more detailed Y-DNA testing.
 - Inverse connections to this page from [[wiki/self/lineage/family-tree]], [[wiki/self/lineage/hybrid-analysis]], and [[wiki/self/ancestry]] need to be added to those pages' frontmatter (the `bin/wiki-connect check` lint will flag these as missing inverses).
+
+---
+
+**Up:** [[wiki/self/index|Self]] › [[wiki/self/lineage/index|Lineage]]

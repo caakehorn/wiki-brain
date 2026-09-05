@@ -511,3 +511,7 @@ this pass.
   pass for other stated percentages tied to relationship logistics, rather
   than to belief, would settle whether the exception is a pattern or a
   single dated concession.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

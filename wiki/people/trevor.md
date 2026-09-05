@@ -121,3 +121,7 @@ the meme-stock conversation.
 | iMessage range | 2017-10-19 – 2020-06-18 |
 | Confirmed Facebook continuation | 2021-02-04 |
 | Defining shared period | Nemacolin caddying, May–July 2018 |
+
+---
+
+**Up:** [[wiki/people/index|People]]

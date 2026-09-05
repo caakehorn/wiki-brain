@@ -157,3 +157,7 @@ now upstream of him rather than about him** — the relationship between Jason
 Adams, [[wiki/people/fred-adams|Fred Adams]] and Adams & Adams, and which of
 them held what authority when, is not established anywhere in the corpus and is
 answerable only from the estate docket.
+
+---
+
+**Up:** [[wiki/people/index|People]]

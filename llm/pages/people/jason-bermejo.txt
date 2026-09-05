@@ -196,3 +196,7 @@ Dan describes him as a gateway to "a different style of music that still resonat
 - Last message: 2026-03-21 (gap since February spike suggests lower contact post-winter)
 - Music output / release status: unclear if Jason has released material or remains hobbyist
 - Full Sail attendance dates: ~2009-2011 implied
+
+---
+
+**Up:** [[wiki/people/index|People]]

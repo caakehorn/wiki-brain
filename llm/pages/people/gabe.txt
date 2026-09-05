@@ -85,3 +85,7 @@ gets.
 Orlando, August 2008); confirmation of the November 2023 death date over
 the stated "November 2003"; resolution of the MAX_PRIME tense contradiction
 above.
+
+---
+
+**Up:** [[wiki/people/index|People]]

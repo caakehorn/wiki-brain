@@ -68,3 +68,7 @@ under the same name, at 463 Morgantown in February 2026.
 ## Related
 
 [[wiki/people/suzanne-frank]] · [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

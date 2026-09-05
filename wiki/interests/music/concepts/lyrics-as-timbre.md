@@ -144,3 +144,7 @@ corroborated by any message thread or earlier self-description.
 ## Related
 
 [[wiki/interests/music/concepts/sub-bass-signature]] · [[wiki/interests/favorites/music]] · [[wiki/interests/favorites/music/artists/fall-out-boy]] · [[wiki/interests/favorites/music/artists/my-chemical-romance]] · [[wiki/interests/favorites/music/artists/say-anything]] · [[wiki/interests/favorites/music/artists/taking-back-sunday]] · [[wiki/interests/favorites/music/artists/new-found-glory]]
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/music/index|Music]]

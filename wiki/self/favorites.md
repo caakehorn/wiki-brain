@@ -160,3 +160,7 @@ No individual My Ratings for music entries in this export. Music data is primari
 **2026-06-23 Re-analysis Update:** Confirmed 1,477 unique artists, 3 balanced clusters (~90+ tracks indicative each: exp hip-hop, emo/rock, bass/electronic), heavy 2025-2026 releases (aligns [[wiki/timeline/periods/2025-collapse]] reactivation), FB music likes overlaps (Elliott Smith, FOB, Say Anything, [[wiki/interests/favorites/music/artists/lil-wayne|Lil Wayne]] + 2007-14 continuity). See [[wiki/interests/favorites/index]], [[wiki/interests/favorites/music]], [[wiki/interests/favorites/books]], [[wiki/interests/favorites/art-and-movies]] for expanded tables + [[wiki/mind/synthesis/totality-themes]].
 
 This page should be updated on future masterlist exports.
+
+---
+
+**Up:** [[wiki/self/index|Self]]

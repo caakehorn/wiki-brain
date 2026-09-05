@@ -25,3 +25,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 ## Notes per appearance
 
 - **Apr 21, 2004** — HIM, The Rock Club (Station Square), Pittsburgh, PA. Resolved. Love Metal Tour. (Later return Nov 18, 2004 also documented.).
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

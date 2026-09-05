@@ -109,3 +109,7 @@ would have to absorb. None is currently on any page in this route.
 **Gaps:** the route as walked here is the wiki's own retrospective account,
 assembled entirely from pages other passes already wrote; it adds no new
 figure and settles no open question either underlying page carries.
+
+---
+
+**Up:** [[wiki/meta/index|Meta]] › [[wiki/meta/journeys/index|Journeys]]

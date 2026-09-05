@@ -571,3 +571,7 @@ Gap the vertical/lateral framing opens (register 5 above has never been
 tested against its own counter-case). **What it did not do:** manufacture
 a health, ideological, or geographic connection where none of this page's
 content actually bears.
+
+---
+
+**Up:** [[wiki/places/index|Places]]

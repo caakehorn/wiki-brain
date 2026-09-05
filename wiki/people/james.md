@@ -144,3 +144,7 @@ infobox:
 **Verification:** Direct verbatim from Gemini _21 full reads + _58 cross. iMessage corpus cross-checked. Consistent identity across sources. Tables-first, exhaustive synthesis.
 
 **Status:** Active. Earned knowledge (synthesized from Gemini analysis + message corpus + creative output characterization).
+
+---
+
+**Up:** [[wiki/people/index|People]]

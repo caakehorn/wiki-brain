@@ -34,3 +34,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 
 - **Sep 28 - Nov 23, 2005** — Nintendo Fusion Tour, Various (tour), Multiple cities. Confirmed tour window.
 - **Jul 27, 2006** — Vans Warped Tour, Post-Gazette Pavilion, Burgettstown, PA. Warped Tour date. Lineup included AFI, Rise Against, Thursday, Motion City Soundtrack, NOFX.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

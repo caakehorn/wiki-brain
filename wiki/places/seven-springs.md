@@ -111,3 +111,7 @@ generic one.
 **Gaps:** how long the family kept the condo; whether skiing continued
 past adolescence; any named individuals from the Seven Springs crew
 beyond the general cohort description.
+
+---
+
+**Up:** [[wiki/places/index|Places]]

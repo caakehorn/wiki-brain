@@ -109,3 +109,7 @@ drops entirely.
 **Gaps:** confirmed cause of death; the significance of "Edgewood";
 whether Dan or Lauryn ultimately attended the funeral; Rob's full name
 and any surviving family.
+
+---
+
+**Up:** [[wiki/people/index|People]]

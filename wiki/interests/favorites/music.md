@@ -175,3 +175,7 @@ sits, not a retreat into a niche.
 ## Related
 
 [[wiki/interests/favorites/music/artists/jpegmafia]] · [[wiki/interests/favorites/music/artists/kanye-west]] · [[wiki/interests/favorites/music/artists/elliott-smith]] · [[wiki/interests/favorites/music/artists/fall-out-boy]] · [[wiki/interests/favorites/music/artists/my-chemical-romance]] · [[wiki/interests/favorites/music/artists/say-anything]] · [[wiki/interests/favorites/music/artists/taking-back-sunday]] · [[wiki/interests/favorites/music/artists/new-found-glory]] · [[wiki/interests/favorites/music/artists/lyny]] · [[wiki/interests/favorites/music/electronic-bass]] · [[wiki/interests/music/concepts/lyrics-as-timbre]] · [[wiki/interests/music/concepts/sub-bass-signature]] · [[wiki/self/facebook]] · [[wiki/interests/rock-irrelevance-thesis]]
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]]

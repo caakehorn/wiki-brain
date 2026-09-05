@@ -154,3 +154,7 @@ dated, and confirmed, but not evidence of a recurring behavior. If a
 second instance ever surfaces, it would move this from "one authored
 scene" to an actual pattern; absent that, treat the mechanism as
 demonstrated-once rather than established.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]] › [[wiki/mind/psychosexual/index|Psychosexual]]

@@ -312,3 +312,7 @@ supply. And the claim that the drive was "honed" into a productive form is
 asserted rather than dated: the corpus can show productive outputs after
 roughly 2020, but not that anything about the trait itself changed rather
 than its targets.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

@@ -627,3 +627,75 @@ class ReaderFacingCount(unittest.TestCase):
         fm, _ = self.m.split_fm(txt)
         hits = self.m.unlinked_names("wiki/x", fm, txt, idx, matcher)
         self.assertIn(("cobra starship", ("wiki/a/cobra-starship",)), hits)
+
+
+class Breadcrumbs(unittest.TestCase):
+    """`STYLE_GUIDE.md` said "reachable FROM its domain index" and the lint
+    enforced exactly that sentence, so 453 of 497 pages were one-way doors.
+    The footer that fixes it is generated, and a generator nobody tests is a
+    generator that silently stops generating."""
+
+    def setUp(self):
+        self.m = load_module()
+        self.slugs = {
+            "wiki/people/index", "wiki/people/jerel-coles",
+            "wiki/self/index", "wiki/self/twitter",
+            "wiki/self/twitter/2012", "wiki/self/twitter/2013",
+            "wiki/self/twitter/2014",
+            "wiki/interests/index", "wiki/interests/concert-record/index",
+            "wiki/interests/concert-record/festivals/high-tide-4",
+        }
+
+    def test_ancestry_is_nearest_last_and_accepts_both_index_shapes(self):
+        """`wiki/people/index.md` and `wiki/self/twitter.md` are both parents of
+        their directory; a reader does not care which shape the corpus used."""
+        self.assertEqual(["wiki/self/index", "wiki/self/twitter"],
+                         self.m.ancestry("wiki/self/twitter/2013", self.slugs))
+        self.assertEqual(["wiki/people/index"],
+                         self.m.ancestry("wiki/people/jerel-coles", self.slugs))
+
+    def test_label_comes_from_the_slot_not_the_page_title(self):
+        """Most indexes here are titled `index`, and the ones that are not are
+        titled for the page (`Twitter / X Activity (@danfrank)`)."""
+        self.assertEqual("People", self.m.crumb_label("wiki/people/index"))
+        self.assertEqual("Twitter", self.m.crumb_label("wiki/self/twitter"))
+        self.assertEqual("Concert Record",
+                         self.m.crumb_label("wiki/interests/concert-record/index"))
+
+    def test_previous_and_next_only_for_a_numeric_run(self):
+        self.assertEqual(("wiki/self/twitter/2012", "wiki/self/twitter/2014"),
+                         self.m.sequence_neighbours("wiki/self/twitter/2013", self.slugs))
+        self.assertEqual((None, "wiki/self/twitter/2013"),
+                         self.m.sequence_neighbours("wiki/self/twitter/2012", self.slugs))
+        self.assertEqual((None, None),
+                         self.m.sequence_neighbours("wiki/people/jerel-coles", self.slugs))
+
+    def test_alphabetical_siblings_are_not_a_sequence(self):
+        """Inventing previous/next from filename order would sell the reader a
+        reading path nobody chose."""
+        self.assertEqual(
+            (None, None),
+            self.m.sequence_neighbours(
+                "wiki/interests/concert-record/festivals/high-tide-4", self.slugs))
+
+    def test_footer_is_idempotent(self):
+        pages = {s + ".md": page(s.rsplit("/", 1)[-1]) for s in self.slugs}
+        pages["wiki/people/index.md"] = page(
+            "index", body="- [[wiki/people/jerel-coles]]")
+        once = self.m.footer_for("wiki/people/jerel-coles", self.slugs)
+        txt = pages["wiki/people/jerel-coles.md"].rstrip("\n") + once
+        self.assertFalse(
+            self.m.needs_breadcrumb("wiki/people/jerel-coles", txt, pages, self.slugs))
+        self.assertTrue(self.m.needs_breadcrumb(
+            "wiki/people/jerel-coles", pages["wiki/people/jerel-coles.md"],
+            pages, self.slugs))
+
+    def test_an_index_and_a_generated_page_are_exempt(self):
+        pages = {s + ".md": page("t") for s in self.slugs}
+        self.assertFalse(self.m.needs_breadcrumb(
+            "wiki/people/index", pages["wiki/people/index.md"], pages, self.slugs))
+        gen = sorted(self.m.GENERATED)[0]
+        slugs = self.slugs | {gen, os.path.dirname(gen) + "/index"}
+        pgs = {s + ".md": page("t") for s in slugs}
+        self.assertFalse(
+            self.m.needs_breadcrumb(gen, pgs[gen + ".md"], pgs, slugs))

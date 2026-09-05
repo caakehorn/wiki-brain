@@ -791,3 +791,7 @@ function") and a formal link to the identical two-function account already
 established elsewhere this session for the same underlying phenomenon.
 **What it did not do:** [[wiki/interests/favorites/music/artists/say-anything|say anything]] new about Annie, or manufacture a
 connection to a register that does not bear on channel-state mechanics.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

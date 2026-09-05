@@ -99,3 +99,7 @@ tags: [ai-collaboration, relationships, politics, nyc-era, trauma-bond]
 - Index update: People Danielle added; gemini-21 / activity refs.
 
 **End Gemini-21 ingest + deep analysis.** (Tables/raw/verbatim first; frontmatter/sources updated; wikilinks granular. Part of exhaustive Gemini swarm + 240min+ equiv. All per CLAUDE.md. /tmp/gemini-21-deep-analysis.md primary detailed artifact.)
+
+---
+
+**Up:** [[wiki/self/index|Self]]

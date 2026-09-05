@@ -559,3 +559,7 @@ predicts an instant, unsecured $14,000 family loan) — the instrument's own
 audit already resolved this, and it had never been cited. **What it did
 not do:** manufacture cognitive-stack or ideological connections where
 the page's actual content is financial and genealogical.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

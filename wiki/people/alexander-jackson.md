@@ -87,3 +87,7 @@ is in an active federal bankruptcy, which makes any unwritten obligation running
 between them materially harder to enforce in either direction. **Open lead,
 recorded not resolved:** whether Jackson knew, or knows, that his tenant-agent
 is a Chapter 13 debtor.
+
+---
+
+**Up:** [[wiki/people/index|People]]

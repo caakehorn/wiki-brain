@@ -101,3 +101,7 @@ User provides raw zero-shot response to test prompt about refusing to lower stan
 **Psych Model:** "hyper-intellectual, self-contained, counter-cultural entity ... maximize cognitive and economic sovereignty". Protects "sanctity of his own attention, focus, and time."
 
 Cross-grep: [[wiki/self/gemini-activity/gemini-activity]], [[wiki/people/alexis-armel]], [[wiki/people/annie-ulmer]], [[wiki/people/tom]], [[wiki/timeline/periods/2025-collapse]], [[wiki/mind/synthesis/ai-collaborative-analysis]], context-core, LIFE_EVENTS_CALENDAR.md.
+
+---
+
+**Up:** [[wiki/self/index|Self]]

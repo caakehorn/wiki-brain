@@ -304,3 +304,7 @@ See also:
 - [[wiki/self/facebook]] (events 2012+, profile 2010 Brooklyn, likes 2014 ODESZA)
 - [[wiki/self/ancestry]] (Fayette PA roots grounding)
 - [[wiki/mind/synthesis/totality-themes]]
+
+---
+
+**Up:** [[wiki/self/index|Self]]

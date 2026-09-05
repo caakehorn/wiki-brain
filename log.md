@@ -9830,3 +9830,69 @@ hand-linked; `twitter-2024-cognitive-state` took two). 99 candidates remain, all
 of them contested between two pages or single-token, and they are a reading job.
 50 tests in `tests/test_wiki_crosslink.py`, 13 of them new and every one pinning
 a refusal — a refusal that stops working reports *more* links and stays green.
+
+## [2026-09-05] connect | meta | 453 of 497 pages were one-way doors
+
+**`STYLE_GUIDE.md`, on linking:** *"Every non-index page must be reachable from
+its domain index (the lint orphan check enforces this)."*
+
+That sentence has been in the style guide the whole time, `bin/wiki-lint`
+enforces it exactly, and it is only half a rule. Nothing said a page must link
+**back**, nothing checked it, and the corpus went the way the rule was written:
+**453 of 497 pages never link the index above them.** Every one of the 168
+people pages. A reader arriving from search, or from the portal's own front
+page, lands on `wiki/people/jerel-coles` and stops — the page has typed edges,
+prose, sources, and no route out of it.
+
+This is the same defect as yesterday's twitter-tree finding one level up. That
+one was *within* a page: names written and not linked. This is *between* pages
+and their own containers, and it is bigger, because it is structural rather than
+editorial — no amount of careful writing on a person's page would have produced
+a link up to `wiki/people/index`, since there is nothing to say about it.
+
+**`bin/wiki-crosslink breadcrumb --apply`** writes an `**Up:**` footer on every
+non-index, non-generated page: the full ancestor-index chain, plus previous/next
+where the siblings are a numeric run.
+
+```
+**Up:** [[wiki/self/index|Self]] › [[wiki/self/twitter|Twitter]] · **Previous:** [[…|2012]] · **Next:** [[…|2014]]
+**Up:** [[wiki/people/index|People]]
+```
+
+**Four decisions in it:**
+
+- **The label comes from the slot, not the page.** Most index pages here are
+  titled `index`, and the ones that are not are titled for the page rather than
+  the section — `wiki/self/twitter`'s title is *"Twitter / X (@danfrank)"*. A
+  breadcrumb wants "Twitter". Directory basename, title-cased.
+- **Both index shapes are parents.** `wiki/people/index.md` and
+  `wiki/self/twitter.md` each contain their directory; a reader does not care
+  which convention a branch used.
+- **Previous/next only for a numeric run.** The twitter years are a sequence a
+  reader walks; `wiki/interests/concert-record/festivals/` is alphabetical, and
+  presenting alphabetical order as previous/next invents a reading path nobody
+  chose.
+- **The test is "does this page link its nearest index", not "does that index
+  link back to this page".** The second is narrower by 53 pages and narrower in
+  the wrong direction — a page its own index does not list is *more* stranded,
+  not less.
+
+**Two rules written down, where they were missing rather than wrong.**
+`STYLE_GUIDE.md`'s reachability bullet now carries both directions, and a new
+`bin/wiki-lint` warning fires on any page that never links the index above it.
+Warning, not error: a new page is written before its footer is generated, and
+blocking that commit buys nothing when the fix is one idempotent command.
+
+**The `## Related` ban is untouched and this does not test it.** That rule
+exists because a link without a claim is noise; the `**Up:**` line makes no
+claim of relatedness, points only at the container the page already sits in, and
+that container already links down. A footer naming a *peer* is still the banned
+thing, whatever it is titled — the style guide now says so explicitly, because
+"there is a sanctioned footer now" is exactly the opening a later session would
+use.
+
+No `date_modified` bumped, for the same reason as the link pass: navigation
+furniture is not a revision of the argument, and 453 bumps would clear the
+staleness warnings on everything reasoning from any of them. 423 tests, 6 new —
+the footer is generated, and a generator nobody tests is one that can silently
+stop generating.

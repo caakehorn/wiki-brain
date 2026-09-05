@@ -57,3 +57,7 @@ identity and relationship to the household unconfirmed; no direct message
 from Lisa herself appears anywhere in the corpus — everything here is
 mediated through Rick's messages about her. No independent contact record
 (Facebook, Google Contacts) has been checked for her yet.
+
+---
+
+**Up:** [[wiki/people/index|People]]

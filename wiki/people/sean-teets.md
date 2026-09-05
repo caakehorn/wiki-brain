@@ -42,3 +42,7 @@ $200.
 
 **Gaps:** whether either outreach was answered or led anywhere; how Dan
 and Sean know each other; no contact before 2017 or after August 2018.
+
+---
+
+**Up:** [[wiki/people/index|People]]

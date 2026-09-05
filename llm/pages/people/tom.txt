@@ -321,3 +321,6 @@ The BFS bootloader records a small standing debt ("Tom still in Uniontown, $36 s
 
 **Gaps:** whether the friendship recovered after May 30, 2026 is undocumented — the record simply stops. Phil is confirmed as Tom's father (2026-07-14). The March "cabin"/pagan-occult girlfriend is confirmed to also be named Kristin (unrelated to [[wiki/people/kristin]]) but her surname is unknown; "Brandy"'s surname is likewise not established.
 
+---
+
+**Up:** [[wiki/people/index|People]]

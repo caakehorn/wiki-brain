@@ -216,3 +216,7 @@ the Nemacolin job's November 2019 end per resume, which lines up with
 the run-up to NYC round two) are undocumented; no message record narrows
 when the caddying work actually stopped versus when Au Za'atar began
 (March 2021), leaving a roughly 16-month unaccounted gap.
+
+---
+
+**Up:** [[wiki/work/index|Work]]

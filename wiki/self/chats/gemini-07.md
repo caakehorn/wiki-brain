@@ -124,3 +124,7 @@ Annie has mentally exited boyfriend-frame. Treats Dan's mom as neutral backgroun
 **Forensic Insights:** "Suzy" = high-entropy social access key (peer-level warmth). Hang-up = Negative Acknowledgment (NACK). Blackout = Grim Trigger / binary freq collapse / non-verbal confession. Falsifiable: innocent party wouldn't blackout on wife-threat stimulus. "Shared context silence" (Annie never asks "which wife?"). Timestamp latency as tell (8-16s vs hours). Lowest-friction model: no conspiracy, just disinhibited flex + existential stakes post-exposure. 
 
 **Connection to other arcs:** Post-separation (Feb 2025 PA move per profile/operating/LIFE); mom co-residence implied (337 Saratoga); prefigures 2026 closure. Contrasts Au Za'atar era (Annie "avatar of reliability" fired zero-notice vs Dan's 2.5yr tip-siphon alibi per _02/_00). Shared J6/BFS/politics forensic lens (anomaly detection, procedural tells) in context-core + synthesis. No direct BFS/Annie overlap in this file.
+
+---
+
+**Up:** [[wiki/self/index|Self]]

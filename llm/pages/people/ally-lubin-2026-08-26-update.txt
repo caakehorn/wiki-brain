@@ -95,3 +95,7 @@ without squeezing it for proof.**
 
 If that continues, this stops being a nice interpretation and becomes a
 behavioral result.
+
+---
+
+**Up:** [[wiki/people/index|People]]

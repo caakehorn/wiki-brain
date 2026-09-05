@@ -70,3 +70,7 @@ May 6, 2026, 5:57 AM — the last message in this analysis session's record: "IF
 ## Gaps
 
 This page is sourced from a single chat-based analysis session, not a directly re-verified raw CSV extract the way the rest of the corpus is — the underlying message log for April 1–May 6, 2026 has not been independently located and cross-checked in raw/. The same source claims a much larger "Betrayal Catalog" (14 incidents), a formal BPD-criteria assessment, and — flagged only once, not elaborated — a pregnancy, none of which are corroborated elsewhere in the wiki's sources and are **not** adopted here pending verification against primary message data. Treat everything above this section as reasonably reliable (it's tied to specific dated, quoted messages); treat anything not explicitly repeated here as unverified.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

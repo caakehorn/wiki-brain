@@ -412,3 +412,7 @@ graph TD
 - The 0.2% Sub-Saharan African trace in the 23andMe data has no documentary counterpart.
 - The maternal R0 haplogroup is unusual for an Appalachian Protestant line — its origin is unexplained.
 - The paternal R-Z93 haplogroup is more common in Central/South Asia than typical Ashkenazi populations — its origin is unexplained.
+
+---
+
+**Up:** [[wiki/self/index|Self]] › [[wiki/self/lineage/index|Lineage]]

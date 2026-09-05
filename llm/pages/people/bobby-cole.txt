@@ -103,3 +103,7 @@ had grown genuinely interested in the O&A world alongside him.
 **Gaps:** a five-year silence between the July 2013 and October 2018
 messages; the outcome of the SiriusXM application; the identity of the
 August 2021 death; Bobby's current circumstances.
+
+---
+
+**Up:** [[wiki/people/index|People]]

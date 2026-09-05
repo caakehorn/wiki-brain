@@ -153,3 +153,7 @@ December 2011 use of Dan's account, or what "triggered" his attack on
 Renae per her own phrasing, is unrecovered. The exact notarized statements
 he submitted to LinkedIn (`Creative License 2.pdf`) were not extracted in
 this pass.
+
+---
+
+**Up:** [[wiki/people/index|People]]

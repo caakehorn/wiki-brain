@@ -35,3 +35,6 @@ The Bamboozle 2011 is a festival / tour Dan Frank attended. This page records th
 ### Apr 29 - May 1, 2011 — New Meadowlands Stadium, East Rutherford, NJ
 [[wiki/interests/favorites/music/artists/lil-wayne]] · Motley Crue · [[wiki/interests/favorites/music/artists/taking-back-sunday]] · [[wiki/interests/favorites/music/artists/a-day-to-remember]]
 
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/concert-record/index|Concert Record]]

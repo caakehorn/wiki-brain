@@ -143,3 +143,7 @@ Where her own words appear (the June 8 texts, "How Annie 😒😂") they are the
 material a future pass should prioritize; where they do not, the page should
 be read as thinly attesting the person and only moderately better attesting
 the arrangement.
+
+---
+
+**Up:** [[wiki/people/index|People]]

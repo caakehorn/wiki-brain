@@ -47,3 +47,7 @@ Last name and any resolution (a meeting, or a decline) are undocumented — the 
 ## Related
 
 [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

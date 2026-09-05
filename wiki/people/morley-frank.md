@@ -128,3 +128,7 @@ coordinate.
 - **Champion's county is unverified here.** The directory gives the town only.
   Confirming it lies outside Fayette County would make it the line's only
   attested out-of-county residence in four generations, which is worth the check.
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -161,3 +161,7 @@ move in substance.** The only change on that page was one new `connections:`
 entry cross-referencing the new [[wiki/mind/profile/neurodivergence]] page —
 no date, price, position size, or quote this page depends on was touched.
 Nothing rederived.
+
+---
+
+**Up:** [[wiki/work/index|Work]]

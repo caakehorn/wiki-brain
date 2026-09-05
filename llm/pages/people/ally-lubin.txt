@@ -1017,3 +1017,7 @@ Each of these is answerable by the operator in a paragraph.
   address, in the GEDCOM, in the Twitter export, or in the Facebook search
   history. The Model Mayhem and "boca raton ally lubin" searches Dan describes
   on 2019-08-22 are from Google, whose search-history export is not in `raw/`.
+
+---
+
+**Up:** [[wiki/people/index|People]]

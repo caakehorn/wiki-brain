@@ -80,3 +80,7 @@ obligation, and the thread ends with an unreturned call on June 23.
 **Gaps:** whether Dan actually attended any 2020 protests (deflected,
 never answered); the fate of the planned call/zine mailing; Seth's
 current circumstances.
+
+---
+
+**Up:** [[wiki/people/index|People]]

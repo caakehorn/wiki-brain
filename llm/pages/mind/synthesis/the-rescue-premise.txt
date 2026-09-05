@@ -599,3 +599,7 @@ confession trap as one mechanism already documented twice elsewhere rather
 than restated a third time as if new. **What it did not do:** touch gap 7,
 attempt any of P1–P5, or [[wiki/interests/favorites/music/artists/say-anything|say anything]] new about Annie anywhere in this
 pass.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

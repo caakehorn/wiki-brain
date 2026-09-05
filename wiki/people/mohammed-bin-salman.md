@@ -51,3 +51,7 @@ Real name and identity are unknown — the contacts card is a joke. Whether the 
 ## Related
 
 [[wiki/work/au-zaatar]] · [[wiki/people/md]] · [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

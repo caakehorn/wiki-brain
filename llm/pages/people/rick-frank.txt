@@ -496,3 +496,7 @@ pass. Most importantly: **whether Dan has replied to Rick at all since
 February 26, 2025 is a claim about the corpus's current coverage, not a
 claim that he never will** — the record simply ends there, and a future
 pass should re-pull both sources before restating this finding.
+
+---
+
+**Up:** [[wiki/people/index|People]]

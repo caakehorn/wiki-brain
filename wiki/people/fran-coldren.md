@@ -436,3 +436,6 @@ what actually happened in that room — exist only as uploads inside AI sessions
 Locating the originals is the highest-value collection task attached to this
 page.
 
+---
+
+**Up:** [[wiki/people/index|People]]

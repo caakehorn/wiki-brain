@@ -85,3 +85,7 @@ are pointed at the same problem independently.
 **Gaps:** no evidence in the corpus of MNEME actually being built past
 the spec stage; unclear whether this predates or postdates his adoption
 of this wiki-brain project as his personal solution to the same problem.
+
+---
+
+**Up:** [[wiki/work/index|Work]] › [[wiki/work/tech/index|Tech]]

@@ -131,3 +131,7 @@ correct it — both are consistent with the same numbers.
   and a reader comparing bar heights across those two years against full
   years should account for that before drawing a conclusion from magnitude
   alone.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

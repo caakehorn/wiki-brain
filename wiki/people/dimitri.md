@@ -89,3 +89,7 @@ complements the dating already established on
 **Gaps:** surname — per Dan (2026-07-14), a Greek name starting with
 "A," not more precisely recalled; what became of him after the shed
 shutdown; no contact after December 2024 in this export.
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -373,3 +373,7 @@ letter's probable author is [[wiki/people/dave-moore|Dave Moore]].
 (eviction notice), and a "97 Years Young" audio recording of Fran exist
 only as uploads inside the Gemini sessions; locating the originals is an
 open collection task.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

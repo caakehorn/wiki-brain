@@ -413,3 +413,7 @@ body presents, with no maintenance faculty between them. Every self-directed
 medical sentence in the corpus is modal — *"I should go," "I might need to go,"
 "I'm probably going to need to"* — while every sentence about somebody else's
 body is imperative. Same speaker, same years.
+
+---
+
+**Up:** [[wiki/health/index|Health]]

@@ -522,3 +522,7 @@ The topology is the constraint, not the mood. Recommendations that assume "lean 
 > **REVISED [2026-06-23]:** The relational volume table has been updated to reflect the master CSV extraction. This correction establishes the concentration of Annie's dual handles at over forty-eight thousand messages and locks Kristin's volume to her specific handle, correcting a prior reference to Jerad. Emerging work nodes from the BFS foods transition, including [[wiki/people/anita|Anita]], Brandon, Kim, and Marty, have been introduced as potential sources of relational redundancy.
 
 The temporal counterpart to this volume metric is [[wiki/mind/synthesis/message-circadian-latency]]: the same corpus cut by reply latency instead of message count converges on the same finding — one near-synchronous channel, everything else broadcast into delay.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

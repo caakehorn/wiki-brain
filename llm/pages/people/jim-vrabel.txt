@@ -47,3 +47,7 @@ Pricing surfaces occasionally ($110 for 3, $75 for 2, $40 for 1) alongside strai
 ## Related
 
 [[wiki/timeline/periods/2018-deep-cycle]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -110,19 +110,19 @@ commits that wrote these files. `git fetch --unshallow` for an answer._
 
 **major** — 44 outstanding
 
-- [[wiki/self/twitter/2024]] (11186 words)
-- [[wiki/self/twitter/2010]] (11106 words)
-- [[wiki/self/twitter/2013]] (10853 words)
-- [[wiki/self/twitter/2009]] (9061 words)
-- [[wiki/self/twitter/2022]] (8060 words)
+- [[wiki/self/twitter/2024]] (11197 words)
+- [[wiki/self/twitter/2010]] (11117 words)
+- [[wiki/self/twitter/2013]] (10864 words)
+- [[wiki/self/twitter/2009]] (9072 words)
+- [[wiki/self/twitter/2022]] (8071 words)
 
 **free** — 39 outstanding
 
-- [[wiki/work/caviar-courier]] (301 words)
-- [[wiki/interests/favorites/books/authors/adrian-goldsworthy]] (315 words)
-- [[wiki/interests/favorites/music/artists/lil-wayne]] (320 words)
-- [[wiki/interests/rock-irrelevance-thesis]] (320 words)
-- [[wiki/interests/favorites/books/authors/jonathan-karl]] (328 words)
+- [[wiki/work/caviar-courier]] (304 words)
+- [[wiki/interests/favorites/books/authors/adrian-goldsworthy]] (322 words)
+- [[wiki/interests/rock-irrelevance-thesis]] (323 words)
+- [[wiki/interests/favorites/music/artists/lil-wayne]] (327 words)
+- [[wiki/interests/favorites/books/authors/jonathan-karl]] (335 words)
 
 Entries considered and deliberately given no plain edition are recorded
 in `plain/DECLINED.md`, with the reasoning, rather than left looking

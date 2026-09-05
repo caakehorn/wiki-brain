@@ -170,3 +170,7 @@ years (the era-marker series' one unidentified marker); DJ's and
 Dimitri's exits; whether any 2021 marker obsession is recoverable from
 the thin 2021 message record (the iMessage dump holds only 1,465 rows
 for 2021 and none in the November birthday window).
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

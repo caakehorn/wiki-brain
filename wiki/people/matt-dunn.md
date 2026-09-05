@@ -117,3 +117,7 @@ corpus, only the Facebook thread; his current occupation, location, and
 life circumstances are undocumented. Whether he still uses Venmo to
 extract the annual $5 in years not covered by Eric's snapshot is
 unconfirmed but, given the pattern's described consistency, likely.
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -79,3 +79,7 @@ Three cross-corpus findings worth keeping. First, relational depth inverts betwe
 - [[wiki/self/gemini-activity/archive/v1-extract]] — full v1 extraction, pinned
 - [[wiki/mind/synthesis/ai-collaborative-analysis]] · [[wiki/mind/concepts/forensic-method]] · [[wiki/mind/synthesis/political-psyops]] · [[wiki/mind/synthesis/totality-themes]]
 - [[wiki/self/context-core]] · [[wiki/self/chats/j6-chat]]
+
+---
+
+**Up:** [[wiki/self/index|Self]]

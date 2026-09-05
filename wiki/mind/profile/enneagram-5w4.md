@@ -200,3 +200,7 @@ AI-era analyses.
 > characterise. What the corpus holds is one dated first-person self-typing that
 > this page does not match, and no second instance has been looked for. See
 > [[wiki/mind/synthesis/the-commissioned-self]].
+
+---
+
+**Up:** [[wiki/mind/index|Mind]] › [[wiki/mind/profile/index|Profile]]

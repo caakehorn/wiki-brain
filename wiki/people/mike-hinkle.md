@@ -51,3 +51,7 @@ Mike Hinkle is a contact based in the Jacksonville, Florida area (904 area code,
 ## Gaps
 
 Relationship to Dan and to Fran unresolved. The Florida area code suggests he may be a Full Sail-era (2008–2010) or later connection who relocated, but this is speculation. No Facebook or other corpus cross-references found.
+
+---
+
+**Up:** [[wiki/people/index|People]]

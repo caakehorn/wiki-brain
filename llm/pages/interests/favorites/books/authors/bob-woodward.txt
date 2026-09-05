@@ -36,3 +36,7 @@ The 5-book count without a single 5-star maps accurately onto a reading relation
 ## In the Trump Journalism Cluster
 
 Alongside [[wiki/interests/favorites/books/authors/jonathan-karl]] and [[wiki/interests/favorites/books/authors/michael-wolff]], Woodward completes a triangulation of how three different journalism methodologies processed the same administration. Karl is the beat reporter's view from the briefing room. Woodward is the access-maximizing long game. Wolff is the open mic someone forgot to turn off.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/books|Books]]

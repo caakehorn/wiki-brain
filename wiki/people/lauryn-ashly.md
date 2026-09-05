@@ -84,3 +84,7 @@ visible cost to the friendship either way.
 **Gaps:** whether either of them ultimately attended Rob's funeral;
 Lauryn's current location and circumstances beyond the 2020 "Denver all
 weekend" mention.
+
+---
+
+**Up:** [[wiki/people/index|People]]

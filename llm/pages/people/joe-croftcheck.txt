@@ -78,3 +78,7 @@ of claim that should not harden by being repeated inside a wiki.
 - **The news citations are unchecked.** Reading the three linked articles would
   establish whether he is named at all, which is the single cheapest thing that
   could be done to this page.
+
+---
+
+**Up:** [[wiki/people/index|People]]

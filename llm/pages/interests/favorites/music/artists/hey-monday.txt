@@ -64,3 +64,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 > under two names is the most economical reading of the two rows, but nothing
 > in the corpus states the BACKBOOTH bill, so the venue stays marked probable.
 > [[wiki/self/twitter/2008]] and [[wiki/interests/concert-record/index]].
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

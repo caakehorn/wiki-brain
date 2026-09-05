@@ -98,3 +98,7 @@ The Frank's Auto Supply job is a documented part of the family business record. 
 - The CVS location is named only as "the closest CVS to Burgettstown"; the Ruby Tuesday's is specified as near Pittsburgh airport but not pinned further.
 - No other participant has corroborated or contested any of the three factual claims (the capsule count, the Rt 51 speed, the cone impacts) — this is single-source testimony. The 2026-08-17 answer about intoxication at the wheel is from the same single source and inherits the same limit; it is first-person and self-incriminating, which is the strongest form single-source testimony takes, but it is still one witness.
 - The Post-Gazette Pavilion's sold-out Tom Petty date of June 15 2005 has not been independently verified against tour records.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

@@ -351,3 +351,6 @@ Old-style typed `RT @user:` lines are kept: he wrote them.
 
 2009 through 2012, January–mid-August 2013, and some 2026 days between the spreadsheet end and the live scrape are still being walked from X in batches of ten. Each incomplete yearly page states that on its face. The spreadsheet span 2013-08-17 through 2026-04-07 is complete for originals.
 
+---
+
+**Up:** [[wiki/self/index|Self]]

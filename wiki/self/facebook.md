@@ -107,3 +107,7 @@ As a corpus object, the export is the prime [[wiki/mind/synthesis/millennial-dig
 ## Related
 
 [[wiki/self/context-core]] · [[wiki/self/twitter]] · [[wiki/self/location-history]] · [[wiki/self/youtube-watch-history]] · [[wiki/self/ancestry]] · [[wiki/people/annie-ulmer]] · [[wiki/mind/synthesis/millennial-digital-witness]] · [[wiki/mind/synthesis/attachment-trauma-bond]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/timeline/events/timeline]]
+
+---
+
+**Up:** [[wiki/self/index|Self]]

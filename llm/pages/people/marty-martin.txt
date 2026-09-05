@@ -80,3 +80,7 @@ quit" of the job.
 **Gaps:** no primary Facebook or standalone iMessage thread with Dan;
 how the two originally became close enough for Marty to be the trusted
 source; whether Dan followed up on the job lead.
+
+---
+
+**Up:** [[wiki/people/index|People]]

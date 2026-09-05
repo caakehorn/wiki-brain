@@ -108,3 +108,7 @@ is herself the corporate interface at the location) are not established;
 whether she faced any consequence for the vape sale beyond nearly being
 fired is undocumented; her account of the $50 was never reconciled
 against an actual report.
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -394,3 +394,7 @@ re-export named above is what separates them.
 - **Dan's reasons remain unrecorded.** Corroborated across two passes now:
   the corpus holds his verdict ("cooked") and his behaviour (migration), and
   no statement by him of *why*.
+
+---
+
+**Up:** [[wiki/self/index|Self]]

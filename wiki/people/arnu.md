@@ -78,3 +78,7 @@ obvious absorber because Suz's finances were "cyclical." They are not cyclical â
 she filed Chapter 13 in October 2024 with roughly $157,000 scheduled and
 liquidated her only unencumbered asset in June 2026 to service it. If the lien
 was filed, there is no absorber at all.
+
+---
+
+**Up:** [[wiki/people/index|People]]

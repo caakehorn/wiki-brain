@@ -294,3 +294,6 @@ Dan answered at 23:40 — *"what"* — seventy-two minutes after the first SOS,
 having blocked and unblocked in between. Nothing in any source says what
 happened next. See [[wiki/timeline/events/august-2026-morgantown-call]].
 
+---
+
+**Up:** [[wiki/people/index|People]]

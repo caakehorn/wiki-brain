@@ -176,3 +176,7 @@ The wiki-brain will continue to compound insight as long as the core loop runs. 
 **What would falsify this:** a synthesis page whose thesis is "these things are related" rather than a falsifiable rule. A ground page that leads with corpus statistics instead of the story. A correction applied silently, with the old claim deleted. A source declared ingested when it was only skimmed.
 
 The wiki-brain is not a finished product. It is a process — one that gets more valuable the longer it runs, because every finding written back is a finding that never has to be re-derived.
+
+---
+
+**Up:** [[wiki/self/index|Self]]

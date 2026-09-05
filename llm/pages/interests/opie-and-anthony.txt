@@ -219,3 +219,7 @@ listening) is certainly higher than the ~450 archive watches captured.
 The many "Opie" hits in the message dump refer to a local Uniontown
 person, not the radio host, and are excluded here. Exact first-listen date
 is not established; 2011 is the earliest cluster in the watch history.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]]

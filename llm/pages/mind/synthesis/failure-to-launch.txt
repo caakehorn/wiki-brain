@@ -690,3 +690,7 @@ was made in. This wiki is the current candidate and it is too young to count.
    Impulsiveness-96 versus persistence-95 contradiction predicts that a
    goal-completion battery would return a very different number than the
    conscientiousness one did. Nobody has administered one.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

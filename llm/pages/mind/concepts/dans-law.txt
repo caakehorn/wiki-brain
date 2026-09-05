@@ -75,3 +75,7 @@ The law is the deconfounding filter that converts raw anomaly lists into actiona
 > partner in October 2024 and never executed. Full accounting at
 > [[wiki/places/the-unpapered-address]]. This is a boundary on the law's
 > application, not a defect in the law.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

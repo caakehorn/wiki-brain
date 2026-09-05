@@ -43,3 +43,7 @@ A warm, brief golf-and-music friendship from June 2018 (`+17245623673`, 23 messa
 ## Related
 
 [[wiki/work/nemacolin-caddying]] · [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

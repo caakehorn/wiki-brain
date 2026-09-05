@@ -136,3 +136,7 @@ Low volume — consistent with her role as a biographical anchor and family-adja
 | 2010–2015 | Lex era (NYC); Danielle exits romantic picture but stays in Suz orbit | _58; context-core |
 | Nov 2023 | Danielle pays for Gabe's euthanasia | context-core; HTML bio |
 | ~2025–2026 | James (Danielle's BF) requests cocaine through Annie; Dan withholds; Christmas node tension | Gemini HTML; _21.md |
+
+---
+
+**Up:** [[wiki/people/index|People]]

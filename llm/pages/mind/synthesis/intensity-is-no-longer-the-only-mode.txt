@@ -112,3 +112,7 @@ can do **consistency without intensity**.
 
 If that holds, it is probably one of the most meaningful behavioral changes in
 the entire record.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

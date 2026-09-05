@@ -701,3 +701,7 @@ seven. Two genuine findings were surfaced and deliberately not fixed under
 the moratorium — the un-propagated 187-of-191 base-rate correction
 (`dan-annie-fallout-verdict`, `the-rescue-premise`) — and are logged to
 `BACKLOG.md` for when the moratorium lifts or the operator says otherwise.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

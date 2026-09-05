@@ -89,3 +89,7 @@ genuinely unresolved rather than merely undocumented in detail.
 **Gaps:** how the relationship ended (no breakup message survives, only
 declining frequency); where it falls relative to Danielle and Alexis in
 2009; Stephanie's life after November 2009.
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -114,3 +114,7 @@ Template repetition: Annie's behavior replicated the structure of the 2004–05 
 | Retrospective language (Dan) | Repeated use of "torture", "gaslit me into literally breaking", "playing games with his head" |
 
 > **REVISED [2026-07-13]:** Operator correction on scope: the Eli affair ended with the February 2025 NYC departure (Eli lives in NYC). The 2025–26 terminal phase and the June 1, 2026 closure involve a different third party — Tuquick ([[wiki/people/tuquick-17248123683]]), who Annie left Dan for. This page covers the NYC affair and its discovery only.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

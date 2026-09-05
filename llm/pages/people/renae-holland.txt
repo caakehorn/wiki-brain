@@ -60,3 +60,7 @@ were already on friendly terms before the recommendation-removal incident.
 unrecovered — a real, chaseable lead if this thread is followed up.
 Renae's exact job title or dates at Creative License are unstated. Whether
 the arranged phone call happened, and what it covered, is unknown.
+
+---
+
+**Up:** [[wiki/people/index|People]]

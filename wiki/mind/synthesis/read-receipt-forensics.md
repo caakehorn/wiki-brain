@@ -281,3 +281,7 @@ name for the psychological driver this page's own prior citation already
 gestured at without stating. **What it did not do:** manufacture a
 cognitive-stack connection to a page whose actual content is a SQL
 type-coercion bug.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

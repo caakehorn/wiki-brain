@@ -241,3 +241,7 @@ genealogy). The 23andMe PDFs themselves were never OCR'd for exact
 percentages beyond the Neanderthal figure; a fuller ancestry-composition
 breakdown (European sub-regions, exact Ashkenazi percentage) remains
 unextracted in `raw/self/ancestry/dna-reports/`.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

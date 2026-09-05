@@ -122,3 +122,7 @@ additional nodes not yet cataloged here.
 > [[wiki/mind/synthesis/read-receipt-forensics]] finding M2. Logged alongside
 > the Suzy-call NACK and the ten-day January 2026 blackout. Full account:
 > [[wiki/timeline/events/august-2026-unmasking]].
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

@@ -71,3 +71,7 @@ recorded here and on [[wiki/people/claire-ulmer]] rather than lost.
    birth around 2021–2023, but that is inference from one line.
 3. **Who Waylon is.** Two mentions, one of them a joke about a country singer.
    Answerable by the operator in a word.
+
+---
+
+**Up:** [[wiki/people/index|People]]

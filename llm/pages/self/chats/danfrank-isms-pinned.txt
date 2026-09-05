@@ -100,3 +100,7 @@ Ties to [[wiki/mind/concepts/phenomenology-lens]] (the read of him as someone wh
 Cross-references: [[wiki/self/chats/j6-chat]] (same forensic + political intensity), Gemini Activity.html (thematic overlap on politics/self/AI), favorites politics books, youtube political channels.
 
 **Sources:** raw/self/chats/_✧✧ 𝔻𝔸ℕ𝔽ℝ𝔸ℕ𝕂-𝕀𝕊𝕄'𝕊 ✧✧ Pinned chat.md (primary), cleaned danfrank-isms-pinned.md
+
+---
+
+**Up:** [[wiki/self/index|Self]]

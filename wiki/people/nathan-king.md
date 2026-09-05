@@ -33,3 +33,7 @@ Four summers of Dan's adolescence were spent at Camp Woodward in Pennsylvania. D
 ## Gaps
 
 No other record of Nathan King exists in the corpus beyond the Woodward attendance. Relationship to Dan outside the camp, current status, and adult contact are all undocumented.
+
+---
+
+**Up:** [[wiki/people/index|People]]

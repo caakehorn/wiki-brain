@@ -18,3 +18,7 @@ related: ["wiki/interests/favorites/books", "wiki/self/context-core"]
 
 ## Reflection
 Focus on reporting, media, and insider accounts. Supports forensic approach to narratives.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/books|Books]]

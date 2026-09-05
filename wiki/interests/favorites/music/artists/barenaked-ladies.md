@@ -33,3 +33,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 
 - **Jul 24, 2002** — Multi-act show, Post-Gazette Pavilion, Burgettstown, PA. Vertical Horizon credited opener that night (Guster co-billed other years).
   Co-billed with: Guster, Vertical Horizon.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

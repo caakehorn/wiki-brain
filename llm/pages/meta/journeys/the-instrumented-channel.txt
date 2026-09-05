@@ -112,3 +112,7 @@ rather than an artifact of one measurement bleeding into the next.
 order these five pages already establish independently. If a future
 instrument is built and it does *not* generalize past its original target,
 that would be the sequence's first counter-instance.
+
+---
+
+**Up:** [[wiki/meta/index|Meta]] › [[wiki/meta/journeys/index|Journeys]]

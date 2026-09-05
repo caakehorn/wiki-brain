@@ -1271,3 +1271,6 @@ life partner / A guy could ask for"* (16:56).
 
 *(January 2016 read in full. 4,877 messages total. Resume at 2016-02-01.)*
 
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

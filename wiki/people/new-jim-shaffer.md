@@ -219,3 +219,7 @@ about a 1,789-message thread because only 904 of those messages had been read.
 | Date range | 2018-04-22 to 2019-10-20 |
 | Direction | **877 Sent / 901 Received** — corrected 2026-09-04 |
 | Handle | +14125139408 |
+
+---
+
+**Up:** [[wiki/people/index|People]]

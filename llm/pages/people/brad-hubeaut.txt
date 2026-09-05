@@ -43,3 +43,7 @@ On April 20, 2018, Brad relays a complaint from another staffer (Tyler) that Dan
 ## Related
 
 [[wiki/work/nemacolin-caddying]] · [[wiki/timeline/periods/2017-poverty-floor]] · [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

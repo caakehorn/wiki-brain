@@ -501,3 +501,7 @@ synthesis pages rather than to a new one. Queued with reasoning in
 block. Cross-linking Dec 1–31 is mechanical, high-value and not done — the page
 is described in its own frontmatter as the evidentiary floor, and an entry with
 no outbound link cannot be reached from the pages it supports.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

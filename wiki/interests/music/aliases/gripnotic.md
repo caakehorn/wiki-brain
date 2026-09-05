@@ -112,3 +112,7 @@ Music reactivation is central to the 2026 stabilization arc: the "oof" set on So
 - [[wiki/interests/music/aliases/sloppp]] (early alias)
 - [[wiki/interests/music/concepts/sub-bass-signature]]
 - [[wiki/mind/synthesis/totality-themes]] (music as sincere thread across all periods)
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/music/index|Music]]

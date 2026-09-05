@@ -93,3 +93,7 @@ past March 2016 is unknown: he does not appear in any message export the
 corpus holds, which may mean the friendship ended, moved to a platform
 nothing here archives, or simply never used SMS. The 724 number in
 `contacts.csv` is undated, so it cannot settle it.
+
+---
+
+**Up:** [[wiki/people/index|People]]

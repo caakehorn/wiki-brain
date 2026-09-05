@@ -43,3 +43,7 @@ Mike Zollinger was a fellow [[wiki/work/nemacolin-caddying|Nemacolin]] caddy thr
 ## Related
 
 [[wiki/work/nemacolin-caddying]] · [[wiki/timeline/periods/2020-2021-market-era]] · [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

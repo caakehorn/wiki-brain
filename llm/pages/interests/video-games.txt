@@ -166,3 +166,7 @@ favorites rating and no page, yet it is a verifiable through-line from
 facts are concrete and the emotional register is consistent — low-grade,
 long-running, occasionally friction-bearing, finally relinquished under
 family pressure. It earns a page.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]]

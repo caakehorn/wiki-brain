@@ -49,3 +49,7 @@ nothing, producing bursts rather than a job.
 ## Gaps
 
 No earnings totals or delivery-count summaries are available from this export alone. The notification text does not include dollar amounts.
+
+---
+
+**Up:** [[wiki/work/index|Work]]

@@ -45,3 +45,7 @@ Beyond the transactional core, the relationship has a personal register: Eric as
 ## Related
 
 [[wiki/people/annie-ulmer]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

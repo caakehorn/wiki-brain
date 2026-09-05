@@ -2284,3 +2284,7 @@ present is therefore a good moment for somebody outside to end this: the only
 completed exit from a long relationship anywhere in the corpus
 ([[wiki/mind/synthesis/bond-switch-2015]]) completed by substitution inside a
 week, and it produced this page.
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -37,3 +37,7 @@ All dates, venues, cities, and notes below are taken from the source table and p
 - **Jul 29, 2008** — Vans Warped Tour, Post-Gazette Pavilion, Burgettstown, PA. Warped Tour date. Lineup included Anberlin, All Time Low, Against Me!, 3OH!3.
 - **Oct 18, 2008** — Multi-act show, House of Blues, Orlando, FL. Resolved. Joint fall 2008 package.
   Co-billed with: [[wiki/interests/favorites/music/artists/mayday-parade|Mayday Parade]], The Maine, Every Avenue.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

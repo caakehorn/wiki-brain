@@ -48,3 +48,7 @@ The Kraus condo was "a couple hundred feet away" from Dan's unit K2 in the Villa
 ## Gaps
 
 Kraus's current status, location, and relationship to Dan as an adult are undocumented. The capture gives no post-adolescence contact record.
+
+---
+
+**Up:** [[wiki/people/index|People]]

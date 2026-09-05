@@ -47,3 +47,7 @@ No contacts.csv match; identity beyond the page's filename is unconfirmed.
 ## Related
 
 [[wiki/timeline/periods/2018-deep-cycle]] · [[wiki/people/johnny-dealer]] · [[wiki/self/message-corpora/master-message-dump]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

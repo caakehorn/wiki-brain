@@ -482,3 +482,7 @@ This entry is a substantive first synthesis, not the final forensic pass. The fu
 7. **Error taxonomy** identifying repeated false-positive and false-negative reasoning patterns.
 8. **Longitudinal comparison with 2023 and 2025** to determine whether 2024 is genuinely a cognitive transition or merely a volume spike.
 9. **Evidence-grade annotations** distinguishing direct corpus observation, strong synthesis, plausible inference, and unresolved speculation.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

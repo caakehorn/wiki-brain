@@ -333,3 +333,7 @@ See also:
 - [[wiki/timeline/periods/2021-2023-employment-block]]
 
 The 2022+ left-commentary clusters documented here are the downstream trace of a conversion the message record dates precisely to August 2020 ([[wiki/mind/synthesis/2020-left-turn]]) — the watch history shows the turn's persistence, not its origin.
+
+---
+
+**Up:** [[wiki/self/index|Self]]

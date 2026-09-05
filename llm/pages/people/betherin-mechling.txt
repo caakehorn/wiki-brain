@@ -106,3 +106,7 @@ side generally — is not established. Nothing records what became of her, the
 house she and Jay had just bought, or whether she remained in contact with
 the Ulmers. The nature of the "domestic issue" is not described anywhere and
 is not inferred here.
+
+---
+
+**Up:** [[wiki/people/index|People]]

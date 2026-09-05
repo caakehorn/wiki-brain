@@ -43,3 +43,7 @@ The name is a vernacular derivation: "mogged" (from "mog/mewing" subculture — 
 - [[wiki/interests/music/overview]]
 - [[wiki/interests/music/aliases/mogzart]]
 - [[wiki/interests/music/aliases/sloppp]]
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/music/index|Music]]

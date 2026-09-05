@@ -278,3 +278,7 @@ Claude's analytical pipeline follows a specific sequence:
 ## The epistemics, restated
 
 The wiki-brain's epistemics are an artifact of the person it documents. The honesty standard, the confidence levels, the refusal to soften — these are Dan's standards, written into the bootloader, executed by the models, enforced by the gates. The models are not independent checks on Dan. They are [[wiki/self/concepts/llm|cognitive partners]] that Dan has trained to be honest with him.
+
+---
+
+**Up:** [[wiki/self/index|Self]]

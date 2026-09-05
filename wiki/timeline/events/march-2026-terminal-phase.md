@@ -183,3 +183,7 @@ The June 1 group chat confirmed what March had already shown
 ([[wiki/timeline/events/group-chat-closure]]). On June 5, 2026, Annie sent
 a final post-closure message: "Daniel, i just want to say that i am
 extremely sorry." It is the only unprompted acknowledgment in the record.
+
+---
+
+**Up:** [[wiki/timeline/index|Timeline]]

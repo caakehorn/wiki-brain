@@ -125,3 +125,7 @@ Recurring elements:
 ## Gaps
 
 Danny's real-estate brokerage is not otherwise documented; whether the December 2024 invitation was taken up is unknown, and no further contact appears in the corpus after that date. The largest gap is about the opening night itself: nothing in the thread — before, during, or in the six and a half years after — refers to Fran's fall, to an ambulance, or to anything having gone wrong that evening. Whether Danny knew a medical emergency was under way in the house while he was in it is unestablished and is answerable only by him. Dan describes him as "a grade above me at school, known as a dork then," which is the only account of how they knew each other and comes from the operator rather than the corpus.
+
+---
+
+**Up:** [[wiki/people/index|People]]

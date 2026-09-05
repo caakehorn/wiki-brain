@@ -391,3 +391,7 @@ The audit is complete; the launch is the only open variable. An LLM is the best
 possible co-conspirator for executing that launch and the worst possible one for
 deciding to stop analyzing long enough to do it. The difference is enforced by
 the external stop condition, not by the model.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

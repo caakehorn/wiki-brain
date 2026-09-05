@@ -49,3 +49,7 @@ That is the same operation as *"It's like 2005 again. Fobz and panic both in
 rotation in my car."* ten days later, and both belong to the era-marker
 reading in [[wiki/mind/synthesis/interests-as-era-markers]]: he dates himself
 by what is in rotation, out loud, at the time.
+
+---
+
+**Up:** [[wiki/interests/index|Interests]] › [[wiki/interests/favorites/index|Favorites]] › [[wiki/interests/favorites/music|Music]]

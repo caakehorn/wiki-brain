@@ -54,3 +54,7 @@ him negatively, and how the November 2019 apartment visit relates (if at
 all) to the building. A targeted search of the fuller message-export set
 (not just the primary dump) by his email or phone number, or a direct
 follow-up capture from the operator, would likely settle this quickly.
+
+---
+
+**Up:** [[wiki/people/index|People]]

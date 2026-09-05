@@ -68,3 +68,7 @@ Per Dan's own account, dictated 2026-08-11 while discussing [[wiki/people/rick-f
 ## Gaps
 
 Exact date of the Angelfire incident and its position relative to the Windell's trips. Relationship to Dan outside the 2016–2020 window, role in the social graph beyond childhood friend, and current status are all unresolved. No Facebook or other corpus cross-references found.
+
+---
+
+**Up:** [[wiki/people/index|People]]

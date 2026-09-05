@@ -51,3 +51,7 @@ Last name, and whether contact continued past September 2018, are undocumented.
 ## Related
 
 [[wiki/timeline/periods/2018-deep-cycle]] · [[wiki/self/message-corpora/master-message-dump]] · [[wiki/mind/concepts/contact-gini]]
+
+---
+
+**Up:** [[wiki/people/index|People]]

@@ -688,3 +688,7 @@ where before the reconciliation section stated that both costs exist
 without explaining why a mind would be built to avoid them specifically
 this way. **What it did not do:** touch the financial or health registers,
 which remain open Gaps rather than quietly resolved.
+
+---
+
+**Up:** [[wiki/mind/index|Mind]]

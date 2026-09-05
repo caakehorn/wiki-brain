@@ -403,3 +403,6 @@ said the quiet part out loud and survived long enough to be proven right.
   side (his message to a third party and the un-answered Cash App requests);
   Emaly's own words from that revival are not in the captured record.
 
+---
+
+**Up:** [[wiki/people/index|People]]
