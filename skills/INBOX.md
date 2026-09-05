@@ -260,6 +260,51 @@ this alone: one bug in one function is not yet an invariant about the corpus.
 
 - **Status:** inbox
 
+---
+
+## A module-level name in `bin/` is a public API, and the gates do not check it (2026-09-05)
+
+**Observed while adding `bin/wiki-crosslink rederive`,** a forty-line subcommand
+at the bottom of a 2,100-line file.
+
+**What happened.** The new command needed to read a page's message count, so it
+declared `MSG_COUNT_RE` at module scope. One already existed 700 lines earlier,
+serving `counts`, and the new one **silently replaced it** — a stricter pattern
+requiring `**bold**` where the original accepted a plain or `~`-prefixed number.
+`counts` did not error. It just quietly stopped matching a class of page.
+
+**Why it nearly shipped.** `bin/wiki-check` ran the whole chain and reported
+**all gates clean**. Every gate was green, the new command worked, and the diff
+looked like an addition rather than a change. Only
+`python3 -m unittest discover -s tests` saw it — three failures in
+`MessageCountCheck`, a test class for a command the diff never mentions.
+
+**Candidate invariant.** In this repository's `bin/` tools, a module-level
+constant is shared surface even when the code that uses it is a thousand lines
+away, and Python rebinds silently. The gates check the *corpus*; nothing checks
+the *tools*, so a tool regression is invisible to `bin/wiki-check` by
+construction — which is exactly why `CLAUDE.md` lists the test suite as a
+separate step and not as part of the chain.
+
+**Candidate instruction.** When adding a subcommand to an existing `bin/` tool,
+grep the file for every name you are about to define before defining it, and run
+the tests — not just `bin/wiki-check` — before committing. Reuse the existing
+constant where one fits; the general pattern usually already exists because
+somebody hit the edge cases first.
+
+**Validation.** One occurrence, caught pre-commit by the test suite. Pinned by
+`tests/test_wiki_crosslink.py::RederiveQueue::test_it_reuses_the_count_regex_rather_than_shadowing_it`,
+which asserts there is exactly one definition.
+
+**The corpus-wide measurement was run and it argues against promoting this.**
+Scanning every file in `bin/` for a module-level `NAME =` defined more than once
+returns **zero** — `bin/wiki-crosslink` alone declares 31 such constants and no
+tool currently shadows any of its own. So the hazard is real (the collision
+happened, and nothing but the tests saw it) and the base rate is nil: one bug in
+one file, introduced and caught in the same hour. **Leave it parked.** Promote
+on a second occurrence in a different tool, or if that count ever comes back
+non-zero on `main`.
+
 ## A model's recall of its own conversations is a source class, and its nouns drift (2026-09-05)
 
 **What happened.** The operator pasted an assistant's audit of its own

@@ -13,9 +13,9 @@ this is the state of the thing.
 
 | | |
 |---|---|
-| Pages | 500 |
-| Pages touched in the last 14 days | 230 |
-| Pages reasoning from other pages (`synthesizes:`) | 79 |
+| Pages | 503 |
+| Pages touched in the last 14 days | 235 |
+| Pages reasoning from other pages (`synthesizes:`) | 81 |
 | Live contradictions | 51 |
 | Open gaps | 720 |
 | Standing predictions | 65 |
@@ -26,7 +26,7 @@ this is the state of the thing.
 |---|---|
 | people | 175 |
 | interests | 98 |
-| mind | 78 |
+| mind | 81 |
 | self | 60 |
 | timeline | 42 |
 | work | 15 |
@@ -39,7 +39,7 @@ this is the state of the thing.
 
 | Status | Pages |
 |---|---|
-| active | 194 |
+| active | 197 |
 | stable | 166 |
 | closed | 101 |
 | archived | 29 |
@@ -47,13 +47,15 @@ this is the state of the thing.
 
 ## The last few days
 
-**2026-09-05** — 14 pages
+**2026-09-05** — 30 pages
   - connect | meta | the wiki names 570 things it does not link — 344 of them now clickable
   - connect | meta | 453 of 497 pages were one-way doors
+  - rewrite | people | Davey Fitzpatrick re-derived — and the testimony ledger was scoring 18 of 20
+  - rewrite | people | "Mohammed Bin Salman" re-derived — and the benzodiazepine arc was missing entirely
   - ingest | interests | personal lexicon — the custom-language layer, corpus-checked
   - ingest | interests | the lexicon, counted — `bin/wiki-lexicon` and the measured vocabulary
 
-**2026-09-04** — 102 pages
+**2026-09-04** — 94 pages
   - lint | meta | the crosslink campaign had been counting a link that isn't one
   - connect | people | 79 lines had been written about a 1,789-message thread
   - connect | people | the handles were on the pages all along, and the guard could not see nine of them
@@ -66,7 +68,7 @@ this is the state of the thing.
   - lint | mind | the first layer of the Vaughn pass — and a defect in the staleness gate
   - ingest | self | @danfrank reply corpus (operator video transcription)
 
-**2026-09-03** — 27 pages
+**2026-09-03** — 26 pages
   - lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
   - ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
   - ingest | self | 2010 read in full — the corpus's most-cited date was computed from a train going the wrong way, and it survives anyway
@@ -132,6 +134,8 @@ have moved since.
 - [[wiki/mind/concepts/chaos-preference]] — 2 premises
 - [[wiki/mind/concepts/the-cool-metric]] — 3 premises
 - [[wiki/mind/politics/axioms]] — 5 premises
+- [[wiki/mind/profile/invisible-linguistic-tendencies]] — 11 premises
+- [[wiki/mind/profile/language-personality-synthesis]] — 12 premises
 - [[wiki/mind/synthesis/2020-left-turn]] — 7 premises
 - [[wiki/mind/synthesis/ai-collaborative-analysis]] — 4 premises
 - [[wiki/mind/synthesis/alias-as-periodization]] — 6 premises

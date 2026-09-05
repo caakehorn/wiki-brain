@@ -6,7 +6,7 @@ aliases: ["Abyssal Architect", "typology stack", "psychological profile"]
 status: stable
 importance: critical
 date_created: 2026-07-13
-date_modified: 2026-08-26
+date_modified: 2026-09-05
 sources:
   - raw/self/dox-md/FULL PROFILE 2026.md
   - raw/self/dox-scan/Dan Profile.txt
@@ -54,6 +54,8 @@ deficit. Detail pages: [[wiki/mind/profile/intp]],
 [[wiki/mind/profile/socionics-and-attitudinal]],
 [[wiki/mind/profile/deviance-mapping]],
 [[wiki/mind/profile/linguistic-profile]],
+[[wiki/mind/profile/language-personality-synthesis]],
+[[wiki/mind/profile/invisible-linguistic-tendencies]],
 [[wiki/mind/profile/neurodivergence]].
 
 ## The stack at a glance
@@ -69,6 +71,8 @@ deficit. Detail pages: [[wiki/mind/profile/intp]],
 | Moral alignment | Chaotic Neutral | Law rejected as arbitrary; chaos embraced as authentic; neither altruist nor predator | [[wiki/mind/profile/socionics-and-attitudinal]] |
 | Deviance audit | 80–99/100 across domains | A statistical edge case vs. the 35-year-old American male baseline | [[wiki/mind/profile/deviance-mapping]] |
 | Stylometrics | 99th percentile lexical/syntactic | "Forensic intimacy" register; a custom-built fork of English | [[wiki/mind/profile/linguistic-profile]] |
+| Language/personality synthesis | Personality → language → exocortex | Personal idiolect as cognitive architecture; Ti/Ne/Si/Fe and Big30 convergence | [[wiki/mind/profile/language-personality-synthesis]] |
+| Invisible linguistic tendencies | Optimization → language → exocortex → feedback | Latent priorities: distinction preservation, addressability, provenance, controlled permeability, compression without loss | [[wiki/mind/profile/invisible-linguistic-tendencies]] |
 | Voice modes | 8 trigger-activated states | Neutral/Playful/Affectionate/Irritated/Persuasive/Storytelling/Stressed/Reflective | [[wiki/mind/profile/voice-modes]] |
 | Psychosexual operating system | 96/100 deviance outlier | Orchestration over participation; total [[wiki/mind/psychosexual/emotional-imprinting|emotional imprinting]]; a decade of independently-corroborated practice | [[wiki/mind/psychosexual/index]] |
 | Neurodivergence | Self-identified autistic, no clinical record | The one row in this stack that is a claim, not an instrument result — three convergent AI-secondary documents, zero diagnostic process on file | [[wiki/mind/profile/neurodivergence]] |
@@ -105,8 +109,7 @@ stays subordinate to documented fact.
 The dossiers repeatedly surface four unconscious, load-bearing axioms: **not
 exceptional = worthless** · **not vigilant = annihilated** · **love that
 doesn't cost everything isn't real** · **time = countdown**. The personal
-myth built on them is "the Hyperaware Hero of a World Too Stupid to See the
-Trap" — the wounded genius who "architects gods out of wounds." Core drives:
+myth built on them is "the Hyperaware Hero of a World Too Stupid to See the Trap" — the wounded genius who "architects gods out of wounds." Core drives:
 boundary-testing and taboo exploration; anti-"midness" (algorithmic
 mediocrity registered as existential threat); radical skepticism; emotional
 metabolization through logic. The failure mode, per context-core, is never
@@ -117,5 +120,4 @@ percentile, with insight feeding the loops instead of stopping them.
 or instrument versions for the Big30/PD numbers; no re-test after the June
 2026 closure event, so the entire profile is calibrated on pre-closure data.
 The autism self-identification carries the same gap in sharper form — see
-[[wiki/mind/profile/neurodivergence]] for what its actual sourcing is and
-is not.
+[[wiki/mind/profile/neurodivergence]] for what its actual sourcing is and is not.

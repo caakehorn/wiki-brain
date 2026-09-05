@@ -4,7 +4,7 @@ page_type: event
 title: "Au Za'atar (NYC, ~2021–2024)"
 status: closed
 date_created: 2026-07-13
-date_modified: 2026-08-21
+date_modified: 2026-09-05
 sources:
   - raw/self/message-csv/imessage_19178259183_both_all_now.csv
   - raw/self/dansynth/StorytimeAuZaatarAnalysis.md
@@ -18,6 +18,7 @@ sources:
   - raw/self/dansynth/dansynth-scrape-phases-2-7.md
   - raw/self/dox-scan/DanAnnie_TenYears_WithAmendments.docx
   - "raw/self/dox-md/Breaking the anxiety avoidance cycle.md"
+  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
 related:
   - wiki/people/tarik-fallous
   - wiki/people/valeria-iglesias-cid
@@ -28,6 +29,9 @@ related:
   - wiki/mind/concepts/institutional-out
 tags: [nyc-era, career, ai-collaboration, housing, forensic-analysis]
 connections:
+  - page: wiki/people/mohammed-bin-salman
+    type: co-occurs
+    claim: "Dates the crew as a social unit outside the restaurant: 'Birthday party / With the au zaatar crew' (2023-10-15), Dan's own birthday, with an outside friend invited — and 'I just left au zaatar' opening a gaming night with the same person seven weeks later."
   - page: wiki/mind/synthesis/failure-to-launch
     type: evidences
     claim: "Forty-one months sustained by a private objective inside a low-oversight sovereign territory, ending when the shed came down rather than when the work got hard, is the clearest instance of tenure that was real without ever being transferable."
@@ -212,6 +216,18 @@ Class" alibi doubled as a shield during the
 [[wiki/people/valeria-iglesias-cid|Valeria]] breach — she was the Au
 Za'atar host-stand hostess — which the post-mortem
 tags as the period's "CORE ANOMALY."
+
+> **ADDED [2026-09-05] — the crew is a social unit outside the restaurant, and
+> here is a dated instance.** On **2023-10-15** Dan tells a friend with no
+> connection to the job to keep November 1 free: *"Birthday party / With the au
+> zaatar crew"* ([[wiki/people/mohammed-bin-salman]]) — his own birthday, spent
+> with colleagues, with an outside friend invited into it. Seven weeks later,
+> *"I just left au zaatar"* opens a night of gaming with the same person.
+>
+> The page documents the factions and the de-facto-manager years; this is the
+> smaller fact underneath them, which is that **the restaurant supplied the
+> social calendar too**, and that the boundary between the Au Za'atar circle and
+> Dan's other friendships was porous in both directions.
 
 ## Why the page matters
 

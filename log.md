@@ -9897,6 +9897,74 @@ staleness warnings on everything reasoning from any of them. 423 tests, 6 new �
 the footer is generated, and a generator nobody tests is one that can silently
 stop generating.
 
+## [2026-09-05] rewrite | people | Davey Fitzpatrick re-derived — and the testimony ledger was scoring 18 of 20
+
+**The third re-derivation, and the highest-yield of the three.** `bin/wiki-crosslink counts` found thirteen pages reporting a Received-only figure as a whole thread on 2026-09-04. `wiki/people/davey-fitzpatrick` was one, and it then carried two correction blocks saying its prose *"was written against the smaller, one-sided thread and has not been re-derived."* This reads the **397 messages from Dan** that the page had never seen. Thread total **779**, not 382 and not 775 — that is the union of both exports, deduplicated.
+
+**The reconstruction held, and that is the more useful half of the result.** The page had rebuilt Dan's voice from what Davey Liked, Laughed at and Emphasized. Every reconstructed quote is verbatim-correct against the real text. **An ingenious reconstruction is still evidence that a corpus went unread**, and the method was answering a question that had a direct answer. One structural note fell out of the check: the two exports are complementary, not duplicates — 2018-05-14 20:05–20:55 is nineteen consecutive Davey messages with Dan's originals absent, and there are windows the other way. Neither file is the thread; the union is.
+
+**Four findings the page could not have had, each written back to the page it belongs on:**
+
+**1. The only job he has ever said he did not dread** (2017-10-01, unprompted, mid-conversation about a management rumour): *"i'm just conflicted because i like the job and culture and community of caddying so much, first job i've found that i don't end up dreading work everyday."* Twenty-eight, eighth documented job. `wiki/work/nemacolin-caddying` has carried this case with a standing caveat — the ladder is *"inferred from what Dan chose to record rather than from any statement of intent"* — and that caveat is now discharged. What the sentence names is **culture and community**, not money and not the ladder, which is evidence *for* `failure-to-launch`'s low-oversight-sovereign-territory reading rather than against it. Written into both.
+
+**2. The $14,000 gets a day, a purpose and a contemporaneous framing.** `estate-money-spine` carried it as a `2018-08 → 2018-10` band. **2018-09-20, 12:37pm**, to his caddie boss mid-shift: *"Gotta loan my mom $14,000 to pay her property taxes and it will cost me an extra $400 if I can't get to the bank before 4"*, then *"I'm not even used to having that kind of money let alone loaning it out so I'm a mess."* The purpose is **her property taxes** — the exact recurring liability the spine names as her structural problem, $10,000 a year against $11,000–$14,000 of income. And **he calls it a loan on the day, to a third party with nothing at stake**, nine months before the June 2019 fight in which each claims to be the creditor. What it does not settle is the source: no advance is documented before 2019-10-12, and seven hours later he is asking for shifts *"so I can pay off the new Apple watch."*
+
+**3. The drug-test countermeasure was not kept from management.** The same March 2018 bottle of Jack Rusko's urine that `nemacolin-caddying` documents from the Vaughn thread is narrated again here — to the **incoming assistant caddie master**: *"i spent the whole time maintaining the temperature of my bottle of jack rusko pee in my armpit … it was not the proudest moment of my life"*, and *"bro i'm all-star team for passing drug tests."* Jack is now named in three threads for this and in none of his own; the section on his page called it his only documented act for Dan, and it is **the same instance seen twice more**, which is different and weaker.
+
+**4. Trevor's exit was clean; the being-left was not.** `wiki/people/trevor` said the departure *"was not a rupture with Dan."* True of Trevor. What the page did not have is that **Dan learned of it from somebody else** — *"He didn't say bye to you? Lol"* / *"LOL no"* — and reacted before the thank-you exchange it cites: *"luckily I'm the kind of guy who would do something like that myself so I don't really give a shit … I'm just going to say nothing at all and we'll take bets on how long before he reaches out."* Excuse-then-withdraw, `dormancy-not-exit` in its smallest form.
+
+Also written back: the $550 peak day and its prediction (*"there's no way i'll ever make more jam that haha"*), the 2018 pay structure ($30/man gratuity, $60 bag fee, Laurel Valley's *"150-2 tips … 90 from the club"* against Chad's $70 for a whole day), the same-night account of the first spin including the tip-splitting norm between paired caddies, and comedy named as a revenue line in the relocation decision — *"I'm gonna do whatever for a day job and try my hand at comedy"* / *"And I can get dj gigs too"* (2018-11-02).
+
+### And the ledger was quietly excluding two of its own records
+
+Recording the loan claim exposed a defect in `bin/wiki-testimony`. `--speaker` exists so third-party testimony stays **out** of Dan's score, and every statistic filters on `speaker == "operator"`. That is correct, and it is **silent**: a first-person claim filed as `--speaker dan` disappears from the score, the profile and the public page with nothing saying so.
+
+It had already happened. **t017** — *"As of May 2017 Dan was spending well over $100 a day on cocaine"*, load-bearing against `wiki/health/cocaine`'s 3.5–7g/day arc — was filed `dan` and had been invisible ever since. **t020**, recorded today, hit the same trap within the hour as `Dan`. **The headline was being computed over 18 of 20 records and reporting no such thing.**
+
+Three changes. `record` normalises the operator's own aliases on entry. `check` **names every non-operator record on every run** — a deliberate third-party record now reads as deliberate, and a misfiling is caught the next time the gate runs; warning rather than error, because third-party testimony is legitimate. Both misfilings were voided with the reason on the log and re-recorded as **t021** and **t022**, nothing edited in place.
+
+**Veracity moved 51 → 57** on the repair, and t021 is back in the pending queue where it belongs. Five tests pin it, including the case that caught the first version of the warning being placed after `check`'s unadjudicated early-return — which would have missed t017, the one that had actually been lost.
+
+## [2026-09-05] rewrite | people | "Mohammed Bin Salman" re-derived — and the benzodiazepine arc was missing entirely
+
+**`bin/wiki-crosslink rederive`, and the debt `counts` created and could not measure.** The count audit of 2026-09-04 fixed thirteen numbers and left thirteen pages whose prose was written from half a thread, each honest enough to say so — *"the prose below was written against the one-sided thread and has not been re-derived."* **Thirty-three pages carry that sentence**, and until today the only way to find them was a grep somebody had to think of running: the exact shape `bin/wiki-work` exists to end, and the exact shape that let 161 unlinked twitter mentions stand through two crosslink passes. Ordered by thread size, because the unread half of a 770-message thread is worth more than the unread half of a 24-message one.
+
+**Eight are flagged directive-constrained, and the flag has a blind spot worth knowing.** It counts how often *the page* names her. `wiki/people/danny-matthews` (770, the arrangement's opening encounter) is correctly flagged. `wiki/people/mohammed-bin-salman` names her **zero times** and its 2024-08-11 exchange is a direct solicitation into the arrangement — read, and deliberately not written up. **A page can be directive-constrained without looking it**, because the constrained material is in the unread half by definition. An unflagged page is unverified, not safe.
+
+### The re-derivation: 650 rows, four page-level corrections
+
+**The joke name is about a real person's background, and the page had been coy about which joke.** He is Moroccan and Muslim, says so himself, lives in Brooklyn, and Dan's register with him runs to *"You can take the Muslim out of the Moroccan / But you can't take the faggot out of the Muslim"* (2024-08-11), returned with a flat *"You can."* `relationship_to_dan` was `unknown`.
+
+**The friendship is at least eighteen months older than the page's first contact.** The thread opens **2023-08-11**, seven weeks before the recorded date, and on 2023-12-05: *"I can't fucking believe you got a console and didn't tell me. **I've been begging you to do this for like a year and a half**."*
+
+**The Au Za'atar link is documented, not speculative.** *"Birthday party / With the au zaatar crew"* (2023-10-15, for November 1 — Dan's own birthday, with an outside friend invited), and *"I just left au zaatar"* seven weeks later. Written back to `wiki/work/au-zaatar`: the restaurant supplied the social calendar, and the boundary with Dan's other friendships was porous both ways.
+
+### The finding: `wiki/health/chemical-architecture` had no benzodiazepines on it
+
+**The word Xanax did not appear on the page that maps his chemical stack.** The corpus contains a detailed first-person account of using it, why he stopped, and what it did to him — in a gaming friend's thread, in the half nobody had read.
+
+The page had summarised it as *"a matter-of-fact exchange comparing Xanax to cocaine that reads as two people genuinely comparing notes."* It is not about current use. Dan jokes *"I need to go take a Xanax now"*, is asked *"u on xanax now"*, and answers **"I mean I was joking about taking it literally."** What follows is retrospective and is the fullest description of a drug's subjective effect anywhere in the record: *"You melt into whatever furniture you are sitting in"*, and the harm named as cognitive — *"if you take more than you should, you completely and totally lose short term memory. I can't tell you how many times I repeated the same story to someone 5 minutes after I just told them … And then forgot I did THAT and did it again.,.and again."*
+
+**The cessation has a stated cause that is not desire:** *"I had stopped taking it before everyone realized you could just use a microgram of fentanyl and press fake 900000 Xanax bars."* That is the connoisseur disposition the page already documents from the 2008 heroin rejection ("felt dirty"), running twelve years later on a **supply-quality** judgement rather than an aesthetic one — which yields a testable prediction: a stack curated on quality control sheds a drug the market ruins and keeps one the market keeps clean.
+
+**His risk model is quantified**, which is rare, and the 95%-pressed-fentanyl figure went to the testimony ledger unadjudicated rather than onto the page as fact. It is a claim about the world; `raw/` will never settle it, and marking it `unfalsifiable` would score it zero and close it when somebody with a DEA sampling series could actually check it.
+
+### The other find: the adversarial-historian move with nothing at stake
+
+`twitter-2024-cognitive-state` reads the 2024 corpus as adversarial reality-testing in political clothes and dates the operation to 2011 against religion. Here it is on **2023-12-10**, arguing that skill comes from drilling, cut off with *"F off with that shit … Ive been in the range like 1% of the time"* by somebody who is better at the game:
+
+> *"Well admittedly — the evidence is on your side here — because you're always way better than I am. **But still —** Okay hear me out though. Battle royale is different. Because if you are dying right away, you never get the chance to shoot enough rounds to learn the recoil."*
+
+Concede the counterexample by name, credit whose evidence it is, narrow the claim to where it survives. **Nobody deploys a debate technique to win an argument about recoil patterns with a friend at 10:47pm** — which makes this the strongest available evidence that the pattern is a disposition rather than a strategy adopted for politics.
+
+### Two testimony records, one of them measurable
+
+*"I play until like 4am everyday"* (2023-12-05) is checkable against the record's own timestamps, and comes back **partial**. The nocturnal shape is real and strong — **190 of Dan's 586 December 2023 messages, 32.4%, fall between midnight and 05:59.** "Everyday" is not: **5 of 31 days** carry anything between 02:00 and 05:59 and **3** reach 04:00. The modal wall is 21:00–23:00. Failure mode **overreach**, direction over, slant flattering — it was said while recruiting the other person to play. The caveat is on the adjudication and cuts toward him: message volume measures being awake and texting, not playing.
+
+### And a shadowed name the gates could not see
+
+The new subcommand declared `MSG_COUNT_RE` at module scope, 700 lines below an existing one serving `counts`, and **silently replaced it** with a stricter pattern requiring bold. `bin/wiki-check` reported **all gates clean**; three tests in a class for a command the diff never mentions caught it. Fixed by reusing the original, pinned by a test asserting exactly one definition, and filed to `skills/INBOX.md` — with the corpus-wide measurement, which found **zero** duplicate module-level constants across all of `bin/` and therefore argues against promoting it. Parked, not promoted.
+
 ## [2026-09-05] ingest | interests | personal lexicon — the custom-language layer, corpus-checked
 
 **Operator paste:** an AI assistant's audit of its own conversational history

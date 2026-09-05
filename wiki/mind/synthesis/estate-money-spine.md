@@ -4,7 +4,7 @@ page_type: synthesis
 status: active
 knowledge: earned
 date_created: 2026-07-18
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 sources:
   - raw/self/captures/2026-08-02_031532_the-fall-of-fran-frank-s-fumes-force-four-fire.md
   - "raw/self/context-core/CONTEXT_CORE_EXPANDED.md"
@@ -13,6 +13,7 @@ sources:
   - "raw/self/message-csv/MASTER_MESSAGES_DB_DUMP.csv"
   - "raw/self/message-csv/imessage_7243228715_both_all_now.csv"
   - "raw/self/dox-md/LIFE_EVENTS_CALENDAR.md"
+  - "raw/self/dox-scan/all_imessages_complete_dump.txt"
 synthesizes:
   - wiki/people/fran-coldren
   - wiki/people/suzanne-frank
@@ -22,6 +23,9 @@ synthesizes:
   - wiki/mind/profile/big-five-psychometrics
 tags: [financial-stress, forensic-analysis, family]
 connections:
+  - page: wiki/people/davey-fitzpatrick
+    type: evidenced-by
+    claim: "A coworker thread this page had never read dates the $14,000 to 2018-09-20 12:37, names its purpose as Suz's property taxes, prices the deadline ('an extra $400 if I can't get to the bank before 4'), and — the part that changes an interpretation rather than a figure — has Dan calling it a loan contemporaneously, to a third party with no stake in the framing."
   - page: wiki/people/new-jim-shaffer
     type: evidenced-by
     claim: "Dates the expectation the eighteen-month wait was measured against: 'just found out they're cutting big distribution checks for us soon' (2018-04-24, twenty days after the death) against a first documented advance of 2019-10-12 — plus the position it was served from ('still have no access to my accounts via rick', 'will be the first real money i've ever had') and a self-named 'HIGH BURN RATE' running a year before the distribution."
@@ -336,6 +340,33 @@ itemised statement of it survives, sent 3 October 2018: *"Dan to Suzanne /
 $1000 / $14,000+ / Sum of transactions on app."* He recovered $4,000 of it
 before she stopped repaying, and by July 2019 the two of them were threatening
 each other with court over the same money, each claiming to be the creditor.
+
+> **ADDED [2026-09-05] — the transfer has a day, a purpose, and a
+> contemporaneous framing, from a thread this page never cited.** The band
+> above was `2018-08 → 2018-10`. On **2018-09-20 at 12:37pm** Dan tells his
+> caddie-yard boss, mid-shift, why he needs a cut: *"Gotta loan my mom $14,000
+> to pay her property taxes and it will cost me an extra $400 if I can't get to
+> the bank before 4."* Two minutes later: *"I'm not even used to having that
+> kind of money let alone loaning it out so I'm a mess."*
+> ([[wiki/people/davey-fitzpatrick]].)
+>
+> **Three things move.** The purpose is **her property taxes** — the exact
+> recurring liability this page names two paragraphs down as her structural
+> problem, $10,000 a year against $11,000–$14,000 a year of income. There was a
+> **hard deadline with a $400 penalty**, so the transfer was not discretionary
+> timing. And the money is called a **loan, by Dan, on the day, to a third
+> party with nothing at stake in the answer** — nine months before the June
+> 2019 exchange where he writes *"I LENT YOU 14,000 … which i'm supposed to be
+> paid back when the inheritance comes"* and she counters that he stole from
+> her. That later claim now has contemporaneous corroboration rather than
+> standing on his memory of his own intent.
+>
+> **What it does not settle is where the money came from.** No advance is
+> documented before 2019-10-12. Seven hours after saying he is a mess about
+> lending $14,000, he asks Davey for shifts: *"I need to work so I can pay off
+> the new Apple watch."* A man holding $14,000 and short for a watch payment
+> the same evening is either bridging against something undocumented or the
+> $20,000 draw was already largely spent. The corpus does not say which.
 
 This adds a rule the spine did not have. It is not only that lumps arrive and
 drain; it is that **a lump arriving anywhere in this family is immediately

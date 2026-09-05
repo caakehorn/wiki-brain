@@ -8,31 +8,49 @@ What changed, newest first, by the `date_modified` each page carries. The
 so a page that recorded why it moved says so here, and one that did not is
 simply listed.
 
-## 2026-09-05 — 14 pages
+## 2026-09-05 — 30 pages
 
 - **Session log:** connect | meta | the wiki names 570 things it does not link — 344 of them now clickable
 - **Session log:** connect | meta | 453 of 497 pages were one-way doors
+- **Session log:** rewrite | people | Davey Fitzpatrick re-derived — and the testimony ledger was scoring 18 of 20
+- **Session log:** rewrite | people | "Mohammed Bin Salman" re-derived — and the benzodiazepine arc was missing entirely
 - **Session log:** ingest | interests | personal lexicon — the custom-language layer, corpus-checked
 - **Session log:** ingest | interests | the lexicon, counted — `bin/wiki-lexicon` and the measured vocabulary
 
 | Page | Domain | What moved |
 |---|---|---|
+| [[wiki/health/chemical-architecture]] | health | _(carries a GAP CLOSED from 2026-08-28)_ |
 | [[wiki/interests/language/measured-vocabulary]] | interests | — |
 | [[wiki/interests/language/personal-lexicon]] | interests | _(carries a CONTRADICTION)_ |
 | [[wiki/interests/language/vocabulary-lexicon]] | interests | **GAP CLOSED** — this page said it "does not assert that these words are used in the corpus" and left open whether any of them are. Measured against both of Dan's first-party registers by `bin/wiki-lexicon registers - |
+| [[wiki/interests/stand-up-comedy]] | interests | — |
 | [[wiki/meta/digest]] | meta | — |
 | [[wiki/meta/open-questions]] | meta | _(carries a CONTRADICTION from 2026-07-20)_ |
 | [[wiki/meta/recent-activity]] | meta | _(carries a GAP CLOSED)_ |
 | [[wiki/meta/testimony-veracity]] | meta | — |
 | [[wiki/mind/concepts/calibrated-confidence]] | mind | _(carries a CORRECTED from 2026-08-23)_ |
 | [[wiki/mind/concepts/exocortex]] | mind | — |
+| [[wiki/mind/profile/index]] | mind | — |
+| [[wiki/mind/profile/invisible-linguistic-tendencies]] | mind | — |
+| [[wiki/mind/profile/language-personality-synthesis]] | mind | — |
 | [[wiki/mind/profile/lexicon]] | mind | — |
 | [[wiki/mind/profile/linguistic-profile]] | mind | _(carries a GAP CLOSED from 2026-08-27)_ |
+| [[wiki/mind/profile/personal-language-conventions]] | mind | — |
 | [[wiki/mind/profile/voice-modes]] | mind | _(carries a CONTRADICTION)_ |
+| [[wiki/mind/synthesis/ai-collaborative-analysis]] | mind | — |
+| [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a RE-CHECKED from 2026-08-28)_ |
+| [[wiki/mind/synthesis/failure-to-launch]] | mind | _(carries a RE-CHECKED from 2026-09-04)_ |
 | [[wiki/mind/synthesis/supply-network]] | mind | _(carries a RE-CHECKED from 2026-08-26)_ |
+| [[wiki/mind/synthesis/twitter-2024-cognitive-state]] | mind | — |
 | [[wiki/people/ally-lubin]] | people | _(carries a CORRECTED from 2026-08-22)_ |
+| [[wiki/people/davey-fitzpatrick]] | people | — |
+| [[wiki/people/jack-rusko]] | people | — |
+| [[wiki/people/mohammed-bin-salman]] | people | — |
+| [[wiki/people/suzanne-frank]] | people | _(carries a RE-CHECKED from 2026-08-26)_ |
+| [[wiki/people/trevor]] | people | **CORRECTED** — The thank-you exchange above is real. What the paragraph does not say is that **Dan learned of the departure from somebody else, and reacted before that exchange happened.** On **2018-07-26** the assi |
+| [[wiki/work/au-zaatar]] | work | _(carries a REVISED from 2026-07-14)_ |
 
-## 2026-09-04 — 102 pages
+## 2026-09-04 — 94 pages
 
 - **Session log:** lint | meta | the crosslink campaign had been counting a link that isn't one
 - **Session log:** connect | people | 79 lines had been written about a 1,789-message thread
@@ -48,7 +66,6 @@ simply listed.
 
 | Page | Domain | What moved |
 |---|---|---|
-| [[wiki/health/chemical-architecture]] | health | _(carries a GAP CLOSED from 2026-08-28)_ |
 | [[wiki/health/cocaine]] | health | _(carries a RE-CHECKED from 2026-08-28)_ |
 | [[wiki/health/the-configured-body]] | health | **RE-CHECKED** — cocaine and supply-network both moved for the vaughn re-derivation. The cocaine page gained a contemporaneous first-person spend figure — *"I spend well over $100 a day on it"* |
 | [[wiki/interests/concert-record/index]] | interests | — |
@@ -61,7 +78,6 @@ simply listed.
 | [[wiki/interests/food-and-diet]] | interests | **RE-CHECKED** — the-cool-metric gained a substantive section: the twitter archive shows the sorting metric run on a six-year live-in partner, with affection in the public register falling from 12 of 32 mentions in 20 |
 | [[wiki/interests/music/aliases/sloppp]] | interests | _(carries a GAP CLOSED from 2026-09-02)_ |
 | [[wiki/interests/opie-and-anthony]] | interests | _(carries a CONTRADICTION from 2026-09-03)_ |
-| [[wiki/interests/stand-up-comedy]] | interests | — |
 | [[wiki/interests/the-office]] | interests | — |
 | [[wiki/meta/readers-digest]] | meta | — |
 | [[wiki/mind/concepts/acquisition-drive]] | mind | _(carries a CONTRADICTION from 2026-08-02)_ |
@@ -74,8 +90,6 @@ simply listed.
 | [[wiki/mind/synthesis/block-unblock-loop]] | mind | **RE-CHECKED** — rick-frank gained one typed edge and no prose: his 2018-01-06 message, already quoted on that page, is now also cited on fred-adams as the corpus's only statement of what Adams was to the family. **No |
 | [[wiki/mind/synthesis/bond-switch-2015]] | mind | **RE-CHECKED** — alexis-armel gained a measurement of the relationship's public register: it stops on **29 November 2013** and holds at zero for the last **twenty-four months**, across 1,132 posts, in years when his d |
 | [[wiki/mind/synthesis/dormancy-not-exit]] | mind | **RE-CHECKED** — alexis-armel gained a measurement of the relationship's public register — zero mentions across the last twenty-four months and 1,132 posts, in years when his distinct-handle count peaked at 57 — and |
-| [[wiki/mind/synthesis/estate-money-spine]] | mind | _(carries a RE-CHECKED from 2026-08-28)_ |
-| [[wiki/mind/synthesis/failure-to-launch]] | mind | **RE-CHECKED** — nemacolin-caddying moved for the vaughn re-derivation: the yard drug-tested and the crew shared clean urine, and Vaughn corrected Dan's golf grip. This page cites Nemacolin for **tenure** — 43 months, |
 | [[wiki/mind/synthesis/intake-constancy]] | mind | **RE-CHECKED** — supply-network moved for the vaughn re-derivation, adding the succession's missing 2017 node and one measurement: the corpus's next new supply relationship opens **twenty-three days after the ne |
 | [[wiki/mind/synthesis/intensity-is-no-longer-the-only-mode]] | mind | **RE-CHECKED** — ally-and-dan-love-as-destiny moved on 2026-09-04 solely by having `destiny`, `the love story`, `ally-dan timeline`, `the courtship` and `the case` removed from its frontmatter. All five were invention |
 | [[wiki/mind/synthesis/single-channel]] | mind | **RE-CHECKED** — the-cool-metric gained a section measuring the public register on the six-year partner: affection at 12 of 32 mentions in 2010, 3 of 47 across 2011-2014, then zero for the relationship's last twenty-f |
@@ -97,13 +111,11 @@ simply listed.
 | [[wiki/people/christian-hanson]] | people | — |
 | [[wiki/people/clyde]] | people | — |
 | [[wiki/people/danny-matthews]] | people | **CORRECTED** — It says above that the 349 figure is a two-way conversation misreported by the export, which is correct as far as it goes. The two-way thread is **770 messages: 421 from Dan, 349 from Danny**, and his |
-| [[wiki/people/davey-fitzpatrick]] | people | **CORRECTED** — This paragraph said the record was *"his side only (every row marked Received)"* and that Dan's voice survived only in the tapback quotes Davey reacted to. **393 messages from Dan are in the corpus th |
 | [[wiki/people/drew]] | people | — |
 | [[wiki/people/eric-jester]] | people | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/people/eric-springer]] | people | — |
 | [[wiki/people/franki-faris]] | people | _(carries a REVISED from 2026-07-13)_ |
 | [[wiki/people/fred-adams]] | people | **CORRECTED** — This section read: *"Adams sends and receives nothing in the message corpus; every fact here comes from Dan's narration or from the estate attorney's calls, and the estate attorney reached in August 2 |
-| [[wiki/people/jack-rusko]] | people | — |
 | [[wiki/people/jajuan-davis]] | people | — |
 | [[wiki/people/james-dee]] | people | _(carries a GAP CLOSED from 2026-08-20)_ |
 | [[wiki/people/jason-cole]] | people | — |
@@ -120,7 +132,6 @@ simply listed.
 | [[wiki/people/md]] | people | — |
 | [[wiki/people/mike-hinkle]] | people | — |
 | [[wiki/people/mike-zollinger]] | people | — |
-| [[wiki/people/mohammed-bin-salman]] | people | — |
 | [[wiki/people/new-jim-shaffer]] | people | _(carries a REVISED from 2026-07-19)_ |
 | [[wiki/people/nick-mattie]] | people | — |
 | [[wiki/people/rick-frank]] | people | _(carries a CORRECTED from 2026-08-11)_ |
@@ -129,7 +140,6 @@ simply listed.
 | [[wiki/people/sam]] | people | — |
 | [[wiki/people/shannon]] | people | — |
 | [[wiki/people/steve-kezmarsky]] | people | _(carries a REVISED from 2026-07-19)_ |
-| [[wiki/people/suzanne-frank]] | people | _(carries a RE-CHECKED from 2026-08-26)_ |
 | [[wiki/people/suzanne-frank-personality-assessment]] | people | **RE-CHECKED** — suzanne-frank gained a section on her six messages naming Judge Fred Adams. **No scored dimension here is affected.** Worth recording for a later pass: the 2018-11-05 message asks a sitting judge and  |
 | [[wiki/people/tan-calabrese]] | people | _(carries a REVISED from 2026-08-09)_ |
 | [[wiki/people/the-unnamed-man]] | people | _(carries a REVISED from 2026-08-09)_ |
@@ -151,7 +161,7 @@ simply listed.
 | [[wiki/timeline/periods/2017-poverty-floor]] | timeline | — |
 | [[wiki/work/nemacolin-caddying]] | work | — |
 
-## 2026-09-03 — 27 pages
+## 2026-09-03 — 26 pages
 
 - **Session log:** lint | mind | the 2024 twitter synthesis was merged red — three gates, and it was filed in a domain that does not exist
 - **Session log:** ingest | self | 2009 read in full — a graduation date that does not survive contact with the record, and the exit that predates the arrival by eleven years
@@ -174,7 +184,6 @@ simply listed.
 | [[wiki/legal/2015-possession-arrest]] | legal | _(carries a REVISED from 2026-08-03)_ |
 | [[wiki/mind/synthesis/2020-left-turn]] | mind | _(carries a CORRECTED from 2026-09-02)_ |
 | [[wiki/mind/synthesis/millennial-digital-witness]] | mind | — |
-| [[wiki/mind/synthesis/twitter-2024-cognitive-state]] | mind | — |
 | [[wiki/people/dan-polyak]] | people | — |
 | [[wiki/people/josh-brannan]] | people | — |
 | [[wiki/places/424-bedford-ave]] | places | — |
@@ -321,7 +330,7 @@ simply listed.
 |---|---|---|
 | [[wiki/places/117-belmont-circle]] | places | **GAP CLOSED** — the page previously said *"whether the sale actually closed, when, to whom and for how much is undocumented; the record stops at 'pending.'"* Two of those four are now answered — **when** (summer 2019 |
 
-## 2026-08-26 — 40 pages
+## 2026-08-26 — 38 pages
 
 - **Session log:** climb | mind | fully wiring a cluster the algorithm found but a real synthesis had already answered
 - **Session log:** ingest | mind | the ideal-face specification — a mystery queue item resolved
@@ -356,11 +365,9 @@ simply listed.
 | [[wiki/mind/politics/axioms]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
 | [[wiki/mind/profile/deviance-mapping]] | mind | _(carries a GAP CLOSED from 2026-08-22)_ |
 | [[wiki/mind/profile/enneagram-5w4]] | mind | _(carries a CONTRADICTION from 2026-08-19)_ |
-| [[wiki/mind/profile/index]] | mind | — |
 | [[wiki/mind/profile/intp]] | mind | — |
 | [[wiki/mind/profile/neurodivergence]] | mind | — |
 | [[wiki/mind/psychosexual/arrangement-history]] | mind | _(carries a CORRECTED from 2026-08-20)_ |
-| [[wiki/mind/synthesis/ai-collaborative-analysis]] | mind | — |
 | [[wiki/mind/synthesis/closing-the-set]] | mind | _(carries a RE-CHECKED from 2026-08-23)_ |
 | [[wiki/mind/synthesis/political-psyops]] | mind | — |
 | [[wiki/mind/synthesis/the-cato-seat]] | mind | **RE-CHECKED** — flagged stale against intp (2026-08-26), which added a documented interruption of the Fe-adjudication pattern (an Ally Lubin exchange) and removed its `sage_pending` staging. This page reasons from th |
@@ -429,7 +436,7 @@ simply listed.
 | [[wiki/places/337-saratoga-drive]] | places | _(carries a REVISED from 2026-08-18)_ |
 | [[wiki/timeline/events/uniontown-hospital-vape-alarm]] | timeline | **GAP CLOSED** — This page asked, from its creation until now, *"Whether a summary offense was actually filed with a Fayette County magistrate, or whether the paperwork was an incident report a security guard describe |
 
-## 2026-08-21 — 6 pages
+## 2026-08-21 — 5 pages
 
 - **Session log:** close+lint | all domains | two operator answers integrated; a false claim retracted and gated; staleness cleared to zero
 - **Session log:** rewrite | self | ally-and-dan-love-as-destiny — rebuilt as an argument, on verifiable evidence
@@ -449,7 +456,6 @@ simply listed.
 | [[wiki/self/concepts/chatgpt]] | self | _(carries a GAP CLOSED from 2026-09-02)_ |
 | [[wiki/self/concepts/llm]] | self | **CORRECTED** — this section previously presented all three bullets below as *"his analysis."* They are **Gemini's**, generated in the 2025-08-24 session from Dan's five-word prompt *"gemini i think chatGPT is cooked |
 | [[wiki/self/concepts/wiki-brain]] | self | **RE-CHECKED** — llm moved on 2026-08-21: Gemini's 'chicken nugget' passage was corrected off Dan's ledger, and the post-GPT-5 causation of ChatGPT's decline was marked untested. This page carries an edge claiming Cha |
-| [[wiki/work/au-zaatar]] | work | _(carries a REVISED from 2026-07-14)_ |
 
 ## 2026-08-20 — 13 pages
 

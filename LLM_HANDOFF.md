@@ -4,7 +4,7 @@
 
 **Standing ingest instruction:** If you were told to "ingest," "keep going on the wiki," "do the Phase B pass," or any open-ended synthesis task, **read `INGEST_RUNBOOK.md` (repo root) first and follow it exactly** — it is the complete reproduction-grade workflow and overrides ad-hoc improvisation.
 
-### [2026-09-05c] - Session: the lexicon, counted (Claude Opus 5)
+### [2026-09-05e] - Session: the lexicon, counted (Claude Opus 5)
 
 * **Branch:** `claude/wiki-personal-lexicon-t50l6y` · `bin/wiki-check` clean ·
   500 pages, 0 errors · **442 tests** (19 new).
@@ -58,7 +58,7 @@ with a self-model attached.
    35 of 37 re-derivations, the staleness-cascade diagnosis, 97 handle-less
    people pages.
 
-### [2026-09-05b] - Session: the personal lexicon, and the term that was not there (Claude Opus 5)
+### [2026-09-05d] - Session: the personal lexicon, and the term that was not there (Claude Opus 5)
 
 * **Branch:** `claude/wiki-personal-lexicon-t50l6y` from `main` ·
   `bin/wiki-check` clean · 499 pages, 0 errors.
@@ -117,6 +117,76 @@ competitor anywhere.
 *"Wispr Flow"* occurs exactly once in the message corpus, in a thread this wiki
 is closed to. Not read, not quoted, not dated. The entry records the fact so a
 later session does not spend the search again.
+
+### [2026-09-05b] - Session: two re-derivations, and a ledger scoring 18 of 20 (Claude Opus 5)
+
+* **Branch:** `claude/crosslink-campaign-q9auor` from `main` after **#264 and
+  #265 merged** · **PR #266 open** and this work sits on top of it ·
+  `bin/wiki-check` clean · 431 tests green.
+
+#### New commands, both queues for debts that had none
+
+- **`bin/wiki-crosslink unlinked [--apply]`** (#264) — names a page writes in
+  its own prose and never links. 344 written; body wikilinks 10,316 → 10,660.
+- **`bin/wiki-crosslink breadcrumb [--apply]`** (#265) — 453 of 497 pages never
+  linked the index above them. `STYLE_GUIDE.md` said "reachable **from**" and
+  the lint enforced exactly that half.
+- **`bin/wiki-crosslink rederive`** — **33 pages whose count is right and whose
+  prose was written from half a thread**, biggest first, **8 of them flagged
+  directive-constrained**. Until this existed the list was a grep somebody had
+  to think of running.
+
+#### The rederive flag has a known blind spot — read this before using it
+
+It measures how often **the page** names her. `wiki/people/mohammed-bin-salman`
+names her **zero** times and its 2024-08-11 exchange is a direct arrangement
+solicitation, read and deliberately not written up. **A page can be
+directive-constrained without looking it, and the flag cannot see that until
+somebody reads the thread.** Treat an unflagged page as unverified, not as safe.
+
+#### Two re-derivations done
+
+**`davey-fitzpatrick`** (779 msgs) — the only job he has said he did not dread
+(discharges `nemacolin-caddying`'s standing caveat), the $14,000 with a date and
+a purpose, the drug-test bottle narrated to management, and Trevor's exit
+learned from somebody else. Full account in `log.md`.
+
+**`mohammed-bin-salman`** (650 msgs) — four page-level corrections: the joke
+name is about his being Moroccan and Muslim; the friendship is 18 months older
+than the page's first contact; the Au Za'atar link is documented rather than
+speculative; and the Xanax exchange the page called "comparing notes" is
+retrospective, opens *"I was joking about taking it literally"*, and supplies
+**the entire benzodiazepine arc `wiki/health/chemical-architecture` did not
+have** — the word Xanax appeared nowhere on that page.
+
+#### The testimony ledger was excluding two of its own records
+
+`--speaker` keeps third-party testimony out of Dan's score, correctly and
+**silently**. `t017` (the May 2017 cocaine spend figure) was filed `dan` and had
+been invisible since it was recorded; the headline was computed over 18 of 20.
+`record` now normalises the operator's aliases, `check` names every non-operator
+record on every run, both were voided-with-reason and re-recorded. **Veracity
+51 → 57.**
+
+#### What is next, in order
+
+1. **`bin/wiki-crosslink rederive`** — 33 owed, `jim-vrabel` (588) on top of the
+   unconstrained list. Three for three these have produced a page-level finding.
+2. **99 `unlinked --low` candidates**, all contested or single-token: a reading
+   job. The year cross-references on the twitter tree are the real ones.
+3. **`skills/INBOX.md` now holds two entries from this session** — the
+   whole-file quotation mask, and module-level name shadowing in `bin/`. The
+   second carries its own measurement arguing *against* promotion (zero
+   duplicate constants across all of `bin/`); leave it parked.
+4. **`t021` is unadjudicated and load-bearing against `wiki/health/cocaine`** —
+   "well over $100 a day" implies ~1g/day against that page's 3.5–7g/day arc.
+   Either figure being right makes the other wrong.
+
+#### Still flagged for the operator, not acted on
+
+`wiki/mind/synthesis/supply-network` prints a third-party mobile number in plain
+text and `wiki/people/tuquick-17248123683` carries one in its **slug**. Public
+repo, history cannot be un-published. Operator's call.
 
 ### [2026-09-05] - Session: the wiki does not link what it says (Claude Opus 5)
 

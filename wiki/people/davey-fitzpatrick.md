@@ -4,7 +4,7 @@ page_type: entity
 status: closed
 knowledge: mixed
 date_created: 2026-06-23
-date_modified: 2026-09-04
+date_modified: 2026-09-05
 date_range_start: 2017-05-21
 date_range_end: 2018-11-02
 sources:
@@ -20,6 +20,18 @@ infobox:
   handles: ["+17249639933", "dtfitzpatrick87@gmail.com"]
   known_for: "Dan's boss and friend in the 2018 caddying season — the 'X report' scheduling channel — and the last Uniontown coworker told about the NYC move, in the thread's final conversation"
 connections:
+  - page: wiki/mind/synthesis/estate-money-spine
+    type: evidences
+    claim: "Dates the $14,000 to the day and gives it a purpose the spine did not have: 'Gotta loan my mom $14,000 to pay her property taxes and it will cost me an extra $400 if I can't get to the bank before 4' (2018-09-20, 12:37) — against a page carrying it as a 2018-08 to 2018-10 band. It also settles the framing: Dan calls it a loan the same hour, to a coworker with no stake in it, nine months before the June 2019 fight where he writes 'I LENT YOU 14,000'."
+  - page: wiki/mind/synthesis/failure-to-launch
+    type: evidences
+    claim: "The statement of intent that page says the caddie-yard case lacks. It reads the yard as a low-oversight sovereign territory and calls it the weakest of its three positive cases because the ladder is inferred from what Dan recorded rather than from anything he said: 'i'm just conflicted because i like the job and culture and community of caddying so much, first job i've found that i don't end up dreading work everyday' (2017-10-01), unprompted, at twenty-eight, in the eighth documented job."
+  - page: wiki/interests/stand-up-comedy
+    type: evidences
+    claim: "Comedy named as a revenue line in the relocation decision rather than as an ambition: 'I'm gonna do whatever for a day job and try my hand at comedy' — 'And I can get dj gigs too' (2018-11-02), answering a coworker's 'any idea what you guys are gonna do?' on the day the NYC move was told to the yard. The page dates the ambition to 2017-12-28; this is the first time it is load-bearing in a decision."
+  - page: wiki/work/nemacolin-caddying
+    type: evidences
+    claim: "The drug-test countermeasure was not kept from management: the same March 2018 bottle of Jack Rusko's urine is narrated to the incoming assistant caddie master, carried to the paperwork appointment and temperature-maintained in an armpit, for a test that never happened."
   - page: wiki/work/nemacolin-caddying
     type: component-of
     claim: "Davey is the management layer of the caddie-yard record: promoted to assistant caddie master for 2018, he is the source of every documented report time, training assignment, and float in Dan's season, and his thread is the job's operational log."
@@ -36,19 +48,23 @@ connections:
 
 # Davey Fitzpatrick
 
-> **COUNT CORRECTED [2026-09-04] — 775, not 382.** This page reported the
-> Received-only figure as the whole thread. Dan's 393 messages to this contact
-> are in `raw/self/dox-scan/all_imessages_complete_dump.txt`, which this page
-> did not read; they were never missing from the record. Found by
-> `bin/wiki-crosslink counts`, built the same day after the same defect was
-> found by hand a fourth time — `bruce-burish` and `zach-clingan` already
-> carried corrections for it, and `rod-banks` and `zach-hendricks` got theirs
-> hours earlier. **Thirteen pages were wrong the same way.** The prose below
-> was written against the smaller, one-sided thread and has not been re-derived.
+> **RE-DERIVED [2026-09-05] — the 397 messages from Dan are read, and the
+> thread is 779 not 382.** This page was written from Davey's half alone and
+> then carried two correction blocks saying so. Both are now discharged. The
+> count correction (2026-09-04, `bin/wiki-crosslink counts`) found the
+> Received-only figure had been reported as the whole thread — the same defect
+> on thirteen pages. This pass reads what it found.
+>
+> **The reconstruction was accurate and the reconstruction was thin.** Every
+> tapback-derived quote below survives contact with the real text. What the
+> real text adds is not correction but *register*: Davey's half is a
+> scheduling channel, and Dan's half is where the season's money, its drug
+> tests, its purchases and the decision to leave Pennsylvania are all said out
+> loud.
 
 Davey Fitzpatrick was Dan's coworker, then boss, and by the end genuine
 friend across the two [[wiki/work/nemacolin-caddying|Nemacolin caddying]]
-seasons (`+17249639933`, 382 messages, May 2017 – November 2018): a
+seasons (`+17249639933`, **779 messages**, May 2017 – November 2018): a
 fellow caddie in 2017 who came back for 2018 as **assistant caddie
 master** — "I'm actually gonna be assistant caddie master lol" — which
 made his thread the operational spine of Dan's last Uniontown working
@@ -63,25 +79,133 @@ living will be lol … Are you selling your place?" — and signing off with
 "Well good luck dude, I wish you guys the best." Dan was in the city
 within the week, and the thread never resumes.
 
-> **CORRECTED [2026-09-04].** This paragraph said the record was *"his side
-> only (every row marked Received)"* and that Dan's voice survived only in the
-> tapback quotes Davey reacted to. **393 messages from Dan are in the corpus
-> this page did not read** — *"Yo loc, u ever loop for teig boyle?"*
-> (2017-05-21), *"I have 9 report"* (2017-07-24), *"you know i'm back fam.
-> ready for a wavy summer"* (2018-03-19), *"Bro what a no brainer"*
-> (2018-08-04). The tapback-reconstruction method was ingenious and was
-> answering a question that had a direct answer.
->
-> **The prose below is unchanged and was written from one side.** The
-> reconstructed quotes are still correct; they are simply no longer the only
-> thing available.
+## What Dan's half turned out to hold
 
-The tapbacks below remain as originally written — Dan's voice
-survives in the messages Davey reacted to — Likes, Laughs, and Emphasis
-quotes — which happen to preserve some of the corpus's better caddie-era
-Dan lines ("He's the Pablo Picasso of Mid-Atlantic Polynesian caddies";
-"Maybe I'm just so prepared that I memorize the sheet every day so I can
-perform background research on my group").
+**It is the most candid work thread in the corpus, and it is candid because
+the audience is a friend who is also the boss.** Four things are said here
+that are said nowhere else:
+
+**1. The only job he has ever said he did not dread.** 2017-10-01, unprompted,
+in the middle of a conversation about a management rumour: *"i'm just
+conflicted because i like the job and culture and community of caddying so
+much, first job i've found that i don't end up dreading work everyday."* He
+is twenty-eight and it is the eighth documented job. See
+[[wiki/mind/synthesis/failure-to-launch]], which reasons about a work history
+this sentence is the one clean counterexample inside.
+
+**2. The peak earning day, dated and priced.** 2017-10-03: *"i had a $550 day
+and he was with the same group"* — *"they all gave me hundreds and then
+venmo'd me another hundo when we got back."* And immediately, a prediction:
+*"i think i peak'd today. there's no way i'll ever make more jam that haha."*
+
+**3. Two drug tests, evaded, narrated as comedy.** 2018-03-19, the night
+before season paperwork: *"i wasn't sure if i should be ready for drug test
+when i go up for paperwork tomorrow so i had jack fill a cup for me lol."*
+2018-03-27, after: *"i spent the whole time maintaining the temperature of my
+bottle of jack rusko pee in my armpit … it was not the proudest moment of my
+life"*, and then *"bro i'm all-star team for passing drug tests."* The
+substitute donor is [[wiki/people/jack-rusko|Jack]]. The relevance is not the
+prank: **in March 2018 he expected to fail a workplace urine screen**, and
+said so twice, in writing, to his incoming manager.
+
+**4. The $14,000 to his mother, on the day, with the reason.** 2018-09-20,
+12:37pm: *"Gotta loan my mom $14,000 to pay her property taxes and it will
+cost me an extra $400 if I can't get to the bank before 4."* Then: *"I'm not
+even used to having that kind of money let alone loaning it out so I'm a
+mess."* Seven hours later he is asking for shifts — *"I need to work so I can
+pay off the new Apple watch."* This is the transfer
+[[wiki/mind/synthesis/estate-money-spine]] carries as a `2018-08 → 2018-10`
+band and [[wiki/people/suzanne-frank]] as the relationship's load-bearing
+number. It now has a date, a purpose, and — the part that matters — **the word
+"loan" in Dan's mouth on the day, to a third party with no stake in it**, nine
+months before the June 2019 fight in which he writes *"I LENT YOU 14,000."*
+
+## The season, in his own voice
+
+**The money is itemised.** Gratuity went to $30 a man for singles and doubles;
+Jack reported a flat $60 bag fee and *"tried telling me that the TRUMP ECONOMY
+is why they could do that"* (2018-03-19). Laurel Valley, which Dan was openly
+scouting as a transfer, paid *"150-2 tips and I think it's like 90 something
+on a 2 strap … 90 from the club that is"* — *"If we don't pick up we can
+always mutiny and all go there"* (2018-05-21). At the other end, *"Chad made
+$70 all day"* on the same trip. He stacked income where he could: a
+step-counting app pitched to Davey as *"like another $20 for every loop"*
+(2018-03-27), and by August a private 18Birdies group, *"Nemacolin Caddies."*
+
+**The first spin is narrated the same night it happened.** 2018-05-21 is the
+Laurel Valley day trip [[wiki/work/nemacolin-caddying]] dates from the other
+side; here is Dan at 22:21 that evening — *"today was my first spin and my
+feet are dee-stroyed"*, then *"I was honestly dreading it but I learned a ton
+and loved that course … It was indeed worth the physical toll of spinning"*,
+then the detail the work page could not have: **two caddies to a group split
+everything.** *"We chopped everything. I mean it wasn't required. But most
+guys there split it up incase you get a bad day."* His verdict on the course
+against his own: *"every single hole is good. Like there's no mystic 12's."*
+
+**The training assignments are asked for, not assigned.** Davey's *"Do you
+want to help me train tomorrow?"* runs from May 8; Dan's answer is always
+"Yup," and afterwards: *"No thanks necessary I actually learned a LOT doing
+it. I legit just went out and bought a vape that's lighter than a ball point
+pen because I saw how stupid it looks to run with heavy shit in pockets or
+bib"* — *"It's all about efficiency"* — *"And smoking kush between 8 and 9"*
+(2018-05-09). The gear runs through the year: a Nintendo Switch in March
+(*"so i can clap ya'll in mariokart during our 20 hour waits"*), MD4 wedges in
+May (*"Big boy gear" / "With the swing of a toddler"*), an Apple Watch by
+September.
+
+**He covers, and he says why.** *"But you know me man…I'm pretty easy going
+about whatever happens and I need the paper so I'm gonna be cool either way"*
+(2018-08-07, on being double-booked to spin). Sick with no voice at the start
+of September he still drives up: *"I'm def not gonna be able to caddie but if
+you need someone up there to wait around just in case I can do that my dude"*
+— *"I'm gonna be the team cheerleader"* (2018-09-02). The voice failure
+recurs: 2018-07-21 (*"I sounded so different with no voice"*), 2018-08-30
+(*"my voice is shot again"*), and through 2018-09-02.
+
+**The CaddyCentral rumour came from Dan.** The page previously had Davey
+musing about it. He did not — Dan brought it on 2017-10-01 with the URL,
+sourcing it (*"i got it from a reliable source and have been hearing gossip
+about a big change from several people for a few weeks now"*), and Davey's
+reply is *"Interesting"* followed by *"To be completely honest I don't plan on
+being there next summer anyway."*
+
+**Trevor left without telling him, and Dan's response is the pattern.**
+2018-07-26, learning of the exit from Davey rather than from
+[[wiki/people/trevor|Trevor]]: *"Yeah dude! I mean luckily I'm the kind of guy
+who would do something like that myself so I don't really give a shit or
+nothing … Here's what I'm gonna do…. I'm just going to say nothing at all and
+we'll take bets on how long before he reaches out."* Davey guessed five
+months. Two weeks later the same absence is priced from the yard's side —
+*"Trev picked a bad time to leave"* — and Dan's answer is *"SUCK A DICK
+TREV / here's $35 go swallow a bullet."* The affection and the abuse are the
+same register throughout this thread and neither is the tell.
+
+**The NYC decision, stated as a plan with two revenue lines.** 2018-11-02,
+his thirtieth birthday (*"I'm fucking so upset I can't call myself a '20
+something' anymore"*): *"I'm gonna do whatever for a day job and try my hand
+at comedy"* — *"And I can get dj gigs too."* This is the earliest documented
+statement of the comedy intent, thirteen months before the material on
+[[wiki/interests/stand-up-comedy]]. The scouting trip is priced too: Tuesday
+to Thursday, *"Hotel for 3 days when we go up next week…$765"*, and the
+economics he brings from the previous stint — *"as I learned living there
+before..you make proportionally more. But that's the struggle of living there,
+you're always against the wall to make rent."*
+
+**The tapback reconstruction held.** The sections below were written by
+reading what Davey Liked, Laughed at and Emphasized and inferring the line
+underneath. Checked against the actual messages, every reconstructed quote is
+right — including the two best ones ("He's the Pablo Picasso of Mid-Atlantic
+Polynesian caddies"; "Maybe I'm just so prepared that I memorize the sheet
+every day so I can perform background research on my group"), which survive
+verbatim. **The method was sound and it was answering a question that had a
+direct answer**, which is the more useful half of that result: an ingenious
+reconstruction is still evidence that a corpus went unread.
+
+One structural note the check produced. **The two exports are complementary,
+not duplicates.** There are windows here where the dump carries Davey's side
+and not Dan's — 2018-05-14 20:05–20:55 is nineteen consecutive Davey
+messages, tapbacks included, with Dan's originals absent — and windows the
+other way. Neither file is the thread; the union is.
 
 ## 2017: peers in the yard
 
@@ -144,16 +268,27 @@ consistent feature — every missed shift answered with some version of
 
 | Metric | Value |
 |---|---|
-| Messages | **775** — 393 sent (Dan), 382 received (was: 382) |
+| Messages | **779** — 397 sent (Dan), 382 received |
 | Date range | 2017-05-21 – 2018-11-02 |
 | Role | Fellow caddie (2017) → assistant caddie master (2018) |
 | Report-time messages | ~20, March–October 2018 |
+
+Re-derived 2026-09-05 against `raw/self/dox-scan/all_imessages_complete_dump.txt`.
+The figure was **382** (Received only) until 2026-09-04 and **775** for a day
+after that; 779 is the count over the union of both exports, deduplicated.
 
 **Gaps:** whether the friendship survived the NYC move in any channel
 (this thread simply stops); his exact age and Morgantown/Uniontown
 residence; the identity of "Brooke" and "Luke" from the training cohort
 (no pages; below the three-mention threshold); what became of him at
-Nemacolin after 2018.
+Nemacolin after 2018. **New from the re-derivation, and unresolved:** where
+the $14,000 came from in September 2018 — the estate had not distributed and
+[[wiki/mind/synthesis/estate-money-spine]] documents no advance before
+2019-10-12, so a lump that size in Dan's hands that month is an open source
+question, not an open amount one. Also unresolved: the identity of the
+ghosting coworker Dan was sending *"daily photoshops of him in different
+racist scenarios"* to in March 2018 — Brad had spoken to him, Davey had
+texted him a month earlier, and he never came back.
 
 ---
 
